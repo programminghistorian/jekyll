@@ -1,0 +1,7 @@
+name: Programming Historian
+description: Introductory and intermediate programming lessons for humanists
+url: http://programminghistorian.org
+permalink: :title
+safe: true
+pygments: true
+markdown: kramdown

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+	  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round' rel='stylesheet' type='text/css'>
+    <link href="/css/style.css" rel="stylesheet">
+
+    <title>Introduction to the Zotero API</title>
+        
+    <link rel="stylesheet" href="/css/pygments.css">
+
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/ui.js"></script>
+    
+    <script>
+      $(document).ready(function(){
+        $('.slide-trigger').collapsable();
+      });
+    </script>
+
+  </head>
+
+
+
+
+  <body>
+
+    <header role="banner">
+    <h1><a href="\">The Programming Historian</a></h1>
+
+	        <div class="additional">
+          <ul id="menu-main-menu" class="additional">
+            <li class="menu-item"><a href="/about">About</a></li>
+            <li class="menu-item"><a href="/lessons">Lessons</a></li>
+            <li class="menu-item"><a href="/submissions">Submissions</a></li>
+            <li class="menu-item"><a href="/team">Project Team</a></li>
+          </ul>
+        </div>
+	</header>
+
+	<div role="main">
+		<article>
+			<header>
+				<h1>Introduction to the Zotero API</h1>
+			</header>
+
+			<div class="content">
+	              <h2 id="lesson-goals">Lesson Goals</h2>
+
+<p>In this lesson, you’ll learn how to use python with the Zotero API to interact with your Zotero library. The Zotero API is a powerful interface that would allow you to build a complete Zotero client from scratch if you so desired. But like most APIs, it works in small,
+discrete steps, so we have to build our way up to the complicated
+requests we might want to use to access our Zotero libraries. But this
+incremental building gives us plenty of time to learn as we go along.</p>
+
+<h3 id="what-is-zotero">What is Zotero?</h3>
+
+<p>Zotero is a browser-based research tool that allows you to collect and
+store content. If you are new to Zotero or do not regularly use it, you
+may want to familiarize yourself with the <a href="http://zotero.org">Zotero</a>
+site and its helpful <a href="https://www.zotero.org/support/quick_start_guide">Quick Start
+Guide</a>. Additionally,
+while you will not need it for this introductory lesson, we advise that
+you download the current version of the <a href="https://github.com/fcheslack/libZotero">libZotero GitHub
+library</a> and store it in the
+directory you have chosen to use for these lessons.</p>
+
+<h3 id="installing-libzotero">Installing libZotero</h3>
+
+<p>Using what you learned in <a href="lesson-1-1-introduction-and-installation">Lesson
+1.1</a>, and the lesson on Python
+modules, we’ll use <a href="”http://www.pip-installer.org/en/latest/”">pip</a> to
+install libZotero, a python library that will allow us to interact with
+the Zotero API. To install the library, in your command line/terminal
+window enter:</p>
+
+<div class="highlight"><pre><code class="bash"> pip install libZotero 
+</code></pre></div>
+
+<p>Remember that you may need to use the sudo preface and enter your
+password to allow the installation to proceed.</p>
+
+<h3 id="zotero-hello-world">Zotero Hello World</h3>
+
+<p>Once libZotero is installed, we can use it to talk to the Zotero server
+using Python. In your text editor, run the following:</p>
+
+<div class="highlight"><pre><code class="python"> 
+<span class="c">#make the libZotero library available</span>
+<span class="kn">from</span> <span class="nn">libZotero</span> <span class="kn">import</span> <span class="n">zotero</span> 
+</code></pre></div>
+
+<p>Once we’ve successfully imported the name zotero from the library, we
+can create and define a Zotero library “object” (zlib, in this example),
+which will be our means of creating a request for the Zotero server and
+returning its data. When we create the library object we will need to
+specify whether we’re accessing an individual or group library and
+include the Zotero library’s ID number. Depending on the type of library
+we’re accessing and the things we plan to do with it, we may also need
+to include an authentication key, which functions sort of like a
+password.</p>
+
+<div class="highlight"><pre><code class="python"> 
+ <span class="c">#create Zotero library object called &quot;zlib&quot;</span>
+<span class="n">zlib</span><span class="o">=</span><span class="n">zotero</span><span class="o">.</span><span class="n">Library</span><span class="p">(</span><span class="s">&#39;group&#39;</span><span class="p">,</span><span class="s">&#39;&lt;insert group ID&gt;&#39;</span><span class="p">,</span><span class="s">&#39;&lt;null&gt;&#39;</span><span class="p">,</span>
+<span class="s">&#39;&lt;insert API key&gt;&#39;</span><span class="p">)</span> 
+</code></pre></div>
+
+<p>For this lesson, you can use your own group or individual library, or
+you can use the library we’ve created for this lesson at <a href="https://www.zotero.org/groups/programming_historian_2">Programming
+Historian 2</a>.</p>
+
+<p>If you want to use your own group or individual library, you will need
+to retrieve your group ID and API key. Your group ID can be found by
+hovering over the RSS option on your library feed. The ID is the numeric
+part of the URL. Your group API key, if one has been created, is located
+in your <a href="https://www.zotero.org/settings/keys">account settings</a>. If
+there is no key assigned to the group, and you are the end user, you can
+create a new key on the same page.</p>
+
+<p>To use the PH2 group library, use the following:\
+ Group ID: 155975\
+ API key: 9GLmvmZ1K1qGAz9QWcdlyf6L</p>
+
+<div class="highlight"><pre><code class="python"> 
+ <span class="n">zlib</span><span class="o">=</span><span class="n">zotero</span><span class="o">.</span><span class="n">Library</span><span class="p">(</span><span class="s">&#39;group&#39;</span><span class="p">,</span><span class="s">&#39;155975&#39;</span><span class="p">,</span><span class="s">&#39;&lt;null&gt;&#39;</span><span class="p">,</span>
+<span class="s">&#39;9GLmvmZ1K1qGAz9QWcdlyf6L&#39;</span><span class="p">)</span> 
+</code></pre></div>
+
+<p>Once we’ve defined our object, we can use it to interact with the
+information in the library.</p>
+
+<h3 id="retrieving-item-information">Retrieving Item Information</h3>
+
+<p>Zotero has parent items and child items. Parents are typically top-level
+objects with metadata, and children are usually things like notes and
+file attachments. For this portion of the lesson, we’ll be pulling
+information from the first five top-level items in our collection.</p>
+
+<div class="highlight"><pre><code class="python"> 
+<span class="c"># retrieve the first five top-level items.</span>
+<span class="n">items</span> <span class="o">=</span> <span class="n">zlib</span><span class="o">.</span><span class="n">fetchItemsTop</span><span class="p">({</span><span class="s">&#39;limit&#39;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s">&#39;content&#39;</span><span class="p">:</span> <span class="s">&#39;json,bib,coins&#39;</span><span class="p">})</span> 
+</code></pre></div>
+
+<p>Your output for this step, if you are using our sample collection,
+should look like this:</p>
+
+<div class="highlight"><pre><code class="python"> 
+ <span class="n">value</span> <span class="n">stored</span> <span class="ow">in</span> <span class="n">cache</span> <span class="o">-</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">api</span><span class="o">.</span><span class="n">zotero</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">groups</span><span class="o">/</span><span class="mi">155975</span><span class="o">/</span><span class="n">items</span><span class="o">/</span><span class="n">top</span><span class="err">?</span><span class="n">limit</span><span class="o">=</span><span class="mi">5</span><span class="o">&amp;</span><span class="n">content</span><span class="o">=</span>
+<span class="n">json</span><span class="o">%</span><span class="mi">2</span><span class="n">Cbib</span><span class="o">%</span><span class="mi">2</span><span class="n">Ccoins</span><span class="o">&amp;</span><span class="n">key</span><span class="o">=</span><span class="mi">9</span><span class="n">GLmvmZ1K1qGAz9QWcdlyf6L</span> 
+</code></pre></div>
+
+<p>Next, we can print some basic information about these items.</p>
+
+<div class="highlight"><pre><code class="python"> 
+ <span class="c"># print some data about these five items</span>
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">items</span><span class="p">:</span>
+<span class="k">print</span> <span class="s">&#39;Item Type: </span><span class="si">%s</span><span class="s"> | Key: </span><span class="si">%s</span><span class="s"> | Title: </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">item</span><span class="o">.</span><span class="n">itemType</span><span class="p">,</span>
+<span class="n">item</span><span class="o">.</span><span class="n">itemKey</span><span class="p">,</span> <span class="n">item</span><span class="o">.</span><span class="n">title</span><span class="p">)</span> 
+</code></pre></div>
+
+<p>This step should retrieve the item type (journal article, webpage,
+etc.), the key, and item title.</p>
+
+<div class="highlight"><pre><code class="python"> 
+<span class="n">Item</span> <span class="n">Type</span><span class="p">:</span> <span class="n">webpage</span> <span class="o">|</span> <span class="n">Key</span><span class="p">:</span> <span class="n">TK5Z4H9J</span> <span class="o">|</span> <span class="n">Title</span><span class="p">:</span> <span class="n">Benjamin</span> <span class="n">Bowsey</span>
+<span class="n">Item</span> <span class="n">Type</span><span class="p">:</span> <span class="n">webpage</span> <span class="o">|</span> <span class="n">Key</span><span class="p">:</span> <span class="mi">3</span><span class="n">A2RWZ8A</span> <span class="o">|</span> <span class="n">Title</span><span class="p">:</span> <span class="n">Y</span> <span class="n">a</span> <span class="n">t</span><span class="o">-</span><span class="n">il</span> <span class="n">une</span>
+<span class="n">Histoire</span> <span class="n">Numerique</span> <span class="mf">2.0</span><span class="err">?</span>
+<span class="n">Item</span> <span class="n">Type</span><span class="p">:</span> <span class="n">webpage</span> <span class="o">|</span> <span class="n">Key</span><span class="p">:</span> <span class="mi">79</span><span class="n">U2EACW</span> <span class="o">|</span> <span class="n">Title</span><span class="p">:</span> <span class="n">Digitization</span>
+<span class="n">boosts</span> <span class="n">access</span><span class="p">,</span> <span class="n">collaboration</span><span class="p">,</span> <span class="n">UCLA</span> <span class="n">prof</span> <span class="n">says</span>
+<span class="n">Item</span> <span class="n">Type</span><span class="p">:</span> <span class="n">journalArticle</span> <span class="o">|</span> <span class="n">Key</span><span class="p">:</span> <span class="mi">39</span><span class="n">V7A2SZ</span> <span class="o">|</span> <span class="n">Title</span><span class="p">:</span> <span class="n">History</span>
+<span class="ow">and</span> <span class="n">the</span> <span class="n">second</span> <span class="n">decade</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Web</span>
+<span class="n">Item</span> <span class="n">Type</span><span class="p">:</span> <span class="n">journalArticle</span> <span class="o">|</span> <span class="n">Key</span><span class="p">:</span> <span class="n">JRCM2PM7</span> <span class="o">|</span> <span class="n">Title</span><span class="p">:</span> <span class="n">The</span>
+<span class="n">Pasts</span> <span class="ow">and</span> <span class="n">Futures</span> <span class="n">of</span> <span class="n">Digital</span> <span class="n">History</span> 
+</code></pre></div>
+
+<p>We can also pull the bibliographic information associated with our first
+five items:</p>
+
+<div class="highlight"><pre><code class="python"> 
+ <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">items</span><span class="p">:</span>
+    <span class="k">print</span> <span class="n">item</span><span class="o">.</span><span class="n">bibContent</span> 
+</code></pre></div>
+
+<p>Running this command will print the bibliographic content stored on the
+Zotero servers for these items:</p>
+
+<div class="highlight"><pre><code class="python"> 
+ <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s">&quot;csl-bib-body&quot;</span> <span class="n">style</span><span class="o">=</span><span class="s">&quot;line-height: 1.35; padding-left: 2em; text-indent:-2em;&quot;</span> <span class="n">xmlns</span><span class="o">=</span><span class="s">&quot;http://www.w3.org/1999/xhtml&quot;</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s">&quot;csl-entry&quot;</span><span class="o">&gt;</span><span class="err">“</span><span class="n">Benjamin</span> <span class="n">Bowsey</span><span class="o">.</span><span class="err">”</span> <span class="n">Accessed</span> <span class="n">March</span> <span class="mi">29</span><span class="p">,</span> <span class="mf">2013.</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">oldbaileyonline</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="k">print</span><span class="o">.</span><span class="n">jsp</span><span class="err">?</span><span class="n">div</span><span class="o">=</span><span class="n">t17800628</span><span class="o">-</span><span class="mf">33.</span><span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s">&quot;csl-bib-body&quot;</span> <span class="n">style</span><span class="o">=</span><span class="s">&quot;line-height: 1.35; padding-left: 2em; text-indent:-2em;&quot;</span> <span class="n">xmlns</span><span class="o">=</span><span class="s">&quot;http://www.w3.org/1999/xhtml&quot;</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s">&quot;csl-entry&quot;</span><span class="o">&gt;</span><span class="n">Noiret</span><span class="p">,</span> <span class="n">Serge</span><span class="o">.</span> <span class="err">“</span><span class="n">Y</span> <span class="n">a</span> <span class="n">T</span><span class="o">-</span><span class="n">il</span> <span class="n">Une</span> <span class="n">Histoire</span> <span class="n">Numerique</span> <span class="mf">2.0</span><span class="err">?”</span> <span class="n">Contribution</span> <span class="n">to</span> <span class="n">book</span><span class="o">.</span> <span class="n">Accessed</span> <span class="n">July</span> <span class="mi">21</span><span class="p">,</span> <span class="mf">2011.</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">cadmus</span><span class="o">.</span><span class="n">eui</span><span class="o">.</span><span class="n">eu</span><span class="o">/</span><span class="n">handle</span><span class="o">/</span><span class="mi">1814</span><span class="o">/</span><span class="mf">18074.</span><span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s">&quot;csl-bib-body&quot;</span> <span class="n">style</span><span class="o">=</span><span class="s">&quot;line-height: 1.35; padding-left: 2em; text-indent:-2em;&quot;</span> <span class="n">xmlns</span><span class="o">=</span><span class="s">&quot;http://www.w3.org/1999/xhtml&quot;</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s">&quot;csl-entry&quot;</span><span class="o">&gt;</span><span class="n">Rushton</span><span class="p">,</span> <span class="n">Tullia</span><span class="o">.</span> <span class="err">“</span><span class="n">Digitization</span> <span class="n">Boosts</span> <span class="n">Access</span><span class="p">,</span> <span class="n">Collaboration</span><span class="p">,</span> <span class="n">UCLA</span> <span class="n">Prof</span> <span class="n">Says</span><span class="o">.</span><span class="err">”</span> <span class="o">&lt;</span><span class="n">i</span><span class="o">&gt;</span><span class="n">Chronicle</span> <span class="n">of</span> <span class="n">Higher</span> <span class="n">Education</span><span class="o">&lt;/</span><span class="n">i</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">January</span> <span class="mi">20</span><span class="p">,</span> <span class="mf">2010.</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">dukechronicle</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">article</span><span class="o">/</span><span class="n">digitization</span><span class="o">-</span><span class="n">boosts</span><span class="o">-</span><span class="n">access</span><span class="o">-</span><span class="n">collaboration</span><span class="o">-</span><span class="n">ucla</span><span class="o">-</span><span class="n">prof</span><span class="o">-</span><span class="n">says</span><span class="o">.&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s">&quot;csl-bib-body&quot;</span> <span class="n">style</span><span class="o">=</span><span class="s">&quot;line-height: 1.35; padding-left: 2em; text-indent:-2em;&quot;</span> <span class="n">xmlns</span><span class="o">=</span><span class="s">&quot;http://www.w3.org/1999/xhtml&quot;</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s">&quot;csl-entry&quot;</span><span class="o">&gt;</span><span class="n">Cohen</span><span class="p">,</span> <span class="n">Daniel</span> <span class="n">J</span><span class="o">.</span> <span class="err">“</span><span class="n">History</span> <span class="ow">and</span> <span class="n">the</span> <span class="n">Second</span> <span class="n">Decade</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Web</span><span class="o">.</span><span class="err">”</span> <span class="o">&lt;</span><span class="n">i</span><span class="o">&gt;</span><span class="n">Rethinking</span> <span class="n">History</span><span class="o">&lt;/</span><span class="n">i</span><span class="o">&gt;</span> <span class="mi">8</span><span class="p">,</span> <span class="n">no</span><span class="o">.</span> <span class="mi">2</span> <span class="p">(</span><span class="mi">2004</span><span class="p">):</span> <span class="mf">293.</span> <span class="n">doi</span><span class="p">:</span><span class="mf">10.1080</span><span class="o">/</span><span class="mf">13642520410001683950.</span><span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s">&quot;csl-bib-body&quot;</span> <span class="n">style</span><span class="o">=</span><span class="s">&quot;line-height: 1.35; padding-left: 2em; text-indent:-2em;&quot;</span> <span class="n">xmlns</span><span class="o">=</span><span class="s">&quot;http://www.w3.org/1999/xhtml&quot;</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s">&quot;csl-entry&quot;</span><span class="o">&gt;</span><span class="n">Ayers</span><span class="p">,</span> <span class="n">Edward</span> <span class="n">L</span><span class="o">.</span> <span class="err">“</span><span class="n">The</span> <span class="n">Pasts</span> <span class="ow">and</span> <span class="n">Futures</span> <span class="n">of</span> <span class="n">Digital</span> <span class="n">History</span><span class="err">”</span> <span class="p">(</span><span class="mi">1999</span><span class="p">)</span><span class="o">.</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">vcdh</span><span class="o">.</span><span class="n">virginia</span><span class="o">.</span><span class="n">edu</span><span class="o">/</span><span class="n">PastsFutures</span><span class="o">.</span><span class="n">html</span><span class="o">.&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+</code></pre></div>
+
+<p>Now that we have worked through retrieving information using the Zotero
+API, we can continue to use it to interact with the items stored in our
+library.</p>
+
+	        </div>
+        </article>
+    </div>
+
+    </div> <!-- end below-nav -->
+
+<footer role="contentinfo">
+
+          <div class="additional">
+          <ul id="menu-main-menu" class="additional">
+            <li class="menu-item"><a href="/about">About</a></li>
+            <li class="menu-item"><a href="/lessons">Lessons</a></li>
+            <li class="menu-item"><a href="/submissions">Submissions</a></li>
+            <li class="menu-item"><a href="/team">Project Team</a></li>
+          </ul>
+        </div>
+<!--
+<p><em>The Programming Historian</em> is released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+
+  <p id="logos"><a href="http://niche-canada.org/" id="niche"><img src="/images/niche.jpg" title="NiCHE"></a> <a href="http://chnm.gmu.edu" id="rrchnm"><img src="/images/rrchnm.png"></a></p>
+-->
+</footer>
+
+    </body>
+</html>
