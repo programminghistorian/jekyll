@@ -1,0 +1,250 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>The Programming Historian</title>
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css">
+
+    <!-- Modernizr and Friends -->
+    <script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script>
+    <script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script>
+  
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="The Programming Historian &raquo; Code Reuse and Modularity Comments Feed" href="http://programminghistorian.org/lessons/code-reuse-and-modularity/feed" />
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://programminghistorian.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Working With Web Pages' href='http://programminghistorian.org/lessons/working-with-web-pages' />
+<link rel='next' title='Working with Text Files' href='http://programminghistorian.org/lessons/working-with-text-files' />
+<meta name="generator" content="WordPress 3.9.1" />
+<link rel='canonical' href='http://programminghistorian.org/lessons/code-reuse-and-modularity' />
+<link rel='shortlink' href='http://programminghistorian.org/?p=1579' />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+</head>
+<body class="single single-lesson postid-1579">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header role="banner">
+      <h1><a href="http://programminghistorian.org">The Programming Historian</a></h1>
+<div class="additional"><ul id="menu-main-menu" class="additional"><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div>  </header>
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+
+
+  <div role="main">
+      
+                <article>
+            <header>
+                                <p class="kicker">July 17, 2012</p>
+                
+                <h1><a href="http://programminghistorian.org/lessons/code-reuse-and-modularity">Code Reuse and Modularity</a></h1>
+                                <p class="byline">By William J. Turkel & Adam Crymble</p>
+                
+                                  <ul class="credits">
+
+                                        <li class="technical-reviewer">Technical Reviewer: Jim Clifford</li>
+                    
+                                        <li class="literary-reviewer">Literary Reviewer: Miriam Posner                    
+                    
+                  </ul>
+                            </header>
+            <div class="content">
+
+            <h2>Lesson Goals</h2>
+<p>Computer programs can become long, unwieldy and confusing without special mechanisms for managing complexity. This lesson will show you how to reuse parts of your code by writing <span class="tech">Functions</span> and break your programs into <span class="tech">Modules</span>, in order to keep everything concise and easier to debug. Being able to remove a single dysfunctional module can save time and effort.</p>
+<h3>Functions</h3>
+<p>You will often find that you want to re-use a particular set of statements, usually because you have a task that you need to do over and over. Programs are mostly composed of routines that are powerful and general-purpose enough to be reused. These are known as functions, and Python has mechanisms that allow you to define new functions. Let&#8217;s work through a very simple example of a function. Suppose you want to create a general purpose function for greeting people. Copy the following function definition into Komodo Edit and save it as <span class="filename">greet.py</span>.</p>
+<pre class="brush: python; title: ; notranslate" title=""># greet.py
+
+def greetEntity (x):
+    print &quot;hello &quot; + x
+
+greetEntity(&quot;Everybody&quot;)
+greetEntity(&quot;Programming Historian&quot;)</pre>
+<p>The line beginning with &#8220;<span class="reserved">def</span>&#8221; is the <span class="tech">function declaration</span>. We are going to define (&#8220;<span class="reserved">def</span>&#8220;) a function, which in this case we have named &#8220;<span class="var">greetEntity</span>&#8220;. The (<span class="var">x</span>) is the function&#8217;s parameter. You should understand how that works in a moment. The second line contains the code of the function. This could be as many lines as we need, but in this case it is only a single line.</p>
+<p>Note that <span class="tech">indentation</span> is very important in Python. The blank space before the <span class="reserved">print</span> statement tells the interpreter that it is part of the function that is being defined. You will learn more about this as we go along; for now, make sure to keep indentation the way we show it. Run the program, and you should see something like this:</p>
+<pre class="brush: python; title: ; notranslate" title="">hello Everybody
+hello Programming Historian</pre>
+<p>This example contains one function: <span class="var">greetEntity</span>. This function is then &#8220;<span class="tech">called</span>&#8221; (sometimes referred to as &#8220;invoked&#8221;) two times. Calling or invoking a function just means we have told the program to execute the code in that function. Like giving the dog his chicken-flavoured treat (*woof* *woof*). In this case each time we have called the function we have given it a different parameter. Try editing <span class="filename">greet.py</span> so that it calls the <span class="var">greetEntity</span> function a third time using your own name as a parameter. Run the program again. You should now be able to figure out what (<span class="var">x</span>) does in the function declaration.</p>
+<p>Before moving on to the next step, edit <span class="filename">greet.py</span> to delete the function calls, leaving only the function declaration. You&#8217;re going to learn how to call the function from another program. When you are finished, your <span class="filename">greet.py</span> file should look like this:</p>
+<pre class="brush: python; title: ; notranslate" title=""># greet.py
+
+def greetEntity (x):
+    print &quot;hello &quot; + x</pre>
+<h3>Modularity</h3>
+<p>When programs are small like the above example, they are typically stored in a single file. When you want to run one of your programs, you can simply send the file to the interpreter. As programs become larger, it makes sense to split them into separate files known as modules. This modularity makes it easier for you to work on sections of your larger programs. By perfecting each section of the program before putting all of the sections together, you not only make it easier to reuse individual modules in other programs, you make it easier to fix problems by being able to pinpoint the source of the error. When you break a program into modules, you are also able to hide the details for how something is done within the module that does it. Other modules don&#8217;t need to know how something is accomplished if they are not responsible for doing it. This need-to-know principle is called &#8220;<span class="tech">encapsulation</span>&#8220;.</p>
+<p>Suppose you were building a car. You could start adding pieces willy nilly, but it would make more sense to start by building and testing one module — perhaps the engine — before moving on to others. The engine, in turn, could be imagined to consist of a number of other, smaller modules like the carburettor and ignition system, and those are comprised of still smaller and more basic modules. The same is true when coding. You try to break a problem into smaller pieces, and solve those first.</p>
+<p>You already created a module when you wrote the <span class="filename">greet.py</span> program. Now you are going to write a second program, <span class="filename">using-greet.py</span> which will <span class="reserved">import</span> code from your module and make use of it. Python has a special <span class="reserved">import</span> statement that allows one program to gain access to the contents of another program file. This is what you will be using.</p>
+<p>Copy this code to Komodo Edit and save it as <span class="filename">using-greet.py</span>. This file is your program; <span class="filename">greet.py</span> is your module.</p>
+<pre class="brush: python; title: ; notranslate" title=""># using-greet.py
+
+import greet
+greet.greetEntity(&quot;everybody&quot;)
+greet.greetEntity(&quot;programming historian&quot;)</pre>
+<p>We have done a few things here. First, we have told Python to &#8220;<span class="reserved">import</span>&#8221; (load) the <span class="filename">greet.py</span> module, which we previously created.</p>
+<p>You will also notice that whereas before we were able to run the function by calling only it&#8217;s name: <span class="var">greetEntity(&#8220;everybody&#8221;)</span>, we now need to include the module&#8217;s name followed by a dot (<span class="reserved">.</span>) in front of the function name. In plain English this means: run the <span class="var">greetEntity</span> function, which you should find in the <span class="filename">greet.py</span> module.</p>
+<p>You can run your <span class="filename">using-greet.py</span> program with the &#8220;Run Python&#8221; command that you created in Komodo Edit. Note that you do not have to run your module&#8230;just the program that calls it. If all went well, you should see the following in the Komodo Edit output pane:</p>
+<pre class="brush: python; title: ; notranslate" title="">hello everybody
+hello programming historian</pre>
+<p>Make sure that you understand the difference between loading a data file (e.g. <span class="filename">helloworld.txt</span>) and importing a program file (e.g. <span class="filename">greet.py</span>) before moving on.</p>
+<h2>Suggested Readings</h2>
+<ul>
+<li><a href="http://www.astro.ufl.edu/~warner/prog/python.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.astro.ufl.edu']);" target="_blank">Python Basics</a></li>
+</ul>
+
+                          <footer>
+                                </footer>
+            
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div id="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/lessons/code-reuse-and-modularity#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://programminghistorian.org/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='1579' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="ffb21fd3eb" /></p><script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="69"/></p>
+</form>
+
+</div>
+
+
+            
+            </div>
+
+
+                      </article>
+                
+<ul class="navigation pager">
+<li class="previous">
+<p class="kicker">Previous</p>
+<a href="http://programminghistorian.org/lessons/working-with-text-files">Working with Text Files</a></li>
+  <li class="next">
+<p class="kicker">Next</p>
+<a href="http://programminghistorian.org/lessons/viewing-html-files">Viewing HTML Files</a></ul><!-- .navigation -->
+        
+            </div>
+<footer role="contentinfo">
+<div class="additional"><ul id="menu-main-menu-1" class="additional"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div><p><em>The Programming Historian</em> released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+
+  <p id="logos"><a href="http://niche-canada.org/" id="niche"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/niche.jpg" title="NiCHE"></a> <a href="http://chnm.gmu.edu" id="rrchnm"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/rrchnm.png"></a></p>
+</footer>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c'></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body>
+</html>

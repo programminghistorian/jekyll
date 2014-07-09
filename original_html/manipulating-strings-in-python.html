@@ -1,0 +1,317 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>The Programming Historian</title>
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css">
+
+    <!-- Modernizr and Friends -->
+    <script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script>
+    <script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script>
+  
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="The Programming Historian &raquo; Manipulating Strings in Python Comments Feed" href="http://programminghistorian.org/lessons/manipulating-strings-in-python/feed" />
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://programminghistorian.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='From HTML to List of Words (part 1)' href='http://programminghistorian.org/lessons/from-html-to-list-of-words-1' />
+<link rel='next' title='Working With Web Pages' href='http://programminghistorian.org/lessons/working-with-web-pages' />
+<meta name="generator" content="WordPress 3.9.1" />
+<link rel='canonical' href='http://programminghistorian.org/lessons/manipulating-strings-in-python' />
+<link rel='shortlink' href='http://programminghistorian.org/?p=1569' />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+</head>
+<body class="single single-lesson postid-1569">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header role="banner">
+      <h1><a href="http://programminghistorian.org">The Programming Historian</a></h1>
+<div class="additional"><ul id="menu-main-menu" class="additional"><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div>  </header>
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+
+
+  <div role="main">
+      
+                <article>
+            <header>
+                                <p class="kicker">July 17, 2012</p>
+                
+                <h1><a href="http://programminghistorian.org/lessons/manipulating-strings-in-python">Manipulating Strings in Python</a></h1>
+                                <p class="byline">By William J. Turkel & Adam Crymble</p>
+                
+                                  <ul class="credits">
+
+                                        <li class="technical-reviewer">Technical Reviewer: Jim Clifford</li>
+                    
+                                        <li class="literary-reviewer">Literary Reviewer: Miriam Posner                    
+                    
+                  </ul>
+                            </header>
+            <div class="content">
+
+            <h2>Lesson Goals</h2>
+<p>This lesson is a brief introduction to string manipulation techniques in Python. Knowing how to manipulate strings plays a crucial role in most text processing tasks. If you&#8217;d like to experiment with the following lessons, you can write and execute short programs as we&#8217;ve been doing, or you can open up a Python shell / Terminal to try them out on the command line.</p>
+<h2>Manipulating Python Strings</h2>
+<p>If you have been exposed to another programming language before, you might have learned that you need to <span class="tech">declare</span> or type variables before you can store anything in them. This is not necessary when working with strings in Python. We can create a string simply by putting content wrapped with quotation marks into it with an equal sign (<span class="reserved">=</span>):</p>
+<pre class="brush: python; title: ; notranslate" title="">message = &quot;Hello World&quot;</pre>
+<h3>String Operators: Adding and Multiplying</h3>
+<p>As we mentioned previously, a string is a type of object, one that consists of a series of characters. Python already knows how to deal with a number of general-purpose and powerful representations, including strings. One way to manipulate strings is by using <span class="tech">string operators</span>. These operators are represented by symbols that you likely associate with mathematics, such as <span class="reserved">+</span>, <span class="reserved">-</span>, <span class="reserved">*</span>, <span class="reserved">/</span>, and <span class="reserved">=</span>. When used with strings, they perform actions that are similar to, but not the same as, their mathematical counterparts.</p>
+<h4>Concatenate</h4>
+<p>This term means to join strings together. The process is known as <span class="tech">concatenating</span> strings and it is done using the plus (<span class="reserved">+</span>) operator. Note that you must be explicit about where you want blank spaces to occur by placing them between single quotation marks also.</p>
+<p>In this example, the <span class="tech">string</span> &#8220;message1&#8243; is given the content &#8220;hello world&#8221;.</p>
+<pre class="brush: python; title: ; notranslate" title="">message1 = 'hello' + ' ' + 'world'
+print message1
+-&gt; hello world</pre>
+<h4>Multiply</h4>
+<p>If you want multiple copies of a string, use the multiplication (<span class="reserved">*</span>) operator. In this example, <span class="tech">string</span> &#8220;message2a&#8221; is given the content &#8220;hello&#8221; times three; <span class="tech">string</span> &#8220;message 2b&#8221; is given content &#8220;world&#8221;; then we <span class="tech">print</span> both strings.</p>
+<pre class="brush: python; title: ; notranslate" title="">message2a = 'hello ' * 3
+message2b = 'world'
+print message2a + message2b
+-&gt; hello hello hello world</pre>
+<h4>Append</h4>
+<p>What if you want to add material to the end of a string successively? There is a special operator for that (<span class="reserved">+=</span>).</p>
+<pre class="brush: python; title: ; notranslate" title="">message3 = 'howdy'
+message3 += ' '
+message3 += 'world'
+print message3
+-&gt; howdy world</pre>
+<h3>String Methods: Finding, Changing</h3>
+<p>In addition to operators, Python comes pre-installed with dozens of string methods that allow you to do things to strings. Used alone or in combination, these methods can do just about anything you can imagine to strings. The good news is that you can reference a list of String Methods on the <a href="http://www.python.org/doc/2.5.2/lib/string-methods.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.python.org']);" target="_blank">Python website</a>, including information on how to use each properly. To make sure that you&#8217;ve got a basic grasp of string methods, what follows is a brief overview of some of the more commonly used ones:</p>
+<h4>Length</h4>
+<p>You can determine the number of characters in a string using <span class="reserved">len</span>. Note that the blank space counts as a separate character.</p>
+<pre class="brush: python; title: ; notranslate" title="">message4 = 'hello' + ' ' + 'world'
+print len(message4)
+-&gt; 11</pre>
+<h4>Find</h4>
+<p>You can search a string for a <span class="tech">substring</span> and your program will return the starting <span class="tech">index position</span> of that substring. This is helpful for further processing. Note that indexes are numbered from left to right and that the count starts with position 0, not 1.</p>
+<pre class="brush: python; title: ; notranslate" title="">message5 = &quot;hello world&quot;
+message5a = message5.find(&quot;worl&quot;)
+print message5a
+-&gt; 6</pre>
+<p>If the substring is not present, the program will return a value of -1.</p>
+<pre class="brush: python; title: ; notranslate" title="">message6 = &quot;Hello World&quot;
+message6b = message6.find(&quot;squirrel&quot;)
+print message6b
+-&gt; -1</pre>
+<h4>Lower Case</h4>
+<p>Sometimes it is useful to convert a string to lower case. For example, if we standardize case it makes it easier for the computer to recognize that &#8220;Sometimes&#8221; and &#8220;sometimes&#8221; are the same word.</p>
+<pre class="brush: python; title: ; notranslate" title="">message7 = &quot;HELLO WORLD&quot;
+message7a = message7.lower()
+print message7a
+-&gt; hello world</pre>
+<p>The opposite effect, raising characters to upper case, can be achieved by changing <span class="reserved">.lower()</span> to <span class="reserved">.upper()</span>.</p>
+<h4>Replace</h4>
+<p>If you need to replace a substring throughout a string you can do so with the <span class="reserved">replace</span> method.</p>
+<pre class="brush: python; title: ; notranslate" title="">message8 = &quot;HELLO WORLD&quot;
+message8a = message8.replace(&quot;L&quot;, &quot;pizza&quot;)
+print message8a
+-&gt; HEpizzapizzaO WORpizzaD</pre>
+<h4>Slice</h4>
+<p>If you want to <span class="reserved">slice</span> off unwanted parts of a string from the beginning or end you can do so by creating a substring. The same kind of technique also allows you to break a long string into more manageable components.</p>
+<pre class="brush: python; title: ; notranslate" title="">message9 = &quot;Hello World&quot;
+message9a = message9[1:8]
+print message9a
+-&gt; ello Wo</pre>
+<p>You can substitute variables for the integers used in this example.</p>
+<pre class="brush: python; title: ; notranslate" title="">startLoc = 2
+endLoc = 8
+message9b = message9[startLoc: endLoc]
+print message9b
+-&gt; llo Wo</pre>
+<p>This makes it much easier to use this method in conjunction with the <span class="reserved">find</span> method as in the next example, which checks for the letter &#8220;d&#8221; in the first six characters of &#8220;Hello World&#8221; and correctly tells us it is not there (-1). This technique is much more useful in longer strings – entire documents for example. Note that the absence of an integer before the colon signifies we want to start at the beginning of the string. We could use the same technique to tell the program to go all the way to the end by putting no integer after the colon. And remember, index positions start counting from 0 rather than 1.</p>
+<pre class="brush: python; title: ; notranslate" title="">message9 = &quot;Hello World&quot;
+print message9[:5].find(&quot;d&quot;)
+-&gt; -1</pre>
+<p>There are lots more, but the string methods above are a good start. Note that in this last example, we are using square brackets instead of parentheses. This difference in <span class="tech">syntax</span> signals an important distinction. In Python, parentheses are usually used to <span class="tech">pass an argument</span> to a function. So when we see something like</p>
+<pre class="brush: python; title: ; notranslate" title="">print len(message7)</pre>
+<p>it means pass the string <span class="var">message7</span> to the function <span class="reserved">len</span> then send the returned value of that function to the <span class="reserved">print</span> statement to be printed. If a function can be called without an argument, you often have to include a pair of empty parentheses after the function name anyway. We saw an example of that, too:</p>
+<pre class="brush: python; title: ; notranslate" title="">message7 = &quot;HELLO WORLD&quot;
+message7a = message7.lower()
+print message7a
+-&gt; hello world</pre>
+<p>This statement tells Python to apply the <span class="reserved">lower</span> function to the string <span class="var">message7</span> and store the returned value in the string <span class="var">message7a</span>.</p>
+<p>The square brackets serve a different purpose. If you think of a string as a sequence of characters, and you want to be able to access the contents of the string by their location within the sequence, then you need some way of giving Python a location within a sequence. That is what the square brackets do: indicate a beginning and ending location within a sequence as we saw when using the <span class="reserved">slice</span> method.</p>
+<h3>Escape Sequences</h3>
+<p>What do you do when you need to include quotation marks within a string? You don&#8217;t want the Python interpreter to get the wrong idea and end the string when it comes across one of these characters. In Python, you can put a backslash (<span class="reserved">\</span>) in front of a quotation mark so that it doesn&#8217;t terminate the string. These are known as escape sequences.</p>
+<pre class="brush: python; title: ; notranslate" title="">print '\&quot;'
+-&gt; &quot;</pre>
+<pre class="brush: python; title: ; notranslate" title="">print 'The program printed \&quot;hello world\&quot;'
+-&gt; The program printed &quot;hello world&quot;</pre>
+<p>Two other escape sequences allow you to print tabs and newlines:</p>
+<pre class="brush: python; title: ; notranslate" title="">print 'hello\thello\thello\nworld'
+-&gt;hello hello hello
+world</pre>
+<h2>Suggested Reading</h2>
+<ul>
+<li>Lutz, <em>Learning Python</em>
+<ul>
+<li>Ch. 7: Strings</li>
+<li>Ch. 8: Lists and Dictionaries</li>
+<li>Ch. 10: Introducing Python Statements</li>
+<li>Ch. 15: Function Basics</li>
+</ul>
+</li>
+</ul>
+<h3><span id="codesync">Code Syncing</span></h3>
+<p>To follow along with future lessons it is important that you have the right files and programs in your programming-historian directory. At the end of each chapter you can download the programming-historian zip file to make sure you have the correct code. Note we have removed unneeded files from earlier lessons. Your directory may contain more files and that&#8217;s ok!</p>
+<ul>
+<li>programming-historian (<a href="http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian2.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian2.zip']);">zip</a>)</li>
+</ul>
+
+                          <footer>
+                                </footer>
+            
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div id="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/lessons/manipulating-strings-in-python#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://programminghistorian.org/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='1569' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="1398374ec1" /></p><script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="4"/></p>
+</form>
+
+</div>
+
+
+            
+            </div>
+
+
+                      </article>
+                
+<ul class="navigation pager">
+<li class="previous">
+<p class="kicker">Previous</p>
+<a href="http://programminghistorian.org/lessons/working-with-web-pages">Working With Web Pages</a></li>
+  <li class="next">
+<p class="kicker">Next</p>
+<a href="http://programminghistorian.org/lessons/from-html-to-list-of-words-1">From HTML to List of Words (part 1)</a></ul><!-- .navigation -->
+        
+            </div>
+<footer role="contentinfo">
+<div class="additional"><ul id="menu-main-menu-1" class="additional"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div><p><em>The Programming Historian</em> released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+
+  <p id="logos"><a href="http://niche-canada.org/" id="niche"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/niche.jpg" title="NiCHE"></a> <a href="http://chnm.gmu.edu" id="rrchnm"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/rrchnm.png"></a></p>
+</footer>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c'></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body>
+</html>

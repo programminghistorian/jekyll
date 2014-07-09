@@ -1,0 +1,365 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>The Programming Historian</title>
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css">
+
+    <!-- Modernizr and Friends -->
+    <script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script>
+    <script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script>
+  
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="The Programming Historian &raquo; From HTML to List of Words (part 2) Comments Feed" href="http://programminghistorian.org/lessons/from-html-to-list-of-words-2/feed" />
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://programminghistorian.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Normalizing Data' href='http://programminghistorian.org/lessons/normalizing-data' />
+<link rel='next' title='From HTML to List of Words (part 1)' href='http://programminghistorian.org/lessons/from-html-to-list-of-words-1' />
+<meta name="generator" content="WordPress 3.9.1" />
+<link rel='canonical' href='http://programminghistorian.org/lessons/from-html-to-list-of-words-2' />
+<link rel='shortlink' href='http://programminghistorian.org/?p=1581' />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+</head>
+<body class="single single-lesson postid-1581">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header role="banner">
+      <h1><a href="http://programminghistorian.org">The Programming Historian</a></h1>
+<div class="additional"><ul id="menu-main-menu" class="additional"><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div>  </header>
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+
+
+  <div role="main">
+      
+                <article>
+            <header>
+                                <p class="kicker">July 17, 2012</p>
+                
+                <h1><a href="http://programminghistorian.org/lessons/from-html-to-list-of-words-2">From HTML to List of Words (part 2)</a></h1>
+                                <p class="byline">By William J. Turkel & Adam Crymble</p>
+                
+                                  <ul class="credits">
+
+                                        <li class="technical-reviewer">Technical Reviewer: Jim Clifford</li>
+                    
+                                        <li class="literary-reviewer">Literary Reviewer: Miriam Posner                    
+                    
+                  </ul>
+                            </header>
+            <div class="content">
+
+            <h2>Lesson Goals</h2>
+<p>In this lesson, you will learn the Python commands needed to implement the second part of the algorithm begun in the <a href="http://programminghistorian.org/lessons/from-html-to-list-of-words-1" >From HTML to a List of Words (part 1)</a>. The first half of the algorithm gets the content of an HTML page and saves only the content that follows the <span class="reserved">&lt;hr/&gt;&lt;h2&gt;</span> tags. The second half of the algorithm does the following:</p>
+<ul>
+<li>Look at every character in the <span class="var">pageContents</span> string, one character at a time</li>
+<li>If the character is a left angle bracket (&lt;) we are now inside a tag so ignore each following character</li>
+<li>If the character is a right angle bracket (&gt;) we are now leaving the tag; ignore the current character, but look at each following character</li>
+<li>If we&#8217;re not inside a tag, <span class="reserved">append</span> the current character to a new variable: <span class="var">text</span></li>
+<li>Split the <span class="var">text</span> string into a list of individual words that can later be manipulated further.</li>
+</ul>
+<h3>Files Needed For This Lesson</h3>
+<ul>
+<li><span class="filename">obo.py</span></li>
+<li><span class="filename">trial-content.py</span></li>
+</ul>
+<p>If you do not have these files from the previous lesson, you can download a <a href="http://programminghistorian.org/lessons/from-html-to-list-of-words-1#codesync" >zip file from the previous lesson here.</a></p>
+<h2>Repeating and Testing in Python</h2>
+<p>The next stage in implementing the algorithm is to look at every character in the <span class="var">pageContents</span> string, one at a time and decide whether the character belongs to HTML markup or to the content of the trial transcript. Before you can do this you&#8217;ll have to learn a few techniques for repeating tasks and for testing conditions.</p>
+<h3>Looping</h3>
+<p>Like many programming languages, Python includes a number of <span class="tech">looping</span> mechanisms. The one that you want to use in this case is called a <span class="tech">for loop</span>. The version below tells the interpreter to do something for each character in a string named <span class="var">pageContents</span>. The variable <span class="var">char</span> will contain each character from <span class="var">pageContents</span> in succession. We gave <span class="var">char</span> its name; it does not have any special significance and could have been named <span class="var">jingles</span> or <span class="var">k</span> if we had felt so inclined. You can use the colour-coding in Komodo Edit as a guideline for deciding if a word is a variable with a user-given name (such as &#8220;<span class="var">char</span>&#8220;) or a Python-defined name that serves a specific purpose (such as &#8220;<span class="reserved">for</span>&#8220;). It is usually a good idea to give variables names that provide information about what they contain. This will make it much easier to understand a program that you haven&#8217;t looked at for a while. With this in mind, &#8220;<span class="var">jingles</span>&#8221; is probably not a very good choice for a variable name in this case.</p>
+<pre class="brush: python; title: ; notranslate" title="">for char in pageContents:
+    # do something with char</pre>
+<h3>Branching</h3>
+<p>Next you need a way of testing the contents of a string, and choosing a course of action based on that test. Again, like many programming languages, Python includes a number of <span class="tech">branching</span> mechanisms. The one that you want to use here is called an <span class="tech">if statement</span>. The version below tests to see whether the string named <span class="var">char</span> consists of a left angle bracket. As we mentioned earlier, indentation is important in Python. If code is indented, Python will execute it when the condition is true.</p>
+<p>Note that Python uses a single equals sign (<span class="reserved">=</span>) for <span class="tech">assignment</span>, that is for setting one thing equal to something else. In order to test for <span class="tech">equality</span>, use double equals signs (<span class="reserved">==</span>) instead. Beginning programmers often confuse the two.</p>
+<pre class="brush: python; title: ; notranslate" title="">if char == '&lt;':
+    # do something</pre>
+<p>A more general form of the if statement allows you to specify what to do in the event that your test condition is false.</p>
+<pre class="brush: python; title: ; notranslate" title="">if char == '&lt;':
+    # do something
+else:
+    # do something different</pre>
+<p>In Python you have the option of doing further tests after the first one, by using an <span class="tech">elif statement</span> (which is shorthand for else if).</p>
+<pre class="brush: python; title: ; notranslate" title="">if char == '&lt;':
+    # do something
+elif char == '&gt;':
+    # do another thing
+else:
+    # do something completely different</pre>
+<h2>Use the Algorithm to Remove HTML Markup</h2>
+<p>You now know enough to implement the second part of the algorithm: removing all HTML tags. In this part of the algorithm we want to:</p>
+<ul>
+<li>Look at every character in the <span class="var">pageContents</span> string, one character at a time</li>
+<li>If the character is a left angle bracket (&lt;) we are now inside a tag so ignore the character</li>
+<li>If the character is a right angle bracket (&gt;) we are now leaving the tag; ignore the character</li>
+<li>If we&#8217;re not inside a tag, <span class="reserved">append</span> the current character to a new variable: <span class="var">text</span></li>
+</ul>
+<p>To do this, you will use a for loop to look at each successive character in the string. You will then use an if / elif statement to determine whether the character is part of HTML markup or part of the content, then append the content characters to the <span class="var">text</span> string. How will we keep track of whether or not we&#8217;re inside a tag? We can use an integer variable, which will be 1 (true) if the current character is inside a tag and 0 (false) if it&#8217;s not (in the example below we have named the variable <span class="var">inside</span>).</p>
+<h3>The stripTags Routine</h3>
+<p>Putting it all together, the final version of the routine is shown below. Note that we are expanding the <span class="var">stripTags</span> function created above. Make sure you maintain the indentation as shown when you replace the old <span class="var">stripTags</span> routine in <span class="filename">obo.py</span> with this new one.</p>
+<p>Your routine may look slightly different and as long as it works that&#8217;s fine. If you&#8217;ve elected to experiment, it&#8217;s probably best to try our version as well to make sure that your program does what ours does.</p>
+<pre class="brush: python; title: ; notranslate" title=""># obo.py
+def stripTags(pageContents):
+    startLoc = pageContents.find(&quot;&lt;hr/&gt;&lt;h2&gt;&quot;)
+    pageContents = pageContents[startLoc:]
+
+    inside = 0
+    text = ''
+
+    for char in pageContents:
+        if char == '&lt;':
+            inside = 1
+        elif (inside == 1 and char == '&gt;'):
+            inside = 0
+        elif inside == 1:
+            continue
+        else:
+            text += char
+
+    return text</pre>
+<p>There are two new Python concepts in this new code: <span class="tech">continue</span> and <span class="tech">return</span>.</p>
+<p>The Python continue statement tells the interpreter to jump back to the top of the enclosing loop. So if we are processing characters inside of a pair of angle brackets, we want to go get the next character in the <span class="var">pageContents</span> string without adding anything to our <span class="var">text</span> variable.</p>
+<p>In our previous examples we have used <span class="reserved">print</span> extensively. This outputs the result of our program to the screen for the user to read. Often, however, we wish to allow one part of the program to send information to another part. When a function finishes executing, it can <span class="reserved">return</span> a value to the code which called it. If we were to call <span class="var">stripTags</span> using another program, we would do so like this:</p>
+<pre class="brush: python; title: ; notranslate" title="">#understanding the Return statement
+
+import obo
+
+myText = &quot;This is my &lt;h1&gt;HTML&lt;/h1&gt; message&quot;
+
+theResult = obo.stripTags(myText)</pre>
+<p>By using <span class="reserved">return</span>, we have been able to save the output of the <span class="var">stripTags</span> function directly into a variable, which we can then resume processing as needed using additional code.</p>
+<p>Note that in the <span class="var">stripTags</span> example from the start of this sub-section, the value that we want to <span class="reserved">return</span> now is not <span class="var">pageContents</span>, but rather the content which has had the HTML markup stripped out.</p>
+<p>To test our new <span class="var">stripTags</span> routine, you can run <span class="filename">trial-content.py</span> again. Since we&#8217;ve redefined <span class="var">stripTags</span>, the <span class="filename">trial-content.py</span> program now does something different (and closer to what we want). Before you continue, make sure that you understand why the behaviour of <span class="filename">trial-content.py</span> would change when we only edited <span class="filename">obo.py</span>.</p>
+<h2>Python Lists</h2>
+<p>Now that you have the ability to extract raw text from web pages, you&#8217;re going to want to get the text in a form that is easy to process. So far, when you&#8217;ve needed to store information in your Python programs, you&#8217;ve usually used strings. There were a couple of exceptions, however. In the <span class="var">striptags</span> routine, you also made use of an <a href="http://www.python.org/doc/current/lib/typesnumeric.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.python.org']);" target="_blank">integer</a> named <span class="var">inside</span> to store a 1 when you were processing a tag and a 0 when you weren&#8217;t. You can do mathematical operations on integers but you cannot store fractions or decimal numbers in integer variables.</p>
+<pre class="brush: python; title: ; notranslate" title="">inside = 1</pre>
+<p>And whenever you’ve needed to read from or write to a file, you&#8217;ve used a special file handle like <span class="var">f</span> in the example below.</p>
+<pre class="brush: python; title: ; notranslate" title="">f = open('helloworld.txt','w')
+f.write('hello world')
+f.close()</pre>
+<p>One of the most useful <a href="http://www.python.org/doc/current/lib/types.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.python.org']);" target="_blank"><span class="tech">types</span></a> of object that Python provides, however, is the <span class="tech">list</span>, an ordered collection of other objects (including, potentially, other lists). Converting a string into a list of characters or words is straightforward. Type or copy the following program into your text editor to see two ways of achieving this. Save the file as <span class="filename">string-to-list.py</span> and execute it. Compare the two lists that are printed to the Command Output pane and see if you can figure out how the code works.</p>
+<pre class="brush: python; title: ; notranslate" title=""># string-to-list.py
+
+# some strings
+s1 = 'hello world'
+s2 = 'howdy world'
+
+# list of characters
+charlist = []
+for char in s1:
+    charlist.append(char)
+print charlist
+
+# list of 'words'
+wordlist = s2.split()
+print wordlist</pre>
+<p>The first routine uses a for loop to step through each character in the string <span class="var">s1</span>, and <span class="reserved">appends</span> the character to the end of <span class="var">charlist</span>. The second routine makes use of the <span class="reserved">split</span> operation to break the string <span class="var">s2</span> apart wherever there is whitespace (spaces, tabs, carriage returns and similar characters). Actually, it is a bit of a simplification to refer to the objects in the second list as words. Try changing <span class="var">s2</span> in the above program to &#8216;howdy world!&#8217; and running it again. What happened to the exclamation mark? Note, that you will have to save your changes before using Run Python again.</p>
+<p>Given what you&#8217;ve learned so far, you can now open a URL, download the web page to a string, strip out the HTML and then split the text into a list of words. Try executing the following program.</p>
+<pre class="brush: python; title: ; notranslate" title="">#html-to-list1.py
+import urllib2, obo
+
+url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+
+response = urllib2.urlopen(url)
+html = response.read()
+text = obo.stripTags(html)
+wordlist = text.split()
+
+print wordlist[0:120]</pre>
+<p>You should get something like the following.</p>
+<pre class="brush: python; title: ; notranslate" title="">['BENJAMIN', 'BOWSEY,', 'Breaking', 'Peace', '&amp;gt;',
+'riot,', '28th', 'June', '1780.', '324.', 'BENJAMIN',
+'BOWSEY', '(a', 'blackmoor', ')', 'was', 'indicted',
+'for', 'that', 'he', 'together', 'with', 'five',
+'hundred', 'other', 'persons', 'and', 'more,', 'did,',
+'unlawfully,', 'riotously,', 'and', 'tumultuously',
+'assemble', 'on', 'the', '6th', 'of', 'June', 'to',
+'the', 'disturbance', 'of', 'the', 'public', 'peace',
+'and', 'did', 'begin', 'to', 'demolish', 'and', 'pull',
+'down', 'the', 'dwelling', 'house', 'of', 'Richard',
+'Akerman', ',', 'against', 'the', 'form', 'of', 'the',
+'statute,', '&amp;amp;c.', 'ROSE', 'JENNINGS', ',', 'Esq.',
+'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be',
+'in', 'this', 'part', 'of', 'the', 'town,', 'on', 'the',
+'6th', 'of', 'June', 'in', 'the', 'evening?', '-', 'I',
+'dined', 'with', 'my', 'brother', 'who', 'lives',
+'opposite', 'Mr.', &quot;Akerman's&quot;, 'house.', 'They',
+'attacked', 'Mr.', &quot;Akerman's&quot;, 'house', 'precisely',
+'at', 'seven', &quot;o'clock;&quot;, 'they', 'were', 'preceded',
+'by', 'a', 'man']</pre>
+<p>Simply having a list of words doesn&#8217;t buy you much yet. As human beings, we already have the ability to read. You&#8217;re getting much closer to a representation that your programs can process, however.</p>
+<h2>Suggested Reading</h2>
+<ul>
+<li>Lutz, <em>Learning Python</em>
+<ul>
+<li>Ch. 7: Strings</li>
+<li>Ch. 8: Lists and Dictionaries</li>
+<li>Ch. 10: Introducing Python Statements</li>
+<li>Ch. 15: Function Basics</li>
+</ul>
+</li>
+</ul>
+<h3><span id="codesync">Code Syncing</span></h3>
+<p>To follow along with future lessons it is important that you have the right files and programs in your programming-historian directory. At the end of each chapter you can download the programming-historian zip file to make sure you have the correct code. Note we have removed unneeded files from earlier lessons. Your directory may contain more files and that&#8217;s ok!</p>
+<ul>
+<li>programming-historian (<a href="http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian2.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian2.zip']);">zip</a>)</li>
+</ul>
+
+                          <footer>
+                                </footer>
+            
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div id="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/lessons/from-html-to-list-of-words-2#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://programminghistorian.org/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='1581' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="80bebe5b6e" /></p><script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="224"/></p>
+</form>
+
+</div>
+
+
+            
+            </div>
+
+
+                      </article>
+                
+<ul class="navigation pager">
+<li class="previous">
+<p class="kicker">Previous</p>
+<a href="http://programminghistorian.org/lessons/from-html-to-list-of-words-1">From HTML to List of Words (part 1)</a></li>
+  <li class="next">
+<p class="kicker">Next</p>
+<a href="http://programminghistorian.org/lessons/normalizing-data">Normalizing Data</a></ul><!-- .navigation -->
+        
+            </div>
+<footer role="contentinfo">
+<div class="additional"><ul id="menu-main-menu-1" class="additional"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div><p><em>The Programming Historian</em> released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+
+  <p id="logos"><a href="http://niche-canada.org/" id="niche"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/niche.jpg" title="NiCHE"></a> <a href="http://chnm.gmu.edu" id="rrchnm"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/rrchnm.png"></a></p>
+</footer>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c'></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body>
+</html>

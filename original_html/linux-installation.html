@@ -1,0 +1,262 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>The Programming Historian</title>
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css">
+
+    <!-- Modernizr and Friends -->
+    <script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script>
+    <script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script>
+  
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="The Programming Historian &raquo; Linux Installation Comments Feed" href="http://programminghistorian.org/lessons/linux-installation/feed" />
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://programminghistorian.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Mac Installation' href='http://programminghistorian.org/lessons/mac-installation' />
+<link rel='next' title='What to do if you get Stuck' href='http://programminghistorian.org/lessons/troubleshooting' />
+<meta name="generator" content="WordPress 3.9.1" />
+<link rel='canonical' href='http://programminghistorian.org/lessons/linux-installation' />
+<link rel='shortlink' href='http://programminghistorian.org/?p=1632' />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+</head>
+<body class="single single-lesson postid-1632">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header role="banner">
+      <h1><a href="http://programminghistorian.org">The Programming Historian</a></h1>
+<div class="additional"><ul id="menu-main-menu" class="additional"><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div>  </header>
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+
+
+  <div role="main">
+      
+                <article>
+            <header>
+                                <p class="kicker">July 17, 2012</p>
+                
+                <h1><a href="http://programminghistorian.org/lessons/linux-installation">Linux Installation</a></h1>
+                                <p class="byline">By William J. Turkel, Adam Crymble</p>
+                
+                                  <ul class="credits">
+
+                                        <li class="technical-reviewer">Technical Reviewer: Jim Clifford, Amanda Morton</li>
+                    
+                                        <li class="literary-reviewer">Literary Reviewer: Miriam Posner                    
+                    
+                  </ul>
+                            </header>
+            <div class="content">
+
+            <p>Thanks to John Fink for providing the basis of this section. These instructions are for Ubuntu 12.04 LTS, but should work for any apt based system such as Debian, or Linux Mint, provided you have <span class="reserved">sudo</span> installed.</p>
+<h3>Back up your computer</h3>
+<p>It is always important to make sure you have regular and recent backups of your computer. This is just good advice for life, and is not limited to times when you are engaged in programming.</p>
+<h3>Install Python v. 2 and Python &#8220;Beautiful Soup&#8221; module</h3>
+<ol>
+<li>Open a terminal (<span class="userinput">Dash Home</span>, then type <span class="userinput">Terminal</span>, then click on the Terminal icon).</li>
+<li>Now type: <span class="userinput">sudo apt-get install python2.7 python-beautifulsoup</span></li>
+<li>Enter your password, and then type <span class="userinput">Y</span> to finish the install. Note that you probably have Python 2.7 installed already, so don&#8217;t be alarmed if Ubuntu tells you that.</li>
+</ol>
+<h3>Create a directory</h3>
+<p>You will keep your Python programs in this directory. It can be anywhere you like, but it is probably best to put it in your home folder. Something like this in your open terminal window should do the trick:</p>
+<pre class="brush: plain; title: ; notranslate" title="">cd ~
+mkdir programming-historian</pre>
+<h3>Install Komodo Edit</h3>
+<p>Komodo Edit is a free and open source code editor, but as we said in the introduction, you have many <a href="http://wiki.python.org/moin/PythonEditors/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://wiki.python.org']);" target="_blank">other text editing options</a>. You can download Komodo Edit at the <a href="http://www.activestate.com/komodo-edit" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.activestate.com']);" target="_blank">Komoto Edit Website</a>. Once you&#8217;ve downloaded it, open it with Ubuntu&#8217;s package manager, extract it to your home directory, and follow the installation instructions. If you are following along with these instructions and have installed Komodo Edit, open the home folder, go to the <span class="filename">Komodo-Edit-7/bin</span> directory, and click on komodo. You can also right click on the Komodo icon in your launcher and click &#8220;<span class="filename">Lock to Launcher</span>&#8221; to have Komodo saved permanently to your launcher bar.</p>
+<h3>Make a &#8220;Run Python&#8221; Command in Komodo Edit</h3>
+<ul>
+<ul>
+<ol>
+<li>In Komodo Edit, click the gear icon under <span class="filename">Toolbox</span> and select <span class="filename">New Command</span>.</li>
+<li>In the top field type &#8220;<span class="userinput">Run Python File</span>&#8220;</li>
+<li>In the Command field, type: <span class="userinput">%(python) %f</span> Then hit the OK button at the bottom of the Add Command window.</li>
+</ol>
+</ul>
+</ul>
+<h2>Step 2 &#8211; &#8220;Hello World&#8221; in Python</h2>
+<p>It is traditional to begin programming in a new language by trying to create a program that says &#8220;hello world&#8221; and terminates. We will show you how to do this in Python and HTML.</p>
+<p>Python is a good programming language for beginners because it is very <span class="tech">high-level</span>. It is possible, in other words, to write short programs that accomplish a lot. The shorter the program, the more likely it is for the whole thing to fit on one screen, and the easier it is to keep track of all of it in your mind.</p>
+<p>The languages that we will be using are all <span class="tech">interpreted</span>. This means that there is a special computer program (known as an <span class="tech">interpreter</span>) that knows how to follow instructions written in that language. One way to use the interpreter is to store all of your instructions in a <span class="tech">file</span>, and then run the interpreter on the file. A file that contains programming language instructions is known as a <span class="tech">program</span>. The interpreter will execute each of the instructions that you gave it in your program and then stop. Let&#8217;s try this.</p>
+<p>In your text editor, create a new file, enter the following two-line program and save it to your <span class="filename">programming-historian</span> directory as <span class="filename">hello-world.py</span></p>
+<pre class="brush: python; title: ; notranslate" title=""># hello-world.py
+print 'hello world'</pre>
+<p>Your chosen text editor should have a &#8220;<span class="filename">Run</span>&#8221; button that will allow you to execute your program. If all went well, it should look something like this (Example as seen in Komodo Edit. Click on the image to see a full-size copy):</p>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2011/06/hello-world1.png" ><img class="wp-image-290" title="hello-world" alt="hello world in Komodo Edit on a Mac" src="http://programminghistorian.org/wp-content/uploads/2011/06/hello-world1.png" /></a> <figcaption>&#8220;Hello World&#8221; in Python</figcaption></figure>
+<h3>Interacting with a Python shell</h3>
+<p>Another way to interact with an interpreter is to use what is known as a <span class="tech">shell</span>. You can type in a statement and press the Enter key, and the shell will respond to your command. Using a shell is a great way to test statements to make sure that they do what you think they should.</p>
+<p>You can run a Python shell by launching the &#8220;terminal&#8221;. For Linux, go to <span class="filename">Applications-&gt; Accessories -&gt; Terminal</span>and do the same. At the Python shell prompt, type</p>
+<pre class="brush: python; title: ; notranslate" title="">print 'hello world'</pre>
+<p>and press Enter. The computer will respond with</p>
+<pre class="brush: python; title: ; notranslate" title="">hello world</pre>
+<p>When we want to represent an interaction with the shell, we will use <span class="filename">-&gt;</span> to indicate the shell’s response to your command, as shown below:</p>
+<pre class="brush: python; title: ; notranslate" title="">print 'hello world'
+-&gt; hello world</pre>
+<p>On your screen, it will look more like this:</p>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2011/06/hello-world-terminal.png" ><img class="alignnone wp-image-292" title="hello-world-terminal" alt="hello world terminal on a Mac" src="http://programminghistorian.org/wp-content/uploads/2011/06/hello-world-terminal.png" /></a> <figcaption>Python Shell in Mac Terminal</figcaption></figure>
+<p><a href="lesson-1-2-viewing-html-files">.</a></p>
+<p>Now that you and your computer are up and running, we can move onto some more interesting tasks. If you are working through the Python lessons in order, we suggest you next try &#8216;<a href="/lessons/viewing-html-files">Viewing HTML Files</a>&#8216;</p>
+
+                          <footer>
+                                          <div class="author-info">
+                          <p class="author-name">About William J. Turkel, Adam Crymble</p>
+                           <div class="author-description"><p>Adam Crymble is a PhD history & digital humanities student at King's College London, and the webmaster for The Network in Canadian History & Environment. William J. Turkel is an Associate Professor of History at Western University.</p>
+</div>
+                        </div>
+                                </footer>
+            
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div id="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/lessons/linux-installation#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://programminghistorian.org/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='1632' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="ee7a70a2dc" /></p><script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="29"/></p>
+</form>
+
+</div>
+
+
+            
+            </div>
+
+
+                      </article>
+                
+<ul class="navigation pager">
+<li class="previous">
+<p class="kicker">Previous</p>
+<a href="http://programminghistorian.org/lessons/introduction-and-installation">Python Introduction and Installation</a></li>
+  <li class="next">
+<p class="kicker">Next</p>
+<a href="http://programminghistorian.org/lessons/working-with-text-files">Working with Text Files</a></ul><!-- .navigation -->
+        
+            </div>
+<footer role="contentinfo">
+<div class="additional"><ul id="menu-main-menu-1" class="additional"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div><p><em>The Programming Historian</em> released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+
+  <p id="logos"><a href="http://niche-canada.org/" id="niche"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/niche.jpg" title="NiCHE"></a> <a href="http://chnm.gmu.edu" id="rrchnm"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/rrchnm.png"></a></p>
+</footer>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPlain.js?ver=3.0.83c'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c'></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body>
+</html>
