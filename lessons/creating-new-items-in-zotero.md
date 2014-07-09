@@ -8,8 +8,6 @@ date: 04-01-2013
 Using Python to Create a New Zotero Item
 -----------------------------------------
 
-Testing Jekyll build.
-
 In the lesson on [Using the Zotero API](using-the-zotero-api),
 you learned a little bit about how Zotero and its API; now you can access some of its
 functions using Python scripts. In this lesson, you will create a new
