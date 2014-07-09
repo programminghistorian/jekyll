@@ -2,6 +2,7 @@
 layout: default
 title: Creating New Items in Zotero
 author: Amanda Morton
+date: 04-01-2013
 ---
 
 Using Python to Create a New Zotero Item
