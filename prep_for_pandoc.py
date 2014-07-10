@@ -68,8 +68,9 @@ for file in files:
         # change attributes of `pre` blocks so pandoc will recognize them
         codeblocks = soup.find_all('pre')
         for block in codeblocks:
-            brush = block.attrs['class'][1]
-            block.attrs['class'] = brush
+            if block.attrs:
+               brush = block.attrs['class'][1]
+               block.attrs['class'] = brush
 		    
         # try to decompose divs that won't be needed in markdown version
         headers = soup.find_all('header')
