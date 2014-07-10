@@ -64,7 +64,7 @@ for file in files:
         for tag in new_tags:
             original_head.append(tag)
         
-		# change attributes of `pre` blocks so pandoc will recognize them
+        # change attributes of `pre` blocks so pandoc will recognize them
         codeblocks = soup.find_all('pre')
         for block in codeblocks:
             brush = block.attrs['class'][1]
