@@ -23,7 +23,7 @@ for file in files:
         soup = BeautifulSoup(html)
         f.close()
         
-        # find the relevant metadata
+        # find relevant metadata
         original_head = soup.head
         author = soup.find(class_='byline')
         date = soup.find(class_='kicker')
@@ -64,6 +64,12 @@ for file in files:
         for tag in new_tags:
             original_head.append(tag)
         
+		# change attributes of `pre` blocks so pandoc will recognize them
+        codeblocks = soup.find_all('pre')
+        for block in codeblocks:
+            brush = block.attrs['class'][1]
+            block.attrs['class'] = brush
+		    
         # try to decompose divs that won't be needed in markdown version
         headers = soup.find_all('header')
         footers = soup.find_all('footer')
