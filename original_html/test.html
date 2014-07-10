@@ -21,11 +21,10 @@
                 var s = document.getElementsByTagName('script')[0];
                 s.parentNode.insertBefore(ga, s);
             })();
-            //]]&gt;</script><link href="http://programminghistorian.org/lessons/data-mining-the-internet-archive/feed" rel="alternate" title="The Programming Historian » Data Mining the Internet Archive Collection Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/georeferencing-qgis" rel="prev" title="Georeferencing in QGIS 2.0"/><link href="http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown" rel="next" title="Sustainable Authorship in Plain Text using Pandoc and Markdown"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/data-mining-the-internet-archive" rel="canonical"/><link href="http://programminghistorian.org/?p=2417" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="Caleb McDaniel" name="author"/><meta content="Data Mining the Internet Archive Collection" name="title"/><meta content="03-03-2014" name="date"/><meta content="William J Turkel" name="reviewers"/></head><body class="single single-lesson postid-2417">
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/data-mining-the-internet-archive/feed" rel="alternate" title="The Programming Historian » Data Mining the Internet Archive Collection Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/georeferencing-qgis" rel="prev" title="Georeferencing in QGIS 2.0"/><link href="http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown" rel="next" title="Sustainable Authorship in Plain Text using Pandoc and Markdown"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/data-mining-the-internet-archive" rel="canonical"/><link href="http://programminghistorian.org/?p=2417" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="Caleb McDaniel" name="author"/><meta content="Data Mining the Internet Archive Collection" name="title"/><meta content="03-03-2014" name="date"/><meta content="William J Turkel" name="reviewers"/><meta name="author"/><meta name="title"/><meta name="date"/><meta content="" name="reviewers"/></head><body class="single single-lesson postid-2417">
 <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-
 <script type="text/javascript">
     jQuery(document).ready(function($) {
     // Inside of this function, $() will work as an alias for jQuery()
@@ -35,7 +34,6 @@
     </script>
 <div role="main">
 <article>
-
 <div class="content">
 <h2>Lesson Goals</h2>
 <p>The collections of the <a href="http://archive.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://archive.org']);" target="_blank">Internet Archive</a> (IA) include many digitized sources of interest to historians, including <a href="https://archive.org/details/jstor_ejc" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://archive.org']);" target="_blank">early JSTOR journal content</a>, <a href="https://archive.org/details/johnadamsBPL" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://archive.org']);" target="_blank">John Adams’s personal library</a>, and the <a href="https://archive.org/details/jcbhaiti" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://archive.org']);" target="_blank">Haiti collection</a> at the John Carter Brown Library. In short, to quote Programming Historian <a href="http://activehistory.ca/2013/09/the-internet-archive-rocks-or-two-million-plus-free-sources-to-explore/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://activehistory.ca']);" target="_blank">Ian Milligan</a>, “The Internet Archive rocks.”</p>
@@ -47,11 +45,11 @@
 <p>We will be working with two Python modules that are not included in Python’s standard library.</p>
 <p>The first, <a href="https://pypi.python.org/pypi/internetarchive" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://pypi.python.org']);" target="_blank">internetarchive</a>, provides programmatic access to the Internet Archive. The second, <a href="https://pypi.python.org/pypi/pymarc/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://pypi.python.org']);" target="_blank">pymarc</a>, makes it easier to parse MARC records.</p>
 <p>The easiest way to download both is to use pip, the python package manager. Begin by installing <span class="filename">pip</span> using <a href="http://programminghistorian.org/lessons/installing-python-modules-pip/">this Programming Historian lesson</a>. Then issue these commands at the command line: To install <span class="filename">internetarchive</span>:</p>
-<pre class="brush: bash; title: ; notranslate" title="">
+<pre class="bash;" title="">
 sudo pip install internetarchive
 </pre>
 <p>To install <span class="filename">pymarc</span>:</p>
-<pre class="brush: bash; title: ; notranslate" title="">
+<pre class="bash;" title="">
 sudo pip install pymarc
 </pre>
 <p>Now you are ready to go to work!</p>
@@ -62,19 +60,19 @@ sudo pip install pymarc
 <p>Stop and think about that for a moment: every item uploaded from the Collection contains these things. Right now, that means historians have access to rich metadata, full images, and partial descriptions for <a href="http://archive.org/search.php?query=collection%3Abplscas&amp;sort=-publicdate" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://archive.org']);" target="_blank">thousands of antislavery letters, manuscripts, and publications</a>.</p>
 <h2>Accessing an IA Collection in Python</h2>
 <p>Internet Archive (IA) collections and items all have a unique identifier, and URLs to collections and items all look like this:</p>
-<pre class="brush: plain; title: ; notranslate" title="">
+<pre class="plain;" title="">
 
 http://archive.org/details/[IDENTIFIER]
 
 </pre>
 <p>So, for example, here is a URL to the Archive item discussed above, Douglass’s letter to Garrison:</p>
-<pre class="brush: plain; title: ; notranslate" title="">
+<pre class="plain;" title="">
 
 http://archive.org/details/lettertowilliaml00doug
 
 </pre>
 <p>And here is a URL to the entire antislavery collection at the Boston Public Library:</p>
-<pre class="brush: plain; title: ; notranslate" title="">
+<pre class="plain;" title="">
 
 http://archive.org/details/bplscas/
 
@@ -83,29 +81,29 @@ http://archive.org/details/bplscas/
 <p>Once you have a collection’s identifier—in this case, <span class="filename">bplscas</span>—seeing all of the items in the collection is as easy as navigating to the Archive’s <a href="https://archive.org/advancedsearch.php" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://archive.org']);" target="_blank">advanced search</a> page, selecting the id from the drop down menu next to “Collection,” and hitting the search button. Performing that search with <span class="filename">bplscas</span> selected returns <a href="https://archive.org/search.php?query=collection%3A%28bplscas%29" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://archive.org']);" target="_blank">this page</a>, which as of this writing showed 7,029 results.</p>
 <p>We can also <a href="https://pypi.python.org/pypi/internetarchive#searching-from-python" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://pypi.python.org']);" target="_blank">search the Archive using the Python module that we installed</a>, and doing so makes it easier to iterate over all the items in the collection for purposes of further inspection and downloading.</p>
 <p>For example, let’s modify the sample code from the module’s documentation to see if we can tell, with Python, how many items are in the digital Antislavery Collection. The sample code looks like this:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 import internetarchive
 search = internetarchive.Search('collection:nasa')
 print search.num_found
 </pre>
 <p>All we should need to modify is the collection identifier, from <span class="filename">nasa</span> to <span class="filename">bplscas</span>. After starting your computer’s Python interpreter, try entering each of the above lines, followed by enter, but modify the collection id in the second command:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 search = internetarchive.Search('collection:bplscas')
 </pre>
 <p>After hitting enter on the <span class="reserved">print</span> command, you should see a number that matches the number of results you <a href="http://archive.org/search.php?query=collection%3Abplscas" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://archive.org']);" target="_blank">saw when doing the advanced search for the collection in the browser</a>.</p>
 <h2>Accessing an IA Item in Python</h2>
 <p>The <span class="filename">internetarchive</span> module also allows you to access individual items using their identifiers. Let’s try that using the <a href="https://pypi.python.org/pypi/internetarchive#downloading-from-python" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://pypi.python.org']);" target="_blank">documentation’s sample code for downloading an item</a>, modifying it in order to get the Douglass letter we discussed earlier.</p>
 <p>If you are still at your Python interpreter’s command prompt, you don’t need to <span class="tech">import internetarchive</span> again, so instead just enter the second and third lines from the sample code, followed each time by enter, but changing the sample identifier <span class="var">stairs</span> to our item identifier, <span class="var">lettertowilliaml00doug</span> (note that the character before the two zeroes is a lowercase L, not the number 1):</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 item = internetarchive.Item('lettertowilliaml00doug')
 item.download()
 </pre>
 <p>Depending on your Internet connection speed, it will now probably take a minute or two for the command prompt to return, because your computer is downloading all of the files associated with that item, including some pretty large images. But when it’s done downloading, you should be see a new directory on your computer whose name is the item identifier. To check, first exit your Python interpreter:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 exit()
 </pre>
 <p>Then list the contents of the current directory to see if a folder now appears named <span class="filename">lettertowilliaml00doug. If you list the contents of that folder, you should see a list of files similar to this:</span></p>
-<pre class="brush: plain; title: ; notranslate" title="">
+<pre class="plain;" title="">
 39999066767938.djvu
 39999066767938.epub
 39999066767938.gif
@@ -128,19 +126,19 @@ lettertowilliaml00doug_metasource.xml
 <h2>Downloading MARC Records from a Collection</h2>
 <p>Downloading one item is nice, but what if we want to look at thousands of items in a collection? We’re in luck, because the <span class="filename">internetarchive</span> module’s Search function allows us to iterate over all the results in a search.</p>
 <p>To see how, let’s first start our Python interpreter again. We’ll need to import our module again, and perform our search again:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 import internetarchive
 search = internetarchive.Search('collection:bplscas')
 </pre>
 <p>Now let’s enter the documentation’s sample code for printing out the item identifier of every item returned by our search:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 for result in search.results():
    print result['identifier']
 </pre>
 <p>Note that after entering the first line, your Python interpreter will automatically print the ellipsis on line two. This is because you have started a <span class="tech">for loop</span>, and Python is expecting there to be more. It wants to know what you want to do for each result in the search. That’s also why, once you hit enter on the second line, you’ll see a third line with another ellipsis, because Python doesn’t know whether you are finished telling it what to do with each result. Hit enter again to end the for loop and execute the command.</p>
 <p>You should now see your terminal begin to print out the identifiers for each result returned by our <span class="var">bplscas</span> search—in this case, all 7,029 of them! You can interrupt the print out by hitting <span class="userinput">Ctrl-C</span> on your keyboard, which will return you to the prompt.</p>
 <p>If you didn’t see identifiers printing out to your screen, but instead saw an error like this, you may have forgotten to enter a few spaces before your <span class="reserved">print command:</span></p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 for result in search.results():
    print result['identifier']
 File "", line 2
@@ -152,7 +150,7 @@ IndentationError: expected an indented block
 <h2>Understanding the for loop</h2>
 <p>The <span class="reserved">for loop</span>, expressed in plain English, tells Python to do something to each thing in a collection of things. In the above case, we printed the identifier for each result in the results of our collection search. Two additional points about the <span class="reserved">for loop</span>:</p>
 <p>First, the word we used after <span class="reserved">for</span> is what’s called a <span class="tech">local variable</span> in Python. It serves as a placeholder for whatever instance or item we are going to be working with inside the loop. Usually it makes sense to pick a name that describes what kind of thing we are working with—in this case, a search result—but we could have used other names in place of that one. For example, try running the above for loop again, but substitute a different name for the local variable, such as:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 for item in search.results():
    print item['identifier']
 </pre>
@@ -160,7 +158,7 @@ for item in search.results():
 <p>The second thing to note about the <span class="reserved">for loop</span> is that the indented block could could have contained other commands. In this case, we printed each individual search result’s identifier. But we could have chosen to do, for each result, anything that we could do to an individual Internet Archive item.</p>
 <p>For example, earlier we downloaded all the files associated with the item <span class="var">lettertowilliaml00doug</span>. We could have done that to each item returned by our search by changing the line <span class="userinput">print result['identifier']</span> in our <span class="reserved">for loop</span> to <span class="userinput">result.download()</span>.</p>
 <p>We probably want to think twice before doing that, though—downloading all the files for each of the 7,029 items in the <span class="var">bplscas</span> collection is a lot of files. Fortunately, the download function in the <span class="filename">internetarchive</span> module also allows you to <a href="https://pypi.python.org/pypi/internetarchive#downloading-from-python" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://pypi.python.org']);" target="_blank">download specific files associated with an item</a>. If we had only wanted to download the MARC XML record associated with a particular item, we could have instead done this:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 item = internetarchive.Item('lettertowilliaml00doug')
 marc = item.file('lettertowilliaml00doug_marc.xml')
 marc.download()
@@ -168,7 +166,7 @@ marc.download()
 <p>Because Internet Archive <a href="https://archive.org/about/faqs.php#140" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://archive.org']);" target="_blank">item files are named according to specific rules</a>, we can also figure out the name of the MARC file we want just by knowing the item’s unique identifier. And armed with that knowledge, we can proceed to …</p>
 <h2>Download All the MARC XML Files from a Collection</h2>
 <p>For the next section, we’re going to move from using the Python shell to writing a Python script that downloads the MARC record from each item in the BPL Antislavery Collection. Try putting this script into Komodo or your preferred text editor:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 #!/usr/bin/python
 
 import internetarchive
@@ -191,7 +189,7 @@ for result in search.results():
 <p>Let’s say, for example, that we had forgotten that we already downloaded an individual file into this directory. Or maybe your computer briefly loses its Internet connection, or some sort of outage happens on the Internet Archive server that prevents the script from getting the file it wants.</p>
 <p>In those and other error cases, Python will raise an “exception” telling you what the problem is. Unfortunately, an exception will also crash your script instead of continuing on to the next item.</p>
 <p>To prevent this, we can use what’s called a <span class="reserved">try</span> statement in Python, which does exactly what it sounds like. The statement will try to execute a certain snippet of code until it hits an exception, in which case you can give it some other code to execute instead. You can read more about <a href="http://docs.python.org/2/tutorial/errors.html#handling-exceptions" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://docs.python.org']);" target="_blank">handling exceptions</a> in the Python documentation, but for now let’s just update our above script so that it looks like this:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 #!/usr/bin/python
 
 import internetarchive
@@ -216,7 +214,7 @@ for result in search.results():
 </pre>
 <p>The main thing we’ve added here, after our module import statements, is a line that opens a text file called <span class="filename">bpl-marcs-errors.log</span> and prepares it to have text appended to it. We are going to use this file to log exceptions that the script raises. The <span class="reserved">try statement</span> that we have added to our <span class="reserved">for loop</span> will attempt to download the MARC record. If it can’t, it will write a descriptive statement about what went wrong to our log file. That way we can go back to the file later and identify which items we will need to try to download again. If the try clause succeeds and can download the record, then the script will execute the code in the <span class="reserved">else clause</span>.</p>
 <p>One other thing we have added, upon successful download, is this line:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 time.sleep(1)
 </pre>
 <p>This line uses the <span class="var">time module</span> that we are now importing at the beginning to tell our script to pause for one second before proceeding, which is basically just a way for us to be nice to Internet Archive’s servers by not clobbering them every millisecond or so with a request.</p>
@@ -230,11 +228,11 @@ time.sleep(1)
 <p>That means that it should be possible for us to look inside all of the MARC records we have downloaded, grab the information inside of <span class="var">datafield “260,” subfield “a,”</span> and make a list of every place name where items in the collection were published.</p>
 <p>To do this, we’ll use the other helpful Python module that we downloaded with <span class="filename">pip</span> at the beginning: <a href="https://github.com/edsu/pymarc" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);" target="_blank">pymarc</a>.</p>
 <p>That module makes it easy to get information out of subfields. Assuming that we have a MARC record prepared for parsing by the module assigned to the variable record, we could get the information about publication place names this way:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 place_of_pub = record['260']['a']
 </pre>
 <p>The documentation for <span class="filename">pymarc</span> is a little less complete than that for the Internet Archive, especially when it comes to parsing XML records. But a little rooting around in the source code for the module reveals some <a href="https://github.com/edsu/pymarc/blob/master/pymarc/marcxml.py" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);" target="_blank">functions that it provides for working with MARC XML records</a>. One of these, called <span class="var">map_xml()</span> is described this way:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 def map_xml(function, *files):
     """
     map a function onto the file, so that for each record that is
@@ -247,7 +245,7 @@ def map_xml(function, *files):
     """
 </pre>
 <p>Translated into plain English, this function means that we can take an XML file containing MARC data (like the nearly 7,000 we now have on our computer), pass it to the <span class="var">map_xml</span> function in the <span class="filename">pymarc</span> module, and then specify another function (that we will write) telling our program what to do with the MARC data retrieved from the XML file. In rough outline, our code will look something like this:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 import pymarc
 
 def get_place_of_pub(record):
@@ -257,11 +255,11 @@ def get_place_of_pub(record):
 pymarc.map_xml(get_place_of_pub, 'lettertowilliaml00doug_marc.xml')
 </pre>
 <p>Try saving that code to a script and running it from a directory where you already have the Douglass letter XML saved. If all goes well, the script should spit out this:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 Belfast, [Northern Ireland],
 </pre>
 <p>Voila! Of course, this script would be much more useful if we scraped the place of publication from every letter in our collection of MARC records. Putting together what we’ve learned from earlier in the lesson, we can do that with a script that looks like this:</p>
-<pre class="brush: python; title: ; notranslate" title="">
+<pre class="python;" title="">
 #!/usr/bin/python
 
 import os
@@ -286,37 +284,14 @@ for file in os.listdir(path):
 <p>Or, to get a very rough visual sense of the places where letters were written, you could do what I’ve done below and simply make a <a href="http://www.wordle.net/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.wordle.net']);" target="_blank">Wordle word cloud</a> of the text file.</p>
 <div class="wp-caption alignnone" id="attachment_2419" style="width: 610px"><img alt="Wordle wordcloud" class="size-full wp-image-2419" height="450" src="http://programminghistorian.org/wp-content/uploads/2014/03/bpl-wordle.png" width="600"/><p class="wp-caption-text">Wordle wordcloud</p></div>
 <p>Of course, to make such techniques useful would require more cleaning of your data. And other applications of this lesson may prove more useful. For example, working with the MARC data fields for personal names, you could create a network of correspondents. Or you could analyze which subjects are common in the MARC records. Now that you have the MARC records downloaded and can use <span class="filename">pymarc</span> to extract information from the fields, the possibilities can multiply rapidly!</p>
-
 <!-- You can start editing here. -->
 <!-- If comments are open, but there are no comments. -->
-<div id="respond">
-<h3>Leave a Reply</h3>
-<div id="cancel-comment-reply">
-<small><a href="/lessons/data-mining-the-internet-archive#respond" id="cancel-comment-reply-link" rel="nofollow" style="display:none;">Click here to cancel reply.</a></small>
-</div>
-<form action="http://programminghistorian.org/wp-comments-post.php" id="commentform" method="post">
-<p><input aria-required="true" id="author" name="author" size="22" tabindex="1" type="text" value=""/>
-<label for="author"><small>Name (required)</small></label></p>
-<p><input aria-required="true" id="email" name="email" size="22" tabindex="2" type="text" value=""/>
-<label for="email"><small>Mail (will not be published) (required)</small></label></p>
-<p><input id="url" name="url" size="22" tabindex="3" type="text" value=""/>
-<label for="url"><small>Website</small></label></p>
-<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
-<p><textarea cols="58" id="comment" name="comment" rows="10" tabindex="4"></textarea></p>
-<p><input id="submit" name="submit" tabindex="5" type="submit" value="Submit Comment"/>
-<input id="comment_post_ID" name="comment_post_ID" type="hidden" value="2417"/>
-<input id="comment_parent" name="comment_parent" type="hidden" value="0"/>
-</p>
-<p style="display: none;"><input id="akismet_comment_nonce" name="akismet_comment_nonce" type="hidden" value="2d575ec1ea"/></p><script src="http://programminghistorian.org/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0" type="text/javascript"></script>
-<p style="display: none;"><input id="ak_js" name="ak_js" type="hidden" value="220"/></p>
-</form>
-</div>
+
 </div>
 </article>
 <ul class="navigation pager">
 </ul><!-- .navigation -->
 </div>
-
 <script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c" type="text/javascript"></script>
 <script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushBash.js?ver=3.0.83c" type="text/javascript"></script>
 <script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPlain.js?ver=3.0.83c" type="text/javascript"></script>
