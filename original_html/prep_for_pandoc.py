@@ -7,6 +7,7 @@ to insert this info automatically in the YAML header of the md file.
 '''
 
 import os
+import re
 import time
 from bs4 import BeautifulSoup
 
@@ -63,10 +64,13 @@ for file in files:
         for tag in new_tags:
             original_head.append(tag)
         
-        # try to decompose menu header divs that will now be in liquid template
+        # try to decompose divs that won't be needed in markdown version
         headers = soup.find_all('header')
         footers = soup.find_all('footer')
-        old_tags = [author, date, title, technical_reviewers, literary_reviewers] + headers + footers
+        comments = soup.find_all(class_=re.compile('comment.*'))
+        comments.append(soup.find('div', {'id': 'respond'}))
+        comments.append(soup.find('h3', {'id': 'comments'}))
+        old_tags = [author, date, title, technical_reviewers, literary_reviewers] + headers + footers + comments
         for tag in old_tags:
             try: 
                 tag.decompose()
