@@ -333,5 +333,5 @@ path to the directory on your own computer.
   [Keywords in Context (Using N-grams)]: /lessons/keywords-in-context-using-n-grams
   [zip file from the previous lesson here.]: /lessons/keywords-in-context-using-n-grams#codesync
   [Output Data as HTML File]: /lessons/output-data-as-html-file
-  [zip]: http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian.zip
-  [1]: http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian-windows.zip
+  [zip]: ../images/programming-historian.zip
+  [1]: ../images/programming-historian-windows.zip

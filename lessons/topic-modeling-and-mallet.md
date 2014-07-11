@@ -595,41 +595,41 @@ number of .txt files. Each individual .txt file is a single news report.
   [Topic Modeling Martha Ballard’s Diary]: http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/
   [MALLET]: http://mallet.cs.umass.edu/index.php
   [Gibbs sampling]: http://en.wikipedia.org/wiki/Gibbs_sampling
-  [Windows Instructions]: http://programminghistorian.org/wp-content/uploads/2011/06/windows-150x150.png
+  [Windows Instructions]: ../images/windows-150x150.png
   [download MALLET]: http://mallet.cs.umass.edu/download.php
   [Java developer’s kit]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
-  []: http://programminghistorian.org/wp-content/uploads/2012/09/fig1-advanced-system-settings.png
+  []: ../images/fig1-advanced-system-settings.png
     "Figure 1 advanced-system-settings"
-  [![][]]: http://programminghistorian.org/wp-content/uploads/2012/09/fig1-advanced-system-settings.png
-  [1]: http://programminghistorian.org/wp-content/uploads/2012/09/fig2-environment-variables-location.png
+  [![][]]: ../images/fig1-advanced-system-settings.png
+  [1]: ../images/fig2-environment-variables-location.png
     "Figure 2 environment-variables-location"
-  [![][1]]: http://programminghistorian.org/wp-content/uploads/2012/09/fig2-environment-variables-location.png
-  [2]: http://programminghistorian.org/wp-content/uploads/2012/09/fig3-environment-variable.png
+  [![][1]]: ../images/fig2-environment-variables-location.png
+  [2]: ../images/fig3-environment-variable.png
     "Figure 3 environment-variable"
-  [![][2]]: http://programminghistorian.org/wp-content/uploads/2012/09/fig3-environment-variable.png
-  [3]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-4-command-prompt-window.png
+  [![][2]]: ../images/fig3-environment-variable.png
+  [3]: ../images/fig-4-command-prompt-window.png
     "Figure 4 command-prompt-window"
-  [![][3]]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-4-command-prompt-window.png
-  [4]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-5-command-prompt-window-getting-to-c.png
+  [![][3]]: ../images/fig-4-command-prompt-window.png
+  [4]: ../images/fig-5-command-prompt-window-getting-to-c.png
     "Figure 5 command-prompt-window-getting-to-c"
-  [![][4]]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-5-command-prompt-window-getting-to-c.png
-  [5]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-6command-prompt-mallet-installed.png
+  [![][4]]: ../images/fig-5-command-prompt-window-getting-to-c.png
+  [5]: ../images/fig-6command-prompt-mallet-installed.png
     "Figure 6 command-prompt-mallet-installed"
-  [![][5]]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-6command-prompt-mallet-installed.png
-  [Mac Instructions]: http://programminghistorian.org/wp-content/uploads/2011/06/apple-150x150.png
-  [6]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-7-command-prompt-typing-help.png
+  [![][5]]: ../images/fig-6command-prompt-mallet-installed.png
+  [Mac Instructions]: ../images/apple-150x150.png
+  [6]: ../images/fig-7-command-prompt-typing-help.png
     "Figure 7 command-prompt-typing-help"
-  [![][6]]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-7-command-prompt-typing-help.png
+  [![][6]]: ../images/fig-7-command-prompt-typing-help.png
   [Mac]: /lessons/mac-installation
-  [7]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-8-basic-topic-model-output.png
+  [7]: ../images/fig-8-basic-topic-model-output.png
     "Figure 8 basic topic model output"
-  [![][7]]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-8-basic-topic-model-output.png
-  [8]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-9-tutorial-key-words-in-Word.png
+  [![][7]]: ../images/fig-8-basic-topic-model-output.png
+  [8]: ../images/fig-9-tutorial-key-words-in-Word.png
     "Figure 9 tutorial key words in Word"
-  [![][8]]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-9-tutorial-key-words-in-Word.png
-  [9]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-10-topic-composition.png
+  [![][8]]: ../images/fig-9-tutorial-key-words-in-Word.png
+  [9]: ../images/fig-10-topic-composition.png
     "Figure 10 topic composition"
-  [![][9]]: http://programminghistorian.org/wp-content/uploads/2012/09/fig-10-topic-composition.png
+  [![][9]]: ../images/fig-10-topic-composition.png
   [automate this process]: http://electricarchaeology.ca/2012/07/09/mining-a-day-of-archaeology/
   [Mining the Open Web with Looted Heritage Draft]: http://electricarchaeology.ca/2012/06/08/mining-the-open-web-with-looted-heritage-draft/
   [Figshare.com]: http://figshare.com/articles/looted_heritage_reports_txt.zip/91828

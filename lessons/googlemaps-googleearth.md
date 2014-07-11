@@ -566,61 +566,61 @@ your work!**
 *This lesson is part of the [Geospatial Historian][].*
 
   [Google Maps Engine Lite]: https://mapsengine.google.com
-  [geo1]: http://programminghistorian.org/wp-content/uploads/2013/12/geo1.png
-  [geo2]: http://programminghistorian.org/wp-content/uploads/2013/12/geo2.png
-  [geo3]: http://programminghistorian.org/wp-content/uploads/2013/12/geo3.png
-  [geo4]: http://programminghistorian.org/wp-content/uploads/2013/12/geo4.png
-  [geo5]: http://programminghistorian.org/wp-content/uploads/2013/12/geo5.png
-  [geo6]: http://programminghistorian.org/wp-content/uploads/2013/12/geo6.png
+  [geo1]: ../images/geo1.png
+  [geo2]: ../images/geo2.png
+  [geo3]: ../images/geo3.png
+  [geo4]: ../images/geo4.png
+  [geo5]: ../images/geo5.png
+  [geo6]: ../images/geo6.png
   [UK Global Fat Supply CSV file]: https://www.dropbox.com/s/7xv11vd7dz2afud/UK%20Global%20Fat%20Supply%201894-1896%20-%20Sheet1.csv
-  [geo7]: http://programminghistorian.org/wp-content/uploads/2013/12/geo7.png
+  [geo7]: ../images/geo7.png
   [![geo7][]\
   ]: http://geospatialhistorian.files.wordpress.com/2013/02/spreadsheetimage.png
-  [geo8]: http://programminghistorian.org/wp-content/uploads/2013/12/geo8.png
-  [geo9]: http://programminghistorian.org/wp-content/uploads/2013/12/geo9-300x120.png
-  [![geo9][]]: http://programminghistorian.org/wp-content/uploads/2013/12/geo9.png
-  [geo10]: http://programminghistorian.org/wp-content/uploads/2013/12/geo10.png
-  [geo11]: http://programminghistorian.org/wp-content/uploads/2013/12/geo11.png
-  [geo12]: http://programminghistorian.org/wp-content/uploads/2013/12/geo12.png
+  [geo8]: ../images/geo8.png
+  [geo9]: ../images/geo9-300x120.png
+  [![geo9][]]: ../images/geo9.png
+  [geo10]: ../images/geo10.png
+  [geo11]: ../images/geo11.png
+  [geo12]: ../images/geo12.png
   [Creating New Vector Layers in QGIS 2.0]: /wp-admin/post.php?post=2309&action=edit
-  [geo13]: http://programminghistorian.org/wp-content/uploads/2013/12/geo13.png
-  [geo14]: http://programminghistorian.org/wp-content/uploads/2013/12/geo14.png
-  [geo15]: http://programminghistorian.org/wp-content/uploads/2013/12/geo15.png
-  [geo16]: http://programminghistorian.org/wp-content/uploads/2013/12/geo16.png
-  [geo17]: http://programminghistorian.org/wp-content/uploads/2013/12/geo17.png
-  [geo18]: http://programminghistorian.org/wp-content/uploads/2013/12/geo18.png
-  [geo19]: http://programminghistorian.org/wp-content/uploads/2013/12/geo19.png
-  [geo20]: http://programminghistorian.org/wp-content/uploads/2013/12/geo20.png
-  [geo21]: http://programminghistorian.org/wp-content/uploads/2013/12/geo21.png
-  [geo22]: http://programminghistorian.org/wp-content/uploads/2013/12/geo22.png
-  [geo23]: http://programminghistorian.org/wp-content/uploads/2013/12/geo23-296x300.png
-  [![geo23][]]: http://programminghistorian.org/wp-content/uploads/2013/12/geo23.png
-  [geo24]: http://programminghistorian.org/wp-content/uploads/2013/12/geo24.png
+  [geo13]: ../images/geo13.png
+  [geo14]: ../images/geo14.png
+  [geo15]: ../images/geo15.png
+  [geo16]: ../images/geo16.png
+  [geo17]: ../images/geo17.png
+  [geo18]: ../images/geo18.png
+  [geo19]: ../images/geo19.png
+  [geo20]: ../images/geo20.png
+  [geo21]: ../images/geo21.png
+  [geo22]: ../images/geo22.png
+  [geo23]: ../images/geo23-296x300.png
+  [![geo23][]]: ../images/geo23.png
+  [geo24]: ../images/geo24.png
   [www.davidrumsey.com]: http://www.davidrumsey.com/
-  [geo25]: http://programminghistorian.org/wp-content/uploads/2013/12/geo25.png
-  [geo26]: http://programminghistorian.org/wp-content/uploads/2013/12/geo26.png
+  [geo25]: ../images/geo25.png
+  [geo26]: ../images/geo26.png
   [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
-  [geo27]: http://programminghistorian.org/wp-content/uploads/2013/12/geo27.png
-  [geo28]: http://programminghistorian.org/wp-content/uploads/2013/12/geo28-300x277.png
-  [![geo28][]]: http://programminghistorian.org/wp-content/uploads/2013/12/geo28.png
+  [geo27]: ../images/geo27.png
+  [geo28]: ../images/geo28-300x277.png
+  [![geo28][]]: ../images/geo28.png
   [Maps Engine Lite]: https://mapsengine.google.com/map/
   [Seaway map]: https://maps.google.ca/maps/ms?ie=UTF8&hl=en&t=h&source=embed&authuser=0&msa=0&output=kml&msid=205929035855498240131.00049c08869a03cc5ea0d
-  [geo29]: http://programminghistorian.org/wp-content/uploads/2013/12/geo29-300x129.png
-  [![geo29][]]: http://programminghistorian.org/wp-content/uploads/2013/12/geo29.png
-  [geo30]: http://programminghistorian.org/wp-content/uploads/2013/12/geo30.png
-  [geo31]: http://programminghistorian.org/wp-content/uploads/2013/12/geo31-300x173.png
-  [![geo31][]]: http://programminghistorian.org/wp-content/uploads/2013/12/geo31.png
-  [geo32]: http://programminghistorian.org/wp-content/uploads/2013/12/geo32.png
-  [geo33]: http://programminghistorian.org/wp-content/uploads/2013/12/geo33.png
-  [geo34]: http://programminghistorian.org/wp-content/uploads/2013/12/geo34.png
-  [geo35]: http://programminghistorian.org/wp-content/uploads/2013/12/geo35.png
+  [geo29]: ../images/geo29-300x129.png
+  [![geo29][]]: ../images/geo29.png
+  [geo30]: ../images/geo30.png
+  [geo31]: ../images/geo31-300x173.png
+  [![geo31][]]: ../images/geo31.png
+  [geo32]: ../images/geo32.png
+  [geo33]: ../images/geo33.png
+  [geo34]: ../images/geo34.png
+  [geo35]: ../images/geo35.png
   [Mobile Mapping and Historical GIS in the Field]: http://niche-canada.org/node/10239
     "Mobile Mapping and Historical GIS in the Field"
-  [geo36]: http://programminghistorian.org/wp-content/uploads/2013/12/geo36.png
-  [geo37]: http://programminghistorian.org/wp-content/uploads/2013/12/geo37.png
-  [geo38]: http://programminghistorian.org/wp-content/uploads/2013/12/geo38.png
-  [geo39]: http://programminghistorian.org/wp-content/uploads/2013/12/geo39-300x145.png
-  [![geo39][]]: http://programminghistorian.org/wp-content/uploads/2013/12/geo39.png
-  [geo40]: http://programminghistorian.org/wp-content/uploads/2013/12/geo40-300x217.png
-  [![geo40][]]: http://programminghistorian.org/wp-content/uploads/2013/12/geo40.png
+  [geo36]: ../images/geo36.png
+  [geo37]: ../images/geo37.png
+  [geo38]: ../images/geo38.png
+  [geo39]: ../images/geo39-300x145.png
+  [![geo39][]]: ../images/geo39.png
+  [geo40]: ../images/geo40-300x217.png
+  [![geo40][]]: ../images/geo40.png
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

@@ -362,24 +362,24 @@ even more. We will talk about that in the next lesson.
     "The Scalar content management system"
   [Read more about Dublin Core]: http://dublincore.org/documents/dcmi-terms/
   [Omeka.net]: http://www.omeka.net/
-  [media\_1363306314614.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363306314614.png
-  [media\_1363306593724.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363306593724.png
-  [media\_1363306764311.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363306764311.png
-  [media\_1363306850490.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363306850490.png
-  [media\_1363419755762.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363419755762.png
+  [media\_1363306314614.png]: ../images/media_1363306314614.png
+  [media\_1363306593724.png]: ../images/media_1363306593724.png
+  [media\_1363306764311.png]: ../images/media_1363306764311.png
+  [media\_1363306850490.png]: ../images/media_1363306850490.png
+  [media\_1363419755762.png]: ../images/media_1363419755762.png
   [hard refresh]: http://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache
-  [media\_1363419912798.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363419912798.png
-  [media\_1363309931413.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363309931413.png
-  [media\_1363307013066.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363307013066.png
-  [media\_1363308451882.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363308451882.png
-  [media\_1363307526429.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363307526429.png
-  [media\_1363307721915.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363307721915.png
-  [media\_1363308525582.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363308525582.png
-  [media\_1363308109980.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363308109980.png
-  [media\_1363308234605.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363308234605.png
-  [media\_1363308884958.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363308884958.png
-  [media\_1363308978515.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363308978515.png
-  [media\_1363309164290.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363309164290.png
-  [media\_1363309302937.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363309302937.png
-  [media\_1363309504604.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363309504604.png
+  [media\_1363419912798.png]: ../images/media_1363419912798.png
+  [media\_1363309931413.png]: ../images/media_1363309931413.png
+  [media\_1363307013066.png]: ../images/media_1363307013066.png
+  [media\_1363308451882.png]: ../images/media_1363308451882.png
+  [media\_1363307526429.png]: ../images/media_1363307526429.png
+  [media\_1363307721915.png]: ../images/media_1363307721915.png
+  [media\_1363308525582.png]: ../images/media_1363308525582.png
+  [media\_1363308109980.png]: ../images/media_1363308109980.png
+  [media\_1363308234605.png]: ../images/media_1363308234605.png
+  [media\_1363308884958.png]: ../images/media_1363308884958.png
+  [media\_1363308978515.png]: ../images/media_1363308978515.png
+  [media\_1363309164290.png]: ../images/media_1363309164290.png
+  [media\_1363309302937.png]: ../images/media_1363309302937.png
+  [media\_1363309504604.png]: ../images/media_1363309504604.png
   [help pages]: http://info.omeka.net/

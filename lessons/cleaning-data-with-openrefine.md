@@ -395,11 +395,11 @@ the case you have made an error.
   [Linked Data]: http://en.wikipedia.org/wiki/Linked_data
   [Download OpenRefine]: http://openrefine.org/#download_openrefine
   [FreeYourMetadata website]: http://data.freeyourmetadata.org/powerhouse-museum/
-  [phm-collection]: http://dev.programminghistorian.org/wp-content/uploads/2013/08/phm-collection.tsv
+  [phm-collection]: ../images/phm-collection.tsv
   [initial OpenRefine project]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
-  [Powerhouse Museum Website]: http://programminghistorian.org/wp-content/uploads/2013/08/powerhouseScreenshot.png
+  [Powerhouse Museum Website]: ../images/powerhouseScreenshot.png
   [facet]: http://en.wikipedia.org/wiki/Faceted_search
-  [Screenshot of OpenRefine Example]: http://programminghistorian.org/wp-content/uploads/2013/08/overviewOfSomeClusters.png
+  [Screenshot of OpenRefine Example]: ../images/overviewOfSomeClusters.png
   [GREL documentation]: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
   [regular expression]: http://en.wikipedia.org/wiki/Regular_expression
     "Regular Expressions"

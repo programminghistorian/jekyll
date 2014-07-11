@@ -164,21 +164,20 @@ order, we suggest you next try ‘[Viewing HTML Files][]‘
   [Python website]: http://www.python.org/
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
   [Komodo Edit website]: http://www.activestate.com/komodo-edit
-  [Komodo Edit on Windows]: http://programminghistorian.org/wp-content/uploads/2011/06/komodo-edit-windows.png
+  [Komodo Edit on Windows]: ../images/komodo-edit-windows.png
     "komodo-edit-windows"
-  [![Komodo Edit on Windows][]]: http://programminghistorian.org/wp-content/uploads/2011/06/komodo-edit-windows.png
-  [Komodo Default Python Interpreter Settings]: http://programminghistorian.org/wp-content/uploads/2011/06/komodo-python-interpreter.png
+  [![Komodo Edit on Windows][]]: ../images/komodo-edit-windows.png
+  [Komodo Default Python Interpreter Settings]: ../images/komodo-python-interpreter.png
     "komodo-python-interpreter"
-  [![Komodo Default Python Interpreter Settings][]]: http://programminghistorian.org/wp-content/uploads/2011/06/komodo-python-interpreter.png
+  [![Komodo Default Python Interpreter Settings][]]: ../images/komodo-python-interpreter.png
   [UTF-8]: http://en.wikipedia.org/wiki/UTF-8
-  [utf-set]: http://programminghistorian.org/wp-content/uploads/2013/04/utf-set.jpg
-  [Run Python Command Windows]: http://programminghistorian.org/wp-content/uploads/2011/06/run-python-windows.png
+  [utf-set]: ../images/utf-set.jpg
+  [Run Python Command Windows]: ../images/run-python-windows.png
     "run-python-windows"
-  [![Run Python Command Windows][]]: http://programminghistorian.org/wp-content/uploads/2011/06/run-python-windows.png
-  [hello world in Komodo Edit]: http://programminghistorian.org/wp-content/uploads/2011/06/hello-world1.png
-    "hello-world"
-  [![hello world in Komodo Edit][]]: http://programminghistorian.org/wp-content/uploads/2011/06/hello-world1.png
-  [Python Shell on Windows]: http://programminghistorian.org/wp-content/uploads/2011/06/python-shell-win.png
+  [![Run Python Command Windows][]]: ../images/run-python-windows.png
+  [hello world in Komodo Edit]: ../images/hello-world1.png "hello-world"
+  [![hello world in Komodo Edit][]]: ../images/hello-world1.png
+  [Python Shell on Windows]: ../images/python-shell-win.png
     "python-shell-win"
-  [![Python Shell on Windows][]]: http://programminghistorian.org/wp-content/uploads/2011/06/python-shell-win.png
+  [![Python Shell on Windows][]]: ../images/python-shell-win.png
   [Viewing HTML Files]: /lessons/viewing-html-files

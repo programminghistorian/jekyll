@@ -335,4 +335,4 @@ that’s ok!
   [zip file from the previous lesson here.]: http://programminghistorian.org/lessons/from-html-to-list-of-words-1#codesync
   [integer]: http://www.python.org/doc/current/lib/typesnumeric.html
   [types]: http://www.python.org/doc/current/lib/types.html
-  [zip]: http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian2.zip
+  [zip]: ../images/programming-historian2.zip

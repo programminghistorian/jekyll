@@ -233,4 +233,4 @@ that’s ok!
   [zip file from the previous lesson here.]: /lessons/manipulating-strings-in-python#codesync
   [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
   [Code Reuse and Modularity]: /lessons/code-reuse-and-modularity
-  [zip]: http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian2.zip
+  [zip]: ../images/programming-historian2.zip

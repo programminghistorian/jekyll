@@ -80,26 +80,23 @@ Virginia, [The Center for Digital Humanities at UCLA][], as well as to
 the [Roy Rozensweig Centre for History & New Media][] (CHNM) for
 generous hosting services and technical support.
 
-  [Adam Crymble]: http://programminghistorian.org/wp-content/uploads/2011/05/Screen_shot_2011-01-21_at_09.29.07_reasonably_small.png
+  [Adam Crymble]: ../images/Screen_shot_2011-01-21_at_09.29.07_reasonably_small.png
     "Adam Crymble avatar"
   [Thoughts on Public & Digital History]: http://adamcrymble.blogspot.co.uk/
-  [fred gibbs]: http://programminghistorian.org/wp-content/uploads/2011/05/gibbs-150x150.jpg
-    "gibbs"
+  [fred gibbs]: ../images/gibbs-150x150.jpg "gibbs"
   [fredgibbs.net]: http://fredgibbs.net
     "Fred Gibbs's Digital History Blog"
-  [William J. Turkel]: http://programminghistorian.org/wp-content/uploads/2011/05/spoka-twitter_bigger.jpg
+  [William J. Turkel]: ../images/spoka-twitter_bigger.jpg
     "spoka-twitter_bigger"
   [Network in Canadian History & Environment]: http://niche-canada.org/
-  []: http://programminghistorian.org/wp-content/uploads/2011/05/jeremy_reasonably_small.jpeg
-    "jeremy_reasonably_small"
+  []: ../images/jeremy_reasonably_small.jpeg "jeremy_reasonably_small"
   [ClioWeb]: http://clioweb.org/
-  [Allison Hegel]: http://programminghistorian.org/wp-content/uploads/2011/05/hegel.jpg
-  [1]: http://programminghistorian.org/wp-content/uploads/2011/05/Miriam_reasonably_small.jpg
-    "Miriam_reasonably_small"
+  [Allison Hegel]: ../images/hegel.jpg
+  [1]: ../images/Miriam_reasonably_small.jpg "Miriam_reasonably_small"
   [Miriam Posner]: http://www.miriamposner.com/
-  [Carrie Sanders]: http://programminghistorian.org/wp-content/uploads/2011/05/Carrie.jpg
-  [Alan MacEachern]: http://programminghistorian.org/wp-content/uploads/2011/05/me-to-work-with-4.jpg
-  [Ian Milligan Avatar]: http://programminghistorian.org/wp-content/uploads/2011/05/ianmilliganavatar.jpg
+  [Carrie Sanders]: ../images/Carrie.jpg
+  [Alan MacEachern]: ../images/me-to-work-with-4.jpg
+  [Ian Milligan Avatar]: ../images/ianmilliganavatar.jpg
     "ianmilliganavatar"
   [Active History]: http://activehistory.ca/ "Active History"
   [2]: http://niche-canada.org

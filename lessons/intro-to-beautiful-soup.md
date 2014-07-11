@@ -545,28 +545,28 @@ table, creating useful data from the confusion of the html page.
   [Command Line Bootcamp]: http://praxis.scholarslab.org/tutorials/bash/
   [Opening lines of Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/bs4/doc/
   [installing python modules]: http://programminghistorian.org/lessons/installing-python-modules-pip
-  []: http://imgs.xkcd.com/comics/sandwich.png
+  []: ../images/sandwich.png
   [![][]]: http://xkcd.com/149/
   [urllib3]: http://urllib3.readthedocs.org/en/latest/
-  [Figure 1: BioGuide Interface Search for 43rd Congress ]: http://programminghistorian.org/wp-content/uploads/2012/12/Congressional-Biographical-Directory-CLERKWEB-2013-08-23-12-22-12-300x258.jpg
-  [![Figure 1: BioGuide Interface Search for 43rd Congress ][]]: http://programminghistorian.org/wp-content/uploads/2012/12/Congressional-Biographical-Directory-CLERKWEB-2013-08-23-12-22-12.jpg
+  [Figure 1: BioGuide Interface Search for 43rd Congress ]: ../images/Congressional-Biographical-Directory-CLERKWEB-2013-08-23-12-22-12-300x258.jpg
+  [![Figure 1: BioGuide Interface Search for 43rd Congress ][]]: ../images/Congressional-Biographical-Directory-CLERKWEB-2013-08-23-12-22-12.jpg
   [Figure 2: BioGuide Results We want to download the HTML behind this
-  page.]: http://programminghistorian.org/wp-content/uploads/2012/12/Congressional-Biographical-Directory-Results-2013-08-23-12-25-09-300x234.jpg
+  page.]: ../images/Congressional-Biographical-Directory-Results-2013-08-23-12-25-09-300x234.jpg
   [![Figure 2: BioGuide Results We want to download the HTML behind this
-  page.][]]: http://programminghistorian.org/wp-content/uploads/2012/12/Congressional-Biographical-Directory-Results-2013-08-23-12-25-09.jpg
+  page.][]]: ../images/Congressional-Biographical-Directory-Results-2013-08-23-12-25-09.jpg
   [Automated Downloading with Wget]: http://programminghistorian.org/lessons/automated-downloading-with-wget
   [Downloading Multiple Records Using Query Strings]: http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings
-  [Figure 3: "Pretty" print of the BioGuide results]: http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-13-01-300x242.jpg
-  [![Figure 3: "Pretty" print of the BioGuide results][]]: http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-13-01.jpg
-  [Figure 4: The URLs and names, plus one addition.]: http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-25-56-300x164.jpg
-  [![Figure 4: The URLs and names, plus one addition.][]]: http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-25-56.jpg
-  [Figure 4: The rogue link]: http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-23-07-300x242.jpg
-  [![Figure 4: The rogue link][]]: http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-23-07.jpg
-  [Figure 6: Successfully isolated only names and URLs]: http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-28-04-300x164.jpg
-  [![Figure 6: Successfully isolated only names and URLs][]]: http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-28-04.jpg
-  [Figure 7: All HTML tags have been removed]: http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-14-13-13-300x164.jpg
-  [![Figure 7: All HTML tags have been removed][]]: http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-14-13-13.jpg
-  [Figure 8: CSV file of results]: http://programminghistorian.org/wp-content/uploads/2012/12/43rd_Congress-2-2013-08-23-14-18-27-300x125.jpg
-  [![Figure 8: CSV file of results][]]: http://programminghistorian.org/wp-content/uploads/2012/12/43rd_Congress-2-2013-08-23-14-18-27.jpg
-  [Figure 8: All of the Table Row data]: http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-142×40-2013-08-23-16-51-22-300x176.jpg
-  [![Figure 8: All of the Table Row data][]]: http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-142×40-2013-08-23-16-51-22.jpg
+  [Figure 3: "Pretty" print of the BioGuide results]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-13-01-300x242.jpg
+  [![Figure 3: "Pretty" print of the BioGuide results][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-13-01.jpg
+  [Figure 4: The URLs and names, plus one addition.]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-25-56-300x164.jpg
+  [![Figure 4: The URLs and names, plus one addition.][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-25-56.jpg
+  [Figure 4: The rogue link]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-23-07-300x242.jpg
+  [![Figure 4: The rogue link][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-23-07.jpg
+  [Figure 6: Successfully isolated only names and URLs]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-28-04-300x164.jpg
+  [![Figure 6: Successfully isolated only names and URLs][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-28-04.jpg
+  [Figure 7: All HTML tags have been removed]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-14-13-13-300x164.jpg
+  [![Figure 7: All HTML tags have been removed][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-14-13-13.jpg
+  [Figure 8: CSV file of results]: ../images/43rd_Congress-2-2013-08-23-14-18-27-300x125.jpg
+  [![Figure 8: CSV file of results][]]: ../images/43rd_Congress-2-2013-08-23-14-18-27.jpg
+  [Figure 8: All of the Table Row data]: ../images/Beautiful-Soup-Tutorial-—-bash-—-142×40-2013-08-23-16-51-22-300x176.jpg
+  [![Figure 8: All of the Table Row data][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-142×40-2013-08-23-16-51-22.jpg

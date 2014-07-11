@@ -359,35 +359,35 @@ century.
   [National Topographic System Maps]: http://maps.library.utoronto.ca/datapub/digital/3400s_63_1929/maptile/Halifax/googlemaps.html
   [1]: http://maps.library.utoronto.ca/datapub/PEI/NTS/west/
   [2]: http://maps.library.utoronto.ca/datapub/PEI/NTS/east/
-  [geo1]: http://programminghistorian.org/wp-content/uploads/2013/12/geo110.png
-  [geo2]: http://programminghistorian.org/wp-content/uploads/2013/12/geo210.png
+  [geo1]: ../images/geo110.png
+  [geo2]: ../images/geo210.png
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
   [Installing QGIS 2.0 and adding Layers]: /lessons/qgis-layers
   [http://www.gov.pe.ca/gis/license\_agreement.php3?name=lot\_town&file\_format=SHP\
   ]: http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP
-  [geo3]: http://programminghistorian.org/wp-content/uploads/2013/12/geo310.png
-  [geo4]: http://programminghistorian.org/wp-content/uploads/2013/12/geo41.png
-  [geo5]: http://programminghistorian.org/wp-content/uploads/2013/12/geo51.png
-  [geo6]: http://programminghistorian.org/wp-content/uploads/2013/12/geo61.png
-  [geo7]: http://programminghistorian.org/wp-content/uploads/2013/12/geo71.png
+  [geo3]: ../images/geo310.png
+  [geo4]: ../images/geo41.png
+  [geo5]: ../images/geo51.png
+  [geo6]: ../images/geo61.png
+  [geo7]: ../images/geo71.png
   [can be downloaded here]: http://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg
   [Island Imagined]: http://www.islandimagined.ca/fedora/repository/imagined%3A208687
-  [geo8]: http://programminghistorian.org/wp-content/uploads/2013/12/geo81.png
+  [geo8]: ../images/geo81.png
   [in Atlantic Canada]: http://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s
-  [geo9]: http://programminghistorian.org/wp-content/uploads/2013/12/geo91.png
-  [geo10]: http://programminghistorian.org/wp-content/uploads/2013/12/geo101.png
-  [geo11]: http://programminghistorian.org/wp-content/uploads/2013/12/geo111.png
-  [geo12]: http://programminghistorian.org/wp-content/uploads/2013/12/geo121.png
-  [geo13]: http://programminghistorian.org/wp-content/uploads/2013/12/geo131.png
-  [geo14]: http://programminghistorian.org/wp-content/uploads/2013/12/geo141.png
+  [geo9]: ../images/geo91.png
+  [geo10]: ../images/geo101.png
+  [geo11]: ../images/geo111.png
+  [geo12]: ../images/geo121.png
+  [geo13]: ../images/geo131.png
+  [geo14]: ../images/geo141.png
   [world file]: http://en.wikipedia.org/wiki/World_file
   [Tif]: http://en.wikipedia.org/wiki/Tagged_Image_File_Format
-  [geo15]: http://programminghistorian.org/wp-content/uploads/2013/12/geo151.png
-  [geo16]: http://programminghistorian.org/wp-content/uploads/2013/12/geo161.png
-  [geo17]: http://programminghistorian.org/wp-content/uploads/2013/12/geo171.png
-  [geo18]: http://programminghistorian.org/wp-content/uploads/2013/12/geo181.png
-  [geo19]: http://programminghistorian.org/wp-content/uploads/2013/12/geo191.png
-  [geo20]: http://programminghistorian.org/wp-content/uploads/2013/12/geo201.png
-  [geo21]: http://programminghistorian.org/wp-content/uploads/2013/12/geo211.png
+  [geo15]: ../images/geo151.png
+  [geo16]: ../images/geo161.png
+  [geo17]: ../images/geo171.png
+  [geo18]: ../images/geo181.png
+  [geo19]: ../images/geo191.png
+  [geo20]: ../images/geo201.png
+  [geo21]: ../images/geo211.png
   [Creating New Vector Layers in QGIS]: /lessons/vector-layers-qgis
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

@@ -405,12 +405,10 @@ bitty step at a time.
 
   [HeinOnline]: http://home.heinonline.org/
     "Source for Legal and Government-based documents"
-  []: http://programminghistorian.org/wp-content/uploads/2013/09/cd_pdf.png
-    "cd_pdf"
-  [![][]]: http://programminghistorian.org/wp-content/uploads/2013/09/cd_pdf.png
-  [1]: http://programminghistorian.org/wp-content/uploads/2013/09/cd_txt.png
-    "cd_txt"
-  [![][1]]: http://programminghistorian.org/wp-content/uploads/2013/09/cd_txt.png
+  []: ../images/cd_pdf.png "cd_pdf"
+  [![][]]: ../images/cd_pdf.png
+  [1]: ../images/cd_txt.png "cd_txt"
+  [![][1]]: ../images/cd_txt.png
   [pdfminer]: http://www.unixuser.org/~euske/python/pdfminer/index.html
     "PDF Miner Module"
   [Patterns App]: http://krillapps.com/patterns/

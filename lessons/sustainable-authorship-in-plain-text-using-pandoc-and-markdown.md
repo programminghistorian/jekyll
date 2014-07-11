@@ -707,7 +707,7 @@ documentation).
     your filenames ensure lasting cross-platform compatibility.\
      [↩][20]
 
-  [lexoriter]: http://programminghistorian.org/wp-content/uploads/2014/03/lexoriter.jpg
+  [lexoriter]: ../images/lexoriter.jpg
   []: #objectives
   [Pandoc]: http://johnmacfarlane.net/pandoc/
   [1]: #fn:1
@@ -724,8 +724,8 @@ documentation).
   [Pandoc’s Markdown]: http://johnmacfarlane.net/pandoc/demo/example9/pandocs-markdown.html
   [“YAML” block]: http://johnmacfarlane.net/pandoc/README.html#yaml-metadata-block
   [here]: https://github.com/dhcolumbia/pandoc-workflow/sample.md
-  [Screen Shot 2014-03-12 at 4.57.17 PM]: http://programminghistorian.org/wp-content/uploads/2014/03/Screen-Shot-2014-03-12-at-4.57.17-PM-1024x621.png
-  [![Screen Shot 2014-03-12 at 4.57.17 PM][]]: http://programminghistorian.org/wp-content/uploads/2014/03/Screen-Shot-2014-03-12-at-4.57.17-PM.png
+  [Screen Shot 2014-03-12 at 4.57.17 PM]: ../images/Screen-Shot-2014-03-12-at-4.57.17-PM-1024x621.png
+  [![Screen Shot 2014-03-12 at 4.57.17 PM][]]: ../images/Screen-Shot-2014-03-12-at-4.57.17-PM.png
   [this online sandbox]: http://daringfireball.net/projects/markdown/dingus
   [9]: #getting-in-touch-with-your-inner-terminal
   [Command Line Crash Course.]: http://cli.learncodethehardway.org/book/

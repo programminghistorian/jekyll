@@ -166,11 +166,10 @@ order, we suggest you next try ‘[Viewing HTML Files][]‘
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
   [TextWrangler]: http://www.barebones.com/products/textwrangler/
   [Komodo Edit website]: http://www.activestate.com/komodo-edit
-  []: http://programminghistorian.org/wp-content/uploads/2011/06/komodo-edit-mac.png
-    "komodo-edit-mac"
-  [![][]]: http://programminghistorian.org/wp-content/uploads/2011/06/komodo-edit-mac.png
-  [TextWrangler-hello-world]: http://programminghistorian.org/wp-content/uploads/2013/04/TextWrangler-hello-world.png
-  [hello world terminal on a Mac]: http://programminghistorian.org/wp-content/uploads/2011/06/hello-world-terminal.png
+  []: ../images/komodo-edit-mac.png "komodo-edit-mac"
+  [![][]]: ../images/komodo-edit-mac.png
+  [TextWrangler-hello-world]: ../images/TextWrangler-hello-world.png
+  [hello world terminal on a Mac]: ../images/hello-world-terminal.png
     "hello-world-terminal"
-  [![hello world terminal on a Mac][]]: http://programminghistorian.org/wp-content/uploads/2011/06/hello-world-terminal.png
+  [![hello world terminal on a Mac][]]: ../images/hello-world-terminal.png
   [Viewing HTML Files]: /lessons/viewing-html-files

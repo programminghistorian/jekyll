@@ -568,38 +568,36 @@ file to make sure you have the correct code.
   [Python programming language]: http://www.python.org/
   [Beautiful Soup HTML/XML parser]: http://www.crummy.com/software/BeautifulSoup/
   [Komodo Edit]: http://www.activestate.com/komodo-edit
-  [Mac Instructions]: http://programminghistorian.org/wp-content/uploads/2011/06/apple-150x150.png
+  [Mac Instructions]: ../images/apple-150x150.png
   [Time Machine]: http://support.apple.com/kb/ht1427
-  []: http://programminghistorian.org/wp-content/uploads/2011/06/komodo-edit-mac.png
-    "komodo-edit-mac"
-  [![][]]: http://programminghistorian.org/wp-content/uploads/2011/06/komodo-edit-mac.png
-  [Windows Instructions]: http://programminghistorian.org/wp-content/uploads/2011/06/windows-150x150.png
-  [Komodo Edit on Windows]: http://programminghistorian.org/wp-content/uploads/2011/06/komodo-edit-windows.png
+  []: ../images/komodo-edit-mac.png "komodo-edit-mac"
+  [![][]]: ../images/komodo-edit-mac.png
+  [Windows Instructions]: ../images/windows-150x150.png
+  [Komodo Edit on Windows]: ../images/komodo-edit-windows.png
     "komodo-edit-windows"
-  [![Komodo Edit on Windows][]]: http://programminghistorian.org/wp-content/uploads/2011/06/komodo-edit-windows.png
-  [Komodo Default Python Interpreter Settings]: http://programminghistorian.org/wp-content/uploads/2011/06/komodo-python-interpreter.png
+  [![Komodo Edit on Windows][]]: ../images/komodo-edit-windows.png
+  [Komodo Default Python Interpreter Settings]: ../images/komodo-python-interpreter.png
     "komodo-python-interpreter"
-  [![Komodo Default Python Interpreter Settings][]]: http://programminghistorian.org/wp-content/uploads/2011/06/komodo-python-interpreter.png
-  [Run Python Command Windows]: http://programminghistorian.org/wp-content/uploads/2011/06/run-python-windows.png
+  [![Komodo Default Python Interpreter Settings][]]: ../images/komodo-python-interpreter.png
+  [Run Python Command Windows]: ../images/run-python-windows.png
     "run-python-windows"
-  [![Run Python Command Windows][]]: http://programminghistorian.org/wp-content/uploads/2011/06/run-python-windows.png
-  [Linux Instructions]: http://programminghistorian.org/wp-content/uploads/2011/06/linux-150x150.png
-  [hello world in Komodo Edit on a Mac]: http://programminghistorian.org/wp-content/uploads/2011/06/hello-world1.png
+  [![Run Python Command Windows][]]: ../images/run-python-windows.png
+  [Linux Instructions]: ../images/linux-150x150.png
+  [hello world in Komodo Edit on a Mac]: ../images/hello-world1.png
     "hello-world"
-  [![hello world in Komodo Edit on a Mac][]]: http://programminghistorian.org/wp-content/uploads/2011/06/hello-world1.png
-  [1]: http://programminghistorian.org/wp-content/uploads/2011/06/mac-linux.png
-  [hello world terminal on a Mac]: http://programminghistorian.org/wp-content/uploads/2011/06/hello-world-terminal.png
+  [![hello world in Komodo Edit on a Mac][]]: ../images/hello-world1.png
+  [1]: ../images/mac-linux.png
+  [hello world terminal on a Mac]: ../images/hello-world-terminal.png
     "hello-world-terminal"
-  [![hello world terminal on a Mac][]]: http://programminghistorian.org/wp-content/uploads/2011/06/hello-world-terminal.png
-  [Python Shell on Windows]: http://programminghistorian.org/wp-content/uploads/2011/06/python-shell-win.png
+  [![hello world terminal on a Mac][]]: ../images/hello-world-terminal.png
+  [Python Shell on Windows]: ../images/python-shell-win.png
     "python-shell-win"
-  [![Python Shell on Windows][]]: http://programminghistorian.org/wp-content/uploads/2011/06/python-shell-win.png
-  [Old Bailey Online screenshot]: http://programminghistorian.org/wp-content/uploads/2011/06/obo.png
-    "obo"
-  [![Old Bailey Online screenshot][]]: http://programminghistorian.org/wp-content/uploads/2011/06/obo.png
-  [Old Bailey Online page source]: http://programminghistorian.org/wp-content/uploads/2011/06/obo-page-source.png
+  [![Python Shell on Windows][]]: ../images/python-shell-win.png
+  [Old Bailey Online screenshot]: ../images/obo.png "obo"
+  [![Old Bailey Online screenshot][]]: ../images/obo.png
+  [Old Bailey Online page source]: ../images/obo-page-source.png
     "obo-page-source"
-  [![Old Bailey Online page source][]]: http://programminghistorian.org/wp-content/uploads/2011/06/obo-page-source.png
+  [![Old Bailey Online page source][]]: ../images/obo-page-source.png
   [W3 Schools HTML tutorial]: http://www.w3schools.com/html/default.asp
   [Zotero]: http://www.zotero.org/
   [Jungle Disk]: https://www.jungledisk.com/
@@ -617,4 +615,4 @@ file to make sure you have the correct code.
   [Stack Overflow]: http://stackoverflow.com/
   [Tutor]: http://mail.python.org/mailman/listinfo/tutor
   [2]: http://oreilly.com/catalog/9780596513986/
-  [zip]: http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian.zip
+  [zip]: ../images/programming-historian.zip

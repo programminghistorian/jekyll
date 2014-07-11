@@ -1192,16 +1192,13 @@ helpful:
   [Old Bailey Online]: http://www.oldbaileyonline.org/
   [Automated Downloading with WGET]: http://programminghistorian.org/lessons/automated-downloading-with-wget
   [Benjamin Bowsey’s case]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-  []: http://programminghistorian.org/wp-content/uploads/2012/11/SearchResultsNegro.png
-    "SearchResultsNegro"
-  [![][]]: http://programminghistorian.org/wp-content/uploads/2012/11/SearchResultsNegro.png
-  [1]: http://programminghistorian.org/wp-content/uploads/2012/11/SearchResultsMulatto.png
-    "SearchResultsMulatto"
-  [![][1]]: http://programminghistorian.org/wp-content/uploads/2012/11/SearchResultsMulatto.png
+  []: ../images/SearchResultsNegro.png "SearchResultsNegro"
+  [![][]]: ../images/SearchResultsNegro.png
+  [1]: ../images/SearchResultsMulatto.png "SearchResultsMulatto"
+  [![][1]]: ../images/SearchResultsMulatto.png
   [advanced search form]: http://www.oldbaileyonline.org/forms/formMain.jsp
-  [2]: http://programminghistorian.org/wp-content/uploads/2012/11/AdvancedSearchExample.png
-    "AdvancedSearchExample"
-  [![][2]]: http://programminghistorian.org/wp-content/uploads/2012/11/AdvancedSearchExample.png
+  [2]: ../images/AdvancedSearchExample.png "AdvancedSearchExample"
+  [![][2]]: ../images/AdvancedSearchExample.png
   [Calculate Total]: http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
   [Viewing HTML Files]: /lessons/viewing-html-files
   [Working with Webpages]: /lessons/working-with-web-pages

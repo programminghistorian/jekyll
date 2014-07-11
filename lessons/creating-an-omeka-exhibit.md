@@ -94,9 +94,9 @@ units of an Omeka site.
     the software’s [help pages][]
 
   [Up and Running with Omeka.net]: /lessons/up-and-running-with-omeka
-  [media\_1363324520297.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363324520297.png
-  [media\_1363324690767.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363324690767.png
-  [media\_1363324853892.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363324853892.png
-  [media\_1363325083453.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363325083453.png
-  [media\_1363325355106.png]: http://programminghistorian.org/wp-content/uploads/2013/04/media_1363325355106.png
+  [media\_1363324520297.png]: ../images/media_1363324520297.png
+  [media\_1363324690767.png]: ../images/media_1363324690767.png
+  [media\_1363324853892.png]: ../images/media_1363324853892.png
+  [media\_1363325083453.png]: ../images/media_1363325083453.png
+  [media\_1363325355106.png]: ../images/media_1363325355106.png
   [help pages]: http://info.omeka.net/

@@ -247,5 +247,5 @@ path to the directory on your own computer.
   [1]: output-data-as-html-file
   [zip file from the previous lesson here.]: /lessons/output-data-as-html-file#codesync
   [Manipulating Strings in Python]: /lessons/manipulating-strings-in-pythons
-  [zip]: http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian.zip
-  [2]: http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian-windows.zip
+  [zip]: ../images/programming-historian.zip
+  [2]: ../images/programming-historian-windows.zip

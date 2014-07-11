@@ -248,16 +248,14 @@ file to make sure you have the correct code.
 
   [Old Bailey Online]: http://www.oldbaileyonline.org/
   [Downloading Multiple Records Using Query Strings]: http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings
-  [Old]: http://programminghistorian.org/wp-content/uploads/2011/06/old-bailey.png
-    "Old"
-  [![Old][]]: http://programminghistorian.org/wp-content/uploads/2011/06/old-bailey.png
+  [Old]: ../images/old-bailey.png "Old"
+  [![Old][]]: ../images/old-bailey.png
   [Gordon Riots]: http://en.wikipedia.org/wiki/Gordon_Riots
-  []: http://programminghistorian.org/wp-content/uploads/2011/06/bowsey-trial-page.png
-    "bowsey-trial-page"
-  [![][]]: http://programminghistorian.org/wp-content/uploads/2011/06/bowsey-trial-page.png
+  []: ../images/bowsey-trial-page.png "bowsey-trial-page"
+  [![][]]: ../images/bowsey-trial-page.png
   [View as XML]: http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes
   [scan of the original document]: http://www.oldbaileyonline.org/images.jsp?doc=178006280084
   [Print-friendly version]: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
   [urllib2]: http://www.python.org/doc/current/lib/module-urllib2.html
   [.)]: filename
-  [zip]: http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian1.zip
+  [zip]: ../images/programming-historian1.zip

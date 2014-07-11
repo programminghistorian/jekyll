@@ -434,31 +434,31 @@ work!**
   [Intro to Google Maps and Google Earth]: /lessons/googlemaps-googleearth
   [Installing QGIS 2.0 and Adding Layers]: /lessons/qgis-layers
   [PEI\_Holland map]: https://www.dropbox.com/s/nigmsq0gz4ashf2/PEI_HollandMap1798_compLZW.tif
-  [pei1]: http://programminghistorian.org/wp-content/uploads/2013/12/pei1-300x207.png
-  [![pei1][]]: http://programminghistorian.org/wp-content/uploads/2013/12/pei1.png
-  [pei2]: http://programminghistorian.org/wp-content/uploads/2013/12/pei2.png
-  [pei3]: http://programminghistorian.org/wp-content/uploads/2013/12/pei3.png
+  [pei1]: ../images/pei1-300x207.png
+  [![pei1][]]: ../images/pei1.png
+  [pei2]: ../images/pei2.png
+  [pei3]: ../images/pei3.png
   [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
-  [pei4]: http://programminghistorian.org/wp-content/uploads/2013/12/pei4.png
-  [pei5]: http://programminghistorian.org/wp-content/uploads/2013/12/pei5.png
-  [pei6]: http://programminghistorian.org/wp-content/uploads/2013/12/pei6-300x168.png
-  [![pei6][]]: http://programminghistorian.org/wp-content/uploads/2013/12/pei6.png
-  [pei7]: http://programminghistorian.org/wp-content/uploads/2013/12/pei7.png
-  [pei8]: http://programminghistorian.org/wp-content/uploads/2013/12/pei8.png
-  [pei9]: http://programminghistorian.org/wp-content/uploads/2013/12/pei9.png
-  [pei10]: http://programminghistorian.org/wp-content/uploads/2013/12/pei10.png
-  [pei11]: http://programminghistorian.org/wp-content/uploads/2013/12/pei11.png
+  [pei4]: ../images/pei4.png
+  [pei5]: ../images/pei5.png
+  [pei6]: ../images/pei6-300x168.png
+  [![pei6][]]: ../images/pei6.png
+  [pei7]: ../images/pei7.png
+  [pei8]: ../images/pei8.png
+  [pei9]: ../images/pei9.png
+  [pei10]: ../images/pei10.png
+  [pei11]: ../images/pei11.png
   [Wikipedia entry for the city you will notice that because of a
   shallow harbor, Princetown did not become a major settlement. It was
   renamed in 1947 and later downgraded to a hamlet. For this reason we
   will include 1947 as the end date for this settlement]: http://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island
-  [pei12]: http://programminghistorian.org/wp-content/uploads/2013/12/pei12.png
-  [pei13]: http://programminghistorian.org/wp-content/uploads/2013/12/pei13.png
-  [pei14]: http://programminghistorian.org/wp-content/uploads/2013/12/pei14.png
-  [pei15]: http://programminghistorian.org/wp-content/uploads/2013/12/pei15.png
-  [pei16]: http://programminghistorian.org/wp-content/uploads/2013/12/pei16.png
-  [pei18]: http://programminghistorian.org/wp-content/uploads/2013/12/pei18.png
-  [pei19]: http://programminghistorian.org/wp-content/uploads/2013/12/pei19.png
-  [pei20]: http://programminghistorian.org/wp-content/uploads/2013/12/pei20.png
-  [pei21]: http://programminghistorian.org/wp-content/uploads/2013/12/pei21.png
+  [pei12]: ../images/pei12.png
+  [pei13]: ../images/pei13.png
+  [pei14]: ../images/pei14.png
+  [pei15]: ../images/pei15.png
+  [pei16]: ../images/pei16.png
+  [pei18]: ../images/pei18.png
+  [pei19]: ../images/pei19.png
+  [pei20]: ../images/pei20.png
+  [pei21]: ../images/pei21.png
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

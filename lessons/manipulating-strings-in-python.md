@@ -274,4 +274,4 @@ that’s ok!
 -   programming-historian ([zip][])
 
   [Python website]: http://www.python.org/doc/2.5.2/lib/string-methods.html
-  [zip]: http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian2.zip
+  [zip]: ../images/programming-historian2.zip

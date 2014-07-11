@@ -120,11 +120,10 @@ text editor (which does not).
 -   [W3 Schools HTML Tutorial][W3 Schools HTML tutorial]
 -   [W3 Schools HTML5 Tutorial][]
 
-  [Old Bailey Online screenshot]: http://programminghistorian.org/wp-content/uploads/2011/06/obo.png
-    "obo"
-  [![Old Bailey Online screenshot][]]: http://programminghistorian.org/wp-content/uploads/2011/06/obo.png
-  [Old Bailey Online page source]: http://programminghistorian.org/wp-content/uploads/2011/06/obo-page-source.png
+  [Old Bailey Online screenshot]: ../images/obo.png "obo"
+  [![Old Bailey Online screenshot][]]: ../images/obo.png
+  [Old Bailey Online page source]: ../images/obo-page-source.png
     "obo-page-source"
-  [![Old Bailey Online page source][]]: http://programminghistorian.org/wp-content/uploads/2011/06/obo-page-source.png
+  [![Old Bailey Online page source][]]: ../images/obo-page-source.png
   [W3 Schools HTML tutorial]: http://www.w3schools.com/html/default.asp
   [W3 Schools HTML5 Tutorial]: http://www.w3schools.com/html/html5_intro.asp

@@ -271,5 +271,5 @@ path to the directory on your own computer.
 
   [Computing Frequencies]: /lessons/counting-frequencies
   [zip file from the previous lesson here.]: /lessons/creating-and-viewing-html-files-with-python#codesync
-  [zip]: http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian-mac-linux.zip
-  [1]: http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian-windows.zip
+  [zip]: ../images/programming-historian-mac-linux.zip
+  [1]: ../images/programming-historian-windows.zip

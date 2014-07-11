@@ -693,21 +693,21 @@ in TEI XML. Zed Shaw has begun developing a book, freely available
 online, [Learn Regex the Hard Way.][] The book’s exercises are built
 around a Python-based program developed by the author.
 
-  [regex\_ia\_image]: http://programminghistorian.org/wp-content/uploads/2013/06/regex_ia_image.jpg
+  [regex\_ia\_image]: ../images/regex_ia_image.jpg
   [Read Online]: http://archive.org/stream/jstor-4560629/4560629#page/n0/mode/2up
   [Full Text]: http://archive.org/stream/jstor-4560629/4560629_djvu.txt
-  [regex\_01\_findquote]: http://programminghistorian.org/wp-content/uploads/2013/06/regex_01_findquote.png
-  [regex\_02\_moreoptions]: http://programminghistorian.org/wp-content/uploads/2013/06/regex_02_moreoptions.png
-  [regex\_03\_lines]: http://programminghistorian.org/wp-content/uploads/2013/06/regex_03_lines.png
-  [regex\_04\_calclines]: http://programminghistorian.org/wp-content/uploads/2013/06/regex_04_calclines.png
-  [regex\_05\_2col]: http://programminghistorian.org/wp-content/uploads/2013/06/regex_05_2col.png
+  [regex\_01\_findquote]: ../images/regex_01_findquote.png
+  [regex\_02\_moreoptions]: ../images/regex_02_moreoptions.png
+  [regex\_03\_lines]: ../images/regex_03_lines.png
+  [regex\_04\_calclines]: ../images/regex_04_calclines.png
+  [regex\_05\_2col]: ../images/regex_05_2col.png
   [List of Regular Expressions]: https://help.libreoffice.org/Common/List_of_Regular_Expressions
-  [regex\_06\_timemarkup]: http://programminghistorian.org/wp-content/uploads/2013/06/regex_06_timemarkup.png
-  [regex\_09\_calc\_3col]: http://programminghistorian.org/wp-content/uploads/2013/06/regex_09_calc_3col.png
-  [regex\_10\_loc\_columns]: http://programminghistorian.org/wp-content/uploads/2013/06/regex_10_loc_columns.png
-  [regex\_11\_writer\_cases\_together\_hi]: http://programminghistorian.org/wp-content/uploads/2013/06/regex_11_writer_cases_together_hi.png
-  [regex\_17\_writer\_done]: http://programminghistorian.org/wp-content/uploads/2013/06/regex_17_writer_done.png
-  [regex\_18\_calc\_done]: http://programminghistorian.org/wp-content/uploads/2013/06/regex_18_calc_done.png
+  [regex\_06\_timemarkup]: ../images/regex_06_timemarkup.png
+  [regex\_09\_calc\_3col]: ../images/regex_09_calc_3col.png
+  [regex\_10\_loc\_columns]: ../images/regex_10_loc_columns.png
+  [regex\_11\_writer\_cases\_together\_hi]: ../images/regex_11_writer_cases_together_hi.png
+  [regex\_17\_writer\_done]: ../images/regex_17_writer_done.png
+  [regex\_18\_calc\_done]: ../images/regex_18_calc_done.png
   [regular expressions]: http://en.wikipedia.org/wiki/Regular_expressions
   [Rubular]: http://rubular.com/
   [regular expressions and XML tools]: http://dh.obdurodon.org/regex.html

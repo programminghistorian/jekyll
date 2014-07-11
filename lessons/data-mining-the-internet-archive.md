@@ -655,4 +655,4 @@ fields, the possibilities can multiply rapidly!
   [Counting Frequencies]: http://programminghistorian.org/lessons/counting-frequencies
   [Google Maps lesson]: http://programminghistorian.org/lessons/googlemaps-googleearth
   [Wordle word cloud]: http://www.wordle.net/
-  [Wordle wordcloud]: http://programminghistorian.org/wp-content/uploads/2014/03/bpl-wordle.png
+  [Wordle wordcloud]: ../images/bpl-wordle.png

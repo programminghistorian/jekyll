@@ -475,8 +475,7 @@ I’ve only given a snapshot of some of wget’s functionalities. For more,
 please visit the [wget manual][GNU wget manual].
 
   [Command Line Bootcamp]: http://praxis.scholarslab.org/tutorials/bash/
-  []: http://programminghistorian.org/wp-content/uploads/2012/06/Terminal-on-mac2.png
-    "Terminal-on-mac"
+  []: ../images/Terminal-on-mac2.png "Terminal-on-mac"
   [download XCode via this link]: https://itunes.apple.com/en/app/xcode/id497799835?mt=12
   [Apple Developer website]: https://developer.apple.com/xcode/
   [View Downloads]: https://developer.apple.com/downloads/
@@ -485,6 +484,6 @@ please visit the [wget manual][GNU wget manual].
   [FTP]: ftp://ftp.gnu.org/gnu/wget/
   [ugent website]: http://users.ugent.be/~bpuype/wget/
   [GNU wget manual]: http://www.gnu.org/software/wget/manual/wget.html
-  [1]: http://programminghistorian.org/wp-content/uploads/2012/06/active-history-chart_edited-1.jpg
+  [1]: ../images/active-history-chart_edited-1.jpg
     "active-history-chart_edited-1"
-  [![][1]]: http://programminghistorian.org/wp-content/uploads/2012/06/active-history-chart_edited-1.jpg
+  [![][1]]: ../images/active-history-chart_edited-1.jpg

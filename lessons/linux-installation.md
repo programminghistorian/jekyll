@@ -139,11 +139,11 @@ order, we suggest you next try ‘[Viewing HTML Files][]‘
 
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
   [Komoto Edit Website]: http://www.activestate.com/komodo-edit
-  [hello world in Komodo Edit on a Mac]: http://programminghistorian.org/wp-content/uploads/2011/06/hello-world1.png
+  [hello world in Komodo Edit on a Mac]: ../images/hello-world1.png
     "hello-world"
-  [![hello world in Komodo Edit on a Mac][]]: http://programminghistorian.org/wp-content/uploads/2011/06/hello-world1.png
-  [hello world terminal on a Mac]: http://programminghistorian.org/wp-content/uploads/2011/06/hello-world-terminal.png
+  [![hello world in Komodo Edit on a Mac][]]: ../images/hello-world1.png
+  [hello world terminal on a Mac]: ../images/hello-world-terminal.png
     "hello-world-terminal"
-  [![hello world terminal on a Mac][]]: http://programminghistorian.org/wp-content/uploads/2011/06/hello-world-terminal.png
+  [![hello world terminal on a Mac][]]: ../images/hello-world-terminal.png
   [.]: lesson-1-2-viewing-html-files
   [Viewing HTML Files]: /lessons/viewing-html-files
