@@ -51,6 +51,7 @@ for file in files:
            reviewers.append(technical_reviewers.string.split(': ')[1])
         if literary_reviewers:
            reviewers.append(literary_reviewers.string.split(': ')[1])
+        reviewers = [i for i in set(reviewers)]
         reviewers_tag = soup.new_tag('meta', content=', '.join(reviewers))
         reviewers_tag.attrs['name'] = 'reviewers'
         
