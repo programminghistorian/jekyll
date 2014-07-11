@@ -10,5 +10,6 @@ do
 	--standalone \
 	--template=jekyll.md \
 	--reference-links \
+	--filter=pandoc_filter.py \
 	$file -o ./lessons/`basename $file .html`.md
 done
