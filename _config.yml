@@ -5,4 +5,4 @@ url: http://programminghistorian.org
 permalink: :title
 safe: true
 pygments: true
-markdown: kramdown
+markdown: redcarpet
