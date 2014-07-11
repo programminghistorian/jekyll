@@ -11,15 +11,16 @@ import re
 import time
 from bs4 import BeautifulSoup
 
-path = './original_html'
-files = os.listdir(path)
+in_path = './original_html'
+out_path = './modified_html'
+files = os.listdir(in_path)
 
 for file in files:
     if file.endswith('.html'):
         print "Trying: " + str(file)
     
         # open the file, make soup
-        f = open(path + '/' + file, 'r')
+        f = open(in_path + '/' + file, 'r')
         html = f.read()
         soup = BeautifulSoup(html)
         f.close()
@@ -86,7 +87,7 @@ for file in files:
                 continue
         
         # write new HTML to file
-        f = open(path + '/' + file, 'w')
+        f = open(out_path + '/' + file, 'w')
         f.write(str(soup))
         print "Successful: " + str(file)
         f.close
