@@ -139,7 +139,7 @@ object on the museum website. To get an idea of what object the metadata
 corresponds to, simply click the persistent link and the website will
 open.
 
-[![Powerhouse Museum Website][]][Powerhouse Museum Website]\
+[![Powerhouse Museum Website][]][Powerhouse Museum Website]
 
 Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website
 
