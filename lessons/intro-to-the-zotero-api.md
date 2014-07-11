@@ -43,7 +43,7 @@ password to allow the installation to proceed.
 Once libZotero is installed, we can use it to talk to the Zotero server
 using Python. In your text editor, run the following:
 
-``` {.python}
+``` python
 #make the libZotero library available
 from libZotero import zotero 
 ```
@@ -58,7 +58,7 @@ we’re accessing and the things we plan to do with it, we may also need
 to include an authentication key, which functions sort of like a
 password.
 
-``` {.python} 
+``` python
  #create Zotero library object called "zlib"
 zlib=zotero.Library('group','<insert group ID>','<null>',
 '<insert API key>') 
