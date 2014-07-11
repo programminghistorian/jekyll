@@ -70,7 +70,7 @@ for file in files:
         for block in codeblocks:
             if block.attrs:
                brush = block.attrs['class'][1]
-               block.attrs['class'] = brush
+               block.attrs = {'class': brush.rstrip(';')}
 		    
         # try to decompose divs that won't be needed in markdown version
         headers = soup.find_all('header')
