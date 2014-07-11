@@ -58,11 +58,11 @@ we’re accessing and the things we plan to do with it, we may also need
 to include an authentication key, which functions sort of like a
 password.
 
-{% highlight python %} 
+``` {.python} 
  #create Zotero library object called "zlib"
 zlib=zotero.Library('group','<insert group ID>','<null>',
 '<insert API key>') 
-{% endhighlight %}
+```
 
 For this lesson, you can use your own group or individual library, or
 you can use the library we’ve created for this lesson at [Programming
