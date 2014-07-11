@@ -75,12 +75,13 @@ for file in files:
                block.attrs = {'class': brush.rstrip(';')}
 		    
         # try to decompose divs that won't be needed in markdown version
+        nav_pager = soup.find('ul', class_='navigation')
         headers = soup.find_all('header')
         footers = soup.find_all('footer')
         comments = soup.find_all(class_=re.compile('comment.*'))
         comments.append(soup.find('div', {'id': 'respond'}))
         comments.append(soup.find('h3', {'id': 'comments'}))
-        old_tags = [author, date, title, technical_reviewers, literary_reviewers] + headers + footers + comments
+        old_tags = [author, date, title, technical_reviewers, literary_reviewers, nav_pager] + headers + footers + comments
         for tag in old_tags:
             try: 
                 tag.decompose()
