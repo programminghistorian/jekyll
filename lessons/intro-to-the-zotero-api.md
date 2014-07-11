@@ -43,7 +43,7 @@ password to allow the installation to proceed.
 Once libZotero is installed, we can use it to talk to the Zotero server
 using Python. In your text editor, run the following:
 
-``` python
+``` {.python}
 #make the libZotero library available
 from libZotero import zotero 
 ```
