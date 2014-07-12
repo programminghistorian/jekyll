@@ -100,7 +100,7 @@ dictionary with information that is important to web programmers. For
 our purposes, what is important is that the encoding is stored under the
 ‘content-type’ key.
 
-``` {.python}
+``` python
 #transliterator.py
 import urllib2
 
@@ -112,7 +112,7 @@ print page.headers['content-type']
 
 Under the ‘content-type’ key we find this information:
 
-``` {.python}
+``` python
 text/html; charset=windows-1251
 ```
 
@@ -149,7 +149,7 @@ help to work with [comma separated value][] (csv) files. In this case,
 though, by splitting the ‘content-type’ string at ‘charset=’, we get a
 list with two strings where the second will be the character set.
 
-``` {.python}
+``` python
 encoding = page.headers['content-type'].split('charset=')[1]
 ```
 
@@ -162,7 +162,7 @@ contain special characters. If they are in a non-ASCII character set,
 like here with ‘windows-1251′, we have to use the optional encoding
 parameter.
 
-``` {.python}
+``` python
 #read the HTML as a string into a variable
 content = page.read()
 
@@ -173,7 +173,7 @@ content[200:300]
 
  
 
-``` {.python}
+``` python
 u'"list-right">\r\n
 <ul>
     <li>
@@ -187,14 +187,14 @@ of the box is one big advantage of transliterating it into ASCII. In
 IDLE, though, we can print this content to see it in Cyrillic rather
 than Unicode:
 
-``` {.python}
+``` python
 # see what happens when Python prints Unicode
 print content[200:300]
 ```
 
  
 
-``` {.python}
+``` python
 "list-right">
 <ul>
     <li>
@@ -217,7 +217,7 @@ means is that under each key, the dictionary stores some number or
 string or other object – even another dictionary. (See also the lesson
 “[Counting Frequencies][].”) A dictionary has the following syntax:
 
-``` {.python}
+``` python
 my_dictionary = {'Vladimir': 'Putin', 'Boris': 'Yeltsin'}
 print my_dictionary['Vladimir']
 
@@ -246,7 +246,7 @@ should be in the format u’\\uXXXX’. In this case, the letter Ж is
 u’\\u0416′. We can create a transliteration dictionary and assign ‘Zh’
 as the value for the key u’\\u0416′ in it.
 
-``` {.python}
+``` python
 cyrillic_translit = { u'\u0416': 'Zh'}
 ```
 
@@ -256,7 +256,7 @@ number is two greater. Thus, ‘ж’ codes to 0436. Now that we have a
 transliteration dictionary created, we just add a dictionary key-value
 pair.
 
-``` {.python}
+``` python
 cyrillic_translit[u'\u0436'] = 'zh'
 ```
 
@@ -264,7 +264,7 @@ Of course, rather than do each pair one by one, it would probably be
 easier to write the dictionary in a Python module or paste it in from a
 word processor. The full Cyrillic transliteration dictionary is here:
 
-``` {.python}
+``` python
 cyrillic_translit={u'\u0410': 'A', u'\u0430': 'a',
 u'\u0411': 'B', u'\u0431': 'b',
 u'\u0412': 'V', u'\u0432': 'v',
@@ -304,7 +304,7 @@ through every character in the source page and convert those Unicode
 characters in the dictionary. If we turn it into a procedure, then we
 can reuse it for other webpages.
 
-``` {.python}
+``` python
 def transliterate(word, translit_table):
     converted_word = ''
     for char in word:
@@ -320,7 +320,7 @@ def transliterate(word, translit_table):
 We can then call this function using the newly created dictionary and
 the webpage downloaded earlier.
 
-``` {.python}
+``` python
 #we will run it with the cyrillic_translit dictionary and the webpage
 converted_content = transliterate(content, cyrillic_translit)
 converted_content[200:310]
@@ -328,7 +328,7 @@ converted_content[200:310]
 
 Here is what we end up with:
 
-``` {.python}
+``` python
 u'="list-right">\r\n</li>
     <li>
 <p class="name"><a name="n1"></a>A-Aku Tulikovich</p>
@@ -342,7 +342,7 @@ dictionary and they will be converted. First we need to find out what
 that character is. We could search for it on the Internet or we can just
 print it:
 
-``` {.python}
+``` python
 #let's find out what u'\xa0' is
 print u'\xa0'
 
@@ -375,14 +375,14 @@ So now we need to find a way to get just the names from the page. Here
 is the first bit of HTML from the converted\_content string, containing
 parts of two database entries:
 
-``` {.python}
+``` python
 converted_content[200:1000]
 ```
 
 This code prints out characters 200 to 1000 of the HTML, which happens
 to include the entire first entry and the beginning of the second:
 
-``` {.python}
+``` python
 u'="list-right">\r\n</li>
     <li>
 <p class="name"><a name="n1"></a>A-Aku Tulikovich</p>
@@ -424,7 +424,7 @@ Soup][]” and read “[Intro to Beautiful Soup][]” for an overview of how
 this tool works. In the transliterator module, we will load Beautiful
 Soup and then turn our converted page into a Beautiful Soup object.
 
-``` {.python}
+``` python
 #load Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -459,7 +459,7 @@ Beautiful Soup objects, so ”\
 .get\_text() on each item in the list, then append it to a new list
 containing just the names:
 
-``` {.python}
+``` python
 #creating the final names list
 names = []
 
@@ -471,7 +471,7 @@ for entry in converted_soup.find_all(class_="name"):
 To make sure it worked, let’s check the number of names and then see if
 they look like we expect:
 
-``` {.python}
+``` python
 #check the number of names
 len(names)
 

@@ -25,7 +25,7 @@ libraries are installed on your computer, you can use them by importing
 them at the beginning of your code; you can import as many libraries as
 you’d like, such as
 
-``` {.python}
+``` python
 import csv
 import requests
 import kmlwriter
@@ -52,7 +52,7 @@ pip for us. Using a Mac or Linux, we can install pip via the command
 line by using the [curl command][], which downloads the pip installation
 perl script.
 
-``` {.bash}
+``` bash
 curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py
 ```
 
@@ -60,7 +60,7 @@ once you’ve downloaded the get-pip.py file, you need to execute it with
 the python interpreter. However, if you try to execute the script with
 python like
 
-``` {.bash}
+``` bash
 python get-pip.py
 ```
 
@@ -71,7 +71,7 @@ In this case—and in all cases where you need to allow a script that you
 trust to write to your system folders—you can use the **sudo** command
 (short for “Super User DO”) in front of the python command, like
 
-``` {.bash}
+``` bash
 sudo python get-pip.py
 ```
 
@@ -96,7 +96,7 @@ example, we’ll assume this directory is python27, so we’ll use the
 command C:\\\>cd python27. Once you are in this directory, run the
 command
 
-``` {.bash}
+``` bash
 python get-pip.py to install pip
 ```
 
@@ -111,7 +111,7 @@ does all the work for you. When you find a module that you want to use,
 usually the documentation or installation instructions will include the
 necessary pip command, such as
 
-``` {.bash}
+``` bash
 pip install requests
 pip install beautifulsoup4
 pip install simplekml
@@ -120,7 +120,7 @@ pip install simplekml
 Remember, for the same reasons explained above, you will probably need
 to run pip with sudo, like
 
-``` {.bash}
+``` bash
 sudo pip install requests
 ```
 

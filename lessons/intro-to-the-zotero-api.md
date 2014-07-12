@@ -33,7 +33,7 @@ modules, we’ll use [pip][] to install libZotero, a python library that
 will allow us to interact with the Zotero API. To install the library,
 in your command line/terminal window enter:
 
-``` {.plain}
+``` plain
  pip install libZotero 
 ```
 
@@ -45,7 +45,7 @@ password to allow the installation to proceed.
 Once libZotero is installed, we can use it to talk to the Zotero server
 using Python. In your text editor, run the following:
 
-``` {.python}
+``` python
  #make the libZotero library available
 from libZotero import zotero 
 ```
@@ -60,7 +60,7 @@ we’re accessing and the things we plan to do with it, we may also need
 to include an authentication key, which functions sort of like a
 password.
 
-``` {.python}
+``` python
  #create Zotero library object called "zlib"
 zlib=zotero.Library('group','<insert group ID>','<null>',
 '<insert API key>') 
@@ -81,7 +81,7 @@ To use the PH2 group library, use the following:\
  Group ID: 155975\
  API key: 9GLmvmZ1K1qGAz9QWcdlyf6L
 
-``` {.python}
+``` python
  zlib=zotero.Library('group','155975','<null>',
 '9GLmvmZ1K1qGAz9QWcdlyf6L') 
 ```
@@ -96,7 +96,7 @@ objects with metadata, and children are usually things like notes and
 file attachments. For this portion of the lesson, we’ll be pulling
 information from the first five top-level items in our collection.
 
-``` {.python}
+``` python
 # retrieve the first five top-level items.
 items = zlib.fetchItemsTop({'limit': 5, 'content': 'json,bib,coins'}) 
 ```
@@ -104,14 +104,14 @@ items = zlib.fetchItemsTop({'limit': 5, 'content': 'json,bib,coins'})
 Your output for this step, if you are using our sample collection,
 should look like this:
 
-``` {.xml}
+``` xml
  value stored in cache - https://api.zotero.org/groups/155975/items/top?limit=5&content=
 json%2Cbib%2Ccoins&key=9GLmvmZ1K1qGAz9QWcdlyf6L 
 ```
 
 Next, we can print some basic information about these items.
 
-``` {.python}
+``` python
  # print some data about these five items
 for item in items:
 print 'Item Type: %s | Key: %s | Title: %s' % (item.itemType,
@@ -121,7 +121,7 @@ item.itemKey, item.title)
 This step should retrieve the item type (journal article, webpage,
 etc.), the key, and item title.
 
-``` {.xml}
+``` xml
 Item Type: webpage | Key: TK5Z4H9J | Title: Benjamin Bowsey
 Item Type: webpage | Key: 3A2RWZ8A | Title: Y a t-il une
 Histoire Numerique 2.0?
@@ -136,7 +136,7 @@ Pasts and Futures of Digital History
 We can also pull the bibliographic information associated with our first
 five items:
 
-``` {.python}
+``` python
  for item in items:
     print item.bibContent 
 ```
@@ -144,7 +144,7 @@ five items:
 Running this command will print the bibliographic content stored on the
 Zotero servers for these items:
 
-``` {.xml}
+``` xml
  <div class="csl-bib-body" style="line-height: 1.35; padding-left: 2em; text-indent:-2em;" xmlns="http://www.w3.org/1999/xhtml">
   <div class="csl-entry">“Benjamin Bowsey.” Accessed March 29, 2013. http://www.oldbaileyonline.org/print.jsp?div=t17800628-33.</div>
 </div>

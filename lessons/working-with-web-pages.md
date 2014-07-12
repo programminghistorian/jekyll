@@ -27,13 +27,13 @@ to be retrieved, as well as the kind of protocol that the server and
 your browser will agree to use while exchanging information (like HTTP,
 the Hypertext Transfer Protocol). The basic structure of a URL is
 
-``` {.plain}
+``` plain
 protocol://host:port/path?query
 ```
 
 Let’s look at a few examples.
 
-``` {.xml}
+``` xml
 http://oldbaileyonline.org
 ```
 
@@ -49,7 +49,7 @@ different ways. Port numbers are used to distinguish these different
 kinds of connection. Since the default port for HTTP is 80, the
 following URL is equivalent to the previous one.
 
-``` {.xml}
+``` xml
 http://oldbaileyonline.org:80
 ```
 
@@ -58,7 +58,7 @@ are stored in directories on the server, and you can specify the path to
 a particular page. The “About” page for The Old Bailey Online has the
 following URL.
 
-``` {.xml}
+``` xml
 http://oldbaileyonline.org/static/Project.jsp
 ```
 
@@ -68,7 +68,7 @@ request a particular page within it by using a query string. The
 following URL will take you to a search results page for criminal record
 trials containing the word “arsenic”.
 
-``` {.xml}
+``` xml
 http://www.oldbaileyonline.org/search.jsp?form=custom&_divs_fulltext=arsenic
 ```
 
@@ -100,7 +100,7 @@ For this example, we will be using the trial transcript of Benjamin
 Bowsey, a “black moor” who was convicted of breaking the peace during
 the [Gordon Riots][] of 1780. The URL for the entry is
 
-``` {.xml}
+``` xml
 http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
 ```
 
@@ -132,7 +132,7 @@ idea to work with printable versions if you can, as they tend to have
 less formatting. Since we have that option, we will use the printable
 version in this lesson.
 
-``` {.xml}
+``` xml
 http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
 ```
 
@@ -148,7 +148,7 @@ source. In Firefox on PC it is CTRL+ u. If you cannot find it on your
 browser, try using a search engine to find where it is. (See the Python
 library reference to learn more about [urllib2][][.)][]
 
-``` {.python}
+``` python
 # open-webpage.py
 
 import urllib2
@@ -186,7 +186,7 @@ modules (1), the methods (2), and the parameters (1) before you move on.
 
 In the resulting output, you will notice a little bit of HTML markup:
 
-``` {.xml}
+``` xml
  <!-- MAIN CONTENT -->
 
 <div id="main" class="full"><div id="main2">
@@ -211,7 +211,7 @@ command in Firefox, open the file on your hard drive that it creates
 (obo-t17800628-33.html) to confirm that your saved copy is the same as
 the online copy.
 
-``` {.python}
+``` python
 # save-webpage.py
 
 import urllib2

@@ -228,13 +228,13 @@ look something like this:
 
 A base or root directory, perhaps called 'work'.
 
-``` {.plain}
+``` plain
 \work\
 ```
 
 A series of sub-directories.
 
-``` {.plain}
+``` plain
      \work\events\
      \research\
      \teaching\
@@ -246,7 +246,7 @@ research project, module, or piece of writing. Introducing a naming
 convention that includes a date elements keeps the information organised
 without the need for subdirectories by, say, year or month.
 
-``` {.plain}
+``` plain
 \work\research\2014-01_Journal_Articles
               \2014-02_Infrastructure
 ```
@@ -254,7 +254,7 @@ without the need for subdirectories by, say, year or month.
 Finally, further sub-directories can be used to separate out information
 as the project grows.
 
-``` {.plain}
+``` plain
 \work\research\2014_Journal_Articles\analysis
                                     \data
                                     \notes
@@ -301,7 +301,7 @@ consistent and predictable manner assists with the readability and
 comprehension of the data structure. For example for a project on
 journal articles we might choose the directory…
 
-``` {.plain}
+``` plain
 \work\research\2014-01_Journal_Articles\
 ```
 
@@ -310,21 +310,21 @@ journal articles we might choose the directory…
 Within this directory we include a \\data\\ directory where the original
 data used in the project is kept.
 
-``` {.plain}
+``` plain
 2014-01-31_Journal_Articles.tsv
 ```
 
 Alongside this data is documentation that describes
 2014-01-31\_Journal\_Articles.tsv.
 
-``` {.plain}
+``` plain
 2014-01-31_Journal_Articles_notes.txt
 ```
 
 Going back a directory level to \\2014-01\_Journal\_Articles\\ we create
 the \\analysis\\ directory in which we place.
 
-``` {.plain}
+``` plain
 2014-02-02_Journal_Articles_analysis.txt
 2014-02-15_Journal_Articles_analysis.txt
 ```
@@ -338,7 +338,7 @@ data derived from the original 2014-01-31\_Journal\_Articles.tsv. In
 this case, each derived .tsv file contains lines including the keywords,
 'africa', 'america', 'art' et cetera, and are named accordingly.
 
-``` {.plain}
+``` plain
 2014-01-31_Journal_Articles_KW_africa.tsv
 
 2014-01-31_Journal_Articles_KW_america.tsv

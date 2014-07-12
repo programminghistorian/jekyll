@@ -47,7 +47,7 @@ division operator, represented by two slashes, which divides and then
 returns an answer to the nearest whole number, always rounding down –
 hence the term “floor”.
 
-``` {.python}
+``` python
 print (7 // 2)
 print (5 // 2)
 print (3 // 2)
@@ -57,7 +57,7 @@ Let’s build a function that can identify the index position of the
 keyword when given an n-gram with an odd number of words. Save the
 following to obo.py.
 
-``` {.python}
+``` python
 # Given a list of n-grams identify the index of the keyword.
 
 def nGramsToKWICDict(ngrams):
@@ -73,7 +73,7 @@ creating a new program, get-keyword.py and running it. If all goes well,
 since we are dealing with a 5-gram, you should get 2 as the index
 position of the keyword as we determined above.
 
-``` {.python}
+``` python
 import obo
 
 test = 'this test sentence has eight words in it'
@@ -87,7 +87,7 @@ dictionary that can be used to output all KWIC n-grams of a particular
 keyword. Study this code and then replace your nGramsToKWICDict with the
 following in your obo.py module.
 
-``` {.python}
+``` python
 # Given a list of n-grams, return a dictionary of KWICs,
 # indexed by keyword.
 
@@ -147,7 +147,7 @@ string manipulations. Let’s start by figuring out what our dictionary
 output will look like as it currently stands. Then we can work on
 refining it into what we want.
 
-``` {.python}
+``` python
 # html-to-pretty-print.py
 import obo
 
@@ -175,7 +175,7 @@ to what appears before and after the colon in each case. Knowing how to
 manipulate the slice method is a powerful skill for a new programming
 historian.
 
-``` {.python}
+``` python
 # calculate the length of the n-gram
 kwic = 'amongst them a black there was one'.split()
 n = len(kwic)
@@ -207,7 +207,7 @@ The right-hand context is simply going to consist of a string of terms
 separated by blank spaces. We’ll use the join method to turn the list
 entries into a string.
 
-``` {.python}
+``` python
 print ' '.join(kwic[(keyindex+1):])
 -> there was one
 ```
@@ -220,7 +220,7 @@ below adds three blank spaces (6/2) to either side of the keyword. We’ve
 added hash marks at the beginning and end of the expression so you can
 see the leading and trailing blanks.
 
-``` {.python}
+``` python
 print '#' + str(kwic[keyindex]).center(len(kwic[keyindex])+6) + '#'
 -> #   black   #
 ```
@@ -233,7 +233,7 @@ width of 10 characters, but you can make it larger or smaller as
 desired). The rjust method handles right justification. Once again,
 we’ve added hash marks so you can see the leading blanks.
 
-``` {.python}
+``` python
 width = 10
 print '#' + ' '.join(kwic[:keyindex]).rjust(width*keyindex) + '#'
 -> #                 amongst them a#
@@ -243,7 +243,7 @@ We can now combine these into a function that takes a KWIC and returns a
 pretty-printed string. Add this to the obo.py module. Study the code to
 make sure you understand it before moving on.
 
-``` {.python}
+``` python
 # Given a KWIC, return a string that is formatted for
 # pretty printing.
 
@@ -268,7 +268,7 @@ ends in a similar fashion as the program that computed word frequencies.
 Type or copy the code into your text editor, save it as html-to-kwic.py,
 and execute it.
 
-``` {.python}
+``` python
 # html-to-kwic.py
 
 import obo
@@ -317,7 +317,7 @@ methods needed to create this final program. By referring to those
 lessons, you can now experiment with Python to create programs that
 accomplish specific tasks that will help in your research process.
 
-### Code Syncing {#codesync}
+### Code Syncing
 
 To follow along with future lessons it is important that you have the
 right files and programs in your “programming-historian” directory. At

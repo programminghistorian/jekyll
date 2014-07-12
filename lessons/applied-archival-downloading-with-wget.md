@@ -5,7 +5,7 @@ date: 09-13-2013
 reviewers: Nick Ruest, Konrad Lawson, Ian Milligan
 ---
 
-Background and Lesson Goals {align="center" style="text-align: left;"}
+Background and Lesson Goals
 ---------------------------
 
 Now that you have learned how Wget can be used to mirror or download
@@ -70,7 +70,7 @@ you must exclude them by leaving them in the string (the URL). In this
 example I have parsed the URL so that only the last four digits of the
 string are being manipulated by the ForLoop.
 
-``` {.python}
+``` python
 #URL-Generator.py
 
 urls = '';
@@ -84,7 +84,7 @@ f.close
 Now replace ‘integer1′ and ‘integer2′ with the bottom and top ranges of
 URLs  you want to download. The final product should look like this:
 
-``` {.python}
+``` python
 #URL-Generator.py
 
 urls = '';
@@ -127,13 +127,13 @@ Command Line utility.
 Once you have a shell open, you need to ‘call’ the directory you want to
 save your downloaded .jpeg files to. Type:
 
-``` {.bash}
+``` bash
 cd ~/Documents
 ```
 
 and hit enter. Then type:
 
-``` {.bash}
+``` bash
 cd 'LAC'
 ```
 
@@ -145,7 +145,7 @@ the following into the command line (note you can choose whatever you
 like for your ‘limit rate’, but be a responsible internet citizen and
 keep it under 200kb/s!):
 
-``` {.bash}
+``` bash
 wget -i urls.txt -r --no-parent -nd -w 2 --limit-rate=100k
 ```
 
@@ -185,7 +185,7 @@ if you miss a page or two during an automated download.
 
 Let’s run the script and Wget command once more:
 
-``` {.python}
+``` python
 #Bligh.py
 
 urls = '';
@@ -198,7 +198,7 @@ f.close
 
 And:
 
-``` {.bash}
+``` bash
 wget -i urls.txt -r --no-parent -nd -w 2 --limit-rate=100k
 ```
 
@@ -255,7 +255,7 @@ store your downloaded files in.
 
 Now, run the following Wget command:
 
-``` {.bash}
+``` bash
 wget –i Jefferson.txt –r --no-parent -nd –w 2 –A .jpg, .jpeg --limit-rate=100k
 ```
 
@@ -311,7 +311,7 @@ We do not recommend actually performing this download because of the
 size and extent of the files. This example is merely intended to
 illustrate the how to build and execute the Python script.
 
-``` {.python}
+``` python
 #Leading-Zeros.py
 
 urls = '';

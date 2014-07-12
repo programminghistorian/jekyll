@@ -25,7 +25,7 @@ to metadata fields.
 Your first step is to import the python modules that you will need for
 this program.
 
-``` {.python}
+``` python
 import obo
 from libZotero import zotero
 import urllib2
@@ -35,7 +35,7 @@ import datetime
 Your next line of code will connect to your zotero group library using
 the unique group id and API key.
 
-``` {.python}
+``` python
 #links to zotero group library
 zlib = zotero.Library('group', '155975','<null>', 'f4Bfk3OTYb7bukNwfcKXKNLG')
 ```
@@ -45,7 +45,7 @@ zotero library, you can create a new item and assign it some metadata.
 Start by using the following code to create a new item of the type
 *document* and set the title to *Python Lesson Document.*
 
-``` {.python}
+``` python
 #create a new item of type document
 newItem = zotero.getTemplateItem('document')
 
@@ -58,7 +58,7 @@ will add an abstract note, which is basically a short description of the
 item you have created. Then you will set the item’s creation date to the
 current date.
 
-``` {.python}
+``` python
 #adds a new abstract note
 newItem.set('abstractNote', 'Created using a zotero python library and the write api')
 
@@ -72,7 +72,7 @@ a request to the API to create that item. This code has set the
 *writeFailure* property to display an error message if the item is not
 successfully created.
 
-``` {.python}
+``` python
 # make the request to the API to create the item
 # a Zotero Item object will be returned
 # if the creation went okay it will have a writeFailure property set to False
@@ -88,7 +88,7 @@ tag. Just as in the last segment, this code contains a *writeFailure*
 property that will print an error message if the item has not updated
 correctly.
 
-``` {.python}
+``` python
 #adds a new tag to the new item
 tagname = 'python lesson'
 
@@ -106,13 +106,13 @@ if updatedItem.writeFailure != False:
 At last, you have created a new item with a title and a tag name. This
 last line of code will confirm the item you have just created.
 
-``` {.python}
+``` python
 print 'Created new item <%s> with new tag <%s>' % (createdItem.title, tagname)
 ```
 
 If all has gone according to plan, your output should look like this:
 
-``` {.xml}
+``` xml
 Created new item <Python Lesson Document> with new tag <python lesson>
 ```
 

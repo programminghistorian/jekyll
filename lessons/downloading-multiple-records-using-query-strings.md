@@ -120,7 +120,7 @@ Understanding URL Queries
 Take a look at the URL produced with the last search results page. It
 should look like this:
 
-``` {.xml}
+``` xml
 http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
 ```
 
@@ -129,7 +129,7 @@ more complex. Although longer, it is actually *not* that much more
 complex. But it is easier to understand by noticing how our search
 criteria get represented in the URL.
 
-``` {.xml}
+``` xml
 http://www.oldbaileyonline.org/search.jsp
 ?foo=bar
 &form=searchHomePage
@@ -158,7 +158,7 @@ passing certain information to specific variables. In this case, the
 most important variable is \_divs\_fulltext= which has been given the
 value:
 
-``` {.plain}
+``` plain
 mulatto*+negro*
 ```
 
@@ -234,7 +234,7 @@ First we need to generate the URLs for downloading each search results
 page. We have already got the first one by using the form on the
 website:
 
-``` {.xml}
+``` xml
 http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
 ```
 
@@ -245,7 +245,7 @@ matter what we decide to search for. Study this code and then add this
 function to your obo.py module. The comments in the code are meant to
 help you decipher the various parts.
 
-``` {.python}
+``` python
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth):
 
     import urllib2
@@ -283,7 +283,7 @@ the following code. Note, the values we have passed as arguments are
 exactly the same as those used in the example above. Feel free to play
 with these to get different results or see how they work.
 
-``` {.python}
+``` python
 #download-searches.py
 import obo
 
@@ -307,7 +307,7 @@ the number of search results pages by dividing the value of entries by
 10. We will save this result to an integer variable named pageCount. It
 looks like this:
 
-``` {.python}
+``` python
 #determine how many files need to be downloaded.
 pageCount = entries / 10
 ```
@@ -318,7 +318,7 @@ running this code in your Terminal (Mac & Linux) / Python Command Line
 (Windows) and printing out the value held in pageCount. (Note, from here
 on, we will use the word Terminal to refer to this program).
 
-``` {.python}
+``` python
 entries = 13
 pageCount = entries / 10
 print pageCount
@@ -335,7 +335,7 @@ second and returns the remainder. So if the remainder is more than 0, we
 know there is a partial page of results, and we need to increase the
 pageCount value by one. The code should now look like this:
 
-``` {.python}
+``` python
 #determine how many files need to be downloaded.
 pageCount = entries / 10
 remainder = entries % 10
@@ -355,7 +355,7 @@ Immediately after the if statement you have just written, add the
 following line and indent everything down to f.close one additional tab
 so that it is all enclosed in the for loop:
 
-``` {.python}
+``` python
 for pages in range(1, pageCount+1):
     print pages
 ```
@@ -374,7 +374,7 @@ provides a flexible new skill for controlling how many times a for loop
 runs. If you would like to practice with this new and powerful way of
 writing for loops, you can open your Terminal and play around.
 
-``` {.python}
+``` python
 pageCount = 2
 for pages in range(1, pageCount+1):
     print pages
@@ -406,7 +406,7 @@ have to convert it to a string before we can add it to the filename
 variable. Adjust the line in your program that pertains to the filename
 variable to looks like this:
 
-``` {.python}
+``` python
 filename = 'search-result' + str(startValue)
 ```
 
@@ -427,7 +427,7 @@ getSearchResults function. Recall we have made the following additions:
 
 The finished function code in your obo.py file should look like this:
 
-``` {.python}
+``` python
 #create URLs for search results pages and save the files
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entries):
 
@@ -471,7 +471,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 To run this new function, add the extra argument to download-searches.py
 and run the program again:
 
-``` {.python}
+``` python
 #download-searches.py
 import obo
 
@@ -488,7 +488,7 @@ download multiple search results pages and trial transcripts. Let’s have
 Python make a new directory named after our search terms. Study and then
 copy the following to obo.py.
 
-``` {.python}
+``` python
 def newDir(newDir):
     import os
 
@@ -506,7 +506,7 @@ library, short for “operating system”. That library contains a function
 called makedirs, which, unsurprisingly, makes a new directory. You can
 try this out using the Terminal.
 
-``` {.python}
+``` python
 import os
 
 query = "myNewDirectory"
@@ -528,7 +528,7 @@ the os directory after you have imported urllib2 and then add the code
 you have just written immediately below. Your getSearchResults function
 should now look like this:
 
-``` {.python}
+``` python
 #create URLs for search results pages and save the files
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entries):
 
@@ -581,7 +581,7 @@ ends up in the right place. There are many ways we can do this, the
 easiest of which is just to append the new directory name plus a slash
 to the name of the file:
 
-``` {.python}
+``` python
 filename = query + '/' + 'search-result' + str(startValue)
 ```
 
@@ -601,7 +601,7 @@ to create a new string named cleanQuery that contains only alphanumeric
 characters. You will then have to substitute cleanQuery as the variable
 used in the os.path.exists(), os.makedirs(), and filename declarations.
 
-``` {.python}
+``` python
 import urllib2, os, re
 cleanQuery = re.sub(r'\W+', '', query)
 if not os.path.exists(cleanQuery):
@@ -614,7 +614,7 @@ filename = cleanQuery + '/' + 'search-result' + str(startValue)
 
 The final version of your function should look like this:
 
-``` {.python}
+``` python
 #create URLs for search results pages and save the files
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entries):
 
@@ -678,7 +678,7 @@ the trial transcripts, so we will continue to do so. We know that the
 printer friendly version of Benjamin Bowsey’s trial is located at the
 URL:
 
-``` {.xml}
+``` xml
 http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
 ```
 
@@ -702,7 +702,7 @@ trials. The first entry starts with “Anne Smith” so you can use the
 “find” feature in Komodo Edit to jump immediately to the right spot.
 Notice Anne’s name is part of a link:
 
-``` {.xml}
+``` xml
 http://www.oldbaileyonline.org/browse.jsp?id=t17160113-18&div=t17160113-18&terms=mulatto|negro#highlight 
 ```
 
@@ -720,7 +720,7 @@ Windows such as opening, closing, creating, deleting, and moving files
 and directories, and is a great library to master – or at least
 familiarize yourself with.
 
-``` {.python}
+``` python
 def getIndivTrials(query):
     import os, re
 
@@ -734,7 +734,7 @@ Create and run a new program called extract-trial-ids.py with the
 following code. Make sure you input the same value into the query
 argument as you did in the previous example:
 
-``` {.python}
+``` python
 import obo
 
 obo.getIndivTrials("mulatto*+negro*")
@@ -760,7 +760,7 @@ it will be saved to a list and printed to the command output, which
 leaves us with all of the information we need to then write a program
 that will download the desired trials.
 
-``` {.python}
+``` python
     import os, re
 
     cleanQuery = re.sub(r'\W+', '', query)
@@ -795,7 +795,7 @@ find() string method we have created a much more flexible program. The
 following code does exactly the same thing as that last line in a less
 condensed manner.
 
-``` {.python}
+``` python
 idStart = words.find("id=") + 3
 idEnd = words.find("&")
 trialID = words[idStart: idEnd]
@@ -817,7 +817,7 @@ new directory, save the file, and pause for 3 seconds before moving on
 to the next trial. This work is all contained in a for loop, and will
 run once for every trial in your url list.
 
-``` {.python}
+``` python
 def getIndivTrials(query):
     #...
     import urllib2, time
@@ -850,7 +850,7 @@ If we put this all together into a single function it should look
 something like this. (Note, we’ve put all the “import” calls at the top
 to keep things cleaner).
 
-``` {.python}
+``` python
 def getIndivTrials(query):
     import os, re, urllib2, time
 
@@ -900,7 +900,7 @@ def getIndivTrials(query):
 Let’s add the same three-second pause to our getSearchResults function
 to be kind to the Old Bailey Online servers:
 
-``` {.python}
+``` python
 #create URLs for search results pages and save the files
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entries):
 
@@ -951,7 +951,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 
 Finally, call the function in the download-searches.py program.
 
-``` {.python}
+``` python
 #download-searches.py
 import obo
 
@@ -1006,7 +1006,7 @@ set the default socket timeout length – how long do we want to try to
 download a page before we give up. This should go immediately after the
 comment that begins with \#download the page
 
-``` {.plain}
+``` plain
 import os, urllib2, time, socket
 
     #...
@@ -1018,7 +1018,7 @@ Then, we need a new python list that will hold all of the urls that
 failed to download. We will call this failedAttempts and you can insert
 it immediately after the import instructions:
 
-``` {.plain}
+``` plain
  failedAttempts = []
 ```
 
@@ -1029,7 +1029,7 @@ statement, and in the except statement we will tell the program what we
 want it to do if that should fail. Here, we will append the url that
 failed to download to our new list, failedAttempts
 
-``` {.python}
+``` python
 #...
 
         socket.setdefaulttimeout(10)
@@ -1054,7 +1054,7 @@ Finally, we will tell the program to print the contents of the list to
 the command output so we know which files failed to download. This
 should be added as the last line in the function.
 
-``` {.plain}
+``` plain
 print "failed to download: " + str(failedAttempts) 
 ```
 
@@ -1068,7 +1068,7 @@ automatically download the remaining files. The final version of your
 getSearchResults(), getIndivTrials(), and newDir() functions should now
 look like this:
 
-``` {.python}
+``` python
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entries):
 
     import urllib2, os, re, time

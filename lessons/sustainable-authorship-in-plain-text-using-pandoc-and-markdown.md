@@ -243,7 +243,7 @@ metadata.
 Let’s now create a simple document in Markdown. Open a plain-text editor
 of your choice and begin typing. It should look like this:
 
-``` {.plain}
+``` plain
 ---  
 title: Plain Text Workflow  
 author: Dennis Tenen, Grant Wythoff  
@@ -259,7 +259,7 @@ contains three sections, each subdivided into two subsections. Leave a
 blank line after last three dashes in the YAML block and paste the
 following:
 
-``` {.plain}
+``` plain
 # Section 1  
 
 ## Subsection 1.1  
@@ -284,7 +284,7 @@ like this: `*italics*` and `**bold**`. We should also add a link and a
 footnote to our text to cover the basic components of an average paper.
 Type:
 
-``` {.plain}
+``` plain
 A sentence that needs a note.[ˆ1] 
 
 [ˆ1]: my first footnote! And a [link](https://www.eff.org/).
@@ -309,7 +309,7 @@ of the text: `![image caption](your_image.jpg)`.
 At this point, your `main.md` should look something like the following.
 You can download this sample .md file [here][].
 
-``` {.plain}
+``` plain
 ---  
 title: Plain Text Workflow  
 author: Dennis Tenen, Grant Wythoff  
@@ -437,14 +437,14 @@ there, type `$ ls` in the terminal to list the files. If you see your
 .md file and your images, you are in the right place. To convert .md
 into .docx type:
 
-``` {.bash}
+``` bash
 $ pandoc -o main.docx main.md
 ```
 
 Open the file with MS Word to check your results. Alternatively, if you
 use Open or Libre Office you can run:
 
-``` {.bash}
+``` bash
 pandoc -o project.odt main.md
 ```
 
@@ -456,7 +456,7 @@ target file formats, just guess by looking at the file extension.” Many
 options are available through such flags in Pandoc. You can see the
 complete list on [Pandoc’s website][] or by typing
 
-``` {.bash}
+``` bash
 man pandoc
 ```
 
@@ -464,7 +464,7 @@ in the terminal.
 
 Try running the command
 
-``` {.bash}
+``` bash
 $ pandoc -o project.html main.md
 ```
 
@@ -475,7 +475,7 @@ converting Markdown into .tex or specially formatted .pdf files. Once
 LaTeX is installed, a beautifully formatted PDF file can be created
 using the same command structure:
 
-``` {.bash}
+``` bash
 $ pandoc -o main.pdf main.md
 ```
 
@@ -483,7 +483,7 @@ With time, you will be able to fine tune the formatting of PDF documents
 by specifying a LaTeX style file (saved to the same directory), and
 running something like:
 
-``` {.bash}
+``` bash
 $ pandoc -H format.sty -o project.pdf --number-sections --toc project.tex
 ```
 
@@ -511,7 +511,7 @@ open your .bib file with the plain-text editor of your choice. ^[4][13]^
 Your .bib file should contain multiple entries that look something like
 this:
 
-``` {.plain}
+``` plain
 @article{fyfe_digital_2011,
     title = {Digital Pedagogy Unplugged},
     volume = {5},
@@ -550,7 +550,7 @@ called `# Bibliography` at the end of document.
 Now, go back to your metadata header at the top of your .md document,
 and specify the bibliography file to be used, like so:
 
-``` {.bash}
+``` bash
 ---
 title: Plain Text Workflow
 author: Dennis Tenen, Grant Wythoff
@@ -563,7 +563,7 @@ This tells Pandoc to look for your bibliography in the `project.bib`
 file, under the same directory as your `main.md`. Let’s see if this
 works. Save your file, switch to the terminal window and run:
 
-``` {.bash}
+``` bash
 $ pandoc -S -o main.docx --filter pandoc-citeproc main.md
 ```
 
@@ -593,7 +593,7 @@ and save to your project directory as `mla.csl`. Now we need to tell
 Pandoc to use the MLA stylesheet instead of the default Chicago. We do
 this by updating the YAML header:
 
-``` {.bash}
+``` bash
 ---
 title: Plain Text Workflow
 author: Dennis Tenen, Grant Wythoff
@@ -605,7 +605,7 @@ csl: mla.csl
 
 You then simply use the same command:
 
-``` {.bash}
+``` bash
 $ pandoc -S -o main.docx --filter pandoc-citeproc main.md
 ```
 

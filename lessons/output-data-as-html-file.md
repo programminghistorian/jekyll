@@ -73,7 +73,7 @@ Python includes a special formatting operator that allows you to insert
 one string into another one. It is represented by a percent sign
 followed by an “s”. Open a Python shell and try the following examples.
 
-``` {.python}
+``` python
 frame = 'This fruit is a %s'
 print frame
 -> This fruit is a %s
@@ -88,7 +88,7 @@ print frame % 'pear'
 There is also a form which allows you to interpolate a list of strings
 into another one.
 
-``` {.python}
+``` python
 frame2 = 'These are %s, those are %s'
 print frame2
 -> These are %s, those are %s
@@ -110,7 +110,7 @@ Let’s bundle some of the code that we’ve already written into functions.
 One of these will take a URL and return a string of lowercase text from
 the web page. Copy this code into the obo.py module.
 
-``` {.python}
+``` python
 # Given a URL, return string of lowercase text from page.
 
 def webPageToText(url):
@@ -134,7 +134,7 @@ If you are using a Mac, make sure you include the proper file path in
 the filename variable on the 2nd last line to reflect where you’re
 saving your files.
 
-``` {.python}
+``` python
 # Given name of calling program, a url and a string to wrap,
 # output string in html body with basic metadata and open in Firefox tab.
 
@@ -165,7 +165,7 @@ def wrapStringInHTML(program, url, body):
 
 #### Windows Instructions
 
-``` {.python}
+``` python
 # Given name of calling program, a url and a string to wrap,
 # output string in html body with basic metadata
 # and open in Firefox tab.
@@ -226,7 +226,7 @@ entries to Zotero. Type or copy the following code into your text
 editor, save it as html-to-freq-3.py and execute it, to confirm that it
 works as expected.
 
-``` {.python}
+``` python
 # html-to-freq-3.py
 import obo
 

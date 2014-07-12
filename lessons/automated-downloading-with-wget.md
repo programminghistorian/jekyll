@@ -67,13 +67,13 @@ If you are using a Linux system, you should already have wget installed.
 To check if you have it, open up your command line. Type ‘wget’ and
 press enter. If you have wget installed the system will respond with:
 
-``` {.bash}
+``` bash
 -> Missing URL.
 ```
 
 If you do not have wget installed, it will respond with
 
-``` {.bash}
+``` bash
 -> command not found.
 ```
 
@@ -125,7 +125,7 @@ required files.
 To install *Homebrew*, open up your terminal window and type the
 following:
 
-``` {.bash}
+``` bash
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 ```
 
@@ -133,7 +133,7 @@ This uses the ruby programming language, built into OS X, to install
 Homebrew. To see if the installation worked, type the following into
 your terminal window:
 
-``` {.bash}
+``` bash
 brew
 ```
 
@@ -141,14 +141,14 @@ A list of documentation options should appear if it has been installed.
 We have one more command to run to make sure everything is working,
 which is:
 
-``` {.bash}
+``` bash
 brew doctor
 ```
 
 With *Homebrew* installed, we now have to install wget. This is now an
 easy step.
 
-``` {.bash}
+``` bash
 brew install wget
 ```
 
@@ -156,19 +156,19 @@ It will proceed to download the most recent version of wget, which is
 wget 1.14. After the script stops running, and you are back to your main
 window, enter the following command into the terminal:
 
-``` {.bash}
+``` bash
 wget
 ```
 
 If you have installed it, you will see:
 
-``` {.bash}
+``` bash
 -> Missing URL.
 ```
 
 If not, you will see:
 
-``` {.plain}
+``` plain
 -> command not found.
 ```
 
@@ -195,7 +195,7 @@ downloaded wget-1.13.
 First, we will need to navigate to the directory that the wget files are
 in. At the terminal, type:
 
-``` {.bash}
+``` bash
 cd wget-1.13
 ```
 
@@ -207,14 +207,14 @@ We now need to generate the instructions, or makefile, for the file.
 This is sort of a blueprint for what the final file is going to look
 like. Accordingly, type:
 
-``` {.bash}
+``` bash
 ./configure –with-ssl=openssl
 ```
 
 Now that we have the blueprints, let\\’s tell our computer to follow
 them. Type:
 
-``` {.bash}
+``` bash
 make
 ```
 
@@ -222,7 +222,7 @@ Then, you need to make the final file. By pre-pending the command sudo,
 you are running the command with highest security privileges. This lets
 you actually install the file into your system.
 
-``` {.bash}
+``` bash
 sudo make install
 ```
 
@@ -276,7 +276,7 @@ In your working directory, make a new directory. Let’s call it
 wget-activehistory. You can make this using your Finder/Windows, or if
 you are at a Terminal window at that path, you can type:
 
-``` {.bash}
+``` bash
 mkdir wget-activehistory
 ```
 
@@ -284,7 +284,7 @@ Either way, you now have a directory that we will be working in. Now
 open up your command line interface and navigate to
 the wget-activehistory directory. As a reminder, you can type:
 
-``` {.bash}
+``` bash
 cd [directory]
 ```
 
@@ -294,14 +294,14 @@ to your new directory.
 
 Enter the following command:
 
-``` {.bash}
+``` bash
 wget http://activehistory.ca/papers/
 ```
 
 After some initial messages, you should see the following (figures,
 dates and some details will be different, however):
 
-``` {.bash}
+``` bash
 Saving to: `index.html.1'
 
 [] 37,668 --.-K/s in 0.1s
@@ -320,7 +320,7 @@ to add a few commands to wget.
 
 Wget operates on the following general basis:
 
-``` {.bash}
+``` bash
 wget [options] [URL]
 ```
 
@@ -345,7 +345,7 @@ wget to a depth of five sites after the first one. This is following
 links, to a limit of five clicks after the first website. At this point,
 it will be quite indiscriminate. So we need more commands:
 
-``` {.bash}
+``` bash
 --no-parent 
 ```
 
@@ -373,7 +373,7 @@ provide. However, perhaps you just want to follow one link and stop
 there? In that case, you could input -l 2, which takes us to a depth of
 two web-pages. Note this is a lower-case ‘L’, not a number 1.
 
-``` {.bash}
+``` bash
 -l 2
 ```
 
@@ -382,7 +382,7 @@ nice to servers and to stop any automated countermeasures from thinking
 the server is under attack! To that end, we have two additional
 essential commands:
 
-``` {.bash}
+``` bash
 -w 10
 ```
 
@@ -401,7 +401,7 @@ wait by 0.5 and 1.5 times the value you provide here.
 Another critical comment is to limit the bandwidth you will be using in
 the download:
 
-``` {.bash}
+``` bash
 --limit-rate=20k
 ```
 
@@ -421,7 +421,7 @@ Directories end in slashes. Files do not. The command will then download
 the entire ActiveHistory.ca page. The order of the options does not
 matter.
 
-``` {.bash}
+``` bash
 wget -r --no-parent -w 2 --limit-rate=20k http://activehistory.ca/papers/
 ```
 
@@ -453,7 +453,7 @@ downloads), as well as infinite recursion (it will go as many layers
 into the site as necessary). The command for mirroring ActiveHistory.ca
 would be:
 
-``` {.bash}
+``` bash
 wget -m -w 2 --limit-rate=20k http://activehistory.ca
 ```
 

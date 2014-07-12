@@ -139,7 +139,7 @@ object on the museum website. To get an idea of what object the metadata
 corresponds to, simply click the persistent link and the website will
 open.
 
-[![Powerhouse Museum Website][]][Powerhouse Museum Website]
+[![Powerhouse Museum Website][]][Powerhouse Museum Website]\
 
 Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website
 
@@ -310,7 +310,7 @@ this case, we want to replace double pipes with a single pipe. This can
 be achieved by entering the following [regular expression][] (be sure
 not to forget the quotes):
 
-``` {.plain}
+``` plain
 value.replace('||', '|')
 ```
 
@@ -333,7 +333,7 @@ categories column. Using GREL we can successively split the categories
 on the pipe character, look for unique categories and join them back
 again. To achieve this, just type the following expression:
 
-``` {.plain}
+``` plain
 value.split('|').uniques().join('|')
 ```
 

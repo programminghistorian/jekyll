@@ -54,13 +54,13 @@ manager. Begin by installing pip using [this Programming Historian
 lesson][]. Then issue these commands at the command line: To install
 internetarchive:
 
-``` {.bash}
+``` bash
 sudo pip install internetarchive
 ```
 
 To install pymarc:
 
-``` {.bash}
+``` bash
 sudo pip install pymarc
 ```
 
@@ -102,7 +102,7 @@ Accessing an IA Collection in Python
 Internet Archive (IA) collections and items all have a unique
 identifier, and URLs to collections and items all look like this:
 
-``` {.plain}
+``` plain
 
 http://archive.org/details/[IDENTIFIER]
 ```
@@ -110,7 +110,7 @@ http://archive.org/details/[IDENTIFIER]
 So, for example, here is a URL to the Archive item discussed above,
 Douglass’s letter to Garrison:
 
-``` {.plain}
+``` plain
 
 http://archive.org/details/lettertowilliaml00doug
 ```
@@ -118,7 +118,7 @@ http://archive.org/details/lettertowilliaml00doug
 And here is a URL to the entire antislavery collection at the Boston
 Public Library:
 
-``` {.plain}
+``` plain
 
 http://archive.org/details/bplscas/
 ```
@@ -148,7 +148,7 @@ For example, let’s modify the sample code from the module’s
 documentation to see if we can tell, with Python, how many items are in
 the digital Antislavery Collection. The sample code looks like this:
 
-``` {.python}
+``` python
 import internetarchive
 search = internetarchive.Search('collection:nasa')
 print search.num_found
@@ -159,7 +159,7 @@ bplscas. After starting your computer’s Python interpreter, try entering
 each of the above lines, followed by enter, but modify the collection id
 in the second command:
 
-``` {.python}
+``` python
 search = internetarchive.Search('collection:bplscas')
 ```
 
@@ -182,7 +182,7 @@ changing the sample identifier stairs to our item identifier,
 lettertowilliaml00doug (note that the character before the two zeroes is
 a lowercase L, not the number 1):
 
-``` {.python}
+``` python
 item = internetarchive.Item('lettertowilliaml00doug')
 item.download()
 ```
@@ -194,7 +194,7 @@ pretty large images. But when it’s done downloading, you should be see a
 new directory on your computer whose name is the item identifier. To
 check, first exit your Python interpreter:
 
-``` {.python}
+``` python
 exit()
 ```
 
@@ -202,7 +202,7 @@ Then list the contents of the current directory to see if a folder now
 appears named lettertowilliaml00doug. If you list the contents of that
 folder, you should see a list of files similar to this:
 
-``` {.plain}
+``` plain
 39999066767938.djvu
 39999066767938.epub
 39999066767938.gif
@@ -238,7 +238,7 @@ search.
 To see how, let’s first start our Python interpreter again. We’ll need
 to import our module again, and perform our search again:
 
-``` {.python}
+``` python
 import internetarchive
 search = internetarchive.Search('collection:bplscas')
 ```
@@ -246,7 +246,7 @@ search = internetarchive.Search('collection:bplscas')
 Now let’s enter the documentation’s sample code for printing out the
 item identifier of every item returned by our search:
 
-``` {.python}
+``` python
 for result in search.results():
    print result['identifier']
 ```
@@ -269,7 +269,7 @@ If you didn’t see identifiers printing out to your screen, but instead
 saw an error like this, you may have forgotten to enter a few spaces
 before your print command:
 
-``` {.python}
+``` python
 for result in search.results():
    print result['identifier']
 File "", line 2
@@ -298,7 +298,7 @@ case, a search result—but we could have used other names in place of
 that one. For example, try running the above for loop again, but
 substitute a different name for the local variable, such as:
 
-``` {.python}
+``` python
 for item in search.results():
    print item['identifier']
 ```
@@ -327,7 +327,7 @@ item][documentation’s sample code for downloading an item]. If we had
 only wanted to download the MARC XML record associated with a particular
 item, we could have instead done this:
 
-``` {.python}
+``` python
 item = internetarchive.Item('lettertowilliaml00doug')
 marc = item.file('lettertowilliaml00doug_marc.xml')
 marc.download()
@@ -346,7 +346,7 @@ writing a Python script that downloads the MARC record from each item in
 the BPL Antislavery Collection. Try putting this script into Komodo or
 your preferred text editor:
 
-``` {.python}
+``` python
 #!/usr/bin/python
 
 import internetarchive
@@ -409,7 +409,7 @@ case you can give it some other code to execute instead. You can read
 more about [handling exceptions][] in the Python documentation, but for
 now let’s just update our above script so that it looks like this:
 
-``` {.python}
+``` python
 #!/usr/bin/python
 
 import internetarchive
@@ -446,7 +446,7 @@ else clause.
 
 One other thing we have added, upon successful download, is this line:
 
-``` {.python}
+``` python
 time.sleep(1)
 ```
 
@@ -504,7 +504,7 @@ that we have a MARC record prepared for parsing by the module assigned
 to the variable record, we could get the information about publication
 place names this way:
 
-``` {.python}
+``` python
 place_of_pub = record['260']['a']
 ```
 
@@ -514,7 +514,7 @@ little rooting around in the source code for the module reveals some
 [functions that it provides for working with MARC XML records][]. One of
 these, called map\_xml() is described this way:
 
-``` {.python}
+``` python
 def map_xml(function, *files):
     """
     map a function onto the file, so that for each record that is
@@ -534,7 +534,7 @@ then specify another function (that we will write) telling our program
 what to do with the MARC data retrieved from the XML file. In rough
 outline, our code will look something like this:
 
-``` {.python}
+``` python
 import pymarc
 
 def get_place_of_pub(record):
@@ -548,7 +548,7 @@ Try saving that code to a script and running it from a directory where
 you already have the Douglass letter XML saved. If all goes well, the
 script should spit out this:
 
-``` {.python}
+``` python
 Belfast, [Northern Ireland],
 ```
 
@@ -557,7 +557,7 @@ the place of publication from every letter in our collection of MARC
 records. Putting together what we’ve learned from earlier in the lesson,
 we can do that with a script that looks like this:
 
-``` {.python}
+``` python
 #!/usr/bin/python
 
 import os

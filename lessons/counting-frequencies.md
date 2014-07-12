@@ -30,7 +30,7 @@ already seen that it is easy to process a list by using a for loop. Try
 saving and executing the following example. Recall that += tells the
 program to append something to the end of an existing variable.
 
-``` {.python}
+``` python
 # count-list-items-1.py
 
 wordstring = 'it was the best of times it was the worst of times '
@@ -60,7 +60,7 @@ string so that it can be printed.
 
 You should get something like this:
 
-``` {.python}
+``` python
 String
 it was the best of times it was the worst of times it was the age of wisdom it was the age of foolishness
 
@@ -90,7 +90,7 @@ Python also includes a very convenient tool called a [list
 comprehension][], which can be used to do the same thing as the for loop
 more economically.
 
-``` {.python}
+``` python
 # count-list-items-1.py
 
 wordstring = 'it was the best of times it was the worst of times '
@@ -119,7 +119,7 @@ solve both problems by converting it into a dictionary, then printing
 out the dictionary in order from the most to the least commonly
 occurring item.
 
-Python Dictionaries {.sub}
+Python Dictionaries
 -------------------
 
 Both strings and lists are sequentially ordered, which means that you
@@ -128,7 +128,7 @@ If you have a list containing strings, you can use a pair of indexes to
 access first a particular string in the list, and then a particular
 character within that string. Study the examples below.
 
-``` {.python}
+``` python
 s = 'hello world'
 print s[0]
 -> h
@@ -156,7 +156,7 @@ objects. That means that you can’t use an index to retrieve elements
 from it. You can, however, look them up by using a key (hence the name
 “dictionary”). Study the following example.
 
-``` {.python}
+``` python
 d = {'world': 1, 'hello': 0}
 print d['hello']
 -> 0
@@ -181,7 +181,7 @@ Note that you use curly braces to define a dictionary, but square
 brackets to access things within it. The keys operation returns a list
 of keys that are defined in the dictionary.
 
-Word-Frequency Pairs {.sub}
+Word-Frequency Pairs
 --------------------
 
 Building on what we have so far, we want a function that can convert a
@@ -189,7 +189,7 @@ list of words into a dictionary of word-frequency pairs. The only new
 command that we will need is dict, which makes a dictionary from a list
 of pairs. Copy the following and add it to the obo.py module.
 
-``` {.python}
+``` python
 # Given a list of words, return a dictionary of
 # word-frequency pairs.
 
@@ -202,7 +202,7 @@ We are also going to want a function that can sort a dictionary of
 word-frequency pairs by descending frequency. Copy this and add it to
 the obo.py module, too.
 
-``` {.python}
+``` python
 # Sort a dictionary of word-frequency pairs in
 # order of descending frequency.
 
@@ -219,7 +219,7 @@ the following program into Komodo Edit, save it as html-to-freq.py and
 execute it. Study the program and its output carefully before
 continuing.
 
-``` {.python}
+``` python
 #html-to-freq.py
 
 import urllib2, obo
@@ -243,7 +243,7 @@ When we look at the output of our html-to-freq.py program, we see that a
 lot of the most frequent words in the text are function words like
 “the”, “of”, “to” and “and”.
 
-``` {.python}
+``` python
 (192, 'the')
 (105, 'i')
 (74, 'to')
@@ -269,7 +269,7 @@ following list, adapted from one posted online by [computer scientists
 at Glasgow][]. Copy it and put it at the beginning of the obo.py library
 that you are building.
 
-``` {.python}
+``` python
 stopwords = ['a', 'about', 'above', 'across', 'after', 'afterwards']
 stopwords += ['again', 'against', 'all', 'almost', 'alone', 'along']
 stopwords += ['already', 'also', 'although', 'always', 'am', 'among']
@@ -326,7 +326,7 @@ stopwords += ['yours', 'yourself', 'yourselves']
 Now getting rid of the stop words in a list is as easy as using another
 list comprehension. Add this function to the obo.py module, too.
 
-``` {.python}
+``` python
 # Given a list of words, remove any that are
 # in a list of stop words.
 
@@ -341,7 +341,7 @@ Now we have everything we need to determine word frequencies for web
 pages. Copy the following to Komodo Edit, save it as html-to-freq-2.py
 and execute it.
 
-``` {.python}
+``` python
 # html-to-freq-2.py
 
 import urllib2
@@ -362,7 +362,7 @@ for s in sorteddict: print str(s)
 
 If all went well, your output should look like this:
 
-``` {.python}
+``` python
 (25, 'house')
 (20, 'yes')
 (20, 'prisoner')

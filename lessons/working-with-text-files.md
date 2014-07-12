@@ -30,7 +30,7 @@ Installation][], or [Linx Installation][]), you saw how to send
 information to the “Command Output” window of your text editor by using
 Python’s [print][] command.
 
-``` {.python}
+``` python
 print 'hello world'
 ```
 
@@ -44,7 +44,7 @@ In the example above, we see one kind of object, the string “hello
 world”. The string is the sequence of characters enclosed by quotes. You
 can write a string one of three ways:
 
-``` {.plain}
+``` plain
 message1 = 'hello world'
 message2 = "hello world"
 message3 = """hello
@@ -58,7 +58,7 @@ two within one string.
 
 For instance, the following are all wrong:
 
-``` {.plain}
+``` plain
 message1 = "hello world'
 message2 = 'hello world"
 message3 = 'I can't eat pickles'
@@ -67,13 +67,13 @@ message3 = 'I can't eat pickles'
 Count the number of single quotes in message3. For that to work you
 would have to escape the apostrophe:
 
-``` {.python}
+``` python
 message3 = 'I can\'t eat pickles'
 ```
 
 Or, rewrite the phrase as:
 
-``` {.python}
+``` python
 message3 = "I can't eat pickles"
 ```
 
@@ -92,7 +92,7 @@ information to files on your hard drive rather than to the “Command
 Output” pane. Enter the following program into your text editor and save
 it as file-output.py.
 
-``` {.python}
+``` python
 # file-output.py
 f = open('helloworld.txt','w')
 f.write('hello world')
@@ -155,13 +155,13 @@ use. eg, click on the “\#!” and “Run” in TextWrangler). Although nothing
 will be printed to the “Command Output” pane, you will see a status
 message that says something like
 
-``` {.python}
+``` python
 `/usr/bin/python file-output.py` returned 0.
 ```
 
 in Mac or Linux, or
 
-``` {.python}
+``` python
 'C:\Python27\Python.exe file-output.py' returned 0.
 ```
 
@@ -171,7 +171,7 @@ This means that your program executed successfully. If you use File -\>
 Open -\> File in you Komodo Edit, you can open the file helloworld.txt.
 It should contain your one-line message:
 
-``` {.python}
+``` python
 Hello World!
 ```
 
@@ -189,7 +189,7 @@ file-input.py. When you click on “Run” to execute it, it will open the
 text file that you just created, read the one-line message from it, and
 print the message to the “Command Output” pane.
 
-``` {.python}
+``` python
 # file-input.py
 f = open('helloworld.txt','r')
 message = f.read()
@@ -230,7 +230,7 @@ file-append.py. When you run this program it will open the same
 helloworld.txt file created earlier and append a second “hello world” to
 the file. The ‘\\n‘ stands for new line.
 
-``` {.python}
+``` python
 # file-append.py
 f = open('helloworld.txt','a')
 f.write('\n' + 'hello world')

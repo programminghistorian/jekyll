@@ -110,7 +110,7 @@ Mac Instructions
 
     “Command” box, type
 
-    ``` {.python}
+    ``` python
     %(python) %f
 
     #and under "Start in," enter
@@ -184,7 +184,7 @@ Windows Instructions
         dialog window. Rename your command to “Run Python“. Under
         “Command,” type:
 
-        ``` {.python}
+        ``` python
         %(python) %f
         ```
 
@@ -225,7 +225,7 @@ system such as Debian, or Linux Mint, provided you have sudo installed.
     folder. Something like this in your open terminal window should do
     the trick:
 
-    ``` {.plain}
+    ``` plain
     cd ~
     mkdir programming-historian
     ```
@@ -275,7 +275,7 @@ try this.
 In Komodo, create a new file, enter the following two-line program and
 save it to your programming-historian directory as hello-world.py
 
-``` {.python}
+``` python
 # hello-world.py
 print 'hello world'
 ```
@@ -311,20 +311,20 @@ then typing “python” into the window that opens on your screen. For
 Linux, go to Applications-\> Accessories -\> Terminaland do the same. At
 the Python shell prompt, type
 
-``` {.python}
+``` python
 print 'hello world'
 ```
 
 and press Enter. The computer will respond with
 
-``` {.python}
+``` python
 hello world
 ```
 
 When we want to represent an interaction with the shell, we will use -\>
 to indicate the shell’s response to your command, as shown below:
 
-``` {.python}
+``` python
 print 'hello world'
 -> hello world
 ```
@@ -346,20 +346,20 @@ you installed version 2.7 (the most recent as of May 2012), then this
 file is probably located in the C:\\Python27\\python.exe directory. In
 the shell window that opens on your screen type:
 
-``` {.python}
+``` python
 print 'hello world'
 ```
 
 and press Enter. The computer will respond with
 
-``` {.python}
+``` python
 hello world
 ```
 
 When we want to represent an interaction with the shell, we will use -\>
 to indicate the shell’s response to your command, as shown below:
 
-``` {.python}
+``` python
 print 'hello world'
 -> hello world
 ```
@@ -414,7 +414,7 @@ formatting a bibliographic entry and you want to indicate the title of a
 work by italicizing it. In HTML you use \<em\> tags (“em” stands for
 emphasis). So part of your HTML file might look like this
 
-``` {.xml}
+``` xml
 ... in Cohen and Rosenzweig's <em>Digital History</em>, for example ...
 ```
 
@@ -424,7 +424,7 @@ within that document. Information about the file usually goes into the
 head, whereas information that will be displayed on the screen usually
 goes into the body.
 
-``` {.xml}
+``` xml
 <html>
 <head></head>
 <body>Hello World!</body>
@@ -439,7 +439,7 @@ title tag in the head of the HTML document contains material that is
 usually displayed in the top bar of a window when the page is being
 viewed, and in Firefox tabs.
 
-``` {.xml}
+``` xml
 <!doctype html>
 <html dir="ltr" lang="en-US">
 
@@ -455,19 +455,19 @@ viewed, and in Firefox tabs.
 
 Change both
 
-``` {.xml}
+``` xml
 <!-- Insert your title here -->
 ```
 
 and
 
-``` {.xml}
+``` xml
 <!-- Insert your content here -->
 ```
 
 to
 
-``` {.xml}
+``` xml
 Hello World!
 ```
 

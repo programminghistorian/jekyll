@@ -62,7 +62,7 @@ Now you need to set up the editor so that you can run Python programs.
 Next choose Toolbox-\>Add-\>New Command. This will open a new dialog
 window. Rename your command to ‘Run Python’. Under ‘Command’, type:
 
-``` {.python}
+``` python
 %(python) %f
 ```
 
@@ -109,7 +109,7 @@ In your text editor, create a new file, enter the following two-line
 program and save it to your programming-historian directory as
 hello-world.py
 
-``` {.python}
+``` python
 # hello-world.py
 print 'hello world'
 ```
@@ -133,20 +133,20 @@ you installed version 2.7 (the most recent as of May 2012), then this
 file is probably located in the C:\\Python27\\python.exe directory. In
 the shell window that opens on your screen type:
 
-``` {.python}
+``` python
 print 'hello world'
 ```
 
 and press Enter. The computer will respond with
 
-``` {.python}
+``` python
 hello world
 ```
 
 When we want to represent an interaction with the shell, we will use -\>
 to indicate the shell’s response to your command, as shown below:
 
-``` {.python}
+``` python
 print 'hello world'
 -> hello world
 ```

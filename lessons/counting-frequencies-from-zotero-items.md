@@ -31,7 +31,7 @@ the line that instructs the program to begin at the end of the header,
 then we will tell it where to begin. Open the obo.py file in your text
 editor and follow the instructions below:
 
-``` {.python}
+``` python
 def stripTags(pageContents):
     #remove the following line
     #startLoc = pageContents.find("<hr/><h2>")
@@ -75,7 +75,7 @@ directory. Make sure your copy of the obo.py file is in the same
 location. Once you have saved your file, we can begin by importing the
 libraries and program data we will need to run this program:
 
-``` {.python}
+``` python
 #Get urls from Zotero items, create local copy, count frequencies
 import obo
 from libZotero import zotero
@@ -90,7 +90,7 @@ a specific collection within the library. (To find your collection key,
 mouseover the RSS button on that collection’s page and use the second
 alpha-numeric sequence in the URL.)
 
-``` {.python}
+``` python
 #links to Zotero library
 zlib = zotero.Library('group', '155975', '<null>', 'f4Bfk3OTYb7bukNwfcKXKNLG')
 
@@ -105,7 +105,7 @@ Now we can instruct our program to retrieve the URL from each of our
 items, create a filename using that URL, and save a copy of the html on
 the page.
 
-``` {.python}
+``` python
 #retrieves url from each item, creates a filename from the url, saves a local copy
 for item in items:
     url = item.get('url')
@@ -123,7 +123,7 @@ for item in items:
 
 Running this portion of the program will result in the following:
 
-``` {.xml}
+``` xml
 Saving local copy of PastsFutures.html
 Saving local copy of 29.html 
 ```
@@ -135,7 +135,7 @@ use the next portion of our program to retrieve the URLs, read the web
 pages, create a list of words, count their frequencies, and display
 them. Most of this should be familiar to you from lesson 4.2.
 
-``` {.python}
+``` python
 #retrieves url from each item, creates a filename from the url
 for item in items:
     itemTitle = item.get('title')
@@ -153,7 +153,7 @@ This section of code grabs the URL from our items, removes the
 unnecessary portions, and creates and prints a filename. For the items
 in our sample collection, the output looks something like this:
 
-``` {.xml}
+``` xml
  The Pasts and Futures of Digital History
 Filename: PastsFutures.html
 Word Frequencies
@@ -166,7 +166,7 @@ Word Frequencies
 Now we can go ahead and create our list of words and their frequencies.
 Enter the following:
 
-``` {.python}
+``` python
 #strips HTML tags, strips nonAlpha characters, removes stopwords
     text = obo.stripTags(html).lower()
     fullwordlist = obo.stripNonAlphaNum(text)
@@ -183,7 +183,7 @@ Enter the following:
 Your final output will include a long list of words accompanied by their
 frequency within the html file:
 
-``` {.xml}
+``` xml
 Saving local copy of PastsFutures.html
 Saving local copy of 29.html
 

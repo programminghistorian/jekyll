@@ -24,7 +24,7 @@ can store anything in them. This is not necessary when working with
 strings in Python. We can create a string simply by putting content
 wrapped with quotation marks into it with an equal sign (=):
 
-``` {.python}
+``` python
 message = "Hello World"
 ```
 
@@ -49,7 +49,7 @@ placing them between single quotation marks also.
 In this example, the string “message1″ is given the content “hello
 world”.
 
-``` {.python}
+``` python
 message1 = 'hello' + ' ' + 'world'
 print message1
 -> hello world
@@ -62,7 +62,7 @@ operator. In this example, string “message2a” is given the content
 “hello” times three; string “message 2b” is given content “world”; then
 we print both strings.
 
-``` {.python}
+``` python
 message2a = 'hello ' * 3
 message2b = 'world'
 print message2a + message2b
@@ -74,7 +74,7 @@ print message2a + message2b
 What if you want to add material to the end of a string successively?
 There is a special operator for that (+=).
 
-``` {.python}
+``` python
 message3 = 'howdy'
 message3 += ' '
 message3 += 'world'
@@ -98,7 +98,7 @@ used ones:
 You can determine the number of characters in a string using len. Note
 that the blank space counts as a separate character.
 
-``` {.python}
+``` python
 message4 = 'hello' + ' ' + 'world'
 print len(message4)
 -> 11
@@ -111,7 +111,7 @@ starting index position of that substring. This is helpful for further
 processing. Note that indexes are numbered from left to right and that
 the count starts with position 0, not 1.
 
-``` {.python}
+``` python
 message5 = "hello world"
 message5a = message5.find("worl")
 print message5a
@@ -120,7 +120,7 @@ print message5a
 
 If the substring is not present, the program will return a value of -1.
 
-``` {.python}
+``` python
 message6 = "Hello World"
 message6b = message6.find("squirrel")
 print message6b
@@ -133,7 +133,7 @@ Sometimes it is useful to convert a string to lower case. For example,
 if we standardize case it makes it easier for the computer to recognize
 that “Sometimes” and “sometimes” are the same word.
 
-``` {.python}
+``` python
 message7 = "HELLO WORLD"
 message7a = message7.lower()
 print message7a
@@ -148,7 +148,7 @@ by changing .lower() to .upper().
 If you need to replace a substring throughout a string you can do so
 with the replace method.
 
-``` {.python}
+``` python
 message8 = "HELLO WORLD"
 message8a = message8.replace("L", "pizza")
 print message8a
@@ -161,7 +161,7 @@ If you want to slice off unwanted parts of a string from the beginning
 or end you can do so by creating a substring. The same kind of technique
 also allows you to break a long string into more manageable components.
 
-``` {.python}
+``` python
 message9 = "Hello World"
 message9a = message9[1:8]
 print message9a
@@ -170,7 +170,7 @@ print message9a
 
 You can substitute variables for the integers used in this example.
 
-``` {.python}
+``` python
 startLoc = 2
 endLoc = 8
 message9b = message9[startLoc: endLoc]
@@ -188,7 +188,7 @@ could use the same technique to tell the program to go all the way to
 the end by putting no integer after the colon. And remember, index
 positions start counting from 0 rather than 1.
 
-``` {.python}
+``` python
 message9 = "Hello World"
 print message9[:5].find("d")
 -> -1
@@ -200,7 +200,7 @@ parentheses. This difference in syntax signals an important distinction.
 In Python, parentheses are usually used to pass an argument to a
 function. So when we see something like
 
-``` {.python}
+``` python
 print len(message7)
 ```
 
@@ -210,7 +210,7 @@ a function can be called without an argument, you often have to include
 a pair of empty parentheses after the function name anyway. We saw an
 example of that, too:
 
-``` {.python}
+``` python
 message7 = "HELLO WORLD"
 message7a = message7.lower()
 print message7a
@@ -235,19 +235,19 @@ string when it comes across one of these characters. In Python, you can
 put a backslash (\\) in front of a quotation mark so that it doesn’t
 terminate the string. These are known as escape sequences.
 
-``` {.python}
+``` python
 print '\"'
 -> "
 ```
 
-``` {.python}
+``` python
 print 'The program printed \"hello world\"'
 -> The program printed "hello world"
 ```
 
 Two other escape sequences allow you to print tabs and newlines:
 
-``` {.python}
+``` python
 print 'hello\thello\thello\nworld'
 ->hello hello hello
 world

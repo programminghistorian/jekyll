@@ -57,7 +57,7 @@ To make reading our code easier, we will omit the doctype in this
 example. Recall a multi-line string is created by enclosing the text in
 three quotation marks (see below).
 
-``` {.python}
+``` python
 # write-html.py
 
 f = open('helloworld.html','w')
@@ -107,7 +107,7 @@ You can then cut and paste the file location listed after “Where:” and
 make sure you include a trailing slash (/) to let the computer know you
 want something inside the directory (rather than the directory itself).
 
-``` {.python}
+``` python
 # write-html-2.py
 import webbrowser
 
@@ -131,7 +131,7 @@ filename path correctly.
 
 #### Windows Instructions
 
-``` {.python}
+``` python
 # write-html-2.py
 
 import webbrowser

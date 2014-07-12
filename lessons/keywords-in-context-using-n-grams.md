@@ -55,7 +55,7 @@ was the best of times it was the worst of times it was the age of wisdom
 it was the age of foolishness” then a 7-gram for the keyword “wisdom”
 would be:
 
-``` {.plain}
+``` plain
 the age of wisdom it was the
 ```
 
@@ -80,7 +80,7 @@ retrieve a subsequence of adjacent words in the list by using a slice,
 represented as two indexes separated by a colon. This was introduced
 when working with strings in [Manipulating Strings in Python][].
 
-``` {.python}
+``` python
 message9 = "Hello World"
 message9a = message9[1:8]
 print message9a
@@ -91,7 +91,7 @@ However, we can also use this technique to take a predetermined number
 of neighbouring words from the list with very little effort. Study the
 following examples, which you can try out in a Python Shell.
 
-``` {.python}
+``` python
 wordstring = 'it was the best of times it was the worst of times '
 wordstring += 'it was the age of wisdom it was the age of foolishness'
 wordlist = wordstring.split()
@@ -128,7 +128,7 @@ conjunction with a for loop, you could easily create every possible
 n-gram of your list. The following example returns all 5-grams of our
 string from the example above.
 
-``` {.python}
+``` python
 i = 0
 for items in wordlist:
     print wordlist[i: i+5]
@@ -139,7 +139,7 @@ Keeping with our modular approach, we will create a function and save it
 to the obo.py module that can create n-grams for us. Study and type or
 copy the following code:
 
-``` {.python}
+``` python
 # Given a list of words and a number n, return a list
 # of n-grams.
 
@@ -151,7 +151,7 @@ This function may look a little confusing as there is a lot going on
 here in not very much code. It uses a list comprehension to keep the
 code compact. The following example does exactly the same thing:
 
-``` {.python}
+``` python
 def getNGrams(wordlist, n):
     ngrams = []
     for i in range(len(wordlist)-(n-1)):
@@ -170,7 +170,7 @@ want to turn into n-grams (wordlist), and the number of words you want
 in each n-gram (n). For the function to work it needs both, so you call
 it in like this (save the following as useGetNGrams.py and run):
 
-``` {.python}
+``` python
 #useGetNGrams.py
 
 import obo
@@ -196,7 +196,7 @@ You can also use a Python shell to play around with the code to get a
 better understanding of how it works. Paste the function declaration for
 getNGrams (either of the two functions above) into your Python shell.
 
-``` {.python}
+``` python
 test1 = 'here are four words'
 test2 = 'this test sentence has eight words in it'
 

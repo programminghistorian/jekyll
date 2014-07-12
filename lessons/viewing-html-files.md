@@ -49,7 +49,7 @@ formatting a bibliographic entry and you want to indicate the title of a
 work by italicizing it. In HTML you use \<em\> tags (“em” stands for
 emphasis). So part of your HTML file might look like this
 
-``` {.xml}
+``` xml
 ... in Cohen and Rosenzweig's <em>Digital History</em>, for example ...
 ```
 
@@ -59,7 +59,7 @@ within that document. Information about the file usually goes into the
 head, whereas information that will be displayed on the screen usually
 goes into the body.
 
-``` {.xml}
+``` xml
 <html>
 <head></head>
 <body>Hello World!</body>
@@ -74,7 +74,7 @@ The title tag in the head of the HTML document contains material that is
 usually displayed in the top bar of a window when the page is being
 viewed, and in Firefox tabs.
 
-``` {.xml}
+``` xml
 <!doctype html>
 <html dir="ltr" lang="en-US">
 
@@ -90,19 +90,19 @@ viewed, and in Firefox tabs.
 
 Change both
 
-``` {.xml}
+``` xml
 <!-- Insert your title here -->
 ```
 
 and
 
-``` {.xml}
+``` xml
 <!-- Insert your content here -->
 ```
 
 to
 
-``` {.xml}
+``` xml
 Hello World!
 ```
 

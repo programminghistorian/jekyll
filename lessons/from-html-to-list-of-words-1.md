@@ -59,7 +59,7 @@ Looking at the source code of obo-t17800628-33.html you will notice the
 actual transcript does not start right away. Instead there are a couple
 of HTML tags and some citation information. In this case:
 
-``` {.xml}
+``` xml
 <div style="font-family:serif;"><i>Old Bailey Proceedings Online</i>
 (www.oldbaileyonline.org, version 6.0, 01 July 2011), June 1780, trial of BENJAMIN BOWSEY (t17800628-33).<hr/><h2>BENJAMIN BOWSEY...
 ```
@@ -146,7 +146,7 @@ directory. We are going to use this file to keep copies of the functions
 needed to process The Old Bailey Online. Type or copy the following code
 into your file.
 
-``` {.python}
+``` python
 # obo.py
 
 def stripTags(pageContents):
@@ -159,7 +159,7 @@ def stripTags(pageContents):
 Create a second file, trial-content.py, and save the program shown
 below.
 
-``` {.python}
+``` python
 # trial-content.py
 
 import urllib2, obo

@@ -39,7 +39,7 @@ one word or two? And so on.
 Turn back to your program *html-to-list-1.py* and make sure that your
 results look something like this:
 
-``` {.python}
+``` python
 ['BENJAMIN', 'BOWSEY,', 'Breaking', 'Peace', '>',
 'riot,', '28th', 'June', '1780.', '324.', 'BENJAMIN',
 'BOWSEY', '(a', 'blackmoor', ')', 'was', 'indicted',
@@ -91,7 +91,7 @@ will have to apply it to the string: text in the *html-to-list1.py*
 program. Amend *html-to-list1.py* by adding the string tag lower() to
 the the end of the text string.
 
-``` {.python}
+``` python
 #html-to-list1.py
 import urllib2, obo
 
@@ -146,7 +146,7 @@ counts if we leave them in. We want “evening?” to be counted as
 It is possible to use the replace string method to remove each type of
 punctuation:
 
-``` {.python}
+``` python
 text = text.replace('[', '')
 text = text.replace(']', '')
 text = text.replace(',', '')
@@ -179,7 +179,7 @@ Copy the following function and paste it into the *obo.py* module at the
 end. You can leave the other functions in the module alone, as we’ll
 continue to use those.
 
-``` {.python}
+``` python
 # Given a text string, remove all non-alphanumeric
 # characters (using Unicode definition of alphanumeric).
 
@@ -201,7 +201,7 @@ right now.
 
 When we refine our *html-to-list1.py* program, it now looks like this:
 
-``` {.python}
+``` python
 #html-to-list1.py
 import urllib2, obo
 

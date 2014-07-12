@@ -68,7 +68,7 @@ of the Komodo editor. The Help file is quite good
 
     “Command” box, type
 
-    ``` {.python}
+    ``` python
     %(python) %f
 
     #and under "Start in," enter
@@ -105,7 +105,7 @@ In your text editor, create a new file, enter the following two-line
 program and save it to your programming-historian directory as
 hello-world.py
 
-``` {.python}
+``` python
 # hello-world.py
 print 'hello world'
 ```
@@ -132,20 +132,20 @@ the Finder and double-click on Applications -\> Utilities -\> Terminal
 then typing “python” into the window that opens on your screen. At the
 Python shell prompt, type
 
-``` {.python}
+``` python
 print 'hello world'
 ```
 
 and press Enter. The computer will respond with
 
-``` {.python}
+``` python
 hello world
 ```
 
 When we want to represent an interaction with the shell, we will use -\>
 to indicate the shell’s response to your command, as shown below:
 
-``` {.python}
+``` python
 print 'hello world'
 -> hello world
 ```

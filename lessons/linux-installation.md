@@ -30,7 +30,7 @@ You will keep your Python programs in this directory. It can be anywhere
 you like, but it is probably best to put it in your home folder.
 Something like this in your open terminal window should do the trick:
 
-``` {.plain}
+``` plain
 cd ~
 mkdir programming-historian
 ```
@@ -82,7 +82,7 @@ In your text editor, create a new file, enter the following two-line
 program and save it to your programming-historian directory as
 hello-world.py
 
-``` {.python}
+``` python
 # hello-world.py
 print 'hello world'
 ```
@@ -107,20 +107,20 @@ You can run a Python shell by launching the “terminal”. For Linux, go to
 Applications-\> Accessories -\> Terminaland do the same. At the Python
 shell prompt, type
 
-``` {.python}
+``` python
 print 'hello world'
 ```
 
 and press Enter. The computer will respond with
 
-``` {.python}
+``` python
 hello world
 ```
 
 When we want to represent an interaction with the shell, we will use -\>
 to indicate the shell’s response to your command, as shown below:
 
-``` {.python}
+``` python
 print 'hello world'
 -> hello world
 ```

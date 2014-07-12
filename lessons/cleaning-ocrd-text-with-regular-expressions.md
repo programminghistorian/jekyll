@@ -37,7 +37,7 @@ me. Though this is not a “real” CSV file (the commas are not quite
 right), it can be easily viewed in Excel and prepped for geocoding. Much
 better than the text file from above, right?
 
-``` {.bash}
+``` bash
 Aldrich, N. W,Providence, R. I
 Allison, William B, Dubuque, Iowa,24Vermont avenue,
 Bate, William,Nashville, Ten, Ebbitt House
@@ -176,7 +176,7 @@ documentation][].
 
 Here’s the Python file that I used to created to clean my document:
 
-``` {.python}
+``` python
 #cdocr.py
 #strip the punctuation and extra information from HeinOnline text document
 
@@ -283,7 +283,7 @@ thing.***
 
 Here are lines 39 and 40 in verbose mode:
 
-``` {.python}
+``` python
 #This is the same as (\,*? N\. ?E.)
 #All spaces need to be escaped in verbose mode.
 ne_pattern = re.compile(r'''
@@ -315,7 +315,7 @@ mode would look like the following. Note that I define my verbose
 patterns on lines 17-39 and store them in variables (ne\_pattern and
 nw\_pattern). I use them in my loop on lines 65 and 66.
 
-``` {.python}
+``` python
 #cdocrverbose.py
 #strip the punctuation and extra information from HeinOnline text document
 

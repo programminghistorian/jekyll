@@ -249,7 +249,7 @@ few other minor differences that will be noted when they arise). If on
 Windows a command would be \\bin\\mallet, on a Mac you would instead
 type:
 
-``` {.bash}
+``` bash
 ./bin/mallet
 ```
 
@@ -265,7 +265,7 @@ you can use (see Figure 6 above). Sometimes you can combine multiple
 instructions. At the Command Prompt or Terminal (depending on your
 operating system), try typing:
 
-``` {.bash}
+``` bash
 import-dir --help
 ```
 
@@ -274,7 +274,7 @@ recognized as an internal or external command, operable program, or
 batch file. This is because we forgot to tell the computer to look in
 the MALLET bin for it. Try again, with
 
-``` {.bash}
+``` bash
 bin\mallet import-dir --help
 ```
 
@@ -322,7 +322,7 @@ files by typing the full name of the file (with extension).
 Note that you cannot now run any MALLET commands from this directory.
 Try it:
 
-``` {.bash}
+``` bash
 bin\mallet import-dir --help
 ```
 
@@ -347,7 +347,7 @@ such as and, the, but, and if that occur in such frequencies that they
 obstruct analysis) using the default English stop-words dictionary. Try
 the following (swapping in the correct pathway to the sample data).
 
-``` {.bash}
+``` bash
 bin\mallet import-dir --input pathway\to\the\directory\with\the\files --output tutorial.mallet --keep-sequence --remove-stopwords
 ```
 
@@ -363,7 +363,7 @@ Mac instructions are similar to those above for Windows, but keep in
 mind that Unix file paths (which are used by Mac) are different: for
 example, if the directory was in one’s home directory, one would type
 
-``` {.bash}
+``` bash
 ./bin/mallet import-dir --input /users/username/database/ --output tutorial.mallet --keep-sequence --remove-stopwords
 ```
 
@@ -377,7 +377,7 @@ import sequence, if it is relevant. By default, MALLET allows for 1GB of
 memory to be used. If you run into the following error message, you’ve
 run into your limit:
 
-``` {.bash}
+``` bash
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 ```
 
@@ -404,7 +404,7 @@ Your first topic model
 
 At the command prompt in the MALLET directory, type:
 
-``` {.bash}
+``` bash
 bin\mallet train-topics  --input tutorial.mallet
 ```
 
@@ -423,7 +423,7 @@ statistically significant topic, per the routine. In Figure 8, the first
 topic it prints out might look like this (your key words might look a
 bit different):
 
-``` {.bash}
+``` bash
 0    5    test cricket Australian hill acting England northern leading ended innings record runs scored run team batsman played society English
 ```
 
@@ -441,7 +441,7 @@ Go back to the main MALLET directory, and type dir. You will see that
 there is no output file. While we successfully created a topic model, we
 did not save the output! At the command prompt, type
 
-``` {.bash}
+``` bash
 bin\mallet train-topics  --input tutorial.mallet --num-topics 20 --output-state topic-state.gz --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_compostion.txt 
 ```
 
@@ -480,19 +480,19 @@ Figure 9: Keywords Shown in a Word Processor
 
 If when you ran the topic model routine you had included
 
-``` {.bash}
+``` bash
 --optimize-interval 20
 ```
 
 as below
 
-``` {.bash}
+``` bash
 bin\mallet train-topics  --input tutorial.mallet  --num-topics 20 --optimize-interval 20 --output-state topic-state.gz  --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_composition.txt
 ```
 
 the output might look like this:
 
-``` {.bash}
+``` bash
 0 0.02995 xi ness regular asia online cinema established alvida acclaim veenr commercial 
 ```
 

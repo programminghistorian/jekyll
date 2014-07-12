@@ -46,7 +46,7 @@ tutorial on [installing python modules][] to get it running. Once you
 have pip installed, run the following command in the terminal to install
 Beautiful Soup:
 
-``` {.plain}
+``` plain
 pip install beautifulsoup4
 ```
 
@@ -57,7 +57,7 @@ to enter your password when you install a new program.
 
 With sudo, the command is:
 
-``` {.plain}
+``` plain
 sudo pip install beautifulsoup4
 ```
 
@@ -75,7 +75,7 @@ Because I like to see where the finish line is before starting, I will
 begin with a view of what we are trying to create. We are attempting to
 go from a search results page where the html page looks like this:
 
-``` {.xml}
+``` xml
 <table border="1" cellspacing="2" cellpadding="3">
 <tbody>
 <tr>
@@ -100,7 +100,7 @@ go from a search results page where the html page looks like this:
 
 to a CSV file with names and urls that looks like this:
 
-``` {.plain}
+``` plain
 "ADAMS, George Madison",http://bioguide.congress.gov/scripts/biodisplay.pl?index=A000035
 "ALBERT, William Julian",http://bioguide.congress.gov/scripts/biodisplay.pl?index=A000074
 "ALBRIGHT, Charles",http://bioguide.congress.gov/scripts/biodisplay.pl?index=A000077
@@ -108,7 +108,7 @@ to a CSV file with names and urls that looks like this:
 
 using a Python script like this:
 
-``` {.python}
+``` python
 from bs4 import BeautifulSoup
 import csv
 
@@ -181,7 +181,7 @@ To begin, import the Beautiful Soup library, open the HTML file and pass
 it to Beautiful Soup, and then print the “pretty” version in the
 terminal.
 
-``` {.python}
+``` python
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup(open("43rd-congress.html"))
@@ -214,7 +214,7 @@ Both the names and the URLs are, most fortunately, embedded in “\<a\>”
 tags. So, we need to isolate out all of the “\<a\>” tags. We can do this
 by updating the code in “soupexample.py” to the following:\
 
-``` {.python}
+``` python
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup (open("43rd-congress.html"))
@@ -256,7 +256,7 @@ inside of that tag. If you have not correctly isolated the data, you may
 be deleting information that you wanted to extract. Update the file as
 below and run again.
 
-``` {.python}
+``` python
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup (open("43rd-congress.html"))
@@ -305,7 +305,7 @@ of the HTML tag. Instead, we will use “get”, which allow us to pull the
 text associated with (is on the other side of the “=” of) the “href”
 element.
 
-``` {.python}
+``` python
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup (open("43rd-congress.html"))
@@ -332,7 +332,7 @@ tells the computer to “write” to the file. And to keep everything
 organized, let’s write some column headers. Finally, as each line is
 processed, the name and URL information is written to our CSV file.
 
-``` {.python}
+``` python
 from bs4 import BeautifulSoup
 import csv
 
@@ -371,7 +371,7 @@ Let’s extend our project to capture all of the data from the webpage. We
 know all of our data can be found inside a table, so let’s use “\<tr\>”
 to isolate the content that we want.
 
-``` {.python}
+``` python
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup (open("43rd-congress.html"))
@@ -401,7 +401,7 @@ information; then, we will parse the rest of the table row data.
 For the first, let’s create a loop to search for all of the anchor tags
 and “get” the data associated with “href”.
 
-``` {.python}
+``` python
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup (open("43rd-congress.html"))
@@ -421,7 +421,7 @@ We then need to run a search for the table data within the table rows.
 (The “print” here allows us to verify that the code is working but is
 not necessary.)
 
-``` {.python}
+``` python
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup (open("43rd-congress.html"))
@@ -452,7 +452,7 @@ need to build in a way to tell the script to move on if it encounters an
 error. This is the logic of the “try” and “except” block. If a
 particular line fails, the script will continue on to the next line.
 
-``` {.python}
+``` python
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup (open("43rd-congress.html"))
@@ -486,7 +486,7 @@ for tr in trs:
 
 Within this we are using the following structure:
 
-``` {.python}
+``` python
 years = str(tds[1].get_text())
 ```
 
@@ -503,7 +503,7 @@ the same process as we did in Part I, just with more variables.
 
 As a result, our file will look like:
 
-``` {.python}
+``` python
 from bs4 import BeautifulSoup
 import csv
 

@@ -129,7 +129,7 @@ are two places where the OCR has inserted double quotation marks into
 this file mistakenly, in both cases by putting them between a comma
 following a month and a four-digit year, as in
 
-``` {.plain}
+``` plain
 December," 1907.
 ```
 

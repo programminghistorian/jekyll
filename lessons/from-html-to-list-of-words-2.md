@@ -60,7 +60,7 @@ will make it much easier to understand a program that you haven’t looked
 at for a while. With this in mind, “jingles” is probably not a very good
 choice for a variable name in this case.
 
-``` {.python}
+``` python
 for char in pageContents:
     # do something with char
 ```
@@ -80,7 +80,7 @@ for setting one thing equal to something else. In order to test for
 equality, use double equals signs (==) instead. Beginning programmers
 often confuse the two.
 
-``` {.python}
+``` python
 if char == '<':
     # do something
 ```
@@ -88,7 +88,7 @@ if char == '<':
 A more general form of the if statement allows you to specify what to do
 in the event that your test condition is false.
 
-``` {.python}
+``` python
 if char == '<':
     # do something
 else:
@@ -98,7 +98,7 @@ else:
 In Python you have the option of doing further tests after the first
 one, by using an elif statement (which is shorthand for else if).
 
-``` {.python}
+``` python
 if char == '<':
     # do something
 elif char == '>':
@@ -142,7 +142,7 @@ Your routine may look slightly different and as long as it works that’s
 fine. If you’ve elected to experiment, it’s probably best to try our
 version as well to make sure that your program does what ours does.
 
-``` {.python}
+``` python
 # obo.py
 def stripTags(pageContents):
     startLoc = pageContents.find("<hr/><h2>")
@@ -178,7 +178,7 @@ another part. When a function finishes executing, it can return a value
 to the code which called it. If we were to call stripTags using another
 program, we would do so like this:
 
-``` {.python}
+``` python
 #understanding the Return statement
 
 import obo
@@ -214,14 +214,14 @@ store a 1 when you were processing a tag and a 0 when you weren’t. You
 can do mathematical operations on integers but you cannot store
 fractions or decimal numbers in integer variables.
 
-``` {.python}
+``` python
 inside = 1
 ```
 
 And whenever you’ve needed to read from or write to a file, you’ve used
 a special file handle like f in the example below.
 
-``` {.python}
+``` python
 f = open('helloworld.txt','w')
 f.write('hello world')
 f.close()
@@ -236,7 +236,7 @@ string-to-list.py and execute it. Compare the two lists that are printed
 to the Command Output pane and see if you can figure out how the code
 works.
 
-``` {.python}
+``` python
 # string-to-list.py
 
 # some strings
@@ -268,7 +268,7 @@ Given what you’ve learned so far, you can now open a URL, download the
 web page to a string, strip out the HTML and then split the text into a
 list of words. Try executing the following program.
 
-``` {.python}
+``` python
 #html-to-list1.py
 import urllib2, obo
 
@@ -284,7 +284,7 @@ print wordlist[0:120]
 
 You should get something like the following.
 
-``` {.python}
+``` python
 ['BENJAMIN', 'BOWSEY,', 'Breaking', 'Peace', '>',
 'riot,', '28th', 'June', '1780.', '324.', 'BENJAMIN',
 'BOWSEY', '(a', 'blackmoor', ')', 'was', 'indicted',

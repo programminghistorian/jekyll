@@ -26,7 +26,7 @@ through a very simple example of a function. Suppose you want to create
 a general purpose function for greeting people. Copy the following
 function definition into Komodo Edit and save it as greet.py.
 
-``` {.python}
+``` python
 # greet.py
 
 def greetEntity (x):
@@ -49,7 +49,7 @@ function that is being defined. You will learn more about this as we go
 along; for now, make sure to keep indentation the way we show it. Run
 the program, and you should see something like this:
 
-``` {.python}
+``` python
 hello Everybody
 hello Programming Historian
 ```
@@ -69,7 +69,7 @@ calls, leaving only the function declaration. You’re going to learn how
 to call the function from another program. When you are finished, your
 greet.py file should look like this:
 
-``` {.python}
+``` python
 # greet.py
 
 def greetEntity (x):
@@ -109,7 +109,7 @@ of another program file. This is what you will be using.
 Copy this code to Komodo Edit and save it as using-greet.py. This file
 is your program; greet.py is your module.
 
-``` {.python}
+``` python
 # using-greet.py
 
 import greet
@@ -131,7 +131,7 @@ that you created in Komodo Edit. Note that you do not have to run your
 module…just the program that calls it. If all went well, you should see
 the following in the Komodo Edit output pane:
 
-``` {.python}
+``` python
 hello everybody
 hello programming historian
 ```
