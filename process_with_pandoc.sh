@@ -6,7 +6,7 @@ for file in `ls ./modified_html/*.html`
 do
 	pandoc \
 	--from=html \
-	--to=markdown \
+	--to=markdown-header_attributes-fenced_code_attributes \
 	--standalone \
 	--template=jekyll.md \
 	--reference-links \
