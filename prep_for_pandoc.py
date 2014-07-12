@@ -48,13 +48,11 @@ for file in files:
         # create new reviewers tag
         reviewers = []
         if technical_reviewers:
-           trs = technical_reviewers.string.split(': ')[1]
-           reviewers.extend(trs.split(', '))
+           reviewers.append(technical_reviewers.string.split(': ')[1])
         if literary_reviewers:
-           lrs = literary_reviewers.string.split(': ')[1]
-           reviewers.extend(lrs.split(', '))
-        rs = [i.rstrip() for i in set(reviewers)]
-        reviewers_tag = soup.new_tag('meta', content=', '.join(rs))
+           reviewers.append(literary_reviewers.string.split(': ')[1])
+        reviewers = [i.rstrip() for i in set(reviewers)]
+        reviewers_tag = soup.new_tag('meta', content=', '.join(reviewers))
         reviewers_tag.attrs['name'] = 'reviewers'
         
         # create new date tag
@@ -75,7 +73,7 @@ for file in files:
             if block.attrs:
                brush = block.attrs['class'][1]
                block.attrs = {'class': brush.rstrip(';')}
-            
+		    
         # try to decompose divs that won't be needed in markdown version
         nav_pager = soup.find('ul', class_='navigation')
         headers = soup.find_all('header')
