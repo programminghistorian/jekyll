@@ -1,0 +1,313 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>The Programming Historian</title>
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css">
+
+    <!-- Modernizr and Friends -->
+    <script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script>
+    <script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script>
+  
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="The Programming Historian &raquo; Georeferencing in QGIS 2.0 Comments Feed" href="http://programminghistorian.org/lessons/georeferencing-qgis/feed" />
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://programminghistorian.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Creating New Vector Layers in QGIS 2.0' href='http://programminghistorian.org/lessons/vector-layers-qgis' />
+<link rel='next' title='Data Mining the Internet Archive Collection' href='http://programminghistorian.org/lessons/data-mining-the-internet-archive' />
+<meta name="generator" content="WordPress 3.9.1" />
+<link rel='canonical' href='http://programminghistorian.org/lessons/georeferencing-qgis' />
+<link rel='shortlink' href='http://programminghistorian.org/?p=2332' />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+</head>
+<body class="single single-lesson postid-2332">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header role="banner">
+      <h1><a href="http://programminghistorian.org">The Programming Historian</a></h1>
+<div class="additional"><ul id="menu-main-menu" class="additional"><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div>  </header>
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+
+
+  <div role="main">
+      
+                <article>
+            <header>
+                                <p class="kicker">December 13, 2013</p>
+                
+                <h1><a href="http://programminghistorian.org/lessons/georeferencing-qgis">Georeferencing in QGIS 2.0</a></h1>
+                                <p class="byline">By Jim Clifford, Josh MacFadyen, Daniel Macfarlane</p>
+                
+                                  <ul class="credits">
+
+                                        <li class="technical-reviewer">Technical Reviewer: Finn Arne J&oslash;rgensen, Peter Webster, Abby Schreiber</li>
+                    
+                                        <li class="literary-reviewer">Literary Reviewer: Adam Crymble                    
+                    
+                  </ul>
+                            </header>
+            <div class="content">
+
+            <h2>Lesson Goals</h2>
+<p>In this lesson, you will learn how to georeference historical maps so that they may be added to a GIS as a raster layer. Georeferencing is required for anyone who wants to accurately digitize data found on a paper map, and since historians work mostly in the realm of paper, georeferencing is one of our most commonly used tools. The technique uses a series of control points to give a two-dimensional object like a paper map the real world coordinates it needs to align with the three-dimensional features of the earth in GIS software (in <a href="/lessons/googlemaps-googleearth">Intro to Google Maps and Google Earth</a> we saw an &#8216;overlay&#8217; which is a Google Earth shortcut version of georeferencing).</p>
+<p>Georeferencing a historical map requires a knowledge of both the geography and the history of the place you are studying to ensure accuracy. The built and natural landscapes change over time, and it is important to confirm that the location of your control points — whether they be houses, intersections, or even towns — have remained constant. Entering control points in a GIS is easy, but behind the scenes, georeferencing uses complex transformation and compression processes. These are used to correct the distortions and inaccuracies found in many historical maps and stretch the maps so that they fit geographic coordinates. In cartography this is known as <a href="http://en.wikipedia.org/wiki/Rubbersheeting" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">rubber-sheeting</a> because it treats the map as if it were made of rubber and the control points as if they were tacks &#8216;pinning&#8217; the historical document to a three dimensional surface like the globe.</p>
+<p>To offer some examples of georeferenced historical maps, we prepared some National Topographic Series maps hosted on the University of Toronto Map Library website courtesy of Marcel Fortin, and we overlaid them on a Google web map. Viewers can adjust the transparency with the slider bar on the top right, view the historical map as an overlay on terrain or satellite images, or click &#8216;Earth&#8217; to switch into Google Earth mode and see 3D elevation and modern buildings (in Halifax and Dartmouth). Note: these historical images are large and will appear on the screen slowly, especially as you zoom into the Google map.</p>
+<ul>
+<li><a href="http://maps.library.utoronto.ca/datapub/digital/3400s_63_1929/maptile/Halifax/googlemaps.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://maps.library.utoronto.ca']);" target="_blank">National Topographic System Maps</a> &#8211; Halifax, 1920s</li>
+<li><a href="http://maps.library.utoronto.ca/datapub/PEI/NTS/west/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://maps.library.utoronto.ca']);" target="_blank">National Topographic System Maps</a> &#8211; Western PEI, 1939-1944</li>
+<li><a href="http://maps.library.utoronto.ca/datapub/PEI/NTS/east/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://maps.library.utoronto.ca']);" target="_blank">National Topographic System Maps</a> &#8211; Eastern PEI 1939-1944</li>
+</ul>
+<p><strong>Getting started:</strong></p>
+<p>Before proceeding with georeferencing in Quantum GIS, we need to activate the appropriate Plugins. On the toolbar go to Plugins -&gt; Manage and Install Plugins</p>
+<figure><img class="alignnone size-full wp-image-2345" alt="geo1" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo110.png" width="289" height="96" /> <figcaption>Figure 1</figcaption></figure>
+<p>A window titled Plugin Manager will open. Scroll down to Georeference GDAL and check the box beside it, and click OK.</p>
+<figure><img class="alignnone size-full wp-image-2346" alt="geo2" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo210.png" width="700" /> <figcaption>Figure 2</figcaption></figure>
+<ul>
+<li>At this point, you need to shut down and relaunch QGIS. For the purposes of this example, and to keep things as simple as possible, don&#8217;t reload your existing project but instead start a new project.</li>
+<li>Set up the <a href="http://en.wikipedia.org/wiki/Spatial_reference_system" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">Coordinate Reference System</a> (CRS) correctly (see <a href="/lessons/qgis-layers">Installing QGIS 2.0 and adding Layers</a> for a reminder)</li>
+<li>Save this new project (under File menu, select Save Project) and call it &#8216;georeferencing.&#8217;</li>
+<li>Add the coastline_polygon layer (see <a href="/lessons/qgis-layers">Installing QGIS 2.0 and adding Layers</a> for a reminder)</li>
+</ul>
+<p><strong>Open the necessary GIS layers:</strong></p>
+<p>For the Prince Edward Island case study, we are going to use the township boundaries as control points because they were established in 1764 by Samuel Holland, they are identified on most maps of PEI, and they have changed very minimally since then.</p>
+<p><em>Download lot_township_polygon:</em></p>
+<p>This is the shapefile containing the modern vector layer we are going to use to georeference the historical map. Note that townships were not given names but rather a lot number in 1764, so they are usually referred to as &#8216;Lots&#8217; in PEI. Hence the file name &#8216;lot_township_polygon&#8217;.</p>
+<ul>
+<li>Navigate to the link below in your web browser, read/accept the license agreement, and then download the following (they will ask for your name and email before you can download the file).<br />
+<a href="http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&amp;file_format=SHP">http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&amp;file_format=SHP<br />
+</a></li>
+<li>After downloading the file called lot_township_polygon, move it into a folder that you can find later and unzip the file. (Remember to keep the files together as they are all required to open this layer in your GIS)</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2347" alt="geo3" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo310.png" width="450" height="372" /> <figcaption>Figure 3</figcaption></figure>
+<p><em>Add lot_township_polygon to QGIS: </em></p>
+<ul>
+<li>under Layer on the toolbar, choose Add Vector Layer (alternatively the same icon you see next to &#8216;Add Vector Layer&#8217; can also be selected from the tool bar)</li>
+<li>Click Browse. Navigate to your unzipped file and select the file titled lot_township_polygon.shp</li>
+<li>Click Open</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2348" alt="geo4" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo41.png" width="38" height="34" /> <figcaption>Figure 4</figcaption></figure>
+<p>For more information on adding and visualizing layers see <a href="/lessons/qgis-layers">Installing QGIS 2.0 and adding Layers</a>.</p>
+<figure><img class="alignnone size-full wp-image-2349" alt="geo5" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo51.png" width="700" /> <figcaption>Figure 5</figcaption></figure>
+<h2>Open the Georeferencer tool:</h2>
+<p>Georeferencer is now available under the Raster menu on the toolbar – select it.</p>
+<figure><img class="alignnone size-full wp-image-2350" alt="geo6" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo61.png" width="353" height="217" /> <figcaption>Figure 6</figcaption></figure>
+<p><em>Add your historical map:</em></p>
+<ul>
+<li>In the resulting window, click on the Open Raster button on the top left (which looks identical to the Add Raster layer).</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2351" alt="geo7" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo71.png" width="35" height="36" /> <figcaption>Figure 7</figcaption></figure>
+<ul>
+<li>Find the file titled &#8216;PEI_LakeMap1863.jpg&#8217; on your computer and select Open (the file <a href="http://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://geospatialhistorian.files.wordpress.com']);" target="_blank">can be downloaded here</a> or in its original location at the <a href="http://www.islandimagined.ca/fedora/repository/imagined%3A208687" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.islandimagined.ca']);" target="_blank">Island Imagined</a> online map repository)</li>
+<li>You will be prompted to define this layer&#8217;s coordinate system. In the Filter box search for &#8217;2291&#8242;, then in the box below select &#8216;NAD83(CSRS98) / Prince Edward …&#8217;</li>
+</ul>
+<p>The result will look like this:</p>
+<figure><img class="alignnone size-full wp-image-2353" alt="geo8" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo81.png" width="700" /> <figcaption>Figure 8</figcaption></figure>
+<p><em>Adding control points:</em></p>
+<p>Plan the locations you are going to use as control points in advance of the steps that follow. It is much easier to navigate around the historical map first, so get a good idea of the best points to use and keep them in mind.</p>
+<p>Some tips for choosing control points:</p>
+<ul>
+<li><strong>How many</strong> points do you need? Usually the more points you assign the more accurate your georeferenced map will be. Two control points will tell the GIS to scale and rotate the map to those two points, but in order to truly rubber-sheet the historical document you need to add more points.</li>
+<li><strong>Where</strong> should you put control points? Select areas as close as possible to the four corners of your map so that these outer areas do not get omitted in the rubber-sheeting.</li>
+<li>Select additional control points close to your area of interest. Everything in between the four corner control points should georeference evenly, but if you are concerned about the accuracy of one place in particular, make sure to select additional control points in that area.</li>
+<li>Select the middle of intersections and roads, because the edges of roads changed a certain amount over time as road improvements were made.</li>
+<li>Check that your control points did not change location over time. Roads were often re-routed, and even houses and other buildings were moved, especially <a href="http://books.google.ca/books?id=TqCNZYXWXAUC&amp;dq=tilting&amp;source=gbs_navlinks_s" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://books.google.ca']);" target="_blank">in Atlantic Canada</a>!</li>
+</ul>
+<p><em>Add your first control point:</em></p>
+<p><strong>First</strong>, navigate to the location of your first control point on the <strong>historical map</strong>.</p>
+<ul>
+<li>click on Zoom In Magnifying Glass on the window tool bar or use the mouse roller wheel to zoom in</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2337" alt="geo9" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo91.png" width="634" height="168" /> <figcaption>Figure 9</figcaption></figure>
+<ul>
+<li>zoom in to a point which you can recognize on both your printed map and your GIS</li>
+</ul>
+<ul>
+<li>Click on Add Point on toolbar</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2338" alt="geo10" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo101.png" width="700" /> <figcaption>Figure 10</figcaption></figure>
+<ul>
+<li>Click on the place in the printed map that you can locate in your GIS (i.e. the control point). The Georeferencer window will now minimize automatically. If it does not (some versions have a bug in this plugin) manually minimize the window</li>
+<li>Click on the place in the GIS which matches the control point</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2339" alt="geo11" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo111.png" width="700" /> <figcaption>Figure 11</figcaption></figure>
+<ul>
+<li>At this stage we identified a problem in lot boundaries. We planned to use the location where the southern border of Lot 1 at the West end of the Province contains a “dog leg” near the middle of the land mass. However, it was clear that not all the dog legs on these lots matched the historical map. It is possible that lot boundaries have changed somewhat in the 250 years since they were established, so it is best to choose the point you are most sure of. In this case the dog leg between Lot 2 and Lot 3 was fine (see arrow). It was the border of Lots 3 and 4 that has changed. The discrepancy at the border of 1 and 2 shows that more control points are needed to properly rubber-sheet this somewhat distorted 1863 map to the Provincial GIS layer</li>
+<li>
+<figure><img class="alignnone size-full wp-image-2340" alt="geo12" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo121.png" width="700" /> <figcaption>Figure 12</figcaption></figure>
+</li>
+</ul>
+<p><em>Add at least one more control point:</em></p>
+<ul>
+<li>return to the Georeferencer window and repeat the steps under &#8216;<em>Add your first control point</em>&#8216; above, to add additional control points.</li>
+<li>Add a point close to the opposite side of your printed map (the further apart your control points are placed the more accurate the georeferencing process) and another one near Charlottetown</li>
+<li>return to the Georeferencer window. You should see three red dots on the printed map, and three records in the GCP table at the bottom of your window (outlined in red on the following image)</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2342" alt="geo13" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo131.png" width="700" /> <figcaption>Figure 13</figcaption></figure>
+<p><em>Determine the transformation settings:</em></p>
+<p>Before you click Play and start the automated georeferencing process you need to tell QGIS where to save the new file (this will be a raster file), how it should interpret your control points, and how it should compress the image.</p>
+<ul>
+<li>Click on the Transformation Settings button</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2344" alt="geo14" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo141.png" width="41" height="41" /> <figcaption>Figure 14</figcaption></figure>
+<p>Most of these settings can be left as default: linear transformation type, nearest neighbour resampling method, and LZW compression. (The <a href="http://en.wikipedia.org/wiki/World_file" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">world file</a> is not necessary, unless you want to georeference the same image again in another GIS or if someone else needs to georeference the image and does not have access to your GIS data, coordinate reference system, etc.) The target SRS is not important, but you could use this feature to give the new raster a different reference system.</p>
+<ul>
+<li>Assign a folder for your new georeferenced raster file. <a href="http://en.wikipedia.org/wiki/Tagged_Image_File_Format" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">Tif</a> is the default format for rasters georeferenced in QGIS.</li>
+<li>Be aware that a Tif file is going to be much larger than your original map, even with LZW compression, so make sure you have adequate space if you are using a jump drive.<br />
+(warning: the Tif file produced from this 6.8 Mb .jpg will be <strong>over 1GB</strong> once georeferenced. One way to manage the size of the georeferenced raster file while maintaining a high enough resolution for legibility is to crop out only the area needed for the map project. In this case, a lower resolution option is also available from the <a href="http://www.islandimagined.ca/fedora/repository/imagined%3A208687" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.islandimagined.ca']);" target="_blank">Island Imagined</a> online map repository.)</li>
+<li>Leave the target resolution at the default</li>
+<li>You can select &#8216;Use 0 transparency when needed&#8217; to eliminate black spaces around the edges of the map, but this is not necessary and you can experiment as needed</li>
+<li>Make sure &#8216;Load in QGIS&#8217; is selected to save a step. This will automatically add the new file to your GIS’s Table of Contents so that you don’t have to go looking for the Tif file later</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2352" alt="geo15" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo151.png" width="552" height="614" /> <figcaption>Figure 15</figcaption></figure>
+<p><em>Georeference!</em></p>
+<ul>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Click on the Play button on the toolbar (beside Add Raster) – this begins the georeferencing process</span></li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2354" alt="geo16" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo161.png" width="45" height="42" /> <figcaption>Figure 16</figcaption></figure>
+<figure><img class="alignnone size-full wp-image-2334" alt="geo17" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo171.png" width="270" height="205" /> <figcaption>Figure 17</figcaption></figure>
+<ul>
+<li>A window will appear titled Define CRS: select 2291, click OK</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2335" alt="geo18" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo181.png" width="700" /> <figcaption>Figure 18</figcaption></figure>
+<p><em>Explore your map:</em></p>
+<ul>
+<li>Drag the new layer &#8216;PEI_LakeMap1863_modified&#8217; down to the bottom of your Table of Contents (i.e. below the &#8216;lot_township_polygon&#8217; layer</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2336" alt="geo19" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo191.png" width="700" /> <figcaption>Figure 19</figcaption></figure>
+<ul>
+<li>Change the fill of the lot_township_polygon layer to &#8216;no brush&#8217; by Selecting the layer, clicking on Layer -&gt; Properties, and clicking on Symbol Properties. Click OK</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2341" alt="geo20" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo201.png" width="700" /> <figcaption>Figure 20</figcaption></figure>
+<ul>
+<li>Now you should see the modern GIS layer with the historical map in behind</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2343" alt="geo21" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo211.png" width="700" /> <figcaption>Figure 21</figcaption></figure>
+<p>Now that you have a newly georeferenced map in your GIS you can explore the layer, adjust the transparency, contrast and brightness, and go back through <a href="/lessons/vector-layers-qgis">Creating New Vector Layers in QGIS</a> to digitize some of the historical information that you have created. For instance, this georeferenced map of PEI shows the locations of all homes in 1863, including the name of the head of household. By assigning points on the map you can enter home locations and owner names and then analyze or share that new geospatial layer as a shapefile.</p>
+<p>By digitizing line vectors such as roads or coastlines you can compare the location of these features with other historical data, or simply compare them visually with the lot_township_polygon layer in this GIS.</p>
+<p>In more advanced processes you can even drape this georeferenced image over a DEM (digital elevation model) to give it a hillshade terrain or 3D effect and perform a &#8216;fly-over&#8217; of PEI homes in the nineteenth century.</p>
+<p><em>This lesson is part of the <a href="http://geospatialhistorian.wordpress.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://geospatialhistorian.wordpress.com']);" target="_blank">Geospatial Historian</a>.</em></p>
+
+                          <footer>
+                                          <div class="author-info">
+                          <p class="author-name">About Jim Clifford, Josh MacFadyen, Daniel Macfarlane</p>
+                           <div class="author-description"><p>Jim Clifford is an assistant professor in the Department of History at the University of Saskatchewan. Josh MacFadyen is a Project Coordinator at the Network in Canadian History & Environment. Daniel Macfarlane is a Visiting Scholar in the School of Canadian Studies at Carleton University.</p>
+</div>
+                        </div>
+                                </footer>
+            
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div id="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/lessons/georeferencing-qgis#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://programminghistorian.org/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='2332' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="a86d258117" /></p><script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="213"/></p>
+</form>
+
+</div>
+
+
+            
+            </div>
+
+
+                      </article>
+                
+<ul class="navigation pager">
+<li class="previous">
+<p class="kicker">Previous</p>
+<a href="http://programminghistorian.org/lessons/vector-layers-qgis">Creating New Vector Layers in QGIS 2.0</a></li>
+</ul><!-- .navigation -->
+        
+            </div>
+<footer role="contentinfo">
+<div class="additional"><ul id="menu-main-menu-1" class="additional"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div><p><em>The Programming Historian</em> released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+
+  <p id="logos"><a href="http://niche-canada.org/" id="niche"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/niche.jpg" title="NiCHE"></a> <a href="http://chnm.gmu.edu" id="rrchnm"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/rrchnm.png"></a></p>
+</footer>
+</body>
+</html>

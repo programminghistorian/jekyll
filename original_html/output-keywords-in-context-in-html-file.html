@@ -1,0 +1,389 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>The Programming Historian</title>
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css">
+
+    <!-- Modernizr and Friends -->
+    <script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script>
+    <script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script>
+  
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="The Programming Historian &raquo; Output Keywords in Context in HTML File Comments Feed" href="http://programminghistorian.org/lessons/output-keywords-in-context-in-html-file/feed" />
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://programminghistorian.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Windows Installation' href='http://programminghistorian.org/lessons/windows-installation' />
+<link rel='next' title='Keywords in Context (Using n-grams)' href='http://programminghistorian.org/lessons/keywords-in-context-using-n-grams' />
+<meta name="generator" content="WordPress 3.9.1" />
+<link rel='canonical' href='http://programminghistorian.org/lessons/output-keywords-in-context-in-html-file' />
+<link rel='shortlink' href='http://programminghistorian.org/?p=1624' />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+</head>
+<body class="single single-lesson postid-1624">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header role="banner">
+      <h1><a href="http://programminghistorian.org">The Programming Historian</a></h1>
+<div class="additional"><ul id="menu-main-menu" class="additional"><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div>  </header>
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+
+
+  <div role="main">
+      
+                <article>
+            <header>
+                                <p class="kicker">July 17, 2012</p>
+                
+                <h1><a href="http://programminghistorian.org/lessons/output-keywords-in-context-in-html-file">Output Keywords in Context in HTML File</a></h1>
+                                <p class="byline">By William J. Turkel & Adam Crymble</p>
+                
+                                  <ul class="credits">
+
+                                        <li class="technical-reviewer">Technical Reviewer: Jim Clifford</li>
+                    
+                                        <li class="literary-reviewer">Literary Reviewer: Miriam Posner                    
+                    
+                  </ul>
+                            </header>
+            <div class="content">
+
+            <h2>Lesson Goals</h2>
+<p>This lesson builds on <a href="/lessons/keywords-in-context-using-n-grams">Keywords in Context (Using N-grams)</a>, where n-grams were extracted from a text. Here, you will learn how to output all of the n-grams of a given keyword in a document downloaded from the Internet, and display them clearly in your browser window.</p>
+<h3>Files Needed For This Lesson</h3>
+<ul>
+<li><span class="filename">obo.py</span></li>
+</ul>
+<p>If you do not have these files from the previous lesson, you can download a <a href="/lessons/keywords-in-context-using-n-grams#codesync">zip file from the previous lesson here.</a></p>
+<h3>Making an N-Gram Dictionary</h3>
+<p>Our n-grams have an odd number of words in them for a reason. At this point, our n-grams don&#8217;t actually have a keyword; they&#8217;re just a list of words. However, if we have an odd numbered n-gram the middle word will always have an equal number of words to the left and to the right. We can then use that middle word as our keyword. For instance, ["it", "was", "the", "best", "of", "times", "it"] is a 7-gram of the keyword &#8220;best&#8221;.</p>
+<p>Since we have a long text, we want to be able to output all n-grams for our keyword. To do this we will put each n-gram into a dictionary, using the middle word as the key. To figure out the keyword for each n-gram we can use the index positions of the list. If we are working with 5-grams, for example, the <span class="tech">left context</span> will consist of terms indexed by 0, 1, the keyword will be indexed by 2, and the <span class="tech">right context</span> terms indexed by 3, 4. Since Python indexes start at 0, a 5-gram&#8217;s keyword will always be at index position 2.</p>
+<p>That&#8217;s fine for 5-grams, but to make the code a bit more robust, we want to make sure it will work for any length n-gram, assuming its length is an odd number. To do this we&#8217;ll take the length of the n-gram, divide it by 2 and drop the remainder. We can achieve this using Python&#8217;s <span class="tech">floor division</span> operator, represented by two slashes, which divides and then returns an answer to the nearest whole number, always rounding down &#8211; hence the term &#8220;floor&#8221;.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+print (7 // 2)
+print (5 // 2)
+print (3 // 2)
+</pre>
+<p>Let&#8217;s build a function that can identify the index position of the keyword when given an n-gram with an odd number of words. Save the following to <span class="filename">obo.py</span>.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+# Given a list of n-grams identify the index of the keyword.
+
+def nGramsToKWICDict(ngrams):
+    keyindex = len(ngrams[0]) // 2
+
+    return keyindex
+</pre>
+<p>To determine the index of the keyword, we have used the <span class="reserved">len</span> property to tell us how many items are in the first n-gram, then used floor division to isolate the middle index position. You can see if this worked by creating a new program, <span class="filename">get-keyword.py</span> and running it. If all goes well, since we are dealing with a 5-gram, you should get 2 as the index position of the keyword as we determined above.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+import obo
+
+test = 'this test sentence has eight words in it'
+ngrams = obo.getNGrams(test.split(), 5)
+
+print obo.nGramsToKWICDict(ngrams)
+</pre>
+<p>Now that we know the location of the keywords, let&#8217;s add everything to a dictionary that can be used to output all KWIC n-grams of a particular keyword. Study this code and then replace your <span class="filename">nGramsToKWICDict</span> with the following in your <span class="filename">obo.py</span> module.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+# Given a list of n-grams, return a dictionary of KWICs,
+# indexed by keyword.
+
+def nGramsToKWICDict(ngrams):
+    keyindex = len(ngrams[0]) // 2
+
+    kwicdict = {}
+
+    for k in ngrams:
+        if k[keyindex] not in kwicdict:
+            kwicdict[k[keyindex]] = [k]
+        else:
+            kwicdict[k[keyindex]].append(k)
+    return kwicdict
+</pre>
+<p>A <span class="reserved">for</span> loop and <span class="reserved">if</span> statement checks each n-gram to see if its keyword is already stored in the dictionary. If it isn&#8217;t, it&#8217;s added as a new entry. If it is, it&#8217;s appended to the previous entry. We now have a dictionary named <span class="var">kwicdict</span> that contains all the n-grams, sortable by keyword and we can turn to the task of outputting the information in a more useful format as we did in <a href="/lessons/output-data-as-html-file">Output Data as HTML File</a>.</p>
+<p>Try rerunning the <span class="filename">get-keyword.py</span> program and you should now see what&#8217;s in your KWIC dictionary.</p>
+<h2>Outputting to HTML</h2>
+<h3>Pretty Printing a KWIC</h3>
+<p>&#8220;Pretty printing&#8221; is the process of formatting output so that it can be easily read by human beings. In the case of our keywords in context, we want to have the keywords lined up in a column, with the terms in the left-hand context right justified, and the terms in the right-hand context left justified. In other words, we want our KWIC display to look something like this:</p>
+<pre>               amongst them a black there was one
+                first saw the black i turned to
+             had observed the black in the mob
+                 say who that black was no seeing
+                      i saw a black at first but
+                 swear to any black yes there is
+                   swear to a black than to a
+                              ...</pre>
+<p>This technique is not the best way to format text from a web designer&#8217;s perspective. If you have some experience with HTML we encourage you to use another method that will create a standards compliant HTML file, but for new learners, we just can&#8217;t resist the ease of the technique we&#8217;re about to describe. After all, the point is to integrate programming principles quickly into your research.</p>
+<p>To get this effect, we are going to need to do a number of list and string manipulations. Let&#8217;s start by figuring out what our dictionary output will look like as it currently stands. Then we can work on refining it into what we want.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+# html-to-pretty-print.py
+import obo
+
+# create dictionary of n-grams
+n = 7
+url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+
+text = obo.webPageToText(url)
+fullwordlist = obo.stripNonAlphaNum(text)
+ngrams = obo.getNGrams(fullwordlist, n)
+worddict = obo.nGramsToKWICDict(ngrams)
+
+print worddict[&quot;black&quot;]
+</pre>
+<p>As you can see when you run the above program, the output is not very readable yet. What we need to do is split the n-gram into three parts: before the keyword, the keyword, and after the keyword. We can then use the techniques learned in the previous chapters to wrap everything in HTML so that it is easy to read.</p>
+<p>Using the same <span class="reserved">slice</span> method as above, we will create our three parts. Open a Python shell and try the following examples. Pay close attention to what appears before and after the colon in each case. Knowing how to manipulate the <span class="reserved">slice</span> method is a powerful skill for a new programming historian.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+# calculate the length of the n-gram
+kwic = 'amongst them a black there was one'.split()
+n = len(kwic)
+print n
+-&gt; 7
+
+# calculate the index position of the keyword
+keyindex = n // 2
+print keyindex
+-&gt; 3
+
+# display the items before the keyword
+print kwic[:keyindex]
+-&gt; ['amongst', 'them', 'a']
+
+# display the keyword only
+print kwic[keyindex]
+-&gt; black
+
+# display the items after the keyword
+print kwic[(keyindex+1):]
+-&gt; ['there', 'was', 'one']
+</pre>
+<p>Now that we know how to find each of the three segments, we need to format each to one of three columns in our display.</p>
+<p>The right-hand context is simply going to consist of a string of terms separated by blank spaces. We&#8217;ll use the <span class="reserved">join</span> method to turn the list entries into a string.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+print ' '.join(kwic[(keyindex+1):])
+-&gt; there was one
+</pre>
+<p>We want the keywords to have a bit of whitespace padding around them. We can achieve this by using a string method called <span class="reserved">center</span>, which will align the text to the middle of the screen. We can add padding by making the overall string be longer than the keyword itself. The expression below adds three blank spaces (6/2) to either side of the keyword. We&#8217;ve added hash marks at the beginning and end of the expression so you can see the leading and trailing blanks.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+print '#' + str(kwic[keyindex]).center(len(kwic[keyindex])+6) + '#'
+-&gt; #   black   #
+</pre>
+<p>Finally, we want the left-hand context to be right justified. Depending on how large <span class="var">n</span> is, we are going to need the overall length of this column to increase. We do this by defining a variable called width and then making the column length a multiple of this variable (we used a width of 10 characters, but you can make it larger or smaller as desired). The <span class="reserved">rjust</span> method handles right justification. Once again, we&#8217;ve added hash marks so you can see the leading blanks.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+width = 10
+print '#' + ' '.join(kwic[:keyindex]).rjust(width*keyindex) + '#'
+-&gt; #                 amongst them a#
+</pre>
+<p>We can now combine these into a function that takes a KWIC and returns a pretty-printed string. Add this to the <span class="filename">obo.py</span> module. Study the code to make sure you understand it before moving on.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+# Given a KWIC, return a string that is formatted for
+# pretty printing.
+
+def prettyPrintKWIC(kwic):
+    n = len(kwic)
+    keyindex = n // 2
+    width = 10
+
+    outstring = ' '.join(kwic[:keyindex]).rjust(width*keyindex)
+    outstring += str(kwic[keyindex]).center(len(kwic[keyindex])+6)
+    outstring += ' '.join(kwic[(keyindex+1):])
+
+    return outstring
+</pre>
+<h2>Putting it All Together</h2>
+<p>We can now create a program that, given a URL and a keyword, wraps a KWIC display in HTML and outputs it in Firefox. This program begins and ends in a similar fashion as the program that computed word frequencies. Type or copy the code into your text editor, save it as <span class="filename">html-to-kwic.py</span>, and execute it.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+# html-to-kwic.py
+
+import obo
+
+# create dictionary of n-grams
+n = 7
+url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+
+text = obo.webPageToText(url)
+fullwordlist = ('# ' * (n//2)).split()
+fullwordlist += obo.stripNonAlphaNum(text)
+fullwordlist += ('# ' * (n//2)).split()
+ngrams = obo.getNGrams(fullwordlist, n)
+worddict = obo.nGramsToKWICDict(ngrams)
+
+# output KWIC and wrap with html
+target = 'black'
+outstr = '&lt;pre&gt;'
+if worddict.has_key(target):
+    for k in worddict[target]:
+        outstr += obo.prettyPrintKWIC(k)
+        outstr += '&lt;br /&gt;'
+else:
+    outstr += 'Keyword not found in source'
+
+outstr += '&lt;/pre&gt;'
+obo.wrapStringInHTML('html-to-kwic', url, outstr)
+</pre>
+<p>The first part is the same as above. In the second half of the program, we&#8217;ve wrapped everything in the HTML <span class="reserved">pre</span> tag (pre-formatted), which tells the browser not to monkey with any of the spacing we&#8217;ve added.</p>
+<p>Also, notice that we use the <span class="reserved">has_key</span> dictionary method to make sure that the keyword actually occurs in our text. If it doesn&#8217;t, we can print a message for the user before sending the output to Firefox. Try changing the target variable to a few other keywords. Try one you know isn&#8217;t there to make sure your program doesn&#8217;t output something when it shouldn&#8217;t.</p>
+<p>We have now created a program that looks for a keyword in a dictionary created from an HTML page on the web, and then outputs the n-grams of that keyword to a new HTML file for display on the web. All of the lessons up to this point have included parts of Python vocabulary and methods needed to create this final program. By referring to those lessons, you can now experiment with Python to create programs that accomplish specific tasks that will help in your research process.</p>
+<h3 id="codesync">Code Syncing</h3>
+<p>To follow along with future lessons it is important that you have the right files and programs in your &#8220;programming-historian&#8221; directory. At the end of each chapter you can download the &#8220;programming-historian&#8221; zip file to make sure you have the correct code. If you are following along with the Mac / Linux version you may have to open the <span class="filename">obo.py</span> file and change &#8220;file:///Users/username/Desktop/programming-historian/&#8221; to the path to the directory on your own computer.</p>
+<ul>
+<li>programming-historian [Mac / Linux] (<a href="http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian.zip']);">zip</a>)</li>
+<li>programming-historian [Windows] (<a href="http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian-windows.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian-windows.zip']);">zip</a>)</li>
+</ul>
+
+                          <footer>
+                                </footer>
+            
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div id="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/lessons/output-keywords-in-context-in-html-file#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://programminghistorian.org/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='1624' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="e84df03490" /></p><script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="108"/></p>
+</form>
+
+</div>
+
+
+            
+            </div>
+
+
+                      </article>
+                
+<ul class="navigation pager">
+<li class="previous">
+<p class="kicker">Previous</p>
+<a href="http://programminghistorian.org/lessons/keywords-in-context-using-n-grams">Keywords in Context (Using n-grams)</a></li>
+  <li class="next">
+<p class="kicker">Next</p>
+<a href="http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings">Downloading Multiple Records Using Query Strings</a></ul><!-- .navigation -->
+        
+            </div>
+<footer role="contentinfo">
+<div class="additional"><ul id="menu-main-menu-1" class="additional"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div><p><em>The Programming Historian</em> released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+
+  <p id="logos"><a href="http://niche-canada.org/" id="niche"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/niche.jpg" title="NiCHE"></a> <a href="http://chnm.gmu.edu" id="rrchnm"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/rrchnm.png"></a></p>
+</footer>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c'></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body>
+</html>

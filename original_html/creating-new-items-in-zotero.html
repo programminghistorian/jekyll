@@ -1,0 +1,275 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>The Programming Historian</title>
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css">
+
+    <!-- Modernizr and Friends -->
+    <script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script>
+    <script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script>
+  
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','amanda-morton',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="The Programming Historian &raquo; Creating New Items in Zotero Comments Feed" href="http://programminghistorian.org/lessons/zotero-api/creating-new-items-in-zotero/feed" />
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://programminghistorian.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Counting Frequencies from Zotero Items' href='http://programminghistorian.org/lessons/zotero-api/counting-frequencies-from-zotero-items' />
+<link rel='next' title='Intro to the Zotero API' href='http://programminghistorian.org/lessons/zotero-api/intro-to-the-zotero-api' />
+<meta name="generator" content="WordPress 3.9.1" />
+<link rel='canonical' href='http://programminghistorian.org/lessons/zotero-api/creating-new-items-in-zotero' />
+<link rel='shortlink' href='http://programminghistorian.org/?p=1667' />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+</head>
+<body class="single single-lesson postid-1667">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header role="banner">
+      <h1><a href="http://programminghistorian.org">The Programming Historian</a></h1>
+<div class="additional"><ul id="menu-main-menu" class="additional"><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div>  </header>
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+
+
+  <div role="main">
+      
+                <article>
+            <header>
+                                <p class="kicker">April 1, 2013</p>
+                
+                <h1><a href="http://programminghistorian.org/lessons/zotero-api/creating-new-items-in-zotero">Creating New Items in Zotero</a></h1>
+                                <p class="byline">By Amanda Morton</p>
+                
+                                  <ul class="credits">
+
+                    
+                                        <li class="literary-reviewer">Literary Reviewer: Fred Gibbs                    
+                    
+                  </ul>
+                            </header>
+            <div class="content">
+
+            <h2>Using Python to Create an New Zotero Item</h2>
+<p>In <a href="http://dev.programminghistorian.org/lessons/lesson-7-1-using-the-zotero-api" >Lesson 7.1</a>, you learned a little bit about Zotero; now you can access some of its functions using Python scripts. In this lesson, you will create a new item in a Zotero library and add some basic metadata such as title and date.</p>
+<h3>Creating a new Zotero Item</h3>
+<p>It will be helpful to remember that Zotero began as a citation management system, and that an <em>item</em> on Zotero contains only metadata; it&#8217;s a bit like a library calling card. To upload file contents into Zotero, you would create an <em>attachment</em> to that item. But for now you will start by creating a new Zotero Item and assigning some information to metadata fields.</p>
+<p>Your first step is to import the python modules that you will need for this program.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+import obo
+from libZotero import zotero
+import urllib2
+import datetime</pre>
+<p>Your next line of code will connect to your zotero group library using the unique group id and API key.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+#links to zotero group library
+zlib = zotero.Library('group', '155975','&lt;null&gt;', 'f4Bfk3OTYb7bukNwfcKXKNLG')
+</pre>
+<p>Now that you have imported the required modules and connected to your zotero library, you can create a new item and assign it some metadata. Start by using the following code to create a new item of the type <em>document</em> and set the title to <em>Python Lesson Document.</em></p>
+<pre class="brush: python; title: ; notranslate" title="">
+#create a new item of type document
+newItem = zotero.getTemplateItem('document')
+
+#sets the title of the item to Python Lesson Document
+newItem.set('title', 'Python Lesson Document')
+</pre>
+<p>Next you will add two more types of metadata to your item. First, you will add an abstract note, which is basically a short description of the item you have created. Then you will set the item&#8217;s creation date to the current date.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+#adds a new abstract note
+newItem.set('abstractNote', 'Created using a zotero python library and the write api')
+
+#sets date to current date
+now = datetime.datetime.today().strftime(&quot;%Y-%m-%d&quot;)
+newItem.set('date', now)
+</pre>
+<p>Now that you have set the important metadata for your item, you can make a request to the API to create that item. This code has set the <em>writeFailure</em> property to display an error message if the item is not successfully created.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+# make the request to the API to create the item
+# a Zotero Item object will be returned
+# if the creation went okay it will have a writeFailure property set to False
+createdItem = zlib.createItem(newItem)
+if createdItem.writeFailure != False:
+   print(createdItem.writeFailure['code'])
+   print(createdItem.writeFailure['message'])
+</pre>
+<p>Your last step is to add a <em>tag</em> to your new item. The following code will tag your item as <em>python lesson</em> and update the item with the new tag. Just as in the last segment, this code contains a <em>writeFailure</em> property that will print an error message if the item has not updated correctly.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+#adds a new tag to the new item
+tagname = 'python lesson'
+
+#in the bracket (tagname, '&amp;lt;tag type:0&amp;gt;')
+createdItem.addTag(tagname, '0')
+
+#updates the item with the new tag
+updatedItem = zlib.writeUpdatedItem(createdItem)
+if updatedItem.writeFailure != False:
+   print(&quot;Error updating item&quot;)
+   print(updatedItem.writeFailure['code'])
+   print(updatedItem.writeFailure['message'])
+</pre>
+<p>At last, you have created a new item with a title and a tag name. This last line of code will confirm the item you have just created.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+print 'Created new item &lt;%s&gt; with new tag &lt;%s&gt;' % (createdItem.title, tagname)
+</pre>
+<p>If all has gone according to plan, your output should look like this:</p>
+<pre class="brush: xml; title: ; notranslate" title="">
+Created new item &lt;Python Lesson Document&gt; with new tag &lt;python lesson&gt;
+</pre>
+<p>You can also check your Zotero library to find the document that you made using Python. The title, abstract, and date should be filled out, and the tag should appear also. By editing the program above, you can create items with different types (such as books, journal articles, or newspapers) and specify more precise titles, creation dates, and tags.</p>
+
+                          <footer>
+                                </footer>
+            
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div id="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/lessons/zotero-api/creating-new-items-in-zotero#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://programminghistorian.org/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='1667' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="559387c2a2" /></p><script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="12"/></p>
+</form>
+
+</div>
+
+
+            
+            </div>
+
+
+                      </article>
+                
+<ul class="navigation pager">
+<li class="previous">
+<p class="kicker">Previous</p>
+<a href="http://programminghistorian.org/lessons/zotero-api/intro-to-the-zotero-api">Intro to the Zotero API</a></li>
+  <li class="next">
+<p class="kicker">Next</p>
+<a href="http://programminghistorian.org/lessons/zotero-api/counting-frequencies-from-zotero-items">Counting Frequencies from Zotero Items</a></ul><!-- .navigation -->
+        
+            </div>
+<footer role="contentinfo">
+<div class="additional"><ul id="menu-main-menu-1" class="additional"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div><p><em>The Programming Historian</em> released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+
+  <p id="logos"><a href="http://niche-canada.org/" id="niche"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/niche.jpg" title="NiCHE"></a> <a href="http://chnm.gmu.edu" id="rrchnm"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/rrchnm.png"></a></p>
+</footer>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=3.0.83c'></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body>
+</html>

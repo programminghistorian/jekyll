@@ -1,0 +1,431 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>The Programming Historian</title>
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css">
+
+    <!-- Modernizr and Friends -->
+    <script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script>
+    <script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script>
+  
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="The Programming Historian &raquo; Installing QGIS 2.0 and Adding Layers Comments Feed" href="http://programminghistorian.org/lessons/qgis-layers/feed" />
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://programminghistorian.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Intro to Google Maps and Google Earth' href='http://programminghistorian.org/lessons/googlemaps-googleearth' />
+<link rel='next' title='Creating New Vector Layers in QGIS 2.0' href='http://programminghistorian.org/lessons/vector-layers-qgis' />
+<meta name="generator" content="WordPress 3.9.1" />
+<link rel='canonical' href='http://programminghistorian.org/lessons/qgis-layers' />
+<link rel='shortlink' href='http://programminghistorian.org/?p=2274' />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+</head>
+<body class="single single-lesson postid-2274">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header role="banner">
+      <h1><a href="http://programminghistorian.org">The Programming Historian</a></h1>
+<div class="additional"><ul id="menu-main-menu" class="additional"><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div>  </header>
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+
+
+  <div role="main">
+      
+                <article>
+            <header>
+                                <p class="kicker">December 13, 2013</p>
+                
+                <h1><a href="http://programminghistorian.org/lessons/qgis-layers">Installing QGIS 2.0 and Adding Layers</a></h1>
+                                <p class="byline">By Jim Clifford, Josh MacFadyen, Daniel Macfarlane</p>
+                
+                                  <ul class="credits">
+
+                                        <li class="technical-reviewer">Technical Reviewer: Finn Arne J&oslash;rgensen, Sarah Simpkin</li>
+                    
+                                        <li class="literary-reviewer">Literary Reviewer: Adam Crymble                    
+                    
+                  </ul>
+                            </header>
+            <div class="content">
+
+            <h2>Lesson Goals</h2>
+<p>In this lesson you will install QGIS software, download geospatial files like shapefiles and GeoTIFFs, and create a map out of a number of vector and raster layers. Quantum or QGIS is an open source alternative to the industry leader, ArcGIS from ESRI. QGIS is multiplatform, which means it runs on Windows, Macs, and Linux and it has many of the functions most commonly used by historians. ArcGIS is prohibitively expensive and only runs on Windows (though software can be purchased to allow it to run on Mac). However, many universities have site licenses, meaning students and employees have access to free copies of the software (try contacting your map librarian, computer services, or the geography department). QGIS is ideal for those without access to a free copy of Arc and it is also a good option for learning basic GIS skills and deciding if you want to install a copy of ArcGIS on your machine. Moreover, any work you do in QGIS can be exported to ArcGIS at a later date if you decide to upgrade. The authors tend to use both and are happy to run QGIS on Mac and Linux computers for basic tasks, but still return to ArcGIS for more advanced work. In many cases it is not lack of functions, but stability issues that bring us back to ArcGIS. For those who are learning Python with the Programming Historian, you will be glad to know that both QGIS and ArcGIS use Python as their main scripting language.</p>
+<h2>Installing QGIS</h2>
+<p>Navigate to the <a href="http://hub.qgis.org/projects/quantum-gis/wiki/Download" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://hub.qgis.org']);" target="_&quot;blank&quot;">QGIS Download page</a>. The procedure is a little different depending on your operating system. Click on the appropriate Operating System. Follow the instructions below.</p>
+<h4>Mac Instructions</h4>
+<ul>
+<li>For most people it will be best to choose Master release (the one that has a single installer package). You will still need to install other software packages before installing QGIS. Under 4.2, click on the link (<a href="http://www.kyngchaos.com/software/qgis" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.kyngchaos.com']);" target="_&quot;blank&quot;">KyngChaos Qgis download page</a>) and download the following two files (see screen shot below): 1) GDAL complete 1.10 framework package (under Requirements) and 2) QGIS 2.0.1 (under Download) for your respective Mac OS (this works with Lion, Mountain Lion, and Snow Leopard – no word yet on using it with the forthcoming Mavericks). Install these like any other Mac programs.</li>
+</ul>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/qgis1.png" ><img class="alignnone size-medium wp-image-2300" alt="qgis1" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis1-300x137.png" width="300" height="137" /></a><br />
+<figcaption>Figure 1: Click to view full-size image.</figcaption></figure>
+<ul>
+<li>once the frameworks are installed, download and install QGIS.</li>
+<li>as with any other Mac application you are using for the first time, you will have to go find the QGIS application in Applications</li>
+</ul>
+<h4>Windows Instructions</h4>
+<ul>
+<li>under Standalone Installer, click on the link to Download QGIS</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2301" alt="qgis2" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis2.jpg" width="813" height="144" /><br />
+<figcaption>Figure 2</figcaption></figure>
+<ul>
+<li>double-click on the <span class="filename">.exe</span> file to execute</li>
+</ul>
+<p>QGIS is very simple to install in most versions of Linux. Follow the instructions on the download page.</p>
+<h3>Prince Edward Island Data</h3>
+<p>We will be using some government data from the Canadian province of Prince Edward Island. PEI is a great example because there is a lot of data for free online and because it is Canada&#8217;s smallest province, making the downloads quick! Download PEI shapefiles:</p>
+<ul>
+<li>Navigate to the links below in your web browser, read/accept the license agreement, and then download the following (they will ask for your name and email with each download). We created the final two shapefiles, so they should download directly:</li>
+</ul>
+<ol>
+<li><a href="http://www.gov.pe.ca/gis/license_agreement.php3?name=coastline&amp;file_format=SHP" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.gov.pe.ca']);">http://www.gov.pe.ca/gis/license_agreement.php3?name=coastline&amp;file_format=SHP</a></li>
+<li><a href="http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&amp;file_format=SHP" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.gov.pe.ca']);">http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&amp;file_format=SHP</a></li>
+<li><a href="http://www.gov.pe.ca/gis/license_agreement.php3?name=hydronetwork&amp;file_format=SHP" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.gov.pe.ca']);">http://www.gov.pe.ca/gis/license_agreement.php3?name=hydronetwork&amp;file_format=SHP</a></li>
+<li><a href="http://www.gov.pe.ca/gis/license_agreement.php3?name=forest_35&amp;file_format=SHP" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.gov.pe.ca']);">http://www.gov.pe.ca/gis/license_agreement.php3?name=forest_35&amp;file_format=SHP</a></li>
+<li><a style="line-height: 1.714285714; font-size: 1rem;" href="http://www.gov.pe.ca/gis/license_agreement.php3?name=nat_parks&amp;file_format=SHP" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.gov.pe.ca']);">http://www.gov.pe.ca/gis/license_agreement.php3?name=nat_parks&amp;file_format=SHP</a></li>
+<li><a href="https://www.dropbox.com/s/mgrb90vcpggnw8c/PEI_highway.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://www.dropbox.com/s/mgrb90vcpggnw8c/PEI_highway.zip']);">PEI Highways</a> (<a href="https://www.dropbox.com/s/8k81jnmhpoi99fv/pei_highway.tar.gz" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.dropbox.com']);">alternate Tar file</a>)</li>
+<li><a href="https://www.dropbox.com/s/fev9116zfr31ogb/PEI_placenames.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://www.dropbox.com/s/fev9116zfr31ogb/PEI_placenames.zip']);">PEI Places</a> (<a href="https://www.dropbox.com/s/33g19iqhdnxoayd/pei_placenames.tar.gz" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.dropbox.com']);">alternate Tar file</a>)</li>
+</ol>
+<ul>
+<li>After downloading all seven files, move them into a folder and unzip the zipped files. Take a look at the contents of the folders. You will notice four files with the same name, but different file types. When you navigate to these folders from GIS software, you will find that you only need to click on the .shp and that the other three formats support this file in the background. It is important when moving files on your computer to always move and keep all four files together. This is one reason Shapefiles are normally shared using zip compression. Remember the folder in which you save uncompressed shapefile folders, as you will need to find them from within QGIS in a few minutes.</li>
+</ul>
+<h2>Starting Your GIS Project</h2>
+<p>Open QGIS. The first thing we need to do is set up the <a href="http://en.wikipedia.org/wiki/Spatial_reference_system" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">Coordinate Reference System</a> (CRS) correctly. The CRS is the map projection and projections are the various ways to represent real world places on two-dimensional maps. The default is WGS84 (it is increasingly common to use WGS 84 which is compatible with Google Earth type software), but since most of our data and examples are created by Canadian governments we recommend using NAD 83 (North American Datum, 1983). For more on NAD 83 and the Federal Government&#8217;s datum, see <a href="http://www.nrcan.gc.ca/earth-sciences/geography-boundary/mapping/topographic-mapping/10272" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.nrcan.gc.ca']);" target="_blank">NRCan&#8217;s website</a>. PEI has its own NAD 83 coordinate reference system which uses a <a href="http://www.gov.pe.ca/gis/index.php3?number=77865&amp;lang=E" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.gov.pe.ca']);" target="_blank">Double Stereographic projection</a>. Managing the CRS of different layers of information and making sure they are working correctly is one of the most complicated aspects of GIS for beginners. Nonetheless, if the software is setup correctly, it should convert the CRS and allow you to work with data imported from different sources. <em>Select Project Properties </em></p>
+<ul>
+<li>Mac: Project–&gt;Project Properties</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2302" alt="qgis3" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis3.png" width="401" height="355" /><br />
+<figcaption>Figure 3</figcaption></figure>
+<ul>
+<li>Windows: Settings-&gt; Project Properties</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2303" alt="qgis4" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis4.png" width="767" height="535" /><br />
+<figcaption>Figure 4</figcaption></figure>
+<ul>
+<li>In the left window pane select CRS (second from the top)</li>
+<li style="text-align: left;">click Enable &#8216;on the fly&#8217; CRS transformation button on top left</li>
+</ul>
+<ul>
+<li>in the Filter box enter &#8217;2291&#8242; – this quickly navigates to the best Coordinate reference system for Prince Edward Island.</li>
+<li>under the box titled Coordinate reference systems of the world, select &#8216;NAD83(CSRS98) / Prince Edward Isl. (Stereographic)&#8217; and hit OK</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2304" alt="qgis5" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis5.png" width="889" height="612" /><br />
+<figcaption>Figure 5</figcaption></figure>
+<ul>
+<li>notice the projection has changed in the bottom right corner of the QGIS window. Next to that you will see the geographic location of your mouse pointer in metres</li>
+<li>under Project menu, select Save Project (you should save your project after each step)</li>
+</ul>
+<p>You are now set up to work on the tutorial project, but might have a few questions about what CRS to use for your own project. WGS83 might work in the short term, particularly if you are working on a fairly large scale, but it will be difficult to accurately work on local maps. One hint is to learn what CRS or Projections is used for paper maps of the region. If you are scanning a good quality paper map to use as the base layer it might be a good idea to use the same projection. You can also try searching the internet for the more common CRS for a particular region. For those of you working on North American projects identifying the correct NAD83 for your region will often be the best CRS. Here are a few links to other resources that will help you choose a CRS for your own project: <a href="http://qgis.spatialthoughts.com/2012/04/tutorial-working-with-projections-in.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://qgis.spatialthoughts.com']);">Tutorial: Working with Projections in QGIS</a></p>
+<h3>Building a Base Map</h3>
+<p>Now that your computer is driving with the right directions, it&#8217;s time to add some information that makes sense to humans. Your project should start with a base map, or a selection of geospatial information that lets your readers recognize real world features on the map. For most users this will be comprised of several &#8216;layers&#8217; of vector and raster data, which can be rearranged, coloured, and labeled in such a way that they make sense to your readers and your project’s objectives. A relatively new feature on many GIS programs is the availability of pre-fab base maps, but since this technology is under development for open source platforms like QGIS we will walk through the process of creating our own base map by adding vector and raster layers in this module. For those who would like to add pre-fab base maps to QGIS, you can try installing the &#8216;OpenLayers&#8217; Plugin under Plugins-&gt;Manage and Install Plugins. Select “Get More” on the left. Click OpenLayers and then click Install plugin. Click OK and then click close. Once installed, you&#8217;ll find OpenLayers in the Plugins Menu. Try installing some of the different Google and OpenStreetMaps layers. At the time of writing this module, the OpenLayers plugin (v. 1.1.1) installs but fails to work properly on any Mac using OSX. It appears to work more consistently on QGIS running on Windows 7. Give it a try, as we expect it will only get better in the months ahead. Note, however, that the projection for some of these global maps do not correct on the fly, so the satellite images might not alway sync up with data projected in a different CRS.</p>
+<h2>Opening Vectors</h2>
+<p>Vectors <a href="http://www.gislounge.com/geodatabases-explored-vector-and-raster-data/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.gislounge.com']);" target="_blank">defined</a>: GIS uses points, lines, and polygons, also known as <strong>vector</strong> data. Its first order of work is to arrange these points, lines, and polygons and project them accurately on maps. Points may be towns or telephone poles; lines could represent rivers, roads, or railroads; and polygons could encompass a farmer’s lot or larger political boundaries. However, it is also possible to attach historical data to these geographical places and study how people interacted with and changed their physical environments. The population of towns changed, rivers moved their courses, lots were subdivided, and land was planted with various crops.</p>
+<ul>
+<li>under Layer on toolbar, choose Add Vector Layer (alternatively the same icon you see next to &#8216;Add Vector Layer&#8217; can also be selected from the tool bar on the upper left side)</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2305" alt="qgis6" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis6.png" width="52" height="52" /><br />
+<figcaption>Figure 6</figcaption></figure>
+<ul>
+<li>click Browse, find your downloaded Prince Edward Island shapefiles in the folder</li>
+<li>open the coastline_polygon folder</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2306" alt="qgis7" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis7.png" width="806" height="527" /><br />
+<figcaption>Figure 7</figcaption></figure>
+<ul>
+<li>select coastline_polygon.shp, then select &#8216;OK&#8217;, and you should see the island’s coastline on your screen. Sometimes QGIS adds a coloured background (see the image above). If you have a coloured background, follow the steps below. If not, skip down the page to the ***.</li>
+<li>right click the layer (coastline_polygon) in the Layers menu and choose Properties.<br />
+<figure><img class="alignnone size-full wp-image-2307" alt="qgis8" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis8.png" width="318" height="343" /><br />
+<figcaption>Figure 8</figcaption></figure>
+</li>
+<li>In the ensuing window, click Style in the left pane</li>
+</ul>
+<ul>
+<li>There are a range of options, but we want to get rid of the background all together. Click <strong>Simple fill</strong>.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2288" alt="qgis9" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis9.png" width="986" height="926" /><br />
+<figcaption>Figure 9</figcaption></figure>
+<ul>
+<li>Then choose &#8216;<strong>No Brush</strong>&#8216; in the <strong>Fill style</strong> drop down menu. <strong>Click OK.</strong></li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2289" alt="qgis10" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis10.png" width="981" height="919" /><br />
+<figcaption>Figure 10</figcaption></figure>
+<p>***</p>
+<ul>
+<li>Choose Add Vector Layer again.</li>
+<li>click Browse, find your downloaded Prince Edward Island shapefiles in the folder</li>
+<li>select &#8216;PEI_HYDRONETWORK&#8217;</li>
+<li>click on &#8216;PEI_HYDRONETWORK.shp&#8217; and then hit &#8216;Open&#8217;</li>
+<li>right click the layer in the Layers menu and choose Properties.</li>
+<li>select Style tab, and choose an appropriate blue to color the hydronetwork and select &#8216;OK&#8217; at the bottom right of the window</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2290" alt="qgis11" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis11.png" width="955" height="861" /><br />
+<figcaption>Figure 11</figcaption></figure>
+<ul>
+<li>Your map should now look like this:</li>
+</ul>
+<figure><img class="alignnone size-medium wp-image-2291" alt="qgis12" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis12-300x199.png" width="300" height="199" /><br />
+<figcaption>Figure 12: Click to see full size image.</figcaption></figure>
+<ul>
+<li>Choose Add Vector Layer again.</li>
+<li>click Browse, find your downloaded Prince Edward Island shapefiles in the folder</li>
+<li>double-click on &#8217;1935 inventory_region.shp&#8217; and then hit &#8216;Open&#8217;</li>
+</ul>
+<p>This will add a dense map showing the different forest cover in 1935. However, to see the different categories, you will need to change the symbology to represent the different categories of forest with different colours. We will need to know which column of the database tables includes the forest category information, so the first step is to open and inspect the attribute table.</p>
+<ul>
+<li>right click on the 1935_inventory_region layer in the Layers window on the left and click on Open Attribute Table</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2292" alt="qgis13" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis13.png" width="481" height="446" /><br />
+<figcaption>Figure 13</figcaption></figure>
+<p>An Attribute Table will open. It has a number of categories and identifiers. Of particular interest is the LANDUSE category which provides information on the forest cover in 1935. We will now show you how to display these categories on the map.</p>
+<figure><img class="alignnone size-full wp-image-2293" alt="qgis14" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis14.png" width="883" height="582" /><br />
+<figcaption>Figure 14</figcaption></figure>
+<ul>
+<li>Close the Attribute Table, and right click on the 1935_inventory_region layer again and this time choose Properties (alternatively, the shortcut is to double click on the 1935_inventory_region layer).</li>
+<li>click Style along the left</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2294" alt="qgis15" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis15.png" width="185" height="153" /><br />
+<figcaption>Figure 15</figcaption></figure>
+<ul>
+<li>on the menu bar that reads &#8216;Single Symbol&#8217; select &#8216;Categorized&#8217;</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2297" alt="qgis16" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis16.png" width="451" height="221" /><br />
+<figcaption>Figure 16</figcaption></figure>
+<ul>
+<li>beside Column choose &#8216;Landuse&#8217;</li>
+<li>under Color ramp choose Greens</li>
+<li>click &#8216;Classify&#8217; below and to the left</li>
+<li>in Symbol Column, choose the furthest down dark green square (with no value beside it) and hit the &#8216;Delete&#8217; button (to the right of Classify); also delete the Developed category, as we want to highlight forested areas. Click &#8216;OK&#8217;</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2279" alt="qgis17" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis17.png" width="810" height="598" /><br />
+<figcaption>Figure 17</figcaption></figure>
+<ul>
+<li>in Layers sidebar menu, click on the little arrow beside 1935_inventory_region to view the legend.</li>
+</ul>
+<ul>
+<li>You can now see the extent of the forests in 1935. Try using the magnifying glass tool to zoom in and inspect the different landuses.</li>
+</ul>
+<figure><img class="alignnone size-medium wp-image-2280" alt="qgis18" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis18-300x283.png" width="300" height="283" /><br />
+<figcaption>Figure 18: Click to see full size image.</figcaption></figure>
+<ul>
+<li>To get back to the full island, right click on any of the layers and choose &#8216;<strong>Zoom to Layer Extent.</strong>&#8216;</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2281" alt="qgis19" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis19.png" width="335" height="140" /><br />
+<figcaption>Figure 19</figcaption></figure>
+<ul>
+<li>Next, we will add a layer of roads.</li>
+<li>under Layer on toolbar, choose Add Vector Layer</li>
+<li>click Browse, find your downloaded Prince Edward Island shapefiles in the folder</li>
+<li>select &#8216;PEI_highway.shp&#8217;</li>
+<li>in the Layers menu on the left, double-click &#8216;PEI_highway_ship&#8217; and select Style from the menu on the left (if it isn&#8217;t already selected)</li>
+<li>click on &#8216;Single Symbol&#8217; on top left and select &#8216;Categorized&#8217;</li>
+<li>beside Column choose &#8216;TYPE&#8217;</li>
+<li>click Classify</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2282" alt="qgis20" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis20.png" width="637" height="434" /><br />
+<figcaption>Figure 20</figcaption></figure>
+<ul>
+<li>in the Symbol column, double-click beside &#8216;primary&#8217; – in the ensuing window, there is a box with different symbols. Scroll down and find &#8216;primary road&#8217;.</li>
+</ul>
+<ul>
+<li>You are back in the Style window. Repeat for the item that called &#8216;primary_link&#8217; in the Label column.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2284" alt="qgis21" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis21.png" width="406" height="123" /><br />
+<figcaption>Figure 21</figcaption></figure>
+<ul>
+<li>click Symbol beside secondary and change color to black and width to 0.7</li>
+<li>repeat for secondary link</li>
+<li>click OK. You will now have the highways and other major roads represented on the map</li>
+</ul>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/qgis22.png" ><img class="alignnone size-medium wp-image-2286" alt="qgis22" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis22-300x198.png" width="300" height="198" /></a><br />
+<figcaption>Figure 22: Click to see full size image.</figcaption></figure>
+<ul>
+<li>under Layer on toolbar, choose Add Vector Layer</li>
+<li>click Browse, find your downloaded Prince Edward Island shapefiles in the folder</li>
+<li>select &#8216;PEI_placenames_shp&#8217;</li>
+<li>double click on &#8216;PEI_placenames&#8217; and select &#8216;Open&#8217;</li>
+<li>in the Layers window, double-click on the PEI_placenames layer. Choose Labels tab along the left (under Style). At the top, select the box beside &#8216;Label this layer with&#8217; and in the dropdown box beside that select &#8216;Placename&#8217;</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2295" alt="qgis23" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis23.png" width="809" height="784" /><br />
+<figcaption>Figure 23</figcaption></figure>
+<ul>
+<li>Change Font size to &#8217;18&#8242;</li>
+<li>Click &#8216;OK&#8217; and examine the results on the map</li>
+</ul>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/qgis24.png" ><img class="alignnone size-medium wp-image-2298" alt="qgis24" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis24-300x197.png" width="300" height="197" /></a><br />
+<figcaption>Figure 24: Click to see full size image.</figcaption></figure>
+<ul>
+<li>Labelling is where QGIS falls well short of real cartography – it will take tinkering to adjust settings to display the detail desired for a presentation. Try going back to the Labels tab and changing the different settings to see how symbols and displays change.</li>
+</ul>
+<p>Note that in the Layers menu you can add and remove the various layers we&#8217;ve added to the map much the same way you did in Google Earth. Click on the check boxes to remove and add the various layers. Drag and drop layers to change the the order they appear. Dragging a layer to the top will place it above the rest of the layers and make it the most prominent. For example, if you drag &#8216;coastline_polygon&#8217; to the top, you have a simplified outline of the province along with place names.</p>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/qgis25.png" ><img class="alignnone size-medium wp-image-2276" alt="qgis25" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis25-300x198.png" width="300" height="198" /></a><br />
+<figcaption>Figure 25: Click to see full size image</figcaption></figure>
+<ul>
+<li>Along the toolbar on the top left of the main window are icons that allow you to explore the map. The hand symbol, for example, allows you to click on the map and move it around, while the magnifying glass symbols with plus and minus on them allow you to zoom in and out. Play with these and familiarize yourself with the various functions</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2277" alt="qgis26" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis26.png" width="159" height="40" /><br />
+<figcaption>Figure 26</figcaption></figure>
+<ul>
+<li>having created a map using vector layers, we will now add or use our first raster layer. This is a good time to save your work.</li>
+</ul>
+<p><span style="text-decoration: underline;"><b>Opening Rasters</b></span> <strong>R</strong><strong>aster</strong> data are digital images made up of grids. All remote sensing data such as satellite images or <a href="http://en.wikipedia.org/wiki/Orthophoto" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">aerial photos</a> are rasters, but usually you can’t see the grids in these images because they are made up of tiny pixels. Each pixel has its own value and when those values are symbolized in colour or greyscale they make up an image that is useful for display or topographical analysis. A scanned historical map is also brought into GIS in raster format.</p>
+<ul>
+<li>download: <a href="https://www.dropbox.com/s/5g7964rpu1w2ou1/PEI_CumminsMap1927_compLZW.tif" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.dropbox.com']);">&#8216;PEI_CumminsMap1927.tif&#8217;</a> to your project folder.</li>
+<li>under Layer on toolbar, choose Add Raster Layer (alternatively the same icon you see next to &#8216;Add Raster Layer&#8217; can also be selected from the tool bar along the left side of the window)</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2278" alt="qgis27" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis27.png" width="39" height="39" /><br />
+<figcaption>Figure 27</figcaption></figure>
+<ul>
+<li>find the file you have downloaded titled &#8216;PEI_CumminsMap1927.tif&#8217;</li>
+<li>you will be prompted to define this layer’s coordinate system. In the Filter box search for &#8217;2291&#8242;, then in the box below select &#8216;NAD83(CSRS98) / Prince Edward Isl. (Stereographic)…&#8217;</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2283" alt="qgis28" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis28.png" width="601" height="579" /><br />
+<figcaption>Figure 28</figcaption></figure>
+<ul>
+<li>If the program does not prompt you for the CRS you need to change it yourself. Double click the PEI_CummingMap1927_compLZW layer and choose &#8216;<strong>General</strong>&#8216; from the menu on the left. Click &#8216;<strong>Specify…</strong>&#8216; beside the box showing the incorrect Coordinate reference system. Then follow the instructions above (choose 2291).</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2285" alt="qgis29" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis29.png" width="869" height="295" /><br />
+<figcaption>Figure 29</figcaption></figure>
+<ul>
+<li>In the Layers window, the map should appear below the vector data. Move it to the bottom of the menu if necessary:</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2287" alt="qgis30" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis30.png" width="330" height="406" /><br />
+<figcaption>Figure 30</figcaption></figure>
+<ul>
+<li>Now we would like to make the coastline more visible, so double-click on &#8216;coastline_polygon&#8217; and select &#8216;Style&#8217; on the left. In the box under Symbol layers, select &#8216;Simple fill&#8217; and options appear in the box to the right. Click on the menu next to &#8216;Border&#8217; and make it red, and then beside Border width change it to 0.5, and click OK.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2296" alt="qgis31" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis31.png" width="759" height="306" /><br />
+<figcaption>Figure 31</figcaption></figure>
+<ul>
+<li>You are now able to see the background raster map through the &#8216;coastline_polygon&#8217; layer. Zoom in for closer inspection, and you should be able to see the coastline layer clearly. Notice that the alignment is relatively good, but not perfect. We will learn more in lesson 4 about the challenges of georeferencing historical maps to give them real world coordinates.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2299" alt="qgis32" src="http://programminghistorian.org/wp-content/uploads/2013/12/qgis32.png" width="500" /><br />
+<figcaption>Figure 32</figcaption></figure>
+<p><strong>You have learned how to install QGIS and add layers. Make sure you save your work!</strong></p>
+<p><em>This lesson is part of the <a href="http://geospatialhistorian.wordpress.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://geospatialhistorian.wordpress.com']);" target="_blank">Geospatial Historian</a>.</em></p>
+
+                          <footer>
+                                          <div class="author-info">
+                          <p class="author-name">About Jim Clifford, Josh MacFadyen, Daniel Macfarlane</p>
+                           <div class="author-description"><p>Jim Clifford is an assistant professor in the Department of History at the University of Saskatchewan. Josh MacFadyen is a Project Coordinator at the Network in Canadian History & Environment. Daniel Macfarlane is a Visiting Scholar in the School of Canadian Studies at Carleton University.</p>
+</div>
+                        </div>
+                                </footer>
+            
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div id="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/lessons/qgis-layers#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://programminghistorian.org/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='2274' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="5475025cc0" /></p><script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="37"/></p>
+</form>
+
+</div>
+
+
+            
+            </div>
+
+
+                      </article>
+                
+<ul class="navigation pager">
+<li class="previous">
+<p class="kicker">Previous</p>
+<a href="http://programminghistorian.org/lessons/googlemaps-googleearth">Intro to Google Maps and Google Earth</a></li>
+  <li class="next">
+<p class="kicker">Next</p>
+<a href="http://programminghistorian.org/lessons/georeferencing-qgis">Georeferencing in QGIS 2.0</a></ul><!-- .navigation -->
+        
+            </div>
+<footer role="contentinfo">
+<div class="additional"><ul id="menu-main-menu-1" class="additional"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div><p><em>The Programming Historian</em> released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+
+  <p id="logos"><a href="http://niche-canada.org/" id="niche"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/niche.jpg" title="NiCHE"></a> <a href="http://chnm.gmu.edu" id="rrchnm"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/rrchnm.png"></a></p>
+</footer>
+</body>
+</html>

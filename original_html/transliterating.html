@@ -1,0 +1,428 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>The Programming Historian</title>
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css">
+
+    <!-- Modernizr and Friends -->
+    <script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script>
+    <script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script>
+  
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','seth-bernstein',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="The Programming Historian &raquo; Transliterating non-ASCII characters with Python Comments Feed" href="http://programminghistorian.org/lessons/transliterating/feed" />
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://programminghistorian.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Applied Archival Downloading with Wget' href='http://programminghistorian.org/lessons/applied-archival-downloading-with-wget' />
+<link rel='next' title='Intro to Google Maps and Google Earth' href='http://programminghistorian.org/lessons/googlemaps-googleearth' />
+<meta name="generator" content="WordPress 3.9.1" />
+<link rel='canonical' href='http://programminghistorian.org/lessons/transliterating' />
+<link rel='shortlink' href='http://programminghistorian.org/?p=2186' />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+</head>
+<body class="single single-lesson postid-2186">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header role="banner">
+      <h1><a href="http://programminghistorian.org">The Programming Historian</a></h1>
+<div class="additional"><ul id="menu-main-menu" class="additional"><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div>  </header>
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+
+
+  <div role="main">
+      
+                <article>
+            <header>
+                                <p class="kicker">October 4, 2013</p>
+                
+                <h1><a href="http://programminghistorian.org/lessons/transliterating">Transliterating non-ASCII characters with Python</a></h1>
+                                <p class="byline">By Seth Bernstein</p>
+                
+                                  <ul class="credits">
+
+                                        <li class="technical-reviewer">Technical Reviewer: Michelle Moravec, Ezra Brooks, Russell Alleen-Willems</li>
+                    
+                                        <li class="literary-reviewer">Literary Reviewer: Adam Crymble                    
+                    
+                  </ul>
+                            </header>
+            <div class="content">
+
+            <p><strong>Lesson Goals:</strong></p>
+<p>This lesson shows how to use Python to transliterate automatically a list of words from a language with a non-Latin alphabet to a standardized format using the American Standard Code for Information Interchange (<a href="http://en.wikipedia.org/wiki/Ascii" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">ASCII</a>) characters. It builds on readers&#8217; understanding of Python from the lessons &#8220;<a href="http://programminghistorian.org/lessons/viewing-html-files" >Viewing HTML Files</a>,&#8221; &#8220;<a href="http://programminghistorian.org/lessons/working-with-web-pages" >Working with Web Pages</a>,&#8221; &#8220;<a href="http://programminghistorian.org/lessons/from-html-to-list-of-words-1" >From HTML to List of Words (part 1)</a>&#8221; and &#8220;<a href="http://programminghistorian.org/lessons/intro-to-beautiful-soup" >Intro to Beautiful Soup</a>.&#8221; At the end of the lesson, we will use the transliteration dictionary to convert the names from a database of the Russian organization <a href="http://lists.memo.ru" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://lists.memo.ru']);" target="_blank">Memorial</a> from <a href="http://en.wikipedia.org/wiki/Cyrillic_script" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">Cyrillic</a> into <a href="http://en.wikipedia.org/wiki/Latin_script" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">Latin characters</a>. Although the example uses Cyrillic characters, the technique can be reproduced with other alphabets using <a href="http://en.wikipedia.org/wiki/Unicode" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">Unicode</a>.</p>
+<p><strong>What Is Transliteration and for Whom Is It Useful?</strong></p>
+<p>Transliteration is something that most people do every day, knowingly or not. Many English speakers would have trouble recognizing the name Владимир Путин but know that Vladimir Putin is Russia&#8217;s current president. Transliteration is especially useful with names, because a standardized transliterated name is often the same as a translated name. (Exceptions are when someone&#8217;s name is translated in a non-uniform way. Leon Trotsky&#8217;s Russian name would be transliterated in a standardized form as Lev Trotskii.)</p>
+<p>But transliteration has other uses too, especially for scholars. In many fields, the publishing convention is to transliterate any evidence used in the original. Moreover, citations from scholarly works need to be transliterated carefully so that readers can find and verify evidence used in texts. Finally, transliteration can be more practical for authors who can type more fluently with Latin letters than in the native alphabet of a language that does not use Latin characters.</p>
+<p>Programming languages like Python also benefit from transliteration. Python handles Cyrillic relatively well in certain environments, like <a href="http://en.wikipedia.org/wiki/Terminal_%28OS_X%29" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">Terminal</a> for MacOS or Linux, or in Windows, <a href="http://en.wikipedia.org/wiki/IDLE_%28Python%29" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">IDLE</a>, the official Python integrated development environment. However, even in these Python converts non-ASCII characters into code. Other environments, like the Python shell for Windows (command line) or <a href="http://www.activestate.com/komodo-edit" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.activestate.com']);" target="_blank">Komodo Edit</a>, know Unicode but will not print the Cyrillic characters that Unicode represents without tricky additional configuration. In environments that do support Cyrillic, switching between a Latin character set to write code and a non-Latin character set to handle inputs can be tedious. Thus, creating a program to transliterate evidence automatically eliminates the step of transliteration for researchers and it converts the text into a format that Python can handle more readily. <strong>This lesson was built and tested using IDLE for Windows and Terminal for MacOS. The author strongly recommends that you follow along using the program tested on your operating system rather Windows Command Prompt or Komodo Edit.</strong></p>
+<p>This lesson will be particularly useful for research in fields that use a standardized transliteration format, such as Russian history field, where the convention is to use a simplified version of the American Library Association-Library of Congress (<a href="http://en.wikipedia.org/wiki/ALA-LC_romanization_for_Russian" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">ALA-LC</a>) transliteration table. (All tables currently available can be accessed here.) Researchers dealing with large databases of names can benefit considerably. However, this lesson will also allow practice with Unicode, character translation and using the parser <a href="http://www.crummy.com/software/BeautifulSoup/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.crummy.com']);" target="_blank">Beautiful Soup in Python.</a></p>
+<p><strong>Converting a Webpage to Unicode</strong></p>
+<p>The goal of this lesson is to take a list of names from a Russian database and convert them from Cyrillic into ASCII characters. The page we will use is from the site of the Russian human rights organization Memorial. During <a href="http://en.wikipedia.org/wiki/Glasnost" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">Glasnost</a> professional and amateur historians in the Soviet Union gained the ability to conduct research on previously taboo subjects, such as repression under Stalin. Banding together, they founded <a href="http://lists.memo.ru" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://lists.memo.ru']);" target="_blank">Memorial</a> to collect and publicize their findings. Today, the NGO conducts research on a range of civil rights abuses in Russia, but collecting data about the victims of Stalinism remains one of its main functions. On the Memorial website researchers can find a database with some three million entries of people who were arrested or executed by Stalin&#8217;s regime. It is an important resource on a dark topic. However, because the database has many, many names, it lends itself nicely to automated transliteration. This lesson will use just the first page of the database, found <a href="http://lists.memo.ru/d1/f1.htm" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://lists.memo.ru']);">here</a>, but using the lesson on &#8220;<a href="http://programminghistorian.org/lessons/automated-downloading-with-wget" >Automated Downloading with Wget</a>,&#8221; it would be possible to go through the entire database as fast as your computer would allow.</p>
+<p>We need to start by modifying the process found in the lesson &#8220;<a href="http://programminghistorian.org/lessons/working-with-web-pages" >Working with Web Pages</a>.&#8221; There we learned how to open and copy the HTML from a web page in Python. But what if we want to open a page in a language that does not use Latin characters? Python can do this but we need to tell it how to read these letters using a codec, a library of codes that allows Python to represent non-ASCII characters. Working with web pages makes this easy because almost all web pages specify what kind of encoding they use, in the page&#8217;s <span class="tech">headers</span>. In Python, opening a web page does not just give you the HTML, but it creates an object with several useful characteristics. One is that we can access the headers by calling the <span class="reserved">header()</span> method. This method returns something a lot like a Python dictionary with information that is important to web programmers. For our purposes, what is important is that the encoding is stored under the &#8216;content-type&#8217; key.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+#transliterator.py
+import urllib2
+
+page = urllib2.urlopen('http://lists.memo.ru/d1/f1.htm')
+
+#what is the encoding?
+print page.headers['content-type']
+</pre>
+<p>Under the &#8216;content-type&#8217; key we find this information:</p>
+<pre class="brush: python; title: ; notranslate" title="">
+text/html; charset=windows-1251
+</pre>
+<p>The &#8216;content-type&#8217; is telling us that the file stored at the url we accessed is in HTML and that its encoding (after &#8216;charset=&#8217;, meaning character set) is &#8216;windows-1251&#8242;, a common encoding for Cyrillic characters. You can visit the webpage and view the Page Source and see for yourself that the first line does in fact contain a &#8216;content-type&#8217; variable with the value text/html; charset=windows-1251. It would not be so hard to work with the &#8216;windows-1251&#8242; encoding. However, &#8216;windows-1251&#8242; is specifically for Cyrillic and will not handle all languages. For the sake of learning a standard method, what we want is Unicode, a coding set that handles not just Cyrillic but characters and symbols from virtually any language. (For more on Unicode, see the <a href="http://www.unicode.org/standard/WhatIsUnicode.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.unicode.org']);" target="_blank">What is Unicode</a> page.) Converting into Unicode gives us the potential to create a transliteration table that could cover multiple languages and special characters in a way that region-specific character sets do not allow.</p>
+<p>How do you convert the characters to Unicode? First, Python needs to know the original encoding of the source, &#8216;windows-1251.&#8217; We could just assign &#8216;windows-1251&#8242; to a variable by typing it manually but the encoding may not always be &#8216;windows-1251.&#8217; There are other character sets for Cyrillic, not to mention other languages. Let&#8217;s find a way to make the process more automatic for those cases. It helps that the encoding is the very last part of the string, so we can isolate it from everything that came before in the string. By using the <span class="reserved">.split()</span> method, the string containing whatever encoding it is can be assigned to a variable. The <span class="reserved">.split(separator)</span> method in Python returns a list of sections in the string that are split by some user-defined separator. Assigning no separator to <span class="reserved">.split()</span> separates a string at the spaces. Another use of the <span class="reserved">.split()</span> method is to separate by commas, which can help to work with <a href="http://en.wikipedia.org/wiki/Comma-separated_values" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank&quot;">comma separated value</a> (csv) files. In this case, though, by splitting the &#8216;content-type&#8217; string at &#8216;charset=&#8217;, we get a <span class="tech">list</span> with two strings where the second will be the character set.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+encoding = page.headers['content-type'].split('charset=')[1]
+</pre>
+<p>The encoding is assigned to the variable called &#8216;<span class="var">encoding</span>&#8216;. You can check to see if this worked by printing the &#8216;<span class="var">encoding</span>&#8216; variable. Now we can tell Python how to read the page as Unicode. Using the <span class="reserved">unicode(object [, encoding])</span> method turns a string of characters into a Unicode object. A Unicode object is similar to a string but it can contain special characters. If they are in a non-ASCII character set, like here with &#8216;windows-1251&#8242;, we have to use the optional encoding parameter.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+#read the HTML as a string into a variable
+content = page.read()
+
+# the unicode method tries to use ASCII so we need to tell it the encoding
+content = unicode(content, encoding)
+content[200:300]
+</pre>
+<p>&nbsp;</p>
+<pre class="brush: python; title: ; notranslate" title="">
+u'&quot;list-right&quot;&amp;gt;\r\n
+&lt;ul&gt;
+	&lt;li&gt;
+&lt;p class=&quot;name&quot;&gt;&lt;a name=&quot;n1&quot;&gt;&lt;/a&gt;\u0410-\u0410\u043a\u0443 \u0422\u0443\u043b\u0438\u043a\u043e\u0432\u0438\u0447&lt;/p&gt;
+&lt;p class=&quot;cont&quot;&gt;\r\n\u0420\u043e\u0434\u0438\u043b\u0441\u044f\xa0\u0432 '&lt;/p&gt;
+</pre>
+<p>In some editors like Komodo, printing even Unicode will raise an error. Indeed, the inability of some Python environments to print Unicode out of the box is one big advantage of transliterating it into ASCII. In IDLE, though, we can print this content to see it in Cyrillic rather than Unicode:</p>
+<pre class="brush: python; title: ; notranslate" title="">
+# see what happens when Python prints Unicode
+print content[200:300]
+</pre>
+<p>&nbsp;</p>
+<pre class="brush: python; title: ; notranslate" title="">
+&quot;list-right&quot;&amp;gt;
+&lt;ul&gt;
+	&lt;li&gt;
+&lt;p class=&quot;name&quot;&gt;&lt;a name=&quot;n1&quot;&gt;&lt;/a&gt;А-Аку Туликович&lt;/p&gt;
+Родился в
+</pre>
+<p>Excellent-the web page is now converted to Unicode. All the &#8216;\u0420&#8242;-type marks are Unicode and Python knows that they code to Cyrillic characters. The forward slash is called an &#8216;<span class="tech">escape character</span>&#8216; and allows Python to do things like use special characters in Unicode or signify a line break (&#8216;<span class="reserved">\n</span>&#8216;) in a document. Each counts as just one character. Now we can create a Python <span class="tech">dictionary</span> that will act as the transliteration table.</p>
+<p><strong>Unicode Transliteration Dictionary</strong></p>
+<p>A dictionary is an unordered collection of <span class="tech">key-object pairs</span>. What this means is that under each key, the dictionary stores some number or string or other object &#8211; even another dictionary. (See also the lesson &#8220;<a href="http://programminghistorian.org/lessons/counting-frequencies"  target="_blank">Counting Frequencies</a>.&#8221;) A dictionary has the following syntax:</p>
+<pre class="brush: python; title: ; notranslate" title="">
+my_dictionary = {'Vladimir': 'Putin', 'Boris': 'Yeltsin'}
+print my_dictionary['Vladimir']
+
+&gt; Putin
+</pre>
+<p>How can we turn this into a transliteration table? Just make each Unicode character a key in the dictionary. Its value will be whatever character(s) it transliterates to. The table for Romanization of Russian is available from the <a href="http://www.lcweb.loc.gov/catdir/cpso/romanization/russian.pdf" onclick="javascript:_gaq.push(['_trackEvent','download','http://www.lcweb.loc.gov/catdir/cpso/romanization/russian.pdf']);" target="_blank">Library of Congress</a>. This table needs to be simplified slightly. The ALA-LC suggests using characters with umlauts or ligatures to represent Cyrillic letters but those characters are no more ASCII than Cyrillic characters. So instead no umlauts or ligatures will be used.</p>
+<p>Each Cyrillic letter has a different Unicode value. It would take time to find each one of them but fortunately <a href="http://en.wikipedia.org/wiki/Cyrillic_script_in_Unicode" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_&quot;blank&quot;">Wikipedia has a table</a>. If the script were very rare, we could find it at the <a href="http://www.unicode.org/charts/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.unicode.org']);" target="_blank">Unicode website</a>.</p>
+<p>We just need to combine the transliteration table with the Unicode table. The Unicode value for the Russian letter &#8220;Ж&#8221; is 0416 and it transliterates to the Latin characters &#8220;Zh.&#8221; Python needs more than just the Unicode identifier. It also needs to know to look out for a Unicode character. Therefore all the Unicode characters used in the dictionary should be in the format u&#8217;\uXXXX&#8217;. In this case, the letter Ж is u&#8217;\u0416&#8242;. We can create a transliteration dictionary and assign &#8216;Zh&#8217; as the value for the key u&#8217;\u0416&#8242; in it.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+cyrillic_translit = { u'\u0416': 'Zh'}
+</pre>
+<p>As it turns out, lowercase Cyrillic letters in Unicode have the same value as their uppercase counterparts except the value of the second number is two greater. Thus, &#8216;ж&#8217; codes to 0436. Now that we have a transliteration dictionary created, we just add a dictionary key-value pair.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+cyrillic_translit[u'\u0436'] = 'zh'
+</pre>
+<p>Of course, rather than do each pair one by one, it would probably be easier to write the dictionary in a Python module or paste it in from a word processor. The full Cyrillic transliteration dictionary is here:</p>
+<pre class="brush: python; title: ; notranslate" title="">
+cyrillic_translit={u'\u0410': 'A', u'\u0430': 'a',
+u'\u0411': 'B', u'\u0431': 'b',
+u'\u0412': 'V', u'\u0432': 'v',
+u'\u0413': 'G', u'\u0433': 'g',
+u'\u0414': 'D', u'\u0434': 'd',
+u'\u0415': 'E', u'\u0435': 'e',
+u'\u0416': 'Zh', u'\u0436': 'zh',
+u'\u0417': 'Z', u'\u0437': 'z',
+u'\u0418': 'I', u'\u0438': 'i',
+u'\u0419': 'I', u'\u0439': 'i',
+u'\u041a': 'K', u'\u043a': 'k',
+u'\u041b': 'L', u'\u043b': 'l',
+u'\u041c': 'M', u'\u043c': 'm',
+u'\u041d': 'N', u'\u043d': 'n',
+u'\u041e': 'O', u'\u043e': 'o',
+u'\u041f': 'P', u'\u043f': 'p',
+u'\u0420': 'R', u'\u0440': 'r',
+u'\u0421': 'S', u'\u0441': 's',
+u'\u0422': 'T', u'\u0442': 't',
+u'\u0423': 'U', u'\u0443': 'u',
+u'\u0424': 'F', u'\u0444': 'f',
+u'\u0425': 'Kh', u'\u0445': 'kh',
+u'\u0426': 'Ts', u'\u0446': 'ts',
+u'\u0427': 'Ch', u'\u0447': 'ch',
+u'\u0428': 'Sh', u'\u0448': 'sh',
+u'\u0429': 'Shch', u'\u0449': 'shch',
+u'\u042a': '&quot;', u'\u044a': '&quot;',
+u'\u042b': 'Y', u'\u044b': 'y',
+u'\u042c': &quot;'&quot;, u'\u044c': &quot;'&quot;,
+u'\u042d': 'E', u'\u044d': 'e',
+u'\u042e': 'Iu', u'\u044e': 'iu',
+u'\u042f': 'Ia', u'\u044f': 'ia'}
+</pre>
+<p>Now that we have the transliteration dictionary, we can simply loop through every character in the source page and convert those Unicode characters in the dictionary. If we turn it into a procedure, then we can reuse it for other webpages.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+def transliterate(word, translit_table):
+    converted_word = ''
+    for char in word:
+        transchar = ''
+        if char in translit_table:
+            transchar = translit_table[char]
+        else:
+            transchar = char
+        converted_word += transchar
+    return converted_word
+</pre>
+<p>We can then call this function using the newly created dictionary and the webpage downloaded earlier.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+#we will run it with the cyrillic_translit dictionary and the webpage
+converted_content = transliterate(content, cyrillic_translit)
+converted_content[200:310]
+</pre>
+<p>Here is what we end up with:</p>
+<pre class="brush: python; title: ; notranslate" title="">
+u'=&quot;list-right&quot;&amp;gt;\r\n&lt;/li&gt;
+	&lt;li&gt;
+&lt;p class=&quot;name&quot;&gt;&lt;a name=&quot;n1&quot;&gt;&lt;/a&gt;A-Aku Tulikovich&lt;/p&gt;
+&lt;p class=&quot;cont&quot;&gt;\r\nRodilsia\xa0v 1913 g.'&lt;/p&gt;
+</pre>
+<p>Still not perfect. Python did not convert the special character &#8216;\xa0&#8242; that signifies a <span class="tech">non-breaking space</span>. But with the transliteration dictionary, any characters that pop up can just be added to the dictionary and they will be converted. First we need to find out what that character is. We could search for it on the Internet or we can just print it:</p>
+<pre class="brush: python; title: ; notranslate" title="">
+#let's find out what u'\xa0' is
+print u'\xa0'
+
+#it's not nothing but a non-breaking space
+#it would be better if our transliteration dictionary could change it into a space
+
+cyrillic_translit[u'\xa0'] = ' '
+</pre>
+<p>With this fix, all the Cyrillic and special characters are gone, making it much easier to read the file and deal with it. For the last part of the lesson, we will modify methods used in the lesson &#8220;<a href="http://programminghistorian.org/lessons/intro-to-beautiful-soup" >Intro to Beautiful Soup</a>&#8221; to get a list of transliterated names from the webpage.</p>
+<p><strong>Transliterated List of Names</strong></p>
+<p>There may be cases where it is best to transliterate the entire file but if the goal is to transliterate and extract just a part of the data in the file, it would be best to extract first and transliterate later. That way Python will only transliterate a small part of the file rather than having to loop through the whole of the HTML. Speed is not a huge issue when dealing with a handful of web pages but Memorial&#8217;s site has thousands of pages. The difference between looping through thousands of whole pages and just looping through a small part of each of those pages can add up. But, of course, it would have been anti-climactic to have all the names before the transliteration dictionary and also more difficult for non-Cyrillic readers to understand the rest of the lesson. So now we need to find a way to get just the names from the page. Here is the first bit of HTML from the converted_content string, containing parts of two database entries:</p>
+<pre class="brush: python; title: ; notranslate" title="">
+converted_content[200:1000]
+</pre>
+<p>This code prints out characters 200 to 1000 of the HTML, which happens to include the entire first entry and the beginning of the second:</p>
+<pre class="brush: python; title: ; notranslate" title="">
+u'=&quot;list-right&quot;&amp;gt;\r\n&lt;/li&gt;
+	&lt;li&gt;
+&lt;p class=&quot;name&quot;&gt;&lt;a name=&quot;n1&quot;&gt;&lt;/a&gt;A-Aku Tulikovich&lt;/p&gt;
+&amp;lt;p&lt;/li&gt;
+	&lt;li&gt;class=&quot;cont&quot;&amp;gt;\r\nRodilsia v 1913 g., Kamchatskaia gub., Tigil\'skii r-n, stoibishsha Utkholok; koriak-kochevnik; malogramotnyi; b/p; \r\n\r\n
+Arestovan12 noiabria 1938 g.\r\n
+Prigovoren: Koriakskii okrsud 8 aprelia 1939 g., ob&lt;/li&gt;
+&lt;/ul&gt;
+&amp;nbsp;
+
+v.: po st. 58-2-8-9-10-11 UK RSFSR.\r\n
+Prigovor: 20 let. Opredeleniem Voen
+
+noi kollegii VS SSSR ot 17 oktiabria 1939 g. mera snizhena do 10 let.\r\nReabili
+
+tirovan 15 marta 1958 g. Reabilitirovan opredeleniem Voennoi kollegii VS SSSR\r\
+
+n
+&lt;p class=&quot;author&quot;&gt;Istochnik: Baza dannykh o zhertvakh repressii Kamchatskoi&lt;/p&gt;
+obl.
+&lt;ul&gt;
+	&lt;li&gt;\r\n&lt;/li&gt;
+	&lt;li&gt;
+&lt;p class=&quot;name&quot;&gt;&lt;a name=&quot;n2&quot;&gt;&lt;/a&gt;Aab Avgust Mikhailovich&lt;/p&gt;
+p&amp;gt;
+&lt;p class=&quot;cont&quot;&gt;\r\nRodilsia v 1899 g., Saratovskaia obl., Grimm s.; nemets;&lt;/p&gt;
+obrazovanie nachal\'noe;'
+</pre>
+<p>Each entry includes lots of information: name (last, first and patronymic), date of birth, place of birth, profession, date of arrest, date of sentencing and so on. If we wanted the detailed information about each person, we would have to parse the page ourselves and extract that information using the string manipulation techniques from the lesson &#8220;<a href="http://programminghistorian.org/lessons/manipulating-strings-in-python" >Manipulating Strings in Python</a>.&#8221; However, for just the names it will be quicker to use the HTML parsing module Beautiful Soup. If you have not installed Beautiful Soup, see &#8220;<a href="http://programminghistorian.org/lessons/installing-pip-and-beautiful-soup" >Installing Pip and Beautiful Soup</a>&#8221; and read &#8220;<a href="http://programminghistorian.org/lessons/intro-to-beautiful-soup" >Intro to Beautiful Soup</a>&#8221; for an overview of how this tool works. In the transliterator module, we will load Beautiful Soup and then turn our converted page into a <span class="tech">Beautiful Soup object</span>.</p>
+<pre class="brush: python; title: ; notranslate" title="">
+#load Beautiful Soup
+from bs4 import BeautifulSoup
+
+#convert the page
+converted_soup = BeautifulSoup(converted_content)
+</pre>
+<p>The lesson &#8220;<a href="http://programminghistorian.org/lessons/intro-to-beautiful-soup" >Intro to Beautiful Soup</a>&#8221; teaches how to grab sections of a web page by their tags. But we can also select sections of the page by <span class="tech">attributes</span>, HTML code that modifies elements. Looking at the HTML from this page, notice that the text of our names are enclosed in the tag<br />
+&lt;p class=&#8221;name&#8221;&gt;. The class attribute allows the page&#8217;s <a href="http://www.w3schools.com/css/ target=" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.w3schools.com']);">Cascading Style Sheets</a> (CSS) settings to change the look of all elements that share the &#8220;name&#8221; <span class="tech">class</span> at once. CSS itself is an important tool for web designers. For those interested in learning more on this aspect of CSS, I recommend <a href="http://www.codecademy.com/courses/css-coding-with-style" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.codecademy.com']);" target="_blank">Code Academy&#8217;s</a> interactive lessons in its web fundamentals track. In mining data from the web, though, attributes like class give us a pattern to separate out certain values.</p>
+<p>What we want is to get the elements where the class attribute&#8217;s value is &#8220;name&#8221;. When dealing with most types of attributes, Beautiful Soup can select parts of the page using the same syntax as HTML. The class attribute makes things a little tricky because Python uses &#8220;class&#8221; to define new types of objects. Beautiful Soup gets around this by making us search for class followed by an underscore: <span class="reserved">class_=&#8221;value&#8221;</span>. Beautiful Soup objects&#8217; <span class="reserved">.find_all()</span> method will generate a Python list of Beautiful Soup objects that match the HTML tags or attributes set as <span class="tech">parameters</span>. The method <span class="reserved">.get_text()</span> extracts just the text from Beautiful Soup objects, so <span class="userinput">&#8221;<br />
+&lt;p class=&#8221;name&#8221;&gt;&lt;a name=&#8221;n1&#8243;&gt;&lt;/a&gt;A-Aku Tulikovich&lt;/p&gt;<br />
+&#8220;.get_text()</span> will become &#8220;<span class="var">A-Aku Tulikovich</span> &#8220;. We need to use <span class="reserved">.get_text()</span> on each item in the list, then append it to a new list containing just the names:</p>
+<pre class="brush: python; title: ; notranslate" title="">
+#creating the final names list
+names = []
+
+#creating the list with .find_all() and looping through it
+for entry in converted_soup.find_all(class_=&quot;name&quot;):
+    names.append(entry.get_text())
+</pre>
+<p>To make sure it worked, let&#8217;s check the number of names and then see if they look like we expect:</p>
+<pre class="brush: python; title: ; notranslate" title="">
+#check the number of names
+len(names)
+
+&gt; 190
+
+#see the first twenty names in the list
+names[:20]
+
+&gt; [u'A-Aku Tulikovich ', u'Aab Avgust Mikhailovich', u'Aab Avgust Khristianovich', u'Aab Aleksandr Aleksandrovich', u&quot;Aab Aleksandr Khrist'ianovich&quot;, u&quot;Aab Al'bert Viktorovich&quot;, u&quot;Aab Al'brekht Aleksandrovich&quot;, u'Aab Amaliia Andreevna', u'Aab Amaliia Ivanovna', u'Aab Angelina Andreevna', u'Aab Andrei Andreevich', u'Aab Andrei Filippovich', u'Aab Arvid Karlovich', u&quot;Aab Arnol'd Aleksandrovich&quot;, u'Aab Artur Avgustovich', u&quot;Aab Artur Vil'gel'movich&quot;, u&quot;Aab Aelita Arnol'dovna&quot;, u'Aab Viktor Aleksandrovich', u'Aab Viktor Aleksandrovich', u&quot;Aab Viktor Vil'gel'movich&quot;]
+</pre>
+<p>The &#8216;u&#8217; in front of each of the names indicates that they are <span class="tech">unicode objects</span> in Python, not <span class="tech">strings</span>. But when Python needs a string, it will automatically change any unicode to be a string if it only uses ASCII characters or else throw a &#8220;unicodedecode error&#8221;. Fortunately, because we have transliterated all the Cyrillic characters, this list fits Python&#8217;s needs. If we had not parsed the transliterated page, that would be easy to handle with the transliterate function from earlier. All it would take is to use the transliterate function on the text from each item in the list before appending it to the final list.</p>
+<p>Transliteration can only do so much. Except for proper names, it can tell you little about the content of the source being transliterated. Yet the ability to transliterate automatically is of great use when dealing with lots of names or for people who prefer or need to use ASCII characters. It is a simple tool but one that can be an enormous time saver.</p>
+
+                          <footer>
+                                          <div class="author-info">
+                          <p class="author-name">About Seth Bernstein</p>
+                           <div class="author-description"><p>Seth Bernstein is a postdoctoral fellow at the Higher School of Economics in Moscow. His defended his doctoral dissertation, "Communist Upbringing under Stalin: The Political Socialization and Militarization of Soviet Youth, 1934-1941" at the University of Toronto in 2013.</p>
+</div>
+                        </div>
+                                </footer>
+            
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div id="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/lessons/transliterating#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://programminghistorian.org/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='2186' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="47fd149c52" /></p><script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="54"/></p>
+</form>
+
+</div>
+
+
+            
+            </div>
+
+
+                      </article>
+                
+<ul class="navigation pager">
+</ul><!-- .navigation -->
+        
+            </div>
+<footer role="contentinfo">
+<div class="additional"><ul id="menu-main-menu-1" class="additional"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div><p><em>The Programming Historian</em> released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+
+  <p id="logos"><a href="http://niche-canada.org/" id="niche"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/niche.jpg" title="NiCHE"></a> <a href="http://chnm.gmu.edu" id="rrchnm"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/rrchnm.png"></a></p>
+</footer>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c'></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body>
+</html>

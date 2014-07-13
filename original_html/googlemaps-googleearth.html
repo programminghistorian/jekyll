@@ -1,0 +1,422 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>The Programming Historian</title>
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css">
+
+    <!-- Modernizr and Friends -->
+    <script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script>
+    <script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script>
+  
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="The Programming Historian &raquo; Intro to Google Maps and Google Earth Comments Feed" href="http://programminghistorian.org/lessons/googlemaps-googleearth/feed" />
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://programminghistorian.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Transliterating non-ASCII characters with Python' href='http://programminghistorian.org/lessons/transliterating' />
+<link rel='next' title='Installing QGIS 2.0 and Adding Layers' href='http://programminghistorian.org/lessons/qgis-layers' />
+<meta name="generator" content="WordPress 3.9.1" />
+<link rel='canonical' href='http://programminghistorian.org/lessons/googlemaps-googleearth' />
+<link rel='shortlink' href='http://programminghistorian.org/?p=2232' />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+</head>
+<body class="single single-lesson postid-2232">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header role="banner">
+      <h1><a href="http://programminghistorian.org">The Programming Historian</a></h1>
+<div class="additional"><ul id="menu-main-menu" class="additional"><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div>  </header>
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+
+
+  <div role="main">
+      
+                <article>
+            <header>
+                                <p class="kicker">December 13, 2013</p>
+                
+                <h1><a href="http://programminghistorian.org/lessons/googlemaps-googleearth">Intro to Google Maps and Google Earth</a></h1>
+                                <p class="byline">By Jim Clifford, Josh MacFadyen, Daniel Macfarlane</p>
+                
+                                  <ul class="credits">
+
+                                        <li class="technical-reviewer">Technical Reviewer: Finn Arne J&oslash;rgensen, Sarah Simpkin</li>
+                    
+                                        <li class="literary-reviewer">Literary Reviewer: Adam Crymble                    
+                    
+                  </ul>
+                            </header>
+            <div class="content">
+
+            <h3>Google Maps</h3>
+<p>Google Maps and Google Earth provide an easy way to start creating digital maps. With a Google Account you can create and edit personal maps by clicking on My Places. In the new Google Maps interface, click on the gear menu [icon] at the upper right of the menu bar, and select My Places. The new (as of summer 2013) interface provides a new way of creating custom maps: <a href="https://mapsengine.google.com" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://mapsengine.google.com']);" target="_blank">Google Maps Engine Lite</a> allows users to import and add data onto the map to visualize trends.</p>
+<p>In Maps Engine Lite you can choose between several different base maps (including the standard satellite, terrain, or standard maps) and add points, lines and polygons. It is also possible to import data from a spreadsheet, if you have columns with geographical information (i.e. longitudes and latitudes or place names). This automates a formerly complex task known as geocoding. Not only is this one of the easiest ways to begin plotting your historical data on a map, but it also has the power of Google’s search engine. As you read about unfamiliar places in historical documents, journal articles or books, you can search for them using Google Maps. It is then possible to mark numerous locations and explore how they relate to each other geographically. Your personal maps are saved by Google (in their cloud), meaning you can access them from any computer with an internet connection. You can keep them private or embed them in your website or blog. Finally, you can export your points, lines, and polygons as KML files and open them in Google Earth or Quantum GIS.</p>
+<p><strong>Getting Started:</strong></p>
+<ul>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Open your favorite</span><span style="line-height: 1.714285714; font-size: 1rem;"> browser</span></li>
+<li>Go to Google’s <a href="https://mapsengine.google.com" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://mapsengine.google.com']);" target="_blank">Maps Engine Lite</a>: <a href="https://mapsengine.google.com/map/?gmp=mpp" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://mapsengine.google.com']);" target="_blank" rel="nofollow">https://mapsengine.google.com/map/?gmp=mpp</a></li>
+<li>Log in to your Google Account if you aren’t already logged in (follow the basic instructions to create an account if necessary)</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2262" alt="geo1" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo1.png" width="749" height="566" /><br />
+<figcaption>Figure 1</figcaption></figure>
+<ul>
+<li>Select Take a Tour at the bottom right for an introduction to how Maps Engine Lite works</li>
+<li>The Tour will first prompt you to Click New Map</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2263" alt="geo2" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo2.png" width="380" height="333" /><br />
+<figcaption>Figure 2</figcaption></figure>
+<ul>
+<li>At the upper left corner, a menu box appears, titled &#8216;Untitled Map&#8217;. By clicking on the title you can rename as &#8216;My test map&#8217; or a title of your choice.</li>
+<li>The Tour next prompts you to search for a place in the search bar. Try searching the location of your current research project. You can then click on the location and add it to your map by clicking &#8216;add to map&#8217;. This is the simplest method of adding points to your new map. Try searching for some historical place names that no longer exist (Ontario&#8217;s Berlin or Constantinople). You will find mixed results, where Google often identifies the correct location, but also offers up incorrect alternatives. This is important to keep in mind when creating spreadsheet, as it is normally better to use the modern place names and avoid risking that Google with choose the wrong Constantinople.</li>
+<li>CLICK NEXT on the Google Maps Tour.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2264" alt="geo3" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo3.png" width="518" height="236" /><br />
+<figcaption>Figure 3</figcaption></figure>
+<figure><img class="alignnone size-full wp-image-2265" alt="geo4" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo4.png" width="495" height="437" /><br />
+<figcaption>Figure 4</figcaption></figure>
+<ul>
+<li>The Tour next prompts you to Import a Dataset. Click the ADD Layer button. Then click the Import.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2266" alt="geo5" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo5.png" width="797" height="279" /><br />
+<figcaption>Figure 5</figcaption></figure>
+<ul>
+<li>A new window will pop up and give you the option of importing a CSV (comma separated value) or XLXS (Microsoft Excel) file. These are two common spreadsheet formats; CSV is simple and universal, XLXS is the MS Excel format. You can also work with a Google spreadsheet from your Drive account.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2267" alt="geo6" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo6.png" width="1062" height="666" /><br />
+<figcaption>Figure 6</figcaption></figure>
+<ul>
+<li>Download this sample data and located it on your computer: <a href="https://www.dropbox.com/s/7xv11vd7dz2afud/UK%20Global%20Fat%20Supply%201894-1896%20-%20Sheet1.csv" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.dropbox.com']);">UK Global Fat Supply CSV file</a>. If you open the file in Excel or another spreadsheet program, you’ll find a simple two column dataset with a list of different kinds of fats and the associated list of places. This data was created using British import tables from 1896.</li>
+</ul>
+<figure><a href="http://geospatialhistorian.files.wordpress.com/2013/02/spreadsheetimage.png"><img class="alignnone size-full wp-image-2268" alt="geo7" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo7.png" width="315" height="549" /><br />
+</a> <figcaption>Figure 7</figcaption></figure>
+<ul>
+<li>Drag the file into the box provided by Google Maps.</li>
+<li>You will then be promted to choose which column Google should use to identify a the location. Choose Place.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2269" alt="geo8" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo8.png" width="504" height="278" /></p>
+<figure>Figure 8</figure>
+</figure>
+<ul>
+<li>You will then be promoted again to choose which column should be used for the label. Choose &#8216;Commodity&#8217;.</li>
+<li>You should now have a global map of the major exporters of fat to Britain during the mid-1890s.</li>
+</ul>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/geo9.png" ><img class="alignnone size-medium wp-image-2252" alt="geo9" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo9-300x120.png" width="300" height="120" /></a><br />
+<figcaption>Figure 9. Click to see full size image</figcaption></figure>
+<ul>
+<li>You can now explore the data in more detail and change the Style to distinguish between the different types of fats.</li>
+<li>Click on the UK Global Fats Layer, then click on Style and finally click on Uniform Style and change it to Style by Data Column: Commodities. On the left hand side, the legend will show the amount of occurrences of each style in brackets, e.g. &#8216;Flax Seeds (4)&#8217;.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2253" alt="geo10" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo10.png" width="273" height="153" /><br />
+<figcaption>Figure 10</figcaption></figure>
+<figure><img class="alignnone size-full wp-image-2254" alt="geo11" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo11.png" width="270" height="465" /><br />
+<figcaption>Figure 11</figcaption></figure>
+<ul>
+<li>Continue to play with the options.</li>
+<li>This feature provides a powerful tool to display historical datasets. It does have limitations, however, as Google Maps will only import the first 100 rows of a spreadsheet. At this point it only allows you to include three datasets in a map, so a maximum of 300 features.</li>
+</ul>
+<ul>
+<li>When you are done exploring this feature <strong>click Next</strong> on the Google Tour. (Note: The Google tour crashed a few times while we created this lesson. It is possible to go back to the beginning to start a new Tour. Feel free to skip through the Import Data section if the Tour crashes at this point.)</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2255" alt="geo12" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo12.png" width="836" height="357" /><br />
+<figcaption>Figure 12</figcaption></figure>
+<p><strong>Creating Vector Layers</strong></p>
+<p>At this stage of the tutorial, we create map layers (known more formally as vector layers). <span style="line-height: 14px;">Vector layers are one of the main components of digital mapping (including GIS). They are simply points, lines, or polygons used to represent geographic features. Points can be used to identify and label key locations, lines are often used for streets or railroads, and polygons allow you to represent area (fields, buildings, city wards, etc). They work the same in Google Maps as they do in GIS. The big limitation is that you can only add limited information into the database tables associated with the points, lines, or polygons. This is a problem as you scale up your digital mapping research, but it is not a problem when you are starting out. In Google Maps you can add a label, a text description, and links to a website or photo. More information about creating historical vectors in a full GIS is available in <a href="/wp-admin/post.php?post=2309&amp;action=edit">Creating New Vector Layers in QGIS 2.0</a>.</span></p>
+<ul>
+<li>To add a layer, you can either click on the layer that has been created for you in the menu box, with the name &#8216;Untitled Layer&#8217;. Click on &#8216;Untitled Layer&#8217; and rename it &#8216;Layer 1&#8242;. Or you can create another layer: click on the &#8216;Add layer&#8217; button. This will add a new &#8216;Untitled Layer&#8217; which you can name as &#8216;Layer 2&#8242;. It should look like this:</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2256" alt="geo13" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo13.png" width="772" height="335" /> <figcaption>Figure 13</figcaption></figure>
+<ul>
+<li>Note that to the right of Layer there is a checkbox – unchecking this box turns off (i.e. it doesn’t appear on the map) a layer and its information. Uncheck the UK Global Fats layer and click on Layer 1.</li>
+<li>Before adding vector layers we should consider which base map to use. At the bottom of the menu window, there is a line that says &#8216;base map&#8217;. A base map is a map<em></em> depicting background reference information such as roads, borders, landforms, etc. on top of which layers containing different types of spatial information can be placed. Google&#8217;s Maps Engine allows you to choose from a variety of base maps, depending on the kind of map you want to create. Satellite imagery is becoming a standard form of base map, but it is information-rich and may detract from the other map features you are trying to highlight. Some simple alternatives include &#8216;light landmass&#8217;, or even &#8216;light political&#8217; if you require political boundaries.</li>
+<li>Click on the arrow to the right of &#8216;Base map&#8217; in the window; a submenu appears allowing you to choose different types of base maps. Choose &#8216;Satellite&#8217;.</li>
+</ul>
+<ul>
+<li><span style="line-height: 14px;">Start by adding some Placemarks (the Google equivalent of a point). Click on the add Markers button underneath the search bar near the top of the window. Click on the spot on the map where you want the Placemark to appear.</span></li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2257" alt="geo14" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo14.png" width="67" height="53" /><br />
+<figcaption>Figure 14</figcaption></figure>
+<ul>
+<li>A box will pop up and give you the opportunity to label the Placemark and add a description into the text box. We added Charlottetown and included that it was founded in 1765 in the description box.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2258" alt="geo15" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo15.png" width="614" height="435" /><br />
+<figcaption>Figure 15</figcaption></figure>
+<ul>
+<li>Add a few more points, including labels and descriptions.</li>
+</ul>
+<ul>
+<li>You will notice that your Placemark now appears under Layer 1 on the left of the screen in your menu window. There is a place to change icon shape and icon colour if you click on the symbol just to the right of the Placemark name. Also, directly under the title Layer 1 there are menus titled Style, Data, and Labels. The Style menu controls different aspects of the Layer’s appearance, while Data shows you the data you added in the description box for your Placemark. Labels menu allows you to control whether the name or description of your Placemark appears besides it on the actual map.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2270" alt="geo16" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo16.png" width="341" height="368" /><br />
+<figcaption>Figure 16</figcaption></figure>
+<ul>
+<ul>
+<li>Now we will add some lines and shapes (called polygons in GIS software). Adding lines and polygons is a very similar process. We will draw some lines in a new layer (different types of points, lines, and shapes should be in separate layers).</li>
+<li>Select Layer 2 in your menu box (you will know which layer you have selected because of the blue outline on the left of the box).</li>
+<li>Click the &#8216;add line or shape&#8217; icon box directly to the right of the Markers symbol:<br />
+<figure><img class="alignnone size-full wp-image-2244" alt="geo17" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo17.png" width="58" height="49" /><br />
+<figcaption>Figure 17</figcaption></figure>
+</li>
+<li>Pick a road and click with your mouse along it, tracing the route for a while. Hit “enter” when you want to finish the line.</li>
+</ul>
+</ul>
+<p>Figure 16</p>
+<ul>
+<li>Again you can add a label (i.e. name a road) and description information.</li>
+<li>You can also change the colour and width of the line. To do this, find the road you have drawn in Layer 2 in the menu box, and click to the right of the name of the road.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2245" alt="geo18" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo18.png" width="283" height="189" /><br />
+<figcaption>Figure 18</figcaption></figure>
+<ul>
+<li>To create a polygon (a shape) you can connect the dots of the line to create an enclosed formation. To do this, start drawing and finish by clicking on the first point in your line. You can create simple shapes, such as a farmer’s field, or much more complex shapes, such as the outline of a city (see examples below). Feel free to experiment with creating lines and polygons.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2246" alt="geo19" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo19.png" width="386" height="335" /><br />
+<figcaption>Figure 19</figcaption></figure>
+<figure><img class="alignnone size-full wp-image-2247" alt="geo20" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo20.png" width="825" height="619" /><br />
+<figcaption>Figure 20</figcaption></figure>
+<ul>
+<li>Like placemarks and lines, you can change the name and description of a polygon. You can also change the colour and line width by clicking on the icon to the right of your polygon name in the menu box. Here you can also change the transparency, which is discussed immediately below.</li>
+<li>Note that the area bounded (i.e. inside) a polygon is shaded the same colour as the polygon outline. You can change the opaqueness of this shading by changing the &#8216;transparency&#8217; which alters the extent to which you can clearly see the background image (your base map).</li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Now you can <strong>click Next</strong> on the Google Tour</span></li>
+<li>The tour will again show you how to Change the colour and style of your points, lines and polygons</li>
+<li><strong>Click Next</strong> on the Google Tour.</li>
+<li>The Tour will remind you how to click on layers to hid them or add them back on the map. Try adding the UK Global Fats layer again and zoom between your global and local data points.</li>
+<li><strong>Click Next</strong> on the Google Tour.</li>
+</ul>
+<p><strong>Share your custom map</strong></p>
+<ul>
+<li>The best way to share the map online is by using the green <b>Share</b> button in the top right corner. This provides a link which can be share in an email or through social media like G+, Facebook, or Twitter.</li>
+<li>Another way to share a dynamic version of your map is to embed it in a blog or website using the “embed on my website” option under the <strong>Save</strong> menu. Selecting this option provides an inline frame or &lt;iframe&gt; tag that you can then insert into an HTML site. You can modify the height and width of the frame by changing the numbers in quotation marks.</li>
+<li>Note: there is currently (as of summer 2013) no way to set the default scale or legend options of the embedded map, but if you need to eliminate the legend from the map that appears on your HTML site you can do so by reducing the width if the &lt;iframe&gt; to 580 or less.</li>
+<li>You can also export the data as a KML file. It will give you the option to export the whole map or to select one layer in particular. Try exporting the UK Global Fats layer as a KML layer. You’ll be able to import this data into other programs, including Google Earth and Quantum GIS. This is an important feature, as it means you can start working with digital maps using Google Map and still export your work into a GIS database in the future.</li>
+<li>You can stop the lesson here if you think this free Google Map service provides all the tools you need for your research topic. Or you can keep going and learn about Google Earth and in lesson 2, Quantum GIS.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2248" alt="geo21" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo21.png" width="284" height="220" /><br />
+<figcaption>Figure 21</figcaption></figure>
+<p><img class="alignnone size-full wp-image-2249" alt="geo22" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo22.png" width="534" height="208" /></p>
+<figure><figcaption>Figure 22</figcaption></figure>
+<h3>Google Earth</h3>
+<p>Google Earth works in much the same way as Google Maps Engine Lite, but has additional features. For example, it provides 3-D maps and access to data from numerous third party sources, including collections of historical maps. Google Maps doesn’t require you to install software and your maps are saved in the cloud. Google Earth requires software installation and is not cloud-based, though maps you create can be exported.</p>
+<ul>
+<li><span style="line-height: 14px;">Install Google Earth: <a href="http://www.google.com/earth/index.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.google.com']);" target="_blank">http://www.google.com/earth/index.html</a></span></li>
+<li>Open the program and familiarize yourself with the digital globe. Use the menu to add and remove layers of information. This is very similar to how more advanced GIS programs work. You can add and remove different kinds of geographical information including Political Boundaries (polygons), Roads (lines), and Places (points). See the red arrows in the following image for the location of these layers.</li>
+</ul>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/geo23.png" ><img class="alignnone size-medium wp-image-2259" alt="geo23" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo23-296x300.png" width="296" height="300" /></a><br />
+<figcaption>Figure 23: Click to see full-size image.</figcaption></figure>
+<ul>
+<ul>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">Note that under the &#8216;Layer&#8217; heading on the lower left side of the window margin, Google provides a number of ready-to-go layers that can be turned on by selecting the corresponding checkbox.</span></li>
+</ul>
+</ul>
+<figure><img class="alignnone size-full wp-image-2271" alt="geo24" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo24.png" width="332" height="352" /><br />
+<figcaption>Figure 24</figcaption></figure>
+<ul>
+<li>Google Earth also contains some scanned historical maps and aerial photographs (in GIS these types of maps, which are made up of pixels, are known as raster data). Under Gallery you can find and click Rumsey Historical Maps. This will add icons all over the globe (with a concentration in the United States) of scanned maps that have been georeferenced (stretched and pinned to match a location) onto the digital globe. This previews a key methodology in historical GIS. (You can also find historical map layers and other HGIS layers in the Earth Gallery). Take some time to explore a number of historical maps. See if there are any maps included in the Rumsey Collection that might be useful for your research or teaching. (You can find many more digitized, but not georeferenced maps at <a href="http://www.davidrumsey.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.davidrumsey.com']);">www.davidrumsey.com</a>.)</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2237" alt="geo25" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo25.png" width="279" height="529" /><br />
+<figcaption>Figure 25</figcaption></figure>
+<ul>
+<li><span style="line-height: 14px;">You might need to zoom in to see all of the Map icons. Can you find the World Globe from 1812?</span></li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2238" alt="geo26" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo26.png" width="450" height="214" /><br />
+<figcaption>Figure 26</figcaption></figure>
+<ul>
+<li><span style="line-height: 14px;">Once you click on an icon an information panel pops up. Click on the map thumbnail to see the map tacked onto the digital globe. We will learn to properly georeference maps in <a href="/lessons/georeferencing-qgis">Georeferencing in QGIS 2.0</a>.</span></li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2239" alt="geo27" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo27.png" width="581" height="535" /></figure>
+<p>Figure 27</p>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/geo28.png" ><img class="alignnone size-medium wp-image-2240" alt="geo28" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo28-300x277.png" width="300" height="277" /></a> <figcaption>Figure 28: Click to see full-size image</figcaption></figure>
+<h3>KML: Keyhole Markup Language files</h3>
+<ul>
+<li>Google developed a file format to save and share map data: KML. This stands for Keyhole Markup Language, and it is a highly portable type of file (i.e. a KML can be used with different types of GIS software) that can store many different types of GIS data, including vector data.</li>
+<li>Maps and images you create in Google Maps and Google Earth can be saved as KML files This means you can save work done in Google Maps or Google Earth. With KML files you can transfer data between these two platforms and bring your map data into Quantum GIS or ArcGIS.</li>
+<li>For example, you can import the data you created in Google Maps Engine Lite. If you created a map in the exercise above, it can be found by clicking “Open Map” on the <a href="https://mapsengine.google.com/map/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://mapsengine.google.com']);" target="_blank">Maps Engine Lite</a> home page. Click on the folder icon on the left hand side of the legend beneath the map title and click “export to KML”. (You can also download and explore Dan Macfarlane’s <a href="https://maps.google.ca/maps/ms?ie=UTF8&amp;hl=en&amp;t=h&amp;source=embed&amp;authuser=0&amp;msa=0&amp;output=kml&amp;msid=205929035855498240131.00049c08869a03cc5ea0d" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://maps.google.ca']);" target="_blank">Seaway map</a> for this part of the exercise).</li>
+</ul>
+<p><strong>Bringing your KML file into Google Earth</strong></p>
+<ul>
+<li>Download the KML file from Google Maps Engine Lite (as described above).</li>
+<li>Double click on the KML file in your Download folder.</li>
+<li>Find the data in the Temporary Folder in Google Earth.</li>
+</ul>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/geo29.png" ><img class="alignnone size-medium wp-image-2242" alt="geo29" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo29-300x129.png" width="300" height="129" /></a><br />
+<figcaption>Figure 29: Click to see full-size image</figcaption></figure>
+<ul>
+<li>You can now explore these map features in 3D, or you can add new lines, points and polygons using the various icons along the top left of your Google Earth window (see image below). This works in essentially the same way as it did for Google Maps, although there is more functionality and options. In Dan’s Seaway map, the old canals and current Seaway route were traced in different line colours and widths using the line feature (this was made possible by overlaying historical maps, which is described below), while various features were marked off with appropriate Placemarks. For those so inclined, there is also the option of recording a tour that could be useful for presentations or teaching purposes (when the “record a tour” icon is selected, recording options will show up on the bottom left of the window).</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2250" alt="geo30" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo30.png" width="452" height="70" /><br />
+<figcaption>Figure 30</figcaption></figure>
+<ul>
+<li><span style="line-height: 14px;">Try adding a new feature to Dan’s Seaway data. We’ve created a polygon (in GIS terminology a polygon is a closed shape of any type – a circle, hexagon, and square are all examples) of Lake St. Clair in the next image. Find Lake St. Clair (east of Detroit) and try adding a polygon.</span></li>
+</ul>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/geo31.png" ><img class="alignnone size-medium wp-image-2260" alt="geo31" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo31-300x173.png" width="300" height="173" /></a><br />
+<figcaption>Figure 31: Click to see full-size image.</figcaption></figure>
+<figure><img class="alignnone size-full wp-image-2272" alt="geo32" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo32.png" width="450" height="248" /> <figcaption>Figure 32</figcaption></figure>
+<ul>
+<li><span style="line-height: 14px;">Label the new feature Lake St. Clair. You can then drag the new feature onto Dan’s Seaway data and add it to the collection. You can then save this expanded version of the Seaway map as a KML to share via email, upload into Google Maps, or to export this data into QGIS. Find the save option by right-clicking on the Seaway collection and choose Save Place As or Email.</span></li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2234" alt="geo33" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo33.png" width="349" height="223" /><br />
+<figcaption>Figure 33</figcaption></figure>
+<figure><img class="alignnone size-full wp-image-2235" alt="geo34" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo34.png" width="273" height="341" /><br />
+<figcaption>Figure 34</figcaption></figure>
+<figure><img class="alignnone size-full wp-image-2236" alt="geo35" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo35.png" width="276" height="368" /><br />
+<figcaption>Figure 35</figcaption></figure>
+<p><strong>Adding Scanned Historical Maps</strong><br />
+Within Google Earth, you can upload a digital copy of a historical map. This could be a map that has been scanned, or an image obtained that is already in a digital format (for tips on finding historical maps online see: <a title="Mobile Mapping and Historical GIS in the Field" href="http://niche-canada.org/node/10239" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://niche-canada.org']);" target="_blank">Mobile Mapping and Historical GIS in the Field</a>). The main purpose for uploading a digital map, from a historical perspective, is to place it over top of a Google Earth image in the browser. This is known as an overlay. Performing an overlay allows for useful comparisons of change over time.</p>
+<ul>
+<li>Start by identifying the images you want to use: the image within Google Earth, and the map you want to overlay with. For the map you want to overlay, the file can be in JPEG or TIFF format, but not PDF.</li>
+<li>Within Google Earth, identify the area of the map you want to overlay. Note that you can go back in time (i.e. look at older satellite photos) by clicking on the &#8216;Show historical imagery&#8217; icon on the top toolbar. and then adjusting the time-scale slider that will appear.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2241" alt="geo36" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo36.png" width="34" height="22" /><br />
+<figcaption>Figure 36</figcaption></figure>
+<figure><img class="alignnone size-full wp-image-2243" alt="geo37" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo37.png" width="377" height="167" /><br />
+<figcaption>Figure 37</figcaption></figure>
+<ul>
+<li>Once you have identified the images you plan to use, click on the &#8216;Add Image Overlay&#8217; icon on the top toolbar.<br />
+<figure><img class="alignnone size-full wp-image-2251" alt="geo38" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo38.png" width="31" height="20" /><br />
+<figcaption>Figure 38</figcaption></figure>
+</li>
+</ul>
+<ul>
+<li>A new window will appear. Begin by giving it a different title if you wish (the default is &#8216;Untitled Image Overlay&#8217;).</li>
+</ul>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/geo39.png" ><img class="alignnone size-medium wp-image-2261" alt="geo39" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo39-300x145.png" width="300" height="145" /></a><br />
+<figcaption>Figure 39: Click to see full-size image.</figcaption></figure>
+<ul>
+<li>To the right of the Link field, click the Browse button to select from your files the map you wish to be the overlaying image.</li>
+<li>Move the New Image Overlay window out of the way (don’t close it or click “Cancel” or “OK”) so that you can see the Google Earth browser. The map you uploaded will now appear over top of the Google Earth satellite image in the Google Earth browser.</li>
+<li>There are fluorescent green markers in the middle and at the edges of the uploaded map. These can be used to stretch, shrink, and move the map so that it aligns properly with the satellite image. This is a simple form of georeferencing (see href=&#8221;/lessons/georeferencing-qgis&#8221;&gt;Georeferencing in QGIS 2.0). The image below shows the above steps using an old map of the town of Aultsville overlaid on top of Google satellite imagery from 2008 in which the remains of the town’s roads and building foundations in the St. Lawrence River are visible (Aultsville was one of the Lost Villages flooded out by the St. Lawrence Seaway and Power Project).<strong><br />
+</strong></li>
+</ul>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/geo40.png" ><img class="alignnone size-medium wp-image-2273" alt="geo40" src="http://programminghistorian.org/wp-content/uploads/2013/12/geo40-300x217.png" width="300" height="217" /></a><br />
+<figcaption>Figure 40: Click to see full-size image.</figcaption></figure>
+<ul>
+<li>Back in the New Image Overlay window, note that there are a range of options (Description, View, Altitude, Refresh, Location) that you can select. At this point, you likely don’t need to worry about these, although you may wish to add information under the Description tab.</li>
+<li>Once you are satisfied with your overlay, in the New Image Overlay window click on OK in the bottom right corner.</li>
+<li>You will want to save your work. Under File on your computer’s menu bar, you have two options. You can save a copy of the image (File -&gt; Save -&gt; Save Image…) you have created to your computer in jpg format, and you can also save the overlay within Google Earth so that it can be accessed in the future (File -&gt; Save -&gt; Save My Places). The latter is saved as a KML file.</li>
+<li>To share KML files simply locate the file you saved to your computer and upload it to your website, social media site, or send it as an email attachment.</li>
+</ul>
+<p><strong>You have learned how to use Google Maps and Earth. Make sure you save your work!</strong></p>
+<p><em>This lesson is part of the <a href="http://geospatialhistorian.wordpress.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://geospatialhistorian.wordpress.com']);" target="_blank">Geospatial Historian</a>.</em></p>
+
+                          <footer>
+                                          <div class="author-info">
+                          <p class="author-name">About Jim Clifford, Josh MacFadyen, Daniel Macfarlane</p>
+                           <div class="author-description"><p>Jim Clifford is an assistant professor in the Department of History at the University of Saskatchewan. Josh MacFadyen is a Project Coordinator at the Network in Canadian History & Environment. Daniel Macfarlane is a Visiting Scholar in the School of Canadian Studies at Carleton University.</p>
+</div>
+                        </div>
+                                </footer>
+            
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div id="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/lessons/googlemaps-googleearth#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://programminghistorian.org/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='2232' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="b188f9611d" /></p><script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="56"/></p>
+</form>
+
+</div>
+
+
+            
+            </div>
+
+
+                      </article>
+                
+<ul class="navigation pager">
+  <li class="next">
+<p class="kicker">Next</p>
+<a href="http://programminghistorian.org/lessons/qgis-layers">Installing QGIS 2.0 and Adding Layers</a></ul><!-- .navigation -->
+        
+            </div>
+<footer role="contentinfo">
+<div class="additional"><ul id="menu-main-menu-1" class="additional"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div><p><em>The Programming Historian</em> released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+
+  <p id="logos"><a href="http://niche-canada.org/" id="niche"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/niche.jpg" title="NiCHE"></a> <a href="http://chnm.gmu.edu" id="rrchnm"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/rrchnm.png"></a></p>
+</footer>
+</body>
+</html>

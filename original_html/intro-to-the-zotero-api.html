@@ -1,0 +1,303 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>The Programming Historian</title>
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css">
+
+    <!-- Modernizr and Friends -->
+    <script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script>
+    <script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script>
+  
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','amanda-morton',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="The Programming Historian &raquo; Intro to the Zotero API Comments Feed" href="http://programminghistorian.org/lessons/zotero-api/intro-to-the-zotero-api/feed" />
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://programminghistorian.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Creating New Items in Zotero' href='http://programminghistorian.org/lessons/zotero-api/creating-new-items-in-zotero' />
+<link rel='next' title='Using the Zotero API' href='http://programminghistorian.org/lessons/zotero-api' />
+<meta name="generator" content="WordPress 3.9.1" />
+<link rel='canonical' href='http://programminghistorian.org/lessons/zotero-api/intro-to-the-zotero-api' />
+<link rel='shortlink' href='http://programminghistorian.org/?p=1655' />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+</head>
+<body class="single single-lesson postid-1655">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header role="banner">
+      <h1><a href="http://programminghistorian.org">The Programming Historian</a></h1>
+<div class="additional"><ul id="menu-main-menu" class="additional"><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div>  </header>
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+
+
+  <div role="main">
+      
+                <article>
+            <header>
+                                <p class="kicker">April 1, 2013</p>
+                
+                <h1><a href="http://programminghistorian.org/lessons/zotero-api/intro-to-the-zotero-api">Intro to the Zotero API</a></h1>
+                                <p class="byline">By Amanda Morton</p>
+                
+                                  <ul class="credits">
+
+                    
+                                        <li class="literary-reviewer">Literary Reviewer: Fred Gibbs                    
+                    
+                  </ul>
+                            </header>
+            <div class="content">
+
+            <h2>Lesson Goals</h2>
+<p>In this lesson, you&#8217;ll learn how to use python with the Zotero API to interact with your Zotero library. The Zotero API is a powerful interface that would allow you to build a complete Zotero client from scratch if you so desired. But like most APIs, it works in small, discrete steps, so we have to build our way up to the complicated requests we might want to use to access our Zotero libraries. But this incremental building gives us plenty of time to learn as we go along.</p>
+<h3>What is Zotero?</h3>
+<p>Zotero is a browser-based research tool that allows you to collect and store content. If you are new to Zotero or do not regularly use it, you may want to familiarize yourself with the <a href="http://zotero.org" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://zotero.org']);">Zotero</a> site and its helpful <a href="https://www.zotero.org/support/quick_start_guide" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.zotero.org']);">Quick Start Guide</a>. Additionally, while you will not need it for this introductory lesson, we advise that you download the current version of the <a href="https://github.com/fcheslack/libZotero" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);">libZotero GitHub library</a> and store it in the directory you have chosen to use for these lessons.</p>
+<h3>Installing libZotero</h3>
+<p>Using what you learned in <a href="lesson-1-1-introduction-and-installation">Lesson 1.1</a>, and the lesson on Python modules, we&#8217;ll use <a href="”http://www.pip-installer.org/en/latest/”" >pip</a> to install libZotero, a python library that will allow us to interact with the Zotero API. To install the library, in your command line/terminal window enter:</p>
+<pre class="brush: plain; title: ; notranslate" title=""> pip install libZotero </pre>
+<p>Remember that you may need to use the sudo preface and enter your password to allow the installation to proceed.</p>
+<h3>Zotero Hello World</h3>
+<p>Once libZotero is installed, we can use it to talk to the Zotero server using Python. In your text editor, run the following:</p>
+<pre class="brush: python; title: ; notranslate" title=""> #make the libZotero library available
+from libZotero import zotero </pre>
+<p>Once we&#8217;ve successfully imported the name zotero from the library, we can create and define a Zotero library &#8220;object&#8221; (zlib, in this example), which will be our means of creating a request for the Zotero server and returning its data. When we create the library object we will need to specify whether we&#8217;re accessing an individual or group library and include the Zotero library&#8217;s ID number. Depending on the type of library we&#8217;re accessing and the things we plan to do with it, we may also need to include an authentication key, which functions sort of like a password.</p>
+<pre class="brush: python; title: ; notranslate" title=""> #create Zotero library object called &quot;zlib&quot;
+zlib=zotero.Library('group','&lt;insert group ID&gt;','&lt;null&gt;',
+'&lt;insert API key&gt;') </pre>
+<p>For this lesson, you can use your own group or individual library, or you can use the library we&#8217;ve created for this lesson at <a href="https://www.zotero.org/groups/programming_historian_2" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.zotero.org']);">Programming Historian 2</a>.</p>
+<p>If you want to use your own group or individual library, you will need to retrieve your group ID and API key. Your group ID can be found by hovering over the RSS option on your library feed. The ID is the numeric part of the URL. Your group API key, if one has been created, is located in your <a href="https://www.zotero.org/settings/keys" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.zotero.org']);">account settings</a>. If there is no key assigned to the group, and you are the end user, you can create a new key on the same page.</p>
+<p>To use the PH2 group library, use the following:<br />
+Group ID: 155975<br />
+API key: 9GLmvmZ1K1qGAz9QWcdlyf6L</p>
+<pre class="brush: python; title: ; notranslate" title=""> zlib=zotero.Library('group','155975','&lt;null&gt;',
+'9GLmvmZ1K1qGAz9QWcdlyf6L') </pre>
+<p>Once we&#8217;ve defined our object, we can use it to interact with the information in the library.</p>
+<h3>Retrieving Item Information</h3>
+<p>Zotero has parent items and child items. Parents are typically top-level objects with metadata, and children are usually things like notes and file attachments. For this portion of the lesson, we&#8217;ll be pulling information from the first five top-level items in our collection.</p>
+<pre class="brush: python; title: ; notranslate" title=""># retrieve the first five top-level items.
+items = zlib.fetchItemsTop({'limit': 5, 'content': 'json,bib,coins'}) </pre>
+<p>Your output for this step, if you are using our sample collection, should look like this:</p>
+<pre class="brush: xml; title: ; notranslate" title=""> value stored in cache - https://api.zotero.org/groups/155975/items/top?limit=5&amp;content=
+json%2Cbib%2Ccoins&amp;key=9GLmvmZ1K1qGAz9QWcdlyf6L </pre>
+<p>Next, we can print some basic information about these items.</p>
+<pre class="brush: python; title: ; notranslate" title=""> # print some data about these five items
+for item in items:
+print 'Item Type: %s | Key: %s | Title: %s' % (item.itemType,
+item.itemKey, item.title) </pre>
+<p>This step should retrieve the item type (journal article, webpage, etc.), the key, and item title.</p>
+<pre class="brush: xml; title: ; notranslate" title="">
+Item Type: webpage | Key: TK5Z4H9J | Title: Benjamin Bowsey
+Item Type: webpage | Key: 3A2RWZ8A | Title: Y a t-il une
+Histoire Numerique 2.0?
+Item Type: webpage | Key: 79U2EACW | Title: Digitization
+boosts access, collaboration, UCLA prof says
+Item Type: journalArticle | Key: 39V7A2SZ | Title: History
+and the second decade of the Web
+Item Type: journalArticle | Key: JRCM2PM7 | Title: The
+Pasts and Futures of Digital History </pre>
+<p>We can also pull the bibliographic information associated with our first five items:</p>
+<pre class="brush: python; title: ; notranslate" title=""> for item in items:
+    print item.bibContent </pre>
+<p>Running this command will print the bibliographic content stored on the Zotero servers for these items:</p>
+<pre class="brush: xml; title: ; notranslate" title=""> &lt;div class=&quot;csl-bib-body&quot; style=&quot;line-height: 1.35; padding-left: 2em; text-indent:-2em;&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+  &lt;div class=&quot;csl-entry&quot;&gt;“Benjamin Bowsey.” Accessed March 29, 2013. http://www.oldbaileyonline.org/print.jsp?div=t17800628-33.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;csl-bib-body&quot; style=&quot;line-height: 1.35; padding-left: 2em; text-indent:-2em;&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+  &lt;div class=&quot;csl-entry&quot;&gt;Noiret, Serge. “Y a T-il Une Histoire Numerique 2.0?” Contribution to book. Accessed July 21, 2011. http://cadmus.eui.eu/handle/1814/18074.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;csl-bib-body&quot; style=&quot;line-height: 1.35; padding-left: 2em; text-indent:-2em;&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+  &lt;div class=&quot;csl-entry&quot;&gt;Rushton, Tullia. “Digitization Boosts Access, Collaboration, UCLA Prof Says.” &lt;i&gt;Chronicle of Higher Education&lt;/i&gt;, January 20, 2010. http://dukechronicle.com/article/digitization-boosts-access-collaboration-ucla-prof-says.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;csl-bib-body&quot; style=&quot;line-height: 1.35; padding-left: 2em; text-indent:-2em;&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+  &lt;div class=&quot;csl-entry&quot;&gt;Cohen, Daniel J. “History and the Second Decade of the Web.” &lt;i&gt;Rethinking History&lt;/i&gt; 8, no. 2 (2004): 293. doi:10.1080/13642520410001683950.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;csl-bib-body&quot; style=&quot;line-height: 1.35; padding-left: 2em; text-indent:-2em;&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+  &lt;div class=&quot;csl-entry&quot;&gt;Ayers, Edward L. “The Pasts and Futures of Digital History” (1999). http://www.vcdh.virginia.edu/PastsFutures.html.&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<p>Now that we have worked through retrieving information using the Zotero API, we can continue to use it to interact with the items stored in our library.</p>
+
+                          <footer>
+                                </footer>
+            
+<!-- You can start editing here. -->
+
+	<h3 id="comments">One Response to &#8220;Intro to the Zotero API&#8221;</h3>
+
+	<div class="navigation">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+
+	<ol class="commentlist">
+			<li class="comment even thread-even depth-1" id="comment-37448">
+				<div id="div-comment-37448" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/c7d3c261838825f84a65285d11909ee4?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' />			<cite class="fn">Colin Wilder</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://programminghistorian.org/lessons/zotero-api/intro-to-the-zotero-api#comment-37448">
+			October 14, 2013 at 7:01 pm</a>		</div>
+
+		<p>Thanks for this great intro to the Zotero API for Python, Amanda. </p>
+<p>I have had difficulty with a few parts and wonder if anyone out there can help. Running Windows 64-bit, installing Distribute and PIP was quite obscure, since I wasn&#8217;t sure where to put them. I think I just put them in my Anaconda (=Python) folder, but there was no install option for either one. That didn&#8217;t seem to be a problem since I was able to run PIP in command line (=**terminal** for Mac folks) and get libZotero to run. </p>
+<p>Subsequently, I was able to access and query the Programming Historian library, and access my own Zotero library **but not get particular item data**! </p>
+<p>As far as I can tell, the libZotero documentation is very sparse. On the Zotero website, I found reference to another Zotero Python API called pyzotero which I installed instead. It has pretty rich documentation comparatively and I have gotten it to work including querying and retrieving info from my Zotero library. It works a little differently from libZotero, as far as I can tell. E.g. I think it stores item information in dictionaries rather than arrays. Not sure. Glad to talk to others working through this if anyone&#8217;s interested.</p>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/lessons/zotero-api/intro-to-the-zotero-api?replytocom=37448#respond' onclick='return addComment.moveForm("div-comment-37448", "37448", "respond", "1655")'>Reply</a>		</div>
+				</div>
+		</li><!-- #comment-## -->
+	</ol>
+
+	<div class="navigation">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+ 
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div id="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/lessons/zotero-api/intro-to-the-zotero-api#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://programminghistorian.org/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='1655' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="68b58cb18a" /></p><script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="233"/></p>
+</form>
+
+</div>
+
+
+            
+            </div>
+
+
+                      </article>
+                
+<ul class="navigation pager">
+  <li class="next">
+<p class="kicker">Next</p>
+<a href="http://programminghistorian.org/lessons/zotero-api/creating-new-items-in-zotero">Creating New Items in Zotero</a></ul><!-- .navigation -->
+        
+            </div>
+<footer role="contentinfo">
+<div class="additional"><ul id="menu-main-menu-1" class="additional"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div><p><em>The Programming Historian</em> released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+
+  <p id="logos"><a href="http://niche-canada.org/" id="niche"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/niche.jpg" title="NiCHE"></a> <a href="http://chnm.gmu.edu" id="rrchnm"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/rrchnm.png"></a></p>
+</footer>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPlain.js?ver=3.0.83c'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=3.0.83c'></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body>
+</html>

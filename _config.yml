@@ -2,6 +2,7 @@ name: Programming Historian
 description: Introductory and intermediate programming lessons for humanists
 baseurl: /jekyll
 url: http://programminghistorian.org
+baseurl: /jekyll
 permalink: :title
 safe: true
 pygments: true

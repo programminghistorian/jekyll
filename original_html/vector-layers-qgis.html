@@ -1,0 +1,352 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>The Programming Historian</title>
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css">
+
+    <!-- Modernizr and Friends -->
+    <script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script>
+    <script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script>
+  
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="The Programming Historian &raquo; Creating New Vector Layers in QGIS 2.0 Comments Feed" href="http://programminghistorian.org/lessons/vector-layers-qgis/feed" />
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://programminghistorian.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Installing QGIS 2.0 and Adding Layers' href='http://programminghistorian.org/lessons/qgis-layers' />
+<link rel='next' title='Georeferencing in QGIS 2.0' href='http://programminghistorian.org/lessons/georeferencing-qgis' />
+<meta name="generator" content="WordPress 3.9.1" />
+<link rel='canonical' href='http://programminghistorian.org/lessons/vector-layers-qgis' />
+<link rel='shortlink' href='http://programminghistorian.org/?p=2309' />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+</head>
+<body class="single single-lesson postid-2309">
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header role="banner">
+      <h1><a href="http://programminghistorian.org">The Programming Historian</a></h1>
+<div class="additional"><ul id="menu-main-menu" class="additional"><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li id="menu-item-2400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div>  </header>
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+
+
+  <div role="main">
+      
+                <article>
+            <header>
+                                <p class="kicker">December 13, 2013</p>
+                
+                <h1><a href="http://programminghistorian.org/lessons/vector-layers-qgis">Creating New Vector Layers in QGIS 2.0</a></h1>
+                                <p class="byline">By Jim Clifford, Josh MacFadyen, Daniel Macfarlane</p>
+                
+                                  <ul class="credits">
+
+                                        <li class="technical-reviewer">Technical Reviewer: Finn Arne J&oslash;rgensen, Peter Webster, Abby Schreiber</li>
+                    
+                                        <li class="literary-reviewer">Literary Reviewer: Adam Crymble                    
+                    
+                  </ul>
+                            </header>
+            <div class="content">
+
+            <h2>Lesson Goals</h2>
+<p>In this lesson you will learn how to create vector layers based on scanned historical maps. In <a href="/lessons/googlemaps-googleearth">Intro to Google Maps and Google Earth</a> you used vector layers and created attributes in Google Earth. We will be doing the same thing in this lesson, albeit at a more advanced level, using QGIS software.</p>
+<p>Vector layers are, along with raster layers, one of the two basic types of data structures that store data. Vector layers use the three basic GIS features – lines, points, and polygons – to represent real-world features in digital format. Points can be used to represent specific locations, such as towns, buildings, events, etc. (the scale of your map will determine what you represent as a point – in a map of a province, a town would be a point, whereas in a map of a town, a building might be a point). Lines can effectively represent features such as roads, canals, railways, and so on. Polygons (effectively enclosed shapes with more than a few sides) are used to represent more complex objects such as the boundaries of a lake, country, or electoral riding (again, scale will affect your choice – large buildings in a close-up map of a city might be better represented as polygons than as points).</p>
+<p>In this lesson you will be creating shapefiles (which are a type of vector data) to represent the historical development of communities and roads in Prince Edward Island. Each shapefile can be created as one of the three types of features: line, point, polygon (though these features can’t be mixed within a shapefile) . Each feature you create in a shapefile has a corresponding set of attributes, which are stored in an attribute table. You will create features and learn how to modify them, which involves not only the visual creation of the three types of features, but also the modification of their attributes. To do so, we will use the files from <a href="/lessons/qgis-layers">Installing QGIS 2.0 and Adding Layers</a> concerning Prince Edward Island.</p>
+<p><strong>Getting Started:</strong></p>
+<p>Start by downloading the <a href="https://www.dropbox.com/s/nigmsq0gz4ashf2/PEI_HollandMap1798_compLZW.tif" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.dropbox.com']);">PEI_Holland map</a> to the project folder:</p>
+<p>Open the file you saved at the end of <a href="/lessons/qgis-layers">Installing QGIS 2.0 and Adding Layers</a>. You should have the following layers in your Layers window:</p>
+<ul>
+<li>PEI_placenames</li>
+<li>PEI_highway</li>
+<li>PEI HYDRONETWORK</li>
+<li>1935 inventory_region</li>
+<li>coastline_polygon</li>
+<li>PEI-CumminsMap1927</li>
+</ul>
+<p>Uncheck all of these layer except for PEI_placenames, coastline_polygon and PEI_CumminsMap1927</p>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/pei1.png" ><img class="alignnone size-medium wp-image-2324" alt="pei1" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei1-300x207.png" width="300" height="207" /></a> <figcaption>Figure 1: Click to see full size image.</figcaption></figure>
+<p>We are now going to add a second historical map as a raster layer.</p>
+<figure><img class="alignnone size-full wp-image-2325" alt="pei2" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei2.png" width="55" height="444" /> <figcaption>Figure 2</figcaption></figure>
+<ul>
+<li>under Layer on toolbar, choose Add Raster Layer (alternatively the same icon you see next to &#8216;Add Raster Layer&#8217; can also be selected from tool bar)</li>
+<li>find the file you have downloaded titled &#8216;PEI_HollandMap1798&#8242;</li>
+<li>you will be prompted to define this layer&#8217;s coordinate system. In the Filter box search for &#8217;2291&#8242; then in the box below select &#8216;NAD83(CSRS98) / Prince Edward Isl. Stereographic&#8217;</li>
+<li>If you are not prompted to define the layer&#8217;s coordinate system, you need to change a setting. Click Settings and then Options. Click CRS on the right hand menu and then choose &#8216;Prompt for CRS&#8217; from the options below &#8216;When a new layer is created, or when a layer is loaded that has no CRS&#8217;. Click OK. Remove the Holland Map (right click on it and click Remove) and try adding it again. This time you should be prompted for a CRS and you can select the NAD83 option (see above).</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2326" alt="pei3" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei3.png" width="847" height="598" /> <figcaption>Figure 3</figcaption></figure>
+<p>In previous steps you have selected and unselected layers in the Layers window by checking and unchecking the boxes next to them. These layers are organized in descending order of visibility – i.e. the layer at the top is the top layer in your viewer window (provided it is selected). You can drag the layers up and down in the Layer window to change the order in which they will be visible on your viewing window. The coastline_polygon raster layer is currently not visible because it is below the PEI_HollandMap1798 and PEI_Cummins1927 layers. In general it is best to keep vector layers above the raster layers.</p>
+<p>Uncheck PEI_Cummins1927 so that the only layer you have remaining is PEI_HollandMap1798. Note that the map appears crooked on the screen; this is because it has already been georeferenced by the lesson writers to match the GIS vector layers. Learn more about georeferencing in <a href="/lessons/georeferencing-qgis">Georeferencing in QGIS 2.0</a>.</p>
+<figure><img class="alignnone size-full wp-image-2327" alt="pei4" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei4.png" width="55" height="444" /> <figcaption>Figure 4</figcaption></figure>
+<p>We will now create a point shapefile, which is a vector layer. Click Layer -&gt; New -&gt; New Shapefile Layer</p>
+<ul>
+<ul>
+<li>alternatively you can select the New Shapefile Layer icon on the top of the QGIS toolbar window</li>
+</ul>
+</ul>
+<figure><img class="alignnone size-full wp-image-2328" alt="pei5" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei5.png" width="485" height="399" /> <figcaption>Figure 5</figcaption></figure>
+<p>After selecting New Shapefile Layer, a window titled New Vector Layer appears</p>
+<ul>
+<li>In the Type category, Point is already selected for you. Click the Specify CRS button, and select NAD83(CSRS98) / Prince Edward Isl. Stereographic (EPSG: 2291), and then click OK (for information on understanding and selecting UTM zone: <a href="http://www.lib.uwaterloo.ca/locations/umd/digital/clump_classes.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.lib.uwaterloo.ca']);" target="_blank">http://www.lib.uwaterloo.ca/locations/umd/digital/clump_classes.html</a>)</li>
+</ul>
+<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/pei6.png" ><img class="alignnone size-medium wp-image-2329" alt="pei6" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei6-300x168.png" width="300" height="168" /></a> <figcaption>Figure 6: Click to see full size image.</figcaption></figure>
+<p>Returning to the New Vector Layer window, we are going to make some attributes. To create the first attribute:</p>
+<ul>
+<li>under New attribute, in the field beside Name, type in &#8216;Settlement_Name&#8217; (note that when working in databases you cannot use empty spaces in names so the convention is to use underscores in their place)</li>
+<li>click Add to attributes list</li>
+</ul>
+<p>Now we are going to create a second attribute:</p>
+<ul>
+<li>under New attribute, in the field beside Name, type in &#8216;Year&#8217;</li>
+<li>this time, we are going to change the Type to Whole Number</li>
+<li>click Add to attribute list</li>
+</ul>
+<p>For the third attribute:</p>
+<ul>
+<li>under New attribute, in the field beside Name, type in “End_Year” (GIS is not always optimal for dealing with change over time, so in some cases it is important to have a field to identify approximately when something ceased to exist)</li>
+<li>change the Type again to Whole Number</li>
+<li>click Add to attribute list</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2330" alt="pei7" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei7.png" width="500" /> <figcaption>Figure 7</figcaption></figure>
+<ul>
+<li>When you complete these three steps, finish creating this shapefile by clicking OK on the bottom right of the New Vector Layer window. A &#8216;save&#8217; screen pops up – name it &#8216;settlements&#8217; and save it with your other GIS files.</li>
+</ul>
+<p>Note that a layer called &#8216;settlements&#8217; now appears in your Layers window. Relocate it above the raster layers.</p>
+<figure><img class="alignnone size-full wp-image-2331" alt="pei8" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei8.png" width="337" height="198" /> <figcaption>Figure 8</figcaption></figure>
+<p>Uncheck all layers except settlements. You will notice that your viewing window is now blank as we have not created any data. We will now create new data from both the <span class="filename">PEI_HollandMap 1798</span> and the <span class="filename">PEI_CumminsMap1927</span> to show the increase in settlement between the late 18th and early 20th centuries.</p>
+<ul>
+<li>we will begin with the more recent, and thus usually more accurate, map. Reselect (i.e. check the boxes beside) coastline_polygon and PEI_CumminsMap1927</li>
+<li>in your viewing window, zoom in to Charlottetown (hint: Charlottetown is near the middle of the island on the south side, at the confluence of three rivers)</li>
+<li>select settlements layer in Layers window</li>
+<li>on the menu bar, select Toggle Editing</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2316" alt="pei9" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei9.png" width="678" height="108" /> <figcaption>Figure 9</figcaption></figure>
+<ul>
+<li>After selecting Toggle Editing, editing buttons will become available to the right along the menu bar. Select the 3 dot feature button.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2317" alt="pei10" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei10.png" width="50" height="43" /> <figcaption>Figure 10</figcaption></figure>
+<ul>
+<li>Your cursor now appears as a crosshair – point the crosshair at Charlottetown (if you don&#8217;t happen to know PEI&#8217;s geography, you can cheat by adding on the PEI_placenames layer) keeping it within the modern day coastline, and click (digitization is always a compromise between accuracy and functionality; depending on the quality of the original map and the digitization, for most historical applications extreme accuracy is not necessary).</li>
+<li>An Attributes window will appear. Leave id field blank (at time of writing, QGIS appears to be making two id fields and this one is unnecessary). In Settlement field, type in &#8216;Charlottetown&#8217;. In the Year field type in 1764. Click OK</li>
+</ul>
+<p>We will now repeat the steps we took with Charlottetown for Montague, Summerside, and Cavendish (again, you can find these locations by adding the PEI_placenames layers). Find Montague on the map, select the 3 dot feature button and click on Montague on the map. When the Attributes window appears, input Montague and 1732 in the appropriate fields. Repeat for Summerside (1876) and Cavendish (1790).</p>
+<figure><img class="alignnone size-full wp-image-2318" alt="pei11" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei11.png" width="446" height="360" /> <figcaption>Figure 11</figcaption></figure>
+<p>In the Layers window, unselect the PEI_CumminsMap1927 and select PEI_HollandMap1798. We are now going to identify two settlements (Princetown &amp; Havre-St-Pierre) that no longer exist.</p>
+<ul>
+<li>To locate Princetown, look for Richmond Bay and Cape Aylebsury (on the north coast to the west of Cavendish), here you will find Princetown (shaded-in) near the boundary between the yellow and the blue</li>
+</ul>
+<ul>
+<li>If you look at the <a href="http://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">Wikipedia entry for the city you will notice that because of a shallow harbor, Princetown did not become a major settlement. It was renamed in 1947 and later downgraded to a hamlet. For this reason we will include 1947 as the end date for this settlement</a></li>
+</ul>
+<ul>
+<li>With the crosshair click on Princetown. In the Attribute table that appears, put Princetown in the Settlement field, put 1764 into the Year field, and put 1947 into the End_Year. Click OK</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2319" alt="pei12" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei12.png" width="446" height="363" /> <figcaption>Figure 12</figcaption></figure>
+<ul>
+<li>Click on Save Edits icon on the menu bar (it is between Toggle and Add Feature)</li>
+</ul>
+<ul>
+<li>Double-click on settlements layer in the Layers window, choose Labels tab at the top of the ensuing window. Click on the box beside Display labels. In Field containing label select Year (if necessary), change font size to 18.0, change Placement to Above Left, and then click OK</li>
+</ul>
+<p>On the northern coast of Lot 39 between Britain’s Pond and St. Peters Bay, we will now put a dot for the location of a long lost village called Havre-St-Pierre.</p>
+<ul>
+<li>Havre-St-Pierre was the island’s first Acadian settlement but has been uninhabited since the Acadian deportation of 1758.</li>
+</ul>
+<ul>
+<li>With the crosshair click on Havre-St. Pierre. In the Attribute table that appears, put Havre-St-Pierre in the Settlement field, put 1720 into the Year field, and put 1758 into the End_Year. Click OK</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2320" alt="pei13" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei13.png" width="450" height="249" /> <figcaption>Figure 13</figcaption></figure>
+<p>We will now now create another vector layer – this layer will be a line vector. Click Layer -&gt; New -&gt; New Shapefile Layer. The New Vector Layer window will appear (in the Type category at the top, select Line)</p>
+<ul>
+<li>Click the Specify CRS button, and select NAD83(CSRS98) / Prince Edward Isl. Stereographic (EPSG: 2291), and then click OK</li>
+<li>under New attribute, in the field beside Name, type in &#8216;Road_Name&#8217;</li>
+<li>click Add to attributes list</li>
+</ul>
+<p>Create a second attribute</p>
+<ul>
+<li>under New attribute, in the field beside Name, type in Year</li>
+<li>change the Type to Whole Number</li>
+<li>click Add to attribute list</li>
+<li>To finish creating this shapefile, click OK on the bottom right of the New Vector Layer window. A &#8216;save&#8217; screen pops up – name it &#8216;roads&#8217; and save it with your other GIS files.</li>
+</ul>
+<p>We are now going to trace the roads from the 1798 map so that we can compare them to the modern roads. Make that you have the PEI_Holland1798 and settlements layers checked in the Layers window. Select road layer in the layers window, select Toggle Editing on the top toolbar, and then select Add Feature</p>
+<figure><img class="alignnone size-full wp-image-2321" alt="pei14" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei14.png" width="53" height="42" /> <figcaption>Figure 14</figcaption></figure>
+<ul>
+<li>First trace the road from Charlottetown to Princetown. Click on Charlottetown and then click repeatedly at points along the road to Princetown and you will see the line being created. Repeat until you arrive at Princetown, then right-click. In the resulting Attributes – road window, in the Name field enter “to Princetown” and in the Year field enter 1798. Click OK</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2322" alt="pei15" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei15.png" width="450" height="342" /> <figcaption>Figure 15</figcaption></figure>
+<ul>
+<li>repeat this step for 3 to 4 more roads found on the PEI_HollandMap1798.</li>
+<li>click Save Edits and then click Toggle Editing to turn it off</li>
+</ul>
+<p>Deselect the PEI_HollandMap1798 in the Layers window and select the PEI_highway map. Compare the roads represented in the PEI_highway map (the red dotted lines) to the roads you have just traced.</p>
+<figure><img class="alignnone size-full wp-image-2323" alt="pei16" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei16.png" width="450" height="395" /> <figcaption>Figure 16</figcaption></figure>
+<ul>
+<li>We can see that some of these roads correspond closely to modern roads, while others do not at all correspond. It would take further historical research to determine whether this is simply because the Holland map did not sufficiently survey roads at the time, or if roads have changed considerably since then.</li>
+</ul>
+<p>Now create a third type of vector layer: a polygon vector. Click Layer -&gt; New -&gt; New Shapefile Layer. The New Vector Layer window will appear – in the Type category at the top, select Polygon</p>
+<ul>
+<li>Click the Specify CRS button, and select NAD83(CSRS98) / Prince Edward Isl. Stereographic (EPSG: 2291), and then click OK</li>
+<li>under New attribute, in the field beside Name, type in &#8216;lot_name&#8217; in the field beside Year</li>
+<li>click Add to attributes list</li>
+</ul>
+<p>Create a second attribute</p>
+<ul>
+<li>under New attribute, in the field beside Name, type in Year</li>
+<li>change the Type to Whole Number</li>
+<li>click Add to attribute list</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2330" alt="pei7" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei7.png" width="500" /> <figcaption>Figure 17</figcaption></figure>
+<p>Start by creating a polygon for lot 66, which is the only rectangular lot on the island</p>
+<ul>
+<li>Click on Toggle Editing on top tool bar, and then click on Add Feature</li>
+<li>click on all four corners of lot 66 and you will see a polygon created</li>
+<li>right-click on the final corner and an Attributes window will appear. Add 66 to lot_names field and add 1764 (the year these lots were surveyed) to the Year field</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2312" alt="pei18" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei18.png" width="450" height="364" /> <figcaption>Figure 18</figcaption></figure>
+<p>We are now going to trace lot 38, which is just west of Havre-St-Pierre. Make sure that there is a check mark in the box beside PEI_HollandMap1798 layer in the Layers window</p>
+<p>Click on Toggle Editing on top tool bar, and then click on Add Feature</p>
+<p>Trace the outline of Lot 38, which is more difficult because of the coastline, as accurately as possible. In order to show you the Snap feature<em></em>, we want you to trace along the modern coastline (snapping is an automatic editing operation that adjusts the feature you have drawn to coincide or lineup exactly with the coordinates and shape of another nearby feature)</p>
+<ul>
+<li>select Settings-&gt; Snapping Options</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2313" alt="pei19" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei19.png" width="450" height="176" /> <figcaption>Figure 19</figcaption></figure>
+<ul>
+<li>a Snapping options window will open: click on the box beside coastal_polygon, for the Mode category select “to vertex and segment”, for Tolerance select 10.0, and for Units select &#8216;pixels&#8217;. Click OK</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2314" alt="pei20" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei20.png" width="721" height="271" /> <figcaption>Figure 20</figcaption></figure>
+<p>Make sure that the lots layer is selected in Layers window, and select Add Feature from the tool bar</p>
+<ul>
+<li>with your cursor click on the two bottom corners of your polygon just as you did with Lot 38. At the coastline you will notice that you have a collection of lines to trace around Savage Harbour. This is where the Snapping features becomes helpful. As you work to trace along the modern coastline it will significantly improve your accuracy by snapping your clicks directly on top of the existing line. The more clicks you make the more accurate it will be, but keep in mind that for many HGIS purposes obtaining extreme accuracy sometimes produces diminishing returns.</li>
+</ul>
+<figure><img class="alignnone size-full wp-image-2315" alt="pei21" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei21.png" width="450" height="394" /> <figcaption>Figure 21</figcaption></figure>
+<p>When you finish tracing and creating the polygon, select and deselect the various layers you have created, comparing and seeing what relationships you can deduce.</p>
+<p>In Google Earth there were limitations on the types of features, attributes, and data provided by Google, and Google Earth did much of the work for you. That is fine when you are learning or want to quickly create maps. The advantage of using QGIS software to create new vector layers is that you have a great deal of freedom and control over the types of data you can use and the features and attributes that you can create. This in turn means that you can create custom maps far beyond what can be achieved in Google Earth or Google Maps Engine Lite. You have seen this firsthand with the points, lines, and polygons vector layers you learned how to create in this lesson. If you found data on, for example, public health records in the 18th century, you could create a new layer to work with what you already created showing the distribution of typhoid outbreaks and see if there are correlations with major roads and settlements. Moreover, GIS software allows you to not only spatially represent and present data in much more sophisticated ways, but to analyze and create new data in ways that aren’t possible otherwise.</p>
+<p><strong>You have learned how to create vector layers. Make sure you save your work!</strong></p>
+<p><em>This lesson is part of the <a href="http://geospatialhistorian.wordpress.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://geospatialhistorian.wordpress.com']);" target="_blank">Geospatial Historian</a>.</em></p>
+
+                          <footer>
+                                          <div class="author-info">
+                          <p class="author-name">About Jim Clifford, Josh MacFadyen, Daniel Macfarlane</p>
+                           <div class="author-description"><p>Jim Clifford is an assistant professor in the Department of History at the University of Saskatchewan. Josh MacFadyen is a Project Coordinator at the Network in Canadian History & Environment. Daniel Macfarlane is a Visiting Scholar in the School of Canadian Studies at Carleton University.</p>
+</div>
+                        </div>
+                                </footer>
+            
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div id="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="/lessons/vector-layers-qgis#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://programminghistorian.org/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='2309' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="759e8d41e6" /></p><script type='text/javascript' src='http://programminghistorian.org/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="144"/></p>
+</form>
+
+</div>
+
+
+            
+            </div>
+
+
+                      </article>
+                
+<ul class="navigation pager">
+<li class="previous">
+<p class="kicker">Previous</p>
+<a href="http://programminghistorian.org/lessons/qgis-layers">Installing QGIS 2.0 and Adding Layers</a></li>
+  <li class="next">
+<p class="kicker">Next</p>
+<a href="http://programminghistorian.org/lessons/georeferencing-qgis">Georeferencing in QGIS 2.0</a></ul><!-- .navigation -->
+        
+            </div>
+<footer role="contentinfo">
+<div class="additional"><ul id="menu-main-menu-1" class="additional"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://programminghistorian.org/about" >About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2400"><a href="http://programminghistorian.org/" >Lessons</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838"><a href="http://programminghistorian.org/submissions" >Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://programminghistorian.org/about/project-team" >Project Team</a></li>
+</ul></div><p><em>The Programming Historian</em> released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+
+  <p id="logos"><a href="http://niche-canada.org/" id="niche"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/niche.jpg" title="NiCHE"></a> <a href="http://chnm.gmu.edu" id="rrchnm"><img src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/images/rrchnm.png"></a></p>
+</footer>
+</body>
+</html>
