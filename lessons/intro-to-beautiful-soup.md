@@ -61,7 +61,7 @@ With sudo, the command is:
 sudo pip install beautifulsoup4
 ```
 
-[![][]][]
+[][]
 
 The power of sudo\
 “Sandwich” by XKCD
@@ -144,13 +144,12 @@ it is easier for our purposes to go
 to <http://bioguide.congress.gov/biosearch/biosearch.asp>, search for
 Congress number 43, and to save a copy of the results page.
 
-[![Figure 1: BioGuide Interface Search for 43rd Congress ][]][]
+[][1]
 
 Figure 1: BioGuide Interface\
 Search for 43rd Congress
 
-[![Figure 2: BioGuide Results We want to download the HTML behind this
-page.][]][]
+[][2]
 
 Figure 2: BioGuide Results\
 We want to download the HTML behind this page
@@ -199,7 +198,7 @@ You should see your terminal window fill up with a nicely indented
 version of the original html text (see Figure 3). This is a visual
 representation of how the various tags relate to one another.
 
-[![Figure 3: "Pretty" print of the BioGuide results][]][]
+[][3]
 
 Figure 3: “Pretty” print of the BioGuide results
 
@@ -233,7 +232,7 @@ document.
 One thing to notice is that there is an additional link in our file –
 the link for an additional search.
 
-[![Figure 4: The URLs and names, plus one addition.][]][]
+[][4]
 
 Figure 4: The URLs and names, plus one addition
 
@@ -241,7 +240,7 @@ We can get rid of this with just a few lines of code. Going back to the
 pretty version, notice that this last “\<a\>” tag is not within the
 table but is within a “\<p\>” tag.
 
-[![Figure 4: The rogue link][]][]
+[][5]
 
 Figure 5: The rogue link
 
@@ -270,7 +269,7 @@ for link in links:
     print link
 ```
 
-[![Figure 6: Successfully isolated only names and URLs][]][]
+[][6]
 
 Figure 6: Successfully isolated only names and URLs
 
@@ -321,7 +320,7 @@ for link in links:
     print fullLink
 ```
 
-[![Figure 7: All HTML tags have been removed][]][]
+[][7]
 
 Figure 7: All HTML tags have been removed
 
@@ -355,7 +354,7 @@ for link in links:
 When executed, this gives us a clean CSV file that we can then use for
 other purposes.
 
-[![Figure 8: CSV file of results][]][]
+[][8]
 
 Figure 8: CSV file of results
 
@@ -389,7 +388,7 @@ lot more content than when we searched for “\<a\>” tags. Now we need to
 sort through all of these lines to separate out the different types of
 data.
 
-[![Figure 8: All of the Table Row data][]][]
+[][9]
 
 Figure 8: All of the Table Row data
 
@@ -545,28 +544,16 @@ table, creating useful data from the confusion of the html page.
   [Command Line Bootcamp]: http://praxis.scholarslab.org/tutorials/bash/
   [Opening lines of Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/bs4/doc/
   [installing python modules]: http://programminghistorian.org/lessons/installing-python-modules-pip
-  []: ../images/sandwich.png
-  [![][]]: http://xkcd.com/149/
+  []: http://xkcd.com/149/
   [urllib3]: http://urllib3.readthedocs.org/en/latest/
-  [Figure 1: BioGuide Interface Search for 43rd Congress ]: ../images/Congressional-Biographical-Directory-CLERKWEB-2013-08-23-12-22-12-300x258.jpg
-  [![Figure 1: BioGuide Interface Search for 43rd Congress ][]]: ../images/Congressional-Biographical-Directory-CLERKWEB-2013-08-23-12-22-12.jpg
-  [Figure 2: BioGuide Results We want to download the HTML behind this
-  page.]: ../images/Congressional-Biographical-Directory-Results-2013-08-23-12-25-09-300x234.jpg
-  [![Figure 2: BioGuide Results We want to download the HTML behind this
-  page.][]]: ../images/Congressional-Biographical-Directory-Results-2013-08-23-12-25-09.jpg
+  [1]: ../images/Congressional-Biographical-Directory-CLERKWEB-2013-08-23-12-22-12.jpg
+  [2]: ../images/Congressional-Biographical-Directory-Results-2013-08-23-12-25-09.jpg
   [Automated Downloading with Wget]: http://programminghistorian.org/lessons/automated-downloading-with-wget
   [Downloading Multiple Records Using Query Strings]: http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings
-  [Figure 3: "Pretty" print of the BioGuide results]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-13-01-300x242.jpg
-  [![Figure 3: "Pretty" print of the BioGuide results][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-13-01.jpg
-  [Figure 4: The URLs and names, plus one addition.]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-25-56-300x164.jpg
-  [![Figure 4: The URLs and names, plus one addition.][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-25-56.jpg
-  [Figure 4: The rogue link]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-23-07-300x242.jpg
-  [![Figure 4: The rogue link][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-23-07.jpg
-  [Figure 6: Successfully isolated only names and URLs]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-28-04-300x164.jpg
-  [![Figure 6: Successfully isolated only names and URLs][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-28-04.jpg
-  [Figure 7: All HTML tags have been removed]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-14-13-13-300x164.jpg
-  [![Figure 7: All HTML tags have been removed][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-14-13-13.jpg
-  [Figure 8: CSV file of results]: ../images/43rd_Congress-2-2013-08-23-14-18-27-300x125.jpg
-  [![Figure 8: CSV file of results][]]: ../images/43rd_Congress-2-2013-08-23-14-18-27.jpg
-  [Figure 8: All of the Table Row data]: ../images/Beautiful-Soup-Tutorial-—-bash-—-142×40-2013-08-23-16-51-22-300x176.jpg
-  [![Figure 8: All of the Table Row data][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-142×40-2013-08-23-16-51-22.jpg
+  [3]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-13-01.jpg
+  [4]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-25-56.jpg
+  [5]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-23-07.jpg
+  [6]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-28-04.jpg
+  [7]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-14-13-13.jpg
+  [8]: ../images/43rd_Congress-2-2013-08-23-14-18-27.jpg
+  [9]: ../images/Beautiful-Soup-Tutorial-—-bash-—-142×40-2013-08-23-16-51-22.jpg

@@ -362,7 +362,7 @@ a critical command for delineating your search.
 
 Here is a graphical representation:
 
-[![][1]][]
+[][]
 
 A graphical representation of how “no-parent” works with wget
 
@@ -484,6 +484,4 @@ please visit the [wget manual][GNU wget manual].
   [FTP]: ftp://ftp.gnu.org/gnu/wget/
   [ugent website]: http://users.ugent.be/~bpuype/wget/
   [GNU wget manual]: http://www.gnu.org/software/wget/manual/wget.html
-  [1]: ../images/active-history-chart_edited-1.jpg
-    "active-history-chart_edited-1"
-  [![][1]]: ../images/active-history-chart_edited-1.jpg
+  []: ../images/active-history-chart_edited-1.jpg

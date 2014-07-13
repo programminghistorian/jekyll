@@ -48,7 +48,7 @@ Operating System. Follow the instructions below.
     Lion, and Snow Leopard – no word yet on using it with the
     forthcoming Mavericks). Install these like any other Mac programs.
 
-[![qgis1][]][]\
+[][]\
 
 Figure 1: Click to view full-size image.
 
@@ -373,7 +373,7 @@ Figure 21
 -   click OK. You will now have the highways and other major roads
     represented on the map
 
-[![qgis22][]][]\
+[][2]\
 
 Figure 22: Click to see full size image.
 
@@ -394,7 +394,7 @@ Figure 23
 -   Change Font size to ’18′
 -   Click ‘OK’ and examine the results on the map
 
-[![qgis24][]][]\
+[][3]\
 
 Figure 24: Click to see full size image.
 
@@ -411,7 +411,7 @@ will place it above the rest of the layers and make it the most
 prominent. For example, if you drag ‘coastline\_polygon’ to the top, you
 have a simplified outline of the province along with place names.
 
-[![qgis25][]][]\
+[][4]\
 
 Figure 25: Click to see full size image
 
@@ -501,8 +501,7 @@ save your work!**
 
   [QGIS Download page]: http://hub.qgis.org/projects/quantum-gis/wiki/Download
   [KyngChaos Qgis download page]: http://www.kyngchaos.com/software/qgis
-  [qgis1]: ../images/qgis1-300x137.png
-  [![qgis1][]]: ../images/qgis1.png
+  []: ../images/qgis1.png
   [qgis2]: ../images/qgis2.jpg
   [PEI Highways]: https://www.dropbox.com/s/mgrb90vcpggnw8c/PEI_highway.zip
   [alternate Tar file]: https://www.dropbox.com/s/8k81jnmhpoi99fv/pei_highway.tar.gz
@@ -532,13 +531,10 @@ save your work!**
   [qgis19]: ../images/qgis19.png
   [qgis20]: ../images/qgis20.png
   [qgis21]: ../images/qgis21.png
-  [qgis22]: ../images/qgis22-300x198.png
-  [![qgis22][]]: ../images/qgis22.png
+  [2]: ../images/qgis22.png
   [qgis23]: ../images/qgis23.png
-  [qgis24]: ../images/qgis24-300x197.png
-  [![qgis24][]]: ../images/qgis24.png
-  [qgis25]: ../images/qgis25-300x198.png
-  [![qgis25][]]: ../images/qgis25.png
+  [3]: ../images/qgis24.png
+  [4]: ../images/qgis25.png
   [qgis26]: ../images/qgis26.png
   [aerial photos]: http://en.wikipedia.org/wiki/Orthophoto
   [‘PEI\_CumminsMap1927.tif’]: https://www.dropbox.com/s/5g7964rpu1w2ou1/PEI_CumminsMap1927_compLZW.tif

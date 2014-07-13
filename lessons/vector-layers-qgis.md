@@ -57,7 +57,7 @@ Layers][]. You should have the following layers in your Layers window:
 Uncheck all of these layer except for PEI\_placenames,
 coastline\_polygon and PEI\_CumminsMap1927
 
-[![pei1][]][]
+[][]
 
 Figure 1: Click to see full size image.
 
@@ -126,7 +126,7 @@ appears
     understanding and selecting UTM zone:
     <http://www.lib.uwaterloo.ca/locations/umd/digital/clump_classes.html>)
 
-[![pei6][]][]
+[][1]
 
 Figure 6: Click to see full size image.
 
@@ -434,15 +434,13 @@ work!**
   [Intro to Google Maps and Google Earth]: /lessons/googlemaps-googleearth
   [Installing QGIS 2.0 and Adding Layers]: /lessons/qgis-layers
   [PEI\_Holland map]: https://www.dropbox.com/s/nigmsq0gz4ashf2/PEI_HollandMap1798_compLZW.tif
-  [pei1]: ../images/pei1-300x207.png
-  [![pei1][]]: ../images/pei1.png
+  []: ../images/pei1.png
   [pei2]: ../images/pei2.png
   [pei3]: ../images/pei3.png
   [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
   [pei4]: ../images/pei4.png
   [pei5]: ../images/pei5.png
-  [pei6]: ../images/pei6-300x168.png
-  [![pei6][]]: ../images/pei6.png
+  [1]: ../images/pei6.png
   [pei7]: ../images/pei7.png
   [pei8]: ../images/pei8.png
   [pei9]: ../images/pei9.png

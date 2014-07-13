@@ -165,15 +165,15 @@ subroutines. Then type the exact path (location) of where you unzipped
 MALLET in the variable value, e.g., c:\\mallet\
  To see if you have been successful, please read on to the next section.
 
-[![][]][]
+[][]
 
 Figure 1: Advanced System Settings on Windows
 
-[![][1]][]
+[][1]
 
 Figure 2: Environment Variables Location
 
-[![][2]][]
+[][2]
 
 Figure 3: Environment Variable
 
@@ -184,7 +184,7 @@ MALLET is run from the command line, also known as Command Prompt
 computer Terminal, this will be familiar. The command line is where you
 can type commands directly, rather than clicking on icons and menus.
 
-[![][3]][]
+[][3]
 
 Figure 4: Command Prompt on Windows
 
@@ -195,7 +195,7 @@ Figure 4: Command Prompt on Windows
 2.  Type cd .. (That is: cd-space-period-period) to change directory.
     Keep doing this until you’re at the C:\\ . (as in Figure 5)
 
-[![][4]][]
+[][4]
 
 Figure 5: Navigating to the C:\\ Directory in Command Prompt
 
@@ -213,7 +213,7 @@ Figure 5: Navigating to the C:\\ Directory in Command Prompt
     slash? Did you set up the environment variable correctly? Is MALLET
     located at C:\\mallet ?
 
-[![][5]][]\
+[][5]\
 
 Figure 6: Command Prompt MALLET Installed
 
@@ -286,7 +286,7 @@ further down. After that, we successfully called up the help file, which
 told us what import-dir does, and it listed all of the potential
 parameters you can set for this tool.
 
-[![][6]][]
+[][6]
 
 Figure 7: The Help Menu in MALLET
 
@@ -414,7 +414,7 @@ the routine, trying to find the best division of words into topics, your
 command prompt window will fill with output from each run. When it is
 done, you can scroll up to see what it was outputting (as in Figure 8).
 
-[![][7]][]\
+[][7]\
 
 Figure 8: Basic Topic Model Output
 
@@ -474,7 +474,7 @@ the topic. This is related to an option which we did not run, and so its
 default value was used (this is why every topic in this file has the
 number 2.5).
 
-[![][8]][]\
+[][8]\
 
 Figure 9: Keywords Shown in a Word Processor
 
@@ -509,7 +509,7 @@ etc). You will have a spreadsheet with a \#doc, source, topic,
 proportion columns. All subsequent columns run topic, proportion, topic,
 proportion, etc., as in figure 10.
 
-[![][9]][]
+[][9]
 
 Figure 10: Topic Composition
 
@@ -599,37 +599,17 @@ number of .txt files. Each individual .txt file is a single news report.
   [download MALLET]: http://mallet.cs.umass.edu/download.php
   [Java developer’s kit]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
   []: ../images/fig1-advanced-system-settings.png
-    "Figure 1 advanced-system-settings"
-  [![][]]: ../images/fig1-advanced-system-settings.png
   [1]: ../images/fig2-environment-variables-location.png
-    "Figure 2 environment-variables-location"
-  [![][1]]: ../images/fig2-environment-variables-location.png
   [2]: ../images/fig3-environment-variable.png
-    "Figure 3 environment-variable"
-  [![][2]]: ../images/fig3-environment-variable.png
   [3]: ../images/fig-4-command-prompt-window.png
-    "Figure 4 command-prompt-window"
-  [![][3]]: ../images/fig-4-command-prompt-window.png
   [4]: ../images/fig-5-command-prompt-window-getting-to-c.png
-    "Figure 5 command-prompt-window-getting-to-c"
-  [![][4]]: ../images/fig-5-command-prompt-window-getting-to-c.png
   [5]: ../images/fig-6command-prompt-mallet-installed.png
-    "Figure 6 command-prompt-mallet-installed"
-  [![][5]]: ../images/fig-6command-prompt-mallet-installed.png
   [Mac Instructions]: ../images/apple-150x150.png
   [6]: ../images/fig-7-command-prompt-typing-help.png
-    "Figure 7 command-prompt-typing-help"
-  [![][6]]: ../images/fig-7-command-prompt-typing-help.png
   [Mac]: /lessons/mac-installation
   [7]: ../images/fig-8-basic-topic-model-output.png
-    "Figure 8 basic topic model output"
-  [![][7]]: ../images/fig-8-basic-topic-model-output.png
   [8]: ../images/fig-9-tutorial-key-words-in-Word.png
-    "Figure 9 tutorial key words in Word"
-  [![][8]]: ../images/fig-9-tutorial-key-words-in-Word.png
   [9]: ../images/fig-10-topic-composition.png
-    "Figure 10 topic composition"
-  [![][9]]: ../images/fig-10-topic-composition.png
   [automate this process]: http://electricarchaeology.ca/2012/07/09/mining-a-day-of-archaeology/
   [Mining the Open Web with Looted Heritage Draft]: http://electricarchaeology.ca/2012/06/08/mining-the-open-web-with-looted-heritage-draft/
   [Figshare.com]: http://figshare.com/articles/looted_heritage_reports_txt.zip/91828

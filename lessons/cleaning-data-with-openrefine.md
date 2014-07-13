@@ -139,7 +139,7 @@ object on the museum website. To get an idea of what object the metadata
 corresponds to, simply click the persistent link and the website will
 open.
 
-[![Powerhouse Museum Website][]][Powerhouse Museum Website]\
+[][]\
 
 Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website
 
@@ -255,8 +255,7 @@ proposes a merge into the most recurrent value. Select values you wish
 to cluster by selecting their boxes individually or by clicking ‘Select
 all’ at the bottom, then chose ‘Merge Selected and Re-Cluster’.
 
-[![Screenshot of OpenRefine Example][]][Screenshot of OpenRefine
-Example]
+[][1]
 
 Figure 2 : Overview of some clusters
 
@@ -397,9 +396,9 @@ the case you have made an error.
   [FreeYourMetadata website]: http://data.freeyourmetadata.org/powerhouse-museum/
   [phm-collection]: ../images/phm-collection.tsv
   [initial OpenRefine project]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
-  [Powerhouse Museum Website]: ../images/powerhouseScreenshot.png
+  []: ../images/powerhouseScreenshot.png
   [facet]: http://en.wikipedia.org/wiki/Faceted_search
-  [Screenshot of OpenRefine Example]: ../images/overviewOfSomeClusters.png
+  [1]: ../images/overviewOfSomeClusters.png
   [GREL documentation]: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
   [regular expression]: http://en.wikipedia.org/wiki/Regular_expression
     "Regular Expressions"
