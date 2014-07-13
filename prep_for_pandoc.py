@@ -73,7 +73,11 @@ for file in files:
             if block.attrs:
                brush = block.attrs['class'][1]
                block.attrs = {'class': brush.rstrip(';')}
-		    
+
+        # remove links from hyperlinked images
+        for image in soup.find_all('img'):
+            if image.parent.name == 'a': image.unwrap()
+            
         # try to decompose divs that won't be needed in markdown version
         nav_pager = soup.find('ul', class_='navigation')
         headers = soup.find_all('header')
