@@ -25,14 +25,14 @@ Arizona. — Quarter ended June 30, 1907. Estimated population,\
 
 And use pattern matching to transform it to something like this:
 
-  -------------- -------------- -------------- -------------- --------------
-  Arizona.       Arizona.       Arizona.       Arizona.       Arizona.
-  Quarter ended  Quarter ended  Quarter ended  Quarter ended  Quarter ended
-  June 30, 1907. June 30, 1907. June 30, 1907. June 30, 1907. June 30, 1907.
-  Deaths         Deaths         Deaths         Deaths         Deaths
-  diphtheria     enteric fever  scarlet fever  smallpox       tuberculosis
-  1              4              11             2              49
-  -------------- -------------- -------------- -------------- --------------
+|:--|:--|:--|:--|:--|
+|Arizona.|Arizona.|Arizona.|Arizona.|Arizona.|
+|Quarter ended|Quarter ended|Quarter ended|Quarter ended|Quarter ended|
+|June 30, 1907.|June 30, 1907.|June 30, 1907.|June 30, 1907.|June 30, 1907.|
+|Deaths|Deaths|Deaths|Deaths|Deaths|
+|diphtheria|enteric fever|scarlet fever|smallpox|tuberculosis|
+|1|4|11|2|49|
+
 
 What Are Regular Expressions and for Whom Is this Useful?
 ---------------------------------------------------------
@@ -300,12 +300,11 @@ LibreOffice for the most part follows notational conventions that you
 will see in other contexts. If you use a proprietary word processor you
 will likely find similar functionality even if the notation differs.
 
-  ------------------------------------ ------------------------------------
-  A b 1                                [Ab1]
-  literals — letters, digits, and      a character class, matching one
-  spaces match themselves              instance of any of ‘A’, ‘b’, or ’1′
-                                       in this case
-  ------------------------------------ ------------------------------------
+|:--|:--|
+|A b 1|[Ab1]|
+|literals — letters, digits, and|a character class, matching one|
+|spaces match themselves|instance of any of ‘A’, ‘b’, or ’1′|
+||in this case|
 
 For a more complete list of regular expressions in LibreOffice, see
 their [List of Regular Expressions][].
