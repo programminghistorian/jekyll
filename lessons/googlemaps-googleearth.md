@@ -573,8 +573,7 @@ your work!**
   [geo6]: ../images/geo6.png
   [UK Global Fat Supply CSV file]: https://www.dropbox.com/s/7xv11vd7dz2afud/UK%20Global%20Fat%20Supply%201894-1896%20-%20Sheet1.csv
   [geo7]: ../images/geo7.png
-  [![geo7][]\
-  ]: http://geospatialhistorian.files.wordpress.com/2013/02/spreadsheetimage.png
+  [![geo7][]]: http://geospatialhistorian.files.wordpress.com/2013/02/spreadsheetimage.png
   [geo8]: ../images/geo8.png
   [geo9]: ../images/geo9-300x120.png
   [![geo9][]]: ../images/geo9.png
