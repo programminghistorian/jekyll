@@ -76,7 +76,8 @@ for file in files:
 
         # remove links from hyperlinked images
         for image in soup.find_all('img'):
-            if image.parent.name == 'a': image.unwrap()
+            parent = image.parent
+            if parent.name == 'a': parent.img.unwrap()
             
         # try to decompose divs that won't be needed in markdown version
         nav_pager = soup.find('ul', class_='navigation')

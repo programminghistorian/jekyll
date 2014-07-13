@@ -92,7 +92,7 @@ to execute your program. If all went well, it should look something like
 this (Example as seen in Komodo Edit. Click on the image to see a
 full-size copy):
 
-[][]
+![hello world in Komodo Edit on a Mac][]
 
 “Hello World” in Python
 
@@ -127,7 +127,7 @@ print 'hello world'
 
 On your screen, it will look more like this:
 
-[][1]
+![hello world terminal on a Mac][]
 
 Python Shell in Mac Terminal
 
@@ -139,7 +139,9 @@ order, we suggest you next try ‘[Viewing HTML Files][]‘
 
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
   [Komoto Edit Website]: http://www.activestate.com/komodo-edit
-  []: ../images/hello-world1.png
-  [1]: ../images/hello-world-terminal.png
+  [hello world in Komodo Edit on a Mac]: ../images/hello-world1.png
+    "hello-world"
+  [hello world terminal on a Mac]: ../images/hello-world-terminal.png
+    "hello-world-terminal"
   [.]: lesson-1-2-viewing-html-files
   [Viewing HTML Files]: /lessons/viewing-html-files

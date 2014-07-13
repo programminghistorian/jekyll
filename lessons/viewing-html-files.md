@@ -26,11 +26,11 @@ particular effect. You will also want to study HTML source as you write
 programs to manipulate web pages or automatically extract information
 from them.
 
-[][]\
+![Old Bailey Online screenshot][]\
 
 Old Bailey Online (OBO) Web Page
 
-[][1]\
+![Old Bailey Online page source][]\
 
 HTML Source for OBO Web Page
 
@@ -120,7 +120,8 @@ text editor (which does not).
 -   [W3 Schools HTML Tutorial][W3 Schools HTML tutorial]
 -   [W3 Schools HTML5 Tutorial][]
 
-  []: ../images/obo.png
-  [1]: ../images/obo-page-source.png
+  [Old Bailey Online screenshot]: ../images/obo.png "obo"
+  [Old Bailey Online page source]: ../images/obo-page-source.png
+    "obo-page-source"
   [W3 Schools HTML tutorial]: http://www.w3schools.com/html/default.asp
   [W3 Schools HTML5 Tutorial]: http://www.w3schools.com/html/html5_intro.asp

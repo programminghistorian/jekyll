@@ -5,16 +5,16 @@ date: 03-19-2014
 reviewers: Fred Gibbs
 ---
 
-[][]
+![lexoriter][]
 
-[][1]Objectives
-===============
+[][]Objectives
+==============
 
 In this tutorial, you will first learn the basics of Markdown—an easy to
 read and write markup syntax for plain text—as well as [Pandoc][], a
 command line tool that converts plain text into a number of beautifully
 formatted file types: PDF, .docx, HTML, LaTeX, slide decks, and
-more.^[1][2]^ With Pandoc as your digital typesetting tool, you can use
+more.^[1][]^ With Pandoc as your digital typesetting tool, you can use
 Markdown syntax to add figures, a bibliography, formatting, and easily
 change citation styles from Chicago to MLA (for instance), all using
 plain text.
@@ -31,9 +31,9 @@ workflow. The installation of the necessary tools presents perhaps the
 biggest barrier to participation. Allot yourself enough time and
 patience to install everything properly, or do it with a colleague who
 has a similar set-up and help each other out. Consult the [Useful
-Resources][] section below if you get stuck.^[2][3]^
+Resources][] section below if you get stuck.^[2][]^
 
-[][4]Philosophy
+[][3]Philosophy
 ===============
 
 Writing, storing, and retrieving documents are activities central to the
@@ -49,7 +49,7 @@ tools and formats has long-term negative implications for the academic
 community. In such an environment, journals must outsource typesetting,
 alienating authors from the material contexts of publication and adding
 further unnecessary barriers to the unfettered circulation of
-knowledge.^[3][5]^
+knowledge.^[3][4]^
 
 When you use MS Word, Google Docs, or Open Office to write documents,
 what you see is not what you get. Beneath the visible layer of words,
@@ -104,7 +104,7 @@ authorship natively. In the long term, your research will benefit from
 such unified workflows, making it easier to save, search, share, and
 organize your materials.
 
-[][6]Principles
+[][5]Principles
 ===============
 
 Inspired by best practices in a variety of disciplines, we were guided
@@ -159,9 +159,9 @@ Markdown and LaTeX answer all of these requirements. We chose Markdown
 (and not LaTeX) because it offers the most light-weight and clutter free
 syntax (hence, mark *down*) and because when coupled with Pandoc it
 allows for the greatest flexibility in outputs (including .docx and .tex
-files).^[5][7]^
+files).^[5][6]^
 
-[][8]Software Requirements
+[][7]Software Requirements
 ==========================
 
 We purposefully omit some of the granular, platform- or operating
@@ -223,7 +223,7 @@ to complete this tutorial.
     LaTeX was installed correctly (you will get an error if it was not
     and some information on the version if it was).
 
-[][9]Markdown Basics
+[][8]Markdown Basics
 ====================
 
 Markdown is a convention for structuring your plain-text documents
@@ -340,7 +340,7 @@ A sentence that needs a note.[ˆ1]
 As we shall do shortly, this plain text file can be rendered as a very
 nice PDF:
 
-[][10]
+![Screen Shot 2014-03-12 at 4.57.17 PM][]
 
 If you’d like to get an idea of how this kind of markup will be
 interpreted as HTML formatting, try [this online sandbox][] and play
@@ -376,8 +376,8 @@ bibliographies however. To take full advantage of Pandoc, we recommend
 that you stick with simple, plain text files stored locally, on your
 computer.
 
-[][11]Getting in touch with your inner terminal
-===============================================
+[][9]Getting in touch with your inner terminal
+==============================================
 
 Before we can start publishing our `main.md` file into other formats, we
 need to get oriented with working on the command line using your
@@ -420,7 +420,7 @@ automatically move up one level in the directory structure (the parent
 directory of the directory you are currently in). Once you start typing
 the directory name, use the Tab key to auto complete the
 text—particularly useful for long directory names, or directories names
-that contain spaces.^[6][12]^
+that contain spaces.^[6][10]^
 
 These three terminal commands: `pwd`, `ls`, and `cd` are all you need
 for this tutorial. Practice them for a few minutes to navigate your
@@ -428,7 +428,7 @@ documents folder and think about they way you have organized your files.
 If you’d like, follow along with your regular graphical file manager to
 keep your bearings.
 
-[][13]Using Pandoc to convert Markdown to an MS Word document
+[][11]Using Pandoc to convert Markdown to an MS Word document
 =============================================================
 
 We are now ready to typeset! Open your terminal window, use `$ pwd` and
@@ -487,7 +487,7 @@ running something like:
 $ pandoc -H format.sty -o project.pdf --number-sections --toc project.tex
 ```
 
-[][14]Working with Bibliographies
+[][12]Working with Bibliographies
 =================================
 
 In this section, we will add a bibliography to our document and then
@@ -507,7 +507,7 @@ project directory, and give it a reasonable title like “project.bib”.
 The general idea is to keep your sources organized under one centralized
 bibliographic database, while generating specific and much smaller .bib
 files that will live in the same directory as your project. Go ahead and
-open your .bib file with the plain-text editor of your choice. ^[4][15]^
+open your .bib file with the plain-text editor of your choice. ^[4][13]^
 Your .bib file should contain multiple entries that look something like
 this:
 
@@ -578,7 +578,7 @@ you are going to fine-tune the formatting all at once and at later time,
 as close as possible to the time of publication. For now we are just
 creating drafts based on reasonable defaults.
 
-[][16]Changing citation styles
+[][14]Changing citation styles
 ------------------------------
 
 The default citation style in Pandoc is Chicago author-date. We can
@@ -617,7 +617,7 @@ familiar with citation stylesheets, consider adding your custom-tailored
 .csl files for journals in your field to the archive as a service to the
 community.
 
-[][17]Summary
+[][15]Summary
 =============
 
 You should now be able to write papers in Markdown, to create drafts in
@@ -686,55 +686,55 @@ documentation).
     colleagues from Columbia’s Digital Humanities Center, and the
     participants of openLab at the Studio in the Butler library for
     testing the code in this tutorial on a variety of platforms.\
-     [↩][18]
+     [↩][16]
 3.  See Charlie Stross’s excellent discussion of this topic in [Why
     Microsoft Word Must Die][].\
-     [↩][19]
+     [↩][17]
 
 4.  Note that the .bib extension may be “registered” to Zotero in your
     operating system. That means when you click on a .bib file it is
     likely that Zotero will be called to open it, whereas we want to
     open it within a text editor. Eventually, you may want to associate
     the .bib extension with your text editor.\
-     [↩][20]
+     [↩][18]
 
 5.  There are no good solutions for directly arriving at MS Word from
     LaTeX.\
-     [↩][21]
+     [↩][19]
 
 6.  It is a good idea to get into the habit of not using spaces in
     folder or file names. Dashes-or\_underscores instead of spaces in
     your filenames ensure lasting cross-platform compatibility.\
-     [↩][22]
+     [↩][20]
 
-  []: ../images/lexoriter.jpg
-  [1]: #objectives
+  [lexoriter]: ../images/lexoriter.jpg
+  []: #objectives
   [Pandoc]: http://johnmacfarlane.net/pandoc/
-  [2]: #fn:1
+  [1]: #fn:1
   [Useful Resources]: #useful-resources
-  [3]: #fn:2
-  [4]: #philosophy
-  [5]: #fn:3
-  [6]: #principles
-  [7]: #fn:5
-  [8]: #software-requirements
+  [2]: #fn:2
+  [3]: #philosophy
+  [4]: #fn:3
+  [5]: #principles
+  [6]: #fn:5
+  [7]: #software-requirements
   [the Pandoc website]: http://johnmacfarlane.net/pandoc/installing.html
   [our bibliography]: https://github.com/dhcolumbia/pandoc-workflow/blob/master/pandoctut.bib
-  [9]: #markdown-basics
+  [8]: #markdown-basics
   [Pandoc’s Markdown]: http://johnmacfarlane.net/pandoc/demo/example9/pandocs-markdown.html
   [“YAML” block]: http://johnmacfarlane.net/pandoc/README.html#yaml-metadata-block
   [here]: https://github.com/dhcolumbia/pandoc-workflow/sample.md
-  [10]: ../images/Screen-Shot-2014-03-12-at-4.57.17-PM.png
+  [Screen Shot 2014-03-12 at 4.57.17 PM]: ../images/Screen-Shot-2014-03-12-at-4.57.17-PM-1024x621.png
   [this online sandbox]: http://daringfireball.net/projects/markdown/dingus
-  [11]: #getting-in-touch-with-your-inner-terminal
+  [9]: #getting-in-touch-with-your-inner-terminal
   [Command Line Crash Course.]: http://cli.learncodethehardway.org/book/
-  [12]: #fn:6
-  [13]: #using-pandoc-to-convert-markdown-to-an-ms-word-document
+  [10]: #fn:6
+  [11]: #using-pandoc-to-convert-markdown-to-an-ms-word-document
   [Pandoc’s website]: http://johnmacfarlane.net/pandoc/README.html
-  [14]: #working-with-bibliographies
-  [15]: #fn:4
-  [16]: #changing-citation-styles
-  [17]: #summary
+  [12]: #working-with-bibliographies
+  [13]: #fn:4
+  [14]: #changing-citation-styles
+  [15]: #summary
   [site]: https://leanpub.com/
   [mailing list]: https://groups.google.com/forum/#!forum/pandoc-discuss
   [Stack Overflow]: http://stackoverflow.com/questions/tagged/pandoc
@@ -758,9 +758,9 @@ documentation).
   [readthedocs.org]: readthedocs.org
   [↩]: #fnref:1 "return to article"
   [downloaded from GitHub]: https://github.com/dhcolumbia/pandoc-workflow
-  [18]: #fnref:2 "return to article"
+  [16]: #fnref:2 "return to article"
   [Why Microsoft Word Must Die]: http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html
-  [19]: #fnref:3 "return to article"
-  [20]: #fnref:4 "return to article"
-  [21]: #fnref:5 "return to article"
-  [22]: #fnref:6 "return to article"
+  [17]: #fnref:3 "return to article"
+  [18]: #fnref:4 "return to article"
+  [19]: #fnref:5 "return to article"
+  [20]: #fnref:6 "return to article"

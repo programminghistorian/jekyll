@@ -14,14 +14,14 @@ OCR. Take for example, this page from the *Congressional Directory* from
 the 50th Congress (1887). The PDF scan downloaded from [HeinOnline][]
 looks organized:
 
-[][]
+![][]
 
 This is a screenshot of the PDF page.
 
 However, the OCR layer (downloaded as a text file\*) shows that the
 machine-encoded text is not nearly as neat:
 
-[][1]
+![][1]
 
 This is a screenshot of the OCR.
 
@@ -405,8 +405,8 @@ bitty step at a time.
 
   [HeinOnline]: http://home.heinonline.org/
     "Source for Legal and Government-based documents"
-  []: ../images/cd_pdf.png
-  [1]: ../images/cd_txt.png
+  []: ../images/cd_pdf.png "cd_pdf"
+  [1]: ../images/cd_txt.png "cd_txt"
   [pdfminer]: http://www.unixuser.org/~euske/python/pdfminer/index.html
     "PDF Miner Module"
   [Patterns App]: http://krillapps.com/patterns/

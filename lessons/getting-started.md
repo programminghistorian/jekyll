@@ -91,7 +91,7 @@ Mac Instructions
 
     It should look something like this:
 
-    [][]
+    ![][]
 
     Komodo Edit on a Mac
 
@@ -160,7 +160,7 @@ Windows Instructions
 
     It should look something like this:
 
-    [][1]
+    ![Komodo Edit on Windows][]
 
     Komodo Edit on Windows
 
@@ -178,7 +178,7 @@ Windows Instructions
         Select the Python category and set the “Default Python
         Interpreter” (it should be C:\\Python27\\Python.exe)\
          If it looks like this, click OK:
-        [][2]
+        ![Komodo Default Python Interpreter Settings][]
         Default Python Interpreter
     2.  Next choose Toolbox-\>Add-\>New Command. This will open a new
         dialog window. Rename your command to “Run Python“. Under
@@ -192,7 +192,7 @@ Windows Instructions
         because it isn’t receiving a program as input.
 
     3.  Under “Start in,” enter %D If it looks like this, click OK:\
-        [][3]
+        ![Run Python Command Windows][]
         “Run Python” Command
 
     Your new command should appear in the Toolbox pane. You may need to
@@ -285,7 +285,7 @@ created in the previous step to execute your program. If all went well,
 it should look something like this (click on the image to see a
 full-size copy):
 
-[][4]\
+![hello world in Komodo Edit on a Mac][]\
 
 “Hello World” in Python on a Mac
 
@@ -303,7 +303,7 @@ done slightly differently on Mac, Linux and Windows.
 
 #### Mac & Linux Instructions
 
-![][]
+![][1]
 
 You can run a Python shell by launching the “terminal”. On the Mac, open
 the Finder and double-click on Applications -\> Utilities -\> Terminal
@@ -331,7 +331,7 @@ print 'hello world'
 
 On your screen, it will look more like this:
 
-[][5]\
+![hello world terminal on a Mac][]\
 
 Python Shell in Mac Terminal
 
@@ -366,7 +366,7 @@ print 'hello world'
 
 On your screen, it will look more like this:
 
-[][6]
+![Python Shell on Windows][]
 
 Python Shell in Windows
 
@@ -391,11 +391,11 @@ particular effect. You will also want to study HTML source as you write
 programs to manipulate web pages or automatically extract information
 from them.
 
-[][7]\
+![Old Bailey Online screenshot][]\
 
 Old Bailey Online (OBO) Web Page
 
-[][8]\
+![Old Bailey Online page source][]\
 
 HTML Source for OBO Web Page
 
@@ -551,7 +551,7 @@ Python programming, it is probably best to pair these exercises with
 some additional readings. We like Mark Lutz’s Learning Python, 3rd ed.
 Sebastopol, CA: O’Reilly, 2008.
 
--   Lutz, [Learning Python][9]
+-   Lutz, [Learning Python][2]
     -   (optional) Ch. 1: A Python Q&A Session
     -   Ch. 2: How Python Runs Programs
     -   Ch. 3: How You Run Programs
@@ -570,18 +570,25 @@ file to make sure you have the correct code.
   [Komodo Edit]: http://www.activestate.com/komodo-edit
   [Mac Instructions]: ../images/apple-150x150.png
   [Time Machine]: http://support.apple.com/kb/ht1427
-  []: ../images/komodo-edit-mac.png
+  []: ../images/komodo-edit-mac.png "komodo-edit-mac"
   [Windows Instructions]: ../images/windows-150x150.png
-  [1]: ../images/komodo-edit-windows.png
-  [2]: ../images/komodo-python-interpreter.png
-  [3]: ../images/run-python-windows.png
+  [Komodo Edit on Windows]: ../images/komodo-edit-windows.png
+    "komodo-edit-windows"
+  [Komodo Default Python Interpreter Settings]: ../images/komodo-python-interpreter.png
+    "komodo-python-interpreter"
+  [Run Python Command Windows]: ../images/run-python-windows.png
+    "run-python-windows"
   [Linux Instructions]: ../images/linux-150x150.png
-  [4]: ../images/hello-world1.png
-  []: ../images/mac-linux.png
-  [5]: ../images/hello-world-terminal.png
-  [6]: ../images/python-shell-win.png
-  [7]: ../images/obo.png
-  [8]: ../images/obo-page-source.png
+  [hello world in Komodo Edit on a Mac]: ../images/hello-world1.png
+    "hello-world"
+  [1]: ../images/mac-linux.png
+  [hello world terminal on a Mac]: ../images/hello-world-terminal.png
+    "hello-world-terminal"
+  [Python Shell on Windows]: ../images/python-shell-win.png
+    "python-shell-win"
+  [Old Bailey Online screenshot]: ../images/obo.png "obo"
+  [Old Bailey Online page source]: ../images/obo-page-source.png
+    "obo-page-source"
   [W3 Schools HTML tutorial]: http://www.w3schools.com/html/default.asp
   [Zotero]: http://www.zotero.org/
   [Jungle Disk]: https://www.jungledisk.com/
@@ -598,5 +605,5 @@ file to make sure you have the correct code.
   [Python Cookbook]: http://www.worldcat.org/oclc/59007845
   [Stack Overflow]: http://stackoverflow.com/
   [Tutor]: http://mail.python.org/mailman/listinfo/tutor
-  [9]: http://oreilly.com/catalog/9780596513986/
+  [2]: http://oreilly.com/catalog/9780596513986/
   [zip]: ../images/programming-historian.zip
