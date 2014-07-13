@@ -7,4 +7,5 @@ permalink: :title
 safe: true
 pygments: true
 markdown: redcarpet
+redcarpet:
  extensions: ['tables']
