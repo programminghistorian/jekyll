@@ -99,8 +99,7 @@ Figure 6
     with a list of different kinds of fats and the associated list of
     places. This data was created using British import tables from 1896.
 
-[![geo7][]\
-][]
+[![geo7][]][]
 
 Figure 7
 
