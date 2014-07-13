@@ -80,7 +80,7 @@ make it your own.
 Getting the Text
 ----------------
 
-![regex\_ia\_image][]
+[![regex\_ia\_image][]][regex\_ia\_image]
 
 Figure 1: Screenshot of the unstructured text
 
@@ -142,7 +142,7 @@ Mac).
 
 *Replace* “ *with nothing.*
 
-![regex\_01\_findquote][]
+[![regex\_01\_findquote][]][regex\_01\_findquote]
 
 Figure 2: Screenshot of Find and Replace feature
 
@@ -171,7 +171,7 @@ Using find-and-replace,
 
 *replace* - \$ *(hyphen-space-dollar-sign) with nothing.*
 
-![regex\_02\_moreoptions][]
+[![regex\_02\_moreoptions][]][regex\_02\_moreoptions]
 
 Figure 3: The ‘More Options’ tab in Open Office Find & Replace
 
@@ -195,7 +195,7 @@ processing programs) you can turn on nonprinting characters
 (View→Nonprinting Characters with shortcut Ctrl-F10 on Windows or Linux)
 to see line and paragraph breaks.
 
-![regex\_03\_lines][]
+[![regex\_03\_lines][]][regex\_03\_lines]
 
 Figure 4: Non-Printing Characters in LibreOffice
 
@@ -205,7 +205,7 @@ paste it into a blank spreadsheet. This should confirm that each health
 record is now a separate row in the spreadsheet (although we also have
 page headings and footnotes mixed in — we will clean those up shortly).
 
-![regex\_04\_calclines][]
+[![regex\_04\_calclines][]][regex\_04\_calclines]
 
 Figure 5: The improved structure, shown in LibreOffice Calc
 
@@ -258,7 +258,7 @@ Now we see the promising start of a table structure, with geography and
 time span still in column A, but with “Total number of deaths” and
 subsequent text clearly aligned in a separate column.
 
-![regex\_05\_2col][]
+[![regex\_05\_2col][]][regex\_05\_2col]
 
 Figure 6: The newly tab-delimited version of the data shown in
 LibreOffice Calc
@@ -420,7 +420,7 @@ wrapping pattern.
 
 *with* \<t\>\$1\</t\>
 
-![regex\_06\_timemarkup][]
+[![regex\_06\_timemarkup][]][regex\_06\_timemarkup]
 
 Figure 7: Finding time using Regular Expressions
 
@@ -499,7 +499,7 @@ getting a table. We are successfully separating location data into
 cells, but the cells are not aligned vertically yet. We want to get all
 of the time references into the third column.
 
-![regex\_09\_calc\_3col][]
+[![regex\_09\_calc\_3col][]][regex\_09\_calc\_3col]
 
 Figure 8: Measuring progress using LibreOffice Calc
 
@@ -520,7 +520,7 @@ implicitly the same as the row above, and the time span is different.
 
 *with* \\t\\t\<t\> (19 matches)
 
-![regex\_10\_loc\_columns][]
+[![regex\_10\_loc\_columns][]][regex\_10\_loc\_columns]
 
 Figure 9: Further refining the results
 
@@ -549,7 +549,7 @@ sources, and it won’t be the last such example.)
 We can start by making a new row for “cases” lists, so that we can
 handle them separately. Head back to LibreOffice Writer.
 
-![regex\_11\_writer\_cases\_together\_hi][]
+[![regex\_11\_writer\_cases\_together\_hi][]][regex\_11\_writer\_cases\_together\_hi]
 
 Figure 10: Making a new row for ‘cases’
 
@@ -609,14 +609,14 @@ of the way:
 
 *Replace* \</?[tdp]\> *with nothing*
 
-![regex\_17\_writer\_done][]
+[![regex\_17\_writer\_done][]][regex\_17\_writer\_done]
 
 Figure 11: The final view in LibreOffice Writer
 
 Now copy and paste this into Calc, and you should see a (mostly)
 well-structured table.
 
-![regex\_18\_calc\_done][]
+[![regex\_18\_calc\_done][]][regex\_18\_calc\_done]
 
 Figure 12: The final view in LibreOffice Calc
 

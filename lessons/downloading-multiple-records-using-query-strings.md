@@ -58,11 +58,11 @@ target demographic. If we try these two terms in separate simple
 searches on the Old Bailey website, we get results like in these
 screenshots:
 
-![][]\
+[![][]][]\
 
 Search results for “negro” in the Old Bailey Online (click to enlarge)
 
-![][1]\
+[![][1]][]\
 
 Search results for “mulatto” in the Old Bailey Online
 
@@ -97,7 +97,7 @@ Perform the search shown in the image below. Make sure you tick the
 “Advanced” radio button and include the \* wildcards to include
 pluralized entries or those with an extra “e” on the end.
 
-![][2]\
+[![][2]][]\
 
 Old Bailey Advanced Search Example
 
@@ -1193,9 +1193,12 @@ helpful:
   [Automated Downloading with WGET]: http://programminghistorian.org/lessons/automated-downloading-with-wget
   [Benjamin Bowsey’s case]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
   []: ../images/SearchResultsNegro.png "SearchResultsNegro"
+  [![][]]: ../images/SearchResultsNegro.png
   [1]: ../images/SearchResultsMulatto.png "SearchResultsMulatto"
+  [![][1]]: ../images/SearchResultsMulatto.png
   [advanced search form]: http://www.oldbaileyonline.org/forms/formMain.jsp
   [2]: ../images/AdvancedSearchExample.png "AdvancedSearchExample"
+  [![][2]]: ../images/AdvancedSearchExample.png
   [Calculate Total]: http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
   [Viewing HTML Files]: /lessons/viewing-html-files
   [Working with Webpages]: /lessons/working-with-web-pages

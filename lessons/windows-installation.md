@@ -33,7 +33,7 @@ download a copy from the [Komodo Edit website][].
 
 It should look something like this:
 
-![Komodo Edit on Windows][]
+[![Komodo Edit on Windows][]][]
 
 Komodo Edit on Windows
 
@@ -50,13 +50,13 @@ Now you need to set up the editor so that you can run Python programs.
     Select the Python category and set the “Default Python Interpreter”
     (it should be C:\\Python27\\Python.exe)\
      If it looks like this, click OK:\
-    ![Komodo Default Python Interpreter Settings][]
+    [![Komodo Default Python Interpreter Settings][]][]
     Set the Default Python Interpreter
 2.  Next, in the Preferences section select *Internationalization*.
     Select *Python* from the drop-down menu titled *Language-specific
     Default Encoding* and make sure that [UTF-8][] is selected as the
     default encoding method.\
-    ![utf-set][]\
+    [![utf-set][]][utf-set]\
     Set the Language to UTF-8
 
 Next choose Toolbox-\>Add-\>New Command. This will open a new dialog
@@ -75,7 +75,7 @@ Under ‘Start in’, enter:
 
 If it looks like this, click OK:
 
-![Run Python Command Windows][]\
+[![Run Python Command Windows][]][]\
 
 “Run Python” Command
 
@@ -119,7 +119,7 @@ to execute your program. If all went well, it should look something like
 this (Example as seen in Komodo Edit. Click on the image to see a
 full-size copy):
 
-![hello world in Komodo Edit][]
+[![hello world in Komodo Edit][]][]
 
 ### Interacting with a Python shell
 
@@ -153,7 +153,7 @@ print 'hello world'
 
 On your screen, it will look more like this:
 
-![Python Shell on Windows][]
+[![Python Shell on Windows][]][]
 
 Python Shell in Windows
 
@@ -166,13 +166,18 @@ order, we suggest you next try ‘[Viewing HTML Files][]‘
   [Komodo Edit website]: http://www.activestate.com/komodo-edit
   [Komodo Edit on Windows]: ../images/komodo-edit-windows.png
     "komodo-edit-windows"
+  [![Komodo Edit on Windows][]]: ../images/komodo-edit-windows.png
   [Komodo Default Python Interpreter Settings]: ../images/komodo-python-interpreter.png
     "komodo-python-interpreter"
+  [![Komodo Default Python Interpreter Settings][]]: ../images/komodo-python-interpreter.png
   [UTF-8]: http://en.wikipedia.org/wiki/UTF-8
   [utf-set]: ../images/utf-set.jpg
   [Run Python Command Windows]: ../images/run-python-windows.png
     "run-python-windows"
+  [![Run Python Command Windows][]]: ../images/run-python-windows.png
   [hello world in Komodo Edit]: ../images/hello-world1.png "hello-world"
+  [![hello world in Komodo Edit][]]: ../images/hello-world1.png
   [Python Shell on Windows]: ../images/python-shell-win.png
     "python-shell-win"
+  [![Python Shell on Windows][]]: ../images/python-shell-win.png
   [Viewing HTML Files]: /lessons/viewing-html-files

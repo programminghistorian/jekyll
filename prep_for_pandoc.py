@@ -17,7 +17,7 @@ files = os.listdir(in_path)
 
 for file in files:
     if file.endswith('.html'):
-        print "Trying: " + str(file)
+        print "Converting: " + str(file)
     
         # open the file, make soup
         f = open(in_path + '/' + file, 'r')
@@ -91,6 +91,5 @@ for file in files:
         # write new HTML to file
         f = open(out_path + '/' + file, 'w')
         f.write(str(soup))
-        print "Successful: " + str(file)
         f.close
     

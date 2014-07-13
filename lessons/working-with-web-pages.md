@@ -92,7 +92,7 @@ in eighteenth century Britain. [The Old Bailey Online][Old Bailey
 Online] (OBO) is a rich resource that provides trial transcripts from
 1674 to 1913 and is one good place to seek sources.
 
-![Old][]\
+[![Old][]][]\
 
 The Old Bailey Online Homepage 
 
@@ -114,7 +114,7 @@ in this case: 33. If you change the two instances of 33 to 34 in your
 browser and press Enter, you should be taken to the next trial.
 Unfortunately, not all websites have such readable and reliable URLs.
 
-![][]\
+[![][]][]\
 
 Trial Transcript Page of Benjamin Bowsey, 1780.
 
@@ -249,8 +249,10 @@ file to make sure you have the correct code.
   [Old Bailey Online]: http://www.oldbaileyonline.org/
   [Downloading Multiple Records Using Query Strings]: http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings
   [Old]: ../images/old-bailey.png "Old"
+  [![Old][]]: ../images/old-bailey.png
   [Gordon Riots]: http://en.wikipedia.org/wiki/Gordon_Riots
   []: ../images/bowsey-trial-page.png "bowsey-trial-page"
+  [![][]]: ../images/bowsey-trial-page.png
   [View as XML]: http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes
   [scan of the original document]: http://www.oldbaileyonline.org/images.jsp?doc=178006280084
   [Print-friendly version]: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33

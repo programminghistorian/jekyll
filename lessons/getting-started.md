@@ -91,7 +91,7 @@ Mac Instructions
 
     It should look something like this:
 
-    ![][]
+    [![][]][]
 
     Komodo Edit on a Mac
 
@@ -160,7 +160,7 @@ Windows Instructions
 
     It should look something like this:
 
-    ![Komodo Edit on Windows][]
+    [![Komodo Edit on Windows][]][]
 
     Komodo Edit on Windows
 
@@ -178,7 +178,7 @@ Windows Instructions
         Select the Python category and set the “Default Python
         Interpreter” (it should be C:\\Python27\\Python.exe)\
          If it looks like this, click OK:
-        ![Komodo Default Python Interpreter Settings][]
+        [![Komodo Default Python Interpreter Settings][]][]
         Default Python Interpreter
     2.  Next choose Toolbox-\>Add-\>New Command. This will open a new
         dialog window. Rename your command to “Run Python“. Under
@@ -192,7 +192,7 @@ Windows Instructions
         because it isn’t receiving a program as input.
 
     3.  Under “Start in,” enter %D If it looks like this, click OK:\
-        ![Run Python Command Windows][]
+        [![Run Python Command Windows][]][]
         “Run Python” Command
 
     Your new command should appear in the Toolbox pane. You may need to
@@ -285,7 +285,7 @@ created in the previous step to execute your program. If all went well,
 it should look something like this (click on the image to see a
 full-size copy):
 
-![hello world in Komodo Edit on a Mac][]\
+[![hello world in Komodo Edit on a Mac][]][]\
 
 “Hello World” in Python on a Mac
 
@@ -331,7 +331,7 @@ print 'hello world'
 
 On your screen, it will look more like this:
 
-![hello world terminal on a Mac][]\
+[![hello world terminal on a Mac][]][]\
 
 Python Shell in Mac Terminal
 
@@ -366,7 +366,7 @@ print 'hello world'
 
 On your screen, it will look more like this:
 
-![Python Shell on Windows][]
+[![Python Shell on Windows][]][]
 
 Python Shell in Windows
 
@@ -391,11 +391,11 @@ particular effect. You will also want to study HTML source as you write
 programs to manipulate web pages or automatically extract information
 from them.
 
-![Old Bailey Online screenshot][]\
+[![Old Bailey Online screenshot][]][]\
 
 Old Bailey Online (OBO) Web Page
 
-![Old Bailey Online page source][]\
+[![Old Bailey Online page source][]][]\
 
 HTML Source for OBO Web Page
 
@@ -571,24 +571,33 @@ file to make sure you have the correct code.
   [Mac Instructions]: ../images/apple-150x150.png
   [Time Machine]: http://support.apple.com/kb/ht1427
   []: ../images/komodo-edit-mac.png "komodo-edit-mac"
+  [![][]]: ../images/komodo-edit-mac.png
   [Windows Instructions]: ../images/windows-150x150.png
   [Komodo Edit on Windows]: ../images/komodo-edit-windows.png
     "komodo-edit-windows"
+  [![Komodo Edit on Windows][]]: ../images/komodo-edit-windows.png
   [Komodo Default Python Interpreter Settings]: ../images/komodo-python-interpreter.png
     "komodo-python-interpreter"
+  [![Komodo Default Python Interpreter Settings][]]: ../images/komodo-python-interpreter.png
   [Run Python Command Windows]: ../images/run-python-windows.png
     "run-python-windows"
+  [![Run Python Command Windows][]]: ../images/run-python-windows.png
   [Linux Instructions]: ../images/linux-150x150.png
   [hello world in Komodo Edit on a Mac]: ../images/hello-world1.png
     "hello-world"
+  [![hello world in Komodo Edit on a Mac][]]: ../images/hello-world1.png
   [1]: ../images/mac-linux.png
   [hello world terminal on a Mac]: ../images/hello-world-terminal.png
     "hello-world-terminal"
+  [![hello world terminal on a Mac][]]: ../images/hello-world-terminal.png
   [Python Shell on Windows]: ../images/python-shell-win.png
     "python-shell-win"
+  [![Python Shell on Windows][]]: ../images/python-shell-win.png
   [Old Bailey Online screenshot]: ../images/obo.png "obo"
+  [![Old Bailey Online screenshot][]]: ../images/obo.png
   [Old Bailey Online page source]: ../images/obo-page-source.png
     "obo-page-source"
+  [![Old Bailey Online page source][]]: ../images/obo-page-source.png
   [W3 Schools HTML tutorial]: http://www.w3schools.com/html/default.asp
   [Zotero]: http://www.zotero.org/
   [Jungle Disk]: https://www.jungledisk.com/

@@ -99,7 +99,8 @@ Figure 6
     with a list of different kinds of fats and the associated list of
     places. This data was created using British import tables from 1896.
 
-![geo7][]\
+[![geo7][]\
+][]
 
 Figure 7
 
@@ -116,7 +117,7 @@ Figure 8
 -   You should now have a global map of the major exporters of fat to
     Britain during the mid-1890s.
 
-![geo9][]\
+[![geo9][]][]\
 
 Figure 9. Click to see full size image
 
@@ -348,7 +349,7 @@ exported.
     See the red arrows in the following image for the location of these
     layers.
 
-![geo23][]\
+[![geo23][]][]\
 
 Figure 23: Click to see full-size image.
 
@@ -394,7 +395,7 @@ Figure 26
 
 Figure 27
 
-![geo28][]
+[![geo28][]][]
 
 Figure 28: Click to see full-size image
 
@@ -424,7 +425,7 @@ Figure 28: Click to see full-size image
 -   Double click on the KML file in your Download folder.
 -   Find the data in the Temporary Folder in Google Earth.
 
-![geo29][]\
+[![geo29][]][]\
 
 Figure 29: Click to see full-size image
 
@@ -452,7 +453,7 @@ Figure 30
     in the next image. Find Lake St. Clair (east of Detroit) and try
     adding a polygon.
 
-![geo31][]\
+[![geo31][]][]\
 
 Figure 31: Click to see full-size image.
 
@@ -515,7 +516,7 @@ Figure 37
 -   A new window will appear. Begin by giving it a different title if
     you wish (the default is ‘Untitled Image Overlay’).
 
-![geo39][]\
+[![geo39][]][]\
 
 Figure 39: Click to see full-size image.
 
@@ -538,7 +539,7 @@ Figure 39: Click to see full-size image.
     Project).**\
     **
 
-![geo40][]\
+[![geo40][]][]\
 
 Figure 40: Click to see full-size image.
 
@@ -573,8 +574,11 @@ your work!**
   [geo6]: ../images/geo6.png
   [UK Global Fat Supply CSV file]: https://www.dropbox.com/s/7xv11vd7dz2afud/UK%20Global%20Fat%20Supply%201894-1896%20-%20Sheet1.csv
   [geo7]: ../images/geo7.png
+  [![geo7][]\
+  ]: http://geospatialhistorian.files.wordpress.com/2013/02/spreadsheetimage.png
   [geo8]: ../images/geo8.png
   [geo9]: ../images/geo9-300x120.png
+  [![geo9][]]: ../images/geo9.png
   [geo10]: ../images/geo10.png
   [geo11]: ../images/geo11.png
   [geo12]: ../images/geo12.png
@@ -590,6 +594,7 @@ your work!**
   [geo21]: ../images/geo21.png
   [geo22]: ../images/geo22.png
   [geo23]: ../images/geo23-296x300.png
+  [![geo23][]]: ../images/geo23.png
   [geo24]: ../images/geo24.png
   [www.davidrumsey.com]: http://www.davidrumsey.com/
   [geo25]: ../images/geo25.png
@@ -597,11 +602,14 @@ your work!**
   [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
   [geo27]: ../images/geo27.png
   [geo28]: ../images/geo28-300x277.png
+  [![geo28][]]: ../images/geo28.png
   [Maps Engine Lite]: https://mapsengine.google.com/map/
   [Seaway map]: https://maps.google.ca/maps/ms?ie=UTF8&hl=en&t=h&source=embed&authuser=0&msa=0&output=kml&msid=205929035855498240131.00049c08869a03cc5ea0d
   [geo29]: ../images/geo29-300x129.png
+  [![geo29][]]: ../images/geo29.png
   [geo30]: ../images/geo30.png
   [geo31]: ../images/geo31-300x173.png
+  [![geo31][]]: ../images/geo31.png
   [geo32]: ../images/geo32.png
   [geo33]: ../images/geo33.png
   [geo34]: ../images/geo34.png
@@ -612,5 +620,7 @@ your work!**
   [geo37]: ../images/geo37.png
   [geo38]: ../images/geo38.png
   [geo39]: ../images/geo39-300x145.png
+  [![geo39][]]: ../images/geo39.png
   [geo40]: ../images/geo40-300x217.png
+  [![geo40][]]: ../images/geo40.png
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

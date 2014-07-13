@@ -49,7 +49,7 @@ Edit website][]. Install it from the .DMG file
 
     It should look something like this:
 
-    ![][]
+    [![][]][]
 
 Komodo Edit on a Mac
 
@@ -115,7 +115,7 @@ to execute your program. If you are using TextWrangler, click on the
 “\#!” button and Run. If all went well, it should look something like
 this:
 
-![TextWrangler-hello-world][]
+[![TextWrangler-hello-world][]][TextWrangler-hello-world]
 
 “Hello World” in Python on a Mac
 
@@ -152,7 +152,7 @@ print 'hello world'
 
 On your screen, it will look more like this:
 
-![hello world terminal on a Mac][]
+[![hello world terminal on a Mac][]][]
 
 Python Shell in Mac Terminal
 
@@ -167,7 +167,9 @@ order, we suggest you next try ‘[Viewing HTML Files][]‘
   [TextWrangler]: http://www.barebones.com/products/textwrangler/
   [Komodo Edit website]: http://www.activestate.com/komodo-edit
   []: ../images/komodo-edit-mac.png "komodo-edit-mac"
+  [![][]]: ../images/komodo-edit-mac.png
   [TextWrangler-hello-world]: ../images/TextWrangler-hello-world.png
   [hello world terminal on a Mac]: ../images/hello-world-terminal.png
     "hello-world-terminal"
+  [![hello world terminal on a Mac][]]: ../images/hello-world-terminal.png
   [Viewing HTML Files]: /lessons/viewing-html-files
