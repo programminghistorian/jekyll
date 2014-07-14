@@ -16,7 +16,7 @@ website. Learn how to use them.
 
 -   [Intro to the Zotero API](../lessons/intro-to-the-zotero-api) <div class="toc-author"> Amanda Morton</div>
 -   [Creating New Items in Zotero](../lessons/creating-new-items-in-zotero) <div class="toc-author">Amanda Morton</div>
--   [Counting Frequencies from Zotero Items](../counting-frequencies-from-zotero-items) <div class="toc-author">Spencer Roberts</div>
+-   [Counting Frequencies from Zotero Items](../lessons/counting-frequencies-from-zotero-items) <div class="toc-author">Spencer Roberts</div>
 
 Data Management
 ---------------
