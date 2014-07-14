@@ -60,7 +60,7 @@ for file in files:
         date_tag.attrs['name'] = 'date'
         if date:
             date_str = time.strptime(date.string, '%B %d, %Y')
-            date_tag.attrs['content'] = time.strftime('%m-%d-%Y', date_str)
+            date_tag.attrs['content'] = time.strftime('%Y-%m-%d', date_str)
         
         # create new layout tag
         layout_tag = soup.new_tag('meta')

@@ -1,7 +1,7 @@
 ---
 title: Creating an Omeka.net Exhibit
 author: Miriam Posner
-date: 04-24-2013
+date: 24-04-2013
 reviewers: Adam Crymble, Sheila Brennan
 layout: default
 ---

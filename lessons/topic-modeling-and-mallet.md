@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Topic Modeling and MALLET
 author: Shawn Graham, Scott Weingart, and Ian Milligan
-date: 09-02-2012
+date: 02-09-2012
 reviewers: John Fink, Alan MacEachern and Adam Crymble
 layout: default
 ---

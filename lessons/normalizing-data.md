@@ -1,7 +1,7 @@
 ---
 title: Normalizing Data
 author: William J. Turkel & Adam Crymble
-date: 07-17-2012
+date: 17-07-2012
 reviewers: Miriam Posner, Jim Clifford, Francesca Benatti
 layout: default
 ---

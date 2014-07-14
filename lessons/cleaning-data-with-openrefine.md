@@ -1,7 +1,7 @@
 ---
 title: Cleaning Data with OpenRefine
 author: Seth van Hooland, Ruben Verborgh, Max De Wilde
-date: 08-05-2013
+date: 05-08-2013
 reviewers: Adam Crymble, Patrick Burns, Nora McGregor
 layout: default
 ---
