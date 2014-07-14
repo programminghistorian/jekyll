@@ -1,5 +1,5 @@
 /* ADD LINE NUMBERS TO CODE BLOCKS */
-(function() {
+(function($) {
     var pre = document.getElementsByTagName('pre'),
         pl = pre.length;
     for (var i = 0; i < pl; i++) {
@@ -10,4 +10,4 @@
             line_num.innerHTML += '<span>' + (j + 1) + '</span>';
         }
     }
-})();
+})(jQuery);
