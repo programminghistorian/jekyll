@@ -71,30 +71,6 @@
   /* Improve readability of pre-formatted text in all browsers */
   pre { white-space: pre; word-wrap: normal; overflow: auto; margin:0 0 1em; padding:.5em 1em;}
 
-pre code,
-pre .line-number {
-  /* Ukuran line-height antara teks di dalam tag <code> dan <span class="line-number"> harus sama! */
-  font:normal normal 12px/14px "Courier New",Courier,Monospace;
-  display:block;
-}
-
-pre .line-number {
-  float:left;
-  margin:0 1em 0 -1em;
-  border-right:1px solid;
-  text-align:right;
-}
-
-pre .line-number span {
-  display:block;
-  padding:0 .5em 0 1em;
-}
-
-pre .cl {
-  display:block;
-  clear:both;
-}
-
   q { quotes: none; }
   q:before, q:after { content: ""; content: none; }
 
