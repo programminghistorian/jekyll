@@ -454,11 +454,11 @@ us search for class followed by an underscore: class\_=”value”.
 Beautiful Soup objects’ .find\_all() method will generate a Python list
 of Beautiful Soup objects that match the HTML tags or attributes set as
 parameters. The method .get\_text() extracts just the text from
-Beautiful Soup objects, so ”\
- \<p class=”name”\>\<a name=”n1″\>\</a\>A-Aku Tulikovich\</p\>\
- “.get\_text() will become “A-Aku Tulikovich “. We need to use
-.get\_text() on each item in the list, then append it to a new list
-containing just the names:
+Beautiful Soup objects, so
+`” <p class=”name”><a name=”n1″></a>A-Aku Tulikovich</p> “.get_text()`{.userinput}
+will become “A-Aku Tulikovich “. We need to use .get\_text() on each
+item in the list, then append it to a new list containing just the
+names:
 
 ``` python
 #creating the final names list

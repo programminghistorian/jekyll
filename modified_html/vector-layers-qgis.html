@@ -53,31 +53,31 @@
 <li>PEI-CumminsMap1927</li>
 </ul>
 <p>Uncheck all of these layer except for PEI_placenames, coastline_polygon and PEI_CumminsMap1927</p>
-<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/pei1.png"><img alt="pei1" class="alignnone size-medium wp-image-2324" height="207" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei1-300x207.png" width="300"/></a> <figcaption>Figure 1: Click to see full size image.</figcaption></figure>
+<p><img alt="pei1" class="alignnone size-medium wp-image-2324" height="207" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei1.png" width="300"/> <p>Figure 1: Click to see full size image.</p></p>
 <p>We are now going to add a second historical map as a raster layer.</p>
-<figure><img alt="pei2" class="alignnone size-full wp-image-2325" height="444" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei2.png" width="55"/> <figcaption>Figure 2</figcaption></figure>
+<p><img alt="pei2" class="alignnone size-full wp-image-2325" height="444" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei2.png" width="55"/> <p>Figure 2</p></p>
 <ul>
 <li>under Layer on toolbar, choose Add Raster Layer (alternatively the same icon you see next to ‘Add Raster Layer’ can also be selected from tool bar)</li>
 <li>find the file you have downloaded titled ‘PEI_HollandMap1798′</li>
 <li>you will be prompted to define this layer’s coordinate system. In the Filter box search for ’2291′ then in the box below select ‘NAD83(CSRS98) / Prince Edward Isl. Stereographic’</li>
 <li>If you are not prompted to define the layer’s coordinate system, you need to change a setting. Click Settings and then Options. Click CRS on the right hand menu and then choose ‘Prompt for CRS’ from the options below ‘When a new layer is created, or when a layer is loaded that has no CRS’. Click OK. Remove the Holland Map (right click on it and click Remove) and try adding it again. This time you should be prompted for a CRS and you can select the NAD83 option (see above).</li>
 </ul>
-<figure><img alt="pei3" class="alignnone size-full wp-image-2326" height="598" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei3.png" width="847"/> <figcaption>Figure 3</figcaption></figure>
+<p><img alt="pei3" class="alignnone size-full wp-image-2326" height="598" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei3.png" width="847"/> <p>Figure 3</p></p>
 <p>In previous steps you have selected and unselected layers in the Layers window by checking and unchecking the boxes next to them. These layers are organized in descending order of visibility – i.e. the layer at the top is the top layer in your viewer window (provided it is selected). You can drag the layers up and down in the Layer window to change the order in which they will be visible on your viewing window. The coastline_polygon raster layer is currently not visible because it is below the PEI_HollandMap1798 and PEI_Cummins1927 layers. In general it is best to keep vector layers above the raster layers.</p>
 <p>Uncheck PEI_Cummins1927 so that the only layer you have remaining is PEI_HollandMap1798. Note that the map appears crooked on the screen; this is because it has already been georeferenced by the lesson writers to match the GIS vector layers. Learn more about georeferencing in <a href="/lessons/georeferencing-qgis">Georeferencing in QGIS 2.0</a>.</p>
-<figure><img alt="pei4" class="alignnone size-full wp-image-2327" height="444" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei4.png" width="55"/> <figcaption>Figure 4</figcaption></figure>
+<p><img alt="pei4" class="alignnone size-full wp-image-2327" height="444" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei4.png" width="55"/> <p>Figure 4</p></p>
 <p>We will now create a point shapefile, which is a vector layer. Click Layer -&gt; New -&gt; New Shapefile Layer</p>
 <ul>
 <ul>
 <li>alternatively you can select the New Shapefile Layer icon on the top of the QGIS toolbar window</li>
 </ul>
 </ul>
-<figure><img alt="pei5" class="alignnone size-full wp-image-2328" height="399" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei5.png" width="485"/> <figcaption>Figure 5</figcaption></figure>
+<p><img alt="pei5" class="alignnone size-full wp-image-2328" height="399" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei5.png" width="485"/> <p>Figure 5</p></p>
 <p>After selecting New Shapefile Layer, a window titled New Vector Layer appears</p>
 <ul>
 <li>In the Type category, Point is already selected for you. Click the Specify CRS button, and select NAD83(CSRS98) / Prince Edward Isl. Stereographic (EPSG: 2291), and then click OK (for information on understanding and selecting UTM zone: <a href="http://www.lib.uwaterloo.ca/locations/umd/digital/clump_classes.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.lib.uwaterloo.ca']);" target="_blank">http://www.lib.uwaterloo.ca/locations/umd/digital/clump_classes.html</a>)</li>
 </ul>
-<figure><a href="http://programminghistorian.org/wp-content/uploads/2013/12/pei6.png"><img alt="pei6" class="alignnone size-medium wp-image-2329" height="168" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei6-300x168.png" width="300"/></a> <figcaption>Figure 6: Click to see full size image.</figcaption></figure>
+<p><img alt="pei6" class="alignnone size-medium wp-image-2329" height="168" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei6.png" width="300"/> <p>Figure 6: Click to see full size image.</p></p>
 <p>Returning to the New Vector Layer window, we are going to make some attributes. To create the first attribute:</p>
 <ul>
 <li>under New attribute, in the field beside Name, type in ‘Settlement_Name’ (note that when working in databases you cannot use empty spaces in names so the convention is to use underscores in their place)</li>
@@ -95,30 +95,30 @@
 <li>change the Type again to Whole Number</li>
 <li>click Add to attribute list</li>
 </ul>
-<figure><img alt="pei7" class="alignnone size-full wp-image-2330" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei7.png" width="500"/> <figcaption>Figure 7</figcaption></figure>
+<p><img alt="pei7" class="alignnone size-full wp-image-2330" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei7.png" width="500"/> <p>Figure 7</p></p>
 <ul>
 <li>When you complete these three steps, finish creating this shapefile by clicking OK on the bottom right of the New Vector Layer window. A ‘save’ screen pops up – name it ‘settlements’ and save it with your other GIS files.</li>
 </ul>
 <p>Note that a layer called ‘settlements’ now appears in your Layers window. Relocate it above the raster layers.</p>
-<figure><img alt="pei8" class="alignnone size-full wp-image-2331" height="198" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei8.png" width="337"/> <figcaption>Figure 8</figcaption></figure>
-<p>Uncheck all layers except settlements. You will notice that your viewing window is now blank as we have not created any data. We will now create new data from both the <span class="filename">PEI_HollandMap 1798</span> and the <span class="filename">PEI_CumminsMap1927</span> to show the increase in settlement between the late 18th and early 20th centuries.</p>
+<p><img alt="pei8" class="alignnone size-full wp-image-2331" height="198" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei8.png" width="337"/> <p>Figure 8</p></p>
+<p>Uncheck all layers except settlements. You will notice that your viewing window is now blank as we have not created any data. We will now create new data from both the <code class="filename">PEI_HollandMap 1798</code> and the <code class="filename">PEI_CumminsMap1927</code> to show the increase in settlement between the late 18th and early 20th centuries.</p>
 <ul>
 <li>we will begin with the more recent, and thus usually more accurate, map. Reselect (i.e. check the boxes beside) coastline_polygon and PEI_CumminsMap1927</li>
 <li>in your viewing window, zoom in to Charlottetown (hint: Charlottetown is near the middle of the island on the south side, at the confluence of three rivers)</li>
 <li>select settlements layer in Layers window</li>
 <li>on the menu bar, select Toggle Editing</li>
 </ul>
-<figure><img alt="pei9" class="alignnone size-full wp-image-2316" height="108" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei9.png" width="678"/> <figcaption>Figure 9</figcaption></figure>
+<p><img alt="pei9" class="alignnone size-full wp-image-2316" height="108" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei9.png" width="678"/> <p>Figure 9</p></p>
 <ul>
 <li>After selecting Toggle Editing, editing buttons will become available to the right along the menu bar. Select the 3 dot feature button.</li>
 </ul>
-<figure><img alt="pei10" class="alignnone size-full wp-image-2317" height="43" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei10.png" width="50"/> <figcaption>Figure 10</figcaption></figure>
+<p><img alt="pei10" class="alignnone size-full wp-image-2317" height="43" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei10.png" width="50"/> <p>Figure 10</p></p>
 <ul>
 <li>Your cursor now appears as a crosshair – point the crosshair at Charlottetown (if you don’t happen to know PEI’s geography, you can cheat by adding on the PEI_placenames layer) keeping it within the modern day coastline, and click (digitization is always a compromise between accuracy and functionality; depending on the quality of the original map and the digitization, for most historical applications extreme accuracy is not necessary).</li>
 <li>An Attributes window will appear. Leave id field blank (at time of writing, QGIS appears to be making two id fields and this one is unnecessary). In Settlement field, type in ‘Charlottetown’. In the Year field type in 1764. Click OK</li>
 </ul>
 <p>We will now repeat the steps we took with Charlottetown for Montague, Summerside, and Cavendish (again, you can find these locations by adding the PEI_placenames layers). Find Montague on the map, select the 3 dot feature button and click on Montague on the map. When the Attributes window appears, input Montague and 1732 in the appropriate fields. Repeat for Summerside (1876) and Cavendish (1790).</p>
-<figure><img alt="pei11" class="alignnone size-full wp-image-2318" height="360" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei11.png" width="446"/> <figcaption>Figure 11</figcaption></figure>
+<p><img alt="pei11" class="alignnone size-full wp-image-2318" height="360" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei11.png" width="446"/> <p>Figure 11</p></p>
 <p>In the Layers window, unselect the PEI_CumminsMap1927 and select PEI_HollandMap1798. We are now going to identify two settlements (Princetown &amp; Havre-St-Pierre) that no longer exist.</p>
 <ul>
 <li>To locate Princetown, look for Richmond Bay and Cape Aylebsury (on the north coast to the west of Cavendish), here you will find Princetown (shaded-in) near the boundary between the yellow and the blue</li>
@@ -129,7 +129,7 @@
 <ul>
 <li>With the crosshair click on Princetown. In the Attribute table that appears, put Princetown in the Settlement field, put 1764 into the Year field, and put 1947 into the End_Year. Click OK</li>
 </ul>
-<figure><img alt="pei12" class="alignnone size-full wp-image-2319" height="363" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei12.png" width="446"/> <figcaption>Figure 12</figcaption></figure>
+<p><img alt="pei12" class="alignnone size-full wp-image-2319" height="363" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei12.png" width="446"/> <p>Figure 12</p></p>
 <ul>
 <li>Click on Save Edits icon on the menu bar (it is between Toggle and Add Feature)</li>
 </ul>
@@ -143,7 +143,7 @@
 <ul>
 <li>With the crosshair click on Havre-St. Pierre. In the Attribute table that appears, put Havre-St-Pierre in the Settlement field, put 1720 into the Year field, and put 1758 into the End_Year. Click OK</li>
 </ul>
-<figure><img alt="pei13" class="alignnone size-full wp-image-2320" height="249" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei13.png" width="450"/> <figcaption>Figure 13</figcaption></figure>
+<p><img alt="pei13" class="alignnone size-full wp-image-2320" height="249" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei13.png" width="450"/> <p>Figure 13</p></p>
 <p>We will now now create another vector layer – this layer will be a line vector. Click Layer -&gt; New -&gt; New Shapefile Layer. The New Vector Layer window will appear (in the Type category at the top, select Line)</p>
 <ul>
 <li>Click the Specify CRS button, and select NAD83(CSRS98) / Prince Edward Isl. Stereographic (EPSG: 2291), and then click OK</li>
@@ -158,17 +158,17 @@
 <li>To finish creating this shapefile, click OK on the bottom right of the New Vector Layer window. A ‘save’ screen pops up – name it ‘roads’ and save it with your other GIS files.</li>
 </ul>
 <p>We are now going to trace the roads from the 1798 map so that we can compare them to the modern roads. Make that you have the PEI_Holland1798 and settlements layers checked in the Layers window. Select road layer in the layers window, select Toggle Editing on the top toolbar, and then select Add Feature</p>
-<figure><img alt="pei14" class="alignnone size-full wp-image-2321" height="42" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei14.png" width="53"/> <figcaption>Figure 14</figcaption></figure>
+<p><img alt="pei14" class="alignnone size-full wp-image-2321" height="42" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei14.png" width="53"/> <p>Figure 14</p></p>
 <ul>
 <li>First trace the road from Charlottetown to Princetown. Click on Charlottetown and then click repeatedly at points along the road to Princetown and you will see the line being created. Repeat until you arrive at Princetown, then right-click. In the resulting Attributes – road window, in the Name field enter “to Princetown” and in the Year field enter 1798. Click OK</li>
 </ul>
-<figure><img alt="pei15" class="alignnone size-full wp-image-2322" height="342" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei15.png" width="450"/> <figcaption>Figure 15</figcaption></figure>
+<p><img alt="pei15" class="alignnone size-full wp-image-2322" height="342" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei15.png" width="450"/> <p>Figure 15</p></p>
 <ul>
 <li>repeat this step for 3 to 4 more roads found on the PEI_HollandMap1798.</li>
 <li>click Save Edits and then click Toggle Editing to turn it off</li>
 </ul>
 <p>Deselect the PEI_HollandMap1798 in the Layers window and select the PEI_highway map. Compare the roads represented in the PEI_highway map (the red dotted lines) to the roads you have just traced.</p>
-<figure><img alt="pei16" class="alignnone size-full wp-image-2323" height="395" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei16.png" width="450"/> <figcaption>Figure 16</figcaption></figure>
+<p><img alt="pei16" class="alignnone size-full wp-image-2323" height="395" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei16.png" width="450"/> <p>Figure 16</p></p>
 <ul>
 <li>We can see that some of these roads correspond closely to modern roads, while others do not at all correspond. It would take further historical research to determine whether this is simply because the Holland map did not sufficiently survey roads at the time, or if roads have changed considerably since then.</li>
 </ul>
@@ -184,30 +184,30 @@
 <li>change the Type to Whole Number</li>
 <li>click Add to attribute list</li>
 </ul>
-<figure><img alt="pei7" class="alignnone size-full wp-image-2330" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei7.png" width="500"/> <figcaption>Figure 17</figcaption></figure>
+<p><img alt="pei7" class="alignnone size-full wp-image-2330" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei7.png" width="500"/> <p>Figure 17</p></p>
 <p>Start by creating a polygon for lot 66, which is the only rectangular lot on the island</p>
 <ul>
 <li>Click on Toggle Editing on top tool bar, and then click on Add Feature</li>
 <li>click on all four corners of lot 66 and you will see a polygon created</li>
 <li>right-click on the final corner and an Attributes window will appear. Add 66 to lot_names field and add 1764 (the year these lots were surveyed) to the Year field</li>
 </ul>
-<figure><img alt="pei18" class="alignnone size-full wp-image-2312" height="364" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei18.png" width="450"/> <figcaption>Figure 18</figcaption></figure>
+<p><img alt="pei18" class="alignnone size-full wp-image-2312" height="364" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei18.png" width="450"/> <p>Figure 18</p></p>
 <p>We are now going to trace lot 38, which is just west of Havre-St-Pierre. Make sure that there is a check mark in the box beside PEI_HollandMap1798 layer in the Layers window</p>
 <p>Click on Toggle Editing on top tool bar, and then click on Add Feature</p>
 <p>Trace the outline of Lot 38, which is more difficult because of the coastline, as accurately as possible. In order to show you the Snap feature<em></em>, we want you to trace along the modern coastline (snapping is an automatic editing operation that adjusts the feature you have drawn to coincide or lineup exactly with the coordinates and shape of another nearby feature)</p>
 <ul>
 <li>select Settings-&gt; Snapping Options</li>
 </ul>
-<figure><img alt="pei19" class="alignnone size-full wp-image-2313" height="176" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei19.png" width="450"/> <figcaption>Figure 19</figcaption></figure>
+<p><img alt="pei19" class="alignnone size-full wp-image-2313" height="176" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei19.png" width="450"/> <p>Figure 19</p></p>
 <ul>
 <li>a Snapping options window will open: click on the box beside coastal_polygon, for the Mode category select “to vertex and segment”, for Tolerance select 10.0, and for Units select ‘pixels’. Click OK</li>
 </ul>
-<figure><img alt="pei20" class="alignnone size-full wp-image-2314" height="271" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei20.png" width="721"/> <figcaption>Figure 20</figcaption></figure>
+<p><img alt="pei20" class="alignnone size-full wp-image-2314" height="271" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei20.png" width="721"/> <p>Figure 20</p></p>
 <p>Make sure that the lots layer is selected in Layers window, and select Add Feature from the tool bar</p>
 <ul>
 <li>with your cursor click on the two bottom corners of your polygon just as you did with Lot 38. At the coastline you will notice that you have a collection of lines to trace around Savage Harbour. This is where the Snapping features becomes helpful. As you work to trace along the modern coastline it will significantly improve your accuracy by snapping your clicks directly on top of the existing line. The more clicks you make the more accurate it will be, but keep in mind that for many HGIS purposes obtaining extreme accuracy sometimes produces diminishing returns.</li>
 </ul>
-<figure><img alt="pei21" class="alignnone size-full wp-image-2315" height="394" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei21.png" width="450"/> <figcaption>Figure 21</figcaption></figure>
+<p><img alt="pei21" class="alignnone size-full wp-image-2315" height="394" src="http://programminghistorian.org/wp-content/uploads/2013/12/pei21.png" width="450"/> <p>Figure 21</p></p>
 <p>When you finish tracing and creating the polygon, select and deselect the various layers you have created, comparing and seeing what relationships you can deduce.</p>
 <p>In Google Earth there were limitations on the types of features, attributes, and data provided by Google, and Google Earth did much of the work for you. That is fine when you are learning or want to quickly create maps. The advantage of using QGIS software to create new vector layers is that you have a great deal of freedom and control over the types of data you can use and the features and attributes that you can create. This in turn means that you can create custom maps far beyond what can be achieved in Google Earth or Google Maps Engine Lite. You have seen this firsthand with the points, lines, and polygons vector layers you learned how to create in this lesson. If you found data on, for example, public health records in the 18th century, you could create a new layer to work with what you already created showing the distribution of typhoid outbreaks and see if there are correlations with major roads and settlements. Moreover, GIS software allows you to not only spatially represent and present data in much more sophisticated ways, but to analyze and create new data in ways that aren’t possible otherwise.</p>
 <p><strong>You have learned how to create vector layers. Make sure you save your work!</strong></p>

@@ -23,23 +23,23 @@ The Challenge
 -------------
 
 To get a clearer picture of the task ahead, open the
-obo-t17800628-33.html file that you created in [Working with Web
-Pages][Working with Webpages] (or [download and save the trial][Benjamin
-Bowsey’s 1780 criminal trial transcript] if you do not already have a
-copy), then look at the HTML source by clicking on Tools -\> Web
-Developer -\> Page Source. As you scroll through the source code you’ll
-notice that there are a few HTML tags mixed in with the text. Because
-this is a printable version there is far less HTML than you will find on
-the other versions of the transcript (see the [HTML][] and [XML][]
-versions to compare). While not mandatory, we recommend that at this
-point you take the W3 Schools [HTML][1] tutorial to familiarize yourself
-with HTML markup. If your work often requires that you remove HTML
-markup, it will certainly help to be able to understand it when you see
-it.
+`obo-t17800628-33.html`{.filename} file that you created in [Working
+with Web Pages][Working with Webpages] (or [download and save the
+trial][Benjamin Bowsey’s 1780 criminal trial transcript] if you do not
+already have a copy), then look at the HTML source by clicking on
+`Tools -> Web Developer -> Page Source`{.filename}. As you scroll
+through the source code you’ll notice that there are a few HTML tags
+mixed in with the text. Because this is a printable version there is far
+less HTML than you will find on the other versions of the transcript
+(see the [HTML][] and [XML][] versions to compare). While not mandatory,
+we recommend that at this point you take the W3 Schools [HTML][1]
+tutorial to familiarize yourself with HTML markup. If your work often
+requires that you remove HTML markup, it will certainly help to be able
+to understand it when you see it.
 
 ### Files Needed For This Lesson
 
--   obo-t17800628-33.html
+-   `obo-t17800628-33.html`{.filename}
 
 If you do not have these files, you can download a [zip file from the
 previous lesson here.][]
@@ -56,9 +56,10 @@ what you want to do before diving into code. To construct this algorithm
 you are going to use your close reading skills to figure out a way to
 capture only the textual content of the biography.
 
-Looking at the source code of obo-t17800628-33.html you will notice the
-actual transcript does not start right away. Instead there are a couple
-of HTML tags and some citation information. In this case:
+Looking at the source code of `obo-t17800628-33.html`{.filename} you
+will notice the actual transcript does not start right away. Instead
+there are a couple of HTML tags and some citation information. In this
+case:
 
 ``` xml
 <div style="font-family:serif;"><i>Old Bailey Proceedings Online</i>
@@ -137,15 +138,16 @@ substring containing only the desired content using the index as start
 point for the substring.
 
 As you work, you will be developing separate files to contain your code.
-One of these will be called obo.py (for “Old Bailey Online”). This file
-is going to contain all of the code that you will want to re-use; in
-other words, obo.py is a module. We discussed the idea of modules in
-[Code Reuse and Modularity][] when we saved our functions to greet.py.
+One of these will be called `obo.py`{.filename} (for “Old Bailey
+Online”). This file is going to contain all of the code that you will
+want to re-use; in other words, `obo.py`{.filename} is a module. We
+discussed the idea of modules in [Code Reuse and Modularity][] when we
+saved our functions to `greet.py`{.filename}.
 
-Create a new file named obo.py and save it to your programming-historian
-directory. We are going to use this file to keep copies of the functions
-needed to process The Old Bailey Online. Type or copy the following code
-into your file.
+Create a new file named `obo.py`{.filename} and save it to your
+`programming-historian`{.filename} directory. We are going to use this
+file to keep copies of the functions needed to process The Old Bailey
+Online. Type or copy the following code into your file.
 
 ``` python
 # obo.py
@@ -157,8 +159,8 @@ def stripTags(pageContents):
     return pageContents
 ```
 
-Create a second file, trial-content.py, and save the program shown
-below.
+Create a second file, `trial-content.py`{.filename}, and save the
+program shown below.
 
 ``` python
 # trial-content.py
@@ -173,38 +175,40 @@ HTML = response.read()
 print obo.stripTags(HTML)
 ```
 
-When you run trial-content.py it will get the web page for Bowsey’s
-trial transcript, then look in the obo.py module for the stripTags
-function. It will use that function to extract the stuff after the
-\<hr/\>\<h2\> tags. With any luck, this should be the textual content of
-the Bowsey transcript, along with some of HTML markup. Don’t worry if
-your Command Output screen ends in a thick black line. Komodo Edit’s
-output screen has a maximum number of characters it will display, after
-which characters start literally writing over one another on the screen,
-giving the appearance of a black blob. Don’t worry, the text is in there
-even though you cannot read it; you can cut and paste it to a text file
-to double check.
+When you run `trial-content.py`{.filename} it will get the web page for
+Bowsey’s trial transcript, then look in the `obo.py`{.filename} module
+for the stripTags function. It will use that function to extract the
+stuff after the \<hr/\>\<h2\> tags. With any luck, this should be the
+textual content of the Bowsey transcript, along with some of HTML
+markup. Don’t worry if your Command Output screen ends in a thick black
+line. Komodo Edit’s output screen has a maximum number of characters it
+will display, after which characters start literally writing over one
+another on the screen, giving the appearance of a black blob. Don’t
+worry, the text is in there even though you cannot read it; you can cut
+and paste it to a text file to double check.
 
-Let’s take a moment to make sure we understand how trial-contents.py is
-able to use the functions stored in obo.py. The stripTags function that
-we saved to obo.py requires one argument. In other words, to run
+Let’s take a moment to make sure we understand how
+`trial-contents.py`{.filename} is able to use the functions stored in
+`obo.py`{.filename}. The stripTags function that we saved to
+`obo.py`{.filename} requires one argument. In other words, to run
 properly it needs one piece of information to be supplied. Recall the
 trained dog example from a previous lesson. In order to bark, the dog
 needs two things: air and a delicious treat. The stripTags function in
-obo.py needs one thing: a string called pageContents. But you’ll notice
-that when we call stripTags in the final program (trialcontents.py)
-there’s no mention of “pageContents“. Instead the function is given HTML
-as an argument. This can be confusing to many people when they first
-start programming. Once a function has been declared, we no longer need
-to use the same variable name when we call the function. As long as we
-provide the right type of argument, everything should work fine, no
-matter what we call it. In this case we wanted pageContents to use the
-contents of our HTML variable. You could have passed it any string,
-including one you input directly between the parentheses. Try rerunning
-trial-content.py, changing the stripTags argument to “I am quite fond of
-dogs” and see what happens. Note that depending on how you define your
-function (and what it does) your argument may need to be something other
-than a string: an integer for example.
+`obo.py`{.filename} needs one thing: a string called pageContents. But
+you’ll notice that when we call stripTags in the final program
+(`trialcontents.py`{.filename}) there’s no mention of “pageContents“.
+Instead the function is given HTML as an argument. This can be confusing
+to many people when they first start programming. Once a function has
+been declared, we no longer need to use the same variable name when we
+call the function. As long as we provide the right type of argument,
+everything should work fine, no matter what we call it. In this case we
+wanted pageContents to use the contents of our HTML variable. You could
+have passed it any string, including one you input directly between the
+parentheses. Try rerunning `trial-content.py`{.filename}, changing the
+stripTags argument to “I am quite fond of dogs” and see what happens.
+Note that depending on how you define your function (and what it does)
+your argument may need to be something other than a string: an integer
+for example.
 
 Suggested Reading
 -----------------

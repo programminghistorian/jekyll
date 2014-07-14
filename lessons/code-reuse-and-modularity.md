@@ -25,7 +25,8 @@ general-purpose enough to be reused. These are known as functions, and
 Python has mechanisms that allow you to define new functions. Let’s work
 through a very simple example of a function. Suppose you want to create
 a general purpose function for greeting people. Copy the following
-function definition into Komodo Edit and save it as greet.py.
+function definition into Komodo Edit and save it as
+`greet.py`{.filename}.
 
 ``` python
 # greet.py
@@ -60,15 +61,16 @@ This example contains one function: greetEntity. This function is then
 invoking a function just means we have told the program to execute the
 code in that function. Like giving the dog his chicken-flavoured treat
 (\*woof\* \*woof\*). In this case each time we have called the function
-we have given it a different parameter. Try editing greet.py so that it
-calls the greetEntity function a third time using your own name as a
-parameter. Run the program again. You should now be able to figure out
-what (x) does in the function declaration.
+we have given it a different parameter. Try editing
+`greet.py`{.filename} so that it calls the greetEntity function a third
+time using your own name as a parameter. Run the program again. You
+should now be able to figure out what (x) does in the function
+declaration.
 
-Before moving on to the next step, edit greet.py to delete the function
-calls, leaving only the function declaration. You’re going to learn how
-to call the function from another program. When you are finished, your
-greet.py file should look like this:
+Before moving on to the next step, edit `greet.py`{.filename} to delete
+the function calls, leaving only the function declaration. You’re going
+to learn how to call the function from another program. When you are
+finished, your `greet.py`{.filename} file should look like this:
 
 ``` python
 # greet.py
@@ -101,14 +103,16 @@ like the carburettor and ignition system, and those are comprised of
 still smaller and more basic modules. The same is true when coding. You
 try to break a problem into smaller pieces, and solve those first.
 
-You already created a module when you wrote the greet.py program. Now
-you are going to write a second program, using-greet.py which will
-import code from your module and make use of it. Python has a special
-import statement that allows one program to gain access to the contents
-of another program file. This is what you will be using.
+You already created a module when you wrote the `greet.py`{.filename}
+program. Now you are going to write a second program,
+`using-greet.py`{.filename} which will import code from your module and
+make use of it. Python has a special import statement that allows one
+program to gain access to the contents of another program file. This is
+what you will be using.
 
-Copy this code to Komodo Edit and save it as using-greet.py. This file
-is your program; greet.py is your module.
+Copy this code to Komodo Edit and save it as
+`using-greet.py`{.filename}. This file is your program;
+`greet.py`{.filename} is your module.
 
 ``` python
 # using-greet.py
@@ -119,18 +123,18 @@ greet.greetEntity("programming historian")
 ```
 
 We have done a few things here. First, we have told Python to “import”
-(load) the greet.py module, which we previously created.
+(load) the `greet.py`{.filename} module, which we previously created.
 
 You will also notice that whereas before we were able to run the
 function by calling only it’s name: greetEntity(“everybody”), we now
 need to include the module’s name followed by a dot (.) in front of the
 function name. In plain English this means: run the greetEntity
-function, which you should find in the greet.py module.
+function, which you should find in the `greet.py`{.filename} module.
 
-You can run your using-greet.py program with the “Run Python” command
-that you created in Komodo Edit. Note that you do not have to run your
-module…just the program that calls it. If all went well, you should see
-the following in the Komodo Edit output pane:
+You can run your `using-greet.py`{.filename} program with the “Run
+Python” command that you created in Komodo Edit. Note that you do not
+have to run your module…just the program that calls it. If all went
+well, you should see the following in the Komodo Edit output pane:
 
 ``` python
 hello everybody
@@ -138,8 +142,8 @@ hello programming historian
 ```
 
 Make sure that you understand the difference between loading a data file
-(e.g. helloworld.txt) and importing a program file (e.g. greet.py)
-before moving on.
+(e.g. `helloworld.txt`{.filename}) and importing a program file (e.g.
+`greet.py`{.filename}) before moving on.
 
 Suggested Readings
 ------------------

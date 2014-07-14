@@ -42,44 +42,44 @@
 <p>It is always important to make sure you have regular and recent backups of your computer. This is just good advice for life, and is not limited to times when you are engaged in programming.</p>
 <h3>Install Python v. 2 and Python “Beautiful Soup” module</h3>
 <ol>
-<li>Open a terminal (<span class="userinput">Dash Home</span>, then type <span class="userinput">Terminal</span>, then click on the Terminal icon).</li>
-<li>Now type: <span class="userinput">sudo apt-get install python2.7 python-beautifulsoup</span></li>
-<li>Enter your password, and then type <span class="userinput">Y</span> to finish the install. Note that you probably have Python 2.7 installed already, so don’t be alarmed if Ubuntu tells you that.</li>
+<li>Open a terminal (<code class="userinput">Dash Home</code>, then type <code class="userinput">Terminal</code>, then click on the Terminal icon).</li>
+<li>Now type: <code class="userinput">sudo apt-get install python2.7 python-beautifulsoup</code></li>
+<li>Enter your password, and then type <code class="userinput">Y</code> to finish the install. Note that you probably have Python 2.7 installed already, so don’t be alarmed if Ubuntu tells you that.</li>
 </ol>
 <h3>Create a directory</h3>
 <p>You will keep your Python programs in this directory. It can be anywhere you like, but it is probably best to put it in your home folder. Something like this in your open terminal window should do the trick:</p>
 <pre class="brush: plain; title: ; notranslate" title="">cd ~
 mkdir programming-historian</pre>
 <h3>Install Komodo Edit</h3>
-<p>Komodo Edit is a free and open source code editor, but as we said in the introduction, you have many <a href="http://wiki.python.org/moin/PythonEditors/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://wiki.python.org']);" target="_blank">other text editing options</a>. You can download Komodo Edit at the <a href="http://www.activestate.com/komodo-edit" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.activestate.com']);" target="_blank">Komoto Edit Website</a>. Once you’ve downloaded it, open it with Ubuntu’s package manager, extract it to your home directory, and follow the installation instructions. If you are following along with these instructions and have installed Komodo Edit, open the home folder, go to the <span class="filename">Komodo-Edit-7/bin</span> directory, and click on komodo. You can also right click on the Komodo icon in your launcher and click “<span class="filename">Lock to Launcher</span>” to have Komodo saved permanently to your launcher bar.</p>
+<p>Komodo Edit is a free and open source code editor, but as we said in the introduction, you have many <a href="http://wiki.python.org/moin/PythonEditors/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://wiki.python.org']);" target="_blank">other text editing options</a>. You can download Komodo Edit at the <a href="http://www.activestate.com/komodo-edit" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.activestate.com']);" target="_blank">Komoto Edit Website</a>. Once you’ve downloaded it, open it with Ubuntu’s package manager, extract it to your home directory, and follow the installation instructions. If you are following along with these instructions and have installed Komodo Edit, open the home folder, go to the <code class="filename">Komodo-Edit-7/bin</code> directory, and click on komodo. You can also right click on the Komodo icon in your launcher and click “<code class="filename">Lock to Launcher</code>” to have Komodo saved permanently to your launcher bar.</p>
 <h3>Make a “Run Python” Command in Komodo Edit</h3>
 <ul>
 <ul>
 </ul></ul><ol>
-<li>In Komodo Edit, click the gear icon under <span class="filename">Toolbox</span> and select <span class="filename">New Command</span>.</li>
-<li>In the top field type “<span class="userinput">Run Python File</span>“</li>
-<li>In the Command field, type: <span class="userinput">%(python) %f</span> Then hit the OK button at the bottom of the Add Command window.</li>
+<li>In Komodo Edit, click the gear icon under <code class="filename">Toolbox</code> and select <code class="filename">New Command</code>.</li>
+<li>In the top field type “<code class="userinput">Run Python File</code>“</li>
+<li>In the Command field, type: <code class="userinput">%(python) %f</code> Then hit the OK button at the bottom of the Add Command window.</li>
 </ol>
 <h2>Step 2 – “Hello World” in Python</h2>
 <p>It is traditional to begin programming in a new language by trying to create a program that says “hello world” and terminates. We will show you how to do this in Python and HTML.</p>
 <p>Python is a good programming language for beginners because it is very <span class="tech">high-level</span>. It is possible, in other words, to write short programs that accomplish a lot. The shorter the program, the more likely it is for the whole thing to fit on one screen, and the easier it is to keep track of all of it in your mind.</p>
 <p>The languages that we will be using are all <span class="tech">interpreted</span>. This means that there is a special computer program (known as an <span class="tech">interpreter</span>) that knows how to follow instructions written in that language. One way to use the interpreter is to store all of your instructions in a <span class="tech">file</span>, and then run the interpreter on the file. A file that contains programming language instructions is known as a <span class="tech">program</span>. The interpreter will execute each of the instructions that you gave it in your program and then stop. Let’s try this.</p>
-<p>In your text editor, create a new file, enter the following two-line program and save it to your <span class="filename">programming-historian</span> directory as <span class="filename">hello-world.py</span></p>
+<p>In your text editor, create a new file, enter the following two-line program and save it to your <code class="filename">programming-historian</code> directory as <code class="filename">hello-world.py</code></p>
 <pre class="python"># hello-world.py
 print 'hello world'</pre>
-<p>Your chosen text editor should have a “<span class="filename">Run</span>” button that will allow you to execute your program. If all went well, it should look something like this (Example as seen in Komodo Edit. Click on the image to see a full-size copy):</p>
-<figure><a href="http://programminghistorian.org/wp-content/uploads/2011/06/hello-world1.png"><img alt="hello world in Komodo Edit on a Mac" class="wp-image-290" src="http://programminghistorian.org/wp-content/uploads/2011/06/hello-world1.png" title="hello-world"/></a> <figcaption>“Hello World” in Python</figcaption></figure>
+<p>Your chosen text editor should have a “<code class="filename">Run</code>” button that will allow you to execute your program. If all went well, it should look something like this (Example as seen in Komodo Edit. Click on the image to see a full-size copy):</p>
+<p><img alt="hello world in Komodo Edit on a Mac" class="wp-image-290" src="http://programminghistorian.org/wp-content/uploads/2011/06/hello-world1.png" title="hello-world"/> <p>“Hello World” in Python</p></p>
 <h3>Interacting with a Python shell</h3>
 <p>Another way to interact with an interpreter is to use what is known as a <span class="tech">shell</span>. You can type in a statement and press the Enter key, and the shell will respond to your command. Using a shell is a great way to test statements to make sure that they do what you think they should.</p>
-<p>You can run a Python shell by launching the “terminal”. For Linux, go to <span class="filename">Applications-&gt; Accessories -&gt; Terminal</span>and do the same. At the Python shell prompt, type</p>
+<p>You can run a Python shell by launching the “terminal”. For Linux, go to <code class="filename">Applications-&gt; Accessories -&gt; Terminal</code>and do the same. At the Python shell prompt, type</p>
 <pre class="python">print 'hello world'</pre>
 <p>and press Enter. The computer will respond with</p>
 <pre class="python">hello world</pre>
-<p>When we want to represent an interaction with the shell, we will use <span class="filename">-&gt;</span> to indicate the shell’s response to your command, as shown below:</p>
+<p>When we want to represent an interaction with the shell, we will use <code class="filename">-&gt;</code> to indicate the shell’s response to your command, as shown below:</p>
 <pre class="python">print 'hello world'
 -&gt; hello world</pre>
 <p>On your screen, it will look more like this:</p>
-<figure><a href="http://programminghistorian.org/wp-content/uploads/2011/06/hello-world-terminal.png"><img alt="hello world terminal on a Mac" class="alignnone wp-image-292" src="http://programminghistorian.org/wp-content/uploads/2011/06/hello-world-terminal.png" title="hello-world-terminal"/></a> <figcaption>Python Shell in Mac Terminal</figcaption></figure>
+<p><img alt="hello world terminal on a Mac" class="alignnone wp-image-292" src="http://programminghistorian.org/wp-content/uploads/2011/06/hello-world-terminal.png" title="hello-world-terminal"/> <p>Python Shell in Mac Terminal</p></p>
 <p><a href="lesson-1-2-viewing-html-files">.</a></p>
 <p>Now that you and your computer are up and running, we can move onto some more interesting tasks. If you are working through the Python lessons in order, we suggest you next try ‘<a href="/lessons/viewing-html-files">Viewing HTML Files</a>‘</p>
 

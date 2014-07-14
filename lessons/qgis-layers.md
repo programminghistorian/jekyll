@@ -49,7 +49,7 @@ Operating System. Follow the instructions below.
     Lion, and Snow Leopard – no word yet on using it with the
     forthcoming Mavericks). Install these like any other Mac programs.
 
-[![qgis1][]][]\
+![qgis1][]
 
 Figure 1: Click to view full-size image.
 
@@ -61,11 +61,11 @@ Figure 1: Click to view full-size image.
 
 -   under Standalone Installer, click on the link to Download QGIS
 
-![qgis2][]\
+![qgis2][]
 
 Figure 2
 
--   double-click on the .exe file to execute
+-   double-click on the `.exe`{.filename} file to execute
 
 QGIS is very simple to install in most versions of Linux. Follow the
 instructions on the download page.
@@ -123,13 +123,13 @@ Properties*
 
 -   Mac: Project–\>Project Properties
 
-![qgis3][]\
+![qgis3][]
 
 Figure 3
 
 -   Windows: Settings-\> Project Properties
 
-![qgis4][]\
+![qgis4][]
 
 Figure 4
 
@@ -142,7 +142,7 @@ Figure 4
     select ‘NAD83(CSRS98) / Prince Edward Isl. (Stereographic)’ and hit
     OK
 
-![qgis5][]\
+![qgis5][]
 
 Figure 5
 
@@ -210,7 +210,7 @@ planted with various crops.
     same icon you see next to ‘Add Vector Layer’ can also be selected
     from the tool bar on the upper left side)
 
-![qgis6][]\
+![qgis6][]
 
 Figure 6
 
@@ -218,7 +218,7 @@ Figure 6
     in the folder
 -   open the coastline\_polygon folder
 
-![qgis7][]\
+![qgis7][]
 
 Figure 7
 
@@ -229,21 +229,24 @@ Figure 7
     the \*\*\*.
 -   right click the layer (coastline\_polygon) in the Layers menu and
     choose Properties.\
-    ![qgis8][]\
+
+    ![qgis8][]
+
     Figure 8
+
 -   In the ensuing window, click Style in the left pane
 
 -   There are a range of options, but we want to get rid of the
     background all together. Click **Simple fill**.
 
-![qgis9][]\
+![qgis9][]
 
 Figure 9
 
 -   Then choose ‘**No Brush**‘ in the **Fill style** drop down menu.
     **Click OK.**
 
-![qgis10][]\
+![qgis10][]
 
 Figure 10
 
@@ -258,13 +261,13 @@ Figure 10
 -   select Style tab, and choose an appropriate blue to color the
     hydronetwork and select ‘OK’ at the bottom right of the window
 
-![qgis11][]\
+![qgis11][]
 
 Figure 11
 
 -   Your map should now look like this:
 
-![qgis12][]\
+![qgis12][]
 
 Figure 12: Click to see full size image.
 
@@ -283,7 +286,7 @@ and inspect the attribute table.
 -   right click on the 1935\_inventory\_region layer in the Layers
     window on the left and click on Open Attribute Table
 
-![qgis13][]\
+![qgis13][]
 
 Figure 13
 
@@ -292,7 +295,7 @@ identifiers. Of particular interest is the LANDUSE category which
 provides information on the forest cover in 1935. We will now show you
 how to display these categories on the map.
 
-![qgis14][]\
+![qgis14][]
 
 Figure 14
 
@@ -302,13 +305,13 @@ Figure 14
     1935\_inventory\_region layer).
 -   click Style along the left
 
-![qgis15][]\
+![qgis15][]
 
 Figure 15
 
 -   on the menu bar that reads ‘Single Symbol’ select ‘Categorized’
 
-![qgis16][]\
+![qgis16][]
 
 Figure 16
 
@@ -320,7 +323,7 @@ Figure 16
     Classify); also delete the Developed category, as we want to
     highlight forested areas. Click ‘OK’
 
-![qgis17][]\
+![qgis17][]
 
 Figure 17
 
@@ -330,14 +333,14 @@ Figure 17
 -   You can now see the extent of the forests in 1935. Try using the
     magnifying glass tool to zoom in and inspect the different landuses.
 
-![qgis18][]\
+![qgis18][]
 
 Figure 18: Click to see full size image.
 
 -   To get back to the full island, right click on any of the layers and
     choose ‘**Zoom to Layer Extent.**‘
 
-![qgis19][]\
+![qgis19][]
 
 Figure 19
 
@@ -353,7 +356,7 @@ Figure 19
 -   beside Column choose ‘TYPE’
 -   click Classify
 
-![qgis20][]\
+![qgis20][]
 
 Figure 20
 
@@ -364,7 +367,7 @@ Figure 20
 -   You are back in the Style window. Repeat for the item that called
     ‘primary\_link’ in the Label column.
 
-![qgis21][]\
+![qgis21][]
 
 Figure 21
 
@@ -374,7 +377,7 @@ Figure 21
 -   click OK. You will now have the highways and other major roads
     represented on the map
 
-[![qgis22][]][]\
+![qgis22][]
 
 Figure 22: Click to see full size image.
 
@@ -388,14 +391,14 @@ Figure 22: Click to see full size image.
     the box beside ‘Label this layer with’ and in the dropdown box
     beside that select ‘Placename’
 
-![qgis23][]\
+![qgis23][]
 
 Figure 23
 
 -   Change Font size to ’18′
 -   Click ‘OK’ and examine the results on the map
 
-[![qgis24][]][]\
+![qgis24][]
 
 Figure 24: Click to see full size image.
 
@@ -412,7 +415,7 @@ will place it above the rest of the layers and make it the most
 prominent. For example, if you drag ‘coastline\_polygon’ to the top, you
 have a simplified outline of the province along with place names.
 
-[![qgis25][]][]\
+![qgis25][]
 
 Figure 25: Click to see full size image
 
@@ -423,7 +426,7 @@ Figure 25: Click to see full size image
     out. Play with these and familiarize yourself with the various
     functions
 
-![qgis26][]\
+![qgis26][]
 
 Figure 26
 
@@ -443,7 +446,7 @@ historical map is also brought into GIS in raster format.
     same icon you see next to ‘Add Raster Layer’ can also be selected
     from the tool bar along the left side of the window)
 
-![qgis27][]\
+![qgis27][]
 
 Figure 27
 
@@ -452,7 +455,7 @@ Figure 27
     the Filter box search for ’2291′, then in the box below select
     ‘NAD83(CSRS98) / Prince Edward Isl. (Stereographic)…’
 
-![qgis28][]\
+![qgis28][]
 
 Figure 28
 
@@ -462,14 +465,14 @@ Figure 28
     beside the box showing the incorrect Coordinate reference system.
     Then follow the instructions above (choose 2291).
 
-![qgis29][]\
+![qgis29][]
 
 Figure 29
 
 -   In the Layers window, the map should appear below the vector data.
     Move it to the bottom of the menu if necessary:
 
-![qgis30][]\
+![qgis30][]
 
 Figure 30
 
@@ -480,7 +483,7 @@ Figure 30
     and make it red, and then beside Border width change it to 0.5, and
     click OK.
 
-![qgis31][]\
+![qgis31][]
 
 Figure 31
 
@@ -491,7 +494,7 @@ Figure 31
     lesson 4 about the challenges of georeferencing historical maps to
     give them real world coordinates.
 
-![qgis32][]\
+![qgis32][]
 
 Figure 32
 
@@ -502,8 +505,7 @@ save your work!**
 
   [QGIS Download page]: http://hub.qgis.org/projects/quantum-gis/wiki/Download
   [KyngChaos Qgis download page]: http://www.kyngchaos.com/software/qgis
-  [qgis1]: ../images/qgis1-300x137.png
-  [![qgis1][]]: ../images/qgis1.png
+  [qgis1]: ../images/qgis1.png
   [qgis2]: ../images/qgis2.jpg
   [PEI Highways]: https://www.dropbox.com/s/mgrb90vcpggnw8c/PEI_highway.zip
   [alternate Tar file]: https://www.dropbox.com/s/8k81jnmhpoi99fv/pei_highway.tar.gz
@@ -533,13 +535,10 @@ save your work!**
   [qgis19]: ../images/qgis19.png
   [qgis20]: ../images/qgis20.png
   [qgis21]: ../images/qgis21.png
-  [qgis22]: ../images/qgis22-300x198.png
-  [![qgis22][]]: ../images/qgis22.png
+  [qgis22]: ../images/qgis22.png
   [qgis23]: ../images/qgis23.png
-  [qgis24]: ../images/qgis24-300x197.png
-  [![qgis24][]]: ../images/qgis24.png
-  [qgis25]: ../images/qgis25-300x198.png
-  [![qgis25][]]: ../images/qgis25.png
+  [qgis24]: ../images/qgis24.png
+  [qgis25]: ../images/qgis25.png
   [qgis26]: ../images/qgis26.png
   [aerial photos]: http://en.wikipedia.org/wiki/Orthophoto
   [‘PEI\_CumminsMap1927.tif’]: https://www.dropbox.com/s/5g7964rpu1w2ou1/PEI_CumminsMap1927_compLZW.tif

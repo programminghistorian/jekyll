@@ -41,7 +41,7 @@
 <p>This lesson builds on <a href="/lessons/keywords-in-context-using-n-grams">Keywords in Context (Using N-grams)</a>, where n-grams were extracted from a text. Here, you will learn how to output all of the n-grams of a given keyword in a document downloaded from the Internet, and display them clearly in your browser window.</p>
 <h3>Files Needed For This Lesson</h3>
 <ul>
-<li><span class="filename">obo.py</span></li>
+<li><code class="filename">obo.py</code></li>
 </ul>
 <p>If you do not have these files from the previous lesson, you can download a <a href="/lessons/keywords-in-context-using-n-grams#codesync">zip file from the previous lesson here.</a></p>
 <h3>Making an N-Gram Dictionary</h3>
@@ -53,7 +53,7 @@ print (7 // 2)
 print (5 // 2)
 print (3 // 2)
 </pre>
-<p>Let’s build a function that can identify the index position of the keyword when given an n-gram with an odd number of words. Save the following to <span class="filename">obo.py</span>.</p>
+<p>Let’s build a function that can identify the index position of the keyword when given an n-gram with an odd number of words. Save the following to <code class="filename">obo.py</code>.</p>
 <pre class="python">
 # Given a list of n-grams identify the index of the keyword.
 
@@ -62,7 +62,7 @@ def nGramsToKWICDict(ngrams):
 
     return keyindex
 </pre>
-<p>To determine the index of the keyword, we have used the <span class="reserved">len</span> property to tell us how many items are in the first n-gram, then used floor division to isolate the middle index position. You can see if this worked by creating a new program, <span class="filename">get-keyword.py</span> and running it. If all goes well, since we are dealing with a 5-gram, you should get 2 as the index position of the keyword as we determined above.</p>
+<p>To determine the index of the keyword, we have used the <span class="reserved">len</span> property to tell us how many items are in the first n-gram, then used floor division to isolate the middle index position. You can see if this worked by creating a new program, <code class="filename">get-keyword.py</code> and running it. If all goes well, since we are dealing with a 5-gram, you should get 2 as the index position of the keyword as we determined above.</p>
 <pre class="python">
 import obo
 
@@ -71,7 +71,7 @@ ngrams = obo.getNGrams(test.split(), 5)
 
 print obo.nGramsToKWICDict(ngrams)
 </pre>
-<p>Now that we know the location of the keywords, let’s add everything to a dictionary that can be used to output all KWIC n-grams of a particular keyword. Study this code and then replace your <span class="filename">nGramsToKWICDict</span> with the following in your <span class="filename">obo.py</span> module.</p>
+<p>Now that we know the location of the keywords, let’s add everything to a dictionary that can be used to output all KWIC n-grams of a particular keyword. Study this code and then replace your <code class="filename">nGramsToKWICDict</code> with the following in your <code class="filename">obo.py</code> module.</p>
 <pre class="python">
 # Given a list of n-grams, return a dictionary of KWICs,
 # indexed by keyword.
@@ -89,7 +89,7 @@ def nGramsToKWICDict(ngrams):
     return kwicdict
 </pre>
 <p>A <span class="reserved">for</span> loop and <span class="reserved">if</span> statement checks each n-gram to see if its keyword is already stored in the dictionary. If it isn’t, it’s added as a new entry. If it is, it’s appended to the previous entry. We now have a dictionary named <span class="var">kwicdict</span> that contains all the n-grams, sortable by keyword and we can turn to the task of outputting the information in a more useful format as we did in <a href="/lessons/output-data-as-html-file">Output Data as HTML File</a>.</p>
-<p>Try rerunning the <span class="filename">get-keyword.py</span> program and you should now see what’s in your KWIC dictionary.</p>
+<p>Try rerunning the <code class="filename">get-keyword.py</code> program and you should now see what’s in your KWIC dictionary.</p>
 <h2>Outputting to HTML</h2>
 <h3>Pretty Printing a KWIC</h3>
 <p>“Pretty printing” is the process of formatting output so that it can be easily read by human beings. In the case of our keywords in context, we want to have the keywords lined up in a column, with the terms in the left-hand context right justified, and the terms in the right-hand context left justified. In other words, we want our KWIC display to look something like this:</p>
@@ -161,7 +161,7 @@ width = 10
 print '#' + ' '.join(kwic[:keyindex]).rjust(width*keyindex) + '#'
 -&gt; #                 amongst them a#
 </pre>
-<p>We can now combine these into a function that takes a KWIC and returns a pretty-printed string. Add this to the <span class="filename">obo.py</span> module. Study the code to make sure you understand it before moving on.</p>
+<p>We can now combine these into a function that takes a KWIC and returns a pretty-printed string. Add this to the <code class="filename">obo.py</code> module. Study the code to make sure you understand it before moving on.</p>
 <pre class="python">
 # Given a KWIC, return a string that is formatted for
 # pretty printing.
@@ -178,7 +178,7 @@ def prettyPrintKWIC(kwic):
     return outstring
 </pre>
 <h2>Putting it All Together</h2>
-<p>We can now create a program that, given a URL and a keyword, wraps a KWIC display in HTML and outputs it in Firefox. This program begins and ends in a similar fashion as the program that computed word frequencies. Type or copy the code into your text editor, save it as <span class="filename">html-to-kwic.py</span>, and execute it.</p>
+<p>We can now create a program that, given a URL and a keyword, wraps a KWIC display in HTML and outputs it in Firefox. This program begins and ends in a similar fashion as the program that computed word frequencies. Type or copy the code into your text editor, save it as <code class="filename">html-to-kwic.py</code>, and execute it.</p>
 <pre class="python">
 # html-to-kwic.py
 
@@ -212,7 +212,7 @@ obo.wrapStringInHTML('html-to-kwic', url, outstr)
 <p>Also, notice that we use the <span class="reserved">has_key</span> dictionary method to make sure that the keyword actually occurs in our text. If it doesn’t, we can print a message for the user before sending the output to Firefox. Try changing the target variable to a few other keywords. Try one you know isn’t there to make sure your program doesn’t output something when it shouldn’t.</p>
 <p>We have now created a program that looks for a keyword in a dictionary created from an HTML page on the web, and then outputs the n-grams of that keyword to a new HTML file for display on the web. All of the lessons up to this point have included parts of Python vocabulary and methods needed to create this final program. By referring to those lessons, you can now experiment with Python to create programs that accomplish specific tasks that will help in your research process.</p>
 <h3 id="codesync">Code Syncing</h3>
-<p>To follow along with future lessons it is important that you have the right files and programs in your “programming-historian” directory. At the end of each chapter you can download the “programming-historian” zip file to make sure you have the correct code. If you are following along with the Mac / Linux version you may have to open the <span class="filename">obo.py</span> file and change “file:///Users/username/Desktop/programming-historian/” to the path to the directory on your own computer.</p>
+<p>To follow along with future lessons it is important that you have the right files and programs in your “programming-historian” directory. At the end of each chapter you can download the “programming-historian” zip file to make sure you have the correct code. If you are following along with the Mac / Linux version you may have to open the <code class="filename">obo.py</code> file and change “file:///Users/username/Desktop/programming-historian/” to the path to the directory on your own computer.</p>
 <ul>
 <li>programming-historian [Mac / Linux] (<a href="http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian.zip']);">zip</a>)</li>
 <li>programming-historian [Windows] (<a href="http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian-windows.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian-windows.zip']);">zip</a>)</li>

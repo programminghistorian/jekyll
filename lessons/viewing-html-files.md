@@ -17,8 +17,8 @@ Language). Your browser already knows how to interpret HTML, which is
 handy for human readers. Most browsers also let you see the HTML source
 for any page that you visit. The two images below show a typical web
 page (from the Old Bailey Online) and the HTML source used to generate
-that page, which you can see with the Tools -\> Web Developer -\> Page
-Source command in Firefox.
+that page, which you can see with the
+`Tools -> Web Developer -> Page Source`{.filename} command in Firefox.
 
 When you’re working in the browser, you typically don’t want or need to
 see the source for a web page. If you are writing a page of your own,
@@ -27,11 +27,11 @@ particular effect. You will also want to study HTML source as you write
 programs to manipulate web pages or automatically extract information
 from them.
 
-[![Old Bailey Online screenshot][]][]\
+![Old Bailey Online screenshot][]
 
 Old Bailey Online (OBO) Web Page
 
-[![Old Bailey Online page source][]][]\
+![Old Bailey Online page source][]
 
 HTML Source for OBO Web Page
 
@@ -107,14 +107,15 @@ to
 Hello World!
 ```
 
-Save the file to your programming-historian directory as
-hello-world.html. Now go to Firefox and choose File -\> New Tab and then
-File -\> Open File. Choose hello-world.html. Depending on your text
-editor you may have a ‘view page in browser’ or ‘open in browser’
-option. Once you have opened the file, your message should appear in the
-browser. Note the difference between opening an HTML file with a browser
-like Firefox (which interprets it) and opening the same file with your
-text editor (which does not).
+Save the file to your `programming-historian`{.filename} directory as
+`hello-world.html`{.filename}. Now go to Firefox and choose
+`File -> New Tab`{.filename} and then `File -> Open File`{.filename}.
+Choose `hello-world.html`{.filename}. Depending on your text editor you
+may have a ‘view page in browser’ or ‘open in browser’ option. Once you
+have opened the file, your message should appear in the browser. Note
+the difference between opening an HTML file with a browser like Firefox
+(which interprets it) and opening the same file with your text editor
+(which does not).
 
 ### Suggested readings for learning HTML
 
@@ -122,9 +123,7 @@ text editor (which does not).
 -   [W3 Schools HTML5 Tutorial][]
 
   [Old Bailey Online screenshot]: ../images/obo.png "obo"
-  [![Old Bailey Online screenshot][]]: ../images/obo.png
   [Old Bailey Online page source]: ../images/obo-page-source.png
     "obo-page-source"
-  [![Old Bailey Online page source][]]: ../images/obo-page-source.png
   [W3 Schools HTML tutorial]: http://www.w3schools.com/html/default.asp
   [W3 Schools HTML5 Tutorial]: http://www.w3schools.com/html/html5_intro.asp

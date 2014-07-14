@@ -17,7 +17,7 @@ be beneficial to look over Lesson 4.2 before we begin.
 
 ### Files Needed For This Lesson
 
--   obo.py
+-   `obo.py`{.filename}
 
 If you do not have these files from the previous lesson, you can
 download a [zip file from the previous lesson here.][]

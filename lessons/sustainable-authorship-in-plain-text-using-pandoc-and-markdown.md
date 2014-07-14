@@ -6,7 +6,7 @@ reviewers: Fred Gibbs
 layout: default
 ---
 
-[![lexoriter][]][lexoriter]
+![lexoriter][]
 
 [][]Objectives
 ==============
@@ -341,7 +341,7 @@ A sentence that needs a note.[ˆ1]
 As we shall do shortly, this plain text file can be rendered as a very
 nice PDF:
 
-[![Screen Shot 2014-03-12 at 4.57.17 PM][]][]
+![Screen Shot 2014-03-12 at 4.57.17 PM][]
 
 If you’d like to get an idea of how this kind of markup will be
 interpreted as HTML formatting, try [this online sandbox][] and play
@@ -725,8 +725,7 @@ documentation).
   [Pandoc’s Markdown]: http://johnmacfarlane.net/pandoc/demo/example9/pandocs-markdown.html
   [“YAML” block]: http://johnmacfarlane.net/pandoc/README.html#yaml-metadata-block
   [here]: https://github.com/dhcolumbia/pandoc-workflow/sample.md
-  [Screen Shot 2014-03-12 at 4.57.17 PM]: ../images/Screen-Shot-2014-03-12-at-4.57.17-PM-1024x621.png
-  [![Screen Shot 2014-03-12 at 4.57.17 PM][]]: ../images/Screen-Shot-2014-03-12-at-4.57.17-PM.png
+  [Screen Shot 2014-03-12 at 4.57.17 PM]: ../images/Screen-Shot-2014-03-12-at-4.57.17-PM.png
   [this online sandbox]: http://daringfireball.net/projects/markdown/dingus
   [9]: #getting-in-touch-with-your-inner-terminal
   [Command Line Crash Course.]: http://cli.learncodethehardway.org/book/

@@ -10,7 +10,8 @@ Lesson Goals
 ------------
 
 In this lesson you will learn how to manipulate text files using Python.
-This includes opening, closing, reading from, and writing to .txt files.
+This includes opening, closing, reading from, and writing to
+`.txt`{.filename} files.
 
 The next few lessons will involve downloading a web page from the
 Internet and reorganizing the contents into useful chunks of
@@ -91,7 +92,7 @@ someone else, or to use as input for further processing by another
 program or set of programs. In these cases you will want to send
 information to files on your hard drive rather than to the “Command
 Output” pane. Enter the following program into your text editor and save
-it as file-output.py.
+it as `file-output.py`{.filename}.
 
 ``` python
 # file-output.py
@@ -115,16 +116,17 @@ efficiency).
 
 In this program f is a file object, and open, write and close are file
 methods. In other words, open, write and close do something to the
-object f which is in this case defined as a .txt file. This is likely a
-different use of the term “method” than you might expect and from time
-to time you will find that words used in a programming context have
-slightly (or completely) different meanings than they do in everyday
-speech. In this case recall that methods are bits of code which perform
-actions. They do something to something else and return a result. You
-might try to think of it using a real-world example such giving commands
-to the family dog. The dog (the object) understands commands (i.e., has
-“methods”) such as “bark”, “sit”, “play dead”, and so on. We will
-discuss and learn how to use many other methods as we go along.
+object f which is in this case defined as a `.txt`{.filename} file. This
+is likely a different use of the term “method” than you might expect and
+from time to time you will find that words used in a programming context
+have slightly (or completely) different meanings than they do in
+everyday speech. In this case recall that methods are bits of code which
+perform actions. They do something to something else and return a
+result. You might try to think of it using a real-world example such
+giving commands to the family dog. The dog (the object) understands
+commands (i.e., has “methods”) such as “bark”, “sit”, “play dead”, and
+so on. We will discuss and learn how to use many other methods as we go
+along.
 
 f is a variable name chosen by us; you could have named it just about
 anything you like. In Python, variable names can be made from upper- and
@@ -137,9 +139,9 @@ Python variable names are also *case-sensitive*, which means that
 foobar, Foobar and FOOBAR would all be different variables.
 
 When you run this program, the open method will tell your computer to
-create a new text file helloworld.txt in the same folder as you have
-saved the file-output.py program. The w parameter says that you intend
-to write content to this new file using Python.
+create a new text file `helloworld.txt`{.filename} in the same folder as
+you have saved the `file-output.py`{.filename} program. The w parameter
+says that you intend to write content to this new file using Python.
 
 Note that since both the file name and the parameter are surrounded by
 single quotes you know they are both stored as strings; forgetting to
@@ -168,9 +170,10 @@ in Mac or Linux, or
 
 in Windows.
 
-This means that your program executed successfully. If you use File -\>
-Open -\> File in you Komodo Edit, you can open the file helloworld.txt.
-It should contain your one-line message:
+This means that your program executed successfully. If you use
+`File -> Open -> File`{.filename} in you Komodo Edit, you can open the
+file `helloworld.txt`{.filename}. It should contain your one-line
+message:
 
 ``` python
 Hello World!
@@ -186,9 +189,9 @@ people using a text editor like Komodo Edit.
 
 Python also has methods which allow you to get information from files.
 Type the following program into your text editor and save it as
-file-input.py. When you click on “Run” to execute it, it will open the
-text file that you just created, read the one-line message from it, and
-print the message to the “Command Output” pane.
+`file-input.py`{.filename}. When you click on “Run” to execute it, it
+will open the text file that you just created, read the one-line message
+from it, and print the message to the “Command Output” pane.
 
 ``` python
 # file-input.py
@@ -227,9 +230,9 @@ file. So, instead of write you will want to use the append method,
 designated by a.
 
 Type the following program into your text editor and save it as
-file-append.py. When you run this program it will open the same
-helloworld.txt file created earlier and append a second “hello world” to
-the file. The ‘\\n‘ stands for new line.
+`file-append.py`{.filename}. When you run this program it will open the
+same `helloworld.txt`{.filename} file created earlier and append a
+second “hello world” to the file. The ‘\\n‘ stands for new line.
 
 ``` python
 # file-append.py
@@ -238,10 +241,11 @@ f.write('\n' + 'hello world')
 f.close()
 ```
 
-After you have run the program, open the helloworld.txt file and see
-what happened. Close the text file and re-run file-append.py a few more
-times. When you open helloworld.txt again you should notice a few extra
-‘hello world’ messages waiting for you.
+After you have run the program, open the `helloworld.txt`{.filename}
+file and see what happened. Close the text file and re-run
+`file-append.py`{.filename} a few more times. When you open
+`helloworld.txt`{.filename} again you should notice a few extra ‘hello
+world’ messages waiting for you.
 
 In the next section, we will discuss modularity and reusing code.
 

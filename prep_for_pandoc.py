@@ -67,7 +67,7 @@ for file in files:
         layout_tag.attrs['name'] = 'layout'
         layout_tag.attrs['content'] = 'default'
 
-		# append new tags into head
+        # append new tags into head
         new_tags = [author_tag, title_tag, date_tag, reviewers_tag, layout_tag]
         for tag in new_tags:
             original_head.append(tag)
@@ -78,6 +78,22 @@ for file in files:
             if block.attrs:
                brush = block.attrs['class'][1]
                if brush != 'plain;': block.attrs = {'class': brush.rstrip(';')}
+
+        # change monospace inline spans to code tags
+        spans = soup.find_all('span', class_=re.compile('filename|userinput'))
+        for span in spans:
+            span.name = 'code'
+
+        # change figures and figcaptions
+        figs = soup.find_all(re.compile('figure|figcaption'))
+        for fig in figs:
+            if fig.br: fig.br.decompose()
+            fig.name = 'p'
+        for image in soup.find_all('img'):
+            parent = image.parent
+            if parent.name == 'a':
+               image.attrs['src'] = parent.attrs['href']
+               parent.unwrap()
 
         # try to decompose divs that won't be needed in markdown version
         nav_pager = soup.find('ul', class_='navigation')

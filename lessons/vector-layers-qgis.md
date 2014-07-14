@@ -58,7 +58,7 @@ Layers][]. You should have the following layers in your Layers window:
 Uncheck all of these layer except for PEI\_placenames,
 coastline\_polygon and PEI\_CumminsMap1927
 
-[![pei1][]][]
+![pei1][]
 
 Figure 1: Click to see full size image.
 
@@ -127,7 +127,7 @@ appears
     understanding and selecting UTM zone:
     <http://www.lib.uwaterloo.ca/locations/umd/digital/clump_classes.html>)
 
-[![pei6][]][]
+![pei6][]
 
 Figure 6: Click to see full size image.
 
@@ -173,9 +173,9 @@ Figure 8
 
 Uncheck all layers except settlements. You will notice that your viewing
 window is now blank as we have not created any data. We will now create
-new data from both the PEI\_HollandMap 1798 and the PEI\_CumminsMap1927
-to show the increase in settlement between the late 18th and early 20th
-centuries.
+new data from both the `PEI_HollandMap 1798`{.filename} and the
+`PEI_CumminsMap1927`{.filename} to show the increase in settlement
+between the late 18th and early 20th centuries.
 
 -   we will begin with the more recent, and thus usually more accurate,
     map. Reselect (i.e. check the boxes beside) coastline\_polygon and
@@ -435,15 +435,13 @@ work!**
   [Intro to Google Maps and Google Earth]: /lessons/googlemaps-googleearth
   [Installing QGIS 2.0 and Adding Layers]: /lessons/qgis-layers
   [PEI\_Holland map]: https://www.dropbox.com/s/nigmsq0gz4ashf2/PEI_HollandMap1798_compLZW.tif
-  [pei1]: ../images/pei1-300x207.png
-  [![pei1][]]: ../images/pei1.png
+  [pei1]: ../images/pei1.png
   [pei2]: ../images/pei2.png
   [pei3]: ../images/pei3.png
   [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
   [pei4]: ../images/pei4.png
   [pei5]: ../images/pei5.png
-  [pei6]: ../images/pei6-300x168.png
-  [![pei6][]]: ../images/pei6.png
+  [pei6]: ../images/pei6.png
   [pei7]: ../images/pei7.png
   [pei8]: ../images/pei8.png
   [pei9]: ../images/pei9.png

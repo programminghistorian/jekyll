@@ -41,7 +41,8 @@ http://oldbaileyonline.org
 The most basic kind of URL simply specifies the protocol and host. If
 you give this URL to your browser, it will return the main page of The
 [Old Bailey Online][] website. The default assumption is that the main
-page in a given directory will be named index, usually index.html.
+page in a given directory will be named index, usually
+`index.html`{.filename}.
 
 The URL can also include an optional port number. Without getting into
 too much detail at this point, the network protocol that underlies the
@@ -93,7 +94,7 @@ in eighteenth century Britain. [The Old Bailey Online][Old Bailey
 Online] (OBO) is a rich resource that provides trial transcripts from
 1674 to 1913 and is one good place to seek sources.
 
-[![Old][]][]\
+![Old][]
 
 The Old Bailey Online Homepage 
 
@@ -111,11 +112,12 @@ HTML), and it’s possible to retrieve individual trial entries by making
 use of the query string. Each is apparently given a unique ID number
 (id=t in the URL), built from the date of the trial session in the
 format (YYYYMMDD) and the trial number from within that court session,
-in this case: 33. If you change the two instances of 33 to 34 in your
-browser and press Enter, you should be taken to the next trial.
-Unfortunately, not all websites have such readable and reliable URLs.
+in this case: 33. If you change the two instances of `33`{.userinput} to
+`34`{.userinput} in your browser and press Enter, you should be taken to
+the next trial. Unfortunately, not all websites have such readable and
+reliable URLs.
 
-[![][]][]\
+![][]
 
 Trial Transcript Page of Benjamin Bowsey, 1780.
 
@@ -138,16 +140,17 @@ http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
 ```
 
 Now let’s try opening the page using Python. Copy the following program
-into Komodo Edit and save it as open-webpage.py. When you execute the
-program, it will open the trial file, read its contents into a Python
-string called webContent and then print the first three hundred
-characters of the string to the “Command Output” pane. Use the View -\>
-Web Developer -\> View Page Source command in Firefox to verify that the
-HTML source of the page is the same as the source that your program
-retrieved. Each browser has a different shortcut key to open the page
-source. In Firefox on PC it is CTRL+ u. If you cannot find it on your
-browser, try using a search engine to find where it is. (See the Python
-library reference to learn more about [urllib2][][.)][]
+into Komodo Edit and save it as `open-webpage.py`{.filename}. When you
+execute the program, it will open the trial file, read its contents into
+a Python string called webContent and then print the first three hundred
+characters of the string to the “Command Output” pane. Use the
+`View -> Web Developer -> View Page Source`{.filename} command in
+Firefox to verify that the HTML source of the page is the same as the
+source that your program retrieved. Each browser has a different
+shortcut key to open the page source. In Firefox on PC it is
+`CTRL+ u`{.filename}. If you cannot find it on your browser, try using a
+search engine to find where it is. (See the Python library reference to
+learn more about [urllib2][][.)][]
 
 ``` python
 # open-webpage.py
@@ -174,10 +177,10 @@ url holds the URL of the web page that we want to download. In this
 case, it is the trial of Benjamin Bowsey.
 
 On the following line, we call the function urlopen, which is stored in
-a Python module named urllib2.py, and we have asked that function to
-open the website found at the URL we just specified. We then saved the
-result of that process into a variable named response. That variable now
-contains an open version of the requested website.
+a Python module named `urllib2.py`{.filename}, and we have asked that
+function to open the website found at the URL we just specified. We then
+saved the result of that process into a variable named response. That
+variable now contains an open version of the requested website.
 
 We then use the read method, which we used earlier, to copy the contents
 of that open webpage into a new variable named webContent.
@@ -207,10 +210,10 @@ Given what you already know about writing to files, it is quite easy to
 modify the above program so that it writes the contents of the
 webContent string to a local file on our computer rather than to the
 “Command Output” pane. Copy the following program into Komodo Edit, save
-it as save-webpage.py and execute it. Using the File -\> Open File
-command in Firefox, open the file on your hard drive that it creates
-(obo-t17800628-33.html) to confirm that your saved copy is the same as
-the online copy.
+it as `save-webpage.py`{.filename} and execute it. Using the
+`File -> Open File`{.filename} command in Firefox, open the file on your
+hard drive that it creates (`obo-t17800628-33.html`{.filename}) to
+confirm that your saved copy is the same as the online copy.
 
 ``` python
 # save-webpage.py
@@ -250,10 +253,8 @@ file to make sure you have the correct code.
   [Old Bailey Online]: http://www.oldbaileyonline.org/
   [Downloading Multiple Records Using Query Strings]: ../lessons/downloading-multiple-records-using-query-strings
   [Old]: ../images/old-bailey.png "Old"
-  [![Old][]]: ../images/old-bailey.png
   [Gordon Riots]: http://en.wikipedia.org/wiki/Gordon_Riots
   []: ../images/bowsey-trial-page.png "bowsey-trial-page"
-  [![][]]: ../images/bowsey-trial-page.png
   [View as XML]: http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes
   [scan of the original document]: http://www.oldbaileyonline.org/images.jsp?doc=178006280084
   [Print-friendly version]: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33

@@ -43,7 +43,7 @@
 <p>At the end of this lesson, you will be able to extract all possible n-grams from the text. In the next lesson, you will be learn how to output all of the n-grams of a given keyword in a document downloaded from the Internet, and display them clearly in your browser window.</p>
 <h3>Files Needed For This Lesson</h3>
 <ul>
-<li><span class="filename">obo.py</span></li>
+<li><code class="filename">obo.py</code></li>
 </ul>
 <p>If you do not have these files from the previous lesson, you can download a <a href="/lessons/output-data-as-html-file#codesync">zip file from the previous lesson here.</a></p>
 <h2>From Text to N-Grams to KWIC</h2>
@@ -86,7 +86,7 @@ print wordlist[12:]
 for items in wordlist:
     print wordlist[i: i+5]
     i += 1</pre>
-<p>Keeping with our modular approach, we will create a function and save it to the <span class="filename">obo.py</span> module that can create n-grams for us. Study and type or copy the following code:</p>
+<p>Keeping with our modular approach, we will create a function and save it to the <code class="filename">obo.py</code> module that can create n-grams for us. Study and type or copy the following code:</p>
 <pre class="python"># Given a list of words and a number n, return a list
 # of n-grams.
 
@@ -100,7 +100,7 @@ def getNGrams(wordlist, n):
         ngrams.append(wordlist[i:i+n])
     return ngrams
 </pre>
-<p>A concept that may still be confusing to you are the two function arguments. Notice that our function has two variable names in the parentheses after its name when we declared it: <span class="var">wordlist</span>, <span class="var">n</span>. These two variables are the function arguments. When you call (run) this function, these variables will be used by the function to solve itself. Without these arguments there is not enough information to do the calculations. In this case, the two pieces of information are the list of words you want to turn into n-grams (<span class="var">wordlist</span>), and the number of words you want in each n-gram (<span class="var">n</span>). For the function to work it needs both, so you call it in like this (save the following as <span class="filename">useGetNGrams.py</span> and run):</p>
+<p>A concept that may still be confusing to you are the two function arguments. Notice that our function has two variable names in the parentheses after its name when we declared it: <span class="var">wordlist</span>, <span class="var">n</span>. These two variables are the function arguments. When you call (run) this function, these variables will be used by the function to solve itself. Without these arguments there is not enough information to do the calculations. In this case, the two pieces of information are the list of words you want to turn into n-grams (<span class="var">wordlist</span>), and the number of words you want in each n-gram (<span class="var">n</span>). For the function to work it needs both, so you call it in like this (save the following as <code class="filename">useGetNGrams.py</code> and run):</p>
 <pre class="python">
 #useGetNGrams.py
 
@@ -130,7 +130,7 @@ getNGrams(test2.split(), 5)
 <p>Secondly, why did the first example return an empty list rather than the n-grams we were after? In <span class="var">test1</span>, we have tried to ask for an n-gram that is longer than the number of words in our list. This has resulted in a blank list. In <span class="var">test2</span> we have no such problem and get all possible 5-grams for the longer list of words. If you wanted to you could adapt your function to print a warning message or to return the entire string instead of an empty list.</p>
 <p>We now have a way to extract all possible n-grams from a body of text. In the next lesson, we can focus our attention on isolating those n-grams that are of interest to us.</p>
 <h3><span id="codesync">Code Syncing</span></h3>
-<p>To follow along with future lessons it is important that you have the right files and programs in your “programming-historian” directory. At the end of each chapter you can download the “programming-historian” zip file to make sure you have the correct code. If you are following along with the Mac / Linux version you may have to open the <span class="filename">obo.py</span> file and change “file:///Users/username/Desktop/programming-historian/” to the path to the directory on your own computer.</p>
+<p>To follow along with future lessons it is important that you have the right files and programs in your “programming-historian” directory. At the end of each chapter you can download the “programming-historian” zip file to make sure you have the correct code. If you are following along with the Mac / Linux version you may have to open the <code class="filename">obo.py</code> file and change “file:///Users/username/Desktop/programming-historian/” to the path to the directory on your own computer.</p>
 <ul>
 <li>programming-historian [Mac / Linux] (<a href="http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian.zip']);">zip</a>)</li>
 <li>programming-historian [Windows] (<a href="http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian-windows.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian-windows.zip']);">zip</a>)</li>

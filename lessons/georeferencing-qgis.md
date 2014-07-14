@@ -230,6 +230,7 @@ Figure 11
     properly rubber-sheet this somewhat distorted 1863 map to the
     Provincial GIS layer
 -   ![geo12][]
+
     Figure 12
 
 *Add at least one more control point:*

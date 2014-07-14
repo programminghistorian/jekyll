@@ -48,8 +48,8 @@
 </ul>
 <h3>Files Needed For This Lesson</h3>
 <ul>
-<li><span class="filename">obo.py</span></li>
-<li><span class="filename">trial-content.py</span></li>
+<li><code class="filename">obo.py</code></li>
+<li><code class="filename">trial-content.py</code></li>
 </ul>
 <p>If you do not have these files from the previous lesson, you can download a <a href="http://programminghistorian.org/lessons/from-html-to-list-of-words-1#codesync">zip file from the previous lesson here.</a></p>
 <h2>Repeating and Testing in Python</h2>
@@ -85,7 +85,7 @@ else:
 </ul>
 <p>To do this, you will use a for loop to look at each successive character in the string. You will then use an if / elif statement to determine whether the character is part of HTML markup or part of the content, then append the content characters to the <span class="var">text</span> string. How will we keep track of whether or not we’re inside a tag? We can use an integer variable, which will be 1 (true) if the current character is inside a tag and 0 (false) if it’s not (in the example below we have named the variable <span class="var">inside</span>).</p>
 <h3>The stripTags Routine</h3>
-<p>Putting it all together, the final version of the routine is shown below. Note that we are expanding the <span class="var">stripTags</span> function created above. Make sure you maintain the indentation as shown when you replace the old <span class="var">stripTags</span> routine in <span class="filename">obo.py</span> with this new one.</p>
+<p>Putting it all together, the final version of the routine is shown below. Note that we are expanding the <span class="var">stripTags</span> function created above. Make sure you maintain the indentation as shown when you replace the old <span class="var">stripTags</span> routine in <code class="filename">obo.py</code> with this new one.</p>
 <p>Your routine may look slightly different and as long as it works that’s fine. If you’ve elected to experiment, it’s probably best to try our version as well to make sure that your program does what ours does.</p>
 <pre class="python"># obo.py
 def stripTags(pageContents):
@@ -118,7 +118,7 @@ myText = "This is my &lt;h1&gt;HTML&lt;/h1&gt; message"
 theResult = obo.stripTags(myText)</pre>
 <p>By using <span class="reserved">return</span>, we have been able to save the output of the <span class="var">stripTags</span> function directly into a variable, which we can then resume processing as needed using additional code.</p>
 <p>Note that in the <span class="var">stripTags</span> example from the start of this sub-section, the value that we want to <span class="reserved">return</span> now is not <span class="var">pageContents</span>, but rather the content which has had the HTML markup stripped out.</p>
-<p>To test our new <span class="var">stripTags</span> routine, you can run <span class="filename">trial-content.py</span> again. Since we’ve redefined <span class="var">stripTags</span>, the <span class="filename">trial-content.py</span> program now does something different (and closer to what we want). Before you continue, make sure that you understand why the behaviour of <span class="filename">trial-content.py</span> would change when we only edited <span class="filename">obo.py</span>.</p>
+<p>To test our new <span class="var">stripTags</span> routine, you can run <code class="filename">trial-content.py</code> again. Since we’ve redefined <span class="var">stripTags</span>, the <code class="filename">trial-content.py</code> program now does something different (and closer to what we want). Before you continue, make sure that you understand why the behaviour of <code class="filename">trial-content.py</code> would change when we only edited <code class="filename">obo.py</code>.</p>
 <h2>Python Lists</h2>
 <p>Now that you have the ability to extract raw text from web pages, you’re going to want to get the text in a form that is easy to process. So far, when you’ve needed to store information in your Python programs, you’ve usually used strings. There were a couple of exceptions, however. In the <span class="var">striptags</span> routine, you also made use of an <a href="http://www.python.org/doc/current/lib/typesnumeric.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.python.org']);" target="_blank">integer</a> named <span class="var">inside</span> to store a 1 when you were processing a tag and a 0 when you weren’t. You can do mathematical operations on integers but you cannot store fractions or decimal numbers in integer variables.</p>
 <pre class="python">inside = 1</pre>
@@ -126,7 +126,7 @@ theResult = obo.stripTags(myText)</pre>
 <pre class="python">f = open('helloworld.txt','w')
 f.write('hello world')
 f.close()</pre>
-<p>One of the most useful <a href="http://www.python.org/doc/current/lib/types.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.python.org']);" target="_blank"><span class="tech">types</span></a> of object that Python provides, however, is the <span class="tech">list</span>, an ordered collection of other objects (including, potentially, other lists). Converting a string into a list of characters or words is straightforward. Type or copy the following program into your text editor to see two ways of achieving this. Save the file as <span class="filename">string-to-list.py</span> and execute it. Compare the two lists that are printed to the Command Output pane and see if you can figure out how the code works.</p>
+<p>One of the most useful <a href="http://www.python.org/doc/current/lib/types.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.python.org']);" target="_blank"><span class="tech">types</span></a> of object that Python provides, however, is the <span class="tech">list</span>, an ordered collection of other objects (including, potentially, other lists). Converting a string into a list of characters or words is straightforward. Type or copy the following program into your text editor to see two ways of achieving this. Save the file as <code class="filename">string-to-list.py</code> and execute it. Compare the two lists that are printed to the Command Output pane and see if you can figure out how the code works.</p>
 <pre class="python"># string-to-list.py
 
 # some strings

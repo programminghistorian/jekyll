@@ -18,7 +18,7 @@ processes used to calculate frequencies in a list.
 
 ### Files Needed For This Lesson
 
--   obo.py
+-   `obo.py`{.filename}
 
 If you do not have these files from the previous lesson, you can
 download a [zip file from the previous lesson here.][]
@@ -188,7 +188,8 @@ Word-Frequency Pairs
 Building on what we have so far, we want a function that can convert a
 list of words into a dictionary of word-frequency pairs. The only new
 command that we will need is dict, which makes a dictionary from a list
-of pairs. Copy the following and add it to the obo.py module.
+of pairs. Copy the following and add it to the `obo.py`{.filename}
+module.
 
 ``` python
 # Given a list of words, return a dictionary of
@@ -201,7 +202,7 @@ def wordListToFreqDict(wordlist):
 
 We are also going to want a function that can sort a dictionary of
 word-frequency pairs by descending frequency. Copy this and add it to
-the obo.py module, too.
+the `obo.py`{.filename} module, too.
 
 ``` python
 # Sort a dictionary of word-frequency pairs in
@@ -216,9 +217,9 @@ def sortFreqDict(freqdict):
 
 We can now write a program which takes a URL and returns word-frequency
 pairs for the web page, sorted in order of descending frequency. Copy
-the following program into Komodo Edit, save it as html-to-freq.py and
-execute it. Study the program and its output carefully before
-continuing.
+the following program into Komodo Edit, save it as
+`html-to-freq.py`{.filename} and execute it. Study the program and its
+output carefully before continuing.
 
 ``` python
 #html-to-freq.py
@@ -240,9 +241,9 @@ for s in sorteddict: print str(s)
 Removing Stop Words
 -------------------
 
-When we look at the output of our html-to-freq.py program, we see that a
-lot of the most frequent words in the text are function words like
-“the”, “of”, “to” and “and”.
+When we look at the output of our `html-to-freq.py`{.filename} program,
+we see that a lot of the most frequent words in the text are function
+words like “the”, “of”, “to” and “and”.
 
 ``` python
 (192, 'the')
@@ -267,8 +268,8 @@ differentiate this text from texts that are about different subjects. So
 we’re going to filter out the common function words. Words that are
 ignored like this are known as stop words. We’re going to use the
 following list, adapted from one posted online by [computer scientists
-at Glasgow][]. Copy it and put it at the beginning of the obo.py library
-that you are building.
+at Glasgow][]. Copy it and put it at the beginning of the
+`obo.py`{.filename} library that you are building.
 
 ``` python
 stopwords = ['a', 'about', 'above', 'across', 'after', 'afterwards']
@@ -325,7 +326,8 @@ stopwords += ['yours', 'yourself', 'yourselves']
 ```
 
 Now getting rid of the stop words in a list is as easy as using another
-list comprehension. Add this function to the obo.py module, too.
+list comprehension. Add this function to the `obo.py`{.filename} module,
+too.
 
 ``` python
 # Given a list of words, remove any that are
@@ -339,8 +341,8 @@ Putting it All Together
 -----------------------
 
 Now we have everything we need to determine word frequencies for web
-pages. Copy the following to Komodo Edit, save it as html-to-freq-2.py
-and execute it.
+pages. Copy the following to Komodo Edit, save it as
+`html-to-freq-2.py`{.filename} and execute it.
 
 ``` python
 # html-to-freq-2.py

@@ -26,7 +26,7 @@ showing where you want to put each digital asset.
 
 ### Add an exhibit
 
-![media\_1363324520297.png][]\
+![media\_1363324520297.png][]
 
 Figure 1: Add an exhibit in Omeka
 
@@ -41,7 +41,7 @@ your browser.
 
 ### Add a section
 
-![media\_1363324690767.png][]\
+![media\_1363324690767.png][]
 
 Figure 2: Add a section in Omeka
 
@@ -52,7 +52,7 @@ page.
 
 ### Add a page
 
-![media\_1363324853892.png][]\
+![media\_1363324853892.png][]
 
 Figure 3: Add a page in Omeka
 
@@ -65,7 +65,7 @@ layout; you can change it later. Then click on **Save Changes**.
 
 ### Add items to your page
 
-![media\_1363325083453.png][]\
+![media\_1363325083453.png][]
 
 Figure 4: Add items to your page
 
@@ -82,7 +82,7 @@ looks.
 
 ### You have an Omeka site!
 
-![media\_1363325355106.png][]\
+![media\_1363325355106.png][]
 
 Figure 5: The completed Omeka Exhibit
 

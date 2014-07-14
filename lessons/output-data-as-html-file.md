@@ -20,7 +20,7 @@ appears.
 
 ### Files Needed For This Lesson
 
--   obo.py
+-   `obo.py`{.filename}
 
 If you do not have these files from the previous lesson, you can
 download a [zip file from the previous lesson here.][]
@@ -109,7 +109,7 @@ method we can input information that is unique to the file.
 
 Let’s bundle some of the code that we’ve already written into functions.
 One of these will take a URL and return a string of lowercase text from
-the web page. Copy this code into the obo.py module.
+the web page. Copy this code into the `obo.py`{.filename} module.
 
 ``` python
 # Given a URL, return string of lowercase text from page.
@@ -126,8 +126,8 @@ We’re also going to want a function that takes a string of any sort and
 makes it the body of an HTML file which is opened automatically in
 Firefox. This function should include some basic metadata, like the time
 and date that it was created and the name of the program that created
-it. Study the following code carefully, then copy it into the obo.py
-module.
+it. Study the following code carefully, then copy it into the
+`obo.py`{.filename} module.
 
 #### Mac Instructions
 
@@ -200,7 +200,8 @@ Note that this function makes use of the string formatting operator
 about which we just learned. If you are still having trouble with this
 idea, take a look at the HTML file that opened in your new Firefox tab
 and you should see how this worked. If you’re still stuck, take a look
-at the “URL: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33”
+at the
+“`URL: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33`{.filename}”
 in the HTML file and trace back how the program knew to put the URL
 value there.
 
@@ -215,7 +216,7 @@ recognize this difference.
 This date metadata, along with the name of the program that called the
 function, is stored in the HTML title tag. The HTML file that is created
 has the same name as the Python program that creates it, but with a
-.html extension rather than a .py one.
+`.html`{.filename} extension rather than a `.py`{.filename} one.
 
 ### Putting it all together
 
@@ -224,8 +225,8 @@ Instead of sending its output to a text file or an output window, it
 sends the output to an HTML file which is opened in a new Firefox tab.
 From there, the program’s output can be added easily as bibliographic
 entries to Zotero. Type or copy the following code into your text
-editor, save it as html-to-freq-3.py and execute it, to confirm that it
-works as expected.
+editor, save it as `html-to-freq-3.py`{.filename} and execute it, to
+confirm that it works as expected.
 
 ``` python
 # html-to-freq-3.py

@@ -41,7 +41,7 @@ or Quantum GIS.
 -   Log in to your Google Account if you aren’t already logged in
     (follow the basic instructions to create an account if necessary)
 
-![geo1][]\
+![geo1][]
 
 Figure 1
 
@@ -49,7 +49,7 @@ Figure 1
     Maps Engine Lite works
 -   The Tour will first prompt you to Click New Map
 
-![geo2][]\
+![geo2][]
 
 Figure 2
 
@@ -69,18 +69,18 @@ Figure 2
     wrong Constantinople.
 -   CLICK NEXT on the Google Maps Tour.
 
-![geo3][]\
+![geo3][]
 
 Figure 3
 
-![geo4][]\
+![geo4][]
 
 Figure 4
 
 -   The Tour next prompts you to Import a Dataset. Click the ADD Layer
     button. Then click the Import.
 
-![geo5][]\
+![geo5][]
 
 Figure 5
 
@@ -90,7 +90,7 @@ Figure 5
     the MS Excel format. You can also work with a Google spreadsheet
     from your Drive account.
 
-![geo6][]\
+![geo6][]
 
 Figure 6
 
@@ -100,8 +100,7 @@ Figure 6
     with a list of different kinds of fats and the associated list of
     places. This data was created using British import tables from 1896.
 
-[![geo7][]\
-][]
+![geo7][]
 
 Figure 7
 
@@ -118,7 +117,7 @@ Figure 8
 -   You should now have a global map of the major exporters of fat to
     Britain during the mid-1890s.
 
-[![geo9][]][]\
+![geo9][]
 
 Figure 9. Click to see full size image
 
@@ -129,11 +128,11 @@ Figure 9. Click to see full size image
     Commodities. On the left hand side, the legend will show the amount
     of occurrences of each style in brackets, e.g. ‘Flax Seeds (4)’.
 
-![geo10][]\
+![geo10][]
 
 Figure 10
 
-![geo11][]\
+![geo11][]
 
 Figure 11
 
@@ -150,7 +149,7 @@ Figure 11
     start a new Tour. Feel free to skip through the Import Data section
     if the Tour crashes at this point.)
 
-![geo12][]\
+![geo12][]
 
 Figure 12
 
@@ -207,7 +206,7 @@ Figure 13
     top of the window. Click on the spot on the map where you want the
     Placemark to appear.
 
-![geo14][]\
+![geo14][]
 
 Figure 14
 
@@ -216,7 +215,7 @@ Figure 14
     Charlottetown and included that it was founded in 1765 in the
     description box.
 
-![geo15][]\
+![geo15][]
 
 Figure 15
 
@@ -232,7 +231,7 @@ Figure 15
     Placemark. Labels menu allows you to control whether the name or
     description of your Placemark appears besides it on the actual map.
 
-![geo16][]\
+![geo16][]
 
 Figure 16
 
@@ -244,8 +243,11 @@ Figure 16
     selected because of the blue outline on the left of the box).
 -   Click the ‘add line or shape’ icon box directly to the right of the
     Markers symbol:\
-    ![geo17][]\
+
+    ![geo17][]
+
     Figure 17
+
 -   Pick a road and click with your mouse along it, tracing the route
     for a while. Hit “enter” when you want to finish the line.
 
@@ -257,7 +259,7 @@ Figure 16
     find the road you have drawn in Layer 2 in the menu box, and click
     to the right of the name of the road.
 
-![geo18][]\
+![geo18][]
 
 Figure 18
 
@@ -268,11 +270,11 @@ Figure 18
     shapes, such as the outline of a city (see examples below). Feel
     free to experiment with creating lines and polygons.
 
-![geo19][]\
+![geo19][]
 
 Figure 19
 
-![geo20][]\
+![geo20][]
 
 Figure 20
 
@@ -323,7 +325,7 @@ Figure 20
     you can keep going and learn about Google Earth and in lesson 2,
     Quantum GIS.
 
-![geo21][]\
+![geo21][]
 
 Figure 21
 
@@ -350,7 +352,7 @@ exported.
     See the red arrows in the following image for the location of these
     layers.
 
-[![geo23][]][]\
+![geo23][]
 
 Figure 23: Click to see full-size image.
 
@@ -358,7 +360,7 @@ Figure 23: Click to see full-size image.
     window margin, Google provides a number of ready-to-go layers that
     can be turned on by selecting the corresponding checkbox.
 
-![geo24][]\
+![geo24][]
 
 Figure 24
 
@@ -376,14 +378,14 @@ Figure 24
     teaching. (You can find many more digitized, but not georeferenced
     maps at [www.davidrumsey.com][].)
 
-![geo25][]\
+![geo25][]
 
 Figure 25
 
 -   You might need to zoom in to see all of the Map icons. Can you find
     the World Globe from 1812?
 
-![geo26][]\
+![geo26][]
 
 Figure 26
 
@@ -396,7 +398,7 @@ Figure 26
 
 Figure 27
 
-[![geo28][]][]
+![geo28][]
 
 Figure 28: Click to see full-size image
 
@@ -426,7 +428,7 @@ Figure 28: Click to see full-size image
 -   Double click on the KML file in your Download folder.
 -   Find the data in the Temporary Folder in Google Earth.
 
-[![geo29][]][]\
+![geo29][]
 
 Figure 29: Click to see full-size image
 
@@ -444,7 +446,7 @@ Figure 29: Click to see full-size image
     tour” icon is selected, recording options will show up on the bottom
     left of the window).
 
-![geo30][]\
+![geo30][]
 
 Figure 30
 
@@ -454,7 +456,7 @@ Figure 30
     in the next image. Find Lake St. Clair (east of Detroit) and try
     adding a polygon.
 
-[![geo31][]][]\
+![geo31][]
 
 Figure 31: Click to see full-size image.
 
@@ -469,15 +471,15 @@ Figure 32
     QGIS. Find the save option by right-clicking on the Seaway
     collection and choose Save Place As or Email.
 
-![geo33][]\
+![geo33][]
 
 Figure 33
 
-![geo34][]\
+![geo34][]
 
 Figure 34
 
-![geo35][]\
+![geo35][]
 
 Figure 35
 
@@ -501,23 +503,25 @@ of change over time.
     on the top toolbar. and then adjusting the time-scale slider that
     will appear.
 
-![geo36][]\
+![geo36][]
 
 Figure 36
 
-![geo37][]\
+![geo37][]
 
 Figure 37
 
 -   Once you have identified the images you plan to use, click on the
     ‘Add Image Overlay’ icon on the top toolbar.\
-    ![geo38][]\
+
+    ![geo38][]
+
     Figure 38
 
 -   A new window will appear. Begin by giving it a different title if
     you wish (the default is ‘Untitled Image Overlay’).
 
-[![geo39][]][]\
+![geo39][]
 
 Figure 39: Click to see full-size image.
 
@@ -540,7 +544,7 @@ Figure 39: Click to see full-size image.
     Project).**\
     **
 
-[![geo40][]][]\
+![geo40][]
 
 Figure 40: Click to see full-size image.
 
@@ -574,12 +578,9 @@ your work!**
   [geo5]: ../images/geo5.png
   [geo6]: ../images/geo6.png
   [UK Global Fat Supply CSV file]: https://www.dropbox.com/s/7xv11vd7dz2afud/UK%20Global%20Fat%20Supply%201894-1896%20-%20Sheet1.csv
-  [geo7]: ../images/geo7.png
-  [![geo7][]\
-  ]: http://geospatialhistorian.files.wordpress.com/2013/02/spreadsheetimage.png
+  [geo7]: ../images/spreadsheetimage.png
   [geo8]: ../images/geo8.png
-  [geo9]: ../images/geo9-300x120.png
-  [![geo9][]]: ../images/geo9.png
+  [geo9]: ../images/geo9.png
   [geo10]: ../images/geo10.png
   [geo11]: ../images/geo11.png
   [geo12]: ../images/geo12.png
@@ -594,23 +595,19 @@ your work!**
   [geo20]: ../images/geo20.png
   [geo21]: ../images/geo21.png
   [geo22]: ../images/geo22.png
-  [geo23]: ../images/geo23-296x300.png
-  [![geo23][]]: ../images/geo23.png
+  [geo23]: ../images/geo23.png
   [geo24]: ../images/geo24.png
   [www.davidrumsey.com]: http://www.davidrumsey.com/
   [geo25]: ../images/geo25.png
   [geo26]: ../images/geo26.png
   [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
   [geo27]: ../images/geo27.png
-  [geo28]: ../images/geo28-300x277.png
-  [![geo28][]]: ../images/geo28.png
+  [geo28]: ../images/geo28.png
   [Maps Engine Lite]: https://mapsengine.google.com/map/
   [Seaway map]: https://maps.google.ca/maps/ms?ie=UTF8&hl=en&t=h&source=embed&authuser=0&msa=0&output=kml&msid=205929035855498240131.00049c08869a03cc5ea0d
-  [geo29]: ../images/geo29-300x129.png
-  [![geo29][]]: ../images/geo29.png
+  [geo29]: ../images/geo29.png
   [geo30]: ../images/geo30.png
-  [geo31]: ../images/geo31-300x173.png
-  [![geo31][]]: ../images/geo31.png
+  [geo31]: ../images/geo31.png
   [geo32]: ../images/geo32.png
   [geo33]: ../images/geo33.png
   [geo34]: ../images/geo34.png
@@ -620,8 +617,6 @@ your work!**
   [geo36]: ../images/geo36.png
   [geo37]: ../images/geo37.png
   [geo38]: ../images/geo38.png
-  [geo39]: ../images/geo39-300x145.png
-  [![geo39][]]: ../images/geo39.png
-  [geo40]: ../images/geo40-300x217.png
-  [![geo40][]]: ../images/geo40.png
+  [geo39]: ../images/geo39.png
+  [geo40]: ../images/geo40.png
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

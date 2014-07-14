@@ -81,7 +81,7 @@ make it your own.
 Getting the Text
 ----------------
 
-[![regex\_ia\_image][]][regex\_ia\_image]
+![regex\_ia\_image][]
 
 Figure 1: Screenshot of the unstructured text
 
@@ -134,16 +134,17 @@ following a month and a four-digit year, as in
 December," 1907.
 ```
 
-We can find these by doing a search (Edit → Find with shortcut Ctrl-F or
-Cmd-F on a Mac) for double quotation marks, and confirm that these are
-the only two instances of quotation marks in the file. In this case we
-can simply delete them. Rather than do so by hand, just for practice try
-using LibreOffice’s find-and-replace function (Ctrl-H or Cmd-Alt-F on
-Mac).
+We can find these by doing a search (`Edit → Find`{.userinput} with
+shortcut Ctrl-F or Cmd-F on a Mac) for double quotation marks, and
+confirm that these are the only two instances of quotation marks in the
+file. In this case we can simply delete them. Rather than do so by hand,
+just for practice try using LibreOffice’s find-and-replace function
+(`Ctrl-H`{.userinput} or `Cmd-Alt-F`{.userinput} on Mac).
 
-*Replace* “ *with nothing.*
+*Replace* `“`{.userinput style="background-color: #ffcccc;"} *with
+nothing.*
 
-[![regex\_01\_findquote][]][regex\_01\_findquote]
+![regex\_01\_findquote][]
 
 Figure 2: Screenshot of Find and Replace feature
 
@@ -151,52 +152,57 @@ Finding structure for rows
 --------------------------
 
 We are just getting started, but to estimate how far we have to go,
-select the full text from LibreOffice Writer (Ctrl-A) and paste it into
-LibreOffice Calc (File-\>New-\>Spreadsheet). Each line of text becomes a
-single-celled row of the spreadsheet. What we would like is for each row
-of the spreadsheet to represent one kind of record in a consistent form.
-It would take a lot of tedious work to tabulate this by hand with this
-as our starting point. In what follows we will be doing all our work
-with regular expressions in Writer, but keep Calc open in the
-background. We can return to it to paste future iterations and gauge our
-progress.
+select the full text from LibreOffice Writer (`Ctrl-A`{.userinput}) and
+paste it into LibreOffice Calc (`File->New->Spreadsheet`{.userinput}).
+Each line of text becomes a single-celled row of the spreadsheet. What
+we would like is for each row of the spreadsheet to represent one kind
+of record in a consistent form. It would take a lot of tedious work to
+tabulate this by hand with this as our starting point. In what follows
+we will be doing all our work with regular expressions in Writer, but
+keep Calc open in the background. We can return to it to paste future
+iterations and gauge our progress.
 
 Returning to Writer, we will want to get rid of the line breaks that we
 don’t need — but there are some end-of-line hyphenations we should clean
 up first. This time we will start using regular expressions. On the Find
-& Replace box show More Options (Other Options on Mac) and make sure the
-Regular expressions checkbox is selected. This will enable us to use
-special symbols to define general patterns to match.
+& Replace box show `More Options`{.filename} (Other Options on Mac) and
+make sure the `Regular expressions`{.filename} checkbox is selected.
+This will enable us to use special symbols to define general patterns to
+match.
 
 Using find-and-replace,
 
-*replace* - \$ *(hyphen-space-dollar-sign) with nothing.*
+*replace* `- $`{.userinput style="background-color: #ffcccc;"}
+*(hyphen-space-dollar-sign) with nothing.*
 
-[![regex\_02\_moreoptions][]][regex\_02\_moreoptions]
+![regex\_02\_moreoptions][]
 
 Figure 3: The ‘More Options’ tab in Open Office Find & Replace
 
 The dollar sign symbol is a special symbol in this case that matches the
-end of each line. You might start by clicking Find and then Replace when
-you see that the highlighted selection matches your expectations. After
-repeating this a few times you can click Replace All to replace all the
-rest at once. If you make a mistake or are uncertain, you can undo
-recent steps with Edit → Undo from the menu bar, or keyboard shortcut
-Ctrl+Z (Cmd+Z on Mac). In this document there are 27 total matches for
-this particular pattern.
+end of each line. You might start by clicking `Find`{.filename} and then
+`Replace`{.filename} when you see that the highlighted selection matches
+your expectations. After repeating this a few times you can click
+`Replace All`{.filename} to replace all the rest at once. If you make a
+mistake or are uncertain, you can undo recent steps with
+`Edit → Undo`{.filename} from the menu bar, or keyboard shortcut
+`Ctrl+Z`{.filename} (Cmd+Z on Mac). In this document there are 27 total
+matches for this particular pattern.
 
 Next, again using find-and-replace,
 
-*replace all* \$ *(just a dollar sign) with nothing.*
+*replace all* `$`{.userinput style="background-color: #ffcccc;"} *(just
+a dollar sign) with nothing.*
 
 There are 225 replacements with this pattern. At first it may not be
 clear what happened here, but this has in fact made each paragraph a
 single paragraph or logical line. In LibreOffice (and similar word
 processing programs) you can turn on nonprinting characters
-(View→Nonprinting Characters with shortcut Ctrl-F10 on Windows or Linux)
-to see line and paragraph breaks.
+(View→Nonprinting Characters with shortcut
+`Ctrl-F10 on Windows or Linux`{.filename}) to see line and paragraph
+breaks.
 
-[![regex\_03\_lines][]][regex\_03\_lines]
+![regex\_03\_lines][]
 
 Figure 4: Non-Printing Characters in LibreOffice
 
@@ -206,7 +212,7 @@ paste it into a blank spreadsheet. This should confirm that each health
 record is now a separate row in the spreadsheet (although we also have
 page headings and footnotes mixed in — we will clean those up shortly).
 
-[![regex\_04\_calclines][]][regex\_04\_calclines]
+![regex\_04\_calclines][]
 
 Figure 5: The improved structure, shown in LibreOffice Calc
 
@@ -231,12 +237,13 @@ Back in Writer, let’s start making columns by splitting the
 place-and-time information from the reported numbers. Almost all reports
 include the words
 
-Total number of deaths
+`Total number of deaths`{.userinput style="background-color: #ffcccc;"}
 
 Search for this and replace it with exactly the same phrase, but with
 “\\t” at the front of the string representing a tab character:
 
-\\tTotal number of deaths
+`\tTotal number of deaths`{.userinput
+style="background-color: #ccffcc;"}
 
 After making this replacement (which makes 53 changes), select all the
 text and copy and paste it into an empty spreadsheet again.
@@ -245,21 +252,22 @@ Does it look like nothing changed? LibreOffice Calc is putting the full
 text of each paragraph in a single cell, tabs and all. We need to insist
 on a plain-text interpretation to get Calc to ask us what to do with
 tabs. Let’s try again. You can empty the spreadsheet conveniently by
-selecting all (Ctrl-A) and deleting the selection.
+selecting all (`Ctrl-A`{.filename}) and deleting the selection.
 
-In an empty spreadsheet, select Edit → Paste Special, (or right-click to
-reach the same) and then select “unformatted text” from the options in
-the window appears. That should result in a popup “Text Import” window.
-Make sure the Tab checkbox is selected under Separator options and then
-click “OK”. (Before clicking OK you may want to try checking and
-unchecking Comma and Space as separators to preview what they would do
-here, but we do not want to treat them as separators in this context.)
+In an empty spreadsheet, select `Edit → Paste Special,`{.filename} (or
+right-click to reach the same) and then select “unformatted text” from
+the options in the window appears. That should result in a popup “Text
+Import” window. Make sure the Tab checkbox is selected under Separator
+options and then click “OK”. (Before clicking OK you may want to try
+checking and unchecking Comma and Space as separators to preview what
+they would do here, but we do not want to treat them as separators in
+this context.)
 
 Now we see the promising start of a table structure, with geography and
 time span still in column A, but with “Total number of deaths” and
 subsequent text clearly aligned in a separate column.
 
-[![regex\_05\_2col][]][regex\_05\_2col]
+![regex\_05\_2col][]
 
 Figure 6: The newly tab-delimited version of the data shown in
 LibreOffice Calc
@@ -270,7 +278,8 @@ structure we have right now we don’t expect to ever see two tab
 characters in a row. Back in LibreOffice Writer we can check for this
 and fix the problem by searching for
 
-\\t\\t and replacing with \\t
+`\t\t`{.userinput style="background-color: #ffcccc;"} and replacing with
+`\t`{.userinput style="background-color: #ccffcc;"}
 
 **repeating as needed** until no more double-tabs are found.
 
@@ -302,7 +311,7 @@ will see in other contexts. If you use a proprietary word processor you
 will likely find similar functionality even if the notation differs.
 
   ------------------------------------ ------------------------------------
-  A b 1                                [Ab1]
+  `A b 1 `{.userinput}                 `[Ab1]`{.userinput}
   literals — letters, digits, and      a character class, matching one
   spaces match themselves              instance of any of ‘A’, ‘b’, or ’1′
                                        in this case
@@ -317,23 +326,26 @@ Applying regular expressions
 Let’s start to use some of these to remove the page headings with date
 and page number. Switch back to your LibreOffice Writer window.
 
-*Replace:* \^.\*February 21.\*1908.\*\$ *with nothing* (4 matches).
+*Replace:* `^.*February 21.*1908.*$`{.userinput
+style="background-color: #ffcccc;"} *with nothing* (4 matches).
 
-*Replace* \^.\*Received out of regular order.\*\$ *with nothing* (2
-matches).
+*Replace* `^.*Received out of regular order.*$`{.userinput
+style="background-color: #ffcccc;"} *with nothing* (2 matches).
 
-Here \^ (caret) matches the beginning of the line, . (period) matches
-any character, .\* (period-asterisk) matches any sequence of zero or
-more characters, and \$ (dollar-sign) matches the end of the line. By
-spelling out the date, we will match only the lines where that sequence
-appears, letter by letter, and by using .\* at both ends we match all
-lines with that sequence regardless of what else is before or after it
-on the line. After making this replacement, we will be left with some
+Here `^`{.userinput} (caret) matches the beginning of the line,
+`.`{.userinput} (period) matches any character, `.*`{.userinput}
+(period-asterisk) matches any sequence of zero or more characters, and
+`$`{.userinput} (dollar-sign) matches the end of the line. By spelling
+out the date, we will match only the lines where that sequence appears,
+letter by letter, and by using `.*`{.userinput} at both ends we match
+all lines with that sequence regardless of what else is before or after
+it on the line. After making this replacement, we will be left with some
 blank lines.
 
 To remove the blank lines in LibreOffice,
 
-*Replace* \^\$ *with nothing* (5 matches).
+*Replace* `^$`{.userinput style="background-color: #ffcccc;"} *with
+nothing* (5 matches).
 
 (In other regular expression environments, other techniques for working
 with line endings will be necessary; some may be more convenient than
@@ -398,9 +410,9 @@ are roughly the width of the letter ‘m’; wider than endashes.) We can
 replace these with tab characters, which will effectively help us put
 states and cities in separate columns of the spreadsheet.
 
-*Replace* [ ]?—[ ]?
+*Replace* `[ ]?—[ ]?`{.userinput style="background-color: #ffcccc;"}
 
-*with* \\t
+*with* `\t`{.userinput style="background-color: #ccffcc;"}
 
 You should have 42 matches. (One easy way to get the emdash into your
 pattern is to copy and paste from an existing emdash in the text itself.
@@ -414,14 +426,15 @@ Now we will look for explicit references to time and wrap them in
 markers they will provide some scaffolding on which we can build further
 patterns. Note that in the next pattern we want to be sure to apply the
 replacement just once, otherwise some time references may be repeatedly
-wrapped. It will be most efficient to use Replace All just once for each
-wrapping pattern.
+wrapped. It will be most efficient to use `Replace All`{.userinput} just
+once for each wrapping pattern.
 
-*Replace* (Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].)
+*Replace* `(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].)`{.userinput
+style="background-color: #ffcccc;"}
 
-*with* \<t\>\$1\</t\>
+*with* `<t>$1</t>`{.userinput style="background-color: #ccffcc;"}
 
-[![regex\_06\_timemarkup][]][regex\_06\_timemarkup]
+![regex\_06\_timemarkup][]
 
 Figure 7: Finding time using Regular Expressions
 
@@ -433,9 +446,11 @@ and after it.
 In addition to months, we need to match quarterly reports with a similar
 approach:
 
-*Replace* ([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].)
+*Replace*
+`([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].)`{.userinput
+style="background-color: #ffcccc;"}
 
-*with* \<t\>\$1\</t\>
+*with* `<t>$1</t>`{.userinput style="background-color: #ccffcc;"}
 
 You should have 7 more matches. It looks like we have references to time
 accounted for. Extending this strategy to other kinds of information
@@ -448,17 +463,22 @@ way here.)
 Here are some patterns to wrap each of those kinds of information, all
 using the same strategy we just used:
 
-*Replace* (Estimated population, [0-9,]+.)
+*Replace* `(Estimated population, [0-9,]+.)`{.userinput
+style="background-color: #ffcccc;"}
 
-*with* \<p\>\$1\</p\> (34 matches).
+*with* `<p>$1</p>`{.userinput style="background-color: #ccffcc;"} (34
+matches).
 
-*Replace* (Total number of deaths[A-Za-z ,]\* [0-9,]+)
+*Replace* `(Total number of deaths[A-Za-z ,]* [0-9,]+)`{.userinput
+style="background-color: #ffcccc;"}
 
-*with* \<N\>\$1\</N\> (48 matches).
+*with* `<N>$1</N>`{.userinput style="background-color: #ccffcc;"} (48
+matches).
 
-*Replace* (Cases ?:)
+*Replace* `(Cases ?:)`{.userinput style="background-color: #ffcccc;"}
 
-*with* \<c\>\$1\</c\> (49 matches).
+*with* `<c>$1</c>`{.userinput style="background-color: #ccffcc;"} (49
+matches).
 
 This next part is a little trickier. It would be great if we could get
 hold of the disease (let’s use “\<d\>”) and count (“\<n\>”) segments.
@@ -468,16 +488,20 @@ to get pretty far without having to match each disease name explicitly,
 one by one. First match the disease-count pair after the word
 “including”:
 
-*Replace* \</N\> including ([A-Za-z ]+) ([0-9]+),
+*Replace* `</N> including ([A-Za-z ]+) ([0-9]+),`{.userinput
+style="background-color: #ffcccc;"}
 
-*with* \</N\> including \<d\>\$1\</d\> \<n\>\$2\</n\> (29 matches).
+*with* `</N> including <d>$1</d> <n>$2</n>`{.userinput
+style="background-color: #ccffcc;"} (29 matches).
 
 And then iteratively match disease-count pairs that appear after
 existing markers:
 
-*Replace* \> ([A-Za-z ]+) ([0-9]+)([.,])
+*Replace* `> ([A-Za-z ]+) ([0-9]+)([.,])`{.userinput
+style="background-color: #ffcccc;"}
 
-*with* \> \<d\>\$1\</d\> \<n\>\$2\</n\>
+*with* `> <d>$1</d> <n>$2</n>`{.userinput
+style="background-color: #ccffcc;"}
 
 Note that we are getting rid of commas after the disease counts by
 ignoring the third match in our replacement.
@@ -489,9 +513,11 @@ Our patterns have not done anything with phrases like ‘and 3 from
 tuberculosis.’ We can match those phrases and reverse the order so that
 the disease name appears before the count:
 
-*Replace* and ([0-9])+ from ([a-z ]+)
+*Replace* `and ([0-9])+ from ([a-z ]+)`{.userinput
+style="background-color: #ffcccc;"}
 
-*with* \<d\>\$2\</d\> \<n\>\$1\</n\> (32 matches).
+*with* `<d>$2</d> <n>$1</n>`{.userinput
+style="background-color: #ccffcc;"} (32 matches).
 
 It looks like our markers are now capturing a lot of the semantic
 structure that we are interested in. Now let’s copy and paste (“paste
@@ -500,7 +526,7 @@ getting a table. We are successfully separating location data into
 cells, but the cells are not aligned vertically yet. We want to get all
 of the time references into the third column.
 
-[![regex\_09\_calc\_3col][]][regex\_09\_calc\_3col]
+![regex\_09\_calc\_3col][]
 
 Figure 8: Measuring progress using LibreOffice Calc
 
@@ -510,18 +536,21 @@ we will put the locations into the second column, and in a few instances
 we will need to move state names back to the first column by hand. Go
 back to your LibreOffice Writer window and:
 
-*Replace* \^([A-Za-z .]+\\t\<t\>)
+*Replace* `^([A-Za-z .]+\t<t>)`{.userinput
+style="background-color: #ffcccc;"}
 
-*with* \\t\$1 (30 matches).
+*with* `\t$1`{.userinput style="background-color: #ccffcc;"} (30
+matches).
 
 Now fix the cases with no location information, where the location is
 implicitly the same as the row above, and the time span is different.
 
-*Replace* \^\<t\>
+*Replace* `^<t>`{.userinput style="background-color: #ffcccc;"}
 
-*with* \\t\\t\<t\> (19 matches)
+*with* `\t\t<t>`{.userinput style="background-color: #ccffcc;"} (19
+matches)
 
-[![regex\_10\_loc\_columns][]][regex\_10\_loc\_columns]
+![regex\_10\_loc\_columns][]
 
 Figure 9: Further refining the results
 
@@ -550,13 +579,15 @@ sources, and it won’t be the last such example.)
 We can start by making a new row for “cases” lists, so that we can
 handle them separately. Head back to LibreOffice Writer.
 
-[![regex\_11\_writer\_cases\_together\_hi][]][regex\_11\_writer\_cases\_together\_hi]
+![regex\_11\_writer\_cases\_together\_hi][]
 
 Figure 10: Making a new row for ‘cases’
 
-*Replace* \^(.\*\\t)(.\*\\t)(\<t\>.\*\</t\>)(.\*)(\<c\>.\*)
+*Replace* `^(.*\t)(.*\t)(<t>.*</t>)(.*)(<c>.*)`{.userinput
+style="background-color: #ffcccc;"}
 
-*with* \$1\$2\$3\$4\\n\$1\$2\$3\\t\$5 (47 matches).
+*with* `$1$2$3$4\n$1$2$3\t$5`{.userinput
+style="background-color: #ccffcc;"} (47 matches).
 
 One thing to notice here is that we are using some of the replacement
 patterns twice. We are matching the three fields up to the time
@@ -570,10 +601,11 @@ fields verbatim.
 Let’s go further, and split all the case lists into separate rows:
 
 *Replace*
-\^(.\*\\t)(.\*\\t)(\<t\>.\*\</t\>)(.\*\<c\>.\*)(\<d\>.\*\</d\>)
-(\<n\>.\*\</n\>)
+`^(.*\t)(.*\t)(<t>.*</t>)(.*<c>.*)(<d>.*</d>) (<n>.*</n>)`{.userinput
+style="background-color: #ffcccc;"}
 
-*with* \$1\$2\$3\$4\\n\$1\$2\$3\\tCases\\t\$5\$6
+*with* `$1$2$3$4\n$1$2$3\tCases\t$5$6`{.userinput
+style="background-color: #ccffcc;"}
 
 and **repeat** as many times as necessary until there are no more
 replacements (seven iterations).
@@ -581,10 +613,11 @@ replacements (seven iterations).
 Now similarly split all the mortality lists into separate rows:
 
 *Replace*
-\^(.\*\\t)(.\*\\t)(\<t\>.\*\</t\>)(.\*\<N\>.\*)(\<d\>.\*\</d\>)
-(\<n\>.\*\</n\>)
+`^(.*\t)(.*\t)(<t>.*</t>)(.*<N>.*)(<d>.*</d>) (<n>.*</n>)`{.userinput
+style="background-color: #ffcccc;"}
 
-*with* \$1\$2\$3\$4\\n\$1\$2\$3\\tDeaths\\t\$5\$6
+*with* `$1$2$3$4\n$1$2$3\tDeaths\t$5$6`{.userinput
+style="background-color: #ccffcc;"}
 
 and **repeat** as many times as necessary until there are no more
 replacements (eight iterations).
@@ -594,30 +627,34 @@ you paste again into Calc, though if you want to wait just a bit, some
 cleanup work with short and simple patterns will get us most of the rest
 of the way:
 
-*Replace* .\*\</c\> \$ *with nothing*
+*Replace* `.*</c> $`{.userinput style="background-color: #ffcccc;"}
+*with nothing*
 
-*Replace* \^\$ *with nothing*
+*Replace* `^$`{.userinput style="background-color: #ffcccc;"} *with
+nothing*
 
-*Replace* \<n\>
+*Replace* `<n>`{.userinput style="background-color: #ffcccc;"}
 
-*with* \\t
+*with* `\t`{.userinput style="background-color: #ccffcc;"}
 
-*Replace* \</n\> *with nothing*
+*Replace* `</n>`{.userinput style="background-color: #ffcccc;"} *with
+nothing*
 
-*Replace* \<d\>and
+*Replace* `<d>and`{.userinput style="background-color: #ffcccc;"}
 
-*with* \<d\>
+*with* `<d>`{.userinput style="background-color: #ccffcc;"}
 
-*Replace* \</?[tdp]\> *with nothing*
+*Replace* `</?[tdp]>`{.userinput style="background-color: #ffcccc;"}
+*with nothing*
 
-[![regex\_17\_writer\_done][]][regex\_17\_writer\_done]
+![regex\_17\_writer\_done][]
 
 Figure 11: The final view in LibreOffice Writer
 
 Now copy and paste this into Calc, and you should see a (mostly)
 well-structured table.
 
-[![regex\_18\_calc\_done][]][regex\_18\_calc\_done]
+![regex\_18\_calc\_done][]
 
 Figure 12: The final view in LibreOffice Calc
 

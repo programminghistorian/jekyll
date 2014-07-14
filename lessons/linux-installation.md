@@ -18,12 +18,13 @@ to times when you are engaged in programming.
 
 ### Install Python v. 2 and Python “Beautiful Soup” module
 
-1.  Open a terminal (Dash Home, then type Terminal, then click on the
-    Terminal icon).
-2.  Now type: sudo apt-get install python2.7 python-beautifulsoup
-3.  Enter your password, and then type Y to finish the install. Note
-    that you probably have Python 2.7 installed already, so don’t be
-    alarmed if Ubuntu tells you that.
+1.  Open a terminal (`Dash Home`{.userinput}, then type
+    `Terminal`{.userinput}, then click on the Terminal icon).
+2.  Now type:
+    `sudo apt-get install python2.7 python-beautifulsoup`{.userinput}
+3.  Enter your password, and then type `Y`{.userinput} to finish the
+    install. Note that you probably have Python 2.7 installed already,
+    so don’t be alarmed if Ubuntu tells you that.
 
 ### Create a directory
 
@@ -44,18 +45,18 @@ download Komodo Edit at the [Komoto Edit Website][]. Once you’ve
 downloaded it, open it with Ubuntu’s package manager, extract it to your
 home directory, and follow the installation instructions. If you are
 following along with these instructions and have installed Komodo Edit,
-open the home folder, go to the Komodo-Edit-7/bin directory, and click
-on komodo. You can also right click on the Komodo icon in your launcher
-and click “Lock to Launcher” to have Komodo saved permanently to your
-launcher bar.
+open the home folder, go to the `Komodo-Edit-7/bin`{.filename}
+directory, and click on komodo. You can also right click on the Komodo
+icon in your launcher and click “`Lock to Launcher`{.filename}” to have
+Komodo saved permanently to your launcher bar.
 
 ### Make a “Run Python” Command in Komodo Edit
 
-1.  In Komodo Edit, click the gear icon under Toolbox and select New
-    Command.
-2.  In the top field type “Run Python File“
-3.  In the Command field, type: %(python) %f Then hit the OK button at
-    the bottom of the Add Command window.
+1.  In Komodo Edit, click the gear icon under `Toolbox`{.filename} and
+    select `New Command`{.filename}.
+2.  In the top field type “`Run Python File`{.userinput}“
+3.  In the Command field, type: `%(python) %f`{.userinput} Then hit the
+    OK button at the bottom of the Add Command window.
 
 Step 2 – “Hello World” in Python
 --------------------------------
@@ -80,20 +81,20 @@ the instructions that you gave it in your program and then stop. Let’s
 try this.
 
 In your text editor, create a new file, enter the following two-line
-program and save it to your programming-historian directory as
-hello-world.py
+program and save it to your `programming-historian`{.filename} directory
+as `hello-world.py`{.filename}
 
 ``` python
 # hello-world.py
 print 'hello world'
 ```
 
-Your chosen text editor should have a “Run” button that will allow you
-to execute your program. If all went well, it should look something like
-this (Example as seen in Komodo Edit. Click on the image to see a
-full-size copy):
+Your chosen text editor should have a “`Run`{.filename}” button that
+will allow you to execute your program. If all went well, it should look
+something like this (Example as seen in Komodo Edit. Click on the image
+to see a full-size copy):
 
-[![hello world in Komodo Edit on a Mac][]][]
+![hello world in Komodo Edit on a Mac][]
 
 “Hello World” in Python
 
@@ -105,8 +106,8 @@ shell will respond to your command. Using a shell is a great way to test
 statements to make sure that they do what you think they should.
 
 You can run a Python shell by launching the “terminal”. For Linux, go to
-Applications-\> Accessories -\> Terminaland do the same. At the Python
-shell prompt, type
+`Applications-> Accessories -> Terminal`{.filename}and do the same. At
+the Python shell prompt, type
 
 ``` python
 print 'hello world'
@@ -118,8 +119,9 @@ and press Enter. The computer will respond with
 hello world
 ```
 
-When we want to represent an interaction with the shell, we will use -\>
-to indicate the shell’s response to your command, as shown below:
+When we want to represent an interaction with the shell, we will use
+`->`{.filename} to indicate the shell’s response to your command, as
+shown below:
 
 ``` python
 print 'hello world'
@@ -128,7 +130,7 @@ print 'hello world'
 
 On your screen, it will look more like this:
 
-[![hello world terminal on a Mac][]][]
+![hello world terminal on a Mac][]
 
 Python Shell in Mac Terminal
 
@@ -142,9 +144,7 @@ order, we suggest you next try ‘[Viewing HTML Files][]‘
   [Komoto Edit Website]: http://www.activestate.com/komodo-edit
   [hello world in Komodo Edit on a Mac]: ../images/hello-world1.png
     "hello-world"
-  [![hello world in Komodo Edit on a Mac][]]: ../images/hello-world1.png
   [hello world terminal on a Mac]: ../images/hello-world-terminal.png
     "hello-world-terminal"
-  [![hello world terminal on a Mac][]]: ../images/hello-world-terminal.png
   [.]: lesson-1-2-viewing-html-files
   [Viewing HTML Files]: /lessons/viewing-html-files

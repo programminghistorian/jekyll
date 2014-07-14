@@ -11,8 +11,9 @@ layout: default
 Don’t take your data at face value. That is the key message of this
 tutorial which focuses on how scholars can diagnose and act upon the
 accuracy of data. In this lesson, you will learn the principles and
-practice of data cleaning, as well as how [OpenRefine][] can be used to
-perform four essential tasks that will help you to clean your data:
+practice of data cleaning, as well as how [`OpenRefine`{.filename}][]
+can be used to perform four essential tasks that will help you to clean
+your data:
 
 1.  Remove duplicate records
 2.  Separate multiple values contained in the same field
@@ -32,10 +33,11 @@ lesson will teach you how to discover inconsistencies in data contained
 within a spreadsheet or a database. As we increasingly share, aggregate
 and reuse data on the web, historians will need to respond to data
 quality issues which inevitably pop up. Using a program called
-OpenRefine, you will be able to easily identify systematic errors such
-as blank cells, duplicates, spelling inconsistencies, etc. OpenRefine
-not only allows you to quickly diagnose the accuracy of your data, but
-also to act upon certain errors in an automated manner.
+`OpenRefine`{.filename}, you will be able to easily identify systematic
+errors such as blank cells, duplicates, spelling inconsistencies, etc.
+`OpenRefine`{.filename} not only allows you to quickly diagnose the
+accuracy of your data, but also to act upon certain errors in an
+automated manner.
 
 **Description of the tool: OpenRefine**
 
@@ -59,22 +61,23 @@ user-friendly interface through which end users can detect and correct
 errors.
 
 Several general purpose tools for interactive data transformation have
-been developed in recent years, such as [Potter’s Wheel ABC][] and
-[Wrangler][]. Here we want to focus specifically on [OpenRefine][]
-(formerly Freebase Gridworks and Google Refine), as in the opinion of
-the authors, it is the most user-friendly tool to efficiently process
-and clean large amounts of data in a browser-based interface.
+been developed in recent years, such as
+[`Potter’s Wheel ABC`{.filename}][] and [`Wrangler`{.filename}][]. Here
+we want to focus specifically on [`OpenRefine`{.filename}][] (formerly
+Freebase Gridworks and Google Refine), as in the opinion of the authors,
+it is the most user-friendly tool to efficiently process and clean large
+amounts of data in a browser-based interface.
 
-On top of [data profiling][] and cleaning operations, OpenRefine
-extensions allow users to identify concepts in unstructured text, a
-process referred to as [named-entity recognition][] (NER), and can also
-reconcile their own data with existing knowledge bases. By doing so,
-OpenRefine can be a practical tool to link data with concepts and
-authorities which have already been declared on the Web by parties such
-as [Library of Congress][] or [OCLC][]. Data cleaning is a prerequisite
-to these steps; the success rate of NER and a fruitful matching process
-between your data and external authorities depends on your ability to
-make your data as coherent as possible.
+On top of [data profiling][] and cleaning operations,
+`OpenRefine`{.filename} extensions allow users to identify concepts in
+unstructured text, a process referred to as [named-entity recognition][]
+(NER), and can also reconcile their own data with existing knowledge
+bases. By doing so, `OpenRefine`{.filename} can be a practical tool to
+link data with concepts and authorities which have already been declared
+on the Web by parties such as [Library of Congress][] or [OCLC][]. Data
+cleaning is a prerequisite to these steps; the success rate of NER and a
+fruitful matching process between your data and external authorities
+depends on your ability to make your data as coherent as possible.
 
 **Description of the exercise: Powerhouse Museum**
 
@@ -86,14 +89,14 @@ from haute couture to computer chips.
 
 The Powerhouse has been very actively disclosing its collection online
 and making most of its data freely available. From the museum website, a
-tab-separated text file under the name phm-collection.tsv can be
-downloaded, which you can open as a spreadsheet. The unzipped file
-(58MB) contains basic metadata (17 fields) for 75,823 objects, released
-under a [Creative Commons Attribution Share Alike (CCASA) license][]. In
-this tutorial we will be using a copy of the data that we have archived
-for you to download (in a moment). This ensures that if the Powerhouse
-Museum updates the data, you will still be able to follow along with the
-Lesson.
+tab-separated text file under the name `phm-collection.tsv`{.filename}
+can be downloaded, which you can open as a spreadsheet. The unzipped
+file (58MB) contains basic metadata (17 fields) for 75,823 objects,
+released under a [Creative Commons Attribution Share Alike (CCASA)
+license][]. In this tutorial we will be using a copy of the data that we
+have archived for you to download (in a moment). This ensures that if
+the Powerhouse Museum updates the data, you will still be able to follow
+along with the Lesson.
 
 Throughout the data profiling and cleaning process, the case study will
 specifically focus on the *Categories* field, which is populated with
@@ -116,20 +119,21 @@ as creating [Linked Data][].
 **Getting started: installing OpenRefine and importing data**
 
 [Download OpenRefine][] and follow the installation instructions.
-OpenRefine works on all platforms: Windows, Mac, and Linux. OpenRefine
-will open in your browser, but it is important to realise that the
-application is run locally and that your data won’t be stored online.
-The data files are available on our [FreeYourMetadata website][], which
-will be used throughout this tutorial. Please download the
-phm-collection.tsv file before continuing (also archived on the
-Programming Historian site: as [phm-collection][]).
+OpenRefine works on all platforms: Windows, Mac, and Linux.
+`OpenRefine`{.filename} will open in your browser, but it is important
+to realise that the application is run locally and that your data won’t
+be stored online. The data files are available on our [FreeYourMetadata
+website][], which will be used throughout this tutorial. Please download
+the `phm-collection.tsv`{.filename} file before continuing (also
+archived on the Programming Historian site: as [phm-collection][]).
 
-On the OpenRefine start page, create a new project using the downloaded
-data file and click Next. By default, the first line will be correctly
-parsed as the name of a column, but you need to unselect the ‘Quotation
-marks are used to enclose cells containing column separators’ checkbox,
-since the quotes inside the file do not have any meaning to OpenRefine.
-Now click on ‘Create project‘. If all goes well, you will see 75,814
+On the `OpenRefine`{.filename} start page, create a new project using
+the downloaded data file and click `Next`{.userinput}. By default, the
+first line will be correctly parsed as the name of a column, but you
+need to unselect the ‘Quotation marks are used to enclose cells
+containing column separators’ checkbox, since the quotes inside the file
+do not have any meaning to `OpenRefine`{.filename}. Now click on
+‘`Create project`{.userinput}‘. If all goes well, you will see 75,814
 rows. Alternatively, you can download the [initial OpenRefine project][]
 directly.
 
@@ -140,7 +144,7 @@ object on the museum website. To get an idea of what object the metadata
 corresponds to, simply click the persistent link and the website will
 open.
 
-[![Powerhouse Museum Website][]][Powerhouse Museum Website]\
+![Powerhouse Museum Website][]
 
 Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website
 
@@ -182,10 +186,11 @@ by sorting them by a unique value, such as the Record ID (in this case
 we are assuming the Record ID should in fact be unique for each entry).
 The operation can be performed by clicking the triangle left of Record
 ID, then choosing ‘Sort’… and selecting the ‘numbers’ bullet. In
-OpenRefine, sorting is only a visual aid, unless you make the reordering
-permanent. To do this, click ‘the’ Sort menu that has just appeared at
-the top and choose ‘Reorder rows permanently’. If you forget to do this,
-you will get unpredictable results later in this tutorial.
+`OpenRefine`{.filename}, sorting is only a visual aid, unless you make
+the reordering permanent. To do this, click ‘the’ Sort menu that has
+just appeared at the top and choose ‘Reorder rows permanently’. If you
+forget to do this, you will get unpredictable results later in this
+tutorial.
 
 Identical rows are now adjacent to each other. Next, blank the Record ID
 of rows that have the same Record ID as the row above them, marking them
@@ -247,17 +252,17 @@ the most used terms to index the collection. The top three headings are
 ‘Numismatics’ (8,041), ‘Ceramics’ (7,390) and ‘Clothing and dress’
 (7,279).
 
-After the application of a facet, OpenRefine proposes to cluster facet
-choices together based on various similarity methods. As Figure 2
-illustrates, the clustering allows you to solve issues regarding case
-inconsistencies, incoherent use of either the singular or plural form,
-and simple spelling mistakes. OpenRefine presents the related values and
-proposes a merge into the most recurrent value. Select values you wish
-to cluster by selecting their boxes individually or by clicking ‘Select
-all’ at the bottom, then chose ‘Merge Selected and Re-Cluster’.
+After the application of a facet, `OpenRefine`{.filename} proposes to
+cluster facet choices together based on various similarity methods. As
+Figure 2 illustrates, the clustering allows you to solve issues
+regarding case inconsistencies, incoherent use of either the singular or
+plural form, and simple spelling mistakes. `OpenRefine`{.filename}
+presents the related values and proposes a merge into the most recurrent
+value. Select values you wish to cluster by selecting their boxes
+individually or by clicking ‘Select all’ at the bottom, then chose
+‘Merge Selected and Re-Cluster’.
 
-[![Screenshot of OpenRefine Example][]][Screenshot of OpenRefine
-Example]
+![Screenshot of OpenRefine Example][]
 
 Figure 2 : Overview of some clusters
 
@@ -287,22 +292,23 @@ the Facet/Filter tab.
 The issue arose during the splitting operation on the pipe character, so
 there is a strong chance that whatever went wrong is linked to this
 character. Let’s apply a filter on the Categories column by selecting
-‘Text filter’ in the menu. First type a single | in the field on the
-left: OpenRefine informs you that there are 71,064 matching records
-(i.e. records containing a pipe) out of a total of 75,727. Cells that do
-not contain a pipe can be blank ones, but also cells containing a single
-category with no separator, such as record 29 which only has ‘Scientific
-instruments’.
+‘Text filter’ in the menu. First type a single `|`{.userinput} in the
+field on the left: `OpenRefine`{.filename} informs you that there are
+71,064 matching records (i.e. records containing a pipe) out of a total
+of 75,727. Cells that do not contain a pipe can be blank ones, but also
+cells containing a single category with no separator, such as record 29
+which only has ‘Scientific instruments’.
 
-Now enter a second | after the first one to get || (double pipe): you
-can see that 9 records are matching this pattern. These are likely the 9
-records guilty of our discrepancy: when OpenRefine splits these up, the
-double pipe is interpreted as a break between two records instead of a
-meaningless double separator. Now how do we correct these values? Go to
-the menu of the ‘Categories’ field, and choose ‘Edit cells’ \>
-‘Transform’…. Welcome to the custom text tranform interface, a powerful
-functionality of OpenRefine using the OpenRefine Expression Language
-(GREL).
+Now enter a second `|`{.userinput} after the first one to get || (double
+pipe): you can see that 9 records are matching this pattern. These are
+likely the 9 records guilty of our discrepancy: when
+`OpenRefine`{.filename} splits these up, the double pipe is interpreted
+as a break between two records instead of a meaningless double
+separator. Now how do we correct these values? Go to the menu of the
+‘Categories’ field, and choose ‘Edit cells’ \> ‘Transform’…. Welcome to
+the custom text tranform interface, a powerful functionality of
+`OpenRefine`{.filename} using the `OpenRefine`{.filename} Expression
+Language (GREL).
 
 The word ‘value’ in the text field represents the current value of each
 cell, which you can see below. We can modify this value by applying
@@ -343,25 +349,26 @@ collection.
 
 **Exporting your cleaned data**
 
-Since you first loaded your data into OpenRefine, all cleaning
-operations have been performed in the software memory, leaving your
-original data set untouched. If you want to save the data that you have
-been cleaning, you need to export them by clicking on the ‘Export’ menu
-top-right of the screen. OpenRefine supports a large variety of formats,
-such as [CSV][], HTML or Excel: select whatever suits you best or add
-your own export template by clicking ‘Templating’. You can also export
-your project in the internal OpenRefine format in order to share it with
-others.
+Since you first loaded your data into `OpenRefine`{.filename}, all
+cleaning operations have been performed in the software memory, leaving
+your original data set untouched. If you want to save the data that you
+have been cleaning, you need to export them by clicking on the ‘Export’
+menu top-right of the screen. `OpenRefine`{.filename} supports a large
+variety of formats, such as [CSV][], HTML or Excel: select whatever
+suits you best or add your own export template by clicking ‘Templating’.
+You can also export your project in the internal `OpenRefine`{.filename}
+format in order to share it with others.
 
 **Building on top of your cleaned data**
 
 Once your data has been cleaned, you can take the next step and explore
-other exciting features of OpenRefine. The user community of OpenRefine
-has developed two particularly interesting extensions which allow you to
-link your data to data that has already been published on the Web. The
-[RDF Refine extension][] transforms plaintext keywords into URLs. The
-[NER extension][] allows you to apply named-entity recognition (NER),
-which identifies keywords in flowing text and gives them a URL.
+other exciting features of `OpenRefine`{.filename}. The user community
+of `OpenRefine`{.filename} has developed two particularly interesting
+extensions which allow you to link your data to data that has already
+been published on the Web. The [RDF Refine extension][] transforms
+plaintext keywords into URLs. The [NER extension][] allows you to apply
+named-entity recognition (NER), which identifies keywords in flowing
+text and gives them a URL.
 
 **Conclusions**
 
@@ -373,17 +380,18 @@ quick overview of how many empty values your dataset contains and how
 often a particular value (e.g. a keyword) is used throughout a
 collection. This lessons also demonstrated how to solve recurrent issues
 such as duplicates and spelling inconsistencies in an automated manner
-with the help of OpenRefine. Don’t hesitate to experiment with the
-cleaning features, as you’re performing these steps on a copy of your
-data set, and OpenRefine allows you to trace back all of your steps in
-the case you have made an error.
+with the help of `OpenRefine`{.filename}. Don’t hesitate to experiment
+with the cleaning features, as you’re performing these steps on a copy
+of your data set, and `OpenRefine`{.filename} allows you to trace back
+all of your steps in the case you have made an error.
 
-  [OpenRefine]: http://openrefine.org "OpenRefine"
+  [`OpenRefine`{.filename}]: http://openrefine.org "OpenRefine"
   [Powerhouse museum]: http://www.powerhousemuseum.com
     "Powerhouse museum"
-  [Potter’s Wheel ABC]: http://control.cs.berkeley.edu/abc/
+  [`Potter’s Wheel ABC`{.filename}]: http://control.cs.berkeley.edu/abc/
     "Potter's Wheel ABC "
-  [Wrangler]: http://vis.stanford.edu/papers/wrangler/ "Wrangler"
+  [`Wrangler`{.filename}]: http://vis.stanford.edu/papers/wrangler/
+    "Wrangler"
   [data profiling]: http://en.wikipedia.org/wiki/Data_profiling
   [named-entity recognition]: http://en.wikipedia.org/wiki/Named-entity_recognition
   [Library of Congress]: http://www.loc.gov/index.html
