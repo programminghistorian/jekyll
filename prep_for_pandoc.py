@@ -62,8 +62,13 @@ for file in files:
             date_str = time.strptime(date.string, '%B %d, %Y')
             date_tag.attrs['content'] = time.strftime('%m-%d-%Y', date_str)
         
-        # append new tags into head, discarding old
-        new_tags = [author_tag, title_tag, date_tag, reviewers_tag]
+        # create new layout tag
+        layout_tag = soup.new_tag('meta')
+        layout_tag.attrs['name'] = 'layout'
+        layout_tag.attrs['content'] = 'default'
+
+		# append new tags into head
+        new_tags = [author_tag, title_tag, date_tag, reviewers_tag, layout_tag]
         for tag in new_tags:
             original_head.append(tag)
         
