@@ -97,19 +97,19 @@ fever 4, scarlet fever 11, smallpox 2, and 49 from tuberculosis.</p>
 <h2>Ordinary search and replace</h2>
 <p>We can see some Optical Character Recognition (OCR) errors, where the Internet Archive’s automated transcription software has made mistakes, although for the most part this looks like a good transcription. There are two places where the OCR has inserted double quotation marks into this file mistakenly, in both cases by putting them between a comma following a month and a four-digit year, as in</p>
 <pre class="brush: plain; gutter: false; title: ; notranslate" title="">December," 1907.</pre>
-<p>We can find these by doing a search (<code class="userinput">Edit → Find</code> with shortcut Ctrl-F or Cmd-F on a Mac) for double quotation marks, and confirm that these are the only two instances of quotation marks in the file. In this case we can simply delete them. Rather than do so by hand, just for practice try using LibreOffice’s find-and-replace function (<code class="userinput">Ctrl-H</code> or <code class="userinput">Cmd-Alt-F</code> on Mac).</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">“</code> <em>with nothing.</em></p>
+<p>We can find these by doing a search (<code>Edit → Find</code> with shortcut Ctrl-F or Cmd-F on a Mac) for double quotation marks, and confirm that these are the only two instances of quotation marks in the file. In this case we can simply delete them. Rather than do so by hand, just for practice try using LibreOffice’s find-and-replace function (<code>Ctrl-H</code> or <code>Cmd-Alt-F</code> on Mac).</p>
+<p><em>Replace</em> <code>“</code> <em>with nothing.</em></p>
 <p><img alt="regex_01_findquote" class="aligncenter size-full wp-image-2160" height="465" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_01_findquote.png" style="border: 1px solid #d2d2d2;" width="962"/> <p>Figure 2: Screenshot of Find and Replace feature</p></p>
 <h2>Finding structure for rows</h2>
-<p>We are just getting started, but to estimate how far we have to go, select the full text from LibreOffice Writer (<code class="userinput">Ctrl-A</code>) and paste it into LibreOffice Calc (<code class="userinput">File-&gt;New-&gt;Spreadsheet</code>). Each line of text becomes a single-celled row of the spreadsheet. What we would like is for each row of the spreadsheet to represent one kind of record in a consistent form. It would take a lot of tedious work to tabulate this by hand with this as our starting point. In what follows we will be doing all our work with regular expressions in Writer, but keep Calc open in the background. We can return to it to paste future iterations and gauge our progress.</p>
-<p>Returning to Writer, we will want to get rid of the line breaks that we don’t need — but there are some end-of-line hyphenations we should clean up first. This time we will start using regular expressions. On the Find &amp; Replace box show <code class="filename">More Options</code> (Other Options on Mac) and make sure the <code class="filename">Regular expressions</code> checkbox is selected. This will enable us to use special symbols to define general patterns to match.</p>
+<p>We are just getting started, but to estimate how far we have to go, select the full text from LibreOffice Writer (<code>Ctrl-A</code>) and paste it into LibreOffice Calc (<code>File-&gt;New-&gt;Spreadsheet</code>). Each line of text becomes a single-celled row of the spreadsheet. What we would like is for each row of the spreadsheet to represent one kind of record in a consistent form. It would take a lot of tedious work to tabulate this by hand with this as our starting point. In what follows we will be doing all our work with regular expressions in Writer, but keep Calc open in the background. We can return to it to paste future iterations and gauge our progress.</p>
+<p>Returning to Writer, we will want to get rid of the line breaks that we don’t need — but there are some end-of-line hyphenations we should clean up first. This time we will start using regular expressions. On the Find &amp; Replace box show <code>More Options</code> (Other Options on Mac) and make sure the <code>Regular expressions</code> checkbox is selected. This will enable us to use special symbols to define general patterns to match.</p>
 <p>Using find-and-replace,</p>
-<p><em>replace</em> <code class="userinput" style="background-color: #ffcccc;">- $</code> <em>(hyphen-space-dollar-sign) with nothing.</em></p>
+<p><em>replace</em> <code>- $</code> <em>(hyphen-space-dollar-sign) with nothing.</em></p>
 <p><img alt="regex_02_moreoptions" class="aligncenter size-full wp-image-2161" height="631" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_02_moreoptions.png" style="border: 1px solid #d2d2d2;" width="975"/> <p>Figure 3: The ‘More Options’ tab in Open Office Find &amp; Replace</p></p>
-<p>The dollar sign symbol is a special symbol in this case that matches the end of each line. You might start by clicking <code class="filename">Find</code> and then <code class="filename">Replace</code> when you see that the highlighted selection matches your expectations. After repeating this a few times you can click <code class="filename">Replace All</code> to replace all the rest at once. If you make a mistake or are uncertain, you can undo recent steps with <code class="filename">Edit → Undo</code> from the menu bar, or keyboard shortcut <code class="filename">Ctrl+Z</code> (Cmd+Z on Mac). In this document there are 27 total matches for this particular pattern.</p>
+<p>The dollar sign symbol is a special symbol in this case that matches the end of each line. You might start by clicking <code>Find</code> and then <code>Replace</code> when you see that the highlighted selection matches your expectations. After repeating this a few times you can click <code>Replace All</code> to replace all the rest at once. If you make a mistake or are uncertain, you can undo recent steps with <code>Edit → Undo</code> from the menu bar, or keyboard shortcut <code>Ctrl+Z</code> (Cmd+Z on Mac). In this document there are 27 total matches for this particular pattern.</p>
 <p>Next, again using find-and-replace,</p>
-<p><em>replace all</em> <code class="userinput" style="background-color: #ffcccc;">$</code> <em>(just a dollar sign) with nothing.</em></p>
-<p>There are 225 replacements with this pattern. At first it may not be clear what happened here, but this has in fact made each paragraph a single paragraph or logical line. In LibreOffice (and similar word processing programs) you can turn on nonprinting characters (View→Nonprinting Characters with shortcut <code class="filename">Ctrl-F10 on Windows or Linux</code>) to see line and paragraph breaks.</p>
+<p><em>replace all</em> <code>$</code> <em>(just a dollar sign) with nothing.</em></p>
+<p>There are 225 replacements with this pattern. At first it may not be clear what happened here, but this has in fact made each paragraph a single paragraph or logical line. In LibreOffice (and similar word processing programs) you can turn on nonprinting characters (View→Nonprinting Characters with shortcut <code>Ctrl-F10 on Windows or Linux</code>) to see line and paragraph breaks.</p>
 <p><img alt="regex_03_lines" class="aligncenter size-full wp-image-2162" height="261" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_03_lines.png" width="1058"/> <p>Figure 4: Non-Printing Characters in LibreOffice</p></p>
 <p>As a last way of confirming that we are starting to get a more useful structure from this, let’s copy the full text from Writer again and paste it into a blank spreadsheet. This should confirm that each health record is now a separate row in the spreadsheet (although we also have page headings and footnotes mixed in — we will clean those up shortly).</p>
 <p><img alt="regex_04_calclines" class="aligncenter size-full wp-image-2163" height="209" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_04_calclines.png" width="913"/> <p>Figure 5: The improved structure, shown in LibreOffice Calc</p></p>
@@ -117,16 +117,16 @@ fever 4, scarlet fever 11, smallpox 2, and 49 from tuberculosis.</p>
 <p>Spreadsheets organize information in two dimensions, rows and columns. We have seen that lines in Writer correspond to rows in Calc. How do we make columns?</p>
 <p>Spreadsheet software can read and write plain-text files using any of several conventions for representing breaks between columns. One common format uses commas to separate columns, and such files are often stored with the extension “.csv” for “comma-separated values.” Another common variant is to use a tab character, a special kind of space, to separate columns. Because our text contains commas, to avoid confusion we will use a tab character to separate columns. Though one could save a intermediate plain-text file, in this exercise we will assume we are copying and pasting directly from Writer to Calc.</p>
 <p>Back in Writer, let’s start making columns by splitting the place-and-time information from the reported numbers. Almost all reports include the words</p>
-<p><code class="userinput" style="background-color: #ffcccc;">Total number of deaths</code></p>
+<p><code>Total number of deaths</code></p>
 <p>Search for this and replace it with exactly the same phrase, but with “\t” at the front of the string representing a tab character:</p>
-<p><code class="userinput" style="background-color: #ccffcc;">\tTotal number of deaths</code></p>
+<p><code>\tTotal number of deaths</code></p>
 <p>After making this replacement (which makes 53 changes), select all the text and copy and paste it into an empty spreadsheet again.</p>
-<p>Does it look like nothing changed? LibreOffice Calc is putting the full text of each paragraph in a single cell, tabs and all. We need to insist on a plain-text interpretation to get Calc to ask us what to do with tabs. Let’s try again. You can empty the spreadsheet conveniently by selecting all (<code class="filename">Ctrl-A</code>) and deleting the selection.</p>
-<p>In an empty spreadsheet, select <code class="filename">Edit → Paste Special,</code> (or right-click to reach the same) and then select “unformatted text” from the options in the window appears. That should result in a popup “Text Import” window. Make sure the Tab checkbox is selected under Separator options and then click “OK”. (Before clicking OK you may want to try checking and unchecking Comma and Space as separators to preview what they would do here, but we do not want to treat them as separators in this context.)</p>
+<p>Does it look like nothing changed? LibreOffice Calc is putting the full text of each paragraph in a single cell, tabs and all. We need to insist on a plain-text interpretation to get Calc to ask us what to do with tabs. Let’s try again. You can empty the spreadsheet conveniently by selecting all (<code>Ctrl-A</code>) and deleting the selection.</p>
+<p>In an empty spreadsheet, select <code>Edit → Paste Special,</code> (or right-click to reach the same) and then select “unformatted text” from the options in the window appears. That should result in a popup “Text Import” window. Make sure the Tab checkbox is selected under Separator options and then click “OK”. (Before clicking OK you may want to try checking and unchecking Comma and Space as separators to preview what they would do here, but we do not want to treat them as separators in this context.)</p>
 <p>Now we see the promising start of a table structure, with geography and time span still in column A, but with “Total number of deaths” and subsequent text clearly aligned in a separate column.</p>
 <p><img alt="regex_05_2col" class="aligncenter size-full wp-image-2164" height="208" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_05_2col.png" width="728"/> <p>Figure 6: The newly tab-delimited version of the data shown in LibreOffice Calc</p></p>
 <p>Do you have any instances that moved over into a third column or beyond? In that case you may inadvertently have put in too many tabs. In the structure we have right now we don’t expect to ever see two tab characters in a row. Back in LibreOffice Writer we can check for this and fix the problem by searching for</p>
-<p><code class="userinput" style="background-color: #ffcccc;">\t\t</code> and replacing with <code class="userinput" style="background-color: #ccffcc;">\t</code></p>
+<p><code>\t\t</code> and replacing with <code>\t</code></p>
 <p><strong>repeating as needed</strong> until no more double-tabs are found.</p>
 <p>Sometimes multiple applications of a replacement pattern introduce additional changes after the first, which may or may not be what we intend, and sometimes multiple applications will have no effect beyond the first application. It is worth keeping this distinction in mind while working with regular expressions.</p>
 <h2>The general idea of regular expressions</h2>
@@ -135,51 +135,51 @@ fever 4, scarlet fever 11, smallpox 2, and 49 from tuberculosis.</p>
 <table>
 <tbody>
 <tr>
-<td style="width: 20%;"><code class="userinput">A b 1 </code></td>
+<td style="width: 20%;"><code>A b 1 </code></td>
 <td>literals — letters, digits, and spaces match themselves</td>
 </tr>
 <tr>
-<td><code class="userinput">[Ab1]</code></td>
+<td><code>[Ab1]</code></td>
 <td>a character class, matching one instance of any of ‘A’, ‘b’, or ’1′ in this case</td>
 </tr>
 <tr>
-<td><code class="userinput">[a-z]</code></td>
+<td><code>[a-z]</code></td>
 <td>all lowercase letters within a range</td>
 </tr>
 <tr>
-<td><code class="userinput">[0-9]</code></td>
+<td><code>[0-9]</code></td>
 <td>all digits</td>
 </tr>
 <tr>
-<td><code class="userinput">.</code></td>
+<td><code>.</code></td>
 <td>any character</td>
 </tr>
 <tr>
-<td><code class="userinput">*</code></td>
+<td><code>*</code></td>
 <td>zero or more</td>
 </tr>
 <tr>
-<td><code class="userinput">+</code></td>
+<td><code>+</code></td>
 <td>one or more</td>
 </tr>
 <tr>
-<td><code class="userinput">( )</code></td>
+<td><code>( )</code></td>
 <td>if contents within parentheses match, define a group for future reference</td>
 </tr>
 <tr>
-<td><code class="userinput">$1</code></td>
+<td><code>$1</code></td>
 <td>refer to a matched group (this is the notation in LibreOffice; other notations such as \1 are sometimes used elsewhere)</td>
 </tr>
 <tr>
-<td><code class="userinput">\t</code></td>
+<td><code>\t</code></td>
 <td>tab</td>
 </tr>
 <tr>
-<td><code class="userinput">^</code></td>
+<td><code>^</code></td>
 <td>beginning of line</td>
 </tr>
 <tr>
-<td><code class="userinput">$</code></td>
+<td><code>$</code></td>
 <td>end of line</td>
 </tr>
 </tbody>
@@ -187,11 +187,11 @@ fever 4, scarlet fever 11, smallpox 2, and 49 from tuberculosis.</p>
 <p>For a more complete list of regular expressions in LibreOffice, see their <a href="https://help.libreoffice.org/Common/List_of_Regular_Expressions" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://help.libreoffice.org']);" target="_blank">List of Regular Expressions</a>.</p>
 <h2>Applying regular expressions</h2>
 <p>Let’s start to use some of these to remove the page headings with date and page number. Switch back to your LibreOffice Writer window.</p>
-<p><em>Replace:</em> <code class="userinput" style="background-color: #ffcccc;">^.*February 21.*1908.*$</code> <em>with nothing</em> (4 matches).</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">^.*Received out of regular order.*$</code> <em>with nothing</em> (2 matches).</p>
-<p>Here <code class="userinput">^</code> (caret) matches the beginning of the line, <code class="userinput">.</code> (period) matches any character, <code class="userinput">.*</code> (period-asterisk) matches any sequence of zero or more characters, and <code class="userinput">$</code> (dollar-sign) matches the end of the line. By spelling out the date, we will match only the lines where that sequence appears, letter by letter, and by using <code class="userinput">.*</code> at both ends we match all lines with that sequence regardless of what else is before or after it on the line. After making this replacement, we will be left with some blank lines.</p>
+<p><em>Replace:</em> <code>^.*February 21.*1908.*$</code> <em>with nothing</em> (4 matches).</p>
+<p><em>Replace</em> <code>^.*Received out of regular order.*$</code> <em>with nothing</em> (2 matches).</p>
+<p>Here <code>^</code> (caret) matches the beginning of the line, <code>.</code> (period) matches any character, <code>.*</code> (period-asterisk) matches any sequence of zero or more characters, and <code>$</code> (dollar-sign) matches the end of the line. By spelling out the date, we will match only the lines where that sequence appears, letter by letter, and by using <code>.*</code> at both ends we match all lines with that sequence regardless of what else is before or after it on the line. After making this replacement, we will be left with some blank lines.</p>
 <p>To remove the blank lines in LibreOffice,</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">^$</code> <em>with nothing</em> (5 matches).</p>
+<p><em>Replace</em> <code>^$</code> <em>with nothing</em> (5 matches).</p>
 <p>(In other regular expression environments, other techniques for working with line endings will be necessary; some may be more convenient than what LibreOffice offers, but this will work now for our purposes.)</p>
 <p>Some records list a state, some a city with the state implicit, some a state and city together. The text does not have enough structure to give us a reliable way of distinguishing the California and Oakland records so that we will be able automatically to put California in a state column and Oakland in a city column. We will eventually need to do some editing by hand, drawing on our own knowledge. But there is a lot of consistency in the references to spans of time. We can use those references to develop structures that will help keep similar segments aligned across rows.</p>
 <p>For convenience, let’s put some markers in the text that won’t be confused with anything already present. We can easily distinguish these markers from existing text, and easily remove them later when we don’t need them. Let’s match time span references and put “&lt;t&gt;” at the beginning of them and “&lt;/t&gt;” at the end, with the mnemonic “t” for time. We could put a more verbose marker in, like “&lt;time&gt;” or a more meaningless and untidy-looking one, like “asdfJKL;” as long as that sequence wasn’t for some reason already in our text. But in this exercise we will use markers like “&lt;t&gt;” If you have seen HTML or XML, these look a lot like the tags that mark elements. We are not creating acceptable HTML or well-formed XML by doing this, and we will remove these markers quickly, but there is a resemblance.</p>
@@ -200,69 +200,69 @@ fever 4, scarlet fever 11, smallpox 2, and 49 from tuberculosis.</p>
 <h2>Defining segments</h2>
 <p>The next few patterns will rapidly get more complicated. If you slow down to consult the reference to how the symbols define patterns, however, the patterns should start to make sense.</p>
 <p>Geographic references in our text are followed by emdashes (dashes that are roughly the width of the letter ‘m’; wider than endashes.) We can replace these with tab characters, which will effectively help us put states and cities in separate columns of the spreadsheet.</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">[ ]?—[ ]?</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">\t</code></p>
+<p><em>Replace</em> <code>[ ]?—[ ]?</code></p>
+<p><em>with</em> <code>\t</code></p>
 <p>You should have 42 matches. (One easy way to get the emdash into your pattern is to copy and paste from an existing emdash in the text itself. The square brackets aren’t entirely necessary here, but help make visible the fact that we are matching a blank space — optionally matching it, thanks to the question mark. That means our pattern will accept an emdash with or without a space on either or both sides of it.)</p>
-<p>Now we will look for explicit references to time and wrap them in “&lt;t&gt;” and “&lt;/t&gt;” markers before and after. Once we have those markers they will provide some scaffolding on which we can build further patterns. Note that in the next pattern we want to be sure to apply the replacement just once, otherwise some time references may be repeatedly wrapped. It will be most efficient to use <code class="userinput">Replace All</code> just once for each wrapping pattern.</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].)</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">&lt;t&gt;$1&lt;/t&gt;</code></p>
+<p>Now we will look for explicit references to time and wrap them in “&lt;t&gt;” and “&lt;/t&gt;” markers before and after. Once we have those markers they will provide some scaffolding on which we can build further patterns. Note that in the next pattern we want to be sure to apply the replacement just once, otherwise some time references may be repeatedly wrapped. It will be most efficient to use <code>Replace All</code> just once for each wrapping pattern.</p>
+<p><em>Replace</em> <code>(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].)</code></p>
+<p><em>with</em> <code>&lt;t&gt;$1&lt;/t&gt;</code></p>
 <p><img alt="regex_06_timemarkup" class="aligncenter size-full wp-image-2165" height="447" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_06_timemarkup.png" width="1028"/> <p>Figure 7: Finding time using Regular Expressions</p></p>
 <p>Here we are using parentheses to define everything that we match in the search pattern as a single group, and in the replacement pattern we use $1 to simply repeat that match, with a few additional characters before and after it.</p>
 <p>In addition to months, we need to match quarterly reports with a similar approach:</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].)</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">&lt;t&gt;$1&lt;/t&gt;</code></p>
+<p><em>Replace</em> <code>([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].)</code></p>
+<p><em>with</em> <code>&lt;t&gt;$1&lt;/t&gt;</code></p>
 <p>You should have 7 more matches. It looks like we have references to time accounted for. Extending this strategy to other kinds of information here, let’s use “&lt;p&gt;” for population estimates, “&lt;N&gt;” for total number of deaths, and “&lt;c&gt;” for the word “Cases,” which separates mortality from morbidity. (If you are familiar with HTML or XML, you may recognize “&lt;p&gt;” as a paragraph marker. We’re not using it in the same way here.)</p>
 <p>Here are some patterns to wrap each of those kinds of information, all using the same strategy we just used:</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">(Estimated population, [0-9,]+.)</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">&lt;p&gt;$1&lt;/p&gt;</code> (34 matches).</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">(Total number of deaths[A-Za-z ,]* [0-9,]+)</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">&lt;N&gt;$1&lt;/N&gt;</code> (48 matches).</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">(Cases ?:)</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">&lt;c&gt;$1&lt;/c&gt;</code> (49 matches).</p>
+<p><em>Replace</em> <code>(Estimated population, [0-9,]+.)</code></p>
+<p><em>with</em> <code>&lt;p&gt;$1&lt;/p&gt;</code> (34 matches).</p>
+<p><em>Replace</em> <code>(Total number of deaths[A-Za-z ,]* [0-9,]+)</code></p>
+<p><em>with</em> <code>&lt;N&gt;$1&lt;/N&gt;</code> (48 matches).</p>
+<p><em>Replace</em> <code>(Cases ?:)</code></p>
+<p><em>with</em> <code>&lt;c&gt;$1&lt;/c&gt;</code> (49 matches).</p>
 <p>This next part is a little trickier. It would be great if we could get hold of the disease (let’s use “&lt;d&gt;”) and count (“&lt;n&gt;”) segments. Because the prose in this document is so formulaic, especially following the indication of total number of deaths, in this case we will be able to get pretty far without having to match each disease name explicitly, one by one. First match the disease-count pair after the word “including”:</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">&lt;/N&gt; including ([A-Za-z ]+) ([0-9]+),</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">&lt;/N&gt; including &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt;</code> (29 matches).</p>
+<p><em>Replace</em> <code>&lt;/N&gt; including ([A-Za-z ]+) ([0-9]+),</code></p>
+<p><em>with</em> <code>&lt;/N&gt; including &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt;</code> (29 matches).</p>
 <p>And then iteratively match disease-count pairs that appear after existing markers:</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">&gt; ([A-Za-z ]+) ([0-9]+)([.,])</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">&gt; &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt;</code></p>
+<p><em>Replace</em> <code>&gt; ([A-Za-z ]+) ([0-9]+)([.,])</code></p>
+<p><em>with</em> <code>&gt; &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt;</code></p>
 <p>Note that we are getting rid of commas after the disease counts by ignoring the third match in our replacement.</p>
 <p><strong>Repeat</strong> this replacement as many times as necessary until there are no further matches. It should take you seven iterations.</p>
 <p>Our patterns have not done anything with phrases like ‘and 3 from tuberculosis.’ We can match those phrases and reverse the order so that the disease name appears before the count:</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">and ([0-9])+ from ([a-z ]+)</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">&lt;d&gt;$2&lt;/d&gt; &lt;n&gt;$1&lt;/n&gt;</code> (32 matches).</p>
+<p><em>Replace</em> <code>and ([0-9])+ from ([a-z ]+)</code></p>
+<p><em>with</em> <code>&lt;d&gt;$2&lt;/d&gt; &lt;n&gt;$1&lt;/n&gt;</code> (32 matches).</p>
 <p>It looks like our markers are now capturing a lot of the semantic structure that we are interested in. Now let’s copy and paste (“paste special … unformatted”) into LibreOffice Calc to see how close we are to getting a table. We are successfully separating location data into cells, but the cells are not aligned vertically yet. We want to get all of the time references into the third column.</p>
 <p><img alt="regex_09_calc_3col" class="aligncenter size-full wp-image-2167" height="251" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_09_calc_3col.png" width="704"/> <p>Figure 8: Measuring progress using LibreOffice Calc</p></p>
 <p>The instances with two columns of location information should already be OK. The rows with one location need an extra column. Most are cities, so we will put the locations into the second column, and in a few instances we will need to move state names back to the first column by hand. Go back to your LibreOffice Writer window and:</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">^([A-Za-z .]+\t&lt;t&gt;)</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">\t$1</code> (30 matches).</p>
+<p><em>Replace</em> <code>^([A-Za-z .]+\t&lt;t&gt;)</code></p>
+<p><em>with</em> <code>\t$1</code> (30 matches).</p>
 <p>Now fix the cases with no location information, where the location is implicitly the same as the row above, and the time span is different.</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">^&lt;t&gt;</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">\t\t&lt;t&gt;</code> (19 matches)</p>
+<p><em>Replace</em> <code>^&lt;t&gt;</code></p>
+<p><em>with</em> <code>\t\t&lt;t&gt;</code> (19 matches)</p>
 <p><img alt="regex_10_loc_columns" class="aligncenter size-full wp-image-2168" height="312" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_10_loc_columns.png" width="943"/> <p>Figure 9: Further refining the results</p></p>
 <p>The first few columns should look better after pasting this again into Calc. The Writer text is still our working copy, so if you want to fix up the state names, you could do so now in Writer by deleting the tab character before a state name and introducing a new tab character after it. Or you could wait until we are done with our work in Writer, and fix them in Calc after we are ready for that to be our live working copy. But we are not there yet.</p>
 <p>We need to decide how to handle the lists of diseases. The rows have different lists of varying lengths. While it would be easy enough now to insert tab characters to put each disease and mortality or morbidity count into a separate column, the columns would not be that helpful. Diseases and tallies would not be vertically aligned. What we can do instead is make a new row for each disease. The reports distinguish between mortality counts and morbidity counts, which are already conveniently separated by “Cases:”. (There is one case, Indiana, where the text marks this section with the word “Morbidity”. Our searching patterns missed this. You can fix the markup there by hand now, if you like, or ignore it since this is an exercise. It’s a good example of how automated tools aren’t a full substitute for editing or looking at your sources, and it won’t be the last such example.)</p>
 <p>We can start by making a new row for “cases” lists, so that we can handle them separately. Head back to LibreOffice Writer.</p>
 <p><img alt="regex_11_writer_cases_together_hi" class="aligncenter size-full wp-image-2169" height="435" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_11_writer_cases_together_hi.png" width="1032"/> <p>Figure 10: Making a new row for ‘cases’</p></p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*)(&lt;c&gt;.*)</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">$1$2$3$4\n$1$2$3\t$5</code> (47 matches).</p>
+<p><em>Replace</em> <code>^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*)(&lt;c&gt;.*)</code></p>
+<p><em>with</em> <code>$1$2$3$4\n$1$2$3\t$5</code> (47 matches).</p>
 <p>One thing to notice here is that we are using some of the replacement patterns twice. We are matching the three fields up to the time reference, then matching everything before “&lt;c&gt;” in a fourth group, and everything from “&lt;c&gt;” on in a fifth. In the replacement pattern, we put groups 1-4 back in order, then introduce a newline and print groups 1-3 again, followed by a tab and group 5. We’ve effectively moved the case listings to their own lines, and copied the place and time fields verbatim.</p>
 <p>Let’s go further, and split all the case lists into separate rows:</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;c&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;)</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">$1$2$3$4\n$1$2$3\tCases\t$5$6</code></p>
+<p><em>Replace</em> <code>^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;c&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;)</code></p>
+<p><em>with</em> <code>$1$2$3$4\n$1$2$3\tCases\t$5$6</code></p>
 <p>and <strong>repeat</strong> as many times as necessary until there are no more replacements (seven iterations).</p>
 <p>Now similarly split all the mortality lists into separate rows:</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;N&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;)</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">$1$2$3$4\n$1$2$3\tDeaths\t$5$6</code></p>
+<p><em>Replace</em> <code>^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;N&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;)</code></p>
+<p><em>with</em> <code>$1$2$3$4\n$1$2$3\tDeaths\t$5$6</code></p>
 <p>and <strong>repeat</strong> as many times as necessary until there are no more replacements (eight iterations).</p>
 <p>This is getting very close now to a tabular structure, as you can see if you paste again into Calc, though if you want to wait just a bit, some cleanup work with short and simple patterns will get us most of the rest of the way:</p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">.*&lt;/c&gt; $</code> <em>with nothing</em></p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">^$</code> <em>with nothing</em></p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">&lt;n&gt;</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">\t</code></p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">&lt;/n&gt;</code> <em>with nothing</em></p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">&lt;d&gt;and</code></p>
-<p><em>with</em> <code class="userinput" style="background-color: #ccffcc;">&lt;d&gt;</code></p>
-<p><em>Replace</em> <code class="userinput" style="background-color: #ffcccc;">&lt;/?[tdp]&gt;</code> <em>with nothing</em></p>
+<p><em>Replace</em> <code>.*&lt;/c&gt; $</code> <em>with nothing</em></p>
+<p><em>Replace</em> <code>^$</code> <em>with nothing</em></p>
+<p><em>Replace</em> <code>&lt;n&gt;</code></p>
+<p><em>with</em> <code>\t</code></p>
+<p><em>Replace</em> <code>&lt;/n&gt;</code> <em>with nothing</em></p>
+<p><em>Replace</em> <code>&lt;d&gt;and</code></p>
+<p><em>with</em> <code>&lt;d&gt;</code></p>
+<p><em>Replace</em> <code>&lt;/?[tdp]&gt;</code> <em>with nothing</em></p>
 <p><img alt="regex_17_writer_done" class="aligncenter size-full wp-image-2173" height="436" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_17_writer_done.png" width="1032"/> <p>Figure 11: The final view in LibreOffice Writer</p></p>
 <p>Now copy and paste this into Calc, and you should see a (mostly) well-structured table.</p>
 <p><img alt="regex_18_calc_done" class="aligncenter size-full wp-image-2174" height="379" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_18_calc_done.png" width="966"/> <p>Figure 12: The final view in LibreOffice Calc</p></p>

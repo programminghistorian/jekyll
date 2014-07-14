@@ -1,7 +1,7 @@
 ---
 title: Your First Lesson
 author: William J. Turkel, Adam Crymble
-date: 04-04-2013
+date: 2013-04-04
 reviewers: 
 layout: default
 ---

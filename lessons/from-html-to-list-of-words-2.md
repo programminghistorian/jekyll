@@ -1,7 +1,7 @@
 ---
 title: From HTML to List of Words (part 2)
 author: William J. Turkel & Adam Crymble
-date: 17-07-2012
+date: 2012-07-17
 reviewers: Miriam Posner, Jim Clifford
 layout: default
 ---
@@ -29,8 +29,8 @@ tags. The second half of the algorithm does the following:
 
 ### Files Needed For This Lesson
 
--   `obo.py`{.filename}
--   `trial-content.py`{.filename}
+-   `obo.py`
+-   `trial-content.py`
 
 If you do not have these files from the previous lesson, you can
 download a [zip file from the previous lesson here.][]
@@ -137,7 +137,7 @@ variable inside).
 Putting it all together, the final version of the routine is shown
 below. Note that we are expanding the stripTags function created above.
 Make sure you maintain the indentation as shown when you replace the old
-stripTags routine in `obo.py`{.filename} with this new one.
+stripTags routine in `obo.py` with this new one.
 
 Your routine may look slightly different and as long as it works that’s
 fine. If you’ve elected to experiment, it’s probably best to try our
@@ -197,12 +197,11 @@ Note that in the stripTags example from the start of this sub-section,
 the value that we want to return now is not pageContents, but rather the
 content which has had the HTML markup stripped out.
 
-To test our new stripTags routine, you can run
-`trial-content.py`{.filename} again. Since we’ve redefined stripTags,
-the `trial-content.py`{.filename} program now does something different
-(and closer to what we want). Before you continue, make sure that you
-understand why the behaviour of `trial-content.py`{.filename} would
-change when we only edited `obo.py`{.filename}.
+To test our new stripTags routine, you can run `trial-content.py` again.
+Since we’ve redefined stripTags, the `trial-content.py` program now does
+something different (and closer to what we want). Before you continue,
+make sure that you understand why the behaviour of `trial-content.py`
+would change when we only edited `obo.py`.
 
 Python Lists
 ------------
@@ -234,9 +233,9 @@ however, is the list, an ordered collection of other objects (including,
 potentially, other lists). Converting a string into a list of characters
 or words is straightforward. Type or copy the following program into
 your text editor to see two ways of achieving this. Save the file as
-`string-to-list.py`{.filename} and execute it. Compare the two lists
-that are printed to the Command Output pane and see if you can figure
-out how the code works.
+`string-to-list.py` and execute it. Compare the two lists that are
+printed to the Command Output pane and see if you can figure out how the
+code works.
 
 ``` python
 # string-to-list.py

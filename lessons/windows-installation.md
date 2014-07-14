@@ -1,7 +1,7 @@
 ---
 title: Windows Installation
 author: William J. Turkel, Adam Crymble
-date: 17-07-2012
+date: 2012-07-17
 reviewers: Miriam Posner, Jim Clifford, Amanda Morton
 layout: default
 ---
@@ -22,8 +22,8 @@ it by following the instructions on the Python website.
 
 To stay organized, it’s best to have a dedicated directory (folder) on
 your computer where you will keep your Python programs (e.g.,
-`programming-historian`{.filename}) and save it anywhere you like on
-your hard drive.
+`programming-historian`) and save it anywhere you like on your hard
+drive.
 
 ### Install Komodo Edit
 
@@ -40,18 +40,18 @@ It should look something like this:
 Komodo Edit on Windows
 
 If you don’t see the Toolbox pane on the right hand side, choose
-`View -> Tabs -> Toolbox`{.filename}. It doesn’t matter if the Project
-pane is open or not. Take some time to familiarize yourself with the
-layout of the Komodo editor. The Help file is quite good
+`View -> Tabs -> Toolbox`. It doesn’t matter if the Project pane is open
+or not. Take some time to familiarize yourself with the layout of the
+Komodo editor. The Help file is quite good
 
 ##### Configure Komodo Edit
 
 Now you need to set up the editor so that you can run Python programs.
 
-1.  Choose `Edit -> Preferences`{.filename}. This will open a new dialog
-    window. Select the Python category and set the
-    “`Default Python Interpreter`{.filename}” (it should be
-    `C:\Python27\Python.exe`{.filename})\
+1.  Choose `Edit -> Preferences`. This will open a new dialog window.
+    Select the Python category and set the
+    “`Default Python Interpreter`” (it should be
+    `C:\Python27\Python.exe`)\
      If it looks like this, click OK:\
 
     ![Komodo Default Python Interpreter Settings][]
@@ -67,9 +67,8 @@ Now you need to set up the editor so that you can run Python programs.
 
     Set the Language to UTF-8
 
-Next choose `Toolbox->Add->New Command`{.filename}. This will open a new
-dialog window. Rename your command to `‘Run Python’`{.filename}. Under
-`‘Command’`{.filename}, type:
+Next choose `Toolbox->Add->New Command`. This will open a new dialog
+window. Rename your command to `‘Run Python’`. Under `‘Command’`, type:
 
 ``` python
 %(python) %f
@@ -78,9 +77,9 @@ dialog window. Rename your command to `‘Run Python’`{.filename}. Under
 If you forget this command, Python will hang mysteriously because it
 isn’t receiving a program as input.
 
-Under `‘Start in’`{.filename}, enter:
+Under `‘Start in’`, enter:
 
-`%D`{.userinput}
+`%D`
 
 If it looks like this, click OK:
 
@@ -115,18 +114,18 @@ the instructions that you gave it in your program and then stop. Let’s
 try this.
 
 In your text editor, create a new file, enter the following two-line
-program and save it to your `programming-historian`{.filename} directory
-as `hello-world.py`{.filename}
+program and save it to your `programming-historian` directory as
+`hello-world.py`
 
 ``` python
 # hello-world.py
 print 'hello world'
 ```
 
-Your chosen text editor should have a “`Run`{.filename}” button that
-will allow you to execute your program. If all went well, it should look
-something like this (Example as seen in Komodo Edit. Click on the image
-to see a full-size copy):
+Your chosen text editor should have a “`Run`” button that will allow you
+to execute your program. If all went well, it should look something like
+this (Example as seen in Komodo Edit. Click on the image to see a
+full-size copy):
 
 ![hello world in Komodo Edit][]
 
@@ -139,8 +138,8 @@ statements to make sure that they do what you think they should.
 
 You can run a Python Shell by double-clicking on the python.exe file. If
 you installed version 2.7 (the most recent as of May 2012), then this
-file is probably located in the `C:\Python27\python.exe`{.filename}
-directory. In the shell window that opens on your screen type:
+file is probably located in the `C:\Python27\python.exe` directory. In
+the shell window that opens on your screen type:
 
 ``` python
 print 'hello world'

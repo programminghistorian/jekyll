@@ -1,7 +1,7 @@
 ---
 title: Transliterating non-ASCII characters with Python
 author: Seth Bernstein
-date: 04-10-2013
+date: 2013-10-04
 reviewers: Adam Crymble, Michelle Moravec, Ezra Brooks, Russell Alleen-Willems
 layout: default
 ---
@@ -455,7 +455,7 @@ Beautiful Soup objects’ .find\_all() method will generate a Python list
 of Beautiful Soup objects that match the HTML tags or attributes set as
 parameters. The method .get\_text() extracts just the text from
 Beautiful Soup objects, so
-`” <p class=”name”><a name=”n1″></a>A-Aku Tulikovich</p> “.get_text()`{.userinput}
+`” <p class=”name”><a name=”n1″></a>A-Aku Tulikovich</p> “.get_text()`
 will become “A-Aku Tulikovich “. We need to use .get\_text() on each
 item in the list, then append it to a new list containing just the
 names:

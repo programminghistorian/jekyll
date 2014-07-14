@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Online Sources
 author: William J. Turkel and Adam Crymble
-date: 27-05-2013
+date: 2013-05-27
 reviewers: Miriam Posner, Jim Clifford
 layout: default
 ---
@@ -59,20 +59,20 @@ Mac Instructions
 
     As of May 2012, Mac OS X comes preinstalled with Python 2. You can
     check to see if you have Python installed by launching the Terminal
-    in the `‘Applications/Utilities’`{.filename} directory and entering
-    `which python`{.userinput} followed by the Enter key. Pushing the
-    Enter key sends the command to the computer when using the terminal.
-    If you see `“/usr/bin/python”`{.filename} then you are all set. If
-    not, close the Terminal, download the latest stable release of the
-    Python programming language (Version 2.7.3 as of May 2012) and
-    install it by following the instructions on the Python website.
+    in the `‘Applications/Utilities’` directory and entering
+    `which python` followed by the Enter key. Pushing the Enter key
+    sends the command to the computer when using the terminal. If you
+    see `“/usr/bin/python”` then you are all set. If not, close the
+    Terminal, download the latest stable release of the Python
+    programming language (Version 2.7.3 as of May 2012) and install it
+    by following the instructions on the Python website.
 
 -   ##### Create a Directory
 
     To stay organized, it’s best to have a dedicated directory (folder)
     on your computer where you will keep your Python programs (e.g.,
-    `programming-historian`{.filename}) and save it anywhere you like on
-    your hard drive.
+    `programming-historian`) and save it anywhere you like on your hard
+    drive.
 
 -   ##### Beautiful Soup
 
@@ -86,7 +86,7 @@ Mac Instructions
 
     Komodo Edit is a free and open source code editor. You can download
     a copy from the [Komodo Edit website][Komodo Edit]. Install it from
-    the `.DMG`{.filename} file
+    the `.DMG` file
 
 -   ##### Start Komodo Edit
 
@@ -97,20 +97,19 @@ Mac Instructions
     Komodo Edit on a Mac
 
     If you don’t see the Toolbox pane on the right hand side, choose
-    `View->Tabs & Sidebars ->Toolbox`{.filename}. It doesn’t matter if
-    the Project pane is open or not. Take some time to familiarize
-    yourself with the layout of the Komodo editor. The Help file is
-    quite good
+    `View->Tabs & Sidebars ->Toolbox`. It doesn’t matter if the Project
+    pane is open or not. Take some time to familiarize yourself with the
+    layout of the Komodo editor. The Help file is quite good
 
 -   ##### Configure Komodo Edit
 
     Now you need to set up the editor so that you can run Python
     programs. In the Toolbox window, click on the gear icon and select
-    “`New Command…`{.filename}“. This will open a new dialog window.
-    Rename your command to “`Run Python`{.userinput}” and feel free to
-    change the icon if you like. In the
+    “`New Command…`“. This will open a new dialog window. Rename your
+    command to “`Run Python`” and feel free to change the icon if you
+    like. In the
 
-    “`Command`{.filename}” box, type
+    “`Command`” box, type
 
     ``` python
     %(python) %f
@@ -142,8 +141,8 @@ Windows Instructions
 
     To stay organized, it’s best to have a dedicated directory (folder)
     on your computer where you will keep your Python programs (e.g.,
-    `programming-historian`{.filename}) and save it anywhere you like on
-    your hard drive.
+    `programming-historian`) and save it anywhere you like on your hard
+    drive.
 
 -   ##### Beautiful Soup
 
@@ -167,28 +166,28 @@ Windows Instructions
     Komodo Edit on Windows
 
     If you don’t see the Toolbox pane on the right hand side, choose
-    `View -> Tabs -> Toolbox`{.filename}. It doesn’t matter if the
-    Project pane is open or not. Take some time to familiarize yourself
-    with the layout of the Komodo editor. The Help file is quite good
+    `View -> Tabs -> Toolbox`. It doesn’t matter if the Project pane is
+    open or not. Take some time to familiarize yourself with the layout
+    of the Komodo editor. The Help file is quite good
 
 -   ##### Configure Komodo Edit
 
     Now you need to set up the editor so that you can run Python
     programs.
 
-    1.  Choose `Edit -> Preferences`{.filename}. This will open a new
-        dialog window. Select the Python category and set the
-        “`Default Python Interpreter`{.filename}” (it should be
-        `C:\Python27\Python.exe`{.filename})\
+    1.  Choose `Edit -> Preferences`. This will open a new dialog
+        window. Select the Python category and set the
+        “`Default Python Interpreter`” (it should be
+        `C:\Python27\Python.exe`)\
          If it looks like this, click OK:
 
         ![Komodo Default Python Interpreter Settings][]
 
         Default Python Interpreter
 
-    2.  Next choose `Toolbox->Add->New Command`{.filename}. This will
-        open a new dialog window. Rename your command to
-        “`Run Python`{.filename}“. Under “`Command`{.filename},” type:
+    2.  Next choose `Toolbox->Add->New Command`. This will open a new
+        dialog window. Rename your command to “`Run Python`“. Under
+        “`Command`,” type:
 
         ``` python
         %(python) %f
@@ -197,8 +196,7 @@ Windows Instructions
         If you forget this command, Python will hang mysteriously
         because it isn’t receiving a program as input.
 
-    3.  Under “`Start in`{.filename},” enter `%D`{.userinput} If it
-        looks like this, click OK:\
+    3.  Under “`Start in`,” enter `%D` If it looks like this, click OK:\
 
         ![Run Python Command Windows][]
 
@@ -221,13 +219,12 @@ system such as Debian, or Linux Mint, provided you have sudo installed.
 -   Back up your computer
 -   ##### Install Python v. 2 and Python “Beautiful Soup” module
 
-    1.  Open a terminal (`Dash Home`{.userinput}, then type
-        `Terminal`{.userinput}, then click on the Terminal icon).
-    2.  Now type:
-        `sudo apt-get install python2.7 python-beautifulsoup`{.userinput}
-    3.  Enter your password, and then type `Y`{.userinput} to finish the
-        install. Note that you probably have Python 2.7 installed
-        already, so don’t be alarmed if Ubuntu tells you that.
+    1.  Open a terminal (`Dash Home`, then type `Terminal`, then click
+        on the Terminal icon).
+    2.  Now type: `sudo apt-get install python2.7 python-beautifulsoup`
+    3.  Enter your password, and then type `Y` to finish the install.
+        Note that you probably have Python 2.7 installed already, so
+        don’t be alarmed if Ubuntu tells you that.
 -   ##### Create a directory
 
     You will keep your Python programs in this directory. It can be
@@ -247,19 +244,19 @@ system such as Debian, or Linux Mint, provided you have sudo installed.
     it, open it with Ubuntu’s package manager, extract it to your home
     directory, and follow the installation instructions.\
      After installation, you will probably find Komodo Edit in your home
-    directory at `Komodo-Edit-7/bin/komodo`{.filename}. Open the home
-    folder, go to the `Komodo-Edit-7/bin`{.filename} directory, and
-    click on komodo. You can also right click on the Komodo icon in your
-    launcher and click “`Lock to Launcher`{.filename}” to have Komodo
-    saved permanently to your launcher bar.
+    directory at `Komodo-Edit-7/bin/komodo`. Open the home folder, go to
+    the `Komodo-Edit-7/bin` directory, and click on komodo. You can also
+    right click on the Komodo icon in your launcher and click
+    “`Lock to Launcher`” to have Komodo saved permanently to your
+    launcher bar.
 
 -   ##### Make a “Run Python” Command in Komodo Edit
 
-    1.  In Komodo Edit, click the gear icon under `Toolbox`{.filename}
-        and select `New Command`{.filename}.
-    2.  In the top field type “`Run Python File`{.userinput}“
-    3.  In the Command field, type: `%(python) %f`{.userinput} Then hit
-        the OK button at the bottom of the Add Command window.
+    1.  In Komodo Edit, click the gear icon under `Toolbox` and select
+        `New Command`.
+    2.  In the top field type “`Run Python File`“
+    3.  In the Command field, type: `%(python) %f` Then hit the OK
+        button at the bottom of the Add Command window.
 
 Step 2 – “Hello World” in Python
 --------------------------------
@@ -284,27 +281,25 @@ the instructions that you gave it in your program and then stop. Let’s
 try this.
 
 In Komodo, create a new file, enter the following two-line program and
-save it to your `programming-historian`{.filename} directory as
-`hello-world.py`{.filename}
+save it to your `programming-historian` directory as `hello-world.py`
 
 ``` python
 # hello-world.py
 print 'hello world'
 ```
 
-You should then be able to double-click the “`Run Python`{.filename}”
-button that you created in the previous step to execute your program. If
-all went well, it should look something like this (click on the image to
-see a full-size copy):
+You should then be able to double-click the “`Run Python`” button that
+you created in the previous step to execute your program. If all went
+well, it should look something like this (click on the image to see a
+full-size copy):
 
 ![hello world in Komodo Edit on a Mac][]
 
 “Hello World” in Python on a Mac
 
 Notice that the output of your program was printed to the
-“`Command Output`{.filename}” pane. If you cannot see your Command
-Output pane, you can open it in the menu:
-`View-> Tabs & Sidebars -> Command Output`{.filename}.
+“`Command Output`” pane. If you cannot see your Command Output pane, you
+can open it in the menu: `View-> Tabs & Sidebars -> Command Output`.
 
 ### Interacting with a Python shell
 
@@ -319,11 +314,10 @@ done slightly differently on Mac, Linux and Windows.
 ![][1]
 
 You can run a Python shell by launching the “terminal”. On the Mac, open
-the Finder and double-click on
-`Applications -> Utilities -> Terminal`{.filename} then typing
-“`python`{.userinput}” into the window that opens on your screen. For
-Linux, go to `Applications-> Accessories -> Terminal`{.filename}and do
-the same. At the Python shell prompt, type
+the Finder and double-click on `Applications -> Utilities -> Terminal`
+then typing “`python`” into the window that opens on your screen. For
+Linux, go to `Applications-> Accessories -> Terminal`and do the same. At
+the Python shell prompt, type
 
 ``` python
 print 'hello world'
@@ -336,8 +330,7 @@ hello world
 ```
 
 When we want to represent an interaction with the shell, we will use
-`->`{.filename} to indicate the shell’s response to your command, as
-shown below:
+`->` to indicate the shell’s response to your command, as shown below:
 
 ``` python
 print 'hello world'
@@ -358,8 +351,8 @@ Windows Instructions
 
 You can run a Python Shell by double-clicking on the python.exe file. If
 you installed version 2.7 (the most recent as of May 2012), then this
-file is probably located in the `C:\Python27\python.exe`{.filename}
-directory. In the shell window that opens on your screen type:
+file is probably located in the `C:\Python27\python.exe` directory. In
+the shell window that opens on your screen type:
 
 ``` python
 print 'hello world'
@@ -397,7 +390,7 @@ handy for human readers. Most browsers also let you see the HTML source
 for any page that you visit. The two images below show a typical web
 page (from the Old Bailey Online) and the HTML source used to generate
 that page, which you can see with the
-`Tools -> Web Developer -> Page Source`{.filename} command in Firefox.
+`Tools -> Web Developer -> Page Source` command in Firefox.
 
 When you’re working in the browser, you typically don’t want or need to
 see the source for a web page. If you are writing a page of your own,
@@ -447,12 +440,12 @@ goes into the body.
 ```
 
 You can try creating some HTML code. Go to Komodo, and choose
-`File -> New`{.filename}. Copy the code below into the editor. The first
-line tells the browser what kind of file it is. The html tag has the
-text direction set to ltr (left to right) and the lang (language) set to
-US English. The title tag in the head of the HTML document contains
-material that is usually displayed in the top bar of a window when the
-page is being viewed, and in Firefox tabs.
+`File -> New`. Copy the code below into the editor. The first line tells
+the browser what kind of file it is. The html tag has the text direction
+set to ltr (left to right) and the lang (language) set to US English.
+The title tag in the head of the HTML document contains material that is
+usually displayed in the top bar of a window when the page is being
+viewed, and in Firefox tabs.
 
 ``` xml
 <!doctype html>
@@ -486,13 +479,12 @@ to
 Hello World!
 ```
 
-Save the file to your `programming-historian`{.filename} directory as
-`hello-world.html`{.filename}. Now go to Firefox and choose
-`File -> New Tab`{.filename} and then `File -> Open File`{.filename}.
-Choose `hello-world.html`{.filename}. Your message should appear in the
-browser. Note the difference between opening an HTML file with a browser
-like Firefox (which interprets it) and opening the same file with an
-editor like Komodo (which does not).
+Save the file to your `programming-historian` directory as
+`hello-world.html`. Now go to Firefox and choose `File -> New Tab` and
+then `File -> Open File`. Choose `hello-world.html`. Your message should
+appear in the browser. Note the difference between opening an HTML file
+with a browser like Firefox (which interprets it) and opening the same
+file with an editor like Komodo (which does not).
 
 Step 5 – Back Up Your Work
 --------------------------

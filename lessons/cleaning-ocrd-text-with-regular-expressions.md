@@ -1,7 +1,7 @@
 ---
 title: Cleaning OCR’d text with Regular Expressions
 author: Laura Turner O'Hara
-date: 22-05-2013
+date: 2013-05-22
 reviewers: 
 layout: default
 ---

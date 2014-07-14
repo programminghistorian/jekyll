@@ -42,7 +42,7 @@
 <p>Here you will learn how to output data as an HTML file using Python. You will also learn about <span class="tech">string formatting</span>. The final result is an HTML file that shows the keywords found in the original source in order of descending frequency, along with the number of times that each keyword appears.</p>
 <h3>Files Needed For This Lesson</h3>
 <ul>
-<li><code class="filename">obo.py</code></li>
+<li><code>obo.py</code></li>
 </ul>
 <p>If you do not have these files from the previous lesson, you can download a <a href="/lessons/creating-and-viewing-html-files-with-python#codesync">zip file from the previous lesson here.</a></p>
 <h3>Building an HTML wrapper</h3>
@@ -70,7 +70,7 @@ print frame2 % ('bananas', 'pears')
 -&gt; These are bananas, those are pears</pre>
 <p>In these examples, a <span class="var">%s</span> in one string indicates that another string is going to be embedded at that point. There are a range of other string formatting codes, most of which allow you to embed numbers in strings in various formats, like <span class="var">%i</span> for integer (eg. 1, 2, 3), <span class="var">%f</span> for floating-point decimal (eg. 3.023, 4.59, 1.0), and so on. Using this method we can input information that is unique to the file.</p>
 <h3>Self-documenting data file</h3>
-<p>Let’s bundle some of the code that we’ve already written into functions. One of these will take a URL and return a string of lowercase text from the web page. Copy this code into the <code class="filename">obo.py</code> module.</p>
+<p>Let’s bundle some of the code that we’ve already written into functions. One of these will take a URL and return a string of lowercase text from the web page. Copy this code into the <code>obo.py</code> module.</p>
 <pre class="python"># Given a URL, return string of lowercase text from page.
 
 def webPageToText(url):
@@ -79,7 +79,7 @@ def webPageToText(url):
     html = response.read()
     text = stripTags(html).lower()
     return text</pre>
-<p>We’re also going to want a function that takes a string of any sort and makes it the body of an HTML file which is opened automatically in Firefox. This function should include some basic metadata, like the time and date that it was created and the name of the program that created it. Study the following code carefully, then copy it into the <code class="filename">obo.py</code> module.</p>
+<p>We’re also going to want a function that takes a string of any sort and makes it the body of an HTML file which is opened automatically in Firefox. This function should include some basic metadata, like the time and date that it was created and the name of the program that created it. Study the following code carefully, then copy it into the <code>obo.py</code> module.</p>
 <h4>Mac Instructions</h4>
 <p>If you are using a Mac, make sure you include the proper file path in the <span class="var">filename</span> variable on the 2nd last line to reflect where you’re saving your files.</p>
 <pre class="python"># Given name of calling program, a url and a string to wrap,
@@ -135,11 +135,11 @@ def wrapStringInHTML(program, url, body):
 
     open_new_tab(filename)</pre>
 <p>***</p>
-<p>Note that this function makes use of the string formatting operator about which we just learned. If you are still having trouble with this idea, take a look at the HTML file that opened in your new Firefox tab and you should see how this worked. If you’re still stuck, take a look at the “<code class="filename">URL: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33</code>” in the HTML file and trace back how the program knew to put the URL value there.</p>
+<p>Note that this function makes use of the string formatting operator about which we just learned. If you are still having trouble with this idea, take a look at the HTML file that opened in your new Firefox tab and you should see how this worked. If you’re still stuck, take a look at the “<code>URL: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33</code>” in the HTML file and trace back how the program knew to put the URL value there.</p>
 <p>The function also calls the Python <span class="var">datetime</span> library to determine the current time and date. Like the string formatting operator <span class="var">%s</span>, this library uses the <span class="reserved">%</span> as replacements for values. In this case, the <span class="var">%Y</span> <span class="var">%m</span> <span class="var">%d</span> <span class="var">%H</span> <span class="var">%M</span> <span class="var">%S</span> represents year, month, date, hour, minute and second respectively. Unlike the <span class="var">%s</span>, the program will determine the value of these variables for you using your computer’s clock. It is important to recognize this difference.</p>
-<p>This date metadata, along with the name of the program that called the function, is stored in the HTML title tag. The HTML file that is created has the same name as the Python program that creates it, but with a <code class="filename">.html</code> extension rather than a <code class="filename">.py</code> one.</p>
+<p>This date metadata, along with the name of the program that called the function, is stored in the HTML title tag. The HTML file that is created has the same name as the Python program that creates it, but with a <code>.html</code> extension rather than a <code>.py</code> one.</p>
 <h3>Putting it all together</h3>
-<p>Now we can create another version of our program to compute frequencies. Instead of sending its output to a text file or an output window, it sends the output to an HTML file which is opened in a new Firefox tab. From there, the program’s output can be added easily as bibliographic entries to Zotero. Type or copy the following code into your text editor, save it as <code class="filename">html-to-freq-3.py</code> and execute it, to confirm that it works as expected.</p>
+<p>Now we can create another version of our program to compute frequencies. Instead of sending its output to a text file or an output window, it sends the output to an HTML file which is opened in a new Firefox tab. From there, the program’s output can be added easily as bibliographic entries to Zotero. Type or copy the following code into your text editor, save it as <code>html-to-freq-3.py</code> and execute it, to confirm that it works as expected.</p>
 <pre class="python"># html-to-freq-3.py
 import obo
 

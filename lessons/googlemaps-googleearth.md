@@ -1,7 +1,7 @@
 ---
 title: Intro to Google Maps and Google Earth
 author: Jim Clifford, Josh MacFadyen, Daniel Macfarlane
-date: 13-12-2013
+date: 2013-12-13
 reviewers: Finn Arne Jørgensen, Sarah Simpkin, Adam Crymble
 layout: default
 ---

@@ -1,7 +1,7 @@
 ---
 title: Keywords in Context (Using n-grams)
 author: William J. Turkel & Adam Crymble
-date: 17-07-2012
+date: 2012-07-17
 reviewers: Miriam Posner, Jim Clifford
 layout: default
 ---
@@ -30,7 +30,7 @@ from the Internet, and display them clearly in your browser window.
 
 ### Files Needed For This Lesson
 
--   `obo.py`{.filename}
+-   `obo.py`
 
 If you do not have these files from the previous lesson, you can
 download a [zip file from the previous lesson here.][]
@@ -137,8 +137,8 @@ for items in wordlist:
 ```
 
 Keeping with our modular approach, we will create a function and save it
-to the `obo.py`{.filename} module that can create n-grams for us. Study
-and type or copy the following code:
+to the `obo.py` module that can create n-grams for us. Study and type or
+copy the following code:
 
 ``` python
 # Given a list of words and a number n, return a list
@@ -169,8 +169,7 @@ these arguments there is not enough information to do the calculations.
 In this case, the two pieces of information are the list of words you
 want to turn into n-grams (wordlist), and the number of words you want
 in each n-gram (n). For the function to work it needs both, so you call
-it in like this (save the following as `useGetNGrams.py`{.filename} and
-run):
+it in like this (save the following as `useGetNGrams.py` and run):
 
 ``` python
 #useGetNGrams.py
@@ -237,10 +236,9 @@ To follow along with future lessons it is important that you have the
 right files and programs in your “programming-historian” directory. At
 the end of each chapter you can download the “programming-historian” zip
 file to make sure you have the correct code. If you are following along
-with the Mac / Linux version you may have to open the
-`obo.py`{.filename} file and change
-“file:///Users/username/Desktop/programming-historian/” to the path to
-the directory on your own computer.
+with the Mac / Linux version you may have to open the `obo.py` file and
+change “file:///Users/username/Desktop/programming-historian/” to the
+path to the directory on your own computer.
 
 -   programming-historian [Mac / Linux] ([zip][])
 -   programming-historian [Windows] ([zip][2])

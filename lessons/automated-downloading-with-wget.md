@@ -1,7 +1,7 @@
 ---
 title: Automated Downloading with Wget
 author: Ian Milligan
-date: 27-06-2012
+date: 2012-06-27
 reviewers: Aurélien Berra, Adam Crymble
 layout: default
 ---
@@ -34,7 +34,7 @@ It can be useful in the following situations:
     command can download the entire site onto your computer.
 -   Downloading specific files in a website’s hierarchy (all websites
     within a certain part of a website, such as every page that is
-    contained within the `/papers/`{.filename} directory of a website).
+    contained within the `/papers/` directory of a website).
 
 In this lesson, we will work through three quick examples of how you
 might use wget in your own work. At the end of the lesson, you will be
@@ -65,9 +65,8 @@ Step One: Installation
 ### Linux Instructions
 
 If you are using a Linux system, you should already have wget installed.
-To check if you have it, open up your command line. Type
-`‘wget’`{.userinput} and press enter. If you have wget installed the
-system will respond with:
+To check if you have it, open up your command line. Type `‘wget’` and
+press enter. If you have wget installed the system will respond with:
 
 ``` bash
 -> Missing URL.
@@ -189,10 +188,10 @@ Then you can subsequently download an uncompiled version of wget from
 the [GNU website][] (I chose to download the file ‘wget-1.13.tar.gz’,
 which you can find by following the link to either the [HTTP][] or
 [FTP][] download pages), unzip it (by double-clicking on it) into your
-home directory (on a Mac, this will be your `/user/`{.filename}
-directory – for example, my user name is ianmilligan and it appears next
-to a house icon in my Finder), and then open up Terminal. For this
-tutorial, we have downloaded `wget-1.13`{.filename}.
+home directory (on a Mac, this will be your `/user/` directory – for
+example, my user name is ianmilligan and it appears next to a house icon
+in my Finder), and then open up Terminal. For this tutorial, we have
+downloaded `wget-1.13`.
 
 First, we will need to navigate to the directory that the wget files are
 in. At the terminal, type:
@@ -203,7 +202,7 @@ cd wget-1.13
 
 Note that if you have downloaded a different version of wget, the
 following steps will work but you may have to replace the above version
-number (i.e. `1.13`{.userinput}) with your own.
+number (i.e. `1.13`) with your own.
 
 We now need to generate the instructions, or makefile, for the file.
 This is sort of a blueprint for what the final file is going to look
@@ -236,22 +235,22 @@ You should now have wget installed.
 ### Windows Instructions
 
 The easiest way is to download a working version. To do so, visit the
-[ugent website][] and, download `wget.exe`{.filename}. If you place
-`wget.exe`{.filename} in your `C:Windows`{.filename} directory, you can
-then use wget from anywhere on your computer. This will make your life
-easier as you will not have to worry about always running wget from only
-one place on your system. If it is in this directory, Windows will know
-that the command can be used anywhere in your terminal window.
+[ugent website][] and, download `wget.exe`. If you place `wget.exe` in
+your `C:Windows` directory, you can then use wget from anywhere on your
+computer. This will make your life easier as you will not have to worry
+about always running wget from only one place on your system. If it is
+in this directory, Windows will know that the command can be used
+anywhere in your terminal window.
 
 Step Two: Learning about the Structure of Wget – Downloading a Specific Set of Files
 ------------------------------------------------------------------------------------
 
 At this point, users of all three platforms should be on the same page.
 We use wget through our operating system’s command line interface
-(introduced previously as `Terminal`{.filename} for Mac and Linux users,
-where you have been playing around with some Python commands). You need
-to use your command line, instead of the Komodo Edit client you may have
-used in other lessons.
+(introduced previously as `Terminal` for Mac and Linux users, where you
+have been playing around with some Python commands). You need to use
+your command line, instead of the Komodo Edit client you may have used
+in other lessons.
 
 The comprehensive documentation for wget can be found on the [GNU wget
 manual][] page.
@@ -259,13 +258,13 @@ manual][] page.
 Let’s take an example dataset. Say you wanted to download all of the
 papers hosted on the website ActiveHistory.ca. They are all located at:
 <http://activehistory.ca/papers/>; in the sense that they are all
-contained within the `/papers/`{.filename} directory: for example, the
-9th paper published on the website
+contained within the `/papers/` directory: for example, the 9th paper
+published on the website
 is <http://activehistory.ca/papers/historypaper-9/>. Think of this
 structure in the same way as directories on your own computer: if you
-have a folder labeled `/History/`{.filename}, it likely contains several
-files within it. The same structure holds true for websites, and we are
-using this logic to tell our computer what files we want to download.
+have a folder labeled `/History/`, it likely contains several files
+within it. The same structure holds true for websites, and we are using
+this logic to tell our computer what files we want to download.
 
 If you wanted to download them all manually, you would either need to
 write a custom program, or right-click every single paper to do so. If
@@ -275,9 +274,8 @@ the quickest approach.
 To make sure wget is working, try the following.
 
 In your working directory, make a new directory. Let’s call it
-`wget-activehistory`{.filename}. You can make this using your
-Finder/Windows, or if you are at a Terminal window at that path, you can
-type:
+`wget-activehistory`. You can make this using your Finder/Windows, or if
+you are at a Terminal window at that path, you can type:
 
 ``` bash
 mkdir wget-activehistory
@@ -285,16 +283,15 @@ mkdir wget-activehistory
 
 Either way, you now have a directory that we will be working in. Now
 open up your command line interface and navigate to
-the `wget-activehistory`{.filename} directory. As a reminder, you can
-type:
+the `wget-activehistory` directory. As a reminder, you can type:
 
 ``` bash
 cd [directory]
 ```
 
 to navigate to a given directory. If you’ve made this directory in your
-home directory, you should be able to type
-`cd wget-activehistory`{.userinput} to move to your new directory.
+home directory, you should be able to type `cd wget-activehistory` to
+move to your new directory.
 
 Enter the following command:
 
@@ -361,8 +358,8 @@ links, but not beyond the last parent directory. In our case, that means
 that it won’t go anywhere that is not part of the
 http://activehistory.ca/papers/ hierarchy. If it was a long path such as
 http://niche-canada.org/projects/events/new-events/not-yet-happened-events/,
-it would only find files in the `/not-yet-happened-events/`{.filename}
-folder. It is a critical command for delineating your search.
+it would only find files in the `/not-yet-happened-events/` folder. It
+is a critical command for delineating your search.
 
 Here is a graphical representation:
 
@@ -374,9 +371,8 @@ Finally, if you do want to go outside of a hierarchy, it is best to be
 specific about how far you want to go. The default is to follow each
 link and carry on to a limit of five pages away from the first page you
 provide. However, perhaps you just want to follow one link and stop
-there? In that case, you could input `-l 2`{.userinput}, which takes us
-to a depth of two web-pages. Note this is a lower-case ‘L’, not a number
-1.
+there? In that case, you could input `-l 2`, which takes us to a depth
+of two web-pages. Note this is a lower-case ‘L’, not a number 1.
 
 ``` bash
 -l 2
@@ -393,15 +389,15 @@ essential commands:
 
 It is not polite to ask for too much at once from a web server. There
 are other people waiting for information, too, and it is thus important
-to share the load. The command -`w 10`{.\"userinput\"}, then, adds a ten
-second wait in between server requests. You can shorten this, as ten
-seconds is quite long. In my own searches, I often use a 2 second wait.
-On rare occasions, you may come across a site that blocks automated
-downloading altogether. The website’s terms of service, which you should
-consult, may not mention a policy on automated downloading, but steps to
-prohibit it may be built into their website’s architecture nonetheless.
-In such rare cases, you can use the command ––random-wait which will
-vary the wait by 0.5 and 1.5 times the value you provide here.
+to share the load. The command -`w 10`, then, adds a ten second wait in
+between server requests. You can shorten this, as ten seconds is quite
+long. In my own searches, I often use a 2 second wait. On rare
+occasions, you may come across a site that blocks automated downloading
+altogether. The website’s terms of service, which you should consult,
+may not mention a policy on automated downloading, but steps to prohibit
+it may be built into their website’s architecture nonetheless. In such
+rare cases, you can use the command ––random-wait which will vary the
+wait by 0.5 and 1.5 times the value you provide here.
 
 Another critical comment is to limit the bandwidth you will be using in
 the download:
@@ -415,7 +411,7 @@ much of the servers’ bandwidth. So this command will limit the maximum
 download speed to 20kb/s. Opinion varies on what a good limit rate is,
 but you are probably good up to about 200kb/s for small files – however,
 not to tax the server, let us keep it at 20k. This will also keep us at
-`ActiveHistory.ca`{.filename} happy!
+`ActiveHistory.ca` happy!
 
 ### Step Three: Mirror an Entire Website
 
@@ -432,14 +428,13 @@ wget -r --no-parent -w 2 --limit-rate=20k http://activehistory.ca/papers/
 
 It will be slower than before, but your terminal will begin downloading
 all of the ActiveHistory.ca papers. When it is done, you should have a
-directory labeled `ActiveHistory.ca`{.filename} that contains the
-`/papers/`{.filename} sub-directory – perfectly mirrored on your system.
-This directory will appear in the location that you ran the command from
-in your command line, so likely is in your `USER`{.filename} directory.
-Links will be replaced with internal links to the other pages you’ve
-downloaded, so you can actually have a fully working ActiveHistory.ca
-site on your computer. This lets you start to play with it without
-worrying about your internet speed.
+directory labeled `ActiveHistory.ca` that contains the `/papers/`
+sub-directory – perfectly mirrored on your system. This directory will
+appear in the location that you ran the command from in your command
+line, so likely is in your `USER` directory. Links will be replaced with
+internal links to the other pages you’ve downloaded, so you can actually
+have a fully working ActiveHistory.ca site on your computer. This lets
+you start to play with it without worrying about your internet speed.
 
 To see if the download was a success, you will also have a log in your
 command screen. Take a look over it to make sure that all files were

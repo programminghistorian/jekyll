@@ -1,7 +1,7 @@
 ---
 title: Applied Archival Downloading with Wget
 author: Kellen Kurschinski
-date: 13-09-2013
+date: 2013-09-13
 reviewers: Nick Ruest, Konrad Lawson, Ian Milligan
 layout: default
 ---

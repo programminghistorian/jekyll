@@ -1,7 +1,7 @@
 ---
 title: Installing QGIS 2.0 and Adding Layers
 author: Jim Clifford, Josh MacFadyen, Daniel Macfarlane
-date: 13-12-2013
+date: 2013-12-13
 reviewers: Finn Arne Jørgensen, Sarah Simpkin, Adam Crymble
 layout: default
 ---
@@ -65,7 +65,7 @@ Figure 1: Click to view full-size image.
 
 Figure 2
 
--   double-click on the `.exe`{.filename} file to execute
+-   double-click on the `.exe` file to execute
 
 QGIS is very simple to install in most versions of Linux. Follow the
 instructions on the download page.

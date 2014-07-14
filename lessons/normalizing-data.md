@@ -1,7 +1,7 @@
 ---
 title: Normalizing Data
 author: William J. Turkel & Adam Crymble
-date: 17-07-2012
+date: 2012-07-17
 reviewers: Miriam Posner, Jim Clifford, Francesca Benatti
 layout: default
 ---
@@ -17,8 +17,8 @@ data.
 
 ### Files Needed For This Lesson
 
--   `html-to-list-1.py`{.filename}
--   `obo.py`{.filename}
+-   `html-to-list-1.py`
+-   `obo.py`
 
 If you do not have these files from the previous lesson, you can
 download a [zip file from the previous lesson here.][]
@@ -27,15 +27,15 @@ Cleaning up the List
 --------------------
 
 In [From HTML to a List of Words (2)][], we wrote a Python program
-called *`html-to-list-1.py`{.filename}* which downloaded a [web page][],
-stripped out the HTML formatting and metadata and returned a list of
-“words” like the one shown below. Technically, these entities are called
-“tokens” rather than “words”. They include some things that are,
-strictly speaking, not words at all (like the abbreviation &c. for
-“etcetera”). They also include some things that may be considered
-composites of more than one word. The possessive “Akerman’s,” for
-example, is sometimes analyzed by linguists as two words: “Akerman” plus
-a possessive marker. Is “o’clock” one word or two? And so on.
+called *`html-to-list-1.py`* which downloaded a [web page][], stripped
+out the HTML formatting and metadata and returned a list of “words” like
+the one shown below. Technically, these entities are called “tokens”
+rather than “words”. They include some things that are, strictly
+speaking, not words at all (like the abbreviation &c. for “etcetera”).
+They also include some things that may be considered composites of more
+than one word. The possessive “Akerman’s,” for example, is sometimes
+analyzed by linguists as two words: “Akerman” plus a possessive marker.
+Is “o’clock” one word or two? And so on.
 
 Turn back to your program *html-to-list-1.py* and make sure that your
 results look something like this:
@@ -88,10 +88,9 @@ Convert to Lower Case
 Typically tokens are folded to lower case when counting frequencies, so
 we’ll do that using the string method lower which was introduced in
 [Manipulating Strings in Python][]. Since this is a string method we
-will have to apply it to the string: text in the
-*`html-to-list1.py`{.filename}* program. Amend
-*`html-to-list1.py`{.filename}* by adding the string tag lower() to the
-the end of the text string.
+will have to apply it to the string: text in the *`html-to-list1.py`*
+program. Amend *`html-to-list1.py`* by adding the string tag lower() to
+the the end of the text string.
 
 ``` python
 #html-to-list1.py
@@ -173,14 +172,13 @@ more.
 In Python, regular expressions are available as a Python module. To
 speed up processing it is not loaded automatically because not all
 programs require it. So, you will have to import the module (called
-`re`{.filename}) in the same way that you imported your
-*`obo.py`{.filename}* module.
+`re`) in the same way that you imported your *`obo.py`* module.
 
 Since we’re interested in only alphanumeric characters, we’ll create a
 regular expression that will isolate only these and remove the rest.
-Copy the following function and paste it into the *`obo.py`{.filename}*
-module at the end. You can leave the other functions in the module
-alone, as we’ll continue to use those.
+Copy the following function and paste it into the *`obo.py`* module at
+the end. You can leave the other functions in the module alone, as we’ll
+continue to use those.
 
 ``` python
 # Given a text string, remove all non-alphanumeric
@@ -202,8 +200,7 @@ compiled before they can be used, which is what the rest of the
 statement does. Don’t worry about understanding the compilation part
 right now.
 
-When we refine our *`html-to-list1.py`{.filename}* program, it now looks
-like this:
+When we refine our *`html-to-list1.py`* program, it now looks like this:
 
 ``` python
 #html-to-list1.py

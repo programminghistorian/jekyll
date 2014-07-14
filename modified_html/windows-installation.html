@@ -42,17 +42,17 @@
 <h3>Install Python v.2</h3>
 <p>Go to the <a href="http://www.python.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.python.org']);" target="_blank">Python website</a>, download the latest stable release of the Python programming language (Version 2.7.3 as of May 2012) and install it by following the instructions on the Python website.</p>
 <h3>Create a Directory</h3>
-<p>To stay organized, it’s best to have a dedicated directory (folder) on your computer where you will keep your Python programs (e.g., <code class="filename">programming-historian</code>) and save it anywhere you like on your hard drive.</p>
+<p>To stay organized, it’s best to have a dedicated directory (folder) on your computer where you will keep your Python programs (e.g., <code>programming-historian</code>) and save it anywhere you like on your hard drive.</p>
 <h3>Install Komodo Edit</h3>
 <p>Komodo Edit is a free and open source code editor, but as we said in the introduction, you have many <a href="http://wiki.python.org/moin/PythonEditors/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://wiki.python.org']);" target="_blank">other text editing options</a>. You can download a copy from the <a href="http://www.activestate.com/komodo-edit" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.activestate.com']);" target="_blank">Komodo Edit website</a>.</p>
 <h3>Start Komodo Edit</h3>
 <p>It should look something like this:</p>
 <p><img alt="Komodo Edit on Windows" class="wp-image-318" src="http://programminghistorian.org/wp-content/uploads/2011/06/komodo-edit-windows.png" title="komodo-edit-windows"/> <p>Komodo Edit on Windows</p></p>
-<p>If you don’t see the Toolbox pane on the right hand side, choose <code class="filename">View -&gt; Tabs -&gt; Toolbox</code>. It doesn’t matter if the Project pane is open or not. Take some time to familiarize yourself with the layout of the Komodo editor. The Help file is quite good</p>
+<p>If you don’t see the Toolbox pane on the right hand side, choose <code>View -&gt; Tabs -&gt; Toolbox</code>. It doesn’t matter if the Project pane is open or not. Take some time to familiarize yourself with the layout of the Komodo editor. The Help file is quite good</p>
 <h5>Configure Komodo Edit</h5>
 <p>Now you need to set up the editor so that you can run Python programs.</p>
 <ol>
-<li>Choose <code class="filename">Edit -&gt; Preferences</code>. This will open a new dialog window. Select the Python category and set the “<code class="filename">Default Python Interpreter</code>” (it should be <code class="filename">C:\Python27\Python.exe</code>)<br/>
+<li>Choose <code>Edit -&gt; Preferences</code>. This will open a new dialog window. Select the Python category and set the “<code>Default Python Interpreter</code>” (it should be <code>C:\Python27\Python.exe</code>)<br/>
 If it looks like this, click OK:<br/>
 <p><img alt="Komodo Default Python Interpreter Settings" class="wp-image-322" src="http://programminghistorian.org/wp-content/uploads/2011/06/komodo-python-interpreter.png" title="komodo-python-interpreter"/> <p>Set the Default Python Interpreter</p></p>
 </li>
@@ -61,11 +61,11 @@ If it looks like this, click OK:<br/>
 <p>Set the Language to UTF-8</p></p>
 </li>
 </ol>
-<p>Next choose <code class="filename">Toolbox-&gt;Add-&gt;New Command</code>. This will open a new dialog window. Rename your command to <code class="filename">‘Run Python’</code>. Under <code class="filename">‘Command’</code>, type:</p>
+<p>Next choose <code>Toolbox-&gt;Add-&gt;New Command</code>. This will open a new dialog window. Rename your command to <code>‘Run Python’</code>. Under <code>‘Command’</code>, type:</p>
 <pre class="python">%(python) %f</pre>
 <p>If you forget this command, Python will hang mysteriously because it isn’t receiving a program as input.</p>
-<p>Under <code class="filename">‘Start in’</code>, enter:</p>
-<p><code class="userinput">%D</code></p>
+<p>Under <code>‘Start in’</code>, enter:</p>
+<p><code>%D</code></p>
 <p>If it looks like this, click OK:</p>
 <p><img alt="Run Python Command Windows" class="wp-image-320" src="http://programminghistorian.org/wp-content/uploads/2011/06/run-python-windows.png" title="run-python-windows"/>
 <p>“Run Python” Command</p></p>
@@ -74,14 +74,14 @@ If it looks like this, click OK:<br/>
 <p>It is traditional to begin programming in a new language by trying to create a program that says “hello world” and terminates. We will show you how to do this in Python and HTML.</p>
 <p>Python is a good programming language for beginners because it is very <span class="tech">high-level</span>. It is possible, in other words, to write short programs that accomplish a lot. The shorter the program, the more likely it is for the whole thing to fit on one screen, and the easier it is to keep track of all of it in your mind.</p>
 <p>The languages that we will be using are all <span class="tech">interpreted</span>. This means that there is a special computer program (known as an <span class="tech">interpreter</span>) that knows how to follow instructions written in that language. One way to use the interpreter is to store all of your instructions in a <span class="tech">file</span>, and then run the interpreter on the file. A file that contains programming language instructions is known as a <span class="tech">program</span>. The interpreter will execute each of the instructions that you gave it in your program and then stop. Let’s try this.</p>
-<p>In your text editor, create a new file, enter the following two-line program and save it to your <code class="filename">programming-historian</code> directory as <code class="filename">hello-world.py</code></p>
+<p>In your text editor, create a new file, enter the following two-line program and save it to your <code>programming-historian</code> directory as <code>hello-world.py</code></p>
 <pre class="python"># hello-world.py
 print 'hello world'</pre>
-<p>Your chosen text editor should have a “<code class="filename">Run</code>” button that will allow you to execute your program. If all went well, it should look something like this (Example as seen in Komodo Edit. Click on the image to see a full-size copy):</p>
+<p>Your chosen text editor should have a “<code>Run</code>” button that will allow you to execute your program. If all went well, it should look something like this (Example as seen in Komodo Edit. Click on the image to see a full-size copy):</p>
 <p><img alt="hello world in Komodo Edit" class="wp-image-290" src="http://programminghistorian.org/wp-content/uploads/2011/06/hello-world1.png" title="hello-world"/></p>
 <h3>Interacting with a Python shell</h3>
 <p>Another way to interact with an interpreter is to use what is known as a <span class="tech">shell</span>. You can type in a statement and press the Enter key, and the shell will respond to your command. Using a shell is a great way to test statements to make sure that they do what you think they should.</p>
-<p>You can run a Python Shell by double-clicking on the python.exe file. If you installed version 2.7 (the most recent as of May 2012), then this file is probably located in the <code class="filename">C:\Python27\python.exe</code> directory. In the shell window that opens on your screen type:</p>
+<p>You can run a Python Shell by double-clicking on the python.exe file. If you installed version 2.7 (the most recent as of May 2012), then this file is probably located in the <code>C:\Python27\python.exe</code> directory. In the shell window that opens on your screen type:</p>
 <pre class="python">print 'hello world'</pre>
 <p>and press Enter. The computer will respond with</p>
 <pre class="python">hello world</pre>

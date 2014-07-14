@@ -1,7 +1,7 @@
 ---
 title: Viewing HTML Files
 author: William J. Turkel, Adam Crymble
-date: 17-07-2012
+date: 2012-07-17
 reviewers: Miriam Posner, Jim Clifford, Amanda Morton
 layout: default
 ---
@@ -18,7 +18,7 @@ handy for human readers. Most browsers also let you see the HTML source
 for any page that you visit. The two images below show a typical web
 page (from the Old Bailey Online) and the HTML source used to generate
 that page, which you can see with the
-`Tools -> Web Developer -> Page Source`{.filename} command in Firefox.
+`Tools -> Web Developer -> Page Source` command in Firefox.
 
 When you’re working in the browser, you typically don’t want or need to
 see the source for a web page. If you are writing a page of your own,
@@ -107,15 +107,14 @@ to
 Hello World!
 ```
 
-Save the file to your `programming-historian`{.filename} directory as
-`hello-world.html`{.filename}. Now go to Firefox and choose
-`File -> New Tab`{.filename} and then `File -> Open File`{.filename}.
-Choose `hello-world.html`{.filename}. Depending on your text editor you
-may have a ‘view page in browser’ or ‘open in browser’ option. Once you
-have opened the file, your message should appear in the browser. Note
-the difference between opening an HTML file with a browser like Firefox
-(which interprets it) and opening the same file with your text editor
-(which does not).
+Save the file to your `programming-historian` directory as
+`hello-world.html`. Now go to Firefox and choose `File -> New Tab` and
+then `File -> Open File`. Choose `hello-world.html`. Depending on your
+text editor you may have a ‘view page in browser’ or ‘open in browser’
+option. Once you have opened the file, your message should appear in the
+browser. Note the difference between opening an HTML file with a browser
+like Firefox (which interprets it) and opening the same file with your
+text editor (which does not).
 
 ### Suggested readings for learning HTML
 

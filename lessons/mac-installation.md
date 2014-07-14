@@ -1,7 +1,7 @@
 ---
 title: Mac Installation
 author: William J. Turkel, Adam Crymble
-date: 17-07-2012
+date: 2012-07-17
 reviewers: Miriam Posner, Jim Clifford, Amanda Morton
 layout: default
 ---
@@ -14,21 +14,21 @@ Mac users can take advantage of the [Time Machine][] for this.
 
 As of May 2012, Mac OS X comes preinstalled with Python 2. You can check
 to see if you have Python installed by launching the Terminal in the
-`‘Applications/Utilities’`{.filename} directory and entering
-`which python`{.userinput} followed by the Enter key. Pushing the Enter
-key sends the command to the computer when using the terminal. If you
-see `‘/usr/bin/python’`{.filename} or something similar containing the
-word ‘python’ and a bunch of slashes, then you are all set. If not,
-close the Terminal, download the latest stable release of the Python
-programming language (Version 2.7.3 as of May 2012) and install it by
-following the instructions on the [Python website][].
+`‘Applications/Utilities’` directory and entering `which python`
+followed by the Enter key. Pushing the Enter key sends the command to
+the computer when using the terminal. If you see `‘/usr/bin/python’` or
+something similar containing the word ‘python’ and a bunch of slashes,
+then you are all set. If not, close the Terminal, download the latest
+stable release of the Python programming language (Version 2.7.3 as of
+May 2012) and install it by following the instructions on the [Python
+website][].
 
 ### Create a Directory
 
 To stay organized, it’s best to have a dedicated directory (folder) on
 your computer where you will keep your Python programs (e.g.,
-`programming-historian`{.filename}) and save it anywhere you like on
-your hard drive.
+`programming-historian`) and save it anywhere you like on your hard
+drive.
 
 ### Beautiful Soup
 
@@ -45,7 +45,7 @@ introduction, you have many [other text editing options][]. Some of our
 testers prefer a program called [TextWrangler][]. Which you use is up to
 you, but for the sake of consistency in our lessons, we will be using
 Komodo Edit. You can download a copy of Komodo Edit from the [Komodo
-Edit website][]. Install it from the `.DMG`{.filename} file
+Edit website][]. Install it from the `.DMG` file
 
 -   ##### Start Komodo Edit
 
@@ -56,19 +56,19 @@ Edit website][]. Install it from the `.DMG`{.filename} file
 Komodo Edit on a Mac
 
 If you don’t see the Toolbox pane on the right hand side, choose
-`View->Tabs & Sidebars ->Toolbox`{.filename}. It doesn’t matter if the
-Project pane is open or not. Take some time to familiarize yourself with
-the layout of the Komodo editor. The Help file is quite good
+`View->Tabs & Sidebars ->Toolbox`. It doesn’t matter if the Project pane
+is open or not. Take some time to familiarize yourself with the layout
+of the Komodo editor. The Help file is quite good
 
 -   ##### Configure Komodo Edit
 
     Now you need to set up the editor so that you can run Python
     programs. In the Toolbox window, click on the gear icon and select
-    “`New Command…`{.filename}“. This will open a new dialog window.
-    Rename your command to “`Run Python`{.userinput}” and feel free to
-    change the icon if you like. In the
+    “`New Command…`“. This will open a new dialog window. Rename your
+    command to “`Run Python`” and feel free to change the icon if you
+    like. In the
 
-    “`Command`{.filename}” box, type
+    “`Command`” box, type
 
     ``` python
     %(python) %f
@@ -104,18 +104,18 @@ the instructions that you gave it in your program and then stop. Let’s
 try this.
 
 In your text editor, create a new file, enter the following two-line
-program and save it to your `programming-historian`{.filename} directory
-as `hello-world.py`{.filename}
+program and save it to your `programming-historian` directory as
+`hello-world.py`
 
 ``` python
 # hello-world.py
 print 'hello world'
 ```
 
-Your chosen text editor should have a “`Run`{.filename}” button that
-will allow you to execute your program. If you are using TextWrangler,
-click on the “\#!” button and Run. If all went well, it should look
-something like this:
+Your chosen text editor should have a “`Run`” button that will allow you
+to execute your program. If you are using TextWrangler, click on the
+“\#!” button and Run. If all went well, it should look something like
+this:
 
 ![TextWrangler-hello-world][]
 
@@ -130,9 +130,8 @@ statements to make sure that they do what you think they should. This is
 done slightly differently on Mac, Linux and Windows.
 
 You can run a Python shell by launching the “terminal”. On the Mac, open
-the Finder and double-click on
-`Applications -> Utilities -> Terminal`{.filename} then typing
-“`python`{.userinput}” into the window that opens on your screen. At the
+the Finder and double-click on `Applications -> Utilities -> Terminal`
+then typing “`python`” into the window that opens on your screen. At the
 Python shell prompt, type
 
 ``` python
@@ -146,8 +145,7 @@ hello world
 ```
 
 When we want to represent an interaction with the shell, we will use
-`->`{.filename} to indicate the shell’s response to your command, as
-shown below:
+`->` to indicate the shell’s response to your command, as shown below:
 
 ``` python
 print 'hello world'

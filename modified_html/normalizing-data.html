@@ -41,12 +41,12 @@
 <p>The list that we created in the <a href="/lessons/from-html-to-list-of-words-2">From HTML to a List of Words (2)</a> needs some <span class="tech">normalizing</span> before it can be used further. We are going to do this by applying additional string methods, as well as by using <span class="tech">regular expressions</span>. Once normalized, we will be able to more easily analyze our data.</p>
 <h3>Files Needed For This Lesson</h3>
 <ul>
-<li><code class="filename">html-to-list-1.py</code></li>
-<li><code class="filename">obo.py</code></li>
+<li><code>html-to-list-1.py</code></li>
+<li><code>obo.py</code></li>
 </ul>
 <p>If you do not have these files from the previous lesson, you can download a <a href="/lessons/from-html-to-list-of-words-2#codesync">zip file from the previous lesson here.</a></p>
 <h2>Cleaning up the List</h2>
-<p>In <a href="/lessons/from-html-to-list-of-words-2">From HTML to a List of Words (2)</a>, we wrote a Python program called <em><code class="filename">html-to-list-1.py</code></em> which downloaded a <a href="http://www.oldbaileyonline.org/print.jsp?div=t17800628-33" target="_blank">web page</a>, stripped out the HTML formatting and metadata and returned a list of “words” like the one shown below. Technically, these entities are called “<span class="tech">tokens</span>” rather than “words”. They include some things that are, strictly speaking, not words at all (like the abbreviation &amp;c. for “etcetera”). They also include some things that may be considered composites of more than one word. The possessive “Akerman’s,” for example, is sometimes analyzed by linguists as two words: “Akerman” plus a possessive marker. Is “o’clock” one word or two? And so on.</p>
+<p>In <a href="/lessons/from-html-to-list-of-words-2">From HTML to a List of Words (2)</a>, we wrote a Python program called <em><code>html-to-list-1.py</code></em> which downloaded a <a href="http://www.oldbaileyonline.org/print.jsp?div=t17800628-33" target="_blank">web page</a>, stripped out the HTML formatting and metadata and returned a list of “words” like the one shown below. Technically, these entities are called “<span class="tech">tokens</span>” rather than “words”. They include some things that are, strictly speaking, not words at all (like the abbreviation &amp;c. for “etcetera”). They also include some things that may be considered composites of more than one word. The possessive “Akerman’s,” for example, is sometimes analyzed by linguists as two words: “Akerman” plus a possessive marker. Is “o’clock” one word or two? And so on.</p>
 <p>Turn back to your program <em><span class="tech">html-to-list-1.py</span></em> and make sure that your results look something like this:</p>
 <pre class="python">['BENJAMIN', 'BOWSEY,', 'Breaking', 'Peace', '&gt;',
 'riot,', '28th', 'June', '1780.', '324.', 'BENJAMIN',
@@ -77,7 +77,7 @@
 <li>Remove overly common words such as “it”, “the”, “and”, etc.</li>
 </ul>
 <h2>Convert to Lower Case</h2>
-<p>Typically tokens are <span class="tech">folded</span> to lower case when counting frequencies, so we’ll do that using the string method <span class="reserved">lower</span> which was introduced in <a href="/lessons/manipulating-strings-in-python">Manipulating Strings in Python</a>. Since this is a string method we will have to apply it to the string: <span class="var">text</span> in the <em><code class="filename">html-to-list1.py</code></em> program. Amend <em><code class="filename">html-to-list1.py</code></em> by adding the string tag <span class="reserved">lower()</span> to the the end of the <span class="var">text</span> string.</p>
+<p>Typically tokens are <span class="tech">folded</span> to lower case when counting frequencies, so we’ll do that using the string method <span class="reserved">lower</span> which was introduced in <a href="/lessons/manipulating-strings-in-python">Manipulating Strings in Python</a>. Since this is a string method we will have to apply it to the string: <span class="var">text</span> in the <em><code>html-to-list1.py</code></em> program. Amend <em><code>html-to-list1.py</code></em> by adding the string tag <span class="reserved">lower()</span> to the the end of the <span class="var">text</span> string.</p>
 <pre class="python">#html-to-list1.py
 import urllib2, obo
 
@@ -103,8 +103,8 @@ text = text.replace(',', '')
 #etc...</pre>
 <p>But that’s not very efficient. In keeping with our goal of creating short, powerful programs, we’re going to use a mechanism called <span class="tech">regular expressions</span>. Regular expressions are provided by many programming languages in a range of different forms.</p>
 <p>Regular expressions allow you to search for well defined patterns and can drastically shorten the length of your code. For instance, if you wanted to know if a substring matched a letter of the alphabet, rather than use an <span class="reserved">if/else</span> statement to check if it matched the letter “a” then “b” then “c”, and so on, you could use a regular expression to see if the substring matched a letter between “a” and “z”. Or, you could check for the presence of a digit, or a capital letter, or any alphanumeric character, or a carriage return, or any combination of the above, and more.</p>
-<p>In Python, regular expressions are available as a Python module. To speed up processing it is not loaded automatically because not all programs require it. So, you will have to <span class="reserved">import</span> the module (called <code class="filename">re</code>) in the same way that you imported your <em><code class="filename">obo.py</code></em> module.</p>
-<p>Since we’re interested in only alphanumeric characters, we’ll create a regular expression that will isolate only these and remove the rest. Copy the following function and paste it into the <em><code class="filename">obo.py</code></em> module at the end. You can leave the other functions in the module alone, as we’ll continue to use those.</p>
+<p>In Python, regular expressions are available as a Python module. To speed up processing it is not loaded automatically because not all programs require it. So, you will have to <span class="reserved">import</span> the module (called <code>re</code>) in the same way that you imported your <em><code>obo.py</code></em> module.</p>
+<p>Since we’re interested in only alphanumeric characters, we’ll create a regular expression that will isolate only these and remove the rest. Copy the following function and paste it into the <em><code>obo.py</code></em> module at the end. You can leave the other functions in the module alone, as we’ll continue to use those.</p>
 <pre class="python"># Given a text string, remove all non-alphanumeric
 # characters (using Unicode definition of alphanumeric).
 
@@ -112,7 +112,7 @@ def stripNonAlphaNum(text):
     import re
     return re.compile(r'\W+', re.UNICODE).split(text)</pre>
 <p>The regular expression in the above code is the material inside the string, in other words <span class="reserved">W+</span>. The <span class="reserved">W</span> is shorthand for the class of <span class="tech">non-alphanumeric characters</span>. In a Python regular expression, the plus sign (<span class="reserved">+</span>) matches one or more copies of a given character. The <span class="reserved">re.UNICODE</span> tells the interpreter that we want to include characters from the world’s other languages in our definition of “alphanumeric”, as well as the A to Z, a to z and 0-9 of English. Regular expressions have to be <span class="tech">compiled</span> before they can be used, which is what the rest of the statement does. Don’t worry about understanding the compilation part right now.</p>
-<p>When we refine our <em><code class="filename">html-to-list1.py</code></em> program, it now looks like this:</p>
+<p>When we refine our <em><code>html-to-list1.py</code></em> program, it now looks like this:</p>
 <pre class="python">#html-to-list1.py
 import urllib2, obo
 

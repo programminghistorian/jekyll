@@ -1,7 +1,7 @@
 ---
 title: Creating New Vector Layers in QGIS 2.0
 author: Jim Clifford, Josh MacFadyen, Daniel Macfarlane
-date: 13-12-2013
+date: 2013-12-13
 reviewers: Finn Arne Jørgensen, Peter Webster, Abby Schreiber, Adam Crymble
 layout: default
 ---
@@ -173,9 +173,9 @@ Figure 8
 
 Uncheck all layers except settlements. You will notice that your viewing
 window is now blank as we have not created any data. We will now create
-new data from both the `PEI_HollandMap 1798`{.filename} and the
-`PEI_CumminsMap1927`{.filename} to show the increase in settlement
-between the late 18th and early 20th centuries.
+new data from both the `PEI_HollandMap 1798` and the
+`PEI_CumminsMap1927` to show the increase in settlement between the late
+18th and early 20th centuries.
 
 -   we will begin with the more recent, and thus usually more accurate,
     map. Reselect (i.e. check the boxes beside) coastline\_polygon and

@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Topic Modeling and MALLET
 author: Shawn Graham, Scott Weingart, and Ian Milligan
-date: 02-09-2012
+date: 2012-09-02
 reviewers: John Fink, Alan MacEachern and Adam Crymble
 layout: default
 ---
@@ -18,23 +18,22 @@ Lesson Goals
 
 In this lesson you will first learn what topic modeling is and why you
 might want to employ it in your research. You will then learn how to
-install and work with the `MALLET`{.filename} natural language
-processing toolkit to do so. `MALLET`{.filename} involves modifying an
-environment variable (essentially, setting up a short-cut so that your
-computer always knows where to find the `MALLET`{.filename} program) and
-working with the command line (ie, by typing in commands manually,
-rather than clicking on icons or menus). We will run the topic modeller
-on some example files, and look at the kinds of outputs that
-`MALLET`{.filename} installed. This will give us a good idea of how it
-can be used on a corpus of texts to identify topics found in the
-documents without reading them individually.
+install and work with the `MALLET` natural language processing toolkit
+to do so. `MALLET` involves modifying an environment variable
+(essentially, setting up a short-cut so that your computer always knows
+where to find the `MALLET` program) and working with the command line
+(ie, by typing in commands manually, rather than clicking on icons or
+menus). We will run the topic modeller on some example files, and look
+at the kinds of outputs that `MALLET` installed. This will give us a
+good idea of how it can be used on a corpus of texts to identify topics
+found in the documents without reading them individually.
 
-Please see the `MALLET`{.filename} users’ [discussion list][] for the
-full range of things one can do with the software.
+Please see the `MALLET` users’ [discussion list][] for the full range of
+things one can do with the software.
 
 (We would like to thank Robert Nelson and Elijah Meeks for hints and
-tips in getting `MALLET`{.filename} to run for us the first time, and
-for their examples of what can be done with this tool.)
+tips in getting `MALLET` to run for us the first time, and for their
+examples of what can be done with this tool.)
 
 What is Topic Modeling And For Whom is this Useful?
 ---------------------------------------------------
@@ -75,11 +74,11 @@ over and over again until it settles on the most likely distribution of
 words into baskets, which we call topics.
 
 There are many different topic modeling programs available; this
-tutorial uses one called `MALLET`{.filename"}. If one used it on a
-series of political speeches for example, the program would return a
-list of topics and the keywords composing those topics. Each of these
-lists is a topic according to the algorithm. Using the example of
-political speeches, the list might look like:
+tutorial uses one called `MALLET`. If one used it on a series of
+political speeches for example, the program would return a list of
+topics and the keywords composing those topics. Each of these lists is a
+topic according to the algorithm. Using the example of political
+speeches, the list might look like:
 
 1.  Job Jobs Loss Unemployment Growth
 2.  Economy Sector Economics Stock Banks
@@ -122,17 +121,16 @@ all work in much the same way. MALLET uses LDA.
     American Society for Information Science and Technology* vol. 57,
     no. 6 (April 1, 2006): 753-767.
 
-Installing `MALLET`{.filename}
-------------------------------
+Installing `MALLET`
+-------------------
 
 There are many tools one could use to create topic models, but at the
 time of this writing (summer 2012) the simplest tool to run your text
-through is called `MALLET`{.filename}. [`MALLET`{.filename}][] uses an
-implementation of [Gibbs sampling][], a statistical technique meant to
-quickly construct a sample distribution, to create its topic models.
-`MALLET`{.filename} requires using the command line – we’ll talk about
-that more in a moment, although you typically use the same few commands
-over and over.
+through is called `MALLET`. [`MALLET`][] uses an implementation of
+[Gibbs sampling][], a statistical technique meant to quickly construct a
+sample distribution, to create its topic models. `MALLET` requires using
+the command line – we’ll talk about that more in a moment, although you
+typically use the same few commands over and over.
 
 The installation instructions are different for Windows and Mac. Follow
 the instructions appropriate for you below:
@@ -141,33 +139,31 @@ the instructions appropriate for you below:
 
 ### Windows Instructions
 
-1.  Go to the [`MALLET`{.filename}][] project page, and
-    [`download MALLET`{.filename}][]. (As of this writing, we are
-    working with version 2.0.7.)
+1.  Go to the [`MALLET`][] project page, and [`download MALLET`][]. (As
+    of this writing, we are working with version 2.0.7.)
 2.  You will also need the [Java developer’s kit][] – that is, not the
     regular Java that’s on every computer, but the one that lets you
     program things. Install this on your computer.
-3.  Unzip `MALLET`{.filename} into your `C:`{.filename} directory . This
-    is important: it cannot be anywhere else. You will then have a
-    directory called `C:\mallet-2.0.7`{.filename} or similar. For
-    simplicity’s sake, rename this directory just `mallet`{.filename}.
-4.  `MALLET`{.filename} uses an environment variable to tell the
-    computer where to find all the various components of its processes
-    when it is running. It’s rather like a shortcut for the program. A
-    programmer cannot know exactly where every user will install a
-    program, so the programmer creates a variable in the code that will
-    always stand in for that location. We tell the computer, once, where
-    that location is by setting the environment variable. If you moved
-    the program to a new location, you’d have to change the variable.
+3.  Unzip `MALLET` into your `C:` directory . This is important: it
+    cannot be anywhere else. You will then have a directory called
+    `C:\mallet-2.0.7` or similar. For simplicity’s sake, rename this
+    directory just `mallet`.
+4.  `MALLET` uses an environment variable to tell the computer where to
+    find all the various components of its processes when it is running.
+    It’s rather like a shortcut for the program. A programmer cannot
+    know exactly where every user will install a program, so the
+    programmer creates a variable in the code that will always stand in
+    for that location. We tell the computer, once, where that location
+    is by setting the environment variable. If you moved the program to
+    a new location, you’d have to change the variable.
 
 To create an environment variable in Windows 7, click on your
-`Start Menu -> Control Panel -> System -> Advanced System Settings`{.filename}
-(Figures 1,2,3). Click new and type `MALLET_HOME`{.userinput} in the
-variable name box. It must be like this – all caps, with an underscore –
-since that is the shortcut that the programmer built into the program
-and all of its subroutines. Then type the exact path (location) of where
-you unzipped `MALLET`{.filename} in the variable value, e.g.,
-`c:\mallet`{.filename}\
+`Start Menu -> Control Panel -> System -> Advanced System Settings`
+(Figures 1,2,3). Click new and type `MALLET_HOME` in the variable name
+box. It must be like this – all caps, with an underscore – since that is
+the shortcut that the programmer built into the program and all of its
+subroutines. Then type the exact path (location) of where you unzipped
+`MALLET` in the variable value, e.g., `c:\mallet`\
  To see if you have been successful, please read on to the next section.
 
 ![][]
@@ -184,43 +180,39 @@ Figure 3: Environment Variable
 
 #### Running MALLET using the Command Line
 
-`MALLET`{.filename} is run from the command line, also known as
-`Command Prompt`{.filename} (Figure 4). If you remember
-`MS-DOS`{.filename}, or have ever played with a Unix computer Terminal,
-this will be familiar. The command line is where you can type commands
-directly, rather than clicking on icons and menus.
+`MALLET` is run from the command line, also known as `Command Prompt`
+(Figure 4). If you remember `MS-DOS`, or have ever played with a Unix
+computer Terminal, this will be familiar. The command line is where you
+can type commands directly, rather than clicking on icons and menus.
 
 ![][3]
 
 Figure 4: Command Prompt on Windows
 
 1.  Click on your
-    `Start Menu -> All Programs -> Accessories -> Command Prompt`{.filename}.\
+    `Start Menu -> All Programs -> Accessories -> Command Prompt`.\
      You’ll get the command prompt window, which will have a cursor at
-    `c:\user\user>`{.filename} (or similar; see Figure 4).
-2.  Type `cd ..`{.userinput} (That is: cd-space-period-period) to change
-    directory. Keep doing this until you’re at the `C:\`{.filename} .
-    (as in Figure 5)
+    `c:\user\user>` (or similar; see Figure 4).
+2.  Type `cd ..` (That is: cd-space-period-period) to change directory.
+    Keep doing this until you’re at the `C:\` . (as in Figure 5)
 
 ![][4]
 
 Figure 5: Navigating to the C:\\ Directory in Command Prompt
 
-1.  Then type `cd mallet `{.userinput}and you are in the
-    `MALLET`{.filename}directory.Anything you type in the command prompt
-    window is a command. There are commands like cd (change directory)
-    and dir (list directory contents) that the computer understands. You
-    have to tell the computer explicitly that ‘this is a
-    `MALLET`{.filename} command’ when you want to use
-    `MALLET`{.filename}. You do this by telling the computer to grab its
-    instructions from the `MALLET`{.filename} bin, a subfolder in
-    `MALLET`{.filename} that contains the core operating routines.
-2.  Type `bin\mallet`{.userinput} as in Figure 6. If all has gone well,
-    you should be presented with a list of `MALLET`{.filename} commands
-    – congratulations! If you get an error message, check your typing.
-    Did you use the wrong slash? Did you set up the environment variable
-    correctly? Is `MALLET`{.filename} located at `C:\mallet`{.filename}
-    ?
+1.  Then type `cd mallet `and you are in the `MALLET`directory.Anything
+    you type in the command prompt window is a command. There are
+    commands like cd (change directory) and dir (list directory
+    contents) that the computer understands. You have to tell the
+    computer explicitly that ‘this is a `MALLET` command’ when you want
+    to use `MALLET`. You do this by telling the computer to grab its
+    instructions from the `MALLET` bin, a subfolder in `MALLET` that
+    contains the core operating routines.
+2.  Type `bin\mallet` as in Figure 6. If all has gone well, you should
+    be presented with a list of `MALLET` commands – congratulations! If
+    you get an error message, check your typing. Did you use the wrong
+    slash? Did you set up the environment variable correctly? Is
+    `MALLET` located at `C:\mallet` ?
 
 ![][5]
 
@@ -235,32 +227,29 @@ You are now ready to skip ahead to the next section.
 Many of the instructions for OS X installation are similar to Windows,
 with a few differences. In fact, it is a bit easier.
 
-1.  Download and [install `MALLET`{.filename}
-    (`mallet-2.0.7.tar.gaz`{.filename}as of Summer
-    2012).][`download MALLET`{.filename}]
+1.  Download and [install `MALLET` (`mallet-2.0.7.tar.gaz`as of Summer
+    2012).][`download MALLET`]
 2.  Download the [Java Development Kit][Java developer’s kit].
 
-Unzip `MALLET`{.filename} into a directory on your system (for ease of
-following along with this tutorial, your `/user/`{.filename} directory
-works but anywhere is okay). Once it is unzipped, open up your Terminal
-window (in the `Applications`{.filename} directory in your Finder.
-Navigate to the directory where you unzipped `MALLET`{.filename} using
-the Terminal (it will be `mallet-2.0.7`{.filename} . If you unzipped it
-into your `/user/`{.filename} directory as was suggested in this lesson,
-you can navigate to the correct directory by typing
-`cd mallet-2.0.7`{.userinput}). cd is short for “change directory” when
-working in the Terminal.
+Unzip `MALLET` into a directory on your system (for ease of following
+along with this tutorial, your `/user/` directory works but anywhere is
+okay). Once it is unzipped, open up your Terminal window (in the
+`Applications` directory in your Finder. Navigate to the directory where
+you unzipped `MALLET` using the Terminal (it will be `mallet-2.0.7` . If
+you unzipped it into your `/user/` directory as was suggested in this
+lesson, you can navigate to the correct directory by typing
+`cd mallet-2.0.7`). cd is short for “change directory” when working in
+the Terminal.
 
 The same command will suffice to run commands from this directory,
-except you need to append `./`{.userinput} (period-slash) before each
-command. This needs to be done before all `MALLET`{.filename} commands
-when working on a Mac.
+except you need to append `./` (period-slash) before each command. This
+needs to be done before all `MALLET` commands when working on a Mac.
 
-Going forward, the commands for `MALLET`{.filename} on a Mac will be
-nearly identical to those on Windows, except for the direction of
-slashes (there are a few other minor differences that will be noted when
-they arise). If on Windows a command would be `\bin\mallet`{.userinput},
-on a Mac you would instead type:
+Going forward, the commands for `MALLET` on a Mac will be nearly
+identical to those on Windows, except for the direction of slashes
+(there are a few other minor differences that will be noted when they
+arise). If on Windows a command would be `\bin\mallet`, on a Mac you
+would instead type:
 
 ``` bash
 ./bin/mallet
@@ -272,11 +261,11 @@ installed it correctly!
 Typing in MALLET Commands
 -------------------------
 
-Now that you ahve `MALLET`{.filename} installed, it is time to learn
-what commands are available to use with the program. There are nine
-`MALLET`{.filename} commands you can use (see Figure 6 above). Sometimes
-you can combine multiple instructions. At the Command Prompt or Terminal
-(depending on your operating system), try typing:
+Now that you ahve `MALLET` installed, it is time to learn what commands
+are available to use with the program. There are nine `MALLET` commands
+you can use (see Figure 6 above). Sometimes you can combine multiple
+instructions. At the Command Prompt or Terminal (depending on your
+operating system), try typing:
 
 ``` bash
 import-dir --help
@@ -285,7 +274,7 @@ import-dir --help
 You are presented with the error message that import-dir is not
 recognized as an internal or external command, operable program, or
 batch file. This is because we forgot to tell the computer to look in
-the `MALLET bin`{.filename} for it. Try again, with
+the `MALLET bin` for it. Try again, with
 
 ``` bash
 bin\mallet import-dir --help
@@ -293,88 +282,83 @@ bin\mallet import-dir --help
 
 Remember, the direction of the slash matters (See Figure 7, which
 provides an entire transcript of what we have done so far in the
-tutorial). We checked to see that we had installed `MALLET`{.filename}
-by typing in `bin\mallet`{.userinput}. We then made the mistake with
-`import-dir`{.userinput} a few lines further down. After that, we
-successfully called up the help file, which told us what import-dir
-does, and it listed all of the potential parameters you can set for this
-tool.
+tutorial). We checked to see that we had installed `MALLET` by typing in
+`bin\mallet`. We then made the mistake with `import-dir` a few lines
+further down. After that, we successfully called up the help file, which
+told us what import-dir does, and it listed all of the potential
+parameters you can set for this tool.
 
 ![][6]
 
 Figure 7: The Help Menu in MALLET
 
-Note: there is a difference in `MALLET`{.filename} commands between a
-single hyphen and a double hyphen. A single hyphen is simply part of the
-name; it replaces a space (e.g., import-dir rather than import dir),
-since spaces offset multiple commands or parameters. These parameters
-let us tweak the file that is created when we import our texts into
-`MALLET`{.filename}. A double hyphen (as with –help above) modifies,
-adds a sub-command, or specifies some sort of parameter to the command.
+Note: there is a difference in `MALLET` commands between a single hyphen
+and a double hyphen. A single hyphen is simply part of the name; it
+replaces a space (e.g., import-dir rather than import dir), since spaces
+offset multiple commands or parameters. These parameters let us tweak
+the file that is created when we import our texts into `MALLET`. A
+double hyphen (as with –help above) modifies, adds a sub-command, or
+specifies some sort of parameter to the command.
 
 For Windows users, if you got the error *‘exception in thread “main”
 java.lang.NoClassDefFoundError:’* it might be because you installed
-`MALLET`{.filename} somewhere other than in the `C:\`{.filename}
-directory. For instance, installing `MALLET`{.filename} at
-`C:\Program Files\mallet`{.filename} will produce this error message.
-The second thing to check is that your environment variable is set
-correctly. In either of these cases, check the Windows installation
+`MALLET` somewhere other than in the `C:\` directory. For instance,
+installing `MALLET` at `C:\Program Files\mallet` will produce this error
+message. The second thing to check is that your environment variable is
+set correctly. In either of these cases, check the Windows installation
 instructions and double check that you followed them properly.
 
 Working with data
 -----------------
 
-`MALLET`{.filename} comes pre-packaged with sample `.txt`{.filename}
-files with which you can practice. Type `dir`{.userinput} at the
-`C:\mallet> prompt`{.filename}, and you are given the listing of the
-`MALLET`{.filename} directory contents. One of those directories is
-called `sample-data`{.filename}. You know it is a directory because it
-has the word \<dir\> beside it.
+`MALLET` comes pre-packaged with sample `.txt` files with which you can
+practice. Type `dir` at the `C:\mallet> prompt`, and you are given the
+listing of the `MALLET` directory contents. One of those directories is
+called `sample-data`. You know it is a directory because it has the word
+\<dir\> beside it.
 
-Type `cd sample-data`{.userinput}. Type `dir`{.userinput} again. Using
-what you know, navigate to first the `web`{.filename} then the
-`en`{.filename} directories. You can look inside these `.txt`{.filename}
-files by typing the full name of the file (with extension).
+Type `cd sample-data`. Type `dir` again. Using what you know, navigate
+to first the `web` then the `en` directories. You can look inside these
+`.txt` files by typing the full name of the file (with extension).
 
-Note that you cannot now run any `MALLET`{.filename} commands from this
-directory. Try it:
+Note that you cannot now run any `MALLET` commands from this directory.
+Try it:
 
 ``` bash
 bin\mallet import-dir --help
 ```
 
 You get the error message. You will have to navigate back to the main
-`MALLET`{.filename} folder to run the commands. This is because of the
-way `MALLET`{.filename} and its components are structured.
+`MALLET` folder to run the commands. This is because of the way `MALLET`
+and its components are structured.
 
 Importing data
 --------------
 
-In the `sample data`{.filename} directory, there are a number of
-`.txt`{.filename} files. Each one of these files is a single document,
-the text of a number of different web pages. The entire folder can be
-considered to be a corpus of data. To work with this corpus and find out
-what the topics are that compose these individual documents, we need to
-transform them from several individual text files into a single
-`MALLET`{.filename} format file. `MALLET`{.filename} can import more
-than one file at a time. We can import the entire directory of text
-files using the import command. The commands below import the directory,
-turn it into a `MALLET`{.filename} file, keep the original texts in the
-order in which they were listed, and strip out the stop words (words
-such as and, the, but, and if that occur in such frequencies that they
-obstruct analysis) using the default English stop-words dictionary. Try
-the following (swapping in the correct pathway to the sample data).
+In the `sample data` directory, there are a number of `.txt` files. Each
+one of these files is a single document, the text of a number of
+different web pages. The entire folder can be considered to be a corpus
+of data. To work with this corpus and find out what the topics are that
+compose these individual documents, we need to transform them from
+several individual text files into a single `MALLET` format file.
+`MALLET` can import more than one file at a time. We can import the
+entire directory of text files using the import command. The commands
+below import the directory, turn it into a `MALLET` file, keep the
+original texts in the order in which they were listed, and strip out the
+stop words (words such as and, the, but, and if that occur in such
+frequencies that they obstruct analysis) using the default English
+stop-words dictionary. Try the following (swapping in the correct
+pathway to the sample data).
 
 ``` bash
 bin\mallet import-dir --input pathway\to\the\directory\with\the\files --output tutorial.mallet --keep-sequence --remove-stopwords
 ```
 
-If you type `dir`{.userinput} now (or `ls`{.userinput} for Mac), you
-will find a file called `tutorial.mallet`{.filename}. (If you get an
-error message, you can hit the cursor up key on your keyboard to recall
-the last command you typed, and look carefully for typos). This file now
-contains all of your data, in a format that `MALLET`{.filename} can work
-with.
+If you type `dir` now (or `ls` for Mac), you will find a file called
+`tutorial.mallet`. (If you get an error message, you can hit the cursor
+up key on your keyboard to recall the last command you typed, and look
+carefully for typos). This file now contains all of your data, in a
+format that `MALLET` can work with.
 
 ### For Mac
 
@@ -392,9 +376,9 @@ Issues with Big Data
 If you’re working with extremely large file collections – or indeed,
 very large files – you may run into issues with your heap space, your
 computer’s working memory. This issue will initially arise during the
-import sequence, if it is relevant. By default, `MALLET`{.filename}
-allows for 1GB of memory to be used. If you run into the following error
-message, you’ve run into your limit:
+import sequence, if it is relevant. By default, `MALLET` allows for 1GB
+of memory to be used. If you run into the following error message,
+you’ve run into your limit:
 
 ``` bash
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
@@ -402,15 +386,14 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 
 If your system has more memory, you can try increasing the memory
 allocated to your Java virtual machine. To do so, you need to edit the
-code in the `mallet`{.filename} file found in the `bin`{.filename}
-subdirectory of your `MALLET`{.filename} folder. Using Komodo Edit, (See
-[Mac][], [Windows,][Mac][Linux][Mac] for installation instructions),
-open the `Mallet.bat`{.filename} file
-(`C:\Mallet\bin\mallet.bat`{.filename}).
+code in the `mallet` file found in the `bin` subdirectory of your
+`MALLET` folder. Using Komodo Edit, (See [Mac][],
+[Windows,][Mac][Linux][Mac] for installation instructions), open the
+`Mallet.bat` file (`C:\Mallet\bin\mallet.bat`).
 
 Find the following line:
 
-`MEMORY=1g`{.userinput}
+`MEMORY=1g`
 
 You can then change the 1g value upwards – to 2g, 4g, or even higher
 depending on your system’s RAM, which you can find out by looking up the
@@ -422,18 +405,17 @@ increase the value again.
 Your first topic model
 ----------------------
 
-At the command prompt in the `MALLET`{.filename} directory, type:
+At the command prompt in the `MALLET` directory, type:
 
 ``` bash
 bin\mallet train-topics  --input tutorial.mallet
 ```
 
-This command opens your `tutorial.mallet`{.filename} file, and runs the
-topic model routine on it using only the default settings. As it
-iterates through the routine, trying to find the best division of words
-into topics, your command prompt window will fill with output from each
-run. When it is done, you can scroll up to see what it was outputting
-(as in Figure 8).
+This command opens your `tutorial.mallet` file, and runs the topic model
+routine on it using only the default settings. As it iterates through
+the routine, trying to find the best division of words into topics, your
+command prompt window will fill with output from each run. When it is
+done, you can scroll up to see what it was outputting (as in Figure 8).
 
 ![][7]
 
@@ -451,51 +433,49 @@ bit different):
 If you are a fan of cricket, you will recognize that all of these words
 could be used to describe a cricket match. What we are dealing with here
 is a topic related to Australian cricket. If you go to
-`C:\mallet\sample-data\web\en\hill.txt`{.filename}, you will see that
-this file is a brief biography of the noted Australian cricketer Clem
-Hill. The 0 and the 5 we will talk about later in the lesson. Note that
-`MALLET`{.filename} includes an element of randomness, so the keyword
-lists will look different every time the program is run, even if on the
-same set of data.
+`C:\mallet\sample-data\web\en\hill.txt`, you will see that this file is
+a brief biography of the noted Australian cricketer Clem Hill. The 0 and
+the 5 we will talk about later in the lesson. Note that `MALLET`
+includes an element of randomness, so the keyword lists will look
+different every time the program is run, even if on the same set of
+data.
 
-Go back to the main `MALLET`{.filename} directory, and type
-`dir`{.userinput}. You will see that there is no output file. While we
-successfully created a topic model, we did not save the output! At the
-command prompt, type
+Go back to the main `MALLET` directory, and type `dir`. You will see
+that there is no output file. While we successfully created a topic
+model, we did not save the output! At the command prompt, type
 
 ``` bash
 bin\mallet train-topics  --input tutorial.mallet --num-topics 20 --output-state topic-state.gz --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_compostion.txt 
 ```
 
-Here, we have told `MALLET`{.filename} to create a topic model
-(train-topics) and everything with a double hyphen afterwards sets
-different parameters
+Here, we have told `MALLET` to create a topic model (train-topics) and
+everything with a double hyphen afterwards sets different parameters
 
 This command
 
--   opens your `tutorial.mallet`{.filename} file
--   trains `MALLET`{.filename} to find 20 topics
+-   opens your `tutorial.mallet` file
+-   trains `MALLET` to find 20 topics
 -   outputs every word in your corpus of materials and the topic it
-    belongs to into a compressed file (`.gz`{.filename}; see
-    www.gzip.org on how to unzip this)
+    belongs to into a compressed file (`.gz`; see www.gzip.org on how to
+    unzip this)
 -   outputs a text document showing you what the top key words are for
-    each topic (`tutorial_keys.txt`{.filename})
+    each topic (`tutorial_keys.txt`)
 -   and outputs a text file indicating the breakdown, by percentage, of
     each topic within each original text file you imported
-    (`tutorial_composition.txt`{.filename}). (To see the full range of
-    possible parameters that you may wish to tweak, type
-    `bin\mallet train-topics –help`{.userinput} at the prompt.)
+    (`tutorial_composition.txt`). (To see the full range of possible
+    parameters that you may wish to tweak, type
+    `bin\mallet train-topics –help` at the prompt.)
 
-Type `dir`{.userinput}. Your outputted files will be at the bottom of
-the list of files and directories in `C:\Mallet`{.filename}. Open
-`tutorial_keys.txt`{.filename} in a word processor (Figure 9). You are
-presented with a series of paragraphs. The first paragraph is topic 0;
-the second paragraph is topic 1; the third paragraph is topic 2; etc.
-(The output begins counting at 0 rather than 1; so if you ask it to
-determine 20 topics, your list will run from 0 to 19). The second number
-in each paragraph is the Dirichlet parameter for the topic. This is
-related to an option which we did not run, and so its default value was
-used (this is why every topic in this file has the number 2.5).
+Type `dir`. Your outputted files will be at the bottom of the list of
+files and directories in `C:\Mallet`. Open `tutorial_keys.txt` in a word
+processor (Figure 9). You are presented with a series of paragraphs. The
+first paragraph is topic 0; the second paragraph is topic 1; the third
+paragraph is topic 2; etc. (The output begins counting at 0 rather than
+1; so if you ask it to determine 20 topics, your list will run from 0 to
+19). The second number in each paragraph is the Dirichlet parameter for
+the topic. This is related to an option which we did not run, and so its
+default value was used (this is why every topic in this file has the
+number 2.5).
 
 ![][8]
 
@@ -526,29 +506,27 @@ gives an indication of the weight of that topic. In general, including
 ### The composition of your documents
 
 What topics compose your documents? The answer is in the
-`tutorial_composition.txt`{.filename} file. To stay organized, import
-the `tutorial_composition.txt`{.filename} file into a spreadsheet
-(Excel, Open Office, etc). You will have a spreadsheet with a \#doc,
-source, topic, proportion columns. All subsequent columns run topic,
-proportion, topic, proportion, etc., as in figure 10.
+`tutorial_composition.txt` file. To stay organized, import the
+`tutorial_composition.txt` file into a spreadsheet (Excel, Open Office,
+etc). You will have a spreadsheet with a \#doc, source, topic,
+proportion columns. All subsequent columns run topic, proportion, topic,
+proportion, etc., as in figure 10.
 
 ![][9]
 
 Figure 10: Topic Composition
 
-You can see that doc\# 0 (ie, the first document loaded into
-`MALLET`{.filename}), `elizabeth_needham.txt`{.filename} has topic 2 as
-its principal topic, at about 15%; topic 8 at 11%, and topic 1 at 8%. As
-we read along that first column of topics, we see that
-`zinta.txt`{.filename} also has topic 2 as its largest topic, at 23%.
-The topic model suggests a connection between these two documents that
-you might not at first have suspected.
+You can see that doc\# 0 (ie, the first document loaded into `MALLET`),
+`elizabeth_needham.txt` has topic 2 as its principal topic, at about
+15%; topic 8 at 11%, and topic 1 at 8%. As we read along that first
+column of topics, we see that `zinta.txt` also has topic 2 as its
+largest topic, at 23%. The topic model suggests a connection between
+these two documents that you might not at first have suspected.
 
 If you have a corpus of text files that are arranged in chronological
-order (e.g., `1.txt`{.filename} is earlier than `2.txt`{.filename}),
-then you can graph this output in your spreadsheet program, and begin to
-see changes over time, as Robert Nelson has done in [Mining the
-Dispatch][].
+order (e.g., `1.txt` is earlier than `2.txt`), then you can graph this
+output in your spreadsheet program, and begin to see changes over time,
+as Robert Nelson has done in [Mining the Dispatch][].
 
 How do you know the number of topics to search for? Is there a *natural*
 number of topics? What we have found is that one has to run the
@@ -564,21 +542,20 @@ topics. Proceedings of the National Academy of Science, 101, 5228-5235).
 
 ### Getting your own texts into MALLET
 
-The `sample data`{.filename} folder in `MALLET`{.filename} is your guide
-to how you should arrange your texts. You want to put everything you
-wish to topic model into a single folder within `c:\mallet`{.filename},
-ie `c:\mallet\mydata`{.filename}. Your texts should be in
-`.txt`{.filename} format (that is, you create them with Notepad, or in
-Word choose `Save As -> MS Dos text`{.filename}). You have to make some
+The `sample data` folder in `MALLET` is your guide to how you should
+arrange your texts. You want to put everything you wish to topic model
+into a single folder within `c:\mallet`, ie `c:\mallet\mydata`. Your
+texts should be in `.txt` format (that is, you create them with Notepad,
+or in Word choose `Save As -> MS Dos text`). You have to make some
 decisions. Do you want to explore topics at a paragraph by paragraph
-level? Then each `txt`{.filename} file should contain one paragraph.
-Things like page numbers or other identifiers can be indicated in the
-name you give the file, e.g., `pg32_paragraph1.txt`{.filename}. If you
-are working with a diary, each text file might be a single entry, e.g.,
-`april_25_1887.txt`{.filename}. (Note that when naming folders or files,
-do not leave spaces in the name. Instead use underscores to represent
-spaces). If the texts that you are interested in are on the web, you
-might be able to [automate this process][].
+level? Then each `txt` file should contain one paragraph. Things like
+page numbers or other identifiers can be indicated in the name you give
+the file, e.g., `pg32_paragraph1.txt`. If you are working with a diary,
+each text file might be a single entry, e.g., `april_25_1887.txt`. (Note
+that when naming folders or files, do not leave spaces in the name.
+Instead use underscores to represent spaces). If the texts that you are
+interested in are on the web, you might be able to [automate this
+process][].
 
 ### Further Reading about Topic Modeling
 
@@ -587,8 +564,8 @@ materials culled from webpages, see [Mining the Open Web with Looted
 Heritage Draft][].
 
 You can grab the data for yourself at [Figshare.com][], which includes a
-number of `.txt`{.filename} files. Each individual `.txt`{.filename}
-file is a single news report.
+number of `.txt` files. Each individual `.txt` file is a single news
+report.
 
 -   For extensive background and bibliography on topic modeling you may
     wish to begin with Scott Weingart’s [Guided Tour to Topic
@@ -621,10 +598,10 @@ file is a single news report.
   [David Blei and friends]: http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation
   [Mining the Dispatch]: http://dsl.richmond.edu/dispatch/
   [Topic Modeling Martha Ballard’s Diary]: http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/
-  [`MALLET`{.filename}]: http://mallet.cs.umass.edu/index.php
+  [`MALLET`]: http://mallet.cs.umass.edu/index.php
   [Gibbs sampling]: http://en.wikipedia.org/wiki/Gibbs_sampling
   [Windows Instructions]: ../images/windows-150x150.png
-  [`download MALLET`{.filename}]: http://mallet.cs.umass.edu/download.php
+  [`download MALLET`]: http://mallet.cs.umass.edu/download.php
   [Java developer’s kit]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
   []: ../images/fig1-advanced-system-settings.png
     "Figure 1 advanced-system-settings"

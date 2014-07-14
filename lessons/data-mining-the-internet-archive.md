@@ -1,7 +1,7 @@
 ---
 title: Data Mining the Internet Archive Collection
 author: Caleb McDaniel
-date: 03-03-2014
+date: 2014-03-03
 reviewers: William J Turkel
 layout: default
 ---
@@ -51,15 +51,15 @@ Internet Archive. The second, [pymarc][], makes it easier to parse MARC
 records.
 
 The easiest way to download both is to use pip, the python package
-manager. Begin by installing `pip`{.filename} using [this Programming
-Historian lesson][]. Then issue these commands at the command line: To
-install `internetarchive`{.filename}:
+manager. Begin by installing `pip` using [this Programming Historian
+lesson][]. Then issue these commands at the command line: To install
+`internetarchive`:
 
 ``` bash
 sudo pip install internetarchive
 ```
 
-To install `pymarc`{.filename}:
+To install `pymarc`:
 
 ``` bash
 sudo pip install pymarc
@@ -134,12 +134,12 @@ different collections through the [eBook and Texts][] portal, and you
 may also want to read a little bit about [the way that items and item
 URLs are structured][].
 
-Once you have a collection’s identifier—in this case,
-`bplscas`{.filename}—seeing all of the items in the collection is as
-easy as navigating to the Archive’s [advanced search][] page, selecting
-the id from the drop down menu next to “Collection,” and hitting the
-search button. Performing that search with `bplscas`{.filename} selected
-returns [this page][], which as of this writing showed 7,029 results.
+Once you have a collection’s identifier—in this case, `bplscas`—seeing
+all of the items in the collection is as easy as navigating to the
+Archive’s [advanced search][] page, selecting the id from the drop down
+menu next to “Collection,” and hitting the search button. Performing
+that search with `bplscas` selected returns [this page][], which as of
+this writing showed 7,029 results.
 
 We can also [search the Archive using the Python module that we
 installed][], and doing so makes it easier to iterate over all the items
@@ -155,10 +155,10 @@ search = internetarchive.Search('collection:nasa')
 print search.num_found
 ```
 
-All we should need to modify is the collection identifier, from
-`nasa`{.filename} to `bplscas`{.filename}. After starting your
-computer’s Python interpreter, try entering each of the above lines,
-followed by enter, but modify the collection id in the second command:
+All we should need to modify is the collection identifier, from `nasa`
+to `bplscas`. After starting your computer’s Python interpreter, try
+entering each of the above lines, followed by enter, but modify the
+collection id in the second command:
 
 ``` python
 search = internetarchive.Search('collection:bplscas')
@@ -171,10 +171,10 @@ for the collection in the browser][].
 Accessing an IA Item in Python
 ------------------------------
 
-The `internetarchive`{.filename} module also allows you to access
-individual items using their identifiers. Let’s try that using the
-[documentation’s sample code for downloading an item][], modifying it in
-order to get the Douglass letter we discussed earlier.
+The `internetarchive` module also allows you to access individual items
+using their identifiers. Let’s try that using the [documentation’s
+sample code for downloading an item][], modifying it in order to get the
+Douglass letter we discussed earlier.
 
 If you are still at your Python interpreter’s command prompt, you don’t
 need to import internetarchive again, so instead just enter the second
@@ -201,7 +201,7 @@ exit()
 
 Then list the contents of the current directory to see if a folder now
 appears named
-`lettertowilliaml00doug. If you list the contents of that folder, you should see a list of files similar to this:`{.filename}
+`lettertowilliaml00doug. If you list the contents of that folder, you should see a list of files similar to this:`
 
 ```
 39999066767938.djvu
@@ -224,17 +224,17 @@ lettertowilliaml00doug_metasource.xml
 ```
 
 Now that we know how to use the Search and Item functions in the
-`internetarchive`{.filename} module, we can turn to thinking about how
-to make this process more effective for downloading lots of information
-from the collection for further analysis.
+`internetarchive` module, we can turn to thinking about how to make this
+process more effective for downloading lots of information from the
+collection for further analysis.
 
 Downloading MARC Records from a Collection
 ------------------------------------------
 
 Downloading one item is nice, but what if we want to look at thousands
-of items in a collection? We’re in luck, because the
-`internetarchive`{.filename} module’s Search function allows us to
-iterate over all the results in a search.
+of items in a collection? We’re in luck, because the `internetarchive`
+module’s Search function allows us to iterate over all the results in a
+search.
 
 To see how, let’s first start our Python interpreter again. We’ll need
 to import our module again, and perform our search again:
@@ -263,8 +263,8 @@ loop and execute the command.
 
 You should now see your terminal begin to print out the identifiers for
 each result returned by our bplscas search—in this case, all 7,029 of
-them! You can interrupt the print out by hitting `Ctrl-C`{.userinput} on
-your keyboard, which will return you to the prompt.
+them! You can interrupt the print out by hitting `Ctrl-C` on your
+keyboard, which will return you to the prompt.
 
 If you didn’t see identifiers printing out to your screen, but instead
 saw an error like this, you may have forgotten to enter a few spaces
@@ -317,18 +317,16 @@ Archive item.
 
 For example, earlier we downloaded all the files associated with the
 item lettertowilliaml00doug. We could have done that to each item
-returned by our search by changing the line
-`print result['identifier']`{.userinput} in our for loop to
-`result.download()`{.userinput}.
+returned by our search by changing the line `print result['identifier']`
+in our for loop to `result.download()`.
 
 We probably want to think twice before doing that, though—downloading
 all the files for each of the 7,029 items in the bplscas collection is a
 lot of files. Fortunately, the download function in the
-`internetarchive`{.filename} module also allows you to [download
-specific files associated with an item][documentation’s sample code for
-downloading an item]. If we had only wanted to download the MARC XML
-record associated with a particular item, we could have instead done
-this:
+`internetarchive` module also allows you to [download specific files
+associated with an item][documentation’s sample code for downloading an
+item]. If we had only wanted to download the MARC XML record associated
+with a particular item, we could have instead done this:
 
 ``` python
 item = internetarchive.Item('lettertowilliaml00doug')
@@ -437,15 +435,15 @@ for result in search.results():
 ```
 
 The main thing we’ve added here, after our module import statements, is
-a line that opens a text file called `bpl-marcs-errors.log`{.filename}
-and prepares it to have text appended to it. We are going to use this
-file to log exceptions that the script raises. The try statement that we
-have added to our for loop will attempt to download the MARC record. If
-it can’t, it will write a descriptive statement about what went wrong to
-our log file. That way we can go back to the file later and identify
-which items we will need to try to download again. If the try clause
-succeeds and can download the record, then the script will execute the
-code in the else clause.
+a line that opens a text file called `bpl-marcs-errors.log` and prepares
+it to have text appended to it. We are going to use this file to log
+exceptions that the script raises. The try statement that we have added
+to our for loop will attempt to download the MARC record. If it can’t,
+it will write a descriptive statement about what went wrong to our log
+file. That way we can go back to the file later and identify which items
+we will need to try to download again. If the try clause succeeds and
+can download the record, then the script will execute the code in the
+else clause.
 
 One other thing we have added, upon successful download, is this line:
 
@@ -463,10 +461,10 @@ in the directory where you want to store your MARC files. Don’t be
 surprised if you immediately encounter a string of error messages; that
 means the script is doing what it’s supposed to do! Calmly go into your
 text editor, while leaving the script running, and open the
-`bpl-marcs-errors.log`{.filename} to see what exceptions have been
-recorded there. You’ll probably see that the script raised the exception
-“File already exists” for each of the files that you had already
-downloaded when running our earlier, shorter program.
+`bpl-marcs-errors.log` to see what exceptions have been recorded there.
+You’ll probably see that the script raised the exception “File already
+exists” for each of the files that you had already downloaded when
+running our earlier, shorter program.
 
 If you leave the program running for a little while, the script will
 eventually get to items that you have not already downloaded and resume
@@ -500,7 +498,7 @@ datafield “260,” subfield “a,” and make a list of every place name where
 items in the collection were published.
 
 To do this, we’ll use the other helpful Python module that we downloaded
-with `pip`{.filename} at the beginning: [pymarc][1].
+with `pip` at the beginning: [pymarc][1].
 
 That module makes it easy to get information out of subfields. Assuming
 that we have a MARC record prepared for parsing by the module assigned
@@ -511,11 +509,11 @@ place names this way:
 place_of_pub = record['260']['a']
 ```
 
-The documentation for `pymarc`{.filename} is a little less complete than
-that for the Internet Archive, especially when it comes to parsing XML
-records. But a little rooting around in the source code for the module
-reveals some [functions that it provides for working with MARC XML
-records][]. One of these, called map\_xml() is described this way:
+The documentation for `pymarc` is a little less complete than that for
+the Internet Archive, especially when it comes to parsing XML records.
+But a little rooting around in the source code for the module reveals
+some [functions that it provides for working with MARC XML records][].
+One of these, called map\_xml() is described this way:
 
 ``` python
 def map_xml(function, *files):
@@ -532,10 +530,10 @@ def map_xml(function, *files):
 
 Translated into plain English, this function means that we can take an
 XML file containing MARC data (like the nearly 7,000 we now have on our
-computer), pass it to the map\_xml function in the `pymarc`{.filename}
-module, and then specify another function (that we will write) telling
-our program what to do with the MARC data retrieved from the XML file.
-In rough outline, our code will look something like this:
+computer), pass it to the map\_xml function in the `pymarc` module, and
+then specify another function (that we will write) telling our program
+what to do with the MARC data retrieved from the XML file. In rough
+outline, our code will look something like this:
 
 ``` python
 import pymarc
@@ -582,12 +580,12 @@ for file in os.listdir(path):
 
 This script modifies our above code in several ways. First, it uses a
 for loop to iterate over each file in our directory. In place of the
-`internetarchive`{.filename} search results that we iterated over in our
-first part of this lesson, we iterate over the files returned by
-os.listdir(path) which uses the built-in Python module os to list the
-contents of the directory specified in the path variable, which you will
-need to modify so that it matches the directory where you have
-downloaded all of your MARC files.
+`internetarchive` search results that we iterated over in our first part
+of this lesson, we iterate over the files returned by os.listdir(path)
+which uses the built-in Python module os to list the contents of the
+directory specified in the path variable, which you will need to modify
+so that it matches the directory where you have downloaded all of your
+MARC files.
 
 We have also added some error handling to our get\_place\_of\_pub()
 function to account for the fact that some records may (for whatever
@@ -621,8 +619,8 @@ your data. And other applications of this lesson may prove more useful.
 For example, working with the MARC data fields for personal names, you
 could create a network of correspondents. Or you could analyze which
 subjects are common in the MARC records. Now that you have the MARC
-records downloaded and can use `pymarc`{.filename} to extract
-information from the fields, the possibilities can multiply rapidly!
+records downloaded and can use `pymarc` to extract information from the
+fields, the possibilities can multiply rapidly!
 
   [Internet Archive]: http://archive.org/
   [early JSTOR journal content]: https://archive.org/details/jstor_ejc

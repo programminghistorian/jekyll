@@ -83,6 +83,7 @@ for file in files:
         spans = soup.find_all('span', class_=re.compile('filename|userinput'))
         for span in spans:
             span.name = 'code'
+            span.attrs = {}
 
         # change figures and figcaptions
         figs = soup.find_all(re.compile('figure|figcaption'))

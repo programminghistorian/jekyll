@@ -1,7 +1,7 @@
 ---
 title: Downloading Multiple Records Using Query Strings
 author: Adam Crymble
-date: 11-11-2012
+date: 2012-11-11
 reviewers: Fred Gibbs, Fred Gibbs, Luke Bergmann
 layout: default
 ---
@@ -95,8 +95,8 @@ limit our results to records published in the Old Bailey Proceedings
 trial accounts from 1700 to 1750 only. You can of course change this to
 whatever you like, but this will make the example easier to follow.
 Perform the search shown in the image below. Make sure you tick the
-“Advanced” radio button and include the `*`{.userinput} wildcards to
-include pluralized entries or those with an extra “e” on the end.
+“Advanced” radio button and include the `*` wildcards to include
+pluralized entries or those with an extra “e” on the end.
 
 ![][2]
 
@@ -243,8 +243,8 @@ We could type this URL out twice and alter the ‘start’ variable to get
 us all 13 entries, but let’s write a program that would work no matter
 how many search results pages or records we had to download, and no
 matter what we decide to search for. Study this code and then add this
-function to your `obo.py`{.filename} module. The comments in the code
-are meant to help you decipher the various parts.
+function to your `obo.py` module. The comments in the code are meant to
+help you decipher the various parts.
 
 ``` python
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth):
@@ -279,10 +279,10 @@ and used Function Arguments so that this function can be reused beyond
 our specific needs right now. When we call this function we will replace
 the arguments with the values we want to search for. We then download
 the search results page in a similar manner as done in [Working with
-Webpages][]. Now, make a new file: `download-searches.py`{.filename} and
-copy into it the following code. Note, the values we have passed as
-arguments are exactly the same as those used in the example above. Feel
-free to play with these to get different results or see how they work.
+Webpages][]. Now, make a new file: `download-searches.py` and copy into
+it the following code. Note, the values we have passed as arguments are
+exactly the same as those used in the example above. Feel free to play
+with these to get different results or see how they work.
 
 ``` python
 #download-searches.py
@@ -294,20 +294,19 @@ obo.getSearchResults(query, "advanced", "1700", "00", "1750", "99")
 ```
 
 When you run this code you should find a new file:
-“`search-results.html`{.filename}” in your
-`programming-historian directory`{.filename} containing the first search
-results page for your search. Check that this downloaded properly and
-then delete the file. We’re going to adapt our program to download the
-other page containing the other 3 entries at the same time so we want to
-make sure we get both. Let’s refine our getSearchResults function by
-adding another function argument called “entries” so we can tell the
-program how many pages of search results we need to download. We will
-use the value of entries and some simple math to determine how many
-search results pages there are. This is fairly straightforward since we
-know there are ten trial transcripts listed per page. We can calculate
-the number of search results pages by dividing the value of entries by
-10. We will save this result to an integer variable named pageCount. It
-looks like this:
+“`search-results.html`” in your `programming-historian directory`
+containing the first search results page for your search. Check that
+this downloaded properly and then delete the file. We’re going to adapt
+our program to download the other page containing the other 3 entries at
+the same time so we want to make sure we get both. Let’s refine our
+getSearchResults function by adding another function argument called
+“entries” so we can tell the program how many pages of search results we
+need to download. We will use the value of entries and some simple math
+to determine how many search results pages there are. This is fairly
+straightforward since we know there are ten trial transcripts listed per
+page. We can calculate the number of search results pages by dividing
+the value of entries by 10. We will save this result to an integer
+variable named pageCount. It looks like this:
 
 ``` python
 #determine how many files need to be downloaded.
@@ -354,8 +353,8 @@ add that downloading code to a for loop which will download once for
 every number in the pageCount variable. If it reads 1, then it will
 download once; if it reads 5 it will download five times, and so on.
 Immediately after the if statement you have just written, add the
-following line and indent everything down to `f.close`{.userinput} one
-additional tab so that it is all enclosed in the for loop:
+following line and indent everything down to `f.close` one additional
+tab so that it is all enclosed in the for loop:
 
 ``` python
 for pages in range(1, pageCount+1):
@@ -427,8 +426,7 @@ getSearchResults function. Recall we have made the following additions:
 -   Adjust the existing filename variable so that each time a search
     results page is downloaded it gives the file a unique name.
 
-The finished function code in your `obo.py`{.filename} file should look
-like this:
+The finished function code in your `obo.py` file should look like this:
 
 ``` python
 #create URLs for search results pages and save the files
@@ -472,7 +470,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 ```
 
 To run this new function, add the extra argument to
-`download-searches.py`{.filename} and run the program again:
+`download-searches.py` and run the program again:
 
 ``` python
 #download-searches.py
@@ -484,13 +482,12 @@ obo.getSearchResults(query, "advanced", "1700", "00", "1750", "99", 13)
 ```
 
 Great! Now we have both search results pages, called
-`search-result0.html`{.filename} and `search-result10.html`{.filename}.
-But before we move onto the next step in the algorithm, let’s take care
-of some housekeeping. Our `programming-historian`{.filename} directory
-will quickly become unwieldy if we download multiple search results
-pages and trial transcripts. Let’s have Python make a new directory
-named after our search terms. Study and then copy the following to
-`obo.py`{.filename}.
+`search-result0.html` and `search-result10.html`. But before we move
+onto the next step in the algorithm, let’s take care of some
+housekeeping. Our `programming-historian` directory will quickly become
+unwieldy if we download multiple search results pages and trial
+transcripts. Let’s have Python make a new directory named after our
+search terms. Study and then copy the following to `obo.py`.
 
 ``` python
 def newDir(newDir):
@@ -504,11 +501,11 @@ def newDir(newDir):
 
 We want to call this new function in getSearchResults, so that our
 search results pages are downloaded to a directory with the same name as
-our search query. This will keep our `programming-historian`{.filename}
-directory more organized. To do this we will create a new directory
-using the `os`{.filename} library, short for “operating system”. That
-library contains a function called makedirs, which, unsurprisingly,
-makes a new directory. You can try this out using the Terminal.
+our search query. This will keep our `programming-historian` directory
+more organized. To do this we will create a new directory using the `os`
+library, short for “operating system”. That library contains a function
+called makedirs, which, unsurprisingly, makes a new directory. You can
+try this out using the Terminal.
 
 ``` python
 import os
@@ -520,16 +517,15 @@ if not os.path.exists(query):
 
 This program will check to see if your computer already has a directory
 with this name. If not, you should now have a directory called
-`myNewDirectory`{.filename} on your computer. On a Mac this is probably
-located in your `/Users/username/`{.filename} directory, and on Windows
-you should be able to find it in the `Python`{.filename} directory on
-your computer, the same in which you opened your command line program.
-If this worked you can delete the directory from your hard drive, since
-it was just for practice. Since we want to create a new directory named
-after the query that we input into the Old Bailey Online website, we
-will make direct use of the query function argument from the
-getSearchResults function. To do this, import the `os`{.filename}
-directory after you have imported `urllib2`{.filename} and then add the
+`myNewDirectory` on your computer. On a Mac this is probably located in
+your `/Users/username/` directory, and on Windows you should be able to
+find it in the `Python` directory on your computer, the same in which
+you opened your command line program. If this worked you can delete the
+directory from your hard drive, since it was just for practice. Since we
+want to create a new directory named after the query that we input into
+the Old Bailey Online website, we will make direct use of the query
+function argument from the getSearchResults function. To do this, import
+the `os` directory after you have imported `urllib2` and then add the
 code you have just written immediately below. Your getSearchResults
 function should now look like this:
 
@@ -594,18 +590,17 @@ If your computer is running Windows you will need to use a backslash
 instead of a forward slash in the above example. Add the above line to
 your getSearchResults page in lieu of the current filename description.
 
-If you are running Windows, chances are your
-`downloadSearches.py`{.filename} program will now crash when you run it
-because you are trying to create a director with a \* in it. Windows
-does not like this. To get around this problem we can use [regular
-expressions][] to remove any non-Windows-friendly characters. We used
-regular expressions previously in [Counting Frequencies][]. To remove
-non-alpha-numeric characters from the query, first import the regular
-expressions library immediately after you have imported the os library,
-then use the re.sub() function to create a new string named cleanQuery
-that contains only alphanumeric characters. You will then have to
-substitute cleanQuery as the variable used in the os.path.exists(),
-os.makedirs(), and filename declarations.
+If you are running Windows, chances are your `downloadSearches.py`
+program will now crash when you run it because you are trying to create
+a director with a \* in it. Windows does not like this. To get around
+this problem we can use [regular expressions][] to remove any
+non-Windows-friendly characters. We used regular expressions previously
+in [Counting Frequencies][]. To remove non-alpha-numeric characters from
+the query, first import the regular expressions library immediately
+after you have imported the os library, then use the re.sub() function
+to create a new string named cleanQuery that contains only alphanumeric
+characters. You will then have to substitute cleanQuery as the variable
+used in the os.path.exists(), os.makedirs(), and filename declarations.
 
 ``` python
 import urllib2, os, re
@@ -668,10 +663,9 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 ```
 
 This time we tell the program to download the trials and put them in the
-new directory rather than our `programming-historian`{.filename}
-directory. Run `download-searches.py`{.filename} once more to ensure
-this worked and you understand how to save files to a particular
-directory using Python.
+new directory rather than our `programming-historian` directory. Run
+`download-searches.py` once more to ensure this worked and you
+understand how to save files to a particular directory using Python.
 
 ### Downloading the individual trial entries
 
@@ -704,10 +698,10 @@ must first find where the trial IDs are amidst the HTML code in the
 downloaded files, and then determine a way to consistently isolate them
 using code so that no matter which search results page we download from
 the site we are able to find the trial transcripts. First, open
-`search-results0.html`{.filename} in Komodo Edit and have a look for the
-list of the trials. The first entry starts with “Anne Smith” so you can
-use the “find” feature in Komodo Edit to jump immediately to the right
-spot. Notice Anne’s name is part of a link:
+`search-results0.html` in Komodo Edit and have a look for the list of
+the trials. The first entry starts with “Anne Smith” so you can use the
+“find” feature in Komodo Edit to jump immediately to the right spot.
+Notice Anne’s name is part of a link:
 
 ``` xml
 http://www.oldbaileyonline.org/browse.jsp?id=t17160113-18&div=t17160113-18&terms=mulatto|negro#highlight 
@@ -719,13 +713,13 @@ formatted and it looks like each link starts with “browse.jsp?id=”
 followed by the trial ID and finished with an &, in Anne’s case:
 “browse.jsp?id=t17160113-18&”. We can write a few lines of code that can
 isolate those IDs. Take a look at the following function. This function
-also uses the `os`{.filename} library, in this case to list all of the
-files located in the directory created in the previous section. The
-`os`{.filename} library contains a range of useful functions that mirror
-the types of tasks you would expect to be able to do with your mouse in
-the Mac Finder or Windows such as opening, closing, creating, deleting,
-and moving files and directories, and is a great library to master – or
-at least familiarize yourself with.
+also uses the `os` library, in this case to list all of the files
+located in the directory created in the previous section. The `os`
+library contains a range of useful functions that mirror the types of
+tasks you would expect to be able to do with your mouse in the Mac
+Finder or Windows such as opening, closing, creating, deleting, and
+moving files and directories, and is a great library to master – or at
+least familiarize yourself with.
 
 ``` python
 def getIndivTrials(query):
@@ -737,9 +731,9 @@ def getIndivTrials(query):
     print searchResults
 ```
 
-Create and run a new program called `extract-trial-ids.py`{.filename}
-with the following code. Make sure you input the same value into the
-query argument as you did in the previous example:
+Create and run a new program called `extract-trial-ids.py` with the
+following code. Make sure you input the same value into the query
+argument as you did in the previous example:
 
 ``` python
 import obo
@@ -810,10 +804,10 @@ trialID = words[idStart: idEnd]
 urls.append(trialID)
 ```
 
-When you re-run `extract-trial-ids.py`{.filename}, you should now see a
-list of all the trial IDs. We can add a couple extra lines to turn these
-into proper URLs and download the whole list to our new directory. We’ll
-also use the time library to pause our program for three seconds between
+When you re-run `extract-trial-ids.py`, you should now see a list of all
+the trial IDs. We can add a couple extra lines to turn these into proper
+URLs and download the whole list to our new directory. We’ll also use
+the time library to pause our program for three seconds between
 downloads– a technique called throttling. It’s considered good form not
 to pound someone’s server with many requests per second; and the slight
 delay makes it more likely that all the files will actually download
@@ -956,8 +950,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         time.sleep(3)
 ```
 
-Finally, call the function in the `download-searches.py`{.filename}
-program.
+Finally, call the function in the `download-searches.py` program.
 
 ``` python
 #download-searches.py

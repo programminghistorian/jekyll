@@ -41,7 +41,7 @@
 <p>Your list is now clean enough that you can begin analyzing its contents in meaningful ways. Counting the frequency of specific words in the list can provide illustrative data. Python has an easy way to count frequencies, but it requires the use of a new type of variable: the <span class="tech">dictionary</span>. Before you begin working with a dictionary, consider the processes used to calculate frequencies in a list.</p>
 <h3>Files Needed For This Lesson</h3>
 <ul>
-<li><code class="filename">obo.py</code></li>
+<li><code>obo.py</code></li>
 </ul>
 <p>If you do not have these files from the previous lesson, you can download a <a href="/lessons/from-html-to-list-of-words-2#codesync">zip file from the previous lesson here.</a></p>
 <h2>Frequencies</h2>
@@ -133,14 +133,14 @@ print d.keys()
 <p>Dictionaries might be a bit confusing to a new programmer. Try to think of it like a language dictionary. If you don’t know (or remember) exactly how “bijection” differs from “surjection” you can look the two terms up in the <span class="pub">Oxford English Dictionary</span>. The same principle applies when you <span class="reserved">print d['hello']</span>; except, rather than print a literary definition it prints the value associated with the keyword <span class="var">“hello”</span>, as defined by you when you created the dictionary named <span class="var">d</span>. In this case, that value is “<span class="var">0</span>“.</p>
 <p>Note that you use curly braces to define a dictionary, but square brackets to access things within it. The <span class="reserved">keys</span> operation returns a list of keys that are defined in the dictionary.</p>
 <h2 class="sub">Word-Frequency Pairs</h2>
-<p>Building on what we have so far, we want a function that can convert a list of words into a dictionary of word-frequency pairs. The only new command that we will need is <span class="tech">dict</span>, which makes a dictionary from a list of pairs. Copy the following and add it to the <code class="filename">obo.py</code> module.</p>
+<p>Building on what we have so far, we want a function that can convert a list of words into a dictionary of word-frequency pairs. The only new command that we will need is <span class="tech">dict</span>, which makes a dictionary from a list of pairs. Copy the following and add it to the <code>obo.py</code> module.</p>
 <pre class="python"># Given a list of words, return a dictionary of
 # word-frequency pairs.
 
 def wordListToFreqDict(wordlist):
     wordfreq = [wordlist.count(p) for p in wordlist]
     return dict(zip(wordlist,wordfreq))</pre>
-<p>We are also going to want a function that can sort a dictionary of word-frequency pairs by descending frequency. Copy this and add it to the <code class="filename">obo.py</code> module, too.</p>
+<p>We are also going to want a function that can sort a dictionary of word-frequency pairs by descending frequency. Copy this and add it to the <code>obo.py</code> module, too.</p>
 <pre class="python"># Sort a dictionary of word-frequency pairs in
 # order of descending frequency.
 
@@ -149,7 +149,7 @@ def sortFreqDict(freqdict):
     aux.sort()
     aux.reverse()
     return aux</pre>
-<p>We can now write a program which takes a URL and returns word-frequency pairs for the web page, sorted in order of descending frequency. Copy the following program into Komodo Edit, save it as <code class="filename">html-to-freq.py</code> and execute it. Study the program and its output carefully before continuing.</p>
+<p>We can now write a program which takes a URL and returns word-frequency pairs for the web page, sorted in order of descending frequency. Copy the following program into Komodo Edit, save it as <code>html-to-freq.py</code> and execute it. Study the program and its output carefully before continuing.</p>
 <pre class="python">#html-to-freq.py
 
 import urllib2, obo
@@ -165,7 +165,7 @@ sorteddict = obo.sortFreqDict(dictionary)
 
 for s in sorteddict: print str(s)</pre>
 <h2>Removing Stop Words</h2>
-<p>When we look at the output of our <code class="filename">html-to-freq.py</code> program, we see that a lot of the most frequent words in the text are function words like “the”, “of”, “to” and “and”.</p>
+<p>When we look at the output of our <code>html-to-freq.py</code> program, we see that a lot of the most frequent words in the text are function words like “the”, “of”, “to” and “and”.</p>
 <pre class="python">(192, 'the')
 (105, 'i')
 (74, 'to')
@@ -179,7 +179,7 @@ for s in sorteddict: print str(s)</pre>
 (40, 'that')
 (39, 'his')
 (36, 'it')</pre>
-<p>These words are usually the most common in any English language text, so they don’t tell us much that is distinctive about Bowsey’s trial. In general, we are more interested in finding the words that will help us differentiate this text from texts that are about different subjects. So we’re going to filter out the common function words. Words that are ignored like this are known as stop words. We’re going to use the following list, adapted from one posted online by <a href="http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://ir.dcs.gla.ac.uk']);" target="_blank">computer scientists at Glasgow</a>. Copy it and put it at the beginning of the <code class="filename">obo.py</code> library that you are building.</p>
+<p>These words are usually the most common in any English language text, so they don’t tell us much that is distinctive about Bowsey’s trial. In general, we are more interested in finding the words that will help us differentiate this text from texts that are about different subjects. So we’re going to filter out the common function words. Words that are ignored like this are known as stop words. We’re going to use the following list, adapted from one posted online by <a href="http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://ir.dcs.gla.ac.uk']);" target="_blank">computer scientists at Glasgow</a>. Copy it and put it at the beginning of the <code>obo.py</code> library that you are building.</p>
 <pre class="python">stopwords = ['a', 'about', 'above', 'across', 'after', 'afterwards']
 stopwords += ['again', 'against', 'all', 'almost', 'alone', 'along']
 stopwords += ['already', 'also', 'although', 'always', 'am', 'among']
@@ -231,14 +231,14 @@ stopwords += ['wherever', 'whether', 'which', 'while', 'whither', 'who']
 stopwords += ['whoever', 'whole', 'whom', 'whose', 'why', 'will', 'with']
 stopwords += ['within', 'without', 'would', 'yet', 'you', 'your']
 stopwords += ['yours', 'yourself', 'yourselves']</pre>
-<p>Now getting rid of the stop words in a list is as easy as using another list comprehension. Add this function to the <code class="filename">obo.py</code> module, too.</p>
+<p>Now getting rid of the stop words in a list is as easy as using another list comprehension. Add this function to the <code>obo.py</code> module, too.</p>
 <pre class="python"># Given a list of words, remove any that are
 # in a list of stop words.
 
 def removeStopwords(wordlist, stopwords):
     return [w for w in wordlist if w not in stopwords]</pre>
 <h2>Putting it All Together</h2>
-<p>Now we have everything we need to determine word frequencies for web pages. Copy the following to Komodo Edit, save it as <code class="filename">html-to-freq-2.py</code> and execute it.</p>
+<p>Now we have everything we need to determine word frequencies for web pages. Copy the following to Komodo Edit, save it as <code>html-to-freq-2.py</code> and execute it.</p>
 <pre class="python"># html-to-freq-2.py
 
 import urllib2

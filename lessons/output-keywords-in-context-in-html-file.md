@@ -1,7 +1,7 @@
 ---
 title: Output Keywords in Context in HTML File
 author: William J. Turkel & Adam Crymble
-date: 17-07-2012
+date: 2012-07-17
 reviewers: Miriam Posner, Jim Clifford
 layout: default
 ---
@@ -16,7 +16,7 @@ Internet, and display them clearly in your browser window.
 
 ### Files Needed For This Lesson
 
--   `obo.py`{.filename}
+-   `obo.py`
 
 If you do not have these files from the previous lesson, you can
 download a [zip file from the previous lesson here.][]
@@ -56,7 +56,7 @@ print (3 // 2)
 
 Let’s build a function that can identify the index position of the
 keyword when given an n-gram with an odd number of words. Save the
-following to `obo.py`{.filename}.
+following to `obo.py`.
 
 ``` python
 # Given a list of n-grams identify the index of the keyword.
@@ -70,9 +70,9 @@ def nGramsToKWICDict(ngrams):
 To determine the index of the keyword, we have used the len property to
 tell us how many items are in the first n-gram, then used floor division
 to isolate the middle index position. You can see if this worked by
-creating a new program, `get-keyword.py`{.filename} and running it. If
-all goes well, since we are dealing with a 5-gram, you should get 2 as
-the index position of the keyword as we determined above.
+creating a new program, `get-keyword.py` and running it. If all goes
+well, since we are dealing with a 5-gram, you should get 2 as the index
+position of the keyword as we determined above.
 
 ``` python
 import obo
@@ -85,9 +85,8 @@ print obo.nGramsToKWICDict(ngrams)
 
 Now that we know the location of the keywords, let’s add everything to a
 dictionary that can be used to output all KWIC n-grams of a particular
-keyword. Study this code and then replace your
-`nGramsToKWICDict`{.filename} with the following in your
-`obo.py`{.filename} module.
+keyword. Study this code and then replace your `nGramsToKWICDict` with
+the following in your `obo.py` module.
 
 ``` python
 # Given a list of n-grams, return a dictionary of KWICs,
@@ -113,8 +112,8 @@ dictionary named kwicdict that contains all the n-grams, sortable by
 keyword and we can turn to the task of outputting the information in a
 more useful format as we did in [Output Data as HTML File][].
 
-Try rerunning the `get-keyword.py`{.filename} program and you should now
-see what’s in your KWIC dictionary.
+Try rerunning the `get-keyword.py` program and you should now see what’s
+in your KWIC dictionary.
 
 Outputting to HTML
 ------------------
@@ -242,8 +241,8 @@ print '#' + ' '.join(kwic[:keyindex]).rjust(width*keyindex) + '#'
 ```
 
 We can now combine these into a function that takes a KWIC and returns a
-pretty-printed string. Add this to the `obo.py`{.filename} module. Study
-the code to make sure you understand it before moving on.
+pretty-printed string. Add this to the `obo.py` module. Study the code
+to make sure you understand it before moving on.
 
 ``` python
 # Given a KWIC, return a string that is formatted for
@@ -268,7 +267,7 @@ We can now create a program that, given a URL and a keyword, wraps a
 KWIC display in HTML and outputs it in Firefox. This program begins and
 ends in a similar fashion as the program that computed word frequencies.
 Type or copy the code into your text editor, save it as
-`html-to-kwic.py`{.filename}, and execute it.
+`html-to-kwic.py`, and execute it.
 
 ``` python
 # html-to-kwic.py
@@ -325,10 +324,9 @@ To follow along with future lessons it is important that you have the
 right files and programs in your “programming-historian” directory. At
 the end of each chapter you can download the “programming-historian” zip
 file to make sure you have the correct code. If you are following along
-with the Mac / Linux version you may have to open the
-`obo.py`{.filename} file and change
-“file:///Users/username/Desktop/programming-historian/” to the path to
-the directory on your own computer.
+with the Mac / Linux version you may have to open the `obo.py` file and
+change “file:///Users/username/Desktop/programming-historian/” to the
+path to the directory on your own computer.
 
 -   programming-historian [Mac / Linux] ([zip][])
 -   programming-historian [Windows] ([zip][1])

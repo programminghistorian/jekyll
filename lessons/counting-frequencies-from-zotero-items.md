@@ -1,7 +1,7 @@
 ---
 title: Counting Frequencies from Zotero Items
 author: Spencer Roberts
-date: 01-04-2013
+date: 2013-04-01
 reviewers: Fred Gibbs
 layout: default
 ---
@@ -17,7 +17,7 @@ be beneficial to look over Lesson 4.2 before we begin.
 
 ### Files Needed For This Lesson
 
--   `obo.py`{.filename}
+-   `obo.py`
 
 If you do not have these files from the previous lesson, you can
 download a [zip file from the previous lesson here.][]
