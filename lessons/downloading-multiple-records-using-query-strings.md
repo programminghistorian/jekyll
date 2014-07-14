@@ -158,7 +158,7 @@ passing certain information to specific variables. In this case, the
 most important variable is \_divs\_fulltext= which has been given the
 value:
 
-``` plain
+```
 mulatto*+negro*
 ```
 
@@ -1006,7 +1006,7 @@ set the default socket timeout length – how long do we want to try to
 download a page before we give up. This should go immediately after the
 comment that begins with \#download the page
 
-``` plain
+```
 import os, urllib2, time, socket
 
     #...
@@ -1018,7 +1018,7 @@ Then, we need a new python list that will hold all of the urls that
 failed to download. We will call this failedAttempts and you can insert
 it immediately after the import instructions:
 
-``` plain
+```
  failedAttempts = []
 ```
 
@@ -1054,7 +1054,7 @@ Finally, we will tell the program to print the contents of the list to
 the command output so we know which files failed to download. This
 should be added as the last line in the function.
 
-``` plain
+```
 print "failed to download: " + str(failedAttempts) 
 ```
 

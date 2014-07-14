@@ -25,52 +25,14 @@ Arizona. — Quarter ended June 30, 1907. Estimated population,\
 
 And use pattern matching to transform it to something like this:
 
-<table>
-<tbody>
-<tr class="odd">
-<td align="left">Arizona.</td>
-<td align="left">Arizona.</td>
-<td align="left">Arizona.</td>
-<td align="left">Arizona.</td>
-<td align="left">Arizona.</td>
-</tr>
-<tr class="even">
-<td align="left">Quarter ended</td>
-<td align="left">Quarter ended</td>
-<td align="left">Quarter ended</td>
-<td align="left">Quarter ended</td>
-<td align="left">Quarter ended</td>
-</tr>
-<tr class="odd">
-<td align="left">June 30, 1907.</td>
-<td align="left">June 30, 1907.</td>
-<td align="left">June 30, 1907.</td>
-<td align="left">June 30, 1907.</td>
-<td align="left">June 30, 1907.</td>
-</tr>
-<tr class="even">
-<td align="left">Deaths</td>
-<td align="left">Deaths</td>
-<td align="left">Deaths</td>
-<td align="left">Deaths</td>
-<td align="left">Deaths</td>
-</tr>
-<tr class="odd">
-<td align="left">diphtheria</td>
-<td align="left">enteric fever</td>
-<td align="left">scarlet fever</td>
-<td align="left">smallpox</td>
-<td align="left">tuberculosis</td>
-</tr>
-<tr class="even">
-<td align="left">1</td>
-<td align="left">4</td>
-<td align="left">11</td>
-<td align="left">2</td>
-<td align="left">49</td>
-</tr>
-</tbody>
-</table>
+  -------------- -------------- -------------- -------------- --------------
+  Arizona.       Arizona.       Arizona.       Arizona.       Arizona.
+  Quarter ended  Quarter ended  Quarter ended  Quarter ended  Quarter ended
+  June 30, 1907. June 30, 1907. June 30, 1907. June 30, 1907. June 30, 1907.
+  Deaths         Deaths         Deaths         Deaths         Deaths
+  diphtheria     enteric fever  scarlet fever  smallpox       tuberculosis
+  1              4              11             2              49
+  -------------- -------------- -------------- -------------- --------------
 
 What Are Regular Expressions and for Whom Is this Useful?
 ---------------------------------------------------------
@@ -167,7 +129,7 @@ are two places where the OCR has inserted double quotation marks into
 this file mistakenly, in both cases by putting them between a comma
 following a month and a four-digit year, as in
 
-``` plain
+```
 December," 1907.
 ```
 
@@ -338,26 +300,12 @@ LibreOffice for the most part follows notational conventions that you
 will see in other contexts. If you use a proprietary word processor you
 will likely find similar functionality even if the notation differs.
 
-<table>
-<tbody>
-<tr class="odd">
-<td align="left">A b 1</td>
-<td align="left">[Ab1]</td>
-</tr>
-<tr class="even">
-<td align="left">literals — letters, digits, and</td>
-<td align="left">a character class, matching one</td>
-</tr>
-<tr class="odd">
-<td align="left">spaces match themselves</td>
-<td align="left">instance of any of ‘A’, ‘b’, or ’1′</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left">in this case</td>
-</tr>
-</tbody>
-</table>
+  ------------------------------------ ------------------------------------
+  A b 1                                [Ab1]
+  literals — letters, digits, and      a character class, matching one
+  spaces match themselves              instance of any of ‘A’, ‘b’, or ’1′
+                                       in this case
+  ------------------------------------ ------------------------------------
 
 For a more complete list of regular expressions in LibreOffice, see
 their [List of Regular Expressions][].

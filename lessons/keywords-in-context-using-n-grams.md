@@ -55,7 +55,7 @@ was the best of times it was the worst of times it was the age of wisdom
 it was the age of foolishness” then a 7-gram for the keyword “wisdom”
 would be:
 
-``` plain
+```
 the age of wisdom it was the
 ```
 

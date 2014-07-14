@@ -225,7 +225,7 @@ system such as Debian, or Linux Mint, provided you have sudo installed.
     folder. Something like this in your open terminal window should do
     the trick:
 
-    ``` plain
+    ```
     cd ~
     mkdir programming-historian
     ```

@@ -243,7 +243,7 @@ metadata.
 Let’s now create a simple document in Markdown. Open a plain-text editor
 of your choice and begin typing. It should look like this:
 
-``` plain
+```
 ---  
 title: Plain Text Workflow  
 author: Dennis Tenen, Grant Wythoff  
@@ -259,7 +259,7 @@ contains three sections, each subdivided into two subsections. Leave a
 blank line after last three dashes in the YAML block and paste the
 following:
 
-``` plain
+```
 # Section 1  
 
 ## Subsection 1.1  
@@ -284,7 +284,7 @@ like this: `*italics*` and `**bold**`. We should also add a link and a
 footnote to our text to cover the basic components of an average paper.
 Type:
 
-``` plain
+```
 A sentence that needs a note.[ˆ1] 
 
 [ˆ1]: my first footnote! And a [link](https://www.eff.org/).
@@ -309,7 +309,7 @@ of the text: `![image caption](your_image.jpg)`.
 At this point, your `main.md` should look something like the following.
 You can download this sample .md file [here][].
 
-``` plain
+```
 ---  
 title: Plain Text Workflow  
 author: Dennis Tenen, Grant Wythoff  
@@ -511,7 +511,7 @@ open your .bib file with the plain-text editor of your choice. ^[4][13]^
 Your .bib file should contain multiple entries that look something like
 this:
 
-``` plain
+```
 @article{fyfe_digital_2011,
     title = {Digital Pedagogy Unplugged},
     volume = {5},

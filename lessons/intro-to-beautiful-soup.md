@@ -46,7 +46,7 @@ tutorial on [installing python modules][] to get it running. Once you
 have pip installed, run the following command in the terminal to install
 Beautiful Soup:
 
-``` plain
+```
 pip install beautifulsoup4
 ```
 
@@ -57,7 +57,7 @@ to enter your password when you install a new program.
 
 With sudo, the command is:
 
-``` plain
+```
 sudo pip install beautifulsoup4
 ```
 
@@ -100,7 +100,7 @@ go from a search results page where the html page looks like this:
 
 to a CSV file with names and urls that looks like this:
 
-``` plain
+```
 "ADAMS, George Madison",http://bioguide.congress.gov/scripts/biodisplay.pl?index=A000035
 "ALBERT, William Julian",http://bioguide.congress.gov/scripts/biodisplay.pl?index=A000074
 "ALBRIGHT, Charles",http://bioguide.congress.gov/scripts/biodisplay.pl?index=A000077
@@ -556,17 +556,17 @@ table, creating useful data from the confusion of the html page.
   page.][]]: ../images/Congressional-Biographical-Directory-Results-2013-08-23-12-25-09.jpg
   [Automated Downloading with Wget]: http://programminghistorian.org/lessons/automated-downloading-with-wget
   [Downloading Multiple Records Using Query Strings]: http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings
-  [Figure 3: "Pretty" print of the BioGuide results]: ../images/Beautiful-Soup-Tutorial---bash---103x40-2013-08-23-13-13-01-300x242.jpg
-  [![Figure 3: "Pretty" print of the BioGuide results][]]: ../images/Beautiful-Soup-Tutorial---bash---103x40-2013-08-23-13-13-01.jpg
-  [Figure 4: The URLs and names, plus one addition.]: ../images/Beautiful-Soup-Tutorial---bash---101x26-2013-08-23-13-25-56-300x164.jpg
-  [![Figure 4: The URLs and names, plus one addition.][]]: ../images/Beautiful-Soup-Tutorial---bash---101x26-2013-08-23-13-25-56.jpg
-  [Figure 4: The rogue link]: ../images/Beautiful-Soup-Tutorial---bash---103x40-2013-08-23-13-23-07-300x242.jpg
-  [![Figure 4: The rogue link][]]: ../images/Beautiful-Soup-Tutorial---bash---103x40-2013-08-23-13-23-07.jpg
-  [Figure 6: Successfully isolated only names and URLs]: ../images/Beautiful-Soup-Tutorial---bash---101x26-2013-08-23-13-28-04-300x164.jpg
-  [![Figure 6: Successfully isolated only names and URLs][]]: ../images/Beautiful-Soup-Tutorial---bash---101x26-2013-08-23-13-28-04.jpg
-  [Figure 7: All HTML tags have been removed]: ../images/Beautiful-Soup-Tutorial---bash---101x26-2013-08-23-14-13-13-300x164.jpg
-  [![Figure 7: All HTML tags have been removed][]]: ../images/Beautiful-Soup-Tutorial---bash---101x26-2013-08-23-14-13-13.jpg
+  [Figure 3: "Pretty" print of the BioGuide results]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-13-01-300x242.jpg
+  [![Figure 3: "Pretty" print of the BioGuide results][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-13-01.jpg
+  [Figure 4: The URLs and names, plus one addition.]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-25-56-300x164.jpg
+  [![Figure 4: The URLs and names, plus one addition.][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-25-56.jpg
+  [Figure 4: The rogue link]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-23-07-300x242.jpg
+  [![Figure 4: The rogue link][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-23-07.jpg
+  [Figure 6: Successfully isolated only names and URLs]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-28-04-300x164.jpg
+  [![Figure 6: Successfully isolated only names and URLs][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-28-04.jpg
+  [Figure 7: All HTML tags have been removed]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-14-13-13-300x164.jpg
+  [![Figure 7: All HTML tags have been removed][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-14-13-13.jpg
   [Figure 8: CSV file of results]: ../images/43rd_Congress-2-2013-08-23-14-18-27-300x125.jpg
   [![Figure 8: CSV file of results][]]: ../images/43rd_Congress-2-2013-08-23-14-18-27.jpg
-  [Figure 8: All of the Table Row data]: ../images/Beautiful-Soup-Tutorial---bash---142x40-2013-08-23-16-51-22-300x176.jpg
-  [![Figure 8: All of the Table Row data][]]: ../images/Beautiful-Soup-Tutorial---bash---142x40-2013-08-23-16-51-22.jpg
+  [Figure 8: All of the Table Row data]: ../images/Beautiful-Soup-Tutorial-—-bash-—-142×40-2013-08-23-16-51-22-300x176.jpg
+  [![Figure 8: All of the Table Row data][]]: ../images/Beautiful-Soup-Tutorial-—-bash-—-142×40-2013-08-23-16-51-22.jpg

@@ -44,7 +44,7 @@ In the example above, we see one kind of object, the string “hello
 world”. The string is the sequence of characters enclosed by quotes. You
 can write a string one of three ways:
 
-``` plain
+```
 message1 = 'hello world'
 message2 = "hello world"
 message3 = """hello
@@ -58,7 +58,7 @@ two within one string.
 
 For instance, the following are all wrong:
 
-``` plain
+```
 message1 = "hello world'
 message2 = 'hello world"
 message3 = 'I can't eat pickles'

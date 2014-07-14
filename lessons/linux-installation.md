@@ -30,7 +30,7 @@ You will keep your Python programs in this directory. It can be anywhere
 you like, but it is probably best to put it in your home folder.
 Something like this in your open terminal window should do the trick:
 
-``` plain
+```
 cd ~
 mkdir programming-historian
 ```

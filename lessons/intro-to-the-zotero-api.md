@@ -33,7 +33,7 @@ modules, we’ll use [pip][] to install libZotero, a python library that
 will allow us to interact with the Zotero API. To install the library,
 in your command line/terminal window enter:
 
-``` plain
+```
  pip install libZotero 
 ```
 

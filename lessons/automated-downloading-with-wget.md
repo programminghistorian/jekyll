@@ -168,7 +168,7 @@ If you have installed it, you will see:
 
 If not, you will see:
 
-``` plain
+```
 -> command not found.
 ```
 

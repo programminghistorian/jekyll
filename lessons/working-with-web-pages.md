@@ -27,7 +27,7 @@ to be retrieved, as well as the kind of protocol that the server and
 your browser will agree to use while exchanging information (like HTTP,
 the Hypertext Transfer Protocol). The basic structure of a URL is
 
-``` plain
+```
 protocol://host:port/path?query
 ```
 

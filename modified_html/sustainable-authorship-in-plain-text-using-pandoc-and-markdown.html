@@ -106,7 +106,7 @@ Writing in this way liberates the author from the tool. Markdown can be written 
 <p>Markdown is a convention for structuring your plain-text documents semantically. The idea is to identify logical structures in your document (a title, sections, subsections, footnotes, etc.), mark them with some unobtrusive characters, and then “compile” the resulting text with a typesetting interpreter which will format the document consistently, according to a specified style.</p>
 <p>Markdown conventions come in several “flavors” designed for use in particular contexts, such as blogs, wikis, or code repositories. The flavor of Markdown used by Pandoc is geared for academic use. Its conventions are described one the <a href="http://johnmacfarlane.net/pandoc/demo/example9/pandocs-markdown.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://johnmacfarlane.net']);">Pandoc’s Markdown</a> page. One of its conventions include the <a href="http://johnmacfarlane.net/pandoc/README.html#yaml-metadata-block" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://johnmacfarlane.net']);">“YAML” block</a>, which contains some useful metadata.</p>
 <p>Let’s now create a simple document in Markdown. Open a plain-text editor of your choice and begin typing. It should look like this:</p>
-<pre class="plain">
+<pre class="brush: plain; title: ; notranslate" title="">
 ---  
 title: Plain Text Workflow  
 author: Dennis Tenen, Grant Wythoff  
@@ -114,7 +114,7 @@ date: January 20, 2014
 ---  
 </pre>
 <p>Pandoc-flavored Markdown stores each of the above values, and “prints” them in the appropriate location of your outputted document once you are ready to typeset. We will later learn to add other, more powerful fields to the YAML block. For now, let’s pretend we are writing a paper that contains three sections, each subdivided into two subsections. Leave a blank line after last three dashes in the YAML block and paste the following:</p>
-<pre class="plain">
+<pre class="brush: plain; title: ; notranslate" title="">
 # Section 1  
 
 ## Subsection 1.1  
@@ -131,7 +131,7 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 </pre>
 <p>Go ahead and enter some dummy text as well. Empty space is meaningful in Markdown: do not indent your paragraphs. Instead, separate paragraphs by using an blank line. Blank lines must also precede section headers.</p>
 <p>You can use asterisks to add bold or italicized emphasis to your words, like this: <code>*italics*</code> and <code>**bold**</code>. We should also add a link and a footnote to our text to cover the basic components of an average paper. Type:</p>
-<pre class="plain">
+<pre class="brush: plain; title: ; notranslate" title="">
 A sentence that needs a note.[ˆ1] 
 
 [ˆ1]: my first footnote! And a [link](https://www.eff.org/).
@@ -140,7 +140,7 @@ A sentence that needs a note.[ˆ1]
 <p>Let’s save our file before advancing any further. Create a new folder that will house this project. You are likely to have some system of organizing your documents, projects, illustrations, and bibliographies. But often, your document, its illustrations, and bibliography live in different folders, which makes them hard to track. Our goal is to create a single folder for each project, with all relevant materials included. The general rule of thumb is one project, one paper, one folder. Name your file something like <code>main.md</code>, where “md” stands for markdown.</p>
 <p>Once your file is saved, let’s add an illustration. Copy an image (any small image) to your folder, and add the following somewhere in the body of the text: <code>![image caption](your_image.jpg)</code>. </p>
 <p>At this point, your <code>main.md</code> should look something like the following. You can download this sample .md file <a href="https://github.com/dhcolumbia/pandoc-workflow/sample.md" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://github.com']);">here</a>.</p>
-<pre class="plain">
+<pre class="brush: plain; title: ; notranslate" title="">
 ---  
 title: Plain Text Workflow  
 author: Dennis Tenen, Grant Wythoff  
@@ -212,7 +212,7 @@ $ pandoc -o main.pdf main.md
 <p>In this section, we will add a bibliography to our document and then convert from Chicago to MLA formats.</p>
 <p>If you are not using a reference manger like Endnote or Zotero, you should. We prefer Zotero, because, like Pandoc, it was created by the academic community and like other open-source projects it is released under the GNU General Public License. Most importantly for us, your reference manager must have the ability to generate bibliographies in plain text format, to keep in line with our “everything in plain text” principle. Go ahead and open a reference manager of your choice and add some sample entries. When you are ready, find the option to export your bibliography in BibTeX (.bib) format. Save your .bib file in your project directory, and give it a reasonable title like “project.bib”.</p>
 <p>The general idea is to keep your sources organized under one centralized bibliographic database, while generating specific and much smaller .bib files that will live in the same directory as your project. Go ahead and open your .bib file with the plain-text editor of your choice.  <sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> Your .bib file should contain multiple entries that look something like this:  </p>
-<pre class="plain">
+<pre class="brush: plain; title: ; notranslate" title="">
 @article{fyfe_digital_2011,
     title = {Digital Pedagogy Unplugged},
     volume = {5},

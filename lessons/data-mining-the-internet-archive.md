@@ -102,7 +102,7 @@ Accessing an IA Collection in Python
 Internet Archive (IA) collections and items all have a unique
 identifier, and URLs to collections and items all look like this:
 
-``` plain
+```
 
 http://archive.org/details/[IDENTIFIER]
 ```
@@ -110,7 +110,7 @@ http://archive.org/details/[IDENTIFIER]
 So, for example, here is a URL to the Archive item discussed above,
 Douglass’s letter to Garrison:
 
-``` plain
+```
 
 http://archive.org/details/lettertowilliaml00doug
 ```
@@ -118,7 +118,7 @@ http://archive.org/details/lettertowilliaml00doug
 And here is a URL to the entire antislavery collection at the Boston
 Public Library:
 
-``` plain
+```
 
 http://archive.org/details/bplscas/
 ```
@@ -202,7 +202,7 @@ Then list the contents of the current directory to see if a folder now
 appears named lettertowilliaml00doug. If you list the contents of that
 folder, you should see a list of files similar to this:
 
-``` plain
+```
 39999066767938.djvu
 39999066767938.epub
 39999066767938.gif

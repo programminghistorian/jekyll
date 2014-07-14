@@ -103,23 +103,23 @@
 <p>What we learn from these examples is that a combination of semantic description and data elements make consistent and predictable data structures readable both by humans and machines. Transferring this to digital data accumulated during the course of historical research makes research data easier to browse, to search and to query using the standard tools provided by our operating systems (and, as we shall see in a future lesson, by more advanced tools).</p>
 <p>In practice (for OS X and Linux users, replace all backslashes hereafter with forward slash), the structure of a good research data archive might look something like this:</p>
 <p>A base or root directory, perhaps called 'work'.</p>
-<pre class="plain">
+<pre class="brush: plain; title: ; notranslate" title="">
 \work\
 </pre>
 <p>A series of sub-directories.</p>
-<pre class="plain">
+<pre class="brush: plain; title: ; notranslate" title="">
      \work\events\
      \research\
      \teaching\
      \writing\
 </pre>
 <p>Within these directories are series of directories for each event, research project, module, or piece of writing. Introducing a naming convention that includes a date elements keeps the information organised without the need for subdirectories by, say, year or month.</p>
-<pre class="plain">
+<pre class="brush: plain; title: ; notranslate" title="">
 \work\research\2014-01_Journal_Articles
               \2014-02_Infrastructure
 </pre>
 <p>Finally, further sub-directories can be used to separate out information as the project grows.</p>
-<pre class="plain">
+<pre class="brush: plain; title: ; notranslate" title="">
 \work\research\2014_Journal_Articles\analysis
                                     \data
                                     \notes
@@ -128,18 +128,18 @@
 <p>The name of this .txt file, indeed any documentation and research data, is important to ensuring it and its contents are easy to identify. 'Notes about this folder.docx' is not a name that fulfils this purpose, whilst '2014-01-31_Writing_readme.txt' is as it replicates the title of the directory and included some date information (North American readers should note that I've chosen the structure year_month_date). A readme file I made for a recent project <a href="https://www.dropbox.com/s/i12cv5rdnfbdoz3/network_analysis_of_Isaac_Cruikshank_and_his_publishers_readme.txt" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.dropbox.com']);" target="_blank">https://www.dropbox.com/s/i12cv5rdnfbdoz3/network_analysis_of_Isaac_Cruikshank_and_his_publishers_readme.txt</a> contains the sort of information that you and other users of your data might find useful.</p>
 <p>An cautionary tale should be sufficient to confirm the value of this approach. During the course of a previous research project, I collected some 2,000 digital images of Georgian satirical prints from a number of online sources, retaining the file names upon download. Had I applied a naming convention to these from the outset (say 'PUBLICATION YEAR_ARTIST SURNAME_TITLE OF WORK.FORMAT') I would be able to search and query these images. Indeed starting each filename with some version of YYYYMMDD would have meant that the files could be sorted in chronological order on Windows, OS X and Linux. And ensuring that all spaces or punctuation (except dash, dot and underscore) were removed from the filenames in the process of making them consistent and predictable, would have made command line work with the files possible. But I did not, and as it stands I would need to set aside a large amount of time to amend every filename individually so as to make the data usable in this way.</p>
 <p>Further, applying such naming conventions to all research data in a consistent and predictable manner assists with the readability and comprehension of the data structure. For example for a project on journal articles we might choose the directory…</p>
-<pre class="plain">\work\research\2014-01_Journal_Articles\</pre>
+<pre class="brush: plain; title: ; notranslate" title="">\work\research\2014-01_Journal_Articles\</pre>
 <p>…where the year-month elements captures when the project started.</p>
 <p>Within this directory we include a \data\ directory where the original data used in the project is kept.</p>
-<pre class="plain">2014-01-31_Journal_Articles.tsv</pre>
+<pre class="brush: plain; title: ; notranslate" title="">2014-01-31_Journal_Articles.tsv</pre>
 <p>Alongside this data is documentation that describes 2014-01-31_Journal_Articles.tsv.</p>
-<pre class="plain">2014-01-31_Journal_Articles_notes.txt</pre>
+<pre class="brush: plain; title: ; notranslate" title="">2014-01-31_Journal_Articles_notes.txt</pre>
 <p>Going back a directory level to \2014-01_Journal_Articles\ we create the \analysis\ directory in which we place.</p>
-<pre class="plain">2014-02-02_Journal_Articles_analysis.txt
+<pre class="brush: plain; title: ; notranslate" title="">2014-02-02_Journal_Articles_analysis.txt
 2014-02-15_Journal_Articles_analysis.txt</pre>
 <p>Note the different month and date attributes here. These reflect the dates on which data analysis took place, a convention described briefly in 2014-02-02_Journal_Articles_analysis_readme.txt.</p>
 <p>Finally, a directory within \data\ called \derived_data\ contains data derived from the original 2014-01-31_Journal_Articles.tsv. In this case, each derived .tsv file contains lines including the keywords, 'africa', 'america', 'art' et cetera, and are named accordingly.</p>
-<pre class="plain">2014-01-31_Journal_Articles_KW_africa.tsv
+<pre class="brush: plain; title: ; notranslate" title="">2014-01-31_Journal_Articles_KW_africa.tsv
 
 2014-01-31_Journal_Articles_KW_america.tsv
 

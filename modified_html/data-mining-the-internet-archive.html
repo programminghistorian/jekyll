@@ -62,19 +62,19 @@ sudo pip install pymarc
 <p>Stop and think about that for a moment: every item uploaded from the Collection contains these things. Right now, that means historians have access to rich metadata, full images, and partial descriptions for <a href="http://archive.org/search.php?query=collection%3Abplscas&amp;sort=-publicdate" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://archive.org']);" target="_blank">thousands of antislavery letters, manuscripts, and publications</a>.</p>
 <h2>Accessing an IA Collection in Python</h2>
 <p>Internet Archive (IA) collections and items all have a unique identifier, and URLs to collections and items all look like this:</p>
-<pre class="plain">
+<pre class="brush: plain; title: ; notranslate" title="">
 
 http://archive.org/details/[IDENTIFIER]
 
 </pre>
 <p>So, for example, here is a URL to the Archive item discussed above, Douglass’s letter to Garrison:</p>
-<pre class="plain">
+<pre class="brush: plain; title: ; notranslate" title="">
 
 http://archive.org/details/lettertowilliaml00doug
 
 </pre>
 <p>And here is a URL to the entire antislavery collection at the Boston Public Library:</p>
-<pre class="plain">
+<pre class="brush: plain; title: ; notranslate" title="">
 
 http://archive.org/details/bplscas/
 
@@ -105,7 +105,7 @@ item.download()
 exit()
 </pre>
 <p>Then list the contents of the current directory to see if a folder now appears named <span class="filename">lettertowilliaml00doug. If you list the contents of that folder, you should see a list of files similar to this:</span></p>
-<pre class="plain">
+<pre class="brush: plain; title: ; notranslate" title="">
 39999066767938.djvu
 39999066767938.epub
 39999066767938.gif
