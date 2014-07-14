@@ -422,6 +422,12 @@
     display:none;
   }
 
+  .toc-author {
+    display: block;
+	float: right;
+	font-size: 0.8em;
+  }
+
   .lessons-list ul {
     list-style:none;
     padding-left:0;
