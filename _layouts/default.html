@@ -16,6 +16,10 @@
 			<header>
 			    <p class="kicker">{{ page.date | date: "%B %-d, %Y" }}</p>
 				<h1>{{ page.title }}</h1>
+				<p class="byline">By {{ page.author }}</p>
+				<ul class="credits">
+				    <li class="technical-reviewer">Reviewer(s): {{ page.reviewers }}</li>
+				</ul>
 			</header>
 
 			<div class="content">
