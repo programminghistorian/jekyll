@@ -15,6 +15,8 @@ def process(key, value, format, meta):
 		href = value[1][0]
 		if 'programminghistorian.org/wp-content/uploads/' in href:
 			value[1][0] = '../images/' + href.split('/')[-1]
+		if 'programminghistorian.org/lessons/' in href:
+		    value[1][0] = '../lessons/' + href.split('/')[-1]
 
 if __name__ == "__main__":
 	toJSONFilter(process)
