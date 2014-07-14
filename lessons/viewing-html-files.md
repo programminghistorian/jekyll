@@ -3,6 +3,7 @@ title: Viewing HTML Files
 author: William J. Turkel, Adam Crymble
 date: 07-17-2012
 reviewers: Miriam Posner, Jim Clifford, Amanda Morton
+layout: default
 ---
 
 “Hello World” in HTML

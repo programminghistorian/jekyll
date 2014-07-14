@@ -3,6 +3,7 @@ title: From HTML to List of Words (part 1)
 author: William J. Turkel & Adam Crymble
 date: 07-17-2012
 reviewers: Miriam Posner, Jim Clifford
+layout: default
 ---
 
 Lesson Goals

@@ -3,6 +3,7 @@ title: Your First Lesson
 author: William J. Turkel, Adam Crymble
 date: 04-04-2013
 reviewers: 
+layout: default
 ---
 
 Lesson Goals

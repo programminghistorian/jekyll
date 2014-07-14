@@ -3,6 +3,7 @@ title: Creating and Viewing HTML Files with Python
 author: William J. Turkel & Adam Crymble
 date: 07-17-2012
 reviewers: Miriam Posner, Jim Clifford
+layout: default
 ---
 
 Lesson Goals

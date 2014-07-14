@@ -3,6 +3,7 @@ title: Data Mining the Internet Archive Collection
 author: Caleb McDaniel
 date: 03-03-2014
 reviewers: William J Turkel
+layout: default
 ---
 
 Lesson Goals

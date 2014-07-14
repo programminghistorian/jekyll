@@ -3,6 +3,7 @@ title: About the Programming Historian
 author: 
 date: 
 reviewers: 
+layout: default
 ---
 
 The Programming Historian is an online, open access, peer reviewed suite

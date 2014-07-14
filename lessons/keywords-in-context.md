@@ -3,6 +3,7 @@ title: Keywords in Context (KWIC)
 author: Spencer Roberts
 date: 04-04-2013
 reviewers: 
+layout: default
 ---
 
 These lessons use Python to identify keywords and the words that

@@ -3,6 +3,7 @@ title: What to do if you get Stuck
 author: William J. Turkel, Adam Crymble
 date: 07-17-2012
 reviewers: Miriam Posner, Jim Clifford, Amanda Morton
+layout: default
 ---
 
 Step 1 – How to Troubleshoot

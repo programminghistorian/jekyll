@@ -3,6 +3,7 @@ title: Cleaning OCR’d text with Regular Expressions
 author: Laura Turner O'Hara
 date: 05-22-2013
 reviewers: 
+layout: default
 ---
 
 Optical Character Recognition (OCR)—the conversion of scanned images to

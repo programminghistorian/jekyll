@@ -3,6 +3,7 @@ title: Up and Running with Omeka.net
 author: Miriam Posner
 date: 04-24-2013
 reviewers: Adam Crymble, Sheila Brennan
+layout: default
 ---
 
 [Omeka][] is a free [content management system][] that makes it easy to

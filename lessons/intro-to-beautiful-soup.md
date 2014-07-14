@@ -3,6 +3,7 @@ title: Intro to Beautiful Soup
 author: Jeri Wieringa
 date: 12-30-2012
 reviewers: 
+layout: default
 ---
 
 Version: Python 2.7.2 and BeautifulSoup 4.

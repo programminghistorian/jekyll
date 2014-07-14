@@ -3,6 +3,7 @@ title: Glossary-new
 author: 
 date: 
 reviewers: 
+layout: default
 ---
 
 %M: This is the python symbol for *minute*

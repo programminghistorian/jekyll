@@ -3,6 +3,7 @@ title: Getting Started with Online Sources
 author: William J. Turkel and Adam Crymble
 date: 05-27-2013
 reviewers: Miriam Posner, Jim Clifford
+layout: default
 ---
 
 Lesson Goals

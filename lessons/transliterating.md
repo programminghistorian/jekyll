@@ -3,6 +3,7 @@ title: Transliterating non-ASCII characters with Python
 author: Seth Bernstein
 date: 10-04-2013
 reviewers: Adam Crymble, Michelle Moravec, Ezra Brooks, Russell Alleen-Willems
+layout: default
 ---
 
 **Lesson Goals:**

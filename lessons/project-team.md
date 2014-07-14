@@ -3,6 +3,7 @@ title: Project Team
 author: 
 date: 
 reviewers: 
+layout: default
 ---
 
 Contact Us

@@ -3,6 +3,7 @@ title: Python Introduction and Installation
 author: William J. Turkel, Adam Crymble
 date: 07-17-2012
 reviewers: Miriam Posner, Jim Clifford, Amanda Morton
+layout: default
 ---
 
 Lesson Goals

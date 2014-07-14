@@ -3,6 +3,7 @@ title: Preserving Your Research Data
 author: James Baker
 date: 04-30-2014
 reviewers: Jane Winters, Sharon Howard, William J. Turkel, Adam Crymble
+layout: default
 ---
 
 #### Background

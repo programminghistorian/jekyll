@@ -3,6 +3,7 @@ title: Resources
 author: 
 date: 
 reviewers: 
+layout: default
 ---
 
 ### Other Resources

@@ -3,6 +3,7 @@ title: Submissions
 author: 
 date: 
 reviewers: 
+layout: default
 ---
 
 ### **The Programming Historian always welcomes suggestions and submissions from the community.\
