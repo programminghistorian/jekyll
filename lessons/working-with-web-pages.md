@@ -248,7 +248,7 @@ file to make sure you have the correct code.
 -   programming-historian ([zip][])
 
   [Old Bailey Online]: http://www.oldbaileyonline.org/
-  [Downloading Multiple Records Using Query Strings]: http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings
+  [Downloading Multiple Records Using Query Strings]: ../lessons/downloading-multiple-records-using-query-strings
   [Old]: ../images/old-bailey.png "Old"
   [![Old][]]: ../images/old-bailey.png
   [Gordon Riots]: http://en.wikipedia.org/wiki/Gordon_Riots

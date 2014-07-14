@@ -250,9 +250,9 @@ Suggested Readings
 
 -   [Non-Programmer’s Tutorial for Python 2.6/Hello, World][]
 
-  [Mac Installation]: http://programminghistorian.org/lessons/mac-installation
-  [Windows Installation]: http://programminghistorian.org/lessons/windows-installation
-  [Linx Installation]: http://programminghistorian.org/lessons/linux-installation
+  [Mac Installation]: ../lessons/mac-installation
+  [Windows Installation]: ../lessons/windows-installation
+  [Linx Installation]: ../lessons/linux-installation
   [print]: http://www.python.org/doc/current/ref/print.html
   [reserved word]: http://docs.python.org/release/2.5.4/ref/keywords.html
   [File Objects]: http://docs.python.org/lib/bltin-file-objects.html

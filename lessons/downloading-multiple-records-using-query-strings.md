@@ -1191,7 +1191,7 @@ helpful:
     write?][]
 
   [Old Bailey Online]: http://www.oldbaileyonline.org/
-  [Automated Downloading with WGET]: http://programminghistorian.org/lessons/automated-downloading-with-wget
+  [Automated Downloading with WGET]: ../lessons/automated-downloading-with-wget
   [Benjamin Bowsey’s case]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
   []: ../images/SearchResultsNegro.png "SearchResultsNegro"
   [![][]]: ../images/SearchResultsNegro.png

@@ -123,4 +123,4 @@ and the tag should appear also. By editing the program above, you can
 create items with different types (such as books, journal articles, or
 newspapers) and specify more precise titles, creation dates, and tags.
 
-  [Lesson 7.1]: http://dev.programminghistorian.org/lessons/lesson-7-1-using-the-zotero-api
+  [Lesson 7.1]: ../lessons/lesson-7-1-using-the-zotero-api

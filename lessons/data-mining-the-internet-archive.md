@@ -630,7 +630,7 @@ fields, the possibilities can multiply rapidly!
   [Anti-Slavery Collection]: http://archive.org/details/bplscas
   [internetarchive]: https://pypi.python.org/pypi/internetarchive
   [pymarc]: https://pypi.python.org/pypi/pymarc/
-  [this Programming Historian lesson]: http://programminghistorian.org/lessons/installing-python-modules-pip/
+  [this Programming Historian lesson]: ../lessons/
   [this letter]: http://archive.org/details/lettertowilliaml00doug
   [original manuscript]: http://archive.org/stream/lettertowilliaml00doug/39999066767938#page/n0/mode/2up
   [multiple files]: http://archive.org/download/lettertowilliaml00doug
@@ -646,14 +646,14 @@ fields, the possibilities can multiply rapidly!
   [saw when doing the advanced search for the collection in the
   browser]: http://archive.org/search.php?query=collection%3Abplscas
   [documentation’s sample code for downloading an item]: https://pypi.python.org/pypi/internetarchive#downloading-from-python
-  [remember those?]: http://programminghistorian.org/lessons/code-reuse-and-modularity
+  [remember those?]: ../lessons/code-reuse-and-modularity
   [item files are named according to specific rules]: https://archive.org/about/faqs.php#140
   [handling exceptions]: http://docs.python.org/2/tutorial/errors.html#handling-exceptions
   [rules specified for the 260 datafield]: http://www.loc.gov/marc/bibliographic/bd260.html
   [MARC standards]: http://www.loc.gov/marc/
   [1]: https://github.com/edsu/pymarc
   [functions that it provides for working with MARC XML records]: https://github.com/edsu/pymarc/blob/master/pymarc/marcxml.py
-  [Counting Frequencies]: http://programminghistorian.org/lessons/counting-frequencies
-  [Google Maps lesson]: http://programminghistorian.org/lessons/googlemaps-googleearth
+  [Counting Frequencies]: ../lessons/counting-frequencies
+  [Google Maps lesson]: ../lessons/googlemaps-googleearth
   [Wordle word cloud]: http://www.wordle.net/
   [Wordle wordcloud]: ../images/bpl-wordle.png
