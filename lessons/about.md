@@ -1,8 +1,5 @@
 ---
 title: About the Programming Historian
-author: 
-date: 
-reviewers: 
 layout: default
 ---
 
