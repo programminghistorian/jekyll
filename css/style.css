@@ -199,8 +199,59 @@
      Tables
      ========================================================================== */
 
-  table { border-collapse: collapse; border-spacing: 0; }
-  td { vertical-align: top; }
+/* from Bret Terpstra's Marked style */
+/* https://github.com/ttscoff/MarkedCustomStyles/blob/master/default_styles/swiss.css */
+
+col, colgroup, table, tbody, td, tfoot, th, thead, tr {
+  border-spacing: 0; }
+
+table {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-collapse: collapse;
+  display: table;
+  empty-cells: hide;
+  margin: -1px 0 1.3125em;
+  padding: 0;
+  table-layout: fixed; }
+
+col {
+  display: table-column; }
+
+colgroup {
+  display: table-column-group; }
+
+tbody {
+  display: table-row-group; }
+
+tfoot {
+  display: table-footer-group; }
+
+thead {
+  display: table-header-group; }
+
+td, th {
+  display: table-cell; }
+
+tr {
+  display: table-row; }
+
+table th, table td {
+  font-size: 1.1em;
+  line-height: 23px;
+  padding: 0 1em; }
+
+table thead {
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+
+table tbody {
+  background: rgba(0, 0, 0, 0.05); }
+
+table tfoot {
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(0, 0, 0, 0.2); }
 
   html {
       border-top: 1em solid rgba(0,0,0,0.05);
