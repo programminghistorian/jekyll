@@ -20,20 +20,21 @@ more general programming environments.
 
 We will start with something like this:
 
-Arizona. — Quarter ended June 30, 1907. Estimated population,\
- 122,931. Total number of deaths 292, including diphtheria 1, enteric\
+```
+Arizona. — Quarter ended June 30, 1907. Estimated population,  
+ 122,931. Total number of deaths 292, including diphtheria 1, enteric  
  fever 4, scarlet fever 11, smallpox 2, and 49 from tuberculosis.
+```
 
 And use pattern matching to transform it to something like this:
 
 | | | | | |
 |:--|:--|:--|:--|:--|
-|Arizona.|Arizona.|Arizona.|Arizona.|Arizona.|
-|Quarter ended|Quarter ended|Quarter ended|Quarter ended|Quarter ended|
-|June 30, 1907.|June 30, 1907.|June 30, 1907.|June 30, 1907.|June 30, 1907.|
-|Deaths|Deaths|Deaths|Deaths|Deaths|
-|diphtheria|enteric fever|scarlet fever|smallpox|tuberculosis|
-|1|4|11|2|49|
+|Arizona.|Quarter ended June 30, 1907.|Deaths|diphtheria|   1|
+|Arizona.|Quarter ended June 30, 1907.|Deaths|enteric fever|4|
+|Arizona.|Quarter ended June 30, 1907.|Deaths|scarlet fever|11|
+|Arizona.|Quarter ended June 30, 1907.|Deaths|smallpox|     2|
+|Arizona.|Quarter ended June 30, 1907.|Deaths|tuberculosis| 49|
 
 
 What Are Regular Expressions and for Whom Is this Useful?
