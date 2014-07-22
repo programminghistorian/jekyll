@@ -107,9 +107,4 @@ controlled, semi-automated manner.
 -   [From HTML to a List of Words (part 2)](../lessons/from-html-to-list-of-words-2) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
 -   [Downloading Multiple Records Using Query Strings](../lessons/downloading-multiple-records-using-query-strings) <div class="toc-author"> Adam Crymble</div>
 
-*The Programming Historian* released under the
-[CC-BY](http://creativecommons.org/licenses/by/2.0/)  license.
-
-[![](../images/niche.jpg "NiCHE") <div class="toc-author">](http://niche-canada.org/) 
-[![](../images/rrchnm.png) <div class="toc-author">](http://chnm.gmu.edu)
 
