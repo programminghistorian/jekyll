@@ -46,7 +46,13 @@
 
   a:hover, a:active, a:focus { outline: 0; }
 
+.revisions {text-align: center; margin-left: auto; margin-right: auto; width: 100%;}
+.revisions a {text-decoration: none; display: block; text-align: center; font-size: 0.8em; color: #d3d3d3; font-family: monospace;}
 
+  .revisions a:link {color: #d3d3d3;}
+  .revisions a:visited {color: #d3d3d3;}
+  .revisions a:hover {color: #555;}
+  .revisions a:active {color: #555;}
   /* =============================================================================
      Typography
      ========================================================================== */
