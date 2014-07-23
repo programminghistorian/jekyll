@@ -16,7 +16,7 @@ cyan      #2aa198  strings, numbers
 green     #859900  operators, other keywords
 */
  
-.highlight { background-color: #002b36; color: #93a1a1 }
+.highlight { background-color: #002b36; color: #93a1a1; font-size: 90%; padding-top: 0; margin: 0 }
 .highlight .c { color: #586e75 } /* Comment */
 .highlight .err { color: #93a1a1 } /* Error */
 .highlight .g { color: #93a1a1 } /* Generic */

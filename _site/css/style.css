@@ -46,7 +46,13 @@
 
   a:hover, a:active, a:focus { outline: 0; }
 
+.revisions {text-align: center; margin-left: auto; margin-right: auto; width: 100%;}
+.revisions a {text-decoration: none; display: block; text-align: center; font-size: 0.8em; color: #d3d3d3; font-family: monospace;}
 
+  .revisions a:link {color: #d3d3d3;}
+  .revisions a:visited {color: #d3d3d3;}
+  .revisions a:hover {color: #555;}
+  .revisions a:active {color: #555;}
   /* =============================================================================
      Typography
      ========================================================================== */
@@ -66,10 +72,12 @@
   mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
 
   /* Redeclare monospace font family: h5bp.com/j */
-  pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+  pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em;}
+
+  code {font-size: 80%; padding: 0 0.5em;}
 
   /* Improve readability of pre-formatted text in all browsers */
-  pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+  pre { white-space: pre; word-wrap: normal; overflow: auto; margin:0 0 1em; padding:1em 1em; border: 1px solid #eee;}
 
   q { quotes: none; }
   q:before, q:after { content: ""; content: none; }
@@ -191,8 +199,59 @@
      Tables
      ========================================================================== */
 
-  table { border-collapse: collapse; border-spacing: 0; }
-  td { vertical-align: top; }
+/* from Bret Terpstra's Marked style */
+/* https://github.com/ttscoff/MarkedCustomStyles/blob/master/default_styles/swiss.css */
+
+col, colgroup, table, tbody, td, tfoot, th, thead, tr {
+  border-spacing: 0; }
+
+table {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-collapse: collapse;
+  display: table;
+  empty-cells: hide;
+  margin: -1px 0 1.3125em;
+  padding: 0;
+  table-layout: fixed; }
+
+col {
+  display: table-column; }
+
+colgroup {
+  display: table-column-group; }
+
+tbody {
+  display: table-row-group; }
+
+tfoot {
+  display: table-footer-group; }
+
+thead {
+  display: table-header-group; }
+
+td, th {
+  display: table-cell; }
+
+tr {
+  display: table-row; }
+
+table th, table td {
+  font-size: 1.1em;
+  line-height: 23px;
+  padding: 0 1em; }
+
+table thead {
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+
+table tbody {
+  background: rgba(0, 0, 0, 0.05); }
+
+table tfoot {
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(0, 0, 0, 0.2); }
 
   html {
       border-top: 1em solid rgba(0,0,0,0.05);
@@ -356,6 +415,18 @@
     font-size: 90%;
   }
 
+  .post-info h2 {
+    font-family:'Crete Round', serif;
+    text-align:left;
+    font-weight:normal;
+	margin: 0.25em 140px;
+  }
+
+  .post-info .kicker {
+    text-align:left;
+	margin: 0.25em 140px;
+  }
+
   .author-info,
   .credits {
     border:1px dotted #ccc;
@@ -386,7 +457,7 @@
   .all-posts {
     font-size:0.8em;
   }
-
+  
   .additional ul {
     list-style:none;
     padding-left:0;
@@ -420,6 +491,12 @@
 
   .gist .line_numbers span {
     display:none;
+  }
+
+  .toc-author {
+    display: block;
+	float: right;
+	font-size: 0.8em;
   }
 
   .lessons-list ul {
