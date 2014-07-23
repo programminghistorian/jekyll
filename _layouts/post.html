@@ -1,10 +1,37 @@
----
-layout: default
----
-<div class="post">
+<!DOCTYPE html>
+<html>
 
-<p class="meta">{{ page.date | date_to_string }}</p>
-<h1>{{ page.title }}</h1>
+	{% include header.html %}
 
-{{ content }}
+<body>
+
+  <header role="banner">
+    <h1><a href="{{ site.baseurl }}">The Programming Historian</a></h1>
+
+	{% include menu.html %}
+
+  </header>
+
+  <div role="main">
+      <article>
+	     <header>
+			<p class="kicker">{{ page.date | date: "%B %-d, %Y" }}</p>
+			<h1>{{ page.title }}</h1>
+	   	    <p class="byline">By {{ page.author }}</p>
+		 <header>
+
+      {{ content }}
+
+	  <div class="author-info">
+	     <a class="author-picture" href=""><img alt="{{ page.author }}" src = "{{ site.baseurl }}/images/{{ page.author | replace: " ","-" }}.png" class="avatar" height="120" /></a>
+	   	 <p class="author-name">By {{ page.author }}</p>
+	  </div>
+
+      </article>
+
 </div>
+
+    {% include footer.html %}
+
+</body>
+</html>

@@ -415,6 +415,18 @@ table tfoot {
     font-size: 90%;
   }
 
+  .post-info h2 {
+    font-family:'Crete Round', serif;
+    text-align:left;
+    font-weight:normal;
+	margin: 0.25em 140px;
+  }
+
+  .post-info .kicker {
+    text-align:left;
+	margin: 0.25em 140px;
+  }
+
   .author-info,
   .credits {
     border:1px dotted #ccc;
@@ -445,7 +457,7 @@ table tfoot {
   .all-posts {
     font-size:0.8em;
   }
-
+  
   .additional ul {
     list-style:none;
     padding-left:0;
