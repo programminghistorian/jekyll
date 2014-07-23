@@ -3,7 +3,7 @@ description: Introductory and intermediate programming lessons for humanists
 baseurl: /jekyll
 url: http://programminghistorian.org
 baseurl: /jekyll
-permalink: :title
+permalink: :categories/:title
 safe: true
 pygments: true
 markdown: redcarpet
