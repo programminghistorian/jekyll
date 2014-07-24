@@ -38,7 +38,7 @@ me. Though this is not a “real” CSV file (the commas are not quite
 right), it can be easily viewed in Excel and prepped for geocoding. Much
 better than the text file from above, right?
 
-``` bash
+``` text
 Aldrich, N. W,Providence, R. I
 Allison, William B, Dubuque, Iowa,24Vermont avenue,
 Bate, William,Nashville, Ten, Ebbitt House
