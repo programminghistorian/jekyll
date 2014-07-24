@@ -67,9 +67,9 @@ We are now going to add a second historical map as a raster layer.
 -   under Layer on toolbar, choose Add Raster Layer (alternatively the
     same icon you see next to 'Add Raster Layer' can also be selected
     from tool bar)
--   find the file you have downloaded titled 'PEI\_HollandMap1798′
+-   find the file you have downloaded titled 'PEI\_HollandMap1798'
 -   you will be prompted to define this layer's coordinate system. In
-    the Filter box search for '2291′ then in the box below select
+    the Filter box search for '2291' then in the box below select
     'NAD83(CSRS98) / Prince Edward Isl. Stereographic'
 -   If you are not prompted to define the layer's coordinate system, you
     need to change a setting. Click Settings and then Options. Click CRS
