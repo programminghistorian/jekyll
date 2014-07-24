@@ -1,6 +1,6 @@
 ---
 title: Project Team
-layout: default
+layout: directory
 ---
 
 Contact Us

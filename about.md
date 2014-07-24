@@ -1,6 +1,6 @@
 ---
 title: About the Programming Historian
-layout: default
+layout: directory
 ---
 
 The Programming Historian is an online, open access, peer reviewed suite

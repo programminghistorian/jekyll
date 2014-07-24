@@ -1,10 +1,9 @@
 ---
 title: Submissions
-layout: default
+layout: directory
 ---
 
-### **The Programming Historian always welcomes suggestions and submissions from the community.\
-**
+The Programming Historian always welcomes suggestions and submissions from the community.
 
 What we are looking for
 -----------------------
