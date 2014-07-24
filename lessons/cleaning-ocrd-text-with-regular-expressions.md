@@ -263,7 +263,7 @@ format long regular expressions for better legibility.
     in the text file separated some names with a period (for example,
     Chace.Jonathan vs. Chase,Jonathan). I wanted to isolate the periods
     that came up in this pattern and change those periods to commas. So
-    I searched for the pattern \^([A-Z][a-z]+\\.), which looks at the
+    I searched for the pattern `^([A-Z][a-z]+\.)`, which looks at the
     beginning of a line (\^) and finds a pattern with one capital
     letter, multiple lowercase letters and a period. After I had
     isolated that pattern, I substitute the period those lines that fit
