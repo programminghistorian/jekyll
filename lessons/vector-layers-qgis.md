@@ -309,7 +309,7 @@ Create a second attribute
 -   change the Type to Whole Number
 -   click Add to attribute list
 
-{% include figure.html src="../images/pei17.png" caption="Figure 17" %}
+{% include figure.html src="../images/pei7.png" caption="Figure 17" %}
 
 Start by creating a polygon for lot 66, which is the only rectangular
 lot on the island
