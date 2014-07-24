@@ -432,13 +432,13 @@ work!**
 
 *This lesson is part of the [Geospatial Historian][].*
 
-  [Intro to Google Maps and Google Earth]: /lessons/googlemaps-googleearth
-  [Installing QGIS 2.0 and Adding Layers]: /lessons/qgis-layers
+  [Intro to Google Maps and Google Earth]: ../lessons/googlemaps-googleearth
+  [Installing QGIS 2.0 and Adding Layers]: ../lessons/qgis-layers
   [PEI\_Holland map]: https://www.dropbox.com/s/nigmsq0gz4ashf2/PEI_HollandMap1798_compLZW.tif
   [pei1]: ../images/pei1.png
   [pei2]: ../images/pei2.png
   [pei3]: ../images/pei3.png
-  [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
+  [Georeferencing in QGIS 2.0]: ../lessons/georeferencing-qgis
   [pei4]: ../images/pei4.png
   [pei5]: ../images/pei5.png
   [pei6]: ../images/pei6.png
