@@ -39,7 +39,7 @@
             <li class="menu-item"><a href="/jekyll/lessons">Lessons</a></li>
             <li class="menu-item"><a href="/jekyll/submissions">Submissions</a></li>
             <li class="menu-item"><a href="/jekyll/team">Project Team</a></li>
-            <li class="menu-item"><a href="/jekyll/posts">Blog</a></li>
+            <li class="menu-item"><a href="/jekyll/posts.html">Blog</a></li>
           </ul>
         </div>
 
@@ -57,7 +57,7 @@
 			</header>
 
 			<div class="content">
-	              <p><strong>Lesson goals</strong></p>
+	              <h2>Lesson goals</h2>
 
 <p>Don’t take your data at face value. That is the key message of this
 tutorial which focuses on how scholars can diagnose and act upon the
@@ -77,7 +77,7 @@ on a collection of metadata from the <a href="http://www.powerhousemuseum.com" t
 demonstrating how (semi-)automated methods can help you correct the
 errors in your data.</p>
 
-<p><strong>Why should historians care about data quality?</strong></p>
+<h2>Why should historians care about data quality?</h2>
 
 <p>Duplicate records, empty values and inconsistent formats are phenomena
 we should be prepared to deal with when using historical data sets. This
@@ -90,9 +90,9 @@ as blank cells, duplicates, spelling inconsistencies, etc. <code>OpenRefine</cod
 not only allows you to quickly diagnose the accuracy of your data, but
 also to act upon certain errors in an automated manner.</p>
 
-<p><strong>Description of the tool: OpenRefine</strong></p>
+<h2>Description of the tool: OpenRefine</h2>
 
-<p>****In the past, historians had to rely on information technology
+<p>In the past, historians had to rely on information technology
 specialists to diagnose data quality and to run cleaning tasks. This
 required custom computer programs when working with sizeable data sets.
 Luckily, the advent of Interactive Data Transformation tools (IDTs) now
@@ -129,9 +129,9 @@ to these steps; the success rate of NER and a fruitful matching process
 between your data and external authorities depends on your ability to
 make your data as coherent as possible.</p>
 
-<p><strong>Description of the exercise: Powerhouse Museum</strong></p>
+<h2>Description of the exercise: Powerhouse Museum</h2>
 
-<p>****The Powerhouse Museum in Sydney provides a freely available metadata
+<p>The Powerhouse Museum in Sydney provides a freely available metadata
 export of its collection on its <a href="http://www.powerhousemuseum.com/collection/database/download.php" title="website">website</a>. The museum is one of the
 largest science and technology museums worldwide, providing access to
 almost 90,000 objects, ranging from steam engines to fine glassware and
@@ -166,7 +166,7 @@ possible to reuse the terms in the controlled vocabulary to find
 additional information about the terms elsewhere online, which is known
 as creating <a href="http://en.wikipedia.org/wiki/Linked_data">Linked Data</a>.</p>
 
-<p><strong>Getting started: installing OpenRefine and importing data</strong></p>
+<h3>Getting started: installing OpenRefine and importing data</h3>
 
 <p><a href="http://openrefine.org/#download_openrefine">Download OpenRefine</a> and follow the installation instructions.
 OpenRefine works on all platforms: Windows, Mac, and Linux. <code>OpenRefine</code>
@@ -197,7 +197,7 @@ open.</p>
 
 <p>Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website</p>
 
-<p><strong>Get to know your data</strong></p>
+<h3>Get to know your data</h3>
 
 <p>The first thing to do is to look around and get to know your data. You
 can inspect the different data values by displaying them in facets. You
@@ -216,7 +216,7 @@ blank, for instance, comes handy to find out how many values were filled
 in for each field. We’ll explore these further in the following
 exercises.</p>
 
-<p><strong>Remove blank rows</strong></p>
+<h3>Remove blank rows</h3>
 
 <p>One thing you notice when creating a numeric facet for the Record ID
 column, is that three rows are empty. You can find them by unselecting
@@ -228,7 +228,7 @@ click the triangle in front of the first column called ‘All’, select
 ‘Edit rows’, and then ‘Remove all matching rows’. Close the numeric
 facet to see the remaining 75,811 rows.</p>
 
-<p><strong>Removing duplicates</strong></p>
+<h3>Removing duplicates</h3>
 
 <p>A second step is to detect and remove duplicates. These can be spotted
 by sorting them by a unique value, such as the Record ID (in this case
@@ -259,7 +259,7 @@ values, indicating that the entire row represents a duplicate. This is
 not necessarily the case, and great caution should be taken to manually
 verify wether the entire row represents a duplicate or not.</p>
 
-<p><strong>Atomization</strong></p>
+<h3>Atomization</h3>
 
 <p>Once the duplicate records have been removed, we can have a closer look
 at the <em>Categories</em> field. On average each object has been attributed
@@ -285,7 +285,7 @@ over 75,736 collection items (records). You maybe noticed that we are 9
 records up from the original 75,727, but don’t worry about that for the
 time being, we will come back to this small difference later.</p>
 
-<p><strong>Facetting and clustering</strong></p>
+<h3>Facetting and clustering</h3>
 
 <p>Once the content of a field has been properly atomized, filters, facets,
 and clusters can be applied to give a quick and straightforward overview
@@ -323,8 +323,7 @@ cells, Join multi-valued cells, OK. Choose the pipe character as a
 separator. The rows now look like before, with a multi-valued Categories
 field.</p>
 
-<p><strong>Applying ad-hoc transformations through the use of regular
-expressions</strong></p>
+<h3>Applying ad-hoc transformations through the use of regular expressions</h3>
 
 <p>You may remember there was an increase in the number of records after
 the splitting process: nine records appeared out of nowhere. In order to
@@ -387,7 +386,7 @@ again. To achieve this, just type the following expression:</p>
 <p>You will notice that 32,599 cells are affected, more than half the
 collection.</p>
 
-<p><strong>Exporting your cleaned data</strong></p>
+<h3>Exporting your cleaned data</h3>
 
 <p>Since you first loaded your data into <code>OpenRefine</code>, all cleaning
 operations have been performed in the software memory, leaving your
@@ -399,7 +398,7 @@ or add your own export template by clicking ‘Templating’. You can also
 export your project in the internal <code>OpenRefine</code> format in order to
 share it with others.</p>
 
-<p><strong>Building on top of your cleaned data</strong></p>
+<h3>Building on top of your cleaned data</h3>
 
 <p>Once your data has been cleaned, you can take the next step and explore
 other exciting features of <code>OpenRefine</code>. The user community of
@@ -409,7 +408,7 @@ the Web. The <a href="http://refine.deri.ie/docs">RDF Refine extension</a> trans
 URLs. The <a href="https://github.com/RubenVerborgh/Refine-NER-Extension">NER extension</a> allows you to apply named-entity recognition
 (NER), which identifies keywords in flowing text and gives them a URL.</p>
 
-<p><strong>Conclusions</strong></p>
+<h2>Conclusions</h2>
 
 <p>If you only remember on thing from this lesson, it should be this: <em>all
 data is dirty, but you can do something about it.</em> As we have shown
@@ -439,7 +438,7 @@ the case you have made an error.</p>
             <li class="menu-item"><a href="/jekyll/lessons">Lessons</a></li>
             <li class="menu-item"><a href="/jekyll/submissions">Submissions</a></li>
             <li class="menu-item"><a href="/jekyll/team">Project Team</a></li>
-            <li class="menu-item"><a href="/jekyll/posts">Blog</a></li>
+            <li class="menu-item"><a href="/jekyll/posts.html">Blog</a></li>
           </ul>
         </div>
 

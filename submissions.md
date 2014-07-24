@@ -1,8 +1,5 @@
 ---
 title: Submissions
-author: 
-date: 
-reviewers: 
 layout: default
 ---
 
