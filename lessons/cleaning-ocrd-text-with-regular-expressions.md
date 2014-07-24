@@ -129,7 +129,7 @@ complicated. Moreover, different characters can mean different things
 depending on their placement. Take for example, the difference between
 example 2 and example 3 above. In example 2, the caret (\^) means
 isolate the pattern at the beginning of the line or document. However,
-when you put the caret inside the character class (demarcated by []) it
+when you put the caret inside the character class (demarcated by `[]`) it
 means “except” these sets of characters.
 
 The best way to understand Regular Expressions is to learn what the
