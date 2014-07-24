@@ -286,8 +286,10 @@ table tfoot {
   h2 a,
   h3 a {
     text-decoration:none;
-	color: #38c;
   }
+
+  h1 a:link { color: #38c; }
+  h1 a:visited {color: #38c; }
 
   article h2,
   article h3,
