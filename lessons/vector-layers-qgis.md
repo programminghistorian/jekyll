@@ -6,7 +6,7 @@ authors:
 - Daniel Macfarlane
 date: 2013-12-13
 reviewers: Finn Arne Jørgensen, Peter Webster, Abby Schreiber, Adam Crymble
-layout: default
+layout: default-with-author-bios
 ---
 
 Lesson Goals

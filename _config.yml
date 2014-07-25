@@ -9,3 +9,17 @@ pygments: true
 markdown: redcarpet
 redcarpet:
  extensions: ['tables', 'smart']
+
+authors:
+ Jim-Clifford:
+   bio: |
+        Jim Clifford is an assistant professor in the Department of History 
+        at the University of Saskatchewan.
+ Daniel-Macfarlane:
+   bio: |
+        Daniel Macfarlane is a Visiting Scholar in the School of Canadian
+        Studies at Carleton University.
+ Josh-MacFadyen:
+   bio: |
+        Josh MacFadyen is a Project Coordinator at the Network in Canadian 
+        History & Environment.
