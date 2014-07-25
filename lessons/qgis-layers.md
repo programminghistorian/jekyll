@@ -1,6 +1,9 @@
 ---
 title: Installing QGIS 2.0 and Adding Layers
-author: Jim Clifford, Josh MacFadyen, Daniel Macfarlane
+authors:
+- Jim Clifford
+- Josh MacFadyen
+- Daniel Macfarlane
 date: 2013-12-13
 reviewers: Finn Arne Jørgensen, Sarah Simpkin, Adam Crymble
 layout: default

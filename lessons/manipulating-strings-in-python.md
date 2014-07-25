@@ -1,6 +1,8 @@
 ---
 title: Manipulating Strings in Python
-author: William J. Turkel & Adam Crymble
+authors:
+- William J. Turkel
+- Adam Crymble
 date: 2012-07-17
 reviewers: Miriam Posner, Jim Clifford
 layout: default

@@ -1,6 +1,8 @@
 ---
 title: Getting Started with Online Sources
-author: William J. Turkel and Adam Crymble
+authors:
+- William J. Turkel
+- Adam Crymble
 date: 2013-05-27
 reviewers: Miriam Posner, Jim Clifford
 layout: default
