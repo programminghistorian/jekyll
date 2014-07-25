@@ -30,9 +30,9 @@ files.
 
 Let’s start with a brief discussion of terminology. In a previous lesson
 (depending on your operating system: [Mac Installation][], [Windows
-Installation][], or [Linx Installation][]), you saw how to send
+Installation][], or [Linix Installation][]), you saw how to send
 information to the “Command Output” window of your text editor by using
-Python’s [print][] command.
+Python’s [`print`][] command.
 
 ``` python
 print 'hello world'
@@ -256,7 +256,7 @@ Suggested Readings
   [Mac Installation]: ../lessons/mac-installation
   [Windows Installation]: ../lessons/windows-installation
   [Linx Installation]: ../lessons/linux-installation
-  [print]: http://www.python.org/doc/current/ref/print.html
+  [print]: https://docs.python.org/2/reference/simple_stmts.html#the-print-statement
   [reserved word]: http://docs.python.org/release/2.5.4/ref/keywords.html
   [File Objects]: http://docs.python.org/lib/bltin-file-objects.html
   [Non-Programmer’s Tutorial for Python 2.6/Hello, World]: http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6/Hello,_World
