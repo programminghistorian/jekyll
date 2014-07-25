@@ -32,7 +32,7 @@ Let’s start with a brief discussion of terminology. In a previous lesson
 (depending on your operating system: [Mac Installation][], [Windows
 Installation][], or [Linix Installation][]), you saw how to send
 information to the “Command Output” window of your text editor by using
-Python’s [`print`][] command.
+Python's [print][] command.
 
 ``` python
 print 'hello world'
