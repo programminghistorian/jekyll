@@ -40,35 +40,35 @@ greetEntity("Programming Historian")
 ```
 
 The line beginning with `def` is the function declaration. We are going
-to define (`def`) a function, which in this case we have named
+to define ("def") a function, which in this case we have named
 "greetEntity". The `(x)` is the function's parameter. You should
 understand how that works in a moment. The second line contains the code
 of the function. This could be as many lines as we need, but in this
 case it is only a single line.
 
 Note that *indentation* is very important in Python. The blank space
-before the print statement tells the interpreter that it is part of the
+before the `print` statement tells the interpreter that it is part of the
 function that is being defined. You will learn more about this as we go
 along; for now, make sure to keep indentation the way we show it. Run
 the program, and you should see something like this:
 
-``` python
+```
 hello Everybody
 hello Programming Historian
 ```
 
-This example contains one function: greetEntity. This function is then
-“called” (sometimes referred to as “invoked”) two times. Calling or
+This example contains one function: *greetEntity*. This function is then
+"called" (sometimes referred to as "invoked") two times. Calling or
 invoking a function just means we have told the program to execute the
 code in that function. Like giving the dog his chicken-flavoured treat
 (\*woof\* \*woof\*). In this case each time we have called the function
 we have given it a different parameter. Try editing `greet.py` so that
-it calls the greetEntity function a third time using your own name as a
+it calls the *greetEntity* function a third time using your own name as a
 parameter. Run the program again. You should now be able to figure out
-what (x) does in the function declaration.
+what `(x)` does in the function declaration.
 
 Before moving on to the next step, edit `greet.py` to delete the
-function calls, leaving only the function declaration. You’re going to
+function calls, leaving only the function declaration. You're going to
 learn how to call the function from another program. When you are
 finished, your `greet.py` file should look like this:
 
@@ -105,8 +105,8 @@ try to break a problem into smaller pieces, and solve those first.
 
 You already created a module when you wrote the `greet.py` program. Now
 you are going to write a second program, `using-greet.py` which will
-import code from your module and make use of it. Python has a special
-import statement that allows one program to gain access to the contents
+`import` code from your module and make use of it. Python has a special
+`import` statement that allows one program to gain access to the contents
 of another program file. This is what you will be using.
 
 Copy this code to Komodo Edit and save it as `using-greet.py`. This file
@@ -120,27 +120,27 @@ greet.greetEntity("everybody")
 greet.greetEntity("programming historian")
 ```
 
-We have done a few things here. First, we have told Python to “import”
+We have done a few things here. First, we have told Python to `import`
 (load) the `greet.py` module, which we previously created.
 
 You will also notice that whereas before we were able to run the
-function by calling only it’s name: greetEntity(“everybody”), we now
-need to include the module’s name followed by a dot (.) in front of the
-function name. In plain English this means: run the greetEntity
+function by calling only its name: *greetEntity("everybody")*, we now
+need to include the module's name followed by a dot (.) in front of the
+function name. In plain English this means: run the *greetEntity*
 function, which you should find in the `greet.py` module.
 
-You can run your `using-greet.py` program with the “Run Python” command
+You can run your `using-greet.py` program with the "Run Python" command
 that you created in Komodo Edit. Note that you do not have to run your
 module…just the program that calls it. If all went well, you should see
 the following in the Komodo Edit output pane:
 
-``` python
+```
 hello everybody
 hello programming historian
 ```
 
 Make sure that you understand the difference between loading a data file
-(e.g. `helloworld.txt`) and importing a program file (e.g. `greet.py`)
+(e.g., `helloworld.txt`) and importing a program file (e.g. `greet.py`)
 before moving on.
 
 Suggested Readings
