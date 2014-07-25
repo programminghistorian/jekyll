@@ -142,12 +142,12 @@ print message7a
 ```
 
 The opposite effect, raising characters to upper case, can be achieved
-by changing .lower() to .upper().
+by changing `.lower()` to `.upper()`.
 
 #### Replace
 
 If you need to replace a substring throughout a string you can do so
-with the replace method.
+with the `replace` method.
 
 ``` python
 message8 = "HELLO WORLD"
@@ -274,5 +274,5 @@ that’s ok!
 
 -   programming-historian ([zip][])
 
-  [Python website]: http://www.python.org/doc/2.5.2/lib/string-methods.html
+  [Python website]: https://docs.python.org/2/library/stdtypes.html#string-methods
   [zip]: ../images/programming-historian2.zip
