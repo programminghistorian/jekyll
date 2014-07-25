@@ -1,6 +1,7 @@
 ---
 title: Keywords in Context (KWIC)
-author: Spencer Roberts
+authors:
+- Spencer Roberts
 date: 2013-04-04
 reviewers: 
 layout: default

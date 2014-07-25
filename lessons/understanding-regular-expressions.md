@@ -1,6 +1,7 @@
 ---
 title: Understanding Regular Expressions
-author: Doug Knox
+authors:
+- Doug Knox
 date: 2013-06-22
 reviewers: Adam Crymble, Dave Shepard, Patrick Burns
 layout: default

@@ -1,6 +1,7 @@
 ---
 title: Counting Frequencies from Zotero Items
-author: Spencer Roberts
+authors:
+- Spencer Roberts
 date: 2013-04-01
 reviewers: Fred Gibbs
 layout: default

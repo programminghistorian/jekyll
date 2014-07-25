@@ -1,6 +1,7 @@
 ---
 title: Downloading Multiple Records Using Query Strings
-author: Adam Crymble
+authors:
+- Adam Crymble
 date: 2012-11-11
 reviewers: Fred Gibbs, Fred Gibbs, Luke Bergmann
 layout: default

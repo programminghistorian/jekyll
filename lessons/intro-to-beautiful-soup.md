@@ -1,6 +1,7 @@
 ---
 title: Intro to Beautiful Soup
-author: Jeri Wieringa
+authors:
+- Jeri Wieringa
 date: 2012-12-30
 reviewers: 
 layout: default

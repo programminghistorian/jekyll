@@ -10,16 +10,34 @@ markdown: redcarpet
 redcarpet:
  extensions: ['tables', 'smart']
 
+
+
+
+# Author Directory
+
 authors:
  Jim-Clifford:
+   name: Jim Clifford
    bio: |
         Jim Clifford is an assistant professor in the Department of History 
         at the University of Saskatchewan.
  Daniel-Macfarlane:
+   name: Daniel Macfarlane
    bio: |
         Daniel Macfarlane is a Visiting Scholar in the School of Canadian
         Studies at Carleton University.
  Josh-MacFadyen:
+   name: Josh MacFadyen
    bio: |
         Josh MacFadyen is a Project Coordinator at the Network in Canadian 
         History & Environment.
+ William-J.-Turkel:
+   name: William J. Turkel
+   bio: |
+        William J. Turkel is an Associate Professor of History at the University of Western 
+        Ontario and director of the Network in Canadian History & Environment (NiCHE) 
+        Digital Infrastructure.
+ Adam-Crymble:
+   name: Adam Crymble
+   bio: |
+        Adam Crymble is a Lecturer of Digital History at the University of Hertfordshire.

@@ -41,6 +41,15 @@
 	              {{ content }}
 	        </div>
 
+	        <div class="author-info">
+	   	        <p class="author-name">About the {% if authorCount == 1 %}author{% else %}authors{% endif %}</p>
+			    <div class="author-description"><p>
+                {% for author in page.authors %}
+				    {% assign name = author | replace: " ","-" %}
+				    {{ site.authors[name].bio }}&nbsp;
+		        {% endfor %}</p>
+			    </div>
+	        </div>
         </article>
     </div>
 

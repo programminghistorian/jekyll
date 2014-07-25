@@ -1,6 +1,7 @@
 ---
 title: Creating New Items in Zotero
-author: Amanda Morton
+authors:
+- Amanda Morton
 date: 2013-04-01
 reviewers: Fred Gibbs
 layout: default

@@ -1,6 +1,7 @@
 ---
 title: Using the Zotero API
-author: Spencer Roberts
+authors:
+- Spencer Roberts
 date: 2013-04-04
 reviewers: 
 layout: default
