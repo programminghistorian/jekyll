@@ -22,7 +22,7 @@ Manipulating Python Strings
 ---------------------------
 
 If you have been exposed to another programming language before, you
-might have learned that you need to declare or type variables before you
+might have learned that you need to *declare* or *type* variables before you
 can store anything in them. This is not necessary when working with
 strings in Python. We can create a string simply by putting content
 wrapped with quotation marks into it with an equal sign (=):
@@ -36,7 +36,7 @@ message = "Hello World"
 As we mentioned previously, a string is a type of object, one that
 consists of a series of characters. Python already knows how to deal
 with a number of general-purpose and powerful representations, including
-strings. One way to manipulate strings is by using string operators.
+strings. One way to manipulate strings is by using *string operators*.
 These operators are represented by symbols that you likely associate
 with mathematics, such as +, -, \*, /, and =. When used with strings,
 they perform actions that are similar to, but not the same as, their
@@ -45,12 +45,12 @@ mathematical counterparts.
 #### Concatenate
 
 This term means to join strings together. The process is known as
-concatenating strings and it is done using the plus (+) operator. Note
+*concatenating* strings and it is done using the plus (+) operator. Note
 that you must be explicit about where you want blank spaces to occur by
 placing them between single quotation marks also.
 
-In this example, the string “message1″ is given the content “hello
-world”.
+In this example, the string "message1" is given the content "hello
+world".
 
 ``` python
 message1 = 'hello' + ' ' + 'world'
@@ -61,8 +61,8 @@ print message1
 #### Multiply
 
 If you want multiple copies of a string, use the multiplication (\*)
-operator. In this example, string “message2a” is given the content
-“hello” times three; string “message 2b” is given content “world”; then
+operator. In this example, *string* "message2a" is given the content
+"hello" times three; *string* "message 2b" is given content "world"; then
 we print both strings.
 
 ``` python
@@ -98,7 +98,7 @@ used ones:
 
 #### Length
 
-You can determine the number of characters in a string using len. Note
+You can determine the number of characters in a string using `len`. Note
 that the blank space counts as a separate character.
 
 ``` python
@@ -109,7 +109,7 @@ print len(message4)
 
 #### Find
 
-You can search a string for a substring and your program will return the
+You can search a string for a *substring* and your program will return the
 starting index position of that substring. This is helpful for further
 processing. Note that indexes are numbered from left to right and that
 the count starts with position 0, not 1.
@@ -134,7 +134,7 @@ print message6b
 
 Sometimes it is useful to convert a string to lower case. For example,
 if we standardize case it makes it easier for the computer to recognize
-that “Sometimes” and “sometimes” are the same word.
+that "Sometimes" and "sometimes" are the same word.
 
 ``` python
 message7 = "HELLO WORLD"
@@ -160,7 +160,7 @@ print message8a
 
 #### Slice
 
-If you want to slice off unwanted parts of a string from the beginning
+If you want to `slice` off unwanted parts of a string from the beginning
 or end you can do so by creating a substring. The same kind of technique
 also allows you to break a long string into more manageable components.
 
