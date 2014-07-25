@@ -153,10 +153,10 @@ string) to the file and then closes it. (For more information about
 these statements, see the section on [File Objects][] in the Python
 Library Reference.)
 
-Double-click on your “Run Python” button in Komodo Edit to execute the
+Double-click on your "Run Python" button in Komodo Edit to execute the
 program (or the equivalent in whichever text-editor you have decided to
-use. eg, click on the “\#!” and “Run” in TextWrangler). Although nothing
-will be printed to the “Command Output” pane, you will see a status
+use: e.g., click on the "\#!" and "Run" in TextWrangler). Although nothing
+will be printed to the "Command Output" pane, you will see a status
 message that says something like
 
 ``` python
@@ -172,7 +172,7 @@ in Mac or Linux, or
 in Windows.
 
 This means that your program executed successfully. If you use
-`File -> Open -> File` in you Komodo Edit, you can open the file
+*File -> Open -> File* in your Komodo Edit, you can open the file
 `helloworld.txt`. It should contain your one-line message:
 
 ``` python
@@ -189,9 +189,9 @@ people using a text editor like Komodo Edit.
 
 Python also has methods which allow you to get information from files.
 Type the following program into your text editor and save it as
-`file-input.py`. When you click on “Run” to execute it, it will open the
+`file-input.py`. When you click on "Run" to execute it, it will open the
 text file that you just created, read the one-line message from it, and
-print the message to the “Command Output” pane.
+print the message to the "Command Output" pane.
 
 ``` python
 # file-input.py
@@ -201,8 +201,8 @@ print message
 f.close()
 ```
 
-In this case, the r parameter is used to indicate that you are opening a
-file to read from it. Parameters let you choose among the different
+In this case, the *r* parameter is used to indicate that you are opening a
+file to `read` from it. Parameters let you choose among the different
 options a particular method allows. Returning to the family dog example,
 the dog may be trained to bark once when he gets a beef-flavoured snack
 and twice when he gets a chicken-flavoured one. The flavour of the snack
@@ -211,28 +211,28 @@ will accept. You cannot, for example, ask the dog to sing an Italian
 opera – unless your dog is particularly talented. You can look up the
 possible parameters for a particular method on the Python website, or
 often you can find them by typing the method into a search engine along
-with “Python”.
+with "Python".
 
-Read is another file method. The contents of the file (the one-line
-message) are copied into message, which is what we’ve decided to call
-this string, and then the print command is used to send the contents of
-message to the “Command Output” pane.
+`Read` is another file method. The contents of the file (the one-line
+message) are copied into *message*, which is what we've decided to call
+this string, and then the `print` command is used to send the contents of
+*message* to the "Command Output" pane.
 
 ### Appending to a Pre-Existing Text File
 
 A third option is to open a pre-existing file and add more to it. Note
-that if you open a file and use the write method, *the program will
+that if you `open` a file and use the `write` method, *the program will
 overwrite whatever might have been contained in the file*. This isn’t an
 issue when you are creating a new file, or when you want to overwrite
 the contents of an existing file, but it might be undesirable when you
 are creating a log of events or compiling a large set of data into one
-file. So, instead of write you will want to use the append method,
-designated by a.
+file. So, instead of `write` you will want to use the `append` method,
+designated by `a`.
 
 Type the following program into your text editor and save it as
 `file-append.py`. When you run this program it will open the same
 `helloworld.txt` file created earlier and append a second “hello world”
-to the file. The ‘\\n‘ stands for new line.
+to the file. The '\\n' stands for new line.
 
 ``` python
 # file-append.py
@@ -244,7 +244,7 @@ f.close()
 After you have run the program, open the `helloworld.txt` file and see
 what happened. Close the text file and re-run `file-append.py` a few
 more times. When you open `helloworld.txt` again you should notice a few
-extra ‘hello world’ messages waiting for you.
+extra 'hello world' messages waiting for you.
 
 In the next section, we will discuss modularity and reusing code.
 

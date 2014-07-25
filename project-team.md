@@ -22,8 +22,7 @@ History at the University of New Mexico, and Lord Chancellor of
 
 ![William J. Turkel][]William J. Turkel (@williamjturkel) is an
 Associate Professor of History at the University of Western Ontario and
-director of the [Network in Canadian History & Environment][] (NiCHE)
-Digital Infrastructure. Website: <http://williamjturkel.net>.
+director of the Digital Infrastructure for [Network in Canadian History & Environment][] (NiCHE). Website: <http://williamjturkel.net>.
 
 Design, Usability, Outreach
 ---------------------------
