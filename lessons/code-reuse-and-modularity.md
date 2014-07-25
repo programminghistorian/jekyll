@@ -13,8 +13,8 @@ Lesson Goals
 
 Computer programs can become long, unwieldy and confusing without
 special mechanisms for managing complexity. This lesson will show you
-how to reuse parts of your code by writing Functions and break your
-programs into Modules, in order to keep everything concise and easier to
+how to reuse parts of your code by writing *Functions* and break your
+programs into *Modules*, in order to keep everything concise and easier to
 debug. Being able to remove a single dysfunctional module can save time
 and effort.
 
@@ -39,14 +39,14 @@ greetEntity("Everybody")
 greetEntity("Programming Historian")
 ```
 
-The line beginning with “def” is the function declaration. We are going
-to define (“def“) a function, which in this case we have named
-“greetEntity“. The (x) is the function’s parameter. You should
+The line beginning with `def` is the function declaration. We are going
+to define (`def`) a function, which in this case we have named
+"greetEntity". The `(x)` is the function's parameter. You should
 understand how that works in a moment. The second line contains the code
 of the function. This could be as many lines as we need, but in this
 case it is only a single line.
 
-Note that indentation is very important in Python. The blank space
+Note that *indentation* is very important in Python. The blank space
 before the print statement tells the interpreter that it is part of the
 function that is being defined. You will learn more about this as we go
 along; for now, make sure to keep indentation the way we show it. Run
