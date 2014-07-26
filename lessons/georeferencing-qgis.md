@@ -323,8 +323,6 @@ century.
   [2]: http://maps.library.utoronto.ca/datapub/PEI/NTS/east/
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
   [Installing QGIS 2.0 and adding Layers]: ../lessons/qgis-layers
-  [http://www.gov.pe.ca/gis/license\_agreement.php3?name=lot\_town&file\_format=SHP\
-  ]: http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP
   [can be downloaded here]: http://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg
   [Island Imagined]: http://www.islandimagined.ca/fedora/repository/imagined%3A208687
   [in Atlantic Canada]: http://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s
