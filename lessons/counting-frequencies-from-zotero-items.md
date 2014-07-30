@@ -21,16 +21,16 @@ be beneficial to look over the previous lesson before we begin.
 -   `obo.py`
 
 If you do not have these files from the previous lesson, you can
-download a [zip file from the previous lesson here.][]
+download a zip file from the previous lesson [BROKEN LINK][].
 
 ### Modifying the obo.py Module
 
-Before we begin, we need to adjust obo.py in order to use this module to
-interact with different html files. The stripTags function in the obo.py
+Before we begin, we need to adjust `obo.py` in order to use this module to
+interact with different html files. The *stripTags* function in the `obo.py`
 module must be updated to the following, because it was previously
 designed for Old Bailey Online content only. First, we need to remove
 the line that instructs the program to begin at the end of the header,
-then we will tell it where to begin. Open the obo.py file in your text
+then we will tell it where to begin. Open the `obo.py` file in your text
 editor and follow the instructions below:
 
 ``` python
@@ -64,16 +64,16 @@ Remember to save your changes before we continue.
 
 ### Get Items from Zotero and Save Local Copy
 
-After we have modified the obo.py file, we can create a program designed
+After we have modified the `obo.py` file, we can create a program designed
 to request the top two items from a collection within a Zotero library,
-retrieve their associated urls, read the web pages, and save the content
+retrieve their associated URLs, read the web pages, and save the content
 to a local copy. This particular program will only work on webpage-type
 items with html content (for instance, entering the URLs of JSTOR or
 Google Books pages will not result in an analysis of the actual
 content).
 
 First, create a new .py file and save it in your programming historian
-directory. Make sure your copy of the obo.py file is in the same
+directory. Make sure your copy of the `obo.py` file is in the same
 location. Once you have saved your file, we can begin by importing the
 libraries and program data we will need to run this program:
 
@@ -86,7 +86,7 @@ import urllib2
 
 Next, we need to tell our program where to find the items we will be
 using in our analysis. Using the sample Zotero library from which we
-retrieved items in [lesson 7.1][], or using your personal library, we
+retrieved items in the [lesson on the Zotero API][], or using your personal library, we
 will pull the first two top-level items from either the library or from
 a specific collection within the library. (To find your collection key,
 mouseover the RSS button on that collection’s page and use the second
@@ -230,5 +230,5 @@ Word Frequencies
 ```
 
   [Counting Frequencies]: http://programminghistorian.github.io/jekyll/lessons/counting-frequencies
-  [zip file from the previous lesson here.]: lesson-6-2-output-keywords-in-context-in-html-file#codesync
-  [lesson 7.1]: lesson-7-1-using-the-zotero-api
+  [BROKEN LINK]: lesson-6-2-output-keywords-in-context-in-html-file#codesync
+  [Lesson on the Zotero API]: lesson-7-1-using-the-zotero-api
