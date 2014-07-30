@@ -172,6 +172,6 @@ library.
   [Quick Start Guide]: https://www.zotero.org/support/quick_start_guide
   [libZotero GitHub library]: https://github.com/fcheslack/libZotero
   [Installing Python Modules with pip]: http://programminghistorian.github.io/jekyll/lessons/installing-python-modules-pip
-  [pip]: ”http://www.pip-installer.org/en/latest/”
+  [pip]: http://www.pip-installer.org/en/latest/
   [Programming Historian 2]: https://www.zotero.org/groups/programming_historian_2
   [account settings]: https://www.zotero.org/settings/keys
