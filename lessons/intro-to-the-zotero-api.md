@@ -91,14 +91,14 @@ To use the PH2 group library, use the following:
 '9GLmvmZ1K1qGAz9QWcdlyf6L') 
 ```
 
-Once we’ve defined our object, we can use it to interact with the
+Once we've defined our object, we can use it to interact with the
 information in the library.
 
 ### Retrieving Item Information
 
 Zotero has parent items and child items. Parents are typically top-level
 objects with metadata, and children are usually things like notes and
-file attachments. For this portion of the lesson, we’ll be pulling
+file attachments. For this portion of the lesson, we'll be pulling
 information from the first five top-level items in our collection.
 
 ``` python
