@@ -130,12 +130,12 @@ Saving local copy of PastsFutures.html
 Saving local copy of 29.html 
 ```
 
-### Get Item Urls from Zotero and Count Frequencies
+### Get Item URLs from Zotero and Count Frequencies
 
-Now that we’ve retrieved our items and created local html files, we can
+Now that we've retrieved our items and created local html files, we can
 use the next portion of our program to retrieve the URLs, read the web
 pages, create a list of words, count their frequencies, and display
-them. Most of this should be familiar to you from lesson 4.2.
+them. Most of this should be familiar to you from the Counting Frequencies lesson.
 
 ``` python
 #retrieves url from each item, creates a filename from the url
