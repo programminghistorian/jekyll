@@ -10,11 +10,11 @@ layout: default
 Lesson Goals
 ------------
 
-In [Lesson 4.2][] you learned how to count the frequency of specific
+In [Counting Frequencies][] you learned how to count the frequency of specific
 words in a list using python. In this lesson, we will expand on that
 topic by showing you how to get information from Zotero HTML items, save
 the content from those items, and count the frequencies of words. It may
-be beneficial to look over Lesson 4.2 before we begin.
+be beneficial to look over the previous lesson before we begin.
 
 ### Files Needed For This Lesson
 
@@ -229,6 +229,6 @@ Word Frequencies
 ...
 ```
 
-  [Lesson 4.2]: lesson-4-2-counting-frequencies
+  [Counting Frequencies]: http://programminghistorian.github.io/jekyll/lessons/counting-frequencies
   [zip file from the previous lesson here.]: lesson-6-2-output-keywords-in-context-in-html-file#codesync
   [lesson 7.1]: lesson-7-1-using-the-zotero-api
