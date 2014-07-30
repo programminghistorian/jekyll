@@ -39,12 +39,12 @@ in your command line/terminal window enter:
  pip install libZotero 
 ```
 
-Remember that you may need to use the sudo preface and enter your
+Remember that you may need to use the `sudo` preface and enter your
 password to allow the installation to proceed.
 
 ### Zotero Hello World
 
-Once libZotero is installed, we can use it to talk to the Zotero server
+Once *libZotero* is installed, we can use it to talk to the Zotero server
 using Python. In your text editor, run the following:
 
 ``` python
@@ -52,13 +52,13 @@ using Python. In your text editor, run the following:
 from libZotero import zotero 
 ```
 
-Once we’ve successfully imported the name zotero from the library, we
-can create and define a Zotero library “object” (zlib, in this example),
+Once we've successfully imported the name zotero from the library, we
+can create and define a Zotero library "object" (*zlib*, in this example),
 which will be our means of creating a request for the Zotero server and
 returning its data. When we create the library object we will need to
-specify whether we’re accessing an individual or group library and
-include the Zotero library’s ID number. Depending on the type of library
-we’re accessing and the things we plan to do with it, we may also need
+specify whether we're accessing an individual or group library and
+include the Zotero library's ID number. Depending on the type of library
+we're accessing and the things we plan to do with it, we may also need
 to include an authentication key, which functions sort of like a
 password.
 
@@ -79,9 +79,12 @@ part of the URL. Your group API key, if one has been created, is located
 in your [account settings][]. If there is no key assigned to the group,
 and you are the end user, you can create a new key on the same page.
 
-To use the PH2 group library, use the following:\
- Group ID: 155975\
+To use the PH2 group library, use the following:
+
+```
+ Group ID: 155975
  API key: 9GLmvmZ1K1qGAz9QWcdlyf6L
+```
 
 ``` python
  zlib=zotero.Library('group','155975','<null>',
