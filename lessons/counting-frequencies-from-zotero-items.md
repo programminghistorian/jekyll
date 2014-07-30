@@ -231,4 +231,4 @@ Word Frequencies
 
   [Counting Frequencies]: http://programminghistorian.github.io/jekyll/lessons/counting-frequencies
   [BROKEN LINK]: lesson-6-2-output-keywords-in-context-in-html-file#codesync
-  [Lesson on the Zotero API]: lesson-7-1-using-the-zotero-api
+  [Lesson on the Zotero API]: http://programminghistorian.github.io/jekyll/lessons/intro-to-the-zotero-api
