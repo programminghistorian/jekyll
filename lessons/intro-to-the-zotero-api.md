@@ -30,8 +30,8 @@ directory you have chosen to use for these lessons.
 
 ### Installing libZotero
 
-Using what you learned in [Lesson 1.1][], and the lesson on Python
-modules, we’ll use [pip][] to install libZotero, a python library that
+Using what you learned in the lesson on [Installing Python Modules with pip][], 
+we'll use [pip][] to install libZotero, a python library that
 will allow us to interact with the Zotero API. To install the library,
 in your command line/terminal window enter:
 
@@ -171,7 +171,7 @@ library.
   [Zotero]: http://zotero.org
   [Quick Start Guide]: https://www.zotero.org/support/quick_start_guide
   [libZotero GitHub library]: https://github.com/fcheslack/libZotero
-  [Lesson 1.1]: lesson-1-1-introduction-and-installation
+  [Installing Python Modules with pip]: http://programminghistorian.github.io/jekyll/lessons/installing-python-modules-pip
   [pip]: ”http://www.pip-installer.org/en/latest/”
   [Programming Historian 2]: https://www.zotero.org/groups/programming_historian_2
   [account settings]: https://www.zotero.org/settings/keys
