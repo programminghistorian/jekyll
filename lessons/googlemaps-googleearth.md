@@ -506,7 +506,7 @@ your work!**
   [geo10]: ../images/geo10.png
   [geo11]: ../images/geo11.png
   [geo12]: ../images/geo12.png
-  [Creating New Vector Layers in QGIS 2.0]: /wp-admin/post.php?post=2309&action=edit
+  [Creating New Vector Layers in QGIS 2.0]: ../lessons/vector-layers-qgis
   [geo13]: ../images/geo13.png
   [geo14]: ../images/geo14.png
   [geo15]: ../images/geo15.png
