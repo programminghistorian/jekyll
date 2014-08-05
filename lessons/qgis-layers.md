@@ -464,13 +464,13 @@ save your work!**
   [qgis9]: ../images/qgis9.png
   [qgis10]: ../images/qgis10.png
   [qgis11]: ../images/qgis11.png
-  [qgis12]: ../images/qgis12-300x199.png
+  [qgis12]: ../images/qgis12.png
   [qgis13]: ../images/qgis13.png
   [qgis14]: ../images/qgis14.png
   [qgis15]: ../images/qgis15.png
   [qgis16]: ../images/qgis16.png
   [qgis17]: ../images/qgis17.png
-  [qgis18]: ../images/qgis18-300x283.png
+  [qgis18]: ../images/qgis18.png
   [qgis19]: ../images/qgis19.png
   [qgis20]: ../images/qgis20.png
   [qgis21]: ../images/qgis21.png
