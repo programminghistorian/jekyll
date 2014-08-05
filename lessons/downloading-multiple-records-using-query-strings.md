@@ -16,9 +16,9 @@ much more efficient using a programming language such as Python. In this
 lesson, we will write a program that will download a series of records
 from the [Old Bailey Online][] using custom search criteria, and save
 them to a directory on our computer. This process involves interpreting
-and manipulating URL Query Strings. In this case, the tutorial will seek
+and manipulating URL *Query Strings*. In this case, the tutorial will seek
 to download sources that contain references to people of African descent
-that were published in the Old Bailey Proceedings between 1700 and 1750.
+that were published in the *Old Bailey Proceedings* between 1700 and 1750.
 
 For Whom is this Useful?
 ------------------------
@@ -149,15 +149,15 @@ http://www.oldbaileyonline.org/search.jsp
 In this view, we see more clearly our 12 important pieces of information
 that we need to perform our search (one per line). On the first is the
 Old Bailey’s base website URL, followed by a query: “?” (don’t worry
-about the foo=bar bit; the developers of the Old Bailey Online say that
-it does not do anything.) and a series of 10 name/value pairs put
+about the `foo=bar` bit; the developers of the Old Bailey Online say that
+it does not do anything.) and a series of 10 *name/value pairs* put
 together with & characters. Together these 10 name/value pairs comprise
 the query string, which tells the search engine what variables to use in
 specific stages of the search. Notice that each name/value pair contains
 both a variable name: toYear, and then assigns that variable a value:
 1750. This works in exactly the same way as Function Arguments by
 passing certain information to specific variables. In this case, the
-most important variable is \_divs\_fulltext= which has been given the
+most important variable is `\_divs\_fulltext=` which has been given the
 value:
 
 ```
@@ -168,8 +168,8 @@ This holds the search term we have typed into the search box. The
 program has automatically added a + sign in place of a blank space (URLs
 cannot contain spaces); otherwise that’s exactly what we’ve asked the
 Old Bailey site to find for us. The other variables hold values that we
-defined as well. fromYear and toYear contain our date range. Since no
-year has 99 months as suggested in the toMonth variable, we can assume
+defined as well. *fromYear* and *toYear* contain our date range. Since no
+year has 99 months as suggested in the *toMonth* variable, we can assume
 this is how the search algorithm ensures all records from that year are
 included. There are no hard and fast rules for figuring out what each
 variable does because the person who built the site gets to name them.
@@ -240,7 +240,7 @@ website:
 http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
 ```
 
-We could type this URL out twice and alter the ‘start’ variable to get
+We could type this URL out twice and alter the ‘*start*’ variable to get
 us all 13 entries, but let’s write a program that would work no matter
 how many search results pages or records we had to download, and no
 matter what we decide to search for. Study this code and then add this
