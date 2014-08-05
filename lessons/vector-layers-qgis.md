@@ -6,7 +6,7 @@ authors:
 - Daniel Macfarlane
 date: 2013-12-13
 reviewers: Finn Arne Jørgensen, Peter Webster, Abby Schreiber, Adam Crymble
-layout: default-with-author-bios
+layout: default
 ---
 
 Lesson Goals
@@ -44,7 +44,7 @@ features, but also the modification of their attributes. To do so, we
 will use the files from [Installing QGIS 2.0 and Adding Layers][]
 concerning Prince Edward Island.
 
-**Getting Started:**
+## Getting Started
 
 Start by downloading the [PEI\_Holland map][] to the project folder:
 
