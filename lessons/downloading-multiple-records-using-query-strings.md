@@ -877,26 +877,26 @@ def getIndivTrials(query):
                     #isolate the id
                     urls.append(words[words.find("id=") +3: words.find("&")])
 
-            #new from here down!
-            for items in urls:
-                #generate the URL
-                url = "http://www.oldbaileyonline.org/print.jsp?div=" + items
+    #new from here down!
+    for items in urls:
+        #generate the URL
+        url = "http://www.oldbaileyonline.org/print.jsp?div=" + items
 
-                #download the page
-                response = urllib2.urlopen(url)
-                webContent = response.read()
+        #download the page
+        response = urllib2.urlopen(url)
+        webContent = response.read()
 
-                #create the filename and place it in the new directory
-                filename = items + '.html'
-                filePath = pjoin(cleanQuery, filename)
+        #create the filename and place it in the new directory
+        filename = items + '.html'
+        filePath = pjoin(cleanQuery, filename)
 
-                #save the file
-                f = open(filePath, 'w')
-                f.write(webContent)
-                f.close
+        #save the file
+        f = open(filePath, 'w')
+        f.write(webContent)
+        f.close
 
-                #pause for 3 seconds
-                time.sleep(3)
+        #pause for 3 seconds
+        time.sleep(3)
 ```
 
 Let’s add the same three-second pause to our getSearchResults function
@@ -1140,28 +1140,28 @@ def getIndivTrials(query):
                     #isolate the id
                     urls.append(words[words.find("id=") +3: words.find("&")])
 
-            for items in urls:
-                #generate the URL
-                url = "http://www.oldbaileyonline.org/print.jsp?div=" + items
+    for items in urls:
+        #generate the URL
+        url = "http://www.oldbaileyonline.org/print.jsp?div=" + items
 
-                #download the page
-                socket.setdefaulttimeout(10)
-                try:
-                    response = urllib2.urlopen(url)
-                    webContent = response.read()
+        #download the page
+        socket.setdefaulttimeout(10)
+        try:
+            response = urllib2.urlopen(url)
+            webContent = response.read()
 
-                    #create the filename and place it in the new directory
-                    filename = items + '.html'
-                    filePath = pjoin(cleanQuery, filename)
+            #create the filename and place it in the new directory
+            filename = items + '.html'
+            filePath = pjoin(cleanQuery, filename)
 
-                    #save the file
-                    f = open(filePath, 'w')
-                    f.write(webContent)
-                    f.close
-                except:
-                    failedAttempts.append(url)
-                #pause for 3 seconds
-                time.sleep(3)
+            #save the file
+            f = open(filePath, 'w')
+            f.write(webContent)
+            f.close
+        except:
+            failedAttempts.append(url)
+        #pause for 3 seconds
+        time.sleep(3)
     print "failed to download: " + str(failedAttempts)
 
 def newDir(newDir):
