@@ -248,7 +248,7 @@ planted with various crops.
 
 -   Your map should now look like this:
 
-{% include figure.html src="../images/qgis12.png" caption="Figure 12: Click to see full-size image" %}
+{% include figure.html src="../images/qgis12-300x199.png" caption="Figure 12: Click to see full-size image" %}
 
 -   Choose Add Vector Layer again.
 -   click Browse, find your downloaded Prince Edward Island shapefiles
@@ -302,7 +302,7 @@ how to display these categories on the map.
 -   You can now see the extent of the forests in 1935. Try using the
     magnifying glass tool to zoom in and inspect the different landuses.
 
-{% include figure.html src="../images/qgis18.png" caption="Figure 18: Click to see full-size image" %}
+{% include figure.html src="../images/qgis18-300x283.png" caption="Figure 18: Click to see full-size image" %}
 
 -   To get back to the full island, right click on any of the layers and
     choose '**Zoom to Layer Extent.**'
@@ -444,8 +444,6 @@ save your work!**
 
   [QGIS Download page]: http://hub.qgis.org/projects/quantum-gis/wiki/Download
   [KyngChaos Qgis download page]: http://www.kyngchaos.com/software/qgis
-  [qgis1]: ../images/qgis1.png
-  [qgis2]: ../images/qgis2.jpg
   [PEI Highways]: https://www.dropbox.com/s/mgrb90vcpggnw8c/PEI_highway.zip
   [alternate Tar file]: https://www.dropbox.com/s/8k81jnmhpoi99fv/pei_highway.tar.gz
   [PEI Places]: https://www.dropbox.com/s/fev9116zfr31ogb/PEI_placenames.zip
@@ -453,38 +451,8 @@ save your work!**
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
   [NRCan's website]: http://www.nrcan.gc.ca/earth-sciences/geography-boundary/mapping/topographic-mapping/10272
   [Double Stereographic projection]: http://www.gov.pe.ca/gis/index.php3?number=77865&lang=E
-  [qgis3]: ../images/qgis3.png
-  [qgis4]: ../images/qgis4.png
-  [qgis5]: ../images/qgis5.png
   [Tutorial: Working with Projections in QGIS]: http://qgis.spatialthoughts.com/2012/04/tutorial-working-with-projections-in.html
   [defined]: http://www.gislounge.com/geodatabases-explored-vector-and-raster-data/
-  [qgis6]: ../images/qgis6.png
-  [qgis7]: ../images/qgis7.png
-  [qgis8]: ../images/qgis8.png
-  [qgis9]: ../images/qgis9.png
-  [qgis10]: ../images/qgis10.png
-  [qgis11]: ../images/qgis11.png
-  [qgis12]: ../images/qgis12.png
-  [qgis13]: ../images/qgis13.png
-  [qgis14]: ../images/qgis14.png
-  [qgis15]: ../images/qgis15.png
-  [qgis16]: ../images/qgis16.png
-  [qgis17]: ../images/qgis17.png
-  [qgis18]: ../images/qgis18.png
-  [qgis19]: ../images/qgis19.png
-  [qgis20]: ../images/qgis20.png
-  [qgis21]: ../images/qgis21.png
-  [qgis22]: ../images/qgis22.png
-  [qgis23]: ../images/qgis23.png
-  [qgis24]: ../images/qgis24.png
-  [qgis25]: ../images/qgis25.png
-  [qgis26]: ../images/qgis26.png
   [aerial photos]: http://en.wikipedia.org/wiki/Orthophoto
   [PEI\_CumminsMap1927.tif]: https://www.dropbox.com/s/5g7964rpu1w2ou1/PEI_CumminsMap1927_compLZW.tif
-  [qgis27]: ../images/qgis27.png
-  [qgis28]: ../images/qgis28.png
-  [qgis29]: ../images/qgis29.png
-  [qgis30]: ../images/qgis30.png
-  [qgis31]: ../images/qgis31.png
-  [qgis32]: ../images/qgis32.png
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
