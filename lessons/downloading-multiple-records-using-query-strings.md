@@ -1188,8 +1188,7 @@ helpful:
 
 -   Old Bailey Online API
     (<http://www.oldbaileyonline.org/static/DocAPI.jsp>)
--   [Python Best way to create directory if it doesn’t exist for file
-    write?][http://stackoverflow.com/questions/273192/python-best-way-to-create-directory-if-it-doesnt-exist-for-file-write]
+-   [Python Best way to create directory if it doesn’t exist for file write?][http://stackoverflow.com/questions/273192/python-best-way-to-create-directory-if-it-doesnt-exist-for-file-write]
 
   [Old Bailey Online]: http://www.oldbaileyonline.org/
   [Automated Downloading with WGET]: ../lessons/automated-downloading-with-wget
