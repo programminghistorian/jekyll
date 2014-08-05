@@ -1199,13 +1199,13 @@ helpful:
   [advanced search form]: http://www.oldbaileyonline.org/forms/formMain.jsp
   [2]: ../images/AdvancedSearchExample.png "AdvancedSearchExample"
   [Calculate Total]: http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
-  [Viewing HTML Files]: /lessons/viewing-html-files
-  [Working with Webpages]: /lessons/working-with-web-pages
-  [From HTML to a List of Words 2]: /lessons/from-html-to-list-of-words-2
+  [Viewing HTML Files]: ../lessons/viewing-html-files
+  [Working with Webpages]: ../lessons/working-with-web-pages
+  [From HTML to a List of Words 2]: ../lessons/from-html-to-list-of-words-2
   [modulo]: http://docs.python.org/release/2.5.2/ref/binary.html
   [range]: http://docs.python.org/2/tutorial/controlflow.html#the-range-function
   [regular expressions]: http://docs.python.org/2/library/re.html
-  [Counting Frequencies]: /lessons/counting-frequencies
+  [Counting Frequencies]: ../lessons/counting-frequencies
   [time out]: http://www.checkupdown.com/status/E408.html
   [try / except]: http://docs.python.org/tutorial/errors.html
   [Python: Best way to create directory if it doesn’t exist for file
