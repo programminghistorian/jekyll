@@ -31,9 +31,8 @@ from them.
 
 {% include figure.html src="../images/obo.png" caption="Old Bailey Online screenshot" %}
 
-![Old Bailey Online screenshot][]
+{% include figure.html src="../images/obo-page-source.png" caption="HTML Source for Old Bailey Online Web Page" %}
 
-*Old Bailey Online* (OBO) Web Page
 
 ![Old Bailey Online page source][]
 
