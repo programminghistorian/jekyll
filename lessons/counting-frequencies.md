@@ -189,7 +189,7 @@ Word-Frequency Pairs
 
 Building on what we have so far, we want a function that can convert a
 list of words into a dictionary of word-frequency pairs. The only new
-command that we will need is dict, which makes a dictionary from a list
+command that we will need is `dict`, which makes a dictionary from a list
 of pairs. Copy the following and add it to the `obo.py` module.
 
 ``` python
@@ -244,7 +244,7 @@ Removing Stop Words
 
 When we look at the output of our `html-to-freq.py` program, we see that
 a lot of the most frequent words in the text are function words like
-“the”, “of”, “to” and “and”.
+"the", "of", "to" and "and".
 
 ``` python
 (192, 'the')
@@ -263,10 +263,10 @@ a lot of the most frequent words in the text are function words like
 ```
 
 These words are usually the most common in any English language text, so
-they don’t tell us much that is distinctive about Bowsey’s trial. In
+they don't tell us much that is distinctive about Bowsey's trial. In
 general, we are more interested in finding the words that will help us
 differentiate this text from texts that are about different subjects. So
-we’re going to filter out the common function words. Words that are
+we're going to filter out the common function words. Words that are
 ignored like this are known as stop words. We’re going to use the
 following list, adapted from one posted online by [computer scientists
 at Glasgow][]. Copy it and put it at the beginning of the `obo.py`
@@ -406,8 +406,8 @@ Pilgrim, Diving into Python
 ### Code Syncing
 
 To follow along with future lessons it is important that you have the
-right files and programs in your “programming-historian” directory. At
-the end of each chapter you can download the “programming-historian” zip
+right files and programs in your "programming-historian" directory. At
+the end of each chapter you can download the "programming-historian" zip
 file to make sure you have the correct code.
 
 -   programming-historian ([BROKEN LINK zip][])
