@@ -33,24 +33,19 @@ from them.
 
 {% include figure.html src="../images/obo-page-source.png" caption="HTML Source for Old Bailey Online Web Page" %}
 
-
-![Old Bailey Online page source][]
-
-HTML Source for OBO Web Page
-
 (To learn more about HTML, you may find it useful at this point to work
 through the [W3 Schools HTML tutorial][]. Detailed knowledge of HTML
-isn’t immediately necessary to continue reading, but any time that you
+isn't immediately necessary to continue reading, but any time that you
 spend learning HTML will be amply rewarded in your work as a digital
 historian or digital humanist.)
 
-### “Hello World” in HTML
+### "Hello World" in HTML
 
-HTML is what is known as a “markup” language. In other words, HTML is
-text that has been “marked up” with tags that provide information for
+HTML is what is known as a *markup* language. In other words, HTML is
+text that has been "marked up" with *tags* that provide information for
 the interpreter (which is often a web browser). Suppose you are
 formatting a bibliographic entry and you want to indicate the title of a
-work by italicizing it. In HTML you use \<em\> tags (“em” stands for
+work by italicizing it. In HTML you use `\<em\>` tags ("em" stands for
 emphasis). So part of your HTML file might look like this
 
 ``` xml
