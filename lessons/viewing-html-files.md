@@ -45,7 +45,7 @@ HTML is what is known as a *markup* language. In other words, HTML is
 text that has been "marked up" with *tags* that provide information for
 the interpreter (which is often a web browser). Suppose you are
 formatting a bibliographic entry and you want to indicate the title of a
-work by italicizing it. In HTML you use `\<em\>` tags ("em" stands for
+work by italicizing it. In HTML you use `<em>` tags ("em" stands for
 emphasis). So part of your HTML file might look like this
 
 ``` xml
