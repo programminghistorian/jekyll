@@ -8,7 +8,7 @@ reviewers: Miriam Posner, Jim Clifford, Amanda Morton
 layout: default
 ---
 
-“Hello World” in HTML
+"Hello World" in HTML
 ---------------------
 
 ### Viewing HTML files
@@ -16,22 +16,24 @@ layout: default
 When you are working with online sources, much of the time you will be
 using files that have been marked up with HTML (Hyper Text Markup
 Language). Your browser already knows how to interpret HTML, which is
-handy for human readers. Most browsers also let you see the HTML source
+handy for human readers. Most browsers also let you see the HTML *source code*
 for any page that you visit. The two images below show a typical web
-page (from the Old Bailey Online) and the HTML source used to generate
+page (from the *Old Bailey Online*) and the HTML source used to generate
 that page, which you can see with the
 `Tools -> Web Developer -> Page Source` command in Firefox.
 
-When you’re working in the browser, you typically don’t want or need to
+When you're working in the browser, you typically don't want or need to
 see the source for a web page. If you are writing a page of your own,
 however, it can be very useful to see how other people accomplished a
 particular effect. You will also want to study HTML source as you write
 programs to manipulate web pages or automatically extract information
 from them.
 
+{% include figure.html src="../images/obo.png" caption="Old Bailey Online screenshot" %}
+
 ![Old Bailey Online screenshot][]
 
-Old Bailey Online (OBO) Web Page
+*Old Bailey Online* (OBO) Web Page
 
 ![Old Bailey Online page source][]
 
