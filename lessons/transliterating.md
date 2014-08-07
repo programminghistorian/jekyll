@@ -421,8 +421,8 @@ about each person, we would have to parse the page ourselves and extract
 that information using the string manipulation techniques from the
 lesson “[Manipulating Strings in Python][].” However, for just the names
 it will be quicker to use the HTML parsing module Beautiful Soup. If you
-have not installed Beautiful Soup, see “[Installing Pip and Beautiful
-Soup][]” and read “[Intro to Beautiful Soup][]” for an overview of how
+have not installed Beautiful Soup, see “[Installing Python Modules with pip][]”
+and read “[Intro to Beautiful Soup][]” for an overview of how
 this tool works. In the transliterator module, we will load Beautiful
 Soup and then turn our converted page into a *Beautiful Soup object*.
 
@@ -526,6 +526,6 @@ saver.
   [Wikipedia has a table]: http://en.wikipedia.org/wiki/Cyrillic_script_in_Unicode
   [Unicode website]: http://www.unicode.org/charts/
   [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
-  [Installing Pip and Beautiful Soup]: ../lessons/installing-pip-and-beautiful-soup
+  [Installing Python Modules with pip]: ../lessons/installing-python-modules-pip
   [Cascading Style Sheets]: http://www.w3schools.com/css/
   [Code Academy’s]: http://www.codecademy.com/courses/css-coding-with-style
