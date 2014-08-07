@@ -12,24 +12,24 @@ Lesson Goals
 ------------
 
 In this two-part lesson, we will build on what you’ve learned about
-[Working with Webpages][], learning how to remove the HTML markup from
+[Working with Webpages][], learning how to remove the *HTML markup* from
 the webpage of [Benjamin Bowsey’s 1780 criminal trial transcript][]. We
-will achieve this by using a variety of string operators, string methods
-and close reading skills. We introduce looping and branching so that
+will achieve this by using a variety of *string operators*, *string methods*
+and close reading skills. We introduce *looping* and *branching* so that
 programs can repeat tasks and test for certain conditions, making it
 possible to separate the content from the HTML tags. Finally, we convert
-content from a long string to a list of words that can later be sorted,
+content from a long string to a *list of words* that can later be sorted,
 indexed, and counted.
 
 The Challenge
 -------------
 
 To get a clearer picture of the task ahead, open the
-`obo-t17800628-33.html` file that you created in [Working with Web
+*obo-t17800628-33.html* file that you created in [Working with Web
 Pages][Working with Webpages] (or [download and save the trial]
 [Benjamin Bowsey’s 1780 criminal trial transcript] if you do not already have a
 copy), then look at the HTML source by clicking on
-`Tools -> Web Developer -> Page Source`. As you scroll through the
+*Tools -> Web Developer -> Page Source*. As you scroll through the
 source code you’ll notice that there are a few HTML tags mixed in with
 the text. Because this is a printable version there is far less HTML
 than you will find on the other versions of the transcript (see the
@@ -41,7 +41,7 @@ understand it when you see it.
 
 ### Files Needed For This Lesson
 
--   `obo-t17800628-33.html`
+-   *obo-t17800628-33.html*
 
 If you do not have these files, you can download a [zip file from the
 previous lesson here.][]
@@ -50,7 +50,7 @@ Devising an Algorithm
 ---------------------
 
 Since the goal is to get rid of the HTML, the first step is to create an
-algorithm that returns only the text (minus the HTML tags) of the
+*algorithm* that returns only the text (minus the HTML tags) of the
 article. An algorithm is a procedure that has been specified in enough
 detail that it can be implemented on a computer. It helps to write your
 algorithms first in plain English; it’s a great way to outline exactly
@@ -58,7 +58,7 @@ what you want to do before diving into code. To construct this algorithm
 you are going to use your close reading skills to figure out a way to
 capture only the textual content of the biography.
 
-Looking at the source code of `obo-t17800628-33.html` you will notice
+Looking at the source code of *obo-t17800628-33.html* you will notice
 the actual transcript does not start right away. Instead there are a
 couple of HTML tags and some citation information. In this case:
 
@@ -74,7 +74,7 @@ location of the metadata a potentially useful marker for isolating the
 transcript text.
 
 At a glance, we can see that the metadata ends with two HTML tags:
-\<hr/\>\<h2\>. We might be able to use those to find the starting point
+`\<hr/\>\<h2\>`. We might be able to use those to find the starting point
 of our transcript text. We are lucky in this case because it turns out
 that these tags are a reliable way to find the start of transcript text
 in the printable versions (if you want, take a look at a few other
@@ -100,13 +100,13 @@ The following describes our algorithm in words.
 To isolate the content:
 
 -   Download the transcript text
--   Search the HTML for and store the location of \<hr/\>\<h2\>
--   Save everything after the \<hr/\>\<h2\> tags to a string:
-    pageContents
+-   Search the HTML for and store the location of `\<hr/\>\<h2\>`
+-   Save everything after the `\<hr/\>\<h2\>` tags to a string:
+    *pageContents*
 
 At this point we have the trial transcript text, plus HTML markup. Next:
 
--   Look at every character in the pageContents string, one character at
+-   Look at every character in the *pageContents* string, one character at
     a time
 -   If the character is a left angle bracket (\<) we are now inside a
     tag so ignore each following character
@@ -114,7 +114,7 @@ At this point we have the trial transcript text, plus HTML markup. Next:
     the tag; ignore the current character, but look at each following
     character
 -   If we’re not inside a tag, append the current character to a new
-    variable: text
+    variable: *text*
 
 Finally:
 
@@ -126,27 +126,27 @@ Isolating Desired Content
 
 The following step uses Python commands introduced in the [Manipulating
 Strings in Python][] lesson to implement the first half of the
-algorithm: removing all content before the \<hr/\>\<h2\> tags. To recap,
+algorithm: removing all content before the `\<hr/\>\<h2\>` tags. To recap,
 the algorithm was as follows:
 
 -   Download the transcript text
--   Search the HTML for and store the location of \<hr/\>\<h2\>
--   Save everything after the \<hr/\>\<h2\> tags to a string:
-    pageContents
+-   Search the HTML for and store the location of `\<hr/\>\<h2\>`
+-   Save everything after the `\<hr/\>\<h2\>` tags to a string:
+    *pageContents*
 
 To achieve this, you will use the find string method and create a new
 substring containing only the desired content using the index as start
 point for the substring.
 
 As you work, you will be developing separate files to contain your code.
-One of these will be called `obo.py` (for “Old Bailey Online”). This
+One of these will be called *obo.py* (for “Old Bailey Online”). This
 file is going to contain all of the code that you will want to re-use;
-in other words, `obo.py` is a module. We discussed the idea of modules
+in other words, *obo.py* is a module. We discussed the idea of modules
 in [Code Reuse and Modularity][] when we saved our functions to
-`greet.py`.
+*greet.py*.
 
-Create a new file named `obo.py` and save it to your
-`programming-historian` directory. We are going to use this file to keep
+Create a new file named *obo.py* and save it to your
+*programming-historian* directory. We are going to use this file to keep
 copies of the functions needed to process The Old Bailey Online. Type or
 copy the following code into your file.
 
@@ -160,7 +160,7 @@ def stripTags(pageContents):
     return pageContents
 ```
 
-Create a second file, `trial-content.py`, and save the program shown
+Create a second file, *trial-content.py*, and save the program shown
 below.
 
 ``` python
@@ -176,10 +176,10 @@ HTML = response.read()
 print obo.stripTags(HTML)
 ```
 
-When you run `trial-content.py` it will get the web page for Bowsey’s
-trial transcript, then look in the `obo.py` module for the stripTags
+When you run *trial-content.py* it will get the web page for Bowsey’s
+trial transcript, then look in the *obo.py* module for the *stripTags*
 function. It will use that function to extract the stuff after the
-\<hr/\>\<h2\> tags. With any luck, this should be the textual content of
+`\<hr/\>\<h2\>` tags. With any luck, this should be the textual content of
 the Bowsey transcript, along with some of HTML markup. Don’t worry if
 your Command Output screen ends in a thick black line. Komodo Edit’s
 output screen has a maximum number of characters it will display, after
@@ -188,26 +188,26 @@ giving the appearance of a black blob. Don’t worry, the text is in there
 even though you cannot read it; you can cut and paste it to a text file
 to double check.
 
-Let’s take a moment to make sure we understand how `trial-contents.py`
-is able to use the functions stored in `obo.py`. The stripTags function
-that we saved to `obo.py` requires one argument. In other words, to run
+Let’s take a moment to make sure we understand how *trial-contents.py*
+is able to use the functions stored in *obo.py*. The *stripTags* function
+that we saved to *obo.py* requires one argument. In other words, to run
 properly it needs one piece of information to be supplied. Recall the
 trained dog example from a previous lesson. In order to bark, the dog
-needs two things: air and a delicious treat. The stripTags function in
-`obo.py` needs one thing: a string called pageContents. But you’ll
-notice that when we call stripTags in the final program
-(`trialcontents.py`) there’s no mention of “pageContents“. Instead the
+needs two things: air and a delicious treat. The *stripTags* function in
+*obo.py* needs one thing: a string called *pageContents*. But you’ll
+notice that when we call *stripTags* in the final program
+(*trialcontents.py*) there’s no mention of “*pageContents*“. Instead the
 function is given HTML as an argument. This can be confusing to many
 people when they first start programming. Once a function has been
 declared, we no longer need to use the same variable name when we call
 the function. As long as we provide the right type of argument,
 everything should work fine, no matter what we call it. In this case we
-wanted pageContents to use the contents of our HTML variable. You could
+wanted *pageContents* to use the contents of our HTML variable. You could
 have passed it any string, including one you input directly between the
-parentheses. Try rerunning `trial-content.py`, changing the stripTags
+parentheses. Try rerunning *trial-content.py*, changing the *stripTags*
 argument to “I am quite fond of dogs” and see what happens. Note that
 depending on how you define your function (and what it does) your
-argument may need to be something other than a string: an integer for
+argument may need to be something other than a string: an *integer* for
 example.
 
 Suggested Reading
