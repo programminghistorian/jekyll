@@ -40,7 +40,7 @@ create visualizations or perform various data analysis methods, or
 simply reformat them to make browsing easier. Or, you may just want to
 keep a backup copy so you can access them without Internet access.
 
-This lesson is for intermediate Python users. If you have not already tried the '[Python Programming Basics][]' lessons, you may find that a useful starting point.
+This lesson is for intermediate Python users. If you have not already tried the [Python Programming Basics][] lessons, you may find that a useful starting point.
 
 Applying our Historical Knowledge
 ---------------------------------
@@ -1192,7 +1192,7 @@ helpful:
     (<http://www.oldbaileyonline.org/static/DocAPI.jsp>)
 -   Python Best way to create directory if it doesn’t exist for file write? (<http://stackoverflow.com/questions/273192/python-best-way-to-create-directory-if-it-doesnt-exist-for-file-write>)
 
-  [Python Programming Basics][/]
+
   [Old Bailey Online]: http://www.oldbaileyonline.org/
   [Automated Downloading with WGET]: ../lessons/automated-downloading-with-wget
   [Benjamin Bowsey’s case]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
@@ -1210,4 +1210,4 @@ helpful:
   [Counting Frequencies]: ../lessons/counting-frequencies
   [time out]: http://www.checkupdown.com/status/E408.html
   [try / except]: http://docs.python.org/tutorial/errors.html
-
+  [Python Programming Basics]: [/]
