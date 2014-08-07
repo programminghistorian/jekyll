@@ -90,7 +90,9 @@
   code {font-size: 80%; padding: 0 0.5em;}
 
   /* Improve readability of pre-formatted text in all browsers */
-  pre { white-space: pre; word-wrap: normal; overflow: auto; margin:0 0 1em; padding:1em 1em; border: 1px solid #eee;}
+  pre { white-space: pre; word-wrap: normal; overflow: auto; margin:0; padding:1em 1em; border: 1px solid #eee;}
+
+  pre code {padding: 0;}
 
   q { quotes: none; }
   q:before, q:after { content: ""; content: none; }
