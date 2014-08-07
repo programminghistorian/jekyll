@@ -230,12 +230,12 @@ that’s ok!
 
 -   programming-historian ([zip][])
 
-  [Working with Webpages]: /lessons/working-with-web-pages
+  [Working with Webpages]: ../lessons/working-with-web-pages
   [Benjamin Bowsey’s 1780 criminal trial transcript]: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
   [HTML]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33-defend448&div=t17800628-33
   [XML]: http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes
   [1]: http://www.w3schools.com/html/
-  [zip file from the previous lesson here.]: /lessons/manipulating-strings-in-python#codesync
-  [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
-  [Code Reuse and Modularity]: /lessons/code-reuse-and-modularity
+  [zip file from the previous lesson here.]: ../lessons/manipulating-strings-in-python#code-syncing
+  [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
+  [Code Reuse and Modularity]: ../lessons/code-reuse-and-modularity
   [zip]: ../images/programming-historian2.zip
