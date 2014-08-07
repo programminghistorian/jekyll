@@ -40,7 +40,7 @@ create visualizations or perform various data analysis methods, or
 simply reformat them to make browsing easier. Or, you may just want to
 keep a backup copy so you can access them without Internet access.
 
-This lesson is for intermediate Python users. If you have not already tried the '[Python Programming Basics][]' lessons
+This lesson is for intermediate Python users. If you have not already tried the '[Python Programming Basics][]' lessons, you may find that a useful starting point.
 
 Applying our Historical Knowledge
 ---------------------------------
