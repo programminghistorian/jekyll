@@ -1,0 +1,21 @@
+{% assign author = include.name | replace: " ","-" %}
+
+<div class="contact-box">
+<img class="avatar" src="{{site.baseurl}}/avatars/{{author}}.png">
+{{site.authors[author].bio}}
+<br/>
+	{% if site.authors[author].url %}
+		<a href="{{site.authors[author].url}}"><i class="fa fa-home fa-lg"></i></a>
+	{% endif %}
+	{% if site.authors[author].email %}
+		<a href="mailto:{{site.authors[author].email}}"><i class="fa fa-envelope-square fa-lg" ></i></a>
+	{% endif %}
+	{% if site.authors[author].twitter %}
+		<a href="http://twitter.com/{{site.authors[author].twitter}}"><i class="fa fa-twitter-square fa-lg"></i></a>
+	{% endif %}
+	{% if site.authors[author].github %}
+		<a href="http://github.com/{{site.authors[author].github}}"><i class="fa fa-github-square fa-lg"></i></a>
+	{% endif %}
+<br/>
+</div>
+
