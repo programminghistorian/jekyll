@@ -46,8 +46,7 @@ Applying our Historical Knowledge
 ---------------------------------
 
 In this lesson, we are trying to create our own corpus of cases related
-to people of African descent. We have seen in [Benjamin Bowsey’s case][]
-that “black” might be a useful keyword for us to use for locating other
+to people of African descent. From [Benjamin Bowsey’s case][], we might note that “black” can be a useful keyword for us to use for locating other
 cases. However, when we search for “black” on the Old Bailey website, we
 find it often refers to other uses of the word: black horses, or black
 cloth. The task of disambiguating this use of language will have to wait
