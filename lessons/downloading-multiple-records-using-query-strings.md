@@ -40,13 +40,14 @@ create visualizations or perform various data analysis methods, or
 simply reformat them to make browsing easier. Or, you may just want to
 keep a backup copy so you can access them without Internet access.
 
+This lesson is for intermediate Python users. If you have not already tried the [Python Programming Basics][] lessons, you may find that a useful starting point.
+
 Applying our Historical Knowledge
 ---------------------------------
 
 In this lesson, we are trying to create our own corpus of cases related
-to people of African descent. We have seen in [Benjamin Bowsey’s case][]
-that “black” might be a useful keyword for us to use for locating other
-cases. However, when we search for “black” on the Old Bailey website, we
+to people of African descent. From [Benjamin Bowsey’s case][] at the Old Bailey in 1780, we might note that “black” can be a useful keyword for us to use for locating other
+cases involving defendants of African descent. However, when we search for “black” on the Old Bailey website, we
 find it often refers to other uses of the word: black horses, or black
 cloth. The task of disambiguating this use of language will have to wait
 for another lesson. For now, let’s turn to easier cases. As historians,
@@ -60,13 +61,9 @@ target demographic. If we try these two terms in separate simple
 searches on the Old Bailey website, we get results like in these
 screenshots:
 
-![][]
+{% include figure.html src="../images/SearchResultsNegro.png" caption="Search results for 'negro' in the Old Bailey Online" %}
 
-Search results for “negro” in the Old Bailey Online (click to enlarge)
-
-![][1]
-
-Search results for “mulatto” in the Old Bailey Online
+{% include figure.html src="../images/SearchResultsMulatto.png" caption="Search results for 'mulatto' in the Old Bailey Online" %}
 
 After glancing through these search results, it seems clear that these
 are references to people, rather than horses or cloth or other things
@@ -99,9 +96,7 @@ Perform the search shown in the image below. Make sure you tick the
 “Advanced” radio button and include the `*` wildcards to include
 pluralized entries or those with an extra “e” on the end.
 
-![][2]
-
-Old Bailey Advanced Search Example
+{% include figure.html src="../images/AdvancedSearchExample.png" caption="Old Bailey Advanced Search Example" %}
 
 Execute the search and then click on the “[Calculate Total][]” link to
 see how many entries there are. We now have 13 results (if you have a
@@ -155,7 +150,7 @@ together with & characters. Together these 10 name/value pairs comprise
 the query string, which tells the search engine what variables to use in
 specific stages of the search. Notice that each name/value pair contains
 both a variable name: toYear, and then assigns that variable a value:
-1750. This works in exactly the same way as Function Arguments by
+1750. This works in exactly the same way as *Function Arguments* by
 passing certain information to specific variables. In this case, the
 most important variable is `\_divs\_fulltext=` which has been given the
 value:
@@ -244,7 +239,7 @@ We could type this URL out twice and alter the ‘*start*’ variable to get
 us all 13 entries, but let’s write a program that would work no matter
 how many search results pages or records we had to download, and no
 matter what we decide to search for. Study this code and then add this
-function to your `obo.py` module. The comments in the code are meant to
+function to a module named `obo.py` (create a file with that name and save it to the directory where you want to do your work). The comments in the code are meant to
 help you decipher the various parts.
 
 ``` python
@@ -300,24 +295,24 @@ containing the first search results page for your search. Check that
 this downloaded properly and then delete the file. We’re going to adapt
 our program to download the other page containing the other 3 entries at
 the same time so we want to make sure we get both. Let’s refine our
-getSearchResults function by adding another function argument called
+`getSearchResults` function by adding another function argument called
 “entries” so we can tell the program how many pages of search results we
 need to download. We will use the value of entries and some simple math
 to determine how many search results pages there are. This is fairly
 straightforward since we know there are ten trial transcripts listed per
 page. We can calculate the number of search results pages by dividing
 the value of entries by 10. We will save this result to an integer
-variable named pageCount. It looks like this:
+variable named `pageCount`. It looks like this:
 
 ``` python
 #determine how many files need to be downloaded.
 pageCount = entries / 10
 ```
 
-However, because pageCount is an integer and cannot have decimal places
+However, because `pageCount` is an integer and cannot have decimal places
 or remainders, Python will drop the remainder. You can test this by
 running this code in your Terminal (Mac & Linux) / Python Command Line
-(Windows) and printing out the value held in pageCount. (Note, from here
+(Windows) and printing out the value held in `pageCount`. (Note, from here
 on, we will use the word Terminal to refer to this program).
 
 ``` python
@@ -335,7 +330,7 @@ get around this problem we use the [modulo][] operator (%) in place of
 the usual division operator (/). Modulo divides the first value by the
 second and returns the remainder. So if the remainder is more than 0, we
 know there is a partial page of results, and we need to increase the
-pageCount value by one. The code should now look like this:
+`pageCount` value by one. The code should now look like this:
 
 ``` python
 #determine how many files need to be downloaded.
@@ -345,13 +340,13 @@ if remainder > 0:
     pageCount += 1
 ```
 
-If we add this to our getSearchResults function just under the
-startValue = 0 line, our program, the code can now calculate the number
+If we add this to our `getSearchResults` function just under the
+*startValue = 0* line, our program, the code can now calculate the number
 of pages that need to be downloaded. However, at this stage it will
 still only download the first page since we have only told the
 downloading section of the function to run once. To correct this, we can
 add that downloading code to a for loop which will download once for
-every number in the pageCount variable. If it reads 1, then it will
+every number in the `pageCount` variable. If it reads 1, then it will
 download once; if it reads 5 it will download five times, and so on.
 Immediately after the if statement you have just written, add the
 following line and indent everything down to `f.close` one additional
@@ -366,10 +361,10 @@ Since this is a for loop, all of the code we want to run repeatedly
 needs to be intended as well. You can see if you have done this
 correctly by looking at the finished code example below. This loop takes
 advantage of Python’s [range][] funciton. To understand this for loop it
-is probably best to think of pageCount as equal to 2 as it is in the
+is probably best to think of `pageCount` as equal to 2 as it is in the
 example. This two lines of code then means: start running with an
 initial loop value of 1, and each time you run, add 1 more to that
-value. When the loop value is the same as pageCount, run once more and
+value. When the loop value is the same as `pageCount`, run once more and
 then stop. This is particularly valuable for us because it means we can
 tell our program to run exactly once for each search results page and
 provides a flexible new skill for controlling how many times a for loop
@@ -385,27 +380,27 @@ for pages in range(1, pageCount+1):
 -> 2
 ```
 
-Before we add all of this code together to our getSearchResults
+Before we add all of this code together to our `getSearchResults`
 function, we have to make two final adjustments. At the end of the for
 loop (but still inside the loop), and after our downloading code has run
-we will need to change the startValue variable, which is used in
+we will need to change the `startValue` variable, which is used in
 building the URL of the page we want to download. If we forget to do
 this, our program will repeatedly download the first search results page
 since we are not actually changing anything in the initial URL. The
-startValue variable, as discussed above, is what controls which search
+`startValue` variable, as discussed above, is what controls which search
 results page we want to download. Therefore, we can request the next
-search results page by increasing the value of startValue by 10 after
+search results page by increasing the value of `startValue` by 10 after
 the initial download has completed. If you are not sure where to put
 this line you can peek ahead to the finished code example below.
 
 Finally, we want to ensure that the name of the file we have downloaded
 is different for each file. Otherwise, each download will save over the
 previous download, leaving us with only a single file of search results.
-To solve this, we can adjust the contents of the filename variable to
-include the value held in startValue so that each time we download a new
-page, it gets a different name. Since startValue is an integer, we will
+To solve this, we can adjust the contents of the `filename` variable to
+include the value held in `startValue` so that each time we download a new
+page, it gets a different name. Since `startValue` is an integer, we will
 have to convert it to a string before we can add it to the filename
-variable. Adjust the line in your program that pertains to the filename
+variable. Adjust the line in your program that pertains to the `filename`
 variable to looks like this:
 
 ``` python
@@ -500,12 +495,12 @@ def newDir(newDir):
         os.makedirs(dir)
 ```
 
-We want to call this new function in getSearchResults, so that our
+We want to call this new function in `getSearchResults`, so that our
 search results pages are downloaded to a directory with the same name as
 our search query. This will keep our `programming-historian` directory
 more organized. To do this we will create a new directory using the `os`
 library, short for “operating system”. That library contains a function
-called makedirs, which, unsurprisingly, makes a new directory. You can
+called `makedirs`, which, unsurprisingly, makes a new directory. You can
 try this out using the Terminal.
 
 ``` python
@@ -589,7 +584,7 @@ filename = query + '/' + 'search-result' + str(startValue)
 
 If your computer is running Windows you will need to use a backslash
 instead of a forward slash in the above example. Add the above line to
-your getSearchResults page in lieu of the current filename description.
+your `getSearchResults` page in lieu of the current `filename` description.
 
 If you are running Windows, chances are your `downloadSearches.py`
 program will now crash when you run it because you are trying to create
@@ -598,10 +593,10 @@ this problem we can use [regular expressions][] to remove any
 non-Windows-friendly characters. We used regular expressions previously
 in [Counting Frequencies][]. To remove non-alpha-numeric characters from
 the query, first import the regular expressions library immediately
-after you have imported the os library, then use the re.sub() function
-to create a new string named cleanQuery that contains only alphanumeric
-characters. You will then have to substitute cleanQuery as the variable
-used in the os.path.exists(), os.makedirs(), and filename declarations.
+after you have imported the `os` library, then use the `re.sub()` function
+to create a new string named `cleanQuery` that contains only alphanumeric
+characters. You will then have to substitute `cleanQuery` as the variable
+used in the `os.path.exists()`, `os.makedirs()`, and `filename` declarations.
 
 ``` python
 import urllib2, os, re
@@ -675,7 +670,7 @@ search results HTML files from the Old Bailey Online website for an
 advanced search that we have defined, and have done so programmatically.
 Now for the next step in the algorithm: Extract the URLs of each trial
 transcript from the search results HTML files. In the lessons that
-precede this one, we have worked with the printer friendly versions of
+precede this one (eg, [Working with Webpages][]), we have worked with the printer friendly versions of
 the trial transcripts, so we will continue to do so. We know that the
 printer friendly version of Benjamin Bowsey’s trial is located at the
 URL:
@@ -790,10 +785,10 @@ That last line of the for loop may look tricky, but make sure you
 understand it before moving on. The words variable is checked to see if
 it contains the characters “id=” (without the quotes), which of course
 refers to a specific trial transcript ID. If it does, we use the slice
-string method to capture only the chunk between id= and & and append it
+string method to capture only the chunk between *id=* and *&* and append it
 to the url list. If we knew the exact index positions of this substring
 we could have used those numerical values instead. However, by using the
-find() string method we have created a much more flexible program. The
+*find()* string method we have created a much more flexible program. The
 following code does exactly the same thing as that last line in a less
 condensed manner.
 
@@ -808,12 +803,12 @@ urls.append(trialID)
 When you re-run `extract-trial-ids.py`, you should now see a list of all
 the trial IDs. We can add a couple extra lines to turn these into proper
 URLs and download the whole list to our new directory. We’ll also use
-the time library to pause our program for three seconds between
+the `time` library to pause our program for three seconds between
 downloads– a technique called throttling. It’s considered good form not
 to pound someone’s server with many requests per second; and the slight
 delay makes it more likely that all the files will actually download
 rather than [time out][]. Add the following code to the end of your
-getIndivTrials() function. This code will generate the URL of each
+`getIndivTrials()` function. This code will generate the URL of each
 individual page, download the page to your computer, place it in your
 new directory, save the file, and pause for 3 seconds before moving on
 to the next trial. This work is all contained in a for loop, and will
@@ -899,18 +894,18 @@ def getIndivTrials(query):
         time.sleep(3)
 ```
 
-Let’s add the same three-second pause to our getSearchResults function
+Let’s add the same three-second pause to our `getSearchResults` function
 to be kind to the Old Bailey Online servers:
 
 ``` python
 #create URLs for search results pages and save the files
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entries):
 
-    import urllib2, os, time
+    import urllib2, os, re, time
 
-    #Create a new directory
-    if not os.path.exists(query):
-        os.makedirs(query)
+    cleanQuery = re.sub(r'\W+', '', query)
+    if not os.path.exists(cleanQuery):
+        os.makedirs(cleanQuery)
 
     startValue = 0
 
@@ -939,7 +934,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         webContent = response.read()
 
         #save the result to the new directory
-        filename = query + '/' + 'search-result' + str(startValue)
+        filename = cleanQuery + '/' + 'search-result' + str(startValue)
 
         f = open(filename + ".html", 'w')
         f.write(webContent)
@@ -992,21 +987,21 @@ of it and move on to the next trial.
 
 To do this, we will make use of the Python [try / except][] error
 handling mechanism, as well as a new library: socket. Try and Except are
-a lot like an if / else statement. When you ask Python to try something,
+a lot like an *if / else* statement. When you ask Python to *try* something,
 it will attempt to run the code; if the code fails to achieve what you
-have defined, it will run the except code. This is often used when
-dealing with errors, known as error handling. We can use this to our
+have defined, it will run the *except* code. This is often used when
+dealing with errors, known as *error handling*. We can use this to our
 advantage by telling our program to attempt downloading a page. If it
 fails, we’ll ask it to let us know which file failed and then move on.
-To do this we need to use the socket library, which will allow us to put
+To do this we need to use the `socket` library, which will allow us to put
 a time limit on a download attempt before moving on. This involves
-altering the getIndivTrials function.
+altering the `getIndivTrials` function.
 
-First, we need to load the socket library, which should be done in the
+First, we need to load the `socket` library, which should be done in the
 same way as all of our previous library imports. We will also need to
 set the default socket timeout length – how long do we want to try to
 download a page before we give up. This should go immediately after the
-comment that begins with \#download the page
+comment that begins with `\#download the page`
 
 ```
 import os, urllib2, time, socket
@@ -1017,19 +1012,19 @@ import os, urllib2, time, socket
 ```
 
 Then, we need a new python list that will hold all of the urls that
-failed to download. We will call this failedAttempts and you can insert
-it immediately after the import instructions:
+failed to download. We will call this `failedAttempts` and you can insert
+it immediately after the `import` instructions:
 
 ```
  failedAttempts = []
 ```
 
-Finally, we can add the try / except statement, which is added in much
-the same way as an if / else statement would be. In this case, we will
+Finally, we can add the *try / except* statement, which is added in much
+the same way as an *if / else* statement would be. In this case, we will
 put all of the code designed to download and save the trials in the try
 statement, and in the except statement we will tell the program what we
 want it to do if that should fail. Here, we will append the url that
-failed to download to our new list, failedAttempts
+failed to download to our new list, `failedAttempts`
 
 ``` python
 #...
@@ -1067,7 +1062,7 @@ to download. If there are only one or two, it’s probably fastest just to
 visit the pages manually and use the “Save As” feature of your browser.
 If you are feeling adventurous, you could modify the program to
 automatically download the remaining files. The final version of your
-getSearchResults(), getIndivTrials(), and newDir() functions should now
+`getSearchResults()`, `getIndivTrials()`, and `newDir()` functions should now
 look like this:
 
 ``` python
@@ -1190,6 +1185,7 @@ helpful:
     (<http://www.oldbaileyonline.org/static/DocAPI.jsp>)
 -   Python Best way to create directory if it doesn’t exist for file write? (<http://stackoverflow.com/questions/273192/python-best-way-to-create-directory-if-it-doesnt-exist-for-file-write>)
 
+
   [Old Bailey Online]: http://www.oldbaileyonline.org/
   [Automated Downloading with WGET]: ../lessons/automated-downloading-with-wget
   [Benjamin Bowsey’s case]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
@@ -1207,4 +1203,4 @@ helpful:
   [Counting Frequencies]: ../lessons/counting-frequencies
   [time out]: http://www.checkupdown.com/status/E408.html
   [try / except]: http://docs.python.org/tutorial/errors.html
-
+  [Python Programming Basics]: ../lessons
