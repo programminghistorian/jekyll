@@ -3,7 +3,7 @@ title: Get Involved
 author: 
 date: 
 reviewers: 
-layout: default
+layout: blank
 ---
 
 -   Interested in teaching humanists about technology?
