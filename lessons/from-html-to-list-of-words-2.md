@@ -335,7 +335,7 @@ that’s ok!
 -   programming-historian ([zip][])
 
   [From HTML to a List of Words (part 1)]: ../lessons/from-html-to-list-of-words-1
-  [zip file from the previous lesson here.]: ../lessons/from-html-to-list-of-words-1#codesync
-  [integer]: http://www.python.org/doc/current/lib/typesnumeric.html
-  [types]: http://www.python.org/doc/current/lib/types.html
+  [zip file from the previous lesson here.]: ../lessons/from-html-to-list-of-words-1#code-syncing
+  [integer]: http://docs.python.org/2.4/lib/typesnumeric.html
+  [types]: http://docs.python.org/3/library/types.html
   [zip]: ../images/programming-historian2.zip
