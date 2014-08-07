@@ -10,7 +10,7 @@ layout: default
 Using Python to Create an New Zotero Item
 -----------------------------------------
 
-In [Lesson 7.1][], you learned a little bit about Zotero; now you can
+In [Intro to the Zotero API][], you learned a little bit about Zotero; now you can
 access some of its functions using Python scripts. In this lesson, you
 will create a new item in a Zotero library and add some basic metadata
 such as title and date.
@@ -124,4 +124,4 @@ and the tag should appear also. By editing the program above, you can
 create items with different types (such as books, journal articles, or
 newspapers) and specify more precise titles, creation dates, and tags.
 
-  [Lesson 7.1]: ../lessons/lesson-7-1-using-the-zotero-api
+  [Intro to the Zotero API]: ../lessons/intro-to-the-zotero-api
