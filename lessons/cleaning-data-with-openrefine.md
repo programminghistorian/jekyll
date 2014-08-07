@@ -14,7 +14,7 @@ layout: default
 Don’t take your data at face value. That is the key message of this
 tutorial which focuses on how scholars can diagnose and act upon the
 accuracy of data. In this lesson, you will learn the principles and
-practice of data cleaning, as well as how [`OpenRefine`][] can be used
+practice of data cleaning, as well as how [*OpenRefine*][] can be used
 to perform four essential tasks that will help you to clean your data:
 
 1.  Remove duplicate records
@@ -35,8 +35,8 @@ lesson will teach you how to discover inconsistencies in data contained
 within a spreadsheet or a database. As we increasingly share, aggregate
 and reuse data on the web, historians will need to respond to data
 quality issues which inevitably pop up. Using a program called
-`OpenRefine`, you will be able to easily identify systematic errors such
-as blank cells, duplicates, spelling inconsistencies, etc. `OpenRefine`
+*OpenRefine*, you will be able to easily identify systematic errors such
+as blank cells, duplicates, spelling inconsistencies, etc. *OpenRefine*
 not only allows you to quickly diagnose the accuracy of your data, but
 also to act upon certain errors in an automated manner.
 
@@ -62,17 +62,17 @@ user-friendly interface through which end users can detect and correct
 errors.
 
 Several general purpose tools for interactive data transformation have
-been developed in recent years, such as [`Potter’s Wheel ABC`][] and
-[`Wrangler`][]. Here we want to focus specifically on [`OpenRefine`][]
+been developed in recent years, such as [*Potter’s Wheel ABC*][] and
+[*Wrangler*][]. Here we want to focus specifically on [*OpenRefine*][]
 (formerly Freebase Gridworks and Google Refine), as in the opinion of
 the authors, it is the most user-friendly tool to efficiently process
 and clean large amounts of data in a browser-based interface.
 
-On top of [data profiling][] and cleaning operations, `OpenRefine`
+On top of [data profiling][] and cleaning operations, *OpenRefine*
 extensions allow users to identify concepts in unstructured text, a
 process referred to as [named-entity recognition][] (NER), and can also
 reconcile their own data with existing knowledge bases. By doing so,
-`OpenRefine` can be a practical tool to link data with concepts and
+*OpenRefine* can be a practical tool to link data with concepts and
 authorities which have already been declared on the Web by parties such
 as [Library of Congress][] or [OCLC][]. Data cleaning is a prerequisite
 to these steps; the success rate of NER and a fruitful matching process
@@ -89,7 +89,7 @@ from haute couture to computer chips.
 
 The Powerhouse has been very actively disclosing its collection online
 and making most of its data freely available. From the museum website, a
-tab-separated text file under the name `phm-collection.tsv` can be
+tab-separated text file under the name *phm-collection.tsv* can be
 downloaded, which you can open as a spreadsheet. The unzipped file
 (58MB) contains basic metadata (17 fields) for 75,823 objects, released
 under a [Creative Commons Attribution Share Alike (CCASA) license][]. In
@@ -99,7 +99,7 @@ Museum updates the data, you will still be able to follow along with the
 Lesson.
 
 Throughout the data profiling and cleaning process, the case study will
-specifically focus on the *Categories* field, which is populated with
+specifically focus on the `Categories` field, which is populated with
 terms from the Powerhouse museum Object Names Thesaurus (PONT). PONT
 recognizes Australian usage and spelling, and reflects in a very direct
 manner the strengths of the collection. In the collection you will find
@@ -119,20 +119,20 @@ as creating [Linked Data][].
 ### Getting started: installing OpenRefine and importing data
 
 [Download OpenRefine][] and follow the installation instructions.
-OpenRefine works on all platforms: Windows, Mac, and Linux. `OpenRefine`
+OpenRefine works on all platforms: Windows, Mac, and Linux. *OpenRefine*
 will open in your browser, but it is important to realise that the
 application is run locally and that your data won’t be stored online.
 The data files are available on our [FreeYourMetadata website][], which
 will be used throughout this tutorial. Please download the
-`phm-collection.tsv` file before continuing (also archived on the
+*phm-collection.tsv* file before continuing (also archived on the
 Programming Historian site: as [phm-collection][]).
 
-On the `OpenRefine` start page, create a new project using the
-downloaded data file and click `Next`. By default, the first line will
+On the *OpenRefine* start page, create a new project using the
+downloaded data file and click **Next**. By default, the first line will
 be correctly parsed as the name of a column, but you need to unselect
 the ‘Quotation marks are used to enclose cells containing column
 separators’ checkbox, since the quotes inside the file do not have any
-meaning to `OpenRefine`. Now click on ‘`Create project`‘. If all goes
+meaning to *OpenRefine*. Now click on '**Create project**`'. If all goes
 well, you will see 75,814 rows. Alternatively, you can download the
 [initial OpenRefine project][] directly.
 
@@ -150,11 +150,11 @@ Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website
 ### Get to know your data
 
 The first thing to do is to look around and get to know your data. You
-can inspect the different data values by displaying them in facets. You
+can inspect the different data values by displaying them in `facets`. You
 could consider a [facet][] like a lense through which you view a
 specific subset of the data, based on a criterion of your choice. Click
 the triangle in front of the column name, select Facet, and create a
-facet. For instance, try a ‘Text’ facet or a ‘Numeric’ facet, depending
+facet. For instance, try a ‘`Text`’ facet or a ‘`Numeric`’ facet, depending
 on the nature of the values contained in the fields (numeric values are
 in green). Be warned, however, that text facets are best used on fields
 with redundant values (Categories for instance); if you run into a ‘too
@@ -185,15 +185,15 @@ by sorting them by a unique value, such as the Record ID (in this case
 we are assuming the Record ID should in fact be unique for each entry).
 The operation can be performed by clicking the triangle left of Record
 ID, then choosing ‘Sort’… and selecting the ‘numbers’ bullet. In
-`OpenRefine`, sorting is only a visual aid, unless you make the
+*OpenRefine*, sorting is only a visual aid, unless you make the
 reordering permanent. To do this, click ‘the’ Sort menu that has just
 appeared at the top and choose ‘Reorder rows permanently’. If you forget
 to do this, you will get unpredictable results later in this tutorial.
 
 Identical rows are now adjacent to each other. Next, blank the Record ID
 of rows that have the same Record ID as the row above them, marking them
-duplicates. To do this, click on the Record ID triangle, choose ‘Edit
-cells’ \> ‘Blank down’. The status message tells you that 84 columns
+duplicates. To do this, click on the Record ID triangle, choose **Edit
+cells** \> ‘Blank down’. The status message tells you that 84 columns
 were affected (if you forgot to reorder rows permanently, you will get
 only 19; if so, undo the blank down operation in the ‘Undo/Redo’ tab and
 go back to the previous paragraph to make sure that rows are reordered
@@ -379,7 +379,7 @@ cleaning features, as you’re performing these steps on a copy of your
 data set, and `OpenRefine` allows you to trace back all of your steps in
 the case you have made an error.
 
-  [`OpenRefine`]: http://openrefine.org "OpenRefine"
+  [*OpenRefine*]: http://openrefine.org "OpenRefine"
   [Powerhouse museum]: http://www.powerhousemuseum.com
     "Powerhouse museum"
   [`Potter’s Wheel ABC`]: http://control.cs.berkeley.edu/abc/
