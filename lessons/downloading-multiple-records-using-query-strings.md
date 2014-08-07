@@ -62,13 +62,8 @@ searches on the Old Bailey website, we get results like in these
 screenshots:
 
 {% include figure.html src="../images/SearchResultsNegro.png" caption="Search results for 'negro' in the Old Bailey Online" %}
-TAAAAAA
-![][]
-Search results for “negro” in the Old Bailey Online
 
-![][1]
-
-Search results for “mulatto” in the Old Bailey Online
+{% include figure.html src="../images/SearchResultsMulatto.png" caption="Search results for 'mulatto' in the Old Bailey Online" %}
 
 After glancing through these search results, it seems clear that these
 are references to people, rather than horses or cloth or other things
@@ -101,9 +96,7 @@ Perform the search shown in the image below. Make sure you tick the
 “Advanced” radio button and include the `*` wildcards to include
 pluralized entries or those with an extra “e” on the end.
 
-![][2]
-
-Old Bailey Advanced Search Example
+{% include figure.html src="../images/AdvancedSearchExample.png" caption="Old Bailey Advanced Search Example" %}
 
 Execute the search and then click on the “[Calculate Total][]” link to
 see how many entries there are. We now have 13 results (if you have a
