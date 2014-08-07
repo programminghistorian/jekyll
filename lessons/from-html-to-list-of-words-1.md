@@ -26,9 +26,9 @@ The Challenge
 
 To get a clearer picture of the task ahead, open the
 `obo-t17800628-33.html` file that you created in [Working with Web
-Pages][Working with Webpages], or [download and save the trial][Benjamin
-Bowsey’s 1780 criminal trial transcript] if you do not already have a
-copy, then look at the HTML source by clicking on
+Pages][Working with Webpages] (or [download and save the trial]
+[Benjamin Bowsey’s 1780 criminal trial transcript] if you do not already have a
+copy), then look at the HTML source by clicking on
 `Tools -> Web Developer -> Page Source`. As you scroll through the
 source code you’ll notice that there are a few HTML tags mixed in with
 the text. Because this is a printable version there is far less HTML
