@@ -74,7 +74,7 @@ location of the metadata a potentially useful marker for isolating the
 transcript text.
 
 At a glance, we can see that the metadata ends with two HTML tags:
-`\<hr/\>\<h2\>`. We might be able to use those to find the starting point
+`<hr/><h2>`. We might be able to use those to find the starting point
 of our transcript text. We are lucky in this case because it turns out
 that these tags are a reliable way to find the start of transcript text
 in the printable versions (if you want, take a look at a few other
@@ -100,8 +100,8 @@ The following describes our algorithm in words.
 To isolate the content:
 
 -   Download the transcript text
--   Search the HTML for and store the location of `\<hr/\>\<h2\>`
--   Save everything after the `\<hr/\>\<h2\>` tags to a string:
+-   Search the HTML for and store the location of `<hr/><h2>`
+-   Save everything after the `<hr/><h2>` tags to a string:
     *pageContents*
 
 At this point we have the trial transcript text, plus HTML markup. Next:
@@ -126,12 +126,12 @@ Isolating Desired Content
 
 The following step uses Python commands introduced in the [Manipulating
 Strings in Python][] lesson to implement the first half of the
-algorithm: removing all content before the `\<hr/\>\<h2\>` tags. To recap,
+algorithm: removing all content before the `<hr/><h2>` tags. To recap,
 the algorithm was as follows:
 
 -   Download the transcript text
--   Search the HTML for and store the location of `\<hr/\>\<h2\>`
--   Save everything after the `\<hr/\>\<h2\>` tags to a string:
+-   Search the HTML for and store the location of `<hr/><h2>`
+-   Save everything after the `<hr/><h2>` tags to a string:
     *pageContents*
 
 To achieve this, you will use the find string method and create a new
@@ -179,7 +179,7 @@ print obo.stripTags(HTML)
 When you run *trial-content.py* it will get the web page for Bowsey’s
 trial transcript, then look in the *obo.py* module for the *stripTags*
 function. It will use that function to extract the stuff after the
-`\<hr/\>\<h2\>` tags. With any luck, this should be the textual content of
+`<hr/><h2>` tags. With any luck, this should be the textual content of
 the Bowsey transcript, along with some of HTML markup. Don’t worry if
 your Command Output screen ends in a thick black line. Komodo Edit’s
 output screen has a maximum number of characters it will display, after
