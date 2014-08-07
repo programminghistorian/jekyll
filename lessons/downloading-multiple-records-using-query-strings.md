@@ -300,24 +300,24 @@ containing the first search results page for your search. Check that
 this downloaded properly and then delete the file. We’re going to adapt
 our program to download the other page containing the other 3 entries at
 the same time so we want to make sure we get both. Let’s refine our
-getSearchResults function by adding another function argument called
+`getSearchResults` function by adding another function argument called
 “entries” so we can tell the program how many pages of search results we
 need to download. We will use the value of entries and some simple math
 to determine how many search results pages there are. This is fairly
 straightforward since we know there are ten trial transcripts listed per
 page. We can calculate the number of search results pages by dividing
 the value of entries by 10. We will save this result to an integer
-variable named pageCount. It looks like this:
+variable named `pageCount`. It looks like this:
 
 ``` python
 #determine how many files need to be downloaded.
 pageCount = entries / 10
 ```
 
-However, because pageCount is an integer and cannot have decimal places
+However, because `pageCount` is an integer and cannot have decimal places
 or remainders, Python will drop the remainder. You can test this by
 running this code in your Terminal (Mac & Linux) / Python Command Line
-(Windows) and printing out the value held in pageCount. (Note, from here
+(Windows) and printing out the value held in `pageCount`. (Note, from here
 on, we will use the word Terminal to refer to this program).
 
 ``` python
@@ -335,7 +335,7 @@ get around this problem we use the [modulo][] operator (%) in place of
 the usual division operator (/). Modulo divides the first value by the
 second and returns the remainder. So if the remainder is more than 0, we
 know there is a partial page of results, and we need to increase the
-pageCount value by one. The code should now look like this:
+`pageCount` value by one. The code should now look like this:
 
 ``` python
 #determine how many files need to be downloaded.
