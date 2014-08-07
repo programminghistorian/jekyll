@@ -231,7 +231,7 @@ for it.)
 For extra practice with Regular Expressions, you may find Chapter 7 of
 Mark Pilgrim’s “[Dive into Python][]” a useful tutorial.
 
-  [From HTML to a List of Words (2)]: /lessons/from-html-to-list-of-words-2
+  [From HTML to a List of Words (2)]: ../lessons/from-html-to-list-of-words-2
   [zip file from the previous lesson here.]: /lessons/from-html-to-list-of-words-2#codesync
   [web page]: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
   [From HTML to a List of Words (1)]: /lessons/from-html-to-list-of-words-1
