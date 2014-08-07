@@ -122,7 +122,7 @@ entries and a wide range of other potential sources to make sure that
 there aren’t other special characters that are going to cause problems
 later. We might also try to anticipate situations where we don’t want to
 get rid of punctuation (e.g., distinguishing monetary amounts like
-“\$1629” or “£1295” from dates, or recognizing that “1629-40” has a
+“$1629” or “£1295” from dates, or recognizing that “1629-40” has a
 different meaning than “1629 40”.) This is what professional programmers
 get paid to do: try to think of everything that might go wrong and deal
 with it in advance.
