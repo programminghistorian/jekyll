@@ -232,10 +232,10 @@ For extra practice with Regular Expressions, you may find Chapter 7 of
 Mark Pilgrim’s “[Dive into Python][]” a useful tutorial.
 
   [From HTML to a List of Words (2)]: ../lessons/from-html-to-list-of-words-2
-  [zip file from the previous lesson here.]: /lessons/from-html-to-list-of-words-2#codesync
+  [zip file from the previous lesson here.]: ../lessons/from-html-to-list-of-words-2#codesync
   [web page]: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
-  [From HTML to a List of Words (1)]: /lessons/from-html-to-list-of-words-1
-  [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
+  [From HTML to a List of Words (1)]: ../lessons/from-html-to-list-of-words-1
+  [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
   [Unicode]: http://unicode.org/
   [Python support]: http://www.diveintopython.net/xml_processing/unicode.html
   [Dive into Python]: http://www.diveintopython.net/regular_expressions/index.html
