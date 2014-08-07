@@ -527,5 +527,5 @@ saver.
   [Unicode website]: http://www.unicode.org/charts/
   [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
   [Installing Pip and Beautiful Soup]: ../lessons/installing-pip-and-beautiful-soup
-  [Cascading Style Sheets]: http://www.w3schools.com/css/%20target=
+  [Cascading Style Sheets]: http://www.w3schools.com/css/
   [Code Academy’s]: http://www.codecademy.com/courses/css-coding-with-style
