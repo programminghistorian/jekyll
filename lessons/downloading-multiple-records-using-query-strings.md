@@ -244,7 +244,7 @@ We could type this URL out twice and alter the ‘*start*’ variable to get
 us all 13 entries, but let’s write a program that would work no matter
 how many search results pages or records we had to download, and no
 matter what we decide to search for. Study this code and then add this
-function to your `obo.py` module. The comments in the code are meant to
+function to a module named `obo.py` (create a file with that name and save it to the directory where you want to do your work). The comments in the code are meant to
 help you decipher the various parts.
 
 ``` python
