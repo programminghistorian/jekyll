@@ -175,7 +175,7 @@ values are not really blank but contain a single whitespace character,
 which can be seen by moving your cursor to where the value should have
 been and clicking the ‘edit’ button that appears. To remove these rows,
 click the triangle in front of the first column called 'All', select
-'Edit rows', and then 'Remove all matching rows'. Close the numeric
+'**Edit rows**', and then '**Remove all matching rows**'. Close the numeric
 facet to see the remaining 75,811 rows.
 
 ### Removing duplicates
@@ -201,7 +201,7 @@ and not simply sorted). Eliminate those rows by creating a facet on
 '**blank cells**' in the Record ID column ('**Facet**' \> '**Customized facets**' \>
 '**Facet by blank**'), selecting the 84 blank rows by clicking on '**true**',
 and removing them using the '**All**' triangle ('**Edit rows**' \> '**Remove all
-matching rows*'). Upon closing the facet, you see 75,727 unique rows.
+matching rows**'). Upon closing the facet, you see 75,727 unique rows.
 
 Be aware that special caution is needed when eliminating duplicates. In
 the above mentioned step, we assume the dataset has a field with unique
