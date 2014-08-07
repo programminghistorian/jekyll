@@ -208,7 +208,7 @@ Excellent - the web page is now converted to Unicode. All the
 ‘\\u0420’-type marks are Unicode and Python knows that they code to
 Cyrillic characters. The forward slash is called an ‘*escape character*’
 and allows Python to do things like use special characters in Unicode or
-signify a line break (‘`\\n`’) in a document. Each counts as just one
+signify a line break (‘`\n`’) in a document. Each counts as just one
 character. Now we can create a Python *dictionary* that will act as the
 transliteration table.
 
