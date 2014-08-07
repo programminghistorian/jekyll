@@ -11,18 +11,11 @@ For all enquiries please contact one of our editors directly.
 General Editors
 ---------------
 
-![Adam Crymble][]Adam Crymble (@Adam\_Crymble) is a Lecturer of Digital
-History at the University of Hertfordshire. He blogs at [Thoughts on
-Public & Digital History][]. He can be reached at
-adam.crymble@gmail.com.
+{% include contact-info.html name="Adam Crymble" %}
 
-![fred gibbs][]Fred Gibbs (@fredgibbs) is an Assistant Professor of
-History at the University of New Mexico, and Lord Chancellor of
-[fredgibbs.net][]. He can be reached at fwgibbs@gmail.com.
+{% include contact-info.html name="Fred Gibbs" %}
 
-![William J. Turkel][]William J. Turkel (@williamjturkel) is an
-Associate Professor of History at the University of Western Ontario and
-director of the Digital Infrastructure for [Network in Canadian History & Environment][] (NiCHE). Website: <http://williamjturkel.net>.
+{% include contact-info.html name="William J. Turkel" %}
 
 Design, Usability, Outreach
 ---------------------------
