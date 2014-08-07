@@ -992,21 +992,21 @@ of it and move on to the next trial.
 
 To do this, we will make use of the Python [try / except][] error
 handling mechanism, as well as a new library: socket. Try and Except are
-a lot like an if / else statement. When you ask Python to try something,
+a lot like an *if / else* statement. When you ask Python to *try* something,
 it will attempt to run the code; if the code fails to achieve what you
-have defined, it will run the except code. This is often used when
-dealing with errors, known as error handling. We can use this to our
+have defined, it will run the *except* code. This is often used when
+dealing with errors, known as *error handling*. We can use this to our
 advantage by telling our program to attempt downloading a page. If it
 fails, we’ll ask it to let us know which file failed and then move on.
-To do this we need to use the socket library, which will allow us to put
+To do this we need to use the `socket` library, which will allow us to put
 a time limit on a download attempt before moving on. This involves
-altering the getIndivTrials function.
+altering the `getIndivTrials` function.
 
-First, we need to load the socket library, which should be done in the
+First, we need to load the `socket` library, which should be done in the
 same way as all of our previous library imports. We will also need to
 set the default socket timeout length – how long do we want to try to
 download a page before we give up. This should go immediately after the
-comment that begins with \#download the page
+comment that begins with `\#download the page`
 
 ```
 import os, urllib2, time, socket
@@ -1017,19 +1017,19 @@ import os, urllib2, time, socket
 ```
 
 Then, we need a new python list that will hold all of the urls that
-failed to download. We will call this failedAttempts and you can insert
-it immediately after the import instructions:
+failed to download. We will call this `failedAttempts` and you can insert
+it immediately after the `import` instructions:
 
 ```
  failedAttempts = []
 ```
 
-Finally, we can add the try / except statement, which is added in much
-the same way as an if / else statement would be. In this case, we will
+Finally, we can add the *try / except* statement, which is added in much
+the same way as an *if / else* statement would be. In this case, we will
 put all of the code designed to download and save the trials in the try
 statement, and in the except statement we will tell the program what we
 want it to do if that should fail. Here, we will append the url that
-failed to download to our new list, failedAttempts
+failed to download to our new list, `failedAttempts`
 
 ``` python
 #...
@@ -1067,7 +1067,7 @@ to download. If there are only one or two, it’s probably fastest just to
 visit the pages manually and use the “Save As” feature of your browser.
 If you are feeling adventurous, you could modify the program to
 automatically download the remaining files. The final version of your
-getSearchResults(), getIndivTrials(), and newDir() functions should now
+`getSearchResults()`, `getIndivTrials()`, and `newDir()` functions should now
 look like this:
 
 ``` python
