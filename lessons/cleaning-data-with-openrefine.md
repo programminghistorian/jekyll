@@ -144,8 +144,7 @@ corresponds to, simply click the persistent link and the website will
 open.
 
 ![Powerhouse Museum Website][]
-
-Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website
+{% include figure.html src="../images/powerhouseScreenshot.png" caption="Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website" %}
 
 ### Get to know your data
 
