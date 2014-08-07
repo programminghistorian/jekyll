@@ -345,13 +345,13 @@ if remainder > 0:
     pageCount += 1
 ```
 
-If we add this to our getSearchResults function just under the
-startValue = 0 line, our program, the code can now calculate the number
+If we add this to our `getSearchResults` function just under the
+*startValue = 0* line, our program, the code can now calculate the number
 of pages that need to be downloaded. However, at this stage it will
 still only download the first page since we have only told the
 downloading section of the function to run once. To correct this, we can
 add that downloading code to a for loop which will download once for
-every number in the pageCount variable. If it reads 1, then it will
+every number in the `pageCount` variable. If it reads 1, then it will
 download once; if it reads 5 it will download five times, and so on.
 Immediately after the if statement you have just written, add the
 following line and indent everything down to `f.close` one additional
@@ -366,10 +366,10 @@ Since this is a for loop, all of the code we want to run repeatedly
 needs to be intended as well. You can see if you have done this
 correctly by looking at the finished code example below. This loop takes
 advantage of Python’s [range][] funciton. To understand this for loop it
-is probably best to think of pageCount as equal to 2 as it is in the
+is probably best to think of `pageCount` as equal to 2 as it is in the
 example. This two lines of code then means: start running with an
 initial loop value of 1, and each time you run, add 1 more to that
-value. When the loop value is the same as pageCount, run once more and
+value. When the loop value is the same as `pageCount`, run once more and
 then stop. This is particularly valuable for us because it means we can
 tell our program to run exactly once for each search results page and
 provides a flexible new skill for controlling how many times a for loop
@@ -385,27 +385,27 @@ for pages in range(1, pageCount+1):
 -> 2
 ```
 
-Before we add all of this code together to our getSearchResults
+Before we add all of this code together to our `getSearchResults`
 function, we have to make two final adjustments. At the end of the for
 loop (but still inside the loop), and after our downloading code has run
-we will need to change the startValue variable, which is used in
+we will need to change the `startValue` variable, which is used in
 building the URL of the page we want to download. If we forget to do
 this, our program will repeatedly download the first search results page
 since we are not actually changing anything in the initial URL. The
-startValue variable, as discussed above, is what controls which search
+`startValue` variable, as discussed above, is what controls which search
 results page we want to download. Therefore, we can request the next
-search results page by increasing the value of startValue by 10 after
+search results page by increasing the value of `startValue` by 10 after
 the initial download has completed. If you are not sure where to put
 this line you can peek ahead to the finished code example below.
 
 Finally, we want to ensure that the name of the file we have downloaded
 is different for each file. Otherwise, each download will save over the
 previous download, leaving us with only a single file of search results.
-To solve this, we can adjust the contents of the filename variable to
-include the value held in startValue so that each time we download a new
-page, it gets a different name. Since startValue is an integer, we will
+To solve this, we can adjust the contents of the `filename` variable to
+include the value held in `startValue` so that each time we download a new
+page, it gets a different name. Since `startValue` is an integer, we will
 have to convert it to a string before we can add it to the filename
-variable. Adjust the line in your program that pertains to the filename
+variable. Adjust the line in your program that pertains to the `filename`
 variable to looks like this:
 
 ``` python
@@ -505,7 +505,7 @@ search results pages are downloaded to a directory with the same name as
 our search query. This will keep our `programming-historian` directory
 more organized. To do this we will create a new directory using the `os`
 library, short for “operating system”. That library contains a function
-called makedirs, which, unsurprisingly, makes a new directory. You can
+called `makedirs`, which, unsurprisingly, makes a new directory. You can
 try this out using the Terminal.
 
 ``` python
@@ -589,7 +589,7 @@ filename = query + '/' + 'search-result' + str(startValue)
 
 If your computer is running Windows you will need to use a backslash
 instead of a forward slash in the above example. Add the above line to
-your getSearchResults page in lieu of the current filename description.
+your `getSearchResults` page in lieu of the current `filename` description.
 
 If you are running Windows, chances are your `downloadSearches.py`
 program will now crash when you run it because you are trying to create
@@ -598,10 +598,10 @@ this problem we can use [regular expressions][] to remove any
 non-Windows-friendly characters. We used regular expressions previously
 in [Counting Frequencies][]. To remove non-alpha-numeric characters from
 the query, first import the regular expressions library immediately
-after you have imported the os library, then use the re.sub() function
-to create a new string named cleanQuery that contains only alphanumeric
-characters. You will then have to substitute cleanQuery as the variable
-used in the os.path.exists(), os.makedirs(), and filename declarations.
+after you have imported the `os` library, then use the `re.sub()` function
+to create a new string named `cleanQuery` that contains only alphanumeric
+characters. You will then have to substitute `cleanQuery` as the variable
+used in the `os.path.exists()`, `os.makedirs()`, and `filename` declarations.
 
 ``` python
 import urllib2, os, re
