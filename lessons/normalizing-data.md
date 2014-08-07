@@ -12,15 +12,15 @@ Lesson Goals
 ------------
 
 The list that we created in the [From HTML to a List of Words (2)][]
-needs some normalizing before it can be used further. We are going to do
-this by applying additional string methods, as well as by using regular
-expressions. Once normalized, we will be able to more easily analyze our
+needs some *normalizing* before it can be used further. We are going to do
+this by applying additional string methods, as well as by using *regular*
+*expressions*. Once normalized, we will be able to more easily analyze our
 data.
 
 ### Files Needed For This Lesson
 
--   `html-to-list-1.py`
--   `obo.py`
+-   *html-to-list-1.py*
+-   *obo.py*
 
 If you do not have these files from the previous lesson, you can
 download a [zip file from the previous lesson here.][]
@@ -29,9 +29,9 @@ Cleaning up the List
 --------------------
 
 In [From HTML to a List of Words (2)][], we wrote a Python program
-called *`html-to-list-1.py`* which downloaded a [web page][], stripped
+called *html-to-list-1.py* which downloaded a [web page][], stripped
 out the HTML formatting and metadata and returned a list of “words” like
-the one shown below. Technically, these entities are called “tokens”
+the one shown below. Technically, these entities are called “*tokens*”
 rather than “words”. They include some things that are, strictly
 speaking, not words at all (like the abbreviation &c. for “etcetera”).
 They also include some things that may be considered composites of more
@@ -87,12 +87,12 @@ So, the steps involved might look like this:
 Convert to Lower Case
 ---------------------
 
-Typically tokens are folded to lower case when counting frequencies, so
+Typically tokens are *folded* to lower case when counting frequencies, so
 we’ll do that using the string method lower which was introduced in
 [Manipulating Strings in Python][]. Since this is a string method we
-will have to apply it to the string: text in the *`html-to-list1.py`*
-program. Amend *`html-to-list1.py`* by adding the string tag lower() to
-the the end of the text string.
+will have to apply it to the string: *text* in the *html-to-list1.py*
+program. Amend *html-to-list1.py* by adding the string tag `lower()` to
+the the end of the *text* string.
 
 ``` python
 #html-to-list1.py
@@ -117,13 +117,13 @@ short and make some pretty significant changes to our program.
 Like we said before, Python makes it easy to do a lot with very little
 code!
 
-At this point, we might look through a number of other Old Bailey Online
+At this point, we might look through a number of other *Old Bailey Online*
 entries and a wide range of other potential sources to make sure that
 there aren’t other special characters that are going to cause problems
 later. We might also try to anticipate situations where we don’t want to
 get rid of punctuation (e.g., distinguishing monetary amounts like
-“\$1629″ or “£1295″ from dates, or recognizing that “1629-40″ has a
-different meaning than “1629 40″.) This is what professional programmers
+“\$1629” or “£1295” from dates, or recognizing that “1629-40” has a
+different meaning than “1629 40”.) This is what professional programmers
 get paid to do: try to think of everything that might go wrong and deal
 with it in advance.
 
@@ -144,7 +144,7 @@ Python Regular Expressions
 We’ve eliminated upper case letters. That just leaves all the
 punctuation to get rid of. Punctuation will throw off our frequency
 counts if we leave them in. We want “evening?” to be counted as
-“evening” and “1780.” as “1780″, of course.
+“evening” and “1780.” as “1780”, of course.
 
 It is possible to use the replace string method to remove each type of
 punctuation:
@@ -157,8 +157,8 @@ text = text.replace(',', '')
 ```
 
 But that’s not very efficient. In keeping with our goal of creating
-short, powerful programs, we’re going to use a mechanism called regular
-expressions. Regular expressions are provided by many programming
+short, powerful programs, we’re going to use a mechanism called *regular*
+*expressions*. Regular expressions are provided by many programming
 languages in a range of different forms.
 
 Regular expressions allow you to search for well defined patterns and
@@ -173,12 +173,12 @@ more.
 
 In Python, regular expressions are available as a Python module. To
 speed up processing it is not loaded automatically because not all
-programs require it. So, you will have to import the module (called
-`re`) in the same way that you imported your *`obo.py`* module.
+programs require it. So, you will have to `import` the module (called
+*re*) in the same way that you imported your *obo.py* module.
 
 Since we’re interested in only alphanumeric characters, we’ll create a
 regular expression that will isolate only these and remove the rest.
-Copy the following function and paste it into the *`obo.py`* module at
+Copy the following function and paste it into the *obo.py* module at
 the end. You can leave the other functions in the module alone, as we’ll
 continue to use those.
 
@@ -192,17 +192,17 @@ def stripNonAlphaNum(text):
 ```
 
 The regular expression in the above code is the material inside the
-string, in other words W+. The W is shorthand for the class of
-non-alphanumeric characters. In a Python regular expression, the plus
-sign (+) matches one or more copies of a given character. The re.UNICODE
+string, in other words `W+`. The `W` is shorthand for the class of
+*non-alphanumeric characters*. In a Python regular expression, the plus
+sign (+) matches one or more copies of a given character. The `re.UNICODE`
 tells the interpreter that we want to include characters from the
 world’s other languages in our definition of “alphanumeric”, as well as
 the A to Z, a to z and 0-9 of English. Regular expressions have to be
-compiled before they can be used, which is what the rest of the
+*compiled* before they can be used, which is what the rest of the
 statement does. Don’t worry about understanding the compilation part
 right now.
 
-When we refine our *`html-to-list1.py`* program, it now looks like this:
+When we refine our *html-to-list1.py* program, it now looks like this:
 
 ``` python
 #html-to-list1.py
