@@ -132,7 +132,7 @@ downloaded data file and click **Next**. By default, the first line will
 be correctly parsed as the name of a column, but you need to unselect
 the ‘Quotation marks are used to enclose cells containing column
 separators’ checkbox, since the quotes inside the file do not have any
-meaning to *OpenRefine*. Now click on '**Create project**`'. If all goes
+meaning to *OpenRefine*. Now click on '**Create project**'. If all goes
 well, you will see 75,814 rows. Alternatively, you can download the
 [initial OpenRefine project][] directly.
 
@@ -214,20 +214,20 @@ verify wether the entire row represents a duplicate or not.
 Once the duplicate records have been removed, we can have a closer look
 at the *Categories* field. On average each object has been attributed
 2.25 categories. These categories are contained within the same field,
-separated by a pipe character ‘|’. Record 9, for instance, contains
-three: ‘Mineral samples|Specimens|Mineral Samples-Geological’. In order
+separated by a pipe character '|'. Record 9, for instance, contains
+three: 'Mineral samples|Specimens|Mineral Samples-Geological'. In order
 to analyze in detail the use of the keywords, the values of the
 Categories field need to be split up into individual cells on the basis
 of the pipe character , expanding the 75,727 records into 170,167 rows.
-Choose ‘Edit cells’, ‘Split multi-valued cells’, entering ‘|’ as the
+Choose '**Edit cells**', '**Split multi-valued cells**', entering '**|**' as the
 value separator. OpenRefine informs you that you now have 170,167 rows.
 
 It is important to fully understand the rows/records paradigm. Make the
 Record ID column visible to see what is going on. You can switch between
-‘rows’ and ‘records’ view by clicking on the so-labelled links just
+'rows' and 'records' view by clicking on the so-labelled links just
 above the column headers. In the ‘rows view’, each row represents a
 couple of Record IDs and a single Category, enabling manipulation of
-each one individually. The ‘records view’ has an entry for each Record
+each one individually. The 'records view' has an entry for each Record
 ID, which can have different categories on different rows (grouped
 together in grey or white), but each record is manipulated as a whole.
 Concretely, there now are 170,167 category assignments (rows), spread
@@ -239,25 +239,25 @@ time being, we will come back to this small difference later.
 
 Once the content of a field has been properly atomized, filters, facets,
 and clusters can be applied to give a quick and straightforward overview
-of classic metadata issues. By applying the customized facet ‘Facet by
-blank’, one can immediately identify the 461 records that do not have a
+of classic metadata issues. By applying the customized facet '`Facet by
+blank`', one can immediately identify the 461 records that do not have a
 category, representing 0.6% of the collection. Applying a text facet to
 the Categories field allows an overview of the 4,934 different
 categories used in the collection (the default limit being 2,000, you
-can click ‘Set choice count limit’ to raise it to 5,000). The headings
-can be sorted alphabetically or by frequency (‘count’), giving a list of
+can click '**Set choice count limit**' to raise it to 5,000). The headings
+can be sorted alphabetically or by frequency ('count'), giving a list of
 the most used terms to index the collection. The top three headings are
-‘Numismatics’ (8,041), ‘Ceramics’ (7,390) and ‘Clothing and dress’
+'Numismatics' (8,041), 'Ceramics' (7,390) and 'Clothing and dress'
 (7,279).
 
-After the application of a facet, `OpenRefine` proposes to cluster facet
+After the application of a facet, *OpenRefine* proposes to cluster facet
 choices together based on various similarity methods. As Figure 2
 illustrates, the clustering allows you to solve issues regarding case
 inconsistencies, incoherent use of either the singular or plural form,
-and simple spelling mistakes. `OpenRefine` presents the related values
+and simple spelling mistakes. *OpenRefine* presents the related values
 and proposes a merge into the most recurrent value. Select values you
 wish to cluster by selecting their boxes individually or by clicking
-‘Select all’ at the bottom, then chose ‘Merge Selected and Re-Cluster’.
+'**Select all**' at the bottom, then chose '**Merge Selected and Re-Cluster**'.
 
 ![Screenshot of OpenRefine Example][]
 
@@ -268,8 +268,8 @@ find all clusters yet. Experiment with different methods to see what
 results they yield. Be careful though: some methods are too aggressive,
 so you might end up clustering values that do not belong together. Now
 that the values have been clustered individually, we can put them back
-together in a single cell. Click the Categories triangle and choose Edit
-cells, Join multi-valued cells, OK. Choose the pipe character as a
+together in a single cell. Click the Categories triangle and choose **Edit
+cells**, **Join multi-valued cells**, **OK**. Choose the pipe character (|) as a
 separator. The rows now look like before, with a multi-valued Categories
 field.
 
@@ -281,15 +281,15 @@ find the cause of this disparity, we need to go back in time before we
 split the categories into separate rows. To do so, toggle the Undo/Redo
 tab right of the Facet/Filter tab, and you will get a history of all the
 actions that you performed since the project was created. Select the
-step just before ‘Split multi-valued cells in column Categories’ (if you
-followed our example this should be ‘Remove 84 rows’) then go back to
+step just before 'Split multi-valued cells in column Categories' (if you
+followed our example this should be 'Remove 84 rows') then go back to
 the Facet/Filter tab.
 
 The issue arose during the splitting operation on the pipe character, so
 there is a strong chance that whatever went wrong is linked to this
 character. Let’s apply a filter on the Categories column by selecting
-‘Text filter’ in the menu. First type a single `|` in the field on the
-left: `OpenRefine` informs you that there are 71,064 matching records
+'Text filter' in the menu. First type a single `|` in the field on the
+left: *OpenRefine* informs you that there are 71,064 matching records
 (i.e. records containing a pipe) out of a total of 75,727. Cells that do
 not contain a pipe can be blank ones, but also cells containing a single
 category with no separator, such as record 29 which only has ‘Scientific
@@ -297,15 +297,15 @@ instruments’.
 
 Now enter a second `|` after the first one to get || (double pipe): you
 can see that 9 records are matching this pattern. These are likely the 9
-records guilty of our discrepancy: when `OpenRefine` splits these up,
+records guilty of our discrepancy: when *OpenRefine* splits these up,
 the double pipe is interpreted as a break between two records instead of
 a meaningless double separator. Now how do we correct these values? Go
-to the menu of the ‘Categories’ field, and choose ‘Edit cells’ \>
-‘Transform’…. Welcome to the custom text tranform interface, a powerful
-functionality of `OpenRefine` using the `OpenRefine` Expression Language
+to the menu of the 'Categories' field, and choose '**Edit cells**' \>
+'**Transform**'…. Welcome to the custom text tranform interface, a powerful
+functionality of *OpenRefine* using the *OpenRefine* Expression Language
 (GREL).
 
-The word ‘value’ in the text field represents the current value of each
+The word 'value' in the text field represents the current value of each
 cell, which you can see below. We can modify this value by applying
 functions to it (see the [GREL documentation][] for a full list). In
 this case, we want to replace double pipes with a single pipe. This can
@@ -316,10 +316,10 @@ not to forget the quotes):
 value.replace('||', '|')
 ```
 
-Under the ‘Expression’ text field, you get a preview of the modified
-values, with double pipes removed. Click OK and try again to split the
-categories with ‘Edit cells’ \> ‘Split multi-valued cells’, the number
-of records will now stay at 75,727 (click the ‘records’ link to
+Under the 'Expression' text field, you get a preview of the modified
+values, with double pipes removed. Click **OK** and try again to split the
+categories with '**Edit cells**' \> '**Split multi-valued cells**', the number
+of records will now stay at 75,727 (click the '**records**' link to
 double-check).
 
 \* \* \*\
@@ -330,7 +330,7 @@ Specimens|Didactic Displays|Models’. The category ‘Models’ appears twice
 without any good reason, so we want to remove this duplicate. Click the
 Categories triangle and choose Edit cells, Join multi-valued cells, OK.
 Choose the pipe character as a separator. Now the categories are listed
-as before. Then select ‘Edit cells’ \> ‘Transform’, also on the
+as before. Then select '**Edit cells**' \> '**Transform**', also on the
 categories column. Using GREL we can successively split the categories
 on the pipe character, look for unique categories and join them back
 again. To achieve this, just type the following expression:
@@ -344,21 +344,21 @@ collection.
 
 ### Exporting your cleaned data
 
-Since you first loaded your data into `OpenRefine`, all cleaning
+Since you first loaded your data into *OpenRefine*, all cleaning
 operations have been performed in the software memory, leaving your
 original data set untouched. If you want to save the data that you have
-been cleaning, you need to export them by clicking on the ‘Export’ menu
-top-right of the screen. `OpenRefine` supports a large variety of
+been cleaning, you need to export them by clicking on the '**Export**' menu
+top-right of the screen. *OpenRefine* supports a large variety of
 formats, such as [CSV][], HTML or Excel: select whatever suits you best
-or add your own export template by clicking ‘Templating’. You can also
-export your project in the internal `OpenRefine` format in order to
+or add your own export template by clicking 'Templating'. You can also
+export your project in the internal *OpenRefine* format in order to
 share it with others.
 
 ### Building on top of your cleaned data
 
 Once your data has been cleaned, you can take the next step and explore
-other exciting features of `OpenRefine`. The user community of
-`OpenRefine` has developed two particularly interesting extensions which
+other exciting features of *OpenRefine*. The user community of
+*OpenRefine* has developed two particularly interesting extensions which
 allow you to link your data to data that has already been published on
 the Web. The [RDF Refine extension][] transforms plaintext keywords into
 URLs. The [NER extension][] allows you to apply named-entity recognition
@@ -374,17 +374,17 @@ quick overview of how many empty values your dataset contains and how
 often a particular value (e.g. a keyword) is used throughout a
 collection. This lessons also demonstrated how to solve recurrent issues
 such as duplicates and spelling inconsistencies in an automated manner
-with the help of `OpenRefine`. Don’t hesitate to experiment with the
-cleaning features, as you’re performing these steps on a copy of your
-data set, and `OpenRefine` allows you to trace back all of your steps in
+with the help of *OpenRefine*. Don't hesitate to experiment with the
+cleaning features, as you're performing these steps on a copy of your
+data set, and *OpenRefine* allows you to trace back all of your steps in
 the case you have made an error.
 
   [*OpenRefine*]: http://openrefine.org "OpenRefine"
   [Powerhouse museum]: http://www.powerhousemuseum.com
     "Powerhouse museum"
-  [`Potter’s Wheel ABC`]: http://control.cs.berkeley.edu/abc/
+  [*Potter’s Wheel ABC*]: http://control.cs.berkeley.edu/abc/
     "Potter's Wheel ABC "
-  [`Wrangler`]: http://vis.stanford.edu/papers/wrangler/ "Wrangler"
+  [*Wrangler*]: http://vis.stanford.edu/papers/wrangler/ "Wrangler"
   [data profiling]: http://en.wikipedia.org/wiki/Data_profiling
   [named-entity recognition]: http://en.wikipedia.org/wiki/Named-entity_recognition
   [Library of Congress]: http://www.loc.gov/index.html
