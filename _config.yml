@@ -8,7 +8,7 @@ safe: true
 pygments: true
 markdown: redcarpet
 redcarpet:
- extensions: ['tables', 'smart', 'with-toc-data']
+ extensions: ['tables', 'smart', 'with_toc_data']
 
 
 
