@@ -90,7 +90,9 @@
   code {font-size: 80%; padding: 0 0.5em;}
 
   /* Improve readability of pre-formatted text in all browsers */
-  pre { white-space: pre; word-wrap: normal; overflow: auto; margin:0 0 1em; padding:1em 1em; border: 1px solid #eee;}
+  pre { white-space: pre; word-wrap: normal; overflow: auto; margin:0; padding:1em 1em; border: 1px solid #eee;}
+
+  pre code {padding: 0;}
 
   q { quotes: none; }
   q:before, q:after { content: ""; content: none; }
@@ -464,6 +466,12 @@ table tfoot {
     margin: 0.25em 140px;
   }
 
+  .contact-box {
+    display: block;
+	width: 100%;
+	clear: both;
+  }
+
   .author-name {
     font-weight: 600;
     color: #999;
@@ -509,6 +517,11 @@ table tfoot {
     display:none;
   }
 
+  .avatar {
+    float: left;
+	margin: 0 15px 15px 0;
+	width: 100px;
+  }
   .toc-author {
     display: block;
 	float: right;
@@ -662,6 +675,16 @@ table tfoot {
     float:right;
     margin-left: 1em;
   }
+
+  .fa {
+    margin-top: 0.4em;
+    margin-right: 0.4em;
+  }
+
+  a:link .fa {color: #999;}
+  a:visited .fa {color: #999;}
+  a:hover .fa {color: #222;}
+  a:active .fa {color: #222;}
 
   .commentlist .says,
   .commentmetadata {

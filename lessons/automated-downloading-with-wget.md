@@ -7,12 +7,12 @@ reviewers: Aurélien Berra, Adam Crymble
 layout: default
 ---
 
-Editor’s Note
+Editor's Note
 -------------
 
 This lesson requires you to use the command line. If you have no
 previous experience using the command line you may find it helpful to
-work through the Scholar’s Lab [Command Line Bootcamp][] tutorial.
+work through the Scholar's Lab [Command Line Bootcamp][] tutorial.
 
 Lesson Goals
 ------------
@@ -20,12 +20,10 @@ Lesson Goals
 This is a lesson designed for intermediate users, although beginner
 users should be able to follow along.
 
-Wget is a useful program, run through your computer’s command line, for
+Wget is a useful program, run through your computer's command line, for
 retrieving online material.
 
-![][]
-
-The Mac Command Line, “Terminal”
+{% include figure.html src="../images/Terminal-on-mac2.png" caption="The Mac Command Line, Terminal" %}
 
 It can be useful in the following situations:
 
@@ -33,7 +31,7 @@ It can be useful in the following situations:
     website. This website might contain historical documents, or it may
     simply be your own personal website that you want to back up. One
     command can download the entire site onto your computer.
--   Downloading specific files in a website’s hierarchy (all websites
+-   Downloading specific files in a website's hierarchy (all websites
     within a certain part of a website, such as every page that is
     contained within the `/papers/` directory of a website).
 
@@ -51,14 +49,14 @@ lessons here, you should be okay. You should always build a delay into
 your commands so that you do not overload the servers, and should also
 always put a limit on the speed to which you download. This is all part
 of being a good Internet citizen, and can be seen as analogous to
-sipping from a firehose rather than turning it on all at once (it’s not
+sipping from a firehose rather than turning it on all at once (it's not
 good for you, or the water company).
 
 Be as specific as possible when formulating your download. One joke
 suggests that you can accidentally download the entire Internet with
-wget. While that’s a bit of an exaggeration, it isn’t too far off!
+wget. While that's a bit of an exaggeration, it isn't too far off!
 
-Let’s begin.
+Let's begin.
 
 Step One: Installation
 ----------------------
@@ -66,16 +64,16 @@ Step One: Installation
 ### Linux Instructions
 
 If you are using a Linux system, you should already have wget installed.
-To check if you have it, open up your command line. Type `‘wget’` and
+To check if you have it, open up your command line. Type `'wget'` and
 press enter. If you have wget installed the system will respond with:
 
-``` bash
+```
 -> Missing URL.
 ```
 
 If you do not have wget installed, it will respond with
 
-``` bash
+```
 -> command not found.
 ```
 
@@ -91,17 +89,16 @@ On OS X, there are two ways to get wget and install it. The easiest is
 to install a package manager and use it to automatically install wget.
 There is a second method, discussed below, that involves compiling it.
 
-Both, however, require that you install Apple’s ‘Command Line Tools’ to
-use properly. This requires downloading XCode. If you have the ‘App
-Store’, you should be able to just [download XCode via this link][].  If
+Both, however, require that you install Apple's 'Command Line Tools' to
+use properly. This requires downloading XCode. If you have the 'App
+Store', you should be able to just [download XCode via this link][].  If
 not, the following instructions will work.
 
 To download this, go to the [Apple Developer website][], register as a
-developer, and then in the [downloads for Apple developers][Apple
-Developer website] section you will need to find the correct version. If
+developer, and then in the [downloads for Apple developers][Apple Developer website] section you will need to find the correct version. If
 you are on the most recent version, Lion as of July 2012, you can use
-the main link. If not, you will need to click on the link: “Looking for
-additional developer tools? [View Downloads][].”
+the main link. If not, you will need to click on the link: "Looking for
+additional developer tools? [View Downloads][]."
 
 After logging in with your free developer credentials, you will see a
 long list. Type xcode in the search bar and find a version that is
@@ -113,8 +110,8 @@ X 10.5 Leopard, etc.
 It is a big download, and will take some time. Once you have the file,
 install it.
 
-You will need to install the ‘**Command Line Tools**’ kit in XCode. Open
-up the ‘Preferences’ tab, click on ‘Downloads,’ and then click ‘Install’
+You will need to install the '**Command Line Tools**' kit in XCode. Open
+up the 'Preferences' tab, click on 'Downloads,' and then click 'Install'
 next to Command Line Tools. We are now ready to install a package
 manager.
 
@@ -164,7 +161,7 @@ wget
 
 If you have installed it, you will see:
 
-``` bash
+```
 -> Missing URL.
 ```
 
@@ -186,7 +183,7 @@ keep your infrastructure to a minimum. Follow the same instructions
 again to install xcode and the Command Line Tools set.
 
 Then you can subsequently download an uncompiled version of wget from
-the [GNU website][] (I chose to download the file ‘wget-1.13.tar.gz’,
+the [GNU website][] (I chose to download the file 'wget-1.13.tar.gz',
 which you can find by following the link to either the [HTTP][] or
 [FTP][] download pages), unzip it (by double-clicking on it) into your
 home directory (on a Mac, this will be your `/user/` directory – for
@@ -213,7 +210,7 @@ like. Accordingly, type:
 ./configure –with-ssl=openssl
 ```
 
-Now that we have the blueprints, let\\’s tell our computer to follow
+Now that we have the blueprints, let\\'s tell our computer to follow
 them. Type:
 
 ``` bash
@@ -228,7 +225,7 @@ you actually install the file into your system.
 sudo make install
 ```
 
-At this point, you will be prompted for your computer’s password. Type
+At this point, you will be prompted for your computer's password. Type
 it.
 
 You should now have wget installed.
@@ -247,7 +244,7 @@ Step Two: Learning about the Structure of Wget – Downloading a Specific Set of
 ------------------------------------------------------------------------------------
 
 At this point, users of all three platforms should be on the same page.
-We use wget through our operating system’s command line interface
+We use wget through our operating system's command line interface
 (introduced previously as `Terminal` for Mac and Linux users, where you
 have been playing around with some Python commands). You need to use
 your command line, instead of the Komodo Edit client you may have used
@@ -256,7 +253,7 @@ in other lessons.
 The comprehensive documentation for wget can be found on the [GNU wget
 manual][] page.
 
-Let’s take an example dataset. Say you wanted to download all of the
+Let's take an example dataset. Say you wanted to download all of the
 papers hosted on the website ActiveHistory.ca. They are all located at:
 <http://activehistory.ca/papers/>; in the sense that they are all
 contained within the `/papers/` directory: for example, the 9th paper
@@ -274,7 +271,7 @@ the quickest approach.
 
 To make sure wget is working, try the following.
 
-In your working directory, make a new directory. Let’s call it
+In your working directory, make a new directory. Let's call it
 `wget-activehistory`. You can make this using your Finder/Windows, or if
 you are at a Terminal window at that path, you can type:
 
@@ -290,7 +287,7 @@ the `wget-activehistory` directory. As a reminder, you can type:
 cd [directory]
 ```
 
-to navigate to a given directory. If you’ve made this directory in your
+to navigate to a given directory. If you've made this directory in your
 home directory, you should be able to type `cd wget-activehistory` to
 move to your new directory.
 
@@ -303,7 +300,7 @@ wget http://activehistory.ca/papers/
 After some initial messages, you should see the following (figures,
 dates and some details will be different, however):
 
-``` bash
+```
 Saving to: `index.html.1'
 
 [] 37,668 --.-K/s in 0.1s
@@ -313,7 +310,7 @@ Saving to: `index.html.1'
 
 What you have done is downloaded just the first page of
 <http://activehistory.ca/papers/>, the index page for the papers to your
-new directory. If you open it, you’ll see the main text on the home page
+new directory. If you open it, you'll see the main text on the home page
 of ActiveHistory.ca. So at a glance, we have already quickly downloaded
 something.
 
@@ -331,7 +328,7 @@ as it tells the program where to go. Options, however, give the program
 a bit more information about what exactly we want to do. The program
 knows that an option is an option by the presence of a dash before the
 variable. This lets it know the difference between the URL and the
-options. So let’s learn a few commands now:
+options. So let's learn a few commands now:
 
     -r
 
@@ -356,7 +353,7 @@ have a short version, this could be initiated using -np).
 
 This is an important one. What this means is that wget should follow
 links, but not beyond the last parent directory. In our case, that means
-that it won’t go anywhere that is not part of the
+that it won't go anywhere that is not part of the
 http://activehistory.ca/papers/ hierarchy. If it was a long path such as
 http://niche-canada.org/projects/events/new-events/not-yet-happened-events/,
 it would only find files in the `/not-yet-happened-events/` folder. It
@@ -364,16 +361,14 @@ is a critical command for delineating your search.
 
 Here is a graphical representation:
 
-![][1]
-
-A graphical representation of how “no-parent” works with wget
+{% include figure.html src="../images/active-history-chart_edited-1.jpg" caption="A graphical representation of how 'no-parent' works with wget" %}
 
 Finally, if you do want to go outside of a hierarchy, it is best to be
 specific about how far you want to go. The default is to follow each
 link and carry on to a limit of five pages away from the first page you
 provide. However, perhaps you just want to follow one link and stop
 there? In that case, you could input `-l 2`, which takes us to a depth
-of two web-pages. Note this is a lower-case ‘L’, not a number 1.
+of two web-pages. Note this is a lower-case 'L', not a number 1.
 
 ``` bash
 -l 2
@@ -394,10 +389,10 @@ to share the load. The command -`w 10`, then, adds a ten second wait in
 between server requests. You can shorten this, as ten seconds is quite
 long. In my own searches, I often use a 2 second wait. On rare
 occasions, you may come across a site that blocks automated downloading
-altogether. The website’s terms of service, which you should consult,
+altogether. The website's terms of service, which you should consult,
 may not mention a policy on automated downloading, but steps to prohibit
-it may be built into their website’s architecture nonetheless. In such
-rare cases, you can use the command ––random-wait which will vary the
+it may be built into their website's architecture nonetheless. In such
+rare cases, you can use the command `––random-wait` which will vary the
 wait by 0.5 and 1.5 times the value you provide here.
 
 Another critical comment is to limit the bandwidth you will be using in
@@ -407,8 +402,8 @@ the download:
 --limit-rate=20k
 ```
 
-This is another important, polite command. You don’t want to use up too
-much of the servers’ bandwidth. So this command will limit the maximum
+This is another important, polite command. You don't want to use up too
+much of the servers' bandwidth. So this command will limit the maximum
 download speed to 20kb/s. Opinion varies on what a good limit rate is,
 but you are probably good up to about 200kb/s for small files – however,
 not to tax the server, let us keep it at 20k. This will also keep us at
@@ -416,7 +411,7 @@ not to tax the server, let us keep it at 20k. This will also keep us at
 
 ### Step Three: Mirror an Entire Website
 
-Ok, with all of this, let’s finally download all of the ActiveHistory.ca
+Ok, with all of this, let's finally download all of the ActiveHistory.ca
 papers. Note that the trailing slash on the URL is critical – if you
 omit it, wget will think that papers is a file rather than a directory.
 Directories end in slashes. Files do not. The command will then download
@@ -433,7 +428,7 @@ directory labeled `ActiveHistory.ca` that contains the `/papers/`
 sub-directory – perfectly mirrored on your system. This directory will
 appear in the location that you ran the command from in your command
 line, so likely is in your `USER` directory. Links will be replaced with
-internal links to the other pages you’ve downloaded, so you can actually
+internal links to the other pages you've downloaded, so you can actually
 have a fully working ActiveHistory.ca site on your computer. This lets
 you start to play with it without worrying about your internet speed.
 
@@ -447,9 +442,9 @@ wget.
 
     -m
 
-This command means ‘mirror,’ and is especially useful for backing up an
+This command means 'mirror,' and is especially useful for backing up an
 entire website. It introduces the following set of commands:
-time-stamping, which looks at the date of the site and doesn’t replace
+time-stamping, which looks at the date of the site and doesn't replace
 it if you already have that version on your system (useful for repeated
 downloads), as well as infinite recursion (it will go as many layers
 into the site as necessary). The command for mirroring ActiveHistory.ca
@@ -462,10 +457,10 @@ wget -m -w 2 --limit-rate=20k http://activehistory.ca
 A Flexible Tool for Downloading Internet Sources
 ------------------------------------------------
 
-As you become increasingly comfortable with the command line, you’ll
+As you become increasingly comfortable with the command line, you'll
 find wget a helpful addition to your digital toolkit. If there is an
 entire set of archival documents that you want to download for text
-mining, if they’re arranged in a directory and are all together (which
+mining, if they're arranged in a directory and are all together (which
 is not as common as one might think), a quick wget command will be
 quicker than scraping the links with Python. Similarly, you can then
 begin downloading things directly from your command line: programs,
@@ -473,11 +468,10 @@ files, backups, etc.
 
 ### Further Reading
 
-I’ve only given a snapshot of some of wget’s functionalities. For more,
+I've only given a snapshot of some of wget's functionalities. For more,
 please visit the [wget manual][GNU wget manual].
 
   [Command Line Bootcamp]: http://praxis.scholarslab.org/tutorials/bash/
-  []: ../images/Terminal-on-mac2.png "Terminal-on-mac"
   [download XCode via this link]: https://itunes.apple.com/en/app/xcode/id497799835?mt=12
   [Apple Developer website]: https://developer.apple.com/xcode/
   [View Downloads]: https://developer.apple.com/downloads/
@@ -486,5 +480,3 @@ please visit the [wget manual][GNU wget manual].
   [FTP]: ftp://ftp.gnu.org/gnu/wget/
   [ugent website]: http://users.ugent.be/~bpuype/wget/
   [GNU wget manual]: http://www.gnu.org/software/wget/manual/wget.html
-  [1]: ../images/active-history-chart_edited-1.jpg
-    "active-history-chart_edited-1"

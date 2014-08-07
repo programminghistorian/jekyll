@@ -2,8 +2,8 @@ name: Programming Historian
 description: Introductory and intermediate programming lessons for humanists
 baseurl: /jekyll
 url: http://programminghistorian.org
-baseurl: /jekyll
 permalink: :categories/:title
+exclude: [deprecated]
 safe: true
 pygments: true
 markdown: redcarpet
@@ -16,28 +16,61 @@ redcarpet:
 # Author Directory
 
 authors:
+
  Jim-Clifford:
    name: Jim Clifford
    bio: |
         Jim Clifford is an assistant professor in the Department of History 
         at the University of Saskatchewan.
+
  Daniel-Macfarlane:
    name: Daniel Macfarlane
    bio: |
         Daniel Macfarlane is a Visiting Scholar in the School of Canadian
         Studies at Carleton University.
+
  Josh-MacFadyen:
    name: Josh MacFadyen
    bio: |
         Josh MacFadyen is a Project Coordinator at the Network in Canadian 
         History & Environment.
+
  William-J.-Turkel:
    name: William J. Turkel
    bio: |
         William J. Turkel is an Associate Professor of History at the University of Western 
         Ontario and director of the Network in Canadian History & Environment (NiCHE) 
         Digital Infrastructure.
+   url: "http://williamjturkel.net"
+   twitter: williamjturkel
+   github: williamjturkel
+
  Adam-Crymble:
    name: Adam Crymble
    bio: |
         Adam Crymble is a Lecturer of Digital History at the University of Hertfordshire.
+   github: acrymble
+   email: adam.crymble@gmail.com
+   twitter: Adam_Crymble
+   url: "http://adamcrymble.org"
+
+ Caleb-McDaniel:
+   name: Caleb McDaniel
+   bio: |
+        Caleb McDaniel is an assistant professor of history at Rice University.
+
+ Ian-Milligan:
+   name: Ian Milligan
+   bio: |
+        Ian Milligan is an assistant professor of history at the University
+        of Waterloo.
+
+ Fred-Gibbs:
+   name: Fred Gibbs
+   bio: |
+        Fred Gibbs is an assistant professor of history at the University of
+        New Mexico.
+   email: fwgibbs@gmail.com
+   url: "http://fredgibbs.net"
+   github: fredgibbs
+   twitter: fredgibbs
