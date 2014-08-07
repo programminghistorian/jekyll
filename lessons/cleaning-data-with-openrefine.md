@@ -143,7 +143,6 @@ object on the museum website. To get an idea of what object the metadata
 corresponds to, simply click the persistent link and the website will
 open.
 
-![Powerhouse Museum Website][]
 {% include figure.html src="../images/powerhouseScreenshot.png" caption="Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website" %}
 
 ### Get to know your data
@@ -258,9 +257,7 @@ and proposes a merge into the most recurrent value. Select values you
 wish to cluster by selecting their boxes individually or by clicking
 '**Select all**' at the bottom, then chose '**Merge Selected and Re-Cluster**'.
 
-![Screenshot of OpenRefine Example][]
-
-Figure 2 : Overview of some clusters
+{% include figure.html src="../images/overviewOfSomeClusters.png" caption="Figure 2 : Overview of some clusters" %}
 
 The default clustering method is not too complicated, so it does not
 find all clusters yet. Experiment with different methods to see what
