@@ -61,8 +61,8 @@ target demographic. If we try these two terms in separate simple
 searches on the Old Bailey website, we get results like in these
 screenshots:
 
-![][]
-
+![][]../images/SearchResultsNegro.png "SearchResultsNegro"
+{% src="../images/searchResultsNegro.png" caption="Search results for 'negro' in the Old Bailey Online" %}
 Search results for “negro” in the Old Bailey Online (click to enlarge)
 
 ![][1]
