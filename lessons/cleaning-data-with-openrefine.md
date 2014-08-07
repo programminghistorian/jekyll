@@ -154,7 +154,7 @@ can inspect the different data values by displaying them in `facets`. You
 could consider a [facet][] like a lense through which you view a
 specific subset of the data, based on a criterion of your choice. Click
 the triangle in front of the column name, select Facet, and create a
-facet. For instance, try a ‘`Text`’ facet or a ‘`Numeric`’ facet, depending
+facet. For instance, try a `Text` facet or a `Numeric` facet, depending
 on the nature of the values contained in the fields (numeric values are
 in green). Be warned, however, that text facets are best used on fields
 with redundant values (Categories for instance); if you run into a ‘too
@@ -174,8 +174,8 @@ the Numeric checkbox, leaving only Non-numeric values. Actually, these
 values are not really blank but contain a single whitespace character,
 which can be seen by moving your cursor to where the value should have
 been and clicking the ‘edit’ button that appears. To remove these rows,
-click the triangle in front of the first column called ‘All’, select
-‘Edit rows’, and then ‘Remove all matching rows’. Close the numeric
+click the triangle in front of the first column called 'All', select
+'Edit rows', and then 'Remove all matching rows'. Close the numeric
 facet to see the remaining 75,811 rows.
 
 ### Removing duplicates
@@ -184,24 +184,24 @@ A second step is to detect and remove duplicates. These can be spotted
 by sorting them by a unique value, such as the Record ID (in this case
 we are assuming the Record ID should in fact be unique for each entry).
 The operation can be performed by clicking the triangle left of Record
-ID, then choosing ‘Sort’… and selecting the ‘numbers’ bullet. In
+ID, then choosing '**Sort**'… and selecting the '**numbers**' bullet. In
 *OpenRefine*, sorting is only a visual aid, unless you make the
-reordering permanent. To do this, click ‘the’ Sort menu that has just
-appeared at the top and choose ‘Reorder rows permanently’. If you forget
+reordering permanent. To do this, click the Sort menu that has just
+appeared at the top and choose '**Reorder rows permanently**'. If you forget
 to do this, you will get unpredictable results later in this tutorial.
 
 Identical rows are now adjacent to each other. Next, blank the Record ID
 of rows that have the same Record ID as the row above them, marking them
 duplicates. To do this, click on the Record ID triangle, choose **Edit
-cells** \> ‘Blank down’. The status message tells you that 84 columns
+cells** \> **Blank down**. The status message tells you that 84 columns
 were affected (if you forgot to reorder rows permanently, you will get
-only 19; if so, undo the blank down operation in the ‘Undo/Redo’ tab and
+only 19; if so, undo the blank down operation in the 'Undo/Redo' tab and
 go back to the previous paragraph to make sure that rows are reordered
 and not simply sorted). Eliminate those rows by creating a facet on
-‘blank cells’ in the Record ID column (‘Facet’ \> ‘Customized facets’ \>
-‘Facet by blank’), selecting the 84 blank rows by clicking on ‘true’,
-and removing them using the ‘All’ triangle (‘Edit rows’ \> ‘Remove all
-matching rows’). Upon closing the facet, you see 75,727 unique rows.
+'**blank cells**' in the Record ID column ('**Facet**' \> '**Customized facets**' \>
+'**Facet by blank**'), selecting the 84 blank rows by clicking on '**true**',
+and removing them using the '**All**' triangle ('**Edit rows**' \> '**Remove all
+matching rows*'). Upon closing the facet, you see 75,727 unique rows.
 
 Be aware that special caution is needed when eliminating duplicates. In
 the above mentioned step, we assume the dataset has a field with unique
