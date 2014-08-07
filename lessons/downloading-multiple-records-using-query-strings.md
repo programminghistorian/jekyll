@@ -1210,4 +1210,4 @@ helpful:
   [Counting Frequencies]: ../lessons/counting-frequencies
   [time out]: http://www.checkupdown.com/status/E408.html
   [try / except]: http://docs.python.org/tutorial/errors.html
-  [Python Programming Basics]: ../
+  [Python Programming Basics]: ../lessons
