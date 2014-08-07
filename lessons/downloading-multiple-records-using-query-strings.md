@@ -62,7 +62,7 @@ searches on the Old Bailey website, we get results like in these
 screenshots:
 
 ![][]
-Search results for “negro” in the Old Bailey Online (click to enlarge)
+Search results for “negro” in the Old Bailey Online
 
 ![][1]
 
