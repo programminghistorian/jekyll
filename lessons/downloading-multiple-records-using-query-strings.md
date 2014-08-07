@@ -675,7 +675,7 @@ search results HTML files from the Old Bailey Online website for an
 advanced search that we have defined, and have done so programmatically.
 Now for the next step in the algorithm: Extract the URLs of each trial
 transcript from the search results HTML files. In the lessons that
-precede this one, we have worked with the printer friendly versions of
+precede this one (eg, [Working with Webpages][]), we have worked with the printer friendly versions of
 the trial transcripts, so we will continue to do so. We know that the
 printer friendly version of Benjamin Bowsey’s trial is located at the
 URL:
