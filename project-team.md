@@ -3,11 +3,6 @@ title: Project Team
 layout: directory
 ---
 
-Contact Us
-----------
-
-For all enquiries please contact one of our editors directly.
-
 General Editors
 ---------------
 
