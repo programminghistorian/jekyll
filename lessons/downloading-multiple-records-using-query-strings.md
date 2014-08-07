@@ -790,10 +790,10 @@ That last line of the for loop may look tricky, but make sure you
 understand it before moving on. The words variable is checked to see if
 it contains the characters “id=” (without the quotes), which of course
 refers to a specific trial transcript ID. If it does, we use the slice
-string method to capture only the chunk between id= and & and append it
+string method to capture only the chunk between *id=* and *&* and append it
 to the url list. If we knew the exact index positions of this substring
 we could have used those numerical values instead. However, by using the
-find() string method we have created a much more flexible program. The
+*find()* string method we have created a much more flexible program. The
 following code does exactly the same thing as that last line in a less
 condensed manner.
 
@@ -808,12 +808,12 @@ urls.append(trialID)
 When you re-run `extract-trial-ids.py`, you should now see a list of all
 the trial IDs. We can add a couple extra lines to turn these into proper
 URLs and download the whole list to our new directory. We’ll also use
-the time library to pause our program for three seconds between
+the `time` library to pause our program for three seconds between
 downloads– a technique called throttling. It’s considered good form not
 to pound someone’s server with many requests per second; and the slight
 delay makes it more likely that all the files will actually download
 rather than [time out][]. Add the following code to the end of your
-getIndivTrials() function. This code will generate the URL of each
+`getIndivTrials()` function. This code will generate the URL of each
 individual page, download the page to your computer, place it in your
 new directory, save the file, and pause for 3 seconds before moving on
 to the next trial. This work is all contained in a for loop, and will
