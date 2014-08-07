@@ -324,7 +324,7 @@ Alongside this data is documentation that describes
 ```
 
 Going back a directory level to \\2014-01\_Journal\_Articles\\ we create
-the \\analysis\\ directory in which we place.
+the \\analysis\\ directory in which we place\:
 
 ```
 2014-02-02_Journal_Articles_analysis.txt
