@@ -155,7 +155,7 @@ together with & characters. Together these 10 name/value pairs comprise
 the query string, which tells the search engine what variables to use in
 specific stages of the search. Notice that each name/value pair contains
 both a variable name: toYear, and then assigns that variable a value:
-1750. This works in exactly the same way as Function Arguments by
+1750. This works in exactly the same way as *Function Arguments* by
 passing certain information to specific variables. In this case, the
 most important variable is `\_divs\_fulltext=` which has been given the
 value:
