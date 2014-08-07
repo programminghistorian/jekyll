@@ -500,7 +500,7 @@ def newDir(newDir):
         os.makedirs(dir)
 ```
 
-We want to call this new function in getSearchResults, so that our
+We want to call this new function in `getSearchResults`, so that our
 search results pages are downloaded to a directory with the same name as
 our search query. This will keep our `programming-historian` directory
 more organized. To do this we will create a new directory using the `os`
@@ -899,18 +899,18 @@ def getIndivTrials(query):
         time.sleep(3)
 ```
 
-Let’s add the same three-second pause to our getSearchResults function
+Let’s add the same three-second pause to our `getSearchResults` function
 to be kind to the Old Bailey Online servers:
 
 ``` python
 #create URLs for search results pages and save the files
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entries):
 
-    import urllib2, os, time
+    import urllib2, os, re, time
 
-    #Create a new directory
-    if not os.path.exists(query):
-        os.makedirs(query)
+    cleanQuery = re.sub(r'\W+', '', query)
+    if not os.path.exists(cleanQuery):
+        os.makedirs(cleanQuery)
 
     startValue = 0
 
@@ -939,7 +939,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         webContent = response.read()
 
         #save the result to the new directory
-        filename = query + '/' + 'search-result' + str(startValue)
+        filename = cleanQuery + '/' + 'search-result' + str(startValue)
 
         f = open(filename + ".html", 'w')
         f.write(webContent)
