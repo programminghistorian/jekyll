@@ -57,7 +57,7 @@ to detect errors more easily. Setting up these filters in a spreadsheet
 can be cumbersome, as they are a secondary functionality. On a more
 general level, we could say that spreadsheets are designed to work on
 individual rows and cells, whereas IDTs operate on large ranges of data
-at once. These ‘spreadsheets on steroids’ offer an integrated and
+at once. These 'spreadsheets on steroids' offer an integrated and
 user-friendly interface through which end users can detect and correct
 errors.
 
@@ -111,7 +111,7 @@ vocabulary][]. A controlled vocabulary consists of keywords describing
 the content of a collection using a limited number of terms, and is
 often a key entry point into data sets used by historians in libraries,
 archives and museums. That is why we will give particular attention to
-the ‘Categories’ field. Once the data has been cleaned, it should be
+the 'Categories' field. Once the data has been cleaned, it should be
 possible to reuse the terms in the controlled vocabulary to find
 additional information about the terms elsewhere online, which is known
 as creating [Linked Data][].
@@ -121,7 +121,7 @@ as creating [Linked Data][].
 [Download OpenRefine][] and follow the installation instructions.
 OpenRefine works on all platforms: Windows, Mac, and Linux. *OpenRefine*
 will open in your browser, but it is important to realise that the
-application is run locally and that your data won’t be stored online.
+application is run locally and that your data won't be stored online.
 The data files are available on our [FreeYourMetadata website][], which
 will be used throughout this tutorial. Please download the
 *phm-collection.tsv* file before continuing (also archived on the
@@ -130,8 +130,8 @@ Programming Historian site: as [phm-collection][]).
 On the *OpenRefine* start page, create a new project using the
 downloaded data file and click **Next**. By default, the first line will
 be correctly parsed as the name of a column, but you need to unselect
-the ‘Quotation marks are used to enclose cells containing column
-separators’ checkbox, since the quotes inside the file do not have any
+the 'Quotation marks are used to enclose cells containing column
+separators' checkbox, since the quotes inside the file do not have any
 meaning to *OpenRefine*. Now click on '**Create project**'. If all goes
 well, you will see 75,814 rows. Alternatively, you can download the
 [initial OpenRefine project][] directly.
@@ -157,13 +157,13 @@ the triangle in front of the column name, select Facet, and create a
 facet. For instance, try a `Text` facet or a `Numeric` facet, depending
 on the nature of the values contained in the fields (numeric values are
 in green). Be warned, however, that text facets are best used on fields
-with redundant values (Categories for instance); if you run into a ‘too
-many to display’ error, you can choose to raise the choice count limit
+with redundant values (Categories for instance); if you run into a 'too
+many to display' error, you can choose to raise the choice count limit
 above the 2,000 default, but too high a limit can slow down the
 application (5,000 is usually a safe choice). Numeric facets do not have
 this restriction. For more options, select Customized facets: facet by
 blank, for instance, comes handy to find out how many values were filled
-in for each field. We’ll explore these further in the following
+in for each field. We'll explore these further in the following
 exercises.
 
 ### Remove blank rows
@@ -173,8 +173,8 @@ column, is that three rows are empty. You can find them by unselecting
 the Numeric checkbox, leaving only Non-numeric values. Actually, these
 values are not really blank but contain a single whitespace character,
 which can be seen by moving your cursor to where the value should have
-been and clicking the ‘edit’ button that appears. To remove these rows,
-click the triangle in front of the first column called 'All', select
+been and clicking the '**edit**' button that appears. To remove these rows,
+click the triangle in front of the first column called '**All**', select
 '**Edit rows**', and then '**Remove all matching rows**'. Close the numeric
 facet to see the remaining 75,811 rows.
 
@@ -225,14 +225,14 @@ value separator. OpenRefine informs you that you now have 170,167 rows.
 It is important to fully understand the rows/records paradigm. Make the
 Record ID column visible to see what is going on. You can switch between
 'rows' and 'records' view by clicking on the so-labelled links just
-above the column headers. In the ‘rows view’, each row represents a
+above the column headers. In the 'rows view', each row represents a
 couple of Record IDs and a single Category, enabling manipulation of
 each one individually. The 'records view' has an entry for each Record
 ID, which can have different categories on different rows (grouped
 together in grey or white), but each record is manipulated as a whole.
 Concretely, there now are 170,167 category assignments (rows), spread
 over 75,736 collection items (records). You maybe noticed that we are 9
-records up from the original 75,727, but don’t worry about that for the
+records up from the original 75,727, but don't worry about that for the
 time being, we will come back to this small difference later.
 
 ### Facetting and clustering
@@ -287,13 +287,13 @@ the Facet/Filter tab.
 
 The issue arose during the splitting operation on the pipe character, so
 there is a strong chance that whatever went wrong is linked to this
-character. Let’s apply a filter on the Categories column by selecting
-'Text filter' in the menu. First type a single `|` in the field on the
+character. Let's apply a filter on the Categories column by selecting
+'**Text filter**' in the menu. First type a single `|` in the field on the
 left: *OpenRefine* informs you that there are 71,064 matching records
 (i.e. records containing a pipe) out of a total of 75,727. Cells that do
 not contain a pipe can be blank ones, but also cells containing a single
-category with no separator, such as record 29 which only has ‘Scientific
-instruments’.
+category with no separator, such as record 29 which only has 'Scientific
+instruments'.
 
 Now enter a second `|` after the first one to get || (double pipe): you
 can see that 9 records are matching this pattern. These are likely the 9
@@ -325,8 +325,8 @@ double-check).
 \* \* \*\
  Another issue that can be solved with the help of GREL is the problem
 of records for which the same category is listed twice. Take record 41
-for instance, whose categories are ‘Models|Botanical specimens|Botanical
-Specimens|Didactic Displays|Models’. The category ‘Models’ appears twice
+for instance, whose categories are 'Models|Botanical specimens|Botanical
+Specimens|Didactic Displays|Models'. The category 'Models' appears twice
 without any good reason, so we want to remove this duplicate. Click the
 Categories triangle and choose Edit cells, Join multi-valued cells, OK.
 Choose the pipe character as a separator. Now the categories are listed
