@@ -36,7 +36,7 @@ will allow us to interact with the Zotero API. To install the library,
 in your command line/terminal window enter:
 
 ```
- pip install libZotero 
+pip install libZotero 
 ```
 
 Remember that you may need to use the `sudo` preface and enter your
@@ -48,7 +48,7 @@ Once *libZotero* is installed, we can use it to talk to the Zotero server
 using Python. In your text editor, run the following:
 
 ``` python
- #make the libZotero library available
+#make the libZotero library available
 from libZotero import zotero 
 ```
 
@@ -63,7 +63,7 @@ to include an authentication key, which functions sort of like a
 password.
 
 ``` python
- #create Zotero library object called "zlib"
+#create Zotero library object called "zlib"
 zlib=zotero.Library('group','<insert group ID>','<null>',
 '<insert API key>') 
 ```
@@ -87,7 +87,7 @@ To use the PH2 group library, use the following:
 ```
 
 ``` python
- zlib=zotero.Library('group','155975','<null>',
+zlib=zotero.Library('group','155975','<null>',
 '9GLmvmZ1K1qGAz9QWcdlyf6L') 
 ```
 
@@ -110,14 +110,14 @@ Your output for this step, if you are using our sample collection,
 should look like this:
 
 ``` xml
- value stored in cache - https://api.zotero.org/groups/155975/items/top?limit=5&content=
+value stored in cache - https://api.zotero.org/groups/155975/items/top?limit=5&content=
 json%2Cbib%2Ccoins&key=9GLmvmZ1K1qGAz9QWcdlyf6L 
 ```
 
 Next, we can print some basic information about these items.
 
 ``` python
- # print some data about these five items
+# print some data about these five items
 for item in items:
 print 'Item Type: %s | Key: %s | Title: %s' % (item.itemType,
 item.itemKey, item.title) 
@@ -142,7 +142,7 @@ We can also pull the bibliographic information associated with our first
 five items:
 
 ``` python
- for item in items:
+for item in items:
     print item.bibContent 
 ```
 
@@ -150,8 +150,8 @@ Running this command will print the bibliographic content stored on the
 Zotero servers for these items:
 
 ``` xml
- <div class="csl-bib-body" style="line-height: 1.35; padding-left: 2em; text-indent:-2em;" xmlns="http://www.w3.org/1999/xhtml">
-  <div class="csl-entry">“Benjamin Bowsey.” Accessed March 29, 2013. http://www.oldbaileyonline.org/print.jsp?div=t17800628-33.</div>
+<div class="csl-bib-body" style="line-height: 1.35; padding-left: 2em; text-indent:-2em;" xmlns="http://www.w3.org/1999/xhtml">
+<div class="csl-entry">“Benjamin Bowsey.” Accessed March 29, 2013. http://www.oldbaileyonline.org/print.jsp?div=t17800628-33.</div>
 </div>
 <div class="csl-bib-body" style="line-height: 1.35; padding-left: 2em; text-indent:-2em;" xmlns="http://www.w3.org/1999/xhtml">
   <div class="csl-entry">Noiret, Serge. “Y a T-il Une Histoire Numerique 2.0?” Contribution to book. Accessed July 21, 2011. http://cadmus.eui.eu/handle/1814/18074.</div>
