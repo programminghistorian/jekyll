@@ -37,22 +37,23 @@ authors:
 
  William-J.-Turkel:
    name: William J. Turkel
-   bio: |
-        William J. Turkel is an Associate Professor of History at the University of Western 
-        Ontario and director of the Network in Canadian History & Environment (NiCHE) 
-        Digital Infrastructure.
    url: "http://williamjturkel.net"
    twitter: williamjturkel
    github: williamjturkel
+   bio: |
+        William J. Turkel is an Associate Professor of History at the University of 
+        Western Ontario and director of the Network in Canadian History & 
+        Environment (NiCHE) Digital Infrastructure.
 
  Adam-Crymble:
    name: Adam Crymble
-   bio: |
-        Adam Crymble is a Lecturer of Digital History at the University of Hertfordshire.
    github: acrymble
    email: adam.crymble@gmail.com
    twitter: Adam_Crymble
    url: "http://adamcrymble.org"
+   bio: |
+        Adam Crymble is a Lecturer of Digital History at the University of 
+        Hertfordshire.
 
  Caleb-McDaniel:
    name: Caleb McDaniel
@@ -67,10 +68,17 @@ authors:
 
  Fred-Gibbs:
    name: Fred Gibbs
-   bio: |
-        Fred Gibbs is an assistant professor of history at the University of
-        New Mexico.
    email: fwgibbs@gmail.com
    url: "http://fredgibbs.net"
    github: fredgibbs
    twitter: fredgibbs
+   bio: |
+        Fred Gibbs is an assistant professor of history at the University of
+        New Mexico.
+
+ Kellen-Kurschinski:
+   name: Kellen Kurschinski
+   twitter: Kellen2K
+   bio: |
+        Kellen Kurschinski is a doctoral candidate in history at McMaster
+        University and a Research Officer at the University of Waterloo.
