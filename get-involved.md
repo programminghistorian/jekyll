@@ -3,21 +3,23 @@ title: Get Involved
 author: 
 date: 
 reviewers: 
-layout: default
+layout: blank
 ---
 
+# Join our editorial and review team
+
 -   Interested in teaching humanists about technology?
+
 -   Want to learn new digital humanities tools and techniques, and help
     teach others about them?
+
 -   Hankering for editorial experience you can get credit for?
+
 -   Are you teaching a digital humanities course where students might
     produce lessons that could be published here?
 
-**Join the editorial/review team at Programming Historian!**
 
-WORK
-----
-
+##WORK
 As a way of editing lessons as fast as our contributors can generate
 them, soliciting new lessons that would best serve our readers, and most
 quickly responding to our readers’ needs, we’d love your help. We’re
@@ -26,27 +28,27 @@ recognize potential new lessons that would serve a particular community
 need, and work with lesson authors to guide new lessons through the
 revision process with an exacting eye for clarity and style.
 
-COMMITMENT & TIME
------------------
-
-Want to try your hand at editing? Want to help shape the kinds of
-lessons that appear at Programming Historian? Whatever your interest and
-availability, we’re happy to have your help whenever you decide to make
+## COMMITMENT & TIME
+Have you ever wanted some editorial experience? Want to help shape the kinds of
+lessons that appear at _Programming Historian_? Whatever your interest and
+availability, we’re happy to have your help whenever you can make
 time for us. There is no minimum amount you have to do, and we won’t
-randomly demand that you do something.
+randomly demand that you do something without asking.
 
-We’re not asking for a long-term or an intensive commitment The workload
+We’re not asking for a long-term or an intensive commitment. The workload
 can be however little or much as you’d like. Our hope to is to establish
 a pool of editors so that all new lessons can be edited, revised, and
-published as fast as possible without any bottlenecks.
+published as fast as possible without any bottlenecks, calling on whomever is available at that time.
 
-WHY SHOULD YOU?
----------------
+##WHY SHOULD YOU?
 
-**Learn:** Editing tutorials is a great way to learn about new tools and
-techniques.\
- **Visibility:** Your work as a editor/reviewer will be well publicized
-at Programming Historian, so everyone will know how awesome you are.\
- **Network:** Get to know people working on really cool stuff and
-wanting to share it.\
- **Karma:** Contribute to a good cause.
+- **Learn:** Editing tutorials is a great way to learn about new tools and
+techniques.
+
+- **Visibility:** Your work as a editor/reviewer will be well publicized
+at Programming Historian, so everyone will know how awesome you are.
+
+- **Network:** Get to know people working on really cool stuff and
+wanting to share it.
+
+- **Karma:** Contribute to a good cause.

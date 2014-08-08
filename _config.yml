@@ -8,7 +8,7 @@ safe: true
 pygments: true
 markdown: redcarpet
 redcarpet:
- extensions: ['tables', 'smart']
+ extensions: ['tables', 'smart', 'with_toc_data']
 
 
 
@@ -82,3 +82,22 @@ authors:
    bio: |
         Kellen Kurschinski is a doctoral candidate in history at McMaster
         University and a Research Officer at the University of Waterloo.
+
+ Seth-Bernstein:
+   name: Seth Bernstein
+   bio: |
+        Seth Bernstein is a postdoctoral fellow at the Higher School of Economics 
+        in Moscow.  He defended his doctoral dissertation, "Communist Upbringing 
+        under Stalin: The Political Socialization and Militarization of Soviet 
+        Youth, 1934-1941" at the University of Toronto in 2013.
+
+ James-Baker:
+   name: James Baker
+   bio: |
+        James Baker is a Curator in the Digital Research team at the British 
+        Library and an historian of eighteenth century Britain.
+
+ Amanda-Morton:
+   name: Amanda Morton
+   bio: |
+        Amanda Morton is a DH Fellow at the Center for History and New Media.
