@@ -5,10 +5,10 @@ layout: directory
 
 The Programming Historian always welcomes suggestions and submissions from the community.
 
-What we are looking for
+What we're looking for
 -----------------------
 
-There is no single kind or standard lesson at The Programming Historian.
+There is no single kind or standard lesson at _The Programming Historian_.
 We do insist that all lessons have a clearly defined goal and are
 written with a particular audience in mind. Ideally, readers must
 understand at the outset exactly what skills or results they will
@@ -18,16 +18,17 @@ take between 30 minutes and 1 hour to complete. More expansive lessons
 can be divided into smaller sub-lessons that can be worked through in
 sequence.
 
-Lesson’s We’d Really Love to See
+Lessons we want
 --------------------------------
 
-This isn’t a prescriptive list by any means. But sometimes we editors
+This isn’t a prescriptive or complete list by any means. But sometimes we editors
 come across techniques or tools we think would make great lessons, so we
 put them here in case you’re looking for inspiration.
 
 -   Easy data visualisation on the web using [Variance Charts][].
 
-Why Bother
+
+Why bother
 ----------
 
 From our own experiences as well as from our authors, we know that the
@@ -44,7 +45,8 @@ retweeted. Because we average more than 60,000 unique visitors per year,
 *The Programming Historian* remains a vibrant and visible site for
 community collaboration and education.
 
-Editorial Policy
+
+Editorial policy
 ----------------
 
 ### Open Source, Open Access
