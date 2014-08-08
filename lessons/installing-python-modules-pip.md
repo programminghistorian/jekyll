@@ -2,10 +2,10 @@
 title: Installing Python Modules with pip
 authors:
 - Fred Gibbs
-- Ben Hurwitz
-- Amanda Morton
 date: 2013-05-06
 reviewers: 
+- Ben Hurwitz
+- Amanda Morton
 layout: default
 ---
 
