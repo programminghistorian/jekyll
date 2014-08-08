@@ -54,7 +54,7 @@ has included the following people: Jim Clifford, Amanda Morton, Sheila
 Brennan, John Fink, Luke Bergmann, Aurélien Berra, Nora McGregor,
 Patrick Burns, Sarah Simpkin, Finn Arne Jørgensen, Dave Shepard, Nick
 Ruest, Konrad Lawson, Nick Pearce, Amanda Morton, Spencer Roberts, Jeff
-Bain-Conkin, Saral Palmer. Thanks to all of you.
+Bain-Conkin, Sara Palmer. Thanks to all of you.
 
 Institutional Support
 ---------------------
