@@ -59,8 +59,8 @@ Omeka Exhibit Building
 
 Learn how to present historical materials online.
 
--   [Up and Running with Omeka.net](../lessons/up-and-running-with-omeka) <div class="toc-author">Miriam Posner
--   [Creating an Omeka.net Exhibit](../lessons/creating-an-omeka-exhibit) <div class="toc-author">Miriam Posner
+-   [Up and Running with Omeka.net](../lessons/up-and-running-with-omeka) <div class="toc-author">Miriam Posner</div>
+-   [Creating an Omeka.net Exhibit](../lessons/creating-an-omeka-exhibit) <div class="toc-author">Miriam Posner</div>
 
 Python Programming Basics
 -------------------------
