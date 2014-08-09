@@ -7,16 +7,21 @@ layout: blank
 ---
 
 # Get Involved 
+
 Whether you have found a mistake in a lesson, have new ideas for lessons we should add, want to contribute a lessons of your own, or have constructive criticism to improve the site, we want to know about it!
 
-Email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with any comments, questions, complaints, or suggestions.  We endeavour to respond to all emails within three working days.
+You can report a problem or make suggestions by following our instructions on [how to create an issue in our GitHub repository](https://github.com/programminghistorian/jekyll/wiki/Reporting-Issues).
+
+Or you can email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails within three working days.
 
 -----
-***There are 2 main ways to get involved with the _Programming Historian_***, either by contributing a lesson or helping with editorial work.
+
+***There are two ways to get involved with the _Programming Historian_***: contribute a lesson or help with editorial work.
 
 -----
 
 ## Contribute a Lesson
+
 From our own experiences as well as from our authors, we know that the
 difficult job of writing technically challenging but accessible
 tutorials is one of the best ways to teach yourself particular skills
