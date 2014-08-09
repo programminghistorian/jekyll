@@ -8,7 +8,7 @@ layout: blank
 
 # Get Involved 
 
-Whether you have found a mistake in a lesson, have new ideas for lessons we should add, want to contribute a lessons of your own, or have constructive criticism to improve the site, we want to know about it!
+Whether you have found a mistake in a lesson, have new ideas for lessons we should add, want to contribute lessons of your own, or have constructive criticisms on how to improve the site, we want to hear from you!
 
 You can report a problem or make suggestions by following our instructions on [how to create an issue in our GitHub repository](https://github.com/programminghistorian/jekyll/wiki/Reporting-Issues).
 
