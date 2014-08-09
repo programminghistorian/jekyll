@@ -9,4 +9,4 @@ Our mission is to fill a unique niche for those interested in the Digital Humani
 
 We’ve assembled and carefully edited a variety of lessons that describe and illustrate fundamental programming principles and techniques–such as scraping data from web pages and altering its format to work with various visualization tools–based on real-world examples of historical research. But we’re not all about programming. We offer much more as well, including nearly a dozen tutorials on various popular DH tools, such as MALLET, Omeka, and QGIS.
 
-If you can’t find what you’re looking for, then we’ve failed you. But don’t suffer or sulk in silence! Let us know what you can’t find. Better yet, contribute a lesson.
+If you can’t find what you’re looking for, then we’ve failed you. But don’t suffer or sulk in silence! Let us know what you can’t find. Better yet, [contribute a lesson](contribute).
