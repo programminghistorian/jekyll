@@ -1,13 +1,13 @@
 $(document).ready(function() {
    $('.highlight').each(function() {
-      var btn = document.createElement('input');
+      var btn = document.createElement('button');
           btn.setAttribute('type', 'button');
           // for Firefox
           btn.setAttribute('onclick', 'selectElementContents(this.nextSibling);');
           // for IE
           btn.onclick = function() {selectElementContents(this.nextSibling)};
-          btn.setAttribute('style', 'float: right; font-size: 0.7em; margin-right: -70px; font-family: monospace')
-          btn.value = 'select';
+          btn.setAttribute('style', 'float: right; font-size: 0.8em; margin-right: -40px; background: #fff; border:0;');
+		  btn.innerHTML = '<i class="fa fa-align-left"></i>';
       this.insertBefore(btn, this.firstChild);
    });
 });
