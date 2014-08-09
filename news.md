@@ -1,6 +1,6 @@
 ---
 layout: directory
-title: Blog Posts
+title: News
 ---
 
 {% for post in site.posts %}
