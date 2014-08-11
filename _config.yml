@@ -11,8 +11,6 @@ redcarpet:
  extensions: ['tables', 'smart', 'with_toc_data']
 
 
-
-
 # Author Directory
 
 authors:
@@ -57,11 +55,17 @@ authors:
 
  Caleb-McDaniel:
    name: Caleb McDaniel
+   twitter: wcaleb
+   github: wcaleb
+   url: "http://wcm1.web.rice.edu"
    bio: |
         Caleb McDaniel is an assistant professor of history at Rice University.
 
  Ian-Milligan:
    name: Ian Milligan
+   twitter: ianmilligan1
+   github: ianmilligan1
+   url: "http://ianmilligan.ca"
    bio: |
         Ian Milligan is an assistant professor of history at the University
         of Waterloo.
@@ -101,3 +105,38 @@ authors:
    name: Amanda Morton
    bio: |
         Amanda Morton is a DH Fellow at the Center for History and New Media.
+
+ Miriam-Posner:
+   name: Miriam Posner
+   twitter: miriamkp
+   github: miriamposner
+   url: "http://miriamposner.com"
+   bio: |
+        Miriam Posner is a digital humanities program coordinator at the
+        University of California, Los Angeles.
+
+ Jeremy-Boggs:
+   name: Jeremy Boggs
+   twitter: clioweb
+   url: "http://clioweb.org"
+   bio: |
+        Jeremy Boggs is the Design Architect for Digital Research Scholarship
+        at the University of Virginia Library.
+ 
+ Allison-Hegel:
+   name: Allison Hegel
+   twitter: AllisonHegel
+   bio: |
+        Allison Hegel is a graduate student at UCLA.
+
+ Alan-MacEachern:
+   name: Alan MacEachern
+   url: "http://history.uwo.ca/People/Faculty/maceachern.html"
+   bio: |
+        Alan MacEachern is an Associate Professor of History at the University
+        of Western Ontario and the Director of the Network in Canadian History
+        & Environment (NiCHE).
+
+ Carrie-Sanders:
+   name: Carrie Sanders
+   bio: "Carrie Sanders is a Ph.D candidate in history at UCLA."

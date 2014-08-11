@@ -15,30 +15,25 @@ General Editors
 Design, Usability, Outreach
 ---------------------------
 
-![][]Jeremy Boggs (@clioweb) is the Design Architect for Digital
-Research Scholarship at the University of Virginia Library. Jeremy can
-be found at [ClioWeb][].
+{% include contact-info.html name="Allison Hegel" %}
 
-![Allison Hegel][] Allison Hegel (@AllisonHegel) is a graduate student
-at UCLA.
+{% include contact-info.html name="Caleb McDaniel" %}
 
-![][1]Miriam Posner (@miriamkp) is a digital humanities program
-coordinator at the University of California, Los Angeles. She blogs at
-[Miriam Posner][].
-
-![Carrie Sanders][] Carrie Sanders is a PhD Candidate in history at
-UCLA.
+{% include contact-info.html name="Miriam Posner" %}
 
 Contributors
 ------------
 
-![Alan MacEachern][]Alan MacEachern is an Associate Professor of History
-at the University of Western Ontario and the Director of the [Network in
-Canadian History & Environment][] (NiCHE).
+{% include contact-info.html name="Alan MacEachern" %}
 
-![Ian Milligan Avatar][]Ian Milligan is an Assistant Professor of
-Canadian History at the University of Waterloo and Co-Editor of [Active
-History][].
+{% include contact-info.html name="Ian Milligan" %}
+
+Emeritus Team Members
+---------------------
+
+{% include contact-info.html name="Jeremy Boggs" %}
+
+{% include contact-info.html name="Carrie Sanders" %}
 
 Community Participants
 ----------------------
