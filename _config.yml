@@ -140,3 +140,15 @@ authors:
  Carrie-Sanders:
    name: Carrie Sanders
    bio: "Carrie Sanders is a Ph.D candidate in history at UCLA."
+
+ Dennis-Tenen:
+   name: Dennis Tennen
+   bio: |
+        Dennis Tennen is an assistant professor of English and Comparative
+        Literature at Columbia University.
+
+ Grant-Wythoff:
+   name: Grant Wythoff
+   bio: |
+        Grant Wythoff is a lecturer in the Department of English and
+        Comparative Literature at Columbia University.
