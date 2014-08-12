@@ -19,12 +19,12 @@ work through the Scholars’ Lab [Command Line Bootcamp][] tutorial.
 Lesson Goals
 ------------
 
-In this lesson you will first learn what topic modeling is and why you
+In this lesson you will first learn what *topic modeling* is and why you
 might want to employ it in your research. You will then learn how to
-install and work with the `MALLET` natural language processing toolkit
-to do so. `MALLET` involves modifying an environment variable
+install and work with the `MALLET` *natural language processing* toolkit
+to do so. `MALLET` involves modifying an *environment variable*
 (essentially, setting up a short-cut so that your computer always knows
-where to find the `MALLET` program) and working with the command line
+where to find the `MALLET` program) and working with the *command line*
 (ie, by typing in commands manually, rather than clicking on icons or
 menus). We will run the topic modeller on some example files, and look
 at the kinds of outputs that `MALLET` installed. This will give us a
@@ -41,14 +41,14 @@ examples of what can be done with this tool.)
 What is Topic Modeling And For Whom is this Useful?
 ---------------------------------------------------
 
-A topic modeling tool takes a single text (or corpus) and looks for
+A *topic modeling* tool takes a single text (or corpus) and looks for
 patterns in the use of words; it is an attempt to inject semantic
 meaning into vocabulary. Before you begin with topic modeling, you
 should ask yourself whether or not it is likely to be useful for your
-project. Matthew Kirschenbaum’s [Distant Reading][] (a talk given at the
+project. Matthew Kirschenbaum’s *[Distant Reading][]* (a talk given at the
 2009 National Science Foundation Symposium on the Next Generation of
 Data Mining and Cyber-Enabled Discovery for Innovation) and Stephen
-Ramsay’s [Reading Machines][] are good places for beginning to
+Ramsay’s *[Reading Machines][]* are good places for beginning to
 understand in which circumstances a technique such as this could be most
 effective. As with all tools, just because you can use it, doesn’t
 necessarily mean that you should. If you are working with a small number
@@ -59,11 +59,11 @@ documents from an archive and you wish to understand something of what
 the archive contains without necessarily reading every document, then
 topic modeling might be a good approach.
 
-Topic models represent a family of computer programs that extract topics
-from texts. A topic to the computer is a list of words that occur in
-statistically meaningful ways. A text can be an email, a blog post, a
-book chapter, a journal article, a diary entry – that is, any kind of
-unstructured text. By unstructured we mean that there are no
+Topic models represent a family of computer programs that extract
+*topics* from *texts*. A topic to the computer is a list of words that
+occur in statistically meaningful ways. A text can be an email, a blog
+post, a book chapter, a journal article, a diary entry – that is, any
+kind of unstructured text. By unstructured we mean that there are no
 computer-readable annotations that tell the computer the semantic
 meaning of the words in the text.
 
@@ -104,7 +104,7 @@ Reading) argue that we as historians would be better to think of these
 categories as discourses; however for our purposes here we will continue
 to use the word: topic.
 
-Note: You will sometimes come across the term “LDA” when looking into
+Note: You will sometimes come across the term “*LDA*” when looking into
 the bibliography of topic modeling. LDA and Topic Model are often used
 synonymously, but the LDA technique is actually a special case of topic
 modeling created by [David Blei and friends][] in 2002. It was not the
@@ -130,10 +130,10 @@ Installing `MALLET`
 There are many tools one could use to create topic models, but at the
 time of this writing (summer 2012) the simplest tool to run your text
 through is called `MALLET`. [`MALLET`][] uses an implementation of
-[Gibbs sampling][], a statistical technique meant to quickly construct a
-sample distribution, to create its topic models. `MALLET` requires using
-the command line – we’ll talk about that more in a moment, although you
-typically use the same few commands over and over.
+[*Gibbs sampling*][], a statistical technique meant to quickly construct
+a sample distribution, to create its topic models. `MALLET` requires
+using the command line – we’ll talk about that more in a moment,
+although you typically use the same few commands over and over.
 
 The installation instructions are different for Windows and Mac. Follow
 the instructions appropriate for you below:
@@ -151,7 +151,7 @@ the instructions appropriate for you below:
     cannot be anywhere else. You will then have a directory called
     `C:\mallet-2.0.7` or similar. For simplicity’s sake, rename this
     directory just `mallet`.
-4.  `MALLET` uses an environment variable to tell the computer where to
+4.  `MALLET` uses an *environment variable* to tell the computer where to
     find all the various components of its processes when it is running.
     It’s rather like a shortcut for the program. A programmer cannot
     know exactly where every user will install a program, so the
@@ -196,20 +196,21 @@ Figure 4: Command Prompt on Windows
     `Start Menu -> All Programs -> Accessories -> Command Prompt`.\
      You’ll get the command prompt window, which will have a cursor at
     `c:\user\user>` (or similar; see Figure 4).
-2.  Type `cd ..` (That is: cd-space-period-period) to change directory.
-    Keep doing this until you’re at the `C:\` . (as in Figure 5)
+2.  Type `cd ..` (That is: cd-space-period-period) to *change
+    directory*. Keep doing this until you’re at the `C:\` . (as in
+    Figure 5)
 
 ![][4]
 
 Figure 5: Navigating to the C:\\ Directory in Command Prompt
 
-1.  Then type `cd mallet `and you are in the `MALLET`directory.Anything
-    you type in the command prompt window is a command. There are
-    commands like cd (change directory) and dir (list directory
+1.  Then type `cd mallet `and you are in the `MALLET`directory. Anything
+    you type in the command prompt window is a *command*. There are
+    commands like `cd` (change directory) and `dir` (list directory
     contents) that the computer understands. You have to tell the
     computer explicitly that ‘this is a `MALLET` command’ when you want
     to use `MALLET`. You do this by telling the computer to grab its
-    instructions from the `MALLET` bin, a subfolder in `MALLET` that
+    instructions from the `MALLET` *bin*, a subfolder in `MALLET` that
     contains the core operating routines.
 2.  Type `bin\mallet` as in Figure 6. If all has gone well, you should
     be presented with a list of `MALLET` commands – congratulations! If
@@ -274,7 +275,7 @@ operating system), try typing:
 import-dir --help
 ```
 
-You are presented with the error message that import-dir is not
+You are presented with the error message that `import-dir` is not
 recognized as an internal or external command, operable program, or
 batch file. This is because we forgot to tell the computer to look in
 the `MALLET bin` for it. Try again, with
@@ -288,8 +289,8 @@ provides an entire transcript of what we have done so far in the
 tutorial). We checked to see that we had installed `MALLET` by typing in
 `bin\mallet`. We then made the mistake with `import-dir` a few lines
 further down. After that, we successfully called up the help file, which
-told us what import-dir does, and it listed all of the potential
-parameters you can set for this tool.
+told us what `import-dir` does, and it listed all of the potential
+*parameters* you can set for this tool.
 
 ![][6]
 
@@ -297,10 +298,10 @@ Figure 7: The Help Menu in MALLET
 
 Note: there is a difference in `MALLET` commands between a single hyphen
 and a double hyphen. A single hyphen is simply part of the name; it
-replaces a space (e.g., import-dir rather than import dir), since spaces
-offset multiple commands or parameters. These parameters let us tweak
-the file that is created when we import our texts into `MALLET`. A
-double hyphen (as with –help above) modifies, adds a sub-command, or
+replaces a space (e.g., `import-dir` rather than import dir), since
+spaces offset multiple commands or parameters. These parameters let us
+tweak the file that is created when we import our texts into `MALLET`. A
+double hyphen (as with `–help` above) modifies, adds a sub-command, or
 specifies some sort of parameter to the command.
 
 For Windows users, if you got the error *‘exception in thread “main”
@@ -345,12 +346,12 @@ of data. To work with this corpus and find out what the topics are that
 compose these individual documents, we need to transform them from
 several individual text files into a single `MALLET` format file.
 `MALLET` can import more than one file at a time. We can import the
-entire directory of text files using the import command. The commands
+entire directory of text files using the `import` command. The commands
 below import the directory, turn it into a `MALLET` file, keep the
 original texts in the order in which they were listed, and strip out the
-stop words (words such as and, the, but, and if that occur in such
-frequencies that they obstruct analysis) using the default English
-stop-words dictionary. Try the following (swapping in the correct
+*stop words* (words such as *and*, *the*, *but*, and *if* that occur in
+such frequencies that they obstruct analysis) using the default English
+`stop-words` dictionary. Try the following (swapping in the correct
 pathway to the sample data).
 
 ``` bash
@@ -377,7 +378,7 @@ Issues with Big Data
 --------------------
 
 If you’re working with extremely large file collections – or indeed,
-very large files – you may run into issues with your heap space, your
+very large files – you may run into issues with your *heap space*, your
 computer’s working memory. This issue will initially arise during the
 import sequence, if it is relevant. By default, `MALLET` allows for 1GB
 of memory to be used. If you run into the following error message,
@@ -388,7 +389,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 ```
 
 If your system has more memory, you can try increasing the memory
-allocated to your Java virtual machine. To do so, you need to edit the
+allocated to your *Java virtual machine*. To do so, you need to edit the
 code in the `mallet` file found in the `bin` subdirectory of your
 `MALLET` folder. Using Komodo Edit, (See [Mac][],
 [Windows,][Mac][Linux][Mac] for installation instructions), open the
@@ -451,7 +452,7 @@ model, we did not save the output! At the command prompt, type
 bin\mallet train-topics  --input tutorial.mallet --num-topics 20 --output-state topic-state.gz --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_compostion.txt 
 ```
 
-Here, we have told `MALLET` to create a topic model (train-topics) and
+Here, we have told `MALLET` to create a topic model (`train-topics`) and
 everything with a double hyphen afterwards sets different parameters
 
 This command
@@ -475,7 +476,7 @@ processor (Figure 9). You are presented with a series of paragraphs. The
 first paragraph is topic 0; the second paragraph is topic 1; the third
 paragraph is topic 2; etc. (The output begins counting at 0 rather than
 1; so if you ask it to determine 20 topics, your list will run from 0 to
-19). The second number in each paragraph is the Dirichlet parameter for
+19). The second number in each paragraph is the *Dirichlet parameter* for
 the topic. This is related to an option which we did not run, and so its
 default value was used (this is why every topic in this file has the
 number 2.5).
@@ -503,8 +504,8 @@ the output might look like this:
 ```
 
 That is, the first number is the topic (topic 0), and the second number
-gives an indication of the weight of that topic. In general, including
-–optimize-interval leads to better topics.
+gives an indication of the *weight* of that topic. In general, including
+`–optimize-interval` leads to better topics.
 
 ### The composition of your documents
 
@@ -538,7 +539,7 @@ file breaks down. If we end up with the majority of our original texts
 all in a very limited number of topics, then we take that as a signal
 that we need to increase the number of topics; the settings were too
 coarse. There are computational ways of searching for this, including
-using MALLETs hlda command, but for the reader of this tutorial, it is
+using MALLETs `hlda command`, but for the reader of this tutorial, it is
 probably just quicker to cycle through a number of iterations (but for
 more see Griffiths, T. L., & Steyvers, M. (2004). Finding scientific
 topics. Proceedings of the National Academy of Science, 101, 5228-5235).
@@ -602,7 +603,7 @@ report.
   [Mining the Dispatch]: http://dsl.richmond.edu/dispatch/
   [Topic Modeling Martha Ballard’s Diary]: http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/
   [`MALLET`]: http://mallet.cs.umass.edu/index.php
-  [Gibbs sampling]: http://en.wikipedia.org/wiki/Gibbs_sampling
+  [*Gibbs sampling*]: http://en.wikipedia.org/wiki/Gibbs_sampling
   [Windows Instructions]: ../images/windows-150x150.png
   [`download MALLET`]: http://mallet.cs.umass.edu/download.php
   [Java developer’s kit]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
