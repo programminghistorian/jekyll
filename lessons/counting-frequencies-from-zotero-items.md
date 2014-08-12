@@ -20,8 +20,8 @@ be beneficial to look over the previous lesson before we begin.
 
 -   `obo.py`
 
-If you do not have these files from the previous lesson, you can
-download a zip file from the previous lesson [BROKEN LINK][].
+If you do not have these files, you can
+download programming-historian-3, a ([zip][]) file from the previous lesson.
 
 ### Modifying the obo.py Module
 
@@ -230,5 +230,5 @@ Word Frequencies
 ```
 
   [Counting Frequencies]: ../lessons/counting-frequencies
-  [BROKEN LINK]: lesson-6-2-output-keywords-in-context-in-html-file#codesync
+  [zip]: ../assets/programming-historian3.zip
   [Lesson on the Zotero API]: ../lessons/intro-to-the-zotero-api
