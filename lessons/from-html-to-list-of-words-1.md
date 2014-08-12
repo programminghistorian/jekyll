@@ -43,8 +43,8 @@ understand it when you see it.
 
 -   *obo-t17800628-33.html*
 
-If you do not have these files, you can download a [zip file from the
-previous lesson here.][]
+If you do not have these files, you can download programming-historian-2, the ([zip][]) file from the
+previous lesson here.
 
 Devising an Algorithm
 ---------------------
@@ -228,7 +228,7 @@ to make sure you have the correct code. Note we have removed unneeded
 files from earlier lessons. Your directory may contain more files and
 that’s ok!
 
--   programming-historian ([zip][])
+-   programming-historian-2 ([zip][])
 
   [Working with Webpages]: ../lessons/working-with-web-pages
   [Benjamin Bowsey’s 1780 criminal trial transcript]: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
@@ -238,4 +238,4 @@ that’s ok!
   [zip file from the previous lesson here.]: ../lessons/manipulating-strings-in-python#code-syncing
   [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
   [Code Reuse and Modularity]: ../lessons/code-reuse-and-modularity
-  [zip]: ../images/programming-historian2.zip
+  [zip]: ../assets/programming-historian2.zip
