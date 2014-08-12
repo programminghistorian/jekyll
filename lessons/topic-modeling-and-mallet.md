@@ -341,7 +341,7 @@ such frequencies that they obstruct analysis) using the default English
 `stop-words` dictionary. Try the following (swapping in the correct
 pathway to the sample data).
 
-``` bash
+``` 
 bin\mallet import-dir --input pathway\to\the\directory\with\the\files --output tutorial.mallet --keep-sequence --remove-stopwords
 ```
 
@@ -482,7 +482,7 @@ bin\mallet train-topics  --input tutorial.mallet  --num-topics 20 --optimize-int
 
 the output might look like this:
 
-``` bash
+``` 
 0 0.02995 xi ness regular asia online cinema established alvida acclaim veenr commercial 
 ```
 
