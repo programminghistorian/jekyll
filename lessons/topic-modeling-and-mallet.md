@@ -9,12 +9,12 @@ reviewers: John Fink, Alan MacEachern and Adam Crymble
 layout: default
 ---
 
-Editor’s Note
+Editor's Note
 -------------
 
 This lesson requires you to use the command line. If you have no
 previous experience using the command line you may find it helpful to
-work through the Scholars’ Lab [Command Line Bootcamp][] tutorial.
+work through the Scholars' Lab [Command Line Bootcamp][] tutorial.
 
 Lesson Goals
 ------------
@@ -31,7 +31,7 @@ at the kinds of outputs that `MALLET` installed. This will give us a
 good idea of how it can be used on a corpus of texts to identify topics
 found in the documents without reading them individually.
 
-Please see the `MALLET` users’ [discussion list][] for the full range of
+Please see the `MALLET` users' [discussion list][] for the full range of
 things one can do with the software.
 
 (We would like to thank Robert Nelson and Elijah Meeks for hints and
@@ -45,12 +45,12 @@ A *topic modeling* tool takes a single text (or corpus) and looks for
 patterns in the use of words; it is an attempt to inject semantic
 meaning into vocabulary. Before you begin with topic modeling, you
 should ask yourself whether or not it is likely to be useful for your
-project. Matthew Kirschenbaum’s *[Distant Reading][]* (a talk given at the
+project. Matthew Kirschenbaum's *[Distant Reading][]* (a talk given at the
 2009 National Science Foundation Symposium on the Next Generation of
 Data Mining and Cyber-Enabled Discovery for Innovation) and Stephen
-Ramsay’s *[Reading Machines][]* are good places for beginning to
+Ramsay's *[Reading Machines][]* are good places for beginning to
 understand in which circumstances a technique such as this could be most
-effective. As with all tools, just because you can use it, doesn’t
+effective. As with all tools, just because you can use it, doesn't
 necessarily mean that you should. If you are working with a small number
 of documents (or even a single document) it may well be that simple
 frequency counts are sufficient, in which case something like [Voyant
@@ -87,7 +87,7 @@ speeches, the list might look like:
 2.  Economy Sector Economics Stock Banks
 3.  Afghanistan War Troops Middle-East Taliban Terror
 4.  Election Opponent Upcoming President
-5.  … etc.
+5.  *et cetera*
 
 By examining the keywords we can discern that the politician who gave
 the speeches was concerned with the economy, jobs, the Middle East, the
@@ -104,7 +104,7 @@ Reading) argue that we as historians would be better to think of these
 categories as discourses; however for our purposes here we will continue
 to use the word: topic.
 
-Note: You will sometimes come across the term “*LDA*” when looking into
+Note: You will sometimes come across the term "*LDA*" when looking into
 the bibliography of topic modeling. LDA and Topic Model are often used
 synonymously, but the LDA technique is actually a special case of topic
 modeling created by [David Blei and friends][] in 2002. It was not the
@@ -116,11 +116,11 @@ all work in much the same way. MALLET uses LDA.
 
 ### Examples of topic models employed by historians:
 
--   Rob Nelson, [Mining the Dispatch][]
--   Cameron Blevins, “[Topic Modeling Martha Ballard’s Diary][]”
+-   Rob Nelson, *[Mining the Dispatch][]*
+-   Cameron Blevins, "[Topic Modeling Martha Ballard's Diary][]"
     *Historying*, April 1, 2010.
--   David J Newman and Sharon Block, “Probabilistic topic decomposition
-    of an eighteenth century American newspaper,” *Journal of the
+-   David J Newman and Sharon Block, "Probabilistic topic decomposition
+    of an eighteenth century American newspaper," *Journal of the
     American Society for Information Science and Technology* vol. 57,
     no. 6 (April 1, 2006): 753-767.
 
@@ -132,33 +132,33 @@ time of this writing (summer 2012) the simplest tool to run your text
 through is called `MALLET`. [`MALLET`][] uses an implementation of
 [*Gibbs sampling*][], a statistical technique meant to quickly construct
 a sample distribution, to create its topic models. `MALLET` requires
-using the command line – we’ll talk about that more in a moment,
+using the command line – we'll talk about that more in a moment,
 although you typically use the same few commands over and over.
 
 The installation instructions are different for Windows and Mac. Follow
 the instructions appropriate for you below:
 
-![Windows Instructions][]
+{% include figure.html src="../images/windows-150x150.png" caption="" %}
 
 ### Windows Instructions
 
 1.  Go to the [`MALLET`][] project page, and [`download MALLET`][]. (As
     of this writing, we are working with version 2.0.7.)
-2.  You will also need the [Java developer’s kit][] – that is, not the
-    regular Java that’s on every computer, but the one that lets you
+2.  You will also need the [Java developer's kit][] – that is, not the
+    regular Java that's on every computer, but the one that lets you
     program things. Install this on your computer.
 3.  Unzip `MALLET` into your `C:` directory . This is important: it
     cannot be anywhere else. You will then have a directory called
-    `C:\mallet-2.0.7` or similar. For simplicity’s sake, rename this
+    `C:\mallet-2.0.7` or similar. For simplicity's sake, rename this
     directory just `mallet`.
 4.  `MALLET` uses an *environment variable* to tell the computer where to
     find all the various components of its processes when it is running.
-    It’s rather like a shortcut for the program. A programmer cannot
+    It's rather like a shortcut for the program. A programmer cannot
     know exactly where every user will install a program, so the
     programmer creates a variable in the code that will always stand in
     for that location. We tell the computer, once, where that location
     is by setting the environment variable. If you moved the program to
-    a new location, you’d have to change the variable.
+    a new location, you'd have to change the variable.
 
 To create an environment variable in Windows 7, click on your
 `Start Menu -> Control Panel -> System -> Advanced System Settings`
@@ -169,17 +169,11 @@ subroutines. Then type the exact path (location) of where you unzipped
 `MALLET` in the variable value, e.g., `c:\mallet`\
  To see if you have been successful, please read on to the next section.
 
-![][]
+{% include figure.html src="../images/fig1-advanced-system-settings.png" caption="Figure 1: Advanced System Settings on Windows" %}
 
-Figure 1: Advanced System Settings on Windows
+{% include figure.html src="../images/fig2-environment-variables-location.png" caption="Figure 2: Environment Variables Location" %}
 
-![][1]
-
-Figure 2: Environment Variables Location
-
-![][2]
-
-Figure 3: Environment Variable
+{% include figure.html src="../images/fig3-environment-variable.png" caption="Figure 3: Environment Variable" %}
 
 #### Running MALLET using the Command Line
 
@@ -188,27 +182,23 @@ Figure 3: Environment Variable
 computer Terminal, this will be familiar. The command line is where you
 can type commands directly, rather than clicking on icons and menus.
 
-![][3]
-
-Figure 4: Command Prompt on Windows
+{% include figure.html src="../images/fig-4-command-prompt-window.png" caption="Figure 4: Command Prompt on Windows" %}
 
 1.  Click on your
     `Start Menu -> All Programs -> Accessories -> Command Prompt`.\
-     You’ll get the command prompt window, which will have a cursor at
+     You'll get the command prompt window, which will have a cursor at
     `c:\user\user>` (or similar; see Figure 4).
 2.  Type `cd ..` (That is: cd-space-period-period) to *change
-    directory*. Keep doing this until you’re at the `C:\` . (as in
+    directory*. Keep doing this until you're at the `C:\` . (as in
     Figure 5)
 
-![][4]
-
-Figure 5: Navigating to the C:\\ Directory in Command Prompt
+{% include figure.html src="../images/fig-5-command-prompt-window-getting-to-c.png" caption="Figure 5: Navigating to the C:\ Directory in Command Prompt" %}
 
 1.  Then type `cd mallet `and you are in the `MALLET`directory. Anything
     you type in the command prompt window is a *command*. There are
     commands like `cd` (change directory) and `dir` (list directory
     contents) that the computer understands. You have to tell the
-    computer explicitly that ‘this is a `MALLET` command’ when you want
+    computer explicitly that 'this is a `MALLET` command' when you want
     to use `MALLET`. You do this by telling the computer to grab its
     instructions from the `MALLET` *bin*, a subfolder in `MALLET` that
     contains the core operating routines.
@@ -218,13 +208,11 @@ Figure 5: Navigating to the C:\\ Directory in Command Prompt
     slash? Did you set up the environment variable correctly? Is
     `MALLET` located at `C:\mallet` ?
 
-![][5]
-
-Figure 6: Command Prompt MALLET Installed
+{% include figure.html src="../images/fig-6command-prompt-mallet-installed.png" caption="Figure 6: Command Prompt MALLET Installed" %}
 
 You are now ready to skip ahead to the next section.
 
-![Mac Instructions][]
+{% include figure.html src="../images/apple-150x150.png" caption="" %}
 
 ### Mac Instructions
 
@@ -233,7 +221,7 @@ with a few differences. In fact, it is a bit easier.
 
 1.  Download and [install `MALLET` (`mallet-2.0.7.tar.gaz`as of Summer
     2012).][`download MALLET`]
-2.  Download the [Java Development Kit][Java developer’s kit].
+2.  Download the [Java Development Kit][Java developer's kit].
 
 Unzip `MALLET` into a directory on your system (for ease of following
 along with this tutorial, your `/user/` directory works but anywhere is
@@ -242,7 +230,7 @@ okay). Once it is unzipped, open up your Terminal window (in the
 you unzipped `MALLET` using the Terminal (it will be `mallet-2.0.7` . If
 you unzipped it into your `/user/` directory as was suggested in this
 lesson, you can navigate to the correct directory by typing
-`cd mallet-2.0.7`). cd is short for “change directory” when working in
+`cd mallet-2.0.7`). cd is short for "change directory" when working in
 the Terminal.
 
 The same command will suffice to run commands from this directory,
@@ -259,7 +247,7 @@ would instead type:
 ./bin/mallet
 ```
 
-A list of commands should appear. If it does, congratulations – you’ve
+A list of commands should appear. If it does, congratulations – you've
 installed it correctly!
 
 Typing in MALLET Commands
@@ -292,9 +280,7 @@ further down. After that, we successfully called up the help file, which
 told us what `import-dir` does, and it listed all of the potential
 *parameters* you can set for this tool.
 
-![][6]
-
-Figure 7: The Help Menu in MALLET
+{% include figure.html src="../images/fig-7-command-prompt-typing-help.png" caption="Figure 7: The Help Menu in MALLET" %}
 
 Note: there is a difference in `MALLET` commands between a single hyphen
 and a double hyphen. A single hyphen is simply part of the name; it
@@ -304,8 +290,8 @@ tweak the file that is created when we import our texts into `MALLET`. A
 double hyphen (as with `–help` above) modifies, adds a sub-command, or
 specifies some sort of parameter to the command.
 
-For Windows users, if you got the error *‘exception in thread “main”
-java.lang.NoClassDefFoundError:’* it might be because you installed
+For Windows users, if you got the error *'exception in thread "main"
+java.lang.NoClassDefFoundError:'* it might be because you installed
 `MALLET` somewhere other than in the `C:\` directory. For instance,
 installing `MALLET` at `C:\Program Files\mallet` will produce this error
 message. The second thing to check is that your environment variable is
@@ -368,7 +354,7 @@ format that `MALLET` can work with.
 
 Mac instructions are similar to those above for Windows, but keep in
 mind that Unix file paths (which are used by Mac) are different: for
-example, if the directory was in one’s home directory, one would type
+example, if the directory was in one's home directory, one would type
 
 ``` bash
 ./bin/mallet import-dir --input /users/username/database/ --output tutorial.mallet --keep-sequence --remove-stopwords
@@ -377,12 +363,12 @@ example, if the directory was in one’s home directory, one would type
 Issues with Big Data
 --------------------
 
-If you’re working with extremely large file collections – or indeed,
+If you're working with extremely large file collections – or indeed,
 very large files – you may run into issues with your *heap space*, your
-computer’s working memory. This issue will initially arise during the
+computer's working memory. This issue will initially arise during the
 import sequence, if it is relevant. By default, `MALLET` allows for 1GB
 of memory to be used. If you run into the following error message,
-you’ve run into your limit:
+you've run into your limit:
 
 ``` bash
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
@@ -400,8 +386,8 @@ Find the following line:
 `MEMORY=1g`
 
 You can then change the 1g value upwards – to 2g, 4g, or even higher
-depending on your system’s RAM, which you can find out by looking up the
-machine’s system information.
+depending on your system's RAM, which you can find out by looking up the
+machine's system information.
 
 Save your changes. You should now be able to avoid the error. If not,
 increase the value again.
@@ -421,9 +407,7 @@ the routine, trying to find the best division of words into topics, your
 command prompt window will fill with output from each run. When it is
 done, you can scroll up to see what it was outputting (as in Figure 8).
 
-![][7]
-
-Figure 8: Basic Topic Model Output
+{% include figure.html src="../images/fig-8-basic-topic-model-output.png" caption="Figure 8: Basic Topic Model Output" %}
 
 The computer is printing out the key words, the words that help define a
 statistically significant topic, per the routine. In Figure 8, the first
@@ -481,9 +465,7 @@ the topic. This is related to an option which we did not run, and so its
 default value was used (this is why every topic in this file has the
 number 2.5).
 
-![][8]
-
-Figure 9: Keywords Shown in a Word Processor
+{% include figure.html src="../images/fig-9-tutorial-key-words-in-Word.png" caption="Figure 9: Keywords Shown in a Word Processor" %}
 
 If when you ran the topic model routine you had included
 
@@ -516,9 +498,7 @@ etc). You will have a spreadsheet with a \#doc, source, topic,
 proportion columns. All subsequent columns run topic, proportion, topic,
 proportion, etc., as in figure 10.
 
-![][9]
-
-Figure 10: Topic Composition
+{% include figure.html src="../images/fig-10-topic-composition.png" caption="Figure 10: Topic Composition" %}
 
 You can see that doc\# 0 (ie, the first document loaded into `MALLET`),
 `elizabeth_needham.txt` has topic 2 as its principal topic, at about
@@ -572,24 +552,24 @@ number of `.txt` files. Each individual `.txt` file is a single news
 report.
 
 -   For extensive background and bibliography on topic modeling you may
-    wish to begin with Scott Weingart’s [Guided Tour to Topic
+    wish to begin with Scott Weingart's [Guided Tour to Topic
     Modeling][]
--   Ted Underwood’s ‘[Topic modeling made just simple enough][]‘ is an
+-   Ted Underwood's '[Topic modeling made just simple enough][]' is an
     important discussion on interpreting the meaning of topics.
--   Lisa Rhody’s post on interpreting topics is also illuminating.
-    ‘[Some Assembly Required][]‘ *Lisa @ Work* August 22, 2012.
--   Clay Templeton, ‘[Topic Modeling in the Humanities: An Overview |
-    Maryland Institute for Technology in the Humanities][]‘, n.d.
--   David Blei, Andrew Ng, and Michael Jordan, ‘[Latent dirichlet
-    allocation][],’ The Journal of Machine Learning Research 3 (2003).
--   Finally, also consult David Mimno’s [bibliography of topic modeling
-    articles][]. They’re tagged by topic to make finding the right one
+-   Lisa Rhody's post on interpreting topics is also illuminating.
+    '[Some Assembly Required][]' *Lisa @ Work* August 22, 2012.
+-   Clay Templeton, '[Topic Modeling in the Humanities: An Overview |
+    Maryland Institute for Technology in the Humanities][]', n.d.
+-   David Blei, Andrew Ng, and Michael Jordan, '[Latent dirichlet
+    allocation][],' The Journal of Machine Learning Research 3 (2003).
+-   Finally, also consult David Mimno's [bibliography of topic modeling
+    articles][]. They're tagged by topic to make finding the right one
     for a particular application that much easier. Also take a look at
     his recent article on [Computational Historiography][] from ACM
     Transactions on Computational Logic which goes through a hundred
     years of Classics journals to learn something about the field. While
     the article should be read as a good example of topic modeling, his
-    ‘Methods’ section is especially important, in that it discusses
+    'Methods' section is especially important, in that it discusses
     preparing text for this sort of analysis.
 
   [Command Line Bootcamp]: http://praxis.scholarslab.org/tutorials/bash/
@@ -601,34 +581,11 @@ report.
   [zombies using Google Trends]: http://arxiv.org/abs/1003.6087/
   [David Blei and friends]: http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation
   [Mining the Dispatch]: http://dsl.richmond.edu/dispatch/
-  [Topic Modeling Martha Ballard’s Diary]: http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/
+  [Topic Modeling Martha Ballard's Diary]: http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/
   [`MALLET`]: http://mallet.cs.umass.edu/index.php
   [*Gibbs sampling*]: http://en.wikipedia.org/wiki/Gibbs_sampling
-  [Windows Instructions]: ../images/windows-150x150.png
   [`download MALLET`]: http://mallet.cs.umass.edu/download.php
-  [Java developer’s kit]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
-  []: ../images/fig1-advanced-system-settings.png
-    "Figure 1 advanced-system-settings"
-  [1]: ../images/fig2-environment-variables-location.png
-    "Figure 2 environment-variables-location"
-  [2]: ../images/fig3-environment-variable.png
-    "Figure 3 environment-variable"
-  [3]: ../images/fig-4-command-prompt-window.png
-    "Figure 4 command-prompt-window"
-  [4]: ../images/fig-5-command-prompt-window-getting-to-c.png
-    "Figure 5 command-prompt-window-getting-to-c"
-  [5]: ../images/fig-6command-prompt-mallet-installed.png
-    "Figure 6 command-prompt-mallet-installed"
-  [Mac Instructions]: ../images/apple-150x150.png
-  [6]: ../images/fig-7-command-prompt-typing-help.png
-    "Figure 7 command-prompt-typing-help"
-  [Mac]: /lessons/mac-installation
-  [7]: ../images/fig-8-basic-topic-model-output.png
-    "Figure 8 basic topic model output"
-  [8]: ../images/fig-9-tutorial-key-words-in-Word.png
-    "Figure 9 tutorial key words in Word"
-  [9]: ../images/fig-10-topic-composition.png
-    "Figure 10 topic composition"
+  [Java developer's kit]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
   [automate this process]: http://electricarchaeology.ca/2012/07/09/mining-a-day-of-archaeology/
   [Mining the Open Web with Looted Heritage Draft]: http://electricarchaeology.ca/2012/06/08/mining-the-open-web-with-looted-heritage-draft/
   [Figshare.com]: http://figshare.com/articles/looted_heritage_reports_txt.zip/91828
