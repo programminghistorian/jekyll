@@ -42,10 +42,10 @@ http://oldbaileyonline.org
 
 The most basic kind of URL simply specifies the protocol and host. If
 you give this URL to your browser, it will return the main page of The
-[*Old Bailey Online*][] website. The default assumption is that the main
+[Old Bailey Online][] website. The default assumption is that the main
 page in a given directory will be named index, usually `index.html`.
 
-The URL can also include an optional port number. Without getting into
+The URL can also include an optional *port number*. Without getting into
 too much detail at this point, the network protocol that underlies the
 exchange of information on the Internet allows computers to connect in
 different ways. Port numbers are used to distinguish these different
@@ -58,24 +58,24 @@ http://oldbaileyonline.org:80
 
 As you know, there are usually many web pages on a given website. These
 are stored in directories on the server, and you can specify the path to
-a particular page. The “About” page for The Old Bailey Online has the
+a particular page. The "About" page for *The Old Bailey Online* has the
 following URL.
 
 ``` xml
 http://oldbaileyonline.org/static/Project.jsp
 ```
 
-Finally, some web pages allow you to enter queries. The Old Bailey
-Online website, for example, is laid out in such a way that you can
-request a particular page within it by using a query string. The
+Finally, some web pages allow you to enter queries. *The Old Bailey
+Online* website, for example, is laid out in such a way that you can
+request a particular page within it by using a *query string*. The
 following URL will take you to a search results page for criminal record
-trials containing the word “arsenic”.
+trials containing the word "arsenic".
 
 ``` xml
 http://www.oldbaileyonline.org/search.jsp?form=custom&_divs_fulltext=arsenic
 ```
 
-The snippet after the “?” represents the query. You can learn more about
+The snippet after the "?" represents the query. You can learn more about
 building queries in [Downloading Multiple Records Using Query
 Strings][].
 
@@ -85,14 +85,13 @@ As a digital historian you will often find yourself wanting to use data
 held in scholarly databases online. To get this data you could open URLs
 one at a time and copy and paste their contents to a text file, or you
 can use Python to automatically harvest and process webpages. To do
-this, you’re going to need to be able to open URLs with your own
+this, you're going to need to be able to open URLs with your own
 programs. The Python language includes a number of standard ways to do
 this.
 
-As an example, let’s work with the kind of file that you might encounter
-while doing historical research. Say you’re interested in race relations
-in eighteenth century Britain. [The Old Bailey Online][Old Bailey
-Online] (OBO) is a rich resource that provides trial transcripts from
+As an example, let's work with the kind of file that you might encounter
+while doing historical research. Say you're interested in race relations
+in eighteenth century Britain. [The Old Bailey Online][] (OBO) is a rich resource that provides trial transcripts from
 1674 to 1913 and is one good place to seek sources.
 
 {% include figure.html src="../images/old-bailey.png" caption="The Old Bailey Online Homepage" %}
@@ -106,12 +105,12 @@ http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
 ```
 
 By studying the URL we can learn a few things. First, The OBO is written
-in JSP (JavaServer Pages, a web programming language which outputs
+in JSP (*JavaServer Pages*, a web programming language which outputs
 HTML), and it’s possible to retrieve individual trial entries by making
 use of the query string. Each is apparently given a unique ID number
-(id=t in the URL), built from the date of the trial session in the
-format (YYYYMMDD) and the trial number from within that court session,
-in this case: 33. If you change the two instances of `33` to `34` in
+(*id=t* in the URL), built from the date of the trial session in the
+format (*YYYYMMDD*) and the trial number from within that court session,
+in this case: *33*. If you change the two instances of `33` to `34` in
 your browser and press Enter, you should be taken to the next trial.
 Unfortunately, not all websites have such readable and reliable URLs.
 
@@ -119,11 +118,11 @@ Unfortunately, not all websites have such readable and reliable URLs.
 
 Spend a few minutes looking at Benjamin Bowsey’s trial page. Here we are
 not so much interested in what the transcript says, but what features
-the page has. Notice the “[View as XML][]” link at the bottom that takes
+the page has. Notice the "[View as XML][]" link at the bottom that takes
 you to a heavily marked up version of the text which may be useful to
 certain types of research. You can look at a [scan of the original
 document][], which was transcribed to make this resource. And you can
-access a “[Print-friendly version][]” by clicking a link near the top of
+access a "[Print-friendly version][]" by clicking a link near the top of
 the entry.
 
 When you are processing web resources automatically, it is often a good
@@ -135,17 +134,17 @@ version in this lesson.
 http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
 ```
 
-Now let’s try opening the page using Python. Copy the following program
+Now let's try opening the page using Python. Copy the following program
 into Komodo Edit and save it as `open-webpage.py`. When you execute the
-program, it will open the trial file, read its contents into a Python
-string called webContent and then print the first three hundred
-characters of the string to the “Command Output” pane. Use the
+program, it will `open` the trial file, `read` its contents into a Python
+string called webContent and then `print` the first three hundred
+characters of the string to the "Command Output" pane. Use the
 `View -> Web Developer -> View Page Source` command in Firefox to verify
 that the HTML source of the page is the same as the source that your
 program retrieved. Each browser has a different shortcut key to open the
-page source. In Firefox on PC it is `CTRL+ u`. If you cannot find it on
+page source. In Firefox on PC it is `CTRL+u`. If you cannot find it on
 your browser, try using a search engine to find where it is. (See the
-Python library reference to learn more about [urllib2][][.)][]
+Python library reference to learn more about [urllib2][].)
 
 ``` python
 # open-webpage.py
