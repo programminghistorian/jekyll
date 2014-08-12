@@ -34,8 +34,8 @@ tags. The second half of the algorithm does the following:
 -   *obo.py*
 -   *trial-content.py*
 
-If you do not have these files from the previous lesson, you can
-download a [zip file from the previous lesson here.][]
+If you do not have these files, you can
+download programming-historian-2, a ([zip][]) file from the previous lesson.
 
 Repeating and Testing in Python
 -------------------------------
@@ -332,10 +332,9 @@ to make sure you have the correct code. Note we have removed unneeded
 files from earlier lessons. Your directory may contain more files and
 that’s ok!
 
--   programming-historian ([zip][])
+-   programming-historian-2 ([zip][])
 
   [From HTML to a List of Words (part 1)]: ../lessons/from-html-to-list-of-words-1
-  [zip file from the previous lesson here.]: ../lessons/from-html-to-list-of-words-1#code-syncing
   [integer]: http://docs.python.org/2.4/lib/typesnumeric.html
   [types]: http://docs.python.org/3/library/types.html
-  [zip]: ../images/programming-historian2.zip
+  [zip]: ../assets/programming-historian2.zip
