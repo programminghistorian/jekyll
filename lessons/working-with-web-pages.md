@@ -164,20 +164,20 @@ a moment to make sure that everything is clear and that you can
 recognize the building blocks that allow us to make this program do what
 we want it to do.
 
-url, response, and webContent are all variables that we have named
+*url*, *response*, and *webContent* are all variables that we have named
 ourselves.
 
-url holds the URL of the web page that we want to download. In this
+*url* holds the URL of the web page that we want to download. In this
 case, it is the trial of Benjamin Bowsey.
 
-On the following line, we call the function urlopen, which is stored in
+On the following line, we call the function `urlopen`, which is stored in
 a Python module named `urllib2.py`, and we have asked that function to
 open the website found at the URL we just specified. We then saved the
-result of that process into a variable named response. That variable now
+result of that process into a variable named *response*. That variable now
 contains an open version of the requested website.
 
-We then use the read method, which we used earlier, to copy the contents
-of that open webpage into a new variable named webContent.
+We then use the `read` method, which we used earlier, to copy the contents
+of that open webpage into a new variable named *webContent*.
 
 Make sure you can pick out the variables (there are 3 of them), the
 modules (1), the methods (2), and the parameters (1) before you move on.
@@ -195,15 +195,15 @@ BENJAMIN                      BOWSEY
 ```
 
 Because we are using the printable version there is a lot less than most
-web pages have, but there is still more than we need. Don’t worry; you
+web pages have, but there is still more than we need. Don't worry; you
 will soon learn how to remove that excess markup.
 
 ### Saving a Local Copy of a Web Page
 
 Given what you already know about writing to files, it is quite easy to
 modify the above program so that it writes the contents of the
-webContent string to a local file on our computer rather than to the
-“Command Output” pane. Copy the following program into Komodo Edit, save
+*webContent* string to a local file on our computer rather than to the
+"Command Output" pane. Copy the following program into Komodo Edit, save
 it as `save-webpage.py` and execute it. Using the `File -> Open File`
 command in Firefox, open the file on your hard drive that it creates
 (`obo-t17800628-33.html`) to confirm that your saved copy is the same as
@@ -226,7 +226,7 @@ f.close
 
 So, if you can save a single file this easily, could you write a program
 to download a bunch of files? Could you step through trial IDs, for
-example, and make your own copies of a whole bunch of them? Yep. We’ll
+example, and make your own copies of a whole bunch of them? Yep. We'll
 get there soon.
 
 Suggested Readings
@@ -238,11 +238,11 @@ Suggested Readings
 ### Code Syncing
 
 To follow along with future lessons it is important that you have the
-right files and programs in your “programming-historian” directory. At
-the end of each lesson you can download the “programming-historian” zip
+right files and programs in your "programming-historian" directory. At
+the end of each lesson you can download the "programming-historian" zip
 file to make sure you have the correct code.
 
--   programming-historian ([zip][])
+-   programming-historian-1 ([zip][])
 
   [Old Bailey Online]: http://www.oldbaileyonline.org/
   [Downloading Multiple Records Using Query Strings]: ../lessons/downloading-multiple-records-using-query-strings
@@ -252,6 +252,5 @@ file to make sure you have the correct code.
   [View as XML]: http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes
   [scan of the original document]: http://www.oldbaileyonline.org/images.jsp?doc=178006280084
   [Print-friendly version]: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
-  [urllib2]: http://www.python.org/doc/current/lib/module-urllib2.html
-  [.)]: filename
-  [zip]: ../images/programming-historian1.zip
+  [urllib2]: https://docs.python.org/2/library/urllib2.html
+  [zip]: ../assets/programming-historian1.zip
