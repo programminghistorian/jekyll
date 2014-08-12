@@ -166,8 +166,9 @@ To create an environment variable in Windows 7, click on your
 box. It must be like this – all caps, with an underscore – since that is
 the shortcut that the programmer built into the program and all of its
 subroutines. Then type the exact path (location) of where you unzipped
-MALLET in the variable value, e.g., `c:\mallet`\
- To see if you have been successful, please read on to the next section.
+MALLET in the variable value, e.g., `c:\mallet`.
+
+To see if you have been successful, please read on to the next section.
 
 {% include figure.html src="../images/fig1-advanced-system-settings.png" caption="Figure 1: Advanced System Settings on Windows" %}
 
@@ -177,8 +178,8 @@ MALLET in the variable value, e.g., `c:\mallet`\
 
 #### Running MALLET using the Command Line
 
-MALLET is run from the command line, also known as `Command Prompt`
-(Figure 4). If you remember `MS-DOS`, or have ever played with a Unix
+MALLET is run from the command line, also known as *Command Prompt*
+(Figure 4). If you remember MS-DOS, or have ever played with a Unix
 computer Terminal, this will be familiar. The command line is where you
 can type commands directly, rather than clicking on icons and menus.
 
@@ -219,7 +220,7 @@ You are now ready to skip ahead to the next section.
 Many of the instructions for OS X installation are similar to Windows,
 with a few differences. In fact, it is a bit easier.
 
-1.  Download and [install MALLET (`mallet-2.0.7.tar.gaz`as of Summer
+1.  Download and [install MALLET (*mallet-2.0.7.tar.gaz*as of Summer
     2012).][`download MALLET`]
 2.  Download the [Java Development Kit][Java developer's kit].
 
@@ -266,9 +267,9 @@ import-dir --help
 You are presented with the error message that `import-dir` is not
 recognized as an internal or external command, operable program, or
 batch file. This is because we forgot to tell the computer to look in
-the `MALLET bin` for it. Try again, with
+the MALLET `bin` for it. Try again, with
 
-``` bash
+``` 
 bin\mallet import-dir --help
 ```
 
@@ -314,7 +315,7 @@ to first the `web` then the `en` directories. You can look inside these
 Note that you cannot now run any MALLET commands from this directory.
 Try it:
 
-``` bash
+``` 
 bin\mallet import-dir --help
 ```
 
@@ -370,7 +371,7 @@ import sequence, if it is relevant. By default, MALLET allows for 1GB
 of memory to be used. If you run into the following error message,
 you've run into your limit:
 
-``` bash
+```
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 ```
 
@@ -397,7 +398,7 @@ Your first topic model
 
 At the command prompt in the MALLET directory, type:
 
-``` bash
+``` 
 bin\mallet train-topics  --input tutorial.mallet
 ```
 
@@ -414,7 +415,7 @@ statistically significant topic, per the routine. In Figure 8, the first
 topic it prints out might look like this (your key words might look a
 bit different):
 
-``` bash
+``` 
 0    5    test cricket Australian hill acting England northern leading ended innings record runs scored run team batsman played society English
 ```
 
@@ -432,7 +433,7 @@ Go back to the main MALLET directory, and type `dir`. You will see
 that there is no output file. While we successfully created a topic
 model, we did not save the output! At the command prompt, type
 
-``` bash
+``` 
 bin\mallet train-topics  --input tutorial.mallet --num-topics 20 --output-state topic-state.gz --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_compostion.txt 
 ```
 
@@ -469,13 +470,13 @@ number 2.5).
 
 If when you ran the topic model routine you had included
 
-``` bash
+``` 
 --optimize-interval 20
 ```
 
 as below
 
-``` bash
+``` 
 bin\mallet train-topics  --input tutorial.mallet  --num-topics 20 --optimize-interval 20 --output-state topic-state.gz  --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_composition.txt
 ```
 
@@ -591,9 +592,8 @@ report.
   [Figshare.com]: http://figshare.com/articles/looted_heritage_reports_txt.zip/91828
   [Guided Tour to Topic Modeling]: http://www.scottbot.net/HIAL/?p=19113
   [Topic modeling made just simple enough]: http://tedunderwood.wordpress.com/2012/04/07/topic-modeling-made-just-simple-enough/
-  [Some Assembly Required]: http://lisa.therhodys.net/2012/08/some-assembly-required/
-  [Topic Modeling in the Humanities: An Overview | Maryland Institute
-  for Technology in the Humanities]: http://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/
+  [Some Assembly Required]: http://www.lisarhody.com/some-assembly-required/
+  [Topic Modeling in the Humanities: An Overview | Maryland Institute for Technology in the Humanities]: http://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/
   [Latent dirichlet allocation]: http://dl.acm.org/citation.cfm?id=944937
-  [bibliography of topic modeling articles]: http://www.cs.princeton.edu/%7Emimno/topics.html
+  [bibliography of topic modeling articles]: http://mimno.infosci.cornell.edu/topics.html
   [Computational Historiography]: http://www.perseus.tufts.edu/publications/02-jocch-mimno.pdf
