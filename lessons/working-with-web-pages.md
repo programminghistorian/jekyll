@@ -11,24 +11,24 @@ layout: default
 Lesson Goals
 ------------
 
-This lesson introduces Uniform Resource Locators (URLs) and explains how
+This lesson introduces *Uniform Resource Locators* (URLs) and explains how
 to use Python to download and save the contents of a web page to your
 local hard drive.
 
 ### About URLs
 
-A web page is a file that is stored on another computer, a machine known
-as a web server. When you “go to” a web page, what is actually happening
-is that your computer, the client, sends a request to the server (the
-host) out over the network, and the server replies by sending a copy of
+A *web page* is a file that is stored on another computer, a machine known
+as a *web server*. When you "go to" a web page, what is actually happening
+is that your computer, the *client*, sends a request to the server (the
+*host*) out over the network, and the server replies by sending a copy of
 the page back to your machine. One way to get to a web page with your
 browser is to follow a link from somewhere else. You also have the
 ability, of course, to paste or type a Uniform Resource Locator (URL)
 directly into your browser. The URL tells your browser where to find an
 online resource by specifying the server, directory and name of the file
-to be retrieved, as well as the kind of protocol that the server and
+to be retrieved, as well as the kind of *protocol* that the server and
 your browser will agree to use while exchanging information (like HTTP,
-the Hypertext Transfer Protocol). The basic structure of a URL is
+the *Hypertext Transfer Protocol*). The basic structure of a URL is
 
 ```
 protocol://host:port/path?query
