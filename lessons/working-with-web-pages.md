@@ -34,7 +34,7 @@ the *Hypertext Transfer Protocol*). The basic structure of a URL is
 protocol://host:port/path?query
 ```
 
-Let’s look at a few examples.
+Let's look at a few examples.
 
 ``` xml
 http://oldbaileyonline.org
@@ -42,7 +42,7 @@ http://oldbaileyonline.org
 
 The most basic kind of URL simply specifies the protocol and host. If
 you give this URL to your browser, it will return the main page of The
-[Old Bailey Online][] website. The default assumption is that the main
+[*Old Bailey Online*][] website. The default assumption is that the main
 page in a given directory will be named index, usually `index.html`.
 
 The URL can also include an optional port number. Without getting into
