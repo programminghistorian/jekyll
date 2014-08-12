@@ -274,7 +274,7 @@ to make sure you have the correct code. Note we have removed unneeded
 files from earlier lessons. Your directory may contain more files and
 that’s ok!
 
--   programming-historian ([zip][])
+-   programming-historian-2 ([zip][])
 
   [Python website]: https://docs.python.org/2/library/stdtypes.html#string-methods
-  [zip]: ../images/programming-historian2.zip
+  [zip]: ../assets/programming-historian2.zip
