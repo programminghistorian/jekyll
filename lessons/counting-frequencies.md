@@ -22,8 +22,8 @@ processes used to calculate frequencies in a list.
 
 -   `obo.py`
 
-If you do not have these files from the previous lesson, you can
-download a zip file from the previous lesson here.[BROKEN LINK][]
+If you do not have these files, you can
+download programming-historian-3, a ([zip][]) file from the previous lesson.
 
 Frequencies
 -----------
@@ -410,10 +410,9 @@ right files and programs in your "programming-historian" directory. At
 the end of each chapter you can download the "programming-historian" zip
 file to make sure you have the correct code.
 
--   programming-historian ([BROKEN LINK zip][])
+-   programming-historian-3 ([zip][])
 
-  [BROKEN LINK.]: /lessons/from-html-to-list-of-words-2#codesync
   [list comprehension]: http://docs.python.org/tutorial/datastructures.html#list-comprehensions
   [computer scientists at Glasgow]: http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
   [Regular Expressions]: http://www.diveintopython.net/regular_expressions/index.html
-  [BROKEN LINK zip]: /wp-content/uploads/2012/05/programming-historian3.zip
+  [zip]: ../assets/programming-historian3.zip
