@@ -44,7 +44,7 @@ understand it when you see it.
 -   *obo-t17800628-33.html*
 
 If you do not have these files, you can download programming-historian-2, the ([zip][]) file from the
-previous lesson here.
+previous lesson.
 
 Devising an Algorithm
 ---------------------
