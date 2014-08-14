@@ -63,9 +63,9 @@ software for your operating system, move on to '[Viewing HTML Files][]'.
 If you run into trouble with our instructions or find something that
 doesn't work on your platform, please let us know.
 
--   [Mac Installation][]
--   [Windows Installation][]
--   [Linux Installation][]
+-   [Mac Python Installation][]
+-   [Windows Python Installation][]
+-   [Linux Python Installation][]
 
   [Python programming language]: http://www.python.org/
   [Beautiful Soup HTML/XML parser]: http://www.crummy.com/software/BeautifulSoup/
