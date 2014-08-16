@@ -3,10 +3,30 @@ layout: directory
 title: Lesson Directory
 ---
 
-There is no correct or preferred order to the lessons listed here; they
-are grouped into themes, which are listed in alphabetical order. We
-invite you to browse around. If you can’t find a skill, technology, or
+We invite you to browse around. If you can’t find a skill, technology, or
 tool covered here, please let us know!
+
+The Original Programming Historian
+----------------------------------
+
+The *Programming Historian* was originally written as a series of lessons that
+were intended to be followed in sequence. The other lessons on the site are mostly independent
+of one another, and can be followed in any order.
+
+-   Installation Instructions for [Mac](../lessons/mac-installation), [Linux](../lessons/linux-installation), or [Windows](../lessons/windows-installation)
+-   [Viewing HTML Files](../lessons/viewing-html-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Working with Text Files](../lessons/working-with-text-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Code Reuse and Modularity](../lessons/code-reuse-and-modularity) <div class="toc-author">William J. Turkel & Adam Crymble</div>
+-   [Working with Web Pages](../lessons/working-with-web-pages) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Manipulating Strings in Python](../lessons/manipulating-strings-in-python) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [From HTML to a List of Words (part 1)](../lessons/from-html-to-list-of-words-1) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [From HTML to a List of Words (part 2)](../lessons/from-html-to-list-of-words-2) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Normalizing Data](../lessons/normalizing-data) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Counting Frequency](../lessons/counting-frequencies) <div class="toc-author"> William J.  Turkel & Adam Crymble</div>
+-   [Creating and Viewing HTML Files with Python](../lessons/creating-and-viewing-html-files-with-python) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Output Data as an HTML File](../lessons/output-data-as-html-file) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Keywords in Context (Using n-grams)](../lessons/keywords-in-context-using-n-grams) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Output Keywords in Context in HTML File](../lessons/output-keywords-in-context-in-html-file) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
 
 
 Application Programming Interfaces (APIs)
@@ -17,6 +37,7 @@ APIs let you programmatically request specific information from a website. Learn
 -   [Intro to the Zotero API](../lessons/intro-to-the-zotero-api) <div class="toc-author"> Amanda Morton</div>
 -   [Creating New Items in Zotero](../lessons/creating-new-items-in-zotero) <div class="toc-author">Amanda Morton</div>
 -   [Counting Frequencies from Zotero Items](../lessons/counting-frequencies-from-zotero-items) <div class="toc-author">Spencer Roberts</div>
+
 
 
 Data Management
@@ -30,6 +51,7 @@ research processes. A little bit of planning can save you a lot of time.
 -   [Sustainable Authorship in Plain Text using Pandoc and Markdown](../lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) <div class="toc-author">Dennis Tenen and Grant Wythoff</div>
 
 
+
 Data Manipulation
 -----------------
 
@@ -38,11 +60,10 @@ clean, or count data. These are essential techniques for preparing data
 to be used in various tools.
 
 -   [Cleaning Data with OpenRefine](../lessons/cleaning-data-with-openrefine) <div class="toc-author"> Seth van Hooland, Ruben Verborgh, Max De Wilde</div>
--   [Normalizing Data](../lessons/normalizing-data) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Counting Frequency](../lessons/counting-frequencies) <div class="toc-author"> William J.  Turkel & Adam Crymble</div>
 -   [Understanding Regular Expressions](../lessons/understanding-regular-expressions) <div class="toc-author">Doug Knox</div>
 -   [Cleaning OCR’d Text with Regular Expressions](../lessons/cleaning-ocrd-text-with-regular-expressions) <div class="toc-author">Laura Turner O’Hara</div>
 -   [Transliterating non-ASCII Characters with Python](../lessons/transliterating) <div class="toc-author"> Seth Bernstein</div>
+
 
 
 Getting Ready to Program
@@ -50,10 +71,8 @@ Getting Ready to Program
 If you’re new to programming in python, you’ll first need to set up a programming environment. For the most flexibility, we recommend that you follow these instructions on [setting up python on the command
 line](http://cli.learncodethehardway.org/book/ex1.html).
 
-For certain tools that appear through the Programming Historian lessons, read through the appropriate installation instructions for
-[Mac](../lessons/mac-installation), [Linux](../lessons/linux-installation), or [Windows](../lessons/windows-installation).
-
 Many of the tutorials require that you install one or more python modules to save you time coding. If this is a new concept for you, read about how to [Install Python Modules](../lessons/installing-python-modules-pip).
+
 
 
 Mapping and GIS
@@ -80,18 +99,6 @@ Learn how to present historical materials online.
 
 
 
-Python Programming Basics
--------------------------
-
-Some introductory lessons for basic techniques in Python. 
-
--   [Code Reuse and Modularity](../lessons/code-reuse-and-modularity) <div class="toc-author">William J. Turkel & Adam Crymble</div>
--   [Manipulating Strings in Python](../lessons/manipulating-strings-in-python) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Working with Text Files](../lessons/working-with-text-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Viewing HTML Files](../lessons/viewing-html-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
-
-
-
 Topic Modeling
 --------------
 
@@ -110,9 +117,6 @@ Learn how to use programming to download material from the Internet in a control
 -   [Automated Downloading with Wget](../lessons/automated-downloading-with-wget) <div class="toc-author"> Ian Milligan</div>
 -   [Applied Archival Downloading with Wget](../lessons/applied-archival-downloading-with-wget) <div class="toc-author"> Kellen Kurschinski</div>
 -   [Intro to Beautiful Soup](../lessons/intro-to-beautiful-soup) <div class="toc-author"> Jeri Wieringa</div>
--   [Working with Web Pages](../lessons/working-with-web-pages) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [From HTML to a List of Words (part 1)](../lessons/from-html-to-list-of-words-1) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [From HTML to a List of Words (part 2)](../lessons/from-html-to-list-of-words-2) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
 -   [Downloading Multiple Records Using Query Strings](../lessons/downloading-multiple-records-using-query-strings) <div class="toc-author"> Adam Crymble</div>
 
 
