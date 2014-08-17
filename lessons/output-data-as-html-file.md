@@ -11,7 +11,7 @@ layout: default
 Lesson Goals
 ------------
 
-This lesson takes the frequency pairs created in [Computing
+This lesson takes the frequency pairs created in [Counting
 Frequencies][] and outputs them to an HTML file.
 
 Here you will learn how to output data as an HTML file using Python. You
@@ -273,7 +273,7 @@ path to the directory on your own computer.
 -   programming-historian [Mac / Linux] ([zip][])
 -   programming-historian [Windows] ([zip][1])
 
-  [Computing Frequencies]: /lessons/counting-frequencies
+  [Counting Frequencies]: ../lessons/counting-frequencies
   [zip file from the previous lesson here.]: /lessons/creating-and-viewing-html-files-with-python#codesync
   [zip]: ../images/programming-historian-mac-linux.zip
   [1]: ../images/programming-historian-windows.zip
