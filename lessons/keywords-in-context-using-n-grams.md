@@ -35,7 +35,7 @@ from the Internet, and display them clearly in your browser window.
 -   `obo.py`
 
 If you do not have these files from the previous lesson, you can
-download a [zip file from the previous lesson here.][]
+download programming-historian-3, a [zip file from the previous lesson][]
 
 From Text to N-Grams to KWIC
 ----------------------------
@@ -46,16 +46,16 @@ dictionaries for text processing, there are many other things that you
 can do with the text besides counting frequencies. People who study the
 statistical properties of language have found that studying linear
 sequences of linguistic units can tell us a lot about a text. These
-linear sequences are known as bigrams (2 units), trigrams (3 units), or
-more generally as n-grams.
+linear sequences are known as *bigrams* (2 units), *trigrams* (3 units), or
+more generally as *n-grams*.
 
 You have probably seen n-grams many times before. They are commonly used
 on search results pages to give you a preview of where your keyword
 appears in a document and what the surrounding context of the keyword
 is. This application of n-grams is known as keywords in context (often
-abbreviated as KWIC). For example, if the string in question were “it
+abbreviated as KWIC). For example, if the string in question were "it
 was the best of times it was the worst of times it was the age of wisdom
-it was the age of foolishness” then a 7-gram for the keyword “wisdom”
+it was the age of foolishness" then a 7-gram for the keyword "wisdom"
 would be:
 
 ```
@@ -63,12 +63,12 @@ the age of wisdom it was the
 ```
 
 An n-gram could contain any type of linguistic unit you like. For
-historians you are most likely to use characters as in the bigram “qu”
-or words as in the trigram “the dog barked”; however, you could also use
+historians you are most likely to use characters as in the bigram "qu"
+or words as in the trigram "the dog barked"; however, you could also use
 phonemes, syllables, or any number of other units depending on your
 research question.
 
-What we’re going to do next is develop the ability to display KWIC for
+What we're going to do next is develop the ability to display KWIC for
 any keyword in a body of text, showing it in the context of a fixed
 number of words on either side. As before, we will wrap the output so
 that it can be viewed in Firefox and added easily to Zotero.
@@ -78,8 +78,8 @@ that it can be viewed in Firefox and added easily to Zotero.
 Since we want to work with words as opposed to characters or phonemes,
 it will be much easier to create n-grams using a list of words rather
 than strings. As you already know, Python can easily turn a string into
-a list using the split operation. Once split it becomes simple to
-retrieve a subsequence of adjacent words in the list by using a slice,
+a list using the `split` operation. Once split it becomes simple to
+retrieve a subsequence of adjacent words in the list by using a *slice*,
 represented as two indexes separated by a colon. This was introduced
 when working with strings in [Manipulating Strings in Python][].
 
@@ -118,7 +118,7 @@ print wordlist[12:]
 -> ['it', 'was', 'the', 'age', 'of', 'wisdom', 'it', 'was', 'the', 'age', 'of', 'foolishness']
 ```
 
-In these examples we have used the slice method to return parts of our
+In these examples we have used the `slice` method to return parts of our
 list. Note that there are two sides to the colon in a slice. If the
 right of the colon is left blank as in the last example above, the
 program knows to automatically continue to the end – in this case, to
@@ -127,7 +127,7 @@ start at the beginning by leaving the space before the colon empty. This
 is a handy shortcut available to keep your code shorter.
 
 You can also use variables to represent the index positions. Used in
-conjunction with a for loop, you could easily create every possible
+conjunction with a `for` loop, you could easily create every possible
 n-gram of your list. The following example returns all 5-grams of our
 string from the example above.
 
@@ -151,7 +151,7 @@ def getNGrams(wordlist, n):
 ```
 
 This function may look a little confusing as there is a lot going on
-here in not very much code. It uses a list comprehension to keep the
+here in not very much code. It uses a *list comprehension* to keep the
 code compact. The following example does exactly the same thing:
 
 ``` python
@@ -164,9 +164,9 @@ def getNGrams(wordlist, n):
 
 A concept that may still be confusing to you are the two function
 arguments. Notice that our function has two variable names in the
-parentheses after its name when we declared it: wordlist, n. These two
+parentheses after its name when we declared it: *wordlist*, *n*. These two
 variables are the function arguments. When you call (run) this function,
-these variables will be used by the function to solve itself. Without
+these variables will be used by the function for its solution. Without
 these arguments there is not enough information to do the calculations.
 In this case, the two pieces of information are the list of words you
 want to turn into n-grams (wordlist), and the number of words you want
@@ -187,17 +187,17 @@ print obo.getNGrams(allMyWords, 5)
 
 Notice that the arguments you enter do not have to have the same names
 as the arguments named in the function declaration. Python knows to use
-allMyWords everywhere in the function that wordlist appears, since this
-is given as the first argument. Likewise, all instances of n will be
+*allMyWords* everywhere in the function that *wordlist* appears, since this
+is given as the first argument. Likewise, all instances of *n* will be
 replaced by the integer 5 in this case. Try changing the 5 to a string,
-such as “elephants” and see what happens when you run your program. Note
-that because “n” is being used as an integer, you have to ensure the
+such as "elephants" and see what happens when you run your program. Note
+that because *n* is being used as an integer, you have to ensure the
 argument sent is also an integer. The same is true for strings, floats
 or any other variable type sent as an argument.
 
 You can also use a Python shell to play around with the code to get a
 better understanding of how it works. Paste the function declaration for
-getNGrams (either of the two functions above) into your Python shell.
+*getNGrams* (either of the two functions above) into your Python shell.
 
 ``` python
 test1 = 'here are four words'
@@ -217,13 +217,13 @@ There are two concepts that we see in this example of which you need to
 be aware. Firstly, because our function expects a list of words rather
 than a string, we have to convert the strings into lists before our
 function can handle them. We could have done this by adding another line
-of code above the function call, but instead we used the split method
+of code above the function call, but instead we used the `split` method
 directly in the function argument as a bit of a shortcut.
 
 Secondly, why did the first example return an empty list rather than the
-n-grams we were after? In test1, we have tried to ask for an n-gram that
+n-grams we were after? In *test1*, we have tried to ask for an n-gram that
 is longer than the number of words in our list. This has resulted in a
-blank list. In test2 we have no such problem and get all possible
+blank list. In *test2* we have no such problem and get all possible
 5-grams for the longer list of words. If you wanted to you could adapt
 your function to print a warning message or to return the entire string
 instead of an empty list.
@@ -235,20 +235,20 @@ n-grams that are of interest to us.
 ### Code Syncing
 
 To follow along with future lessons it is important that you have the
-right files and programs in your “programming-historian” directory. At
-the end of each chapter you can download the “programming-historian” zip
+right files and programs in your "programming-historian" directory. At
+the end of each chapter you can download the "programming-historian" zip
 file to make sure you have the correct code. If you are following along
 with the Mac / Linux version you may have to open the `obo.py` file and
-change “file:///Users/username/Desktop/programming-historian/” to the
+change "file:///Users/username/Desktop/programming-historian/" to the
 path to the directory on your own computer.
 
 -   programming-historian [Mac / Linux] ([zip][])
 -   programming-historian [Windows] ([zip][2])
 
-  [Output Data as HTML File]: /lessons/output-data-as-html-file
-  [Counting Frequencies]: /lessons/counting-frequencies
+  [Output Data as HTML File]: ../lessons/output-data-as-html-file
+  [Counting Frequencies]: ../lessons/counting-frequencies
   [1]: output-data-as-html-file
-  [zip file from the previous lesson here.]: /lessons/output-data-as-html-file#codesync
-  [Manipulating Strings in Python]: /lessons/manipulating-strings-in-pythons
-  [zip]: ../images/programming-historian.zip
-  [2]: ../images/programming-historian-windows.zip
+  [zip file from the previous lesson]: ../assets/programming-historian3.zip
+  [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
+  [zip]: ../assets/programming-historian-mac-linux.zip
+  [2]: ../assets/programming-historian-windows.zip
