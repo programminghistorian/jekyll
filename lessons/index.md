@@ -13,7 +13,7 @@ The *Programming Historian* was originally written as a series of lessons that
 were intended to be followed in sequence. The other lessons on the site are mostly independent
 of one another, and can be followed in any order.
 
--   [Introduction and Installation] (../lessons/introduction-and-installation)
+-   [Python Introduction and Installation] (../lessons/introduction-and-installation) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
 -   Installation Instructions for [Mac](../lessons/mac-installation), [Linux](../lessons/linux-installation), or [Windows](../lessons/windows-installation)
 -   [Viewing HTML Files](../lessons/viewing-html-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
 -   [Working with Text Files](../lessons/working-with-text-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
