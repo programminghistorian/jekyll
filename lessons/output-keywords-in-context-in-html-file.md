@@ -21,34 +21,34 @@ Internet, and display them clearly in your browser window.
 -   `obo.py`
 
 If you do not have these files from the previous lesson, you can
-download a [zip file from the previous lesson here.][]
+download a [zip file from the previous lesson][]
 
 ### Making an N-Gram Dictionary
 
 Our n-grams have an odd number of words in them for a reason. At this
-point, our n-grams don’t actually have a keyword; they’re just a list of
+point, our n-grams don"t actually have a keyword; they're just a list of
 words. However, if we have an odd numbered n-gram the middle word will
 always have an equal number of words to the left and to the right. We
 can then use that middle word as our keyword. For instance, ["it",
 "was", "the", "best", "of", "times", "it"] is a 7-gram of the keyword
-“best”.
+"best".
 
 Since we have a long text, we want to be able to output all n-grams for
-our keyword. To do this we will put each n-gram into a dictionary, using
-the middle word as the key. To figure out the keyword for each n-gram we
-can use the index positions of the list. If we are working with 5-grams,
+our keyword. To do this we will put each n-gram into a *dictionary*, using
+the middle word as the *key*. To figure out the keyword for each n-gram we
+can use the *index positions* of the list. If we are working with 5-grams,
 for example, the left context will consist of terms indexed by 0, 1, the
 keyword will be indexed by 2, and the right context terms indexed by 3,
-4. Since Python indexes start at 0, a 5-gram’s keyword will always be at
+4. Since Python indexes start at 0, a 5-gram's keyword will always be at
 index position 2.
 
-That’s fine for 5-grams, but to make the code a bit more robust, we want
+That's fine for 5-grams, but to make the code a bit more robust, we want
 to make sure it will work for any length n-gram, assuming its length is
-an odd number. To do this we’ll take the length of the n-gram, divide it
-by 2 and drop the remainder. We can achieve this using Python’s floor
-division operator, represented by two slashes, which divides and then
+an odd number. To do this we'll take the length of the n-gram, divide it
+by 2 and drop the remainder. We can achieve this using Python's `floor
+division` operator, represented by two slashes, which divides and then
 returns an answer to the nearest whole number, always rounding down –
-hence the term “floor”.
+hence the term "floor".
 
 ``` python
 print (7 // 2)
@@ -56,7 +56,7 @@ print (5 // 2)
 print (3 // 2)
 ```
 
-Let’s build a function that can identify the index position of the
+Let's build a function that can identify the index position of the
 keyword when given an n-gram with an odd number of words. Save the
 following to `obo.py`.
 
@@ -69,7 +69,7 @@ def nGramsToKWICDict(ngrams):
     return keyindex
 ```
 
-To determine the index of the keyword, we have used the len property to
+To determine the index of the keyword, we have used the `len` property to
 tell us how many items are in the first n-gram, then used floor division
 to isolate the middle index position. You can see if this worked by
 creating a new program, `get-keyword.py` and running it. If all goes
@@ -85,7 +85,7 @@ ngrams = obo.getNGrams(test.split(), 5)
 print obo.nGramsToKWICDict(ngrams)
 ```
 
-Now that we know the location of the keywords, let’s add everything to a
+Now that we know the location of the keywords, let's add everything to a
 dictionary that can be used to output all KWIC n-grams of a particular
 keyword. Study this code and then replace your `nGramsToKWICDict` with
 the following in your `obo.py` module.
@@ -107,14 +107,14 @@ def nGramsToKWICDict(ngrams):
     return kwicdict
 ```
 
-A for loop and if statement checks each n-gram to see if its keyword is
-already stored in the dictionary. If it isn’t, it’s added as a new
-entry. If it is, it’s appended to the previous entry. We now have a
-dictionary named kwicdict that contains all the n-grams, sortable by
+A `for` loop and `if` statement checks each n-gram to see if its keyword is
+already stored in the dictionary. If it isn't, it's added as a new
+entry. If it is, it's appended to the previous entry. We now have a
+dictionary named *kwicdict* that contains all the n-grams, sortable by
 keyword and we can turn to the task of outputting the information in a
 more useful format as we did in [Output Data as HTML File][].
 
-Try rerunning the `get-keyword.py` program and you should now see what’s
+Try rerunning the `get-keyword.py` program and you should now see what's
 in your KWIC dictionary.
 
 Outputting to HTML
@@ -122,7 +122,7 @@ Outputting to HTML
 
 ### Pretty Printing a KWIC
 
-“Pretty printing” is the process of formatting output so that it can be
+"Pretty printing" is the process of formatting output so that it can be
 easily read by human beings. In the case of our keywords in context, we
 want to have the keywords lined up in a column, with the terms in the
 left-hand context right justified, and the terms in the right-hand
@@ -138,15 +138,15 @@ something like this:
                        swear to a black than to a
                                   ...
 
-This technique is not the best way to format text from a web designer’s
+This technique is not the best way to format text from a web designer's
 perspective. If you have some experience with HTML we encourage you to
 use another method that will create a standards compliant HTML file, but
-for new learners, we just can’t resist the ease of the technique we’re
+for new learners, we just can't resist the ease of the technique we're
 about to describe. After all, the point is to integrate programming
 principles quickly into your research.
 
 To get this effect, we are going to need to do a number of list and
-string manipulations. Let’s start by figuring out what our dictionary
+string manipulations. Let's start by figuring out what our dictionary
 output will look like as it currently stands. Then we can work on
 refining it into what we want.
 
@@ -172,7 +172,7 @@ before the keyword, the keyword, and after the keyword. We can then use
 the techniques learned in the previous chapters to wrap everything in
 HTML so that it is easy to read.
 
-Using the same slice method as above, we will create our three parts.
+Using the same `slice` method as above, we will create our three parts.
 Open a Python shell and try the following examples. Pay close attention
 to what appears before and after the colon in each case. Knowing how to
 manipulate the slice method is a powerful skill for a new programming
@@ -207,7 +207,7 @@ Now that we know how to find each of the three segments, we need to
 format each to one of three columns in our display.
 
 The right-hand context is simply going to consist of a string of terms
-separated by blank spaces. We’ll use the join method to turn the list
+separated by blank spaces. We’ll use the `join` method to turn the list
 entries into a string.
 
 ``` python
@@ -215,11 +215,11 @@ print ' '.join(kwic[(keyindex+1):])
 -> there was one
 ```
 
-We want the keywords to have a bit of whitespace padding around them. We
-can achieve this by using a string method called center, which will
+We want the keywords to have a bit of *whitespace* padding around them. We
+can achieve this by using a string method called `center`, which will
 align the text to the middle of the screen. We can add padding by making
 the overall string be longer than the keyword itself. The expression
-below adds three blank spaces (6/2) to either side of the keyword. We’ve
+below adds three blank spaces (6/2) to either side of the keyword. We've
 added hash marks at the beginning and end of the expression so you can
 see the leading and trailing blanks.
 
@@ -229,12 +229,12 @@ print '#' + str(kwic[keyindex]).center(len(kwic[keyindex])+6) + '#'
 ```
 
 Finally, we want the left-hand context to be right justified. Depending
-on how large n is, we are going to need the overall length of this
-column to increase. We do this by defining a variable called width and
+on how large *n* is, we are going to need the overall length of this
+column to increase. We do this by defining a variable called *width* and
 then making the column length a multiple of this variable (we used a
 width of 10 characters, but you can make it larger or smaller as
-desired). The rjust method handles right justification. Once again,
-we’ve added hash marks so you can see the leading blanks.
+desired). The `rjust` method handles right justification. Once again,
+we've added hash marks so you can see the leading blanks.
 
 ``` python
 width = 10
@@ -302,15 +302,15 @@ obo.wrapStringInHTML('html-to-kwic', url, outstr)
 ```
 
 The first part is the same as above. In the second half of the program,
-we’ve wrapped everything in the HTML pre tag (pre-formatted), which
-tells the browser not to monkey with any of the spacing we’ve added.
+we've wrapped everything in the HTML *pre* tag (pre-formatted), which
+tells the browser not to monkey with any of the spacing we've added.
 
-Also, notice that we use the has\_key dictionary method to make sure
-that the keyword actually occurs in our text. If it doesn’t, we can
+Also, notice that we use the `has_key` dictionary method to make sure
+that the keyword actually occurs in our text. If it doesn't, we can
 print a message for the user before sending the output to Firefox. Try
 changing the target variable to a few other keywords. Try one you know
-isn’t there to make sure your program doesn’t output something when it
-shouldn’t.
+isn't there to make sure your program doesn't output something when it
+shouldn't.
 
 We have now created a program that looks for a keyword in a dictionary
 created from an HTML page on the web, and then outputs the n-grams of
@@ -323,18 +323,18 @@ accomplish specific tasks that will help in your research process.
 ### Code Syncing
 
 To follow along with future lessons it is important that you have the
-right files and programs in your “programming-historian” directory. At
-the end of each chapter you can download the “programming-historian” zip
+right files and programs in your "programming-historian" directory. At
+the end of each chapter you can download the "programming-historian" zip
 file to make sure you have the correct code. If you are following along
 with the Mac / Linux version you may have to open the `obo.py` file and
-change “file:///Users/username/Desktop/programming-historian/” to the
+change "file:///Users/username/Desktop/programming-historian/" to the
 path to the directory on your own computer.
 
 -   programming-historian [Mac / Linux] ([zip][])
 -   programming-historian [Windows] ([zip][1])
 
-  [Keywords in Context (Using N-grams)]: /lessons/keywords-in-context-using-n-grams
-  [zip file from the previous lesson here.]: /lessons/keywords-in-context-using-n-grams#codesync
+  [Keywords in Context (Using N-grams)]: ../lessons/keywords-in-context-using-n-grams
+  [zip file from the previous lesson]: ../assets/programming-historian3.zip
   [Output Data as HTML File]: /lessons/output-data-as-html-file
-  [zip]: ../images/programming-historian.zip
-  [1]: ../images/programming-historian-windows.zip
+  [zip]: ../assets/programming-historian-mac-linux.zip
+  [1]: ../assets/programming-historian-windows.zip
