@@ -29,7 +29,7 @@ showing where you want to put each digital asset.
 
 ![media\_1363324520297.png][]
 
-Figure 1: Add an exhibit in Omeka
+<figcaption>Figure 1: Add an exhibit in Omeka</figcaption>
 
 A collection is just a list of objects. An exhibit, on the other hand,
 is a guided tour through your items, complete with descriptive text and
@@ -44,7 +44,7 @@ your browser.
 
 ![media\_1363324690767.png][]
 
-Figure 2: Add a section in Omeka
+<figcaption>Figure 2: Add a section in Omeka</figcaption>
 
 Every exhibit has sections and pages — like the chapters and individual
 pages in a book. Add a new section by clicking on the green **Add
@@ -55,7 +55,7 @@ page.
 
 ![media\_1363324853892.png][]
 
-Figure 3: Add a page in Omeka
+<figcaption>Figure 3: Add a page in Omeka</figcaption>
 
 Pages are where you will stick the actual items in your exhibit. Click
 on the green **Add Page** button. On the following page, you will enter
@@ -68,7 +68,7 @@ layout; you can change it later. Then click on **Save Changes**.
 
 ![media\_1363325083453.png][]
 
-Figure 4: Add items to your page
+<figcaption>Figure 4: Add items to your page</figcaption>
 
 On the page that follows, you will see a numbered grid. You will fill in
 that grid by attaching items (in the places indicated by blue boxes) and
@@ -85,7 +85,7 @@ looks.
 
 ![media\_1363325355106.png][]
 
-Figure 5: The completed Omeka Exhibit
+<figcaption>Figure 5: The completed Omeka Exhibit</figcaption>
 
 Now your site has items, collections, and an exhibit — all the basic
 units of an Omeka site.
