@@ -5,6 +5,7 @@ authors:
 date: 2013-04-01
 reviewers: Fred Gibbs
 layout: default
+categories: [lessons, api]
 ---
 
 Lesson Goals

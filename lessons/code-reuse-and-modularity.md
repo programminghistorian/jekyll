@@ -6,6 +6,7 @@ authors:
 date: 2012-07-17
 reviewers: Miriam Posner, Jim Clifford
 layout: default
+categories: [lessons, original-ph, python]
 ---
 
 Lesson Goals
