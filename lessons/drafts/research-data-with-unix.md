@@ -10,7 +10,7 @@ ______
 
 ## Introduction
 
-This lesson will look at how research data, when organised in a clear and predictable manner, can be counted and mined using the Unix shell. The lesson builds on the lessons "[Preserving Your Research Data: Documenting and Structuring Data](http://programminghistorian.org/lessons/preserving-your-research-data)" and "[Introduction to the Bash Command Line](http://programminghistorian.org/lessons/)". Depending on your confidence with the Unix shell, it can also be used as a standalone lesson or refresher.
+This lesson will look at how research data, when organised in a clear and predictable manner, can be counted and mined using the Unix shell. The lesson builds on the lessons "[Preserving Your Research Data: Documenting and Structuring Data](lessons/preserving-your-research-data)" and "[Introduction to the Bash Command Line](http://programminghistorian.org/lessons/)". Depending on your confidence with the Unix shell, it can also be used as a standalone lesson or refresher.
 
 Having accumulated research data for one project, a historian might ask different questions of that same data when returning to it during a subsequent project. If this data is spread across multiple files - a series of tabulated data, a set of transcribed text, a collection of images - it can be counted and mined using simple Unix commands.
 
