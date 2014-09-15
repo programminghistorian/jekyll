@@ -10,6 +10,7 @@ date: June 2014
 
 Many of the lessons at the *Programming Historian* require you to enter commands through a **Command-Line Interface**. The usual way that computer users today interact with their system is through a **Graphical-User Interface**, or GUI. This means that when you go into a folder, you click on a picture of a file folder; when you run a program, you click on it; and when you browse the web, you use your mouse to interact with various elements on a webpage. Before the rise of GUIs in the late 1980s, however, the primary way to interact with a computer was through a command-line interface.
 
+{% include figure.html src="../../images/GUI.png" caption="GUI of Ian Milligan's Computer" %}
 ![A Graphical User Interface](../../images/GUI.png)
 
 Command-line interfaces, however, have advantages for computer users who need more precision in their work -- such as digital historians. They allow for more detail when running programs, as you can add modifiers to specify *exactly* how you want your program to run. Furthermore, they can be easily automated through [scripts](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/chap_01.html), which are essentially recipes of text-based commands.
