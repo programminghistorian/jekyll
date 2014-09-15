@@ -10,17 +10,17 @@ date: June 2014
 
 Many of the lessons at the *Programming Historian* require you to enter commands through a **Command-Line Interface**. The usual way that computer users today interact with their system is through a **Graphical-User Interface**, or GUI. This means that when you go into a folder, you click on a picture of a file folder; when you run a program, you click on it; and when you browse the web, you use your mouse to interact with various elements on a webpage. Before the rise of GUIs in the late 1980s, however, the primary way to interact with a computer was through a command-line interface.
 
-![A Graphical User Interface](../../images/GUI.png)
+{% include figure.html src="../../images/GUI.png" caption="GUI of Ian Milligan's Computer" %}
 
-Command-line interfaces, however, have advantages for computer users who need more precision in their work -- such as digital historians. They allow for more detail when running programs, as you can add modifiers to specify *exactly* how you want your program to run. Furthermore, they can be easily automated through [scripts](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/chap_01.html), which are essentially recipes of text-based commands.
+Command-line interfaces, have advantages for computer users who need more precision in their work -- such as digital historians. They allow for more detail when running some programs, as you can add modifiers to specify *exactly* how you want your program to run. Furthermore, they can be easily automated through [scripts](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/chap_01.html), which are essentially recipes of text-based commands.
 
-There are two main command-line interfaces, or 'shells,' that many digital historians use. For users on Windows-based systems, the command-line interface is by default MS-DOS-based. On OS X or many Linux installations, the shell is known as `bash`, or the 'Bourne-again shell.' They are very different: they use different commands and syntax, although you can often do similar things with both of them. This lesson provides a basic introduction to the bash terminal.
+There are two main command-line interfaces, or 'shells,' that many digital historians use. On OS X or many Linux installations, the shell is known as `bash`, or the 'Bourne-again shell.'  For users on Windows-based systems, the command-line interface is by default `MS-DOS-based`, which uses different commands and [syntax](http://en.wikipedia.org/wiki/Syntax), but can often achieve similar tasks. This tutorial provides a basic introduction to the `bash` terminal, and Windows users can follow along by installing popular shells such as [Cygwin](https://www.cygwin.com/) or Git Bash (see below).
 
-A **Unix shell** is a command-line interpreter that provides a user interface for the Unix operating system and for Unix-like systems. For Windows users, popular shells include Cygwin and Git Bash. This lesson will cover a small number of basic commands. These constitute the building blocks upon which more complex commands can be constructed to fit your research data or project. Readers wanting a reference guide that goes beyond this lesson are recommended to read Deborah S. Ray and Eric J. Ray, *Unix and Linux: Visual Quickstart Guide*, 4th edition (2009).
+This lesson uses a **[Unix shell](http://en.wikipedia.org/wiki/Unix_shell)**, which is a command-line interpreter that provides a user interface for the [Unix](http://en.wikipedia.org/wiki/Unix) operating system and for Unix-like systems. This lesson will cover a small number of basic commands. These constitute the building blocks upon which more complex commands can be constructed to fit your research data or project. Readers wanting a reference guide that goes beyond this lesson are recommended to read Deborah S. Ray and Eric J. Ray, *Unix and Linux: Visual Quickstart Guide*, 4th edition (2009).
 
 ## Windows Only: Installing Git Bash
 
-For those on OS X, and most Linux installations, you're in luck — you already have a bash shell installed. For those of you on Windows, you'll need to take one extra step and install Git Bash. This can be installed by downloading the most recent 'Full installer' at the the msysgit featured downloads list <https://github.com/msysgit/msysgit/releases/>. Instructions for installation are available at [Open Hatch](https://openhatch.org/missions/windows-setup/install-git-bash).
+For those on OS X, and most Linux installations, you're in luck — you already have a bash shell installed. For those of you on Windows, you'll need to take one extra step and install Git Bash. This can be installed by downloading the most recent 'Full installer' at the the ]msysgit featured downloads list](https://github.com/msysgit/msysgit/releases/). Instructions for installation are available at [Open Hatch](https://openhatch.org/missions/windows-setup/install-git-bash).
 
 ## Opening Your Shell
 
@@ -28,15 +28,15 @@ Let's start up the shell. In Windows, run Git Bash from the directory that you i
 
 `Applications -> Utilities -> Terminal` 
 
-![The Terminal.app program on OS X](../../images/Terminal.png)
+{% include figure.html src="../../images/Terminal.png" caption="The Terminal.app program on OS X" %}
 
 When you run it, you will see this window. 
 
-![A blank terminal screen on our OS X workstation](../../images/Blank-Terminal.png)
+{% include figure.html src="../../images/Blank-Terminal.png" caption="A blank terminal screen on our OS X workstation" %}
 
 You might want to change the default visual appearance of the terminal, as eyes can strain at repeatedly looking at black text on a white background. In the default OS X application, you can open the 'Settings' menu in 'Preferences' under Terminal. Click on the 'Settings' tab and change it to a new colour scheme. We personally prefer something with a bit less contrast between background and foreground, as you'll be staring at this a great deal. 'Novel' is a soothing one one as is the popular [Solarized](http://ethanschoonover.com/solarized) suite of colour palettes. For Windows users, a similar effect can be achieved using the Git Bash `Properties` tab. To reach this, right-click anywhere in the top bar and select `Properties`.
 
-![The Settings Screen on the OS X Terminal Shell Application](../../images/Settings.png)
+{% include figure.html src="../../images/Settings.png" caption="The Settings Screen on the OS X Terminal Shell Application" %}
 
 Once you are happy with the interface, let's get started.
 
@@ -45,7 +45,6 @@ Once you are happy with the interface, let's get started.
 If, when opening a command window, you are unsure of where you are in a computer's file system, the first step is to find out what directory you are in. You can do this through the `pwd` command, which stands for "print working directory." Try inputing:
 
 `pwd`
-
 
 and hitting enter. If you're on OS X or Linux, your computer will probably display `/users/USERNAME` with your own user name in place of USERNAME. For example, Ian's path on OS X is `/users/ianmilligan1/`.
 
@@ -65,7 +64,7 @@ You may want more information than just a list of files. You can do this by spec
 
 `man ls`
 
-![The Manual page for the LS command](../../images/man-ls.png)
+{% include figure.html src="../../images/man-ls.png" caption="The Manual page for the LS command" %}
 
 Here, you see a listing of the name of the command, the way that you can format this command and what it does. **Many of these will not make sense at this stage, but don't worry; over time you will become more familiar with them.** You can explore this page in a variety of ways: the spacebar moves down a page, or you can arrow down and arrow up throughout the document. 
 
@@ -83,7 +82,7 @@ Let's try using a few of those options you saw in the `man` page for ls. Perhaps
 
 `ls *.txt`
 
-which returns a list of text files. The * command is a **wildcard** — it stands for 'anything.' So, in this case, you're indicating that anything that fits the pattern:
+which returns a list of text files. The \* command is a **wildcard** — it stands for 'anything.' So, in this case, you're indicating that anything that fits the pattern:
 
 [anything.txt]
 
@@ -113,7 +112,7 @@ When you want to use two flags, you can just run them together. So, by typing
 
 you receive output in a human-readable format; you learn that that 6020 bits is also 5.9KB, that another file is 1 megabyte, and so forth. 
 
-These options are *very* important. In other lessons within the *Programming Historian*, you'll see them. [Wget](http://programminghistorian.org/lessons/applied-archival-downloading-with-wget), [MALLET](http://programminghistorian.org/lessons/topic-modeling-and-mallet), and [Pandoc](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) all use the same syntax. Luckily, you do not need to memorize syntax; instead, keep these lessons handy so you can take a quick peak if you need to tweak something. These lessons can all be done in any order.
+These options are *very* important. In other lessons within the *Programming Historian*, you'll see them. [Wget](http://programminghistorian.org/lessons/applied-archival-downloading-with-wget), [MALLET](http://programminghistorian.org/lessons/topic-modeling-and-mallet), and [Pandoc](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) all use the same syntax. Luckily, you do not need to memorize syntax; instead, keep these lessons handy so you can take a quick peek if you need to tweak something. These lessons can all be done in any order.
 
 You've now spent a great deal of time in your home directory. Let's go somewhere else. You can do that through the `cd` or Change Directory command. 
 
@@ -147,9 +146,9 @@ or, on Windows, something like
 
 `cd c:\mallet-2.0.7\`
 
-and be brought to our MALLET directory for topic modeling.
+and be brought to our MALLET directory for [topic modeling](http://programminghistorian.org/lessons/topic-modeling-and-mallet).
 
-Finally, if you type
+Finally, try
 
 `open .` 
 
@@ -157,7 +156,7 @@ in OS X or
 
 `explorer .` 
 
-in Windows, you will open up the current directory you are in with your file system explorer. Make sure to leave a space between `open` or `explorer` and the period.
+in Windows. That command will open up your GUI at the current directory. Make sure to leave a space between `open` or `explorer` and the period.
 
 ## Interacting with Files
 
@@ -165,15 +164,15 @@ As well as navigating directories, you can interact with files on the command li
 
 Here's a few basic ways to do interact with files. 
 
-First, you can create a new directory so you can engage with text files. We will create it on your desktop, for convenience's sake. You can always move it later. Navigate to your desktop and type
+First, you can create a new directory so you can engage with text files. We will create it on your desktop, for convenience's sake. You can always move it later. Navigate to your desktop using your shell, and type:
 
 `mkdir ProgHist-Text`
 
-This creates a directory named, you guessed it, 'ProgHist-Text.' Now, move into that directory (remember, that would be `cd ProgHist-Text`).
+This creates a directory named, you guessed it, 'ProgHist-Text.' You can look at your desktop to verify it has worked. Now, move into that directory (remember, that would be `cd ProgHist-Text`).
 
-But wait! There's a trick to make things a bit quicker. Go up one directory (`cd ..`). To navigate to the `ProgHist-Text` directory you could type `cd ProgHist-Text`. Alternatively, you could type `cd Prog` and then hit tab. You will notice that the interface completes the line to `cd ProgHist-Text`. **Hitting tab at any time within the shell will prompt it to attempt to auto-complete the line based on the files or sub-directories in the current directory. Where two or more files have the same characters, the auto-complete will only fill up to the first point of difference. We would encourage using this method throughout the lesson to see how it behaves.**
+But wait! There's a trick to make things a bit quicker. Go up one directory (`cd ..` - which will take you back to the Desktop). To navigate to the `ProgHist-Text` directory you could type `cd ProgHist-Text`. Alternatively, you could type `cd Prog` and then hit tab. You will notice that the interface completes the line to `cd ProgHist-Text`. **Hitting tab at any time within the shell will prompt it to attempt to auto-complete the line based on the files or sub-directories in the current directory. Where two or more files have the same characters, the auto-complete will only fill up to the first point of difference. We would encourage using this method throughout the lesson to see how it behaves.**
 
-Now you need to find a basic text file to help us with the example. Why don't you use a book that you know is long, such as Leo Tolstoy's epic *War and Peace*. The text file is located [here](http://www.gutenberg.org/cache/epub/2600/pg2600.txt). If you have already installed [wget](http://programminghistorian.org/lessons/applied-archival-downloading-with-wget), you can just type
+Now you need to find a basic text file to help us with the example. Why don't you use a book that you know is long, such as Leo Tolstoy's epic *War and Peace*. The text file is availiable via [Project Gutenberg](http://www.gutenberg.org/cache/epub/2600/pg2600.txt). If you have already installed [wget](http://programminghistorian.org/lessons/applied-archival-downloading-with-wget), you can just type
 
 `wget http://www.gutenberg.org/cache/epub/2600/pg2600.txt`
 
@@ -193,7 +192,9 @@ on OS X, or
 
 `explorer pg2600.txt`
 
-in Windows. This selects the default program to open that type of file, and opens it. 
+in Windows. 
+
+This selects the default program to open that type of file, and opens it. 
 
 However, you often want to just work on the command line without leaving it. You can read files within this environment as well. To try this, type:
 
@@ -241,7 +242,7 @@ and hit enter, a combination of all the .txt files in the current directory are 
 
 ## Editing Text Files Directly on the Command Line
 
-If you want to read a file in its entirety without leaving the command line, you can fire up vim. Vim is a very powerful text editor, which is perfect for using with programs such as Pandoc to do word processing, or for editing your code without having to switch to another program. Best of all, it comes included with bash on both OS X and Windows. It has a fairly steep learning curve, however, so we will just touch on a few minor points. 
+If you want to read a file in its entirety without leaving the command line, you can fire up [vim](http://en.wikipedia.org/wiki/Vim_%28text_editor%29). Vim is a very powerful text editor, which is perfect for using with programs such as [Pandoc](http://johnmacfarlane.net/pandoc/) to do word processing, or for editing your code without having to switch to another program. Best of all, it comes included with bash on both OS X and Windows. Vim has a fairly steep learning curve, so we will just touch on a few minor points. 
 
 Type 
 
@@ -249,25 +250,21 @@ Type
 
 You should see vim come to life before you, a command-line based text editor.
 
-![Vim](../../images/vim.png)
+{% include figure.html src="../../images/vim.png" caption="Vim" %}
 
-If you really want to get into Vim, there is a good guide [here](http://vimdoc.sourceforge.net/htmldoc/quickref.html). 
+If you really want to get into Vim, there is a [good Vim guide](http://vimdoc.sourceforge.net/htmldoc/quickref.html) available. 
 
 Using Vim to read files is relatively simple. You can use the arrow keys to navigate around and could theoretically read *War and Peace* through the command line (one should get an achievement for doing that). Some quick basic navigational commands are as follows:
 
-`Ctrl+F` (that is, holding down your 'control key' and pressing the letter F); for Windows users `Shift+UpArrow`
+`Ctrl+F` (that is, holding down your 'control key' and pressing the letter F) will move you down a page (`Shift+UpArrow` for Windows).
 
-will move you down a page, and
-
-`Ctrl+B`; for Windows users `Shift+DownArrow`
-
-will move you up a page.
+`Ctrl+B` will move you up a page. (`Shift+DownArrow` for Windows users). 
 
 If you want to rapidly move to the end of a line, you can press: `$` and to move to the start of one, `0`. You can also move between sentences by typing `)` (forward) or `(` (backwards). For paragraphs, use `}` and `{`. Since you are doing everything with your keyboard, rather than having to hold your arrow key down to move around a document, this lets you zip quickly back and forth.
 
 Let's scroll to the top and do a minor change, such as adding a `Reader` field in the heading. Move your cursor in between **Author:** and **Translators:**, like so:
 
-![About to Insert a Field](../../images/about-to-insert.png)
+{% include figure.html src="../../images/about-to-insert.png" caption="About to Insert a Field" %}
 
 If you just start typing, you'll get an error message or the cursor will begin jumping around. This is because you have to specify that you want to do an edit. Press the letter
 
@@ -287,11 +284,11 @@ To leave vim or to make saves, you have to enter a series of commands. Press `:`
 
 >> "tolstoy.txt" [dos] 65009L, 3291681C written
 
-![After Writing the File, with Our Minor Change](../../images/after-writing.png)
+{% include figure.html src="../../images/after-writing.png" caption="After Writing the File, with Our Minor Change" %}
 
 If you want to quit, type `:` again and then `q`. It will return you to the command line. As with the rest of bash, you could have also combined the two commands. Pressing `:` and then typing `wq` would have written the file and then quit. Or, if you wanted to exit **without** saving, `q!` would have quit vim and overriden the default preference to save your changes.
 
-Vim is complicated and will require more work and practice to become fluent with it. But if you are tweaking minor things in files, it is a good way to get started. As you become more comfortable, you might even find yourself writing term papers with it, by harnessing the [footnoting and formatting power of Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
+Vim is different than you are likely used to and will require more work and practice to become fluent with it. But if you are tweaking minor things in files, it is a good way to get started. As you become more comfortable, you might even find yourself writing term papers with it, by harnessing the [footnoting and formatting power of Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
 
 ## Moving, Copying, and Deleting Files
 
@@ -309,13 +306,13 @@ In this case, the command
 
 `cp /users/ianmilligan1/desktop/proghist-text/tolstoy.txt /users/ianmilligan1/desktop/proghist-dest/`
 
-will copy Tolstoy from the first directory to the second directory. This means you now have three copies of the novel on our computer. The original, the backup and the new copy in the second directly. If you wanted to **move** the file, that is, not leave a copy behind, you could run the command again, swapping `cp` for `mv`; let's not do this yet.
+will copy Tolstoy from the first directory to the second directory. You will have to insert your own username in place of 'ianmilligan1'. This means you now have three copies of the novel on our computer. The original, the backup and the new copy in the second directly. If you wanted to **move** the file, that is, not leave a copy behind, you could run the command again, swapping `cp` for `mv`; let's not do this yet.
 
 You can also copy multiple files with a single command. If you wanted to copy **both** the original and the backup file, you could use the wildcard command. 
 
 `cp /users/ianmilligan1/desktop/proghist-text/*.txt /users/ianmilligan1/desktop/proghist-dest/`
 
-, for example, copies **all** the text files from the origin directory into the destination directory.
+This command copies **all** the text files from the origin directory into the destination directory.
 
 Note: If you are in the directory that you either want to move things to or from, you do not have to type out the whole directory structure. Let's do two quick examples. Change your directory to the `proghist-text` directory. From this location, if you wanted to copy these two files to `proghist-dest`, this command would work:
 
@@ -333,6 +330,8 @@ Move to `proghist-text` and delete the original file by typing
 
 `rm tolstoy.txt`
 
+Check that the file is gone using the `ls` command.
+
 If you wanted to delete an entire directory, you have two options. you can use `rmdir`, the opposite of `mkdir`, to delete an **empty** directory. To delete a directory with files, you could use from the desktop:
 
 `rm -r proghist-text`
@@ -343,7 +342,8 @@ You may want to take a break from the terminal at this point. To do so, enter `e
 
 There are more commands to try as you get more comfortable with the command line. Some of our other favourites are `du`, which is a way to find out how much memory is being used (`du -h` makes it human readable — as with other commands). For those of you on OS X, `top` provides an overview of what processes are running (`mem` on Windows) and `touch FILENAME` can create a basic text file on both systems
 
-By this point, we hope you have a good, basic understanding of how to move around the command line, move basic files, and make minor edits here and there. This beginner-level lesson is designed to give you some basic fluency and confidence. In the future, you may want to get involved with scripting.
+By this point, we hope you have a good, basic understanding of how to move around using the command line, move basic files, and make minor edits here and there. This beginner-level lesson is designed to give you some basic fluency and confidence. In the future, you may want to get involved with scripting.
+
 Have fun! Before you know it, you may find yourself liking the convenience and precision of the command line - for certain applications, at least - far more than the bulkier GUI that your system came with. Your toolkit just got bigger.
 
 ## Reference Guide
