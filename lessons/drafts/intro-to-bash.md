@@ -16,7 +16,7 @@ Command-line interfaces, have advantages for computer users who need more precis
 
 There are two main command-line interfaces, or 'shells,' that many digital historians use. On OS X or many Linux installations, the shell is known as `bash`, or the 'Bourne-again shell.'  For users on Windows-based systems, the command-line interface is by default `MS-DOS-based`, which uses different commands and [syntax](http://en.wikipedia.org/wiki/Syntax), but can often achieve similar tasks. This tutorial provides a basic introduction to the `bash` terminal, and Windows users can follow along by installing popular shells such as [Cygwin](https://www.cygwin.com/) or Git Bash (see below).
 
-This lesson uses a **[Unix shell](http://en.wikipedia.org/wiki/Unix_shell)**, which is a command-line interpreter that provides a user interface for the [Unix](http://en.wikipedia.org/wiki/Unix) operating system and for Unix-like systems. This lesson will cover a small number of basic commands. These constitute the building blocks upon which more complex commands can be constructed to fit your research data or project. Readers wanting a reference guide that goes beyond this lesson are recommended to read Deborah S. Ray and Eric J. Ray, *Unix and Linux: Visual Quickstart Guide*, 4th edition (2009).
+This lesson uses a **[Unix shell](http://en.wikipedia.org/wiki/Unix_shell)**, which is a command-line interpreter that provides a user interface for the [Unix](http://en.wikipedia.org/wiki/Unix) operating system and for Unix-like systems. This lesson will cover a small number of basic commands. By the end of this tutorial you will be able to navigate through your file system and find files, open them, perform basic data manipulation tasks such as combining and copying files, as well as both reading them and making relatively simple edits. These commands constitute the building blocks upon which more complex commands can be constructed to fit your research data or project. Readers wanting a reference guide that goes beyond this lesson are recommended to read Deborah S. Ray and Eric J. Ray, *Unix and Linux: Visual Quickstart Guide*, 4th edition (2009).
 
 ## Windows Only: Installing Git Bash
 
@@ -42,7 +42,7 @@ Once you are happy with the interface, let's get started.
 
 ## Moving Around Your Computer's File System
 
-If, when opening a command window, you are unsure of where you are in a computer's file system, the first step is to find out what directory you are in. You can do this through the `pwd` command, which stands for "print working directory." Try inputing:
+If, when opening a command window, you are unsure of where you are in a computer's file system, the first step is to find out what directory you are in. Unlike in a graphical system, when in a shell you cannot be in multiple directories at once. When you open up your file explorer on your desktop, it's revealing files that are within a directory. You can find out what directory you are in through the `pwd` command, which stands for "print working directory." Try inputing:
 
 `pwd`
 
@@ -82,7 +82,7 @@ Let's try using a few of those options you saw in the `man` page for ls. Perhaps
 
 `ls *.txt`
 
-which returns a list of text files. The \* command is a **wildcard** — it stands for 'anything.' So, in this case, you're indicating that anything that fits the pattern:
+which returns a list of text files, if you have any in your home directory (you may not, and that is OK as well). The \* command is a **wildcard** — it stands for 'anything.' So, in this case, you're indicating that anything that fits the pattern:
 
 [anything.txt]
 
@@ -120,7 +120,7 @@ If you type
 
 `cd desktop` 
 
-you are now on your desktop. To double check, type `pwd` and you should see something like:
+you are now on your desktop. This is akin to you 'double-clicking' on the 'desktop' folder within a file explorer. To double check, type `pwd` and you should see something like:
 
 `/Users/ianmilligan1/desktop`
 
@@ -136,7 +136,7 @@ This moves us 'up' one directory, putting us back in `/Users/ianmilligan1/`. If 
 
 will bring you right back to the home directory, right where you started.
 
-Try exploring: visit your documents directory, your pictures, folders you might have on your desktop. Get used to moving in and out of directories.
+Try exploring: visit your documents directory, your pictures, folders you might have on your desktop. Get used to moving in and out of directories. Imagine that you are navigating a tree structure. If you're on the desktop, you won't be able to `cd documents` as it is out of your home directory: you will have to back up to your home directory (`cd ..`) and then go forward again to `cd documents`.
 
 Being able to navigate your file system using the bash shell is very important for many of the lessons at the *Programming Historian*. As you become more comfortable, you'll soon find yourself skipping directly to the directory that you want. In our case, from anywhere on our system, you could type
 
@@ -170,7 +170,7 @@ First, you can create a new directory so you can engage with text files. We will
 
 This creates a directory named, you guessed it, 'ProgHist-Text.' You can look at your desktop to verify it has worked. Now, move into that directory (remember, that would be `cd ProgHist-Text`).
 
-But wait! There's a trick to make things a bit quicker. Go up one directory (`cd ..` - which will take you back to the Desktop). To navigate to the `ProgHist-Text` directory you could type `cd ProgHist-Text`. Alternatively, you could type `cd Prog` and then hit tab. You will notice that the interface completes the line to `cd ProgHist-Text`. **Hitting tab at any time within the shell will prompt it to attempt to auto-complete the line based on the files or sub-directories in the current directory. Where two or more files have the same characters, the auto-complete will only fill up to the first point of difference. We would encourage using this method throughout the lesson to see how it behaves.**
+But wait! There's a trick to make things a bit quicker. Go up one directory (`cd ..` - which will take you back to the Desktop). To navigate to the `ProgHist-Text` directory you could type `cd ProgHist-Text`. Alternatively, you could type `cd Prog` and then hit tab. You will notice that the interface completes the line to `cd ProgHist-Text`. **Hitting tab at any time within the shell will prompt it to attempt to auto-complete the line based on the files or sub-directories in the current directory. This is case sensitive, however (i.e. in the previous example, `cd prog` would not auto complete to `ProgHist-Text`. Where two or more files have the same characters, the auto-complete will only fill up to the first point of difference. We would encourage using this method throughout the lesson to see how it behaves.**
 
 Now you need to find a basic text file to help us with the example. Why don't you use a book that you know is long, such as Leo Tolstoy's epic *War and Peace*. The text file is availiable via [Project Gutenberg](http://www.gutenberg.org/cache/epub/2600/pg2600.txt). If you have already installed [wget](http://programminghistorian.org/lessons/applied-archival-downloading-with-wget), you can just type
 
