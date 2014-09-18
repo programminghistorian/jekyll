@@ -4,7 +4,7 @@
 {% if author == member.name %}
 {% assign avatar = member.name | replace: " ","-" %}
 <div class="contact-box">
-<img class="avatar" src="{{site.baseurl}}/avatars/{{avatar}}.png">
+<img class="avatar" src="{{site.url}}/avatars/{{avatar}}.png">
 {{ member.bio }}
 <br/>
 	{% if member.url %}

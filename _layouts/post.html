@@ -6,7 +6,7 @@
 <body>
 
   <header role="banner">
-    <h1><a href="{{ site.baseurl }}">The Programming Historian</a></h1>
+    <h1><a href="{{ site.url }}">The Programming Historian</a></h1>
 
 	{% include menu.html %}
 
@@ -23,7 +23,7 @@
       {{ content }}
 
 	  <div class="author-info">
-	     <a class="author-picture" href=""><img alt="{{ page.author }}" src = "{{ site.baseurl }}/images/{{ page.author | replace: " ","-" }}.png" class="avatar" height="120" /></a>
+	     <a class="author-picture" href=""><img alt="{{ page.author }}" src = "{{ site.url }}/images/{{ page.author | replace: " ","-" }}.png" class="avatar" height="120" /></a>
 	   	 <p class="author-name">By {{ page.author }}</p>
 	  </div>
 
