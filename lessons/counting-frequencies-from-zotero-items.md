@@ -84,13 +84,15 @@ from libZotero import zotero
 import urllib2 
 ```
 
-Next, we need to tell our program where to find the items we will be
-using in our analysis. Using the sample Zotero library from which we
-retrieved items in the [lesson on the Zotero API][], or using your personal library, we
-will pull the first two top-level items from either the library or from
-a specific collection within the library. (To find your collection key,
-mouseover the RSS button on that collection’s page and use the second
-alpha-numeric sequence in the URL.)
+Next, we need to tell our program where to find the items we will be using in
+our analysis. Using the sample Zotero library from which we retrieved items in
+the [lesson on the Zotero API][], or using your personal library, we will pull
+the first two top-level items from either the library or from a specific
+collection within the library. (To find your collection key, mouseover the RSS
+button on that collection’s page and use the second alpha-numeric sequence in
+the URL. If you are trying to connect to an individual user library, you must
+change the word `group` to the word `user`, replace the six-digit number
+with your user ID, and insert your own API key.)
 
 ``` python
 #links to Zotero library

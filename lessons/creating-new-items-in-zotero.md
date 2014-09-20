@@ -35,8 +35,11 @@ import urllib2
 import datetime
 ```
 
-Your next line of code will connect to your zotero group library using
-the unique group id and API key.
+Your next line of code will connect to the zotero group library for this lesson
+using the unique group id and API key. (You can also replace the first number
+in the line with your own group or user ID, but if you are trying to connect to
+an individual user library, you must change the word `group` to the word
+`user` and create your own API key.)
 
 ``` python
 #links to zotero group library

@@ -74,11 +74,15 @@ you can use the library we’ve created for this lesson at [Programming
 Historian 2][].
 
 If you want to use your own group or individual library, you will need
-to retrieve your group ID and API key. Your group ID can be found by
-hovering over the RSS option on your library feed. The ID is the numeric
-part of the URL. Your group API key, if one has been created, is located
-in your [account settings][]. If there is no key assigned to the group,
-and you are the end user, you can create a new key on the same page.
+to retrieve your group or user ID and your own API key. If you use your
+individual library, you'll also need to replace the word `group` with the 
+word `user` in the above code.
+
+Your group ID can be found by hovering over the RSS option on your library
+feed. The ID is the numeric part of the URL. Your group API key, if one has
+been created, is located in your [account settings][]. If there is no key
+assigned to the group, and you are the end user, you can create a new key on
+the same page.
 
 To use the PH2 group library, use the following:
 
