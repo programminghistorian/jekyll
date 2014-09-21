@@ -12,7 +12,7 @@ Many of the lessons at the *Programming Historian* require you to enter commands
 
 {% include figure.html src="../images/GUI.png" caption="GUI of Ian Milligan's Computer" %}
 
-Command-line interfaces, have advantages for computer users who need more precision in their work -- such as digital historians. They allow for more detail when running some programs, as you can add modifiers to specify *exactly* how you want your program to run. Furthermore, they can be easily automated through [scripts](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/chap_01.html), which are essentially recipes of text-based commands.
+Command-line interfaces have advantages for computer users who need more precision in their work -- such as digital historians. They allow for more detail when running some programs, as you can add modifiers to specify *exactly* how you want your program to run. Furthermore, they can be easily automated through [scripts](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/chap_01.html), which are essentially recipes of text-based commands.
 
 There are two main command-line interfaces, or 'shells,' that many digital historians use. On OS X or many Linux installations, the shell is known as `bash`, or the 'Bourne-again shell.'  For users on Windows-based systems, the command-line interface is by default `MS-DOS-based`, which uses different commands and [syntax](http://en.wikipedia.org/wiki/Syntax), but can often achieve similar tasks. This tutorial provides a basic introduction to the `bash` terminal, and Windows users can follow along by installing popular shells such as [Cygwin](https://www.cygwin.com/) or Git Bash (see below).
 
