@@ -1,7 +1,11 @@
 ---
 title: Counting and mining research data with Unix
-author: James Baker and Ian Milligan
-date: August 2014
+authors: 
+- James Baker
+- Ian Milligan
+reviewers: Melodee Beals, Allison Hegel, Adam Crymble
+date: 2014-09-20
+display: default
 ---
 
 ______
