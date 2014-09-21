@@ -5,10 +5,8 @@ authors:
 - Ian Milligan
 reviewers: Melodee Beals, Allison Hegel, Adam Crymble
 date: 2014-09-20
-display: default
+layout: default
 ---
-
-______
 
 # Counting and mining research data with Unix
 
