@@ -10,7 +10,7 @@ ______
 
 ## Introduction
 
-This lesson will look at how research data, when organised in a clear and predictable manner, can be counted and mined using the Unix shell. The lesson builds on the lessons "[Preserving Your Research Data: Documenting and Structuring Data](../lessons/preserving-your-research-data)" and "[Introduction to the Bash Command Line](../lessons/)". Depending on your confidence with the Unix shell, it can also be used as a standalone lesson or refresher.
+This lesson will look at how research data, when organised in a clear and predictable manner, can be counted and mined using the Unix shell. The lesson builds on the lessons "[Preserving Your Research Data: Documenting and Structuring Data](../lessons/preserving-your-research-data)" and "[Introduction to the Bash Command Line](../lessons/intro-to-bash)". Depending on your confidence with the Unix shell, it can also be used as a standalone lesson or refresher.
 
 Having accumulated research data for one project, a historian might ask different questions of that same data when returning to it during a subsequent project. If this data is spread across multiple files - a series of tabulated data, a set of transcribed text, a collection of images - it can be counted and mined using simple Unix commands.
 
@@ -23,7 +23,7 @@ _____
 
 Windows users will need to install Git Bash. This can be installed by downloading the most recent installer at the [git for windows webpage](http://msysgit.github.io/). Instructions for installation are available at [Open Hatch](https://openhatch.org/missions/windows-setup/install-git-bash).
 
-OS X and Linux users will need to use their terminal shells to follow this lesson, as discussed in "[Introduction to the Bash Command Line](../lessons/)."
+OS X and Linux users will need to use their terminal shells to follow this lesson, as discussed in "[Introduction to the Bash Command Line](../lessons/intro-to-bash)."
 
 This lesson was written using Git Bash 1.9.0 and the Windows 7 operating system. Equivalent file paths for OS X/Linux have been included where possible. Nonetheless, as commands and flags can change slightly between operating systems OS X/Linux users are referred to Deborah S. Ray and Eric J. Ray, *Unix and Linux: Visual Quickstart Guide*, 4th edition (2009) which covers interoperability in greater detail.
 
@@ -54,7 +54,7 @@ Now that you are here you can count the contents of the files.
 
 The Unix command for counting is `wc`. Type `wc -w 2014-01-31_JA_africa.tsv` and hit enter. The flag `-w` combined with `wc` instructs the computer to print a word count, and the name of the file that has been counted, into the shell.
 
-As was seen in "[Introduction to the Bash Command Line](../lessons/)", flags such as `-w` are an essential part of getting the most out of the Unix shell as they give you better control over commands.
+As was seen in "[Introduction to the Bash Command Line](../lessons/intro-to-bash)", flags such as `-w` are an essential part of getting the most out of the Unix shell as they give you better control over commands.
 
 If your research is more concerned with the number of entries (or lines) than the number of words, you can use the line count flag. Type `wc -l 2014-01-31_JA_africa.tsv` and hit enter. Combined with `wc` the flag `-l` prints a line count and the name of the file that has been counted.
 
@@ -80,7 +80,7 @@ Strings need not be numbers. `grep -c revolution 2014-01-31_JA_america.tsv 2014-
 
 You can also use `grep` to create subsets of tabulated data. Type `grep -i revolution 2014-01-31_JA_america.tsv 2014-02-02_JA_britain.tsv > YEAR-MONTH-DAY_JA_america_britain_i_revolution.tsv` (where `YEAR-MONTH-DAY` is the date you are completing this lesson) and hit enter. This command looks in both of the defined files and exports any lines containing `revolution` (without regard to case) to the specified .tsv file.
 
-The data has not been saved to to the `results` directory because it isn't strictly a result; it is derived data. Depending on your research project it may be easier to save this to another subdirectory. For now have a look at this file to verify its contents and when you are happy, delete it using the `rm` command. \*Note: the `rm` common is very powerful and should be used with caution. Please refer to "[Introduction to the Bash Command Line](../lessons/)" for instructions on how to use this command correctly.*
+The data has not been saved to to the `results` directory because it isn't strictly a result; it is derived data. Depending on your research project it may be easier to save this to another subdirectory. For now have a look at this file to verify its contents and when you are happy, delete it using the `rm` command. \*Note: the `rm` common is very powerful and should be used with caution. Please refer to "[Introduction to the Bash Command Line](../lessons/intro-to-bash)" for instructions on how to use this command correctly.*
 
 Finally, you can use another flag, `-v`, to exclude data elements when using the `grep` command. Type `grep -iv revolution 2014*_JA_a*.tsv > 2014_JA_iv_revolution.csv` and hit enter. This query looks in the defined files (three in total) and exports all lines that do not contain `revolution` or `Revolution` to `c:\proghist\data\derived_data\2014_JA_iv_revolution.csv`.
 
