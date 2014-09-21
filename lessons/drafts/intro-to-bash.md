@@ -1,7 +1,11 @@
 ---
 title: Introduction to the Bash Command Line
-author: Ian Milligan and James Baker
-date: June 2014
+authors: 
+- Ian Milligan
+- James Baker
+date: 2014-09-20
+reviewers: Melodee Beals, Allison Hegel, Charlotte Tupman
+layout: default
 ---
 
 # Introduction to the Bash Command Line
