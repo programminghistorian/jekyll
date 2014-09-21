@@ -136,7 +136,7 @@ This moves us 'up' one directory, putting us back in `/Users/ianmilligan1/`. If 
 
 will bring you right back to the home directory, right where you started.
 
-Try exploring: visit your documents directory, your pictures, folders you might have on your desktop. Get used to moving in and out of directories. Imagine that you are navigating a tree structure. If you're on the desktop, you won't be able to `cd documents` as it is out of your home directory: you will have to back up to your home directory (`cd ..`) and then go forward again to `cd documents`.
+Try exploring: visit your documents directory, your pictures, folders you might have on your desktop. Get used to moving in and out of directories. Imagine that you are navigating a [tree structure](http://en.wikipedia.org/wiki/Tree_structure). If you're on the desktop, you won't be able to `cd documents` as it is a 'child' of your home directory, whereas your Desktop is a 'sibling' of the Documents folder. To get to a sibling, you have to go back to the common parent. To do this, you will have to back up to your home directory (`cd ..`) and then go forward again to `cd documents`.
 
 Being able to navigate your file system using the bash shell is very important for many of the lessons at the *Programming Historian*. As you become more comfortable, you'll soon find yourself skipping directly to the directory that you want. In our case, from anywhere on our system, you could type
 
