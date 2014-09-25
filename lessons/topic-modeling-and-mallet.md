@@ -379,7 +379,7 @@ If your system has more memory, you can try increasing the memory
 allocated to your *Java virtual machine*. To do so, you need to edit the
 code in the `mallet` file found in the `bin` subdirectory of your
 MALLET folder. Using Komodo Edit, (See [Mac][],
-[Windows,][][Linux][] for installation instructions), open the
+[Windows][], [Linux][] for installation instructions), open the
 `Mallet.bat` file (`C:\Mallet\bin\mallet.bat`) if you are using Windows,
 or the `mallet` file (`~/Mallet/bin/mallet`) if you are using Linux or OS X.
 
