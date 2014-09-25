@@ -176,7 +176,7 @@ This creates a directory named, you guessed it, 'ProgHist-Text.' You can look at
 
 But wait! There's a trick to make things a bit quicker. Go up one directory (`cd ..` - which will take you back to the Desktop). To navigate to the `ProgHist-Text` directory you could type `cd ProgHist-Text`. Alternatively, you could type `cd Prog` and then hit tab. You will notice that the interface completes the line to `cd ProgHist-Text`. **Hitting tab at any time within the shell will prompt it to attempt to auto-complete the line based on the files or sub-directories in the current directory. This is case sensitive, however (i.e. in the previous example, `cd prog` would not auto complete to `ProgHist-Text`. Where two or more files have the same characters, the auto-complete will only fill up to the first point of difference. We would encourage using this method throughout the lesson to see how it behaves.**
 
-Now you need to find a basic text file to help us with the example. Why don't you use a book that you know is long, such as Leo Tolstoy's epic *War and Peace*. The text file is availiable via [Project Gutenberg](http://www.gutenberg.org/cache/epub/2600/pg2600.txt). If you have already installed [wget](lessons/applied-archival-downloading-with-wget), you can just type
+Now you need to find a basic text file to help us with the example. Why don't you use a book that you know is long, such as Leo Tolstoy's epic *War and Peace*. The text file is availiable via [Project Gutenberg](http://www.gutenberg.org/cache/epub/2600/pg2600.txt). If you have already installed [wget](/lessons/applied-archival-downloading-with-wget), you can just type
 
 `wget http://www.gutenberg.org/cache/epub/2600/pg2600.txt`
 
@@ -292,7 +292,7 @@ To leave vim or to make saves, you have to enter a series of commands. Press `:`
 
 If you want to quit, type `:` again and then `q`. It will return you to the command line. As with the rest of bash, you could have also combined the two commands. Pressing `:` and then typing `wq` would have written the file and then quit. Or, if you wanted to exit **without** saving, `q!` would have quit vim and overriden the default preference to save your changes.
 
-Vim is different than you are likely used to and will require more work and practice to become fluent with it. But if you are tweaking minor things in files, it is a good way to get started. As you become more comfortable, you might even find yourself writing term papers with it, by harnessing the [footnoting and formatting power of Pandoc and Markdown](lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
+Vim is different than you are likely used to and will require more work and practice to become fluent with it. But if you are tweaking minor things in files, it is a good way to get started. As you become more comfortable, you might even find yourself writing term papers with it, by harnessing the [footnoting and formatting power of Pandoc and Markdown](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
 
 ## Moving, Copying, and Deleting Files
 
