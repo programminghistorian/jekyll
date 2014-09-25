@@ -116,7 +116,7 @@ When you want to use two flags, you can just run them together. So, by typing
 
 you receive output in a human-readable format; you learn that that 6020 bits is also 5.9KB, that another file is 1 megabyte, and so forth. 
 
-These options are *very* important. In other lessons within the *Programming Historian*, you'll see them. [Wget](http://programminghistorian.org/lessons/applied-archival-downloading-with-wget), [MALLET](http://programminghistorian.org/lessons/topic-modeling-and-mallet), and [Pandoc](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) all use the same syntax. Luckily, you do not need to memorize syntax; instead, keep these lessons handy so you can take a quick peek if you need to tweak something. These lessons can all be done in any order.
+These options are *very* important. In other lessons within the *Programming Historian*, you'll see them. [Wget](/lessons/applied-archival-downloading-with-wget), [MALLET](/lessons/topic-modeling-and-mallet), and [Pandoc](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) all use the same syntax. Luckily, you do not need to memorize syntax; instead, keep these lessons handy so you can take a quick peek if you need to tweak something. These lessons can all be done in any order.
 
 You've now spent a great deal of time in your home directory. Let's go somewhere else. You can do that through the `cd` or Change Directory command. 
 
@@ -150,7 +150,7 @@ or, on Windows, something like
 
 `cd c:\mallet-2.0.7\`
 
-and be brought to our MALLET directory for [topic modeling](lessons/topic-modeling-and-mallet).
+and be brought to our MALLET directory for [topic modeling](/lessons/topic-modeling-and-mallet).
 
 Finally, try
 
