@@ -6,29 +6,6 @@ title: Lesson Directory
 We invite you to browse around. If you can’t find a skill, technology, or
 tool covered here, please let us know!
 
-The Original Programming Historian
-----------------------------------
-
-The *Programming Historian* was originally written as a series of lessons that
-were intended to be followed in sequence. The other lessons on the site are mostly independent
-of one another, and can be followed in any order.
-
--   [Python Introduction and Installation] (../lessons/introduction-and-installation) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   Installation Instructions for [Mac](../lessons/mac-installation), [Linux](../lessons/linux-installation), or [Windows](../lessons/windows-installation)
--   [Viewing HTML Files](../lessons/viewing-html-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Working with Text Files](../lessons/working-with-text-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Code Reuse and Modularity](../lessons/code-reuse-and-modularity) <div class="toc-author">William J. Turkel & Adam Crymble</div>
--   [Working with Web Pages](../lessons/working-with-web-pages) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Manipulating Strings in Python](../lessons/manipulating-strings-in-python) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [From HTML to a List of Words (part 1)](../lessons/from-html-to-list-of-words-1) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [From HTML to a List of Words (part 2)](../lessons/from-html-to-list-of-words-2) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Normalizing Data](../lessons/normalizing-data) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Counting Frequency](../lessons/counting-frequencies) <div class="toc-author"> William J.  Turkel & Adam Crymble</div>
--   [Creating and Viewing HTML Files with Python](../lessons/creating-and-viewing-html-files-with-python) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Output Data as an HTML File](../lessons/output-data-as-html-file) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Keywords in Context (Using n-grams)](../lessons/keywords-in-context-using-n-grams) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Output Keywords in Context in HTML File](../lessons/output-keywords-in-context-in-html-file) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
-
 
 Application Programming Interfaces (APIs)
 -----------------------------------------
@@ -60,6 +37,8 @@ Just like it sounds, learn how to use programming to change, move,
 clean, or count data. These are essential techniques for preparing data
 to be used in various tools.
 
+-   [Introduction to the Bash Command Line](../lessons/intro-to-bash) <div class="toc-author">Ian Milligan and James Baker</div>
+-   [Counting and mining research data with Unix](../lessons/research-data-with-unix) <div class="toc-author">James Baker and Ian Milligan</div>
 -   [Cleaning Data with OpenRefine](../lessons/cleaning-data-with-openrefine) <div class="toc-author"> Seth van Hooland, Ruben Verborgh, Max De Wilde</div>
 -   [Understanding Regular Expressions](../lessons/understanding-regular-expressions) <div class="toc-author">Doug Knox</div>
 -   [Cleaning OCR’d Text with Regular Expressions](../lessons/cleaning-ocrd-text-with-regular-expressions) <div class="toc-author">Laura Turner O’Hara</div>
@@ -120,4 +99,25 @@ Learn how to use programming to download material from the Internet in a control
 -   [Intro to Beautiful Soup](../lessons/intro-to-beautiful-soup) <div class="toc-author"> Jeri Wieringa</div>
 -   [Downloading Multiple Records Using Query Strings](../lessons/downloading-multiple-records-using-query-strings) <div class="toc-author"> Adam Crymble</div>
 
+The Original Programming Historian
+----------------------------------
 
+The *Programming Historian* was originally written as a series of lessons that
+were intended to be followed in sequence. The other lessons on the site are mostly independent
+of one another, and can be followed in any order.
+
+-   [Python Introduction and Installation] (../lessons/introduction-and-installation) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   Installation Instructions for [Mac](../lessons/mac-installation), [Linux](../lessons/linux-installation), or [Windows](../lessons/windows-installation)
+-   [Viewing HTML Files](../lessons/viewing-html-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Working with Text Files](../lessons/working-with-text-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Code Reuse and Modularity](../lessons/code-reuse-and-modularity) <div class="toc-author">William J. Turkel & Adam Crymble</div>
+-   [Working with Web Pages](../lessons/working-with-web-pages) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Manipulating Strings in Python](../lessons/manipulating-strings-in-python) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [From HTML to a List of Words (part 1)](../lessons/from-html-to-list-of-words-1) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [From HTML to a List of Words (part 2)](../lessons/from-html-to-list-of-words-2) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Normalizing Data](../lessons/normalizing-data) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Counting Frequency](../lessons/counting-frequencies) <div class="toc-author"> William J.  Turkel & Adam Crymble</div>
+-   [Creating and Viewing HTML Files with Python](../lessons/creating-and-viewing-html-files-with-python) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Output Data as an HTML File](../lessons/output-data-as-html-file) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Keywords in Context (Using n-grams)](../lessons/keywords-in-context-using-n-grams) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Output Keywords in Context in HTML File](../lessons/output-keywords-in-context-in-html-file) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
