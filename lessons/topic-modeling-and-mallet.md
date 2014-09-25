@@ -378,8 +378,8 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 If your system has more memory, you can try increasing the memory
 allocated to your *Java virtual machine*. To do so, you need to edit the
 code in the `mallet` file found in the `bin` subdirectory of your
-MALLET folder. Using Komodo Edit, (See [Mac][/lessons/mac-installation],
-[Windows,][/lessons/windows-installation][Linux][/lessons/linux-installation] for installation instructions), open the
+MALLET folder. Using Komodo Edit, (See [Mac][],
+[Windows,][][Linux][] for installation instructions), open the
 `Mallet.bat` file (`C:\Mallet\bin\mallet.bat`) if you are using Windows,
 or the `mallet` file (`~/Mallet/bin/mallet`) if you are using Linux or OS X.
 
@@ -598,3 +598,6 @@ report.
   [Latent dirichlet allocation]: http://dl.acm.org/citation.cfm?id=944937
   [bibliography of topic modeling articles]: http://mimno.infosci.cornell.edu/topics.html
   [Computational Historiography]: http://www.perseus.tufts.edu/publications/02-jocch-mimno.pdf
+  [Windows]: /lessons/windows-installation
+  [Mac]: /lessons/mac-installation
+  [Linux]: /lessons/linux-installation
