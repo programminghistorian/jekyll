@@ -165,7 +165,7 @@ entering each of the above lines, followed by enter, but modify the
 collection id in the second command:
 
 ``` python
-search = search_items('collection:bplscas')
+search = internetarchive.search_items('collection:bplscas')
 ```
 
 After hitting enter on the print command, you should see a number that
