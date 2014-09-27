@@ -148,11 +148,14 @@ in the collection for purposes of further inspection and downloading.
 
 For example, let's modify the sample code from the module's
 documentation to see if we can tell, with Python, how many items are in
-the digital Antislavery Collection. The sample code looks like this:
+the digital Antislavery Collection. The sample code looks something like
+what you see below. The only difference is that instead of importing
+only the `search_items` module from `internetarchive`, we are going to
+import the whole library.
 
 ``` python
 import internetarchive
-search = internetarchive.Search('collection:nasa')
+search = internetarchive.search_items('collection:nasa')
 print search.num_found
 ```
 
@@ -162,7 +165,7 @@ entering each of the above lines, followed by enter, but modify the
 collection id in the second command:
 
 ``` python
-search = internetarchive.Search('collection:bplscas')
+search = search_items('collection:bplscas')
 ```
 
 After hitting enter on the print command, you should see a number that
@@ -174,21 +177,23 @@ Accessing an IA Item in Python
 
 The `internetarchive` module also allows you to access individual items
 using their identifiers. Let's try that using the [documentation's
-sample code for downloading an item][], modifying it in order to get the
+sample code][downloading], modifying it in order to get the
 Douglass letter we discussed earlier.
 
 If you are still at your Python interpreter's command prompt, you don't
-need to import internetarchive again, so instead just enter the second
-and third lines from the sample code, followed each time by enter, but
-changing the sample identifier stairs to our item identifier,
-*lettertowilliaml00doug* (note that the character before the two zeroes is
-a lowercase L, not the number 1):
+need to `import internetarchive` again. Since we imported the whole
+module, we also need to modify the sample code so that our interpreter
+will know that `get_item` is from the `internetarchive` module. We also
+need to change the sample identifier `stairs` to our item identifier,
+*lettertowilliaml00doug* (note that the character before the two zeroes
+is a lowercase L, not the number 1):
 
 ``` python
-item = internetarchive.Item('lettertowilliaml00doug')
+item = internetarchive.get_item('lettertowilliaml00doug')
 item.download()
 ```
 
+Enter each of those lines in your interpreter, followed by enter.
 Depending on your Internet connection speed, it will now probably take a
 minute or two for the command prompt to return, because your computer is
 downloading all of the files associated with that item, including some
@@ -201,8 +206,8 @@ exit()
 ```
 
 Then list the contents of the current directory to see if a folder now
-appears named
-`lettertowilliaml00doug. If you list the contents of that folder, you should see a list of files similar to this:`
+appears named `lettertowilliaml00doug`. If you list the contents of that
+folder, you should see a list of files similar to this:
 
 ```
 39999066767938.djvu
@@ -242,14 +247,14 @@ to import our module again, and perform our search again:
 
 ``` python
 import internetarchive
-search = internetarchive.Search('collection:bplscas')
+search = internetarchive.search_items('collection:bplscas')
 ```
 
 Now let's enter the documentation's sample code for printing out the
 item identifier of every item returned by our search:
 
 ``` python
-for result in search.results():
+for result in search:
    print result['identifier']
 ```
 
@@ -272,7 +277,7 @@ saw an error like this, you may have forgotten to enter a few spaces
 before your print command:
 
 ``` python
-for result in search.results():
+for result in search:
    print result['identifier']
 File "", line 2
    print result['identifier']
@@ -301,14 +306,11 @@ that one. For example, try running the above for loop again, but
 substitute a different name for the local variable, such as:
 
 ``` python
-for item in search.results():
+for item in search:
    print item['identifier']
 ```
 
-You should get the same results. Notice that we did not replace
-`search.results()` with `search.items()`. That's because that instance of
-the word *result* is not a local variable, but a function ([remember
-those?][]) defined in the internetarchive module.
+You should get the same results. 
 
 The second thing to note about the *for loop* is that the indented block
 could could have contained other commands. In this case, we printed each
@@ -325,10 +327,10 @@ We probably want to think twice before doing that, though—downloading
 all the files for each of the 7,029 items in the bplscas collection is a
 lot of files. Fortunately, the download function in the
 `internetarchive` module also allows you to [download specific files
-associated with an item][]. If we had only wanted to download the MARC XML record associated with a particular item, we could have instead done this:
+associated with an item][downloading]. If we had only wanted to download the MARC XML record associated with a particular item, we could have instead done this:
 
 ``` python
-item = internetarchive.Item('lettertowilliaml00doug')
+item = internetarchive.get_item('lettertowilliaml00doug')
 marc = item.file('lettertowilliaml00doug_marc.xml')
 marc.download()
 ```
@@ -351,11 +353,11 @@ your preferred text editor:
 
 import internetarchive
 
-search = internetarchive.Search('collection:bplscas')
+search = internetarchive.search_items('collection:bplscas')
 
-for result in search.results():
+for result in search:
     itemid = result['identifier']
-    item = internetarchive.Item(itemid)
+    item = internetarchive.get_item(itemid)
     marc = item.file(itemid + '_marc.xml')
     marc.download()
     print "Downloading " + itemid + " ..."
@@ -417,11 +419,11 @@ import time
 
 error_log = open('bpl-marcs-errors.log', 'a')
 
-search = internetarchive.Search('collection:bplscas')
+search = internetarchive.search_items('collection:bplscas')
 
-for result in search.results():
+for result in search:
     itemid = result['identifier']
-    item = internetarchive.Item(itemid)
+    item = internetarchive.get_item(itemid)
     marc = item.file(itemid + '_marc.xml')
     try:
         marc.download()
@@ -641,7 +643,7 @@ from the fields, the possibilities can multiply rapidly!
   [this page]: https://archive.org/search.php?query=collection%3A%28bplscas%29
   [search the Archive using the Python module that we installed]: https://pypi.python.org/pypi/internetarchive#searching-from-python
   [the advanced search for the collection]: http://archive.org/search.php?query=collection%3Abplscas
-  [download specific files associated with an item]: https://pypi.python.org/pypi/internetarchive#downloading-from-python
+  [downloading]: https://pypi.python.org/pypi/internetarchive#downloading-from-python
   [remember those?]: ../lessons/code-reuse-and-modularity
   [item files are named according to specific rules]: https://archive.org/about/faqs.php#140
   [handling exceptions]: http://docs.python.org/2/tutorial/errors.html#handling-exceptions
