@@ -94,7 +94,7 @@ files produced even ten years ago in Microsoft Word and Apple's Pages
 can cause significant problems when opened with the latest version, it
 is still possible to open a file written in any number of "dead" plain
 text editors from the past several decades: AlphaPlus, Perfect Writer,
-Text Wizard, Spellbinder, WordStar, or Isaac Asmiov's favorite SCRIPSIT
+Text Wizard, Spellbinder, WordStar, or Isaac Asimov's favorite SCRIPSIT
 2.0, made by Radio Shack. Writing in plain text guarantees that your
 files will remain readable ten, fifteen, twenty years from now. In this
 tutorial, we outline a workflow that frees the researcher from
@@ -547,7 +547,7 @@ the unique IDs from your `project.bib` file:
 
 `Some sentence that needs citation.^[@fyfe_digital_2011 argues that too.]`
 
-Once we run the markdown through Pandoc, "@fyfe\_digital\_2011″ will be
+Once we run the markdown through Pandoc, "@fyfe\_digital\_2011" will be
 expanded to a full citation in the style of your choice. You can use the
 `@citation` syntax in any way you see fit: in-line with your text or in
 the footnotes. To generate a bibliography simply include a section
@@ -655,7 +655,7 @@ Useful Resources
 =====================================
 
 Should you run into trouble, there is no better place to start looking
-for support than John MacFarlane's [site](https://leanpub.com/) and the
+for support than John MacFarlane's [Pandoc site](http://johnmacfarlane.net/pandoc/) and the
 affiliated [mailing
 list](https://groups.google.com/forum/#!forum/pandoc-discuss). At least
 two "Question and Answer" type sites can field questions on Pandoc:
