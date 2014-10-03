@@ -331,7 +331,7 @@ associated with an item][downloading]. If we had only wanted to download the MAR
 
 ``` python
 item = internetarchive.get_item('lettertowilliaml00doug')
-marc = item.file('lettertowilliaml00doug_marc.xml')
+marc = item.get_file('lettertowilliaml00doug_marc.xml')
 marc.download()
 ```
 
@@ -358,7 +358,7 @@ search = internetarchive.search_items('collection:bplscas')
 for result in search:
     itemid = result['identifier']
     item = internetarchive.get_item(itemid)
-    marc = item.file(itemid + '_marc.xml')
+    marc = item.get_file(itemid + '_marc.xml')
     marc.download()
     print "Downloading " + itemid + " ..."
 ```
@@ -424,7 +424,7 @@ search = internetarchive.search_items('collection:bplscas')
 for result in search:
     itemid = result['identifier']
     item = internetarchive.get_item(itemid)
-    marc = item.file(itemid + '_marc.xml')
+    marc = item.get_file(itemid + '_marc.xml')
     try:
         marc.download()
     except Exception as e:
