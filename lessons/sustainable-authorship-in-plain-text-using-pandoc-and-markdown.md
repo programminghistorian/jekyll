@@ -545,7 +545,7 @@ Edit the footnote in the first line of your `main.md` file to look like
 something like this, where `@fyfe_digital_2011` is replaced with one of
 the unique IDs from your `project.bib` file:
 
-`Some sentence that needs citation.^[@fyfe_digital_2011 argues that too.]`
+`Some sentence that needs citation [@fyfe_digital_2011 argues that too.]`[^7](#fn:7) <a name="fnref:7">
 
 Once we run the markdown through Pandoc, "@fyfe\_digital\_2011" will be
 expanded to a full citation in the style of your choice. You can use the
@@ -717,8 +717,15 @@ documentation).
 5.  <a name="fn:5"> There are no good solutions for directly arriving at MS
 	Word from LaTeX.[↩](#fnref:5 "return to article")
 6.  <a name="fn:6">It is a good idea to get into the habit of not using spaces
-	 in folder or file names. Dashes-or\_underscores instead of spaces in your
-	 filenames ensure lasting cross-platform compatibility.[↩](#fnref:6
-	 "return to article")
-
-
+	in folder or file names. Dashes-or\_underscores instead of spaces in your
+	filenames ensure lasting cross-platform compatibility.[↩](#fnref:6
+	"return to article")
+7.  <a name="fn:7">Thanks to [\@nickbart80](https://github.com/nickbart1980) for
+	the correction. In response to our original suggestion,
+	`Some sentence that needs citation.^[@fyfe_digital_2011 argues that too.]`,
+	[he writes](https://github.com/programminghistorian/jekyll/issues/46#issuecomment-59219906):
+    \"This is not recommended since it keeps you from switching easily
+	between footnote and author-date styles. Better use the \[corrected\] (no circumflex,
+	no final period inside the square braces, and the final punctuation
+	of the text sentence after the square braces; with footnote styles,
+	pandoc automatically adjusts the position of the final punctuation).\"
