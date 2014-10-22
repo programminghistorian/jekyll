@@ -720,12 +720,13 @@ documentation).
 	in folder or file names. Dashes-or\_underscores instead of spaces in your
 	filenames ensure lasting cross-platform compatibility.[↩](#fnref:6
 	"return to article")
-7.  <a name="fn:7">Thanks to [\@nickbart80](https://github.com/nickbart1980) for
+7.  <a name="fn:7">Thanks to [@nickbart80](https://github.com/nickbart1980) for
 	the correction. In response to our original suggestion,
-	`Some sentence that needs citation.^[@fyfe_digital_2011 argues that too.]`,
+	`Some sentence that needs citation.^[@fyfe_digital_2011 argues that too.]`
 	[he writes](https://github.com/programminghistorian/jekyll/issues/46#issuecomment-59219906):
-    \"This is not recommended since it keeps you from switching easily
+    "This is not recommended since it keeps you from switching easily
 	between footnote and author-date styles. Better use the \[corrected\] (no circumflex,
 	no final period inside the square braces, and the final punctuation
 	of the text sentence after the square braces; with footnote styles,
-	pandoc automatically adjusts the position of the final punctuation).\"
+	pandoc automatically adjusts the position of the final punctuation)."[↩](#fnref:7
+	"return to article")
