@@ -90,6 +90,13 @@ extremely stable. We discourage operating-system specific tutorials, but
 we are happy to work with you to get your tutorial tested on other
 platforms so that everyone can learn from them.
 
+### Markdown Format
+
+Lessons should be written in Markdown, a lightweight syntax that helps us
+to generate our site using GitHub Pages. For more information about how lessons
+should be formatted, see our [Markdown Style Guide][Markdown]. New authors
+should also consult our [editorial workflow for new lessons][editorial workflow].
+
 Contact Us
 ----------
 
@@ -99,3 +106,5 @@ love to hear from you.
   [Variance Charts]: https://variancecharts.com/
   [Attribution 3.0 Unported]: http://creativecommons.org/licenses/by/3.0/
   [contact us]: contact
+  [Markdown]: https://github.com/programminghistorian/jekyll/wiki/Markdown-Style-Guide
+  [editorial workflow]: https://github.com/programminghistorian/jekyll/wiki/New-Lesson-Workflow
