@@ -1,6 +1,6 @@
 ---
 title: OCR Tutorial
-published: true
+published: false
 ---
 
 # Cleaning OCR Output
