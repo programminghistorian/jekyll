@@ -63,10 +63,7 @@ With sudo, the command is:
 sudo pip install beautifulsoup4
 ```
 
-![][]
-
-The power of sudo\
-“Sandwich” by XKCD
+{% include figure.html src="http://imgs.xkcd.com/comics/sandwich.png" caption="The power of sudo: 'Sandwich' by XKCD" %}
 
 Application: Extracting names and URLs from an HTML page
 --------------------------------------------------------
@@ -146,16 +143,12 @@ it is easier for our purposes to go
 to <http://bioguide.congress.gov/biosearch/biosearch.asp>, search for
 Congress number 43, and to save a copy of the results page.
 
-![Figure 1: BioGuide Interface Search for 43rd Congress ][]
 
-Figure 1: BioGuide Interface\
-Search for 43rd Congress
+{% include figure.html src="../images/Congressional-Biographical-Directory-CLERKWEB-2013-08-23-12-22-12.jpg" caption="Figure 1: BioGuide Interface Search for 43rd Congress" %}
 
-![Figure 2: BioGuide Results We want to download the HTML behind this
-page.][]
 
-Figure 2: BioGuide Results\
-We want to download the HTML behind this page
+{% include figure.html caption="Figure 2: BioGuide Results We want to download the HTML behind this page." src="../images/Congressional-Biographical-Directory-Results-2013-08-23-12-25-09.jpg" %}
+
 
 Selecting “File” and “Save Page As …” from your browser window will
 accomplish this (life will be easier if you avoid using spaces in your
@@ -201,9 +194,8 @@ You should see your terminal window fill up with a nicely indented
 version of the original html text (see Figure 3). This is a visual
 representation of how the various tags relate to one another.
 
-![Figure 3: "Pretty" print of the BioGuide results][]
+{% include figure.html caption="Figure 3: 'Pretty' print of the BioGuide results" src="../images/Beautiful-Soup-Tutorial-103x40-2013-08-23-13-13-01.jpg" %}
 
-Figure 3: “Pretty” print of the BioGuide results
 
 ### Using BeautifulSoup to select particular content
 
@@ -235,17 +227,15 @@ document.
 One thing to notice is that there is an additional link in our file –
 the link for an additional search.
 
-![Figure 4: The URLs and names, plus one addition.][]
+{% include figure.html caption="Figure 4: The URLs and names, plus one addition" src="../images/Beautiful-Soup-Tutorial-101x26-2013-08-23-13-25-56.jpg" %}
 
-Figure 4: The URLs and names, plus one addition
 
 We can get rid of this with just a few lines of code. Going back to the
 pretty version, notice that this last “\<a\>” tag is not within the
 table but is within a “\<p\>” tag.
 
-![Figure 4: The rogue link][]
+{% include figure.html caption="Figure 5: The rogue link" src="../images/Beautiful-Soup-Tutorial-103x40-2013-08-23-13-23-07.jpg" %}
 
-Figure 5: The rogue link
 
 Because Beautiful Soup allows us to modify the HTML, we can remove the
 “\<a\>” that is under the “\<p\>” before searching for all the “\<a\>”
@@ -272,12 +262,9 @@ for link in links:
     print link
 ```
 
-![Figure 6: Successfully isolated only names and URLs][]
+{% include figure.html caption="Figure 6: Successfully isolated only names and URLs" src="../images/Beautiful-Soup-Tutorial-101x26-2013-08-23-13-28-04.jpg" %}
 
-Figure 6: Successfully isolated only names and URLs
-
-Success! We have isolated out all of the links we want and none of the
-links we don’t!
+Success! We have isolated out all of the links we want and none of the links we don’t!
 
 ### Stripping Tags and Writing Content to a CSV file
 
@@ -323,9 +310,7 @@ for link in links:
     print fullLink
 ```
 
-![Figure 7: All HTML tags have been removed][]
-
-Figure 7: All HTML tags have been removed
+{& include figure.html caption="Figure 7: All HTML tags have been removed" src="../images/Beautiful-Soup-Tutorial-101x26-2013-08-23-14-13-13.jpg" %}
 
 Finally, we want to use the CSV library to write the file. First, we
 need to import the CSV library into the script with “import csv.” Next,
@@ -357,9 +342,7 @@ for link in links:
 When executed, this gives us a clean CSV file that we can then use for
 other purposes.
 
-![Figure 8: CSV file of results][]
-
-Figure 8: CSV file of results
+{% include figure.html src="../images/43rd_Congress-2-2013-08-23-14-18-27.jpg" caption="Figure 8: CSV file of results" %}
 
 We have solved our puzzle and have extracted names and URLs from the
 HTML file.
@@ -391,9 +374,7 @@ lot more content than when we searched for “\<a\>” tags. Now we need to
 sort through all of these lines to separate out the different types of
 data.
 
-![Figure 8: All of the Table Row data][]
-
-Figure 8: All of the Table Row data
+{% include figure.html src="../images/Beautiful-Soup-Tutorial-142x40-2013-08-23-16-51-22.jpg" caption="Figure 9: All of the Table Row data" %}
 
 ### Extracting the Data
 
@@ -540,24 +521,12 @@ for tr in trs:
     f.writerow([names, years, positions, parties, states, congress, fullLink])
 ```
 
-You’ve done it! You have created a CSV file from all of the data in the
-table, creating useful data from the confusion of the html page.
+You’ve done it! You have created a CSV file from all of the data in the table, creating useful data from the confusion of the html page.
 
   [Working with Text Files]: ../lessons/working-with-text-files
   [Command Line Bootcamp]: http://praxis.scholarslab.org/tutorials/bash/
   [Opening lines of Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/bs4/doc/
   [installing python modules]: ../lessons/installing-python-modules-pip
-  []: ../images/
   [urllib3]: http://urllib3.readthedocs.org/en/latest/
-  [Figure 1: BioGuide Interface Search for 43rd Congress ]: ../images/Congressional-Biographical-Directory-CLERKWEB-2013-08-23-12-22-12.jpg
-  [Figure 2: BioGuide Results We want to download the HTML behind this
-  page.]: ../images/Congressional-Biographical-Directory-Results-2013-08-23-12-25-09.jpg
   [Automated Downloading with Wget]: ../lessons/automated-downloading-with-wget
   [Downloading Multiple Records Using Query Strings]: ../lessons/downloading-multiple-records-using-query-strings
-  [Figure 3: "Pretty" print of the BioGuide results]: ../images/Beautiful-Soup-Tutorial-103×40-2013-08-23-13-13-01.jpg
-  [Figure 4: The URLs and names, plus one addition.]: ../images/Beautiful-Soup-Tutorial-101×26-2013-08-23-13-25-56.jpg
-  [Figure 4: The rogue link]: ../images/Beautiful-Soup-Tutorial-103×40-2013-08-23-13-23-07.jpg
-  [Figure 6: Successfully isolated only names and URLs]: ../images/Beautiful-Soup-Tutorial-101×26-2013-08-23-13-28-04.jpg
-  [Figure 7: All HTML tags have been removed]: ../images/Beautiful-Soup-Tutorial-101×26-2013-08-23-14-13-13.jpg
-  [Figure 8: CSV file of results]: ../images/43rd_Congress-2-2013-08-23-14-18-27.jpg
-  [Figure 8: All of the Table Row data]: ../images/Beautiful-Soup-Tutorial-142×40-2013-08-23-16-51-22.jpg
