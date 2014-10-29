@@ -33,8 +33,17 @@
                 {% endif %}
 				</p>
 				<ul class="credits">
-				    <li class="technical-reviewer">Reviewer(s): {{ page.reviewers }}</li>
+				{% assign reviewerCount = page.reviewers | size %}
+				{% if reviewerCount == 1 %}
+				 <li class="technical-reviewer">Reviewer: {{ page.reviewers }}</li>
+				{% elsif reviewerCount > 1 %}
+				 <li class="technical-reviewer">Reviewers: {{ page.reviewers }}</li>
+				{% else %}
+				 <!-- No reviewers -->
+				{% endif %}
 				</ul>
+				   
+				
 			</header>
 
 			<div class="content">
