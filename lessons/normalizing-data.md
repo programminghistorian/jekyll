@@ -4,7 +4,10 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
-reviewers: Miriam Posner, Jim Clifford, Francesca Benatti
+reviewers:
+- Miriam Posner
+- Jim Clifford
+- Francesca Benatti
 layout: default
 ---
 

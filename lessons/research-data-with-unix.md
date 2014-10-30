@@ -3,7 +3,10 @@ title: Counting and mining research data with Unix
 authors: 
 - James Baker
 - Ian Milligan
-reviewers: Melodee Beals, Allison Hegel, Adam Crymble
+reviewers:
+- Melodee Beals
+- Allison Hegel
+- Adam Crymble
 date: 2014-09-20
 layout: default
 ---

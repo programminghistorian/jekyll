@@ -3,7 +3,9 @@ title: Automated Downloading with Wget
 authors:
 - Ian Milligan
 date: 2012-06-27
-reviewers: Aurélien Berra, Adam Crymble
+reviewers:
+- Aurélien Berra
+- Adam Crymble
 layout: default
 ---
 

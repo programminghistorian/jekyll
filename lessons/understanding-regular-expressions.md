@@ -3,7 +3,10 @@ title: Understanding Regular Expressions
 authors:
 - Doug Knox
 date: 2013-06-22
-reviewers: Adam Crymble, Dave Shepard, Patrick Burns
+reviewers:
+- Adam Crymble
+- Dave Shepard
+- Patrick Burns
 layout: default
 ---
 

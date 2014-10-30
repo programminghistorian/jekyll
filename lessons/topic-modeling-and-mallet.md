@@ -5,7 +5,9 @@ authors:
 - Scott Weingart
 - Ian Milligan
 date: 2012-09-02
-reviewers: John Fink, Alan MacEachern and Adam Crymble
+reviewers:
+- John Fink
+- Alan MacEachern and Adam Crymble
 layout: default
 ---
 

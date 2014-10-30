@@ -5,7 +5,10 @@ authors:
 - Josh MacFadyen
 - Daniel Macfarlane
 date: 2013-12-13
-reviewers: Finn Arne Jørgensen, Sarah Simpkin, Adam Crymble
+reviewers:
+- Finn Arne Jørgensen
+- Sarah Simpkin
+- Adam Crymble
 layout: default
 ---
 

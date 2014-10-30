@@ -3,7 +3,10 @@ title: Downloading Multiple Records Using Query Strings
 authors:
 - Adam Crymble
 date: 2012-11-11
-reviewers: Fred Gibbs, Luke Bergmann, Sharon Howard
+reviewers:
+- Fred Gibbs
+- Luke Bergmann
+- Sharon Howard
 layout: default
 ---
 

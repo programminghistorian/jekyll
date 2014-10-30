@@ -3,7 +3,9 @@ title: Up and Running with Omeka.net
 authors:
 - Miriam Posner
 date: 2013-04-24
-reviewers: Adam Crymble, Sheila Brennan
+reviewers:
+- Adam Crymble
+- Sheila Brennan
 layout: default
 ---
 

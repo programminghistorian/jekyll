@@ -4,7 +4,9 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
-reviewers: Miriam Posner, Jim Clifford
+reviewers:
+- Miriam Posner
+- Jim Clifford
 layout: default
 categories: [lessons, python, original-ph]
 ---

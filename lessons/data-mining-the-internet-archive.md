@@ -3,7 +3,9 @@ title: Data Mining the Internet Archive Collection
 authors:
 - Caleb McDaniel
 date: 2014-03-03
-reviewers: William J. Turkel, Adam Crymble
+reviewers:
+- William J. Turkel
+- Adam Crymble
 layout: default
 ---
 

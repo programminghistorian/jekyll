@@ -4,7 +4,8 @@ authors:
 - Dennis Tenen
 - Grant Wythoff
 date: 2014-03-19
-reviewers: Fred Gibbs
+reviewers:
+- Fred Gibbs
 layout: default
 ---
 

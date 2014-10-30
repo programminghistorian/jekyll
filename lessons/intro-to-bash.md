@@ -4,7 +4,11 @@ authors:
 - Ian Milligan
 - James Baker
 date: 2014-09-20
-reviewers: Melodee Beals, Allison Hegel, Charlotte Tupman, Adam Crymble
+reviewers:
+- Melodee Beals
+- Allison Hegel
+- Charlotte Tupman
+- Adam Crymble
 layout: default
 ---
 
