@@ -34,18 +34,25 @@
 				</p>
 				
 				{% assign reviewerCount = page.reviewers | size %}
+				{% if reviewerCount == 0 %}
+				      <!-- No reviewers -->
+                {% else %}
+				<ul class="credits">Reviewed by
 				{% if reviewerCount == 1 %}
-				 <ul class="credits">
-				 <li class="technical-reviewer">Reviewer: {{ page.reviewers }}</li>
-				 </ul>
-				{% elsif reviewerCount > 1 %}
-				 <ul class="credits">
-				 <li class="technical-reviewer">Reviewers: {{ page.reviewers }}</li>
-				 </ul>
-				{% else %}
-				 <!-- No reviewers -->
-				{% endif %}
-				   
+				      {{ page.reviewers | first }}
+                {% else %}
+                      {% for reviewer in page.reviewers %}
+                           {% if forloop.first %}
+                                 {{ reviewer }}
+                           {% elsif forloop.last %}
+                                 and {{ reviewer }}
+                           {% else %}
+						         , {{ reviewer }}
+                           {% endif %}
+                      {% endfor %}
+                {% endif %}
+                </ul>
+                {% endif %}
 				
 			</header>
 
