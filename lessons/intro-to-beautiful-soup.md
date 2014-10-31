@@ -206,7 +206,7 @@ deeply embedded in the HTML structure.
 
 Both the names and the URLs are, most fortunately, embedded in “\<a\>”
 tags. So, we need to isolate out all of the “\<a\>” tags. We can do this
-by updating the code in “soupexample.py” to the following:\
+by updating the code in “soupexample.py” to the following:
 
 ``` python
 from bs4 import BeautifulSoup
