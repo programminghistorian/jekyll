@@ -34,16 +34,16 @@ Read more about [contributing lessons](submissions).
 
 
 ## Join our editorial and review team
-If writing a lesson isn't for you, perhpas 
+If writing a lesson isn't for you, perhaps you are ... 
 
 -   Interested in teaching humanists about technology?
 
--   Want to learn new digital humanities tools and techniques, and help
+-   Wanting to learn new digital humanities tools and techniques, and help
     teach others about them?
 
 -   Hankering for editorial experience you can get credit for?
 
--   Are you teaching a digital humanities course where students might
+-   Teaching a digital humanities course where students might
     produce lessons that could be published here?
 
 
