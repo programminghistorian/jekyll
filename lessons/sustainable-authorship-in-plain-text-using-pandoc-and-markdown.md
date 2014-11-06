@@ -86,6 +86,13 @@ reason, Markdown is currently enjoying a period of growth, not just as
 as means for writing scholarly papers but as a convention for online
 editing in general.
 
+Popular general purpose plain text editors include
+[TextWrangler](http://www.barebones.com/products/textwrangler/) and
+[Sublime](http://www.sublimetext.com) for Mac,
+[Notepad++](http://notepad-plus-plus.org) for Windows, as well as
+Gedit and Kate for Linux. However, there are also editors that specialize
+in displaying and editing Markdown.
+
 It is important to understand that Markdown is merely a convention.
 Markdown files are stored as plain text, further adding to the
 flexibility of the format. Plain text files have been around since the
@@ -293,9 +300,9 @@ like this: `*italics*` and `**bold**`. We should also add a link and a
 footnote to our text to cover the basic components of an average paper.
 Type:
 
-    A sentence that needs a note.[ˆ1] 
+    A sentence that needs a note.[^1] 
 
-    [ˆ1]: my first footnote! And a [link](https://www.eff.org/).
+    [^1]: my first footnote! And a [link](https://www.eff.org/).
 
 When the text of the link and the address are the same it is faster to
 write `<www.eff.org>` instead of `[www.eff.org](www.eff.org)`.
@@ -323,9 +330,9 @@ You can download this sample .md file
     date: January 20, 2014  
     ---  
 
-    # Section 1  
+    # Section 1
 
-    ## Subsection 1.1  
+    ## Subsection 1.1
     Lorem *ipsum* dolor sit amet, **consectetur** adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
     ## Subsection 1.2
@@ -339,14 +346,14 @@ You can download this sample .md file
     ![image caption](your_image.jpg)
 
     ## Subsection 2.2
-    A sentence that needs a note.[ˆ1] 
+    A sentence that needs a note.[^1]
 
-    [ˆ1]: my first footnote! And a [link](https://www.eff.org/)
+    [^1]: my first footnote! And a [link](https://www.eff.org/)
 
 As we shall do shortly, this plain text file can be rendered as a very
 nice PDF:
 
-{% include figure.html src="../images/Screen-Shot-2014-03-12-at-4.57.17-PM.png" caption="Screen shot of PDF rendered by Pandoc" %}
+{% include figure.html src="../images/Screen-Shot-2014-11-06.png" caption="Screen shot of PDF rendered by Pandoc" %}
 
 If you'd like to get an idea of how this kind of markup will be
 interpreted as HTML formatting, try [this online
