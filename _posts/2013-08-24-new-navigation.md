@@ -1,6 +1,7 @@
 ---
 title: New navigation — and some hiccups
-author: Miriam Posner
+authors:
+- Miriam Posner
 layout: post
 categories: posts
 ---

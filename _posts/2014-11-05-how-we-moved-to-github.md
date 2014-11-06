@@ -1,6 +1,7 @@
 ---
 title: How We Moved the Programming Historian to GitHub Pages
-author: Caleb McDaniel
+authors:
+- Caleb McDaniel
 layout: post
 categories: posts
 ---

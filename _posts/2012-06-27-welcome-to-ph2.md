@@ -1,6 +1,7 @@
 ---
 title: Welcome to PH2!
-author: Miriam Posner
+authors:
+- Miriam Posner
 layout: post
 categories: posts
 ---
