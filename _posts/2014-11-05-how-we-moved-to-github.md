@@ -72,7 +72,7 @@ We can follow a similar two-step procedure (find the metadata in the original HT
 
 [This script](https://github.com/programminghistorian/jekyll/blob/master/prep_for_pandoc.py) shows all the changes we eventually made in this way. (See the comment lines to get a sense of what each part of the script does.) After running that script on our folder of [original HTML](https://github.com/programminghistorian/jekyll/tree/master/original_html) pages downloaded from our Wordpress site, we had a new folder of [modified HTML files](https://github.com/programminghistorian/jekyll/tree/master/modified_html) that was ready (or at least readier) to be fed into Pandoc for conversion into Markdown files.
 
-## Converting Our Modified HTML to Markdown with Pandoc
+## Converting Our Modified HTML to Markdown
 
 Pandoc can convert an HTML file to Markdown with one simple command:
 
@@ -80,76 +80,74 @@ Pandoc can convert an HTML file to Markdown with one simple command:
 
 But in our case, the conversion was not quite so simple. Consider what happens if you run that command on [one of our modified HTML files](https://github.com/programminghistorian/jekyll/blob/master/modified_html/data-mining-the-internet-archive.html). You would get a Markdown file that begins like this:
 
-````` markdown
-Lesson Goals
-------------
-
-The collections of the [Internet Archive](http://archive.org/) (IA)
-include many digitized sources of interest to historians, including
-[early JSTOR journal content](https://archive.org/details/jstor_ejc),
-[John Adams's personal
-library](https://archive.org/details/johnadamsBPL), and the [Haiti
-collection](https://archive.org/details/jcbhaiti) at the John Carter
-Brown Library. In short, to quote Programming Historian [Ian
-Milligan](http://activehistory.ca/2013/09/the-internet-archive-rocks-or-two-million-plus-free-sources-to-explore/),
-"The Internet Archive rocks."
-
-In this lesson, you'll learn how to download files from such collections
-using a Python module specifically designed for the Internet Archive.
-You will also learn how to use another Python module designed for
-parsing MARC XML records, a widely used standard for formatting
-bibliographic metadata.
-
-For demonstration purposes, this lesson will focus on working with the
-digitized version of the [Anti-Slavery
-Collection](http://archive.org/details/bplscas) at the Boston Public
-Library in Copley Square. We will first download a large collection of
-MARC records from this collection, and then use Python to retrieve and
-analyze bibliographic information about items in the collection. For
-example, by the end of this lesson, you will be able to create a list of
-every named place from which a letter in the antislavery collection was
-written, which you could then use for a mapping project or some other
-kind of analysis.
-
-For Whom Is This Useful?
-------------------------
-
-This intermediate lesson is good for users of the Programming Historian
-who have completed general lessons on downloading files and performing
-text analysis on them, but would like an applied example of these
-principles. It will also be of interest to historians or archivists who
-work with the MARC format or the Internet Archive on a regular basis.
-
-Before You Begin
-----------------
-
-We will be working with two Python modules that are not included in
-Python's standard library.
-
-The first,
-[internetarchive](https://pypi.python.org/pypi/internetarchive),
-provides programmatic access to the Internet Archive. The second,
-[pymarc](https://pypi.python.org/pypi/pymarc/), makes it easier to parse
-MARC records.
-
-The easiest way to download both is to use pip, the python package
-manager. Begin by installing pip using [this Programming Historian
-lesson](http://programminghistorian.org/lessons/installing-python-modules-pip/).
-Then issue these commands at the command line: To install
-internetarchive:
-
-``` {.bash}
-sudo pip install internetarchive
-```
-
-To install pymarc:
-
-``` {.bash}
-sudo pip install pymarc
-```
-
-Now you are ready to go to work!
-`````
+    Lesson Goals
+    ------------
+    
+    The collections of the [Internet Archive](http://archive.org/) (IA)
+    include many digitized sources of interest to historians, including
+    [early JSTOR journal content](https://archive.org/details/jstor_ejc),
+    [John Adams's personal
+    library](https://archive.org/details/johnadamsBPL), and the [Haiti
+    collection](https://archive.org/details/jcbhaiti) at the John Carter
+    Brown Library. In short, to quote Programming Historian [Ian
+    Milligan](http://activehistory.ca/2013/09/the-internet-archive-rocks-or-two-million-plus-free-sources-to-explore/),
+    "The Internet Archive rocks."
+    
+    In this lesson, you'll learn how to download files from such collections
+    using a Python module specifically designed for the Internet Archive.
+    You will also learn how to use another Python module designed for
+    parsing MARC XML records, a widely used standard for formatting
+    bibliographic metadata.
+    
+    For demonstration purposes, this lesson will focus on working with the
+    digitized version of the [Anti-Slavery
+    Collection](http://archive.org/details/bplscas) at the Boston Public
+    Library in Copley Square. We will first download a large collection of
+    MARC records from this collection, and then use Python to retrieve and
+    analyze bibliographic information about items in the collection. For
+    example, by the end of this lesson, you will be able to create a list of
+    every named place from which a letter in the antislavery collection was
+    written, which you could then use for a mapping project or some other
+    kind of analysis.
+    
+    For Whom Is This Useful?
+    ------------------------
+    
+    This intermediate lesson is good for users of the Programming Historian
+    who have completed general lessons on downloading files and performing
+    text analysis on them, but would like an applied example of these
+    principles. It will also be of interest to historians or archivists who
+    work with the MARC format or the Internet Archive on a regular basis.
+    
+    Before You Begin
+    ----------------
+    
+    We will be working with two Python modules that are not included in
+    Python's standard library.
+    
+    The first,
+    [internetarchive](https://pypi.python.org/pypi/internetarchive),
+    provides programmatic access to the Internet Archive. The second,
+    [pymarc](https://pypi.python.org/pypi/pymarc/), makes it easier to parse
+    MARC records.
+    
+    The easiest way to download both is to use pip, the python package
+    manager. Begin by installing pip using [this Programming Historian
+    lesson](http://programminghistorian.org/lessons/installing-python-modules-pip/).
+    Then issue these commands at the command line: To install
+    internetarchive:
+    
+    ``` {.bash}
+    sudo pip install internetarchive
+    ```
+    
+    To install pymarc:
+    
+    ``` {.bash}
+    sudo pip install pymarc
+    ```
+    
+    Now you are ready to go to work!
 
 Pandoc has converted our links and codeblocks into Markdown syntax, and eliminated a lot of the unnecessary content from the beginning of our HTML file. But right away, we can notice two things that make this Markdown conversion imperfect. First, despite all the work that we did to capture the author, title, and date from the original HTML, that metadata does not appear in this output.
 
@@ -175,7 +173,7 @@ Behind the scenes, however, Pandoc is grabbing the metadata we stored in our `<m
 
 In short, `--standalone` has captured the metadata we wanted and assigned it to variables. but we also need to tell Pandoc *where* to *put* that metadata in our output. To do that, we used a [custom Pandoc template](http://johnmacfarlane.net/pandoc/README.html#templates) that looked like this:
 
-``` markdown
+~~~~~
 ---
 title: $title$
 author: $for(author)$$author$$sep$, $endfor$
@@ -184,7 +182,7 @@ reviewers: $reviewers$
 ---
 
 $body$
-```
+~~~~~
 
 You can read more about [templates](http://johnmacfarlane.net/pandoc/README.html#templates) in the Pandoc documentation, but the important thing to note here is that we are telling Pandoc where to output our metadata variables (represented by words with dollar signs around them, like `$title$`) and where to output the main body of the HTML file (represented by the `$body$` variable). The words that are not wrapped in dollar signs in our template will pass literally into our output document. 
 
@@ -194,83 +192,81 @@ We can save that template in a file called `jekyll.md` and then add the option `
 
 When we do, the start of our Markdown output should now look like this:
 
-````` markdown
----
-title: Data Mining the Internet Archive Collection
-author: Caleb McDaniel
-date: 03-03-2014
-reviewers: William J Turkel
----
-
-Lesson Goals
-------------
-
-The collections of the [Internet Archive](http://archive.org/) (IA)
-include many digitized sources of interest to historians, including
-[early JSTOR journal content](https://archive.org/details/jstor_ejc),
-[John Adams's personal
-library](https://archive.org/details/johnadamsBPL), and the [Haiti
-collection](https://archive.org/details/jcbhaiti) at the John Carter
-Brown Library. In short, to quote Programming Historian [Ian
-Milligan](http://activehistory.ca/2013/09/the-internet-archive-rocks-or-two-million-plus-free-sources-to-explore/),
-"The Internet Archive rocks."
-
-In this lesson, you'll learn how to download files from such collections
-using a Python module specifically designed for the Internet Archive.
-You will also learn how to use another Python module designed for
-parsing MARC XML records, a widely used standard for formatting
-bibliographic metadata.
-
-For demonstration purposes, this lesson will focus on working with the
-digitized version of the [Anti-Slavery
-Collection](http://archive.org/details/bplscas) at the Boston Public
-Library in Copley Square. We will first download a large collection of
-MARC records from this collection, and then use Python to retrieve and
-analyze bibliographic information about items in the collection. For
-example, by the end of this lesson, you will be able to create a list of
-every named place from which a letter in the antislavery collection was
-written, which you could then use for a mapping project or some other
-kind of analysis.
-
-For Whom Is This Useful?
-------------------------
-
-This intermediate lesson is good for users of the Programming Historian
-who have completed general lessons on downloading files and performing
-text analysis on them, but would like an applied example of these
-principles. It will also be of interest to historians or archivists who
-work with the MARC format or the Internet Archive on a regular basis.
-
-Before You Begin
-----------------
-
-We will be working with two Python modules that are not included in
-Python's standard library.
-
-The first,
-[internetarchive](https://pypi.python.org/pypi/internetarchive),
-provides programmatic access to the Internet Archive. The second,
-[pymarc](https://pypi.python.org/pypi/pymarc/), makes it easier to parse
-MARC records.
-
-The easiest way to download both is to use pip, the python package
-manager. Begin by installing pip using [this Programming Historian
-lesson](http://programminghistorian.org/lessons/installing-python-modules-pip/).
-Then issue these commands at the command line: To install
-internetarchive:
-
-``` {.bash}
-sudo pip install internetarchive
-```
-
-To install pymarc:
-
-``` {.bash}
-sudo pip install pymarc
-```
-
-Now you are ready to go to work!
-`````
+    ---
+    title: Data Mining the Internet Archive Collection
+    author: Caleb McDaniel
+    date: 03-03-2014
+    reviewers: William J Turkel
+    ---
+    
+    Lesson Goals
+    ------------
+    
+    The collections of the [Internet Archive](http://archive.org/) (IA)
+    include many digitized sources of interest to historians, including
+    [early JSTOR journal content](https://archive.org/details/jstor_ejc),
+    [John Adams's personal
+    library](https://archive.org/details/johnadamsBPL), and the [Haiti
+    collection](https://archive.org/details/jcbhaiti) at the John Carter
+    Brown Library. In short, to quote Programming Historian [Ian
+    Milligan](http://activehistory.ca/2013/09/the-internet-archive-rocks-or-two-million-plus-free-sources-to-explore/),
+    "The Internet Archive rocks."
+    
+    In this lesson, you'll learn how to download files from such collections
+    using a Python module specifically designed for the Internet Archive.
+    You will also learn how to use another Python module designed for
+    parsing MARC XML records, a widely used standard for formatting
+    bibliographic metadata.
+    
+    For demonstration purposes, this lesson will focus on working with the
+    digitized version of the [Anti-Slavery
+    Collection](http://archive.org/details/bplscas) at the Boston Public
+    Library in Copley Square. We will first download a large collection of
+    MARC records from this collection, and then use Python to retrieve and
+    analyze bibliographic information about items in the collection. For
+    example, by the end of this lesson, you will be able to create a list of
+    every named place from which a letter in the antislavery collection was
+    written, which you could then use for a mapping project or some other
+    kind of analysis.
+    
+    For Whom Is This Useful?
+    ------------------------
+    
+    This intermediate lesson is good for users of the Programming Historian
+    who have completed general lessons on downloading files and performing
+    text analysis on them, but would like an applied example of these
+    principles. It will also be of interest to historians or archivists who
+    work with the MARC format or the Internet Archive on a regular basis.
+    
+    Before You Begin
+    ----------------
+    
+    We will be working with two Python modules that are not included in
+    Python's standard library.
+    
+    The first,
+    [internetarchive](https://pypi.python.org/pypi/internetarchive),
+    provides programmatic access to the Internet Archive. The second,
+    [pymarc](https://pypi.python.org/pypi/pymarc/), makes it easier to parse
+    MARC records.
+    
+    The easiest way to download both is to use pip, the python package
+    manager. Begin by installing pip using [this Programming Historian
+    lesson](http://programminghistorian.org/lessons/installing-python-modules-pip/).
+    Then issue these commands at the command line: To install
+    internetarchive:
+    
+    ``` {.bash}
+    sudo pip install internetarchive
+    ```
+    
+    To install pymarc:
+    
+    ``` {.bash}
+    sudo pip install pymarc
+    ```
+    
+    Now you are ready to go to work!
 
 Notice that our metadata is now inserted in the output as a [Jekyll metadata block](http://jekyllrb.com/docs/frontmatter/). Hooray!
 
@@ -278,11 +274,9 @@ Notice that our metadata is now inserted in the output as a [Jekyll metadata blo
 
 The other problem we identified with our Markdown output---the way to mark fenced code blocks---remains to be solved, however. This problem was a bit trickier to solve, because Jekyll's default Markdown parser does not recognize code blocks fenced with backticks at all. But [after some experimentation](https://github.com/programminghistorian/jekyll/issues/2), we discovered that we could configure Jekyll to recognize and highlight code blocks that look like this:
 
-`````
-``` bash
-sudo pip install pymarc
-```
-`````
+    ``` bash
+    sudo pip install pymarc
+    ```
 
 Pandoc, as we've seen, was wrapping `bash` in curly braces and a period, like so: ```{.bash}```. That's because by default, Pandoc is taking the `class` attribute in [this line](https://github.com/programminghistorian/jekyll/blob/master/modified_html/data-mining-the-internet-archive.html#L50) of our HTML and then putting it in braces. If there were more than one `class` attribute in that line, Pandoc would continue putting them, prefaced by a period, inside those curly braces, as described in [the documentation](http://johnmacfarlane.net/pandoc/README.html#fenced-code-blocks) under `Extension: fenced_code_attributes`. 
 
@@ -296,83 +290,81 @@ In plainer English, that's exactly what we want to produce fenced code blocks th
 
 Run that command on the same [modified HTML file](https://github.com/programminghistorian/jekyll/blob/master/modified_html/data-mining-the-internet-archive.html) we've been using above, and the new Markdown output should begin like this:
 
-````` markdown
----
-title: Data Mining the Internet Archive Collection
-author: Caleb McDaniel
-date: 03-03-2014
-reviewers: William J Turkel
----
-
-Lesson Goals
-------------
-
-The collections of the [Internet Archive](http://archive.org/) (IA)
-include many digitized sources of interest to historians, including
-[early JSTOR journal content](https://archive.org/details/jstor_ejc),
-[John Adams’s personal
-library](https://archive.org/details/johnadamsBPL), and the [Haiti
-collection](https://archive.org/details/jcbhaiti) at the John Carter
-Brown Library. In short, to quote Programming Historian [Ian
-Milligan](http://activehistory.ca/2013/09/the-internet-archive-rocks-or-two-million-plus-free-sources-to-explore/),
-“The Internet Archive rocks.”
-
-In this lesson, you’ll learn how to download files from such collections
-using a Python module specifically designed for the Internet Archive.
-You will also learn how to use another Python module designed for
-parsing MARC XML records, a widely used standard for formatting
-bibliographic metadata.
-
-For demonstration purposes, this lesson will focus on working with the
-digitized version of the [Anti-Slavery
-Collection](http://archive.org/details/bplscas) at the Boston Public
-Library in Copley Square. We will first download a large collection of
-MARC records from this collection, and then use Python to retrieve and
-analyze bibliographic information about items in the collection. For
-example, by the end of this lesson, you will be able to create a list of
-every named place from which a letter in the antislavery collection was
-written, which you could then use for a mapping project or some other
-kind of analysis.
-
-For Whom Is This Useful?
-------------------------
-
-This intermediate lesson is good for users of the Programming Historian
-who have completed general lessons on downloading files and performing
-text analysis on them, but would like an applied example of these
-principles. It will also be of interest to historians or archivists who
-work with the MARC format or the Internet Archive on a regular basis.
-
-Before You Begin
-----------------
-
-We will be working with two Python modules that are not included in
-Python’s standard library.
-
-The first,
-[internetarchive](https://pypi.python.org/pypi/internetarchive),
-provides programmatic access to the Internet Archive. The second,
-[pymarc](https://pypi.python.org/pypi/pymarc/), makes it easier to parse
-MARC records.
-
-The easiest way to download both is to use pip, the python package
-manager. Begin by installing pip using [this Programming Historian
-lesson](http://programminghistorian.org/lessons/installing-python-modules-pip/).
-Then issue these commands at the command line: To install
-internetarchive:
-
-``` bash
-sudo pip install internetarchive
-```
-
-To install pymarc:
-
-``` bash
-sudo pip install pymarc
-```
-
-Now you are ready to go to work!
-`````
+    ---
+    title: Data Mining the Internet Archive Collection
+    author: Caleb McDaniel
+    date: 03-03-2014
+    reviewers: William J Turkel
+    ---
+    
+    Lesson Goals
+    ------------
+    
+    The collections of the [Internet Archive](http://archive.org/) (IA)
+    include many digitized sources of interest to historians, including
+    [early JSTOR journal content](https://archive.org/details/jstor_ejc),
+    [John Adams’s personal
+    library](https://archive.org/details/johnadamsBPL), and the [Haiti
+    collection](https://archive.org/details/jcbhaiti) at the John Carter
+    Brown Library. In short, to quote Programming Historian [Ian
+    Milligan](http://activehistory.ca/2013/09/the-internet-archive-rocks-or-two-million-plus-free-sources-to-explore/),
+    “The Internet Archive rocks.”
+    
+    In this lesson, you’ll learn how to download files from such collections
+    using a Python module specifically designed for the Internet Archive.
+    You will also learn how to use another Python module designed for
+    parsing MARC XML records, a widely used standard for formatting
+    bibliographic metadata.
+    
+    For demonstration purposes, this lesson will focus on working with the
+    digitized version of the [Anti-Slavery
+    Collection](http://archive.org/details/bplscas) at the Boston Public
+    Library in Copley Square. We will first download a large collection of
+    MARC records from this collection, and then use Python to retrieve and
+    analyze bibliographic information about items in the collection. For
+    example, by the end of this lesson, you will be able to create a list of
+    every named place from which a letter in the antislavery collection was
+    written, which you could then use for a mapping project or some other
+    kind of analysis.
+    
+    For Whom Is This Useful?
+    ------------------------
+    
+    This intermediate lesson is good for users of the Programming Historian
+    who have completed general lessons on downloading files and performing
+    text analysis on them, but would like an applied example of these
+    principles. It will also be of interest to historians or archivists who
+    work with the MARC format or the Internet Archive on a regular basis.
+    
+    Before You Begin
+    ----------------
+    
+    We will be working with two Python modules that are not included in
+    Python’s standard library.
+    
+    The first,
+    [internetarchive](https://pypi.python.org/pypi/internetarchive),
+    provides programmatic access to the Internet Archive. The second,
+    [pymarc](https://pypi.python.org/pypi/pymarc/), makes it easier to parse
+    MARC records.
+    
+    The easiest way to download both is to use pip, the python package
+    manager. Begin by installing pip using [this Programming Historian
+    lesson](http://programminghistorian.org/lessons/installing-python-modules-pip/).
+    Then issue these commands at the command line: To install
+    internetarchive:
+    
+    ``` bash
+    sudo pip install internetarchive
+    ```
+    
+    To install pymarc:
+    
+    ``` bash
+    sudo pip install pymarc
+    ```
+    
+    Now you are ready to go to work!
 
 Notice the difference in the way the two `bash` code blocks at the end of that snippet are now formatted. We did it!
 
