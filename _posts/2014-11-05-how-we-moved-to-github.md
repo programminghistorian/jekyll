@@ -58,7 +58,7 @@ author = soup.find(class_='byline')
 
 (Note that this code snippet assumes we have already used the standard Python techniques for [reading from a text file](http://programminghistorian.org/lessons/working-with-text-files#reading-from-a-text-file) to get our original HTML from a file and assign it to the variable `html`.)
 
-Beautiful Soup can do more than just help us to *find* content in HTML, however; it can also be used to modify the HTML tree. For example, a code snippet that looks something like the below would (a) save all the content from the original `<head>` tag, (b) create a new `<meta>` tag that contains the content from our `author` variable, but with the leading `By ` stripped out; and (c) insert that new `<meta>` tag into the original `<head>` tag:
+Beautiful Soup can do more than just help us to *find* content in HTML, however; it can also be used to modify the HTML tree. For example, a code snippet that looks something like the below would (1) save all the content from the original `<head>` tag, (2) create a new `<meta>` tag that contains the content from our `author` variable, but with the leading `By ` stripped out; and (3) insert that new `<meta>` tag into the original `<head>` tag:
 
 ```python
 original_head = soup.head
@@ -168,7 +168,7 @@ One of the things that the `--standalone` option does is to override that defaul
 
     pandoc -f html -t markdown --standalone data-mining-the-internet-archive.html
 
-At first glance, however, it still won't look like that command made a difference. You'll get what seems to be the same Markdown output, with no metadata.
+At first glance, it still won't look like that command made a difference. You'll get what seems to be the same Markdown output, with no metadata.
 
 Behind the scenes, however, Pandoc is grabbing the metadata we stored in our `<meta>` tags and assigning them to Pandoc template variables based on the `name` attribute of these tags: for example, `author`, `reviewers`, and `title`. (If you really want to understand what's going on under the hood, try running the above command, with and without the `--standalone` option, but changing `-t markdown` to `-t native`. Even without understanding the output you see, you can compare the first lines of the native output for a standalone document with the first lines of output without the standalone option. Notice that with standalone, something that looks like our metadata appears in the native output.)
 
