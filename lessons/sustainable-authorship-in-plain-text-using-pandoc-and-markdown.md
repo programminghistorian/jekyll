@@ -86,6 +86,13 @@ reason, Markdown is currently enjoying a period of growth, not just as
 as means for writing scholarly papers but as a convention for online
 editing in general.
 
+Popular general purpose plain text editors include
+[TextWrangler](http://www.barebones.com/products/textwrangler/) and
+[Sublime](http://www.sublimetext.com) for Mac,
+[Notepad++](http://notepad-plus-plus.org) for Windows, as well as
+Gedit and Kate for Linux. However, there are also editors that specialize
+in displaying and editing Markdown.
+
 It is important to understand that Markdown is merely a convention.
 Markdown files are stored as plain text, further adding to the
 flexibility of the format. Plain text files have been around since the
