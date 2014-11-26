@@ -553,7 +553,7 @@ Edit the footnote in the first line of your `main.md` file to look like
 something like this, where `@fyfe_digital_2011` is replaced with one of
 the unique IDs from your `project.bib` file:
 
-`Some sentence that needs citation [@fyfe_digital_2011 argues that too.]`[^7](#fn:7) <a name="fnref:7">
+`Some sentence that needs citation [@fyfe_digital_2011 argues that too].`[^7](#fn:7) <a name="fnref:7">
 
 Once we run the markdown through Pandoc, "@fyfe\_digital\_2011" will be
 expanded to a full citation in the style of your choice. You can use the
