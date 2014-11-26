@@ -43,6 +43,7 @@ to be used in various tools.
 -   [Understanding Regular Expressions](../lessons/understanding-regular-expressions) <div class="toc-author">Doug Knox</div>
 -   [Cleaning OCR’d Text with Regular Expressions](../lessons/cleaning-ocrd-text-with-regular-expressions) <div class="toc-author">Laura Turner O’Hara</div>
 -   [Transliterating non-ASCII Characters with Python](../lessons/transliterating) <div class="toc-author"> Seth Bernstein</div>
+-   [Generating an Ordered Data Set from an OCR Text File](../lessons/generating-an-ordered-data-set-from-an-OCR-text-file) <div class="toc-author">Jon Crump</div>
 
 
 
