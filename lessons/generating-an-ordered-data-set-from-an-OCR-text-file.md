@@ -212,7 +212,7 @@ def rom2ar(rom):
 
     return result
 ```
-(run <[this little script](Roman_to_Arabic.txt)> to see in detail how `rome2ar` works. Elegant programming like this can offer insight; like poetry.)
+(run <[this little script](../assets/Roman_to_Arabic.txt)> to see in detail how `rome2ar` works. Elegant programming like this can offer insight; like poetry.)
 
 ##<a name="imports-globals"></a> Some other things we'll need:
 At the top of your Python module, you're going to want to import some python modules that are a part of the standard library. (see Fred Gibbs's tutorial [*Introducing Modules*](http://programminghistorian.org/lessons/installing-python-modules-pip)).
