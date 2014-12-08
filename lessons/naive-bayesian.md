@@ -1437,9 +1437,9 @@ Happy hunting!
 
   [A Naive Bayesian in the Old Bailey]: http://digitalhistoryhacks.blogspot.com/2008/05/naive-bayesian-in-old-bailey-part-1.html
   [Old Bailey digital archive]: http://www.oldbaileyonline.org/
-  [A zip file of the scripts]: baileycode.zip
-  [another zip file]: baileyfiles.zip
-  [download both scripts and data together]: baileycodewithfiles.zip
+  [A zip file of the scripts]: ../assets/baileycode.zip
+  [another zip file]: ../assets/baileyfiles.zip
+  [download both scripts and data together]: ../assets/baileycodewithfiles.zip
   [BeautifulSoup]: http://www.crummy.com/software/BeautifulSoup/
   [search interface]: http://www.oldbaileyonline.org/forms/formMain.jsp
   [classification]: http://en.wikipedia.org/wiki/Statistical_classification
