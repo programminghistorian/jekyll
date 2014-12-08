@@ -63,9 +63,8 @@ Step by step, we'll do the following:
 -   `english-stopwords.txt`
 
 [A zip file of the scripts][] is available. You can also download 
-[another zip file][] containing the data we are using and the files that 
-result from the scripts. Or you can [download both scripts and data together][]. 
-(The last option is probably easiest if you want to follow along with the lesson,
+[another zip file][] containing the scripts, the data that we are using and the files that 
+result from the scripts. (The second option is probably easiest if you want to follow along with the lesson,
 since it gives you everything you need in the correct folder structure.)
 More information about where to put the files is in the "Preliminaries" section 
 of the part where we actually begin to code.
@@ -1438,8 +1437,7 @@ Happy hunting!
   [A Naive Bayesian in the Old Bailey]: http://digitalhistoryhacks.blogspot.com/2008/05/naive-bayesian-in-old-bailey-part-1.html
   [Old Bailey digital archive]: http://www.oldbaileyonline.org/
   [A zip file of the scripts]: ../assets/baileycode.zip
-  [another zip file]: ../assets/baileyfiles.zip
-  [download both scripts and data together]: ../assets/baileycodewithfiles.zip
+  [another zip file]: https://drive.google.com/file/d/0B7NwOmZ-CYiPM1AxTDRFTVZUQnM/edit?usp=sharing
   [BeautifulSoup]: http://www.crummy.com/software/BeautifulSoup/
   [search interface]: http://www.oldbaileyonline.org/forms/formMain.jsp
   [classification]: http://en.wikipedia.org/wiki/Statistical_classification
