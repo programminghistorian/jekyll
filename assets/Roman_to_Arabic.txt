@@ -1,0 +1,39 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+### This script is entirely self-contained. Change the filename suffix to .py
+### and you can run it at the command line like this:
+### python Roman_to_Arabic.py
+
+def rom2ar(rom):
+    """ From the Python tutor mailing list:
+    János Juhász janos.juhasz at VELUX.com
+    returns arabic equivalent of a Roman numeral
+    
+    This is really a bit of brilliance, so I sprinkled it with
+    print statements to demonstrate why it works.
+    """
+    roman_codec = {'M':1000, 'D':500, 'C':100, 'L':50, 'X':10, 'V':5, 'I':1}
+    roman = rom.upper()
+    roman = list(roman)
+    roman.reverse()
+    decimal = [roman_codec[ch] for ch in roman]
+    result = 0
+    print "For Roman Numeral: ", rom.upper(), "\nlist of roman characters translated to arabic equvalents,\n then reversed: ", decimal, "\n"
+    while len(decimal):
+        act = decimal.pop()
+        print "decimal.pop() yields: ", act
+        if len(decimal) and act < max(decimal):
+            act = -act
+            print "current result: %d + %d = %d\nnegative because %d is less than the maximum value in the list which is: %d" % (result, act, result + act, abs(act), max(decimal))
+        else:
+            print "current result: %d + %d = %d" % (result, act, result + act)
+        print "our decimal list is now: ", decimal, "\n\n"
+        result += act
+        print "LOOP!"
+
+    return result
+    
+
+print rom2ar("mmcdlxxxix")
+print "Brilliant, huh?"

@@ -30,6 +30,8 @@ knowledge gained along the way.
 
 We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft and hone your topic and approach, as well as to make your tutorial as clear and as useful as possible. 
 
+If you'd like to suggest idea to make _Programming Historian_ a more useful resource for you, or propose a lesson (for you or for someone else to write), email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with your ideas! 
+
 Read more about [contributing lessons](submissions).
 
 
@@ -80,3 +82,7 @@ at Programming Historian, so everyone will know how awesome you are.
 wanting to share it.
 
 - **Karma:** Contribute to a good cause.
+
+If you'd like to be involved as an editor or reviewer, please email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with a bit of information about yourself, namely the specific skills, tools, topics, and technologies that you'd like to be involved with so that we can send you the most appropriate lessons to review.
+
+Thanks for making _Programming Historian_ such a great resource!
