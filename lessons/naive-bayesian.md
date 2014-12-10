@@ -291,8 +291,8 @@ published.
 
 So what you end up with is something like this:
 
-| **Edward Gibbon (5)** | **Carl Becker (18)** | **Mercy Otis Warren (2)** |
-| *word*, *count* | *word*, *count* | *word*, *count* |
+| Edward Gibbon (5) | Carl Becker (18) | Mercy Otis Warren (2) |
+| word, count | word, count | word, count |
 | --------------------- | --------------------- | --------------------- |
 | empire, 985 | everyman, 756 | revolution, 989 |
 | rome, 897 | revolution, 699 | constitution, 920 |
