@@ -292,13 +292,12 @@ published.
 So what you end up with is something like this:
 
 | Edward Gibbon (5) | Carl Becker (18) | Mercy Otis Warren (2) |
-| word, count | word, count | word, count |
 | --------------------- | --------------------- | --------------------- |
 | empire, 985 | everyman, 756 | revolution, 989 |
 | rome, 897 | revolution, 699 | constitution, 920 |
 | fall, 887 | philosopher, 613 | principles, 899 |
 | … | … | … |
-| *total*, 352,003 | *total*, 745,532 | *total*, 300,487 |
+| (total), 352,003 | (total), 745,532 | (total), 300,487 |
 
 What you have done, in essence, is to reconstruct each historian's "bag
 of words" — now you know (at least approximately) what words each
