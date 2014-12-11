@@ -45,7 +45,7 @@ It is often the case that historians involved in digital projects wish to work w
 
 Going through a text file line by line and correcting OCR errors one at a time is hugely error-prone, as any proof reader will tell you. There are ways to automate some of this tedious work. A scripting language like Perl or Python can allow you to search your OCR output text for common errors and correct them using "Regular Expressions", a language for describing patterns in text. (So called because they express a ["regular language"](http://en.wikipedia.org/wiki/Regular_language). See L.T. O'Hara's [tutorial on Regular Expressions](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions.html) here at the PM.) Regular Expressions, however, are only useful if the expressions you are searching for are ... well ... regular. Unfortunately, much of what you have in OCR output is highly *irregular*. If you could impose some order on it: create an ordered data set out of it, your Regular Expression tools would become much more powerful.
 
-Consider, for example, what happens if your OCR interpreted a lot of strings like this "21 July, 1921" as "2l July, 192l", turning the integer '1' into an 'l'. You would love to be able to write a search and replace script that would turn all instances of 2l into 21, but then what would happen if you had lots of occurrences of strings like this in your text: "2lb. hammer". You'd get a bunch of 21b. hammers; not what you want. If only you could tell your script: only change 2l into 21 in sections where there are dates, not weights.
+Consider, for example, what happens if your OCR interpreted a lot of strings like this "21 July, 1921" as "2l July, 192l", turning the integer '1' into an 'l'. You would love to be able to write a search and replace script that would turn all instances of 2l into 21, but then what would happen if you had lots of occurrences of strings like this in your text: "2lb. hammer". You'd get a bunch of 21b. hammers; not what you want. If only you could tell your script: only change 2l into 21 in sections where there are dates, not weights. If you had an ordered data set, you could do things like that.
 
 Very often the texts that historians wish to digitize are, in fact, ordered data sets: ordered collections of primary source documents, or a legal code say, or a cartulary. But the editorial structure imposed upon such resources is usually designed for a particular kind of data retrieval technology i.e., a codex, a book. For a digitized text you need a different kind of structure. If you can get rid of the book related infrastructure and reorganize the text according to the sections and divisions that you're interested in, you will wind up with data that is much easier to do search and replace operations on, and as a bonus, your text will become immediately useful in a variety of other contexts as well.
 
@@ -162,7 +162,7 @@ Unfortunately, regular expressions won't help you much here. This text can appea
     IL CIRTOL.'RE DI G:OV.I\N( sca:FR	339
     342	NI .\ßlO CHIAUDANO 9LtTTIA MORESCO
 
-These strings are not regular enough to reliably find with regular expressions; however, if you know what the strings are supposed to look like, you can compose some kind of string similarity algorithm to test each string against an exemplar and measure the likelihood that it is a page header. Fortunately, I didn't have to compose such an algorithm, Vladimir Levenshtein did it for us in 1965 (see: <http://en.wikipedia.org/wiki/Levenshtein_distance>). A computer language can encode this algorithm in any number of ways, here's an effective Python function that will work for us:
+These strings are not regular enough to reliably find with regular expressions; however, if you know what the strings are *supposed* to look like, you can compose some kind of string similarity algorithm to test each string against an exemplar and measure the likelihood that it is a page header. Fortunately, I didn't have to compose such an algorithm, Vladimir Levenshtein did it for us in 1965 (see: <http://en.wikipedia.org/wiki/Levenshtein_distance>). A computer language can encode this algorithm in any number of ways; here's an effective Python function that will work for us:
 
 
 ```python
@@ -291,11 +291,11 @@ First of all, we want to find all the page headers, both *recto* and *verso* and
 
 `lev("RANDOM STRING OF SIMILAR LENGTH:    38", 'IL CARTOLARE DI GIOVANNI SCRIBA')`
 
-returns 33, but one of our header strings, even badly mangled by the OCR
+returns 33, but one of our header strings, even badly mangled by the OCR, returns 20:
 
 `lev("IL CIRTOL4RE DI CIOVINN1 St'Itlltl     269", 'IL CARTOLARE DI GIOVANNI SCRIBA')`
 
-returns 20. So we can use `lev()` to find and modify our header strings thus:
+So we can use `lev()` to find and modify our header strings thus:
 
 ```python
 # At the top, do the importing you need and define the lev() function as described above, and then:
@@ -395,7 +395,6 @@ fout = open("out2.txt", 'w')
 GScriba = fin.readlines()
 
 for line in GScriba:
-    # note the 'or' clause to catch single character roman numerals
     if romstr.match(line):
         rnum = line.strip().strip('.')
         # each time we find a roman numeral by itself on a line we increment n:
@@ -446,7 +445,7 @@ While it's important in itself for us to have our OCR output reliably divided up
 
 Our OCR'd text is from the 1935 published edition of *Giovanni Scriba*. This is a transcription of a manuscript cartulary which was in the form of a bound book. The published edition preserves the pagination of that original by noting where the original pages change: [fo. 16 r.] the face side of the 16th leaf in the book, followed by its reverse [fo. 16 v.]. This is metadata that we want to preserve for each of the charters so that they can be referenced with respect to the original, as well as with respect to the published edition by page number.
 
-Many of the folio markers (e.g. "[fo. 16 v.]") appear on the same line as the roman numeral for the charter heading. To normalize those charter headings for the operation above we had to put a line break between the folio marker and the charter number, so many of the folio markers are on their own line already. However, sometimes the folio changes in the middle of the charter text somewhere. We want these markers to stay where they are. We need to make sure all the folio markers are free of errors so that we can find them by means of a regular expression. Again, since we know how many folios there are, we can know if we've found them all. Note that because we used `.readlines()`, `GScriba` is a list, so the script below will print the line number from the source file as well as the line itself. This will report all the correctly formated folio markers, so that you can find and fix the ones that are broken.
+Many of the folio markers (e.g. "[fo. 16 v.]") appear on the same line as the roman numeral for the charter heading. To normalize those charter headings for the operation above, we had to put a line break between the folio marker and the charter number, so many of the folio markers are on their own line already. However, sometimes the folio changes in the middle of the charter text somewhere. We want these markers to stay where they are; we will have to treat those two cases differently. For either case, we need to make sure all the folio markers are free of errors so that we can reliably find them by means of a regular expression. Again, since we know how many folios there are, we can know if we've found them all. Note that because we used `.readlines()`, `GScriba` is a list, so the script below will print the line number from the source file as well as the line itself. This will report all the correctly formated folio markers, so that you can find and fix the ones that are broken.
 
 ```python
 # note the optional quantifiers '\s?'. We want to find as many as we can, and
@@ -476,7 +475,7 @@ This important line is invariably the first one after the charter heading.
 
 ![italian summary line](../images/gs_italian_summary.png)
 
-Since those roman numeral headings are now reliably findable with our 'slug' regex, we can now isolate line that appears immediately after it. We also know that the summaries always end with some kind of parenthesized date expression. So, we can compose a regular expression to find the slug and the line following: 
+Since those roman numeral headings are now reliably findable with our 'slug' regex, we can now isolate the line that appears immediately after it. We also know that the summaries always end with some kind of parenthesized date expression. So, we can compose a regular expression to find the slug and the line following: 
 
 ```python
 slug_and_firstline = re.compile("(\[~~~~\sGScriba_)(.*)\s::::\s(\d+)\s~~~~\]\n(.*)(\(\d?.*\d+\))")
@@ -503,9 +502,9 @@ the parentheses mark match groups, so each time our regex finds a match, we can 
 * `match.group(2)` = the charter's roman numeral
 * `match.group(3)` = the arabic charter number
 * `match.group(4)` = the whole of the Italian summary line up to the parenthesized date expression
-* `match.group(5)` = the parenthesized date expression, note the escaped parentheses.
+* `match.group(5)` = the parenthesized date expression. Note the escaped parentheses.
 
-Because our OCR has a lot of mysterious whitespace (newlines, tabs, spaces, all mixed up without rhyme or reason), we want to hunt for this regex as substrings of a great big string, so this time we're going to use `.read()` instead of `.readlines()`. And we'll also need a counter to keep track of the lines we find. This script will report the charter numbers where the first line does not conform to our regex model.
+Because our OCR has a lot of mysterious whitespace (OCR software is not good at parsing whitespace and you're likely to get newlines, tabs, spaces, all mixed up without rhyme or reason), we want to hunt for this regex as substrings of a great big string, so this time we're going to use `.read()` instead of `.readlines()`. And we'll also need a counter to keep track of the lines we find. This script will report the charter numbers where the first line does not conform to our regex model. This will usually happen if there's no line break after our charter header, or if the Italian summary line has been broken up into multiple lines.
 
 ```python
 num_firstlines = 0
@@ -541,6 +540,8 @@ Again, run the script repeatedly until all the Italian Summary lines are present
 One of the trickiest bits to untangle, is the infuriating editorial convention of restarting the footnote numbering with each new page. This makes it hard to associate a footnote text (page-bound data), with a footnote marker (charter-bound data). Before we can do that we have to ensure that each footnote text that appears at the bottom of the page, appears in our source file on its own separate line with no leading white-space. And that __none__ of the footnote markers within the text appears at the beginning of a line. And we must ensure that every footnote string, "(1)" for example, appears __exactly__ twice on a page: once as an in-text marker, and once at the bottom for the footnote text. The following script reports the page number of any page that fails that test, along with a list of the footnote strings it found on that page.
 
 ```python
+# Don't forget to import the Counter module: 
+from collections import Counter
 fin = open("your_current_source_file.txt", 'r')
 GScriba = fin.readlines() # GScriba is a list again
 r = re.compile("\(\d{1,2}\)") # there's lots of ways for OCR to screw this up, so be alert.
@@ -564,7 +565,7 @@ for line in GScriba:
             
             # if there are fn markers that do not appear exactly twice,
             # then report the page number to us
-            if list(set(c.values()))[0] != 2: print pgno, pgfnlist
+            if 1 in c.values(): print pgno, pgfnlist
             
             # then reset our list to empty
             pgfnlist = []
@@ -587,17 +588,13 @@ Our `Counter` is a very handy special data structure. We know that we want each 
 Counter({1: 2, 3: 2, 2: 1})
 ```
 
-So if for a given page we get a list of footnote markers like this `[1,2,3,1,3]` then our test will fail:
-
-`if list(set(c.values()))[0] != 2`
-
-because we know each element must appear __exactly twice__:
+So if for a given page we get a list of footnote markers like this `[1,2,3,1,3]`, then the test `if 1 in c.values()` will indicate a problem because we know each element must appear __exactly twice__:
 
 ```python
 >>> l = [1,2,3,1,3]
 >>> c = Counter(l)
->>> print list(set(c.values()))
-[1, 2]
+>>> print c.values()
+[2, 1, 2]
 ```
 
 whereas, if our footnote marker list for the page is complete `[1,2,3,1,2,3]`, then:
@@ -605,8 +602,8 @@ whereas, if our footnote marker list for the page is complete `[1,2,3,1,2,3]`, t
 ```python 
 >>> l = [1,2,3,1,2,3]
 >>> c = Counter(l)
->>> print list(set(c.values()))
-[2]
+>>> print c.values()
+[2, 2, 2] # i.e. 1 is not in c.values()
 ```
 
 As before, run this script repeatedly, correcting your input file manually as you discover errors, until you are satisfied that all footnotes are present and correct for each page. Then save your corrected input file with a new name.
@@ -626,6 +623,9 @@ We'll start by generating a python dictionary whose keys are the charter numbers
 
 ```python 
 charters = {
+    .
+    .
+    .
     300: {
             'chid': "our charter ID",
             'chno': 300,
@@ -711,8 +711,8 @@ for line in GScriba:
         else:
             # any line not otherwise accounted for, add to our temporary container
             templist.append(line)
-        # add that temporary container to the dictionary after using
-        # a list comprehension to strip out empty lines.
+        # add the temporary container to the dictionary after using
+        # a list comprehension to strip out any empty lines.
         d['text'] = [x for x in templist if not x == '\n'] # strip empty lines
         
 ```
