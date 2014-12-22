@@ -80,11 +80,12 @@ Learn how to present historical materials online.
 
 
 
-Topic Modeling
---------------
+Distant Reading
+---------------
 
-A topic modeling tool takes a single text (or corpus)  and looks for patterns in the use of words; it is an attempt to inject semantic meaning into vocabulary. It can help you to very quickly find ‘topics’ in a large corpus of texts.
+Computational tools allow you to make sense of a lot of documents at once. The Naive Bayesian is a machine learner. Given some examples of the kind of thing you are interested in, it can quickly find many more. A topic modeling tool takes a single text (or corpus) and looks for patterns in the use of words; it is an attempt to inject semantic meaning into vocabulary. It can help you to very quickly find ‘topics’ in a large corpus of texts.
 
+-   [Supervised Classification with a Naive Bayesian](../lessons/naive-bayesian) <div class="toc-author"> Vilja Hulden</div>
 -   [Getting Started with Topic Modeling and MALLET](../lessons/topic-modeling-and-mallet) <div class="toc-author"> Shawn Graham, Scott Weingart, & Ian Milligan</div>
 
 
