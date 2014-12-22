@@ -3,7 +3,7 @@ title: |
     Supervised Classification: The Naive Bayesian Returns to the Old Bailey
 authors: 
 - Vilja Hulden
-date: 2014-11-30
+date: 2014-12-17
 published: true
 reviewers:
 - William J. Turkel
