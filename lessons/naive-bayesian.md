@@ -21,8 +21,8 @@ This tutorial is a kind of an update on that blog essay, with roughly the
 same data but a slightly different version of the machine learner.
 
 The idea is to show why machine learning methods are of interest to
-historians, as well as to present a step-by-step implementation a
-supervised machine learners, applied to the [Old Bailey digital
+historians, as well as to present a step-by-step implementation of
+a supervised machine learner. This learner is then applied to the [Old Bailey digital
 archive][], which contains several centuries' worth of transcripts of 
 trials held at the Old Bailey in London. We will be using Python for the 
 implementation.
@@ -37,10 +37,15 @@ of sorts, running to the archive, nosing through documents, and bringing
 us those that it thinks we'll find interesting.
 
 What we will do in this tutorial, then, is to apply a machine learner
-called Naive Bayesian to data from the Old Bailey digital archive to see
-how well it classifies trials into their respective offense categories
-(that is, how well it distinguishes thefts from assaults from forgeries,
-and so on).
+called Naive Bayesian to data from the Old Bailey digital archive. Our
+goals are to learn how a Naive Bayesian works and to evaluate how
+effectively it classifies documents into different categories - in
+this case, trials into offense categories (theft, assault, etc.). This
+will help us determine how useful a machine learner might be to us as
+historians: if it does well at this classification task, it might also
+do well at finding us documents that belong to a "class" we, given our
+particular research interests, want to see.
+
 
 Step by step, we'll do the following:
 
@@ -116,13 +121,13 @@ them out to classify by themselves. The basic training procedure is to
 give the learner labeled data: that is, we give it a stack of things
 (documents, for example) where each of those things is labeled as
 belonging to a group. This is called training data. The learner then
-looks at each item in the training data, looks at its label, and learns
-what distinguishes the groups from each other. To see how well the
-learner learned, we then give data that is similar to the training data
-but that the learner hasn't seen before and that is not labeled. This is
-called (you guessed it!) test data. How well the learner performs on
-classifying this previously-unseen data is a measure of how well it has
-learned.
+looks at each item in the training data, looks at its label, and
+learns what distinguishes the groups from each other. To see how well
+the learner learned, we then test it by giving it data that is similar
+to the training data but that the learner hasn't seen before and that
+is not labeled. This is called (you guessed it!) test data. How well
+the learner performs on classifying this previously-unseen data is a
+measure of how well it has learned.
 
 The classic case of a supervised classifier is a program that separates
 junk email (spam) from regular email (ham). Such a program is "trained"
@@ -190,7 +195,7 @@ more documents in a much shorter time than many other, more complex
 methods. That in itself is useful. For example, it wouldn’t take too
 long retrain a Naive Bayesian learner if we accumulated more data. Or we
 could give it a bigger set of data to begin with; a pile of data that a
-Naive Bayesian could burrow through in a day might take many other
+Naive Bayesian could burrow through in a day might take a more complex
 method weeks or even months to process. Especially when it comes to
 classification, more data is often as significant as a better method —
 as Bob Mercer of IBM famously quipped in 1985, “there is no data like
@@ -209,8 +214,9 @@ document X, given class Y?" However, unless you've done enough math and
 probability to be comfortable with that kind of thinking, it may not
 provide the easiest avenue to grasping how a Naive Bayesian classifier
 works. Instead, let's look at the classifier in a more procedural
-manner. (Meanwhile, here's [an explanation of Bayes' rule and conditional 
-probabilities][] that does a very nice job and is also a good read.)
+manner. (Meanwhile, if you prefer, you can check out [an explanation
+of Bayes' rule and conditional probabilities][] that does a very nice
+job and is also a good read.)
 
 #### Understanding Naive Bayesian classification using a generative story
 
@@ -236,7 +242,7 @@ Historian writes a book, what she does is this:
 -   She goes to the bag that is her store of words.
 -   She puts her hand in and pulls out a piece of paper.
 -   She reads the word on the piece of paper, writes it down in her
-    book, and puts the piece back in the bag.
+    book, and puts the paper back in the bag.
 -   Then she again puts her hand in the bag and pulls out a piece of
     paper.
 -   She writes down that word in the book, and puts the piece of paper
@@ -268,7 +274,7 @@ these are transcripts of unpublished book drafts by three historians:
 Edward Gibbon, Carl Becker, and Mercy Otis Warren.
 
 What a find! But unfortunately, as you begin sorting through the drafts,
-you find that they are not marked with the author's name. What can you
+you realize that they are not marked with the author's name. What can you
 do? How can you classify them correctly?
 
 Well, you do have other writings by these authors. And if historians
@@ -277,7 +283,7 @@ has his or her own bag of words with a particular vocabulary and a
 particular distribution of words — then we can figure out who wrote each
 document by looking at the words it contains and comparing the
 distribution of those words to the distribution of words in documents we
-*know* were written by Gibbon, Becker, and Warren.
+*know* were written by Gibbon, Becker, and Warren, respectively.
 
 So you go to your library stacks and get out all the books by Gibbon,
 Becker, and Warren. Then you start counting. You start with Edward
@@ -413,9 +419,9 @@ slip through. So you set a big prior on the "legitimate" class that
 causes your classifier to only throw out a message as junk when faced
 with some hefty evidence. By the same token, if you're sorting the
 results of a medical test into "positive" and "negative" piles, you may
-want to weight the positive more heavily (you can always do a second
+want to weight the positive more heavily: you can always do a second
 test, but if you send the patient home telling them they're healthy when
-they're not, that might not turn out so well).
+they're not, that might not turn out so well.
 
 So there you have it, step by step. You have applied a Naive Bayesian to
 the unattributed manuscripts, and you now have three neat piles. Of
@@ -591,8 +597,7 @@ http://www.oldbaileyonline.org/obapi/ob?term0=fromdate_18300114&term1=todate_183
 ...
 ```
 
-This file is saved in the *baileyfiles* directory; it is called `wget.txt`
-or something similar (e.g., `wget1830s.txt`).
+This file is saved in the *baileyfiles* directory; it is called `wget1830s.txt`.
 
 To download the trials, create a new directory under *baileyfiles*; 
 call it *trialzips*. Then go into that directory and call *wget* with the 
@@ -689,7 +694,7 @@ The script creates the following directories and files under *baileyfiles*:
 
 -   Directory *1830s-trialtxts*: this will
     contain the text file versions of the trials after they have been
-    stripped not only of all XML but also of punctuation etc. Each file
+    stripped of all XML formatting. Each file
     is named after the trial's ID.
 -   Directory *1830s-trialsbycategory*: this
     will contain the text files that represent all the text in all the
@@ -1414,22 +1419,31 @@ frequently in the document under consideration but rarely in documents
 in general. (You can also check out [a more detailed explanation of
 TF-IDF][], along with some Python code for calculating it.)
 
-For the Naive Bayesian, you might consider having the classifier set a
-higher prior on the target category than on the "other" category, in
-effect requiring less evidence to include a trial in the target
-category. This might boost your recall, though it might also lower your
-precision. (You could do this by editing the `naivebayes.py` script.)
-
 Other options include simply playing with the size of the priors: now,
 the Naive Bayesian has a class prior as well as a feature prior of 0.5,
 meaning that it pretends to have seen all classes and all words at least
 one-half times. Doing test runs with different priors might get you
 different results.
 
-As noted in the section on the meaning of classification
-error above, though, if your goal is to get some interesting
-data to do historical analysis on, some fuzziness may not be such a big
-problem.
+In addition to simply changing the general prior sizes, you might
+consider having the classifier set a higher prior on the target
+category than on the "other" category, in effect requiring less
+evidence to include a trial in the target category. It might be worth
+a try particularly since we noted above when examining the close
+relatives (under Meanings of Misclassification) that many of them were
+in fact members of our target category. Setting a larger prior on the
+target class would probably catch those cases, boosting the recall. At
+the same time, it probably would also lower the precision. (To change
+the priors, you need to edit the `naivebayes.py` script.)
+
+As you can see, there is quite a lot of fuzziness here: how you pick
+the features, how you pick the priors, and how you weight various
+priors all affect the results you get, and how to pick and weight is
+not governed by hard logic but is rather a process of trial and error.
+Still, like we noted noted in the section on the meaning of
+classification error above, if your goal is to get some interesting
+data to do historical analysis on, some fuzziness may not be such a
+big problem.
 
 Happy hunting!
 
