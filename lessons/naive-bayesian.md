@@ -4,7 +4,7 @@ title: |
 authors: 
 - Vilja Hulden
 date: 2014-11-30
-published: false
+published: true
 reviewers:
 - William J. Turkel
 - Adam Crymble
