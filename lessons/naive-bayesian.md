@@ -157,6 +157,8 @@ presence and quality of various symptoms etc.) and the clustering
 algorithm would attempt to create groups that share as many features as
 closely as possible.
 
+A side note: Some of you may have come to think of an objection to this supervised/unsupervised distinction: namely, that the clustering method is not entirely "unsupervised" either. After all, we tell it what features it should look at, whether it is words (rather than sentences, or two-word sequences, or something else) in a document, or a list of numeric values in a patient record. The learner never encounters the data entirely unprepared. Quite true. But no matter - the distinction between unsupervised and supervised is useful nevertheless, in that in one we tell the learner what the right answer is, and in the other it comes to us with some pattern it has figured out without an answer key. Each is useful for different kind of tasks, or sometimes for different approaches to the same task.
+
 In this tutorial, we are dealing with a supervised learner that we train
 to perform document classification. We give our learner a set of
 documents along with their correct classes, and then test it on a set of
