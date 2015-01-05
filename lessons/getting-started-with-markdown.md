@@ -160,6 +160,49 @@ ___
 - - - - - -
 ```
 
-#### Tables?
+#### Tables
 
 The core Markdown spec does not include tables; however, some sites and applications use variants of Markdown that may include tables and other special features. [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/) is one of these variants, and is used to render `.md` files in the browser on the GitHub site. 
+
+To create a table within GitHub, use pipes `|` to separate columns and hyphens `-` between your headings and the rest of the table content. While pipes are only strictly necessary between columns, you may use them on either side of your table for a more polished look. Cells can contain any length of content, and it is not necessary for pipes to be vertically aligned with each other.
+
+Please note that the Markdown Viewer website does not support tables as of the time of writing.
+
+```
+| Heading 1 | Heading 2 | Heading 3 |
+| --------- | --------- | --------- |
+| Row 1, column 1 | Row 1, column 2 | Row 1, column 3|
+| Row 2, column 1 | Row 2, column 2 | Row 2, column 3|
+| Row 3, column 1 | Row 3, column 2 | Row 3, column 3|
+```
+
+Will render as:
+
+| Heading 1 | Heading 2 | Heading 3 |
+| --------- | --------- | --------- |
+| Row 1, column 1 | Row 1, column 2 | Row 1, column 3|
+| Row 2, column 1 | Row 2, column 2 | Row 2, column 3|
+| Row 3, column 1 | Row 3, column 2 | Row 3, column 3|
+
+To specify the alignment of each column, colons `:` can be added to the header row as follows:
+
+```
+| Left-aligned | Centered | Right-aligned |
+| :-------- | :-------: | --------: |
+| Apples | Red | 5000 |
+| Bananas | Yellow | 75 |
+```
+
+| Left-aligned | Centered | Right-aligned |
+| :-------- | :-------: | --------: |
+| Apples | Red | 5000 |
+| Bananas | Yellow | 75 |
+
+### Markdown Limitations
+
+While Markdown is becoming increasingly popular, particularly for styling documents that are viewable on the web, many people and publishers still expect traditional Word documents, PDFs, and other file formats. This can be mitigated somewhat with command line conversion tools such as [Pandoc](http://johnmacfarlane.net/pandoc/); however, certain word processor features like track changes are not supported yet. Please visit the Programming Historian lesson on [Sustainable authorship in plain text using Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) for more information about Pandoc.
+
+
+### Conclusion
+
+Markdown is a useful middle ground between unstyled plain text files and legacy word processor documents. Its simple syntax is quick to learn and legible both by itself and when rendered into HTML. Finally, choosing to write your own documents in Markdown should mean that they will be usable and readable in the long-term.
