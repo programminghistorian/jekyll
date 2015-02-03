@@ -414,12 +414,11 @@ to using the command line, see Zed A. Shaw's excellent *[Command Line
 Crash Course.](http://cli.learncodethehardway.org/book/)*
 
 Once opened, you should see a text window and a prompt that looks
-something like this: `computer-name:~username $`. The tilde indicates
+something like this: `computer-name:~username$`. The tilde indicates
 your "home" directory, and in fact you can type `$ cd ~` at any point to
-return to your home directory. The dollar sign in your terminal window
-is just a prompt for you to type something. The dollar sign in the
-instructions here indicates you must type what follows into the terminal
-prompt (as opposed to typing it into your document); remember to hit
+return to your home directory. Don't type the dollar sign, it just
+symbolizes the command prompt of your terminal, promting you to type something
+into your terminal (as opposed to typing it into your document); remember to hit
 enter after every command.
 
 It is very likely that your "Documents" folder is located here. Type
@@ -459,7 +458,7 @@ Open the file with MS Word to check your results. Alternatively, if you
 use Open or Libre Office you can run:
 
 ```
-pandoc -o project.odt main.md
+$ pandoc -o project.odt main.md
 ```
 
 If you are new to the command line, imagine reading the above command as
@@ -472,7 +471,7 @@ complete list on [Pandoc's
 website](http://johnmacfarlane.net/pandoc/README.html) or by typing
 
 ```
-man pandoc
+$ man pandoc
 ```
 
 in the terminal.
