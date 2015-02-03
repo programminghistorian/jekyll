@@ -683,7 +683,7 @@ collaborative writing and version tracking using Markdown. These
 include: [prose.io](http://prose.io),
 [Authorea](http://www.authorea.com), [Penflip](http://www.penflip.com),
 [Draft](http://www.draftin.com), and
-[Editorially](http://www.editorially.com).
+[StackEdit](https://stackedit.io).
 
 But the ecosystem is not limited to editors. [Gitit](http://gitit.net/)
 and [Ikiwiki](https://github.com/dubiousjim/pandoc-iki) support
