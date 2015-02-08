@@ -1,5 +1,5 @@
 ---
-title: Windows Installation
+title: Setting Up an Integrated Development Environment for Python (Windows)
 authors:
 - William J. Turkel
 - Adam Crymble
