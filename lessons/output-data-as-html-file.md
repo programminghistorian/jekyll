@@ -1,5 +1,5 @@
 ---
-title: Output Data as an HTML File
+title: Output Data as an HTML File with Python
 authors:
 - William J. Turkel
 - Adam Crymble
