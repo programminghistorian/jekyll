@@ -1,5 +1,5 @@
 ---
-title: Code Reuse and Modularity
+title: Code Reuse and Modularity in Python
 authors:
 - William J. Turkel
 - Adam Crymble
