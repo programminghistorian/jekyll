@@ -1,5 +1,5 @@
 ---
-title: Linux Installation
+title: Setting up an Integrated Development Environment for Python (Linux)
 authors:
 - William J. Turkel
 - Adam Crymble
