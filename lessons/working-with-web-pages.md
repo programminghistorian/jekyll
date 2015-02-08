@@ -1,5 +1,5 @@
 ---
-title: Working With Web Pages
+title: Downloading Web Pages with Python
 authors:
 - William J. Turkel
 - Adam Crymble
