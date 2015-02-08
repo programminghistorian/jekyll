@@ -1,5 +1,5 @@
 ---
-title: Working with Text Files
+title: Working with Text Files in Python
 authors:
 - William J. Turkel
 - Adam Crymble
