@@ -1,5 +1,5 @@
 ---
-title: Counting Frequencies
+title: Counting Word Frequencies with Python
 authors:
 - William J. Turkel
 - Adam Crymble
