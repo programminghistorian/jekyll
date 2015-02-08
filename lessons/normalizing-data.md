@@ -1,5 +1,5 @@
 ---
-title: Normalizing Data
+title: Normalizing Textual Data with Python
 authors:
 - William J. Turkel
 - Adam Crymble
