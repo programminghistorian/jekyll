@@ -1,5 +1,5 @@
 ---
-title: Viewing HTML Files
+title: Understanding Web Pages and HTML
 authors:
 - William J. Turkel
 - Adam Crymble
