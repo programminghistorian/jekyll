@@ -1,5 +1,5 @@
 ---
-title: Mac Installation
+title: Setting Up an Integrated Development Environment for Python (Mac)
 authors:
 - William J. Turkel
 - Adam Crymble
