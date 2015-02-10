@@ -86,3 +86,5 @@ wanting to share it.
 If you'd like to be involved as an editor or reviewer, please email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with a bit of information about yourself, namely the specific skills, tools, topics, and technologies that you'd like to be involved with so that we can send you the most appropriate lessons to review.
 
 Thanks for making _Programming Historian_ such a great resource!
+
+ [submissions]: https://github.com/programminghistorian/jekyll/wiki/submissions
