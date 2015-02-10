@@ -41,7 +41,7 @@ Another reason to get involved is that participation brings distinct
 professionalization benefits. We prominently feature the names of
 authors and reviewers on all of our lesson pages, as well as the
 contributors page, and new lessons tend to be frequently tweeted and
-retweeted. Because we average more than 60,000 unique visitors per year,
+retweeted. Because we average more than 100,000 unique visitors per year,
 *The Programming Historian* remains a vibrant and visible site for
 community collaboration and education.
 
