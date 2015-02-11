@@ -36,12 +36,12 @@ We attract over 100,000 users per year, from around the world. And we’re proud
 
 ##Editorial Team:
 
-* Fred Gibbs, University of New Mexico
-* Adam Crymble, University of Hertfordshire
-* Caleb McDaniel, Rice University
-* Allison Hegel, UCLA
-* Miriam Posner, UCLA
-* Jeremy Boggs, University of Virginia
+* Fred Gibbs, University of New Mexico; 
+* Adam Crymble, University of Hertfordshire; 
+* Caleb McDaniel, Rice University; 
+* Allison Hegel, UCLA; 
+* Miriam Posner, UCLA; 
+* Jeremy Boggs, University of Virginia; 
 * William J. Turkel, Western University
 
 
