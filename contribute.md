@@ -8,7 +8,7 @@ layout: blank
 
 # Programming Historian Summer Fellowship Application Open
 
-{% include figure.html src="../images/summerfellows.png" caption="Summer Solstice, by Caroline." %}
+<img src="http://lh5.ggpht.com/-ktYj62pxbl0/U5NrANYt3AI/AAAAAAAAEzI/KaZ9zSoS0DY/Flickr-5855095781.jpg"/>
 
 The Programming Historian seeks applications to its Summer Fellowship program. This is a volunteer position. The purpose of the Summer Fellowship is to welcome a scholar interested in digital history or digital humanities to the editorial team of the Programming Historian and to foster their interests and skills in the field through mentorship and practical skills development during the summer of 2015.
 
