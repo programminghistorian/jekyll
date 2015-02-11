@@ -16,7 +16,7 @@ Fellows will have the opportunity to develop an idea of their choosing (ideas su
 
 The successful applicant will join in our monthly Skype editorial meetings, and will work closely with a mentoring editor. Applicants need not have experience in technical writing, with digital techniques, or with online collaboration - but should be willing to learn about all three. 
 
-Some reasons to consider applying:
+##Some reasons to consider applying:
 
 * Hands-on assistance from our editors to develop your ideas into a viable lesson
 * Opportunity to become a full team member of our project
@@ -34,15 +34,15 @@ The Programming Historian is a peer-reviewed suite of about 30 open access, open
 We attract over 100,000 users per year, from around the world. And we’re proud of our commitment to open access. We are all volunteers, and we look forward to hearing from you.
 
 
-Editorial Team:
+##Editorial Team:
 
-Fred Gibbs, University of New Mexico
-Adam Crymble, University of Hertfordshire
-Caleb McDaniel, Rice University
-Allison Hegel, UCLA
-Miriam Posner, UCLA
-Jeremy Boggs, University of Virginia
-William J. Turkel, Western University
+* Fred Gibbs, University of New Mexico
+* Adam Crymble, University of Hertfordshire
+* Caleb McDaniel, Rice University
+* Allison Hegel, UCLA
+* Miriam Posner, UCLA
+* Jeremy Boggs, University of Virginia
+* William J. Turkel, Western University
 
 
 ---
