@@ -6,7 +6,7 @@ reviewers:
 layout: blank
 ---
 
-# Programming Historian Summer Fellowship Application Open
+# Programming Historian Summer Fellowship, Applications Open
 
 <img src="http://lh5.ggpht.com/-ktYj62pxbl0/U5NrANYt3AI/AAAAAAAAEzI/KaZ9zSoS0DY/Flickr-5855095781.jpg" style="float: left; width: 325px; margin-right: 15px;"/>
 
