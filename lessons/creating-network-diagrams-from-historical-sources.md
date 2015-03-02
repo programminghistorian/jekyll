@@ -18,9 +18,8 @@ Table of contents:
 - [*About the case study*](#about-the-case-study)
 - [*Developing a coding scheme*](#developing-a-coding-scheme)
 - [*Visualize network data in Palladio*](#visualize-network-data-in-palladio)
-- [*The added value of this kind of network visualizations*](#the-added-value-of-this-kind-of-network-visualizations)
+- [*The added value of network visualizations*](#the-added-value-of-this-kind-of-network-visualizations)
 - [*Other network visualization tools to consider*](#other-network-visualization-tools-to-consider)
-- [*A few final points*](#a-few-final-points)
 
 
 Introduction
@@ -40,17 +39,10 @@ This tutorial can not replace any of the many existing generic network analysis 
  
 This tutorial will focus on data extraction from unstructured text and shows one way to visualize it using Palladio. It is purposefully designed to be as simple and robust as possible. For the limited scope of this tutorial it will suffice to say that an actor refers to the persons, institutions, etc. which are the object of study and which are connected by relations. Within the context of a network visualization or computation (also called graph), we call them nodes and we call the connections ties). In all cases it is important to remember that nodes and ties are drastically simplified models used to represent the complexities of past events, and in themselves do not always sufficient to generate insight. But it is likely that the graph will highlight interesting aspects, challenge your hypothesis and/or lead you to generate new ones. *Network diagrams become meaningful when they are part of a dialogue with data and other sources of information.*
 
-Many network analysis projects in the social sciences rely on pre-existing data sources or data that was created for the purpose of network analysis. Examples are email logs, questionnaires or trade relations which make it relatively easy to identify who is connected to whom and how. It is considerably more difficult to extract network data from unstructured text. This forces us to somehow marry the complexities of hermeneutics with the rigor of formal data analysis. The term “friend” might serve as an example: Depending on the context it can signify anything from an insult to an expression of love. Context knowledge and analysis of the text will help you identify what it stands for in any given case. A formal category system should represent the different meanings inasmuch detail as necessary for your purposes.
+Many network analysis projects in the social sciences rely on pre-existing data sources or data that was created for the purpose of network analysis. Examples include email logs, questionnaires or trade relations which make it relatively easy to identify who is connected to whom and how. It is considerably more difficult to extract network data from unstructured text. This forces us to somehow marry the complexities of hermeneutics with the rigor of formal data analysis. The term “friend” might serve as an example: Depending on the context it can signify anything from an insult to an expression of love. Context knowledge and analysis of the text will help you identify what it stands for in any given case. A formal category system should represent the different meanings inasmuch detail as necessary for your purposes.
 
-In other words: The challenge is to systematize text interpretation. Networks created from pre-existing data sets need to be considered within the context in which they were created (e.g. wording of questions in a questionnaire and selected target groups). Networks created from unstructured text pose challenges on top of this: interpretations are highly individual and depend on viewpoints and context knowledge.
+In other words, the challenge is to systematize text interpretation. Networks created from pre-existing data sets need to be considered within the context in which they were created (e.g. wording of questions in a questionnaire and selected target groups). Networks created from unstructured text pose challenges on top of this: interpretations are highly individual and depend on viewpoints and context knowledge.
 
-
-Roots in Qualitative Data Analysis
-----------------------------------
-
-In sociology, the field of Qualitative Data Analysis has developed techniques for this process. There are lots of great resources out there, such as [Johnny Saldana, *The Coding Manual for Qualitative Researchers*](http://www.sagepub.com/booksProdDesc.nav?prodId=Book237888). There were always major discrepancies in studies which investigated the overlap between people annotating unstructured texts (all of which have received the same training). Many agree that [*an overlap of 80% is a very good result*](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1955280/) already. This also means that any network data which is collected using these methods will remain somewhat biased by personal interpretations. This translation of text interpretation into data collection has its roots in sociological QDA. It is important that you and others can retrace your steps and understand how you define your relations. It is very helpful to define them abstractly and to provide examples from your sources to further illustrate your choices in a codebook. In his [*text book (p.1)*](http://www.sagepub.com/upm-data/24614_01_Saldana_Ch_01.pdf) Johnny Saldana quotes Anselm L. Strauss, one of the founders of the iterative category-building method known as “Grounded Theory”, saying *“Any researcher who wishes to become proficient at doing qualitative analysis must learn to code well and easily. The excellence of the research rests in large part on the excellence of the coding.”*
-
-Saldana then goes on to assert that “[c]oding is not a precise science; it’s primarily an interpretive act” (p. 4). This means that the freedom to code text according to personal interest comes with the obligation to do so in a highly reflective and consequent manner. Any data you produce can only be as clear and coherent as your coding practices. Clarity and coherence increase during the iterative process of creating coding schemes and by testing it on a variety of different sources until it fits.
 
 About the case study
 --------------------
@@ -58,6 +50,7 @@ About the case study
 The case study I use for this tutorial is a first-person narrative of Ralph Neumann, a Jewish survivor of the Holocaust. You can find the text [*online*](http://www.gdw-berlin.de/fileadmin/bilder/publ/publikationen_in_englischer_sprache/2006_Neuman_eng.pdf). The coding scheme which I will introduce below is a simplified version of the one I developed during [*my PhD project on covert support networks during the Second World War*](http://martenduering.com/index.php/covert-support-networks-phd%20). My research was driven by a few questions: To what extent can social relationships can help explain why ordinary people took the risks associated with helping? How did such relationships enable people to provide these acts of help given that only very limited resources were available to them? How did social relationships help Jewish refugees to survive in the underground? 
 
 In this project network visualisations helped me to discover hitherto forgotten yet highly important contact brokers, highlight the overall significance of Jewish refugees as contact brokers and generally to navigate through a total of 5,000 acts of help which connected some 1,500 people between 1942 and 1945.
+
 
 Developing a coding scheme
 --------------------------
@@ -86,9 +79,11 @@ Mainly racial status according to National Socialist legislation.
 
 *What do you aim to find?*
 
-A deeper understanding of who helps whom how, and discovery of patterns in the data that correspond to network theory (I did not find this, it turns out). A highly productive interaction between my sources and the visualized data made me stick with this.
+A deeper understanding of who helps whom how, and discovery of patterns in the data that correspond to network theory. A highly productive interaction between my sources and the visualized data made me stick with this.
 
 Note that coding schemes in general are not able to represent the full complexity of sources in all their subtleties and ambivalence. The purpose of the coding scheme is to develop a model of the relationships you are interested in. As such, the types of relations and the attributes are abstracted and categorized renditions of the complexities conveyed in the text(s). This also means that in many cases network data and visualizations will only make sense once reunited with their original context, in my case the primary sources from which I extracted it.
+
+The translation of text interpretation into data collection has its roots in sociological Qualitative Data Analysis. It is important that you and others can retrace your steps and understand how you define your relations. It is very helpful to define them abstractly and to provide examples from your sources to further illustrate your choices. Any data you produce can only be as clear and coherent as your coding practices. Clarity and coherence increase during the iterative process of creating coding schemes and by testing it on a variety of different sources until it fits.
 
 {% include figure.html caption="Figure 2: A first stab at the coding scheme" src="../images/during/image03.png" %}
 
@@ -97,7 +92,7 @@ Figure 2 shows a snapshot with sample data of the coding scheme I used during my
 
 All major network visualization tools let you specify whether a network is directed like this one or undirected. In directed networks, relations describe an exchange from one actor to another, in our case this is “help”. By convention, the active nodes are mentioned first (in this case Alice) in the dataset. In a visualization of a directed network, you will see arrows going from one actor to another. Relations can also be reciprocal, for example when Alice helps Bob and Bob helps Alice.
 
-Quite often however it doesn’t make sense to work with directionality, for example when two actors are simply part of the same organization. In this case the network should be undirected and would be represented by a simple line between the two actors. Many of the [*common centrality algorithms*](http://en.wikipedia.org/wiki/Centrality) ([*intro on Youtube*](https://www.youtube.com/watch?v=89mxOdwPfxA)) distinguish between undirected and directed network data.
+Quite often, however, it doesn’t make sense to work with directionality, for example when two actors are simply part of the same organization. In this case the network should be undirected and would be represented by a simple line between the two actors.
 
 I wanted to know how often actors gave help and how often they received it. I was particularly interested in the degree of Jewish self-help, which is why a directed network approach and the role of “Giver” and “Recipient” make sense. The third column in the coding scheme is optional and further describes the kind of relationship between Alice and Paul. As a category I chose “Form of Help” which reflects the most common ways in which support was given.
 
@@ -205,14 +200,14 @@ Note that if you wanted to see "Giver" and "Recipients" as one node type and "Da
 {% include figure.html caption="Figure 17: Timeline. isualization of Time Steps." src="../images/during/image12.png" %}
 
 
-**15. Node size.** Palladio lets you size your nodes based on actor attributes. Note that this does not make sense for the sample data given that numerical values represent categories. Node sizes can however be useful if you were to represent the sum of a person’s acts of help, which in this case would correspond to his or her [*Out-Degree*](http://en.wikipedia.org/wiki/Directed_graph#Indegree_and_outdegree).
+**15. Node size.** Palladio lets you size your nodes based on actor attributes. Note that this does not make sense for the sample data given that numerical values represent categories. Node sizes can however be useful if you were to represent the sum of a person’s acts of help, which in this case would correspond to his or her [*Out-Degree*](http://en.wikipedia.org/wiki/Directed_graph#Indegree_and_outdegree), the number of outgoing relations for a node.
 
 **16. Export your visualizations.** Palladio lets you export your network as .svg files, a vector-based image format. Use your browser of choice to open them.
 
 **17. Lists, Maps and Galleries.** You will have noticed that Palladio has a variety of additional visualization formats: Lists, Maps, and Galleries. All of which are as intuitive and well-designed as the Graph section. Galleries let you specify certain attributes of your actors and present them in a card-view. By adding latitude/longitude values to your actor attributes you will get an instant sense of where your network happens. Take a look at their own sample files to explore this.
 
 
-The added value of this kind of network visualizations
+The added value of network visualizations
 ------------------------------------------------------
 
 Careful extraction of network data from text is time consuming and exhausting since it requires full concentration at every step along the way. I regularly asked myself whether it was worth it--and in the end whether or not I could have made the same observations without the support of network visualizations. The answer is yes, I might have come to the same main conclusions without coding all this data and yes, it was worth it. Entering the relational data soon becomes fast and painless in the process of close reading.
@@ -228,6 +223,12 @@ Each tie I coded represents a story of how somebody helped somebody else. Networ
 On other occasions, visualizations revealed the existence of long reaching contact chains across different social classes which helped refugees create trusted ties with strangers, they also showed unexpected gaps between actors I expected to be connected, led me to identify clusters in overlapping lists of names, observe phases of activity and inactivity, helped me spot people who bridged different groups and overall led me to emphasize the contact brokerage of Jewish victims of persecution as a major, hitherto overlooked factor in the emergence of covert networks.
 
 Visualisations are of course not “proof” of anything but tools to help understand complex relations; their interpretation is based on a good understanding of the underlying data and how it was visualized. Selected network visualizations can also accompany text and help your readers better understand the complex relationships you discuss, much like the maps you sometimes find on the inside covers of old books.
+
+A few practical points:
+
+- Collect and store data in one spreadsheet and use a copy for visualizations
+- Make sure you understand the basic rationale behind any centrality and layout algorithms you choose as they will affect your view on your data. Wikipedia is usually a good source for comprehensive information on them.
+- Don't hesitate to revise and start over if you sense that your coding scheme does not work out as expected. It will definitely be worth it.
 
 Finally, any of the visualizations you can create with the small sample dataset I provide for this tutorial requires context knowledge to be really meaningful. The only way for to find out whether this method makes sense for your research is to start coding your own data and to use your own context knowledge to make sense of your visualizations.
 
@@ -247,13 +248,3 @@ Other network visualization tools to consider
 The most commonly used tools for more mathematical analyses are [*UCINET*](https://sites.google.com/site/ucinetsoftware/home) (licensed, tutorials available on their website) and [*Pajek*](http://pajek.imfm.si/doku.php) (free) for which a great [*handbook*](http://www.cambridge.org/us/academic/subjects/sociology/research-methods-sociology-and-criminology/exploratory-social-network-analysis-pajek-2nd-edition) exists. Both were developed for Windows but run well elsewhere using Wine.
 
 For Python users the very well documented package[ ](https://networkx.github.io/)[*Networkx*](https://networkx.github.io/) is a great starting point; other packages exist for other programming languages.
-
-
-A few final points
-------------------
-
-- Collect and store data in one spreadsheet and use a copy for visualizations
-
-- Make sure you understand the basic rationale behind any centrality and layout algorithms you choose as they will affect your view on your data. Wikipedia is usually a good source for comprehensive information on them.
-
-- Don't hesitate to revise and start over if you sense that your coding scheme does not work out as expected. It will definitely be worth it.
