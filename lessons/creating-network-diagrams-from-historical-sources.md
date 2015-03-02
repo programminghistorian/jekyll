@@ -62,7 +62,7 @@ In this project network visualisations helped me to discover hitherto forgotten 
 Developing a coding scheme
 --------------------------
 
-The hardest part is to decide who should be part of the network and which relations between the selected actors are to be coded. It will probably take some time to figure this out and will likely be an iterative process since you will need to balance your research interests and hypotheses with the availability of information in your texts and represent both in a rigid and necessarily simplifying coding scheme.
+In visualizing network relationships, one of the first and most difficult challenges is to decide who should be part of the network and which relations between the selected actors are to be coded. It will probably take some time to figure this out and will likely be an iterative process since you will need to balance your research interests and hypotheses with the availability of information in your texts and represent both in a rigid and necessarily simplifying coding scheme.
 
 The main questions during this process are: Which aspects of relationships between two actors are relevant? Who is part of the network? Who is not? Which attributes matter? What do you aim to find?
 
@@ -78,7 +78,7 @@ Anyone who is mentioned as a helper, involved in helping activities, involved in
 
 *Which types of relationships do you observe?*
 
-Rough categorizations of: Form of help, intensity of relationships, duration of help, time of help, time of first meeting (both coded in 6-months steps)
+Rough categorizations of: Form of help, intensity of relationships, duration of help, time of help, time of first meeting (both coded in 6-months steps).
 
 *Which attributes are relevant?*
 
@@ -86,20 +86,20 @@ Mainly racial status according to National Socialist legislation.
 
 *What do you aim to find?*
 
-A deeper understanding of who helps whom how, discovery of patterns in the data which correspond to network theory (that didn’t happen actually) and a highly productive interaction between my sources and the visualized data made me stick with this.
+A deeper understanding of who helps whom how, and discovery of patterns in the data that correspond to network theory (I did not find this, it turns out). A highly productive interaction between my sources and the visualized data made me stick with this.
 
-Note that coding schemes like this are not able to represent the full complexity of text in all its subtleties and ambivalence. The purpose of the coding scheme is to develop a model of the relationships you are interested in. As such, the types of relations and the attributes are abstracted and categorized renditions of the complexities conveyed in the text(s). This also means that in many cases network data and visualizations will only make sense once reunited with their original context, in my case the primary sources from which I extracted it.
+Note that coding schemes in general are not able to represent the full complexity of sources in all their subtleties and ambivalence. The purpose of the coding scheme is to develop a model of the relationships you are interested in. As such, the types of relations and the attributes are abstracted and categorized renditions of the complexities conveyed in the text(s). This also means that in many cases network data and visualizations will only make sense once reunited with their original context, in my case the primary sources from which I extracted it.
 
 {% include figure.html caption="Figure 2: A first stab at the coding scheme" src="../images/during/image03.png" %}
 
 
-Figure 2 shows a snapshot with sample data of the coding scheme I used during my project. In this case Alice helps Paul. We can express this as a relation between the actors “Alice” and “Paul” which share a relation of the category “Form of Help”. Within this category we find the subcategory “4. Food , Commodities” which we use to further describe their relation.
+Figure 2 shows a snapshot with sample data of the coding scheme I used during my project. In this case Alice helps Paul. We can express this as a relation between the actors “Alice” and “Paul” which share a relation of the category “Form of Help”. Within this category we find the subcategory “4. Food, Commodities” which further describes their relation.
 
 All major network visualization tools let you specify whether a network is directed like this one or undirected. In directed networks, relations describe an exchange from one actor to another, in our case this is “help”. By convention, the active nodes are mentioned first (in this case Alice) in the dataset. In a visualization of a directed network, you will see arrows going from one actor to another. Relations can also be reciprocal, for example when Alice helps Bob and Bob helps Alice.
 
 Quite often however it doesn’t make sense to work with directionality, for example when two actors are simply part of the same organization. In this case the network should be undirected and would be represented by a simple line between the two actors. Many of the [*common centrality algorithms*](http://en.wikipedia.org/wiki/Centrality) ([*intro on Youtube*](https://www.youtube.com/watch?v=89mxOdwPfxA)) distinguish between undirected and directed network data.
 
-I wanted to know, how often actors gave help and how often they received it. I was particularly interested in the degree of Jewish self-help which is why a directed network approach and the role of “Giver” and “Recipient” make sense. The third column in the coding scheme is optional and further describes the kind of relationship between Alice and Paul. As a category I chose “Form of Help” which reflects the most common ways in which support was given.
+I wanted to know how often actors gave help and how often they received it. I was particularly interested in the degree of Jewish self-help, which is why a directed network approach and the role of “Giver” and “Recipient” make sense. The third column in the coding scheme is optional and further describes the kind of relationship between Alice and Paul. As a category I chose “Form of Help” which reflects the most common ways in which support was given.
 
 The categories and subcategories emerged during a long process of coding different types of texts and different types of support networks. During this process I learned, for example, which relevant forms of help are rarely described and therefore not traceable, such as the provision of support-related information. Expect having to adapt your coding scheme frequently in the beginning and brace yourself for re-coding your data a few times until it consistenly corresponds with your sources and interests.
 
@@ -125,12 +125,12 @@ The process of designing such a coding scheme forces you to become explicit abou
 Visualize network data in Palladio
 ----------------------------------
 
-Once you have come up with a coding scheme and have collected some data you are ready to visualize it. First make sure that all empty cells are filled with either a number representing a type of tie or with „99“ for “unknown”. Create a new copy of your file (Save as..) and delete the codes for the different categories so that your sheet looks something like Figure 5.
+Once you have come up with a coding scheme and encoded your sources you are ready to visualize the network relationships. First make sure that all empty cells are filled with either a number representing a type of tie or with "99" for “unknown”. Create a new copy of your file (Save as..) and delete the codes for the different categories so that your sheet looks something like Figure 5.
 
 {% include figure.html caption="Figure 5: Sample attribute data ready to be exported for visualization or computation." src="../images/during/image00.png" %}
 
 
-All spreadsheet editors let you export tables as either .csv (comma-separated values) or as .txt files. These files can be imported into all of the commonly used SNA tools. As mentioned before, there are lots of good ones out there and I have added a list with the most commonly used ones at the end of this tutorial. For your first steps however I suggest that you try out Palladio, a very easy-to-use data visualization tool in active development by Stanford University. It runs in browsers and is therefore platform-independent. Please note that it is designed for basic visualizations only and not a network analysis tool per se.
+All spreadsheet editors let you export tables as either .csv (comma-separated values) or as .txt files. These files can be imported into all of the commonly used network visualization tools (see the list at the end of the tutorial). For your first steps however I suggest that you try out Palladio, a very easy-to-use data visualization tool in active development by Stanford University. It runs in browsers and is therefore platform-independent. Please note that Palladio, although quite versatile, is designed more for quick visualizations than sophisticated network analysis.
 
 The following steps will explain how to visualize network data in Palladio but I also recommend that you take a look at their own training materials and explore their sample data. Here however I use a [*sample dataset based on the coding scheme*](https://docs.google.com/spreadsheets/d/1LzbWsG73m74t3p6xE7lutfVWuOdzOIfN55FbhCCRZvk/edit#gid=0%20) presented earlier (you can also download it and use it to explore other tools).
 
@@ -215,7 +215,7 @@ Note that if you wanted to see "Giver" and "Recipients" as one node type and "Da
 The added value of this kind of network visualizations
 ------------------------------------------------------
 
-Careful extraction of network data from text is time consuming and exhausting since it requires full concentration all along the way. I regularly asked myself whether it was worth it in the end and whether or not I could have made the same observations without the support of network visualizations. The answer is yes, I might have come to the same main conclusions without coding all this data and yes, it was worth it. Entering the relational data soon becomes fast and painless in the process of close reading.
+Careful extraction of network data from text is time consuming and exhausting since it requires full concentration at every step along the way. I regularly asked myself whether it was worth it--and in the end whether or not I could have made the same observations without the support of network visualizations. The answer is yes, I might have come to the same main conclusions without coding all this data and yes, it was worth it. Entering the relational data soon becomes fast and painless in the process of close reading.
 
 In my experience, question-driven close reading and interpretation on one side and data coding and visualization on the other are not at all separate processes but intertwined and they can complement each other very effectively. Play is not generally considered to be something very academic, but especially with this type of data it is a valuable investment of your time: You don’t just play with your data, you rearrange and thereby constantly rethink what you know about your topic and what you *can* know about your topic.
 
@@ -225,7 +225,7 @@ Each tie I coded represents a story of how somebody helped somebody else. Networ
 {% include figure.html caption="Figure 19: Walter Heymann brokered contacts which led to the emergence of two major support networks." src="../images/during/image10.png" %}
 
 
-On other occasions visualizations revealed the existence of long reaching contact chains across different social classes which helped refugees create trusted ties with strangers, they also showed unexpected gaps between actors I expected to be connected, led me to identify clusters in overlapping lists of names, observe phases of activity and inactivity, helped me spot people who bridged different groups and overall led me to emphasize the contact brokerage of Jewish victims of persecution as a major, hitherto overlooked factor in the emergence of covert networks.
+On other occasions, visualizations revealed the existence of long reaching contact chains across different social classes which helped refugees create trusted ties with strangers, they also showed unexpected gaps between actors I expected to be connected, led me to identify clusters in overlapping lists of names, observe phases of activity and inactivity, helped me spot people who bridged different groups and overall led me to emphasize the contact brokerage of Jewish victims of persecution as a major, hitherto overlooked factor in the emergence of covert networks.
 
 Visualisations are of course not “proof” of anything but tools to help understand complex relations; their interpretation is based on a good understanding of the underlying data and how it was visualized. Selected network visualizations can also accompany text and help your readers better understand the complex relationships you discuss, much like the maps you sometimes find on the inside covers of old books.
 
@@ -257,5 +257,3 @@ A few final points
 - Make sure you understand the basic rationale behind any centrality and layout algorithms you choose as they will affect your view on your data. Wikipedia is usually a good source for comprehensive information on them.
 
 - Don't hesitate to revise and start over if you sense that your coding scheme does not work out as expected. It will definitely be worth it.
-
-
