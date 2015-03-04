@@ -21,9 +21,7 @@ APIs let you programmatically request specific information from a website. Learn
 Data Management
 ---------------
 
-You put a lot of effort into your research. Make sure that effort lasts
-by adopting sustainable strategies to your code, your data, and your
-research processes. A little bit of planning can save you a lot of time.
+You put a lot of effort into your research. Make sure that effort lasts by adopting sustainable strategies to your code, your data, and your research processes. A little bit of planning can save you a lot of time.
 
 -   [Preserving Research Data](../lessons/preserving-your-research-data) <div class="toc-author">James Baker</div>
 -   [Sustainable Authorship in Plain Text using Pandoc and Markdown](../lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) <div class="toc-author">Dennis Tenen and Grant Wythoff</div>
@@ -33,9 +31,7 @@ research processes. A little bit of planning can save you a lot of time.
 Data Manipulation
 -----------------
 
-Just like it sounds, learn how to use programming to change, move,
-clean, or count data. These are essential techniques for preparing data
-to be used in various tools.
+Just like it sounds, learn how to use programming to change, move, clean, or count data. These are essential techniques for preparing data to be used with various tools.
 
 -   [Introduction to the Bash Command Line](../lessons/intro-to-bash) <div class="toc-author">Ian Milligan and James Baker</div>
 -   [Counting and mining research data with Unix](../lessons/research-data-with-unix) <div class="toc-author">James Baker and Ian Milligan</div>
@@ -47,10 +43,18 @@ to be used in various tools.
 
 
 
+Distant Reading
+---------------
+
+Computational tools allow you to make sense of a lot of documents at once. The Naive Bayesian is a machine learner. Given some examples of the kind of thing you are interested in, it can quickly find many more. A topic modeling tool takes a single text (or corpus) and looks for patterns in the use of words; it is an attempt to inject semantic meaning into vocabulary. It can help you to very quickly find ‘topics’ in a large corpus of texts.
+
+-   [Supervised Classification with a Naive Bayesian](../lessons/naive-bayesian) <div class="toc-author"> Vilja Hulden</div>
+-   [Getting Started with Topic Modeling and MALLET](../lessons/topic-modeling-and-mallet) <div class="toc-author"> Shawn Graham, Scott Weingart, & Ian Milligan</div>
+
+
 Getting Ready to Program
 -------------------------
-If you’re new to programming in python, you’ll first need to set up a programming environment. For the most flexibility, we recommend that you follow these instructions on [setting up python on the command
-line](http://cli.learncodethehardway.org/book/ex1.html).
+If you’re new to programming in python, you’ll first need to set up a programming environment. For the most flexibility, we recommend that you follow these instructions on [setting up python on the command line](http://cli.learncodethehardway.org/book/ex1.html).
 
 Many of the tutorials require that you install one or more python modules to save you time coding. If this is a new concept for you, read about how to [Install Python Modules](../lessons/installing-python-modules-pip).
 
@@ -59,14 +63,21 @@ Many of the tutorials require that you install one or more python modules to sav
 Mapping and GIS
 ---------------
 
-Mapping can be an effective way to visualize and interpret historical
-data. These lessons introduce historical geographic information systems
-(GIS) using open source software.
+Mapping can be an effective way to visualize and interpret historical data. These lessons introduce historical geographic information systems (GIS) using open source software.
 
 -   [Intro to Google Maps and Google Earth](../lessons/googlemaps-googleearth) <div class="toc-author"> Jim Clifford, Josh MacFadyen, Daniel Macfarlane</div>
 -   [Installing QGIS 2.0 and Adding Layers](../lessons/qgis-layers) <div class="toc-author"> Jim Clifford, Josh MacFadyen, Daniel Macfarlane</div>
 -   [Creating New Vector Layers in QGIS 2.0](../lessons/vector-layers-qgis) <div class="toc-author"> Jim Clifford, Josh MacFadyen, Daniel Macfarlane</div>
 -   [Georeferencing in QGIS 2.0](../lessons/georeferencing-qgis) <div class="toc-author"> Jim Clifford, Josh MacFadyen, Daniel Macfarlane</div>
+
+
+
+Network Analysis
+---------------
+
+Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources. 
+
+-   [Creating Network Diagrams from Historical Sources](../lessons/creating-network-diagrams-from-historical-sources) <div class="toc-author"> Marten Düring</div>
 
 
 
@@ -80,16 +91,6 @@ Learn how to present historical materials online.
 
 
 
-Distant Reading
----------------
-
-Computational tools allow you to make sense of a lot of documents at once. The Naive Bayesian is a machine learner. Given some examples of the kind of thing you are interested in, it can quickly find many more. A topic modeling tool takes a single text (or corpus) and looks for patterns in the use of words; it is an attempt to inject semantic meaning into vocabulary. It can help you to very quickly find ‘topics’ in a large corpus of texts.
-
--   [Supervised Classification with a Naive Bayesian](../lessons/naive-bayesian) <div class="toc-author"> Vilja Hulden</div>
--   [Getting Started with Topic Modeling and MALLET](../lessons/topic-modeling-and-mallet) <div class="toc-author"> Shawn Graham, Scott Weingart, & Ian Milligan</div>
-
-
-
 Web Scraping
 ------------
 
@@ -100,6 +101,8 @@ Learn how to use programming to download material from the Internet in a control
 -   [Applied Archival Downloading with Wget](../lessons/applied-archival-downloading-with-wget) <div class="toc-author"> Kellen Kurschinski</div>
 -   [Intro to Beautiful Soup](../lessons/intro-to-beautiful-soup) <div class="toc-author"> Jeri Wieringa</div>
 -   [Downloading Multiple Records Using Query Strings](../lessons/downloading-multiple-records-using-query-strings) <div class="toc-author"> Adam Crymble</div>
+
+
 
 Introduction to Python
 ----------------------
