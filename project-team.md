@@ -12,6 +12,8 @@ General Editors
 
 {% include contact-info.html name="Caleb McDaniel" %}
 
+{% include contact-info.html name="Ian Milligan" %}
+
 {% include contact-info.html name="William J. Turkel" %}
 
 Design, Usability, Outreach
@@ -26,7 +28,6 @@ Contributors
 
 {% include contact-info.html name="Alan MacEachern" %}
 
-{% include contact-info.html name="Ian Milligan" %}
 
 Emeritus Team Members
 ---------------------
