@@ -10,8 +10,6 @@ General Editors
 
 {% include contact-info.html name="Fred Gibbs" %}
 
-{% include contact-info.html name="Caleb McDaniel" %}
-
 {% include contact-info.html name="Ian Milligan" %}
 
 {% include contact-info.html name="William J. Turkel" %}
@@ -20,6 +18,8 @@ Design, Usability, Outreach
 ---------------------------
 
 {% include contact-info.html name="Allison Hegel" %}
+
+{% include contact-info.html name="Caleb McDaniel" %}
 
 {% include contact-info.html name="Miriam Posner" %}
 
