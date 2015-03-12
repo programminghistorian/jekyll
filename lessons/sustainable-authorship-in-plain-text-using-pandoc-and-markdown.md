@@ -703,31 +703,31 @@ with academic journal design based on GitHub and
 [readthedocs.org](readthedocs.org) (tools usually used for technical
 documentation).
 
-1.  <a name="fn:1">Don't worry if you don't understand some of of this
+1.  <a name="fn:1"></a>Don't worry if you don't understand some of of this
 	terminology yet! [↩](#fnref:1 "return to article")
-2.  <a name="fn:2">The source files for this document can be [downloaded from
+2.  <a name="fn:2"></a>The source files for this document can be [downloaded from
     GitHub](https://github.com/dhcolumbia/pandoc-workflow). Use the
     "raw" option when viewing in GitHub to see the source Markdown. The
     authors would like to thank Alex Gil and his colleagues from
     Columbia's Digital Humanities Center, and the participants of
     openLab at the Studio in the Butler library for testing the code in
     this tutorial on a variety of platforms.[↩](#fnref:2 "return to article")
-3.  <a name="fn:3">See Charlie Stross's excellent discussion of this topic in
+3.  <a name="fn:3"></a>See Charlie Stross's excellent discussion of this topic in
 	[Why Microsoft Word Must
 	Die](http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html).[↩](#fnref:3
 	"return to article")
-4.  <a name="fn:4">Note that the .bib extension may be "registered" to Zotero
+4.  <a name="fn:4"></a>Note that the .bib extension may be "registered" to Zotero
 	in your operating system. That means when you click on a .bib file it is
 	likely that Zotero will be called to open it, whereas we want to open it
 	within a text editor. Eventually, you may want to associate the .bib
 	extension with your text editor.[↩](#fnref:4 "return to article")
-5.  <a name="fn:5"> There are no good solutions for directly arriving at MS
+5.  <a name="fn:5"></a>There are no good solutions for directly arriving at MS
 	Word from LaTeX.[↩](#fnref:5 "return to article")
-6.  <a name="fn:6">It is a good idea to get into the habit of not using spaces
+6.  <a name="fn:6"></a>It is a good idea to get into the habit of not using spaces
 	in folder or file names. Dashes-or\_underscores instead of spaces in your
 	filenames ensure lasting cross-platform compatibility.[↩](#fnref:6
 	"return to article")
-7.  <a name="fn:7">Thanks to [@nickbart80](https://github.com/nickbart1980) for
+7.  <a name="fn:7"></a>Thanks to [@nickbart80](https://github.com/nickbart1980) for
 	the correction. In response to our original suggestion,
 	`Some sentence that needs citation.^[@fyfe_digital_2011 argues that too.]`
 	[he writes](https://github.com/programminghistorian/jekyll/issues/46#issuecomment-59219906):
