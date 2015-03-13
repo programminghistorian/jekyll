@@ -257,7 +257,7 @@ installed it correctly!
 Typing in MALLET Commands
 -------------------------
 
-Now that you ahve MALLET installed, it is time to learn what commands
+Now that you have MALLET installed, it is time to learn what commands
 are available to use with the program. There are nine MALLET commands
 you can use (see Figure 6 above). Sometimes you can combine multiple
 instructions. At the Command Prompt or Terminal (depending on your
