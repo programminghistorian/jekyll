@@ -1,3 +1,9 @@
+---
+title: Reviewer Guidelines
+date: 03-14-2015
+layout: default
+---
+
 # Our Review Philosophy
 Reviewing for the _Programming Historian_ is a great way to learn new skills and contribute to the Digital Humanities community at the same time. We go out of our way to make sure our reviewers get ample credit for their work.
 
