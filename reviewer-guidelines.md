@@ -1,7 +1,7 @@
 ---
 title: Reviewer Guidelines
 date: 03-14-2015
-layout: default
+layout: blank
 ---
 
 # Our Review Philosophy
