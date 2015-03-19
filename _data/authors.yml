@@ -39,6 +39,45 @@
   bio: |
        Fred Gibbs is an assistant professor of history at the University of
        New Mexico.
+       
+- name: Stephen Margheim
+  bio: |
+       Stephen Margheim is a classicist turned digital humanist hunkered down in Philadelphia, looking for his next step.
+       
+  - name: Evan Taparata
+  bio: |
+       Evan Taparata is a PhD candidate in history at the University of Minnesota.
+       
+  - name: Taryn Dewar
+  twitter: dtdewar
+  bio: |
+       Taryn Dewar is a Master's candidate in Public History at the University of Western Ontario.
+       
+  - name: Maria Velez-Serna
+  url: "http://earlycinema.gla.ac.uk"
+  twitter: jeely_jar
+  bio: |
+       Maria Velez-Serna is a research assistant in the Early Cinema of Scotland project, University of Glasgow.
+       
+  - name: Andrew Hnatow
+  url: "http://digitizedhistory.wordpress.com"
+  github: ahnatow
+  twitter: andrew_hnatow
+  bio: |
+       Andrew Hnatow is a PhD candidate at Wayne State University.
+       
+  - name: Daniel van Strien
+  url: "http://davanstrien.github.io/"
+  bio: |
+       Daniel van Strien is a Library Science student at City University, London.
+       
+  - name: Kim Pham
+  bio: |
+       Kim Pham is a librarian in the Digital Scholarship Unit at the University of Toronto (Scarborough).
+       
+  - name: Douglas Duhaime
+  bio: |
+       Douglas Duhaime is the Text and Data Mining project manager at ProQuest and a doctoral student at the University of Notre Dame.
 
 - name: Kellen Kurschinski
   twitter: Kellen2K
