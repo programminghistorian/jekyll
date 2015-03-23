@@ -23,6 +23,25 @@ Design, Usability, Outreach
 
 {% include contact-info.html name="Miriam Posner" %}
 
+Summer Fellows 2015
+-------------------
+
+{% include contact-info.html name="Douglas Duhaime" %}
+
+{% include contact-info.html name="Taryn Dewar" %}
+
+{% include contact-info.html name="Andrew Hnatow" %}
+
+{% include contact-info.html name="Stephen Margheim" %}
+
+{% include contact-info.html name="Kim Pham" %}
+
+{% include contact-info.html name="Evan Taparata" %}
+
+{% include contact-info.html name="Daniel van Strien" %}
+
+{% include contact-info.html name="Maria Velez-Serna" %}
+
 Contributors
 ------------
 
