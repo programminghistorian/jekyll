@@ -2,7 +2,7 @@
 title: Using httr to Extract Metadata from the DPLA's API
 authors: 
 - Peter Jones
-date: 2015-04-01
+date: 2015-04-02
 layout: default
 published: false
 ---
@@ -10,7 +10,7 @@ published: false
 Lesson Goals
 ------------
 
-In this lesson, we will use R-Studio and specially created packages to acquire metadata from Digital Public Library of America's partner collections. The metadata can be analyzed or visualized to explore a variety of questions that historians are interest in answering. As digital historians, one of our major hurdles is acquiring machine-readable data. For many, the process involves OCR, data entry, or downloading csv tables and munging them for your needs. But there is a another way to access data: the API
+In this lesson, we will use R-Studio and specially created packages to acquire metadata from the Digital Public Library of America's partner collections. The metadata can be analyzed or visualized to explore a variety of questions that historians are interested in answering. As digital historians, one of our major hurdles is acquiring machine-readable data. The process may involve OCR, data entry, or downloading csv tables and munging them for your needs. But there is a another way to access data: the API
 
 Historians don't have as many "Big data" sets as other disciplines, but what we do have is [published works metadata](http://thomaspadilla.org/papers/padillahiggins_humdata_postprint.pdf). The Library of Congress holds 158 million items with their associated metadata. The Digital Public Library of America ([DPLA](http://dp.la/)) holds metadata for a more modest 8.5 million items (and growing). But unlike the Library of Congress, the DPLA allows users to access their entire collection via [API](http://dp.la/info/developers/codex/) (though check out LC's Chronicling America [API](http://chroniclingamerica.loc.gov/about/api/#search) for historic newspapers). 
 
@@ -131,7 +131,7 @@ dpla_plot(input=out, plottype = "subjectsbydate")
 
 Note the spike around the Russian Revolution and cold war, but also notice the "Marx Brothers" figured their way into the search. 
 
-The DPLA also has a temporal and spatial data fields. This doesn't describe what state or era in which an object was created. Rather, these refer to what the object- Gone with the Wind is set in Georgia during the 1860s. Your only limit is your imagination.
+The DPLA also has a temporal and spatial data fields. This doesn't describe what state or era in which an object was created. Rather, these refer to what the object is about- Gone with the Wind is set in Georgia during the 1860s. Your only limit is your imagination.
 
 ```{r}
 scarlet <- dpla_by_fields(queries=c("1870,date.before","atlanta,spatial"))
