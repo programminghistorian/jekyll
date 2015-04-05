@@ -9,6 +9,8 @@ reviewers:
 - Jim Clifford
 - Amanda Morton
 layout: default
+next: working-with-text-files
+previous: introduction-and-installation
 ---
 
 "Hello World" in HTML
