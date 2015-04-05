@@ -7,6 +7,7 @@ reviewers:
 - Aurélien Berra
 - Adam Crymble
 layout: default
+next: applied-archival-downloading-with-wget
 ---
 
 Editor's Note
