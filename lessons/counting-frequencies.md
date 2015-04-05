@@ -8,6 +8,8 @@ reviewers:
 - Miriam Posner
 - Jim Clifford
 layout: default
+next: creating-and-viewing-html-files-with-python
+previous: normalizing-data
 ---
 
 Lesson Goals
