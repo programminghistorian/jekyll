@@ -7,6 +7,8 @@ reviewers:
 - Fred Gibbs
 layout: default
 categories: [zotero, api]
+next: counting-frequencies-from-zotero-items
+prev: intro-to-the-zotero-api
 ---
 
 Using Python to Create an New Zotero Item
