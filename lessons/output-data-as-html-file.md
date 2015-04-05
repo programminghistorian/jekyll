@@ -8,6 +8,8 @@ reviewers:
 - Miriam Posner
 - Jim Clifford
 layout: default
+next: keywords-in-context-using-n-grams
+previous: creating-and-viewing-html-files-with-python
 ---
 
 Lesson Goals
