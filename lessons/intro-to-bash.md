@@ -10,6 +10,7 @@ reviewers:
 - Charlotte Tupman
 - Adam Crymble
 layout: default
+next: research-data-with-unix
 ---
 
 # Introduction to the Bash Command Line
