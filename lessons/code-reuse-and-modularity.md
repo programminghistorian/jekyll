@@ -9,6 +9,8 @@ reviewers:
 - Jim Clifford
 layout: default
 categories: [lessons, original-ph, python]
+next: working-with-web-pages
+previous: working-with-text-files
 ---
 
 Lesson Goals
