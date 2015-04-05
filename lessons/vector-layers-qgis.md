@@ -11,6 +11,8 @@ reviewers:
 - Abby Schreiber
 - Adam Crymble
 layout: default
+next: georeferencing-qgis
+prev: qgis-layers
 ---
 
 Lesson Goals
