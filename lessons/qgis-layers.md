@@ -10,6 +10,8 @@ reviewers:
 - Sarah Simpkin
 - Adam Crymble
 layout: default
+next: vector-layers-qgis
+prev: googlemaps-googleearth
 ---
 
 Lesson Goals
