@@ -7,6 +7,7 @@ reviewers:
 - Fred Gibbs
 layout: default
 categories: [lessons, api]
+next: creating-new-items-in-zotero
 ---
 
 Lesson Goals
