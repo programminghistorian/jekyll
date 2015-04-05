@@ -8,6 +8,8 @@ reviewers:
 - Miriam Posner
 - Jim Clifford
 layout: default
+next: downloading-multiple-records-using-query-strings
+previous: keywords-in-context-using-n-grams
 ---
 
 Lesson Goals
