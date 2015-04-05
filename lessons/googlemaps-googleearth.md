@@ -10,6 +10,7 @@ reviewers:
 - Sarah Simpkin
 - Adam Crymble
 layout: default
+next: qgis-layers
 ---
 
 ## Google Maps
