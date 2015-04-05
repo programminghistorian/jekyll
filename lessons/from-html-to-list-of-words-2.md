@@ -8,6 +8,8 @@ reviewers:
 - Miriam Posner
 - Jim Clifford
 layout: default
+next: normalizing-data
+previous: from-html-to-list-of-words-1
 ---
 
 Lesson Goals
