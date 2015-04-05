@@ -8,6 +8,8 @@ reviewers:
 - Miriam Posner
 - Jim Clifford
 layout: default
+next: from-html-to-list-of-words-1
+previous: working-with-web-pages
 ---
 
 Lesson Goals
