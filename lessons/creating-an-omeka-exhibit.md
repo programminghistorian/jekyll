@@ -7,6 +7,7 @@ reviewers:
 - Adam Crymble
 - Sheila Brennan
 layout: default
+previous: up-and-running-with-omeka
 ---
 
 In the lesson [Up and Running with Omeka.net][], you added items to your
