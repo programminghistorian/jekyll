@@ -8,6 +8,8 @@ reviewers:
 - Miriam Posner
 - Jim Clifford
 layout: default
+next: output-data-as-html-file
+previous: counting-frequencies
 ---
 
 Lesson Goals
