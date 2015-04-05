@@ -11,6 +11,7 @@ reviewers:
 - Abby Schreiber
 - Adam Crymble
 layout: default
+prev: vector-layers-qgis
 ---
 
 Lesson Goals
