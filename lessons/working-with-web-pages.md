@@ -9,6 +9,8 @@ reviewers:
 - Jim Clifford
 layout: default
 categories: [lessons, python, original-ph]
+next: manipulating-strings-in-python
+previous: code-reuse-and-modularity
 ---
 
 Lesson Goals
