@@ -8,6 +8,8 @@ reviewers:
 - Miriam Posner
 - Jim Clifford
 layout: default
+next: code-reuse-and-modularity
+previous: viewing-html-files
 ---
 
 Lesson Goals
