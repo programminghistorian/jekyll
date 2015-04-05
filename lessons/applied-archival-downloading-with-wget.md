@@ -8,6 +8,7 @@ reviewers:
 - Konrad Lawson
 - Ian Milligan
 layout: default
+previous: automated-downloading-with-wget
 ---
 
 Background and Lesson Goals
