@@ -9,6 +9,7 @@ reviewers:
 - Adam Crymble
 date: 2014-09-20
 layout: default
+prev: intro-to-bash
 ---
 
 # Counting and mining research data with Unix
