@@ -9,6 +9,8 @@ reviewers:
 - Jim Clifford
 - Francesca Benatti
 layout: default
+next: counting-frequencies
+previous: from-html-to-list-of-words-2
 ---
 
 Lesson Goals
