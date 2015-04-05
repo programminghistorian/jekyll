@@ -6,6 +6,7 @@ date: 2013-04-01
 reviewers:
 - Fred Gibbs
 layout: default
+prev: creating-new-items-in-zotero
 ---
 
 Lesson Goals
