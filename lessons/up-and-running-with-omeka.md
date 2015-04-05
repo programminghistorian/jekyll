@@ -7,6 +7,7 @@ reviewers:
 - Adam Crymble
 - Sheila Brennan
 layout: default
+next: creating-an-omeka-exhibit
 ---
 
 [Omeka][] is a free [content management system][] that makes it easy to
