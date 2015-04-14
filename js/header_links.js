@@ -7,7 +7,7 @@ $(function() {
     id = $el.attr('id');
     icon = '<i class="fa fa-link" style="font-size: 0.8em"></i>';
     if (id) {
-      return $el.prepend($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
+      return $el.append($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
     }
   });
 });
