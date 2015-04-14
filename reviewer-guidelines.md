@@ -4,11 +4,13 @@ date: 03-14-2015
 layout: blank
 ---
 
-# Our Review Philosophy
-Reviewing for the _Programming Historian_ is a great way to learn new skills and contribute to the Digital Humanities community at the same time. We go out of our way to make sure our reviewers get ample credit for their work.
+# Reviewer Guidelines
+
+## Our Review Philosophy
+Reviewing for the _Programming Historian_ is a great way to learn new technical skills (at any level) and engage with the digital humanities community at the same time. **We go out of our way to make sure our reviewers get ample credit and recognition for their work.** Because reviewers directly contribute to significantly improving lessons, you can take pride in how your work helps our many thousands of users.
 
 ## Collaborative, Not Judgmental
-Our peer review process is a bit different from what might be considered the "traditional" peer review process. We do not solicit reviews to judge whether a tutorial is "good enough" to be published. Rather, we consider our review process an integral component of a collaborative, productive, and sustainable effort for scholars to create useful technical resources for each other. Once a tutorial slips into our editorial workflow, our goal is to do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time. 
+Our peer review process is a bit different from what might be considered the "traditional" peer review process. We do not solicit reviews to judge whether a tutorial is "good enough" to be published. Rather, we consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to create useful technical resources for each other. Once a tutorial slips into our editorial workflow, our goal is to do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time.
 
 ## Constructive Criticism for Colleagues
 To review a tutorial is not simply to assess its merits and flaws (though it is important to do these as well), or judge whether it's appropriate for _Programming Historian_, but to help improve the tutorial as an outside reader. We ask that reviewers comment on tutorials as they would on a paper or similar for a colleague--to provide fair and constructive criticism (and of course praise) that will improve the tutorial for a wide range of readers. We don't send anything out for review that isn't within a reasonable distance of publishable quality. A few extra perspectives and suggestions (beyond those of the editor) greatly improve lessons and make them of great (and unique) value to the community.
