@@ -6,19 +6,6 @@ title: Lesson Directory
 We invite you to browse around. If you can’t find a skill, technology, or
 tool covered here, please let us know!
 
-- [Application Programming Interfaces (APIs)](#apis)
-- [Data Management](#data-management)
-- [Data Manipulation](#data-manipulation)
-- [Distant Reading](#distant-reading)
-- [Getting Ready to Program](#getting-ready-to-program)
-- [Mapping and GIS](#mapping-and-gis)
-- [Network Analysis](#network-analysis)
-- [Omeka Exhibit Building](#omeka-exhibit-building)
-- [Web Scraping](#web-scraping)
-- [Introduction to Python](#introduction-to-python)
-
-
-<a name="apis"></a>
 Application Programming Interfaces (APIs)
 -----------------------------------------
 
@@ -49,7 +36,6 @@ APIs let you programmatically request specific information from a website. Learn
 </ul>
 
 
-<a name="data-management"></a>
 Data Management
 ---------------
 
@@ -73,7 +59,6 @@ You put a lot of effort into your research. Make sure that effort lasts by adopt
 </ul>
 
 
-<a name="data-manipulation"></a>
 Data Manipulation
 -----------------
 
@@ -132,7 +117,6 @@ Just like it sounds, learn how to use programming to change, move, clean, or cou
 </ul>
 
 
-<a name="distant-reading"></a>
 Distant Reading
 ---------------
 
@@ -156,7 +140,6 @@ Computational tools allow you to make sense of a lot of documents at once. The N
 </ul>
 
 
-<a name="getting-ready-to-program"></a>
 Getting Ready to Program
 -------------------------
 If you’re new to programming in python, you’ll first need to set up a programming environment. For the most flexibility, we recommend that you follow these instructions on [setting up python on the command line](http://cli.learncodethehardway.org/book/ex1.html).
@@ -164,7 +147,6 @@ If you’re new to programming in python, you’ll first need to set up a progra
 Many of the tutorials require that you install one or more python modules to save you time coding. If this is a new concept for you, read about how to [Install Python Modules](../lessons/installing-python-modules-pip).
 
 
-<a name="mapping-and-gis"></a>
 Mapping and GIS
 ---------------
 
@@ -202,7 +184,6 @@ Mapping can be an effective way to visualize and interpret historical data. Thes
 </ul>
 
 
-<a name="network-analysis"></a>
 Network Analysis
 ---------------
 
@@ -219,7 +200,6 @@ Network visualizations can help humanities scholars reveal hidden and complex pa
 </ul>
 
 
-<a name="omeka-exhibit-building"></a>
 Omeka Exhibit Building
 ----------------------
 
@@ -243,7 +223,6 @@ Learn how to present historical materials online.
 </ul>
 
 
-<a name="web-scraping"></a>
 Web Scraping
 ------------
 
@@ -288,7 +267,6 @@ Learn how to use programming to download material from the Internet in a control
 </ul>
 
 
-<a name="introduction-to-python"></a>
 Introduction to Python
 ----------------------
 
