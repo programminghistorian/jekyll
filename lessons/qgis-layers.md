@@ -91,8 +91,8 @@ making the downloads quick! Download PEI shapefiles:
 3.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=hydronetwork&file_format=SHP>
 4.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=forest_35&file_format=SHP>
 5.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=nat_parks&file_format=SHP>
-6.  [PEI Highways][] ([alternate Tar file][])
-7.  [PEI Places][] ([alternate Tar file][1])
+6.  [PEI Highways][]
+7.  [PEI Places][] 
 
 -   After downloading all seven files, move them into a folder and unzip
     the zipped files. Take a look at the contents of the folders. You
@@ -449,9 +449,9 @@ save your work!**
 
   [QGIS Download page]: http://hub.qgis.org/projects/quantum-gis/wiki/Download
   [KyngChaos Qgis download page]: http://www.kyngchaos.com/software/qgis
-  [PEI Highways]: https://www.dropbox.com/s/mgrb90vcpggnw8c/PEI_highway.zip
+  [PEI Highways]: ../assets/PEI_highway.zip
   [alternate Tar file]: https://www.dropbox.com/s/8k81jnmhpoi99fv/pei_highway.tar.gz
-  [PEI Places]: https://www.dropbox.com/s/fev9116zfr31ogb/PEI_placenames.zip
+  [PEI Places]: ../PEI_placenames.zip
   [1]: https://www.dropbox.com/s/33g19iqhdnxoayd/pei_placenames.tar.gz
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
   [NRCan's website]: http://www.nrcan.gc.ca/earth-sciences/geography-boundary/mapping/topographic-mapping/10272
