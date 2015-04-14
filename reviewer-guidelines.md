@@ -28,7 +28,7 @@ The informal style of _Programming Historian_ lessons can make the lessons appea
 ### Audience
 If you haven't dabbled much at the _Programming Historian_ already, you'll see that there is no standard audience across all the lessons. Some are for complete beginners, others are for those considerably more comfortable with technical concepts and methods, and yet others are directed toward experienced digital historians looking to solve difficult technical challenges. We welcome such variety!
 
-While we like each of our lessons to take the unique voice of its author, we also want each individual lesson to remain clear and consistent in its tone. More specifically, we want the technical explanations (and difficulty) to remain as constant as possible. As a reviewer, it is quite useful to note any sections of a tutorial directed at more technically advanced users that seem to over-explain relatively simple concepts; the converse is true, too: we want to avoid sections of tutorials aimed at beginners that don't adequately explain fundamental concepts central to the tutorial.
+While we like each of our lessons to take the unique voice of its author, we also want each individual lesson to remain clear and consistent in its tone. More specifically, we want the technical explanations (and difficulty) to remain as constant as possible throughout the lesson. As a reviewer, it is quite useful to note any sections of a tutorial directed at more technically advanced users that seem to over-explain relatively simple concepts; the converse is true, too: we want to avoid sections of tutorials aimed at beginners that don't adequately explain fundamental concepts central to the tutorial. Some questions to keep in mind:
 
 - Does the author address a consistent model reader throughout the lesson? 
 - Are some concepts or steps over-explained while other are under-explained?
@@ -58,3 +58,6 @@ While we like each of our lessons to take the unique voice of its author, we als
 ### Integrating with the _Programming Historian_
 - Does the lesson build upon an existing lesson and explain how? 
 - Does the lesson tie into existing lessons and have appropriate links?
+
+## How to Comment
+We manage all our peer review comments through the commenting feature on Github. In order to do this, you'll need to create an account at Github if you don't already have one. Once you're logged in and viewing the lesson on Github you'll be able to leave your review as a comment. You can leave multiple comments, of course, if you're commenting on different sections of the lessons or whatever. However you decide to partition your review into comments is entirely up to you. 
