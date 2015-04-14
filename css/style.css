@@ -68,7 +68,6 @@
   .github a:active {color: #222;}
 
 .header-link {
-  position: absolute;
   left: -0.6em;
   opacity: 0;
 
