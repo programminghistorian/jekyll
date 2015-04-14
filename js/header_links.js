@@ -5,10 +5,9 @@ $(function() {
     var $el, icon, id;
     $el = $(el);
     id = $el.attr('id');
-    icon = '<i class="fa fa-link"></i>';
-    icon.setAttribute('style', 'float: right; font-size: 0.8em');
+    icon = '<i class="fa fa-link" style="font-size: 0.8em"></i>';
     if (id) {
-      return $el.insertBefore($("<a />").addClass("header-link").attr("href", "#" + id).html(icon), $el.firstChild);
+      return $el.append($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
     }
   });
 });
