@@ -1,6 +1,5 @@
 // http://ben.balter.com/2014/03/13/pages-anchor-links/
 
-<script>
 $(function() {
   return $("h2, h3, h4, h5, h6").each(function(i, el) {
     var $el, icon, id;
@@ -12,4 +11,3 @@ $(function() {
     }
   });
 });
-</script>
