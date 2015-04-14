@@ -68,8 +68,6 @@
   .github a:active {color: #222;}
 
 .header-link {
-  position: absolute;
-  right: 0.6em;
   opacity: 0;
 
   -webkit-transition: opacity 0.2s ease-in-out 0.1s;
