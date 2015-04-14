@@ -59,5 +59,6 @@ While we like each of our lessons to take the unique voice of its author, we als
 - Does the lesson build upon an existing lesson and explain how? 
 - Does the lesson tie into existing lessons and have appropriate links?
 
+
 ## How to Comment
-We manage all our peer review comments through the commenting feature on Github. In order to do this, you'll need to create an account at Github if you don't already have one. Once you're logged in and viewing the lesson on Github you'll be able to leave your review as a comment. You can leave multiple comments, of course, if you're commenting on different sections of the lessons or whatever. However you decide to partition your review into comments is entirely up to you. 
+We manage all our peer review comments through the issue tracker on Github--that is, your reviewer feedback will take the form of a Github "issue". In order to create these, you should follow the directions on our Github Wiki at https://github.com/programminghistorian/jekyll/wiki/Reporting-Issues. You can create multiple issues, of course, if you're commenting on different sections of the lessons or whatever. However you decide to partition your review is entirely up to you and how you want to conduct your review.
