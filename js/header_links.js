@@ -5,7 +5,7 @@ $(function() {
     var $el, icon, id;
     $el = $(el);
     id = $el.attr('id');
-    icon = '<i class="fa fa-link fa-lg fa-rotate-45"></i>';
+    icon = '<i class="fa fa-link" style="fontsize: 0.8em"></i>';
     if (id) {
       return $el.prepend($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
     }
