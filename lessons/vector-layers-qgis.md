@@ -401,7 +401,7 @@ work!**
 
   [Intro to Google Maps and Google Earth]: ../lessons/googlemaps-googleearth
   [Installing QGIS 2.0 and Adding Layers]: ../lessons/qgis-layers
-  [PEI\_Holland map]: https://www.dropbox.com/s/nigmsq0gz4ashf2/PEI_HollandMap1798_compLZW.tif
+  [PEI\_Holland map]: ../assets/PEI_HollandMap1798_compLZW.tif
   [Georeferencing in QGIS 2.0]: ../lessons/georeferencing-qgis
   [Wikipedia entry]: http://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

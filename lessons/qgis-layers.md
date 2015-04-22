@@ -459,5 +459,5 @@ save your work!**
   [Tutorial: Working with Projections in QGIS]: http://qgis.spatialthoughts.com/2012/04/tutorial-working-with-projections-in.html
   [defined]: http://www.gislounge.com/geodatabases-explored-vector-and-raster-data/
   [aerial photos]: http://en.wikipedia.org/wiki/Orthophoto
-  [PEI\_CumminsMap1927.tif]: https://www.dropbox.com/s/5g7964rpu1w2ou1/PEI_CumminsMap1927_compLZW.tif
+  [PEI\_CumminsMap1927.tif]: ../assets/PEI_CumminsMap1927_compLZW.tif
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
