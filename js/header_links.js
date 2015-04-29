@@ -5,9 +5,12 @@ $(function() {
     var $el, icon, id;
     $el = $(el);
     id = $el.attr('id');
+    var div = $(document.createElement('div'));
+    div.setAttribute('style', 'float: right; font-size: 0.8em;');
     icon = '<i class="fa fa-link" style="font-size: 0.8em"></i>';
     if (id) {
-      return $el.append($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
+      return div.innerHTML($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
+      this.insertBefore(div, $el.firstChild);
     }
   });
 });
