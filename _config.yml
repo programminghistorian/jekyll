@@ -6,6 +6,8 @@ exclude: [deprecated]
 safe: true
 pygments: true
 markdown: redcarpet
+gems:
+  - jekyll-redirect-from
 redcarpet:
  extensions: ['tables', 'smart', 'with_toc_data', 'superscript']
 
