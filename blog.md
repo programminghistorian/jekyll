@@ -1,6 +1,7 @@
 ---
 layout: directory
 title: Blog
+redirect_from: /news.html
 ---
 
 {% for post in site.posts %}
