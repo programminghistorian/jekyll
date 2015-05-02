@@ -1,0 +1,7 @@
+<meta name="citation_title" content="{{ page.title }}" />
+{% for author in page.authors %}
+<meta name="citation_author" content="{{ author }}" />
+{% endfor %}
+<meta name="citation_publication_date" content="{{ page.date }}" />
+<meta name="citation_journal_title" content="{{ site.name }}" />
+<meta name="citation_public_url" content="{{ site.url }}{{ page.url }}" />
