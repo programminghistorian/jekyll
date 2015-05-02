@@ -87,6 +87,18 @@
 		        {% endfor %}</p>
 			    </div>
 	        </div>
+          <div class="author-info">
+            <p class="author-name">Suggested Citation</p>
+            <div class="author-description">
+              <p>
+              {{ page.authors | join:", "}}, 
+              "{{ page.title }}," 
+              <em>{{ site.title }}</em> 
+              ({{ page.date | append:" 12:00:00+00:00" | date_to_long_string }}), 
+              {{ site.url }}{{ page.url }}
+              </p>
+            </div>
+          </div>
         </article>
     </div>
 
