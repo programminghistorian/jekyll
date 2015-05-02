@@ -469,6 +469,7 @@ table tfoot {
   }
 
   .author-info,
+  .citation-info,
   .credits {
     border:1px dotted #ccc;
     border-width: 1px 0;
@@ -483,7 +484,9 @@ table tfoot {
   }
 
   .author-name,
+  .citation-head,
   .author-description,
+  .suggested-citation,
   .all-posts {
     display:block;
     margin: 0.25em 140px;
@@ -495,12 +498,14 @@ table tfoot {
 	clear: both;
   }
 
+  .citation-head,
   .author-name {
     font-weight: 600;
     color: #999;
   }
 
   .author-description p,
+  .suggested-citation,
   .all-posts {
     font-size:0.8em;
   }
