@@ -1,8 +1,25 @@
 <!DOCTYPE html>
 <html>
 
-	{% include header.html %}
+  {% include header.html %}
   {% include metadata.html %}
+
+  {% assign authorCount = page.authors | size %}
+  {% capture authorString %}
+  {% if authorCount == 1 %}
+        {{ page.authors | first }}
+  {% else %}
+        {% for author in page.authors %}
+             {% if forloop.first %}
+                   {{ author }}
+             {% elsif forloop.last %}
+                   and {{ author }}
+             {% else %}
+  		         , {{ author }}
+             {% endif %}
+        {% endfor %}
+  {% endif %}
+  {% endcapture %}
 
   <body>
 
@@ -17,22 +34,7 @@
 			<header>
 			    <p class="kicker">{{ page.date | date: "%B %-d, %Y" }}</p>
 				<h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
-				<p class="byline">By
-				{% assign authorCount = page.authors | size %}
-				{% if authorCount == 1 %}
-				      {{ page.authors | first }}
-                {% else %}
-                      {% for author in page.authors %}
-                           {% if forloop.first %}
-                                 {{ author }}
-                           {% elsif forloop.last %}
-                                 and {{ author }}
-                           {% else %}
-						         , {{ author }}
-                           {% endif %}
-                      {% endfor %}
-                {% endif %}
-				</p>
+                <p class="byline">By {{ authorString }}</p>
 				
 				{% assign reviewerCount = page.reviewers | size %}
 				{% if reviewerCount == 0 %}
@@ -91,7 +93,7 @@
             <p class="citation-head">Suggested Citation</p>
             <div class="suggested-citation">
               <p>
-              {{ page.authors | join:", "}}, 
+              {{ authorString }}, 
               "{{ page.title }}," 
               <em>{{ site.name }}</em> 
               ({{ page.date | append:" 12:00:00+00:00" | date_to_long_string }}), 
