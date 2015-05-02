@@ -18,15 +18,6 @@ take between 30 minutes and 1 hour to complete. More expansive lessons
 can be divided into smaller sub-lessons that can be worked through in
 sequence.
 
-Lessons we want
---------------------------------
-
-This isn’t a prescriptive or complete list by any means. But sometimes we editors
-come across techniques or tools we think would make great lessons, so we
-put them here in case you’re looking for inspiration.
-
--   Easy data visualisation on the web using [Variance Charts][].
-
 
 Why bother
 ----------
