@@ -553,7 +553,7 @@ something like the following examples, where `@fyfe_digital_2011` can be replace
 the unique IDs from your `project.bib` file.
 
 - `A reference formatted like this will render properly as inline- or footnote- style citation [@fyfe_digital_2011 argues that too].`[^7](#fn:7) <a name="fnref:7">
-- `"For citations within quotes, put the comma outside the quote" [@fyfe_digital_2011 argues that too].`
+- `"For citations within quotes, put the comma outside the quotation mark" [@fyfe_digital_2011 argues that too].`
 
 Once we run the markdown through Pandoc, "@fyfe\_digital\_2011" will be
 expanded to a full citation in the style of your choice. You can use the
