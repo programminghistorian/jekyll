@@ -114,6 +114,13 @@ You can run a Python shell by launching the “terminal”. For Linux, go to
 shell prompt, type
 
 ``` python
+python
+```
+
+This will open up the Python prompt, meaning htat you can now use Python 
+commands in the shell. Now type
+
+``` python
 print 'hello world'
 ```
 
