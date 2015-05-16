@@ -117,7 +117,7 @@ shell prompt, type
 python
 ```
 
-This will open up the Python prompt, meaning htat you can now use Python 
+This will open up the Python prompt, meaning that you can now use Python 
 commands in the shell. Now type
 
 ``` python
