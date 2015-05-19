@@ -548,11 +548,12 @@ entry. The unique ID is what allows us to connect the bibliography with
 the main document. Leave this file open for now and go back to your
 `main.md` file.
 
-Edit the footnote in the first line of your `main.md` file to look like
-something like this, where `@fyfe_digital_2011` is replaced with one of
-the unique IDs from your `project.bib` file:
+Edit the footnote in the first line of your `main.md` file to look
+something like the following examples, where `@name_title_date` can be replaced with one of
+the unique IDs from your `project.bib` file.
 
-`Some sentence that needs citation [@fyfe_digital_2011 argues that too].`[^7](#fn:7) <a name="fnref:7">
+- `A reference formatted like this will render properly as inline- or footnote- style citation [@name_title_date, 67].`[^7](#fn:7) <a name="fnref:7">
+- `"For citations within quotes, put the comma outside the quotation mark" [@name_title_2011, 67].`
 
 Once we run the markdown through Pandoc, "@fyfe\_digital\_2011" will be
 expanded to a full citation in the style of your choice. You can use the
