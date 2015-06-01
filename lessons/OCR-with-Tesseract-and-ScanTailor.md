@@ -1,3 +1,14 @@
+---
+title: OCR with Tesseract and ScanTailor
+authors:
+- Mila Oiva
+date: 2015-06-01
+reviewers:
+layout:
+- default
+published: false
+---
+
 #Introduction to OCR 
 
 ##Lesson Goals
