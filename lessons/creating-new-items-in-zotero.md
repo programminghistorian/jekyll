@@ -131,15 +131,24 @@ and the tag should appear also.
 By editing the program above, you can create items with different types
 (such as books, journal articles, or newspapers) and specify more precise titles,
 creation dates, and tags. To see a list of all the Item Types available
-in the Zotero API, navigate to <https://api.zotero.org/itemTypes> in a web
-browser. You can then see the fields available in each Item Type template by
-navigating to <https://api.zotero.org/items/new?itemType=document> and replacing
-`document` with the key for the Item Type that interests you. For example, the
-list of Item Types returned by the first URL shows a type called `videoRecording`. 
+in the Zotero API, use your browser to navigate to this URL:
+
+    https://api.zotero.org/itemTypes
+
+You can then see the fields available in each Item Type template by
+navigating to the following URL, replacing `document` with the key for the
+Item Type that interests you:
+
+    https://api.zotero.org/items/new?itemType=document
+
+For example, the list of Item Types returned by the first URL shows a type called `videoRecording`. 
 In our code above, you could request a template for that type by changing the
 `document` argument in our `getItemTemplate()` function with `videoRecording`. To 
-see which fields are available in this template, you could navigate in your browser to
-<https://api.zotero.org/items/new?itemType=videoRecording>. For more details, see the
-documentation on write requests for the [Zotero API](https://www.zotero.org/support/dev/web_api/v3/write_requests).
+see which fields are available in this template, you could navigate in your browser to the 
+appropriate URL:
+
+    https://api.zotero.org/items/new?itemType=videoRecording
+    
+For more details, see the documentation on write requests for the [Zotero API](https://www.zotero.org/support/dev/web_api/v3/write_requests).
 
   [Intro to the Zotero API]: ../lessons/intro-to-the-zotero-api
