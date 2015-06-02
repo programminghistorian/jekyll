@@ -15,6 +15,7 @@ As part of [my fellowship with the Software Sustainability Institute](http://sof
 Using [Software Carpentry](http://software-carpentry.org/) as a model and The Programming Historian as a source, **Programming Historian Live** will introduce basic unix command line skills (counting, grep, regular expressions, named entity recognition), version control, data structures, and exemplar tools (Open Refine). Example tasks will use data and scenarios appropriate for historians. Principles of automation, data management, and structured programming constitute softer learning outcomes.
 
 In order to accommodate 30/40 attendees for each session, individuals with a range of skill sets have been invited to lead portions of the day and support attendees when they run into difficulties. So far these include:
+
 * Jonathan Blaney (Institute of Historical Research)
 * Adam Crymble (University of Hertfordshire)
 * Melodee Beals (Sheffield Hallum University)
