@@ -5,9 +5,8 @@ authors:
 layout: post
 categories: posts
 ---
-##The Programming Historian Live, British Library (19 October 2015)
-
-###James Baker, Curator, Digital Research, British Library
+19 October 2015, the British Library, London.
+Hosted by: James Baker, Curator, Digital Research, British Library
 
 One of the responsibilities of the British Library Digital Research team is to coordinate the British Library Digital Scholarship Training Programme: an internal programme that offers staff at the British Library hands-on, in person, one-day courses where they have the opportunity and space to delve into the key concepts, methods and tools that define today’s digital scholarship practice. Some efforts have been made to make materials from these courses available to external audience for self-learning (see [British Library Digital Scholarship Training Programme: a round-up of resources you can use](http://britishlibrary.typepad.co.uk/digital-scholarship/2014/10/british-library-digital-scholarship-training-programme-round-up-of-resources-you-can-use.html). Although these materials have been well received, we believe there is demand for external training that is hands-on and in person.
 
