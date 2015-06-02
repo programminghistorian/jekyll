@@ -15,11 +15,11 @@ As part of [my fellowship with the Software Sustainability Institute](http://sof
 Using [Software Carpentry](http://software-carpentry.org/) as a model and The Programming Historian as a source, **Programming Historian Live** will introduce basic unix command line skills (counting, grep, regular expressions, named entity recognition), version control, data structures, and exemplar tools (Open Refine). Example tasks will use data and scenarios appropriate for historians. Principles of automation, data management, and structured programming constitute softer learning outcomes.
 
 In order to accommodate 30/40 attendees for each session, individuals with a range of skill sets have been invited to lead portions of the day and support attendees when they run into difficulties. So far these include:
-- Jonathan Blaney (Institute of Historical Research)
-- Adam Crymble (University of Hertfordshire)
-- Melodee Beals (Sheffield Hallum University)
-- Peter Webster (Webster Research and Consulting Ltd)
-- Cornelis Schilt (University of Sussex)
+* Jonathan Blaney (Institute of Historical Research)
+* Adam Crymble (University of Hertfordshire)
+* Melodee Beals (Sheffield Hallum University)
+* Peter Webster (Webster Research and Consulting Ltd)
+* Cornelis Schilt (University of Sussex)
 
 Booking will open late summer. If you are interested in getting involved as a trainer, have a cohort of postgraduate or early career historians you'd like to send along, or would like to express an interest in attending, please contact [james.baker@bl.uk](https://twitter.com/j_w_baker) for more info.
 
