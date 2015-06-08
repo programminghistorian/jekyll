@@ -31,7 +31,7 @@ Ok, are you ready? Let's start then!
 
 So, now that you have the material you want to convert into text form, there are two options for doing the prework. The preferable option is to scan the texts, if you have a good scanner. If you don't, you can take digital photographs of the documents. Scanning is a better option, because when the paper lays on the scanner's glass, it will be more or less straight. When you are doing photographs of a big book, the flexure of the paper might cause reduced readability later in the process.
 
-[OCR01]
+{% include figure.html src="../images/OCR01.jpg" caption="My scan." %}
 
 When you are doing the scanning or photographing of the document, scan all the pages. At some point you'll be tempted to scan only 500 of the 1000 pages, but don't do it! Just do all the 1000 pages. Partial documentation will not reveal the whole picture of it, and you will not be able to relate your findings or analysis to the whole document. And although this part of the work is the most boring, try to be patient and diligent. There is nothing more frustrating than noticing that there is one page missing from the entire documentation!  
 
