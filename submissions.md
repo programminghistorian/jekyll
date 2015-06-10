@@ -98,4 +98,4 @@ love to hear from you.
   [Attribution 3.0 Unported]: http://creativecommons.org/licenses/by/3.0/
   [contact us]: contact
   [Markdown]: https://github.com/programminghistorian/jekyll/wiki/Markdown-Style-Guide
-  [editorial workflow for new lessons]: https://github.com/programminghistorian/jekyll/wiki/New-Lesson-Workflow-for-Authors
+  [editorial workflow]: https://github.com/programminghistorian/jekyll/wiki/New-Lesson-Workflow-for-Authors
