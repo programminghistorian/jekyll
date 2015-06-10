@@ -23,7 +23,7 @@ As URLs change and as new versions of software and platforms are released, lesso
 
 
 ## Join our team of reviewers
-Academic peer review is essential for producing trusted high-quality resources, and even as a free, open-source, community-driven resource _Programming Historian_, holds peer review in the highest regard. But we prefer an open and collaborative process--where reviewers get full and public credit for their work--to traditional closed and opaque procedures. For more on our review philosophy and procedures, please see the [Guidelines for Reviewers](reviewers).
+Academic peer review is essential for producing trusted high-quality resources, and even as a free, open-source, community-driven resource _Programming Historian_, holds peer review in the highest regard. But we prefer an open and collaborative process--where reviewers get full and public credit for their work--to traditional closed and opaque procedures. For more on our review philosophy and procedures, please see the [Guidelines for Reviewers][reviewers].
 
 We hope you'll consider joining our team of reviewers in a way that fits your own schedule. Please email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with a bit of information about yourself, especially the specific skills, tools, topics, and technologies that you'd like to be involved with so that we can send you the most appropriate lessons to review. 
 
@@ -35,7 +35,7 @@ We don't simply accept or reject articles like traditional journals. Our editors
 
 If you'd like to suggest idea to make _Programming Historian_ a more useful resource for you, or propose a lesson (for you or for someone else to write), email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with your ideas! 
 
-Please read more about our [editorial policies](editorial-policies) our [submission proceess](submissions).
+Please read more about our [editorial policies][editorial-policies] our [submission proceess][submissions].
 
 
 ## I'm too busy. Why Bother?
@@ -55,5 +55,5 @@ No matter how you'd like to be involved, you can always email <a href="mailto:fw
 Thanks for making _Programming Historian_ such a great resource!
  
  [editorial-policies]: http://programminghistorian.org/editorial-policies
- [submissions]: https://github.com/programminghistorian/jekyll/wiki/submissions
+ [submissions]: new-lesson-workflow
  [reviewers]: http://programminghistorian.org/reviewer-guidelines

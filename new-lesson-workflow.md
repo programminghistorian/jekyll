@@ -3,7 +3,7 @@ title: Submitting a New Lesson
 layout: directory
 ---
 
-This page documents for potential or working authors the workflow for adding a new lesson to _Programming Historian_ site, from the draft phase to the publication phase.
+This page documents the workflow for adding a new lesson to _Programming Historian_, from the draft phase to the publication phase.
 
 
 ## Have an idea? Get in touch!
@@ -13,7 +13,7 @@ If you have an idea for a new lesson, or have already written a tutorial for som
 
 We do insist that all lessons have a clearly defined goal and are written with a particular audience in mind. Lessons should explain at the outset exactly what skills or results they will impart; lessons should conclude only after they have provided a tangible skill to the reader.
 
-You can get a better sense of what we're looking for by reading our [reviewer guidlines](reviewer-guidelines).
+You can get a better sense of what we're looking for by reading our [reviewer guidlines][reviewer-guidelines].
 
 
 ## Name the Lesson File
