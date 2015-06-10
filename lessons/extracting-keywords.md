@@ -31,7 +31,7 @@ This tutorial assumes that you have already installed Python version 2 on your c
 
 The first step of this process is to take a look at the data that we will be using in the lesson. As mentioned, the data includes biographical details of approximately 6,692 graduates who began study at the University of Oxford in the early seventeenth century.
 
-[The Dataset - Alumni Oxonienses - Jas1.csv](The Dataset-Alumni Oxonienses-Jas1.csv) (1.4MB)
+[The Dataset - Alumni Oxonienses - Jas1.csv](../assets/extracting-keywords.csv) (1.4MB)
 
 {% include figure.html src="../images/extracting-keywords-1.png" caption="Screenshot of the first forty entries in the dataset" %}
 
@@ -267,9 +267,7 @@ If there IS a match, then the program creates a new variable called 'matchString
 
 When all of the matching keywords have been added to 'matchString', the program prints it out to the command output before moving on to the next text.
 
-If you save your work and run the program, you should now have code that achieves all of the steps from the algorithm and outputs the results to your command output. You can copy and paste that output directly into your spreadsheet next to the first entry. Check that the matches lined up properly. Your last entry of your spreadsheet should correspond to the correctly extracted keywords. In this case, the last entry should be blank, but the second last one should read 'dorset'.
-
-{% include figure.html src="../images/extracting-keywords-4.png" caption="The output pasted back into the CSV file" %}
+If you save your work and run the program, you should now have code that achieves all of the steps from the algorithm and outputs the results to your command output. 
 
 The finished code should look like this:
 
@@ -329,13 +327,21 @@ Note the 'a' instead of the 'r' we used earlier. This 'appends' the text to the 
 
 ##Refining the Gazetteer
 
+You can copy and paste that output directly into your spreadsheet next to the first entry. Check that the matches lined up properly. Your last entry of your spreadsheet should correspond to the correctly extracted keywords. In this case, the last entry should be blank, but the second last one should read 'dorset'.
+
+{% include figure.html src="../images/extracting-keywords-4.png" caption="The output pasted back into the CSV file" %}
+
 At this point, you might like to refine the gazetteer, as a lot of place names have been missed. Many of them are shortforms, or archaic spellings (Wilts, Salop, Sarum, Northants, etc). You could go through looking at all the empty cells and seeing if you can find keywords that you've missed. It may help to know that you can find the next empty cell in a column in Excel by pressing CTRL + down arrow (CMD + down arrow on Mac).
 
 One of the easiest ways to find all of the missing entries is to sort your spreadsheet by the new columns you've just added. If you sort the matches alphabetically for each of the new columns, then the entries at the bottom of the spreadsheet will all be unclassified. You can do this by selecting the whole spreadsheet and clicking on the Data -> Sort menu item. You can then sort a-z for each of the new columns.
 
 Before you sort a spreadsheet, it's often a good idea to add an 'original order' column in case you want to sort them back. To do this, add a new column, and in the first 3 rows, type 1, 2, and 3 respectively. Then highlight the three cells and put your cursor over the bottom right corner. If you are using Microsoft Excel your cursor will change into a black cross. When you see this, click and hold the mouse button and drag the cursor down until you reach the bottom of the spreadsheet (down to the last entry) before you let go. This should automatically number the rows consecutively so that you can always re-sort your entries back to the original order.
 
+{% include figure.html src="../images/extracting-keywords-5.png" caption=“Adding an original order column and sorting the entries” %}
+
 Now you can sort the data and read some of the entries for which no match was found. If you find there is a place name in there, add it to your 'gazetteer.txt' file, one entry per line. You don't have to be exhaustive at this stage. You could add a handful more entries and then try the code again to see what impact they had on the result.
+
+{% include figure.html src="../images/extracting-keywords-6.png" caption=“Missed place name words highlighted in yellow” %}
 
 Before you re-run your Python code, you'll have to update your `texts.txt` file so that the program runs on the texts in the correct order. Since the code will output the matches in the same order that it receives the files in `texts.txt`, it's important not to get this jumbled up if you've been sorting your spreadsheet where you intend to store your outputs. You can either re-sort the spreadsheet back to the original order before you run the program, or you can copy all of the cells in the 'details' column again and paste and save them into the `texts.txt` file.
 
