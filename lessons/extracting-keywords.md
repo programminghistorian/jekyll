@@ -45,7 +45,7 @@ In order to extract the relevant place names, we first have to decide what they 
 
 Make a new directory (folder) on your computer where you will save all of your work. Create a text file called `gazetteer.txt` and using the entries listed on the Wikipedia page listed above, add each county to a new line on the text file. It should look something like this:
 
-```text
+```
 Bedfordshire
 Berkshire
 Buckinghamshire
@@ -93,7 +93,7 @@ If you ever need to add to this set of keywords, you can open this file in your 
 
 ##Loading your texts
 
-The next step is to put the texts that you want to search into another text file, with one entry per line. The easiest way to do that is to open the spreadsheet and select all of the second (details) column, then paste the contents into a .txt file. Call the file `texts.txt` and save it to the same directory as your `gazetteer.txt` file. Your directory should look something like this:
+The next step is to put the texts that you want to search into another text file, with one entry per line. The easiest way to do that is to open the spreadsheet and select all of the second (details) column, then paste the contents into a .txt file. Call the file 'texts.txt' and save it to the same directory as your 'gazetteer.txt' file. Your directory should look something like this:
 
 {% include figure.html src="../images/extracting-keywords-2.png" caption="Contents of your working directory" %}
 
@@ -103,7 +103,7 @@ The reason we do this is to keep the original data (the .CSV file) away from the
 
 The last step is to write a program that will check each of the texts for each of the keywords in the gazetteer, and then to provide an output that will tell us which entries in our spreadsheet contain which of those words. There are lots of ways that this could be achieved. The approach we will take here uses the following algorithm:
 
-1. Load the list of keywords that you've created in `gazetteer.txt` and save them each to a Python list
+1. Load the list of keywords that you've created in 'gazetteer.txt' and save them each to a Python list
 2. Load the texts from texts.txt and save each one to another Python list
 3. Then for each biographical entry, remove the unwanted punctuation (periods, commas, etc)
 4. Then check for the presence of one or more of the keywords from your list. If it finds a match, store it while it checks for other matches. If it finds no match, move on to the next entry
@@ -113,7 +113,7 @@ The last step is to write a program that will check each of the texts for each o
 
 Using your text editor, create a new empty file, and add the following lines:
 
-```python
+```Python
 
 #Import the keywords
 f = open('gazetteer.txt', 'r')
@@ -137,7 +137,7 @@ Save this file as `extractKeywords.py`, again to the same folder as the other fi
 
 Once the Terminal window is open, you need to point your Terminal at the directory that contains all of the files you have just created. I have called my directory 'ExtractingKeywordSets' and I have it on my computer's Desktop. To change the Terminal to this directory, I use the following command:
 
-```bash
+```
 cd Desktop/ExtractingKeywordSets
 
 ```
@@ -146,7 +146,7 @@ You would need to change the above to reflect the name you gave your directory, 
 
 You can now run the program you've written with the following command:
 
-```bash
+```
 python extractKeywords.py
 
 ```
@@ -159,7 +159,7 @@ The second step is very similar to the first. Except this time we will load the 
 
 Add the following lines to your code:
 
-```python
+```Python
 #Import the texts you want to search
 f = open('texts.txt', 'r')
 allTexts = f.read().lower().split("\n")
@@ -175,13 +175,13 @@ If the code worked, you should see a big wall of text. Those are the texts we in
 
 #Step 3: Remove unwanted punctuation
 
-When matching strings, you have to make sure the punctuation doesn't get in the way. Technically, 'London.' is a different string than 'London' or ';London' because of the added punctuation. These three strings which all mean the same thing to us as human readers will be viewed by the computer as distinct entities. To solve that problem, the easiest thing to do is just to remove all of the punctuation. You can do this with [regular expressions](http://en.wikipedia.org/wiki/Regular_expression), and [Doug Knox[(http://programminghistorian.org/lessons/understanding-regular-expressions) and [Laura Turner O'Hara](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions) have provided great introductions in *the Programming Historian* for doing so.
+When matching strings, you have to make sure the punctuation doesn't get in the way. Technically, 'London.' is a different string than 'London' or ';London' because of the added punctuation. These three strings which all mean the same thing to us as human readers will be viewed by the computer as distinct entities. To solve that problem, the easiest thing to do is just to remove all of the punctuation. You can do this with [regular expressions](http://en.wikipedia.org/wiki/Regular_expression), and [Doug Knox](http://programminghistorian.org/lessons/understanding-regular-expressions) and [Laura Turner O'Hara](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions) have provided great introductions at *Programming Historian* for doing so.
 
 To keep things simple, this program will just replace the most common types of punctuation with nothing instead (effectively deleting punctuation).
 
 Add the following lines to your program:
 
-```python
+```Python
 for entry in allTexts:
     #for each entry:
     allWords = entry.split(' ')
@@ -208,7 +208,7 @@ As the words from our text arealready in a list called 'allWords', and all of ou
 First, we need somewhere to store details of any matches we have. Immediately after the 'for entry in allTexts:' line, at one level of indentation, add the following two lines of code at one level of indentation:
 
 
-```python
+```Python
     matches = 0
     storedMatches = []
 ```
@@ -219,7 +219,7 @@ The 'storedMatches' variable is a blank list, where we can store our matching ke
 
 To do the actual matching, add the following lines of code to the bottom of your program, again minding the indentation (2 levels from the left margin), making sure you save:
 
-```python
+```Python
         #if a keyword match is found, store the result.
         if words in allKeywords:
             if words in storedMatches:
@@ -246,7 +246,7 @@ If you have got to this stage, then your Python program is already finding the m
 
 Add the following lines to your program, minding the indentation as always:
 
-```python
+```Python
     #if there is a stored result, print it out
     if matches == 0:
         print ' '
@@ -269,7 +269,7 @@ If you save your work and run the program, you should now have code that achieve
 
 The finished code should look like this:
 
-```python
+```Python
 #Import the keywords
 f = open('gazetteer.txt', 'r')
 allKeywords = f.read().lower().split("\n")
@@ -316,12 +316,12 @@ for entry in allTexts:
 
 If you do not like the output format, you can change it by adjusting the second last line of code. For example, you could save each entry to a new line in a .txt file rather than to the screen. To do that you would replace 'print matchString' with the following code:
 
-```python
+```Python
     f = open('output.txt', 'a')
     f.write(matchString)
     f.close()
 ```
-Note the 'a' instead of the 'r' we used earlier. This 'appends' the text to the file called `output.txt`, which will be saved in your working directory. You will have to take care, because running the program several times will continue to append all of the outputs to this file, creating a very long file. There are ways around this and you might consider looking into how the 'w' (write) feature works, and experimenting with output formats. There is more information related to these features in ['Working with Text Files in Python'](http://programminghistorian.org/lessons/working-with-text-files).
+Note the 'a' instead of the 'r' we used earlier. This 'appends' the text to the file called 'output.txt', which will be saved in your working directory. You will have to take care, because running the program several times will continue to append all of the outputs to this file, creating a very long file. There are ways around this and you might consider looking into how the 'w' (write) feature works, and experimenting with output formats. There is more information related to these features in [Working with Text Files in Python](http://programminghistorian.org/lessons/working-with-text-files).
 
 ##Refining the Gazetteer
 
@@ -335,11 +335,11 @@ One of the easiest ways to find all of the missing entries is to sort your sprea
 
 Before you sort a spreadsheet, it's often a good idea to add an 'original order' column in case you want to sort them back. To do this, add a new column, and in the first 3 rows, type 1, 2, and 3 respectively. Then highlight the three cells and put your cursor over the bottom right corner. If you are using Microsoft Excel your cursor will change into a black cross. When you see this, click and hold the mouse button and drag the cursor down until you reach the bottom of the spreadsheet (down to the last entry) before you let go. This should automatically number the rows consecutively so that you can always re-sort your entries back to the original order.
 
-{% include figure.html src="../images/extracting-keywords-5.png" caption=“Adding an original order column and sorting the entries” %}
+{% include figure.html src="../images/extracting-keywords-5.png" caption="Adding an original order column and sorting the entries" %}
 
 Now you can sort the data and read some of the entries for which no match was found. If you find there is a place name in there, add it to your 'gazetteer.txt' file, one entry per line. You don't have to be exhaustive at this stage. You could add a handful more entries and then try the code again to see what impact they had on the result.
 
-{% include figure.html src="../images/extracting-keywords-6.png" caption=“Missed place name words highlighted in yellow” %}
+{% include figure.html src="../images/extracting-keywords-6.png" caption="Missed place name words highlighted in yellow" %}
 
 Before you re-run your Python code, you'll have to update your `texts.txt` file so that the program runs on the texts in the correct order. Since the code will output the matches in the same order that it receives the files in `texts.txt`, it's important not to get this jumbled up if you've been sorting your spreadsheet where you intend to store your outputs. You can either re-sort the spreadsheet back to the original order before you run the program, or you can copy all of the cells in the 'details' column again and paste and save them into the `texts.txt` file.
 
