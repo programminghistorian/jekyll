@@ -100,21 +100,21 @@ Follow this step if you're using a shared hosting provider. If you're on a VPS, 
 
 Log into your hosting provider's control panel and find an item called something like "MySQL Databases." If your hosting provider uses cPanel, it looks like this: 
 
-![New Database](/images/omeka-install-new-db.png)
+![New Database](../images/omeka-install-new-db.png)
 
 In the box labeled Create New Database, enter a database name. On shared hosting providers, the prefix will typically be your user name (mine is `jonreeve`), and you'll enter the rest. In this example, I chose to call my database `omeka`, so my full database name is `jonreeve_omeka`. Click "create database." 
 
 Once you've done that, click to go back to the previous screen. Below the Create New Database box you'll see an area for creating new MySQL users. It looks like this: 
 
-![Create a New User](/images/omeka-install-new-user.png)
+![Create a New User](../images/omeka-install-new-user.png)
 
 In the box labeled `Username`, enter the same thing you entered for your database name (this is just a convention, and will help you to keep everything organized). I'll enter `omeka` again, so that the full user name reads `jonreeve_omeka`. It's a good idea to click "generate password" here, since that will make a very secure password. At this point, write down the database name (`jonreeve_omeka`), the user name (which should be the same as the database name), and the generated password, since you'll need these later. 
 
-![Generate Password](/images/omeka-install-password.png)
+![Generate Password](../images/omeka-install-password.png)
 
 Next, add the user you just created to the database. Just select the user and the database you created in the dropdown menus and click "add": 
 
-![Add User to Database](/images/omeka-install-add-to-db.png)
+![Add User to Database](../images/omeka-install-add-to-db.png)
 
 Your database is now set up, and you're ready to install Omeka. 
 
@@ -151,10 +151,10 @@ Now let's edit the `db.ini` file. Unless you're already comfortable with a power
 
 That will give you something that looks like this: 
 
-![Db.ini, Before](/images/omeka-install-db-ini-before.png)
+![Db.ini, Before](../images/omeka-install-db-ini-before.png)
 
 Now you can edit your file. The field `hostname` should be `localhost`, since the database is on the same server. For `username` and `dbname`, enter the user name password, and database name you generated in Step 3a or 3b. It will end up looking like this: 
 
-![Db.ini, After](/images/omeka-install-db-ini-after.png) 
+![Db.ini, After](../images/omeka-install-db-ini-after.png) 
 
 Exit (Ctrl+X) and when asked, save your changes. Now you should have a working Omeka install. You can access it at `http://your-domain.com/omeka/`, replacing `your-domain` with the name of your domain, and `omeka` with the name you gave your directory above. Go to `http://your-domain.com/omeka/admin` to get started configuring your install. If you run into any trouble along the way, consult the [Omeka Installation Guide](https://omeka.org/codex/Installation) or the [Omeka Troubleshooting Guide](https://omeka.org/codex/Troubleshooting_Omeka). 
