@@ -3,8 +3,7 @@ title: "Extracting Sets of Keywords from Free-Flowing Texts"
 authors:
 - Adam Crymble
 date: 2015-06-10
-layout:
-- default
+layout: default
 ---
 
 ##Lesson Goals
