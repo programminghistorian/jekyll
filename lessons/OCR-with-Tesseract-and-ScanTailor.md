@@ -112,28 +112,36 @@ Now that we have Tesseract, we can proceed to doing the actual OCR!
 
 Open your command line, and go to the folder where the preprocessed images are located. Type 
 
-`tesseract yourdocument.tif outputdocument`
+```
+tesseract yourdocument.tif outputdocument
+```
 
 If you are doing OCR for non-English language documents, just add 
 
-`-l yourlanguage`
+```
+-l yourlanguage
+```
 
 The name of the document I'll OCR is Podstawy01.tif, and I want that the name of the OCR´d text is OCRPodstawy01. In addition, becaue my text is in Polish, I´ll need to add the language definition in the command. My command goes like this: 
 
-`tesseract Podstawy01.tif OCRPodstawy01 -l pol`
+```
+tesseract Podstawy01.tif OCRPodstawy01 -l pol
+```
 
 {% include figure.html src="../images/OCR12.png" caption="After running the command." %}  
 
-Tesseract saves the OCR outputs in unicode, which means that it should understand also those characters that are not used in English. If you click with the right button of your mouse the OCR output document, and choose to ”Open with” Notepad. Notepad will display the ”special characters” correctly:
+Tesseract saves the OCR outputs in unicode, which means that it should understand also those characters that are not used in English. If you click with the right button of your mouse the OCR output document, and choose to "Open with" Notepad. Notepad will display the ”special characters” correctly:
 
 {% include figure.html src="../images/OCR13.png" caption="Ready OCR'd text in Notepad." %}
 
 Now you know how to OCR! Congratulations! 
 
 Well, of course this was not the whole story. You will most likely want to do OCR for batch of images at the same time. For doing batch OCR, you'll need to do the following things: 
-First make sure that the path to the preprocessed image folder is not too long, and the names of the folders don't contain breaks. Then create a folder for the ready OCR´d texts to come. 
+
+First, make sure that the path to the preprocessed image folder is not too long, and the names of the folders don't contain breaks. Then create a folder for the ready OCR´d texts to come. 
 Then we'll create a little gadget: open an empty Notepad and copy the following commands there. 
 
+```
 `:Start
    @Echo off
    Set _SourcePath=inputsource\*.tif
@@ -145,19 +153,21 @@ Then we'll create a little gadget: open an empty Notepad and copy the following 
    Set "_SourcePath="
    Set "_OutputPath="
    Set "_Tesseract="`
+```
 
-Then write the path for the input source (=the folder where the preprocessed images are located) after `Set_SourcePath=`, and the path for the output (=the folder where you want the ready OCR´d texts to be stored) after `Set_OutputPath=`. If your texts are not in English, you´ll need to indicate the language right after `For %%A in (%_SourcePath%) Do Echo Converting %%A...&%_Tesseract% %%A %_OutputPath%%%~nA`. 
+Then write the path for the input source (=the folder where the preprocessed images are located) after 'Set_SourcePath=', and the path for the output (=the folder where you want the ready OCR´d texts to be stored) after 'Set_OutputPath='. If your texts are not in English, you´ll need to indicate the language right after 'For %%A in (%_SourcePath%) Do Echo Converting %%A...&%_Tesseract% %%A %_OutputPath%%%~nA'. 
 
 {% include figure.html src="../images/OCR14.png" caption="My script looks like this." %}
 
 Now, save the notepad as .bat format (Windows batch file) and name it Tesseract_batch. Note that the encoding of the .bat file should be ANSI.
 
-Then go with the Command line to the folder where you saved the Tesseract_batch, and type `Tesseract_batch`. Tesseract OCR´s all the preprocessed documents in the file for you.
+Then go with the Command line to the folder where you saved the Tesseract_batch, and type 'Tesseract_batch'. Tesseract OCR´s all the preprocessed documents in the file for you.
 
 Now you have a bunch of text documents. If you want to unite the separate text documents into one document, you will need to go with the command line to the file where you have the OCR output texts, and type to the command line:
 
-`copy *.txt outputfile.txt`
-
+```
+copy *.txt outputfile.txt
+```
 
 {% include figure.html src="../images/OCR15.png" caption="With my documents it looks like this." %}
 
