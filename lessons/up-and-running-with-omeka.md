@@ -7,13 +7,13 @@ reviewers:
 - Adam Crymble
 - Sheila Brennan
 layout: default
-next: creating-an-omeka-exhibit
+next: installing-omeka 
 ---
 
 [Omeka][] is a free [content management system][] that makes it easy to
 create websites that show off collections of items. As you will learn
 below, there are actually two versions of Omeka: [Omeka.net][Omeka]and
-[Omeka.org][]. In this lesson you willl be using the former.
+[Omeka.org][]. In this lesson you willl be using the former. If you would rather learn how to install Omeka yourself, read the following lesson, [Installing Omeka](installing-omeka.html). 
 
 Omeka is an ideal solution for historians who want to display
 collections of documents, archivists who want to organize artifacts into
