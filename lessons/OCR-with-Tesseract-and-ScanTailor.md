@@ -4,7 +4,6 @@ authors:
 - Mila Oiva
 date: 2015-06-01
 layout: default
-published: true
 ---
 
 #Introduction to OCR 
