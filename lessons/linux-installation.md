@@ -59,7 +59,7 @@ launcher bar.
 1.  In Komodo Edit, click the gear icon under `Toolbox` and select
     `New Command`.
 2.  In the top field type “`Run Python File`“
-3.  In the Command field, type: `%(python) %f` Then hit the OK button at
+3.  In the Command field, type: `%(python) %F` Then hit the OK button at
     the bottom of the Add Command window.
 
 Step 2 – “Hello World” in Python
