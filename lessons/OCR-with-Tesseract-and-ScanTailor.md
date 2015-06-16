@@ -58,11 +58,11 @@ So, now we have the text as an image, and we will move on to image preprocessing
 
 For image preprocessing I use free&open source program called *Scan Tailor*. You can download Scan Tailor [here] (http://scantailor.org/downloads/).
 
-When you have downloaded the Scan Tailor, open the text scans in the program by clicking ”New project”, browsing and selecting the file where you saved your text scans, and finally selecting the images you want to preprocess. Scan Tailor is a relatively heavy program, which means that it reserves quite a lot of the computer's capacity. For that reason it is better to divide large files into smaller entities, and preprocess them in parts. When starting a new project you can choose which images you want to select for preprocessing. When you have selected the scans for preprocessing, click ”OK”. 
+When you have downloaded the Scan Tailor, open the text scans in the program by clicking "New project", browsing and selecting the file where you saved your text scans, and finally selecting the images you want to preprocess. Scan Tailor is a relatively heavy program, which means that it reserves quite a lot of the computer's capacity. For that reason it is better to divide large files into smaller entities, and preprocess them in parts. When starting a new project you can choose which images you want to select for preprocessing. When you have selected the scans for preprocessing, click "OK". 
 
 {% include figure.html src="../images/OCR03.png" caption="Starting a new project in Scan Tailor" %} 
 
-Before starting the actual preprocessing we will need to fix the DPI of the images. DPI stand for *dots per inch*, which practically means the resolution of the images. In order to ensure high quality OCR, it is better to choose 300 DPI or more. Click ”Apply”, and then ”OK”.
+Before starting the actual preprocessing we will need to fix the DPI of the images. DPI stand for *dots per inch*, which practically means the resolution of the images. In order to ensure high quality OCR, it is better to choose 300 DPI or more. Click "Apply", and then "OK".
 
 {% include figure.html src="../images/OCR04.png" caption="Choosing DPI" %}
 
@@ -87,13 +87,13 @@ After selecting the content we will set the margins. For ORC results the margins
 
 {% include figure.html src="../images/OCR09.png" caption="Setting the margins." %}
 
-The last step is to check the output by selecting the coloring of the image and thickness of the lines, and cleaning the unnecessary spots and lines. For OCR purposes it is important that the letters are as clear (not too thick, nor thin) and that there is as few ”noice” as possible. For my pages I wanted to remove the lines (by choosing the Fill Zones function in the right side of the image) and to make the letters slightly thinner. You might want to try also dewarping the text. It may help especially if your text is uneven. At this point you can also check that the output resolution is at least 300 DPI.
+The last step is to check the output by selecting the coloring of the image and thickness of the lines, and cleaning the unnecessary spots and lines. For OCR purposes it is important that the letters are as clear (not too thick, nor thin) and that there is as few "noice" as possible. For my pages I wanted to remove the lines (by choosing the Fill Zones function in the right side of the image) and to make the letters slightly thinner. You might want to try also dewarping the text. It may help especially if your text is uneven. At this point you can also check that the output resolution is at least 300 DPI.
 
 {% include figure.html src="../images/OCR10.png" caption="Checking the output of the images." %}
 
 When you are satisfied with the output, click the small arrow in the ”Output” bar. The program will run for a moment, and then you preprocessing work is done! Save the project once more, and now you can close the program. Scan Tailor created a new folder for the preprocessed images named ”out” inside the project folder. Scan Tailor will name the preprocessed images. For the next step it is a good idea to make sure that the names are short and easy, and if they are not rename them.
 
-{% include figure.html src="../images/OCR11.png" caption="Preprocessed scans in the "out" folder." %} 
+{% include figure.html src="../images/OCR11.png" caption="Preprocessed scans in the 'out' folder." %} 
 
 If you feel you need more instructions on how to use Scan Tailor, they have good instructions on their [web pages](https://github.com/scantailor/scantailor/wiki/User-Guide), and a handy [video] (https://vimeo.com/12524529).
 
@@ -129,7 +129,7 @@ tesseract Podstawy01.tif OCRPodstawy01 -l pol
 
 {% include figure.html src="../images/OCR12.png" caption="After running the command." %}  
 
-Tesseract saves the OCR outputs in unicode, which means that it should understand also those characters that are not used in English. If you click with the right button of your mouse the OCR output document, and choose to "Open with" Notepad. Notepad will display the ”special characters” correctly:
+Tesseract saves the OCR outputs in unicode, which means that it should understand also those characters that are not used in English. If you click with the right button of your mouse the OCR output document, and choose to "Open with" Notepad. Notepad will display the "special characters" correctly:
 
 {% include figure.html src="../images/OCR13.png" caption="Ready OCR'd text in Notepad." %}
 
