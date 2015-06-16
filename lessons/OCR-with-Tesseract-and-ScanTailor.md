@@ -6,7 +6,7 @@ date: 2015-06-01
 reviewers:
 layout:
 - default
-published: false
+published: true
 ---
 
 #Introduction to OCR 
