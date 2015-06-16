@@ -10,14 +10,14 @@ layout: default
 
 ##Lesson Goals
 
-The goal of this lesson is to teach how to do OCR (Optical Character Recognition) for printed or typewritten text. After this lesson you will able to convert printed and type written texts into digital text files. In order to be able to go through all the steps the OCR´ing process demands, you´ll need to have an access either to a scanner or digital camera, a computer with internet access, some patience, and a lot of curiosity! We will make a few easy commands using the Command line, but if you have never used it before, you might want to look at the lesson Introduction to the [Bash Command Line] (http://programminghistorian.org/lessons/intro-to-bash). I use Windows, but these instructions should function also in Mac. 
+The goal of this lesson is to teach how to do OCR (Optical Character Recognition) for printed or typewritten text. After this lesson you will able to convert printed and type written texts into digital text files. In order to be able to go through all the steps the OCR'ing process demands, you'll need to have an access either to a scanner or digital camera, a computer with internet access, some patience, and a lot of curiosity! We will make a few easy commands using the Command line, but if you have never used it before, you might want to look at the lesson Introduction to the [Bash Command Line] (http://programminghistorian.org/lessons/intro-to-bash). I use Windows, but these instructions should function also in Mac. 
 
 
 ##Why to OCR?
 
-Before starting, I would like to say a couple of words on why would anyone want to learn to OCR. There is an increasing amount of digitized sources available in various databases. Simultanesouly, OCR´ing takes a lot of time, so why bother? That´s true! However, sometimes just the most relevant and interesting documents for your project are not in digital form. And if you think about the source materials that we use for producing new insights and knowledge on our past, it is very important that we will not deliberately restrict ourselves to the already digitized documents, but look at the sources that might provide also alternative and contradictory views! 
+Before starting, I would like to say a couple of words on why would anyone want to learn to OCR. There is an increasing amount of digitized sources available in various databases. Simultanesouly, OCR'ing takes a lot of time, so why bother? That's true! However, sometimes just the most relevant and interesting documents for your project are not in digital form. And if you think about the source materials that we use for producing new insights and knowledge on our past, it is very important that we will not deliberately restrict ourselves to the already digitized documents, but look at the sources that might provide also alternative and contradictory views! 
 
-OCR´ing takes a lot of time. You'll spend numerous hours with your documents, and you might be frustrated. But don't worry! I have realized that actually when you spend a lot of time doing relatively simple and repetitive work, you'll process the issues related to source criticism more thoroughly. 
+OCR'ing takes a lot of time. You'll spend numerous hours with your documents, and you might be frustrated. But don't worry! I have realized that actually when you spend a lot of time doing relatively simple and repetitive work, you'll process the issues related to source criticism more thoroughly. 
 
 
 ##Stages of the Lesson
@@ -47,7 +47,7 @@ For the next steps, save the scans or images in .tiff or .png formats. Save the 
 
 It will be a good practice to save also the metadata. I mean, write down to yourself everything related to the document: what it is, where you found it, which dates it covers, who published it, how many pages there are, anything. You will never know what information will later prove to be important. And this is also a very important information in case you will end up sharing the texts later with someone else, using your text files for other project.
 
-I use Zotero for keeping track on the metadata of my sources, and here is an example of one of them. If you prefer, you can also just write down the metadata to a notepad. Just make sure that you'll store the information to a logical place, where you´ll find it. 
+I use Zotero for keeping track on the metadata of my sources, and here is an example of one of them. If you prefer, you can also just write down the metadata to a notepad. Just make sure that you'll store the information to a logical place, where you'll find it. 
 
 {% include figure.html src="../images/OCR02.png" caption="My metadata in Zotero" %}
 
@@ -102,7 +102,7 @@ Save the preprocessed images to a place where it is easy to access them by using
 
 ##OCR
 
-OK, let´s move on! For OCR we will use free&open source program called Tesseract. 
+OK, let's move on! For OCR we will use free&open source program called Tesseract. 
 
 You can install Tesseract [here] (https://code.google.com/p/tesseract-ocr/wiki/ReadMe).
 If you are going to OCR other languages than English, you will need to install also the [language package] (https://code.google.com/p/tesseract-ocr/downloads/list) for that, and unpack it by using [7-zip] (http://www.7-zip.org/).
@@ -121,7 +121,7 @@ If you are doing OCR for non-English language documents, just add
 -l yourlanguage
 ```
 
-The name of the document I'll OCR is Podstawy01.tif, and I want that the name of the OCR´d text is OCRPodstawy01. In addition, becaue my text is in Polish, I´ll need to add the language definition in the command. My command goes like this: 
+The name of the document I'll OCR is Podstawy01.tif, and I want that the name of the OCR'd text is OCRPodstawy01. In addition, becaue my text is in Polish, I'll need to add the language definition in the command. My command goes like this: 
 
 ```
 tesseract Podstawy01.tif OCRPodstawy01 -l pol
@@ -137,7 +137,7 @@ Now you know how to OCR! Congratulations!
 
 Well, of course this was not the whole story. You will most likely want to do OCR for batch of images at the same time. For doing batch OCR, you'll need to do the following things: 
 
-First, make sure that the path to the preprocessed image folder is not too long, and the names of the folders don't contain breaks. Then create a folder for the ready OCR´d texts to come. 
+First, make sure that the path to the preprocessed image folder is not too long, and the names of the folders don't contain breaks. Then create a folder for the ready OCR'd texts to come. 
 Then we'll create a little gadget: open an empty Notepad and copy the following commands there. 
 
 ```
@@ -154,13 +154,13 @@ Then we'll create a little gadget: open an empty Notepad and copy the following 
    Set "_Tesseract="`
 ```
 
-Then write the path for the input source (=the folder where the preprocessed images are located) after 'Set_SourcePath=', and the path for the output (=the folder where you want the ready OCR´d texts to be stored) after 'Set_OutputPath='. If your texts are not in English, you´ll need to indicate the language right after 'For %%A in (%_SourcePath%) Do Echo Converting %%A...&%_Tesseract% %%A %_OutputPath%%%~nA'. 
+Then write the path for the input source (=the folder where the preprocessed images are located) after 'Set_SourcePath=', and the path for the output (=the folder where you want the ready OCR'd texts to be stored) after 'Set_OutputPath='. If your texts are not in English, you'll need to indicate the language right after 'For %%A in (%_SourcePath%) Do Echo Converting %%A...&%_Tesseract% %%A %_OutputPath%%%~nA'. 
 
 {% include figure.html src="../images/OCR14.png" caption="My script looks like this." %}
 
 Now, save the notepad as .bat format (Windows batch file) and name it Tesseract_batch. Note that the encoding of the .bat file should be ANSI.
 
-Then go with the Command line to the folder where you saved the Tesseract_batch, and type 'Tesseract_batch'. Tesseract OCR´s all the preprocessed documents in the file for you.
+Then go with the Command line to the folder where you saved the Tesseract_batch, and type 'Tesseract_batch'. Tesseract OCR's all the preprocessed documents in the file for you.
 
 Now you have a bunch of text documents. If you want to unite the separate text documents into one document, you will need to go with the command line to the file where you have the OCR output texts, and type to the command line:
 
@@ -177,14 +177,14 @@ Now you have the OCR raw data! Congratulations!
 
 ##OCR cleaning
 
-So, now as you look at the OCR´d text, you will notice soon, that the text is not perfect. Some words are probably not separated and some letters are not correctly written. What remains to be done, is to go through the text, and correct the errors. 
+So, now as you look at the OCR'd text, you will notice soon, that the text is not perfect. Some words are probably not separated and some letters are not correctly written. What remains to be done, is to go through the text, and correct the errors. 
 
 This is the moment when you will thank yourself if you have been able to do a good quality job in the previous phases, because you will probably have pretty clear data. This is also the moment when you will need to decide how pure text you want to have: are you willing to pay less attention in this phase and accept some blurred words, or is the clarity of the text so essential that you will check all the output? 
 
 You might be interested in reading further what to do with the raw OCR data. Fortunately, there are great lessons for that: 
 [Cleaning the OCR results with regular expressions] (http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions) or [generating an ordered data set from the OCR results] (http://programminghistorian.org/lessons/generating-an-ordered-data-set-from-an-OCR-text-file) or [preserving your data] (http://programminghistorian.org/lessons/preserving-your-research-data).
 
-Before OCR´ing all of your sources, try with a small sample materials to do the whole process from scratch to the analysis part you are planning to do. When doing the latter steps you might realize some details that you will need to take into account when doing the previous stages.
+Before OCR'ing all of your sources, try with a small sample materials to do the whole process from scratch to the analysis part you are planning to do. When doing the latter steps you might realize some details that you will need to take into account when doing the previous stages.
 
  
 I would not have been able to learn myself and write this lesson without help of many people. Especially the help of Brooks Ambrose and the folks at the UC Berkeley D-lab!
