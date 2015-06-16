@@ -187,7 +187,12 @@ may miss a page or two in the automated download – in this case there
 are a few URLs that include a letter in the name of the .jpeg
 ('s126a.v.jpg' or 's126b.v.jpg' for example). This is going to happen
 from time to time when downloading from archives, so do not be surprised
-if you miss a page or two during an automated download.
+if you miss a page or two during an automated download. 
+
+Note that a potential workaround
+could include using regular expressions to make more complicated queries if appropriate
+(for more, see the [Understanding Regular Expressions](http://programminghistorian.org/lessons/understanding-regular-expressions) 
+lesson).
 
 Let's run the script and Wget command once more:
 
