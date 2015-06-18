@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/normalizing-data/feed" rel="alternate" title="The Programming Historian » Normalizing Data Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/counting-frequencies" rel="prev" title="Counting Frequencies"/><link href="http://programminghistorian.org/lessons/from-html-to-list-of-words-2" rel="next" title="From HTML to List of Words (part 2)"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/normalizing-data" rel="canonical"/><link href="http://programminghistorian.org/?p=1566" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="William J. Turkel &amp; Adam Crymble" name="author"/><meta content="Normalizing Data" name="title"/><meta content="2012-07-17" name="date"/><meta content="Miriam Posner, Jim Clifford, Francesca Benatti" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1566">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<h2>Lesson Goals</h2>
+<p>The list that we created in the <a href="/lessons/from-html-to-list-of-words-2">From HTML to a List of Words (2)</a> needs some <span class="tech">normalizing</span> before it can be used further. We are going to do this by applying additional string methods, as well as by using <span class="tech">regular expressions</span>. Once normalized, we will be able to more easily analyze our data.</p>
+<h3>Files Needed For This Lesson</h3>
+<ul>
+<li><code>html-to-list-1.py</code></li>
+<li><code>obo.py</code></li>
+</ul>
+<p>If you do not have these files from the previous lesson, you can download a <a href="/lessons/from-html-to-list-of-words-2#codesync">zip file from the previous lesson here.</a></p>
+<h2>Cleaning up the List</h2>
+<p>In <a href="/lessons/from-html-to-list-of-words-2">From HTML to a List of Words (2)</a>, we wrote a Python program called <em><code>html-to-list-1.py</code></em> which downloaded a <a href="http://www.oldbaileyonline.org/print.jsp?div=t17800628-33" target="_blank">web page</a>, stripped out the HTML formatting and metadata and returned a list of “words” like the one shown below. Technically, these entities are called “<span class="tech">tokens</span>” rather than “words”. They include some things that are, strictly speaking, not words at all (like the abbreviation &amp;c. for “etcetera”). They also include some things that may be considered composites of more than one word. The possessive “Akerman’s,” for example, is sometimes analyzed by linguists as two words: “Akerman” plus a possessive marker. Is “o’clock” one word or two? And so on.</p>
+<p>Turn back to your program <em><span class="tech">html-to-list-1.py</span></em> and make sure that your results look something like this:</p>
+<pre class="python">['BENJAMIN', 'BOWSEY,', 'Breaking', 'Peace', '&gt;',
+'riot,', '28th', 'June', '1780.', '324.', 'BENJAMIN',
+'BOWSEY', '(a', 'blackmoor', ')', 'was', 'indicted',
+'for', 'that', 'he', 'together', 'with', 'five',
+'hundred', 'other', 'persons', 'and', 'more,', 'did,',
+'unlawfully,', 'riotously,', 'and', 'tumultuously',
+'assemble', 'on', 'the', '6th', 'of', 'June', 'to',
+'the', 'disturbance', 'of', 'the', 'public', 'peace',
+'and', 'did', 'begin', 'to', 'demolish', 'and', 'pull',
+'down', 'the', 'dwelling', 'house', 'of', 'Richard',
+'Akerman', ',', 'against', 'the', 'form', 'of', 'the',
+'statute,', '&amp;c.', 'ROSE', 'JENNINGS', ',', 'Esq.',
+'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be',
+'in', 'this', 'part', 'of', 'the', 'town,', 'on', 'the',
+'6th', 'of', 'June', 'in', 'the', 'evening?', '-', 'I',
+'dined', 'with', 'my', 'brother', 'who', 'lives',
+'opposite', 'Mr.', "Akerman's", 'house.', 'They',
+'attacked', 'Mr.', "Akerman's", 'house', 'precisely',
+'at', 'seven', "o'clock;", 'they', 'were', 'preceded',
+'by', 'a', 'man']</pre>
+<p>By itself, this ability to separate the document into words doesn’t buy us much because we already know how to read. We can use the text, however, to do things that aren’t usually possible without special software. We’re going to start by computing the frequencies of tokens and other linguistic units, a classic measure of a text.</p>
+<p>It is clear that our list is going to need some cleaning up before we can use it to count frequencies. In keeping with the practices established in <a href="/lessons/from-html-to-list-of-words-1">From HTML to a List of Words (1)</a>, let’s try to describe our algorithm in plain English first. We want to know the frequency of each meaningful word that appears in the trial transcript. So, the steps involved might look like this:</p>
+<ul>
+<li>Convert all words to lower case so that “BENJAMIN” and “benjamin” are counted as the same word</li>
+<li>Remove any strange or unusual characters</li>
+<li>Count the number of times each word appears</li>
+<li>Remove overly common words such as “it”, “the”, “and”, etc.</li>
+</ul>
+<h2>Convert to Lower Case</h2>
+<p>Typically tokens are <span class="tech">folded</span> to lower case when counting frequencies, so we’ll do that using the string method <span class="reserved">lower</span> which was introduced in <a href="/lessons/manipulating-strings-in-python">Manipulating Strings in Python</a>. Since this is a string method we will have to apply it to the string: <span class="var">text</span> in the <em><code>html-to-list1.py</code></em> program. Amend <em><code>html-to-list1.py</code></em> by adding the string tag <span class="reserved">lower()</span> to the the end of the <span class="var">text</span> string.</p>
+<pre class="python">#html-to-list1.py
+import urllib2, obo
+
+url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+
+response = urllib2.urlopen(url)
+html = response.read()
+text = obo.stripTags(html).lower() #add the string method here.
+wordlist = text.split()
+
+print (wordlist)</pre>
+<p>You should now see the same list of words as before, but with all characters changed to lower case.</p>
+<p>By calling methods one after another like this, we can keep our code short and make some pretty significant changes to our program.</p>
+<p>Like we said before, Python makes it easy to do a lot with very little code!</p>
+<p>At this point, we might look through a number of other <span class="pub">Old Bailey Online</span> entries and a wide range of other potential sources to make sure that there aren’t other special characters that are going to cause problems later. We might also try to anticipate situations where we don’t want to get rid of punctuation (e.g., distinguishing monetary amounts like “$1629″ or “£1295″ from dates, or recognizing that “1629-40″ has a different meaning than “1629 40″.) This is what professional programmers get paid to do: try to think of everything that might go wrong and deal with it in advance.</p>
+<p>We’re going to take a different approach. Our main goal is to develop techniques that a working historian can use during the research process. This means that we will almost always prefer approximately correct solutions that can be developed quickly. So rather than taking the time now to make our program robust in the face of exceptions, we’re simply going to get rid of anything that isn’t an accented or unaccented letter or an Arabic numeral. Programming is typically a process of “stepwise refinement”. You start with a problem and part of a solution, and then you keep refining your solution until you have something that works better.</p>
+<h2>Python Regular Expressions</h2>
+<p>We’ve eliminated upper case letters. That just leaves all the punctuation to get rid of. Punctuation will throw off our frequency counts if we leave them in. We want “evening?” to be counted as “evening” and “1780.” as “1780″, of course.</p>
+<p>It is possible to use the <span class="reserved">replace</span> string method to remove each type of punctuation:</p>
+<pre class="python">text = text.replace('[', '')
+text = text.replace(']', '')
+text = text.replace(',', '')
+#etc...</pre>
+<p>But that’s not very efficient. In keeping with our goal of creating short, powerful programs, we’re going to use a mechanism called <span class="tech">regular expressions</span>. Regular expressions are provided by many programming languages in a range of different forms.</p>
+<p>Regular expressions allow you to search for well defined patterns and can drastically shorten the length of your code. For instance, if you wanted to know if a substring matched a letter of the alphabet, rather than use an <span class="reserved">if/else</span> statement to check if it matched the letter “a” then “b” then “c”, and so on, you could use a regular expression to see if the substring matched a letter between “a” and “z”. Or, you could check for the presence of a digit, or a capital letter, or any alphanumeric character, or a carriage return, or any combination of the above, and more.</p>
+<p>In Python, regular expressions are available as a Python module. To speed up processing it is not loaded automatically because not all programs require it. So, you will have to <span class="reserved">import</span> the module (called <code>re</code>) in the same way that you imported your <em><code>obo.py</code></em> module.</p>
+<p>Since we’re interested in only alphanumeric characters, we’ll create a regular expression that will isolate only these and remove the rest. Copy the following function and paste it into the <em><code>obo.py</code></em> module at the end. You can leave the other functions in the module alone, as we’ll continue to use those.</p>
+<pre class="python"># Given a text string, remove all non-alphanumeric
+# characters (using Unicode definition of alphanumeric).
+
+def stripNonAlphaNum(text):
+    import re
+    return re.compile(r'\W+', re.UNICODE).split(text)</pre>
+<p>The regular expression in the above code is the material inside the string, in other words <span class="reserved">W+</span>. The <span class="reserved">W</span> is shorthand for the class of <span class="tech">non-alphanumeric characters</span>. In a Python regular expression, the plus sign (<span class="reserved">+</span>) matches one or more copies of a given character. The <span class="reserved">re.UNICODE</span> tells the interpreter that we want to include characters from the world’s other languages in our definition of “alphanumeric”, as well as the A to Z, a to z and 0-9 of English. Regular expressions have to be <span class="tech">compiled</span> before they can be used, which is what the rest of the statement does. Don’t worry about understanding the compilation part right now.</p>
+<p>When we refine our <em><code>html-to-list1.py</code></em> program, it now looks like this:</p>
+<pre class="python">#html-to-list1.py
+import urllib2, obo
+
+url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+
+response = urllib2.urlopen(url)
+html = response.read()
+text = obo.stripTags(html).lower()
+wordlist = obo.stripNonAlphaNum(text)
+
+print wordlist[0:500]</pre>
+<p>When you execute the program and look through its output in the “Command Output” pane, you’ll see that it has done a pretty good job. This code will split hyphenated forms like “coach-wheels” into two words and turn the possessive “s” or “o’clock” into separate words by losing the apostrophe. But it is a good enough approximation to what we want that we should move on to counting frequencies before attempting to make it better. (If you work with sources in more than one language, you need to learn more about the <a href="http://unicode.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://unicode.org']);" target="_blank">Unicode</a> standard and about <a href="http://www.diveintopython.net/xml_processing/unicode.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.diveintopython.net']);" target="_blank">Python support</a> for it.)</p>
+<p>For extra practice with Regular Expressions, you may find Chapter 7 of Mark Pilgrim’s “<span class="pub"><a href="http://www.diveintopython.net/regular_expressions/index.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.diveintopython.net']);" target="_blank">Dive into Python</a></span>” a useful tutorial.</p>
+
+<!-- You can start editing here. -->
+
+<div class="navigation">
+<div class="alignleft"></div>
+<div class="alignright"></div>
+</div>
+
+<div class="navigation">
+<div class="alignleft"></div>
+<div class="alignright"></div>
+</div>
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c" type="text/javascript"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body></html>

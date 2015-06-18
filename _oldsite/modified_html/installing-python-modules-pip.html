@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','amanda-morton',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/installing-python-modules-pip/feed" rel="alternate" title="The Programming Historian » Installing Python Modules with pip Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/creating-an-omeka-exhibit" rel="prev" title="Creating an Omeka.net Exhibit"/><link href="http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions" rel="next" title="Cleaning OCR’d text with Regular Expressions"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/installing-python-modules-pip" rel="canonical"/><link href="http://programminghistorian.org/?p=1695" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="Fred Gibbs, Ben Hurwitz, Amanda Morton" name="author"/><meta content="Installing Python Modules with pip" name="title"/><meta content="2013-05-06" name="date"/><meta content="" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1695">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<h2>Lesson Goals</h2>
+<p>This lesson shows you how to download and install Python modules. There are many ways to install external modules, but for the purposes of this lesson, we’re going to use a program called <a href="http://www.pip-installer.org/en/latest/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.pip-installer.org']);" target="_blank">pip</a>.  <span id="more-1695"></span> </p>
+<h2>Introducing Modules</h2>
+<p>One of the great things about using Python is the number of fantastic code libraries that are widely and easily available that can save you a lot of coding, or simply make a particular task (like creating a CSV file, or scraping a webpage) much easier. When Googling for solutions to problems, you’ll often find sample code that uses code libraries you haven’t heard about before. Don’t let these scare you away! Once these libraries are installed on your computer, you can use them by importing them at the beginning of your code; you can import as many libraries as you’d like, such as</p>
+<pre class="python">
+import csv
+import requests
+import kmlwriter
+import pprint
+</pre>
+<p>For new Python users, it can be a bit intimidating to download and install external modules for the first time. There are many ways of doing it (thus adding to the confusion); this lesson introduces one of the easiest and most common ways of installing python modules.</p>
+<p>The goal here is to install software on your computer that can automatically download and install Python modules for us. We’re going to use a program called <a href="http://www.pip-installer.org/en/latest/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.pip-installer.org']);" target="_blank">pip</a>.</p>
+<p>Note: As of Python 3.4, pip will be included in the regular install. There are many reasons why you might not have this version yet, and in case you don’t, these instructions should help.</p>
+<h3>Mac and Linux instructions</h3>
+<p>As per the pip documentation, we can download a python script to install pip for us. Using a Mac or Linux, we can install pip via the command line by using the <a href="http://www.thegeekstuff.com/2012/04/curl-examples/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.thegeekstuff.com']);" target="_blank">curl command</a>, which downloads the pip installation perl script.</p>
+<pre class="bash">
+curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+</pre>
+<p>once you’ve downloaded the get-pip.py file, you need to execute it with the python interpreter. However, if you try to execute the script with python like</p>
+<pre class="bash">
+python get-pip.py
+</pre>
+<p>the script will most likely fail because it won’t have permissions to update certain directories on your filesystem that are by default set so that random scripts cannot change important files and give you viruses. In this case—and in all cases where you need to allow a script that you trust to write to your system folders—you can use the <strong>sudo</strong> command (short for “Super User DO”) in front of the python command, like</p>
+<pre class="bash">
+sudo python get-pip.py
+</pre>
+<h3>Windows Instructions</h3>
+<p>As with the above platforms, the easiest way to install pip is through the use of a python program called get-pip.py, which you can download <a href="https://raw.github.com/pypa/pip/master/contrib/get-pip.py" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://raw.github.com']);">here</a>. When you open this link, you might be scared of the massive jumble of code that awaits you. Please don’t be. Simply use your browser to save this page under its default name, which is get-pip.py. It might be a good idea to save this file in your python directory, so you know where to find it.</p>
+<p>Once you have saved this file, you need to run it, which can be done in two ways. If you prefer using your python interpreter, just right-click on the file get-pip.py and choose “open with” and then choose whatever python interpreter you care to use. </p>
+<p>If you prefer to install pip using the windows command line, navigate to whatever directory you’ve placed python and get-pip.py. For this example, we’ll assume this directory is python27, so we’ll use the command C:\&gt;cd python27. Once you are in this directory, run the command</p>
+<pre class="bash">
+python get-pip.py to install pip
+</pre>
+<p>If you are looking for more information, check out the <a href="http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://stackoverflow.com']);">StackOverflow page</a> that seems to be regularly updated.</p>
+<h2>Installing Python Modules</h2>
+<p>Now that you have pip, it is easy to install python modules since it does all the work for you. When you find a module that you want to use, usually the documentation or installation instructions will include the necessary pip command, such as</p>
+<pre class="bash">
+pip install requests
+pip install beautifulsoup4
+pip install simplekml
+</pre>
+<p>Remember, for the same reasons explained above, you will probably need to run pip with sudo, like</p>
+<pre class="bash">
+sudo pip install requests
+</pre>
+<p>Happy installing!</p>
+
+<!-- You can start editing here. -->
+
+<div class="navigation">
+<div class="alignleft"></div>
+<div class="alignright"></div>
+</div>
+
+<div class="navigation">
+<div class="alignleft"></div>
+<div class="alignright"></div>
+</div>
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushBash.js?ver=3.0.83c" type="text/javascript"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body></html>

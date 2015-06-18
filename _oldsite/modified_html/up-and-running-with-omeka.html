@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','miriam',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/up-and-running-with-omeka/feed" rel="alternate" title="The Programming Historian » Up and Running with Omeka.net Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/your-first-lesson-2" rel="prev" title="Your First Lesson"/><link href="http://programminghistorian.org/lessons/creating-an-omeka-exhibit" rel="next" title="Creating an Omeka.net Exhibit"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/up-and-running-with-omeka" rel="canonical"/><link href="http://programminghistorian.org/?p=1705" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="Miriam Posner" name="author"/><meta content="Up and Running with Omeka.net" name="title"/><meta content="2013-04-24" name="date"/><meta content="Adam Crymble, Sheila Brennan" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1705">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<p><a href="http://www.omeka.net/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.omeka.net']);" target="_blank" title="Omeka.net, the hosted version of Omeka">Omeka</a> is a free <a href="https://en.wikipedia.org/wiki/Content_management_system" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">content management system</a> that makes it easy to create websites that show off collections of items. As you will learn below, there are actually two versions of Omeka: <a href="http://www.omeka.net/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.omeka.net']);" target="_blank" title="Omeka.net, the hosted version of Omeka">Omeka.net </a>and <a href="http://omeka.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://omeka.org']);" target="_blank" title="Omeka.org, the kind you host on your own server">Omeka.org</a>. In this lesson you willl be using the former.</p>
+<p>Omeka is an ideal solution for historians who want to display collections of documents, archivists who want to organize artifacts into categories, and teachers who want students to learn about the choices involved in assembling historical collections. It is n<span style="color: #000000;">ot difficult</span>, but it is helpful to start off with some basic terms and concepts. In this lesson, you will sign up for an account at Omeka.net and start adding digital objects to your site.</p>
+<h3>When might Omeka.net be the right choice for your website?</h3>
+<ul>
+<li><strong>You have a set of items you want to display on the web.</strong> Omeka is designed to display collections. The content of the collection can be anything from physical objects, to photographs, to people, or even ideas. To make the most of Omeka you should have lots of items that you want to show off.</li>
+<li><strong>You want to tell stories with those items.</strong> With Omeka, you can create exhibits: narrative walk-throughs of items.</li>
+<li><strong>You want to preserve complete information about each object.</strong> Omeka excels at <a href="http://en.wikipedia.org/wiki/Metadata" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">metadata</a>; that is, information about the items in your collection. With Omeka you can fill out a form to describe the attributes of each item in your collection, helping you to keep track of this information in the future.</li>
+</ul>
+<h3>When might Omeka.net not be the right choice for your website?</h3>
+<ul>
+<li><strong>You want a simple website.</strong> If you just want a website with a few pages, some text, images, and other media, Omeka might be more tool than you need. Instead, consider <a href="http://wordpress.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://wordpress.com']);" target="_blank">WordPress</a> or some basic <a href="http://www.w3schools.com/html/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.w3schools.com']);" target="_blank" title="W3 Schools HTML Tutorial">HTML</a>.</li>
+<li><strong>You want a lot of control over the way things look</strong>. Omeka.net sites come with a number of built-in <a href="http://omeka.org/add-ons/themes/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://omeka.org']);" target="_blank" title="Omeka Themes">themes</a> which define how the website looks (the colours, fonts, layouts, etc), but you cannot control every element of your site’s appearance. If you want to fine-tune the appearance of your site, consider using <a href="http://omeka.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://omeka.org']);" target="_blank">Omeka.org</a> and customizing a theme. You will need some experience with <a href="http://www.w3schools.com/css/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.w3schools.com']);" target="_blank" title="W3 Schools CSS Tutorial">CSS</a> to do this effectively.</li>
+<li><strong>You want sophisticated, dynamic queries of your database.</strong> A user can search your Omeka collection, but you cannot easily customize the home page so that it, say, always shows the most-viewed spoon in your spoon collection. That is, Omeka does not allow you to create custom queries. If this is important to you, consider <a href="http://drupal.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://drupal.org']);" target="_blank">Drupal</a>.</li>
+<li><strong>You want to create very complex paths through your collection.</strong> Omeka exhibits, which tell the story of your items, are pretty linear and straightforward. If you find this constraining, you might consider <a href="http://scalar.usc.edu/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://scalar.usc.edu']);" target="_blank" title="The Scalar content management system">Scalar</a>, which allows you to set up and visualize multiple paths through a database.</li>
+</ul>
+<h3>An Omeka vocabulary lesson</h3>
+<p><strong>Item</strong>: The basic unit of an Omeka site. An item can be anything: a photograph, a work of art, a person, an idea. You will describe each item, and you can upload files to represent it. You will build your Omeka site by assembling items.</p>
+<p><strong>Collection</strong>: A set of items that you have grouped together. Your Omeka site can have multiple collections, but an individual item can only belong to one collection at a time.</p>
+<p><strong>Exhibit</strong>: A thematic tour of your items. Each exhibit has sections and pages. You might think of these as akin to book chapters and book pages. A section is a group of pages, and a page is a group of items (along with descriptions). You can have multiple exhibits, and items can belong to multiple exhibits.</p>
+<p><strong>Dublin Core</strong>: Dublin Core is the name for a kind of metadata. Metadata is sort of what it sounds like; that is, information about information. You will use metadata to describe attributes of your items, like their sizes, dates of creation, etc. In order to keep these descriptions consistent, information professionals have defined various metadata standards. Dublin Core is the name of the standard that Omeka uses. (<a href="http://dublincore.org/documents/dcmi-terms/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://dublincore.org']);" target="_blank">Read more about Dublin Core</a>.)</p>
+<p><strong>Item Type</strong>: An item, as we learned, can be many different things, like a photograph, a website, a book, or a person. An “item type” is just the kind of thing the item is. You can choose from a built-in list of item types, or you can create your own.</p>
+<p><strong>Simple Pages</strong>: A page on your Omeka site that is not part of an exhibit or item. For example, you can add an “About” page using Simple Pages.</p>
+<p><strong>Omeka.org versus Omeka.net</strong>: There are two kinds of Omeka sites. The kind you are using is hosted at <a href="http://www.omeka.net/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.omeka.net']);" target="_blank">Omeka.net</a>, meaning that you do not have to install anything and you do not need to have a web server of your own. You just sign up for an account using a web form. If you would like to customize your Omeka site more heavily than Omeka.net allows, you might consider <a href="http://omeka.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://omeka.org']);" target="_blank">Omeka.org</a>. With an Omeka.org site, you download a free software package and install it on your own server. This means that Omeka.org sites can be more customized, but you have to be comfortable installing Omeka on a server.</p>
+<p>… And one more thing! You might think it’s pronounced oh-mee-ka, but it’s actually oh-meh-ka. Confusing, I know!</p>
+<p>Now that we have got that out of the way, let’s get started!</p>
+<h3>Sign up for an Omeka account</h3>
+<p><img alt="media_1363306314614.png" height="470" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363306314614.png" width="540"/> <p>Figure 1: Sign up for a new account screen on Omeka.net</p></p>
+<p>Go to <a href="http://www.omeka.net/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.omeka.net']);" target="_blank">www.omeka.net</a> and click on <strong>Sign Up</strong>. Choose the Basic plan. Fill in the sign-up form. Check your email for the link to activate your account.</p>
+<h3>Create your new Omeka site</h3>
+<p><img alt="media_1363306593724.png" height="261" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363306593724.png" width="540"/> <p>Figure 2: The Omeka Dashboard, add your site</p></p>
+<p>After you have clicked on the link in your email, click on <strong>Add a Site</strong>. Fill in information about your site’s URL, the title you want to use, and a description if you would like. Click on <strong>Add Your Site</strong>.</p>
+<h3>You have a new Omeka site!</h3>
+<p><img alt="media_1363306764311.png" height="334" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363306764311.png" width="540"/> <p>Figure 3: The Omeka Dashboard, view your site</p></p>
+<p>To see what the website looks like, click on <strong>View Site</strong>.</p>
+<h3>An empty Omeka site</h3>
+<p><img alt="media_1363306850490.png" height="250" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363306850490.png" width="540"/> <p>Figure 4: The public view of the website</p></p>
+<p>This is the public-facing element of your empty Omeka site. It is currently empty, waiting for you to fill it in. You will need to return to the dashboard to begin filling in the website. To get back to your dashboard, click the <strong>Back</strong> button or enter <strong>http://www.nameofyoursite.omeka.net/admin</strong>. This time, click on <strong>Manage Site</strong>.</p>
+<h3>Switch themes</h3>
+<p><img alt="media_1363419755762.png" height="410" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363419755762.png" width="540"/> <p>Figure 5: Switching Omeka themes</p></p>
+<p>Omeka allows you to change the look of your public-facing site by switching themes. To do this, click on <strong>Settings</strong> (at the top right of your dashboard), then select <strong>Themes</strong> on the left side of the page. Switch themes by selecting one of the options on the page. Press the green <strong>Switch Theme</strong> button to activate your new theme. Then visit your public site by clicking on <strong>View Public Site</strong> at the top right. If you do not immediately see the new theme, try doing a <a href="http://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">hard refresh</a> on your browser.</p>
+<h3>You have a new theme!</h3>
+<p><img alt="media_1363419912798.png" height="241" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363419912798.png" width="540"/>
+<p>Figure 6: Your site with a new Omeka theme</p></p>
+<p>Once you have checked out your new theme, head back to your dashboard. You can switch back to your old theme, keep this one, or select one of the other options.</p>
+<h3>Install plugins</h3>
+<p><img alt="media_1363309931413.png" height="345" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363309931413.png" width="540"/>
+<p>Figure 7: Installing Omeka plugins</p></p>
+<p>Your Omeka site comes with plugins, which are snippets of pre-written code that offer some extra functionality. These plugins are deactivated by default. If you want to use this extra functionality you need to enable the desired plugin. To do that, click on the red <strong>Settings</strong> button at the top right of the dashboard screen. On the following page, click the <strong>Install</strong> button next to <strong>Exhibit Builder </strong>and <strong>Simple Pages</strong>. On the following page you will be given additional options, but leave these as they are for now.</p>
+<h3>Add an item to your archive</h3>
+<p><img alt="media_1363307013066.png" height="515" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363307013066.png" width="540"/>
+<p>Figure 8: Add an item to your Omeka archive</p></p>
+<p>Click on <strong>Add a new item to your archive</strong>.</p>
+<h3>Describe your new item</h3>
+<p><img alt="media_1363308451882.png" height="355" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363308451882.png" width="540"/>
+<p>Figure 9: Describe an Omeka item</p></p>
+<p>Remember, <strong>Dublin Core</strong> refers to the descriptive information you will enter about your item. All of this information is optional, and you cannot really do it wrong. But try to be consistent. (If you are interested in learning about each of the Dublin Core fields and how to use them consistently, read more about them in the <a href="http://dublincore.org/documents/dcmi-terms/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://dublincore.org']);" target="_blank">Dublin Core documentation</a>.)</p>
+<p>Be sure to click the <strong>Public</strong> checkbox so that your item is viewable by the general public. If you do not click that box, only people who are logged into your site will be able to see the item.</p>
+<p>To add multiple fields — for example, if you want to add multiple subjects for your item — use the green <strong>Add input</strong> button to the left of the text boxes.</p>
+<h3>To what does the metadata really refer?</h3>
+<p><img alt="media_1363307526429.png" height="540" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363307526429.png" width="540"/>
+<p>Figure 10: Is the metadata referring to Bertie, my dog, or this photograph of Bertie?</p></p>
+<p>I am creating an item record for my dog, Bertie. But am I describing Bertie <i>himself</i> or a <i>photograph</i> of Bertie? If it is the former, the <strong>Creator</strong> would be — well, I guess that depends on your religious outlook. If it is the latter, the creator would be Brad Wallace, who took the photo. The decision about whether you are describing the object or the representation of the object is up to you. But once you have decided, be consistent.</p>
+<h3>Attach a file to your item record</h3>
+<p><img alt="media_1363307721915.png" height="185" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363307721915.png" width="540"/>
+<p>Figure 11: Attach a file to an Omeka item</p></p>
+<p>Once you have finished adding Dublin Core metadata, you can attach a file to your item record by clicking <strong>Files</strong> to the left of the Dublin Core form. (You do not have to click <strong>Add Item</strong> before you do this; Omeka will automatically save your information.) You can add multiple files, but be aware that the Basic plan only comes with 500 MB of storage space.</p>
+<p>Once you have added a file or files, you can add <strong>Tags</strong> by clicking on the button. You can also click on <strong>Item Type Metadata</strong> to choose the category — person, place, animal, vegetable, mineral — your item is. If you do not see the appropriate item type for your item, do not worry. You can add a new item type later.</p>
+<p>When you are finished, click the green <strong>Add Item</strong> button.</p>
+<h3>Your completed item</h3>
+<p><img alt="media_1363308525582.png" height="242" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363308525582.png" width="540"/>
+<p>Figure 12: A completed Omeka item</p></p>
+<p>This list contains all the items you have added, which so far numbers only one. Notice the green checkmark that appears in the <strong>Public</strong> column. To see what the page for your new item looks like, click on the name of the item.</p>
+<h3>This is not the public page for your item</h3>
+<p><img alt="media_1363308109980.png" height="369" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363308109980.png" width="540"/>
+<p>Figure 13: The private view of your item page</p></p>
+<p>It may look like it, but this page is not what a non-logged-in user will see when she navigates to the page for your item. To see what a user would see, click on <strong>View Public Page</strong>. (Or you can continue to edit the item by clicking on <strong>Edit this item</strong> at the top right.)</p>
+<h3>The public page for your item</h3>
+<p><img alt="media_1363308234605.png" height="669" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363308234605.png" width="540"/>
+<p>Figure 14: The public page of an Omeka item</p></p>
+<p>This is what a general user will see if she navigates to your page.</p>
+<h3>Create a collection</h3>
+<p><img alt="media_1363308884958.png" height="190" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363308884958.png" width="540"/>
+<p>Figure 15: Create an Omeka collection</p></p>
+<p>Once you have several items, you can begin to bring order to those items by grouping them together into collections. To do this, return to your dashboard, click on the <strong>Collections</strong> tab, and click on <strong>Add a Collection</strong>.</p>
+<h3>Enter information about your collection</h3>
+<p><img alt="media_1363308978515.png" height="565" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363308978515.png" width="540"/>
+<p>Figure 16: Enter information about your Omeka collection</p></p>
+<p>In Omeka, metadata is key. Enter some information about your new collection, and remember to click on the <strong>Public</strong> button near the bottom of the page. Then save your collection. You now have an empty collection.</p>
+<h3>Add items to your collection</h3>
+<p><img alt="media_1363309164290.png" height="237" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363309164290.png" width="540"/>
+<p>Figure 17: Add items to an Omeka collection</p></p>
+<p>To add items to the collection you have just created, click on the <strong>Items</strong> tab. From your <strong>Browse Items</strong> list, click the boxes of the items that belong in your new collection. Then click on the green <strong>Edit Selected Items</strong> button.</p>
+<h3>Choose the collection</h3>
+<p><img alt="media_1363309302937.png" height="353" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363309302937.png" width="540"/>
+<p>Figure 18: Choose the Omeka collection to which you wish to add your item</p></p>
+<p>On the <strong>Batch Edit Items</strong> page, select the Collection you would like to add your items to. (Also, take note of all the other options you have on this page.)</p>
+<h3>View your new collection</h3>
+<p><img alt="media_1363309504604.png" height="270" src="http://programminghistorian.org/wp-content/uploads/2013/04/media_1363309504604.png" width="540"/>
+<p>Figure 19: View the Omeka collection</p></p>
+<p>To view the new collection, return to the public site. If you click on the <strong>Browse Collections</strong> tab on the public-facing site, you should now have a new collection containing the items you identified.</p>
+<p>Now that you have added some items and grouped them into a collection, take some time to play with your site. It is beginning to take shape now that you have both individual items and thematic units. But Omeka can do even more. We will talk about that in the next lesson.</p>
+<h3>Further Resources</h3>
+<ul>
+<li>The Omeka team has put together great resources on the software’s <a href="http://info.omeka.net/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://info.omeka.net']);">help pages</a></li>
+</ul>
+
+<!-- You can start editing here. -->
+<!-- If comments are open, but there are no comments. -->
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+</body></html>

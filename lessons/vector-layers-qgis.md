@@ -1,8 +1,18 @@
 ---
 title: Creating New Vector Layers in QGIS 2.0
-author: Jim Clifford, Josh MacFadyen, Daniel Macfarlane
-date: 12-13-2013
-reviewers: Finn Arne Jørgensen, Peter Webster, Abby Schreiber, Adam Crymble
+authors:
+- Jim Clifford
+- Josh MacFadyen
+- Daniel Macfarlane
+date: 2013-12-13
+reviewers:
+- Finn Arne Jørgensen
+- Peter Webster
+- Abby Schreiber
+- Adam Crymble
+layout: default
+next: georeferencing-qgis
+prev: qgis-layers
 ---
 
 Lesson Goals
@@ -32,7 +42,7 @@ In this lesson you will be creating shapefiles (which are a type of
 vector data) to represent the historical development of communities and
 roads in Prince Edward Island. Each shapefile can be created as one of
 the three types of features: line, point, polygon (though these features
-can’t be mixed within a shapefile) . Each feature you create in a
+can't be mixed within a shapefile) . Each feature you create in a
 shapefile has a corresponding set of attributes, which are stored in an
 attribute table. You will create features and learn how to modify them,
 which involves not only the visual creation of the three types of
@@ -40,7 +50,7 @@ features, but also the modification of their attributes. To do so, we
 will use the files from [Installing QGIS 2.0 and Adding Layers][]
 concerning Prince Edward Island.
 
-**Getting Started:**
+## Getting Started
 
 Start by downloading the [PEI\_Holland map][] to the project folder:
 
@@ -57,35 +67,29 @@ Layers][]. You should have the following layers in your Layers window:
 Uncheck all of these layer except for PEI\_placenames,
 coastline\_polygon and PEI\_CumminsMap1927
 
-[![pei1][]][]
-
-Figure 1: Click to see full size image.
+{% include figure.html src="../images/pei1.png" caption="Figure 1: Click to see full size image." %}
 
 We are now going to add a second historical map as a raster layer.
 
-![pei2][]
-
-Figure 2
+{% include figure.html src="../images/pei2.png" caption="Figure 2" %}
 
 -   under Layer on toolbar, choose Add Raster Layer (alternatively the
-    same icon you see next to ‘Add Raster Layer’ can also be selected
+    same icon you see next to 'Add Raster Layer' can also be selected
     from tool bar)
--   find the file you have downloaded titled ‘PEI\_HollandMap1798′
--   you will be prompted to define this layer’s coordinate system. In
-    the Filter box search for ’2291′ then in the box below select
-    ‘NAD83(CSRS98) / Prince Edward Isl. Stereographic’
--   If you are not prompted to define the layer’s coordinate system, you
+-   find the file you have downloaded titled 'PEI\_HollandMap1798'
+-   you will be prompted to define this layer's coordinate system. In
+    the Filter box search for '2291' then in the box below select
+    'NAD83(CSRS98) / Prince Edward Isl. Stereographic'
+-   If you are not prompted to define the layer's coordinate system, you
     need to change a setting. Click Settings and then Options. Click CRS
-    on the right hand menu and then choose ‘Prompt for CRS’ from the
-    options below ‘When a new layer is created, or when a layer is
-    loaded that has no CRS’. Click OK. Remove the Holland Map (right
+    on the right hand menu and then choose 'Prompt for CRS' from the
+    options below 'When a new layer is created, or when a layer is
+    loaded that has no CRS'. Click OK. Remove the Holland Map (right
     click on it and click Remove) and try adding it again. This time you
     should be prompted for a CRS and you can select the NAD83 option
     (see above).
 
-![pei3][]
-
-Figure 3
+{% include figure.html src="../images/pei3.png" caption="Figure 3" %}
 
 In previous steps you have selected and unselected layers in the Layers
 window by checking and unchecking the boxes next to them. These layers
@@ -103,9 +107,7 @@ this is because it has already been georeferenced by the lesson writers
 to match the GIS vector layers. Learn more about georeferencing in
 [Georeferencing in QGIS 2.0][].
 
-![pei4][]
-
-Figure 4
+{% include figure.html src="../images/pei4.png" caption="Figure 4" %}
 
 We will now create a point shapefile, which is a vector layer. Click
 Layer -\> New -\> New Shapefile Layer
@@ -113,9 +115,7 @@ Layer -\> New -\> New Shapefile Layer
 -   alternatively you can select the New Shapefile Layer icon on the top
     of the QGIS toolbar window
 
-![pei5][]
-
-Figure 5
+{% include figure.html src="../images/pei5.png" caption="Figure 5" %}
 
 After selecting New Shapefile Layer, a window titled New Vector Layer
 appears
@@ -126,55 +126,49 @@ appears
     understanding and selecting UTM zone:
     <http://www.lib.uwaterloo.ca/locations/umd/digital/clump_classes.html>)
 
-[![pei6][]][]
-
-Figure 6: Click to see full size image.
+{% include figure.html src="../images/pei6.png" caption="Figure 6: Click to see full size image." %}
 
 Returning to the New Vector Layer window, we are going to make some
 attributes. To create the first attribute:
 
 -   under New attribute, in the field beside Name, type in
-    ‘Settlement\_Name’ (note that when working in databases you cannot
+    'Settlement\_Name' (note that when working in databases you cannot
     use empty spaces in names so the convention is to use underscores in
     their place)
 -   click Add to attributes list
 
 Now we are going to create a second attribute:
 
--   under New attribute, in the field beside Name, type in ‘Year’
+-   under New attribute, in the field beside Name, type in 'Year'
 -   this time, we are going to change the Type to Whole Number
 -   click Add to attribute list
 
 For the third attribute:
 
--   under New attribute, in the field beside Name, type in “End\_Year”
+-   under New attribute, in the field beside Name, type in "End\_Year"
     (GIS is not always optimal for dealing with change over time, so in
     some cases it is important to have a field to identify approximately
     when something ceased to exist)
 -   change the Type again to Whole Number
 -   click Add to attribute list
 
-![pei7][]
-
-Figure 7
+{% include figure.html src="../images/pei7.png" caption="Figure 7" %}
 
 -   When you complete these three steps, finish creating this shapefile
     by clicking OK on the bottom right of the New Vector Layer window. A
-    ‘save’ screen pops up – name it ‘settlements’ and save it with your
+    pops up – name it 'settlements' and save it with your
     other GIS files.
 
-Note that a layer called ‘settlements’ now appears in your Layers
+Note that a layer called 'settlements' now appears in your Layers
 window. Relocate it above the raster layers.
 
-![pei8][]
-
-Figure 8
+{% include figure.html src="../images/pei8.png" caption="Figure 8" %}
 
 Uncheck all layers except settlements. You will notice that your viewing
 window is now blank as we have not created any data. We will now create
-new data from both the PEI\_HollandMap 1798 and the PEI\_CumminsMap1927
-to show the increase in settlement between the late 18th and early 20th
-centuries.
+new data from both the `PEI_HollandMap 1798` and the
+`PEI_CumminsMap1927` to show the increase in settlement between the late
+18th and early 20th centuries.
 
 -   we will begin with the more recent, and thus usually more accurate,
     map. Reselect (i.e. check the boxes beside) coastline\_polygon and
@@ -185,20 +179,16 @@ centuries.
 -   select settlements layer in Layers window
 -   on the menu bar, select Toggle Editing
 
-![pei9][]
-
-Figure 9
+{% include figure.html src="../images/pei9.png" caption="Figure 9" %}
 
 -   After selecting Toggle Editing, editing buttons will become
     available to the right along the menu bar. Select the 3 dot feature
     button.
 
-![pei10][]
-
-Figure 10
+{% include figure.html src="../images/pei10.png" caption="Figure 10" %}
 
 -   Your cursor now appears as a crosshair – point the crosshair at
-    Charlottetown (if you don’t happen to know PEI’s geography, you can
+    Charlottetown (if you don't happen to know PEI's geography, you can
     cheat by adding on the PEI\_placenames layer) keeping it within the
     modern day coastline, and click (digitization is always a compromise
     between accuracy and functionality; depending on the quality of the
@@ -206,7 +196,7 @@ Figure 10
     extreme accuracy is not necessary).
 -   An Attributes window will appear. Leave id field blank (at time of
     writing, QGIS appears to be making two id fields and this one is
-    unnecessary). In Settlement field, type in ‘Charlottetown’. In the
+    unnecessary). In Settlement field, type in 'Charlottetown'. In the
     Year field type in 1764. Click OK
 
 We will now repeat the steps we took with Charlottetown for Montague,
@@ -216,9 +206,7 @@ feature button and click on Montague on the map. When the Attributes
 window appears, input Montague and 1732 in the appropriate fields.
 Repeat for Summerside (1876) and Cavendish (1790).
 
-![pei11][]
-
-Figure 11
+{% include figure.html src="../images/pei11.png" caption="Figure 11" %}
 
 In the Layers window, unselect the PEI\_CumminsMap1927 and select
 PEI\_HollandMap1798. We are now going to identify two settlements
@@ -229,19 +217,17 @@ PEI\_HollandMap1798. We are now going to identify two settlements
     Princetown (shaded-in) near the boundary between the yellow and the
     blue
 
--   If you look at the [Wikipedia entry for the city you will notice
+-   If you look at the [Wikipedia entry][] for the city you will notice
     that because of a shallow harbor, Princetown did not become a major
     settlement. It was renamed in 1947 and later downgraded to a hamlet.
     For this reason we will include 1947 as the end date for this
-    settlement][]
+    settlement.
 
 -   With the crosshair click on Princetown. In the Attribute table that
     appears, put Princetown in the Settlement field, put 1764 into the
     Year field, and put 1947 into the End\_Year. Click OK
 
-![pei12][]
-
-Figure 12
+{% include figure.html src="../images/pei12.png" caption="Figure 12" %}
 
 -   Click on Save Edits icon on the menu bar (it is between Toggle and
     Add Feature)
@@ -252,20 +238,18 @@ Figure 12
     necessary), change font size to 18.0, change Placement to Above
     Left, and then click OK
 
-On the northern coast of Lot 39 between Britain’s Pond and St. Peters
+On the northern coast of Lot 39 between Britain's Pond and St. Peters
 Bay, we will now put a dot for the location of a long lost village
 called Havre-St-Pierre.
 
--   Havre-St-Pierre was the island’s first Acadian settlement but has
+-   Havre-St-Pierre was the island's first Acadian settlement but has
     been uninhabited since the Acadian deportation of 1758.
 
 -   With the crosshair click on Havre-St. Pierre. In the Attribute table
     that appears, put Havre-St-Pierre in the Settlement field, put 1720
     into the Year field, and put 1758 into the End\_Year. Click OK
 
-![pei13][]
-
-Figure 13
+{% include figure.html src="../images/pei13.png" caption="Figure 13" %}
 
 We will now now create another vector layer – this layer will be a line
 vector. Click Layer -\> New -\> New Shapefile Layer. The New Vector
@@ -273,7 +257,7 @@ Layer window will appear (in the Type category at the top, select Line)
 
 -   Click the Specify CRS button, and select NAD83(CSRS98) / Prince
     Edward Isl. Stereographic (EPSG: 2291), and then click OK
--   under New attribute, in the field beside Name, type in ‘Road\_Name’
+-   under New attribute, in the field beside Name, type in 'Road\_Name'
 -   click Add to attributes list
 
 Create a second attribute
@@ -282,8 +266,8 @@ Create a second attribute
 -   change the Type to Whole Number
 -   click Add to attribute list
 -   To finish creating this shapefile, click OK on the bottom right of
-    the New Vector Layer window. A ‘save’ screen pops up – name it
-    ‘roads’ and save it with your other GIS files.
+    the New Vector Layer window. A 'save' screen pops up – name it
+    'roads' and save it with your other GIS files.
 
 We are now going to trace the roads from the 1798 map so that we can
 compare them to the modern roads. Make that you have the
@@ -291,20 +275,16 @@ PEI\_Holland1798 and settlements layers checked in the Layers window.
 Select road layer in the layers window, select Toggle Editing on the top
 toolbar, and then select Add Feature
 
-![pei14][]
-
-Figure 14
+{% include figure.html src="../images/pei14.png" caption="Figure 14" %}
 
 -   First trace the road from Charlottetown to Princetown. Click on
     Charlottetown and then click repeatedly at points along the road to
     Princetown and you will see the line being created. Repeat until you
     arrive at Princetown, then right-click. In the resulting Attributes
-    – road window, in the Name field enter “to Princetown” and in the
+    – road window, in the Name field enter "to Princetown" and in the
     Year field enter 1798. Click OK
 
-![pei15][]
-
-Figure 15
+{% include figure.html src="../images/pei15.png" caption="Figure 15" %}
 
 -   repeat this step for 3 to 4 more roads found on the
     PEI\_HollandMap1798.
@@ -314,9 +294,7 @@ Deselect the PEI\_HollandMap1798 in the Layers window and select the
 PEI\_highway map. Compare the roads represented in the PEI\_highway map
 (the red dotted lines) to the roads you have just traced.
 
-![pei16][]
-
-Figure 16
+{% include figure.html src="../images/pei16.png" caption="Figure 16" %}
 
 -   We can see that some of these roads correspond closely to modern
     roads, while others do not at all correspond. It would take further
@@ -330,7 +308,7 @@ Now create a third type of vector layer: a polygon vector. Click Layer
 
 -   Click the Specify CRS button, and select NAD83(CSRS98) / Prince
     Edward Isl. Stereographic (EPSG: 2291), and then click OK
--   under New attribute, in the field beside Name, type in ‘lot\_name’
+-   under New attribute, in the field beside Name, type in 'lot\_name'
     in the field beside Year
 -   click Add to attributes list
 
@@ -340,9 +318,7 @@ Create a second attribute
 -   change the Type to Whole Number
 -   click Add to attribute list
 
-![pei7][]
-
-Figure 17
+{% include figure.html src="../images/pei7.png" caption="Figure 17" %}
 
 Start by creating a polygon for lot 66, which is the only rectangular
 lot on the island
@@ -355,9 +331,7 @@ lot on the island
     appear. Add 66 to lot\_names field and add 1764 (the year these lots
     were surveyed) to the Year field
 
-![pei18][]
-
-Figure 18
+{% include figure.html src="../images/pei18.png" caption="Figure 18" %}
 
 We are now going to trace lot 38, which is just west of Havre-St-Pierre.
 Make sure that there is a check mark in the box beside
@@ -367,25 +341,21 @@ Click on Toggle Editing on top tool bar, and then click on Add Feature
 
 Trace the outline of Lot 38, which is more difficult because of the
 coastline, as accurately as possible. In order to show you the Snap
-feature**, we want you to trace along the modern coastline (snapping is
+feature, we want you to trace along the modern coastline (snapping is
 an automatic editing operation that adjusts the feature you have drawn
 to coincide or lineup exactly with the coordinates and shape of another
 nearby feature)
 
 -   select Settings-\> Snapping Options
 
-![pei19][]
-
-Figure 19
+{% include figure.html src="../images/pei19.png" caption="Figure 19" %}
 
 -   a Snapping options window will open: click on the box beside
-    coastal\_polygon, for the Mode category select “to vertex and
-    segment”, for Tolerance select 10.0, and for Units select ‘pixels’.
+    coastal\_polygon, for the Mode category select "to vertex and
+    segment", for Tolerance select 10.0, and for Units select 'pixels'.
     Click OK
 
-![pei20][]
-
-Figure 20
+{% include figure.html src="../images/pei20.png" caption="Figure 20" %}
 
 Make sure that the lots layer is selected in Layers window, and select
 Add Feature from the tool bar
@@ -400,9 +370,7 @@ Add Feature from the tool bar
     keep in mind that for many HGIS purposes obtaining extreme accuracy
     sometimes produces diminishing returns.
 
-![pei21][]
-
-Figure 21
+{% include figure.html src="../images/pei21.png" caption="Figure 21" %}
 
 When you finish tracing and creating the polygon, select and deselect
 the various layers you have created, comparing and seeing what
@@ -423,7 +391,7 @@ a new layer to work with what you already created showing the
 distribution of typhoid outbreaks and see if there are correlations with
 major roads and settlements. Moreover, GIS software allows you to not
 only spatially represent and present data in much more sophisticated
-ways, but to analyze and create new data in ways that aren’t possible
+ways, but to analyze and create new data in ways that aren't possible
 otherwise.
 
 **You have learned how to create vector layers. Make sure you save your
@@ -431,34 +399,9 @@ work!**
 
 *This lesson is part of the [Geospatial Historian][].*
 
-  [Intro to Google Maps and Google Earth]: /lessons/googlemaps-googleearth
-  [Installing QGIS 2.0 and Adding Layers]: /lessons/qgis-layers
-  [PEI\_Holland map]: https://www.dropbox.com/s/nigmsq0gz4ashf2/PEI_HollandMap1798_compLZW.tif
-  [pei1]: ../images/pei1-300x207.png
-  [![pei1][]]: ../images/pei1.png
-  [pei2]: ../images/pei2.png
-  [pei3]: ../images/pei3.png
-  [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
-  [pei4]: ../images/pei4.png
-  [pei5]: ../images/pei5.png
-  [pei6]: ../images/pei6-300x168.png
-  [![pei6][]]: ../images/pei6.png
-  [pei7]: ../images/pei7.png
-  [pei8]: ../images/pei8.png
-  [pei9]: ../images/pei9.png
-  [pei10]: ../images/pei10.png
-  [pei11]: ../images/pei11.png
-  [Wikipedia entry for the city you will notice that because of a
-  shallow harbor, Princetown did not become a major settlement. It was
-  renamed in 1947 and later downgraded to a hamlet. For this reason we
-  will include 1947 as the end date for this settlement]: http://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island
-  [pei12]: ../images/pei12.png
-  [pei13]: ../images/pei13.png
-  [pei14]: ../images/pei14.png
-  [pei15]: ../images/pei15.png
-  [pei16]: ../images/pei16.png
-  [pei18]: ../images/pei18.png
-  [pei19]: ../images/pei19.png
-  [pei20]: ../images/pei20.png
-  [pei21]: ../images/pei21.png
+  [Intro to Google Maps and Google Earth]: ../lessons/googlemaps-googleearth
+  [Installing QGIS 2.0 and Adding Layers]: ../lessons/qgis-layers
+  [PEI\_Holland map]: ../assets/PEI_HollandMap1798_compLZW.tif
+  [Georeferencing in QGIS 2.0]: ../lessons/georeferencing-qgis
+  [Wikipedia entry]: http://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html>
 
-	{% include header.html %}
+  {% include header.html %}
+  {% include metadata.html %}
+
+  {% assign authorCount = page.authors | size %}
+  {% capture authorString %}
+  {% if authorCount == 1 %}
+        {{ page.authors | first }}
+  {% else %}
+        {% for author in page.authors %}
+             {% if forloop.first %}
+                   {{ author }}
+             {% elsif forloop.last %}
+                   and {{ author }}
+             {% else %}
+  		         , {{ author }}
+             {% endif %}
+        {% endfor %}
+  {% endif %}
+  {% endcapture %}
 
   <body>
 
     <header role="banner">
-    <h1><a href="\">The Programming Historian</a></h1>
+    <h1><a href="{{ site.url }}">The Programming Historian</a></h1>
 
 	{% include menu.html %}
 	</header>
@@ -14,13 +32,75 @@
 	<div role="main">
 		<article>
 			<header>
-			<p class="kicker">{{ page.date | date: "%B %-d, %Y"}}</p>
-				<h1>{{ page.title }}</h1>
+			    <p class="kicker">{{ page.date | date: "%B %-d, %Y" }}</p>
+				<h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+                <p class="byline">By {{ authorString }}</p>
+				
+				{% assign reviewerCount = page.reviewers | size %}
+				{% if reviewerCount == 0 %}
+				      <!-- No reviewers -->
+                      <br/><br/>
+                {% else %}
+				<ul class="credits">Reviewed by
+				{% if reviewerCount == 1 %}
+				      {{ page.reviewers | first }}
+                {% else %}
+                      {% for reviewer in page.reviewers %}
+                           {% if forloop.first %}
+                                 {{ reviewer }}
+                           {% elsif forloop.last %}
+                                 and {{ reviewer }}
+                           {% else %}
+						         , {{ reviewer }}
+                           {% endif %}
+                      {% endfor %}
+                {% endif %}
+                </ul>
+                {% endif %}
+				
 			</header>
+
+            {% if page.previous %}
+            <p><em>Note:</em> You may find it easier to complete this lesson
+                if you have already completed the 
+                <a href="../lessons/{{page.previous}}">previous lesson</a>
+                in this series.</p>
+            {% endif %}
 
 			<div class="content">
 	              {{ content }}
 	        </div>
+
+            {% if page.next %}
+            <p><em>Note:</em> You are now prepared to move on to the 
+                <a href="../lessons/{{page.next}}">next lesson</a>
+                in this series.</p>
+            {% endif %}
+
+	        <div class="author-info">
+	   	        <p class="author-name">About the {% if authorCount == 1 %}author{% else %}authors{% endif %}</p>
+			    <div class="author-description"><p>
+                {% for author in page.authors %}
+                   {% for member in site.data.authors %}
+                   {% if author == member.name %}
+                       {{ member.bio }}&nbsp;
+                   {% endif %}
+                   {% endfor %}
+		        {% endfor %}</p>
+			    </div>
+	        </div>
+          <div class="citation-info">
+            <p class="citation-head">Suggested Citation</p>
+            <div class="suggested-citation">
+              <p>
+              {{ authorString }}, 
+              "{{ page.title }}," 
+              <em>{{ site.name }}</em> 
+              ({{ page.date | append:" 12:00:00+00:00" | date_to_long_string }}), 
+              {{ site.url }}{{ page.url }}
+              </p>
+            </div>
+          </div>
         </article>
     </div>
 

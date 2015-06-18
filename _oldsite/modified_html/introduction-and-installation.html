@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/introduction-and-installation/feed" rel="alternate" title="The Programming Historian » Python Introduction and Installation Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/viewing-html-files" rel="prev" title="Viewing HTML Files"/><link href="http://programminghistorian.org/lessons/topic-modeling-and-mallet" rel="next" title="Getting Started with Topic Modeling and MALLET"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/introduction-and-installation" rel="canonical"/><link href="http://programminghistorian.org/?p=1628" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="William J. Turkel, Adam Crymble" name="author"/><meta content="Python Introduction and Installation" name="title"/><meta content="2012-07-17" name="date"/><meta content="Miriam Posner, Jim Clifford, Amanda Morton" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1628">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<h2>Lesson Goals</h2>
+<p>This first lesson in our section on dealing with Online Sources is designed to get you and your computer set up to start programming. We will focus on installing the relevant software – all free and reputable – and finally we will help you to get your toes wet with some simple programming that provides immediate results.</p>
+<p>In this opening module you will install the <a href="http://www.python.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.python.org']);" target="_blank">Python programming language</a>, the <a href="http://www.crummy.com/software/BeautifulSoup/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.crummy.com']);" target="_blank">Beautiful Soup HTML/XML parser</a>, and a text editor. Screencaps provided here come from <a href="http://www.activestate.com/komodo-edit" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.activestate.com']);" target="_blank">Komodo Edit</a>, but you can use any text editor capable of working with Python. Here’s a list of other options: <a href="http://wiki.python.org/moin/PythonEditors/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://wiki.python.org']);" target="_blank">Python Editors</a>. Once everything is installed, you will write your first programs, “Hello World” in Python and HTML.</p>
+<h2>the Python Programming Language</h2>
+<p>The first programming language we will introduce in the <span class="pub">Programming Historian</span> is Python, a free, open source language. Unless otherwise noted, we will be using <strong>Python v.2</strong> throughout. Version 3 is available but we have elected to stick with version 2 for now because it’s the most widely used version and it is the one that ships preinstalled on new Macs. Python 3 has different syntax (think grammar rules) and if you are trying to use Python 3 with the <span class="pub">Programming Historian</span>, you may run into difficulties. We welcome version 3 translations of any of our lessons.</p>
+<h2>Backup Your Work!</h2>
+<p>Before you download or install any new software, it is crucial that you make backups of your work. Each day before you do any programming, make sure to back up your <a href="http://www.zotero.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.zotero.org']);" target="_blank">Zotero</a> database. At the end of a day’s work, make another backup of the Zotero database and of any programs that you’ve written that day. You should back up your whole computer at least weekly, and preferably more frequently. It is also a good idea to make off-site backups of your work, so that you don’t lose everything if something happens to your computer or to your home or office. Sites like <a href="https://www.jungledisk.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.jungledisk.com']);" target="_blank">Jungle Disk</a> and <a href="https://www.dropbox.com/home" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.dropbox.com']);" target="_blank">Dropbox</a> provide easy-to-use and relatively inexpensive online backup options.</p>
+<h3>Choose Your Operating System</h3>
+<h2>Step 1 – Install and Set Up Software</h2>
+<p>In order to work through the techniques in this book, you will need to download and install some freely available software. We have provided instructions for Mac, Windows and Linux. Once you have installed the software for your operating system, move on to ‘<a href="/lessons/viewing-html-files">Viewing HTML Files</a>‘. If you run into trouble with our instructions or find something that doesn’t work on your platform, please let us know.</p>
+<ul>
+<li><a href="/lessons/mac-installation">Mac Installation</a></li>
+<li><a href="/lessons/windows-installation">Windows Installation</a></li>
+<li><a href="/lessons/linux-installation">Linux Installation</a></li>
+</ul>
+
+<!-- You can start editing here. -->
+<!-- If comments are open, but there are no comments. -->
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+</body></html>

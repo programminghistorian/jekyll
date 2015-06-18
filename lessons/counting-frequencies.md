@@ -1,8 +1,15 @@
 ---
-title: Counting Frequencies
-author: William J. Turkel & Adam Crymble
-date: 07-17-2012
-reviewers: Miriam Posner, Jim Clifford
+title: Counting Word Frequencies with Python
+authors:
+- William J. Turkel
+- Adam Crymble
+date: 2012-07-17
+reviewers:
+- Miriam Posner
+- Jim Clifford
+layout: default
+next: creating-and-viewing-html-files-with-python
+previous: normalizing-data
 ---
 
 Lesson Goals
@@ -12,22 +19,22 @@ Your list is now clean enough that you can begin analyzing its contents
 in meaningful ways. Counting the frequency of specific words in the list
 can provide illustrative data. Python has an easy way to count
 frequencies, but it requires the use of a new type of variable: the
-dictionary. Before you begin working with a dictionary, consider the
+*dictionary*. Before you begin working with a dictionary, consider the
 processes used to calculate frequencies in a list.
 
 ### Files Needed For This Lesson
 
--   obo.py
+-   `obo.py`
 
-If you do not have these files from the previous lesson, you can
-download a [zip file from the previous lesson here.][]
+If you do not have these files, you can
+download programming-historian-3, a ([zip][]) file from the previous lesson.
 
 Frequencies
 -----------
 
 Now we want to count the frequency of each word in our list. You’ve
-already seen that it is easy to process a list by using a for loop. Try
-saving and executing the following example. Recall that += tells the
+already seen that it is easy to process a list by using a `for` loop. Try
+saving and executing the following example. Recall that `+=` tells the
 program to append something to the end of an existing variable.
 
 ``` python
@@ -49,13 +56,13 @@ print "Pairs\n" + str(zip(wordlist, wordfreq))
 ```
 
 Here, we start with a string and split it into a list, as we’ve done
-before. We then create an (initially empty) list called wordfreq, go
-through each word in the wordlist, and count the number of times that
-word appears in the whole list. We then add each word’s count to our
-wordfreq list. Using the zip operation, we are able to match the first
+before. We then create an (initially empty) list called *wordfreq*, go
+through each word in the *wordlist*, and count the number of times that
+word appears in the whole list. We then add each word's count to our
+*wordfreq* list. Using the `zip` operation, we are able to match the first
 word of the word list with the first number in the frequency list, the
 second word and second frequency, and so on. We end up with a list of
-word and frequency pairs. The str function converts any object to a
+word and frequency pairs. The `str` function converts any object to a
 string so that it can be printed.
 
 You should get something like this:
@@ -87,7 +94,7 @@ It will pay to study the above code until you understand it before
 moving on.
 
 Python also includes a very convenient tool called a [list
-comprehension][], which can be used to do the same thing as the for loop
+comprehension][], which can be used to do the same thing as the `for` loop
 more economically.
 
 ``` python
@@ -106,13 +113,13 @@ print "Pairs\n" + str(zip(wordlist, wordfreq))
 ```
 
 If you study this list comprehension carefully, you will discover that
-it does exactly the same thing as the for loop in the previous example,
+it does exactly the same thing as the `for` loop in the previous example,
 but in a condensed manner. Either method will work fine, so use the
 version that you are most comfortable with.
 
 At this point we have a list of pairs, where each pair contains a word
-and its frequency. This list is a bit redundant. If “the” occurs 500
-times, then this list contains five hundred copies of the pair (‘the’,
+and its frequency. This list is a bit redundant. If 'the' occurs 500
+times, then this list contains five hundred copies of the pair ('the',
 500). The list is also ordered by the words in the original text, rather
 than listing the words in order from most to least frequent. We can
 solve both problems by converting it into a dictionary, then printing
@@ -151,10 +158,10 @@ print m[1][0]
 ```
 
 To keep track of frequencies, we’re going to use another type of Python
-object, a dictionary. The dictionary is an unordered collection of
-objects. That means that you can’t use an index to retrieve elements
+object, a dictionary. The dictionary is an *unordered* collection of
+objects. That means that you can't use an index to retrieve elements
 from it. You can, however, look them up by using a key (hence the name
-“dictionary”). Study the following example.
+"dictionary"). Study the following example.
 
 ``` python
 d = {'world': 1, 'hello': 0}
@@ -170,15 +177,15 @@ print d.keys()
 
 Dictionaries might be a bit confusing to a new programmer. Try to think
 of it like a language dictionary. If you don’t know (or remember)
-exactly how “bijection” differs from “surjection” you can look the two
-terms up in the Oxford English Dictionary. The same principle applies
-when you print d['hello']; except, rather than print a literary
-definition it prints the value associated with the keyword “hello”, as
-defined by you when you created the dictionary named d. In this case,
-that value is “0“.
+exactly how "bijection" differs from "surjection" you can look the two
+terms up in the *Oxford English Dictionary*. The same principle applies
+when you `print d['hello'];` except, rather than print a literary
+definition it prints the value associated with the keyword 'hello', as
+defined by you when you created the dictionary named *d*. In this case,
+that value is "0".
 
 Note that you use curly braces to define a dictionary, but square
-brackets to access things within it. The keys operation returns a list
+brackets to access things within it. The `keys` operation returns a list
 of keys that are defined in the dictionary.
 
 Word-Frequency Pairs
@@ -186,8 +193,8 @@ Word-Frequency Pairs
 
 Building on what we have so far, we want a function that can convert a
 list of words into a dictionary of word-frequency pairs. The only new
-command that we will need is dict, which makes a dictionary from a list
-of pairs. Copy the following and add it to the obo.py module.
+command that we will need is `dict`, which makes a dictionary from a list
+of pairs. Copy the following and add it to the `obo.py` module.
 
 ``` python
 # Given a list of words, return a dictionary of
@@ -200,7 +207,7 @@ def wordListToFreqDict(wordlist):
 
 We are also going to want a function that can sort a dictionary of
 word-frequency pairs by descending frequency. Copy this and add it to
-the obo.py module, too.
+the `obo.py` module, too.
 
 ``` python
 # Sort a dictionary of word-frequency pairs in
@@ -215,7 +222,7 @@ def sortFreqDict(freqdict):
 
 We can now write a program which takes a URL and returns word-frequency
 pairs for the web page, sorted in order of descending frequency. Copy
-the following program into Komodo Edit, save it as html-to-freq.py and
+the following program into Komodo Edit, save it as `html-to-freq.py` and
 execute it. Study the program and its output carefully before
 continuing.
 
@@ -239,9 +246,9 @@ for s in sorteddict: print str(s)
 Removing Stop Words
 -------------------
 
-When we look at the output of our html-to-freq.py program, we see that a
-lot of the most frequent words in the text are function words like
-“the”, “of”, “to” and “and”.
+When we look at the output of our `html-to-freq.py` program, we see that
+a lot of the most frequent words in the text are function words like
+"the", "of", "to" and "and".
 
 ``` python
 (192, 'the')
@@ -260,14 +267,14 @@ lot of the most frequent words in the text are function words like
 ```
 
 These words are usually the most common in any English language text, so
-they don’t tell us much that is distinctive about Bowsey’s trial. In
+they don't tell us much that is distinctive about Bowsey's trial. In
 general, we are more interested in finding the words that will help us
 differentiate this text from texts that are about different subjects. So
-we’re going to filter out the common function words. Words that are
+we're going to filter out the common function words. Words that are
 ignored like this are known as stop words. We’re going to use the
 following list, adapted from one posted online by [computer scientists
-at Glasgow][]. Copy it and put it at the beginning of the obo.py library
-that you are building.
+at Glasgow][]. Copy it and put it at the beginning of the `obo.py`
+library that you are building.
 
 ``` python
 stopwords = ['a', 'about', 'above', 'across', 'after', 'afterwards']
@@ -324,7 +331,7 @@ stopwords += ['yours', 'yourself', 'yourselves']
 ```
 
 Now getting rid of the stop words in a list is as easy as using another
-list comprehension. Add this function to the obo.py module, too.
+list comprehension. Add this function to the `obo.py` module, too.
 
 ``` python
 # Given a list of words, remove any that are
@@ -338,7 +345,7 @@ Putting it All Together
 -----------------------
 
 Now we have everything we need to determine word frequencies for web
-pages. Copy the following to Komodo Edit, save it as html-to-freq-2.py
+pages. Copy the following to Komodo Edit, save it as `html-to-freq-2.py`
 and execute it.
 
 ``` python
@@ -403,14 +410,13 @@ Pilgrim, Diving into Python
 ### Code Syncing
 
 To follow along with future lessons it is important that you have the
-right files and programs in your “programming-historian” directory. At
-the end of each chapter you can download the “programming-historian” zip
+right files and programs in your "programming-historian" directory. At
+the end of each chapter you can download the "programming-historian" zip
 file to make sure you have the correct code.
 
--   programming-historian ([zip][])
+-   programming-historian-3 ([zip][])
 
-  [zip file from the previous lesson here.]: /lessons/from-html-to-list-of-words-2#codesync
   [list comprehension]: http://docs.python.org/tutorial/datastructures.html#list-comprehensions
   [computer scientists at Glasgow]: http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
   [Regular Expressions]: http://www.diveintopython.net/regular_expressions/index.html
-  [zip]: /wp-content/uploads/2012/05/programming-historian3.zip
+  [zip]: ../assets/programming-historian3.zip

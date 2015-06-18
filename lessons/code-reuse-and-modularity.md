@@ -1,8 +1,16 @@
 ---
-title: Code Reuse and Modularity
-author: William J. Turkel & Adam Crymble
-date: 07-17-2012
-reviewers: Miriam Posner, Jim Clifford
+title: Code Reuse and Modularity in Python
+authors:
+- William J. Turkel
+- Adam Crymble
+date: 2012-07-17
+reviewers:
+- Miriam Posner
+- Jim Clifford
+layout: default
+categories: [lessons, original-ph, python]
+next: working-with-web-pages
+previous: working-with-text-files
 ---
 
 Lesson Goals
@@ -10,8 +18,8 @@ Lesson Goals
 
 Computer programs can become long, unwieldy and confusing without
 special mechanisms for managing complexity. This lesson will show you
-how to reuse parts of your code by writing Functions and break your
-programs into Modules, in order to keep everything concise and easier to
+how to reuse parts of your code by writing *Functions* and break your
+programs into *Modules*, in order to keep everything concise and easier to
 debug. Being able to remove a single dysfunctional module can save time
 and effort.
 
@@ -24,7 +32,7 @@ general-purpose enough to be reused. These are known as functions, and
 Python has mechanisms that allow you to define new functions. Let’s work
 through a very simple example of a function. Suppose you want to create
 a general purpose function for greeting people. Copy the following
-function definition into Komodo Edit and save it as greet.py.
+function definition into Komodo Edit and save it as `greet.py`.
 
 ``` python
 # greet.py
@@ -36,38 +44,38 @@ greetEntity("Everybody")
 greetEntity("Programming Historian")
 ```
 
-The line beginning with “def” is the function declaration. We are going
-to define (“def“) a function, which in this case we have named
-“greetEntity“. The (x) is the function’s parameter. You should
+The line beginning with `def` is the function declaration. We are going
+to define ("def") a function, which in this case we have named
+"greetEntity". The `(x)` is the function's parameter. You should
 understand how that works in a moment. The second line contains the code
 of the function. This could be as many lines as we need, but in this
 case it is only a single line.
 
-Note that indentation is very important in Python. The blank space
-before the print statement tells the interpreter that it is part of the
+Note that *indentation* is very important in Python. The blank space
+before the `print` statement tells the interpreter that it is part of the
 function that is being defined. You will learn more about this as we go
 along; for now, make sure to keep indentation the way we show it. Run
 the program, and you should see something like this:
 
-``` python
+```
 hello Everybody
 hello Programming Historian
 ```
 
-This example contains one function: greetEntity. This function is then
-“called” (sometimes referred to as “invoked”) two times. Calling or
+This example contains one function: *greetEntity*. This function is then
+"called" (sometimes referred to as "invoked") two times. Calling or
 invoking a function just means we have told the program to execute the
 code in that function. Like giving the dog his chicken-flavoured treat
 (\*woof\* \*woof\*). In this case each time we have called the function
-we have given it a different parameter. Try editing greet.py so that it
-calls the greetEntity function a third time using your own name as a
+we have given it a different parameter. Try editing `greet.py` so that
+it calls the *greetEntity* function a third time using your own name as a
 parameter. Run the program again. You should now be able to figure out
-what (x) does in the function declaration.
+what `(x)` does in the function declaration.
 
-Before moving on to the next step, edit greet.py to delete the function
-calls, leaving only the function declaration. You’re going to learn how
-to call the function from another program. When you are finished, your
-greet.py file should look like this:
+Before moving on to the next step, edit `greet.py` to delete the
+function calls, leaving only the function declaration. You're going to
+learn how to call the function from another program. When you are
+finished, your `greet.py` file should look like this:
 
 ``` python
 # greet.py
@@ -100,14 +108,14 @@ like the carburettor and ignition system, and those are comprised of
 still smaller and more basic modules. The same is true when coding. You
 try to break a problem into smaller pieces, and solve those first.
 
-You already created a module when you wrote the greet.py program. Now
-you are going to write a second program, using-greet.py which will
-import code from your module and make use of it. Python has a special
-import statement that allows one program to gain access to the contents
+You already created a module when you wrote the `greet.py` program. Now
+you are going to write a second program, `using-greet.py` which will
+`import` code from your module and make use of it. Python has a special
+`import` statement that allows one program to gain access to the contents
 of another program file. This is what you will be using.
 
-Copy this code to Komodo Edit and save it as using-greet.py. This file
-is your program; greet.py is your module.
+Copy this code to Komodo Edit and save it as `using-greet.py`. This file
+is your program; `greet.py` is your module.
 
 ``` python
 # using-greet.py
@@ -117,27 +125,27 @@ greet.greetEntity("everybody")
 greet.greetEntity("programming historian")
 ```
 
-We have done a few things here. First, we have told Python to “import”
-(load) the greet.py module, which we previously created.
+We have done a few things here. First, we have told Python to `import`
+(load) the `greet.py` module, which we previously created.
 
 You will also notice that whereas before we were able to run the
-function by calling only it’s name: greetEntity(“everybody”), we now
-need to include the module’s name followed by a dot (.) in front of the
-function name. In plain English this means: run the greetEntity
-function, which you should find in the greet.py module.
+function by calling only its name: *greetEntity("everybody")*, we now
+need to include the module's name followed by a dot (.) in front of the
+function name. In plain English this means: run the *greetEntity*
+function, which you should find in the `greet.py` module.
 
-You can run your using-greet.py program with the “Run Python” command
+You can run your `using-greet.py` program with the "Run Python" command
 that you created in Komodo Edit. Note that you do not have to run your
 module…just the program that calls it. If all went well, you should see
 the following in the Komodo Edit output pane:
 
-``` python
+```
 hello everybody
 hello programming historian
 ```
 
 Make sure that you understand the difference between loading a data file
-(e.g. helloworld.txt) and importing a program file (e.g. greet.py)
+(e.g., `helloworld.txt`) and importing a program file (e.g. `greet.py`)
 before moving on.
 
 Suggested Readings

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/from-html-to-list-of-words-1/feed" rel="alternate" title="The Programming Historian » From HTML to List of Words (part 1) Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/from-html-to-list-of-words-2" rel="prev" title="From HTML to List of Words (part 2)"/><link href="http://programminghistorian.org/lessons/manipulating-strings-in-python" rel="next" title="Manipulating Strings in Python"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/from-html-to-list-of-words-1" rel="canonical"/><link href="http://programminghistorian.org/?p=1580" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="William J. Turkel &amp; Adam Crymble" name="author"/><meta content="From HTML to List of Words (part 1)" name="title"/><meta content="2012-07-17" name="date"/><meta content="Miriam Posner, Jim Clifford" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1580">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<h2>Lesson Goals</h2>
+<p>In this two-part lesson, we will build on what you’ve learned about <a href="/lessons/working-with-web-pages">Working with Webpages</a>, learning how to remove the <span class="tech">HTML markup</span> from the webpage of <a href="http://www.oldbaileyonline.org/print.jsp?div=t17800628-33" target="_blank">Benjamin Bowsey’s 1780 criminal trial transcript</a>. We will achieve this by using a variety of <span class="tech">string operators</span>, <span class="tech">string methods</span> and close reading skills. We introduce <span class="tech">looping</span> and <span class="tech">branching</span> so that programs can repeat tasks and test for certain conditions, making it possible to separate the content from the HTML tags. Finally, we convert content from a long string to a <span class="tech">list of words</span> that can later be sorted, indexed, and counted.</p>
+<h2>The Challenge</h2>
+<p>To get a clearer picture of the task ahead, open the <code>obo-t17800628-33.html</code> file that you created in <a href="/lessons/working-with-web-pages">Working with Web Pages</a> (or <a href="http://www.oldbaileyonline.org/print.jsp?div=t17800628-33" target="_blank">download and save the trial</a> if you do not already have a copy), then look at the HTML source by clicking on <code>Tools -&gt; Web Developer -&gt; Page Source</code>. As you scroll through the source code you’ll notice that there are a few HTML tags mixed in with the text. Because this is a printable version there is far less HTML than you will find on the other versions of the transcript (see the <a href="http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33-defend448&amp;div=t17800628-33" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.oldbaileyonline.org']);" target="_blank">HTML</a> and <a href="http://www.oldbaileyonline.org/browse.jsp?foo=bar&amp;path=sessionsPapers/17800628.xml&amp;div=t17800628-33&amp;xml=yes" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.oldbaileyonline.org']);" target="_blank">XML</a> versions to compare). While not mandatory, we recommend that at this point you take the W3 Schools <a href="http://www.w3schools.com/html/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.w3schools.com']);" target="_blank">HTML</a> tutorial to familiarize yourself with HTML markup. If your work often requires that you remove HTML markup, it will certainly help to be able to understand it when you see it.</p>
+<h3>Files Needed For This Lesson</h3>
+<ul>
+<li><code>obo-t17800628-33.html</code></li>
+</ul>
+<p>If you do not have these files, you can download a <a href="/lessons/manipulating-strings-in-python#codesync">zip file from the previous lesson here.</a></p>
+<h2>Devising an Algorithm</h2>
+<p>Since the goal is to get rid of the HTML, the first step is to create an <span class="tech">algorithm</span> that returns only the text (minus the HTML tags) of the article. An algorithm is a procedure that has been specified in enough detail that it can be implemented on a computer. It helps to write your algorithms first in plain English; it’s a great way to outline exactly what you want to do before diving into code. To construct this algorithm you are going to use your close reading skills to figure out a way to capture only the textual content of the biography.</p>
+<p>Looking at the source code of <code>obo-t17800628-33.html</code> you will notice the actual transcript does not start right away. Instead there are a couple of HTML tags and some citation information. In this case:</p>
+<pre class="xml">&lt;div style="font-family:serif;"&gt;&lt;i&gt;Old Bailey Proceedings Online&lt;/i&gt;
+(www.oldbaileyonline.org, version 6.0, 01 July 2011), June 1780, trial of BENJAMIN BOWSEY (t17800628-33).&lt;hr/&gt;&lt;h2&gt;BENJAMIN BOWSEY...</pre>
+<p>We are only interested in the transcript itself, not the extra metadata contained in the tags. However, you will notice that the end of the metadata corresponds with the start of the transcript. This makes the location of the metadata a potentially useful marker for isolating the transcript text.</p>
+<p>At a glance, we can see that the metadata ends with two HTML tags: <span class="reserved">&lt;hr/&gt;&lt;h2&gt;</span>. We might be able to use those to find the starting point of our transcript text. We are lucky in this case because it turns out that these tags are a reliable way to find the start of transcript text in the printable versions (if you want, take a look at a few other printable trials to check). We are also lucky because other than a few HTML tags at the end of the transcript, there is no further information on the page. Had there been other unrelated content, we would take a similar approach and look for some way of isolating the end of the desired text. Well-formatted websites will almost always have some unique way of signalling the end of the content. You often just need to look closely.</p>
+<p>The next thing that you want to do is strip out all of the HTML markup that remains mixed in with the content. Since you know HTML tags are always found between matching pairs of angle brackets, it’s probably a safe bet that if you remove everything between angle brackets, you will remove the HTML and be left only with the transcript. Note that we are making the assumption that the transcript will not contain the mathematical symbols for “less than” or “greater than.” If Bowsey was a mathematician, this assumption would not be as safe.</p>
+<p>The following describes our algorithm in words.</p>
+<p>To isolate the content:</p>
+<ul>
+<li>Download the transcript text</li>
+<li>Search the HTML for and store the location of <span class="reserved">&lt;hr/&gt;&lt;h2&gt;</span></li>
+<li>Save everything after the <span class="reserved">&lt;hr/&gt;&lt;h2&gt;</span> tags to a string: <span class="var">pageContents</span></li>
+</ul>
+<p>At this point we have the trial transcript text, plus HTML markup. Next:</p>
+<ul>
+<li>Look at every character in the <span class="var">pageContents</span> string, one character at a time</li>
+<li>If the character is a left angle bracket (&lt;) we are now inside a tag so ignore each following character</li>
+<li>If the character is a right angle bracket (&gt;) we are now leaving the tag; ignore the current character, but look at each following character</li>
+<li>If we’re not inside a tag, <span class="reserved">append</span> the current character to a new variable: <span class="var">text</span></li>
+</ul>
+<p>Finally:</p>
+<ul>
+<li>Split the <span class="var">text</span> string into a list of individual words that can later be manipulated further.</li>
+</ul>
+<h2>Isolating Desired Content</h2>
+<p>The following step uses Python commands introduced in the <a href="/lessons/manipulating-strings-in-python">Manipulating Strings in Python</a> lesson to implement the first half of the algorithm: removing all content before the <span class="reserved">&lt;hr/&gt;&lt;h2&gt;</span> tags. To recap, the algorithm was as follows:</p>
+<ul>
+<li>Download the transcript text</li>
+<li>Search the HTML for and store the location of <span class="reserved">&lt;hr/&gt;&lt;h2&gt;</span></li>
+<li>Save everything after the <span class="reserved">&lt;hr/&gt;&lt;h2&gt;</span> tags to a string: <span class="var">pageContents</span></li>
+</ul>
+<p>To achieve this, you will use the <span class="reserved">find</span> string method and create a new substring containing only the desired content using the index as start point for the substring.</p>
+<p>As you work, you will be developing separate files to contain your code. One of these will be called <code>obo.py</code> (for “Old Bailey Online”). This file is going to contain all of the code that you will want to re-use; in other words, <code>obo.py</code> is a module. We discussed the idea of modules in <a href="/lessons/code-reuse-and-modularity">Code Reuse and Modularity</a> when we saved our functions to <code>greet.py</code>.</p>
+<p>Create a new file named <code>obo.py</code> and save it to your <code>programming-historian</code> directory. We are going to use this file to keep copies of the functions needed to process The <span class="pub">Old Bailey Online</span>. Type or copy the following code into your file.</p>
+<pre class="python"># obo.py
+
+def stripTags(pageContents):
+    startLoc = pageContents.find("&lt;hr/&gt;&lt;h2&gt;")
+
+    pageContents = pageContents[startLoc:]
+    return pageContents</pre>
+<p>Create a second file, <code>trial-content.py</code>, and save the program shown below.</p>
+<pre class="python"># trial-content.py
+
+import urllib2, obo
+
+url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+
+response = urllib2.urlopen(url)
+HTML = response.read()
+
+print obo.stripTags(HTML)</pre>
+<p>When you run <code>trial-content.py</code> it will get the web page for Bowsey’s trial transcript, then look in the <code>obo.py</code> module for the <span class="var">stripTags</span> function. It will use that function to extract the stuff after the <span class="reserved">&lt;hr/&gt;&lt;h2&gt;</span> tags. With any luck, this should be the textual content of the Bowsey transcript, along with some of HTML markup. Don’t worry if your Command Output screen ends in a thick black line. Komodo Edit’s output screen has a maximum number of characters it will display, after which characters start literally writing over one another on the screen, giving the appearance of a black blob. Don’t worry, the text is in there even though you cannot read it; you can cut and paste it to a text file to double check.</p>
+<p>Let’s take a moment to make sure we understand how <code>trial-contents.py</code> is able to use the functions stored in <code>obo.py</code>. The <span class="var">stripTags</span> function that we saved to <code>obo.py</code> requires one argument. In other words, to run properly it needs one piece of information to be supplied. Recall the trained dog example from a previous lesson. In order to bark, the dog needs two things: air and a delicious treat. The <span class="var">stripTags</span> function in <code>obo.py</code> needs one thing: a string called <span class="var">pageContents</span>. But you’ll notice that when we call <span class="var">stripTags</span> in the final program (<code>trialcontents.py</code>) there’s no mention of “<span class="var">pageContents</span>“. Instead the function is given HTML as an argument. This can be confusing to many people when they first start programming. Once a function has been declared, we no longer need to use the same variable name when we call the function. As long as we provide the right type of argument, everything should work fine, no matter what we call it. In this case we wanted <span class="var">pageContents</span> to use the contents of our HTML variable. You could have passed it any string, including one you input directly between the parentheses. Try rerunning <code>trial-content.py</code>, changing the <span class="var">stripTags</span> argument to “I am quite fond of dogs” and see what happens. Note that depending on how you define your function (and what it does) your argument may need to be something other than a string: an <span class="tech">integer</span> for example.</p>
+<h2>Suggested Reading</h2>
+<ul>
+<li>Lutz, <em>Learning Python</em>
+<ul>
+<li>Ch. 7: Strings</li>
+<li>Ch. 8: Lists and Dictionaries</li>
+<li>Ch. 10: Introducing Python Statements</li>
+<li>Ch. 15: Function Basics</li>
+</ul>
+</li>
+</ul>
+<h3><span id="codesync">Code Syncing</span></h3>
+<p>To follow along with future lessons it is important that you have the right files and programs in your programming-historian directory. At the end of each chapter you can download the programming-historian zip file to make sure you have the correct code. Note we have removed unneeded files from earlier lessons. Your directory may contain more files and that’s ok!</p>
+<ul>
+<li>programming-historian (<a href="http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian2.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian2.zip']);">zip</a>)</li>
+</ul>
+
+<!-- You can start editing here. -->
+<!-- If comments are open, but there are no comments. -->
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c" type="text/javascript"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body></html>

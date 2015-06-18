@@ -1,8 +1,11 @@
 ---
 title: Cleaning OCR’d text with Regular Expressions
-author: Laura Turner O'Hara
-date: 05-22-2013
-reviewers: 
+authors:
+- Laura Turner O'Hara
+reviewers:
+- Fred Gibbs
+date: 2013-05-22
+layout: default
 ---
 
 Optical Character Recognition (OCR)—the conversion of scanned images to
@@ -14,18 +17,14 @@ OCR. Take for example, this page from the *Congressional Directory* from
 the 50th Congress (1887). The PDF scan downloaded from [HeinOnline][]
 looks organized:
 
-[![][]][]
-
-This is a screenshot of the PDF page.
+{% include figure.html src="../images/cd_pdf.png" caption="This is a screenshot of the PDF page." %}
 
 However, the OCR layer (downloaded as a text file\*) shows that the
 machine-encoded text is not nearly as neat:
 
-[![][1]][]
+{% include figure.html src="../images/cd_txt.png" caption="This is a screenshot of the OCR." %}
 
-This is a screenshot of the OCR.
-
-\*Note: If you do not have the option to download a text file, you can
+> Note: If you do not have the option to download a text file, you can
 use the [pdfminer][] module to extract text from the pdf.
 
 Since I want to use this to map the Washington residences for Members of
@@ -37,7 +36,7 @@ me. Though this is not a “real” CSV file (the commas are not quite
 right), it can be easily viewed in Excel and prepped for geocoding. Much
 better than the text file from above, right?
 
-``` bash
+``` text
 Aldrich, N. W,Providence, R. I
 Allison, William B, Dubuque, Iowa,24Vermont avenue,
 Bate, William,Nashville, Ten, Ebbitt House
@@ -128,7 +127,7 @@ complicated. Moreover, different characters can mean different things
 depending on their placement. Take for example, the difference between
 example 2 and example 3 above. In example 2, the caret (\^) means
 isolate the pattern at the beginning of the line or document. However,
-when you put the caret inside the character class (demarcated by []) it
+when you put the caret inside the character class (demarcated by `[]`) it
 means “except” these sets of characters.
 
 The best way to understand Regular Expressions is to learn what the
@@ -262,7 +261,7 @@ format long regular expressions for better legibility.
     in the text file separated some names with a period (for example,
     Chace.Jonathan vs. Chase,Jonathan). I wanted to isolate the periods
     that came up in this pattern and change those periods to commas. So
-    I searched for the pattern \^([A-Z][a-z]+\\.), which looks at the
+    I searched for the pattern `^([A-Z][a-z]+\.)`, which looks at the
     beginning of a line (\^) and finds a pattern with one capital
     letter, multiple lowercase letters and a period. After I had
     isolated that pattern, I substitute the period those lines that fit
@@ -405,10 +404,6 @@ bitty step at a time.
 
   [HeinOnline]: http://home.heinonline.org/
     "Source for Legal and Government-based documents"
-  []: ../images/cd_pdf.png "cd_pdf"
-  [![][]]: ../images/cd_pdf.png
-  [1]: ../images/cd_txt.png "cd_txt"
-  [![][1]]: ../images/cd_txt.png
   [pdfminer]: http://www.unixuser.org/~euske/python/pdfminer/index.html
     "PDF Miner Module"
   [Patterns App]: http://krillapps.com/patterns/

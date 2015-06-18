@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/counting-frequencies/feed" rel="alternate" title="The Programming Historian » Counting Frequencies Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/creating-and-viewing-html-files-with-python" rel="prev" title="Creating and Viewing HTML Files with Python"/><link href="http://programminghistorian.org/lessons/normalizing-data" rel="next" title="Normalizing Data"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/counting-frequencies" rel="canonical"/><link href="http://programminghistorian.org/?p=1565" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="William J. Turkel &amp; Adam Crymble" name="author"/><meta content="Counting Frequencies" name="title"/><meta content="2012-07-17" name="date"/><meta content="Miriam Posner, Jim Clifford" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1565">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<h2>Lesson Goals</h2>
+<p>Your list is now clean enough that you can begin analyzing its contents in meaningful ways. Counting the frequency of specific words in the list can provide illustrative data. Python has an easy way to count frequencies, but it requires the use of a new type of variable: the <span class="tech">dictionary</span>. Before you begin working with a dictionary, consider the processes used to calculate frequencies in a list.</p>
+<h3>Files Needed For This Lesson</h3>
+<ul>
+<li><code>obo.py</code></li>
+</ul>
+<p>If you do not have these files from the previous lesson, you can download a <a href="/lessons/from-html-to-list-of-words-2#codesync">zip file from the previous lesson here.</a></p>
+<h2>Frequencies</h2>
+<p>Now we want to count the frequency of each word in our list. You’ve already seen that it is easy to process a list by using a for loop. Try saving and executing the following example. Recall that <span class="reserved">+=</span> tells the program to append something to the end of an existing variable.</p>
+<pre class="python"># count-list-items-1.py
+
+wordstring = 'it was the best of times it was the worst of times '
+wordstring += 'it was the age of wisdom it was the age of foolishness'
+
+wordlist = wordstring.split()
+
+wordfreq = []
+for w in wordlist:
+    wordfreq.append(wordlist.count(w))
+
+print "String\n" + wordstring +"\n"
+print "List\n" + str(wordlist) + "\n"
+print "Frequencies\n" + str(wordfreq) + "\n"
+print "Pairs\n" + str(zip(wordlist, wordfreq))</pre>
+<p>Here, we start with a string and split it into a list, as we’ve done before. We then create an (initially empty) list called <span class="var">wordfreq</span>, go through each word in the <span class="var">wordlist</span>, and count the number of times that word appears in the whole list. We then add each word’s count to our <span class="var">wordfreq</span> list. Using the <span class="tech">zip</span> operation, we are able to match the first word of the word list with the first number in the frequency list, the second word and second frequency, and so on. We end up with a list of word and frequency pairs. The <span class="tech">str</span> function converts any object to a string so that it can be printed.</p>
+<p>You should get something like this:</p>
+<pre class="python">String
+it was the best of times it was the worst of times it was the age of wisdom it was the age of foolishness
+
+List
+['it', 'was', 'the', 'best', 'of', 'times', 'it', 'was',
+'the', 'worst', 'of', 'times', 'it', 'was', 'the', 'age',
+'of', 'wisdom', 'it', 'was', 'the', 'age', 'of',
+'foolishness']
+
+Frequencies
+[4, 4, 4, 1, 4, 2, 4, 4, 4, 1, 4, 2, 4, 4, 4, 2, 4, 1, 4,
+4, 4, 2, 4, 1]
+
+Pairs
+[('it', 4), ('was', 4), ('the', 4), ('best', 1), ('of', 4),
+('times', 2), ('it', 4), ('was', 4), ('the', 4),
+('worst', 1), ('of', 4), ('times', 2), ('it', 4),
+('was', 4), ('the', 4), ('age', 2), ('of', 4),
+('wisdom', 1), ('it', 4), ('was', 4), ('the', 4),
+('age', 2), ('of', 4), ('foolishness', 1)]</pre>
+<p>It will pay to study the above code until you understand it before moving on.</p>
+<p>Python also includes a very convenient tool called a <span class="tech"><a href="http://docs.python.org/tutorial/datastructures.html#list-comprehensions" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://docs.python.org']);" target="_blank">list comprehension</a></span>, which can be used to do the same thing as the for loop more economically.</p>
+<pre class="python"># count-list-items-1.py
+
+wordstring = 'it was the best of times it was the worst of times '
+wordstring += 'it was the age of wisdom it was the age of foolishness'
+wordlist = wordstring.split()
+
+wordfreq = [wordlist.count(w) for w in wordlist] # a list comprehension
+
+print "String\n" + wordstring +"\n"
+print "List\n" + str(wordlist) + "\n"
+print "Frequencies\n" + str(wordfreq) + "\n"
+print "Pairs\n" + str(zip(wordlist, wordfreq))</pre>
+<p>If you study this list comprehension carefully, you will discover that it does exactly the same thing as the for loop in the previous example, but in a condensed manner. Either method will work fine, so use the version that you are most comfortable with.</p>
+<p>At this point we have a list of pairs, where each pair contains a word and its frequency. This list is a bit redundant. If “the” occurs 500 times, then this list contains five hundred copies of the pair (‘the’, 500). The list is also ordered by the words in the original text, rather than listing the words in order from most to least frequent. We can solve both problems by converting it into a dictionary, then printing out the dictionary in order from the most to the least commonly occurring item.</p>
+<h2 class="sub">Python Dictionaries</h2>
+<p>Both strings and lists are sequentially ordered, which means that you can access their contents by using an index, a number that starts at 0. If you have a list containing strings, you can use a pair of indexes to access first a particular string in the list, and then a particular character within that string. Study the examples below.</p>
+<pre class="python">s = 'hello world'
+print s[0]
+-&gt; h
+
+print s[1]
+-&gt; e
+
+m = ['hello', 'world']
+print m[0]
+-&gt; hello
+
+print m[1]
+-&gt; world
+
+print m[0][1]
+-&gt; e
+
+print m[1][0]
+-&gt; w</pre>
+<p>To keep track of frequencies, we’re going to use another type of Python object, a dictionary. The dictionary is an <span class="tech">unordered</span> collection of objects. That means that you can’t use an index to retrieve elements from it. You can, however, look them up by using a <span class="tech">key</span> (hence the name “dictionary”). Study the following example.</p>
+<pre class="python">d = {'world': 1, 'hello': 0}
+print d['hello']
+-&gt; 0
+
+print d['world']
+-&gt; 1
+
+print d.keys()
+-&gt; ['world', 'hello']</pre>
+<p>Dictionaries might be a bit confusing to a new programmer. Try to think of it like a language dictionary. If you don’t know (or remember) exactly how “bijection” differs from “surjection” you can look the two terms up in the <span class="pub">Oxford English Dictionary</span>. The same principle applies when you <span class="reserved">print d['hello']</span>; except, rather than print a literary definition it prints the value associated with the keyword <span class="var">“hello”</span>, as defined by you when you created the dictionary named <span class="var">d</span>. In this case, that value is “<span class="var">0</span>“.</p>
+<p>Note that you use curly braces to define a dictionary, but square brackets to access things within it. The <span class="reserved">keys</span> operation returns a list of keys that are defined in the dictionary.</p>
+<h2 class="sub">Word-Frequency Pairs</h2>
+<p>Building on what we have so far, we want a function that can convert a list of words into a dictionary of word-frequency pairs. The only new command that we will need is <span class="tech">dict</span>, which makes a dictionary from a list of pairs. Copy the following and add it to the <code>obo.py</code> module.</p>
+<pre class="python"># Given a list of words, return a dictionary of
+# word-frequency pairs.
+
+def wordListToFreqDict(wordlist):
+    wordfreq = [wordlist.count(p) for p in wordlist]
+    return dict(zip(wordlist,wordfreq))</pre>
+<p>We are also going to want a function that can sort a dictionary of word-frequency pairs by descending frequency. Copy this and add it to the <code>obo.py</code> module, too.</p>
+<pre class="python"># Sort a dictionary of word-frequency pairs in
+# order of descending frequency.
+
+def sortFreqDict(freqdict):
+    aux = [(freqdict[key], key) for key in freqdict]
+    aux.sort()
+    aux.reverse()
+    return aux</pre>
+<p>We can now write a program which takes a URL and returns word-frequency pairs for the web page, sorted in order of descending frequency. Copy the following program into Komodo Edit, save it as <code>html-to-freq.py</code> and execute it. Study the program and its output carefully before continuing.</p>
+<pre class="python">#html-to-freq.py
+
+import urllib2, obo
+
+url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+
+response = urllib2.urlopen(url)
+html = response.read()
+text = obo.stripTags(html).lower()
+wordlist = obo.stripNonAlphaNum(text)
+dictionary = obo.wordListToFreqDict(wordlist)
+sorteddict = obo.sortFreqDict(dictionary)
+
+for s in sorteddict: print str(s)</pre>
+<h2>Removing Stop Words</h2>
+<p>When we look at the output of our <code>html-to-freq.py</code> program, we see that a lot of the most frequent words in the text are function words like “the”, “of”, “to” and “and”.</p>
+<pre class="python">(192, 'the')
+(105, 'i')
+(74, 'to')
+(71, 'was')
+(67, 'of')
+(62, 'in')
+(53, 'a')
+(52, 'and')
+(50, 'you')
+(50, 'he')
+(40, 'that')
+(39, 'his')
+(36, 'it')</pre>
+<p>These words are usually the most common in any English language text, so they don’t tell us much that is distinctive about Bowsey’s trial. In general, we are more interested in finding the words that will help us differentiate this text from texts that are about different subjects. So we’re going to filter out the common function words. Words that are ignored like this are known as stop words. We’re going to use the following list, adapted from one posted online by <a href="http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://ir.dcs.gla.ac.uk']);" target="_blank">computer scientists at Glasgow</a>. Copy it and put it at the beginning of the <code>obo.py</code> library that you are building.</p>
+<pre class="python">stopwords = ['a', 'about', 'above', 'across', 'after', 'afterwards']
+stopwords += ['again', 'against', 'all', 'almost', 'alone', 'along']
+stopwords += ['already', 'also', 'although', 'always', 'am', 'among']
+stopwords += ['amongst', 'amoungst', 'amount', 'an', 'and', 'another']
+stopwords += ['any', 'anyhow', 'anyone', 'anything', 'anyway', 'anywhere']
+stopwords += ['are', 'around', 'as', 'at', 'back', 'be', 'became']
+stopwords += ['because', 'become', 'becomes', 'becoming', 'been']
+stopwords += ['before', 'beforehand', 'behind', 'being', 'below']
+stopwords += ['beside', 'besides', 'between', 'beyond', 'bill', 'both']
+stopwords += ['bottom', 'but', 'by', 'call', 'can', 'cannot', 'cant']
+stopwords += ['co', 'computer', 'con', 'could', 'couldnt', 'cry', 'de']
+stopwords += ['describe', 'detail', 'did', 'do', 'done', 'down', 'due']
+stopwords += ['during', 'each', 'eg', 'eight', 'either', 'eleven', 'else']
+stopwords += ['elsewhere', 'empty', 'enough', 'etc', 'even', 'ever']
+stopwords += ['every', 'everyone', 'everything', 'everywhere', 'except']
+stopwords += ['few', 'fifteen', 'fifty', 'fill', 'find', 'fire', 'first']
+stopwords += ['five', 'for', 'former', 'formerly', 'forty', 'found']
+stopwords += ['four', 'from', 'front', 'full', 'further', 'get', 'give']
+stopwords += ['go', 'had', 'has', 'hasnt', 'have', 'he', 'hence', 'her']
+stopwords += ['here', 'hereafter', 'hereby', 'herein', 'hereupon', 'hers']
+stopwords += ['herself', 'him', 'himself', 'his', 'how', 'however']
+stopwords += ['hundred', 'i', 'ie', 'if', 'in', 'inc', 'indeed']
+stopwords += ['interest', 'into', 'is', 'it', 'its', 'itself', 'keep']
+stopwords += ['last', 'latter', 'latterly', 'least', 'less', 'ltd', 'made']
+stopwords += ['many', 'may', 'me', 'meanwhile', 'might', 'mill', 'mine']
+stopwords += ['more', 'moreover', 'most', 'mostly', 'move', 'much']
+stopwords += ['must', 'my', 'myself', 'name', 'namely', 'neither', 'never']
+stopwords += ['nevertheless', 'next', 'nine', 'no', 'nobody', 'none']
+stopwords += ['noone', 'nor', 'not', 'nothing', 'now', 'nowhere', 'of']
+stopwords += ['off', 'often', 'on','once', 'one', 'only', 'onto', 'or']
+stopwords += ['other', 'others', 'otherwise', 'our', 'ours', 'ourselves']
+stopwords += ['out', 'over', 'own', 'part', 'per', 'perhaps', 'please']
+stopwords += ['put', 'rather', 're', 's', 'same', 'see', 'seem', 'seemed']
+stopwords += ['seeming', 'seems', 'serious', 'several', 'she', 'should']
+stopwords += ['show', 'side', 'since', 'sincere', 'six', 'sixty', 'so']
+stopwords += ['some', 'somehow', 'someone', 'something', 'sometime']
+stopwords += ['sometimes', 'somewhere', 'still', 'such', 'system', 'take']
+stopwords += ['ten', 'than', 'that', 'the', 'their', 'them', 'themselves']
+stopwords += ['then', 'thence', 'there', 'thereafter', 'thereby']
+stopwords += ['therefore', 'therein', 'thereupon', 'these', 'they']
+stopwords += ['thick', 'thin', 'third', 'this', 'those', 'though', 'three']
+stopwords += ['three', 'through', 'throughout', 'thru', 'thus', 'to']
+stopwords += ['together', 'too', 'top', 'toward', 'towards', 'twelve']
+stopwords += ['twenty', 'two', 'un', 'under', 'until', 'up', 'upon']
+stopwords += ['us', 'very', 'via', 'was', 'we', 'well', 'were', 'what']
+stopwords += ['whatever', 'when', 'whence', 'whenever', 'where']
+stopwords += ['whereafter', 'whereas', 'whereby', 'wherein', 'whereupon']
+stopwords += ['wherever', 'whether', 'which', 'while', 'whither', 'who']
+stopwords += ['whoever', 'whole', 'whom', 'whose', 'why', 'will', 'with']
+stopwords += ['within', 'without', 'would', 'yet', 'you', 'your']
+stopwords += ['yours', 'yourself', 'yourselves']</pre>
+<p>Now getting rid of the stop words in a list is as easy as using another list comprehension. Add this function to the <code>obo.py</code> module, too.</p>
+<pre class="python"># Given a list of words, remove any that are
+# in a list of stop words.
+
+def removeStopwords(wordlist, stopwords):
+    return [w for w in wordlist if w not in stopwords]</pre>
+<h2>Putting it All Together</h2>
+<p>Now we have everything we need to determine word frequencies for web pages. Copy the following to Komodo Edit, save it as <code>html-to-freq-2.py</code> and execute it.</p>
+<pre class="python"># html-to-freq-2.py
+
+import urllib2
+import obo
+
+url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+
+response = urllib2.urlopen(url)
+html = response.read()
+text = obo.stripTags(html).lower()
+fullwordlist = obo.stripNonAlphaNum(text)
+wordlist = obo.removeStopwords(fullwordlist, obo.stopwords)
+dictionary = obo.wordListToFreqDict(wordlist)
+sorteddict = obo.sortFreqDict(dictionary)
+
+for s in sorteddict: print str(s)</pre>
+<p>If all went well, your output should look like this:</p>
+<pre class="python">(25, 'house')
+(20, 'yes')
+(20, 'prisoner')
+(19, 'mr')
+(17, 'man')
+(15, 'akerman')
+(14, 'mob')
+(13, 'black')
+(12, 'night')
+(11, 'saw')
+(9, 'went')
+(9, 'sworn')
+(9, 'room')
+(9, 'pair')
+(9, 'know')
+(9, 'face')
+(8, 'time')
+(8, 'thing')
+(8, 'june')
+(8, 'believe')
+...</pre>
+<h2>Suggested Readings</h2>
+<p>Lutz, <span class="pub">Learning Python</span></p>
+<ul>
+<li>Ch. 9: Tuples, Files, and Everything Else</li>
+<li>Ch. 11: Assignment, Expressions, and print</li>
+<li>Ch. 12: if Tests</li>
+<li>Ch. 13: while and for Loops</li>
+</ul>
+<p>Pilgrim, <span class="pub">Diving into Python</span></p>
+<ul>
+<li>Ch. 7: <a href="http://www.diveintopython.net/regular_expressions/index.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.diveintopython.net']);" target="_blank">Regular Expressions</a></li>
+</ul>
+<h3>Code Syncing</h3>
+<p>To follow along with future lessons it is important that you have the right files and programs in your “programming-historian” directory. At the end of each chapter you can download the “programming-historian” zip file to make sure you have the correct code.</p>
+<ul>
+<li>programming-historian (<a href="/wp-content/uploads/2012/05/programming-historian3.zip">zip</a>)</li>
+</ul>
+
+<!-- You can start editing here. -->
+<!-- If comments are open, but there are no comments. -->
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c" type="text/javascript"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body></html>

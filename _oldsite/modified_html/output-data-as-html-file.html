@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/output-data-as-html-file/feed" rel="alternate" title="The Programming Historian » Output Data as an HTML File Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/keywords-in-context-using-n-grams" rel="prev" title="Keywords in Context (Using n-grams)"/><link href="http://programminghistorian.org/lessons/creating-and-viewing-html-files-with-python" rel="next" title="Creating and Viewing HTML Files with Python"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/output-data-as-html-file" rel="canonical"/><link href="http://programminghistorian.org/?p=1617" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="William J. Turkel &amp; Adam Crymble" name="author"/><meta content="Output Data as an HTML File" name="title"/><meta content="2012-07-17" name="date"/><meta content="Miriam Posner, Jim Clifford" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1617">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<h2>Lesson Goals</h2>
+<p>This lesson takes the frequency pairs created in <a href="/lessons/counting-frequencies">Computing Frequencies</a> and outputs them to an HTML file.</p>
+<p>Here you will learn how to output data as an HTML file using Python. You will also learn about <span class="tech">string formatting</span>. The final result is an HTML file that shows the keywords found in the original source in order of descending frequency, along with the number of times that each keyword appears.</p>
+<h3>Files Needed For This Lesson</h3>
+<ul>
+<li><code>obo.py</code></li>
+</ul>
+<p>If you do not have these files from the previous lesson, you can download a <a href="/lessons/creating-and-viewing-html-files-with-python#codesync">zip file from the previous lesson here.</a></p>
+<h3>Building an HTML wrapper</h3>
+<p>In the previous lesson, you learned how to embed the message “Hello World!” in HTML tags, write the result to a file and open it automatically in the browser. A program that puts formatting codes around something so that it can be used by another program is sometimes called a <span class="tech">wrapper</span>. What we’re going to do now is develop an HTML wrapper for the output of our code that computes word frequencies. We’re also going to add some helpful, dynamic metadata to supplement the frequency data collected in <a href="/lessons/counting-frequencies">Computing Frequencies</a>.</p>
+<h3>Metadata</h3>
+<p>The distinction between data and metadata is crucial to information science. Metadata are data about data. This concept should already be very familiar to you, even if you haven’t heard the term before. Consider a traditional book. If we take the text of the book to be the data, there are a number of other characteristics which are associated with that text, but which may or may not be explicitly printed in the book. The title of the work, the author, the publisher, and the place and date of publication are metadata that are typically printed in the work. The place and date of writing, the name of the copy editor, Library of Congress cataloging data, and the name of the font used to typeset the book are sometimes printed in it. The person who purchased a particular copy may or may not write their name in the book. If the book belongs in the collection of a library, that library will keep additional metadata, only some of which will be physically attached to the book. The record of borrowing, for example, is usually kept in some kind of database and linked to the book by a unique identifier. Libraries, archives and museums all have elaborate systems to generate and keep track of metadata.</p>
+<p>When you’re working with digital data, it is a good idea to incorporate metadata into your own files whenever possible. We will now develop a few basic strategies for making our data files <span class="tech">self-documenting</span>. In our wrapper, we want to include dynamic information about the file, such as the time and date it was created, as well as an HTML title that is relevant to the file. In this case we could just give it a name ourselves, but when we start working with multiple files, automatically creating self-documenting files will save a lot of time, so we’ll practice now. And for that, we’ll have to learn to take advantage of a few more powerful <span class="tech">string formatting</span> options.</p>
+<h3>Python string formatting</h3>
+<p>Python includes a special formatting operator that allows you to insert one string into another one. It is represented by a percent sign followed by an “s”. Open a Python shell and try the following examples.</p>
+<pre class="python">frame = 'This fruit is a %s'
+print frame
+-&gt; This fruit is a %s
+
+print frame % 'banana'
+-&gt; This fruit is a banana
+
+print frame % 'pear'
+-&gt; This fruit is a pear</pre>
+<p>There is also a form which allows you to interpolate a list of strings into another one.</p>
+<pre class="python">frame2 = 'These are %s, those are %s'
+print frame2
+-&gt; These are %s, those are %s
+
+print frame2 % ('bananas', 'pears')
+-&gt; These are bananas, those are pears</pre>
+<p>In these examples, a <span class="var">%s</span> in one string indicates that another string is going to be embedded at that point. There are a range of other string formatting codes, most of which allow you to embed numbers in strings in various formats, like <span class="var">%i</span> for integer (eg. 1, 2, 3), <span class="var">%f</span> for floating-point decimal (eg. 3.023, 4.59, 1.0), and so on. Using this method we can input information that is unique to the file.</p>
+<h3>Self-documenting data file</h3>
+<p>Let’s bundle some of the code that we’ve already written into functions. One of these will take a URL and return a string of lowercase text from the web page. Copy this code into the <code>obo.py</code> module.</p>
+<pre class="python"># Given a URL, return string of lowercase text from page.
+
+def webPageToText(url):
+    import urllib2
+    response = urllib2.urlopen(url)
+    html = response.read()
+    text = stripTags(html).lower()
+    return text</pre>
+<p>We’re also going to want a function that takes a string of any sort and makes it the body of an HTML file which is opened automatically in Firefox. This function should include some basic metadata, like the time and date that it was created and the name of the program that created it. Study the following code carefully, then copy it into the <code>obo.py</code> module.</p>
+<h4>Mac Instructions</h4>
+<p>If you are using a Mac, make sure you include the proper file path in the <span class="var">filename</span> variable on the 2nd last line to reflect where you’re saving your files.</p>
+<pre class="python"># Given name of calling program, a url and a string to wrap,
+# output string in html body with basic metadata and open in Firefox tab.
+
+def wrapStringInHTML(program, url, body):
+    import datetime
+    from webbrowser import open_new_tab
+
+    now = datetime.datetime.today().strftime("%Y%m%d-%H%M%S")
+    filename = program + '.html'
+    f = open(filename,'w')
+
+    wrapper = """&lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;%s output - %s&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;&lt;p&gt;URL: &lt;a href=\"%s\"&gt;%s&lt;/a&gt;&lt;/p&gt;&lt;p&gt;%s&lt;/p&gt;&lt;/body&gt;
+    &lt;/html&gt;"""
+
+    whole = wrapper % (program, now, url, url, body)
+    f.write(whole)
+    f.close()
+
+    #Change the filepath variable below to match the location of your directory
+    filename = 'file:///Users/username/Desktop/programming-historian/' + filename
+
+    open_new_tab(filename)</pre>
+<h4>Windows Instructions</h4>
+<pre class="python"># Given name of calling program, a url and a string to wrap,
+# output string in html body with basic metadata
+# and open in Firefox tab.
+
+def wrapStringInHTML(program, url, body):
+    import datetime
+    from webbrowser import open_new_tab
+
+    now = datetime.datetime.today().strftime("%Y%m%d-%H%M%S")
+
+    filename = program + '.html'
+    f = open(filename,'w')
+
+    wrapper = """&lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;%s output - %s&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;&lt;p&gt;URL: &lt;a href=\"%s\"&gt;%s&lt;/a&gt;&lt;/p&gt;&lt;p&gt;%s&lt;/p&gt;&lt;/body&gt;
+    &lt;/html&gt;"""
+
+    whole = wrapper % (program, now, url, url, body)
+    f.write(whole)
+    f.close()
+
+    open_new_tab(filename)</pre>
+<p>***</p>
+<p>Note that this function makes use of the string formatting operator about which we just learned. If you are still having trouble with this idea, take a look at the HTML file that opened in your new Firefox tab and you should see how this worked. If you’re still stuck, take a look at the “<code>URL: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33</code>” in the HTML file and trace back how the program knew to put the URL value there.</p>
+<p>The function also calls the Python <span class="var">datetime</span> library to determine the current time and date. Like the string formatting operator <span class="var">%s</span>, this library uses the <span class="reserved">%</span> as replacements for values. In this case, the <span class="var">%Y</span> <span class="var">%m</span> <span class="var">%d</span> <span class="var">%H</span> <span class="var">%M</span> <span class="var">%S</span> represents year, month, date, hour, minute and second respectively. Unlike the <span class="var">%s</span>, the program will determine the value of these variables for you using your computer’s clock. It is important to recognize this difference.</p>
+<p>This date metadata, along with the name of the program that called the function, is stored in the HTML title tag. The HTML file that is created has the same name as the Python program that creates it, but with a <code>.html</code> extension rather than a <code>.py</code> one.</p>
+<h3>Putting it all together</h3>
+<p>Now we can create another version of our program to compute frequencies. Instead of sending its output to a text file or an output window, it sends the output to an HTML file which is opened in a new Firefox tab. From there, the program’s output can be added easily as bibliographic entries to Zotero. Type or copy the following code into your text editor, save it as <code>html-to-freq-3.py</code> and execute it, to confirm that it works as expected.</p>
+<pre class="python"># html-to-freq-3.py
+import obo
+
+# create sorted dictionary of word-frequency pairs
+url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+text = obo.webPageToText(url)
+fullwordlist = obo.stripNonAlphaNum(text)
+wordlist = obo.removeStopwords(fullwordlist, obo.stopwords)
+dictionary = obo.wordListToFreqDict(wordlist)
+sorteddict = obo.sortFreqDict(dictionary)
+
+# compile dictionary into string and wrap with HTML
+outstring = ""
+for s in sorteddict:
+    outstring += str(s)
+    outstring += "&lt;br /&gt;"
+obo.wrapStringInHTML("html-to-freq-3", url, outstring)</pre>
+<p>Note that we interspersed our word-frequency pairs with the HTML break tag <span class="reserved">&lt;br /&gt;</span>, which acts as a newline. If all went well, you should see the same word frequencies that you computed in the last section, this time in your browser window.</p>
+<h3>Suggested Readings</h3>
+<ul>
+<li>Lutz, Learning Python
+<ul>
+<li>Re-read and review Chs. 1-17</li>
+</ul>
+</li>
+</ul>
+<h3><span id="codesync">Code Syncing</span></h3>
+<p>To follow along with future lessons it is important that you have the right files and programs in your “programming-historian” directory. At the end of each chapter you can download the “programming-historian” zip file to make sure you have the correct code. If you are following along with the Mac / Linux version you may have to open the obo.py file and change “file:///Users/username/Desktop/programming-historian/” to the path to the directory on your own computer.</p>
+<ul>
+<li>programming-historian [Mac / Linux] (<a href="http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian-mac-linux.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian-mac-linux.zip']);">zip</a>)</li>
+<li>programming-historian [Windows] (<a href="http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian-windows.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian-windows.zip']);">zip</a>)</li>
+</ul>
+
+<!-- You can start editing here. -->
+
+<div class="navigation">
+<div class="alignleft"></div>
+<div class="alignright"></div>
+</div>
+
+<div class="navigation">
+<div class="alignleft"></div>
+<div class="alignright"></div>
+</div>
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c" type="text/javascript"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body></html>

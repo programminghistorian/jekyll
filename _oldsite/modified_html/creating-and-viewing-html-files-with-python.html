@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/creating-and-viewing-html-files-with-python/feed" rel="alternate" title="The Programming Historian » Creating and Viewing HTML Files with Python Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/output-data-as-html-file" rel="prev" title="Output Data as an HTML File"/><link href="http://programminghistorian.org/lessons/counting-frequencies" rel="next" title="Counting Frequencies"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/creating-and-viewing-html-files-with-python" rel="canonical"/><link href="http://programminghistorian.org/?p=1614" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="William J. Turkel &amp; Adam Crymble" name="author"/><meta content="Creating and Viewing HTML Files with Python" name="title"/><meta content="2012-07-17" name="date"/><meta content="Miriam Posner, Jim Clifford" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1614">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<h2>Lesson Goals</h2>
+<p>This lesson uses Python to create and view an HTML file. If you write programs that output HTML, you can use any browser to look at your results. This is especially convenient if your program is automatically creating hyperlinks or graphic entities like charts and diagrams.</p>
+<p>Here you will learn how to create HTML files with Python <span class="tech">scripts</span>, and how to use Python to automatically open an HTML file in Firefox.</p>
+<h3>Files Needed For This Lesson</h3>
+<ul>
+<li><code>obo.py</code></li>
+</ul>
+<p>If you do not have these files from the previous lesson, you can download a <a href="/lessons/counting-frequencies#codesync">zip file from the previous lesson here.</a></p>
+<h3>Creating HTML with Python</h3>
+<p>At this point, we’ve started to learn how to use Python to download online sources and extract information from them automatically. Remember that our ultimate goal is to incorporate programming seamlessly into our research practice. In keeping with this goal, in this lesson and the next, we will learn how to output data back as HTML. This has a few advantages. First, by storing the information on our hard drive as an HTML file we can open it with Firefox and use <a href="http://zotero.org" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://zotero.org']);" target="_blank">Zotero</a> to index and annotate it later. Second, there are a wide range of visualization options for HTML which we can draw on later.</p>
+<p>If you have not done the <a href="http://www.w3schools.com/html/default.asp" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.w3schools.com']);" target="_blank">W3 Schools HTML tutorial</a> yet, take a few minutes to do it before continuing. We’re going to be creating an HTML document using Python, so you will have to know what an HTML document is!</p>
+<h3>“Hello World” in HTML using Python</h3>
+<p>One of the more powerful ideas in computer science is that a file that seems to contain code from one perspective can be seen as data from another. It is possible, in other words, to write programs that manipulate other programs. What we’re going to do next is create an HTML file that says “Hello World!” using Python. We will do this by storing HTML tags in a multiline Python string and saving the contents to a new file. This file will be saved with an <code>.html</code> extension rather than a <code>.txt</code> extension.</p>
+<p>Typically an HTML file begins with a <span class="tech"><a href="http://www.w3schools.com/tags/tag_doctype.asp" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.w3schools.com']);" target="_blank">doctype declaration</a></span>. You saw this when you wrote an HTML “Hello World” program in an earlier lesson. To make reading our code easier, we will omit the doctype in this example. Recall a multi-line string is created by enclosing the text in three quotation marks (see below).</p>
+<pre class="python"># write-html.py
+
+f = open('helloworld.html','w')
+
+message = """&lt;html&gt;
+&lt;head&gt;&lt;/head&gt;
+&lt;body&gt;&lt;p&gt;Hello World!&lt;/p&gt;&lt;/body&gt;
+&lt;/html&gt;"""
+
+f.write(message)
+f.close()</pre>
+<p>Save the above program as <code>write-html.py</code> and execute it. Use File -&gt; Open in your chosen text editor to open <code>helloworld.html</code> to verify that your program actually created the file. The content should look like this:</p>
+<p><img alt="HTML generated by Python" class="wp-image-379" src="http://programminghistorian.org/wp-content/uploads/2011/07/hello-world-html.png" title="hello-world-html"/> <p>HTML Source Generated by Python Program</p></p>
+<p>Now go to your Firefox browser and choose <code>File -&gt; New Tab</code>, go to the tab, and choose <code>File -&gt; Open File</code>. Select <code>helloworld.html</code>. You should now be able to see your message in the browser. Take a moment to think about this: you now have the ability to write a program which can automatically create a webpage. There is no reason why you could not write a program to automatically create a whole website if you wanted to.</p>
+<h3>Using Python to Control Firefox</h3>
+<p>We automatically created an HTML file, but then we had to leave our editor and go to Firefox to open the file in a new tab. Wouldn’t it be cool to have our Python program include that final step? Type or copy the code below and save it as <code>write-html-2.py</code>. When you execute it, it should create your HTML file and then automatically open it in a new tab in Firefox. Sweet!</p>
+<h4>Mac Instructions</h4>
+<p>Mac users will have to specify to the precise location of the <code>.html</code> file on their computer. To do this, locate the <code>programming-historian</code> folder you created to do these tutorials, right-click it and select “Get Info”.</p>
+<p>You can then cut and paste the file location listed after “Where:” and make sure you include a trailing slash (/) to let the computer know you want something inside the directory (rather than the directory itself).</p>
+<pre class="python"># write-html-2.py
+import webbrowser
+
+f = open('helloworld.html','w')
+
+message = """&lt;html&gt;
+&lt;head&gt;&lt;/head&gt;
+&lt;body&gt;&lt;p&gt;Hello World!&lt;/p&gt;&lt;/body&gt;
+&lt;/html&gt;"""
+
+f.write(message)
+f.close()
+
+#Change path to reflect file location
+filename = 'file:///Users/username/Desktop/programming-historian/' + 'helloworld.html'
+webbrowser.open_new_tab(filename)</pre>
+<p>If you’re getting a “File not found” error you haven’t changed the filename path correctly.</p>
+<h4>Windows Instructions</h4>
+<pre class="python"># write-html-2.py
+
+import webbrowser
+
+f = open('helloworld.html','w')
+
+message = """&lt;html&gt;
+&lt;head&gt;&lt;/head&gt;
+&lt;body&gt;&lt;p&gt;Hello World!&lt;/p&gt;&lt;/body&gt;
+&lt;/html&gt;"""
+
+f.write(message)
+f.close()
+
+webbrowser.open_new_tab('helloworld.html')</pre>
+<p>***</p>
+<p>Not only have you written a Python program that can write simple HTML, but you’ve now controlled your Firefox browser using Python. In the next lesson, we turn to outputting the data that we have collected as an HTML file.</p>
+<h3>Suggested Readings</h3>
+<ul>
+<li>Lutz, Learning Python
+<ul>
+<li>Re-read and review Chs. 1-17</li>
+</ul>
+</li>
+</ul>
+<h3><span id="codesync">Code Syncing</span></h3>
+<p>To follow along with future lessons it is important that you have the right files and programs in your “programming-historian” directory. At the end of each chapter you can download the “programming-historian” zip file to make sure you have the correct code. If you are following along with the Mac / Linux version you may have to open the obo.py file and change “file:///Users/username/Desktop/programming-historian/” to the path to the directory on your own computer.</p>
+<ul>
+<li>programming-historian [Mac / Linux] (<a href="http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian-mac-linux.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian-mac-linux.zip']);">zip</a>)</li>
+<li>programming-historian [Windows] (<a href="http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian-windows.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/05/programming-historian-windows.zip']);">zip</a>)</li>
+</ul>
+
+<!-- You can start editing here. -->
+
+<div class="navigation">
+<div class="alignleft"></div>
+<div class="alignright"></div>
+</div>
+
+<div class="navigation">
+<div class="alignleft"></div>
+<div class="alignright"></div>
+</div>
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c" type="text/javascript"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body></html>

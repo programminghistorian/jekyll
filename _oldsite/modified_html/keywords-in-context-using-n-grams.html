@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/keywords-in-context-using-n-grams/feed" rel="alternate" title="The Programming Historian » Keywords in Context (Using n-grams) Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/output-keywords-in-context-in-html-file" rel="prev" title="Output Keywords in Context in HTML File"/><link href="http://programminghistorian.org/lessons/output-data-as-html-file" rel="next" title="Output Data as an HTML File"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/keywords-in-context-using-n-grams" rel="canonical"/><link href="http://programminghistorian.org/?p=1623" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="William J. Turkel &amp; Adam Crymble" name="author"/><meta content="Keywords in Context (Using n-grams)" name="title"/><meta content="2012-07-17" name="date"/><meta content="Miriam Posner, Jim Clifford" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1623">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<h2>Lesson Goals</h2>
+<p>Like in <a href="/lessons/output-data-as-html-file">Output Data as HTML File</a>, this lesson takes the frequency pairs collected in <a href="/lessons/counting-frequencies">Counting Frequencies</a> and outputs them in HTML. This time the focus is on <span class="tech">keywords in context (KWIC)</span> which creates <span class="tech">n-grams</span> from the original document content – in this case a trial transcript from the <em>Old Bailey Online</em>. You can use your program to select a keyword and the computer will output all instances of that keyword, along with the words to the left and right of it, making it easy to see at a glance how the keyword is used.</p>
+<p>Once the KWICs have been created, they are then wrapped in HTML and sent to the browser where they can be viewed. This reinforces what was learned in <a href="output-data-as-html-file">Output Data as HTML File</a>, opting for a slightly different output.</p>
+<p>At the end of this lesson, you will be able to extract all possible n-grams from the text. In the next lesson, you will be learn how to output all of the n-grams of a given keyword in a document downloaded from the Internet, and display them clearly in your browser window.</p>
+<h3>Files Needed For This Lesson</h3>
+<ul>
+<li><code>obo.py</code></li>
+</ul>
+<p>If you do not have these files from the previous lesson, you can download a <a href="/lessons/output-data-as-html-file#codesync">zip file from the previous lesson here.</a></p>
+<h2>From Text to N-Grams to KWIC</h2>
+<p>Now that you know how to harvest the textual content of a web page automatically with Python, and have begun to use strings, lists and dictionaries for text processing, there are many other things that you can do with the text besides counting frequencies. People who study the statistical properties of language have found that studying linear sequences of linguistic units can tell us a lot about a text. These linear sequences are known as <span class="tech">bigrams</span> (2 units), <span class="tech">trigrams</span> (3 units), or more generally as <span class="tech">n-grams</span>.</p>
+<p>You have probably seen n-grams many times before. They are commonly used on search results pages to give you a preview of where your keyword appears in a document and what the surrounding context of the keyword is. This application of n-grams is known as <span class="tech">keywords in context</span> (often abbreviated as KWIC). For example, if the string in question were “it was the best of times it was the worst of times it was the age of wisdom it was the age of foolishness” then a 7-gram for the keyword “wisdom” would be:</p>
+<pre class="brush: plain; title: ; notranslate" title="">the age of wisdom it was the</pre>
+<p>An n-gram could contain any type of linguistic unit you like. For historians you are most likely to use characters as in the bigram “qu” or words as in the trigram “the dog barked”; however, you could also use phonemes, syllables, or any number of other units depending on your research question.</p>
+<p>What we’re going to do next is develop the ability to display KWIC for any keyword in a body of text, showing it in the context of a fixed number of words on either side. As before, we will wrap the output so that it can be viewed in Firefox and added easily to Zotero.</p>
+<h3>From Text to N-grams</h3>
+<p>Since we want to work with words as opposed to characters or phonemes, it will be much easier to create n-grams using a list of words rather than strings. As you already know, Python can easily turn a string into a list using the <span class="reserved">split</span> operation. Once <span class="reserved">split</span> it becomes simple to retrieve a subsequence of adjacent words in the list by using a <span class="reserved">slice</span>, represented as two indexes separated by a colon. This was introduced when working with strings in <a href="/lessons/manipulating-strings-in-pythons">Manipulating Strings in Python</a>.</p>
+<pre class="python">message9 = "Hello World"
+message9a = message9[1:8]
+print message9a
+-&gt; ello Wo</pre>
+<p>However, we can also use this technique to take a predetermined number of neighbouring words from the list with very little effort. Study the following examples, which you can try out in a Python Shell.</p>
+<pre class="python">wordstring = 'it was the best of times it was the worst of times '
+wordstring += 'it was the age of wisdom it was the age of foolishness'
+wordlist = wordstring.split()
+
+print wordlist[0:4]
+-&gt; ['it', 'was', 'the', 'best']
+
+print wordlist[0:6]
+-&gt; ['it', 'was', 'the', 'best', 'of', 'times']
+
+print wordlist[6:10]
+-&gt; ['it', 'was', 'the', 'worst']
+
+print wordlist[0:12]
+-&gt; ['it', 'was', 'the', 'best', 'of', 'times', 'it', 'was', 'the', 'worst', 'of', 'times']
+
+print wordlist[:12]
+-&gt; ['it', 'was', 'the', 'best', 'of', 'times', 'it', 'was', 'the', 'worst', 'of', 'times']
+
+print wordlist[12:]
+-&gt; ['it', 'was', 'the', 'age', 'of', 'wisdom', 'it', 'was', 'the', 'age', 'of', 'foolishness']</pre>
+<p>In these examples we have used the <span class="reserved">slice</span> method to return parts of our list. Note that there are two sides to the colon in a <span class="reserved">slice</span>. If the right of the colon is left blank as in the last example above, the program knows to automatically continue to the end – in this case, to the end of the list. The second last example above shows that we can start at the beginning by leaving the space before the colon empty. This is a handy shortcut available to keep your code shorter.</p>
+<p>You can also use variables to represent the index positions. Used in conjunction with a <span class="reserved">for</span> loop, you could easily create every possible n-gram of your list. The following example returns all 5-grams of our string from the example above.</p>
+<pre class="python">i = 0
+for items in wordlist:
+    print wordlist[i: i+5]
+    i += 1</pre>
+<p>Keeping with our modular approach, we will create a function and save it to the <code>obo.py</code> module that can create n-grams for us. Study and type or copy the following code:</p>
+<pre class="python"># Given a list of words and a number n, return a list
+# of n-grams.
+
+def getNGrams(wordlist, n):
+    return [wordlist[i:i+n] for i in range(len(wordlist)-(n-1))]</pre>
+<p>This function may look a little confusing as there is a lot going on here in not very much code. It uses a list comprehension to keep the code compact. The following example does exactly the same thing:</p>
+<pre class="python">
+def getNGrams(wordlist, n):
+    ngrams = []
+    for i in range(len(wordlist)-(n-1)):
+        ngrams.append(wordlist[i:i+n])
+    return ngrams
+</pre>
+<p>A concept that may still be confusing to you are the two function arguments. Notice that our function has two variable names in the parentheses after its name when we declared it: <span class="var">wordlist</span>, <span class="var">n</span>. These two variables are the function arguments. When you call (run) this function, these variables will be used by the function to solve itself. Without these arguments there is not enough information to do the calculations. In this case, the two pieces of information are the list of words you want to turn into n-grams (<span class="var">wordlist</span>), and the number of words you want in each n-gram (<span class="var">n</span>). For the function to work it needs both, so you call it in like this (save the following as <code>useGetNGrams.py</code> and run):</p>
+<pre class="python">
+#useGetNGrams.py
+
+import obo
+
+wordstring = 'it was the best of times it was the worst of times '
+wordstring += 'it was the age of wisdom it was the age of foolishness'
+allMyWords = wordstring.split()
+
+print obo.getNGrams(allMyWords, 5)
+</pre>
+<p>Notice that the arguments you enter do not have to have the same names as the arguments named in the function declaration. Python knows to use <span class="var">allMyWords</span> everywhere in the function that <span class="var">wordlist</span> appears, since this is given as the first argument. Likewise, all instances of <span class="var">n</span> will be replaced by the integer <span class="var">5</span> in this case. Try changing the 5 to a string, such as “elephants” and see what happens when you run your program. Note that because “<span class="var">n</span>” is being used as an integer, you have to ensure the argument sent is also an integer. The same is true for strings, floats or any other variable type sent as an argument.</p>
+<p>You can also use a Python shell to play around with the code to get a better understanding of how it works. Paste the function declaration for <span class="var">getNGrams</span> (either of the two functions above) into your Python shell.</p>
+<pre class="python">
+test1 = 'here are four words'
+test2 = 'this test sentence has eight words in it'
+
+getNGrams(test1.split(), 5)
+-&gt; []
+
+getNGrams(test2.split(), 5)
+-&gt; [['this', 'test', 'sentence', 'has', 'eight'],
+['test', 'sentence', 'has', 'eight', 'words'],
+['sentence', 'has', 'eight', 'words', 'in'],
+['has', 'eight', 'words', 'in', 'it']]</pre>
+<p>There are two concepts that we see in this example of which you need to be aware. Firstly, because our function expects a list of words rather than a string, we have to convert the strings into lists before our function can handle them. We could have done this by adding another line of code above the function call, but instead we used the <span class="reserved">split</span> method directly in the function argument as a bit of a shortcut.</p>
+<p>Secondly, why did the first example return an empty list rather than the n-grams we were after? In <span class="var">test1</span>, we have tried to ask for an n-gram that is longer than the number of words in our list. This has resulted in a blank list. In <span class="var">test2</span> we have no such problem and get all possible 5-grams for the longer list of words. If you wanted to you could adapt your function to print a warning message or to return the entire string instead of an empty list.</p>
+<p>We now have a way to extract all possible n-grams from a body of text. In the next lesson, we can focus our attention on isolating those n-grams that are of interest to us.</p>
+<h3><span id="codesync">Code Syncing</span></h3>
+<p>To follow along with future lessons it is important that you have the right files and programs in your “programming-historian” directory. At the end of each chapter you can download the “programming-historian” zip file to make sure you have the correct code. If you are following along with the Mac / Linux version you may have to open the <code>obo.py</code> file and change “file:///Users/username/Desktop/programming-historian/” to the path to the directory on your own computer.</p>
+<ul>
+<li>programming-historian [Mac / Linux] (<a href="http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian.zip']);">zip</a>)</li>
+<li>programming-historian [Windows] (<a href="http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian-windows.zip" onclick="javascript:_gaq.push(['_trackEvent','download','http://programminghistorian.org/wp-content/uploads/2012/06/programming-historian-windows.zip']);">zip</a>)</li>
+</ul>
+
+<!-- You can start editing here. -->
+<!-- If comments are open, but there are no comments. -->
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPlain.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c" type="text/javascript"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body></html>

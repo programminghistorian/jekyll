@@ -1,8 +1,12 @@
 ---
 title: Installing Python Modules with pip
-author: Fred Gibbs, Ben Hurwitz, Amanda Morton
-date: 05-06-2013
-reviewers: 
+authors:
+- Fred Gibbs
+date: 2013-05-06
+reviewers:
+- Ben Hurwitz
+- Amanda Morton
+layout: default
 ---
 
 Lesson Goals

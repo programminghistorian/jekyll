@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','amanda-morton',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/troubleshooting/feed" rel="alternate" title="The Programming Historian » What to do if you get Stuck Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/linux-installation" rel="prev" title="Linux Installation"/><link href="http://programminghistorian.org/lessons/viewing-html-files" rel="next" title="Viewing HTML Files"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/troubleshooting" rel="canonical"/><link href="http://programminghistorian.org/?p=1634" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="William J. Turkel, Adam Crymble" name="author"/><meta content="What to do if you get Stuck" name="title"/><meta content="2012-07-17" name="date"/><meta content="Miriam Posner, Jim Clifford, Amanda Morton" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1634">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<h2>Step 1 – How to Troubleshoot</h2>
+<p>You may be surprised that we start by acknowledging that things can and will go wrong. But we believe it is best to be honest and proactive. As with all new skills, you are going to get frustrated while learning to program. Here are a few tips that may help you work through the frustration and solve many of your own problems.</p>
+<h3>Language Learning</h3>
+<p>Do not forget you are effectively learning a new language, or even languages depending on which lessons you try. You will not be fluent in twenty minutes. But you can expect to start building your skills to the point where you can complete simple tasks, progressing into more difficult situations. When you are presented with new code, it’s important that you take the time to really understand it.</p>
+<p>If you whip through the lessons cutting and pasting code snippets you may end up with a program that runs, but you will not understand it, nor will you be able to generalize the skills and write your own programs. Once you’ve got something that works, try making a backup copy and then changing things in your code one at a time. If you can predict the effect that your changes will have, you have a good understanding of what is going on. When you are surprised by the effect of a change, you have an opportunity to learn something new. When you’ve got something that doesn’t work, make a backup copy and then try eliminating things that you don’t understand. What is the simplest version that you can get to work? Once you have that version, you can try adding in new code, one thing at a time.</p>
+<h3>Search Engines</h3>
+<p>If you run into difficulties when writing computer code the great news is that the answer to almost any problem can be found online. Computer programmers constantly seek and give help on forums and mailing lists, and the questions and subsequent answers are readily available. This means the Internet is usually your best resource for finding help. If you run into a problem, the first thing you should do is type your problem into a search engine. More often than not someone has already asked your exact question, and other people have provided a range of answers. You might even find entire websites dedicated to solving your particular problem. When you are just starting out, it is very unlikely that you will come across a problem that no one has encountered before. Likewise, if you encounter an error message that you don’t understand, cut and paste that error message into a search engine and surround it with quotation marks. Typically you will find dozens of explanations for why this error appeared and how to fix it. The more specific that you can be about your problem, the better the results you will find. Don’t be discouraged if you don’t find the answer on your first search. Rephrase the search terms and try again.</p>
+<h3>Forums</h3>
+<p>If you’ve Googled it, Yahoo’d it, and tried various combinations of teas, coffees and energy drinks to no avail, you’re going to need to ask for help. There are many Internet forums and mailing lists to which you can turn. At the time of writing, our favourite forum for general programming questions is <a href="http://stackoverflow.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://stackoverflow.com']);" target="_blank">Stack Overflow</a>. There is also <a href="http://mail.python.org/mailman/listinfo/tutor" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://mail.python.org']);" target="_blank">Tutor</a>, a mailing list where people who are learning Python can ask questions, and people who are interested in teaching Python can answer them. If you are learning another language or skill, chances are there is a similar forum online dedicated to it. Try a search engine to locate the one that is best for your needs. At any given time there are swarms of friendly, knowledgeable people just waiting to answer your question. If you post your problem in a courteous manner, with a little bit of luck you will have a solution within a couple of hours. Keep in mind that it is bad form to post a question in more than one place in quick succession. It may not be the instant gratification we’ve come to expect, but don’t forget, these people are volunteering to help you, and most probably if you’re desperate enough to ask for help, you could use a few hours away from the keyboard anyway. Go for a walk, take a nap, or do something else to clear your mind and some new ideas will come to you.</p>
+<h3>Asking Good Questions</h3>
+<p>Clarity and specificity are your friends when it comes to asking for help on a forum. The old <a href="http://web.archive.org/web/20130101093828/http://stackoverflow.com/faq" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://web.archive.org']);" target="_blank">FAQ page</a> on Stack Overflow’s website is great reading for anyone looking to ask a question about programming online. Even if you do not use the Stack Overflow forums, the messages here are essential. Remember, the people who read forums and offer their expertise are busy; make it easy for them by carefully thinking out your problem before you ask. Likewise, make sure you are asking a specific question to a narrowly defined problem. For example, don’t post something like: “Why won’t my code work?” Instead, try: “Why am I getting a syntax error when I try to Push a value into an Object?” Always post the relevant section of your code (and only the relevant section of your code) along with your question. If possible, remove any unnecessary bits that are not immediately relevant to the question to make it easier for experts to help you solve your problem. If the answer you get does not do the trick and you are still stuck, be polite and try rephrasing the question. Remember, don’t bite the hand that feeds you; these are volunteers and they’re trying to help you!</p>
+<h3>Debugging</h3>
+<p>When fixing problem code, systematically change one thing at a time and retry your program after each change. Often if you make three or four changes before retrying the program, you will solve one issue, but cause another one. This is frustrating and confusing. By changing one thing at a time and making sure it works before moving on, you will prevent a lot of confusion. It also helps to make notes of the things that you have tried, and of the solution when you find one. The more time that you spend programming and debugging, the more familiar various kinds of errors will become.</p>
+<h3>Leave a Comment on Lessons</h3>
+<p>Sometimes the problem is on our end. We do our best to make sure errors don’t creep in our lessons, but mistakes do happen. If you’ve looked over the problem and are convinced we’ve made a mistake, or that no matter what you try you cannot get the lesson to work, post a comment on the lesson. We’ll take a look and see if we can figure out what’s gone wrong. Sometimes its a typo on our end. Sometimes our explanations could use a bit of beefing up. Either way, you’re likely not the only one having trouble. And we don’t want that, so let us know!</p>
+<h3>Other Resources</h3>
+<p>We’ve put together a <a href="/resources">list of tutorials and other resources</a>. If you find other useful resources, let us know.</p>
+<h2>Bring On The Code!</h2>
+<p>Now that you have Step One (Troubleshooting) mastered, you are ready to dive in. Let’s get programming.</p>
+
+<!-- You can start editing here. -->
+<!-- If comments are open, but there are no comments. -->
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+</body></html>

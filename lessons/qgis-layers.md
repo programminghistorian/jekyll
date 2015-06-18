@@ -1,8 +1,17 @@
 ---
 title: Installing QGIS 2.0 and Adding Layers
-author: Jim Clifford, Josh MacFadyen, Daniel Macfarlane
-date: 12-13-2013
-reviewers: Finn Arne Jørgensen, Sarah Simpkin, Adam Crymble
+authors:
+- Jim Clifford
+- Josh MacFadyen
+- Daniel Macfarlane
+date: 2013-12-13
+reviewers:
+- Finn Arne Jørgensen
+- Sarah Simpkin
+- Adam Crymble
+layout: default
+next: vector-layers-qgis
+prev: googlemaps-googleearth
 ---
 
 Lesson Goals
@@ -48,9 +57,7 @@ Operating System. Follow the instructions below.
     Lion, and Snow Leopard – no word yet on using it with the
     forthcoming Mavericks). Install these like any other Mac programs.
 
-[![qgis1][]][]\
-
-Figure 1: Click to view full-size image.
+{% include figure.html src="../images/qgis1.png" caption="Figure 1: Click to view full-size image" %}
 
 -   once the frameworks are installed, download and install QGIS.
 -   as with any other Mac application you are using for the first time,
@@ -60,11 +67,9 @@ Figure 1: Click to view full-size image.
 
 -   under Standalone Installer, click on the link to Download QGIS
 
-![qgis2][]\
+{% include figure.html src="../images/qgis2.jpg" caption="Figure 2" %}
 
-Figure 2
-
--   double-click on the .exe file to execute
+-   double-click on the `.exe` file to execute
 
 QGIS is very simple to install in most versions of Linux. Follow the
 instructions on the download page.
@@ -73,7 +78,7 @@ instructions on the download page.
 
 We will be using some government data from the Canadian province of
 Prince Edward Island. PEI is a great example because there is a lot of
-data for free online and because it is Canada’s smallest province,
+data for free online and because it is Canada's smallest province,
 making the downloads quick! Download PEI shapefiles:
 
 -   Navigate to the links below in your web browser, read/accept the
@@ -86,8 +91,8 @@ making the downloads quick! Download PEI shapefiles:
 3.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=hydronetwork&file_format=SHP>
 4.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=forest_35&file_format=SHP>
 5.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=nat_parks&file_format=SHP>
-6.  [PEI Highways][] ([alternate Tar file][])
-7.  [PEI Places][] ([alternate Tar file][1])
+6.  [PEI Highways][]
+7.  [PEI Places][] 
 
 -   After downloading all seven files, move them into a folder and unzip
     the zipped files. Take a look at the contents of the folders. You
@@ -111,7 +116,7 @@ two-dimensional maps. The default is WGS84 (it is increasingly common to
 use WGS 84 which is compatible with Google Earth type software), but
 since most of our data and examples are created by Canadian governments
 we recommend using NAD 83 (North American Datum, 1983). For more on NAD
-83 and the Federal Government’s datum, see [NRCan’s website][]. PEI has
+83 and the Federal Government's datum, see [NRCan's website][]. PEI has
 its own NAD 83 coordinate reference system which uses a [Double
 Stereographic projection][]. Managing the CRS of different layers of
 information and making sure they are working correctly is one of the
@@ -122,28 +127,22 @@ Properties*
 
 -   Mac: Project–\>Project Properties
 
-![qgis3][]\
-
-Figure 3
+{% include figure.html src="../images/qgis3.png" caption="Figure 3" %}
 
 -   Windows: Settings-\> Project Properties
 
-![qgis4][]\
-
-Figure 4
+{% include figure.html src="../images/qgis4.png" caption="Figure 4" %}
 
 -   In the left window pane select CRS (second from the top)
--   click Enable ‘on the fly’ CRS transformation button on top left
+-   click Enable 'on the fly' CRS transformation button on top left
 
--   in the Filter box enter ’2291′ – this quickly navigates to the best
+-   in the Filter box enter '2291′ – this quickly navigates to the best
     Coordinate reference system for Prince Edward Island.
 -   under the box titled Coordinate reference systems of the world,
-    select ‘NAD83(CSRS98) / Prince Edward Isl. (Stereographic)’ and hit
+    select 'NAD83(CSRS98) / Prince Edward Isl. (Stereographic)' and hit
     OK
 
-![qgis5][]\
-
-Figure 5
+{% include figure.html src="../images/qgis5.png" caption="Figure 5" %}
 
 -   notice the projection has changed in the bottom right corner of the
     QGIS window. Next to that you will see the geographic location of
@@ -166,22 +165,22 @@ own project: [Tutorial: Working with Projections in QGIS][]
 
 ### Building a Base Map
 
-Now that your computer is driving with the right directions, it’s time
+Now that your computer is driving with the right directions, it's time
 to add some information that makes sense to humans. Your project should
 start with a base map, or a selection of geospatial information that
 lets your readers recognize real world features on the map. For most
-users this will be comprised of several ‘layers’ of vector and raster
+users this will be comprised of several 'layers' of vector and raster
 data, which can be rearranged, coloured, and labeled in such a way that
-they make sense to your readers and your project’s objectives. A
+they make sense to your readers and your project's objectives. A
 relatively new feature on many GIS programs is the availability of
 pre-fab base maps, but since this technology is under development for
 open source platforms like QGIS we will walk through the process of
 creating our own base map by adding vector and raster layers in this
 module. For those who would like to add pre-fab base maps to QGIS, you
-can try installing the ‘OpenLayers’ Plugin under Plugins-\>Manage and
-Install Plugins. Select “Get More” on the left. Click OpenLayers and
+can try installing the 'OpenLayers' Plugin under Plugins-\>Manage and
+Install Plugins. Select "Get More" on the left. Click OpenLayers and
 then click Install plugin. Click OK and then click close. Once
-installed, you’ll find OpenLayers in the Plugins Menu. Try installing
+installed, you'll find OpenLayers in the Plugins Menu. Try installing
 some of the different Google and OpenStreetMaps layers. At the time of
 writing this module, the OpenLayers plugin (v. 1.1.1) installs but fails
 to work properly on any Mac using OSX. It appears to work more
@@ -198,7 +197,7 @@ Vectors [defined][]: GIS uses points, lines, and polygons, also known as
 **vector** data. Its first order of work is to arrange these points,
 lines, and polygons and project them accurately on maps. Points may be
 towns or telephone poles; lines could represent rivers, roads, or
-railroads; and polygons could encompass a farmer’s lot or larger
+railroads; and polygons could encompass a farmer's lot or larger
 political boundaries. However, it is also possible to attach historical
 data to these geographical places and study how people interacted with
 and changed their physical environments. The population of towns
@@ -206,71 +205,60 @@ changed, rivers moved their courses, lots were subdivided, and land was
 planted with various crops.
 
 -   under Layer on toolbar, choose Add Vector Layer (alternatively the
-    same icon you see next to ‘Add Vector Layer’ can also be selected
+    same icon you see next to 'Add Vector Layer' can also be selected
     from the tool bar on the upper left side)
 
-![qgis6][]\
-
-Figure 6
+{% include figure.html src="../images/qgis6.png" caption="Figure 6" %}
 
 -   click Browse, find your downloaded Prince Edward Island shapefiles
     in the folder
 -   open the coastline\_polygon folder
 
-![qgis7][]\
+{% include figure.html src="../images/qgis7.png" caption="Figure 7" %}
 
-Figure 7
-
--   select coastline\_polygon.shp, then select ‘OK’, and you should see
-    the island’s coastline on your screen. Sometimes QGIS adds a
+-   select coastline\_polygon.shp, then select 'OK', and you should see
+    the island's coastline on your screen. Sometimes QGIS adds a
     coloured background (see the image above). If you have a coloured
     background, follow the steps below. If not, skip down the page to
     the \*\*\*.
 -   right click the layer (coastline\_polygon) in the Layers menu and
     choose Properties.\
-    ![qgis8][]\
-    Figure 8
+
+{% include figure.html src="../images/qgis8.png" caption="Figure 8" %}
+
 -   In the ensuing window, click Style in the left pane
 
 -   There are a range of options, but we want to get rid of the
     background all together. Click **Simple fill**.
 
-![qgis9][]\
+{% include figure.html src="../images/qgis9.png" caption="Figure 9" %}
 
-Figure 9
-
--   Then choose ‘**No Brush**‘ in the **Fill style** drop down menu.
+-   Then choose '**No Brush**' in the **Fill style** drop down menu.
     **Click OK.**
 
-![qgis10][]\
-
-Figure 10
+{% include figure.html src="../images/qgis10.png" caption="Figure 10" %}
 
 \*\*\*
 
 -   Choose Add Vector Layer again.
 -   click Browse, find your downloaded Prince Edward Island shapefiles
     in the folder
--   select ‘PEI\_HYDRONETWORK’
--   click on ‘PEI\_HYDRONETWORK.shp’ and then hit ‘Open’
+-   select 'PEI\_HYDRONETWORK'
+-   click on 'PEI\_HYDRONETWORK.shp' and then hit 'Open'
 -   right click the layer in the Layers menu and choose Properties.
 -   select Style tab, and choose an appropriate blue to color the
-    hydronetwork and select ‘OK’ at the bottom right of the window
+    hydronetwork and select 'OK' at the bottom right of the window
 
-![qgis11][]\
-
-Figure 11
+{% include figure.html src="../images/qgis11.png" caption="Figure 11" %}
 
 -   Your map should now look like this:
 
-![qgis12][]\
-
-Figure 12: Click to see full size image.
+{% include figure.html src="../images/qgis12-300x199.png" caption="Figure 12: Click to see full-size image" %}
 
 -   Choose Add Vector Layer again.
 -   click Browse, find your downloaded Prince Edward Island shapefiles
     in the folder
--   double-click on ’1935 inventory\_region.shp’ and then hit ‘Open’
+-   double-click on '1935 inventory\_region.shp' and then hit 'Open'
 
 This will add a dense map showing the different forest cover in 1935.
 However, to see the different categories, you will need to change the
@@ -282,18 +270,14 @@ and inspect the attribute table.
 -   right click on the 1935\_inventory\_region layer in the Layers
     window on the left and click on Open Attribute Table
 
-![qgis13][]\
-
-Figure 13
+{% include figure.html src="../images/qgis13.png" caption="Figure 13" %}
 
 An Attribute Table will open. It has a number of categories and
 identifiers. Of particular interest is the LANDUSE category which
 provides information on the forest cover in 1935. We will now show you
 how to display these categories on the map.
 
-![qgis14][]\
-
-Figure 14
+{% include figure.html src="../images/qgis14.png" caption="Figure 14" %}
 
 -   Close the Attribute Table, and right click on the
     1935\_inventory\_region layer again and this time choose Properties
@@ -301,27 +285,21 @@ Figure 14
     1935\_inventory\_region layer).
 -   click Style along the left
 
-![qgis15][]\
+{% include figure.html src="../images/qgis15.png" caption="Figure 15" %}
 
-Figure 15
+-   on the menu bar that reads 'Single Symbol' select 'Categorized'
 
--   on the menu bar that reads ‘Single Symbol’ select ‘Categorized’
+{% include figure.html src="../images/qgis16.png" caption="Figure 16" %}
 
-![qgis16][]\
-
-Figure 16
-
--   beside Column choose ‘Landuse’
+-   beside Column choose 'Landuse'
 -   under Color ramp choose Greens
--   click ‘Classify’ below and to the left
+-   click 'Classify' below and to the left
 -   in Symbol Column, choose the furthest down dark green square (with
-    no value beside it) and hit the ‘Delete’ button (to the right of
+    no value beside it) and hit the 'Delete' button (to the right of
     Classify); also delete the Developed category, as we want to
-    highlight forested areas. Click ‘OK’
+    highlight forested areas. Click 'OK'
 
-![qgis17][]\
-
-Figure 17
+{% include figure.html src="../images/qgis17.png" caption="Figure 17" %}
 
 -   in Layers sidebar menu, click on the little arrow beside
     1935\_inventory\_region to view the legend.
@@ -329,43 +307,35 @@ Figure 17
 -   You can now see the extent of the forests in 1935. Try using the
     magnifying glass tool to zoom in and inspect the different landuses.
 
-![qgis18][]\
-
-Figure 18: Click to see full size image.
+{% include figure.html src="../images/qgis18-300x283.png" caption="Figure 18: Click to see full-size image" %}
 
 -   To get back to the full island, right click on any of the layers and
-    choose ‘**Zoom to Layer Extent.**‘
+    choose '**Zoom to Layer Extent.**'
 
-![qgis19][]\
-
-Figure 19
+{% include figure.html src="../images/qgis19.png" caption="Figure 19" %}
 
 -   Next, we will add a layer of roads.
 -   under Layer on toolbar, choose Add Vector Layer
 -   click Browse, find your downloaded Prince Edward Island shapefiles
     in the folder
--   select ‘PEI\_highway.shp’
--   in the Layers menu on the left, double-click ‘PEI\_highway\_ship’
-    and select Style from the menu on the left (if it isn’t already
+-   select 'PEI\_highway.shp'
+-   in the Layers menu on the left, double-click 'PEI\_highway\_ship'
+    and select Style from the menu on the left (if it isn't already
     selected)
--   click on ‘Single Symbol’ on top left and select ‘Categorized’
--   beside Column choose ‘TYPE’
+-   click on 'Single Symbol' on top left and select 'Categorized'
+-   beside Column choose 'TYPE'
 -   click Classify
 
-![qgis20][]\
+{% include figure.html src="../images/qgis20.png" caption="Figure 20" %}
 
-Figure 20
-
--   in the Symbol column, double-click beside ‘primary’ – in the ensuing
+-   in the Symbol column, double-click beside 'primary' – in the ensuing
     window, there is a box with different symbols. Scroll down and find
-    ‘primary road’.
+    'primary road'.
 
 -   You are back in the Style window. Repeat for the item that called
-    ‘primary\_link’ in the Label column.
+    'primary\_link' in the Label column.
 
-![qgis21][]\
-
-Figure 21
+{% include figure.html src="../images/qgis21.png" caption="Figure 21" %}
 
 -   click Symbol beside secondary and change color to black and width to
     0.7
@@ -373,30 +343,24 @@ Figure 21
 -   click OK. You will now have the highways and other major roads
     represented on the map
 
-[![qgis22][]][]\
-
-Figure 22: Click to see full size image.
+{% include figure.html src="../images/qgis22.png" caption="Figure 22: Click to see full-size image" %}
 
 -   under Layer on toolbar, choose Add Vector Layer
 -   click Browse, find your downloaded Prince Edward Island shapefiles
     in the folder
--   select ‘PEI\_placenames\_shp’
--   double click on ‘PEI\_placenames’ and select ‘Open’
+-   select 'PEI\_placenames\_shp'
+-   double click on 'PEI\_placenames' and select 'Open'
 -   in the Layers window, double-click on the PEI\_placenames layer.
     Choose Labels tab along the left (under Style). At the top, select
-    the box beside ‘Label this layer with’ and in the dropdown box
-    beside that select ‘Placename’
+    the box beside 'Label this layer with' and in the dropdown box
+    beside that select 'Placename'
 
-![qgis23][]\
+{% include figure.html src="../images/qgis23.png" caption="Figure 23" %}
 
-Figure 23
+-   Change Font size to '18′
+-   Click 'OK' and examine the results on the map
 
--   Change Font size to ’18′
--   Click ‘OK’ and examine the results on the map
-
-[![qgis24][]][]\
-
-Figure 24: Click to see full size image.
+{% include figure.html src="../images/qgis24.png" caption="Figure 24: Click to see full-size image" %}
 
 -   Labelling is where QGIS falls well short of real cartography – it
     will take tinkering to adjust settings to display the detail desired
@@ -404,16 +368,14 @@ Figure 24: Click to see full size image.
     the different settings to see how symbols and displays change.
 
 Note that in the Layers menu you can add and remove the various layers
-we’ve added to the map much the same way you did in Google Earth. Click
+we've added to the map much the same way you did in Google Earth. Click
 on the check boxes to remove and add the various layers. Drag and drop
 layers to change the the order they appear. Dragging a layer to the top
 will place it above the rest of the layers and make it the most
-prominent. For example, if you drag ‘coastline\_polygon’ to the top, you
+prominent. For example, if you drag 'coastline\_polygon' to the top, you
 have a simplified outline of the province along with place names.
 
-[![qgis25][]][]\
-
-Figure 25: Click to see full size image
+{% include figure.html src="../images/qgis25.png" caption="Figure 25: Click to see full-size image" %}
 
 -   Along the toolbar on the top left of the main window are icons that
     allow you to explore the map. The hand symbol, for example, allows
@@ -422,77 +384,63 @@ Figure 25: Click to see full size image
     out. Play with these and familiarize yourself with the various
     functions
 
-![qgis26][]\
-
-Figure 26
+{% include figure.html src="../images/qgis26.png" caption="Figure 26" %}
 
 -   having created a map using vector layers, we will now add or use our
     first raster layer. This is a good time to save your work.
 
-**Opening Rasters** **Raster** data are digital images made up of grids.
+**Opening Rasters**: **Raster** data are digital images made up of grids.
 All remote sensing data such as satellite images or [aerial photos][]
-are rasters, but usually you can’t see the grids in these images because
+are rasters, but usually you can't see the grids in these images because
 they are made up of tiny pixels. Each pixel has its own value and when
 those values are symbolized in colour or greyscale they make up an image
 that is useful for display or topographical analysis. A scanned
 historical map is also brought into GIS in raster format.
 
--   download: [‘PEI\_CumminsMap1927.tif’][] to your project folder.
+-   download: '[PEI\_CumminsMap1927.tif][]' to your project folder.
 -   under Layer on toolbar, choose Add Raster Layer (alternatively the
-    same icon you see next to ‘Add Raster Layer’ can also be selected
+    same icon you see next to 'Add Raster Layer' can also be selected
     from the tool bar along the left side of the window)
 
-![qgis27][]\
+{% include figure.html src="../images/qgis27.png" caption="Figure 27" %}
 
-Figure 27
+-   find the file you have downloaded titled 'PEI\_CumminsMap1927.tif'
+-   you will be prompted to define this layer's coordinate system. In
+    the Filter box search for '2291′, then in the box below select
+    'NAD83(CSRS98) / Prince Edward Isl. (Stereographic)…'
 
--   find the file you have downloaded titled ‘PEI\_CumminsMap1927.tif’
--   you will be prompted to define this layer’s coordinate system. In
-    the Filter box search for ’2291′, then in the box below select
-    ‘NAD83(CSRS98) / Prince Edward Isl. (Stereographic)…’
-
-![qgis28][]\
-
-Figure 28
+{% include figure.html src="../images/qgis28.png" caption="Figure 28" %}
 
 -   If the program does not prompt you for the CRS you need to change it
     yourself. Double click the PEI\_CummingMap1927\_compLZW layer and
-    choose ‘**General**‘ from the menu on the left. Click ‘**Specify…**‘
+    choose '**General**' from the menu on the left. Click '**Specify…**'
     beside the box showing the incorrect Coordinate reference system.
     Then follow the instructions above (choose 2291).
 
-![qgis29][]\
-
-Figure 29
+{% include figure.html src="../images/qgis29.png" caption="Figure 29" %}
 
 -   In the Layers window, the map should appear below the vector data.
     Move it to the bottom of the menu if necessary:
 
-![qgis30][]\
-
-Figure 30
+{% include figure.html src="../images/qgis30.png" caption="Figure 30" %}
 
 -   Now we would like to make the coastline more visible, so
-    double-click on ‘coastline\_polygon’ and select ‘Style’ on the left.
-    In the box under Symbol layers, select ‘Simple fill’ and options
-    appear in the box to the right. Click on the menu next to ‘Border’
+    double-click on 'coastline\_polygon' and select 'Style' on the left.
+    In the box under Symbol layers, select 'Simple fill' and options
+    appear in the box to the right. Click on the menu next to 'Border'
     and make it red, and then beside Border width change it to 0.5, and
     click OK.
 
-![qgis31][]\
-
-Figure 31
+{% include figure.html src="../images/qgis31.png" caption="Figure 31" %}
 
 -   You are now able to see the background raster map through the
-    ‘coastline\_polygon’ layer. Zoom in for closer inspection, and you
+    'coastline\_polygon' layer. Zoom in for closer inspection, and you
     should be able to see the coastline layer clearly. Notice that the
     alignment is relatively good, but not perfect. We will learn more in
     lesson 4 about the challenges of georeferencing historical maps to
     give them real world coordinates.
 
-![qgis32][]\
-
-Figure 32
+{% include figure.html src="../images/qgis32.png" caption="Figure 32" %}
 
 **You have learned how to install QGIS and add layers. Make sure you
 save your work!**
@@ -501,51 +449,15 @@ save your work!**
 
   [QGIS Download page]: http://hub.qgis.org/projects/quantum-gis/wiki/Download
   [KyngChaos Qgis download page]: http://www.kyngchaos.com/software/qgis
-  [qgis1]: ../images/qgis1-300x137.png
-  [![qgis1][]]: ../images/qgis1.png
-  [qgis2]: ../images/qgis2.jpg
-  [PEI Highways]: https://www.dropbox.com/s/mgrb90vcpggnw8c/PEI_highway.zip
+  [PEI Highways]: ../assets/PEI_highway.zip
   [alternate Tar file]: https://www.dropbox.com/s/8k81jnmhpoi99fv/pei_highway.tar.gz
-  [PEI Places]: https://www.dropbox.com/s/fev9116zfr31ogb/PEI_placenames.zip
+  [PEI Places]: ../assets/PEI_placenames.zip
   [1]: https://www.dropbox.com/s/33g19iqhdnxoayd/pei_placenames.tar.gz
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
-  [NRCan’s website]: http://www.nrcan.gc.ca/earth-sciences/geography-boundary/mapping/topographic-mapping/10272
+  [NRCan's website]: http://www.nrcan.gc.ca/earth-sciences/geography-boundary/mapping/topographic-mapping/10272
   [Double Stereographic projection]: http://www.gov.pe.ca/gis/index.php3?number=77865&lang=E
-  [qgis3]: ../images/qgis3.png
-  [qgis4]: ../images/qgis4.png
-  [qgis5]: ../images/qgis5.png
   [Tutorial: Working with Projections in QGIS]: http://qgis.spatialthoughts.com/2012/04/tutorial-working-with-projections-in.html
   [defined]: http://www.gislounge.com/geodatabases-explored-vector-and-raster-data/
-  [qgis6]: ../images/qgis6.png
-  [qgis7]: ../images/qgis7.png
-  [qgis8]: ../images/qgis8.png
-  [qgis9]: ../images/qgis9.png
-  [qgis10]: ../images/qgis10.png
-  [qgis11]: ../images/qgis11.png
-  [qgis12]: ../images/qgis12-300x199.png
-  [qgis13]: ../images/qgis13.png
-  [qgis14]: ../images/qgis14.png
-  [qgis15]: ../images/qgis15.png
-  [qgis16]: ../images/qgis16.png
-  [qgis17]: ../images/qgis17.png
-  [qgis18]: ../images/qgis18-300x283.png
-  [qgis19]: ../images/qgis19.png
-  [qgis20]: ../images/qgis20.png
-  [qgis21]: ../images/qgis21.png
-  [qgis22]: ../images/qgis22-300x198.png
-  [![qgis22][]]: ../images/qgis22.png
-  [qgis23]: ../images/qgis23.png
-  [qgis24]: ../images/qgis24-300x197.png
-  [![qgis24][]]: ../images/qgis24.png
-  [qgis25]: ../images/qgis25-300x198.png
-  [![qgis25][]]: ../images/qgis25.png
-  [qgis26]: ../images/qgis26.png
   [aerial photos]: http://en.wikipedia.org/wiki/Orthophoto
-  [‘PEI\_CumminsMap1927.tif’]: https://www.dropbox.com/s/5g7964rpu1w2ou1/PEI_CumminsMap1927_compLZW.tif
-  [qgis27]: ../images/qgis27.png
-  [qgis28]: ../images/qgis28.png
-  [qgis29]: ../images/qgis29.png
-  [qgis30]: ../images/qgis30.png
-  [qgis31]: ../images/qgis31.png
-  [qgis32]: ../images/qgis32.png
+  [PEI\_CumminsMap1927.tif]: ../assets/PEI_CumminsMap1927_compLZW.tif
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

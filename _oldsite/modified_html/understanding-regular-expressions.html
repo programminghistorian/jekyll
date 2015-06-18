@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','doug-knox',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/understanding-regular-expressions/feed" rel="alternate" title="The Programming Historian » Understanding Regular Expressions Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/getting-started" rel="prev" title="Getting Started with Online Sources"/><link href="http://programminghistorian.org/lessons/cleaning-data-with-openrefine" rel="next" title="Cleaning Data with OpenRefine"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/understanding-regular-expressions" rel="canonical"/><link href="http://programminghistorian.org/?p=1700" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="Doug Knox" name="author"/><meta content="Understanding Regular Expressions" name="title"/><meta content="2013-06-22" name="date"/><meta content="Adam Crymble, Dave Shepard, Patrick Burns" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1700">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<h2>Lesson Goals</h2>
+<p>In this exercise we will use advanced find-and-replace capabilities in a word processing application in order to make use of structure in a brief historical document that is essentially a table in the form of prose. Without using a general programming language, we will gain exposure to some aspects of computational thinking, especially pattern matching, that can be immediately helpful to working historians (and others) using word processors, and can form the basis for subsequent learning with more general programming environments.</p>
+<p>We will start with something like this:</p>
+<p class="userinput">Arizona. — Quarter ended June 30, 1907. Estimated population,<br/>
+122,931. Total number of deaths 292, including diphtheria 1, enteric<br/>
+fever 4, scarlet fever 11, smallpox 2, and 49 from tuberculosis.</p>
+<p>And use pattern matching to transform it to something like this:</p>
+<table class="userinput" style="text-align: right; border: 1px solid #888; width: 90%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #d2d2d2;">Arizona.</td>
+<td style="border: 1px solid #d2d2d2;">Quarter ended June 30, 1907.</td>
+<td style="border: 1px solid #d2d2d2;">Deaths</td>
+<td style="border: 1px solid #d2d2d2;">diphtheria</td>
+<td style="border: 1px solid #d2d2d2;">1</td>
+</tr>
+<tr>
+<td style="border: 1px solid #d2d2d2;">Arizona.</td>
+<td style="border: 1px solid #d2d2d2;">Quarter ended June 30, 1907.</td>
+<td style="border: 1px solid #d2d2d2;">Deaths</td>
+<td style="border: 1px solid #d2d2d2;">enteric fever</td>
+<td style="border: 1px solid #d2d2d2;">4</td>
+</tr>
+<tr>
+<td style="border: 1px solid #d2d2d2;">Arizona.</td>
+<td style="border: 1px solid #d2d2d2;">Quarter ended June 30, 1907.</td>
+<td style="border: 1px solid #d2d2d2;">Deaths</td>
+<td style="border: 1px solid #d2d2d2;">scarlet fever</td>
+<td style="border: 1px solid #d2d2d2;">11</td>
+</tr>
+<tr>
+<td style="border: 1px solid #d2d2d2;">Arizona.</td>
+<td style="border: 1px solid #d2d2d2;">Quarter ended June 30, 1907.</td>
+<td style="border: 1px solid #d2d2d2;">Deaths</td>
+<td style="border: 1px solid #d2d2d2;">smallpox</td>
+<td style="border: 1px solid #d2d2d2;">2</td>
+</tr>
+<tr>
+<td style="border: 1px solid #d2d2d2;">Arizona.</td>
+<td style="border: 1px solid #d2d2d2;">Quarter ended June 30, 1907.</td>
+<td style="border: 1px solid #d2d2d2;">Deaths</td>
+<td style="border: 1px solid #d2d2d2;">tuberculosis</td>
+<td style="border: 1px solid #d2d2d2;">49</td>
+</tr>
+</tbody>
+</table>
+<h2>What Are Regular Expressions and for Whom Is this Useful?</h2>
+<p>Perhaps you are not sure yet you want to be a <em>programming</em> historian, you just want to work more effectively with your sources. Historians, librarians, and others in the humanities and social sciences often work with textual sources that have implicit structure. It is also not unheard of in the humanities to have to do tedious textual work with semi-structured notes and bibliographic references, where it can help to have some knowledge of pattern-matching options.</p>
+<p>As a simple example, if we want to find a reference to a particular year, say 1877, in a document, it’s easy enough to search for that single date. But if we want to find any references to years in latter half of the 19th century, it is impractical to search several dozen times for 1850, 1851, 1852, etc., in turn. By using regular expressions we can use a concise pattern like “18[5-9][0-9]” to effectively match any year from 1850 to 1899.</p>
+<p>In this exercise we will use LibreOffice Writer and LibreOffice Calc, which are free software desktop applications for word processing and spreadsheets, respectively. Installation packages for Linux, Mac, or Windows can be downloaded from <a href="http://www.libreoffice.org/download" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.libreoffice.org']);" target="_blank">http://www.libreoffice.org/download</a>. Other word processing software and programming languages have similar pattern-matching capabilities. This exercise uses LibreOffice because it is freely available, and its regular expression syntax is closer to what you will find in programming environments than Microsoft Office’s syntax. If you complete this exercise and find regular expressions useful, however, it should be relatively easy to adapt what you learn and apply it in other contexts.</p>
+<p>While we will start with simple patterns, we will get to more complicated or intimidating-looking ones fairly quickly. The aim here is to share what is involved in doing useful work with a plausible example, and not to linger too long on first principles with simplified toy examples. If you are impatient, it should be possible to go through the examples fairly quickly by copying and pasting the patterns offered, without necessarily following every detail, in order to get a general sense of what is possible. If the result is promising, you could go through a second time to decide what details could be useful to pick up for your own work. But typing everything yourself is the best way to make it your own.</p>
+<h2>Getting the Text</h2>
+<p><img alt="regex_ia_image" class="aligncenter size-full wp-image-2159" height="185" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_ia_image.jpg" width="426"/> <p>Figure 1: Screenshot of the unstructured text</p></p>
+<p>The Internet Archive has copies of hundreds of early 20th-century public domain U.S. public health reports digitized through JSTOR and organized under the title ‘Early Journal Content.’ These are of a convenient length for an exercise and can plausibly represent broad classes of textual resources that are useful in many kinds of historical research. For our exercise, we will use a five-page report of monthly morbidity and mortality statistics for states and cities in the United States, published in February 1908, available at <a href="http://archive.org/details/jstor-4560629/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://archive.org']);" target="_blank">http://archive.org/details/jstor-4560629/</a>.</p>
+<p>Take a moment to scan the pages through the <a href="http://archive.org/stream/jstor-4560629/4560629#page/n0/mode/2up" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://archive.org']);" target="_blank">Read Online</a> link to become familiar with it. This document is organized as paragraphs rather than tables, but there are clearly latent structures that can help us tabulate this ourselves. Nearly every paragraph of the report starts with geographic information, specifies a time span for the statistics, optionally includes a population estimate, and then reports deaths and nonlethal cases of illness.</p>
+<p>The page-flipping interface shows us what the original document looked like. But if we want to tabulate figures and enable ourselves to make comparisons and calculations over geography, we will need to represent the document as text and numbers, and not just images. In addition to offering several image formats for download, the Internet Archive makes available plain-text versions that have been created by means of Optical Character Recognition (OCR) software. OCR of old texts is often imperfect, but what it produces is useful in ways images can’t be; it can be searched, copied, and edited as text.</p>
+<p>Switch to the <a href="http://archive.org/stream/jstor-4560629/4560629_djvu.txt" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://archive.org']);" target="_blank">Full Text</a> view. We will start from this base, ignoring the last part of the previous report. Copy the text from “STATISTICAL REPORTS…” to the end into a new LibreOffice document. When working with material you care about, be sure to save a copy somewhere separately from your working copy, so that you can get back to your original if something goes wrong.</p>
+<h2>Ordinary search and replace</h2>
+<p>We can see some Optical Character Recognition (OCR) errors, where the Internet Archive’s automated transcription software has made mistakes, although for the most part this looks like a good transcription. There are two places where the OCR has inserted double quotation marks into this file mistakenly, in both cases by putting them between a comma following a month and a four-digit year, as in</p>
+<pre class="brush: plain; gutter: false; title: ; notranslate" title="">December," 1907.</pre>
+<p>We can find these by doing a search (<code>Edit → Find</code> with shortcut Ctrl-F or Cmd-F on a Mac) for double quotation marks, and confirm that these are the only two instances of quotation marks in the file. In this case we can simply delete them. Rather than do so by hand, just for practice try using LibreOffice’s find-and-replace function (<code>Ctrl-H</code> or <code>Cmd-Alt-F</code> on Mac).</p>
+<p><em>Replace</em> <code>“</code> <em>with nothing.</em></p>
+<p><img alt="regex_01_findquote" class="aligncenter size-full wp-image-2160" height="465" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_01_findquote.png" style="border: 1px solid #d2d2d2;" width="962"/> <p>Figure 2: Screenshot of Find and Replace feature</p></p>
+<h2>Finding structure for rows</h2>
+<p>We are just getting started, but to estimate how far we have to go, select the full text from LibreOffice Writer (<code>Ctrl-A</code>) and paste it into LibreOffice Calc (<code>File-&gt;New-&gt;Spreadsheet</code>). Each line of text becomes a single-celled row of the spreadsheet. What we would like is for each row of the spreadsheet to represent one kind of record in a consistent form. It would take a lot of tedious work to tabulate this by hand with this as our starting point. In what follows we will be doing all our work with regular expressions in Writer, but keep Calc open in the background. We can return to it to paste future iterations and gauge our progress.</p>
+<p>Returning to Writer, we will want to get rid of the line breaks that we don’t need — but there are some end-of-line hyphenations we should clean up first. This time we will start using regular expressions. On the Find &amp; Replace box show <code>More Options</code> (Other Options on Mac) and make sure the <code>Regular expressions</code> checkbox is selected. This will enable us to use special symbols to define general patterns to match.</p>
+<p>Using find-and-replace,</p>
+<p><em>replace</em> <code>- $</code> <em>(hyphen-space-dollar-sign) with nothing.</em></p>
+<p><img alt="regex_02_moreoptions" class="aligncenter size-full wp-image-2161" height="631" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_02_moreoptions.png" style="border: 1px solid #d2d2d2;" width="975"/> <p>Figure 3: The ‘More Options’ tab in Open Office Find &amp; Replace</p></p>
+<p>The dollar sign symbol is a special symbol in this case that matches the end of each line. You might start by clicking <code>Find</code> and then <code>Replace</code> when you see that the highlighted selection matches your expectations. After repeating this a few times you can click <code>Replace All</code> to replace all the rest at once. If you make a mistake or are uncertain, you can undo recent steps with <code>Edit → Undo</code> from the menu bar, or keyboard shortcut <code>Ctrl+Z</code> (Cmd+Z on Mac). In this document there are 27 total matches for this particular pattern.</p>
+<p>Next, again using find-and-replace,</p>
+<p><em>replace all</em> <code>$</code> <em>(just a dollar sign) with nothing.</em></p>
+<p>There are 225 replacements with this pattern. At first it may not be clear what happened here, but this has in fact made each paragraph a single paragraph or logical line. In LibreOffice (and similar word processing programs) you can turn on nonprinting characters (View→Nonprinting Characters with shortcut <code>Ctrl-F10 on Windows or Linux</code>) to see line and paragraph breaks.</p>
+<p><img alt="regex_03_lines" class="aligncenter size-full wp-image-2162" height="261" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_03_lines.png" width="1058"/> <p>Figure 4: Non-Printing Characters in LibreOffice</p></p>
+<p>As a last way of confirming that we are starting to get a more useful structure from this, let’s copy the full text from Writer again and paste it into a blank spreadsheet. This should confirm that each health record is now a separate row in the spreadsheet (although we also have page headings and footnotes mixed in — we will clean those up shortly).</p>
+<p><img alt="regex_04_calclines" class="aligncenter size-full wp-image-2163" height="209" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_04_calclines.png" width="913"/> <p>Figure 5: The improved structure, shown in LibreOffice Calc</p></p>
+<h2>Finding structure for columns</h2>
+<p>Spreadsheets organize information in two dimensions, rows and columns. We have seen that lines in Writer correspond to rows in Calc. How do we make columns?</p>
+<p>Spreadsheet software can read and write plain-text files using any of several conventions for representing breaks between columns. One common format uses commas to separate columns, and such files are often stored with the extension “.csv” for “comma-separated values.” Another common variant is to use a tab character, a special kind of space, to separate columns. Because our text contains commas, to avoid confusion we will use a tab character to separate columns. Though one could save a intermediate plain-text file, in this exercise we will assume we are copying and pasting directly from Writer to Calc.</p>
+<p>Back in Writer, let’s start making columns by splitting the place-and-time information from the reported numbers. Almost all reports include the words</p>
+<p><code>Total number of deaths</code></p>
+<p>Search for this and replace it with exactly the same phrase, but with “\t” at the front of the string representing a tab character:</p>
+<p><code>\tTotal number of deaths</code></p>
+<p>After making this replacement (which makes 53 changes), select all the text and copy and paste it into an empty spreadsheet again.</p>
+<p>Does it look like nothing changed? LibreOffice Calc is putting the full text of each paragraph in a single cell, tabs and all. We need to insist on a plain-text interpretation to get Calc to ask us what to do with tabs. Let’s try again. You can empty the spreadsheet conveniently by selecting all (<code>Ctrl-A</code>) and deleting the selection.</p>
+<p>In an empty spreadsheet, select <code>Edit → Paste Special,</code> (or right-click to reach the same) and then select “unformatted text” from the options in the window appears. That should result in a popup “Text Import” window. Make sure the Tab checkbox is selected under Separator options and then click “OK”. (Before clicking OK you may want to try checking and unchecking Comma and Space as separators to preview what they would do here, but we do not want to treat them as separators in this context.)</p>
+<p>Now we see the promising start of a table structure, with geography and time span still in column A, but with “Total number of deaths” and subsequent text clearly aligned in a separate column.</p>
+<p><img alt="regex_05_2col" class="aligncenter size-full wp-image-2164" height="208" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_05_2col.png" width="728"/> <p>Figure 6: The newly tab-delimited version of the data shown in LibreOffice Calc</p></p>
+<p>Do you have any instances that moved over into a third column or beyond? In that case you may inadvertently have put in too many tabs. In the structure we have right now we don’t expect to ever see two tab characters in a row. Back in LibreOffice Writer we can check for this and fix the problem by searching for</p>
+<p><code>\t\t</code> and replacing with <code>\t</code></p>
+<p><strong>repeating as needed</strong> until no more double-tabs are found.</p>
+<p>Sometimes multiple applications of a replacement pattern introduce additional changes after the first, which may or may not be what we intend, and sometimes multiple applications will have no effect beyond the first application. It is worth keeping this distinction in mind while working with regular expressions.</p>
+<h2>The general idea of regular expressions</h2>
+<p>Before doing any more practical work with the file, this is a good time for a brief introduction to regular expressions. Regular expressions (or “regexes” for short) are a way of defining patterns that can apply to sequences of things. They have the funny name that they do because of their origins in computer science and formal language theory, and they are incorporated into most general programming languages.</p>
+<p>Regexes are also often available in some form in advanced word processors, providing a more powerful means of find-and-replace than matching exact sequences letter by letter. There are different syntaxes and implementations of regular expressions, and what we have available in word processing programs often isn’t as extensive, robust, or in conformance with wider practice as what one finds in programming language contexts, but there are essential common principles. LibreOffice for the most part follows notational conventions that you will see in other contexts. If you use a proprietary word processor you will likely find similar functionality even if the notation differs.</p>
+<table>
+<tbody>
+<tr>
+<td style="width: 20%;"><code>A b 1 </code></td>
+<td>literals — letters, digits, and spaces match themselves</td>
+</tr>
+<tr>
+<td><code>[Ab1]</code></td>
+<td>a character class, matching one instance of any of ‘A’, ‘b’, or ’1′ in this case</td>
+</tr>
+<tr>
+<td><code>[a-z]</code></td>
+<td>all lowercase letters within a range</td>
+</tr>
+<tr>
+<td><code>[0-9]</code></td>
+<td>all digits</td>
+</tr>
+<tr>
+<td><code>.</code></td>
+<td>any character</td>
+</tr>
+<tr>
+<td><code>*</code></td>
+<td>zero or more</td>
+</tr>
+<tr>
+<td><code>+</code></td>
+<td>one or more</td>
+</tr>
+<tr>
+<td><code>( )</code></td>
+<td>if contents within parentheses match, define a group for future reference</td>
+</tr>
+<tr>
+<td><code>$1</code></td>
+<td>refer to a matched group (this is the notation in LibreOffice; other notations such as \1 are sometimes used elsewhere)</td>
+</tr>
+<tr>
+<td><code>\t</code></td>
+<td>tab</td>
+</tr>
+<tr>
+<td><code>^</code></td>
+<td>beginning of line</td>
+</tr>
+<tr>
+<td><code>$</code></td>
+<td>end of line</td>
+</tr>
+</tbody>
+</table>
+<p>For a more complete list of regular expressions in LibreOffice, see their <a href="https://help.libreoffice.org/Common/List_of_Regular_Expressions" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://help.libreoffice.org']);" target="_blank">List of Regular Expressions</a>.</p>
+<h2>Applying regular expressions</h2>
+<p>Let’s start to use some of these to remove the page headings with date and page number. Switch back to your LibreOffice Writer window.</p>
+<p><em>Replace:</em> <code>^.*February 21.*1908.*$</code> <em>with nothing</em> (4 matches).</p>
+<p><em>Replace</em> <code>^.*Received out of regular order.*$</code> <em>with nothing</em> (2 matches).</p>
+<p>Here <code>^</code> (caret) matches the beginning of the line, <code>.</code> (period) matches any character, <code>.*</code> (period-asterisk) matches any sequence of zero or more characters, and <code>$</code> (dollar-sign) matches the end of the line. By spelling out the date, we will match only the lines where that sequence appears, letter by letter, and by using <code>.*</code> at both ends we match all lines with that sequence regardless of what else is before or after it on the line. After making this replacement, we will be left with some blank lines.</p>
+<p>To remove the blank lines in LibreOffice,</p>
+<p><em>Replace</em> <code>^$</code> <em>with nothing</em> (5 matches).</p>
+<p>(In other regular expression environments, other techniques for working with line endings will be necessary; some may be more convenient than what LibreOffice offers, but this will work now for our purposes.)</p>
+<p>Some records list a state, some a city with the state implicit, some a state and city together. The text does not have enough structure to give us a reliable way of distinguishing the California and Oakland records so that we will be able automatically to put California in a state column and Oakland in a city column. We will eventually need to do some editing by hand, drawing on our own knowledge. But there is a lot of consistency in the references to spans of time. We can use those references to develop structures that will help keep similar segments aligned across rows.</p>
+<p>For convenience, let’s put some markers in the text that won’t be confused with anything already present. We can easily distinguish these markers from existing text, and easily remove them later when we don’t need them. Let’s match time span references and put “&lt;t&gt;” at the beginning of them and “&lt;/t&gt;” at the end, with the mnemonic “t” for time. We could put a more verbose marker in, like “&lt;time&gt;” or a more meaningless and untidy-looking one, like “asdfJKL;” as long as that sequence wasn’t for some reason already in our text. But in this exercise we will use markers like “&lt;t&gt;” If you have seen HTML or XML, these look a lot like the tags that mark elements. We are not creating acceptable HTML or well-formed XML by doing this, and we will remove these markers quickly, but there is a resemblance.</p>
+<p><strong>Obligatory warning:</strong> Regular expressions are powerful, but they do have their limits and (when used to modify material that someone cares about) they can be dangerous, in that a mistake can inadvertently remove or scramble a lot of information quickly. Also, as XML aficionados may passionately tell you, regular expressions are not up to the job of general-purpose parsing of XML. After one sees how useful regular expressions are at dealing with certain kinds of patterns, there is a temptation to think, whenever we see a pattern that a computer ought to be able to help with, that regular expressions are all we need. In many cases that will turn out not to be true. Regular expressions are not adequate to deal with hierarchically nested patterns that XML is good at describing.</p>
+<p>But that’s OK. In the context of this tutorial, we don’t claim to know anything in particular about XML, or to care about formal language grammars. We just want to put some convenient markers into a text in order to get some leverage in making a relatively simple implicit structure a bit more explicit, and we will take those markers out before we are done. There is a reason why such markers are useful. If you find yourself intrigued by what can be done with patterns in this exercise, you may want to learn more about HTML and XML, and learn what can be done with appropriate methods that their more explicit structure makes possible.</p>
+<h2>Defining segments</h2>
+<p>The next few patterns will rapidly get more complicated. If you slow down to consult the reference to how the symbols define patterns, however, the patterns should start to make sense.</p>
+<p>Geographic references in our text are followed by emdashes (dashes that are roughly the width of the letter ‘m’; wider than endashes.) We can replace these with tab characters, which will effectively help us put states and cities in separate columns of the spreadsheet.</p>
+<p><em>Replace</em> <code>[ ]?—[ ]?</code></p>
+<p><em>with</em> <code>\t</code></p>
+<p>You should have 42 matches. (One easy way to get the emdash into your pattern is to copy and paste from an existing emdash in the text itself. The square brackets aren’t entirely necessary here, but help make visible the fact that we are matching a blank space — optionally matching it, thanks to the question mark. That means our pattern will accept an emdash with or without a space on either or both sides of it.)</p>
+<p>Now we will look for explicit references to time and wrap them in “&lt;t&gt;” and “&lt;/t&gt;” markers before and after. Once we have those markers they will provide some scaffolding on which we can build further patterns. Note that in the next pattern we want to be sure to apply the replacement just once, otherwise some time references may be repeatedly wrapped. It will be most efficient to use <code>Replace All</code> just once for each wrapping pattern.</p>
+<p><em>Replace</em> <code>(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].)</code></p>
+<p><em>with</em> <code>&lt;t&gt;$1&lt;/t&gt;</code></p>
+<p><img alt="regex_06_timemarkup" class="aligncenter size-full wp-image-2165" height="447" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_06_timemarkup.png" width="1028"/> <p>Figure 7: Finding time using Regular Expressions</p></p>
+<p>Here we are using parentheses to define everything that we match in the search pattern as a single group, and in the replacement pattern we use $1 to simply repeat that match, with a few additional characters before and after it.</p>
+<p>In addition to months, we need to match quarterly reports with a similar approach:</p>
+<p><em>Replace</em> <code>([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].)</code></p>
+<p><em>with</em> <code>&lt;t&gt;$1&lt;/t&gt;</code></p>
+<p>You should have 7 more matches. It looks like we have references to time accounted for. Extending this strategy to other kinds of information here, let’s use “&lt;p&gt;” for population estimates, “&lt;N&gt;” for total number of deaths, and “&lt;c&gt;” for the word “Cases,” which separates mortality from morbidity. (If you are familiar with HTML or XML, you may recognize “&lt;p&gt;” as a paragraph marker. We’re not using it in the same way here.)</p>
+<p>Here are some patterns to wrap each of those kinds of information, all using the same strategy we just used:</p>
+<p><em>Replace</em> <code>(Estimated population, [0-9,]+.)</code></p>
+<p><em>with</em> <code>&lt;p&gt;$1&lt;/p&gt;</code> (34 matches).</p>
+<p><em>Replace</em> <code>(Total number of deaths[A-Za-z ,]* [0-9,]+)</code></p>
+<p><em>with</em> <code>&lt;N&gt;$1&lt;/N&gt;</code> (48 matches).</p>
+<p><em>Replace</em> <code>(Cases ?:)</code></p>
+<p><em>with</em> <code>&lt;c&gt;$1&lt;/c&gt;</code> (49 matches).</p>
+<p>This next part is a little trickier. It would be great if we could get hold of the disease (let’s use “&lt;d&gt;”) and count (“&lt;n&gt;”) segments. Because the prose in this document is so formulaic, especially following the indication of total number of deaths, in this case we will be able to get pretty far without having to match each disease name explicitly, one by one. First match the disease-count pair after the word “including”:</p>
+<p><em>Replace</em> <code>&lt;/N&gt; including ([A-Za-z ]+) ([0-9]+),</code></p>
+<p><em>with</em> <code>&lt;/N&gt; including &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt;</code> (29 matches).</p>
+<p>And then iteratively match disease-count pairs that appear after existing markers:</p>
+<p><em>Replace</em> <code>&gt; ([A-Za-z ]+) ([0-9]+)([.,])</code></p>
+<p><em>with</em> <code>&gt; &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt;</code></p>
+<p>Note that we are getting rid of commas after the disease counts by ignoring the third match in our replacement.</p>
+<p><strong>Repeat</strong> this replacement as many times as necessary until there are no further matches. It should take you seven iterations.</p>
+<p>Our patterns have not done anything with phrases like ‘and 3 from tuberculosis.’ We can match those phrases and reverse the order so that the disease name appears before the count:</p>
+<p><em>Replace</em> <code>and ([0-9])+ from ([a-z ]+)</code></p>
+<p><em>with</em> <code>&lt;d&gt;$2&lt;/d&gt; &lt;n&gt;$1&lt;/n&gt;</code> (32 matches).</p>
+<p>It looks like our markers are now capturing a lot of the semantic structure that we are interested in. Now let’s copy and paste (“paste special … unformatted”) into LibreOffice Calc to see how close we are to getting a table. We are successfully separating location data into cells, but the cells are not aligned vertically yet. We want to get all of the time references into the third column.</p>
+<p><img alt="regex_09_calc_3col" class="aligncenter size-full wp-image-2167" height="251" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_09_calc_3col.png" width="704"/> <p>Figure 8: Measuring progress using LibreOffice Calc</p></p>
+<p>The instances with two columns of location information should already be OK. The rows with one location need an extra column. Most are cities, so we will put the locations into the second column, and in a few instances we will need to move state names back to the first column by hand. Go back to your LibreOffice Writer window and:</p>
+<p><em>Replace</em> <code>^([A-Za-z .]+\t&lt;t&gt;)</code></p>
+<p><em>with</em> <code>\t$1</code> (30 matches).</p>
+<p>Now fix the cases with no location information, where the location is implicitly the same as the row above, and the time span is different.</p>
+<p><em>Replace</em> <code>^&lt;t&gt;</code></p>
+<p><em>with</em> <code>\t\t&lt;t&gt;</code> (19 matches)</p>
+<p><img alt="regex_10_loc_columns" class="aligncenter size-full wp-image-2168" height="312" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_10_loc_columns.png" width="943"/> <p>Figure 9: Further refining the results</p></p>
+<p>The first few columns should look better after pasting this again into Calc. The Writer text is still our working copy, so if you want to fix up the state names, you could do so now in Writer by deleting the tab character before a state name and introducing a new tab character after it. Or you could wait until we are done with our work in Writer, and fix them in Calc after we are ready for that to be our live working copy. But we are not there yet.</p>
+<p>We need to decide how to handle the lists of diseases. The rows have different lists of varying lengths. While it would be easy enough now to insert tab characters to put each disease and mortality or morbidity count into a separate column, the columns would not be that helpful. Diseases and tallies would not be vertically aligned. What we can do instead is make a new row for each disease. The reports distinguish between mortality counts and morbidity counts, which are already conveniently separated by “Cases:”. (There is one case, Indiana, where the text marks this section with the word “Morbidity”. Our searching patterns missed this. You can fix the markup there by hand now, if you like, or ignore it since this is an exercise. It’s a good example of how automated tools aren’t a full substitute for editing or looking at your sources, and it won’t be the last such example.)</p>
+<p>We can start by making a new row for “cases” lists, so that we can handle them separately. Head back to LibreOffice Writer.</p>
+<p><img alt="regex_11_writer_cases_together_hi" class="aligncenter size-full wp-image-2169" height="435" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_11_writer_cases_together_hi.png" width="1032"/> <p>Figure 10: Making a new row for ‘cases’</p></p>
+<p><em>Replace</em> <code>^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*)(&lt;c&gt;.*)</code></p>
+<p><em>with</em> <code>$1$2$3$4\n$1$2$3\t$5</code> (47 matches).</p>
+<p>One thing to notice here is that we are using some of the replacement patterns twice. We are matching the three fields up to the time reference, then matching everything before “&lt;c&gt;” in a fourth group, and everything from “&lt;c&gt;” on in a fifth. In the replacement pattern, we put groups 1-4 back in order, then introduce a newline and print groups 1-3 again, followed by a tab and group 5. We’ve effectively moved the case listings to their own lines, and copied the place and time fields verbatim.</p>
+<p>Let’s go further, and split all the case lists into separate rows:</p>
+<p><em>Replace</em> <code>^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;c&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;)</code></p>
+<p><em>with</em> <code>$1$2$3$4\n$1$2$3\tCases\t$5$6</code></p>
+<p>and <strong>repeat</strong> as many times as necessary until there are no more replacements (seven iterations).</p>
+<p>Now similarly split all the mortality lists into separate rows:</p>
+<p><em>Replace</em> <code>^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;N&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;)</code></p>
+<p><em>with</em> <code>$1$2$3$4\n$1$2$3\tDeaths\t$5$6</code></p>
+<p>and <strong>repeat</strong> as many times as necessary until there are no more replacements (eight iterations).</p>
+<p>This is getting very close now to a tabular structure, as you can see if you paste again into Calc, though if you want to wait just a bit, some cleanup work with short and simple patterns will get us most of the rest of the way:</p>
+<p><em>Replace</em> <code>.*&lt;/c&gt; $</code> <em>with nothing</em></p>
+<p><em>Replace</em> <code>^$</code> <em>with nothing</em></p>
+<p><em>Replace</em> <code>&lt;n&gt;</code></p>
+<p><em>with</em> <code>\t</code></p>
+<p><em>Replace</em> <code>&lt;/n&gt;</code> <em>with nothing</em></p>
+<p><em>Replace</em> <code>&lt;d&gt;and</code></p>
+<p><em>with</em> <code>&lt;d&gt;</code></p>
+<p><em>Replace</em> <code>&lt;/?[tdp]&gt;</code> <em>with nothing</em></p>
+<p><img alt="regex_17_writer_done" class="aligncenter size-full wp-image-2173" height="436" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_17_writer_done.png" width="1032"/> <p>Figure 11: The final view in LibreOffice Writer</p></p>
+<p>Now copy and paste this into Calc, and you should see a (mostly) well-structured table.</p>
+<p><img alt="regex_18_calc_done" class="aligncenter size-full wp-image-2174" height="379" src="http://programminghistorian.org/wp-content/uploads/2013/06/regex_18_calc_done.png" width="966"/> <p>Figure 12: The final view in LibreOffice Calc</p></p>
+<p>If this were not an exercise but a source we were editing for research or publication, there are still things that we would need to fix. We didn’t do anything with estimated population figures. Our pattern-matching wasn’t sophisticated enough to manage everything. In lines that didn’t have patterns like “Total number of deaths 292, including,” we missed all subsequent patterns that assumed we had already put in an “&lt;/N&gt;” marker.</p>
+<h2>Next possibilities</h2>
+<p>Some of these problems could be fixed by additional pattern-matching steps, some by hand-editing of the source document at particular points along the way, and some by later editing of the data in spreadsheet or similar tabular form.</p>
+<p>We might want to consider other structures for the table, too — perhaps mortality and morbidity would be more convenient to tally if they were in different columns. Word processors are not the best tools for making use of these kinds of structures. Spreadsheets, XML, and programmatic tools for working with data are much more likely to be helpful. But word processors do have advanced find-and-replace functions that are good to get to know. Regular expressions and advanced pattern matching can be helpful in editing, and can provide a bridge between sequences with implicit structure and more explicit structures that we may want to match or create.</p>
+<p>There are more than 400 public health reports like this one available from the Internet Archive. If we wanted to tabulate all of them, LibreOffice would not be the best primary tool. It would be better to learn a little Python, Ruby, or shell scripting. Programmer-oriented plain text editors, including classic ones such as Emacs and Vi or Vim, have great regular expression support as well as other features useful for dealing with plain text in a programmatic way. If you are comfortable opening up a Unix-like shell command line (in Mac or Linux, or on Windows through a virtual machine or the Cygwin environment), you can learn and use regular expressions very well with tools like “grep” for searching and “sed” for line-oriented replacing.</p>
+<p>Regular expressions can be immensely useful in dealing with patterns across hundreds of files at once. The patterns we have used in this example would need to be refined and extended to deal with assumptions that are certain to be mistaken when applied to longer texts or larger sets of texts, but with a programming language we could record what we are doing in a short script, and refine and rerun it repeatedly to get closer to what we want.</p>
+<h2>To learn more</h2>
+<p>The Wikipedia page on <a href="http://en.wikipedia.org/wiki/Regular_expressions" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">regular expressions</a> is a useful place to find a brief history of regular expressions and their relation to formal language theory, as well as an overview of syntactic variants and formal standardization efforts.</p>
+<p>The documentation for whatever tools you use will be invaluable for practical use, especially for work in word processing environments where regular expression implementations may be especially idiosyncratic. There are many resources available to learn how to use regular expressions in programming contexts; which is best for you may depend on what programming language is most familiar or convenient to start with.</p>
+<p>There are a number of freely available web-based regular expression editors. <a href="http://rubular.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://rubular.com']);" target="_blank">Rubular</a>, built on the Ruby programming language, has a helpful interface that lets you test regular expressions against a sample text and dynamically shows matches and matched groups. David Birnbaum, Chair of the Department of Slavic Languages and Literatures at the University of Pittsburg, has some good materials on how to work with <a href="http://dh.obdurodon.org/regex.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://dh.obdurodon.org']);" target="_blank">regular expressions and XML tools</a> to help mark up plain-text files in TEI XML. Zed Shaw has begun developing a book, freely available online, <a href="http://regex.learncodethehardway.org/book/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://regex.learncodethehardway.org']);" target="_blank">Learn Regex the Hard Way.</a> The book’s exercises are built around a Python-based program developed by the author.</p>
+
+<!-- You can start editing here. -->
+<!-- If comments are open, but there are no comments. -->
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPlain.js?ver=3.0.83c" type="text/javascript"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body></html>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','laura-o'hara',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions/feed" rel="alternate" title="The Programming Historian » Cleaning OCR’d text with Regular Expressions Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/installing-python-modules-pip" rel="prev" title="Installing Python Modules with pip"/><link href="http://programminghistorian.org/lessons/getting-started" rel="next" title="Getting Started with Online Sources"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions" rel="canonical"/><link href="http://programminghistorian.org/?p=1822" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="Laura Turner O'Hara" name="author"/><meta content="Cleaning OCR’d text with Regular Expressions" name="title"/><meta content="2013-05-22" name="date"/><meta content="" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1822">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<p>Optical Character Recognition (OCR)—the conversion of scanned images to machine-encoded text—has proven a godsend for historical research. This process allows texts to be searchable on one hand and more easily parsed and mined on the other. But we’ve all noticed that the OCR for historic texts is far from perfect. Old type faces and formats make for unique OCR. Take for example, this page from the <em>Congressional Directory</em> from the 50th Congress (1887). The PDF scan downloaded from <a href="http://home.heinonline.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://home.heinonline.org']);" title="Source for Legal and Government-based documents">HeinOnline</a> looks organized:</p>
+<div class="wp-caption aligncenter" id="attachment_611" style="width: 525px;"><img alt="" class="size-full wp-image-611" height="738" src="http://programminghistorian.org/wp-content/uploads/2013/09/cd_pdf.png" title="cd_pdf" width="515"/>
+<p class="wp-caption-text">This is a screenshot of the PDF page.</p>
+</div>
+<p>However, the OCR layer (downloaded as a text file*) shows that the machine-encoded text is not nearly as neat:</p>
+<div class="wp-caption aligncenter" id="attachment_613" style="width: 619px;"><img alt="" class="size-full wp-image-613" height="769" src="http://programminghistorian.org/wp-content/uploads/2013/09/cd_txt.png" title="cd_txt" width="609"/>
+<p class="wp-caption-text">This is a screenshot of the OCR.</p>
+</div>
+<p>*Note: If you do not have the option to download a text file, you can use the <a href="http://www.unixuser.org/~euske/python/pdfminer/index.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.unixuser.org']);" title="PDF Miner Module">pdfminer</a> module to extract text from the pdf.</p>
+<p>Since I want to use this to map the Washington residences for Members of these late 19th-century Congresses, how might I make this data more useable?</p>
+<p>The answer is Regular Expressions or “regex.” Here’s what regex did for me. Though this is not a “real” CSV file (the commas are not quite right), it can be easily viewed in Excel and prepped for geocoding. Much better than the text file from above, right?</p>
+<pre class="bash">
+Aldrich, N. W,Providence, R. I
+Allison, William B, Dubuque, Iowa,24Vermont avenue,
+Bate, William,Nashville, Ten, Ebbitt House
+Beck, James B,Lexington, Ky
+Berry, James I, Bentonville, Ark, National Hotel,
+Blair, I lenry \V, Manchester, N. H,2o East Capitol stree_._'
+Blodgett, Rufus,Long Branch, N. J
+Bowen, Thomas M,Del Norte, Colo
+Brown, Joseph E, Atlanta, Ga, Woodmont Flats,
+Butler, M. C,Edgefield, S. C, 1751 P street NW
+Call, Wilkinson, Jacksonville, Fla, 1903 N street NW
+Cameron, J. D,Harrisburg, Pa, 21 Lafayette Square,
+Chace, Jonathan,Providence, R, I
+Chandler, William E, Concord, N. H, 1421 I street NW
+Cockrell, Francis M,Warrensburgh,Mo, I518 R street NW
+Coke, Richard,Waco, Tex, 419 Sixth street NW
+Colquitt, Alfred I I,Atlanta, Ga, 920 New York avenue
+Cullom, Shelby M,Springfield, Ill, 1402 Massachusetts avenue
+Daniel, John W,,Lynchburgh, Va, I7OO Nineteenth st. NW
+Davis, Cushman K, Saint Paul, Minn, 17oo Fifteenth street NW
+Dawes, Henry L,Pittsfield, Mass, 1632Rhode Island avenue.
+Dolph, Joseph N,Portland, Oregon, 8 Lafayette Square,
+Edmunds, George F, Burlington, Vt, 2111 Massachusetts avenue
+Eustis, James B,,New Orleans, La, 1761 N street NW
+Evarts, William M,New York, N. Y, i6oi K street NW
+Farwell, Charles B, Chicago, Ill,
+Faulkner, Charles James, Martinsburgh, W. Va,
+Frye, William P,Lewiston, Me, Hamilton House,
+George, James Z,Jackson, Miss, Metropolitan Hotel
+Gibson, Randall Lee, New Orleans, La, 1723 Rhode Island avenue.
+Gorman, Arthur P, Laurel, Md .,1403 K street NW
+Gray, George,Wilmington, Del,
+Hale, Eugene,Ellsworth, Me, 917 Sixthteenth st. NW
+Hampton, Wade, Columbia, S. C,
+Harris, Isham G, Memphis,Tenn, 13 First street NE
+Hawley, Joseph R,Hartford, Corn, 1514 K street NW
+Hearst, George,San Francisco, Cal,
+Hiscock, Frank, Syracuse, N. Y, Arlington Hotel
+Hoar, George F, Worcester, Mass, 1325 K street NW
+Ingalls, John James, Atchison, Kans, I B street NW
+Jones, James K,Washington, Ark, 915 M street NW
+Jones, John P,Gold Hill, Nev
+Kenna, John E,Charleston, W. Va, 14o B street NW
+McPherson, John ,Jersey City, N. J, 1014 Vermont avenue,
+Manderson, CharlesF. Omaha, Nebr,The Portland
+Morgan, John T,.Selma, Ala,I 13 First street NE
+Morrill, Justin S, Stratford, Vt, x Thomas Circle
+</pre>
+<h2>Regular Expressions (Regex)</h2>
+<p>Regex is not a programming language. Rather it follows a syntax used in many different languages, employing a series of characters to find and/or replace precise patterns in texts. For example, using this sample text:</p>
+<pre>Let's get all this bad OCR and $tuff. Gr8!</pre>
+<p>1. You could isolate all the capital letters (L, O, C, R, G) with this regex:</p>
+<pre>[A-Z]</pre>
+<p>2. You could isolate the first capital letter (L) with this regex:</p>
+<pre>^[A-Z]</pre>
+<p>3. You could isolate all characters BUT the capital letters with this regex:</p>
+<pre>[^A-Z]</pre>
+<p>4. You could isolate the acronym “OCR” with this regex:</p>
+<pre>[A-Z]{3}</pre>
+<p>5. You could isolate the punctuation using this regex:</p>
+<pre>[[:punct:]]</pre>
+<p>6. You could isolate all the punctuation, spaces, and numbers this way:</p>
+<pre>[[:punct:], ,0-9]</pre>
+<p>The character set is not that large, but the patterns can get complicated. Moreover, different characters can mean different things depending on their placement. Take for example, the difference between example 2 and example 3 above. In example 2, the caret (^) means isolate the pattern at the beginning of the line or document. However, when you put the caret inside the character class (demarcated by []) it means “except” these sets of characters.</p>
+<p>The best way to understand Regular Expressions is to learn what the characters do in different positions and practice, practice, practice. And since experimentation is best way to learn, I suggest using a regex tester tool and experiment with the syntax. For Mac users, I had a lot of luck with the <a href="http://krillapps.com/patterns/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://krillapps.com']);" title="Patterns App for RegEx Experimentation">Patterns App</a> (Mac Store $2.99), which allowed me to see what the regular expressions were doing in real time. It also comes with a built-in cheat sheet for the symbols, but I actually found this generic (meaning it works across languages) <a href="http://www.addedbytes.com/cheat-sheets/regular-expressions-cheat-sheet/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.addedbytes.com']);" title="Reg Ex Cheat Sheet">cheat sheet</a> more comprehensive. For PC users (or people who don’t want to pay or download software), I also found <a href="http://www.pythonregex.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.pythonregex.com']);" title="Python Regex Tester">another tester tool</a> that was fairly transparent.</p>
+<h2>Python and Regex</h2>
+<p>In this tutorial, I use the Regular Expressions Python module to extract a “cleaner” version of the <em>Congressional Directory</em> text file. Though the <a href="http://docs.python.org/2/library/re.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://docs.python.org']);" title="Re Module Documentation">documentation</a> for this module is fairly comprehensive, beginners will have more luck with the simpler <a href="http://docs.python.org/2/howto/regex.html#regex-howto" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://docs.python.org']);" title="Reuglar Expressions HOWTO">Regular Expression HOWTO documentation</a>.</p>
+<h3>Two things to note before you get started</h3>
+<ul>
+<li>From what I’ve observed, Python is <em>not</em> the most efficient way to use Regular Expressions if you have to clean a single document. Command Line programs like <a href="http://www.gnu.org/software/sed/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.gnu.org']);" title="GNU's sed editor">sed</a> or <a href="http://www.gnu.org/software/grep/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.gnu.org']);" title="GNU's grep editor">grep</a> appear to be more efficient for this process. (I will leave it to the better grep/sed users to create tutorials on those tools.) I use Python for several reasons: 1) I understand the syntax best; 2) I appreciate seeing each step written out in a single file so I can easily backtrack mistakes; and 3) I want a program I could use over and over again, since I am cleaning multiple pages from the <em>Congressional Directory</em>.</li>
+<li>The OCR in this document is far from consistent (within a single page or across multiple pages). Thus, the results of this cleaning tutorial are not perfect. <strong>My goal is to let regex do the heavy lifting and export a document in my chosen format that is <em>more</em> organized than the document with which I started.</strong> This significantly reduces, but does not eliminate, any hand-cleaning I might need to do before geocoding the address data.</li>
+</ul>
+<h3>My example Python File</h3>
+<p>Here’s the Python file that I used to created to clean my document:</p>
+<pre class="python">
+#cdocr.py
+#strip the punctuation and extra information from HeinOnline text document
+
+#import re module
+import re
+
+#Open the text file with the ocr
+ocr = open('../../data/txt/50-1-p1.txt')
+#read the text file into a list
+Text = ocr.readlines()
+
+#Create an empty list to fill with lines of corrected text
+CleanText = []
+
+# checks each line in the imported text file for all the following patterns
+for line in Text:
+	#lines with multi-dashes contain data - searches for those lines
+	# -- does not isolate intro text lines with one dash.
+	dashes = re.search('(--+)', line)
+
+	#isolates lines with dashes and cleans
+	if dashes:
+		#replaces dashes with my chosen delimiter
+		nodash = re.sub('.(-+)', ',', line)
+		#strikes multiple periods
+		nodots = re.sub('.(\.\.+)', '', nodash)
+		#strikes extra spaces
+		nospaces = re.sub('(  +)', ',', nodots)
+		#strikes *
+		nostar = re.sub('.[*]', '', nospaces)
+		#strikes new line and comma at the beginning of the line
+		flushleft = re.sub('^\W', '', nostar)
+		#getting rid of double commas (i.e. - Evarts)
+		comma = re.sub(',{2,3}', ',', flushleft)
+		#cleaning up some words that are stuck together (i.e. -  Dawes, Manderson)
+		#skips double OO that was put in place of 00 in address
+		caps = re.sub('[A-N|P-Z]{2,}', ',', comma)
+		#Clean up NE and NW quadrant indicators by removing periods
+		ne = re.sub('(\,*? N\. ?E.)', ' NE', caps)
+		nw = re.sub('(\,*? N\. ?W[\.\,]*?_?)$', ' NW', ne) #MAKE VERBOSE
+		#Replace periods with commas between last and first names (i.e. - Chace, Cockrell)
+		match = re.search('^([A-Z][a-z]+\. )', nw) #MAKE VERBOSE
+		if match:
+			names = re.sub('\.', ',', nw)
+		else:
+			names = nw
+           #Append each line to CleanText list while it loops through
+		CleanText.append(names)
+
+#Saving into a 'fake' csv file
+fcsv = open('cdocr2/50-1p1.csv', 'w')
+#Write each line in CleanText to a file
+for line in CleanText:
+	fcsv.write(line)
+</pre>
+<p>I’ve commented it pretty extensively, so I will explain why I structured the code the way I did. I will also demonstrate a different way to format long regular expressions for better legibility.</p>
+<ul>
+<li><strong>Lines 16-22</strong> – Notice in my original text file that my data is all on lines with multiple dashes. This code effectively isolates those lines. I use the <a href="http://docs.python.org/2/library/re.html#re.search" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://docs.python.org']);" title="Explanation of re.search() function">re.search()</a> function to find all lines with multiple dashes. The “if” statement on line 20 only works with the lines with dashes in the rest of the code. (This eliminates all introductory text and the rows of page numbers that follow the data I want.)</li>
+<li><strong>Lines 23-40</strong> – This is the long process by which I eliminate all of the extraneous punctuation and put the pieces of my data (last name, first name, home post office, washington address) into different fields for a csv document. I use the <a href="http://docs.python.org/2/library/re.html#re.sub" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://docs.python.org']);" title="Explanation of re.sub() function">re.sub()</a> function, which substitutes pattern with another character. I comment extensively here, so you can see what each piece does. This may not be the most efficient way of doing this, but by doing this piece by piece, I could check my work as I went. As I built loop, I checked each step by printing the variable in the command line. So, for example, after line 24 (when I eliminate the dashes), I would add “print nodash” (inside the if loop) before I ran the file in the command line. I checked each step to make sure my patterns were only changing the things I wanted and not changing things I did <em>not</em> want changed.</li>
+<li><strong>Lines 41-46 </strong>- I used a slightly different method here. The OCR in the text file separated some names with a period (for example, Chace.Jonathan vs. Chase,Jonathan). I wanted to isolate the periods that came up in this pattern and change those periods to commas. So I searched for the pattern ^([A-Z][a-z]+\.), which looks at the beginning of a line (^) and finds a pattern with one capital letter, multiple lowercase letters and a period. After I had isolated that pattern, I substitute the period those lines that fit the pattern with a comma.</li>
+</ul>
+<h3>Using Verbose Mode</h3>
+<p>Most regular expressions are difficult to read. But lines 39 and 40 look <em>especially</em> bad. How might you clarify these patterns for people who might look at your code (or for yourself when you are staring at them at 2:00 AM someday)? You can use the module’s <a href="http://docs.python.org/2/library/re.html#re.VERBOSE" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://docs.python.org']);" title="Explanation of re.verbose mode">verbose mode</a>. By putting your patterns in verbose mode, python ignores white space and the # character, so you can split the patterns across multiple lines and comment each piece. <em><strong>Keep in mind that, because it ignores spaces, if spaces are part of your pattern, you need to escape them with a backslash (\). Also note that re.VERBOSE and re.X are the same thing.</strong></em></p>
+<p>Here are lines 39 and 40 in verbose mode:</p>
+<pre class="python">
+#This is the same as (\,*? N\. ?E.)
+#All spaces need to be escaped in verbose mode.
+ne_pattern = re.compile(r'''
+	( 				#start group
+		\,*? 		#look for comma (escaped); *? = 0 or more commas with fewest results
+		\ N\.? 	    #look for (escaped) space + N that might have an (escaped) period after it
+		\ ?E 		#look for an E that may or may not have an space in front of it
+		. 			#the E might be followed by another character.
+	) 				#close group
+	$ 				#ONLY look at the end of a line
+''', re.VERBOSE)
+
+#This is the same as (\,*? N\. ?W[\.\,]*?_?)$
+nw_pattern = re.compile(r'''
+	( 					#start group
+		\,*? 			#look for comma (escaped); *? = 0 or more commas with fewest results
+		\ N\.? 		    #look for (escaped) space + N that might have an (escaped) period after it
+		\ ?W 			#look for an W that may or may not have an space in front of it
+		[\.\,]*?		#look for commas or periods (both escaped) that might come after W
+		_?				#look for underscore that comes after one of these NW quadrant indicators
+	) 					#close group
+	$ 					#ONLY look at the end of a line
+''', re.X)
+</pre>
+<p>In above example, I use the <a href="http://docs.python.org/2/library/re.html#re.compile" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://docs.python.org']);" title="Explanation of re.compile() function">re.compile()</a> function to save the pattern for future use. So, adjusting my full python code to use verbose mode would look like the following. Note that I define my verbose patterns on lines 17-39 and store them in variables (ne_pattern and nw_pattern). I use them in my loop on lines 65 and 66.</p>
+<pre class="python">
+#cdocrverbose.py
+#strip the punctuation and extra information from HeinOnline text document
+
+#import re module
+import re
+
+#Open the text file with the ocr
+ocr = open('../../data/txt/50-1-p1.txt')
+#read the text file into a list
+Text = ocr.readlines()
+
+#Create an empty list to fill with lines of corrected text
+CleanText = []
+
+##Creating verbose patterns for the more complicated pieces that I use later on.##
+
+#This is the same as (\,*? N\. ?E.)
+#All spaces need to be escaped in verbose mode.
+ne_pattern = re.compile(r'''
+	( 				#start group
+		\,*? 		#look for comma (escaped); *? = 0 or more commas with fewest results
+		\ N\.? 	    #look for (escaped) space + N that might have an (escaped) period after it
+		\ ?E 		#look for an E that may or may not have an space in front of it
+		. 			#the E might be followed by another character.
+	) 				#close group
+	$ 				#ONLY look at the end of a line
+''', re.VERBOSE)
+
+#This is the same as (\,*? N\. ?W[\.\,]*?_?)$
+nw_pattern = re.compile(r'''
+	( 					#start group
+		\,*? 			#look for comma (escaped); *? = 0 or more commas with fewest results
+		\ N\.? 		    #look for (escaped) space + N that might have an (escaped) period after it
+		\ ?W 			#look for an W that may or may not have an space in front of it
+		[\.\,]*?		#look for commas or periods (both escaped) that might come after W
+		_?				#look for underscore that comes after one of these NW quadrant indicators
+	) 					#close group
+	$ 					#ONLY look at the end of a line
+''', re.VERBOSE)
+
+# checks each line in the imported text file for all the following patterns
+for line in Text:
+	#lines with multi-dashes contain data - searches for those lines
+	# -- does not isolate intro text lines with one dash.
+	dashes = re.search('(--+)', line)
+
+	#isolates lines with dashes and cleans
+	if dashes:
+		#replaces dashes with my chosen delimiter
+		nodash = re.sub('.(-+)', ',', line)
+		#strikes multiple periods
+		nodots = re.sub('.(\.\.+)', '', nodash)
+		#strikes extra spaces
+		nospaces = re.sub('(  +)', ',', nodots)
+		#strikes *
+		nostar = re.sub('.[*]', '', nospaces)
+		#strikes new line and comma at the beginning of the line
+		flushleft = re.sub('^\W', '', nostar)
+		#getting rid of double commas (i.e. - Evarts)
+		comma = re.sub(',{2,3}', ',', flushleft)
+		#cleaning up some words that are stuck together (i.e. -  Dawes, Manderson)
+		#skips double OO that was put in place of 00 in address
+		caps = re.sub('[A-N|P-Z]{2,}', ',', comma)
+		#Clean up NE and NW quadrant indicators by removing periods (using Verbose regex defined above)
+		ne = re.sub(ne_pattern, ' NE', caps)
+		nw = re.sub(nw_pattern, ' NW', ne)
+		#Replace periods with commas between last and first names (i.e. - Chace, Cockrell)
+		match = re.search('^([A-Z][a-z]+\.)', nw)
+		if match:
+			names = re.sub('\.', ',', nw)
+		else:
+			names = nw
+		 #Append each line to CleanText list while it loops through
+		CleanText.append(names)
+
+#Saving into a 'fake' csv file
+fcsv = open('cdocr2/50-1p1.csv', 'w')
+#Write each line in CleanText to a file
+for line in CleanText:
+	fcsv.write(line)
+</pre>
+<p>In conclusion, I will note that this is not for the faint of heart. Regular Expressions are powerful. Yes, they are powerful enough to completely destroy your data. So practice on copies and take it one itty bitty step at a time.</p>
+
+<!-- You can start editing here. -->
+<!-- If comments are open, but there are no comments. -->
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushBash.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c" type="text/javascript"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body></html>

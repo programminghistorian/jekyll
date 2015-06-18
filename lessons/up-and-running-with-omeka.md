@@ -1,14 +1,19 @@
 ---
 title: Up and Running with Omeka.net
-author: Miriam Posner
-date: 04-24-2013
-reviewers: Adam Crymble, Sheila Brennan
+authors:
+- Miriam Posner
+date: 2013-04-24
+reviewers:
+- Adam Crymble
+- Sheila Brennan
+layout: default
+next: installing-omeka 
 ---
 
 [Omeka][] is a free [content management system][] that makes it easy to
 create websites that show off collections of items. As you will learn
 below, there are actually two versions of Omeka: [Omeka.net][Omeka]and
-[Omeka.org][]. In this lesson you willl be using the former.
+[Omeka.org][]. In this lesson you willl be using the former. If you would rather learn how to install Omeka yourself, read the following lesson, [Installing Omeka](installing-omeka.html). 
 
 Omeka is an ideal solution for historians who want to display
 collections of documents, archivists who want to organize artifacts into
@@ -164,7 +169,7 @@ refresh][] on your browser.
 
 ### You have a new theme!
 
-![media\_1363419912798.png][]\
+![media\_1363419912798.png][]
 
 Figure 6: Your site with a new Omeka theme
 
@@ -174,7 +179,7 @@ the other options.
 
 ### Install plugins
 
-![media\_1363309931413.png][]\
+![media\_1363309931413.png][]
 
 Figure 7: Installing Omeka plugins
 
@@ -189,7 +194,7 @@ leave these as they are for now.
 
 ### Add an item to your archive
 
-![media\_1363307013066.png][]\
+![media\_1363307013066.png][]
 
 Figure 8: Add an item to your Omeka archive
 
@@ -197,7 +202,7 @@ Click on **Add a new item to your archive**.
 
 ### Describe your new item
 
-![media\_1363308451882.png][]\
+![media\_1363308451882.png][]
 
 Figure 9: Describe an Omeka item
 
@@ -218,7 +223,7 @@ of the text boxes.
 
 ### To what does the metadata really refer?
 
-![media\_1363307526429.png][]\
+![media\_1363307526429.png][]
 
 Figure 10: Is the metadata referring to Bertie, my dog, or this
 photograph of Bertie?
@@ -233,7 +238,7 @@ decided, be consistent.
 
 ### Attach a file to your item record
 
-![media\_1363307721915.png][]\
+![media\_1363307721915.png][]
 
 Figure 11: Attach a file to an Omeka item
 
@@ -254,7 +259,7 @@ When you are finished, click the green **Add Item** button.
 
 ### Your completed item
 
-![media\_1363308525582.png][]\
+![media\_1363308525582.png][]
 
 Figure 12: A completed Omeka item
 
@@ -265,7 +270,7 @@ name of the item.
 
 ### This is not the public page for your item
 
-![media\_1363308109980.png][]\
+![media\_1363308109980.png][]
 
 Figure 13: The private view of your item page
 
@@ -276,7 +281,7 @@ the item by clicking on **Edit this item** at the top right.)
 
 ### The public page for your item
 
-![media\_1363308234605.png][]\
+![media\_1363308234605.png][]
 
 Figure 14: The public page of an Omeka item
 
@@ -284,7 +289,7 @@ This is what a general user will see if she navigates to your page.
 
 ### Create a collection
 
-![media\_1363308884958.png][]\
+![media\_1363308884958.png][]
 
 Figure 15: Create an Omeka collection
 
@@ -295,7 +300,7 @@ Collection**.
 
 ### Enter information about your collection
 
-![media\_1363308978515.png][]\
+![media\_1363308978515.png][]
 
 Figure 16: Enter information about your Omeka collection
 
@@ -306,7 +311,7 @@ collection.
 
 ### Add items to your collection
 
-![media\_1363309164290.png][]\
+![media\_1363309164290.png][]
 
 Figure 17: Add items to an Omeka collection
 
@@ -317,7 +322,7 @@ Selected Items** button.
 
 ### Choose the collection
 
-![media\_1363309302937.png][]\
+![media\_1363309302937.png][]
 
 Figure 18: Choose the Omeka collection to which you wish to add your
 item
@@ -328,7 +333,7 @@ on this page.)
 
 ### View your new collection
 
-![media\_1363309504604.png][]\
+![media\_1363309504604.png][]
 
 Figure 19: View the Omeka collection
 

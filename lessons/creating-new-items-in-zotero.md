@@ -1,14 +1,20 @@
 ---
 title: Creating New Items in Zotero
-author: Amanda Morton
-date: 04-01-2013
-reviewers: Fred Gibbs
+authors:
+- Amanda Morton
+date: 2013-04-01
+reviewers:
+- Fred Gibbs
+layout: default
+categories: [zotero, api]
+next: counting-frequencies-from-zotero-items
+prev: intro-to-the-zotero-api
 ---
 
 Using Python to Create an New Zotero Item
 -----------------------------------------
 
-In [Lesson 7.1][], you learned a little bit about Zotero; now you can
+In [Intro to the Zotero API][], you learned a little bit about Zotero; now you can
 access some of its functions using Python scripts. In this lesson, you
 will create a new item in a Zotero library and add some basic metadata
 such as title and date.
@@ -26,14 +32,16 @@ Your first step is to import the python modules that you will need for
 this program.
 
 ``` python
-import obo
 from libZotero import zotero
 import urllib2
 import datetime
 ```
 
-Your next line of code will connect to your zotero group library using
-the unique group id and API key.
+Your next line of code will connect to the zotero group library for this lesson
+using the unique group id and API key. (You can also replace the first number
+in the line with your own group or user ID, but if you are trying to connect to
+an individual user library, you must change the word `group` to the word
+`user` and create your own API key.)
 
 ``` python
 #links to zotero group library
@@ -118,8 +126,29 @@ Created new item <Python Lesson Document> with new tag <python lesson>
 
 You can also check your Zotero library to find the document that you
 made using Python. The title, abstract, and date should be filled out,
-and the tag should appear also. By editing the program above, you can
-create items with different types (such as books, journal articles, or
-newspapers) and specify more precise titles, creation dates, and tags.
+and the tag should appear also.
 
-  [Lesson 7.1]: http://dev.programminghistorian.org/lessons/lesson-7-1-using-the-zotero-api
+By editing the program above, you can create items with different types
+(such as books, journal articles, or newspapers) and specify more precise titles,
+creation dates, and tags. To see a list of all the Item Types available
+in the Zotero API, use your browser to navigate to this URL:
+
+    https://api.zotero.org/itemTypes
+
+You can then see the fields available in each Item Type template by
+navigating to the following URL, replacing `document` with the key for the
+Item Type that interests you:
+
+    https://api.zotero.org/items/new?itemType=document
+
+For example, the list of Item Types returned by the first URL shows a type called `videoRecording`. 
+In our code above, you could request a template for that type by changing the
+`document` argument in our `getItemTemplate()` function with `videoRecording`. To 
+see which fields are available in this template, you could navigate in your browser to the 
+appropriate URL:
+
+    https://api.zotero.org/items/new?itemType=videoRecording
+    
+For more details, see the documentation on write requests for the [Zotero API](https://www.zotero.org/support/dev/web_api/v3/write_requests).
+
+  [Intro to the Zotero API]: ../lessons/intro-to-the-zotero-api

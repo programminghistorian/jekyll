@@ -1,8 +1,14 @@
 ---
 title: Transliterating non-ASCII characters with Python
-author: Seth Bernstein
-date: 10-04-2013
-reviewers: Adam Crymble, Michelle Moravec, Ezra Brooks, Russell Alleen-Willems
+authors:
+- Seth Bernstein
+date: 2013-10-04
+reviewers:
+- Adam Crymble
+- Michelle Moravec
+- Ezra Brooks
+- Russell Alleen-Willems
+layout: default
 ---
 
 **Lesson Goals:**
@@ -92,10 +98,10 @@ that does not use Latin characters? Python can do this but we need to
 tell it how to read these letters using a codec, a library of codes that
 allows Python to represent non-ASCII characters. Working with web pages
 makes this easy because almost all web pages specify what kind of
-encoding they use, in the page’s headers. In Python, opening a web page
+encoding they use, in the page’s *headers*. In Python, opening a web page
 does not just give you the HTML, but it creates an object with several
 useful characteristics. One is that we can access the headers by calling
-the header() method. This method returns something a lot like a Python
+the `header()` method. This method returns something a lot like a Python
 dictionary with information that is important to web programmers. For
 our purposes, what is important is that the encoding is stored under the
 ‘content-type’ key.
@@ -139,27 +145,27 @@ encoding may not always be ‘windows-1251.’ There are other character
 sets for Cyrillic, not to mention other languages. Let’s find a way to
 make the process more automatic for those cases. It helps that the
 encoding is the very last part of the string, so we can isolate it from
-everything that came before in the string. By using the .split() method,
+everything that came before in the string. By using the `.split()` method,
 the string containing whatever encoding it is can be assigned to a
-variable. The .split(separator) method in Python returns a list of
+variable. The `.split(separator)` method in Python returns a list of
 sections in the string that are split by some user-defined separator.
-Assigning no separator to .split() separates a string at the spaces.
-Another use of the .split() method is to separate by commas, which can
+Assigning no separator to `.split()` separates a string at the spaces.
+Another use of the `.split()` method is to separate by commas, which can
 help to work with [comma separated value][] (csv) files. In this case,
 though, by splitting the ‘content-type’ string at ‘charset=’, we get a
-list with two strings where the second will be the character set.
+*list* with two strings where the second will be the character set.
 
 ``` python
 encoding = page.headers['content-type'].split('charset=')[1]
 ```
 
-The encoding is assigned to the variable called ‘encoding‘. You can
-check to see if this worked by printing the ‘encoding‘ variable. Now we
+The encoding is assigned to the variable called ‘*encoding*’. You can
+check to see if this worked by printing the ‘*encoding*’ variable. Now we
 can tell Python how to read the page as Unicode. Using the
-unicode(object [, encoding]) method turns a string of characters into a
+`unicode(object [, encoding])` method turns a string of characters into a
 Unicode object. A Unicode object is similar to a string but it can
 contain special characters. If they are in a non-ASCII character set,
-like here with ‘windows-1251′, we have to use the optional encoding
+like here with ‘windows-1251’, we have to use the optional encoding
 parameter.
 
 ``` python
@@ -202,17 +208,17 @@ print content[200:300]
 Родился в
 ```
 
-Excellent-the web page is now converted to Unicode. All the
-‘\\u0420′-type marks are Unicode and Python knows that they code to
-Cyrillic characters. The forward slash is called an ‘escape character‘
+Excellent - the web page is now converted to Unicode. All the
+‘\\u0420’-type marks are Unicode and Python knows that they code to
+Cyrillic characters. The forward slash is called an ‘*escape character*’
 and allows Python to do things like use special characters in Unicode or
-signify a line break (‘\\n‘) in a document. Each counts as just one
-character. Now we can create a Python dictionary that will act as the
+signify a line break (‘`\n`’) in a document. Each counts as just one
+character. Now we can create a Python *dictionary* that will act as the
 transliteration table.
 
 **Unicode Transliteration Dictionary**
 
-A dictionary is an unordered collection of key-object pairs. What this
+A dictionary is an unordered collection of *key-object pairs*. What this
 means is that under each key, the dictionary stores some number or
 string or other object – even another dictionary. (See also the lesson
 “[Counting Frequencies][].”) A dictionary has the following syntax:
@@ -243,8 +249,8 @@ transliterates to the Latin characters “Zh.” Python needs more than just
 the Unicode identifier. It also needs to know to look out for a Unicode
 character. Therefore all the Unicode characters used in the dictionary
 should be in the format u’\\uXXXX’. In this case, the letter Ж is
-u’\\u0416′. We can create a transliteration dictionary and assign ‘Zh’
-as the value for the key u’\\u0416′ in it.
+u’\\u0416’. We can create a transliteration dictionary and assign ‘Zh’
+as the value for the key u’\\u0416’ in it.
 
 ``` python
 cyrillic_translit = { u'\u0416': 'Zh'}
@@ -336,7 +342,7 @@ u'="list-right">\r\n</li>
 ```
 
 Still not perfect. Python did not convert the special character ‘\\xa0′
-that signifies a non-breaking space. But with the transliteration
+that signifies a *non-breaking space*. But with the transliteration
 dictionary, any characters that pop up can just be added to the
 dictionary and they will be converted. First we need to find out what
 that character is. We could search for it on the Internet or we can just
@@ -419,10 +425,10 @@ about each person, we would have to parse the page ourselves and extract
 that information using the string manipulation techniques from the
 lesson “[Manipulating Strings in Python][].” However, for just the names
 it will be quicker to use the HTML parsing module Beautiful Soup. If you
-have not installed Beautiful Soup, see “[Installing Pip and Beautiful
-Soup][]” and read “[Intro to Beautiful Soup][]” for an overview of how
+have not installed Beautiful Soup, see “[Installing Python Modules with pip][]”
+and read “[Intro to Beautiful Soup][]” for an overview of how
 this tool works. In the transliterator module, we will load Beautiful
-Soup and then turn our converted page into a Beautiful Soup object.
+Soup and then turn our converted page into a *Beautiful Soup object*.
 
 ``` python
 #load Beautiful Soup
@@ -434,11 +440,11 @@ converted_soup = BeautifulSoup(converted_content)
 
 The lesson “[Intro to Beautiful Soup][]” teaches how to grab sections of
 a web page by their tags. But we can also select sections of the page by
-attributes, HTML code that modifies elements. Looking at the HTML from
-this page, notice that the text of our names are enclosed in the tag\
- \<p class=”name”\>. The class attribute allows the page’s [Cascading
+*attributes*, HTML code that modifies elements. Looking at the HTML from
+this page, notice that the text of our names are enclosed in the tag
+ \<p class=“name”\>. The class attribute allows the page’s [Cascading
 Style Sheets][] (CSS) settings to change the look of all elements that
-share the “name” class at once. CSS itself is an important tool for web
+share the “name” *class* at once. CSS itself is an important tool for web
 designers. For those interested in learning more on this aspect of CSS,
 I recommend [Code Academy’s][] interactive lessons in its web
 fundamentals track. In mining data from the web, though, attributes like
@@ -449,15 +455,15 @@ What we want is to get the elements where the class attribute’s value is
 select parts of the page using the same syntax as HTML. The class
 attribute makes things a little tricky because Python uses “class” to
 define new types of objects. Beautiful Soup gets around this by making
-us search for class followed by an underscore: class\_=”value”.
-Beautiful Soup objects’ .find\_all() method will generate a Python list
+us search for class followed by an underscore: `class_=“value”`.
+Beautiful Soup objects’ `.find_all()` method will generate a Python list
 of Beautiful Soup objects that match the HTML tags or attributes set as
-parameters. The method .get\_text() extracts just the text from
-Beautiful Soup objects, so ”\
- \<p class=”name”\>\<a name=”n1″\>\</a\>A-Aku Tulikovich\</p\>\
- “.get\_text() will become “A-Aku Tulikovich “. We need to use
-.get\_text() on each item in the list, then append it to a new list
-containing just the names:
+*parameters*. The method `.get_text()` extracts just the text from
+Beautiful Soup objects, so
+`“ <p class=“name”><a name=“n1”></a>A-Aku Tulikovich</p> “.get_text()`
+will become “*A-Aku Tulikovich*”. We need to use `.get_text()` on each
+item in the list, then append it to a new list containing just the
+names:
 
 ``` python
 #creating the final names list
@@ -483,8 +489,8 @@ names[:20]
 > [u'A-Aku Tulikovich ', u'Aab Avgust Mikhailovich', u'Aab Avgust Khristianovich', u'Aab Aleksandr Aleksandrovich', u"Aab Aleksandr Khrist'ianovich", u"Aab Al'bert Viktorovich", u"Aab Al'brekht Aleksandrovich", u'Aab Amaliia Andreevna', u'Aab Amaliia Ivanovna', u'Aab Angelina Andreevna', u'Aab Andrei Andreevich', u'Aab Andrei Filippovich', u'Aab Arvid Karlovich', u"Aab Arnol'd Aleksandrovich", u'Aab Artur Avgustovich', u"Aab Artur Vil'gel'movich", u"Aab Aelita Arnol'dovna", u'Aab Viktor Aleksandrovich', u'Aab Viktor Aleksandrovich', u"Aab Viktor Vil'gel'movich"]
 ```
 
-The ‘u’ in front of each of the names indicates that they are unicode
-objects in Python, not strings. But when Python needs a string, it will
+The ‘u’ in front of each of the names indicates that they are *unicode*
+*objects* in Python, not *strings*. But when Python needs a string, it will
 automatically change any unicode to be a string if it only uses ASCII
 characters or else throw a “unicodedecode error”. Fortunately, because
 we have transliterated all the Cyrillic characters, this list fits
@@ -501,10 +507,10 @@ characters. It is a simple tool but one that can be an enormous time
 saver.
 
   [ASCII]: http://en.wikipedia.org/wiki/Ascii
-  [Viewing HTML Files]: http://programminghistorian.org/lessons/viewing-html-files
-  [Working with Web Pages]: http://programminghistorian.org/lessons/working-with-web-pages
-  [From HTML to List of Words (part 1)]: http://programminghistorian.org/lessons/from-html-to-list-of-words-1
-  [Intro to Beautiful Soup]: http://programminghistorian.org/lessons/intro-to-beautiful-soup
+  [Viewing HTML Files]: ../lessons/viewing-html-files
+  [Working with Web Pages]: ../lessons/working-with-web-pages
+  [From HTML to List of Words (part 1)]: ../lessons/from-html-to-list-of-words-1
+  [Intro to Beautiful Soup]: ../lessons/intro-to-beautiful-soup
   [Memorial]: http://lists.memo.ru
   [Cyrillic]: http://en.wikipedia.org/wiki/Cyrillic_script
   [Latin characters]: http://en.wikipedia.org/wiki/Latin_script
@@ -516,14 +522,14 @@ saver.
   [Beautiful Soup in Python.]: http://www.crummy.com/software/BeautifulSoup/
   [Glasnost]: http://en.wikipedia.org/wiki/Glasnost
   [here]: http://lists.memo.ru/d1/f1.htm
-  [Automated Downloading with Wget]: http://programminghistorian.org/lessons/automated-downloading-with-wget
+  [Automated Downloading with Wget]: ../lessons/automated-downloading-with-wget
   [What is Unicode]: http://www.unicode.org/standard/WhatIsUnicode.html
   [comma separated value]: http://en.wikipedia.org/wiki/Comma-separated_values
-  [Counting Frequencies]: http://programminghistorian.org/lessons/counting-frequencies
+  [Counting Frequencies]: ../lessons/counting-frequencies
   [Library of Congress]: http://www.lcweb.loc.gov/catdir/cpso/romanization/russian.pdf
   [Wikipedia has a table]: http://en.wikipedia.org/wiki/Cyrillic_script_in_Unicode
   [Unicode website]: http://www.unicode.org/charts/
-  [Manipulating Strings in Python]: http://programminghistorian.org/lessons/manipulating-strings-in-python
-  [Installing Pip and Beautiful Soup]: http://programminghistorian.org/lessons/installing-pip-and-beautiful-soup
-  [Cascading Style Sheets]: http://www.w3schools.com/css/%20target=
+  [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
+  [Installing Python Modules with pip]: ../lessons/installing-python-modules-pip
+  [Cascading Style Sheets]: http://www.w3schools.com/css/
   [Code Academy’s]: http://www.codecademy.com/courses/css-coding-with-style

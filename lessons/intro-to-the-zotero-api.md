@@ -1,8 +1,13 @@
 ---
 title: Intro to the Zotero API
-author: Amanda Morton
-date: 04-01-2013
-reviewers: Fred Gibbs
+authors:
+- Amanda Morton
+date: 2013-04-01
+reviewers:
+- Fred Gibbs
+layout: default
+categories: [lessons, api]
+next: creating-new-items-in-zotero
 ---
 
 Lesson Goals
@@ -28,40 +33,40 @@ directory you have chosen to use for these lessons.
 
 ### Installing libZotero
 
-Using what you learned in [Lesson 1.1][], and the lesson on Python
-modules, we’ll use [pip][] to install libZotero, a python library that
+Using what you learned in the lesson on [Installing Python Modules with pip][], 
+we'll use [pip][] to install libZotero, a python library that
 will allow us to interact with the Zotero API. To install the library,
 in your command line/terminal window enter:
 
-``` plain
- pip install libZotero 
+```
+pip install libZotero 
 ```
 
-Remember that you may need to use the sudo preface and enter your
+Remember that you may need to use the `sudo` preface and enter your
 password to allow the installation to proceed.
 
 ### Zotero Hello World
 
-Once libZotero is installed, we can use it to talk to the Zotero server
+Once *libZotero* is installed, we can use it to talk to the Zotero server
 using Python. In your text editor, run the following:
 
 ``` python
- #make the libZotero library available
+#make the libZotero library available
 from libZotero import zotero 
 ```
 
-Once we’ve successfully imported the name zotero from the library, we
-can create and define a Zotero library “object” (zlib, in this example),
+Once we've successfully imported the name zotero from the library, we
+can create and define a Zotero library "object" (*zlib*, in this example),
 which will be our means of creating a request for the Zotero server and
 returning its data. When we create the library object we will need to
-specify whether we’re accessing an individual or group library and
-include the Zotero library’s ID number. Depending on the type of library
-we’re accessing and the things we plan to do with it, we may also need
+specify whether we're accessing an individual or group library and
+include the Zotero library's ID number. Depending on the type of library
+we're accessing and the things we plan to do with it, we may also need
 to include an authentication key, which functions sort of like a
 password.
 
 ``` python
- #create Zotero library object called "zlib"
+#create Zotero library object called "zlib"
 zlib=zotero.Library('group','<insert group ID>','<null>',
 '<insert API key>') 
 ```
@@ -71,29 +76,36 @@ you can use the library we’ve created for this lesson at [Programming
 Historian 2][].
 
 If you want to use your own group or individual library, you will need
-to retrieve your group ID and API key. Your group ID can be found by
-hovering over the RSS option on your library feed. The ID is the numeric
-part of the URL. Your group API key, if one has been created, is located
-in your [account settings][]. If there is no key assigned to the group,
-and you are the end user, you can create a new key on the same page.
+to retrieve your group or user ID and your own API key. If you use your
+individual library, you'll also need to replace the word `group` with the 
+word `user` in the above code.
 
-To use the PH2 group library, use the following:\
- Group ID: 155975\
+Your group ID can be found by hovering over the RSS option on your library
+feed. The ID is the numeric part of the URL. Your group API key, if one has
+been created, is located in your [account settings][]. If there is no key
+assigned to the group, and you are the end user, you can create a new key on
+the same page.
+
+To use the PH2 group library, use the following:
+
+```
+ Group ID: 155975
  API key: 9GLmvmZ1K1qGAz9QWcdlyf6L
+```
 
 ``` python
- zlib=zotero.Library('group','155975','<null>',
+zlib=zotero.Library('group','155975','<null>',
 '9GLmvmZ1K1qGAz9QWcdlyf6L') 
 ```
 
-Once we’ve defined our object, we can use it to interact with the
+Once we've defined our object, we can use it to interact with the
 information in the library.
 
 ### Retrieving Item Information
 
 Zotero has parent items and child items. Parents are typically top-level
 objects with metadata, and children are usually things like notes and
-file attachments. For this portion of the lesson, we’ll be pulling
+file attachments. For this portion of the lesson, we'll be pulling
 information from the first five top-level items in our collection.
 
 ``` python
@@ -105,14 +117,14 @@ Your output for this step, if you are using our sample collection,
 should look like this:
 
 ``` xml
- value stored in cache - https://api.zotero.org/groups/155975/items/top?limit=5&content=
+value stored in cache - https://api.zotero.org/groups/155975/items/top?limit=5&content=
 json%2Cbib%2Ccoins&key=9GLmvmZ1K1qGAz9QWcdlyf6L 
 ```
 
 Next, we can print some basic information about these items.
 
 ``` python
- # print some data about these five items
+# print some data about these five items
 for item in items:
 print 'Item Type: %s | Key: %s | Title: %s' % (item.itemType,
 item.itemKey, item.title) 
@@ -137,7 +149,7 @@ We can also pull the bibliographic information associated with our first
 five items:
 
 ``` python
- for item in items:
+for item in items:
     print item.bibContent 
 ```
 
@@ -145,8 +157,8 @@ Running this command will print the bibliographic content stored on the
 Zotero servers for these items:
 
 ``` xml
- <div class="csl-bib-body" style="line-height: 1.35; padding-left: 2em; text-indent:-2em;" xmlns="http://www.w3.org/1999/xhtml">
-  <div class="csl-entry">“Benjamin Bowsey.” Accessed March 29, 2013. http://www.oldbaileyonline.org/print.jsp?div=t17800628-33.</div>
+<div class="csl-bib-body" style="line-height: 1.35; padding-left: 2em; text-indent:-2em;" xmlns="http://www.w3.org/1999/xhtml">
+<div class="csl-entry">“Benjamin Bowsey.” Accessed March 29, 2013. http://www.oldbaileyonline.org/print.jsp?div=t17800628-33.</div>
 </div>
 <div class="csl-bib-body" style="line-height: 1.35; padding-left: 2em; text-indent:-2em;" xmlns="http://www.w3.org/1999/xhtml">
   <div class="csl-entry">Noiret, Serge. “Y a T-il Une Histoire Numerique 2.0?” Contribution to book. Accessed July 21, 2011. http://cadmus.eui.eu/handle/1814/18074.</div>
@@ -169,7 +181,7 @@ library.
   [Zotero]: http://zotero.org
   [Quick Start Guide]: https://www.zotero.org/support/quick_start_guide
   [libZotero GitHub library]: https://github.com/fcheslack/libZotero
-  [Lesson 1.1]: lesson-1-1-introduction-and-installation
-  [pip]: ”http://www.pip-installer.org/en/latest/”
+  [Installing Python Modules with pip]: ../lessons/installing-python-modules-pip
+  [pip]: http://www.pip-installer.org/en/latest/
   [Programming Historian 2]: https://www.zotero.org/groups/programming_historian_2
   [account settings]: https://www.zotero.org/settings/keys

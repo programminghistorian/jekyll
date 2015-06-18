@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/topic-modeling-and-mallet/feed" rel="alternate" title="The Programming Historian » Getting Started with Topic Modeling and MALLET Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/introduction-and-installation" rel="prev" title="Python Introduction and Installation"/><link href="http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings" rel="next" title="Downloading Multiple Records Using Query Strings"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/topic-modeling-and-mallet" rel="canonical"/><link href="http://programminghistorian.org/?p=1120" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="Shawn Graham, Scott Weingart, and Ian Milligan" name="author"/><meta content="Getting Started with Topic Modeling and MALLET" name="title"/><meta content="2012-09-02" name="date"/><meta content="John Fink, Alan MacEachern and Adam Crymble" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1120">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<h2>Editor’s Note</h2>
+<p>This lesson requires you to use the command line. If you have no previous experience using the command line you may find it helpful to work through the Scholars’ Lab <a href="http://praxis.scholarslab.org/tutorials/bash/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://praxis.scholarslab.org']);" target="_blank">Command Line Bootcamp</a> tutorial.</p>
+<h2>Lesson Goals</h2>
+<p>In this lesson you will first learn what <span class="tech">topic modeling</span> is and why you might want to employ it in your research. You will then learn how to install and work with the <code>MALLET</code> <span class="tech">natural language processing</span> toolkit to do so. <code>MALLET</code> involves modifying an <span class="tech">environment variable</span> (essentially, setting up a short-cut so that your computer always knows where to find the <code>MALLET</code> program) and working with the <span class="tech">command line</span> (ie, by typing in commands manually, rather than clicking on icons or menus). We will run the topic modeller on some example files, and look at the kinds of outputs that <code>MALLET</code> installed. This will give us a good idea of how it can be used on a corpus of texts to identify topics found in the documents without reading them individually.</p>
+<p>Please see the <code>MALLET</code> users’ <a href="http://mallet.cs.umass.edu/mailinglist.php" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://mallet.cs.umass.edu']);" target="_blank">discussion list</a> for the full range of things one can do with the software.</p>
+<p>(We would like to thank Robert Nelson and Elijah Meeks for hints and tips in getting <code>MALLET</code> to run for us the first time, and for their examples of what can be done with this tool.)</p>
+<h2>What is Topic Modeling And For Whom is this Useful?</h2>
+<p>A <span class="tech">topic modeling</span> tool takes a single text (or corpus) and looks for patterns in the use of words; it is an attempt to inject semantic meaning into vocabulary. Before you begin with topic modeling, you should ask yourself whether or not it is likely to be useful for your project. Matthew Kirschenbaum’s <a href="http://www.cs.umbc.edu/~hillol/NGDM07/abstracts/talks/MKirschenbaum.pdf" onclick="javascript:_gaq.push(['_trackEvent','download','http://www.cs.umbc.edu/~hillol/NGDM07/abstracts/talks/MKirschenbaum.pdf']);" target="_blank"><span class="pub">Distant Reading</span></a> (a talk given at the 2009 National Science Foundation Symposium on the Next Generation of Data Mining and Cyber-Enabled Discovery for Innovation) and Stephen Ramsay’s <a href="http://www.worldcat.org/title/reading-machines-toward-an-algorithmic-criticism/oclc/708761605&amp;referer=brief_results" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.worldcat.org']);" target="_blank"><span class="pub">Reading Machines</span></a> are good places for beginning to understand in which circumstances a technique such as this could be most effective. As with all tools, just because you can use it, doesn’t necessarily mean that you should. If you are working with a small number of documents (or even a single document) it may well be that simple frequency counts are sufficient, in which case something like <a href="http://voyant-tools.org" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://voyant-tools.org']);" target="_blank"><span class="pub">Voyant Tools</span></a> might be appropriate. However, if you have hundreds of documents from an archive and you wish to understand something of what the archive contains without necessarily reading every document, then topic modeling might be a good approach.</p>
+<p>Topic models represent a family of computer programs that extract <span class="tech">topics</span> from <span class="tech">texts</span>. A topic to the computer is a list of words that occur in statistically meaningful ways. A text can be an email, a blog post, a book chapter, a journal article, a diary entry – that is, any kind of unstructured text. By unstructured we mean that there are no computer-readable annotations that tell the computer the semantic meaning of the words in the text.</p>
+<p>Topic modeling programs do not know anything about the meaning of the words in a text. Instead, they assume that any piece of text is composed (by an author) by selecting words from possible baskets of words where each basket corresponds to a topic. If that is true, then it becomes possible to mathematically decompose a text into the probable baskets from whence the words first came. The tool goes through this process over and over again until it settles on the most likely distribution of words into baskets, which we call topics.</p>
+<p>There are many different topic modeling programs available; this tutorial uses one called <code>MALLET</code>. If one used it on a series of political speeches for example, the program would return a list of topics and the keywords composing those topics. Each of these lists is a topic according to the algorithm. Using the example of political speeches, the list might look like:</p>
+<ol>
+<li>Job Jobs Loss Unemployment Growth</li>
+<li>Economy Sector Economics Stock Banks</li>
+<li>Afghanistan War Troops Middle-East Taliban Terror</li>
+<li>Election Opponent Upcoming President</li>
+<li>… etc.</li>
+</ol>
+<p>By examining the keywords we can discern that the politician who gave the speeches was concerned with the economy, jobs, the Middle East, the upcoming election, and so on.</p>
+<p>As Scott Weingart warns, there are many <a href="http://www.scottbot.net/HIAL/?p=16713" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.scottbot.net']);" target="_blank">dangers</a> that face those who use topic modeling without fully understanding it. For instance, we might be interested in word use as a proxy for placement along a political spectrum. Topic modeling could certainly help with that, but we have to remember that the proxy is not in itself the thing we seek to understand – as Andrew Gelman demonstrates in his mock study of <a href="http://arxiv.org/abs/1003.6087/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://arxiv.org']);" target="_blank">zombies using Google Trends</a>. Ted Underwood and Lisa Rhody (see Further Reading) argue that we as historians would be better to think of these categories as discourses; however for our purposes here we will continue to use the word: topic.</p>
+<p>Note: You will sometimes come across the term “<span class="tech">LDA</span>” when looking into the bibliography of topic modeling. LDA and Topic Model are often used synonymously, but the LDA technique is actually a special case of topic modeling created by <a href="http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank">David Blei and friends</a> in 2002. It was not the first technique now considered topic modeling, but it is by far the most popular. The myriad variations of topic modeling have resulted in an alphabet soup of techniques and programs to implement them that might be confusing or overwhelming to the uninitiated; ignore them for now. They all work in much the same way. MALLET uses LDA.</p>
+<h3>Examples of topic models employed by historians:</h3>
+<ul>
+<li>Rob Nelson, <a href="http://dsl.richmond.edu/dispatch/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://dsl.richmond.edu']);" target="_blank"><span class="pub">Mining the Dispatch</span></a></li>
+<li>Cameron Blevins, “<a href="http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://historying.org']);" target="_blank">Topic Modeling Martha Ballard’s Diary</a>” <em>Historying</em>, April 1, 2010.</li>
+<li>David J Newman and Sharon Block, “<span class="pub">Probabilistic topic decomposition of an eighteenth century American newspaper</span>,” <em>Journal of the American Society for Information Science and Technology</em> vol. 57, no. 6 (April 1, 2006): 753-767.</li>
+</ul>
+<h2>Installing <code>MALLET</code></h2>
+<p>There are many tools one could use to create topic models, but at the time of this writing (summer 2012) the simplest tool to run your text through is called <code>MALLET</code>. <a href="http://mallet.cs.umass.edu/index.php" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://mallet.cs.umass.edu']);" target='_"blank"'><code>MALLET</code></a> uses an implementation of <a href="http://en.wikipedia.org/wiki/Gibbs_sampling" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://en.wikipedia.org']);" target="_blank"><span class="tech">Gibbs sampling</span></a>, a statistical technique meant to quickly construct a sample distribution, to create its topic models. <code>MALLET</code> requires using the command line – we’ll talk about that more in a moment, although you typically use the same few commands over and over.</p>
+<p>The installation instructions are different for Windows and Mac. Follow the instructions appropriate for you below:</p>
+<p><img alt="Windows Instructions" src="http://programminghistorian.org/wp-content/uploads/2011/06/windows-150x150.png"/></p>
+<h3>Windows Instructions</h3>
+<ol>
+<li>Go to the <a href="http://mallet.cs.umass.edu/index.php" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://mallet.cs.umass.edu']);" target='_"blank"'><code>MALLET</code></a> project page, and <a href="http://mallet.cs.umass.edu/download.php" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://mallet.cs.umass.edu']);" target="_blank"><code>download MALLET</code></a>. (As of this writing, we are working with version 2.0.7.)</li>
+<li>You will also need the <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.oracle.com']);" target="_blank">Java developer’s kit</a> – that is, not the regular Java that’s on every computer, but the one that lets you program things. Install this on your computer.</li>
+<li>Unzip <code>MALLET</code> into your <code>C:</code> directory . This is important: it cannot be anywhere else. You will then have a directory called <code>C:\mallet-2.0.7</code> or similar. For simplicity’s sake, rename this directory just <code>mallet</code>.</li>
+<li><code>MALLET</code> uses an <span class="reserved">environment variable</span> to tell the computer where to find all the various components of its processes when it is running. It’s rather like a shortcut for the program. A programmer cannot know exactly where every user will install a program, so the programmer creates a variable in the code that will always stand in for that location. We tell the computer, once, where that location is by setting the environment variable. If you moved the program to a new location, you’d have to change the variable.</li>
+</ol>
+<p>To create an environment variable in Windows 7, click on your <code>Start Menu -&gt; Control Panel -&gt; System -&gt; Advanced System Settings</code> (Figures 1,2,3). Click new and type <code>MALLET_HOME</code> in the variable name box. It must be like this – all caps, with an underscore – since that is the shortcut that the programmer built into the program and all of its subroutines. Then type the exact path (location) of where you unzipped <code>MALLET</code> in the variable value, e.g., <code>c:\mallet</code><br/>
+To see if you have been successful, please read on to the next section.</p>
+<p><img alt="" src="http://programminghistorian.org/wp-content/uploads/2012/09/fig1-advanced-system-settings.png" title="Figure 1 advanced-system-settings" width="640"/> <p>Figure 1: Advanced System Settings on Windows</p></p>
+<p><img alt="" src="http://programminghistorian.org/wp-content/uploads/2012/09/fig2-environment-variables-location.png" title="Figure 2 environment-variables-location"/> <p>Figure 2: Environment Variables Location</p></p>
+<p><img alt="" src="http://programminghistorian.org/wp-content/uploads/2012/09/fig3-environment-variable.png" title="Figure 3 environment-variable"/> <p>Figure 3: Environment Variable</p></p>
+<h4>Running MALLET using the Command Line</h4>
+<p><code>MALLET</code> is run from the command line, also known as <code>Command Prompt</code> (Figure 4). If you remember <code>MS-DOS</code>, or have ever played with a Unix computer Terminal, this will be familiar. The command line is where you can type commands directly, rather than clicking on icons and menus.</p>
+<p><img alt="" src="http://programminghistorian.org/wp-content/uploads/2012/09/fig-4-command-prompt-window.png" title="Figure 4 command-prompt-window"/> <p>Figure 4: Command Prompt on Windows</p></p>
+<ol>
+<ol>
+<li>Click on your <code>Start Menu -&gt; All Programs -&gt; Accessories -&gt; Command Prompt</code>.<br/>
+You’ll get the command prompt window, which will have a cursor at <code>c:\user\user&gt;</code> (or similar; see Figure 4).</li>
+<li>Type <code>cd ..</code> (That is: cd-space-period-period) to <span class="tech">change directory</span>. Keep doing this until you’re at the <code>C:\</code> . (as in Figure 5)</li>
+</ol>
+</ol>
+<p><img alt="" src="http://programminghistorian.org/wp-content/uploads/2012/09/fig-5-command-prompt-window-getting-to-c.png" title="Figure 5 command-prompt-window-getting-to-c"/> <p>Figure 5: Navigating to the C:\ Directory in Command Prompt</p></p>
+<ol>
+<ol>
+<li>Then type <code>cd mallet </code>and you are in the <code>MALLET</code>directory.Anything you type in the command prompt window is a <span class="reserved">command</span>. There are commands like <span class="reserved">cd</span> (change directory) and <span class="reserved">dir</span> (list directory contents) that the computer understands. You have to tell the computer explicitly that ‘this is a <code>MALLET</code> command’ when you want to use <code>MALLET</code>. You do this by telling the computer to grab its instructions from the <code>MALLET</code> <span class="tech">bin</span>, a subfolder in <code>MALLET</code> that contains the core operating routines.</li>
+<li>Type <code>bin\mallet</code> as in Figure 6. If all has gone well, you should be presented with a list of <code>MALLET</code> commands – congratulations! If you get an error message, check your typing. Did you use the wrong slash? Did you set up the environment variable correctly? Is <code>MALLET</code> located at <code>C:\mallet</code> ?</li>
+</ol>
+</ol>
+<p><img alt="" src="http://programminghistorian.org/wp-content/uploads/2012/09/fig-6command-prompt-mallet-installed.png" title="Figure 6 command-prompt-mallet-installed"/>
+<p>Figure 6: Command Prompt MALLET Installed</p></p>
+<p>You are now ready to skip ahead to the next section.</p>
+<p><img alt="Mac Instructions" height="150" src="http://programminghistorian.org/wp-content/uploads/2011/06/apple-150x150.png" width="150"/></p>
+<h3>Mac Instructions</h3>
+<p>Many of the instructions for OS X installation are similar to Windows, with a few differences. In fact, it is a bit easier.</p>
+<ol>
+<li>Download and <a href="http://mallet.cs.umass.edu/download.php" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://mallet.cs.umass.edu']);" target='_"blank"'>install <code>MALLET</code> (<code>mallet-2.0.7.tar.gaz</code>as of Summer 2012).</a></li>
+<li>Download the <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.oracle.com']);" target="_blank">Java Development Kit</a>.</li>
+</ol>
+<p>Unzip <code>MALLET</code> into a directory on your system (for ease of following along with this tutorial, your <code>/user/</code> directory works but anywhere is okay). Once it is unzipped, open up your Terminal window (in the <code>Applications</code> directory in your Finder. Navigate to the directory where you unzipped <code>MALLET</code> using the Terminal (it will be <code>mallet-2.0.7</code> . If you unzipped it into your <code>/user/</code> directory as was suggested in this lesson, you can navigate to the correct directory by typing <code>cd mallet-2.0.7</code>). cd is short for “change directory” when working in the Terminal.</p>
+<p>The same command will suffice to run commands from this directory, except you need to append <code>./</code> (period-slash) before each command. This needs to be done before all <code>MALLET</code> commands when working on a Mac.</p>
+<p>Going forward, the commands for <code>MALLET</code> on a Mac will be nearly identical to those on Windows, except for the direction of slashes (there are a few other minor differences that will be noted when they arise). If on Windows a command would be <code>\bin\mallet</code>, on a Mac you would instead type:</p>
+<pre class="bash">./bin/mallet</pre>
+<p>A list of commands should appear. If it does, congratulations – you’ve installed it correctly!</p>
+<h2>Typing in MALLET Commands</h2>
+<p>Now that you ahve <code>MALLET</code> installed, it is time to learn what commands are available to use with the program. There are nine <code>MALLET</code> commands you can use (see Figure 6 above). Sometimes you can combine multiple instructions. At the Command Prompt or Terminal (depending on your operating system), try typing:</p>
+<pre class="bash">import-dir --help</pre>
+<p>You are presented with the error message that <span class="reserved">import-dir</span> is not recognized as an internal or external command, operable program, or batch file. This is because we forgot to tell the computer to look in the <code>MALLET bin</code> for it. Try again, with</p>
+<pre class="bash">bin\mallet import-dir --help</pre>
+<p>Remember, the direction of the slash matters (See Figure 7, which provides an entire transcript of what we have done so far in the tutorial). We checked to see that we had installed <code>MALLET</code> by typing in <code>bin\mallet</code>. We then made the mistake with <code>import-dir</code> a few lines further down. After that, we successfully called up the help file, which told us what <span class="reserved">import-dir</span> does, and it listed all of the potential <span class="tech">parameters</span> you can set for this tool.</p>
+<p><img alt="" src="http://programminghistorian.org/wp-content/uploads/2012/09/fig-7-command-prompt-typing-help.png" title="Figure 7 command-prompt-typing-help"/> <p>Figure 7: The Help Menu in MALLET</p></p>
+<p>Note: there is a difference in <code>MALLET</code> commands between a single hyphen and a double hyphen. A single hyphen is simply part of the name; it replaces a space (e.g., <span class="reserved">import-dir</span> rather than import dir), since spaces offset multiple commands or parameters. These parameters let us tweak the file that is created when we import our texts into <code>MALLET</code>. A double hyphen (as with <span class="reserved">–help</span> above) modifies, adds a sub-command, or specifies some sort of parameter to the command.</p>
+<p>For Windows users, if you got the error <em>‘exception in thread “main” java.lang.NoClassDefFoundError:’</em> it might be because you installed <code>MALLET</code> somewhere other than in the <code>C:\</code> directory. For instance, installing <code>MALLET</code> at <code>C:\Program Files\mallet</code> will produce this error message. The second thing to check is that your environment variable is set correctly. In either of these cases, check the Windows installation instructions and double check that you followed them properly.</p>
+<h2>Working with data</h2>
+<p><code>MALLET</code> comes pre-packaged with sample <code>.txt</code> files with which you can practice. Type <code>dir</code> at the <code>C:\mallet&gt; prompt</code>, and you are given the listing of the <code>MALLET</code> directory contents. One of those directories is called <code>sample-data</code>. You know it is a directory because it has the word &lt;dir&gt; beside it.</p>
+<p>Type <code>cd sample-data</code>. Type <code>dir</code> again. Using what you know, navigate to first the <code>web</code> then the <code>en</code> directories. You can look inside these <code>.txt</code> files by typing the full name of the file (with extension).</p>
+<p>Note that you cannot now run any <code>MALLET</code> commands from this directory. Try it:</p>
+<pre class="bash">bin\mallet import-dir --help</pre>
+<p>You get the error message. You will have to navigate back to the main <code>MALLET</code> folder to run the commands. This is because of the way <code>MALLET</code> and its components are structured.</p>
+<h2>Importing data</h2>
+<p>In the <code>sample data</code> directory, there are a number of <code>.txt</code> files. Each one of these files is a single document, the text of a number of different web pages. The entire folder can be considered to be a corpus of data. To work with this corpus and find out what the topics are that compose these individual documents, we need to transform them from several individual text files into a single <code>MALLET</code> format file. <code>MALLET</code> can import more than one file at a time. We can import the entire directory of text files using the <span class="reserved">import</span> command. The commands below import the directory, turn it into a <code>MALLET</code> file, keep the original texts in the order in which they were listed, and strip out the <span class="tech">stop words</span> (words such as <span class="reserved">and</span>, <span class="reserved">the</span>, <span class="reserved">but</span>, and <span class="reserved">if</span> that occur in such frequencies that they obstruct analysis) using the default English <span class="reserved">stop-words</span> dictionary. Try the following (swapping in the correct pathway to the sample data).</p>
+<pre class="bash">bin\mallet import-dir --input pathway\to\the\directory\with\the\files --output tutorial.mallet --keep-sequence --remove-stopwords</pre>
+<p>If you type <code>dir</code> now (or <code>ls</code> for Mac), you will find a file called <code>tutorial.mallet</code>. (If you get an error message, you can hit the cursor up key on your keyboard to recall the last command you typed, and look carefully for typos). This file now contains all of your data, in a format that <code>MALLET</code> can work with.</p>
+<h3>For Mac</h3>
+<p>Mac instructions are similar to those above for Windows, but keep in mind that Unix file paths (which are used by Mac) are different: for example, if the directory was in one’s home directory, one would type</p>
+<pre class="bash">./bin/mallet import-dir --input /users/username/database/ --output tutorial.mallet --keep-sequence --remove-stopwords</pre>
+<h2>Issues with Big Data</h2>
+<p>If you’re working with extremely large file collections – or indeed, very large files – you may run into issues with your <span class="tech">heap space</span>, your computer’s working memory. This issue will initially arise during the import sequence, if it is relevant. By default, <code>MALLET</code> allows for 1GB of memory to be used. If you run into the following error message, you’ve run into your limit:</p>
+<pre class="bash">Exception in thread "main" java.lang.OutOfMemoryError: Java heap space</pre>
+<p>If your system has more memory, you can try increasing the memory allocated to your <span class="tech">Java virtual machine</span>. To do so, you need to edit the code in the <code>mallet</code> file found in the <code>bin</code> subdirectory of your <code>MALLET</code> folder. Using Komodo Edit, (See <a href="/lessons/mac-installation">Mac</a>, <a href="/lessons/mac-installation">Windows, </a><a href="/lessons/mac-installation">Linux</a> for installation instructions), open the <code>Mallet.bat</code> file (<code>C:\Mallet\bin\mallet.bat</code>).</p>
+<p>Find the following line:</p>
+<p><code>MEMORY=1g</code></p>
+<p>You can then change the 1g value upwards – to 2g, 4g, or even higher depending on your system’s RAM, which you can find out by looking up the machine’s system information.</p>
+<p>Save your changes. You should now be able to avoid the error. If not, increase the value again.</p>
+<h2>Your first topic model</h2>
+<p>At the command prompt in the <code>MALLET</code> directory, type:</p>
+<pre class="bash">bin\mallet train-topics  --input tutorial.mallet</pre>
+<p>This command opens your <code>tutorial.mallet</code> file, and runs the topic model routine on it using only the default settings. As it iterates through the routine, trying to find the best division of words into topics, your command prompt window will fill with output from each run. When it is done, you can scroll up to see what it was outputting (as in Figure 8).</p>
+<p><img alt="" src="http://programminghistorian.org/wp-content/uploads/2012/09/fig-8-basic-topic-model-output.png" title="Figure 8 basic topic model output"/>
+<p>Figure 8: Basic Topic Model Output</p></p>
+<p>The computer is printing out the key words, the words that help define a statistically significant topic, per the routine. In Figure 8, the first topic it prints out might look like this (your key words might look a bit different):</p>
+<pre class="bash">0    5    test cricket Australian hill acting England northern leading ended innings record runs scored run team batsman played society English</pre>
+<p>If you are a fan of cricket, you will recognize that all of these words could be used to describe a cricket match. What we are dealing with here is a topic related to Australian cricket. If you go to <code>C:\mallet\sample-data\web\en\hill.txt</code>, you will see that this file is a brief biography of the noted Australian cricketer Clem Hill. The <span class="var">0</span> and the <span class="var">5</span> we will talk about later in the lesson. Note that <code>MALLET</code> includes an element of randomness, so the keyword lists will look different every time the program is run, even if on the same set of data.</p>
+<p>Go back to the main <code>MALLET</code> directory, and type <code>dir</code>. You will see that there is no output file. While we successfully created a topic model, we did not save the output! At the command prompt, type</p>
+<pre class="bash">bin\mallet train-topics  --input tutorial.mallet --num-topics 20 --output-state topic-state.gz --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_compostion.txt </pre>
+<p>Here, we have told <code>MALLET</code> to create a topic model (<span class="reserved">train-topics</span>) and everything with a double hyphen afterwards sets different parameters</p>
+<p>This command</p>
+<ul>
+<li>opens your <code>tutorial.mallet</code> file</li>
+<li>trains <code>MALLET</code> to find 20 topics</li>
+<li>outputs every word in your corpus of materials and the topic it belongs to into a compressed file (<code>.gz</code>; see www.gzip.org on how to unzip this)</li>
+<li>outputs a text document showing you what the top key words are for each topic (<code>tutorial_keys.txt</code>)</li>
+<li>and outputs a text file indicating the breakdown, by percentage, of each topic within each original text file you imported (<code>tutorial_composition.txt</code>). (To see the full range of possible parameters that you may wish to tweak, type <code>bin\mallet train-topics –help</code> at the prompt.)</li>
+</ul>
+<p>Type <code>dir</code>. Your outputted files will be at the bottom of the list of files and directories in <code>C:\Mallet</code>. Open <code>tutorial_keys.txt</code> in a word processor (Figure 9). You are presented with a series of paragraphs. The first paragraph is <span class="var">topic 0</span>; the second paragraph is topic 1; the third paragraph is <span class="var">topic 2</span>; etc. (The output begins counting at 0 rather than 1; so if you ask it to determine 20 topics, your list will run from 0 to 19). The second number in each paragraph is the <span class="reserved">Dirichlet</span> parameter for the topic. This is related to an option which we did not run, and so its default value was used (this is why every topic in this file has the number <span class="var">2.5</span>).</p>
+<p><img alt="" src="http://programminghistorian.org/wp-content/uploads/2012/09/fig-9-tutorial-key-words-in-Word.png" title="Figure 9 tutorial key words in Word"/>
+<p>Figure 9: Keywords Shown in a Word Processor</p></p>
+<p>If when you ran the topic model routine you had included</p>
+<pre class="bash">--optimize-interval 20</pre>
+<p>as below</p>
+<pre class="bash">bin\mallet train-topics  --input tutorial.mallet  --num-topics 20 --optimize-interval 20 --output-state topic-state.gz  --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_composition.txt</pre>
+<p>the output might look like this:</p>
+<pre class="bash">0 0.02995 xi ness regular asia online cinema established alvida acclaim veenr commercial </pre>
+<p>That is, the first number is the topic (<span class="var">topic 0</span>), and the second number gives an indication of the <span class="tech">weight</span> of that topic. In general, including <span class="reserved">–optimize-interval</span> leads to better topics.</p>
+<h3>The composition of your documents</h3>
+<p>What topics compose your documents? The answer is in the <code>tutorial_composition.txt</code> file. To stay organized, import the <code>tutorial_composition.txt</code> file into a spreadsheet (Excel, Open Office, etc). You will have a spreadsheet with a <span class="var">#doc</span>, <span class="var">source</span>, <span class="var">topic</span>, <span class="var">proportion</span> columns. All subsequent columns run <span class="var">topic</span>, <span class="var">proportion</span>, <span class="var">topic</span>, <span class="var">proportion</span>, etc., as in figure 10.</p>
+<p><img alt="" src="http://programminghistorian.org/wp-content/uploads/2012/09/fig-10-topic-composition.png" title="Figure 10 topic composition"/> <p>Figure 10: Topic Composition</p></p>
+<p>You can see that <span class="var">doc# 0</span> (ie, the first document loaded into <code>MALLET</code>), <code>elizabeth_needham.txt</code> has <span class="var">topic 2</span> as its principal topic, at about 15%; <span class="var">topic 8</span> at 11%, and <span class="var">topic 1</span> at 8%. As we read along that first column of topics, we see that <code>zinta.txt</code> also has topic 2 as its largest topic, at 23%. The topic model suggests a connection between these two documents that you might not at first have suspected.</p>
+<p>If you have a corpus of text files that are arranged in chronological order (e.g., <code>1.txt</code> is earlier than <code>2.txt</code>), then you can graph this output in your spreadsheet program, and begin to see changes over time, as Robert Nelson has done in <a href="http://dsl.richmond.edu/dispatch/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://dsl.richmond.edu']);" target="_blank">Mining the Dispatch</a>.</p>
+<p>How do you know the number of topics to search for? Is there a <em>natural</em> number of topics? What we have found is that one has to run the train-topics with varying numbers of topics to see how the composition file breaks down. If we end up with the majority of our original texts all in a very limited number of topics, then we take that as a signal that we need to increase the number of topics; the settings were too coarse. There are computational ways of searching for this, including using MALLETs <span class="reserved">hlda command</span>, but for the reader of this tutorial, it is probably just quicker to cycle through a number of iterations (but for more see Griffiths, T. L., &amp; Steyvers, M. (2004). Finding scientific topics. Proceedings of the National Academy of Science, 101, 5228-5235).</p>
+<h3>Getting your own texts into MALLET</h3>
+<p>The <code>sample data</code> folder in <code>MALLET</code> is your guide to how you should arrange your texts. You want to put everything you wish to topic model into a single folder within <code>c:\mallet</code>, ie <code>c:\mallet\mydata</code>. Your texts should be in <code>.txt</code> format (that is, you create them with Notepad, or in Word choose <code>Save As -&gt; MS Dos text</code>). You have to make some decisions. Do you want to explore topics at a paragraph by paragraph level? Then each <code>txt</code> file should contain one paragraph. Things like page numbers or other identifiers can be indicated in the name you give the file, e.g., <code>pg32_paragraph1.txt</code>. If you are working with a diary, each text file might be a single entry, e.g., <code>april_25_1887.txt</code>. (Note that when naming folders or files, do not leave spaces in the name. Instead use underscores to represent spaces). If the texts that you are interested in are on the web, you might be able to <a href="http://electricarchaeology.ca/2012/07/09/mining-a-day-of-archaeology/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://electricarchaeology.ca']);" target="_blank">automate this process</a>.</p>
+<h3>Further Reading about Topic Modeling</h3>
+<p>To see a fully worked out example of topic modeling with a body of materials culled from webpages, see <a href="http://electricarchaeology.ca/2012/06/08/mining-the-open-web-with-looted-heritage-draft/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://electricarchaeology.ca']);" target="_blank">Mining the Open Web with Looted Heritage Draft</a>.</p>
+<p>You can grab the data for yourself at <a href="http://figshare.com/articles/looted_heritage_reports_txt.zip/91828" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://figshare.com']);" target="_blank">Figshare.com</a>, which includes a number of <code>.txt</code> files. Each individual <code>.txt</code> file is a single news report.</p>
+<ul>
+<li>For extensive background and bibliography on topic modeling you may wish to begin with Scott Weingart’s <a href="http://www.scottbot.net/HIAL/?p=19113" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.scottbot.net']);" target="_blank">Guided Tour to Topic Modeling</a></li>
+<li>Ted Underwood’s ‘<a href="http://tedunderwood.wordpress.com/2012/04/07/topic-modeling-made-just-simple-enough/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://tedunderwood.wordpress.com']);" target="_blank">Topic modeling made just simple enough</a>‘ is an important discussion on interpreting the meaning of topics.</li>
+<li>Lisa Rhody’s post on interpreting topics is also illuminating. ‘<a href="http://lisa.therhodys.net/2012/08/some-assembly-required/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://lisa.therhodys.net']);" target="_blank">Some Assembly Required</a>‘ <em>Lisa @ Work</em> August 22, 2012.</li>
+<li>Clay Templeton, ‘<a href="http://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://mith.umd.edu']);" target="_blank">Topic Modeling in the Humanities: An Overview | Maryland Institute for Technology in the Humanities</a>‘, n.d.</li>
+<li>David Blei, Andrew Ng, and Michael Jordan, ‘<a href="http://dl.acm.org/citation.cfm?id=944937" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://dl.acm.org']);" target="_blank">Latent dirichlet allocation</a>,’ The Journal of Machine Learning Research 3 (2003).</li>
+<li>Finally, also consult David Mimno’s <a href="http://www.cs.princeton.edu/%7Emimno/topics.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.cs.princeton.edu']);" target="_blank">bibliography of topic modeling articles</a>. They’re tagged by topic to make finding the right one for a particular application that much easier. Also take a look at his recent article on <a href="http://www.perseus.tufts.edu/publications/02-jocch-mimno.pdf" onclick="javascript:_gaq.push(['_trackEvent','download','http://www.perseus.tufts.edu/publications/02-jocch-mimno.pdf']);" target="_blank">Computational Historiography</a> from <span class="pub">ACM Transactions on Computational Logic </span>which goes through a hundred years of Classics journals to learn something about the field. While the article should be read as a good example of topic modeling, his ‘Methods’ section is especially important, in that it discusses preparing text for this sort of analysis.</li>
+</ul>
+
+<!-- You can start editing here. -->
+
+<div class="navigation">
+<div class="alignleft"></div>
+<div class="alignright"></div>
+</div>
+
+<div class="navigation">
+<div class="alignleft"></div>
+<div class="alignright"></div>
+</div>
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushBash.js?ver=3.0.83c" type="text/javascript"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body></html>

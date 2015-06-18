@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','spencer-roberts',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/zotero-api/counting-frequencies-from-zotero-items/feed" rel="alternate" title="The Programming Historian » Counting Frequencies from Zotero Items Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/intro-to-beautiful-soup" rel="prev" title="Intro to Beautiful Soup"/><link href="http://programminghistorian.org/lessons/zotero-api/creating-new-items-in-zotero" rel="next" title="Creating New Items in Zotero"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/zotero-api/counting-frequencies-from-zotero-items" rel="canonical"/><link href="http://programminghistorian.org/?p=1658" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="Spencer Roberts" name="author"/><meta content="Counting Frequencies from Zotero Items" name="title"/><meta content="2013-04-01" name="date"/><meta content="Fred Gibbs" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1658">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<p><!--Counting Frequencies from Zotero Items--></p>
+<h2>Lesson Goals</h2>
+<p>In <a href="lesson-4-2-counting-frequencies">Lesson 4.2</a> you learned how to count the frequency of specific words in a list using python. In this lesson, we will expand on that topic by showing you how to get information from Zotero HTML items, save the content from those items, and count the frequencies of words. It may be beneficial to look over Lesson 4.2 before we begin.</p>
+<h3>Files Needed For This Lesson</h3>
+<ul>
+<li><code>obo.py</code></li>
+</ul>
+<p>If you do not have these files from the previous lesson, you can download a <a href="lesson-6-2-output-keywords-in-context-in-html-file#codesync">zip file from the previous lesson here.</a></p>
+<h3>Modifying the obo.py Module</h3>
+<p>Before we begin, we need to adjust obo.py in order to use this module to interact with different html files. The stripTags function in the obo.py module must be updated to the following, because it was previously designed for Old Bailey Online content only. First, we need to remove the line that instructs the program to begin at the end of the header, then we will tell it where to begin. Open the obo.py file in your text editor and follow the instructions below:</p>
+<pre class="python">def stripTags(pageContents):
+	#remove the following line
+	#startLoc = pageContents.find("&lt;hr/&gt;&lt;h2&gt;")
+
+	#modify the following line
+	#pageContents = pageContents[startLoc:]
+
+	#so that it looks like this
+	pageContents = pageContents[0:]
+
+	inside = 0
+	text = ' '
+
+	for char in pageContents:
+		if char == '&lt;':
+			inside = 1
+		elif (inside == 1 and char =='&gt;'):
+			inside = 0
+		elif inside == 1:
+			continue
+		else:
+			text += char
+
+	return text	</pre>
+<p>Remember to save your changes before we continue.</p>
+<h3>Get Items from Zotero and Save Local Copy</h3>
+<p>After we have modified the obo.py file, we can create a program designed to request the top two items from a collection within a Zotero library, retrieve their associated urls, read the web pages, and save the content to a local copy. This particular program will only work on webpage-type items with html content (for instance, entering the URLs of JSTOR or Google Books pages will not result in an analysis of the actual content).</p>
+<p>First, create a new .py file and save it in your programming historian directory. Make sure your copy of the obo.py file is in the same location. Once you have saved your file, we can begin by importing the libraries and program data we will need to run this program:</p>
+<pre class="python">
+#Get urls from Zotero items, create local copy, count frequencies
+import obo
+from libZotero import zotero
+import urllib2 </pre>
+<p>Next, we need to tell our program where to find the items we will be using in our analysis. Using the sample Zotero library from which we retrieved items in <a href="lesson-7-1-using-the-zotero-api">lesson 7.1</a>, or using your personal library, we will pull the first two top-level items from either the library or from a specific collection within the library. (To find your collection key, mouseover the RSS button on that collection’s page and use the second alpha-numeric sequence in the URL.)</p>
+<pre class="python">
+#links to Zotero library
+zlib = zotero.Library('group', '155975', '&lt;null&gt;', 'f4Bfk3OTYb7bukNwfcKXKNLG')
+
+#specifies subcollection - leave blank to use whole library
+collectionKey = 'I253KRDT'
+
+#retrieves top two items from library
+items = zlib.fetchItemsTop({'limit': 2, 'collectionKey': collectionKey, 'content': 'json,bib,coins'}) </pre>
+<p>Now we can instruct our program to retrieve the URL from each of our items, create a filename using that URL, and save a copy of the html on the page.</p>
+<pre class="python">
+#retrieves url from each item, creates a filename from the url, saves a local copy
+for item in items:
+	url = item.get('url')
+	filename = url.split('/')[-1] + '.html' 			#splits url at last /
+	filename = filename.split('=')[-1]					#splits url at last =
+	filename = filename.replace('.html.html', '.html')	#removes double .html
+	print 'Saving local copy of ' + filename
+
+	response = urllib2.urlopen(url)
+	webContent = response.read()
+	f = open(filename,'w')
+	f.write(webContent)
+	f.close()</pre>
+<p>Running this portion of the program will result in the following:</p>
+<pre class="xml">Saving local copy of PastsFutures.html
+Saving local copy of 29.html </pre>
+<h3>Get Item Urls from Zotero and Count Frequencies</h3>
+<p>Now that we’ve retrieved our items and created local html files, we can use the next portion of our program to retrieve the URLs, read the web pages, create a list of words, count their frequencies, and display them. Most of this should be familiar to you from lesson 4.2.</p>
+<pre class="python">
+#retrieves url from each item, creates a filename from the url
+for item in items:
+	itemTitle = item.get('title')
+	url = item.get('url')
+	filename = url.split('/')[-1] + '.html' 			#splits url at last /
+	filename = filename.split('=')[-1]					#splits url at last =
+	filename = filename.replace('.html.html', '.html')	#removes double .html
+	print '\n' + itemTitle +'\nFilename: ' + filename + '\nWord Frequencies\n'
+	response = urllib2.urlopen(url)
+	html = response.read()
+	</pre>
+<p>This section of code grabs the URL from our items, removes the unnecessary portions, and creates and prints a filename. For the items in our sample collection, the output looks something like this:</p>
+<pre class="xml"> The Pasts and Futures of Digital History
+Filename: PastsFutures.html
+Word Frequencies
+
+History and the Web, From the Illustrated Newspaper to Cyberspace: Visual Technologies and Interaction in the Nineteenth and Twenty-First Centuries
+Filename: 29.html
+Word Frequencies </pre>
+<p>Now we can go ahead and create our list of words and their frequencies. Enter the following:</p>
+<pre class="python">
+#strips HTML tags, strips nonAlpha characters, removes stopwords
+	text = obo.stripTags(html).lower()
+	fullwordlist = obo.stripNonAlphaNum(text)
+	wordlist = obo.removeStopwords(fullwordlist, obo.stopwords)
+
+#counts frequencies
+	dictionary = obo.wordListToFreqDict(wordlist)
+	sorteddict = obo.sortFreqDict(dictionary)
+
+#displays list of words and frequencies
+ 	for s in sorteddict: print str(s)</pre>
+<p>Your final output will include a long list of words accompanied by their frequency within the html file:</p>
+<pre class="xml">Saving local copy of PastsFutures.html
+Saving local copy of 29.html
+
+The Pasts and Futures of Digital History
+Filename: PastsFutures.html
+Word Frequencies
+
+(51, 'history')
+(43, 'new')
+(31, '9')
+(27, 'historians')
+(24, 'digital')
+(23, 'social')
+(21, 'narrative')
+(16, 'media')
+(15, 'time')
+(13, 'possibilities')
+(13, 'past')
+(12, 'science')
+...
+
+History and the Web, From the Illustrated Newspaper to Cyberspace: Visual Technologies and Interaction in the Nineteenth and Twenty-First Centuries
+Filename: 29.html
+Word Frequencies
+
+(52, 'new')
+(49, 'history')
+(46, 'media')
+(44, 'ndash')
+(34, 'figure')
+(34, 'digital')
+(24, 'visual')
+(24, 'museum')
+(24, 'http')
+(23, 'edu')
+(22, 'web')
+(22, 'text')
+(22, 'barnum')
+(21, 'users')
+(21, 'information')
+...
+</pre>
+
+<!-- You can start editing here. -->
+<!-- If comments are open, but there are no comments. -->
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=3.0.83c" type="text/javascript"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body></html>

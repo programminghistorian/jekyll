@@ -1,8 +1,14 @@
 ---
 title: Python Introduction and Installation
-author: William J. Turkel, Adam Crymble
-date: 07-17-2012
-reviewers: Miriam Posner, Jim Clifford, Amanda Morton
+authors:
+- William J. Turkel
+- Adam Crymble
+date: 2012-07-17
+reviewers:
+- Miriam Posner
+- Jim Clifford
+- Amanda Morton
+layout: default
 ---
 
 Lesson Goals
@@ -17,9 +23,9 @@ programming that provides immediate results.
 In this opening module you will install the [Python programming
 language][], the [Beautiful Soup HTML/XML parser][], and a text editor.
 Screencaps provided here come from [Komodo Edit][], but you can use any
-text editor capable of working with Python. Here’s a list of other
+text editor capable of working with Python. Here's a list of other
 options: [Python Editors][]. Once everything is installed, you will
-write your first programs, “Hello World” in Python and HTML.
+write your first programs, "Hello World" in Python and HTML.
 
 the Python Programming Language
 -------------------------------
@@ -43,7 +49,7 @@ sure to back up your [Zotero][] database. At the end of a day’s work,
 make another backup of the Zotero database and of any programs that
 you’ve written that day. You should back up your whole computer at least
 weekly, and preferably more frequently. It is also a good idea to make
-off-site backups of your work, so that you don’t lose everything if
+off-site backups of your work, so that you don't lose everything if
 something happens to your computer or to your home or office. Sites like
 [Jungle Disk][] and [Dropbox][] provide easy-to-use and relatively
 inexpensive online backup options.
@@ -53,16 +59,16 @@ inexpensive online backup options.
 Step 1 – Install and Set Up Software
 ------------------------------------
 
-In order to work through the techniques in this book, you will need to
+In order to work through the techniques in this website, you will need to
 download and install some freely available software. We have provided
 instructions for Mac, Windows and Linux. Once you have installed the
-software for your operating system, move on to ‘[Viewing HTML Files][]‘.
+software for your operating system, move on to '[Viewing HTML Files][]'.
 If you run into trouble with our instructions or find something that
-doesn’t work on your platform, please let us know.
+doesn't work on your platform, please let us know.
 
--   [Mac Installation][]
--   [Windows Installation][]
--   [Linux Installation][]
+-   [Mac Python Installation][]
+-   [Windows Python Installation][]
+-   [Linux Python Installation][]
 
   [Python programming language]: http://www.python.org/
   [Beautiful Soup HTML/XML parser]: http://www.crummy.com/software/BeautifulSoup/
@@ -71,7 +77,7 @@ doesn’t work on your platform, please let us know.
   [Zotero]: http://www.zotero.org/
   [Jungle Disk]: https://www.jungledisk.com/
   [Dropbox]: https://www.dropbox.com/home
-  [Viewing HTML Files]: /lessons/viewing-html-files
-  [Mac Installation]: /lessons/mac-installation
-  [Windows Installation]: /lessons/windows-installation
-  [Linux Installation]: /lessons/linux-installation
+  [Viewing HTML Files]: ../lessons/viewing-html-files
+  [Mac Python Installation]: ../lessons/mac-installation
+  [Windows Python Installation]: ../lessons/windows-installation
+  [Linux Python Installation]: ../lessons/linux-installation

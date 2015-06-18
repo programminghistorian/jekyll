@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"/><title>The Programming Historian</title><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width" name="viewport"/><link href="http://fonts.googleapis.com/css?family=Lato:300,700|Crete+Round" rel="stylesheet" type="text/css"/><link href="http://programminghistorian.org/wp-content/themes/ph-wp-theme/style.css" rel="stylesheet"/><!-- Modernizr and Friends --><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/modernizr.min.js"></script><script>
+      Modernizr.load([
+        {
+          test: Modernizr.mq(),
+          nope: ['http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/respond.min.js',
+          'http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/selectivizr.min.js']
+        }
+      ]);
+    </script><script type="text/javascript">//&lt;![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2752866-8']);
+				            _gaq.push(['_setCustomVar',2,'author','adam-crymble',3],['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]&gt;</script><link href="http://programminghistorian.org/lessons/mac-installation/feed" rel="alternate" title="The Programming Historian » Mac Installation Comments Feed" type="application/rss+xml"/><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery.js?ver=1.11.0" type="text/javascript"></script><script src="http://programminghistorian.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script><script src="http://programminghistorian.org/wp-content/themes/ph-wp-theme/javascripts/bigfoot.min.js?ver=3.9.1" type="text/javascript"></script><link href="http://programminghistorian.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/><link href="http://programminghistorian.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/><link href="http://programminghistorian.org/lessons/working-with-text-files" rel="prev" title="Working with Text Files"/><link href="http://programminghistorian.org/lessons/linux-installation" rel="next" title="Linux Installation"/><meta content="WordPress 3.9.1" name="generator"/><link href="http://programminghistorian.org/lessons/mac-installation" rel="canonical"/><link href="http://programminghistorian.org/?p=1630" rel="shortlink"/><style id="syntaxhighlighteranchor" type="text/css"></style><meta content="William J. Turkel, Adam Crymble" name="author"/><meta content="Mac Installation" name="title"/><meta content="2012-07-17" name="date"/><meta content="Miriam Posner, Jim Clifford, Amanda Morton" name="reviewers"/><meta content="default" name="layout"/></head><body class="single single-lesson postid-1630">
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+        $.bigfoot();
+    });
+    </script>
+<div role="main">
+<article>
+
+<div class="content">
+<h3>Back up your computer</h3>
+<p>Mac users can take advantage of the <a href="http://support.apple.com/kb/ht1427" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://support.apple.com']);" target="_blank">Time Machine</a> for this.</p>
+<h3>Install Python v.2</h3>
+<p>As of May 2012, Mac OS X comes preinstalled with Python 2. You can check to see if you have Python installed by launching the Terminal in the <code>‘Applications/Utilities’</code> directory and entering <code>which python</code> followed by the Enter key. Pushing the Enter key sends the command to the computer when using the terminal. If you see <code>‘/usr/bin/python’</code> or something similar containing the word ‘python’ and a bunch of slashes, then you are all set. If not, close the Terminal, download the latest stable release of the Python programming language (Version 2.7.3 as of May 2012) and install it by following the instructions on the <a href="http://www.python.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.python.org']);" target="_blank">Python website</a>.</p>
+<h3>Create a Directory</h3>
+<p>To stay organized, it’s best to have a dedicated directory (folder) on your computer where you will keep your Python programs (e.g., <code>programming-historian</code>) and save it anywhere you like on your hard drive.</p>
+<h3>Beautiful Soup</h3>
+<p>Download the latest version of <a href="http://www.crummy.com/software/BeautifulSoup/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.crummy.com']);" target="_blank">Beautiful Soup</a> and copy it to the directory where you are going to put your own programs. Beautiful Soup is a <span class="tech">library</span> (a collection of prewritten code) that makes it easy for Python programs to break web pages down into meaningful chunks that can be further processed.</p>
+<h3>Install Komodo Edit</h3>
+<p>Komodo Edit is a free and open source code editor, but as we said in the introduction, you have many <a href="http://wiki.python.org/moin/PythonEditors/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://wiki.python.org']);" target="_blank">other text editing options</a>. Some of our testers prefer a program called <a href="http://www.barebones.com/products/textwrangler/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.barebones.com']);" target="_blank">TextWrangler</a>. Which you use is up to you, but for the sake of consistency in our lessons, we will be using Komodo Edit. You can download a copy of Komodo Edit from the <a href="http://www.activestate.com/komodo-edit" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.activestate.com']);" target="_blank">Komodo Edit website</a>. Install it from the <code>.DMG</code> file</p>
+<ul>
+<li>
+<h5>Start Komodo Edit</h5>
+<p>It should look something like this:</p>
+<p><img alt="" class="alignnone size-medium wp-image-207" src="http://programminghistorian.org/wp-content/uploads/2011/06/komodo-edit-mac.png" title="komodo-edit-mac"/></p>
+</li>
+</ul>
+<p>Komodo Edit on a Mac</p>
+<p>If you don’t see the Toolbox pane on the right hand side, choose <code>View-&gt;Tabs &amp; Sidebars -&gt;Toolbox</code>. It doesn’t matter if the Project pane is open or not. Take some time to familiarize yourself with the layout of the Komodo editor. The Help file is quite good</p>
+<ul>
+<li>
+<h5>Configure Komodo Edit</h5>
+<p>Now you need to set up the editor so that you can run Python programs. In the Toolbox window, click on the gear icon and select “<code>New Command…</code>“. This will open a new dialog window. Rename your command to “<code>Run Python</code>” and feel free to change the icon if you like. In the</p>
+<p>“<code>Command</code>” box, type</p>
+<pre class="python">%(python) %f
+
+#and under "Start in," enter
+
+%D</pre>
+<p>Click OK. Your new Run Python command should appear in the Toolbox pane</p></li>
+</ul>
+<h2>Step 2 – “Hello World” in Python</h2>
+<p>It is traditional to begin programming in a new language by trying to create a program that says ‘hello world’ and terminates. We will show you how to do this in Python and HTML.</p>
+<p>Python is a good programming language for beginners because it is very <span class="tech">high-level</span>. It is possible, in other words, to write short programs that accomplish a lot. The shorter the program, the more likely it is for the whole thing to fit on one screen, and the easier it is to keep track of all of it in your mind.</p>
+<p>The languages that we will be using are all <span class="tech">interpreted</span>. This means that there is a special computer program (known as an <span class="tech">interpreter</span>) that knows how to follow instructions written in that language. One way to use the interpreter is to store all of your instructions in a <span class="tech">file</span>, and then run the interpreter on the file. A file that contains programming language instructions is known as a <span class="tech">program</span>. The interpreter will execute each of the instructions that you gave it in your program and then stop. Let’s try this.</p>
+<p>In your text editor, create a new file, enter the following two-line program and save it to your <code>programming-historian</code> directory as <code>hello-world.py</code></p>
+<pre class="python"># hello-world.py
+print 'hello world'</pre>
+<p>Your chosen text editor should have a “<code>Run</code>” button that will allow you to execute your program. If you are using TextWrangler, click on the “#!” button and Run. If all went well, it should look something like this:</p>
+<p><img alt="TextWrangler-hello-world" class="aligncenter size-full wp-image-2085" height="246" src="http://programminghistorian.org/wp-content/uploads/2013/04/TextWrangler-hello-world.png" width="637"/></p>
+<p>“Hello World” in Python on a Mac</p>
+<h3>Interacting with a Python shell</h3>
+<p>Another way to interact with an interpreter is to use what is known as a <span class="tech">shell</span>. You can type in a statement and press the Enter key, and the shell will respond to your command. Using a shell is a great way to test statements to make sure that they do what you think they should. This is done slightly differently on Mac, Linux and Windows.</p>
+<p>You can run a Python shell by launching the “terminal”. On the Mac, open the Finder and double-click on <code>Applications -&gt; Utilities -&gt; Terminal</code> then typing “<code>python</code>” into the window that opens on your screen. At the Python shell prompt, type</p>
+<pre class="python">print 'hello world'</pre>
+<p>and press Enter. The computer will respond with</p>
+<pre class="python">hello world</pre>
+<p>When we want to represent an interaction with the shell, we will use <code>-&gt;</code> to indicate the shell’s response to your command, as shown below:</p>
+<pre class="python">print 'hello world'
+-&gt; hello world</pre>
+<p>On your screen, it will look more like this:</p>
+<p><img alt="hello world terminal on a Mac" class="alignnone wp-image-292" src="http://programminghistorian.org/wp-content/uploads/2011/06/hello-world-terminal.png" title="hello-world-terminal"/> <p>Python Shell in Mac Terminal</p></p>
+<p>Now that you and your computer are up and running, we can move onto some more interesting tasks. If you are working through the Python lessons in order, we suggest you next try ‘<a href="/lessons/viewing-html-files">Viewing HTML Files</a>‘</p>
+
+<!-- You can start editing here. -->
+<!-- If comments are open, but there are no comments. -->
+
+</div>
+</article>
+<!-- .navigation -->
+</div>
+
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.83c" type="text/javascript"></script>
+<script src="http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPython.js?ver=3.0.83c" type="text/javascript"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://programminghistorian.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+</body></html>

@@ -1,0 +1,26 @@
+{% assign author = include.name %}
+
+{% for member in site.data.authors %}
+{% if author == member.name %}
+{% assign avatar = member.name | replace: " ","-" %}
+<div class="contact-box">
+<img class="avatar" src="{{site.url}}/avatars/{{avatar}}.png">
+{{ member.bio }}
+<br/>
+	{% if member.url %}
+		<a href="{{member.url}}"><i class="fa fa-home fa-lg"></i></a>
+	{% endif %}
+	{% if member.email %}
+		<a href="mailto:{{member.email}}"><i class="fa fa-envelope-square fa-lg" ></i></a>
+	{% endif %}
+	{% if member.twitter %}
+		<a href="http://twitter.com/{{member.twitter}}"><i class="fa fa-twitter-square fa-lg"></i></a>
+	{% endif %}
+	{% if member.github %}
+		<a href="http://github.com/{{member.github}}"><i class="fa fa-github-square fa-lg"></i></a>
+	{% endif %}
+{% endif %}
+{% endfor %}
+<br/>
+</div>
+

@@ -1,8 +1,14 @@
 ---
 title: Preserving Your Research Data
-author: James Baker
-date: 04-30-2014
-reviewers: Jane Winters, Sharon Howard, William J. Turkel, Adam Crymble
+authors:
+- James Baker
+date: 2014-04-30
+reviewers:
+- Jane Winters
+- Sharon Howard
+- William J. Turkel
+- Adam Crymble
+layout: default
 ---
 
 #### Background
@@ -122,7 +128,7 @@ values) or .tsv (tab-seperated values) for tabulated data. These plain
 text formats are preferable to the proprietary formats used as defaults
 by Microsoft Office or iWork because they can be opened by many software
 packages and have a strong chance of remaining viewable and editable in
-the future. Most standard office suits include the option to save files
+the future. Most standard office suites include the option to save files
 in .txt, .csv and .tsv formats, meaning you can continue to work with
 familiar software and still take appropriate action to make your work
 accessible. Compared to .doc or .xls these formats have the additional
@@ -228,13 +234,13 @@ look something like this:
 
 A base or root directory, perhaps called 'work'.
 
-``` plain
+```
 \work\
 ```
 
 A series of sub-directories.
 
-``` plain
+```
      \work\events\
      \research\
      \teaching\
@@ -246,7 +252,7 @@ research project, module, or piece of writing. Introducing a naming
 convention that includes a date elements keeps the information organised
 without the need for subdirectories by, say, year or month.
 
-``` plain
+```
 \work\research\2014-01_Journal_Articles
               \2014-02_Infrastructure
 ```
@@ -254,7 +260,7 @@ without the need for subdirectories by, say, year or month.
 Finally, further sub-directories can be used to separate out information
 as the project grows.
 
-``` plain
+```
 \work\research\2014_Journal_Articles\analysis
                                     \data
                                     \notes
@@ -301,7 +307,7 @@ consistent and predictable manner assists with the readability and
 comprehension of the data structure. For example for a project on
 journal articles we might choose the directory…
 
-``` plain
+```
 \work\research\2014-01_Journal_Articles\
 ```
 
@@ -310,21 +316,21 @@ journal articles we might choose the directory…
 Within this directory we include a \\data\\ directory where the original
 data used in the project is kept.
 
-``` plain
+```
 2014-01-31_Journal_Articles.tsv
 ```
 
 Alongside this data is documentation that describes
 2014-01-31\_Journal\_Articles.tsv.
 
-``` plain
+```
 2014-01-31_Journal_Articles_notes.txt
 ```
 
 Going back a directory level to \\2014-01\_Journal\_Articles\\ we create
-the \\analysis\\ directory in which we place.
+the \\analysis\\ directory in which we place\:
 
-``` plain
+```
 2014-02-02_Journal_Articles_analysis.txt
 2014-02-15_Journal_Articles_analysis.txt
 ```
@@ -338,7 +344,7 @@ data derived from the original 2014-01-31\_Journal\_Articles.tsv. In
 this case, each derived .tsv file contains lines including the keywords,
 'africa', 'america', 'art' et cetera, and are named accordingly.
 
-``` plain
+```
 2014-01-31_Journal_Articles_KW_africa.tsv
 
 2014-01-31_Journal_Articles_KW_america.tsv

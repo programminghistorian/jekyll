@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+	{% include header.html %}
+
+  <body>
+
+    <header role="banner">
+    <h1><a href="{{ site.url }}">The Programming Historian</a></h1>
+
+	{% include menu.html %}
+	</header>
+
+	<div role="main">
+		<article>
+			<header>
+				<h1>{{ page.title }}</h1>
+			</header>
+
+			<div class="content">
+	              {{ content }}
+	        </div>
+        </article>
+    </div>
+
+    </body>
+
+	{% include footer.html %}
+
+</html>
