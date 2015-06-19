@@ -4,7 +4,7 @@ title: About the Programming Historian
 redirect_from: /about.html
 ---
 
-The Programming Historian is an online, open access, peer reviewed suite of about 30 tutorials that help humanists (though slanted towards historians) learn a wide range of digital tools, techniques, and workflows to facilitate their research. Despite the name, we do not focus exclusively on programming, but rather aim to provide guidance on a variety of digital methods and approaches.
+The Programming Historian is an online, open access, peer reviewed suite of tutorials that help humanists (though slanted towards historians) learn a wide range of digital tools, techniques, and workflows to facilitate their research. Despite the name, we do not focus exclusively on programming, but rather aim to provide guidance on a variety of digital methods and approaches.
 
 Our mission is to fill a unique niche for those interested in the Digital Humanities. Although there are many guides to “getting started in the Digital Humanities,” and plenty of “teach yourself programming” websites, The Programming Historian is the only resource dedicated to bridging the substantial gap between broad “getting started” portal sites and generic programming tutorials that usually seem unhelpful to humanists who don’t have a programming background.
 
