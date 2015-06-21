@@ -449,7 +449,7 @@ allKeywords = f.read().lower().split("\n")
 f.close()
 
 
-#Import the 'Details' column from the CSV file
+#NEW! Import the 'Details' column from the CSV file
 allTexts = []
 fullRow = []
 with open('extracting-keywords.csv') as csvfile:
