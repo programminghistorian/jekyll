@@ -440,16 +440,17 @@ The rest of the process involves creating that new output file, putting in the c
 
 ```python
 
+#NEW!
 import csv
 import time
 
-#Import the keywords
+#OLD! Import the keywords
 f = open('gazetteer.txt', 'r')
 allKeywords = f.read().lower().split("\n")
 f.close()
 
 
-#NEW! Import the 'Details' column from the CSV file
+#CHANGED! Import the 'Details' column from the CSV file
 allTexts = []
 fullRow = []
 with open('extracting-keywords.csv') as csvfile:
@@ -465,7 +466,7 @@ with open('extracting-keywords.csv') as csvfile:
 #NEW! a flag used to keep track of which row is being printed to the CSV file   
 counter = 0
 
-#use the current date and time to create a unique output filename
+#NEW! use the current date and time to create a unique output filename
 timestr = time.strftime("%Y-%m-%d-(%H:%M:%S)")
 filename = 'output-' + str(timestr) + '.csv'
 
