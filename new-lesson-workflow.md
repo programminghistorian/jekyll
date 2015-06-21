@@ -7,9 +7,9 @@ This page documents the workflow for adding a new lesson to _Programming Histori
 
 
 ## Have an idea? Get in touch!
-If you have an idea for a new lesson, or have already written a tutorial for some reason that you think could be adapted for _Programming Historian_, contact [Fred Gibbs](editor) about your idea. We'll post the tentative lesson title, a brief description, and you and your idea will be added to the public [Lesson Pipeline wiki page](pipeline).
+If you have an idea for a new lesson, or have already written a tutorial for some reason that you think could be adapted for _Programming Historian_, contact [Fred Gibbs][editor] about your idea. We'll post the tentative lesson title, a brief description, and you and your idea will be added to the public [Lesson Pipeline wiki page][pipeline].
 
-**There is no single kind or standard lesson at _Programming Historian_.** Topics vary widely, as does the expected technical profiency. We encourage this variety, and welcome all kinds of lession proposals. Lessons may be rather straightforward and discrete tasks; they may be quite complex and technically sophisticated. Longer and more involved lessons can be divided into smaller sub-lessons that can be worked through in sequence. 
+**There is no single kind or standard lesson at _Programming Historian_.** Topics vary widely, as does the expected technical profiency. We encourage this variety, and welcome all kinds of lession proposals. Lessons may be rather straightforward and discrete tasks; they may be quite complex and technically sophisticated. Longer and more involved lessons can be divided into smaller sub-lessons that can be worked through in sequence.
 
 We do insist that all lessons have a clearly defined goal and are written with a particular audience in mind. Lessons should explain at the outset exactly what skills or results they will impart; lessons should conclude only after they have provided a tangible skill to the reader.
 
@@ -84,6 +84,6 @@ At this point, the editor will ask at least two others to review your lesson and
 
 
 [editor]: mailto:fwgibbs@gmail.com
-[reviewer-guidelines]: http://programminghistorian/reviewer-guidelines
+[reviewer-guidelines]: /reviewer-guidelines.html
 [markdown guide]: https://github.com/programminghistorian/jekyll/wiki/Markdown-Style-Guide
 [pipeline]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
