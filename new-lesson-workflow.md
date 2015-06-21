@@ -9,7 +9,7 @@ This page documents the workflow for adding a new lesson to _Programming Histori
 ## Have an idea? Get in touch!
 If you have an idea for a new lesson, or have already written a tutorial for some reason that you think could be adapted for _Programming Historian_, contact [Fred Gibbs][editor] about your idea. We'll post the tentative lesson title, a brief description, and you and your idea will be added to the public [Lesson Pipeline wiki page][pipeline].
 
-**There is no single kind or standard lesson at _Programming Historian_.** Topics vary widely, as does the expected technical profiency. We encourage this variety, and welcome all kinds of lession proposals. Lessons may be rather straightforward and discrete tasks; they may be quite complex and technically sophisticated. Longer and more involved lessons can be divided into smaller sub-lessons that can be worked through in sequence.
+**There is no single kind or standard lesson at _Programming Historian_.** Topics vary widely, as does the expected technical proficiency. We encourage this variety, and welcome all kinds of lesson proposals. Lessons may be rather straightforward and discrete tasks; they may be quite complex and technically sophisticated. Longer and more involved lessons can be divided into smaller sub-lessons that can be worked through in sequence.
 
 We do insist that all lessons have a clearly defined goal and are written with a particular audience in mind. Lessons should explain at the outset exactly what skills or results they will impart; lessons should conclude only after they have provided a tangible skill to the reader.
 
@@ -19,7 +19,7 @@ You can get a better sense of what we're looking for by reading our [reviewer gu
 ## Name the Lesson File
 Name your new new lesson file following these guidelines:
 
-- Make the filename short, but descriptive; this filename will eventually become the slug for the lesson's URL when published. Thnik about how potential readers might search for something like your lesson.
+- Make the filename short, but descriptive; this filename will eventually become the slug for the lesson's URL when published. Think about how potential readers might search for something like your lesson.
 - Do not put spaces in the filename; use hyphens instead.
 - The filename extension should be .md so that GitHub will generate a preview of the lesson.
 Lessons must be submitted in Markdown
