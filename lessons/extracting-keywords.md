@@ -242,7 +242,7 @@ This code will automatically check each word in a text, keeping track of matches
 
 If it looks like it worked, delete the 'print matches' line and move to the next step.
 
-###Step 5: 
+###Step 5: Output results 
 
 If you have got to this stage, then your Python program is already finding the matching keywords from your gazetteer. All we need to do now is print them out to the command output pane in a format that's easy to work with.
 
