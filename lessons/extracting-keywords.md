@@ -175,7 +175,7 @@ If you got step 1 to work, you should understand this bit as well. Before you ru
 
 If the code worked, you should see a big wall of text. Those are the texts we input into the program. As long as you see them, you're ok. Before moving on to the next step, delete the three lines from your code beginning with 'print'. Now that we know they are printing the contents of these files properly we do not need to continue to check. Move on to step 3.
 
-#Step 3: Remove unwanted punctuation
+###Step 3: Remove unwanted punctuation
 
 When matching strings, you have to make sure the punctuation doesn't get in the way. Technically, 'London.' is a different string than 'London' or ';London' because of the added punctuation. These three strings which all mean the same thing to us as human readers will be viewed by the computer as distinct entities. To solve that problem, the easiest thing to do is just to remove all of the punctuation. You can do this with [regular expressions](http://en.wikipedia.org/wiki/Regular_expression), and [Doug Knox[(http://programminghistorian.org/lessons/understanding-regular-expressions) and [Laura Turner O'Hara](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions) have provided great introductions in *the Programming Historian* for doing so.
 
@@ -203,7 +203,7 @@ We use another for loop to look through each word in that list, and wherever we 
 
 We now have a clean set of words that we can compare against our gazetteer entries, looking for matches.
 
-##Step 4: Look for matching keywords
+###Step 4: Look for matching keywords
 
 As the words from our text are already in a list called 'allWords', and all of our keywords are in a list called 'allKeywords', all we have to do now is check our texts for the keywords.
 
@@ -242,7 +242,7 @@ This code will automatically check each word in a text, keeping track of matches
 
 If it looks like it worked, delete the 'print matches' line and move to the next step.
 
-##Step 5: 
+###Step 5: 
 
 If you have got to this stage, then your Python program is already finding the matching keywords from your gazetteer. All we need to do now is print them out to the command output pane in a format that's easy to work with.
 
