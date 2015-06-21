@@ -521,11 +521,11 @@ The code is heavily commented so if you spend some time, you should be able to f
 
 To give a brief outline of what has been changed from the original version:
 
-1) The texts were extracted automatically from the original datafile instead of having to paste them into a `texts.txt` file.
-2) Using the 'time' library, we used the current date and time to create a unique and easily decypherable filename for our output file.
-3) Using the 'csv' library we created a new .csv file using that filename, and put in the column headers we wanted to use.
-4) We then ran the same matching code as before, checking 'allWords' against 'allTexts' and storing the results.
-5) Instead of printing the results to the screen, we stored each row's original data (Name, Details, Matriculation Year) + the matches to a [tuple](https://docs.python.org/2/tutorial/datastructures.html#tuples-and-sequences) called 'newRow'.
-6) Using the 'csv' library we wrote the 'newRow' data to the new CSV file, one row at a time.
+1. The texts were extracted automatically from the original datafile instead of having to paste them into a `texts.txt` file.
+2. Using the 'time' library, we used the current date and time to create a unique and easily decypherable filename for our output file.
+3. Using the 'csv' library we created a new .csv file using that filename, and put in the column headers we wanted to use.
+4. We then ran the same matching code as before, checking 'allWords' against 'allTexts' and storing the results.
+5. Instead of printing the results to the screen, we stored each row's original data (Name, Details, Matriculation Year) + the matches to a [tuple](https://docs.python.org/2/tutorial/datastructures.html#tuples-and-sequences) called 'newRow'.
+6. Using the 'csv' library we wrote the 'newRow' data to the new CSV file, one row at a time.
 
 This approach created longer and more complex code, but the result is a powerful program that reads from a CSV file, matches the texts against the contents of a gazetteer, and then automatically writes the output to a clean new CSV file with no intermediary steps for you the user. You didn't have to go that extra mile, but hopefully you can see the advantages if you made it all the way through.
