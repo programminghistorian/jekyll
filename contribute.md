@@ -49,7 +49,7 @@ Please read more about our [editorial policies][editorial-policies] our [submiss
 - **Karma:** Contribute to a good cause and community goodwill.
 
 
-No matter how you'd like to be involved, you can always email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails within three working days.
+No matter how you'd like to be involved, you can always email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
 
 
 Thanks for making _Programming Historian_ such a great resource!
