@@ -23,7 +23,6 @@ We do not charge Article Processing Charges (APCs), nor do we charge library sub
 
 
 ## Peer Review
----
 
 All tutorials that appear on _The Programming Historian_ have been rigorously peer reviewed and copy edited. Each lesson is guided through the review process by one of our editors who are assigned to the piece. Review involves a thorough exchange with the editor to ensure the lesson works as intended and that all concepts are explained fully for a non-specialist reader, before the tutorial is sent to external reviewers to test it and provide further comments. We aim to return reviewed material to authors quickly, but our first priority is always to ensure a quality product.
 
@@ -31,8 +30,8 @@ Our peer review process is a bit different from what might be considered the “
 
 We strive to ensure all tutorials are functional on their date of publication. From time to time technology changes and tutorials cease to function as intended. If this happens, please [report it](https://github.com/programminghistorian/jekyll/wiki/Reporting-Issues) and we will assign an editor to fix the problem.
 
-Funding & Ownership
----
+## Funding & Ownership
+
 
 _The Programming Historian_ is a volunteer-led initiative, controlled entirely by its editorial board with the help of community contributors. It is not a legal entity, and does not currently receive direct funding from any source. 
 
