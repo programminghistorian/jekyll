@@ -3,7 +3,7 @@ title: Project Team
 layout: directory
 ---
 
-General Editors
+Editorial Board
 ---------------
 
 {% include contact-info.html name="Adam Crymble" %}
@@ -71,8 +71,7 @@ Institutional Support
 ---------------------
 
 *Programming Historian* remains grateful to the [Network in Canadian
-History & Environment][2] (NiCHE), [ScholarsLab][] at the University of
-Virginia, [The Center for Digital Humanities at UCLA][], as well as to
+History & Environment][2] (NiCHE) for early support for the project, as well as to
 the [Roy Rozensweig Centre for History & New Media][] (CHNM) for
 generous hosting services and technical support.
 
