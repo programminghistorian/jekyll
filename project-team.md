@@ -67,13 +67,6 @@ Patrick Burns, Sarah Simpkin, Finn Arne Jørgensen, Dave Shepard, Nick
 Ruest, Konrad Lawson, Nick Pearce, Amanda Morton, Spencer Roberts, Jeff
 Bain-Conkin, Sara Palmer, Mary Beth Start. Thanks to all of you.
 
-Institutional Support
----------------------
-
-*Programming Historian* remains grateful to the [Network in Canadian
-History & Environment][2] (NiCHE) for early support for the project, as well as to
-the [Roy Rozensweig Centre for History & New Media][] (CHNM) for
-generous hosting services and technical support.
 
   [Adam Crymble]: ../images/Screen_shot_2011-01-21_at_09.29.07_reasonably_small.png
     "Adam Crymble avatar"
