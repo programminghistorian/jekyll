@@ -31,6 +31,6 @@ Funding & Ownership
 
 The Programming Historian is a volunteer-led initiative, controlled entirely by its editorial board with the help of community contributors. It is not a legal entity, and does not currently receive direct funding from any source. 
 
-The project is grateful for past support by the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)), and for ongoing server space from the Roy Rosenzweig Centre for New Media ([RRCHNM](http://chnm.gmu.edu/)).
+The project is grateful for past support by the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)), and for ongoing server space from the Roy Rosenzweig Centre for New Media ([RRCHNM](http://chnm.gmu.edu/)). If you would like to provide financial support to help the project grow, please contact one of the [Editorial Board members](http://programminghistorian.org/project-team).
 
 This project is our attempt to demonstrate what open access academic publishing can and should be. Please tell your librarian to include the project in your library catalogue.
