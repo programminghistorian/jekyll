@@ -51,14 +51,25 @@ This tutorial tries to give a crash course on SPARQL using a dataset that a huma
 
 LOD represents information in a series of three-part "statements" like this:
 
-    <subject>   <predicate>   <object> .
+Unfortunately, many tutorials on SPARQL use extremely simplified data models that don't resemble the datasets you'll find in Europeana or other institutions like the [British Museum](http://collections.britishmuseum.org).
+This tutorial tries to give a crash course on SPARQL using a dataset that a humanist might actually find in the wilds of the Internet.
+
+## RDF in brief
+
+RDF represents information in a series of three-part "statements" like this:
+
+```
+<subject>   <predicate>   <object> .
+```
 
 (Note that just like any good sentence, they each have a period at the end.)
 
 Each subject, predicate, and object, is a node in a vast network.
 To keep these statements machine-readable and standardized, they usually come in the form of URIs, a.k.a. web links (I made up the first URL for the sake of argument, so don't try following it!):
 
-    <http://data.rijksmuseum.nl/item/8909812347>   <http://purl.org/dc/terms/creator>  <http://dbpedia.org/resource/Rembrandt> .
+```tutrle
+<http://data.rijksmuseum.nl/item/8909812347> <http://purl.org/dc/terms/creator>  <http://dbpedia.org/resource/Rembrandt>.
+```
 
 Conceptually, what this statement is saying is this:
 
@@ -107,9 +118,11 @@ With these prefixes, we just need to type `dct:title` whenever we need to use a 
 
 We'll be using these prefixes for our query:
 
-    PREFIX dc:      <http://purl.org/dc/elements/1.1/>
-    PREFIX edm:     <http://www.europeana.eu/schemas/edm/>
-    PREFIX ore:     <http://www.openarchives.org/ore/terms>
+```
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX edm:     <http://www.europeana.eu/schemas/edm/>
+PREFIX ore:     <http://www.openarchives.org/ore/terms>
+```
 
 Next, look to the center of the model, in dark blue.
 That represents the primary link for this object, with all other information resources branching out from it.
@@ -137,10 +150,12 @@ More on this in a second.
 
 Back to the SPARQL query box, we can add in this:
 
-    SELECT ?item ?title ?creator
-    WHERE {
-        # we'll fill this in next
-    }
+```
+SELECT ?item ?title ?
+WHERE {
+    # we'll fill this in next
+}
+```
 
 The `?` items after `SELECT` are the names of our variables.
 You can name these anything you wish; you will actually define what statements they correspond to within the `WHERE {}` section.
@@ -148,41 +163,42 @@ You can name these anything you wish; you will actually define what statements t
 Below you'll find the full query written out, with explanations for each line.
 You can cut and paste this directly into the Europeana SPARQL endpoint to see the results.
 
-    PREFIX dc:      <http://purl.org/dc/elements/1.1/>
-    PREFIX edm:     <http://www.europeana.eu/schemas/edm/>
-    PREFIX ore:     <http://www.openarchives.org/ore/terms/>
+```sql
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX edm:     <http://www.europeana.eu/schemas/edm/>
+PREFIX ore:     <http://www.openarchives.org/ore/terms/>
 
-    SELECT ?link ?title ?creator
-    WHERE {
+SELECT ?link ?title ?creator
+WHERE {
+    # In the WHERE statement, we define the variables
+    # we asked for in the SELECT statement, as well as any
+    # intermediate variables needed to define those variables.
 
-        # In the WHERE statement, we define the variables
-        # we asked for in the SELECT statement, as well as any
-        # intermediate variables needed to define those variables.
+    ?objectInfo dc:title ?title .
+    ?objectInfo dc:creator ?creator .
 
-        ?objectInfo dc:title ?title .
-        ?objectInfo dc:creator ?creator .
+    # These statements ask for ANY record that has the
+    # predicates dc:title and dc:creator. Because we only
+    # included the ?title and ?creator variables in our SELECT
+    # statement, the ?objectInfo variable will not show up
+    # in our results. But, we can still use this "throwaway"
+    # variable to shape the rest of our query.
 
-        # These statements ask for ANY record that has the
-        # predicates dc:title and dc:creator. Because we only
-        # included the ?title and ?creator variables in our SELECT
-        # statement, the ?objectInfo variable will not show up
-        # in our results. But, we can still use this "throwaway"
-        # variable to shape the rest of our query.
+    # We only want objects of the type "IMAGE". This statement
+    # effectively restricts the output of every other statement
+    # in our query. Thus, we'll only get ?titles and ?creators
+    # attached to objects that are also images.
 
-        # We only want objects of the type "IMAGE". This statement
-        # effectively restricts the output of every other statement
-        # in our query. Thus, we'll only get ?titles and ?creators
-        # attached to objects that are also images.
+    ?objectInfo edm:type "IMAGE" .
 
-        ?objectInfo edm:type "IMAGE" .
+    # Finally, we want to get the canonical Europeana link to the
+    # object. Check the model map and you'll see the name of the
+    # predicate (ore:proxyFor) we need to use in order to retrieve
+    # that dark blue link
 
-        # Finally, we want to get the canonical Europeana link to the
-        # object. Check the model map and you'll see the name of the
-        # predicate (ore:proxyFor) we need to use in order to retrieve
-        # that dark blue link
-
-        ?objectInfo ore:proxyFor ?link .
-    }
+    ?objectInfo ore:proxyFor ?link .
+}
+```
 
 The resulting table will give you every combination of link, title, and creator for "IMAGE" objects in the database.
 Note that objects with multiple creators, or multiple titles, will get multiple lines.
@@ -192,34 +208,35 @@ Note that objects with multiple creators, or multiple titles, will get multiple 
 What if we want to restrict this even more, by only retrieving completely public-domain images?
 We need to add a few more statements to our query, looping in the *provider aggregation* data section that contains the rights statement:
 
-    PREFIX dc:      <http://purl.org/dc/elements/1.1/>
-    PREFIX edm:     <http://www.europeana.eu/schemas/edm/>
-    PREFIX ore:     <http://www.openarchives.org/ore/terms/>
+```sql
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX edm:     <http://www.europeana.eu/schemas/edm/>
+PREFIX ore:     <http://www.openarchives.org/ore/terms/>
 
-    SELECT ?link ?title ?creator
-    WHERE {
+SELECT ?link ?title ?creator
+WHERE {
 
-        ?objectInfo dc:title ?title .
-        ?objectInfo dc:creator ?creator .
-        ?objectInfo edm:type "IMAGE" .
-        ?objectInfo ore:proxyFor ?link .
+    ?objectInfo dc:title ?title .
+    ?objectInfo dc:creator ?creator .
+    ?objectInfo edm:type "IMAGE" .
+    ?objectInfo ore:proxyFor ?link .
 
-        # ^ these lines are the same as our first query ^
+    # ^ these lines are the same as our first query ^
 
-        # Check the map again. We need to find the link from the
-        # provider proxy to the provider aggregation, which is in
-        # the lower left corner of the map. We'll create another
-        # "throwaway" variable called ?objectAgg. Like ?objectInfo,
-        # this link won't show up in our results, but it will let
-        # us restrict what the database returns to us.
+    # Check the map again. We need to find the link from the
+    # provider proxy to the provider aggregation, which is in
+    # the lower left corner of the map. We'll create another
+    # "throwaway" variable called ?objectAgg. Like ?objectInfo,
+    # this link won't show up in our results, but it will let
+    # us restrict what the database returns to us.
 
-        ?objectInfo ore:proxyIn ?objectAgg .
-        ?objectAgg edm:rights <http://creativecommons.org/publicdomain/zero/1.0/> .
+    ?objectInfo ore:proxyIn ?objectAgg .
+    ?objectAgg edm:rights <http://creativecommons.org/publicdomain/zero/1.0/> .
 
-        # Remember to surround any URIs with < and >, and always add
-        # a period at the end of every statement!
-    }
-
+    # Remember to surround any URIs with < and >, and always add
+    # a period at the end of every statement!
+}
+```
 Try restricting these results even more --- say, by provider, or date.
 
 ## Aggregating with SPARQL
@@ -237,30 +254,32 @@ For this aggregation query, we will introduce `COUNT`, `GROUP BY`, and `ORDER BY
 
 First, let's figure out how to access the names of the data providers and the rights statements for each object.
 
-    # Don't forget your prefixes
-    PREFIX dc:  <http://purl.org/dc/elements/1.1/>
-    PREFIX edm: <http://www.europeana.eu/schemas/edm/>
-    PREFIX ore: <http://www.openarchives.org/ore/terms/>
+```sql
+# Don't forget your prefixes
+PREFIX dc:  <http://purl.org/dc/elements/1.1/>
+PREFIX edm: <http://www.europeana.eu/schemas/edm/>
+PREFIX ore: <http://www.openarchives.org/ore/terms/>
 
-    SELECT ?edmrights ?provider
-    WHERE {
+SELECT ?edmrights ?provider
+WHERE {
 
-        # Rights and provider names show up in the provider aggregation
-        # section.
+    # Rights and provider names show up in the provider aggregation
+    # section.
 
-        ?objectAgg edm:provider ?provider .
-        ?objectAgg edm:rights ?edmrights .
+    ?objectAgg edm:provider ?provider .
+    ?objectAgg edm:rights ?edmrights .
 
-        # Remember, we still want to restrict our results to
-        # images only, which means we need to link in the provider
-        # proxy section. Note that predicates only work one way,
-        # so we need to define ?objectInfo as the subject of the
-        # statement, then ore:proxyIn as the predicate, and our
-        # ?objectAgg variable as the object. SPARQL doesn't mind!
+    # Remember, we still want to restrict our results to
+    # images only, which means we need to link in the provider
+    # proxy section. Note that predicates only work one way,
+    # so we need to define ?objectInfo as the subject of the
+    # statement, then ore:proxyIn as the predicate, and our
+    # ?objectAgg variable as the object. SPARQL doesn't mind!
 
-        ?objectInfo ore:proxyIn ?objectAgg .
-        ?objectInfo edm:type "IMAGE" .
-    }
+    ?objectInfo ore:proxyIn ?objectAgg .
+    ?objectInfo edm:type "IMAGE" .
+}
+```
 
 This gives us a row for *every* single image object with a provider and rights field.
 What we want to do is count them up.
@@ -268,36 +287,38 @@ This is where our new commands come in.
 
 ### Aggregating by variable
 
-    PREFIX dc:  <http://purl.org/dc/elements/1.1/>
-    PREFIX edm: <http://www.europeana.eu/schemas/edm/>
-    PREFIX ore: <http://www.openarchives.org/ore/terms/>
+```sql
+PREFIX dc:  <http://purl.org/dc/elements/1.1/>
+PREFIX edm: <http://www.europeana.eu/schemas/edm/>
+PREFIX ore: <http://www.openarchives.org/ore/terms/>
 
-    # We need to declare a new variable in our SELECT command.
-    # Because this is a calculated variable, it has a special notation.
-    # We need to tell it which variable to count (* means
-    # count all of them) and then what to name the new variable.
+# We need to declare a new variable in our SELECT command.
+# Because this is a calculated variable, it has a special notation.
+# We need to tell it which variable to count (* means
+# count all of them) and then what to name the new variable.
 
-    SELECT ?edmrights ?provider (COUNT(*) as ?count)
-    WHERE {
+SELECT ?edmrights ?provider (COUNT(*) as ?count)
+WHERE {
 
-        ?objectAgg edm:provider ?provider .
-        ?objectAgg edm:rights ?edmrights .
+    ?objectAgg edm:provider ?provider .
+    ?objectAgg edm:rights ?edmrights .
 
-        ?objectInfo ore:proxyIn ?objectAgg .
-        ?objectInfo edm:type "IMAGE" .
-    }
+    ?objectInfo ore:proxyIn ?objectAgg .
+    ?objectInfo edm:type "IMAGE" .
+}
 
-    # Now we need to tell the database to count up every combination of
-    # ?edmrights and ?provider
+# Now we need to tell the database to count up every combination of
+# ?edmrights and ?provider
 
-    GROUP BY ?edmrights ?provider
+GROUP BY ?edmrights ?provider
 
-    # And then we have an option of how to sort the results. Let's
-    # sort it by count, from highest to lowest, using DESC(). If
-    # we just wrote ORDER BY ?count, it would sort from lowest to
-    # highest
+# And then we have an option of how to sort the results. Let's
+# sort it by count, from highest to lowest, using DESC(). If
+# we just wrote ORDER BY ?count, it would sort from lowest to
+# highest
 
-    ORDER BY DESC(?count)
+ORDER BY DESC(?count)
+```
 
 You will notice that running this command will take longer than commands that aren't aggregating and counting.
 We are asking the database not only to retrieve, but also to match, count, and sort, so this may take a few minutes before your browser gets a response.
