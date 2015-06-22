@@ -11,3 +11,13 @@ Our mission is to fill a unique niche for those interested in the Digital Humani
 We’ve assembled and carefully edited a variety of lessons that describe and illustrate fundamental programming principles and techniques–such as scraping data from web pages and altering its format to work with various visualization tools–based on real-world examples of historical research. But we’re not all about programming. We offer much more as well, including nearly a dozen tutorials on various popular DH tools, such as MALLET, Omeka, and QGIS.
 
 If you can’t find what you’re looking for, then we’ve failed you. But don’t suffer in silence! Let us know what you can’t find. Better yet, [contribute a lesson](contribute).
+
+Gold Open Access
+---
+
+All submissions to the Programming Historian are published under a [Creative Commons 'By' license](https://creativecommons.org/licenses/by/2.0/). This adheres to a '[Gold](https://en.wikipedia.org/wiki/Open_access)' open access model of publishing, which is fully compliant with [RCUK](http://www.rcuk.ac.uk/research/openaccess/) funding and publishing requirements for scholars in the UK. This means that the version of record is made freely available without subscription fee or restrictions on access. Authors are permitted to republish their tutorials anywhere. And so can anyone, as long as they cite the original author and respect his or her moral rights.
+
+Peer Review
+---
+
+All tutorials that appear on the Programming Historian have been rigorously peer reviewed and copy edited. Each lesson is guided through the review process by one of our editors who are assigned to the piece. Review involves a thorough exchange with the editor to ensure the lesson works and that all concepts are explained fully for a non-specialist reader, before the tutorial is sent to external reviewers to test it and provide further comments. We aim to return reviewed material to authors quickly, but our first priority is always to ensure a quality product.
