@@ -90,7 +90,7 @@ As an introduction, this tutortial barely scratches the surface of what you can 
 
 
 ### Loading Corpora
-Like opening a file elsewhere, we're going to start with File&nbsp; &gt; Open, but instead of opening just ONE file we want to open the directory of all our files.  AntConc allows you to open entire directories, so if you're comfortable with this concept, you can just open the folder 'all reviews' and jump to Basic Analysis, below
+Like opening a file elsewhere, we're going to start with File&nbsp; &gt; Open, but instead of opening just ONE file we want to open the directory of all our files.  AntConc allows you to open entire directories, so if you're comfortable with this concept, you can just open the folder 'all reviews' and jump to Basic Analysis, below    
 ![open file 2][26]
 
 Remember we've put our files on the desktop, so navigate there in the dropdown menu.  
@@ -189,7 +189,7 @@ The unsorted results will seem to start with function words (words that build ph
 
 Some people might want to remove these small words by using a stopword list; this is a common step in topic modelling.  Personally I don't encourage this practice because addressing highly-frequent words is where computers shine! As readers we tend not to notice them very much. Computers, especially software like Antconc, can show us where these words do and do not appear and that can be quite interesting, especially in very large collections of text - as explored earlier in the tutorial, with *the*, *a*, *she* and *he*.
 
-Additionally you may have a single letter 's' appear, quite high as well - that represents the possessive *'s* (the apostrophe won't be counted), but AntConc considers that s indicative of another word. Another example of this is '*nt* appearing with *do*, as they contract as *don't*. Because these so commonly appear together, this makes them highly likely collocates. 
+Additionally you may have a single letter 's' appear, quite high as well - that represents the possessive *'s* (the apostrophe won't be counted), but AntConc considers that s indicative of another word. Another example of this is *'t* appearing with *do*, as they contract as *don't*. Because these so commonly appear together, this makes them highly likely collocates. 
 
 
 **Task:** 
