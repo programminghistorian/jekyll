@@ -32,8 +32,8 @@ In many ways [Voyant](http://voyant-tools.org/) is a gateway into conducting mor
 This tutorial explores several different ways to approach a corpus of texts. It's important to note that corpus linguistic approaches are rarely, if ever, a one-size-fits all affair. So, as you go through each step, it's worth thinking about what you're doing and how it can help you answer a specific question with your data. Although I present this tutorial in a building-block approach of 'do this then that to achieve x', it's not always necessary to follow the exact order outlined here. This lessons provides an outline of some of the methods available, rather than a recipe for success.
 
 ###Tutorial downloads
-1. Software:[AntConc](http://www.laurenceanthony.net/software/antconc/).†
-Unzip the download if necessary, and launch the application. Screen shots below may vary slightly from the version you have (and by operationg system, of course), but the procedures are more or less the same across platforms and recent versions of AntConc. 
+1. Software:[AntConc](http://www.laurenceanthony.net/software/antconc/).†  
+Unzip the download if necessary, and launch the application. Screen shots below may vary slightly from the version you have (and by operationg system, of course), but the procedures are more or less the same across platforms and recent versions of AntConc.  
 † (This tutorial is written with a (much older) version of AntConc in mind, as I find it easier to use in an introductory context. You are welcome to use the most recent version, but if you wish to follow along with the screenshots provided, you can download the version used here, [version 3.2.4](http://www.laurenceanthony.net/software/antconc/releases/AntConc324/)).
 2. Sample Corpus: Download the [zip file of movie reviews](https://db.tt/2PsC23px).
 
