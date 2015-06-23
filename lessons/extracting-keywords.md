@@ -6,7 +6,7 @@ date: 2015-06-10
 reviewers:
 layout:
 - default
-published: false
+published: true
 ---
 
 ##Module Goals
