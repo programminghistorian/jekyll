@@ -3,10 +3,8 @@ title: Using Gazetteers to Extract Sets of Keywords from Free-Flowing Texts
 authors:
 - Adam Crymble
 date: 2015-06-10
-reviewers:
-layout:
-- default
-published: false
+layout: default
+published: true
 ---
 
 ##Module Goals
@@ -177,7 +175,7 @@ If the code worked, you should see a big wall of text. Those are the texts we in
 
 ###Step 3: Remove unwanted punctuation
 
-When matching strings, you have to make sure the punctuation doesn't get in the way. Technically, 'London.' is a different string than 'London' or ';London' because of the added punctuation. These three strings which all mean the same thing to us as human readers will be viewed by the computer as distinct entities. To solve that problem, the easiest thing to do is just to remove all of the punctuation. You can do this with [regular expressions](http://en.wikipedia.org/wiki/Regular_expression), and [Doug Knox[(http://programminghistorian.org/lessons/understanding-regular-expressions) and [Laura Turner O'Hara](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions) have provided great introductions in *the Programming Historian* for doing so.
+When matching strings, you have to make sure the punctuation doesn't get in the way. Technically, 'London.' is a different string than 'London' or ';London' because of the added punctuation. These three strings which all mean the same thing to us as human readers will be viewed by the computer as distinct entities. To solve that problem, the easiest thing to do is just to remove all of the punctuation. You can do this with [regular expressions](http://en.wikipedia.org/wiki/Regular_expression), and [Doug Knox](http://programminghistorian.org/lessons/understanding-regular-expressions) and [Laura Turner O'Hara](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions) have provided great introductions at *Programming Historian* for doing so.
 
 To keep things simple, this program will just replace the most common types of punctuation with nothing instead (effectively deleting punctuation).
 
@@ -339,11 +337,11 @@ One of the easiest ways to find all of the missing entries is to sort your sprea
 
 Before you sort a spreadsheet, it's often a good idea to add an 'original order' column in case you want to sort them back. To do this, add a new column, and in the first 3 rows, type 1, 2, and 3 respectively. Then highlight the three cells and put your cursor over the bottom right corner. If you are using Microsoft Excel your cursor will change into a black cross. When you see this, click and hold the mouse button and drag the cursor down until you reach the bottom of the spreadsheet (down to the last entry) before you let go. This should automatically number the rows consecutively so that you can always re-sort your entries back to the original order.
 
-{% include figure.html src="../images/extracting-keywords-5.png" caption=“Adding an original order column and sorting the entries” %}
+{% include figure.html src="../images/extracting-keywords-5.png" caption="Adding an original order column and sorting the entries" %}
 
 Now you can sort the data and read some of the entries for which no match was found. If you find there is a place name in there, add it to your 'gazetteer.txt' file, one entry per line. You don't have to be exhaustive at this stage. You could add a handful more entries and then try the code again to see what impact they had on the result.
 
-{% include figure.html src="../images/extracting-keywords-6.png" caption=“Missed place name words highlighted in yellow” %}
+{% include figure.html src="../images/extracting-keywords-6.png" caption="Missed place name words highlighted in yellow" %}
 
 Before you re-run your Python code, you'll have to update your `texts.txt` file so that the program runs on the texts in the correct order. Since the code will output the matches in the same order that it receives the files in `texts.txt`, it's important not to get this jumbled up if you've been sorting your spreadsheet where you intend to store your outputs. You can either re-sort the spreadsheet back to the original order before you run the program, or you can copy all of the cells in the 'details' column again and paste and save them into the `texts.txt` file.
 

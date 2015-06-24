@@ -32,9 +32,9 @@ In many ways [Voyant](http://voyant-tools.org/) is a gateway into conducting mor
 This tutorial explores several different ways to approach a corpus of texts. It's important to note that corpus linguistic approaches are rarely, if ever, a one-size-fits all affair. So, as you go through each step, it's worth thinking about what you're doing and how it can help you answer a specific question with your data. Although I present this tutorial in a building-block approach of 'do this then that to achieve x', it's not always necessary to follow the exact order outlined here. This lessons provides an outline of some of the methods available, rather than a recipe for success.
 
 ###Tutorial downloads
-1. Software:[AntConc](http://www.laurenceanthony.net/software/antconc/).†
-Unzip the download if necessary, and launch the application. Screen shots below may vary slightly from the version you have (and by operationg system, of course), but the procedures are more or less the same across platforms and recent versions of AntConc. 
-† (This tutorial is written with a (much older) version of AntConc in mind, as I find it easier to use in an introductory context. You are welcome to use the most recent version, but if you wish to follow along with the screenshots provided, you can download the version used here, [version 3.2.4](http://www.laurenceanthony.net/software/antconc/releases/AntConc324/)).
+1. Software:[AntConc](http://www.laurenceanthony.net/software/antconc/).    
+Unzip the download if necessary, and launch the application. Screen shots below may vary slightly from the version you have (and by operationg system, of course), but the procedures are more or less the same across platforms and recent versions of AntConc. This tutorial is written with a (much older) version of AntConc in mind, as I find it easier to use in an introductory context. You are welcome to use the most recent version, but if you wish to follow along with the screenshots provided, you can download the version used here, [version 3.2.4](http://www.laurenceanthony.net/software/antconc/releases/AntConc324/).
+
 2. Sample Corpus: Download the [zip file of movie reviews](https://db.tt/2PsC23px).
 
 ### A broad outline of this tutorial:
@@ -90,7 +90,7 @@ As an introduction, this tutortial barely scratches the surface of what you can 
 
 
 ### Loading Corpora
-Like opening a file elsewhere, we're going to start with File&nbsp; &gt; Open, but instead of opening just ONE file we want to open the directory of all our files.  AntConc allows you to open entire directories, so if you're comfortable with this concept, you can just open the folder 'all reviews' and jump to Basic Analysis, below
+Like opening a file elsewhere, we're going to start with File&nbsp; &gt; Open, but instead of opening just ONE file we want to open the directory of all our files.  AntConc allows you to open entire directories, so if you're comfortable with this concept, you can just open the folder 'all reviews' and jump to Basic Analysis, below    
 ![open file 2][26]
 
 Remember we've put our files on the desktop, so navigate there in the dropdown menu.  
@@ -189,7 +189,7 @@ The unsorted results will seem to start with function words (words that build ph
 
 Some people might want to remove these small words by using a stopword list; this is a common step in topic modelling.  Personally I don't encourage this practice because addressing highly-frequent words is where computers shine! As readers we tend not to notice them very much. Computers, especially software like Antconc, can show us where these words do and do not appear and that can be quite interesting, especially in very large collections of text - as explored earlier in the tutorial, with *the*, *a*, *she* and *he*.
 
-Additionally you may have a single letter 's' appear, quite high as well - that represents the possessive *'s* (the apostrophe won't be counted), but AntConc considers that s indicative of another word. Another example of this is '*nt* appearing with *do*, as they contract as *don't*. Because these so commonly appear together, this makes them highly likely collocates. 
+Additionally you may have a single letter 's' appear, quite high as well - that represents the possessive *'s* (the apostrophe won't be counted), but AntConc considers that s indicative of another word. Another example of this is *'t* appearing with *do*, as they contract as *don't*. Because these so commonly appear together, this makes them highly likely collocates. 
 
 
 **Task:** 

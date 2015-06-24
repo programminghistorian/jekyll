@@ -38,18 +38,9 @@ If you'd like to suggest idea to make _Programming Historian_ a more useful reso
 Please read more about our [editorial policies][editorial-policies] our [submission proceess][submissions].
 
 
-## I'm too busy. Why Bother?
+---
 
-- **Learn:** Reviewing and especailly writing tutorials are extremely effecient ways to learn about and develop practical proficiency in new digital tools, techniques, and programmatic thinking.
-
-- **Network:** Get to know people working on really cool stuff and wanting to share and teach others about it. Many within the _Programming Historian_ community have collaborated on research projects completely independently of the site.
-
-- **Engage:** We prominently feature the names of authors and reviewers on all of our lesson pages, as well as the contributors page; new lessons tend to be frequently tweeted and retweeted. Because we average more than 100,000 unique visitors per year, *The Programming Historian* remains a vibrant and visible site for community collaboration and education.
-
-- **Karma:** Contribute to a good cause and community goodwill.
-
-
-No matter how you'd like to be involved, you can always email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails within three working days.
+No matter how you'd like to be involved, you can always email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
 
 
 Thanks for making _Programming Historian_ such a great resource!
