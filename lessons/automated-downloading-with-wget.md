@@ -474,7 +474,7 @@ files, backups, etc.
 I've only given a snapshot of some of wget's functionalities. For more,
 please visit the [wget manual][GNU wget manual].
 
-  [Command Line Bootcamp]: http://praxis.scholarslab.org/tutorials/bash/
+  [Command Line Bootcamp]: http://praxis.scholarslab.org/scratchpad/bash/
   [download XCode via this link]: https://itunes.apple.com/en/app/xcode/id497799835?mt=12
   [Apple Developer website]: https://developer.apple.com/xcode/
   [View Downloads]: https://developer.apple.com/downloads/
