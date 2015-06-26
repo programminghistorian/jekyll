@@ -6,6 +6,7 @@ date: 2015-06-19
 reviewers:
 - Nabeel Siddiqui
 - Rob Sieczkiewicz
+- Fred Gibbs
 layout: default
 ---
 
@@ -260,7 +261,7 @@ In summary: it's worth thinking about:
 -----
 
 ###Further resources for this tutorial
-[A short bibliography on corpus linguistics][43].
+[A short bibliography on corpus linguistics][43].    
 [A more step-by-step version of this tutorial, assuming no  computer knowledge](http://hfroehli.ch/workshops/getting-started-with-antconc/)
 
 
