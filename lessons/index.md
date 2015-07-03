@@ -125,7 +125,7 @@ Computational tools allow you to make sense of a lot of documents at once. The N
 <ul class="lesson-images">
   <li>
     <a href="../lessons/corpus-analysis-with-antconc">
-      <img src="../gallery/cleaning-ocrd-text-with-regular-expressions.png">
+      <img src="../gallery/corpus-analysis-with-antconc.png">
       <h3>Corpus Analysis with Antconc</h3>
       <p>Healther Froehlich</p>
     </a>
