@@ -154,9 +154,7 @@ dashboard, click the **Back** button or enter
 
 ### Switch themes
 
-![Switch themes](../images/omeka_new_theme.png)
-
-Figure 5: Switching Omeka themes
+{% include figure.html src="../images/omeka_new_theme.png" caption="Switching Omeka themes" %}
 
 Omeka allows you to change the look of your public-facing site by
 switching themes. To do this, click on **Settings** (at the top right of
