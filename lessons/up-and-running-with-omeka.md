@@ -154,7 +154,7 @@ dashboard, click the **Back** button or enter
 
 ### Switch themes
 
-![Switch themes](../images/omeka-install-new-db.png)
+![Switch themes](../images/omeka_new_theme.png)
 
 Figure 5: Switching Omeka themes
 
