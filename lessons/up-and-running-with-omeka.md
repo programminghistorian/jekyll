@@ -179,7 +179,7 @@ the other options.
 
 ### Install plugins
 
-![media\_1363309931413.png][]
+![Install plugins](../images/omeka_new_theme.png)
 
 Figure 7: Installing Omeka plugins
 
