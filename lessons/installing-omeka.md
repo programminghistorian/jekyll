@@ -71,7 +71,7 @@ mysql -u root -p
 
 It should ask you for the password you created in step 2. You should now see a `mysql>` prompt. Now, let's enter a command to create the database. I'm going to call my database `jonreeve_omeka`, but you can call yours whatever you like. 
 
-```SQL
+```sql
 CREATE DATABASE `jonreeve_omeka` CHARACTER SET utf8 COLLATE utf8_general_ci;
 ```
 
@@ -79,7 +79,7 @@ Here, `CHARACTER SET utf8 COLLATE utf8_general_ci` ensures that you can use the 
 
 Next, let's create a database user account, so that Omeka can talk to the database: 
 
-```SQL
+```sql
 CREATE USER 'jonreeve_omeka'@'localhost' IDENTIFIED by '%8)&2P^TFR2C'; 
 ```
 
@@ -87,7 +87,7 @@ I've given my user the same name as my database for convenience, and I've chosen
 
 Now we can allow this new user to access our newly-created database by typing these commands: 
 
-```SQL
+```sql
 GRANT ALL PRIVILEGES ON jonreeve_omeka.* TO 'jonreeve_omeka'@'localhost';
 FLUSH PRIVILEGES; 
 ```
