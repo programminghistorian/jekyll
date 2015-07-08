@@ -3,9 +3,8 @@
   twitter: williamjturkel
   github: williamjturkel
   bio: |
-    William J. Turkel is an Associate Professor of History at the
-    University of Western Ontario and director of Digital Infrastructure
-    for the Network in Canadian History & Environment (NiCHE).
+    William J. Turkel is Professor of History at the
+    University of Western Ontario.
   
 - name: Adam Crymble
   github: acrymble
@@ -220,3 +219,13 @@
 - name: Doug Knox
   bio: |
         Doug Knox is the Assistant Director of the Humanities Digital Workshop at Washington University in St. Louis.
+
+- name: Heather Froehlich
+  url: "http://hfroehli.ch"
+  twitter: heatherfro
+  bio: |
+        Heather Froehlich is a PhD student at the University of Strathclyde (Glasgow, UK), where she studies gender in Early Modern London plays using computers. Her thesis draws heavily from sociohistoric linguistics and corpus stylistics, though she sustains an interest in digital methods for literary and linguistic inquiry.
+
+- name: Laura Turner O'Hara
+  bio: |
+        Laura Turner O'Hara works in the Office of the Historian at the U.S. House of Representatives.

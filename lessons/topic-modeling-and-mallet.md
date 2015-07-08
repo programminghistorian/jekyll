@@ -17,7 +17,7 @@ Editor's Note
 
 This lesson requires you to use the command line. If you have no
 previous experience using the command line you may find it helpful to
-work through the Scholars' Lab [Command Line Bootcamp][] tutorial.
+work through the Programming Historian [Bash Command Line][] lesson.
 
 Lesson Goals
 ------------
@@ -577,7 +577,7 @@ report.
     'Methods' section is especially important, in that it discusses
     preparing text for this sort of analysis.
 
-  [Command Line Bootcamp]: http://praxis.scholarslab.org/tutorials/bash/
+  [Bash Command Line]: http://programminghistorian.org/lessons/intro-to-bash
   [discussion list]: http://mallet.cs.umass.edu/mailinglist.php
   [Distant Reading]: http://www.cs.umbc.edu/~hillol/NGDM07/abstracts/talks/MKirschenbaum.pdf
   [Reading Machines]: http://www.worldcat.org/title/reading-machines-toward-an-algorithmic-criticism/oclc/708761605&referer=brief_results

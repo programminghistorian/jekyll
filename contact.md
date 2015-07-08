@@ -9,4 +9,4 @@ layout: blank
 
 Whether you have found a mistake in a lesson, have new ideas for lessons we should add, want to contribute a lessons of your own, or have constructive criticism to improve the site, we want to know about it. 
 
-Email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with any comments, questions, complaints, or suggestions.  We endeavour to respond to all emails within three working days.
+Email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with any comments, questions, complaints, or suggestions.  We endeavour to respond to all emails promptly.
