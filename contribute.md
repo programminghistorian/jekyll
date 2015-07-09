@@ -35,7 +35,7 @@ We don't simply accept or reject articles like traditional journals. Our editors
 
 If you'd like to suggest idea to make _Programming Historian_ a more useful resource for you, or propose a lesson (for you or for someone else to write), email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with your ideas! 
 
-Please read more about our [editorial policies][editorial-policies] our [submission proceess][submissions].
+Please read more about our [submission proceess][submissions].
 
 
 ---
@@ -45,6 +45,5 @@ No matter how you'd like to be involved, you can always email <a href="mailto:fw
 
 Thanks for making _Programming Historian_ such a great resource!
  
- [editorial-policies]: http://programminghistorian.org/editorial-policies
  [submissions]: new-lesson-workflow
  [reviewers]: http://programminghistorian.org/reviewer-guidelines
