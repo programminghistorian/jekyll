@@ -71,7 +71,7 @@ To suggest or make minor changes to a lesson you can do so by following **ONE** 
 - Follow the instructions for [Reporting Issues](report-issue); *OR*
 - Comment directly on a line that needs changing.
 
-To use this last option, the commenter should first navigate to the  [lessons directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons/) and click on the relevant lesson. 
+To use this last option, the commenter should first navigate to the  [lessons directory](lessons) and click on the relevant lesson. 
 
 Next, click on the history button:
 
