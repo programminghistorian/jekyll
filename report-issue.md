@@ -24,7 +24,7 @@ For more information on pull requests, see the GitHub Guide on [Forking Projects
 
 ## Send Us an Email
 
-If you are unable to create an issue or make a pull request, you can also contact us by email. Just head to the [Contribute page](http://programminghistorian.github.io/jekyll/contribute) to find out how to contact an editor.
+If you are unable to create an issue or make a pull request, you can also contact <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> at the University of New Mexico.
 
 ## Further Resources for Git and GitHub
 
