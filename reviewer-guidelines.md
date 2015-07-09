@@ -62,3 +62,29 @@ While we like each of our lessons to take the unique voice of its author, we als
 
 ## How to submit your review
 We manage all our peer review comments through the issue tracker on Github, so all reviewer feedback will take the form of a comment on a Github "issue". It sounds more complicated than it really is. Please follow the directions for [reviewing lessons with GitHub](https://github.com/programminghistorian/jekyll/wiki/Reviewing-Lessons-with-GitHub).
+
+_Programming Historian_ uses GitHub's issue tracking functionality to keep track of reviewing and editing of lessons.
+
+If you are peer reviewing one of our lessons, the editor who contacted you about the review will have created a GitHub "Issue" that will help manage the review process. Once you have written your review, you should click on the Issue icon on the right of the _Programming Historian_ repository page (the circle with the exclamation mark), find the ticket that will be labeled as "Review of <Lesson Title>", click on the ticket name, and add your review as a comment at the bottom of the page. This way, your comment will be logged as a part of the lesson itself.
+
+Authors or others who want to suggest/make minor changes to a lesson should do so **ONE** of the following ways, all of which assume they have created a GitHub account and are logged in:
+
+- Submit pull requests for the lesson (if they are comfortable using GitHub); *OR*
+- Follow the instructions for [[Reporting Issues]]; *OR*
+- Comment directly on a line that needs changing.
+
+To use this last option, the commenter should first navigate to the  [lessons directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons/) and click on the relevant lesson. 
+
+Next, click on the history button:
+
+![](https://cloud.githubusercontent.com/assets/1126864/4781623/36c1e29e-5cb2-11e4-9ed8-df952fbd4a0b.png)
+
+Now click on the most recent commit for the lesson:
+
+![](https://cloud.githubusercontent.com/assets/1126864/4781629/901b4330-5cb2-11e4-9bc9-d211daa5e987.png)
+
+Next, to comment on a line, hover over a line number, and a blue plus-sign will appear; clicking on it will open a comment box for that particular line. The line that needs fixing may be hidden; if so, click on the expand icon to show hidden lines.
+
+![](https://cloud.githubusercontent.com/assets/1126864/4781633/27b780b4-5cb3-11e4-81aa-0ed217b94a2f.png)
+
+Editors will be notified of these comments and can then make suggested changes.
