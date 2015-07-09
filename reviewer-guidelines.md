@@ -61,13 +61,11 @@ While we like each of our lessons to take the unique voice of its author, we als
 
 
 ## How to submit your review
-We manage all our peer review comments through the issue tracker on Github, so all reviewer feedback will take the form of a comment on a Github "issue". It sounds more complicated than it really is. Please follow the directions for [reviewing lessons with GitHub](https://github.com/programminghistorian/jekyll/wiki/Reviewing-Lessons-with-GitHub).
+We manage all our peer review comments through the issue tracker on Github, so all reviewer feedback will take the form of a comment on a Github "issue" (sometimes called a "ticket"). This is exactly like posting on a message board or social media website. You will need to sign up for a free GithHub account to post your review. 
 
-_Programming Historian_ uses GitHub's issue tracking functionality to keep track of reviewing and editing of lessons.
+The editor who contacted you about the review has created a GitHub "Issue" for you and should have sent you the URL where you can find it. You can also find the issue on the [_Programming Historian's_ GitHub page](https://github.com/programminghistorian/jekyll/issues). The issue will be named "Review of <Lesson Title>". If you cannot find it, please contact the editor. Click on the ticket name, and add your review as a comment at the bottom of the page.
 
-If you are peer reviewing one of our lessons, the editor who contacted you about the review will have created a GitHub "Issue" that will help manage the review process. Once you have written your review, you should click on the Issue icon on the right of the _Programming Historian_ repository page (the circle with the exclamation mark), find the ticket that will be labeled as "Review of <Lesson Title>", click on the ticket name, and add your review as a comment at the bottom of the page. This way, your comment will be logged as a part of the lesson itself.
-
-Authors or others who want to suggest/make minor changes to a lesson should do so **ONE** of the following ways, all of which assume they have created a GitHub account and are logged in:
+To suggest or make minor changes to a lesson you can do so by following **ONE** of the following options. All of these options assume you have created a GitHub account and are logged in:
 
 - Submit pull requests for the lesson (if they are comfortable using GitHub); *OR*
 - Follow the instructions for [[Reporting Issues]]; *OR*
