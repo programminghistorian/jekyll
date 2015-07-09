@@ -68,7 +68,7 @@ The editor who contacted you about the review has created a GitHub "Issue" for y
 To suggest or make minor changes to a lesson you can do so by following **ONE** of the following options. All of these options assume you have created a GitHub account and are logged in:
 
 - Submit pull requests for the lesson (if they are comfortable using GitHub); *OR*
-- Follow the instructions for [[Reporting Issues]]; *OR*
+- Follow the instructions for [Reporting Issues](report-issue); *OR*
 - Comment directly on a line that needs changing.
 
 To use this last option, the commenter should first navigate to the  [lessons directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons/) and click on the relevant lesson. 
