@@ -4,11 +4,13 @@ date: 07-11-2015
 layout: blank
 ---
 
+##Reporting a Problem with a Lesson
+
 See a problem with a lesson on the Programming Historian? Code that doesn't work or needs a clearer explanation? Typos? Syntax that doesn't look quite right?
 
 There are **three easy ways to give feedback**:
 
-## Open an Issue on GitHub
+## 1) Open an Issue on GitHub
 
 First, [sign up for a free, personal GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account) if you don't already have one. Log in if you already have an account.
 
@@ -22,13 +24,13 @@ If your issue has not been reported, create a new issue with a descriptive title
 
 For more information about issues, read the GitHub Guide on [Mastering Issues](https://guides.github.com/features/issues/).
 
-## Make a Pull Request
+## 2) Fix the Problem and Make a Pull Request
 
 If you believe you know how to fix the problem in the lesson, you may wish to consider forking our repository and making a pull request.
 
 For more information on pull requests, see the GitHub Guide on [Forking Projects](https://guides.github.com/activities/forking/) or Rich Jones's tutorial on [How to GitHub](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
 
-## Send Us an Email
+## 3) Send Us an Email
 
 If you are unable to create an issue or make a pull request, you can also contact <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> at the University of New Mexico.
 
