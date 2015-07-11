@@ -1,3 +1,9 @@
+---
+title: Report an Issue
+date: 07-11-2015
+layout: blank
+---
+
 See a problem with a lesson on the Programming Historian? Code that doesn't work or needs a clearer explanation? Typos? Syntax that doesn't look quite right?
 
 There are **three easy ways to give feedback**:
