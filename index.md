@@ -5,8 +5,7 @@ redirect_from: /about.html
 ---
 
 <figure>
-	<img src="../images/about.png" width="200px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
-	<figcaption>Census Enumerator</figcaption>
+	<img src="../images/about.png" width="250px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
 
 _The Programming Historian_ is an online, open access, peer reviewed suite of tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research. Tutorials provide guidance on a variety of digital methods and approaches including but not limited to programming. Our mission is to fill a unique niche for those interested in the Digital Humanities, by providing a bridge between broad 'getting started' portals and generic 'programming' resources. 
