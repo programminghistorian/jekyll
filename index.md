@@ -5,7 +5,7 @@ redirect_from: /about.html
 ---
 
 <figure>
-	<img src="../images/about.png" height="400" />
+	<img src="../images/about.png" width="200px" />
 	<figcaption>Census Enumerator</figcaption>
 </figure>
 
