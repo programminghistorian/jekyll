@@ -39,6 +39,40 @@ Name your new lesson file following these guidelines:
 - Do not put spaces in the filename; use hyphens instead.
 - The filename extension should be .md (markdown) so that GitHub will generate a preview of the lesson.
 
+## Add the required Metadata Block
+Our system uses special [YAML](https://en.wikipedia.org/wiki/YAML) front-matter blocks to store metadata about each lesson. Use the following example to create a YAML for your lesson. This should appear at the very top of your lesson file. Note: you will not know the names of your reviewers. Leave this blank for now.
+
+```
+---
+title: Data Mining the Internet Archive Collection
+authors:
+- Caleb McDaniel
+date: 2014-03-03
+reviewers:
+- William J. Turkel
+layout: default
+---
+```
+
+Because colons are a special character in YAML, values that contain colons (for example, a title that also has a subtitle) must be handled using YAML's syntax for block literals:
+
+```
+---
+title: |
+    Getting Started with Topic Models: A MALLET Primer
+authors:
+- Ian Milligan
+- Shawn Graham
+- Scott Weingart
+date: 2014-03-03
+reviewers:
+- William J. Turkel
+layout: default
+---
+```
+
+You must use the "list" format shown above for the authors and reviewers fields, even if there is only one author or reviewer.
+
 ## Format your lesson using Markdown
 All new lessons should be submitted as Markdown files. Markdown is a simple mark-up language that is best written in a text editor (do not use MS Word or Open Office). The following resources and cheatsheets will tell you all that you need to know about formatting a lesson in Markdown:
 
@@ -103,7 +137,7 @@ Adding colons to the dashed line separating the header row from the others can a
 
 ### Footnotes
 
-Our platform does not support footnotes, even though many Markdown parsers (like [pandoc](http://johnmacfarlane.net/pandoc/)) do. Please use links instead
+Our platform does not support footnotes, even though many Markdown parsers (like [pandoc](http://johnmacfarlane.net/pandoc/)) do. Please use links instead.
 
 ### Code Blocks
 
@@ -119,41 +153,8 @@ Do not use stylized quotation marks such as those automatically inserted by Micr
 
 ### Emphasis Tagging
 
-Try to use backticks for reserved code words (as in `for` loop) and file names (e.g., `obo.py`). All other emphasis is done with paired asterisks (as in *client*, *protocol*, *The Old Bailey Online*).
+Try to use backticks (`) for reserved code words (as in `for` loop) and file names (e.g., `obo.py`). All other emphasis is done with paired asterisks (*) (as in *client*, *protocol*, *The Old Bailey Online*).
 
-## Add the required Metadata Block
-Our system uses special YAML front-matter blocks to store metadata about a page. Lessons at _Programming Historian_ will need to include, at a minimum, a YAML block at the top of the lesson with these fields. To take a real lesson as an example:
-
-```
----
-title: Data Mining the Internet Archive Collection
-authors:
-- Caleb McDaniel
-date: 2014-03-03
-reviewers:
-- William J. Turkel
-layout: default
----
-```
-
-Note that because colons are a special character in YAML, values that contain colons (for example, a title that also has a subtitle) must be handled using YAML's syntax for block literals:
-
-```
----
-title: |
-    Getting Started with Topic Models: A MALLET Primer
-authors:
-- Ian Milligan
-- Shawn Graham
-- Scott Weingart
-date: 2014-03-03
-reviewers:
-- William J. Turkel
-layout: default
----
-```
-
-You must use the "list" format shown above for the authors and reviewers fields, even if there is only one author or reviewer.
 
 
 ## Lessons must be submitted via GitHub pull requests
