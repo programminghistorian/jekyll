@@ -3,29 +3,27 @@ title: Contribute to Programming Historian
 layout: blank
 ---
 
-# All Suggestions Welcome
-Want to update or improve a lesson? Found a mistake? Have an idea for a new lesson? Want to contribute lessons of your own? Suggestions for how to make _Programming Historian_ more useful? We want to hear from you!
+# Contribute to the Programming Historian
+
+The _Programming Historian_ runs on the energy of volunteers, and we welcome contributions from the community. 
+
+Most people become involved in one of the following activities:
+
+- <a href="#readers">Readers: Report a problem with a lesson</a>
+- <a href="#reviewers">Reviewers: Join our team of reviewers</a>
+- <a href="#authors">Authors: Write a lesson</a>
 
 -----
 
-***There are 3 main ways to get involved with the _Programming Historian_***
 
-- Report a problem or make suggestions for improvements
-- Join our team of reviewers
-- Write a lesson 
-
-
------
-
-
-## Readers: report problems or suggest improvements
+## <a name="readers"></a>Readers: Report a problem with a lesson
 <figure>
 	<img src="../images/reader-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
 As URLs change and as new versions of software and platforms are released, lessons develop glitches over time. Please help us keep _Programming Historian_ up to date by letting us know about these. If you notice a problem with one of our lessons or think something has broken over time, please take the time to tell us so that we can fix it. You can report problems or make suggestions by following our instructions on [how to create an issue in our GitHub repository](report-issue).
 
 
-## Join our team of reviewers
+## <a name="reviewers"></a>Reviewers: Join our team of reviewers
 <figure>
 	<img src="../images/reviewer-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
@@ -34,7 +32,7 @@ Academic peer review is essential for producing trusted high-quality resources, 
 We hope you'll consider joining our team of reviewers in a way that fits your own schedule. Please email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with a bit of information about yourself, especially the specific skills, tools, topics, and technologies that you'd like to be involved with so that we can send you the most appropriate lessons to review. 
 
 
-## Contribute a Lesson
+## <a name="authors"></a>Authors: Write a lesson
 <figure>
 	<img src="../images/author-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
