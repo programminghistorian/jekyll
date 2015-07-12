@@ -1,5 +1,5 @@
 ---
-title: Instructions for Authors: Submitting a New Lesson
+title: Instructions for Authors
 layout: directory
 ---
 
