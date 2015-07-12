@@ -30,11 +30,13 @@ Name your new lesson file following these guidelines:
 - The filename extension should be .md (markdown) so that GitHub will generate a preview of the lesson.
 
 ## Format your lesson using Markdown
-All new lessons should be submitted as Markdown files (ideally created as such, but at least converted to Markdown if drafted in another language or file format like MS Word. 
+All new lessons should be submitted as Markdown files. Markdown is a simple mark-up language that is best written in a text editor (do not use MS Word or Open Office). The following resources and cheatsheets will tell you all that you need to know about formatting a lesson in Markdown:
 
-Most of the syntax described in [Markdown Basics](https://help.github.com/articles/markdown-basics) and [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) should be rendered on the Programming Historian static site, including Markdown PHP style tables. Github provides a [good beginner's guide to Markdown](https://guides.github.com/features/mastering-markdown/). For an introduction to Jekyll, see the [Jekyll Bootstrap](http://jekyllbootstrap.com/lessons/jekyll-introduction.html) site.
+- Most of the syntax described in [Markdown Basics](https://help.github.com/articles/markdown-basics)
+- See also [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) 
+- Github provides a [good beginner's guide to Markdown](https://guides.github.com/features/mastering-markdown/).
 
-The following kinds of syntax will need special handling, though.
+In particular, Figures, Tables, Code Blocks, Quotation Marks, and Emphasis require special handling. Please follow the instructions below:
 
 ### Figures
 
