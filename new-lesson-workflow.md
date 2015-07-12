@@ -86,9 +86,11 @@ In particular, Figures, Tables, Code Blocks, Quotation Marks, and Emphasis requi
 
 The `figure` and `figcaption` [elements provided by HTML5](http://html5doctor.com/the-figure-figcaption-elements/) provide useful ways to link text with an image. To implement figures in your lesson, use the following line of code in the body of your lesson:
 
+{% raw %}
 ``` text
 {% include figure.html src="../images/filename" caption="Caption to image" %}
 ```
+{% endraw %}
 
 When the Markdown is rendered by our system, this line will produce HTML that looks like this:
 
