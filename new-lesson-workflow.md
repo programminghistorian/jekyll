@@ -43,7 +43,7 @@ In particular, Figures, Tables, Code Blocks, Quotation Marks, and Emphasis requi
 The `figure` and `figcaption` [elements provided by HTML5](http://html5doctor.com/the-figure-figcaption-elements/) provide useful ways to link text with an image, and were used extensively on the old Programming Historian site. To implement figures on the static site, use the following Liquid template line where you want the figure to go:
 
 ``` 
-{% include figure.html src="../images/filename" caption="Caption to image" %}
+<!--{% include figure.html src="../images/filename" caption="Caption to image" %}-->
 ```
 
 When the Markdown is rendered by our system, this line will produce HTML that looks like this:
