@@ -1,31 +1,107 @@
 ---
-title: Submitting a New Lesson
+title: Instructions for Authors: Submitting a New Lesson
 layout: directory
 ---
 
-This page documents the workflow for adding a new lesson to _Programming Historian_, from the draft phase to the publication phase.
+This page contains instructions for authors for submitting a new lesson to the _Programming Historian_.
 
 
-## Have an idea? Get in touch!
-If you have an idea for a new lesson, or have already written a tutorial for some reason that you think could be adapted for _Programming Historian_, contact [Fred Gibbs][editor] about your idea. We'll post the tentative lesson title, a brief description, and you and your idea will be added to the public [Lesson Pipeline wiki page][pipeline].
+# Have an idea? What to do before you write.
+<figure>
+	<img src="../images/author-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
+</figure>
+If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the _Programming Historian_, contact [Fred Gibbs][editor] to discuss your idea. This initial contact will help you and us decide if what you're working on is appropriate for our project. This can save both of us a lot of time and direct you in more fruitful paths before you've put in a lot of effort. Once our editor has given you the go-ahead to pursue your idea, he or she will post the tentative lesson title, and a brief description to the public [Lesson Pipeline wiki page][pipeline]. This is a way of planting your flag in the sand, and helps us avoid multiple people concurrently writing the same or very similar lessons.
 
-**There is no single kind or standard lesson at _Programming Historian_.** Topics vary widely, as does the expected technical proficiency. We encourage this variety, and welcome all kinds of lesson proposals. Lessons may be rather straightforward and discrete tasks; they may be quite complex and technically sophisticated. Longer and more involved lessons can be divided into smaller sub-lessons that can be worked through in sequence.
+There is no standard lesson at the _Programming Historian_. Topics vary widely, as does the expected technical proficiency. We encourage this variety, and welcome all kinds of lesson proposals. Lessons may be rather straightforward and discrete tasks; they may be quite complex and technically sophisticated. Longer and more involved lessons can be divided into smaller sub-lessons that can be worked through in sequence.
 
 We do insist that all lessons have a clearly defined goal and are written with a particular audience in mind. Lessons should explain at the outset exactly what skills or results they will impart; lessons should conclude only after they have provided a tangible skill to the reader.
 
 You can get a better sense of what we're looking for by reading our [reviewer guidlines][reviewer-guidelines].
 
+# Formatting your Lesson for Publication
+
+In order to get lessons published as quickly and professionally as possible, we ask that authors adhere to the following styleguide. Please note that we do not have a budget to hire a copyeditor as this is a volunteer-driven project:
 
 ## Name the Lesson File
-Name your new new lesson file following these guidelines:
+Name your new lesson file following these guidelines:
 
-- Make the filename short, but descriptive; this filename will eventually become the slug for the lesson's URL when published. Think about how potential readers might search for something like your lesson.
+- Make the filename short, but descriptive; this filename will eventually become the [slug](https://en.wikipedia.org/wiki/Semantic_URL) for the lesson's URL when published. Think about how potential readers might search for something like your lesson. A keyword-rich slug is a good way to get search-engine traffic.
 - Do not put spaces in the filename; use hyphens instead.
-- The filename extension should be .md so that GitHub will generate a preview of the lesson.
-Lessons must be submitted in Markdown
+- The filename extension should be .md (markdown) so that GitHub will generate a preview of the lesson.
 
-## Use Markdown
-All new lessons should be submitted as Markdown files (ideally created as such, but at least converted to Markdown if drafted in another language (or file format like Word), as described in the [Markdown Style Guide][markdown guide] for our site.
+## Format your lesson using Markdown
+All new lessons should be submitted as Markdown files (ideally created as such, but at least converted to Markdown if drafted in another language or file format like MS Word. 
+
+Most of the syntax described in [Markdown Basics](https://help.github.com/articles/markdown-basics) and [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) should be rendered on the Programming Historian static site, including Markdown PHP style tables. Github provides a [good beginner's guide to Markdown](https://guides.github.com/features/mastering-markdown/). For an introduction to Jekyll, see the [Jekyll Bootstrap](http://jekyllbootstrap.com/lessons/jekyll-introduction.html) site.
+
+The following kinds of syntax will need special handling, though.
+
+### Figures
+
+The `figure` and `figcaption` [elements provided by HTML5](http://html5doctor.com/the-figure-figcaption-elements/) provide useful ways to link text with an image, and were used extensively on the old Programming Historian site. To implement figures on the static site, use the following Liquid template line where you want the figure to go:
+
+    {% include figure.html src="../images/filename" caption="Caption to image" %}
+
+When the Markdown is rendered by Jekyll, this line will produce HTML that looks like this:
+
+``` html
+<figure>
+    <a href="../images/filename">
+       <img src="../images/filename" alt="Caption to image">
+    </a>
+<figcaption>
+    Caption to image
+</figcaption>
+</figure>
+```
+
+As currently configured, the [figure include](../_includes/figure.html) will use the `src` parameter both for the image tag and as the `href` attribute for the link, and the `caption` parameter both for the image tag's `alt` attribute and the `figcaption`. (Hat tip to [Stackoverflow](http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll) for this nifty trick.)
+
+Note that when figure tags are added this way, the image will not show up in the Github repo preview, but will be rendered on the live site by Jekyll. See an [example of the preview with figures here](https://github.com/programminghistorian/jekyll/blob/3c3f97d3f05dd26149a398b9daa19793fe9f7820/lessons/working-with-web-pages.md), and the [live version here](http://programminghistorian.github.io/jekyll/lessons/working-with-web-pages).
+
+The `../images` part of the `src` path presumes that the file you are editing is within a directory that resides at the root of the repository (that is, at the same directory level as the `images` folder). Usually, these figures will appear in `lessons`, which are at the same directory level as `images`, so the `../` part of the path will enable Jekyll to find the image.
+
+### Tables
+
+Rarely, you may need to create HTML tables. To do so, use the [extended table syntax](https://michelf.ca/projects/php-markdown/extra/#table) provided by Markdown PHP Extra, which is enabled by a special option on our Jekyll blog.
+
+The key principle to note is that columns are separated by pipe characters (`|`), and the header row is set off by dashes from the other rows.
+
+Here's an example:
+
+```
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+```
+
+Note that the columns do not have to line up for the table to render correctly. For example, this also would work:
+
+```
+| First | Second |
+| ------------- | ------------- |
+| Content | Content  |
+| Content Cell  | Content Cell  | 
+```
+
+Adding colons to the dashed line separating the header row from the others can also control column alignment, as explained in the [full instructions for this feature](https://michelf.ca/projects/php-markdown/extra/#table).
+
+### Footnotes
+
+Our platform does not support footnotes, even though many Markdown parsers (like [pandoc](http://johnmacfarlane.net/pandoc/)) do. To make use of footnote markup, one would need to convert the Markdown to HTML on a local machine using the parser, being careful to preserve other Programming Historian specific syntax, and then push that HTML directly into the `_site` folder.
+
+### Code Blocks
+
+In some cases, code block formatting has been used to indicate the output of a program, rather than source code per se.  Use three backticks to represent output and three backticks followed by the language name (e.g., python) to represent code.
+
+### Quotation Marks
+
+Whenever possible use straight single and double quotation marks for quotes and apostrophes. The Stylesheet that we are using will convert these into so-called smart quotes.
+
+### Emphasis Tagging
+
+Try to use backticks for reserved code words (as in `for` loop) and file names (e.g., `obo.py`). All other emphasis is done with paired asterisks (as in *client*, *protocol*, *The Old Bailey Online*).
 
 
 ## Referencing Images in Lessons
