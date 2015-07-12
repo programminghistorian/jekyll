@@ -10,7 +10,7 @@ layout: blank
 </figure>
 See a problem with a lesson on the Programming Historian? Code that doesn't work or needs a clearer explanation? Typos? Syntax that doesn't look quite right? Thank you for taking the time to report a problem. Your assistance is crucial for helping us maintain the highest standards for our lessons.
 
-There are three easy ways that you can provide your feedback, in declining order of preference for us:
+There are three easy ways that you can provide your feedback:
 
 <div style="clear:both;"></div>
 
