@@ -5,10 +5,14 @@ layout: blank
 ---
 
 ##Reporting a Problem with a Lesson
+<figure>
+	<img src="../images/reader-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
+</figure>
+See a problem with a lesson on the Programming Historian? Code that doesn't work or needs a clearer explanation? Typos? Syntax that doesn't look quite right? Thank you for taking the time to report a problem. Your assistance is crucial for helping us maintain the highest standards for our lessons.
 
-See a problem with a lesson on the Programming Historian? Code that doesn't work or needs a clearer explanation? Typos? Syntax that doesn't look quite right?
+There are three easy ways that you can provide your feedback, in declining order of preference for us:
 
-There are **three easy ways to give feedback**:
+<div style="clear:both;"></div>
 
 ## 1) Open an Issue on GitHub
 
