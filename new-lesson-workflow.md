@@ -16,7 +16,7 @@ There is no standard lesson at the _Programming Historian_. Topics vary widely, 
 
 We do insist that all lessons have a clearly defined goal and are written with a particular audience in mind. Lessons should explain at the outset exactly what skills or results they will impart; lessons should conclude only after they have provided a tangible skill to the reader.
 
-You can get a better sense of what we're looking for by reading our [reviewer guidlines][reviewer-guidelines].
+You can get a better sense of what we're looking for by reading our [reviewer guidlines][reviewer-guidelines] or looking at our [published lessons](lessons).
 
 # Formatting your Lesson for Publication
 
