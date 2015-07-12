@@ -18,11 +18,11 @@ Want to update or improve a lesson? Found a mistake? Have an idea for a new less
 -----
 
 
-## Report a problem or suggest improvments
+## Readers: report problems or suggest improvements
 <figure>
 	<img src="../images/reader-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
-As URLs change and as new versions of software and platforms are released, lessons develop glitches over time. Please help us keep _Programming Historian_ up to date by letting us know about these. You can report problems or make suggestions by following our instructions on [how to create an issue in our GitHub repository](https://github.com/programminghistorian/jekyll/wiki/Reporting-Issues).
+As URLs change and as new versions of software and platforms are released, lessons develop glitches over time. Please help us keep _Programming Historian_ up to date by letting us know about these. If you notice a problem with one of our lessons or think something has broken over time, please take the time to tell us so that we can fix it. You can report problems or make suggestions by following our instructions on [how to create an issue in our GitHub repository](report-issue).
 
 
 ## Join our team of reviewers
