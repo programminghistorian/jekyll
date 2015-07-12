@@ -8,9 +8,9 @@ layout: blank
 
 ## Our Review Philosophy
 <figure>
-	<img src="../images/reviewer-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
+	<img src="../images/reviewer-sm.png" width="150px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
-Reviewing for the _Programming Historian_ is a great way to learn new technical skills (at any level) and engage with the digital humanities community at the same time. **We go out of our way to make sure our reviewers get ample credit and recognition for their work.** Because reviewers directly contribute to significantly improving lessons, you can take pride in how your work helps our many thousands of users.
+Reviewing for the _Programming Historian_ is a great way to learn new technical skills (at any level) and engage with the digital humanities community at the same time. We go out of our way to make sure our reviewers get ample credit and recognition for their work. Because reviewers directly contribute to significantly improving lessons, you can take pride in how your work helps thousands of users.
 
 ## Collaborative, Not Judgmental
 Our peer review process is a bit different from what might be considered the "traditional" peer review process. We do not solicit reviews to judge whether a tutorial is "good enough" to be published. Rather, we consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to create useful technical resources for each other. Once a tutorial slips into our editorial workflow, our goal is to do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time.
