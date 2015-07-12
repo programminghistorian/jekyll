@@ -75,8 +75,6 @@ Your images must be stored in a folder called 'images', as described in `Create 
 
 If you use any images in your lesson, please give them consistent, serially numbered filenames that clearly relate to the lesson in which they will appear--ideally using the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, counting-frequencies-1.png, counting-frequencies-2.png, and so on.) Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
 
-When referencing the images in your lesson (ie the Markdown code), use the syntax described in our [Markdown Style Guide][markdown guide].
-
 ### Tables
 
 To create HTML tables, use the [extended table syntax](https://michelf.ca/projects/php-markdown/extra/#table). Do not use tables in an attempt to over-ride formatting on our site. HTML tables should only be used to represent tabular information.
@@ -109,7 +107,7 @@ Our platform does not support footnotes, even though many Markdown parsers (like
 
 ### Code Blocks
 
-In some cases, code block formatting has been used to indicate the output of a program, rather than source code per se.  On a new line, use three backticks (`) to open a code block, followed by the language of your code (eg, python or html). Then paste in your code, and when finished, close the code block with three more backticks. The code will the be offset in the finished version and will look like this:
+If you want to include code in a lesson, or to show the output of a program, use a `code block`. On a new line, use three backticks (`) to open a code block, followed by the language of your code (eg, python or html). Then paste in your code, and when finished, close the code block with three more backticks. The code will the be offset in the finished version and will look like this:
 
 ```python
 print 'hello world'
