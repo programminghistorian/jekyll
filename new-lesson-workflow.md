@@ -22,6 +22,16 @@ You can get a better sense of what we're looking for by reading our [reviewer gu
 
 In order to get lessons published as quickly and professionally as possible, we ask that authors adhere to the following styleguide. Please note that we do not have a budget to hire a copyeditor as this is a volunteer-driven project:
 
+## Create a Working Directory
+
+If your lesson will include any files other than the lesson text itself (images or data, for example), then you will need to set up a working directory that mimics how we store these accompanying files on our own system. Your directory should contain the following file structure
+
+- images
+- lessons
+- assets
+
+Any images should be saved to the _images_ folder. Any data to the _assets_ folder, and your lesson to the _lessons_ folder.
+
 ## Name the Lesson File
 Name your new lesson file following these guidelines:
 
@@ -59,17 +69,19 @@ When the Markdown is rendered by our system, this line will produce HTML that lo
 </figure>
 ```
 
-As currently configured, the [figure include](../_includes/figure.html) will use the `src` parameter both for the image tag and as the `href` attribute for the link, and the `caption` parameter both for the image tag's `alt` attribute and the `figcaption`. (Hat tip to [Stackoverflow](http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll) for this nifty trick.)
+Note that when figure tags are added this way, the image will not show up in the preview on Github, but will be visible on the _Programming Historian_ website. See an [example of the preview with figures here](https://github.com/programminghistorian/jekyll/blob/3c3f97d3f05dd26149a398b9daa19793fe9f7820/lessons/working-with-web-pages.md), and the [live version here](http://programminghistorian.github.io/jekyll/lessons/working-with-web-pages).
 
-Note that when figure tags are added this way, the image will not show up in the Github repo preview, but will be rendered on the live site by Jekyll. See an [example of the preview with figures here](https://github.com/programminghistorian/jekyll/blob/3c3f97d3f05dd26149a398b9daa19793fe9f7820/lessons/working-with-web-pages.md), and the [live version here](http://programminghistorian.github.io/jekyll/lessons/working-with-web-pages).
+Your images must be stored in a folder called 'images', as described in `Create a Working Directory`, listed above.
 
-The `../images` part of the `src` path presumes that the file you are editing is within a directory that resides at the root of the repository (that is, at the same directory level as the `images` folder). Usually, these figures will appear in `lessons`, which are at the same directory level as `images`, so the `../` part of the path will enable Jekyll to find the image.
+If you use any images in your lesson, please give them consistent, serially numbered filenames that clearly relate to the lesson in which they will appear--ideally using the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, counting-frequencies-1.png, counting-frequencies-2.png, and so on.) Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
+
+When referencing the images in your lesson (ie the Markdown code), use the syntax described in our [Markdown Style Guide][markdown guide].
 
 ### Tables
 
-Rarely, you may need to create HTML tables. To do so, use the [extended table syntax](https://michelf.ca/projects/php-markdown/extra/#table) provided by Markdown PHP Extra, which is enabled by a special option on our Jekyll blog.
+To create HTML tables, use the [extended table syntax](https://michelf.ca/projects/php-markdown/extra/#table). Do not use tables in an attempt to over-ride formatting on our site. HTML tables should only be used to represent tabular information.
 
-The key principle to note is that columns are separated by pipe characters (`|`), and the header row is set off by dashes from the other rows.
+The key principle to note when constructing a markdown table is that columns are separated by pipe characters (`|`), and the header row is set off by dashes from the other rows.
 
 Here's an example:
 
@@ -93,28 +105,26 @@ Adding colons to the dashed line separating the header row from the others can a
 
 ### Footnotes
 
-Our platform does not support footnotes, even though many Markdown parsers (like [pandoc](http://johnmacfarlane.net/pandoc/)) do. To make use of footnote markup, one would need to convert the Markdown to HTML on a local machine using the parser, being careful to preserve other Programming Historian specific syntax, and then push that HTML directly into the `_site` folder.
+Our platform does not support footnotes, even though many Markdown parsers (like [pandoc](http://johnmacfarlane.net/pandoc/)) do. Please use links instead
 
 ### Code Blocks
 
-In some cases, code block formatting has been used to indicate the output of a program, rather than source code per se.  Use three backticks to represent output and three backticks followed by the language name (e.g., python) to represent code.
+In some cases, code block formatting has been used to indicate the output of a program, rather than source code per se.  On a new line, use three backticks (`) to open a code block, followed by the language of your code (eg, python or html). Then paste in your code, and when finished, close the code block with three more backticks. The code will the be offset in the finished version and will look like this:
 
-### Quotation Marks
+```python
+print 'hello world'
+```
 
-Whenever possible use straight single and double quotation marks for quotes and apostrophes. The Stylesheet that we are using will convert these into so-called smart quotes.
+### Quotation Marks / Inverted Commas
+
+Do not use stylized quotation marks such as those automatically inserted by Microsoft Word. These cause havoc for readers because quotation marks are used frequently in code, but the stylized curly marks that look nice in essays are considered distinct entities by the computer and will cause code to crash. To avoid this problem we strongly reccommend that you do not use MS Word or Open Office (word processors) when writing a lesson. Use a text editor instead.
 
 ### Emphasis Tagging
 
 Try to use backticks for reserved code words (as in `for` loop) and file names (e.g., `obo.py`). All other emphasis is done with paired asterisks (as in *client*, *protocol*, *The Old Bailey Online*).
 
-
-## Referencing Images in Lessons
-If you use any images in your lesson, please give them consistent, serially numbered filenames that clearly relate to the lesson in which they will appear--ideally using the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, counting-frequencies-1.png, counting-frequencies-2.png, and so on.) Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
-
-When referencing the images in your lesson (ie the Markdown code), use the syntax described in our [Markdown Style Guide][markdown guide].
-
 ## Add the required Metadata Block
-Jekyll (the underlying software that renders Github Pages) uses special YAML front-matter blocks to store metadata about a page. Lessons at _Programming Historian_ will need to include, at a minimum, a YAML block at the top of the lesson with these fields. To take a real lesson as an example:
+Our system uses special YAML front-matter blocks to store metadata about a page. Lessons at _Programming Historian_ will need to include, at a minimum, a YAML block at the top of the lesson with these fields. To take a real lesson as an example:
 
 ```
 ---
