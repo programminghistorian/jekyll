@@ -31,6 +31,7 @@ Academic peer review is essential for producing trusted high-quality resources. 
 
 We hope you'll consider joining our team of reviewers. The time commitment is flexible, and you'll be contributing to helping us maintain high academic standards for this community resource. Please email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> to introduce yourself and let us know about the specific skills, tools, topics, and technologies that you'd like to be involved with so that we can send you the most appropriate lessons to review. 
 
+<div style="clear:both;"></div>
 
 ## <a name="authors"></a>Authors: Write a lesson
 <figure>
