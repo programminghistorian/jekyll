@@ -11,8 +11,7 @@ Lesson Goals
 ------------
 
 This lesson introduces graph databases and how to query them using SPARQL
-(pronounced "sparkle", a recursive acronym for SPARQL Protocol and RDF Query
-Language).
+(pronounced "sparkle", an acronym for SPARQL Protocol and RDF Query Language).
 
 # Graph Databases, RDF, and Linked Open Data
 
@@ -27,7 +26,9 @@ bring to the data, and they can handle exceptional complex relationships between
 objects and the people, places, events, and concepts adjacent to them. Major
 collections including the [British Museum][bm], [Europeana], the [Smithsonian
 American Art Museum][saam], and the [Paul Mellon Center for British
-Art][mellon].
+Art][mellon] have published their collections data as LOD, and they have been joined by the [Getty Vocabulary Program][getty].
+
+[getty]: http://vocab.getty.edu
 
 [bm]: http//collection.britishmuseum.org
 
@@ -35,7 +36,7 @@ Art][mellon].
 
 [saam]: http://americanart.si.edu
 
-[mellon]: britishart.yale.edu/collections/using-collections/technology/linked-open-data
+[mellon]: http://britishart.yale.edu/collections/using-collections/technology/linked-open-data
 
 
 Traditional relational databases store information in a series of tables that
@@ -52,16 +53,9 @@ institutions. This tutorial gives a crash course on SPARQL using a dataset that
 a humanist might actually find in the wilds of the Internet. In this tutorial,
 we will learn how to query the British Museum Linked Open Data collection.
 
-## Terms
-
-- **RDF** - _Resource Description Framework_ - A method for structuring data as a graph or network of connected statements, rather than a series of tables.
-- **LOD** - _Linked Open Data_ - LOD is RDF data published online with dedicated URIs in such a manner than developers can reliably reference it.
-- **SPARQL** - _Protocol and RDF Query Language_ - The language used to query RDF graph databases
-- **URI** - _Uniform Resource Identifier_ - Also known as a URL (uniform resource locator), or a web link.
-
 ## RDF in brief
 
-RDF represents information in a series of three-part "statements" that comprise a subject, predicate, and object, e.g.:
+RDF represents information in a series of three-part "statements" that comprise a subject, predicate, and an object, e.g.:
 
 ```
 <The Nightwatch> <was created by> <Rembrandt van Rijn> .
@@ -69,8 +63,9 @@ RDF represents information in a series of three-part "statements" that comprise 
 
 (Note that just like any good sentence, they each have a period at the end.)
 
-Each of these elements is a node within a vast network; a subject in one
-statement may be an object (or even a predicate) in another statement:
+Each of these elements is a node within a vast network. A subject in one
+statement may be an object (or even a predicate) in another statement. A
+psuedo-RDF database might contain interrelated statements like these:
 
 ```
 ...
@@ -94,9 +89,10 @@ maximum flexibility in deciding how they wish to query it.
 
 SPARQL lets us translate LOD's heavily interlinked, graph data into normalized,
 tabular data with rows and columns you can open in programs like Excel, or
-import into a visualization suite such as plot.ly or Palladio.
+import into a visualization suite such as [plot.ly](http://plot.ly) or [Palladio].
 
-You can think of a SPARQL query as a Mad Lib - a set of sentences with blanks in
+It is useful to think of a SPARQL query as a [Mad
+Lib](https://en.wikipedia.org/wiki/Mad_Libs) - a set of sentences with blanks in
 them. The database will take this query and find every set of matching
 statements that correctly fill in those blanks, returning the matching values to
 us as a table. Let's return to our single pseudo-RDF above about Rembrandt's
@@ -219,7 +215,19 @@ Here we define several variables: `?painting`, `?artist`, `?paitning_name`, and
 `?artist_name`, so that we can see only the human-readable labels to the nodes,
 rather than their URI equivalents.
 
-## A real-world query
+## Terms to review
+
+- **SPARQL** - _Protocol and RDF Query Language_ - The language used to query RDF graph databases
+- **RDF** - _Resource Description Framework_ - A method for structuring data as a graph or network of connected statements, rather than a series of tables.
+- **LOD** - _Linked Open Data_ - LOD is RDF data published online with dedicated URIs in such a manner than developers can reliably reference it.
+- **URI** - _Uniform Resource Identifier_ - Also known as a URL (uniform resource locator), or a web link.
+- **node** - A node in a graph database represents some entity that has relationships to other entities within the database.
+- **prefix** - In order to simplify SPARQL queries, a user may specify prefixes that act as abbreviations for full URIs.
+- **statement** - Sometimes also called a "triple", an RDF statement is a quantum of knowledge comprising a subject, predicate, and object.
+
+# Real-world queries
+
+## All the statements for one object
 
 Let's start our first query using the [British Museum SPARQL endpoint][bms]. A
 SPARQL endpoint is a web address that accepts SPARQL queries and returns
@@ -272,7 +280,7 @@ object type "print":
 
 {% include figure.html src="/images/sparql2.png" caption="The resource page for thes:x8577 ('print') in the British Museum LOD." %}
 
-## A more complex query
+## Complex queries
 
 To find other objects of the same type with the preferred label "print", we can
 call this query:
@@ -296,11 +304,15 @@ essential to structuring our query.
 
 {% include figure.html src="/images/sparql3.png" caption="A one-column table returned by our query for every object with type 'print'" %}
 
-## FILTER queries
+## FILTER
 
-In the previous query, our SPARQL query searched for an exact match for the object type "print". However, often we want to match values within a certain range, such as dates. For this, we'll use the `FILTER` command.
+In the previous query, our SPARQL query searched for an exact match for the
+object type with the text label "print". However, often we want to match values
+within a certain range, such as dates. For this, we'll use the `FILTER` command.
 
-To find URIs for all prints in the BM created between 1580 and 1600, we'll need to tie in the nodes that describe which dates objects were created.
+To find URIs for all the prints in the BM created between 1580 and 1600, we'll
+need to add references to our query that describe where to find the dates that
+objects were created.
 
 ```
 # Return object links and creation date
@@ -318,10 +330,10 @@ WHERE {
   ?date_node ecrm:P4_has_time-span ?timespan .
   ?timespan ecrm:P82a_begin_of_the_begin ?date .
 
-  # Yes, we need to connect quite a few dots to get to the date node! Now that
-  # we have it, we can filter our results. Because we are filtering a date, we
-  # must attach the xsd:date tag to our date strings so that SPARQL knows how to
-  # parse them.
+  # As you can see, we need to connect quite a few dots to get to the date node!
+  # Now that we have it, we can filter our results. Because we are filtering by
+  # date, we must attach the xsd:date tag to our date strings so that SPARQL
+  # knows how to parse and compare them.
 
   FILTER(?date >= "1580-01-01"^^xsd:date && ?date <= "1600-01-01"^^xsd:date)
 }
@@ -389,8 +401,7 @@ jq -r '.head.vars as $fields | ($fields | @csv), (.results.bindings[] | [.[$fiel
 
 ## Export results to Palladio
 
-The popular data exploration platform
-[Palladio](http://palladio.designhumanities.org/) can directly load data from a
+The popular data exploration platform [Palladio] can directly load data from a
 SPARQL endpoint. On the "Create a new project" screen, a link at the bottom to
 "Load data from a SPARQL endpoint (beta)" will provide you a field to enter the
 endpoint address, and a box for the query itself. Depending on the endpoint, you
@@ -399,6 +410,8 @@ to load data from the BM endpoint you must use the address
 `http://collection.britishmuseum.org/sparql.json`. After previewing the data
 returned by the endpoint, click on the "Load data" button at the bottom of the
 screen to begin manipulating it in Palladio.
+
+[Palladio]: http://palladio.designhumanities.org/
 
 {% include figure.html src="/images/sparql7.png" caption="Palladio's SPARQL query interface." %}
 
