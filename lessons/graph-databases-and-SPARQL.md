@@ -407,7 +407,8 @@ SPARQL endpoint. On the "Create a new project" screen, a link at the bottom to
 endpoint address, and a box for the query itself. Depending on the endpoint, you
 may need to specify the file output type in the endpoint address; for example,
 to load data from the BM endpoint you must use the address
-`http://collection.britishmuseum.org/sparql.json`. After previewing the data
+`http://collection.britishmuseum.org/sparql.json`.
+Try pasting in our aggregation query After previewing the data
 returned by the endpoint, click on the "Load data" button at the bottom of the
 screen to begin manipulating it in Palladio.
 
