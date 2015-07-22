@@ -11,7 +11,7 @@ See a problem with a lesson on the Programming Historian? Code that doesn't work
 
 There are three easy ways that you can provide your feedback:
 
-<br/> <br/>
+<br/>
 
 ## Option 1: Open an Issue on GitHub
 
