@@ -118,11 +118,15 @@ fields, even if there is only one author or reviewer.
 Write in Markdown
 -----------------
 
-All new lessons should be formatted as Markdown files. Markdown is a
-simple mark-up language that is best written in a text editor (do not
-use MS Word or Open Office). The following resources and cheatsheets
-will tell you all that you need to know about formatting a lesson in
-Markdown:
+All new lessons should be formatted as Markdown files. Markdown is a simple
+mark-up language that is best written in a text editor (do not use MS Word or
+Open Office). Our site uses [GitHub Pages](https://pages.github.com/), which
+are powered by [Jekyll](http://jekyllrb.com/), to automatically convert the
+Markdown written by our authors into the HTML pages that you can find here on
+the website.
+
+The following resources and cheatsheets will tell you all that you need to know
+about formatting a lesson in Markdown:
 
 -   [GitHub Guide to Markdown]
 -   [Markdown Basics]
