@@ -1,10 +1,9 @@
 ---
 title: Report an Issue
 date: 07-11-2015
-layout: blank
+layout: directory
 ---
 
-# Reporting a Problem with a Lesson
 <figure>
 	<img src="../images/reader-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
@@ -38,6 +37,6 @@ For more information on pull requests, see the GitHub Guide on [Forking Projects
 
 If you are unable to create an issue or make a pull request, you can also contact <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> at the University of New Mexico.
 
-# Further Resources on Git and GitHub
+## Further Resources on Git and GitHub
 
 Using Git and GitHub can be fairly simple once you get the hang of it.  If you are interested in learning more and contributing, the [GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/) website is a great place to start.
