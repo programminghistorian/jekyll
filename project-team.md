@@ -57,9 +57,11 @@ Community Participants
 *Programming Historian* also benefits enormously from the efforts of
 people who volunteer their time and energy. If you are interested in
 pitching in, either for a single project or in an ongoing role, please
-email one of our editors!
+find out [how to contribute](../contribute)!
 
-We wish to extend a thanks to our reviewers who ensure the lessons are
+We are especially grateful to the dedicated Programming Historian authors who are not members of the Project Team: {% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](../new-lesson-workflow).
+
+We also wish to extend a thanks to our reviewers who ensure the lessons are
 up to scratch by leaving helpful feedback. At the time of writing, this
 has included the following people: Jim Clifford, Amanda Morton, Sheila
 Brennan, John Fink, Luke Bergmann, Aurélien Berra, Nora McGregor,
