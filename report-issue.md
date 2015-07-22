@@ -24,7 +24,7 @@ Glance at the open issues to see if the problem you have identified has already 
 
 If your issue has not been reported, create a new issue with a descriptive title and as much information about the problem as you can give. 
 
-{% include figure.html src="../images/https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png" caption="The Issues Page" %}
+{% include figure.html src="https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png" caption="The Issues Page" %}
 
 For more information about issues, read the GitHub Guide on [Mastering Issues](https://guides.github.com/features/issues/).
 
