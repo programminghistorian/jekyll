@@ -5,12 +5,11 @@ layout: directory
 
 This page contains instructions for authors for submitting a new lesson to the _Programming Historian_.
 
-
-# Have an idea? What to do before you write.
+# Proposing a New Lesson
 <figure>
 	<img src="../images/author-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
-If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the _Programming Historian_, contact [Fred Gibbs][editor] to discuss your idea. This initial contact will help you and us decide if what you're working on is appropriate for our project. This can save both of us a lot of time and direct you in more fruitful paths before you've put in a lot of effort. Once our editor has given you the go-ahead to pursue your idea, he or she will post the tentative lesson title, and a brief description to the public [Lesson Pipeline wiki page][pipeline]. This is a way of planting your flag in the sand, and helps us avoid multiple people concurrently writing the same or very similar lessons.
+If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the _Programming Historian_, contact [Fred Gibbs][editor] to discuss your idea. This initial contact will help you and us decide if what you're working on is appropriate for our project. Once our editor has given you the go-ahead to pursue your idea, he or she will post the tentative lesson title, and a brief description to the public [Lesson Pipeline wiki page][pipeline]. This is a way of planting your flag in the sand, and helps us avoid multiple people concurrently writing the same or very similar lessons.
 
 There is no standard lesson at the _Programming Historian_. Topics vary widely, as does the expected technical proficiency. We encourage this variety, and welcome all kinds of lesson proposals. Lessons may be rather straightforward and discrete tasks; they may be quite complex and technically sophisticated. Longer and more involved lessons can be divided into smaller sub-lessons that can be worked through in sequence.
 
@@ -18,29 +17,27 @@ We do insist that all lessons have a clearly defined goal and are written with a
 
 You can get a better sense of what we're looking for by reading our [reviewer guidlines][reviewer-guidelines] or looking at our [published lessons](lessons).
 
-# Formatting your Lesson for Publication
+# Writing a New Lesson
 
-In order to get lessons published as quickly and professionally as possible, we ask that authors adhere to the following styleguide. Please note that we do not have a budget to hire a copyeditor as this is a volunteer-driven project:
+In order to get lessons published as quickly and professionally as possible, we ask that authors adhere to the following styleguide.
 
-## Create a Working Directory
+Please note that we do not have a budget to hire a copyeditor as this is a volunteer-driven project, so we are grateful for your attention to detail.
 
-If your lesson will include any files other than the lesson text itself (images or data, for example), then you will need to set up a working directory that mimics how we store these accompanying files on our own system. Your directory should contain the following file structure
+## Use Plain Text
 
-- images
-- lessons
-- assets
-
-Any images should be saved to the _images_ folder. Any data to the _assets_ folder, and your lesson to the _lessons_ folder.
+Because our site is hosted on GitHub Pages, your lesson must be written in a plain-text editor of your choice. For Mac, we recommend free text editors such as [TextWrangler](http://www.barebones.com/products/textwrangler/) or TextEdit (which comes with Mac OS X). For Windows, you can use Notepad or the enhanced [Notepad++](https://notepad-plus-plus.org/). The specific editor you choose is not important, but submitting and formatting your lesson will be much easier if you begin the whole process in plain text. Please contact a member of the [project team][] if you have questions or concerns.
 
 ## Name the Lesson File
+
 Name your new lesson file following these guidelines:
 
 - Make the filename short, but descriptive; this filename will eventually become the [slug](https://en.wikipedia.org/wiki/Semantic_URL) for the lesson's URL when published. Think about how potential readers might search for something like your lesson. A keyword-rich slug is a good way to get search-engine traffic.
-- Do not put spaces in the filename; use hyphens instead.
-- The filename extension should be .md (markdown) so that GitHub will generate a preview of the lesson.
+- Do not put spaces or underscores in the filename; use hyphens instead.
+- The filename extension should be `.md` (markdown).
 
-## Add the required Metadata Block
-Our system uses special [YAML](https://en.wikipedia.org/wiki/YAML) front-matter blocks to store metadata about each lesson. Use the following example to create a YAML for your lesson. This should appear at the very top of your lesson file. Note: you will not know the names of your reviewers. Leave this blank for now.
+## Add a Metadata Block
+
+Our system uses special [YAML](https://en.wikipedia.org/wiki/YAML) front-matter blocks to store metadata about each lesson. Use the following example to create a YAML block for your lesson. This should appear at the very top of your lesson file. (Note: you will not know the names of your reviewers. Leave this blank for now.)
 
 ```
 ---
@@ -73,14 +70,15 @@ layout: default
 
 You must use the "list" format shown above for the authors and reviewers fields, even if there is only one author or reviewer.
 
-## Format your lesson using Markdown
-All new lessons should be submitted as Markdown files. Markdown is a simple mark-up language that is best written in a text editor (do not use MS Word or Open Office). The following resources and cheatsheets will tell you all that you need to know about formatting a lesson in Markdown:
+## Write in Markdown
 
-- Most of the syntax described in [Markdown Basics](https://help.github.com/articles/markdown-basics)
-- See also [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) 
-- Github provides a [good beginner's guide to Markdown](https://guides.github.com/features/mastering-markdown/).
+All new lessons should be formatted as Markdown files. Markdown is a simple mark-up language that is best written in a text editor (do not use MS Word or Open Office). The following resources and cheatsheets will tell you all that you need to know about formatting a lesson in Markdown:
 
-In particular, Figures, Tables, Code Blocks, Quotation Marks, and Emphasis require special handling. Please follow the instructions below:
+- [GitHub Guide to Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Markdown Basics](https://help.github.com/articles/markdown-basics)
+- [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) 
+
+For our site, Figures, Tables, Code Blocks, Quotation Marks, and Emphasis require special handling. Please follow the instructions below:
 
 ### Figures
 
@@ -91,6 +89,8 @@ The `figure` and `figcaption` [elements provided by HTML5](http://html5doctor.co
 {% include figure.html src="../images/filename" caption="Caption to image" %}
 ```
 {% endraw %}
+
+The only parts of that line you'll have to modify are `filename` and `Caption to image`.
 
 When the Markdown is rendered by our system, this line will produce HTML that looks like this:
 
@@ -105,11 +105,11 @@ When the Markdown is rendered by our system, this line will produce HTML that lo
 </figure>
 ```
 
-Note that when figure tags are added this way, the image will not show up in the preview on Github, but will be visible on the _Programming Historian_ website. See an [example of the preview with figures here](https://github.com/programminghistorian/jekyll/blob/3c3f97d3f05dd26149a398b9daa19793fe9f7820/lessons/working-with-web-pages.md), and the [live version here](http://programminghistorian.github.io/jekyll/lessons/working-with-web-pages).
+Note that when figure tags are added this way, the image will not show up in the preview on Github or in other Markdown preview programs, but it will be visible on the _Programming Historian_ website. See an [example of the preview with figures here](https://github.com/programminghistorian/jekyll/commit/476f6d466d7dc4c36048954d2e1f309a597a4b87#diff-f61eee270fe5a122a0163ebf0e2f8725L28), and the [live version here](http://programminghistorian.org/lessons/automated-downloading-with-wget#lesson-goals).
 
-Your images must be stored in a folder called 'images', as described in `Create a Working Directory`, listed above.
+If you use any images in your lesson, please give them consistent, serially numbered filenames that clearly relate to the lesson in which they will appear. We recommend that you use the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, `counting-frequencies-1.png`, `counting-frequencies-2.png`, and so on.) Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
 
-If you use any images in your lesson, please give them consistent, serially numbered filenames that clearly relate to the lesson in which they will appear--ideally using the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, counting-frequencies-1.png, counting-frequencies-2.png, and so on.) Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
+We recommend that you place all the images for your lesson in a local subdirectory called `images`. 
 
 ### Tables
 
@@ -143,38 +143,67 @@ Our platform does not support footnotes, even though many Markdown parsers (like
 
 ### Code Blocks
 
-If you want to include code in a lesson, or to show the output of a program, use a `code block`. On a new line, use three backticks (`) to open a code block, followed by the language of your code (eg, python or html). Then paste in your code, and when finished, close the code block with three more backticks. The code will the be offset in the finished version and will look like this:
+If you want to include code in a lesson, or to show the output of a program, use a *code block*. On a new line, use three backticks (`) to open a code block, followed by the language of your code (eg, `python` or `html`). Then paste in your code, and when finished, close the code block with three more backticks. The code will the be offset in the finished version and will look like this:
 
 ```python
 print 'hello world'
 ```
 
-### Quotation Marks / Inverted Commas
+### Smart Quotes
 
-Do not use stylized quotation marks such as those automatically inserted by Microsoft Word. These cause havoc for readers because quotation marks are used frequently in code, but the stylized curly marks that look nice in essays are considered distinct entities by the computer and will cause code to crash. To avoid this problem we strongly reccommend that you do not use MS Word or Open Office (word processors) when writing a lesson. Use a text editor instead.
+Do not use stylized quotation marks or inverted commas such as those automatically inserted by Microsoft Word or rich-text editors. These cause havoc for readers because quotation marks are used frequently in code, but the stylized curly marks that look nice in essays are considered distinct entities by the computer and will cause code to crash. To avoid this problem we strongly reccommend that you do not use MS Word or Open Office (word processors) when writing a lesson. Use a text editor instead.
 
 ### Emphasis Tagging
 
-Try to use backticks (`) for reserved code words (as in `for` loop) and file names (e.g., `obo.py`). All other emphasis is done with paired asterisks (*) (as in *client*, *protocol*, *The Old Bailey Online*).
+Try to use backticks (`` ` `` ) for reserved code words (as in `for` loop) and file names (e.g., `obo.py`). All other emphasis is done with paired asterisks (*) (as in *client*, *protocol*, *The Old Bailey Online*).
 
+## Submit Your Lesson
 
+Once your lesson file has been drafted and named, you can submit it to the Programming Historian via a GitHub [pull request](https://help.github.com/articles/using-pull-requests/). 
 
-## Lessons must be submitted via GitHub pull requests
-Once the lesson file has been drafted and named, you should fork the _Programming Historian_ repository (or make sure an existing fork is in sync), following [these directions](https://help.github.com/articles/fork-a-repo/), add the new tutorial to the lessons directory in your forked repository, and [issue a pull request](https://help.github.com/articles/using-pull-requests/). An editor will accept the pull request to add your new lesson to the main _Programming Historian_ repository where other people can review it, and where it will eventually be published. If some software or hardware issue prevents you from issuing pull requests, you should email your lesson to an editor who can help get your lesson into our repository.
+There are various ways to do this, using both command line tools and programs like [GitHub for Mac](https://mac.github.com/) or [GitHub for Windows](https://windows.github.com/), it is also possible to create a basic pull request using nothing but your web browser---even if you have never used GitHub or git before. The following steps will show you how to use this in-browser method.
 
-## Pushing images or other required resources
-Just as you added your lesson with a pull request, you'll need to do the same for any images you use in your lesson. Images must be placed in the images directory at the root of the _Programming Historian_ repository. Similarly, if you link to any data files from your lesson, they must be placed in the assets directory.
+### Making a Pull Request Using Only Your Browser
 
-When you have placed all of your images in the images directory (and data files in the assets directory), you should issue a pull request so that they can be merged into the main PH repository.
+1. [Create an account](https://github.com/join) on GitHub if you don't have one already, and make sure you are logged in.
+2. Navigate to the Programming Historian repository at <https://github.com/programminghistorian/jekyll>.
+3. Click on the *Fork* button in the upper-right-hand corner, just below your profile picture. After a few seconds, you will now be on the page for your forked repo; take a look at the URL to see how it differs from the main Programming Historian repo. It will look something like this: `https://github.com/YOUR_USERNAME/jekyll`.
+4. Locate the drop-down *branch* menu, in the upper-left hand corner of the page. It should show `gh-pages` as the branch you are currently on. Click on this drop-down menu, and notice that you can navigate to a different branch or create a new one. You need to create a new branch, and you can do so by beginning to type the name for your branch in the text box. It is easiest to use the same name you used for your lesson file, but without the file extension. Once you've typed in your new branch name, click on *Create branch* or just hit enter. GitHub will automatically switch to this new branch, which you can confirm by looking at the same drop-down menu you found at the beginning of this step.
+5. Scroll down and click on the `lessons` folder. 
+6. Look for the hyperlinked plus-sign (`+`) at the top of the page. Hovering over it with your mouse, you should see a message that says *Create New File Here*. Click on the plus sign.
+7. Now you will see the screen where you can manually enter the text of your lesson. First, in the filename box, enter the name of your local file, following the [naming conventions described above](#name-the-lesson-file) and being sure to use the `.md` file extension. Then, copy and paste the text of your lesson from your text editor.
+8. Scroll down until you see the green *Commit New File* button. Click on this button, leaving all the default options as they are. On the screen that now appears, you should see a message at the top of the page that reads "This branch is 1 commit ahead of programminghistorian:gh-pages." To the right of this message is a link that reads *Pull Request.* Click on that link, and then click on the green *Create Pull Request* button. (If you'd like, you can also add a comment in the provided box before creating your pull request. For example, you might want to mention the name of the editor you've been working with, or ask for feedback about a specific part of your lesson.)
 
-## Send a bio blurb
-After submitting a lesson via a pull request. if you haven't done so already, send your editor a short 1 or 2 sentence bio statement that will appear at the end of your lesson, following the model of other lessons.
+That's it! You've submitted your new lesson via pull request! You should now see your lesson listed with the other [pending pull requests on our repo](https://github.com/programminghistorian/jekyll/pulls). If you click on the Pull Request there, you can make additional comments on the pull request page. Editors and reviewers will also leave comments for you here. 
 
-## Wait for reviewer feedback
-At this point, the editor will ask at least two others to review your lesson and make suggestions for improvements. We aim to complete this process within 4 weeks. After the reviews are posted to GitHub (via the Issue Tracker), you can take all the time you need to revise and put the finishing touches on your lesson. In conjunction with your editor, you'll decide when it's done and then we'll add a link to the lessons page and let everyone know about your lesson.
+As a final step, you should contact your editor to ask about how to submit any lessons images or data files for review. If you are comfortable using git outside of the browser (for example, using the command line or GitHub's GUI programs), then you may also add these images and data files to your pull request. 
 
+### Updating Your Pull Request in the Browser
+
+If an editor or reviewer suggests changes to your Pull Request that you would like to implement in your lesson, navigate back to your forked `jekyll` repository (the one that contains your username in the URL). Then, locate the drop-down menu for *branches* near the top of the page, click on it, and select the branch that you created when submitting your pull request. (There should also be a link directly to this branch on your pull request's page.)
+
+Now, after confirming you are on your fork and your new branch, find your lesson in the lessons directory, click on it, and click the pencil icon in the upper-right-hand corner, which allows you to edit the file in the browser. Once you make the desired edits, scroll to the bottom, briefly describe your changes in the provided text boxes, and click the green "Commit Changes" button. Your new changes should now automatically be included in your original pull request. Navigate back to the pull request page on the Programming Historian repo site to see if the changes have appeared.
+
+### Learning More about Pull Requests
+
+If all you intend to do is submit one lesson to Programming Historian and never contribute to the GitHub repo again, the above in-browser pull request method should work for you. But this method has several limitations. For example, it won't allow you to add your lesson images or data files to your pull request. And using only your browser makes it more difficult to contribute again to the Programming Historian in the future.
+
+That's why we encourage you to learn more about GitHub and the git workflow using [GitHub Guides](https://guides.github.com/activities/forking/), official directions for [forking](https://help.github.com/articles/fork-a-repo/) and [pull requesting](https://help.github.com/articles/using-pull-requests/) or [independent tutorials](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/). Richard Zach's [Git for Philosophers](https://github.com/rzach/git4phi), for example, is a helpful introduction to collaborative writing on GitHub aimed at academics in the humanities.
+
+Learning about these methods will make it easier for you to perform more advanced tasks with Git, such as adding images and data files to pull requests for the Programming Historian, or keeping your forked repository synchronized with changes in our main repo.
+
+### Send a Bio Blurb
+
+After submitting a lesson via a pull request, if you haven't done so already, send your editor a short 1 or 2 sentence bio statement that will appear at the end of your lesson, following the model of other lessons.
+
+## Wait for Reviewer Feedback
+
+At this point, the editor will ask at least two others to review your lesson and make suggestions for improvements. We aim to complete this process within 4 weeks. After the reviews are posted to GitHub on your Pull Request page, you can take all the time you need to revise and put the finishing touches on your lesson. In conjunction with your editor, you'll decide when it's done and then we'll add a link to the lessons page and let everyone know about your lesson.
+
+Once the Programming Historian's editorial team has decided that your lesson is ready for publication, we will "accept" the pull request and it will be merged into our main repository. When that process is completed, the "Pull Request" will be closed. Congratulations! You've published a lesson to the Programming Historian!
 
 [editor]: mailto:fwgibbs@gmail.com
-[reviewer-guidelines]: /reviewer-guidelines.html
+[reviewer-guidelines]: ../reviewer-guidelines.html
 [markdown guide]: https://github.com/programminghistorian/jekyll/wiki/Markdown-Style-Guide
 [pipeline]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
+[project team]: ../project-team.html
