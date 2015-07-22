@@ -31,7 +31,7 @@ Because our site is hosted on GitHub Pages, your lesson must be written in a pla
 
 Name your new lesson file following these guidelines:
 
-- Make the filename short, but descriptive; this filename will eventually become the [slug](https://en.wikipedia.org/wiki/Semantic_URL) for the lesson's URL when published. Think about how potential readers might search for something like your lesson. A keyword-rich slug is a good way to get search-engine traffic.
+- Make the filename short, but descriptive; this filename will eventually become the [slug](https://en.wikipedia.org/wiki/Semantic_URL#Slug) for the lesson's URL when published. Think about how potential readers might search for something like your lesson. A keyword-rich slug is a good way to get search-engine traffic.
 - Do not put spaces or underscores in the filename; use hyphens instead.
 - The filename extension should be `.md` (markdown).
 
