@@ -143,7 +143,7 @@ Our platform does not support footnotes, even though many Markdown parsers (like
 
 ### Code Blocks
 
-If you want to include code in a lesson, or to show the output of a program, use a *code block*. On a new line, use three backticks (`) to open a code block, followed by the language of your code (eg, `python` or `html`). Then paste in your code, and when finished, close the code block with three more backticks. The code will the be offset in the finished version and will look like this:
+If you want to include code in a lesson, or to show the output of a program, use a *code block*. On a new line, use three backticks (`` ``` ``) to open a code block, followed by the language of your code (eg, `python` or `html`). Then paste in your code, and when finished, close the code block with three more backticks. The code will the be offset in the finished version and will look like this:
 
 ```python
 print 'hello world'
