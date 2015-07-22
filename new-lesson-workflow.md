@@ -407,7 +407,7 @@ published a lesson to the Programming Historian!
   [pull request]: https://help.github.com/articles/using-pull-requests/
   [GitHub for Mac]: https://mac.github.com/
   [GitHub for Windows]: https://windows.github.com/
-  [Create an account]: https://github.com/join
+  [Create an account]: https://help.github.com/articles/signing-up-for-a-new-github-account/
   [naming conventions described above]: #name-the-lesson-file
   [pending pull requests on our repo]: https://github.com/programminghistorian/jekyll/pulls
   [GitHub Guides]: https://guides.github.com/activities/forking/
