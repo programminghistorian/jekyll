@@ -2,9 +2,9 @@ name: Programming Historian
 description: Introductory and intermediate programming lessons for humanists
 url: http://programminghistorian.org
 permalink: :categories/:title
-exclude: [deprecated]
+exclude: [deprecated, 'Gemfile', 'Gemfile.lock']
 safe: true
-pygments: true
+highlighter: pygments
 markdown: redcarpet
 gems:
   - jekyll-redirect-from
