@@ -2,7 +2,8 @@ name: Programming Historian
 description: Introductory and intermediate programming lessons for humanists
 url: http://programminghistorian.org
 permalink: :categories/:title
-exclude: [deprecated, 'Gemfile', 'Gemfile.lock', 'Procfile', 'Rakefile']
+exclude: [deprecated, 'Gemfile', 'Gemfile.lock', 'Procfile', 'Rakefile',
+'vendor']
 safe: true
 highlighter: pygments
 markdown: redcarpet
