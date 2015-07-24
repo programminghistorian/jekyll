@@ -3,12 +3,13 @@ description: Introductory and intermediate programming lessons for humanists
 url: http://programminghistorian.org
 permalink: :categories/:title
 exclude: [deprecated, 'Gemfile', 'Gemfile.lock', 'Procfile', 'Rakefile',
-'vendor']
+'vendor', 'config.ru']
 safe: true
 highlighter: pygments
 markdown: redcarpet
 gems:
   - jekyll-redirect-from
+  - redcarpet
 redcarpet:
  extensions: ['tables', 'smart', 'with_toc_data', 'superscript']
 
