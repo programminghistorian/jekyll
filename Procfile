@@ -1,3 +1,2 @@
-web: bundle exec thin start -p $PORT -V
-console: echo console
-rake: echo rake
+web: jekyll serve --no-watch -H 0.0.0.0 -P $PORT
+
