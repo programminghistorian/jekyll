@@ -4,7 +4,7 @@ url: http://programminghistorian.org
 permalink: :categories/:title
 exclude: [deprecated, vendor, Gemfile, Procfile]
 safe: true
-highlighter: pygments
+pygments: true
 markdown: redcarpet
 gems:
   - jekyll-redirect-from
