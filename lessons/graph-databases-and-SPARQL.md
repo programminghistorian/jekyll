@@ -62,7 +62,8 @@ Museum Linked Open Data collection.
 
 ## RDF in brief
 
-RDF represents information in a series of three-part "statements" that comprise a subject, predicate, and an object, e.g.:
+RDF represents information in a series of three-part "statements" that comprise
+a subject, predicate, and an object, e.g.:
 
 ```
 <The Nightwatch> <was created by> <Rembrandt van Rijn> .
@@ -87,7 +88,8 @@ psuedo-RDF database might contain interrelated statements like these:
 ...
 ```
 
-However, if we were to visualize this as a network graph, it would appear like so:
+However, if we were to visualize this as a network graph, it would appear like
+so:
 
 {% include figure.html src="/images/sparql01.png" caption="A network visualization of the pseudo-RDF shown above." %}
 
@@ -120,7 +122,7 @@ On receiving this query, the database will search for all values of `?painting`
 that properly complete the RDF statement `<has medium> <oil on canvas> .` We
 might visualize this query like so:
 
-{% include figure.html src="/images/sparql02.png" caption="A visualization of the SPARQL query, with mentioned nodes in orange and selected nodes (those that will be returned in the results) in red." %}
+{% include figure.html src="/images/sparql02.png" caption="A visualization of the SPARQL query, with mentioned nodes and edges in orange, and selected nodes (those that will be returned in the results) in red." %}
 
 And our results might look like this table:
 
@@ -162,13 +164,13 @@ original statement:
 <The Nightwatch>   <was created by>   <Rembrandt van Rijn> .
 ```
 
-would more likely look something like this[^rkm]:
-
-[^rkm]: N.B. the Rijksmuseum has not (yet) built their own Linked Data site, so the URL in this query is just for demo purposes.
+would more likely look something like this:
 
 ```
 <http://data.rijksmuseum.nl/item/8909812347> <http://purl.org/dc/terms/creator>  <http://dbpedia.org/resource/Rembrandt>.
 ```
+
+_N.B. the Rijksmuseum has not (yet) built their own Linked Data site, so the URL in this query is just for demo purposes._
 
 In order to get the _labels_ for each of these URI's, what we're really doing is
 just retrieving more RDF statements:
@@ -186,9 +188,9 @@ known as _literals_. Other literal values in RDF include dates and numbers.
 
 See the _predicates_ in these statements, with domain names like `purl.org`,
 `w3.org`, and `xmlns.com`? These are some of the many providers of ontologies
-that help standardize the way we describe relationships between quanta, like
-"title", "label", "creator", or "name". The more RDF/LOD that you work with, the
-more of these providers you'll find.
+that help standardize the way we describe relationships between bits of
+information like "title", "label", "creator", or "name". The more RDF/LOD that
+you work with, the more of these providers you'll find.
 
 URIs can become unwieldy when composing SPARQL queries, which is why we'll
 use _prefixes_. These are shortcuts that allow us to skip typing out entire long
@@ -216,7 +218,7 @@ recognize whenever we use one in a SPARQL query.
 - **URI** - _Uniform Resource Identifier_ - Also known as a URL (uniform resource locator), or a web link.
 - **node** - A node in a graph database represents some entity that has relationships to other entities within the database.
 - **prefix** - In order to simplify SPARQL queries, a user may specify prefixes that act as abbreviations for full URIs.
-- **statement** - Sometimes also called a "triple", an RDF statement is a quantum of knowledge comprising a subject, predicate, and object.
+- **statement** - Sometimes also called a "triple", an RDF statement is a quantum of knowledge comprising a _subject_, _predicate_, and _object_.
 
 # Real-world queries
 
@@ -257,10 +259,9 @@ statement for which our example artwork,
 
 {% include figure.html src="/images/sparql04.png" caption="An initial list of all the predicates and objects associated with one artwork in the British Museum." %}
 
-The BM endpoint formats the results table with hyperlinks, so you can jump from
-looking at the predicates and objects of this one subject to looking at the same
-elements for any other node mentioned in the results.
-
+The BM endpoint formats the results table with hyperlinks for every variable
+that is itself an RDF node, so by clicking on any one of these links you can
+shift to seeing all the predicates and objects for that newly-selected node.
 Note that BM automatically includes a wide range of SPARQL prefixes in its
 queries, so you will find many hyperlinks are displayed in their abbreviated
 versions; if you mouse over them your browser will display their unabbreviated
@@ -272,6 +273,9 @@ the link for `thes:x8577` to navigate to the node describing the particular
 object type "print":
 
 {% include figure.html src="/images/sparql05.png" caption="The resource page for thes:x8577 ('print') in the British Museum LOD." %}
+
+You'll note how this node has an English label, as well as ties to related
+artwork type nodes within the database.
 
 ## Complex queries
 
@@ -291,11 +295,12 @@ WHERE {
 ```
 [Run query](http://collection.britishmuseum.org/sparql?query=SELECT+%3Fobject%0D%0AWHERE+%7B%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%7D&_implicit=false&implicit=false&_equivalent=false&_form=%2Fsparql) / [Edit query](http://collection.britishmuseum.org/sparql?sample=PREFIX+bmo%3A+%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fontology%2F%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0ASELECT+%3Fobject%0D%0AWHERE+%7B%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%7D)
 
+{% include figure.html src="/images/sparql06.png" caption="A one-column table returned by our query for every object with type 'print'" %}
+
 In this query, `?object_type` is a _blank node_. Because it is not present in
 the `SELECT` command, it will not show up in the results table. However, it is
-essential to structuring our query.
-
-{% include figure.html src="/images/sparql06.png" caption="A one-column table returned by our query for every object with type 'print'" %}
+essential to structuring our query, because it connects the dots from object to
+type label.
 
 ## FILTER
 
@@ -395,7 +400,7 @@ To quickly convert JSON results from a SPARQL endpoint, I recommend the free
 command line utility [jq](http://stedolan.github.io/jq/download/). (For a
 tutorial on using command line programs, see ["Introduction to the Bash Command
 Line"](/lessons/intro-to-bash.html).) The following query will convert the
-special JSON RDF format into a CSV:
+special JSON RDF format into a CSV file:
 
 ```sh
 jq -r '.head.vars as $fields | ($fields | @csv), (.results.bindings[] | [.[$fields[]].value] | @csv)' sparql.json > sparql.csv
@@ -410,8 +415,8 @@ endpoint address, and a box for the query itself. Depending on the endpoint, you
 may need to specify the file output type in the endpoint address; for example,
 to load data from the BM endpoint you must use the address
 `http://collection.britishmuseum.org/sparql.json`. Try pasting in the
-aggregation query we used above to count artists by nationality, and clicking on
-"Run query". Palladio should display a preview table.
+aggregation query we used above to count artworks by type and clicking on "Run
+query". Palladio should display a preview table.
 
 [Palladio]: http://palladio.designhumanities.org/
 
