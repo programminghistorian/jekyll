@@ -8,4 +8,4 @@ markdown: redcarpet
 gems:
   - jekyll-redirect-from
 redcarpet:
- extensions: ['superscript']
+ extensions: ['smart', 'tables', 'superscript']
