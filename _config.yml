@@ -9,4 +9,4 @@ highlighter: pygments
 gems:
   - jekyll-redirect-from
 redcarpet:
- extensions: ['smart', 'tables', 'superscript']
+ extensions: ['smart', 'with_toc_data', 'tables', 'superscript']
