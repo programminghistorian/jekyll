@@ -39,7 +39,7 @@ GEM
       mercenary (~> 0.3)
       pygments.rb (= 0.6.3)
       rdiscount (= 2.1.7)
-      redcarpet (= 3.3.1)
+      redcarpet (= 3.2.3)
       terminal-table (~> 1.4)
     github-pages-health-check (0.3.1)
       net-dns (~> 0.6)
