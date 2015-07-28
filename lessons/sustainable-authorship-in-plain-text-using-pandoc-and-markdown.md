@@ -670,7 +670,8 @@ two "Question and Answer" type sites can field questions on Pandoc:
 [Stack Overflow](http://stackoverflow.com/questions/tagged/pandoc) and
 [Digital Humanities Q&A](http://digitalhumanities.org/answers/).
 Questions may also be asked live, on Freenode IRC, \#Pandoc channel,
-frequented by a friendly group of regulars.
+frequented by a friendly group of regulars. As you learn more about
+Pandoc, you can also explore one of its most powerful features: [filters](https://github.com/jgm/pandoc/wiki/Pandoc-Filters). 
 
 Although we suggest starting out with a simple editor, many (70+,
 according to [this blog
@@ -694,7 +695,7 @@ of tools that generate fast, static webpages,
 [Jekyll](http://github.com/fauno/jekyll-pandoc-multiple-formats),
 [Hakyll](http://jaspervdj.be/hakyll/), and [bash shell
 script](https://github.com/wcaleb/website) by the historian Caleb
-MacDaniel.
+McDaniel.
 
 Finally, whole publishing platforms are forming around the use of
 Markdown. Markdown to marketplace platform

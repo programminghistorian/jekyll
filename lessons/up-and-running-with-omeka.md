@@ -12,7 +12,7 @@ next: installing-omeka
 
 [Omeka][] is a free [content management system][] that makes it easy to
 create websites that show off collections of items. As you will learn
-below, there are actually two versions of Omeka: [Omeka.net][Omeka]and
+below, there are actually two versions of Omeka: [Omeka.net][Omeka] and
 [Omeka.org][]. In this lesson you willl be using the former. If you would rather learn how to install Omeka yourself, read the following lesson, [Installing Omeka](installing-omeka.html). 
 
 Omeka is an ideal solution for historians who want to display
@@ -154,9 +154,7 @@ dashboard, click the **Back** button or enter
 
 ### Switch themes
 
-![media\_1363419755762.png][]
-
-Figure 5: Switching Omeka themes
+{% include figure.html src="../images/omeka_new_theme.png" caption="Switching Omeka themes" %}
 
 Omeka allows you to change the look of your public-facing site by
 switching themes. To do this, click on **Settings** (at the top right of
@@ -179,7 +177,7 @@ the other options.
 
 ### Install plugins
 
-![media\_1363309931413.png][]
+![Install plugins](../images/omeka_install_plugins.png)
 
 Figure 7: Installing Omeka plugins
 

@@ -57,16 +57,15 @@ Community Participants
 *Programming Historian* also benefits enormously from the efforts of
 people who volunteer their time and energy. If you are interested in
 pitching in, either for a single project or in an ongoing role, please
-email one of our editors!
+find out [how to contribute](../contribute)!
 
-We wish to extend a thanks to our reviewers who ensure the lessons are
-up to scratch by leaving helpful feedback. At the time of writing, this
-has included the following people: Jim Clifford, Amanda Morton, Sheila
-Brennan, John Fink, Luke Bergmann, Aurélien Berra, Nora McGregor,
-Patrick Burns, Sarah Simpkin, Finn Arne Jørgensen, Dave Shepard, Nick
-Ruest, Konrad Lawson, Nick Pearce, Amanda Morton, Spencer Roberts, Jeff
-Bain-Conkin, Sara Palmer, Mary Beth Start. Thanks to all of you.
+We are especially grateful to the dedicated Programming Historian authors who are not members of the Project Team: {% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](../new-lesson-workflow).
 
+We also thank everyone who has helped to review lessons by reporting issues,
+fixing errors, or conducting formal peer reviews. At the time of writing, this
+has included the following people: {% for reviewer in site.data.reviewers %}
+{{reviewer}},{% endfor %} and, hopefully, you! Find out more about [how to
+contribute](../contribute).
 
   [Adam Crymble]: ../images/Screen_shot_2011-01-21_at_09.29.07_reasonably_small.png
     "Adam Crymble avatar"

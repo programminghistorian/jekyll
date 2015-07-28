@@ -4,6 +4,10 @@ title: About the Programming Historian
 redirect_from: /about.html
 ---
 
+<figure>
+	<img src="../images/about.png" width="290px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
+</figure>
+
 _The Programming Historian_ is an online, open access, peer reviewed suite of tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research. Tutorials provide guidance on a variety of digital methods and approaches including but not limited to programming. Our mission is to fill a unique niche for those interested in the Digital Humanities, by providing a bridge between broad 'getting started' portals and generic 'programming' resources. 
 
 We’ve assembled and carefully edited a variety of [lessons](lessons) that describe and illustrate fundamental digital and programming principles and techniques. We have [lessons](lessons) on Application Programming Interfaces (APIs), Data Management, Data Manipulation, Distant Reading, Mapping and Geographic Information Systems (GIS), Network Analysis, Digital Exhibit Building, Programming, and Web Scraping. Our tutorials include nearly a dozen lessons on popular DH tools such as MALLET, Omeka, and QGIS.
@@ -26,7 +30,7 @@ We do not charge Article Processing Charges (APCs), nor do we charge library sub
 
 All tutorials that appear on _The Programming Historian_ have been rigorously peer reviewed and copy edited. Each lesson is guided through the review process by one of our editors who are assigned to the piece. Review involves a thorough exchange with the editor to ensure the lesson works as intended and that all concepts are explained fully for a non-specialist reader, before the tutorial is sent to external reviewers to test it and provide further comments. We aim to return reviewed material to authors quickly, but our first priority is always to ensure a quality product.
 
-Our peer review process is a bit different from what might be considered the “traditional” peer review process. We do not solicit reviews to judge whether a tutorial is “good enough” to be published. Rather, we consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to create useful technical resources for each other. Once a tutorial slips into our [editorial workflow](http://programminghistorian.org/new-lesson-workflow), our goal is to do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time. Consult our [Reviewer Guidelines](http://programminghistorian.org/reviewer-guidelines/) for more information.
+Our peer review process is a bit different from what might be considered the “traditional” peer review process. We do not solicit reviews to judge whether a tutorial is “good enough” to be published. Rather, we consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to create useful technical resources for each other. Once a tutorial slips into our [editorial workflow](http://programminghistorian.org/new-lesson-workflow), our goal is to do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time. Consult our [Reviewer Guidelines](http://programminghistorian.org/reviewer-guidelines) for more information.
 
 We strive to ensure all tutorials are functional on their date of publication. From time to time technology changes and tutorials cease to function as intended. If this happens, please [report it](https://github.com/programminghistorian/jekyll/wiki/Reporting-Issues) and we will assign an editor to fix the problem.
 

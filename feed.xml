@@ -1,5 +1,6 @@
 ---
 ---
+
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
@@ -23,5 +24,20 @@
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 			</item>
 		{% endfor %}
+        {% for page in site.pages %}
+          {% if page.layout == 'default' %}
+			<item>
+				<title>{{ page.title }}</title>
+				{% if page.excerpt %}
+					<description>{{ page.excerpt | xml_escape }}</description>
+				{% else %}
+					<description>Page posted on the Programming Historian</description>
+				{% endif %}
+				<pubDate>{{ page.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<link>{{ site.url }}{{ page.url }}</link>
+				<guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
+			</item>
+          {% endif %}
+        {% endfor %}
 	</channel>
 </rss>
