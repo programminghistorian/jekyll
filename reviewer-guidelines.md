@@ -64,28 +64,6 @@ While we like each of our lessons to take the unique voice of its author, we als
 
 
 ## How to submit your review
-We manage all of our peer review comments through the issue tracker on Github, so all reviewer feedback will take the form of a comment on a Github "issue" (sometimes called a "ticket"). This is exactly like posting on a message board or social media website. You will need to sign up for a free GithHub account to post your review. 
+We manage all of our peer review comments through GitHub. When a new lesson is ready for review, the author (or editor) will make a pull request (a request to pull the new lesson into the _Programming Historian_ repository.) GitHub allows anyone to make comments on a pull request--exactly like posting on a message board or social media website. You will need to sign up for a free GitHub account to post your review. 
 
-The editor who contacted you about the review has created a GitHub "Issue" for you and should have sent you the URL where you can find it. You can also find the issue on the [_Programming Historian's_ GitHub page](https://github.com/programminghistorian/jekyll/issues). The issue will be named "Review of *Lesson Title*". If you cannot find it, please contact the editor. Click on the ticket name, and add your review as a comment at the bottom of the page.
-
-To suggest or make minor changes to a lesson you can do so by following **ONE** of the following options. All of these options assume you have created a GitHub account and are logged in:
-
-- Submit pull requests for the lesson (if you are comfortable using GitHub); *OR*
-- Follow the instructions for [Reporting Issues](report-issue); *OR*
-- Comment directly on a line that needs changing.
-
-To use this last option, the commenter should first navigate to the  [lessons directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons) and click on the relevant lesson. 
-
-Next, click on the history button:
-
-![](https://cloud.githubusercontent.com/assets/1126864/4781623/36c1e29e-5cb2-11e4-9ed8-df952fbd4a0b.png)
-
-Now click on the most recent commit for the lesson:
-
-![](https://cloud.githubusercontent.com/assets/1126864/4781629/901b4330-5cb2-11e4-9bc9-d211daa5e987.png)
-
-Next, to comment on a line, hover over a line number, and a blue plus-sign will appear; clicking on it will open a comment box for that particular line. The line that needs fixing may be hidden; if so, click on the expand icon to show hidden lines.
-
-![](https://cloud.githubusercontent.com/assets/1126864/4781633/27b780b4-5cb3-11e4-81aa-0ed217b94a2f.png)
-
-Editors will be notified of these comments and can then make suggested changes.
+The editor who contacted you about the review should have sent you the URL that corresponds with the pull request (ie the page where you will leave your comment). You can also find the issue on the [_Programming Historian's_ pull request page](https://github.com/programminghistorian/jekyll/pulls); the link to the pull request will contain the lesson title, so it will be obvious what to click on. If you cannot find the pull request for the lesson you're looking for, please contact the editor. Once you've found the pull request for the lesson you're reviewing, click on it (be sure you're logged into GitHub), and add your review as a comment at the bottom of the page. Then, you're done, and you have our eternal gratitude.

@@ -27,13 +27,32 @@ If your issue has not been reported, create a new issue with a descriptive title
 
 For more information about issues, read the GitHub Guide on [Mastering Issues](https://guides.github.com/features/issues/).
 
-## Option 2: Make a Pull Request
+## Option 2: Suggest a Particular Change
+
+To suggest or make minor changes to a lesson, first navigate to the  [lessons directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons) and click on the relevant lesson. 
+
+Next, click on the history button:
+
+![](https://cloud.githubusercontent.com/assets/1126864/4781623/36c1e29e-5cb2-11e4-9ed8-df952fbd4a0b.png)
+
+Now click on the most recent commit for the lesson:
+
+![](https://cloud.githubusercontent.com/assets/1126864/4781629/901b4330-5cb2-11e4-9bc9-d211daa5e987.png)
+
+Next, to comment on a line, hover over a line number, and a blue plus-sign will appear; clicking on it will open a comment box for that particular line. The line that needs fixing may be hidden; if so, click on the expand icon to show hidden lines.
+
+![](https://cloud.githubusercontent.com/assets/1126864/4781633/27b780b4-5cb3-11e4-81aa-0ed217b94a2f.png)
+
+Editors will be notified of these comments and can then incorporate your suggestions into the lesson. As much as we strive for openness, only _Programming Historian_ editors can make changes directly to the lessons at this time.
+
+
+## Option 3: Make a Pull Request
 
 If you believe you know how to fix the problem in the lesson, you may wish to consider forking our repository and making a pull request.
 
 For more information on pull requests, see the GitHub Guide on [Forking Projects](https://guides.github.com/activities/forking/) or Rich Jones's tutorial on [How to GitHub](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
 
-## Option 3: Send Us an Email
+## If all else fails (or is too confusing): Send Us an Email
 
 If you are unable to create an issue or make a pull request, you can also contact <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> at the University of New Mexico.
 
