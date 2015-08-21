@@ -10,11 +10,10 @@ published: false
 Lesson Goals
 ------------
 
-In this lesson, we will use R-Studio and specially created packages to acquire metadata from the Digital Public Library of America's partner collections. The metadata can be analyzed or visualized to explore a variety of questions that historians are interested in answering. As digital historians, one of our major hurdles is acquiring machine-readable data. The process may involve OCR, data entry, or downloading csv tables and munging them for your needs. But there is a another way to access data: the Application Programming Interface, or API.
-
-The *Programming Historian* does not yet have an R Studio tutorial, but there is a good introduction availabel at [A (very) Short Introduction to R](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf).
+In this lesson, we will use R-Studio and specially created packages to acquire metadata from the Digital Public Library of America's partner collections. The metadata can be analyzed or visualized to explore a variety of questions that historians are interested in answering. As digital historians, one of our major hurdles is acquiring machine-readable data. The process may involve OCR, data entry, or downloading csv tables and munging them for your needs. But there is a another way to access data: the API
 
 Historians don't have as many "Big data" sets as other disciplines, but what we do have is [published works metadata](http://thomaspadilla.org/papers/padillahiggins_humdata_postprint.pdf). The Library of Congress holds 158 million items with their associated metadata. The Digital Public Library of America ([DPLA](http://dp.la/)) holds metadata for a more modest 8.5 million items (and growing). But unlike the Library of Congress, the DPLA allows users to access their entire collection via [API](http://dp.la/info/developers/codex/) (though check out LC's Chronicling America [API](http://chroniclingamerica.loc.gov/about/api/#search) for historic newspapers). 
+
 
 This is an intermediate-level tutorial on using the httr package and rmetadata package from RopenSci to connect to the Digital Public Library of America's API. It assumes some baseline knowledge of R and is specific to the DPLA's site, but hopefully can be generalized to a variety of APIs. The rmetadata package is a ["wrapper"](http://en.wikipedia.org/wiki/Wrapper_library) for httr, but it closely parallels the inputs and outputs used by httr. 
 
@@ -45,12 +44,12 @@ GET http://api.dp.la/v2
 #curl -v -XPOST http://api.dp.la/v2/api_key/YOUR_EMAIL@example.com
 ```
 
-We won't access the API via the browser, but it will help you understand what's going on behind the scenes. Perhaps the name tipped you off, but httr uses the same commands as the http protocol. Open a browser and try a search- copy the web address below and then copy and paste your unique API key after "&api_key=" into the browser. Hit enter  
+We won't access the API via the browser, but it might help you understand what's going on behind the scenes. Perhaps the name tipped you off, but httr uses the same commands as the http protocol. Open a browser and try a search- copy the web address below and then copy and paste your unique API key after "&api_key=" into the browser. Hit enter  
   
 ####Cats 
 http://api.dp.la/v2/items?q=cats&api_key=  
 
-You will see lots of crazy JSON gibberish (it's not designed for us humans to read it), but we can make out a few things with our own eyes: {"count": 3105, ... Hmm, 3105 cat related objects in the DPLA? Another: "dataProvider":"Boston Public Library", also potentially useful. Let's try a new search.
+Lots of crazy JSON gibberish (it's not designed for us humans to read it), but we can make out a few things: {"count": 3105, ... Hmm, 3105 cat related objects in the DPLA? Another: "dataProvider":"Boston Public Library", also potentially useful. Let's try a new search.
   
 ###Cats and Costumes  
 http://api.dp.la/v2/items?q=cats+AND+costumes&api_key=  
@@ -97,7 +96,7 @@ str(content(kittens, "parse"))
 
 
 ```
-These JSON object arrays are still complicated, but could be analyzed in R by digging into the lists, manipulating the data further and soon we'd be charting the rise and fall of kittens wearing costumes throughout American History, or analyzing which DPLA partner libraries have the best collections of kitten costume material. You are limited only by your imagination.
+These JSON object arrays are still complicated, but could be analyzed in R by digging into the lists, manipulating the data further and soon we'd be charting the rise and fall of kittens wearing costumes throughout American History.. analyzing which DPLA partner libraries have the best collections of kitten costume material, etc...
 
 But we have simpler ways to access the DPLA's API without having to do all the data munging legwork. With [Rmetadata](https://github.com/ropensci/rmetadata), there are easier functions for the kinds of searches we'd like to use to delve into the DPLA's data and make more serious historical searches.
 
