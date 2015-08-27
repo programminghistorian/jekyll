@@ -8,7 +8,7 @@ redirect_from: /about.html
 	<img src="../images/about.png" width="290px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
 
-_The Programming Historian_ is an online, open access, peer reviewed suite of tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research. Tutorials provide guidance on a variety of digital methods and approaches including but not limited to programming. Our mission is to fill a unique niche for those interested in the Digital Humanities, by providing a bridge between broad 'getting started' portals and generic 'programming' resources. 
+_The Programming Historian_ is an online, open-access, peer-reviewed suite of tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research. Tutorials provide guidance on a variety of digital methods and approaches including but not limited to programming. Our mission is to fill a unique niche for those interested in the Digital Humanities, by providing a bridge between broad 'getting started' portals and generic 'programming' resources. 
 
 We’ve assembled and carefully edited a variety of [lessons](lessons) that describe and illustrate fundamental digital and programming principles and techniques. We have [lessons](lessons) on Application Programming Interfaces (APIs), Data Management, Data Manipulation, Distant Reading, Mapping and Geographic Information Systems (GIS), Network Analysis, Digital Exhibit Building, Programming, and Web Scraping. Our tutorials include nearly a dozen lessons on popular DH tools such as MALLET, Omeka, and QGIS.
 
