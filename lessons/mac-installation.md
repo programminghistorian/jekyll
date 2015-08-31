@@ -52,7 +52,7 @@ you, but for the sake of consistency in our lessons, we will be using
 Komodo Edit. You can download a copy of Komodo Edit from the [Komodo
 Edit website][]. Install it from the `.DMG` file
 
--   ##### Start Komodo Edit
+##### Start Komodo Edit
 
     It should look something like this:
 
@@ -65,7 +65,7 @@ If you don’t see the Toolbox pane on the right hand side, choose
 is open or not. Take some time to familiarize yourself with the layout
 of the Komodo editor. The Help file is quite good
 
--   ##### Configure Komodo Edit
+##### Configure Komodo Edit
 
     Now you need to set up the editor so that you can run Python
     programs. In the Toolbox window, click on the gear icon and select
