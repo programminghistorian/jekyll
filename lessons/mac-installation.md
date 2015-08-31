@@ -73,13 +73,15 @@ programs. In the Toolbox window, click on the gear icon and select
 command to “`Run Python`” and feel free to change the icon if you
 like. In the “`Command`” box, type
 
-    ``` python
-    %(python) %f
+``` python
+%(python) %f
+```
 
 and under "Start in," enter
 
-    %D
-    ```
+``` python
+%D
+```
 
 Click OK. Your new Run Python command should appear in the Toolbox
 pane.
