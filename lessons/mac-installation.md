@@ -54,9 +54,9 @@ Edit website][]. Install it from the `.DMG` file
 
 ##### Start Komodo Edit
 
-    It should look something like this:
+It should look something like this:
 
-    ![][]
+![screenshot of Komodo Exit on OS X](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/komodo-edit-mac.png)
 
 Komodo Edit on a Mac
 
@@ -67,24 +67,22 @@ of the Komodo editor. The Help file is quite good
 
 ##### Configure Komodo Edit
 
-    Now you need to set up the editor so that you can run Python
-    programs. In the Toolbox window, click on the gear icon and select
-    “`New Command…`“. This will open a new dialog window. Rename your
-    command to “`Run Python`” and feel free to change the icon if you
-    like. In the
-
-    “`Command`” box, type
+Now you need to set up the editor so that you can run Python
+programs. In the Toolbox window, click on the gear icon and select
+“`New Command…`“. This will open a new dialog window. Rename your
+command to “`Run Python`” and feel free to change the icon if you
+like. In the “`Command`” box, type
 
     ``` python
     %(python) %f
 
-    #and under "Start in," enter
+and under "Start in," enter
 
     %D
     ```
 
-    Click OK. Your new Run Python command should appear in the Toolbox
-    pane
+Click OK. Your new Run Python command should appear in the Toolbox
+pane.
 
 Step 2 – “Hello World” in Python
 --------------------------------
