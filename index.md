@@ -50,4 +50,4 @@ Please direct correspondence in the first instance to <a href="mailto:fwgibbs@gm
 
 If you wish to cite _The Programming Historian_, may we suggest the following:
 
-Crymble, Adam, Fred Gibbs, Allison Hegel, Caleb McDaniel, Ian Milligan, Miriam Posner, and William J. Turkel, eds. _The Programming Historian_. 2nd ed., 2015. http://programminghistorian.org/.
+Crymble, Adam, Fred Gibbs, Allison Hegel, Caleb McDaniel, Ian Milligan, Miriam Posner, and William J. Turkel, eds. _The Programming Historian_. 2nd ed., 2015. [http://programminghistorian.org/](http://programminghistorian.org/).
