@@ -36,7 +36,6 @@ We strive to ensure all tutorials are functional on their date of publication. F
 
 ## Funding & Ownership
 
-
 _The Programming Historian_ is a volunteer-led initiative, controlled entirely by its editorial board with the help of community contributors. It is not a legal entity, and does not currently receive direct funding from any source. 
 
 The project is grateful for past support by the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)), and for hosting support from the Roy Rosenzweig Centre for New Media ([RRCHNM](http://chnm.gmu.edu/)). If you would like to provide financial support to help the project grow, please contact one of the [Editorial Board members](http://programminghistorian.org/project-team).
@@ -46,3 +45,9 @@ This project is our attempt to demonstrate what open access academic publishing 
 ## Contact
 
 Please direct correspondence in the first instance to <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> at the University of New Mexico.
+
+## Suggested Citation
+
+If you wish to cite _The Programming Historian_, may we suggest the following:
+
+Crymble, Adam, Fred Gibbs, Allison Hegel, Caleb McDaniel, Ian Milligan, Miriam Posner, and William J. Turkel, eds. _The Programming Historian_. 2nd ed., 2015. http://programminghistorian.org/.
