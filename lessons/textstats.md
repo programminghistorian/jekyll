@@ -1,8 +1,3 @@
-
-
-    %matplotlib inline
-
-```
 ---
 title: Basic File Statistics
 authors:
@@ -12,27 +7,6 @@ reviewers:
 - unknown
 layout: default
 ---
-```
-
-For images:
-
-    {% include figure.html src="../images/filename" caption="Caption to image" %}
-
-For tables:
-```
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-```
-
-**Notes for Editors/Reviewers**
-
-* The iPython notebook in which I wrote this is included in the directory, in case anyone prefers to review the manuscript in that form. (It does an awfully job of generating markdown, with the exception of putting in fences for code blocks.)
-* While these scripts were begun under Python 2.7, they have been revised, and are now maintained, under Python 3.4. (I can build in an argument for Python 3.4, if that's advisable -- essentially all the modules for doing data analysis and/or NLP are now focused on development under Python 3.)
-* The only thing I present here is text statistics and graphing of those statistics, which is all I proposed. I could also, either here or in a separate post, demonstrate how to work with the NLTK to the kinds of things described in the tutorial on AntConc within Python -- e.g., KWiC searches, synonyms, antonyms, word frequencies, etc. (I also have scripts for transforming bimodal graphs into single mode network projections. [TL;DR: NetworkX documentation is sometimes inpenetrable but it can be done.])
-* While I initially titled this idea/tutorial "mesoanalysis" -- which is the eventual goal of this work, this tutorial seems better called **text stats**. I'm happy to change it back and/or happy to write a brief note, at the start or end, about how these first steps can be extended. (I'd like to write some additional tutorials doing just that.)
-* Bio "blurb" is at the end of the post.
 
 ## Introduction
 
