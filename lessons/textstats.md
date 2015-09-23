@@ -373,7 +373,7 @@ The next five lines dictate the dimensions of our graph, label the two axes, giv
     plt.show()
 
 
-![png](textstats_files/textstats_43_0.png)
+{% include figure.html src="../images/textstats_43_0.png" caption="Results of pyplot" %}
 
 
 Here is the complete script for generating a bar graph with overlapping bars. If you want to create a graph with only one set of bars, all you need to do is delete, or comment out, the line for `plot_lex`. Please note that `plt.show()` has been commented out and the `plt.save()` command added: it will save a PNG file in the current directory.
@@ -425,6 +425,7 @@ Here is the complete script for generating a bar graph with overlapping bars. If
 
 
 ![png](textstats_files/textstats_45_0.png)
+{% include figure.html src="../images/textstats_45_0.png" caption="A Bar Chart Visualizing the Statistics for a Group of Texts" %}
 
 
 ## Using a Dataframe to Plot
@@ -518,6 +519,7 @@ Now all that needs to be done is to feed this data to `matplotlib` to generate o
 
 
 ![png](textstats_files/textstats_53_0.png)
+{% include figure.html src="../images/textstats_53_0.png" caption="Results from a Dataframe" %}
 
 
 Here is the complete script. Note that I added a "style" just before we start drawing the graph. There are a number of these available, and users are, of course, free to create their own.
@@ -549,6 +551,7 @@ Here is the complete script. Note that I added a "style" just before we start dr
 
 
 ![png](textstats_files/textstats_55_0.png)
+{% include figure.html src="../images/textstats_55_0.png" caption="Results from Complete Script" %}
 
 
 ## Putting It All Together
