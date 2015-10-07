@@ -28,8 +28,8 @@
           {% if page.layout == 'default' %}
 			<item>
 				<title>{{ page.title }}</title>
-				{% if page.excerpt %}
-					<description>{{ page.excerpt | xml_escape }}</description>
+				{% if page.abstract %}
+					<description>{{ page.abstract | xml_escape }}</description>
 				{% else %}
 					<description>Page posted on the Programming Historian</description>
 				{% endif %}
