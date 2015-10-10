@@ -2,10 +2,9 @@
 title: Getting Started with Markdown
 authors:
 - Sarah Simpkin
-date: 2014-12-08
+date: 2015-10-10
 published: false
-reviewers:
-- 
+reviewers: 
 layout: default
 ---
 
@@ -14,6 +13,8 @@ Getting Started with Markdown
 
 ### Lesson goals
 In this lesson, you will be introduced to Markdown, a plain text-based syntax for formatting documents. You will find out why it is used, how to format Markdown files, and how to preview Markdown-formatted documents on the web.
+
+Since Programming Historian lessons are submitted as Markdown files, I have included PH-specific examples whenever possible. It is my hope that this guide will be useful to you if you are considering authoring a lesson for this site.
 
 ### What is Markdown?
 
@@ -26,10 +27,19 @@ By following Markdown syntax, you'll be able to produce files that are both legi
 ### Markdown Syntax
 Markdown files are saved with the extension `.md`, and can be opened in a text editor such as TextEdit, Notepad, Sublime Text, or Vim. Many websites and publishing platforms also offer web-based editors and/or extensions for entering text using Markdown syntax.
 
-In this tutorial, we'll be practicing Markdown syntax in the browser using [Markdown Viewer](http://www.markdownviewer.com/). You'll be able to enter Markdown-formatted text on the left and immediately see the rendered version alongside it on the right.
+In this tutorial, we'll be practicing Markdown syntax in the browser using [StackEdit](https://stackedit.io). You'll be able to enter Markdown-formatted text on the left and immediately see the rendered version alongside it on the right. 
+
+Since all Programming Historian lessons are written in Markdown, we can examine these files in StackEdit too. From the [StackEdit editor](https://stackedit.io/editor), click on the `#` in the upper left corner for a menu. Choose `Import from URL`, then paste the following URL to display the "Intro to Bash" lesson in the editor:
+
+```
+https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/lessons/intro-to-bash.md
+```
+You'll notice that while the right panel features a more elegant rendering of the text, the original Markdown file on the left is still fairly readable. 
+
+Now, let's dive into the lesson by writing our own Markdown syntax. Create a new document in Stackedit by clicking the folder icon in the upper right and choosing `New document`. 
 
 #### Headings
-Four levels of headings are available in Markdown, and are indicated by the number of `#` preceding the heading text. Clear the existing text in [Markdown Viewer](http://www.markdownviewer.com/) and enter the following examples into the textbox:
+Four levels of headings are available in Markdown, and are indicated by the number of `#` preceding the heading text. Paste the following examples into the textbox:
 
 ```
 # First level heading
@@ -48,6 +58,19 @@ Second level heading
 ----------
 ```
 
+**These will render as:**
+# First level heading
+## Second level heading
+### Third level heading
+#### Fourth level heading
+
+
+First level heading
+=======
+
+Second level heading
+----------
+
 Notice how the Markdown syntax remains understandable even in the plain text version.
 
 #### Paragraphs & Line Breaks
@@ -55,13 +78,21 @@ Notice how the Markdown syntax remains understandable even in the plain text ver
 Try typing the following sentence into the textbox:
 
 ```
-The quick brown fox
-jumped over the lazy dog
+Welcome to the Programming Historian.
+
+Today we'll be learning about Markdown syntax.
+This sentence is separated by a single line break from the preceding one.
 ```
+**This renders as:**
 
-Notice how the styled version of the text does not include a line break. Markdown will not treat single line breaks as new lines. Instead, you may skip down one line by entering two blank spaces after your final word. Try entering two spaces after `fox` to see the difference.
+Welcome to the Programming Historian.
 
-Paragraphs must be separated by an empty line. Leave an empty line between `fox` and `jumped` to see how this works.
+Today we'll be learning about Markdown syntax.
+This sentence is separated by a single line break from the preceding one.
+
+
+Paragraphs must be separated by an empty line. Leave an empty line between `syntax.` and `This` to see how this works. In some implementations of Markdown, single line breaks must also be indicated with two empty spaces at the end of each line. This is unnecessary in the [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/) variant that Stackedit uses by default.
+
 
 #### Adding Emphasis
 
@@ -73,7 +104,9 @@ Try adding emphasis to a sentence using these methods:
 I am **very** excited about the _Programming Historian_ tutorials.
 ```
 
-It should render as: I am **very** excited about the _Programming Historian_ tutorials.
+**This renders as:**
+
+ I am **very** excited about the _Programming Historian_ tutorials.
 
 #### Making Lists
 
@@ -92,6 +125,18 @@ Shopping List
 ```
 Indenting the `*` by four spaces will allow you to created nested items.
 
+**This renders as:**
+Shopping List
+----------
+* Fruits
+    * Apples
+    * Oranges
+    * Grapes
+* Dairy
+    * Milk
+    * Cheese
+
+Ordered lists are written by numbering each line. Once again, the goal of Markdown is to produce documents that are both legible as plain text and able to be transformed into other formats. 
 ```
 To-do list
 ----------
@@ -99,7 +144,14 @@ To-do list
 2. Go to grocery store
 3. Prepare lunch
 ```
-Ordered lists are written by numbering each line. Once again, the goal of Markdown is to produce documents that are both legible as plain text and able to be transformed into other formats.
+
+**This renders as:**
+
+To-do list
+----------
+1. Finish Markdown tutorial
+2. Go to grocery store
+3. Prepare lunch
 
 #### Code Snippets
 
@@ -107,15 +159,27 @@ Representing code snippets differently from the rest of a document is a good pra
 
 Try typing the following text into the textbox:
 
-    ```
+    ```html
     <html>
         <head>
-    	    <title>Website Title</title>
+            <title>Website Title</title>
         </head>
         <body>
         </body>
     </html>
     ```
+
+**This renders as:**
+```
+    <html>
+        <head>
+            <title>Website Title</title>
+        </head>
+        <body>
+        </body>
+    </html>
+```
+
 Notice how the code block renders in a monospaced font.
 
 #### Blockquotes
@@ -128,6 +192,10 @@ Try typing the following text into the textbox:
 > Hello, I am a paragraph of text enclosed in a blockquote. Notice how I am offset from the left margin. 
 ```
 
+**This renders as:**
+
+> Hello, I am a paragraph of text enclosed in a blockquote. Notice how I am offset from the left margin. 
+
 #### Links
 
 Links can be written in two styles.
@@ -135,6 +203,10 @@ Links can be written in two styles.
 Inline links are written by enclosing the link text in square brackets first, then including the URL and optional alt-text in round brackets.
 
 `For more tutorials, please visit the [Programming Historian](http://programminghistorian.org/ "Programming Historian main page").`
+
+**This renders as:**
+
+For more tutorials, please visit the [Programming Historian](http://programminghistorian.org/ "Programming Historian main page").
 
 Reference-style links are handy for footnotes and may keep your plain text document neater. These are written with an additional set of square brackets to establish a link ID label. 
 
@@ -144,11 +216,22 @@ You may then add the URL to another part of the document:
 
 `[1]: http://programminghistorian.org/ "The Programming Historian"`
 
+**This renders as:**
+
+One example is the [Programming Historian][1] website.
+
+[1]: http://programminghistorian.org/ "The Programming Historian"
+
+
 #### Images
 
 Images can be referenced using `!`, followed by some alt-text in square brackets, followed by the image URL and an optional title. These will not be displayed in your plain text document, but would be embedded into a rendered HTML page.
 
 `![Wikipedia logo](http://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg "Wikipedia logo")`
+
+**This renders as:**
+
+![Wikipedia logo](http://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg "Wikipedia logo")
 
 #### Horizontal Rules
 
@@ -160,13 +243,17 @@ ___
 - - - - - -
 ```
 
+**This renders as:**
+
+---
+***
+- - - - - - - 
+
 #### Tables
 
 The core Markdown spec does not include tables; however, some sites and applications use variants of Markdown that may include tables and other special features. [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/) is one of these variants, and is used to render `.md` files in the browser on the GitHub site. 
 
 To create a table within GitHub, use pipes `|` to separate columns and hyphens `-` between your headings and the rest of the table content. While pipes are only strictly necessary between columns, you may use them on either side of your table for a more polished look. Cells can contain any length of content, and it is not necessary for pipes to be vertically aligned with each other.
-
-Please note that the Markdown Viewer website does not support tables as of the time of writing.
 
 ```
 | Heading 1 | Heading 2 | Heading 3 |
@@ -176,7 +263,7 @@ Please note that the Markdown Viewer website does not support tables as of the t
 | Row 3, column 1 | Row 3, column 2 | Row 3, column 3|
 ```
 
-Will render as:
+**This renders as:**
 
 | Heading 1 | Heading 2 | Heading 3 |
 | --------- | --------- | --------- |
@@ -192,6 +279,7 @@ To specify the alignment of each column, colons `:` can be added to the header r
 | Apples | Red | 5000 |
 | Bananas | Yellow | 75 |
 ```
+**This renders as:**
 
 | Left-aligned | Centered | Right-aligned |
 | :-------- | :-------: | --------: |
@@ -205,4 +293,4 @@ While Markdown is becoming increasingly popular, particularly for styling docume
 
 ### Conclusion
 
-Markdown is a useful middle ground between unstyled plain text files and legacy word processor documents. Its simple syntax is quick to learn and legible both by itself and when rendered into HTML. Finally, choosing to write your own documents in Markdown should mean that they will be usable and readable in the long-term.
+Markdown is a useful middle ground between unstyled plain text files and legacy word processor documents. Its simple syntax is quick to learn and legible both by itself and when rendered into HTML and other document types. Finally, choosing to write your own documents in Markdown should mean that they will be usable and readable in the long-term.
