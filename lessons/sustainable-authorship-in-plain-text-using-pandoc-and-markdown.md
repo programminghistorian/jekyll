@@ -322,7 +322,7 @@ of the text: `![image caption](your_image.jpg)`.
 
 At this point, your `main.md` should look something like the following.
 You can download this sample .md file
-[here](https://github.com/dhcolumbia/pandoc-workflow/blob/master/sample.md).
+[here](../assets/sample.md).
 
     ---  
     title: Plain Text Workflow  
