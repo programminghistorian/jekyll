@@ -32,10 +32,15 @@
 	<div role="main">
 		<article>
 			<header>
+
+                {% if page.deprecated %}
+                <p class="deprecated">This is an old lesson that is no longer being actively maintained.</p>
+                {% endif %}
+				
 			    <p class="kicker">{{ page.date | date: "%B %-d, %Y" }}</p>
 				<h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
                 <p class="byline">By {{ authorString }}</p>
-				
+
 				{% assign reviewerCount = page.reviewers | size %}
 				{% if reviewerCount == 0 %}
 				      <!-- No reviewers -->

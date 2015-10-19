@@ -387,6 +387,14 @@ table tfoot {
     font-weight: 700;
   }
 
+  .deprecated {
+    text-align:center;
+    margin:0;
+    color: #F44336;
+    font-weight: 700;
+    font-size: 1em;
+  }
+
   /*Editor's Comments during Review */
   .editor{color: red;}
 

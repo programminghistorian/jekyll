@@ -5,6 +5,7 @@ authors:
 date: 2013-04-04
 reviewers: 
 layout: default
+deprecated: true
 ---
 
 These lessons use Python to identify keywords and the words that
