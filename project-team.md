@@ -30,8 +30,6 @@ Summer Fellows 2015
 
 {% include contact-info.html name="Andrew Hnatow" %}
 
-{% include contact-info.html name="Stephen Margheim" %}
-
 {% include contact-info.html name="Kim Pham" %}
 
 {% include contact-info.html name="Evan Taparata" %}
