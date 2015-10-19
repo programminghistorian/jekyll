@@ -265,6 +265,10 @@ possible to create a basic pull request using nothing but your web
 browser---even if you have never used GitHub or git before. The
 following steps will show you how to use this in-browser method.
 
+Should you encounter any problems or have any questions as you prepare your
+pull request, please contact [Caleb McDaniel](http://wcm1.web.rice.edu) for
+assistance.
+
 ### Making a Pull Request Using Only Your Browser
 
 1.  [Create an account] on GitHub if you don't have one already, and
