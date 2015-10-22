@@ -91,7 +91,7 @@ psuedo-RDF database might contain interrelated statements like these:
 However, if we were to visualize this as a network graph, it would appear like
 so:
 
-{% include figure.html src="/images/sparql01.png" caption="A network visualization of the pseudo-RDF shown above." %}
+{% include figure.html src="/images/sparql01.svg" caption="A network visualization of the pseudo-RDF shown above." %}
 
 A traditional relational database might split attributes about artworks and
 attributes about artists into separate tables. In an RDF/graph database, all
@@ -122,7 +122,7 @@ On receiving this query, the database will search for all values of `?painting`
 that properly complete the RDF statement `<has medium> <oil on canvas> .` We
 might visualize this query like so:
 
-{% include figure.html src="/images/sparql02.png" caption="A visualization of the SPARQL query, with mentioned nodes and edges in orange, and selected nodes (those that will be returned in the results) in red." %}
+{% include figure.html src="/images/sparql02.svg" caption="A visualization of the SPARQL query, with mentioned nodes and edges in orange, and selected nodes (those that will be returned in the results) in red." %}
 
 And our results might look like this table:
 
@@ -315,7 +315,7 @@ the dates that objects were created. Similar to the way that we followed a
 single link to determine an object type, we must hop through several nodes to
 find the production dates associated with a given object:
 
-{% include figure.html src="/images/sparql07.png" caption="Visualizing part of the British Museum's data model where production dates are connected to objects." %}
+{% include figure.html src="/images/sparql07.svg" caption="Visualizing part of the British Museum's data model where production dates are connected to objects." %}
 
 ```
 # Return object links and creation date
