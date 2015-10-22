@@ -222,9 +222,10 @@ recognize whenever we use one in a SPARQL query.
 - **SPARQL** - _Protocol and RDF Query Language_ - The language used to query RDF graph databases
 - **RDF** - _Resource Description Framework_ - A method for structuring data as a graph or network of connected statements, rather than a series of tables.
 - **LOD** - _Linked Open Data_ - LOD is RDF data published online with dedicated URIs in such a manner than developers can reliably reference it.
-- **URI** - _Uniform Resource Identifier_ - a string of characters for identifying a resource. A **URL**, or uniform resource locator, is a type of URI that points to resources on the web.
-- **prefix** - In order to simplify SPARQL queries, a user may specify prefixes that act as abbreviations for full URIs. These abbreviations, or **QNames**, are also used in namespaced XML documents.
 - **statement** - Sometimes also called a "triple", an RDF statement is a quantum of knowledge comprising a _subject_, _predicate_, and _object_.
+- **URI** - _Uniform Resource Identifier_ - a string of characters for identifying a resource. RDF statements use URIs to link various resources together. A URL, or uniform resource locator, is a type of URI that points to resources on the web.
+- **literal** - Some objects in RDF statements do not refer to other resources with a URI, but instead convey a value, such as text (`"Rembrandt van Rijn"`), a number (`5`), or a date (`1606-06-15`). These are known as literals.
+- **prefix** - In order to simplify SPARQL queries, a user may specify prefixes that act as abbreviations for full URIs. These abbreviations, or **QNames**, are also used in namespaced XML documents.
 
 # Real-world queries
 
