@@ -259,7 +259,7 @@ WHERE {
 [Edit query](http://collection.britishmuseum.org/sparql?sample=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D)
 
 By calling `SELECT ?p ?o` we're asking the database to return the values of `?p`
-and `?o` as described in the `WEHRE {}` command This query returns every
+and `?o` as described in the `WEHRE {}` command. This query returns every
 statement for which our example artwork,
 `<http://collection.britishmuseum.org/id/object/PPA82633>`, is the subject.
 
