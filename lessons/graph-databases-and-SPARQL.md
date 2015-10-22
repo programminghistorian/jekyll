@@ -273,6 +273,8 @@ queries, so you will find many hyperlinks are displayed in their abbreviated
 versions; if you mouse over them your browser will display their unabbreviated
 URIs.
 
+{% include figure.html src="/images/sparql04-1.svg" caption="Visualizing a handful of the nodes returned by the first query to the BM. Nodes and edges in this graph that are also in the table of results above are colored red. Additional levels in the hierarchy are included as a preview of how this single print connects to the larger BM graph." %}
+
 Let's find out how they store the object type information: look for the
 predicate `<bmo:PX_object_type>` (highlighted in the figure above) and click on
 the link for `thes:x8577` to navigate to the node describing the particular
