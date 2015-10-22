@@ -118,8 +118,10 @@ WHERE {
 }
 ```
 
-On receiving this query, the database will search for all values of `?painting`
-that properly complete the RDF statement `<has medium> <oil on canvas> .`:
+`?painting` in this query stands in for the node (or nodes) that the database
+will return. On receiving this query, the database will search for all values of
+`?painting` that properly complete the RDF statement `<has medium> <oil on
+canvas> .`:
 
 {% include figure.html src="/images/sparql01-1.svg" caption="A visualization of what our query is looking for." %}
 
