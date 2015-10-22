@@ -119,8 +119,11 @@ WHERE {
 ```
 
 On receiving this query, the database will search for all values of `?painting`
-that properly complete the RDF statement `<has medium> <oil on canvas> .` We
-might visualize this query like so:
+that properly complete the RDF statement `<has medium> <oil on canvas> .`:
+
+{% include figure.html src="/images/sparql01-1.svg" caption="A visualization of what our query is looking for." %}
+
+When the query runs against the full database, it looks for the nodes and edges that match this statement, while excluding the rest of the data:
 
 {% include figure.html src="/images/sparql02.svg" caption="A visualization of the SPARQL query, with mentioned nodes and edges in orange, and selected nodes (those that will be returned in the results) in red." %}
 
