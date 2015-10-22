@@ -152,6 +152,9 @@ Here we've introduced a second variable, `?artist`. The RDF database will return
 all matching combinations of `?artist` and `?painting` that fulfill both of
 these statements.
 
+{% include figure.html src="/images/sparql02-1.svg" caption="A visualization of the SPARQL query, with mentioned nodes and edges in orange, and selected nodes (those that will be returned in the results) in red." %}
+
+
 | artist             | painting             |
 |--------------------|----------------------|
 | Rembrandt van Rijn | The Nightwatch       |
