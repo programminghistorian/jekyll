@@ -164,9 +164,8 @@ these statements.
 
 So far, we have been looking at a toy representation of RDF that uses
 easy-to-read text. However, RDF is primarily stored as URIs (Uniform Resource
-Identifiers, otherwise recognizable as hyperlinks) that separate conceptual
-entities from their plain-English (or other langauage!) labels. In real RDF, our
-original statement:
+Identifiers) that separate conceptual entities from their plain-English (or
+other langauage!) labels. In real RDF, our original statement:
 
 ```
 <The Nightwatch>   <was created by>   <Rembrandt van Rijn> .
@@ -223,9 +222,8 @@ recognize whenever we use one in a SPARQL query.
 - **SPARQL** - _Protocol and RDF Query Language_ - The language used to query RDF graph databases
 - **RDF** - _Resource Description Framework_ - A method for structuring data as a graph or network of connected statements, rather than a series of tables.
 - **LOD** - _Linked Open Data_ - LOD is RDF data published online with dedicated URIs in such a manner than developers can reliably reference it.
-- **URI** - _Uniform Resource Identifier_ - Also known as a URL (uniform resource locator), or a web link.
-- **node** - A node in a graph database represents some entity that has relationships to other entities within the database.
-- **prefix** - In order to simplify SPARQL queries, a user may specify prefixes that act as abbreviations for full URIs.
+- **URI** - _Uniform Resource Identifier_ - a string of characters for identifying a resource. A **URL**, or uniform resource locator, is a type of URI that points to resources on the web.
+- **prefix** - In order to simplify SPARQL queries, a user may specify prefixes that act as abbreviations for full URIs. These abbreviations, or **QNames**, are also used in namespaced XML documents.
 - **statement** - Sometimes also called a "triple", an RDF statement is a quantum of knowledge comprising a _subject_, _predicate_, and _object_.
 
 # Real-world queries
