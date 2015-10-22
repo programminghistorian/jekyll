@@ -305,10 +305,9 @@ WHERE {
 
 {% include figure.html src="/images/sparql06.png" caption="A one-column table returned by our query for every object with type 'print'" %}
 
-In this query, `?object_type` is a _blank node_. Because it is not present in
-the `SELECT` command, it will not show up in the results table. However, it is
-essential to structuring our query, because it connects the dots from object to
-type label.
+Note that, because `?object_type` is not present in the `SELECT` command, it
+will not show up in the results table. However, it is essential to structuring
+our query, because it connects the dots from `?object` to the label `"print"`.
 
 ## FILTER
 
