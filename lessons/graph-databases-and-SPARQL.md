@@ -30,15 +30,19 @@ donor that happens to be described in the dataset as well.
 
 [api]: /lessons/intro-to-the-zotero-api.html
 
-RDF databases (also called graph databases) are well-suited to expressing
-complex relationships between many entities, like people people, places, events,
-and concepts tied to individual objects. Because RDF databases support the use
-of URLs (weblinks), they can be made available online and linked to other
-databases, hence the term "Linked Open Data". Major art collections including
-the [British Museum][bm], [Europeana], the [Smithsonian American Art
-Museum][saam], and the [Paul Mellon Center for British Art][mellon] have
-published their collections data as LOD, and they have been joined by the [Getty
-Vocabulary Program][getty].
+RDF databases are well-suited to expressing complex relationships between many
+entities, like people people, places, events, and concepts tied to individual
+objects. These databases are often referred to as "graph" databases because they
+structure information as a graph or network, where a set of resources, or nodes,
+are connected together by edges that describe the relationships between each
+resource.
+
+Because RDF databases support the use of URLs (weblinks), they can be made
+available online and linked to other databases, hence the term "Linked Open
+Data". Major art collections including the [British Museum][bm], [Europeana],
+the [Smithsonian American Art Museum][saam], and the [Paul Mellon Center for
+British Art][mellon] have published their collections data as LOD, and they have
+been joined by the [Getty Vocabulary Program][getty].
 
 [getty]: http://vocab.getty.edu
 
@@ -71,9 +75,9 @@ a subject, predicate, and an object, e.g.:
 
 (Note that just like any good sentence, they each have a period at the end.)
 
-Each of these elements is a node within a vast network. A subject in one
-statement may be an object (or even a predicate) in another statement. A
-psuedo-RDF database might contain interrelated statements like these:
+Each of these elements is a node within a vast graph. A subject in one statement
+may be an object (or even a predicate) in another statement. A psuedo-RDF
+database might contain interrelated statements like these:
 
 ```
 ...
@@ -125,9 +129,11 @@ canvas> .`:
 
 {% include figure.html src="/images/sparql01-1.svg" caption="A visualization of what our query is looking for." %}
 
-When the query runs against the full database, it looks for the nodes and edges that match this statement, while excluding the rest of the data:
+When the query runs against the full database, it looks for the subjects,
+predicates, and objects that match this statement, while excluding the rest of
+the data:
 
-{% include figure.html src="/images/sparql02.svg" caption="A visualization of the SPARQL query, with mentioned nodes and edges in orange, and selected nodes (those that will be returned in the results) in red." %}
+{% include figure.html src="/images/sparql02.svg" caption="A visualization of the SPARQL query, with mentioned elements in orange, and selected elements (those that will be returned in the results) in red." %}
 
 And our results might look like this table:
 
@@ -152,7 +158,7 @@ Here we've introduced a second variable, `?artist`. The RDF database will return
 all matching combinations of `?artist` and `?painting` that fulfill both of
 these statements.
 
-{% include figure.html src="/images/sparql02-1.svg" caption="A visualization of the SPARQL query, with mentioned nodes and edges in orange, and selected nodes (those that will be returned in the results) in red." %}
+{% include figure.html src="/images/sparql02-1.svg" caption="A visualization of the SPARQL query, with mentioned elements in orange, and selected elements (those that will be returned in the results) in red." %}
 
 
 | artist             | painting             |
@@ -274,7 +280,7 @@ queries, so you will find many hyperlinks are displayed in their abbreviated
 versions; if you mouse over them your browser will display their unabbreviated
 URIs.
 
-{% include figure.html src="/images/sparql04-1.svg" caption="Visualizing a handful of the nodes returned by the first query to the BM. Nodes and edges in this graph that are also in the table of results above are colored red. Additional levels in the hierarchy are included as a preview of how this single print connects to the larger BM graph." %}
+{% include figure.html src="/images/sparql04-1.svg" caption="Visualizing a handful of the nodes returned by the first query to the BM. Elements in this graph that are also in the table of results above are colored red. Additional levels in the hierarchy are included as a preview of how this single print connects to the larger BM graph." %}
 
 Let's find out how they store the object type information: look for the
 predicate `<bmo:PX_object_type>` (highlighted in the figure above) and click on
