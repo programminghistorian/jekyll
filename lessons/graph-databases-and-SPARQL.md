@@ -396,25 +396,38 @@ ORDER BY DESC(?n)
 
 {% include figure.html src="/images/sparql09.png" caption="Counts of objects by type produced between 1580 and 1600." %}
 
-## Export results to CSV
+## Working with SPARQL results
 
-So far, we have only viewed results in the browser window. However, SPARQL
-endpoints are designed to return structured data to be used by other programs.
+Having constructed and run a query... what do we do with the results? Many
+endpoints offer, like the British Museum, a web-based browser that returns
+human-readable results. However, SPARQL endpoints are designed to return
+structured data to be used by other programs.
+
+### Export results to CSV
+
 In the top right corner of the results page for the BM endpoint, you will find
-links for both JSON and XML downloads. Other endpoints may also offer the option
-for a CSV/TSV download, however this option is not always available.
+links for both JSON and XML downloads.  Other endpoints may also offer the
+option for a CSV/TSV download, however this option is not always available. The
+JSON and XML output from a SPARQL endpoint contain not only the values returned
+from the `SELECT` statement, but also additional metadata about variable types
+and languages.
 
-To quickly convert JSON results from a SPARQL endpoint, I recommend the free
-command line utility [jq](http://stedolan.github.io/jq/download/). (For a
-tutorial on using command line programs, see ["Introduction to the Bash Command
+Parsing the XML verson of this output may be done with a tool like Beautiful
+Soup ([see its _Programming Historian_
+lesson](/lessons/intro-to-beautiful-soup.html)) or [Open
+Refine](http://openrefine.org/). To quickly convert JSON results from a SPARQL
+endpoint into a tabular format, I recommend the free command line utility
+[jq](http://stedolan.github.io/jq/download/). (For a tutorial on using command
+line programs, see ["Introduction to the Bash Command
 Line"](/lessons/intro-to-bash.html).) The following query will convert the
-special JSON RDF format into a CSV file:
+special JSON RDF format into a CSV file, which you may load into your preferred
+program for further analysis and visualization:
 
 ```sh
 jq -r '.head.vars as $fields | ($fields | @csv), (.results.bindings[] | [.[$fields[]].value] | @csv)' sparql.json > sparql.csv
 ```
 
-## Export results to Palladio
+### Export results to Palladio
 
 The popular data exploration platform [Palladio] can directly load data from a
 SPARQL endpoint. On the "Create a new project" screen, a link at the bottom to
