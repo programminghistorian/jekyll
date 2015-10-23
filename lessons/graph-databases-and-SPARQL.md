@@ -453,10 +453,17 @@ example of how to write SPARQL queries for the British Museum's database. You
 also learned how to use aggregation commands in SPARQL to group, count, and sort
 results rather than simply list them.
 
-There are even more ways to modify these queries, such as introducing `OR`
-statements, full-text searching, or doing other mathematical operations more
-complex than counting. For a more complete rundown of the commands available in
-SPARQL, see these links:
+There are even more ways to modify these queries, such as introducing `OR` and
+`UNION`, and `CONSTRUCT` statements, full-text searching, or doing other
+mathematical operations more complex than counting. For a more complete rundown
+of the commands available in SPARQL, see these links:
 
 - [How to SPARQL](http://rdf.myexperiment.org/howtosparql?)
 - [Wikibooks SPARQL tutorial](http://en.wikibooks.org/wiki/XQuery/SPARQL_Tutorial)
+
+Both the Europeana and Getty Vocabularies LOD sites also offer extensive, and
+quite complex example queries which can be good sources for understanding how to
+search their data:
+
+- [Europeana SPARQL how-to](http://labs.europeana.eu/api/linked-open-data-SPARQL-endpoint)
+- [Getty Vocabularies Example Queries](http://vocab.getty.edu/queries)
