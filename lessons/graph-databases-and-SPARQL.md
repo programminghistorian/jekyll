@@ -405,6 +405,69 @@ ORDER BY DESC(?n)
 
 {% include figure.html src="/images/sparql09.png" caption="Counts of objects by type produced between 1580 and 1600." %}
 
+## Linking multiple SPARQL endpoints
+
+Up until now, we have constructed queries that look for patterns in one dataset
+alone. In the ideal world envisioned by Linked Open Data advocates, multiple
+databases can be interlinked to allow very complex queries dependent on
+knowledge present in different locations. However, this is easier said than
+done, and many endpoints (the BM's included) do not yet reference outside
+authorities.
+
+One endpoint that does, however, is
+[Europeana's][eursparql]. They have created links
+between the objects in their database and records about individuals in
+[DBPedia](http://wiki.dbpedia.org/) and [VIAF](https://viaf.org/), places in
+[GeoNames](http://sws.geonames.org/), and concepts in the Getty Art &
+Architecture thesaurus. SPARQL allows you to insert `SERVICE` statements that
+instructing the database to "phone a friend" and run a portion of the query on
+an outside dataset, using the results to complete the query on the local
+dataset. While this lesson will go into the data models in Europeana and DBpedia in depth, the following query illustrates how a `SELECT` statement works. You may run it yourself by copying and pasting the query text into the [Europeana endpoint][eursparql].
+
+[eursparql]: http://europeana.ontotext.com/sparql
+
+```
+PREFIX edm:    <http://www.europeana.eu/schemas/edm/>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo:    <http://dbpedia.org/ontology/>
+PREFIX dbr:    <http://dbpedia.org/resource/>
+PREFIX rdaGr2: <http://rdvocab.info/ElementsGr2/>
+
+# Find all ?object related by some ?property to an ?agent born in a
+# ?dutch_city
+SELECT ?object ?property ?agent ?dutch_city
+WHERE {
+    ?proxy ?property ?agent .
+    ?proxy ore:proxyFor ?object .
+
+    ?agent rdf:type edm:Agent .
+    ?agent rdaGr2:placeOfBirth ?dutch_city .
+
+    # ?dutch_city is defined by having "Netherlands" as its broader
+    # country in DBpedia. The SERVICE statement asks
+    # http://dbpdeia.org/sparql which cities have the country
+    # "Netherlands". The answers to that sub-query will then be
+    # used to finish off our original query about objects in the
+    # Europeana database
+
+    SERVICE <http://dbpedia.org/sparql> {
+        ?dutch_city dbo:country dbr:Netherlands .
+   }
+}
+# This query can potentially return a lot of objects, so let's
+# just request the first 100 in order to speed up the search
+LIMIT 100
+```
+
+{% include figure.html src="/images/sparql09-1.png" caption="Visualizing the query sequence of the above SPARQL request" %}
+
+An interlinked query like this means that we can ask Europeana questions about
+its objects that rely on information about geography (what cities are in the
+Netherlands?) that Europeana does not need to store and maintain itself. In the
+future, more cultural LOD will hopefully link to authority databases like the
+Getty's Union List of Artist Names, allowing, for example, the British Museum to
+outsource biographical data to the more complete resources at the Getty.
+
 ## Working with SPARQL results
 
 Having constructed and run a query... what do we do with the results? Many
