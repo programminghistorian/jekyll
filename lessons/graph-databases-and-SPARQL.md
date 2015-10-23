@@ -463,9 +463,11 @@ also learned how to use aggregation commands in SPARQL to group, count, and sort
 results rather than simply list them.
 
 There are even more ways to modify these queries, such as introducing `OR` and
-`UNION`, and `CONSTRUCT` statements, full-text searching, or doing other
-mathematical operations more complex than counting. For a more complete rundown
-of the commands available in SPARQL, see these links:
+`UNION` statements (for describing conditional queries), and `CONSTRUCT`
+statements (for inferring new links based on defined rules), full-text
+searching, or doing other mathematical operations more complex than counting.
+For a more complete rundown of the commands available in SPARQL, see these
+links:
 
 - [How to SPARQL](http://rdf.myexperiment.org/howtosparql?)
 - [Wikibooks SPARQL tutorial](http://en.wikibooks.org/wiki/XQuery/SPARQL_Tutorial)
