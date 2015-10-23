@@ -221,7 +221,10 @@ instead.
 Many live databases, such as the British Museum database that we will try our
 first new queries on, already define these prefixes for us, so we won't have to
 explicitly state them in our queries. However, you should now be able to
-recognize whenever we use one in a SPARQL query.
+recognize whenever we use one in a SPARQL query. Also be aware that, prefixes
+can be arbitrarily assigned with whatever abbreviations you like, different
+endpoints may use slightly different prefixes for the same namespace (e.g. `dct`
+vs. `dcterms` for `<http://purl.org/dc/terms/>`).
 
 ## Terms to review
 
