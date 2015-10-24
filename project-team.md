@@ -18,8 +18,6 @@ Editorial Board
 
 {% include contact-info.html name="Miriam Posner" %}
 
-{% include contact-info.html name="William J. Turkel" %}
-
 
 Summer Fellows 2015
 -------------------
@@ -48,6 +46,9 @@ Emeritus Team Members
 {% include contact-info.html name="Jeremy Boggs" %}
 
 {% include contact-info.html name="Carrie Sanders" %}
+
+{% include contact-info.html name="William J. Turkel" %}
+
 
 Community Participants
 ----------------------
