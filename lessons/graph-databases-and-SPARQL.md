@@ -75,9 +75,13 @@ a subject, predicate, and an object, e.g.:
 
 (Note that just like any good sentence, they each have a period at the end.)
 
-Each of these elements is a node within a vast graph. A subject in one statement
-may be an object (or even a predicate) in another statement. A psuedo-RDF
-database might contain interrelated statements like these:
+Here, the subject `<The Nightwatch>` and the object `<Rembrandt van Rijn>` can
+be thought of as two nodes of the graph, with the predicate `<was created by>`
+defining an edge between them. (Technically, `<was created by>` can, in other
+queries, be treated as an object or subject itself, but that is beyond the scope
+of this tutorial.)
+
+A psuedo-RDF database might contain interrelated statements like these:
 
 ```
 ...
@@ -92,8 +96,8 @@ database might contain interrelated statements like these:
 ...
 ```
 
-However, if we were to visualize this as a network graph, it would appear like
-so:
+If we were to visualize these statements as nodes and edges within network
+graph, it would appear like so:
 
 {% include figure.html src="/images/sparql01.svg" caption="A network visualization of the pseudo-RDF shown above." %}
 
