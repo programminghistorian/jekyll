@@ -170,7 +170,7 @@ these statements.
 | Rembrandt van Rijn | The Nightwatch       |
 | Johannes Vermeer   | Woman with a Balance |
 
-## URIs
+## URIs and Literals
 
 So far, we have been looking at a toy representation of RDF that uses
 easy-to-read text. However, RDF is primarily stored as URIs (Uniform Resource
@@ -189,8 +189,9 @@ would more likely look something like this:
 
 _N.B. the Rijksmuseum has not (yet) built their own Linked Data site, so the URL in this query is just for demo purposes._
 
-In order to get the _labels_ for each of these URI's, what we're really doing is
-just retrieving more RDF statements:
+In order to get the human-readable version of the information represented by
+each of these URIs, what we're really doing is just retrieving more RDF
+statements:
 
 ```
 <http://data.rijksmuseum.nl/item/8909812347> <http://purl.org/dc/terms/title> "The Nightwatch" .
@@ -200,8 +201,16 @@ just retrieving more RDF statements:
 <http://dbpedia.org/resource/Rembrandt> <http://xmlns.com/foaf/0.1/name> "Rembrandt van Rijn" .
 ```
 
-The _objects_ of these statements in quotation marks are just strings of text,
-known as _literals_. Other literal values in RDF include dates and numbers.
+You will notice that, unlike the URIs in the query that are surrounded by `<>`,
+the _objects_ of these statements are just strings of text within quotation
+marks, known as _literals_. Literals are unlike URIs in that they represent
+values, rather than references. For example,
+`<http://dbpedia.org/resource/Rembrandt>` represents an entity that may
+reference (and be referenced by) any number of other statements (say, birth
+dates, students, or family members), while the text string `"Rembrandt van
+Rijn"` stands only for itself. Literals do not point to other nodes in the
+graph, and they can only ever be objects in an RDF statement. Other literal
+values in RDF include dates and numbers.
 
 See the _predicates_ in these statements, with domain names like `purl.org`,
 `w3.org`, and `xmlns.com`? These are some of the many providers of ontologies
@@ -319,6 +328,10 @@ WHERE {
 
 {% include figure.html src="/images/sparql06.png" caption="A one-column table returned by our query for every object with type 'print'" %}
 
+Remember that, because `"print"` here is a _literal_, we enclose it within
+quotation marks in our query. When you include literals in a SPARQL query, the
+databse will only return _exact_ matches for those values.
+
 Note that, because `?object_type` is not present in the `SELECT` command, it
 will not show up in the results table. However, it is essential to structuring
 our query, because it connects the dots from `?object` to the label `"print"`.
@@ -326,8 +339,9 @@ our query, because it connects the dots from `?object` to the label `"print"`.
 ## FILTER
 
 In the previous query, our SPARQL query searched for an exact match for the
-object type with the text label "print". However, often we want to match values
-within a certain range, such as dates. For this, we'll use the `FILTER` command.
+object type with the text label "print". However, often we want to match literal
+values that fall within a certain range, such as dates. For this, we'll use the
+`FILTER` command.
 
 To find URIs for all the prints in the BM created between 1580 and 1600, we'll
 need to first figure out where the database stores dates in relationship to the
@@ -359,7 +373,7 @@ WHERE {
   # to get to the date node! Now that we have it, we can
   # filter our results. Because we are filtering by date,
   # we must attach the xsd:date tag to our date strings
-  # so that the database can parse and compare them.
+  # so that the database can parse and compare the literals.
 
   FILTER(?date >= "1580-01-01"^^xsd:date &&
          ?date <= "1600-01-01"^^xsd:date)
