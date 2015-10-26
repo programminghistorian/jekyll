@@ -34,16 +34,13 @@ Summer Fellows 2015
 
 {% include contact-info.html name="Daniel van Strien" %}
 
-Contributors
-------------
-
-{% include contact-info.html name="Alan MacEachern" %}
-
 
 Emeritus Team Members
 ---------------------
 
 {% include contact-info.html name="Jeremy Boggs" %}
+
+{% include contact-info.html name="Alan MacEachern" %}
 
 {% include contact-info.html name="Carrie Sanders" %}
 
