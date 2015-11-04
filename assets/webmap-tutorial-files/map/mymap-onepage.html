@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+
+<style>
+#my-map {
+	width:960px;
+	height:500px;
+}
+</style>
+</head>
+
+<body>
+	<div id="my-map"></div>
+<script>
+
+window.onload = function () {
+    var basemap = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+	});
+
+    $.getJSON("census.geojson", function(data) {
+
+    var geojson = L.geoJson(data, {
+      onEachFeature: function (feature, layer) {
+        layer.bindPopup(feature.properties.Area_Name + '<p><b> 2001 Population: ' + feature.properties.Pop_2001 + '</b></p>' + '<p><b> 1801 Population ' + feature.properties.Pop_1801 + '</b></p>');
+      }
+    });
+
+
+    var map = L.map('my-map')
+    .fitBounds(geojson.getBounds());
+//    .setView([0.0,-10.0], 2);
+
+    basemap.addTo(map);
+    geojson.addTo(map);
+  });
+
+};
+</script>
+</body>
+</html>
