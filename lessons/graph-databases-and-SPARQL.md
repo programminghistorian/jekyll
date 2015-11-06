@@ -541,6 +541,12 @@ button at the bottom of the screen to begin manipulating it. For example, we mig
 
 {% include figure.html src="/images/sparql11.png" caption="A gallery of images with a timeline of their creation dates generated using Palladio." %}
 
+Note that Palladio is designed to work with relatively small amounts of data (on
+the order of hundreds or thousands of rows, not tens of thousands), so you may
+have to use the `LIMIT` command that we used when querying the Europeana
+endpoint to reduce the number of results that you get back, just to keep the
+software from freezing.
+
 ## Further reading
 
 In this tutorial we got a look at the structure of LOD as well as a real-life
