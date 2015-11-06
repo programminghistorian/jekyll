@@ -374,8 +374,9 @@ WHERE {
   # As you can see, we need to connect quite a few dots
   # to get to the date node! Now that we have it, we can
   # filter our results. Because we are filtering by date,
-  # we must attach the xsd:date tag to our date strings
-  # so that the database can parse and compare the literals.
+  # we must attach the tag ^^xsd:date after our date strings.
+  # This tag tells the database to interpret the string
+  # "1580-01-01" as the date 1 January 1580.
 
   FILTER(?date >= "1580-01-01"^^xsd:date &&
          ?date <= "1600-01-01"^^xsd:date)
