@@ -41,8 +41,10 @@ Because RDF databases support the use of URLs (weblinks), they can be made
 available online and linked to other databases, hence the term "Linked Open
 Data". Major art collections including the [British Museum][bm], [Europeana],
 the [Smithsonian American Art Museum][saam], and the [Paul Mellon Center for
-British Art][mellon] have published their collections data as LOD, and they have
-been joined by the [Getty Vocabulary Program][getty].
+British Art][mellon] have published their collections data as LOD. The [Getty
+Vocabulary Program][getty], has also released their series of authoritative
+databases on geographic place names, terms for describing art and architecture,
+and variant spellings of artist names, as LOD.
 
 [getty]: http://vocab.getty.edu
 
