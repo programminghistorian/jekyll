@@ -14,6 +14,25 @@ This lesson explains why many cultural institutions are adopting graph
 databases, and how researchers can access these data though the query language
 called SPARQL.
 
+_Table of contents_
+
+- [Graph Databases, RDF, and Linked Open Data](#graph-databases-rdf-and-linked-open-data)
+  - [RDF in brief](#rdf-in-brief)
+  - [Searching RDF with SPARQL](#searching-rdf-with-sparql)
+  - [URIs and Literals](#uris-and-literals)
+  - [Terms to review](#terms-to-review)
+- [Real-world queries](#real-world-queries)
+  - [All the statements for one object](all-the-statements-for-one-object)
+  - [Complex queries](#complex-queries)
+  - [FILTER](#filter)
+  - [Aggregation](#aggregation)
+  - [Linking multiple SPARQL endpoints](#linking-multiple-sparql-endpoints)
+- [Working with SPARQL results](#working-with-sparql-results)
+  - [Export results to CSV](#export-results-to-csv)
+  - [Export results to Palladio](#export-results-to-palladio)
+- [Further reading](#further-reading)
+
+
 # Graph Databases, RDF, and Linked Open Data
 
 Many cultural institutions now offer access to their collections information
@@ -101,7 +120,7 @@ A psuedo-RDF database might contain interrelated statements like these:
 If we were to visualize these statements as nodes and edges within network
 graph, it would appear like so:
 
-{% include figure.html src="/images/sparql01.svg" caption="A network visualization of the pseudo-RDF shown above. Arrows indicate the 'direction' of the predicate. For example, that 'Woman with a Balance was created by Vermeer', and not the other way around." %}
+{% include figure.html src="/images/sparql0-svg" caption="A network visualization of the pseudo-RDF shown above. Arrows indicate the 'direction' of the predicate. For example, that 'Woman with a Balance was created by Vermeer', and not the other way around." %}
 
 A traditional relational database might split attributes about artworks and
 attributes about artists into separate tables. In an RDF/graph database, all
@@ -489,14 +508,14 @@ future, more cultural LOD will hopefully link to authority databases like the
 Getty's Union List of Artist Names, allowing, for example, the British Museum to
 outsource biographical data to the more complete resources at the Getty.
 
-## Working with SPARQL results
+# Working with SPARQL results
 
 Having constructed and run a query... what do we do with the results? Many
 endpoints offer, like the British Museum, a web-based browser that returns
 human-readable results. However, SPARQL endpoints are designed to return
 structured data to be used by other programs.
 
-### Export results to CSV
+## Export results to CSV
 
 In the top right corner of the results page for the BM endpoint, you will find
 links for both JSON and XML downloads.  Other endpoints may also offer the
@@ -520,7 +539,7 @@ program for further analysis and visualization:
 jq -r '.head.vars as $fields | ($fields | @csv), (.results.bindings[] | [.[$fields[]].value] | @csv)' sparql.json > sparql.csv
 ```
 
-### Export results to Palladio
+## Export results to Palladio
 
 The popular data exploration platform [Palladio] can directly load data from a
 SPARQL endpoint. On the "Create a new project" screen, a link at the bottom to
@@ -553,7 +572,7 @@ have to use the `LIMIT` command that we used when querying the Europeana
 endpoint to reduce the number of results that you get back, just to keep the
 software from freezing.
 
-## Further reading
+# Further reading
 
 In this tutorial we got a look at the structure of LOD as well as a real-life
 example of how to write SPARQL queries for the British Museum's database. You
