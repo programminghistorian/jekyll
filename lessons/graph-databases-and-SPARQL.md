@@ -347,10 +347,10 @@ values that fall within a certain range, such as dates. For this, we'll use the
 
 To find URIs for all the prints in the BM created between 1580 and 1600, we'll
 need to first figure out where the database stores dates in relationship to the
-object node, and then add references to our query that describe where to find
-the dates that objects were created. Similar to the way that we followed a
-single link to determine an object type, we must hop through several nodes to
-find the production dates associated with a given object:
+object node, and then add references to those dates in our query. Similar to the
+way that we followed a single link to determine an object type, we must hop
+through several nodes to find the production dates associated with a given
+object:
 
 {% include figure.html src="/images/sparql07.svg" caption="Visualizing part of the British Museum's data model where production dates are connected to objects." %}
 
