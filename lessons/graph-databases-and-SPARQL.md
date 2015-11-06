@@ -48,7 +48,7 @@ been joined by the [Getty Vocabulary Program][getty].
 
 [bm]: http://collection.britishmuseum.org
 
-[Europeana]: http://data.eurpoeana.org
+[Europeana]: http://labs.europeana.eu/api/linked-open-data-introduction
 
 [saam]: http://americanart.si.edu
 
