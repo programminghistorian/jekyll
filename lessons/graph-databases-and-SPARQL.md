@@ -46,7 +46,7 @@ been joined by the [Getty Vocabulary Program][getty].
 
 [getty]: http://vocab.getty.edu
 
-[bm]: http//collection.britishmuseum.org
+[bm]: http://collection.britishmuseum.org
 
 [Europeana]: http://data.eurpoeana.org
 
