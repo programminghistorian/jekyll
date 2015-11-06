@@ -22,7 +22,7 @@ _Table of contents_
   - [URIs and Literals](#uris-and-literals)
   - [Terms to review](#terms-to-review)
 - [Real-world queries](#real-world-queries)
-  - [All the statements for one object](all-the-statements-for-one-object)
+  - [All the statements for one object](#all-the-statements-for-one-object)
   - [Complex queries](#complex-queries)
   - [FILTER](#filter)
   - [Aggregation](#aggregation)
