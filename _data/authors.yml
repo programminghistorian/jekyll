@@ -6,7 +6,7 @@
   bio: |
     William J. Turkel is Professor of History at the
     University of Western Ontario.
-  
+
 - name: Adam Crymble
   github: acrymble
   email: adam.crymble@gmail.com
@@ -14,7 +14,7 @@
   url: "http://adamcrymble.org"
   team: true
   bio: |
-    Adam Crymble is a Lecturer of Digital History at the University of 
+    Adam Crymble is a Lecturer of Digital History at the University of
     Hertfordshire.
 
 - name: Caleb McDaniel
@@ -43,36 +43,36 @@
   bio: |
        Fred Gibbs is an assistant professor of history at the University of
        New Mexico.
-       
+
 - name: Stephen Margheim
   bio: |
-       Stephen Margheim is a classicist turned digital humanist hunkered down in 
+       Stephen Margheim is a classicist turned digital humanist hunkered down in
        Philadelphia, looking for his next step.
   url: "hackademic.postach.io"
   github: smargh
   twitter: s_margheim
   team: true
-       
+
 - name: Evan Taparata
   team: true
   bio: |
-       Evan Taparata is a PhD candidate in history at the University of 
+       Evan Taparata is a PhD candidate in history at the University of
        Minnesota.
-       
+
 - name: Taryn Dewar
   twitter: dtdewar
   team: true
   bio: |
-       Taryn Dewar is a Master's candidate in Public History at the University 
+       Taryn Dewar is a Master's candidate in Public History at the University
        of Western Ontario.
-       
+
 - name: Maria Velez-Serna
   url: "http://earlycinema.gla.ac.uk"
   twitter: jeely_jar
   bio: |
-       Maria Velez-Serna is a research assistant in the Early Cinema of Scotland 
+       Maria Velez-Serna is a research assistant in the Early Cinema of Scotland
        project, University of Glasgow.
-       
+
 - name: Andrew Hnatow
   url: "http://digitizedhistory.wordpress.com"
   github: ahnatow
@@ -80,22 +80,22 @@
   team: true
   bio: |
        Andrew Hnatow is a PhD candidate at Wayne State University.
-       
+
 - name: Daniel van Strien
   team: true
   url: "http://davanstrien.github.io/"
   bio: |
        Daniel van Strien is a Library Science student at City University, London.
-       
+
 - name: Kim Pham
   team: true
   bio: |
-       Kim Pham is a librarian in the Digital Scholarship Unit at the University 
+       Kim Pham is a librarian in the Digital Scholarship Unit at the University
        of Toronto (Scarborough).
-       
+
 - name: Douglas Duhaime
   bio: |
-       Douglas Duhaime is the Text and Data Mining project manager at ProQuest 
+       Douglas Duhaime is the Text and Data Mining project manager at ProQuest
        and a doctoral student at the University of Notre Dame.
 
 - name: Kellen Kurschinski
@@ -108,15 +108,15 @@
 - name: Seth Bernstein
   team: false
   bio: |
-       Seth Bernstein is a postdoctoral fellow at the Higher School of Economics 
-       in Moscow.  He defended his doctoral dissertation, "Communist Upbringing 
-       under Stalin: The Political Socialization and Militarization of Soviet 
+       Seth Bernstein is a postdoctoral fellow at the Higher School of Economics
+       in Moscow.  He defended his doctoral dissertation, "Communist Upbringing
+       under Stalin: The Political Socialization and Militarization of Soviet
        Youth, 1934-1941" at the University of Toronto in 2013.
 
 - name: James Baker
   team: false
   bio: |
-       James Baker is a Curator in the Digital Research team at the British 
+       James Baker is a Curator in the Digital Research team at the British
        Library and an historian of eighteenth century Britain.
 
 - name: Amanda Morton
@@ -186,7 +186,7 @@
 - name: Jim Clifford
   team: false
   bio: |
-       Jim Clifford is an assistant professor in the Department of History 
+       Jim Clifford is an assistant professor in the Department of History
        at the University of Saskatchewan.
 
 - name: Daniel Macfarlane
@@ -198,7 +198,7 @@
 - name: Josh MacFadyen
   team: false
   bio: |
-       Josh MacFadyen is a Project Coordinator at the Network in Canadian 
+       Josh MacFadyen is a Project Coordinator at the Network in Canadian
        History & Environment.
 
 - name: Jeri Wieringa
@@ -214,7 +214,7 @@
 - name: Vilja Hulden
   team: false
   bio: |
-        Vilja Hulden is a history instructor and research associate in the Departments of History and 
+        Vilja Hulden is a history instructor and research associate in the Departments of History and
         Linguistics at the University of Colorado Boulder.
 
 - name: Marten Düring
@@ -243,11 +243,11 @@
   github: JonathanReeve
   team: false
   bio: |
-       Jonathan Reeve is a digital humanist and web developer for the Modern Language Association. 
+       Jonathan Reeve is a digital humanist and web developer for the Modern Language Association.
 
 - name: Spencer Roberts
   url: "http://swroberts.ca/"
-  twitter: robertssw87 
+  twitter: robertssw87
   team: false
   bio: |
         Spencer Roberts is Research Assistant and former Digital History Research Fellow at the Roy Rosenzweig Center for History and New Media, and a Ph.D. graduate student at George Mason University in the Department of History.
@@ -268,3 +268,10 @@
   team: false
   bio: |
         Laura Turner O'Hara works in the Office of the Historian at the U.S. House of Representatives.
+
+- name: Matthew Lincoln
+  url: "http://matthewlincoln.net"
+  twitter: matthewdlincoln
+  team: false
+  bio: |
+        Matthew Lincoln is a PhD candidate at the University of Maryland, College Park. He is interested in the potential for computer-aided analysis of cultural datasets to help model long-term artistic trends in iconography, art markets, and social relations between artists in the early modern period.
