@@ -31,7 +31,7 @@ donor that happens to be described in the dataset as well.
 [api]: /lessons/intro-to-the-zotero-api.html
 
 RDF databases are well-suited to expressing complex relationships between many
-entities, like people people, places, events, and concepts tied to individual
+entities, like people, places, events, and concepts tied to individual
 objects. These databases are often referred to as "graph" databases because they
 structure information as a graph or network, where a set of resources, or nodes,
 are connected together by edges that describe the relationships between each
