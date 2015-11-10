@@ -1,5 +1,5 @@
 ---
-title: Report an Issue
+title: Give Feedback
 date: 07-11-2015
 layout: directory
 redirect_from: /report-issue.html
@@ -8,13 +8,20 @@ redirect_from: /report-issue.html
 <figure>
 	<img src="../images/reader-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
-See a problem with a lesson on the Programming Historian? Code that doesn't work or needs a clearer explanation? Typos? Syntax that doesn't look quite right? Thank you for taking the time to report a problem. Your assistance is crucial for helping us maintain the highest standards for our lessons.
 
-There are three easy ways that you can provide your feedback:
+See a problem with a lesson on the Programming Historian? Code that doesn't work or needs a clearer explanation? Typos? Syntax that doesn't look quite right? Thank you for taking the time to report a problem or suggest a change. Your assistance is crucial for helping us maintain the highest standards for our lessons.
+
+There are several easy ways that you can provide your feedback:
 
 <br/>
 
-## Option 1: Open an Issue on GitHub
+## Option 1: Email or Tweet
+
+Contact <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> at the University of New Mexico or one of the other members of our [Project Team](./project-team.html). 
+
+You can also find us on Twitter at [@ProgHist](https://twitter.com/proghist).
+
+## Option 2: Open an Issue on GitHub
 
 First, [sign up for a free, personal GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account) if you don't already have one. Log in if you already have an account.
 
@@ -28,7 +35,7 @@ If your issue has not been reported, create a new issue with a descriptive title
 
 For more information about issues, read the GitHub Guide on [Mastering Issues](https://guides.github.com/features/issues/).
 
-## Option 2: Suggest a Particular Change
+## Option 3: Suggest a Particular Change
 
 To suggest or make minor changes to a lesson, first navigate to the  [lessons directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons) and click on the relevant lesson. 
 
@@ -47,15 +54,11 @@ Next, to comment on a line, hover over a line number, and a blue plus-sign will 
 Editors will be notified of these comments and can then incorporate your suggestions into the lesson. As much as we strive for openness, only _Programming Historian_ editors can make changes directly to the lessons at this time.
 
 
-## Option 3: Make a Pull Request
+## Option 4: Make a Pull Request
 
 If you believe you know how to fix the problem in the lesson, you may wish to consider forking our repository and making a pull request.
 
 For more information on pull requests, see the GitHub Guide on [Forking Projects](https://guides.github.com/activities/forking/) or Rich Jones's tutorial on [How to GitHub](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
-
-## If all else fails (or is too confusing): Send Us an Email
-
-If you are unable to create an issue or make a pull request, you can also contact <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> at the University of New Mexico.
 
 ## Further Resources on Git and GitHub
 
