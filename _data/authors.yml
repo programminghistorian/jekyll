@@ -130,7 +130,7 @@
   github: miriamposner
   email: miriam.posner@gmail.com
   url: "http://miriamposner.com"
-  team: false
+  team: true
   bio: |
        Miriam Posner is the digital humanities program coordinator at the
        University of California, Los Angeles.
@@ -138,7 +138,7 @@
 - name: Jeremy Boggs
   twitter: clioweb
   url: "http://clioweb.org"
-  team: false
+  team: true
   bio: |
        Jeremy Boggs is the Design Architect for Digital Research Scholarship
        at the University of Virginia Library.
@@ -146,20 +146,20 @@
 - name: Allison Hegel
   twitter: AllisonHegel
   github: ahegel
-  team: false
+  team: true
   bio: |
        Allison Hegel is a graduate student at UCLA.
 
 - name: Alan MacEachern
   url: "http://history.uwo.ca/People/Faculty/maceachern.html"
-  team: false
+  team: true
   bio: |
        Alan MacEachern is a Professor of History at the University
        of Western Ontario and the former Director of the Network in Canadian History
        & Environment (NiCHE).
 
 - name: Carrie Sanders
-  team: false
+  team: true
   bio: "Carrie Sanders is a Ph.D candidate in history at UCLA."
 
 - name: Dennis Tenen
