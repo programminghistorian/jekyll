@@ -2,6 +2,7 @@
 title: Report an Issue
 date: 07-11-2015
 layout: directory
+redirect_from: /report-issue.html
 ---
 
 <figure>
