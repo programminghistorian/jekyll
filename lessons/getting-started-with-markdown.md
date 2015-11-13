@@ -2,9 +2,11 @@
 title: Getting Started with Markdown
 authors:
 - Sarah Simpkin
-date: 2015-10-10
-published: false
-reviewers: 
+date: 2015-11-13
+published: true
+reviewers:
+- John Fink
+- Nancy Lemay
 layout: default
 ---
 
@@ -36,10 +38,10 @@ https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/lessons/i
 ```
 You'll notice that while the right panel features a more elegant rendering of the text, the original Markdown file on the left is still fairly readable. 
 
-Now, let's dive into the lesson by writing our own Markdown syntax. Create a new document in Stackedit by clicking the folder icon in the upper right and choosing `New document`. 
+Now, let's dive into the lesson by writing our own Markdown syntax. Create a new document in StackEdit by clicking the folder icon in the upper right and choosing `New document`. You may enter a title for the document in the textbox on the top of the page.
 
 #### Headings
-Four levels of headings are available in Markdown, and are indicated by the number of `#` preceding the heading text. Paste the following examples into the textbox:
+Four levels of headings are available in Markdown, and are indicated by the number of `#` preceding the heading text. Paste the following examples into the textbox on your left:
 
 ```
 # First level heading
@@ -91,7 +93,7 @@ Today we'll be learning about Markdown syntax.
 This sentence is separated by a single line break from the preceding one.
 
 
-Paragraphs must be separated by an empty line. Leave an empty line between `syntax.` and `This` to see how this works. In some implementations of Markdown, single line breaks must also be indicated with two empty spaces at the end of each line. This is unnecessary in the [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/) variant that Stackedit uses by default.
+Paragraphs must be separated by an empty line. Leave an empty line between `syntax.` and `This` to see how this works. In some implementations of Markdown, single line breaks must also be indicated with two empty spaces at the end of each line. This is unnecessary in the [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/) variant that StackEdit uses by default.
 
 
 #### Adding Emphasis
@@ -155,7 +157,7 @@ To-do list
 
 #### Code Snippets
 
-Representing code snippets differently from the rest of a document is a good practice that improves readability. Typically, code is represented in monospaced type. Since Markdown does not distinguish between fonts, we represent code by wrapping snippets in back-tick characters like `` ` ``. For example, `` `<br />` ``. Whole blocks of code are written by typing three back-tick characters before and after each block.
+Representing code snippets differently from the rest of a document is a good practice that improves readability. Typically, code is represented in monospaced type. Since Markdown does not distinguish between fonts, we represent code by wrapping snippets in back-tick characters like `` ` ``. For example, `` `<br />` ``. Whole blocks of code are written by typing three back-tick characters before and after each block. In the StackEdit preview window, this will render a shaded box with text in a monospaced font.
 
 Try typing the following text into the textbox:
 
