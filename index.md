@@ -36,7 +36,7 @@ We strive to ensure all tutorials are functional on their date of publication. F
 
 ## Funding & Ownership
 
-_The Programming Historian_ is a volunteer-led initiative, controlled entirely by its editorial board with the help of community contributors. It is not a legal entity, and does not currently receive direct funding from any source. 
+_The Programming Historian_ is a volunteer-led initiative, controlled entirely by the 'Editorial Board of the Programming Historian' with the help of community contributors. It is not a legal entity, and does not currently receive direct funding from any source. 
 
 The project is grateful for past support by the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)), and for hosting support from the Roy Rosenzweig Centre for New Media ([RRCHNM](http://chnm.gmu.edu/)). If you would like to provide financial support to help the project grow, please contact one of the [Editorial Board members](http://programminghistorian.org/project-team).
 
