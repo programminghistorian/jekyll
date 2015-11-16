@@ -151,8 +151,17 @@ Getting Ready to Program
 -------------------------
 If you’re new to programming in python, you’ll first need to set up a programming environment. For the most flexibility, we recommend that you follow these instructions on [setting up python on the command line](http://cli.learncodethehardway.org/book/ex1.html).
 
-Many of the tutorials require that you install one or more python modules to save you time coding. If this is a new concept for you, read about how to [Install Python Modules](../lessons/installing-python-modules-pip).
+Many of the tutorials require that you install one or more python modules to save you time coding. If this is a new concept for you, read about how to install Python modules in the lesson below.
 
+<ul class="lesson-images">
+  <li>
+    <a href="../lessons/installing-python-modules-pip">
+      <img src="../gallery/installing-python-modules-pip.png">
+      <h3>Installing Python Modules with pip</h3>
+      <p>Fred Gibbs</p>
+    </a>
+  </li>
+</ul>
 
 Mapping and GIS
 ---------------
