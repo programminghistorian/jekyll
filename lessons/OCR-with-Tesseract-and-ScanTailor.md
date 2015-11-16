@@ -22,7 +22,8 @@ OCR'ing takes a lot of time. You'll spend numerous hours with your documents, an
 
 ##Stages of the Lesson
 
-The OCR process can be divided into four stages: 
+The OCR process can be divided into four stages:
+
 * [Prework](#prework)
 * [Image Preprocessing](#imagepreprocessing)
 * [OCR](#ocr)
