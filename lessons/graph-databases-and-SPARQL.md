@@ -328,7 +328,7 @@ object type "print":
 
 {% include figure.html src="/images/sparql05.png" caption="The resource page for thes:x8577 ('print') in the British Museum LOD." %}
 
-You'll note how this node has an English label, as well as ties to related
+You'll note how this node has an plain-text label, as well as ties to related
 artwork type nodes within the database.
 
 ## Complex queries
