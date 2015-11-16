@@ -214,7 +214,7 @@ _N.B. the Rijksmuseum has not (yet) built their own Linked Data site, so the URI
 
 In order to get the human-readable version of the information represented by
 each of these URIs, what we're really doing is just retrieving more RDF
-statements:
+statements. Even the predicate in that statement has its own literal label:
 
 ```
 <http://data.rijksmuseum.nl/item/8909812347> <http://purl.org/dc/terms/title> "The Nightwatch" .
