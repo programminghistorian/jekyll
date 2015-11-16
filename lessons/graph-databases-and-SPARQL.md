@@ -41,11 +41,11 @@ powerful way to access individual records in a machine-readable manner, they are
 not ideal for cultural heritage data because they are structured to work for a
 predetermined set of queries. For example, a museum may have information on
 donors, artists, artworks, exhibitions, and provenance, but its web API may
-offer only object-wise retrieval, with associated data about donors, artists,
-provenance, etc. embedded within subfields of each object's JSON data. This
-structure is great if you come looking for information about particular objects.
-However, it makes it difficult to aggregate information about every artist or
-donor that happens to be described in the dataset as well.
+offer only object-wise retrieval, making it difficult or impossible to search
+for associated data about donors, artists, provenance, etc. This structure is
+great if you come looking for information about particular objects. However, it
+makes it difficult to aggregate information about every artist or donor that
+happens to be described in the dataset as well.
 
 [api]: /lessons/intro-to-the-zotero-api.html
 
