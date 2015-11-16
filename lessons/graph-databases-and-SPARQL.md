@@ -196,7 +196,7 @@ these statements.
 So far, we have been looking at a toy representation of RDF that uses
 easy-to-read text. However, RDF is primarily stored as URIs (Uniform Resource
 Identifiers) that separate conceptual entities from their plain-English (or
-other langauage!) labels. In real RDF, our original statement:
+other language!) labels. In real RDF, our original statement:
 
 ```
 <The Nightwatch>   <was created by>   <Rembrandt van Rijn> .
