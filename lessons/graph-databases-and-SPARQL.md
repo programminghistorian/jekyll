@@ -196,7 +196,9 @@ these statements.
 So far, we have been looking at a toy representation of RDF that uses
 easy-to-read text. However, RDF is primarily stored as URIs (Uniform Resource
 Identifiers) that separate conceptual entities from their plain-English (or
-other language!) labels. In real RDF, our original statement:
+other language!) labels. (Note that a URL, or Uniform Resource Locator, is a URI
+for a resource that is accessible on the web) In real RDF, our original
+statement:
 
 ```
 <The Nightwatch>   <was created by>   <Rembrandt van Rijn> .
@@ -208,7 +210,7 @@ would more likely look something like this:
 <http://data.rijksmuseum.nl/item/8909812347> <http://purl.org/dc/terms/creator>  <http://dbpedia.org/resource/Rembrandt>.
 ```
 
-_N.B. the Rijksmuseum has not (yet) built their own Linked Data site, so the URL in this query is just for demo purposes._
+_N.B. the Rijksmuseum has not (yet) built their own Linked Data site, so the URI in this query is just for demo purposes._
 
 In order to get the human-readable version of the information represented by
 each of these URIs, what we're really doing is just retrieving more RDF
