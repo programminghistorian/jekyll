@@ -527,3 +527,7 @@ To give a brief outline of what has been changed from the original version:
 6. Using the 'csv' library we wrote the 'newRow' data to the new CSV file, one row at a time.
 
 This approach created longer and more complex code, but the result is a powerful program that reads from a CSV file, matches the texts against the contents of a gazetteer, and then automatically writes the output to a clean new CSV file with no intermediary steps for you the user. You didn't have to go that extra mile, but hopefully you can see the advantages if you made it all the way through.
+
+##Suggested Further Reading
+
+Readers who have completed this lesson might be interested in then geo-referencing the output using the Google API and mapping the results. You can learn more about this process from Fred Gibbs's tutorial, [Extract and Geocode Placenames from a Text File](http://fredgibbs.net/tutorials/extract-geocode-placenames-from-text-file.html). This will let you visualise the practical outputs of this tutorial.
