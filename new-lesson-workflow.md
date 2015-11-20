@@ -375,11 +375,12 @@ Wait for Reviewer Feedback
 
 At this point, the editor will ask at least two others to review your
 lesson and make suggestions for improvements. We aim to complete this
-process within 4 weeks. After the reviews are posted to GitHub on your
-Pull Request page, you can take all the time you need to revise and put
-the finishing touches on your lesson. In conjunction with your editor,
-you'll decide when it's done and then we'll add a link to the lessons
-page and let everyone know about your lesson.
+process within four weeks, but sometimes delays occur or people get busy and the process can take longer than we hoped.  
+
+If at any point you are unsure of your role or what to do next, feel free to post a question to clarify and an editor will respond as soon as they can. You’ll understand that sometimes it will take the editor a few days to respond, but we hope the improvements to the finished lesson will be worth the wait.
+
+In keeping with the ideas of public scholarship and open peer review, we generally encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable and we recognise that in some cases a private word may be more appropriate. If you feel the need to discuss a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](http://programminghistorian.org/project-team), or to contact one of our dedicated ombudspersons, [Miriam Posner or Ian Milligan](http://programminghistorian.org/project-team).
+
 
 Once the Programming Historian's editorial team has decided that your
 lesson is ready for publication, we will "accept" the pull request and
