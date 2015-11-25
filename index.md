@@ -8,7 +8,7 @@ redirect_from: /about.html
 	<img src="../images/about.png" width="290px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
 
-_The Programming Historian_ is an online, open-access, peer-reviewed suite of tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research. Tutorials provide guidance on a variety of digital methods and approaches including but not limited to programming. Our mission is to fill a unique niche for those interested in the Digital Humanities, by providing a bridge between broad 'getting started' portals and generic 'programming' resources. 
+_The Programming Historian_ (ISSN 2397-2068) is an online, open-access, peer-reviewed suite of tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research. Tutorials provide guidance on a variety of digital methods and approaches including but not limited to programming. Our mission is to fill a unique niche for those interested in the Digital Humanities, by providing a bridge between broad 'getting started' portals and generic 'programming' resources. 
 
 We’ve assembled and carefully edited a variety of [lessons](lessons) that describe and illustrate fundamental digital and programming principles and techniques. We have [lessons](lessons) on Application Programming Interfaces (APIs), Data Management, Data Manipulation, Distant Reading, Mapping and Geographic Information Systems (GIS), Network Analysis, Digital Exhibit Building, Programming, and Web Scraping. Our tutorials include nearly a dozen lessons on popular DH tools such as MALLET, Omeka, and QGIS.
 
@@ -32,11 +32,15 @@ All tutorials that appear on _The Programming Historian_ have been rigorously pe
 
 Our peer review process is a bit different from what might be considered the “traditional” peer review process. We do not solicit reviews to judge whether a tutorial is “good enough” to be published. Rather, we consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to create useful technical resources for each other. Once a tutorial slips into our [editorial workflow](http://programminghistorian.org/new-lesson-workflow), our goal is to do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time. Consult our [Reviewer Guidelines](http://programminghistorian.org/reviewer-guidelines) for more information.
 
+Once the peer review has commenced, the role of the editor is to mediate between reviewers and authors, and keep the process on track in a timely manner. Unlike in traditional closed peer review systems, you get notified of reviewer comments the moment they appear. This means it is possible that you will see the review before the editor does. If at any point you are unsure if you should start addressing the comments or wait for the editor, feel free to post a question to clarify. You'll understand that sometimes it will take the editor a few days to respond, but we hope the improvements to your lesson will be worth the wait.
+
+In keeping with the ideas of public scholarship and open peer review, we generally encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable and we recognise that in some cases a private word may be more appropriate. If you feel the need to discuss a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](http://programminghistorian.org/project-team), or to contact one of our dedicated ombudspersons, [Miriam Posner or Ian Milligan](http://programminghistorian.org/project-team).
+
 We strive to ensure all tutorials are functional on their date of publication. From time to time technology changes and tutorials cease to function as intended. If this happens, please [report it](https://github.com/programminghistorian/jekyll/wiki/Reporting-Issues) and we will assign an editor to fix the problem.
 
 ## Funding & Ownership
 
-_The Programming Historian_ is a volunteer-led initiative, controlled entirely by its editorial board with the help of community contributors. It is not a legal entity, and does not currently receive direct funding from any source. 
+_The Programming Historian_ is a volunteer-led initiative, controlled entirely by the 'Editorial Board of the Programming Historian' with the help of community contributors. It is not a legal entity, and does not currently receive direct funding from any source. 
 
 The project is grateful for past support by the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)), and for hosting support from the Roy Rosenzweig Centre for New Media ([RRCHNM](http://chnm.gmu.edu/)). If you would like to provide financial support to help the project grow, please contact one of the [Editorial Board members](http://programminghistorian.org/project-team).
 

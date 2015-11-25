@@ -16,9 +16,7 @@ Proposing a New Lesson
 
 If you have an idea for a new lesson, or have already written a tutorial
 that you think could be adapted for the *Programming Historian*, contact
-[Fred Gibbs] to discuss your idea. This initial contact will help you
-and us decide if what you're working on is appropriate for our project.
-Once our editor has given you the go-ahead to pursue your idea, he or
+[Fred Gibbs] to discuss your idea. This initial contact is not meant to be a form of gatekeeping. Instead, we hope that it will help you and us think about how we can frame your idea to have the biggest impact. It also gives us a chance to check that no one else is working on the same concept, which we hope helps minimise duplicated effort and maximise our acceptance rate. Once our editor has given you the go-ahead to pursue your idea, he or
 she will post the tentative lesson title, and a brief description to the
 public [Lesson Pipeline wiki page]. This is a way of planting your flag
 in the sand, and helps us avoid multiple people concurrently writing the
@@ -377,11 +375,12 @@ Wait for Reviewer Feedback
 
 At this point, the editor will ask at least two others to review your
 lesson and make suggestions for improvements. We aim to complete this
-process within 4 weeks. After the reviews are posted to GitHub on your
-Pull Request page, you can take all the time you need to revise and put
-the finishing touches on your lesson. In conjunction with your editor,
-you'll decide when it's done and then we'll add a link to the lessons
-page and let everyone know about your lesson.
+process within four weeks, but sometimes delays occur or people get busy and the process can take longer than we hoped.  
+
+If at any point you are unsure of your role or what to do next, feel free to post a question to clarify and an editor will respond as soon as they can. You’ll understand that sometimes it will take the editor a few days to respond, but we hope the improvements to the finished lesson will be worth the wait.
+
+In keeping with the ideas of public scholarship and open peer review, we generally encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable and we recognise that in some cases a private word may be more appropriate. If you feel the need to discuss a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](http://programminghistorian.org/project-team), or to contact one of our dedicated ombudspersons, [Miriam Posner or Ian Milligan](http://programminghistorian.org/project-team).
+
 
 Once the Programming Historian's editorial team has decided that your
 lesson is ready for publication, we will "accept" the pull request and
