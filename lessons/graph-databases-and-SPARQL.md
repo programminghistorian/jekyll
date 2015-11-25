@@ -120,7 +120,7 @@ A psuedo-RDF database might contain interrelated statements like these:
 If we were to visualize these statements as nodes and edges within network
 graph, it would appear like so:
 
-{% include figure.html src="/images/sparql0-svg" caption="A network visualization of the pseudo-RDF shown above. Arrows indicate the 'direction' of the predicate. For example, that 'Woman with a Balance was created by Vermeer', and not the other way around." %}
+{% include figure.html src="/images/sparql01.svg" caption="A network visualization of the pseudo-RDF shown above. Arrows indicate the 'direction' of the predicate. For example, that 'Woman with a Balance was created by Vermeer', and not the other way around." %}
 
 A traditional relational database might split attributes about artworks and
 attributes about artists into separate tables. In an RDF/graph database, all
