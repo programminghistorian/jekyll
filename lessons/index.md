@@ -170,7 +170,7 @@ Linked Open Data
 <ul class="lesson-images">
   <li>
     <a href="../lessons/graph-databases-and-SPARQL">
-      <img src="../gallery/corpus-analysis-with-antconc.png">
+      <img src="../gallery/graph-databases-and-SPARQ.jpg">
       <h3>Using SPARQL to access Linked Open Data</h3>
       <p>Matthew Lincoln</p>
     </a>
