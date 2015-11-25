@@ -163,6 +163,22 @@ Many of the tutorials require that you install one or more python modules to sav
   </li>
 </ul>
 
+
+Linked Open Data
+---------------
+
+<ul class="lesson-images">
+  <li>
+    <a href="../lessons/graph-databases-and-SPARQL">
+      <img src="../gallery/corpus-analysis-with-antconc.png">
+      <h3>Using SPARQL to access Linked Open Data</h3>
+      <p>Matthew Lincoln</p>
+    </a>
+  </li>
+</ul>
+
+
+
 Mapping and GIS
 ---------------
 
