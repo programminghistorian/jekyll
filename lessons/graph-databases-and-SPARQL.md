@@ -2,7 +2,7 @@
 title: Using SPARQL to access Linked Open Data
 authors:
 - Matthew Lincoln
-date: 2015-06-21
+date: 2015-11-24
 layout: default
 categories: [lessons]
 ---
@@ -102,7 +102,7 @@ defining an edge between them. (Technically, `<was created by>` can, in other
 queries, be treated as an object or subject itself, but that is beyond the scope
 of this tutorial.)
 
-A psuedo-RDF database might contain interrelated statements like these:
+A pseudo-RDF database might contain interrelated statements like these:
 
 ```
 ...
@@ -305,7 +305,7 @@ WHERE {
 [Edit query](http://collection.britishmuseum.org/sparql?sample=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D)
 
 By calling `SELECT ?p ?o` we're asking the database to return the values of `?p`
-and `?o` as described in the `WEHRE {}` command. This query returns every
+and `?o` as described in the `WHERE {}` command. This query returns every
 statement for which our example artwork,
 `<http://collection.britishmuseum.org/id/object/PPA82633>`, is the subject.
 
@@ -462,7 +462,7 @@ between the objects in their database and records about individuals in
 [DBPedia](http://wiki.dbpedia.org/) and [VIAF](https://viaf.org/), places in
 [GeoNames](http://sws.geonames.org/), and concepts in the Getty Art &
 Architecture thesaurus. SPARQL allows you to insert `SERVICE` statements that
-instructing the database to "phone a friend" and run a portion of the query on
+instruct the database to "phone a friend" and run a portion of the query on
 an outside dataset, using the results to complete the query on the local
 dataset. While this lesson will go into the data models in Europeana and DBpedia in depth, the following query illustrates how a `SELECT` statement works. You may run it yourself by copying and pasting the query text into the [Europeana endpoint][eursparql].
 
