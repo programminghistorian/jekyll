@@ -2,6 +2,11 @@
 title: Using SPARQL to access Linked Open Data
 authors:
 - Matthew Lincoln
+reviewers:
+- Patrick Murray-John
+- Jason Heppler
+- Will Hanley
+- Fred Gibbs
 date: 2015-11-24
 layout: default
 categories: [lessons]
