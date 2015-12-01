@@ -166,6 +166,7 @@ Many of the tutorials require that you install one or more python modules to sav
 
 Linked Open Data
 ---------------
+Many research datasets are published as Linked Open Data, a format that allows flexible querying and interlinking of complex sources. Get an introduction to manipulating these databases by working with some real-world examples.
 
 <ul class="lesson-images">
   <li>
@@ -219,7 +220,7 @@ Mapping can be an effective way to visualize and interpret historical data. Thes
 Network Analysis
 ---------------
 
-Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources. 
+Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources.
 
 <ul class="lesson-images">
   <li>
