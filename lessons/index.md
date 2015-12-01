@@ -166,7 +166,7 @@ Many of the tutorials require that you install one or more python modules to sav
 
 Linked Open Data
 ---------------
-Many research datasets are published as Linked Open Data, a format that allows flexible querying and interlinking of complex sources.
+Many research datasets are published as Linked Open Data, a format that allows flexible querying and interlinking of complex sources. Get an introduction to manipulating these databases by working with some real-world examples.
 
 <ul class="lesson-images">
   <li>
