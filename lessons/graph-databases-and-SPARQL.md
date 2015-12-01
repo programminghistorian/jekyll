@@ -64,8 +64,8 @@ resource.
 Because RDF databases support the use of URLs (weblinks), they can be made
 available online and linked to other databases, hence the term "Linked Open
 Data". Major art collections including the [British Museum][bm], [Europeana],
-the [Smithsonian American Art Museum][saam], and the [Paul Mellon Center for
-British Art][mellon] have published their collections data as LOD. The [Getty
+the [Smithsonian American Art Museum][saam], and the [Yale Center for
+British Art][yale] have published their collections data as LOD. The [Getty
 Vocabulary Program][getty], has also released their series of authoritative
 databases on geographic place names, terms for describing art and architecture,
 and variant spellings of artist names, as LOD.
@@ -78,7 +78,7 @@ and variant spellings of artist names, as LOD.
 
 [saam]: http://americanart.si.edu
 
-[mellon]: http://britishart.yale.edu/collections/using-collections/technology/linked-open-data
+[yale]: http://britishart.yale.edu/collections/using-collections/technology/linked-open-data
 
 SPARQL is the language used to query these databases. This language is
 particularly powerful because it does not presuppose the perspectives that users
