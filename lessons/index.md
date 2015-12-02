@@ -114,6 +114,13 @@ Just like it sounds, learn how to use programming to change, move, clean, or cou
       <p>Jon Crump</p>
     </a>
   </li>
+    <li>
+    <a href="../lessons/getting-started-with-markdown">
+      <img src="../gallery/getting-started-with-markdown.png">
+      <h3>Getting Started with Markdown</h3>
+      <p>Sarah Simpkin</p>
+    </a>
+  </li>
 </ul>
 
 
