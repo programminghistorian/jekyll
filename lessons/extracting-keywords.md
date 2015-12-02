@@ -2,7 +2,11 @@
 title: Using Gazetteers to Extract Sets of Keywords from Free-Flowing Texts
 authors:
 - Adam Crymble
-date: 2015-06-10
+date: 2015-1-12
+reviewers:
+- Guy McClellan
+- Amanda Morton
+- Fred Gibbs
 layout: default
 published: true
 ---
