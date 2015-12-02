@@ -56,6 +56,13 @@ You put a lot of effort into your research. Make sure that effort lasts by adopt
       <p>Dennis Tenen and Grant Wythoff</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/getting-started-with-markdown">
+      <img src="../gallery/getting-started-with-markdown.png">
+      <h3>Getting Started with Markdown</h3>
+      <p>Sarah Simpkin</p>
+    </a>
+  </li>
 </ul>
 
 
@@ -112,13 +119,6 @@ Just like it sounds, learn how to use programming to change, move, clean, or cou
       <img src="../gallery/generating-an-ordered-data-set-from-an-OCR-text-file.png">
       <h3>Generating an Ordered Data Set from an OCR Text File</h3>
       <p>Jon Crump</p>
-    </a>
-  </li>
-    <li>
-    <a href="../lessons/getting-started-with-markdown">
-      <img src="../gallery/getting-started-with-markdown.png">
-      <h3>Getting Started with Markdown</h3>
-      <p>Sarah Simpkin</p>
     </a>
   </li>
 </ul>
