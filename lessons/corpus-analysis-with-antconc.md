@@ -26,7 +26,7 @@ You have done this sort of thing before, if you have ever...
 
 * searched in a PDF or a word doc for all examples a specific term
 * Used [Voyant Tools][48] for looking at patterns in one text
-* Followed [Programming Historian][51]’s _Introduction to Python tutorials
+* Followed [Programming Historian][51]’s Introduction to Python tutorials
 
 In many ways [Voyant](http://voyant-tools.org/) is a gateway into conducting more sophisticated, replicable analysis, as the DIY aesthetic of Python or R scripting may not appeal to everyone. [AntConc](http://www.laurenceanthony.net/software/antconc/) fills this void by being a standalone software package for linguistic analysis of texts, freely available for Windows, Mac OS, and Linux and is highly maintained by its creator, [Laurence Anthony](http://www.laurenceanthony.net/). There are other concordance software packages available, but it is freely available across platforms and very well maintained. See the [concordance bibliography][56] for other resources.
 
