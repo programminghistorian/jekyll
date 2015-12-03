@@ -121,6 +121,13 @@ Just like it sounds, learn how to use programming to change, move, clean, or cou
       <p>Jon Crump</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/extracting-keywords">
+      <img src="../gallery/extracting-keywords.png">
+      <h3>Using Gazetteers to Extract Keywords from Sets of Free-Flowing Texts</h3>
+      <p>Adam Crymble</p>
+    </a>
+  </li>
 </ul>
 
 
