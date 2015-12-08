@@ -21,6 +21,8 @@ Palladio is relatively new and still under active development which
 means that you will almost certainly encounter bugs! Still, it’s a very
 useful tool for getting a handle on a complicated dataset.
 
+This tutorial is designed as a general introduction to Palladio's features. You might also be interested in ["From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources,"](http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources) by Marten Düring, which shows you how to construct network diagrams of complex historical relationships using Palladio.
+
 **When Might Palladio be the Right Tool for You?**
 
 **You have structured data.**
@@ -407,5 +409,4 @@ Other cool things you can do with Palladio:
 -   create point-to-point maps
 
 -   visualize spans of time with the timespan feature
-
 
