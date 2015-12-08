@@ -11,11 +11,13 @@ Thank you.</div>
 	<img src="../images/about.png" width="290px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
 
-_The Programming Historian_ offers novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research. We regularly publish new lessons, and we welcome [submissions](contribute).
+_The Programming Historian_ offers novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research.
 
-Our [Project Team](project-team) and peer reviewers work collaboratively with authors to craft tutorials that illustrate fundamental digital and programming principles and techniques. We have [lessons](lessons) on Application Programming Interfaces (APIs), Data Management, Data Manipulation, Distant Reading, Mapping and Geographic Information Systems (GIS), Network Analysis, Digital Exhibit Building, Programming, and Web Scraping, and more. Our tutorials include nearly a dozen lessons on popular DH tools such as MALLET, Omeka, and QGIS. If you can’t find what you’re looking for, we welcome your [feedback](feedback).
+We regularly publish new lessons, and we always welcome proposals for new lessons on any topic. Our editorial mentors will be happy to work with you throughout the lesson writing process. If you'd like to be a reviewer or if you have suggestions to make Programming Historian a more useful resource, please see our [Contribute](contribute) page.
 
-Better yet, [contribute a lesson](contribute)! _The Programming Historian_ (ISSN 2397-2068) aims to set a new standard for openness and collaboration in scholarly publishing, and you can help! 
+Our [Project Team](project-team) and peer reviewers work collaboratively with authors to craft tutorials that illustrate fundamental digital and programming principles and techniques. We have [lessons](lessons) on Application Programming Interfaces (APIs), Data Management, Data Manipulation, Distant Reading, Mapping and Geographic Information Systems (GIS), Network Analysis, Digital Exhibit Building, Programming, and Web Scraping, and more. Our tutorials include nearly a dozen lessons on popular DH tools such as MALLET, Omeka, and QGIS.
+
+If you can’t find what you’re looking for, we welcome your [feedback](feedback). Better yet, [contribute a lesson](contribute)! _The Programming Historian_ (ISSN 2397-2068) aims to set a new standard for openness and collaboration in scholarly publishing, and you can help! 
 
 ## Open Source
 
