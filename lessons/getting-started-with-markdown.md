@@ -173,6 +173,7 @@ Try typing the following text into the textbox:
     ```
 
 **This renders as:**
+
 ```
     <html>
         <head>
