@@ -11,23 +11,21 @@ Thank you.</div>
 	<img src="../images/about.png" width="290px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
 
-_The Programming Historian_ (ISSN 2397-2068) is an online, open-access, peer-reviewed suite of tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research. Tutorials provide guidance on a variety of digital methods and approaches including but not limited to programming. Our mission is to fill a unique niche for those interested in the Digital Humanities, by providing a bridge between broad 'getting started' portals and generic 'programming' resources. 
+_The Programming Historian_ offers novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research. We regularly publish new lessons, and we welcome [submissions](contribute).
 
-We’ve assembled and carefully edited a variety of [lessons](lessons) that describe and illustrate fundamental digital and programming principles and techniques. We have [lessons](lessons) on Application Programming Interfaces (APIs), Data Management, Data Manipulation, Distant Reading, Mapping and Geographic Information Systems (GIS), Network Analysis, Digital Exhibit Building, Programming, and Web Scraping. Our tutorials include nearly a dozen lessons on popular DH tools such as MALLET, Omeka, and QGIS.
+Our [Project Team](project-team) and peer reviewers work collaboratively with authors to craft tutorials that illustrate fundamental digital and programming principles and techniques. We have [lessons](lessons) on Application Programming Interfaces (APIs), Data Management, Data Manipulation, Distant Reading, Mapping and Geographic Information Systems (GIS), Network Analysis, Digital Exhibit Building, Programming, and Web Scraping, and more. Our tutorials include nearly a dozen lessons on popular DH tools such as MALLET, Omeka, and QGIS. If you can’t find what you’re looking for, we welcome your [feedback](feedback).
 
-If you can’t find what you’re looking for, then we’ve failed you. But don’t suffer in silence! Let us know what you can’t find. Better yet, [contribute a lesson](contribute).
+Better yet, [contribute a lesson](contribute)! _The Programming Historian_ (ISSN 2397-2068) aims to set a new standard for openness and collaboration in scholarly publishing, and you can help! 
 
 ## Open Source
+
 _The Programming Historian_ is committed to open source and open access principles. All contributed lessons must make use of open source programming languages and open source software whenever possible. This policy is meant to minimize costs for all parties, and to allow the greatest possible level of participation. We believe everyone should be able to benefit from these tutorials, not just those with large research budgets for expensive proprietary software.
 
 ## Gold Open Access
 
-
 All submissions to _The Programming Historian_ are published under a [Creative Commons 'By' license](https://creativecommons.org/licenses/by/2.0/). This adheres to a '[Gold](https://en.wikipedia.org/wiki/Open_access)' open access model of publishing, which is fully compliant with [RCUK](http://www.rcuk.ac.uk/research/openaccess/) funding and [HEFCE](http://www.hefce.ac.uk/rsrch/oa/) publishing requirements for scholars in the UK, as well as the [Canadian Tri-Agency Open Access Policy](http://www.science.gc.ca/default.asp?lang=En&n=F6765465-1). 'Gold' open access means that the version of record is made freely available without subscription fee or restrictions on access. Authors are permitted to republish their tutorials anywhere. And so can anyone, as long as they cite the original author and respect his or her moral rights.
 
 We do not charge Article Processing Charges (APCs), nor do we charge library subscriptions.
-
-
 
 ## Peer Review
 
