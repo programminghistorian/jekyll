@@ -64,8 +64,8 @@ Excel’s built-in functions, or check out tools like [Plot.ly](https://plot.ly/
 One big limitation of Palladio is that you can’t embed or share the
 visualizations you create, except in static form. So while Palladio can
 help you explore and understand your data, it’s not great for
-presentation, at least not yet. Instead, try Google Fusion Tables,
-ManyEyes, or Tableau.
+presentation, at least not yet. Instead, try [Google Fusion Tables](https://support.google.com/fusiontables/answer/2571232?hl=en),
+[Plot.ly](https://plot.ly/), or [Tableau](https://public.tableau.com/s/).
 
 **You want to create complex, fine-tuned maps and networks graphs.**
 
