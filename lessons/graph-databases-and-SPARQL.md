@@ -358,7 +358,7 @@ WHERE {
 
 Remember that, because `"print"` here is a _literal_, we enclose it within
 quotation marks in our query. When you include literals in a SPARQL query, the
-databse will only return _exact_ matches for those values.
+database will only return _exact_ matches for those values.
 
 Note that, because `?object_type` is not present in the `SELECT` command, it
 will not show up in the results table. However, it is essential to structuring
