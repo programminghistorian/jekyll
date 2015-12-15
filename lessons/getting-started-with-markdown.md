@@ -139,6 +139,7 @@ Shopping List
     * Cheese
 
 Ordered lists are written by numbering each line. Once again, the goal of Markdown is to produce documents that are both legible as plain text and able to be transformed into other formats. 
+
 ```
 To-do list
 ----------
@@ -172,6 +173,7 @@ Try typing the following text into the textbox:
     ```
 
 **This renders as:**
+
 ```
     <html>
         <head>

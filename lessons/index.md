@@ -56,6 +56,13 @@ You put a lot of effort into your research. Make sure that effort lasts by adopt
       <p>Dennis Tenen and Grant Wythoff</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/getting-started-with-markdown">
+      <img src="../gallery/getting-started-with-markdown.png">
+      <h3>Getting Started with Markdown</h3>
+      <p>Sarah Simpkin</p>
+    </a>
+  </li>
 </ul>
 
 
@@ -114,6 +121,13 @@ Just like it sounds, learn how to use programming to change, move, clean, or cou
       <p>Jon Crump</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/extracting-keywords">
+      <img src="../gallery/extracting-keywords.png">
+      <h3>Using Gazetteers to Extract Keywords from Sets of Free-Flowing Texts</h3>
+      <p>Adam Crymble</p>
+    </a>
+  </li>
 </ul>
 
 
@@ -166,11 +180,12 @@ Many of the tutorials require that you install one or more python modules to sav
 
 Linked Open Data
 ---------------
+Many research datasets are published as Linked Open Data, a format that allows flexible querying and interlinking of complex sources. Get an introduction to manipulating these databases by working with some real-world examples.
 
 <ul class="lesson-images">
   <li>
     <a href="../lessons/graph-databases-and-SPARQL">
-      <img src="../gallery/corpus-analysis-with-antconc.png">
+      <img src="../gallery/graph-databases-and-SPARQL.jpg">
       <h3>Using SPARQL to access Linked Open Data</h3>
       <p>Matthew Lincoln</p>
     </a>
@@ -219,7 +234,7 @@ Mapping can be an effective way to visualize and interpret historical data. Thes
 Network Analysis
 ---------------
 
-Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources. 
+Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources.
 
 <ul class="lesson-images">
   <li>
