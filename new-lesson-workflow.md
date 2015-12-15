@@ -151,7 +151,8 @@ lesson, use the following line of code in the body of your lesson:
 {% endraw %}
 
 The only parts of that line you'll have to modify are `filename` and
-`Caption to image`.
+`Caption to image`. Note that you may use Markdown within caption text,
+e.g. to mark text as bold or italic.
 
 When the Markdown is rendered by our system, this line will produce HTML
 that looks like this:
@@ -207,7 +208,7 @@ correctly. For example, this also would work:
     | First | Second |
     | ------------- | ------------- |
     | Content | Content  |
-    | Content Cell  | Content Cell  | 
+    | Content Cell  | Content Cell  |
 
 Adding colons to the dashed line separating the header row from the
 others can also control column alignment, as explained in the [full
