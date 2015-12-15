@@ -331,7 +331,7 @@ predicate `<bmo:PX_object_type>` (highlighted in the figure above) and click on
 the link for `thes:x8577` to navigate to the node describing the particular
 object type "print":
 
-{% include figure.html src="/images/sparql05.png" caption="The resource page for thes:x8577 ('print') in the British Museum LOD." %}
+{% include figure.html src="/images/sparql05.png" caption="The resource page for `thes:x8577` ('print') in the British Museum LOD." %}
 
 You'll note how this node has an plain-text label, as well as ties to related
 artwork type nodes within the database.
