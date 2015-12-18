@@ -5,6 +5,6 @@
 		<img src="{{ include.src }}" alt="{{ include.caption }}">
 	</a>
 <figcaption>
-    {{ include.caption }}
+    {{ include.caption | markdownify }}
 </figcaption>
 </figure>
