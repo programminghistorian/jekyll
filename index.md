@@ -3,10 +3,6 @@ layout: directory
 title: About the Programming Historian
 redirect_from: /about.html
 ---
-<div style="display:block; border: 1px solid #20879B; padding: 10px; margin: 10px;">*** Please note, we are currently running an anonymous survey of our readers and contributors, soliciting feedback on ways that we can improve the accessibility of the project for all users. The survey takes about five minutes and we would appreciate your input: <a href="https://www.surveymonkey.co.uk/r/SFSRHHD">https://www.surveymonkey.co.uk/r/SFSRHHD</a>.
-<p>
-Thank you.</div>
-
 <figure>
 	<img src="../images/about.png" width="290px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
