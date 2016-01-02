@@ -27,7 +27,7 @@ We welcome submissions of [new lessons][submissions] from authors!
 
 Writing a tutorial is one of the best ways to teach yourself particular skills and actively engage in the digital humanities community.
 
-We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft and hone your topic and approach, as well as to make your tutorial as clear and as useful as possible. Our peer review process helps improve your lessons even further, as well as improve your technical writing skills. Please read more about our [submission proceess][submissions].
+We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft and hone your topic and approach, as well as to make your tutorial as clear and as useful as possible. Our peer review process helps improve your lessons even further, as well as improve your technical writing skills. Please read more about our [submission process][submissions].
 
 If you'd like to propose a lesson (for you or for someone else to write), email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a>. 
 
