@@ -47,7 +47,7 @@ This project is our attempt to demonstrate what open access academic publishing 
 
 ## Contact
 
-Please direct correspondence in the first instance to <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> at the University of New Mexico.
+Please direct correspondence in the first instance to <a href="mailto:i2millig@uwaterloo.ca">Ian Milligan</a> at the University of Waterloo.
 
 ## Suggested Citation
 
