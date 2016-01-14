@@ -7,6 +7,7 @@ reviewers:
 - William J. Turkel
 - Adam Crymble
 layout: default
+difficulty: 2
 abstract: |
     The collections of the Internet Archive include many digitized
     historical sources. Many contain rich bibliographic data in a

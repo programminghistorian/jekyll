@@ -7,6 +7,7 @@ reviewers:
 - Fred Gibbs
 - Brandon Hawk
 layout: default
+difficulty: 3
 ---
 # Generating an Ordered Data Set from a Text File
 

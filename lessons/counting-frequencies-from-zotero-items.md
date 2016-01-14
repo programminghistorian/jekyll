@@ -7,6 +7,7 @@ reviewers:
 - Fred Gibbs
 layout: default
 prev: creating-new-items-in-zotero
+difficulty: 1
 ---
 
 Lesson Goals

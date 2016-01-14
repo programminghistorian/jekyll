@@ -8,6 +8,7 @@ reviewers:
 - Sheila Brennan
 layout: default
 next: installing-omeka 
+difficulty: 1
 ---
 
 [Omeka][] is a free [content management system][] that makes it easy to

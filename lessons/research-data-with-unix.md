@@ -10,6 +10,7 @@ reviewers:
 date: 2014-09-20
 layout: default
 prev: intro-to-bash
+difficulty: 2
 ---
 
 # Counting and mining research data with Unix

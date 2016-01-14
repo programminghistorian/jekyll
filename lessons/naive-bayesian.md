@@ -9,6 +9,7 @@ reviewers:
 - William J. Turkel
 - Adam Crymble
 layout: default
+difficulty: 3
 ---
 
 Introduction

@@ -9,6 +9,7 @@ reviewers:
 - Ian Milligan
 layout: default
 previous: automated-downloading-with-wget
+difficulty: 2
 ---
 
 Background and Lesson Goals

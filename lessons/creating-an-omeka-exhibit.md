@@ -8,6 +8,7 @@ reviewers:
 - Sheila Brennan
 layout: default
 previous: up-and-running-with-omeka
+difficulty: 2
 ---
 
 In the lesson [Up and Running with Omeka.net][], you added items to your

@@ -8,6 +8,7 @@ reviewers:
 - Dave Shepard
 - Patrick Burns
 layout: default
+difficulty: 2
 ---
 
 Lesson Goals

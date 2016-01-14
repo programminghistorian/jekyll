@@ -11,6 +11,7 @@ reviewers:
 - Adam Crymble
 layout: default
 next: research-data-with-unix
+difficulty: 1
 ---
 
 # Introduction to the Bash Command Line

@@ -8,6 +8,7 @@ reviewers:
 layout: default
 categories: [lessons, api]
 next: creating-new-items-in-zotero
+difficulty: 1
 ---
 
 Lesson Goals

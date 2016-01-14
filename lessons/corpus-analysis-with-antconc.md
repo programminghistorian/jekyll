@@ -8,6 +8,7 @@ reviewers:
 - Rob Sieczkiewicz
 - Fred Gibbs
 layout: default
+difficulty: 1
 ---
 
 ## Introduction

@@ -5,6 +5,7 @@ authors:
 date: 2012-12-30
 reviewers:
 layout: default
+difficulty: 2
 ---
 
 Version: Python 2.7.2 and BeautifulSoup 4.
