@@ -204,9 +204,12 @@
        History & Environment.
 
 - name: Jeri Wieringa
-  team: false
+  team: true
+  twitter: jerielizabeth
+  url: "http://jeriwieringa.com"
+  github: jerielizabeth
   bio: |
-       Jeri Wieringa is a doctoral candidate in history at George Mason University.
+       Jeri Wieringa is the digital publishing production lead for the George Mason University Libraries and a doctoral candidate in history at George Mason University.
 
 - name: Jon Crump
   team: false

@@ -18,6 +18,8 @@ Editorial Board
 
 {% include contact-info.html name="Miriam Posner" %}
 
+{% include contact-info.html name="Jeri Wieringa" %}
+
 
 Emeritus Team Members
 ---------------------
