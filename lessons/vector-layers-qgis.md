@@ -13,6 +13,7 @@ reviewers:
 layout: default
 next: georeferencing-qgis
 prev: qgis-layers
+difficulty: 2
 ---
 
 Lesson Goals

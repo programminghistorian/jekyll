@@ -7,7 +7,6 @@ reviewers:
 - Fred Gibbs
 - Ryan Cordell
 - Justin Larsen
-
 layout: default
 ---
 

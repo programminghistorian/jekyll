@@ -9,6 +9,7 @@ reviewers:
 - Sharon Howard
 layout: default
 previous: output-keywords-in-context-in-html-file
+difficulty: 2
 ---
 
 Module Goals

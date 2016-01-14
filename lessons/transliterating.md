@@ -9,6 +9,7 @@ reviewers:
 - Ezra Brooks
 - Russell Alleen-Willems
 layout: default
+difficulty: 2
 ---
 
 **Lesson Goals:**

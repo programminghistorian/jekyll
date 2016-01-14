@@ -6,6 +6,7 @@ reviewers:
 - Fred Gibbs
 date: 2013-05-22
 layout: default
+difficulty: 2
 ---
 
 Optical Character Recognition (OCR)—the conversion of scanned images to

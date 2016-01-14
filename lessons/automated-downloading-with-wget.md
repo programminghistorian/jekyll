@@ -8,6 +8,7 @@ reviewers:
 - Adam Crymble
 layout: default
 next: applied-archival-downloading-with-wget
+difficulty: 1
 ---
 
 Editor's Note

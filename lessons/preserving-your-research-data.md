@@ -9,6 +9,7 @@ reviewers:
 - William J. Turkel
 - Adam Crymble
 layout: default
+difficulty: 1
 ---
 
 #### Background

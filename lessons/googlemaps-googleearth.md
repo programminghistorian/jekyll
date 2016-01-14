@@ -11,6 +11,7 @@ reviewers:
 - Adam Crymble
 layout: default
 next: qgis-layers
+difficulty: 1
 ---
 
 ## Google Maps

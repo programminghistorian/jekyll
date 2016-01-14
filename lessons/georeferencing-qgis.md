@@ -12,6 +12,7 @@ reviewers:
 - Adam Crymble
 layout: default
 prev: vector-layers-qgis
+difficulty: 2
 ---
 
 Lesson Goals

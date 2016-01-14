@@ -10,6 +10,7 @@ reviewers:
 - Patrick Burns
 - Nora McGregor
 layout: default
+difficulty: 2
 ---
 
 ## Lesson goals

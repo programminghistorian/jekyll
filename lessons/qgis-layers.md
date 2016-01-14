@@ -12,6 +12,7 @@ reviewers:
 layout: default
 next: vector-layers-qgis
 prev: googlemaps-googleearth
+difficulty: 1
 ---
 
 Lesson Goals

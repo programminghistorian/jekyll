@@ -10,6 +10,7 @@ reviewers:
 - Alan MacEachern
 - Adam Crymble
 layout: default
+difficulty: 2
 ---
 
 Editor's Note

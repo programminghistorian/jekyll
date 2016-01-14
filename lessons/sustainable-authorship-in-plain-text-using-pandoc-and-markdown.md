@@ -7,6 +7,7 @@ date: 2014-03-19
 reviewers:
 - Fred Gibbs
 layout: default
+difficulty: 2
 ---
 
 {% include figure.html src="../images/lexoriter.jpg" caption="" %}
