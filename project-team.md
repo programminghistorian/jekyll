@@ -18,7 +18,7 @@ Editorial Board
 
 {% include contact-info.html name="Miriam Posner" %}
 
-{% include contact-info.html name="Evan Taparata"}
+{% include contact-info.html name="Evan Taparata" %}
 
 {% include contact-info.html name="Jeri Wieringa" %}
 
