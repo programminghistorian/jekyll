@@ -291,9 +291,7 @@ assistance.
     which you can confirm by looking at the same drop-down menu you
     found at the beginning of this step.
 5.  Scroll down and click on the `lessons` folder.
-6.  Look for the hyperlinked plus-sign (`+`) at the top of the page.
-    Hovering over it with your mouse, you should see a message that says
-    *Create New File Here*. Click on the plus sign.
+6.  Click on the "New file" button (somewhat near the top right of the page, below "the "watch"/"star"/"fork" buttons).
 7.  Now you will see the screen where you can manually enter the text of
     your lesson. First, in the filename box, enter the name of your
     local file, following the [naming conventions described above] and
