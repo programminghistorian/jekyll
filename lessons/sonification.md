@@ -41,6 +41,9 @@ Last and Usyskin focused particularly on time-series data.  They argue that time
 There is also the way that we fill in gaps in the sound with our expectations. Consider this video where the mp3 has been converted to MIDI back to mp3; the music has been 'flattened' so that all sonic information is being played by one instrument. (Generating this effect is rather like saving a webpage as .txt, opening it in Word, and then resaving it as .html). All sounds (including vocals) have been translated to their corresponding note values, and then turned back into an mp3. It is noisy; yet we perceive meaning...
 
 -insert video
+https://vimeo.com/149070596
+
+[![Smash Mouth All-Star mp3-to-midi-to-mp3](http://img.youtube.com/vi/L_jWHffIx5E/0.jpg)](https://player.vimeo.com/video/149070596)
 
 What's going on here? If that song was already known to you, you probably heard the actual 'words'. Yet, no words are present in the song - if the song was not already familiar to you, it sounded like garbled nonsense (see more examples on [Andy Baio's website](http://waxy.org/2015/12/if_drake_was_born_a_piano/)). This effect is sometimes called an 'auditory hallucination'. This example shows how in any representation of data we can hear/see what is not, strictly speaking, there. We fill the holes with our own expectations.
 
@@ -119,5 +122,6 @@ Lest we think that we are at the cutting edge in our algorithmic generation of m
 + Panning
 
 # References
-Hedges, Stephen A.. 1978. “Dice Music in the Eighteenth Century”. Music & Letters 59 (2). Oxford University Press: 180–87. http://www.jstor.org/stable/734136.
+Hedges, Stephen A. 1978. “Dice Music in the Eighteenth Century”. Music & Letters 59 (2). Oxford University Press: 180–87. http://www.jstor.org/stable/734136.
 
+Koebler, Jason. 2015. "The Strange Acoustic Phenomenon Behind These Wacked-Out Versions of Pop Songs" Motherboard, Dec 18. http://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs
