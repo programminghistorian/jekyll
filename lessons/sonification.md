@@ -1,5 +1,5 @@
 ---
-title: Algorithmic Listening, or, _a gentle introduction to sonification_ historical data
+title: Algorithmic Listening, or, _a gentle introduction to the sonification of historical data_
 authors:
 - Shawn Graham
 date: 2016-01-26
@@ -143,6 +143,7 @@ When you have multiple voices of data, what stands out? Note that in this approa
 ## MIDITime
 
 [Miditime](https://github.com/cirlabs/miditime)
+[topic model file]
 
 ## Sonic Pi
 
