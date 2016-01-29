@@ -20,8 +20,6 @@ I want to hear the meaning of the past. But I know that I can’t; nevertheless,
 
 In this tutorial, you will learn to make some noise from your data about the past. The _meaning_ of that noise, well... that's up to you.
 
-_where's that article explaining how the midi-to-mp3 thing works cognitively? important for the ways we impute meaning_
-
 # Objectives
 
 In this tutorial, I will introduce you to three different ways of generating sound or music from your data. In the first, we will use a freely available and free-to-use system developed by Jonathan Middleton called 'Musicalgorithms', to introduce some of the issues and key terms involved. In the second, we will use a small python library to 'parameter map' our data against the 88 key keyboard, and introduce some artistry into our work. Finally, we will learn how to load our data into the open source live-coding environment for sound and music, Sonic Pi, at which time I will leave you to explore that project's copious tutorials and resources. 
