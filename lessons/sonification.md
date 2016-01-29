@@ -1,5 +1,5 @@
 ---
-title: Listen to your data: An Introduction to Sonfication with Python
+title: Algorithmic Listening, or, a gentle introduction to sonifying historical data
 authors:
 - Shawn Graham
 date: 2016-01-26
@@ -10,7 +10,7 @@ layout: default
 
 #_Poetry_
 
-We try to see the past. There are any number of guides that will help you _visualize_ that which can't be seen. But perhaps we are too tied to our screens, too much invested in ‘seeing’. While there is a deep history and literature on archaeoacoustics and soundscapes that try to capture the sound of a place ([see for instance the Virtual St. Paul's](http://www.digitalstudies.org/ojs/index.php/digital_studies/article/view/251/310), I am interested in ’sonifying’ the data themselves. I want to figure out a grammar for representing data in sound that is appropriate for history. Drucker reminds us that ‘data’ are not really things given, but rather things captured, things transformed: that is to say, ‘capta’. In sonifying data, I literally perform the past in the present, and so the assumptions, the transformations, I make are foregrounded. The resulting aural experience is a literal ‘deformance’ (portmanteua of ‘deform’ and ‘perform’) that makes us consider the past in a new way.
+We try to see the past. There are any number of guides that will help you _visualize_ that which can't be seen. But perhaps we are too tied to our screens, too much invested in ‘seeing’. While there is a deep history and literature on archaeoacoustics and soundscapes that try to capture the sound of a place ([see for instance the Virtual St. Paul's](http://www.digitalstudies.org/ojs/index.php/digital_studies/article/view/251/310)), I am interested in ’sonifying’ the data themselves. I want to figure out a grammar for representing data in sound that is appropriate for history. Drucker reminds us that ‘data’ are not really things given, but rather things captured, things transformed: that is to say, ‘capta’. In sonifying data, I literally perform the past in the present, and so the assumptions, the transformations, I make are foregrounded. The resulting aural experience is a literal ‘deformance’ (portmanteua of ‘deform’ and ‘perform’) that makes us consider the past in a new way.
 
 I want to hear the meaning of the past. But I know that I can’t; nevertheless, when I hear an instrument, I can imagine the physicality of the player playing it; in its echoes and resonances I can discern the physical space. I can feel the bass; I can move to the rhythm. The music engages my whole body, my whole imagination. Its associations with sounds, music, and tones I’ve heard before create a deep temporal experience, a system of embodied relationships. Visual? We have had visual representations of the past for so long, we have almost forgotten the artistic and performative aspect of those grammars of expression.
 
