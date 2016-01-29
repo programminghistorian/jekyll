@@ -113,9 +113,36 @@ The sample dataset provided contains counts of Roman coins in its first column a
 5. Click on 'Duration Input'. The options here will map various transformations against your data that will alter the duration for each note. Do not worry about these options for now; move on. 
 6. Click on 'Pitch Mapping'. This is the most crucial choice, as it will transform (that is, scale) your raw data to a mapping against the keys of the keyboard. Leave the `mapping` set to 'division'.  (The other options are modulo or logarithmic). The option `Range` 1 to 88 uses the full 88 keys of the keyboard; thus your lowest value would accord to the deepest note on the piano and your highest value with the highest note. You might wish instead to constrain your music around middle C, so enter 25 to 60 as your range. The output should change to: `31,34,34,34,25,28,30,60,28,25,26,26,25,25,60,25,25,38,33,26,25,25,25` These are no longer your counts; they are notes on the keyboard.
 7. Click on 'Duration Mapping'. Like Pitch Mapping, this takes a range of times that you specify and uses the various mathematical options to map that range of possibilities against your notes. If you mouse over the `i` you will see how the numbers correspond with whole notes, quarter notes, eigth notes, and so on. Leave the default values for now.
-8. 
+8. Click on 'Sacle Options'. Here we can begin to select something of what might be called the 'emotional' aspect to sound. We commonly think of major scales being 'happy' while minor scales are 'sad'; for an accessible discussion see [this blog post](http://www.ethanhein.com/wp/2010/scales-and-emotions/). For now, select 'major'.
+
+You have now sonified one column of data! Click on the 'save' button, then 'save csv'. You'll have a file that looks something like this:
+
+```
+# Of Voices, Text Area Name, Text Area Data 
+1,morphBox,
+,areaPitch1,80 128 128 128 1 40 77 495 48 2 21 19 1 1 500 1 3 190 115 13 5 1 3
+,dAreaMap1,2 7 1 8 2 8 1 8 2 8 4 5 9 0 4 5 2 3 5 3 6 0 2
+,mapArea1,31 34 34 34 25 28 30 60 28 25 26 26 25 25 60 25 25 38 33 26 25 25 25
+,dMapArea1,1 5 1 5 1 5 1 5 1 5 3 3 6 0 3 3 1 2 3 2 4 0 1
+,so_text_area1,32 35 35 35 25 28 30 59 28 25 27 27 25 25 59 25 25 39 33 27 25 25 25
+```
+
+You can see your original data in the 'areaPitch1' field, and your subsequent mappings. The site allows you to generate up to four voices at a time into a single MIDI file; depending on how you want to add instrumentation subsequently, you might wish to generate one MIDI file at a time. Let's play the music - click on 'Play'. You can select the tempo here, and an instrument. You can listen to your data in the browser, or save as a MIDI file by clicking the blue 'Save MIDI file'.
+
+Go back to the beginning, and load both columns of data into this template:
+
+```
+# Of Voices, Text Area Name, Text Area Data 
+2,morphBox,
+,areaPitch1,
+,areaPitch2,
+```
+
+When you have multiple voices of data, what stands out? Note that in this approach, the distance between points in the real world is not factored into our sonification. This distance, if it were, might be crucical. Distance, of course, does not have to be geographic - it can be temporal. The next tool we'll explore allows us to factor that into our sonification explicitly.
 
 ## MIDITime
+
+[Miditime](https://github.com/cirlabs/miditime)
 
 ## Sonic Pi
 
