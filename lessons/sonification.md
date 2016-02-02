@@ -84,7 +84,7 @@ This data represents the source data and its transformations; sharing this data 
 
 The key field for us is ‘areaPitch1,’ which contains the space-delimited input data.  The other fields will become filled as we move through Musicalgorithms' various settings. In the sample data above, the values are raw counts of inscriptions from a series of sites along a Roman road in Britain. (We will practice with other data in a moment below).
 
-Now, as you page across the various tabs in the interface (‘duration input’, ‘pitch mapping’, ‘duration mapping’, ‘scale options’) you can effect various transformations. In ‘pitch mapping’, there are a number of mathematical options for mapping the data against the full 88 keys/pitches of a piano keyboard (in a linear mapping, the mean of one’s data would be mapped to middle C, or 40). One can also choose the kind of scale, whether it is a minor or major and so on. At this point, once you've selected your various transformations, you should save the text file. On the file tab, ‘play’, one can download a midi file for integration into more complicated music programs such as GarageBand (Mac) or LMMS (Windows, Mac, Linux) for assigning instrumentation. 
+Now, as you page across the various tabs in the interface (‘duration input’, ‘pitch mapping’, ‘duration mapping’, ‘scale options’) you can effect various transformations. In ‘pitch mapping’, there are a number of mathematical options for mapping the data against the full 88 keys/pitches of a piano keyboard (in a linear mapping, the mean of one’s data would be mapped to middle C, or 40). One can also choose the kind of scale, whether it is a minor or major and so on. At this point, once you've selected your various transformations, you should save the text file. On the file tab, ‘play’, one can download a midi file for integration into more complicated music programs such as GarageBand (Mac) or [LMMS](https://lmms.io/) (Windows, Mac, Linux) for assigning instrumentation. 
 
 If you have several columns of data for the same points - say, in our example from Roman Britain, we also wanted to sonify counts of a pottery type for those same towns - you can reload your data, effect the transformations and mappings, and generate another MIDI file. Since Garageband and LMMS allow for overlaying of voices, you can begin to build up complicated sequences of music. 
 
@@ -140,10 +140,208 @@ When you have multiple voices of data, what stands out? Note that in this approa
 
 ## MIDITime
 
-[Miditime](https://github.com/cirlabs/miditime)
-[topic model file]
+MIDITime is a python package developed by [Reveal News (formerly, the Centre for Investigative Reporting)](https://www.revealnews.org/). It's [Github repository is here](https://github.com/cirlabs/miditime). Miditime is built explicitly for time series data. 
+
+Let us assume that you have a historic diary to which you've fitted a [topic model](http://programminghistorian.org/lessons/topic-modeling-and-mallet). The resulting output might have diary entries as rows, and the percentage composition each topic contributes to that entry as the columns. In which case, _listening_ to these values might help you understand the patterns of thought in the diary in a way that visualizing as a graph might not. Outliers or recurrent minor patterns could stand out to the ear in a way the grammar of graphs obscures.
+
+### Installing MIDITime
+Installing miditime is straightforward: 
+
+`$ pip install miditime` or `$ sudo pip install miditime` for a Mac or Linux machine;
+`> python pip install miditime` on a Windows machine. (Windows users might want to use [this helper program](https://sites.google.com/site/pydatalog/python/pip-for-windows) to get Pip working properly on their machine).
+
+### Your first piece
+Let us look at the sample script provided. Open your text editor, and copy and paste the sample script in:
+
+```
+#!/usr/bin/python
+
+from miditime.MIDITime import MIDITime
+
+# Instantiate the class with a tempo (120bpm is the default) and an output file destination.
+mymidi = MIDITime(120, 'myfile.mid')
+
+# Create a list of notes. Each note is a list: [time, pitch, attack, duration]
+midinotes = [
+    [0, 60, 200, 3],  #At 0 beats (the start), Middle C with attack 200, for 3 beats
+    [10, 61, 200, 4]  #At 10 beats (12 seconds from start), C#5 with attack 200, for 4 beats
+]
+
+# Add a track with those notes
+mymidi.add_track(midinotes)
+
+# Output the .mid file
+mymidi.save_midi()
+```
+
+Save this script as `music1.py`. At your terminal or command prompt, run the script:
+
+`python music1.py`
+
+A new file, `myfile.mid` will be written to your directory. To hear this file, you can open it with Quicktime or Windows Media Player. (You can add instrumentation to it by opening it in Garageband or [LMMS](https://lmms.io/)). 
+
+`Music1.py` imports miditime (remember, you must do `pip install midtime`). Then, it creates an output file destination and sets the tempo. The notes are all listed individually, where the first number is the time when the note should be played, the pitch of the note (ie, the actual note!), how hard or rythmically the note is hit (the attack), and then how long the note lasts. The notes are then written to the track, and then the track is written to `myfile.mid`
+
+Play with this script now, and add more notes. The notes for 'Baa Baa Black Sheep' are:
+
+```
+D, D, A, A, B, B, B, B, A
+Baa, Baa, black, sheep, have, you, any, wool?
+```
+
+Can you make your computer play this song?
+
+### Getting your own data in
+
+[This file](/topicmodelfile) is a selection from the topic model fitted to John Adams' Diaries for[The Macroscope](http://themacroscope.org). Only the strongest signals have been preserved by rounding the values in the columns to two decimal places (remembering that .25 for instance would indicate that that topic is contributing to a quarter of that diary entry's composition). To get this data into your python script, it has to be formatted in a particular away. The tricky bit is getting the date field right.
+
+_For the purposes of this tutorial, we are going to leave the names of variables and so on unchanged from the sample script. The sample script was developed with earthquake data in mind; so where it says 'magnitude' we can think of it as equating to '% topic composition.'_
+
+```
+my_data = [
+    {'event_date': <datetime object>, 'magnitude': 3.4},
+    {'event_date': <datetime object>, 'magnitude': 3.2},
+    {'event_date': <datetime object>, 'magnitude': 3.6},
+    {'event_date': <datetime object>, 'magnitude': 3.0},
+    {'event_date': <datetime object>, 'magnitude': 5.6},
+    {'event_date': <datetime object>, 'magnitude': 4.0}
+]
+```
+
+One could approach the problem of getting our data into that format using regular expressions; it might be easier to just open our topic model in a spreadsheet. Copy one column of data to a new sheet, and leave three columns to the left and one colum to the right of the data, like so:
+
++--+--+--+--+--+
+| {'event_date': datetime |(1753,6,8)  |, 'magnitude':  |:0.0024499630  |},  |
++--+--+--+--+--+
+|  |  |  |  |  |
++--+--+--+--+--+
+|  |  |  |  |  |
++--+--+--+--+--+
+
+Then copy and paste the elements that do not change to fill up the entire column. The date element has to be (year,month,day). Once you've filled up the table, you can copy and paste it into your text editor so that it becomes part of the `my_data` array, like so:
+
+
+```
+my_data = [
+{'event_date': datetime(1753,6,8), 'magnitude':0.0024499630},
+{'event_date': datetime(1753,6,9), 'magnitude':0.0035766320},
+{'event_date': datetime(1753,6,10), 'magnitude':0.0022171550},
+{'event_date': datetime(1753,6,11), 'magnitude':0.0033220150},
+{'event_date': datetime(1753,6,12), 'magnitude':0.0046445900},
+{'event_date': datetime(1753,6,13), 'magnitude':0.0035766320},
+{'event_date': datetime(1753,6,14), 'magnitude':0.0042241550}
+]
+```
+
+Note that the last row does not have a comma at the end of the line.
+
+Your final script will look something like this (using the example from the Miditime page itself):
+
+```
+from miditime.MIDITime import MIDITime
+from datetime import datetime
+import random
+
+#topic: local
+
+mymidi = MIDITime(108, 'johnadams1.mid', 3, 4, 1)
+```
+
+The values after MIDITime set the beats per minute, the output file, the number of seconds to represent a year in the music, the base octave (middle C is conventionally represented as C5, so here 4 represents one octave below middle C), and how many octaves to map the pitches against. Now we define our data:
+
+```
+my_data = [`
+```
+
+...have your data in here, remember to end the data with a `]` ...
+
+```
+my_data_epoched = [{'days_since_epoch': mymidi.days_since_epoch(d['event_date']), 'magnitude': d['magnitude']} for d in my_data]
+
+my_data_timed = [{'beat': mymidi.beat(d['days_since_epoch']), 'magnitude': d['magnitude']} for d in my_data_epoched]
+
+start_time = my_data_timed[0]['beat']
+```
+
+This part works out the timing between your different diary entries; diaries that are close together in time will therefore have their notes sounding closer together. Finally, we define how the data get mapped against the pitch:
+
+```
+def mag_to_pitch_tuned(magnitude):
+    # Where does this data point sit in the domain of your data? (I.E. the min magnitude is 3, the max in 5.6). In this case the optional 'True' means the scale is reversed, so the highest value will return the lowest percentage.
+    scale_pct = mymidi.linear_scale_pct(0, 1, magnitude)
+    # Pick a range of notes. This allows you to play in a key.
+    c_major = ['C', 'C#', 'D', 'D#', 'E', 'E#', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B', 'B#']
+
+    #Find the note that matches your data point
+    note = mymidi.scale_to_note(scale_pct, c_major)
+
+    #Translate that note to a MIDI pitch
+    midi_pitch = mymidi.note_to_midi_pitch(note)
+
+    return midi_pitch
+
+note_list = []
+
+for d in my_data_timed:
+    note_list.append([
+        d['beat'] - start_time,
+        mag_to_pitch_tuned(d['magnitude']),
+        random.randint(0,200),  # attack
+        random.randint(1,4)  # duration, in beats
+    ])
+```
+
+and then write to file:
+```
+# Add a track with those notes
+mymidi.add_track(midinotes)
+
+# Output the .mid file
+mymidi.save_midi()
+```
+
+For each column of data in your original data, have a unique script and remember to change the output file name! Otherwise you will overwrite your data. Then, you can load the individual midi files into Garageband or LMMS for instrumentation. Here's the full [John Adams Diary](https://www.youtube.com/watch?v=ikqRXtI3JeA).
 
 ## Sonic Pi
+
+Having unique midifiles that you arrange moves you from 'sonifying' towards composition and sound art. In this final section, I do not offer you a full tutorial on using [Sonic Pi](http://sonic-pi.net), but rather point you towards an environment that allows for the actual live-coding and performance of your data. Sonic Pi's built-in tutorials will show you something of the potential of using your computer as an actual musical instrument (where you type Ruby code into its built-in editor while the interpreter plays what you encode). 
+
+Here, I offer simply a code snippet that will allow you to import your data, where your data is simply a list of values saved as csv. I am indebted to George Washington University librarian Laura Wrubel who posted to [gist.github.com](https://gist.github.com/lwrubel) her experiments in sonifying her library's circulation transactions.
+
+In this [sample file (a topic model generated from the Jesuits Relations)](jesuits.csv), there are two topics. The first row contains the headers: topic1, topic2.
+
+Follow the initial tutorials that Sonic Pi provides. Then, in a new buffer (editor window), copy the following:
+
+```
+require 'csv'
+data = CSV.parse(File.read("/path/to/your/directory/data.csv"), {:headers => true, :header_converters => :symbol})
+```
+
+Remember, `path/to/your/directory/` is the actual location of your data.
+
+Now, let's load that data into our music:
+
+```
+#bit that runs only once, unless you comment out the next line, and the end
+# live_loop :jesuit do
+data.each do |line|
+  topic1 = line[:topic1].to_f
+  topic2 = line[:topic2].to_f
+
+  use_synth :piano
+  play topic1*200, attack: rand(0.5), decay: rand(1), amp: rand(0.25)
+  use_synth :piano
+  play topic2*200, attack: rand(0.5), decay: rand(1), amp: rand(0.25)
+  sleep (0.5)
+end
+# end
+```
+
+The first few lines load the columns of data in; then we say which sound sample we wish to use (piano) and then tell Sonic Pi to play topic 1 according to the following criteria. Note that the 'rand' value (random) allows us to add a bit of 'humanity' into the music in terms of the dynamics. Then we do the same thing again for topic2.
+
+You can then add beats, loops, samples, and the whole parephernalia that Sonic Pi permits.
+
+For more on Sonic Pi, [this workshop website](https://www.miskatonic.org/music/access2015/) is a good place to start. See also Laura Wrubel's [report on attending that workshop, and her and her colleague's work in this area](http://library.gwu.edu/scholarly-technology-group/posts/sound-library-work).
 
 # Nihil Novi Sub Sole
 Lest we think that we are at the cutting edge in our algorithmic generation of music, a salutary reminder was published in 1978 on 'dice music games' of the eighteenth century, where rolls of the dice determined the recombination of pre-written snippets of music. Some of these games have been explored and re-coded for the Sonic-Pi by Robin Newman at [https://rbnrpi.wordpress.com/project-list/mozart-dice-generated-waltz-revisited-with-sonic-pi/](https://rbnrpi.wordpress.com/project-list/mozart-dice-generated-waltz-revisited-with-sonic-pi/); Newman also uses what I can best describe for the Programming Historian audience as Markdown+Pandoc for musical notation, [Lilypond](http://www.lilypond.org/) to score these compositions.
