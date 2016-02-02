@@ -35,7 +35,7 @@ You will see that 'sonification' moves us along the spectrum from mere 'visualiz
 
 + [Roman artefact data](/sonification-supporting-materials/roman-data.csv)
 + [Excerpt from the Topic model of John Adams' Diary](/sonification-supporting-materials/diary.csv)
-+ [Excerpt from the Topic model of the Jesuit Relations](/sonficiation-supporting-materials/jesuittopics.csv)
++ [Excerpt from the Topic model of the Jesuit Relations](/sonification-supporting-materials/jesuittopics.csv)
 
 # Some Background on Sonification
 
