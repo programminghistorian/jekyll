@@ -14,9 +14,9 @@ layout: default
 
 I am too much tired of seeing the past. There are any number of guides that will help you _visualize_ that past which cannot be seen, but often we forget what a creative full-of-fudges act visualization is. We are perhaps too tied to our screens, too much invested in ‘seeing’. Let me hear something of the past instead.
 
-While there is a deep history and literature on archaeoacoustics and soundscapes that try to capture the sound of a place _as it was_ ([see for instance the Virtual St. Paul's](http://www.digitalstudies.org/ojs/index.php/digital_studies/article/view/251/310)), I am interested instead to ’sonify' what I have _right now_, the data themselves. I want to figure out a grammar for representing data in sound that is appropriate for history. Drucker famously reminds us that ‘data’ are not really things given, but rather things captured, things transformed: that is to say, ‘capta’. In sonifying data, I literally perform the past in the present, and so the assumptions, the transformations, I make are foregrounded. The resulting aural experience is a literal ‘deformance’ (portmanteau of ‘deform’ and ‘perform’) that makes us hear modern layers of the past in a new way. 
+While there is a deep history and literature on archaeoacoustics and soundscapes that try to capture the sound of a place _as it was_ ([see for instance the Virtual St. Paul's](http://www.digitalstudies.org/ojs/index.php/digital_studies/article/view/251/310) or the work of [Jeff Veitch on ancient Ostia](https://jeffdveitch.wordpress.com/)), I am interested instead to ’sonify' what I have _right now_, the data themselves. I want to figure out a grammar for representing data in sound that is appropriate for history. Drucker famously reminds us that ‘data’ are not really things given, but rather things captured, things transformed: that is to say, ‘capta’. In sonifying data, I literally perform the past in the present, and so the assumptions, the transformations, I make are foregrounded. The resulting aural experience is a literal ‘deformance’ (portmanteau of ‘deform’ and ‘perform’) that makes us hear modern layers of the past in a new way. 
 
-I want to hear the meaning of the past. But I know that I can’t; nevertheless, when I hear an instrument, I can imagine the physicality of the player playing it; in its echoes and resonances I can discern the physical space. I can feel the bass; I can move to the rhythm. The music engages my whole body, my whole imagination. Its associations with sounds, music, and tones I’ve heard before create a deep temporal experience, a system of embodied relationships. Visual? We have had visual representations of the past for so long, we have almost forgotten the artistic and performative aspect of those grammars of expression.
+I want to hear the meaning of the past. But I know that I can’t; nevertheless, when I hear an instrument, I can imagine the physicality of the player playing it; in its echoes and resonances I can discern the physical space. I can feel the bass; I can move to the rhythm. The music engages my whole body, my whole imagination. Its associations with sounds, music, and tones I’ve heard before create a deep temporal experience, a system of embodied relationships between myself and the past. Visual? We have had visual representations of the past for so long, we have almost forgotten the artistic and performative aspect of those grammars of expression.
 
 In this tutorial, you will learn to make some noise from your data about the past. The _meaning_ of that noise, well... that's up to you.
 
@@ -32,10 +32,10 @@ You will see that 'sonification' moves us along the spectrum from mere 'visualiz
 + Sonic Pi [http://sonic-pi.net/](http://sonic-pi.net/)
 
 ### Example Data
-- two datasets. Coins vs Coin Hoards; Topic Model of John Adams
+
 + [Roman artefact data](/sonification-supporting-materials/roman-data.csv)
-+ [Topic model of John Adams' Diary](/sonification-supporting-materials/diary.csv)
-+ [Topic model of the Jesuit Relations](/sonficiation-supporting-materials/jesuits.csv)
++ [Excerpt from the Topic model of John Adams' Diary](/sonification-supporting-materials/diary.csv)
++ [Excerpt from the Topic model of the Jesuit Relations](/sonficiation-supporting-materials/jesuittopics.csv)
 
 # Some Background on Sonification
 
@@ -194,7 +194,7 @@ Can you make your computer play this song?
 
 ### Getting your own data in
 
-[This file](/topicmodelfile) is a selection from the topic model fitted to John Adams' Diaries for[The Macroscope](http://themacroscope.org). Only the strongest signals have been preserved by rounding the values in the columns to two decimal places (remembering that .25 for instance would indicate that that topic is contributing to a quarter of that diary entry's composition). To get this data into your python script, it has to be formatted in a particular away. The tricky bit is getting the date field right.
+[This file](/sonification-supporting-materials/diary.csv) is a selection from the topic model fitted to John Adams' Diaries for[The Macroscope](http://themacroscope.org). Only the strongest signals have been preserved by rounding the values in the columns to two decimal places (remembering that .25 for instance would indicate that that topic is contributing to a quarter of that diary entry's composition). To get this data into your python script, it has to be formatted in a particular away. The tricky bit is getting the date field right.
 
 _For the purposes of this tutorial, we are going to leave the names of variables and so on unchanged from the sample script. The sample script was developed with earthquake data in mind; so where it says 'magnitude' we can think of it as equating to '% topic composition.'_
 
@@ -209,7 +209,7 @@ my_data = [
 ]
 ```
 
-One could approach the problem of getting our data into that format using regular expressions; it might be easier to just open our topic model in a spreadsheet. Copy one column of data to a new sheet, and leave three columns to the left and one colum to the right of the data, like so:
+One could approach the problem of getting our data into that format using regular expressions; it might be easier to just open our topic model in a spreadsheet. Copy the data to a new sheet, and leave columns to the left and to the right of the data, like so:
 
 +--+--+--+--+--+
 | {'event_date': datetime |(1753,6,8)  |, 'magnitude':  |:0.0024499630  |},  |
@@ -301,7 +301,7 @@ mymidi.add_track(midinotes)
 mymidi.save_midi()
 ```
 
-For each column of data in your original data, have a unique script and remember to change the output file name! Otherwise you will overwrite your data. Then, you can load the individual midi files into Garageband or LMMS for instrumentation. Here's the full [John Adams Diary](https://www.youtube.com/watch?v=ikqRXtI3JeA).
+For each column of data in your original data, **have a unique script and remember to change the output file name!** Otherwise you will overwrite your data. Then, you can load the individual midi files into Garageband or LMMS for instrumentation. Here's the full [John Adams Diary](https://www.youtube.com/watch?v=ikqRXtI3JeA).
 
 # Sonic Pi
 
@@ -309,7 +309,7 @@ Having unique midifiles that you arrange moves you from 'sonifying' towards comp
 
 Here, I offer simply a code snippet that will allow you to import your data, where your data is simply a list of values saved as csv. I am indebted to George Washington University librarian Laura Wrubel who posted to [gist.github.com](https://gist.github.com/lwrubel) her experiments in sonifying her library's circulation transactions.
 
-In this [sample file (a topic model generated from the Jesuits Relations)](jesuits.csv), there are two topics. The first row contains the headers: topic1, topic2.
+In this [sample file](jesuittopics.csv)(a topic model generated from the [Jesuit Relations](http://puffin.creighton.edu/jesuit/relations/)), there are two topics. The first row contains the headers: topic1, topic2.
 
 ### Practice
 
@@ -372,24 +372,24 @@ For more on Sonic Pi, [this workshop website](https://www.miskatonic.org/music/a
 # Nihil Novi Sub Sole
 Lest we think that we are at the cutting edge in our algorithmic generation of music, a salutary reminder was published in 1978 on 'dice music games' of the eighteenth century, where rolls of the dice determined the recombination of pre-written snippets of music. Some of these games have been explored and re-coded for the Sonic-Pi by Robin Newman at [https://rbnrpi.wordpress.com/project-list/mozart-dice-generated-waltz-revisited-with-sonic-pi/](https://rbnrpi.wordpress.com/project-list/mozart-dice-generated-waltz-revisited-with-sonic-pi/); Newman also uses what I can best describe for the Programming Historian audience as Markdown+Pandoc for musical notation, [Lilypond](http://www.lilypond.org/) to score these compositions.
 
+# Conclusion
+
+Sonifying our data forces us to confront the ways our data are often not so much about the past, but rather our constructed versions of it. It does so partly by virtue of its novelty and the art and artifice required to map data to sound. But it does so also by its contrast with our received notions of visualization of data. It may be that the sounds one generates never rise to the level of 'music'; but if it helps transform how we encounter the past, and how others engage with the past, then the effort will be worth it. Sonfication is about [discovery, not justification](http://www.trevorowens.org/2012/11/discovery-and-justification-are-different-notes-on-sciencing-the-humanities/) as Trevor Owens memorably put it.
+
 ## Terms
 
 + MIDI = musical instrument digital interface. It is a description of a note's value and timing, not of its dynamics or how one might play it (this is an important distinction). It allows computers and instruments to talk to each other; one can apply different instrumentation to a MIDI file much the same way one would change the font on a piece of text (or run a markdown file through Pandoc).
-+ Mp3
-+ Pitch = 
-+ Attack =
-+ Duration =
-+ Pitch Mapping & Duration Mapping =
-    * Division
-    * Logarithmic
-    * Modulo
-+ Scales & Keys
-+ Amplitude
-+ Panning
++ Mp3 = a compression format for sound that is _lossy_ in that it strips out data as part of its compression routine.
++ Pitch = the actual note itself (middle C, etc)
++ Attack = how the note is played or hit
++ Duration = how long the note lasts (whole notes, quarter notes, eighth notes etc)
++ Pitch Mapping & Duration Mapping = scaling data values against a range of notes or the length of the note 
++ Amplitude = roughly, the loudness of the note
++ Panning = whether the note is heard from the left or right
 
 # References
 Hedges, Stephen A. 1978. “Dice Music in the Eighteenth Century”. Music & Letters 59 (2). Oxford University Press: 180–87. [http://www.jstor.org/stable/734136](http://www.jstor.org/stable/734136).
 
 Koebler, Jason. 2015. "The Strange Acoustic Phenomenon Behind These Wacked-Out Versions of Pop Songs" Motherboard, Dec 18. [http://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs](http://motherboard.vice.com/read/the-strange-acoustic-phenomenon-behind-these-wacked-out-versions-of-pop-songs)
 
-Last and Usyskin 2015
+Last and Usyskin, 2015. "Listen to the Sound of Data". In Aaron K. Baughman et al. (eds.) Multimedia Data Mining and Analytics. Springer: Heidelberg. Pp. 419-446 [DOI: 10.1007/978-3-319-14998-1_19](DOI: 10.1007/978-3-319-14998-1_19)
