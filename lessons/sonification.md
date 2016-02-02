@@ -20,17 +20,22 @@ I want to hear the meaning of the past. But I know that I can’t; nevertheless,
 
 In this tutorial, you will learn to make some noise from your data about the past. The _meaning_ of that noise, well... that's up to you.
 
-# Objectives
+## Objectives
 
 In this tutorial, I will introduce you to three different ways of generating sound or music from your data. In the first, we will use a freely available and free-to-use system developed by Jonathan Middleton called 'Musicalgorithms', to introduce some of the issues and key terms involved. In the second, we will use a small python library to 'parameter map' our data against the 88 key keyboard, and introduce some artistry into our work. Finally, we will learn how to load our data into the open source live-coding environment for sound and music, Sonic Pi, at which time I will leave you to explore that project's copious tutorials and resources. 
 
 You will see that 'sonification' moves us along the spectrum from mere 'visualization/auralization' to actual performance.
 
+### Tools
 + Musicalgorithms [http://musicalgorithms.org/](http://musicalgorithms.org/)
 + MIDITime [https://github.com/cirlabs/miditime](https://github.com/cirlabs/miditime) (I have forked a copy [here](https://github.com/shawngraham/miditime))
 + Sonic Pi [http://sonic-pi.net/](http://sonic-pi.net/)
-+ [Roman-data.csv](/sonification-supporting-materials/roman-data.csv)
+
+### Example Data
+- two datasets. Coins vs Coin Hoards; Topic Model of John Adams
++ [Roman artefact data](/sonification-supporting-materials/roman-data.csv)
 + [Topic model of John Adams' Diary](/sonification-supporting-materials/diary.csv)
++ [Topic model of the Jesuit Relations](/sonficiation-supporting-materials/jesuits.csv)
 
 # Some Background on Sonification
 
@@ -38,7 +43,7 @@ Sonification is the practice of mapping aspects of the data to produce sound sig
 
 Last and Usyskin focused particularly on time-series data.  They argue that time-series data are particularly well suited to sonification because there are natural parallels with musical sound. Music is sequential, it has duration, and it evolves over time; so too with time-series data (Last and Usyskin 2015: 424). It becomes a problem of matching the data to the appropriate sonic outputs. There are at least two approaches to this problem.  In many applications of sonification, a technique called ‘parameter mapping’ is used to marry aspects of the data along various auditory dimensions such as pitch, variation, brilliance, and onset. The problem with this approach is that where there is no temporal relationship (or rather, no non-linear relationship) between the original data points, the resulting sound can be ‘confusing’ (2015: 422). 
 
-# Hearing the Gaps
+## Hearing the Gaps
 There is also the way that we fill in gaps in the sound with our expectations. Consider this video where the mp3 has been converted to MIDI back to mp3; the music has been 'flattened' so that all sonic information is being played by one instrument. (Generating this effect is rather like saving a webpage as .txt, opening it in Word, and then resaving it as .html). All sounds (including vocals) have been translated to their corresponding note values, and then turned back into an mp3. It is noisy; yet we perceive meaning...
 
 [![Smash Mouth All-Star mp3-to-midi-to-mp3](http://img.youtube.com/vi/L_jWHffIx5E/0.jpg)](https://player.vimeo.com/video/149070596)
@@ -50,11 +55,7 @@ Consider the implications for history. If we sonify our data, and begin to hear 
 
 We will progress through three different tools for sonifying data, noting how choices in one tool affect the output, and can be mitigated by reimagining the data via another tool. Ultimately, there is nothing any more objective in 'sonification' than there is in 'visualization', and so the investigator has to be prepared to justify her choices, and to make these choices transparent and reproducible for others.
 
-### Example Data
-- two datasets. Coins vs Coin Hoards; Topic Model of John Adams
-
-
-## Musicalgorithms
+# Musicalgorithms
 
 There are a wide variety of tools out there to sonify data. Some for instance are packages for the widely-used R statistical environment, such as ‘playitbyR’ and ‘AudiolyzR’. The first of these however has not been maintained or updated to work with the current version of R (its last update was a number of years ago), and the second requires considerable configuration of extra software to make it work properly.
 
@@ -138,7 +139,7 @@ Go back to the beginning, and load both columns of data into this template:
 
 When you have multiple voices of data, what stands out? Note that in this approach, the distance between points in the real world is not factored into our sonification. This distance, if it were, might be crucical. Distance, of course, does not have to be geographic - it can be temporal. The next tool we'll explore allows us to factor that into our sonification explicitly.
 
-## MIDITime
+# MIDITime
 
 MIDITime is a python package developed by [Reveal News (formerly, the Centre for Investigative Reporting)](https://www.revealnews.org/). It's [Github repository is here](https://github.com/cirlabs/miditime). Miditime is built explicitly for time series data. 
 
@@ -150,7 +151,7 @@ Installing miditime is straightforward:
 `$ pip install miditime` or `$ sudo pip install miditime` for a Mac or Linux machine;
 `> python pip install miditime` on a Windows machine. (Windows users might want to use [this helper program](https://sites.google.com/site/pydatalog/python/pip-for-windows) to get Pip working properly on their machine).
 
-### Your first piece
+### Practice 
 Let us look at the sample script provided. Open your text editor, and copy and paste the sample script in:
 
 ```
@@ -302,7 +303,7 @@ mymidi.save_midi()
 
 For each column of data in your original data, have a unique script and remember to change the output file name! Otherwise you will overwrite your data. Then, you can load the individual midi files into Garageband or LMMS for instrumentation. Here's the full [John Adams Diary](https://www.youtube.com/watch?v=ikqRXtI3JeA).
 
-## Sonic Pi
+# Sonic Pi
 
 Having unique midifiles that you arrange moves you from 'sonifying' towards composition and sound art. In this final section, I do not offer you a full tutorial on using [Sonic Pi](http://sonic-pi.net), but rather point you towards an environment that allows for the actual live-coding and performance of your data. Sonic Pi's built-in tutorials will show you something of the potential of using your computer as an actual musical instrument (where you type Ruby code into its built-in editor while the interpreter plays what you encode). 
 
@@ -310,11 +311,14 @@ Here, I offer simply a code snippet that will allow you to import your data, whe
 
 In this [sample file (a topic model generated from the Jesuits Relations)](jesuits.csv), there are two topics. The first row contains the headers: topic1, topic2.
 
+### Practice
+
 Follow the initial tutorials that Sonic Pi provides. Then, in a new buffer (editor window), copy the following:
 
 ```
 require 'csv'
 data = CSV.parse(File.read("/path/to/your/directory/data.csv"), {:headers => true, :header_converters => :symbol})
+use_bpm 100
 ```
 
 Remember, `path/to/your/directory/` is the actual location of your data.
@@ -322,7 +326,8 @@ Remember, `path/to/your/directory/` is the actual location of your data.
 Now, let's load that data into our music:
 
 ```
-#bit that runs only once, unless you comment out the next line, and the end
+#bit that runs only once, unless you comment out the line with 'live_loop', 
+#and the final 'end' at the bottom of this code block
 # live_loop :jesuit do
 data.each do |line|
   topic1 = line[:topic1].to_f
@@ -339,7 +344,28 @@ end
 
 The first few lines load the columns of data in; then we say which sound sample we wish to use (piano) and then tell Sonic Pi to play topic 1 according to the following criteria. Note that the 'rand' value (random) allows us to add a bit of 'humanity' into the music in terms of the dynamics. Then we do the same thing again for topic2.
 
-You can then add beats, loops, samples, and the whole parephernalia that Sonic Pi permits.
+You can then add beats, loops, samples, and the whole parephernalia that Sonic Pi permits. Where you put code chunks affects the playback; if you put a loop before the data block above, the loop will play first. For instance, if you insert the following after the `use_bpm 100` line,
+
+```
+#intro bit
+sleep 2
+sample :ambi_choir, attack: 2, sustain: 4, rate: 0.25, release: 1
+sleep 6
+```
+
+You'll get a bit of an introductory ta-da for your piece. It waits 2 seconds, plays the 'ambi_choir' sample, then waits 6 more seconds before playing our data. If you wanted to add a bit of an ominous drum sound that played throughout your piece, you'd insert this bit next (and before your own data):
+
+```
+#bit that keep going throughout
+live_loop :boom do
+  with_fx :reverb, room: 0.5 do
+    sample :bd_boom, rate: 1, amp: 1
+  end
+  sleep 2
+end
+```
+
+The code is pretty clear: loop the 'bd_boom' sample with the reverb sound effect, at a particular rate. Sleep 2 seconds between loops.
 
 For more on Sonic Pi, [this workshop website](https://www.miskatonic.org/music/access2015/) is a good place to start. See also Laura Wrubel's [report on attending that workshop, and her and her colleague's work in this area](http://library.gwu.edu/scholarly-technology-group/posts/sound-library-work).
 
