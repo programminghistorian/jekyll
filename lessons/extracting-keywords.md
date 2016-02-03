@@ -113,7 +113,7 @@ The reason we do this is to keep the original data (the .CSV file) away from the
 
 ##Write your Python program
 
-The last step is to write a program that will check each of the texts for each of the keywords in the gazetteer, and then to provide an output that will tell us which entries in our spreadsheet contain which of those words. There are lots of ways that this could be achieved. The approach we will take here uses the following algorithm:
+The last step is to write a program that will check each of the texts for each of the keywords in the gazetteer, and then to provide an output that will tell us which entries in our spreadsheet contain which of those words. There are lots of ways that this could be achieved. When planning to write a program, it is always a good idea to devise an algorithm. An algorithm is a set of human-readable steps that will solve the problem. It's a list of what you are going to do, which you then convert into the appropriate programmatic instructions. The approach we will take here uses the following algorithm:
 
 1. Load the list of keywords that you've created in `gazetteer.txt` and save them each to a Python list
 2. Load the texts from `texts.txt` and save each one to another Python list
