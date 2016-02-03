@@ -16,7 +16,7 @@ Proposing a New Lesson
 
 If you have an idea for a new lesson, or have already written a tutorial
 that you think could be adapted for the *Programming Historian*, contact
-[Fred Gibbs] to discuss your idea. This initial contact is not meant to be a form of gatekeeping. Instead, we hope that it will help you and us think about how we can frame your idea to have the biggest impact. It also gives us a chance to check that no one else is working on the same concept, which we hope helps minimise duplicated effort and maximise our acceptance rate. Once our editor has given you the go-ahead to pursue your idea, he or
+[Ian Milligan] to discuss your idea. This initial contact is not meant to be a form of gatekeeping. Instead, we hope that it will help you and us think about how we can frame your idea to have the biggest impact. It also gives us a chance to check that no one else is working on the same concept, which we hope helps minimise duplicated effort and maximise our acceptance rate. Once our editor has given you the go-ahead to pursue your idea, he or
 she will post the tentative lesson title, and a brief description to the
 public [Lesson Pipeline wiki page]. This is a way of planting your flag
 in the sand, and helps us avoid multiple people concurrently writing the
@@ -387,7 +387,7 @@ it will be merged into our main repository. When that process is
 completed, the "Pull Request" will be closed. Congratulations! You've
 published a lesson to the Programming Historian!
 
-  [Fred Gibbs]: mailto:fwgibbs@gmail.com
+  [Ian Milligan]: mailto:i2millig@uwaterloo.ca
   [Lesson Pipeline wiki page]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
   [reviewer guidlines]: ../reviewer-guidelines.html
   [published lessons]: lessons
