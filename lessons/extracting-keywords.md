@@ -328,7 +328,7 @@ for entry in allTexts:
         print matchString
 ```
 
-If you do not like the output format, you can change it by adjusting the second last line of code. For example, you could save each entry to a new line in a .txt file rather than to the screen. To do that you would replace 'print matchString' with the following code:
+If you do not like the output format, you can change it by adjusting the second last line of code. For example, you could save each entry to a new line in a .txt file rather than to the screen. To do that you would replace 'print matchString' with the following code (make sure it is at one level of indentation, just as was the replaced line):
 
 ```python
     f = open('output.txt', 'a')
