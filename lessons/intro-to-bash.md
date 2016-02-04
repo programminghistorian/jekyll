@@ -44,7 +44,7 @@ When you run it, you will see this window.
 
 {% include figure.html src="../images/Blank-Terminal.png" caption="A blank terminal screen on our OS X workstation" %}
 
-You might want to change the default visual appearance of the terminal, as eyes can strain at repeatedly looking at black text on a white background. In the default OS X application, you can open the 'Settings' menu in 'Preferences' under Terminal. Click on the 'Settings' tab and change it to a new colour scheme. We personally prefer something with a bit less contrast between background and foreground, as you'll be staring at this a great deal. 'Novel' is a soothing one one as is the popular [Solarized](http://ethanschoonover.com/solarized) suite of colour palettes. For Windows users, a similar effect can be achieved using the Git Bash `Properties` tab. To reach this, right-click anywhere in the top bar and select `Properties`.
+You might want to change the default visual appearance of the terminal, as eyes can strain at repeatedly looking at black text on a white background. In the default OS X application, you can open the 'Settings' menu in 'Preferences' under Terminal. Click on the 'Settings' tab and change it to a new colour scheme. We personally prefer something with a bit less contrast between background and foreground, as you'll be staring at this a great deal. 'Novel' is a soothing one as is the popular [Solarized](http://ethanschoonover.com/solarized) suite of colour palettes. For Windows users, a similar effect can be achieved using the Git Bash `Properties` tab. To reach this, right-click anywhere in the top bar and select `Properties`.
 
 {% include figure.html src="../images/Settings.png" caption="The Settings Screen on the OS X Terminal Shell Application" %}
 
