@@ -395,7 +395,7 @@ With this:
 #Import the 'Details' column from the CSV file
 allTexts = []
 fullRow = []
-with open('The_Dataset_-Alumni_Oxonienses_Jas1.csv') as csvfile:
+with open('The_Dataset_-_Alumni_Oxonienses-Jas1.csv') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         #the full row for each entry, which will be used to recreate the improved CSV file in a moment
@@ -463,7 +463,7 @@ f.close()
 #CHANGED! Import the 'Details' column from the CSV file
 allTexts = []
 fullRow = []
-with open('The_Dataset_-Alumni_Oxonienses_Jas1.csv') as csvfile:
+with open('The_Dataset_-_Alumni_Oxonienses-Jas1.csv') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         #the full row for each entry, which will be used to recreate the improved CSV file in a moment
