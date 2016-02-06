@@ -14,7 +14,7 @@ Lesson Goals
 
 This lesson shows you how to download and install Python modules. There
 are many ways to install external modules, but for the purposes of this
-lesson, we’re going to use a program called [pip][].
+lesson, we’re going to use a program called [pip][]. As of Python 2.7.9 and newer, pip is installed by default. This tutorial will be helpful for anyone using older versions of Python (which are still quite common).
 
 Introducing Modules
 -------------------
