@@ -10,11 +10,11 @@ layout: default
 
 ##Module Goals
 
-In this lesson you will learn how to use *[Audacity](http://audacityteam.org/)* to load, record, edit, mix, and export audio files. Sound editing platforms are often expensive and offer extensive capabilities that can be overwhelming to the first-time user, but *Audacity* is a free and open source alternative that offers powerful capabilities for sound editing with a low barrier for entry. For this lesson we will work with two audio files: a recording of [Bach's Goldberg Variations](https://musopen.org/music/download/6270/) available from *[Musopen](https://musopen.org/)* and another recording of your own voice that will be made in the course of the lesson. By the end of it you will have mixed these two files together into a podcast.
+In this lesson you will learn how to use *[Audacity](http://audacityteam.org/)* to load, record, edit, mix, and export audio files. Sound editing platforms are often expensive and offer extensive capabilities that can be overwhelming to the first-time user, but *Audacity* is a free and open source alternative that offers powerful capabilities for sound editing with a low barrier for entry. For this lesson we will work with two audio files: a recording of [Bach's Goldberg Variations](https://musopen.org/music/download/6270/) available from *[Musopen](https://musopen.org/)* and another recording of your own voice that will be made in the course of the lesson. By the end of it you will have mixed these two files together into a short podcast.
 
 ##Working in Audacity
 
-*Audacity* is available for download on [the project site](http://audacityteam.org/). Download the program and doubleclick to install. To begin, open the Bach recording mentioned above by using the File menu to open the downloaded audio file. The interface will change to reflect the loaded data, which will be loaded like this:
+*Audacity* is available for download on [the project site](http://audacityteam.org/). Download the program and doubleclick to install. To begin, open the Bach recording mentioned above by using the File menu. The interface will change to reflect the loaded data:
 
 {% include figure.html src="../images/editing-audio-with-audacity-1.png" caption="Bach waveform in Audacity" %}
 
@@ -24,55 +24,51 @@ In this lesson you will learn how to use *[Audacity](http://audacityteam.org/)* 
 
 {% include figure.html src="../images/editing-audio-with-audacity-2.png" caption="Zoomed in view of Bach waveform" %}
 
-Take note of how the time increments in *Audacity* have also adjusted as you zoom in. Pitch frequencies are measured in waves per second; the program has to smash things together a bit to make the whole sound clip fit in a workable window, and the result is the waveform that we see when we zoom back out by selecting "Zoom Normal" from the View menu. But each view - the micro and the macro - has its own uses. We will come back to both.
-
-Before proceeding, it is also worth observing the toolbar palette that *Audacity* offers for its most common functions.
+Take note of how the time increments in *Audacity* have also adjusted as you zoom in. Pitch frequencies are measured in waves per second, and the program has to smash things together a bit to make the whole sound clip fit in a workable window. The result is the waveform that we see when we zoom back out by selecting "Zoom Normal" from the View menu. Each view - the micro and the macro - has its own uses. We will come back to both.
 
 {% include figure.html src="../images/editing-audio-with-audacity-3.png" caption="Audacity tool palette" %}
 
-The top-left "selection" and the bottom-middle "time shift" tools will be the two that we use in this lesson.
+Before proceeding, it is also worth observing the toolbar palette that *Audacity* offers for its most common functions. The top-left "selection" and the bottom-middle "time shift" tools will be the two that we use in this lesson. By default, when you open *Audacity* you will be using the selection tool.
 
 ##Recording Audio
 
-We've loaded in the intro music for our podcast. Let's continue by recording our own voice. To begin recording in *Audacity* press the big red circle at the top left of the *Audacity* window. Don't worry too much about getting the quality just right - we will work on editing the sound file next. Do your best NPR impression in the direction of your computer, and be sure to say something meaningful. Hit the square to stop recording when you are done. You will be presented with something that looks like this:
+We've loaded in the intro music for our podcast. Let's continue by recording our own voice. To begin recording in *Audacity* press the big red circle at the top left of the *Audacity* window. Don't worry too much about getting the quality just right - we will work on editing the sound file next. Do your best NPR impression in the direction of your computer, and hit the square to stop recording when you are done. You will be presented with something that looks like this:
 
 {% include figure.html src="../images/editing-audio-with-audacity-4.png" caption="Two tracks loaded into Audacity" %}
 
-Our original Bach recording stays at the top of the interface, while our new recording gets added below it. By default, *Audacity* will not overwrite your previous recording. Instead, it isolates both soundstreams, or tracks, allowing us to manipulate separate components before we mix them together in a final recording. We can make changes to each without affecting the other - a good thing, since recording with a microphone in the real world like this presents lots of problems that are immediately apparent. Note how, time-wise, the new track by default was recorded at the beginning of the audacity project. Both the Bach and vocal tracks begin at the same time. There are potentially some other imperfections in your amateur recording, all of which we can fix.
+Our original Bach recording stays at the top of the interface, while our new recording gets added below it. By default, *Audacity* will not overwrite your previous recording. Instead, it isolates both soundstreams, or tracks, allowing us to manipulate separate components before we mix them together in a final recording. We can make changes to one without affecting the other. Note how, time-wise, the new track by default was recorded at the beginning of the audacity project. For right now, the Bach and vocal tracks both begin at the same time. There are potentially some other imperfections in your unique recording, some of which we can fix.
 
-An aside: It can frequently be helpful to turn your laptop's sound output into its input, so that you can record the sounds playing from your computer without worrying about extraneous noise from the outside world or to rerecord digital audio. For information on how to carry out this process, check out [Soundflower](https://github.com/mattingalls/Soundflower).
+An aside: it can frequently be helpful to turn your laptop's sound output into its input, so that you can record the sounds playing from your computer without worrying about extraneous noise from the outside world or to rerecord digital audio. For information on how to carry out this process, check out [Soundflower](https://github.com/mattingalls/Soundflower).
 
 ##Editing Audio
 
-The topic of audio engineering is vast and can be the subject for a long and fruitful career - we can't hope to exhaust all of the potential topics here. But we can offer just a few basic techniques useful to working with digital audio on a basic level. Your experiences may vary based on the unique character of your own recording.
+The topic of audio engineering is vast and can be the subject for a long and fruitful career - we can't hope to exhaust all of the potential topics here. But we can offer just a few basic techniques useful to working with digital audio. Your experiences may vary based on the unique character of your own recording.
 
 In order to use the recorded track we will need to clean it up a bit, isolating and refining the pieces that we want. Our first step will be to remove unwanted silence created in the lag between when I started recording and when I started speaking. Zooming in at the beginning of the clip will give us a view of the silence, and by clicking and dragging over sections of the waveform we can eliminate them by hitting the delete key. 
 
 {% include figure.html src="../images/editing-audio-with-audacity-5.png" caption="Beginning of vocal track ready to delete" %}
 {% include figure.html src="../images/editing-audio-with-audacity-6.png" caption="Beginnning of track after deleting" %}
 
-These small pauses may be virtually unnoticable, but they are important elements of any audio track. And we want the bounds of the new vocal audiotrack to be, as much as possible, to contain no extraneous data. After deleting, you should have a nice, tight audio clip with only a hair of silence on either end.
+These small pauses may be virtually unnoticable, but they are important elements of any audio track. And we want the bounds of the new vocal audiotrack to contain no extraneous data. After deleting, you should have a nice, tight audio clip with only a hair of silence on either end.
 
-To ensure smooth transitions between tracks, we will need to introduce fades, or gradual transitions in amplitude. It is a good idea to include a very small fade in at the beginning of a track and to the inverse at the end, fading out to silence. Doing so can help prevent clicks and glitches as the sound suddenly explodes in and our of existence. Zoom in on the beginning of the track, highlight the very beginning of the wave including just a hair of your target sound, and select "Fade in" from the Tools menu. If you selected only a very small portion of audio, you may not be able to see the changes that the fades caused. These ultra-zoomed screenshots will help:
+To ensure smooth transitions between tracks, we will need to introduce fades, or gradual transitions in amplitude. It is a good idea to include both a very small fade in at the beginning of a track and a fade out at the end that carries you into silence. Doing so can help prevent clicks and glitches by keeping the sound from suddenly exploding in and out of existence. Zoom in on the beginning of the track, highlight the very beginning of the wave including just a hair of your target sound, and select "Fade in" from the Tools menu. If you selected only a very small portion of audio, you may not be able to see the changes that the fades caused. These ultra-zoomed screenshots will help:
 
 {% include figure.html src="../images/editing-audio-with-audacity-7.png" caption="Track before fade in" %}
 
 {% include figure.html src="../images/editing-audio-with-audacity-8.png" caption="Track after fade in" %}
 
-The fade lowered the beginning amplitude dramatically and introduced very gradual changes in amplitude over the course of the highlighted sections of the track, smoothing things out and creating the perception of an increase in volume. Repeat this at the end of the clip, but now with a "Fade out". Your clip will be set up to be smoothly inserted at any point in the file. 
+The fade in lowered the beginning amplitude dramatically and introduced very gradual changes in amplitude over the course of the highlighted sections of the track, smoothing things out and creating the perception of an increase in volume. Repeat this at the end of the clip, but now with a "Fade out". Your clip will be set up to be smoothly inserted at any point in the file. 
 
-Eliminating silence and unwanted noise shortened the clip, so we will want to position it at the appropriate part of the podcast, after the intro music has played for a bit. To move a clip horizontally on the x-axis of the waveform and reassign it a new position in time, use the time shift tool. With this tool selected, clicking on a sound clip allows you to move it horizontally in time relative to the other tracks. We will move our voice to the right, so that it begins after the intro music has played for a few seconds.
+Eliminating silence and unwanted sound prepared the clip, but we still need to move it to the timestamp that we want. We will want to position it at the appropriate part of the podcast, after the intro music has played for a bit. To move a clip horizontally on the x-axis of the waveform and reassign it a new position in time, use the time shift tool. With this tool selected, clicking on a sound clip allows you to move it horizontally in time relative to the other tracks. We will move our vocal clip to the right, so that it begins after the intro music has played for a few seconds.
 
 {% include figure.html src="../images/editing-audio-with-audacity-9.png" caption="Repositioning audio clip in time" %}
 
 
-The level of your voice relative to the introduction music probably strikes you as too loud. The volume or a particular track overall can be adjusted by using the track volume slider in the left of each track panel. It looks like a small -/+ scale:
+If the volume of your voice relative to the introduction music strike you as unbalanced, you can rearrange them to be more equitable. The volume of a particular track overall can be adjusted by using the track volume slider in the left of each track panel. It looks like a small -/+ scale:
 
 {% include figure.html src="../images/editing-audio-with-audacity-10.png" caption="Track volume slider" %}
 
-But we will eventually want to transition the track's focus away from the intro music entirely and give new emphasis to the recording of our voice. A crossfade like this is easy to implement in *Audacity*.
-
-First, delete all but the first seven seconds of the Bach introduction. Align what remains with your vocal track using the time shift tool so that the two tracks overlap just slightly. Then use the selection tool to click and drag to highlight the section in which they overlap, starting with the top track and ending in the bottom one. Both tracks should be highlighted.
+But we will eventually want to transition the track's focus away from the intro music entirely and give new emphasis to the recording of our voice. A crossfade like this is easy to implement in *Audacity*. First, delete all but the first seven seconds of the Bach introduction. Align what remains with your vocal track using the time shift tool so that the two tracks overlap just slightly. Then use the selection tool to click and drag to highlight the section in which they overlap, starting with the top track and ending in the bottom one. Both tracks should be highlighted.
 
 {% include figure.html src="../images/editing-audio-with-audacity-11.png" caption="Highlighting across tracks for crossfading" %}
 
