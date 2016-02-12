@@ -178,7 +178,7 @@ First, you can create a new directory so you can engage with text files. We will
 
 `mkdir ProgHist-Text`
 
-This creates a directory named, you guessed it, 'ProgHist-Text.' You can look at your desktop to verify it has worked. Now, move into that directory (remember, that would be `cd ProgHist-Text`).
+This creates a directory named, you guessed it, 'ProgHist-Text.' In general, it's good to avoid putting spaces in your filenames and directories when using the command line (there are workarounds, of course, but this approach is simpler). You can look at your desktop to verify it has worked. Now, move into that directory (remember, that would be `cd ProgHist-Text`).
 
 But wait! There's a trick to make things a bit quicker. Go up one directory (`cd ..` - which will take you back to the Desktop). To navigate to the `ProgHist-Text` directory you could type `cd ProgHist-Text`. Alternatively, you could type `cd Prog` and then hit tab. You will notice that the interface completes the line to `cd ProgHist-Text`. **Hitting tab at any time within the shell will prompt it to attempt to auto-complete the line based on the files or sub-directories in the current directory. This is case sensitive, however (i.e. in the previous example, `cd prog` would not auto complete to `ProgHist-Text`. Where two or more files have the same characters, the auto-complete will only fill up to the first point of difference. We would encourage using this method throughout the lesson to see how it behaves.**
 
@@ -218,7 +218,7 @@ Provides a view of the first ten lines, whereas
 
 `tail pg2600.txt`
 
-provides a perspective on the last few lines. This is a good way to quickly determine the contents of the file.
+provides a perspective on the last ten lines. This is a good way to quickly determine the contents of the file. You could add a command to change the amount of lines displayed: `head -20 pg2600.txt`, for example, would show the first twenty lines.
 
 You may also want to change the file name to something more descriptive. You can 'move' it to a new name by typing
 
