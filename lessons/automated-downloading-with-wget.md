@@ -237,8 +237,10 @@ You should now have wget installed.
 ### Windows Instructions
 
 The easiest way is to download a working version. To do so, visit
-[this website](https://eternallybored.org/misc/wget/) and, download `wget.exe` (as of writing it is version 1.16.3, and you should download the 32-bit binary). If you place `wget.exe` in
-your `C:Windows` directory, you can then use wget from anywhere on your
+[this website](https://eternallybored.org/misc/wget/) and, download `wget.exe` (as of writing it is version 1.17.1, and you should download the 32-bit binary). The file is the second link in the 32-bit binary column, entitled just `wget.exe`.
+
+If you place `wget.exe` in
+your `C:\Windows` directory, you can then use wget from anywhere on your
 computer. This will make your life easier as you will not have to worry
 about always running wget from only one place on your system. If it is
 in this directory, Windows will know that the command can be used
