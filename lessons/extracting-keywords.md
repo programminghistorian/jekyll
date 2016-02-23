@@ -439,7 +439,7 @@ And then add the following two lines of code right below where you were just wor
 ```python
 
 #use the current date and time to create a unique output filename
-timestr = time.strftime("%Y-%m-%d-(%H:%M:%S)")
+timestr = time.strftime("%Y-%m-%d-(%H-%M-%S)")
 filename = 'output-' + str(timestr) + '.csv'
 
 ```
@@ -477,7 +477,7 @@ with open('The_Dataset_-_Alumni_Oxonienses-Jas1.csv') as csvfile:
 counter = 0
 
 #NEW! use the current date and time to create a unique output filename
-timestr = time.strftime("%Y-%m-%d-(%H:%M:%S)")
+timestr = time.strftime("%Y-%m-%d-(%H-%M-%S)")
 filename = 'output-' + str(timestr) + '.csv'
 
 #NEW! Open the new output CSV file to append ('a') rows one at a time.
