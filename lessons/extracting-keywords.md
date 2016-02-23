@@ -99,7 +99,7 @@ Worcestershire
 Yorkshire
 ```
 
-Make sure that there are no blank lines in the gazetteer file. If there are, your program will think all spaces are a matching keyword. Some text editing programs (particularly in Linux) will want to add a blank line at the end of your file. If this is the case, try another text editor. It's best to use software that puts you in control.
+Make sure that there are no blank lines in the gazetteer file. If there are, your program will think all spaces are a matching keyword. Some text editing programs (particularly in Linux) will want to add a blank line at the end of your file. If this is the case, try another text editor. It's best to use software that puts you in control. For more on this problem, see [the explanation on Stack Overflow](http://stackoverflow.com/questions/3056740/gedit-adds-line-at-end-of-file) - with thanks to John Levin for the link.
 
 If you ever need to add to this set of keywords, you can open this file in your text editor and add new words, each on their own line. Komodo Edit is a good text editor for this task, especially if you have set it up to run with Python, but you can also use any plain text editor as long as it is *not* a [word processor](http://en.wikipedia.org/wiki/Word_processor) such as Microsoft Word or Open Office. Word processors are inappropriate for writing code because of how they stylise apostrophes and quotes, causing havoc for your code.
 
