@@ -311,7 +311,7 @@ for link in links:
     print fullLink
 ```
 
-{& include figure.html caption="Figure 7: All HTML tags have been removed" src="../images/Beautiful-Soup-Tutorial-101x26-2013-08-23-14-13-13.jpg" %}
+{% include figure.html caption="Figure 7: All HTML tags have been removed" src="../images/Beautiful-Soup-Tutorial-101x26-2013-08-23-14-13-13.jpg" %}
 
 Finally, we want to use the CSV library to write the file. First, we
 need to import the CSV library into the script with “import csv.” Next,
