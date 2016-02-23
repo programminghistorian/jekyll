@@ -145,11 +145,11 @@ The third line reads everything in that file, converts it to `lower()` case, and
 
 The fourth line closes the open text file. The fifth line prints out the results, and the sixth line tells us how many results were found.
 
-Save this file as `extractKeywords.py`, again to the same folder as the other files, and then run it with Python. To do this from the command line, first you need to launch your command line terminal. On Mac OS X, this is found in the `Applications` folder and is called `Terminal`. On Windows it is called `Command Prompt`. Windows users may find it easier to launch Python by opening the folder containing your `extratKeywords.py` file, then press `shift` + `right-click` and then select 'open command window here'. Assuming you have Python installed, you should be able to run your programme using the command below. 
+Save this file as `extractKeywords.py`, again to the same folder as the other files, and then run it with Python. To do this from the command line, first you need to launch your command line terminal.
 
-Mac Terminal users:
+On Windows it is called `Command Prompt`. Windows users may find it easier to launch Python by opening the folder containing your `extractKeywords.py` file, then press `shift` + `right-click` and then select 'open command window here'. Assuming you have Python installed, you should be able to run your programme using the command beginning with 'python' below. 
 
-Once the Terminal window is open, you need to point your Terminal at the directory that contains all of the files you have just created. I have called my directory 'ExtractingKeywordSets' and I have it on my computer's Desktop. To change the Terminal to this directory, I use the following command:
+On Mac OS X, this is found in the `Applications` folder and is called `Terminal`. Once the Terminal window is open, you need to point your Terminal at the directory that contains all of the files you have just created. I have called my directory 'ExtractingKeywordSets' and I have it on my computer's Desktop. To change the Terminal to this directory, I use the following command:
 
 ```bash
 cd Desktop/ExtractingKeywordSets
