@@ -128,8 +128,9 @@ Shopping List
 Indenting the `*` will allow you to created nested items.
 
 **This renders as:**
+
 Shopping List
-----------
+-------------
 * Fruits
   * Apples
   * Oranges
