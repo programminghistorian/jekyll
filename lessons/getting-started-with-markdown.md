@@ -118,25 +118,25 @@ Markdown includes support for ordered and unordered lists. Try typing the follow
 Shopping List
 ----------
 * Fruits
-    * Apples
-    * Oranges
-    * Grapes
+  * Apples
+  * Oranges
+  * Grapes
 * Dairy
-    * Milk
-    * Cheese
+  * Milk
+  * Cheese
 ```
-Indenting the `*` by four spaces will allow you to created nested items.
+Indenting the `*` will allow you to created nested items.
 
 **This renders as:**
 Shopping List
 ----------
 * Fruits
-    * Apples
-    * Oranges
-    * Grapes
+  * Apples
+  * Oranges
+  * Grapes
 * Dairy
-    * Milk
-    * Cheese
+  * Milk
+  * Cheese
 
 Ordered lists are written by numbering each line. Once again, the goal of Markdown is to produce documents that are both legible as plain text and able to be transformed into other formats. 
 
