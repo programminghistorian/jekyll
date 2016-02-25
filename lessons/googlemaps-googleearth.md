@@ -55,7 +55,7 @@ or Quantum GIS.
     Maps Engine Lite works
 -   The Tour will first prompt you to Click New Map
 
-{% include figure.html src="../images/geo1.png" caption="Figure 2" %}
+{% include figure.html src="../images/geo2.png" caption="Figure 2" %}
 
 -   At the upper left corner, a menu box appears, titled 'Untitled Map'.
     By clicking on the title you can rename as 'My test map' or a title
