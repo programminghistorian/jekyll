@@ -120,8 +120,6 @@ or Quantum GIS.
 
 {% include figure.html src="../images/geo10.png" caption="Figure 10" %}
 
-{% include figure.html src="../images/geo.png" caption="Figure " %}
-
 {% include figure.html src="../images/geo11.png" caption="Figure 11" %}
 
 -   Continue to play with the options.
