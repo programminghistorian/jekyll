@@ -139,9 +139,7 @@ of luck with the [Patterns App][] (Mac Store \$2.99), which allowed me
 to see what the regular expressions were doing in real time. It also
 comes with a built-in cheat sheet for the symbols, but I actually found
 this generic (meaning it works across languages) [cheat sheet][] more
-comprehensive. For PC users (or people who don’t want to pay or download
-software), I also found [another tester tool][] that was fairly
-transparent.
+comprehensive.
 
 Python and Regex
 ----------------
