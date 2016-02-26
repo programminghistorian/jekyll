@@ -320,7 +320,7 @@ Introduction to Python
 The *Programming Historian* was originally written as a series of (mostly) Python lessons that
 were intended to be followed in sequence.
 
--   [Python Introduction and Installation](../lessons/introduction-and-installation) <div class="toc-author" markdown="1"> William J. Turkel & Adam Crymble</div>
+-   [Python Introduction and Installation](../lessons/introduction-and-installation) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
 -   Setting Up an Integrated Development Environment for Python for [Mac](../lessons/mac-installation), [Linux](../lessons/linux-installation), or [Windows](../lessons/windows-installation)
 -   [Understanding Web Pages and HTML](../lessons/viewing-html-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
 -   [Working with Text Files in Python](../lessons/working-with-text-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
