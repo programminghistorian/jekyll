@@ -216,7 +216,7 @@ def rom2ar(rom):
 (run <[this little script](../assets/Roman_to_Arabic.txt)> to see in detail how `rome2ar` works. Elegant programming like this can offer insight; like poetry.)
 
 ## <a name="imports-globals"></a> Some other things we'll need:
-At the top of your Python module, you're going to want to import some python modules that are a part of the standard library. (see Fred Gibbs's tutorial [*Introducing Modules*](http://programminghistorian.org/lessons/installing-python-modules-pip)).
+At the top of your Python module, you're going to want to import some python modules that are a part of the standard library. (see Fred Gibbs's tutorial [*Installing Python Modules with pip*](http://programminghistorian.org/lessons/installing-python-modules-pip)).
 
 1. First among these is the "re" (regular expression) module `import re`. Regular expressions are your friends. However, bear in mind Jamie Zawinski's quip: 
 
