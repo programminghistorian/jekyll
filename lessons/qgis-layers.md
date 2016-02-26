@@ -398,7 +398,7 @@ those values are symbolized in colour or greyscale they make up an image
 that is useful for display or topographical analysis. A scanned
 historical map is also brought into GIS in raster format.
 
--   download: '[PEI_CumminsMap1927.tif][]' to your project folder.
+-   download: [PEI_CumminsMap1927.tif][] to your project folder.
 -   under Layer on toolbar, choose Add Raster Layer (alternatively the
     same icon you see next to 'Add Raster Layer' can also be selected
     from the tool bar along the left side of the window)
