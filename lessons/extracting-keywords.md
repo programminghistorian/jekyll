@@ -11,13 +11,13 @@ layout: default
 published: true
 ---
 
-##Lesson Goals
+## Lesson Goals
 
 If you have a copy of a text in electronic format stored on your computer, it is relatively easy to keyword search for a single term. Often you can do this by using the built-in search features in your favourite text editor. However, scholars are increasingly needing to find instances of many terms within a text or texts. For example, a scholar may want to use a [gazetteer](http://en.wikipedia.org/wiki/Gazetteer) to extract all mentions of English placenames within a collection of texts so that those places can later be plotted on a map. Alternatively, they may want to extract all male given names, all pronouns, [stop words](http://en.wikipedia.org/wiki/Stop_words), or any other set of words. Using those same built-in search features to achieve this more complex goal is time consuming and clunky. This lesson will teach you how to use Python to extract a set of keywords very quickly and systematically from a set of texts.
 
 It is expected that once you have completed this lesson, you will be able to generalise the skills to extract custom sets of keywords from any set of locally saved files.
 
-##For Whom is this Useful?
+## For Whom is this Useful?
 
 This lesson is useful for anyone who works with historical sources that are stored locally on their own computer, and that are transcribed into mutable electronic text (eg, .txt, .xml, .rtf, .md). It is particularly useful for people interested in identifying subsets of documents containing one or more of a fairly large number of keywords. This might be useful for identifying a relevant subset for closer reading, or for extracting and structuring the keywords in a format that can be used in another tool: as input for a mapping exercise, for example.
 
@@ -37,7 +37,7 @@ This tutorial assumes that you have already installed Python version 2 on your c
 
 The lesson touches on Regular Expressions, so some readers may find it handy to have the relevant Programming Historian lessons by [Doug Knox](http://programminghistorian.org/lessons/understanding-regular-expressions) or [Laura Turner O'Hara](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions) open to consult as needed.
 
-##Familiarising yourself with the data
+## Familiarising yourself with the data
 
 The first step of this process is to take a look at the data that we will be using in the lesson. As mentioned, the data includes biographical details of approximately 6,692 graduates who began study at the University of Oxford in the early seventeenth century.
 
@@ -51,7 +51,7 @@ Most (but not all) of these bibliographic entries contain enough information to 
 
 Unfortunately, the information is not always available in the same format. Sometimes it's the first thing mentioned in an entry. Sometimes it's in the middle. Our challenge is to extract those counties of origin from within this messy text, and store it in a new column next to that person's entry.
 
-##Build your gazetteer
+## Build your gazetteer
 
 In order to extract the relevant place names, we first have to decide what they are. We need a list of places, often called a gazetteer. Many of the place names mentioned in the records are shortforms, such as 'Wilts' instead of 'Wiltshire', or 'Salop' instead of 'Shropshire'. Getting all of these variations may be tricky. For a start, let's build a basic gazetteer of English counties.
 
@@ -103,7 +103,7 @@ Make sure that there are no blank lines in the gazetteer file. If there are, you
 
 If you ever need to add to this set of keywords, you can open this file in your text editor and add new words, each on their own line. Komodo Edit is a good text editor for this task, especially if you have set it up to run with Python, but you can also use any plain text editor as long as it is *not* a [word processor](http://en.wikipedia.org/wiki/Word_processor) such as Microsoft Word or Open Office. Word processors are inappropriate for writing code because of how they stylise apostrophes and quotes, causing havoc for your code.
 
-##Loading your texts
+## Loading your texts
 
 The next step is to put the texts that you want to search into another text file, with one entry per line. The easiest way to do that is to open the spreadsheet and select all of the second (details) column, then paste the contents into a .txt file. Call the file `texts.txt` and save it to the same directory as your `gazetteer.txt` file. Your directory should look something like this:
 
@@ -111,7 +111,7 @@ The next step is to put the texts that you want to search into another text file
 
 The reason we do this is to keep the original data (the .CSV file) away from the Python program we are about to write, on the off-chance that we accidentally change something without noticing. In my opinion, this approach also makes for easier to read code, which is important when learning. It is not strictly necessary to use a .txt file for this step, as Python does have ways of opening and reading CSV files. At the end of this lesson we will look at how to use the CSV reading and writing features in Python, but this is an optional advanced step.
 
-##Write your Python program
+## Write your Python program
 
 The last step is to write a program that will check each of the texts for each of the keywords in the gazetteer, and then to provide an output that will tell us which entries in our spreadsheet contain which of those words. There are lots of ways that this could be achieved. When planning to write a program, it is always a good idea to devise an algorithm. An algorithm is a set of human-readable steps that will solve the problem. It's a list of what you are going to do, which you then convert into the appropriate programmatic instructions. The approach we will take here uses the following algorithm:
 
@@ -121,7 +121,7 @@ The last step is to write a program that will check each of the texts for each o
 4. Then check for the presence of one or more of the keywords from your list. If it finds a match, store it while it checks for other matches. If it finds no match, move on to the next entry
 5. Finally, output the results in a format that can be easily transferred back to the CSV file.
 
-###Step 1: Load the Keywords
+### Step 1: Load the Keywords
 
 Using your text editor, create a new empty file, and add the following lines:
 
@@ -167,7 +167,7 @@ python extractKeywords.py
 
 Once you have run the program you should see your gazetteer printed as a Python list in the command output, along with the number of entries in your list (39). If you can, great! Move on to step 2. If the last line of your output tells you that there was 1 result, that means the code has not worked properly, since we know that there should be 39 keywords in your gazetteer. Double check your code to make sure you havn't included any typos. If you still can't solve the problem, try changing "\n" to "\r" on line three. Some text editors will use [carriage returns](http://en.wikipedia.org/wiki/Carriage_return) instead of 'newline characters' when creating a new line. The \r means 'carriage return' and should solve your problem if you're experiencing one.
 
-###Step 2: Load the texts
+### Step 2: Load the texts
 
 The second step is very similar to the first. Except this time we will load the `texts.txt` in addition to the `gazetteer.txt` file
 
@@ -187,7 +187,7 @@ If you got step 1 to work, you should understand this bit as well. Before you ru
 
 If the code worked, you should see a big wall of text. Those are the texts we input into the program. As long as you see them, you're ok. Before moving on to the next step, delete the three lines from your code beginning with 'print'. Now that we know they are printing the contents of these files properly we do not need to continue to check. Move on to step 3.
 
-###Step 3: Remove unwanted punctuation
+### Step 3: Remove unwanted punctuation
 
 When matching strings, you have to make sure the punctuation doesn't get in the way. Technically, 'London.' is a different string than 'London' or ';London' because of the added punctuation. These three strings which all mean the same thing to us as human readers will be viewed by the computer as distinct entities. To solve that problem, the easiest thing to do is just to remove all of the punctuation. You can do this with [regular expressions](http://en.wikipedia.org/wiki/Regular_expression), and [Doug Knox](http://programminghistorian.org/lessons/understanding-regular-expressions) and [Laura Turner O'Hara](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions) have provided great introductions at *Programming Historian* for doing so.
 
@@ -215,7 +215,7 @@ We use another for loop to look through each word in that list, and wherever we 
 
 We now have a clean set of words that we can compare against our gazetteer entries, looking for matches.
 
-###Step 4: Look for matching keywords
+### Step 4: Look for matching keywords
 
 As the words from our text are already in a list called 'allWords', and all of our keywords are in a list called 'allKeywords', all we have to do now is check our texts for the keywords.
 
@@ -254,7 +254,7 @@ This code will automatically check each word in a text, keeping track of matches
 
 If it looks like it worked, delete the 'print matches' line and move to the next step.
 
-###Step 5: Output results 
+### Step 5: Output results 
 
 If you have got to this stage, then your Python program is already finding the matching keywords from your gazetteer. All we need to do now is print them out to the command output pane in a format that's easy to work with.
 
@@ -283,7 +283,7 @@ If you save your work and run the program, you should now have code that achieve
 
 The finished code should look like this:
 
-##Finished Code
+## Finished Code
 
 ```python
 #Import the keywords
@@ -339,7 +339,7 @@ If you do not like the output format, you can change it by adjusting the second 
 ```
 Note the 'a' instead of the 'r' we used earlier. This 'appends' the text to the file called `output.txt`, which will be saved in your working directory. You will have to take care, because running the program several times will continue to append all of the outputs to this file, creating a very long file. There are ways around this, which we will cover in a moment, and you might consider looking into how the 'w' (write) feature works, and experimenting with output formats. There is more information related to these features in ['Working with Text Files in Python'](http://programminghistorian.org/lessons/working-with-text-files).
 
-##Refining the Gazetteer
+## Refining the Gazetteer
 
 You can copy and paste that output directly into your spreadsheet next to the first entry. Check that the matches lined up properly. Your last entry of your spreadsheet should correspond to the correctly extracted keywords. In this case, the last entry should be blank, but the second last one should read 'dorset'.
 
@@ -371,7 +371,7 @@ Having the ability to search for large numbers of keywords at the same time open
 
 If you would like to refine the program further, we can use Python to read directly from the CSV file and to print the results to a new CSV file so that everything happens automatically from the Terminal window without the need for cutting and pasting.
 
-##Printing the Results Back to the CSV File Using Python
+## Printing the Results Back to the CSV File Using Python
 
 Python has a built in code library that can handle working with CSV files, called `csv`
 
@@ -424,7 +424,7 @@ To solve this problem, open your CSV file in a spreadsheet program (eg., Excel) 
 
 ---
 
-##Creating a new CSV file
+## Creating a new CSV file
 
 Next we need to create a new CSV file where the results of the analysis can be stored. It's always a good idea to make a new file rather than try to append it to your only copy of the original data. It's also a good idea to append the current date and time to the filename for your new file. That way you can run the code lots of times as you refine everything and it will always be clear which file contains your most recent ouputs.
 
@@ -542,6 +542,6 @@ To give a brief outline of what has been changed from the original version:
 
 This approach created longer and more complex code, but the result is a powerful program that reads from a CSV file, matches the texts against the contents of a gazetteer, and then automatically writes the output to a clean new CSV file with no intermediary steps for you the user. You didn't have to go that extra mile, but hopefully you can see the advantages if you made it all the way through.
 
-##Suggested Further Reading
+## Suggested Further Reading
 
 Readers who have completed this lesson might be interested in then geo-referencing the output using the Google API and mapping the results. You can learn more about this process from Fred Gibbs's tutorial, [Extract and Geocode Placenames from a Text File](http://fredgibbs.net/tutorials/extract-geocode-placenames-from-text-file.html). This will let you visualise the practical outputs of this tutorial. Alternatively, readers may be interested in [Jim Clifford et. al's tutorial on georeferencing in QGIS 2.0](http://programminghistorian.org/lessons/georeferencing-qgis), an open source [GIS](https://en.wikipedia.org/wiki/Geographic_information_system) program.
