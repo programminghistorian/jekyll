@@ -322,16 +322,16 @@ were intended to be followed in sequence.
 
 -   [Python Introduction and Installation](../lessons/introduction-and-installation) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
 -   Setting Up an Integrated Development Environment for Python for [Mac](../lessons/mac-installation), [Linux](../lessons/linux-installation), or [Windows](../lessons/windows-installation)
--   [Understanding Web Pages and HTML](../lessons/viewing-html-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Working with Text Files in Python](../lessons/working-with-text-files) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Code Reuse and Modularity in Python](../lessons/code-reuse-and-modularity) <div class="toc-author">William J. Turkel & Adam Crymble</div>
--   [Downloading Web Pages with Python](../lessons/working-with-web-pages) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Manipulating Strings in Python](../lessons/manipulating-strings-in-python) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [From HTML to a List of Words (part 1)](../lessons/from-html-to-list-of-words-1) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [From HTML to a List of Words (part 2)](../lessons/from-html-to-list-of-words-2) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Normalizing Textual Data with Python](../lessons/normalizing-data) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Counting Word Frequency with Python](../lessons/counting-frequencies) <div class="toc-author"> William J.  Turkel & Adam Crymble</div>
--   [Creating and Viewing HTML Files with Python](../lessons/creating-and-viewing-html-files-with-python) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Output Data as an HTML File with Python](../lessons/output-data-as-html-file) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Keywords in Context (Using n-grams) with Python](../lessons/keywords-in-context-using-n-grams) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
--   [Output Keywords in Context in an HTML File with Python](../lessons/output-keywords-in-context-in-html-file) <div class="toc-author"> William J. Turkel & Adam Crymble</div>
+-   [Understanding Web Pages and HTML](../lessons/viewing-html-files) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
+-   [Working with Text Files in Python](../lessons/working-with-text-files) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
+-   [Code Reuse and Modularity in Python](../lessons/code-reuse-and-modularity) <span class="toc-author">William J. Turkel & Adam Crymble</span>
+-   [Downloading Web Pages with Python](../lessons/working-with-web-pages) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
+-   [Manipulating Strings in Python](../lessons/manipulating-strings-in-python) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
+-   [From HTML to a List of Words (part 1)](../lessons/from-html-to-list-of-words-1) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
+-   [From HTML to a List of Words (part 2)](../lessons/from-html-to-list-of-words-2) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
+-   [Normalizing Textual Data with Python](../lessons/normalizing-data) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
+-   [Counting Word Frequency with Python](../lessons/counting-frequencies) <span class="toc-author"> William J.  Turkel & Adam Crymble</span>
+-   [Creating and Viewing HTML Files with Python](../lessons/creating-and-viewing-html-files-with-python) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
+-   [Output Data as an HTML File with Python](../lessons/output-data-as-html-file) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
+-   [Keywords in Context (Using n-grams) with Python](../lessons/keywords-in-context-using-n-grams) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
+-   [Output Keywords in Context in an HTML File with Python](../lessons/output-keywords-in-context-in-html-file) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
