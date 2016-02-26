@@ -132,5 +132,5 @@ Happy installing!
 
   [pip]: https://pip.pypa.io/en/stable/
   [curl command]: http://www.thegeekstuff.com/2012/04/curl-examples/
-  [here]: https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+  [here]: https://bootstrap.pypa.io/get-pip.py
   [StackOverflow page]: http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows
