@@ -139,6 +139,10 @@ a sample distribution, to create its topic models. MALLET requires
 using the command line – we'll talk about that more in a moment,
 although you typically use the same few commands over and over.
 
+While there is currently a preview release of MALLET 2.0.8 available, this
+lesson uses the official release of MALLET 2.0.7. If you are following
+along with our instructions, please be sure to download the correct version.
+
 The installation instructions are different for Windows and Mac. Follow
 the instructions appropriate for you below:
 
@@ -147,7 +151,7 @@ the instructions appropriate for you below:
 ### Windows Instructions
 
 1.  Go to the [MALLET][] project page, and [`download MALLET`][]. (As
-    of this writing, we are working with version 2.0.7.)
+    of this writing, remember, we are working with version 2.0.7.)
 2.  You will also need the [Java developer's kit][] – that is, not the
     regular Java that's on every computer, but the one that lets you
     program things. Install this on your computer.
@@ -224,7 +228,7 @@ You are now ready to skip ahead to the next section.
 Many of the instructions for OS X installation are similar to Windows,
 with a few differences. In fact, it is a bit easier.
 
-1.  Download and [install MALLET (*mallet-2.0.7.tar.gaz*as of Summer
+1.  Download and [install MALLET 2.0.7 (*mallet-2.0.7.tar.gaz*as of Summer
     2012).][`download MALLET`]
 2.  Download the [Java Development Kit][Java developer's kit].
 
