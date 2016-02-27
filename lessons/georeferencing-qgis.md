@@ -99,7 +99,7 @@ referred to as 'Lots' in PEI. Hence the file name
     license agreement, and then download the following (they will ask
     for your name and email before you can download the file).
 
-<http://www.gov.pe.ca/gis/license_agreement.php3?name=lot\_town&file_format=SHP>
+<http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP>
     
 -   After downloading the file called 'lot\_township\_polygon', move it
     into a folder that you can find later and unzip the file. (Remember
