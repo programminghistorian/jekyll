@@ -484,7 +484,7 @@ your work!**
   [geo4]: ../images/geo4.png
   [geo5]: ../images/geo5.png
   [geo6]: ../images/geo6.png
-  [UK Global Fat Supply CSV file]: https://www.dropbox.com/s/7xv11vd7dz2afud/UK%20Global%20Fat%20Supply%201894-1896%20-%20Sheet1.csv
+  [UK Global Fat Supply CSV file]: https://github.com/programminghistorian/jekyll/files/148984/UK.Global.Fat.Supply.1894-1896.-.Sheet1.csv.zip
   [geo7]: ../images/geo7.png
   [geo8]: ../images/geo8.png
   [geo9]: ../images/geo9.png
@@ -511,7 +511,7 @@ your work!**
   [geo27]: ../images/geo27.png
   [geo28]: ../images/geo28.png
   [Maps Engine Lite]: https://mapsengine.google.com/map/
-  [Seaway map]: https://maps.google.ca/maps/ms?ie=UTF8&hl=en&t=h&source=embed&authuser=0&msa=0&output=kml&msid=205929035855498240131.00049c08869a03cc5ea0d
+  [Seaway map]: https://github.com/programminghistorian/jekyll/files/148993/seaway.zip
   [geo29]: ../images/geo29.png
   [geo30]: ../images/geo30.png
   [geo31]: ../images/geo31.png
@@ -519,7 +519,7 @@ your work!**
   [geo33]: ../images/geo33.png
   [geo34]: ../images/geo34.png
   [geo35]: ../images/geo35.png
-  [Mobile Mapping and Historical GIS in the Field]: http://niche-canada.org/node/10239
+  [Mobile Mapping and Historical GIS in the Field]: http://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field/
     "Mobile Mapping and Historical GIS in the Field"
   [geo36]: ../images/geo36.png
   [geo37]: ../images/geo37.png
