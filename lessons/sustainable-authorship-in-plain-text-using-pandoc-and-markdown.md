@@ -703,7 +703,7 @@ Markdown. Markdown to marketplace platform
 [Leanpub](https://leanpub.com) could be an interesting alternative to
 the traditional publishing model. And we ourselves are experimenting
 with academic journal design based on GitHub and
-[readthedocs.org](readthedocs.org) (tools usually used for technical
+[readthedocs.org](http://readthedocs.org) (tools usually used for technical
 documentation).
 
 1.  <a name="fn:1"></a>Don't worry if you don't understand some of of this
