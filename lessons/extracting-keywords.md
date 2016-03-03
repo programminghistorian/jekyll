@@ -41,7 +41,7 @@ The lesson touches on Regular Expressions, so some readers may find it handy to 
 
 The first step of this process is to take a look at the data that we will be using in the lesson. As mentioned, the data includes biographical details of approximately 6,692 graduates who began study at the University of Oxford in the early seventeenth century.
 
-[The_Dataset_-_Alumni_Oxonienses-Jas1.csv](../assets/The_Dataset_-_Alumni_Oxonienses-Jas1.csv) (1.4MB)
+[The_Dataset_-_Alumni_Oxonienses-Jas1.csv](http://programminghistorian.org/assets/The_Dataset_-_Alumni_Oxonienses-Jas1.csv) (1.4MB)
 
 {% include figure.html src="../images/extracting-keywords-1.png" caption="Screenshot of the first forty entries in the dataset" %}
 
