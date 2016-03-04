@@ -1,4 +1,3 @@
-
 ---
 title: Creating an Omeka Exhibit
 authors:
@@ -8,7 +7,6 @@ date: 2016-02-24
 reviewers:
 layout: default
 ---
-
 Now that you've [added items to your Omeka site](link) and grouped them into collections, you're ready for the next step: taking your users on a guided tour through the items you've collected.
 
 Before you begin: Map your exhibit
