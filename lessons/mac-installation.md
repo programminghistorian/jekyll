@@ -165,7 +165,7 @@ Python Shell in Mac Terminal
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
-order, we suggest you next try ‘[Viewing HTML Files][]‘
+order, we suggest you next try '[Viewing HTML Files][].'
 
   [Time Machine]: http://support.apple.com/kb/ht1427
   [Python website]: http://www.python.org/
@@ -175,6 +175,5 @@ order, we suggest you next try ‘[Viewing HTML Files][]‘
   [Komodo Edit website]: http://www.activestate.com/komodo-edit
   []: ../images/komodo-edit-mac.png "komodo-edit-mac"
   [TextWrangler-hello-world]: ../images/TextWrangler-hello-world.png
-  [hello world terminal on a Mac]: ../images/hello-world-terminal.png
-    "hello-world-terminal"
+  [hello world terminal on a Mac]: ../images/hello-world-terminal.png "hello-world-terminal"
   [Viewing HTML Files]: /lessons/viewing-html-files

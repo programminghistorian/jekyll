@@ -12,19 +12,16 @@ reviewers:
 layout: default
 next: qgis-layers
 difficulty: 1
+deprecated: true
 ---
 
 ## Google Maps
 
-Google Maps and Google Earth provide an easy way to start creating
+Google My Maps and Google Earth provide an easy way to start creating
 digital maps. With a Google Account you can create and edit personal
-maps by clicking on My Places. In the new Google Maps interface, click
-on the gear menu [icon] at the upper right of the menu bar, and select
-My Places. The new (as of summer 2013) interface provides a new way of
-creating custom maps: [Google Maps Engine Lite][] allows users to import
-and add data onto the map to visualize trends.
+maps by clicking on My Places. 
 
-In Maps Engine Lite you can choose between several different base maps
+In My Maps you can choose between several different base maps
 (including the standard satellite, terrain, or standard maps) and add
 points, lines and polygons. It is also possible to import data from a
 spreadsheet, if you have columns with geographical information (i.e.
@@ -44,23 +41,23 @@ or Quantum GIS.
 ### Getting Started
 
 -   Open your favorite browser
--   Go to Google's [Maps Engine Lite][Google Maps Engine Lite]:
-    <https://mapsengine.google.com/map/?gmp=mpp>
+-   Go to Google's My  [Maps Engine Lite][Google Maps Engine Lite]:
+    <https://www.google.com/maps/d/>
 -   Log in to your Google Account if you aren't already logged in
     (follow the basic instructions to create an account if necessary)
 
 {% include figure.html src="../images/geo1.png" caption="Figure 1" %}
 
--   Select Take a Tour at the bottom right for an introduction to how
-    Maps Engine Lite works
--   The Tour will first prompt you to Click New Map
+-   Click on the question mark at bottom right and click Take a Tour for an introduction to how
+    My Maps works
 
-{% include figure.html src="../images/geo1.png" caption="Figure 2" %}
+
+{% include figure.html src="../images/geo2.png" caption="Figure 2" %}
 
 -   At the upper left corner, a menu box appears, titled 'Untitled Map'.
     By clicking on the title you can rename as 'My test map' or a title
     of your choice.
--   The Tour next prompts you to search for a place in the search bar.
+-   Next, you can use the search bar.
     Try searching the location of your current research project. You can
     then click on the location and add it to your map by clicking 'add
     to map'. This is the simplest method of adding points to your new
@@ -71,20 +68,18 @@ or Quantum GIS.
     mind when creating spreadsheet, as it is normally better to use the
     modern place names and avoid risking that Google with choose the
     wrong Constantinople.
--   CLICK NEXT on the Google Maps Tour.
 
 {% include figure.html src="../images/geo3.png" caption="Figure 3" %}
 
 {% include figure.html src="../images/geo4.png" caption="Figure 4" %}
 
--   The Tour next prompts you to Import a Dataset. Click the ADD Layer
-    button. Then click the Import.
+-   Next, you can Import a Dataset. Click the Import
+    button under the untitled layer.
 
 {% include figure.html src="../images/geo5.png" caption="Figure 5" %}
 
 -   A new window will pop up and give you the option of importing a CSV
-    (comma separated value) or XLXS (Microsoft Excel) file. These are
-    two common spreadsheet formats; CSV is simple and universal, XLXS is
+    (comma separated value), XLXS (Microsoft Excel) file, KML (Google's spatial file formate) or GPX (common GPS file formate). These are two common spreadsheet formats; CSV is simple and universal, XLXS is
     the MS Excel format. You can also work with a Google spreadsheet
     from your Drive account.
 
@@ -120,8 +115,6 @@ or Quantum GIS.
 
 {% include figure.html src="../images/geo10.png" caption="Figure 10" %}
 
-{% include figure.html src="../images/geo.png" caption="Figure " %}
-
 {% include figure.html src="../images/geo11.png" caption="Figure 11" %}
 
 -   Continue to play with the options.
@@ -131,17 +124,12 @@ or Quantum GIS.
     only allows you to include three datasets in a map, so a maximum of
     300 features.
 
--   When you are done exploring this feature **click Next** on the
-    Google Tour. (Note: The Google tour crashed a few times while we
-    created this lesson. It is possible to go back to the beginning to
-    start a new Tour. Feel free to skip through the Import Data section
-    if the Tour crashes at this point.)
 
 {% include figure.html src="../images/geo12.png" caption="Figure 12" %}
 
 ### Creating Vector Layers
 
-At this stage of the tutorial, we create map layers (known more formally
+You can also create new map layers (known more formally
 as vector layers). Vector layers are one of the main components of
 digital mapping (including GIS). They are simply points, lines, or
 polygons used to represent geographic features. Points can be used to
@@ -174,7 +162,7 @@ about creating historical vectors in a full GIS is available in
     'base map'. A base map is a map** depicting background reference
     information such as roads, borders, landforms, etc. on top of which
     layers containing different types of spatial information can be
-    placed. Google's Maps Engine allows you to choose from a variety of
+    placed. Google's Maps  allows you to choose from a variety of
     base maps, depending on the kind of map you want to create.
     Satellite imagery is becoming a standard form of base map, but it is
     information-rich and may detract from the other map features you are
@@ -255,33 +243,25 @@ about creating historical vectors in a full GIS is available in
     same colour as the polygon outline. You can change the opaqueness of
     this shading by changing the 'transparency' which alters the extent
     to which you can clearly see the background image (your base map).
--   Now you can **click Next** on the Google Tour
--   The tour will again show you how to Change the colour and style of
-    your points, lines and polygons
--   **Click Next** on the Google Tour.
--   The Tour will remind you how to click on layers to hid them or add
-    them back on the map. Try adding the UK Global Fats layer again and
-    zoom between your global and local data points.
--   **Click Next** on the Google Tour.
+-  
 
 ### Share your custom map
 
--   The best way to share the map online is by using the green **Share**
-    button in the top right corner. This provides a link which can be
+-   The best way to share the map online is by using the **Share**
+    button in the menu. This provides a link which can be
     share in an email or through social media like G+, Facebook, or
     Twitter.
 -   Another way to share a dynamic version of your map is to embed it in
-    a blog or website using the "embed on my website" option under the
-    **Save** menu. Selecting this option provides an inline frame or
+    a blog or website using the "embed on my website" option dropdown menu to the right of the save button. Selecting this option provides an inline frame or
     \<iframe\> tag that you can then insert into an HTML site. You can
     modify the height and width of the frame by changing the numbers in
     quotation marks.
--   Note: there is currently (as of summer 2013) no way to set the
+-   Note: there is currently no way to set the
     default scale or legend options of the embedded map, but if you need
     to eliminate the legend from the map that appears on your HTML site
     you can do so by reducing the width if the \<iframe\> to 580 or
     less.
--   You can also export the data as a KML file. It will give you the
+-   You can also export the data as a KML file using the same dropdown menu. It will give you the
     option to export the whole map or to select one layer in particular.
     Try exporting the UK Global Fats layer as a KML layer. You'll be
     able to import this data into other programs, including Google Earth
@@ -504,7 +484,7 @@ your work!**
   [geo4]: ../images/geo4.png
   [geo5]: ../images/geo5.png
   [geo6]: ../images/geo6.png
-  [UK Global Fat Supply CSV file]: https://www.dropbox.com/s/7xv11vd7dz2afud/UK%20Global%20Fat%20Supply%201894-1896%20-%20Sheet1.csv
+  [UK Global Fat Supply CSV file]: https://github.com/programminghistorian/jekyll/files/148984/UK.Global.Fat.Supply.1894-1896.-.Sheet1.csv.zip
   [geo7]: ../images/geo7.png
   [geo8]: ../images/geo8.png
   [geo9]: ../images/geo9.png
@@ -531,7 +511,7 @@ your work!**
   [geo27]: ../images/geo27.png
   [geo28]: ../images/geo28.png
   [Maps Engine Lite]: https://mapsengine.google.com/map/
-  [Seaway map]: https://maps.google.ca/maps/ms?ie=UTF8&hl=en&t=h&source=embed&authuser=0&msa=0&output=kml&msid=205929035855498240131.00049c08869a03cc5ea0d
+  [Seaway map]: https://github.com/programminghistorian/jekyll/files/148993/seaway.zip
   [geo29]: ../images/geo29.png
   [geo30]: ../images/geo30.png
   [geo31]: ../images/geo31.png
@@ -539,7 +519,7 @@ your work!**
   [geo33]: ../images/geo33.png
   [geo34]: ../images/geo34.png
   [geo35]: ../images/geo35.png
-  [Mobile Mapping and Historical GIS in the Field]: http://niche-canada.org/node/10239
+  [Mobile Mapping and Historical GIS in the Field]: http://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field/
     "Mobile Mapping and Historical GIS in the Field"
   [geo36]: ../images/geo36.png
   [geo37]: ../images/geo37.png

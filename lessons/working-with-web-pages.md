@@ -96,7 +96,7 @@ this.
 
 As an example, let's work with the kind of file that you might encounter
 while doing historical research. Say you're interested in race relations
-in eighteenth century Britain. [The Old Bailey Online][] (OBO) is a rich resource that provides trial transcripts from
+in eighteenth century Britain. 'The Old Bailey Online' (OBO) is a rich resource that provides trial transcripts from
 1674 to 1913 and is one good place to seek sources.
 
 {% include figure.html src="../images/old-bailey.png" caption="The Old Bailey Online Homepage" %}

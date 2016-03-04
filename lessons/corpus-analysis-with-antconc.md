@@ -33,7 +33,7 @@ In many ways [Voyant](http://voyant-tools.org/) is a gateway into conducting mor
 
 This tutorial explores several different ways to approach a corpus of texts. It's important to note that corpus linguistic approaches are rarely, if ever, a one-size-fits all affair. So, as you go through each step, it's worth thinking about what you're doing and how it can help you answer a specific question with your data. Although I present this tutorial in a building-block approach of 'do this then that to achieve x', it's not always necessary to follow the exact order outlined here. This lessons provides an outline of some of the methods available, rather than a recipe for success.
 
-###Tutorial downloads
+### Tutorial downloads
 1. Software:[AntConc](http://www.laurenceanthony.net/software/antconc/).    
 Unzip the download if necessary, and launch the application. Screen shots below may vary slightly from the version you have (and by operationg system, of course), but the procedures are more or less the same across platforms and recent versions of AntConc. This tutorial is written with a (much older) version of AntConc in mind, as I find it easier to use in an introductory context. You are welcome to use the most recent version, but if you wish to follow along with the screenshots provided, you can download the version used here, [version 3.2.4](http://www.laurenceanthony.net/software/antconc/releases/AntConc324/).
 
@@ -220,7 +220,7 @@ You can also opt to swap reference corpus &amp; main files (SWAP REF/MAIN FILES)
 
 In Keyword List, just hit Start (with nothing typed in the search box). If you've just swapped the reference corpus and the target files, you may be prompted to create a new word list before AntConc will calculate the keywords.  We see a list of Keywords that have words that are much more "unusual" – more statistically unexpected – in the corpus we are looking at when compared to the reference corpus.
 
-&gt; Keyness: this is the frequency of a word in the text when compared with its frequency in a reference corpus, "such that the statistical probability as computed by an appropriate procedure is smaller than or equal to a p value specified by the user." – taken from [here][41].) For those interested in the statistical details, see the section on keyness on p7 of Laurence Anthony's readme file (<http: www.antlab.sci.waseda.ac.jp="" software="" antconc335="" antconc_readme.pdf="">).
+&gt; Keyness: this is the frequency of a word in the text when compared with its frequency in a reference corpus, "such that the statistical probability as computed by an appropriate procedure is smaller than or equal to a p value specified by the user." – taken from [here][41].) For those interested in the statistical details, see the section on keyness on p7 of Laurence Anthony's [readme file](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf). 
 
 What are our keywords?
 
@@ -261,7 +261,7 @@ In summary: it's worth thinking about:
 
 -----
 
-###Further resources for this tutorial
+### Further resources for this tutorial
 [A short bibliography on corpus linguistics][43].    
 [A more step-by-step version of this tutorial, assuming no  computer knowledge](http://hfroehli.ch/workshops/getting-started-with-antconc/)
 
@@ -301,9 +301,8 @@ In summary: it's worth thinking about:
 [43]: http://hfroehlich.wordpress.com/2014/05/11/intro-bibliography-corpus-linguistics/
 [47]: http://hfroehli.ch/workshops/getting-started-with-antconc/
 [48]: http://voyant-tools.org/
-[49]: http://programminghistorian.org/lessons/intro-to-beautiful-soup
-[50]: http://programminghistorian.org/lessons/automated-downloading-with-wget
-[51]: http://programminghistorian.org/lessons/
+[50]: http://programminghistorian.org/lessons/intro-to-beautiful-soup
+[51]: http://programminghistorian.org/lessons/automated-downloading-with-wget
 [52]: http://www.antlab.sci.waseda.ac.jp/
 [53]: http://notepad-plus-plus.org/
 [54]: http://www.barebones.com/products/textwrangler/

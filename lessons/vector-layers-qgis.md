@@ -53,7 +53,7 @@ concerning Prince Edward Island.
 
 ## Getting Started
 
-Start by downloading the [PEI\_Holland map][] to the project folder:
+Start by downloading the [PEI_Holland map][] to the project folder:
 
 Open the file you saved at the end of [Installing QGIS 2.0 and Adding
 Layers][]. You should have the following layers in your Layers window:
@@ -402,7 +402,7 @@ work!**
 
   [Intro to Google Maps and Google Earth]: ../lessons/googlemaps-googleearth
   [Installing QGIS 2.0 and Adding Layers]: ../lessons/qgis-layers
-  [PEI\_Holland map]: ../assets/PEI_HollandMap1798_compLZW.tif
+  [PEI_Holland map]: ../assets/PEI_HollandMap1798_compLZW.tif
   [Georeferencing in QGIS 2.0]: ../lessons/georeferencing-qgis
   [Wikipedia entry]: http://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

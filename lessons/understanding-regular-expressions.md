@@ -88,9 +88,7 @@ make it your own.
 Getting the Text
 ----------------
 
-![regex\_ia\_image][]
-
-Figure 1: Screenshot of the unstructured text
+{% include figure.html src="../images/regex_ia_image.png" caption="Figure 1: Screenshot of the unstructured text" %}
 
 The Internet Archive has copies of hundreds of early 20th-century public
 domain U.S. public health reports digitized through JSTOR and organized
@@ -150,9 +148,7 @@ try using LibreOffice's find-and-replace function (`Ctrl-H` or
 
 *Replace* `"` *with nothing.*
 
-![regex\_01\_findquote][]
-
-Figure 2: Screenshot of Find and Replace feature
+{% include figure.html src="../images/regex_01_findquote.png" caption="Figure 2: Screenshot of Find and Replace feature" %}
 
 Finding structure for rows
 --------------------------
@@ -179,9 +175,7 @@ Using find-and-replace,
 
 *replace* `- $` *(hyphen-space-dollar-sign) with nothing.*
 
-![regex\_02\_moreoptions][]
-
-Figure 3: The 'More Options' tab in Open Office Find & Replace
+{% include figure.html src="../images/regex_02_moreoptions.png" caption="Figure 3: The 'More Options' tab in Open Office Find & Replace" %}
 
 The dollar sign symbol is a special symbol in this case that matches the
 end of each line. You might start by clicking `Find` and then `Replace`
@@ -203,9 +197,7 @@ processing programs) you can turn on nonprinting characters
 (View→Nonprinting Characters with shortcut
 `Ctrl-F10 on Windows or Linux`) to see line and paragraph breaks.
 
-![regex\_03\_lines][]
-
-Figure 4: Non-Printing Characters in LibreOffice
+{% include figure.html src="../images/regex_03_lines.png" caption="Figure 4: Non-Printing Characters in LibreOffice" %}
 
 As a last way of confirming that we are starting to get a more useful
 structure from this, let's copy the full text from Writer again and
@@ -213,9 +205,7 @@ paste it into a blank spreadsheet. This should confirm that each health
 record is now a separate row in the spreadsheet (although we also have
 page headings and footnotes mixed in — we will clean those up shortly).
 
-![regex\_04\_calclines][]
-
-Figure 5: The improved structure, shown in LibreOffice Calc
+{% include figure.html src="../images/regex_04_calclines.png" caption="Figure 5: The improved structure, shown in LibreOffice Calc" %}
 
 Finding structure for columns
 -----------------------------
@@ -267,10 +257,7 @@ Now we see the promising start of a table structure, with geography and
 time span still in column A, but with "Total number of deaths" and
 subsequent text clearly aligned in a separate column.
 
-![regex\_05\_2col][]
-
-Figure 6: The newly tab-delimited version of the data shown in
-LibreOffice Calc
+{% include figure.html src="../images/regex_05_2col.png" caption="Figure 6: The newly tab-delimited version of the data shown in LibreOffice Calc" %}
 
 Do you have any instances that moved over into a third column or beyond?
 In that case you may inadvertently have put in too many tabs. In the
@@ -437,9 +424,7 @@ each wrapping pattern.
 
 *with* `<t>$1</t>`
 
-![regex\_06\_timemarkup][]
-
-Figure 7: Finding time using Regular Expressions
+{% include figure.html src="../images/regex_06_timemarkup.png" caption="Figure 7: Finding time using Regular Expressions" %}
 
 Here we are using parentheses to define everything that we match in the
 search pattern as a single group, and in the replacement pattern we use
@@ -516,9 +501,7 @@ getting a table. We are successfully separating location data into
 cells, but the cells are not aligned vertically yet. We want to get all
 of the time references into the third column.
 
-![regex\_09\_calc\_3col][]
-
-Figure 8: Measuring progress using LibreOffice Calc
+{% include figure.html src="../images/regex_09_calc_3col.png" caption="Figure 8: Measuring progress using LibreOffice Calc" %}
 
 The instances with two columns of location information should already be
 OK. The rows with one location need an extra column. Most are cities, so
@@ -537,9 +520,7 @@ implicitly the same as the row above, and the time span is different.
 
 *with* `\t\t<t>` (19 matches)
 
-![regex\_10\_loc\_columns][]
-
-Figure 9: Further refining the results
+{% include figure.html src="../images/regex_10_loc_columns.png" caption="Figure 9: Further refining the results" %}
 
 The first few columns should look better after pasting this again into
 Calc. The Writer text is still our working copy, so if you want to fix
@@ -566,9 +547,7 @@ sources, and it won't be the last such example.)
 We can start by making a new row for "cases" lists, so that we can
 handle them separately. Head back to LibreOffice Writer.
 
-![regex\_11\_writer\_cases\_together\_hi][]
-
-Figure 10: Making a new row for 'cases'
+{% include figure.html src="../images/regex_11_writer_cases_together_hi.png" caption="Figure 10: Making a new row for 'cases'" %}
 
 *Replace* `^(.*\t)(.*\t)(<t>.*</t>)(.*)(<c>.*)`
 
@@ -622,16 +601,12 @@ of the way:
 
 *Replace* `</?[tdp]>` *with nothing*
 
-![regex\_17\_writer\_done][]
-
-Figure 11: The final view in LibreOffice Writer
+{% include figure.html src="../images/regex_17_writer_done.png" caption="Figure 11: The final view in LibreOffice Writer" %}
 
 Now copy and paste this into Calc, and you should see a (mostly)
 well-structured table.
 
-![regex\_18\_calc\_done][]
-
-Figure 12: The final view in LibreOffice Calc
+{% include figure.html src="../images/regex_18_calc_done.png" caption="Figure 12: The final view in LibreOffice Calc" %}
 
 If this were not an exercise but a source we were editing for research
 or publication, there are still things that we would need to fix. We
@@ -706,21 +681,9 @@ in TEI XML. Zed Shaw has begun developing a book, freely available
 online, [Learn Regex the Hard Way.][] The book's exercises are built
 around a Python-based program developed by the author.
 
-  [regex\_ia\_image]: ../images/regex_ia_image.jpg
   [Read Online]: http://archive.org/stream/jstor-4560629/4560629#page/n0/mode/2up
   [Full Text]: http://archive.org/stream/jstor-4560629/4560629_djvu.txt
-  [regex\_01\_findquote]: ../images/regex_01_findquote.png
-  [regex\_02\_moreoptions]: ../images/regex_02_moreoptions.png
-  [regex\_03\_lines]: ../images/regex_03_lines.png
-  [regex\_04\_calclines]: ../images/regex_04_calclines.png
-  [regex\_05\_2col]: ../images/regex_05_2col.png
   [List of Regular Expressions]: https://help.libreoffice.org/Common/List_of_Regular_Expressions
-  [regex\_06\_timemarkup]: ../images/regex_06_timemarkup.png
-  [regex\_09\_calc\_3col]: ../images/regex_09_calc_3col.png
-  [regex\_10\_loc\_columns]: ../images/regex_10_loc_columns.png
-  [regex\_11\_writer\_cases\_together\_hi]: ../images/regex_11_writer_cases_together_hi.png
-  [regex\_17\_writer\_done]: ../images/regex_17_writer_done.png
-  [regex\_18\_calc\_done]: ../images/regex_18_calc_done.png
   [regular expressions]: http://en.wikipedia.org/wiki/Regular_expressions
   [Rubular]: http://rubular.com/
   [regular expressions and XML tools]: http://dh.obdurodon.org/regex.html

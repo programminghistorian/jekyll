@@ -114,9 +114,7 @@ Now that we have got that out of the way, let’s get started!
 
 ### Sign up for an Omeka account
 
-![media\_1363306314614.png][]
-
-Figure 1: Sign up for a new account screen on Omeka.net
+{% include figure.html src="../images/media_1363306314614.png" caption="Figure 1: Sign up for a new account screen on Omeka.net" %}
 
 Go to [www.omeka.net][Omeka.net] and click on **Sign Up**. Choose the
 Basic plan. Fill in the sign-up form. Check your email for the link to
@@ -124,9 +122,7 @@ activate your account.
 
 ### Create your new Omeka site
 
-![media\_1363306593724.png][]
-
-Figure 2: The Omeka Dashboard, add your site
+{% include figure.html src="../images/media_1363306593724.png" caption="Figure 2: The Omeka Dashboard, add your site" %}
 
 After you have clicked on the link in your email, click on **Add a
 Site**. Fill in information about your site’s URL, the title you want to
@@ -134,17 +130,13 @@ use, and a description if you would like. Click on **Add Your Site**.
 
 ### You have a new Omeka site!
 
-![media\_1363306764311.png][]
-
-Figure 3: The Omeka Dashboard, view your site
+{% include figure.html src="../images/media_1363306764311.png" caption="Figure 3: The Omeka Dashboard, view your site" %}
 
 To see what the website looks like, click on **View Site**.
 
 ### An empty Omeka site
 
-![media\_1363306850490.png][]
-
-Figure 4: The public view of the website
+{% include figure.html src="../images/media_1363306850490.png" caption="Figure 4: The public view of the website" %}
 
 This is the public-facing element of your empty Omeka site. It is
 currently empty, waiting for you to fill it in. You will need to return
@@ -168,9 +160,7 @@ refresh][] on your browser.
 
 ### You have a new theme!
 
-![media\_1363419912798.png][]
-
-Figure 6: Your site with a new Omeka theme
+{% include figure.html src="../images/media_1363419912798.png" caption="Figure 6: Your site with a new Omeka theme" %}
 
 Once you have checked out your new theme, head back to your dashboard.
 You can switch back to your old theme, keep this one, or select one of
@@ -178,9 +168,7 @@ the other options.
 
 ### Install plugins
 
-![Install plugins](../images/omeka_install_plugins.png)
-
-Figure 7: Installing Omeka plugins
+{% include figure.html src="../images/omeka_install_plugins.png" caption="Figure 7: Installing Omeka plugins" %}
 
 Your Omeka site comes with plugins, which are snippets of pre-written
 code that offer some extra functionality. These plugins are deactivated
@@ -193,17 +181,13 @@ leave these as they are for now.
 
 ### Add an item to your archive
 
-![media\_1363307013066.png][]
-
-Figure 8: Add an item to your Omeka archive
+{% include figure.html src="../images/media_1363307013066.png" caption="Figure 8: Add an item to your Omeka archive" %}
 
 Click on **Add a new item to your archive**.
 
 ### Describe your new item
 
-![media\_1363308451882.png][]
-
-Figure 9: Describe an Omeka item
+{% include figure.html src="../images/media_1363308451882.png" caption="Figure 9: Describe an Omeka item" %}
 
 Remember, **Dublin Core** refers to the descriptive information you will
 enter about your item. All of this information is optional, and you
@@ -222,10 +206,7 @@ of the text boxes.
 
 ### To what does the metadata really refer?
 
-![media\_1363307526429.png][]
-
-Figure 10: Is the metadata referring to Bertie, my dog, or this
-photograph of Bertie?
+{% include figure.html src="../images/media_1363307526429.png" caption="Figure 10: Is the metadata referring to Bertie, my dog, or this" %}
 
 I am creating an item record for my dog, Bertie. But am I describing
 Bertie *himself* or a *photograph* of Bertie? If it is the former, the
@@ -237,9 +218,7 @@ decided, be consistent.
 
 ### Attach a file to your item record
 
-![media\_1363307721915.png][]
-
-Figure 11: Attach a file to an Omeka item
+{% include figure.html src="../images/media_1363307721915.png" caption="Figure 11: Attach a file to an Omeka item" %}
 
 Once you have finished adding Dublin Core metadata, you can attach a
 file to your item record by clicking **Files** to the left of the Dublin
@@ -258,9 +237,7 @@ When you are finished, click the green **Add Item** button.
 
 ### Your completed item
 
-![media\_1363308525582.png][]
-
-Figure 12: A completed Omeka item
+{% include figure.html src="../images/media_1363308525582.png" caption="Figure 12: A completed Omeka item" %}
 
 This list contains all the items you have added, which so far numbers
 only one. Notice the green checkmark that appears in the **Public**
@@ -269,9 +246,7 @@ name of the item.
 
 ### This is not the public page for your item
 
-![media\_1363308109980.png][]
-
-Figure 13: The private view of your item page
+{% include figure.html src="../images/media_1363308109980.png" caption="Figure 13: The private view of your item page" %}
 
 It may look like it, but this page is not what a non-logged-in user will
 see when she navigates to the page for your item. To see what a user
@@ -280,17 +255,13 @@ the item by clicking on **Edit this item** at the top right.)
 
 ### The public page for your item
 
-![media\_1363308234605.png][]
-
-Figure 14: The public page of an Omeka item
+{% include figure.html src="../images/media_1363308234605.png" caption="Figure 14: The public page of an Omeka item" %}
 
 This is what a general user will see if she navigates to your page.
 
 ### Create a collection
 
-![media\_1363308884958.png][]
-
-Figure 15: Create an Omeka collection
+{% include figure.html src="../images/media_1363308884958.png" caption="Figure 15: Create an Omeka collection" %}
 
 Once you have several items, you can begin to bring order to those items
 by grouping them together into collections. To do this, return to your
@@ -299,9 +270,7 @@ Collection**.
 
 ### Enter information about your collection
 
-![media\_1363308978515.png][]
-
-Figure 16: Enter information about your Omeka collection
+{% include figure.html src="../images/media_1363308978515.png" caption="Figure 16: Enter information about your Omeka collection" %}
 
 In Omeka, metadata is key. Enter some information about your new
 collection, and remember to click on the **Public** button near the
@@ -310,9 +279,7 @@ collection.
 
 ### Add items to your collection
 
-![media\_1363309164290.png][]
-
-Figure 17: Add items to an Omeka collection
+{% include figure.html src="../images/media_1363309164290.png" caption="Figure 17: Add items to an Omeka collection" %}
 
 To add items to the collection you have just created, click on the
 **Items** tab. From your **Browse Items** list, click the boxes of the
@@ -321,10 +288,7 @@ Selected Items** button.
 
 ### Choose the collection
 
-![media\_1363309302937.png][]
-
-Figure 18: Choose the Omeka collection to which you wish to add your
-item
+{% include figure.html src="../images/media_1363309302937.png" caption="Figure 18: Choose the Omeka collection to which you wish to add your item" %}
 
 On the **Batch Edit Items** page, select the Collection you would like
 to add your items to. (Also, take note of all the other options you have
@@ -332,9 +296,7 @@ on this page.)
 
 ### View your new collection
 
-![media\_1363309504604.png][]
-
-Figure 19: View the Omeka collection
+{% include figure.html src="../images/media_1363309504604.png" caption="Figure 19: View the Omeka collection" %}
 
 To view the new collection, return to the public site. If you click on
 the **Browse Collections** tab on the public-facing site, you should now
@@ -366,24 +328,5 @@ even more. We will talk about that in the next lesson.
     "The Scalar content management system"
   [Read more about Dublin Core]: http://dublincore.org/documents/dcmi-terms/
   [Omeka.net]: http://www.omeka.net/
-  [media\_1363306314614.png]: ../images/media_1363306314614.png
-  [media\_1363306593724.png]: ../images/media_1363306593724.png
-  [media\_1363306764311.png]: ../images/media_1363306764311.png
-  [media\_1363306850490.png]: ../images/media_1363306850490.png
-  [media\_1363419755762.png]: ../images/media_1363419755762.png
   [hard refresh]: http://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache
-  [media\_1363419912798.png]: ../images/media_1363419912798.png
-  [media\_1363309931413.png]: ../images/media_1363309931413.png
-  [media\_1363307013066.png]: ../images/media_1363307013066.png
-  [media\_1363308451882.png]: ../images/media_1363308451882.png
-  [media\_1363307526429.png]: ../images/media_1363307526429.png
-  [media\_1363307721915.png]: ../images/media_1363307721915.png
-  [media\_1363308525582.png]: ../images/media_1363308525582.png
-  [media\_1363308109980.png]: ../images/media_1363308109980.png
-  [media\_1363308234605.png]: ../images/media_1363308234605.png
-  [media\_1363308884958.png]: ../images/media_1363308884958.png
-  [media\_1363308978515.png]: ../images/media_1363308978515.png
-  [media\_1363309164290.png]: ../images/media_1363309164290.png
-  [media\_1363309302937.png]: ../images/media_1363309302937.png
-  [media\_1363309504604.png]: ../images/media_1363309504604.png
   [help pages]: http://info.omeka.net/

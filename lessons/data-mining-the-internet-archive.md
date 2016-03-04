@@ -64,8 +64,7 @@ Internet Archive. The second, [pymarc][], makes it easier to parse MARC
 records.
 
 The easiest way to download both is to use pip, the python package
-manager. Begin by installing `pip` using [this Programming Historian
-lesson][]. Then issue these commands at the command line: To install
+manager. Begin by installing `pip` using Fred Gibbs' [Installing Python Modules with pip][]. Then issue these commands at the command line: To install
 `internetarchive`:
 
 ``` bash
@@ -641,7 +640,6 @@ from the fields, the possibilities can multiply rapidly!
   [Anti-Slavery Collection]: http://archive.org/details/bplscas
   [internetarchive]: https://pypi.python.org/pypi/internetarchive
   [pymarc]: https://pypi.python.org/pypi/pymarc/
-  [this Programming Historian lesson]: ../lessons/
   [this letter]: http://archive.org/details/lettertowilliaml00doug
   [original manuscript]: http://archive.org/stream/lettertowilliaml00doug/39999066767938#page/n0/mode/2up
   [multiple files]: http://archive.org/download/lettertowilliaml00doug
@@ -666,4 +664,5 @@ from the fields, the possibilities can multiply rapidly!
   [Counting Frequencies]: ../lessons/counting-frequencies
   [Google Maps lesson]: ../lessons/googlemaps-googleearth
   [Wordle word cloud]: http://www.wordle.net/
-  [cleaning of your data]: http://programminghistorian.github.io/jekyll/lessons/cleaning-ocrd-text-with-regular-expressions
+  [cleaning of your data]: http://programminghistorian.github.io/lessons/cleaning-ocrd-text-with-regular-expressions
+  [Installing Python Modules with pip]: http://programminghistorian.org/lessons/installing-python-modules-pip

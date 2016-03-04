@@ -398,14 +398,14 @@ those values are symbolized in colour or greyscale they make up an image
 that is useful for display or topographical analysis. A scanned
 historical map is also brought into GIS in raster format.
 
--   download: '[PEI\_CumminsMap1927.tif][]' to your project folder.
+-   download: [PEI_CumminsMap1927.tif][] to your project folder.
 -   under Layer on toolbar, choose Add Raster Layer (alternatively the
     same icon you see next to 'Add Raster Layer' can also be selected
     from the tool bar along the left side of the window)
 
 {% include figure.html src="../images/qgis27.png" caption="Figure 27" %}
 
--   find the file you have downloaded titled 'PEI\_CumminsMap1927.tif'
+-   find the file you have downloaded titled 'PEI_CumminsMap1927.tif'
 -   you will be prompted to define this layer's coordinate system. In
     the Filter box search for '2291′, then in the box below select
     'NAD83(CSRS98) / Prince Edward Isl. (Stereographic)…'
@@ -460,5 +460,5 @@ save your work!**
   [Tutorial: Working with Projections in QGIS]: http://qgis.spatialthoughts.com/2012/04/tutorial-working-with-projections-in.html
   [defined]: http://www.gislounge.com/geodatabases-explored-vector-and-raster-data/
   [aerial photos]: http://en.wikipedia.org/wiki/Orthophoto
-  [PEI\_CumminsMap1927.tif]: ../assets/PEI_CumminsMap1927_compLZW.tif
+  [PEI_CumminsMap1927.tif]: ../assets/PEI_CumminsMap1927_compLZW.tif
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
