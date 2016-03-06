@@ -24,7 +24,7 @@ You are starting a new project analysing book auction catalogues from the early 
 
 In all three of these situations, a basic understanding of XML, and its sister-language XSL, could have saved you time and aggrevation.  This tutorial will provide you with the ability to convert, or transform, historical data from an [XML]https://en.wikipedia.org/wiki/XML) database (whether a single file or several linked documents) into a variety of different presentations---condensed tables, exhaustive lists or paragraphed narratives---and file formats. Whether filtering a large database or adding formatting such as headings and pagination, [XSL]https://en.wikipedia.org/wiki/XSL) offers historians the ability to reshape databases to support their changing research or publication needs.
 
-## What is XML
+## What is XML?
 
 **eXtensible Markup Language** (**XML**) is a highly flexible method for encoding or structuring your data.  Unlike [**Hypertext Markup Language** (**HTML**)](https://en.wikipedia.org/wiki/HTML), which has a set vocabulary, XML is extensible; it can be expanded to include whatever sections, sub-section, and sub-sub-sections you need to store your data in the way you wish.
 
@@ -326,7 +326,7 @@ When you are satisfied with your results, save the file, using your browser's *S
 
 ## Conclusion
 
-You now know the basics of XSL stylesheet creation.  With this information you can create a range of outputs including plain-text, comma-separated, tab-separated and markdown files.  You can also create webpages by changing your ```xsl:output``` method to *html* and  wrapping your ```<xsl:value-of>``` commands in the appropriate HTML tags.
+You now know the basics of XSL stylesheet creation.  With this information you can create a range of outputs including plain-text, comma-separated, tab-separated and markdown files.  You can also create webpages by changing your ```<xsl:output>``` method to *html* and  wrapping your ```<xsl:value-of>``` commands in the appropriate HTML tags.
 
 There are many more transformation commands that you can use to further customise your outputs.  Some of these require the use of a 2.0 transformer, but the above should cover most of your day-to-day transformation needs.
 
