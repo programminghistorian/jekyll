@@ -313,7 +313,12 @@ WHERE {
 By calling `SELECT ?p ?o` we're asking the database to return the values of `?p`
 and `?o` as described in the `WHERE {}` command. This query returns every
 statement for which our example artwork,
-`<http://collection.britishmuseum.org/id/object/PPA82633>`, is the subject.
+`<http://collection.britishmuseum.org/id/object/PPA82633>`, is the subject. `?p`
+is in the middle position of the RDF statement in the `WHERE {}` command, so it
+returns any predicates matching this statement, while `?o` in the final position
+returns all objects. Though I have named them `?p` and `?o` here, as you will
+see below we can name these variables anything we like. Indeed, it will be
+useful to give them meaningful names for the complex queries that follow!. 
 
 {% include figure.html src="/images/sparql04.png" caption="An initial list of all the predicates and objects associated with one artwork in the British Museum." %}
 
