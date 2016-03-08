@@ -8,7 +8,7 @@
 +layout: default
 +---
 
-# Transforming XML Data with XSL
+# Transforming Historical Data for Reuse and Republication: A Guide to XML and XSL Transformations
 
 ## Introduction
 
