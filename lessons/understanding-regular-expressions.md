@@ -164,38 +164,75 @@ all our work with regular expressions in Writer, but keep Calc open in
 the background. We can return to it to paste future iterations and gauge
 our progress.
 
-Returning to Writer, we will want to get rid of the line breaks that we
-don't need — but there are some end-of-line hyphenations we should clean
-up first. This time we will start using regular expressions. On the Find
-& Replace box show `More Options` (Other Options on Mac) and make sure
-the `Regular expressions` checkbox is selected. This will enable us to
-use special symbols to define general patterns to match.
+Returning to Writer, we will want to get rid of the line breaks that
+we don't need — but there are some end-of-line hyphenations we should
+clean up first. This time we will start using regular expressions, but with a disclaimer that regular expression implementations differ in their handling of line breaks more than in their features for matching patterns within lines.
+
+Regular expressions in LibreOffice do not readily match patterns of
+text that extend across line breaks, so we will adopt an indirect
+strategy . We will first replace line breaks with a placeholder
+character — let's use `#`  — that does not otherwise appear in our
+text.
+
+In the Find & Replace box show `More Options` (Other Options on Mac)
+and make sure the `Regular expressions` checkbox is selected. This
+will enable us to use special symbols to define general patterns to
+match.
 
 Using find-and-replace,
 
-*replace* `- $` *(hyphen-space-dollar-sign) with nothing.*
+*replace* `$` *with `#`.*
 
 {% include figure.html src="../images/regex_02_moreoptions.png" caption="Figure 3: The 'More Options' tab in Open Office Find & Replace" %}
 
-The dollar sign symbol is a special symbol in this case that matches the
-end of each line. You might start by clicking `Find` and then `Replace`
-when you see that the highlighted selection matches your expectations.
-After repeating this a few times you can click `Replace All` to replace
-all the rest at once. If you make a mistake or are uncertain, you can
-undo recent steps with `Edit → Undo` from the menu bar, or keyboard
-shortcut `Ctrl+Z` (Cmd+Z on Mac). In this document there are 27 total
-matches for this particular pattern.
+The dollar sign symbol
+is a special symbol that traditionally matches the end of each line in
+order to anchor a larger pattern. However, while it can have this
+function in LibreOffice in larger patterns, LibreOffice will not let
+us let us match text across line breaks. But LibreOffice will let us
+use the `$` character on its own, without other patterns, to match and
+replace line breaks independent of other characters.
 
-Next, again using find-and-replace,
+To carry out a search and replace operation, you might start by
+clicking `Find` and then `Replace` when you see that the highlighted
+selection matches your expectations. After repeating this a few times
+you can click `Replace All` to replace all the rest at once. If you
+make a mistake or are uncertain, you can undo recent steps with `Edit
+→ Undo` from the menu bar, or keyboard shortcut `Ctrl+Z` (Cmd+Z on
+Mac). 
 
-*replace all* `$` *(just a dollar sign) with nothing.*
+In this document replacing line ends results in 291
+replacements. (Your number may differ slightly depending on the number
+of lines you copied.)  This sequence of replacements will make the
+text less readable, temporarily, but it's necessary because we cannot
+match patterns across line breaks, but we can match across a `#`
+character.
 
-There are 225 replacements with this pattern. At first it may not be
-clear what happened here, but this has in fact made each paragraph a
-single paragraph or logical line. In LibreOffice (and similar word
-processing programs) you can turn on nonprinting characters
-(View→Nonprinting Characters with shortcut
-`Ctrl-F10 on Windows or Linux`) to see line and paragraph breaks.
+Next let's close up our hyphenated words. This in fact can now be
+accomplished by literal replacement without relying on generalized
+pattern matching.
+
+Again using find-and-replace,
+
+*replace all* `- #` *(hyphen-space-hash) with nothing.*
+
+This will close up patterns like "tuber- #culosis" to "tuberculosis" on one line, and will make a total of 27 replacements in this case.
+
+Next: 
+
+*replace all* `##` with `\n`. 
+
+This results in 71 replacements. In this step we take what were originally paragraph breaks, which appeared as double line breaks, and then were represented as doubled `#` characters, and we turn them back again into actual single line breaks. These will function in a spreadsheet context to mark new rows.
+
+To conclude our line break work:
+
+*replace all* `#` *with* ` ` *(a single space). This will get rid of 122 line breaks that were not paragraph breaks in the original text.
+
+At first it may not be clear what happened here, but this has in fact
+made each paragraph a single paragraph or logical line. In LibreOffice
+(and similar word processing programs) you can turn on nonprinting
+characters (View→Nonprinting Characters with shortcut `Ctrl-F10 on
+Windows or Linux`) to see line and paragraph breaks.
 
 {% include figure.html src="../images/regex_03_lines.png" caption="Figure 4: Non-Printing Characters in LibreOffice" %}
 
