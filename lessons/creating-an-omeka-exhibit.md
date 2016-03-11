@@ -1,93 +1,56 @@
 ---
-title: Creating an Omeka.net Exhibit
+title: Creating an Omeka Exhibit
 authors:
 - Miriam Posner
-date: 2013-04-24
+- Megan R. Brett
+date: 2016-02-24
 reviewers:
-- Adam Crymble
-- Sheila Brennan
 layout: default
-previous: up-and-running-with-omeka
-difficulty: 2
 ---
+Now that you've [added items to your Omeka site](link) and grouped them into collections, you're ready for the next step: taking your users on a guided tour through the items you've collected.
 
-In the lesson [Up and Running with Omeka.net][], you added items to your
-Omeka.net site and grouped them into collections. Now you are ready for
-the next step: taking your users on a guided tour through the items you
-have collected.
+Before you begin: Map your exhibit
+----------------------------------
 
-### Before you begin: Plan your exhibit
+It pays to do some thinking before you launch into creating an exhibit. You'll be creating sections and pages, and you'll need to give some thought to the argument you want to make and how you intend to make it. In the lesson that follows, I use the silly example of my dogs. But what if I were discussing, say, silent film? My sections might be thematic (comedies, romances, dramas), chronological (early silent film, the transitional period, classical era), or stylistic (modernist, impressionist, narrative). It all depends on the message I want to convey to the site's visitors. You might draw out a map of your exhibit, showing where you want to put each digital asset.
 
-It pays to do some thinking before you launch into creating an exhibit.
-You will be creating both sections and pages, and you will need to give
-some thought to the argument you want to make and how you intend to make
-it. In this lesson that follows, I use the silly example of my dogs. But
-what if I were discussing, say, silent film? My sections might be
-thematic (comedies, romances, dramas), chronological (early silent film,
-the transitional period, classical era), or stylistic (modernist,
-impressionist, narrative). It all depends on the message I want to
-convey to the site’s visitors. You might draw out a map of your exhibit,
-showing where you want to put each digital asset.
+Add an exhibit
+--------------
 
-### Add an exhibit
+{% include figure.html src=“../images/createoexhibit2.png” caption=“Create an exhibit page” %}
 
-{% include figure.html src="../images/media_1363324520297.png" caption="Figure 1: Add an exhibit in Omeka" %}
+A collection is just a list of objects. An exhibit is a guided tour through your items, complete with descriptive text and customized layouts. To create one, click on the **Exhibits** tab and then **Add an exhibit**. Fill out the form on the top half of the page. A **slug** is a machine-readable name for your exhibit and will become part of your URL.
 
-A collection is just a list of objects. An exhibit, on the other hand,
-is a guided tour through your items, complete with descriptive text and
-customized layouts. To create one, click on the **Exhibits** tab and
-then **Add an exhibit**. Fill out the form on the top half of the page.
-A **slug** is a machine-readable name for your exhibit and will become
-part of your URL. The slug of this lesson is
-“creating-an-omeka-exhibit,” which you can see in the URL at the top of
-your browser.
+Add a page
+-------------
+Pages are where you'll stick the actual items in your exhibit. An exhibit can have multiple pages, and you can drag and drop them to rearrange the order, even making some pages sub-sections of others. 
 
-### Add a section
+Click on the green **Add Page** button. On the following page, you'll enter some information and pick a layout for your exhibit page. 
 
-{% include figure.html src="../images/media_1363324690767.png" caption="Figure 2: Add a section in Omeka" %}
+Add a content block to your page
+----------------------
+{% include figure.html src=“../images/createoexhibit2.png” caption=“Add a page fields” %}
 
-Every exhibit has sections and pages — like the chapters and individual
-pages in a book. Add a new section by clicking on the green **Add
-Section** button and then filling out the information on the following
-page.
+On the page that follows, you’ll seen an option for **Page Title** and **Slug**. Fill those in. 
 
-### Add a page
+ You’ll see the option for **New Block**. Pages are made up of blocks, which can be files and test, just files, or just text.
 
-{% include figure.html src="../images/media_1363324853892.png" caption="Figure 3: Add a page in Omeka" %}
+Click the **File with Text** option and then the green **Add new content block**
 
-Pages are where you will stick the actual items in your exhibit. Click
-on the green **Add Page** button. On the following page, you will enter
-some information and pick a layout for your exhibit page. The small blue
-squares indicate item thumbnails, the large blue squares indicate
-full-sized images, and the lined areas indicate descriptive text. Pick a
-layout; you can change it later. Then click on **Save Changes**.
+Add content to your content block
+-----
+{% include figure.html src=“../images/createoexhibit3.png” caption=“Add a item and file to your content block” %}
 
-### Add items to your page
+In **Block 1 (File with Text)** click the **Add Item** button. 
 
-{% include figure.html src="../images/media_1363325083453.png" caption="Figure 4: Add items to your page" %}
+In the window which opens, click on your item and then click **Select Item**. You can add a caption if you want. Click the green **Apply** button.
 
-On the page that follows, you will see a numbered grid. You will fill in
-that grid by attaching items (in the places indicated by blue boxes) and
-typing in descriptive information about your item. Remember, an exhibit
-is a kind of guided tour through your items, so try to write
-descriptions that guide the reader from one item to the next. When you
-are finished adding items, you can add another page, or another section,
-or both.
+I also added some filler text to the **Text** field. 
 
-When you are done, return to your public site to see how your Omeka site
-looks.
+When you're done, click the **View Public Page** button to see how your Omeka site looks.
 
-### You have an Omeka site!
+You have an Omeka site!
+-----------------------
+{% include figure.html src=“../images/createoexhibit4.png” caption=“Bertie the dog is an exhibit item” %}
 
-{% include figure.html src="../images/media_1363325355106.png" caption="Figure 5: The completed Omeka Exhibit" %}
-
-Now your site has items, collections, and an exhibit — all the basic
-units of an Omeka site.
-
-### Further Resources
-
--   The Omeka team has put together great resources on
-    the software’s [help pages][]
-
-  [Up and Running with Omeka.net]: /lessons/up-and-running-with-omeka
-  [help pages]: http://info.omeka.net/
+Now your site has items, collections, and an exhibit — all the basic units of an Omeka site!
