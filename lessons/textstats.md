@@ -18,85 +18,154 @@ This tutorial is just a first step in the development of a fuller, richer Python
 * generate some basic statistics about those texts (here, length and lexicon), and
 * output the results as a CSV file.
 
-In a second section of the tutorial, you will:
+For many, that will be enough, but if you would like to continue within an all-Python workflow, you will also:
 
 * read the CSV file using Python's built-in modules to generate a graph as well as
 * use the Python Data Analysis library, `pandas`, to create a dataframe to generate a graph
 
 With these first few steps, you will have begun to establish for yourself what it means to write scripts that let you work with a number of texts at once and then, using your own sense of what needs to be done, deciding what kind of computational analysis needs to be done. The steps you take here will work with a few dozen texts as well as a few hundred texts, the great middle ground of collections that are frequently in the hands of historians and folklorists (like myself).
 
-Please note that throughout this lesson, as I work through the actions of various functions I regularly check the output of those functions by printing them. I encourage readers to do the same thing. I find it very useful to understand how a function transforms input into an output, and, quite often, the key to understanding where something has gone wrong is in understanding what one function is handing off to another function. Readers should note that all of these `print` calls are temporary and do not appear in the completed script at the end of each section of the lesson.
+Please note that throughout this lesson, as I work through the actions of various functions I regularly check the output of those functions by using the `print()` function. I encourage readers to do the same thing. I find it very useful to understand how a function transforms input into an output, and, quite often, the key to understanding where something has gone wrong is in understanding what one function is handing off to another function. Readers should note that all of these `print` calls are temporary and do not appear in the completed script at the end of each section of the lesson.
+
+**N.B.**: *Like most languages, Python is under active development, continuing to grow in a myriad of ways. There are a few differences between Python 2 and Python 3 that arise in the code here: the `print()` function is one of them. The code here was originally developed in Python 2.7 but has been revised for Python 3.4. Please check to see which version of Python you are using: if it is Python 2.7 or lower, you will need to make the following changes:*
+
+TODO?: show print changes
+TODO?: show division changes
 
 ## Getting Started
 
-In this tutorial/lesson we are going to use both two Python modules that allow us to find things through pattern matching. One module, `glob`, allows us to tell our script to find all the text files in a directory; the other module, `re`, will then find patterns within those files using some broad regular expression parameters and we will use those results to construct a `csv` file to which we will save our results. We could simply print the results to our console or interactive environment -- I'm a big fan of the Jupyter notebook myself -- but once you get past a dozen or so files, it really becomes more useful to save our results into a file. We can use that file for a variety of purposes as we will see in the second section of this lesson.
+In this tutorial/lesson we are going to use two Python modules that allow us to find things through pattern matching. One module, `glob`, allows us to tell our script to find all the text files in a directory; the other module, `re`, will then find patterns within those files using some broad *regular expression* parameters and we will use those results to construct a `csv` file to which we will save our results. We could simply print the results to our console or interactive environment -- I'm a big fan of the Jupyter notebook myself -- but once you get past a dozen or so files, it really becomes more useful to save our results into a file. We can use that file for a variety of purposes as we will see in the second section of this lesson.
 
-Because we want to be able to use this script in a lot of different places, we are going to write it as stand-alone script. That means we are going to start with a header that not only makes sure to let our operating system know what language to use but also will tell most text editors which syntax highlighting to use (at least those that pay attention). After the header, we are going to provide a quick description of the script -- this can be more than a single line, but there are some rules you should follow for longer descriptions. Why write a description for a script we are writing for ourselves? One good reason is that we might one day loan this script to someone, and it's nice to have basic information embedded with it. Another reason, for me, is that I often *draft* my scripts in English and then slowly build them, so I like to start with a mission statement for a script. Sometimes I leave individual steps in, sometimes I don't, but, in general, the convention is to leave many such notes in a script, both as a reminder to yourself and as a stepping stone to others who may take your script and want to build on it. (And, really, one of the great things about writing code is how much you build on the work of others, and how much they, in turn, build on your work.)
+Because we want to be able to use this code in a lot of different places, we are going to write it as a stand-alone script. That means we are going to start with a header that not only makes sure to let our operating system know what language to use but also will tell most text editors which syntax highlighting to use (at least those that pay attention). After the header, we are going to provide a quick description of the script -- this can be more than a single line, but there are some rules you should follow for longer descriptions. Why write a description for a script we are writing for ourselves? One good reason is that we might one day loan this script to someone, and it's nice to have basic information embedded with it. Another reason, for me, is that I often *draft* my scripts in English and then slowly build them, so I like to start with a mission statement for a script. Sometimes I leave individual steps in, sometimes I don't, but, in general, the convention is to leave many such notes in a script, both as a reminder to yourself and as a stepping stone to others who may take your script and want to build on it. (And, really, one of the great things about writing code is how much you build on the work of others, and how much they, in turn, build on your work.)
 
 Here's the start of our script:
 
-
-    #! /usr/bin/env python
+```python
+#! /usr/bin/env python
     
-    """textstats.py: basic statistics for a collection of text files"""
+"""textstats.py: basic statistics for a collection of text files"""
     
-    import glob, re
+import glob, re
+```
 
-In addition to the two lines that declare, first, that this is a Python script, and, second, the name of the script and what it does, I have also included a third line. The reason is simple: we are going to need a bit of added functionality in our script, and, for that we will **`import`** two modules that are included with Python installations but are not loaded when you run Python unless you provide specific instructions to do so. The import instructions, by the way, could just as easily be written as two separate lines, and you will just as often see them written that way:
+In addition to the two lines that declare, first, that this is a Python script, and, second, the name of the script and what it does, I have also included a third line. The reason is simple: we are going to need a bit of added functionality in our script, and, for that we will **`import`** two modules that are included with Python installations but are not loaded when you run Python unless you provide specific instructions to do so. The `import` instructions, by the way, could just as easily be written as two separate lines, and you will just as often see them written that way:
 
-    import glob
-    import re
+```py
+import glob
+import re
+```
 
-I have chosen the more compact way of writing them here to introduce readers to the idea that there are different ways of writing Python code, and so long as they get the job done in a way acceptable to you, then that is acceptable. It doesn't matter which order you import these two modules, I just happen to import them in the order they get called in the code that follows, but that's really more an artifact of how I wrote this script: I wrote the **`glob`** part first and made sure it was doing what I wanted it to do, and then I added the regular expression funcationality of the **`re`** module. (We are going to do some testing along the way ourselves in this lesson, so we can see the results of various commands. Knowing the results of each of the steps in a larger program will make it easier for you to disassemble and re-assemble the code so you can get different, probably better, results.)
+I have chosen the more compact way of writing them here to introduce readers to the idea that there are different ways of writing Python code, and so long as they get the job done in a way acceptable to you, then please write your scripts in a way that makes them readable and understandable to you. 
 
-Let's take a moment to discuss the functionality of these two modules, just so we can be clear on what we can do with them. First up is the **`glob`** module. If the name doesn't seem intuitive at first glance, that's because it comes with quite a bit of history: it's short for "global command" where it was a separate program called upon by other programs to expand wildcard characters. (Searching this way is sometimes called "globbing.") The glob module simply makes that same functionality, the ability to specify a pattern for file names, within a Python script. In most instances, all you need to do is write `glob.glob(pathname)`. In our case, we are going to use glob to find the text files with which we want to work.
+It doesn't matter which order you import these two modules, I just happen to import them in the order they get called in the code that follows, but that's really more an artifact of how I wrote this script: I wrote the **`glob`** part first and made sure it was doing what I wanted it to do, and then I added the regular expression functionality of the **`re`** module. We are going to do some testing along the way ourselves in this lesson, so we can see the results of various commands. Knowing the results of each of the steps in a larger program will make it easier for you to disassemble and re-assemble the code so you can get different, probably better, results.
 
-Our second import is Python's **`regular expression`** module, which is named **`re`** -- it's important that you use the proper name for a module, otherwise it will not be imported and you will not be the beneficiary of its functionality. In many cases, for modules with longer names, there is an established conversation for importing the module with a shortened name, to make writing code a bit easier. For instance, the popular Python data analysis module **`pandas`** module is almost always imported as **`pd`** and that is easy as writing:
+Let's take a moment to discuss the functionality of these two modules, just so we can be clear on what we can do with them. First, the name of the **`glob`** module isn't intuitive at first glance. *Globbing* isn't an action with which most of us are familiar, and that's because the term comes with quite a bit of history: it's short for "global command" where it was a separate program called upon by other programs to expand wildcard characters. The `glob` module simply makes that same functionality, the ability to specify a pattern for file names, available within a Python script. In most instances, all you need to do is write `glob.glob(pathname)`. In our case, we are going to use glob to find the text files with which we want to work.
 
-    import pandas as pd
+We are also importing Python's **`regular expression`** module in the opening lines of the script, which is named **`re`**: it's important that you use the proper name for a module, otherwise it will not be imported and you will not be the beneficiary of its functionality. In many cases, for modules with longer names, there is an established convention for importing the module with a shortened name, to make writing code a bit easier. For instance, the popular Python data analysis module **`pandas`** module is almost always imported as **`pd`** and that is easy as writing:
+
+```python
+import pandas as pd
+```
 
 The regular expressions of the **`re`** module are going to let us do some quick clean up of our texts, as we will see in a moment. A more comprehensive explanation of regular expressions can be found in the lesson on ["Understanding Regular Expressions][ure] and on ["Cleaning OCR’d text with Regular Expressions"][cre]. For now, we need only consider regular expressions a way to search text with as much precision, or as much openness, as we like. We can transform the found text however we like.
 
-[ure]: http://programminghistorian.org/lessons/understanding-regular-expressions
-[cre]: http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions
 
 ## Building the Functionality We Want
 
-Okay, so let's imagine we have a collection of texts. Perhaps it's a couple dozen, perhaps it's a couple hundred. No matter how small each individual text, the number of them makes them hard to hold them all in our head at the same time, especially if we are seeking to discern significant commonalities or differences which could be the first step in understanding the larger problem which are seeking to understand, whether it's a historical event or moment or a cultural idea or form. 
+Okay, so let's imagine we have a collection of texts. Perhaps it's a couple dozen, perhaps it's a couple hundred. No matter how small each individual text, the number of them makes them hard to hold them all in our head at the same time, especially if we are seeking to discern significant commonalities or differences which could be the first step in understanding the larger phenomena which are seeking to understand, whether it's a historical event or moment or a cultural idea or form. 
 
-One place to begin, and where we are going to begin here, is to understand the size of the texts -- in a second script we are also going to look at the vocabulary involved (and we are going to discuss ways to discern terms of greater significance within such vocabularies). So, the first things to do is to get a word count for each text and, since it is so easy to do, while we are counting words, we will also get a sense of the number of unique words, so we can see whether or not the vocabulary expands as texts get bigger and, with enough texts, we might have a sense of the corresponding rate at which such an increase occurs.
+One place to begin, and where we are going to begin here, is to understand the size of the texts -- in a second script we are also going to look at the vocabulary involved (and we are going to discuss ways to discern terms of greater significance within such vocabularies). So, the first thing to do is to get a word count for each text and, since it is so easy to do, while we are counting words, we will also get a sense of the number of unique words, so we can see whether or not the vocabulary expands as texts get bigger and, with enough texts, we might have a sense of the corresponding rate at which such an increase occurs. Even if you are not interesting word counts and lexicons, these are the same steps you would use to begin to ingest texts in order to do other things with them -- for example, if you wanted to examine them using Python's `mltk` module or you wanted to create a topic model of them.
 
-So, our multi-step process looks like this:
+The multi-step process looks like this:
 
 1. get a text
 2. count the number of words in it
 3. count the number of unique words
 4. compile a list where each line has the name of the file, the total words, and the total vocabulary
 
-If you remember that those things may not necessarily occur in the same order when we are building a script, then the script below will not look too strange:
+It's important to write out the things you want to do in a script. In this case, we need to begin with the end in mind: we want to compile a list. In Python, there are a number of data structures into which you can pour your data, and a list is one of them. Lists are simple structures. Take for example, the list we can make out of string. Our string can be a sentence:
+
+```python
+ourstring = "This is a sentence."
+```
+
+If you like, you can ask Python to print `ourstring` so you can see it has been stored properly in the string variable:
+
+```python
+print(ourstring)
+This is a sentence.
+```
+
+Note that the quotation marks are what hold a string together -- and Python is pretty smart about being able to handle quotation marks within a string and that when you ask Python to print a string, it does not include the quotation marks. We can turn `ourstring` into a list using the `split()` method and, while we are at it, we will go ahead and display the results of our efforts:
+
+```python
+ourlist = ourstring.split()
+print(ourlist)
+['This', 'is', 'a', 'sentence.']
+```
+
+The `split` method simply split our string into a series of strings -- note the quotation marks around each word -- the entirety of which is held together by square brackets. If you provide nothing in the parentheses that follow `split` it will split on spaces. (See Python's documentation for the many options.) The difference between a string and a list will become very important both in terms of the simple counting of words we are going to do, but, when you think about it, in most every other instance where we are working with texts, we are focused on words and not characters. So as weird as it seems to split a perfectly good sentence into a list of words, it is, in most instances, exactly what you want to do. 
+
+Take, for example, answering the simple question of how long our sentence is? Your intuitive answer is that it is four words long. If you ask Python how long the string is, this is what happens:
+
+```python
+len(ourstring)
+19
+```
+
+Python counts every character when it is calculating lengths of strings, including spaces and punctuation. In fact, this is how Python thinks about positions:
+
+0-T-1-h-2-i-3-s-4- -5-i-6-s-7- -8-a-9- -10-s-11-e-12-n-13-t-14-e-15-n-16-c-17-e-18-.-19
+
+Please note that Python starts counting at zero: this will not have much impact on the things we are doing here, but it can affect other kinds operations. If there are 19 items in our string, how many are there in our list?
+
+```python
+len(ourlist)
+4
+```
+
+That's more the kind of number we have in mind as humans. So, for the purposes of counting words, we want to turn our texts into lists of words. But, in order to avoid any possible confusion having to do with punctuation, we want to remove it. For this, we will use a *regular expression*. For our purposes, our search is a simple one: grab only the stuff made of letters, or, in our case, we are going to grab anything that is *not* a letter and we are going to replace it with a space. In *regex*, which is the conventional contraction for regular expressions, that looks like this:
 
 ```
+[^a-zA-Z'-]
+```
+
+We won't spend a lot of time with regex in this lesson -- there are other lessons on _The Programming Historian_ that treat it, but it is important to note that while this is a simple, and powerful, way to do the work we want to do, it does not address the problem of contractions. Or rather, it does, it just doesn't handle them well. If contractions are an important part of the texts with which you are working, then you will want to consider how this will affect your handling of them -- it is possible to write regex that will simply render something like "can't" as "cant" but that requires a level of skill that is beyond the scope of this lesson.
+
+What happens if we clean up our sentence? 
+
+```python
+cleaned = re.sub("[^a-zA-Z]", " ", ourstring)
+print(cleaned)
+This is a sentence 
+```
+
+Not much, really. It just knocks out the period. 
+
+If you remember that those things may not necessarily occur in the same order when we are building a script, then the script below will not look too strange:
+
+```python
 files = {}
-for fpath in glob.glob("./assets/*.txt"):
-    with open(fpath) as f:
-         fixed_text = re.sub("[^a-zA-Z'-]"," ",f.read())
+for myfolder in glob.glob("./assets/*.txt"):
+    with open(older) as myfile:
+         fixed_text = re.sub("[^a-zA-Z'-]"," ",myfile.read())
     files[fpath] = (len(fixed_text.split()),len(set(fixed_text.split())))
     print("Total Words:" , len(fixed_text.split()))
     print("Total Unique:",len(set(fixed_text.split())))
 ```
 
-It will help, I think, if we walk through the script before building our own version of it. Who knows? Maybe in the process we will find a better, or at least a different, way to do the same thing? 
+Let's walk through the script before building our own version of it. Who knows? Maybe in the process we will find a better, or at least a different, way to do the same thing? 
 
 In brief, here's what each of the lines above does:
 
-`files = {}` creates a dictionary
+`files = {}` creates a dictionary: a dictionary is a particular kind of data structure in Python that allows us to pair a key with a value, which is how a regular dictionary works, should you still have one sitting on your shelf: you look up the meaning, the value, of a word -- the word itself being the key in this instance.
 
 `for fpath in glob.glob("./assets/*.txt"):` opens the for loop that will build our list of texts and word counts -- don't worry if the iterator `fpath` not being defined upfront seems confusing, we'll talk more about iterators in a moment.
 
 The `with` loop uses some regular expression code to 
 
 
-It may look somewhat initimidating with a `with` loop running inside a `for` loop, but a simple way to think about it is inside out: *first*, we need to count the words in a given text, *and then* we need to compile a list of the texts and their word counts. In fact, working inside out is probably the best way to understand how this script works, and so we are going to begin with the `with` loop above, which is also where we use some regular expression magic, so we can discuss both those things at once.
+It may look somewhat intimidating with a `with` loop running inside a `for` loop, but a simple way to think about it is inside out: *first*, we need to count the words in a given text, *and then* we need to compile a list of the texts and their word counts. In fact, working inside out is probably the best way to understand how this script works, and so we are going to begin with the `with` loop above, which is also where we use some regular expression magic, so we can discuss both those things at once.
 
 ### Fixing Words
 
@@ -170,32 +239,32 @@ So far we have explored how we can use pattern matching to normalize a text stri
 
 Let's first recall the pieces of script we have already developed. The first is our code that will normalize our text:
 
-    re.sub("[^a-zA-Z']"," ",open('../assets/uls-006.txt').read()).lower()
+    re.sub("[^a-zA-Z']", " ", open('../assets/uls-006.txt').read()).lower()
 
 Python has a very efficient, and easy, way to handle opening a file, processing its contents, and then closing it: the `with` statement. Closing a file is terribly important. I try to imagine what my office would look like if I never closed a book: soon there would be nothing but great heaps of open books lying about. The `with` statement has its own built-in librarian, who tidies things up for you after your done. The logic of a `with` statement is simple:
 
 ```
-with open("mytext.txt") as f:
-    data = f.read()
+with open("mytext.txt") as myfile:
+    data = myfile.read()
     do something with data 
 ```
 
 We can substitute our own code in this structure now:
 
 
-    with open('../assets/uls-006.txt') as f:
-        fixed_text = re.sub("[^a-zA-Z']", " " , f.read().lower())
+    with open('../assets/uls-006.txt') as myfile:
+        fixed_text = re.sub("[^a-zA-Z']", " " , myfile.read().lower())
 
 If you run the code above and add a third line, also indented, to the `with` statement, you will see the same results as above. 
 
-With out `with` logic in place, we want to be able to feed a series of objects to it so that we can work through our entire collection of texts. The way to work through a collection in Python, as in other languages, is to use a `for` statement. The logic looks like this:
+With our `with` syntax, or control logic, in place, we want to be able to feed a series of objects to it so that we can work through our entire collection of texts. The way to work through a collection in Python, as in other languages, is to use a `for` statement. The logic looks like this:
 
 ```
 for thing in collection:
     do this
 ```
 
-Implicit in this command is that the `for` loop is going to keep doing `this` until it runs out of `things`, at which point it stops. No more control logic is required us as writers. In our case, the collection is a folder (or directory) of texts. So the first thing we need to do is to turn that folder into a list of things on which `for` can work its magic. An easy way to do that is with the `glob` module:
+Implicit in this command is that the `for` loop is going to keep doing `this` until it runs out of `things`, at which point it stops. No more instruction is required of us as writers. In our case, the collection is a folder (or directory) of texts. So the first thing we need to do is to turn that folder into a list of things on which `for` can work its magic. An easy way to do that is with the `glob` module:
 
 
     file_list = glob.glob('../assets/*.txt')
@@ -566,6 +635,8 @@ Like a lot of newbie Python coders, my first introduction to the language was _[
 
 John Laudun is Professor of English at the University of Louisiana at Lafayette. As a folklorist, his work focuses on forms of expression and ideation embedded within a particular culture. His history of one such instance, _The Amazing Crawfish Boat_ will be published by the University Press of Mississippi in early 2016. More information can be found on [his website][jlo].
 
+[ure]: http://programminghistorian.org/lessons/understanding-regular-expressions
+[cre]: http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions
 [Learning Python]: http://shop.oreilly.com/product/0636920028154.do
 [so]: http://stackoverflow.com/users/1457672/john-laudun
 [Masting Regular Expressions]: http://shop.oreilly.com/product/9780596528126.do
