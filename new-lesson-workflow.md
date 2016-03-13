@@ -79,7 +79,8 @@ Add a Metadata Block
 
 Our system uses special [YAML] front-matter blocks to store metadata
 about each lesson. Use the following example to create a YAML block for
-your lesson. This should appear at the very top of your lesson file.
+your lesson. This should appear at the very top of your lesson file, 
+and **must be followed by a blank line.**
 (Note: you will not know the names of your reviewers. Leave this blank
 for now.)
 
@@ -112,6 +113,9 @@ using YAML's syntax for block literals:
 
 You must use the "list" format shown above for the authors and reviewers
 fields, even if there is only one author or reviewer.
+
+Don't forget to put a blank line after the final `---` in your YAML block
+before proceeding with your lesson.
 
 Write in Markdown
 -----------------

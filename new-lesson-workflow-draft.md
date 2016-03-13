@@ -51,7 +51,7 @@ Add a Metadata Block
 
 Our publication platform (GitHub Pages) uses special headers in the lesson files called [YAML] front-matter blocks to store metadata about each lesson. You don't need to understand the details about what YAML is or how it works. 
 
-Use the following template to create a YAML block for your lesson (just copy and paste this into your text file). This should appear at the very top of your lesson file. (Note that there is a "reviewers" field, which you should leave blank for now.)
+Use the following template to create a YAML block for your lesson (just copy and paste this into your text file). This should appear at the very top of your lesson file, and *must be followed by a blank line*. (Note that there is a "reviewers" field, which you should leave blank for now.)
 
     ---
     title: Data Mining the Internet Archive Collection
@@ -79,7 +79,7 @@ Because colons are a special character in YAML, values that contain colons (for 
 
 You must use the "list" format shown above for the authors and reviewers fields, even if there is only one author or reviewer.
 
-Lastly, be sure there are no extraneous spaces in your header, which can sometime prohibit lessons from appearing and can be difficult to troubleshoot.
+Lastly, be sure there are no extraneous spaces in your header, which can sometime prohibit lessons from appearing and can be difficult to troubleshoot. Likewise, don't forget that the YAML block must be followed by a blank line after the final `---` before you proceed with the text of your lesson.
 
 
 Write in Markdown
