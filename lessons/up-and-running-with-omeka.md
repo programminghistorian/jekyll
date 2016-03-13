@@ -12,14 +12,14 @@ layout: default
 Sign up for an Omeka account
 ----------------------------
 
-{% include figure.html src="../images/up-and-running-1.png" caption="Sign up for a basic account" %}
+{% include figure.html src="../images/up-and-running-01.png" caption="Sign up for a basic account" %}
 
 Go to [www.omeka.net](http://www.omeka.net) and click on **Sign Up**. Choose the Basic plan. Fill in the sign-up form. Check your email for the link to activate your account.
 
 Create your new Omeka site
 --------------------------
 
-{% include figure.html src="../images/up-and-running-2.png" caption="Omeka.net dashboard" %}
+{% include figure.html src="../images/up-and-running-02.png" caption="Omeka.net dashboard" %}
 
 After you've clicked on the link in your email, click on Add a Site. 
 
@@ -28,34 +28,34 @@ Fill in information about your site's URL, the title you want to use, and a desc
 You have a new Omeka site!
 --------------------------
 
-{% include figure.html src="../images/up-and-running-3.png" caption="View your site" %}
+{% include figure.html src="../images/up-and-running-03.png" caption="View your site" %}
 
 To see what it looks like, click on **View Site**.
 
 An empty Omeka site
 -------------------
 
-{% include figure.html src="../images/up-and-running-4.png" caption="Public view" %} 
+{% include figure.html src="../images/up-and-running-04.png" caption="Public view" %} 
 This is your empty Omeka site, waiting to be filled in. To get back to your dashboard, click the **Back** button or enter **http://www.omeka.net/dashboard**. This time, click on **Manage Site**.
 
 Switch themes
 -------------
 
-{% include figure.html src="../images/up-and-running-5.png" caption="Theme settings page" %} 
+{% include figure.html src="../images/up-and-running-05.png" caption="Theme settings page" %} 
 
 Omeka allows you to change the look of your public-facing site by switching themes. To do this, click on **Appearance** (at the top right of your dashboard). Switch themes by selecting one of the options on the page. Press the green **Use this theme** button to activate your new theme. Then visit your public site by clicking on the name of your site at the top left of the page.
 
 You have a new theme!
 ---------------------
 
-{% include figure.html src="../images/up-and-running-6.png" caption="Public view with the new theme" %} 
+{% include figure.html src="../images/up-and-running-06.png" caption="Public view with the new theme" %} 
 
 Once you've checked out your new theme, head back to your dashboard. You can switch back to your old theme, stick with this one, or select one of the other options.
 
 Install some plugins
 --------------------
 
-{% include figure.html src="../images/up-and-running-7.png" caption="Plugins page" %} 
+{% include figure.html src="../images/up-and-running-07.png" caption="Plugins page" %} 
 
 Your Omeka site comes with plugins, which offer some extra
 functionality. We need to enable them. To do that, click on the
@@ -64,14 +64,14 @@ functionality. We need to enable them. To do that, click on the
 Add an item to your archive
 ---------------------------
 
-{% include figure.html src="../images/up-and-running-8.png" caption="Add an item" %} 
+{% include figure.html src="../images/up-and-running-08.png" caption="Add an item" %} 
 
 Click on **Items** on the left-hand menu and then (naturally!) **Add an item.**
 
 Describe your new item
 ----------------------
 
-{% include figure.html src="../images/up-and-running-9.png" caption="Make your item Public using checkbox circled here" %} 
+{% include figure.html src="../images/up-and-running-09.png" caption="Make your item Public using checkbox circled here" %} 
 
 Remember, **Dublin Core** refers to the descriptive information you'll enter about your item. All of this information is optional, and you can't really do it wrong. But try to be consistent.
 
