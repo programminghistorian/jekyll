@@ -12,6 +12,12 @@ layout: blank
 </figure>
 Reviewing for the _Programming Historian_ is a great way to learn new technical skills (at any level) and engage with the digital humanities community at the same time. We go out of our way to make sure our reviewers get ample credit and recognition for their work. Because reviewers directly contribute to significantly improving lessons, you can take pride in how your work helps thousands of users.
 
+## Anti-Harassment Policy
+
+This is a statement of the Programming Historian's principles and sets expectations for the tone and style of all correspondence between reviewers, authors, editors, and contributors to our public forums.
+
+The Programming Historian is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudspersons (Ian Milligan [email] or Miriam Posner [email]). Thank you for helping us to create a safe space.
+
 ## Collaborative, Not Judgmental
 Our peer review process is a bit different from what might be considered the "traditional" peer review process. We do not solicit reviews to judge whether a tutorial is "good enough" to be published. Rather, we consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to create useful technical resources for each other. Once a tutorial slips into our editorial workflow, our goal is to do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time.
 
@@ -66,6 +72,4 @@ While we like each of our lessons to take the unique voice of its author, we als
 
 
 ## How to submit your review
-We manage all of our peer review comments through GitHub. When a new lesson is ready for review, the author (or editor) will make a pull request (a request to pull the new lesson into the _Programming Historian_ repository.) GitHub allows anyone to make comments on a pull request--exactly like posting on a message board or social media website. You will need to sign up for a free GitHub account to post your review. 
-
-The editor who contacted you about the review should have sent you the URL that corresponds with the pull request (ie the page where you will leave your comment). You can also find the issue on the [_Programming Historian's_ pull request page](https://github.com/programminghistorian/jekyll/pulls); the link to the pull request will contain the lesson title, so it will be obvious what to click on. If you cannot find the pull request for the lesson you're looking for, please contact the editor. Once you've found the pull request for the lesson you're reviewing, click on it (be sure you're logged into GitHub), and add your review as a comment at the bottom of the page. Then, you're done, and you have our eternal gratitude.
+We manage all of our peer review comments through GitHub. When a new lesson is ready for review, editor will provide you with a link where you can read the lesson, and a link to a discussion board where you can submit your constructive feedback. This discussion is held on Github, a free social coding environment. You will need to sign up for a free GitHub account to post your review. We encourage discussion to stay on Github but you are free to email the editor privately or to contact one of our ombudspersons (Miriam Posner and Ian Milligan) if you would like a private word.
