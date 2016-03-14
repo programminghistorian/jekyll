@@ -60,7 +60,7 @@ contribute](../contribute).
   [William J. Turkel]: ../images/spoka-twitter_bigger.jpg
     "spoka-twitter_bigger"
   [Network in Canadian History & Environment]: http://niche-canada.org/
-  []: ../images/jeremy_reasonably_small.jpeg "jeremy_reasonably_small"
+  [Jeremy Boggs]: ../images/jeremy_reasonably_small.jpeg "jeremy_reasonably_small"
   [ClioWeb]: http://clioweb.org/
   [Allison Hegel]: ../images/hegel.jpg
   [1]: ../images/Miriam_reasonably_small.jpg "Miriam_reasonably_small"
