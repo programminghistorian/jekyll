@@ -122,7 +122,7 @@ pip install simplekml
 ```
 
 Remember, for the same reasons explained above, you will probably need
-to run pip with sudo, like
+to run pip with sudo on Mac or Linux systems (but not Windows), like
 
 ``` bash
 sudo pip install requests
