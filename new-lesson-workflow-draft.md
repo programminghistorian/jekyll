@@ -22,7 +22,7 @@ We do insist that all lessons have a clearly defined goal and are written with a
 Writing a New Lesson
 ====================
 
-As you perhaps already know, *Programming Historian* is hosted at [GitHub](http://github.com), which is a free platform for maintaining files and their revision history. It's most often used to store files of programming code, but it's also a fabulous way to maintian an open-access resource like *Programming Historian*. 
+*Programming Historian* is hosted at [GitHub](http://github.com), which is a free platform for maintaining files and their revision history. It's most often used to store files of programming code, but it's also a fabulous way to maintian an open-access resource like *Programming Historian*. More specifically, our site uses [GitHub Pages] to take a bunch of plain text files and turn them into a spiffy website.
 
 This means that we we ask that authors adhere to the following lesson requirements, which are not merely stylistic, but in fact necessary for our publishing platform. 
 
@@ -32,7 +32,7 @@ Please note that we do not have a budget to hire a copyeditor as this is a volun
 Use Plain Text
 --------------
 
-Because our site is hosted on GitHub Pages, your lesson must be written in plain text, using a text editor of your choice. Text editors are distinctly different from traditional word processing programs like MS Word. For Mac, we recommend free text editors such as [TextWrangler] or TextEdit (which comes with Mac OS X). For Windows, you can use Notepad or the enhanced [Notepad++]. The specific editor you choose is not important, but submitting and formatting your lesson will be much easier if you begin the whole process in plain text. Please contact a member of the [project team] if you have questions or concerns.
+Because our site is hosted using GitHub Pages, your lesson must be written in plain text, using a text editor of your choice. Text editors are distinctly different from traditional word processing programs like MS Word. For Mac, we recommend free text editors such as [TextWrangler] or TextEdit (which comes with Mac OS X). For Windows, you can use Notepad or the enhanced [Notepad++]. The specific editor you choose is not important, but submitting and formatting your lesson will be much easier if you begin the whole process in plain text. Please contact a member of the [project team] if you have questions or concerns.
 
 Name the Lesson File
 --------------------
@@ -40,7 +40,7 @@ Name the Lesson File
 Name your new lesson file following these guidelines:
 
 -   Make the filename all lowercase, and short but descriptive. This filename will
-    eventually become the [slug] for the lesson's URL when published. For example, the lesson titled "Getting Started with Markdown" as a slug of "getting-started-with-markdown" and a URL of <http://programminghistorian.org/lessons/getting-started-with-markdown>. Please see existing lessons for more concrete examples of the relationship between a lesson URL and the lesson title (they are usually very similar).
+    eventually become the [slug] for the lesson's URL when published. For example, the lesson titled "Getting Started with Markdown" has a slug of "getting-started-with-markdown" and a URL of <http://programminghistorian.org/lessons/getting-started-with-markdown>. Please see existing lessons for more concrete examples of the relationship between a lesson URL and the lesson title (they are usually very similar).
 -    Think about how potential readers might search for something like your lesson. A keyword-rich slug is a good way to get search-engine traffic. 
 -   Do not put spaces or underscores in the filename; use hyphens instead.
 -   The filename extension should be `.md` (markdown).
@@ -49,9 +49,9 @@ Name your new lesson file following these guidelines:
 Add a Metadata Block
 --------------------
 
-Our publication platform (GitHub Pages) uses special headers in the lesson files called [YAML] front-matter blocks to store metadata about each lesson. You don't need to understand the details about what YAML is or how it works. 
+Our publication platform, [GitHub Pages] depends on special headers in each plain-text lesson file called [YAML] front-matter blocks in order to render that lesson correctly on our website. These blocks consist of fields (like "title" and "authors") paired with values (like "Data Mining the Internet Archive Collection" or "Caleb McDaniel"). You don't need to understand the details about what YAML is or how it works, but you do need to include a YAML block at the beginning of your lesson.
 
-Use the following template to create a YAML block for your lesson (just copy and paste this into your text file). This should appear at the very top of your lesson file, and *must be followed by a blank line*. (Note that there is a "reviewers" field, which you should leave blank for now.)
+You can use the following template to create the YAML block for your lesson by copying and pasting the following text into your text file, and changing the relevant metadata. This should appear at the very top of your lesson file, and *must be followed by a blank line*. (Note that there is a "reviewers" field, which you should leave blank for now.)
 
     ---
     title: Data Mining the Internet Archive Collection
@@ -62,7 +62,7 @@ Use the following template to create a YAML block for your lesson (just copy and
     layout: default
     ---
 
-Because colons are a special character in YAML, values that contain colons (for example, a title that also has a subtitle) must be handled using the syntax shown below:
+Because colons are a special character in YAML, values that contain colons (for example, a title that also has a subtitle) must be handled using a vertical bar, followed by the indented value on a second line, as shown below:
 
     ---
     title: |
@@ -77,7 +77,7 @@ Because colons are a special character in YAML, values that contain colons (for 
     layout: default
     ---
 
-You must use the "list" format shown above for the authors and reviewers fields, even if there is only one author or reviewer.
+You must use the "list" format shown above for the authors and reviewers fields, even if there is only one author or reviewer value.
 
 Lastly, be sure there are no extraneous spaces in your header, which can sometime prohibit lessons from appearing and can be difficult to troubleshoot. Likewise, don't forget that the YAML block must be followed by a blank line after the final `---` before you proceed with the text of your lesson.
 
@@ -86,22 +86,29 @@ Write in Markdown
 -----------------
 
 All new lessons should be formatted as Markdown files. Markdown is a simple
-mark-up language that is best written in a text editor (as explained above, do not use a word processor like MS Word or Open Office). Our site uses [GitHub Pages](https://pages.github.com/), which
+mark-up language that is best written in a text editor (as explained above, do not use a word processor like MS Word or Open Office). Our site uses [GitHub Pages], which
 are powered by [Jekyll](http://jekyllrb.com/), to automatically convert the
 Markdown written by our authors into the HTML pages that you can find here on
-the website.
+the website. Even this page is written in Markdown, as you can see by inspecting [the raw text on GitHub].
 
-The following resources and cheatsheets will tell you all that you need to know
+The following resources and tutorials contain more information 
 about formatting a lesson in Markdown:
 
+-   [Getting Started with Markdown](../lessons/getting-started-with-markdown), by Sarah Simpkin
 -   [GitHub Guide to Markdown]
 -   [Markdown Basics]
 -   [Github Flavored Markdown]
 
-Even this page is written in Markdown, as you can see by inspecting [the raw text on GitHub].
+Before continuing to our special style rules, make sure you understand how to use Markdown syntax to indicate headers, italics, links, paragraphs, and lists in your lesson.
 
-As any other journal, *Programming Historian* has a house style that we expect authors to follow to maintain consistency across our lessons. For Figures, Tables, Code Blocks, Quotation Marks, and
-Emphasis, please follow the instructions below:
+Special Style Rules
+-------------------
+
+Like any other journal, *Programming Historian* also has a house style that we expect authors to follow to maintain consistency across our lessons. Unlike with other journals, breaking these style rules doesn't only break consistency, but can actually cause a lesson or the entire site not to render correctly.
+
+Note that our special style rules work only because our site uses an extended version of Markdown and some
+site-specific scripts. In other words, our syntax for Figures, Tables, Code Blocks, Quotation Marks,
+Endnotes, and Emphasis may not work the same way in other applications that use Markdown.
 
 ### Figures
 
@@ -149,7 +156,7 @@ example, `counting-frequencies-1.png`, `counting-frequencies-2.png`, and
 so on.) Make sure the images are in web-friendly formats such as PNG or
 JPEG and sized appropriately (both in terms of pixels and bytes).
 
-We recommend that you place all the images for your lesson in a local
+While working on your lesson, we recommend that you place all the images for your lesson in a local
 subdirectory called `images`.
 
 ### Tables
@@ -181,10 +188,25 @@ Adding colons to the dashed line separating the header row from the
 others can also control column alignment, as explained in the [full
 instructions for this feature][extended table syntax].
 
-### Footnotes
+### Endnotes
 
-Our platform does not support footnotes, even though many Markdown
-parsers (like [pandoc]) do. Please use links instead.
+To add endnotes to your text, first add an endnote marker in the body of the text, like this:
+
+    This is some text.[^1] Other text.[^endnote]
+    
+As you can see, the marker text is wrapped in square brackets and can be made up of numbers
+or letters, as long as it begins with the caret (`^`) symbol. 
+
+Next you'll need to specify the text for that endnote, ideally at the bottom of your text file.
+To define the endnote, you'll reproduce the marker syntax, add a colon, and then type your
+endnote:
+
+    [^1]: Some *crazy* endnote definition.
+
+    [^endnote]: Look, Ma, I made an endnote!
+    
+For more details about how this syntax works, see the [extended instructions](http://kramdown.gettalong.org/syntax.html#footnotes)
+for the footnote feature.
 
 ### Code Blocks
 
@@ -223,35 +245,32 @@ Submit Your Lesson
 
 Once your lesson file has been prepared to the above specifications, you are ready to submit it!
 
-We have a [Programming Historian project page](https://github.com/programminghistorian) at GitHub, where we maintain two repositories (a repository is a place to store related files and folders--you can think of it as a kind of folder). One of these called 'jekyll' <https://github.com/programminghistorian/jekyll> hosts the live version of the site you see at programminghistorian.org.  The other repository is called 'ph-submissions' <https://github.com/programminghistorian/ph-submissions>.
+We have a [Programming Historian project page](https://github.com/programminghistorian) at GitHub, where we maintain two repositories (a repository is a place to store related files and folders--you can think of it as a kind of folder). One of these, called [jekyll](https://github.com/programminghistorian/jekyll), hosts the code for the live version of the site you see at <http://programminghistorian.org>. The other repository is called [ph-submissions].
 
-Our preferred way for authors to submit lessons is to add them directly to the ph-submissions repository (or repo, for short). GitHub makes this very easy to do. As a new author, here are the steps:
+Our preferred way for authors to submit lessons is to add them directly to the [ph-submissions] repository (or repo, for short). Thanks to GitHub's features, you can do this using drag-and-drop uploading actions with which you are probably already familiar. As a new author, here are the steps:
 
 1. Create a free account at GitHub [here](https://github.com/join). It takes about 30 seconds.
 
-2. Email your editor with your GitHub username and your lesson filename/slug (be sure you've followed the naming guidelines above!). The editor will add you as a **collaborator** on the ph-submissions repo, using the [collaboration settings](https://github.com/programminghistorian/ph-submissions/settings/collaboration) page. Once added, you can make direct edits to the "ph-submissions" repo, including adding, editing, removing, and renaming files. The editor will also create a folder with the same name as your lesson in the images folder. If you have other data files that you link to in your tutorial, please ask your editor about them.
+2. Email your editor with your new GitHub username and your lesson filename/slug (be sure you've followed the naming guidelines above!). The editor will then add you as a **collaborator** on the [ph-submissions] repo. Once you are added as a collaborator, you will be able to make direct changes to the [ph-submissions] repo, including adding, editing, removing, and renaming files. The editor will also create a folder with the same name as your lesson in the images folder. (If you have other data files that you link to in your tutorial, please ask your editor about them.)
 
-3a. Once you've heard from your editor that you've been added as a collaborator, navigate to the [lessons folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). [Note: If you are familiar with GitHub already, you can make a pull request to the ph-submission repo and merge it yourself.] 
+3. Once you've heard from your editor that you've been added as a collaborator, navigate to the [lessons folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons) of the [ph-submissions] repo. Then, to add your lesson to the ph-submissions repo, drag and drop the markdown file of your lesson from your computer onto your browser window. (If you need help, see GitHub's further instructions [here](https://help.github.com/articles/adding-a-file-to-a-repository/)). Now click the green "Commit Changes" button; you don't need to change the default message. 
 
-3b. To add your lesson to the ph-submissions repo, drag and drop the markdown file of your lesson from your computer onto your browser window (more instructions [here](https://help.github.com/articles/adding-a-file-to-a-repository/)). Click the green "Commit Changes" button; you don't need to change the default message. 
+4. You probably have some images that go along with your lesson. Make sure all the image files are named appropriately according to the naming conventions specified above. Navigate to the [images folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images) in the [ph-submissions] repo. Click on the folder with the same name as your lesson (which your editor should have created for you; if you don't see it, please contact your editor and wait for instructions). Once you are in the correct folder, drag and drop all of your images files onto the browser window, just like in step 3. You can't drag a folder of images; but you can drag multiple files at once.
 
-4a. You probably have some images that go along with your lesson. Make sure all the image files are named appropriately according to the naming conventions specified above. Navigate to the [images folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images) in the ph-submissions repo. Click on the folder with the same name as your lesson (which your editor should have created for you; if you don't see it, please contact your editor and wait for instructions). Once you are in the correct folder, drag and drop all of your images files onto the browser window, just like in step 3b. You can't drag a folder of images; but you can drag multiple files at once.
-
-5. Preview your lesson! Wait 5 minutes (usually less) for GitHub to convert your Markdown file into HTML and make it a live webpage. Then navigate to http://programminghistorian.github.io/ph-submissions/lessons/ + YOUR-LESSON-NAME.html (but replace YOUR-LESSON-NAME with the name of your file).
+5. Preview your lesson! Wait 5 minutes (usually less) for GitHub to convert your Markdown file into HTML and make it a live webpage. Then navigate to `http://programminghistorian.github.io/ph-submissions/lessons/` + `YOUR-LESSON-NAME` (but replace YOUR-LESSON-NAME with the name of your file).
 
 6. Let your editor know that you have uploaded your lesson files to the ph-submissions repo (they should get a notification about this, but we want to make sure nothing gets overlooked).
 
+(Note: If you are familiar with command-line git and GitHub already, you may also submit your lesson and images as a pull request to the [ph-submission] repo and merge it yourself after being added as a collaborator, instead of using the drag-and-drop techniques described above. Please do not submit lessons by pull request to the main Jekyll repo, however; by handling submissions on the [ph-submissions] repo, we are better able to provide live previews of lessons in progress.)
 
 Lesson Submitted! Now What?
 ---------------------------
 
-Your editor will create an [issue](https://github.com/programminghistorian/ph-submissions/issues) for the new lesson, with a link to your lesson (that you previewed in step 5). The editor and reviewers will post their comments to this issue. 
-
+Your editor will create an [issue](https://github.com/programminghistorian/ph-submissions/issues) for the new lesson on the [ph-submissions] repo, with a link to your lesson (that you previewed in step 5). The editor and at least two reviewers invited by the editor will post their comments to this issue. 
 
 ### Send a Bio Blurb
 
 After submitting a lesson, if you haven't done so already, send your editor a short 1 or 2 sentence bio statement that will appear at the end of your lesson, following the model of other lessons.
-
 
 ### Wait for Reviewer Feedback
 
@@ -290,7 +309,7 @@ Congratulations! You've published a lesson to the *Programming Historian*!
   [elements provided by HTML5]: http://html5doctor.com/the-figure-figcaption-elements/
   [example of the preview with figures here]: https://github.com/programminghistorian/jekyll/commit/476f6d466d7dc4c36048954d2e1f309a597a4b87#diff-f61eee270fe5a122a0163ebf0e2f8725L28
   [live version here]: http://programminghistorian.org/lessons/automated-downloading-with-wget#lesson-goals
-  [extended table syntax]: https://michelf.ca/projects/php-markdown/extra/#table
+  [extended table syntax]: http://kramdown.gettalong.org/syntax.html#tables
   [pandoc]: http://johnmacfarlane.net/pandoc/
   [fenced code blocks]: https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks
   [pull request]: https://help.github.com/articles/using-pull-requests/
@@ -303,3 +322,5 @@ Congratulations! You've published a lesson to the *Programming Historian*!
   [forking]: https://help.github.com/articles/fork-a-repo/
   [independent tutorials]: https://gun.io/blog/how-to-github-fork-branch-and-pull-request/
   [Git for Philosophers]: https://github.com/rzach/git4phi
+  [GitHub Pages]: https://pages.github.com
+  [ph-submissions]: https://github.com/programminghistorian/ph-submissions
