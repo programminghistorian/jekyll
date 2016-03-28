@@ -2,6 +2,7 @@
 title: Welcome to the Programming Historian Blog!
 authors: 
 - Evan Taparata
+avatars: Evan-Taparata.png
 layout: post
 categories: posts 
 ---
