@@ -1,6 +1,7 @@
 ---
 title: Welcome to the Programming Historian Blog!
-author: Evan Taparata
+authors: 
+- Evan Taparata
 layout: post
 categories: posts 
 ---
