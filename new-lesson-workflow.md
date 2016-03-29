@@ -3,7 +3,13 @@ title: Instructions for Authors
 layout: directory
 ---
 
-This page contains instructions for authors for [proposing](#proposing-a-new-lesson), [writing](#writing-a-new-lesson), and [submitting](#submitting-a-new-lesson) a new lesson to the *Programming Historian*.
+This page contains step-by-step instructions for authors on contributing a new lesson to the *Programming Historian*.
+
+- Step 1: [Proposing a New Lesson](#proposing-a-new-lesson)
+- Step 2: [Writing and Formatting a New Lesson](#writing-a-new-lesson)
+- Step 3: [Submitting a New Lesson](#submitting-a-new-lesson)
+
+<br/><br/>
 
 Proposing a New Lesson
 ======================
@@ -18,6 +24,7 @@ There is no standard lesson at the *Programming Historian*. Topics vary widely, 
 
 We do insist that all lessons have a clearly defined goal and are written with a particular audience--with a particular technical proficiency--in mind. You can get a better sense of what we think make for a good lesson by reading our [reviewer guidlines] or looking through our [published lessons].
 
+<br/><br/>
 
 Writing a New Lesson
 ====================
@@ -239,6 +246,7 @@ loop) and file names (e.g., `obo.py`). All other emphasis is done with
 paired asterisks (`*`) (as in `*client*`, `*protocol*`, `*The Old Bailey
 Online*`).
 
+<br/><br/>
 
 Submitting a New Lesson
 =======================
