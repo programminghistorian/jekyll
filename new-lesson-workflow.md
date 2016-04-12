@@ -48,6 +48,7 @@ Name your new lesson file following these guidelines:
 
 -   Make the filename all lowercase, and short but descriptive. This filename will
     eventually become the [slug] for the lesson's URL when published. For example, the lesson titled "Getting Started with Markdown" has a slug of "getting-started-with-markdown" and a URL of <http://programminghistorian.org/lessons/getting-started-with-markdown>. Please see existing lessons for more concrete examples of the relationship between a lesson URL and the lesson title (they are usually very similar).
+-   Your slug will be referenced later in these directions as LESSON-SLUG.
 -    Think about how potential readers might search for something like your lesson. A keyword-rich slug is a good way to get search-engine traffic. 
 -   Do not put spaces or underscores in the filename; use hyphens instead.
 -   The filename extension should be `.md` (markdown).
@@ -126,22 +127,19 @@ lesson, use the following line of code in the body of your lesson:
 {% raw %}
 
 ``` text
-{% include figure.html src="../images/filename" caption="Caption to image" %}
+{% include figure.html src="../images/LESSON-SLUG/IMAGE-FILENAME" caption="Caption to image" %}
 ```
 
 {% endraw %}
 
-The only parts of that line you'll have to modify are `filename` and
-`Caption to image`. Note that you may use Markdown within caption text,
-e.g. to mark text as bold or italic.
+You'll need to modify `LESSON-SLUG`, `IMAGE-FILENAME`, and `Caption to image` according to your lesson and image. Note that you may use Markdown within caption text, for instance to mark text as bold or italic.
 
-When the Markdown is rendered by our system, this line will produce HTML
-that looks like this:
+When the Markdown is rendered by our system, this line will produce HTML that looks like this:
 
 ``` html
 <figure>
-    <a href="../images/filename">
-       <img src="../images/filename" alt="Caption to image">
+    <a href="../images/lesson-slug/image-filename">
+       <img src="../images/lesson-slug/image-filename" alt="Caption to image">
     </a>
 <figcaption>
     Caption to image
