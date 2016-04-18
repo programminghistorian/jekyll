@@ -50,19 +50,27 @@ You put a lot of effort into your research. Make sure that effort lasts by adopt
     </a>
   </li>
   <li>
-    <a href="../lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">
-      <img src="../gallery/sustainable-authorship-in-plain-text-using-pandoc-and-markdown.png">
-      <h3>Sustainable Authorship in Plain Text using Pandoc and Markdown</h3>
-      <p>Dennis Tenen and Grant Wythoff</p>
-    </a>
-  </li>
-  <li>
     <a href="../lessons/getting-started-with-markdown">
       <img src="../gallery/getting-started-with-markdown.png">
       <h3>Getting Started with Markdown</h3>
       <p>Sarah Simpkin</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">
+      <img src="../gallery/sustainable-authorship-in-plain-text-using-pandoc-and-markdown.png">
+      <h3>Sustainable Authorship in Plain Text using Pandoc and Markdown</h3>
+      <p>Dennis Tenen and Grant Wythoff</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/building-static-sites-with-jekyll-github-pages">
+      <img src="../gallery/building-static-sites-with-jekyll-github-pages.png">
+      <h3>Building Static Websites with Markdown, Jekyll, and Github Pages</h3>
+      <p>Amanda Visconti</p>
+    </a>
+  </li>
+
 </ul>
 
 
