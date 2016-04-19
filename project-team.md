@@ -16,8 +16,6 @@ Editorial Board
 
 {% include contact-info.html name="Ian Milligan" %}
 
-{% include contact-info.html name="Miriam Posner" %}
-
 {% include contact-info.html name="Evan Taparata" %}
 
 {% include contact-info.html name="Jeri Wieringa" %}
@@ -29,6 +27,8 @@ Emeritus Team Members
 {% include contact-info.html name="Jeremy Boggs" %}
 
 {% include contact-info.html name="Alan MacEachern" %}
+
+{% include contact-info.html name="Miriam Posner" %}
 
 {% include contact-info.html name="Carrie Sanders" %}
 
