@@ -573,14 +573,6 @@ Or, you can add in (and further customize, if desired) a theme already created b
 
 ### Help <a id="section9-1"></a>
 
-Run into a problem while using this lesson, or found something that should be written more clearly? You can ask questions or submit suggested additions/edits to this lesson in a variety of ways:
-
-1. [Annotating with Hypothesis Via by visiting http://via.hypothes.is/programminghistorian.github.io/ph-submissions/lessons/building-static-sites-with-jekyll-github-pages](http://via.hypothes.is/programminghistorian.github.io/ph-submissions/lessons/building-static-sites-with-jekyll-github-pages)
-2. Add comments to [the submission ticket for this lesson](https://github.com/programminghistorian/ph-submissions/issues/3) on GitHub.
-3. Email the author at [aviscont@purdue.edu](mailto:aviscont@purdue.edu)
-
-If you review the lesson and make suggestions (or report successful lesson use), we'd like to credit you by name as one of the lesson's reviewers.
-
 If you run into an issue, [Jekyll has a page on troubleshooting](https://jekyllrb.com/docs/troubleshooting/) that might help. If you're working on the command line and get an error message, don't forget to try searching for that specific error message online. Besides search engines, [the StackExchange site](http://stackexchange.com/) is a good place to find questions and answers from people who have run into the same problem as you in the past.
 
 ### Credits <a id="section9-2"></a>
