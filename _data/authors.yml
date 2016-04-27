@@ -15,7 +15,9 @@
   team: true
   bio: |
     Adam Crymble is a lecturer of digital history at the University of
-    Hertfordshire. He is interested in working with authors on: 
+    Hertfordshire.
+  interests: |
+    He is interested in working with authors on: 
     core skills, data manipulation and management. He is also interested 
     in hearing from anyone who wants to contribute to outreach, workshops,
     inclusivity, or research in digital pedgagogy.
@@ -36,7 +38,9 @@
   team: true
   bio: |
        Ian Milligan is an assistant professor of history at the University
-       of Waterloo. He is interested in working with authors on topics
+       of Waterloo.
+  interests: |
+       He is interested in working with authors on topics
        including: network analysis, text analysis and data mining, as well
        as intermediate to advanced-level lessons more generally.
 
