@@ -66,7 +66,7 @@ We think this is the right approach. As a volunteer project, we don't have the f
 
 ---
 
-## Our Response:
+## Our Response
 
 Phew, thanks! That's a lot of ideas! We'll be doing our best to chip away at the list over the coming months. We won't be able to do it all (let us know if you want to help!), but here's our plan to start.
 
