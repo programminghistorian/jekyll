@@ -102,7 +102,7 @@ We hope that focus will make a material difference to the project and to people'
 
 ##Host a Workshop
 
-* We're always looking to have people run events and workshops that promote the skills covered in our lessons. On 15 March 2016, for example, the University of Cambridge hosted a public event [about effective mentorship in the digital humanities](https://digitalhistorymentorship.wordpress.com/). If you're planning or want to plan a workshop, let us know. We're happy to discuss ideas and we might be able to help promote it.
+* We're always looking to have people run events and workshops that promote the skills covered in our lessons. On 15 March 2016, for example, we supported an event hosted by the University of Cambridge [about effective mentorship in the digital humanities](https://digitalhistorymentorship.wordpress.com/). If you're planning or want to plan a workshop, let us know. We're happy to discuss ideas and we might be able to help promote it.
 
 ##Adopt a Cause
 
