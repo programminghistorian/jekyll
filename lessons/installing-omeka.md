@@ -111,25 +111,19 @@ Your database is now set up, and you're ready to install Omeka.
 
 ## Step 3: Download and Install Omeka.
 
-The following commands will assume that we're logged in as the root user. You can usually tell if you're logged in as root if you have a `#` sign in your command-line prompt instead of a `$`. You can also type `whoami` to see the name of your current user. If the result of that command is not `root`, you can switch users (`su` for short) to the root user by typing `su root`. If it asks you for a password, enter the root password you set when you created your VPS, if any.
-
 Now let's download Omeka directly to the server. This will allow us to avoid the process of downloading it locally, unzipping it there, and uploading it to the server, and we'll save a lot of time. To do this, let's first get to the public HTML directory. This is usually `/var/www/html`, but could also be `/var/www`, or, on some shared hosts, `~/public_html`. If you’re unsure, check with your host about where it keeps its public HTML directory.
 
     cd /var/www/html
 
-Now let's download Omeka. Grab the URL from http://omeka.org/download, and use it with the command `wget` like this:
+If you get a permissions error here on a VPS, make sure you're logged in as the root user with `su root`. Now let's download Omeka. Grab the URL from http://omeka.org/download, and use it with the command `wget` like this:
 
     wget http://omeka.org/files/omeka-2.4.zip
-
-This will download Omeka to your public directory. Let's first install `unzip` in case our server doesn't already have it:
-
-    apt-get install unzip
 
 Now we can unzip the Omeka zip file like this:
 
     unzip omeka-2.4.zip
 
-This will unzip Omeka to a subdirectory on your website. Presuming you don't want your Omeka web site to have the URL `http://your-domain.com/omeka-2.4/`, let's change the name of the directory:
+(If you get can error here on a VPS, you may need to install the `unzip` command with `apt-get install unzip`.) This will unzip Omeka to a subdirectory on your website. Presuming you don't want your Omeka web site to have the URL `http://your-domain.com/omeka-2.4/`, let's change the name of the directory:
 
     mv omeka-2.4 omeka
 
@@ -137,10 +131,11 @@ This will unzip Omeka to a subdirectory on your website. Presuming you don't wan
 
 ## Step 4: Configure Omeka to Use Your Database.
 
-First, go into the directory where your Omeka install lives. On a VPS, that's probably `/var/www/html/omeka`, and on shared hosting, `~/public_html/omeka`.
+First, go into the directory where your Omeka install lives, using the command `cd`. On a VPS, that's probably `/var/www/html/omeka`, and on shared hosting, `~/public_html/omeka`.
 
     cd /var/www/html/omeka
 
+If you get a permissions error here using a VPS, make sure you're logged in as the root user first by running `su root`.
 Now let's edit the `db.ini` file. Unless you're already comfortable with a power editor like Vim, we're going to use the editor Nano:
 
     nano db.ini
