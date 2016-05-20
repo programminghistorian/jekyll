@@ -61,8 +61,7 @@ Be sure to include the caret (`^`) at the end. This should install a LAMP server
 
 Let's get the Apache module `mod_rewrite` enabled, which allows Omeka to let you use custom URL paths:
 
-    a2enmod rewrite
-    service apache2 restart
+    a2enmod rewrite && service apache2 restart
 
 Now let’s set up the database. First, log in to the MySQL database program as the root user, by entering this command:
 
@@ -155,4 +154,8 @@ The file will end up looking like this:
 
 ![Db.ini, After](../images/omeka-install-db-ini-after.png)
 
-Exit (Control+X) and when asked, save your changes by pressing `Y`. Now you should have a working Omeka install. You can access it at `http://your-domain.com/omeka/`, replacing `your-domain` with the name of your domain, and `omeka` with the name you gave your directory above. Go to `http://your-domain.com/omeka/admin` to get started configuring your install. If you run into any trouble along the way, consult the [Omeka Installation Guide](https://omeka.org/codex/Installation) or the [Omeka Troubleshooting Guide](https://omeka.org/codex/Troubleshooting_Omeka).
+Now let's change the owner of our Omeka installation, so that it's readable by the Internet:
+
+    chown -R www-data:www-data .
+
+Exit (Control+X) and when asked, save your changes by pressing `Y`. Now you should have a working Omeka install. You can access your installation script at `http://your-domain.com/omeka/install/install.php`, replacing `your-domain` with the name of your domain, and `omeka` with the name you gave your directory above. Fill out the form there to get started configuring your Omeka install. If you run into any trouble along the way, consult the [Omeka Installation Guide](https://omeka.org/codex/Installation) or the [Omeka Troubleshooting Guide](https://omeka.org/codex/Troubleshooting_Omeka).
