@@ -144,8 +144,15 @@ That will give you something that looks like this:
 
 ![Db.ini, Before](../images/omeka-install-db-ini-before.png)
 
-Now you can edit your file. The field `hostname` should be `localhost`, since the database is on the same server. For `username` and `dbname`, enter the user name password, and database name you generated in step 2. It will end up looking like this:
+Now you can edit your file, changing the `XXXXXXXX` values to the appropriate values for your system, but keeping the double quotes (`"`) intact. The field `host` should be `localhost`, since the database is on the same server. For `username` and `dbname`, enter the user name, password, and database name you generated in step 2. For my setup, these values are:
+
+ * `host = "localhost"`
+ * `username = "jonreeve_omeka"`
+ * `password = "%8)&2P^TFR2C"`
+ * `dbname = "jonreeve_omeka"`
+
+The file will end up looking like this:
 
 ![Db.ini, After](../images/omeka-install-db-ini-after.png)
 
-Exit (Control+X) and when asked, save your changes. Now you should have a working Omeka install. You can access it at `http://your-domain.com/omeka/`, replacing `your-domain` with the name of your domain, and `omeka` with the name you gave your directory above. Go to `http://your-domain.com/omeka/admin` to get started configuring your install. If you run into any trouble along the way, consult the [Omeka Installation Guide](https://omeka.org/codex/Installation) or the [Omeka Troubleshooting Guide](https://omeka.org/codex/Troubleshooting_Omeka).
+Exit (Control+X) and when asked, save your changes by pressing `Y`. Now you should have a working Omeka install. You can access it at `http://your-domain.com/omeka/`, replacing `your-domain` with the name of your domain, and `omeka` with the name you gave your directory above. Go to `http://your-domain.com/omeka/admin` to get started configuring your install. If you run into any trouble along the way, consult the [Omeka Installation Guide](https://omeka.org/codex/Installation) or the [Omeka Troubleshooting Guide](https://omeka.org/codex/Troubleshooting_Omeka).
