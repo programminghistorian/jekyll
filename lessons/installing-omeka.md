@@ -59,6 +59,11 @@ Now that our system is up-to-date, let's install the server stack:
 
 Be sure to include the caret (`^`) at the end. This should install a LAMP server, prompting you to enter a root MySQL password. Enter a secure password here, and write it down, because we'll be using it later.
 
+Let's get the Apache module `mod_rewrite` enabled, which allows Omeka to let you use custom URL paths:
+
+    a2enmod rewrite
+    service apache2 restart
+
 Now let’s set up the database. First, log in to the MySQL database program as the root user, by entering this command:
 
     mysql -u root -p
