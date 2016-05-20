@@ -76,7 +76,7 @@ I've given my user the same name as my database for convenience, and I've chosen
     GRANT ALL PRIVILEGES ON jonreeve_omeka.* TO 'jonreeve_omeka'@'localhost';
 FLUSH PRIVILEGES;
 
-Your database should now be set up for use with Omeka. Type `exit;` or press Control+C to exit MySQL and return to your command line. 
+Your database should now be set up for use with Omeka. Type `exit;` or press Control+C to exit MySQL and return to your command line.
 
 ### Step 2B: for Shared Hosting
 
@@ -104,7 +104,9 @@ Your database is now set up, and you're ready to install Omeka.
 
 ## Step 3: Download and Install Omeka.
 
-Let's download Omeka directly to the server. This will allow us to avoid the process of downloading it locally, unzipping it there, and uploading it to the server, and we'll save a lot of time. To do this, let's first get to the public HTML directory. This is usually `/var/www/html`, but could also be `/var/www`, or, on some shared hosts, `~/public_html`. If you’re unsure, check with your host about where it keeps its public HTML directory.
+The following commands will assume that we're logged in as the root user. You can usually tell if you're logged in as root if you have a `#` sign in your command-line prompt instead of a `$`. You can also type `whoami` to see the name of your current user. If the result of that command is not `root`, you can switch users (`su` for short) to the root user by typing `su root`. If it asks you for a password, enter the root password you set when you created your VPS, if any.
+
+Now let's download Omeka directly to the server. This will allow us to avoid the process of downloading it locally, unzipping it there, and uploading it to the server, and we'll save a lot of time. To do this, let's first get to the public HTML directory. This is usually `/var/www/html`, but could also be `/var/www`, or, on some shared hosts, `~/public_html`. If you’re unsure, check with your host about where it keeps its public HTML directory.
 
     cd /var/www/html
 
