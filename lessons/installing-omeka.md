@@ -114,7 +114,11 @@ Now let's download Omeka. Grab the URL from http://omeka.org/download, and use i
 
     wget http://omeka.org/files/omeka-2.4.zip
 
-This will download Omeka to your public directory. Now unzip it like this:
+This will download Omeka to your public directory. Let's first install `unzip` in case our server doesn't already have it:
+
+    apt-get install unzip
+
+Now we can unzip the Omeka zip file like this:
 
     unzip omeka-2.4.zip
 
