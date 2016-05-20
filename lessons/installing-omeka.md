@@ -63,20 +63,20 @@ Now let’s set up the database. First, log in to the MySQL database program as 
 
 The `-u` flag allows you to specify the user, and the `-p`, when not followed by a password, will prompt you for the root password. Enter the MySQL password you created when you installed the LAMP server. You should now see a `mysql>` prompt. Now let's enter a command to create the database. I'm going to call my database `jonreeve_omeka`, but you can call yours whatever you like.
 
-    CREATE DATABASE `jonreeve_omeka` CHARACTER SET utf8 COLLATE utf8_general_ci;
+    CREATE DATABASE jonreeve_omeka CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-Here, `CHARACTER SET utf8 COLLATE utf8_general_ci` ensures that you can use the full character set in your web site, and not just the Latin character set.
+Here, `CHARACTER SET utf8 COLLATE utf8_general_ci` ensures that you can use the full character set in your web site, and not just the Latin character set. If the command succeeds, MySQL should tell you `Query OK, 1 row affected (0.00 sec)`. For the following commands, you should see `Query OK, 0 rows affected (0.00 sec)` if all goes well.
 
 Next, let's create a database user account, so that Omeka can talk to the database:
 
     CREATE USER 'jonreeve_omeka'@'localhost' IDENTIFIED by '%8)&2P^TFR2C';
 
-I've given my user the same name as my database for convenience, and I've chosen `%8)&2P^TFR2C` as my secure password. Now we can allow this new user to access our newly-created database by typing these commands:
+I've given my user the same name as my database for convenience, and I've chosen `%8)&2P^TFR2C` as my secure password. Now we can allow our new user to access our newly-created database by typing these commands:
 
     GRANT ALL PRIVILEGES ON jonreeve_omeka.* TO 'jonreeve_omeka'@'localhost';
 FLUSH PRIVILEGES;
 
-Your database should now be set up for use with Omeka.
+Your database should now be set up for use with Omeka. Type `exit;` or press Control+C to exit MySQL and return to your command line. 
 
 ### Step 2B: for Shared Hosting
 
