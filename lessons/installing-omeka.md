@@ -47,13 +47,15 @@ The commands we’re about to run are a little different for VPS and shared host
 
 ### Step 2A: for VPS Hosting
 
-First, we’ll need to install a LAMP software stack. LAMP stands for Linux, Apache, MySQL, and PHP, and it's the set of software that runs Omeka. Linux is the operating system that runs the server, Apache is the web serving software, MySQL is the database, and PHP is the language in which Omeka is written. Before we start, let's update our system:  
+First, we’ll need to install a LAMP software stack. LAMP stands for Linux, Apache, MySQL, and PHP, and it's the set of software that runs Omeka. Linux is the operating system that runs the server, Apache is the web serving software, MySQL is the database, and PHP is the language in which Omeka is written.
 
-    sudo apt-get update && sudo apt-get upgrade
+Make sure you're logged in as the root user first. (The root user is a super-level user that has permission to run any command.) If you're root, typing `whoami` should return `root`; if it returns something different, switch users (`su`) to the root user with `su root`. Enter the root password you set up when you created your VPS, if asked. Now let's update our system:  
+
+    apt-get update && apt-get upgrade
 
 Now that our system is up-to-date, let's install the server stack:
 
-    sudo apt-get install lamp-server^
+    apt-get install lamp-server^
 
 Be sure to include the caret (`^`) at the end. This should install a LAMP server, prompting you to enter a root MySQL password. Enter a secure password here, and write it down, because we'll be using it later.
 
