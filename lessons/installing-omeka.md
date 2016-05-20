@@ -61,7 +61,7 @@ Now let’s set up the database. First, log in to the MySQL database program as 
 
     mysql -u root -p
 
-It should ask you for the MySQL password you created when you installed the LAMP server. If you enter that, you should now see a `mysql>` prompt. Now, let's enter a command to create the database. I'm going to call my database `jonreeve_omeka`, but you can call yours whatever you like.
+The `-u` flag allows you to specify the user, and the `-p`, when not followed by a password, will prompt you for the root password. Enter the MySQL password you created when you installed the LAMP server. You should now see a `mysql>` prompt. Now let's enter a command to create the database. I'm going to call my database `jonreeve_omeka`, but you can call yours whatever you like.
 
     CREATE DATABASE `jonreeve_omeka` CHARACTER SET utf8 COLLATE utf8_general_ci;
 
