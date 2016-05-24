@@ -67,7 +67,7 @@ There are a wide variety of tools out there to sonify data. Some for instance ar
 
 By contrast, the [Musicalgorithms](http://musicalgorithms.org/) site is quite easy to use. The Musicalgorithms site has been online for over a decade. Though it is not open source, it represents a long-term research project in computational music by its creator, Jonathan Middleton (who notes to me that his institution is committed to its long term support). It is currently in its third major iteration (earlier iterations remain usable online). We will begin with Musicalalgorithms because it allows us to quickly enter and tweak our data to produce a MIDI file representation. Make sure to select '[Version 3](http://musicalgorithms.org/3.0/index.html).'
 
-{% include figure.html src="../images/sonification-musicalgorithms-main-site-1" caption="The Musicalgorithms Website as it appeared on February 2nd, 2016" %}
+{% include figure.html src="../images/sonification-musicalgorithms-main-site-1.png" caption="The Musicalgorithms Website as it appeared on February 2nd, 2016" %}
 
 Musical algorithms also allows for the export in plain-text of the original input data and its transformations, which will allow the reader to re-use and re-sonify someone else's (open access) data whether in Musicalgorithms or indeed another tool.  (In this way, data becomes something an algorithmic musician can ‘play’ and ‘play with’). 
 
@@ -93,7 +93,7 @@ This data represents the source data and its transformations; sharing this data 
 
 The key field for us is ‘areaPitch1,’ which contains the space-delimited input data.  The other fields will become filled as we move through Musicalgorithms' various settings. In the sample data above, the values are raw counts of inscriptions from a series of sites along a Roman road in Britain. (We will practice with other data in a moment below).
 
-{% include figure.html src="../images/sonification-musicalgorithms-pitch-mapping-2" caption="After you load your data, you can select the different operations across the top menu bar of the site. In the screenshot, the information mouseover is explaining what happens to the scaling of your data if you select the division operation to scale your data to the range of notes selected." %}
+{% include figure.html src="../images/sonification-musicalgorithms-pitch-mapping-2.png" caption="After you load your data, you can select the different operations across the top menu bar of the site. In the screenshot, the information mouseover is explaining what happens to the scaling of your data if you select the division operation to scale your data to the range of notes selected." %}
 
 Now, as you page across the various tabs in the interface (‘[duration](#duration) input’, ‘[pitch mapping](#pitch mapping)’, ‘duration mapping’, ‘scale options’) you can effect various transformations. In ‘pitch mapping’, there are a number of mathematical options for mapping the data against the full 88 keys/pitches of a piano keyboard (in a linear mapping, the mean of one’s data would be mapped to middle C, or 40). One can also choose the kind of scale, whether it is a minor or major and so on. At this point, once you've selected your various transformations, you should save the text file. On the file tab, ‘play’, one can download a midi file for integration into more complicated music programs such as GarageBand (Mac) or [LMMS](https://lmms.io/) (Windows, Mac, Linux) for assigning instrumentation. 
 
