@@ -112,7 +112,7 @@ But what about time? Historical data often has a punctuation point, a distinct '
 ### Practice
 The sample dataset provided contains counts of Roman coins in its first column and counts of other Roman materials from the same locations, as contained in the Portable Antiquities Scheme database from the British Museum. A sonification of this data might reveal or highlight aspects of the economic situation along Watling street, a major route through Roman Britain. The data points are organized geographically from North West to South East; thus as the sound plays out, we are hearing movement over space. Each note represents another stop along the way. 
 
-1. Open the[sonification-roman-data.csv](../assets/sonification-roman-data.csv) in a spreadsheet. Copy the first column into a text editor. Delete the line endings so that the data is all in a single row.
+1. Open the [sonification-roman-data.csv](../assets/sonification-roman-data.csv) in a spreadsheet. Copy the first column into a text editor. Delete the line endings so that the data is all in a single row.
 2. Add the following column information like so:
 ```
 # Of Voices, Text Area Name, Text Area Data 
