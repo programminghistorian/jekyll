@@ -1,0 +1,92 @@
+This page documents the editorial workflow for adding a *new* lesson to the Programming Historian site, beginning from the draft phase to the publication phase. It is written primarily for lesson editors, but may be useful for others interested in the editorial process.
+
+## Add to Lesson Pipeline
+Once a prospective author has contacted an editor, usually via email, to suggest a lesson. The editor should accept responsibility for editing the lesson or pass the lesson to another editor. Once this process is complete, the tentative lesson title, a brief description, and the author should be added to the Lesson Pipeline wiki page. 
+
+## Name the Lesson File
+The **Editor** should suggest a name for the new lesson file that conforms to these guidelines:
+
+- Make the filename short, but descriptive; this filename will eventually become the slug for the lesson's URL when published.
+- Do not put spaces in the filename; use hyphens instead.
+- The filename extension should be `.md` so that GitHub will generate a preview of the lesson.
+
+
+## Lessons must be submitted in Markdown
+
+All new lessons should be submitted as Markdown files (ideally created as such, but at least converted to Markdown if drafted in another language (or file format like Word), as described in the [Markdown Style Guide](https://github.com/programminghistorian/jekyll/wiki/Markdown-Style-Guide) for our site.
+
+
+## Lessons must be submitted via pull requests
+
+Once the lesson file has been drafted and named, the author should fork the Programming Historian repository (or make sure an existing fork is in sync), [following these directions](http://programminghistorian.org/new-lesson-workflow#submit-your-lesson), add the new tutorial to the lessons directory in the forked repository, and issue a pull request. 
+
+
+## Verify Images
+
+All images should use consistent, serially numbered filenames that clearly relate to the lesson in which they will appear--ideally using the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, `counting-frequencies-1.png`, `counting-frequencies-2.png`, and so on.) Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
+
+All references to images should use the syntax described in our [Markdown Style Guide](https://github.com/programminghistorian/jekyll/wiki/Markdown-Style-Guide#figures).
+
+All images should be brought into the PH repository via a pull request. Images need to be placed in the [images directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/images) at the root of our repository. Similarly, data files linked from the lessons should go in the [assets directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/assets).
+
+## Verify the Metadata Block
+
+Jekyll (the underlying software that renders Github Pages) uses special [YAML front-matter blocks](http://jekyllrb.com/docs/frontmatter/) to store metadata about a page. Lessons on Programming Historian will need to include, at a minimum, a YAML block at the top of the lesson with these fields:
+
+``` yaml
+---
+title: Data Mining the Internet Archive Collection
+authors:
+- Caleb McDaniel
+date: 2014-03-03
+reviewers:
+- William J. Turkel
+layout: default
+---
+```
+
+Note that because colons are a special character in YAML, values that contain colons (for example, a title that also has a subtitle) must be handled using YAML's syntax for block literals:
+
+``` yaml
+---
+title: |
+    Getting Started with Topic Models: A MALLET Primer
+authors:
+- Ian Milligan
+- Shawn Graham
+- Scott Weingart
+date: 2014-03-03
+reviewers:
+- William J. Turkel
+layout: default
+---
+```
+
+You must use the "list" format shown above for the authors and reviewers fields, even if there is only one author or reviewer.
+
+For more information, see the [YAML homepage](http://www.yaml.org).
+
+
+## Invite Reviewers to Examine the Pull Request
+
+Send reviewers the link to the Pull Request for the lesson, and ask them to make comments directly on that pull request using the provided comment boxes. (Reviewers will need a GitHub account if they don't have one already.) Authors can make revisions on their forked repo's branch, which should automatically update the pull request. 
+
+## Create an Author Bio
+If the lesson has been written by a new author, editors should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/authors.yml). Follow the syntax for the examples already included there:
+
+```yaml
+- name: Jim Clifford
+  bio: |
+       Jim Clifford is an assistant professor in the Department of History 
+       at the University of Saskatchewan.
+```
+
+**Whitespace is important**, so be sure that the indentation matches the other examples.
+
+## Find reviewers and send the link to the lesson
+The lesson, even in progress, is now a fully accessible lesson. But it's virtually impossible to find unless one has a link to the specific lesson.
+
+While the lesson is under review, editors should choose an image to represent it in the lessons directory by following the process outlined in [[Lesson Images]].
+
+## Add the Lesson to the Directory
+Once the review process is complete and the author has made corresponding revisions, the final step is to accept the pull request and add a link to the lesson from the lessons directory, under an appropriate category. Tweeting about the new lesson is a good way to bring some attention to the newest addition to Programming Historian.
