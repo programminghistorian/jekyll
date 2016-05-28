@@ -108,6 +108,14 @@ Similarly to Images, all data files should be stored on the site (not linked ext
 
  - /assets/FILENAME-HERE/Louvre-Paintings-1.csv
 
+### E) Verify videos/gifs
+
+Videos and gifs are strongly discouraged because they create a range of problems. For example, it is difficult and time consuming to ask for changes to a video during the peer review process, and impossible for an editor to make minor updates to it in years to come as it becomes outdated. Videos also require the administration of a separate channel at YouTube. Videos also cannot be printed, and many of our readers use PDF copies or [printed copies of the *Programming Historian*](https://zenodo.org/record/49873#.V0lazGaGa7o). As such they should ONLY be used when absolutely necessary.
+
+If a tutorial contains a video it should be hosted on our YouTube channel (which is not set up yet so email the other editors when you get a video). A backup of the file should also be stored in our Github repository, following the same principles of naming and storage as in sections for images and data described above and stored in the 'assets' directory:
+
+ - /assets/FILENAME-HERE/FILENAME-HERE-3
+
 ---
 
 ## Acceptance and Publication - Editorial Checklist
