@@ -1,6 +1,6 @@
 ##The Role of the Editor
 
-Thank you for editing a lesson for the *Programming Historian*. We are extremely grateful for your efforts. This guide is meant to ensure that all authors, editors, and reviewers receive a consistent and fair experience with the *Programming Historian*. If you have any questions about anything in these guidelines, please email one of the other editors or post a question on our [Github issues](https://github.com/programminghistorian/jekyll/issues)
+Thank you for editing a lesson for the *Programming Historian*. We are extremely grateful for your efforts. This guide is meant to ensure that all authors, editors, and reviewers receive a consistent and fair experience with the *Programming Historian*. If you have any questions about anything in these guidelines, please email one of the other editors or post a question on our [Github issues](https://github.com/programminghistorian/jekyll/issues). Do the same if you think these guidelines need improvement or updating.
 
 We always encourage prospective authors to pitch their ideas before they start writing. We do not act as gatekeepers in the same way as a traditional journal. If a piece is not suitable for the *Programming Historian* our job is to tell an author before they have written a full tutorial. We hope this saves everyone time and energy. Once we have spoken to an author and encouraged their idea, our aim is always to support authors until the piece is publishable. Our goal is to help them reach that stage as efficiently as possible with clear guidance. You may find it helpful to familiarise yourself with our [instructions for authors](http://programminghistorian.org/new-lesson-workflow)
 
@@ -62,78 +62,60 @@ If you are really busy, if possible make a note on the forum to say you have see
 
 Once the two formal reviews are in (as well as any informal contributions from the community), you will have to summarise the suggestions and give the author a clear path for any revisions that you would like them to respond to. If any suggestions are counter to our aims at the *Programming Historian*, politely tell the author to forego those suggestions. Keep in mind what it is like to be an author and receive a review. You want clear guidance, but also the right to reject ideas that don't improve the piece. You also want assurance that you are not trying to hit a moving target. A good summary of reviews means an author can respond and expect publication if all significant obstacles are met.
 
+
+##Technical Processes of Review
+
+Our peer review is conducted on our [Submissions repository](https://github.com/programminghistorian/ph-submissions) on Github. Full instructions for how to upload files, including file formats and formatting guidelines can be found on our [Author Submission Instructions](http://programminghistorian.org/new-lesson-workflow) which will always contain the most up to date instructions. Please familiarise yourself with these steps or refer to them as needed. If you need help you are always welcome to [email another editor directly](http://programminghistorian.org/project-team).
+
+There are a few areas where you should intervene in the process from a technical standpoint. They include:
+
+###Naming the Lesson File
+The **Editor** should suggest a name for the new lesson file that conforms to these guidelines:
+
+- Make the filename short, but descriptive; this filename will eventually become the slug for the lesson's URL when published.
+- A good URL would fit nicely on a powerpoint slide, is easy to remember, and tells you something about the lesson. Our URLS take the following format: http://programminghistorian.org/lessons/FILENAME-HERE
+- Do not put spaces in the filename; use hyphens instead.
+- The filename extension should be `.md` so that GitHub will generate a preview of the lesson.
+
+###Initial Check of Markdown
+Authors are responsible for checking that their lesson has rendered properly in markdown. If they have followed the syntax rules, they should do. Detailed instructions of Markdown syntax are available on our [Author Guidelines](http://programminghistorian.org/new-lesson-workflow)
+
+You can quickly check that everything looks ok on a lesson submission by looking at the rendered version of the page. It will be found at:
+
+http://programminghistorian.github.io/ph-submissions/lessons/FILENAME-HERE (note - no .md at the end)
+
+###Verify Images
+
+All images should use consistent, serially numbered filenames that clearly relate to the lesson in which they will appear--ideally using the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, `counting-frequencies-1.png`, `counting-frequencies-2.png`, and so on.) Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
+
+Full instructions on adding images is available in [Author Submission Instructions](http://programminghistorian.org/new-lesson-workflow).
+
+It is possible that figure numbering will change during the peer review process. We ask that before a lesson is published that all filenames are updated to the proper figure numbers. This makes it much easier for us to update lessons if needed in the future. Thank you for helping us keep the *Programming Historian* sustainable.
+
+A lesson's images should be stored in the following location:
+
+ - /images/FILENAME-HERE/FILENAME-HERE-1.png
+ - /images/FILENAME-HERE/FILENAME-HERE-2.png
+ - /images/FILENAME-HERE/FILENAME-HERE-3.png
+ - etc
+
+###Verify Data files
+
+Similarly to Images, all data files should be stored on the site (not linked externally - for sustainability purposes). All data should be stored in the 'assets' directory, using the same rules as above, but authors should feel free to use a description for their data file that reflects what it is:
+
+ - /assets/FILENAME-HERE/Louvre-Paintings-1.csv
+
+
+
 ##NEEDS CORRECTING BELOW HERE-ac
 
 ## Add to Lesson Pipeline
 Once a prospective author has contacted an editor, usually via email, to suggest a lesson. The editor should accept responsibility for editing the lesson or pass the lesson to another editor. Once this process is complete, the tentative lesson title, a brief description, and the author should be added to the Lesson Pipeline wiki page. 
 
-## Name the Lesson File
-The **Editor** should suggest a name for the new lesson file that conforms to these guidelines:
-
-- Make the filename short, but descriptive; this filename will eventually become the slug for the lesson's URL when published.
-- Do not put spaces in the filename; use hyphens instead.
-- The filename extension should be `.md` so that GitHub will generate a preview of the lesson.
 
 
-## Lessons must be submitted in Markdown
-
-All new lessons should be submitted as Markdown files (ideally created as such, but at least converted to Markdown if drafted in another language (or file format like Word), as described in the [Markdown Style Guide](https://github.com/programminghistorian/jekyll/wiki/Markdown-Style-Guide) for our site.
 
 
-## Lessons must be submitted via pull requests
-
-Once the lesson file has been drafted and named, the author should fork the Programming Historian repository (or make sure an existing fork is in sync), [following these directions](http://programminghistorian.org/new-lesson-workflow#submit-your-lesson), add the new tutorial to the lessons directory in the forked repository, and issue a pull request. 
-
-
-## Verify Images
-
-All images should use consistent, serially numbered filenames that clearly relate to the lesson in which they will appear--ideally using the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, `counting-frequencies-1.png`, `counting-frequencies-2.png`, and so on.) Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
-
-All references to images should use the syntax described in our [Markdown Style Guide](https://github.com/programminghistorian/jekyll/wiki/Markdown-Style-Guide#figures).
-
-All images should be brought into the PH repository via a pull request. Images need to be placed in the [images directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/images) at the root of our repository. Similarly, data files linked from the lessons should go in the [assets directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/assets).
-
-## Verify the Metadata Block
-
-Jekyll (the underlying software that renders Github Pages) uses special [YAML front-matter blocks](http://jekyllrb.com/docs/frontmatter/) to store metadata about a page. Lessons on Programming Historian will need to include, at a minimum, a YAML block at the top of the lesson with these fields:
-
-``` yaml
----
-title: Data Mining the Internet Archive Collection
-authors:
-- Caleb McDaniel
-date: 2014-03-03
-reviewers:
-- William J. Turkel
-layout: default
----
-```
-
-Note that because colons are a special character in YAML, values that contain colons (for example, a title that also has a subtitle) must be handled using YAML's syntax for block literals:
-
-``` yaml
----
-title: |
-    Getting Started with Topic Models: A MALLET Primer
-authors:
-- Ian Milligan
-- Shawn Graham
-- Scott Weingart
-date: 2014-03-03
-reviewers:
-- William J. Turkel
-layout: default
----
-```
-
-You must use the "list" format shown above for the authors and reviewers fields, even if there is only one author or reviewer.
-
-For more information, see the [YAML homepage](http://www.yaml.org).
-
-
-## Invite Reviewers to Examine the Pull Request
-
-Send reviewers the link to the Pull Request for the lesson, and ask them to make comments directly on that pull request using the provided comment boxes. (Reviewers will need a GitHub account if they don't have one already.) Authors can make revisions on their forked repo's branch, which should automatically update the pull request. 
 
 ## Create an Author Bio
 If the lesson has been written by a new author, editors should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/authors.yml). Follow the syntax for the examples already included there:
@@ -147,8 +129,7 @@ If the lesson has been written by a new author, editors should add information a
 
 **Whitespace is important**, so be sure that the indentation matches the other examples.
 
-## Find reviewers and send the link to the lesson
-The lesson, even in progress, is now a fully accessible lesson. But it's virtually impossible to find unless one has a link to the specific lesson.
+
 
 While the lesson is under review, editors should choose an image to represent it in the lessons directory by following the process outlined in [[Lesson Images]].
 
