@@ -81,7 +81,7 @@ The **Editor** should suggest a name for the new lesson file that conforms to th
 - The filename extension should be `.md` so that GitHub will generate a preview of the lesson.
 
 ### Initial Check of Markdown
-Authors are responsible for checking that their lesson has rendered properly in markdown. If they have followed the syntax rules, they should do. Detailed instructions of Markdown syntax are available on our [Author Guidelines](http://programminghistorian.org/new-lesson-workflow)
+Authors are responsible for checking that their lesson has rendered properly in markdown. If they have followed the syntax rules, it should be ok. If you can see any markdown symbols on the page, something went wrong. Detailed instructions of Markdown syntax are available on our [Author Guidelines](http://programminghistorian.org/new-lesson-workflow)
 
 You can quickly check that everything looks ok on a lesson submission by looking at the rendered version of the page. It will be found at:
 
@@ -140,10 +140,10 @@ It is important that we acknowledge the work of our peer reviewers. To the YAML 
 We represent our lessons using an old image that we feel captures some element of the task described in the tutorial. You can see the full range of these on the [main Lessons directory](http://programminghistorian.org/lessons/). These images are selected by editors.
 
 Here are a few places to look for lesson images:
-* [British Library](https://www.flickr.com/photos/britishlibrary)
-* [Internet Archive Book Images](https://www.flickr.com/photos/internetarchivebookimages)
-* [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
-* [Library of Congress Maps](http://www.loc.gov/maps/collections)
+- [British Library](https://www.flickr.com/photos/britishlibrary)
+- [Internet Archive Book Images](https://www.flickr.com/photos/internetarchivebookimages)
+- [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
+- [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
 Ensure that the image matches the style of the other images (it should be a book image, not a photograph), is at least 200 pixels in both dimensions, and is not copyright restricted. Make sure the image is not offensive, and keeping with our [Commitment to Diversity](http://programminghistorian.org/posts/PH-commitment-to-diversity) try to find something that does not perpetuate stereotypes or send a subtle message about maleness and whiteness.
 
