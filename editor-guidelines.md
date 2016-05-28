@@ -3,6 +3,11 @@ title: Editor Guidelines
 layout: blank
 ---
 
+Contents:
+ - The Role of the Editor
+ - Technical Process of Review - Editorial Checklist
+ - Acceptance and Publication - Editorial Checklist
+
 ## The Role of the Editor
 
 Thank you for editing a lesson for the *Programming Historian*. We are extremely grateful for your efforts. This guide is meant to ensure that all authors, editors, and reviewers receive a consistent and fair experience with the *Programming Historian*. If you have any questions about anything in these guidelines, please email one of the other editors or post a question on our [Github issues](https://github.com/programminghistorian/jekyll/issues). Do the same if you think these guidelines need improvement or updating.
