@@ -2,7 +2,7 @@
 
 Thank you for editing a lesson for the *Programming Historian*. We are extremely grateful for your efforts. This guide is meant to ensure that all authors, editors, and reviewers receive a consistent and fair experience with the *Programming Historian*. If you have any questions about anything in these guidelines, please email one of the other editors or post a question on our [Github issues](https://github.com/programminghistorian/jekyll/issues)
 
-We always encourage prospective authors to pitch their ideas before they start writing. We do not act as gatekeepers in the same way as a traditional journal. If a piece is not suitable for the *Programming Historian* our job is to tell an author before they have written a full tutorial. We hope this saves everyone time and energy.Once we have spoken to an author and encouraged their idea, our aim is always to support authors until the piece is publishable. Our goal is to help them reach that stage as efficiently as possible. You may find it helpful to familiarise yourself with our [instructions for authors](http://programminghistorian.org/new-lesson-workflow)
+We always encourage prospective authors to pitch their ideas before they start writing. We do not act as gatekeepers in the same way as a traditional journal. If a piece is not suitable for the *Programming Historian* our job is to tell an author before they have written a full tutorial. We hope this saves everyone time and energy. Once we have spoken to an author and encouraged their idea, our aim is always to support authors until the piece is publishable. Our goal is to help them reach that stage as efficiently as possible with clear guidance. You may find it helpful to familiarise yourself with our [instructions for authors](http://programminghistorian.org/new-lesson-workflow)
 
 ##Safe Spaces
 
@@ -18,13 +18,43 @@ The *Programming Historian* is committed to providing a safe space for the excha
 
 ##Open Peer Review
 
-The *Programming Historian* uses a model of open peer review, hile we believe this helps maintain civility and the productive sharing of ideas, authors have the right (and we have a requirement to respect that right) to request a closed peer review. There are many reasons why someone might be hesitant to engage in an open review and we encourage authors to always pursue the option with which they are most comfortable.
+The *Programming Historian* uses a model of open peer review, while we believe this helps maintain civility and the productive sharing of ideas, authors have the right (and we have a requirement to respect that right) to request a closed peer review. There are many reasons why someone might be hesitant to engage in an open review and we encourage authors to always pursue the option with which they are most comfortable.
 
 Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). Often editors need help clarifying the intended audience of a lesson, or identifying jargon that needs further explanation. This initial review helps let the external reviewers focus on improving the piece. This is normally done openly on our submission system (see below), but it can be a closed review at the request of either party.
 
-Once an author has revised the tutorial to the satisfaction of the editor, it is the editor's job to invite two formal external peer reviews. It is entirely up to the editor who these reviewers are, however in the interest of our [commitment to diversity](https://github.com/programminghistorian/jekyll/issues), we encourage editors to ask themselves if they have made a sufficient effort to draw from reviewers who are distinct from themselves either through gender, nationality, race, age, or academic background. Please try not to find two people who are very like you.
+Once an author has revised the tutorial to the satisfaction of the editor, it is the editor's job to invite two formal external peer reviews. It is entirely up to the editor who these reviewers are, however in the interest of our [commitment to diversity](https://github.com/programminghistorian/jekyll/issues), we encourage editors to ask themselves if they have made a sufficient effort to draw from reviewers who are distinct from themselves either by gender, nationality, race, age, or academic background. Please try not to find two people who are very like you.
 
-When inviting reviewers, please provide them with our [reviewer guidelines](http://programminghistorian.org/reviewer-guidelines) and give them a deadline for completing their review (usually one month) so that we can ensure the timely publication of the tutorial.
+When inviting reviewers, provide them with our [reviewer guidelines](http://programminghistorian.org/reviewer-guidelines) and give them a deadline for completing their review (usually one month) so that we can ensure the timely publication of the tutorial.
+
+When a lesson has been submitted, the editor will open a new 'issue' on our [Github submissions repository](https://github.com/programminghistorian/ph-submissions/issues) where the open review will take place. This messsage board allows everyone to keep track of the conversation. You will need to sign up for a free Github account if you do not already have one, as will both the author and reviewers.
+
+###The Initial Comment
+
+Your first comment on the message board for a given tutorial review should use our template which outlines the role of the editor and what will take place during the review, as well as everyone's options in the unlikely event that something goes wrong. Please adapt the following template as needed:
+
+    The Programming Historian has received the following tutorial on 'Editing Audio with Audacity' by @bmw9t. This lesson is now under review and can be read at:
+    
+    http://programminghistorian.github.io/ph-submissions/lessons/editing-audio-with-audacity
+    
+    I will act as editor for the review process. My role is to solicit two reviews from the community and to manage the discussions, which should be held here on this forum. I have already read through the lesson and provided feedback, to which the author has responded.
+    
+    Members of the wider community are also invited to offer constructive feedback which should post to this message thread, but they are asked to first read our Reviewer Guidelines (http://programminghistorian.org/reviewer-guidelines) and to adhere to our anti-harassment policy (below). We ask that all reviews stop after the second formal review has been submitted so that the author can focus on any revisions. I will make an announcement on this thread when that has occurred.
+    
+    I will endeavor to keep the conversation open here on Github. If anyone feels the need to discuss anything privately, you are welcome to email me. You can always turn to @ianmilligan1 or @miriamposner if you feel there's a need for an ombudsperson to step in.
+    
+    Anti-Harassment Policy
+    _
+    
+    This is a statement of the Programming Historian's principles and sets expectations for the tone and style of all correspondence between reviewers, authors, editors, and contributors to our public forums.
+    
+    The Programming Historian is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutinize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudspersons (Ian Milligan or Miriam Posner - http://programminghistorian.org/project-team). Thank you for helping us to create a safe space.
+
+---
+
+
+##Logistics
+
+
 
 ##NEEDS CORRECTING BELOW HERE-ac
 
