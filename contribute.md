@@ -45,6 +45,7 @@ We hope you'll consider joining our team of reviewers. The time commitment is fl
 ## Do Editorial Work
 
 Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [guidelines for editors](http://programminghistorian.org/editor-guidelines) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
+
 ---
 
 No matter how you'd like to be involved, you can always email <a href="mailto:i2millig@uwaterloo.ca">Ian Milligan</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
