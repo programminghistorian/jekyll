@@ -140,6 +140,7 @@ It is important that we acknowledge the work of our peer reviewers. To the YAML 
 We represent our lessons using an old image that we feel captures some element of the task described in the tutorial. You can see the full range of these on the [main Lessons directory](http://programminghistorian.org/lessons/). These images are selected by editors.
 
 Here are a few places to look for lesson images:
+
  - The [British Library](https://www.flickr.com/photos/britishlibrary)
  - The [Internet Archive Book Images](https://www.flickr.com/photos/internetarchivebookimages)
  - The [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
