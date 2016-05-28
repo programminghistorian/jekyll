@@ -105,19 +105,18 @@ Similarly to Images, all data files should be stored on the site (not linked ext
 
  - /assets/FILENAME-HERE/Louvre-Paintings-1.csv
 
+---
 
+##Acceptance and Publication
 
-##NEEDS CORRECTING BELOW HERE-ac
+Once you and the author are happy with a tutorial, the next step is to move the lesson from the Submissions site to our main repository that hosts the live website.
 
-## Add to Lesson Pipeline
-Once a prospective author has contacted an editor, usually via email, to suggest a lesson. The editor should accept responsibility for editing the lesson or pass the lesson to another editor. Once this process is complete, the tentative lesson title, a brief description, and the author should be added to the Lesson Pipeline wiki page. 
+###Moving the Files
 
+*CAN SOMEONE ELSE WRITE THIS SECTION? I DON'T ACTUALLY KNOW -AC*
 
+##Create an Author Bio
 
-
-
-
-## Create an Author Bio
 If the lesson has been written by a new author, editors should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/authors.yml). Follow the syntax for the examples already included there:
 
 ```yaml
@@ -129,9 +128,26 @@ If the lesson has been written by a new author, editors should add information a
 
 **Whitespace is important**, so be sure that the indentation matches the other examples.
 
+##Add reviewers to the YAML file
 
+It is important that we acknowledge the work of our peer reviewers. To the YAML file at the top of the tutorial, add the names of the reviewers who helped work on the piece (including your own), as well as the names of any members of the community who contributed substantial open reviews. YAML formatting instructions can be found on [Author Guidelines](http://programminghistorian.org/new-lesson-workflow).
 
-While the lesson is under review, editors should choose an image to represent it in the lessons directory by following the process outlined in [[Lesson Images]].
+##Find an Image to represent the lesson
 
-## Add the Lesson to the Directory
-Once the review process is complete and the author has made corresponding revisions, the final step is to accept the pull request and add a link to the lesson from the lessons directory, under an appropriate category. Tweeting about the new lesson is a good way to bring some attention to the newest addition to Programming Historian.
+We represent our lessons using an old image that we feel captures some element of the task described in the tutorial. You can see the full range of these on the [main Lessons directory](http://programminghistorian.org/lessons/). These images are selected by editors.
+
+Here are a few places to look for lesson images:
+* [British Library](https://www.flickr.com/photos/britishlibrary)
+* [Internet Archive Book Images](https://www.flickr.com/photos/internetarchivebookimages)
+* [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
+* [Library of Congress Maps](http://www.loc.gov/maps/collections)
+
+Ensure that the image matches the style of the other images (it should be a book image, not a photograph), is at least 200 pixels in both dimensions, and is not copyright restricted. Make sure the image is not offensive, and keeping with our [Commitment to Diversity](http://programminghistorian.org/posts/PH-commitment-to-diversity) try to find something that does not perpetuate stereotypes or send a subtle message about maleness and whiteness.
+
+Save the original image. The filename should be the same as the corresponding lesson’s URL slug with `-original` at the end, and the filetype should be `.png`. For example, the lesson “Cleaning Data with OpenRefine” has the URL slug `cleaning-data-with-openrefine`, so its original lesson image filename should be `cleaning-data-with-openrefine-original.png`.
+
+Then, create a new copy of the image. Crop it to a square without removing any important features. Change the dimensions to 200x200 pixels. Convert the image to grayscale. Perform any adjustments necessary to make it conform to the other lesson images, such as lightening or darkening it, or altering the contrast. Save this new image as the lesson’s URL slug. In our previous example, the filename would be `cleaning-data-with-openrefine.png`.
+
+Upload the original image to the [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) folder, and upload the edited image to the [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery) folder.
+
+Add the image to the lessons page by editing the HTML in [lessons/index.md](https://github.com/programminghistorian/jekyll/blob/gh-pages/lessons/index.md) so that the image source matches the new image’s file location. In our previous example, the HTML line would be: `<img src="../gallery/cleaning-data-with-openrefine.png">`. The new image should appear on the [Lessons page]( http://programminghistorian.org/lessons)!
