@@ -44,6 +44,10 @@ We hope you'll consider joining our team of reviewers. The time commitment is fl
 
 ## Do Editorial Work
 
+<figure>
+	<img src="../gallery/editor-guidelines.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
+</figure>
+
 Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [guidelines for editors](http://programminghistorian.org/editor-guidelines) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
 
 
