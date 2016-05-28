@@ -5,10 +5,6 @@ layout: directory
 
 This page contains step-by-step instructions for editors facilitating peer review for the *Programming Historian*.
 
-- Step 1: [Proposing a New Lesson](#proposing-a-new-lesson)
-- Step 2: [Writing and Formatting a New Lesson](#writing-a-new-lesson)
-- Step 3: [Submitting a New Lesson](#submitting-a-new-lesson)
-
  - The Role of the Editor
     - Safe Spaces
     - Anti-Harassment Policy
