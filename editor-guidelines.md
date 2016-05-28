@@ -1,12 +1,33 @@
 ---
 title: Editor Guidelines
-layout: blank
+layout: directory
 ---
 
-Contents:
+This page contains step-by-step instructions for editors facilitating peer review for the *Programming Historian*.
+
+- Step 1: [Proposing a New Lesson](#proposing-a-new-lesson)
+- Step 2: [Writing and Formatting a New Lesson](#writing-a-new-lesson)
+- Step 3: [Submitting a New Lesson](#submitting-a-new-lesson)
+
  - The Role of the Editor
+    - Safe Spaces
+    - Anti-Harassment Policy
+    - Open Peer Review
+    - The Initial Comment
+    - Maintaining Order
+    - Summarising the Review
  - Technical Process of Review - Editorial Checklist
+     - Naming the Lesson File
+     - Initial Check of Markdown
+     - Verify Images
+     - Verify Data Files
+     - Verify Videos
  - Acceptance and Publication - Editorial Checklist
+     - Moving the Files
+     - Creating an Author Bio
+     - Add Reviewers to the YAML File
+     - Find an Image to Represent the Lesson
+     - Thank Everyone and Encourage Promotion
 
 ## The Role of the Editor
 
