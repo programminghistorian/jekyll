@@ -40,21 +40,27 @@ Your first comment on the message board for a given tutorial review should use o
     
     Members of the wider community are also invited to offer constructive feedback which should post to this message thread, but they are asked to first read our Reviewer Guidelines (http://programminghistorian.org/reviewer-guidelines) and to adhere to our anti-harassment policy (below). We ask that all reviews stop after the second formal review has been submitted so that the author can focus on any revisions. I will make an announcement on this thread when that has occurred.
     
-    I will endeavor to keep the conversation open here on Github. If anyone feels the need to discuss anything privately, you are welcome to email me. You can always turn to @ianmilligan1 or @miriamposner if you feel there's a need for an ombudsperson to step in.
+    I will endeavor to keep the conversation open here on Github. If anyone feels the need to discuss anything privately, you are welcome to email me. You can always turn to @ianmilligan1 if you feel there's a need for an ombudsperson to step in.
     
     Anti-Harassment Policy
     _
     
     This is a statement of the Programming Historian's principles and sets expectations for the tone and style of all correspondence between reviewers, authors, editors, and contributors to our public forums.
     
-    The Programming Historian is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutinize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudspersons (Ian Milligan or Miriam Posner - http://programminghistorian.org/project-team). Thank you for helping us to create a safe space.
+    The Programming Historian is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutinize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudsperson (Ian Milligan - http://programminghistorian.org/project-team). Thank you for helping us to create a safe space.
 
 ---
+##Maintaining Order
 
+Everyone will be looking to you as the editor for guidance on the system. For most authors and editors this will be their first experience with our peer review process. The immediate feedback offered by the message board means that authors may see the reviewer comments before you do. That means you will have to clearly signpost how everything will work and when everyone should participate or wait for further instruction.
 
-##Logistics
+If possible it is always best to acknowledge review milestones as soon as possible. For example, after the first review has come in, post a response to thank the reviewer and let the author know that another review is on its way. Suggest that they wait for the second review before responding. This lets everyone know what to expect.
 
+If you are really busy, if possible make a note on the forum to say you have seen the new activity, but will need some time to respond properly. Managing expectations can be key to keeping everyone happy.
 
+##Summarising the Review
+
+Once the two formal reviews are in (as well as any informal contributions from the community), you will have to summarise the suggestions and give the author a clear path for any revisions that you would like them to respond to. If any suggestions are counter to our aims at the *Programming Historian*, politely tell the author to forego those suggestions. Keep in mind what it is like to be an author and receive a review. You want clear guidance, but also the right to reject ideas that don't improve the piece. You also want assurance that you are not trying to hit a moving target. A good summary of reviews means an author can respond and expect publication if all significant obstacles are met.
 
 ##NEEDS CORRECTING BELOW HERE-ac
 
