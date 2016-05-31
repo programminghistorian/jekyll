@@ -53,6 +53,8 @@ Please direct correspondence in the first instance to <a href="mailto:i2millig@u
 
 ## Suggested Citation
 
-If you wish to cite _The Programming Historian_, may we suggest the following:
+If you wish to cite _The Programming Historian_ project, may we suggest the following:
 
 Crymble, Adam, Fred Gibbs, Allison Hegel, Caleb McDaniel, Ian Milligan, Evan Taparata, and Jeri Wieringa, eds. _The Programming Historian_. 2nd ed., 2016. [http://programminghistorian.org/](http://programminghistorian.org/).
+
+Individual lesson citation formats are shown at the bottom of each tutorial.
