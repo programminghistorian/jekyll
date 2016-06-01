@@ -54,9 +54,7 @@ Operating System. Follow the instructions below.
     the link ([KyngChaos Qgis download page][]) and download the
     following two files (see screen shot below): 1) GDAL complete 1.10
     framework package (under Requirements) and 2) QGIS 2.0.1 (under
-    Download) for your respective Mac OS (this works with Lion, Mountain
-    Lion, and Snow Leopard – no word yet on using it with the
-    forthcoming Mavericks). Install these like any other Mac programs.
+    Download) for your respective Mac OS (this works with versions from Lion onwards). Install these like any other Mac programs.
 
 {% include figure.html src="../images/qgis1.png" caption="Figure 1: Click to view full-size image" %}
 

@@ -248,9 +248,9 @@ consistently, according to a specified style.
 Markdown conventions come in several "flavors" designed for use in
 particular contexts, such as blogs, wikis, or code repositories. The
 flavor of Markdown used by Pandoc is geared for academic use. Its
-conventions are described one the [Pandoc's
+conventions are described on the [Pandoc's
 Markdown](http://pandoc.org/README.html#pandocs-markdown)
-page. One of its conventions include the ["YAML"
+page. Its conventions include the ["YAML"
 block](http://johnmacfarlane.net/pandoc/README.html#yaml-metadata-block),
 which contains some useful metadata.
 

@@ -12,7 +12,6 @@ reviewers:
 layout: default
 next: qgis-layers
 difficulty: 1
-deprecated: true
 ---
 
 ## Google Maps

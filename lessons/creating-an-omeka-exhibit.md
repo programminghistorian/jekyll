@@ -7,6 +7,7 @@ date: 2016-02-24
 reviewers:
 layout: default
 ---
+
 Now that you've [added items to your Omeka site](link) and grouped them into collections, you're ready for the next step: taking your users on a guided tour through the items you've collected.
 
 Before you begin: Map your exhibit
@@ -17,7 +18,7 @@ It pays to do some thinking before you launch into creating an exhibit. You'll b
 Add an exhibit
 --------------
 
-{% include figure.html src=“../images/createoexhibit2.png” caption=“Create an exhibit page” %}
+{% include figure.html src="../images/createoexhibit2.png" caption="Create an exhibit page" %}
 
 A collection is just a list of objects. An exhibit is a guided tour through your items, complete with descriptive text and customized layouts. To create one, click on the **Exhibits** tab and then **Add an exhibit**. Fill out the form on the top half of the page. A **slug** is a machine-readable name for your exhibit and will become part of your URL.
 
@@ -29,17 +30,17 @@ Click on the green **Add Page** button. On the following page, you'll enter some
 
 Add a content block to your page
 ----------------------
-{% include figure.html src=“../images/createoexhibit2.png” caption=“Add a page fields” %}
+{% include figure.html src="../images/createoexhibit2.png" caption="Add a page fields" %}
 
-On the page that follows, you’ll seen an option for **Page Title** and **Slug**. Fill those in. 
+On the page that follows, you'll seen an option for **Page Title** and **Slug**. Fill those in. 
 
- You’ll see the option for **New Block**. Pages are made up of blocks, which can be files and test, just files, or just text.
+ You'll see the option for **New Block**. Pages are made up of blocks, which can be files and test, just files, or just text.
 
 Click the **File with Text** option and then the green **Add new content block**
 
 Add content to your content block
 -----
-{% include figure.html src=“../images/createoexhibit3.png” caption=“Add a item and file to your content block” %}
+{% include figure.html src="../images/createoexhibit3.png" caption="Add a item and file to your content block" %}
 
 In **Block 1 (File with Text)** click the **Add Item** button. 
 
@@ -51,6 +52,6 @@ When you're done, click the **View Public Page** button to see how your Omeka si
 
 You have an Omeka site!
 -----------------------
-{% include figure.html src=“../images/createoexhibit4.png” caption=“Bertie the dog is an exhibit item” %}
+{% include figure.html src="../images/createoexhibit4.png" caption="Bertie the dog is an exhibit item" %}
 
 Now your site has items, collections, and an exhibit — all the basic units of an Omeka site!
