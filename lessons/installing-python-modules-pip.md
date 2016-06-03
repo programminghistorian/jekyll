@@ -57,7 +57,7 @@ line by using the [curl command][], which downloads the pip installation
 perl script.
 
 ``` bash
-curl https://bootstrap.pypa.io/get-pip.py
+curl -O https://bootstrap.pypa.io/get-pip.py
 ```
 
 once you’ve downloaded the get-pip.py file, you need to execute it with
