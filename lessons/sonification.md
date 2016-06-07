@@ -38,7 +38,7 @@ You will see that 'sonification' moves us along the spectrum from mere 'visualiz
 
 + [Roman artefact data](../assets/sonification-roman-data.csv)
 + [Excerpt from the Topic model of John Adams' Diary](../assets/sonification-diary.csv)
-+ [Excerpt from the Topic model of the Jesuit Relations](../assets/sonification-sonification-jesuittopics.csv)
++ [Excerpt from the Topic model of the Jesuit Relations](../assets/sonification-jesuittopics.csv)
 
 # Some Background on Sonification
 
@@ -106,7 +106,7 @@ _There is no 'right' way to represent your data as sound_, at least not yet: but
 But what about time? Historical data often has a punctuation point, a distinct 'time when' something occured. Thus, the amount of time between two data points has to be taken into account. This is where our next tool becomes quite useful, for when our data points have a relationship to one another in temporal space. We begin to move from sonfication (data points) to music (relationships between points).
 
 ### Practice
-The [sample dataset]((../assets/sonification-roman-data.csv) provided contains counts of Roman coins in its first column and counts of other Roman materials from the same locations, as contained in the Portable Antiquities Scheme database from the British Museum. A sonification of this data might reveal or highlight aspects of the economic situation along Watling street, a major route through Roman Britain. The data points are organized geographically from North West to South East; thus as the sound plays out, we are hearing movement over space. Each note represents another stop along the way. 
+The [sample dataset](../assets/sonification-roman-data.csv) provided contains counts of Roman coins in its first column and counts of other Roman materials from the same locations, as contained in the Portable Antiquities Scheme database from the British Museum. A sonification of this data might reveal or highlight aspects of the economic situation along Watling street, a major route through Roman Britain. The data points are organized geographically from North West to South East; thus as the sound plays out, we are hearing movement over space. Each note represents another stop along the way. 
 
 1. Open the[sonification-roman-data.csv](../assets/sonification-roman-data.csv) in a spreadsheet. Copy the first column into a text editor. Delete the line endings so that the data is all in a single row.
 2. Add the following column information like so:
