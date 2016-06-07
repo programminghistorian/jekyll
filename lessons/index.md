@@ -166,6 +166,13 @@ Computational tools allow you to make sense of a lot of documents at once. The N
       <p>Shawn Graham, Scott Weingart, & Ian Milligan</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/sonification">
+      <img src="../gallery/sonification.png">
+      <h3>The Sound of Data (a gentle introduction to sonification for historians)</h3>
+      <p>Shawn Graham</p>
+    </a>
+  </li>
 </ul>
 
 
