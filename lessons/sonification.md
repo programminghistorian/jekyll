@@ -2,7 +2,7 @@
 title: The Sound of Data (a gentle introduction to sonification for historians)
 authors:
 - Shawn Graham
-date: 2016-01-26
+date: 2016-06-07
 reviewers:
 - Ian Milligan; Jeff Veitch; Tim Compeau
 layout: default
