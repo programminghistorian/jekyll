@@ -8,6 +8,7 @@ reviewers:
 - Paige Morgan
 - Jamie Howe
 layout: default
+difficulty: 1
 ---
 
 **This lesson is for you if** you'd like an entirely free, easy-to-maintain, preservation-friendly, secure website over which you have full control, such as a scholarly blog, project website, or online portfolio. 
