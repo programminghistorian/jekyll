@@ -109,6 +109,10 @@ You can quickly check that everything looks ok on a lesson submission by looking
 
 http://programminghistorian.github.io/ph-submissions/lessons/FILENAME-HERE (note - no .md at the end)
 
+If that doesn't work, check to see if there's a problem that's keeping the site from building by going to the "settings" tab on the repo page, and looking under GitHub Pages. If there's a problem, then instead of saying the site is published in green, it will contain a notice that the site is having trouble building. If that happens, let Caleb McDaniel know, and he will try to diagnose it.
+
+https://github.com/programminghistorian/ph-submissions/settings
+
 ### C) Verify Images
 
 All images should use consistent, serially numbered filenames that clearly relate to the lesson in which they will appear--ideally using the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, `counting-frequencies-1.png`, `counting-frequencies-2.png`, and so on.) Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
