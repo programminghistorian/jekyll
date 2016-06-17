@@ -64,6 +64,14 @@ You put a lot of effort into your research. Make sure that effort lasts by adopt
     </a>
   </li>
     <li>
+    <a href="../lessons/getting-started-with-github-desktop">
+      <img src="../gallery/getting-started-with-github-desktop.png">
+      <h3>Introduction to Version Control Using GitHub Desktop</h3>
+      <p>Daniel van Strien</p>
+    </a>
+  </li>
+  </li>
+    <li>
     <a href="../lessons/building-static-sites-with-jekyll-github-pages">
       <img src="../gallery/building-static-sites-with-jekyll-github-pages.png">
       <h3>Building Static Websites with Markdown, Jekyll, and Github Pages</h3>
