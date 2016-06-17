@@ -2,7 +2,7 @@
 title: An Introduction to Version Control Using GitHub Desktop
 authors: 
 - Daniel van Strien
-date: 2016-02-13
+date: 2016-06-17
 reviewers:
 - Ethan Miller
 - Lisa Spiro
