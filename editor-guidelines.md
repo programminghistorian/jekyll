@@ -5,25 +5,8 @@ layout: directory
 
 This page contains step-by-step instructions for editors facilitating peer review for the *Programming Historian*.
 
- - The Role of the Editor
-    - Safe Spaces
-    - Anti-Harassment Policy
-    - Open Peer Review
-    - The Initial Comment
-    - Maintaining Order
-    - Summarising the Review
- - Technical Process of Review - Editorial Checklist
-     - Naming the Lesson File
-     - Initial Check of Markdown
-     - Verify Images
-     - Verify Data Files
-     - Verify Videos
- - Acceptance and Publication - Editorial Checklist
-     - Moving the Files
-     - Creating an Author Bio
-     - Add Reviewers to the YAML File
-     - Find an Image to Represent the Lesson
-     - Thank Everyone and Encourage Promotion
+* TOC
+{:toc}
 
 ## The Role of the Editor
 
@@ -49,7 +32,7 @@ Before soliciting external reviews, the editor should read and try the tutorial 
 
 Once an author has revised the tutorial to the satisfaction of the editor, it is the editor's job to invite two formal external peer reviews. It is entirely up to the editor who these reviewers are, however in the interest of our [commitment to diversity](https://github.com/programminghistorian/jekyll/issues), we encourage editors to ask themselves if they have made a sufficient effort to draw from reviewers who are distinct from themselves either by gender, nationality, race, age, or academic background. Please try not to find two people who are very like you.
 
-When inviting reviewers, provide them with our [reviewer guidelines](http://programminghistorian.org/reviewer-guidelines) and give them a deadline for completing their review (usually one month) so that we can ensure the timely publication of the tutorial.
+When inviting reviewers, the editor should provide them with our [reviewer guidelines](http://programminghistorian.org/reviewer-guidelines) and give them a deadline for completing their review (usually one month) so that we can ensure the timely publication of the tutorial.
 
 When a lesson has been submitted, the editor will open a new 'issue' on our [Github submissions repository](https://github.com/programminghistorian/ph-submissions/issues) where the open review will take place. This messsage board allows everyone to keep track of the conversation. You will need to sign up for a free Github account if you do not already have one, as will both the author and reviewers.
 
@@ -75,9 +58,9 @@ Your first comment on the message board for a given tutorial review should use o
     The Programming Historian is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutinize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudsperson (Ian Milligan - http://programminghistorian.org/project-team). Thank you for helping us to create a safe space.
 
 
-### Maintaining Order
+### Guiding the Conversation
 
-Everyone will be looking to you as the editor for guidance on the system. For most authors and editors this will be their first experience with our peer review process. The immediate feedback offered by the message board means that authors may see the reviewer comments before you do. That means you will have to clearly signpost how everything will work and when everyone should participate or wait for further instruction.
+Everyone will be looking to you as the editor for guidance on the system. For most authors and reviewers this will be their first experience with our peer review process. The immediate feedback offered by the message board means that authors may see the reviewer comments before you do. That means you will have to clearly signpost how everything will work and when everyone should participate or wait for further instruction.
 
 If possible it is always best to acknowledge review milestones as soon as possible. For example, after the first review has come in, post a response to thank the reviewer and let the author know that another review is on its way. Suggest that they wait for the second review before responding. This lets everyone know what to expect.
 
@@ -102,6 +85,8 @@ The **Editor** should suggest a name for the new lesson file that conforms to th
 - Do not put spaces in the filename; use hyphens instead.
 - The filename extension should be `.md` so that GitHub will generate a preview of the lesson.
 
+Once you have chosen a name for the lesson file, use the same name to create a new folder in `images` which will contain all of the images for the lesson. If the lesson uses data files, do the same in the `assets` folder.
+
 ### B) Initial Check of Markdown
 Authors are responsible for checking that their lesson has rendered properly in markdown. If they have followed the syntax rules, it should be ok. If you can see any markdown symbols on the page, something went wrong. Detailed instructions of Markdown syntax are available on our [Author Guidelines](http://programminghistorian.org/new-lesson-workflow)
 
@@ -123,16 +108,16 @@ It is possible that figure numbering will change during the peer review process.
 
 A lesson's images should be stored in the following location:
 
- - /images/FILENAME-HERE/FILENAME-HERE-1.png
- - /images/FILENAME-HERE/FILENAME-HERE-2.png
- - /images/FILENAME-HERE/FILENAME-HERE-3.png
+ - /images/LESSON-SLUG/FILENAME-HERE-1.png
+ - /images/LESSON-SLUG/FILENAME-HERE-2.png
+ - /images/LESSON-SLUG/FILENAME-HERE-3.png
  - etc
 
 ### D) Verify Data files
 
 Similarly to Images, all data files should be stored on the site (not linked externally - for sustainability purposes). All data should be stored in the 'assets' directory, using the same rules as above, but authors should feel free to use a description for their data file that reflects what it is:
 
- - /assets/FILENAME-HERE/Louvre-Paintings-1.csv
+ - /assets/LESSON-SLUG/Louvre-Paintings-1.csv
 
 ### E) Verify videos/gifs
 
@@ -140,7 +125,7 @@ Videos and gifs are strongly discouraged because they create a range of problems
 
 If a tutorial contains a video it should be hosted on our YouTube channel (which is not set up yet so email the other editors when you get a video). A backup of the file should also be stored in our Github repository, following the same principles of naming and storage as in sections for images and data described above and stored in the 'assets' directory:
 
- - /assets/FILENAME-HERE/FILENAME-HERE-3
+ - /assets/LESSON-SLUG/FILENAME-HERE-3
 
 ---
 
