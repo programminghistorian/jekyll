@@ -70,7 +70,6 @@ You put a lot of effort into your research. Make sure that effort lasts by adopt
       <p>Daniel van Strien</p>
     </a>
   </li>
-  </li>
     <li>
     <a href="../lessons/building-static-sites-with-jekyll-github-pages">
       <img src="../gallery/building-static-sites-with-jekyll-github-pages.png">
