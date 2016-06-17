@@ -154,7 +154,15 @@ If the lesson has been written by a new author, editors should add information a
 
 It is important that we acknowledge the work of our peer reviewers. To the YAML file at the top of the tutorial, add the names of the reviewers who helped work on the piece (including your own), as well as the names of any members of the community who contributed substantial open reviews. YAML formatting instructions can be found on [Author Guidelines](http://programminghistorian.org/new-lesson-workflow).
 
-### 4) Find an Image to represent the lesson
+### 4) Add difficulty indicator to the YAML file
+
+To help readers evaluate which lessons best fit their goals and skill level, we provide "Recommended for ___ Users" information in the lesson YAML file. There are currently three tiers - Beginning, Intermediate, Advanced - which can be set with the following code: 1, 2, 3. To add the difficulty level to the lesson, include the following in the YAML file:
+
+```yaml
+difficulty: 1
+```
+
+### 5) Find an Image to represent the lesson
 
 We represent our lessons using an old image that we feel captures some element of the task described in the tutorial. You can see the full range of these on the [main Lessons directory](http://programminghistorian.org/lessons/). These images are selected by editors.
 
@@ -176,7 +184,7 @@ Upload the original image to the [gallery/originals](https://github.com/programm
 Add the image to the lessons page by editing the HTML in [lessons/index.md](https://github.com/programminghistorian/jekyll/blob/gh-pages/lessons/index.md) so that the image source matches the new image’s file location. In our previous example, the HTML line would be: `<img src="../gallery/cleaning-data-with-openrefine.png">`. The new image should appear on the [Lessons page]( http://programminghistorian.org/lessons)!
 
 
-### 5) Thank Everyone and Encourage Promotion
+### 6) Thank Everyone and Encourage Promotion
 
 It's important to send an email or message to everyone involved thanking them for their efforts. In particular, thank the author for contributing and encourage them to think of us again in future. It's also worth giving the author some ideas on promoting their lesson. The most-used lessons always have authors' energies behind them. For example authors should be encouraged to:
 
