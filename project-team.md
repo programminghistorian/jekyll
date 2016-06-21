@@ -18,7 +18,7 @@ Editorial Board
 
 {% include contact-info.html name="Evan Taparata" %}
 
-{% include contact-info.html name="Jeri Wieringa" %}
+{% include contact-info.html name="Jeri E. Wieringa" %}
 
 
 Emeritus Team Members
