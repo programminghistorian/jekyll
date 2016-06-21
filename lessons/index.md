@@ -286,7 +286,7 @@ Learn how to present historical materials online.
     <a href="../lessons/creating-an-omeka-exhibit">
       <img src="../gallery/creating-an-omeka-exhibit.png">
       <h3>Creating an Omeka.net Exhibit</h3>
-      <p>Miriam Posner</p>
+      <p>Miriam Posner and Megan R. Brett</p>
     </a>
   </li>
 </ul>
