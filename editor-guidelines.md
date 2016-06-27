@@ -135,7 +135,13 @@ Once you and the author are happy with a tutorial, the next step is to move the 
 
 ### 1) Moving the Files
 
-*CAN SOMEONE ELSE WRITE THIS SECTION? I DON'T ACTUALLY KNOW -AC*
+The easiest way to publish the lesson is to use `git` from the command line. The following instructions assume that you have already cloned both the `jekyll` and `ph-submissions` repositories to your local machine. (Our [lesson on using GitHub Desktop](http://programminghistorian.org/lessons/getting-started-with-github-desktop) may be helpful if this is new to you.) If you are not sure how to do that or have any questions, contact Caleb McDaniel for assistance.
+
+1. Go to the directory for your local `ph-submissions` repository.
+2. `git pull` to get all of the newest changes on your machine (or `sync` if you are using GitHub Desktop)
+3. Repeat Steps 1 and 2 for the `jekyll` repository on your local machine.
+4. Copy the lesson files and any related image and asset files from the `ph-submissions` directory on your machine to the appropriate places in the `jekyll` directory on your local machine. (You can use a command like `cp` on the Unix command line, or use your GUI file system if you are using GitHub Desktop.)
+5. From within the `jekyll` directory on your local machine, `git add` the new files and then `git commit` and `git push` the changes.
 
 ### 2) Create an Author Bio
 
