@@ -16,7 +16,7 @@ We always encourage prospective authors to pitch their ideas before they start w
 
 ### Safe Spaces
 
-The *Programming Historian* is committed to providing a safe space for the exchange of ideas, where everyone can share without fear of harassment or abuse. The editor plays a fundamental role in ensuring that space endures. Your job includes enforcing our anti-harassment policy at all times. If you need help please ask one of the other editors. You can read more about our [commitment to safe spaces](http://programminghistorian.org/posts/PH-commitment-to-diversity) on the project blog:
+The *Programming Historian* is committed to providing a safe space for the exchange of ideas, where everyone can share without fear of harassment or abuse. The editor plays a fundamental role in ensuring that space endures. Your job includes enforcing our anti-harassment policy at all times. If you need help please ask one of the other editors. You can read more about our [commitment to safe spaces](http://programminghistorian.org/posts/PH-commitment-to-diversity) on the project blog.
 
 ### Anti-Harassment Policy
 
@@ -38,7 +38,7 @@ When a lesson has been submitted, the editor will open a new 'issue' on our [Git
 
 ### The Initial Comment
 
-Your first comment on the message board for a given tutorial review should use our template which outlines the role of the editor and what will take place during the review, as well as everyone's options in the unlikely event that something goes wrong. Please adapt the following template as needed:
+Your first comment on the message board for a given tutorial review should use our template which outlines the role of the editor and what will take place during the review, as well as everyone's options in the unlikely event that something goes wrong. Please adapt [the template](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md), which should appear automatically in all new issue boxes, as needed:
 
     The Programming Historian has received the following tutorial on 'Editing Audio with Audacity' by @bmw9t. This lesson is now under review and can be read at:
     
@@ -78,6 +78,7 @@ Our peer review is conducted on our [Submissions repository](https://github.com/
 There are a few areas where you should intervene in the process from a technical standpoint. They include:
 
 ### A) Naming the Lesson File
+
 The **Editor** should suggest a name for the new lesson file that conforms to these guidelines:
 
 - Make the filename short, but descriptive; this filename will eventually become the slug for the lesson's URL when published.
@@ -88,15 +89,14 @@ The **Editor** should suggest a name for the new lesson file that conforms to th
 Once you have chosen a name for the lesson file, use the same name to create a new folder in `images` which will contain all of the images for the lesson. If the lesson uses data files, do the same in the `assets` folder.
 
 ### B) Initial Check of Markdown
-Authors are responsible for checking that their lesson has rendered properly in markdown. If they have followed the syntax rules, it should be ok. If you can see any markdown symbols on the page, something went wrong. Detailed instructions of Markdown syntax are available on our [Author Guidelines](http://programminghistorian.org/new-lesson-workflow)
 
-You can quickly check that everything looks ok on a lesson submission by looking at the rendered version of the page. It will be found at:
+Authors are responsible for checking that their lesson has rendered properly in Markdown. If they have followed the syntax rules, it should be ok. If you can see any Markdown symbols on the page, something went wrong. Detailed instructions of Markdown syntax are available on our [Author Guidelines](http://programminghistorian.org/new-lesson-workflow)
 
-http://programminghistorian.github.io/ph-submissions/lessons/FILENAME-HERE (note - no .md at the end)
+You can quickly check that everything looks correct on a lesson submission by looking at the rendered version of the page. It will be found at:
 
-If that doesn't work, check to see if there's a problem that's keeping the site from building by going to the "settings" tab on the repo page, and looking under GitHub Pages. If there's a problem, then instead of saying the site is published in green, it will contain a notice that the site is having trouble building. If that happens, let Caleb McDaniel know, and he will try to diagnose it.
+`http://programminghistorian.github.io/ph-submissions/lessons/FILENAME-HERE`  (note - no .md at the end)
 
-https://github.com/programminghistorian/ph-submissions/settings
+If that doesn't work, check to see if there's a problem that's keeping the site from building by going to [the settings tab](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md) on the repo page, and looking under GitHub Pages. If there's a problem, then instead of saying the site is published in green, it will contain a notice that the site is having trouble building. If that happens, let Caleb McDaniel know, and he will try to diagnose it.
 
 ### C) Verify Images
 
@@ -108,16 +108,16 @@ It is possible that figure numbering will change during the peer review process.
 
 A lesson's images should be stored in the following location:
 
- - /images/LESSON-SLUG/FILENAME-HERE-1.png
- - /images/LESSON-SLUG/FILENAME-HERE-2.png
- - /images/LESSON-SLUG/FILENAME-HERE-3.png
- - etc
+     /images/LESSON-SLUG/FILENAME-HERE-1.png
+     /images/LESSON-SLUG/FILENAME-HERE-2.png
+     /images/LESSON-SLUG/FILENAME-HERE-3.png
+     etc.
 
 ### D) Verify Data files
 
 Similarly to Images, all data files should be stored on the site (not linked externally - for sustainability purposes). All data should be stored in the 'assets' directory, using the same rules as above, but authors should feel free to use a description for their data file that reflects what it is:
 
- - /assets/LESSON-SLUG/Louvre-Paintings-1.csv
+ - `/assets/LESSON-SLUG/Louvre-Paintings-1.csv`
 
 ### E) Verify videos/gifs
 
@@ -125,7 +125,7 @@ Videos and gifs are strongly discouraged because they create a range of problems
 
 If a tutorial contains a video it should be hosted on our YouTube channel (which is not set up yet so email the other editors when you get a video). A backup of the file should also be stored in our Github repository, following the same principles of naming and storage as in sections for images and data described above and stored in the 'assets' directory:
 
- - /assets/LESSON-SLUG/FILENAME-HERE-3
+ - `/assets/LESSON-SLUG/FILENAME-HERE-3`
 
 ---
 
@@ -156,7 +156,7 @@ It is important that we acknowledge the work of our peer reviewers. To the YAML 
 
 ### 4) Add difficulty indicator to the YAML file
 
-To help readers evaluate which lessons best fit their goals and skill level, we provide "Recommended for ___ Users" information in the lesson YAML file. There are currently three tiers - Beginning, Intermediate, Advanced - which can be set with the following code: 1, 2, 3. To add the difficulty level to the lesson, include the following in the YAML file:
+To help readers evaluate which lessons best fit their goals and skill level, we provide "Recommended for ___ Users" information in the lesson YAML file. There are currently three tiers, which can be set with the following numerical codes: 1 (Beginning), 2 (Intermediate), 3 (Advanced). To add the difficulty level to the lesson, include the following in the YAML file:
 
 ```yaml
 difficulty: 1
