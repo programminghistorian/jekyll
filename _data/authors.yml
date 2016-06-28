@@ -160,7 +160,11 @@
   team: true
   bio: |
        Allison Hegel is a graduate student at UCLA.
-
+  interests: |
+       She is interested in working with authors on text analysis
+       and data visualization, as well as hearing from anyone
+       with feedback on the design and usability of the website.
+       
 - name: Alan MacEachern
   url: "http://history.uwo.ca/People/Faculty/maceachern.html"
   team: true
