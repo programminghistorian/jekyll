@@ -1,0 +1,321 @@
+
+{
+  "elapsedMilliseconds": 48,
+  "count": 359,
+  "artObjects": [
+    {
+      "links": {
+        "self": "https://www.rijksmuseum.nl/api/nl/collection/SK-C-5",
+        "web": "https://www.rijksmuseum.nl/nl/collectie/SK-C-5"
+      },
+      "id": "nl-SK-C-5",
+      "objectNumber": "SK-C-5",
+      "title": "Schutters van wijk II onder leiding van kapitein Frans Banninck Cocq, bekend als de ‘Nachtwacht’",
+      "hasImage": true,
+      "principalOrFirstMaker": "Rembrandt Harmensz. van Rijn",
+      "longTitle": "Schutters van wijk II onder leiding van kapitein Frans Banninck Cocq, bekend als de ‘Nachtwacht’, Rembrandt Harmensz. van Rijn, 1642",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "3ae88fe0-021c-41ae-a4ce-cc70b7bc6295",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 100,
+        "width": 2500,
+        "height": 2034,
+        "url": "http://lh6.ggpht.com/ZYWwML8mVFonXzbmg2rQBulNuCSr3rAaf5ppNcUc2Id8qXqudDL1NSYxaqjEXyDLSbeNFzOHRu0H7rbIws0Js4d7s_M=s0"
+      },
+      "headerImage": {
+        "guid": "29a2a516-f1d2-4713-9cbd-7a4458026057",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 1920,
+        "height": 460,
+        "url": "http://lh3.ggpht.com/rvCc4t2BWHAgDlzyiPlp1sBhc8ju0aSsu2HxR8rN_ZVPBcujP94pukbmF3Blmhi-GW5cx1_YsYYCDMTPePocwM6d2vk=s0"
+      },
+      "productionPlaces": [
+        "Amsterdam"
+      ]
+    },
+    {
+      "links": {
+        "self": "https://www.rijksmuseum.nl/api/nl/collection/SK-A-1505",
+        "web": "https://www.rijksmuseum.nl/nl/collectie/SK-A-1505"
+      },
+      "id": "nl-SK-A-1505",
+      "objectNumber": "SK-A-1505",
+      "title": "Een molen aan een poldervaart, bekend als ‘In de maand juli’",
+      "hasImage": true,
+      "principalOrFirstMaker": "Paul Joseph Constantin Gabriël",
+      "longTitle": "Een molen aan een poldervaart, bekend als ‘In de maand juli’, Paul Joseph Constantin Gabriël, ca. 1889",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "85747e15-0b95-4306-922f-0fa17fc0ffeb",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 1767,
+        "height": 2748,
+        "url": "http://lh4.ggpht.com/PkQr-nNqzn0OVXVd4-hdJ6PPdWZ6-DQ_74WfBT3MZIV4LNYA-q8LUrtReXNstuzl9k6gKWkaBwG-LcFZ7zWU9Ch92g=s0"
+      },
+      "headerImage": {
+        "guid": "34e94d7f-4d7a-464e-b3f9-eb5532f98c27",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 1920,
+        "height": 460,
+        "url": "http://lh3.ggpht.com/1JKghbAAi6kmGGW1QeVJpeBdarUXrZwtwKx9Y94fqjnB2Ln5keXAG02ZDazKH0qrVqi7QWDfm0SfEIWBP1xru_6Cyg=s0"
+      },
+      "productionPlaces": []
+    },
+    {
+      "links": {
+        "self": "https://www.rijksmuseum.nl/api/nl/collection/SK-A-180",
+        "web": "https://www.rijksmuseum.nl/nl/collectie/SK-A-180"
+      },
+      "id": "nl-SK-A-180",
+      "objectNumber": "SK-A-180",
+      "title": "Een vrolijke vioolspeler",
+      "hasImage": true,
+      "principalOrFirstMaker": "Gerard van Honthorst",
+      "longTitle": "Een vrolijke vioolspeler, Gerard van Honthorst, 1623",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "6934096c-f286-48b0-8853-e430e8d24a11",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 36,
+        "width": 2032,
+        "height": 2500,
+        "url": "http://lh4.ggpht.com/iIwEcQp7nB5xmV6WctDIG-HRFWwMuegCw7j2On9lTksv9Mwl-nllpaQx_0BORbJiqyks4dR_E4K7AGnNur8hkoJ7WNkz=s0"
+      },
+      "headerImage": {
+        "guid": "03e0bed7-56ce-48f4-828a-6a3c96f578f1",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 1920,
+        "height": 460,
+        "url": "http://lh6.ggpht.com/eu-lA14sI6MfNFVE9n4wpEM8UehQxUKjwGKQbtREM6u9lsRKBNdFxOo51SnwfK3DlkXub3_oOtV4cwBVZuXAENCton95=s0"
+      },
+      "productionPlaces": []
+    },
+    {
+      "links": {
+        "self": "https://www.rijksmuseum.nl/api/nl/collection/SK-A-2205",
+        "web": "https://www.rijksmuseum.nl/nl/collectie/SK-A-2205"
+      },
+      "id": "nl-SK-A-2205",
+      "objectNumber": "SK-A-2205",
+      "title": "Vanitas stilleven",
+      "hasImage": true,
+      "principalOrFirstMaker": "Gerrit van Vucht",
+      "longTitle": "Vanitas stilleven, Gerrit van Vucht, 1658 - 1697",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "19ad653c-6fe9-4a12-9cd9-0f3f679c8702",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 2000,
+        "height": 1492,
+        "url": "http://lh3.ggpht.com/ltkNYBL4U__3FerjWvcmZlOWhZ5kCh5Bxtl0FlkCiTDjYGzO1G4AkyA_5OxLjXiGJJr1qDvvw5_uPGP7kiZYuLef9cA=s0"
+      },
+      "headerImage": {
+        "guid": "d6da3f33-0e69-404b-81e1-d528809ac786",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 1920,
+        "height": 460,
+        "url": "http://lh4.ggpht.com/F4kC_DH4c_-FbLzKyUHd_2mmVk8FCb8G_-cKbySVPXmR01U7A47yRVfliPC3uZZLFO7drQHjb7OMbxzbVta8zjiZPEQ=s0"
+      },
+      "productionPlaces": []
+    },
+    {
+      "links": {
+        "self": "https://www.rijksmuseum.nl/api/nl/collection/SK-A-1923",
+        "web": "https://www.rijksmuseum.nl/nl/collectie/SK-A-1923"
+      },
+      "id": "nl-SK-A-1923",
+      "objectNumber": "SK-A-1923",
+      "title": "Bosgezicht nabij Barbizon",
+      "hasImage": true,
+      "principalOrFirstMaker": "Johan Hendrik Weissenbruch",
+      "longTitle": "Bosgezicht nabij Barbizon, Johan Hendrik Weissenbruch, 1900",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "814aa7a6-98ed-4164-b35f-867a126a0f7f",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 2880,
+        "height": 2151,
+        "url": "http://lh3.ggpht.com/4SRlrjFgNfaAQNV66cUTMfJ56r5YMXYci8kQ2Vp7y_B6quBjR0kEf5pdWwFkBN7iI-DhNNEGaLBWiAx9VeWouu0XWvRP=s0"
+      },
+      "headerImage": {
+        "guid": "41b88565-1be1-48e9-a70e-045262fe3d84",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 1920,
+        "height": 460,
+        "url": "http://lh6.ggpht.com/nxrHBhwwmroDL1bWAmi67qBI_12Tq0tC7Lxoa4RxEH_ApxHR08BuDIbDP4-cHP78HHt1Y0eGxZ0ZnYADgrKpgRUG9xI=s0"
+      },
+      "productionPlaces": []
+    },
+    {
+      "links": {
+        "self": "https://www.rijksmuseum.nl/api/nl/collection/SK-A-1935",
+        "web": "https://www.rijksmuseum.nl/nl/collectie/SK-A-1935"
+      },
+      "id": "nl-SK-A-1935",
+      "objectNumber": "SK-A-1935",
+      "title": "Landschap met stenen brug",
+      "hasImage": true,
+      "principalOrFirstMaker": "Rembrandt Harmensz. van Rijn",
+      "longTitle": "Landschap met stenen brug, Rembrandt Harmensz. van Rijn, ca. 1638",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "416d7e04-e75b-462f-8bbd-c999ffc7d5bd",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 2904,
+        "height": 2044,
+        "url": "http://lh3.ggpht.com/eENsvvpxhDzqxFf_HFPeHpAD4AH7Pp7zwymufb5m7FaZOKv8IqgLChY4b_LtN6-q3HSrtPmZdIjVkSsVXk61eLXtRkw=s0"
+      },
+      "headerImage": {
+        "guid": "0cb82970-64d1-4e8c-825f-25aa7bb60d15",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 1920,
+        "height": 460,
+        "url": "http://lh5.ggpht.com/18SFh9NEkdHcmZOOWm_EKyZEvwQ9CDGqjwRjov1iaKf9LXGQLSOJqbOlYH0eGrUKRJFkAf3hciK_reslx3OhhmYRlgw=s0"
+      },
+      "productionPlaces": []
+    },
+    {
+      "links": {
+        "self": "https://www.rijksmuseum.nl/api/nl/collection/SK-A-690",
+        "web": "https://www.rijksmuseum.nl/nl/collectie/SK-A-690"
+      },
+      "id": "nl-SK-A-690",
+      "objectNumber": "SK-A-690",
+      "title": "Een schrijver die zijn pen versnijdt",
+      "hasImage": true,
+      "principalOrFirstMaker": "Jan Ekels (II)",
+      "longTitle": "Een schrijver die zijn pen versnijdt, Jan Ekels (II), 1784",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "3707a258-f60e-4ef9-8250-bda2cd0c2d1d",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 2056,
+        "height": 2500,
+        "url": "http://lh4.ggpht.com/e2kmNV3E-YMFjH1zYsRnN7VrsQh5U7PtzJhAeIADmE-C-fw_s5tRkfZid9AIOuUs-6e36YmAylTl2btxkpIoU_3b5K4=s0"
+      },
+      "headerImage": {
+        "guid": "8f72ec4e-bda6-4440-9f16-584ba427fa7a",
+        "offsetPercentageX": 0,
+        "offsetPercentageY": 0,
+        "width": 1925,
+        "height": 461,
+        "url": "http://lh4.ggpht.com/JXuKF1GPkQxqpryWa8dN7roHA71x4uJF8p3T5XYaZ4EE4PWEZgIj6YVy-GTdf8B7jtXEldbbl0BuGeBFXxozdQ4bToS5=s0"
+      },
+      "productionPlaces": []
+    },
+    {
+      "links": {
+        "self": "https://www.rijksmuseum.nl/api/nl/collection/SK-A-2983",
+        "web": "https://www.rijksmuseum.nl/nl/collectie/SK-A-2983"
+      },
+      "id": "nl-SK-A-2983",
+      "objectNumber": "SK-A-2983",
+      "title": "Eendennesten",
+      "hasImage": true,
+      "principalOrFirstMaker": "Paul Joseph Constantin Gabriël",
+      "longTitle": "Eendennesten, Paul Joseph Constantin Gabriël, ca. 1890 - ca. 1900",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "19df248f-2d5d-4a85-ae7b-96ac586e46f3",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 1896,
+        "height": 2687,
+        "url": "http://lh6.ggpht.com/-Ul_3YE8q2CPw44SRBdz3X3HEqCfMDEqUONqvVWRwHZvIG05D_PerehgIvfy_di71bLX_467GOkR99jFJ3uzsWysqQk=s0"
+      },
+      "headerImage": {
+        "guid": "60921a48-989b-43c8-8a04-a15e1ac43f12",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 1920,
+        "height": 460,
+        "url": "http://lh4.ggpht.com/gktTfnL9sVyA0pUiBsUJFE6Pcmach9bon5_mN6odubkzirvx3j5ElhaLMcG0DGhpc3Nf-eljotxvmo-fR-i0FFLFygiV=s0"
+      },
+      "productionPlaces": []
+    },
+    {
+      "links": {
+        "self": "https://www.rijksmuseum.nl/api/nl/collection/SK-A-3924",
+        "web": "https://www.rijksmuseum.nl/nl/collectie/SK-A-3924"
+      },
+      "id": "nl-SK-A-3924",
+      "objectNumber": "SK-A-3924",
+      "title": "Pompeius Occo",
+      "hasImage": true,
+      "principalOrFirstMaker": "Dirck Jacobsz.",
+      "longTitle": "Pompeius Occo, Dirck Jacobsz., ca. 1531",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "fe4bcf87-227c-4c4d-93d4-1767c1e3f3c6",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 0,
+        "width": 2193,
+        "height": 2598,
+        "url": "http://lh3.ggpht.com/bCIqIe6jDaZTe9ABLEbMKQXSFCQMMkPalrqur82zq691y2jpbyJRjpbCtYrsUT1IHgIAQO1stRRDDVErmGlVOzO7IWs=s0"
+      },
+      "headerImage": {
+        "guid": "25ed960f-7b9e-433f-902a-7ddbb2676c23",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 1920,
+        "height": 460,
+        "url": "http://lh3.ggpht.com/y_Bp96ByJ1DzqovAzoscnJArvNaUUiIPuYjOiswoUHBmZyfgWIZpbYCBeXquy9UY7zzJvDbRsfbk5FgTHiiYDDS8=s0"
+      },
+      "productionPlaces": [
+        "Amsterdam"
+      ]
+    },
+    {
+      "links": {
+        "self": "https://www.rijksmuseum.nl/api/nl/collection/SK-A-3246",
+        "web": "https://www.rijksmuseum.nl/nl/collectie/SK-A-3246"
+      },
+      "id": "nl-SK-A-3246",
+      "objectNumber": "SK-A-3246",
+      "title": "De visvrouw",
+      "hasImage": true,
+      "principalOrFirstMaker": "Adriaen van Ostade",
+      "longTitle": "De visvrouw, Adriaen van Ostade, 1672",
+      "showImage": true,
+      "permitDownload": true,
+      "webImage": {
+        "guid": "019a2c47-efc2-4b22-a8a3-45a7dc863c1a",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 2826,
+        "height": 2556,
+        "url": "http://lh4.ggpht.com/I5AaMSHTtQT2s7nFoBDYmKCi77zPvc-i4pssHS_lLlEuadlZ3gRv7vZri1qOog3_ofVS11LvyqZJ_LP-deIFIO7chjs=s0"
+      },
+      "headerImage": {
+        "guid": "00390939-5458-45d1-8f99-4cff74b07c62",
+        "offsetPercentageX": 50,
+        "offsetPercentageY": 50,
+        "width": 1920,
+        "height": 460,
+        "url": "http://lh4.ggpht.com/eFRtGHBeQIyHLYA_F34ZL21b9FEHurMvZhR48y5Edu22Urjxx-2A3Iwixbm8szAVBwcOESbyels6u8neBWDcP4DHgw=s0"
+      },
+      "productionPlaces": []
+    }
+  ]
+}
