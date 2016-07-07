@@ -1,18 +1,20 @@
 ---
-title: Transforming Historical Data for Reuse and Republication: A Guide to XML and XSL Transformations
+title: |
+    Transforming Historical Data for Reuse and Republication: A Guide to XML and XSL Transformations
 authors:
 - M. H. Beals
 date: 2016-07-07
 reviewers:
 - Jonathan Blaney
-- Tessa Hauswedell
+- Tessa C Hauswedell
+- Adam Crymble
 layout: default
 difficulty: 1
 ---
 
 ## Introduction
 
-The day before your colleague is due to give a seminar on *Slave Rebellions in the New World*, he phones you to say he is ill and needs you to cover his sessions. You decide to compile a selection of primary sources to work through in class. You find some websites and readers with good sources, but scanning or cutting-and-pasting them into a new document is time consuming; the formatting and citations are inconsistent and you begin to wonder if there the ones you have chosen work well together. One site allows you to download an XML of all its sources, but there are so many records, and so much [metadata](https://en.wikipedia.org/wiki/Metadata), that you cannot find the material you want quickly.
+The day before your colleague is due to give a seminar on *Slave Rebellions in the New World*, he phones you to say he is ill and needs you to cover his sessions. You decide to compile a selection of primary sources to work through in class. You find some websites and readers with good sources, but scanning or cutting-and-pasting them into a new document is time consuming; the formatting and citations are inconsistent and you begin to wonder if the ones you have chosen work well together. One site allows you to download an [XML](https://en.wikipedia.org/wiki/XML) version of all its sources, but there are so many records, and so much [metadata](https://en.wikipedia.org/wiki/Metadata), that you cannot find the material you want quickly.
 
 Or perhaps...
 
@@ -22,13 +24,13 @@ Then again...
 
 You are starting a new project analysing book auction catalogues from the early seventeenth century. You start recording the publication details and auction listings into a series of Word documents and Excel spreadsheets. A month into the project, you are invited to present your research to the Pro-Vice Chancellor. Your head of department suggests that you create a 'snazzy' set of slides and handouts to help her understand your project.  You have some preliminary conclusions about the material, but the data is scattered in several places and formatting it properly will take more time than you have.
 
-In all three of these situations, a basic understanding of XML, and its sister-language XSL, could have saved you time and aggrevation.  This tutorial will provide you with the ability to convert, or transform, historical data from an [XML](https://en.wikipedia.org/wiki/XML) database (whether a single file or several linked documents) into a variety of different presentations---condensed tables, exhaustive lists or paragraphed narratives---and file formats. Whether filtering a large database or adding formatting such as headings and pagination, [XSL](https://en.wikipedia.org/wiki/XSL) offers historians the ability to reshape databases to support their changing research or publication needs.
+In all three of these situations, a basic understanding of XML, and its sister-language [XSL](https://en.wikipedia.org/wiki/XML), could have saved you time and aggrevation.  This tutorial will provide you with the ability to convert or transform historical data from an [XML](https://en.wikipedia.org/wiki/XML) database (whether a single file or several linked documents) into a variety of different presentations---condensed tables, exhaustive lists or paragraphed narratives---and file formats. Whether filtering a large database or adding formatting such as headings and pagination, [XSL](https://en.wikipedia.org/wiki/XSL) offers historians the ability to reshape databases to support their changing research or publication needs.
 
 ## What is XML?
 
 **eXtensible Markup Language** (**XML**) is a highly flexible method for encoding or structuring your data.  Unlike [**Hypertext Markup Language** (**HTML**)](https://en.wikipedia.org/wiki/HTML), which has a set vocabulary, XML is extensible; it can be expanded to include whatever sections, sub-section, and sub-sub-sections you need in order to store your data in the way you wish.
 
-A database can be made up of one or more XML files and each file has the same basic structure. Each section, or layer, of the file is surrounded by a set of [elements](https://en.wikipedia.org/wiki/XSLT_elements). Like [Russian Nesting Dolls](https://en.wikipedia.org/wiki/Matryoshka_doll), each level of elements exists entirely within another one. The **top-level element** encloses the entire database. Each element within the top-level element is a **child** of that element. Likewise, the element surrounding a child element is called the **parent** element. 
+A database can be made up of one or more XML files and each file has the same basic structure. Each section, or layer, of the file is surrounded by a set of [elements](https://en.wikipedia.org/wiki/XSLT_elements). An element is, essentially, a category or name for the type of data you are providing. Like [Russian Nesting Dolls](https://en.wikipedia.org/wiki/Matryoshka_doll), each level of elements exists entirely within another one. The **top-level element** encloses the entire database. Each element within the top-level element is a **child** of that element. Likewise, the element surrounding a child element is called the **parent** element. 
 
     <top>
 		<parent>
@@ -56,13 +58,28 @@ They can also have [attributes](https://en.wikipedia.org/wiki/Attribute_(computi
 		</parent>
 	</top>
 	
-Once you are given an XML database, or have stored your own data within one, you can use XSL to sort, filter and display this information in (almost) any way you wish.
+Once you are given an XML database, or have stored your own data within one, you can use XSL to sort, filter and display this information in (almost) any way you wish. You can even break open OpenXML files, such as Word (.docx) or Excel (.xslx) files, and see or remove any additional information that Microsoft has inserted into your documents, such as tags identifying geographical locations.
+
+A more detail discussion of XML, its structure, and its use in the humanities, is available from the [Text Encoding Initative](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html).
 
 ## What is XSL?
 
-**eXtensible Stylesheet Language** (**XSL**) is the natural complement to XML. At its most basic level, it provides layout and formatting instructions in much the same way as [**Cascading Stylesheets** (**CSS**)](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) do for HTML files. This allows you to transform your plain-text data into richly formatted text, as well as dictate its layout on a screen or in print without altering your original data files.
+**eXtensible Stylesheet Language** (**XSL**) is the natural complement to XML. At its most basic level, it provides layout and formatting instructions in much the same way as [**Cascading Stylesheets** (**CSS**)](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) do for HTML files. This allows you to transform your plain-text data into richly formatted text, as well as dictate its layout on a screen or in print, without altering your original data files. At a more advanced level, it also allows you to sort or filter your records based on particular critera, or create and display compound or derived values based on your original dataset.
 
-By keeping your data and formatting instructions separate, you are able to refine and alter your layout without the risk of compromising the structure of your data. You are also able to create a number of different *styles*, each serving a different purpose, and apply them as necessary to a single data set. In practice, this means only having to update your data in one place, even if you export it to many different documents.
+By keeping your data (XML) and formatting instructions (XSL) separate, you are able to refine and alter your layout without the risk of compromising the structure of your data. You are also able to create a number of different *styles*, each serving a different purpose, and apply them as necessary to a single data set. In practice, this means only having to update your data in one place, even if you export it to many different documents.
+
+The following tutorial will therefore explain 
+
++ **Editors**: The tools needed to create XSL transformation files
++ **Transformers**: The tools needed to apply your XSL transformation instructions to your XML database
++ **Choosing and Preparing XML Data**: How to connect your database to your XSL transformation instructions
+
+as well as walk you through the creation of some of the most common transformations intructions, including
+
++ **Printing Values**: How to print or display your data
++ **For-Each Loops**: How to display particular data for each record
++ **Sorting Results**: How to display your data in a particular order
++ **Filtering Results**: How to select which records you display
 
 ## Necessary and Helpful Software Packages
 
@@ -73,7 +90,7 @@ One of the advantages of storing data in a plain-text format is the ease of obta
 Although these will provide everything you need, you may prefer to download a more advanced editor, such as 
 [**Notepad++**](https://notepad-plus-plus.org/download/) or [**Atom**](https://atom.io/). These free editors maintain the plain-text format of your data while providing you with different colour schemes (such as green-on-black or brown-on-beige) as well the ability to collapse (hide) sections or easily comment-out (temporarily disable) sections of your code.
 
-
+When you become more comfortable with XML and XSL, and are ready to tackle more complicated transformations, you may want to consider using a dedicated XML editor, such as [**OxygenXML**](https://www.oxygenxml.com/).
 
 ### Transformers
 
@@ -85,11 +102,11 @@ Although Chrome and Safari's security features make in-browser transformations d
 
 In order to begin transforming XML, you will need to obtain a well-formed dataset. Many online historical databases are built upon XML and provide their data freely. This tutorial will make use of the [**Scissors and Paste Database**](http://www.scissorsandpaste.net).
 
-The Scissors and Paste Database is a collaborative and growing collection of articles from British and imperial newspapers in the 18th and 19th centuries. Its original purpose was to allow for careful comparisons of reprints (copies) that appeared in multiple newspapers as well as to detect similarly themed articles across different English-language publications. Like many XML databases, Scissors and Paste contains both data (the article's text), formatting information (such as italics and justification), and metadata. This metadata includes documentation about the particular article, such as its pagination and printing date, information about the newspaper in which it was published, and the themes, individuals or locations mentioned in the text.
+The *Scissors and Paste Database* is a collaborative and growing collection of articles from British and imperial newspapers in the 18th and 19th centuries. Its original purpose was to allow for careful comparisons of reprints (copies) that appeared in multiple newspapers as well as to detect similarly themed articles across different English-language publications. Like many XML databases, *Scissors and Paste* contains both data (the article's text), formatting information (such as italics and justification), and metadata. This metadata includes documentation about the particular article, such as its pagination and printing date, information about the newspaper in which it was published, and the themes, individuals or locations mentioned in the text.
 
 As of 2015, the database contained over 350 individual articles, each with attached metadata. Although some researchers may need all of this information, most will only be interested in a subsection of the data---a particular year, theme or publication. By using XSL, these researchers can quickly filter out the information they do not need or re-arrange the material in the way that is most helpful for their project. For example, the module tutor in our introduction or a researcher who wants a simple table of the dates, publications and page numbers of humorous articles within the database. Both can be quickly created using XSL.
 
-To begin work with the Scissors and Paste Database, visit its Github repository at http://www.github.com/mhbeals/scissorsandpaste. On the right-hand side of the screen, you will see the option to **Download Zip**.  Save this to your computer desktop or primary documents folder.
+To begin work with the Scissors and Paste Database, visit its [Github repository](http://www.github.com/mhbeals/scissorsandpaste). On the right-hand side of the screen, you will see the option to **Download Zip**.  Save this to your computer desktop or primary documents folder.
 
 {% include figure.html src="../images/transforming-xml-with-xsl-1.png" caption="Figure 1: Downloading Your Data" %}
 
@@ -114,7 +131,7 @@ The main TEISAP.XML database has been encoded to [**Text-Encoding Initiative** (
 
 Open the outputs folder and continue into the XML folder. Here you will find a folder entitled **Simplified**. Copy the **SimplifiedSAP.xml** file to your desktop.
 
-Using your chosen text editor, open SimplifiedSAP.xml and examine the file.
+Using your chosen web browser, open *SimplifiedSAP.xml* and examine the file. You can do this using the standard 'Open' function of your browser's tool bar, or by dragging-and-dropping the file from your desktop into the browser window.
 
 {% include figure.html src="../images/transforming-xml-with-xsl-2.png" caption="Figure 2: Viewing the XML" %}
 
@@ -141,7 +158,15 @@ Within these records are a number of different child elements. The Text-Encoding
 
 These are the different types of data that you will be able to use in creating your outputs.
 
-In order to undertake a browser-based transformation, you will need to put in a stylesheet reference within your xml file. Create a new line underneath ```<?xml version="1.0" encoding="UTF-8"?>```.  On this new line, type ```<?xml-stylesheet type="text/xsl" href="mystyle.xsl"?>``` and save your XML file.
+In order to undertake a browser-based transformation, you will need to put in a stylesheet reference within your xml file. 
+
+Using your prefered text editor, open *SimplifiedSAP.xml* and examine the contents.
+
+Create a new line underneath ```<?xml version="1.0" encoding="UTF-8"?>```.  On this new line, type 
+
+    <?xml-stylesheet type="text/xsl" href="mystyle.xsl"?>
+
+and save your XML file.
 
 {% include figure.html src="../images/transforming-xml-with-xsl-3.png" caption="Figure 3: Adding a Stylesheet Reference to your XML" %}
 
@@ -185,7 +210,7 @@ N.B. If you are using TextEdit, you will not be able to save the file as an XSL 
 
 In between your template elements, type ```<xsl:value-of select="root"/>``` You do not need to do so on a new line, but doing so will make your stylesheet more readable. You'll notice that I didn't include a ```</root>```. This is because ```<xsl:value-of select="root"/>``` is self-closing; the ```/``` at the end of the element closes it immediately.
 
-After you save your file, open your preferred web browser (IE or Firefox) and use it to open your XML file.  The simplest way to do this is to drag the xml file (the file with the Scissors and Paste data) into your browser window, but you can also open it using your browser's standard *Open File* function.
+After you save your file, open your preferred web browser (IE or Firefox) and use it to open your XML file.  The simplest way to do this is to drag the xml file (the file with the *Scissors and Paste* data) into your browser window, but you can also open it using your browser's standard *Open File* function.
 
 You should now see the text from your data file with line breaks but *without* its structuring elements, as pictured below.
 
@@ -209,13 +234,13 @@ Your single line of code ```<xsl:value-of select="root"/>``` printed the entire 
 
 ## Printing Values
 
-In order to print the value of a particular data element, you simply need to replace the "root" with another element name. In your XSL stylesheet, replace *root* with *title*. Save your file and refresh your browser (usually *cntl+F5* or *cmd+r*) to see your changes.
+In order to print the value of a particular data element, you simply need to replace the "root" with another element name. In your XSL stylesheet, replace *root* with *title*. Save your file and refresh your browser (usually *ctrl+F5* or *cmd+r*) to see your changes.
 
 It didn't work? That is because we only gave the transformer part of the instructions it needed.
 
 ### Parents and Children
 
-Title is not the top-level element, so we must explain to the transformer how to get to the element we mean.  Replace *title* with *root/record/title*.
+Title is not the top-level element, so we must explain to the transformer how to get to the element we mean. This more specific direction is known as the [*XPATH*](https://en.wikipedia.org/wiki/XPath), and works in a similar way to the file paths on your computer. Replace *title* with *root/record/title*.
 
     <xsl:value-of select="root/record/title"/>
 
@@ -258,9 +283,13 @@ Save your file and refresh your browser. You should now have a very messy line o
 
 At the end of your *value-of* line, type ```<xsl:text>&#xA;</xsl:text>``` to add a line break. ```&#xA;``` is the [ISO 10646 hex code](http://do.remifa.so/archives/unicode/latin1.html) for a new line and the ```<xsl:text>``` element tells the transformer to print the value as plain text.
 
+Depending on the type of outputs you are using, some special characters, particularly multiple spaces or line breaks, may not render correctly if entered on their own. Using ```<text>``` elements ensures that your text renders exactly the way you intend it to.
+
 Save and refresh your browser to see your changes.  Using this information, you should now be able to print the value of any element for each record in the database.
 
 #### Exercise A:
+
+Note: Possible solutions for the following exercies are located at the end of the tutorial.
 
 Print an inventory of the records in database, displaying the *id*, *title* and *date* of each record. A solution to this and the following exercises is available at the end of the tutorial.
 
@@ -424,7 +453,7 @@ To remove the indentation of your text, you will need to take more direct contro
     	</xsl:template>
     </xsl:stylesheet>
 
-You'll notice I used ```&#32;``` in between my two values. This is the HEX code for a space. You could have also used a comma or any other divider.
+You'll notice I used ```&#32;``` in between my two values. This is the HEX code for a space. You could have also used a literal space, but this is may not render correctly in all cases. You could have also used a comma or any other divider.
 
 #### Exercise D
 
