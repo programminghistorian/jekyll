@@ -1,6 +1,6 @@
 ---
 title: |
-    Transforming Historical Data for Reuse and Re-publication: XML and XSL Transformations
+    Transforming Data for Reuse and Re-publication with XML and XSL
 authors:
 - M. H. Beals
 date: 2016-07-07
