@@ -108,7 +108,7 @@ As of 2015, the database contained over 350 individual articles, each with attac
 
 To begin work with the Scissors and Paste Database, visit its [Github repository](http://www.github.com/mhbeals/scissorsandpaste). On the right-hand side of the screen, you will see the option to **Download Zip**.  Save this to your computer desktop or primary documents folder.
 
-{% include figure.html src="../images/transforming-xml-with-xsl-1.png" caption="Figure 1: Downloading Your Data" %}
+{% include figure.html filename="transforming-xml-with-xsl-1.png" caption="Figure 1: Downloading Your Data" %}
 
 Open the ZIP file and you will find a folder entitled **scissorsandpaste-master**.  Extract this folder by either using the extract button of your unzipping programme or by dragging and dropping the folder onto your desktop.
 
@@ -133,7 +133,7 @@ Open the outputs folder and continue into the XML folder. Here you will find a f
 
 Using your chosen web browser, open *SimplifiedSAP.xml* and examine the file. You can do this using the standard 'Open' function of your browser's tool bar, or by dragging-and-dropping the file from your desktop into the browser window.
 
-{% include figure.html src="../images/transforming-xml-with-xsl-2.png" caption="Figure 2: Viewing the XML" %}
+{% include figure.html filename="transforming-xml-with-xsl-2.png" caption="Figure 2: Viewing the XML" %}
 
 The first line of the XML database is ```<?xml version="1.0" encoding="UTF-8"?>```, which indicates the version of XML used (1.0) and the encoding method of the text (UTF-8).  The second line is ```<root>```, which has a matching line, ```</root>```, at the end of the file.  
 
@@ -168,7 +168,7 @@ Create a new line underneath ```<?xml version="1.0" encoding="UTF-8"?>```.  On t
 
 and save your XML file.
 
-{% include figure.html src="../images/transforming-xml-with-xsl-3.png" caption="Figure 3: Adding a Stylesheet Reference to your XML" %}
+{% include figure.html filename="transforming-xml-with-xsl-3.png" caption="Figure 3: Adding a Stylesheet Reference to your XML" %}
 
 This line points to the XSL file you are about to create and will therefore set it as the default XSL stylesheet for this database. It does not matter what you name the .xsl file, so long as you remember it for the next step.
 
@@ -214,15 +214,15 @@ After you save your file, open your preferred web browser (IE or Firefox) and us
 
 You should now see the text from your data file with line breaks but *without* its structuring elements, as pictured below.
 
-{% include figure.html src="../images/transforming-xml-with-xsl-4.png" caption="Figure 5: Initial Text Output" %}
+{% include figure.html filename="transforming-xml-with-xsl-4.png" caption="Figure 5: Initial Text Output" %}
 
 If you see the XML data without any formatting, or an error message, go back and double-check your stylesheet reference within you XML file as well as your XSL stylesheet. Even a small typographical error will prevent the transformer from rendering the output.
 
-{% include figure.html src="../images/transforming-xml-with-xsl-5.png" caption="Figure 6: Unstructured 'Error' Output" %}
+{% include figure.html filename="transforming-xml-with-xsl-5.png" caption="Figure 6: Unstructured 'Error' Output" %}
 
 Once you have successfully rendered the data as a plain-text output, organise your desktop so that you can move quickly between your text editor and your browser.  I suggest docking (snapping) your browser window to one side of the screen and your editor to the other.
 
-{% include figure.html src="../images/transforming-xml-with-xsl-6.png" caption="Figure 7: Organising Your Workspace" %}
+{% include figure.html filename="transforming-xml-with-xsl-6.png" caption="Figure 7: Organising Your Workspace" %}
 
 ## Populating Your Outputs
 

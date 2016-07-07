@@ -27,7 +27,7 @@ users should be able to follow along.
 Wget is a useful program, run through your computer's command line, for
 retrieving online material.
 
-{% include figure.html src="../images/Terminal-on-mac2.png" caption="The Mac Command Line, Terminal" %}
+{% include figure.html filename="Terminal-on-mac2.png" caption="The Mac Command Line, Terminal" %}
 
 It can be useful in the following situations:
 
@@ -367,7 +367,7 @@ is a critical command for delineating your search.
 
 Here is a graphical representation:
 
-{% include figure.html src="../images/active-history-chart_edited-1.jpg" caption="A graphical representation of how 'no-parent' works with wget" %}
+{% include figure.html filename="active-history-chart_edited-1.jpg" caption="A graphical representation of how 'no-parent' works with wget" %}
 
 Finally, if you do want to go outside of a hierarchy, it is best to be
 specific about how far you want to go. The default is to follow each

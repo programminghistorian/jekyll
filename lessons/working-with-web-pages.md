@@ -99,7 +99,7 @@ while doing historical research. Say you're interested in race relations
 in eighteenth century Britain. 'The Old Bailey Online' (OBO) is a rich resource that provides trial transcripts from
 1674 to 1913 and is one good place to seek sources.
 
-{% include figure.html src="../images/old-bailey.png" caption="The Old Bailey Online Homepage" %}
+{% include figure.html filename="old-bailey.png" caption="The Old Bailey Online Homepage" %}
 
 For this example, we will be using the trial transcript of Benjamin
 Bowsey, a “black moor” who was convicted of breaking the peace during
@@ -119,7 +119,7 @@ in this case: *33*. If you change the two instances of `33` to `34` in
 your browser and press Enter, you should be taken to the next trial.
 Unfortunately, not all websites have such readable and reliable URLs.
 
-{% include figure.html src="../images/bowsey-trial-page.png" caption="Trial Transcript Page of Benjamin Bowsey, 1780" %}
+{% include figure.html filename="bowsey-trial-page.png" caption="Trial Transcript Page of Benjamin Bowsey, 1780" %}
 
 Spend a few minutes looking at Benjamin Bowsey’s trial page. Here we are
 not so much interested in what the transcript says, but what features

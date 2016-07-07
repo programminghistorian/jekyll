@@ -43,7 +43,7 @@ The first step of this process is to take a look at the data that we will be usi
 
 [The\_Dataset\_-\_Alumni_Oxonienses-Jas1.csv](http://programminghistorian.org/assets/The_Dataset_-_Alumni_Oxonienses-Jas1.csv) (1.4MB)
 
-{% include figure.html src="../images/extracting-keywords-1.png" caption="Screenshot of the first forty entries in the dataset" %}
+{% include figure.html filename="extracting-keywords-1.png" caption="Screenshot of the first forty entries in the dataset" %}
 
 Download the dataset and spend a couple of minutes looking at the types of information available. You should notice three columns of information. The first, 'Name', contains the name of the graduate. The second: 'Details', contains the biographical information known about that person. The final column, 'Matriculation Year', contains the year in which the person matriculated (began their studies). This final column was extracted from the details column in the pre-processing stage of this tutorial. The first two columns are as you would find them on the British History Online version of the *Alumni Oxonienses*. If you notice more than three columns then your spreadsheet programme has incorrectly set the [delimiter](https://en.wikipedia.org/wiki/Delimiter) between columns. It should be set to "," (double quotes, comma). How you do this depends on your spreadsheet programme, but you should be able to find the solution online. 
 
@@ -107,7 +107,7 @@ If you ever need to add to this set of keywords, you can open this file in your 
 
 The next step is to put the texts that you want to search into another text file, with one entry per line. The easiest way to do that is to open the spreadsheet and select all of the second (details) column, then paste the contents into a .txt file. Call the file `texts.txt` and save it to the same directory as your `gazetteer.txt` file. Your directory should look something like this:
 
-{% include figure.html src="../images/extracting-keywords-2.png" caption="Contents of your working directory" %}
+{% include figure.html filename="extracting-keywords-2.png" caption="Contents of your working directory" %}
 
 The reason we do this is to keep the original data (the .CSV file) away from the Python program we are about to write, on the off-chance that we accidentally change something without noticing. In my opinion, this approach also makes for easier to read code, which is important when learning. It is not strictly necessary to use a .txt file for this step, as Python does have ways of opening and reading CSV files. At the end of this lesson we will look at how to use the CSV reading and writing features in Python, but this is an optional advanced step.
 
@@ -250,7 +250,7 @@ Take a look at your whole program. These lines follow immediately after the last
 
 This code will automatically check each word in a text, keeping track of matches in the 'storedMatches' list. When it gets to the end of a text, it will empty out the 'storedMatches' variable and start again. Printing out the 'matches' variable just lets us see how many matches we got for each text. When you run this code you should see somewhere between 0 and 2 for most entries. If it says 0 for everything then check your code again. If you only have one entry outputting then go back to step one and make sure your program is identifying the right number of keywords (39).
 
-{% include figure.html src="../images/extracting-keywords-3.png" caption="Correct output of the code to this point" %}
+{% include figure.html filename="extracting-keywords-3.png" caption="Correct output of the code to this point" %}
 
 If it looks like it worked, delete the 'print matches' line and move to the next step.
 
@@ -343,7 +343,7 @@ Note the 'a' instead of the 'r' we used earlier. This 'appends' the text to the 
 
 You can copy and paste that output directly into your spreadsheet next to the first entry. Check that the matches lined up properly. Your last entry of your spreadsheet should correspond to the correctly extracted keywords. In this case, the last entry should be blank, but the second last one should read 'dorset'.
 
-{% include figure.html src="../images/extracting-keywords-4.png" caption="The output pasted back into the CSV file" %}
+{% include figure.html filename="extracting-keywords-4.png" caption="The output pasted back into the CSV file" %}
 
 At this point, you might like to refine the gazetteer, as a lot of place names have been missed. Many of them are shortforms, or archaic spellings (Wilts, Salop, Sarum, Northants, etc). You could go through looking at all the empty cells and seeing if you can find keywords that you've missed. It may help to know that you can find the next empty cell in a column in Excel by pressing CTRL + down arrow (CMD + down arrow on Mac).
 
@@ -351,11 +351,11 @@ One of the easiest ways to find all of the missing entries is to sort your sprea
 
 Before you sort a spreadsheet, it's often a good idea to add an 'original order' column in case you want to sort them back. To do this, add a new column, and in the first 3 rows, type 1, 2, and 3 respectively. Then highlight the three cells and put your cursor over the bottom right corner. If you are using Microsoft Excel your cursor will change into a black cross. When you see this, click and hold the mouse button and drag the cursor down until you reach the bottom of the spreadsheet (down to the last entry) before you let go. This should automatically number the rows consecutively so that you can always re-sort your entries back to the original order.
 
-{% include figure.html src="../images/extracting-keywords-5.png" caption="Adding an original order column and sorting the entries" %}
+{% include figure.html filename="extracting-keywords-5.png" caption="Adding an original order column and sorting the entries" %}
 
 Now you can sort the data and read some of the entries for which no match was found. If you find there is a place name in there, add it to your 'gazetteer.txt' file, one entry per line. You don't have to be exhaustive at this stage. You could add a handful more entries and then try the code again to see what impact they had on the result.
 
-{% include figure.html src="../images/extracting-keywords-6.png" caption="Missed place name words highlighted in yellow" %}
+{% include figure.html filename="extracting-keywords-6.png" caption="Missed place name words highlighted in yellow" %}
 
 Before you re-run your Python code, you'll have to update your `texts.txt` file so that the program runs on the texts in the correct order. Since the code will output the matches in the same order that it receives the files in `texts.txt`, it's important not to get this jumbled up if you've been sorting your spreadsheet where you intend to store your outputs. You can either re-sort the spreadsheet back to the original order before you run the program, or you can copy all of the cells in the 'details' column again and paste and save them into the `texts.txt` file.
 

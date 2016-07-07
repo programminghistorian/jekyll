@@ -145,10 +145,10 @@ to <http://bioguide.congress.gov/biosearch/biosearch.asp>, search for
 Congress number 43, and to save a copy of the results page.
 
 
-{% include figure.html src="../images/Congressional-Biographical-Directory-CLERKWEB-2013-08-23-12-22-12.jpg" caption="Figure 1: BioGuide Interface Search for 43rd Congress" %}
+{% include figure.html filename="Congressional-Biographical-Directory-CLERKWEB-2013-08-23-12-22-12.jpg" caption="Figure 1: BioGuide Interface Search for 43rd Congress" %}
 
 
-{% include figure.html caption="Figure 2: BioGuide Results We want to download the HTML behind this page." src="../images/Congressional-Biographical-Directory-Results-2013-08-23-12-25-09.jpg" %}
+{% include figure.html caption="Figure 2: BioGuide Results We want to download the HTML behind this page." filename="Congressional-Biographical-Directory-Results-2013-08-23-12-25-09.jpg" %}
 
 
 Selecting “File” and “Save Page As …” from your browser window will
@@ -195,7 +195,7 @@ You should see your terminal window fill up with a nicely indented
 version of the original html text (see Figure 3). This is a visual
 representation of how the various tags relate to one another.
 
-{% include figure.html caption="Figure 3: 'Pretty' print of the BioGuide results" src="../images/Beautiful-Soup-Tutorial-103x40-2013-08-23-13-13-01.jpg" %}
+{% include figure.html caption="Figure 3: 'Pretty' print of the BioGuide results" filename="Beautiful-Soup-Tutorial-103x40-2013-08-23-13-13-01.jpg" %}
 
 
 ### Using BeautifulSoup to select particular content
@@ -228,14 +228,14 @@ document.
 One thing to notice is that there is an additional link in our file –
 the link for an additional search.
 
-{% include figure.html caption="Figure 4: The URLs and names, plus one addition" src="../images/Beautiful-Soup-Tutorial-101x26-2013-08-23-13-25-56.jpg" %}
+{% include figure.html caption="Figure 4: The URLs and names, plus one addition" filename="Beautiful-Soup-Tutorial-101x26-2013-08-23-13-25-56.jpg" %}
 
 
 We can get rid of this with just a few lines of code. Going back to the
 pretty version, notice that this last “\<a\>” tag is not within the
 table but is within a “\<p\>” tag.
 
-{% include figure.html caption="Figure 5: The rogue link" src="../images/Beautiful-Soup-Tutorial-103x40-2013-08-23-13-23-07.jpg" %}
+{% include figure.html caption="Figure 5: The rogue link" filename="Beautiful-Soup-Tutorial-103x40-2013-08-23-13-23-07.jpg" %}
 
 
 Because Beautiful Soup allows us to modify the HTML, we can remove the
@@ -263,7 +263,7 @@ for link in links:
     print link
 ```
 
-{% include figure.html caption="Figure 6: Successfully isolated only names and URLs" src="../images/Beautiful-Soup-Tutorial-101x26-2013-08-23-13-28-04.jpg" %}
+{% include figure.html caption="Figure 6: Successfully isolated only names and URLs" filename="Beautiful-Soup-Tutorial-101x26-2013-08-23-13-28-04.jpg" %}
 
 Success! We have isolated out all of the links we want and none of the links we don’t!
 
@@ -311,7 +311,7 @@ for link in links:
     print fullLink
 ```
 
-{% include figure.html caption="Figure 7: All HTML tags have been removed" src="../images/Beautiful-Soup-Tutorial-101x26-2013-08-23-14-13-13.jpg" %}
+{% include figure.html caption="Figure 7: All HTML tags have been removed" filename="Beautiful-Soup-Tutorial-101x26-2013-08-23-14-13-13.jpg" %}
 
 Finally, we want to use the CSV library to write the file. First, we
 need to import the CSV library into the script with “import csv.” Next,
@@ -343,7 +343,7 @@ for link in links:
 When executed, this gives us a clean CSV file that we can then use for
 other purposes.
 
-{% include figure.html src="../images/43rd_Congress-2-2013-08-23-14-18-27.jpg" caption="Figure 8: CSV file of results" %}
+{% include figure.html filename="43rd_Congress-2-2013-08-23-14-18-27.jpg" caption="Figure 8: CSV file of results" %}
 
 We have solved our puzzle and have extracted names and URLs from the
 HTML file.
@@ -375,7 +375,7 @@ lot more content than when we searched for “\<a\>” tags. Now we need to
 sort through all of these lines to separate out the different types of
 data.
 
-{% include figure.html src="../images/Beautiful-Soup-Tutorial-142x40-2013-08-23-16-51-22.jpg" caption="Figure 9: All of the Table Row data" %}
+{% include figure.html filename="Beautiful-Soup-Tutorial-142x40-2013-08-23-16-51-22.jpg" caption="Figure 9: All of the Table Row data" %}
 
 ### Extracting the Data
 
