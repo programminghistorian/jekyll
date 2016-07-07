@@ -1,12 +1,13 @@
 ---
-title: |
-    Transforming Historical Data for Reuse and Republication: A Guide to XML and XSL Transformations
+title: Transforming Historical Data for Reuse and Republication: A Guide to XML and XSL Transformations
 authors:
 - M. H. Beals
-date: 2016-03-12
+date: 2016-07-07
 reviewers:
--
+- Jonathan Blaney
+- Tessa Hauswedell
 layout: default
+difficulty: 1
 ---
 
 ## Introduction
