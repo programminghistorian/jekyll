@@ -143,6 +143,13 @@ Just like it sounds, learn how to use programming to change, move, clean, or cou
       <p>Adam Crymble</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/transforming-xml-with-xsl">
+      <img src="../gallery/transforming-xml-with-xsl.png">
+      <h3>Transforming Historical Data for Reuse and Re-publication: XML and XSL Transformations</h3>
+      <p>M.H. Beals</p>
+    </a>
+  </li>
 </ul>
 
 
