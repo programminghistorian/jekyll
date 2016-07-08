@@ -100,18 +100,13 @@ If that doesn't work, check to see if there's a problem that's keeping the site 
 
 ### C) Verify Images
 
-All images should use consistent, serially numbered filenames that clearly relate to the lesson in which they will appear--ideally using the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, `counting-frequencies-1.png`, `counting-frequencies-2.png`, and so on.) Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
+All images should use consistent, semantically meaningful filenames that clearly indicate what they are. If a lesson has a large number of images in rapid succession, and the order is important (for example, a series of screenshots), it may be advisable to use a sequential naming system---ideally using the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, `counting-frequencies-1.png`, `counting-frequencies-2.png`, and so on.)
+
+If a lesson does use a sequential image naming system, it is possible that figure numbering will change during the peer review process. We ask that before a lesson is published that all filenames are updated to the proper figure numbers. This makes it much easier for us to update lessons if needed in the future. Thank you for helping us keep the *Programming Historian* sustainable.
+
+Regardless of how the images are named (semantically or sequentially), they should be placed in a subdirectory within the `images` directory. The subdirectory should be named using the same URL slug used to name the lesson. Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
 
 Full instructions on adding images is available in [Author Submission Instructions](http://programminghistorian.org/new-lesson-workflow).
-
-It is possible that figure numbering will change during the peer review process. We ask that before a lesson is published that all filenames are updated to the proper figure numbers. This makes it much easier for us to update lessons if needed in the future. Thank you for helping us keep the *Programming Historian* sustainable.
-
-A lesson's images should be stored in the following location:
-
-     /images/LESSON-SLUG/FILENAME-HERE-1.png
-     /images/LESSON-SLUG/FILENAME-HERE-2.png
-     /images/LESSON-SLUG/FILENAME-HERE-3.png
-     etc.
 
 ### D) Verify Data files
 

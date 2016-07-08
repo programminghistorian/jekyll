@@ -122,24 +122,27 @@ Endnotes, and Emphasis may not work the same way in other applications that use 
 
 The `figure` and `figcaption` [elements provided by HTML5] provide
 useful ways to link text with an image. To implement figures in your
-lesson, use the following line of code in the body of your lesson:
+lesson, first create a folder in which you will store all of the images
+for your lesson. The folder name should be the same as the `LESSON-SLUG`
+that you have chosen for your lesson file name. Then, whenever you want
+to insert a figure, use the following line of code in the body of your lesson:
 
 {% raw %}
 
 ``` text
-{% include figure.html src="../images/LESSON-SLUG/IMAGE-FILENAME" caption="Caption to image" %}
+{% include figure.html filename="IMAGE-FILENAME" caption="Caption to image" %}
 ```
 
 {% endraw %}
 
-You'll need to modify `LESSON-SLUG`, `IMAGE-FILENAME`, and `Caption to image` according to your lesson and image. Note that you may use Markdown within caption text, for instance to mark text as bold or italic.
+You'll need to modify `IMAGE-FILENAME` and `Caption to image` according to your lesson and image. Note that you may use Markdown within caption text, for instance to mark text as bold or italic.
 
-When the Markdown is rendered by our system, this line will produce HTML that looks like this:
+When the Markdown is rendered by our system, this line will automatically produce HTML that looks like this:
 
 ``` html
 <figure>
-    <a href="../images/lesson-slug/image-filename">
-       <img src="../images/lesson-slug/image-filename" alt="Caption to image">
+    <a href="../images/LESSON-SLUG/IMAGE-FILENAME">
+       <img src="../images/LESSON-SLUG/IMAGE-FILENAME" alt="Caption to image">
     </a>
 <figcaption>
     Caption to image
@@ -152,17 +155,17 @@ up in the preview on GitHub or in other Markdown preview programs, but
 it will be visible on the *Programming Historian* website. See an
 [example of the preview with figures here], and the [live version here].
 
-If you use any images in your lesson, please give them consistent,
-serially numbered filenames that clearly relate to the lesson in which
-they will appear. We recommend that you use the same hyphenated filename
-slug as the lesson itself (or an abbreviated version if the lesson title
-is rather long), followed by numbers to indicate which figure it is (For
-example, `counting-frequencies-1.png`, `counting-frequencies-2.png`, and
-so on.) Make sure the images are in web-friendly formats such as PNG or
-JPEG and sized appropriately (both in terms of pixels and bytes).
+If you use any images in your lesson, please give them consistent, semantically
+meaningful filenames that clearly indicate Alternatively, you can also name
+them sequentially using the same hyphenated filename slug as the lesson itself
+(or an abbreviated version if the lesson title is rather long), followed by
+numbers to indicate which figure it is (For example,
+`counting-frequencies-1.png`, `counting-frequencies-2.png`, and so on.) Make
+sure the images are in web-friendly formats such as PNG or JPEG and sized
+appropriately (both in terms of pixels and bytes).
 
-While working on your lesson, we recommend that you place all the images for your lesson in a local
-subdirectory called `images`.
+The editor assigned to your lesson can assist you in uploading your
+images to the `ph-submissions` repository when you submit your lesson.
 
 ### Tables
 
