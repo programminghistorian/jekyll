@@ -4,7 +4,9 @@ authors:
 - Shawn Graham
 date: 2016-06-07
 reviewers:
-- Ian Milligan; Jeff Veitch; Tim Compeau
+- Ian Milligan
+- Jeff Veitch
+- Tim Compeau
 layout: default
 difficulty: 2
 ---
