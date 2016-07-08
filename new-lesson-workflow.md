@@ -282,7 +282,7 @@ After submitting a lesson, if you haven't done so already, send your editor a sh
 
 At this point, the editor will ask at least two others to review your lesson and make suggestions for improvements. We aim to complete this process within four weeks, but sometimes delays occur or people get busy and the process can take longer than we hoped. 
 
-In keeping with the ideas of public scholarship and open peer review, we encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable with the process. If you feel the need to discuss privately a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](http://programminghistorian.org/project-team), or to contact one of our dedicated ombudsperson, [Ian Milligan](http://programminghistorian.org/project-team).
+In keeping with the ideas of public scholarship and open peer review, we encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable with the process. If you feel the need to discuss privately a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](http://programminghistorian.org/project-team), or to contact one of our dedicated ombudsperson, [Ian Milligan or Amanda Visconti](http://programminghistorian.org/project-team).
 
 
 ### Respond to Feedback
