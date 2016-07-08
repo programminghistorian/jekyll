@@ -4,10 +4,13 @@ date: 03-14-2015
 layout: blank
 ---
 
+# Reviewer Guidelines
+
+These guidelines are to help reviewers understand their role in the editorial process and to answer common questions you might have.
+
 * TOC
 {:toc}
 
-# Reviewer Guidelines
 
 ## Our Review Philosophy
 
