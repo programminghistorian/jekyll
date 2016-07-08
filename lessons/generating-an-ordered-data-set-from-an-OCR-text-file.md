@@ -52,7 +52,7 @@ Very often the texts that historians wish to digitize are, in fact, ordered data
 
 This is where a scripting language like Python comes very much in handy. For our project we wanted to prepare some of the documents from a 12th century collection of *imbreviatura* from the Italian scribe known as [Giovanni Scriba](http://www.worldcat.org/oclc/17591390) so that they could be marked up by historians for subsequent NLP analysis or potentially for other purposes as well. The pages of the 1935 published edition look like this.
 
-![GS page 110](../images/gs_pg110.png)
+{% include figure.html filename="gs_pg110.png" caption="GS page 110" %}
 
 
 The OCR output from such scans look like this even after some substantial clean-up (I've wrapped the longest lines so that they fit here):
@@ -145,11 +145,11 @@ We're going to borrow a couple of functions written by others. They both represe
 ### <a name="levenshtein-distance"></a> Levenshtein distance
 You will note that some of the metadata listed above is page-bound and some of it is charter-bound. Getting these untangled from each other is our aim. There is a class of page-bound data that is useless for our purposes, and only meaningful in the context of a physical book: page headers and footers. In our text, these look like this on *recto* leaves (in a codex, a book, *recto* is the right-side page, and *verso* its reverse, the left-side page)
 
-![recto header](../images/gs_recto_header.png)
+{% include figure.html filename="gs_recto_header.png" caption="recto header" %}
 
 and this on *verso* leaves:
 
-![verso header](../images/gs_verso_header.png)
+{% include figure.html filename="gs_verso_header.png" caption="verso header" %}
 
 We'd like to preserve the page number information for each charter on the page, but the header text isn't useful to us and will just make any search and replace operation more difficult. So we'd like to find header text and replace it with a string that's easy to find with a Regular Expression, and store the page number.
 
@@ -474,7 +474,7 @@ Again, as before, once you've found and corrected all the folio markers in your 
 ## <a name="summary"></a> Find and normalize the Italian summary lines.
 This important line is invariably the first one after the charter heading.
 
-![italian summary line](../images/gs_italian_summary.png)
+{% include figure.html filename="gs_italian_summary.png" caption="italian summary line" %}
 
 Since those roman numeral headings are now reliably findable with our 'slug' regex, we can now isolate the line that appears immediately after it. We also know that the summaries always end with some kind of parenthesized date expression. So, we can compose a regular expression to find the slug and the line following: 
 
@@ -1034,7 +1034,7 @@ fout.write("""</body></html>""")
     
 Drop the resulting file on a web browser, and you've got a nicely formated electronic edition.
 
-![html formatted charter example](../images/gs_gscriba207.png)
+{% include figure.html filename="gs_gscriba207.png" caption="html formatted charter example" %}
 
 Being able to do this with your, still mostly uncorrected, OCR output is not a trivial advantage. If you're serious about creating a clean, error free, electronic edition of anything, you've got to do some serious proofreading. Having a source text formatted for reading is crucial; moreover, if your proofreader can change the font, spacing, color, layout, and so forth at will, you can increase their accuracy and productivity substantially. With this example in a modern web browser, tweaking those parameters with some simple CSS declarations is easy. Also, with some ordered HTML to work with, you might crowd-source the OCR error correction, instead of hiring that army of illiterate street urchins.
 
