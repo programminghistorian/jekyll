@@ -10,7 +10,7 @@ layout: default
 difficulty: 2
 ---
 
-{% include figure.html src="../images/lexoriter.jpg" caption="" %}
+{% include figure.html filename="lexoriter.jpg" caption="" %}
 
 ## Objectives
 
@@ -347,7 +347,7 @@ You can download this sample .md file
 As we shall do shortly, this plain text file can be rendered as a very
 nice PDF:
 
-{% include figure.html src="../images/Screen-Shot-2014-11-06.png" caption="Screen shot of PDF rendered by Pandoc" %}
+{% include figure.html filename="Screen-Shot-2014-11-06.png" caption="Screen shot of PDF rendered by Pandoc" %}
 
 If you'd like to get an idea of how this kind of markup will be
 interpreted as HTML formatting, try [this online

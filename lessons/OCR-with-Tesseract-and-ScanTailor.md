@@ -40,7 +40,7 @@ Ok, are you ready? Let's start then!
 
 So, now that you have the material you want to convert into text form, there are two options for doing the prework. The preferable option is to scan the texts, if you have a good scanner. If you don't, you can take digital photographs of the documents. Scanning is a better option, because when the paper lays on the scanner's glass, it will be more or less straight. When you are taking photographs of a big book, the flexure of the paper might cause reduced readability later in the process.
 
-{% include figure.html src="../images/OCR01.jpg" caption="My scan." %}
+{% include figure.html filename="OCR01.jpg" caption="My scan." %}
 
 When you are scanning or photographing the document, scan all the pages. At some point you'll be tempted to scan only 500 of the 1000 pages, but don't do it! Just do all 1000 pages. Partial documentation will not reveal the whole picture of it, and you will not be able to relate your findings or analysis to the whole document. And although this part of the work is the most boring, try to be patient and diligent. There is nothing more frustrating than noticing that there is one page missing from the entire document!  
 
@@ -50,7 +50,7 @@ It will be a good practice to save the metadata as well. That is, write down to 
 
 I use Zotero for keeping track of the metadata of my sources, and here is an example of one of them. If you prefer, you can also just write down the metadata on a notepad. Just make sure that you'll store the information in a logical place, where you'll be able to find it. 
 
-{% include figure.html src="../images/OCR02.png" caption="My metadata in Zotero" %}
+{% include figure.html filename="OCR02.png" caption="My metadata in Zotero" %}
 
 
 ##<a name="imagepreprocessing"></a>Image Preprocessing
@@ -61,40 +61,40 @@ For image preprocessing I use a free and open source program called *Scan Tailor
 
 When you have downloaded Scan Tailor, open the text scans in the program by clicking "New project", browsing and selecting the file where you saved your text scans, and finally selecting the images you want to preprocess. Scan Tailor is a relatively heavy program, which means that it reserves quite a lot of the computer's capacity. For that reason it is better to divide large files into smaller entities, and preprocess them in parts. When starting a new project you can choose which images you want to select for preprocessing. When you have selected the scans for preprocessing, click "OK". 
 
-{% include figure.html src="../images/OCR03.png" caption="Starting a new project in Scan Tailor" %} 
+{% include figure.html filename="OCR03.png" caption="Starting a new project in Scan Tailor" %} 
 
 Before starting the actual preprocessing we will need to fix the DPI of the images. DPI stands for *dots per inch*, which practically means the resolution of the images. In order to ensure high quality OCR, it is better to choose 300 DPI or more. Click "Apply", and then "OK".
 
-{% include figure.html src="../images/OCR04.png" caption="Choosing DPI" %}
+{% include figure.html filename="OCR04.png" caption="Choosing DPI" %}
 
 Now we have the project open in Scan Tailor, and we can start preprocessing. On the left bar you can see the steps of preprocessing work, and in the right bar are the scans that we are going to preprocess. Remember to save the project every now and then so that you will not lose the work you've done!
 
-{% include figure.html src="../images/OCR05.png" caption="Fixing orientation of the scans." %}
+{% include figure.html filename="OCR05.png" caption="Fixing orientation of the scans." %}
 
 The first step is to fix the orientation of the scans by using the arrows, if the scans are not already straight. By selecting all the scanned pages one by one we can fix the orientation of each of them.
 
 The next step is to split the pages, if you have scanned two pages at once. You can move the line pointing to the automatic suggestion of the program if you need to.
 
-{% include figure.html src="../images/OCR06.png" caption="Splitting the pages." %}   
+{% include figure.html filename="OCR06.png" caption="Splitting the pages." %}   
 
 Now that we have split the pages, the third step is to deskew the orientation of the texts.
 
-{% include figure.html src="../images/OCR07.png" caption="Deskewing the orientation of the scans." %}
+{% include figure.html filename="OCR07.png" caption="Deskewing the orientation of the scans." %}
 
 The fourth step is to select the content. In this project the page numbers were not important, and therefore I left them out. 
-{% include figure.html src="../images/OCR08.png" caption="Selecting content." %}
+{% include figure.html filename="OCR08.png" caption="Selecting content." %}
 
 After selecting the content we will set the margins. For ORC results the margins are not important, and at this point we can just check that everything that we want to OCR is within the white text area.
 
-{% include figure.html src="../images/OCR09.png" caption="Setting the margins." %}
+{% include figure.html filename="OCR09.png" caption="Setting the margins." %}
 
 The last step is to check the output by selecting the coloring of the image and thickness of the lines, and cleaning the unnecessary spots and lines. For OCR purposes it is important that the letters are clear (not too thick, nor thin) and that there is as little "noise" as possible. For my pages I wanted to remove the lines (by choosing the Fill Zones function in the right side of the image) and to make the letters slightly thinner. You might also want to try dewarping the text, which helps especially if your text is uneven. At this point you can also check that the output resolution is at least 300 DPI.
 
-{% include figure.html src="../images/OCR10.png" caption="Checking the output of the images." %}
+{% include figure.html filename="OCR10.png" caption="Checking the output of the images." %}
 
 When you are satisfied with the output, click the small arrow in the "Output" bar. The program will run for a moment, and then your preprocessing work is done! Save the project once more, and now you can close the program. Scan Tailor created a new folder for the preprocessed images named "out" inside the project folder. Scan Tailor will name the preprocessed images. For the next step it is a good idea to make sure that the names are short and easy, and if they are not, rename them.
 
-{% include figure.html src="../images/OCR11.png" caption="Preprocessed scans in the 'out' folder." %} 
+{% include figure.html filename="OCR11.png" caption="Preprocessed scans in the 'out' folder." %} 
 
 If you feel you need more instructions on how to use Scan Tailor, they have good instructions on their [web page](https://github.com/scantailor/scantailor/wiki/User-Guide), and a handy [video](https://vimeo.com/12524529).
 
@@ -128,11 +128,11 @@ The name of the document I'll OCR is Podstawy01.tif, and I want the name of the 
 tesseract Podstawy01.tif OCRPodstawy01 -l pol
 ```
 
-{% include figure.html src="../images/OCR12.png" caption="After running the command." %}  
+{% include figure.html filename="OCR12.png" caption="After running the command." %}  
 
 Tesseract saves the OCR outputs in Unicode, which means that it should also understand characters that are not used in English. If you click with the right button of your mouse the OCR output document, and choose to "Open with" Notepad, Notepad will display the "special characters" correctly:
 
-{% include figure.html src="../images/OCR13.png" caption="Ready OCR'd text in Notepad." %}
+{% include figure.html filename="OCR13.png" caption="Ready OCR'd text in Notepad." %}
 
 Now you know how to OCR! Congratulations! 
 
@@ -158,7 +158,7 @@ Then we'll create a little gadget: open an empty Notepad and copy the following 
 
 Then write the path for the input source (the folder where the preprocessed images are located) after 'Set\_SourcePath=', and the path for the output (the folder where you want the ready OCR'd texts to be stored) after 'Set\_OutputPath='. If your texts are not in English, you'll need to indicate the language right after 'For %%A in (%\_SourcePath%) Do Echo Converting %%A...&%\_Tesseract% %%A %\_OutputPath%%%~nA'. 
 
-{% include figure.html src="../images/OCR14.png" caption="My script looks like this." %}
+{% include figure.html filename="OCR14.png" caption="My script looks like this." %}
 
 Now, save the notepad as .bat format (Windows batch file) and name it Tesseract_batch. Note that the encoding of the .bat file should be ANSI.
 
@@ -170,7 +170,7 @@ Now you have a bunch of text documents. If you want to unite the separate text d
 copy *.txt outputfile.txt
 ```
 
-{% include figure.html src="../images/OCR15.png" caption="With my documents it looks like this." %}
+{% include figure.html filename="OCR15.png" caption="With my documents it looks like this." %}
 
 The batched text file will appear in the file.
 

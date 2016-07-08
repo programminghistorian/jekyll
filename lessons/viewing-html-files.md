@@ -34,9 +34,9 @@ particular effect. You will also want to study HTML source as you write
 programs to manipulate web pages or automatically extract information
 from them.
 
-{% include figure.html src="../images/obo.png" caption="Old Bailey Online screenshot" %}
+{% include figure.html filename="obo.png" caption="Old Bailey Online screenshot" %}
 
-{% include figure.html src="../images/obo-page-source.png" caption="HTML Source for Old Bailey Online Web Page" %}
+{% include figure.html filename="obo-page-source.png" caption="HTML Source for Old Bailey Online Web Page" %}
 
 (To learn more about HTML, you may find it useful at this point to work
 through the [W3 Schools HTML tutorial][]. Detailed knowledge of HTML

@@ -136,18 +136,18 @@ To most effectively use Git to version control it is important to organize proje
 
 There are a number of different ways to **add** files for GitHub Desktop to track. We can drag the folder containing the file onto GitHub Desktop. When you do this you will be asked whether you want to create a repository for this folder. Alternatively we can click on the 'plus' icon to open a finder window to choose folders we want to add. 
 
-{% include figure.html src="../images/getting-started-with-github-desktop-1.png" caption="Adding a folder to GitHub Desktop" %}
+{% include figure.html filename="getting-started-with-github-desktop-1.png" caption="Adding a folder to GitHub Desktop" %}
 
 Once we have added our folder we will be able to see it in a list of repositories on the left column. 
 
-{% include figure.html src="../images/getting-started-with-github-desktop-2.png" caption="Adding a folder to GitHub Desktop" %}
+{% include figure.html filename="getting-started-with-github-desktop-2.png" caption="Adding a folder to GitHub Desktop" %}
 
 
 If we choose the repository we just added we will see the files contained in that repository. From this menu we can choose which files we want to version control. (There might be times when we are working on projects in which files are produced which we don't need or want to version control.) On the right we will see the current document. 
 
 If we show hidden folders in the folder we have just added to GitHub you will see that the folder now contains an extra folder with the name '.git'. This folder is how GitHub desktop tracks changes we make within our version controlled folder whether these changes be adding new files or modifying existing ones. 
 
-{% include figure.html src="../images/getting-started-with-github-desktop-18.png" caption="The folder being watched by GitHub desktop" %}
+{% include figure.html filename="getting-started-with-github-desktop-18.png" caption="The folder being watched by GitHub desktop" %}
 
 
 Lets go back to the document in our text editor and add something new. 
@@ -165,7 +165,7 @@ To do this we need to **commit** our changes.
 
 A **commit** tells Git that you made some changes which you want to record. Though a **commit** seems similar to saving a file, there are different aims behind 'committing' changes compared to saving changes. Though people sometimes save different versions of a document, often you are saving a document merely to record the version as it is when it is saved. Saving the document means you can close the file and return to it in the same state later on. **Commits**, however, take a snapshot of the file at that point and allow you to document information about the changes made to the document. 
 
-{% include figure.html src="../images/getting-started-with-github-desktop-3.png" caption="Committing changes" %}
+{% include figure.html filename="getting-started-with-github-desktop-3.png" caption="Committing changes" %}
 
 To commit changes you must give a summary of the changes and include an optional message. It is important that you think carefully about when to make commits. The advantages of version control taking snapshots of your changes regularly relies on you making commits. It is often tempting to just commit changes when you have finished working on a document but this might not reflect when important changes occurred.
 
@@ -223,15 +223,15 @@ There is some difference between how you would manage a repository primarily foc
 
 At the moment we are only recording our changes locally. We may be happy to only store our changes locally (it is still important to back our files up) but we may want to upload our repository onto GitHub to make it public or to have it stored outside of our computer. The process of doing this through GitHub Desktop is straightforward. On GitHub desktop you 'publish' repositories. This will **push** your repository from your computer to the GitHub website and set up a **remote** repository in the process. 
 
-{% include figure.html src="../images/getting-started-with-github-desktop-4.png" caption="Publishing a repository" %}
+{% include figure.html filename="getting-started-with-github-desktop-4.png" caption="Publishing a repository" %}
 
 Once you have 'published' your repository it will be viewable on your profile at GitHub's website. It is possible to setup a private repository on GitHub but this requires you to have either signed up as a [student](https://education.github.com/pack) or [researcher](https://github.com/blog/1840-improving-github-for-science) or to pay for a [GitHub subscription](https://github.com/pricing). If you haven't signed up for one of these options you will not be able to create a private repository without first signing up for a subscription. Unless you need to start a subscription you can safely ignore the 'billing information' section. For this lesson it will be fine to publish a public repository. To quickly view your repository online you can use the repository menu and choose 'View on GitHub'. This will bring you to your repository online in your browser. 
 
-{% include figure.html src="../images/getting-started-with-github-desktop-5.png" caption="Repository menu" %}
+{% include figure.html filename="getting-started-with-github-desktop-5.png" caption="Repository menu" %}
 
 You can now see your document in your online repository.
 
-{% include figure.html src="../images/getting-started-with-github-desktop-6.png" caption="The online repository you have published" %}
+{% include figure.html filename="getting-started-with-github-desktop-6.png" caption="The online repository you have published" %}
 
 Once your document is online, you can continue to make local changes to your file. But you will have to **sync** your local changes to reflect these changes in the published GitHub repository. GitHub stores changes both locally (on your computer) and remotely (on their servers). It is important to keep these changes in sync. On GitHub Desktop this process is simplified by using a sync option rather than by using the **push** and **pull** commands used on the command line. You will see a 'sync' button on GitHub Desktop. This will ensure your local (computer) and remote (GitHub server) repositories are the same. If you want to work on your document before 'publishing it' you can choose to make commits without syncing. This will allow you to implement version control early on whilst keeping the changes local to your computer initially.  
 
@@ -239,7 +239,7 @@ Once your document is online, you can continue to make local changes to your fil
 
 It is also possible to make a change to your repository on the web interface. Clicking on the name of the file will take you to a new page showing your document. 
 
-{% include figure.html src="../images/getting-started-with-github-desktop-7.png" caption="The view of your document online" %}
+{% include figure.html filename="getting-started-with-github-desktop-7.png" caption="The view of your document online" %}
 
 (Note: At this point it might seem strange that all the text appears on one line, when your local file had two lines. This is because in Markdown, syntax paragraphs must be broken using a blank line; two consecutive lines are interpreted as a single paragraph. If we had used the file extension '.txt' we would have had a line break appear here, but using the extension '.md' told the GitHub web interface to preview the document using Markdown rules. This is another reason that using a text editor which includes facilities for rendering your Markdown file will be useful when you are first using the format.)  
 
@@ -247,24 +247,24 @@ From the web interface you have a variety of options available to you, including
 
 Click on the edit option.
 
-{% include figure.html src="../images/getting-started-with-github-desktop-8.png" caption="The edit link" %}
+{% include figure.html filename="getting-started-with-github-desktop-8.png" caption="The edit link" %}
 
 You will now be able to edit the file and add some new text. 
 
-{% include figure.html src="../images/getting-started-with-github-desktop-9.png" caption="The editing view" %}
+{% include figure.html filename="getting-started-with-github-desktop-9.png" caption="The editing view" %}
 
 Once you have made some changes to your file, you will again see the option to commit changes at the bottom of the text entry box. 
 
-{% include figure.html src="../images/getting-started-with-github-desktop-10.png" caption="The remote commit view" %}
+{% include figure.html filename="getting-started-with-github-desktop-10.png" caption="The remote commit view" %}
 
 
 Once you have committed these changes they will be stored on the remote repository. To get them back onto our computer we need to sync our these changes. We will see the 'sync' button on GitHub Desktop. 
 
-{% include figure.html src="../images/getting-started-with-github-desktop-11.png" caption="The sync button" %}
+{% include figure.html filename="getting-started-with-github-desktop-11.png" caption="The sync button" %}
 
 We now have our remote changes synced back onto our computer.
 
-{% include figure.html src="../images/getting-started-with-github-desktop-12.png" caption="Our document with remote changes synced" %}
+{% include figure.html filename="getting-started-with-github-desktop-12.png" caption="Our document with remote changes synced" %}
 
 You can see from this view that we now have the text with changes highlighted in green and red. Red indicates where things have been removed while green indicates additions. This can be useful for viewing the edits you have made before making a commit and helps you spot whether all the changes are ones you want to commit. On the left you will see a history of the changes you have made. At the moment this is very brief but as you work on a project the history might become much longer. Being able to see the changes you have made at different stages can be very useful.
 
@@ -276,25 +276,25 @@ The most likely way a conflict will emerge is if you make a change remotely (on 
 
 An example will help illustrate how conflicts can emerge and how to deal with them. Say we add a change to our remote repository (on the GitHub website).
 
-{% include figure.html src="../images/getting-started-with-github-desktop-13.png" caption="A remote change to our document" %}
+{% include figure.html filename="getting-started-with-github-desktop-13.png" caption="A remote change to our document" %}
 
 We commit this change on the website and subsequently make a change to the document on our local machine. 
 
-{% include figure.html src="../images/getting-started-with-github-desktop-14.png" caption="A local change to our document" %}
+{% include figure.html filename="getting-started-with-github-desktop-14.png" caption="A local change to our document" %}
 
 If we now commit our local changes and try and sync our changes we get a message warning us about sync conflicts
 
-{% include figure.html src="../images/getting-started-with-github-desktop-15.png" caption="GitHub desktop warning of sync conflicts" %}
+{% include figure.html filename="getting-started-with-github-desktop-15.png" caption="GitHub desktop warning of sync conflicts" %}
 
 This is not a big problem. What you will need to do is manage these conflicts. GitHub desktop offers you the option of opening the file with the sync conflicts. 
 
-{% include figure.html src="../images/getting-started-with-github-desktop-16.png" caption="GitHub desktop options for opening file containing conflicts" %}
+{% include figure.html filename="getting-started-with-github-desktop-16.png" caption="GitHub desktop options for opening file containing conflicts" %}
 
 If we choose to open file with an external editor the document will open with whichever text editor/application we have chosen as the default for opening markdown files. If you haven't set a default application you can choose to 'show in finder'. This will show the folder with your file. From here you can open it with your preferred editor. 
 
 If we take a look at the file we will see Git has highlighted the conflicting section. 
 
-{% include figure.html src="../images/getting-started-with-github-desktop-17.png" caption="Conflicts highlighted in our document" %}
+{% include figure.html filename="getting-started-with-github-desktop-17.png" caption="Conflicts highlighted in our document" %}
 
 You will see that the conflicting section is marked with `<<<<<<<` and ends with `>>>>>>>`. These are known as the conflict markers. The two conflicting blocks are divided by a `=======` line. There are a number of approaches to dealing with a conflict. You could choose to go with either of the changes by deleting the version you no longer want and removing the conflict markers. You could also decide to change the section entirely and not choose either of the options. Once you have 'resolved' the conflict you can go onto commit and sync your changes as usual. When you go to commit your changes you see that GitHub desktop specifies that the commit is to merge a conflict. This is useful if you later want to go back and review how you managed any conflicts. 
 
