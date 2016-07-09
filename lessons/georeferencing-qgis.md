@@ -193,7 +193,7 @@ Some tips for choosing control points:
 
 -   Click on Add Point on toolbar
 
-{% include figure.html src=" ../images/geo101.png" caption="Figure 10" %}
+{% include figure.html filename="geo101.png" caption="Figure 10" %}
 
 -   Click on the place in the printed map that you can locate in your
     GIS (i.e. the control point). The Georeferencer window will now
