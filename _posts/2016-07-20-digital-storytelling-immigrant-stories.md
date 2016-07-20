@@ -23,5 +23,3 @@ You can train others to create digital stories with our simple digital storytell
 Finally, in August 2016 we will launch a new tool to make digital storytelling simpler than ever. The Immigrant Stories web application will be a one-stop shop to make and share a digital story. The application will incorporate our existing digital storytelling training and a video editing program, eliminating the need for outside software. Using this free tool will only require a computer or mobile device connected to the Internet. The application’s code will be available on GitHub, where we encourage others to reuse it.
 
 For more information about Immigrant Stories, project updates, and to view our digital stories, visit us at [www.immigrantstories.umn.edu](http://www.immigrantstories.umn.edu/).
-
-_Editor's Note: Elizabeth Venditto is Project Manager for Immigrant Stories, a digital storytelling initiative based at the University of Minnesota's Immigration History Research Center._
