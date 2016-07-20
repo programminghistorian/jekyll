@@ -259,7 +259,7 @@ own bag, which has a different set of words, and then he would follow
 the same procedure of taking out a word, writing it down, putting it
 back in. It's just one damn word after another.
 
-{% include figure.html src="../images/naive-bayesian-1.png" caption="Bags of Words" %}
+{% include figure.html filename="naive-bayesian-1.png" caption="Bags of Words" %}
 
 *(If this procedure sounds familiar, that may be because it sounds a bit
 like the generative story told in explaining how [topic modeling][] works. 
@@ -534,7 +534,7 @@ If you only downloaded the scripts, you should do the following:
 
 On my Mac, the structure looks like this:
 
-{% include figure.html src="../images/naive-bayesian-2.png" caption="Bailey Folders" %}
+{% include figure.html filename="naive-bayesian-2.png" caption="Bailey Folders" %}
 
 #### Downloading trials
 

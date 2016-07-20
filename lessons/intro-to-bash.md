@@ -20,7 +20,7 @@ difficulty: 1
 
 Many of the lessons at the *Programming Historian* require you to enter commands through a **Command-Line Interface**. The usual way that computer users today interact with their system is through a **Graphical-User Interface**, or GUI. This means that when you go into a folder, you click on a picture of a file folder; when you run a program, you click on it; and when you browse the web, you use your mouse to interact with various elements on a webpage. Before the rise of GUIs in the late 1980s, however, the primary way to interact with a computer was through a command-line interface.
 
-{% include figure.html src="../images/GUI.png" caption="GUI of Ian Milligan's Computer" %}
+{% include figure.html filename="GUI.png" caption="GUI of Ian Milligan's Computer" %}
 
 Command-line interfaces have advantages for computer users who need more precision in their work -- such as digital historians. They allow for more detail when running some programs, as you can add modifiers to specify *exactly* how you want your program to run. Furthermore, they can be easily automated through [scripts](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/chap_01.html), which are essentially recipes of text-based commands.
 
@@ -38,15 +38,15 @@ Let's start up the shell. In Windows, run Git Bash from the directory that you i
 
 `Applications -> Utilities -> Terminal` 
 
-{% include figure.html src="../images/Terminal.png" caption="The Terminal.app program on OS X" %}
+{% include figure.html filename="Terminal.png" caption="The Terminal.app program on OS X" %}
 
 When you run it, you will see this window. 
 
-{% include figure.html src="../images/Blank-Terminal.png" caption="A blank terminal screen on our OS X workstation" %}
+{% include figure.html filename="Blank-Terminal.png" caption="A blank terminal screen on our OS X workstation" %}
 
 You might want to change the default visual appearance of the terminal, as eyes can strain at repeatedly looking at black text on a white background. In the default OS X application, you can open the 'Settings' menu in 'Preferences' under Terminal. Click on the 'Settings' tab and change it to a new colour scheme. We personally prefer something with a bit less contrast between background and foreground, as you'll be staring at this a great deal. 'Novel' is a soothing one as is the popular [Solarized](http://ethanschoonover.com/solarized) suite of colour palettes. For Windows users, a similar effect can be achieved using the Git Bash `Properties` tab. To reach this, right-click anywhere in the top bar and select `Properties`.
 
-{% include figure.html src="../images/Settings.png" caption="The Settings Screen on the OS X Terminal Shell Application" %}
+{% include figure.html filename="Settings.png" caption="The Settings Screen on the OS X Terminal Shell Application" %}
 
 Once you are happy with the interface, let's get started.
 
@@ -74,7 +74,7 @@ You may want more information than just a list of files. You can do this by spec
 
 `man ls`
 
-{% include figure.html src="../images/man-ls.png" caption="The Manual page for the LS command" %}
+{% include figure.html filename="man-ls.png" caption="The Manual page for the LS command" %}
 
 Here, you see a listing of the name of the command, the way that you can format this command and what it does. **Many of these will not make sense at this stage, but don't worry; over time you will become more familiar with them.** You can explore this page in a variety of ways: the spacebar moves down a page, or you can arrow down and arrow up throughout the document. 
 
@@ -260,7 +260,7 @@ Type
 
 You should see vim come to life before you, a command-line based text editor.
 
-{% include figure.html src="../images/vim.png" caption="Vim" %}
+{% include figure.html filename="vim.png" caption="Vim" %}
 
 If you really want to get into Vim, there is a [good Vim guide](http://vimdoc.sourceforge.net/htmldoc/quickref.html) available. 
 
@@ -274,7 +274,7 @@ If you want to rapidly move to the end of a line, you can press: `$` and to move
 
 Let's scroll to the top and do a minor change, such as adding a `Reader` field in the heading. Move your cursor in between **Author:** and **Translators:**, like so:
 
-{% include figure.html src="../images/about-to-insert.png" caption="About to Insert a Field" %}
+{% include figure.html filename="about-to-insert.png" caption="About to Insert a Field" %}
 
 If you just start typing, you'll get an error message or the cursor will begin jumping around. This is because you have to specify that you want to do an edit. Press the letter
 
@@ -294,7 +294,7 @@ To leave vim or to make saves, you have to enter a series of commands. Press `:`
 
 >> "tolstoy.txt" [dos] 65009L, 3291681C written
 
-{% include figure.html src="../images/after-writing.png" caption="After Writing the File, with Our Minor Change" %}
+{% include figure.html filename="after-writing.png" caption="After Writing the File, with Our Minor Change" %}
 
 If you want to quit, type `:` again and then `q`. It will return you to the command line. As with the rest of bash, you could have also combined the two commands. Pressing `:` and then typing `wq` would have written the file and then quit. Or, if you wanted to exit **without** saving, `q!` would have quit vim and overriden the default preference to save your changes.
 

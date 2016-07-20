@@ -8,7 +8,7 @@ reviewers:
 - Shawn Graham
 - Nick Ruest
 layout: default
-difficulty: 1
+difficulty: 2
 ---
 
 [jq]: https://stedolan.github.io/jq/
@@ -130,7 +130,7 @@ For this, you will only need your internet browser.
 [jq play] cannot handle very large JSON files, but it is a great sandbox for learning the query language for jq.
 (At the end of this lesson, we will download and install the command-line version of jq, which you may use to speedily parse much larger JSON files.)
 
-{% include figure.html src="../images/json-and-jq/jqplay-screenshot.png" caption="The jq play website, with input JSON, filter, and results." %}
+{% include figure.html filename="jqplay-screenshot.png" caption="The jq play website, with input JSON, filter, and results." %}
 
 We will type all queries into the "Filter" box in the upper-left corner of [jq play].
 Some of the filter queries are long, so be sure to scroll all the way to the right when copying them.
@@ -220,12 +220,12 @@ To make clear what has happened, check the "Compact Output" checkbox in the uppe
 This removes the cosmetic line breaks in the results, returning one JSON object per line.
 You should have a 10-line output now.
 
-{% include figure.html src="../images/json-and-jq/compact-output-multiple.png" caption="jq's 'Compact Output' option removes all cosmetic line breaks in a file, just leaving one JSON object per line." %}
+{% include figure.html filename="compact-output-multiple.png" caption="jq's 'Compact Output' option removes all cosmetic line breaks in a file, just leaving one JSON object per line." %}
 
 Keeping "Compact Output" checked, remove the `[]` from the filter, so it just reads `.artObjects` again.
 The results should now be just one line, as jq is now just returning one single JSON array:
 
-{% include figure.html src="../images/json-and-jq/compact-output-single.png" caption="When jq returns just one JSON object, the 'Compact Output' option will produce a one-line result." %}
+{% include figure.html filename="compact-output-single.png" caption="When jq returns just one JSON object, the 'Compact Output' option will produce a one-line result." %}
 
 If you want to access just the first (or the _n_-th) item in an array, put a digit in the `[]` operator:
 

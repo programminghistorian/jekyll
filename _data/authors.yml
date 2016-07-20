@@ -308,11 +308,15 @@
         Sarah Simpkin is a GIS, Geography, and Computer Science librarian at the University of Ottawa.
 
 - name: Amanda Visconti
+  github: amandavisconti
+  email: aviscont@purdue.edu
   twitter: literature_geek
   url: "http://www.amandavisconti.com"
-  team: false
+  team: true
   bio: |
-       Amanda Visconti is a UX designer/developer & digital humanities assistant professor at Purdue University Libraries. She is interested in DH interface design for participatory and public learning and research, web annotation, and scholarly building. You can follow her @Literature_Geek or read her posts on digital humanities web development and other DH experimentation at LiteratureGeek.com.
+    Amanda Visconti is a UX designer/developer & digital humanities assistant professor at Purdue University Libraries. You can follow her @Literature_Geek or read her posts on digital humanities web development and other DH experimentation at LiteratureGeek.com.
+  interests: |
+    She is interested in working with authors on topics including: web design and development, server administration, and digital editing; she is also interested in supporting authors who have not previously written documentation or lessons in the PH style. As a PH ombudsperson, you can contact her to discuss any issues or concerns around the PH review and publication process.
 
 - name: Megan R. Brett
   twitter: magpie
@@ -332,3 +336,11 @@
   team: false
   bio: |
        Ted Dawson is a Doctoral Candidate in German Studies at Vanderbilt University.      
+      
+- name: M. H. Beals
+  twitter: mhbeals
+  url: "http://mhbeals.com/"
+  team: false
+  bio: |
+        M. H. Beals is a Lecturer in Digital History at Loughborough University.
+      

@@ -35,7 +35,7 @@ Our peer review process is a bit different from what might be considered the “
 
 Once the peer review has commenced, the role of the editor is to mediate between reviewers and authors, and keep the process on track in a timely manner. Unlike in traditional closed peer review systems, you get notified of reviewer comments the moment they appear. This means it is possible that you will see the review before the editor does. If at any point you are unsure if you should start addressing the comments or wait for the editor, feel free to post a question to clarify. You'll understand that sometimes it will take the editor a few days to respond, but we hope the improvements to your lesson will be worth the wait.
 
-In keeping with the ideas of public scholarship and open peer review, we generally encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable and we recognise that in some cases a private word may be more appropriate. If you feel the need to discuss a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](http://programminghistorian.org/project-team), or to contact our ombudsperson, [Ian Milligan](http://programminghistorian.org/project-team).
+In keeping with the ideas of public scholarship and open peer review, we generally encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable and we recognise that in some cases a private word may be more appropriate. If you feel the need to discuss a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](http://programminghistorian.org/project-team), or to contact our ombudsperson, [Ian Milligan or Amanda Visconti](http://programminghistorian.org/project-team).
 
 We strive to ensure all tutorials are functional on their date of publication. From time to time technology changes and tutorials cease to function as intended. If this happens, please [let us know](feedback) and we will assign an editor to fix the problem.
 
@@ -60,6 +60,6 @@ Please direct correspondence in the first instance to <a href="mailto:i2millig@u
 
 If you wish to cite _The Programming Historian_ project, may we suggest the following:
 
-Crymble, Adam, Fred Gibbs, Allison Hegel, Caleb McDaniel, Ian Milligan, Evan Taparata, and Jeri Wieringa, eds. _The Programming Historian_. 2nd ed., 2016. [http://programminghistorian.org/](http://programminghistorian.org/).
+Crymble, Adam, Fred Gibbs, Allison Hegel, Caleb McDaniel, Ian Milligan, Evan Taparata, Amanda Visconti, and Jeri Wieringa, eds. _The Programming Historian_. 2nd ed., 2016. [http://programminghistorian.org/](http://programminghistorian.org/).
 
 Individual lesson citation formats are shown at the bottom of each tutorial.

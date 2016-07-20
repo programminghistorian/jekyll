@@ -26,7 +26,7 @@ Introduction
 Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources. This tutorial explains how to extract network data (people, institutions, places, etc) from historical sources through the use of non-technical methods developed in Qualitative Data Analysis (QDA) and Social Network Analysis (SNA), and how to visualize this data with the platform-independent and particularly easy-to-use [*Palladio*](http://palladio.designhumanities.org/#/).
 
 
-{% include figure.html caption="Figure 1: A network visualization in Palladio and what you will be able to create by the end of this tutorial." src="../images/during/image09.png" %}
+{% include figure.html caption="Figure 1: A network visualization in Palladio and what you will be able to create by the end of this tutorial." filename="image09.png" %}
 
 
 The graph above shows an excerpt from the network of Ralph Neumann, particularly his connections to people who helped him and his sister during their life in the underground in Berlin 1943-1945. You could easily modify the graph and ask: Who helped in which way? Who helped when? Who is connected to whom?
@@ -83,7 +83,7 @@ Note that coding schemes in general are not able to represent the full complexit
 
 The translation of text interpretation into data collection has its roots in sociological Qualitative Data Analysis. It is important that you and others can retrace your steps and understand how you define your relations. It is very helpful to define them abstractly and to provide examples from your sources to further illustrate your choices. Any data you produce can only be as clear and coherent as your coding practices. Clarity and coherence increase during the iterative process of creating coding schemes and by testing it on a variety of different sources until it fits.
 
-{% include figure.html caption="Figure 2: A first stab at the coding scheme" src="../images/during/image03.png" %}
+{% include figure.html caption="Figure 2: A first stab at the coding scheme" filename="image03.png" %}
 
 
 Figure 2 shows a snapshot with sample data of the coding scheme I used during my project. In this case Alice helps Paul. We can express this as a relation between the actors “Alice” and “Paul” which share a relation of the category “Form of Help”. Within this category we find the subcategory “4. Food, Commodities” which further describes their relation.
@@ -99,13 +99,13 @@ The categories and subcategories emerged during a long process of coding differe
 As it stands, the coding scheme conveys the information that Alice provided food or other commodities for Paul, as indicated by the value 4 which corresponds to the subcategory “4. Food, Commodities” in the category “Form of Help”. Human relationships are however significantly more complex than this and characterized by different and ever-changing layers of relations. To an extent, we can represent some of this complexity by collecting *multiplex* relationships. Consider this sample sentence: *“In September 1944 Paul stayed at his friend Alice’s place; they had met around Easter the year before.”*
 
 
-{% include figure.html caption="Figure 3: A representation of the sample sentence" src="../images/during/image11.png" %}
+{% include figure.html caption="Figure 3: A representation of the sample sentence" filename="image11.png" %}
 
 The coding scheme in Figure 3 describes the relationships between helpers and recipients of help in greater detail. “Relation” for example gives a rough categorization of how well two actors knew each other, “Duration” captures how long an act of help lasted, “Date of Activity” indicates when an act of help occurred and “Date of first Meeting” should be self explanatory. The value “99” here specifies “unknown” since the sample sentence does not describe the intensity of the relationship between Alice and Paul in greater detail. Note that this scheme focuses exclusively on collecting acts of help, not on capturing the development of relationships between people (which were not covered in my sources). Explicit choices like this define the value of the data during analysis.
 
 It is also possible to collect information on the actors in the network; so-called attribute data uses pretty much the same format. Figure 4 shows sample data for Alice and Paul.
 
-{% include figure.html caption="Figure 4: Sample attribute data" src="../images/during/image06.png" %}
+{% include figure.html caption="Figure 4: Sample attribute data" filename="image06.png" %}
 
 
 If we read the information now stored in the coding scheme we learn that Alice provided accommodation for Paul (“Form of Help”: 4), that we do not know how close they were (“Relation”: 99) or how long he stayed (“Duration”: 99). We do know however that this took place some time in the second half of 1944 (“Date of Activity”: 14) and that they had met for the first time in the first half of 1943 (“Date of first Meeting”: 11). The date of first meeting can be inferred from the words *“around Easter the year before”.* If in doubt, I always chose to enter “99” representing “unknown”.
@@ -120,7 +120,7 @@ Visualize network data in Palladio
 
 Once you have come up with a coding scheme and encoded your sources you are ready to visualize the network relationships. First make sure that all empty cells are filled with either a number representing a type of tie or with "99" for “unknown”. Create a new copy of your file (Save as..) and delete the codes for the different categories so that your sheet looks something like Figure 5.
 
-{% include figure.html caption="Figure 5: Sample attribute data ready to be exported for visualization or computation." src="../images/during/image00.png" %}
+{% include figure.html caption="Figure 5: Sample attribute data ready to be exported for visualization or computation." filename="image00.png" %}
 
 
 All spreadsheet editors let you export tables as either .csv (comma-separated values) or as .txt files. These files can be imported into all of the commonly used network visualization tools (see the list at the end of the tutorial). For your first steps however I suggest that you try out Palladio, a very easy-to-use data visualization tool in active development by Stanford University. It runs in browsers and is therefore platform-independent. Please note that Palladio, although quite versatile, is designed more for quick visualizations than sophisticated network analysis.
@@ -135,34 +135,34 @@ Step by Step:
 
 **3. Load attribute data.** From your data sheet, copy the attribute data ([*Sample dataset*](https://docs.google.com/spreadsheets/d/1LzbWsG73m74t3p6xE7lutfVWuOdzOIfN55FbhCCRZvk/edit#gid=0), Sheet 2) and paste it in the white section of the page, now click “Load”.
 
-{% include figure.html caption="Figure 6: Loading attribute data into Palladio." src="../images/during/image13.png" %}
+{% include figure.html caption="Figure 6: Loading attribute data into Palladio." filename="image13.png" %}
 
 
 **4. Edit attributes.** Change the title of the table to something more meaningful, such as “People”. Now you see the columns “Person”, “Race Status” and “Sex” which correspond to the columns in the sample data. Next you need to make sure that Palladio understands that there are actions associated with the people you just entered in the database.
 
-{% include figure.html caption="Figure 7: View of attribute data in Palladio." src="../images/during/image14.png" %}
+{% include figure.html caption="Figure 7: View of attribute data in Palladio." filename="image14.png" %}
 
 
 **5. Load relational data.** To do this, click on “Person” and “Add a new table”. Now paste all the relational data ([*Sample data*](https://docs.google.com/spreadsheets/d/1LzbWsG73m74t3p6xE7lutfVWuOdzOIfN55FbhCCRZvk/edit#gid=0), Sheet 1) in the appropriate field. Palladio expects unique identifiers to link the relational information to the actor attribute information. Make sure this lines up well and that you avoid any irritating characters such as “/”. Palladio will prompt you with error messages if you do. Click “Load data”, close the overlay window and go back to the main data overview. You should see something like this:
 
-{% include figure.html caption="Figure 8: Loading relational data." src="../images/during/image17.png" %}
+{% include figure.html caption="Figure 8: Loading relational data." filename="image17.png" %}
 
 **6. Link attributes and relations.** Next, we need to explicitly link the two tables we created. In our case, peoples’ first- and last names work as IDs so we need to connect them. To do this click on the corresponding occurrences in the new table. In the sample files these are “Giver” and “Recipient”. Click on “Extension” (at the bottom) and select “People”, the table which contains all the people attribute information. Do the same for “Recipient”.
 
-{% include figure.html caption="Figure 9: Linking People to Relations." src="../images/during/image08.png" %}
+{% include figure.html caption="Figure 9: Linking People to Relations." filename="image08.png" %}
 
 **7. Identify temporal data.** Palladio has nice time visualization features. You can use it if you have start and end points for each relation. The sample data contains two columns with suitable data. Click on “Time Step Start” and select the data type “Year or Date”. Do the same for “Time Step End” (Figure 10). The Palladio team recommends that your data is in the YYYY-MM-DD format, but my more abstract time steps worked well. If you were to load geographical coordinates (not covered by this tutorial but here: [*Palladio Simple Map Scenario*](http://hdlab.stanford.edu/doc/scenario-simple-map.pdf)) you would select the “Coordinates” data type.
 
-{% include figure.html caption="Figure 10: Changing the data type to 'Year or Date'" src="../images/during/image05.png"%}
+{% include figure.html caption="Figure 10: Changing the data type to 'Year or Date'" filename="image05.png"%}
 
 
 **8. Open the Graph tool.** You are now done with loading the data. Click “Graph” to load the visualization interface (Figure 11).
 
-{% include figure.html caption="Figure 11: Load the Graph tool" src="../images/during/image01.png"%}
+{% include figure.html caption="Figure 11: Load the Graph tool" filename="image01.png"%}
 
 **9. Specify source and target nodes.** First off Palladio asks you to specify the “Source” and “Target” nodes in the network (Figure 12). Let’s start with “Givers” and “Recipients”. You will now see the graph and can begin to study it in greater detail.
 
-{% include figure.html caption="Figure 12: Select “Giver” as Source and “Recipient” as Target." src="../images/during/image07.png"%}
+{% include figure.html caption="Figure 12: Select “Giver” as Source and “Recipient” as Target." filename="image07.png"%}
 
 **10. Highlight nodes.** Continue by ticking the “Highlight” boxes. This will give you an immediate sense of who acted as a provider of help, who merely received help and which actors were both givers and recipients of help.
 
@@ -170,7 +170,7 @@ Step by Step:
 
 Network visualizations can be incredibly suggestive. Remember that whatever you see is a different representation of your data coding (and the choices you made along the way) and that there will be errors you might have to fix. Either of the graphs I worked with would have looked differently had I chosen different time steps or included people who merely knew each other but did not engage in helping behavior.
 
-{% include figure.html caption="Figure 13: The Facet filter in Palladio." src="../images/during/image15.png" %}
+{% include figure.html caption="Figure 13: The Facet filter in Palladio." filename="image15.png" %}
 
 **12. Bipartite network visualization.** Now this is nice. But there is something else which makes Palladio a great tool to start out with network visualization: It makes it very easy to produce [*bipartite, or 2-mode networks*](http://en.wikipedia.org/wiki/Bipartite_graph#Examples). What you have seen until now is a so-called unipartite or 1-mode network: It represents relations between source and target nodes of one type (for example “people”) through one or more types of relations, Figures 13 and 14 are examples of this type of graph.
 
@@ -178,24 +178,24 @@ Network analysis however gives you a lot of freedom to rethink what source and t
 
 Note that if you wanted to see "Giver" and "Recipients" as one node type and "Date of Activity" as the second, you would need to create one column with all the persons and a second with the points in time during which they were present in your spreadsheet editor and import this data into Palladio. Also, at this stage Palladio does not yet let you represent attribute data for example by coloring the nodes, but all other tools have this functionality.
 
-{% include figure.html caption="Figure 14: Visualization of a unipartite network: Givers and Recipients of help." src="../images/during/image02.png" %}
+{% include figure.html caption="Figure 14: Visualization of a unipartite network: Givers and Recipients of help." filename="image02.png" %}
 
 
-{% include figure.html caption="Figure 15: Visualization of a bipartite network: Recipients and Date of Activity." src="../images/during/image09.png" %}
+{% include figure.html caption="Figure 15: Visualization of a bipartite network: Recipients and Date of Activity." filename="image09.png" %}
 
 
-{% include figure.html caption="Figure 16: Visualization of a bipartite network: Givers and Date of Activity" src="../images/during/image16.png" %}
+{% include figure.html caption="Figure 16: Visualization of a bipartite network: Givers and Date of Activity" filename="image16.png" %}
 
 
 **13. Timeline.** The Timeline feature provides a relatively easy way to visualize changes in your network. Figure 17 shows the distribution of men and women in the network over time. The first column on the y-axis corresponds to the “Dates” field and represents the different time steps. The bars represent the “Sex” attribute: Unknown, numbers of women and men are represented by the height of the segments in a bar (ranging from light grey to black). Hover over them to see what is what. The lower bar segment corresponds to the “Height shows” field and here represents the total number of persons which changes between time step 13 and 14.
 
 
-{% include figure.html caption="Figure 17: Gender distribution in the network over time." src="../images/during/image04.png" %}
+{% include figure.html caption="Figure 17: Gender distribution in the network over time." filename="image04.png" %}
 
 
 **14. Time Span.** Even more interesting is the Time Span view which updates the network visualization dynamically. Click on “Time Span”. Figure 17 illustrates what you should see now. Use the mouse to highlight a section between the time steps which will then be highlighted in grey. You can now drag the highlighted section across the timeline and see how the graph changes from time step to time step.
 
-{% include figure.html caption="Figure 17: Timeline. isualization of Time Steps." src="../images/during/image12.png" %}
+{% include figure.html caption="Figure 17: Timeline. isualization of Time Steps." filename="image12.png" %}
 
 
 **15. Node size.** Palladio lets you size your nodes based on actor attributes. Note that this does not make sense for the sample data given that numerical values represent categories. Node sizes can however be useful if you were to represent the sum of a person’s acts of help, which in this case would correspond to his or her [*Out-Degree*](http://en.wikipedia.org/wiki/Directed_graph#Indegree_and_outdegree), the number of outgoing relations for a node.
@@ -215,7 +215,7 @@ In my experience, question-driven close reading and interpretation on one side a
 Each tie I coded represents a story of how somebody helped somebody else. Network visualizations helped me understand how these ca. 5,000 stories and 1,400 individuals relate to each other. They often confirmed what I knew but regularly also surprised me and raised interesting questions. For example, it led me to identify Walter Heymann as the person whose contact brokerage started off two major support networks and subsequently enabled them to save hundreds of people. Descriptions of his contacts to leading actors in both networks were scattered across different documents which I had worked on during different phases of the project. The visualization aggregated all these relations and revealed these connections. Further investigation then showed that it was in fact him who brought all of them together.
 
 
-{% include figure.html caption="Figure 19: Walter Heymann brokered contacts which led to the emergence of two major support networks." src="../images/during/image10.png" %}
+{% include figure.html caption="Figure 19: Walter Heymann brokered contacts which led to the emergence of two major support networks." filename="image10.png" %}
 
 
 On other occasions, visualizations revealed the existence of long reaching contact chains across different social classes which helped refugees create trusted ties with strangers, they also showed unexpected gaps between actors I expected to be connected, led me to identify clusters in overlapping lists of names, observe phases of activity and inactivity, helped me spot people who bridged different groups and overall led me to emphasize the contact brokerage of Jewish victims of persecution as a major, hitherto overlooked factor in the emergence of covert networks.

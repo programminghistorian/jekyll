@@ -63,12 +63,12 @@ Before proceeding with georeferencing in Quantum GIS, we need to
 activate the appropriate Plugins. On the toolbar go to Plugins -\>
 Manage and Install Plugins
 
-{% include figure.html src="../images/geo110.png" caption="Figure 1" %}
+{% include figure.html filename="geo110.png" caption="Figure 1" %}
 
 A window titled Plugin Manager will open. Scroll down to Georeference
 GDAL and check the box beside it, and click OK.
 
-{% include figure.html src="../images/geo210.png" caption="Figure 2" %}
+{% include figure.html filename="geo210.png" caption="Figure 2" %}
 
 -   At this point, you need to shut down and relaunch QGIS. For the
     purposes of this example, and to keep things as simple as possible,
@@ -106,7 +106,7 @@ referred to as 'Lots' in PEI. Hence the file name
     to keep the files together as they are all required to open this
     layer in your GIS)
 
-{% include figure.html src="../images/geo310.png" caption="Figure 3" %}
+{% include figure.html filename="geo310.png" caption="Figure 3" %}
 
 *Add lot\_township\_polygon to QGIS:*
 
@@ -117,26 +117,26 @@ referred to as 'Lots' in PEI. Hence the file name
     titled 'lot\_township\_polygon.shp'
 -   Click Open
 
-{% include figure.html src="../images/geo41.png" caption="Figure 4" %}
+{% include figure.html filename="geo41.png" caption="Figure 4" %}
 
 For more information on adding and visualizing layers see [Installing
 QGIS 2.0 and adding Layers][].
 
-{% include figure.html src="../images/geo51.png" caption="Figure 5" %}
+{% include figure.html filename="geo51.png" caption="Figure 5" %}
 
 ## Open the Georeferencer Tool
 
 Georeferencer is now available under the Raster menu on the toolbar –
 select it.
 
-{% include figure.html src="../images/geo61.png" caption="Figure 6" %}
+{% include figure.html filename="geo61.png" caption="Figure 6" %}
 
 *Add your historical map:*
 
 -   In the resulting window, click on the Open Raster button on the top
     left (which looks identical to the Add Raster layer).
 
-{% include figure.html src="../images/geo71.png" caption="Figure 7" %}
+{% include figure.html filename="geo71.png" caption="Figure 7" %}
 
 -   Find the file titled 'PEI\_LakeMap1863.jpg' on your computer and
     select Open (the file [can be downloaded here][] or in its original
@@ -147,7 +147,7 @@ select it.
 
 The result will look like this:
 
-{% include figure.html src="../images/geo81.png" caption="Figure 8" %}
+{% include figure.html filename="geo81.png" caption="Figure 8" %}
 
 *Adding control points:*
 
@@ -186,14 +186,14 @@ Some tips for choosing control points:
 -   click on Zoom In Magnifying Glass on the window tool bar or use the
     mouse roller wheel to zoom in
 
-{% include figure.html src="../images/geo91.png" caption="Figure 9" %}
+{% include figure.html filename="geo91.png" caption="Figure 9" %}
 
 -   zoom in to a point which you can recognize on both your printed map
     and your GIS
 
 -   Click on Add Point on toolbar
 
-{% include figure.html src=" ../images/geo101.png" caption="Figure 10" %}
+{% include figure.html filename="geo101.png" caption="Figure 10" %}
 
 -   Click on the place in the printed map that you can locate in your
     GIS (i.e. the control point). The Georeferencer window will now
@@ -201,7 +201,7 @@ Some tips for choosing control points:
     this plugin) manually minimize the window
 -   Click on the place in the GIS which matches the control point
 
-{% include figure.html src="../images/geo111.png" caption="Figure 11" %}
+{% include figure.html filename="geo111.png" caption="Figure 11" %}
 
 -   At this stage we identified a problem in lot boundaries. We planned
     to use the location where the southern border of Lot 1 at the West
@@ -216,7 +216,7 @@ Some tips for choosing control points:
     properly rubber-sheet this somewhat distorted 1863 map to the
     Provincial GIS layer
 	
-{% include figure.html src="../images/geo121.png" caption="Figure 12" %}
+{% include figure.html filename="geo121.png" caption="Figure 12" %}
 
 *Add at least one more control point:*
 
@@ -229,7 +229,7 @@ Some tips for choosing control points:
     the printed map, and three records in the GCP table at the bottom of
     your window (outlined in red on the following image)
 
-{% include figure.html src="../images/geo131.png" caption="Figure 13" %}
+{% include figure.html filename="geo131.png" caption="Figure 13" %}
 
 *Determine the transformation settings:*
 
@@ -240,7 +240,7 @@ compress the image.
 
 -   Click on the Transformation Settings button
 
-{% include figure.html src="../images/geo141.png" caption="Figure 14" %}
+{% include figure.html filename="geo141.png" caption="Figure 14" %}
 
 Most of these settings can be left as default: linear transformation
 type, nearest neighbour resampling method, and LZW compression. (The
@@ -268,20 +268,20 @@ use this feature to give the new raster a different reference system.
     automatically add the new file to your GIS's Table of Contents so
     that you don't have to go looking for the Tif file later
 
-{% include figure.html src="../images/geo151.png" caption="Figure 15" %}
+{% include figure.html filename="geo151.png" caption="Figure 15" %}
 
 ## Georeference!
 
 -   Click on the Play button on the toolbar (beside Add Raster) – this
     begins the georeferencing process
 
-{% include figure.html src="../images/geo161.png" caption="Figure 16" %}
+{% include figure.html filename="geo161.png" caption="Figure 16" %}
 
-{% include figure.html src="../images/geo171.png" caption="Figure 17" %}
+{% include figure.html filename="geo171.png" caption="Figure 17" %}
 
 -   A window will appear titled Define CRS: select 2291, click OK
 
-{% include figure.html src="../images/geo181.png" caption="Figure 18" %}
+{% include figure.html filename="geo181.png" caption="Figure 18" %}
 
 *Explore your map:*
 
@@ -289,18 +289,18 @@ use this feature to give the new raster a different reference system.
     of your Table of Contents (i.e. below the 'lot\_township\_polygon'
     layer
 
-{% include figure.html src="../images/geo191.png" caption="Figure 19" %}
+{% include figure.html filename="geo191.png" caption="Figure 19" %}
 
 -   Change the fill of the lot\_township\_polygon layer to 'no brush' by
     Selecting the layer, clicking on Layer -\> Properties, and clicking
     on Symbol Properties. Click OK
 
-{% include figure.html src="../images/geo201.png" caption="Figure 20" %}
+{% include figure.html filename="geo201.png" caption="Figure 20" %}
 
 -   Now you should see the modern GIS layer with the historical map in
     behind
 
-{% include figure.html src="../images/geo211.png" caption="Figure 21" %}
+{% include figure.html filename="geo211.png" caption="Figure 21" %}
 
 Now that you have a newly georeferenced map in your GIS you can explore
 the layer, adjust the transparency, contrast and brightness, and go back

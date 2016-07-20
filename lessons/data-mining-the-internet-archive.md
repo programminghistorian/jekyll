@@ -622,7 +622,7 @@ Or, to get a very rough visual sense of the places where letters were
 written, you could do what I've done below and simply make a [Wordle
 word cloud][] of the text file.
 
-{% include figure.html src="../images/bpl-wordle.png" caption="Wordle wordcloud of places of publication for abolitionist letters" %}
+{% include figure.html filename="bpl-wordle.png" caption="Wordle wordcloud of places of publication for abolitionist letters" %}
 
 Of course, to make such techniques useful would require more [cleaning
 of your data][]. And other applications of this lesson may prove more

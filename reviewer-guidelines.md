@@ -6,6 +6,12 @@ layout: blank
 
 # Reviewer Guidelines
 
+These guidelines are to help reviewers understand their role in the editorial process and to answer common questions you might have.
+
+* TOC
+{:toc}
+
+
 ## Our Review Philosophy
 
 <figure>
@@ -18,7 +24,7 @@ Reviewing for the _Programming Historian_ is a great way to learn new technical 
 
 This is a statement of the Programming Historian's principles and sets expectations for the tone and style of all correspondence between reviewers, authors, editors, and contributors to our public forums.
 
-The Programming Historian is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudspersons ([Ian Milligan or Miriam Posner](http://programminghistorian.org/project-team)). Thank you for helping us to create a safe space.
+The Programming Historian is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudspersons ([Ian Milligan or Amanda Visconti](http://programminghistorian.org/project-team)). Thank you for helping us to create a safe space.
 
 ## Collaborative, Not Judgmental
 

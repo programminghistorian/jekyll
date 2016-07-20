@@ -18,6 +18,8 @@ Editorial Board
 
 {% include contact-info.html name="Evan Taparata" %}
 
+{% include contact-info.html name="Amanda Visconti" %}
+
 {% include contact-info.html name="Jeri Wieringa" %}
 
 
