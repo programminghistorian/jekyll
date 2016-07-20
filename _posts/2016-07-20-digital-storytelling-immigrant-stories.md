@@ -1,7 +1,5 @@
 ---
 title: Getting Started in the Digital Humanities with Digital Storytelling and the Immigrant Stories Project
-authors: 
-- Elizabeth Venditto
 layout: post
 categories: posts
 ---
