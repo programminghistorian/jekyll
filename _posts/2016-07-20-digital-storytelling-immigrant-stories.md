@@ -6,8 +6,6 @@ layout: post
 categories: posts
 ---
 
-_Editor's Note: Elizabeth Venditto is Project Manager for Immigrant Stories, a digital storytelling initiative based at the University of Minnesota's Immigration History Research Center._
-
 So you’re interested in the digital humanities. You’re considering a new skill or tool, maybe through a [lesson here at the Programming Historian](http://programminghistorian.org/lessons/). But your research involves working with individuals and the stories they tell, rather than abstract data. Is there a place for you in the digital humanities? 
 
 Yes! Digital storytelling would be a natural fit. The [Immigrant Stories](http://cla.umn.edu/ihrc/research/immigrant-stories) project provides a model for digital storytelling as a research tool. In 2013, the University of Minnesota’s Immigration History Research Center (IHRC) began Immigrant Stories to collect contemporary migration stories through digital storytelling and preserve them in the IHRC Archives. Our growing collection of digital stories is available to researchers. Our training materials allow a novice to teach others to make digital stories, and to make digital stories themselves.
@@ -25,3 +23,5 @@ You can train others to create digital stories with our simple digital storytell
 Finally, in August 2016 we will launch a new tool to make digital storytelling simpler than ever. The Immigrant Stories web application will be a one-stop shop to make and share a digital story. The application will incorporate our existing digital storytelling training and a video editing program, eliminating the need for outside software. Using this free tool will only require a computer or mobile device connected to the Internet. The application’s code will be available on GitHub, where we encourage others to reuse it.
 
 For more information about Immigrant Stories, project updates, and to view our digital stories, visit us at [www.immigrantstories.umn.edu](http://www.immigrantstories.umn.edu/).
+
+_Editor's Note: Elizabeth Venditto is Project Manager for Immigrant Stories, a digital storytelling initiative based at the University of Minnesota's Immigration History Research Center._
