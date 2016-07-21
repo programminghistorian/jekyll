@@ -158,10 +158,10 @@ Now you can edit your file, changing the `XXXXXXXX` values to the appropriate va
 
 The file will end up looking like this:
 
-![Db.ini, After](../images/omeka-install-db-ini-after.png)
+{% include figure.html filename="omeka-install-db-ini-after.png" caption="Db.ini, After" %}
 
 Exit (Control+X) and when asked, save your changes by pressing `Y`. Now let's change the owner of our Omeka installation, so that it's readable by the Internet:
 
     chown -R www-data:www-data .
 
- Now you should have a working Omeka install. You can access your installation script at `http://your-domain.com/omeka/install/install.php`, replacing `your-domain` with the name of your domain, and `omeka` with the name you gave your directory above. Fill out the form there to get started configuring your Omeka install. If you run into any trouble along the way, consult the [Omeka Installation Guide](https://omeka.org/codex/Installation) or the [Omeka Troubleshooting Guide](https://omeka.org/codex/Troubleshooting_Omeka).
+ Now you should have a working Omeka install. You can access your installation script at `http://your-domain/omeka/install/install.php`, replacing `your-domain` with your domain name or IP address, and `omeka` with the name you gave your directory above. Fill out the form there to get started configuring your Omeka install. If you run into any trouble along the way, consult the [Omeka Installation Guide](https://omeka.org/codex/Installation) or the [Omeka Troubleshooting Guide](https://omeka.org/codex/Troubleshooting_Omeka).
