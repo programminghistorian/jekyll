@@ -120,7 +120,11 @@ If you get a permissions error here on a VPS, make sure you're logged in as the 
 
     wget http://omeka.org/files/omeka-2.4.zip
 
-Now we can unzip the Omeka zip file like this:
+Now let’s first make sure we have the `unzip` command: 
+
+    apt-get install unzip 
+
+And now we can unzip the Omeka zip file: 
 
     unzip omeka-2.4.zip
 
