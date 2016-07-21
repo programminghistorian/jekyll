@@ -95,6 +95,13 @@ Just like it sounds, learn how to use programming to change, move, clean, or cou
     </a>
   </li>
   <li>
+    <a href="../lessons/intro-to-powershell">
+      <img src="../gallery/intro-to-powershell.png">
+      <h3>Introduction to PowerShell</h3>
+      <p>Ted Dawson</p>
+    </a>
+  </li>
+  <li>
     <a href="../lessons/research-data-with-unix">
       <img src="../gallery/research-data-with-unix.png">
       <h3>Counting and mining research data with Unix</h3>
