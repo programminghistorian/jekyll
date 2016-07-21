@@ -59,7 +59,9 @@ Now that our system is up-to-date, let's install the server stack:
 
 Be sure to include the caret (`^`) at the end. This should install a LAMP server, prompting you to enter a root MySQL password. Enter a secure password here, and write it down, because we'll be using it later.
 
-Let's get the Apache module `mod_rewrite` enabled, which allows Omeka to let you use custom URL paths:
+At this point, you should have a running server. If you can open your VPS's public IP address in a web browser and see the Apache2 Ubuntu Default Page that says “It works!” then everything is running correctly. If not, you might need to take extra steps to ensure your ports are forwarding properly. On Amazon EC2, ports aren’t automatically forwarded, so you have to add HTTP ports to the allowed inbound traffic for your current security group. Navigate to Network & Security -> Security Groups, select the security group you’re using, select the “Inbound” tab, and click “Edit,” adding HTML ports.  
+
+Let's get the Apache module `mod_rewrite` enabled now, which allows Omeka to let you use custom URL paths:
 
     a2enmod rewrite && service apache2 restart
 
