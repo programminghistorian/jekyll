@@ -10,6 +10,7 @@ reviewers:
 date: 2015-11-24
 layout: default
 categories: [lessons]
+difficulty: 2
 ---
 
 Lesson Goals
