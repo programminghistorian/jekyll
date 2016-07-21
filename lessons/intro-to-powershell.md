@@ -2,7 +2,7 @@
 title: Introduction to PowerShell
 authors:
 - Ted Dawson
-date: 2016-07-20
+date: 2016-04-01
 reviewers:
 - Erin N. Bush
 - Derek Price
@@ -15,6 +15,8 @@ difficulty: 1
 This tutorial will introduce you to the basics of Windows PowerShell, the standard command-line interface for Windows computers. If you are a Mac or Linux user, you should check out the [Bash introduction](http://programminghistorian.org/lessons/intro-to-bash) instead. If you are already familiar with using Bash, you may be able to get started with PowerShell just by looking at the [table at the end of this lesson](#quick-reference). 
 
 The tutorial is divided into two main sections. In the first section, "[Getting Started](#getting-started)," you will learn to do basic desktop tasks like creating and opening files and folders using PowerShell. In the second section, "[Doing More](#doing-more)," you will get a glimpse of some of the features that make work on the command line particularly efficient, and learn enough of the basics to be able to explore further on your own. You will also [get set up to run Python scripts from the command line](#using-command-line-tools-and-running-python-scripts).
+
+This tutorial was written for PowerShell 5.0. If you are using an earlier version, you may encounter a few small syntax differences which you should be able to overcome with a little healp from a search engine.
 
 # What is PowerShell and Why is it Useful?
 
@@ -322,7 +324,7 @@ Using `>`, we just told PowerShell to put the content of one text into another, 
 
 Use `gc` to see that `benjamin1.txt` now has both sentences.
 
-{% include figure.html filename="intro-to-powershell5.png" caption="The difference between '>' and `>>`" %}
+{% include figure.html filename="intro-to-powershell5.png" caption="The difference between `>` and `>>`" %}
 
 Now, let's see about getting the contents of multiple files at the same time.
 
