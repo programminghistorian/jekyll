@@ -50,19 +50,34 @@ You put a lot of effort into your research. Make sure that effort lasts by adopt
     </a>
   </li>
   <li>
-    <a href="../lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">
-      <img src="../gallery/sustainable-authorship-in-plain-text-using-pandoc-and-markdown.png">
-      <h3>Sustainable Authorship in Plain Text using Pandoc and Markdown</h3>
-      <p>Dennis Tenen and Grant Wythoff</p>
-    </a>
-  </li>
-  <li>
     <a href="../lessons/getting-started-with-markdown">
       <img src="../gallery/getting-started-with-markdown.png">
       <h3>Getting Started with Markdown</h3>
       <p>Sarah Simpkin</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">
+      <img src="../gallery/sustainable-authorship-in-plain-text-using-pandoc-and-markdown.png">
+      <h3>Sustainable Authorship in Plain Text using Pandoc and Markdown</h3>
+      <p>Dennis Tenen and Grant Wythoff</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/getting-started-with-github-desktop">
+      <img src="../gallery/getting-started-with-github-desktop.png">
+      <h3>Introduction to Version Control Using GitHub Desktop</h3>
+      <p>Daniel van Strien</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/building-static-sites-with-jekyll-github-pages">
+      <img src="../gallery/building-static-sites-with-jekyll-github-pages.png">
+      <h3>Building Static Websites with Markdown, Jekyll, and Github Pages</h3>
+      <p>Amanda Visconti</p>
+    </a>
+  </li>
+
 </ul>
 
 
@@ -77,6 +92,13 @@ Just like it sounds, learn how to use programming to change, move, clean, or cou
       <img src="../gallery/intro-to-bash.png">
       <h3>Introduction to the Bash Command Line</h3>
       <p>Ian Milligan and James Baker</p>
+    </a>
+  </li>
+  <li>
+    <a href="../lessons/intro-to-powershell">
+      <img src="../gallery/intro-to-powershell.png">
+      <h3>Introduction to PowerShell</h3>
+      <p>Ted Dawson</p>
     </a>
   </li>
   <li>
@@ -128,6 +150,13 @@ Just like it sounds, learn how to use programming to change, move, clean, or cou
       <p>Adam Crymble</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/transforming-xml-with-xsl">
+      <img src="../gallery/transforming-xml-with-xsl.png">
+      <h3>Transforming Data for Reuse and Re-publication with XML and XSL</h3>
+      <p>M.H. Beals</p>
+    </a>
+  </li>
 </ul>
 
 
@@ -156,6 +185,13 @@ Computational tools allow you to make sense of a lot of documents at once. The N
       <img src="../gallery/topic-modeling-and-mallet.png">
       <h3>Getting Started with Topic Modeling and MALLET</h3>
       <p>Shawn Graham, Scott Weingart, & Ian Milligan</p>
+    </a>
+  </li>
+  <li>
+    <a href="../lessons/sonification">
+      <img src="../gallery/sonification.png">
+      <h3>The Sound of Data (a gentle introduction to sonification for historians)</h3>
+      <p>Shawn Graham</p>
     </a>
   </li>
 </ul>
@@ -271,7 +307,7 @@ Learn how to present historical materials online.
     <a href="../lessons/creating-an-omeka-exhibit">
       <img src="../gallery/creating-an-omeka-exhibit.png">
       <h3>Creating an Omeka.net Exhibit</h3>
-      <p>Miriam Posner</p>
+      <p>Miriam Posner and Megan R. Brett</p>
     </a>
   </li>
 </ul>

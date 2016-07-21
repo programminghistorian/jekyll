@@ -146,7 +146,7 @@ along with our instructions, please be sure to download the correct version.
 The installation instructions are different for Windows and Mac. Follow
 the instructions appropriate for you below:
 
-{% include figure.html src="../images/windows-150x150.png" caption="" %}
+{% include figure.html filename="windows-150x150.png" caption="" %}
 
 ### Windows Instructions
 
@@ -178,11 +178,11 @@ MALLET in the variable value, e.g., `c:\mallet`.
 
 To see if you have been successful, please read on to the next section.
 
-{% include figure.html src="../images/fig1-advanced-system-settings.png" caption="Figure 1: Advanced System Settings on Windows" %}
+{% include figure.html filename="fig1-advanced-system-settings.png" caption="Figure 1: Advanced System Settings on Windows" %}
 
-{% include figure.html src="../images/fig2-environment-variables-location.png" caption="Figure 2: Environment Variables Location" %}
+{% include figure.html filename="fig2-environment-variables-location.png" caption="Figure 2: Environment Variables Location" %}
 
-{% include figure.html src="../images/fig3-environment-variable.png" caption="Figure 3: Environment Variable" %}
+{% include figure.html filename="fig3-environment-variable.png" caption="Figure 3: Environment Variable" %}
 
 #### Running MALLET using the Command Line
 
@@ -191,7 +191,7 @@ MALLET is run from the command line, also known as *Command Prompt*
 computer Terminal, this will be familiar. The command line is where you
 can type commands directly, rather than clicking on icons and menus.
 
-{% include figure.html src="../images/fig-4-command-prompt-window.png" caption="Figure 4: Command Prompt on Windows" %}
+{% include figure.html filename="fig-4-command-prompt-window.png" caption="Figure 4: Command Prompt on Windows" %}
 
 1.  Click on your
     `Start Menu -> All Programs -> Accessories -> Command Prompt`.\
@@ -201,7 +201,7 @@ can type commands directly, rather than clicking on icons and menus.
     directory*. Keep doing this until you're at the `C:\` . (as in
     Figure 5)
 
-{% include figure.html src="../images/fig-5-command-prompt-window-getting-to-c.png" caption="Figure 5: Navigating to the C:\ Directory in Command Prompt" %}
+{% include figure.html filename="fig-5-command-prompt-window-getting-to-c.png" caption="Figure 5: Navigating to the C:\ Directory in Command Prompt" %}
 
 1.  Then type `cd mallet `and you are in the MALLETdirectory. Anything
     you type in the command prompt window is a *command*. There are
@@ -217,11 +217,11 @@ can type commands directly, rather than clicking on icons and menus.
     slash? Did you set up the environment variable correctly? Is
     MALLET located at `C:\mallet` ?
 
-{% include figure.html src="../images/fig-6command-prompt-mallet-installed.png" caption="Figure 6: Command Prompt MALLET Installed" %}
+{% include figure.html filename="fig-6command-prompt-mallet-installed.png" caption="Figure 6: Command Prompt MALLET Installed" %}
 
 You are now ready to skip ahead to the next section.
 
-{% include figure.html src="../images/apple-150x150.png" caption="" %}
+{% include figure.html filename="apple-150x150.png" caption="" %}
 
 ### Mac Instructions
 
@@ -289,7 +289,7 @@ further down. After that, we successfully called up the help file, which
 told us what `import-dir` does, and it listed all of the potential
 *parameters* you can set for this tool.
 
-{% include figure.html src="../images/fig-7-command-prompt-typing-help.png" caption="Figure 7: The Help Menu in MALLET" %}
+{% include figure.html filename="fig-7-command-prompt-typing-help.png" caption="Figure 7: The Help Menu in MALLET" %}
 
 Note: there is a difference in MALLET commands between a single hyphen
 and a double hyphen. A single hyphen is simply part of the name; it
@@ -417,7 +417,7 @@ the routine, trying to find the best division of words into topics, your
 command prompt window will fill with output from each run. When it is
 done, you can scroll up to see what it was outputting (as in Figure 8).
 
-{% include figure.html src="../images/fig-8-basic-topic-model-output.png" caption="Figure 8: Basic Topic Model Output" %}
+{% include figure.html filename="fig-8-basic-topic-model-output.png" caption="Figure 8: Basic Topic Model Output" %}
 
 The computer is printing out the key words, the words that help define a
 statistically significant topic, per the routine. In Figure 8, the first
@@ -475,7 +475,7 @@ the topic. This is related to an option which we did not run, and so its
 default value was used (this is why every topic in this file has the
 number 2.5).
 
-{% include figure.html src="../images/fig-9-tutorial-key-words-in-Word.png" caption="Figure 9: Keywords Shown in a Word Processor" %}
+{% include figure.html filename="fig-9-tutorial-key-words-in-Word.png" caption="Figure 9: Keywords Shown in a Word Processor" %}
 
 If when you ran the topic model routine you had included
 
@@ -508,7 +508,7 @@ etc). You will have a spreadsheet with a \#doc, source, topic,
 proportion columns. All subsequent columns run topic, proportion, topic,
 proportion, etc., as in figure 10.
 
-{% include figure.html src="../images/fig-10-topic-composition.png" caption="Figure 10: Topic Composition" %}
+{% include figure.html filename="fig-10-topic-composition.png" caption="Figure 10: Topic Composition" %}
 
 You can see that doc\# 0 (ie, the first document loaded into MALLET),
 `elizabeth_needham.txt` has topic 2 as its principal topic, at about

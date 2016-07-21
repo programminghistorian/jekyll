@@ -14,8 +14,13 @@
   url: "http://adamcrymble.org"
   team: true
   bio: |
-    Adam Crymble is a Lecturer of Digital History at the University of
+    Adam Crymble is a lecturer of digital history at the University of
     Hertfordshire.
+  interests: |
+    He is interested in working with authors on: 
+    core skills, data manipulation and management. He is also interested 
+    in hearing from anyone who wants to contribute to outreach, workshops,
+    inclusivity, or research in digital pedgagogy.
 
 - name: Caleb McDaniel
   twitter: wcaleb
@@ -34,6 +39,10 @@
   bio: |
        Ian Milligan is an assistant professor of history at the University
        of Waterloo.
+  interests: |
+       He is interested in working with authors on topics
+       including: network analysis, text analysis and data mining, as well
+       as intermediate to advanced-level lessons more generally.
 
 - name: Fred Gibbs
   email: fwgibbs@gmail.com
@@ -44,6 +53,8 @@
   bio: |
        Fred Gibbs is an assistant professor of history at the University of
        New Mexico.
+  interests: |
+       He is particularly interested in lessons pertaining to digital mapping, data visualization, and web publishing. 
 
 - name: Stephen Margheim
   bio: |
@@ -150,8 +161,12 @@
   github: ahegel
   team: true
   bio: |
-       Allison Hegel is a graduate student at UCLA.
-
+       Allison Hegel is a PhD candidate in English at UCLA.
+  interests: |
+       She is interested in working with authors on text analysis
+       and data visualization, as well as hearing from anyone
+       with feedback on the design and usability of the website.
+       
 - name: Alan MacEachern
   url: "http://history.uwo.ca/People/Faculty/maceachern.html"
   team: true
@@ -211,7 +226,10 @@
   url: "http://jeriwieringa.com"
   github: jerielizabeth
   bio: |
-       Jeri Wieringa is the digital publishing production lead for the George Mason University Libraries and a doctoral candidate in history at George Mason University.
+       Jeri Wieringa is the digital publishing production lead for the George Mason 
+       University Libraries and a doctoral candidate in history at George Mason University.
+  interests: |
+       She is interested in working with authors on: accessibility and interface design; data visualization; network analysis; text and data mining; workflows; and introductory lessons.
 
 - name: Jon Crump
   team: false
@@ -281,10 +299,54 @@
   twitter: matthewdlincoln
   team: false
   bio: |
-        Matthew Lincoln is a PhD candidate at the University of Maryland, College Park. He is interested in the potential for computer-aided analysis of cultural datasets to help model long-term artistic trends in iconography, art markets, and social relations between artists in the early modern period.
+        Matthew Lincoln is a data research specialist at the Getty Research Institute, and an art historian of early modern Europe.
 
 - name: Sarah Simpkin
   twitter: sarahsimpkin
   team: false
   bio: |
         Sarah Simpkin is a GIS, Geography, and Computer Science librarian at the University of Ottawa.
+
+- name: Amanda Visconti
+  github: amandavisconti
+  email: aviscont@purdue.edu
+  twitter: literature_geek
+  url: "http://www.amandavisconti.com"
+  team: true
+  bio: |
+    Amanda Visconti is a UX designer/developer & digital humanities assistant professor at Purdue University Libraries. You can follow her @Literature_Geek or read her posts on digital humanities web development and other DH experimentation at LiteratureGeek.com.
+  interests: |
+    She is interested in working with authors on topics including: web design and development, server administration, and digital editing; she is also interested in supporting authors who have not previously written documentation or lessons in the PH style. As a PH ombudsperson, you can contact her to discuss any issues or concerns around the PH review and publication process.
+
+- name: Megan R. Brett
+  twitter: magpie
+  url: "http://meganrbrett.net"
+  team: false
+  bio: |
+        Megan R. Brett is Digital History Associate at the Roy Rosenzweig Center for History and New Media, where she acts as Outreach Coordinator for the Omeka projects. She is also a doctoral student in the Department of History and Art History at George Mason Unveristy.
+
+- name: Brandon Walsh
+  twitter: walshbr
+  url: "http://bmw9t.github.io/"
+  team: false
+  bio: |
+       Brandon Walsh is Mellon Digital Humanities Fellow in the Library at Washington and Lee University. He received his PhD from the University of Virginia.
+
+- name: Ted Dawson
+  team: false
+  bio: |
+       Ted Dawson is a Doctoral Candidate in German Studies at Vanderbilt University.      
+      
+- name: M. H. Beals
+  twitter: mhbeals
+  url: "http://mhbeals.com/"
+  team: false
+  bio: |
+        M. H. Beals is a Lecturer in Digital History at Loughborough University.
+
+- name: Elizabeth Venditto
+  url: "http://cla.umn.edu/ihrc"
+  team: false
+  bio: |
+        Elizabeth Venditto is Project Manager for "Immigrant Stories," a digital storytelling initiative based at the University of Minnesota's Immigration History Research Center. 
+      

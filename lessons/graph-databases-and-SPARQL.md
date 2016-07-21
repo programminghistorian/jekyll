@@ -125,7 +125,7 @@ A pseudo-RDF database might contain interrelated statements like these:
 If we were to visualize these statements as nodes and edges within network
 graph, it would appear like so:
 
-{% include figure.html src="/images/sparql01.svg" caption="A network visualization of the pseudo-RDF shown above. Arrows indicate the 'direction' of the predicate. For example, that 'Woman with a Balance was created by Vermeer', and not the other way around." %}
+{% include figure.html filename="sparql01.svg" caption="A network visualization of the pseudo-RDF shown above. Arrows indicate the 'direction' of the predicate. For example, that 'Woman with a Balance was created by Vermeer', and not the other way around." %}
 
 A traditional relational database might split attributes about artworks and
 attributes about artists into separate tables. In an RDF/graph database, all
@@ -157,13 +157,13 @@ will return. On receiving this query, the database will search for all values of
 `?painting` that properly complete the RDF statement `<has medium> <oil on
 canvas> .`:
 
-{% include figure.html src="/images/sparql01-1.svg" caption="A visualization of what our query is looking for." %}
+{% include figure.html filename="sparql01-1.svg" caption="A visualization of what our query is looking for." %}
 
 When the query runs against the full database, it looks for the subjects,
 predicates, and objects that match this statement, while excluding the rest of
 the data:
 
-{% include figure.html src="/images/sparql02.svg" caption="A visualization of the SPARQL query, with mentioned elements in orange, and selected elements (those that will be returned in the results) in red." %}
+{% include figure.html filename="sparql02.svg" caption="A visualization of the SPARQL query, with mentioned elements in orange, and selected elements (those that will be returned in the results) in red." %}
 
 And our results might look like this table:
 
@@ -188,7 +188,7 @@ Here we've introduced a second variable, `?artist`. The RDF database will return
 all matching combinations of `?artist` and `?painting` that fulfill both of
 these statements.
 
-{% include figure.html src="/images/sparql02-1.svg" caption="A visualization of the SPARQL query, with mentioned elements in orange, and selected elements (those that will be returned in the results) in red." %}
+{% include figure.html filename="sparql02-1.svg" caption="A visualization of the SPARQL query, with mentioned elements in orange, and selected elements (those that will be returned in the results) in red." %}
 
 
 | artist             | painting             |
@@ -288,7 +288,7 @@ browser, it presents you with a text box for composing queries.
 
 [bms]: http://collection.britishmuseum.org/sparql
 
-{% include figure.html src="/images/sparql03.png" caption="The BM SPARQL endpoint webpage. For all the queries in this tutorial, make sure that you have left the 'Include inferred' and 'Expand results over equivalent URIs' boxes unchecked." %}
+{% include figure.html filename="sparql03.png" caption="The BM SPARQL endpoint webpage. For all the queries in this tutorial, make sure that you have left the 'Include inferred' and 'Expand results over equivalent URIs' boxes unchecked." %}
 
 When starting to explore a new RDF database, it helps to look at the
 relationships that stem from a single [example
@@ -306,15 +306,21 @@ WHERE {
   <http://collection.britishmuseum.org/id/object/PPA82633> ?p ?o .
 }
 ```
+
 [Run query](http://collection.britishmuseum.org/sparql?query=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D&_implicit=false&_equivalent=false&_form=%2Fsparql) /
 [Edit query](http://collection.britishmuseum.org/sparql?sample=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D)
 
 By calling `SELECT ?p ?o` we're asking the database to return the values of `?p`
 and `?o` as described in the `WHERE {}` command. This query returns every
 statement for which our example artwork,
-`<http://collection.britishmuseum.org/id/object/PPA82633>`, is the subject.
+`<http://collection.britishmuseum.org/id/object/PPA82633>`, is the subject. `?p`
+is in the middle position of the RDF statement in the `WHERE {}` command, so it
+returns any predicates matching this statement, while `?o` in the final position
+returns all objects. Though I have named them `?p` and `?o` here, as you will
+see below we can name these variables anything we like. Indeed, it will be
+useful to give them meaningful names for the complex queries that follow!. 
 
-{% include figure.html src="/images/sparql04.png" caption="An initial list of all the predicates and objects associated with one artwork in the British Museum." %}
+{% include figure.html filename="sparql04.png" caption="An initial list of all the predicates and objects associated with one artwork in the British Museum." %}
 
 The BM endpoint formats the results table with hyperlinks for every variable
 that is itself an RDF node, so by clicking on any one of these links you can
@@ -324,14 +330,14 @@ queries, so you will find many hyperlinks are displayed in their abbreviated
 versions; if you mouse over them your browser will display their unabbreviated
 URIs.
 
-{% include figure.html src="/images/sparql04-1.svg" caption="Visualizing a handful of the nodes returned by the first query to the BM. Elements in this graph that are also in the table of results above are colored red. Additional levels in the hierarchy are included as a preview of how this single print connects to the larger BM graph." %}
+{% include figure.html filename="sparql04-1.svg" caption="Visualizing a handful of the nodes returned by the first query to the BM. Elements in this graph that are also in the table of results above are colored red. Additional levels in the hierarchy are included as a preview of how this single print connects to the larger BM graph." %}
 
 Let's find out how they store the object type information: look for the
 predicate `<bmo:PX_object_type>` (highlighted in the figure above) and click on
 the link for `thes:x8577` to navigate to the node describing the particular
 object type "print":
 
-{% include figure.html src="/images/sparql05.png" caption="The resource page for `thes:x8577` ('print') in the British Museum LOD." %}
+{% include figure.html filename="sparql05.png" caption="The resource page for `thes:x8577` ('print') in the British Museum LOD." %}
 
 You'll note how this node has an plain-text label, as well as ties to related
 artwork type nodes within the database.
@@ -352,9 +358,10 @@ WHERE {
   ?object_type skos:prefLabel "print" .
 }
 ```
-[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+%3Fobject%0D%0AWHERE+%7B%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%7D&_implicit=false&implicit=false&_equivalent=false&_form=%2Fsparql) / [Edit query](http://collection.britishmuseum.org/sparql?sample=PREFIX+bmo%3A+%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fontology%2F%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0ASELECT+%3Fobject%0D%0AWHERE+%7B%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%7D)
 
-{% include figure.html src="/images/sparql06.png" caption="A one-column table returned by our query for every object with type 'print'" %}
+[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+%3Fobject%0D%0AWHERE+%7B%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%7D&_implicit=false&implicit=false&_equivalent=false&_form=%2Fsparql) / [Edit query](http://collection.britishmuseum.org/sparql?sample=PREFIX+bmo%3A+%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fontology%2F%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0ASELECT+%3Fobject%0D%0AWHERE+%7B%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%7D) / [See a user-generated query](https://hypothes.is/a/AVLH7aAMvTW_3w8Ly19w)
+
+{% include figure.html filename="sparql06.png" caption="A one-column table returned by our query for every object with type 'print'" %}
 
 Remember that, because `"print"` here is a _literal_, we enclose it within
 quotation marks in our query. When you include literals in a SPARQL query, the
@@ -378,7 +385,7 @@ way that we followed a single link to determine an object type, we must hop
 through several nodes to find the production dates associated with a given
 object:
 
-{% include figure.html src="/images/sparql07.svg" caption="Visualizing part of the British Museum's data model where production dates are connected to objects." %}
+{% include figure.html filename="sparql07.svg" caption="Visualizing part of the British Museum's data model where production dates are connected to objects." %}
 
 ```
 # Return object links and creation date
@@ -411,7 +418,7 @@ WHERE {
 
 [Run query](http://collection.britishmuseum.org/sparql?query=%23+Return+object+links+and+creation+date%0D%0ASELECT+%3Fobject+%3Fdate%0D%0AWHERE+%7B%0D%0A%0D%0A++%23+We%27ll+use+our+previous+command+to+search+only+for+objects+of+type+%22print%22%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%0D%0A++%23+We+need+to+link+though+several+nodes+to+find+the+creation+date+associated%0D%0A++%23+with+an+object%0D%0A++%3Fobject+ecrm%3AP108i_was_produced_by+%3Fproduction+.%0D%0A++%3Fproduction+ecrm%3AP9_consists_of+%3Fdate_node+.%0D%0A++%3Fdate_node+ecrm%3AP4_has_time-span+%3Ftimespan+.%0D%0A++%3Ftimespan+ecrm%3AP82a_begin_of_the_begin+%3Fdate+.%0D%0A%0D%0A++%23+Yes%2C+we+need+to+connect+quite+a+few+dots+to+get+to+the+date+node%21+Now+that%0D%0A++%23+we+have+it%2C+we+can+filter+our+results.+Because+we+are+filtering+a+date%2C+we%0D%0A++%23+must+attach+the+xsd%3Adate+tag+to+our+date+strings+so+that+SPARQL+knows+how+to%0D%0A++%23+parse+them.%0D%0A%0D%0A++FILTER%28%3Fdate+%3E%3D+%221580-01-01%22%5E%5Exsd%3Adate+%26%26+%3Fdate+%3C%3D+%221600-01-01%22%5E%5Exsd%3Adate%29%0D%0A%7D&_implicit=false&_equivalent=false&_form=%2Fsparql) / [Edit query](http://collection.britishmuseum.org/sparql?sample=%23+Return+object+links+and+creation+date%0D%0APREFIX+bmo%3A+%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fontology%2F%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0ASELECT+%3Fobject+%3Fdate%0D%0AWHERE+%7B%0D%0A%0D%0A++%23+We%27ll+use+our+previous+command+to+search+only+for+objects+of+type+%22print%22%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%0D%0A++%23+We+need+to+link+though+several+nodes+to+find+the+creation+date+associated%0D%0A++%23+with+an+object%0D%0A++%3Fobject+ecrm%3AP108i_was_produced_by+%3Fproduction+.%0D%0A++%3Fproduction+ecrm%3AP9_consists_of+%3Fdate_node+.%0D%0A++%3Fdate_node+ecrm%3AP4_has_time-span+%3Ftimespan+.%0D%0A++%3Ftimespan+ecrm%3AP82a_begin_of_the_begin+%3Fdate+.%0D%0A%0D%0A++%23+Yes%2C+we+need+to+connect+quite+a+few+dots+to+get+to+the+date+node%21+Now+that%0D%0A++%23+we+have+it%2C+we+can+filter+our+results.+Because+we+are+filtering+a+date%2C+we%0D%0A++%23+must+attach+the+xsd%3Adate+tag+to+our+date+strings+so+that+SPARQL+knows+how+to%0D%0A++%23+parse+them.%0D%0A%0D%0A++FILTER%28%3Fdate+%3E%3D+%221580-01-01%22%5E%5Exsd%3Adate+%26%26+%3Fdate+%3C%3D+%221600-01-01%22%5E%5Exsd%3Adate%29%0D%0A%7D)
 
-{% include figure.html src="/images/sparql08.png" caption="All BM prints made between 1580 and 1600" %}
+{% include figure.html filename="sparql08.png" caption="All BM prints made between 1580 and 1600" %}
 
 ## Aggregation
 
@@ -450,7 +457,7 @@ ORDER BY DESC(?n)
 
 [Run query](http://collection.britishmuseum.org/sparql?query=SELECT+%3Ftype+%28COUNT%28%3Ftype%29+as+%3Fn%29%0D%0AWHERE+%7B%0D%0A++%23+We+still+need+to+indicate+the+%3Fobject_type+variable%2C+however+we+will+not%0D%0A++%23+require+it+to+match+%22print%22+this+time%0D%0A%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%3Ftype+.%0D%0A%0D%0A++%23+Once+again%2C+we+will+also+filter+by+date%0D%0A++%3Fobject+ecrm%3AP108i_was_produced_by+%3Fproduction+.%0D%0A++%3Fproduction+ecrm%3AP9_consists_of+%3Fdate_node+.%0D%0A++%3Fdate_node+ecrm%3AP4_has_time-span+%3Ftimespan+.%0D%0A++%3Ftimespan+ecrm%3AP82a_begin_of_the_begin+%3Fdate+.%0D%0A++FILTER%28%3Fdate+%3E%3D+%221580-01-01%22%5E%5Exsd%3Adate+%26%26+%3Fdate+%3C%3D+%221600-01-01%22%5E%5Exsd%3Adate%29%0D%0A%7D%0D%0A%23+The+GROUP+BY+command+designates+the+variable+to+tally+by%2C+and+the+ORDER+BY%0D%0A%23+DESC%28%29+command+sorts+the+results+by+descending+number.%0D%0AGROUP+BY+%3Ftype%0D%0AORDER+BY+DESC%28%3Fn%29&_implicit=false&_equivalent=false&_form=%2Fsparql) / [Edit query](http://collection.britishmuseum.org/sparql?sample=PREFIX+bmo%3A+%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fontology%2F%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0ASELECT+%3Ftype+%28COUNT%28%3Ftype%29+as+%3Fn%29%0D%0AWHERE+%7B%0D%0A++%23+We+still+need+to+indicate+the+%3Fobject_type+variable%2C+however+we+will+not%0D%0A++%23+require+it+to+match+%22print%22+this+time%0D%0A%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%3Ftype+.%0D%0A%0D%0A++%23+Once+again%2C+we+will+also+filter+by+date%0D%0A++%3Fobject+ecrm%3AP108i_was_produced_by+%3Fproduction+.%0D%0A++%3Fproduction+ecrm%3AP9_consists_of+%3Fdate_node+.%0D%0A++%3Fdate_node+ecrm%3AP4_has_time-span+%3Ftimespan+.%0D%0A++%3Ftimespan+ecrm%3AP82a_begin_of_the_begin+%3Fdate+.%0D%0A++FILTER%28%3Fdate+%3E%3D+%221580-01-01%22%5E%5Exsd%3Adate+%26%26+%3Fdate+%3C%3D+%221600-01-01%22%5E%5Exsd%3Adate%29%0D%0A%7D%0D%0A%23+The+GROUP+BY+command+designates+the+variable+to+tally+by%2C+and+the+ORDER+BY%0D%0A%23+DESC%28%29+command+sorts+the+results+by+descending+number.%0D%0AGROUP+BY+%3Ftype%0D%0AORDER+BY+DESC%28%3Fn%29)
 
-{% include figure.html src="/images/sparql09.png" caption="Counts of objects by type produced between 1580 and 1600." %}
+{% include figure.html filename="sparql09.png" caption="Counts of objects by type produced between 1580 and 1600." %}
 
 ## Linking multiple SPARQL endpoints
 
@@ -506,7 +513,7 @@ WHERE {
 LIMIT 100
 ```
 
-{% include figure.html src="/images/sparql09-1.png" caption="Visualizing the query sequence of the above SPARQL request" %}
+{% include figure.html filename="sparql09-1.png" caption="Visualizing the query sequence of the above SPARQL request" %}
 
 An interlinked query like this means that we can ask Europeana questions about
 its objects that rely on information about geography (what cities are in the
@@ -560,7 +567,7 @@ query". Palladio should display a preview table.
 
 [Palladio]: http://palladio.designhumanities.org/
 
-{% include figure.html src="/images/sparql10.png" caption="Palladio's SPARQL query interface." %}
+{% include figure.html filename="sparql10.png" caption="Palladio's SPARQL query interface." %}
 
 After previewing the data returned by the endpoint, click on the "Load data"
 button at the bottom of the screen to begin manipulating it. (See this
@@ -571,7 +578,7 @@ that returns links to the images of prints made between 1580 and
 1600](http://collection.britishmuseum.org/sparql?sample=%23+Return+object+links+and+creation+date%0D%0APREFIX+bmo%3A+%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fontology%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0ASELECT+DISTINCT+%3Fobject+%3Fdate+%3Fimage%0D%0AWHERE+%7B%0D%0A%0D%0A++%23+We%27ll+use+our+previous+command+to+search+only+for+objects+of+type+%22print%22%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%0D%0A++%23+We+need+to+link+though+several+nodes+to+find+the+creation+date+associated%0D%0A++%23+with+an+object%0D%0A++%3Fobject+ecrm%3AP108i_was_produced_by+%3Fproduction+.%0D%0A++%3Fproduction+ecrm%3AP9_consists_of+%3Fdate_node+.%0D%0A++%3Fdate_node+ecrm%3AP4_has_time-span+%3Ftimespan+.%0D%0A++%3Ftimespan+ecrm%3AP82a_begin_of_the_begin+%3Fdate+.%0D%0A%0D%0A++%23+Yes%2C+we+need+to+connect+quite+a+few+dots+to+get+to+the+date+node%21+Now+that%0D%0A++%23+we+have+it%2C+we+can+filter+our+results.+Because+we+are+filtering+a+date%2C+we%0D%0A++%23+must+attach+the+xsd%3Adate+tag+to+our+date+strings+so+that+SPARQL+knows+how+to%0D%0A++%23+parse+them.%0D%0A%0D%0A++FILTER%28%3Fdate+%3E%3D+%221580-01-01%22%5E%5Exsd%3Adate+%26%26+%3Fdate+%3C%3D+%221600-01-01%22%5E%5Exsd%3Adate%29%0D%0A++%0D%0A++%3Fobject+bmo%3APX_has_main_representation+%3Fimage+.%0D%0A%7D%0D%0ALIMIT+100),
 and render that data as a grid of images sorted by date:
 
-{% include figure.html src="/images/sparql11.png" caption="A gallery of images with a timeline of their creation dates generated using Palladio." %}
+{% include figure.html filename="sparql11.png" caption="A gallery of images with a timeline of their creation dates generated using Palladio." %}
 
 Note that Palladio is designed to work with relatively small amounts of data (on
 the order of hundreds or thousands of rows, not tens of thousands), so you may

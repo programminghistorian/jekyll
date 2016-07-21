@@ -10,7 +10,7 @@ layout: default
 difficulty: 2
 ---
 
-{% include figure.html src="../images/lexoriter.jpg" caption="" %}
+{% include figure.html filename="lexoriter.jpg" caption="" %}
 
 ## Objectives
 
@@ -248,9 +248,9 @@ consistently, according to a specified style.
 Markdown conventions come in several "flavors" designed for use in
 particular contexts, such as blogs, wikis, or code repositories. The
 flavor of Markdown used by Pandoc is geared for academic use. Its
-conventions are described one the [Pandoc's
+conventions are described on the [Pandoc's
 Markdown](http://pandoc.org/README.html#pandocs-markdown)
-page. One of its conventions include the ["YAML"
+page. Its conventions include the ["YAML"
 block](http://johnmacfarlane.net/pandoc/README.html#yaml-metadata-block),
 which contains some useful metadata.
 
@@ -347,7 +347,7 @@ You can download this sample .md file
 As we shall do shortly, this plain text file can be rendered as a very
 nice PDF:
 
-{% include figure.html src="../images/Screen-Shot-2014-11-06.png" caption="Screen shot of PDF rendered by Pandoc" %}
+{% include figure.html filename="Screen-Shot-2014-11-06.png" caption="Screen shot of PDF rendered by Pandoc" %}
 
 If you'd like to get an idea of how this kind of markup will be
 interpreted as HTML formatting, try [this online

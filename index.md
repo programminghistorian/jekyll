@@ -23,6 +23,8 @@ _The Programming Historian_ is committed to open source and open access principl
 
 All submissions to _The Programming Historian_ are published under a [Creative Commons 'BY' license](https://creativecommons.org/licenses/by/2.0/). This adheres to a '[Gold](https://en.wikipedia.org/wiki/Open_access)' open access model of publishing, which is fully compliant with [RCUK](http://www.rcuk.ac.uk/research/openaccess/) funding and [HEFCE](http://www.hefce.ac.uk/rsrch/oa/) publishing requirements for scholars in the UK, as well as the [Canadian Tri-Agency Open Access Policy](http://www.science.gc.ca/default.asp?lang=En&n=F6765465-1). 'Gold' open access means that the version of record is made freely available without subscription fee or restrictions on access. Authors are permitted to republish their tutorials anywhere. And so can anyone, as long as they cite the original author and respect his or her moral rights.
 
+_The Programming Historian_ is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
+
 We do not charge Article Processing Charges (APCs), nor do we charge library subscriptions.
 
 ## Peer Review
@@ -33,9 +35,9 @@ Our peer review process is a bit different from what might be considered the “
 
 Once the peer review has commenced, the role of the editor is to mediate between reviewers and authors, and keep the process on track in a timely manner. Unlike in traditional closed peer review systems, you get notified of reviewer comments the moment they appear. This means it is possible that you will see the review before the editor does. If at any point you are unsure if you should start addressing the comments or wait for the editor, feel free to post a question to clarify. You'll understand that sometimes it will take the editor a few days to respond, but we hope the improvements to your lesson will be worth the wait.
 
-In keeping with the ideas of public scholarship and open peer review, we generally encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable and we recognise that in some cases a private word may be more appropriate. If you feel the need to discuss a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](http://programminghistorian.org/project-team), or to contact one of our dedicated ombudspersons, [Miriam Posner or Ian Milligan](http://programminghistorian.org/project-team).
+In keeping with the ideas of public scholarship and open peer review, we generally encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable and we recognise that in some cases a private word may be more appropriate. If you feel the need to discuss a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](http://programminghistorian.org/project-team), or to contact our ombudsperson, [Ian Milligan or Amanda Visconti](http://programminghistorian.org/project-team).
 
-We strive to ensure all tutorials are functional on their date of publication. From time to time technology changes and tutorials cease to function as intended. If this happens, please [report it](https://github.com/programminghistorian/jekyll/wiki/Reporting-Issues) and we will assign an editor to fix the problem.
+We strive to ensure all tutorials are functional on their date of publication. From time to time technology changes and tutorials cease to function as intended. If this happens, please [let us know](feedback) and we will assign an editor to fix the problem.
 
 ## Funding & Ownership
 
@@ -43,7 +45,12 @@ _The Programming Historian_ is a volunteer-led initiative, controlled entirely b
 
 The project is grateful for past support by the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)), and for hosting support from the Roy Rosenzweig Centre for New Media ([RRCHNM](http://chnm.gmu.edu/)). If you would like to provide financial support to help the project grow, please contact one of the [Editorial Board members](http://programminghistorian.org/project-team).
 
+## Add us to your Library Catalogue
+
 This project is our attempt to demonstrate what open access academic publishing can and should be. Please tell your librarian to include the project in your library catalogue.
+
+_The Programming Historian_ has a [listing in WorldCat](http://www.worldcat.org/title/programming-historian/oclc/951537099) (with thanks to the [University of Purdue library](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink) and Amanda Visconti) and is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
+
 
 ## Contact
 
@@ -51,6 +58,8 @@ Please direct correspondence in the first instance to <a href="mailto:i2millig@u
 
 ## Suggested Citation
 
-If you wish to cite _The Programming Historian_, may we suggest the following:
+If you wish to cite _The Programming Historian_ project, may we suggest the following:
 
-Crymble, Adam, Fred Gibbs, Allison Hegel, Caleb McDaniel, Ian Milligan, Miriam Posner, Evan Taparata, and Jeri Wieringa, eds. _The Programming Historian_. 2nd ed., 2016. [http://programminghistorian.org/](http://programminghistorian.org/).
+Crymble, Adam, Fred Gibbs, Allison Hegel, Caleb McDaniel, Ian Milligan, Evan Taparata, Amanda Visconti, and Jeri Wieringa, eds. _The Programming Historian_. 2nd ed., 2016. [http://programminghistorian.org/](http://programminghistorian.org/).
+
+Individual lesson citation formats are shown at the bottom of each tutorial.

@@ -41,7 +41,19 @@ Academic peer review is essential for producing trusted high-quality resources. 
 
 We hope you'll consider joining our team of reviewers. The time commitment is flexible, and you'll be contributing to helping us maintain high academic standards for this community resource. Please email <a href="mailto:i2millig@uwaterloo.ca">Ian Milligan</a> to introduce yourself and let us know about the specific skills, tools, topics, and technologies that you'd like to be involved with so that we can send you the most appropriate lessons to review. 
 
----
+
+## Do Editorial Work
+
+<figure>
+	<img src="../gallery/editor-guidelines.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
+</figure>
+
+Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [guidelines for editors](http://programminghistorian.org/editor-guidelines) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
+
+From time to time we may advertise that we are seeking more editors.
+
+
+## Or Get in Touch
 
 No matter how you'd like to be involved, you can always email <a href="mailto:i2millig@uwaterloo.ca">Ian Milligan</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
 

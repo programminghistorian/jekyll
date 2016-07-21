@@ -18,12 +18,12 @@ OCR. Take for example, this page from the *Congressional Directory* from
 the 50th Congress (1887). The PDF scan downloaded from [HeinOnline][]
 looks organized:
 
-{% include figure.html src="../images/cd_pdf.png" caption="This is a screenshot of the PDF page." %}
+{% include figure.html filename="cd_pdf.png" caption="This is a screenshot of the PDF page." %}
 
 However, the OCR layer (downloaded as a text file\*) shows that the
 machine-encoded text is not nearly as neat:
 
-{% include figure.html src="../images/cd_txt.png" caption="This is a screenshot of the OCR." %}
+{% include figure.html filename="cd_txt.png" caption="This is a screenshot of the OCR." %}
 
 > Note: If you do not have the option to download a text file, you can
 use the [pdfminer][] module to extract text from the pdf.
