@@ -14,8 +14,8 @@ next: creating-an-omeka-exhibit
  * **Plugins and themes**. You can install any plugin or theme you want, without being restricted to those provided by Omeka.net.
  * **Customizations**. You can buy a custom domain name, and customize your code to achieve your desired functionality.
  * **Control**. You have control over your own backups, and you can update the server yourself so that its security is always up-to-date.
- * **Price**. There are many low-cost Virtual Private Servers (VPSs) now, some of which cost only $5 per month.  
- * **Storage**. Many shared hosting providers now offer unlimited storage. This is useful if you have a large media library.  
+ * **Price**. There are many low-cost Virtual Private Servers (VPSs) now, some of which cost only $5 per month.
+ * **Storage**. Many shared hosting providers now offer unlimited storage. This is useful if you have a large media library.
 
 In this tutorial, we'll be entering a few commands on the command line. This tutorial assumes no prior knowledge of the command line, but if you want a concise primer, consult the [Programming Historian introduction to BASH](http://programminghistorian.org/lessons/intro-to-bash). There are other ways of installing Omeka, of course, some using exclusively GUI tools. Some hosting providers even offer "[one-click installs](http://omeka.org/blog/2014/10/22/omeka-one-click-installs/)" via their control panels. Many of those methods, however, will install older versions of Omeka which are then harder to upgrade and maintain. The method outlined below may not be the easiest way to install Omeka, but it will give you some good practice with using the command line, which is a skill that will be useful if you want to manually upgrade your install, or manually install other web frameworks. (For example, this installation method is very similar to WordPress's ["Five-Minute Install"](https://codex.wordpress.org/Installing_WordPress).) There are four steps to this process, and it should take about an hour.
 
@@ -49,7 +49,7 @@ The commands we’re about to run are a little different for VPS and shared host
 
 First, we’ll need to install a LAMP software stack. LAMP stands for Linux, Apache, MySQL, and PHP, and it's the set of software that runs Omeka. Linux is the operating system that runs the server, Apache is the web serving software, MySQL is the database, and PHP is the language in which Omeka is written.
 
-Make sure you're logged in as the root user first. (The root user is a super-level user that has permission to run any command.) If you're root, typing `whoami` should return `root`; if it returns something different, switch users (`su`) to the root user with `su root` or `sudo su root`. Enter the root password you set up when you created your VPS, if asked. Now let's update our system:  
+Make sure you're logged in as the root user first. (The root user is a super-level user that has permission to run any command.) If you're root, typing `whoami` should return `root`; if it returns something different, switch users (`su`) to the root user with `su root` or `sudo su root`. Enter the root password you set up when you created your VPS, if asked. Now let's update our system:
 
     apt-get update && apt-get upgrade
 
@@ -59,7 +59,7 @@ Now that our system is up-to-date, let's install the server stack:
 
 Be sure to include the caret (`^`) at the end. This should install a LAMP server, prompting you to enter a root MySQL password. Enter a secure password here, and write it down, because we'll be using it later.
 
-At this point, you should have a running server. If you can open your VPS's public IP address in a web browser and see the Apache2 Ubuntu Default Page that says “It works!” then everything is running correctly. If not, you might need to take extra steps to ensure your ports are forwarding properly. On Amazon EC2, ports aren’t automatically forwarded, so you have to add HTTP ports to the allowed inbound traffic for your current security group. Navigate to Network & Security -> Security Groups, select the security group you’re using, select the “Inbound” tab, and click “Edit,” adding HTML ports.  
+At this point, your web server should be serving web pages. If you can open your VPS public IP address in a web browser and see the Apache2 Ubuntu Default Page that says “It works!” then everything is running correctly. If not, you might need to take extra steps to ensure your ports are forwarding properly. On Amazon EC2, for instance, ports aren't automatically forwarded, so you have to add HTTP ports to the allowed inbound traffic for your current security group. Navigate to Network & Security -> Security Groups, select the security group you’re using, select the “Inbound” tab, and click “Edit,” adding HTML ports.
 
 Let's get the Apache module `mod_rewrite` enabled now, which allows Omeka to let you use custom URL paths:
 
@@ -88,7 +88,7 @@ Your database should now be set up for use with Omeka. Type `exit;` or press Con
 
 ### Step 2B: for Shared Hosting
 
-Follow this step if you're using a shared hosting provider. If you're on a VPS, you can skip to step 3.  
+Follow this step if you're using a shared hosting provider. If you're on a VPS, you can skip to step 3.
 
 Log into your hosting provider's control panel and find an item called something like "MySQL Databases." If your hosting provider uses cPanel, it looks like this:
 
@@ -120,11 +120,11 @@ If you get a permissions error here on a VPS, make sure you're logged in as the 
 
     wget http://omeka.org/files/omeka-2.4.zip
 
-Now let’s first make sure we have the `unzip` command: 
+Now let’s first make sure we have the `unzip` command:
 
-    apt-get install unzip 
+    apt-get install unzip
 
-And now we can unzip the Omeka zip file: 
+And now we can unzip the Omeka zip file:
 
     unzip omeka-2.4.zip
 
