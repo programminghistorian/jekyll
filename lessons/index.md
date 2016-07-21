@@ -157,6 +157,13 @@ Just like it sounds, learn how to use programming to change, move, clean, or cou
       <p>M.H. Beals</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/json-and-jq">
+      <img src="../gallery/json-and-jq.png">
+      <h3>Reshaping JSON with jq</h3>
+      <p>Matthew Lincoln</p>
+    </a>
+  </li>
 </ul>
 
 
