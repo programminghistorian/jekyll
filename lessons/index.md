@@ -304,6 +304,13 @@ Learn how to present historical materials online.
     </a>
   </li>
   <li>
+    <a href="../lessons/installing-omeka">
+      <img src="../gallery/installing-omeka.jpg">
+      <h3>Installing Omeka</h3>
+      <p>Jonathan Reeve</p>
+    </a>
+  </li>
+  <li>
     <a href="../lessons/creating-an-omeka-exhibit">
       <img src="../gallery/creating-an-omeka-exhibit.png">
       <h3>Creating an Omeka.net Exhibit</h3>
