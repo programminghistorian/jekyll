@@ -290,7 +290,7 @@ Network visualizations can help humanities scholars reveal hidden and complex pa
 </ul>
 
 
-Omeka Exhibit Building
+Digital Exhibits and Augmented Reality
 ----------------------
 
 Learn how to present historical materials online.
@@ -308,6 +308,13 @@ Learn how to present historical materials online.
       <img src="../gallery/creating-an-omeka-exhibit.png">
       <h3>Creating an Omeka.net Exhibit</h3>
       <p>Miriam Posner and Megan R. Brett</p>
+    </a>
+  </li>
+  <li>
+    <a href="../lessons/intro-to-augmented-reality-with-unity">
+      <img src="../gallery/intro-to-augmented-reality-with-unity.png">
+      <h3>Introduction to Mobile Augmented Reality with Unity</h3>
+      <p>Jacob W. Greene</p>
     </a>
   </li>
 </ul>
