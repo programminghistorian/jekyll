@@ -73,9 +73,11 @@ Rather than build a corpus one document at a time, we're going to use a prepared
 Corpus construction is a subfield in its own right. Please see [Representativeness in Corpus Design](http://llc.oxfordjournals.org/content/8/4/243.abstract)," _Literary and Linguistic Computing_, 8 (4): 243-257
 and [_Developing Linguistic Corpora: a Guide to Good Practice_](http://www.amazon.com/Developing-Linguistic-Corpora-Practice-Guides/dp/1842172050/ref=sr_1_1) for more information. 
 
+
 ### Getting Started with AntConc: The AntConc user interface, loading corpora
 
-When AntConc launches, it will look like this. ![antconc!][25]
+When AntConc launches, it will look like this.
+{% include figure.html filename="antconc1.png" caption="AntConc opening screen." %}
 
 On the left-hand side, there is a window to see all corpus files loaded (which we'll use momentarily).
 
@@ -93,21 +95,22 @@ As an introduction, this tutortial barely scratches the surface of what you can 
 
 ### Loading Corpora
 Like opening a file elsewhere, we're going to start with File&nbsp; &gt; Open, but instead of opening just ONE file we want to open the directory of all our files.  AntConc allows you to open entire directories, so if you're comfortable with this concept, you can just open the folder 'all reviews' and jump to Basic Analysis, below    
-![open file 2][26]
+
+{% include figure.html filename="open-file-21.png" caption="Opening a directory of files." %}
 
 Remember we've put our files on the desktop, so navigate there in the dropdown menu.  
-![files on desktop open][27]
+{% include figure.html filename="files-on-desktop-open.png" caption="Opening a directory of files from your Desktop." %}
 
 From the Desktop you want to navigate to our folder "movie reviews from nltk":  
-![browse for directory inside folder][28]
+{% include figure.html filename="browse-for-directory-inside-folder.png" caption="Finding movie reviews." %}
 
 First you will select "Negative Reviews" and hit OK. 200 texts should load in the lefthand column Corpus Files – watch the Total No. box!  
-![open negative reviews][29]
+{% include figure.html filename="open-negative-reviews.png" caption="Loading negative reviews." %}
 
 Then you're going to repeat the process to load the folder "Positive Reviews". You should now have 400 texts in the Corpus Files column.  
-![positive reviews][30]
+{% include figure.html filename="positive-reviews.png" caption="Loading positive reviews." %}
 
-![all reviews loaded][31]
+{% include figure.html filename="all-reviews-loaded.png" caption="All reviews loaded." %}
 
 
 ## Searching Keywords in Context 
@@ -116,7 +119,9 @@ Then you're going to repeat the process to load the folder "Positive Reviews". Y
 One of the things corpus tools like Antconc are very good at are finding patterns in language which we have a hard time identifying as readers. Small boring words like *the, I, he, she, a, an, is, have, will* are especially difficult to keep track of as readers, because they're so common, but computers happen to be very good at them. These words are called function words, though they commonly known as 'stopwords' in digital humanities; they are often very distinct measures of authorial and generic style. As a result, they can be quite powerful search terms on their own or when combined with more content-driven terms, helping the researcher identify patterns they may not have been aware of previously. 
 
 In the search box at the bottom, type the and click "start". The Concordance view will show you every time the word the appears in our corpus of movie reviews, and some context for it. This is called a "Key Words in Context" viewer. 
-![the, thinking][32]  
+
+{% include figure.html filename="the-thinking.png" caption="'The' is a common word." %}
+
 
 (14618 times, according to the Concordance Hits box in the bottom centre.)
 
@@ -128,10 +133,14 @@ Now that you're comfortable with looking at a KWIC line, try doing it again with
 
 What do you see? I understand this can be a difficult to read way of identifiying patterns. Try pressing the yellow "sort" button. What happens now?
 
-![sorting shot 1L1R][33]  
+{% include figure.html filename="sorting-shot-1l1r.png" caption="Words that appear next to 'shot'." %}
+
+
 (This might be easier to read!)
 You can adjust the way AntConc sorts information by changing the parameters in the red circle: L corresponds with 'left' and R corresponds with 'right'; you can extend these up to ±5 in either direction. The default is 1 left, 2 right, 3 right, but you can change that to search 3 left, 2 left, 1 right (to get phrases and/or trigrams that end in the search term in question, for example) by clicking the arrow buttons up or down. If you don't want to include a sorting option you can skip it (as in the default: 1L, 2R, 3R) or include it as a 0. Less linear sorting practices are available, such as 4 left, 3 right, 5 right, which includes a lot of other contextual information. 
 These parameters can be slow to respond, but be patient. If you're not sure what the resulting search is, just press 'sort' to see what's happened and adjust accordingly.
+
+
 ### Search Operators
 
 #### The * operator (wildcard) 
@@ -141,7 +150,7 @@ The * operator (which finds zero or more characters) can help, for instance, fin
 Search for qualit*, then sort this search. What tends to precede and follow quality &amp; qualities? (Hint: they're different words, and have different contexts. Again- look for patterns in usage using the KWIC!)
 
 For a full list of available wildcard operators and what they mean, go to Global Settings &gt; Wildcard Settings.  
-![wildcard settings][34]  
+{% include figure.html filename="wildcard-settings.png" caption="Adjusting the wildcard settings." %}
 
 To find out the difference between * and ?, search for th*n and th?n. These two search queries look very similiar, but show very different results. 
 
@@ -157,12 +166,17 @@ Compare these two searches: wom?n and m?n
 
 >HINT: During the course of exploring in your research, you may generate many such files for reference; it's helpful to use descriptive filenames that describe what's in them (such as "wom?n-results.text", not "antconc_results.txt").
 
-![save output as text file][35] ![save as][36]
+{% include figure.html filename="save-output-as-text-file.png" caption="Save output as text file" %}
+
+{% include figure.html filename="save-as.png" caption="Save As dialog window." %}
 
 And now you can open the plain text file in your text editor; you might have to widen the application window to make it readable:  
-![results][37]
+{% include figure.html filename="results.png" caption="The plain text file displayed in a text editor." %}
+
 
 Do this for each of the two searches and then look at the two text files side by side. What do you notice?
+
+
 
 #### The | operator ("or")
 
@@ -182,10 +196,10 @@ Having looked at the KWIC lines for patterns, don't you wish there was a way for
 
 Good news - there is a way to get this information, and it's available from the Collocates tab. Click that, and AntConc will tell you it needs to create a word list. Hit OK; it will do it automatically.  
 
-> NOTE: You will only get this notice when you haven't created a word list yet.![wordlistwarning][38]  
+> NOTE: You will only get this notice when you haven't created a word list yet.
+{% include figure.html filename="wordlistwarning.png" caption="Word list warning" %}
 Try generating collocates for she.
 
-![she with collocates][39]  
 
 The unsorted results will seem to start with function words (words that build phrases) then go down to content words (words that build meaning)– these small boring words are [the most frequent words in English][55], which are largely phrase builders. Later versions of AntConc often include the search term as the first hit, presumably because the search term you are looking for shows up in the text and we are looking for words which are likely to appear with this word. 
 
@@ -213,7 +227,10 @@ Be sure to think carefully about what a reference corpus for your own research m
 Settings &gt; Tool preferences &gt; Keyword List  
 Under 'Reference Corpus' make sure "Use raw files" is checked  
 Add Directory &gt; open the folder containing the files that make up the reference corpus  
-Ensure you have a whole list of files![adding a reference corpus][40]  
+Ensure you have a whole list of files!
+
+{% include figure.html filename="adding-a-reference-corpus.png" caption="Adding a reference corpus." %}
+
 Hit Load (&amp; wait …) then once the 'Loaded' box is checked, hit Apply.  
 You can also opt to swap reference corpus &amp; main files (SWAP REF/MAIN FILES). It is worth looking at what both results show. 
 > If you're using a later version of AntConc, the Swap Ref/Main files option may be marked as 'swap with target files', and you will need to ensure the target and reference corpora have been loaded (press the load button each time you upload, or swap, a corpus).
@@ -224,7 +241,7 @@ In Keyword List, just hit Start (with nothing typed in the search box). If you'v
 
 What are our keywords?
 
-![spielberg vs movie reviews][42]
+{% include figure.html filename="spielberg-vs-movie-reviews.png" caption="Spielberg vs movie reviews." %}
 
 
 ## Discussion: Making meaningful comparisons
@@ -263,41 +280,10 @@ In summary: it's worth thinking about:
 
 ### Further resources for this tutorial
 [A short bibliography on corpus linguistics][43].    
-[A more step-by-step version of this tutorial, assuming no  computer knowledge](http://hfroehli.ch/workshops/getting-started-with-antconc/)
+[A more step-by-step version of this tutorial, assuming no computer knowledge](http://hfroehli.ch/workshops/getting-started-with-antconc/)
 
 
-[10]: http://hfroehlich.files.wordpress.com/2014/05/plaintext-warning.png?w=940
-[11]: http://hfroehlich.files.wordpress.com/2014/05/file-on-desktop.png?w=940
-[12]: http://hfroehlich.files.wordpress.com/2014/05/notepad.png?w=940&amp;h=573
-[13]: http://hfroehlich.files.wordpress.com/2014/05/download-files1.png?w=940&amp;h=205
-[14]: http://hfroehlich.files.wordpress.com/2014/05/downloadfiles2.png?w=146&amp;h=109
-[15]: http://hfroehlich.files.wordpress.com/2014/05/downloadfiles3.png?w=349&amp;h=262
-[16]: http://hfroehlich.files.wordpress.com/2014/05/where-do-files-live-1.png?w=940&amp;h=202
-[17]: http://hfroehlich.files.wordpress.com/2014/05/files-to-work-with.png?w=940
-[18]: http://hfroehlich.files.wordpress.com/2014/05/copy-files11.png?w=940&amp;h=382
-[19]: http://hfroehlich.files.wordpress.com/2014/05/drag-to-desktop1.png?w=940
-[20]: http://hfroehlich.files.wordpress.com/2014/05/successful-move-to-desktop.png?w=940
-[22]: http://hfroehlich.files.wordpress.com/2014/05/downloadantconc1.png?w=940
-[23]: http://hfroehlich.files.wordpress.com/2014/05/downloadantconc2.png?w=940
-[24]: http://hfroehlich.files.wordpress.com/2014/05/launchingantconc.png?w=940
-[25]: http://hfroehlich.files.wordpress.com/2014/05/antconc1.png?w=940&amp;h=737
-[26]: http://hfroehlich.files.wordpress.com/2014/05/open-file-21.png?w=940&amp;h=729
-[27]: http://hfroehlich.files.wordpress.com/2014/05/files-on-desktop-open.png?w=940&amp;h=729
-[28]: http://hfroehlich.files.wordpress.com/2014/05/browse-for-directory-inside-folder.png?w=940&amp;h=747
-[29]: http://hfroehlich.files.wordpress.com/2014/05/open-negative-reviews.png?w=940
-[30]: http://hfroehlich.files.wordpress.com/2014/05/positive-reviews.png?w=940
-[31]: http://hfroehlich.files.wordpress.com/2014/05/all-reviews-loaded.png?w=940&amp;h=742
-[32]: http://hfroehlich.files.wordpress.com/2014/05/the-thinking.png?w=940&amp;h=744
-[33]: http://hfroehlich.files.wordpress.com/2014/05/sorting-shot-1l1r.png?w=940&amp;h=728
-[34]: http://hfroehlich.files.wordpress.com/2014/05/wildcard-settings.png?w=940
-[35]: http://hfroehlich.files.wordpress.com/2014/05/save-output-as-text-file.png?w=940
-[36]: http://hfroehlich.files.wordpress.com/2014/05/save-as.png?w=940&amp;h=738
-[37]: http://hfroehlich.files.wordpress.com/2014/05/results.png?w=940&amp;h=520
-[38]: http://hfroehlich.files.wordpress.com/2014/05/wordlistwarning.png?w=300&amp;h=138
-[39]: http://hfroehlich.files.wordpress.com/2014/05/she-with-collocates.png?w=940&amp;h=742
-[40]: http://hfroehlich.files.wordpress.com/2014/05/adding-a-reference-corpus.png?w=940&amp;h=666
 [41]: http://www.lexically.net/downloads/version6/HTML/index.html?keyness_definition.htm
-[42]: http://hfroehlich.files.wordpress.com/2014/05/spielberg-vs-movie-reviews.png?w=940&amp;h=733
 [43]: http://hfroehlich.wordpress.com/2014/05/11/intro-bibliography-corpus-linguistics/
 [47]: http://hfroehli.ch/workshops/getting-started-with-antconc/
 [48]: http://voyant-tools.org/
