@@ -2,7 +2,7 @@
 title: Introduction to PowerShell
 authors:
 - Ted Dawson
-date: 2016-04-01
+date: 2016-07-21
 reviewers:
 - Erin N. Bush
 - Derek Price

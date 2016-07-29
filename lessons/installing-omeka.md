@@ -2,8 +2,10 @@
 title: Installing Omeka
 authors:
 - Jonathan Reeve
-date: 2015-06-10
+date: 2016-07-24
 reviewers:
+- M. H. Beals
+- Fred Gibbs
 layout: default
 next: creating-an-omeka-exhibit
 ---
