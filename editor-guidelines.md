@@ -70,7 +70,6 @@ If you are really busy, if possible make a note on the forum to say you have see
 
 Once the two formal reviews are in (as well as any informal contributions from the community), you will have to summarise the suggestions and give the author a clear path for any revisions that you would like them to respond to. If any suggestions are counter to our aims at the *Programming Historian*, politely tell the author to forego those suggestions. Keep in mind what it is like to be an author and receive a review. You want clear guidance, but also the right to reject ideas that don't improve the piece. You also want assurance that you are not trying to hit a moving target. A good summary of reviews means an author can respond and expect publication if all significant obstacles are met.
 
-
 ## Technical Processes of Review - Editorial Checklist
 
 Our peer review is conducted on our [Submissions repository](https://github.com/programminghistorian/ph-submissions) on Github. Full instructions for how to upload files, including file formats and formatting guidelines can be found on our [Author Submission Instructions](http://programminghistorian.org/new-lesson-workflow) which will always contain the most up to date instructions. Please familiarise yourself with these steps or refer to them as needed. If you need help you are always welcome to [email another editor directly](http://programminghistorian.org/project-team).
@@ -128,7 +127,7 @@ If a tutorial contains a video it should be hosted on our YouTube channel (which
 
 Once you and the author are happy with a tutorial, the next step is to move the lesson from the Submissions site to our main repository that hosts the live website.
 
-### 1) Moving the Files
+### 1) Move the Files
 
 The easiest way to publish the lesson is to use `git` from the command line. The following instructions assume that you have already cloned both the `jekyll` and `ph-submissions` repositories to your local machine. (Our [lesson on using GitHub Desktop](http://programminghistorian.org/lessons/getting-started-with-github-desktop) may be helpful if this is new to you.) If you are not sure how to do that or have any questions, contact Caleb McDaniel for assistance.
 
@@ -151,11 +150,11 @@ If the lesson has been written by a new author, editors should add information a
 
 **Whitespace is important**, so be sure that the indentation matches the other examples.
 
-### 3) Add reviewers to the YAML file
+### 3) Add reviewers and editors to the YAML file
 
-It is important that we acknowledge the work of our peer reviewers. To the YAML file at the top of the tutorial, add the names of the reviewers who helped work on the piece (including your own), as well as the names of any members of the community who contributed substantial open reviews. YAML formatting instructions can be found on [Author Guidelines](http://programminghistorian.org/new-lesson-workflow).
+It is important that we acknowledge the work of our peer reviewers and editors. To the YAML file at the top of the tutorial, add the names of the reviewers who helped work on the piece as well as the names of any members of the community who contributed substantial open reviews. In addition, create an `editors` key and add yourself and any other editors who actively contributed to guiding the piece to publication. YAML formatting instructions can be found in the [Author Guidelines](http://programminghistorian.org/new-lesson-workflow).
 
-### 4) Add difficulty indicator to the YAML file
+### 4) Add a difficulty indicator to the YAML file
 
 To help readers evaluate which lessons best fit their goals and skill level, we provide "Recommended for ___ Users" information in the lesson YAML file. There are currently three tiers, which can be set with the following numerical codes: 1 (Beginning), 2 (Intermediate), 3 (Advanced). To add the difficulty level to the lesson, include the following in the YAML file:
 
@@ -163,7 +162,15 @@ To help readers evaluate which lessons best fit their goals and skill level, we 
 difficulty: 1
 ```
 
-### 5) Find an Image to represent the lesson
+### 5) Add the review ticket number to the YAML file
+
+In order to promote transparency around the review process, create a `review-ticket` key in the YAML file and provide the ticket number for the corresponding review ticket in the ph-submissions repository. This information will be used to provide a link back to the review ticket for the lesson.
+
+### 6) Update the date field in the YAML file
+
+Update the date in the YAML file to the date the lesson was moved to the jekyll repository and the added to the main site.
+
+### 7) Find an Image to represent the lesson
 
 We represent our lessons using an old image that we feel captures some element of the task described in the tutorial. You can see the full range of these on the [main Lessons directory](http://programminghistorian.org/lessons/). These images are selected by editors.
 
@@ -185,7 +192,7 @@ Upload the original image to the [gallery/originals](https://github.com/programm
 Add the image to the lessons page by editing the HTML in [lessons/index.md](https://github.com/programminghistorian/jekyll/blob/gh-pages/lessons/index.md) so that the image source matches the new image’s file location. In our previous example, the HTML line would be: `<img src="../gallery/cleaning-data-with-openrefine.png">`. The new image should appear on the [Lessons page]( http://programminghistorian.org/lessons)!
 
 
-### 6) Thank Everyone and Encourage Promotion
+### 8) Thank Everyone and Encourage Promotion
 
 It's important to send an email or message to everyone involved thanking them for their efforts. In particular, thank the author for contributing and encourage them to think of us again in future. It's also worth giving the author some ideas on promoting their lesson. The most-used lessons always have authors' energies behind them. For example authors should be encouraged to:
 
