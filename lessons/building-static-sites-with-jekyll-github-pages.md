@@ -128,7 +128,7 @@ The default command line program is called "Terminal" on Macs (located in *Appli
 
 Below is what a command line window looks like on the author's Mac (using Terminal). You'll see something like the *Macbook-Air:~ DrJekyll$* below in your command line window; that text is called the "prompt" (it's prompting you to input commands). In the screenshot, *Macbook-Air* is the name of my computer, and *DrJekyll* is the user account currently logged in (the prompt will use different names for your computer and username).
 
- ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-0.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-0.png" caption="What the command prompt looks like on a Mac" %}
 
 When asked to open a command line window and enter commands in this lesson, keep the following in mind:
 
@@ -137,7 +137,7 @@ When asked to open a command line window and enter commands in this lesson, keep
 2. **Let installation processes run *completely* before entering new commands.** Sometimes typing a command and pressing enter produces an instantaneous result; sometimes lots of text will start to fill up the command line window, or the command line window will seem to not be doing anything (but something is actually happening behind the scenes, like downloading a file). **When you've typed a command and hit enter, you'll need to wait for that command to completely finish before typing *anything else***, or you might stop a process in the middle, causing problems. 
    {0}. You'll know your command has completed when the command line spits out the prompt again (e.g. *Macbook-Air:~ DrJekyll$* on the author's computer). See the screenshot below for an example of inputting a command, followed by some text showing you what was happening while that command was processed (and sometimes asking you to do something, like enter your password), and finally the reappearance of the command prompt to let you know it's okay to type something else. 
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-4.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-4.png" caption="An example of inputting a command, followed by some text showing you what was happening while that command was processed (and sometimes asking you to do something, like enter your password), and finally the reappearance of the command prompt to let you know it’s okay to type something else" %}
 
    If you need to do something else at the command line and don't want to wait, just open a separate command line window (on a Mac, hit command-N or go to *Shell > New Window > New Window with Settings-Basic*) and do things there while waiting for the process in the other command line window to finish.
 
@@ -163,15 +163,15 @@ You'll need to first install the Mac "command line tools" suite to be able to us
 
 You'll see something like the following text, followed by a popup:
 
- ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-1.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-1.png" caption="After entering the code at the command prompt, you'll see a message stating 'install requested for command line developer tools'" %}
 
 In the popup, click the "Install" button:
 
-![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-2.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-2.png" caption="A popup appears with an install button" %}
 
 You'll see a message that "The software was installed" when the installation is complete:
 
-![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-2.5.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-2.5.png" caption="Popup message stating the software was installed" %}
 
 ### Homebrew <a id="section2-2"></a>
 
@@ -183,7 +183,7 @@ After the command line tools suite has completed installation, return to your co
 
 You'll need to press enter when prompted and enter your computer password when asked. For reference, below is a screenshot of the command entered into the author's command line, followed by all the text that appeared (including the prompt to press enter, and to enter my password).
 
-![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-4.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-4.png" caption="The command entered into the author’s command line, followed by all the text that appeared (including the prompt to press enter, and to enter my password)" %}
 
 ### Ruby & Ruby Gems <a id="section2-3"></a>
 
@@ -245,19 +245,19 @@ Don't forget to wait until the command prompt appears again to type the followin
 
 1. You'll need to know the file path to the GitHub folder created by installing the GitHub Desktop app (this is some text that says where a specific folder or file is within the directory tree on your computer, e.g. /Desktop/MyRecipes/Spaghetti.doc). If you don't know the GitHub folder file path, click on the magnifying glass icon in the top right of your computer screen (on a Mac) or use the search field on the Start Menu (Windows).
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-5.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-5.png" caption="The magnifying glass icon that lets you search a Mac computer is in the top right of your computer screen" %}
 
    On Macs, a search box will appear in the middle of the screen; type in "GitHub", then double-click on the "GitHub" option that appears under "Folders" to reveal the GitHub folder in Finder (this may look slightly different on Windows, but should function the same).
 
    Note that on some computers, this folder is instead labeled "GitHub for Macs" and may not show up on a search; if the previous steps didn't locate a GitHub folder for you, navigate to Library > Application Support in Finder and check if a "GitHub for Mac" folder is located there.
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-6.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-6.png" caption="After searching for 'GitHub', a “GitHub” option appears under the 'Folders' heading; double-click 'GitHub' to reveal the GitHub folder in Finder" %}
 
    Right-click on the "GitHub" folder and choose "Copy 'GitHub'". The GitHub folder file path is now copied to your clipboard.
 
 2. At the command line, write `cd`, followed by a space, followed by the file path to your GitHub folder (either type it in if known, or press Command-v to paste in the file path you copied in the previous step). On the author's computer (logged in as the user *DrJekyll*) this command looks like:
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-7.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-7.png" caption="The author's computer after entering cd, followed by a space, followed by the file path to their GitHub folder" %}
 
    The *cd* command (**c**hange **d**irectory) tells your computer to look at the place in the computer's folder system you specify by the path typed after it—in this case, the path to the GitHub folder created by installing the GitHub Desktop app.
 
@@ -273,11 +273,11 @@ Don't forget to wait until the command prompt appears again to type the followin
 
    `cd JekyllDemo` 
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-8.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-8.png" caption="On the author's computer, the command line after navigating to the Jekyll website folder" %}
 
    If you look in the *GitHub > JekyllDemo* folder in Finder, you'll see that a bunch of new files—the files that will run your website!—have been installed (we'll describe what each does [further on in the lesson](#section4-2)):
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-9.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-9.png" caption="In Finder, we can see that bunch of new files—the files that will run your website!—have been installed" %}
 
 5. Bundler is a Ruby "Gem" (a package of Ruby code that adds some specific feature to your site) that will make testing your site easier; it needs to be installed directly into the website folder we just created (e.g. *JekyllDemo*), which is why we didn't install it earlier in this lesson. At the command line, enter:
 
@@ -291,7 +291,7 @@ Don't forget to wait until the command prompt appears again to type the followin
 
 6. Navigate to your website folder in Finder (Macs) or your directory folder (Windows), and open the "Gemfile" file; you'll want to open this and any future website files using your [text editor](#section1-3) (e.g. TextWrangler). To force a file to open with your text editor, right-click on the file, then chose "Open with" and select the text editor program (you may need to choose "Other…" to find the text editor if it isn't in the list that appears).
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-12.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-12.png" caption="Entering the two lines of code in Step 7 on separate lines and with the same lower-case formatting" %}
 
    You can also drag and drop a text file onto the icon for your text editor program (e.g. on the Dock/menubar).
 
@@ -302,7 +302,7 @@ Don't forget to wait until the command prompt appears again to type the followin
    gem 'github-pages'
    ```
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-13.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-13.png" caption="" %}
 
 8. At the command line, type
 
@@ -327,7 +327,9 @@ Don't forget to wait until the command prompt appears again to type the followin
 
    *--watch* together with *bundle exec* tells Jekyll to watch for changes to the website's files, such as you writing and saving a new blog post or webpage, and to include these changes on refreshing your web browser. **An exception to this** is the _config.yml file, which I'll discuss in more detail in the next section (any changes made there *won't* show up until you stop and restart Jekyll).
 
-2. After typing in the command in the previous step, you'll notice that the process never finishes. Remember how on the command line, if you type in anything while the previous command is still processing, you can cause problems? Jekyll is now being run from this command line window, so you'll need to open a new command line window if you want to type other commands while your local site is still accessible to you (see [the section on command line usage above](#section1-4).) ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-10.png)
+2. After typing in the command in the previous step, you'll notice that the process never finishes. Remember how on the command line, if you type in anything while the previous command is still processing, you can cause problems? Jekyll is now being run from this command line window, so you'll need to open a new command line window if you want to type other commands while your local site is still accessible to you (see [the section on command line usage above](#section1-4).) 
+
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-10.png" caption="The command line after entering the command to start serving your Jekyll website" %}
 
    Reports and error messages caused by changes you make to the files in the website folder will appear in this command line window, and are a good first place to check if something isn't working.
 
@@ -335,7 +337,7 @@ Don't forget to wait until the command prompt appears again to type the followin
 
 4. View your locally-running site by visiting **localhost:4000**. You'll see a basic Jekyll website with boilerplate text:
 
-![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-11.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-11.png" caption="A basic Jekyll website with boilerplate text" %}
 
 ### Mini cheatsheet <a id="section3a-1"></a>
 
@@ -355,13 +357,12 @@ Don't forget to wait until the command prompt appears again to type the followin
 
 1. Navigate to your website folder in Finder (Macs) or the directory folder (Windows. The author's website at */Users/DrJekyll/GitHub/JekyllDemo* (*DrJekyll* is my logged in username, and *JekyllDemo* is the name of my website folder). [Return to the "Setting up Jekyll" section](#section3) if you need help locating your website folder.
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png" caption="Locating the website folder on the author's computer" %}
 
 2. We'll start by customizing the main settings file, **_config.yml**. You'll want to open this and any future website files using your text editor (e.g. TextWrangler on Macs or Notepad++ on Windows).
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-14.png)
-
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-15.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-14.png" caption="Opening the text editor program TextWrangler on the author's Mac" %}
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-15.png" caption="The new _config.yml file" %}
 
    The *_config.yml* file is a file "meant for settings that affect your whole blog, values for which your are expected to set up once and rarely need to edit after that" (as it says inside the file!). *_config.yml* is the place where you can set the title of your site, share information like your email address that you want associated with the site, or add other "basic settings"-type information you want available across your website. 
 
@@ -387,19 +388,19 @@ Don't forget to wait until the command prompt appears again to type the followin
 
    The changes you made to the *baseurl* and *url* lines will let your site run from the same files both locally on your computer and live on the Web, but **doing this changed the URL where you'll see your local site from now on** (while [Jekyll is running](#section3-1)) from localhost:4000 to **localhost:4000/JekyllDemo/** (substitute your website folder name for *JekyllDemo* and remembering the last slash mark).
 
-   In the screenshot below, I have deleted the initial commented lines 1-6 as well as the commented text stating what "description" does (not necessary, just to show you can delete comments that you don't care about seeing!) as customized the rest of the file as instructed above:
+   In the screenshot below, I have deleted the initial commented lines 1-6 as well as the commented text stating what "description" does (not necessary, just to show you can delete comments that you don't care about seeing!) and customized the rest of the file as instructed above:
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-16.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-16.png" caption="The author's customized _config.yml file" %}
 
 5. Save the file, and start (or stop and restart if it's currently running) the website, then visit **localhost:4000/JekyllDemo/** (substituting your website folder name for *JekyllDemo* and remembering the last slash mark) to see your customized local site:
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-17.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-17.png" caption="The author's customized local website" %}
 
 ### Where (and what) is everything? <a id="section4-2"></a>
 
 To get a sense of how your site works and what files you'd experiment with to do more advanced things, here are some notes on what each folder or file in your current website folder does. Remember to always open and edit any files with a text editor (e.g. TextWrangler) and not a word processor (e.g. not Microsoft Word or anything that lets you add formatting like italic and bold); this prevents invisible formatting characters from being saved in the file and messing up the website. If you just want to start adding content to your site and make it public, you can [skip to the next section](#section5).
 
-![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-18.png" caption="A Finder window showing the default files and folders in a Jekyll website folder" %}
 
 - **_config.yml** is discussed [above](#section4-1); it provides basic settings information about your site, such as the site's title and additional possibilities we won't cover here, like how to structure links to posts (e.g. should they follow the pattern MySite.com/year/month/day/post-title?).
 - **_includes** folder has files that get included on all or certain pages (e.g. code to make the header contain your site title and main menu on every page of the site)
@@ -444,7 +445,7 @@ You might be interested in "markdown editor" software such as [Typora](http://ww
 
 4. To create a new page in addition to the "About" page that already exists on the site (and can be customized or deleted), create a copy of the *about.md* file in the same folder (the main website folder) and change its filename to the title you wish, using hyphens instead of spaces (e.g. *resume.md* or *contact-me.md*). Also change the title and permalink in the file's front matter, and the content of the file. The new page should automatically appear in the main menu in the site's header:
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-22.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-22.png" caption="After adding a new page file to the website folder, the new page appears in the website's header menu" %}
 
 For reference, you can check out [an example of a page](http://amandavisconti.github.io/JekyllDemo/resume/) on my demo site, or see [the file that's behind that page](https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/resume.md).
 
@@ -452,7 +453,7 @@ For reference, you can check out [an example of a page](http://amandavisconti.gi
 
 1. In Finder, navigate to your website folder (e.g. *JekyllDemo*) and the *_posts* folder inside it. Open the file inside it with either a text editor (e.g. TextWrangler) or a Markdown editor (e.g. Typora). The file will be named something like *2016-02-28-welcome-to-jekyll.markdown* (the date will match when you created the Jekyll site).
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-19.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-19.png" caption="An example Jekyll website blog post file opened in a text editor" %}
 
    As with pages, with posts the stuff between the \--- lines is called "front matter" (*note that opening the file in a Markdown editor might make the front matter appear on a gray background instead of between dashes*). The front matter tells your site whether to format the content below the front matter as a page or blog post, the title of the post, the date and time the post should show it was published, and any categories you'd like the post or page listed under.
 
@@ -470,9 +471,8 @@ For reference, you can check out [an example of a page](http://amandavisconti.gi
 
    After saving, you should now be able to see your second post on the front page of your site, and clicking on the link should take you to the post's page:
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-20.png)
-
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-21.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-20.png" caption="The author's website, where the recently added blog post now appears on the front page" %}
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-21.png" caption="The webpage for the recently added blog post on the author's site" %}
 
 Notice that **the URL of the post** is your local website URL (e.g. *localhost:4000/JekyllDemo/*) followed by the year/month/date of publication, followed by the title as written in your filename and ending with .html (e.g. *localhost:4000/JekyllDemo/2016/02/29/a-post-about-my-research.html*). Jekyll is converting the Markdown file you authored in the _posts folder into this HTML webpage.
 
@@ -497,23 +497,22 @@ For reference, you can check out [an example of a post](http://amandavisconti.gi
 
    You can use the larger text area below this to write a longer message, if needed (*it's optional*).
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-23.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-23.png" caption="Screenshot of the author's Jekyll website repository open in the GitHub app. On the left, we see our Jekyll website folder selected; in the middle, we see a list of files we've changed since the last time we changed the live website; and at the bottom we see fields for a short description of the changes you've made and for a longer description (if necessary)" %}
 5. At the top of the app window, click on the third icon from the left (it will say "Add a branch" if you hover over it). Type *gh-pages* in the "Name" field, then click the "Create branch" button.
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-24.png)
-
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-24.png" caption="Type gh-pages in the 'Name' field, then click the 'Create branch' button" %}
 6. Click on the "Commit to gh-pages" button near the bottom-left of the app window.
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-25.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-25.png" caption="The 'Commit to gh-pages' button near the bottom-left of the app window" %}
 7. Click on the "Publish" button in the top-right.
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-26.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-26.png" caption="Click on the “Publish” button in the top-right" %}
 8. In the popup, leave everything as-is and click the "Publish repository" button in the lower-right (*your window may not show the options related to private repositories shown in the screenshot*).
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-27.png)
-9. Click the "Sync" button in the upper-right
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-27.png" caption="In the popup, leave everything as-is and click the 'Publish repository' button in the lower-right" %}
+9. Click the "Sync" button in the upper-right.
 
-   ![Screenshot](../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-28.png)
+{% include figure.html filename="../images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-28.png" caption="Click the 'Sync' button in the upper-right" %}
 10. You can now visit (and share the link to!) your live website. The URL will follow the pattern of *your GitHub username DOT github.io SLASH name of your website SLASH*. (For example, the author's URL is [amandavisconti.github.io/JekyllDemo/](amandavisconti.github.io/JekyllDemo/).)
 
 ### Mini cheatsheet <a id="section6-1"></a>
