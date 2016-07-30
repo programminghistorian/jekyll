@@ -294,6 +294,8 @@ Your editor and reviewers will most likely make some suggestions for improvement
 
 You can edit your files on GitHub, following [these instructions](https://help.github.com/articles/editing-files-in-your-repository/).
 
+Your revisions should be completed within 4 weeks of receiving guidance from the editor on how to respond to the peer review. This is to ensure that lessons are published in a timely fashion and do not drag on unnecessarily. If you anticipate having trouble meeting the deadline, you should contact your editor to establish a more suitable due date.
+
 If at any point you are unsure of your role or what to do next, feel free to email your editor or, better yet, to post a question to the issue (another editor might see it and can help you sooner than your own editor). You’ll understand that sometimes it will take us a few days to respond, but we hope the improvements to the finished lesson will be worth the wait. 
 
 Once you have finished responding to feedback, and make that clear that you are finished editing, the *Programming Historian*'s editorial team will quickly review your lesson to make sure everything is in order (and catch any last typos, etc.), move it from the 'ph-submissions' repository to the 'jekyll' repository, and update our lessons directory.

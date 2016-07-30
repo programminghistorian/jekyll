@@ -70,6 +70,10 @@ If you are really busy, if possible make a note on the forum to say you have see
 
 Once the two formal reviews are in (as well as any informal contributions from the community), you will have to summarise the suggestions and give the author a clear path for any revisions that you would like them to respond to. If any suggestions are counter to our aims at the *Programming Historian*, politely tell the author to forego those suggestions. Keep in mind what it is like to be an author and receive a review. You want clear guidance, but also the right to reject ideas that don't improve the piece. You also want assurance that you are not trying to hit a moving target. A good summary of reviews means an author can respond and expect publication if all significant obstacles are met.
 
+### Managing the Revision Process
+
+With your summary of the reviews and any final instructions for the editor, include a reminder to the author that revisions should be completed within 4 weeks. This is to ensure that lessons are published in a timely fashion and do not drag on unnecessarily. If the author anticipates trouble meeting the deadline, they should contact their editor to establish a more suitable due date.
+
 ## Technical Processes of Review - Editorial Checklist
 
 Our peer review is conducted on our [Submissions repository](https://github.com/programminghistorian/ph-submissions) on Github. Full instructions for how to upload files, including file formats and formatting guidelines can be found on our [Author Submission Instructions](http://programminghistorian.org/new-lesson-workflow) which will always contain the most up to date instructions. Please familiarise yourself with these steps or refer to them as needed. If you need help you are always welcome to [email another editor directly](http://programminghistorian.org/project-team).
