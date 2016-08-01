@@ -50,12 +50,6 @@ In keeping with the ideas of public scholarship and open peer review, we general
 
 We strive to ensure all tutorials are functional on their date of publication. From time to time technology changes and tutorials cease to function as intended. If this happens, please [let us know](feedback) and we will assign an editor to fix the problem.
 
-## Add us to your Library Catalogue
-
-This project is our attempt to demonstrate what open access academic publishing can and should be. Please tell your librarian to include the project in your library catalogue.
-
-_The Programming Historian_ has a [listing in WorldCat](http://www.worldcat.org/title/programming-historian/oclc/951537099) (with thanks to the [University of Purdue library](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink) and Amanda Visconti) and is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
-
 ## Project Scholarship
 
 The project team and members of the wider community are involved in a number of scholarly initiatives related to our work here at _The Programming Historian_. These include events, journal articles, reviews (of us by the community), and posters. If you are conducting academic research using this project please let us know.
