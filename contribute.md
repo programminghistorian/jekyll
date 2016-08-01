@@ -7,16 +7,6 @@ layout: blank
 
 The _Programming Historian_ runs on the energy of volunteers, and we welcome contributions from the community. Please consider the following ways to get involved, or let us know about other ideas you have for broadening participation.
 
-## Provide feedback and report problems
-
-<figure>
-	<img src="../images/reader-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
-</figure>
-
-We welcome [feedback](../feedback.html) on any aspect of the Programming Historian. Let us know what we can do to make the project better!
-
-We are especially grateful for tips about lessons that seem to be broken. As URLs change and as new versions of software and platforms are released, lessons develop glitches over time. Please help us keep the _Programming Historian_ up to date by letting us know about these when you come across them in the course of your reading. 
-
 ## Write a new lesson
 
 <figure>
@@ -52,6 +42,15 @@ Our editorial board members help facilitate peer review and work with authors cl
 
 From time to time we may advertise that we are seeking more editors.
 
+## Provide feedback and report problems
+
+<figure>
+	<img src="../images/reader-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
+</figure>
+
+We welcome [feedback](../feedback.html) on any aspect of the Programming Historian. Let us know what we can do to make the project better!
+
+We are especially grateful for tips about lessons that seem to be broken. As URLs change and as new versions of software and platforms are released, lessons develop glitches over time. Please help us keep the _Programming Historian_ up to date by letting us know about these when you come across them in the course of your reading. 
 
 
 ## Add us to your Library Catalogue
