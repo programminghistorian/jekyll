@@ -19,8 +19,12 @@ If you can’t find what you’re looking for, we welcome your [feedback](feedba
 
 Please direct correspondence in the first instance to <a href="mailto:i2millig@uwaterloo.ca">Ian Milligan</a> at the University of Waterloo.
 
+---
+
 * TOC
 {:toc}
+
+---
 
 ## Our Philosphy
 
