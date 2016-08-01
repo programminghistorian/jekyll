@@ -53,6 +53,14 @@ Our editorial board members help facilitate peer review and work with authors cl
 From time to time we may advertise that we are seeking more editors.
 
 
+
+## Add us to your Library Catalogue
+
+This project is our attempt to demonstrate what open access academic publishing can and should be. Please tell your librarian to include the project in your library catalogue.
+
+_The Programming Historian_ has a [listing in WorldCat](http://www.worldcat.org/title/programming-historian/oclc/951537099) (with thanks to the [University of Purdue library](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink) and Amanda Visconti) and is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
+
+
 ## Or Get in Touch
 
 No matter how you'd like to be involved, you can always email <a href="mailto:i2millig@uwaterloo.ca">Ian Milligan</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
