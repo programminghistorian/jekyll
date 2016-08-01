@@ -18,11 +18,15 @@ If you can’t find what you’re looking for, we welcome your [feedback](feedba
 * TOC
 {:toc}
 
-## Open Source
+## Our Philosphy
+
+_The Programming Historian_ is committed to openess, access, and quality:
+
+### Open Source
 
 _The Programming Historian_ is committed to open source and open access principles. All contributed lessons must make use of open source programming languages and open source software whenever possible. This policy is meant to minimize costs for all parties, and to allow the greatest possible level of participation. We believe everyone should be able to benefit from these tutorials, not just those with large research budgets for expensive proprietary software.
 
-## Gold Open Access
+### Gold Open Access
 
 All submissions to _The Programming Historian_ are published under a [Creative Commons 'BY' license](https://creativecommons.org/licenses/by/2.0/). This adheres to a '[Gold](https://en.wikipedia.org/wiki/Open_access)' open access model of publishing, which is fully compliant with [RCUK](http://www.rcuk.ac.uk/research/openaccess/) funding and [HEFCE](http://www.hefce.ac.uk/rsrch/oa/) publishing requirements for scholars in the UK, as well as the [Canadian Tri-Agency Open Access Policy](http://www.science.gc.ca/default.asp?lang=En&n=F6765465-1). 'Gold' open access means that the version of record is made freely available without subscription fee or restrictions on access. Authors are permitted to republish their tutorials anywhere. And so can anyone, as long as they cite the original author and respect his or her moral rights.
 
@@ -30,7 +34,7 @@ _The Programming Historian_ is indexed by the [Directory of Open Access Journals
 
 We do not charge Article Processing Charges (APCs), nor do we charge library subscriptions.
 
-## Peer Review
+### Peer Review
 
 All tutorials that appear on _The Programming Historian_ have been rigorously peer reviewed and copy edited. Each lesson is guided through the review process by one of our editors who are assigned to the piece. Review involves a thorough exchange with the editor to ensure the lesson works as intended and that all concepts are explained fully for a non-specialist reader, before the tutorial is sent to external reviewers to test it and provide further comments. We aim to return reviewed material to authors quickly, but our first priority is always to ensure a quality product.
 
@@ -42,18 +46,40 @@ In keeping with the ideas of public scholarship and open peer review, we general
 
 We strive to ensure all tutorials are functional on their date of publication. From time to time technology changes and tutorials cease to function as intended. If this happens, please [let us know](feedback) and we will assign an editor to fix the problem.
 
-## Funding & Ownership
-
-_The Programming Historian_ is a volunteer-led initiative, controlled entirely by the 'Editorial Board of the Programming Historian' with the help of community contributors. It is not a legal entity, and does not currently receive direct funding from any source. 
-
-The project is grateful for past support by the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)), and for hosting support from the Roy Rosenzweig Centre for New Media ([RRCHNM](http://chnm.gmu.edu/)). If you would like to provide financial support to help the project grow, please contact one of the [Editorial Board members](http://programminghistorian.org/project-team).
-
 ## Add us to your Library Catalogue
 
 This project is our attempt to demonstrate what open access academic publishing can and should be. Please tell your librarian to include the project in your library catalogue.
 
 _The Programming Historian_ has a [listing in WorldCat](http://www.worldcat.org/title/programming-historian/oclc/951537099) (with thanks to the [University of Purdue library](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink) and Amanda Visconti) and is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
 
+## Project Scholarship
+
+The project team and members of the wider community are involved in a number of scholarly initiatives related to our work here at _The Programming Historian_. These include events, journal articles, reviews (of us by the community), and posters. If you are conducting academic research using this project please let us know.
+
+### Reviews
+
+* Lincoln Mullen, '[Review of the Programming Historian](http://jah.oxfordjournals.org/content/103/1/299.2.full)', _The Journal of American History_, vol. 103, no. 1 (2016), pp. 299-301.
+* Cameron Blevins, '[Review of the Programming Historian](http://jitp.commons.gc.cuny.edu/review-of-the-programming-historian/)', _The Journal of Interactive Technology & Pedagogy_, vol. 8 (2015).
+
+### Published Research
+
+* Fred Gibbs, ['Editorial Sustainability and Open Peer Review at Programming Historian',] (http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian) _DH Commons_, Vol. 1 (2015).
+
+### Events, Posters, & Presentations
+
+* Adam Crymble, 'Intro to Data Mining', {Event}, Institute of Historical Research, London (2 February 2016).
+* James Baker, 'Programming Historian Live', {Event} Software Sustainability Institute, London (19 October 2015).
+* Miriam Posner, ['Digital Project Consultations',](https://dhatasa2015.wordpress.com/) _American Studies Association_, University of Toronto (10 October 2015)
+* Fred Gibbs, 'The Programming Historian' (Poster), _American Historical Association_, New York (January 2015).
+* Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 May 2015).
+* Adam Crymble, 'The Programming Historian 2', _Digital History Seminar_, Institute of Historical Research, London (13 October 2013).
+* Adam Crymble, 'The Programming Historian 2', _Digital Humanities 2012_, Hamburg (July 2012).
+
+## Funding & Ownership
+
+_The Programming Historian_ is a volunteer-led initiative, controlled entirely by the 'Editorial Board of the Programming Historian' with the help of community contributors. It is not a legal entity, and does not currently receive direct funding from any source. 
+
+The project is grateful for past support by the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)), and for hosting support from the Roy Rosenzweig Centre for New Media ([RRCHNM](http://chnm.gmu.edu/)). If you would like to provide financial support to help the project grow, please contact one of the [Editorial Board members](http://programminghistorian.org/project-team).
 
 ## Contact
 
