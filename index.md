@@ -15,6 +15,9 @@ Our [Project Team](project-team) and peer reviewers work collaboratively with au
 
 If you can’t find what you’re looking for, we welcome your [feedback](feedback). Better yet, [contribute a lesson](contribute)! _The Programming Historian_ (ISSN 2397-2068) aims to set a new standard for openness and collaboration in scholarly publishing, and you can help! 
 
+* TOC
+{:toc}
+
 ## Open Source
 
 _The Programming Historian_ is committed to open source and open access principles. All contributed lessons must make use of open source programming languages and open source software whenever possible. This policy is meant to minimize costs for all parties, and to allow the greatest possible level of participation. We believe everyone should be able to benefit from these tutorials, not just those with large research budgets for expensive proprietary software.
