@@ -15,6 +15,10 @@ Our [Project Team](project-team) and peer reviewers work collaboratively with au
 
 If you can’t find what you’re looking for, we welcome your [feedback](feedback). Better yet, [contribute a lesson](contribute)! _The Programming Historian_ (ISSN 2397-2068) aims to set a new standard for openness and collaboration in scholarly publishing, and you can help! 
 
+## Contact
+
+Please direct correspondence in the first instance to <a href="mailto:i2millig@uwaterloo.ca">Ian Milligan</a> at the University of Waterloo.
+
 * TOC
 {:toc}
 
@@ -80,10 +84,6 @@ The project team and members of the wider community are involved in a number of 
 _The Programming Historian_ is a volunteer-led initiative, controlled entirely by the 'Editorial Board of the Programming Historian' with the help of community contributors. It is not a legal entity, and does not currently receive direct funding from any source. 
 
 The project is grateful for past support by the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)), and for hosting support from the Roy Rosenzweig Centre for New Media ([RRCHNM](http://chnm.gmu.edu/)). If you would like to provide financial support to help the project grow, please contact one of the [Editorial Board members](http://programminghistorian.org/project-team).
-
-## Contact
-
-Please direct correspondence in the first instance to <a href="mailto:i2millig@uwaterloo.ca">Ian Milligan</a> at the University of Waterloo.
 
 ## Suggested Citation
 
