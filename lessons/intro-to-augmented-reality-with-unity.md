@@ -2,7 +2,13 @@
 title: Introduction to Mobile Augmented Reality Development in Unity
 authors:
 - Jacob W. Greene
-date: 2015-01-04
+reviewers:
+- Jason Crider
+- Fred Gibbs
+- Sean Morey
+editors:
+- Fred Gibbs
+date: 2016-07-24
 layout: default
 ---
 
