@@ -63,7 +63,7 @@ The project team and members of the wider community are involved in a number of 
 
 ### Published Research
 
-* Fred Gibbs, ['Editorial Sustainability and Open Peer Review at Programming Historian',] (http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian) _DH Commons_, Vol. 1 (2015).
+* Fred Gibbs, ['Editorial Sustainability and Open Peer Review at Programming Historian',](http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian) _DH Commons_, Vol. 1 (2015).
 
 ### Events, Posters, & Presentations
 
