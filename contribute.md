@@ -56,6 +56,10 @@ From time to time we may advertise that we are seeking more editors.
 
 ## Add us to your Library Catalogue
 
+<figure>
+	<img src="../images/library-catalogue.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
+</figure>
+
 This project is our attempt to demonstrate what open access academic publishing can and should be. Please tell your librarian to include the project in your library catalogue.
 
 _The Programming Historian_ has a [listing in WorldCat](http://www.worldcat.org/title/programming-historian/oclc/951537099) (with thanks to the [University of Purdue library](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink) and Amanda Visconti) and is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
