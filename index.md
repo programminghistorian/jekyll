@@ -21,6 +21,8 @@ Please direct correspondence in the first instance to <a href="mailto:i2millig@u
 
 ---
 
+Page Table of Contents:
+
 * TOC
 {:toc}
 
