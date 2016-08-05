@@ -5,7 +5,7 @@ authors:
 date: 2016-08-05
 reviewers:
 - Joanna Swafford
-- Celeste Tường Vy Sharpe
+- Celeste Sharpe
 editors:
 - Jeri Wieringa
 difficulty: 1
