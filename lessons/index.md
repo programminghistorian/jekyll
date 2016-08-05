@@ -164,6 +164,13 @@ Just like it sounds, learn how to use programming to change, move, clean, or cou
       <p>Matthew Lincoln</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/editing-audio-with-audacity">
+      <img src="../gallery/editing-audio-with-audacity.png">
+      <h3>Editing Audio with Audacity</h3>
+      <p>Brandon Walsh</p>
+    </a>
+  </li>
 </ul>
 
 
