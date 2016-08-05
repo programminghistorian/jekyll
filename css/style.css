@@ -299,6 +299,7 @@ table tfoot {
   body {
       border-top: 1px solid rgba(0,0,0,0.1);
       font-family: 'Lato', Verdana, sans-serif;
+      font-weight: 300;
       color: #555;
       padding: 2em;
        
@@ -385,6 +386,7 @@ table tfoot {
     margin:0;
     color: #777;
     font-weight: 700;
+    font-size: 1.2em;
   }
 
   .deprecated {
@@ -461,7 +463,8 @@ table tfoot {
     padding-left:0;
     text-align:center;
     font-style:italic;
-    font-size: 90%;
+    font-size: 85%;
+    font-weight: 400;
   }
 
   .post-info h2 {
@@ -482,7 +485,7 @@ table tfoot {
     border:1px dotted #ccc;
     border-width: 1px 0;
     margin: 2em 0;
-    padding: 0.5em 0;
+    padding: 0.8em 0;
     overflow:hidden;
     *zoom:1;
   }
