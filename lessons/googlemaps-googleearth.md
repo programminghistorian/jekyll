@@ -40,8 +40,7 @@ or Quantum GIS.
 ### Getting Started
 
 -   Open your favorite browser
--   Go to Google's My  [Maps Engine Lite][Google Maps Engine Lite]:
-    <https://www.google.com/maps/d/>
+-   Go to Google's [MyMaps Engine Lite](https://www.google.com/maps/d/)
 -   Log in to your Google Account if you aren't already logged in
     (follow the basic instructions to create an account if necessary)
 
