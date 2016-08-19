@@ -93,7 +93,7 @@ h6:hover .header-link {
 
   b, strong { font-weight: bold; }
 
-  blockquote { margin: 1em 2em; }
+  blockquote { margin: 1em 2em; padding: 0 1em 0 1em; font-style: italic; border:1px solid #666; background: #eeeeee; text-align:justify;}
 
   dfn { font-style: italic; }
 
@@ -135,7 +135,7 @@ h6:hover .header-link {
   ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
   dd { margin: 0 0 0 40px; }
   nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
-
+  li {padding-bottom: .5em}
 
   /* =============================================================================
      Embedded content
@@ -329,6 +329,20 @@ table tfoot {
 
   h1 a:link { color: #38c; }
   h1 a:visited {color: #39a; }
+
+  h3 {
+    font-size:1.25em;
+  }
+
+  h4,h5 {
+    font-size: 1em;
+    padding-bottom: 0em;
+    margin-bottom: -.8em;
+  }
+
+  h5 {
+    font-style: italic;
+  }
 
   article h2,
   article h3,
