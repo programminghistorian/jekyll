@@ -1,4 +1,3 @@
-
 ---
 title: Announcing The Programming Historian’s New Team of Spanish Language Editors
 authors:
