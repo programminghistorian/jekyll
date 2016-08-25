@@ -2,7 +2,7 @@
 title: Web Mapping with Python and Leaflet
 authors:
 - Kim Pham
-date: 2015-10-19
+date:
 reviewers:
 - blank
 layout: default
@@ -12,7 +12,7 @@ layout: default
 
 ### Learning Objectives
 In this lesson, you will learn how to create a web map based on that data.  By the end of this lesson, you will be able to:
-* Manipulate tabular data progammatically to extract geonames and create location-based data
+* Manipulate tabular data programmatically to extract geonames and create location-based data
 * Convert tabular data into a meaningful geographic data structure
 * Understand and apply the basic concepts of web mapping to design your own web map
 
@@ -31,13 +31,18 @@ Optional in this lesson:
 Optional: If you wish to follow along with pre-made scripts you can download them from https://github.com/kimpham54/proghist-mappingAPI
 
 To set up your working environment:
-1. Create a directory that you will work from  
-2. Import your folder in a text editor such as [TextWrangler](http://www.barebones.com/products/textwrangler/) for OS X, [Notepad++](https://notepad-plus-plus.org/) for Windows, or [Sublime Text](http://www.sublimetext.com/).  
+1. Create a directory for this project where you will keep all of your scripts and files that you will work from
+2. If you have a text editor where you can work from the directory of your project, import that directory. You can use editors such as [TextWrangler](http://www.barebones.com/products/textwrangler/) for OS X, [Notepad++](https://notepad-plus-plus.org/) for Windows, or [Sublime Text](http://www.sublimetext.com/).
+If you are using a code editor such as Sublime Text, to import the folder you could drag and drop the folder that you want to work from into your editor window. Once you've done that, the directory will appear on the left hand sidebar as you root folder. If you click on your folder, you'll be able to see the contents of your folder. Importing a folder allows you to easily work with the files in your project. If you need to work with multiple files and directories in directories, this will make it easier to search through these files, switch between them while you're working and keep you organized.
 
 ### Getting Data: Download the CSV
 We're going to start with a plain comma-separated values (CSV) data file and create a web map from it.
 
-The original data file can be downloaded here: https://github.com/Robinlovelace/Creating-maps-in-R/blob/master/data/census-historic-population-borough.csv.  The original source of this data is from the [Greater London Authority London Datastore](http://data.london.gov.uk/dataset/historic-census-population).
+The original data file can be downloaded here: https://raw.githubusercontent.com/Robinlovelace/Creating-maps-in-R/master/data/census-historic-population-borough.csv. You can grab this by either opening the link in your browser and saving the page, or you can use the curl command from your command line:
+
+```curl  https://raw.githubusercontent.com/Robinlovelace/Creating-maps-in-R/master/data/census-historic-population-borough.csv > census.csv ```
+
+The original source of this data is from the [Greater London Authority London Datastore](http://data.london.gov.uk/dataset/historic-census-population).
 
 ### Geocode the placenames in the CSV using Geopy, Pandas
 
@@ -57,9 +62,13 @@ If you're familiar with _Programming Historian_, you might have already noticed 
 
 [Geopy](https://github.com/geopy/geopy) is a Python library that gives you access to the various geocoding APIs.  Geopy makes it easy for Python developers to locate the coordinates of addresses, cities, countries, and landmarks across the globe using third-party geocoders and other data sources. Geopy includes geocoders built by OpenStreetMap Nominatim, ESRI ArcGIS, Google Geocoding API (V3), Baidu Maps, Bing Maps API, Yahoo! PlaceFinder, Yandex, IGN France, GeoNames, NaviData, OpenMapQuest, What3Words, OpenCage, SmartyStreets, geocoder.us, and GeocodeFarm geocoder services.
 
-[Pandas](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe) is another python library that we will use.  It's very popular library amongst scientists and mathmaticians to manipulate and analyse data.
+[Pandas](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe) is another python library that we will use.  It's very popular library amongst scientists and mathematicians to manipulate and analyse data.
 
-Finally, [Pip](http://pip.readthedocs.org/en/stable/) is a very useful package manager to help you install things like Geopy and Pandas! If you've [already installed Python](http://programminghistorian.org/lessons/introduction-and-installation) and pip, run type 'pip list' to see if you already have the geopy and pandas packages installed. If you do not have pip installed, [the instructions here are very straightforward](http://pip.readthedocs.org/en/stable/installing/).
+Finally, [Pip](http://pip.readthedocs.org/en/stable/) is a very useful package manager to help you install things like Geopy and Pandas! If you've [already installed Python](http://programminghistorian.org/lessons/introduction-and-installation) and pip, run type 'pip list' to see if you already have the geopy and pandas packages installed. If you do not have pip installed, you can download [get-pip.py](https://bootstrap.pypa.io/get-pip.py), then from your command line go to the directory where get-pip.py is located and run
+
+```python get-pip.py ```
+
+For the most up to date instructions, you can visit [pip's installation manual](http://pip.readthedocs.org/en/stable/installing/).
 
 To install Geopy and Pandas, open your [command line (using this lesson as a guideline if necessary)](http://programminghistorian.org/lessons/intro-to-bash) and install the Geopy and Pandas libraries:
 
@@ -72,6 +81,7 @@ pip install pytz
 pip install geopy
 pip install pandas
 ```
+Note: We are installing numpy, python-dateutil, and pytz because pandas [requires them](http://pandas.pydata.org/pandas-docs/stable/install.html#dependencies).
 
 For Windows, you may need to install Microsoft Visual C++ Compiler for Python (for 2.7, you can download it from [Microsoft](http://aka.ms/vcpython27)). Set the environmental variables to recognize python and pip from the command line:
 
@@ -80,7 +90,7 @@ setx  PATH "%PATH%;C:\Python27"
 setx  PATH "%PATH%;C:\Python27\Scripts"
 ```
 
-If you keep getting an error when you're tring to install these libraries, you may need to use 'sudo pip install' instead of just 'pip install'. You may also need to upgrade your libraries if you've installed them earlier and you find that you're encountering an error when using Python (i.e. an ImportError). In order to do so, the following command works:
+If you keep getting an error when you're trying to install these libraries, you may need to use 'sudo pip install' instead of just 'pip install'. You may also need to upgrade your libraries if you've installed them earlier and you find that you're encountering an error when using Python (i.e. an ImportError). In order to do so, the following command works:
 
 ```bash
 pip install python --upgrade
@@ -105,7 +115,7 @@ def main():
 	io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
 ```
 
-We are first using pandas' pre-existing read_csv() function to open the CSV file. We pass the filepath to our data file in the first parameter, 'census-historic-population-borough.csv'. If it was in a folder called 'data', you would put 'data/census-historic-population-borough.csv'.  The second parameter, 'index_col=None', will number the rows to generate the index without using any column.  If we use 'index_col=0', it indexes the first column in your data as the row name. The third parameter, 'header=0', indicates that there is a header row, which is the first line of the spreadsheet (Note: programmers like to use "0" instead of "1" to indicate the first value in an index). The fourth parameter 'sep=","' is where yu indicate delimiter symbol that is used to split data into fields.  Since are using a comma separated values data format, we need to indicate that we are using a comma to split our data.
+We are first using pandas' pre-existing read_csv() function to open the CSV file. We pass the filepath to our data file in the first parameter, 'census-historic-population-borough.csv'. If it was in a folder called 'data', you would put 'data/census-historic-population-borough.csv'.  The second parameter, 'index_col=None', will number the rows to generate the index without using any column.  If we use 'index_col=0', it indexes the first column in your data as the row name. The third parameter, 'header=0', indicates that there is a header row, which is the first line of the spreadsheet (Note: Python uses "0" instead of "1" to indicate the first value in an index). The fourth parameter 'sep=","' is where you indicate delimiter symbol that is used to split data into fields.  Since are using a comma separated values data format, we need to indicate that we are using a comma to split our data.
 
 There are many other parameters you can use.  A full list is available in the pandas documentation on the [read_csv() function](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html).
 
@@ -115,7 +125,7 @@ Next, select the geolocator you want to use.  Here we're creating two geolocator
 | --- | ------------- | ------------- |
 | affiliation | OpenStreetMap  | Google |
 | application use | single-threaded applications  | can upgrade for better performance  |
-| capabilities | user-input | static (Google's non-static geocoding service not in geopy)  |
+| capabilities FIX ISSUE 5 https://github.com/programminghistorian/jekyll/pull/149  | user-input | static (Google's non-static geocoding service not in geopy)  |
 | request limit | 1 request/s or timeout | 5 requests/s, 2500/day |
 | performance test on census data | 33.5s | 11.6s |
 
@@ -128,7 +138,7 @@ You can also choose a different geolocator from the list found in [the geopy doc
     # uncomment the geolocator you want to use
 ```
 
-Finally, using pandas you want to create a column in your spreadsheet called 'latitude'.  The script will read the existing 'Area_Name' data column, run the geolocator, and generate a latitude coordinate in that column.  The same transformation will occur in the 'longitude' column.  Once this is finished it will ouput a new CSV file with those two columns:
+Finally, using pandas you want to create a column in your spreadsheet called 'latitude'.  The script will read the existing 'Area_Name' data column, run the geolocator, and generate a latitude coordinate in that column.  The same transformation will occur in the 'longitude' column.  Once this is finished it will output a new CSV file with those two columns:
 
 ```python
 	io['latitude'] = io['Area_Name'].apply(geolocator.geocode).apply(lambda x: (x.latitude))
@@ -149,12 +159,31 @@ Do you have a script ready? Good.  Run the script from your command line by typi
 python geocoder.py
 ```
 
-It takes a few seconds and may take longer depending on the geolocator you use. Once the script finishes running, you should have coordinates for every Area Name.
+It takes a few seconds and may take longer depending on the geolocator you use. Once the script finishes running, you should have coordinates for every Area_Name.
 
-_Tip 1: If you want to pass the filenames from the command line rather than changing the input file name in the python script everytime, you can import the python 'sys' library to pass through arguments._
+_Tip 1: If you want to pass the filenames from the command line rather than changing the input file name in the python script everytime, you can import the python 'sys' library to pass through arguments. Your code might look like this:_
+
+```python
+import os, csv, sys, geopy
+import pandas
+from geopy.geocoders import GoogleV3
+
+inputfile=str(sys.argv[1])
+namecolumn=str(sys.argv[2])
+
+def main():
+	io = pandas.read_csv(inputfile, index_col=False, header=0, sep=",")
+	geolocator = GoogleV3()
+
+	io['latitude'] = io[namecolumn].apply(geolocator.geocode).apply(lambda x: (x.latitude))
+	io['longitude'] = io[namecolumn].apply(geolocator.geocode).apply(lambda x: (x.longitude))
+	io.to_csv('geocoding-output-single.csv')
+
+if __name__ == '__main__':
+  main()```
 
 _Tip 2:
-If you run it too many times because you get a timeout error, like this if you use the GoogleV3 geocoder_
+If you run geocoder.py too many times because you might get a timeout error. The error will look like this if you use the GoogleV3 geocoder:_
 ```bash
 'The given key has gone over the requests limit in the 24'
 geopy.exc.GeocoderQuotaExceeded: The given key has gone over the requests limit in the 24 hour period or has submitted too many requests in too short a period of time.
@@ -164,7 +193,7 @@ geopy.exc.GeocoderQuotaExceeded: The given key has gone over the requests limit 
 
 Now that you have a spreadsheet full of coordinate data, we can convert the CSV spreadsheet into a format that web maps like, like GeoJSON.  GeoJSON is a web mapping standard of JSON data.  There are a couple of ways to make GeoJSON:
 
-**Option 1** - The easiest, recommended way is to use a UI tool developed by Mapbox: http://geojson.io.  All you have to do is click and drag your csv file into the data window (the right side of the screen, next to the map), and it will automatically format your data into GeoJSON for you. You can select the 'GeoJSON' option under 'Save.'  Save your GeoJSON file as 'census.geojson'.
+The easiest, recommended way is to use a UI tool developed by Mapbox: http://geojson.io.  All you have to do is click and drag your csv file into the data window (the right side of the screen, next to the map), and it will automatically format your data into GeoJSON for you. You can select the 'GeoJSON' option under 'Save.'  Save your GeoJSON file as 'census.geojson'.
 
 ![Image: Adding data to geojson.io](images/webmap-01-geojsonio.gif "Drag and Drop GeoJSON creation!")
 
@@ -173,73 +202,15 @@ Now that you have a spreadsheet full of coordinate data, we can convert the CSV 
 Image Credit: with permission from Mauricio Giraldo Arteaga,
  NYPL Labs
 
-**Option 2** - To do it programmatically, you can use ogr2ogr.  You'll need to install [GDAL](http://www.kyngchaos.com/software/frameworks), a commonly used GIS library that is frequently used to automate processes in python.  If you want to batch convert 500 CSV files into GeoJSON, this will be the way to go. [8]
 
-### So you want to go with Option 2? (skip this section otherwise)
+**programmatically:
+https://github.com/mapbox/csv2geojson**
 
-**Using ogr2ogr**
-
-Once you have GDAL installed, set the path:
-
-```bash
-export PATH=/Library/Frameworks/GDAL.framework/Programs:$PATH
-```
-
-for Windows:
-```
-setx PATH “%PATH%;C:\OSGeo4W\bin”
-setx GDAL_DATA “C:\OSGeo4W\share\gdal”
-```
-
-**Create a VRT file**
-
-VRT is an XML-based template that is used to convert non geographic data into a geographic data format without creating intermediate files.  Make sure that OGRVRTLayer, SrcDataSource have the same name as your filename (census_geocoded.vrt).  Indicate all of the properties based on the column name such as the population values for every census to include your geojson. This is what your VRT file will look like:
-
-
-```xml
-<OGRVRTDataSource>
-    <OGRVRTLayer name="census_geocoded">
-        <SrcDataSource>census_geocoded.csv</SrcDataSource>
-        <GeometryType>wkbPoint</GeometryType>
-        <LayerSRS>WGS84</LayerSRS>
-        <GeometryField encoding="PointFromColumns" x="longitude" y="latitude"/>
-        <Field name="ID" src="ID" type="String"/>
-        <Field name="Area_Name" src="Area_Name" type="String"/>
-        <Field name="Area_Code" src="Area_Code" type="String"/>
-        <Field name="Pop_1801" src="Pop_1801" type="Integer"/>
-		<Field name="Pop_1811" src="Pop_1811" type="Integer"/>
-		<Field name="Pop_1821" src="Pop_1821" type="Integer"/>
-	<!-- etc...not all of the columns are included here -->
-		<Field name="Pop_1971" src="Pop_1971" type="Integer"/>
-		<Field name="Pop_1981" src="Pop_1981" type="Integer"/>
-		<Field name="Pop_1991" src="Pop_1991" type="Integer"/>
-		<Field name="Pop_2001" src="Pop_2001" type="Integer"/>
-    </OGRVRTLayer>
-</OGRVRTDataSource>
-```
-
-**Run ogr2ogr to output your geojson**
-
-```bash
-ogr2ogr -f GeoJSON census.geojson census_geocoded.vrt
-```
-
-Your GeoJSON output should look something like this:
-
-```json
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-
-"features": [
-{ "type": "Feature", "properties": { "ID": "1000", "Area_Name": "City of London", "Area_Code": "00AA", "Pop_1801": 129000, "Pop_1811": 121000, "Pop_1821": 125000, "Pop_1831": 123000, "Pop_1841": 124000, "Pop_1851": 128000, "Pop_1861": 112000, "Pop_1871": 75000, "Pop_1881": 51000, "Pop_1891": 38000, "Pop_1901": 27000, "Pop_1911": 20000, "Pop_1921": 14000, "Pop_1931": 11000, "Pop_1939": 9000, "Pop_1951": 5000, "Pop_1961": 4767, "Pop_1971": 4000, "Pop_1981": 5864, "Pop_1991": 4230, "Pop_2001": 7181 }, "geometry": { "type": "Point", "coordinates": [ -0.1277583, 51.5073509 ] } },
-{ "type": "Feature", "properties": { "ID": "1001", "Area_Name": "Barking and Dagenham", "Area_Code": "00AB", "Pop_1801": 3000, "Pop_1811": 4000, "Pop_1821": 5000, "Pop_1831": 6000, "Pop_1841": 7000, "Pop_1851": 8000, "Pop_1861": 8000, "Pop_1871": 10000, "Pop_1881": 13000, "Pop_1891": 19000, "Pop_1901": 27000, "Pop_1911": 39000, "Pop_1921": 44000, "Pop_1931": 138000, "Pop_1939": 184000, "Pop_1951": 189000, "Pop_1961": 177092, "Pop_1971": 161000, "Pop_1981": 149786, "Pop_1991": 140728, "Pop_2001": 163944 }, "geometry": { "type": "Point", "coordinates": [ 0.1293497, 51.5464828 ] } },
-```
 Test this data out in http://geojson.io.  You should see points generated in the preview window.  That's your data!
 
 ### You finally have GeoJSON... but you need to do some cleaning!
 
-If you've tested your GeoJSON data, you might notice that not every point is geolocated correctly.  We know that every area name is a borough of London, but points appear all over United Kingdom, and some aren't located even in the country.
+If you've tested your GeoJSON data, you might notice that not every point is geolocated correctly.  We know that every Area_Name is a borough of London, but points appear all over United Kingdom, and some aren't located even in the country.
 
 To make the results more accurate, you should save another copy of the census-historic-population-borough.csv file and include an additional column called 'Country' and put 'United Kingdom' in every row of your data. For even greater accuracy add 'City' and put 'London' in every row of your data to provide additional context for your data.
 
@@ -247,7 +218,7 @@ To make the results more accurate, you should save another copy of the census-hi
 
 {% include figure.html src="../images/webmap-02-countrycolumn.png" caption="Add a new Country column to your spreadsheet" %}
 
-Now change your python script to combine the Area Name and Country or City column to geocode your data:
+Now change your python script to combine the Area_Name and Country or City column to geocode your data:
 
 ```python
     io['helper'] = io['Area_Name'].map(str) + " " + io['Country']
@@ -445,7 +416,7 @@ The javascript file is what provides the behaviour, or functionality of our web 
     });    
 ```
 
-Next, we're loading our data as another map layer, census.geojson.  This data will have additional properties: each poit of data is represented by an icon. It will look and behave like a popup so that when you click on the icon it will load information from your data file (in this case, the Area_Name).
+Next, we're loading our data as another map layer, census.geojson.  This data will have additional properties: each point of data is represented by an icon. It will look and behave like a popup so that when you click on the icon it will load information from your data file (in this case, the Area_Name).
 
 ```javascript
    var map = L.map('my-map')
