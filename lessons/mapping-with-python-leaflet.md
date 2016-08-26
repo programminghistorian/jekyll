@@ -22,11 +22,8 @@ This lesson uses:
 
 - python (pip, geopy, pandas)
 - leaflet
-- jquery
-
-Optional in this lesson:
-- GDAL
-- Mapbox
+- geojson.io (from mapbox)
+- javascript and jquery
 
 Optional: If you wish to follow along with pre-made scripts you can download them from https://github.com/kimpham54/proghist-mappingAPI
 
@@ -34,13 +31,16 @@ To set up your working environment:
 1. Create a directory for this project where you will keep all of your scripts and files that you will work from
 2. If you have a text editor where you can work from the directory of your project, import that directory. You can use editors such as [TextWrangler](http://www.barebones.com/products/textwrangler/) for OS X, [Notepad++](https://notepad-plus-plus.org/) for Windows, or [Sublime Text](http://www.sublimetext.com/).
 If you are using a code editor such as Sublime Text, to import the folder you could drag and drop the folder that you want to work from into your editor window. Once you've done that, the directory will appear on the left hand sidebar as you root folder. If you click on your folder, you'll be able to see the contents of your folder. Importing a folder allows you to easily work with the files in your project. If you need to work with multiple files and directories in directories, this will make it easier to search through these files, switch between them while you're working and keep you organized.
+3. Recommended http://docs.python-guide.org/en/latest/dev/virtualenvs/ (Should I talk about virtualenvs?) **TO FIX: talk about virtualenvs?**
 
 ### Getting Data: Download the CSV
 We're going to start with a plain comma-separated values (CSV) data file and create a web map from it.
 
-The original data file can be downloaded here: https://raw.githubusercontent.com/Robinlovelace/Creating-maps-in-R/master/data/census-historic-population-borough.csv. You can grab this by either opening the link in your browser and saving the page, or you can use the curl command from your command line:
+The data file can be downloaded here: https://raw.githubusercontent.com/programminghistorian/jekyll/tree/gh-pages/assets/webmap-tutorial-files/census-historic-population-borough.csv. You can grab this by either opening the link in your browser and saving the page, or you can use the curl command from your command line:
 
-```curl  https://raw.githubusercontent.com/Robinlovelace/Creating-maps-in-R/master/data/census-historic-population-borough.csv > census.csv ```
+**TO FIX: make sure the link to csv is working**
+
+```curl  https://raw.githubusercontent.com/programminghistorian/jekyll/tree/gh-pages/assets/webmap-tutorial-files/census-historic-population-borough.csv > census.csv ```
 
 The original source of this data is from the [Greater London Authority London Datastore](http://data.london.gov.uk/dataset/historic-census-population).
 
@@ -119,6 +119,16 @@ We are first using pandas' pre-existing read_csv() function to open the CSV file
 
 There are many other parameters you can use.  A full list is available in the pandas documentation on the [read_csv() function](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html).
 
+```python
+	def get_latitude(x):
+    return x.latitude
+
+  def get_longitude(x):
+    return x.longitude
+```
+
+**TO FIX: TALK ABOUT THIS IN PLACE OF LAMBDA**
+
 Next, select the geolocator you want to use.  Here we're creating two geolocators: Open Street Map's Nominatim and Google's Geocoding API.  Here's a quick comparison:
 
 | Geolocator | Nominatim()  | GoogleV3() |
@@ -141,9 +151,9 @@ You can also choose a different geolocator from the list found in [the geopy doc
 Finally, using pandas you want to create a column in your spreadsheet called 'latitude'.  The script will read the existing 'Area_Name' data column, run the geolocator, and generate a latitude coordinate in that column.  The same transformation will occur in the 'longitude' column.  Once this is finished it will output a new CSV file with those two columns:
 
 ```python
-	io['latitude'] = io['Area_Name'].apply(geolocator.geocode).apply(lambda x: (x.latitude))
-	io['longitude'] = io['Area_Name'].apply(geolocator.geocode).apply(lambda x: (x.longitude))
-	io.to_csv('geocoding-output.csv')
+io['latitude'] = io['Area_Name'].apply(geolocator.geocode).apply(get_latitude)
+io['longitude'] = io['Area_Name'].apply(geolocator.geocode).apply(get_longitude)
+io.to_csv('geocoding-output.csv')
 ```
 
 To finish off your code, it's good practice to make your python modular, that way you can plug it in and out of other applications (should you want to use this script as part of another program):
@@ -164,30 +174,49 @@ It takes a few seconds and may take longer depending on the geolocator you use. 
 _Tip 1: If you want to pass the filenames from the command line rather than changing the input file name in the python script everytime, you can import the python 'sys' library to pass through arguments. Your code might look like this:_
 
 ```python
-import os, csv, sys, geopy
+import geopy, sys
 import pandas
-from geopy.geocoders import GoogleV3
+from geopy.geocoders import Nominatim, GoogleV3
+# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
 
 inputfile=str(sys.argv[1])
 namecolumn=str(sys.argv[2])
 
 def main():
-	io = pandas.read_csv(inputfile, index_col=False, header=0, sep=",")
-	geolocator = GoogleV3()
+  io = pandas.read_csv(inputfile, index_col=None, header=0, sep=",")
 
-	io['latitude'] = io[namecolumn].apply(geolocator.geocode).apply(lambda x: (x.latitude))
-	io['longitude'] = io[namecolumn].apply(geolocator.geocode).apply(lambda x: (x.longitude))
-	io.to_csv('geocoding-output-single.csv')
+	def get_latitude(x):
+    return x.latitude
+
+  def get_longitude(x):
+    return x.longitude
+
+  geolocator = Nominatim()
+  # geolocator = GoogleV3()
+    # uncomment the geolocator you want to use
+  io['latitude'] = io[namecolumn].apply(geolocator.geocode).apply(get_latitude)
+  io['longitude'] = io[namecolumn].apply(geolocator.geocode).apply(get_longitude)
+  io.to_csv('geocoding-output.csv')
 
 if __name__ == '__main__':
-  main()```
+  main()
+```
+
+To run your python script your command would look like this:
+
+```python geocoder.py census-historic-population-borough.csv Area_Name```
 
 _Tip 2:
 If you run geocoder.py too many times because you might get a timeout error. The error will look like this if you use the GoogleV3 geocoder:_
-```bash
+
+```
 'The given key has gone over the requests limit in the 24'
 geopy.exc.GeocoderQuotaExceeded: The given key has gone over the requests limit in the 24 hour period or has submitted too many requests in too short a period of time.
 ```
+
+The error will look like this if you use the Nominatim geocoder:
+
+```geopy.exc.GeocoderTimedOut: Service timed out```
 
 ### Making GeoJSON
 
@@ -203,7 +232,7 @@ Image Credit: with permission from Mauricio Giraldo Arteaga,
  NYPL Labs
 
 
-**programmatically:
+**TO FIX programmatically:
 https://github.com/mapbox/csv2geojson**
 
 Test this data out in http://geojson.io.  You should see points generated in the preview window.  That's your data!
@@ -221,12 +250,18 @@ To make the results more accurate, you should save another copy of the census-hi
 Now change your python script to combine the Area_Name and Country or City column to geocode your data:
 
 ```python
-    io['helper'] = io['Area_Name'].map(str) + " " + io['Country']
-	io['latitude'] = io['helper'].apply(geolocator.geocode).apply(lambda x: (x.latitude))
-	io['longitude'] = io['helper'].apply(geolocator.geocode).apply(lambda x: (x.longitude))
+  io['helper'] = io['Area_Name'].map(str) + " " + io['Country']
+	io['latitude'] = io['helper'].apply(geolocator.geocode).apply(get_latitude)
+	io['longitude'] = io['helper'].apply(geolocator.geocode).apply(get_longitude)
 ```
 
-Turn your data into GeoJSON and test it out in http://geojson.io.  Do the results look better now?  Good!
+**TO FIX: I CAN'T REMEMBER WHAT .MAP(STR) DOES**
+
+ Concatenate two DataFrame columns into a new, single column
+
+df['newcol'] = df['col1'].map(str) + df['col2'].map(str)
+
+Turn your clean data into GeoJSON by saving it as census.geojson and test it out in http://geojson.io.  Do the results look better now?  Good!
 
 ### I now have good GeoJSON data.  Lets make a map!
 
@@ -244,9 +279,9 @@ SimpleHTTPServer is a Python module. If you want to change the server to port 80
 python -m SimpleHTTPServer 8080
 ```
 
-In your browser go to http://localhost:8000 and you should see the files you've been working with so far.
+In your browser go to http://localhost:8080 and you should see the files you've been working with so far.
 
-Now in your text editor open a new document and save it as an html file (mymap.html).  If you want to do a quick test, copy and paste the text below, refresh your http://localhost:8000 and open the html file in your browser.
+Now in your text editor open a new document and save it as an html file (mymap.html).  If you want to do a quick test, copy and paste the text below, refresh your http://localhost:8080 and open the html file in your browser.
 
 ```html
 
@@ -626,7 +661,7 @@ window.onload = function () {
 
 };
 ```
-![Image: Exercise 04 Answer](images/webmap-08-exercise04.jpg "Exercise 04")
+![Image: Exercise 04 Answer](../images/webmap-08-exercise04.jpg "Exercise 04")
 
 {% include figure.html src="…/images/webmap-08-exercise04.jpg" caption=“Exercise 04 Map Result” %}
 
