@@ -6,7 +6,13 @@ layout: directory
 Editorial Board
 ---------------
 
+{% include contact-info.html name="Maria José Afanador-Llach" %}
+
+{% include contact-info.html name="Antonio Rojas Castro" %}
+
 {% include contact-info.html name="Adam Crymble" %}
+
+{% include contact-info.html name="Víctor Gayol" %}
 
 {% include contact-info.html name="Fred Gibbs" %}
 
