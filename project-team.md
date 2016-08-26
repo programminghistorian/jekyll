@@ -8,14 +8,40 @@ Our editorial team works together to help authors produce high quality tutorials
 Editorial Board
 ---------------
 
-
-{% include contact-info.html name="Maria José Afanador-Llach" %}
+<div class="contact-box">
+<img class="avatar" src="http://programminghistorian.org/avatars/Maria-Jose-Afanador-Llach.png" />
+Maria José Afanador-Llach works in the Fundación Histórica Neogranadina, 
+a non-profit organization digitizing endangered colonial archives in Colombia and promoting digital humanities projects.
+ 
+<br />
+	
+	
+		<a href="mailto:mariajose@neogranadina.org"><i class="fa fa-envelope-square fa-lg"></i></a>
+	
+	
+		<a href="http://twitter.com/https://twitter.com/mariajoafana"><i class="fa fa-twitter-square fa-lg"></i></a>
+<br /><br /><br />
 
 {% include contact-info.html name="Antonio Rojas Castro" %}
 
 {% include contact-info.html name="Adam Crymble" %}
 
-{% include contact-info.html name="Víctor Gayol" %}
+<div class="contact-box">
+<img class="avatar" src="http://programminghistorian.org/avatars/Victor-Gayol.png" />
+Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (CPI-CONACYT), México, with a PhD in History.
+ 
+<br />
+	
+	
+		<a href="mailto:vgayol@colmich.edu.mx"><i class="fa fa-envelope-square fa-lg"></i></a>
+	
+	
+		<a href="http://twitter.com/https://twitter.com/victor_gayol"><i class="fa fa-twitter-square fa-lg"></i></a>
+	
+	
+		<a href="http://github.com/vgayolrs"><i class="fa fa-github-square fa-lg"></i></a>
+	
+<br /><br /><br />
 
 {% include contact-info.html name="Fred Gibbs" %}
 
