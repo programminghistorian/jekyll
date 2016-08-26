@@ -6,6 +6,8 @@ layout: directory
 Editorial Board
 ---------------
 
+Please direct correspondence in the first instance to Ian Milligan at the University of Waterloo.
+
 {% include contact-info.html name="Maria José Afanador-Llach" %}
 
 {% include contact-info.html name="Antonio Rojas Castro" %}
