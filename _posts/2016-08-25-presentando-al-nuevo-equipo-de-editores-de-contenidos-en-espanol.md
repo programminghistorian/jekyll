@@ -6,7 +6,8 @@ layout: post
 categories: posts
 ---
 
-¡[The Programming Historian](programminghistorian.org) tiene el placer de presentar su nuevo equipo de editores de contenidos en español! 
+¡[The Programming Historian](programminghistorian.org) tiene el placer de presentar su nuevo equipo de editores de contenidos en español!
+
 En julio, el comité editorial de PH anunció una [convocatoria de aplicaciones](http://programminghistorian.org/posts/spanish-editor) para humanistas digitales que pudieran ayudar a traducir al español la creciente biblioteca de tutoriales revisados por pares de PH. La meta: hacer las lecciones de PH más accesibles al público hispanoparlante y comenzar a expandir la comunidad de PH más allá de la audiencia principal del sitio, académicos angloparlantes en Norte América y Europa. 
 
 Recibimos muchas aplicaciones excelentes y fue difícil escoger un solo editor. Después de hablar individualmente con los tres finalistas para la posición, el comité editorial decidió invitar a cada una de ellos a formar un equipo cuyo objetivo principal será construir conexiones entre The Programming Historian, el mundo hispanoparlante y la comunidad global de practicantes de las humanidades digitales. 
