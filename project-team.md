@@ -5,8 +5,7 @@ layout: directory
 
 Our editorial team works together to help authors produce high quality tutorials. Please direct correspondence in the first instance to Ian Milligan at the University of Waterloo who is the acting commissioning editor.
 
-Editorial Board
----------------
+## Editorial Board
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Maria-Jose-Afanador-Llach.png" />
@@ -25,6 +24,8 @@ a non-profit organization digitizing endangered colonial archives in Colombia an
 {% include contact-info.html name="Antonio Rojas Castro" %}
 
 {% include contact-info.html name="Adam Crymble" %}
+
+{% include contact-info.html name="V&iacute;ctor Gayol" %}
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Victor-Gayol.png" />
@@ -58,8 +59,7 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 {% include contact-info.html name="Jeri Wieringa" %}
 
 
-Emeritus Team Members
----------------------
+## Emeritus Team Members
 
 {% include contact-info.html name="Jeremy Boggs" %}
 
@@ -72,8 +72,7 @@ Emeritus Team Members
 {% include contact-info.html name="William J. Turkel" %}
 
 
-Community Participants
-----------------------
+## Community Participants
 
 *Programming Historian* also benefits enormously from the efforts of
 people who volunteer their time and energy. If you are interested in
