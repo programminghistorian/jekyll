@@ -25,8 +25,6 @@ a non-profit organization digitizing endangered colonial archives in Colombia an
 
 {% include contact-info.html name="Adam Crymble" %}
 
-{% include contact-info.html name="V&iacute;ctor Gayol" %}
-
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Victor-Gayol.png" />
 Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (CPI-CONACYT), México, with a PhD in History.
