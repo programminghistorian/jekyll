@@ -157,7 +157,7 @@ Hello world!
 a second line
 ```
 
-Save the changes to your file and go back to GitHub Desktop. You will see that these new lines of text appear. This lets us know that GitHub is able to see changes in your file but at the moment these changes haven't been recorded in an official 'snapsot' of your repository. 
+Save the changes to your file and go back to GitHub Desktop. You will see that these new lines of text appear. This lets us know that GitHub is able to see changes in your file but at the moment these changes haven't been recorded in an official 'snapshot' of your repository. 
 
 To do this we need to **commit** our changes.
 
@@ -272,7 +272,7 @@ You can see from this view that we now have the text with changes highlighted in
 
 A 'conflict' emerges when you try to merge or 'sync' two versions of a document with changes which conflict with each other. If you are careful about committing and syncing local changes (on your computer) then it is unlikely you will run into this issue, but if you do it can be resolved fairly easily.
 
-The most likely way a conflict will emerge is if you make a change remotely (on the GitHub website), and then make a subsequent change on your local machine without first synching the changes from the website.  If you make changes in different parts of a document these changes can be 'merged' or synched together without any conflict. But these changes might conflict with one another (i.e. if you try and change the same line of the document in two different ways).
+The most likely way a conflict will emerge is if you make a change remotely (on the GitHub website), and then make a subsequent change on your local machine without first synching the changes from the website.  If you make changes in different parts of a document these changes can be 'merged' or synced together without any conflict. But these changes might conflict with one another (i.e. if you try and change the same line of the document in two different ways).
 
 An example will help illustrate how conflicts can emerge and how to deal with them. Say we add a change to our remote repository (on the GitHub website).
 
@@ -282,7 +282,7 @@ We commit this change on the website and subsequently make a change to the docum
 
 {% include figure.html filename="getting-started-with-github-desktop-14.png" caption="A local change to our document" %}
 
-If we now commit our local changes and try and sync our changes we get a message warning us about sync conflicts
+If we now commit our local changes and then sync our changes we get a message warning us about sync conflicts.
 
 {% include figure.html filename="getting-started-with-github-desktop-15.png" caption="GitHub desktop warning of sync conflicts" %}
 
@@ -304,7 +304,7 @@ This may seem like a convoluted approach to dealing with conflicts but it is ver
 
 So far we have only implemented version control with a very basic document. Learning more about Markdown and writing in plain text will allow you to use version control in more the sorts of documents you would use in your day-to-day work. Version controlling a Markdown document will allow you to learn the Markdown syntax while reinforcing your understanding of version controlling documents. [Sustainable Authorship in Plain Text using Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) by Dennis Tenen and Grant Wythoff will provide you with an understanding of how you could use plain text for academic writing using Pandoc and Markdown. Pandoc allows you to convert Markdown formated Plain Text files into numerous different formats including HTML, PDF and Word. The combination of Markdown, Pandoc and Version Control will provide a powerful, sustainable and flexible approach to academic writing.
 
-The workflow introduced in this lesson can also be used as a foundation to create static websites hosted on GitHub. Once you are comfortable using GitHub Desktop, you may wish to proceed to Amanda Visconti's lesson, [Building a Statice Website with Jekyll and GitHub Pages](../lessons/building-static-sites-with-jekyll-github-pages).
+The workflow introduced in this lesson can also be used as a foundation to create static websites hosted on GitHub. Once you are comfortable using GitHub Desktop, you may wish to proceed to Amanda Visconti's lesson, [Building a Static Website with Jekyll and GitHub Pages](../lessons/building-static-sites-with-jekyll-github-pages).
 
 ## Further Resources
 
