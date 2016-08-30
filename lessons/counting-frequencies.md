@@ -12,8 +12,7 @@ next: creating-and-viewing-html-files-with-python
 previous: normalizing-data
 ---
 
-Lesson Goals
-------------
+## Lesson Goals
 
 Your list is now clean enough that you can begin analyzing its contents
 in meaningful ways. Counting the frequency of specific words in the list
@@ -27,10 +26,9 @@ processes used to calculate frequencies in a list.
 -   `obo.py`
 
 If you do not have these files, you can
-download programming-historian-3, a ([zip][]) file from the previous lesson.
+download a ([zip][]) file containing all of the code from the previous lessons in this series.
 
-Frequencies
------------
+## Frequencies
 
 Now we want to count the frequency of each word in our list. You’ve
 already seen that it is easy to process a list by using a `for` loop. Try
@@ -49,10 +47,10 @@ wordfreq = []
 for w in wordlist:
     wordfreq.append(wordlist.count(w))
 
-print "String\n" + wordstring +"\n"
-print "List\n" + str(wordlist) + "\n"
-print "Frequencies\n" + str(wordfreq) + "\n"
-print "Pairs\n" + str(zip(wordlist, wordfreq))
+print("String\n" + wordstring +"\n")
+print("List\n" + str(wordlist) + "\n")
+print("Frequencies\n" + str(wordfreq) + "\n")
+print("Pairs\n" + str(zip(wordlist, wordfreq)))
 ```
 
 Here, we start with a string and split it into a list, as we’ve done
@@ -106,16 +104,18 @@ wordlist = wordstring.split()
 
 wordfreq = [wordlist.count(w) for w in wordlist] # a list comprehension
 
-print "String\n" + wordstring +"\n"
-print "List\n" + str(wordlist) + "\n"
-print "Frequencies\n" + str(wordfreq) + "\n"
-print "Pairs\n" + str(zip(wordlist, wordfreq))
+print("String\n" + wordstring +"\n")
+print("List\n" + str(wordlist) + "\n")
+print("Frequencies\n" + str(wordfreq) + "\n")
+print("Pairs\n" + str(zip(wordlist, wordfreq)))
 ```
 
 If you study this list comprehension carefully, you will discover that
 it does exactly the same thing as the `for` loop in the previous example,
 but in a condensed manner. Either method will work fine, so use the
-version that you are most comfortable with.
+version that you are most comfortable with. 
+
+Generally it is wise to use code you understand rather than code that runs quickest.
 
 At this point we have a list of pairs, where each pair contains a word
 and its frequency. This list is a bit redundant. If 'the' occurs 500
@@ -126,8 +126,7 @@ solve both problems by converting it into a dictionary, then printing
 out the dictionary in order from the most to the least commonly
 occurring item.
 
-Python Dictionaries
--------------------
+## Python Dictionaries
 
 Both strings and lists are sequentially ordered, which means that you
 can access their contents by using an index, a number that starts at 0.
@@ -137,23 +136,23 @@ character within that string. Study the examples below.
 
 ``` python
 s = 'hello world'
-print s[0]
+print(s[0])
 -> h
 
-print s[1]
+print(s[1])
 -> e
 
 m = ['hello', 'world']
-print m[0]
+print(m[0])
 -> hello
 
-print m[1]
+print(m[1])
 -> world
 
-print m[0][1]
+print(m[0][1])
 -> e
 
-print m[1][0]
+print(m[1][0])
 -> w
 ```
 
@@ -165,13 +164,13 @@ from it. You can, however, look them up by using a key (hence the name
 
 ``` python
 d = {'world': 1, 'hello': 0}
-print d['hello']
+print(d['hello'])
 -> 0
 
-print d['world']
+print(d['world'])
 -> 1
 
-print d.keys()
+print(d.keys())
 -> ['world', 'hello']
 ```
 
@@ -179,7 +178,7 @@ Dictionaries might be a bit confusing to a new programmer. Try to think
 of it like a language dictionary. If you don’t know (or remember)
 exactly how "bijection" differs from "surjection" you can look the two
 terms up in the *Oxford English Dictionary*. The same principle applies
-when you `print d['hello'];` except, rather than print a literary
+when you `print(d['hello']);` except, rather than print a literary
 definition it prints the value associated with the keyword 'hello', as
 defined by you when you created the dictionary named *d*. In this case,
 that value is "0".
@@ -188,8 +187,7 @@ Note that you use curly braces to define a dictionary, but square
 brackets to access things within it. The `keys` operation returns a list
 of keys that are defined in the dictionary.
 
-Word-Frequency Pairs
---------------------
+## Word-Frequency Pairs
 
 Building on what we have so far, we want a function that can convert a
 list of words into a dictionary of word-frequency pairs. The only new
@@ -231,7 +229,7 @@ continuing.
 
 import urllib2, obo
 
-url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 response = urllib2.urlopen(url)
 html = response.read()
@@ -240,11 +238,10 @@ wordlist = obo.stripNonAlphaNum(text)
 dictionary = obo.wordListToFreqDict(wordlist)
 sorteddict = obo.sortFreqDict(dictionary)
 
-for s in sorteddict: print str(s)
+for s in sorteddict: print(str(s))
 ```
 
-Removing Stop Words
--------------------
+## Removing Stop Words
 
 When we look at the output of our `html-to-freq.py` program, we see that
 a lot of the most frequent words in the text are function words like
@@ -354,7 +351,7 @@ and execute it.
 import urllib2
 import obo
 
-url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 response = urllib2.urlopen(url)
 html = response.read()
@@ -364,7 +361,7 @@ wordlist = obo.removeStopwords(fullwordlist, obo.stopwords)
 dictionary = obo.wordListToFreqDict(wordlist)
 sorteddict = obo.sortFreqDict(dictionary)
 
-for s in sorteddict: print str(s)
+for s in sorteddict: print(str(s))
 ```
 
 If all went well, your output should look like this:
@@ -393,8 +390,7 @@ If all went well, your output should look like this:
 ...
 ```
 
-Suggested Readings
-------------------
+## Suggested Readings
 
 Lutz, Learning Python
 
@@ -411,12 +407,13 @@ Pilgrim, Diving into Python
 
 To follow along with future lessons it is important that you have the
 right files and programs in your "programming-historian" directory. At
-the end of each chapter you can download the "programming-historian" zip
+the end of each lesson in this series you can download the "programming-historian" zip
 file to make sure you have the correct code.
 
--   programming-historian-3 ([zip][])
+-   programming-historian-5 ([zip sync][])
 
   [list comprehension]: http://docs.python.org/tutorial/datastructures.html#list-comprehensions
   [computer scientists at Glasgow]: http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
   [Regular Expressions]: http://www.diveintopython.net/regular_expressions/index.html
-  [zip]: ../assets/programming-historian3.zip
+  [zip]: ../assets/python-lessons4.zip
+  [zip sync]: ../assets/python-lessons5.zip
