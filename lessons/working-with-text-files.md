@@ -12,25 +12,23 @@ next: code-reuse-and-modularity
 previous: viewing-html-files
 ---
 
-Lesson Goals
-------------
+## Lesson Goals
 
 In this lesson you will learn how to manipulate text files using Python.
 This includes opening, closing, reading from, and writing to `.txt`
-files.
+files using programming.
 
-The next few lessons will involve downloading a web page from the
+The next few lessons in this series will involve downloading a web page from the
 Internet and reorganizing the contents into useful chunks of
 information. You will be doing most of your work using Python code
 written and executed in Komodo Edit.
 
-Working with Text Files
------------------------
+## Working with Text Files
 
 Python makes it easy to work with files and text. Let’s begin with
 files.
 
-### Creating and Writing to a Text File
+## Creating and Writing to a Text File
 
 Let’s start with a brief discussion of terminology. In a previous lesson
 (depending on your operating system: [Mac Installation][], [Windows
@@ -39,7 +37,7 @@ information to the "Command Output" window of your text editor by using
 Python's [print][] command.
 
 ``` python
-print 'hello world'
+print('hello world')
 ```
 
 The Python programming language is *object-oriented*. That is to say that
@@ -201,7 +199,7 @@ print the message to the "Command Output" pane.
 # file-input.py
 f = open('helloworld.txt','r')
 message = f.read()
-print message
+print(message)
 f.close()
 ```
 
