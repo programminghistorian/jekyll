@@ -164,10 +164,13 @@ Make sure the images are in web-friendly formats such as PNG or JPEG and sized a
 #### Inserting Figures in Your Lesson
 Wherever you want to insert a figure, use the following line of code in the body of your lesson:
 
+{% raw %}
 
 ``` text
 {% include figure.html filename="IMAGE-FILENAME" caption="Caption to image" %}
 ```
+
+{% endraw %}
 
 You'll need to modify `IMAGE-FILENAME` and `Caption to image` according to your lesson and image. Note that you may use Markdown within caption text, for instance to mark text as bold or italic.
 
