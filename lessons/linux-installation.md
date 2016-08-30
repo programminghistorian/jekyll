@@ -88,7 +88,7 @@ program and save it to your `programming-historian` directory as
 
 ``` python
 # hello-world.py
-print 'hello world'
+print('hello world')
 ```
 
 Your chosen text editor should have a “`Run`” button that will allow you
@@ -119,7 +119,7 @@ This will open up the Python prompt, meaning that you can now use Python
 commands in the shell. Now type
 
 ``` python
-print 'hello world'
+print('hello world')
 ```
 
 and press Enter. The computer will respond with
@@ -132,7 +132,7 @@ When we want to represent an interaction with the shell, we will use
 `->` to indicate the shell’s response to your command, as shown below:
 
 ``` python
-print 'hello world'
+print('hello world')
 -> hello world
 ```
 
