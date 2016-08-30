@@ -242,4 +242,4 @@ file to make sure you have the correct code.
   [Downloading Multiple Records Using Query Strings]: ../lessons/downloading-multiple-records-using-query-strings
   [Old]: ../images/old-bailey.png "Old"
   [Gordon Riots]: http://en.wikipedia.org/wiki/Gordon_Riots
-  [zip]: ../assets/programming-historian1.zip
+  [zip]: ../assets/python-lessons1.zip
