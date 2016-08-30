@@ -327,13 +327,15 @@ accomplish specific tasks that will help in your research process.
 
 ## Code Syncing
 
-This marks the end of this series of lessons. The finished code
+This marks the end of this series of original lessons on python. The finished code
 for the series can be downloaded as a zip file. If you are following along
 with the Mac / Linux version you may have to open the `obo.py` file and
 change "file:///Users/username/Desktop/programming-historian/" to the
 path to the directory on your own computer.
 
 -   python-lessons9.zip [zip sync][]
+
+There is an additional lesson on using Python to download multiple records using Query Strings, marked as the next lesson.
 
   [Keywords in Context (Using N-grams)]: ../lessons/keywords-in-context-using-n-grams
   [zip file from the previous lesson]: ../assets/python-lessons8.zip
