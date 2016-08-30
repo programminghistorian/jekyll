@@ -172,7 +172,7 @@ Python Shell in Windows
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
-order, we suggest you next try ‘[Viewing HTML Files][]‘
+order, we suggest you next try ‘[Understanding Web Pages and HTML][]‘
 
   [Python website]: http://www.python.org/
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
@@ -188,4 +188,4 @@ order, we suggest you next try ‘[Viewing HTML Files][]‘
   [hello world in Komodo Edit]: ../images/hello-world1.png "hello-world"
   [Python Shell on Windows]: ../images/python-shell-win.png
     "python-shell-win"
-  [Viewing HTML Files]: /lessons/viewing-html-files
+  [Understanding Web Pages and HTML]: /lessons/viewing-html-files
