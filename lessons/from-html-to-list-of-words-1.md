@@ -15,7 +15,7 @@ previous: manipulating-strings-in-python
 ## Lesson Goals
 
 In this two-part lesson, we will build on what you’ve learned about
-[Downloading Web Pages with Python][], learning how to remove the *HTML markup* from
+[Downloading Web Pages with Python](http://programminghistorian.org/lessons/working-with-web-pages), learning how to remove the *HTML markup* from
 the webpage of [Benjamin Bowsey’s 1780 criminal trial transcript][]. We
 will achieve this by using a variety of *string operators*, *string methods*
 and close reading skills. We introduce *looping* and *branching* so that
@@ -27,7 +27,7 @@ indexed, and counted.
 ## The Challenge
 
 To get a clearer picture of the task ahead, open the
-*obo-t17800628-33.html* file that you created in [Downloading Web Pages with Python][] (or [download and save the trial]
+*obo-t17800628-33.html* file that you created in [Downloading Web Pages with Python](http://programminghistorian.org/lessons/working-with-web-pages) (or [download and save the trial]
 [obo-t17800628-33.html] if you do not already have a
 copy), then look at the HTML source by clicking on
 *Tools -> Web Developer -> Page Source*. As you scroll through the
@@ -129,7 +129,7 @@ the algorithm was as follows:
 -   Save everything after the `<p>` tag and before the `<br/>` tag to a string:
     *pageContents*
 
-To achieve this, you will use the 'find' string method and rfind() method 
+To achieve this, you will use the 'find' string method and .rfind() method 
 (which finds the last match of something) and create a new
 substring containing only the desired content between those index positions.
 
@@ -235,4 +235,4 @@ that’s ok!
   [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
   [Code Reuse and Modularity]: ../lessons/code-reuse-and-modularity
   [zip]: ../assets/python-lessons2.zip
-  [obo-t17900628-33.html]: ../assets/obo-t17800628-33.html
+  [obo-t17800628-33.html]: ../assets/obo-t17800628-33.html
