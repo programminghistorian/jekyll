@@ -15,22 +15,22 @@ Thanks to John Fink for providing the basis of this section. These
 instructions are for Ubuntu 12.04 LTS, but should work for any apt based
 system such as Debian, or Linux Mint, provided you have sudo installed.
 
-### Back up your computer
+## Back up your computer
 
 It is always important to make sure you have regular and recent backups
 of your computer. This is just good advice for life, and is not limited
 to times when you are engaged in programming.
 
-### Install Python v. 2 and Python “Beautiful Soup” module
+## Install Python v. 2
 
 1.  Open a terminal (`Dash Home`, then type `Terminal`, then click on
     the Terminal icon).
-2.  Now type: `sudo apt-get install python2.7 python-beautifulsoup`
+2.  Now type: `sudo apt-get install python2.7`
 3.  Enter your password, and then type `Y` to finish the install. Note
-    that you probably have Python 2.7 installed already, so don’t be
+    that you probably have Python 2.7 installed already, so don't be
     alarmed if Ubuntu tells you that.
 
-### Create a directory
+## Create a directory
 
 You will keep your Python programs in this directory. It can be anywhere
 you like, but it is probably best to put it in your home folder.
@@ -41,12 +41,11 @@ cd ~
 mkdir programming-historian
 ```
 
-### Install Komodo Edit
+## Install Komodo Edit
 
-Komodo Edit is a free and open source code editor, but as we said in the
-introduction, you have many [other text editing options][]. You can
-download Komodo Edit at the [Komoto Edit Website][]. Once you’ve
-downloaded it, open it with Ubuntu’s package manager, extract it to your
+Komodo Edit is a free and open source code editor, but you have many [other text editing options][] if you prefer. You can
+download Komodo Edit at the [Komoto Edit Website][]. Once you've
+downloaded it, open it with Ubuntu's package manager, extract it to your
 home directory, and follow the installation instructions. If you are
 following along with these instructions and have installed Komodo Edit,
 open the home folder, go to the `Komodo-Edit-7/bin` directory, and click
@@ -54,7 +53,7 @@ on komodo. You can also right click on the Komodo icon in your launcher
 and click “`Lock to Launcher`” to have Komodo saved permanently to your
 launcher bar.
 
-### Make a “Run Python” Command in Komodo Edit
+## Make a “Run Python” Command in Komodo Edit
 
 1.  In Komodo Edit, click the gear icon under `Toolbox` and select
     `New Command`.
@@ -62,12 +61,11 @@ launcher bar.
 3.  In the Command field, type: `%(python) %F` Then hit the OK button at
     the bottom of the Add Command window.
 
-Step 2 – “Hello World” in Python
+## Step 2 – “Hello World” in Python
 --------------------------------
 
 It is traditional to begin programming in a new language by trying to
-create a program that says “hello world” and terminates. We will show
-you how to do this in Python and HTML.
+create a program that says “hello world” and terminates.
 
 Python is a good programming language for beginners because it is very
 high-level. It is possible, in other words, to write short programs that
@@ -75,7 +73,7 @@ accomplish a lot. The shorter the program, the more likely it is for the
 whole thing to fit on one screen, and the easier it is to keep track of
 all of it in your mind.
 
-The languages that we will be using are all interpreted. This means that
+Python is an 'interpreted' programming language. This means that
 there is a special computer program (known as an interpreter) that knows
 how to follow instructions written in that language. One way to use the
 interpreter is to store all of your instructions in a file, and then run
@@ -102,7 +100,7 @@ full-size copy):
 
 “Hello World” in Python
 
-### Interacting with a Python shell
+## Interacting with a Python shell
 
 Another way to interact with an interpreter is to use what is known as a
 shell. You can type in a statement and press the Enter key, and the
@@ -143,8 +141,6 @@ On your screen, it will look more like this:
 ![hello world terminal on a Mac][]
 
 Python Shell in Mac Terminal
-
-[.][]
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
