@@ -182,4 +182,4 @@ path to the directory on your own computer.
   [Zotero]: http://zotero.org
   [W3 Schools HTML tutorial]: http://www.w3schools.com/html/default.asp
   [doctype declaration]: http://www.w3schools.com/tags/tag_doctype.asp
-  [zip]: ../assets/python-lessons6.zip
+  [zip sync]: ../assets/python-lessons6.zip
