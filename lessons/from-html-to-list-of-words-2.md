@@ -38,7 +38,7 @@ tags. The second half of the algorithm does the following:
 -   *trial-content.py*
 
 If you do not have these files, you can
-download python-lessons2.zip, a ([zip1][]) file from the previous lesson.
+download python-lessons2.zip, a ([zip][]) file from the previous lesson.
 
 ## Repeating and Testing in Python
 
@@ -326,10 +326,10 @@ right files and programs in your programming-historian directory. At the
 end of each chapter in this series you can download the programming-historian zip file
 to make sure you have the correct code.
 
--   python-lessons3.zip ([zip2][])
+-   python-lessons3.zip ([zip sync][])
 
   [From HTML to a List of Words (part 1)]: ../lessons/from-html-to-list-of-words-1
   [integer]: http://docs.python.org/2.4/lib/typesnumeric.html
   [types]: http://docs.python.org/3/library/types.html
-  [zip1]: ../assets/python-lessons2.zip
-  [zip2]: ../assets/python-lessons3.zip
+  [zip]: ../assets/python-lessons2.zip
+  [zip sync]: ../assets/python-lessons3.zip
