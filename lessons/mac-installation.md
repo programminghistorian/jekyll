@@ -91,7 +91,7 @@ accomplish a lot. The shorter the program, the more likely it is for the
 whole thing to fit on one screen, and the easier it is to keep track of
 all of it in your mind.
 
-The languages that we will be using in this series are all interpreted. This means that
+Python is an 'interpreted' programming language. This means that
 there is a special computer program (known as an interpreter) that knows
 how to follow instructions written in that language. One way to use the
 interpreter is to store all of your instructions in a file, and then run
