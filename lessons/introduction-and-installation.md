@@ -30,24 +30,18 @@ write your first programs, "Hello World" in Python and HTML.
 the Python Programming Language
 -------------------------------
 
-The first programming language we will introduce in the Programming
-Historian is Python, a free, open source language. Unless otherwise
-noted, we will be using **Python v.2** throughout. Version 3 is
-available but we have elected to stick with version 2 for now because
-it’s the most widely used version and it is the one that ships
-preinstalled on new Macs. Python 3 has different syntax (think grammar
-rules) and if you are trying to use Python 3 with the Programming
-Historian, you may run into difficulties. We welcome version 3
-translations of any of our lessons.
+The programming language we will use in this series of lessons is Python, 
+a free, open source language. Unless otherwise noted, we will be using 
+**Python v.2** throughout. Version 3 is available but we have elected to 
+stick with version 2 because it’s the most widely used version 
+and it is the one that ships preinstalled on new Macs. (Python 3 has a few differences in formatting)[http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html] (think grammar rules) and if you are trying to use 
+Python 3 with the Programming Historian, you may run into difficulties. 
 
 Backup Your Work!
 -----------------
 
 Before you download or install any new software, it is crucial that you
-make backups of your work. Each day before you do any programming, make
-sure to back up your [Zotero][] database. At the end of a day’s work,
-make another backup of the Zotero database and of any programs that
-you’ve written that day. You should back up your whole computer at least
+make backups of your work. You should back up your whole computer at least
 weekly, and preferably more frequently. It is also a good idea to make
 off-site backups of your work, so that you don't lose everything if
 something happens to your computer or to your home or office. Sites like
