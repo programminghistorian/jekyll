@@ -38,7 +38,7 @@ function definition into Komodo Edit and save it as `greet.py`.
 # greet.py
 
 def greetEntity (x):
-    print "hello " + x
+    print("hello " + x)
 
 greetEntity("Everybody")
 greetEntity("Programming Historian")
@@ -81,10 +81,10 @@ finished, your `greet.py` file should look like this:
 # greet.py
 
 def greetEntity (x):
-    print "hello " + x
+    print("hello " + x)
 ```
 
-### Modularity
+## Modularity
 
 When programs are small like the above example, they are typically
 stored in a single file. When you want to run one of your programs, you
