@@ -12,8 +12,7 @@ next: keywords-in-context-using-n-grams
 previous: creating-and-viewing-html-files-with-python
 ---
 
-Lesson Goals
-------------
+## Lesson Goals
 
 This lesson takes the frequency pairs created in [Counting
 Frequencies][] and outputs them to an HTML file.
@@ -24,14 +23,14 @@ file that shows the keywords found in the original source in order of
 descending frequency, along with the number of times that each keyword
 appears.
 
-### Files Needed For This Lesson
+## Files Needed For This Lesson
 
 -   `obo.py`
 
 If you do not have these files from the previous lesson, you can
-download programming-historian-3, a [zip file from the previous lesson][]
+download programming-historian-6, a [zip file from the previous lesson][]
 
-### Building an HTML wrapper
+## Building an HTML wrapper
 
 In the previous lesson, you learned how to embed the message "Hello
 World!" in HTML tags, write the result to a file and open it
@@ -42,7 +41,7 @@ for the output of our code that computes word frequencies. We're also
 going to add some helpful, dynamic *metadata* to supplement the frequency
 data collected in [Counting Frequencies][].
 
-### Metadata
+## Metadata
 
 The distinction between data and metadata is crucial to information
 science. Metadata are data about data. This concept should already be
@@ -74,7 +73,7 @@ creating self-documenting files will save a lot of time, so we’ll
 practice now. And for that, we'll have to learn to take advantage of a
 few more powerful string formatting options.
 
-### Python string formatting
+## Python string formatting
 
 Python includes a special formatting operator that allows you to insert
 one string into another one. It is represented by a percent sign
@@ -82,13 +81,13 @@ followed by an "s". Open a Python shell and try the following examples.
 
 ``` python
 frame = 'This fruit is a %s'
-print frame
+print(frame)
 -> This fruit is a %s
 
-print frame % 'banana'
+print(frame % 'banana')
 -> This fruit is a banana
 
-print frame % 'pear'
+print(frame % 'pear')
 -> This fruit is a pear
 ```
 
@@ -97,10 +96,10 @@ into another one.
 
 ``` python
 frame2 = 'These are %s, those are %s'
-print frame2
+print(frame2)
 -> These are %s, those are %s
 
-print frame2 % ('bananas', 'pears')
+print(frame2 % ('bananas', 'pears'))
 -> These are bananas, those are pears
 ```
 
@@ -111,7 +110,7 @@ various formats, like `%i` for integer (eg. 1, 2, 3), `%f` for
 floating-point decimal (eg. 3.023, 4.59, 1.0), and so on. Using this
 method we can input information that is unique to the file.
 
-### Self-documenting data file
+## Self-documenting data file
 
 Let's bundle some of the code that we've already written into functions.
 One of these will take a URL and return a string of lowercase text from
@@ -135,7 +134,7 @@ and date that it was created and the name of the program that created
 it. Study the following code carefully, then copy it into the `obo.py`
 module.
 
-#### Mac Instructions
+### Mac Instructions
 
 If you are using a Mac, make sure you include the proper file path in
 the filename variable on the 2nd last line to reflect where you're
@@ -145,7 +144,7 @@ saving your files.
 # Given name of calling program, a url and a string to wrap,
 # output string in html body with basic metadata and open in Firefox tab.
 
-def wrapStringInHTML(program, url, body):
+def wrapStringInHTMLMac(program, url, body):
     import datetime
     from webbrowser import open_new_tab
 
@@ -170,14 +169,14 @@ def wrapStringInHTML(program, url, body):
     open_new_tab(filename)
 ```
 
-#### Windows Instructions
+### Windows Instructions
 
 ``` python
 # Given name of calling program, a url and a string to wrap,
 # output string in html body with basic metadata
 # and open in Firefox tab.
 
-def wrapStringInHTML(program, url, body):
+def wrapStringInHTMLWindows(program, url, body):
     import datetime
     from webbrowser import open_new_tab
 
@@ -209,7 +208,7 @@ and you should see how this worked. If you're still stuck, take a look
 at the
 
 ```
-URL: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
+URL: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
 ```
 
 in the HTML file and trace back how the program knew to put the URL value
@@ -228,7 +227,7 @@ function, is stored in the HTML title tag. The HTML file that is created
 has the same name as the Python program that creates it, but with a
 `.html` extension rather than a `.py` one.
 
-### Putting it all together
+## Putting it all together
 
 Now we can create another version of our program to compute frequencies.
 Instead of sending its output to a text file or an output window, it
@@ -238,12 +237,15 @@ entries to Zotero. Type or copy the following code into your text
 editor, save it as `html-to-freq-3.py` and execute it, to confirm that
 it works as expected.
 
+Use either obo.wrapStringInHTMLMac() or obo.wrapStringInHTMLWindows() as appropriate
+for your system.
+
 ``` python
 # html-to-freq-3.py
 import obo
 
 # create sorted dictionary of word-frequency pairs
-url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 text = obo.webPageToText(url)
 fullwordlist = obo.stripNonAlphaNum(text)
 wordlist = obo.removeStopwords(fullwordlist, obo.stopwords)
@@ -255,7 +257,7 @@ outstring = ""
 for s in sorteddict:
     outstring += str(s)
     outstring += "<br />"
-obo.wrapStringInHTML("html-to-freq-3", url, outstring)
+obo.wrapStringInHTMLMac("html-to-freq-3", url, outstring)
 ```
 
 Note that we interspersed our word-frequency pairs with the HTML break
@@ -278,10 +280,8 @@ with the Mac / Linux version you may have to open the `obo.py` file and
 change "file:///Users/username/Desktop/programming-historian/" to the
 path to the directory on your own computer.
 
--   programming-historian [Mac / Linux] ([zip][])
--   programming-historian [Windows] ([zip][1])
+-   python-lessons7.zip [zip sync][]
 
   [Counting Frequencies]: ../lessons/counting-frequencies
-  [zip file from the previous lesson]: ../assets/programming-historian3.zip
-  [zip]: ../assets/programming-historian-mac-linux.zip
-  [1]: ../assets/programming-historian-windows.zip
+  [zip file from the previous lesson]: ../assets/python-lessons6.zip
+  [zip sync]: ../assets/python-lessons7.zip
