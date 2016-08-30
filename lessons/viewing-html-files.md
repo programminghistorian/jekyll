@@ -16,7 +16,7 @@ previous: introduction-and-installation
 "Hello World" in HTML
 ---------------------
 
-### Viewing HTML files
+## Viewing HTML files
 
 When you are working with online sources, much of the time you will be
 using files that have been marked up with HTML (Hyper Text Markup
@@ -25,7 +25,7 @@ handy for human readers. Most browsers also let you see the HTML *source code*
 for any page that you visit. The two images below show a typical web
 page (from the *Old Bailey Online*) and the HTML source used to generate
 that page, which you can see with the
-`Tools -> Web Developer -> Page Source` command in Firefox.
+`Tools -> Web Developer -> Page Source` menu item in Firefox.
 
 When you're working in the browser, you typically don't want or need to
 see the source for a web page. If you are writing a page of your own,
@@ -44,7 +44,7 @@ isn't immediately necessary to continue reading, but any time that you
 spend learning HTML will be amply rewarded in your work as a digital
 historian or digital humanist.)
 
-### "Hello World" in HTML
+## "Hello World" in HTML
 
 HTML is what is known as a *markup* language. In other words, HTML is
 text that has been "marked up" with *tags* that provide information for
@@ -70,7 +70,7 @@ goes into the body.
 </html>
 ```
 
-You can try creating some HTML code. Go to your text editor, and create
+You can try creating some HTML code. In your text editor, create
 a new file. Copy the code below into the editor. The first line tells
 the browser what kind of file it is. The `html` tag has the text direction
 set to `ltr` (left to right) and the `lang` (language) set to US English.
@@ -119,7 +119,7 @@ browser. Note the difference between opening an HTML file with a browser
 like Firefox (which interprets it) and opening the same file with your
 text editor (which does not).
 
-### Suggested readings for learning HTML
+## Suggested readings for learning HTML
 
 -   [W3 Schools HTML Tutorial][W3 Schools HTML tutorial]
 -   [W3 Schools HTML5 Tutorial][]
