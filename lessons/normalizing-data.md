@@ -13,8 +13,7 @@ next: counting-frequencies
 previous: from-html-to-list-of-words-2
 ---
 
-Lesson Goals
-------------
+## Lesson Goals
 
 The list that we created in the [From HTML to a List of Words (2)][]
 needs some *normalizing* before it can be used further. We are going to do
@@ -22,16 +21,15 @@ this by applying additional string methods, as well as by using *regular*
 *expressions*. Once normalized, we will be able to more easily analyze our
 data.
 
-### Files Needed For This Lesson
+## Files Needed For This Lesson
 
 -   *html-to-list-1.py*
 -   *obo.py*
 
 If you do not have these files from the previous lesson, you can
-download a [zip file from the previous lesson here.][]
+download a [zip][]
 
-Cleaning up the List
---------------------
+## Cleaning up the List
 
 In [From HTML to a List of Words (2)][], we wrote a Python program
 called *html-to-list-1.py* which downloaded a [web page][], stripped
@@ -48,26 +46,21 @@ Turn back to your program *html-to-list-1.py* and make sure that your
 results look something like this:
 
 ``` python
-['BENJAMIN', 'BOWSEY,', 'Breaking', 'Peace', '>',
-'riot,', '28th', 'June', '1780.', '324.', 'BENJAMIN',
-'BOWSEY', '(a', 'blackmoor', ')', 'was', 'indicted',
-'for', 'that', 'he', 'together', 'with', 'five',
-'hundred', 'other', 'persons', 'and', 'more,', 'did,',
-'unlawfully,', 'riotously,', 'and', 'tumultuously',
-'assemble', 'on', 'the', '6th', 'of', 'June', 'to',
-'the', 'disturbance', 'of', 'the', 'public', 'peace',
-'and', 'did', 'begin', 'to', 'demolish', 'and', 'pull',
-'down', 'the', 'dwelling', 'house', 'of', 'Richard',
-'Akerman', ',', 'against', 'the', 'form', 'of', 'the',
-'statute,', '&c.', 'ROSE', 'JENNINGS', ',', 'Esq.',
-'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be',
-'in', 'this', 'part', 'of', 'the', 'town,', 'on', 'the',
-'6th', 'of', 'June', 'in', 'the', 'evening?', '-', 'I',
-'dined', 'with', 'my', 'brother', 'who', 'lives',
-'opposite', 'Mr.', "Akerman's", 'house.', 'They',
-'attacked', 'Mr.', "Akerman's", 'house', 'precisely',
-'at', 'seven', "o'clock;", 'they', 'were', 'preceded',
-'by', 'a', 'man']
+['324.', '\xc2\xa0', 'BENJAMIN', 'BOWSEY', '(a', 'blackmoor', ')', 'was', 
+'indicted', 'for', 'that', 'he', 'together', 'with', 'five', 'hundred', 
+'other', 'persons', 'and', 'more,', 'did,', 'unlawfully,', 'riotously,', 
+'and', 'tumultuously', 'assemble', 'on', 'the', '6th', 'of', 'June', 'to', 
+'the', 'disturbance', 'of', 'the', 'public', 'peace', 'and', 'did', 'begin', 
+'to', 'demolish', 'and', 'pull', 'down', 'the', 'dwelling', 'house', 'of', 
+'\xc2\xa0', 'Richard', 'Akerman', ',', 'against', 'the', 'form', 'of', 
+'the', 'statute,', '&amp;c.', '\xc2\xa0', 'ROSE', 'JENNINGS', ',', 'Esq.', 
+'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be', 'in', 'this', 'part', 
+'of', 'the', 'town,', 'on', 'the', '6th', 'of', 'June', 'in', 'the', 
+'evening?', '-', 'I', 'dined', 'with', 'my', 'brother', 'who', 'lives', 
+'opposite', 'Mr.', "Akerman's", 'house.', 'They', 'attacked', 'Mr.', 
+"Akerman's", 'house', 'precisely', 'at', 'seven', "o'clock;", 'they', 
+'were', 'preceded', 'by', 'a', 'man', 'better', 'dressed', 'than', 'the', 
+'rest,', 'who']
 ```
 
 By itself, this ability to separate the document into words doesn’t buy
@@ -89,8 +82,7 @@ So, the steps involved might look like this:
 -   Count the number of times each word appears
 -   Remove overly common words such as “it”, “the”, “and”, etc.
 
-Convert to Lower Case
----------------------
+## Convert to Lower Case
 
 Typically tokens are *folded* to lower case when counting frequencies, so
 we’ll do that using the string method lower which was introduced in
@@ -103,14 +95,14 @@ the the end of the *text* string.
 #html-to-list1.py
 import urllib2, obo
 
-url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 response = urllib2.urlopen(url)
 html = response.read()
 text = obo.stripTags(html).lower() #add the string method here.
 wordlist = text.split()
 
-print (wordlist)
+print(wordlist)
 ```
 
 You should now see the same list of words as before, but with all
@@ -143,8 +135,7 @@ refinement”. You start with a problem and part of a solution, and then
 you keep refining your solution until you have something that works
 better.
 
-Python Regular Expressions
---------------------------
+## Python Regular Expressions
 
 We’ve eliminated upper case letters. That just leaves all the
 punctuation to get rid of. Punctuation will throw off our frequency
@@ -213,14 +204,14 @@ When we refine our *html-to-list1.py* program, it now looks like this:
 #html-to-list1.py
 import urllib2, obo
 
-url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 response = urllib2.urlopen(url)
 html = response.read()
 text = obo.stripTags(html).lower()
 wordlist = obo.stripNonAlphaNum(text)
 
-print wordlist[0:500]
+print(wordlist)
 ```
 
 When you execute the program and look through its output in the “Command
@@ -233,14 +224,26 @@ better. (If you work with sources in more than one language, you need to
 learn more about the [Unicode][] standard and about [Python support][]
 for it.)
 
+## Suggested Reading
+
 For extra practice with Regular Expressions, you may find Chapter 7 of
 Mark Pilgrim’s “[Dive into Python][]” a useful tutorial.
 
+### Code Syncing
+
+To follow along with future lessons it is important that you have the
+right files and programs in your programming-historian directory. At the
+end of each chapter in this series you can download the programming-historian zip file
+to make sure you have the correct code.
+
+-   python-lessons4.zip ([zip2][])
+
   [From HTML to a List of Words (2)]: ../lessons/from-html-to-list-of-words-2
-  [zip file from the previous lesson here.]: ../lessons/from-html-to-list-of-words-2#code-syncing
-  [web page]: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
+  [web page]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
   [From HTML to a List of Words (1)]: ../lessons/from-html-to-list-of-words-1
   [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
   [Unicode]: http://unicode.org/
   [Python support]: http://www.diveintopython.net/xml_processing/unicode.html
   [Dive into Python]: http://www.diveintopython.net/regular_expressions/index.html
+  [zip]: ../assets/python-lessons3.zip
+  [zip2]: ../assets/python-lessons4.zip
