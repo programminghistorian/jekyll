@@ -1194,10 +1194,7 @@ helpful:
   [Old Bailey Online]: http://www.oldbaileyonline.org/
   [Automated Downloading with WGET]: ../lessons/automated-downloading-with-wget
   [Benjamin Bowsey’s case]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-  []: ../images/SearchResultsNegro.png "SearchResultsNegro"
-  [1]: ../images/SearchResultsMulatto.png "SearchResultsMulatto"
   [advanced search form]: http://www.oldbaileyonline.org/forms/formMain.jsp
-  [2]: ../images/AdvancedSearchExample.png "AdvancedSearchExample"
   [Calculate Total]: http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
   [Viewing HTML Files]: ../lessons/viewing-html-files
   [Working with Webpages]: ../lessons/working-with-web-pages
@@ -1207,5 +1204,8 @@ helpful:
   [regular expressions]: http://docs.python.org/2/library/re.html
   [Counting Frequencies]: ../lessons/counting-frequencies
   [time out]: http://www.checkupdown.com/status/E408.html
+  [Python Programming Basics]: http://programminghistorian.org/lessons/introduction-and-installation
   [try / except]: http://docs.python.org/tutorial/errors.html
-  [Python Programming Basics]: ../lessons
+  []: ../images/SearchResultsNegro.png "SearchResultsNegro"
+  [1]: ../images/SearchResultsMulatto.png "SearchResultsMulatto"
+  [2]: ../images/AdvancedSearchExample.png "AdvancedSearchExample"
