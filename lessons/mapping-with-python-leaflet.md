@@ -11,6 +11,7 @@ layout: default
 # Web Mapping with Python and Leaflet
 
 ### Learning Objectives
+
 In this lesson, you will learn how to create a web map based on that data.  By the end of this lesson, you will be able to:
 * Manipulate tabular data programmatically to extract geonames and create location-based data
 * Convert tabular data into a meaningful geographic data structure
@@ -25,7 +26,7 @@ This lesson uses:
 - geojson.io (from mapbox)
 - javascript and jquery
 
-Optional: If you wish to follow along with pre-made scripts you can download them from https://github.com/kimpham54/proghist-mappingAPI
+Optional: If you wish to follow along with pre-made scripts you can download them ** TO FIX: ADD LINK HERE WHEN LESSON IS ACCEPTED **
 
 To set up your working environment:
 1. Create a directory for this project where you will keep all of your scripts and files that you will work from
@@ -38,15 +39,15 @@ We're going to start with a plain comma-separated values (CSV) data file and cre
 
 The data file can be downloaded here: https://raw.githubusercontent.com/programminghistorian/jekyll/tree/gh-pages/assets/webmap-tutorial-files/census-historic-population-borough.csv. You can grab this by either opening the link in your browser and saving the page, or you can use the curl command from your command line:
 
-**TO FIX: make sure the link to csv is working**
+**TO FIX: make sure the link to csv from proghist jekyll is working**
 
-```curl  https://raw.githubusercontent.com/programminghistorian/jekyll/tree/gh-pages/assets/webmap-tutorial-files/census-historic-population-borough.csv > census.csv ```
+```curl  https://raw.githubusercontent.com/programminghistorian/jekyll/tree/gh-pages/assets/webmap-tutorial-files/census-historic-population-borough.csv > census-historic-population-borough.csv ```
 
 The original source of this data is from the [Greater London Authority London Datastore](http://data.london.gov.uk/dataset/historic-census-population).
 
 ### Geocode the placenames in the CSV using Geopy, Pandas
 
-Now that we have data, the next step is sometimes the hardest part: we need to figure out what to do with it.  In this case, we know what our end goal is: to make a web map with this data. You can work backwards from here to figure out what steps you need to take to achieve your goal.  
+Now that we have data, the next step is sometimes the hardest part: we need to figure out what to do with it.  In this case, we know that our end goal is to make a web map with this data. You can work backwards from here to figure out what steps you need to take to achieve your goal.
 
 Web maps typically represent locations and features from geographic data formats such as geoJSON and KML. Every location in a geographic data file can be considered to have geometry (such as points, lines, polygons) as well as additional properties. Web maps typically understand locations as a series of coordinates. For example, 43.6426,-79.3871 would represent the exact coordinates of the [CN Tower in Toronto](https://en.wikipedia.org/wiki/CN_Tower).
 
@@ -54,9 +55,9 @@ In our data file, we have a list of placenames in our CSV data (the Area Name co
 
 So here is our first problem to solve:  how can we geocode placenames? How could we take an entry such as "CN Tower" and add the coordinates 43.6426,-79.3871 to it automatically?
 
-To clarify, we need to figure out how to gather coordinates for a location for each row of a CSV file in order to display these locations on a web map.  
+To clarify, we need to figure out how to gather coordinates for a location for each row of a CSV file in order to display these locations on a web map.
 
-There's a simple way to do this: you can look up a coordinate online in Google Maps and put each coordinate in your spreadsheet manually.  But, if you had 5000 points the task becomes a little bit more daunting. If you're faced with a repetitive task, it might be worthwhile to approach it programmatically.  
+There's a simple way to do this: you can look up a coordinate online in Google Maps and put each coordinate in your spreadsheet manually.  But, if you had 5000 points the task becomes a little bit more daunting. If you're faced with a repetitive task, it might be worthwhile to approach it programmatically.
 
 If you're familiar with _Programming Historian_, you might have already noticed that there there are many [lessons available on how to use Python](http://programminghistorian.org/lessons/).  Python is a great beginner programming language because it is easy to read and happens to be used a lot in GIS applications to optimize workflows.  One of the biggest advantages to Python is the impressive amount of libraries which act like pluggable tools to use for many different tasks.  Knowing that this is a good programmatic approach, we're now going to build a Python script that will automate geocode every address for us.
 
@@ -110,6 +111,7 @@ from geopy.geocoders import Nominatim, GoogleV3
 In the code above, we are importing the different Python libraries that we will need to use later on in our script.  We import geopy, specifically the geopy.geocoders that we will call on later which is Nominatim and GoogleV3, and we import pandas.
 
 Then you want to create a function main() that reads your input CSV.
+
 ```python
 def main():
 	io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
@@ -118,6 +120,8 @@ def main():
 We are first using pandas' pre-existing read_csv() function to open the CSV file. We pass the filepath to our data file in the first parameter, 'census-historic-population-borough.csv'. If it was in a folder called 'data', you would put 'data/census-historic-population-borough.csv'.  The second parameter, 'index_col=None', will number the rows to generate the index without using any column.  If we use 'index_col=0', it indexes the first column in your data as the row name. The third parameter, 'header=0', indicates that there is a header row, which is the first line of the spreadsheet (Note: Python uses "0" instead of "1" to indicate the first value in an index). The fourth parameter 'sep=","' is where you indicate delimiter symbol that is used to split data into fields.  Since are using a comma separated values data format, we need to indicate that we are using a comma to split our data.
 
 There are many other parameters you can use.  A full list is available in the pandas documentation on the [read_csv() function](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html).
+
+Next, we anticipate that when we geocode the csv we will get points in the format of (latitude, longitude). If we only want the latitude value of the point in a csv column, we will define a function to isolate that value. The same can be done for our longitude value.
 
 ```python
 	def get_latitude(x):
@@ -148,13 +152,14 @@ You can also choose a different geolocator from the list found in [the geopy doc
     # uncomment the geolocator you want to use
 ```
 
-Finally, using pandas you want to create a column in your spreadsheet called 'latitude'.  The script will read the existing 'Area_Name' data column, run the geolocator, and generate a latitude coordinate in that column.  The same transformation will occur in the 'longitude' column.  Once this is finished it will output a new CSV file with those two columns:
+Finally, using pandas you want to create a column in your spreadsheet called 'latitude'.  The script will read the existing 'Area_Name' data column, run geopy [geolocator](http://geopy.readthedocs.io/en/latest/#module-geopy.geocoders) on the column using pandas' [apply function](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.apply.html), and generate a latitude coordinate in that column.  The same transformation will occur in the 'longitude' column.  Once this is finished it will output a new CSV file with those two columns:
 
 ```python
 io['latitude'] = io['Area_Name'].apply(geolocator.geocode).apply(get_latitude)
 io['longitude'] = io['Area_Name'].apply(geolocator.geocode).apply(get_longitude)
 io.to_csv('geocoding-output.csv')
 ```
+If we didn't have the ```.apply(get_latitude)``` part of the code, we'd get the full point data. For instance, if we were again geocoding the CN Tower and used just ```.apply(geolocator.geocode)```, we would get 43.6426,-79.3871 in our column. Adding the additional ```.apply(get_latitude)``` would mean that we'd only get 43.6426 in our column.
 
 To finish off your code, it's good practice to make your python modular, that way you can plug it in and out of other applications (should you want to use this script as part of another program):
 
@@ -162,8 +167,7 @@ To finish off your code, it's good practice to make your python modular, that wa
 if __name__ == '__main__':
   main()
 ```
-
-Do you have a script ready? Good.  Run the script from your command line by typing:
+Do you have the script saved and ready to go? Good.  Run the script from your command line by typing:
 
 ```bash
 python geocoder.py
@@ -439,7 +443,7 @@ window.onload = function () {
 		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 	});
 ```
-The javascript file is what provides the behaviour, or functionality of our web map. It's what makes our web map come alive! In the code above, we're telling the javascript to load when the browser loads. We're creating our first map layer, which is your basemap.  The basemap is the tiles provided by OpenStreetMap that provides places and streetnames found on maps.  
+The javascript file is what provides the behaviour, or functionality of our web map. It's what makes our web map come alive! In the code above, we're telling the javascript to load when the browser loads. We're creating our first map layer, which is your basemap.  The basemap is the tiles provided by OpenStreetMap that provides places and streetnames found on maps.
 
 ```javascript
 	$.getJSON("census.geojson", function(data) {
@@ -448,7 +452,7 @@ The javascript file is what provides the behaviour, or functionality of our web 
       onEachFeature: function (feature, layer) {
         layer.bindPopup(feature.properties.Area_Name);
       }
-    });    
+    });
 ```
 
 Next, we're loading our data as another map layer, census.geojson.  This data will have additional properties: each point of data is represented by an icon. It will look and behave like a popup so that when you click on the icon it will load information from your data file (in this case, the Area_Name).
