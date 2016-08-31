@@ -108,11 +108,16 @@ from geopy.geocoders import Nominatim, GoogleV3
 # versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
 ```
 
-In the code above, we are importing the different Python libraries that we will need to use later on in our script.  We import geopy, specifically the geopy.geocoders that we will call on later which is Nominatim and GoogleV3, and we import pandas.
+In the code above, we are importing the different Python libraries that we will need to use later on in our script.  We import geopy, specifically the geopy.geocoders that we will call on later which is [Nominatim](https://wiki.openstreetmap.org/wiki/Nominatim) and [Google Maps V3 API](https://developers.google.com/maps/documentation/geocoding/start), and we import pandas.
 
 Then you want to create a function main() that reads your input CSV.
 
 ```python
+import geopy
+import pandas
+from geopy.geocoders import Nominatim, GoogleV3
+# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+
 def main():
 	io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
 ```
@@ -124,6 +129,14 @@ There are many other parameters you can use.  A full list is available in the pa
 Next, we anticipate that when we geocode the csv we will get points in the format of (latitude, longitude). If we only want the latitude value of the point in a csv column, we will define a function to isolate that value. The same can be done for our longitude value.
 
 ```python
+import geopy
+import pandas
+from geopy.geocoders import Nominatim, GoogleV3
+# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+
+def main():
+  io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
+
 	def get_latitude(x):
     return x.latitude
 
@@ -139,7 +152,7 @@ Next, select the geolocator you want to use.  Here we're creating two geolocator
 | --- | ------------- | ------------- |
 | affiliation | OpenStreetMap  | Google |
 | application use | single-threaded applications  | can upgrade for better performance  |
-| capabilities FIX ISSUE 5 https://github.com/programminghistorian/jekyll/pull/149  | user-input | static (Google's non-static geocoding service not in geopy)  |
+| capabilities for app development  | can geocode based on user-input | only geocodes static addresses (Google's non-static geocoding service not in geopy)  |
 | request limit | 1 request/s or timeout | 5 requests/s, 2500/day |
 | performance test on census data | 33.5s | 11.6s |
 
@@ -147,23 +160,69 @@ You can also choose a different geolocator from the list found in [the geopy doc
 
 
 ```python
+import geopy
+import pandas
+from geopy.geocoders import Nominatim, GoogleV3
+# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+
+def main():
+  io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
+
+  def get_latitude(x):
+    return x.latitude
+
+  def get_longitude(x):
+    return x.longitude
+
 	geolocator = Nominatim()
 	# geolocator = GoogleV3()
-    # uncomment the geolocator you want to use
+  # uncomment the geolocator you want to use
 ```
 
 Finally, using pandas you want to create a column in your spreadsheet called 'latitude'.  The script will read the existing 'Area_Name' data column, run geopy [geolocator](http://geopy.readthedocs.io/en/latest/#module-geopy.geocoders) on the column using pandas' [apply function](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.apply.html), and generate a latitude coordinate in that column.  The same transformation will occur in the 'longitude' column.  Once this is finished it will output a new CSV file with those two columns:
 
 ```python
-io['latitude'] = io['Area_Name'].apply(geolocator.geocode).apply(get_latitude)
-io['longitude'] = io['Area_Name'].apply(geolocator.geocode).apply(get_longitude)
-io.to_csv('geocoding-output.csv')
+import geopy
+import pandas
+from geopy.geocoders import Nominatim, GoogleV3
+# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+
+def main():
+  io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
+
+  def get_latitude(x):
+    return x.latitude
+
+  def get_longitude(x):
+    return x.longitude
+
+  io['latitude'] = io['Area_Name'].apply(geolocator.geocode).apply(get_latitude)
+  io['longitude'] = io['Area_Name'].apply(geolocator.geocode).apply(get_longitude)
+  io.to_csv('geocoding-output.csv')
 ```
 If we didn't have the ```.apply(get_latitude)``` part of the code, we'd get the full point data. For instance, if we were again geocoding the CN Tower and used just ```.apply(geolocator.geocode)```, we would get 43.6426,-79.3871 in our column. Adding the additional ```.apply(get_latitude)``` would mean that we'd only get 43.6426 in our column.
 
-To finish off your code, it's good practice to make your python modular, that way you can plug it in and out of other applications (should you want to use this script as part of another program):
+To finish off your code, it's good practice to make your python modular, that way you can plug it in and out of other applications (should you want to use this script as part of another program). This is how your final python script should look like:
 
 ```python
+import geopy
+import pandas
+from geopy.geocoders import Nominatim, GoogleV3
+# versions used: geopy 1.10.0, pandas 0.16.2, python 2.7.8
+
+def main():
+  io = pandas.read_csv('census-historic-population-borough.csv', index_col=None, header=0, sep=",")
+
+  def get_latitude(x):
+    return x.latitude
+
+  def get_longitude(x):
+    return x.longitude
+
+  io['latitude'] = io['Area_Name'].apply(geolocator.geocode).apply(get_latitude)
+  io['longitude'] = io['Area_Name'].apply(geolocator.geocode).apply(get_longitude)
+  io.to_csv('geocoding-output.csv')
+
 if __name__ == '__main__':
   main()
 ```
@@ -236,8 +295,7 @@ Image Credit: with permission from Mauricio Giraldo Arteaga,
  NYPL Labs
 
 
-**TO FIX programmatically:
-https://github.com/mapbox/csv2geojson**
+**TO FIX: add how to do it programmatically using mapbox: https://github.com/mapbox/csv2geojson**
 
 Test this data out in http://geojson.io.  You should see points generated in the preview window.  That's your data!
 
