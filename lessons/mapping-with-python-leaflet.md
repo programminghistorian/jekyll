@@ -10,14 +10,16 @@ layout: default
 
 # Web Mapping with Python and Leaflet
 
-### Learning Objectives
+## Learning Objectives
 
 In this lesson, you will learn how to create a web map based on that data.  By the end of this lesson, you will be able to:
 * Manipulate tabular data programmatically to extract geonames and create location-based data
 * Convert tabular data into a meaningful geographic data structure
 * Understand and apply the basic concepts of web mapping to design your own web map
 
-### Getting Started
+## Getting Started
+
+### Initial Setup
 
 This lesson uses:
 
@@ -26,7 +28,7 @@ This lesson uses:
 - geojson.io (from mapbox)
 - javascript and jquery
 
-Optional: If you wish to follow along with pre-made scripts you can download them ** TO FIX: ADD LINK HERE WHEN LESSON IS ACCEPTED **
+Optional: If you wish to follow along with pre-made scripts you can download them **TO FIX: ADD LINK HERE WHEN LESSON IS COMPLETE**
 
 To set up your working environment:
 1. Create a directory for this project where you will keep all of your scripts and files that you will work from
@@ -35,6 +37,7 @@ If you are using a code editor such as Sublime Text, to import the folder you co
 3. Recommended http://docs.python-guide.org/en/latest/dev/virtualenvs/ (Should I talk about virtualenvs?) **TO FIX: talk about virtualenvs?**
 
 ### Getting Data: Download the CSV
+
 We're going to start with a plain comma-separated values (CSV) data file and create a web map from it.
 
 The data file can be downloaded here: https://raw.githubusercontent.com/programminghistorian/jekyll/tree/gh-pages/assets/webmap-tutorial-files/census-historic-population-borough.csv. You can grab this by either opening the link in your browser and saving the page, or you can use the curl command from your command line:
@@ -44,6 +47,8 @@ The data file can be downloaded here: https://raw.githubusercontent.com/programm
 ```curl  https://raw.githubusercontent.com/programminghistorian/jekyll/tree/gh-pages/assets/webmap-tutorial-files/census-historic-population-borough.csv > census-historic-population-borough.csv ```
 
 The original source of this data is from the [Greater London Authority London Datastore](http://data.london.gov.uk/dataset/historic-census-population).
+
+## Geocoding with Python
 
 ### Geocode the placenames in the CSV using Geopy, Pandas
 
@@ -281,13 +286,15 @@ The error will look like this if you use the Nominatim geocoder:
 
 ```geopy.exc.GeocoderTimedOut: Service timed out```
 
+## Transforming Data with Python
+
 ### Making GeoJSON
 
 Now that you have a spreadsheet full of coordinate data, we can convert the CSV spreadsheet into a format that web maps like, like GeoJSON.  GeoJSON is a web mapping standard of JSON data.  There are a couple of ways to make GeoJSON:
 
 The easiest, recommended way is to use a UI tool developed by Mapbox: http://geojson.io.  All you have to do is click and drag your csv file into the data window (the right side of the screen, next to the map), and it will automatically format your data into GeoJSON for you. You can select the 'GeoJSON' option under 'Save.'  Save your GeoJSON file as 'census.geojson'.
 
-![Image: Adding data to geojson.io](images/webmap-01-geojsonio.gif "Drag and Drop GeoJSON creation!")
+![Image: Adding data to geojson.io](../images/webmap-01-geojsonio.gif "Drag and Drop GeoJSON creation!")
 
 {% include figure.html src="../images/webmap-01-geojsonio.gif" caption="Adding data to geojson.io" %}
 
@@ -305,7 +312,7 @@ If you've tested your GeoJSON data, you might notice that not every point is geo
 
 To make the results more accurate, you should save another copy of the census-historic-population-borough.csv file and include an additional column called 'Country' and put 'United Kingdom' in every row of your data. For even greater accuracy add 'City' and put 'London' in every row of your data to provide additional context for your data.
 
-![Image: Adding a Country Column](images/webmap-02-countrycolumn.png "A new Country column")
+![Image: Adding a Country Column](../images/webmap-02-countrycolumn.png "A new Country column")
 
 {% include figure.html src="../images/webmap-02-countrycolumn.png" caption="Add a new Country column to your spreadsheet" %}
 
@@ -324,6 +331,8 @@ Now change your python script to combine the Area_Name and Country or City colum
 df['newcol'] = df['col1'].map(str) + df['col2'].map(str)
 
 Turn your clean data into GeoJSON by saving it as census.geojson and test it out in http://geojson.io.  Do the results look better now?  Good!
+
+## Using Leaflet to Create a Web Map
 
 ### I now have good GeoJSON data.  Lets make a map!
 
@@ -397,7 +406,7 @@ Do you see a map now?  Good! If not, you can troubleshoot by inspecting the brow
 
 ### OK WHAT did I just make?
 
-You made a web map!  Web maps use map tiles, which are pixel based images (rasters) of maps that contain geographical data. This means that each pixel of a map tile has been georeferenced, or assigned a coordinate based on the location that they represent.  When you zoom in and out of a web map, you are getting a whole new set of tiles to display at each zoom level. GeoJSON (which you are now familiar with) is a widely used data standard for web mapping.  In our example, we are using an open-source Javascript library called [Leaflet](http://leafletjs.com/reference.html) to help us build our web map.  With frameworks like Leaflet or Google Maps Javascript API, you're not building a map completely from scratch, rather, you're using pre-written functions and controls that helps you customize your own map in code.
+You made a web map!  Web maps use map tiles, which are pixel based images (rasters) of maps that contain geographical data. This means that each pixel of a map tile has been georeferenced, or assigned a coordinate based on the location that they represent.  When you zoom in and out of a web map, you are getting a whole new set of tiles to display at each zoom level. GeoJSON (which you are now familiar with) is a widely used data standard for web mapping.  In our example, we are using an open-source Javascript library called [Leaflet](http://leafletjs.com/reference.html) to help us build our web map.  With frameworks like Leaflet or Google Maps Javascript API, you're not building a map completely from scratch, rather, you're using pre-written functions and controls that helps you customize your own map in code. **TO FIX: MAKE LEAFLET LESS UNDERWHELMING EXPLAIN OPEN SOURCE SO HAVE ACCESS TO YOUR MAP AND DATA**
 
 Lets go through what each part of the code is doing. But first, it's best practice to maintain your html, css, js in different files so that the web map's content, presentation and behaviour layers are kept separate (though it's not always possible). This adds a bit more structure to your code, making it easier for you and others to understand. It will be easier to focus on certain parts of the code when you're going back and making changes. So here is our code split into three files:
 
@@ -527,8 +536,8 @@ Next, we're loading our data as another map layer, census.geojson.  This data wi
 ```
 Now we're creating the view for our map.  The boundary for our map will be based on the range of our data points in census.geojson.  You can also manually set your your viewport by using the [setView property](http://leafletjs.com/reference.html#map-set-methods). For example, if you're using .setView([0.0,-10.0], 2), the viewport coordinates '[0.0,-10.0], 2' means that you're setting the centre of the map to be 0.0, -10.0 and at a zoom level of 2.
 
-![Image: Web Map](images/webmap-03-result.jpg "My Web Map")
-{% include figure.html src="…/images/webmap-03-result.jpg" caption=“Final Result: Your Web Map!” %}
+![Image: Web Map](../images/webmap-03-result.jpg "My Web Map")
+{% include figure.html src="../images/webmap-03-result.jpg" caption=“Final Result: Your Web Map!” %}
 
 
 
@@ -545,9 +554,9 @@ Change the data source to stations.geojson.
 
 ### Exercise 4
 Change your data source back to census.geojson. Change your basemap layer to a mapbox tileset.  You need to get a Mapbox account, create a map or style and get your Mapbox API access token.
-![Image: Mapbox](images/webmap-04-mapboxAPI.png "Mapbox API")
+![Image: Mapbox](../images/webmap-04-mapboxAPI.png "Mapbox API")
 
-{% include figure.html src="…/images/webmap-04-mapboxAPI.png" caption=“Final Result: Your Web Map!” %}
+{% include figure.html src="../images/webmap-04-mapboxAPI.png" caption=“Final Result: Your Web Map!” %}
 
 ### Exercise 5
 Add a custom leaf icon, found in the images folder. Or use your own!
@@ -585,9 +594,9 @@ window.onload = function () {
 
 };
 ```
-![Image: Exercise 01 Answer](images/webmap-05-exercise01.jpg "Exercise 01")
+![Image: Exercise 01 Answer](../images/webmap-05-exercise01.jpg "Exercise 01")
 
-{% include figure.html src="…/images/webmap-05-exercise01.jpg" caption=“Exercise 01 Map Result” %}
+{% include figure.html src="../images/webmap-05-exercise01.jpg" caption=“Exercise 01 Map Result” %}
 
 ### Exercise 2 Answer
 
@@ -624,9 +633,9 @@ window.onload = function () {
 };
 
 ```
-![Image: Exercise 02 Answer](images/webmap-06-exercise02.jpg "Exercise 02")
+![Image: Exercise 02 Answer](../images/webmap-06-exercise02.jpg "Exercise 02")
 
-{% include figure.html src="…/images/webmap-06-exercise02.jpg" caption=“Exercise 02 Map Result” %}
+{% include figure.html src="../images/webmap-06-exercise02.jpg" caption=“Exercise 02 Map Result” %}
 
 ### Exercise 3 Answer
 
@@ -663,9 +672,9 @@ window.onload = function () {
 
 };
 ```
-![Image: Exercise 03 Answer](images/webmap-07-exercise03.jpg "Exercise 03")
+![Image: Exercise 03 Answer](../images/webmap-07-exercise03.jpg "Exercise 03")
 
-{% include figure.html src="…/images/webmap-07-exercise03.jpg" caption=“Exercise 03 Map Result” %}
+{% include figure.html src="../images/webmap-07-exercise03.jpg" caption=“Exercise 03 Map Result” %}
 
 ### Exercise 4 Answer
 
@@ -725,7 +734,7 @@ window.onload = function () {
 ```
 ![Image: Exercise 04 Answer](../images/webmap-08-exercise04.jpg "Exercise 04")
 
-{% include figure.html src="…/images/webmap-08-exercise04.jpg" caption=“Exercise 04 Map Result” %}
+{% include figure.html src="../images/webmap-08-exercise04.jpg" caption=“Exercise 04 Map Result” %}
 
 ### Exercise 5 Answer
 
@@ -777,11 +786,12 @@ window.onload = function () {
 
 };
 ```
-![Image: Exercise 05 Answer](images/webmap-09-exercise05.jpg "Exercise 05")
+![Image: Exercise 05 Answer](../images/webmap-09-exercise05.jpg "Exercise 05")
 
-{% include figure.html src="…/images/webmap-09-exercise05.jpg" caption=“Exercise 05 Map Result” %}
+{% include figure.html src="../images/webmap-09-exercise05.jpg" caption=“Exercise 05 Map Result” %}
 
 ### Ideas to explore
+**TO FIX: NEED TO ADD MORE SO LEAFLET SEEMS LESS UNDERWHELMING**
 - Try other plugins and APIs.  There's Stamen, CartoDB, MarkerCluster, and more
 - Try time based visualizations
 - Use other types of data and geometries.  For instance, county boundaries, https://github.com/martinjc/UK-GeoJSON
