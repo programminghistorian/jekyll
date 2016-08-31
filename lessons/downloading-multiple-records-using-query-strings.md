@@ -12,8 +12,19 @@ previous: output-keywords-in-context-in-html-file
 difficulty: 2
 ---
 
-Module Goals
-------------
+## WARNING - Technical issues with Old Bailey Online website
+
+As of August 2016, the Old Bailey Online experienced some issues that are currently being resolved
+by their project team. One of those issues includes the temporary suspension of
+the advanced search features which are used as the basis of this tutorial.
+
+While those fixes are underway the example in this tutorial will not work properly.
+
+You can still read through to build an understanding of how this process works, without actually
+running the working code. We apologise for this problem. If you notice that it has been rectified and we
+have not yet updated this tutorial or removed this notice, [please let us know!](http://programminghistorian.org/feedback)
+
+## Module Goals
 
 Downloading a single record from a website is easy, but downloading many
 records at a time – an increasingly frequent need for a historian – is
@@ -25,8 +36,7 @@ and manipulating URL *Query Strings*. In this case, the tutorial will seek
 to download sources that contain references to people of African descent
 that were published in the *Old Bailey Proceedings* between 1700 and 1750.
 
-For Whom is this Useful?
-------------------------
+## For Whom is this Useful?
 
 Automating the process of downloading records from an online database
 will be useful for anyone who works with historical sources that are
@@ -47,8 +57,7 @@ keep a backup copy so you can access them without Internet access.
 
 This lesson is for intermediate Python users. If you have not already tried the [Python Programming Basics][] lessons, you may find that a useful starting point.
 
-Applying our Historical Knowledge
----------------------------------
+## Applying our Historical Knowledge
 
 In this lesson, we are trying to create our own corpus of cases related
 to people of African descent. From [Benjamin Bowsey’s case][] at the Old Bailey in 1780, we might note that “black” can be a useful keyword for us to use for locating other
@@ -76,8 +85,7 @@ that may be black. We want to download them all to use in our analysis.
 We could, of course, download them one at a time, manually. But let’s
 find a programmatic way to automate this task.
 
-The Advanced Search on OBO
---------------------------
+## The Advanced Search on OBO
 
 Every website’s search features work differently. While searches work
 similarly, the intricacies of database searches may not be entirely
@@ -116,8 +124,7 @@ becomes that much more valuable. To automate the download process, we
 need to step back and learn how the search URLs are created on the Old
 Bailey website, a method common to many online databases and websites.
 
-Understanding URL Queries
--------------------------
+## Understanding URL Queries
 
 Take a look at the URL produced with the last search results page. It
 should look like this:
@@ -192,8 +199,7 @@ which entry should be shown at the top of the search results list. We
 should be able to use this knowledge to create a series of URLs that
 will allow us to download all 13 files. Let’s turn to that now.
 
-Systematically Downloading Files
---------------------------------
+## Systematically Downloading Files
 
 In [Working with Webpages][] we learned that Python can download a
 webpage as long as we have the URL. In that lesson we used the URL to
@@ -323,7 +329,7 @@ on, we will use the word Terminal to refer to this program).
 ``` python
 entries = 13
 pageCount = entries / 10
-print pageCount
+print(pageCount)
 -> 1
 ```
 
@@ -359,7 +365,7 @@ tab so that it is all enclosed in the for loop:
 
 ``` python
 for pages in range(1, pageCount+1):
-    print pages
+    print(pages)
 ```
 
 Since this is a for loop, all of the code we want to run repeatedly
@@ -379,7 +385,7 @@ writing for loops, you can open your Terminal and play around.
 ``` python
 pageCount = 2
 for pages in range(1, pageCount+1):
-    print pages
+    print(pages)
 
 -> 1
 -> 2
@@ -729,7 +735,7 @@ def getIndivTrials(query):
     cleanQuery = re.sub(r'\W+', '', query)
     searchResults = os.listdir(cleanQuery)
 
-    print searchResults
+    print(searchResults)
 ```
 
 Create and run a new program called `extract-trial-ids.py` with the
@@ -783,7 +789,7 @@ that will download the desired trials.
                     #isolate the id
                     urls.append(words[words.find("id=") +3: words.find("&")])
 
-    print urls
+    print(urls)
 ```
 
 That last line of the for loop may look tricky, but make sure you
@@ -1173,8 +1179,7 @@ def newDir(newDir):
         os.makedirs(dir)
 ```
 
-Further Reading
----------------
+## Further Reading
 
 For more advanced users, or to become a more advanced user, you may find
 it worthwhile to read about achieving this same process using
@@ -1206,6 +1211,3 @@ helpful:
   [time out]: http://www.checkupdown.com/status/E408.html
   [Python Programming Basics]: http://programminghistorian.org/lessons/introduction-and-installation
   [try / except]: http://docs.python.org/tutorial/errors.html
-  []: ../images/SearchResultsNegro.png "SearchResultsNegro"
-  [1]: ../images/SearchResultsMulatto.png "SearchResultsMulatto"
-  [2]: ../images/AdvancedSearchExample.png "AdvancedSearchExample"
