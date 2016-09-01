@@ -12,8 +12,15 @@ layout: default
 difficulty: 3
 ---
 
-Introduction
-------------
+# WARNING - Technical issues with Old Bailey Online website
+
+As of August 2016, the Old Bailey Online experienced some issues that are currently being resolved by their project team. One of those issues includes the temporary suspension of the API which are used as the basis of this tutorial.
+
+While those fixes are underway the example in this tutorial will not work properly.
+
+You can still read through to build an understanding of how this process works, without actually running the working code. We apologise for this problem. If you notice that it has been rectified and we have not yet updated this tutorial or removed this notice, please let us know!
+
+## Introduction
 
 A few years back, William Turkel wrote a series of blog posts called [A
 Naive Bayesian in the Old Bailey][], which showed how one could use 
@@ -79,8 +86,7 @@ of the part where we actually begin to code.
 installations, except for [BeautifulSoup][] (used in the data creation step, 
 not in the learner code itself).*
 
-The Old Bailey Digital Archive
-------------------------------
+## The Old Bailey Digital Archive
 
 The [Old Bailey digital archive](http://www.oldbaileyonline.org/)
 contains 197,745 criminal trials held at the Old Bailey, aka the Central
@@ -110,8 +116,7 @@ Old Bailey documents. That, in turn, helps us decide how (or whether) a
 learner could help us explore other digital document collections, most
 of which are not as richly annotated.
 
-Machine learning
-----------------
+## Machine learning
 
 Machine learning can mean a lot of different things, but the most common
 tasks are [classification][] and [clustering][].
