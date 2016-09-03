@@ -1,3 +1,7 @@
+---
+title: Project Research
+layout: blank
+---
 
 ## Project Scholarship
 
