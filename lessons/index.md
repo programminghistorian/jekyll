@@ -87,6 +87,13 @@ Data Manipulation
 Just like it sounds, learn how to use programming to change, move, clean, or count data. These are essential techniques for preparing data to be used with various tools.
 
 <ul class="lesson-images">
+    <li>
+    <a href="../lessons/r-basics-with-tabular-data">
+      <img src="../gallery/r-basics-with-tabular-data.png">
+      <h3>R Basics with Tabular Data</h3>
+      <p>Taryn Dewar</p>
+    </a>
+  </li>
   <li>
     <a href="../lessons/intro-to-bash">
       <img src="../gallery/intro-to-bash.png">
