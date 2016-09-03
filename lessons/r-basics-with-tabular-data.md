@@ -97,9 +97,9 @@ R can do more than just simple arithmetic. You can create [objects](https://en.w
 [1] 112
 ```
 
-R is case sensitive, so be careful that you use the same notation when you use the variables you have assigned (or named) in other actions. See Rasmus Bååth's article, [The State of Naming Conventions in R](https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Baaaath.pdf), for more information on how to best name variables.
+R is case sensitive, so be careful that you use the same notation when you use the variables you have assigned (or named) in other actions. See Rasmus B√•√•th's article, [The State of Naming Conventions in R](https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Baaaath.pdf), for more information on how to best name variables.
 
-To remove a variable from the console, type `rm()` with the variable you want to get rid of inside the brackets, and press *Enter*. To see all of the variables you have assigned, type `ls()` into the console and press *Enter* – this will help you avoid using the same name for multiple variables. This is also important because R stores all of the objects you create in its memory, so even if you cannot see a variable named `x` in the console, it may have been created before and you could accidentally overwrite it when assigning another variable.
+To remove a variable from the console, type `rm()` with the variable you want to get rid of inside the brackets, and press *Enter*. To see all of the variables you have assigned, type `ls()` into the console and press *Enter* √ê this will help you avoid using the same name for multiple variables. This is also important because R stores all of the objects you create in its memory, so even if you cannot see a variable named `x` in the console, it may have been created before and you could accidentally overwrite it when assigning another variable.
 
 Here is the list of variables we have created so far:
 
@@ -488,7 +488,7 @@ After the `read_excel` command, you are entering the name of the file you are se
 
 When you are loading data into R, make sure that the file you are accessing is within the directory on your computer that you are working from. To check this, you can type `dir()` into the console or `getwd()`. You can change the directory if needed by going under the 'Miscellaneous' tab in the title bar on your screen and then selecting what you want to set as the directory for R. If you don't do this R will not be able to find the file properly.
 
-Another way to load data into R is to use a CSV file. A [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) (comma separated value) file will show the values in rows and columns and separates those values with a comma. You can save any document you create in Excel as a .csv file and then load it into R. To use a CSV file in R, assign a name to the file using the `<-` command and then type `read.csv(file=”file-name.csv”,header=TRUE,sep=”,”)` into the console. `file-name` tells R which file to select, while setting the header to `TRUE` says that the first row are headings and not variables. `sep` means that there is a comma between every number and line. 
+Another way to load data into R is to use a CSV file. A [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) (comma separated value) file will show the values in rows and columns and separates those values with a comma. You can save any document you create in Excel as a .csv file and then load it into R. To use a CSV file in R, assign a name to the file using the `<-` command and then type `read.csv(file=√ìfile-name.csv√ì,header=TRUE,sep=√ì,√ì)` into the console. `file-name` tells R which file to select, while setting the header to `TRUE` says that the first row are headings and not variables. `sep` means that there is a comma between every number and line. 
 
 Normally, a CSV could have quite a bit of information in it. To start though, try creating a CSV file in Excel using the Old Bailey data we were using for the matrices. Set up columns for the dates between 1710 and 1730 as well as the number of Breaking the Peace and Killing crimes recorded for those decades. Save the file as "OldBailey.csv" and try loading it into R using the above steps. You will see:
 
@@ -527,4 +527,4 @@ There are also a number of other R tutorials online including:
 Finally, a great resource for digital historians is Lincoln Mullen's [Digital History Methods in R](http://lincolnmullen.com/projects/dh-r/). It is a draft of a book written specifically on how to use R for digital history work.
 
 [^1]: Box, G. E. P., Jenkins, G. M. and Reinsel, G. C. (1976) Time Series Analysis, Forecasting and Control. Third Edition. Holden-Day. Series G.
-[^2]: Henderson and Velleman (1981), Building multiple regression models interactively. Biometrics, 37, 391–411.
+[^2]: Henderson and Velleman (1981), Building multiple regression models interactively. Biometrics, 37, 391√ê411.
