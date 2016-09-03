@@ -526,5 +526,7 @@ There are also a number of other R tutorials online including:
 
 Finally, a great resource for digital historians is Lincoln Mullen's [Digital History Methods in R](http://lincolnmullen.com/projects/dh-r/). It is a draft of a book written specifically on how to use R for digital history work.
 
+## Endnotes
+
 [^1]: Box, G. E. P., Jenkins, G. M. and Reinsel, G. C. (1976) Time Series Analysis, Forecasting and Control. Third Edition. Holden-Day. Series G.
 [^2]: Henderson and Velleman (1981), Building multiple regression models interactively. Biometrics, 37, 391Ð411.
