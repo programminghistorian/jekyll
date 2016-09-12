@@ -462,6 +462,8 @@ ORDER BY DESC(?n)
 
 ## Linking multiple SPARQL endpoints
 
+**2016-09-12: Unfortunately, Europeana has suspended their SPARQL endpoint until further notice, so the links in the following section are no longer operative.**
+
 Up until now, we have constructed queries that look for patterns in one dataset
 alone. In the ideal world envisioned by Linked Open Data advocates, multiple
 databases can be interlinked to allow very complex queries dependent on
