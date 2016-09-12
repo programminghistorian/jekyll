@@ -601,8 +601,8 @@ searching, or doing other mathematical operations more complex than counting.
 For a more complete rundown of the commands available in SPARQL, see these
 links:
 
-- [How to SPARQL](http://rdf.myexperiment.org/howtosparql?)
 - [Wikibooks SPARQL tutorial](http://en.wikibooks.org/wiki/XQuery/SPARQL_Tutorial)
+- [Full W3C Overview of SPARQL](https://www.w3.org/TR/sparql11-overview/)
 
 Both the Europeana and Getty Vocabularies LOD sites also offer extensive, and
 quite complex example queries which can be good sources for understanding how to
