@@ -139,9 +139,9 @@ a sample distribution, to create its topic models. MALLET requires
 using the command line – we'll talk about that more in a moment,
 although you typically use the same few commands over and over.
 
-While there is currently a preview release of MALLET 2.0.8 available, this
+**While there is currently a preview release of MALLET 2.0.8 available, this
 lesson uses the official release of MALLET 2.0.7. If you are following
-along with our instructions, please be sure to download the correct version.
+along with our instructions, please be sure to download the correct version.**
 
 The installation instructions are different for Windows and Mac. Follow
 the instructions appropriate for you below:
@@ -346,11 +346,10 @@ below import the directory, turn it into a MALLET file, keep the
 original texts in the order in which they were listed, and strip out the
 *stop words* (words such as *and*, *the*, *but*, and *if* that occur in
 such frequencies that they obstruct analysis) using the default English
-`stop-words` dictionary. Try the following (swapping in the correct
-pathway to the sample data).
+`stop-words` dictionary. Try the following, which will use sample data.
 
 ``` 
-bin\mallet import-dir --input pathway\to\the\directory\with\the\files --output tutorial.mallet --keep-sequence --remove-stopwords
+bin\mallet import-dir --input sample-data\web\en --output tutorial.mallet --keep-sequence --remove-stopwords
 ```
 
 If you type `dir` now (or `ls` for Mac), you will find a file called
@@ -358,6 +357,16 @@ If you type `dir` now (or `ls` for Mac), you will find a file called
 up key on your keyboard to recall the last command you typed, and look
 carefully for typos). This file now contains all of your data, in a
 format that MALLET can work with.
+
+Try running it again now with different data. For example, let's imagine we wanted to use the German sample data instead. We would use:
+
+``` 
+bin\mallet import-dir --input sample-data\web\de --output tutorial.mallet --keep-sequence --remove-stopwords
+```
+
+And then finally, you could use your own data. Change `sample-data\web\de` to a directory that contains your own research files. Good luck!
+
+If you are unsure how directories work, we suggest the *Programming Historian* lesson ["Introduction to the Bash Command Line"](http://programminghistorian.org/lessons/intro-to-bash). 
 
 ### For Mac
 
