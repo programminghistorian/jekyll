@@ -57,7 +57,7 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 {% include contact-info.html name="Jeri Wieringa" %}
 
 
-<h2>Emeritus Team Members</h2>
+## Emeritus Team Members
 
 {% include contact-info.html name="Jeremy Boggs" %}
 
@@ -70,20 +70,21 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 {% include contact-info.html name="William J. Turkel" %}
 
 
-<h2>Community Participants</h2>
+## Community Participants
 
-<p><em>Programming Historian</em> also benefits enormously from the efforts of
+*Programming Historian* also benefits enormously from the efforts of
 people who volunteer their time and energy. If you are interested in
 pitching in, either for a single project or in an ongoing role, please
-find out <a href="http://programminghistorian.org/contribute">how to contribute!</a></p>
+find out [how to contribute](../contribute)!
 
-<p>We are especially grateful to the dedicated Programming Historian authors who are not members of the Project Team:</p> 
+We are especially grateful to the dedicated Programming Historian authors who are not members of the Project Team: 
 
-<p>{% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about <a href="http://programminghistorian.org/new-lesson-workflow">becoming an author</a>.</p>
+{% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](../new-lesson-workflow).
 
-<p>We also thank everyone who has helped to review lessons by reporting issues,
+We also thank everyone who has helped to review lessons by reporting issues,
 fixing errors, or conducting formal peer reviews. At the time of writing, this
-has included the following people:</p>
+has included the following people: 
 
-<p>{% for reviewer in site.data.reviewers %}
-{{reviewer}},{% endfor %} and, hopefully, you! <a href="http://programminghistorian.org/contribute">Find out more about how to contribute...</a></p>
+{% for reviewer in site.data.reviewers %}
+{{reviewer}},{% endfor %} and, hopefully, you! Find out more about [how to
+contribute](../contribute).
