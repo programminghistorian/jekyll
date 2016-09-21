@@ -20,6 +20,12 @@ There are many avenues for researching the evolution of  exclusion in American i
 
 As a first foray into distant reading, instructors might encourage students to pick one annual report and run it through [Voyant Tools](http://voyant-tools.org/). For example, a group of students could plug in the U.S. Department of Labor’s Annual Report on Immigration for the year 1910 and do a group think on the document’s major word frequencies. 
 
+<figure>
+<a href="./images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png">
+        <img src="./images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png" alt="" />
+    </a>
+</figure>
+
 They might not be surprised, for example, that the words “immigration,” “united,” and “states” are some of the most recurring words in the document. 
 
 But what about the word “alien”? Students might discuss what the frequency of this word suggests about how government officials were thinking about immigrants at the time. 
