@@ -22,7 +22,7 @@ As a first foray into distant reading, instructors might encourage students to p
 
 <figure>
 <a href="./images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png">
-        <img src="./images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png" alt="" />
+        <img src="./images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png" alt="Test" />
     </a>
 </figure>
 
