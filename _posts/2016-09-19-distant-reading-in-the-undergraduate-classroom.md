@@ -24,6 +24,13 @@ As a first foray into distant reading, instructors might encourage students to p
 <a href="../images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png">
         <img src="../images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png" alt="" />
     </a>
+</figure><figure>
+<a href="../images/distant-reading-in-the-undergraduate-classroom/distant-reading-02.png">
+        <img src="../images/distant-reading-in-the-undergraduate-classroom/distant-reading-02.png" alt="Screenshots of a distant reading of the US Department of Labor’s Annual Report on Immigration, 1910, conducted with [VoyantTools.org](http://voyant-tools.org/)." />
+    </a>
+    <figcaption>
+    <p>Screenshots of a distant reading of the US Department of Labor’s Annual Report on Immigration, 1910, conducted with [VoyantTools.org](http://voyant-tools.org/).</p>
+</figcaption>
 </figure>
 
 They might not be surprised, for example, that the words “immigration,” “united,” and “states” are some of the most recurring words in the document. 
