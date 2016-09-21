@@ -21,12 +21,16 @@ There are many avenues for researching the evolution of  exclusion in American i
 As a first foray into distant reading, instructors might encourage students to pick one annual report and run it through [Voyant Tools](http://voyant-tools.org/). For example, a group of students could plug in the U.S. Department of Labor’s Annual Report on Immigration for the year 1910 and do a group think on the document’s major word frequencies. 
 
 <figure>
-<a href="https://github.com/programminghistorian/jekyll/tree/gh-pages/images//distant-reading-in-the-undergraduate-classroom/distant-reading-01.png">
-		<img src="https://github.com/programminghistorian/jekyll/tree/gh-pages/images//distant-reading-in-the-undergraduate-classroom/distant-reading-01.png" alt="" />
-	</a>
+<a href="./images/distant-reading-01.png">
+        <img src="./images/distant-reading-01.png" alt="" />
+    </a>
 </figure>
 
-{% include figure.html filename="distant-reading-02.png" caption="Screenshots of a distant reading of the US Department of Labor’s Annual Report on Immigration, 1910, conducted with [VoyantTools.org](http://voyant-tools.org/)" %}
+<figure>
+<a href="./images/distant-reading-02.png">
+        <img src="./images/distant-reading-02.png" alt="Screenshots of a distant reading of the US Department of Labor’s Annual Report on Immigration, 1910, conducted with [VoyantTools.org](http://voyant-tools.org/)"/>
+    </a>
+</figure>
 
 They might not be surprised, for example, that the words “immigration,” “united,” and “states” are some of the most recurring words in the document. 
 
