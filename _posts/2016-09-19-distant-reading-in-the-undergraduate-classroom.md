@@ -29,7 +29,7 @@ As a first foray into distant reading, instructors might encourage students to p
         <img src="../images/distant-reading-in-the-undergraduate-classroom/distant-reading-02.png" alt="" />
     </a>
     <figcaption>
-    <p>Screenshots of a distant reading of the US Department of Labor’s Annual Report on Immigration, 1910, conducted with <a href="http://voyant-tools.org/">VoyantTools.org</a>."</p>
+    <p>Screenshots of a distant reading of the US Department of Labor’s Annual Report on Immigration, 1910, conducted with <a href="http://voyant-tools.org/">VoyantTools.org</a>.</p>
 </figcaption>
 </figure>
 
