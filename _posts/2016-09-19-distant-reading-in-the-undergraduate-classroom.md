@@ -1,5 +1,5 @@
 ---
-title: "#TeachingWithDH: Distant Reading in the Undergraduate Classroom"
+title: "#teachDH: Distant Reading in the Undergraduate Classroom"
 authors: 
 - Evan Taparata 
 avatars: Evan-Taparata.png
