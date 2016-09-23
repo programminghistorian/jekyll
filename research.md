@@ -14,7 +14,7 @@ The project team and members of the wider community are involved in a number of 
 
 ### Published Research
 
-* Adam Crymble, ['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian'](http://researchprofiles.herts.ac.uk/portal/files/10476604/Blip_2016_Autumn_2016_Final_Autumn_2016.pdf), _Blended Learning in Practice_, (2016), 49-60.
+* Adam Crymble, ['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian'](http://researchprofiles.herts.ac.uk/portal/files/10476604/Blip_2016_Autumn_2016_Final_Autumn_2016.pdf), _Blended Learning in Practice_, (2016), 49-60. {['pre-print pdf'](http://programminghistorian.org/research/openLearningCommunities2016.pdf)}
 * Fred Gibbs, ['Editorial Sustainability and Open Peer Review at Programming Historian',](http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian) _DH Commons_, Vol. 1 (2015).
 
 ### Events, Posters, & Presentations
