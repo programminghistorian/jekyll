@@ -45,7 +45,7 @@ The possibilities for coming up with questions about primary sources through dis
 
 As [Ted Underwood notes](http://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/), topic modeling may be especially useful for individuals who are approaching a set of texts without a particular research question in mind. Distant reading is a great way for students in particular to begin analyzing historical documents — and could also be a great way for students to start coming up with questions for research papers that will allow them to practice close readings of primary sources and further develop their digital research skills. 
 
-Have you taught with distant reading, or used a PH tutorial on distant reading in your classroom? Let us know! Tweet @ProgHist with the hashtag #TeachingWithDH and share your experiences with us. 
+Have you taught with distant reading, or used a PH tutorial on distant reading in your classroom? Let us know! Tweet @ProgHist with the hashtag #teachDH and share your experiences with us. 
 
 
 
