@@ -245,7 +245,7 @@ We'll start with a single file of OCR output. We will iteratively generate new, 
 
 The code in this tutorial is highly edited; it is __not__ comprehensive. As you continue to refine your input files, you will write lots of little *ad hoc* scripts to check on the efficacy of what you've done so far. Versioning will ensure that such experimentation will not destroy any progress that you've made.
 
-##<a name="deployment"></a> A note on how to deploy the code in this tutorial:
+## <a name="deployment"></a> A note on how to deploy the code in this tutorial:
 The code in this tutorial is for Python 2.7.x, Python 3 is quite a different animal.
 
 When you write code in a text file and then execute it, either at the command line, or from within your text editor or IDE, the Python interpreter executes the code line by line, from top to bottom. So, often the code on the bottom of the page will depend on code above it.
@@ -381,7 +381,7 @@ heredum meorum contradicione. Actum in capitulo .MCLV., mensis iulii, indicione 
 
 Note that for many of the following operations, we will use `GScriba = fin.readlines()` so `GScriba` will be a __python list__ of the lines in our input text. Keep this firmly in mind, as the `for` loops that we will use will depend on the fact that we will iterate through the lines of our text __In Document Order__.
 
-##<a name="charters"></a> Chunk up the text by charter (or sections, or letters, or what-have-you)
+## <a name="charters"></a> Chunk up the text by charter (or sections, or letters, or what-have-you)
 
 The most important functional divisions in our text are signaled by upper case roman numerals on a separate line for each of the charters. So we need a regex to find roman numerals like that. Here's one: `romstr = re.compile("\s*[IVXLCDM]{2,}")`. We'll put it at the top of our module file as a 'global' variable so it will be available to any of the bits of code that come later.
 
@@ -618,7 +618,7 @@ Now that we've cleaned up enough of the OCR that we can successfully differentia
 
 We have a number of things to do: correctly number each charter as to charter number, folio, and page; separate out the Italian summary and the marginal notation lines; and associate the footnote texts with their appropriate charter. To do all this, sometimes it is convenient to make more than one pass.
 
-##<a name="first-pass"></a> Create a skeleton dictionary.
+## <a name="first-pass"></a> Create a skeleton dictionary.
 
 We'll start by generating a python dictionary whose keys are the charter numbers, and whose values are a nested dictionary that has fields for some of the metadata we want to store for each charter. So it will have the form:
 
@@ -813,7 +813,7 @@ Note that the `try: except:` blocks come to the rescue again here. The loop abov
 
 > NOTA BENE: Again, bear in mind that we are modifying a data structure in memory rather than editing successive text files. So this loop should be __added__ to your script __below__ the summary and marginal loop, which is __below__ the loop that created your skeleton dictionary.
 
-##<a name="fourth-pass"></a> Parse Dates and add to the dictionary
+## <a name="fourth-pass"></a> Parse Dates and add to the dictionary
 Dates are hard. Students of British history cling to [Cheyney](http://www.worldcat.org/oclc/41238508) as to a spar on a troubled ocean. And, given the way the Gregorian calendar was adopted so gradually, and innumerable other local variations, correct date reckoning for medieval sources will always require care and local knowledge. Nevertheless, here too Python can be of some help.
 
 Our Italian summary line invariably contains a date drawn from the text, and it's conveniently set off from the rest of the line by parentheses. So we can parse them and create Python `date` objects. Then, if we want, we can do some simple calendar arithmetic.
