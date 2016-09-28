@@ -284,6 +284,7 @@ charters = dict()
 
 # followed by the 4 'for' loops in section 2 that will populate and then modify this dictionary
 ```
+
 ## <a name="pages"></a> Chunk up the text by pages
 
 First of all, we want to find all the page headers, both *recto* and *verso* and replace them with consistent strings that we can easily find with a regular expression. The following code looks for lines that are similar to what we know are our page headers to within a certain threshold. It will take some experimentation to find what this threshold is for your text. Since my *recto* and *verso* headers are roughly the same length, both have the same similarity score of 26.
