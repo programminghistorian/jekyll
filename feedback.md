@@ -17,7 +17,7 @@ There are several easy ways that you can provide your feedback:
 
 ## Option 1: Email or Tweet
 
-Contact <a href="mailto:i2millig@uwaterloo.ca">Ian Milligan</a> at the University of Waterloo or one of the other members of our [Project Team](./project-team.html). 
+Contact <a href="mailto:jeri.elizabeth%2Bproghist@gmail.com">Jeri Wieringa</a> at George Mason University or one of the other members of our [Project Team](./project-team.html). 
 
 You can also find us on Twitter at [@ProgHist](https://twitter.com/proghist).
 
