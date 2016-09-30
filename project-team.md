@@ -3,7 +3,7 @@ title: Project Team
 layout: directory
 ---
 
-Our editorial team works together to help authors produce high quality tutorials. Please direct correspondence in the first instance to Ian Milligan at the University of Waterloo who is the acting commissioning editor.
+Our editorial team works together to help authors produce high quality tutorials. Please direct correspondence in the first instance to Jeri Wieringa at George Mason Universiy who is the acting commissioning editor.
 
 ## Editorial Board
 
