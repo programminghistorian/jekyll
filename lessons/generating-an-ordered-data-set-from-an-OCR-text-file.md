@@ -612,7 +612,7 @@ As before, run this script repeatedly, correcting your input file manually as yo
 Our text file still has lots of OCR errors in it, but we have now gone through it and found and corrected all the specific metadata bits that we want in our ordered data set. Now we can use our corrected text file to build a Python dictionary.
 
 
-#<a name="dictionary"></a> Creating the Dictionary
+# <a name="dictionary"></a> Creating the Dictionary
 
 Now that we've cleaned up enough of the OCR that we can successfully differentiate the component parts of the page from each other, we can now sort the various bits of the meta-data, and the charter text itself, into their own separate fields of a Python dictionary.
 
