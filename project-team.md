@@ -61,16 +61,11 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 
 ## Emeritus Team Members
 
-{% include contact-info.html name="Jeremy Boggs" %}
-
-{% include contact-info.html name="Alan MacEachern" %}
-
-{% include contact-info.html name="Miriam Posner" %}
-
-{% include contact-info.html name="Carrie Sanders" %}
-
-{% include contact-info.html name="William J. Turkel" %}
-
+* Jeremy Boggs, University of Virginia.
+* Alan MacEachern, Western University.
+* Miriam Posner, UCLA.
+* Carrie Sanders, UCLA.
+* William J. Turkel, Western University.
 
 ## Community Participants
 
