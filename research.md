@@ -19,6 +19,7 @@ The project team and members of the wider community are involved in a number of 
 
 ### Events, Posters, & Presentations
 
+* Fred Gibbs, 'Digital History @UM: The Programming Historian', {Event}, University of Michigan (27 January 2017).
 * Adam Crymble and Justin Colson, 'Intro to Geocoding', {Event}, Institute of Historical Research, London, (19 April 2016).
 * Adam Crymble, 'Intro to Data Mining', {Event}, Institute of Historical Research, London (2 February 2016).
 * James Baker, 'Programming Historian Live', {Event} Software Sustainability Institute, London (19 October 2015).
