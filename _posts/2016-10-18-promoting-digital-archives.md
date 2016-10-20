@@ -15,7 +15,6 @@ One of the things I enjoy most in my current position as a Cataloging and Metada
 <figure>
 <a href="../images/promoting-digital-archives/houston.png”>
         <img src="../images/promoting-digital-archives/houston.png” alt="" />
-    </a>
 </figure>
     <figcaption>
     <p>An example of a coloring book from <a href=“http://digital.houstonlibrary.org/cdm/ref/collection/curriculum-project/id/10”>Color the Big Top: Houston Area Digital Archives Coloring Book, Volume 2</a>.</p>
