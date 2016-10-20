@@ -1,5 +1,5 @@
 ---
-title: “#ColorOurCollections: Promoting Digital Archives“
+title: "#ColorOurCollections: Promoting Digital Archives"
 authors: 
 - Jeanette Sewell 
 layout: post
