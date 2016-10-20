@@ -50,7 +50,8 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 
 {% include contact-info.html name="Caleb McDaniel" %}
 
-{% include contact-info.html name="Ian Milligan" %}. Please note that Ian is currently on sabbatical from the project until October 2017.
+{% include contact-info.html name="Ian Milligan" %}. 
+Please note that Ian is currently on sabbatical from the project until October 2017.
 
 {% include contact-info.html name="Evan Taparata" %}
 
