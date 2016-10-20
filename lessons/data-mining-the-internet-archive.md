@@ -71,7 +71,14 @@ manager. Begin by installing `pip` using Fred Gibbs' [Installing Python Modules 
 sudo pip install internetarchive
 ```
 
-To install `pymarc`:
+You'll next want to install the `pymarc` package, which also needs version 1.9.0 of `six`, another Python package, also installed.[^1]
+To make sure your system has the latest version of `six`, first try:
+
+``` bash
+sudo pip install --upgrade six
+```
+
+Then, to install `pymarc`:
 
 ``` bash
 sudo pip install pymarc
@@ -631,6 +638,8 @@ names, you could create a network of correspondents. Or you could
 analyze which subjects are common in the MARC records. Now that you have
 the MARC records downloaded and can use `pymarc` to extract information
 from the fields, the possibilities can multiply rapidly!
+
+[^1]: Thanks to [Shawn Graham](https://hypothes.is/a/AVKeGm0rvTW_3w8Lypo1) for pointing out the `pymarc` dependency on `six` and providing a solution.
 
   [Internet Archive]: http://archive.org/
   [early JSTOR journal content]: https://archive.org/details/jstor_ejc
