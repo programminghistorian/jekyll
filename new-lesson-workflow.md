@@ -23,7 +23,7 @@ If you have an idea for a new lesson, or have already written a tutorial that yo
 
 We welcome lessons pitched at any level of technical aptitude and experience, from neophytes to power users. Lessons may be a short and straightforward explanation of a discrete task (these kinds of "helper" lessons make complex lessons easier to follow); they may be quite long, complex, and technically sophisticated. 
 
-**In short, we welcome all lesson proposals.**  You can get a better sense of what we think makes for a good lesson by looking through our [published lessons], reading our [reviewer guidlines] or browsing the [lessons currently in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Please note that we welcome lesson proposals on topics already covered or in development, provided that the proposed lesson makes its own unique contribution. Everyone learns differently and we encourage topical overlap.
+**In short, we welcome all lesson proposals.**  You can get a better sense of what we think makes for a good lesson by looking through our [published lessons], reading our [reviewer guidelines] or browsing the [lessons currently in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Please note that we welcome lesson proposals on topics already covered or in development, provided that the proposed lesson makes its own unique contribution. Everyone learns differently and we encourage topical overlap.
 
 <br/><br/>
 
@@ -326,7 +326,7 @@ Congratulations! You've published a lesson at *Programming Historian*!
 
   [Ian Milligan]: mailto:i2millig@uwaterloo.ca
   [Lesson Pipeline wiki page]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
-  [reviewer guidlines]: ../reviewer-guidelines.html
+  [reviewer guidelines]: ../reviewer-guidelines.html
   [published lessons]: lessons
   [TextWrangler]: http://www.barebones.com/products/textwrangler/
   [Notepad++]: https://notepad-plus-plus.org/
