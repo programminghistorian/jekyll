@@ -17,7 +17,7 @@ This page contains step-by-step instructions for authors on contributing a new l
     <img src="../images/author-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
 
-If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, contact [Ian Milligan] to discuss your idea. Getting in touch at an early stage will help everyone to think about how to best frame your lesson (particularly to establish a target audience and expected skill level), and to pair you with an editor who can best help you develop the tutorial. 
+If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, contact [Jeri Wieringa] to discuss your idea. Getting in touch at an early stage will help everyone to think about how to best frame your lesson (particularly to establish a target audience and expected skill level), and to pair you with an editor who can best help you develop the tutorial. 
 
 **What kind of lessons do we want?** There is no standard lesson at the *Programming Historian*. We welcome lessons on any topic that helps humanists (often historians, but not always) at any phase of the research and publication process. 
 
@@ -324,7 +324,7 @@ Congratulations! You've published a lesson at *Programming Historian*!
 
 
 
-  [Ian Milligan]: mailto:i2millig@uwaterloo.ca
+  [Jeri Wieringa]: mailto:jeri.elizabeth+proghist@gmail.com
   [Lesson Pipeline wiki page]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
   [reviewer guidelines]: ../reviewer-guidelines.html
   [published lessons]: lessons
