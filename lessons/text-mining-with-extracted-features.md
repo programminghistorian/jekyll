@@ -217,7 +217,7 @@ print(vol.handle_url)
     http://hdl.handle.net/2027/nyp.33433075749246
 
 
-{% include figure.html filename="June-cover.png" caption="Digital copy of sample book" %}
+{% include figure.html filename="June-cover.PNG" caption="Digital copy of sample book" %}
 
 Hopefully by now you are growing more comfortable with the process of running code in a Jupyter notebook, starting a cell, writing code, and running the cell. A valuable property of this type of interactive coding is that there is room for error. An error doesn't cause the whole program to crash, requiring you to rerun everything from the start. Instead, just fix the code in your cell and try again.
 
