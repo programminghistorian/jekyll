@@ -81,7 +81,7 @@ The HTRC Feature Reader can be installed by command line. First open a terminal 
 
 If Anaconda was properly installed, you should see something similar to this:
 
-{% include figure.html filename="activating-env.png" caption="Activating the default Anaconda environment." %}
+{% include figure.html filename="activating-env.PNG" caption="Activating the default Anaconda environment." %}
 
 Now, you need to type one command:
 
