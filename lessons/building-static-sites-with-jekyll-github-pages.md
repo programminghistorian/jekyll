@@ -496,7 +496,7 @@ For reference, you can check out [an example of a post](https://amandavisconti.g
 
 9. With all commits *after* the first one (which we just did!), you can skip the "create branch" and "publish" steps, and click the "sync" button (upper right) after you've clicked "Commit to gh-pages" and the app has completed committing. 
 
-10. You can now visit (and share the link to!) your live website. The URL will follow the pattern of *your GitHub username DOT github.io SLASH name of your website SLASH*. (For example, the author's URL is [amandavisconti.github.io/JekyllDemo/](amandavisconti.github.io/JekyllDemo/).)
+10. You can now visit (and share the link to!) your live website. The URL will follow the pattern of *your GitHub username DOT github.io SLASH name of your website SLASH*. (For example, the author's URL is [amandavisconti.github.io/JekyllDemo/](http://amandavisconti.github.io/JekyllDemo/).)
 
 ### Mini cheatsheet <a id="section6-1"></a>
 
