@@ -3,12 +3,10 @@ title: Text Mining in Python through the HTRC Feature Reader
 authors:
 - Peter Organisciak
 - Boris Capitanu
-date: 2016-07-21
-reviewers:
+date: 2016-11-22
+reviewers: Stéfan Sinclair, Catherine DeRose, Ian Milligan
 layout: default
 ---
-
-
 
 Summary: *We introduce a toolkit for working with the 13.6 million volume Extracted Features Dataset from the HathiTrust Research Center. You will learn how to peer at the words and trends of any book in the collection, while developing broadly useful Python data analysis skills.*
 
@@ -81,7 +79,7 @@ The HTRC Feature Reader can be installed by command line. First open a terminal 
 
 If Anaconda was properly installed, you should see something similar to this:
 
-{% include figure.html filename="activating-env.png" caption="Activating the default Anaconda environment." %}
+{% include figure.html filename="activating-env.PNG" caption="Activating the default Anaconda environment." %}
 
 Now, you need to type one command:
 
@@ -217,7 +215,7 @@ print(vol.handle_url)
     http://hdl.handle.net/2027/nyp.33433075749246
 
 
-{% include figure.html filename="June-cover.png" caption="Digital copy of sample book" %}
+{% include figure.html filename="June-cover.PNG" caption="Digital copy of sample book" %}
 
 Hopefully by now you are growing more comfortable with the process of running code in a Jupyter notebook, starting a cell, writing code, and running the cell. A valuable property of this type of interactive coding is that there is room for error. An error doesn't cause the whole program to crash, requiring you to rerun everything from the start. Instead, just fix the code in your cell and try again.
 
