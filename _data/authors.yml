@@ -383,3 +383,14 @@
   team: false
   bio: |
         Jeanette Sewell is a Cataloging and Metadata Librarian at the Houston Area Digital Archives.  
+
+- name: Boris Capitanu
+  team: false
+  bio: |
+        Boris Capitanu is a Research Programmer at the HathiTrust Research Center. His research interests include large scale data analysis, machine learning, data mining, and educational technologies. Boris holds a B.S. and M.S. in Computer Science from University of Illinois at Urbana-Champaign, and a MBA+MHRIR from the same institution.
+
+- name: Peter Organisciak
+  url: "https://porganized.com/"
+  team: false
+  bio: |
+        Peter Organisciak is an information scientist, at the HathiTrust Research Center as a postdoctoral research associate.  

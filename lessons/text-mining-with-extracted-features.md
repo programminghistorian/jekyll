@@ -8,9 +8,11 @@ reviewers: Stéfan Sinclair, Catherine DeRose, Ian Milligan
 layout: default
 ---
 
+
+
 Summary: *We introduce a toolkit for working with the 13.6 million volume Extracted Features Dataset from the HathiTrust Research Center. You will learn how to peer at the words and trends of any book in the collection, while developing broadly useful Python data analysis skills.*
 
-The HathiTrust holds nearly 15 million digitized volumes from libraries around the world. In addition to their individual value, these works in aggregate are extremely valuable for historians. Spanning many centuries and genres, they offer a way to learn about large-scale trends in history and culture, as well as evidence for changes in language or even the structure of the book. To simplify access to this collection, the HathiTrust Research Center (HTRC) has released the Extracted Features dataset (Capitanu et al. 2015): a dataset that provides quantitative information describing every page of every volume in the collection.
+The [HathiTrust](https://www.hathitrust.org) holds nearly 15 million digitized volumes from libraries around the world. In addition to their individual value, these works in aggregate are extremely valuable for historians. Spanning many centuries and genres, they offer a way to learn about large-scale trends in history and culture, as well as evidence for changes in language or even the structure of the book. To simplify access to this collection the HathiTrust Research Center (HTRC) has released the Extracted Features dataset (Capitanu et al. 2015): a dataset that provides quantitative information describing every page of every volume in the collection.
 
 In this lesson, we introduce the HTRC Feature Reader, a library for working with the HTRC Extracted Features dataset using the Python programming language. The HTRC Feature Reader is structured to support work using popular data science libraries, particularly Pandas. Pandas provides simple structures for holding data and powerful ways to interact with it. The HTRC Feature Reader uses these data structures, so learning how to use it will also cover general data analysis skills in Python.
 
@@ -18,19 +20,19 @@ Today, you'll learn:
 
 - How to work with *notebooks*, an interactive environment for data science in Python;
 - Methods to read and visualize text data for millions of books with the HTRC Feature Reader; and
-- Data malleability, the skills to select, slice, and summarize extracted feature data using the flexible "DataFrame" structure.
+- Data malleability, the skills to select, slice, and summarize extracted features data using the flexible "DataFrame" structure.
 
 ## Background
 
-The **HathiTrust Research Center** (**HTRC**) is the research arm of the HathiTrust, tasked with supporting research usage of the works held by the HathiTrust. Particularly, this support involves mediating large-scale access to materials in a non-consumptive manner, which aims to allow research over a work without enabling that work to be traditionally enjoyed or read by a human reader.  Huge digital collections can be of public benefit by allowing scholars to make insights about history and culture, and the non-consumptive model allows for these uses to be sought within the restrictions of intellectual property law.
+The **HathiTrust Research Center** (**HTRC**) is the research arm of the HathiTrust, tasked with supporting research usage of the works held by the HathiTrust. Particularly, this support involves mediating large-scale access to materials in a non-consumptive manner, which aims to allow research over a work without enabling that work to be traditionally enjoyed or read by a human reader.  Huge digital collections can be of public benefit by allowing scholars to discover insights about history and culture, and the non-consumptive model allows for these uses to be sought within the restrictions of intellectual property law.
 
-As part of its mission, the HTRC has released the **Extracted Features** dataset, containing features derived for every page of 4.8 million 'volumes' (a generalized term referring to the different types of materials in the HathiTrust collection, of which books are the most prevalent type).
+As part of its mission, the HTRC has released the **Extracted Features** (**EF**) dataset containing features derived for every page of 13.6 million 'volumes' (a generalized term referring to the different types of materials in the HathiTrust collection, of which books are the most prevalent type).
 
 What is a feature? A **feature** is a quantifiable marker of something measurable, a datum. A computer cannot understand the meaning of a sentence implicitly, but it can understand the counts of various words and word forms, or the presence or absence of stylistic markers, from which it can be trained to better understand text. Many text features are non-consumptive in that they don't retain enough information to reconstruct the book text.
 
-Not all features are useful, and not all algorithms use the same features. With the HTRC EF Dataset, we have tried to tried to include the most generally useful features, as well as adapting to scholarly needs. We include per-page information such as counts of words tagged by part of speech (e.g. *how many times does the word `jaguar` appear as a lowercase noun on this page*), line and sentence counts, and counts of characters at the leftmost and rightmost sides of a page. No positional information is provided, so the data would not specify if 'brown' is followed by 'dog', though the information is shared for every single page, so you can at least infer how often 'brown' and 'dog' occurred in the same general vicinity within a text.
+Not all features are useful, and not all algorithms use the same features. With the HTRC EF Dataset, we have tried to include the most generally useful features, as well as adapt to scholarly needs. We include per-page information such as counts of words tagged by part of speech (e.g. *how many times does the word `jaguar` appear as a lowercase noun on this page*), line and sentence counts, and counts of characters at the leftmost and rightmost sides of a page. No positional information is provided, so the data would not specify if 'brown' is followed by 'dog', though the information is shared for every single page, so you can at least infer how often 'brown' and 'dog' occurred in the same general vicinity within a text.
 
-With easy access and features already extracted, the Extracted Features dataset offers a great entry point to programmatic text analysis and text mining. To further simplify beginner usage, the HTRC has released the HTRC Feature Reader. The **HTRC Feature Reader** scaffolds use of the dataset with the Python programming language.
+Freely accessible and preprocessed, the Extracted Features dataset offers a great entry point to programmatic text analysis and text mining. To further simplify beginner usage, the HTRC has released the HTRC Feature Reader. The **HTRC Feature Reader** scaffolds use of the dataset with the Python programming language.
 
 This tutorial teaches the fundamentals of using the Extracted Features dataset with the HTRC Feature Reader. The HTRC Feature Reader is designed to make use of data structures from the most popular scientific tools in Python, so the skills taught here will apply to other settings of data analysis. In this way, the Extracted Features dataset is a particularly good use case for learning more general text analysis skills. We will look at data structures for holding text, patterns for querying and filtering that information, and ways to summarize, group, and visualize the data.
 
@@ -48,11 +50,11 @@ The Extracted Features dataset also underlies higher-level analytic tools. [Mimn
 
 This lesson provides a gentle but technical introduction to text analysis in Python with the HTRC Feature Reader. Most of the code is provided, but is most useful if you are comfortable tinkering with it and seeing how outputs change when you do.
 
-We recommend a baseline knowledge of Python conventions, which can be learned with Turkel and Crymble's [series of Python lessions](http://programminghistorian.org/lessons/introduction-and-installation) on Programming Historian.
+We recommend a baseline knowledge of Python conventions, which can be learned with Turkel and Crymble's [series of Python lessons](http://programminghistorian.org/lessons/introduction-and-installation) on Programming Historian.
 
 The skills taught here are focused on flexibly accessing and working with already-computed text features. For a better understanding of the process of deriving word features, Programming Historian provides a lesson on [Counting Frequencies](http://programminghistorian.org/lessons/counting-frequencies), by Turkel and Crymble.
 
-A more detailed look at text analysis with Python is provided in the [Art of Literary Text Analysis](https://github.com/sgsinclair/alta/blob/master/ipynb/ArtOfLiteraryTextAnalysis.ipynb) (Sinclair). The Art of Literary Text Analysis (ALTA) provides a deeper introduction to foundation Python skills, as well as introducing further text concepts to accompany the skills we cover in this lesson. This includes lessons on extracting features ([tokenization](https://github.com/sgsinclair/alta/blob/master/ipynb/Nltk.ipynb), [collocations](https://github.com/sgsinclair/alta/blob/master/ipynb/RepeatingPhrases.ipynb)), and [visualizing trends](https://github.com/sgsinclair/alta/blob/master/ipynb/GettingGraphical.ipynb).
+A more detailed look at text analysis with Python is provided in the [Art of Literary Text Analysis](https://github.com/sgsinclair/alta/blob/master/ipynb/ArtOfLiteraryTextAnalysis.ipynb) (Sinclair). The Art of Literary Text Analysis (ALTA) provides a deeper introduction to foundation Python skills, as well as introduces further text analytics concepts to accompany the skills we cover in this lesson. This includes lessons on extracting features ([tokenization](https://github.com/sgsinclair/alta/blob/master/ipynb/Nltk.ipynb), [collocations](https://github.com/sgsinclair/alta/blob/master/ipynb/RepeatingPhrases.ipynb)), and [visualizing trends](https://github.com/sgsinclair/alta/blob/master/ipynb/GettingGraphical.ipynb).
 
 # Download the Lesson Files
 
@@ -130,7 +132,7 @@ In this notebook, it's time to give the HTRC Feature Reader a try. When it is ti
 ## Reading your First Volume
 The HTRC Feature Reader library has three main objects: **FeatureReader**, **Volume**, and **Page**.
 
-+The **FeatureReader** object is the interface for loading the dataset files and making sense of them. The files are originally formatted in a notation called JSON (which _Programming Historian_ discusses [here](http://programminghistorian.org/lessons/json-and-jq)) and compressed, which FeatureReader makes sense of and returns as Volume objects. A **Volume** is a representation of a single book or other work. This is where you access features about a work. Many features for a volume are collected from individual pages; to access Page information, you can use the **Page** object.
+The **FeatureReader** object is the interface for loading the dataset files and making sense of them. The files are originally formatted in a notation called JSON (which _Programming Historian_ discusses [here](http://programminghistorian.org/lessons/json-and-jq)) and compressed, which FeatureReader makes sense of and returns as Volume objects. A **Volume** is a representation of a single book or other work. This is where you access features about a work. Many features for a volume are collected from individual pages; to access Page information, you can use the **Page** object.
 
 Let's load two volumes to understand how the FeatureReader works. Create a cell in the already-open Jupyter notebook and run the following code. This should give you the input shown below.
 
@@ -148,9 +150,9 @@ for vol in fr.volumes():
     You never know your luck; being the story of a matrimonial deserter, by Gilbert Parker ... illustrated by W.L. Jacobs.
 
 
-Here, the FeatureReader is imported and initialized with file paths pointing to two Extracted Features files. The files are in a directory called 'data'. Different systems do file paths differently: Windows uses forward slashes ('data/...') while Linux and Mac OS use back slashes ('data\\...'). `os.path.join` is used to make sure that the file path is correctly structured, a convention to ensure that code works everywere.
+Here, the FeatureReader is imported and initialized with file paths pointing to two Extracted Features files. The files are in a directory called 'data'. Different systems do file paths differently: Windows uses back slashes ('data\\...') while Linux and Mac OS use forward slashes ('data/...'). `os.path.join` is used to make sure that the file path is correctly structured, a convention to ensure that code works on these different platforms.
 
-With `fr = FeatureReader(paths)`, the FeatureReader is initialized, meaning it is ready to use. An initialized FeatureReader is holding the pointers to the file paths that we gave it, and will load them into Volume objects when asked.
+With `fr = FeatureReader(paths)`, the FeatureReader is initialized, meaning it is ready to use. An initialized FeatureReader is holding references to the file paths that we gave it, and will load them into Volume objects when asked.
 
 Consider the last bit of code:
 
@@ -161,7 +163,7 @@ for vol in fr.volumes():
 
 This code asks for volumes in a way that can be iterated through. The `for` loop is saying to `fr.volumes()`, "give me every single volume that you have, one by one." Each time the `for` loop gets a volume, it starts calling it `vol`, runs what is inside the loop on it, then asks for the next one. In this case, we just told it to print the title of the volume.
 
-You may recognize `for` loops from past experience iterating through what is known as a `list` in Python. However, it is important to note that `fr.volumes()` is *not* a list. If you try to access it directly, it won't print all the volumes; rather, it identifies itself as a something known as a generator:
+You may recognize `for` loops from past experience iterating through what is known as a `list` in Python. However, it is important to note that `fr.volumes()` is *not* a list. If you try to access it directly, it won't print all the volumes; rather, it identifies itself as something known as a generator:
 
 {% include figure.html filename="generator.png" caption="Identifying a generator" %}
 
@@ -176,7 +178,7 @@ Remember that there are 13.6 million volumes in the Extracted Features dataset. 
 
 A generator simplifies such on-demand, short term usage. Think of it like a pizza shop making pizzas when a customer orders, versus one that prepares them beforehand. The traditional approach to iterating through data is akin to making *all* the pizzas for the day before opening. Doing so would make the buying process quicker, but also adds a huge upfront time cost, needs larger ovens, and necessitates the space to hold all the pizzas at once. An alternate approach is to make pizzas on-demand when customers buy them, allowing the pizza place to work with smaller capacities and without having pizzas laying around the shop. This is the type of approach that a generator allows.
 
-Volumes need to be prepared before you do anything with them, being read, decompressed and parsed. This 'initialization' of a volume is done when you ask for the volume, *not* when you create the FeatureReader. In the above code, after you run `fr = FeatureReader(paths)`, there are are still no `Volume` objects held behind the scenes: just the pointers to the file locations. The files are only read when their time comes in the loop on the generator `fr.volumes()`. Note that because of this one-by-one reading, the items of a generator cannot be accessed out of order (e.g. you cannot ask for the third item of `fr.volumes()` without going through the first two first).
+Volumes need to be prepared before you do anything with them, being read, decompressed and parsed. This 'initialization' of a volume is done when you ask for the volume, *not* when you create the FeatureReader. In the above code, after you run `fr = FeatureReader(paths)`, there are are still no `Volume` objects held behind the scenes: just the references to the file locations. The files are only read when their time comes in the loop on the generator `fr.volumes()`. Note that because of this one-by-one reading, the items of a generator cannot be accessed out of order (e.g. you cannot ask for the third item of `fr.volumes()` without going through the first two first).
 
 ## What's in a Volume?
 
@@ -198,7 +200,7 @@ vol
 
 
 
-While the majority of the HTRC Extracted Features dataset is *features*, quantitative abstractions of a book's written content, there is also a small amount of metadata included for each volume. We already saw `Volume.title` accessed earlier. Other metadata includes:
+While the majority of the HTRC Extracted Features dataset is *features*, quantitative abstractions of a book's written content, there is also a small amount of metadata included for each volume. We already saw `Volume.title` accessed earlier. Other metadata attributes include:
 
 - `Volume.id`: A unique identifier for the volume in the HathiTrust and the HathiTrust Research Center.
 - `Volume.year`: The publishing date of the volume.
@@ -319,7 +321,7 @@ Wait... how did we get here so quickly!? We went from a volume to a data visuali
 
 A **DataFrame** is a type of object provided by the data analysis library, Pandas. **Pandas** is very common for data analysis, allowing conveniences in Python that are found in statistical languages like R or Matlab.
 
-In the first line, `vol.tokens_per_page()` returns a DataFrame, something that can be confirmed if you ask Python what about its type with `type(tokens)`. This means that _after setting `tokens`, we're no longer working with HTRC-specific code, just book data held in a common and very robust table-like construct from Pandas_. `tokens.head()` used a DataFrame method to look at the first few rows of the dataset, and `tokens.plot()` uses a method from Pandas to visualize data.
+In the first line, `vol.tokens_per_page()` returns a DataFrame, something that can be confirmed if you ask Python about its type with `type(tokens)`. This means that _after setting `tokens`, we're no longer working with HTRC-specific code, just book data held in a common and very robust table-like construct from Pandas_. `tokens.head()` used a DataFrame method to look at the first few rows of the dataset, and `tokens.plot()` uses a method from Pandas to visualize data.
 
 Many of the methods in the HTRC Feature Reader return DataFrames. The aim is to fit into the workflow of an experienced user, rather than requiring them to learn proprietary new formats. For new Python data mining users, learning to use the HTRC Feature Reader means learning many data mining skills that will translate to other uses.
 
@@ -497,15 +499,15 @@ tl_simple.sample(5)
 
 
 
-To select just the relevant tokens, we need to look at each row and evaluate whether it matches the criteria that "this token has a count greater than 100". Let's try to convert to code.
+To select just the relevant tokens, we need to look at each row and evaluate whether it matches the criteria that "this token has a count greater than 100". Let's try to convert that requirement to code.
 
-"This token has a count" means that we are concerned specifically in the 'count' column, which can be singled out from the `tl` table with `tl['count']`. "greater than 100" is formalized as `> 100`. Putting it together, try the following and see what you get:
+"This token has a count" means that we are concerned specifically with the 'count' column, which can be singled out from the `tl` table with `tl['count']`. "greater than 100" is formalized as `> 100`. Putting it together, try the following and see what you get:
 
 ```python
 tl_simple['count'] > 100
 ```
 
-It is a DataFrame of True/False values. Each value indicates whether the 'count' column in the row matches the criteria or not. We haven't selected a subset yet, we simply asked a question and were told for each row when the question was true or false.
+It is a DataFrame of True/False values. Each value indicates whether the 'count' column in the corresponding row matches the criteria or not. We haven't selected a subset yet, we simply asked a question and were told for each row when the question was true or false.
 
 > You may wonder why section and token are still seen, even though 'count' was selected. These are part of the DataFrame **index**, so they're considered part of the information *about* that row rather than data *in* the row. You can convert the index to data columns with `reset_index()`. In this lesson we will keep the index intact, though there are advanced cases where there are benefits to resetting it.
 
@@ -680,7 +682,7 @@ tl_simple[(tl_simple['count'] > 150) & (tl_simple['count'] < 200)]
 
 Above, subsets of the DataFrame were selected based on a matching criteria for columns. It is also possible to select a DataFrame subset by specifying the values of its index, a process called **slicing**. For example, you can ask, *"give me all the verbs for pages 9-12"*.
 
-In the DataFrame returned by `vol.tokenlist()`, page, section, token, and POS were part of the index (try the command `tl.index.names` to confirm). One can think of an index as the margin content of an Excel spreadsheet: the numbers along the top and letters along the right side are the indices. A cell can be referred to as A1, A2, B1... In pandas, however, you can name these, so instead of A, B, C, rows can be referred to by more descriptive names. You can also have multiple levels, so you're not bound by the two-dimensions of a table format. With a multi-indexed DataFrame, you can ask for `Page=24,section=Body, ...`.
+In the DataFrame returned by `vol.tokenlist()`, page, section, token, and POS were part of the index (try the command `tl.index.names` to confirm). One can think of an index as the margin content of an Excel spreadsheet: the letters along the top and numbers along the left side are the indices. A cell can be referred to as A1, A2, B1... In Pandas, however, you can name these, so instead of A, B, C, or 1,2,3, columns and rows can be referred to by more descriptive names. You can also have multiple levels, so you're not bound by the two-dimensions of a table format. With a multi-indexed DataFrame, you can ask for `Page=24,section=Body, ...`.
 
 {% include figure.html filename="Excel.PNG" caption="One can think of an index as the margin notations in Excel (i.e. 1,2,3... and A,B,C,..), except it can be named and can have multiple levels." %}
 
@@ -706,7 +708,7 @@ Finally, it is possible to select multiple labels for a level of the index, with
 - Select all pages from 37 to 40
   - `tl.loc[(slice(37, 40)),]`
 - Select counts for 'Anne' or 'Hilary' from all pages
-  - tl.loc[(slice(None), slice(None), ["Anne", "Hilary"]),]
+  - `tl.loc[(slice(None), slice(None), ["Anne", "Hilary"]),]`
   
 > The reason for the comma in `tl.loc[(...),]` is because columns can be selected in the same way after the comma. Pandas DataFrames can have a multiple-level index for columns, but the HTRC Feature Reader does not use this.
 
@@ -1000,17 +1002,17 @@ tl.groupby(level=["pos"]).sum()
 
 The output is a count of how often each part-of-speech tag ("pos") occurs in the entire book.
 
-- *Split* with `groupby()`: We took the token count dataframe that is set to `tl` and grouped by the part-of-speech (`pos`) level of the index. This means that rather than thinking into terms of rows, Pandas is now thinking of the `tl` DataFrame as a series of smaller groups, the groups selected by a common value for part of speech. So, all the personal pronouns ("PRP") are in one group, and all the adverbs ("RB") are in another, and so on.
+- *Split* with `groupby()`: We took the token count dataframe that is set to `tl` and grouped by the part-of-speech (`pos`) level of the index. This means that rather than thinking in terms of rows, Pandas is now thinking of the `tl` DataFrame as a series of smaller groups, the groups selected by a common value for part of speech. So, all the personal pronouns ("PRP") are in one group, and all the adverbs ("RB") are in another, and so on.
 - *Apply* with `sum()`: These groups were sent to an apply function, `sum()`. Sum is an aggregation function, so it sums all the information in the 'count' column for each group. For example, all the rows of data in the adverb group are summed up into a single count of all adverbs. 
 - *Combine*: The combine step is implicit: the DataFrame knows from the `groupby` pattern to take everything that the apply function gives back (in the case of 'sum', just one row for every group) and stick it together.
 
-`sum()` is one of many convenient functions [built-in](http://pandas.pydata.org/pandas-docs/stable/groupby.html) to Panadas. Other useful functions are `mean()`, `count()`, `max()`. It is also possible to send your groups to any function that you write with `apply()`.
+`sum()` is one of many convenient functions [built-in](http://pandas.pydata.org/pandas-docs/stable/groupby.html) to Pandas. Other useful functions are `mean()`, `count()`, `max()`. It is also possible to send your groups to any function that you write with `apply()`.
 
 > groupby can be used on data columns or an index. To run against an index, use `level=[index_level_name]` as above. To group against columns, use `by=[column_name]`.
 
 Below are some examples of grouping token counts.
 
-- Find most common tokens in the entire volume (sorting by most to least occurrances)
+- Find most common tokens in the entire volume (sorting by most to least occurrences)
   - `tl.groupby(level="token").sum().sort_values("count", ascending=False)`
 - Count how many pages each token/pos combination occurs on
   - `tl.groupby(level=["token", "pos"]).count()`
@@ -1093,7 +1095,7 @@ So far we have mainly used token-counting features, accessed through `Volume.tok
 
 - `vol.line_counts()`: How many vertically spaced lines of text, a measure related to the phyical format of the page.
 - `vol.sentence_counts()`: How many sentences of text: a measure related to the content on a page.
-- `vol.empty_line_counts()`: How many larger vertical spaces are there on the page between lines of text? This can be used as a proxy for paragraph count. This is based on what software was used to OCR so there are inconsistencies: not all scans in the HathiTrust are OCR'd identically.
+- `vol.empty_line_counts()`: How many larger vertical spaces are there on the page between lines of text? In many cases, this can be used as a proxy for paragraph count. This is based on what software was used to OCR so there are inconsistencies: not all scans in the HathiTrust are OCR'd identically.
 - `vol.begin_line_chars()`, `vol.end_line_chars()`: The count of different characters along the left-most and right-most sides of a page. This can tell you about what kind of page it is: for example, a table of contents might have a lot of numbers or roman numerals at the end of each line
 
 Earlier, we saw that the number of words on a page gave some indication of whether it was a page of the story or a different kind of page (chapter, front matter, etc). We can see that line count is another contextual 'hint':
@@ -1129,14 +1131,14 @@ Now that you know the basics of the HTRC Feature Reader, you can learn more abou
 
 Underwood (2015) has released [genre classifications of public-domain texts in the HTRC EF Dataset](https://analytics.hathitrust.org/genre), comprised of fiction, poetry, and drama. Though many historians will be interested in other corners of the dataset, fiction is a good place to tinker with text mining ideas because of its expressiveness and relative format consistency.
 
-Finally, the repository for the HTRC Feature Feature has [advanced tutorial notebooks](https://github.com/htrc/htrc-feature-reader/tree/master/examples) showing how to use the library further. One such tutorial shows how to [derive 'plot arcs' for a text](https://github.com/htrc/htrc-feature-reader/blob/master/examples/Within-Book%20Sentiment%20Trends.ipynb), a process popularized by Jockers (2015).
+Finally, the repository for the HTRC Feature Reader has [advanced tutorial notebooks](https://github.com/htrc/htrc-feature-reader/tree/master/examples) showing how to use the library further. One such tutorial shows how to [derive 'plot arcs' for a text](https://github.com/htrc/htrc-feature-reader/blob/master/examples/Within-Book%20Sentiment%20Trends.ipynb), a process popularized by Jockers (2015).
 
 {% include figure.html filename="plot-arc.png" caption="Plot Arc Example." %}
 
 
 # References
 
-Boris Capitanu, Ted Underwood, Peter Organisciak, Sayan Bhattacharyya, Loretta Auvil, Colleen Fallaw, J. Stephen Downie (2015). "Extracted Feature Dataset from 4.8 Million HathiTrust Digital Library Public Domain Volumes" (0.2)[Dataset]. *HathiTrust Research Center*, doi:10.13012/j8td9v7m.
+Boris Capitanu, Ted Underwood, Peter Organisciak, Timothy Cole, Maria Janina Sarol, J. Stephen Downie (2016). The HathiTrust Research Center Extracted Feature Dataset (1.0) [Dataset]. HathiTrust Research Center, https://dx.doi.org/10.13012/J8X63JT3.
 
 Chris Forster. "A Walk Through the Metadata: Gender in the HathiTrust Dataset." Blog. http://cforster.com/2015/09/gender-in-hathitrust-dataset/.
 
@@ -1144,7 +1146,11 @@ Matthew L. Jockers (Feb 2015). "Revealing Sentiment and Plot Arcs with the Syuzh
 
 Peter Organisciak, Loretta Auvil, J. Stephen Downie (2015). “Remembering books: A within-book topic mapping technique.” Digital Humanities 2015. Sydney, Australia.
 
-Underwood, Ted (2014): Understanding Genre in a Collection of a Million Volumes, Interim Report. figshare.
+Stéfan Sinclair & Geoffrey Rockwell (2016). "The Art of Literary Text Analysis." Github.com. Commit b04bc18. https://github.com/sgsinclair/alta.
+
+William J. Turkel and Adam Crymble (2012). "Counting Word Frequencies with Python". The Programming Historian. http://programminghistorian.org/lessons/counting-frequencies.
+
+Ted Underwood (2014): Understanding Genre in a Collection of a Million Volumes, Interim Report. figshare.
 https://dx.doi.org/10.6084/m9.figshare.1281251.v1.
 
 Ted Underwood, Boris Capitanu, Peter Organisciak, Sayan Bhattacharyya, Loretta Auvil, Colleen Fallaw, J. Stephen Downie (2015). "Word Frequencies in English-Language Literature, 1700-1922" (0.2) [Dataset]. *HathiTrust Research Center*. https://dx.doi.org/10.13012/J8JW8BSJ.
@@ -1161,15 +1167,15 @@ To download all *4 TB* comprising the EF dataset, you can use this command (be a
 rsync -rv data.analytics.hathitrust.org::features/ .
 ```
 
- This recurses (the `-r` flag) through all the folders on the HTRC server, and syncs all the files to a location on your system in this case a `.` meaning "the current folder"). The `-v` flag means `--verbose`, which show you more information.
+This command recurses (the `-r` flag) through all the folders on the HTRC server, and syncs all the files to a location on your system; in this case the `.` at the end means "the current folder". The `-v` flag means `--verbose`, which tells rsync to show you more information.
  
-It is possible to sync individual files but inputting a full file path. Files are organized in a pairtree structure, meaning that you can find an exact dataset file from a volume's HathiTrust id. The HTRC Feature Reader has a tools and instructions for [getting the path for a volume](https://github.com/htrc/htrc-feature-reader/blob/master/examples/ID_to_Rsync_Link.ipynb). A list of all file paths is available:
+It is possible to sync individual files by specifying a full file path. Files are organized in a [PairTree structure](https://wiki.ucop.edu/display/Curation/PairTree), meaning that you can find an exact dataset file from a volume's HathiTrust id. The HTRC Feature Reader has a tools and instructions for [getting the path for a volume](https://github.com/htrc/htrc-feature-reader/blob/master/examples/ID_to_Rsync_Link.ipynb). A list of all file paths is available:
 
 ```bash
 rsync -azv data.analytics.hathitrust.org::features/listing/file-listing.txt .
 ```
 
-Finally, it is possible to download many files from a list of paths, such as those for public-domain [fiction](http://data.analytics.hathitrust.org/genre/fiction_paths.txt), [drama](http://data.analytics.hathitrust.org/genre/drama_paths.txt), and [poetry](http://data.analytics.hathitrust.org/genre/poetry_paths.txt) (Underwood 2014). For example:
+Finally, it is possible to download many files from a list. To try, we've put together lists for public-domain [fiction](http://data.analytics.hathitrust.org/genre/fiction_paths.txt), [drama](http://data.analytics.hathitrust.org/genre/drama_paths.txt), and [poetry](http://data.analytics.hathitrust.org/genre/poetry_paths.txt) (Underwood 2014). For example:
 
 ```bash
 rsync -azv --files-from=fiction_paths.txt data.analytics.hathitrust.org::features/ .
