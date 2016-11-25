@@ -215,6 +215,13 @@ Computational tools allow you to make sense of a lot of documents at once. The N
       <p>Shawn Graham</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/text-mining-with-extracted-features">
+      <img src="../gallery/text-mining-with-extracted-features.png">
+      <h3>Text Mining in Python through the HTRC Feature Reader</h3>
+      <p>Peter Organisciak and Boris Capitanu</p>
+    </a>
+  </li>
 </ul>
 
 
