@@ -77,7 +77,7 @@ To install Anaconda, download the installer for your system from the [Anaconda d
 The HTRC Feature Reader can be installed by command line. First open a terminal application:
 
 - *Windows*: Open 'Command Prompt' from the Start Menu and type: `activate`.
-- *Mac OX/Linux*: Open 'Terminal' from Applications and type `source activate`.
+- *Mac OS/Linux*: Open 'Terminal' from Applications and type `source activate`.
 
 If Anaconda was properly installed, you should see something similar to this:
 
