@@ -31,4 +31,4 @@ The project team and members of the wider community are involved in a number of 
 
 ### Projects Using the Programming Historian
 
-* James Baker, Caitlin Moore, Ernesto Priego, Raquel Alegre, Jez Cope, Ludi Price, Owen Stephens, Daniel van Strien, Greg Wilson, 'Library Carpentry: software skills training for library professionals', _Liber Quarterly: The Journal of the Association of European Research Libraries_, 26(3) (2016).
+* James Baker, Caitlin Moore, Ernesto Priego, Raquel Alegre, Jez Cope, Ludi Price, Owen Stephens, Daniel van Strien, Greg Wilson, '[Library Carpentry: software skills training for library professionals](https://www.liberquarterly.eu/articles/10176/)', _Liber Quarterly: The Journal of the Association of European Research Libraries_, 26(3) (2016).
