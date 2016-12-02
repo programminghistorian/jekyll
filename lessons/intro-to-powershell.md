@@ -1,5 +1,5 @@
 ---
-title: Introduction to PowerShell
+title: Introduction to the Windows Command Line with PowerShell
 authors:
 - Ted Dawson
 date: 2016-07-21
