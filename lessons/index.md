@@ -104,7 +104,7 @@ Just like it sounds, learn how to use programming to change, move, clean, or cou
   <li>
     <a href="../lessons/intro-to-powershell">
       <img src="../gallery/intro-to-powershell.png">
-      <h3>Introduction to PowerShell</h3>
+      <h3>Introduction to the Windows Command Line with PowerShell</h3>
       <p>Ted Dawson</p>
     </a>
   </li>
