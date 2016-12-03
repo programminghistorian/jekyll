@@ -13,7 +13,7 @@ The blog is our space to share news about the project, ideas for how you might u
 
 <br/>
 
-<p class="kicker">{{post.date | date: "%B %-d, %Y"}}</p>
+
 <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
 <p class="kicker">{% assign authorCount = post.authors | size %}
 				{% if authorCount == 1 %}
@@ -30,11 +30,13 @@ The blog is our space to share news about the project, ideas for how you might u
                       {% endfor %}
 {% endif %}
 </p>
+<p class="kicker">{{post.date | date: "%B %-d, %Y"}}</p>
 <br/>
 
 {{ post.excerpt | remove: '</p>' }} <a href="{{ site.url }}{{ post.url }}">Read the full post! &raquo;</a></p>
 
 <br/>
+<hr/>
 
 {% endfor %}
 
