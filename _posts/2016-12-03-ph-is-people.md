@@ -92,12 +92,12 @@ A big thanks to everyone who has made this project possible thus far. *The Progr
 * Thomas J. Duck, Dalhousie University
 * Russell Alleen-Willems, Diachronic Design (Seattle)
 * Nick Pearce, Durham University
-* Victor Gayol, El Colegio de Michoac&acute;n, A.C. (CPI-CONACYT)
+* Victor Gayol, El Colegio de Michoac&aacute;n, A.C. (CPI-CONACYT)
 * Sara Palmer, Emory University
 * Charlotte Tupman, Exeter University
 * Will Hanley, Florida State University
 * Ethan Miller, Freie Universit&auml;t Berlin
-* Maria Jos&eacute; Afanador-Llach, Fundaci—n Hist—rica Neogranadina
+* Maria Jos&eacute; Afanador-Llach, Fundaci&oacute;n Hist&oacute;rica Neogranadina
 * Amanda Morton, George Mason University
 * Jeri Wieringa, George Mason University
 * Megan R. Brett, George Mason University
