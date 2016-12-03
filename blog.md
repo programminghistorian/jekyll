@@ -11,9 +11,6 @@ The blog is our space to share news about the project, ideas for how you might u
 
 {% for post in site.posts %}
 
-<br/>
-
-
 <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
 <p class="kicker">{% assign authorCount = post.authors | size %}
 				{% if authorCount == 1 %}
@@ -35,7 +32,6 @@ The blog is our space to share news about the project, ideas for how you might u
 
 {{ post.excerpt | remove: '</p>' }} <a href="{{ site.url }}{{ post.url }}">Read the full post! &raquo;</a></p>
 
-<br/>
 <hr/>
 
 {% endfor %}
