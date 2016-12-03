@@ -158,6 +158,8 @@ If the lesson has been written by a new author, editors should add information a
 
 It is important that we acknowledge the work of our peer reviewers and editors. To the YAML file at the top of the tutorial, add the names of the reviewers who helped work on the piece as well as the names of any members of the community who contributed substantial open reviews. In addition, create an `editors` key and add yourself and any other editors who actively contributed to guiding the piece to publication. YAML formatting instructions can be found in the [Author Guidelines](http://programminghistorian.org/new-lesson-workflow).
 
+Reviewers who have not previously reviewed for the project also need to have their name added to the [reviewers.yml](http://programminghistorian.org/posts/ph-is-people) file so that their name appears on the Project Team page. Please don't forget this step.
+
 ### 4) Add a difficulty indicator to the YAML file
 
 To help readers evaluate which lessons best fit their goals and skill level, we provide "Recommended for ___ Users" information in the lesson YAML file. There are currently three tiers, which can be set with the following numerical codes: 1 (Beginning), 2 (Intermediate), 3 (Advanced). To add the difficulty level to the lesson, include the following in the YAML file:
