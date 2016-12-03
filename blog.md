@@ -15,11 +15,11 @@ The blog is our space to share news about the project, ideas for how you might u
 
 <p class="kicker">{{post.date | date: "%B %-d, %Y"}}</p>
 <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-{% assign authorCount = page.authors | size %}
+{% assign authorCount = post.authors | size %}
 				{% if authorCount == 1 %}
-				      {{ page.authors | first }}
+				      {{ post.authors | first }}
                 {% else %}
-                      {% for author in page.authors %}
+                      {% for author in post.authors %}
                            {% if forloop.first %}
                                  {{ author }}
                            {% elsif forloop.last %}
