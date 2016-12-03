@@ -48,7 +48,7 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 
 {% include contact-info.html name="Caleb McDaniel" %}
 
-{% include contact-info.html name="Ian Milligan" %}. 
+{% include contact-info.html name="Ian Milligan" %}
 
 {% include contact-info.html name="Evan Taparata" %}
 
