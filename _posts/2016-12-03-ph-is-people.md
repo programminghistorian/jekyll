@@ -6,8 +6,14 @@ layout: post
 categories: posts
 ---
 
-{% include figure.html filename="PhPeople-earth.png" caption="Heatmap of Contributors to The Programming Historian since launch. Map produced using Google Fusion Tables." %}
-
+<figure>
+<a href="../images/ph-is-people/PhPeople-earth.png">
+        <img src="../images/ph-is-people/PhPeople-earth.png" alt=""/>
+    </a>
+    <figcaption>
+    <p>Heatmap of Contributors to The Programming Historian since launch. Map produced using Google Fusion Tables.</p>
+</figcaption>
+</figure>
 
 It sounds cheesy, but projects like the Programming Historian don't exist without people freely giving their time, energy, and passion. Part of our sustainability plan has always been to ensure the project wasn't reliant upon grant funding, and that means we've had to work hard to entice volunteers to sustain our efforts. To ensure our relationship was mutually beneficial rather than one-way, we've always tried to make sure contributors were properly credited for their efforts.
 
@@ -15,13 +21,28 @@ Since we launched in July 2012, we've done our best to keep track of everyone wh
 
 Our growing list includes 112 people in at least 13 countries, on 3 continents. Most of them are associated with universities in one way or another. We have 73 universities represented amongst our contributors. Predominantly our contributors are academics, graduate students, or people working in university libraries, but there are also those who work for scholarly societies, freelance scholars, designers, consultants, and even someone working for the U.S. House of Representatives.
 
-{% include figure.html filename="PhPeople-northAmerica.png" caption="Heatmap of North American Contributors to The Programming Historian since launch. Map produced using Google Fusion Tables." %}
+
+<figure>
+<a href="../images/ph-is-people/PhPeople-northAmerica.png">
+        <img src="../images/ph-is-people/PhPeople-northAmerica.png" alt=""/>
+    </a>
+    <figcaption>
+    <p>Heatmap of North American Contributors to The Programming Historian since launch. Map produced using Google Fusion Tables.</p>
+</figcaption>
+</figure>
 
 We owe a huge debt of thanks in particular to George Mason University (9 contributors), Western University (6), University of California Los Angeles (5), the British Library (3), Carleton University (3), Rice University (3), and the University of New Mexico (3).
 
 33 of our contributors are women, and 79 are men. We're [committed to diversity](http://programminghistorian.org/posts/PH-commitment-to-diversity), so we'll continue to work towards bringing those numbers closer to parity. To help us do that, please encourage female colleagues, friends, and students to consider proposing a tutorial. If you are a woman with an idea for a lesson, we'd be very happy to hear from you.
 
-{% include figure.html filename="PhPeople-Europe.png" caption="Heatmap of European Contributors to The Programming Historian since launch. Map produced using Google Fusion Tables." %}
+<figure>
+<a href="../images/ph-is-people/PhPeople-Europe.png">
+        <img src="../images/ph-is-people/PhPeople-Europe.png" alt=""/>
+    </a>
+    <figcaption>
+    <p>Heatmap of European Contributors to The Programming Historian since launch. Map produced using Google Fusion Tables.</p>
+</figcaption>
+</figure>
 
 ## The breakdown of contributors by country:
 
@@ -45,8 +66,14 @@ If anyone has African, Asian, or Australasian connections that would like to get
 
 A big thanks to everyone who has made this project possible thus far. The Programming Historian is people. We're truly grateful of all of you.
 
-
-{% include figure.html filename="PhPeople-uk.png" caption="Heatmap of British Contributors to The Programming Historian since launch. Map produced using Google Fusion Tables." %}
+<figure>
+<a href="../images/ph-is-people/PhPeople-uk.png">
+        <img src="../images/ph-is-people/PhPeople-uk.png" alt=""/>
+    </a>
+    <figcaption>
+    <p>Heatmap of British Contributors to The Programming Historian since launch. Map produced using Google Fusion Tables.</p>
+</figcaption>
+</figure>
 
 ## Our contributors to date:
 
@@ -61,7 +88,7 @@ A big thanks to everyone who has made this project possible thus far. The Progra
 * Nabeel Siddiqui, College of William and Mary
 * Dennis Tenen, Columbia University
 * Grant Wythoff, Columbia University
-* Marten DŸring, CVCE Luxembourg
+* Marten D&uuml;ring, CVCE Luxembourg
 * Thomas J. Duck, Dalhousie University
 * Russell Alleen-Willems, Diachronic Design (Seattle)
 * Nick Pearce, Durham University
@@ -69,8 +96,8 @@ A big thanks to everyone who has made this project possible thus far. The Progra
 * Sara Palmer, Emory University
 * Charlotte Tupman, Exeter University
 * Will Hanley, Florida State University
-* Ethan Miller, Freie UniversitŠt Berlin
-* Maria JosŽ Afanador-Llach, Fundaci—n Hist—rica Neogranadina
+* Ethan Miller, Freie Universit&auml;t Berlin
+* Maria Jos&eacute; Afanador-Llach, Fundaci—n Hist—rica Neogranadina
 * Amanda Morton, George Mason University
 * Jeri Wieringa, George Mason University
 * Megan R. Brett, George Mason University
@@ -89,14 +116,14 @@ A big thanks to everyone who has made this project possible thus far. The Progra
 * Scott Weingart, Indiana University
 * M.H. Beals, Loughborough University
 * Patrik Persson, Lund University
-* StŽfan Sinclair, McGill University
+* St&eacute;fan Sinclair, McGill University
 * Kellen Kurschinski, McMaster University
 * John Fink, McMaster University
 * Ezra Brooks, Michigan State University
 * Jonathan Reeve, Modern Language Association
 * Ryan Cordell, Northeastern University
 * Abby Schreiber, Ohio State University
-* AurŽlien Berra, Paris-Ouest University
+* Aur&eacute;lien Berra, Paris-Ouest University
 * John Russell, Penn State University
 * Amanda Visconti, Purdue University
 * Brandon Hawk, Rhode Island College
@@ -113,10 +140,10 @@ A big thanks to everyone who has made this project possible thus far. The Progra
 * Miriam Posner, UCLA
 * Dave Shepard, UCLA
 * Michelle Moravec, UCLA
-* Finn Arne Jorgensen, Umea University
+* Finn Arne J&oslash;rgensen, Umea University
 * Antonio Rojas Castro, Universitat Pompeu Fabra
-* Max De Wilde, UniversitŽ libre de Bruxelles
-* Seth van Hooland, UniversitŽ libre de Bruxelles
+* Max De Wilde, Universit&eacute; libre de Bruxelles
+* Seth van Hooland, Universit&eacute; libre de Bruxelles
 * Tessa C Hauswedell, University College London
 * Eira Tansey, University of Cincinnatti
 * Vilja Hulden, University of Colorado Boulder
