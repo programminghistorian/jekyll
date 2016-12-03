@@ -92,7 +92,7 @@ A big thanks to everyone who has made this project possible thus far. The Progra
 * Thomas J. Duck, Dalhousie University
 * Russell Alleen-Willems, Diachronic Design (Seattle)
 * Nick Pearce, Durham University
-* Victor Gayol, El Colegio de Michoac‡n, A.C. (CPI-CONACYT)
+* Victor Gayol, El Colegio de Michoac&acute;n, A.C. (CPI-CONACYT)
 * Sara Palmer, Emory University
 * Charlotte Tupman, Exeter University
 * Will Hanley, Florida State University
