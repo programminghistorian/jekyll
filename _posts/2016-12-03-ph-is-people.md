@@ -61,23 +61,23 @@ A big thanks to everyone who has made this project possible thus far. The Progra
 * Nabeel Siddiqui, College of William and Mary
 * Dennis Tenen, Columbia University
 * Grant Wythoff, Columbia University
-* Marten Düring, CVCE Luxembourg
+* Marten D≈∏ring, CVCE Luxembourg
 * Thomas J. Duck, Dalhousie University
 * Russell Alleen-Willems, Diachronic Design (Seattle)
 * Nick Pearce, Durham University
-* Victor Gayol, El Colegio de Michoacán, A.C. (CPI-CONACYT)
+* Victor Gayol, El Colegio de Michoac‚Ä°n, A.C. (CPI-CONACYT)
 * Sara Palmer, Emory University
 * Charlotte Tupman, Exeter University
 * Will Hanley, Florida State University
-* Ethan Miller, Freie Universität Berlin
-* Maria José Afanador-Llach, Fundación Histórica Neogranadina
+* Ethan Miller, Freie Universit≈†t Berlin
+* Maria Jos≈Ω Afanador-Llach, Fundaci‚Äîn Hist‚Äîrica Neogranadina
 * Amanda Morton, George Mason University
 * Jeri Wieringa, George Mason University
 * Megan R. Brett, George Mason University
 * Spencer Roberts, George Mason University
 * Shiela Brennan, George Mason University
 * Erin N. Bush, George Mason University
-* Celeste T??ng Vy Sharpe, George Mason University
+* Celeste T&#432;&#7903;ng Vy Sharpe, George Mason University
 * Ben Hurwitz, George Mason University
 * Patrick Murray-John, George Mason University
 * Matthew Lincoln, Getty Research Institute
@@ -89,14 +89,14 @@ A big thanks to everyone who has made this project possible thus far. The Progra
 * Scott Weingart, Indiana University
 * M.H. Beals, Loughborough University
 * Patrik Persson, Lund University
-* Stéfan Sinclair, McGill University
+* St≈Ωfan Sinclair, McGill University
 * Kellen Kurschinski, McMaster University
 * John Fink, McMaster University
 * Ezra Brooks, Michigan State University
 * Jonathan Reeve, Modern Language Association
 * Ryan Cordell, Northeastern University
 * Abby Schreiber, Ohio State University
-* Aurélien Berra, Paris-Ouest University
+* Aur≈Ωlien Berra, Paris-Ouest University
 * John Russell, Penn State University
 * Amanda Visconti, Purdue University
 * Brandon Hawk, Rhode Island College
@@ -115,8 +115,8 @@ A big thanks to everyone who has made this project possible thus far. The Progra
 * Michelle Moravec, UCLA
 * Finn Arne Jorgensen, Umea University
 * Antonio Rojas Castro, Universitat Pompeu Fabra
-* Max De Wilde, Université libre de Bruxelles
-* Seth van Hooland, Université libre de Bruxelles
+* Max De Wilde, Universit≈Ω libre de Bruxelles
+* Seth van Hooland, Universit≈Ω libre de Bruxelles
 * Tessa C Hauswedell, University College London
 * Eira Tansey, University of Cincinnatti
 * Vilja Hulden, University of Colorado Boulder
