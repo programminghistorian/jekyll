@@ -6,14 +6,9 @@ layout: post
 categories: posts
 ---
 
-<figure>
-<a href="../images/ph-is-people/PhPeople-earth.png">
-        <img src="../images/ph-is-people/PhPeople-earth.png" alt=""/>
-    </a>
-    <figcaption>
-    <p>Heatmap of Contributors to The Programming Historian since launch. Map produced using Google Fusion Tables.</p>
-</figcaption>
-</figure>
+<p><figure><a href="../images/ph-is-people/PhPeople-earth.png">
+        <img src="../images/ph-is-people/PhPeople-earth.png" alt=""/></a><figcaption>
+    Heatmap of Contributors to The Programming Historian since launch. Map produced using Google Fusion Tables.</figcaption></figure></p>
 
 It sounds cheesy, but projects like *the Programming Historian* don't exist without people freely giving their time, energy, and passion. Part of our [sustainability plan](http://programminghistorian.org/#funding--ownership) has always been to ensure the project wasn't reliant upon grant funding, and that means we've had to work hard to entice volunteers to sustain our efforts. To ensure our relationship was mutually beneficial rather than one-way, we've always tried to make sure contributors were properly credited for their efforts.
 
