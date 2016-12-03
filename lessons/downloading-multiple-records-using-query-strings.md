@@ -97,9 +97,7 @@ attention. The Old Bailey Online’s [advanced search form][] lets you
 refine your searches based on ten different fields including simple
 keywords, a date range, and a crime type. As each website’s search
 feature is different it always pays to take a moment or two to play with
-and read about the search options available. In this case, read over the
-short explanation of the “Advanced” features by clicking on the “what’s
-this?” link, which will explain how to refine your search further. Since
+and read about the search options available. Since
 we have already done the simple searches for “negro” and “mulatto”, we
 know there will be results. However, let’s use the advanced search to
 limit our results to records published in the Old Bailey Proceedings
