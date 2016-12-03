@@ -7,6 +7,7 @@ redirect_from: /news.html
 <center>Subscribe to the <a href="./feed.xml">RSS feed</a> for new blog posts.</center>
 The blog is our space to share news about the project, ideas for how you might use technology in your work, and exciting examples of the Programming Historian applied out in the real world. Our blog manager is Evan Taparata.
 <br/>
+<hr/>
 
 {% for post in site.posts %}
 
@@ -14,6 +15,22 @@ The blog is our space to share news about the project, ideas for how you might u
 
 <p class="kicker">{{post.date | date: "%B %-d, %Y"}}</p>
 <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+{% assign authorCount = page.authors | size %}
+				{% if authorCount == 1 %}
+				      {{ page.authors | first }}
+                {% else %}
+                      {% for author in page.authors %}
+                           {% if forloop.first %}
+                                 {{ author }}
+                           {% elsif forloop.last %}
+                                 and {{ author }}
+                           {% else %}
+						         , {{ author }}
+                           {% endif %}
+                      {% endfor %}
+{% endif %}
+<br/>
+
 {{ post.excerpt | remove: '</p>' }} <a href="{{ site.url }}{{ post.url }}">Read the full post! &raquo;</a></p>
 
 <br/>
