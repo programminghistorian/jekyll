@@ -62,7 +62,7 @@ We owe a huge debt of thanks in particular to George Mason University (9 contrib
 
 The maps show that we've done a great job of bringing people together across North America and the UK, but there's clearly more work to be done to ensure the Programming Historian becomes a truly global community. We hope that our new (and hard at work) [Spanish language team](http://programminghistorian.org/posts/announcing-new-team-spanish-language-editors) will help us grow the project in Central and South America.
 
-If anyone has African, Asian, or Australasian connections that would like to get involved, please encourage them to drop us a line.
+If anyone has African, Asian, or Australasian connections that would like to get involved, please encourage them to [drop us a line](http://programminghistorian.org/project-team).
 
 A big thanks to everyone who has made this project possible thus far. The Programming Historian is people. We're truly grateful of all of you.
 
