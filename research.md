@@ -17,16 +17,20 @@ The project team and members of the wider community are involved in a number of 
 * Adam Crymble, ['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian'](http://researchprofiles.herts.ac.uk/portal/files/10476604/Blip_2016_Autumn_2016_Final_Autumn_2016.pdf), _Blended Learning in Practice_, (2016), 49-60. {['pre-print pdf'](http://programminghistorian.org/researchpapers/openLearningCommunities2016.pdf)}
 * Fred Gibbs, ['Editorial Sustainability and Open Peer Review at Programming Historian',](http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian) _DH Commons_, Vol. 1 (2015).
 
-### Events, Posters, & Presentations
+### Workshops & Events
 
-* Fred Gibbs, 'Digital History @UM: The Programming Historian', {Event}, University of Michigan (27 January 2017).
-* Adam Crymble, 'Enhancing Digital Skills Applied to History', {Event}, North-West University, Vanderbijlpark, South Africa (20-22 June 2016). 
-* Adam Crymble and Justin Colson, 'Intro to Geocoding', {Event}, Institute of Historical Research, London, (19 April 2016).
-* Adam Crymble, 'Intro to Data Mining', {Event}, Institute of Historical Research, London (2 February 2016).
-* James Baker, 'Programming Historian Live', {Event} Software Sustainability Institute, London (19 October 2015).
+* Fred Gibbs, 'Digital History @UM: The Programming Historian', University of Michigan (27 January 2017).
+* Adam Crymble, 'Enhancing Digital Skills Applied to History', North-West University, Vanderbijlpark, South Africa (20-22 June 2016). 
+* Adam Crymble and Justin Colson, 'Intro to Geocoding', Institute of Historical Research, London, (19 April 2016).
+* Adam Crymble, 'Intro to Data Mining', Institute of Historical Research, London (2 February 2016).
+* James Baker, 'Programming Historian Live', Software Sustainability Institute, London (19 October 2015).
 * Miriam Posner, ['Digital Project Consultations',](https://dhatasa2015.wordpress.com/) _American Studies Association_, University of Toronto (10 October 2015)
-* Fred Gibbs, 'The Programming Historian' (Poster), _American Historical Association_, New York (January 2015).
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 May 2015).
+
+### Posters, Conference Papers, & Invited Talks
+
+* Adam Crymble, 'Bringing Digital Humanities into the University for Free', University of Cape Town, South Africa (27-28 June 2016).
+* Fred Gibbs, 'The Programming Historian' (Poster), _American Historical Association_, New York (January 2015).
 * Adam Crymble, 'The Programming Historian 2', _Digital History Seminar_, Institute of Historical Research, London (13 October 2013).
 * Adam Crymble, 'The Programming Historian 2', _Digital Humanities 2012_, Hamburg (July 2012).
 
