@@ -84,3 +84,16 @@ has included the following people:
 {% for reviewer in site.data.reviewers %}
 {{reviewer}},{% endfor %} and, hopefully, you! Find out more about [how to
 contribute](../contribute).
+
+Finally, we'd like to thank those who have been involved in organising, running, leading, or supporting workshops involving the project and Project Team:
+
+* Anelda van der Walt, Talarify (South Africa)
+* Jonhann Templehoff, North-West University (South Africa)
+* Niklas Zimmer, University of Cape Town (South Africa)
+* Renate Meyer, University of Cape Town (South Africa)
+* Jane Winters, University of London
+* Jonathan Blaney, University of London
+* Justin Colson, University of Essex
+* Carys Brown, University of Cambridge
+* James Baker, University of Sussex
+* Anouk Lang, University of Edinburgh
