@@ -22,6 +22,7 @@ The project team and members of the wider community are involved in a number of 
 * Fred Gibbs, 'Digital History @UM: The Programming Historian', University of Michigan (27 January 2017).
 * Adam Crymble, 'Enhancing Digital Skills Applied to History', North-West University, Vanderbijlpark, South Africa (20-22 June 2016). 
 * Adam Crymble and Justin Colson, 'Intro to Geocoding', Institute of Historical Research, London, (19 April 2016).
+* Carys Brown, James Baker, Adam Crymble, 'Defining Effective Digital History Mentorship', University of Cambridge (15 March 2016).
 * Adam Crymble, 'Intro to Data Mining', Institute of Historical Research, London (2 February 2016).
 * James Baker, 'Programming Historian Live', Software Sustainability Institute, London (19 October 2015).
 * Miriam Posner, ['Digital Project Consultations',](https://dhatasa2015.wordpress.com/) _American Studies Association_, University of Toronto (10 October 2015)
