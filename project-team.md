@@ -88,7 +88,7 @@ contribute](../contribute).
 Finally, we'd like to thank those who have been involved in organising, running, leading, or supporting workshops involving the project and Project Team:
 
 * Anelda van der Walt, Talarify (South Africa)
-* Jonhann Templehoff, North-West University (South Africa)
+* Johann Templehoff, North-West University (South Africa)
 * Niklas Zimmer, University of Cape Town (South Africa)
 * Renate Meyer, University of Cape Town (South Africa)
 * Jane Winters, University of London
