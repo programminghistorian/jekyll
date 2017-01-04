@@ -28,7 +28,7 @@ Page Table of Contents:
 
 ---
 
-## Our Philosphy
+## Our Philosophy
 
 _The Programming Historian_ is committed to openess, access, and quality:
 
