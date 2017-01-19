@@ -5,7 +5,7 @@ redirect_from: /news.html
 ---
 
 <center>Subscribe to the <a href="./feed.xml">RSS feed</a> for new blog posts.</center>
-The blog is our space to share news about the project, ideas for how you might use technology in your work, and exciting examples of the Programming Historian applied out in the real world. Our blog manager is Evan Taparata.
+The blog is our space to share news about the project, ideas for how you might use technology in your work, and exciting examples of the Programming Historian applied out in the real world.
 <br/>
 <hr/>
 
