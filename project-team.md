@@ -50,8 +50,6 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 
 {% include contact-info.html name="Ian Milligan" %}
 
-{% include contact-info.html name="Evan Taparata" %}
-
 {% include contact-info.html name="Amanda Visconti" %}
 
 {% include contact-info.html name="Jeri Wieringa" %}
@@ -64,6 +62,7 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 * Alan MacEachern, Western University (2008-2013).
 * Miriam Posner, UCLA (2012-2016).
 * Carrie Sanders, UCLA (2013-2014).
+* Evan Taparata, University of Minnesota (2016).
 * William J. Turkel, Western University (2008-2015).
 
 ## Community Participants
