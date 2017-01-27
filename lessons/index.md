@@ -292,8 +292,15 @@ Mapping can be an effective way to visualize and interpret historical data. Thes
       <p>Jim Clifford, Josh MacFadyen, Daniel Macfarlane</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/geocoding-qgis">
+      <img src="../gallery/geocoding-qgis.png">
+      <h3>Geocoding Historical Data Using QGIS</h3>
+      <p>Justin Colson</p>
+    </a>
+  </li>
 </ul>
-
+http://programminghistorian.org/lessons/geocoding-qgis
 
 Network Analysis
 ---------------
