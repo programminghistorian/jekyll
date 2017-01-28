@@ -300,7 +300,6 @@ Mapping can be an effective way to visualize and interpret historical data. Thes
     </a>
   </li>
 </ul>
-http://programminghistorian.org/lessons/geocoding-qgis
 
 Network Analysis
 ---------------
