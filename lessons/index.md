@@ -404,6 +404,114 @@ Introduction to Python
 The *Programming Historian* was originally written as a series of (mostly) Python lessons that
 were intended to be followed in sequence.
 
+<ul class="lesson-images">
+  <li>
+    <a href="../lessons/introduction-and-installation">
+      <img src="../gallery/introduction-and-installation.jpg">
+      <h3>Python Introduction and Installation</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/mac-installation">
+      <img src="../gallery/mac-installation.jpg">
+      <h3>Setting Up an Integrated Development Environment for Python for Mac</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/viewing-html-files">
+      <img src="../gallery/viewing-html-files.jpg">
+      <h3>Understanding Web Pages and HTML</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/working-with-text-files">
+      <img src="../gallery/working-with-text-files.jpg">
+      <h3>Working with Text Files in Python</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/code-reuse-and-modularity">
+      <img src="../gallery/code-reuse-and-modularity.jpg">
+      <h3>Code Reuse and Modularity in Python</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/working-with-web-pages">
+      <img src="../gallery/working-with-web-pages.jpg">
+      <h3>Downloading Web Pages with Python</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/manipulating-strings-in-python">
+      <img src="../gallery/manipulating-strings-in-python.jpg">
+      <h3>Manipulating Strings in Python</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/from-html-to-list-of-words-1">
+      <img src="../gallery/from-html-to-list-of-words-1.jpg">
+      <h3>From HTML to a List of Words (part 1)</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/from-html-to-list-of-words-2">
+      <img src="../gallery/from-html-to-list-of-words-2.jpg">
+      <h3>From HTML to a List of Words (part 2)</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/normalizing-data">
+      <img src="../gallery/normalizing-data.jpg">
+      <h3>Normalizing Textual Data with Python</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/counting-frequencies">
+      <img src="../gallery/counting-frequencies.jpg">
+      <h3>Counting Word Frequency with Python</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/creating-and-viewing-html-files-with-python">
+      <img src="../gallery/creating-and-viewing-html-files-with-python.jpg">
+      <h3>Creating and Viewing HTML Files with Python</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/output-data-as-html-file">
+      <img src="../gallery/output-data-as-html-file.jpg">
+      <h3>Output Data as an HTML File with Python</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/keywords-in-context-using-n-grams">
+      <img src="../gallery/keywords-in-context-using-n-grams.jpg">
+      <h3>Keywords in Context (Using n-grams) with Python</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  </li>
+    <li>
+    <a href="../lessons/output-keywords-in-context-in-html-file">
+      <img src="../gallery/output-keywords-in-context-in-html-file.jpg">
+      <h3>Output Keywords in Context in an HTML File with Python</h3>
+      <p>William J. Turkel &amp; Adam Crymble</p>
+    </a>
+  
+</ul>
+
 -   [Python Introduction and Installation](../lessons/introduction-and-installation) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
 -   Setting Up an Integrated Development Environment for Python for [Mac](../lessons/mac-installation), [Linux](../lessons/linux-installation), or [Windows](../lessons/windows-installation)
 -   [Understanding Web Pages and HTML](../lessons/viewing-html-files) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
