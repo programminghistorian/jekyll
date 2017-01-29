@@ -407,119 +407,119 @@ were intended to be followed in sequence.
 <ul class="lesson-images">
   <li>
     <a href="../lessons/introduction-and-installation">
-      <img src="../gallery/introduction-and-installation.jpg">
+      <img src="../gallery/introduction-and-installation.png">
       <h3>Python Introduction and Installation</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/mac-installation">
-      <img src="../gallery/mac-installation.jpg">
+      <img src="../gallery/mac-installation.png">
       <h3>Setting Up an Integrated Development Environment for Python for Mac</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
       <li>
     <a href="../lessons/windows-installation">
-      <img src="../gallery/windows-installation.jpg">
+      <img src="../gallery/windows-installation.png">
       <h3>Setting Up an Integrated Development Environment for Python for Windows</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
       <li>
     <a href="../lessons/linux-installation">
-      <img src="../gallery/linux-installation.jpg">
+      <img src="../gallery/linux-installation.png">
       <h3>Setting Up an Integrated Development Environment for Python for Linux</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/viewing-html-files">
-      <img src="../gallery/viewing-html-files.jpg">
+      <img src="../gallery/viewing-html-files.png">
       <h3>Understanding Web Pages and HTML</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/working-with-text-files">
-      <img src="../gallery/working-with-text-files.jpg">
+      <img src="../gallery/working-with-text-files.png">
       <h3>Working with Text Files in Python</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/code-reuse-and-modularity">
-      <img src="../gallery/code-reuse-and-modularity.jpg">
+      <img src="../gallery/code-reuse-and-modularity.png">
       <h3>Code Reuse and Modularity in Python</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/working-with-web-pages">
-      <img src="../gallery/working-with-web-pages.jpg">
+      <img src="../gallery/working-with-web-pages.png">
       <h3>Downloading Web Pages with Python</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/manipulating-strings-in-python">
-      <img src="../gallery/manipulating-strings-in-python.jpg">
+      <img src="../gallery/manipulating-strings-in-python.png">
       <h3>Manipulating Strings in Python</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/from-html-to-list-of-words-1">
-      <img src="../gallery/from-html-to-list-of-words-1.jpg">
+      <img src="../gallery/from-html-to-list-of-words-1.png">
       <h3>From HTML to a List of Words (part 1)</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/from-html-to-list-of-words-2">
-      <img src="../gallery/from-html-to-list-of-words-2.jpg">
+      <img src="../gallery/from-html-to-list-of-words-2.png">
       <h3>From HTML to a List of Words (part 2)</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/normalizing-data">
-      <img src="../gallery/normalizing-data.jpg">
+      <img src="../gallery/normalizing-data.png">
       <h3>Normalizing Textual Data with Python</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/counting-frequencies">
-      <img src="../gallery/counting-frequencies.jpg">
+      <img src="../gallery/counting-frequencies.png">
       <h3>Counting Word Frequency with Python</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/creating-and-viewing-html-files-with-python">
-      <img src="../gallery/creating-and-viewing-html-files-with-python.jpg">
+      <img src="../gallery/creating-and-viewing-html-files-with-python.png">
       <h3>Creating and Viewing HTML Files with Python</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/output-data-as-html-file">
-      <img src="../gallery/output-data-as-html-file.jpg">
+      <img src="../gallery/output-data-as-html-file.png">
       <h3>Output Data as an HTML File with Python</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/keywords-in-context-using-n-grams">
-      <img src="../gallery/keywords-in-context-using-n-grams.jpg">
+      <img src="../gallery/keywords-in-context-using-n-grams.png">
       <h3>Keywords in Context (Using n-grams) with Python</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
     <li>
     <a href="../lessons/output-keywords-in-context-in-html-file">
-      <img src="../gallery/output-keywords-in-context-in-html-file.jpg">
+      <img src="../gallery/output-keywords-in-context-in-html-file.png">
       <h3>Output Keywords in Context in an HTML File with Python</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
