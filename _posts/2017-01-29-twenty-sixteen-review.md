@@ -1,5 +1,5 @@
 ---
-title: Highlights from 2016: Programming Historian New Additions
+title: Highlights from 2016 - Programming Historian New Additions
 authors:
 - Adam Crymble
 layout: post
