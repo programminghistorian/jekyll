@@ -522,7 +522,7 @@ You have several options for changing the visual design of your site: you can cu
 - The [Jekyll Themes](http://jekyllthemes.org/) directory (free)
 - [JekyllThemes.io](http://jekyllthemes.io/) (free and paid)
 
-Note that how Jekyll handles themes changed in mid-Fall 2016; where the standard practice used to be adding a set of files to your website folder, Jekyll now encourages you to add themes as Ruby gems (just like how we added Jekyll to our computer as a Ruby gem, early in this lesson). You may be able to ignore this change and just add themes the old way described in documentation from before mid-Fall 2016.
+Note that how Jekyll handles themes changed in mid-Fall 2016; where the standard practice used to be adding a set of files to your website folder, Jekyll now encourages you to add themes as Ruby gems (just like how we added Jekyll to our computer as a Ruby gem, early in this lesson). You may be able to ignore this change and just add themes the old way described in documentation from before mid-Fall 2016, or you can check out [this blog post which follows up on this lesson to help you switch to a new website theme](http://literaturegeek.com/2017/02/04/building-research-website-with-jekyll-githubpages-theming).
 
 ### Functionality <a id="section7-2"></a>
 
