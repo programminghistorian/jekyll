@@ -228,7 +228,7 @@ You are now ready to skip ahead to the next section.
 Many of the instructions for OS X installation are similar to Windows,
 with a few differences. In fact, it is a bit easier.
 
-1.  Download and [install MALLET 2.0.7 (*mallet-2.0.7.tar.gaz*as of Summer
+1.  Download and [install MALLET 2.0.7 (*mallet-2.0.7.tar.gaz* as of Summer
     2012).][`download MALLET`]
 2.  Download the [Java Development Kit][Java developer's kit].
 
@@ -603,7 +603,7 @@ report.
   [Topic Modeling Martha Ballard's Diary]: http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/
   [MALLET]: http://mallet.cs.umass.edu/index.php
   [*Gibbs sampling*]: http://en.wikipedia.org/wiki/Gibbs_sampling
-  [`download MALLET`]: http://mallet.cs.umass.edu/download.php
+  [`download MALLET`]: http://mallet.cs.umass.edu/dist/mallet-2.0.7.tar.gz
   [Java developer's kit]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
   [automate this process]: http://electricarchaeology.ca/2012/07/09/mining-a-day-of-archaeology/
   [Mining the Open Web with Looted Heritage Draft]: http://electricarchaeology.ca/2012/06/08/mining-the-open-web-with-looted-heritage-draft/
