@@ -30,9 +30,11 @@ Launched in 2012, *The Programming Historian* offers more than 50 novice-friendl
 
 Interested candidates should submit a short 1-2 page CV and a 1-page expression of interest outlining your interests, experience, and vision for the theme, to Adam Crymble (adam.crymble@gmail.com) by 28 February 2017. Please direct any questions to Adam in the first instance. Please note that this is a VOLUNTEER ACADEMIC SERVICE POSITION and there is no salary or stipend associated with this role. We expect this role to involve no more than 10 hours of active effort per month.
  
+[**Update for clarity on 10 Feb 2017 - We've had a few questions about the level of 'expertise' required in the subject specialty. We're looking for someone who is interested in a particular area of digital humanities and wants to develop our offering in that area. You do not have to be a world expert on the ins-and-outs of the area, but you have to be interested in it and broadly aware of the current trends/concerns/approaches used. We hope that clarifies**]
+ 
 The Ideal Candidate:
 
-* Subject-specific expertise in thematic area
+* Subject-specific interest in thematic area
 * Able to commit the role
 * Self directed & reliable
 * Understanding of academic publishing beyond one's own country
