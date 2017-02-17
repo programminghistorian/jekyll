@@ -8,7 +8,11 @@
   <header role="banner">
     <h1><a href="{{ site.url }}">The Programming Historian</a></h1>
 
-	{% include menu.html %}
+    {% if page.url contains '/es/' %}
+       {% include es/menu.html %}
+    {% else %}
+       {% include menu.html %}
+    {% endif %}
 
   </header>
 

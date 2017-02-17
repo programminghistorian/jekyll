@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
-
-  {% include header.html %}
+  
+  {% if page.url contains '/es/' %}
+     {% include es/header.html %}
+  {% else %}
+     {% include header.html %}
+  {% endif %}
   
   {% assign authorCount = page.authors | size %}
   {% capture authorString %}
@@ -25,7 +29,12 @@
     <header role="banner">
     <h1><a href="{{ site.url }}">The Programming Historian</a></h1>
 
-	{% include menu.html %}
+    {% if page.url contains '/es/' %}
+       {% include es/menu.html %}
+    {% else %}
+       {% include menu.html %}
+    {% endif %}
+
 	</header>
 
 	<div role="main">
@@ -116,7 +125,11 @@
         </article>
     </div>
 
-    {% include footer.html %}
+  {% if page.url contains '/es/' %}
+     {% include es/footer.html %}
+  {% else %}
+     {% include footer.html %}
+  {% endif %}
 
     </body>
 </html>
