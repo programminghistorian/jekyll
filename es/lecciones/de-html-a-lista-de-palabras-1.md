@@ -14,6 +14,7 @@ reviewer:
 layout: default
 next: de-html-a-lista-de-palabras-2
 previous: manipulacion-de-cadenas-de-texto-en-python
+redirect_from: /es/lessons/from-html-to-list-of-words-1
 ---
 
 ## Objetivos de la lección
