@@ -19,7 +19,7 @@ Si no puedes encontrar lo que estás buscando, esperamos tus [comentarios]. O, m
 
 ## Contacto
 
-Por favor, dirige la correspondencia primeramente a [Antonio Rojas Castro].
+Por favor, dirige la correspondencia primeramente a [Antonio Rojas Castro], en el Cologne Center for eHumanities.
 
 - - - - - 
 
