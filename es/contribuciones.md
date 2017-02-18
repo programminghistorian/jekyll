@@ -80,7 +80,7 @@ Si se te ocurren más formas de participación, siempre puedes escribirnos un em
 
 ¡Gracias por ayudarnos a mejorar _The Programming Historian en español_!
 
----
+
 
 [nuevas lecciones]: http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones
 [envío]: http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones
