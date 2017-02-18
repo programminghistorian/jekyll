@@ -1,5 +1,5 @@
 ---
-title: Give Feedback
+title: Comentarios y sugerencias
 date: 07-11-2015
 layout: directory
 redirect_from: /report-issue.html
