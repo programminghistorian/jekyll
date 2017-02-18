@@ -16,13 +16,13 @@ Esta página contiene instrucciones para los autores que deseen contribuir con u
     <img src="../images/author-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
 
-Si quieres traducir una lección, tienes una idea para una lección nueva o ya has escrito un tutorial que crees que puede adaptarse a *The Programming Historian en español*, contacta con [Antonio Rojas] (mailto:rojas.castro.antonio@gmail.com). Cuanto antes te pongas en contacto con nosotros, mucho mejor; de esta manera, te ayudaremos a plantear adecuadamente tu contribución, teniendo en cuenta el público objetivo y el nivel de conocimientos necesarios. También te asignaremos un editor para en todo momento que pueda resolver dudas y ayudarte a desarrollar la lección.
+Si quieres traducir una lección, tienes una idea para una lección nueva o ya has escrito un tutorial que crees que puede adaptarse a *The Programming Historian en español*, contacta con [Antonio Rojas]. Cuanto antes te pongas en contacto con nosotros, mucho mejor; de esta manera, te ayudaremos a plantear adecuadamente tu contribución, teniendo en cuenta el público objetivo y el nivel de conocimientos necesarios. También te asignaremos un editor para en todo momento que pueda resolver dudas y ayudarte a desarrollar la lección.
 
 **¿Qué lección traducir?** Si quieres traducir una lección, por favor, revisa la lista de [traducciones pendientes] y ponte en contacto con nosotros. Buscamos traducciones rigurosas, de lectura amena y que, además, tengan en cuenta el contexto hispánico y los recursos disponibles en lengua española.
 
 **¿Qué tipo de lección queremos?** No tenemos una lección estándar en *The Programming Historian en español*; si quieres contribuir con una lección nueva, conviene saber que aceptamos tutoriales sobre cualquier tema siempre que ayuden a los humanistas (a menudo historiadores, pero no siempre) a llevar a cabo su investigación en cualquier momento del proceso. Aceptamos lecciones dirigidas a todos los públicos, desde las que requieren habilidades y experencia avanzadas, hasta las que tienen naturaleza introductoria para principiantes. Las lecciones pueden tener una extensión breve y tratar de manera directa una tarea concreta; o bien, pueden ser lecciones largas que requieren un mayor número de explicaciones en detalle.
 
-**En resumen, aceptamos todo tipo de propuestas.** Para hacerte una idea de lo que buscamos, echa un vistazo a las [lecciones ya publicadas] (http://programminghistorian.org/es/indice-de-lecciones), lee nuestra [guía para revisores] (http://programminghistorian.org/es/guia-para-revisores) o accede a las [lecciones en desarrollo] (https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Ten en cuenta que aceptamos lecciones sobre un tema ya cubierto o en desarollo dado que cada propuesta supone una contribución única: creemos que cada uno aprende de manera distinta y por eso favorecemos cierto solapamiento.
+**En resumen, aceptamos todo tipo de propuestas.** Para hacerte una idea de lo que buscamos, echa un vistazo a las [lecciones ya publicadas], lee nuestra [guía para revisores] o accede a las [lecciones en desarrollo]. Ten en cuenta que aceptamos lecciones sobre un tema ya cubierto o en desarollo dado que cada propuesta supone una contribución única: creemos que cada uno aprende de manera distinta y por eso favorecemos cierto solapamiento.
 
 <br/><br/>
 
@@ -279,7 +279,11 @@ Finalmente, el equipo editorial the *The Programming Historian en español* revi
 ¡Felicidades! ¡Ya has publicado tu traducción o lección en *The Programming Historian en español*!
 
 
+[Antonio Rojas]: mailto:rojas.castro.antonio@gmail.com
 [traducciones pendientes]: https://github.com/PH-espagnol/borradores/blob/master/lista-de-traduccion.md
+[lecciones ya publicadas]: http://programminghistorian.org/es/indice-de-lecciones
+[guía para revisores]: http://programminghistorian.org/es/guia-para-revisores
+[lecciones en desarrollo]: https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons
   [Ian Milligan]: mailto:i2millig@uwaterloo.ca
   [Lesson Pipeline wiki page]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
   [reviewer guidlines]: ../reviewer-guidelines.html
