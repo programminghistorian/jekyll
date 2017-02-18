@@ -19,12 +19,12 @@ Si no puedes encontrar lo que estás buscando, esperamos tus [comentarios]. O, m
 
 ## Contacto
 
-Por favor, dirige la correspondencia primeramente a [Ian Milligan], en la Universidad de Waterloo.
+Por favor, dirige la correspondencia primeramente a [Jeri Wieringa], en la Universidad George Mason.
 
 - - - - - 
 
 * Índice
-{ : toc}
+{:toc}
 - - - - - 
 
 
@@ -66,7 +66,7 @@ El proyecto agradece el apoyo anterior recibido de la Network in Canadian Histor
 
 Si deseas citar el proyecto *The Programming Historian*, te sugerimos hacerlo de la siguiente forma:
 
-Crymble, Adam, Fred Gibbs, Allison Hegel, Caleb McDaniel, Ian Milligan, Evan Taparata, Amanda Visconti, and Jeri Wieringa, eds. *The Programming Historian*. 2nd ed., 2016. [http://programminghistorian.org].
+Afanador-Llach, Maria José, Antonio Rojas Castro, Adam Crymble, Víctor Gayol, Fred Gibbs, Caleb McDaniel, Ian Milligan, Evan Taparata, Amanda Visconti, and Jeri Wieringa, eds. _The Programming Historian_. 2nd ed., 2017. [http://programminghistorian.org].
 
 La forma de citación de cada tutorial individual se muestra al pie de cada leccion.
 
@@ -77,7 +77,7 @@ La forma de citación de cada tutorial individual se muestra al pie de cada lecc
 [equipo de proyecto]: http://programminghistorian.org/es/equipo-de-proyecto
 [comentarios]: http://programminghistorian.org/es/retroalimentacion
 [contribuye con una lección]: http://programminghistorian.org/es/contribuciones
-[Ian Milligan]: mailto:i2millig@uwaterloo.ca
+[Jeri Wieringa]: mailto:jeri.elizabeth+proghist@gmail.com
 [Creative Commons BY]: https://creativecommons.org/licenses/by/2.0/
 [Gold]: https://en.wikipedia.org/wiki/Open_access
 [RCUK]: http://www.rcuk.ac.uk/research/openaccess/
