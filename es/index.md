@@ -23,7 +23,9 @@ Por favor, dirige la correspondencia primeramente a [Antonio Rojas Castro], en e
 
 - - - - - 
 
-* Índice
+Tabla de contenidos:
+
+* TOC
 {:toc}
 
 - - - - - 
@@ -49,7 +51,7 @@ No aplicamos cargos por procesamiento de artículos (APCs), o suscripción bibli
 
 Todos los tutoriales que aparecen en *The Programming Historian* han sido rigurosamente revisados por pares, corregidos y editados. Cada lección es supervisada a través del proceso de revisión por uno de nuestros editores, a quien se le asigna el texto. La revisión implica un riguroso intercambio con el editor para asegurar que la lección funciona tal cual se ha planeado y que todos los conceptos están explicados por completo para un lector no especializado, antes de que el tutotial sea enviado para su prueba a los revisores externos y que estos provean sus comentarios. Pretendemos regresar el material revisado a los autores de la manera más rápida, pero nuestra prioridad siempre es asegurar un producto de calidad.
 
-Nuestro proceso de revisión entre pares en un poco diferente del que puede considerarse el proceso “tradicional”. No solicitamos a los revisores que juzguen si el tutorial es "suficientemente bueno" para ser publicado. Por el contrario, consideramos el proceso de revisión como un componente integral del esfuerzo de académicos colaborativo, productivo y sustentable para crear mutuamente recursos técnicos útiles. Una vez que el tutorial pasa a nuestro [flujo de trabajo editorial], nuestro objetivo es hacer todo lo posible para asegurar que el tutorial sea lo más útil posible y sea publicado en un tiempo razonable. Para más información consulta nuestra [Guía para revisores].
+Nuestro proceso de revisión entre pares en un poco diferente del que puede considerarse el proceso “tradicional”. No solicitamos a los revisores que juzguen si el tutorial es "suficientemente bueno" para ser publicado. Por el contrario, consideramos el proceso de revisión como un componente integral del esfuerzo de académicos colaborativo, productivo y sostenible para crear mutuamente recursos técnicos útiles. Una vez que el tutorial pasa a nuestro [flujo de trabajo editorial], nuestro objetivo es hacer todo lo posible para asegurar que el tutorial sea lo más útil posible y sea publicado en un tiempo razonable. Para más información consulta nuestra [Guía para revisores].
 
 Una vez que ha comenzado el proceso de revisión por pares, el papel del editor es mediar entre los revisores y el autor y mantener un seguimiento a buen tiempo. A diferencia de los procesos de revisión por pares cerrados, serás avisado de los comentarios de los revisores inmediatamente en cuanto aparezcan. Esto significa que posiblemente verás los comentarios del revisor antes que el editor los vea. Si en algún momento no estás seguro si debes comenzar a abordar los comentarios o esperar a que el editor los juzgue, no dudes en enviar un mensaje para aclarar el punto. Entenderás que el editor puede tardar unos días en responder, pero esperamos que por las mejoras en la versión valga la pena esperar.
 
