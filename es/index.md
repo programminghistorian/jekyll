@@ -53,7 +53,7 @@ Nuestro proceso de revisión entre pares en un poco diferente del que puede cons
 
 Una vez que ha comenzado el proceso de revisión por pares, el papel del editor es mediar entre los revisores y el autor y mantener un seguimiento a buen tiempo. A diferencia de los procesos de revisión por pares cerrados, serás avisado de los comentarios de los revisores inmediatamente en cuanto aparezcan. Esto significa que posiblemente verás los comentarios del revisor antes que el editor los vea. Si en algún momento no estás seguro si debes comenzar a abordar los comentarios o esperar a que el editor los juzgue, no dudes en enviar un mensaje para aclarar el punto. Entenderás que el editor puede tardar unos días en responder, pero esperamos que por las mejoras en la versión valga la pena esperar.
 
-De acuerdo con las ideas de una enseñanza pública y de una revisión por pares abierta, generalmente fomentamos que las discusiones e intercambios se den en GitHub, como se describe en nuestro flujo de trabajo editorial. Sin embargo, también queremos que todos se sientan cómodos y reconocemos qeu en algunos casos unas palabras en privado puede ser lo más apropiado. Si sientes la necesidad de discutir un asunto relacionado con una lección o con una revisión, no dudes en enviar directamente [un correo electrónico al editor asignado], o penerse en contacto con nuestros *ombudsperson*, [Ian Milligan o Amanda Visconti].
+De acuerdo con las ideas de una enseñanza pública y de una revisión por pares abierta, generalmente fomentamos que las discusiones e intercambios se den en GitHub, como se describe en nuestro flujo de trabajo editorial. Sin embargo, también queremos que todos se sientan cómodos y reconocemos qeu en algunos casos unas palabras en privado puede ser lo más apropiado. Si sientes la necesidad de discutir un asunto relacionado con una lección o con una revisión, no dudes en enviar directamente [un correo electrónico al editor asignado], o ponerte en contacto con nuestros *ombudsperson*, [María José Afanador-Llach o Víctor Gayol].
 
 Nos esforzamos en asegurar que todos los tutoriales sean funcionales a partir de la fecha de su publicación. No obstante, de vez en cuando cambia la tecnología y las lecciones dejan de funcionar según lo previsto. Si esto sucede, por favor [háznoslo saber] y asignaremos un editor para solucionar el problema.
 
@@ -88,7 +88,7 @@ La forma de citación de cada tutorial individual se muestra al pie de cada lecc
 [flujo de trabajo editorial]: http://programminghistorian.org/es/flujo-de-trabajo-nueva-leccion
 [Guía para revisores]: http://programminghistorian.org/es/guia-para-revisores
 [un correo electrónico al editor asignado]: http://programminghistorian.org/es/equipo-de-proyecto
-[Ian Milligan o Amanda Visconti]: http://programminghistorian.org/project-team
+[María José Afanador-Llach o Víctor Gayol]: http://programminghistorian.org/es/equipo-de-proyecto
 [háznoslo saber]: http://programminghistorian.org/es/retroalimentacion
 [NiCHE]: http://niche-canada.org/
 [RRCHNM]: http://chnm.gmu.edu/
