@@ -19,7 +19,7 @@ Si no puedes encontrar lo que estás buscando, esperamos tus [comentarios]. O, m
 
 ## Contacto
 
-Por favor, dirige la correspondencia primeramente a [Jeri Wieringa], en la Universidad George Mason.
+Por favor, dirige la correspondencia primeramente a [Antonio Rojas Castro].
 
 - - - - - 
 
@@ -78,7 +78,7 @@ La forma de citación de cada tutorial individual se muestra al pie de cada lecc
 [equipo de proyecto]: http://programminghistorian.org/es/equipo-de-proyecto
 [comentarios]: http://programminghistorian.org/es/retroalimentacion
 [contribuye con una lección]: http://programminghistorian.org/es/contribuciones
-[Jeri Wieringa]: mailto:jeri.elizabeth+proghist@gmail.com
+[Antonio Rojas Castro]: mailto:rojas.castro.antonio@gmail.com
 [Creative Commons BY]: https://creativecommons.org/licenses/by/2.0/
 [Gold]: https://en.wikipedia.org/wiki/Open_access
 [RCUK]: http://www.rcuk.ac.uk/research/openaccess/
