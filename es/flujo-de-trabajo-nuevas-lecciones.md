@@ -18,7 +18,7 @@ Esta página contiene instrucciones para los autores que deseen contribuir con u
 
 Si quieres traducir una lección, tienes una idea para una lección nueva o ya has escrito un tutorial que crees que puede adaptarse a *The Programming Historian en español*, contacta con [Antonio Rojas] (mailto:rojas.castro.antonio@gmail.com). Cuanto antes te pongas en contacto con nosotros, mucho mejor; de esta manera, te ayudaremos a plantear adecuadamente tu contribución, teniendo en cuenta el público objetivo y el nivel de conocimientos necesarios. También te asignaremos un editor para en todo momento que pueda resolver dudas y ayudarte a desarrollar la lección.
 
-**¿Qué lección traducir?** Si quieres traducir una lección, por favor, revisa la lista de [traducciones pendientes] (translation-list) y ponte en contacto con nosotros. Buscamos traducciones rigurosas, de lectura amena y que, además, tengan en cuenta el contexto hispánico y los recursos disponibles en lengua española.
+**¿Qué lección traducir?** Si quieres traducir una lección, por favor, revisa la lista de [traducciones pendientes] y ponte en contacto con nosotros. Buscamos traducciones rigurosas, de lectura amena y que, además, tengan en cuenta el contexto hispánico y los recursos disponibles en lengua española.
 
 **¿Qué tipo de lección queremos?** No tenemos una lección estándar en *The Programming Historian en español*; si quieres contribuir con una lección nueva, conviene saber que aceptamos tutoriales sobre cualquier tema siempre que ayuden a los humanistas (a menudo historiadores, pero no siempre) a llevar a cabo su investigación en cualquier momento del proceso. Aceptamos lecciones dirigidas a todos los públicos, desde las que requieren habilidades y experencia avanzadas, hasta las que tienen naturaleza introductoria para principiantes. Las lecciones pueden tener una extensión breve y tratar de manera directa una tarea concreta; o bien, pueden ser lecciones largas que requieren un mayor número de explicaciones en detalle.
 
@@ -279,6 +279,7 @@ Finalmente, el equipo editorial the *The Programming Historian en español* revi
 ¡Felicidades! ¡Ya has publicado tu traducción o lección en *The Programming Historian en español*!
 
 
+[traducciones pendientes]: https://github.com/PH-espagnol/borradores/blob/master/lista-de-traduccion.md
   [Ian Milligan]: mailto:i2millig@uwaterloo.ca
   [Lesson Pipeline wiki page]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
   [reviewer guidlines]: ../reviewer-guidelines.html
