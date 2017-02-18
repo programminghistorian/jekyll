@@ -14,6 +14,7 @@ reviewer:
 layout: default
 next: normalizar-datos
 previous: de-html-a-lista-de-palabras-1
+redirect_from: /es/lessons/from-html-to-list-of-words-2
 ---
 
 ## Objetivos de la lección
