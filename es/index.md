@@ -85,7 +85,7 @@ La forma de citación de cada tutorial individual se muestra al pie de cada lecc
 [HEFCE]: http://www.hefce.ac.uk/rsrch/oa/">HEFCE
 [Canadian Tri-Agency Open Access Policy]: http://www.science.gc.ca/default.asp?lang=En&amp;n=F6765465-1
 [DOAJ]: https://doaj.org/toc/2397-2068
-[flujo de trabajo editorial]: http://programminghistorian.org/es/flujo-de-trabajo-nueva-leccion
+[flujo de trabajo editorial]: http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones
 [Guía para revisores]: http://programminghistorian.org/es/guia-para-revisores
 [un correo electrónico al editor asignado]: http://programminghistorian.org/es/equipo-de-proyecto
 [María José Afanador-Llach o Víctor Gayol]: http://programminghistorian.org/es/equipo-de-proyecto
