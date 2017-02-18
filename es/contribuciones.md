@@ -82,11 +82,11 @@ Si se te ocurren más formas de participación, siempre puedes escribirnos un em
 
 ¡Gracias por ayudarnos a mejorar _The Programming Historian en español_!
 
-[nuevas lecciones]: http://es.programminghistorian.org/flujo-de-trabajo-nuevas-lecciones
-[envío]: http://es.programminghistorian.org/flujo-de-trabajo-nuevas-lecciones
+[nuevas lecciones]: http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones
+[envío]: http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones
 [Antonio Rojas]: mailto:rojas.castro.antonio@gmail.com
-[revisores]: http://es.programminghistorian.org/guia-para-revisores
-[comentarios](http://es.programminghistorian.org/comentarios)
+[revisores]: http://programminghistorian.org/es/guia-para-revisores
+[comentarios]: http://programminghistorian.org/es/comentarios
 [WorldCat]: http://www.worldcat.org/title/programming-historian/oclc/951537099
 [University of Purdue library]: http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink
 [Directory of Open Access Journals]: https://doaj.org/toc/2397-2068
