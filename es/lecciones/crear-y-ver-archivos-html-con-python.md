@@ -14,6 +14,7 @@ reviewer:
 layout: default
 next: salida-de-data-como-archivo-html
 previous: contar-frecuencias
+redirect_from: /es/lessons/creating-and-viewing-html-files-with-python
 ---
 
 ## Objetivo de la lección
