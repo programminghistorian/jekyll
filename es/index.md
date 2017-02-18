@@ -75,7 +75,7 @@ La forma de citación de cada tutorial individual se muestra al pie de cada lecc
 [lecciones]: http://programminghistorian.org/es/lecciones
 [contribuciones]: http://programminghistorian.org/es/contribuciones
 [equipo de proyecto]: http://programminghistorian.org/es/equipo-de-proyecto
-[comentarios]: http://programminghistorian.org/es/comentarios
+[comentarios]: http://programminghistorian.org/es/retroalimentacion
 [contribuye con una lección]: http://programminghistorian.org/es/contribuciones
 [Ian Milligan]: mailto:i2millig@uwaterloo.ca
 [Creative Commons BY]: https://creativecommons.org/licenses/by/2.0/
@@ -88,7 +88,7 @@ La forma de citación de cada tutorial individual se muestra al pie de cada lecc
 [Guía para revisores]: http://programminghistorian.org/es/guia-para-revisores
 [un correo electrónico al editor asignado]: http://programminghistorian.org/es/equipo-de-proyecto
 [Ian Milligan o Amanda Visconti]: http://programminghistorian.org/project-team
-[háznoslo saber]: http://programminghistorian.org/es/comentarios
+[háznoslo saber]: http://programminghistorian.org/es/retroalimentacion
 [NiCHE]: http://niche-canada.org/
 [RRCHNM]: http://chnm.gmu.edu/
 [Consejo Editorial]: http://programminghistorian.org/project-team
