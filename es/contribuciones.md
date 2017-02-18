@@ -78,9 +78,9 @@ Este proyecto se propone demostrar cómo deben ser las publicaciones académicas
 
 Si se te ocurren más formas de participación, siempre puedes escribirnos un email a [Antonio Rojas] con comentarios, preguntas, quejas o sugerencias. Nos comprometemos a responder a todos los mensajes tan pronto como sea posible.
 
----
-
 ¡Gracias por ayudarnos a mejorar _The Programming Historian en español_!
+
+---
 
 [nuevas lecciones]: http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones
 [envío]: http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones
