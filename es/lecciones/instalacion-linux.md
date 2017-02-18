@@ -13,6 +13,7 @@ translator:
 reviewer:
 - Jairo A. Melo
 layout: default
+redirect_from: /es/lessons/linux-installation
 ---
 </em>
 
