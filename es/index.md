@@ -44,7 +44,7 @@ Todas las contribuciones a *The Programming Historian* son publicadas con una li
 
 No aplicamos cargos por procesamiento de artículos (APCs), o suscripción bibliotecaria.
 
-###Revisiones
+### Revisiones
 
 Todos los tutoriales que aparecen en *The Programming Historian* han sido rigurosamente revisados por pares, corregidos y editados. Cada lección es supervisada a través del proceso de revisión por uno de nuestros editores, a quien es asignado el texto. La revisión implica un riguroso intercambio con el editor para asegurar que la lección funciona tal cual se ha planeado y que todos los conceptos están explicados por completo para un lector no especializado, antes de que el tutotial sea enviado para su prueba a los revisores externos y que estos provean sus comentarios. Pretendemos regresar el material revisado a los autores de la manera más rápida, pero nuestra prioridad siempre es asegurar un producto de calidad.
 
@@ -72,11 +72,11 @@ La forma de citación de cada tutorial individual se muestra al pie de cada lecc
 
 
 
-[lecciones]: http://es.programminghistorian.org/lecciones
-[contribuciones]: http://es.programminghistorian.org/contribuciones
-[equipo de proyecto]: http://es.programminghistorian.org/equipo-de-proyecto
-[comentarios]: http://es.programminghistorian.org/comentarios
-[contribuye con una lección]: http://es.programminghistorian.org/contribuciones
+[lecciones]: http://programminghistorian.org/es/lecciones
+[contribuciones]: http://programminghistorian.org/es/contribuciones
+[equipo de proyecto]: http://programminghistorian.org/es/equipo-de-proyecto
+[comentarios]: http://programminghistorian.org/es/comentarios
+[contribuye con una lección]: http://programminghistorian.org/es/contribuciones
 [Ian Milligan]: mailto:i2millig@uwaterloo.ca
 [Creative Commons BY]: https://creativecommons.org/licenses/by/2.0/
 [Gold]: https://en.wikipedia.org/wiki/Open_access
@@ -84,11 +84,11 @@ La forma de citación de cada tutorial individual se muestra al pie de cada lecc
 [HEFCE]: http://www.hefce.ac.uk/rsrch/oa/">HEFCE
 [Canadian Tri-Agency Open Access Policy]: http://www.science.gc.ca/default.asp?lang=En&amp;n=F6765465-1
 [DOAJ]: https://doaj.org/toc/2397-2068
-[flujo de trabajo editorial]: http://es.programminghistorian.org/flujo-de-trabajo-nueva-leccion
-[Guía para revisores]: http://es.programminghistorian.org/guia-para-revisores
-[un correo electrónico al editor asignado]: http://es.programminghistorian.org/equipo-de-proyecto
+[flujo de trabajo editorial]: http://programminghistorian.org/es/flujo-de-trabajo-nueva-leccion
+[Guía para revisores]: http://programminghistorian.org/es/guia-para-revisores
+[un correo electrónico al editor asignado]: http://programminghistorian.org/es/equipo-de-proyecto
 [Ian Milligan o Amanda Visconti]: http://programminghistorian.org/project-team
-[háznoslo saber]: http://es.programminghistorian.org/comentarios
+[háznoslo saber]: http://programminghistorian.org/es/comentarios
 [NiCHE]: http://niche-canada.org/
 [RRCHNM]: http://chnm.gmu.edu/
 [Consejo Editorial]: http://programminghistorian.org/project-team
