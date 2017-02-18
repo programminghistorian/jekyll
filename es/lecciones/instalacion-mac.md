@@ -13,6 +13,7 @@ translator:
 reviewer:
 - Jairo A. Melo
 layout: default
+redirect_from: /es/lessons/mac-installation
 ---
 
 ### Haz respaldo (copia de seguridad) de toda tu computadora.
