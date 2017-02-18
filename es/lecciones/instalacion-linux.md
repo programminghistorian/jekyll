@@ -1,5 +1,5 @@
 ---
-title: Setting up an Integrated Development Environment for Python (Linux)
+title: Preparación de un ambiente integrado para Python (Linux)
 authors:
 - William J. Turkel
 - Adam Crymble
