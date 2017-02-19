@@ -14,6 +14,7 @@ reviewer:
 layout: default
 next: reutilizacion-de-codigo-y-modularidad
 previous: ver-archivos-html
+redirect_from: /es/lessons/working-with-text-files
 ---
 
 
