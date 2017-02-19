@@ -9,6 +9,7 @@ reviewers:
 translator:
 - Víctor Gayol
 layout: default
+redirect_from: /es/lessons/installing-python-modules-pip
 ---
 
 Objetivos de la lección
