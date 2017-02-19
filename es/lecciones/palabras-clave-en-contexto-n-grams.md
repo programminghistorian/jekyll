@@ -14,6 +14,7 @@ reviewer:
 layout: default
 next: salida-palabras-clave-contexto-ngrams
 previous: salida-de-data-como-archivo-html
+redirect_from: /es/lessons/keywords-in-context-using-n-grams
 ---
 
 ## Objetivos de la lección
