@@ -100,7 +100,7 @@ Por lo que respecta a las lecciones nuevas, queremos que las explicaciones técn
 - ¿Hay recapitulaciones, resúmenes o paradas que marcan una transición a lo largo del tutorial? 
 - Si se requiere un *dataset*, ¿está disponible en internet para descargar?
 
-### Intengrando la lección a _The Programming Historian en español_
+### Integrando la lección a _The Programming Historian en español_
 
 - ¿La lección contribuye al desarrollo de otras lecciones ya publicadas? 
 - ¿Existen enlaces adecuados que conectan la lección con otras semejantes o complementarias?
