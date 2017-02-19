@@ -15,6 +15,7 @@ layout: default
 categories: [lessons, python, original-ph]
 next: manipulacion-de-cadenas-de-texto-en-python
 previous: reutilizacion-de-codigo-y-modularidad
+redirect_from: /es/lessons/working-with-web-pages
 ---
 
 Objetivos de la lección
