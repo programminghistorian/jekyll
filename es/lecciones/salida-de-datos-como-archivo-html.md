@@ -14,6 +14,7 @@ reviewer:
 layout: default
 next: palabras-clave-en-contexto-n-grams
 previous: crear-y-ver-archivos-html-con-python
+redirect_from: /es/lessons/output-data-as-html-file
 ---
 
 ## Objetivo de la lección
