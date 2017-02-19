@@ -15,6 +15,7 @@ reviewer:
 layout: default
 next: trabajando-con-archivos-de-texto
 previous: introduccion-e-instalacion
+redirect_from: /es/lessons/viewing-html-files
 ---
 
 
