@@ -14,6 +14,7 @@ reviewer:
 layout: default
 next: descarga-multiples-registros-usando-cadenas-de-consulta
 previous: palabras-clave-en-contexto-n-grams
+redirect_from: /es/lessons/output-keywords-in-context-in-html-file
 ---
 
 ## Objetivo de la lección
