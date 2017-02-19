@@ -15,6 +15,7 @@ layout: default
 categories: [lessons, original-ph, python]
 next: trabajar-con-paginas-web
 previous: trabajar-con-archivos-de-texto
+redirect_from: /es/lessons/code-reuse-and-modularity
 ---
 
 Objetivos de la lección
