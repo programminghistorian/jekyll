@@ -15,6 +15,7 @@ reviewer:
 layout: default
 next: contar-frecuencias
 previous: de-html-a-lista-de-palabras-2
+redirect_from: /es/lessons/normalizing-data
 ---
 
 ## Objetivos de la lección
