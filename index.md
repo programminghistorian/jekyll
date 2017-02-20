@@ -66,6 +66,6 @@ The project is grateful for past support by the Network in Canadian History & En
 
 If you wish to cite _The Programming Historian_ project, may we suggest the following:
 
-Afanador-Llach, Maria José, Antonio Rojas Castro, Adam Crymble, Víctor Gayol, Fred Gibbs, Caleb McDaniel, Ian Milligan, Evan Taparata, Amanda Visconti, and Jeri Wieringa, eds. _The Programming Historian_. 2nd ed., 2017. [http://programminghistorian.org/](http://programminghistorian.org/).
+Afanador-Llach, Maria José, Antonio Rojas Castro, Adam Crymble, Víctor Gayol, Fred Gibbs, Caleb McDaniel, Ian Milligan, Amanda Visconti, and Jeri Wieringa, eds. _The Programming Historian_. 2nd ed., 2017. [http://programminghistorian.org/](http://programminghistorian.org/).
 
 Individual lesson citation formats are shown at the bottom of each tutorial.
