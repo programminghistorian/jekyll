@@ -9,7 +9,7 @@ reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
-reviewer:
+translation reviewer:
 - Jairo A. Melo
 layout: default
 next: salida-de-data-como-archivo-html
