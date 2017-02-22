@@ -10,7 +10,7 @@ reviewers:
 - Francesca Benatti
 translator:
 - Víctor Gayol
-reviewer:
+translation reviewer:
 - Jairo A. Melo
 layout: default
 next: contar-frecuencias
