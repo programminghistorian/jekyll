@@ -10,7 +10,7 @@ reviewers:
 - Amanda Morton
 translator:
 - Víctor Gayol
-reviewer:
+translation reviewer:
 - Jairo A. Melo
 layout: default
 redirect_from: /es/lessons/linux-installation
