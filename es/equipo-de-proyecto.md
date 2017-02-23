@@ -3,14 +3,13 @@ title: Equipo de proyecto
 layout: directory
 ---
 
-Nuestro equipo editorial trabaja en conjunto para ayudar a los autores a producir tutoriales de alta calidad. Por favor, dirige tu correspondencia en primer lugar a **<a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas</a>** del Cologne Center for eHumanities. Puedes seguir *The Programming Historian* en Twitter (en inglés): [@proghist](http://twitter.com/proghist).
+Nuestro equipo editorial trabaja en conjunto para ayudar a los autores a producir tutoriales de alta calidad. Por favor, dirige tu correspondencia, en primer lugar, a <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas</a>. Puedes seguir *The Programming Historian* en Twitter (en inglés): [@proghist](http://twitter.com/proghist).
 
 ## Consejo editorial
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Maria-Jose-Afanador-Llach.png" />
-Maria José Afanador-Llach works in the Fundación Histórica Neogranadina, 
-a non-profit organization digitizing endangered colonial archives in Colombia and promoting digital humanities projects.
+Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una organización sin ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro, así como promover proyectos de Humanidades Digitales.
  
 <br />
 	
@@ -22,13 +21,42 @@ a non-profit organization digitizing endangered colonial archives in Colombia an
 <br /><br /><br />
 </div>
 
-{% include contact-info.html name="Antonio Rojas Castro" %}
+
+<a href="mailto:vgayol@colmich.edu.mx"><i class="fa fa-envelope-square fa-lg"></i></a>
+	
+	
+		<a href="http://twitter.com/https://twitter.com/victor_gayol"><i class="fa fa-twitter-square fa-lg"></i></a>
+	
+	
+		<a href="http://github.com/vgayolrs"><i class="fa fa-github-square fa-lg"></i></a>
+	
+<br /><br /><br />
+
+
+<div class="contact-box">
+<img class="avatar" src="http://programminghistorian.org/avatars/Antonio-Rojas-Castro.png" />
+Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en el Cologne Center for eHumanities
+ 
+<br />
+	
+	
+		<a href="mailto:rojas.castro.antonio@gmail.com"><i class="fa fa-envelope-square fa-lg"></i></a>
+	
+	
+		<a href="http://twitter.com/@RojasCastroA"><i class="fa fa-twitter-square fa-lg"></i></a>
+	
+	
+		<a href="http://github.com/arojascastro"><i class="fa fa-github-square fa-lg"></i></a>
+	
+<br /><br /><br />
+</div>
+
 
 {% include contact-info.html name="Adam Crymble" %}
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Victor-Gayol.png" />
-Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (CPI-CONACYT), México, with a PhD in History.
+Tras obtener un doctorado en Historia, Víctor Gayol trabaja como investigador y profesor en El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
  
 <br />
 	
@@ -71,12 +99,12 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 
 Estamos especialmente agradecidos a los dedicados autores de Programming Historian que no son parte del equipo de proyecto: 
 
-{% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} y, esperemos, tú. descubre más acerca de cómo [convertirte en autor](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
+{% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} y, esperemos, tú. Descubre más acerca de cómo [convertirte en autor](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
 
 También agradecemos a todos aquellos que han ayudado a la revisión de lecciones reportando problemas, arreglando errores o realizando revisiones entre pares. Al tiempo de escribir esto se incluye a las siguientes personas:
 
 {% for reviewer in site.data.reviewers %}
-{{reviewer}},{% endfor %} y, esperamos, t también. Descubre más acerca de [cómo contribuir](http://programminghistorian.org/es/contribuciones).
+{{reviewer}},{% endfor %} y, esperamos, tú también. Descubre más acerca de [cómo contribuir](http://programminghistorian.org/es/contribuciones).
 
 Finalmente, quisiéramos agradecer a aquellos que han estado involucrados en organizar, dirigir o apoyar talleres que involucren al proyecto y al Equipo del Proyecto:
 
