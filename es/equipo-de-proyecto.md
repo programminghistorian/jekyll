@@ -71,13 +71,12 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 
 Estamos especialmente agradecidos a los dedicados autores de Programming Historian que no son parte del equipo de proyecto: 
 
-{% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](../new-lesson-workflow).
+{% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} y, esperemos, tú. descubre más acerca de cómo [convertirte en autor](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
 
 También agradecemos a todos aquellos que han ayudado a la revisión de lecciones reportando problemas, arreglando errores o realizando revisiones entre pares. Al tiempo de escribir esto se incluye a las siguientes personas:
 
 {% for reviewer in site.data.reviewers %}
-{{reviewer}},{% endfor %} and, hopefully, you! Find out more about [how to
-contribute](../contribute).
+{{reviewer}},{% endfor %} y, esperamos, t también. Descubre más acerca de [cómo contribuir](http://programminghistorian.org/es/contribuciones).
 
 Finalmente, quisiéramos agradecer a aquellos que han estado involucrados en organizar, dirigir o apoyar talleres que involucren al proyecto y al Equipo del Proyecto:
 
