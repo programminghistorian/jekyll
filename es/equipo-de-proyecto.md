@@ -21,18 +21,6 @@ Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una
 <br /><br /><br />
 </div>
 
-
-<a href="mailto:vgayol@colmich.edu.mx"><i class="fa fa-envelope-square fa-lg"></i></a>
-	
-	
-		<a href="http://twitter.com/https://twitter.com/victor_gayol"><i class="fa fa-twitter-square fa-lg"></i></a>
-	
-	
-		<a href="http://github.com/vgayolrs"><i class="fa fa-github-square fa-lg"></i></a>
-	
-<br /><br /><br />
-
-
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Antonio-Rojas-Castro.png" />
 Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en el Cologne Center for eHumanities
