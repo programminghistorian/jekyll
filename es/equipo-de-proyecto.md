@@ -3,7 +3,7 @@ title: Equipo de proyecto
 layout: directory
 ---
 
-Nuestro equipo editorial trabaja en conjunto para ayudar a los autores a producir tutoriales de alta calidad. Por favor, dirige tu correspondencia en primer lugar a Ian Milligan en la Universidad de Waterloo quien actúa como editor de comisiones.
+Nuestro equipo editorial trabaja en conjunto para ayudar a los autores a producir tutoriales de alta calidad. Por favor, dirige tu correspondencia en primer lugar a **<a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas</a>** del Cologne Center for eHumanities. Puedes seguir *The Programming Historian* en Twitter (en inglés): [@proghist](http://twitter.com/proghist).
 
 ## Consejo editorial
 
@@ -20,6 +20,7 @@ a non-profit organization digitizing endangered colonial archives in Colombia an
 	
 		<a href="http://twitter.com/https://twitter.com/mariajoafana"><i class="fa fa-twitter-square fa-lg"></i></a>
 <br /><br /><br />
+</div>
 
 {% include contact-info.html name="Antonio Rojas Castro" %}
 
@@ -43,23 +44,18 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 <br /><br /><br />
 </div>
 
-
 {% include contact-info.html name="Fred Gibbs" %}
-
-{% include contact-info.html name="Allison Hegel" %}
 
 {% include contact-info.html name="Caleb McDaniel" %}
 
 {% include contact-info.html name="Ian Milligan" %}
-
-{% include contact-info.html name="Evan Taparata" %}
 
 {% include contact-info.html name="Amanda Visconti" %}
 
 {% include contact-info.html name="Jeri Wieringa" %}
 
 
-## Miembros eméritos
+## Miembros eméritos del equipo
 
 * Jeremy Boggs, University of Virginia (2012-2014).
 * Allison Hegel, UCLA (2013-2016).
@@ -69,16 +65,29 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 * Evan Taparata, University of Minnesota (2016).
 * William J. Turkel, Western University (2008-2015).
 
-
 ## Participantes de la comunidad
 
-*Programming Historian* también se beneficia enormemente de los esfuerzos de las personas que ofrecen su tiempo y energía. Si estás interesado en unirte, ya sea con un proyecto único o con una actividad continua, por favor descubre [cómo contribuir]
+*Programming Historian* también se beneficia enormemente de los esfuerzos de las personas que ofrecen su tiempo y energía. Si estás interesado en unirte, ya sea con un proyecto único o con una actividad continua, por favor ¡descubre [cómo contribuir](http://programminghistorian.org/es/contribuciones)!
 
-Estamos especialmente agradecidos a los dedicados autores de Programming Historian que no son parte del equipo de proyecto:
+Estamos especialmente agradecidos a los dedicados autores de Programming Historian que no son parte del equipo de proyecto: 
 
-{% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} y, esperemos, tú también! Descubre más acerca de [convertirse en autor]
+{% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](../new-lesson-workflow).
 
 También agradecemos a todos aquellos que han ayudado a la revisión de lecciones reportando problemas, arreglando errores o realizando revisiones entre pares. Al tiempo de escribir esto se incluye a las siguientes personas:
 
 {% for reviewer in site.data.reviewers %}
-{{reviewer}},{% endfor %} y esperamos que tú también! Descubre más acerca de [cómo contribuir].
+{{reviewer}},{% endfor %} and, hopefully, you! Find out more about [how to
+contribute](../contribute).
+
+Finalmente, quisiéramos agradecer a aquellos que han estado involucrados en organizar, dirigir o apoyar talleres que involucren al proyecto y al Equipo del Proyecto:
+
+* Anelda van der Walt, Talarify (South Africa)
+* Johann Templehoff, North-West University (South Africa)
+* Niklas Zimmer, University of Cape Town (South Africa)
+* Renate Meyer, University of Cape Town (South Africa)
+* Jane Winters, University of London
+* Jonathan Blaney, University of London
+* Justin Colson, University of Essex
+* Carys Brown, University of Cambridge
+* James Baker, University of Sussex
+* Anouk Lang, University of Edinburgh
