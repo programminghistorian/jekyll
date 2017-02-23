@@ -43,6 +43,7 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 <br /><br /><br />
 </div>
 
+
 {% include contact-info.html name="Fred Gibbs" %}
 
 {% include contact-info.html name="Allison Hegel" %}
@@ -58,17 +59,15 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 {% include contact-info.html name="Jeri Wieringa" %}
 
 
-## Emeritus Team Members
+## Miembros eméritos
 
-{% include contact-info.html name="Jeremy Boggs" %}
-
-{% include contact-info.html name="Alan MacEachern" %}
-
-{% include contact-info.html name="Miriam Posner" %}
-
-{% include contact-info.html name="Carrie Sanders" %}
-
-{% include contact-info.html name="William J. Turkel" %}
+* Jeremy Boggs, University of Virginia (2012-2014).
+* Allison Hegel, UCLA (2013-2016).
+* Alan MacEachern, Western University (2008-2013).
+* Miriam Posner, UCLA (2012-2016).
+* Carrie Sanders, UCLA (2013-2014).
+* Evan Taparata, University of Minnesota (2016).
+* William J. Turkel, Western University (2008-2015).
 
 
 ## Participantes de la comunidad
