@@ -9,4 +9,5 @@ markdown: kramdown
 gems:
   - jekyll-redirect-from
 collections:
-- es
+  es:
+    output: true
