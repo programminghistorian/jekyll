@@ -1,0 +1,19 @@
+
+{% assign authorCount = page.authors | size %}
+{% capture authorString %}
+{% if authorCount == 1 %}
+      {{ page.authors | first }}
+{% else %}
+      {% for author in page.authors %}
+           {% if forloop.first %}
+                 {{ author }}
+           {% elsif forloop.last %}
+           {{ site.data.snippets.and[page.lang] }} {{ author }}
+           {% else %}
+		         , {{ author }}
+           {% endif %}
+      {% endfor %}
+{% endif %}
+{% endcapture %}
+
+{{ site.data.snippets.by[page.lang] | capitalize }} {{ authorString }}
