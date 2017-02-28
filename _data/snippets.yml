@@ -1,3 +1,74 @@
+menu-about:
+  en: About
+  es: Acerca de
+menu-about-overview:
+  en:
+    title: About PH
+    link: /
+  es:
+    title: Acerca de
+    link: /es/
+menu-about-team:
+  en:
+    title: Project Team
+    link: /project-team
+  es:
+    title: Equipo de proyecto
+    link: /es/equipo-de-proyecto
+menu-about-research:
+  en:
+    title: Research
+    link: /research.html
+  es:
+    title: Investigación
+    link: /es/investigacion
+menu-contribute:
+  en: Contribute
+  es: Contribuciones
+menu-contribute-overview:
+  en:
+    title: Overview
+    link: /contribute
+  es:
+    title: Contribuciones
+    link: /es/contribuciones
+menu-contribute-feedback:
+  en:
+    title: Suggestions
+    link: /feedback
+  es:
+    title: Sugerencias
+    link: /retroalimentacion
+menu-contribute-review:
+  en:
+    title: Review a lesson
+    link: /reviewer-guidelines
+  es:
+    title: Revisar una leccion
+    link: /guia-para-revisores
+menu-contribute-write:
+  en:
+    title: Write a lesson
+    link: /new-lesson-workflow
+  es:
+    title: Escribe una leccion
+    link: /flujo-de-trabajo-nuevas-lecciones
+menu-lessons:
+  en:
+    title: Lessons
+    link: /lessons
+  es:
+    title: Lecciones
+    link: /es/lecciones
+menu-blog:
+  en:
+    title: Blog
+    link: /blog
+  es:
+    title: Blog
+    link: /es/blog
+
+
 and:
    en: and
    es: y
