@@ -1,32 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang }}">
 
-  {% if page.url contains '/es/' %}
-     {% include es/header.html %}
-  {% else %}
-     {% include header.html %}
-  {% endif %}
+  {% include header.html %}
 
   <body>
 
     <header role="banner">
+
     <h1><a href="{{ site.url }}">The Programming Historian</a></h1>
 
-    {% if page.url contains '/es/' %}
-       {% include es/menu.html %}
-    {% else %}
-       {% include menu.html %}
-    {% endif %}
+    {% include menu.html %}
 
 	</header>
 
-	<div role="main">
+    <div role="main">
+        <article>
 
-	{{content}}
+	    {{content}}
 
+        </article>
     </div>
 
     {% include footer.html %}
 
-    </body>
+  </body>
+
 </html>

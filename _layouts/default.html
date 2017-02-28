@@ -1,85 +1,28 @@
-<!DOCTYPE html>
-<html>
-  
-  {% if page.url contains '/es/' %}
-     {% include es/header.html %}
-  {% else %}
-     {% include header.html %}
-  {% endif %}
-  
-  {% assign authorCount = page.authors | size %}
-  {% capture authorString %}
-  {% if authorCount == 1 %}
-        {{ page.authors | first }}
-  {% else %}
-        {% for author in page.authors %}
-             {% if forloop.first %}
-                   {{ author }}
-             {% elsif forloop.last %}
-                   and {{ author }}
-             {% else %}
-  		         , {{ author }}
-             {% endif %}
-        {% endfor %}
-  {% endif %}
-  {% endcapture %}
+---
+layout: blank
+---
 
-  <body>
+	<header>
 
-    <header role="banner">
-    <h1><a href="{{ site.url }}">The Programming Historian</a></h1>
-
-    {% if page.url contains '/es/' %}
-       {% include es/menu.html %}
-    {% else %}
-       {% include menu.html %}
+    {% if page.deprecated %}
+       <p class="deprecated"> {% include deprecated.html %} </p>
     {% endif %}
-
-	</header>
-
-	<div role="main">
-		<article>
-			<header>
-
-                {% if page.deprecated %}
-                <p class="deprecated">This is an old lesson that is no longer being actively maintained.</p>
-                {% endif %}
 				
-			    <p class="kicker">{{ page.date | date: "%B %-d, %Y" }}</p>
-				<h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
-                <p class="byline">By {{ authorString }}</p>
+     <p class="kicker">{{ page.date | date: "%B %-d, %Y" }}</p>
+ 
+     <h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+
+     <p class="byline">{% include author.html %}</p>
+
+     <ul class="credits">
+         {% include reviewer.html %}
+         <br/>
+         {% if page.difficulty %}
+            {% include difficulty.html %}
+         {% endif %}
+     </ul>
 				
-				{% assign reviewerCount = page.reviewers | size %}
-				{% if reviewerCount == 0 %}
-				      <!-- No reviewers -->
-                      <br/><br/>
-                {% else %}
-				<ul class="credits">Reviewed by
-				{% if reviewerCount == 1 %}
-				      {{ page.reviewers | first }}
-                {% else %}
-                      {% for reviewer in page.reviewers %}
-                           {% if forloop.first %}
-                                 {{ reviewer }}
-                           {% elsif forloop.last %}
-                                 and {{ reviewer }}
-                           {% else %}
-						         , {{ reviewer }}
-                           {% endif %}
-                      {% endfor %}
-                {% endif %}
-                <br/>
-                {% if page.difficulty %}
-                Recommended for 
-                {% if page.difficulty == 1 %}Beginning{% endif %}
-                {% if page.difficulty == 2 %}Intermediate{% endif %}
-                {% if page.difficulty == 3 %}Advanced{% endif %}
-                 Users
-                {% endif %}
-                </ul>
-                {% endif %}
-				
-			</header>
+     </header>
 
             {% if page.previous %}
             <p><em>Note:</em> You may find it easier to complete this lesson
@@ -98,38 +41,7 @@
                 in this series.</p>
             {% endif %}
 
-	        <div class="author-info">
-	   	        <p class="author-name">About the {% if authorCount == 1 %}author{% else %}authors{% endif %}</p>
-			    <div class="author-description"><p>
-                {% for author in page.authors %}
-                   {% for member in site.data.authors %}
-                   {% if author == member.name %}
-                       {{ member.bio }}&nbsp;
-                   {% endif %}
-                   {% endfor %}
-		        {% endfor %}</p>
-			    </div>
-	        </div>
-          <div class="citation-info">
-            <p class="citation-head">Suggested Citation</p>
-            <div class="suggested-citation">
-              <p>
-              {{ authorString }}, 
-              "{{ page.title }}," 
-              <em>{{ site.name }}</em>, 
-              ({{ page.date | append:" 12:00:00+00:00" | date_to_long_string }}), 
-              {{ site.url }}{{ page.url }}
-              </p>
-            </div>
-          </div>
-        </article>
-    </div>
+        {% include author-info.html %}
 
-  {% if page.url contains '/es/' %}
-     {% include es/footer.html %}
-  {% else %}
-     {% include footer.html %}
-  {% endif %}
+        {% include citation.html %}
 
-    </body>
-</html>

@@ -1172,7 +1172,8 @@ This command recurses (the `-r` flag) through all the folders on the HTRC server
 It is possible to sync individual files by specifying a full file path. Files are organized in a [PairTree structure](https://wiki.ucop.edu/display/Curation/PairTree), meaning that you can find an exact dataset file from a volume's HathiTrust id. The HTRC Feature Reader has a tools and instructions for [getting the path for a volume](https://github.com/htrc/htrc-feature-reader/blob/master/examples/ID_to_Rsync_Link.ipynb). A list of all file paths is available:
 
 ```bash
-rsync -azv data.analytics.hathitrust.org::features/listing/file-listing.txt .
+rsync -azv data.analytics.hathitrust.org::features/listing/htrc-ef-all-files.txt .
+
 ```
 
 Finally, it is possible to download many files from a list. To try, we've put together lists for public-domain [fiction](http://data.analytics.hathitrust.org/genre/fiction_paths.txt), [drama](http://data.analytics.hathitrust.org/genre/drama_paths.txt), and [poetry](http://data.analytics.hathitrust.org/genre/poetry_paths.txt) (Underwood 2014). For example:

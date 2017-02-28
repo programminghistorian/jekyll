@@ -1,0 +1,22 @@
+
+{% assign reviewerCount = page.reviewers | size %}
+{% capture reviewerString %}
+{% if reviewerCount == 0 %}
+      <!-- No reviewers -->
+      <br/><br/>
+{% elsif reviewerCount == 1 %}
+      {{ page.reviewers | first }}
+{% else %}
+      {% for reviewer in page.reviewers %}
+           {% if forloop.first %}
+                 {{ reviewer }}
+           {% elsif forloop.last %}
+                 {{ site.data.snippets.and[page.lang] }} {{ reviewer }}
+           {% else %}
+		         , {{ reviewer }}
+           {% endif %}
+      {% endfor %}
+{% endif %}
+{% endcapture %}
+
+{{ site.data.snippets.reviewed[page.lang] | capitalize }} {{ site.data.snippets.by[page.lang] }} {{ reviewerString }}

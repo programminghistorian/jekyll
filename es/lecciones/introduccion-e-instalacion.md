@@ -25,14 +25,14 @@ En este módulo inicial instalarás el [Lenguaje de programación Python], el [A
 
 El lenguaje de programación Python.
 -----------
-Python fue el primer lenguaje de programación que se introdujo en Programming Historian. Es un lenguaje de programación libre y de código abierto. Antes de que descargargues el software es necesario tomar nota de que en todas las lecciones se utilizará **Python v.2.x**, al menos que se indique lo contrario. La razón es porque todos los ejemplos utilizan la versión 2, ya que es la más ampliamente utilizada y viene preinstalada en algunos equipos (Mac). Además, no se usa la más reciente (v.3), porque la sintaxis (las reglas gramaticales de programación) han cambiado con respecto a la v.2. De tal manera, si intentas utilizar Python v.3, además de que los programas creados a partir de las lecciones no correrán bien, te podrías meter en dificultades y comprometer el sistema operativo de tu equipo. Son bienvenidas las traducciones a V.3 de cualquiera de las lecciones.
+Python fue el primer lenguaje de programación que se introdujo en Programming Historian. Es un lenguaje de programación libre y de código abierto. Antes de que descargues el software es necesario tomar nota de que en todas las lecciones se utilizará **Python v.2.x**, al menos que se indique lo contrario. La razón es porque todos los ejemplos utilizan la versión 2, ya que es la más ampliamente utilizada y viene preinstalada en algunos equipos (Mac). Además, no se usa la más reciente (v.3), porque la sintaxis (las reglas gramaticales de programación) han cambiado con respecto a la v.2. De tal manera, si intentas utilizar Python v.3, además de que los programas creados a partir de las lecciones no correrán bien, te podrías meter en dificultades y comprometer el sistema operativo de tu equipo. Son bienvenidas las traducciones a V.3 de cualquiera de las lecciones.
 
 ¡Respalda los datos de tu computadora!
 ---------------
 
 Antes de descargar o instalar cualquier nuevo software en tu computadora, es muy importante hacer el respaldo de los datos en tu computadora. Todos los días y antes de programar cualquier cosa, asegúrate de hacer una copia de seguridad de la base de datos de [Zotero]. Al final de un día de trabajo, respalda nuevamente la base de datos de Zotero y de cualquier programa que hayas escrito ese día. Por lo menos una vez a la semana se debe hacer un respaldo de toda la computadora, aunque es recomendable hacerlo lo más frecuente (en el caso de computadoras Mac, el uso del Time Machine es imprescindible). También es muy buena idea hacer copias de seguridad de tu trabajo en línea; pues, en el caso de que algo le pase a tu equipo, casa u oficina no pierdas todo lo hecho. Hay sitios que proveen formas fáciles y relativamente económicas de hacer copias de seguridad, como [Jungle Disk] y [Dropbox].
 
-###Selecciona tu sistema operativo
+### Selecciona tu sistema operativo
 
 Paso 1.- Instalar el software.
 ---------------------------------------
@@ -61,6 +61,6 @@ Para citar esta versión en español: William J. Turkel and Adam Crymble, “Int
 [Zotero]: https://www.zotero.org
 [Jungle Disk]: https://www.jungledisk.com
 [Dropbox]: https://www.dropbox.com
-[Instalación de Python en Mac]: http://es.programminghistorian.org/lecciones/instalacion-mac
-[Instalación de Python en Windows]: http://es.programminghistorian.org/lecciones/instalacion-windows
-[Instalación de Python en Linux]: http://es.programminghistorian.org/lecciones/instalacion-linux
+[Instalación de Python en Mac]: http://programminghistorian.org/es/lecciones/instalacion-mac
+[Instalación de Python en Windows]: http://programminghistorian.org/es/lecciones/instalacion-windows
+[Instalación de Python en Linux]: http://programminghistorian.org/es/lecciones/instalacion-linux

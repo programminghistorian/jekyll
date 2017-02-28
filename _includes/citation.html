@@ -1,0 +1,13 @@
+
+          <div class="citation-info">
+            <p class="citation-head">Suggested Citation</p>
+            <div class="suggested-citation">
+              <p>
+              {{ authorString }}, 
+              "{{ page.title }}," 
+              <em>{{ site.name }}</em>, 
+              ({{ page.date | append:" 12:00:00+00:00" | date_to_long_string }}), 
+              {{ site.url }}{{ page.url }}
+              </p>
+            </div>
+          </div>
