@@ -3,6 +3,10 @@ title: Instructions for Authors
 layout: directory
 ---
 
+<figure>
+    <img src="../images/author-sm.png" width="120px" style="float: right; margin-right: 1rem; margin-bottom: 1rem;" />
+</figure>
+
 This page contains step-by-step instructions for authors on contributing a new lesson to the *Programming Historian*.
 
 - Step 1: [Proposing a New Lesson](#proposing-a-new-lesson)
@@ -12,32 +16,31 @@ This page contains step-by-step instructions for authors on contributing a new l
 -----
 
 ## Proposing a New Lesson
-<figure>
-    <img src="../images/author-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
-</figure>
 
 If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, contact [Jeri Wieringa] to discuss your idea. Getting in touch at an early stage will help everyone to think about how to best frame your lesson (particularly to establish a target audience and expected skill level), and to pair you with an editor who can best help you develop the tutorial.
 
-**What kind of lessons do we want?** There is no standard lesson at the *Programming Historian*. We welcome lessons on any topic that helps humanists (often historians, but not always) at any phase of the research and publication process.
+<div class="alert alert-success">
+  There is no standard lesson at the *Programming Historian*. We welcome lessons on any topic that helps humanists (often historians, but not always) at any phase of the research and publication process.
+</div>
 
-We welcome lessons pitched at any level of technical aptitude and experience, from neophytes to power users. Lessons may be a short and straightforward explanation of a discrete task (these kinds of "helper" lessons make complex lessons easier to follow); they may be quite long, complex, and technically sophisticated.
+We welcome all lesson proposals, pitched at any level of technical aptitude and experience, from neophytes to power users. Lessons may be a short and straightforward explanation of a discrete task (these kinds of "helper" lessons make complex lessons easier to follow); they may be quite long, complex, and technically sophisticated.
 
-**In short, we welcome all lesson proposals.**  You can get a better sense of what we think makes for a good lesson by looking through our [published lessons], reading our [reviewer guidelines] or browsing the [lessons currently in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Please note that we welcome lesson proposals on topics already covered or in development, provided that the proposed lesson makes its own unique contribution. Everyone learns differently and we encourage topical overlap.
+You can get a better sense of what we think makes for a good lesson by looking through our [published lessons], reading our [reviewer guidelines] or browsing the [lessons currently in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). We encourage lesson proposals on topics already covered or in development, provided that the new lesson makes its own unique contribution. Everyone learns differently!
 
 -----
 
 ## Writing a New Lesson
-*Programming Historian* is hosted at [GitHub](http://github.com), which is a free platform for maintaining files and their revision history. It's most often used to store files of programming code, but it's also a fabulous way to maintian an open-access resource like *Programming Historian*. More specifically, our site uses [GitHub Pages] to take a bunch of plain text files and turn them into a spiffy website.
+*Programming Historian* is hosted at [GitHub](http://github.com), which is a free platform for maintaining files and their revision history. It's most often used to store files of programming code, but it's also a fabulous way to maintain an open-access resource like *Programming Historian*. More specifically, our site uses [GitHub Pages] to take a bunch of plain text files and turn them into a spiffy website.
 
-This means that we we ask that authors adhere to the following lesson requirements, which are not merely stylistic, but in fact necessary for our publishing platform. **While our technical requirements may be unfamiliar to you, we are here to help you through the process and learn the technologies as you go.**
+This means that we we ask that authors adhere to the following lesson requirements, which are not merely stylistic, but in fact necessary for our publishing platform. While our technical requirements may be unfamiliar to you, **we are here to help you through the process and learn the technologies as you go.**
 
 Please note that we do not have a budget to hire a copyeditor as this is a volunteer-driven project, so we are grateful for your attention to detail.
 
 
 ### Use Plain Text
-Because our site is hosted using [GitHub Pages](https://pages.github.com), **your lesson must be written in plain text**, using a text editor of your choice. *Text editors are distinctly different from traditional word processing programs like MS Word.* For Mac, we recommend free text editors such as [TextWrangler] or TextEdit (which comes with Mac OS X). For Windows, you can use Notepad or the enhanced [Notepad++].
+Because our site is hosted using [GitHub Pages](https://pages.github.com), **your lesson must be written in plain text**, using a text editor of your choice. *Text editors are distinctly different from traditional word processing programs like MS Word.* We highly recommend using [Atom], which is available for Mac or Windows. Mac users might consider [TextWrangler] or TextEdit (which comes with Mac OS X). Windows users might consider [Notepad++].
 
-The specific editor you choose is not important, but you should begin writing your lesson in plain text to avoid frustrations later on. Please contact a member of the [project team] if you have questions or concerns.
+The specific editor you choose is not important, but you should begin writing your lesson in plain text to avoid frustrations later on. For instance, stylized quotation marks automatically inserted by MS Word create formatting problems that can be hard to debug.
 
 
 ### Name the Lesson File
@@ -68,11 +71,15 @@ To create the YAML block for your lesson, you should **copy and paste the follow
     layout: default
     ---
 
-### Important YAML Notes
-- **You must keep the \| in the title field as shown** and indent the actual title with a tab on a blank line.
-- **You must use the "list" format shown above for the authors field**, even if there is only one author.
-- **Be sure there are no extraneous spaces in your header!** These can cause problems that are difficult to track down.
-- **The YAML block must be followed by a blank line after the final `---`**
+<div class="alert alert-danger">
+  <h4 class="alert heading">Important YAML Notes</h4>
+  <ul>
+    <li>Keep the \| in the title field as shown; indent the actual title with a tab on a blank line</li>
+    <li>Use the "list" format shown above for the authors field**, even if there is only one author</li>
+    <li>Be sure there are no extraneous spaces in your header</li>
+    <li>The YAML block must be followed by a blank line after the final <code>---</code></li>
+  </ul>
+</div>
 
 
 ### Write in Markdown
@@ -83,8 +90,9 @@ The following resources and tutorials contain more information about formatting 
 -   [Getting Started with Markdown](../lessons/getting-started-with-markdown), a _PH_ tutorial by Sarah Simpkin
 -   [GitHub Guide to Markdown]
 
-**Before continuing, please make sure you understand how to use Markdown syntax to use basic formatting like headers, bold, italics, links, paragraphs, and lists.**
-
+<div class="alert alert-warning">
+  Before continuing, be sure you understand how to use Markdown syntax to use basic formatting like headers, bold, italics, links, paragraphs, and lists.
+</div>
 
 ### Use Section Headings
 We strive to make our lessons easy to follow by using section headings consistently throughout each lesson and, as much as possible, across different lessons.
@@ -114,25 +122,31 @@ will render as:
 Using section headings consistently lessons also greatly aids editors and reviewers when evaluating overall structure of your lesson.
 
 
-### Blockquotes
+### Alerts
 
-If you want to point out something that isn't essential for following the lesson but think is important enough to mention (or applies only to certain readers), you can set it apart from the main lesson text by using blockquotes. In Markdown, your text will look like:
+If you want to point out something that isn't essential for following the lesson but think is important enough to mention (or applies only to certain readers), you can set it apart from the main lesson text by using our [alert styling](https://v4-alpha.getbootstrap.com/components/alerts/) (borrowed from Bootstrap).
 
+For this, you need to use HTML, such as
 
-    > Text that you put in blockquotes appears like this.
+``` html
+<div class="alert alert-warning">
+  Be sure that you follow directions carefully!
+</div>
+```
 
 And will render on the website as:
 
-> Text that you put in blockquotes appears like this.
-
+<div class="alert alert-warning">
+  Be sure that you follow directions carefully!
+</div>
 
 
 ### Special Style Rules
+Like any other journal, *Programming Historian* also has a house style that we expect authors to follow to maintain consistency across our lessons. Unlike other journals, however, breaking these style rules not only diminishes stylistic consistency, but also can cause a lesson or the entire site not to render correctly.
 
-Like any other journal, *Programming Historian* also has a house style that we expect authors to follow to maintain consistency across our lessons. Unlike other journals, however, breaking these style rules not only diminishes stylistic consistency, but also can actually cause a lesson or the entire site not to render correctly.
-
-> If you are already familiar with Markdown, please note that some of our style rules work only because our site uses an extended version of Markdown and some site-specific scripts. In other words, our syntax for Figures, Tables, Code Blocks, Quotation Marks, Endnotes, and Emphasis may not work the same way in other applications that use Markdown.
-
+<div class="alert alert-warning">
+  If you are already familiar with Markdown, please note that some of our styling relies on GitHub-flavored Markdown and site-specific scripts.
+</div>
 
 ### Figures
 No matter how short or simple, all lessons benefit from figures, particularly screen shots (or partial screen shots) that illustrate what the reader should see as they move through the tutorial. Not only do they make tutorials more "skimmable," figures help show the reader they are doing the right thing. And of course images can save a considerable amount of description in your text.
@@ -155,11 +169,9 @@ Make sure the images are in web-friendly formats such as PNG or JPEG and sized a
 Wherever you want to insert a figure, use the following line of code in the body of your lesson:
 
 {% raw %}
-
-``` text
+``` markdown
 {% include figure.html filename="IMAGE-FILENAME" caption="Caption to image" %}
 ```
-
 {% endraw %}
 
 You'll need to modify `IMAGE-FILENAME` and `Caption to image` according to your lesson and image. Note that you may use Markdown within caption text, for instance to mark text as bold or italic.
@@ -177,15 +189,13 @@ When the Markdown is rendered by our system, this line will automatically produc
 </figure>
 ```
 
->Note that when figure tags are added this way, the image will not show
-up in the preview on GitHub or in other Markdown preview programs, but
-it will be visible on the *Programming Historian* website. See an
-[example of the preview with figures here], and the [live version here].
+<div class="alert alert-warning">
+  Note that when figure tags are added this way, the image will not show up in the preview on GitHub or in other Markdown preview programs, but it will be visible on the *Programming Historian* website. See an [example of the preview with figures here], and the [live version here].
+</div>
 
 
 ### Tables
-
-To create HTML tables, use the [extended table syntax]. **Do not use tables in an attempt to override standard _PH_ formatting.** HTML tables should only be used to represent tabular information.
+To create HTML tables, use the [extended table syntax].  HTML tables should only be used to represent tabular information, not to override standard _PH_ formatting.
 
 The key principle to note when constructing a markdown table is that
 columns are separated by pipe characters (`|`), and the header row is
@@ -206,9 +216,7 @@ correctly. For example, this also would work:
     | Content | Content  |
     | Content Cell  | Content Cell  |
 
-Adding colons to the dashed line separating the header row from the
-others can also control column alignment, as explained in the [full
-instructions for this feature][extended table syntax].
+Adding colons to the dashed line separating the header row from the others can also control column alignment, as explained in the [full instructions for this feature][extended table syntax].
 
 
 ### Endnotes
@@ -231,7 +239,7 @@ for the footnote feature.
 
 ### Code Blocks
 If you want to include code in a lesson, or to show the output of a
-program, use a *code block*. On a new line, use three backticks
+program, use what's called a [fenced code block]. On a new line, use three backticks
 (`` ` ``) to open a code block, followed by the language of your code
 (eg, `python` or `html`). Then paste in your code, and when finished,
 close the code block with three more backticks. The code will then be
@@ -241,15 +249,8 @@ offset in the finished version and will look like this:
 print 'hello world'
 ```
 
-You can also read more on [fenced code blocks].
-
-
-### Smart Quotes
-Do not use stylized quotation marks or inverted commas such as those automatically inserted by MS Word or rich-text editors. The stylized curly marks that look nice in essays are considered distinct entities by the computer and will cause code to crash. This is yet another reason why you must use a plain text editor.
-
 
 ### Emphasis Tagging
-
 Try to use backticks (`` ` `` ) for reserved code words (as in `for`
 loop) and file names (e.g., `obo.py`). All other emphasis is done with
 paired asterisks (`*`) (as in `*client*`, `*protocol*`, `*The Old Bailey
@@ -258,31 +259,29 @@ Online*`).
 -----
 
 ## Submitting a New Lesson
-
 Once your lesson file has been prepared to the above specifications, you are ready to submit it!
 
 We have a [Programming Historian project page](https://github.com/programminghistorian) at GitHub, where we maintain two repositories (a repository is a place to store related files and folders--you can think of it as a kind of folder). One of these, called [jekyll](https://github.com/programminghistorian/jekyll), hosts the code for the live version of the site you see at <http://programminghistorian.org>. The other repository is called [ph-submissions].
 
 Our preferred way for authors to submit lessons is to add them directly to the [ph-submissions] repository (or repo, for short). Thanks to GitHub's features, you can do this using drag-and-drop uploading actions with which you are probably already familiar. As a new author, here are the steps:
 
-1. Create a free account at GitHub [here](https://github.com/join). It takes about 30 seconds.
-2. Email your editor with your new GitHub username and your lesson filename/slug (be sure you've followed the naming guidelines above!). The editor will then add you as a **collaborator** on the [ph-submissions] repo. Once you are added as a collaborator, you will be able to make direct changes to the [ph-submissions] repo, including adding, editing, removing, and renaming files. The editor will also create a folder with the same name as your lesson in the images folder. (If you have other data files that you link to in your tutorial, please ask your editor about them.)
+1. Create a [free account at GitHub](https://github.com/join). It takes about 30 seconds.
+2. Email your editor with your new GitHub username and your lesson filename/slug (be sure you've followed the naming guidelines above). The editor will then add you as a **collaborator** on the [ph-submissions] repo. Once you are added as a collaborator, you will be able to make direct changes to the [ph-submissions] repo, including adding, editing, removing, and renaming files. The editor will also create a folder with the same name as your lesson in the images folder. (If you have other data files that you link to in your tutorial, please ask your editor about them.)
 3. Once you've heard from your editor that you've been added as a collaborator, navigate to the [lessons folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons) of the [ph-submissions] repo. Then, drag and drop the markdown file of your lesson from your computer onto your browser window. (If you need help, see [GitHub's instructions](https://help.github.com/articles/adding-a-file-to-a-repository/)). Now click the green "Commit Changes" button; you don't need to change the default message.
 4. You probably have some images that go along with your lesson. Make sure all the image files are named appropriately according to the naming conventions specified above. Navigate to the [images folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images) in the [ph-submissions] repo. Click on the folder with the same name as your lesson (which your editor should have created for you; if you don't see it, please contact your editor and wait for instructions). Once you are in the correct folder, drag and drop all of your images files onto the browser window, just like in step 3. You can't drag a folder of images; but you can drag multiple files at once.
 5. Preview your lesson! Wait 5 minutes (usually less) for GitHub to convert your Markdown file into HTML and make it a live webpage. Then navigate to `http://programminghistorian.github.io/ph-submissions/lessons/` + `YOUR-LESSON-NAME` (but replace YOUR-LESSON-NAME with the name of your file).
 6. Let your editor know that you have uploaded your lesson files to the ph-submissions repo (they should get a notification about this, but we want to make sure nothing gets overlooked).
 
->Note: If you are familiar with command-line git and GitHub already, you may also submit your lesson and images as a pull request to the `ph-submission` repo and merge it yourself after being added as a collaborator, instead of using the drag-and-drop techniques described above. **Please do not submit lessons by pull request to the main Jekyll repo**! By handling submissions on the [ph-submissions] repo, we are better able to provide live previews of lessons in progress.
-
+<div class="alert alert-info">
+  If you are familiar with command-line git and GitHub already, you may also submit your lesson and images as a pull request to the `ph-submission` repo and merge it yourself after being added as a collaborator, instead of using the drag-and-drop techniques described above. <b>Please do not submit lessons by pull request to the main Jekyll repo</b> By handling submissions on the [ph-submissions] repo, we are better able to provide live previews of lessons in progress.
+</div>
 
 ## Lesson Submitted! Now What?
-
 To see what happens after you submit a lesson, feel free to browse our [editor guidelines](http://programminghistorian.org/editor-guidelines), which detail our editorial process. Highlights are below:
 
 The most immediately important step is that your editor will create an [issue](https://github.com/programminghistorian/ph-submissions/issues) for the new lesson on the [ph-submissions] repo, with a link to your lesson (that you previewed in step 5). The editor and at least two reviewers invited by the editor will post their comments to this issue.
 
 ### Wait for Reviewer Feedback
-
 We aim to complete the review process within four weeks, but sometimes delays occur or people get busy and the process can take longer than we hoped.
 
 In keeping with the ideas of public scholarship and open peer review, we encourage discussions to stay on GitHub. However, we also want everyone to feel comfortable with the process. If you need to discuss something privately, please feel free to [email your editor directly](http://programminghistorian.org/project-team), or to contact one of our dedicated ombudspeople, [Ian Milligan or Amanda Visconti](http://programminghistorian.org/project-team).
