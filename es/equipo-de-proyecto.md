@@ -178,7 +178,7 @@ Jeri Wieringa trabaja como jefa del departamento de producción digital en Georg
 
 ## Participantes de la comunidad
 
-*Programming Historian* también se beneficia enormemente de los esfuerzos de las personas que ofrecen su tiempo y energía. Si estás interesado en unirte, ya sea con un proyecto único o con una actividad continuada, por favor ¡descubre [cómo contribuir](http://programminghistorian.org/es/contribuciones) y lee sobre nuestro [flujo de trabajo] (http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones)!
+*Programming Historian* también se beneficia enormemente de los esfuerzos de las personas que ofrecen su tiempo y energía. Si estás interesado en unirte, ya sea con un proyecto único o con una actividad continuada, por favor ¡descubre [cómo contribuir](http://programminghistorian.org/es/contribuciones) y lee sobre nuestro [flujo de trabajo](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones)!
 
 También queremos dar las gracias a todas las personas que han ayudado revisando lecciones, reportando problemas, arreglando errores, u organizando talleres basados en *The Programming Historian*:
 
