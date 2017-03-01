@@ -26,12 +26,13 @@ Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una
 Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en el Cologne Center for eHumanities
  
 <br />
-	
+
+	<a href="http://antoniorojascastro.com/"><i class="fa fa-home fa-lg"></i></a>
 	
 		<a href="mailto:rojas.castro.antonio@gmail.com"><i class="fa fa-envelope-square fa-lg"></i></a>
 	
 	
-		<a href="http://twitter.com/@RojasCastroA"><i class="fa fa-twitter-square fa-lg"></i></a>
+		<a href="http://twitter.com/RojasCastroA"><i class="fa fa-twitter-square fa-lg"></i></a>
 	
 	
 		<a href="http://github.com/arojascastro"><i class="fa fa-github-square fa-lg"></i></a>
@@ -39,8 +40,25 @@ Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra
 <br /><br /><br />
 </div>
 
+<div class="contact-box">
+<img class="avatar" src="http://programminghistorian.org/avatars/Adam-Crymble.png" />
+Adam Crymble es profesor de historia digital en la Universidad de Hertfordshire.
+ 
+<br />
 
-{% include contact-info.html name="Adam Crymble" %}
+
+	<a href="http://adamcrymble.org"><i class="fa fa-home fa-lg"></i></a>
+	
+		<a href="mailto:adam.crymble@gmail.com"><i class="fa fa-envelope-square fa-lg"></i></a>
+	
+	
+		<a href="https://twitter.com/Adam_Crymble"><i class="fa fa-twitter-square fa-lg"></i></a>
+	
+	
+		<a href="http://github.com/acrymble"><i class="fa fa-github-square fa-lg"></i></a>
+	
+<br /><br /><br />
+</div>
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Victor-Gayol.png" />
@@ -52,7 +70,7 @@ Tras obtener un doctorado en Historia, Víctor Gayol trabaja como investigador y
 		<a href="mailto:vgayol@colmich.edu.mx"><i class="fa fa-envelope-square fa-lg"></i></a>
 	
 	
-		<a href="http://twitter.com/https://twitter.com/victor_gayol"><i class="fa fa-twitter-square fa-lg"></i></a>
+		<a href="https://twitter.com/victor_gayol"><i class="fa fa-twitter-square fa-lg"></i></a>
 	
 	
 		<a href="http://github.com/vgayolrs"><i class="fa fa-github-square fa-lg"></i></a>
@@ -60,16 +78,93 @@ Tras obtener un doctorado en Historia, Víctor Gayol trabaja como investigador y
 <br /><br /><br />
 </div>
 
-{% include contact-info.html name="Fred Gibbs" %}
+<div class="contact-box">
+<img class="avatar" src="http://programminghistorian.org/avatars/Fred-Gibbs.png" />
+Fred Gibbs es profesor de Historia en la Universidad de Nuevo México. Investiga y edita lecciones sobre mapeado digital, visualización de datos, y publicación web.
+ 
+<br />
 
-{% include contact-info.html name="Caleb McDaniel" %}
+	<a href="http://fredgibbs.net"><i class="fa fa-home fa-lg"></i></a>
+	
+		<a href="mailto:fwgibbs@gmail.com"><i class="fa fa-envelope-square fa-lg"></i></a>
+	
+	
+		<a href="http://twitter.com/fredgibbs"><i class="fa fa-twitter-square fa-lg"></i></a>
+	
+	
+		<a href="http://github.com/fredgibbs"><i class="fa fa-github-square fa-lg"></i></a>
+	
+<br /><br /><br />
+</div>
 
-{% include contact-info.html name="Ian Milligan" %}
+<div class="contact-box">
+<img class="avatar" src="http://programminghistorian.org/avatars/Caleb-McDaniel.png" />
+Caleb McDaniel es profesor asociado de Historia en Rice University.
+ 
+<br />
 
-{% include contact-info.html name="Amanda Visconti" %}
+	<a href="http://wcm1.web.rice.edu"><i class="fa fa-home fa-lg"></i></a>
+	
+	
+		<a href="http://twitter.com/wcaleb"><i class="fa fa-twitter-square fa-lg"></i></a>
+	
+	
+		<a href="http://github.com/wcaleb"><i class="fa fa-github-square fa-lg"></i></a>
+	
+<br /><br /><br />
+</div>
 
-{% include contact-info.html name="Jeri Wieringa" %}
+<div class="contact-box">
+<img class="avatar" src="http://programminghistorian.org/avatars/Ian-Milligan.png" />
+Ian Milligan es profesor de Historia en la Universidad de Waterloo. Tiene interés en editar lecciones sobre análisis de redes, análisis textual y minería de datos, y, en general, lecciones de nivel intermedio o superior.
+ 
+<br />
 
+	<a href="http://ianmilligan.ca"><i class="fa fa-home fa-lg"></i></a>
+	
+	<a href="mailto:i2millig@uwaterloo.ca"><i class="fa fa-envelope-square fa-lg"></i></a>
+	
+		<a href="http://twitter.com/ianmilligan1"><i class="fa fa-twitter-square fa-lg"></i></a>
+	
+	
+		<a href="http://github.com/ianmilligan1"><i class="fa fa-github-square fa-lg"></i></a>
+	
+<br /><br /><br />
+</div>
+
+<div class="contact-box">
+<img class="avatar" src="http://programminghistorian.org/avatars/Amanda-Visconti.png" />
+Amanda Visconti es Directora general del centro de Humanidades Digitales Scholars' Lab en la Universidad de Virginia. Amanda trabaja en las mejoras técnicas de la web de <em>The Programming Historian</em>. 
+ 
+<br />
+
+	<a href="http://www.amandavisconti.com"><i class="fa fa-home fa-lg"></i></a>
+	
+	<a href="mailto:amandavisconti@gmail.com"><i class="fa fa-envelope-square fa-lg"></i></a>
+	
+		<a href="http://twitter.com/literature_geek"><i class="fa fa-twitter-square fa-lg"></i></a>
+	
+	
+		<a href="http://github.com/amandavisconti"><i class="fa fa-github-square fa-lg"></i></a>
+	
+<br /><br /><br />
+</div>
+
+<div class="contact-box">
+<img class="avatar" src="http://programminghistorian.org/avatars/Jeri-Wieringa.png" />
+Jeri Wieringa trabaja como jefa del departamento de producción digital en George Mason University Libraries; asimismo, es doctoranda en Historia en la misma universidad. Está interesa en trabajar con autore sobre los siguientes temas: accesibilidad y diseño de interfaces, visualización de datos, análisis de redes, minería de datos, flujos de trabajo y, en general, lecciones introductorias. 
+ 
+<br />
+
+	<a href="http://jeriwieringa.com"><i class="fa fa-home fa-lg"></i></a>
+	
+		<a href="http://twitter.com/jerielizabeth"><i class="fa fa-twitter-square fa-lg"></i></a>
+	
+	
+		<a href="http://github.com/jerielizabeth"><i class="fa fa-github-square fa-lg"></i></a>
+	
+<br /><br /><br />
+</div>
 
 ## Miembros eméritos del equipo
 
@@ -83,16 +178,9 @@ Tras obtener un doctorado en Historia, Víctor Gayol trabaja como investigador y
 
 ## Participantes de la comunidad
 
-*Programming Historian* también se beneficia enormemente de los esfuerzos de las personas que ofrecen su tiempo y energía. Si estás interesado en unirte, ya sea con un proyecto único o con una actividad continua, por favor ¡descubre [cómo contribuir](http://programminghistorian.org/es/contribuciones)!
+*Programming Historian* también se beneficia enormemente de los esfuerzos de las personas que ofrecen su tiempo y energía. Si estás interesado en unirte, ya sea con un proyecto único o con una actividad continua, por favor ¡descubre [cómo contribuir](http://programminghistorian.org/es/contribuciones) y sobre nuestro [flujo de trabajo] (http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones)!
 
-Estamos especialmente agradecidos a los dedicados autores de Programming Historian que no son parte del equipo de proyecto: 
-
-{% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} y, esperemos, tú. Descubre más acerca de cómo [convertirte en autor](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
-
-También agradecemos a todos aquellos que han ayudado a la revisión de lecciones reportando problemas, arreglando errores o realizando revisiones entre pares. Al tiempo de escribir esto se incluye a las siguientes personas:
-
-{% for reviewer in site.data.reviewers %}
-{{reviewer}},{% endfor %} y, esperamos, tú también. Descubre más acerca de [cómo contribuir](http://programminghistorian.org/es/contribuciones).
+También agradecemos a todos aquellos que han ayudado a la revisión de lecciones reportando problemas, arreglando errores o realizando revisiones entre pares. 
 
 Finalmente, quisiéramos agradecer a aquellos que han estado involucrados en organizar, dirigir o apoyar talleres que involucren al proyecto y al Equipo del Proyecto:
 
