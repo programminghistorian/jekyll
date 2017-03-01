@@ -3,7 +3,7 @@ title: Equipo de proyecto
 layout: directory
 ---
 
-Nuestro equipo editorial trabaja en conjunto para ayudar a los autores a producir tutoriales de alta calidad. Por favor, dirige tu correspondencia, en primer lugar, a <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas</a>. Puedes seguir *The Programming Historian* en Twitter (en inglés): [@proghist](http://twitter.com/proghist).
+Nuestro equipo editorial trabaja en conjunto para ayudar a los autores a producir tutoriales de alta calidad. Por favor, dirige tu correspondencia, en primer lugar, a <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a>. Puedes seguir *The Programming Historian* en Twitter (en inglés): [@proghist](http://twitter.com/proghist).
 
 ## Consejo editorial
 
@@ -178,11 +178,9 @@ Jeri Wieringa trabaja como jefa del departamento de producción digital en Georg
 
 ## Participantes de la comunidad
 
-*Programming Historian* también se beneficia enormemente de los esfuerzos de las personas que ofrecen su tiempo y energía. Si estás interesado en unirte, ya sea con un proyecto único o con una actividad continua, por favor ¡descubre [cómo contribuir](http://programminghistorian.org/es/contribuciones) y sobre nuestro [flujo de trabajo] (http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones)!
+*Programming Historian* también se beneficia enormemente de los esfuerzos de las personas que ofrecen su tiempo y energía. Si estás interesado en unirte, ya sea con un proyecto único o con una actividad continuada, por favor ¡descubre [cómo contribuir](http://programminghistorian.org/es/contribuciones) y lee sobre nuestro [flujo de trabajo] (http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones)!
 
-También agradecemos a todos aquellos que han ayudado a la revisión de lecciones reportando problemas, arreglando errores o realizando revisiones entre pares. 
-
-Finalmente, quisiéramos agradecer a aquellos que han estado involucrados en organizar, dirigir o apoyar talleres que involucren al proyecto y al Equipo del Proyecto:
+También queremos dar las gracias a todas las personas que han ayudado revisando lecciones, reportando problemas, arreglando errores, u organizando talleres basados en *The Programming Historian*:
 
 * Anelda van der Walt, Talarify (South Africa)
 * Johann Templehoff, North-West University (South Africa)
