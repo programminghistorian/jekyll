@@ -17,6 +17,9 @@ layout: blank
      <ul class="credits">
          {% include reviewer.html %}
          <br/>
+         {% if page.translator %}
+            {% include translator.html %}
+         {% endif %}
          {% if page.difficulty %}
             {% include difficulty.html %}
          {% endif %}

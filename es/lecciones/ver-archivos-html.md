@@ -10,7 +10,7 @@ reviewers:
 - Amanda Morton
 translator:
 - Víctor Gayol
-translation reviewer:
+translation-reviewer:
 - Jairo A. Melo
 layout: default
 next: trabajando-con-archivos-de-texto
