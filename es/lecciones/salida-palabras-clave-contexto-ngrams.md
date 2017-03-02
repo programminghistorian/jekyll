@@ -12,7 +12,7 @@ translator:
 translation-reviewer:
 - Jairo A. Melo
 layout: default
-next: descarga-multiples-registros-usando-cadenas-de-consulta
+next: downloading-multiple-records-using-query-strings
 previous: palabras-clave-en-contexto-n-grams
 redirect_from: /es/lessons/output-keywords-in-context-in-html-file
 ---
