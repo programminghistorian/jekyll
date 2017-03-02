@@ -125,18 +125,6 @@ En la pantalla de tu computadora aparecerá de esta manera:
 
 Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos hacia unas tareas algo más interesantes. Si estás trabajando de manera ordenada las lecciones de Python, te sugerimos que pases ahora a la lección [Para entender páginas web y HTML]
 
----
-
-Sobre los autores: William J. Turkel es profesor de historia en la University of Western Ontario. Adam Crymble es conferencista (lecturer) en Historia Digital en la University of Hertfordshire.
-
----
-
-Forma sugerida para citar este texto:
-Para referirse al texto original: William J. Turkel and Adam Crymble, “Setting Up an Integrated Development Environment for Python (Windows)”, *Programming Historian* (17 July 2012), http://programminghistorian.org/lessons/windows-installation
-
-Para referirse a la versión en español: William J. Turkel and Adam Crymble, “Preparación de un ambiente de desarrollo integrado para Python (Mac)”, traducción y adaptación de Víctor Gayol, *Programming Historian en español* (17 de abril de 2016), 
-http://es.programminghistorian.org/lecciones/instalacion-windows
-
 
 [sitio web de Python]: https://www.python.org
 [opciones de editores de texto]: https://wiki.python.org/moin/PythonEditors/
@@ -147,4 +135,4 @@ http://es.programminghistorian.org/lecciones/instalacion-windows
 [Run Python Command Windows]: ../images/run-python-windows.png
 [hello world in Komodo Edit]: ../images/hello-world1.png "Hola Mundo"
 [Python Shell on Windows]: ../images/python-shell-win.png
-[Para entender páginas web y HTML]: http://es.programminghistorian.org/lecciones/ver-archivos-html
+[Para entender páginas web y HTML]: http://programminghistorian.org/es/lecciones/ver-archivos-html
