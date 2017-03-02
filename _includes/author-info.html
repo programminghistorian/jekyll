@@ -11,7 +11,7 @@
                 {% for author in page.authors %}
                    {% for member in site.data.authors %}
                    {% if author == member.name %}
-                       {{ member.bio }}&nbsp;
+                       {{ member.bio[page.lang] }}&nbsp;
                    {% endif %}
                    {% endfor %}
 		        {% endfor %}</p>
