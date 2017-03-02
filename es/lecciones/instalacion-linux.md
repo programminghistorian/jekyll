@@ -108,4 +108,4 @@ Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos 
 [sitio web de Komodo Edit]: http://komodoide.com/komodo-edit/"
 [hello world in Komodo Edit on a Mac]: ../images/hello-world1.png
 [hello world terminal on a Mac]: ../images/hello-world-terminal.png 
-[Para entender páginas web y HTML]: http://es.programminghistorian.org/lecciones/ver-archivos-html
+[Para entender páginas web y HTML]: http://programminghistorian.org/es/lecciones/ver-archivos-html
