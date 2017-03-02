@@ -55,7 +55,7 @@ Regresa a tu programa *html-a-lista-1.py* y asegúrate de que tus resultados se 
 
 Por sí misma, esta habilidad de separar el documento en palabras no nos ayuda mucho porque nosotros ya sabemos cómo leerlo. Sin embargo, podemos usar el texto para hacer cosas que normalmente no son posibles sin un programa especial. Vamos a comenzar por computar la frecuencia de los tokens y otras unidades lingüísticas, una medida clásica de un texto.
 
-Queda claro que nuestra lista va a necesitar cierta limpieza antes de que la podamos utilizar para contar frecuencias. Conservando la práctica establecida en [De HTML a lista de palabras (parte 1)], tratemos de describir nuestro algoritmo primero en lenguaje llano. Queremos saber la frecuencia con la que aparece, en la transcripción del juicio, cada palabra con significado. De tal manera, los pasos a seguir deben verse de la siguiente manera:
+Queda claro que nuestra lista va a necesitar cierta limpieza antes de que la podamos utilizar para contar frecuencias. Conservando la práctica establecida en [De HTML a lista de palabras (parte 1)][], tratemos de describir nuestro algoritmo primero en lenguaje llano. Queremos saber la frecuencia con la que aparece, en la transcripción del juicio, cada palabra con significado. De tal manera, los pasos a seguir deben verse de la siguiente manera:
 
 -   Convierte todas las palabras a minúsculas para que "BENJAMIN" y "benjamin" sean contadas como una misma palabra
 -   Retira cualquier carácter extraño o inusual
