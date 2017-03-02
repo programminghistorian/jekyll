@@ -72,7 +72,7 @@ print(mensaje3)
 
 En adición a los operadores, Python trae preinstalado docenas de métodos que te permiten hacer cosas con las cadenas de caracteres. Solos o en combinación, los métodos pueden hacer casi todo lo que te imagines con las cadenas de caracteres. Puedes usar como referencia la lista de métodos de cadenas de caracteres (*String Methods*) en el [sitio web de Python], que incluye información de cómo utilizar correctamente cada uno. Para asegurar que tengas una comprensión básica de métodos para cadenas de caracteres, lo que sigue es una breve descripción de los utilizados más comúnmente.
 
- ###  Extensión
+### Extensión
 
 Puedes determinar el número de caracteres en una cadena utilizando el método `len`. Toma en consideración que los espacios en blanco cuentan como un carácter.
 
