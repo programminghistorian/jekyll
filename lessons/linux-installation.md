@@ -95,7 +95,7 @@ Your chosen text editor should have a “`Run`” button that will allow you
 to execute your program. If all went well, it should look something like
 this (Example as seen in Komodo Edit.)
 
-{% include figure.html filename="komodo-edit-mac.png" caption="" %}
+{% include figure.html filename="hello-world1.png" caption="" %}
 
 ## Interacting with a Python shell
 

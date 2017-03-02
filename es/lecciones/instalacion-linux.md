@@ -66,7 +66,7 @@ print ('hola mundo')
 
 El editor de texto que seleccionaste utilizar debe tener un botón `Run`  que te permitirá ejecutar tu programa. Si todo funciona bien, deberás ver algo como sigue (El ejemplo es como se ve en Komodo Edit.):
 
-{% include figure.html filename="komodo-edit-mac.png" caption="" %}
+{% include figure.html filename="hello-world1.png" caption="" %}
 
 ## Interactuar con el intérprete de comandos (shell) de Python
 
