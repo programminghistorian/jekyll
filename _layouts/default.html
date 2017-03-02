@@ -31,13 +31,13 @@ layout: blank
         {% include previous.html %}
      {% endif %}
 
-     {% if page.next %}
-        {% include next.html %}
-     {% endif %}
-
      <div class="content">
          {{ content }}
      </div>
+
+     {% if page.next %}
+        {% include next.html %}
+     {% endif %}
 
      {% include author-info.html %}
 
