@@ -131,9 +131,9 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 
 
-[Descargar páginas web con Python]: http://es.programminghistorian/trabajar-con-paginas-web
+[Descargar páginas web con Python]: http://programminghistorian/es/trabajar-con-paginas-web
 [transcripción del juicio criminal contra Benjamin Bowsey de 1780]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-[Descargar páginas web con Python]: http://es.programminghistorian.org/lecciones/trabajar-con-paginas-web
+[Descargar páginas web con Python]: http://programminghistorian.org/es/lecciones/trabajar-con-paginas-web
 [HTML]: http://www.w3schools.com/html/
 
 [Manipular cadenas de caracteres en Python]: ../lecciones/manipulacion-de-cadenas-de-texto-en-python
