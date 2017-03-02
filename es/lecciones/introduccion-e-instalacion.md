@@ -43,16 +43,6 @@ Con el fin de trabajar con las diversas técnicas que se ofrecen en Programming 
 -	[Instalación de Python en Windows]
 -	[Instalación de Python en Linux]
 
----
-
-Sobre los autores: William J. Turkel es profesor de historia en la University of Western Ontario. Adam Crymble es conferencista (lecturer) en Historia Digital en la University of Hertfordshire.
-
----
-
-Forma sugerida para citar este texto:
-Para citar el texto original: William J. Turkel and Adam Crymble, “Python Introduction and Installation”, *Programming Historian* (17 July 2012), http://programminghistorian.org/lessons/introduction-and-installation
-
-Para citar esta versión en español: William J. Turkel and Adam Crymble, “Introducción e instalación de Python”, *Programming Historian en español*, traducción de Víctor Gayol (16 de abril de 2016), http://es.programminghistorian.org/lecciones/introduccion-e-instalacion
 
 [Lenguaje de programación Python]: https://www.python.org
 [Analizador sintáctico (*parser*) Beautiful Soup HTML/XML]: https://www.crummy.com/software/BeautifulSoup/
