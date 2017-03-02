@@ -9,10 +9,9 @@ reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
-translation reviewer:
+translation-reviewer:
 - Jairo A. Melo
 layout: default
-next: descarga-multiples-registros-usando-cadenas-de-consulta
 previous: palabras-clave-en-contexto-n-grams
 redirect_from: /es/lessons/output-keywords-in-context-in-html-file
 ---
@@ -240,7 +239,7 @@ Esta lección marca el final de la serie de lecciones originales sobre Python. E
 
 -   python-lessons9.zip [zip sync][]
 
-Hay una leción adicional sobre el uso de Python para descargar varios registros utilizando cadenas de consulta y que está marcada como la "siguiente lección".
+*Nota:* Ahora puedes ir a la siguiente lección (en inglés) para aprender a [Descargar registros múltiples](http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings)
 
   [Palabras clave en contexto (usando n-grams)]: ../lecciones/palabras-clave-en-contexto-n-grams
   [zip file from the previous lesson]: ../assets/python-lessons8.zip

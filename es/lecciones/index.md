@@ -17,7 +17,7 @@ Programming Historian fue escrito originalmente como una serie de lecciones de P
 -   [Para entender páginas web y HTML](../lessons/viewing-html-files) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
 -   [Trabajar con archivos de texto en Python](../lessons/working-with-text-files) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
 -   [Reutilización de código y modularidad en Python](../lessons/code-reuse-and-modularity) <span class="toc-author">William J. Turkel & Adam Crymble</span>
--   [descargar páginas web con Python](../lessons/working-with-web-pages) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
+-   [Descargar páginas web con Python](../lessons/working-with-web-pages) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
 -   [Manipular cadenas de texto en Python](../lessons/manipulating-strings-in-python) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
 -   [De HTML a una lista de palabras (parte 1)](../lessons/from-html-to-list-of-words-1) <span class="toc-author"> William J. Turkel & Adam Crymble</span>
 -   [De HTML a una lista de palabras (parte 2)](../lessons/from-html-to-list-of-words-2) <span class="toc-author"> William J. Turkel & Adam Crymble</span>

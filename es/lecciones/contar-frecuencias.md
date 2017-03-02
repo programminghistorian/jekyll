@@ -9,7 +9,7 @@ reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
-translation reviewer:
+translation-reviewer:
 - Jairo A. Melo
 layout: default
 redirect_from: /es/lessons/counting-frequencies

@@ -10,7 +10,7 @@ reviewers:
 - Amanda Morton
 translator:
 - Víctor Gayol
-translation reviewer:
+translation-reviewer:
 - Jairo A. Melo
 layout: default
 redirect_from: /es/lessons/mac-installation
@@ -124,4 +124,4 @@ Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos 
 [otras opciones de editores de texto]: https://wiki.python.org/moin/PythonEditors/
 [TextWrangler]: http://www.barebones.com/products/textwrangler/
 [sitio web de Komodo Edit]: http://komodoide.com/komodo-edit/
-[Para entender páginas web y HTML]: http://es.programminghistorian/lecciones/ver-archivos-html/
+[Para entender páginas web y HTML]: http://programminghistorian/es/lecciones/ver-archivos-html/

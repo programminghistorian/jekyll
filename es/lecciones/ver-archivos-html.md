@@ -10,7 +10,7 @@ reviewers:
 - Amanda Morton
 translator:
 - Víctor Gayol
-translation reviewer:
+translation-reviewer:
 - Jairo A. Melo
 layout: default
 next: trabajando-con-archivos-de-texto
@@ -19,7 +19,6 @@ redirect_from: /es/lessons/viewing-html-files
 ---
 
 
-Nota: resultará más fácil completar esta lección si previamente has completado [la anterior de la serie].
 
 “Hola Mundo” en HTML
 --------------------------------

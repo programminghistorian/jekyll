@@ -10,7 +10,7 @@ reviewers:
 - Francesca Benatti
 translator:
 - Víctor Gayol
-translation reviewer:
+translation-reviewer:
 - Jairo A. Melo
 layout: default
 next: contar-frecuencias
@@ -152,7 +152,7 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 [De HTML a lista de palabras (parte 2)]: ../lecciones/de-html-a-lista-de-palabras-2
   [web page]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-  [De HTML a lista de palabras (parte 1]: ../lecciones/de-html-a-lista-de-palabras-1
+  [De HTML a lista de palabras (parte 1)]: ../lecciones/de-html-a-lista-de-palabras-1
   [Manipular cadenas de caracteres en Python]: ../lecciones/manipular-cadenas-de-caracteres-en-python
   [Unicode]: http://unicode.org/
   [soporte de Python]: http://www.diveintopython.net/xml_processing/unicode.html
