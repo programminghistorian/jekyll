@@ -1,0 +1,11 @@
+{% if page.lang == 'en' %}
+    <p><em>Note:</em> You are now prepared to move on to the 
+       <a href="{{site.url}}/lessons/{{page.next}}">next lesson</a>
+       in this series.</p>
+{% endif %}
+
+{% if page.lang == 'es' %}
+    <p><em>Nota:</em> Ahora estás preparado para moverte a la 
+       <a href="{{site.url}}/es/lecciones/{{page.next}}">siguiente lección</a>
+       de esta serie.</p>
+{% endif %}

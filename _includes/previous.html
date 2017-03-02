@@ -1,0 +1,14 @@
+{% if page.lang == 'en' %}
+    <p><em>Note:</em> You may find it easier to complete this lesson
+        if you have already completed the 
+        <a href="{{site.url}}/lessons/{{page.previous}}">previous lesson</a>
+        in this series.</p>
+{% endif %}
+
+{% if page.lang == 'es' %}
+    <p><em>Nota:</em> Encontrarás más fácil terminar esta lección si 
+        previamente has completado la 
+        <a href="{{site.url}}/es/lecciones/{{page.previous}}">lección anterior</a>
+        de esta serie.</p>
+{% endif %}
+
