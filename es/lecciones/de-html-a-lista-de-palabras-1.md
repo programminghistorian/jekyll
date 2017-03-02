@@ -139,3 +139,4 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 [Manipular cadenas de caracteres en Python]: ../lecciones/manipulacion-de-cadenas-de-texto-en-python
 [Reutilizacion de código y modularidad]: ../lecciones/reutilizacion-de-codigo-y-modularidad
 [zip]: ../assets/python-lessons2.zip
+[obo-t17800628-33.html]: ../assets/obo-t17800628-33.html
