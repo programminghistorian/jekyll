@@ -11,7 +11,7 @@
               {{ authorString }}, 
               "{{ page.title }}," 
               <em>{{ site.name }}</em>, 
-              ({{ page.date | append:" 12:00:00+00:00" | date_to_long_string }}), 
+              ({{ page.date | date: "%Y-%m-%d" }}), 
               {{ site.url }}{{ page.url }}
               </p>
             </div>
