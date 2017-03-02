@@ -19,7 +19,6 @@ redirect_from: /es/lessons/viewing-html-files
 ---
 
 
-Nota: resultará más fácil completar esta lección si previamente has completado [la anterior de la serie].
 
 “Hola Mundo” en HTML
 --------------------------------
