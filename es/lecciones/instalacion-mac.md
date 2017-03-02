@@ -40,9 +40,7 @@ Komodo Edit es un editor de texto que sirve para programación, es software libr
 
 Deberá verse algo por el estilo:
 
-![screenshot of Komodo Exit on OS X](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/komodo-edit-mac.png)
-
-Komodo Edit en una Mac
+{% include figure.html filename="komodo-edit-mac.png" caption="Komodo Edit en una Mac" %}
 
 Si no está visible el panel de Caja de Herramientas (Toolbox) a la derecha de la pantalla, es necesario activarlo en el menú correspondiente: `View->Tabs & Sidebars ->Toolbox`. No importa si el panel de proyecto está abierto o no. Conviene, como siempre con nuevo software, dedicar un tiempo a familiarizarse con los diversos menús y barras de herramientas. El archivo de ayuda es bastante bueno.
 
@@ -78,8 +76,7 @@ print (hola mundo)
 ```
 El editor de texto que seleccionaste debe tener un botón "`run`" que te permitirá ejecutar tu programa. Por ejemplo, si estás utilizando TextWrangler, haz clic en el botón "`#!`" para ejecutarlo. Si todo funciona bien (es posible que no, con lo cual habrá que revisar las diversas instalaciones y configuraciones), deberás ver algo como sigue:
 
-![TextWrangler-hello-world](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/TextWrangler-hello-world.png) 
-'Hello Wold' en Python en una Mac, 
+{% include figure.html filename="TextWrangler-hello-world.png" caption="'Hello World' en Python en una Mac" %}
 
 ### Interactuar con el intérprete de comandos (shell) de Python
 
@@ -106,8 +103,7 @@ Print ('Hola Mundo')
 
 En la pantalla de tu computadora aparecerá de esta manera:
 
-![hello world terminal on a Mac](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/hello-world-terminal.png)
-Intérprete de comandos de Python en Terminal de Mac
+{% include figure.html filename="hello-world-terminal.png" caption="Intérprete de comandos de Python en Terminal de Mac" %}
 
 Para salir del shell de Python en Terminal debes escribir en el prompt shell:
 
