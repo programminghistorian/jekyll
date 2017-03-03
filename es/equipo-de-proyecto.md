@@ -62,7 +62,7 @@ Adam Crymble es profesor de historia digital en la Universidad de Hertfordshire.
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Victor-Gayol.png" />
-Víctor Gayol trabaja es profesor investigador en el Centro de Estudios Históricos de El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
+Víctor Gayol es profesor investigador en el Centro de Estudios Históricos de El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
  
 <br />
 	
