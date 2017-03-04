@@ -12,6 +12,8 @@ translator:
 translation-reviewer:
 - Jairo A. Melo
 layout: default
+next: crear-y-ver-archivos-html-con-python
+previous: normalizar-datos
 redirect_from: /es/lessons/counting-frequencies
 ---
 
