@@ -186,8 +186,8 @@ print('\"')
 ```
 
 ``` python
-print('El programa imprimió \"Hola Mundo\"')
--> El programa imprimió "Hola Mundo"
+print('El programa imprime \"Hola Mundo\"')
+-> El programa imprime "Hola Mundo"
 ``` 
 
 Otras dos secuencias de escape te permiten incluir marcas de tabulación (t) y saltos de línea (n):
