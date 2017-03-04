@@ -13,7 +13,7 @@ translation-reviewer:
 - Jairo A. Melo
 layout: default
 next: de-html-a-lista-de-palabras-2
-previous: manipulacion-de-cadenas-de-texto-en-python
+previous: manipular-cadenas-de-caracteres-en-python
 redirect_from: /es/lessons/from-html-to-list-of-words-1
 ---
 
