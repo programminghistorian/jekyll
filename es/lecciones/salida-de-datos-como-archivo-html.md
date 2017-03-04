@@ -19,7 +19,8 @@ redirect_from: /es/lessons/output-data-as-html-file
 
 ## Objetivo de la lección
 
-Esta lección toma los pares de frecuencia creados en [Contar frecuencias de palabras con Python][] y crea una salida de datos a un archivo HTML.
+Esta lección toma los pares de frecuencia creados en [
+de palabras con Python][] y crea una salida de datos a un archivo HTML.
 
 Aquí aprenderás a crear esta salida de datos como archivo HTML utilizando Python. También aprenderás acerca del formato de cadenas. El resultado final es un archivo HTML que muestra las palabras clave encontradas en la fuente original en orden de frecuencia descendente junto con el número de veces que aparece cada palabra clave.
 
@@ -201,6 +202,6 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 -   python-lessons7.zip [zip sync][]
 
   [Contar frecuencias de palabras con Python]: ../lecciones/contar-frecuencias
-  [Contar frecuencias][]: ../lecciones/contar-frecuencias
+  [Contar frecuencias]: ../lecciones/contar-frecuencias
   [archivo zip de las lecciones anteriores]: ../assets/python-lessons6.zip
   [zip sync]: ../assets/python-lessons7.zip
