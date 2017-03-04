@@ -15,7 +15,6 @@ translation-reviewer:
 layout: default
 redirect_from: /es/lessons/linux-installation
 ---
-</em>
 
 Gracias a John Fink por proveer las bases de esta sección. Estas instrucciones son para Ubuntu 12.04 LTS, pero deben funcionar para cualquier distribución y APT como Debiano  Linux Mint, siempre y cuando tengas instalado sudo
 
