@@ -65,7 +65,7 @@ Como historiador digital a menudo te encontrarás esperando utilizar los datos a
 
 Como ejemplo, vamos a trabajar con una tipo de archifo que podrás encontrar haciendo investigación histórica. Digamos que te interesan las relaciones étnicas en la Gran Bretaña del siglo XVIII. The Old Bailey Online (OBO) es una rica fuente que proporciona transcripciones de juicios de 1674 a 1913 y es un buen lugar para buscar documentación.
 
-{% include figure.html filename="old-bailey.png" caption="The Old Bailey Online Homepage" %}
+{% include figure.html filename="old-bailey.png" caption="Página principal del sitio The Old Bailey Online" %}
 
 Para este ejemplo vamos a utilizar la relatoría del juicio de Benjamin Bowsey, un “moro negro” que fue procesado por romper la paz durante las [revueltas de Gordon] en 1780. El URL para esa entrada es:
 
@@ -75,7 +75,7 @@ http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
 
 Si estudiamos el URL podemos aprender varias cosas. En primer lugar, OBO fue escrito en JSP (+JavaServer Pages*, un lenguaje de programación que genera HTML), y es posible obtener entradas de procesos judiciales individuales haciendo uso de cadenas de consulta. A cada proceso se le asignó, aparentemente un número de identificación (ID) (*id=t* en el URL), compuesto a partir de la fecha del juicio en formato (*AAAA-MM-DD*) y el número de proceso dentro de esa sesión de la corte, en este caso: *33*. Si cambias `33` por `34` en tu navegador y presionas Enter, eso te deberá llevar al siguiente proceso. Desafortunadamente no todos los sitios web tienen estos URL tan legibles y fiables.
 
-{% include figure.html filename="bowsey-trial-page.png" caption="Trial Transcript Page of Benjamin Bowsey, 1780" %}
+{% include figure.html filename="bowsey-trial-page.png" caption="Página de la relatora del juicio de Benjamin Bowsey, 1780" %}
 
 Tómate unos minutos para ver la página del proceso contra Benjamin Bowsey. No estamos muy interesados en lo que dice la relatoría sino en la información que proporciona la página. Al final de la misma notarás que hay un enlace [View as XML] que te lleva a una versión de la página del texto profusamente etiquetado con [XML] que es muy útil para cierto tipo de investigaciones. También puedes ver un escaneo del [documento original] que fue transcrito para hacer construir esta fuente.
 
@@ -137,7 +137,7 @@ f.write(contenidoWeb)
 f.close
 ```
 
-Ahora, si tu puedes guardar un solo archivo así de fácil, ¿es posible escribir un programa que te permita descargar un puñado de archivos? ¿Es posible incrementar la cantidad de IDs de los juicios y obtener copias de todos ellos en una sola descarga? Efectivamente. Puedes aprender cómo hacerlo en la lección [Downloading Multiple Files using Query Strings](http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings), que te recomendamos ver una vez completadas las lecciones introducctorias de esta serie.
+Ahora, si tu puedes guardar un solo archivo así de fácil, ¿es posible escribir un programa que te permita descargar un puñado de archivos? ¿Es posible incrementar la cantidad de IDs de los juicios y obtener copias de todos ellos en una sola descarga? Efectivamente. Puedes aprender cómo hacerlo en la lección [Downloading Multiple Files using Query Strings](http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings), que te recomendamos ver una vez completadas las lecciones introductorias de esta serie.
 
 Lecturas sugeridas
 ------------------
