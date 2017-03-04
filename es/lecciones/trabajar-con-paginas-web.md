@@ -75,7 +75,7 @@ http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
 
 Si estudiamos el URL podemos aprender varias cosas. En primer lugar, OBO fue escrito en JSP (+JavaServer Pages*, un lenguaje de programación que genera HTML), y es posible obtener entradas de procesos judiciales individuales haciendo uso de cadenas de consulta. A cada proceso se le asignó, aparentemente un número de identificación (ID) (*id=t* en el URL), compuesto a partir de la fecha del juicio en formato (*AAAA-MM-DD*) y el número de proceso dentro de esa sesión de la corte, en este caso: *33*. Si cambias `33` por `34` en tu navegador y presionas Enter, eso te deberá llevar al siguiente proceso. Desafortunadamente no todos los sitios web tienen estos URL tan legibles y fiables.
 
-{% include figure.html filename="bowsey-trial-page.png" caption="Página de la relatora del juicio de Benjamin Bowsey, 1780" %}
+{% include figure.html filename="bowsey-trial-page.png" caption="Página de la transcripción del juicio de Benjamin Bowsey, 1780" %}
 
 Tómate unos minutos para ver la página del proceso contra Benjamin Bowsey. No estamos muy interesados en lo que dice la relatoría sino en la información que proporciona la página. Al final de la misma notarás que hay un enlace [View as XML] que te lleva a una versión de la página del texto profusamente etiquetado con [XML] que es muy útil para cierto tipo de investigaciones. También puedes ver un escaneo del [documento original] que fue transcrito para hacer construir esta fuente.
 
