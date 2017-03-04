@@ -13,7 +13,7 @@ translation-reviewer:
 - Jairo A. Melo
 layout: default
 next: de-html-a-lista-de-palabras-1
-previous: trabajando-con-paginas-web
+previous: trabajar-con-paginas-web
 redirect_from: /es/lessons/manipulating-strings-in-python
 ---
 
