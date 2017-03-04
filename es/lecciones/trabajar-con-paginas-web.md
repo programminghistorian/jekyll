@@ -13,7 +13,7 @@ translation-reviewer:
 - Jairo A. Melo
 layout: default
 categories: [lessons, python, original-ph]
-next: manipulacion-de-cadenas-de-texto-en-python
+next: manipular-cadenas-de-caracteres-en-python
 previous: reutilizacion-de-codigo-y-modularidad
 redirect_from: /es/lessons/working-with-web-pages
 ---
