@@ -13,7 +13,7 @@ translator:
 translation-reviewer:
 - Jairo A. Melo
 layout: default
-next: trabajando-con-archivos-de-texto
+next: trabajar-con-archivos-de-texto
 previous: introduccion-e-instalacion
 redirect_from: /es/lessons/viewing-html-files
 ---
