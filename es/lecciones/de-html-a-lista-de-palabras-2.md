@@ -30,7 +30,7 @@ En esa lección aprenderás los comandos de Python que son necesarios para imple
 ### Archivos requeridos para esta lección
 
 - *obo.py*
-- *contenido-juicio*
+- *contenido-juicio.py*
 
 Si no tienes estos archivos puedes descargar el archivo comprimido python-lessons2.zip ([zip][]) de la lección anterior.
 
