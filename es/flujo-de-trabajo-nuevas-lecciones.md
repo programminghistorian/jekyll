@@ -257,7 +257,7 @@ Intenta utilizar los acentos (`` ` `` ) para introducir líneas de codigo y para
 # Enviar una traducción o una lección nueva
 Una vez tu archivo ha sido preparado de acuerdo con las especificaciones detalladas, ¡ya puedes enviárnoslo!
 
-Tenemos una página del proyecto [Programming Historian](https://github.com/programminghistorian) en GitHub, donde mantemos dos repositorios (es decir, un sitio en donde almacenar archivos y carpetas). Por un lado, tenemos el repositorio [jekyll](https://github.com/programminghistorian/jekyll), que contiene los archivos a los que se accede a través del navegador [web] (http://programminghistorian.org/es). Por el otro, tenemos el repositorio llamado [ph-submissions].
+Tenemos una página del proyecto [Programming Historian](https://github.com/programminghistorian) en GitHub, donde mantemos dos repositorios (es decir, un sitio en donde almacenar archivos y carpetas). Por un lado, tenemos el repositorio [jekyll](https://github.com/programminghistorian/jekyll), que contiene los archivos a los que se accede a través del navegador [web](http://programminghistorian.org/es). Por el otro, tenemos el repositorio llamado [ph-submissions].
 
 Los autores y traductores pueden enviarnos las lecciones de manera directa, es decir, añadiendo los archivos al repositorio [ph-submissions]. Gracias a las características de GitHub, puedes llevar a cabo esto arrastrando y soltando los archivos. Si colaboras con nosotros por primera vez, estas instrucciones pueden ser útiles:
 
