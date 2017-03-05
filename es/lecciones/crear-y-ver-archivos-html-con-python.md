@@ -27,7 +27,7 @@ Aquí aprenderás cómo crear archivos HTML con *scripts* de Python, y cómo uti
 
 - `obo.py`
 
-Si no tienes estos archivos de las lecciones anteriores, puedes descargar programming-historian-5, un [archivo zip de las lecciones anteriores][].
+Si no tienes estos archivos de las lecciones anteriores, puedes descargar python-es-lecciones5, un [archivo zip de las lecciones anteriores][].
 
 ## Crear HTML con Python
 
