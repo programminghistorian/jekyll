@@ -4,7 +4,7 @@ authors:
 - Dennis Tenen
 - Grant Wythoff
 date: 2014-03-19
-reviewers:
+editors:
 - Fred Gibbs
 layout: default
 difficulty: 2
