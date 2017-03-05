@@ -3,7 +3,7 @@ layout: directory
 title: Índice de lecciones
 ---
 
-Te invintamos a navegar alrededor. Si no encuentras cubierta alguna herramienta, tecnología o habilidad, por favor ¡háznoslo saber!
+Te invitamos a navegar alrededor. Si no encuentras cubierta alguna herramienta, tecnología o habilidad, por favor ¡háznoslo saber!
 
 <!--Translations of titles of non-Python-introduction lessons removed February 24; see previous commit to get those translations-->
 
