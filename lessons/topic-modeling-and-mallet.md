@@ -8,6 +8,7 @@ date: 2012-09-02
 reviewers:
 - John Fink
 - Alan MacEachern
+editors:
 - Adam Crymble
 layout: default
 difficulty: 2
