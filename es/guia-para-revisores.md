@@ -58,7 +58,7 @@ Si has ojeado algunos de los tutoriales de _The Programming Historian en españo
 
 Aunque cada lección mantenga el estilo de su autor (o traductor), queremos que todas lecciones sean legibles y estén escritas en un registro homogéneo. 
 
-####Traducciones
+### Traducciones
 De manera más específica, en cuanto a las traducciones, apreciamos el rigor pero también somos conscientes de que la literalidad no se puede alcanzar si se persigue una lectura amena. Además, en ocasiones los traductores deben añadir aclaraciones culturales a través de notas o entre paréntesis. He aquí, pues, algunas cuestiones a tener en cuenta: 
 
 - ¿El lenguaje (léxico, sintaxis, ortografía) es adecuado? 
@@ -68,33 +68,33 @@ De manera más específica, en cuanto a las traducciones, apreciamos el rigor pe
 - ¿El traductor ha añadido notas aclaratorias?
 - ¿Las capturas de pantalla y trozos de código han sido adaptados?
 
-####Lecciones nuevas
+### Lecciones nuevas
 Por lo que respecta a las lecciones nuevas, queremos que las explicaciones técnicas (y el nivel de dificultad) sea constante a lo largo del tutorial. En tanto que revisor, queremos que, en un tutorial dirigido a un usuario experimentado, seas capaz de detectar pasajes que explican en detalle un concepto demasiado simple. Y a la inversa: queremos evitar tutoriales dirigidos a principiantees que no explican de manera adecuada un concepto fundamental para entender la lección. Aspectos a tener en cuenta:
 
 - ¿El autor tiene en mente un destinatario ideal a lo largo de la lección?
 - ¿Hay pasos explicados en exceso? ¿Hay otros pasos, en cambio, que requieren mayor detalles?
 - ¿Existe otra lección en _The Programming Historian en español_ que tenga un destinatario semejante? ¿En qué sentido la lección supone una novedad?
 
-##### Preliminares
+### Preliminares
 
 - ¿Qué programas o lenguajes son necesarios?
 - ¿Qué habilidades se necesita conocer previamente? 
 - ¿Qué experiencia previa se necesita?
 - ¿Qué datos se necesitan? ¿Son accesibles?
 
-##### Estructura
+### Estructura
 
 - ¿Los objetivos y las habilidades previas que se necesitan se exponen de manera clara al inicio del tutorial? 
 - ¿Las habilidades derivadas del tutorial son útiles? 
 - ¿Las capturas de pantalla y diagramas ilustran los pasos más importantes del tutorial?
 - ¿Las secciones y títulos de sección son claros y guían la lector?
 
-##### Beneficios
+### Beneficios
 
 - ¿Se explica de manera clara por qué la herramienta o los métodos son útiles para investigar? 
 - ¿Se sugiere cómo los conceptos (o un paso concreto) se pueden aplicar a otros casos concretos?
 
-##### Flujo de trabajo
+### Flujo de trabajo
 
 - Si la lección tiene una extensión larga, ¿debería dividirse en otras más breves? 
 - ¿Hay recapitulaciones, resúmenes o paradas que marcan una transición a lo largo del tutorial? 
