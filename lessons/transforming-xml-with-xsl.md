@@ -7,6 +7,7 @@ date: 2016-07-07
 reviewers:
 - Jonathan Blaney
 - Tessa C Hauswedell
+editors:
 - Adam Crymble
 layout: default
 difficulty: 1
