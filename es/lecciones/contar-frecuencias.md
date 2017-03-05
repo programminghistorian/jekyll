@@ -429,12 +429,12 @@ Pilgrim, Diving into Python
 
 ### Sicronización de código
 
-Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "programming-historian" para asegurarte que tienes el código correcto.
+Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "python-es-lecciones" para asegurarte que tienes el código correcto.
 
--   programming-historian-5 ([zip sync][])
+-   python-es-lecciones5.zip ([zip sync][])
 
   [lista por comprensión]: http://docs.python.org/tutorial/datastructures.html#list-comprehensions
   [informáticos de Glasgow]: http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
   [Regular Expressions]: http://www.diveintopython.net/regular_expressions/index.html
-  [zip]: ../assets/python-lessons4.zip
-  [zip sync]: ../assets/python-lessons5.zip
+  [zip]: http://programminghistorian.org/assets/python-es-lecciones4.zip
+  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones5.zip
