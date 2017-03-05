@@ -6,6 +6,7 @@ date: 2015-12-01
 reviewers:
 - Guy McClellan
 - Amanda Morton
+editors:
 - Fred Gibbs
 layout: default
 published: true
