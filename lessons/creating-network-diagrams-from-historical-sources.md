@@ -4,9 +4,10 @@ authors:
 - Marten Düring
 date: 2015-02-18
 reviewers:
-- Fred Gibbs
 - Ryan Cordell
 - Justin Larsen
+editors:
+- Fred Gibbs
 layout: default
 ---
 
