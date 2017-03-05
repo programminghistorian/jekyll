@@ -3,7 +3,7 @@ title: Intro to Beautiful Soup
 authors:
 - Jeri Wieringa
 date: 2012-12-30
-reviewers:
+editors:
 - Fred Gibbs
 layout: default
 difficulty: 2
