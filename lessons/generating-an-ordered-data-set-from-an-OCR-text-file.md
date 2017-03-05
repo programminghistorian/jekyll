@@ -4,8 +4,9 @@ authors:
 - Jon Crump
 date: 2014-11-25
 reviewers:
-- Fred Gibbs
 - Brandon Hawk
+editors:
+- Fred Gibbs
 layout: default
 difficulty: 3
 ---
