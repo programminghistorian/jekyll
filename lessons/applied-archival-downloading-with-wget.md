@@ -6,6 +6,7 @@ date: 2013-09-13
 reviewers:
 - Nick Ruest
 - Konrad Lawson
+editors:
 - Ian Milligan
 layout: default
 previous: automated-downloading-with-wget
