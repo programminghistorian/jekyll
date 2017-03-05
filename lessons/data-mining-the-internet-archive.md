@@ -4,8 +4,9 @@ authors:
 - Caleb McDaniel
 date: 2014-03-03
 reviewers:
-- William J. Turkel
 - Adam Crymble
+editors:
+- William J. Turkel
 layout: default
 difficulty: 2
 abstract: |
