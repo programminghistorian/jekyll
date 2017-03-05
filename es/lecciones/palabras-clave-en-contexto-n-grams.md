@@ -29,7 +29,7 @@ Al final de la lección serás capaz de extraer todos los n-gramas posibles del 
 
 - `obo.py`
 
-Si no tienes estos archivos de las lecciones anteriores, puedes descargar python-es-lecciones8, un [archivo zip de las lecciones anteriores][].
+Si no tienes estos archivos de las lecciones anteriores, puedes descargar python-es-lecciones7, un [archivo zip de las lecciones anteriores][].
 
 ## De texto a n-gramas a KWIC
 
