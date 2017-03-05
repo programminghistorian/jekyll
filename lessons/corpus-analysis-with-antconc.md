@@ -6,6 +6,7 @@ date: 2015-06-19
 reviewers:
 - Nabeel Siddiqui
 - Rob Sieczkiewicz
+editors:
 - Fred Gibbs
 layout: default
 difficulty: 1
