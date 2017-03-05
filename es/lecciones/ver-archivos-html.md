@@ -13,7 +13,7 @@ translator:
 translation-reviewer:
 - Jairo A. Melo
 layout: default
-next: trabajando-con-archivos-de-texto
+next: trabajar-con-archivos-de-texto
 previous: introduccion-e-instalacion
 redirect_from: /es/lessons/viewing-html-files
 ---
@@ -29,9 +29,9 @@ Cuando trabajas con recursos en línea, la mayor parte del tiempo estás usando 
 
 Cuando estás trabajando en el navegador, generalmente no necesitas o no quieres ver el código fuente de esa página web. Pero si estás escribiendo una página para ti mismo puede ser muy útil ver cómo otras personas logran un efecto particular en la página a través de ciertos etiquetados. También resulta importante conocer el código fuente HTML mientras escribes programas para manipular páginas web o extraer automáticamente información de los sitios en la web como, por ejemplo, los repositorios de datos digitales.
 
-{% include figure.html filename="obo.png" caption="Old Bailey Online screenshot" %}
+{% include figure.html filename="obo.png" caption="Captura de pantalla de Old Bailey en línea" %}
 
-{% include figure.html filename="obo-page-source.png" caption="HTML Source for Old Bailey Online Web Page" %}
+{% include figure.html filename="obo-page-source.png" caption="Fuente HTML de la página web de Old Bailey en línea" %}
 
 (Para aprender más acerca de HTML, encontrarás muy útil en este momento estudiar el [tutorial de HTML ofrecido por W3Schools]. No es necesario por ahora tener un conocimiento detallado del HTML para continuar leyendo esta lección, pero todo el tiempo que inviertas en aprender HTML va a repercutir ampliamente en tu trabajo y formación como historiador o humanista digital).
 

@@ -2,13 +2,13 @@
 layout: blank
 ---
 
-	<header>
+    <header>
 
     {% if page.deprecated %}
        <p class="deprecated"> {% include deprecated.html %} </p>
     {% endif %}
-				
-     <p class="kicker">{{ page.date | date: "%B %-d, %Y" }}</p>
+                
+     <p class="kicker">{{ page.date | date: "%Y-%m-%d" }}</p>
  
      <h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
 
@@ -24,27 +24,22 @@ layout: blank
             {% include difficulty.html %}
          {% endif %}
      </ul>
-				
+                
      </header>
 
-            {% if page.previous %}
-            <p><em>Note:</em> You may find it easier to complete this lesson
-                if you have already completed the 
-                <a href="../lessons/{{page.previous}}">previous lesson</a>
-                in this series.</p>
-            {% endif %}
+     {% if page.previous %}
+        {% include previous.html %}
+     {% endif %}
 
-			<div class="content">
-	              {{ content }}
-	        </div>
+     <div class="content">
+         {{ content }}
+     </div>
 
-            {% if page.next %}
-            <p><em>Note:</em> You are now prepared to move on to the 
-                <a href="../lessons/{{page.next}}">next lesson</a>
-                in this series.</p>
-            {% endif %}
+     {% if page.next %}
+        {% include next.html %}
+     {% endif %}
 
-        {% include author-info.html %}
+     {% include author-info.html %}
 
-        {% include citation.html %}
+     {% include citation.html %}
 

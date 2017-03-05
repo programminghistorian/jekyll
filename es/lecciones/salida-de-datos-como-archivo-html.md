@@ -19,7 +19,8 @@ redirect_from: /es/lessons/output-data-as-html-file
 
 ## Objetivo de la lección
 
-Esta lección toma los pares de frecuencia creados en [Contar frecuencias de palabras con Python][] y crea una salida de datos a un archivo HTML.
+Esta lección toma los pares de frecuencia creados en [
+de palabras con Python][] y crea una salida de datos a un archivo HTML.
 
 Aquí aprenderás a crear esta salida de datos como archivo HTML utilizando Python. También aprenderás acerca del formato de cadenas. El resultado final es un archivo HTML que muestra las palabras clave encontradas en la fuente original en orden de frecuencia descendente junto con el número de veces que aparece cada palabra clave.
 
@@ -27,7 +28,7 @@ Aquí aprenderás a crear esta salida de datos como archivo HTML utilizando Pyth
 
 - `obo.py`
 
-Si no tienes estos archivos de las lecciones anteriores, puedes descargar programming-historian-6, un [archivo zip de las lecciones anteriores][].
+Si no tienes estos archivos de las lecciones anteriores, puedes descargar python-es-lecciones6, un [archivo zip de las lecciones anteriores][].
 
 ## Construcción de un contenedor de HTML
 
@@ -196,11 +197,11 @@ Toma en cuenta que intercalamos nuestros pares de frecuencia de palabras con la 
 
 ### Sincronización de código
 
-Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "programming-historian" para asegurarte que tienes el código correcto. Si estás trabajando con la versión Mac o Linux de las lecciones deberás abrir el archivo `obo.py` y cambiar "file:///Users/username/Desktop/programming-historian/" a la ruta del directorio de tu propia computadora.
+Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "python-es-lecciones" para asegurarte que tienes el código correcto. Si estás trabajando con la versión Mac o Linux de las lecciones deberás abrir el archivo `obo.py` y cambiar "file:///Users/username/Desktop/programming-historian/" a la ruta del directorio de tu propia computadora.
 
--   python-lessons7.zip [zip sync][]
+-   python-es-lecciones7.zip [zip sync][]
 
   [Contar frecuencias de palabras con Python]: ../lecciones/contar-frecuencias
-  [Contar frecuencias][]: ../lecciones/contar-frecuencias
-  [archivo zip de las lecciones anteriores]: ../assets/python-lessons6.zip
-  [zip sync]: ../assets/python-lessons7.zip
+  [Contar frecuencias]: ../lecciones/contar-frecuencias
+  [archivo zip de las lecciones anteriores]: http://programminghistorian.org/assets/python-es-lecciones6.zip
+  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones7.zip

@@ -15,9 +15,8 @@ translation-reviewer:
 layout: default
 redirect_from: /es/lessons/linux-installation
 ---
-</em>
 
-Gracias a John Fink por proveer las bases de esta sección. Estas instrucciones son para Ubuntu 12.04 LTS, pero deben funcionar para cualquier distribución y APT como Debiano  Linux Mint, siempre y cuando tengas instalado sudo
+Gracias a John Fink por proveer las bases de esta sección. Estas instrucciones son para Ubuntu 12.04 LTS, pero deben funcionar para cualquier distribución y APT como Debian Linux Mint, siempre y cuando tengas instalado sudo
 
 ## Respalda tu computadora
 
@@ -64,9 +63,9 @@ En tu editor de texto crea un nuevo archivo y escribe el siguiente programa de d
 print ('hola mundo')
 ``` 
 
-El editor de texto que seleccionaste utilizar debe tener un botón `Run`  que te permitirá ejecutar tu programa. Si todo funciona bien, deberás ver algo como sigue (El ejemplo es como se ve en Komodo Edit. Da un Click en la imagen para ver una copia en tamaño completo):
+El editor de texto que seleccionaste utilizar debe tener un botón `Run`  que te permitirá ejecutar tu programa. Si todo funciona bien, deberás ver algo como sigue (El ejemplo es como se ve en Komodo Edit.):
 
-![hello world in Komodo Edit on a Mac][]
+{% include figure.html filename="hello-world1.png" caption="" %}
 
 ## Interactuar con el intérprete de comandos (shell) de Python
 
@@ -98,14 +97,11 @@ Print('Hola Mundo')
 
 En la pantalla de tu computadora aparecerá de esta manera:
 
-![hello world terminal on a Mac][]
-
+{% include figure.html filename="hello-world-terminal.png" caption="" %}
 
 Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos hacia unas tareas algo más interesantes. Si estás trabajando de manera ordenada las lecciones de Python, te sugerimos que pases ahora a la lección [Para entender páginas web y HTML]
 
 
 [opciones de editores de texto]: https://wiki.python.org/moin/PythonEditors/
-[sitio web de Komodo Edit]: http://komodoide.com/komodo-edit/"
-[hello world in Komodo Edit on a Mac]: ../images/hello-world1.png
-[hello world terminal on a Mac]: ../images/hello-world-terminal.png 
+[sitio web de Komodo Edit]: http://komodoide.com/komodo-edit/
 [Para entender páginas web y HTML]: http://programminghistorian.org/es/lecciones/ver-archivos-html

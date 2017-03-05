@@ -13,7 +13,7 @@ translation-reviewer:
 - Jairo A. Melo
 layout: default
 next: salida-palabras-clave-contexto-ngrams
-previous: salida-de-data-como-archivo-html
+previous: salida-de-datos-como-archivo-html
 redirect_from: /es/lessons/keywords-in-context-using-n-grams
 ---
 
@@ -29,7 +29,7 @@ Al final de la lección serás capaz de extraer todos los n-gramas posibles del 
 
 - `obo.py`
 
-Si no tienes estos archivos de las lecciones anteriores, puedes descargar programming-historian-7, un [archivo zip de las lecciones anteriores][].
+Si no tienes estos archivos de las lecciones anteriores, puedes descargar python-es-lecciones7, un [archivo zip de las lecciones anteriores][].
 
 ## De texto a n-gramas a KWIC
 
@@ -155,13 +155,13 @@ Ahora tenemos una manera de extraer todos los posibles n-gramas de un cuerpo de 
 
 ### Sincronización de código
 
-Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "programming-historian" para asegurarte que tienes el código correcto. Si estás trabajando con la versión Mac o Linux de las lecciones deberás abrir el archivo `obo.py` y cambiar "file:///Users/username/Desktop/programming-historian/" a la ruta del directorio de tu propia computadora.
+Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "python-es-lecciones" para asegurarte que tienes el código correcto. Si estás trabajando con la versión Mac o Linux de las lecciones deberás abrir el archivo `obo.py` y cambiar "file:///Users/username/Desktop/programming-historian/" a la ruta del directorio de tu propia computadora.
 
--   python-lessons8.py ([zip sync][])
+-   python-es-lecciones8.zip ([zip sync][])
 
   [Salida de datos como archivo HTML]: ../lecciones/salida-de-datos-como-archivo-html
   [Contar frecuencias de palabras]: ../lecciones/contar-frecuencias
   [1]: salida-de-datos-como-archivo-html
-  [zip file from the previous lesson]: ../assets/python-lessons7.zip
+  [archivo zip de las lecciones anteriores]: http://programminghistorian.org/assets/python-es-lecciones7.zip
   [Manipular cadenas de caracteres en Python]: ../lecciones/manipular-cadenas-de-caracteres-en-python
-  [zip sync]: ../assets/python-lessons8.zip
+  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones8.zip

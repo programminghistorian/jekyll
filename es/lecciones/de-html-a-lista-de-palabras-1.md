@@ -13,7 +13,7 @@ translation-reviewer:
 - Jairo A. Melo
 layout: default
 next: de-html-a-lista-de-palabras-2
-previous: manipulacion-de-cadenas-de-texto-en-python
+previous: manipular-cadenas-de-caracteres-en-python
 redirect_from: /es/lessons/from-html-to-list-of-words-1
 ---
 
@@ -24,7 +24,7 @@ En esta lección en dos partes partiremos de lo que has aprendido en [Descargar 
 
 ## El reto
 
-Para tener una idea más clara de la tarea que tenemos por delante, abre el archivo *obo-t17800628-33.html* que creaste en la lección [Descargar páginas web con Python] (o [descarga y guarda el juicio][obo-t17800628-33.html], si aún no tienes una copia). Entonces observa el código HTML en tu navegador de Fierfox usando `Herramientas -> Desarrollador web -> Código fuente de esta página`. A medida que te desplazas a través del código fuente te darás cuenta que hay etiquetas HTML mezcladas con el texto. Si eres nuevo en HTML te recomendamos tomar el tutorial de W3Schools [HTML][1] para familiarizarte con el marcado. Si tu trabajo requiere a menudo que tengas que retirar etiquetas sin duda te va a servir para entenderlo en cuanto lo veas.
+Para tener una idea más clara de la tarea que tenemos por delante, abre el archivo *obo-t17800628-33.html* que creaste en la lección [Descargar páginas web con Python](http://programminghistorian/es/trabajar-con-paginas-web) (o [descarga y guarda el juicio](http://programminghistorian.org/assets/obo-t17800628-33.html), si aún no tienes una copia). Entonces observa el código HTML en tu navegador de Fierfox usando `Herramientas -> Desarrollador web -> Código fuente de esta página`. A medida que te desplazas a través del código fuente te darás cuenta que hay etiquetas HTML mezcladas con el texto. Si eres nuevo en HTML te recomendamos tomar el tutorial de W3Schools [HTML][1] para familiarizarte con el marcado. Si tu trabajo requiere a menudo que tengas que retirar etiquetas sin duda te va a servir para entenderlo en cuanto lo veas.
 
 ## Archivos necesarios para esta lección
 
@@ -124,19 +124,19 @@ Lecturas sugeridas
  
 ## Sincronización de código
 
-Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "programming-historian" para asegurarte que tienes el código correcto.
+Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "python-es-lecciones" para asegurarte que tienes el código correcto.
 
--   programming-historian-2 ([zip][])
-
-
+-   python-es-lecciones2.zip ([zip][])
 
 
-[Descargar páginas web con Python]: http://programminghistorian/es/trabajar-con-paginas-web
+
+
+
 [transcripción del juicio criminal contra Benjamin Bowsey de 1780]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
 [Descargar páginas web con Python]: http://programminghistorian.org/es/lecciones/trabajar-con-paginas-web
 [HTML]: http://www.w3schools.com/html/
 [1]: http://www.w3schools.com/html/
-[Manipular cadenas de caracteres en Python]: ../lecciones/manipulacion-de-cadenas-de-texto-en-python
+[Manipular cadenas de caracteres en Python]: ../lecciones/manipular-cadenas-de-caracteres-en-python 
 [Reutilizacion de código y modularidad]: ../lecciones/reutilizacion-de-codigo-y-modularidad
-[zip]: ../assets/python-lessons2.zip
-[obo-t17800628-33.html]: ../assets/obo-t17800628-33.html
+[zip]: http://programminghistorian.org/assets/python-es-lecciones2.zip
+[obo-t17800628-33.html]: http://programminghistorian.org/assets/obo-t17800628-33.html
