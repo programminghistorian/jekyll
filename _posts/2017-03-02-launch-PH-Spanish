@@ -6,8 +6,8 @@
 +categories: posts 
 +---
 
-<p><figure><a href="/posts/lanzamiento-PH-español"><img src="../images/lanzamiento-PH-español/lanzamiento-PH-español.png" alt=""/></a><figcaption>
-    Programming Historian lanza su sitio en español.</figcaption></figure></p>
+<p><figure><a href="/posts/lanzamiento-PH-español"><img src="../images/Launch-PH-Spanish/Launch-PH-Spanish.png" alt=""/></a><figcaption>
+    Programming Historian launches its Spanish site.</figcaption></figure></p>
 +
 +We are very excited to introduce *The Programming Historian en español*! *The Programming Historian* offers novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research.
 Starting today, the website of *The Programming Historian en español* will be available in the following link: [http://programminghistorian.org/es](http://programminghistorian.org/es) We launch the site with complete translations of the Python tutorial series. Python is a high level programming language which can be used to write programs to manipulate text files, download web pages, reorganize its contents into useful chunks of information for analysis, and count word frequencies. 
