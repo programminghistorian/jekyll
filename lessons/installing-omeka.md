@@ -5,6 +5,7 @@ authors:
 date: 2016-07-24
 reviewers:
 - M. H. Beals
+editors:
 - Fred Gibbs
 layout: default
 next: creating-an-omeka-exhibit
