@@ -123,12 +123,12 @@ No solamente has escrito un programa en Python que puede escribir HTML simple, s
 
 ### Sincronización de código
 
-Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "programming-historian" para asegurarte que tienes el código correcto. Si estás trabajando con la versión Mac o Linux de las lecciones deberás abrir el archivo `obo.py` y cambiar "file:///Users/username/Desktop/programming-historian/" a la ruta del directorio de tu propia computadora.
+Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "python-es-lecciones" para asegurarte que tienes el código correcto. Si estás trabajando con la versión Mac o Linux de las lecciones deberás abrir el archivo `obo.py` y cambiar "file:///Users/username/Desktop/programming-historian/" a la ruta del directorio de tu propia computadora.
 
--   python-lessons6.zip [zip sync]
+-   python-es-lecciones6.zip [zip sync]
 
-  [archivo zip de las lecciones anteriores]: ../assets/python-lessons5.zip
+  [archivo zip de las lecciones anteriores]: http://programminghistorian.org/assets/python-es-lecciones5.zip
   [Zotero]: http://zotero.org
   [tutorial de HTML de W3 Schools]: http://www.w3schools.com/html/default.asp
   [declaración doctype]: http://www.w3schools.com/tags/tag_doctype.asp
-  [zip sync]: ../assets/python-lessons6.zip
+  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones6.zip
