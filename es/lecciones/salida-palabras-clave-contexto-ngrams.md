@@ -237,7 +237,7 @@ Ahora hemos creado un programa que busca una palabra clave en un diccionario cre
 
 Esta lección marca el final de la serie de lecciones originales sobre Python. El código terminado de la serie puede descargarse como un archivo zip. Si las estás siguiendo con Mac o Linux deberás abrir el archivo `obo.py` y cambiar "file:///Users/username/Desktop/programming-historian/" a la ruta del archivo en el directorio de tu propia computadora.
 
--   python-lessons9.zip [zip sync][]
+-   python-es-lecciones9.zip [zip sync][]
 
 *Nota:* Ahora puedes ir a la siguiente lección (en inglés) para aprender a [Descargar registros múltiples](http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings)
 
