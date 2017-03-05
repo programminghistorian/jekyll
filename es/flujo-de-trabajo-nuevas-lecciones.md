@@ -304,7 +304,7 @@ Finalmente, el equipo editorial the *The Programming Historian en español* revi
 ¡Felicidades! ¡Ya has publicado tu traducción o lección en *The Programming Historian en español*!
 
 
-[Antonio Rojas]: mailto:rojas.castro.antonio@gmail.com
+[Antonio Rojas Castro]: mailto:rojas.castro.antonio@gmail.com
 [traducciones pendientes]: https://github.com/PH-espagnol/borradores/blob/master/lista-de-traduccion.md
 [lecciones ya publicadas]: http://programminghistorian.org/es/lecciones
 [guía para revisores]: http://programminghistorian.org/es/guia-para-revisores
