@@ -3,14 +3,14 @@ layout: directory
 title: Índice de lecciones
 ---
 
-Te envintamos a navegar alrededor. Si no encuentras cubierta alguna herramienta, tecnología o habilidad, por favor ¡háznoslo saber!
+Te invintamos a navegar alrededor. Si no encuentras cubierta alguna herramienta, tecnología o habilidad, por favor ¡háznoslo saber!
 
 <!--Translations of titles of non-Python-introduction lessons removed February 24; see previous commit to get those translations-->
 
 Introducción a Python
 ----------------------
 
-Programming Historian fue escrito originalmente como una serie de lecciones de Python (sobretodo), diseñadas para ser seguidas en secuencia.
+*The Programming Historian* fue escrito originalmente como una serie de lecciones de Python (sobre todo), diseñadas para ser seguidas en secuencia.
 
 <ul class="lesson-images">
   <li>
