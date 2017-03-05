@@ -9,6 +9,7 @@ reviewers:
 - Finn Arne Jørgensen
 - Peter Webster
 - Abby Schreiber
+editors:
 - Adam Crymble
 layout: default
 next: georeferencing-qgis
