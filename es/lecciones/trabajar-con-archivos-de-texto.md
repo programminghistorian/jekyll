@@ -54,19 +54,19 @@ Por lo tanto los siguientes mensajes contienen errores:
 ```
 mensaje1 = "hola mundo'
 mensaje2 = 'hola mundo"
-mensaje3 = 'I can't eat pickles'
+mensaje3 = 'Su nombre es John O'Connor'
 ``` 
 
 Cuenta el número de comillas sencillas en el mensaje3.  Para que esto trabaje correctamente tendremos que *salvar* el apóstrofe.
 
 ``` python 
-mensaje3 = 'I can\'t eat pickles'
+mensaje3 = 'Su nombre es John O\'Connor'
 ```
 
 O reescribir la frase como:
 
 ``` python 
-mensaje3 = "I can't eat pickles"
+mensaje3 = "Su nombre es John O'Connor"
 ```
 `print` es un comando que imprime objetos en forma textual. Al combinar el comando `print` con una cadena de texto producimos una *declaración*.
 
