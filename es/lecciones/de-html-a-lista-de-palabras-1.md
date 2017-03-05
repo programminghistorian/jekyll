@@ -124,9 +124,9 @@ Lecturas sugeridas
  
 ## Sincronización de código
 
-Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "programming-historian" para asegurarte que tienes el código correcto.
+Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "python-es-lecciones" para asegurarte que tienes el código correcto.
 
--   programming-historian-2 ([zip][])
+-   python-es-lecciones2.zip ([zip][])
 
 
 
@@ -138,5 +138,5 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 [1]: http://www.w3schools.com/html/
 [Manipular cadenas de caracteres en Python]: ../lecciones/manipular-cadenas-de-caracteres-en-python 
 [Reutilizacion de código y modularidad]: ../lecciones/reutilizacion-de-codigo-y-modularidad
-[zip]: ../assets/python-lessons2.zip
-[obo-t17800628-33.html]: ../assets/obo-t17800628-33.html
+[zip]: http://programminghistorian.org//assets/python-es-lecciones2.zip
+[obo-t17800628-33.html]: http://programminghistorian.org/assets/obo-t17800628-33.html
