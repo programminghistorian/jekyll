@@ -16,7 +16,7 @@ layout: default
 redirect_from: /es/lessons/linux-installation
 ---
 
-Gracias a John Fink por proveer las bases de esta sección. Estas instrucciones son para Ubuntu 12.04 LTS, pero deben funcionar para cualquier distribución y APT como Debiano  Linux Mint, siempre y cuando tengas instalado sudo
+Gracias a John Fink por proveer las bases de esta sección. Estas instrucciones son para Ubuntu 12.04 LTS, pero deben funcionar para cualquier distribución y APT como Debian Linux Mint, siempre y cuando tengas instalado sudo
 
 ## Respalda tu computadora
 
