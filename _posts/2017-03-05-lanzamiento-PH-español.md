@@ -5,7 +5,6 @@ authors:
 layout: post
 categories: posts 
 ---
- jekyll/images/Launch-PH-Spanish/Launch-PH-Spanish.jpg
 
 <p><figure><a href="/posts/lanzamiento-PH-español"><img src="../images/Launch-PH-Spanish/Launch-PH-Spanish.jpg" alt=""/></a><figcaption>
     Programming Historian lanza su sitio en español.</figcaption></figure></p>
