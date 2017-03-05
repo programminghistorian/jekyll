@@ -5,8 +5,9 @@ authors:
 - Megan R. Brett
 date: 2016-02-24
 reviewers:
-- Adam Crymble
 - Sheila Brennan
+editors:
+- Adam Crymble
 layout: default
 ---
 
