@@ -6,8 +6,9 @@ authors:
 date: 2014-12-17
 published: true
 reviewers:
-- William J. Turkel
 - Adam Crymble
+editors:
+- William J. Turkel
 layout: default
 difficulty: 3
 ---
