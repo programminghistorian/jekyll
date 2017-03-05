@@ -243,6 +243,6 @@ Esta lección marca el final de la serie de lecciones originales sobre Python. E
 
   [Palabras clave en contexto (usando n-grams)]: ../lecciones/palabras-clave-en-contexto-n-grams
   [archivo zip de las lecciones anteriores]: http://programminghistorian.org/assets/python-es-lecciones8.zip
-  [Salida de datos como archivo HTML]: /lecciones/salida-de-datos-como-archivo-html
+  [Salida de datos como archivo HTML]: ../lecciones/salida-de-datos-como-archivo-html
   [zip sync]: http://programminghistorian.org/assets/python-es-lecciones9.zip
  
