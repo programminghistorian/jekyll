@@ -4,9 +4,10 @@ authors:
 - Doug Knox
 date: 2013-06-22
 reviewers:
-- Adam Crymble
 - Dave Shepard
 - Patrick Burns
+editors:
+- Adam Crymble
 layout: default
 difficulty: 2
 ---
