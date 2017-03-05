@@ -160,4 +160,4 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 [XML]: https://es.wikipedia.org/wiki/Extensible_Markup_Language
 [documento original]: http://www.oldbaileyonline.org/images.jsp?doc=178006280084
 [urllib2]: https://docs.python.org/2/library/urllib2.html
-[zip]: ..programminghistorian.org/assets/python-es-lecciones1.zip
+[zip]: http://programminghistorian.org/assets/python-es-lecciones1.zip
