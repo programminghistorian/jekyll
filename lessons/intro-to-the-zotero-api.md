@@ -3,7 +3,7 @@ title: Intro to the Zotero API
 authors:
 - Amanda Morton
 date: 2013-04-01
-reviewers:
+editors:
 - Fred Gibbs
 layout: default
 categories: [lessons, api]
