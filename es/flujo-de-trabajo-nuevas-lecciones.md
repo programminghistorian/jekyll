@@ -16,7 +16,7 @@ Esta página contiene instrucciones para los autores que deseen contribuir con u
     <img src="../images/author-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
 
-Si quieres traducir una lección, tienes una idea para una lección nueva o ya has escrito un tutorial que crees que puede adaptarse a *The Programming Historian en español*, contacta con [Antonio Rojas]. Cuanto antes te pongas en contacto con nosotros, mucho mejor; de esta manera, te ayudaremos a plantear adecuadamente tu contribución, teniendo en cuenta el público objetivo y el nivel de conocimientos necesarios. También te asignaremos un editor para ayudarte a resolver dudas y a desarrollar la lección de la mejor manera.
+Si quieres traducir una lección, tienes una idea para una lección nueva o ya has escrito un tutorial que crees que puede adaptarse a *The Programming Historian en español*, contacta con [Antonio Rojas Castro]. Cuanto antes te pongas en contacto con nosotros, mucho mejor; de esta manera, te ayudaremos a plantear adecuadamente tu contribución, teniendo en cuenta el público objetivo y el nivel de conocimientos necesarios. También te asignaremos un editor para ayudarte a resolver dudas y a desarrollar la lección de la mejor manera.
 
 **¿Qué lecciones traducir?** Si quieres traducir una lección, por favor, revisa la lista de [traducciones pendientes] y ponte en contacto con nosotros. Buscamos traducciones rigurosas, de lectura amena y que, además, tengan en cuenta el contexto de España y América Latina y los recursos disponibles en lengua española.
 
@@ -38,13 +38,13 @@ Por favor, ten en cuenta que no tenemos presupuesto para contratar a un correcto
 ## Utiliza un archivo de texto plano
 Puesto que nuestro sitio web se publica mediante [GitHub Pages] (https://pages.github.com), **las lecciones deben escribirse en texto plano**, con el programa de edición que prefieras. *Los editores de texto se diferencian de manera distintiva de los procesadores de texto tradicionales como MS Word*. Para Mac, recomendamos editores de texto gratuitos como [TextWrangler] o TextEdit (este último ya va incluido en Mac OS X). Para Windows, puedes usar Notepad o la versión mejorada [Notepad++].
 
-El editor de textos que elijas no es relevante pero, por favor, comienza tu traducción o tutorial en texto plano para evitar problemas más tarde. No dudes en contactar con algún miembro de nuestro [equipo] (equipo-de-proyecto) si tienes preguntas o dudas.
+El editor de textos que elijas no es relevante pero, por favor, comienza tu traducción o tutorial en texto plano para evitar problemas más tarde. No dudes en contactar con algún miembro de nuestro [equipo] (http://programminghistorian.org/es/equipo-de-proyecto) si tienes preguntas o dudas.
 
 ## Identifica tu archivo
 
 Identifica tu traduccion o lección nueva siguiendo estas instrucciones:
 
-- El nombre de archivo debe estar en minúscula y ser breve pero descriptivo. Este nombre de archivo se convertirá al final en el [slug] de la URL con que se publique en internet. Por ejemplo, la lección titulada "Getting Started with Markdown" tiene el slug `getting-started-with-markdown` y la URL <http://programminghistorian.org/lessons/getting-started-with-markdown>. Para más ejemplos, consulta el resto de lecciones publicadas.
+- El nombre de archivo debe estar en minúscula y ser breve pero descriptivo. Este nombre de archivo se convertirá al final en el [slug] de la URL con que se publique en internet. Por ejemplo, la lección titulada "Getting Started with Markdown" tiene el *slug* `getting-started-with-markdown` y la URL <http://programminghistorian.org/lessons/getting-started-with-markdown>. Para más ejemplos, consulta el resto de lecciones publicadas.
 -   Tu slug será referenciado más tarde de la siguiente manera: LECCION-SLUG.
 -    Ten en cuenta cómo los lectores potenciales pueden encontrar tu lección en los buscadores. Un slug que se componga de palabras claves es una muy buena forma de recibir visitas. 
 -   No utilices espacios o guiones bajos `(_)` para separar palabras, utiliza el guion medio `(-)`.
@@ -53,7 +53,7 @@ Identifica tu traduccion o lección nueva siguiendo estas instrucciones:
 
 ## Añade un bloque de metadatos
 
-Nuestra plataforma de publicación, [GitHub Pages], depende de los encabezados contenidos en forma de bloque en los archivos de texto plano; estos bloques de información siguen un protocolo [YAML] que hace posible que las lecciones se visualicen en el navegador de manera correcta. Los bloques de metadatos consisten en una serie de campos (como "título" o "autores") y sus valores asociados (como "Data Mining the Internet Archive Collection" o "Caleb McDaniel"). Para contribuir no necesitas entender qué es YAML o cómo funciona, pero sí **debes incluir un bloque YAML al principio de la lección**.
+Nuestra plataforma de publicación, [GitHub Pages], depende de los encabezados en forma de bloque en los archivos de texto plano; estos bloques de información siguen un protocolo [YAML] que hace posible que las lecciones se visualicen en el navegador de manera correcta. Los bloques de metadatos consisten en una serie de campos (como "título" o "autores") y sus valores asociados (como "Data Mining the Internet Archive Collection" o "Caleb McDaniel"). Para contribuir no necesitas entender qué es YAML o cómo funciona, pero sí **debes incluir un bloque YAML al principio de la lección**.
 
 Para añadir un bloque de metadatos YAML, simplemente **copia y pega el texto situado más abajo al inicio de tu archivo de texto** y cambia el valor de los campos. Este bloque debería aparecer al principio de cada archivo **seguido de una línea en blanco**. Los revisores añadirán la línea en blanco por ti.
 
