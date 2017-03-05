@@ -4,9 +4,10 @@ authors:
 - Matthew Lincoln
 date: 2016-05-24
 reviewers:
-- Ian Milligan
 - Shawn Graham
 - Nick Ruest
+editors:
+- Ian Milligan
 layout: default
 difficulty: 2
 ---
