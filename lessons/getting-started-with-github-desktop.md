@@ -6,6 +6,8 @@ date: 2016-06-17
 reviewers:
 - Ethan Miller
 - Lisa Spiro
+editors:
+- Caleb McDaniel
 layout: default
 difficulty: 1
 ---
