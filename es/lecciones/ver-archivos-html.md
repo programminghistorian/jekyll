@@ -37,7 +37,7 @@ Cuando estás trabajando en el navegador, generalmente no necesitas o no quieres
 
 ## “Hola Mundo” en HTML
 
-HTML es un lenguaje de *etiquetado*; en otras palabras, HTML es, simple y sencillamente, texto "marcado" con "etiquetas"  que proveen al programa intérprete (generalmente un navegador web) con la información necesaria para ejecutar comandos o representar cosas en la pantalla de la computadora. Imagina que estás editando la entrada de una ficha bibliográfica en la que quieres indicar el título de un libro mediante la aplicación de cursivas. En HTML usarás etiquetas `em` (“em” es sinónimo de “énfasis” -por "emphasys"). De tal manera que parte de tu archivo HTML puede verse de la siguiente manera:
+HTML es un lenguaje de *etiquetado*; en otras palabras, HTML es, simple y sencillamente, texto "marcado" con "etiquetas" que proveen al programa intérprete (generalmente un navegador web) con la información necesaria para ejecutar comandos o representar cosas en la pantalla de la computadora. Imagina que estás editando la entrada de una ficha bibliográfica en la que quieres indicar el título de un libro mediante la aplicación de cursivas. En HTML usarás etiquetas `em` (“em” es sinónimo de “énfasis” -por "emphasys"). De tal manera que parte de tu archivo HTML puede verse de la siguiente manera:
 
 ```xml
 ... en Cohen y Rosenzweig <em>Digital History</em>, por ejemplo
