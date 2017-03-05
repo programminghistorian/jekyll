@@ -209,11 +209,11 @@ Lecturas sugeridas
 
 ### Sicronización de código
 
-Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "programming-historian" para asegurarte que tienes el código correcto.
+Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "python-es-lecciones" para asegurarte que tienes el código correcto.
 
--   programming-historian-1 ([zip][])
+-   python-es-lecciones1.zip ([zip][])
 
 
 [cadenas de caracteres]: https://es.wikipedia.org/wiki/Cadena_de_caracteres
 [sitio web de Python]: https://docs.python.org/2/library/stdtypes.html#string-methods
-[zip]: ../assets/python-lessons1.zip
+[zip]: http://programminghistorian.org/assets/python-es-lecciones1.zip
