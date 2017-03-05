@@ -1,12 +1,12 @@
 ---
-title: Welcome to *The Programming Historian en Español*!
+title: Welcome to The Programming Historian en Español!
 authors: 
 - Maria José Afanador-Llach
 layout: post
 categories: posts 
 ---
 
-<p><figure><a href="/posts/lanzamiento-PH-español"><img src="../images/Launch-PH-Spanish/Launch-PH-Spanish.png" alt=""/></a><figcaption>
+<p><figure><a href="/posts/lanzamiento-PH-español"><img src="../images/Launch-PH-Spanish/Launch-PH-Spanish.jpg" alt=""/></a><figcaption>
     Programming Historian launches its Spanish site.</figcaption></figure></p>
 
 We are very excited to introduce *The Programming Historian en español*! *The Programming Historian* offers novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research.
