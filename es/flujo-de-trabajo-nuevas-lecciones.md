@@ -12,6 +12,7 @@ Esta página contiene instrucciones para los autores que deseen contribuir con u
 
 
 # Traducir o proponer una lección nueva
+
 <figure>
     <img src="../images/author-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
@@ -28,6 +29,7 @@ Si quieres traducir una lección, tienes una idea para una lección nueva o ya h
 
 
 # Escribir y dar formato
+
 *The Programming Historian en español* se hospeda en [GitHub](http://github.com), una plataforma para mantener archivos y revisar cambios. Se utilizan por lo general para almacenar archivos de código pero también ofrece una buena manera de mantener un recurso en abierto como *The Programming historian en español*. En concreto, nuestrio sitio utiliza [GitHub Pages] para acceder a los archivos de texto y transformarlos en una web.  
 
 Esto implica que pidamos a los traductores y autores seguir una serie de requisitos, que no son meramente estilísticos, sino necesarios para publicar las lecciones. **Aunque estos requisitos técnicos puedan ser nuevos para ti, estamos aquí para ayudarte en todo momento y para que aprendas las tecnologías necesarias a medida que avanzas.**
@@ -36,6 +38,7 @@ Por favor, ten en cuenta que no tenemos presupuesto para contratar a un correcto
 
 
 ## Utiliza un archivo de texto plano
+
 Puesto que nuestro sitio web se publica mediante [GitHub Pages] (https://pages.github.com), **las lecciones deben escribirse en texto plano**, con el programa de edición que prefieras. *Los editores de texto se diferencian de manera distintiva de los procesadores de texto tradicionales como MS Word*. Para Mac, recomendamos editores de texto gratuitos como [TextWrangler] o TextEdit (este último ya va incluido en Mac OS X). Para Windows, puedes usar Notepad o la versión mejorada [Notepad++].
 
 El editor de textos que elijas no es relevante pero, por favor, comienza tu traducción o tutorial en texto plano para evitar problemas más tarde. No dudes en contactar con algún miembro de nuestro [equipo](http://programminghistorian.org/es/equipo-de-proyecto) si tienes preguntas o dudas.
@@ -44,9 +47,9 @@ El editor de textos que elijas no es relevante pero, por favor, comienza tu trad
 
 Identifica tu traduccion o lección nueva siguiendo estas instrucciones:
 
-- El nombre de archivo debe estar en minúscula y ser breve pero descriptivo. Este nombre de archivo se convertirá al final en el [slug] de la URL con que se publique en internet. Por ejemplo, la lección titulada "Getting Started with Markdown" tiene el *slug* `getting-started-with-markdown` y la URL <http://programminghistorian.org/lessons/getting-started-with-markdown>. Para más ejemplos, consulta el resto de lecciones publicadas.
--   Tu slug será referenciado más tarde de la siguiente manera: LECCION-SLUG.
--    Ten en cuenta cómo los lectores potenciales pueden encontrar tu lección en los buscadores. Un slug que se componga de palabras claves es una muy buena forma de recibir visitas. 
+- El nombre de archivo debe estar en minúscula y ser breve pero descriptivo. Este nombre de archivo se convertirá al final en el *[slug]* de la URL con que se publique en internet. Por ejemplo, la lección titulada "Getting Started with Markdown" tiene el *slug* `getting-started-with-markdown` y la URL <http://programminghistorian.org/lessons/getting-started-with-markdown>. Para más ejemplos, consulta el resto de lecciones publicadas.
+-   Tu *slug* será referenciado más tarde de la siguiente manera: LECCION-SLUG.
+-    Ten en cuenta cómo los lectores potenciales pueden encontrar tu lección en los buscadores. Un *slug* que se componga de palabras claves es una muy buena forma de recibir visitas. 
 -   No utilices espacios o guiones bajos `(_)` para separar palabras, utiliza el guion medio `(-)`.
 -   La extensión de tu archivo debe ser `.md` (markdown).
 
@@ -78,7 +81,7 @@ Para añadir un bloque de metadatos YAML, simplemente **copia y pega el texto si
 
 ## Escribe en Markdown
 
-**Todas las traducciones y lecciones nuevas deben estar escritas en Markdown**. Markdow es lenguaje de marcado muy sencillo que se puede escribir con un editor de textos (tal y como se ha explicado más arriba, no utilices un procesador como MS Word u Open Office). [GitHub Pages] utiliza [Jekyll](http://jekyllrb.com/), que transforma de manera automática los archivos Markdown en archivos HTML para que se visualicen en el navegador. Esta página, por ejemplo, está escrita en Markdown; puedes comprobarlo tú mismo inspeccionado el archivo en [GitHub] (https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons/spanish).  
+**Todas las traducciones y lecciones nuevas deben estar escritas en Markdown**. Markdow es un lenguaje de marcado muy sencillo que se puede escribir con un editor de textos (tal y como se ha explicado más arriba, no utilices un procesador como MS Word u Open Office). [GitHub Pages] utiliza [Jekyll](http://jekyllrb.com/), que transforma de manera automática los archivos Markdown en archivos HTML para que se visualicen en el navegador. Esta página, por ejemplo, está escrita en Markdown; puedes comprobarlo tú mismo inspeccionado el archivo en [GitHub](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons/spanish).  
 
 Los recursos y tutoriales suguientes contienen más información sobre cómo dar formato a una traducción o una lección nueva en Markdown:
 
@@ -90,9 +93,9 @@ Los recursos y tutoriales suguientes contienen más información sobre cómo dar
 
 ### Utiliza encabezados en cada sección
 
-Recomendamos el uso consistente de encabezados para que las lecciones sean fáciles de leer. A medida que traduces o escribes una lección, los niveles conformados por las secciones te ayduarán a visualizar la estrcutura de la lección. Por favor, evita secciones largas sin encabezados (son necesarios para facilitar la lectura); los encabezados no se generan mediante **negrita** o *cursiva* sino con la anotación Markdow oportuna. A menos que la lección sea muy breve, tu estructura precisará de tres niveles como mínimo. 
+Recomendamos el uso consistente de encabezados para que las lecciones sean fáciles de leer. A medida que traduces o escribes una lección, los niveles conformados por las secciones te ayudarán a visualizar la estructura de la lección. Por favor, evita secciones largas sin encabezados (son necesarios para facilitar la lectura); los encabezados no se generan mediante **negrita** o *cursiva* sino con la anotación Markdow oportuna. A menos que la lección sea muy breve, tu estructura precisará de tres niveles como mínimo. 
 
-Hay distintas maneras de crear un encabezado de sección con Markdown pero te pedimos que, por favor, utilices `#`. Las secciones de primer nivel se marcan con una sola \#; las secciones de segundo nivel se indican con dos \#\#. Y así sucesivamente. Con nuestra propuesta de marcado, el texto que sigue
+Hay distintas maneras de crear un encabezado de sección con Markdown pero te pedimos que, por favor, utilices la almohadilla (`#`). Las secciones de primer nivel se marcan con una sola \#; las secciones de segundo nivel se indican con dos \#\#. Y así sucesivamente. Con nuestra propuesta de marcado, el texto que sigue
 
     # Encabezado 1
     ## Encabezado 2
@@ -112,7 +115,7 @@ se visualiza así:
 
 ##### Encabezado 5
 
-Si utilizas los encabezados de sección de manera adecuada, ayudarás a los editores y revisores a evaluar la estructura general de tu traducción o traducción.
+Si utilizas los encabezados de sección de manera adecuada, ayudarás a los editores y revisores a evaluar la estructura general de tu lección o traducción.
 
 ### Bloques destacados
 
@@ -124,13 +127,11 @@ Y se visualiza así:
 
 > Texto destacado en Markdown.
 
-
-
 ## Reglas de estilo especiales
 
 Como toda revista académica, *The Programming Historian en español* también tiene su estilo propio, que esperamos que los autores y traductores sigan de manera consistente a lo largo de las lecciones. A diferencia de la mayoría de revistas, sin embargo, no seguir con estas normas de estilo no solo disminuye la consistencia estilística sino que también afecta a la visualización del archivo entero.
 
-> Si ya estás familiarizado con Markdown, por favor, ten en cuenta que algunas de nuestras normas de estilo funcionan porque utilizamos una versión extendida de Markdown y una serie de scripts específicos para nuestro sitio web. En otra palabras, el marcado de ilustraciones, tablas, bloques de código, citas, notas a pie de página y énfasis sigue una sintaxis propia, que puede no funcionar en otros sitios web creados con Markdown.
+> Si ya estás familiarizado con Markdown, por favor, ten en cuenta que algunas de nuestras normas de estilo funcionan porque utilizamos una versión extendida de Markdown y una serie de *scripts* específicos para nuestro sitio web. En otra palabras, el marcado de ilustraciones, tablas, bloques de código, citas, notas a pie de página y énfasis sigue una sintaxis propia, que puede no funcionar en otros sitios web creados con Markdown.
 
 
 ### Ilustraciones
@@ -140,11 +141,11 @@ Con independencia de la extensión, sean largas o breves, todas las lecciones se
 
 #### Crea una carpeta
 
-Lo primero que debes hacer es crear una carpeta en donde guardar todos los archivos de imágenes. El nombre de la carpeta debería ser el mismo que el del slug escogido para la lección. El editor asignado a tu lección puede ayudarte a subir las imágenes a la carpeta `ph-submissions` del repositorio una vez hayas enviado tu texto.
+Lo primero que debes hacer es crear una carpeta en donde guardar todos los archivos de imágenes. El nombre de la carpeta debería ser el mismo que el del *slug* escogido para la lección. El editor asignado a tu lección puede ayudarte a subir las imágenes a la carpeta `ph-submissions` del repositorio una vez hayas enviado tu texto.
 
 #### Utiliza nombres de archivos fáciles de entender
 
-Hay dos maneras de nombrar tus archivos de imágenes. Por un lado, puedes utiliar nombres con una semántica consistente que dejan claro el contenido de la imagen. Por el otro, puedes utilizar el slug de la lección (o una versión abreviada) y una secuencia numérica que indica de qué figura se trata (por ejemplo: `contar-frecuencias-1.png`, `contar-frecuencias-2.png`, etc.).
+Hay dos maneras de nombrar tus archivos de imágenes. Por un lado, puedes utilizar nombres con una semántica consistente que dejan claro el contenido de la imagen. Por el otro, puedes utilizar el *slug* de la lección (o una versión abreviada) y una secuencia numérica que indica de qué figura se trata (por ejemplo: `contar-frecuencias-1.png`, `contar-frecuencias-2.png`, etc.).
 
 #### Utiliza formatos estándar
 
@@ -177,7 +178,7 @@ Al procesar el marcado, nuestra plataforma de publicación convertirá esta lín
 </figure>
 ```
 
->Cuando el marcado de las ilustraciones se añade de esta manera, la imagen no se mostrará en GitHub o en los editores de texto, pero sí será visible en la web de *The Programming Historian en español*. Consulta una [ilustración de ejemplo] o bien la [versión en línea ].
+>Cuando el marcado de las ilustraciones se añade de esta manera, la imagen no se mostrará en GitHub o en los editores de texto, pero sí será visible en la web de *The Programming Historian en español*. Consulta una [ilustración de ejemplo] o bien la [versión en línea].
 
 ### Tablas
 
@@ -199,7 +200,8 @@ Hay que señalar que las columnas no deben de alinearse de manera obligatoria pa
 
 Se puede controlar la alineación añadiendo columnas a la línea de guiones que separan los encabezados. Para más detalles se recomienda consultar las instrucciones para [crear tablas en Markdown][extended table syntax].
 
-### Notas 
+### Notas
+
 Para añadir notas a tu traducción o lección, primero añade la marca de la nota en el cuerpo del texto de la siguiente manera:
 
     Esto es un texto.[^1] Otro texto.[^endnote]
@@ -216,7 +218,8 @@ Para más detalles sobre cómo funciona esta sintaxis, por favor, consulta las [
 
 
 ### Bloque de código
-Si quieres incluir líneas de código en una lección o traducir una lección que contiene código, utiliza un *bloque de código*. En una nueva línea, añade tres acentos graves (`` ` ``) para abrir un bloque de código, swguido por el nombre del código (por ejemplo, `python` o `html`). A continuación, pega tu código y cierra el bloque con otros tres acentos. De esta manera el código quedará anulado y se visualizará de la siguiente manera:
+
+Si quieres incluir líneas de código en una lección o traducir una lección que contiene código, utiliza un *bloque de código*. En una nueva línea, añade tres acentos graves (`` ` ``) para abrir un bloque de código, seguido por el nombre del código (por ejemplo, `python` o `html`). A continuación, pega tu código y cierra el bloque con otros tres acentos. De esta manera el código quedará anulado y se visualizará de la siguiente manera:
 
 ```python
 print 'hola mundo'
@@ -225,7 +228,8 @@ Puedes leer más sobre cómo [insertar código aquí].
 
 
 ### Comillas tipográficas
-Por favor, no utilices comillas tipográficas o comillas invertidas. Este teipo de comillas quedan bien en textos ensayísticos pero el ordenador los procesa como entidades y pueden afectar al código. He aquí una razón más para utilizar un editor de texto plano. 
+
+Por favor, no utilices comillas tipográficas o comillas invertidas. Este tipo de comillas quedan bien en textos ensayísticos pero el ordenador los procesa como entidades y pueden afectar al código. He aquí una razón más para utilizar un editor de texto plano. 
 
 
 ### Énfasis
@@ -234,36 +238,34 @@ Intenta utilizar los acentos (`` ` `` ) para introducir líneas de codigo y para
 
 <br/><br/>
 
-
-
 # Enviar una traducción o una lección nueva
 Una vez tu archivo ha sido preparado de acuerdo con las especificaciones detalladas, ¡ya puedes enviárnoslo!
 
-Tenemos un [Programming Historian project page](https://github.com/programminghistorian) en GitHub, donde mantemos dos repositorios (es decir, un sitio en donde almacenar archivos y carpetas). Por un lado, tenemos el repositorio [jekyll](https://github.com/programminghistorian/jekyll), que contiene los archivos a los que se accede a través del navegador [web] (<http://programminghistorian.org>). Por el otro, tenemos el repositorio llamado [ph-submissions].
+Tenemos una página del proyecto [Programming Historian](https://github.com/programminghistorian) en GitHub, donde mantemos dos repositorios (es decir, un sitio en donde almacenar archivos y carpetas). Por un lado, tenemos el repositorio [jekyll](https://github.com/programminghistorian/jekyll), que contiene los archivos a los que se accede a través del navegador [web] (http://programminghistorian.org/es). Por el otro, tenemos el repositorio llamado [ph-submissions].
 
 Los autores y traductores pueden enviarnos las lecciones de manera directa, es decir, añadiendo los archivos al repositorio [ph-submissions]. Gracias a las características de GitHub, puedes llevar a cabo esto arrastrando y soltando los archivos. Si colaboras con nosotros por primera vez, estas instrucciones pueden ser útiles:
 
 1. Crea una cuenta gratuita en GitHub [aquí](https://github.com/join). Solo se necesitan 30 segundos.
-2. Contacta con tu editor a través de tu cuenta de GitHub para proporcionarle tu nombre de usuario y el nombre/slug de la lección traducida o escrita por ti; ¡asegúrate de haber seguido las reglas descritas más arriba! A continuación, el editor te añadirá como **colaborador** en el repositorio [ph-submissions]. Una vez tengas acceso como colaborador, podrás hacer cambios de manera en los archivos (adiciones, edición, eliminación, etc.). El editor también creará una carpeta con el mismo nombre de tu lección en la carpeta de imágenes. Si tuvieras otro tipo de archivo con datos, que te gustaría enlazar, por favor, comunícaselo al editor.
-3. Una vez has sido añadido como colaborador, navega hasta la [carpeta de lecciones](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons) del repositorio [ph-submissions]. A continuación, solo tienes que arrastrar y soltar el archivo de Markdown desde tu ordenador a la ventana del navegador. Si necesitas ayuda, por favor, visita las [instrucciones de GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/)). Haz clic sobre el botón verde "Commit Changes"; no hace falta que cambies el mensaje que sale por defecto. 
-4. Seguramente tengas varias imágenes que acompañan a la lección. Asegúrate de que las imágenes hayan sido identificadas según las normas expuestas más arriba. Navega hasta la [carpeta de imágenes] (https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images) del [repositorio de envíos] [ph-submissions]. Haz clic en la carpeta que tiene el nombre de tu lección (que tu editor debería haber creado para ti; si no la encuentra, por favor, contacta con el editor asignado). Una vez has accedido a esta carpeta, arrastra y suelta todas las imágenes en la ventana del navegador, tal y como hiciste en el paso 3. No puedes arrastrar una carpeta de imágenes pero sí puedes seleccionar varios archivos a la vez.
+2. Contacta con tu editor a través de tu cuenta de GitHub para proporcionarle tu nombre de usuario y el nombre/*slug* de la lección traducida o escrita por ti; ¡asegúrate de haber seguido las reglas descritas más arriba! A continuación, el editor te añadirá como **colaborador** en el repositorio [ph-submissions]. Una vez tengas acceso como colaborador, podrás hacer cambios de manera en los archivos (adiciones, edición, eliminación, etc.). El editor también creará una carpeta con el mismo nombre de tu lección en la carpeta de imágenes. Si tuvieras otro tipo de archivo con datos, que te gustaría enlazar, por favor, comunícaselo al editor.
+3. Una vez has sido añadido como colaborador, navega hasta la [carpeta de lecciones](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons) del repositorio [ph-submissions]. A continuación, solo tienes que arrastrar y soltar el archivo de Markdown desde tu ordenador a la ventana del navegador. Si necesitas ayuda, por favor, consulta las [instrucciones de GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/)). Haz clic sobre el botón verde "Commit Changes"; no hace falta que cambies el mensaje que sale por defecto. 
+4. Seguramente tengas varias imágenes que acompañan a la lección. Asegúrate de que las imágenes hayan sido identificadas según las normas expuestas más arriba. Navega hasta la [carpeta de imágenes] (https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images) del [repositorio de envíos] [ph-submissions]. Haz clic en la carpeta que tiene el nombre de tu lección (que tu editor debería haber creado para ti; si no la encuentras, por favor, contacta con el editor asignado). Una vez has accedido a esta carpeta, arrastra y suelta todas las imágenes en la ventana del navegador, tal y como hiciste en el paso 3. No puedes arrastrar una carpeta de imágenes pero sí puedes seleccionar varios archivos a la vez.
 5. ¡Ya puedes visualizar tu lección! Normalmente GitHub tarda 5 minutos (o menos) en convertir los archivos Markdown en HTML. A continuación, navega hasta `http://programminghistorian.github.io/ph-submissions/lessons/` + `NOMBRE-DE-TU-LECCIÓN` (tras reemplazar el NOMBRE-DE-TU-LECCIÓN con el nombre de tu archivo).
-6. Ponte en contacto con tu editor para comunicarle que has subido los archicos al respositorio de envíos; los editores reciben una notificación pero mejor asegúrate de que no pasemos por alto tu envío.
+6. Ponte en contacto con tu editor para comunicarle que has subido los archivos al repositorio de envíos; los editores reciben una notificación pero mejor asegúrate de que no pasemos por alto tu envío.
 
->Nota: Si estás familiarizado con la línea de comandos git y el respositorio GitHub, también puedes enviar tu lección y las imágenes mediante una solicitud de extracción (`*pull request*`) dirigida al repositorio `ph-submission` y combinar los archivos (en lugar de arrastrar y soltarlos como se acaba de describir). **¡Por favor, no envíes lecciones mediante una solicitud de extracción al repositor Jekyll!** Enviando tu contribución al repositorio [ph-submissions], seremos capaces de controlar mejor los cambios y seguir el desarrollo de la lección o traducción.
+>Nota: Si estás familiarizado con la línea de comandos git y el respositorio GitHub, también puedes enviar tu lección y las imágenes mediante una solicitud de extracción (`*pull request*`) dirigida al repositorio `ph-submission` y combinar los archivos (en lugar de arrastrar y soltarlos como se acaba de describir). **¡Por favor, no envíes lecciones mediante una solicitud de extracción al repositorio Jekyll!** Enviando tu contribución al repositorio [ph-submissions], seremos capaces de controlar mejor los cambios y seguir el desarrollo de la lección o traducción.
 
 
 ## ¡Enviado! ¿Y ahora qué?
 
-Para saber qué ocurre tras enviar una traducción o lección, consulta nuestra [guía para editores] (http://programminghistorian.org/editor-guidelines) en la que se detalla el proceso editorial. A continuación, resumimmos el proceso. 
+Para saber qué ocurre tras enviar una traducción o lección, consulta nuestra [guía para editores](http://programminghistorian.org/es/guia-editor) en la que se detalla el proceso editorial. A continuación, resumimos el proceso. 
 
-El paso más importante consiste en que tu editor cree una [notificación de problema](https://github.com/programminghistorian/ph-submissions/issues) para tu traducción o lección en el repositorio [ph-submissions], con un enlace a tu lección (que pre-visualizaste en el paso 5). El editor invitará a dos revisores (como mínimo) a que lean y comenten tu lección.
+El paso más importante consiste en que tu editor cree un *[issue](https://github.com/programminghistorian/ph-submissions/issues)* para tu traducción o lección en el repositorio [ph-submissions], con un enlace a tu lección (que pre-visualizaste en el paso 5). El editor invitará a dos revisores (como mínimo) a que lean y comenten tu lección.
 
 ### Espera los comentarios de tus revisores
 
 Nos comprometemos a completar el proceso de revisión en cuatro semanas; sin embargo, en ocasiones en ocasiones hay demoras y el proceso puede tomar más tiempo del que nos gustaría.
 
-A fin de promover una revisión por pares abierta y una investigación pública, animamos a todos los participantes a revisar y debatir la lección en GitHub. Al mismo tiempo, también queremos que todo el mundo se sienta cómodo con el proceso. Por eso si necesitas debatir algo en privado, [puedes contactar con tu editor] (http://programminghistorian.org/project-team), o con uno de nuestros *ombudsperson* [Ian Milligan or Amanda Visconti](http://programminghistorian.org/project-team).
+A fin de promover una revisión por pares abierta y una investigación pública, animamos a todos los participantes a revisar y debatir la lección en GitHub. Al mismo tiempo, también queremos que todo el mundo se sienta cómodo con el proceso. Por eso si necesitas debatir algo en privado, [puedes contactar con tu editor](http://programminghistorian.org/es/equipo-de-proyecto), o con uno de nuestros *ombudsperson* [Ian Milligan or Amanda Visconti](http://programminghistorian.org/project-team).
 
 
 ### Contesta
@@ -278,7 +280,8 @@ En cualquier momento del proceso, si no estás seguro o segura de cuál es tu ro
 
 
 ### Comunica a tu editor que has terminado y envíale una breve biografía
-Una vez has finilizado con los cambios sugeridos, ponte en contacto con tu editor. A continuación, si no lo has hecho ya, envía un texto biográfico breve (de 2 o 3 frases) para que se publique al final de la lección traducida o creada por ti. 
+
+Una vez has finalizado con los cambios sugeridos, ponte en contacto con tu editor. A continuación, si no lo has hecho ya, envía un texto biográfico breve (de 2 o 3 frases) para que se publique al final de la lección traducida o creada por ti. 
 
 Finalmente, el equipo editorial the *The Programming Historian en español* revisará que hayas introducido los cambios necesarios y moverá el archivo desde el repositorio `ph-submissions` al repositorio `jekyll`, y actualizará el directorio de lecciones.
 
@@ -304,11 +307,11 @@ Finalmente, el equipo editorial the *The Programming Historian en español* revi
   [Github Flavored Markdown]: https://help.github.com/articles/github-flavored-markdown
   [the raw text on GitHub]: https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/new-lesson-workflow.md
   [elements provided by HTML5]: http://html5doctor.com/the-figure-figcaption-elements/
-  [example of the preview with figures here]: https://github.com/programminghistorian/jekyll/commit/476f6d466d7dc4c36048954d2e1f309a597a4b87#diff-f61eee270fe5a122a0163ebf0e2f8725L28
-  [live version here]: http://programminghistorian.org/lessons/automated-downloading-with-wget#lesson-goals
-  [extended table syntax]: http://kramdown.gettalong.org/syntax.html#tables
+  [ilustración de ejemplo]: https://github.com/programminghistorian/jekyll/commit/476f6d466d7dc4c36048954d2e1f309a597a4b87#diff-f61eee270fe5a122a0163ebf0e2f8725L28
+  [versión en línea]: http://programminghistorian.org/lessons/automated-downloading-with-wget#lesson-goals
+  [sintaxis extendida]: http://kramdown.gettalong.org/syntax.html#tables
   [pandoc]: http://johnmacfarlane.net/pandoc/
-  [fenced code blocks]: https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks
+  [insertar código aquí]: https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks
   [pull request]: https://help.github.com/articles/using-pull-requests/
   [GitHub for Mac]: https://mac.github.com/
   [GitHub for Windows]: https://windows.github.com/
