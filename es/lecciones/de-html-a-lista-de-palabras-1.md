@@ -138,5 +138,5 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 [1]: http://www.w3schools.com/html/
 [Manipular cadenas de caracteres en Python]: ../lecciones/manipular-cadenas-de-caracteres-en-python 
 [Reutilizacion de código y modularidad]: ../lecciones/reutilizacion-de-codigo-y-modularidad
-[zip]: http://programminghistorian.org//assets/python-es-lecciones2.zip
+[zip]: http://programminghistorian.org/assets/python-es-lecciones2.zip
 [obo-t17800628-33.html]: http://programminghistorian.org/assets/obo-t17800628-33.html
