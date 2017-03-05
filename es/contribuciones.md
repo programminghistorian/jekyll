@@ -85,7 +85,7 @@ Si se te ocurren más formas de participación, siempre puedes escribirnos un em
 [nuevas lecciones]: http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones
 [envío]: http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones
 [revisores]: http://programminghistorian.org/es/guia-para-revisores
-[comentarios]: http://programminghistorian.org/es/comentarios
+[comentarios]: http://programminghistorian.org/es/retroalimentacion
 [WorldCat]: http://www.worldcat.org/title/programming-historian/oclc/951537099
 [University of Purdue library]: http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink
 [Directory of Open Access Journals]: https://doaj.org/toc/2397-2068
