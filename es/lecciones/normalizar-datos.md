@@ -146,9 +146,9 @@ Para una práctica extra en expresiones regulares, encontrarás que el Capítulo
 
 ### Sicronización de código
 
-Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "programming-historian" para asegurarte que tienes el código correcto.
+Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "python-es-lecciones" para asegurarte que tienes el código correcto.
 
--   python-lessons4.zip ([zip sync][])
+-   python-es-lecciones4.zip ([zip sync][])
 
 [De HTML a lista de palabras (parte 2)]: ../lecciones/de-html-a-lista-de-palabras-2
   [web page]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
@@ -157,6 +157,6 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
   [Unicode]: http://unicode.org/
   [soporte de Python]: http://www.diveintopython.net/xml_processing/unicode.html
   [Dive into Python]: http://www.diveintopython.net/regular_expressions/index.html
-  [zip]: ../assets/python-lessons3.zip
-  [zip sync]: ../assets/python-lessons4.zip
+  [zip]: http://programminghistorian.org/assets/python-es-lecciones3.zip
+  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones4.zip
   [página Web]: https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
