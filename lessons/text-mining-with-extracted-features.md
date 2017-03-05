@@ -4,7 +4,11 @@ authors:
 - Peter Organisciak
 - Boris Capitanu
 date: 2016-11-22
-reviewers: Stéfan Sinclair, Catherine DeRose, Ian Milligan
+reviewers: 
+- Stéfan Sinclair
+- Catherine DeRose
+editors:
+- Ian Milligan
 layout: default
 ---
 
