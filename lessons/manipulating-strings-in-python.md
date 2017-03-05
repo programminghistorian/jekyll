@@ -5,8 +5,9 @@ authors:
 - Adam Crymble
 date: 2012-07-17
 reviewers:
-- Miriam Posner
 - Jim Clifford
+editors:
+- Miriam Posner
 layout: default
 next: from-html-to-list-of-words-1
 previous: working-with-web-pages
