@@ -1,5 +1,5 @@
 ---
-title: ¡Bienvenidos a *The Programming Historian en español*!
+title: ¡Bienvenidos a The Programming Historian en español!
 authors: 
 - Maria José Afanador-Llach
 layout: post
