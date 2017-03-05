@@ -16,7 +16,7 @@ layout: default
 redirect_from: /es/lessons/mac-installation
 ---
 
-### Haz respaldo (copia de seguridad) de toda tu computadora.
+### Haz respaldo (copia de seguridad) de toda tu computadora
 
 Los usuarios de Mac pueden aprovechar [Time Machine] para esta labor.
 
@@ -26,7 +26,7 @@ Desde el mes de mayo de 2012, Mac OS X tiene preinstalado Python v.2. Puedes cor
 
 ### Creación de un directorio
 
-Para mantener organizados los datos en tu equipo, lo mejor es crear un directorio o carpeta en tu computadora dedicado exclusivamente a almacenar todos tus programas que escribas con Python (por ejemplo: **programming-historian** y mantenlo en el lugar de tu disco duro que mejor te acomode).
+Para mantener organizados los datos en tu equipo, lo mejor es crear un directorio o carpeta en tu computadora dedicado exclusivamente a almacenar todos tus programas que escribas con Python (por ejemplo: **programming-historian** y manténlo en el lugar de tu disco duro que mejor te acomode).
 
 ### Beautiful Soup
 
@@ -34,7 +34,7 @@ Descarga la más reciente versión de [Beautiful Soup] y cópiala en el director
 
 ### Instalar Komodo Edit
 
-Komodo Edit es un editor de texto que sirve para programación, es software libre y de código fuente abierto. Pero como se indicó en la introducción, se pueden utilizar [otras opciones de editores de texto]. Algunos colegas prefieren un programa llamado [TextWrangler]. El que decidas utilizar queda a gusto tuyo, pero en aras de conservar la coherencia en estas lecciones se utilizará aquí como ejemplo Komodo Edit. Puedes descargar una copia libre del editor desde el [sitio web de Komodo Edit]. Se puede descargar desde el sitio web de Komodo e instalar fácilmente desde el archivo `.DMG`.
+Komodo Edit es un editor de texto que sirve para programación, es *software* libre y de código fuente abierto. Pero como se indicó en la introducción, se pueden utilizar [otras opciones de editores de texto]. Algunos colegas prefieren un programa llamado [TextWrangler]. El que decidas utilizar queda a gusto tuyo, pero en aras de conservar la coherencia en estas lecciones se utilizará aquí como ejemplo Komodo Edit. Puedes descargar una copia libre del editor desde el [sitio web de Komodo Edit]. Se puede descargar desde el sitio web de Komodo e instalar fácilmente desde el archivo `.DMG`.
 
 #### Inicia Komodo Edit
 
@@ -78,11 +78,11 @@ El editor de texto que seleccionaste debe tener un botón "`run`" que te permiti
 
 {% include figure.html filename="TextWrangler-hello-world.png" caption="'Hello World' en Python en una Mac" %}
 
-### Interactuar con el intérprete de comandos (shell) de Python
+### Interactuar con el intérprete de comandos (*shell*) de Python
 
-Otra manera de interactuar con un intérprete es usando lo que se conoce como <em>shell</em> o intérprete de comandos. Se puede escribir en una declaración y oprimir la tecla Enter, y el shell responderá a tus comandos. Utilizar un shell es una excelente forma de comprobar que la construcción de tus declaraciones es adecuada al asegurarte que hace lo que tu piensas que debería hacer. Esto se puede hacer de maneras un tanto distintas en las diversas plataformas (Mac, Windows o Linux).
+Otra manera de interactuar con un intérprete es usando lo que se conoce como *shell* o intérprete de comandos. Se puede escribir en una declaración y oprimir la tecla Enter, y el *shell* responderá a tus comandos. Utilizar un *shell* es una excelente forma de comprobar que la construcción de tus declaraciones es adecuada al asegurarte que hace lo que tu piensas que debería hacer. Esto se puede hacer de maneras un tanto distintas en las diversas plataformas (Mac, Windows o Linux).
 
-Puedes ejecutar un *shell* de Python iniciando Terminal. En la Mac, abre el Finder, haz doble click en  `Aplicaciones -> Utilidades -> Terminal`. Escribe "`python`" en la ventana que se abre en tu pantalla y oprime la tecla Enter. Ante el shell prompt de Python escribe:
+Puedes ejecutar un *shell* de Python iniciando Terminal. En la Mac, abre el Finder, haz doble click en  `Aplicaciones -> Utilidades -> Terminal`. Escribe "`python`" en la ventana que se abre en tu pantalla y oprime la tecla Enter. Ante el *shell prompt* de Python escribe:
 
 ```python
 print ('Hola Mundo')
@@ -94,7 +94,7 @@ Oprime la tecla Enter. La computadora responderá con:
 Hola Mundo
 ```
 
-Cuando queramos representar gráficamente la interacción con el intérprete de comandos usaremos `->` para indicar la respuesta del shell a tus comandos, como se muestra inmediatamente:
+Cuando queramos representar gráficamente la interacción con el intérprete de comandos usaremos `->` para indicar la respuesta del *shell* a tus comandos, como se muestra inmediatamente:
 
 ```python
 Print ('Hola Mundo')
