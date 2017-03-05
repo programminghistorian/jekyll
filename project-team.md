@@ -22,8 +22,6 @@ a non-profit organization digitizing endangered colonial archives in Colombia an
 <br /><br /><br />
 </div>
 
-{% include contact-info.html name="Antonio Rojas Castro" %}
-
 {% include contact-info.html name="Adam Crymble" %}
 
 <div class="contact-box">
@@ -49,6 +47,8 @@ Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (C
 {% include contact-info.html name="Caleb McDaniel" %}
 
 {% include contact-info.html name="Ian Milligan" %}
+
+{% include contact-info.html name="Antonio Rojas Castro" %}
 
 {% include contact-info.html name="Amanda Visconti" %}
 
