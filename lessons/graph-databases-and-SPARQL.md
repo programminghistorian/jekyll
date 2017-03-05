@@ -6,6 +6,7 @@ reviewers:
 - Patrick Murray-John
 - Jason Heppler
 - Will Hanley
+editors:
 - Fred Gibbs
 date: 2015-11-24
 layout: default
