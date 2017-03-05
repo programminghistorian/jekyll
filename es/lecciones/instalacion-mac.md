@@ -26,7 +26,7 @@ Desde el mes de mayo de 2012, Mac OS X tiene preinstalado Python v.2. Puedes cor
 
 ### Creación de un directorio
 
-Para mantener organizados los datos en tu equipo, lo mejor es crear un directorio o carpeta en tu computadora dedicado exclusivamente a almacenar todos tus programas que escribas con Python (por ejemplo: **programming-historian** y manténlo en el lugar de tu disco duro que mejor te acomode).
+Para mantener organizados los datos en tu equipo, lo mejor es crear un directorio o carpeta en tu computadora dedicado exclusivamente a almacenar todos los programas que escribas con Python (por ejemplo: **programming-historian** y manténlo en el lugar de tu disco duro que mejor te acomode).
 
 ### Beautiful Soup
 
