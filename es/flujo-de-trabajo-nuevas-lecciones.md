@@ -97,7 +97,7 @@ En caso de que envíes una traducción, debes mantener el bloque YAML de la lecc
 
 ## Escribe en Markdown
 
-**Todas las traducciones y lecciones nuevas deben estar escritas en Markdown**. Markdow es un lenguaje de marcado muy sencillo que se puede escribir con un editor de textos (tal y como se ha explicado más arriba, no utilices un procesador como MS Word u Open Office). [GitHub Pages] utiliza [Jekyll](http://jekyllrb.com/), que transforma de manera automática los archivos Markdown en archivos HTML para que se visualicen en el navegador. Esta página, por ejemplo, está escrita en Markdown; puedes comprobarlo tú mismo inspeccionado el archivo en [GitHub](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons/spanish).  
+**Todas las traducciones y lecciones nuevas deben estar escritas en Markdown**. Markdow es un lenguaje de marcado muy sencillo que se puede escribir con un editor de textos (tal y como se ha explicado más arriba, no utilices un procesador como MS Word u Open Office). [GitHub Pages] utiliza [Jekyll](http://jekyllrb.com/), que transforma de manera automática los archivos Markdown en archivos HTML para que se visualicen en el navegador. Esta página, por ejemplo, está escrita en Markdown; puedes comprobarlo tú mismo inspeccionado el archivo en [GitHub](https://github.com/programminghistorian/jekyll/blob/gh-pages/es/flujo-de-trabajo-nuevas-lecciones.md).  
 
 Los recursos y tutoriales suguientes contienen más información sobre cómo dar formato a una traducción o una lección nueva en Markdown:
 
@@ -317,7 +317,7 @@ Finalmente, el equipo editorial the *The Programming Historian en español* revi
   [Notepad++]: https://notepad-plus-plus.org/
   [project team]: ../project-team.html
   [slug]: https://en.wikipedia.org/wiki/Semantic_URL#Slug
-  [YAML]: https://en.wikipedia.org/wiki/YAML
+  [YAML]: https://es.wikipedia.org/wiki/YAML
   [GitHub Guide to Markdown]: https://guides.github.com/features/mastering-markdown/
   [Markdown Basics]: https://help.github.com/articles/markdown-basics
   [Github Flavored Markdown]: https://help.github.com/articles/github-flavored-markdown
