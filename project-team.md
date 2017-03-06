@@ -26,10 +26,11 @@ a non-profit organization digitizing endangered colonial archives in Colombia an
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Victor-Gayol.png" />
-Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (CPI-CONACYT), México, with a PhD in History.
+Víctor Gayol is a researcher and professor of history at El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
  
 <br />
-	
+
+		<a href="http://victorgayol.net"><i class="fa fa-home fa-lg"></i></a>
 	
 		<a href="mailto:vgayol@colmich.edu.mx"><i class="fa fa-envelope-square fa-lg"></i></a>
 	
