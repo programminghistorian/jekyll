@@ -12,6 +12,8 @@ translator:
 - Víctor Gayol
 translation-reviewer:
 - Jairo A. Melo
+- Maria José Afanador-Llach
+- Antonio Rojas Castro
 layout: default
 redirect_from: /es/lessons/windows-installation
 ---
