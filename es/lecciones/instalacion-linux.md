@@ -16,7 +16,7 @@ layout: default
 redirect_from: /es/lessons/linux-installation
 ---
 
-Gracias a John Fink por proveer las bases de esta sección. Estas instrucciones son para Ubuntu 12.04 LTS, pero deben funcionar para cualquier distribución y APT como Debian Linux Mint, siempre y cuando tengas instalado sudo.
+Gracias a John Fink por proveer las bases de esta sección. Estas instrucciones son para Ubuntu 12.04 LTS, pero deben funcionar para cualquier distribución y APT como Debian Linux Mint, siempre y cuando tengas instalado [sudo](https://es.wikipedia.org/wiki/Sudo).
 
 ## Respalda tu computadora
 
@@ -24,9 +24,9 @@ Siempre es importante asegurarse de tener copias de seguridad hechas de modo reg
 
 ## Instalar Python v.2
 
-1. Abre terminal (`Dash Home`, entonces teclea `Terminal`, luego haz click en el icono de Terminal). 
+1. Abre terminal (`Dash Home`, entonces teclea `Terminal`, luego haz clic en el icono de Terminal). 
 2. En Terminal teclea: `sudo apt-get install python2.7 python` 
-3. Escribe tu contraseña de administrador del sistema y entonces teclea `Y`  para finalizar la instalación. Toma nota que probablemente Python 2.7 esté instalado previamente en el sistema, así que no entres en pánico si Ubuntu te lo dice.
+3. Escribe tu contraseña de administrador del sistema y entonces teclea `Y`  para finalizar la instalación. Ten en cuenta que probablemente Python 2.7 esté instalado previamente en el sistema, así que no entres en pánico si Ubuntu te lo dice.
 
 ## Crea un directorio
 
@@ -39,13 +39,13 @@ mkdir programming-historian
 
 ## Instala Komodo Edit
 
-Komodo Edit es un editor de texto libre y de código abierto, pero tienes muchas [opciones de editores de texto] si lo prefieres. Puedes descargar desde el [sitio web de Komodo Edit]. Una vez que lo has descargado, ábrelo con el package manager de Ubuntu, extraerlo en el directorio de Home y seguir las instrucciones de instalación. Si estás siguiendo estas instrucciones e instalado Komodo Edit, abre la carpeta de Home, ve al directorio `Komodo-Edit-9/bin`  y haz clic en Komodo. Puedes también hacer clic con el botón derecho del mouse sobre el icono de Komodo en el lanzador (*launcher*) , y hacer click en "`Lock to Launcher`" para tenerlo de manera permanente en la barra del lanzador. 
+Komodo Edit es un editor de texto libre y de código abierto, pero tienes muchas [opciones de editores de texto] si lo prefieres. Puedes descargar desde el [sitio web de Komodo Edit]. Una vez que lo has descargado, ábrelo con el *package manager* de Ubuntu, extraerlo en el directorio de Home y seguir las instrucciones de instalación. Si estás siguiendo estas instrucciones e instalado Komodo Edit, abre la carpeta de Home, ve al directorio `Komodo-Edit-9/bin`  y haz clic en Komodo. Puedes también hacer clic con el botón derecho del mouse sobre el icono de Komodo en el lanzador (*launcher*) , y hacer clic en "`Lock to Launcher`" para tenerlo de manera permanente en la barra del lanzador. 
 
 ## Haz un comando de ejecución de Python en Komodo Edit
 
-1. En Komodo Edit, haz click en el icono de engranaje bajo `Toolbox` y selecciona `New Command`  
+1. En Komodo Edit, haz clic en el icono de engranaje bajo `Toolbox` y selecciona `New Command`  
 2. En el campo superior escribe `Run Python File`
-3. En el campo ‘*Command*’ escribe `%(python) %f`, Haz click en OK al pie de la ventana de insertar comando.
+3. En el campo ‘*Command*’ escribe `%(python) %f`, Haz clic en OK al pie de la ventana de insertar comando.
 
 Paso 2 – “Hola Mundo” en Python
 --------------------------------------------
@@ -67,11 +67,11 @@ El editor de texto que seleccionaste utilizar debe tener un botón `Run` que te 
 
 {% include figure.html filename="hello-world1.png" caption="" %}
 
-## Interactuar con el intérprete de comandos (shell) de Python
+## Interactuar con el intérprete de comandos (*shell*) de Python
 
-Otra manera de interactuar con un intérprete es usando lo que se conoce como *shell* o intérprete de comandos. Se puede escribir en una declaración y oprimir la tecla Enter, y el shell responderá a tus comandos. Utilizar un shell es una excelente forma de comprobar que la construcción de tus declaraciones es adecuada al asegurarte que hace lo que tu piensas que debería hacer.
+Otra manera de interactuar con un intérprete es usando lo que se conoce como *shell* o intérprete de comandos. Se puede escribir en una declaración y oprimir la tecla Enter, y el *shell* responderá a tus comandos. Utilizar un *shell* es una excelente forma de comprobar que la construcción de tus declaraciones es adecuada al asegurarte que hace lo que tu piensas que debería hacer.
 
-Puedes ejecutar un shell de Python abriendo Terminal. Para Linux ve a  `Aplicaciones -> Accesorios -> Terminal` y haz lo mismo. Frente al prompt del intérprete de comandos escribe:
+Puedes ejecutar un *shell* de Python abriendo Terminal. Para Linux ve a  `Aplicaciones -> Accesorios -> Terminal` y haz lo mismo. Frente al prompt del intérprete de comandos escribe:
 
 ```python
 python
@@ -88,7 +88,7 @@ Oprime la tecla Enter. La computadora responderá con:
 Hola Mundo
 ``` 
 
-Cuando queramos representar la interacción con el intérprete de comandos usaremos -\> para indicar la respuesta del shell a tus comandos, como se muestra inmediatamente:
+Cuando queramos representar la interacción con el intérprete de comandos usaremos -\> para indicar la respuesta del *shell* a tus comandos, como se muestra inmediatamente:
 
 ```python
 Print('Hola Mundo')
@@ -99,7 +99,7 @@ En la pantalla de tu computadora aparecerá de esta manera:
 
 {% include figure.html filename="hello-world-terminal.png" caption="" %}
 
-Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos hacia unas tareas algo más interesantes. Si estás trabajando de manera ordenada las lecciones de Python, te sugerimos que pases ahora a la lección [Para entender páginas web y HTML]
+Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos hacia unas tareas algo más interesantes. Si estás trabajando de manera ordenada las lecciones de Python, te sugerimos que pases ahora a la lección [Para entender páginas web y HTML].
 
 
 [opciones de editores de texto]: https://wiki.python.org/moin/PythonEditors/
