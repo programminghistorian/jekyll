@@ -12,6 +12,8 @@ translator:
 - Víctor Gayol
 translation-reviewer:
 - Jairo A. Melo
+- Maria José Afanador-Llach
+- Antonio Rojas Castro
 layout: default
 next: trabajar-con-archivos-de-texto
 previous: introduccion-e-instalacion
