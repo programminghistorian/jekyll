@@ -305,7 +305,7 @@ Finalmente, el equipo editorial the *The Programming Historian en español* revi
 
 
 [Antonio Rojas Castro]: mailto:rojas.castro.antonio@gmail.com
-[traducciones pendientes]: https://github.com/PH-espagnol/borradores/blob/master/lista-de-traduccion.md
+[traducciones pendientes]: https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/lista-de-traducciones.md
 [lecciones ya publicadas]: http://programminghistorian.org/es/lecciones
 [guía para revisores]: http://programminghistorian.org/es/guia-para-revisores
 [lecciones en desarrollo]: https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons
