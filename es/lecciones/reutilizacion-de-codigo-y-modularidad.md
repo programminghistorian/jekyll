@@ -21,7 +21,7 @@ redirect_from: /es/lessons/code-reuse-and-modularity
 Objetivos de la lección
 -----------------------
 
-Los programas de computadora pueden resultar largos, inmanejables y confusos si no contamos con mecanismos especiales para la gestión de su complejidad. Esta lección te mostrará la manera de reutilizar partes de su código mediante la escritura de *Funciones* y cómo fraccionar tus programas en *Módulos* con el fin de mantener todo de una manera concisa y fácil de depurar. Ser capaz de extraer un módulo disfuncional nos lleva a ahorrar tiempo y esfuerzo.
+Los programas de computadora pueden resultar largos, inmanejables y confusos si no contamos con mecanismos especiales para la gestión de su complejidad. Esta lección te mostrará la manera de reutilizar partes de su código mediante la escritura de *Funciones* y cómo fraccionar tus programas en *Módulos* con el fin de mantener todo de una manera concisa y fácil de depurar. Ser capaz de extraer un módulo que no resulte útil nos lleva a ahorrar tiempo y esfuerzo.
 
 ### Funciones
  
