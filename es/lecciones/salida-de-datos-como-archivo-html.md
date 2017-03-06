@@ -19,8 +19,7 @@ redirect_from: /es/lessons/output-data-as-html-file
 
 ## Objetivo de la lección
 
-Esta lección toma los pares de frecuencia creados en [
-de palabras con Python][] y crea una salida de datos a un archivo HTML.
+Esta lección toma los pares de frecuencia creados en [Contar frecuencias de palabras con Python][] y crea una salida de datos a un archivo HTML.
 
 Aquí aprenderás a crear esta salida de datos como archivo HTML utilizando Python. También aprenderás acerca del formato de cadenas. El resultado final es un archivo HTML que muestra las palabras clave encontradas en la fuente original en orden de frecuencia descendente junto con el número de veces que aparece cada palabra clave.
 
@@ -32,13 +31,13 @@ Si no tienes estos archivos de las lecciones anteriores, puedes descargar python
 
 ## Construcción de un contenedor de HTML
 
-En la lección anterior aprendiste como empotrar el mensaje "Hola Mundo" en etiquetas HTML, escribir el resultado en un archivo y abrirlo automáticamente en el navegador. Un programa que pone códigos de formato alrededor de algo para que pueda ser usado por otro programa es llamado a veces "contenedor" (*wrapper*). Lo que vamos a hacer ahora es desarrollar un contenedor de HTML para la salida de nuestro código que computa frecuencias de palabras. También añadiremos algunos *metadatos* dinámicos útiles para complementar los datos de frecuencia recogidos en [Contar frecuencias][].
+En la lección anterior aprendiste cómo empotrar el mensaje "Hola Mundo" en etiquetas HTML, escribir el resultado en un archivo y abrirlo automáticamente en el navegador. Un programa que pone códigos de formato alrededor de algo para que pueda ser usado por otro programa es llamado a veces "contenedor" (*wrapper*). Lo que vamos a hacer ahora es desarrollar un contenedor de HTML para la salida de nuestro código que computa frecuencias de palabras. También añadiremos algunos *metadatos* dinámicos útiles para complementar los datos de frecuencia recogidos en [Contar frecuencias][].
 
 ## Metadatos
 
-La distinción entre datos y metadatos es crucial en las ciencias de la información. Los metadatos son datos acerca de datos. Este concpeto ya te debe ser familiar incluso si no has escuchado antes el término. Considera un libro tradicional. Si tomamos el texto del libro como los datos, hay un número de otras características que están asociadas con el texto pero que pueden o no estar impresas en el libro de manera explícita. El título del libro, el autor, el editor y el lugar y fecha de la publicación son metadatos y generalmente están impresos en el trabajo. El lugar y fecha del escrito, el nombre del corrector de estilo, los datos de catalogación de la Biblioteca del Congreso y el nombre del tipo de fuente utilizado para la composición tipográfica, a veces están impresas en él. La persona que compra una copia particular puede escribir o no su nombre en el libro. Si el libro pertenece a la colección de una biblioteca, esa biblioteca mantendrá metadatos adicionales, pero solamente algunos de ellos estarán unidos físicamente al libro. El registro de los préstamos, por ejemplo, se mantiene generalmente en una especie de base de datos y se vincula al libro con un identificador único. Bibliotecas, archivos y museos tienen complejos sistemas para generar y mantener un registro de metadatos.
+La distinción entre datos y metadatos es crucial en las ciencias de la información. Los metadatos son datos acerca de datos. Este concepto ya te debe ser familiar incluso si no has escuchado antes el término. Considera un libro tradicional. Si tomamos el texto del libro como los datos, hay un número de otras características que están asociadas con el texto pero que pueden o no estar impresas en el libro de manera explícita. El título del libro, el autor, el editor y el lugar y fecha de la publicación son metadatos y generalmente están impresos en el trabajo. El lugar y fecha del escrito, el nombre del corrector de estilo, los datos de catalogación de la Biblioteca del Congreso y el nombre del tipo de fuente utilizado para la composición tipográfica, a veces están impresas en él. La persona que compra una copia particular puede escribir o no su nombre en el libro. Si el libro pertenece a la colección de una biblioteca, esa biblioteca mantendrá metadatos adicionales, pero solamente algunos de ellos estarán unidos físicamente al libro. El registro de los préstamos, por ejemplo, se mantiene generalmente en una especie de base de datos y se vincula al libro con un identificador único. Bibliotecas, archivos y museos tienen complejos sistemas para generar y mantener un registro de metadatos.
 
-Cuando trabajas con datos digitales es buena idea incorporar metadatos en tus propios archivos siempre que sea posible. Ahora vamos a desarrollar algunas estrategias básicas para hacer que nuestros archivos de datos sean *auto-documentados*. En nuestro contenedor queremos incluir información dinámica acerca del archivo, tales como la hora y fecha en el que fue creado así como un título HTML qeu es relevante para el archivo. En este caso podríamos darle un nombre nosotros mismos, pero cuando empecemos a trabajar con múltiples archivos, crear automáticamente archivos autodocumentados nos ahorrará mucho tiempo, así que lo practicaremos ahora. Y para ello tendremos que aprender a tomar ventaja de algunas opciones más potentes de formato de cadenas de texto.
+Cuando trabajas con datos digitales es buena idea incorporar metadatos en tus propios archivos siempre que sea posible. Ahora vamos a desarrollar algunas estrategias básicas para hacer que nuestros archivos de datos sean *auto-documentados*. En nuestro contenedor queremos incluir información dinámica acerca del archivo, tales como la hora y fecha en el que fue creado así como un título HTML que es relevante para el archivo. En este caso podríamos darle un nombre nosotros mismos, pero cuando empecemos a trabajar con múltiples archivos, crear automáticamente archivos autodocumentados nos ahorrará mucho tiempo, así que lo practicaremos ahora. Y para ello tendremos que aprender a tomar ventaja de algunas opciones más potentes de formato de cadenas de texto.
 
 ## Formato de cadenas de texto en Python
 
@@ -84,7 +83,7 @@ def paginaWebATexto(url):
     return texto
 ```
 
-También queremos una función que tome una cadena de texto en cualquier orden y la haga el cuerpo de un archivo HTML que se abra automáticamente en Firefox. Esta fución debe incluir algunos metadatos básicos, como la hora y la fecha en la que se creó y el nombre del programa que lo creó. Estudia el siguiente código con atención y luego cópialo en el módulo `obo.py`.
+También queremos una función que tome una cadena de texto en cualquier orden y la haga el cuerpo de un archivo HTML que se abra automáticamente en Firefox. Esta función debe incluir algunos metadatos básicos, como la hora y la fecha en la que se creó y el nombre del programa que lo creó. Estudia el siguiente código con atención y luego cópialo en el módulo `obo.py`.
 
 ### Instrucciones para Mac
 
