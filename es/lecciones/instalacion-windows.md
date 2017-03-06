@@ -45,7 +45,7 @@ Si no está visible el panel de Caja de Herramientas (Toolbox) de la derecha, es
 
 Ahora es necesario configurarlo para que puedas correr los programas de Python.
 
-1 .  Selecciona `Edit -> Preferences`. Esto abrirá una nueva ventana de diálogo. En "*Category*" selecciona Python y establece "*Default Python Interpreter*" , (debe ser `C:\Python27\Python.exe`
+1 .  Selecciona `Edit -> Preferences`. Esto abrirá una nueva ventana de diálogo. En "*Category*" selecciona Python y establece "*Default Python Interpreter*" , (debe ser `C:\Python27\Python.exe`)
 Si se ve más o menos así, oprime OK:
 
 {% include figure.html filename="komodo-python-interpreter.png" caption="Seleccionar Python como intérprete por defecto." %}
@@ -89,7 +89,7 @@ En tu editor de texto crea un nuevo archivo y escribe el siguiente programa de d
 print ('hola mundo')
 ``` 
 
-El editor de texto que seleccionaste debe tener un botón `Run`  que te permitirá ejecutar tu programa. Si todo funciona bien, deberás ver algo como sigue (El ejemplo es como se ve en Komodo Edit. Da un Click en la imagen para ver una copia en tamaño completo):
+El editor de texto que seleccionaste debe tener un botón `Run`  que te permitirá ejecutar tu programa. Si todo funciona bien, deberás ver algo como sigue (El ejemplo es como se ve en Komodo Edit. Da un clic en la imagen para ver una copia en tamaño completo):
 
 {% include figure.html filename="hello-world1.png" caption="Hola Mundo en Komodo Edit" %}
 
@@ -119,7 +119,7 @@ En la pantalla de tu computadora aparecerá de esta manera:
 
 {% include figure.html filename="python-shell-win.png" caption="Python Shell en Windows" %}
 
-Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos hacia unas tareas algo más interesantes. Si estás trabajando de manera ordenada las lecciones de Python, te sugerimos que pases ahora a la lección [Para entender páginas web y HTML]
+Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos hacia unas tareas algo más interesantes. Si estás trabajando de manera ordenada las lecciones de Python, te sugerimos que pases ahora a la lección [Para entender páginas web y HTML].
 
 
 [sitio web de Python]: https://www.python.org
