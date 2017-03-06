@@ -48,7 +48,8 @@ Víctor Gayol es profesor investigador en el Centro de Estudios Históricos de E
  
 <br />
 	
-	
+		<a href="http://victorgayol.net"><i class="fa fa-home fa-lg"></i></a>
+		
 		<a href="mailto:vgayol@colmich.edu.mx"><i class="fa fa-envelope-square fa-lg"></i></a>
 	
 	
