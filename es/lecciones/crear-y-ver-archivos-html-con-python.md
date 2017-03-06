@@ -59,7 +59,7 @@ Guarda el programa anterior como `escribe-html.py` y ejecútalo. Utiliza *File -
 
 {% include figure.html filename="hello-world-html.png" caption="Fuente HTML generada con Python" %}
 
-Ahora ve a tu navegador Firefox y elige *Archivo-> Nueva pestaña*; ve a la pestaña y elige *Archivo-> Abrir archivo* Selecciona `holamundo.html`. Ahora debería ser posible que veas el mensaje en el navegador. Tómate un momento para pensar en esto: ahora tienes la habilidad de escribir un programa que crea automáticamente una página Web. No hay ninguna razón por la que no podrías escribir un programa para crear automáticamente un sitio Web completo si lo quisieras.
+Ahora ve a tu navegador Firefox y elige *Archivo-> Nueva pestaña*; ve a la pestaña y elige *Archivo-> Abrir archivo* Selecciona `holamundo.html`. Ahora debería ser posible que veas el mensaje en el navegador. Detente un momento para pensar en esto: ahora tienes la habilidad de escribir un programa que crea automáticamente una página Web. No hay ninguna razón por la que no podrías escribir un programa para crear automáticamente un sitio Web completo si lo quisieras.
 
 ## Utilizar Python para controlar Firefox
 
@@ -67,7 +67,7 @@ Creamos automáticamente un archivo HTML, pero entonces tuvimos que dejar nuestr
 
 ### Instrucciones para usuarios de Mac
 
-Los usuarios de Mac deben especificar la localización precisa del archivo `.html` en su computadora. Para hacerlo, localiza la carpeta `programming-historian`que creaste para hacer estos tutoriales, da click con el botón derecho y selecciona "Obtener información".
+Los usuarios de Mac deben especificar la localización precisa del archivo `.html` en su computadora. Para hacerlo, localiza la carpeta `programming-historian`que creaste para hacer estos tutoriales, haz clic con el botón derecho y selecciona "Obtener información".
 
 Puedes entonces copiar y pegar la localización del archivo enlistado después de "Ubicación:" y asegúrate de incluir una diagonal (/) para permitirle a la computadora saber que quieres algo dentro del directorio (en vez del directorio en sí mismo).
 
