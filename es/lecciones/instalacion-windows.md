@@ -1,5 +1,5 @@
 ---
-title: Preparación de un ambiente integrado para Python (Windows)
+title: Creación de un entorno de desarrollo integrado para Python (Windows)
 authors:
 - William J. Turkel
 - Adam Crymble
