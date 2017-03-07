@@ -23,21 +23,21 @@ Introducción a Python
     <li>
     <a href="{{site.url}}/es/lessons/mac-installation">
       <img src="{{site.url}}/gallery/mac-installation.png">
-      <h3>Establecer ambientes de desarrollo integrado para Python en Mac</h3>
+      <h3>Creación de un entorno de desarrollo integrado para Python en Mac</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
       <li>
     <a href="{{site.url}}/es/lessons/windows-installation">
       <img src="{{site.url}}/gallery/windows-installation.png">
-      <h3>Establecer ambientes de desarrollo integrado para Python en Windows</h3>
+      <h3>Creación de un entorno de desarrollo integrado para Python en Windows</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
       <li>
     <a href="{{site.url}}/es/lessons/linux-installation">
       <img src="{{site.url}}/gallery/linux-installation.png">
-      <h3>Establecer ambientes de desarrollo integrado para Python en Linux</h3>
+      <h3>Creación de un entorno de desarrollo integrado para Python en Linux</h3>
       <p>William J. Turkel &amp; Adam Crymble</p>
     </a>
   </li>
