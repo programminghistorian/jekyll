@@ -1,5 +1,5 @@
 ---
-title: Preparación de un ambiente integrado para Python (Linux)
+title: Creación de un entorno de desarrollo integrado para Python (Linux)
 authors:
 - William J. Turkel
 - Adam Crymble
