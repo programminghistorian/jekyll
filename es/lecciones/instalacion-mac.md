@@ -1,5 +1,5 @@
 ---
-title: Preparación de un ambiente integrado para Python (Mac)
+title: Creación de un entorno de desarrollo integrado para Python (Mac)
 authors:
 - William J. Turkel
 - Adam Crymble
