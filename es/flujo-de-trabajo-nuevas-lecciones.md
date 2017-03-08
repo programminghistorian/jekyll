@@ -1,5 +1,5 @@
 ---
-title: Instrucciones para autores
+title: Instrucciones para autores y traductores
 layout: directory
 ---
 Esta página contiene instrucciones para los autores que deseen contribuir con una nueva lección a *The Programming Historian en español*. 
