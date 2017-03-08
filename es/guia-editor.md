@@ -101,6 +101,10 @@ Una vez las revisiones necesarias se hayan producido, tu papel consistirá en re
 
 Junto con tu resumen de las revisiones y las instrucciones finales, hay que recordar al autor que los cambios deben realizarse en cuatro semanas. De esta manera, nos aseguraremos que los textos se publican en su debido tiempo y no se demoran de manera innecesaria. Si el autor considera que no podrá cumplir esta condición, se deberá acordar con el editor una nueva fecha.
 
+### Nota sobre la revisión de traducciones
+
+En *The Programming Historian en español* sabemos que existe un gran abanico de maneras de utilizar nuestro idioma en España y en América Latina. En defensa de la diversidad, hemos considerado que los revisores de las traducciones deben respetar los usos regionales ('ordenador', 'computadora' o 'computador') del traductor, siempre y cuando el texto en general tenga corrección gramatical, claridad y que respete la integridad de las ideas expresadas en la lección original. Esto se debe enfatizar a la hora de dirimir cualquier diferencia entre revisores y traductores.
+
 ## Aspectos técnicos del proceso de revisión - Lista de verificación
 
 Nuestro proceso de revisión se lleva a cabo en el [repositorio de envíos](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es) de GitHub. Las instrucciones sobre cómo subir los archivos, el formato de los archivos y el uso de Markdown se encuentran en nuestra [Guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones) actualizada periódicamente con nuevas instrucciones. Como editor, deberás familiarizarte con los pasos a seguir y referirte a ellos cuando sea necesario. Si necesitas ayuda, siempre puedes escribir a otro editor del [equipo](http://programminghistorian.org/es/equipo-de-proyecto).
