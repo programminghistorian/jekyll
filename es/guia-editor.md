@@ -41,7 +41,7 @@ Al recibir una lección o traducción nueva, el editor iniciará un nuevo *issue
 
 ### Comentarios iniciales
 
-Cuando recibas una propuesta de traducción o creación de una lección nueva, tu primer mensaje debe utilizar la plantilla que describe el rol del editor y el proceso de revisión por pares, así como información necesaria en caso de que la revisión sufra algún incidente. Por favor, adapta la plantilla para que aparezca al inicio del "issue". 
+Cuando recibas una propuesta de traducción o creación de una lección nueva, tu primer mensaje debe utilizar la plantilla que describe el rol del editor y el proceso de revisión por pares, así como información necesaria en caso de que la revisión sufra algún incidente. Por favor, adapta la plantilla correspondiente para que aparezca al inicio del "issue". 
 
 En el caso de una traducción, utiliza esta [plantilla](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/PLANTILLA-TRADUCCION.md):
 
