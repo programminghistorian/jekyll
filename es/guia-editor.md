@@ -41,15 +41,17 @@ Al recibir una lección o traducción nueva, el editor iniciará un nuevo *issue
 
 ### Comentarios iniciales
 
-Cuando recibas una propuesta de traducción o creación de una lección nueva, tu primer mensaje debe utilizar la plantilla que describe el rol del editor y el proceso de revisión por pares, así como información necesaria en caso de que la revisión sufra algún incidente. Por favor, adapta la [plantilla](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md) para que aparezca al inicio del "issue". 
+Cuando recibas una propuesta de traducción o creación de una lección nueva, tu primer mensaje debe utilizar la plantilla que describe el rol del editor y el proceso de revisión por pares, así como información necesaria en caso de que la revisión sufra algún incidente. Por favor, adapta la plantilla para que aparezca al inicio del "issue". 
 
-En el caso de una traducción, utiliza esta plantilla:
+En el caso de una traducción, utiliza esta [plantilla](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/PLANTILLA-TRADUCCION.md):
 
 ```
 
 'The Programming Historian en español' ha recibido la siguiente propuesta de traducción [TÍTULO DE LA TRADUCCIÓN] de la lección [TÍTULO DE LA LECCIÓN] por parte de [NOMBRE DE USUARIO GITHUB DEL TRADUCTOR]. Esta traducción se encuentra en estos momentos en fase de revisión y puede leerse en:
 
-https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/traducciones[URL a la traducción]
+https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/traducciones/URL-a-la-traducción
+
+Por favor, estás en libertad de utilizar los números de línea proporcionados en la vista previa, si eso ayuda a señalar mejor tus comentarios. Pero puedes estructurar tu revisión como mejor te parezca.
 
 En adelante, intervendré como editor durante el proceso de revisión. Tras haber leído la lección y haber enviado mis comentarios al traductor, mi rol consistirá en solicitar otra revisión por parte de uno de los miembros de nuestro comité editorial y gestionar las conversaciones que se produzcan en este foro. 
 
@@ -63,13 +65,15 @@ _
 El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudspersons' (María José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
 
 ```
-Para las lecciones nuevas, utiliza la siguiente plantilla:
+Para las lecciones nuevas, utiliza la siguiente [plantilla](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/PLANTILLA-LECCION.md):
 
 ```
 
 'The Programming Historian en español' ha recibido la siguiente propuesta de lección [TÍTULO DE LA LECCIÓN] por parte de [NOMBRE DE USUARIO GITHUB DEL AUTOR]. Esta lección se encuentra en estos momentos en fase de revisión y puede leerse en:
 
-https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones
+https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones/URL-a-la-lección
+
+Por favor, estás en libertad de utilizar los números de línea proporcionados en la vista previa, si eso ayuda a señalar mejor tus comentarios. Pero puedes estructurar tu revisión como mejor te parezca.
 
 En adelante, intervendré como editor durante el proceso de revisión. Mi rol consistirá en solicitar dos revisiones externas y gestionar las conversaciones que se produzcan en este foro. He leído la lección y ya le he hecho llegar mis comentarios al traductor.
 
