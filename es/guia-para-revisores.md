@@ -59,7 +59,8 @@ Si has ojeado algunos de los tutoriales de _The Programming Historian en españo
 Aunque cada lección mantenga el estilo de su autor (o traductor), queremos que todas lecciones sean legibles y estén escritas en un registro homogéneo. 
 
 ### Traducciones
-De manera más específica, en cuanto a las traducciones, apreciamos el rigor pero también somos conscientes de que la literalidad no se puede alcanzar si se persigue una lectura amena. Además, en ocasiones los traductores deben añadir aclaraciones culturales a través de notas o entre paréntesis. He aquí, pues, algunas cuestiones a tener en cuenta: 
+
+De manera más específica, en cuanto a las traducciones, apreciamos el rigor pero también somos conscientes de que la literalidad no se puede alcanzar si se persigue una lectura amena. Además, en ocasiones los traductores deben añadir aclaraciones culturales a través de notas o entre paréntesis. También hay que considerar que los traductores utilizan variantes regionales para referirse a ciertas cosas ('ordenador, 'computadora', 'computador'), que es conveniente respetar. He aquí, pues, algunas cuestiones a tener en cuenta: 
 
 - ¿El lenguaje (léxico, sintaxis, ortografía) es adecuado? 
 - ¿Se traducen todos los tecnicismos al español? 
