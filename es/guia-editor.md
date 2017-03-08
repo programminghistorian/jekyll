@@ -87,7 +87,7 @@ El objetivo de 'The Programming Historian en español' es ofrecer un entorno abi
 
 ### Cómo guiar la conversación
 
-Como editor, todos los participantes del proceso estarán pendientes de tus intervenciones. Para la mayoría de autores y revisores será su primera experiencia en un sistema de revisión en abierto como el nuestro. Dado que las publicaciones se realizan en el repositorio de GitHub, es posible que los autores vean los comentarios por parte de los revisores antes que el editor. Por este motivo, hay que dejar claro cómo funciona el proceso y cuándo los participantes deben intervenir o esperar nuevas instrucciones.
+Como editor, todos los participantes del proceso estarán pendientes de tus intervenciones. Para la mayoría de los autores y los revisores será su primera experiencia en un sistema de revisión en abierto como el nuestro. Dado que las publicaciones se realizan en el repositorio de GitHub, es posible que los autores vean los comentarios por parte de los revisores antes que el editor. Por este motivo, hay que dejar claro cómo funciona el proceso y cuándo los participantes deben intervenir o esperar nuevas instrucciones.
 
 Siempre que sea posible se recomienda publicar algún mensaje con el que se haga explícita la recepción de los comentarios. Por ejemplo, tras recibir la primera revisión, publica una respuesta para agradecer al primer revisor y recuerda al autor que una segunda revisión (en el caso de las lecciones nuevas) se encuentra en camino. Por este motivo, sugiere al autor que espere hasta recibir los comentarios pendientes. De esta manera todo el mundo sabe qué pasos hay que seguir.
 
@@ -103,7 +103,7 @@ Junto con tu resumen de las revisiones y las instrucciones finales, hay que reco
 
 ## Aspectos técnicos del proceso de revisión - Lista de verificación
 
-Nuestro proceso de revisión se lleva a cabo en el [repositorio de envíos] (https://github.com/PH-espagnol/borradores/tree/master/lecciones) de GitHub. Las instrucciones sobre cómo subir los archivos, el formato de los archivos y el uso de Markdown se encuentran en nuestra [Guía para autores y traductores] (http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones) actualizada periódicamente con nuevas instrucciones. Como editor, deberás familiarizarte con los pasos a seguir y referirte a ellos cuando sea necesario. Si necesitas ayuda, siempre puedes escribir a otro editor del [equipo] (http://programminghistorian.org/es/equipo-de-proyecto).
+Nuestro proceso de revisión se lleva a cabo en el [repositorio de envíos](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es) de GitHub. Las instrucciones sobre cómo subir los archivos, el formato de los archivos y el uso de Markdown se encuentran en nuestra [Guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones) actualizada periódicamente con nuevas instrucciones. Como editor, deberás familiarizarte con los pasos a seguir y referirte a ellos cuando sea necesario. Si necesitas ayuda, siempre puedes escribir a otro editor del [equipo](http://programminghistorian.org/es/equipo-de-proyecto).
 
 Desde un punto de vista técnico, estas son las áreas en las que tendrás que intervenir como editor:
 
@@ -112,19 +112,19 @@ Desde un punto de vista técnico, estas son las áreas en las que tendrás que i
 El **editor** debe sugerir un nombre para el archivo de la traducción o lección nueva conforme a las siguientes pautas:
 
 - El nombre debe ser corto pero descriptivo pues se convertirá en el *slug* de la lección cuando se publique (es decir, la terminación de la URL).
-- Una buena URL debería encajar en una diapositiva, debería ser fácil de recordar y debería describir el contenido de la lección. Nuestras URLS tienen el siguiente formato: http://programminghistorian.org/es/lecciones/NOMBRE-DEL-ARCHIVO-AQUÍ
+- Una buena URL debería encajar en una diapositiva, debería ser fácil de recordar y debería describir el contenido de la lección. Nuestras URLS tienen el siguiente formato: http://programminghistorian.org/es/lecciones/NOMBRE-DEL-ARCHIVO-AQUI
 - No introduzcas espacios en el nombre del archivo; en su lugar utiliza guiones. 
 - La extensión del arhivo debe ser `.md` con el objetivo de que GitHub genere una visualización provisional de la lección.
 
-Una vez hayas escogido el nombre del archivo, utiliza el mismo nombre para crear un directorio nuevo en [imágenes](https://github.com/PH-espagnol/borradores/tree/master/lecciones/imagenes); esta nueva carpeta contendrá las imágenes de la lección. Si la lección contiene archivos con datos, haz lo mismo pero en la carpeta [assets] (https://github.com/PH-espagnol/borradores/tree/master/assets) del repositio GitHub de *The Programming Historian en español*.
+Una vez hayas escogido el nombre del archivo, utiliza el mismo nombre para crear un directorio nuevo en [imágenes](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images); esta nueva carpeta contendrá las imágenes de la lección. Si la lección contiene archivos con datos, haz lo mismo pero en la carpeta [assets](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets) del repositio GitHub de *The Programming Historian en español*. Por favor, ten en cuenta que, en el caso de las traducciones donde el traductor no modifica imágenes o datos, estos ya están alojados. 
 
 ### B) Revisar el etiquetado Markdown
 
-Los autores deben asegurarse de que utilizan Markdown de manera apropiada para dar formato y estructurar el texto. Si han seguido la sintaxis, no debería haber problema. Ahora bien, si puedes ver algún símbolo Markdown en el archivo, quiere decir que algo ha salido mal. Las instrucciones sobre cómo utilizar Markdown se encuentran en nuestra [guía para autores y traductores] (http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
+Los autores y traductores deben asegurarse de que utilizan Markdown de manera apropiada para dar formato y estructurar el texto. Si han seguido la sintaxis, no debería haber problema. Ahora bien, si puedes ver algún símbolo Markdown en el archivo, quiere decir que algo ha salido mal. Las instrucciones sobre cómo utilizar Markdown se encuentran en nuestra [guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
 
 Puedes comprobar con facilidad si todo es correcto accediendo a la visualización generada en GitHub: https://github.com/PH-espagnol/borradores/tree/master/lecciones/NOMBRE-DEL-ARCHIVO-AQUÍ (nota: sin extensión .md).
 
-Si la visualización no funciona, comprueba si hay algún problema en la **pestaña [settings](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md) de la página del repositorio y buscar en GitHub Pages. Si hay un problema entonces, en vez de indicar en verde que el sitio está publicado, habrá una noticia de que el sitio tiene un problema de construcción. Si eso sucede, hazlo saber a Vctor Gayo (en español), quien trabajará con Caleb McDaniel para diagnosticarlo. Si lo haces en inglés, dirígete directamente con Caleb McDaniel.**
+Si la visualización no funciona, comprueba si hay algún problema en la [pestaña settings](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md) de la página del repositorio y buscar en GitHub Pages. Si hay un problema entonces, en vez de indicar en verde que el sitio está publicado, habrá una noticia de que el sitio tiene un problema de construcción. Si eso sucede, hazlo saber a Vctor Gayo (en español), quien trabajará con Caleb McDaniel para diagnosticarlo. Si lo haces en inglés, dirígete directamente con Caleb McDaniel.
 
 ### C) Comprobar que las imágenes sean correctas
 
