@@ -80,7 +80,7 @@ Asimismo, me comprometo a mantener la conversación abierta a todo el mundo en G
 Política contra el acoso
 _
 
-El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudspersons' (María José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto)).
+El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudspersons' (María José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
 
 ```
 
@@ -128,17 +128,17 @@ Si la visualización no funciona, comprueba si hay algún problema en la [pesta�
 
 ### C) Comprobar que las imágenes sean correctas
 
-Todas las imágenes deberían utilizar nombres de archivos consistentes y semánticamente claros. Si un texto contiene varias imágenes seguidas, el orden es muy importante (por ejemplo, una serie de capturas de pantalla). En tal caso se puede recomendar nombrar los archivos de manera secuencia; lo ideal sería utilizar el nombre del archivo de la lección (o una versión más corta) seguido de un número que indice su posición. Por ejemplo: `contando-frecuencias-1.png`, `contando-frecuencias-2.png`, etc.
+Todas las imágenes deberían utilizar nombres de archivos consistentes y semánticamente claros. Si un texto contiene varias imágenes seguidas, el orden es muy importante (por ejemplo, una serie de capturas de pantalla). En tal caso se puede recomendar nombrar los archivos de manera secuencia; lo ideal sería utilizar el nombre del archivo de la lección (o una versión más corta) seguido de un número que indique su posición. Por ejemplo: `contando-frecuencias-1.png`, `contando-frecuencias-2.png`, etc.
 
 En el caso de las lecciones nuevas, si un tutorial ya contiene archivos numerados, hay que tener en cuenta que el orden puede variar durante el proceso de revisión. Antes de publicar la lección, pues, hay que revisar que todos los nombres de los archivos estén actualizados. De esta manera, podremos actualizar los tutoriales con mayor facilidad en el futuro. Gracias por ayudarnos a mantener *The Programming Historian en español*.
 
 Con independencia de cómo se nombren las imágenes (semánticamente o de manera secuencial), todos los archivos deben situarse en el directorio `imagenes`. El sub-directorio debe tener como nombre el *slug* de la lección. Por favor, comprueba que las imágenes tienen un formato adecuado como PNG o JPEG y que el tamaño es correcto (en píxeles y en bytes).
 
-Más información sobre cómo añadir las imágenes en nuestra [guía para autores y traductores] (http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
+Más información sobre cómo añadir las imágenes en nuestra [guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
 
 ### D) Verificar los archivos con datos
 
-Al igual que las imágenes, todos los datos deben almacenarse en nuestro sitio; es decir, por motivos de sostenibilidad, no deben enlazarse como recursos externos). Los archivos de este tipo deben guardarse en la carpeta `assets` de *The Programming Historian en español*, siguiendo las mismas reglas que en el apartado anterior. Con todo, los autores pueden proporcionar una descripción para reflejar el contenido del archivo. Por ejemplo: 
+Al igual que las imágenes, todos los datos deben almacenarse en nuestro sitio; es decir, por motivos de sostenibilidad, no deben enlazarse como recursos externos. Los archivos de este tipo deben guardarse en la carpeta `assets` de *The Programming Historian en español*, siguiendo las mismas reglas que en el apartado anterior. Con todo, los autores pueden proporcionar una descripción para reflejar el contenido del archivo. Por ejemplo: 
 
 -  `/assets/SLUG-DE-LA-LECCION/Louvre-Paintings-1.csv`
 
@@ -147,7 +147,7 @@ Al igual que las imágenes, todos los datos deben almacenarse en nuestro sitio; 
 
 Se recomienda no incluir vídeos o *gifs* porque provocan muchos problemas. Por ejemplo, resulta muy difícil solicitar cambios en vídeos durante el proceso de revisión porque requiere dedicarle mucho tiempo; además, los vídeos no se pueden editar con tanta facilidad si la lección requiere nuevas actualizaciones. Asimismo, para incorporar vídeos se tendría que mantener un canal en YouTube. Como es lógico, no se pueden imprimir pero gran parte de nuestros lectores utilizan [versiones en PDF](https://zenodo.org/record/49873#.V0lazGaGa7o). Por tanto, solo deberían incluirse en casos totalmente necesarios.
 
-Si un tutorial contiene algún vídeo, éste debe publicarse en un canal de YouTube. El canal de YouTube aún no ha sido configurado por lo que como editor deberías ponerte en contacto con otros miembros del equipo. En nuestro repositorio GitHub se almacenría una copia de seguridad; el nombre del archivo debe seguir las instrucciones precedentes y guardarse en la carpeta `assets`:
+Si un tutorial contiene algún vídeo, éste debe publicarse en un canal de YouTube. El canal de YouTube aún no ha sido configurado por lo que como editor deberías ponerte en contacto con otros miembros del equipo. En nuestro repositorio GitHub se almacenaría una copia de seguridad; el nombre del archivo debe seguir las instrucciones precedentes y guardarse en la carpeta `assets`:
 
  - `/assets/SLUG-DE-LA-LECCION/NOMBRE-DEL-ARCHIVO-3`
 
@@ -155,16 +155,16 @@ Si un tutorial contiene algún vídeo, éste debe publicarse en un canal de YouT
 
 ## Aceptación y publicación - Lista de verificación
 
-Una vez el autor y tú como editor estéis satisfechos con el texto, sea una traducción o una lección nueva, el siguiente paso consiste en mover el archivo desde el repositorio de *The Programming Historian en español* al repositorio de *The Programming Historian*.
+Una vez el autor y tú como editor estéis satisfechos con el texto, sea una traducción o una lección nueva, el siguiente paso consiste en mover el archivo desde el repositorio de envíos al repositorio principal que aloja nuestro sitio web.
 
 ### 1) Mueve el archivo
 
-La manera más fácil de publicar el texto es utilizar `git` en tu terminal. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios `jekyll` y `borradores` (si no es así, nuestra [introducción a GitHub](http://programminghistorian.org/es/lecciones/introduccion-control-versiones-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar con Víctor Gayol para que te ayude.
+La manera más fácil de publicar el texto es utilizar `git` en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios `jekyll` y `ph-submissions/es` (si no es así, nuestra [introducción a GitHub](http://programminghistorian.org/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar con Caleb McDaniel (en inglés) para que te ayude, o en español a través de Víctor Gayol.
 
-1. Sitúate en el director local de tu repositorio `borradores`.
-2. Introduce `git pull` para descargar los últimos cambios en tu ordenador (o `sync`si utilizas GitHub Desktop).
-3. Repite los pasos 1 y 2 para el repositorio local de `jekyll`.
-4. Copia el texto, los archivos con datos y las imágenes guardados en `borradores` y ponlos en el lugar apropiado del repositorio `jekyll` de tu ordenador. Si utilizas la línea de comandos, introduce `cp`; si, por el contrario, usas GitHub Desktop utiliza la interfaz gráfica de usuario para moverte por los directorios y mover los archivos.
+1. Sitúate en el director local de tu repositorio `ph-submissions/es`.
+2. Introduce `git pull` para descargar los últimos cambios en tu ordenador (o `sync` si utilizas GitHub Desktop).
+3. Repite los pasos 1 y 2 para el repositorio local de `jekyll` en tu máquina.
+4. Copia el texto, los archivos con datos y las imágenes guardados en `ph-submissions/es` y ponlos en el lugar apropiado del repositorio `jekyll` de tu ordenador. Si utilizas la línea de comandos, introduce `cp`; si, por el contrario, usas GitHub Desktop utiliza la interfaz gráfica de usuario para moverte por los directorios y mover los archivos.
 5. Dese tu repositorio local de `jekyll`, debes introducir `git add` para añadir los nuevos archivos, y a continuación `got commit`y `git push` para actualizar los cambios en el repositorio en línea.
 
 ### 2) Crea una biografía para el autor
@@ -177,13 +177,15 @@ En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor 
        Jim Clifford es profesor ayudante en el Departamento de Historia de la Universidad de Saskatchewan.
 ```
 
-**Los espacios en blanco son importantest**, así que asegúrate de que la identación se ajusta a la de los otros casos.
+**Los espacios en blanco son importantest**, así que asegúrate de que la identación se ajusta a la de los otros casos y utiliza espacios en blanco en vez de tabuladores.
 
 ### 3) Añade traductor, revisores y editores al archivo YAML
 
-Es muy importante acreditar el trabajo de nuestros traductores, revisores y editores. Así, pues, localiza el  bloque YAML que se encuentra al inicio del tutorial, y añade el nombre del traductor, de los revisores y de todos los miembros de nuestra comunidad que han contribuido durante el proceso de revisión. Además, crea un campo `editor` y añade tu nombre y de cuantos otros editores hayan contribuido en la publicación. Las instrucciones para dar formato al bloque de YAML se encuentran en la [guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
+Es muy importante acreditar el trabajo de nuestros traductores, revisores y editores. Así, pues, localiza el  bloque YAML que se encuentra al inicio del tutorial, y añade el nombre de los revisores y de todos los miembros de nuestra comunidad que han contribuido durante el proceso de revisión. Además, crea un campo `editor` y añade tu nombre y de cuantos otros editores hayan contribuido en la publicación. Las instrucciones para dar formato al bloque de YAML se encuentran en la [guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
 
-Los revisores que no hayan trabajado con nostros en el pasado también deben añadirse en el archivo [reviewers.yml](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/reviewers.yml); de esta manera, el nombre de los revisores aparecerá como parte de nuestro equipo. Por favor, no te olvides de este paso. Si se trata de una traducción, hay que añadir el campo `translation-reviewer`.
+Si se trata de una traducción, asegúrate de que se mantienen los datos del YAML original, e introduce un campo para el traductor (`translator`), otro para los revisores de la traducción (`translation-reviewer`) y otro más para el editor de la traducción (`translation-editor`).
+
+Los revisores que no hayan trabajado con nostros en el pasado también deben añadirse en el archivo [reviewers.yml](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/reviewers.yml); de esta manera, el nombre de los revisores aparecerá como parte de nuestro equipo. Por favor, no te olvides de este paso.
 
 ### 4) Añade un nivel de dificultad el archivo YAML
 
@@ -193,19 +195,17 @@ Con el objetivo de ayudar a los lectores a evaluar si una lección se ajusta a s
 difficulty: 1
 ```
 
-Si se trata de una traducción, simplemente asegúrate de que estas líneas no han sido borradas y que son las mismas que en el original.
-
 ### 5) Añade un ticket de revisión al archivo YAML
 
-Crea un ticket de revisión en el archivo YAML y proporciona el número del ticket correspondiente al envío del archivo en el repositorio `borradores`. Este procedimiento se realiza para incrementar la transparencia del proceso de revisión. La información, además, se utilizará para proporconar un enlace de retorno desde la lección.
+Crea un ticket de revisión en el archivo YAML y proporciona el número del ticket correspondiente al envío del archivo en el repositorio `borradores`. Este procedimiento se realiza para incrementar la transparencia del proceso de revisión. La información, además, se utilizará para proporconar un enlace al ticket de revisión.
 
 ### 6) Actualiza la fecha en el archivo YAML
 
-Actualiza la fecha en el campo correspondiente del archivo YAML tomando como referencia el día en que el archivo fue movido al repositorio `jekyll`.
+Actualiza la fecha en el campo correspondiente del archivo YAML tomando como referencia el día en que el archivo fue movido al repositorio `jekyll`, salvo en el caso de las traducciones.
 
 ### 7) Busca una imagen que represente la lección
 
-Las lecciones se representan mediante una imagen `vintage` que refleja algún elemento de las tareas descritas en el tutuorial. Puedes ver todas las imágenes en la página inical de nuestra [web](http://programminghistorian.org/). El editor es el encargado de seleccionar las imágenes. 
+Las lecciones se representan mediante una imagen `vintage` que refleja algún elemento de las tareas descritas en el tutorial. Puedes ver todas las imágenes en el [índice principal de lecciones](http://programminghistorian.org/es/lecciones). El editor es el encargado de seleccionar las imágenes. 
 
 Puedes buscar imágenes en los recursos siguientes:
 
@@ -215,13 +215,13 @@ Puedes buscar imágenes en los recursos siguientes:
  - [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
-Si como editor estás buscando una imagen para una lección nueva, asegúrate de que la imagen sigue el mismo estilo que las imágenes anteriores; debería ser una ilustración, no una fotografía, tener al menos 200 píxeles de anchura y altura, y estar libre de derechos. Asegúrate de que la magen no es ofensiva y ten en cuenta nuestro [compromiso con la diversidad] (http://programminghistorian.org/posts/PH-commitment-to-diversity); en otras palabras, intenta encontrar una imagen que no perpetúe estereotipos o envíe mensajes sutiles sobre la masculinidad y la raza blanca.
+Si como editor estás buscando una imagen para una lección nueva, asegúrate de que la imagen sigue el mismo estilo que las imágenes anteriores; debería ser una ilustración, no una fotografía, tener al menos 200 píxeles de anchura y altura, y estar libre de derechos. Asegúrate de que la magen no es ofensiva y ten en cuenta nuestro [compromiso con la diversidad](http://programminghistorian.org/posts/PH-commitment-to-diversity); en otras palabras, intenta encontrar una imagen que no perpetúe estereotipos o envíe mensajes sutiles sobre la masculinidad y la raza blanca.
  
 Antes de editar la imagen, guarda el archivo original. El nombre del archivo debe coincidir con el *slug* de la URL de la lección y, además, `-original`; el formato del archivo debe ser `.png`. Por ejemplo, la lección 'Cleaning Data with OpenRefine" tiene el *slug* `cleaning-data-with-openrefine`; por tanto, el nombre de la imagen original debería ser `cleaning-data-with-openrefine-original.png`.
 
 A continuación, crea una copia de la imagen, córtala en un cuadrado sin eliminar detalles relevantes, cambia la dimensión a 200x200 píxeles y convierte la imagen a escala de grises. Puedes hacer cuanto retoques creas necesarios a fin de que se asemeje al resto de imágenes, por ejemplo, modficiar la luz o alterar el contraste. Guarda esta nueva imagen con el *slug* de la lección. Siguiendo con el ejemplo ya dado, la nueva imagen debería llamarse `cleaning-data-with-openrefine.png`. 
 
-Sube la imagen original al directorio [originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery). Ambos directorios se encuentran en el repositorio de *The Programming Historian*.
+Sube la imagen original al directorio [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery).
 
 Por último, añade la imagen a la lección editando la página HTML en [lecciones/index.md](https://github.com/arojascastro/jekyll/blob/gh-pages/es/index.md); el enlace de la lección debe coincidir con el lugar en que se encuentra la imagen. Por ejemplo: 
 
