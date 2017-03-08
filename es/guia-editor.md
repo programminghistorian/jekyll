@@ -19,7 +19,7 @@ Si recibes una propuesta de lección nueva, asegúrate de que el autor te propor
 
 ### Espacios seguros
 
-En *The Programming Historian en español* estamos comprometidos con ofrecer un espacio seguro en el que se puedan intercambiar ideas sin miedo a sentirse acosado o sin sufrir algún tipo de abuso. El editor cumple un rol fundamental a la hora de asegurarse que el espacio en que tienen lugar las conversaciones no sea dañino para los participantes. En otras palabras, tu rol, como editor, también consiste en reforzar nuestra política en contra del acoso en todo momento. Si necesitas ayuda, por favor, contacto con otro editor. Puedes leer más sobre este tema, en inglés, en nuestro [blog](http://programminghistorian.org/posts/PH-commitment-to-diversity).
+En *The Programming Historian en español* estamos comprometidos con ofrecer un espacio seguro en el que se puedan intercambiar ideas sin miedo a sentirse acosado o sin sufrir algún tipo de abuso. El editor cumple un rol fundamental a la hora de asegurarse que el espacio en que tienen lugar las conversaciones no sea dañino para los participantes. En otras palabras, tu rol, como editor, también consiste en reforzar nuestra política en contra del acoso en todo momento. Si necesitas ayuda, por favor, contacta con otro editor. Puedes leer más sobre este tema, en inglés, en nuestro [blog](http://programminghistorian.org/posts/PH-commitment-to-diversity).
 
 ### Política contra el acoso
 
@@ -34,14 +34,14 @@ El objetivo de *The Programming Historian en español* es ofrecer un entorno abi
 
 Antes de solicitar revisiones externas, el editor debe leer y probar el tutorial, y utilizar su experiencia previa para ayudar al autor o al traductor a realizar mejoras iniciales (si es necesario). En una lección nueva, los editores suelen intervenir para aclarar la audiencia objetiva de la lección, o bien para identificar frases difíciles de entender, tecnicismos que se podrían evitar, o pasos que requieren mayor número de explicaciones (o adaptaciones teniendo en cuenta el contexto cultural hispánico, si se trata de una traducción). Esta revisión inicial es importante porque permitirá a los revisores externos centrarse en la mejora de la lección. Todo esto se realiza, por lo común, en abierto, en nuestra plataforma de envíos (ver más abajo), pero si el autor o traductor lo requiere también es posible establecer un canal de comunicación privado.
 
-Cuando el traductor o el autor ha revisado la lección siguiendo el consejo del editor, se invitarán a dos revisores externos. La decisión sobre los revisores externos depende del editor; no obstante, se tendrán en cuenta nuestro compromiso con la [diversidad](https://github.com/programminghistorian/jekyll/issues) a la hora de elegir los revisores. Como editor, te animamos a que te preguntes si has hecho todo lo posible para elegir revisores de género, nacionalidad, raza, edad, o formación académica diversa. En otras palabras, evita elegir revisores que sean como tú. Al contactar con los revisores, por favor, proporciona la [guía para revisores](http://programminghistorian.org/es/guia-para-revisores) y fija una fecha límite para completar la revisión (un mes, por lo general), a fin de asegurarnos de que el proceso de publicación no se alargue de manera innecesaria.
+Cuando el traductor o el autor ha revisado la lección siguiendo el consejo del editor, se invitarán a dos revisores externos. La decisión sobre los revisores externos depende del editor; no obstante, se tendrá en cuenta nuestro compromiso con la [diversidad](https://github.com/programminghistorian/jekyll/issues) a la hora de elegir los revisores. Como editor, te animamos a que te preguntes si has hecho todo lo posible para elegir revisores de género, nacionalidad, raza, edad, o formación académica diversa. En otras palabras, evita elegir revisores que sean como tú. Al contactar con los revisores, por favor, proporciona la [guía para revisores](http://programminghistorian.org/es/guia-para-revisores) y fija una fecha límite para completar la revisión (un mes, por lo general), a fin de asegurarnos de que el proceso de publicación no se alargue de manera innecesaria.
 
 Al recibir una lección o traducción nueva, el editor iniciará un nuevo *issue* en nuestro [repositorio de envíos en Github](https://github.com/programminghistorian/ph-submissions/issues), en donde tendrá lugar el proceso de revisión. De esta manera, todos los participantes podrán seguir la conversación y recibirán los mensajes. Los editores, traductores y autores deberán registrarse en GitHub (si no lo han hecho ya) y acceder al repositorio con su cuenta.
 
 
 ### Comentarios iniciales
 
-Cuando recibas una propuesta de traducción o creación de una lección nueva, tu primer mensaje debe utilizar la plantilla que describe el rol del editor y el proceso de revisión por pares, así como información necesaria en caso de que la revisión sufra algún incidente. Por favor, adapta la plantilla correspondiente para que aparezca al inicio del "issue". 
+Cuando recibas una propuesta de traducción o creación de una lección nueva, tu primer mensaje debe utilizar la plantilla que describe el rol del editor y el proceso de revisión por pares, así como información necesaria en caso de que la revisión sufra algún incidente. Por favor, adapta la plantilla correspondiente para que aparezca al inicio del *issue*. 
 
 En el caso de una traducción, utiliza esta [plantilla](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/PLANTILLA-TRADUCCION.md):
 
@@ -185,7 +185,7 @@ En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor 
        Jim Clifford es profesor ayudante en el Departamento de Historia de la Universidad de Saskatchewan.
 ```
 
-**Los espacios en blanco son importantest**, así que asegúrate de que la identación se ajusta a la de los otros casos y utiliza espacios en blanco en vez de tabuladores.
+**Los espacios en blanco son importantes**, así que asegúrate de que la identación se ajusta a la de los otros casos y utiliza espacios en blanco en vez de tabuladores.
 
 ### 3) Añade traductor, revisores y editores al archivo YAML
 
@@ -225,7 +225,7 @@ Puedes buscar imágenes en los recursos siguientes:
 
 Si como editor estás buscando una imagen para una lección nueva, asegúrate de que la imagen sigue el mismo estilo que las imágenes anteriores; debería ser una ilustración, no una fotografía, tener al menos 200 píxeles de anchura y altura, y estar libre de derechos. Asegúrate de que la magen no es ofensiva y ten en cuenta nuestro [compromiso con la diversidad](http://programminghistorian.org/posts/PH-commitment-to-diversity); en otras palabras, intenta encontrar una imagen que no perpetúe estereotipos o envíe mensajes sutiles sobre la masculinidad y la raza blanca.
  
-Antes de editar la imagen, guarda el archivo original. El nombre del archivo debe coincidir con el *slug* de la URL de la lección y, además, `-original`; el formato del archivo debe ser `.png`. Por ejemplo, la lección 'Cleaning Data with OpenRefine" tiene el *slug* `cleaning-data-with-openrefine`; por tanto, el nombre de la imagen original debería ser `cleaning-data-with-openrefine-original.png`.
+Antes de editar la imagen, guarda el archivo original. El nombre del archivo debe coincidir con el *slug* de la URL de la lección y, además, `-original`; el formato del archivo debe ser `.png`. Por ejemplo, la lección "Cleaning Data with OpenRefine" tiene el *slug* `cleaning-data-with-openrefine`; por tanto, el nombre de la imagen original debería ser `cleaning-data-with-openrefine-original.png`.
 
 A continuación, crea una copia de la imagen, córtala en un cuadrado sin eliminar detalles relevantes, cambia la dimensión a 200x200 píxeles y convierte la imagen a escala de grises. Puedes hacer cuanto retoques creas necesarios a fin de que se asemeje al resto de imágenes, por ejemplo, modficiar la luz o alterar el contraste. Guarda esta nueva imagen con el *slug* de la lección. Siguiendo con el ejemplo ya dado, la nueva imagen debería llamarse `cleaning-data-with-openrefine.png`. 
 
@@ -240,7 +240,7 @@ Por último, añade la imagen a la lección editando la página HTML en [leccion
 
 ### 8) Da las gracias a todo el mundo y difunde el tutorial
 
-Es importante enviar un correo electrónico o un mensaje a todos los participantes para agradecerles el esfuerzo. En particular, da las gracias al autor o al traductor por enviar su texto y anímalo a volver a trabajar con nostros en el futuro. También puedes proporcionarle alguna idea sobre cómo difundir y anunciar su contribución. Las lecciones más visitadas suelen contar con la promoción del autor. Pro ejemplo, el autor podría realizar las siguientes acciones:
+Es importante enviar un correo electrónico o un mensaje a todos los participantes para agradecerles el esfuerzo. En particular, da las gracias al autor o al traductor por enviar su texto y anímalo a volver a trabajar con nostros en el futuro. También puedes proporcionarle alguna idea sobre cómo difundir y anunciar su contribución. Las lecciones más visitadas suelen contar con la promoción del autor. Por ejemplo, el autor podría realizar las siguientes acciones:
 
 - Tuitear al menos tres veces la lección con el enlace a la web.
 - Retuitear nuestros tuits sobre la lección (darle al `like`no es suficiente).
@@ -248,4 +248,4 @@ Es importante enviar un correo electrónico o un mensaje a todos los participant
 - Enlazar a la lección en entradas de blog.
 - Añadir la lección a algunos recursos colaborativos como Wikipedia u otros plataformas.
 
-¡Por favor, no abandones la lección a su suerte! Ya hemos realizado el trabajo, así que asegurémenos que ha valido la pena.
+¡Por favor, no abandones la lección a su suerte! Ya hemos realizado el trabajo, así que asegurémosnos que ha valido la pena.
