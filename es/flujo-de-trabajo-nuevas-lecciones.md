@@ -23,7 +23,7 @@ Si quieres traducir una lección, tienes una idea para una lección nueva o ya h
 
 **¿Qué tipo de lección queremos?** *The Programming Historian en español* no tiene un modelo de lección estándar. Recibimos lecciones sobre cualquier tema siempre y cuando ayuden a los humanistas (usualmente historiadores, pero no siempre) en cualquier fase del proceso de investigación y publicación. Aceptamos lecciones dirigidas a todos los públicos, desde las que requieren habilidades y experencia avanzadas, hasta las que tienen naturaleza introductoria para principiantes. Las lecciones pueden tener una extensión breve y tratar de manera directa una tarea concreta; o bien, pueden ser lecciones largas que requieren un mayor número de explicaciones en detalle.
 
-**En resumen, aceptamos todo tipo de propuestas.** Para hacerte una idea de lo que buscamos, echa un vistazo a las [lecciones ya publicadas], lee nuestra [guía para revisores] o accede a las [lecciones en desarrollo]. Ten en cuenta que aceptamos lecciones sobre un tema ya cubierto o en desarollo dado que cada propuesta supone una contribución única: creemos que cada uno aprende de manera distinta y por eso favorecemos cierto solapamiento.
+**En resumen, aceptamos todo tipo de propuestas.** Para hacerte una idea de lo que buscamos, echa un vistazo a las [lecciones ya publicadas], lee nuestra [guía para revisores] o accede a las [lecciones en desarrollo]. Ten en cuenta que aceptamos lecciones sobre un tema ya cubierto o en desarrollo dado que cada propuesta supone una contribución única: creemos que cada uno aprende de manera distinta y por eso favorecemos cierto solapamiento.
 
 <br/><br/>
 
