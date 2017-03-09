@@ -1,2 +1,21 @@
+{% assign reviewerCount = page.translation-reviewer | size %}
+{% capture reviewerString %}
+{% if reviewerCount == 0 %}
+      <!-- No reviewers -->
+      <br/><br/>
+{% elsif reviewerCount == 1 %}
+      {{ page.reviewers | first }}
+{% else %}
+      {% for reviewer in page.reviewers %}
+           {% if forloop.first %}
+                 {{ reviewer }}
+           {% elsif forloop.last %}
+                 {{ site.data.snippets.and[page.lang] }} {{ reviewer }}
+           {% else %}
+		         , {{ reviewer }}
+           {% endif %}
+      {% endfor %}
+{% endif %}
+{% endcapture %}
 
-Traducido {{ site.data.snippets.by[page.lang] }} {{ page.translator }} {{ site.data.snippets.and[page.lang] }} {{ site.data.snippets.reviewed[page.lang] }} {{ site.data.snippets.by[page.lang] }} {{ page.translation-reviewer }}
+Traducido {{ site.data.snippets.by[page.lang] }} {{ page.translator }} {{ site.data.snippets.and[page.lang] }} {{ site.data.snippets.reviewed[page.lang] }} {{ site.data.snippets.by[page.lang] }} {{ reviewerString }}
