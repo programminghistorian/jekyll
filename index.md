@@ -13,7 +13,7 @@ We regularly publish new lessons, and we always welcome proposals for new lesson
 
 Our [Project Team](project-team) and peer reviewers work collaboratively with authors to craft tutorials that illustrate fundamental digital and programming principles and techniques. We have [lessons](lessons) on Application Programming Interfaces (APIs), Data Management, Data Manipulation, Distant Reading, Mapping and Geographic Information Systems (GIS), Network Analysis, Digital Exhibit Building, Programming, and Web Scraping, and more. Our tutorials include nearly a dozen lessons on popular DH tools such as MALLET, Omeka, and QGIS.
 
-If you can’t find what you’re looking for, we welcome your [feedback](feedback). Better yet, [contribute a lesson](contribute)! _The Programming Historian_ (ISSN 2397-2068) aims to set a new standard for openness and collaboration in scholarly publishing, and you can help! 
+If you can’t find what you’re looking for, we welcome your [feedback](feedback). Better yet, [contribute a lesson](contribute)! _The Programming Historian_ (ISSN 2397-2068) aims to set a new standard for openness and collaboration in scholarly publishing, and you can help!
 
 ## Contact
 
@@ -58,7 +58,7 @@ We strive to ensure all tutorials are functional on their date of publication. F
 
 ## Funding & Ownership
 
-_The Programming Historian_ is a volunteer-led initiative, controlled entirely by the 'Editorial Board of the Programming Historian' with the help of community contributors. It is not a legal entity, and does not currently receive direct funding from any source. 
+_The Programming Historian_ is a volunteer-led initiative, controlled entirely by the 'Editorial Board of the Programming Historian' with the help of community contributors. It is not a legal entity, and does not currently receive direct funding from any source.
 
 The project is grateful for past support by the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)), and for hosting support from the Roy Rosenzweig Centre for New Media ([RRCHNM](http://chnm.gmu.edu/)). If you would like to provide financial support to help the project grow, please contact one of the [Editorial Board members](http://programminghistorian.org/project-team).
 

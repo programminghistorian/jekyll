@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Nobile');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento');
+
 @media screen {
 
   body {
-    font-family: 'Lato', Verdana, sans-serif;
-    font-size:18px;
-    font-weight:200;
+    font-family: 'Quattrocento', Verdana, sans-serif;
+    font-size:16px;
     background-color:#fefefe;
   }
 
@@ -35,8 +37,43 @@
 }
 
 a.dropdown-item {
-
   border-bottom:1px solid #ccc;
+}
+
+
+.dropdown-menu {
+	position: absolute;
+	background: #fff;
+	border: 2px solid #39a;
+  margin-top:.5rem;
+}
+
+.dropdown-menu:after, .dropdown-menu:before {
+	bottom: 100%;
+	left: 20%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.dropdown-menu:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #fff;
+	border-width: 15px;
+	margin-left: -15px;
+}
+.dropdown-menu:before {
+	border-color: rgba(51, 153, 170, 0);
+	border-bottom-color: #39a;
+	border-width: 18px;
+	margin-left: -18px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #ccc;
 }
 
   .header-link {
@@ -48,6 +85,10 @@ a.dropdown-item {
     -moz-transition: opacity 0.2s ease-in-out 0.1s;
     -ms-transition: opacity 0.2s ease-in-out 0.1s;
   }
+
+
+
+
 
   h2:hover .header-link,
   h3:hover .header-link,
@@ -225,20 +266,8 @@ li.nav-item {
      Lesson Headers
      ========================================================================== */
 
-   article:not(:first-child):before {
-       content: " â€” Â·Â·Â· â€”";
-       display:block;
-       color: rgba(0,0,0,0.2);
-       text-align:center;
-       margin: 1em 0;
-   }
-
-   article .kicker {
-     text-align:center;
-   }
-
-
   .kicker {
+     text-align:center;
     font-size:0.8em;
     margin-bottom:0;
     color: #999;
@@ -263,7 +292,6 @@ li.nav-item {
     font-weight: 700;
     font-size: 1em;
   }
-
 
   /* words that are part of a programming language's code. eg, if, for, while, etc */
   .reserved {font-family: monospace;}
