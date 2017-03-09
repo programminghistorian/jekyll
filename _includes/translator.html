@@ -4,9 +4,9 @@
       <!-- No reviewers -->
       <br/><br/>
 {% elsif reviewerCount == 1 %}
-      {{ page.reviewers | first }}
+      {{ page.translation-reviewer | first }}
 {% else %}
-      {% for reviewer in page.reviewers %}
+      {% for reviewer in page.translation-reviewer %}
            {% if forloop.first %}
                  {{ reviewer }}
            {% elsif forloop.last %}
