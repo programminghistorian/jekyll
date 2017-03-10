@@ -1,5 +1,5 @@
 
-{% assign allReviewers = page.reviewers | concat:page.editors %}
+{% assign allReviewers = page.reviewers | concat: page.editors %}
 {% assign reviewerCount = allReviewers | size %}
 {% capture reviewerString %}
 {% if reviewerCount == 0 %}
