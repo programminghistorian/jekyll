@@ -45,6 +45,8 @@ V√≠ctor Gayol is a researcher and professor of history at El Colegio de Michoac√
 
 {% include contact-info.html name="Fred Gibbs" %}
 
+{% include contact-info.html name="Matthew Lincoln" %}
+
 {% include contact-info.html name="Caleb McDaniel" %}
 
 {% include contact-info.html name="Ian Milligan" %}
