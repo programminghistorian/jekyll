@@ -376,7 +376,9 @@
 - name: Matthew Lincoln
   url: "http://matthewlincoln.net"
   twitter: matthewdlincoln
-  team: false
+  email: mlincoln@getty.edu
+  github: mdlincoln
+  team: true
   bio:
     en: |
         Matthew Lincoln is a data research specialist at the Getty Research Institute, and an art historian of early modern Europe.
