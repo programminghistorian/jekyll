@@ -1,5 +1,8 @@
 
-{% assign allReviewers = page.reviewers | concat: page.editors %}
+{% assign reviewers = page.reviewers | join: "," %}
+{% assign editors = page.editors | join: "," %}
+{% capture bothString %}{{ reviewers }},{{ editors }}{% endcapture %}
+{% assign allReviewers = bothString | split: "," %}
 {% assign reviewerCount = allReviewers | size %}
 {% capture reviewerString %}
 {% if reviewerCount == 0 %}
