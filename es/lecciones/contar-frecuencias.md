@@ -97,7 +97,7 @@ print("Pares\n" + str(zip(listaPalabras, frecuenciaPalab)))
 
 Si estudias esta lista por comprensión cuidadosamente descubrirás que hace exactamente lo mismo que el bucle `for` en el ejemplo previo, pero de una manera condensada. Cualquiera de los dos métodos trabajará bien, así que utiliza la versión con la que te sientas más a gusto.
 
-Por regla general es más acertado que utilices un código que entiendas en vez de un código que se ejecute más rapidamente.
+Por regla general es más acertado que utilices un código que entiendas en vez de un código que se ejecute más rápidamente.
 
 En este punto tenemos una lista de pares en la que cada par contiene una palabra y su frecuencia. Esta lista es algo redundante. Si el artículo 'the' se encuentra 500 veces, entonces esta lista contendrá quinientas copias del par ('the', 500). También la lista tiene el orden en el que aparecen las palabras en el texto original en vez de enlistar las palabras de la más a la menos frecuente. Podemos resolver ambos problemas convirtiendo la lista en un diccionario e imprimiendo entonces el diccionario en el orden en el que aparecen de más a menos los elementos.
 
@@ -127,7 +127,7 @@ print(m[1][0])
 -> m
 ```
 
-Para seguirle el rastro a las frecuencias, vamos a utilizar otro tipo de objeto de Python, un diccionario. El diccionario es una colección *no-ordenanda* de objetos. Esto significa que no puedes usar un índice para recobrar elementos de ella. Sin embargo, puedes buscarlos mediante la utilización de una clave (de ahi el nombre de *diccionario*). Estudia el ejemplo siguiente:
+Para seguirle el rastro a las frecuencias, vamos a utilizar otro tipo de objeto de Python, un diccionario. El diccionario es una colección *no-ordenada* de objetos. Esto significa que no puedes usar un índice para recobrar elementos de ella. Sin embargo, puedes buscarlos mediante la utilización de una clave (de ahí el nombre de *diccionario*). Estudia el ejemplo siguiente:
 
 ``` python
 d = {'mundo': 1, 'hola': 0}
@@ -147,7 +147,7 @@ Toma en cuenta que utilizas paréntesis para definir el diccionario y corchetes 
 
 ## Los pares palabra-frecuencia
 
-Sobre la base de lo que tenemos hasta ahora queremos una función que pueda convertir una lista de palabras en un diccionario de pares de palabra-frecuencia. El único comando nuevo que vamos a necesitar en `dict`, que hace un diccionario a partir de una lista de pares. Copia lo siguiente y añádelo en el módulo `obo-py`.
+Sobre la base de lo que tenemos hasta ahora queremos una función que pueda convertir una lista de palabras en un diccionario de pares de palabra-frecuencia. El único comando nuevo que vamos a necesitar es `dict`, que hace un diccionario a partir de una lista de pares. Copia lo siguiente y añádelo en el módulo `obo-py`.
 
 ``` python
 # Dada una lista de palabras, devuelve un diccionario de
@@ -328,7 +328,7 @@ Si todo va bien, tus datos de salida se verán como esto:
 
 ## Notas sobre las palabras en español
 
-Hasta ahora hemos trabajado con un documento en inglés: la transcripción del juicio contra Bejamin Bowsey. Una vez que domines estas técnicas, seguramente querrás emplearlas en tu invetigación y con documentos en español. Para ello, deberás hacer algunas modificaciones.
+Hasta ahora hemos trabajado con un documento en inglés: la transcripción del juicio contra Bejamin Bowsey. Una vez que domines estas técnicas, seguramente querrás emplearlas en tu investigación y con documentos en español. Para ello, deberás hacer algunas modificaciones.
 
 La primera es que, a diferencia del inglés, el idioma español contiene una serie de signos ortográficos (tildes) que modifican los caracteres. Los acentos (á, é, í, ó, ú), la diéresis (ü) y la virgulilla de la eñe (ñ). Para poder trabajar con estos signos es necesario indicarle al programa que se va a encontrar con ellos y que los debe considerar como caracteres. Para ello, basta con declarar que trabajaremos con una codificación de caracteres UTF-8. Por lo tanto, deberás incluir esta indicación en tus programas de la siguiente manera:
 
