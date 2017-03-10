@@ -30,7 +30,7 @@ The project team and members of the wider community are involved in a number of 
 
 ### Posters, Conference Papers, & Invited Talks
 
-* Victor Gayol, 'The Programming Historian: 'un modelo colaborativo para la investigaci&oacute;n y la ensen&ntilde;anza en ciencias sociales y humanidades digitales', _Mesa de Trabajo sobre Ciencias Sociales y Humanidades Digitales_, El Colegio De Michaoc&aacute;n, Mexico (21 February 2017).
+* Victor Gayol, 'The Programming Historian: 'un modelo colaborativo para la investigaci&oacute;n y la ensen&ntilde;anza en ciencias sociales y humanidades digitales', _Mesa de Trabajo sobre Ciencias Sociales y Humanidades Digitales_, El Colegio De Michoac&aacute;n, Mexico (21 February 2017).
 * Adam Crymble, 'Bringing Digital Humanities into the University for Free', University of Cape Town, South Africa (27-28 June 2016).
 * Fred Gibbs, 'The Programming Historian' (Poster), _American Historical Association_, New York (January 2015).
 * Adam Crymble, 'The Programming Historian 2', _Digital History Seminar_, Institute of Historical Research, London (13 October 2013).
