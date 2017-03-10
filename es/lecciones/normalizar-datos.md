@@ -27,7 +27,7 @@ La lista que creamos en [De HTML a lista de palabras (parte 2)][] necesita ciert
 - *html-a-lista-1.py*
 - *obo.py*
 
-Si no tienes estos archivos de la lección previa, puedes descargar un [zip][]
+Si no tienes estos archivos de la lección previa, puedes descargar un [zip][].
 
 ## Limpiar la lista
 
@@ -53,7 +53,7 @@ Regresa a tu programa *html-a-lista-1.py* y asegúrate de que tus resultados se 
 'rest,', 'who']
 ```
 
-Por sí misma, esta habilidad de separar el documento en palabras no nos ayuda mucho porque nosotros ya sabemos cómo leerlo. Sin embargo, podemos usar el texto para hacer cosas que normalmente no son posibles sin un programa especial. Vamos a comenzar por computar la frecuencia de los tokens y otras unidades lingüísticas, una medida clásica de un texto.
+Por sí misma, esta habilidad de separar el documento en palabras no nos ayuda mucho porque nosotros ya sabemos cómo leerlo. Sin embargo, podemos usar el texto para hacer cosas que normalmente no son posibles sin un programa especial. Vamos a comenzar por computar la frecuencia de los *tokens* y otras unidades lingüísticas, una medida clásica de un texto.
 
 Queda claro que nuestra lista va a necesitar cierta limpieza antes de que la podamos utilizar para contar frecuencias. Conservando la práctica establecida en [De HTML a lista de palabras (parte 1)][], tratemos de describir nuestro algoritmo primero en lenguaje llano. Queremos saber la frecuencia con la que aparece cada palabra con significado en la transcripción del juicio. De tal manera, los pasos a seguir deben verse de la siguiente manera:
 
@@ -84,11 +84,11 @@ Ahora debes ver la misma lista de palabras que antes pero con todos los caracter
 
 Al "llamar" métodos uno tras otro, como en este caso, podemos mantener nuestro código corto y hacer algunos cambios muy significativos en nuestro programa.
 
-Como hemos dicho antes, Python hace muy fácil hacer mucho con muy poco código.
+Como hemos dicho antes, Python facilita hacer mucho con muy poco código.
 
-En este punto podríamos mirar con atención otras entradas del "Old Bailey" en línea así como una amplia gama de otras fuentes potenciales para asegurarnos de que no hay otros caracteres especiales que podrían causar problemas más adelante. También podríamos tratar de anticipar situaciones en las que no queremos deshacernos de cierta puntuación (por ejemplo, los distintivos de cantidades monetarios como "$1629" o “£1295”, de fechas, o el reconocer que "1629-40" tiene un significado distinto que "1629 40"). Esto es lo que a lo programadores profesionales se les paga por hacer: trata de pensar en todo lo que podría ir mal y tratalo de antemano.
+En este punto podríamos mirar con atención otras entradas del *Old Bailey* en línea así como una amplia gama de otras fuentes potenciales para asegurarnos de que no hay otros caracteres especiales que podrían causar problemas más adelante. También podríamos tratar de anticipar situaciones en las que no queremos deshacernos de cierta puntuación (por ejemplo, los distintivos de cantidades monetarios como "$1629" o “£1295”, de fechas, o el reconocer que "1629-40" tiene un significado distinto que "1629 40"). Esto es lo que a lo programadores profesionales se les paga por hacer: trata de pensar en todo lo que podría ir mal y trátalo de antemano.
 
-Veámoslo desde otra perspectiva. Nuestro objetivo principal es desarrollar técnicas que un historiador puede utilizar durante el proceso de investigación. Esto significa que casi siempre preferimos soluciones aproximadamente correctas que puedan desarrollarse rápidamente. Así que, en lugar de invertir tiempo en hacer nuestro programa sólido de cara a excepciones, simplemente queremos deshacernos de todo aquello que no sea un carácter con o sin acentos o un número arábigo. La programación generalmente es un proceso de "reefinamiento paso a paso". Empiezas con un problema y partes de una solución, y luego sigues refinando tu solución hasta que tienes algo que funciona mejor.
+Veámoslo desde otra perspectiva. Nuestro objetivo principal es desarrollar técnicas que un historiador puede utilizar durante el proceso de investigación. Esto significa que casi siempre preferimos soluciones aproximadamente correctas que puedan desarrollarse rápidamente. Así que, en lugar de invertir tiempo en hacer nuestro programa sólido de cara a excepciones, simplemente queremos deshacernos de todo aquello que no sea un carácter con o sin acentos o un número arábigo. La programación generalmente es un proceso de "refinamiento paso a paso". Empiezas con un problema y partes de una solución, y luego sigues refinando tu solución hasta que tienes algo que funciona mejor.
 
 ## Expresiones regulares en Python
 
@@ -105,7 +105,7 @@ texto = texto.replace(',', '')
 
 Pero esto no es verdaderamente eficiente. Ateniéndonos a nuestro objetivo de crear programas breves y poderosos, vamos a utilizar un mecanismo llamado "expresiones regulares". Las expresiones regulares son provistas por varios lenguajes de programación en un abanico de formas distintas.
 
-Las expresiones regulares te permiten buscar patrones bien definidos y pueden acortar drásticamente la longitud de tu código. Por ejemplo, si deseas saber si una subcadena coincidió con una letra del alfabeto, en lugar de utilizar la sentencia if / else para comprobar la coincidencia con la letra "a", luego la "b" y luego la "c", y así sucesivamente, se podría utilizar una expresión regular para ver si cualquier letra entre la "a" y la "z" coincide con la subcadena. O bien, puedes comprobar la presencia de un dígito o una letra mayúscula, o de cualquier carácter alfanumérico, un retorno de carro o cualquier combinación de los anteriores y mucho más.
+Las expresiones regulares te permiten buscar patrones bien definidos y pueden acortar drásticamente la longitud de tu código. Por ejemplo, si deseas saber si una subcadena coincidió con una letra del alfabeto, en lugar de utilizar la sentencia *if / else* para comprobar la coincidencia con la letra "a", luego la "b" y luego la "c", y así sucesivamente, se podría utilizar una expresión regular para ver si cualquier letra entre la "a" y la "z" coincide con la subcadena. O bien, puedes comprobar la presencia de un dígito o una letra mayúscula, o de cualquier carácter alfanumérico, un retorno de carro o cualquier combinación de los anteriores y mucho más.
 
 En Python, las expresiones regulares están disponibles como un módulo de Python. Para acelerar el procesamiento, éste no se carga automáticamente porque no todos los programas lo requieren. Por lo tanto, tendrás que importar (`import`) el módulo (llamado *re*) de la misma manera en la que has importado tu propio módulo *obo.py*.
 
@@ -138,7 +138,7 @@ listaPalabras = obo.quitaNoAlfaNum(texto)
 print(listaPalabras)
 ```
 
-Cuando ejecutes el programa y veas a través de su salida en el panel de "comando de salida", verás que ha hecho un maravilloso trabajo. Este código separará expresiones con guiones como "coach-wells" en dos palabras y convertirá la partícula posesiva "s" o "o'clock" en palabras separadas perdiéndo el apóstrofe. Pero es una aproximación lo suficientemente buena a lo que queremos, asi que podemos proceder a contar frecuencias antes de intentar mejorarlo. (Si trabajas con fuentes documentales en más de una lengua, necesitaras aprender más acerca del estándar [Unicode][] y acerca del [soporte de Python][] para el mismo).
+Cuando ejecutes el programa y veas a través de su salida en el panel de "comando de salida", verás que ha hecho un maravilloso trabajo. Este código separará expresiones con guiones como "coach-wells" en dos palabras y convertirá la partícula posesiva "s" o "o'clock" en palabras separadas perdiéndo el apóstrofe. Pero es una aproximación lo suficientemente buena a lo que queremos, así que podemos proceder a contar frecuencias antes de intentar mejorarlo. (Si trabajas con fuentes documentales en más de una lengua, necesitaras aprender más acerca del estándar [Unicode][] y acerca del [soporte de Python][] para el mismo).
 
 ## Lecturas sugeridas
 
