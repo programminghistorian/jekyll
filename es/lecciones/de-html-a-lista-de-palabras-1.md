@@ -11,6 +11,8 @@ translator:
 - Víctor Gayol
 translation-reviewer:
 - Jairo A. Melo
+- Maria José Afanador-Llach
+- Antonio Rojas Castro
 layout: default
 next: de-html-a-lista-de-palabras-2
 previous: manipular-cadenas-de-caracteres-en-python
