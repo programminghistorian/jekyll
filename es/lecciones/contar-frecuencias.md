@@ -11,6 +11,8 @@ translator:
 - Víctor Gayol
 translation-reviewer:
 - Jairo A. Melo
+- Maria José Afanador-Llach
+- Antonio Rojas Castro
 layout: default
 next: crear-y-ver-archivos-html-con-python
 previous: normalizar-datos
