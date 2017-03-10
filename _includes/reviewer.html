@@ -1,13 +1,14 @@
 
-{% assign reviewerCount = page.reviewers | size %}
+{% assign allReviewers = page.reviewers | concat: page.editors %}
+{% assign reviewerCount = allReviewers | size %}
 {% capture reviewerString %}
 {% if reviewerCount == 0 %}
       <!-- No reviewers -->
       <br/><br/>
 {% elsif reviewerCount == 1 %}
-      {{ page.reviewers | first }}
+      {{ allReviewers | first }}
 {% else %}
-      {% for reviewer in page.reviewers %}
+      {% for reviewer in allReviewers %}
            {% if forloop.first %}
                  {{ reviewer }}
            {% elsif forloop.last %}
