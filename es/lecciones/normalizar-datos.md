@@ -12,6 +12,8 @@ translator:
 - Víctor Gayol
 translation-reviewer:
 - Jairo A. Melo
+- Maria José Afanador-Llach
+- Antonio Rojas Castro
 layout: default
 next: contar-frecuencias
 previous: de-html-a-lista-de-palabras-2
