@@ -33,7 +33,7 @@ Si no tienes estos archivos de las lecciones anteriores, puedes descargar python
 
 En este punto hemos comenzado a aprender cómo utilizar Python para descargar fuentes documentales en línea y extraer información de ellas automáticamente. Recuerda que nuestro objetivo final es incorporar fácilmente la programación a nuestra práctica de investigación. Acorde con este objetivo, en esta lección y la siguiente vamos a aprender cómo recuperar nuestros datos como HTML. Esto tiene algunas ventajas. Primero, al almacenar nuestra información en nuestro disco duro como HTML podemos abrirla con Firefox y utilizar [Zotero][] para indexarla y anotarla después. Segundo, hay una amplia gama de visualizaciones para HTML que podemos aprovechar más adelante.
 
-Si no has hecho todavía el [tutorial de HTML de W3 Schools][], toma unos minutos para hacerlo antes de continuar. Buscamos crear un documento HTML con Python así que necesitas saber qué es un documento HTML.
+Si no has hecho todavía el [tutorial de HTML de W3 Schools][], invierte tiempo en ello antes de continuar. Buscamos crear un documento HTML con Python así que necesitas saber qué es un documento HTML.
 
 ## 'Hola Mundo' en HTML usando Python
 
@@ -59,7 +59,7 @@ Guarda el programa anterior como `escribe-html.py` y ejecútalo. Utiliza *File -
 
 {% include figure.html filename="hello-world-html.png" caption="Fuente HTML generada con Python" %}
 
-Ahora ve a tu navegador Firefox y elige *Archivo-> Nueva pestaña*; ve a la pestaña y elige *Archivo-> Abrir archivo* Selecciona `holamundo.html`. Ahora debería ser posible que veas el mensaje en el navegador. Detente un momento para pensar en esto: ahora tienes la habilidad de escribir un programa que crea automáticamente una página Web. No hay ninguna razón por la que no podrías escribir un programa para crear automáticamente un sitio Web completo si lo quisieras.
+Ahora ve a tu navegador Firefox y elige *Archivo-> Nueva pestaña*; ve a la pestaña y elige *Archivo-> Abrir archivo* Selecciona `holamundo.html`. Ahora deberías ver el mensaje en el navegador. Detente un momento para pensar en esto: ahora tienes la habilidad de escribir un programa que crea automáticamente una página Web. No hay ninguna razón por la que no podrías escribir un programa para crear automáticamente un sitio Web completo si lo quisieras.
 
 ## Utilizar Python para controlar Firefox
 
