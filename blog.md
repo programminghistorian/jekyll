@@ -11,7 +11,7 @@ The blog is our space to share news about the project, ideas for how you might u
 
 {% for post in site.posts %}
 
-<h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 <p class="kicker">{% assign authorCount = post.authors | size %}
 				{% if authorCount == 1 %}
 				      {{ post.authors | first }}
@@ -30,7 +30,7 @@ The blog is our space to share news about the project, ideas for how you might u
 <p class="kicker">{{post.date | date: "%B %-d, %Y"}}</p>
 <br/>
 
-{{ post.excerpt | remove: '</p>' }} <a href="{{ site.url }}{{ post.url }}">Read the full post! &raquo;</a></p>
+{{ post.excerpt | remove: '</p>' }} <a href="{{ post.url }}">Read the full post! &raquo;</a></p>
 
 <hr/>
 
