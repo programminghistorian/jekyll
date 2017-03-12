@@ -81,6 +81,25 @@ Fred Gibbs es profesor de Historia en la Universidad de Nuevo México. Investiga
 </div>
 
 <div class="contact-box">
+<img class="avatar" src="http://programminghistorian.org/avatars/Matthew-Lincoln.png" />
+Matthew Lincoln es especialista en la investigación de datos en el Getty Research Institute e historiador del arte de la Europa moderna. 
+ 
+<br />
+
+	<a href="http://matthewlincoln.net"><i class="fa fa-home fa-lg"></i></a>
+	
+		<a href="mailto:mlincoln@getty.edu"><i class="fa fa-envelope-square fa-lg"></i></a>
+	
+	
+		<a href="http://twitter.com/matthewdlincoln"><i class="fa fa-twitter-square fa-lg"></i></a>
+	
+	
+		<a href="http://github.com/mdlincoln"><i class="fa fa-github-square fa-lg"></i></a>
+	
+<br /><br /><br />
+</div>
+
+<div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Caleb-McDaniel.png" />
 Caleb McDaniel es profesor asociado de Historia en Rice University.
  
