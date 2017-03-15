@@ -22,7 +22,7 @@ redirect_from: /es/lessons/working-with-text-files
 
 En esta lección aprenderás a manipular archivos de texto utilizando Python. Esto incluye abrir, cerrar, leer desde y escribir en archivos `.txt` 
 
-Las siguiente lecciones incluirán descargar páginas web desde Internet y reorganizar los contenidos en fragmentos de información útiles para el análisis. La mayor parte de todo este trabajo se hará usando código escrito en Python mediante Komodo Edit.
+Las siguientes lecciones incluirán descargar páginas web desde Internet y reorganizar los contenidos en fragmentos de información útiles para el análisis. La mayor parte de todo este trabajo se hará usando código escrito en Python mediante Komodo Edit.
 
 ## Trabajar con archivos de texto
 
@@ -70,7 +70,7 @@ mensaje3 = "Su nombre es John O'Connor"
 ```
 `print` es un comando que imprime objetos en forma textual. Al combinar el comando `print` con una cadena de texto producimos una *declaración*.
 
-Utilizarás el comando `print` de esta forma en los casos en los que se quiera generar información que necesite ser manipulada inmediatamente. Algunas veces, sin embargo, crearás información que necesita ser guardada, enviarla a otra persona, o utilizar como data de entrada (*input*) para un procesamiento posterior por otro programa o conjunto de programas. En estos casos querremos enviar información a archivos en el disco duro en vez de enviarla al panel de comando de salida. Escribe el siguiente programa en tu editor de texto y sálvalo como `archivo-salida.py`
+Utilizarás el comando `print` de esta forma en los casos en los que se quiera generar información que necesite ser manipulada inmediatamente. Algunas veces, sin embargo, crearás información que necesita ser guardada, enviarla a otra persona, o utilizar como datos de entrada (*input*) para un procesamiento posterior por otro programa o conjunto de programas. En estos casos querremos enviar información a archivos en el disco duro en vez de enviarla al panel de comando de salida. Escribe el siguiente programa en tu editor de texto y guárdalo como `archivo-salida.py`
 
 ```python 
 #archivo-salida.py
@@ -83,13 +83,13 @@ En Python, cualquier línea que inicia con un símbolo de almohadilla o numeral 
 
 En este programa *f* es un *objeto* mientras que `open`, `write` y `close` son *métodos*. En otras palabras, *open*, *write* y *close* actúan sobre el objeto *f* que, en este caso, está definido como un archivo de texto `.txt`. Problamente, éste es un uso del término “método” que podrías esperar y de vez en cuando encontrarás que las palabras utilizadas en el contexto de la programación tienen un significado ligeramente (o completamente) distinto al del habla de la vida cotidiana. En este caso, conviene recordar que “método” significa fragmentos de código que realizan acciones. Ejecutan algo sobre una cosa y regresan un resultado. Puedes intentar imaginar esto utilizando algún referente del mundo real como, por ejemplo, dar órdenes a tu perro que ha sido educado previamente. Tu mascota (el objeto) entiende órdenes (i.e. tiene “métodos”) como "ladra", “sentado”, “echado” y así. Discutiremos y aprenderemos cómo usar muchos otros métodos en tanto vayamos avanzando.
 
-*f* es el nombre de una variable que hemos escogido nosotros. Podríamos haberlo llamado de cualquier manera que se nos hubiera ocurrido. En Python, los nombres de las variables pueden construirse con letras mayúsculas, minúsculas o números. Pero no podemos utilizar los nombres de los comandos del lenguaje como variables. Por ejemplo, si intentamos nombrar a una variable “print”, el programa no responderá porque ese es una [palabra reservada] que es parte del lenguaje de programación.
+*f* es el nombre de una variable que hemos escogido nosotros. Podríamos haberlo llamado de cualquier manera que se nos hubiera ocurrido. En Python, los nombres de las variables pueden construirse con letras mayúsculas, minúsculas o números. Pero no podemos utilizar los nombres de los comandos del lenguaje como variables. Por ejemplo, si intentamos nombrar a una variable “print”, el programa no responderá porque esa es una [palabra reservada] que es parte del lenguaje de programación.
 
 Los nombres de las variables en Python son también sensibles al uso de mayúsculas y minúsculas, lo que significa que trapa, Trapa o TRAPA serían representaciones de distintas variables.
 
 Cuando ejecutas el programa que escribimos, el método `open` le dice a tu computadora que produzca un nuevo archivo de texto llamado `holamundo.txt` en la misma carpeta en la que creamos el programa `archivo-salida.py`. El *parámetro w* indica que pretendemos escribir contenido en este nuevo archivo utilizando Python.
 
-Ten en cuenta que tanto el nombre del archivo como el parámetro están encerrados entre comillas sencillas con lo cual sabes que serán datos almacenados como cadenas. Si se olvida incluir las comillas el programa fallará.
+Ten en cuenta que tanto el nombre del archivo como el parámetro están encerrados entre comillas sencillas con lo cual sabes que serán datos almacenados como cadenas. Si te olvidas de incluir las comillas el programa fallará.
 
 En la línea siguiente tu programa escribe el mensaje "hola mundo" (que es otra cadena) en el archivo y luego lo cierra. (Para mayor información sobre estas declaraciones es importante ver la sección de [file objects] en las Referencias de la Biblioteca de Python).
 
@@ -115,7 +115,7 @@ Dado que los archivos de texto plano incluyen la información mínima, tienden a
 
 ### Leer desde un archivo de texto
 
-Python también tiene métodos que nos permiten obtener información de los archivos. Escribe el siguiente programa en el editor de texto y guárdalo como `archivo-entrada.py`. Cuando hagas clic en "Ejecutar Python", el programa abrirá el archivo de texto que acabas de crear, leerá  el texto de una línea que contiene e imprimirá la información en el panel de "comando de salida".
+Python también tiene métodos que nos permiten obtener información de los archivos. Escribe el siguiente programa en el editor de texto y guárdalo como `archivo-entrada.py`. Cuando hagas clic en "Ejecutar Python", el programa abrirá el archivo de texto que acabas de crear, leerá el texto de una línea que contiene e imprimirá la información en el panel de "comando de salida".
 
 ``` python
 # archivo-entrada.py
@@ -125,7 +125,7 @@ print(mensaje)
 f.close()
 ``` 
 
-En este caso, el parámetro *r* se utiliza para indicar que estás abriendo un archivo para leer (`read`) la información que contiene. Los parámetros te permiten escoger entre una serie de diferentes opciones  que permita un método en particular. Regresando al ejemplo de la mascota, el perro puede ser adiestrado para ladrar una vez si recibe un premio con sabor a res, y dos si recibe un premio con sabor a pollo. El sabor de la galleta de premio es el parámetro. Cada método es diferente en términos de qué parámetros aceptará. Por ejemplo, no puedes pedirle al perro que cante una ópera italiana -al menos que tu perro sea particularmente talentoso.  Puedes encontrar la posibilidad de parámetros para cada método en particular en el sitio web de Python, o incluso puedes descubrirlos tú mismo en cualquier buscador tecleando el método específico acompañado por la palabra "Python".
+En este caso, el parámetro *r* se utiliza para indicar que estás abriendo un archivo para leer (`read`) la información que contiene. Los parámetros te permiten escoger entre una serie de diferentes opciones que permita un método en particular. Regresando al ejemplo de la mascota, el perro puede ser adiestrado para ladrar una vez si recibe un premio con sabor a res, y dos si recibe un premio con sabor a pollo. El sabor de la galleta de premio es el parámetro. Cada método es diferente en términos de qué parámetros aceptará. Por ejemplo, no puedes pedirle al perro que cante una ópera italiana -al menos que tu perro sea particularmente talentoso.  Puedes encontrar la posibilidad de parámetros para cada método en particular en el sitio web de Python, o incluso puedes descubrirlos tú mismo en cualquier buscador tecleando el método específico acompañado por la palabra "Python".
 
 `Read` es otro método de archivo. El contenido del archivo (el mensaje de una sola línea) es copiado a *message*, que es como decidimos llamar a esa cadena de texto, y el comando `print` se utiliza para enviar el contenido recogido en *message* al panel de comando de salida.
 
