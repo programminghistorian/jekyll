@@ -19,11 +19,11 @@ redirect_from: /es/lessons/manipulating-strings-in-python
 
 ## Objetivos de la lección
 
-Esta lección es una rápida introducción a técnicas de manipulación de [cadenas de caracteres] (o *strings*) en Python. Saber cómo manipular cadenas de caracteres juega un papel fundamental en la mayoría las tareas de procesamiento de texto. Si quieres experimentar con las siguientes lecciones puedes escribir y ejecutar pequeños programas tal como lo hicimos en lecciones previas, o puedes abrir tu intérprete de comandos de Python / Terminal para probarlos ahí.
+Esta lección es una rápida introducción a técnicas de manipulación de [cadenas de caracteres] (o *strings*) en Python. Saber cómo manipular cadenas de caracteres juega un papel fundamental en la mayoría de las tareas de procesamiento de texto. Si quieres experimentar con las siguientes lecciones puedes escribir y ejecutar pequeños programas tal como lo hicimos en lecciones previas, o puedes abrir tu intérprete de comandos de Python / Terminal para probarlos ahí.
 
 ## Manipular cadenas de caracteres en Python
 
-Si has estado expuesto antes a otro lenguaje de programación, sabrás que necesitas *declarar* o *escribir* variables antes de que puedas almacenar cualquier cosa en ella. Esto no es necesario cuando trabajas con cadenas de caracteres en Python. Podemos crear una cadena de caracteres simplemente encerrando contenido entre comillas después de un signo de igual (=).
+Si has estado expuesto antes a otro lenguaje de programación, sabrás que necesitas *declarar* o *escribir* variables antes de que puedas almacenar cualquier cosa en ellas. Esto no es necesario cuando trabajas con cadenas de caracteres en Python. Podemos crear una cadena de caracteres simplemente encerrando contenido entre comillas después de un signo de igual (=).
 
 ``` python
 mensaje = “Hola Mundo”
@@ -31,7 +31,7 @@ mensaje = “Hola Mundo”
 
 ## Operadores de cadenas de caracteres: adición y multiplicación
 
-Una cadena de caracteres en un objeto que consiste precisamente en una serie de signos o caracteres. Python sabe como tratar un número de representaciones poderosas y de propósito general, incluidas las cadenas de caracteres. Una forma de manipular cadenas de caracteres es utilizar *operadores de cadenas de caracteres*. Dichos operadores se representan con símbolos que asociamos a las matemáticas, como +, -, \*, / y =. Estos signos realizan acciones similares a sus contrapartes matemáticas cuando se usan con las cadenas de carateres, aunque no iguales.
+Una cadena de caracteres en un objeto que consiste precisamente en una serie de signos o caracteres. Python sabe cómo tratar un número de representaciones poderosas y de propósito general, incluidas las cadenas de caracteres. Una forma de manipular cadenas de caracteres es utilizar *operadores de cadenas de caracteres*. Dichos operadores se representan con símbolos que asociamos a las matemáticas, como +, -, \*, / y =. Estos signos realizan acciones similares a sus contrapartes matemáticas cuando se usan con las cadenas de carateres, aunque no iguales.
 
 ### Concatenar
 
@@ -149,7 +149,7 @@ print(mensaje9b)
 -> la Mun
 ```
 
-Esto hace mucho más simple usar este método en conjunción con el método `find` como en el próximo ejemplo, que busca la letra "d" en los seis primeros caracteres de "Hola Mundo" y correctamente nos dice que no se encuentra ahí (-1). Esta técnica es mucho más eficaz en cadenas largas -documentos enteros, por ejemplo. Observa que la ausencia de un número entero antes de los dos puntos significa que queremos empezar desde el principio de la cadena. Podemos usar la misma técnica para decirle al programa que pase hasta el final de la cadena de caracteres no poniendo ningún número entero después de los dos puntos. Y recuerda que la posición del índice empieza a contar desde 0, no desde 1.
+Esto hace mucho más simple usar este método en conjunción con el método `find` como en el próximo ejemplo, que busca la letra "d" en los seis primeros caracteres de "Hola Mundo" y correctamente nos dice que no se encuentra ahí (-1). Esta técnica es mucho más eficaz en cadenas largas -documentos enteros, por ejemplo. Observa que la ausencia de un número entero antes de los dos puntos significa que queremos empezar desde el principio de la cadena. Podemos usar la misma técnica para decirle al programa que pase hasta el final de la cadena de caracteres dejando vacío después de los dos puntos. Y recuerda que la posición del índice empieza a contar desde 0, no desde 1.
 
 ``` python
 mensaje9 = "Hola Mundo"
@@ -157,7 +157,7 @@ print(mensaje9[:5].find("d"))
 -> -1
 ``` 
 
-Hay muchos más, pero los métodos para cadenas de caracteres anteriores son un buen comienzo. Fïjate que en el ejemplo anterior utilizamos corchetes en vez de paréntesis. Esta diferencia en los símbolos de la *sintaxis* es muy importante. Los paréntesis en Python son utilizados generalmente para *llevar un argumento* a una función. De tal manera que cuando vemos algo como:
+Hay muchos más, pero los métodos para cadenas de caracteres anteriores son un buen comienzo. Fíjate que en el ejemplo anterior utilizamos corchetes en vez de paréntesis. Esta diferencia en los símbolos de la *sintaxis* es muy importante. Los paréntesis en Python son utilizados generalmente para *llevar un argumento* a una función. De tal manera que cuando vemos algo como:
 
 ``` python
 print(len(mensaje7))
