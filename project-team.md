@@ -73,11 +73,11 @@ V√≠ctor Gayol is a researcher and professor of history at El Colegio de Michoac√
 *Programming Historian* also benefits enormously from the efforts of
 people who volunteer their time and energy. If you are interested in
 pitching in, either for a single project or in an ongoing role, please
-find out [how to contribute](../contribute)!
+find out [how to contribute](/contribute)!
 
 We are especially grateful to the dedicated Programming Historian authors who are not members of the Project Team: 
 
-{% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](../new-lesson-workflow).
+{% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](/contribute).
 
 We also thank everyone who has helped to review lessons by reporting issues,
 fixing errors, or conducting formal peer reviews. At the time of writing, this
@@ -85,7 +85,7 @@ has included the following people:
 
 {% for reviewer in site.data.reviewers %}
 {{reviewer}},{% endfor %} and, hopefully, you! Find out more about [how to
-contribute](../contribute).
+contribute](/contribute).
 
 Finally, we'd like to thank those who have been involved in organising, running, leading, or supporting workshops involving the project and Project Team:
 
