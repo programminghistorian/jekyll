@@ -231,9 +231,9 @@ A continuación, crea una copia de la imagen, córtala en un cuadrado sin elimin
 
 Sube la imagen original al directorio [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery).
 
-Por último, añade la imagen a la lección editando la página HTML en [lecciones/index.md](https://github.com/arojascastro/jekyll/blob/gh-pages/es/index.md); el enlace de la lección debe coincidir con el lugar en que se encuentra la imagen. Por ejemplo: 
+Por último, añade la imagen a la lección editando la página HTML en [lecciones/index.md](https://github.com/programminghistorian/jekyll/blob/gh-pages/es/lecciones/index.md); el enlace de la lección debe coincidir con el lugar en que se encuentra la imagen. Por ejemplo: 
 
-`<img src="../gallery/cleaning-data-with-openrefine.png">`
+`<img src="/gallery/cleaning-data-with-openrefine.png">`
 
 ¡La nueva imagen debería aparecer en la [página de inicio](http://programminghistorian.org/es/)!
 
