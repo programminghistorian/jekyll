@@ -100,7 +100,7 @@ One of the trickiest aspects of using GitHub is the new terminology. Some of the
 
 ### Register for a GitHub Account
 
-Since we are going to be using GitHub we will need to register for an account at [GitHub](GitHub.com) if we don't already have one. For [students](https://education.github.com/pack) and [researchers](https://github.com/blog/1840-improving-github-for-science) GitHub offers free private repositories. These are not necessary but might be appealing if you want to keep some work private. 
+Since we are going to be using GitHub we will need to register for an account at [GitHub](https://github.com) if we don't already have one. For [students](https://education.github.com/pack) and [researchers](https://github.com/blog/1840-improving-github-for-science) GitHub offers free private repositories. These are not necessary but might be appealing if you want to keep some work private. 
 
 ### Install GitHub Desktop
 
