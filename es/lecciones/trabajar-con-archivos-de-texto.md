@@ -11,6 +11,8 @@ translator:
 - Víctor Gayol
 translation-reviewer:
 - Jairo A. Melo
+- Maria José Afanador-Llach
+- Antonio Rojas Castro
 layout: default
 next: reutilizacion-de-codigo-y-modularidad
 previous: ver-archivos-html
