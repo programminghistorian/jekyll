@@ -1163,7 +1163,7 @@ Hadley Wickham (2011). "The split-apply-combine strategy for data analysis". *Jo
 
 # Appendix: Downloading custom files via rsync
 
-The full HTRC Extracted Features dataset is accessible using *rsync*, a Unix command line program for syncing files. It is already preinstalled on Linux or Mac OS. Windows users need to use *rsync* by downloading a program such as [https://cygwin.com/](Cygwin), which provides a Unix-like command line environment in Windows.
+The full HTRC Extracted Features dataset is accessible using *rsync*, a Unix command line program for syncing files. It is already preinstalled on Linux or Mac OS. Windows users need to use *rsync* by downloading a program such as [Cygwin](https://cygwin.com/), which provides a Unix-like command line environment in Windows.
 
 To download all *4 TB* comprising the EF dataset, you can use this command (be aware the full transfer will take a very long time):
 
