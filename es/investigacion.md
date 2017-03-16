@@ -51,4 +51,4 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 ['pre-print pdf']: http://programminghistorian.org/researchpapers/openLearningCommunities2016.pdf
 [Editorial Sustainability and Open Peer Review at Programming Historian]: http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian
 ['Digital Project Consultations']: https://dhatasa2015.wordpress.com/
-[Library Carpentry: software skills training for library professionals]: (https://www.liberquarterly.eu/articles/10176/)
+[Library Carpentry: software skills training for library professionals]: https://www.liberquarterly.eu/articles/10176/

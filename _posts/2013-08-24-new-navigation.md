@@ -39,13 +39,13 @@ order:
 Look for more updates soon as we continue to add lessons and work on our
 organizational setup.
 
-  [Your First Lesson]: ../lessons/your-first-lesson-2
-  [Getting Started with Online Sources]: ../lessons/viewing-html-files
-  [Working with Files and Web Pages]: ../lessons/working-with-files-and-webpages
-  [From HTML to a List of Words ]: ../lessons/from-html-to-list-of-words
-  [Computing Frequencies]: ../lessons/computing-frequencies-2
-  [Wrapping Output in HTML]: ../lessons/output-data-as-html-file
-  [Keywords in Context (KWIC)]: ../lessons/keywords-in-context-using-n-grams
-  [Downloading Multiple Records Using Query Strings ]: ../lessons/downloading-multiple-records-using-query-strings
-  [Automated Downloading with Wget]: ../lessons/automated-downloading-with-wget
-  [Getting Started with Topic Modeling and MALLET]: ../lessons/topic-modeling-and-mallet
+  [Your First Lesson]: /lessons/your-first-lesson-2
+  [Getting Started with Online Sources]: /lessons/viewing-html-files
+  [Working with Files and Web Pages]: /lessons/working-with-files-and-webpages
+  [From HTML to a List of Words ]: /lessons/from-html-to-list-of-words
+  [Computing Frequencies]: /lessons/computing-frequencies-2
+  [Wrapping Output in HTML]: /lessons/output-data-as-html-file
+  [Keywords in Context (KWIC)]: /lessons/keywords-in-context-using-n-grams
+  [Downloading Multiple Records Using Query Strings ]: /lessons/downloading-multiple-records-using-query-strings
+  [Automated Downloading with Wget]: /lessons/automated-downloading-with-wget
+  [Getting Started with Topic Modeling and MALLET]: /lessons/topic-modeling-and-mallet
