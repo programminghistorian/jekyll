@@ -13,7 +13,7 @@ script: |
   --assume-extension \
   --empty-alt-ignore \
   --alt-ignore '/.*/' \
-  --file-ignore ./_site/assets/obo-t17800628-33.html \
+  --file-ignore ./_site/assets/* ./._site/lessons/deprecated/* \
   --timeframe '30d'
 
 env:
