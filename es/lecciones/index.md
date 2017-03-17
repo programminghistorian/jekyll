@@ -14,7 +14,7 @@ Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerz
 
 <ul class="lesson-images">
   <li>
-    <a href="{{site.url}}/es/lessons/preservar-datos-de-investigacion">
+    <a href="{{site.url}}/es/lecciones/preservar-datos-de-investigacion">
       <img src="{{site.url}}/gallery/preserving-your-research-data.png">
       <h3>Preservar tus datos de investigación</h3>
       <p>James Baker</p>
