@@ -173,7 +173,7 @@ Amanda Visconti es Directora general del centro de Humanidades Digitales Scholar
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Jeri-Wieringa.png" />
-Jeri Wieringa trabaja como jefa del departamento de producción digital en George Mason University Libraries; asimismo, es doctoranda en Historia en la misma universidad. Está interesa en trabajar con autore sobre los siguientes temas: accesibilidad y diseño de interfaces, visualización de datos, análisis de redes, minería de datos, flujos de trabajo y, en general, lecciones introductorias. 
+Jeri Wieringa trabaja como jefa del departamento de producción digital en George Mason University Libraries; asimismo, es doctoranda en Historia en la misma universidad. Está interesada en trabajar con autores sobre los siguientes temas: accesibilidad y diseño de interfaces, visualización de datos, análisis de redes, minería de datos, flujos de trabajo y, en general, lecciones introductorias. 
  
 <br />
 
