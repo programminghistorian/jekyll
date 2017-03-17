@@ -518,7 +518,7 @@ The visual design of a website is often referred to as its *theme* (more properl
 
 You have several options for changing the visual design of your site: you can customize the current "minima" theme, create your own theme, or add one of the many excellent free Jekyll themes, including:
 
-- [Alex Gil, Susanna Allés Torrent, Terry Catapano, and Johann Gillium's "Ed" theme for minimal digital editions](https://elotroalex.github.io/ed/) and [its documentation](https://elotroalex.github.io/ed/documentation.html) (free)
+- [Alex Gil, Susanna Allés Torrent, Terry Catapano, and Johann Gillium's "Ed" theme for minimal digital editions](https://elotroalex.github.io/ed/) and [its documentation](https://elotroalex.github.io/ed/documentation/) (free)
 - [Rebecca Sutton Koeser's "Digital Edition" theme](https://github.com/emory-libraries-ecds/digitaledition-jekylltheme) (free)
 - The [Jekyll Themes](http://jekyllthemes.org/) directory (free)
 - [JekyllThemes.io](http://jekyllthemes.io/) (free and paid)
@@ -574,7 +574,7 @@ Check out the following links for documentation, inspiration, and further readin
 * [Official Jekyll Documentation](http://jekyllrb.com/docs/home/)
 * Jekyll "unofficially" links to two Windows + Jekyll resources: [http://jekyll-windows.juthilo.com/](http://jekyll-windows.juthilo.com/) and [https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
 * [https://help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages/)
-* Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](http://literaturegeek.com/2015-12-08-WhyJekyllGitHub/)
+* Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](http://literaturegeek.com/2015/12/08/WhyJekyllGitHub)
 * Alex Gil, ["How (and Why) to Generate a Static Website Using Jekyll, Part 1"](http://chronicle.com/blogs/profhacker/jekyll1/60913)
 * Eduardo Bouças, ["An Introduction to Static Site Generators"](https://davidwalsh.name/introduction-static-site-generators)
 * [Jekyll Style Guide](http://ben.balter.com/jekyll-style-guide/)
