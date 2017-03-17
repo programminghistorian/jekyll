@@ -14,7 +14,8 @@ script: |
   --empty-alt-ignore \
   --alt-ignore '/.*/' \
   --file-ignore '/.+/assets/.*/','/.+/lessons/deprecated/.*/' \
-  --timeframe '30d'
+  --timeframe '30d' \
+  --only-4xx
 
 env:
   global:
