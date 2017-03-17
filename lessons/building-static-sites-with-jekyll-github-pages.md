@@ -362,7 +362,7 @@ You'll notice that generating and running your site in the previous section adde
    - **twitter_username**: Your Twitter username (do not include @ symbol).
    - **github_username**: Your GitHub username.
 
-   The changes you made to the *baseurl* and *url* lines will let your site run from the same files both locally on your computer and live on the Web, but **doing this changed the URL where you'll see your local site from now on** (while [Jekyll is running](#section3-1)) from localhost:4000 to **localhost:4000/JekyllDemo/** (substitute your website folder name for *JekyllDemo* and remembering the last slash mark).
+   The changes you made to the *baseurl* and *url* lines will let your site run from the same files both locally on your computer and live on the Web, but **doing this changed the URL where you'll see your local site from now on** (while [Jekyll is running](#section3a-1)) from localhost:4000 to **localhost:4000/JekyllDemo/** (substitute your website folder name for *JekyllDemo* and remembering the last slash mark).
 
    In the screenshot below, I have deleted the initial commented lines 1-9 and 12-15, as well as the commented text stating what "description" does (not necessary, just to show you can delete comments that you don't care about seeing!) and customized the rest of the file as instructed above:
 
