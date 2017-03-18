@@ -152,7 +152,7 @@ you'll probably prefer more general references like:
 -   [Python documentation page](http://docs.python.org/)
 -   [Python tutorial](https://docs.python.org/3/tutorial/index.html)
 -   [Python library reference](https://docs.python.org/3/library/index.html)
--   Pilgrim, [Dive into Python](http://diveintopython.org/)
+-   Pilgrim, [Dive into Python](http://www.diveintopython.net)
 
 We also like to have a few printed books ready-to-hand, especially
 
@@ -170,4 +170,3 @@ dive in. Let's get programming.
   [Stack Overflow]: http://stackoverflow.com/
   [Tutor]: http://mail.python.org/mailman/listinfo/tutor
   [FAQ page]: http://web.archive.org/web/20130101093828/http://stackoverflow.com/faq
-  [list of tutorials and other resources]: /resources
