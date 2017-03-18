@@ -18,7 +18,7 @@ a non-profit organization digitizing endangered colonial archives in Colombia an
 		<a href="mailto:mariajose@neogranadina.org"><i class="fa fa-envelope-square fa-lg"></i></a>
 	
 	
-		<a href="http://twitter.com/https://twitter.com/mariajoafana"><i class="fa fa-twitter-square fa-lg"></i></a>
+		<a href="https://twitter.com/mariajoafana"><i class="fa fa-twitter-square fa-lg"></i></a>
 <br /><br /><br />
 </div>
 
@@ -35,7 +35,7 @@ V√≠ctor Gayol is a researcher and professor of history at El Colegio de Michoac√
 		<a href="mailto:vgayol@colmich.edu.mx"><i class="fa fa-envelope-square fa-lg"></i></a>
 	
 	
-		<a href="http://twitter.com/https://twitter.com/victor_gayol"><i class="fa fa-twitter-square fa-lg"></i></a>
+		<a href="https://twitter.com/victor_gayol"><i class="fa fa-twitter-square fa-lg"></i></a>
 	
 	
 		<a href="http://github.com/vgayolrs"><i class="fa fa-github-square fa-lg"></i></a>
