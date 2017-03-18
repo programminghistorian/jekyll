@@ -10,7 +10,7 @@ reviewers:
 - Adam Crymble
 translator:
 - Víctor Gayol
-translator-reviewer:
+translation-reviewer:
 - Antonio Rojas Castro
 - Maria José Afanador-Llach
 layout: default
