@@ -11,6 +11,8 @@ translator:
 - Víctor Gayol
 translation-reviewer:
 - Jairo A. Melo
+- Maria José Afanador-Llach
+- Antonio Rojas Castro
 layout: default
 categories: [lessons, python, original-ph]
 next: manipular-cadenas-de-caracteres-en-python
