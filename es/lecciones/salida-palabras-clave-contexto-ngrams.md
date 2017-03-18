@@ -102,7 +102,7 @@ Prueba volver a ejecutar el programa `obten-palabraClave.py` y ahora podrás ver
                        swear to a black than to a
                                   ... 
 
-Esta técnica no es la mejor manera de formatear texto desde la perspectiva de un diseñador de páginas Web. Si tienes experiencia con HTML te animamos a que utilices otro método que permita crear un archivo HTML compatible con los estándares, pero para los nuevos estudiantes, simplemente no podemos resistirnos a la facilidad de la técnica que vamos a describir. Después de todo, el punto es integrar los principios de programación rápidamente en nuestra investigación.
+Esta técnica no es la mejor manera de formatear texto desde la perspectiva de un diseñador de páginas Web. Si tienes experiencia con HTML te animamos a que utilices otro método que permita crear un archivo HTML compatible con los estándares, pero para los nuevos estudiantes, simplemente no podemos resistirnos a la facilidad de la técnica que vamos a describir. Después de todo, el objetivo es integrar los principios de programación rápidamente en nuestra investigación.
 
 Para conseguir este efecto, vamos a tener que hacer un número de manipulaciones de listas y cadenas. Empecemos por averiguar cómo se ve nuestro diccionario de salida en su estado actual. Entonces podremos trabajar en perfeccionarlo para lo que queremos.
 
@@ -167,7 +167,7 @@ print('#' + str(kwic[indicePClave]).center(len(kwic[indicePClave])+6) + '#')
 -> #   black   #
 ```
 
-Por último, queremos que el contexto de la izquierda esté alineado a la derecha. Dependiendo de qué tan grande sea *n*, vamos a necesitar incrementar la longitud total de esta columna. Haremos esto mediante la definición de una variable llamada *with* (*ancho*) y luego hacer que la longitud de la columna sea un múltiplo de esa variable (se utilizó un ancho de 10 caracteres, pero se puede hacer más grande o más pequeña según se desee). El método `rjust` se encarga de alinear a la derecha. Una vez más, hemos añadido marcas de almohadilla para que puedas ver los espacios en blanco.
+Por último, queremos que el contexto de la izquierda esté alineado a la derecha. Dependiendo de qué tan grande sea *n*, vamos a necesitar incrementar la longitud total de esta columna. Haremos esto mediante la definición de una variable llamada *width* (*ancho*) y luego hacer que la longitud de la columna sea un múltiplo de esa variable (se utilizó un ancho de 10 caracteres, pero se puede hacer más grande o más pequeña según se desee). El método `rjust` se encarga de alinear a la derecha. Una vez más, hemos añadido marcas de almohadilla para que puedas ver los espacios en blanco.
 
 ``` python
 width = 10
@@ -229,7 +229,7 @@ obo.envuelveCadenaenHTML('html-a-kwic', url, outstr)
 
 La primera parte del programa es igual que en el caso anterior. En la segunda parte del programa hemos encerrado todo en una etiqueta HTML *pre* (pre-formateada), lo cual le indica al navegador que no se confunda con los espacios que hemos agregado.
 
-Además, toma en cuenta que hemos utilizado el método `has_key` en el diccionario para asegurarnos que la palabra clave realmente se encuentra en nuestro texto. Si no es así, podemos imprimir un mensaje para el usuario antes de enviar la salida a Firefox. Prueba cambiar la variable *objetivo* a algunas otras palabras clave. Intenta con alguna que tú sepas que no se encuentra en el texto para asegurarte que tu programa no genere salida de datos cuando no deba.
+Además, observa que hemos utilizado el método `has_key` en el diccionario para asegurarnos que la palabra clave realmente se encuentra en nuestro texto. Si no es así, podemos imprimir un mensaje para el usuario antes de enviar la salida a Firefox. Prueba cambiar la variable *objetivo* a algunas otras palabras clave. Intenta con alguna que tú sepas que no se encuentra en el texto para asegurarte que tu programa no genere salida de datos cuando no deba.
 
 Ahora hemos creado un programa que busca una palabra clave en un diccionario creado a partir de una página HTML de la Web, y luego produce una salida de datos con n-gramas de esa palabra clave en otro archivo HTML para visualizar en la Web. Todas las lecciones hasta este punto han incluido partes del vocabulario de Python y métodos necesarios para crear este programa final. Al referirte a esas lecciones, ahora puedes experimentar con Python para crear programas que realicen tareas específicas que te ayudarán en tu proceso de investigación.
 
