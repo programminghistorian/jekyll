@@ -25,7 +25,7 @@ So how can you be a part of #ColorOurCollections and make your own digital archi
 
 * [How to Make a Coloring Book](http://www.instructables.com/id/How-to-Make-a-Coloring-Book/?ALLSTEPS) via Instructables is a great starting point for working with [Pixlr Editor](https://pixlr.com/editor/), a free online image editor, to transform digitized archival materials into coloring pages.
 
-* [#ColorOurCollections:Creating a coloring book with the Houston Area Digital Archives](http://digital.houstonlibrary.org/cdm/ref/collection/curriculum-project/id/14) provides complete instructions specifically for working with digital archival materials.
+* [#ColorOurCollections:Creating a coloring book with the Houston Area Digital Archives](http://digital.houstonlibrary.org/cdm/singleitem/collection/curriculum-project/id/17/rec/2) provides complete instructions specifically for working with digital archival materials.
 
 * Other websites such as [Canva](https://www.canva.com/) and [COLOROURlovers](http://www.colourlovers.com/) can help create professional looking coloring book covers and other elements.
 
