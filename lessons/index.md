@@ -222,6 +222,13 @@ Computational tools allow you to make sense of a lot of documents at once. The N
       <p>Peter Organisciak and Boris Capitanu</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/basic-text-processing-in-r">
+      <img src="../gallery/basic-text-processing-in-r.png">
+      <h3>Basic Text Processing in R</h3>
+      <p>Taylor Arnold and Lauren Tilton</p>
+    </a>
+  </li>
 </ul>
 
 
