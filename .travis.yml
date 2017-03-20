@@ -15,7 +15,8 @@ script: |
   --alt-ignore '/.*/' \
   --file-ignore '/.+/assets/.*/','/.+/lessons/deprecated/.*/' \
   --timeframe '30d' \
-  --only-4xx
+  --only-4xx \
+  --http-status-ignore 429
 
 env:
   global:
