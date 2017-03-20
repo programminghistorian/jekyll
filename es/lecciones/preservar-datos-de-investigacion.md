@@ -20,7 +20,7 @@ redirect-from: /es/lessons/preserving-your-research-data
 
 #### La cuestión de fondo
 
-En su ensayo de 2003, "Escasez o abundancia", Roy Rosenzweig trató de alertar a los historiadores contra lo que llamó "la fragilidad de las pruebas en la era digital" (Rosenzweig, 736). Y aunque sus preocupaciones se centraron en los recursos disponibles en la web abierta, fácilmente pueden extenderse a los materiales de origen digital -o datos- que los historiadores crean a lo largo de su investigación.
+En su ensayo de 2003, "Scarcity or Abundance?", Roy Rosenzweig trató de alertar a los historiadores contra lo que llamó "la fragilidad de las pruebas en la era digital" (Rosenzweig, 736). Y aunque sus preocupaciones se centraron en los recursos disponibles en la web abierta, fácilmente pueden extenderse a los materiales de origen digital -o datos- que los historiadores crean a lo largo de su investigación.
 
 Esta guía se va a dedicar a la preservación de los datos de investigación. ¿Por qué es esto necesario?
 
