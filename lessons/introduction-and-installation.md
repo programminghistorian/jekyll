@@ -35,7 +35,7 @@ The programming language we will use in this series of lessons is Python,
 a free, open source language. Unless otherwise noted, we will be using 
 **Python v.2** throughout. Version 3 is available but we have elected to 
 stick with version 2 because it’s the most widely used version 
-and it is the one that ships preinstalled on new Macs. (Python 3 has a few differences in formatting)[http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html] (think grammar rules) and if you are trying to use 
+and it is the one that ships preinstalled on new Macs. [Python 3 has a few differences in formatting](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html) (think grammar rules) and if you are trying to use 
 Python 3 with the Programming Historian, you may run into difficulties. 
 
 Backup Your Work!
