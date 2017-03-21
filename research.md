@@ -39,7 +39,7 @@ The project team and members of the wider community are involved in a number of 
 
 ### Editorial
 
-* Víctor Gayol, '*The Programming Historian* en español', *Blog de Humanidades Digitales*, march 17, 2017, http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/
+* Víctor Gayol, '*The Programming Historian* en español', *Blog de Humanidades Digitales*, march 17, 2017, <http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/>
 
 ### Projects Using the Programming Historian
 
