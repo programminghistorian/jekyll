@@ -40,6 +40,10 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Adam Crymble, ‘The Programming Historian 2’, *Digital History Seminar*, Institute of Historical Research, London (13 October 2013).
 * Adam Crymble, ‘The Programming Historian 2’, *Digital Humanities 2012*, Hamburg (July 2012).
 
+### Editoriales
+
+* Víctor Gayol, '*The Programming Historian* en español', *Blog de Humanidades Digitales*, 17 de marzo, 2017, http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/
+
 ### Proyectos que utilizan *The Programming Historian*
 
 * James Baker, Caitlin Moore, Ernesto Priego, Raquel Alegre, Jez Cope, Ludi Price, Owen Stephens, Daniel van Strien, Greg Wilson, '[Library Carpentry: software skills training for library professionals]', _Liber Quarterly: The Journal of the Association of European Research Libraries_, 26(3) (2016).
