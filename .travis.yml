@@ -16,7 +16,8 @@ script: |
   --file-ignore '/.+/assets/.*/','/.+/lessons/deprecated/.*/' \
   --timeframe '30d' \
   --only-4xx \
-  --http-status-ignore 429
+  --http-status-ignore 429 \
+  --url-ignore http://www.gutenberg.org/ebooks/2600
 
 env:
   global:
