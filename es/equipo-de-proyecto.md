@@ -17,7 +17,7 @@ Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una
 		<a href="mailto:mariajose@neogranadina.org"><i class="fa fa-envelope-square fa-lg"></i></a>
 	
 	
-		<a href="http://twitter.com/https://twitter.com/mariajoafana"><i class="fa fa-twitter-square fa-lg"></i></a>
+		<a href="https://twitter.com/mariajoafana"><i class="fa fa-twitter-square fa-lg"></i></a>
 <br /><br /><br />
 </div>
 
@@ -76,6 +76,25 @@ Fred Gibbs es profesor de Historia en la Universidad de Nuevo México. Investiga
 	
 	
 		<a href="http://github.com/fredgibbs"><i class="fa fa-github-square fa-lg"></i></a>
+	
+<br /><br /><br />
+</div>
+
+<div class="contact-box">
+<img class="avatar" src="http://programminghistorian.org/avatars/Matthew-Lincoln.png" />
+Matthew Lincoln es especialista en la investigación de datos en el Getty Research Institute e historiador del arte de la Europa moderna. 
+ 
+<br />
+
+	<a href="http://matthewlincoln.net"><i class="fa fa-home fa-lg"></i></a>
+	
+		<a href="mailto:mlincoln@getty.edu"><i class="fa fa-envelope-square fa-lg"></i></a>
+	
+	
+		<a href="http://twitter.com/matthewdlincoln"><i class="fa fa-twitter-square fa-lg"></i></a>
+	
+	
+		<a href="http://github.com/mdlincoln"><i class="fa fa-github-square fa-lg"></i></a>
 	
 <br /><br /><br />
 </div>
@@ -154,7 +173,7 @@ Amanda Visconti es Directora general del centro de Humanidades Digitales Scholar
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Jeri-Wieringa.png" />
-Jeri Wieringa trabaja como jefa del departamento de producción digital en George Mason University Libraries; asimismo, es doctoranda en Historia en la misma universidad. Está interesa en trabajar con autore sobre los siguientes temas: accesibilidad y diseño de interfaces, visualización de datos, análisis de redes, minería de datos, flujos de trabajo y, en general, lecciones introductorias. 
+Jeri Wieringa trabaja como jefa del departamento de producción digital en George Mason University Libraries; asimismo, es doctoranda en Historia en la misma universidad. Está interesada en trabajar con autores sobre los siguientes temas: accesibilidad y diseño de interfaces, visualización de datos, análisis de redes, minería de datos, flujos de trabajo y, en general, lecciones introductorias. 
  
 <br />
 

@@ -11,6 +11,8 @@ translator:
 - Víctor Gayol
 translation-reviewer:
 - Jairo A. Melo
+- Maria José Afanador-Llach
+- Antonio Rojas Castro
 layout: default
 next: palabras-clave-en-contexto-n-grams
 previous: crear-y-ver-archivos-html-con-python
@@ -31,17 +33,17 @@ Si no tienes estos archivos de las lecciones anteriores, puedes descargar python
 
 ## Construcción de un contenedor de HTML
 
-En la lección anterior aprendiste cómo empotrar el mensaje "Hola Mundo" en etiquetas HTML, escribir el resultado en un archivo y abrirlo automáticamente en el navegador. Un programa que pone códigos de formato alrededor de algo para que pueda ser usado por otro programa es llamado a veces "contenedor" (*wrapper*). Lo que vamos a hacer ahora es desarrollar un contenedor de HTML para la salida de nuestro código que computa frecuencias de palabras. También añadiremos algunos *metadatos* dinámicos útiles para complementar los datos de frecuencia recogidos en [Contar frecuencias][].
+En la lección anterior aprendiste cómo etiquetar el mensaje "Hola Mundo" en HTML, escribir el resultado en un archivo y abrirlo automáticamente en el navegador. Un programa que pone códigos de formato alrededor de algo para que pueda ser usado por otro programa es llamado a veces "contenedor" (*wrapper*). Lo que vamos a hacer ahora es desarrollar un contenedor de HTML para la salida de nuestro código que computa frecuencias de palabras. También añadiremos algunos *metadatos* dinámicos útiles para complementar los datos de frecuencia recogidos en [Contar frecuencias][].
 
 ## Metadatos
 
 La distinción entre datos y metadatos es crucial en las ciencias de la información. Los metadatos son datos acerca de datos. Este concepto ya te debe ser familiar incluso si no has escuchado antes el término. Considera un libro tradicional. Si tomamos el texto del libro como los datos, hay un número de otras características que están asociadas con el texto pero que pueden o no estar impresas en el libro de manera explícita. El título del libro, el autor, el editor y el lugar y fecha de la publicación son metadatos y generalmente están impresos en el trabajo. El lugar y fecha del escrito, el nombre del corrector de estilo, los datos de catalogación de la Biblioteca del Congreso y el nombre del tipo de fuente utilizado para la composición tipográfica, a veces están impresas en él. La persona que compra una copia particular puede escribir o no su nombre en el libro. Si el libro pertenece a la colección de una biblioteca, esa biblioteca mantendrá metadatos adicionales, pero solamente algunos de ellos estarán unidos físicamente al libro. El registro de los préstamos, por ejemplo, se mantiene generalmente en una especie de base de datos y se vincula al libro con un identificador único. Bibliotecas, archivos y museos tienen complejos sistemas para generar y mantener un registro de metadatos.
 
-Cuando trabajas con datos digitales es buena idea incorporar metadatos en tus propios archivos siempre que sea posible. Ahora vamos a desarrollar algunas estrategias básicas para hacer que nuestros archivos de datos sean *auto-documentados*. En nuestro contenedor queremos incluir información dinámica acerca del archivo, tales como la hora y fecha en el que fue creado así como un título HTML que es relevante para el archivo. En este caso podríamos darle un nombre nosotros mismos, pero cuando empecemos a trabajar con múltiples archivos, crear automáticamente archivos autodocumentados nos ahorrará mucho tiempo, así que lo practicaremos ahora. Y para ello tendremos que aprender a tomar ventaja de algunas opciones más potentes de formato de cadenas de texto.
+Cuando trabajas con datos digitales es buena idea incorporar metadatos en tus propios archivos siempre que sea posible. Ahora vamos a desarrollar algunas estrategias básicas para hacer que nuestros archivos de datos sean *auto-documentados*. En nuestro contenedor queremos incluir información dinámica acerca del archivo, tales como la hora y fecha en el que fue creado así como un título HTML que es relevante para el archivo. En este caso podríamos darle un nombre nosotros mismos, pero cuando empecemos a trabajar con múltiples archivos, crear automáticamente archivos autodocumentados nos ahorrará mucho tiempo, así que lo practicaremos ahora. Y para ello tendremos que aprender algunas opciones más potentes de formato de cadenas de texto.
 
 ## Formato de cadenas de texto en Python
 
-Python incluye un operador especial para formato que te permite insertar una cadena dentro de otra. Está representado por un signo de porcentaje seguido por una "s". Abre el shell de Python e intenta los ejemplos siguientes:
+Python incluye un operador especial para formato que te permite insertar una cadena dentro de otra. Está representado por un signo de porcentaje seguido por una "s". Abre el *shell* de Python e intenta los ejemplos siguientes:
 
 ``` python
 formula = 'Esta fruta es una %s'
@@ -66,7 +68,7 @@ print(formula2 % ('bananas', 'peras'))
 -> Éstas son bananas, aquellas son peras
 ```
 
-En estos ejemplos, un `%s` en una cadena indica que otra cadena será incrustada en ese punto. Hay una serie de otros códigos de formato de cadenas, la mayoría de los cuales permiten introducir números en las cadenas con varios formatos como `%i` para enteros (i.e. 1, 2, 3), `%f` para punto decimal flotante (i.e. 3.023, 4.59, 1.0) y demás. Al utilizar este método podemos introducir información que es única para ese archivo.
+En estos ejemplos, un `%s` en una cadena indica que otra cadena será incrustada en ese punto. Hay una serie de otros códigos de formato de cadenas, la mayoría de los cuales permiten introducir números en las cadenas con varios formatos como `%i` para enteros (i.e. 1, 2, 3), `%f` para punto decimal flotante (por ejemplo: 3.023, 4.59, 1.0) y demás. Al utilizar este método podemos introducir información que es única para ese archivo.
 
 ## Archivo de datos auto-documentado
 
@@ -87,7 +89,7 @@ También queremos una función que tome una cadena de texto en cualquier orden y
 
 ### Instrucciones para Mac
 
-Si estás usado una Mac asegúrate de incluir la variable de la ruta de nombre de archivo adecuada en la seguna línea del último párrafo del código para reflejar en dónde estás guardando tus archivos.
+Si estás usado una Mac asegúrate de incluir la variable de la ruta de nombre de archivo adecuada en la segunda línea del último párrafo del código para reflejar en dónde estás guardando tus archivos.
 
 ``` python
 # Dado el nombre de un programa de llamada, un url y una cadena a envolver,
@@ -187,7 +189,7 @@ for s in diccOrdenado:
 obo.envuelveCadenaenHTMLMac("html-a-frec-3", url, salidaCadena)
 ```
 
-Toma en cuenta que intercalamos nuestros pares de frecuencia de palabras con la etiqueta de salto `<br\>` de HTML, la cual actúa como una *nueva línea*. Si todo va bien, deberías ver las mismas frecuencias de palabras que computamos en la útlima sección pero esta vez en la ventana de tu navegador.
+Observa que intercalamos nuestros pares de frecuencia de palabras con la etiqueta de salto `<br\>` de HTML, la cual actúa como una *nueva línea*. Si todo va bien, deberías ver las mismas frecuencias de palabras que computamos en la última sección pero esta vez en la ventana de tu navegador.
 
 ### Leturas sugeridas
 

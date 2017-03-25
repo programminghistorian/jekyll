@@ -1023,7 +1023,7 @@ Below are some examples of grouping token counts.
   
 Remember from earlier that certain information can be called by sending arguments to `vol.tokenlist()`, so you don't always have to do the grouping yourself.
 
-With `sum`, the data is being reduced: only one row is left for each group. It is also possible to 'transform' a group, where the same number of rows are returned. This is useful if processing is necessary based on the group statistics, such as percentages. Here is an advanced example of transformation, a [TF\*IDF](https://porganized.com/2016/03/09/term-weighting-for-humanists/) function. TF\*IDF weighs a token's value to a document based on how common it is. In this case, it highlights words that are notable for a page but not the entire book.
+With `sum`, the data is being reduced: only one row is left for each group. It is also possible to 'transform' a group, where the same number of rows are returned. This is useful if processing is necessary based on the group statistics, such as percentages. Here is an advanced example of transformation, a [TF\*IDF](https://web.archive.org/web/20161108211721/https://porganized.com/2016/03/09/term-weighting-for-humanists/) function. TF\*IDF weighs a token's value to a document based on how common it is. In this case, it highlights words that are notable for a page but not the entire book.
 
 
 ```python
@@ -1163,7 +1163,7 @@ Hadley Wickham (2011). "The split-apply-combine strategy for data analysis". *Jo
 
 # Appendix: Downloading custom files via rsync
 
-The full HTRC Extracted Features dataset is accessible using *rsync*, a Unix command line program for syncing files. It is already preinstalled on Linux or Mac OS. Windows users need to use *rsync* by downloading a program such as [https://cygwin.com/](Cygwin), which provides a Unix-like command line environment in Windows.
+The full HTRC Extracted Features dataset is accessible using *rsync*, a Unix command line program for syncing files. It is already preinstalled on Linux or Mac OS. Windows users need to use *rsync* by downloading a program such as [Cygwin](https://cygwin.com/), which provides a Unix-like command line environment in Windows.
 
 To download all *4 TB* comprising the EF dataset, you can use this command (be aware the full transfer will take a very long time):
 

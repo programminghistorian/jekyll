@@ -82,9 +82,9 @@ En caso de que envíes una traducción, debes mantener el bloque YAML de la lecc
     - Scott Weingart
     date: 2014-03-03
     reviewers:
-    traductor:
+    translator:
     - Antonio Rojas Castro
-    traductor-reviewer:
+    translator-reviewer:
     layout: default
     ---
 

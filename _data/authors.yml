@@ -68,7 +68,7 @@
        
 - name: Maria José Afanador-Llach
   email: mariajose@neogranadina.org
-  twitter: https://twitter.com/mariajoafana
+  twitter: mariajoafana
   github: mariajoafana
   team: true
   bio:
@@ -80,7 +80,7 @@
 - name: Víctor Gayol
   url: "https://victorgayol.net"
   email: vgayol@colmich.edu.mx
-  twitter: https://twitter.com/victor_gayol
+  twitter: victor_gayol
   github: vgayolrs
   team: true
   bio:
@@ -89,7 +89,7 @@
 
 - name: Antonio Rojas Castro
   email: rojas.castro.antonio@gmail.com
-  twitter: https://twitter.com/RojasCastroA
+  twitter: RojasCastroA
   github: arojascastro
   team: true
   bio:
@@ -183,7 +183,9 @@
     en: |
         James Baker is a Curator in the Digital Research team at the British
         Library and an historian of eighteenth century Britain.
-
+    es: |
+        James Baker es curador en el equipo de investigación digital de la Biblioteca Británica e historiador del siglo XVIII inglés.
+        
 - name: Amanda Morton
   team: false
   bio:
@@ -376,7 +378,9 @@
 - name: Matthew Lincoln
   url: "http://matthewlincoln.net"
   twitter: matthewdlincoln
-  team: false
+  email: mlincoln@getty.edu
+  github: mdlincoln
+  team: true
   bio:
     en: |
         Matthew Lincoln is a data research specialist at the Getty Research Institute, and an art historian of early modern Europe.

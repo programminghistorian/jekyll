@@ -18,7 +18,7 @@ a non-profit organization digitizing endangered colonial archives in Colombia an
 		<a href="mailto:mariajose@neogranadina.org"><i class="fa fa-envelope-square fa-lg"></i></a>
 	
 	
-		<a href="http://twitter.com/https://twitter.com/mariajoafana"><i class="fa fa-twitter-square fa-lg"></i></a>
+		<a href="https://twitter.com/mariajoafana"><i class="fa fa-twitter-square fa-lg"></i></a>
 <br /><br /><br />
 </div>
 
@@ -35,7 +35,7 @@ V√≠ctor Gayol is a researcher and professor of history at El Colegio de Michoac√
 		<a href="mailto:vgayol@colmich.edu.mx"><i class="fa fa-envelope-square fa-lg"></i></a>
 	
 	
-		<a href="http://twitter.com/https://twitter.com/victor_gayol"><i class="fa fa-twitter-square fa-lg"></i></a>
+		<a href="https://twitter.com/victor_gayol"><i class="fa fa-twitter-square fa-lg"></i></a>
 	
 	
 		<a href="http://github.com/vgayolrs"><i class="fa fa-github-square fa-lg"></i></a>
@@ -44,6 +44,8 @@ V√≠ctor Gayol is a researcher and professor of history at El Colegio de Michoac√
 </div>
 
 {% include contact-info.html name="Fred Gibbs" %}
+
+{% include contact-info.html name="Matthew Lincoln" %}
 
 {% include contact-info.html name="Caleb McDaniel" %}
 
@@ -71,11 +73,11 @@ V√≠ctor Gayol is a researcher and professor of history at El Colegio de Michoac√
 *Programming Historian* also benefits enormously from the efforts of
 people who volunteer their time and energy. If you are interested in
 pitching in, either for a single project or in an ongoing role, please
-find out [how to contribute](../contribute)!
+find out [how to contribute](/contribute)!
 
 We are especially grateful to the dedicated Programming Historian authors who are not members of the Project Team: 
 
-{% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](../new-lesson-workflow).
+{% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](/contribute).
 
 We also thank everyone who has helped to review lessons by reporting issues,
 fixing errors, or conducting formal peer reviews. At the time of writing, this
@@ -83,7 +85,7 @@ has included the following people:
 
 {% for reviewer in site.data.reviewers %}
 {{reviewer}},{% endfor %} and, hopefully, you! Find out more about [how to
-contribute](../contribute).
+contribute](/contribute).
 
 Finally, we'd like to thank those who have been involved in organising, running, leading, or supporting workshops involving the project and Project Team:
 

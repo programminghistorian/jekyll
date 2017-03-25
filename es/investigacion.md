@@ -33,11 +33,17 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Carteles, conferencias y presentaciones
 
-* Victor Gayol, 'The Programming Historian: 'un modelo colaborativo para la investigaci&oacute;n y la ense&ntilde;anza en ciencias sociales y humanidades digitales', _Mesa de Trabajo sobre Ciencias Sociales y Humanidades Digitales_, El Colegio De Michoac&aacute;n, México (21 February 2017).
+* Adam Crymble, 'White, Male, and North American: Challenges of Diversifying the Programming Historian', Universit&eacute; de Lausanne, Switzerland (23-24 March 2017).
+* Victor Gayol, 'La investigación del pasado y la historia digital: análisis de datos y cómo aprender (The Programming Historian en español)', _Humanidades Digitales_, IV Feria Internacional de Ciencias Sociales y Humanidades, Centro Universitario de Los Lagos - Universidad de Guadalajara, Lagos de Moreno, Jalisco (9 de marzo, 2017).
+* Victor Gayol, 'The Programming Historian: 'un modelo colaborativo para la investigaci&oacute;n y la ense&ntilde;anza en ciencias sociales y humanidades digitales', _Mesa de Trabajo sobre Ciencias Sociales y Humanidades Digitales_, El Colegio De Michoac&aacute;n, México (21 de febrero, 2017).
 * Adam Crymble, 'Bringing Digital Humanities into the University for Free', University of Cape Town, South Africa (27-28 June 2016).
 * Fred Gibbs, ‘The Programming Historian’ (Cartel), *American Historical Association*, New York (January 2015).
 * Adam Crymble, ‘The Programming Historian 2’, *Digital History Seminar*, Institute of Historical Research, London (13 October 2013).
 * Adam Crymble, ‘The Programming Historian 2’, *Digital Humanities 2012*, Hamburg (July 2012).
+
+### Editoriales
+
+* Víctor Gayol, '*The Programming Historian* en español', *Blog de Humanidades Digitales*, 17 de marzo, 2017, <http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/>
 
 ### Proyectos que utilizan *The Programming Historian*
 
@@ -50,4 +56,4 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 ['pre-print pdf']: http://programminghistorian.org/researchpapers/openLearningCommunities2016.pdf
 [Editorial Sustainability and Open Peer Review at Programming Historian]: http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian
 ['Digital Project Consultations']: https://dhatasa2015.wordpress.com/
-[Library Carpentry: software skills training for library professionals]: (https://www.liberquarterly.eu/articles/10176/)
+[Library Carpentry: software skills training for library professionals]: https://www.liberquarterly.eu/articles/10176/

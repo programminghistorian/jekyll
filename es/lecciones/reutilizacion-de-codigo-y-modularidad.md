@@ -11,6 +11,8 @@ translator:
 - Víctor Gayol
 translation-reviewer:
 - Jairo A. Melo
+- Maria José Afanador-Llach
+- Antonio Rojas Castro
 layout: default
 categories: [lessons, original-ph, python]
 next: trabajar-con-paginas-web
@@ -37,7 +39,7 @@ saludoEntidad("Todos")
 saludoEntidad("Programming Historian")
 ```
 
-La línea que comienza con `def` es la declaración de función. Vamos a definir ("def") una función que en este caso hemos llamado "saludoEntidad". La `(x)` es el parámetro de la función. En un momento entenderás cómo trabaja. La segunda línea contiene el código de la función.  Éste puede contener las líneas que necesitemos, pero en este caso es una sola línea.
+La línea que comienza con `def` es la declaración de función. Vamos a definir ("def") una función que en este caso hemos llamado "saludoEntidad". La `(x)` es el parámetro de la función. En un momento entenderás cómo trabaja. La segunda línea contiene el código de la función. Éste puede contener las líneas que necesitemos, pero en este caso es una sola línea.
 
 Ten en cuenta que la *sangría* es muy importante en Python. El espacio en blanco antes de la declaración `print` le dice al intérprete que es parte de la función que ha sido definida. Aprenderás más acerca de esto a medida que avanzamos; por ahora, asegúrate de mantener la sangría de la manera en que te demostramos. Ejecuta el programa y debes ver algo como esto:
 
@@ -75,9 +77,9 @@ saludo.saludoEntidad("todos")
 saludo.saludoEntidad("programming historian")
 ``` 
 
-Hemos hecho algunas cosas aquí.  Primero, le dijimos a Python que cargara (`import` ) el módulo `saludo.py` que creamos previamente.
+Hemos hecho algunas cosas aquí. Primero, le dijimos a Python que cargara (`import` ) el módulo `saludo.py` que creamos previamente.
 
-También te darás cuenta que si antes hemos podido ejecutar la función llamándola solo por su nombre   *saludoEntidad("todos")*, ahora tenemos que incluir el nombre del módulo seguido por un punto (.) antes del nombre de la función. En lenguaje llano esto significa: ejecuta la función *saludoEntidad* que deberás encontrar en el módulo *saludo.py*.
+También te darás cuenta que si antes hemos podido ejecutar la función llamándola solo por su nombre *saludoEntidad("todos")*, ahora tenemos que incluir el nombre del módulo seguido por un punto (.) antes del nombre de la función. En lenguaje llano esto significa: ejecuta la función *saludoEntidad* que deberás encontrar en el módulo *saludo.py*.
 
 Puedes ejecutar tu programa `usar-saludo.py` con el comando "Ejecutar Python" que creaste en Komodo Edit. Ten en cuenta que no necesitas ejecutar tu módulo... solamente el programa que lo llama. Si todo se hizo bien, deberás ver lo siguiente en el panel de salida de Komodo Edit:
 

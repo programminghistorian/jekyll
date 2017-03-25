@@ -7,6 +7,21 @@ Te invitamos a navegar alrededor. Si no encuentras cubierta alguna herramienta, 
 
 <!--Translations of titles of non-Python-introduction lessons removed February 24; see previous commit to get those translations-->
 
+Gestión de datos
+----------------------
+
+Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerzo sea duradero adoptando estategias sostenibles en relación a tu codigo, datos y procesos de investigación. Dedicar algún tiempo a planear puede ahorrarte mucho tiempo en el futuro.
+
+<ul class="lesson-images">
+  <li>
+    <a href="{{site.url}}/es/lecciones/preservar-datos-de-investigacion">
+      <img src="{{site.url}}/gallery/preserving-your-research-data.png">
+      <h3>Preservar tus datos de investigación</h3>
+      <p>James Baker</p>
+    </a>
+  </li>
+  </ul>
+
 Introducción a Python
 ----------------------
 

@@ -1,21 +1,15 @@
 
-{% assign reviewerCount = page.reviewers | size %}
+{% assign reviewers = page.reviewers | join: "," %}
+{% assign editors = page.editors | join: "," %}
+{% capture bothString %}{{ reviewers }},{{ editors }}{% endcapture %}
+{% assign allReviewers = bothString | split: "," | where_exp: "item", "item != ''"%}
+{% assign reviewerCount = allReviewers | size %}
 {% capture reviewerString %}
 {% if reviewerCount == 0 %}
       <!-- No reviewers -->
       <br/><br/>
-{% elsif reviewerCount == 1 %}
-      {{ page.reviewers | first }}
 {% else %}
-      {% for reviewer in page.reviewers %}
-           {% if forloop.first %}
-                 {{ reviewer }}
-           {% elsif forloop.last %}
-                 {{ site.data.snippets.and[page.lang] }} {{ reviewer }}
-           {% else %}
-		         , {{ reviewer }}
-           {% endif %}
-      {% endfor %}
+  {{ allReviewers | array_to_sentence_string: site.data.snippets.and[page.lang] }}
 {% endif %}
 {% endcapture %}
 

@@ -3,18 +3,8 @@
 {% if reviewerCount == 0 %}
       <!-- No reviewers -->
       <br/><br/>
-{% elsif reviewerCount == 1 %}
-      {{ page.translation-reviewer | first }}
 {% else %}
-      {% for reviewer in page.translation-reviewer %}
-           {% if forloop.first %}
-                 {{ reviewer }}
-           {% elsif forloop.last %}
-                 {{ site.data.snippets.and[page.lang] }} {{ reviewer }}
-           {% else %}
-		         , {{ reviewer }}
-           {% endif %}
-      {% endfor %}
+    {{ page.translation-reviewer | array_to_sentence_string: site.data.snippets.and[page.lang] }}
 {% endif %}
 {% endcapture %}
 

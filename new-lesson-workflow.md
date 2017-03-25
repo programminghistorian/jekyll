@@ -87,7 +87,7 @@ To create the YAML block for your lesson, you should **copy and paste the follow
 
 The following resources and tutorials contain more information about formatting a lesson in Markdown:
 
--   [Getting Started with Markdown](../lessons/getting-started-with-markdown), a _PH_ tutorial by Sarah Simpkin
+-   [Getting Started with Markdown](/lessons/getting-started-with-markdown), a _PH_ tutorial by Sarah Simpkin
 -   [GitHub Guide to Markdown]
 
 <div class="alert alert-warning">

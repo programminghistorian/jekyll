@@ -720,7 +720,7 @@ documentation).
 	in folder or file names. Dashes or underscores instead of spaces in your
 	filenames ensure lasting cross-platform compatibility.
 
-[^7]:  Thanks to [@nickbart80](https://github.com/nickbart1980) for the
+[^7]:  Thanks to [@njbart](https://github.com/njbart) for the
     correction. In response to our original suggestion, `Some sentence that
     needs citation.^[@fyfe_digital_2011 argues that too.]` [he
     writes](https://github.com/programminghistorian/jekyll/issues/46#issuecomment-59219906):
