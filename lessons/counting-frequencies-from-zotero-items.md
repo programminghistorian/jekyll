@@ -3,7 +3,7 @@ title: Counting Frequencies from Zotero Items
 authors:
 - Spencer Roberts
 date: 2013-04-01
-reviewers:
+editors:
 - Fred Gibbs
 layout: default
 prev: creating-new-items-in-zotero

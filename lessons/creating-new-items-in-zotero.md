@@ -3,7 +3,7 @@ title: Creating New Items in Zotero
 authors:
 - Amanda Morton
 date: 2013-04-01
-reviewers:
+editors:
 - Fred Gibbs
 layout: default
 categories: [zotero, api]

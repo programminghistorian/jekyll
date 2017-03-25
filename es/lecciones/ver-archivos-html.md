@@ -10,35 +10,36 @@ reviewers:
 - Amanda Morton
 translator:
 - Víctor Gayol
-translation reviewer:
+translation-reviewer:
 - Jairo A. Melo
+- Maria José Afanador-Llach
+- Antonio Rojas Castro
 layout: default
-next: trabajando-con-archivos-de-texto
+next: trabajar-con-archivos-de-texto
 previous: introduccion-e-instalacion
 redirect_from: /es/lessons/viewing-html-files
 ---
 
 
-Nota: resultará más fácil completar esta lección si previamente has completado [la anterior de la serie].
 
 “Hola Mundo” en HTML
 --------------------------------
 
 ## Visualizar archivos HTML
 
-Cuando trabajas con recursos en línea, la mayor parte del tiempo estás usando archivos que han sido etiquetados con HTML (Lenguaje de marcado de híper-texto): Tu navegador de Internet sabe perfectamente cómo interpretar HTML, lenguaje fácil de manejar y comprender para los lectores humanos. La mayoría de los navegadores te permiten también ver el *código fuente* HTML de cada página que visitas. Las dos imágenes siguientes muestran una página web típica (en este caso la de *Old Bailey Online*, con la que trabajaremos en las siguientes lecciones), y la fuente HTML utilizada para generar dicha página y que puedes ver, en Fierfox, con el menú `Herramientas -> Desarrollador web -> Código fuente de esta página`.
+Cuando trabajas con recursos en línea, la mayor parte del tiempo estás usando archivos que han sido etiquetados con HTML (Lenguaje de marcado de hípertexto): tu navegador de Internet sabe perfectamente cómo interpretar HTML, lenguaje fácil de manejar y comprender para los lectores humanos. La mayoría de los navegadores te permiten también ver el *código fuente* HTML de cada página que visitas. Las dos imágenes siguientes muestran una página web típica (en este caso la de *Old Bailey Online*, con la que trabajaremos en las siguientes lecciones), y la fuente HTML utilizada para generar dicha página y que puedes ver, en Firefox, con el menú `Herramientas -> Desarrollador web -> Código fuente de esta página`.
 
 Cuando estás trabajando en el navegador, generalmente no necesitas o no quieres ver el código fuente de esa página web. Pero si estás escribiendo una página para ti mismo puede ser muy útil ver cómo otras personas logran un efecto particular en la página a través de ciertos etiquetados. También resulta importante conocer el código fuente HTML mientras escribes programas para manipular páginas web o extraer automáticamente información de los sitios en la web como, por ejemplo, los repositorios de datos digitales.
 
-{% include figure.html filename="obo.png" caption="Old Bailey Online screenshot" %}
+{% include figure.html filename="obo.png" caption="Captura de pantalla de Old Bailey en línea" %}
 
-{% include figure.html filename="obo-page-source.png" caption="HTML Source for Old Bailey Online Web Page" %}
+{% include figure.html filename="obo-page-source.png" caption="Fuente HTML de la página web de Old Bailey en línea" %}
 
 (Para aprender más acerca de HTML, encontrarás muy útil en este momento estudiar el [tutorial de HTML ofrecido por W3Schools]. No es necesario por ahora tener un conocimiento detallado del HTML para continuar leyendo esta lección, pero todo el tiempo que inviertas en aprender HTML va a repercutir ampliamente en tu trabajo y formación como historiador o humanista digital).
 
 ## “Hola Mundo” en HTML
 
-HTML es un lenguaje de *etiquetado*; en otras palabras, HTML es, simple y sencillamente, texto "marcado" con "etiquetas"  que proveen al programa intérprete (generalmente un navegador web) con la información necesaria para ejecutar comandos o representar cosas en la pantalla de la computadora. Imagina que estás editando la entrada de una ficha bibliográfica en la que quieres indicar el título de un libro mediante la aplicación de cursivas. En HTML usarás etiquetas `em` (“em” es sinónimo de “énfasis” -por "emphasys"). De tal manera que parte de tu archivo HTML puede verse de la siguiente manera:
+HTML es un lenguaje de *etiquetado*; en otras palabras, HTML es, simple y sencillamente, texto "marcado" con "etiquetas" que proveen al programa intérprete (generalmente un navegador web) con la información necesaria para ejecutar comandos o representar cosas en la pantalla de la computadora. Imagina que estás editando la entrada de una ficha bibliográfica en la que quieres indicar el título de un libro mediante la aplicación de cursivas. En HTML usarás etiquetas `em` (“em” es sinónimo de “énfasis” -por "emphasis"). De tal manera que parte de tu archivo HTML puede verse de la siguiente manera:
 
 ```xml
 ... en Cohen y Rosenzweig <em>Digital History</em>, por ejemplo
@@ -89,7 +90,7 @@ e
 
 Salva el archivo en tu carpeta `programming-historian` con el nombre `hola-mundo.html`. Ahora, ve al navegador de Firefox y selecciona `Archivo -> Nueva pestaña`y luego `Archivo -> Abrir archivo`. Selecciona `hola-mundo.html`. Dependiendo de tu editor de texto puedes tener la opción `view page in browser` u `open in browser`. Una vez que has abierto el archivo tu mensaje deberá aparecer en el navegador. Nota la diferencia entre abrir un archivo HTML con un navegador como Firefox (que lo interpreta) y abrir el mismo archivo con tu editor de texto (que no lo interpreta).
 
-Sugerencia de lecturas para aprender HTML
+Sugerencia de lecturas para aprender HTML:
 
 -	[W3Schools HTML Tutorial]
 -	[W3Schools HTML5 Tutorial]

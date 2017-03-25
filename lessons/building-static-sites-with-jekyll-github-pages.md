@@ -4,9 +4,10 @@ authors:
 - Amanda Visconti
 date: 2016-04-18
 reviewers:
-- Fred Gibbs
 - Paige Morgan
 - Jamie Howe
+editors:
+- Fred Gibbs
 layout: default
 difficulty: 1
 ---

@@ -8,6 +8,7 @@ date: 2013-12-13
 reviewers:
 - Finn Arne Jørgensen
 - Sarah Simpkin
+editors:
 - Adam Crymble
 layout: default
 next: qgis-layers

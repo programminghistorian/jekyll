@@ -4,10 +4,11 @@ authors:
 - Seth Bernstein
 date: 2013-10-04
 reviewers:
-- Adam Crymble
 - Michelle Moravec
 - Ezra Brooks
 - Russell Alleen-Willems
+editors:
+- Adam Crymble
 layout: default
 difficulty: 2
 ---

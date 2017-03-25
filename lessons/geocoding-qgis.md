@@ -4,9 +4,10 @@ authors:
 - Justin Colson
 date: 2017-01-27
 reviewers:
-- Adam Crymble
 - Adam Dennett
 - Léon Robichaud
+editors:
+- Adam Crymble
 layout: default
 difficulty: 2
 review-ticket: 27

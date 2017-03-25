@@ -1,12 +1,17 @@
 
           <div class="citation-info">
-            <p class="citation-head">Suggested Citation</p>
+            {% if page.lang == 'en' %}
+                <p class="citation-head">Suggested Citation</p>
+            {% endif %}
+            {% if page.lang == 'es' %}
+                <p class="citation-head">Sugerencia para citar</p>
+            {% endif %}
             <div class="suggested-citation">
               <p>
               {{ authorString }}, 
               "{{ page.title }}," 
               <em>{{ site.name }}</em>, 
-              ({{ page.date | append:" 12:00:00+00:00" | date_to_long_string }}), 
+              ({{ page.date | date: "%Y-%m-%d" }}), 
               {{ site.url }}{{ page.url }}
               </p>
             </div>

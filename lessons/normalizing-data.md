@@ -5,9 +5,10 @@ authors:
 - Adam Crymble
 date: 2012-07-17
 reviewers:
-- Miriam Posner
 - Jim Clifford
 - Francesca Benatti
+editors:
+- Miriam Posner
 layout: default
 next: counting-frequencies
 previous: from-html-to-list-of-words-2

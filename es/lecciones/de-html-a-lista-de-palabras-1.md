@@ -9,11 +9,11 @@ reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
-translation reviewer:
+translation-reviewer:
 - Jairo A. Melo
 layout: default
 next: de-html-a-lista-de-palabras-2
-previous: manipulacion-de-cadenas-de-texto-en-python
+previous: manipular-cadenas-de-caracteres-en-python
 redirect_from: /es/lessons/from-html-to-list-of-words-1
 ---
 
@@ -24,7 +24,7 @@ En esta lección en dos partes partiremos de lo que has aprendido en [Descargar 
 
 ## El reto
 
-Para tener una idea más clara de la tarea que tenemos por delante, abre el archivo *obo-t17800628-33.html* que creaste en la lección [Descargar páginas web con Python] (o [descarga y guarda el juicio][obo-t17800628-33.html], si aún no tienes una copia). Entonces observa el código HTML en tu navegador de Fierfox usando `Herramientas -> Desarrollador web -> Código fuente de esta página`. A medida que te desplazas a través del código fuente te darás cuenta que hay etiquetas HTML mezcladas con el texto. Si eres nuevo en HTML te recomendamos tomar el tutorial de W3Schools [HTML][1] para familiarizarte con el marcado. Si tu trabajo requiere a menudo que tengas que retirar etiquetas sin duda te va a servir para entenderlo en cuanto lo veas.
+Para tener una idea más clara de la tarea que tenemos por delante, abre el archivo *obo-t17800628-33.html* que creaste en la lección [Descargar páginas web con Python](http://programminghistorian/es/trabajar-con-paginas-web) (o [descarga y guarda el juicio](http://programminghistorian.org/assets/obo-t17800628-33.html), si aún no tienes una copia). Entonces observa el código HTML en tu navegador de Fierfox usando `Herramientas -> Desarrollador web -> Código fuente de esta página`. A medida que te desplazas a través del código fuente te darás cuenta que hay etiquetas HTML mezcladas con el texto. Si eres nuevo en HTML te recomendamos tomar el tutorial de W3Schools [HTML][1] para familiarizarte con el marcado. Si tu trabajo requiere a menudo que tengas que retirar etiquetas sin duda te va a servir para entenderlo en cuanto lo veas.
 
 ## Archivos necesarios para esta lección
 
@@ -32,9 +32,9 @@ Para tener una idea más clara de la tarea que tenemos por delante, abre el arch
 
 ## Idear un algoritmo
 
-Dado que el objetivo es deshacerse del HTML, el primer paso es crear un algoritmo que devuelva solamente el texto (menos las etiquetas HTML) del artículo.Un algoritmo es un procedimiento que se a especificado con suficiente detalle que puede ser implementado en una computadora. Ayuda mucho escribir primer tus algoritmos en español llano; es una idea excelente delinear exactamente qué es lo que quieres que haga antes de sumergirte en el código. Para construir este algoritmo te vas a servir de tus habilidades de lectura cercana para encontrar la manera de capturar solamente el contenido textual de la biografía.
+Dado que el objetivo es deshacerse del HTML, el primer paso es crear un algoritmo que devuelva solamente el texto (menos las etiquetas HTML) del artículo. Un algoritmo es un procedimiento que se ha especificado con suficiente detalle de tal forma que puede ser implementado en una computadora. Es muy úyil escribir primero tus algoritmos en español llano; es una idea excelente delinear exactamente qué es lo que quieres que haga antes de sumergirte en el código. Para construir este algoritmo te vas a servir de tus habilidades de lectura cercana para encontrar la manera de capturar solamente el contenido textual de la biografía.
 
-Al examinar el código fuente de *obo-t17800628-33.html* notarás que la transcripción real no se inicia de forma inmediata. Por el contrario, hay un número de etiquetas HTML y algo de información para citar. En este caso el contenido no comienza ¡sino hasta la linea 81!
+Al examinar el código fuente de *obo-t17800628-33.html* notarás que la transcripción real no se inicia de forma inmediata. Por el contrario, hay un número de etiquetas HTML y algo de información para citar. En este caso el contenido no comienza ¡sino hasta la línea 81!
 
 ``` xml
 <p>324.                                  <a class="invisible" name="t17800628-33-defend448"> </a>                     BENJAMIN                      BOWSEY                                                                                                          (a blackmoor                  ) was indicted for                                                          that he together with five hundred other persons and more, did, unlawfully, riotously, and tumultuously assemble on the 6th of June
@@ -46,7 +46,7 @@ A primera vista, podemos ver que la transcripción del juicio inicia con una eti
 
 El texto del juicio termina en la línea 82 con otra etiqueta HTML: `<br/>`, que significa un salto de línea. Resulta que es el último salto de línea del documento. Estas dos etiquetas (la del primer párrafo y la del último salto de línea) nos proveen el recurso para aislar el texto transcrito. Los sitios web bien estructurados siempre tienen una única manera de señalar el final del contenido. Solmamente necesitas observar con atención.
 
-Lo siguiente que querrás hacer es retirar todas las marcas de HTML que permanecen mezcladas con el contenido. Como sabes, las etiquetas HTML se encuntras siempre entre un par de corchetes angulares que se corresponden, por lo que probablemente una apuesta segura es al quitar todo lo que esté dentro de dos corchetes angulares quitarás el código HTML y dejarás solamente la transcripción. Ten en cuenta que estamos asumiendo que la transcricpión no contiene símbolos matemáticos como "menor que" y "mayor que". Si Bowsey hubiese sido un matemático, nuestro supuesto no sería tan seguro.
+Lo siguiente que querrás hacer es retirar todas las marcas de HTML que permanecen mezcladas con el contenido. Como sabes, las etiquetas HTML se encuentras siempre entre un par de corchetes angulares que se corresponden, por lo que probablemente una apuesta segura es que al quitar todo lo que esté dentro de dos corchetes angulares quitarás el código HTML y dejarás solamente la transcripción. Ten en cuenta que estamos asumiendo que la transcricpión no contiene símbolos matemáticos como "menor que" y "mayor que". Si Bowsey hubiese sido un matemático, nuestro supuesto no sería tan seguro.
 
 Lo que sigue describe nuestro algoritmo en palabras.
 
@@ -109,9 +109,9 @@ HTML = respuesta.read()
 print(obo.quitarEtiquetas(HTML))
 ```
 
-Cuando ejecutes *contenido-juicio.py* éste obtendrá la página Web de la transcripción del juicio de Bowsey, entones mira en el módulo *obo.py* la función *quitarEtiquetas*. El programa utilizará esa función para extrar todo lo que esté después de la primera etiqueta `<p>` y antes de la última `<br/>`. Con algo de suerte esto debe ser el contenido textual de la transcripción de Bowsey acompañada con algo de marcado en HTML. No te preocupes si tu pantalla de salida de comandos termina en una linea gruesa negra. La pantalla de salida de Komodo Edit tiene un número máximo de caracteres a desplegar, después de lo cual los caracteres empiezan a escribirse unos sobre otros en la pantalla, literalmente, dando la apriencia de una mancha negra. No te preocupes: el texto está ahí aún cuando tú no puedas leerlo; así que puedes copiar y pegarlo en un archivo de texto para confirmarlo.
+Cuando ejecutes *contenido-juicio.py* éste obtendrá la página Web de la transcripción del juicio de Bowsey, entonces mira en el módulo *obo.py* la función *quitarEtiquetas*. El programa utilizará esa función para extrar todo lo que esté después de la primera etiqueta `<p>` y antes de la última `<br/>`. Con algo de suerte esto debe ser el contenido textual de la transcripción de Bowsey acompañada con algo de marcado en HTML. No te preocupes si tu pantalla de salida de comandos termina en una linea gruesa negra. La pantalla de salida de Komodo Edit tiene un número máximo de caracteres a desplegar, después de lo cual los caracteres empiezan a escribirse unos sobre otros en la pantalla, literalmente, dando la apriencia de una mancha negra. No te preocupes: el texto está ahí aún cuando tú no puedas leerlo; así que puedes copiar y pegarlo en un archivo de texto para confirmarlo.
 
-Tomemos un momento para estar seguros de que entendemos de qué manera *contenido-juico.py* es capaz de utilizar las funciones almacenadas en *obo.py*. La función *quitarEtiquetas* que guardamos en *obo.py* requiere un argumento. En otras palabras, para ejecutarse con propiedad requiere que se le suministre una unidad de información. Recordemos el ejemplo del perro entrenado de lecciones previas. Para que ladre, el pero necesita dos cosas: aire y una deliciosa recompensa. La función *quitarEtiquetas* en *obo.py* requiere una cosa: una cadena de texto llamada *contenidoPagina*. Pero te darás cuenta que cuando llamamos a *quitarEtiquetas* en el último programa (*contenido-juicio.py*), no hay ninguna mención a "*contenidoPagina*". En cambio, se le ha dado a la función HTML como argumento. Esto puede ser confuso para las personas que están empezando a programar. Una vez que una función ha sido declarada, no necesitamos utilizar el mismo nombre de la variable cuando llamamos a la función. Mientras que proporcionemos el tipo de argumento adecuado, todo debe funcionar correctamente sin importar cómo lo llamamos. En este caso, queremos que *contenidoPagina* utilice el contenido de nuestra variable HTML. Podría pasar por cualquier cadena de texto, incluida alguna que se ingrese directamente en el paréntesis. Intenta volver a ejecutar *contenido-juicio.py* cambiando el argumento *quitarEtiquetas* a "Soy aficionado a los perros", y mira lo que sucede. Toma en cuenta que dependiendo de cómo definas tu función (y lo que hace), tu argumento necesitará posiblemente ser algo distinto que una cadena: un *entero* por ejemplo.
+Tomemos un momento para estar seguros de que entendemos de qué manera *contenido-juico.py* es capaz de utilizar las funciones almacenadas en *obo.py*. La función *quitarEtiquetas* que guardamos en *obo.py* requiere un argumento. En otras palabras, para ejecutarse con propiedad requiere que se le suministre una unidad de información. Recordemos el ejemplo del perro entrenado de lecciones previas. Para que ladre, el perro necesita dos cosas: aire y una deliciosa recompensa. La función *quitarEtiquetas* en *obo.py* requiere una cosa: una cadena de texto llamada *contenidoPagina*. Pero te darás cuenta que cuando llamamos a *quitarEtiquetas* en el último programa (*contenido-juicio.py*), no hay ninguna mención a "*contenidoPagina*". En cambio, se le ha dado a la función HTML como argumento. Esto puede ser confuso para las personas que están empezando a programar. Una vez que una función ha sido declarada, no necesitamos utilizar el mismo nombre de la variable cuando llamamos a la función. Mientras que proporcionemos el tipo de argumento adecuado, todo debe funcionar correctamente sin importar cómo lo llamamos. En este caso, queremos que *contenidoPagina* utilice el contenido de nuestra variable HTML. Podría pasar por cualquier cadena de texto, incluida alguna que se ingrese directamente en el paréntesis. Intenta volver a ejecutar *contenido-juicio.py* cambiando el argumento *quitarEtiquetas* a "Soy aficionado a los perros", y mira lo que sucede. Toma en cuenta que dependiendo de cómo definas tu función (y lo que hace), tu argumento necesitará posiblemente ser algo distinto que una cadena: un *entero* por ejemplo.
 
 Lecturas sugeridas
 -----------------
@@ -124,18 +124,19 @@ Lecturas sugeridas
  
 ## Sincronización de código
 
-Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "programming-historian" para asegurarte que tienes el código correcto.
+Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "python-es-lecciones" para asegurarte que tienes el código correcto.
 
--   programming-historian-2 ([zip][])
-
-
+-   python-es-lecciones2.zip ([zip][])
 
 
-[Descargar páginas web con Python]: http://es.programminghistorian/trabajar-con-paginas-web
+
+
+
 [transcripción del juicio criminal contra Benjamin Bowsey de 1780]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-[Descargar páginas web con Python]: http://es.programminghistorian.org/lecciones/trabajar-con-paginas-web
+[Descargar páginas web con Python]: http://programminghistorian.org/es/lecciones/trabajar-con-paginas-web
 [HTML]: http://www.w3schools.com/html/
-
-[Manipular cadenas de caracteres en Python]: ../lecciones/manipulacion-de-cadenas-de-texto-en-python
+[1]: http://www.w3schools.com/html/
+[Manipular cadenas de caracteres en Python]: ../lecciones/manipular-cadenas-de-caracteres-en-python 
 [Reutilizacion de código y modularidad]: ../lecciones/reutilizacion-de-codigo-y-modularidad
-[zip]: ../assets/python-lessons2.zip
+[zip]: http://programminghistorian.org/assets/python-es-lecciones2.zip
+[obo-t17800628-33.html]: http://programminghistorian.org/assets/obo-t17800628-33.html

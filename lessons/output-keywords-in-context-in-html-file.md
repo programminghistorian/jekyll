@@ -5,8 +5,9 @@ authors:
 - Adam Crymble
 date: 2012-07-17
 reviewers:
-- Miriam Posner
 - Jim Clifford
+editors:
+- Miriam Posner
 layout: default
 next: downloading-multiple-records-using-query-strings
 previous: keywords-in-context-using-n-grams

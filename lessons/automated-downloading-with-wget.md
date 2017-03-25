@@ -5,6 +5,7 @@ authors:
 date: 2012-06-27
 reviewers:
 - Aurélien Berra
+editors:
 - Adam Crymble
 layout: default
 next: applied-archival-downloading-with-wget

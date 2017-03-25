@@ -4,9 +4,10 @@ authors:
 - Adam Crymble
 date: 2012-11-11
 reviewers:
-- Fred Gibbs
 - Luke Bergmann
 - Sharon Howard
+editors:
+- Fred Gibbs
 layout: default
 previous: output-keywords-in-context-in-html-file
 difficulty: 2

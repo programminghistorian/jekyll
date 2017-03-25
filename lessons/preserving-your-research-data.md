@@ -7,6 +7,7 @@ reviewers:
 - Jane Winters
 - Sharon Howard
 - William J. Turkel
+editors:
 - Adam Crymble
 layout: default
 difficulty: 1

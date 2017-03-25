@@ -5,9 +5,10 @@ authors:
 - Adam Crymble
 date: 2012-07-17
 reviewers:
-- Miriam Posner
 - Jim Clifford
 - Amanda Morton
+editors:
+- Miriam Posner
 layout: default
 ---
 
@@ -48,7 +49,7 @@ Edit website][]. Install it from the `.DMG` file
 
 It should look something like this:
 
-![screenshot of Komodo Exit on OS X](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/komodo-edit-mac.png)
+{% include figure.html filename="komodo-edit-mac.png" caption="Screenshot of Komodo Edit on OS X" %}
 
 Komodo Edit on a Mac
 
@@ -114,8 +115,7 @@ to execute your program. If you are using TextWrangler, click on the
 “\#!” button and Run. If all went well, it should look something like
 this:
 
-![TextWrangler-hello-world](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/TextWrangler-hello-world.png)
-“Hello World” in Python on a Mac
+{% include figure.html filename="TextWrangler-hello-world.png" caption="'Hello World' in Python on a Mac" %}
 
 ### Interacting with a Python shell
 
@@ -150,8 +150,7 @@ print('hello world')
 
 On your screen, it will look more like this:
 
-![hello world terminal on a Mac](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/hello-world-terminal.png)
-Python Shell in Mac Terminal
+{% include figure.html filename="hello-world-terminal.png" caption="Python Shell in Mac Terminal" %}
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in

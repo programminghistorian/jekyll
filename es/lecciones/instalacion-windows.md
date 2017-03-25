@@ -1,5 +1,5 @@
 ---
-title: Preparación de un ambiente integrado para Python (Windows)
+title: Creación de un entorno de desarrollo integrado para Python (Windows)
 authors:
 - William J. Turkel
 - Adam Crymble
@@ -10,8 +10,10 @@ reviewers:
 - Amanda Morton
 translator:
 - Víctor Gayol
-translation reviewer:
+translation-reviewer:
 - Jairo A. Melo
+- Maria José Afanador-Llach
+- Antonio Rojas Castro
 layout: default
 redirect_from: /es/lessons/windows-installation
 ---
@@ -37,7 +39,7 @@ Komodo Edit es un editor de texto libre y de código abierto, pero puedes utiliz
 
 Se deberá ver algo parecido a la siguiente ventana:
 
-![Komodo Edit on Windows][]
+{% include figure.html filename="komodo-edit-windows.png" caption="Komodo Edit en Windows" %}
 
 Si no está visible el panel de Caja de Herramientas (Toolbox) de la derecha, es necesario activarlo en el menú correspondiente. Selecciona `View -> Tabs -> Toolbox`. No importa si el panel del proyecto está abierto o no. Tómate un tiempo para familiarizarte con el diseño del Komodo Editor. El archivo de ayuda es bastante bueno.
 
@@ -45,16 +47,14 @@ Si no está visible el panel de Caja de Herramientas (Toolbox) de la derecha, es
 
 Ahora es necesario configurarlo para que puedas correr los programas de Python.
 
-1 .  Selecciona `Edit -> Preferences`. Esto abrirá una nueva ventana de diálogo. En "*Category*" selecciona Python y establece "*Default Python Interpreter*" , (debe ser `C:\Python27\Python.exe`
+1 .  Selecciona `Edit -> Preferences`. Esto abrirá una nueva ventana de diálogo. En "*Category*" selecciona Python y establece "*Default Python Interpreter*" , (debe ser `C:\Python27\Python.exe`)
 Si se ve más o menos así, oprime OK:
 
-![Komodo Default Python Interpreter Settings][]
-Seleccionar Python como intérprete por defecto.
+{% include figure.html filename="komodo-python-interpreter.png" caption="Seleccionar Python como intérprete por defecto." %}
 
 2 .  Enseguida en la sección  "*Preferences*" selecciona *Internacionalization*. Selecciona *Python* del menú despegable que se llama *Language-specific Default Encoding* y asegúrate que [UTF-8] esté seleccionado como el método de codificación por defecto.
 
-![utf-set][]
-Configurar lenguaje a UFT-8.
+{% include figure.html filename="utf-set.jpg" caption="Configurar lenguaje a UFT-8." %}
 
 Enseguida selecciona `Toolbox -> Add -> New Command` . Esto abrirá una nueva ventana de diálogo en la que deberás renombrar tu comando como `Run Python`. Debajo de `Command` teclea:
 
@@ -71,8 +71,7 @@ El campo activo ‘Start in’ debes escribir:
 
 Si se ve así, oprime OK:
 
-![Run Python Command Windows][]
- Configuración del comando 'Run Python'.
+{% include figure.html filename="run-python-windows.png" caption="Configuración del comando 'Run Python'." %}
 
 Tu nuevo comando debe aparecer en el panel de la caja de herramientas (*Toolbox*). Probablemente deberás reiniciar tu computadora para completar el paso antes de que Python trabaje con Komodo Edit.
 
@@ -92,9 +91,9 @@ En tu editor de texto crea un nuevo archivo y escribe el siguiente programa de d
 print ('hola mundo')
 ``` 
 
-El editor de texto que seleccionaste debe tener un botón `Run`  que te permitirá ejecutar tu programa. Si todo funciona bien, deberás ver algo como sigue (El ejemplo es como se ve en Komodo Edit. Da un Click en la imagen para ver una copia en tamaño completo):
+El editor de texto que seleccionaste debe tener un botón `Run`  que te permitirá ejecutar tu programa. Si todo funciona bien, deberás ver algo como sigue (El ejemplo es como se ve en Komodo Edit. Da un clic en la imagen para ver una copia en tamaño completo):
 
-![hello world in Komodo Edit][]
+{% include figure.html filename="hello-world1.png" caption="Hola Mundo en Komodo Edit" %}
 
 ## Interactuar con el intérprete de comandos (shell) de Python
 
@@ -120,31 +119,13 @@ Print('Hola Mundo')
 
 En la pantalla de tu computadora aparecerá de esta manera:
 
-![Python Shell on Windows][]
+{% include figure.html filename="python-shell-win.png" caption="Python Shell en Windows" %}
 
-
-Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos hacia unas tareas algo más interesantes. Si estás trabajando de manera ordenada las lecciones de Python, te sugerimos que pases ahora a la lección [Para entender páginas web y HTML]
-
----
-
-Sobre los autores: William J. Turkel es profesor de historia en la University of Western Ontario. Adam Crymble es conferencista (lecturer) en Historia Digital en la University of Hertfordshire.
-
----
-
-Forma sugerida para citar este texto:
-Para referirse al texto original: William J. Turkel and Adam Crymble, “Setting Up an Integrated Development Environment for Python (Windows)”, *Programming Historian* (17 July 2012), http://programminghistorian.org/lessons/windows-installation
-
-Para referirse a la versión en español: William J. Turkel and Adam Crymble, “Preparación de un ambiente de desarrollo integrado para Python (Mac)”, traducción y adaptación de Víctor Gayol, *Programming Historian en español* (17 de abril de 2016), 
-http://es.programminghistorian.org/lecciones/instalacion-windows
+Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos hacia unas tareas algo más interesantes. Si estás trabajando de manera ordenada las lecciones de Python, te sugerimos que pases ahora a la lección [Para entender páginas web y HTML].
 
 
 [sitio web de Python]: https://www.python.org
 [opciones de editores de texto]: https://wiki.python.org/moin/PythonEditors/
 [sitio web de Komodo Edit]: http://komodoide.com/komodo-edit/
-[Komodo Edit on Windows]: ../images/komodo-edit-windows.png
-[UTF-8]: http://en.wikipedia.org/wiki/UTF-8
-[utf-set]: ../images/utf-set.jpg
-[Run Python Command Windows]: ../images/run-python-windows.png
-[hello world in Komodo Edit]: ../images/hello-world1.png "Hola Mundo"
-[Python Shell on Windows]: ../images/python-shell-win.png
-[Para entender páginas web y HTML]: http://es.programminghistorian.org/lecciones/ver-archivos-html
+[UTF-8]: https://es.wikipedia.org/wiki/UTF-8
+[Para entender páginas web y HTML]: http://programminghistorian.org/es/lecciones/ver-archivos-html

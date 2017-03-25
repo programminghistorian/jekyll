@@ -9,7 +9,7 @@ reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
-translation reviewer:
+translation-reviewer:
 - Jairo A. Melo
 layout: default
 next: normalizar-datos
@@ -30,9 +30,9 @@ En esa lección aprenderás los comandos de Python que son necesarios para imple
 ### Archivos requeridos para esta lección
 
 - *obo.py*
-- *contenido-juicio*
+- *contenido-juicio.py*
 
-Si no tienes estos archivos puedes descargar el archivo comprimido python-lessons2.zip ([zip][]) de la lección anterior.
+Si no tienes estos archivos puedes descargar el archivo comprimido python-es-lecciones2.zip ([zip][]) de la lección anterior.
 
 ## Repetir y probar en Python
 
@@ -229,12 +229,12 @@ Tener simplemente una lista de palabras no es realmente significativo. Como sere
 
 ### Sincronización de código
 
-Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "programming-historian" para asegurarte que tienes el código correcto.
+Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "python-es-lecciones" para asegurarte que tienes el código correcto.
 
--   python-lessons3.zip ([zip sync][])
+-   python-es-lecciones3.zip ([zip sync][])
 
   [De HTML a lista de palabras (parte 1)]: ../lecciones/de-html-a-lista-de-palabras-1
   [entero]: http://docs.python.org/2.4/lib/typesnumeric.html
   [tipos]: http://docs.python.org/3/library/types.html
-  [zip]: ../assets/python-lessons2.zip
-  [zip sync]: ../assets/python-lessons3.zip
+  [zip]: http://programminghistorian.org/assets/python-es-lecciones2.zip
+  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones3.zip

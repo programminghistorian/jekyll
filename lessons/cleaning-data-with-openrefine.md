@@ -6,9 +6,10 @@ authors:
 - Max De Wilde
 date: 2013-08-05
 reviewers:
-- Adam Crymble
 - Patrick Burns
 - Nora McGregor
+editors:
+- Adam Crymble
 layout: default
 difficulty: 2
 ---

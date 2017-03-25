@@ -9,7 +9,7 @@ reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
-translation reviewer:
+translation-reviewer:
 - Jairo A. Melo
 layout: default
 categories: [lessons, original-ph, python]
@@ -21,7 +21,7 @@ redirect_from: /es/lessons/code-reuse-and-modularity
 Objetivos de la lección
 -----------------------
 
-Los programas de computadora pueden resultar largos, inmanejables y confusos si no contamos con mecanismos especiales para la gestión de su complejidad. Esta lección te mostrará la manera de reutilizar partes de su código mediante la escritura de *Funciones* y cómo fraccionar tus programas en *Módulos* con el fin de mantener todo de una manera concisa y fácil de depurar. Ser capaz de extraer un módulo disfuncional nos lleva a ahorrar tiempo y esfuerzo.
+Los programas de computadora pueden resultar largos, inmanejables y confusos si no contamos con mecanismos especiales para la gestión de su complejidad. Esta lección te mostrará la manera de reutilizar partes de su código mediante la escritura de *Funciones* y cómo fraccionar tus programas en *Módulos* con el fin de mantener todo de una manera concisa y fácil de depurar. Ser capaz de extraer un módulo que no resulte útil nos ahorra tiempo y esfuerzo.
 
 ### Funciones
  
@@ -46,7 +46,7 @@ Hola Todos
 Hola Programming Historian
 ``` 
 
-Este ejemplo contiene una función: *saludoEntidad* Esta función entonces es *llamada* (a veces se le denomina *invocada*) dos veces. Llamar o invocar una función solamente significa que le hemos dicho al programa que ejecute el código en esa función. Como darle al perro su recompensa sabor a pollo (\*guau\* \*guau\*). En este caso, cada vez que hemos llamado a la función le hemos dado un parámetro diferente. Intenta editar `saludo.py` para que invoque a la función *saludoEntidad* una tercera vez utilizando tu propio nombre como parámetro. Ejecuta el programa de nuevo. Debes ser capaz de imaginarte qué es lo que hace '(x)' en la declaración de la función.
+Este ejemplo contiene una función: *saludoEntidad*. Esta función entonces es *llamada* (a veces se le denomina *invocada*) dos veces. Llamar o invocar una función solamente significa que le hemos dicho al programa que ejecute el código en esa función. Como darle al perro su recompensa sabor a pollo (\*guau\* \*guau\*). En este caso, cada vez que hemos llamado a la función le hemos dado un parámetro diferente. Intenta editar `saludo.py` para que invoque a la función *saludoEntidad* una tercera vez utilizando tu propio nombre como parámetro. Ejecuta el programa de nuevo. Debes ser capaz de imaginarte qué es lo que hace '(x)' en la declaración de la función.
 
 Antes de ir al siguiente paso, edita `saludo.py` para borrar las llamadas de la función dejando solamente la declaración de la función. Vas a aprender cómo llamar a la función desde otro programa. Cuando termines, tu  archivo`saludo.py` deberá verse como esto:
 
@@ -61,9 +61,9 @@ def saludoEntidad (x):
 
 Cuando los programas son pequeños, como en el ejemplo anterior, generalmente se almacenan en un solo archivo. Cuando deseas ejecutar uno de tus programas simplemente puedes enviar el archivo al intérprete. Cuando los programas se hacen más grandes, tiene sentido cortarlos en archivos separados conocidos como módulos. Esta [modularidad] hace que te sea más fácil trabajar en secciones de tus programas más largos. Al perfeccionar cada sección del programa antes de poner todas las secciones juntas haces más fácil el reutilizar módulos individuales en otros programas y haces más sencillo resolver problemas al ser capaz de precisar la fuente del error. Cuando se corta un programa en módulos también eres capaz de ocultar detalles de cómo se hace algo dentro del módulo que lo hace. Otros módulos no necesitan saber cómo se logra algo si no son responsables de hacerlo. Este principio, necesario de conocer, se llama [encapsulamiento].
 
-Supongamos qu eestamos construyendo un automóvil. Podrías empezar a juntar piezas de cualquier modo, pero tendría más sentido comenzar a construir y probar cada modulo -quizá el motor- antes de pasar a otros. El motor, a su vez, podría idearse a partir de un número de otros pequeños módulos, como el sistema de carburación y de encendido, los cuales se componen de módulos básicos aún más pequeños. Lo mismo aplica cuando escribes código. Trata de separar un problema en partes más pequeñas y resuélvelas primero.
+Supongamos que estamos construyendo un automóvil. Podrías empezar a juntar piezas de cualquier modo, pero tendría más sentido comenzar a construir y probar cada modulo -quizá el motor- antes de pasar a otros. El motor, a su vez, podría idearse a partir de un número de otros pequeños módulos, como el sistema de carburación y de encendido, los cuales se componen de módulos básicos aún más pequeños. Lo mismo aplica cuando escribes código. Trata de separar un problema en partes más pequeñas y resuélvelas primero.
 
-Acabas de crear un módulo cuando escribiste el programa `saludo.py`. Ahora vas a escribir un segundo programa, `usar-saludo.py` que importará el código de tu módulo y hará uso de él. Python tiene una declaración especial de importación (`import`) que permite a un programa tener acceso al contenido de otro archivo de programa. Esto es lo que estarás utilizando.
+Acabas de crear un módulo cuando escribiste el programa `saludo.py`. Ahora vas a escribir un segundo programa, `usar-saludo.py`, que importará el código de tu módulo y hará uso de él. Python tiene una declaración especial de importación (`import`) que permite a un programa tener acceso al contenido de otro archivo de programa. Esto es lo que estarás utilizando.
 
 Copia este código en el Komodo Edit y guárdalo como `usar-saludo.py` . Este archivo es tu programa y `saludo.py` es tu módulo.
 
@@ -82,8 +82,8 @@ También te darás cuenta que si antes hemos podido ejecutar la función llamán
 Puedes ejecutar tu programa `usar-saludo.py` con el comando "Ejecutar Python" que creaste en Komodo Edit. Ten en cuenta que no necesitas ejecutar tu módulo... solamente el programa que lo llama. Si todo se hizo bien, deberás ver lo siguiente en el panel de salida de Komodo Edit:
 
 ```
-Hola Todos
-Hola Programming Historian
+Hola todos
+Hola programming historian
 ``` 
 
 Antes de seguir adelante, asegúrate de entender la diferencia entre cargar un archivo de datos (por ejemplo: `hola-mundo.txt`) e importar un archivo de programa (por ejemplo: `saludo.py` ).

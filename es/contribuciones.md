@@ -14,7 +14,7 @@ _The Programming Historian en español_ es posible gracias al esfuerzo de volunt
 
 Si tienes dominio del inglés y del español, puedes traducir una lección ya publicada en _The programming Historian_. De esta manera participarás en la comunidad hispánica de las humanidades digitales y profundizarás en un lenguaje, método o tecnología. 
 
-Buscamos traducciones rigurosas y de lectura amena que tengan en cuenta el contexto hispánico y los recursos disponibles en nuestra comunidad. 
+Buscamos traducciones rigurosas y de lectura amena que tengan en cuenta el contexto hispánico y los recursos disponibles en nuestra comunidad. Si te interesa colaborar, consulta nuestras [instrucciones para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
 
 ## Escribe una lección
 
@@ -85,7 +85,8 @@ Si se te ocurren más formas de participación, siempre puedes escribirnos un em
 [nuevas lecciones]: http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones
 [envío]: http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones
 [revisores]: http://programminghistorian.org/es/guia-para-revisores
-[comentarios]: http://programminghistorian.org/es/comentarios
+[Guía para editores]: http://programminghistorian.org/es/guia-editor
+[comentarios]: http://programminghistorian.org/es/retroalimentacion
 [WorldCat]: http://www.worldcat.org/title/programming-historian/oclc/951537099
 [University of Purdue library]: http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink
 [Directory of Open Access Journals]: https://doaj.org/toc/2397-2068

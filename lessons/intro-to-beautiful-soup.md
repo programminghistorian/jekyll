@@ -3,7 +3,7 @@ title: Intro to Beautiful Soup
 authors:
 - Jeri Wieringa
 date: 2012-12-30
-reviewers:
+editors:
 - Fred Gibbs
 layout: default
 difficulty: 2
@@ -65,7 +65,14 @@ With sudo, the command is:
 sudo pip install beautifulsoup4
 ```
 
-{% include figure.html src="http://imgs.xkcd.com/comics/sandwich.png" caption="The power of sudo: 'Sandwich' by XKCD" %}
+<figure>
+<a href="http://imgs.xkcd.com/comics/sandwich.png">
+      <img src="http://imgs.xkcd.com/comics/sandwich.png" alt="The power of sudo: 'Sandwich' by XKCD">
+	</a>
+<figcaption>
+    The power of sudo: 'Sandwich' by XKCD
+</figcaption>
+</figure>
 
 Application: Extracting names and URLs from an HTML page
 --------------------------------------------------------
@@ -460,7 +467,7 @@ for tr in trs:
         positions = str(tds[2].get_text())
         parties = str(tds[3].get_text())
         states = str(tds[4].get_text())
-        congress = tds[5].get_text()
+        congress = str(tds[5].get_text())
 
     except:
         print "bad tr string"
@@ -514,7 +521,7 @@ for tr in trs:
         positions = str(tds[2].get_text())
         parties = str(tds[3].get_text())
         states = str(tds[4].get_text())
-        congress = tds[5].get_text()
+        congress = str(tds[5].get_text())
 
     except:
         print "bad tr string"

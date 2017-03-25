@@ -9,11 +9,11 @@ reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
-translation reviewer:
+translation-reviewer:
 - Jairo A. Melo
 layout: default
 next: de-html-a-lista-de-palabras-1
-previous: trabajando-con-paginas-web
+previous: trabajar-con-paginas-web
 redirect_from: /es/lessons/manipulating-strings-in-python
 ---
 
@@ -72,7 +72,7 @@ print(mensaje3)
 
 En adición a los operadores, Python trae preinstalado docenas de métodos que te permiten hacer cosas con las cadenas de caracteres. Solos o en combinación, los métodos pueden hacer casi todo lo que te imagines con las cadenas de caracteres. Puedes usar como referencia la lista de métodos de cadenas de caracteres (*String Methods*) en el [sitio web de Python], que incluye información de cómo utilizar correctamente cada uno. Para asegurar que tengas una comprensión básica de métodos para cadenas de caracteres, lo que sigue es una breve descripción de los utilizados más comúnmente.
 
- ### Extensión
+### Extensión
 
 Puedes determinar el número de caracteres en una cadena utilizando el método `len`. Toma en consideración que los espacios en blanco cuentan como un carácter.
 
@@ -186,8 +186,8 @@ print('\"')
 ```
 
 ``` python
-print('El programa imprimió \"Hola Mundo\"')
--> El programa imprimió "Hola Mundo"
+print('El programa imprime \"Hola Mundo\"')
+-> El programa imprime "Hola Mundo"
 ``` 
 
 Otras dos secuencias de escape te permiten incluir marcas de tabulación (t) y saltos de línea (n):
@@ -209,11 +209,11 @@ Lecturas sugeridas
 
 ### Sicronización de código
 
-Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "programming-historian" para asegurarte que tienes el código correcto.
+Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "python-es-lecciones" para asegurarte que tienes el código correcto.
 
--   programming-historian-1 ([zip][])
+-   python-es-lecciones1.zip ([zip][])
 
 
 [cadenas de caracteres]: https://es.wikipedia.org/wiki/Cadena_de_caracteres
 [sitio web de Python]: https://docs.python.org/2/library/stdtypes.html#string-methods
-[zip]: ../assets/python-lessons1.zip
+[zip]: http://programminghistorian.org/assets/python-es-lecciones1.zip

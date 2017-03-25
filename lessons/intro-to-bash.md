@@ -8,6 +8,7 @@ reviewers:
 - Melodee Beals
 - Allison Hegel
 - Charlotte Tupman
+editors:
 - Adam Crymble
 layout: default
 next: research-data-with-unix
