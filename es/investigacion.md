@@ -33,6 +33,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Carteles, conferencias y presentaciones
 
+* Adam Crymble, 'White, Male, and North American: Challenges of Diversifying the Programming Historian', Universit&eacute; de Lausanne, Switzerland (23-24 March 2017).
 * Victor Gayol, 'La investigación del pasado y la historia digital: análisis de datos y cómo aprender (The Programming Historian en español)', _Humanidades Digitales_, IV Feria Internacional de Ciencias Sociales y Humanidades, Centro Universitario de Los Lagos - Universidad de Guadalajara, Lagos de Moreno, Jalisco (9 de marzo, 2017).
 * Victor Gayol, 'The Programming Historian: 'un modelo colaborativo para la investigaci&oacute;n y la ense&ntilde;anza en ciencias sociales y humanidades digitales', _Mesa de Trabajo sobre Ciencias Sociales y Humanidades Digitales_, El Colegio De Michoac&aacute;n, México (21 de febrero, 2017).
 * Adam Crymble, 'Bringing Digital Humanities into the University for Free', University of Cape Town, South Africa (27-28 June 2016).
