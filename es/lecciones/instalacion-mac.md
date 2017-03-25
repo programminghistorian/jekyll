@@ -74,7 +74,7 @@ En tu editor de texto crea un nuevo archivo y escribe el siguiente programa de d
 
 ```python
 # hola-mundo.py
-print (hola mundo)
+print ('hola mundo')
 ```
 El editor de texto que seleccionaste debe tener un botón "`run`" que te permitirá ejecutar tu programa. Por ejemplo, si estás utilizando TextWrangler, haz clic en el botón "`#!`" para ejecutarlo. Si todo funciona bien (es posible que no, con lo cual habrá que revisar las diversas instalaciones y configuraciones), deberás ver algo como sigue:
 
