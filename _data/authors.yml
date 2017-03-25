@@ -416,13 +416,14 @@
         student in the Department of History and Art History at George Mason Unveristy.
 
 - name: Brandon Walsh
+  github: walshbr
   twitter: walshbr
-  url: "http://bmw9t.github.io/"
-  team: false
+  email: walsh.brandon.michael@gmail.com
+  url: "http://walshbr.com/"
+  team: true
   bio:
     en: |
-        Brandon Walsh is Mellon Digital Humanities Fellow in the Library at Washington and Lee 
-        University. He received his PhD from the University of Virginia.
+        Brandon Walsh is Head of Graduate Programs in the Scholars' Lab in the University of Virginia Library.
 
 - name: Ted Dawson
   team: false
