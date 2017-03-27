@@ -134,6 +134,8 @@ Ian Milligan es profesor de Historia en la Universidad de Waterloo. Tiene inter√
 <br /><br /><br />
 </div>
 
+{% include contact-info.html name="Jessica Parr" %}
+
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Antonio-Rojas-Castro.png" />
 Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en el Cologne Center for eHumanities.
