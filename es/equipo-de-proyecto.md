@@ -7,19 +7,19 @@ Nuestro equipo editorial trabaja en conjunto para ayudar a los autores a produci
 
 ## Consejo editorial
 
--<div class="contact-box">
--<img class="avatar" src="http://programminghistorian.org/avatars/Maria-Jose-Afanador-Llach.png" />
--Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una organización sin ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro, así como promover proyectos de Humanidades Digitales.
-- 
--<br />
--	
--	
--		<a href="mailto:mariajose@neogranadina.org"><i class="fa fa-envelope-square fa-lg"></i></a>
--	
--	
--		<a href="https://twitter.com/mariajoafana"><i class="fa fa-twitter-square fa-lg"></i></a>
--<br /><br /><br />
--</div>
+<div class="contact-box">
+<img class="avatar" src="http://programminghistorian.org/avatars/Maria-Jose-Afanador-Llach.png" />
+Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una organización sin ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro, así como promover proyectos de Humanidades Digitales.
+ 
+<br />
+	
+	
+		<a href="mailto:mariajose@neogranadina.org"><i class="fa fa-envelope-square fa-lg"></i></a>
+	
+	
+		<a href="https://twitter.com/mariajoafana"><i class="fa fa-twitter-square fa-lg"></i></a>
+<br /><br /><br />
+</div>
 
 {% include contact-info.html name="Adam Crymble" %}
 
