@@ -93,7 +93,9 @@
   team: true
   bio:
     en: |
-        Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (CPI-CONACYT), México, with a PhD in History.
+        Víctor Gayol is a researcher and professor of history at El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
+    es: |
+        Víctor Gayol es profesor investigador en el Centro de Estudios Históricos de El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
 
 - name: Antonio Rojas Castro
   email: rojas.castro.antonio@gmail.com
@@ -103,6 +105,8 @@
   bio:
     en: |
         Antonio Rojas Castro is a researcher a the Cologne Center for eHumanities, with a PhD in Humanities (Spanish Literature).
+    es: |
+        Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en el Cologne Center for eHumanities.
 
 - name: Stephen Margheim
   bio:
@@ -392,6 +396,8 @@
   bio:
     en: |
         Matthew Lincoln is a data research specialist at the Getty Research Institute, and an art historian of early modern Europe.
+    es: |
+        Matthew Lincoln es especialista en la investigación de datos en el Getty Research Institute e historiador del arte de la Europa moderna.
 
 - name: Sarah Simpkin
   twitter: sarahsimpkin
