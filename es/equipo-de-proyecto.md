@@ -42,6 +42,8 @@ Víctor Gayol es profesor investigador en el Centro de Estudios Históricos de E
 <br /><br /><br />
 </div>
 
+{% include contact-info.html name="Fred Gibbs" %}
+
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Fred-Gibbs.png" />
 Fred Gibbs es profesor de Historia en la Universidad de Nuevo México. Investiga y edita lecciones sobre mapeado digital, visualización de datos, y publicación web.
