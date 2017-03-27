@@ -1,0 +1,92 @@
+---
+layout: base
+---
+
+<header>
+
+<div class="container-fluid">
+
+  <div class="container">
+
+    <div class="header-title">
+      <h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+    </div>
+
+    <div class="header-author">
+      <h2>{% include author.html %}</h2>
+    </div>
+
+    <div class="header-abstract">
+      <p>{{ page.abstract }}</p>
+    </div>
+
+
+    <div class="row d-flex justify-content-around no-gutters">
+
+      <div class="col text-right" >
+        <h3 class="text-right">Reviewers</h3>
+      </div>
+
+      <div class="col">
+        {% include reviewer.html %}
+      </div>
+
+
+      <div class="col">
+        <h3 class="text-right">Editors</h3>
+      </div>
+
+      <div class="col">
+        <ul>
+        {% for editor in page.editors %}
+          <li>{{editor}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+
+
+      <!--
+      {% if page.translator %}
+          <div class="col">
+            <h3>Translators</h3>
+            <ul>
+            {% for editor in page.editors %}
+              <li>{{editor}}</li>
+            {% endfor %}
+            </ul>
+          </div>
+      {% endif %}
+      -->
+    </div> <!-- end row -->
+  </div>
+
+  <div class="container-fluid header-bottom">
+    <div class="container d-flex justify-content-around">
+      <div class="col metarow"><h4>published</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      <div class="col metarow"><h4>modified</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      <div class="col metarow"><h4>difficulty</h4>  {% include difficulty.html %}</div>
+    </div>
+  </div>
+
+</header>
+
+
+  <div class="container">
+
+     {% if page.previous %}
+        {% include previous.html %}
+     {% endif %}
+
+     {% if page.deprecated %}
+      <div class="deprecated"> {% include deprecated.html %} </div>
+     {% endif %}
+
+     <div class="content">
+         {{ content }}
+     </div>
+
+     {% if page.next %}
+        {% include next.html %}
+     {% endif %}
+
+     {% include author-info.html %}

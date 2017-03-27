@@ -1,14 +1,14 @@
 <nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
+  <div class="container">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <a class="navbar-brand" href="/">Programming Historian</a>
-<div class="container">
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
+    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            {{site.data.snippets.menu-about[page.lang]}}
+            {{site.baseurl}}{{site.data.snippets.menu-about[page.lang]}}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="{{site.data.snippets.menu-about-overview[page.lang].link}}">{{site.data.snippets.menu-about-overview[page.lang].title}}</a>
@@ -39,5 +39,5 @@
 
     </ul>
   </div>
-</div>
+  </div>
 </nav>

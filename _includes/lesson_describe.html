@@ -1,0 +1,14 @@
+<span class="lesson-description">
+
+<span class="image">
+<a href="{{ site.baseurl }}/lessons/{{ lesson.slug }}"><img src="{{ site.baseurl }}/gallery/{{ lesson.slug }}.png" width= "200"></a>
+</span>
+
+<span class="title"><a href="{{ site.baseurl }}/lessons/{{ lesson.slug }}">{{ lesson.title }}</a></span><br>
+
+<span class="authors">{{ lesson.authors | default: "" | array_to_sentence_string }}</span> | <span class="date">{{ lesson.date }}</span><span class="visible-date">{{ lesson.date | date: "%b %-d, %Y" }}</span><br>
+Reviewed by <span class="reviewers">{{ lesson.reviewers | default: "" | array_to_sentence_string }}</span>
+
+<p class="abstract">{{ lesson.abstract }}</p>
+<span class="activity">{{ lesson.activity }}</span>
+</span>
