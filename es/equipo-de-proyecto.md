@@ -21,6 +21,8 @@ Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una
 <br /><br /><br />
 </div>
 
+{% include contact-info.html name="Maria José Afanador-Llach" %}
+
 {% include contact-info.html name="Adam Crymble" %}
 
 <div class="contact-box">
@@ -43,25 +45,6 @@ Víctor Gayol es profesor investigador en el Centro de Estudios Históricos de E
 </div>
 
 {% include contact-info.html name="Fred Gibbs" %}
-
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Fred-Gibbs.png" />
-Fred Gibbs es profesor de Historia en la Universidad de Nuevo México. Investiga y edita lecciones sobre mapeado digital, visualización de datos, y publicación web.
- 
-<br />
-
-	<a href="http://fredgibbs.net"><i class="fa fa-home fa-lg"></i></a>
-	
-		<a href="mailto:fwgibbs@gmail.com"><i class="fa fa-envelope-square fa-lg"></i></a>
-	
-	
-		<a href="http://twitter.com/fredgibbs"><i class="fa fa-twitter-square fa-lg"></i></a>
-	
-	
-		<a href="http://github.com/fredgibbs"><i class="fa fa-github-square fa-lg"></i></a>
-	
-<br /><br /><br />
-</div>
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Matthew-Lincoln.png" />
