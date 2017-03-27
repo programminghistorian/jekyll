@@ -21,26 +21,7 @@ Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una
 <br /><br /><br />
 </div>
 
-
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Adam-Crymble.png" />
-Adam Crymble es profesor de historia digital en la Universidad de Hertfordshire.
- 
-<br />
-
-
-	<a href="http://adamcrymble.org"><i class="fa fa-home fa-lg"></i></a>
-	
-		<a href="mailto:adam.crymble@gmail.com"><i class="fa fa-envelope-square fa-lg"></i></a>
-	
-	
-		<a href="https://twitter.com/Adam_Crymble"><i class="fa fa-twitter-square fa-lg"></i></a>
-	
-	
-		<a href="http://github.com/acrymble"><i class="fa fa-github-square fa-lg"></i></a>
-	
-<br /><br /><br />
-</div>
+{% include contact-info.html name="Adam Crymble" %}
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Victor-Gayol.png" />
