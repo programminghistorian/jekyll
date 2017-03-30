@@ -7,7 +7,7 @@ categories: posts
 ---
 
 
-<p><figure><img src="/avatars/Jessica-Parr.png" alt=""/><img src="/avatars/Brandon-Walsh.png" alt=""/><figcaption>
+<p><figure><img src="/avatars/Jessica-Parr.png" alt="" style="width:200px;"/><img src="/avatars/Brandon-Walsh.png" alt=""/><figcaption>
     Jessica Parr and Brandon Walsh have joined the Programming Historian</figcaption></figure></p>
 
 
