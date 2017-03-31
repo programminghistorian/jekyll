@@ -7,7 +7,7 @@ categories: posts
 ---
 
 
-<p><figure><img src="../images/history-of-protest/northerStar.jpg" alt=""/><figcaption>
+<p><figure><img src="../images/history-of-protest/northernStar.jpg" alt=""/><figcaption>
     The Northern Star newspaper, 9 February 1839.</figcaption></figure></p>
 
 
