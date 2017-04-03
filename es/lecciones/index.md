@@ -20,7 +20,6 @@ Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerz
       <p>James Baker</p>
     </a>
   </li>
-  </ul>
 
 <ul class="lesson-images">
   <li>
