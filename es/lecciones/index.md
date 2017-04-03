@@ -22,6 +22,16 @@ Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerz
   </li>
   </ul>
 
+<ul class="lesson-images">
+  <li>
+    <a href="{{site.url}}/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown">
+      <img src="{{site.url}}/gallery/sustainable-authorship-in-plain-text-using-pandoc-and-markdown.png">
+      <h3>Escritura sostenible en texto plano usando Pandoc y Markdown</h3>
+      <p>James Baker</p>
+    </a>
+  </li>
+  </ul>
+  
 Introducción a Python
 ----------------------
 
