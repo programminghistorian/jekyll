@@ -158,7 +158,9 @@
   bio:
     en: |
         Daniel van Strien is a Library Science student at City University, London.
-
+    es: |
+        Daniel van Strien es estudiante de Biblioteconomía en la Universidad de la Ciudad, Londres.
+        
 - name: Kim Pham
   team: true
   bio:
