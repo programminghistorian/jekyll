@@ -1011,7 +1011,7 @@ First, we need to load the `socket` library, which should be done in the
 same way as all of our previous library imports. We will also need to
 set the default socket timeout length – how long do we want to try to
 download a page before we give up. This should go immediately after the
-comment that begins with `\#download the page`
+comment that begins with `#download the page`
 
 ```
 import os, urllib2, time, socket
@@ -1094,10 +1094,10 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
     for pages in range(1, pageCount+1):
 
         #each part of the URL. Split up to be easier to read.
-        url = 'http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext='
+        url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
         url += query
         url += '&kwparse=' + kwparse
-        url += '&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount'
+        url += '&_divs_div0Type_div1Type=sessionsPaper_trialAccount'
         url += '&fromYear=' + fromYear
         url += '&fromMonth=' + fromMonth
         url += '&toYear=' + toYear
