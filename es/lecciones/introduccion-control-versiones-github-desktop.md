@@ -73,13 +73,13 @@ Aunque a veces se utilizan como sinónimos, Git y GitHub no son lo mismo. Git es
 
 En cambio, GitHub es una compañía que aloja repositorios Git (más detalles abajo) y que proporciona un programa específico para usar Git. Entre las modalidades de uso, destaca el programa 'GitHub Desktop', sobre el que trata este tutorial. Actualmente, si tenemos en cuenta el [número de proyectos y de usuarios](https://en.wikipedia.org/wiki/Comparison_of_source_code_hosting_facilities#Popularity), es posible afirmar que GitHub es la plataforma más popular para alojar en abierto el código de proyectos digitales.
 
-Pese a que GitHub está diseñado originalmente para publicar código fuente, algunos proyectos, como *Programming Historian en español*, lo utilizan para controlar las versiones y para gestionar el flujo de trabajo de sus publicaciones, libros de texto, etc. Así que familiarizarte con GitHub no solo te permitirá controlar las versiones de tu documento sino contribuir a los proyectos que utilizan GitHub. En esta lección nuestro objetivo es ofrecer una introducción al funcionamiento básico de los objetivos y principios del control de versiones de un archivo de texto plano. La lección no es exhaustiva pero proporciona un punto de partida para que puedas seguir aprendiendo por tu cuenta.
+Pese a que GitHub está diseñado originalmente para publicar código fuente, algunos proyectos, como *The Programming Historian en español*, lo utilizan para controlar las versiones y para gestionar el flujo de trabajo de sus publicaciones, libros de texto, etc. Así que familiarizarte con GitHub no solo te permitirá controlar las versiones de tu documento sino contribuir a los proyectos que utilizan GitHub. En esta lección nuestro objetivo es ofrecer una introducción al funcionamiento básico de los objetivos y principios del control de versiones de un archivo de texto plano. La lección no es exhaustiva pero proporciona un punto de partida para que puedas seguir aprendiendo por tu cuenta.
 
 ### ¿Por qué no utilizar Dropbox o Google Drive?
 
 Dropbox, Google Drive y otros servicios ofrecen alguna forma de controlar las versiones en sus sistemas. A veces esto es suficiente para tus necesidades. Sin embargo, existen algunas ventajas por las que vale la pena utilizar un control de versiones como Git:
 
-* Mayor cobertura de lenguaje: Git admite tanto texto como lenguajes de programación. A medida que la investigación incluye métodos informáticos y herramientas digitales, se vuelve necesario disponer de una plataforma que gestione publicaciones tradicionales (artículos, libros, etc.) pero también nuevos tipos de publicaciones como código, conjunto de datos, etc.
+* Mayor cobertura de lenguaje: Git admite tanto texto como lenguajes de programación. A medida que la investigación incluya métodos informáticos y herramientas digitales, se vuelve necesario disponer de una plataforma que gestione publicaciones tradicionales (artículos, libros, etc.) pero también nuevos tipos de publicaciones como código, conjunto de datos, etc.
 * Más control: un sistema de control de versiones te dará mayor poder para gestionar los cambios de tus documentos.
 * Historial más útil: si utilizas un sistema de control como Git, podrás producir un historial de tu documento. A través de este historial tú y tus colaboradores podréis navegar fácilmente por las distintas etapas del documento. 
 
@@ -139,7 +139,7 @@ Para utilizar de manera efectiva el control de versiones de Git, es importante o
 
 ### Añadir un documento
 
-Hay varias formas de *añadir* un archivo para que GitHub Desktop lo controle. Por ejemplo, podemos arrastrar un directorio con el archivo a GitHub Desktop. Si haces esto, el programa te preguntará si quieres crear un repositorio para este directorio. Otra manera consiste en cliclar sobre el icono 'más' para abrir el buscador y elegir la carpeta que queremos añadir.
+Hay varias formas de *añadir* un archivo para que GitHub Desktop lo controle. Por ejemplo, podemos arrastrar un directorio con el archivo a GitHub Desktop. Si haces esto, el programa te preguntará si quieres crear un repositorio para este directorio. Otra manera consiste en hacer clic sobre el icono 'más' para abrir el buscador y elegir la carpeta que queremos añadir.
 
 {% include figure.html filename="intro-github-1.png" caption="Añade un repositorio" %}
 
@@ -147,7 +147,7 @@ Una vez hemos añadido nuestra carpeta podremos verla en la lista de repositorio
 
 {% include figure.html filename="intro-github-2.png" caption="Añade un repositorio" %}
 
-Si clicamos sobre el repositorio que acabamos de añadir, podremos ver los archivos contenidos. En este menú, además, podremos elegir qué archivos queremos rastrear pues a veces trabajamos en proyectos con archivos que no lo requieren. Al lado, a la derecha, se visualizan los documentos.  
+Si hacemos clic sobre el repositorio que acabamos de añadir, podremos ver los archivos contenidos. En este menú, además, podremos elegir qué archivos queremos rastrear pues a veces trabajamos en proyectos con archivos que no lo requieren. Al lado, a la derecha, se visualizan los documentos.  
 
 Si seleccionamos mostrar las carpetas ocultas en el directorio que acabamos de añadir a GitHub, podremos ver que contiene una carpeta adicional llamada '.git'. En esta carpeta quedan registrados los cambios producidos en el control de versiones y también si los cambios son modificaciones efectuadas en archivos ya existentes o bien si hemos creado archivos nuevos.
 
@@ -220,7 +220,7 @@ Hasta ahora solo hemos registrado nuestros cambios de manera local. Aunque podr�
  
 {% include figure.html filename="intro-github-4.png" caption="Cómo publicar el repositorio" %}
 
-Una vez hayas 'publicado' tu repositorio, será visible en tu perfil de GitHub. Es posible crear un repositorio privado en GitHub pero solo si te registras como [estudiante](https://education.github.com/pack) o [investigador](https://github.com/blog/1840-improving-github-for-science), o bien pagando una [suscripción](https://github.com/pricing). Si no te has registrado como estudiante o investigador, solo podrás crear un repositorio privado cuando pagues por una suscripción. Por eso, a menos que quieras pagar, puedes ignorar la sección 'Información sobre la compra'. En esta sección, será suficiente con publicar un repositorio en abierto. Para acceder a tu repositorio en línea, en el menú puedes clicar sobre 'Repository' ('Repositorio') y luego elegir 'View on GitHub' (es decir, 'Ver en GitHub'). Al hacer esto, se abrirá una ventana en tu navegador con tu repositorio en línea.
+Una vez hayas 'publicado' tu repositorio, será visible en tu perfil de GitHub. Es posible crear un repositorio privado en GitHub pero solo si te registras como [estudiante](https://education.github.com/pack) o [investigador](https://github.com/blog/1840-improving-github-for-science), o bien pagando una [suscripción](https://github.com/pricing). Si no te has registrado como estudiante o investigador, solo podrás crear un repositorio privado cuando pagues por una suscripción. Por eso, a menos que quieras pagar, puedes ignorar la sección 'Información sobre la compra'. En esta sección, será suficiente con publicar un repositorio abierto. Para acceder a tu repositorio en línea, en el menú puedes hacer clic sobre 'Repository' ('Repositorio') y luego elegir 'View on GitHub' (es decir, 'Ver en GitHub'). Al hacer esto, se abrirá una ventana en tu navegador con tu repositorio en línea.
 
 {% include figure.html filename="intro-github-5.png" caption="Vista del menú" %}
 
@@ -228,11 +228,11 @@ A continuación, deberías ver tu documento en tu repositorio web.
 
 {% include figure.html filename="intro-github-6.png" caption="La versión en línea de tu repositorio" %}
 
-Una vez que tu documento esté en línea, puedes continuar realizando cambios en tu documento localmente. Pero tendrás que **sincronizar** tus cambios locales para reflejarlos en el repositorio publicado en GitHub. Esta plataforma almacena los cambios en tu ordenador y en remoto (en sus servidores). Por eso es importante mantener ambos lugares sincronizados. Con GitHub Desktop este proceso se simplifica mientras que en la línea de comandos deberíamos ejecutar **sync** ('sincronizar') y luego **pull** ('recibir'). Verás el botón 'sync' en el margen superior derecho de tu GitHub Desktop. Al pulsarlo, te aseguras de que tu entorno local (tu ordenador) y tu entorno remoto (el servidor de GitHub) contienen la misma información. Si quieres trabajar en tu documento antes de publicarlo, también puedes elegir anotar los cambios sin sincronizar. Esto te permitirá poner en marcha el control de versiones en local en una fase temprana.
+Una vez que tu documento esté en línea, puedes continuar realizando cambios en tu documento localmente. Pero tendrás que **sincronizar** tus cambios locales para reflejarlos en el repositorio publicado en GitHub. Esta plataforma almacena los cambios en tu ordenador y remotamente (en sus servidores). Por eso es importante mantener ambos lugares sincronizados. Con GitHub Desktop este proceso se simplifica mientras que en la línea de comandos deberíamos ejecutar **sync** ('sincronizar') y luego **pull** ('recibir'). Verás el botón 'sync' en el margen superior derecho de tu GitHub Desktop. Al pulsarlo, te aseguras de que tu entorno local (tu ordenador) y tu entorno remoto (el servidor de GitHub) contienen la misma información. Si quieres trabajar en tu documento antes de publicarlo, también puedes elegir anotar los cambios sin sincronizar. Esto te permitirá poner en marcha el control de versiones en local en una fase temprana.
 
-### Cómo hacer cambios en remoto
+### Cómo hacer cambios remotamente
 
-También es posible realizar cambios en tu repositorio a través de la  interfaz web de GitHub. Para ello, clica sobre el nombre del archivo y accederás a una nueva página que muestra tu documento.
+También es posible realizar cambios en tu repositorio a través de la  interfaz web de GitHub. Para ello, haz clic sobre el nombre del archivo y accederás a una nueva página que muestra tu documento.
 
 {% include figure.html filename="intro-github-7.png" caption="Vista de tu documento en línea" %}
 
@@ -240,11 +240,11 @@ También es posible realizar cambios en tu repositorio a través de la  interfaz
 
 La interfaz web ofrece otras opciones. Por ejemplo, puedes visualizar los cambios en el historial, puedes abrir el documento en GitHub Desktop, o bien puedes eliminarlo. Encontrarás más opciones junto a la opción 'code' ('código'). Estas opciones no son importantes ahora mismo, al principio, pero quizás la uses en el futuro. A continuación, intentaremos editar un documento en la interfaz web y sincronizar los cambios con nuestro repositorio local.
 
-Así, pues, clica sobre la opción 'editar' representada con un lápiz.
+Así, pues, haz clic sobre la opción 'editar' representada con un lápiz.
 
 {% include figure.html filename="intro-github-8.png" caption="El botón 'Editar'" %}
 
-Tras esto debería poder editar el archivo y añadir más texto.
+Tras esto deberías poder editar el archivo y añadir más texto.
 
 {% include figure.html filename="intro-github-9.png" caption="El modo edición" %}
 
@@ -252,11 +252,11 @@ Una vez hayas realizado cambios en tu archivo, verás que puedes anotar los camb
 
 {% include figure.html filename="intro-github-10.png" caption="Cómo anotar un cambio en línea" %}
 
-Una vez hayas anotado los cambios, serán almacenados en tu repositorio remoto. Para recibirlos en tu ordenador deberás sincronizarlos. Para ello, clica en el botón 'sync' de tu GitHub Desktop.
+Una vez hayas anotado los cambios, serán almacenados en tu repositorio remoto. Para recibirlos en tu ordenador deberás sincronizarlos. Para ello, haz clic en el botón 'sync' de tu GitHub Desktop.
 
 {% include figure.html filename="intro-github-11.png" caption="El botón de sincronización" %}
 
-¡Ya tenemos nuestros cambios realizados en remoto en nuestro ordenador!
+¡Ya tenemos nuestros cambios realizados remotamente en nuestro ordenador!
 
 {% include figure.html filename="intro-github-12.png" caption="El documento con los cambios remotos" %}
 
@@ -266,13 +266,13 @@ Verás que el texto modificado aparece marcado en verde y en rojo. El color rojo
 
 Los 'conflictos' emergen cuando intentas fusionar o sincronizar dos versiones de un documento con cambios que son incompatibles entre sí. Si tienes cuidado cuando anotas y sincronizas los cambios realizados en tu entorno local, en tu ordenador, entonces es bastante improbable de que te encuentres con este tipo de problemas; de todos modos, resolverlos es una tarea sencilla.
 
-A menudo, los conflictos surgen cuando realizas un cambio en remoto (en la web GitHub) y luego haces otro cambio en local sin haber sincronizado previamente. Si los cambios tienen lugar en distintas partes del documento, no pasa nada, se pueden integrar o fusionar ('merge'). Ahora bien, algunos cambios pueden entrar en conflicto cuando tienen lugar en la misma línea del documento.
+A menudo, los conflictos surgen cuando realizas un cambio en remoto (en la web GitHub) y luego haces otro cambio local sin haber sincronizado previamente. Si los cambios tienen lugar en distintas partes del documento, no pasa nada, se pueden integrar o fusionar ('merge'). Ahora bien, algunos cambios pueden entrar en conflicto cuando tienen lugar en la misma línea del documento.
 
 Por ejemplo, imaginemos que añadimos algo en nuestro repositorio remoto (en la web de GitHub).
 
 {% include figure.html filename="intro-github-13.png" caption="Un cambio remoto en el documento" %}
 
-A continaución, anotas el cambio en la web y, acto seguido, hacemos otro cambio en local.
+A continuación, anotas el cambio en la web y, acto seguido, hacemos otro cambio local.
 
 {% include figure.html filename="intro-github-14.png" caption="Un cambio local en el documento" %}
 
@@ -284,7 +284,7 @@ No te preocupes, no es un problema gordo. Simplemente hay que gestionar el confl
 
 {% include figure.html filename="intro-github-16.png" caption="Las opciones que nos da GitHub para abrir el documento" %}
 
-Si elegimos abrir el archivo con un editor externo, el documento se visualizará el editor de texto que tengas por defecto para archivos escritos en Markdown. Si no tienes ninguno por defecto, puedes clicar en 'show in finder' ('mostrar en el buscador') para acceder a la carpeta que contiene el archivo. A partir de aquí puedes abrirlo con el editor que prefieras.
+Si elegimos abrir el archivo con un editor externo, el documento se visualizará el editor de texto que tengas por defecto para archivos escritos en Markdown. Si no tienes ninguno por defecto, puedes haz clic en 'show in finder' ('mostrar en el buscador') para acceder a la carpeta que contiene el archivo. A partir de aquí puedes abrirlo con el editor que prefieras.
 
 Si miras el archivo con atención, verás que Git ha marcado dónde se encuentra el conflicto.
 
@@ -296,7 +296,7 @@ Esta forma de resolver conflictos puede parecer más compleja de lo que es, pero
 
 ## Control de versiones y flujo de trabajo con texto plano
 
-Hasta el momento hemos puesto en marcha un control de versiones con un documento muy básico. Si aprendes más acerca de Markdown y la escritura en texto plano, podrás usar el control de versiones de muchas maneras y te será muy útil para llevar a cabo tu investigación. Controlar las versiones de un documento Markdown te permitirá profundizar en esta sintaxis; para ello, te recomendamos consultar la lección [Escritura sostenible en texto plano usando Pandoc y Markdown](http://programminghistorian.org/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown) escrita por Dennis Tenen y Grant Wythoff will; esta lección te ayudará a entender cómo puedes usar el texto plano para escribir con Pandoc y Markdown. Pandoc es muy útil para convertir tus archivos de texto plano escritos en Markdown a otros formatos como HTML, PDF o Word. Si combinas Markdown, Pandoc y el control de versiones, podrás implementar un sistema muy potente y sostenible para escribir tus artículos y trabajos académicos.
+Hasta el momento hemos puesto en marcha un control de versiones con un documento muy básico. Si aprendes más acerca de Markdown y la escritura en texto plano, podrás usar el control de versiones de muchas maneras y te será muy útil para llevar a cabo tu investigación. Controlar las versiones de un documento Markdown te permitirá profundizar en esta sintaxis; para ello, te recomendamos consultar la lección [Escritura sostenible en texto plano usando Pandoc y Markdown](http://programminghistorian.org/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown) escrita por Dennis Tenen y Grant Wythoff; esta lección te ayudará a entender cómo puedes usar el texto plano para escribir con Pandoc y Markdown. Pandoc es muy útil para convertir tus archivos de texto plano escritos en Markdown a otros formatos como HTML, PDF o Word. Si combinas Markdown, Pandoc y el control de versiones, podrás implementar un sistema muy potente y sostenible para escribir tus artículos y trabajos académicos.
 
 Asimismo, el flujo de trabajo presentado en esta lección también puede convertirse en el fundamento para crear webs estáticas alojadas en GitHub. Una vez te sientas cómodo usando GitHub Desktop, puedes seguir con la lección escrita por Amanda Visconti, [Construcción de sitios estáticos usando Jekyll GitHub Pages](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages).
 
