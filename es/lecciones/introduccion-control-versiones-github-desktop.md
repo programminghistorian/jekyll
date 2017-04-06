@@ -103,7 +103,7 @@ Uno de los aspectos más complejos del uso de GitHub es la terminología. El nom
 
 ### Regístrate con una cuenta en GitHub
 
-Puesto que vamos a utilizar GitHub, necesitarás regístrate con una cuenta en [GitHub](GitHub.com) si no lo has hecho ya. Para [estudiantes](https://education.github.com/pack) e [investigadores](https://github.com/blog/1840-improving-github-for-science), GitHub ofrece repositorios privados de manera gratuita. Este tipo de repositorios no son necesarios pero quizá esta opción te seduzca si quieres mantener tu trabajo en privado.
+Puesto que vamos a utilizar GitHub, necesitarás regístrate con una cuenta en [GitHub](https://github.com) si no lo has hecho ya. Para [estudiantes](https://education.github.com/pack) e [investigadores](https://github.com/blog/1840-improving-github-for-science), GitHub ofrece repositorios privados de manera gratuita. Este tipo de repositorios no son necesarios pero quizá esta opción te seduzca si quieres mantener tu trabajo en privado.
 
 ### Instala GitHub Desktop
 
