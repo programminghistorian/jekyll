@@ -129,7 +129,7 @@ Take a look at the URL produced with the last search results page. It
 should look like this:
 
 ``` xml
-http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
+https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper_trialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0 
 ```
 
 We had a look at URLs in [Viewing HTML Files][], but this looks a lot
@@ -138,24 +138,24 @@ complex. But it is easier to understand by noticing how our search
 criteria get represented in the URL.
 
 ``` xml
-http://www.oldbaileyonline.org/search.jsp
-?foo=bar
-&form=searchHomePage
-&_divs_fulltext=mulatto*+negro*
+https://www.oldbaileyonline.org/search.jsp
+?gen=1
+&form=searchHomePag
+e&_divs_fulltext=mulatto*+negro*
 &kwparse=advanced
-&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount
+&_divs_div0Type_div1Type=sessionsPaper_trialAccount
 &fromYear=1700
 &fromMonth=00
 &toYear=1750
 &toMonth=99
 &start=0
-&count=0
+&count=0 
 ```
 
 In this view, we see more clearly our 12 important pieces of information
 that we need to perform our search (one per line). On the first is the
 Old Bailey’s base website URL, followed by a query: “?” (don’t worry
-about the `foo=bar` bit; the developers of the Old Bailey Online say that
+about the `gen=1` bit; the developers of the Old Bailey Online say that
 it does not do anything.) and a series of 10 *name/value pairs* put
 together with & characters. Together these 10 name/value pairs comprise
 the query string, which tells the search engine what variables to use in
@@ -242,7 +242,7 @@ page. We have already got the first one by using the form on the
 website:
 
 ``` xml
-http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
+https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper_trialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0 
 ```
 
 We could type this URL out twice and alter the ‘*start*’ variable to get
@@ -260,10 +260,10 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth):
     startValue = 0
 
     #each part of the URL. Split up to be easier to read.
-    url = 'http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext='
+    url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
     url += query
     url += '&kwparse=' + kwparse
-    url += '&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount'
+    url += '&_divs_div0Type_div1Type=sessionsPaper_trialAccount'
     url += '&fromYear=' + fromYear
     url += '&fromMonth=' + fromMonth
     url += '&toYear=' + toYear
@@ -452,17 +452,17 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
     for pages in range(1, pageCount +1):
 
         #each part of the URL. Split up to be easier to read.
-        url = 'http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext='
+        url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
         url += query
         url += '&kwparse=' + kwparse
-        url += '&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount'
+        url += '&_divs_div0Type_div1Type=sessionsPaper_trialAccount'
         url += '&fromYear=' + fromYear
         url += '&fromMonth=' + fromMonth
         url += '&toYear=' + toYear
         url += '&toMonth=' + toMonth
         url += '&start=' + str(startValue)
         url += '&count=0'
-
+    
         #download the page and save the result.
         response = urllib2.urlopen(url)
         webContent = response.read()
@@ -556,17 +556,17 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
     for pages in range(1, pageCount +1):
 
         #each part of the URL. Split up to be easier to read.
-        url = 'http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext='
+        url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
         url += query
         url += '&kwparse=' + kwparse
-        url += '&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount'
+        url += '&_divs_div0Type_div1Type=sessionsPaper_trialAccount'
         url += '&fromYear=' + fromYear
         url += '&fromMonth=' + fromMonth
         url += '&toYear=' + toYear
         url += '&toMonth=' + toMonth
         url += '&start=' + str(startValue)
         url += '&count=0'
-
+    
         #download the page and save the result.
         response = urllib2.urlopen(url)
         webContent = response.read()
@@ -644,10 +644,10 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
     for pages in range(1, pageCount+1):
 
         #each part of the URL. Split up to be easier to read.
-        url = 'http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext='
+        url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
         url += query
         url += '&kwparse=' + kwparse
-        url += '&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount'
+        url += '&_divs_div0Type_div1Type=sessionsPaper_trialAccount'
         url += '&fromYear=' + fromYear
         url += '&fromMonth=' + fromMonth
         url += '&toYear=' + toYear
