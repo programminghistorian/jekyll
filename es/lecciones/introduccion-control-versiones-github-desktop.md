@@ -85,13 +85,13 @@ Dropbox, Google Drive y otros servicios ofrecen alguna forma de controlar las ve
 
 ### Algunos proyectos académicos que utilizan control de versiones
 
-Utilizar un control de versiones se ha consolidado en algunas disciplinas científicas, aunque su adopción está lejos de ser universal. En las Humanidades y en las Ciencias Sociales, el uso de Git es mucho menos frecuente. Los proyectos que listamos a continuación muestran algunas de las posibilidades del uso de Git en un entorno académico: 
+Utilizar un control de versiones se ha consolidado en algunas disciplinas científicas, aunque su adopción está lejos de ser universal. En las humanidades y en las ciencias sociales, el uso de Git es mucho menos frecuente. Los proyectos que listamos a continuación muestran algunas de las posibilidades del uso de Git en un entorno académico: 
 
 * [The Programming Historian en español](https://github.com/programminghistorian/jekyll) utiliza GitHub en su flujo de trabajo para gestionar la [revista](https://github.com/programminghistorian/jekyll/issues), las [lecciones](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones) y para producir la [web](http://programminghistorian.org/posts/how-we-moved-to-github).
 * [Python Programming for the Humanities](https://github.com/fbkarsdorp/python-course) es un tutorial introductorio sobre el lenguaje de programación Python. 
 * [ProfHacker](http://chronicle.com/blogs/profhacker/tag/github) ha publicado varias entradas de blog sobre proyectos que usan GitHub en un contexto académico.
 
-Nuevos proyectos surgen de manera constante y muchas de las herramientas que utilizas en las Humanidades Digitales se hospedan en GitHub; por este motivo, GitHub puede ser útil para utilizar con mayor facilidad alguna de estas herramientas.
+Nuevos proyectos surgen de manera constante y muchas de las herramientas que utilizas en las humanidades digitales se hospedan en GitHub; por este motivo, GitHub puede ser útil para utilizar con mayor facilidad alguna de estas herramientas.
 
 ## Cómo empezar
 
