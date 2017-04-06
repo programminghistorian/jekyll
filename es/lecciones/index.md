@@ -27,24 +27,15 @@ Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerz
       <p>James Baker</p>
     </a>
   </li>
+  <li>
+    <a href="{{site.url}}/es/lecciones/introduccion-control-versiones-github-desktop">
+      <img src="{{site.url}}/gallery/getting-started-with-github-desktop.png">
+      <h3>Introducción al control de versiones con GitHub Desktop</h3>
+      <p>Daniel van Strien</p>
+    </a>
+  </li>
   </ul>
   
-  <ul class="lesson-images">
-  <li>
-    <a href="{{site.url}}/es/lecciones/introduccion-control-versiones-github-desktop">
-      <img src="{{site.url}}/gallery/getting-started-with-github-desktop.png">
-      <h3>Introducción al control de versiones con GitHub Desktop</h3>
-      <p>Daniel van Strien</p>
-    </a>
-  </li>
-  <li>
-    <a href="{{site.url}}/es/lecciones/introduccion-control-versiones-github-desktop">
-      <img src="{{site.url}}/gallery/getting-started-with-github-desktop.png">
-      <h3>Introducción al control de versiones con GitHub Desktop</h3>
-      <p>Daniel van Strien</p>
-    </a>
-  </li>
-  </ul>
   
 Introducción a Python
 ----------------------
