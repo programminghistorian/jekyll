@@ -13,18 +13,6 @@ previous: output-keywords-in-context-in-html-file
 difficulty: 2
 ---
 
-## WARNING - Technical issues with Old Bailey Online website
-
-As of August 2016, the Old Bailey Online experienced some issues that are currently being resolved
-by their project team. One of those issues includes the temporary suspension of
-the advanced search features which are used as the basis of this tutorial.
-
-While those fixes are underway the example in this tutorial will not work properly.
-
-You can still read through to build an understanding of how this process works, without actually
-running the working code. We apologise for this problem. If you notice that it has been rectified and we
-have not yet updated this tutorial or removed this notice, [please let us know!](http://programminghistorian.org/feedback)
-
 ## Module Goals
 
 Downloading a single record from a website is easy, but downloading many
