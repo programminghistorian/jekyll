@@ -110,7 +110,7 @@ pluralized entries or those with an extra “e” on the end.
 
 {% include figure.html filename="AdvancedSearchExample.png" caption="Old Bailey Advanced Search Example" %}
 
-Execute the search and then click on the “[Calculate Total][]” link to
+Execute the search and then click on the “Calculate Total” link to
 see how many entries there are. We now have 13 results (if you have a
 different number go back and make sure you copied the example above
 exactly). What we want to do at this point is download all of these
@@ -1199,7 +1199,6 @@ helpful:
   [Automated Downloading with WGET]: ../lessons/automated-downloading-with-wget
   [Benjamin Bowsey’s case]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
   [advanced search form]: http://www.oldbaileyonline.org/forms/formMain.jsp
-  [Calculate Total]: http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
   [Viewing HTML Files]: ../lessons/viewing-html-files
   [Working with Webpages]: ../lessons/working-with-web-pages
   [From HTML to a List of Words 2]: ../lessons/from-html-to-list-of-words-2
