@@ -140,8 +140,8 @@ criteria get represented in the URL.
 ``` xml
 https://www.oldbaileyonline.org/search.jsp
 ?gen=1
-&form=searchHomePag
-e&_divs_fulltext=mulatto*+negro*
+&form=searchHomePage
+&_divs_fulltext=mulatto*+negro*
 &kwparse=advanced
 &_divs_div0Type_div1Type=sessionsPaper_trialAccount
 &fromYear=1700
@@ -160,10 +160,10 @@ it does not do anything.) and a series of 10 *name/value pairs* put
 together with & characters. Together these 10 name/value pairs comprise
 the query string, which tells the search engine what variables to use in
 specific stages of the search. Notice that each name/value pair contains
-both a variable name: toYear, and then assigns that variable a value:
-1750. This works in exactly the same way as *Function Arguments* by
+both a variable name: toYear, and then assigns that variable a value: 1750. 
+This works in exactly the same way as *Function Arguments* by
 passing certain information to specific variables. In this case, the
-most important variable is `\_divs\_fulltext=` which has been given the
+most important variable is `_divs_fulltext=` which has been given the
 value:
 
 ```
@@ -710,7 +710,7 @@ the trials. The first entry starts with “Anne Smith” so you can use the
 Notice Anne’s name is part of a link:
 
 ``` xml
-http://www.oldbaileyonline.org/browse.jsp?id=t17160113-18&div=t17160113-18&terms=mulatto|negro#highlight 
+browse.jsp?id=t17160113-18&amp;div=t17160113-18&amp;terms=mulatto*_negro*#highlight 
 ```
 
 Perfect, the link contains the trial ID! Scroll through the remaining
@@ -928,10 +928,10 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
     for pages in range(1, pageCount +1):
 
         #each part of the URL. Split up to be easier to read.
-        url = 'http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext='
+        url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
         url += query
         url += '&kwparse=' + kwparse
-        url += '&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount'
+        url += '&_divs_div0Type_div1Type=sessionsPaper_trialAccount'
         url += '&fromYear=' + fromYear
         url += '&fromMonth=' + fromMonth
         url += '&toYear=' + toYear
