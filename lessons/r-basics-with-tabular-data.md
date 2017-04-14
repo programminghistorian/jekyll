@@ -434,7 +434,7 @@ This shows you the average number of theft crimes and then violent theft crimes 
 ### Practice
 
 1.	Create a matrix with two columns using the following data from the *Breaking Peace* and *Killing* crimes between 1710 and 1730 from the Old Bailey chart above: `c(2,3,3,44,51,17)`
-2.	Use the `cbind90` function to join `BreakingPeace <- c(2,3,3)` and `Killing <- c(44,51,17)` together.
+2.	Use the `cbind()` function to join `BreakingPeace <- c(2,3,3)` and `Killing <- c(44,51,17)` together.
 3.	Calculate the mean of each column for the above matrix using the `apply90` function.
 
 ## Solutions
