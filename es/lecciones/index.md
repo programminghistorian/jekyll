@@ -10,7 +10,7 @@ Te invitamos a navegar alrededor. Si no encuentras cubierta alguna herramienta, 
 Gestión de datos
 ----------------------
 
-Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerzo sea duradero adoptando estategias sostenibles en relación a tu codigo, datos y procesos de investigación. Dedicar algún tiempo a planear puede ahorrarte mucho tiempo en el futuro.
+Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerzo sea duradero adoptando estategias sostenibles en relación con tu codigo, datos y procesos de investigación. Dedicar algún tiempo a planear puede ahorrarte mucho tiempo en el futuro.
 
 <ul class="lesson-images">
   <li>
