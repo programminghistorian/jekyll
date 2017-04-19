@@ -15,7 +15,7 @@ translation-reviewer:
 - José Antonio Motilla Chávez
 - Jairo Antonio Melo Flórez
 layout: default
-redirect_from: /es/lecciones/creating-network-diagrams-from-historical-sources
+redirect_from: /es/lessons/creating-network-diagrams-from-historical-sources
 ---
 
 Tabla de contenidos:
