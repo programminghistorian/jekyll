@@ -250,4 +250,4 @@ Las herramientas más comunmente utilizadas para análisis más matemáticos son
 
 Para usuarios de Python el muy bien documentado paquete[ ](https://networkx.github.io/)[*Networkx*](https://networkx.github.io/) es un gran punto de partida; existen otros paquetes para otros lenguajes de programación.
 
-> Escrito con[StackEdit](https://stackedit.io/).
+
