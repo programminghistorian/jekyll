@@ -43,7 +43,7 @@ El despliegue visual de redes ayuda a los académicos en humanidades a revelar p
 
 <ul class="lesson-images">
   <li>
-    <a href="{{site.url}}/lessons/creating-network-diagrams-from-historical-sources">
+    <a href="{{site.url}}/lecciones/creating-network-diagrams-from-historical-sources">
       <img src="{{site.url}}/gallery/creating-network-diagrams-from-historical-sources.png">
       <h3>Crear diagramas de redes a partir de fuentes históricas</h3>
       <p>Marten Düring</p>
