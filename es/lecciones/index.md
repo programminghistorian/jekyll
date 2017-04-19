@@ -24,7 +24,7 @@ Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerz
     <a href="{{site.url}}/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown">
       <img src="{{site.url}}/gallery/sustainable-authorship-in-plain-text-using-pandoc-and-markdown.png">
       <h3>Escritura sostenible en texto plano usando Pandoc y Markdown</h3>
-      <p>James Baker</p>
+      <p>Dennis Tenen y Grant Wythoff</p>
     </a>
   </li>
   <li>
