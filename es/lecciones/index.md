@@ -36,6 +36,20 @@ Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerz
   </li>
   </ul>
   
+Análisis de redes
+------------------
+
+El despliegue visual de redes ayuda a los académicos en humanidades a revelar patrones y estructuras complejas y escondidas en las fuentes textuales.
+
+<ul class="lesson-images">
+  <li>
+    <a href="../lessons/creating-network-diagrams-from-historical-sources">
+      <img src="../gallery/creating-network-diagrams-from-historical-sources.png">
+      <h3>Crear diagramas de redes a partir de fuentes históricas</h3>
+      <p>Marten Düring</p>
+    </a>
+  </li>
+</ul>
   
 Introducción a Python
 ----------------------
