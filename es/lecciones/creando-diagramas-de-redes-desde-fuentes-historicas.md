@@ -1,6 +1,6 @@
 ---
 title: "De la hermeneútica a las redes de datos: Extracción de datos y visualización de redes en fuentes históricas"
-autores:
+author:
 - Marten Düring
 date: 2015-02-18
 reviewers:
