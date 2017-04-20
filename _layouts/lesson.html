@@ -8,35 +8,39 @@ layout: base
 
   <div class="container">
 
-    <div class="header-title">
-      <h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
-    </div>
-
-    <div class="header-author">
-      <h2>{% include author.html %}</h2>
-    </div>
-
-    <div class="header-abstract">
-      <p>{{ page.abstract }}</p>
-    </div>
-
-
-    <div class="row d-flex justify-content-around no-gutters">
-
-      <div class="col text-right" >
-        <h3 class="text-right">Reviewers</h3>
+    <div class="row">
+      <div class="col-4">
+        <div class="header-image">
+          <img src="{{ site.baseurl }}/gallery/{{ page.slug }}.png">
+        </div>
       </div>
 
-      <div class="col">
-        {% include reviewer.html %}
+      <div class="col-8">
+        <div class="header-title">
+          <h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+        </div>
+
+        <div class="header-author">
+          <h2>{% include author.html %}</h2>
+        </div>
+
+        <div class="header-abstract">
+          <p>{{ page.abstract }}</p>
+        </div>
+
       </div>
+    </div>
+  </div>
+</div>
 
+  <div class="container-fluid header-helpers">
 
-      <div class="col">
-        <h3 class="text-right">Editors</h3>
-      </div>
+    <div class="container">
 
-      <div class="col">
+    <div class="row">
+
+      <div class="col-md-4 text-right">
+        <h3 class="text-right">Editor</h3>
         <ul>
         {% for editor in page.editors %}
           <li>{{editor}}</li>
@@ -44,49 +48,53 @@ layout: base
         </ul>
       </div>
 
+      <div class="col-md-4 text-left offset-col-md-6" >
+        <h3 class="text-left">Reviewers</h3>
+          {% include reviewer.html %}
+      </div>
 
-      <!--
-      {% if page.translator %}
-          <div class="col">
-            <h3>Translators</h3>
-            <ul>
-            {% for editor in page.editors %}
-              <li>{{editor}}</li>
-            {% endfor %}
-            </ul>
-          </div>
-      {% endif %}
-      -->
+    </div>
     </div> <!-- end row -->
   </div>
 
   <div class="container-fluid header-bottom">
-    <div class="container d-flex justify-content-around">
-      <div class="col metarow"><h4>published</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
-      <div class="col metarow"><h4>modified</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
-      <div class="col metarow"><h4>difficulty</h4>  {% include difficulty.html %}</div>
+    <div class="container text-center">
+      <div class="row">
+      <div class="col-md-4 metarow text-left"><h4>published</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      <div class="col-md-4 metarow text-center"><h4>modified</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      <div class="col-md-4 metarow text-right"><h4>difficulty</h4>  {% include difficulty.html %}</div>
+    </div>
     </div>
   </div>
+
+
+  <!--
+  {% if page.translator %}
+      <div class="col">
+        <h3>Translators</h3>
+        <ul>
+        {% for editor in page.editors %}
+          <li>{{editor}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+  {% endif %}
+  -->
+
 
 </header>
 
 
   <div class="container">
 
-     {% if page.previous %}
-        {% include previous.html %}
-     {% endif %}
-
      {% if page.deprecated %}
-      <div class="deprecated"> {% include deprecated.html %} </div>
+        <div class="deprecated"> {% include deprecated.html %} </div>
      {% endif %}
 
      <div class="content">
          {{ content }}
      </div>
 
-     {% if page.next %}
-        {% include next.html %}
-     {% endif %}
 
      {% include author-info.html %}
+</div>

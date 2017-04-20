@@ -4,7 +4,7 @@ menu-about:
 menu-about-overview:
   en:
     title: About PH
-    link: /
+    link: /about
   es:
     title: Acerca de
     link: /es/
@@ -18,7 +18,7 @@ menu-about-team:
 menu-about-research:
   en:
     title: Research
-    link: /research.html
+    link: /research
   es:
     title: Investigación
     link: /es/investigacion
@@ -49,7 +49,7 @@ menu-contribute-review:
 menu-contribute-write:
   en:
     title: Write a lesson
-    link: /new-lesson-workflow
+    link: /author-guidelines
   es:
     title: Escribe una leccion
     link: /flujo-de-trabajo-nuevas-lecciones

@@ -13,8 +13,75 @@
   }
 
   .container {
-    max-width: 50rem;
+    max-width: 45rem;
   }
+
+.home-block a:visited {
+color: #38c;
+}
+
+
+.home-image {
+  text-align:center;
+}
+
+.home-block {
+  padding:3rem 0;
+  color:#aaa;
+}
+
+.home-block h2 {
+  margin:0;
+  font-size:2.8rem;
+  text-align:center;
+  color:#666;
+}
+
+.home-block p {
+  margin:0rem;
+  font-family:'Open Sans';
+  font-size:1.2rem;
+  padding-top:2rem;
+  text-align:justify;
+}
+
+.home-block-dark {
+  color:#eee;
+  background:#666;
+  background:#38c;
+}
+
+.home-block-gray {
+  color:#fff;
+  background:#aaa;
+  background:#39a;
+}
+
+.home-block-gray h2, .home-block-dark h2  {
+  color:#333;
+}
+
+.home-block-dark a:visited, .home-block-dark a:link {
+color:#38c;
+color:#5ae;
+}
+
+
+.home-block-gray a:visited, .home-block-gray a:link {
+color:#abc;
+color:#5bc;
+}
+
+
+
+.btn-primary {
+  border-color:#666;
+}
+
+.contact-box {
+  clear:both;
+  margin-bottom:2rem;
+}
 
   /* =============================================================================
      Lesson Headers
@@ -22,44 +89,49 @@
 
     header {
        margin:0;
-       padding:0;
+       padding:0rem 0 0 0;
        text-align:left;
        border-top:1px solid #333;
        color:#ccc;
-       font-family:'Open Sans', sans-serif;
+       font-family:'Roboto', sans-serif;
+       background: #efefef;
      }
 
      header .container-fluid {
        margin:0;
-       padding:0;
+       padding:2rem 0 2rem 0;
        background: #31404d;
+       background: #f5f5f5;
      }
 
 
    header h1 {
-     margin: 0rem 0 0rem 0;
-     padding-top:2.3rem;
-     font-size:2.3rem;
-     color:#ffffff;
+     margin:0;
+     padding:0rem 0 0 0rem;;
+     font-size:2rem;
+     text-align:left;
    }
 
    header h2 {
-     font-family:'Roboto Condensed', sans-serif;
-     font-size:1.7rem;
-     color:#efefef;
-     margin: 1.5rem 0 1.5rem 0;
+     font-family:'Roboto', sans-serif;
+     font-size:1.4rem;
+     color:#333;
+     margin: 1.5rem 0 1.5rem 0rem;
+     text-align:left;
+
    }
 
    header h3, header h4 {
      font-family:'Roboto Condensed', sans-serif;
      letter-spacing:80%;
-     font-size:1.2rem;
+     font-size:1.1rem;
      line-height:1.4rem;
-     color:#39a;
-     margin:0 .5rem 0 0;
+     color:#666;
+     margin:0 0 0 0;
      padding:0;
      text-align:left;
      text-transform:uppercase;
+     font-variant:small-caps;
    }
 
    header h3 {
@@ -71,16 +143,36 @@
      margin:0;
      padding:0;
      font-weight:200;
+     font-size:1rem;
    }
 
    header .header-abstract {
      font-family:'Roboto', sans-serif;
      color:#aaa;
      font-weight:100;
-     font-size:1.1rem;
-     line-height:1.8rem;
-     margin-bottom:2rem;
+     font-size:1rem;
+     line-height:1.4rem;
+     margin:1rem 0 1rem 0;
    }
+
+header .header-image {
+  float:left;
+  border:4px solid gray;
+  margin:0;
+  padding:0;
+}
+
+header img {
+  width:100%;
+}
+
+header .header-helpers {
+  clear:both;
+  border:0px solid #ccc;
+  padding:.5rem 0 .5rem 0;
+  background:#bbb;
+  color:#eee;
+}
 
    header .row-metadata{
      text-align:left;
@@ -96,10 +188,10 @@
      font-family:'Roboto Condensed';
      list-style-type:none;
      line-height:1.4rem;
-     color:#ccc;
+     color:#eee;
      margin: 0 0 0 0;
      padding:0;
-     font-size:1.2rem;
+     font-size:1.1rem;
    }
 
    header .metarow {
@@ -108,13 +200,18 @@
 
 
    header .header-bottom {
-     margin-top:3rem;
+     margin-top:0rem;
      background-color:#404951;
-     line-height:3rem;
-     border-top:1px solid #333;
-     padding:1rem 0 1rem 0
+     background-color:#777;
+     border-top:0px solid #333;
+     padding:.8rem 0 .8rem 0;
+     text-align:center;
    }
 
+   header .header-bottom h4 {
+     color:#aaa;
+
+   }
 
   .deprecated {
     text-align:center;
@@ -122,6 +219,201 @@
     color: #F44336;
     font-weight: 700;
     font-size: 1em;
+  }
+
+
+  /* =============================================================================
+     Lessons Page
+     ========================================================================== */
+
+  /* Custom CSS for /lessons page filter and sort interface */
+
+  #eachlesson li {
+    list-style-type:none;
+    margin:none;
+    padding:none;
+  }
+
+#eachlesson ul {
+  margin:0;
+  padding:0;
+}
+
+  .lesson-description {
+    margin-bottom:2rem;
+    border:0px solid #ccc;
+    padding:0rem;
+    min-height:120px;
+  }
+
+  .lesson-image {
+    width:120px;
+    float:left;
+    margin-right:1rem;
+  }
+
+.lesson-description img {
+    width:100%;
+}
+
+  h3.lesson-index-author {
+    margin:0 0 .2rem 0;
+    font-family:'Roboto Condensed';
+    font-size:.8rem;
+    color:#999;
+    text-align:left;
+    text-transform:uppercase;
+    clear:none;
+  }
+
+  h2.lesson-index-title {
+    margin:0 0 1rem 0;
+    font-size:1.1rem;
+    font-family:'Crete Round';
+    text-align:left;
+    clear:none;
+  }
+
+.btn, .btn a {
+font-variant:small-caps;
+font-size:1rem;
+font-family:'Open Sans';
+margin-bottom:.1rem;
+}
+
+.phases {
+  width:100%;
+}
+
+#lesson-list button{
+  //width:19.2%;
+}
+
+#filter-none {
+  width:100%;
+  clear:both;
+  margin-top:1rem;
+  text-align:center;
+}
+
+.topics a.btn {
+  //width:24%;
+
+}
+
+.topics {
+  margin:1rem 0 1rem 0;
+}
+
+.btn-primary {
+  background-color:#aaa;
+}
+
+.activity {
+display: none;
+}
+
+
+p.abstract {
+  font-family:'Open Sans';
+  font-size: .8rem;
+}
+
+  #lesson-list input {
+  width: 100%;
+  }
+
+  input {
+    border:solid 1px #ccc;
+    border-radius: 5px;
+    padding:10px 14px 7px 14px;
+    margin-bottom:10px;
+  }
+
+  input:focus {
+    outline:none;
+    border-color: #38c;
+  }
+
+  .sort {
+    padding:8px 30px;
+    border-radius: 6px;
+    border:none;
+    display:inline-block;
+    color:#fff;
+    text-decoration: none;
+    background-color: #28a8e0;
+  }
+
+  .sort:hover {
+    text-decoration: none;
+    background-color:#1b8aba;
+  }
+
+  .sort:focus {
+    outline:none;
+  }
+
+  .sort:after , .sort.asc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:13px;
+    right:-5px;
+  }
+  .sort.desc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:-10px;
+    right:-5px;
+  }
+
+  .filter li {
+    font-family:'Open Sans';
+    border:none;
+    display:inline-block;
+    text-decoration: none;
+    background-color: #38c;
+    padding:6px 13px;
+    color:#fff;
+    border-radius: 10px;
+    font-size:1.1rem;
+    text-transform:uppercase;
+  }
+
+  .topic li {
+    font-family:'Open Sans';
+    border:none;
+    font-size:.9rem;
+    display:inline-block;
+    text-decoration: none;
+    background-color: #39a;
+    padding:6px 13px;
+    color:#fff;
+    border-radius: 10px;
+    width:25%;
+  }
+
+
+  .filter li:hover , #filter-none:hover {
+  cursor: pointer;
+  }
+
+  .topic li a {
+  text-decoration: none;
+  }
+
+  #lesson-list ul {
+  padding: 0px;
   }
 
   /* words that are part of a programming language's code. eg, if, for, while, etc */
@@ -151,12 +443,18 @@
     *zoom:1;
   }
 
+  /* =============================================================================
+     Top Navigation Bar
+     ========================================================================== */
+
 
 
 .navbar {
   color:#ccc;
   background-color:#38c;
-  background-color:#404951;
+  background-color:#215989;
+  background-color:#555;
+  padding: .4rem 1rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -164,6 +462,10 @@
   text-transform:uppercase;
   color:#999;
   font-size:.9rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color:#39a;
 }
 
 .navbar-collapse {
@@ -177,14 +479,25 @@
 
 a.dropdown-item {
   border-bottom:1px solid #ccc;
+  font-family:'Roboto';
 }
-
 
 .dropdown-menu {
 	position: absolute;
 	background: #fff;
-	border: 2px solid #39a;
-  margin-top:.5rem;
+	border: 1px solid #ccc;
+  margin:0;
+  padding:0;
+}
+
+.dropdown-menu a {
+	font-size:.8rem;
+  line-height:2rem;
+  text-transform:uppercase;
+}
+
+.dropdown-menu a:last-child {
+  border-bottom:none;
 }
 
 .dropdown-menu:after, .dropdown-menu:before {
@@ -201,14 +514,14 @@ a.dropdown-item {
 .dropdown-menu:after {
 	border-color: rgba(255, 255, 255, 0);
 	border-bottom-color: #fff;
-	border-width: 15px;
-	margin-left: -15px;
+	border-width: 12px;
+	margin-left: -12px;
 }
 .dropdown-menu:before {
 	border-color: rgba(51, 153, 170, 0);
-	border-bottom-color: #39a;
-	border-width: 18px;
-	margin-left: -18px;
+	border-bottom-color: #ccc;
+	border-width: 13px;
+	margin-left: -13px;
 }
 
 .navbar-light .navbar-nav .nav-link:focus {
@@ -250,19 +563,44 @@ a.dropdown-item {
 
   ins { background: #ff9; color: #000; text-decoration: none; }
 
+  .garnish {
+    width: 23%;
+    padding:0;
+  }
+
+.full-width {
+  width:80%;
+  margin: 0 auto;
+  text-align:center;
+}
+
+.float-right {
+  float:right;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.float-left {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
   mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
 
 
   h1,h2,h3,h4,h5 {
     font-family:'Crete Round', serif;
     font-weight:normal;
-    text-align:center;
+    text-align:left;
+    clear:both;
   }
 
   h1 {
   font-size:2rem;
   margin-top:2rem;
   letter-spacing:-.03rem;
+  text-align:center;
+
   }
 
   h2 {
@@ -347,147 +685,6 @@ li.nav-item {
     }
 
 
-    /* =============================================================================
-       Lessons Page
-       ========================================================================== */
-
-    /* Custom CSS for /lessons page filter and sort interface */
-
-    .list > li {
-      display:block;
-      background-color: #eee;
-      padding:10px;
-      box-shadow: inset 0 1px 0 #fff;
-      margin-bottom: 10px;
-      min-height: 220px;
-    }
-
-    #lesson-list input {
-    width: 100%;
-    }
-
-    img {
-      max-width: 100%;
-    }
-
-    input {
-      border:solid 1px #ccc;
-      border-radius: 5px;
-      padding:10px 14px 7px 14px;
-      margin-bottom:10px;
-    }
-
-    input:focus {
-      outline:none;
-      border-color: #38c;
-    }
-
-    .sort {
-      padding:8px 30px;
-      border-radius: 6px;
-      border:none;
-      display:inline-block;
-      color:#fff;
-      text-decoration: none;
-      background-color: #28a8e0;
-    }
-
-    .sort:hover {
-      text-decoration: none;
-      background-color:#1b8aba;
-    }
-
-    .sort:focus {
-      outline:none;
-    }
-
-    .sort:after , .sort.asc:after {
-      width: 0;
-      height: 0;
-      border-left: 5px solid transparent;
-      border-right: 5px solid transparent;
-      border-top: 5px solid #fff;
-      content:"";
-      position: relative;
-      top:13px;
-      right:-5px;
-    }
-    .sort.desc:after {
-      width: 0;
-      height: 0;
-      border-left: 5px solid transparent;
-      border-right: 5px solid transparent;
-      border-bottom: 5px solid #fff;
-      content:"";
-      position: relative;
-      top:-10px;
-      right:-5px;
-    }
-
-    .filter li {
-      border-radius: 0px;
-      border:none;
-      display:inline-block;
-      text-decoration: none;
-    }
-
-    .filter li {
-      background-color: #38c;
-      padding:6px 13px;
-      color:#fff;
-      border-radius: 10px;
-    }
-
-    #filter-none {
-    margin-top: -15px;
-    font-style: italic;
-    text-decoration: underline;
-    text-align: right;
-    }
-
-    .filter li:hover , #filter-none:hover {
-    cursor: pointer;
-    }
-
-    .topic li a {
-    text-decoration: none;
-    }
-
-    #lesson-list ul {
-    padding: 0px;
-    }
-
-    ul.topic {
-        -moz-column-count: 3;
-        -moz-column-gap: 10px;
-        -webkit-column-count: 3;
-        -webkit-column-gap: 10px;
-        column-count: 3;
-        column-gap: 10px;
-      list-style-type: none;
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    /* Custom CSS for /lessons page individual lesson display */
-    .list .abstract, .list .visible-date {
-    font-style: italic;
-    }
-
-    .lesson-description .title a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #38c;
-    }
-
-    .list .date, .lesson-description .activity {
-    display: none;
-    }
-
-    .lesson-description .image {
-    float: left;
-    margin-right: 20px;
-    }
 
 
 
@@ -513,9 +710,6 @@ li.nav-item {
       color: #777;
     }
 
-  img {
-    max-width: 100%;
-  }
 
   .navigation {
     list-style:none;
@@ -597,118 +791,6 @@ li.nav-item {
   }
 
 
-  /* =============================================================================
-     Lessons Page
-     ========================================================================== */
-
-  .lessons-list ul {
-    list-style:none;
-    padding-left:0;
-  }
-
-  .lessons-list li {
-    margin-bottom:1em;
-  }
-
-  .lessons-list li a.permalink {
-    text-decoration:none;
-    font-weight:bold;
-  }
-
-  .lessons {
-    list-style:none;
-    padding:0;
-    margin:0;
-    overflow:hidden;
-    zoom:1;
-  }
-
-  .lessons > li {
-    margin-bottom:2em;
-    font-size: 1.1em;
-    font-weight:bold;
-  }
-
-  .lessons > li > a {
-    text-decoration:none;
-    display:block;
-    margin-bottom:0.25em;
-  }
-
-  .lessons ul {
-    margin:0;
-  }
-
-  .lessons > li > ul {
-    font-size: 0.75em;
-    font-weight:normal;
-    padding-left: 1.25em;
-  }
-
-  ul.lesson-images {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  ul.lesson-images li {
-    width: 200px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 0 2.5% 2.5%;
-    padding: 0;
-  }
-
-  ul.lesson-images li a {
-    text-decoration: none;
-  }
-
-  ul.lesson-images li a img {
-    box-shadow: 0 0 5px #c0c0c0;
-    width: 200px;
-  }
-
-  ul.lesson-images h3 {
-    font-size: 1em;
-    font-weight: bold;
-    text-align: left;
-    margin: 0 0 5px;
-    padding: 0;
-  }
-
-  ul.lesson-images p {
-    font-size: 0.9em;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-
-  section.category {
-    overflow:hidden;
-    zoom:1;
-  }
-
-  section.category + section {
-    border-top: 1px dotted #ccc;
-    padding-top: 2em;
-  }
-
-  section.category h2 {
-    margin-top:0;
-    float:left;
-    width: 48%;
-    text-align:left;
-  }
-
-  section.category .lessons {
-    float:right;
-    width: 48%;
-    clear:right;
-  }
-  article footer {
-    overflow:hidden;
-    zoom:1;
-  }
 
   article .pager {
     border-bottom: 1px dotted #ccc;
@@ -746,7 +828,7 @@ li.nav-item {
 
   footer[role="contentinfo"] {
     color:#e5e5e5;
-    background-color:#38c;
+    background-color:#666;
     text-align:center;
     margin-top: 2rem;
     border-top: 1px solid #eee;
@@ -767,34 +849,6 @@ footer .fa {
   margin: 0 .2rem 0rem 2rem;
 }
 
-  #logos {
-    overflow:hidden;
-    zoom:1;
-    padding-top: 2em;
-    margin-top: 1em;
-    border-top: 1px solid #eee;
-  }
-
-  #logos a {
-    display:block;
-    float:left;
-    width: 35%;
-  }
-
-  #logos a:link,
-  #logos a:visited {
-    opacity: 0.75;
-  }
-
-  #logos a:hover,
-  #logos a:focus,
-  #logos a:active {
-    opacity: 1;
-  }
-
-  #logos #rrchnm {
-    float:right;
-  }
 
 }
 
