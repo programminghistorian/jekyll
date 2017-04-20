@@ -44,7 +44,7 @@ La mayoría de tutoriales requieren la instalación de uno o más módulos de Py
 
 <ul class="lesson-images">
   <li>
-    <a href="{{site.url}}/es/lessons/instalar-modulos-python-pip">
+    <a href="{{site.url}}/es/lecciones/instalar-modulos-python-pip">
       <img src="{{site.url}}/gallery/installing-python-modules-pip.png">
       <h3>Instalar módulos de Python con pip</h3>
       <p>Fred Gibbs</p>
