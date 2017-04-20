@@ -1,0 +1,39 @@
+- type: api
+  displayname: "APIs"
+  description: "APIs let you programmatically request specific information from a website. Learn how to use them."
+- type: python
+  displayname: "Python"
+  description: "Lessons teaching or using the Python coding language."
+- type: data-management
+  displayname: "Data Management"
+  description: "You put a lot of effort into your research. Make sure that effort lasts by adopting sustainable strategies to your code, your data, and your research processes. A little bit of planning can save you a lot of time."
+- type: data-manipulation
+  displayname: "Data Manipulation"
+  description: "Just like it sounds, learn how to use programming to change, move, clean, or count data. These are essential techniques for preparing data to be used with various tools."
+- type: distant-reading
+  displayname: "Distant Reading"
+  description: "Computational tools allow you to make sense of a lot of documents at once. The Naive Bayesian is a machine learner. Given some examples of the kind of thing you are interested in, it can quickly find many more. A topic modeling tool takes a single text (or corpus) and looks for patterns in the use of words; it is an attempt to inject semantic meaning into vocabulary. It can help you to very quickly find ‘topics’ in a large corpus of texts."
+- type: get-ready
+  displayname: "Set up"
+  description: "If you’re new to programming, these lessons will help you get your computer set up correctly. For example, if you're new to Python, you’ll first need to set up a programming environment. For the most flexibility, we recommend that you follow [these instructions on setting up python on the command line](http://cli.learncodethehardway.org/book/ex1.html). Many of the tutorials require that you install one or more Python modules to save you time coding. If this is a new concept for you, read about how to install Python modules in the lesson below."
+- type: lod
+  displayname: "Linked Open Data"
+  description: "Many research datasets are published as Linked Open Data, a format that allows flexible querying and interlinking of complex sources. Get an introduction to manipulating these databases by working with some real-world examples."
+- type: mapping
+  displayname: "Mapping"
+  description: "Mapping can be an effective way to visualize and interpret historical data. These lessons introduce historical geographic information systems (GIS) using open source software."
+- type: network-analysis
+  displayname: "Network Analysis"
+  description: "Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources."
+- type: omeka
+  displayname: "Omeka"
+  description: "How to present collections of historical materials through web exhibits."
+- type: web-scraping
+  displayname: "Web Scraping"
+  description: "Learn how to use programming to download material from the Internet in a controlled, semi-automated manner."
+- type: website
+  displayname: "Digital Publishing"
+  description: "How to design and develop a website such as a digital exhibit or research blog."
+- type: augmented-reality
+  displayname: "Augmented Reality"
+  description: "Learn to present historical materials online through augmented reality."
