@@ -8,7 +8,9 @@ reviewers:
 - Amanda Morton
 translator:
 - Víctor Gayol
-translaton_reviewer:
+editor:
+- Antonio Rojas Castro
+translation-reviewer:
 - José Calvo Tello
 - Antonio Rojas Castro
 layout: default
