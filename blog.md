@@ -1,13 +1,14 @@
 ---
-layout: directory
+layout: blank
 title: The Programming Historian Blog
 redirect_from: /news.html
 ---
 
-<center>Subscribe to the <a href="./feed.xml">RSS feed</a> for new blog posts.</center>
-The blog is our space to share news about the project, ideas for how you might use technology in your work, and exciting examples of the Programming Historian applied out in the real world.
-<br/>
-<hr/>
+# PH Blog
+
+The _Programming Historian_ blog is our space to share news about the project, ideas for how you might use technology in your work, and exciting examples of the Programming Historian applied in the real world.
+
+Subscribe to the <a href="./feed.xml">RSS feed</a> for new blog posts.
 
 {% for post in site.posts %}
 
@@ -27,6 +28,7 @@ The blog is our space to share news about the project, ideas for how you might u
                       {% endfor %}
 {% endif %}
 </p>
+
 <p class="kicker">{{post.date | date: "%B %-d, %Y"}}</p>
 <br/>
 
@@ -35,4 +37,3 @@ The blog is our space to share news about the project, ideas for how you might u
 <hr/>
 
 {% endfor %}
-

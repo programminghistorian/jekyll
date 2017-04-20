@@ -7,7 +7,7 @@ redirect_from: /report-issue.html
 
 # We Appreciate Your Feedback
 
-<img src="../images/reader-sm.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" />
 
 Did you run into code that doesn't work? Does a command or concept need a clearer explanation? An awkward phrase that keeps tripping you up? Typos?
 

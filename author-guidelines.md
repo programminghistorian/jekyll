@@ -5,7 +5,7 @@ layout: blank
 
 # Author Guidelines
 
-<img src="../images/author-sm.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" />
 
 - Step 1: [Proposing a New Lesson](#proposing-a-new-lesson)
 - Step 2: [Writing and Formatting a New Lesson](#writing-a-new-lesson)
