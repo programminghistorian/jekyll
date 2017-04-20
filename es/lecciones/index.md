@@ -35,6 +35,24 @@ Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerz
     </a>
   </li>
   </ul>
+
+Preparándose para programar
+-------------------------
+Si quieres empezar a programar con Python, hay que empezar instalando un entorno de trabajo. Debido a su gran flexibilidad, recomendamos que sigas estas instrucciones para [instalar Python en tu línea de comandos](http://cli.learncodethehardway.org/book/ex1.html).
+
+La mayoría de tutoriales requieren la instalación de uno o más módulos de Python a fin de ahorrar tiempo escribiendo código. Si eres nuevo en la materia, te recomendamos leer la lección sobre cómo instalar módulos de Python.
+
+<ul class="lesson-images">
+  <li>
+    <a href=“{{site.url}}/es/lecciones/instalar-modulos-python-pip">
+      <img src="../gallery/installing-python-modules-pip.png">
+      <h3>Instalar módulos de Python con pip</h3>
+      <p>Fred Gibbs</p>
+    </a>
+  </li>
+</ul>
+
+
   
 Análisis de redes
 ------------------
