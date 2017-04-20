@@ -14,15 +14,17 @@ highlighter: rouge
 markdown: kramdown
 gems:
   - jekyll-redirect-from
+collections:
+  lessons:
+    output: true
 defaults:
   -
     scope:
       path: ""
     values:
       lang: "en"
-  - 
+  -
     scope:
       path: "es"
     values:
       lang: "es"
-    
