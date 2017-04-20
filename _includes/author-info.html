@@ -1,19 +1,20 @@
 
 
-	        <div class="author-info">
-                {% if page.lang == 'en' %}
-	   	            <p class="author-name">About the {% if authorCount == 1 %}author{% else %}authors{% endif %}</p>
-                {% endif %}
-                {% if page.lang == 'es' %}
-                    <p class="author-name">Acerca {% if authorCount == 1 %}del autor{% else %}de los autores{% endif %}</p>
-                {% endif %}
-			    <div class="author-description"><p>
-                {% for author in page.authors %}
-                   {% for member in site.data.authors %}
-                   {% if author == member.name %}
-                       {{ member.bio[page.lang] }}&nbsp;
-                   {% endif %}
-                   {% endfor %}
-		        {% endfor %}</p>
-			    </div>
-	        </div>
+<div class="author-info">
+  {% if page.lang == 'en' %}
+      <p class="author-name">About the {% if authorCount == 1 %}author{% else %}authors{% endif %}</p>
+  {% endif %}
+  {% if page.lang == 'es' %}
+      <p class="author-name">Acerca {% if authorCount == 1 %}del autor{% else %}de los autores{% endif %}</p>
+  {% endif %}
+</div>
+<div class="author-description"><p>
+  {% for author in page.authors %}
+     {% for member in site.data.authors %}
+     {% if author == member.name %}
+         {{ member.bio[page.lang] }}&nbsp;
+     {% endif %}
+     {% endfor %}
+{% endfor %}</p>
+
+</div>

@@ -84,12 +84,12 @@ else:
 
 Ahora sabes lo suficiente para implementar la segunda parte del algoritmo: retirar todas las etiquetas HTML. En esta parte del algoritmo queremos:
 
-- Buscar en cada caracter de la cadena *contenidoPagina*, un caracter a la vez
+- Buscar en cada carácter de la cadena *contenidoPagina*, un carácter a la vez
 - Si el carácter es un corchete angular izquierdo (\<) estamos dentro de una etiqueta así que ignora el carácter
 - Si el carácter es un corchete angular derecho (\>) estamos saliendo de una etiqueta, ignora el carácter
 - Si no estamos al interior de una etiqueta, anexa el carácter actual a una nueva variable: texto
 
-Para hacer esto, usarás un bucle para buscar cada caracter sucesivo en la cadena. Usarás entonces una sentencia condicional *if / elif* para determinar si el caracter es parte de una marca de HTML o parte del contenido, después anexar los caracteres de contenido a la cadena *texto*. ¿Cómo haremos el seguimiento de si nos encontramos dentro o fuera de una etiqueta? Podemos utilizar una variable entera que podrá ser 1 (verdadero) si el caracter correspondiente está dentro de una etiqueta y 0 (falso) si  no lo está (en el siguiente ejemplo hemos llamado a la variable "adentro").
+Para hacer esto, usarás un bucle para buscar cada carácter sucesivo en la cadena. Usarás entonces una sentencia condicional *if / elif* para determinar si el carácter es parte de una marca de HTML o parte del contenido, después anexar los caracteres de contenido a la cadena *texto*. ¿Cómo haremos el seguimiento de si nos encontramos dentro o fuera de una etiqueta? Podemos utilizar una variable entera que podrá ser 1 (verdadero) si el carácter correspondiente está dentro de una etiqueta y 0 (falso) si  no lo está (en el siguiente ejemplo hemos llamado a la variable "adentro").
 
 ### La rutina de *quitarEtiquetas*
 

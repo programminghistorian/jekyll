@@ -129,8 +129,7 @@ will open in your browser, but it is important to realise that the
 application is run locally and that your data won't be stored online.
 The data files are available on our [FreeYourMetadata website][], which
 will be used throughout this tutorial. Please download the
-*phm-collection.tsv* file before continuing (also archived on the
-Programming Historian site: as [phm-collection][]).
+*phm-collection.tsv* file before continuing.
 
 On the *OpenRefine* start page, create a new project using the
 downloaded data file and click **Next**. By default, the first line will

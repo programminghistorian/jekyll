@@ -1,14 +1,16 @@
-<span class="lesson-description">
 
-<span class="image">
-<a href="{{ site.baseurl }}/lessons/{{ lesson.slug }}"><img src="{{ site.baseurl }}/gallery/{{ lesson.slug }}.png" width= "200"></a>
-</span>
+<div class="lesson-description">
+  <span class="activity">{{ lesson.activity }}</span> <!-- This is hidden via CSS as a hack to let JS sorting by activity work -->
 
-<span class="title"><a href="{{ site.baseurl }}/lessons/{{ lesson.slug }}">{{ lesson.title }}</a></span><br>
+  <div class="lesson-image">
+    <a href="{{ site.baseurl }}/lessons/{{ lesson.slug }}"><img class="rounded" src="{{ site.baseurl }}/gallery/{{ lesson.slug }}.png"></a>
+  </div>
 
-<span class="authors">{{ lesson.authors | default: "" | array_to_sentence_string }}</span> | <span class="date">{{ lesson.date }}</span><span class="visible-date">{{ lesson.date | date: "%b %-d, %Y" }}</span><br>
-Reviewed by <span class="reviewers">{{ lesson.reviewers | default: "" | array_to_sentence_string }}</span>
+  <h3 class="lesson-index-author">{{ lesson.authors }}</h3>
+  <a href="{{ site.baseurl }}/lessons/{{ lesson.slug }}"><h2 class="lesson-index-title">{{ lesson.title }}</h2></a>
 
-<p class="abstract">{{ lesson.abstract }}</p>
-<span class="activity">{{ lesson.activity }}</span>
-</span>
+  <p class="abstract">{{ lesson.abstract }}</p>
+<!--
+  <a href="{{ site.baseurl }}/lessons/{{ lesson.slug }}" class="btn btn-primary">Read Lesson</a>
+-->
+</div>

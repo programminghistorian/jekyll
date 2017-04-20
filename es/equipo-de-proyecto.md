@@ -21,26 +21,7 @@ Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una
 <br /><br /><br />
 </div>
 
-
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Adam-Crymble.png" />
-Adam Crymble es profesor de historia digital en la Universidad de Hertfordshire.
- 
-<br />
-
-
-	<a href="http://adamcrymble.org"><i class="fa fa-home fa-lg"></i></a>
-	
-		<a href="mailto:adam.crymble@gmail.com"><i class="fa fa-envelope-square fa-lg"></i></a>
-	
-	
-		<a href="https://twitter.com/Adam_Crymble"><i class="fa fa-twitter-square fa-lg"></i></a>
-	
-	
-		<a href="http://github.com/acrymble"><i class="fa fa-github-square fa-lg"></i></a>
-	
-<br /><br /><br />
-</div>
+{% include contact-info.html name="Adam Crymble" %}
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Victor-Gayol.png" />
@@ -61,24 +42,7 @@ Víctor Gayol es profesor investigador en el Centro de Estudios Históricos de E
 <br /><br /><br />
 </div>
 
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Fred-Gibbs.png" />
-Fred Gibbs es profesor de Historia en la Universidad de Nuevo México. Investiga y edita lecciones sobre mapeado digital, visualización de datos, y publicación web.
- 
-<br />
-
-	<a href="http://fredgibbs.net"><i class="fa fa-home fa-lg"></i></a>
-	
-		<a href="mailto:fwgibbs@gmail.com"><i class="fa fa-envelope-square fa-lg"></i></a>
-	
-	
-		<a href="http://twitter.com/fredgibbs"><i class="fa fa-twitter-square fa-lg"></i></a>
-	
-	
-		<a href="http://github.com/fredgibbs"><i class="fa fa-github-square fa-lg"></i></a>
-	
-<br /><br /><br />
-</div>
+{% include contact-info.html name="Fred Gibbs" %}
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Matthew-Lincoln.png" />
@@ -134,6 +98,8 @@ Ian Milligan es profesor de Historia en la Universidad de Waterloo. Tiene inter�
 <br /><br /><br />
 </div>
 
+{% include contact-info.html name="Jessica Parr" %}
+
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Antonio-Rojas-Castro.png" />
 Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en el Cologne Center for eHumanities.
@@ -170,6 +136,8 @@ Amanda Visconti es Directora general del centro de Humanidades Digitales Scholar
 	
 <br /><br /><br />
 </div>
+
+{% include contact-info.html name="Brandon Walsh" %}
 
 <div class="contact-box">
 <img class="avatar" src="http://programminghistorian.org/avatars/Jeri-Wieringa.png" />

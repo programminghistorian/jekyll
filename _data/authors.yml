@@ -45,6 +45,8 @@
     en: |
         Ian Milligan is an assistant professor of history at the University
         of Waterloo.
+    es: |
+        Ian Milligan es profesor asistente de historia en la Universidad de Waterloo.
   interests:
     en: |
         He is interested in working with authors on topics
@@ -62,9 +64,13 @@
     en: |
         Fred Gibbs is an assistant professor of history at the University of
         New Mexico.
+    es: |
+        Fred Gibbs es profesor de Historia en la Universidad de Nuevo México.
   interests: 
     en: |
-        He is particularly interested in lessons pertaining to digital mapping, data visualization, and web publishing. 
+        He is particularly interested in lessons pertaining to digital mapping, data visualization, and web publishing.
+    es: |
+        Particularmente se interesa en editar lecciones sobre cartografía digital, visualización de datos y publicación web.
        
 - name: Maria José Afanador-Llach
   email: mariajose@neogranadina.org
@@ -76,6 +82,8 @@
         Maria José Afanador-Llach works in the Fundación Histórica Neogranadina, 
         a non-profit organization digitizing endangered colonial archives in Colombia and promoting 
         digital humanities projects. She is also a lecturer in history at Simmons College in Boston.
+    es: |
+        Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una organización sin ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro, así como promover proyectos de Humanidades Digitales.
        
 - name: Víctor Gayol
   url: "https://victorgayol.net"
@@ -85,7 +93,9 @@
   team: true
   bio:
     en: |
-        Víctor Gayol is a researcher and professor at El Colegio de Michoacán, A.C. (CPI-CONACYT), México, with a PhD in History.
+        Víctor Gayol is a researcher and professor of history at El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
+    es: |
+        Víctor Gayol es profesor investigador en el Centro de Estudios Históricos de El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
 
 - name: Antonio Rojas Castro
   email: rojas.castro.antonio@gmail.com
@@ -95,6 +105,8 @@
   bio:
     en: |
         Antonio Rojas Castro is a researcher a the Cologne Center for eHumanities, with a PhD in Humanities (Spanish Literature).
+    es: |
+        Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en el Cologne Center for eHumanities.
 
 - name: Stephen Margheim
   bio:
@@ -146,7 +158,9 @@
   bio:
     en: |
         Daniel van Strien is a Library Science student at City University, London.
-
+    es: |
+        Daniel van Strien es estudiante de Biblioteconomía en la Universidad de la Ciudad, Londres.
+        
 - name: Kim Pham
   team: true
   bio:
@@ -246,14 +260,18 @@
     en: |
         Dennis Tenen is an assistant professor of English and Comparative
         Literature at Columbia University.
-
+    es: |
+        Dennis Tenen es profesor asistente de Inglés y Literatura Comparativa en la Universidad de Columbia.
+        
 - name: Grant Wythoff
   team: false
   bio:
     en: |
         Grant Wythoff is a lecturer in the Department of English and
         Comparative Literature at Columbia University.
-
+    es: |
+        Grant Wythoff es profesor adjunto en el Departamento de Inglés y Literatura Comparativa de la Universidad de Columbia. 
+        
 - name: Shawn Graham
   team: false
   bio:
@@ -319,6 +337,8 @@
   bio:
     en: |
         Marten Düring is a historian, works as researcher in the Digital Humanities Lab at CVCE Luxembourg, runs <a href="http://historicalnetworkresearch.org">http://historicalnetworkresearch.org</a> and regularly teaches workshops on network analysis.
+    es: |
+        Marten Düring es historiador y trabaja como investigador en el Laboratorio de Humanidades Digitales del CVCE Luxembourg. Dirige <a href="http://historicalnetworkresearch.org">http://historicalnetworkresearch.org</a> y ofrece talleres sobre análisis de redes.
 
 - name: Max De Wilde
   team: false
@@ -384,6 +404,8 @@
   bio:
     en: |
         Matthew Lincoln is a data research specialist at the Getty Research Institute, and an art historian of early modern Europe.
+    es: |
+        Matthew Lincoln es especialista en la investigación de datos en el Getty Research Institute e historiador del arte de la Europa moderna.
 
 - name: Sarah Simpkin
   twitter: sarahsimpkin
@@ -416,13 +438,16 @@
         student in the Department of History and Art History at George Mason Unveristy.
 
 - name: Brandon Walsh
+  github: walshbr
   twitter: walshbr
-  url: "http://bmw9t.github.io/"
-  team: false
+  email: walsh.brandon.michael@gmail.com
+  url: "http://walshbr.com/"
+  team: true
   bio:
     en: |
-        Brandon Walsh is Mellon Digital Humanities Fellow in the Library at Washington and Lee 
-        University. He received his PhD from the University of Virginia.
+        Brandon Walsh is Head of Graduate Programs in the Scholars' Lab in the University of Virginia Library.
+    es: |
+        Brandon Walsh es Jefe de Programas de Posgrado en el Laboratorio de Estudiosos en la Biblioteca de la Universidad de Virginia.
 
 - name: Ted Dawson
   team: false
@@ -485,3 +510,33 @@
   bio:
     en: |
         Justin Colson is a lecturer of history at the University of Essex, and a scholar of early modern Britain. 
+        
+- name: Jessica Parr
+  github: JMParr
+  email: jparr1129@gmail.com
+  twitter: ProvAtlantic
+  url: "http://jessicaparr.org/"
+  team: true
+  bio:
+    en: |
+        Jessica Parr teaches at Simmmons College (Boston) and works on PLACE Project at UNH Durham. 
+        She is a scholar of the early modern Atlantic.
+    es: |
+        Jessica Parr enseña en el Simmons College (Boston) y trabaja en el proyecto PLACE de la UNH Durham. Es especialista en la historia del mundo Atlántico moderno temprano.
+  interests:
+    en: |
+        She is interested in working with authors on geospatial lessons as well as textual-geospatial lessons.
+        
+- name: Taylor Arnold
+  url:
+  team: false
+  bio:
+    en: | 
+        Taylor Arnold is assistant professor of statistics at the University of Richmond.
+    
+- name: Lauren Tilton
+  url: 
+  team: false
+  bio:
+    en: | 
+        Lauren Tilton is visiting assistant professor of digital humanities at the University of Richmond.
