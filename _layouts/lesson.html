@@ -10,7 +10,7 @@ layout: base
 
     <div class="row">
       <div class="col-4">
-        <div class="header-image">
+        <div class="header-image rounded">
           <img src="{{ site.baseurl }}/gallery/{{ page.slug }}.png">
         </div>
       </div>
@@ -53,6 +53,22 @@ layout: base
           {% include reviewer.html %}
       </div>
 
+      {% if page.translator %}
+      <div class="col-md-4 text-left offset-col-md-6" >
+        <h3 class="text-left">Translator</h3>
+          {% include reviewer.html %}
+      </div>
+      {% endif %}
+
+      {% if page.translation-reviewers %}
+      <div class="col-md-4 text-left offset-col-md-6" >
+        <h3 class="text-left">Translator</h3>
+        {% for editor in page.editors %}
+          <li>{{editor}}</li>
+        {% endfor %}
+      </div>
+      {% endif %}
+
     </div>
     </div> <!-- end row -->
   </div>
@@ -68,18 +84,6 @@ layout: base
   </div>
 
 
-  <!--
-  {% if page.translator %}
-      <div class="col">
-        <h3>Translators</h3>
-        <ul>
-        {% for editor in page.editors %}
-          <li>{{editor}}</li>
-        {% endfor %}
-        </ul>
-      </div>
-  {% endif %}
-  -->
 
 
 </header>

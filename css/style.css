@@ -289,6 +289,24 @@ margin-bottom:.1rem;
   //width:19.2%;
 }
 
+.button-group {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.button-group div {
+  display: table-cell;
+  padding-right:3px;
+}
+
+button {
+  width: 100%;
+  margin-bottom:1px;
+  margin-right:1px;
+}
+
+
 #filter-none {
   width:100%;
   clear:both;

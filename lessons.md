@@ -10,12 +10,12 @@ Our lessons are organized by typical phases of the research process, as well as 
 
 If you can’t find a skill, technology, or tool covered here, please [let us know]({{ site.baseurl }}/feedback)!
 
-  <div class="btn-group btn-group-justified">
-    <button class="btn btn-primary" id="filter-acquiring" type="submit">acquire</button>
-    <button class="btn btn-primary" id="filter-transforming" type="submit">transform</button>
-    <button class="btn btn-primary" id="filter-presenting" type="submit">present</button>
-    <button class="btn btn-primary" id="filter-sustaining" type="submit">sustain</button>
-    <button class="btn btn-primary" id="filter-analyzing" type="submit">analyze</button>
+  <div class="button-group">
+    <div><button class="btn btn-primary" id="filter-acquiring" type="submit">acquire</button></div>
+    <div><button class="btn btn-primary" id="filter-transforming" type="submit">transform</button></div>
+    <div><button class="btn btn-primary" id="filter-presenting" type="submit">present</button></div>
+    <div><button class="btn btn-primary" id="filter-sustaining" type="submit">sustain</button></div>
+    <div><button class="btn btn-primary" id="filter-analyzing" type="submit">analyze</button></div>
   </div>
 
   <button class="btn btn-primary" id="filter-none" type="submit">show all</button>
