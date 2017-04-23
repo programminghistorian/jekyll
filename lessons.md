@@ -30,9 +30,17 @@ If you can’t find a skill, technology, or tool covered here, please [let us kn
 
   <div id="eachlesson">
     <ul class="list">
-    {% for lesson in site.lessons reversed %}
-      <li>{% include lesson_describe.html %}</li>
-    {% endfor %}
+      {% for topic in site.data.topics %}
+        ### {{ topic.displayname }}
+        *{{ topic.description }}*  
+
+        {% for lesson in site.lessons %}
+          {% if lesson.topics contains topic.type%}  
+            {% include lesson_describe.html %}
+          {% endif %}
+        {% endfor %}
+
+      {% endfor %}
     </ul>
   </div>
 
@@ -44,21 +52,3 @@ If you can’t find a skill, technology, or tool covered here, please [let us kn
     initSort();
   });
 </script>
-
-<hr style="clear:both"/>
-
-## All lessons by topic
-<!--
-{% for topic in site.data.topics %}
-### {{ topic.displayname }}
-*{{ topic.description }}*  
-
-
-  {% for lesson in site.lessons %}
-    {% if lesson.topics contains topic.type%}  
-      {% include lesson_describe.html %}
-    {% endif %}
-  {% endfor %}
-
-{% endfor %}
--->
