@@ -12,7 +12,7 @@ You can follow *The Programming Historian* on Twitter: [@proghist](http://twitte
 ## Editorial Board
 
 <div class="contact-box">
-<img class="avatar rounded-circle" src="http://programminghistorian.org/avatars/Maria-Jose-Afanador-Llach.png" />
+<img class="avatar rounded-circle" src="{{site.baseurl}}/avatars/Maria-Jose-Afanador-Llach.png" />
 Maria José Afanador-Llach works in the Fundación Histórica Neogranadina,
 a non-profit organization digitizing endangered colonial archives in Colombia and promoting digital humanities projects.
 
@@ -23,7 +23,7 @@ a non-profit organization digitizing endangered colonial archives in Colombia an
 {% include contact-info.html name="Adam Crymble" %}
 
 <div class="contact-box">
-<img class="avatar rounded-circle" src="http://programminghistorian.org/avatars/Victor-Gayol.png" />
+<img class="avatar rounded-circle" src="{{site.baseurl}}/avatars/Victor-Gayol.png" />
 Víctor Gayol is a researcher and professor of history at El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
 
 		<a href="http://victorgayol.net"><i class="fa fa-home fa-lg"></i></a>

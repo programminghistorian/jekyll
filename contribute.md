@@ -9,7 +9,7 @@ _Programming Historian_ runs on the far-from-endless energy of volunteers, and w
 
 ## Write a new lesson
 
-<img src="../images/author-sm.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" />
 
 Writing a tutorial is one of the best ways to teach yourself particular skills and actively engage in the digital humanities community.
 
@@ -19,7 +19,7 @@ If you'd like to propose a lesson (for you or for someone else to write), email 
 
 ## Join our team of reviewers
 
-<img src="../images/reviewer-sm.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-right" />
 
 _Programming Historian_ holds peer review in the highest regard, and we take an open and collaborative approach in which reviewers get full and public credit for their work. For more on our review philosophy and procedures, please see the [Guidelines for Reviewers][reviewers].
 
@@ -28,7 +28,7 @@ We hope you'll consider joining our team of reviewers. The time commitment is fl
 
 ## Edit lessons
 
-<img src="../gallery/editor-guidelines.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/gallery/editor-guidelines.png" class="garnish rounded float-right" />
 
 
 Our editorial process Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [guidelines for editors](editor-guidelines) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
@@ -37,7 +37,7 @@ From time to time we may advertise that we are seeking more editors.
 
 ## Provide feedback or report problems
 
-<img src="../images/reader-sm.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" />
 
 We welcome [feedback](feedback.html) on any aspect of the Programming Historian. Let us know what we can do to make the project better!
 
@@ -46,7 +46,7 @@ We are especially grateful for tips about lessons that seem to be broken. As URL
 
 ## Add us to your Library Catalog
 
-<img src="../images/library-catalogue.png" class="garnish float-right" />
+<img src="{{site.baseurl}}/images/library-catalogue.png" class="garnish float-right" />
 
 
 This project is our attempt to demonstrate what open access academic publishing can and should be. Please help us spreading the message and providing the widest possible access to this resource by asking your librarian to include the project in your library catalogue.
