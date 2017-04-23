@@ -1,8 +1,7 @@
 ---  
-layout: directory
+layout: blank
 title:  
     Acerca de Programming Historian en español
-redirect_from:  /about.html
 ---
 
 <figure>
@@ -21,14 +20,14 @@ Si no encuentras lo que estás buscando, esperamos tus [comentarios]. O, mejor a
 
 Por favor, dirige la correspondencia primeramente a [Antonio Rojas Castro] (Cologne Center for eHumanities).
 
-- - - - - 
+- - - - -
 
 Tabla de contenidos:
 
 * TOC
 {:toc}
 
-- - - - - 
+- - - - -
 
 
 ## Nuestra filosofía
