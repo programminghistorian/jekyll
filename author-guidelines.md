@@ -6,19 +6,18 @@ layout: blank
 # Author Guidelines
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" />
-
-- Step 1: [Proposing a New Lesson](#proposing-a-new-lesson)
-- Step 2: [Writing and Formatting a New Lesson](#writing-a-new-lesson)
-- Step 3: [Submitting a New Lesson](#submitting-a-new-lesson)
+<h3 class="noclear">Step 1: <a href="#proposing-a-new-lesson">Proposing a New Lesson</a></h3>
+<h3 class="noclear">Step 2: <a href="#writing-a-new-lesson">Writing and Formatting a New Lesson</a></h3>
+<h3 class="noclear">Step 3: <a href="#submitting-a-new-lesson">Submitting a New Lesson</a></h3>
 
 ## Proposing a New Lesson
-If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, contact [Jeri Wieringa] to discuss your idea. Getting in touch at an early stage will help everyone to think about how to best frame your lesson--especially for a target audience and expected skill level--and to pair you with an editor who can best help you develop the tutorial.
+If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, contact [Jeri Wieringa] to discuss your idea. Getting in touch at an early stage will help you frame your lesson--especially identifying a target audience and expected skill level--and to pair you with the most appropriate editor.
 
 <div class="alert alert-success">
   There is no standard lesson at <i>Programming Historian</i>. We welcome lessons on any topic that helps humanists at any phase of the research and publication process.
 </div>
 
-We welcome all lesson proposals, pitched at any level of technical aptitude and experience, from neophytes to power users. Lessons may be a short and straightforward explanation of a discrete task (these kinds of "helper" lessons make complex lessons easier to follow); they may be quite long, complex, and technically sophisticated.
+We welcome all lesson proposals, pitched at any level of technical aptitude and experience, from neophytes to power users. Lessons may be a short and straightforward explanation of a discrete task (such "helper" lessons make complex lessons easier to follow); they may be quite long, complex, and technically sophisticated.
 
 You can get a better sense of what we think makes for a good lesson by looking through our [published lessons], reading our [reviewer guidelines] or browsing the [lessons currently in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). We encourage lesson proposals on topics already covered or in development, provided that the new lesson makes its own unique contribution. Everyone learns differently!
 
@@ -28,7 +27,7 @@ You can get a better sense of what we think makes for a good lesson by looking t
 
 This means that we we ask that authors adhere to the following lesson requirements, which are not merely stylistic, but in fact necessary for our publishing platform. While our technical requirements may be unfamiliar to you, **we are here to help you through the process and learn the technologies as you go.**
 
-Please note that we do not have a budget to hire a copyeditor as this is a volunteer-driven project, so we are grateful for your attention to detail.
+Please note that as a volunteer-driven project, we are grateful for your attention to detail!
 
 
 ### Use plain text
@@ -79,7 +78,7 @@ To create the YAML block for your lesson, you should **copy and paste the follow
 ### Write in Markdown
 **All new lessons must be written in Markdown.** Markdown is a simple mark-up language that is best written in a text editor (as explained above, do not use a word processor like MS Word or Open Office). [GitHub Pages] are powered by [Jekyll](http://jekyllrb.com/), which automatically converts the Markdown files into the HTML pages that you can find here on the website. Even this page is written in Markdown, as you can see by inspecting [the raw text on GitHub].
 
-For a gentle introduction to GitHub Markdown (especially with *Programming Historian*, see [Getting Started with Markdown]({site.baseurl}}/getting-started-with-markdown), or the concise reference [GitHub Guide to Markdown].
+For a gentle introduction to GitHub Markdown (especially with *Programming Historian*, see [Getting Started with Markdown]({{site.baseurl}}/getting-started-with-markdown), or the concise reference [GitHub Guide to Markdown].
 
 <div class="alert alert-warning">
   Before continuing, be sure you understand how to use Markdown syntax to use basic formatting like headers, bold, italics, links, paragraphs, and lists.
@@ -90,16 +89,7 @@ We strive to make our lessons easy to follow by using section headings consisten
 
 **Please do not make your own headings** with **bold** or *italic* text; use an appropriate heading level (which we can style consistently across our lessons). Unless your lesson is incredibly short, you'll probably need at least 3 levels.
 
-Although there are a few ways to create section headings, we ask that you use the `#` notation in your headings. Top-level section headings are indicated with a \#; second-level with \#\#, and so on as shown below.
-    # Header 1
-    ## Header 2
-
-will render as:
-
-# Header 1
-
-## Header 2
-
+Although there are a few ways to create section headings with Markdown, we ask that you use the `#` notation in your headings. Top-level section headings are indicated with a \#; second-level with \#\#, and so on.
 
 ### Alerts
 If you want to point out something that isn't essential for following the lesson but think is important enough to mention (or applies only to certain readers), you can set it apart from the main lesson text by using our [alert styling](https://v4-alpha.getbootstrap.com/components/alerts/) (borrowed from Bootstrap).
@@ -166,31 +156,6 @@ When the Markdown is rendered by our system, this line will automatically produc
 <div class="alert alert-warning">
   Note that when figure tags are added this way, the image will not show up in the preview on GitHub or in other Markdown preview programs.
 </div>
-
-
-### Tables
-To create HTML tables, use the [extended table syntax].  HTML tables should only be used to represent tabular information, not to override standard _PH_ formatting.
-
-The key principle to note when constructing a markdown table is that
-columns are separated by pipe characters (`|`), and the header row is
-set off by dashes from the other rows.
-
-Here's an example:
-
-    | First Header  | Second Header |
-    | ------------- | ------------- |
-    | Content Cell  | Content Cell  |
-    | Content Cell  | Content Cell  |
-
-Note that the columns do not have to line up for the table to render
-correctly. For example, this also would work:
-
-    | First | Second |
-    | ------------- | ------------- |
-    | Content | Content  |
-    | Content Cell  | Content Cell  |
-
-Adding colons to the dashed line separating the header row from the others can also control column alignment, as explained in the [full instructions for this feature][extended table syntax].
 
 
 ### Endnotes
