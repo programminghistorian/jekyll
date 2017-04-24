@@ -158,7 +158,9 @@
   bio:
     en: |
         Daniel van Strien is a Library Science student at City University, London.
-
+    es: |
+        Daniel van Strien es estudiante de Biblioteconomía en la Universidad de la Ciudad, Londres.
+        
 - name: Kim Pham
   team: true
   bio:
@@ -335,6 +337,8 @@
   bio:
     en: |
         Marten Düring is a historian, works as researcher in the Digital Humanities Lab at CVCE Luxembourg, runs <a href="http://historicalnetworkresearch.org">http://historicalnetworkresearch.org</a> and regularly teaches workshops on network analysis.
+    es: |
+        Marten Düring es historiador y trabaja como investigador en el Laboratorio de Humanidades Digitales del CVCE Luxembourg. Dirige <a href="http://historicalnetworkresearch.org">http://historicalnetworkresearch.org</a> y ofrece talleres sobre análisis de redes.
 
 - name: Max De Wilde
   team: false

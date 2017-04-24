@@ -10,7 +10,7 @@ Te invitamos a navegar alrededor. Si no encuentras cubierta alguna herramienta, 
 Gestión de datos
 ----------------------
 
-Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerzo sea duradero adoptando estategias sostenibles en relación a tu codigo, datos y procesos de investigación. Dedicar algún tiempo a planear puede ahorrarte mucho tiempo en el futuro.
+Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerzo sea duradero adoptando estategias sostenibles en relación con tu codigo, datos y procesos de investigación. Dedicar algún tiempo a planear puede ahorrarte mucho tiempo en el futuro.
 
 <ul class="lesson-images">
   <li>
@@ -20,8 +20,55 @@ Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerz
       <p>James Baker</p>
     </a>
   </li>
+  <li>
+    <a href="{{site.url}}/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown">
+      <img src="{{site.url}}/gallery/sustainable-authorship-in-plain-text-using-pandoc-and-markdown.png">
+      <h3>Escritura sostenible en texto plano usando Pandoc y Markdown</h3>
+      <p>Dennis Tenen y Grant Wythoff</p>
+    </a>
+  </li>
+  <li>
+    <a href="{{site.url}}/es/lecciones/introduccion-control-versiones-github-desktop">
+      <img src="{{site.url}}/gallery/getting-started-with-github-desktop.png">
+      <h3>Introducción al control de versiones con GitHub Desktop</h3>
+      <p>Daniel van Strien</p>
+    </a>
+  </li>
   </ul>
 
+Preparándose para programar
+-------------------------
+Si quieres empezar a programar con Python, primero debes crear un entorno de trabajo adecuado. Debido a su gran flexibilidad, recomendamos que sigas estas instrucciones para [instalar Python en tu línea de comandos](http://cli.learncodethehardway.org/book/ex1.html).
+
+La mayoría de tutoriales requieren la instalación de uno o más módulos de Python a fin de ahorrar tiempo escribiendo código. Si eres nuevo en la materia, te recomendamos leer la lección sobre cómo instalar módulos de Python.
+
+<ul class="lesson-images">
+  <li>
+    <a href="{{site.url}}/es/lecciones/instalar-modulos-python-pip">
+      <img src="{{site.url}}/gallery/installing-python-modules-pip.png">
+      <h3>Instalar módulos de Python con pip</h3>
+      <p>Fred Gibbs</p>
+    </a>
+  </li>
+</ul>
+
+
+  
+Análisis de redes
+------------------
+
+El despliegue visual de redes ayuda a los académicos en humanidades a revelar patrones y estructuras complejas y escondidas en las fuentes textuales.
+
+<ul class="lesson-images">
+  <li>
+    <a href="{{site.url}}/es/lessons/creating-network-diagrams-from-historical-sources">
+      <img src="{{site.url}}/gallery/creating-network-diagrams-from-historical-sources.png">
+      <h3>Crear diagramas de redes a partir de fuentes históricas</h3>
+      <p>Marten Düring</p>
+    </a>
+  </li>
+</ul>
+  
 Introducción a Python
 ----------------------
 
