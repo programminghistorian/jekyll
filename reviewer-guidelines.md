@@ -6,11 +6,7 @@ layout: blank
 
 # Reviewer Guidelines
 
-## Our Review Philosophy
-
-<figure>
-	<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-right" />
-</figure>
+<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-right" />
 
 Reviewing for the _Programming Historian_ is a great way to learn new technical skills and engage with the digital humanities community. We go out of our way to make sure our reviewers get credit and recognition for their work. Because reviewers directly contribute to significantly improving lessons, you can take pride in that your work helps thousands of readers.
 
@@ -20,24 +16,23 @@ These guidelines are to help reviewers understand their role in the editorial pr
 {:toc}
 
 
-## Collaborative, Not Judgmental
-Our peer review process is a bit different from what might be considered the "traditional" peer review process. We do not solicit reviews to judge whether a tutorial is "good enough" to be published. Rather, we consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to create useful technical resources for each other. Once a tutorial slips into our editorial workflow, our goal is to do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time.
+## Review Philosophy
+We do not solicit reviews to judge whether a tutorial is "good enough" to be published. Rather, we consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to create useful technical resources for each other. Once a tutorial enters our editorial workflow, we work closely with the author and reviewers to maximize its potential and publish it within a reasonable amount of time.
 
-## Constructive Criticism
-To review a tutorial is not simply to assess its merits and flaws (though it is important to do these as well), or judge whether it's appropriate for _Programming Historian_, but to help improve the tutorial as an outside reader. We ask that reviewers comment on tutorials as they would on a paper or similar for a colleague--to provide fair and constructive criticism (and of course praise) that will improve the tutorial for a wide range of readers. We don't send anything out for review that isn't within a reasonable distance of publishable quality. A few extra perspectives and suggestions (beyond those of the editor) greatly improve lessons and make them of great (and unique) value to the community.
+### Constructive Criticism
+To review a tutorial is not simply to assess its merits and flaws (though it is important to do these as well), or judge whether it's appropriate for _Programming Historian_, but to help improve the tutorial by virtue of an outside perspective. We ask that reviewers provide fair and constructive criticism (and of course praise) that will improve the tutorial for a wide range of readers. We don't send anything out for review that isn't within a reasonable distance of publishable quality.
 
-## Transparency
-We highly value transparency in our lesson production and review process. Our review process happens on Github, where our lessons are hosted. Namely, we use Github's commenting and [issue tracking](https://en.wikipedia.org/wiki/Issue_tracking_system) capabilities to keep track of suggestions and how they are handled and discussed by the authors and reviewers. This helps avoid important conversations becoming lost in archived email threads. Future tutorial users can easily rekindle an old conversation that has become newly relevant.
+### Transparency
+We highly value transparency in our lesson production and review process. Our review process happens on Github, where our lessons are hosted. Namely, we use Github's commenting and [issue tracking](https://en.wikipedia.org/wiki/Issue_tracking_system) capabilities to keep track of suggestions and how they are handled and discussed by the authors and reviewers. This helps avoid important conversations becoming buried and lost in email threads.
 
-Therefore, your work as a reviewer--and your identity--will be fully visible to the author. Comments should engage with the author and lesson directly, rather than the review editor. If at any point you are unsure of your role or what to do next, feel free to post a question to clarify and an editor will respond as soon as they can. You’ll understand that sometimes it will take the editor a few days to respond, but we hope the improvements to the finished lesson will be worth the wait.
+Therefore, your work as a reviewer--and your identity--will be fully visible to the author. Comments should engage with the author and lesson directly, rather than the review editor. If at any point you are unsure of your role or what to do next, feel free to post a question to clarify and an editor will respond as soon as they can.
 
-In keeping with the ideas of public scholarship and open peer review, we generally encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable and we recognize that in some cases a private word may be more appropriate. If you feel the need to discuss a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](http://programminghistorian.org/project-team), or to contact one of our dedicated ombudspersons, [Amanda Visconti or Ian Milligan](http://programminghistorian.org/project-team).
+In keeping with the ideas of public scholarship and open peer review, we generally encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable. In some cases a private word may be more appropriate. If you feel the need to discuss a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](http://programminghistorian.org/project-team), or to contact one of our dedicated ombudspersons, [Amanda Visconti or Ian Milligan](http://programminghistorian.org/project-team).
 
-Unless you instruct us otherwise, your name will be indicated as a reviewer on the lesson's page when it is officially published; you'll also be listed on our contributors page. These are, of course, insufficient tokens of appreciation, but we want to emphasize that _Programming Historian_ is the work of volunteers and give credit where credit is due.
+Unless you instruct us otherwise, your name will be indicated as a reviewer on the lesson's page when it is officially published; you'll also be listed on our contributors page.
 
-
-## Openness and Inclusivity
-_Programming Historian_ is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutinize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudspersons ([Ian Milligan or Amanda Visconti](http://programminghistorian.org/project-team)). Thank you for helping us to create a safe space.
+### Openness and Inclusivity
+_Programming Historian_ is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutinize ideas, to ask questions, make suggestions, or to requests for clarification. We insist on a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudspersons ([Ian Milligan or Amanda Visconti](http://programminghistorian.org/project-team)). Thank you for helping us to create a safe space.
 
 
 ## What To Comment On

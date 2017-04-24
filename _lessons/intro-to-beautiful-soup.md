@@ -8,7 +8,7 @@ authors:
 - Jeri Wieringa
 difficulty: 2
 activity: transforming
-topics: [web-scraping]
+topics: [web-scrape]
 abstract: "Beautiful Soup is a Python library for getting data out of HTML, XML,
 and other markup languages."
 ---
