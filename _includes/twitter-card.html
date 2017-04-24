@@ -8,6 +8,6 @@
 {% else %}
     <meta name="twitter:description" content="{{ page.content | truncate: 197 | strip_html }}" />
 {% endif %}
-<meta name="twitter:image" content="{{ site.url }}/gallery/{{ page.url }}.png" />
+<meta name="twitter:image" content="{{ site.url }}/gallery{{ page.url | remove_first:'/lessons/' }}.png" />
 
 
