@@ -7,8 +7,8 @@
 {% endif %}
 
 <figure>
-<a href="/images/{{ imgpath }}/{{ include.filename }}">
-    <img src="/images/{{ imgpath }}/{{ include.filename }}" alt="{{ include.caption }}">
+<a href="{{site.baseurl}}/images/{{ imgpath }}/{{ include.filename }}">
+    <img src="{{site.baseurl}}/images/{{ imgpath }}/{{ include.filename }}" alt="{{ include.caption }}">
 	</a>
 <figcaption>
     {{ include.caption | markdownify }}

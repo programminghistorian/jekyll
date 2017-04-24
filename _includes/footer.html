@@ -1,17 +1,37 @@
 <footer role="contentinfo">
 
 {% if page.lang == "en" %}
-<p>
-  <em>The Programming Historian</em> is released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
-  <i class="fa fa-github" aria-hidden="true"></i>
-  <a href="https://github.com/programminghistorian/jekyll">Hosted on GitHub</a>
+<div class="container-fluid">
+
+<div class="row">
+  <div class="col-sm-12">
+    <em>Programming Historian</em> is released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-3">
+    <i class="fa fa-github" aria-hidden="true"></i>
+    <a href="https://github.com/programminghistorian/jekyll">Hosted on GitHub</a>
+  </div>
+
+  <div class="col-sm-3">
   <i class="fa fa-calendar" aria-hidden="true"></i>
   Last updated on {{ site.time | date_to_long_string }}
+  </div>
+
+  <div class="col-sm-3">
   <i class="fa fa-history" aria-hidden="true"></i>
   <a href="https://github.com/programminghistorian/jekyll/commits/gh-pages/">See change history</a>
+  </div>
+
+  <div class="col-sm-3">
   <i class="fa fa-bolt" aria-hidden="true"></i>
-  <a href="/feedback">Make a suggestion!</a>
-</p>
+  <a href="{{site.baseurl}}/feedback">Make a suggestion!</a>
+  </div>
+
+</div>
+</div>
 
 {% endif %}
 
