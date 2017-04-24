@@ -12,17 +12,17 @@ This page contains step-by-step instructions for editors facilitating peer revie
 
 Thank you for editing a lesson for the *Programming Historian*. We are extremely grateful for your efforts. This guide is meant to ensure that all authors, editors, and reviewers receive a consistent and fair experience with the *Programming Historian*. If you have any questions about anything in these guidelines, please email one of the other editors or post a question on our [Github issues](https://github.com/programminghistorian/jekyll/issues). Do the same if you think these guidelines need improvement or updating.
 
-We always encourage prospective authors to pitch their ideas before they start writing. We do not act as gatekeepers in the same way as a traditional journal. If a piece is not suitable for the *Programming Historian* our job is to tell an author before they have written a full tutorial. We hope this saves everyone time and energy. Once we have spoken to an author and encouraged their idea, our aim is always to support authors until the piece is publishable. Our goal is to help them reach that stage as efficiently as possible with clear guidance. You may find it helpful to familiarise yourself with our [instructions for authors](http://programminghistorian.org/new-lesson-workflow)
+We always encourage prospective authors to pitch their ideas before they start writing. We do not act as gatekeepers in the same way as a traditional journal. If a piece is not suitable for the *Programming Historian* our job is to tell an author before they have written a full tutorial. We hope this saves everyone time and energy. Once we have spoken to an author and encouraged their idea, our aim is always to support authors until the piece is publishable. Our goal is to help them reach that stage as efficiently as possible with clear guidance. You may find it helpful to familiarise yourself with our [instructions for authors](http://programminghistorian.org/new-lesson-workflow).
 
 ### Safe Spaces
 
-The *Programming Historian* is committed to providing a safe space for the exchange of ideas, where everyone can share without fear of harassment or abuse. The editor plays a fundamental role in ensuring that space endures. Your job includes enforcing our anti-harassment policy at all times. If you need help please ask one of the other editors. You can read more about our [commitment to safe spaces](http://programminghistorian.org/posts/PH-commitment-to-diversity) on the project blog.
+The *Programming Historian* is committed to providing a safe space for the exchange of ideas, where everyone can share without fear of harassment or abuse. The editor plays a fundamental role in ensuring that space endures. Your job includes enforcing our anti-harassment policy at all times. If you need help please ask one of the other editors or PH ombudspeople Ian Milligan or Amanda Visconti. You can read more about our [commitment to safe spaces](http://programminghistorian.org/posts/PH-commitment-to-diversity) on the project blog.
 
 ### Anti-Harassment Policy
 
 This is a statement of the *Programming Historian's* principles and sets expectations for the tone and style of all correspondence between reviewers, authors, editors, and contributors to our public forums.
 
-The *Programming Historian* is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudsperson (Ian Milligan or Amanda Visconti - http://programminghistorian.org/project-team). Thank you for helping us to create a safe space.
+The *Programming Historian* is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudspeople (Ian Milligan or Amanda Visconti - http://programminghistorian.org/project-team). Thank you for helping us to create a safe space.
 
 ### Open Peer Review
 
@@ -40,22 +40,22 @@ When a lesson has been submitted, the editor will open a new 'issue' on our [Git
 
 Your first comment on the message board for a given tutorial review should use our template which outlines the role of the editor and what will take place during the review, as well as everyone's options in the unlikely event that something goes wrong. Please adapt [the template](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md), which should appear automatically in all new issue boxes, as needed:
 
-    The Programming Historian has received the following tutorial on '[LESSON TITLE]' by [AUTHOR GITHUB USERNAME]. This lesson is now under review and can be read at:
+    The Programming Historian has received the following tutorial on 'Editing Audio with Audacity' by @bmw9t. This lesson is now under review and can be read at:
     
-    http://programminghistorian.github.io/ph-submissions/lessons/[URL to lesson]
+    http://programminghistorian.github.io/ph-submissions/lessons/editing-audio-with-audacity
     
     I will act as editor for the review process. My role is to solicit two reviews from the community and to manage the discussions, which should be held here on this forum. I have already read through the lesson and provided feedback, to which the author has responded.
     
     Members of the wider community are also invited to offer constructive feedback which should post to this message thread, but they are asked to first read our Reviewer Guidelines (http://programminghistorian.org/reviewer-guidelines) and to adhere to our anti-harassment policy (below). We ask that all reviews stop after the second formal review has been submitted so that the author can focus on any revisions. I will make an announcement on this thread when that has occurred.
     
-    I will endeavor to keep the conversation open here on Github. If anyone feels the need to discuss anything privately, you are welcome to email me. You can always turn to @ianmilligan1 if you feel there's a need for an ombudsperson to step in.
+    I will endeavor to keep the conversation open here on Github. If anyone feels the need to discuss anything privately, you are welcome to email me. You can always turn to @ianmilligan1 or @amandavisconti if you feel there's a need for an ombudsperson to step in.
     
     Anti-Harassment Policy
     _
     
     This is a statement of the Programming Historian's principles and sets expectations for the tone and style of all correspondence between reviewers, authors, editors, and contributors to our public forums.
     
-    The Programming Historian is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutinize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudsperson (Amanda Visconti - http://programminghistorian.org/project-team). Thank you for helping us to create a safe space.
+    The Programming Historian is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutinize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact one of our ombudspeople (Ian Milligan or Amanda Visconti - http://programminghistorian.org/project-team). Thank you for helping us to create a safe space.
 
 
 ### Guiding the Conversation
@@ -147,19 +147,16 @@ If the lesson has been written by a new author, editors should add information a
 
 ```yaml
 - name: Jim Clifford
-  bio:
-    en: |
-        Jim Clifford is an assistant professor in the Department of History 
-        at the University of Saskatchewan.
+  bio: |
+       Jim Clifford is an assistant professor in the Department of History 
+       at the University of Saskatchewan.
 ```
 
-**Whitespace is important**, so be sure that the indentation matches the other examples, and use single spaces instead of "tabs."
+**Whitespace is important**, so be sure that the indentation matches the other examples.
 
 ### 3) Add reviewers and editors to the YAML file
 
 It is important that we acknowledge the work of our peer reviewers and editors. To the YAML file at the top of the tutorial, add the names of the reviewers who helped work on the piece as well as the names of any members of the community who contributed substantial open reviews. In addition, create an `editors` key and add yourself and any other editors who actively contributed to guiding the piece to publication. YAML formatting instructions can be found in the [Author Guidelines](http://programminghistorian.org/new-lesson-workflow).
-
-Reviewers who have not previously reviewed for the project also need to have their name added to the [reviewers.yml](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/reviewers.yml) file so that their name appears on the Project Team page. Please don't forget this step.
 
 ### 4) Add a difficulty indicator to the YAML file
 
@@ -177,7 +174,41 @@ In order to promote transparency around the review process, create a `review-tic
 
 Update the date in the YAML file to the date the lesson was moved to the jekyll repository and the added to the main site.
 
-### 7) Find an Image to represent the lesson
+### 7) Other lesson YAML finalization
+Looking at the example below, make sure all front matter on the lesson is properly filled out.  Common fields that need writing or editing at this point are: 
+- **collection** should just say "collection: lessons"
+- **layout** should just say "layout: lesson"
+- **slug** should have the path to the lesson on the public PH site, which means the hyphenated text following programminghistorian.org/lessons/ (e.g. building-static-sites-with-jekyll-github-pages)
+- **activity** should use one (and only one) of these five options: *acquiring, transforming, analyzing, presenting, sustaining*. Pick whichever one best describes what the lesson teaches you to do with humanities data (e.g. a lesson on creating a new Omeka website would be about *presenting* humanities data through a web gallery).
+- **topics** can be any number of the things listed after "type:" in /\_data/topics.yml. You are also encouraged to create new topics that would help someone find the lesson. To do so, besides listing the topic(s) in the lesson's front matter, you should:
+1. Add the topic to any existing lesson(s) also described by the new topic
+2. Add the new topic(s) to /\_data/topics.yml following the format of the other topics there (note that topics can't have spaces—use hyphens if needed).
+3. Edit /js/lessonfilter.js so the filter button to filter the lesson page to that topic works. Search the file for the ten-line chunk of code beginning with "$('#filter-api')", copy and paste that chunk of code, and replace the *two* appearances of "api" with your new topic.
+- **abstract** is a 1-3 sentence description of what you'll learn in the lesson. Try to avoid technical vocabulary when possible, as these summaries can help scholars without technical knowledge to try out something new.
+
+Check out the example below to see what finished front matter should look like:
+
+    ---
+    title: "Getting Started with Topic Modeling and MALLET"
+    collection: lessons
+    layout: lesson
+    slug: topic-modeling-and-mallet
+    date: 2012-09-02
+    authors:
+    - Shawn Graham
+    - Scott Weingart
+    - Ian Milligan
+    reviewers:
+    - John Fink
+    - Alan MacEachern
+    - Adam Crymble
+    difficulty: 2
+    activity: analyzing
+    topics: [distant-reading]
+    abstract: "In this lesson you will first learn what topic modeling is and why you might want to employ it in your research. You will then learn how to install and work with the MALLET natural language processing toolkit to do so."
+    ---
+
+### 8) Find an Image to represent the lesson
 
 We represent our lessons using an old image that we feel captures some element of the task described in the tutorial. You can see the full range of these on the [main Lessons directory](http://programminghistorian.org/lessons/). These images are selected by editors.
 
@@ -199,7 +230,7 @@ Upload the original image to the [gallery/originals](https://github.com/programm
 Add the image to the lessons page by editing the HTML in [lessons/index.md](https://github.com/programminghistorian/jekyll/blob/gh-pages/lessons/index.md) so that the image source matches the new image’s file location. In our previous example, the HTML line would be: `<img src="../gallery/cleaning-data-with-openrefine.png">`. The new image should appear on the [Lessons page]( http://programminghistorian.org/lessons)!
 
 
-### 8) Thank Everyone and Encourage Promotion
+### 9) Thank Everyone and Encourage Promotion
 
 It's important to send an email or message to everyone involved thanking them for their efforts. In particular, thank the author for contributing and encourage them to think of us again in future. It's also worth giving the author some ideas on promoting their lesson. The most-used lessons always have authors' energies behind them. For example authors should be encouraged to:
 
