@@ -4,9 +4,9 @@
 <meta name="twitter:site" content="@ProgHist" />
 <meta name="twitter:title" content="{{ page.title }}" />
 {% if page.abstract %}
-    <meta name="twitter:description" content="{{ page.abstract | xml_escape }}" />
+    <meta name="twitter:description" content="{{ page.abstract | truncate: 197 | strip_html }}" />
 {% else %}
-    <meta name="twitter:description" content="{{ page.excerpt | xml_escape }}" />
+    <meta name="twitter:description" content="{{ page.content | truncate: 197 | strip_html }}" />
 {% endif %}
 <meta name="twitter:image" content="{{ site.url }}/gallery/{{ page.url }}.png" />
 
