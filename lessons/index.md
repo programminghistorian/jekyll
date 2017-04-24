@@ -306,6 +306,13 @@ Mapping can be an effective way to visualize and interpret historical data. Thes
       <p>Justin Colson</p>
     </a>
   </li>
+  <li>
+    <a href="../lessons/using-javascript-to-create-maps">
+      <img src="../gallery/using-javascript-to-create-maps.png">
+      <h3>Using JavaScript to Create Maps of Correspondence</h3>
+      <p>Stephanie J. Richmond and Tommy Tavenner</p>
+    </a>
+  </li>
 </ul>
 
 Network Analysis
