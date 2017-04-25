@@ -30,7 +30,7 @@ Tabla de contenidos:
 Introducción
 ------------
 
-La visualizaciones de redes pueden ayudar a los humanistas a revelar patrones complejos escondidos y estructuras en fuentes textuales. Este tutorial explica cómo extraer datos en red (personas, instituciones, lugares, etcétera.) de fuentes históricas a través del uso de métodos no especializados desarrollados en el marco del análisis de datos qualitativos (Qualitative Data Analysis, QDA) y el análisis de redes sociales (Social Network Analysis, SNA), y cómo visualizar estos datos con [*Palladio*](http://palladio.designhumanities.org/#/), una aplicación que funciona con una plataforma independiente y que es particularmente fácil de usar.
+La visualizaciones de redes pueden ayudar a los humanistas a revelar patrones complejos escondidos y estructuras en fuentes textuales. Este tutorial explica cómo extraer datos en red (personas, instituciones, lugares, etcétera.) de fuentes históricas a través del uso de métodos no especializados desarrollados en el marco del análisis de datos qualitativos (Qualitative Data Analysis, QDA) y el análisis de redes sociales (Social Network Analysis, SNA), y cómo visualizar estos datos con [*Palladio*](http://palladio.designhumanities.org/#/), una aplicación independiente de plataforma y que es particularmente fácil de usar.
 
 {% include figure.html caption="Figura 1: Una visualización de redes en Palladio y lo que vas a poder crear al final de este tutorial." filename="diagramas-de-redes-01.png" %}
 
