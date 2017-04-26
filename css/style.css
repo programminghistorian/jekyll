@@ -274,6 +274,11 @@ header .header-helpers {
     border:1px solid #666;
   }
 
+  #filter-none:hover {
+    background-color:#ededed;
+  }
+
+
   .activities li {
     padding: .3rem .8rem;
   }
@@ -301,13 +306,13 @@ header .header-helpers {
     color: #38a;
   }
 
-
   .topics li.current {
     background-color:#39a;
     color: #333;
   }
-
-
+ .sort-by {
+   margin-bottom:2rem;
+ }
   .sort {
     margin:0;
     color:#666;
@@ -320,7 +325,7 @@ header .header-helpers {
 
   .sort:hover {
     text-decoration: none;
-    background-color:#999;
+    background-color:#cecece;
   }
 
   .sort:focus {
