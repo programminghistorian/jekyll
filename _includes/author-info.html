@@ -1,8 +1,8 @@
-
+{% assign authorCount = page.authors | size %}
 
 <div class="author-info">
   {% if page.lang == 'en' %}
-      <p class="author-name">About the {% if authorCount == 1 %}author{% else %}authors{% endif %}</p>
+      <h5 class="author-name">About the {% if authorCount == 1 %}author{% else %}authors{% endif %}</h5>
   {% endif %}
   {% if page.lang == 'es' %}
       <p class="author-name">Acerca {% if authorCount == 1 %}del autor{% else %}de los autores{% endif %}</p>

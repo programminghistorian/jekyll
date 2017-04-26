@@ -3,7 +3,7 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="{{site.baseurl}}/">Programming Historian</a>
+  <a class="navbar-brand" href="{{site.baseurl}}{{site.data.snippets.menu-home[page.lang]}}">Programming Historian</a>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
         <li class="nav-item dropdown">
@@ -36,6 +36,11 @@
       <li class="nav-item">
         <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-blog[page.lang].link}}">{{site.data.snippets.menu-blog[page.lang].title}}</a>
       </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-lang[page.lang].link}}">{{site.data.snippets.menu-lang[page.lang].title}}</a>
+      </li>
+
 
     </ul>
   </div>

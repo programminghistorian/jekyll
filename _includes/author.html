@@ -1,7 +1,9 @@
 {% assign authorCount = lesson.authors | size %}
 {% capture authorString %}
 {% if authorCount == 1 %}
-  {{ lesson.authors | first }}
+  {{ lesson.authors[0] }}
+{% elsif authorCount == 2 %}
+    {{ lesson.authors[0] }} and {{ lesson.authors[1] }}
 {% else %}
   {% for author in lesson.authors %}
     {% if forloop.last %} {{ site.data.snippets.and[page.lang] }} {{ author }}

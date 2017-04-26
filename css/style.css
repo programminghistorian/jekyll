@@ -20,6 +20,11 @@
     max-width: 45rem;
   }
 
+  .expanded {
+    max-width: 48rem;
+  }
+
+
   /* =============================================================================
   Home Page
   ========================================================================== */
@@ -128,7 +133,7 @@ color:#5bc;
    header h3, header h4 {
      font-family:'Roboto Condensed', sans-serif;
      letter-spacing:80%;
-     font-size:1.1rem;
+     font-size:.9rem;
      line-height:1.4rem;
      color:#666;
      margin:0 0 0 0;
@@ -195,7 +200,7 @@ header .header-helpers {
      color:#eee;
      margin: 0 0 0 0;
      padding:0;
-     font-size:1.1rem;
+     font-size:.9rem;
    }
 
    header .metarow {
@@ -655,21 +660,11 @@ li.nav-item {
 
   figure { margin: 0; }
 
-
-    article figure {
-      margin:2em 0;
-      text-align:center;
-      display:block;
-    }
-
-    article figure img {
-      margin-bottom: 0.5em;
-    }
-
-    article figcaption {
-      font-size:0.8em;
-      color: #777;
-    }
+  figcaption {
+    font-family:'Open Sans';
+    font-size:0.8em;
+    color: #777;
+  }
 
 
   .navigation {
@@ -696,27 +691,24 @@ li.nav-item {
     text-decoration:none;
   }
 
+.author-info {
+  border-top:1px solid #333;
+  padding-top:1rem;
+  margin-top:2rem;
+}
 
-  .author-name,
-  .citation-head,
-  .author-description,
-  .suggested-citation,
-  .all-posts {
-    display:block;
-    margin: 0.25em 140px;
-  }
-
-
-  .citation-head,
   .author-name {
+    font-family:'Roboto Condensed';
     font-weight: 600;
-    color: #999;
+    font-size:1.2rem;
+    color: #666;
+    text-transform:uppercase;
   }
 
-  .author-description p,
-  .suggested-citation,
-  .all-posts {
-    font-size:0.8em;
+  .author-description p {
+    font-size:0.9rem;
+    font-family:'Open Sans';
+    color: #666;
   }
 
   .additional ul {
@@ -742,16 +734,9 @@ li.nav-item {
 
   .avatar {
     float: left;
-	margin: 0 15px 40px 0;
-	width: 100px;
+	  margin: 0 2rem 3rem 0;
+    width: 15%;
   }
-  .toc-author {
-    display: block;
-	float: right;
-	font-size: 0.8em;
-  }
-
-
 
   article .pager {
     border-bottom: 1px dotted #ccc;
@@ -788,6 +773,8 @@ li.nav-item {
   }
 
   footer[role="contentinfo"] {
+    font-family:'Open Sans';
+    font-size:.9rem;
     color:#e5e5e5;
     background-color:#666;
     text-align:center;
@@ -795,6 +782,12 @@ li.nav-item {
     border-top: 1px solid #eee;
     padding: 2rem 0;
   }
+
+.footer-head {
+  font-size:1.1rem;
+  line-height:1.4rem;
+  margin-bottom:1rem;
+}
 
 footer a, footer a:link, footer a:visited {
   color: #fff;

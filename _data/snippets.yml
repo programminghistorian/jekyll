@@ -1,6 +1,9 @@
+menu-home:
+  en: /
+  es: /es
 menu-about:
-  en: About
-  es: Acerca de
+    en: About
+    es: Acerca de
 menu-about-overview:
   en:
     title: About PH
@@ -66,8 +69,14 @@ menu-blog:
     link: /blog
   es:
     title: Blog
-    link: /es/blog
-
+    link: /blog
+menu-lang:
+  en:
+    title: '[es]'
+    link: /es
+  es:
+    title: '[en]'
+    link: /
 
 and:
    en: and

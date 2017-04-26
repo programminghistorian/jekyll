@@ -2,16 +2,22 @@
 layout: base
 ---
 
+{% if page.lang == 'en' %}
+  {% assign slug = page.slug %}
+{% else %}
+  {% assign slug = page.redirect_from  | remove_first:'/es/lessons/' %}
+{% endif %}
+
 <header>
 
 <div class="container-fluid">
 
-  <div class="container">
+  <div class="container expanded">
 
     <div class="row">
       <div class="col-4">
         <div class="header-image rounded">
-          <img src="{{ site.baseurl }}/gallery/{{ page.slug }}.png">
+          <img src="{{ site.baseurl }}/gallery/{{ slug }}.png">
         </div>
       </div>
 
@@ -33,14 +39,18 @@ layout: base
   </div>
 </div>
 
+{% capture editor-style %}{% if page.translator %}col-md-3{% else %}col-md-3 offset-md-4{% endif %}{% endcapture %}
+{% capture reviewers-style %}{% if page.translator %}col-md-3{% else %}col-md-3{% endif %}{% endcapture %}
+
+
   <div class="container-fluid header-helpers">
 
-    <div class="container">
+    <div class="container expanded">
 
     <div class="row">
 
-      <div class="col-md-4 text-right">
-        <h3 class="text-right">Editor</h3>
+      <div class="{{editor-style}}">
+        <h3 class="text-left">Editor</h3>
         <ul>
         {% for editor in page.editors %}
           <li>{{editor}}</li>
@@ -48,22 +58,23 @@ layout: base
         </ul>
       </div>
 
-      <div class="col-md-4 text-left offset-col-md-6" >
+      <div class="{{reviewers-style}}" >
         <h3 class="text-left">Reviewers</h3>
           {% include reviewer.html %}
       </div>
 
       {% if page.translator %}
-      <div class="col-md-4 text-left offset-col-md-6" >
+      <div class="col-md-3" >
         <h3 class="text-left">Translator</h3>
-          {% include reviewer.html %}
-      </div>
+        {% for translator in page.translator %}
+          <li>{{translator}}</li>
+        {% endfor %}      </div>
       {% endif %}
 
-      {% if page.translation-reviewers %}
-      <div class="col-md-4 text-left offset-col-md-6" >
-        <h3 class="text-left">Translator</h3>
-        {% for editor in page.editors %}
+      {% if page.translation-reviewer %}
+      <div class="col-md-3" >
+        <h3 class="text-left">Translation Reviewers</h3>
+        {% for editor in page.translation-reviewer %}
           <li>{{editor}}</li>
         {% endfor %}
       </div>
@@ -74,7 +85,7 @@ layout: base
   </div>
 
   <div class="container-fluid header-bottom">
-    <div class="container text-center">
+    <div class="container expanded text-center">
       <div class="row">
       <div class="col-md-4 metarow text-left"><h4>published</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
       <div class="col-md-4 metarow text-center"><h4>modified</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
@@ -82,9 +93,6 @@ layout: base
     </div>
     </div>
   </div>
-
-
-
 
 </header>
 
