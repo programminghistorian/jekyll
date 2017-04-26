@@ -41,21 +41,21 @@ menu-contribute-feedback:
     link: /feedback
   es:
     title: Sugerencias
-    link: /retroalimentacion
+    link: /es/retroalimentacion
 menu-contribute-review:
   en:
     title: Review a lesson
     link: /reviewer-guidelines
   es:
     title: Revisar una leccion
-    link: /guia-para-revisores
+    link: /es/guia-para-revisores
 menu-contribute-write:
   en:
     title: Write a lesson
     link: /author-guidelines
   es:
     title: Escribe una leccion
-    link: /flujo-de-trabajo-nuevas-lecciones
+    link: /es/flujo-de-trabajo-nuevas-lecciones
 menu-lessons:
   en:
     title: Lessons

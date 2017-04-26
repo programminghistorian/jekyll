@@ -426,6 +426,10 @@ p.abstract {
   font-size:.9rem;
 }
 
+.lang {
+  text-transform:lowercase !important;
+}
+
 .navbar-light .navbar-nav .nav-link:hover {
   color:#39a;
 }
