@@ -3,7 +3,7 @@ title: Project Team
 layout: directory
 ---
 
-Our editorial team works together to help authors produce high quality tutorials. Please direct correspondence in the first instance to **<a href="mailto:jeri.elizabeth%2Bproghist@gmail.com">Jeri Wieringa</a>** at George Mason Universiy who is the acting commissioning editor. You can follow *The Programming Historian* on Twitter: [@proghist](http://twitter.com/proghist).
+Our editorial team works together to help authors produce high quality tutorials. Please direct correspondence in the first instance to **<a href="mailto:jeri.elizabeth%2Bproghist@gmail.com">Jeri Wieringa</a>** at George Mason University who is the acting commissioning editor. You can follow *The Programming Historian* on Twitter: [@proghist](http://twitter.com/proghist).
 
 ## Editorial Board
 
