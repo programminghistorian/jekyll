@@ -24,6 +24,28 @@ This is a statement of the *Programming Historian's* principles and sets expecta
 
 The *Programming Historian* is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudsperson (Ian Milligan or Amanda Visconti - http://programminghistorian.org/project-team). Thank you for helping us to create a safe space.
 
+### Track Proposed Lessons
+
+Once a lesson proposal has been given the "green light" by the editorial team and has been assigned an editor, the editor will work with the author to clarify the goals of the lesson and to establish an agreed upon submission deadline. The recommended time frame is 90 days from the start of the editorial conversation, though this can be adjusted if needed. 
+
+The editor will then create a "Proposed Lesson" issue in the [submissions repository on Github](https://github.com/programminghistorian/ph-submissions/issues) and assign it the "proposals" label. The default proposal text is included in the issue template, or can be copied from below. 
+
+    The Programming Historian has received the following proposal for a lesson on 'PROVISIONAL LESSON TITLE' by AUTHOR(S) NAME(S). The proposed learning outcomes of the lesson are:
+     
+    - key learning outcome 1
+    - key learning outcome 2
+    - key learning outcome 3 (add as needed)
+      	
+    In order to promote speedy publication of this important topic, we have agreed to a submission date of no later than [90 DAYS BY DEFAULT BY LONGER IF AGREED WITH EDITOR]. The author(s) agree to contact the editor in advance if they need to revise the deadline.
+      
+    If the lesson is not submitted by [THE AGREED DATE], the editor will attempt to contact the author(s). If they do not receive an update, this ticket will be closed. The ticket can be reopened at a future date at the request of the author(s).
+      
+    The main editorial contact for this lesson is [EDITOR USERNAME]. If there are any concerns from the authors they can contact the Ombudsperson @ianmilligan1 or @amandavisconti.
+
+The editor is encouraged to adjust the issue text to reflect any additional goals or requirements agreed upon between the author(s) and editor.
+
+Upon successful submission of the lesson, the editor will create a review ticket for the lesson and close the proposal issue. 
+
 ### Open Peer Review
 
 The *Programming Historian* uses a model of open peer review, while we believe this helps maintain civility and the productive sharing of ideas, authors have the right (and we have a requirement to respect that right) to request a closed peer review. There are many reasons why someone might be hesitant to engage in an open review and we encourage authors to always pursue the option with which they are most comfortable.
@@ -34,7 +56,7 @@ Once an author has revised the tutorial to the satisfaction of the editor, it is
 
 When inviting reviewers, the editor should provide them with our [reviewer guidelines](http://programminghistorian.org/reviewer-guidelines) and give them a deadline for completing their review (usually one month) so that we can ensure the timely publication of the tutorial.
 
-When a lesson has been submitted, the editor will open a new 'issue' on our [Github submissions repository](https://github.com/programminghistorian/ph-submissions/issues) where the open review will take place. This messsage board allows everyone to keep track of the conversation. You will need to sign up for a free Github account if you do not already have one, as will both the author and reviewers.
+When a lesson has been submitted, the editor will open a new 'issue' on our [Github submissions repository](https://github.com/programminghistorian/ph-submissions/issues) where the open review will take place. This message board allows everyone to keep track of the conversation. You will need to sign up for a free Github account if you do not already have one, as will both the author and reviewers.
 
 ### The Initial Comment
 
@@ -210,3 +232,5 @@ It's important to send an email or message to everyone involved thanking them fo
 - Add it to lists of resources in relevant repositories (eg, Wikipedia, community groups, etc).
 
 People don't find lessons on their own. The hard work is done, so let's make sure it was worth it!
+
+
