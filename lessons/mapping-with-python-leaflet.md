@@ -289,7 +289,6 @@ The easiest, recommended way is to use a UI tool developed by Mapbox called [geo
 
 ![Image: Adding data to geojson.io](../images/webmap-01-geojsonio.gif "Drag and Drop GeoJSON creation!")
 
-{% include figure.html src="../images/webmap-01-geojsonio.gif" caption="Adding data to geojson.io" %}
 
 Image Credit: with permission from Mauricio Giraldo Arteaga,
  NYPL Labs
@@ -307,7 +306,6 @@ To make the results more accurate, you should save another copy of the census-hi
 
 ![Image: Adding a Country Column](../images/webmap-02-countrycolumn.png "A new Country column")
 
-{% include figure.html src="../images/webmap-02-countrycolumn.png" caption="Add a new Country column to your spreadsheet" %}
 
 Now change your python script to combine the Area_Name and Country or City column to geocode your data:
 
@@ -530,7 +528,6 @@ Next, we're loading our data as another map layer, census.geojson.  This data wi
 Now we're creating the view for our map.  The boundary for our map will be based on the range of our data points in census.geojson.  You can also manually set your your viewport by using the [setView property](http://leafletjs.com/reference.html#map-set-methods). For example, if you're using .setView([0.0,-10.0], 2), the viewport coordinates '[0.0,-10.0], 2' means that you're setting the centre of the map to be 0.0, -10.0 and at a zoom level of 2.
 
 ![Image: Web Map](../images/webmap-03-result.jpg "My Web Map")
-{% include figure.html src="../images/webmap-03-result.jpg" caption=“Final Result: Your Web Map!” %}
 
 
 
@@ -549,7 +546,6 @@ Change the data source to stations.geojson.
 Change your data source back to census.geojson. Change your basemap layer to a mapbox tileset.  You need to get a Mapbox account, create a map or style and get your Mapbox API access token.
 ![Image: Mapbox](../images/webmap-04-mapboxAPI.png "Mapbox API")
 
-{% include figure.html src="../images/webmap-04-mapboxAPI.png" caption=“Final Result: Your Web Map!” %}
 
 ### Exercise 5
 Add a custom leaf icon, found in the images folder. Or use your own!
@@ -589,7 +585,6 @@ window.onload = function () {
 ```
 ![Image: Exercise 01 Answer](../images/webmap-05-exercise01.jpg "Exercise 01")
 
-{% include figure.html src="../images/webmap-05-exercise01.jpg" caption=“Exercise 01 Map Result” %}
 
 ### Exercise 2 Answer
 
@@ -628,7 +623,6 @@ window.onload = function () {
 ```
 ![Image: Exercise 02 Answer](../images/webmap-06-exercise02.jpg "Exercise 02")
 
-{% include figure.html src="../images/webmap-06-exercise02.jpg" caption=“Exercise 02 Map Result” %}
 
 ### Exercise 3 Answer
 
@@ -667,7 +661,6 @@ window.onload = function () {
 ```
 ![Image: Exercise 03 Answer](../images/webmap-07-exercise03.jpg "Exercise 03")
 
-{% include figure.html src="../images/webmap-07-exercise03.jpg" caption=“Exercise 03 Map Result” %}
 
 ### Exercise 4 Answer
 
@@ -727,7 +720,6 @@ window.onload = function () {
 ```
 ![Image: Exercise 04 Answer](../images/webmap-08-exercise04.jpg "Exercise 04")
 
-{% include figure.html src="../images/webmap-08-exercise04.jpg" caption=“Exercise 04 Map Result” %}
 
 ### Exercise 5 Answer
 
@@ -781,7 +773,6 @@ window.onload = function () {
 ```
 ![Image: Exercise 05 Answer](../images/webmap-09-exercise05.jpg "Exercise 05")
 
-{% include figure.html src="../images/webmap-09-exercise05.jpg" caption=“Exercise 05 Map Result” %}
 
 ### Additional ideas to explore
 - Time based visualizations - https://github.com/skeate/Leaflet.timeline
