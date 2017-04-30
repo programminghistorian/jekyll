@@ -28,21 +28,19 @@ This lesson uses:
 - geojson.io (from mapbox)
 - javascript and jquery
 
-Optional: If you wish to follow along with pre-made scripts you can download them **TO FIX: ADD LINK HERE WHEN LESSON IS COMPLETE**
+Optional: If you wish to follow along with pre-made scripts you can [download them](../assets/webmap-exercises).
 
 To set up your working environment:
 1. Create a directory for this project where you will keep all of your scripts and files that you will work from
 2. If you have a text editor where you can work from the directory of your project, import that directory. You can use editors such as [TextWrangler](http://www.barebones.com/products/textwrangler/) for OS X, [Notepad++](https://notepad-plus-plus.org/) for Windows, or [Sublime Text](http://www.sublimetext.com/).
 If you are using a code editor such as Sublime Text, to import the folder you could drag and drop the folder that you want to work from into your editor window. Once you've done that, the directory will appear on the left hand sidebar as you root folder. If you click on your folder, you'll be able to see the contents of your folder. Importing a folder allows you to easily work with the files in your project. If you need to work with multiple files and directories in directories, this will make it easier to search through these files, switch between them while you're working and keep you organized.
-3. Recommended http://docs.python-guide.org/en/latest/dev/virtualenvs/ (Should I talk about virtualenvs?) **TO FIX: talk about virtualenvs?**
+3. (Optional) It is recommended to use a [Python virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) to store the dependencies and versions required for your specific project.
 
 ### Getting Data: Download the CSV
 
 We're going to start with a plain comma-separated values (CSV) data file and create a web map from it.
 
 The data file can be downloaded here: https://raw.githubusercontent.com/programminghistorian/jekyll/tree/gh-pages/assets/webmap-tutorial-files/census-historic-population-borough.csv. You can grab this by either opening the link in your browser and saving the page, or you can use the curl command from your command line:
-
-**TO FIX: make sure the link to csv from proghist jekyll is working**
 
 ```curl  https://raw.githubusercontent.com/programminghistorian/jekyll/tree/gh-pages/assets/webmap-tutorial-files/census-historic-population-borough.csv > census-historic-population-borough.csv ```
 
@@ -52,9 +50,7 @@ The original source of this data is from the [Greater London Authority London Da
 
 ### Geocode the placenames in the CSV using Geopy, Pandas
 
-Now that we have data, the next step is sometimes the hardest part: we need to figure out what to do with it.  In this case, we know that our end goal is to make a web map with this data. You can work backwards from here to figure out what steps you need to take to achieve your goal.
-
-Web maps typically represent locations and features from geographic data formats such as geoJSON and KML. Every location in a geographic data file can be considered to have geometry (such as points, lines, polygons) as well as additional properties. Web maps typically understand locations as a series of coordinates. For example, 43.6426,-79.3871 would represent the exact coordinates of the [CN Tower in Toronto](https://en.wikipedia.org/wiki/CN_Tower).
+Now that we have data, we will use this as our source to make a web map. Web maps typically represent locations and features from geographic data formats such as geoJSON and KML. Every location in a geographic data file can be considered to have geometry (such as points, lines, polygons) as well as additional properties. Web maps typically understand locations as a series of coordinates. For example, 43.6426,-79.3871 would represent the exact coordinates of the [CN Tower in Toronto](https://en.wikipedia.org/wiki/CN_Tower).
 
 In our data file, we have a list of placenames in our CSV data (the Area Name column), but no coordinates. What we want to do then is to somehow generate coordinates from these locations. This process is called geocoding.
 
@@ -148,9 +144,6 @@ def main():
   def get_longitude(x):
     return x.longitude
 ```
-
-**TO FIX: TALK ABOUT THIS IN PLACE OF LAMBDA**
-
 Next, select the geolocator you want to use.  Here we're creating two geolocators: Open Street Map's Nominatim and Google's Geocoding API.  Here's a quick comparison:
 
 | Geolocator | Nominatim()  | GoogleV3() |
@@ -292,7 +285,7 @@ The error will look like this if you use the Nominatim geocoder:
 
 Now that you have a spreadsheet full of coordinate data, we can convert the CSV spreadsheet into a format that web maps like, like GeoJSON.  GeoJSON is a web mapping standard of JSON data.  There are a couple of ways to make GeoJSON:
 
-The easiest, recommended way is to use a UI tool developed by Mapbox: http://geojson.io.  All you have to do is click and drag your csv file into the data window (the right side of the screen, next to the map), and it will automatically format your data into GeoJSON for you. You can select the 'GeoJSON' option under 'Save.'  Save your GeoJSON file as 'census.geojson'.
+The easiest, recommended way is to use a UI tool developed by Mapbox called [geojson.io](http://geojson.io).  All you have to do is click and drag your csv file into the data window (the right side of the screen, next to the map), and it will automatically format your data into GeoJSON for you. You can select the 'GeoJSON' option under 'Save.'  Save your GeoJSON file as 'census.geojson'.
 
 ![Image: Adding data to geojson.io](../images/webmap-01-geojsonio.gif "Drag and Drop GeoJSON creation!")
 
@@ -302,9 +295,9 @@ Image Credit: with permission from Mauricio Giraldo Arteaga,
  NYPL Labs
 
 
-**TO FIX: add how to do it programmatically using mapbox: https://github.com/mapbox/csv2geojson**
+You can also do it from the command line, using the [library](https://github.com/mapbox/csv2geojson) that powers geojson.io.
 
-Test this data out in http://geojson.io.  You should see points generated in the preview window.  That's your data!
+Test this data out by importing it again into geojson.io.  You should see points generated in the preview window.  That's your data!
 
 ### You finally have GeoJSON... but you need to do some cleaning!
 
@@ -319,16 +312,16 @@ To make the results more accurate, you should save another copy of the census-hi
 Now change your python script to combine the Area_Name and Country or City column to geocode your data:
 
 ```python
-  io['helper'] = io['Area_Name'].map(str) + " " + io['Country']
+  io['helper'] = io['Area_Name'].map(str) + " " + io['Country'].map(str)
 	io['latitude'] = io['helper'].apply(geolocator.geocode).apply(get_latitude)
 	io['longitude'] = io['helper'].apply(geolocator.geocode).apply(get_longitude)
 ```
 
-**TO FIX: I CAN'T REMEMBER WHAT .MAP(STR) DOES**
+Note that we added the .map(str) function. This is a pandas function that is allowing you to concatenate two DataFrame columns into a new, single column (helper) in the format:
 
- Concatenate two DataFrame columns into a new, single column
-
+```python
 df['newcol'] = df['col1'].map(str) + df['col2'].map(str)
+``
 
 Turn your clean data into GeoJSON by saving it as census.geojson and test it out in http://geojson.io.  Do the results look better now?  Good!
 
@@ -404,9 +397,9 @@ window.onload = function () {
 
 Do you see a map now?  Good! If not, you can troubleshoot by inspecting the browser, or by going back and retracing your steps.
 
-### OK WHAT did I just make?
+### What did I just make?
 
-You made a web map!  Web maps use map tiles, which are pixel based images (rasters) of maps that contain geographical data. This means that each pixel of a map tile has been georeferenced, or assigned a coordinate based on the location that they represent.  When you zoom in and out of a web map, you are getting a whole new set of tiles to display at each zoom level. GeoJSON (which you are now familiar with) is a widely used data standard for web mapping.  In our example, we are using an open-source Javascript library called [Leaflet](http://leafletjs.com/reference.html) to help us build our web map.  With frameworks like Leaflet or Google Maps Javascript API, you're not building a map completely from scratch, rather, you're using pre-written functions and controls that helps you customize your own map in code. **TO FIX: MAKE LEAFLET LESS UNDERWHELMING EXPLAIN OPEN SOURCE SO HAVE ACCESS TO YOUR MAP AND DATA**
+You made a web map!  Web maps use map tiles, which are pixel based images (rasters) of maps that contain geographical data. This means that each pixel of a map tile has been georeferenced, or assigned a coordinate based on the location that they represent.  When you zoom in and out of a web map, you are getting a whole new set of tiles to display at each zoom level. GeoJSON (which you are now familiar with) is a widely used data standard for web mapping.  In our example, we are using an open-source Javascript library called [Leaflet](http://leafletjs.com/reference.html) to help us build our web map. The benefits of using an open-source library such as Leaflet is the flexibility you get and with developing and customizing your map, without worry of the technology being deprecated or no longer supported that is beyond your control.  With frameworks like Leaflet or Google Maps Javascript API, you're not building a map completely from scratch, rather, you're using pre-written functions and controls that helps you customize your own map in code.
 
 Lets go through what each part of the code is doing. But first, it's best practice to maintain your html, css, js in different files so that the web map's content, presentation and behaviour layers are kept separate (though it's not always possible). This adds a bit more structure to your code, making it easier for you and others to understand. It will be easier to focus on certain parts of the code when you're going back and making changes. So here is our code split into three files:
 
@@ -790,8 +783,6 @@ window.onload = function () {
 
 {% include figure.html src="../images/webmap-09-exercise05.jpg" caption=“Exercise 05 Map Result” %}
 
-### Ideas to explore
-**TO FIX: NEED TO ADD MORE SO LEAFLET SEEMS LESS UNDERWHELMING**
-- Try other plugins and APIs.  There's Stamen, CartoDB, MarkerCluster, and more
-- Try time based visualizations
-- Use other types of data and geometries.  For instance, county boundaries, https://github.com/martinjc/UK-GeoJSON
+### Additional ideas to explore
+- Time based visualizations - https://github.com/skeate/Leaflet.timeline
+- Heat-mapping - https://github.com/pa7/heatmap.js
