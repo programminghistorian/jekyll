@@ -224,7 +224,7 @@ Don't forget to wait until the command prompt appears again to type the followin
 
    `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin`
 
-4. Install DevKit for Windows using the instructions at https://github.com/oneclick/rubyinstaller/wiki/Development-Kit.
+4. Install DevKit for Windows using the instructions at [https://github.com/oneclick/rubyinstaller/wiki/Development-Kit](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit).
 
 5. Close the "Command Prompt" app and open "Git Bash" (which you recently installed) instead. **You'll now use Git Bash any time the command line is called for.**
 
@@ -566,7 +566,7 @@ We hope to host a lesson covering next steps to further customize your Jekyll si
 
 ### Credits <a id="section9-2"></a>
 
-Thanks to *Programming Historian* Editor Fred Gibbs for editing, discussing, and reviewing this lesson; Paige Morgan and Jaime Howe for reviewing this lesson; Scott Weingart and students for testing the lesson with Windows; and Tod Robbins and Matthew Lincoln for suggestions on the [DH Slack](http://tinyurl.com/DHSlack) on what to cover in this lesson. Also, thank you to Kristen Mapes for reporting a change in Jekyll that had broken this lesson, and pointing me to [a StackExchange question](https://stackoverflow.com/questions/38891463/jekyll-default-installation-doesnt-have-layouts-directory) identifying the problem.
+Thanks to *Programming Historian* Editor Fred Gibbs for editing, discussing, and reviewing this lesson; Paige Morgan and Jaime Howe for reviewing this lesson; Scott Weingart and students for testing the lesson with Windows; and Tod Robbins and Matthew Lincoln for suggestions on the [DH Slack](http://tinyurl.com/DHSlack) on what to cover in this lesson. Thank you to Kristen Mapes for reporting a change in Jekyll that had broken this lesson, and pointing me to [a StackExchange question](https://stackoverflow.com/questions/38891463/jekyll-default-installation-doesnt-have-layouts-directory) identifying the problem. Thanks also to Ed Sperr for reporting a fix for a Windows installation issue.
 
 ### Further reading <a id="section9-3"></a>
 
