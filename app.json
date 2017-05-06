@@ -1,6 +1,0 @@
-{
-  "name": "Programming Historian Review Site",
-  "description": "Site used for testing and peer review of lessons",
-  "repository": "https://github.com/programminghistorian/jekyll",
-  "success_url": "/"
-}
