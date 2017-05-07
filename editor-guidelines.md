@@ -212,7 +212,7 @@ This test process checks two things: first, that all YAML and markdown code is p
 We run these builds primarily to check that URLs that _once_ were functional are _still_ functional, as often times external web pages are moved to new addresses, or are no longer live.
 The status of these tests (often called a "Build Status" on Travis CI and on GitHub) can be seen by navigating to the [programminghistorian repository page][ph_repo], and clicking "Commits" on the upper left side of the code menu.
 
-![GitHub commit menu location](/images/gh_commit_location_screen.png)
+![GitHub commit menu location](images/editor-guidelines/gh_commits_location_screen.png)
 
 This will show you the list of every change made to the main repository, along with a status icon:
 
@@ -224,18 +224,20 @@ If your build has errored, you will need to consult the build logs to see what i
 
 1. Click on the red X for the most recent commit (the one nearest the top of the page), and click on the "Details" link.
 
-![Travis details location](/images/commit_list_screen.png)
+![Travis details location](/images/editor-guidelines/commit_list_screen.png)
 
 2. This will bring you to the build log page on Travis CI. Build logs are usually several hundred lines long, but the error information we are looking for will be at the bottom. Click on the small gray circle at the upper right of the log display to scroll to the bottom.
 
-![The top of the Travis CI build screen](/images/travis_top_screen.png)
+![The top of the Travis CI build screen](/images/editor-guidelines/travis_top_screen.png)
 
 3. Failing links will be listed in red, grouped by the page they appeared in. If any links in your new lesson are causing errors, go back and double check that they do not have any typos. If they do, then make any necessary corrections and commit the changes to the repository, and wait for Travis CI to run its tests again.
 
-![Locating error details in Travis CI build results](/images/travis_bottom_screen.png)
+![Locating error details in Travis CI build results](/images/editor-guidelines/travis_bottom_screen.png)
 
-- There are some rare circumstances in which a link will be failed by Travis CI, but will work perfectly fine when you navigate to it in your own Internet browser. If this occurs, [create a new issue](https://github.com/programminghistorian/jekyll/issues/new) so that one of the members of the technical team can review the problem and find a workaround.
-- As part of its normal operations, Travis CI will occasionally go back and re-check old links across this entire site, including old lessons. Therefore, you may see an error being caused not by your lesson, but by another page. If you can see how to immediately fix that error, please go ahead and edit the page, and wait for the build to re-run. If you do not have the time to track down those other broken links, first ensure that there are no error links coming from your new lesson, and then [create a new issue](https://github.com/programminghistorian/jekyll/issues/new) so that someone else on the technical team can review the problem.
+- There are some rare circumstances in which a link will be failed by Travis CI, but will work perfectly fine when you navigate to it in your own Internet browser. If this occurs, [create a new issue] so that one of the members of the technical team can review the problem and find a workaround.
+- As part of its normal operations, Travis CI will occasionally go back and re-check old links across this entire site, including old lessons. Therefore, you may see an error being caused not by your lesson, but by another page. If you can see how to immediately fix those errors on other pages, please do so, and then wait for the build to re-run. If you do not have the time to track down those other broken links, first ensure that there are no error links coming from your new lesson, and then [create a new issue] so that someone else on the technical team can review the problem.
+
+[create a new issue]: https://github.com/programminghistorian/jekyll/issues/new
 
 ### 8) Thank Everyone and Encourage Promotion
 
