@@ -38,7 +38,7 @@ We hope you'll consider joining our team of reviewers. The time commitment is fl
 	<img src="../gallery/editor-guidelines.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
 
-Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [guidelines for editors](http://programminghistorian.org/editor-guidelines) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
+Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [guidelines for editors](editor-guidelines) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
 
 From time to time we may advertise that we are seeking more editors.
 
@@ -48,7 +48,7 @@ From time to time we may advertise that we are seeking more editors.
 	<img src="../images/reader-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
 </figure>
 
-We welcome [feedback](../feedback.html) on any aspect of the Programming Historian. Let us know what we can do to make the project better!
+We welcome [feedback](feedback.html) on any aspect of the Programming Historian. Let us know what we can do to make the project better!
 
 We are especially grateful for tips about lessons that seem to be broken. As URLs change and as new versions of software and platforms are released, lessons develop glitches over time. Please help us keep the _Programming Historian_ up to date by letting us know about these when you come across them in the course of your reading. 
 
@@ -72,5 +72,5 @@ No matter how you'd like to be involved, you can always email <a href="mailto:je
 Thanks for your help in improving _The Programming Historian_!
  
  [submissions]: new-lesson-workflow
- [reviewers]: http://programminghistorian.org/reviewer-guidelines
+ [reviewers]: reviewer-guidelines
 
