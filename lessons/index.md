@@ -255,6 +255,13 @@ Many research datasets are published as Linked Open Data, a format that allows f
 
 <ul class="lesson-images">
   <li>
+    <a href="../lessons/intro-to-linked-data">
+      <img src="../gallery/intro-to-linked-data.png">
+      <h3>Intro to Linked Open Data</h3>
+      <p>Jonathan Blaney</p>
+    </a>
+  </li>
+  <li>
     <a href="../lessons/graph-databases-and-SPARQL">
       <img src="../gallery/graph-databases-and-SPARQL.jpg">
       <h3>Using SPARQL to access Linked Open Data</h3>
