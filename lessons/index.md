@@ -257,7 +257,7 @@ Many research datasets are published as Linked Open Data, a format that allows f
   <li>
     <a href="../lessons/intro-to-linked-data">
       <img src="../gallery/intro-to-linked-data.png">
-      <h3>Intro to Linked Open Data</h3>
+      <h3>Intro to the Principles of Linked Open Data</h3>
       <p>Jonathan Blaney</p>
     </a>
   </li>
