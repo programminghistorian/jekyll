@@ -151,7 +151,7 @@ We're making up examples simply for the purposes of illustration, but if you wan
 
 An ontology is more flexible because it is non-hierarchical. It aims to represent the fluidity of the real world, where things can be related to each other in more complex ways than are represented by a hierarchical tree-like structure. Instead, an ontology is more like a spider's web.
 
-Whatever you are looking to represent with LOD, we suggest that you find an existing vocabulary and use it, rather than try to write your own. The main page here has [a list of some of the most popular vocabularies](http://semanticweb.org/wiki/Main\_Page.html).
+Whatever you are looking to represent with LOD, we suggest that you find an existing vocabulary and use it, rather than try to write your own. The main page here has [a list of some of the most popular vocabularies](http://semanticweb.org/wiki/Main_Page.html).
 
 Since our example above focuses on pianists, it would be a good idea to find an appropriate ontology rather than create our own system. In fact there is [an ontology for music](http://www.musicontology.com/). As well as a well-developed specification it also has some useful examples of its use. You can have a look at the [Getting started pages](http://www.musicontology.com/docs/getting-started.html) to get a sense of how you might use that particular ontology.
 
@@ -332,7 +332,7 @@ Hit 'go' and, if you left the drop-down box as 'browse' you should get two colum
 
 So what just happened? And how did I know what to type? 
 
-I didn't, really, and that is one of the issues with SPARQL end points. When getting to know a dataset you have to try things and find out what terms are used. Because this comes from *Wikipedia*, and I was interested in what information on historians I could find, I went to the *Wikipedia* page for the historian [Lyndal Roper](https://en.wikipedia.org/wiki/Lyndal\_Roper).
+I didn't, really, and that is one of the issues with SPARQL end points. When getting to know a dataset you have to try things and find out what terms are used. Because this comes from *Wikipedia*, and I was interested in what information on historians I could find, I went to the *Wikipedia* page for the historian [Lyndal Roper](https://en.wikipedia.org/wiki/Lyndal_Roper).
 
 The part at the end of the URL is `Lyndal_Roper` and I concluded that this string is likely to be how Roper is referred to in DBpedia. Because I don't know what else might be in triples that mention Roper I use `?a` and `?b`: these are just place-holders: I could equally well have typed `?whatever` and `?you_like` and the columns would have had those headings. When you want to be more precise about what you are returning, it will be more important to label columns meaningfully.
 
