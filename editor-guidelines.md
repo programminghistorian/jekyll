@@ -217,7 +217,7 @@ The status of these tests (often called a "Build Status" on Travis CI and on Git
 
 This will show you the list of every change made to the main repository, along with a status icon:
 
-- Green check mark: you're good to go! All the links on the page were checked and found valid.
+- Green check mark: you're good to go! All the links on the page were checked and found valid. **You may skip the rest of this section.**
 - Yellow circle: your latest commit is still building. Wait 1-2 minutes and then check back.
 - Red X: there was an error in the build.
 
