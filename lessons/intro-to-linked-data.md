@@ -3,7 +3,7 @@ title: Introduction to the Principles of Linked Open Data
 authors:
 - Jonathan Blaney
 reviewers:
-- Tehri Nurmikko-Fuller
+- Terhi Nurmikko-Fuller
 - Matthew Lincoln
 editors:
 - Adam Crymble
