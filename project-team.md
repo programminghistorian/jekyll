@@ -4,7 +4,6 @@ layout: blank
 ---
 
 # Project Team
-
 Looking for someone to contact? Please direct correspondence in the first instance to **<a href="mailto:jeri.elizabeth%2Bproghist@gmail.com">Jeri Wieringa</a>** at George Mason University, our acting commissioning editor.
 
 You can follow *The Programming Historian* on Twitter: [@proghist](http://twitter.com/proghist).

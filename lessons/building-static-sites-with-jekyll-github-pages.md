@@ -224,19 +224,20 @@ Don't forget to wait until the command prompt appears again to type the followin
 
    `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin`
 
-4. Close the "Command Prompt" app and open "Git Bash" (which you recently installed) instead. **You'll now use Git Bash any time the command line is called for.**
+4. Install DevKit for Windows using the instructions at [https://github.com/oneclick/rubyinstaller/wiki/Development-Kit](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit).
 
-5. Jekyll is built from the [Ruby coding language](https://en.wikipedia.org/wiki/Ruby_%28programming_language%29). [Ruby Gems](https://rubygems.org/) makes setting up Ruby software like Jekyll easy (it's a package manager, just like Homebrew—instead of making installation easy on Macs, it adds some stuff to make Ruby installations simpler). We'll now install Ruby (this will take a few minutes):
+5. Close the "Command Prompt" app and open "Git Bash" (which you recently installed) instead. **You'll now use Git Bash any time the command line is called for.**
+
+6. Jekyll is built from the [Ruby coding language](https://en.wikipedia.org/wiki/Ruby_%28programming_language%29). [Ruby Gems](https://rubygems.org/) makes setting up Ruby software like Jekyll easy (it's a package manager, just like Homebrew—instead of making installation easy on Macs, it adds some stuff to make Ruby installations simpler). We'll now install Ruby (this will take a few minutes):
 
    `choco install ruby -y`
 
-6. Close the command line program and restart (Ruby won't work until you've done this once)
+7. Close the command line program and restart (Ruby won't work until you've done this once)
 
-7. [Jekyll](https://jekyllrb.com/) is the code that creates your website (i.e. "site generation"), making it easier to do certain common tasks such as using the same template (same logo, menu, author information…) on all your blog post pages. There's more info on [what Jekyll and static sites are](#section0-1), and on [why you'd want to use Jekyll to make a static website](#section0-3), above. We'll now install Jekyll (if Windows Security gives you a warning popup, ignore it):
+8. [Jekyll](https://jekyllrb.com/) is the code that creates your website (i.e. "site generation"), making it easier to do certain common tasks such as using the same template (same logo, menu, author information…) on all your blog post pages. There's more info on [what Jekyll and static sites are](#section0-1), and on [why you'd want to use Jekyll to make a static website](#section0-3), above. We'll now install Jekyll (if Windows Security gives you a warning popup, ignore it):
 
    `gem install jekyll`
 
-   ​
 
 **From now on, all instructions are for both Mac and PC users!**
 
@@ -565,7 +566,7 @@ We hope to host a lesson covering next steps to further customize your Jekyll si
 
 ### Credits <a id="section9-2"></a>
 
-Thanks to *Programming Historian* Editor Fred Gibbs for editing, discussing, and reviewing this lesson; Paige Morgan and Jaime Howe for reviewing this lesson; Scott Weingart and students for testing the lesson with Windows; and Tod Robbins and Matthew Lincoln for suggestions on the [DH Slack](http://tinyurl.com/DHSlack) on what to cover in this lesson. Also, thank you to Kristen Mapes for reporting a change in Jekyll that had broken this lesson, and pointing me to [a StackExchange question](https://stackoverflow.com/questions/38891463/jekyll-default-installation-doesnt-have-layouts-directory) identifying the problem.
+Thanks to *Programming Historian* Editor Fred Gibbs for editing, discussing, and reviewing this lesson; Paige Morgan and Jaime Howe for reviewing this lesson; Scott Weingart and students for testing the lesson with Windows; and Tod Robbins and Matthew Lincoln for suggestions on the [DH Slack](http://tinyurl.com/DHSlack) on what to cover in this lesson. Thank you to Kristen Mapes for reporting a change in Jekyll that had broken this lesson, and pointing me to [a StackExchange question](https://stackoverflow.com/questions/38891463/jekyll-default-installation-doesnt-have-layouts-directory) identifying the problem. Thanks also to Ed Sperr for reporting a fix for a Windows installation issue.
 
 ### Further reading <a id="section9-3"></a>
 

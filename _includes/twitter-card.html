@@ -1,0 +1,21 @@
+<!--https://dev.twitter.com/cards/-->
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@ProgHist" />
+<meta name="twitter:title" content="{{ page.title }}" />
+
+{% if page.abstract %}
+    <meta name="twitter:description" content="{{ page.abstract | truncate: 197 | strip_html }}" />
+{% else %}
+    <meta name="twitter:description" content="{{ page.content | truncate: 197 | strip_html }}" />
+{% endif %}
+
+{% if page.lang == "en" %}
+    <meta name="twitter:image" content="{{ site.url }}/gallery/{{ page.url | remove_first:'/lessons/' }}.png" />
+{% endif %}
+
+{% if page.lang == "es" %}
+    <meta name="twitter:image" content="{{ site.url }}/gallery/{{ page.redirect_from | remove_first:'/es/lessons/' }}.png" />
+{% endif %}
+
+

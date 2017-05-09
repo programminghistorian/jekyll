@@ -31,7 +31,7 @@ We hope you'll consider joining our team of reviewers. The time commitment is fl
 <img src="{{site.baseurl}}/gallery/editor-guidelines.png" class="garnish rounded float-right" />
 
 
-Our editorial process Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [guidelines for editors](editor-guidelines) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
+Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [guidelines for editors](editor-guidelines) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
 
 From time to time we may advertise that we are seeking more editors.
 
@@ -57,6 +57,7 @@ _Programming Historian_ has a [listing in WorldCat](http://www.worldcat.org/titl
 ## Make a suggestion
 
 No matter how you'd like to be involved, you can always email <a href="mailto:jeri.elizabeth%2Bproghist@gmail.com">Jeri Wieringa</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
+
 
 Thanks for your help in improving _Programming Historian_!
 

@@ -255,6 +255,13 @@ Many research datasets are published as Linked Open Data, a format that allows f
 
 <ul class="lesson-images">
   <li>
+    <a href="../lessons/intro-to-linked-data">
+      <img src="../gallery/intro-to-linked-data.png">
+      <h3>Intro to the Principles of Linked Open Data</h3>
+      <p>Jonathan Blaney</p>
+    </a>
+  </li>
+  <li>
     <a href="../lessons/graph-databases-and-SPARQL">
       <img src="../gallery/graph-databases-and-SPARQL.jpg">
       <h3>Using SPARQL to access Linked Open Data</h3>
@@ -304,6 +311,13 @@ Mapping can be an effective way to visualize and interpret historical data. Thes
       <img src="../gallery/geocoding-qgis.png">
       <h3>Geocoding Historical Data Using QGIS</h3>
       <p>Justin Colson</p>
+    </a>
+  </li>
+  <li>
+    <a href="../lessons/using-javascript-to-create-maps">
+      <img src="../gallery/using-javascript-to-create-maps.png">
+      <h3>Using JavaScript to Create Maps of Correspondence</h3>
+      <p>Stephanie J. Richmond and Tommy Tavenner</p>
     </a>
   </li>
 </ul>

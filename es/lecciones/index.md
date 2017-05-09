@@ -38,7 +38,7 @@ Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerz
 
 Preparándose para programar
 -------------------------
-Si quieres empezar a programar con Python, hay que empezar instalando un entorno de trabajo. Debido a su gran flexibilidad, recomendamos que sigas estas instrucciones para [instalar Python en tu línea de comandos](http://cli.learncodethehardway.org/book/ex1.html).
+Si quieres empezar a programar con Python, primero debes crear un entorno de trabajo adecuado. Debido a su gran flexibilidad, recomendamos que sigas estas instrucciones para [instalar Python en tu línea de comandos](http://cli.learncodethehardway.org/book/ex1.html).
 
 La mayoría de tutoriales requieren la instalación de uno o más módulos de Python a fin de ahorrar tiempo escribiendo código. Si eres nuevo en la materia, te recomendamos leer la lección sobre cómo instalar módulos de Python.
 
