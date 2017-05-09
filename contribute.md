@@ -60,5 +60,5 @@ No matter how you'd like to be involved, you can always email <a href="mailto:je
 
 Thanks for your help in improving _Programming Historian_!
 
- [submissions]: new-lesson-workflow
- [reviewers]: reviewer-guidelines
+ [submissions]: {{site.baseurl}}/author-guidelines
+ [reviewers]: {{site.baseurl}}/reviewer-guidelines

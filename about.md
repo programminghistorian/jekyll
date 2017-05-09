@@ -9,7 +9,11 @@ title: About the Programming Historian
 ## Peer Review
 All tutorials at _Programming Historian_ are rigorously peer reviewed, guided through the review process by one of our editors. Review involves a thorough exchange with the lesson editor to ensure the lesson works as intended and that all concepts are explained for a non-specialist reader, before the tutorial is sent to external reviewers .
 
-Our peer review process is a bit different from what might be considered the traditional peer review process. We do not solicit reviews to judge whether a tutorial is “good enough” to be published. Rather, we consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to teach and learn from each other. Once a tutorial slips into our [editorial workflow]({{site.baseurl}}/new-lesson-workflow), we do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time. Consult our [Reviewer Guidelines]({{site.baseurl}}/reviewer-guidelines) for more information.
+Our peer review process is a bit different from what might be considered the traditional peer review process. We do not solicit reviews to judge whether a tutorial is “good enough” to be published. Rather, we consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to teach and learn from each other. Once a tutorial slips into our [editorial workflow]({{site.baseurl}}/author-guidelines), we do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time. Consult our [Reviewer Guidelines]({{site.baseurl}}/reviewer-guidelines) for more information.
+
+
+## Versions of Record
+Once a lesson has passed through peer review been published, a 'version of record' will be created which will be assigned a DOI and made downloadable via a PDF. This is the author's contributed work. In order to promote long-term sustainability, the editors may choose to update the lesson as needed in future. In this case, the live version of the lesson will differ from the 'version of record'. The revision history of each lesson, as well as the version of record, is accessible via the lesson page footers.
 
 
 ## Open Source

@@ -41,20 +41,20 @@ When a lesson has been submitted, the editor will open a new 'issue' on our [Git
 Your first comment on the message board for a given tutorial review should use our template which outlines the role of the editor and what will take place during the review, as well as everyone's options in the unlikely event that something goes wrong. Please adapt [the template](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md), which should appear automatically in all new issue boxes, as needed:
 
     The Programming Historian has received the following tutorial on 'Editing Audio with Audacity' by @bmw9t. This lesson is now under review and can be read at:
-    
+
     http://programminghistorian.github.io/ph-submissions/lessons/editing-audio-with-audacity
-    
+
     I will act as editor for the review process. My role is to solicit two reviews from the community and to manage the discussions, which should be held here on this forum. I have already read through the lesson and provided feedback, to which the author has responded.
-    
+
     Members of the wider community are also invited to offer constructive feedback which should post to this message thread, but they are asked to first read our Reviewer Guidelines (http://programminghistorian.org/reviewer-guidelines) and to adhere to our anti-harassment policy (below). We ask that all reviews stop after the second formal review has been submitted so that the author can focus on any revisions. I will make an announcement on this thread when that has occurred.
-    
+
     I will endeavor to keep the conversation open here on Github. If anyone feels the need to discuss anything privately, you are welcome to email me. You can always turn to @ianmilligan1 or @amandavisconti if you feel there's a need for an ombudsperson to step in.
-    
+
     Anti-Harassment Policy
     _
-    
+
     This is a statement of the Programming Historian's principles and sets expectations for the tone and style of all correspondence between reviewers, authors, editors, and contributors to our public forums.
-    
+
     The Programming Historian is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutinize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact one of our ombudspeople (Ian Milligan or Amanda Visconti - http://programminghistorian.org/project-team). Thank you for helping us to create a safe space.
 
 
@@ -148,7 +148,7 @@ If the lesson has been written by a new author, editors should add information a
 ```yaml
 - name: Jim Clifford
   bio: |
-       Jim Clifford is an assistant professor in the Department of History 
+       Jim Clifford is an assistant professor in the Department of History
        at the University of Saskatchewan.
 ```
 
@@ -175,7 +175,7 @@ In order to promote transparency around the review process, create a `review-tic
 Update the date in the YAML file to the date the lesson was moved to the jekyll repository and the added to the main site.
 
 ### 7) Other lesson YAML finalization
-Looking at the example below, make sure all front matter on the lesson is properly filled out.  Common fields that need writing or editing at this point are: 
+Looking at the example below, make sure all front matter on the lesson is properly filled out.  Common fields that need writing or editing at this point are:
 - **collection** should just say "collection: lessons"
 - **layout** should just say "layout: lesson"
 - **slug** should have the path to the lesson on the public PH site, which means the hyphenated text following programminghistorian.org/lessons/ (e.g. building-static-sites-with-jekyll-github-pages)
@@ -221,9 +221,9 @@ Here are a few places to look for lesson images:
 
 Ensure that the image matches the style of the other images (it should be a book image, not a photograph), is at least 200 pixels in both dimensions, and is not copyright restricted. Make sure the image is not offensive, and keeping with our [Commitment to Diversity](http://programminghistorian.org/posts/PH-commitment-to-diversity) try to find something that does not perpetuate stereotypes or send a subtle message about maleness and whiteness.
 
-Save the original image. The filename should be the same as the corresponding lesson’s URL slug with `-original` at the end, and the filetype should be `.png`. For example, the lesson “Cleaning Data with OpenRefine” has the URL slug `cleaning-data-with-openrefine`, so its original lesson image filename should be `cleaning-data-with-openrefine-original.png`.
+Save the original image. The filename should be the same as the corresponding lesson’s URL slug with `-original` at the end, and the filetype must be `.png`. For example, the lesson “Cleaning Data with OpenRefine” has the URL slug `cleaning-data-with-openrefine`, so its original lesson image filename should be `cleaning-data-with-openrefine-original.png`.
 
-Then, create a new copy of the image. Crop it to a square without removing any important features. Change the dimensions to 200x200 pixels. Convert the image to grayscale. Perform any adjustments necessary to make it conform to the other lesson images, such as lightening or darkening it, or altering the contrast. Save this new image as the lesson’s URL slug. In our previous example, the filename would be `cleaning-data-with-openrefine.png`.
+Then, create a new copy of the image. Crop it to a square without removing any important features. Change the dimensions to 200x200 pixels. Convert the image to grayscale. Perform any adjustments necessary to make it conform to the other lesson images, such as lightening or darkening it, or altering the contrast. Save this new image as the lesson’s URL slug; again, **the file format must be png**. In our previous example, the filename would be `cleaning-data-with-openrefine.png`.
 
 Upload the original image to the [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) folder, and upload the edited image to the [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery) folder.
 
