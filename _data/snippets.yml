@@ -44,14 +44,14 @@ menu-contribute-feedback:
     link: /es/retroalimentacion
 menu-contribute-review:
   en:
-    title: Review a lesson
+    title: Reviewer Guidelines
     link: /reviewer-guidelines
   es:
     title: Revisar una leccion
     link: /es/guia-para-revisores
 menu-contribute-write:
   en:
-    title: Write a lesson
+    title: Author Guidelines
     link: /author-guidelines
   es:
     title: Escribe una leccion

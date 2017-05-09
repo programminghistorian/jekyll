@@ -1,11 +1,17 @@
-{% assign authorCount = lesson.authors | size %}
+{% if page.authors %}
+  {% assign authors = page.authors %}
+{% elsif lesson.authors %}
+  {% assign authors = lesson.authors %}
+{% endif %}
+
+{% assign authorCount = authors | size %}
 {% capture authorString %}
 {% if authorCount == 1 %}
-  {{ lesson.authors[0] }}
+  {{ authors[0] }}
 {% elsif authorCount == 2 %}
-    {{ lesson.authors[0] }} and {{ lesson.authors[1] }}
+    {{ authors[0] }} and {{ lesson.authors[1] }}
 {% else %}
-  {% for author in lesson.authors %}
+  {% for author in authors %}
     {% if forloop.last %} {{ site.data.snippets.and[page.lang] }} {{ author }}
     {% else %}{{ author }},{% endif %}
   {% endfor %}
