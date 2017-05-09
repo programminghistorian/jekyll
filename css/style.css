@@ -60,13 +60,11 @@ color: #38c;
 
 .home-block-dark {
   color:#eee;
-  background:#666;
   background:#27b;
 }
 
 .home-block-gray {
   color:#fff;
-  background:#aaa;
   background:#289;
 }
 
@@ -75,16 +73,12 @@ color: #38c;
 }
 
 
-
-
 .home-block-dark a:visited, .home-block-dark a:link {
-color:#38c;
-color:#5ae;
+color:#6bf;
 }
 
 .home-block-gray a:visited, .home-block-gray a:link {
-color:#abc;
-color:#5bc;
+color:#6cd;
 }
 
 .contact-box {
@@ -98,7 +92,7 @@ color:#5bc;
 
     header {
        margin:0;
-       padding:0rem 0 0 0;
+       padding:0;
        text-align:left;
        border-top:1px solid #333;
        color:#ccc;
@@ -107,8 +101,8 @@ color:#5bc;
      }
 
      header .container-fluid {
-       margin:0;
-       padding:2rem 0 2rem 0;
+       margin:0 0 0 0;
+       padding:0;
        background: #31404d;
        background: #f5f5f5;
      }
@@ -209,10 +203,8 @@ header .header-helpers {
 
 
    header .header-bottom {
-     margin-top:0rem;
-     background-color:#404951;
+     margin:0 0 2rem 0;
      background-color:#777;
-     border-top:0px solid #333;
      padding:.8rem 0 .8rem 0;
      text-align:center;
    }
