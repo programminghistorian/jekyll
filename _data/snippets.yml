@@ -72,7 +72,7 @@ menu-blog:
     link: /blog
 menu-lang:
   en:
-    title: '[es]'
+    title: '[español]'
     link: /es
   es:
     title: '[en]'
