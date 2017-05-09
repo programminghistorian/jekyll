@@ -224,15 +224,10 @@ This will show you the list of every change made to the main repository, along w
 If your build has errored, you will need to consult the build logs to see what is causing it.
 
 1. Click on the red X for the most recent commit (the one nearest the top of the page), and click on the "Details" link.
-
 ![Travis details location](/images/editor-guidelines/commit_list_screen.png)
-
 2. This will bring you to the build log page on Travis CI. Build logs are usually several hundred lines long, but the error information we are looking for will be at the bottom. Click on the small gray circle at the upper right of the log display to scroll to the bottom.
-
 ![The top of the Travis CI build screen](/images/editor-guidelines/travis_top_screen.png)
-
 3. Failing links will be listed in red, grouped by the page they appeared in. If any links in your new lesson are causing errors, go back and double check that they do not have any typos. If they do, then make any necessary corrections and commit the changes to the repository, and wait for Travis CI to run its tests again.
-
 ![Locating error details in Travis CI build results](/images/editor-guidelines/travis_bottom_screen.png)
 
 - There are some rare circumstances in which a link will be failed by Travis CI, but will work perfectly fine when you navigate to it in your own Internet browser. If this occurs, [create a new issue] so that one of the members of the technical team can review the problem and find a workaround.
