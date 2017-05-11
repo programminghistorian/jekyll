@@ -22,10 +22,13 @@ module MyModule
           page_errors.push("'reviewers' is missing.")
         end
 
-        unit_errors = page_errors.map{|e| "\t - #{e}"}.join("\n")
+        unit_errors = page_errors.map{|e| "\t - #{e}"}
 
         unless page_errors.empty?
-          warn "#{red}In #{p.dir}#{p.name}:\n#{unit_errors}#{clear}"
+          warn "#{red}In #{p.dir}#{p.name}:#{clear}"
+          unit_errors.each do |e|
+            warn "#{red}#{e}#{clear}"
+          end
           total_errors.concat(page_errors)
         end
       end
