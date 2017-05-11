@@ -2,8 +2,13 @@ name: Programming Historian
 description: Introductory and intermediate programming lessons for humanists
 url: http://programminghistorian.org
 baseurl: ""
-exclude: [deprecated, vendor, Gemfile, Procfile]
-safe: true
+permalink: :categories/:title
+exclude:
+  - deprecated
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - Procfile
 highlighter: rouge
 markdown: kramdown
 gems:
