@@ -14,12 +14,12 @@ module MyModule
 
         page_errors = Array.new
 
-        if p.data['editors'].nil?
-          page_errors.push("'editors' is missing.")
-        end
+        required_fields = ["editors", "reviewers", "authors", "date", "title"]
 
-        if p.data["reviewers"].nil?
-          page_errors.push("'reviewers' is missing.")
+        required_fields.each do |f|
+          if p.data[f].nil?
+            page_errors.push("'#{f}' is missing.")
+          end
         end
 
         unit_errors = page_errors.map{|e| "\t - #{e}"}
