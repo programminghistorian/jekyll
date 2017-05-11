@@ -8,7 +8,7 @@ module MyModule
       red = "\e[31m"
       clear = "\e[0m"
 
-      lessons = site.pages.keep_if{|i| i.data["layout"] == "default"}
+      lessons = site.pages.keep_if{|i| i.data["layout"] == "default" && !i.data["deprecated"]}
 
       lessons.each do |p|
 
