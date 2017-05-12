@@ -1,3 +1,6 @@
+# Plugin to validate the YAML headers of lesson pages.
+# Inspired by a very useful answer from Christian: http://stackoverflow.com/a/43909411/3547541
+
 module MyModule
 
   class WarningGenerator < Jekyll::Generator
