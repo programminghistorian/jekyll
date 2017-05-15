@@ -1,15 +1,19 @@
 ---
 title: Corpus Analysis with Antconc
-authors: 
-- Heather Froehlich
+layout: default
+slug: corpus-analysis-with-antconc
 date: 2015-06-19
+authors:
+- Heather Froehlich
 reviewers:
 - Nabeel Siddiqui
 - Rob Sieczkiewicz
 editors:
 - Fred Gibbs
-layout: default
 difficulty: 1
+activity: analyzing
+topics: [distant-reading]
+abstract: "Corpus analysis is a form of text analysis which allows you to make comparisons between textual objects at a large scale (so-called 'distant reading')."
 ---
 
 ## Introduction

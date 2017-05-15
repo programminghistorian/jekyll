@@ -1,23 +1,19 @@
 ---
 title: Data Mining the Internet Archive Collection
+layout: default
+slug: data-mining-the-internet-archive
+date: 2014-03-03
 authors:
 - Caleb McDaniel
-date: 2014-03-03
 reviewers:
 - Adam Crymble
 editors:
 - William J. Turkel
-layout: default
+- Adam Crymble
 difficulty: 2
-abstract: |
-    The collections of the Internet Archive include many digitized
-    historical sources. Many contain rich bibliographic data in a
-    format called MARC. In this lesson, you'll learn how to use Python
-    to automate the downloading of large numbers of MARC files from
-    the Internet Archive and the parsing of MARC records for specific
-    information such as authors, places of publication, and dates. The
-    lesson can be applied more generally to other Internet Archive files
-    and to MARC records found elsewhere.
+activity: acquiring
+topics: [web-scrape]
+abstract: "The collections of the Internet Archive include many digitized historical sources. Many contain rich bibliographic data in a format called MARC. In this lesson, you'll learn how to use Python to automate the downloading of large numbers of MARC files from the Internet Archive and the parsing of MARC records for specific information such as authors, places of publication, and dates. The lesson can be applied more generally to other Internet Archive files and to MARC records found elsewhere."
 ---
 
 Lesson Goals
@@ -72,14 +68,7 @@ manager. Begin by installing `pip` using Fred Gibbs' [Installing Python Modules 
 sudo pip install internetarchive
 ```
 
-You'll next want to install the `pymarc` package, which also needs version 1.9.0 of `six`, another Python package, also installed.[^1]
-To make sure your system has the latest version of `six`, first try:
-
-``` bash
-sudo pip install --upgrade six
-```
-
-Then, to install `pymarc`:
+To install `pymarc`:
 
 ``` bash
 sudo pip install pymarc
@@ -640,8 +629,6 @@ analyze which subjects are common in the MARC records. Now that you have
 the MARC records downloaded and can use `pymarc` to extract information
 from the fields, the possibilities can multiply rapidly!
 
-[^1]: Thanks to [Shawn Graham](https://hypothes.is/a/AVKeGm0rvTW_3w8Lypo1) for pointing out the `pymarc` dependency on `six` and providing a solution.
-
   [Internet Archive]: http://archive.org/
   [early JSTOR journal content]: https://archive.org/details/jstor_ejc
   [John Adams's personal library]: https://archive.org/details/johnadamsBPL
@@ -674,5 +661,5 @@ from the fields, the possibilities can multiply rapidly!
   [Counting Frequencies]: ../lessons/counting-frequencies
   [Google Maps lesson]: ../lessons/googlemaps-googleearth
   [Wordle word cloud]: http://www.wordle.net/
-  [cleaning of your data]: http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions
+  [cleaning of your data]: http://programminghistorian.github.io/lessons/cleaning-ocrd-text-with-regular-expressions
   [Installing Python Modules with pip]: http://programminghistorian.org/lessons/installing-python-modules-pip

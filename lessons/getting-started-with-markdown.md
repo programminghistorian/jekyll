@@ -1,13 +1,17 @@
 ---
 title: Getting Started with Markdown
+layout: default
+slug: getting-started-with-markdown
+date: 2015-11-13
 authors:
 - Sarah Simpkin
-date: 2015-11-13
-published: true
 reviewers:
 - John Fink
 - Nancy Lemay
-layout: default
+difficulty: 1
+activity: presenting
+topics: [data-management]
+abstract: "In this lesson, you will be introduced to Markdown, a plain text-based syntax for formatting documents. You will find out why it is used, how to format Markdown files, and how to preview Markdown-formatted documents on the web."
 ---
 
 Getting Started with Markdown

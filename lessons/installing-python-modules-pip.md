@@ -1,12 +1,19 @@
 ---
 title: Installing Python Modules with pip
+layout: default
+slug: installing-python-modules-pip
+date: 2013-05-06
 authors:
 - Fred Gibbs
-date: 2013-05-06
 reviewers:
 - Ben Hurwitz
 - Amanda Morton
-layout: default
+difficulty: 1
+activity: acquiring
+topics: [get-ready, python]
+abstract: "This lesson shows you how to download and install Python modules. There
+are many ways to install external modules, but for the purposes of this
+lesson, we’re going to use a program called pip."
 ---
 
 Lesson Goals

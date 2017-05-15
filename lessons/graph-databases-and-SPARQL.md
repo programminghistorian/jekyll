@@ -1,5 +1,8 @@
 ---
 title: Using SPARQL to access Linked Open Data
+layout: default
+slug: graph-databases-and-SPARQL
+date: 2015-11-24
 authors:
 - Matthew Lincoln
 reviewers:
@@ -8,10 +11,11 @@ reviewers:
 - Will Hanley
 editors:
 - Fred Gibbs
-date: 2015-11-24
-layout: default
-categories: [lessons]
 difficulty: 2
+activity: acquiring
+topics: [lod]
+abstract: "This lesson explains why many cultural institutions are adopting graph databases, and how researchers can access these data though the query language called SPARQL."
+categories: [lessons]
 ---
 
 Lesson Goals
@@ -463,6 +467,8 @@ ORDER BY DESC(?n)
 
 ## Linking multiple SPARQL endpoints
 
+**2016-09-12: Unfortunately, Europeana has suspended their SPARQL endpoint until further notice, so the links in the following section are no longer operative. The text below will be retained as-is for reference purposes, and will be updated if and when Europeana renews their endpoint.**
+
 Up until now, we have constructed queries that look for patterns in one dataset
 alone. In the ideal world envisioned by Linked Open Data advocates, multiple
 databases can be interlinked to allow very complex queries dependent on
@@ -479,12 +485,10 @@ Architecture thesaurus. SPARQL allows you to insert `SERVICE` statements that
 instruct the database to "phone a friend" and run a portion of the query on
 an outside dataset, using the results to complete the query on the local
 dataset. While this lesson will go into the data models in Europeana and DBpedia in depth, the following query illustrates how a `SELECT` statement works. You may run it yourself by copying and pasting the query text into the [Europeana endpoint][eursparql].
-(On the Europeana endpoint, you must set the "Sponging" menu to "Retrieve remote RDF data for all missing source graphs" in order for this query to work.)
 
-[eursparql]: http://sparql.europeana.eu/
+[eursparql]: http://europeana.ontotext.com/sparql
 
 ```
-PREFIX ore:    <http://www.openarchives.org/ore/terms/>
 PREFIX edm:    <http://www.europeana.eu/schemas/edm/>
 PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbo:    <http://dbpedia.org/ontology/>

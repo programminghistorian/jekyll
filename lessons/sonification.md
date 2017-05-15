@@ -1,15 +1,19 @@
 ---
 title: The Sound of Data (a gentle introduction to sonification for historians)
+layout: default
+slug: sonification
+date: 2016-06-07
 authors:
 - Shawn Graham
-date: 2016-06-07
 reviewers:
 - Jeff Veitch
 - Tim Compeau
 editors:
 - Ian Milligan
-layout: default
 difficulty: 2
+activity: transforming
+topics: [distant-reading]
+abstract: "There are any number of guides that will help you visualize the past, but this lesson will help you hear the past."
 ---
 
 # Introduction

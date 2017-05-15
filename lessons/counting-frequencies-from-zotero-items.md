@@ -1,13 +1,18 @@
 ---
 title: Counting Frequencies from Zotero Items
+layout: default
+slug: counting-frequencies-from-zotero-items
+date: 2013-04-01
 authors:
 - Spencer Roberts
-date: 2013-04-01
 editors:
 - Fred Gibbs
-layout: default
-prev: creating-new-items-in-zotero
 difficulty: 1
+activity: analyzing
+topics: [api]
+abstract: "This lesson will show you how to get information from Zotero HTML items, save
+the content from those items, and count the frequencies of words."
+prev: creating-new-items-in-zotero
 ---
 
 Lesson Goals
@@ -235,5 +240,5 @@ Word Frequencies
 ```
 
   [Counting Frequencies]: ../lessons/counting-frequencies
-  [zip]: ../assets/python-lessons5.zip
+  [zip]: ../assets/programming-historian3.zip
   [Lesson on the Zotero API]: ../lessons/intro-to-the-zotero-api

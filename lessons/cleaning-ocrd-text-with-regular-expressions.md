@@ -1,12 +1,17 @@
 ---
 title: Cleaning OCR’d text with Regular Expressions
+layout: default
+slug: cleaning-ocrd-text-with-regular-expressions
+date: 2013-05-22
 authors:
 - Laura Turner O'Hara
 editors:
 - Fred Gibbs
-date: 2013-05-22
-layout: default
 difficulty: 2
+activity: transforming
+topics: [data-manipulation]
+abstract: "Optical Character Recognition (OCR)—the conversion of scanned images to
+machine-encoded text—has proven a godsend for historical research. This lesson will help you clean up OCR'd text to make it more usable."
 ---
 
 Optical Character Recognition (OCR)—the conversion of scanned images to

@@ -1,16 +1,23 @@
 ---
 title: Transliterating non-ASCII characters with Python
+layout: default
+slug: transliterating
+date: 2013-10-04
 authors:
 - Seth Bernstein
-date: 2013-10-04
 reviewers:
 - Michelle Moravec
 - Ezra Brooks
 - Russell Alleen-Willems
 editors:
 - Adam Crymble
-layout: default
 difficulty: 2
+activity: transforming
+topics: [data-manipulation]
+abstract: "This lesson shows how to use Python to transliterate automatically a
+list of words from a language with a non-Latin alphabet to a
+standardized format using the American Standard Code for Information
+Interchange (ASCII) characters."
 ---
 
 **Lesson Goals:**

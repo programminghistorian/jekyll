@@ -1,18 +1,22 @@
 ---
 title: Introduction to the Bash Command Line
+layout: default
+slug: intro-to-bash
+date: 2014-09-20
 authors: 
 - Ian Milligan
 - James Baker
-date: 2014-09-20
 reviewers:
 - Melodee Beals
 - Allison Hegel
 - Charlotte Tupman
 editors:
 - Adam Crymble
-layout: default
-next: research-data-with-unix
 difficulty: 1
+activity: transforming
+topics: [data-manipulation, get-ready]
+abstract: "This lesson will teach you how to enter commands using a command-line interface, rather than through a graphical interface. Command-line interfaces have advantages for computer users who need more precision in their work, such as digital historians. They allow for more detail when running some programs, as you can add modifiers to specify exactly how you want your program to run. Furthermore, they can be easily automated through scripts, which are essentially recipes of text-based commands."
+next: research-data-with-unix
 ---
 
 # Introduction to the Bash Command Line
@@ -183,9 +187,9 @@ This creates a directory named, you guessed it, 'ProgHist-Text.' In general, it'
 
 But wait! There's a trick to make things a bit quicker. Go up one directory (`cd ..` - which will take you back to the Desktop). To navigate to the `ProgHist-Text` directory you could type `cd ProgHist-Text`. Alternatively, you could type `cd Prog` and then hit tab. You will notice that the interface completes the line to `cd ProgHist-Text`. **Hitting tab at any time within the shell will prompt it to attempt to auto-complete the line based on the files or sub-directories in the current directory. This is case sensitive, however (i.e. in the previous example, `cd prog` would not auto complete to `ProgHist-Text`. Where two or more files have the same characters, the auto-complete will only fill up to the first point of difference. We would encourage using this method throughout the lesson to see how it behaves.**
 
-Now you need to find a basic text file to help us with the example. Why don't you use a book that you know is long, such as Leo Tolstoy's epic *War and Peace*. The text file is availiable via [Project Gutenberg](http://www.gutenberg.org/ebooks/2600). If you have already installed [wget](/lessons/applied-archival-downloading-with-wget), you can just type
+Now you need to find a basic text file to help us with the example. Why don't you use a book that you know is long, such as Leo Tolstoy's epic *War and Peace*. The text file is availiable via [Project Gutenberg](http://www.gutenberg.org/cache/epub/2600/pg2600.txt). If you have already installed [wget](/lessons/applied-archival-downloading-with-wget), you can just type
 
-`wget http://www.gutenberg.org/files/2600/2600-0.txt`
+`wget http://www.gutenberg.org/cache/epub/2600/pg2600.txt`
 
 If you do not have wget installed, download the text itself using your browser. Go to the link above, and, in your browser, use the 'Save Page as..' command in your 'file menu.' Save it in your new 'ProgHist-Text directory.' Now, when you type
 

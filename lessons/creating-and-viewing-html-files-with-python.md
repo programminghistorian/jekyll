@@ -1,14 +1,20 @@
 ---
 title: Creating and Viewing HTML Files with Python
+layout: default
+slug: creating-and-viewing-html-files-with-python
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: presenting
+topics: [python, website]
+abstract: "Here you will learn how to create HTML files with Python scripts, and
+how to use Python to automatically open an HTML file in Firefox."
 next: output-data-as-html-file
 previous: counting-frequencies
 ---

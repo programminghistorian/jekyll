@@ -1,14 +1,19 @@
 ---
 title: Working with Text Files in Python
+layout: default
+slug: working-with-text-files
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "In this lesson you will learn how to manipulate text files using Python."
 next: code-reuse-and-modularity
 previous: viewing-html-files
 ---
