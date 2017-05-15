@@ -225,7 +225,7 @@ Turtle also allows you to list triples without bothering to repeat each URI when
     @prefix dc: <http://purl.org/dc/elements/1.1/>
     @prefix viaf: <http://viaf.org/viaf>
 
-    lccn:n82011242 dc:creator viaf:96994048 ,
+    lccn:n82011242 dc:creator viaf:96994048 ;
                dc:created "1606" .
 
 Remember the structure of the triple, discussed in section 1? There we gave this example:
@@ -234,9 +234,9 @@ Remember the structure of the triple, discussed in section 1? There we gave this
 
 The key thing is that the predicate connects the subject and the object. It describes the relationship between them. The subject comes first in the triple, but that's a matter of choice, as we discussed with the example of people who were taught the piano by Liszt.
 
-You can use a comma if the subject is the same but the predicate and object are different, or a semicolon if the subject and predicate are the same and only the object is different.
+You can use a semicolon if the subject is the same but the predicate and object are different, or a comma if the subject and predicate are the same and only the object is different.
 
-    no2010025398 dc:creator viaf:96994048 ;
+    no2010025398 dc:creator viaf:96994048 ,
                     viaf:12323361 .
 
 
