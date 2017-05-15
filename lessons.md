@@ -8,7 +8,7 @@ permalink: /lessons/
 
 Our lessons are organized by typical phases of the research process, as well as general topics. Use the buttons to filter lessons by category. If you can’t find a skill, technology, or tool you're looking for, please [let us know]({{ site.baseurl }}/feedback)!
 
-{% assign alllessons = (site.pages | where: "layout" , "lesson") %}
+{% assign alllessons = (site.pages | where: "lesson" , "true") %}
 <div id="lesson-list">
 
 <ul class="filter activities">
@@ -27,19 +27,19 @@ Our lessons are organized by typical phases of the research process, as well as 
 {% endfor %}
 </ul>
 
-<div id="filter-none">Reset to see all {{ site.pages | where:"layout","lesson" | size }} lessons</div>
+<div id="filter-none">Reset to see all {{ site.pages | where:"lesson","true" | size }} lessons</div>
 
 <ul class="sort-by">
-  <li class="sort" data-sort="date">Sort by date</li>
-  <li class="sort" data-sort="difficulty">Sort by difficulty</li>
+<li class="sort" data-sort="date">Sort by publication date</li>
+<li class="sort" data-sort="difficulty">Sort by difficulty</li>
 </ul>
 
 <div id="eachlesson">
 <ul class="list">
 {% for page in alllessons %}
-{% capture author_string %} {% include author.html %} {% endcapture %}
+
 <li>
-{% include lesson_describe.html authors=author_string %} 
+{% include lesson_describe.html %} 
 </li>
 
 {% endfor %}
@@ -47,17 +47,6 @@ Our lessons are organized by typical phases of the research process, as well as 
 </div>
 </div>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js'></script>
 <script src="{{ site.baseurl }}/js/lessonfilter.js"></script>
-
-<script>
-  $(function() {
-
-    $('.filter').children().click(function() {
-        $('.filter').children().removeClass("current");
-        $(this).addClass("current");
-    });
-
-    initSort();
-  });
-</script>
