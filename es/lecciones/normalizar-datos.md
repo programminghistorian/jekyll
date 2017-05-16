@@ -14,7 +14,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: contar-frecuencias
 previous: de-html-a-lista-de-palabras-2
 redirect_from: /es/lessons/normalizing-data

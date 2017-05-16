@@ -1,6 +1,6 @@
 ---
 title: Getting Started with Topic Modeling and MALLET 
-layout: default
+layout: lesson
 slug: topic-modeling-and-mallet
 date: 2012-09-02
 authors:

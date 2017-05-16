@@ -13,7 +13,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: reutilizacion-de-codigo-y-modularidad
 previous: ver-archivos-html
 redirect_from: /es/lessons/working-with-text-files

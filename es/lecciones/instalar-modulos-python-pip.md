@@ -13,7 +13,7 @@ editor:
 translation-reviewer:
 - José Calvo Tello
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 redirect_from: /es/installing-python-modules-pip
 ---
 

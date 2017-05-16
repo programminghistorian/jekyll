@@ -1,6 +1,6 @@
 ---
 title: Getting Started with Markdown
-layout: default
+layout: lesson
 slug: getting-started-with-markdown
 date: 2015-11-13
 authors:

@@ -1,6 +1,6 @@
 ---
 title: Applied Archival Downloading with Wget
-layout: default
+layout: lesson
 slug: applied-archival-downloading-with-wget
 date: 2013-09-13
 authors:

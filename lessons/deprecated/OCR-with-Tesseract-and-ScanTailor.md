@@ -3,7 +3,7 @@ title: OCR with Tesseract and ScanTailor
 authors:
 - Mila Oiva
 date: 2015-06-01
-layout: default
+layout: lesson
 deprecated: true
 ---
 

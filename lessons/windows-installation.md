@@ -1,6 +1,6 @@
 ---
 title: Setting Up an Integrated Development Environment for Python (Windows)
-layout: default
+layout: lesson
 slug: windows-installation
 date: 2012-07-17
 authors:

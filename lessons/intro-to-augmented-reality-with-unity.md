@@ -1,6 +1,6 @@
 ---
 title: Introduction to Mobile Augmented Reality Development in Unity
-layout: default
+layout: lesson
 slug: intro-to-augmented-reality-with-unity
 date: 2016-07-24
 authors:

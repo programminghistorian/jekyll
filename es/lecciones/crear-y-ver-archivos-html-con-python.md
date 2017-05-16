@@ -13,7 +13,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: salida-de-datos-como-archivo-html
 previous: contar-frecuencias
 redirect_from: /es/lessons/creating-and-viewing-html-files-with-python

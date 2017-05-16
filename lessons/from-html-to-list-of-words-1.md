@@ -1,6 +1,6 @@
 ---
 title: From HTML to List of Words (part 1)
-layout: default
+layout: lesson
 slug: from-html-to-list-of-words-1
 date: 2012-07-17
 authors:

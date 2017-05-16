@@ -1,6 +1,6 @@
 ---
 title: Georeferencing in QGIS 2.0
-layout: default
+layout: lesson
 slug: georeferencing-qgis
 date: 2013-12-13
 authors:

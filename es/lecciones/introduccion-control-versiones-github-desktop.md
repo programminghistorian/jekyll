@@ -11,7 +11,7 @@ translator:
 translation-reviewer:
 - María José Afanador-Llach
 - Víctor Gayol
-layout: default
+layout: lesson
 difficulty: 1
 redirect_from: /es/lessons/getting-started-with-github-desktop
 ---

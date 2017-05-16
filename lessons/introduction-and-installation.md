@@ -1,6 +1,6 @@
 ---
 title: Python Introduction and Installation 
-layout: default
+layout: lesson
 slug: introduction-and-installation
 date: 2012-07-17
 authors:

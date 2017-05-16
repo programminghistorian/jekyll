@@ -1,6 +1,6 @@
 ---
 title: "From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources"
-layout: default
+layout: lesson
 slug: creating-network-diagrams-from-historical-sources
 date: 2015-02-18
 authors:

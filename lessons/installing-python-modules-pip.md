@@ -1,6 +1,6 @@
 ---
 title: Installing Python Modules with pip
-layout: default
+layout: lesson
 slug: installing-python-modules-pip
 date: 2013-05-06
 authors:

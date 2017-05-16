@@ -1,6 +1,6 @@
 ---
 title: Creating an Omeka Exhibit
-layout: default
+layout: lesson
 slug: creating-an-omeka-exhibit
 date: 2016-02-24
 authors:

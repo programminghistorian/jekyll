@@ -1,6 +1,6 @@
 ---
 title: Cleaning Data with OpenRefine
-layout: default
+layout: lesson
 slug: cleaning-data-with-openrefine
 date: 2013-08-05
 authors:
@@ -12,7 +12,6 @@ reviewers:
 - Nora McGregor
 editors:
 - Adam Crymble
-layout: default
 difficulty: 2
 activity: transforming
 topics: [data-manipulation]

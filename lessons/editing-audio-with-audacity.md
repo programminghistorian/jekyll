@@ -1,6 +1,6 @@
 ---
 title: Editing Audio with Audacity
-layout: default
+layout: lesson
 slug: editing-audio-with-audacity
 date: 2016-08-05
 authors:

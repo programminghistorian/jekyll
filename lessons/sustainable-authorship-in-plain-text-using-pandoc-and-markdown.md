@@ -1,6 +1,6 @@
 ---
 title: Sustainable Authorship in Plain Text using Pandoc and Markdown
-layout: default
+layout: lesson
 slug: sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 date: 2014-03-19
 authors:

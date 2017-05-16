@@ -1,6 +1,6 @@
 ---
 title: Using Gazetteers to Extract Sets of Keywords from Free-Flowing Texts
-layout: default
+layout: lesson
 slug: extracting-keywords
 date: 2015-12-01
 authors:

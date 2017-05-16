@@ -14,7 +14,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 redirect_from: /es/lessons/mac-installation
 ---
 

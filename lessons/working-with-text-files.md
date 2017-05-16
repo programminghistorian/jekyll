@@ -1,6 +1,6 @@
 ---
 title: Working with Text Files in Python
-layout: default
+layout: lesson
 slug: working-with-text-files
 date: 2012-07-17
 authors:

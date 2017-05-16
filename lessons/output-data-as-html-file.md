@@ -1,6 +1,6 @@
 ---
 title: Output Data as an HTML File with Python
-layout: default
+layout: lesson
 slug: output-data-as-html-file
 date: 2012-07-17
 authors:

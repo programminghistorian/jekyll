@@ -1,6 +1,6 @@
 ---
 title: Corpus Analysis with Antconc
-layout: default
+layout: lesson
 slug: corpus-analysis-with-antconc
 date: 2015-06-19
 authors:

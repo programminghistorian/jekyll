@@ -1,6 +1,6 @@
 ---
 title: Transliterating non-ASCII characters with Python
-layout: default
+layout: lesson
 slug: transliterating
 date: 2013-10-04
 authors:

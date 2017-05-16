@@ -1,6 +1,6 @@
 ---
 title: Setting Up an Integrated Development Environment for Python (Mac) 
-layout: default
+layout: lesson
 slug: mac-installation
 date: 2012-07-17
 authors:

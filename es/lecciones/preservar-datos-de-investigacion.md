@@ -13,7 +13,7 @@ translator:
 translation-reviewer:
 - Antonio Rojas Castro
 - Maria José Afanador-Llach
-layout: default
+layout: lesson
 difficulty: 1
 redirect-from: /es/lessons/preserving-your-research-data
 ---

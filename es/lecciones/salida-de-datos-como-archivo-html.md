@@ -13,7 +13,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: palabras-clave-en-contexto-n-grams
 previous: crear-y-ver-archivos-html-con-python
 redirect_from: /es/lessons/output-data-as-html-file

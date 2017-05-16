@@ -1,6 +1,6 @@
 ---
 title: Downloading Web Pages with Python 
-layout: default
+layout: lesson
 slug: working-with-web-pages
 date: 2012-07-17
 authors:

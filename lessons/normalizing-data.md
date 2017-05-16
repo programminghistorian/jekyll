@@ -1,6 +1,6 @@
 ---
 title: Normalizing Textual Data with Python 
-layout: default
+layout: lesson
 slug: normalizing-data
 date: 2012-07-17
 authors:

@@ -1,6 +1,6 @@
 ---
 title: Creating New Vector Layers in QGIS 2.0
-layout: default
+layout: lesson
 slug: vector-layers-qgis
 date: 2013-12-13
 authors:

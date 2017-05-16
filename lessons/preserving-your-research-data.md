@@ -1,6 +1,6 @@
 ---
 title: Preserving Your Research Data
-layout: default
+layout: lesson
 slug: preserving-your-research-data
 date: 2014-04-30
 authors:

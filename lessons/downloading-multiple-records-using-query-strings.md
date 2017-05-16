@@ -1,6 +1,6 @@
 ---
 title: Downloading Multiple Records Using Query Strings
-layout: default
+layout: lesson
 slug: downloading-multiple-records-using-query-strings
 date: 2012-11-11
 authors:

@@ -1,6 +1,6 @@
 ---
 title: Understanding Web Pages and HTML 
-layout: default
+layout: lesson
 slug: viewing-html-files
 date: 2012-07-17
 authors:

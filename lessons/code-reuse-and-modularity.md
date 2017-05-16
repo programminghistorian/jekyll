@@ -1,6 +1,6 @@
 ---
 title: Code Reuse and Modularity in Python
-layout: default
+layout: lesson
 slug: code-reuse-and-modularity
 date: 2012-07-17
 authors:

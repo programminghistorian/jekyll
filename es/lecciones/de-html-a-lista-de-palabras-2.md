@@ -13,7 +13,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: normalizar-datos
 previous: de-html-a-lista-de-palabras-1
 redirect_from: /es/lessons/from-html-to-list-of-words-2

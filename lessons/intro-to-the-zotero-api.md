@@ -1,6 +1,6 @@
 ---
 title: Intro to the Zotero API
-layout: default
+layout: lesson
 slug: intro-to-the-zotero-api
 date: 2013-04-01
 authors:

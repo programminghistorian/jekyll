@@ -1,6 +1,6 @@
 ---
 title: "Transforming Data for Reuse and Re-publication with XML and XSL"
-layout: default
+layout: lesson
 slug: transforming-xml-with-xsl
 date: 2016-07-07
 authors:

@@ -1,6 +1,6 @@
 ---
 title: Using SPARQL to access Linked Open Data
-layout: default
+layout: lesson
 slug: graph-databases-and-SPARQL
 date: 2015-11-24
 authors:

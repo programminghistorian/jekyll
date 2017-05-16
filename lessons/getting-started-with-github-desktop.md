@@ -1,6 +1,6 @@
 ---
 title: An Introduction to Version Control Using GitHub Desktop
-layout: default
+layout: lesson
 slug: getting-started-with-github-desktop
 date: 2016-06-17
 authors:

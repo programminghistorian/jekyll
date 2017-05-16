@@ -1,6 +1,6 @@
 ---
 title: R Basics with Tabular Data
-layout: default
+layout: lesson
 slug: r-basics-with-tabular-data
 date: 2016-09-05
 authors:

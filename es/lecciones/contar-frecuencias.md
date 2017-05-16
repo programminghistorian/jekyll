@@ -13,7 +13,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: crear-y-ver-archivos-html-con-python
 previous: normalizar-datos
 redirect_from: /es/lessons/counting-frequencies
