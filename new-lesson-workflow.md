@@ -23,15 +23,17 @@ If you have an idea for a new lesson, or have already written a tutorial that yo
 
 We welcome lessons pitched at any level of technical aptitude and experience, from neophytes to power users. Lessons may be a short and straightforward explanation of a discrete task (these kinds of "helper" lessons make complex lessons easier to follow); they may be quite long, complex, and technically sophisticated. 
 
-**In short, we welcome all lesson proposals.**  You can get a better sense of what we think makes for a good lesson by looking through our [published lessons], reading our [reviewer guidelines] or browsing the [lessons currently in development](https://github.com/programminghistorian/ph-submissions/issues). Please note that we welcome lesson proposals on topics already covered or in development, provided that the proposed lesson makes its own unique contribution. Everyone learns differently and we encourage topical overlap.
+**In short, we welcome all lesson proposals.**  You can get a better sense of what we think makes for a good lesson by looking through our [published lessons], reading our [reviewer guidelines] or browsing the [lessons currently in development](https://github.com/programminghistorian/ph-submissions/issues). Please note that we welcome lesson proposals on topics already covered or in development, provided that the proposed lesson makes its own unique contribution. Everyone learns differently and we encourage topical overlap. 
+
+Once your proposal is accepted, an editor will create a "Proposal" ticket in our [submissions repository](https://github.com/programminghistorian/ph-submissions/issues) with the lesson's working title and proposed learning outcomes. This ticket serves to mark the work in progress while you are writing your lesson. To avoid a backlog in the system, we ask that you submit your lesson within 90 days of the proposal being accepted.
 
 <br/><br/>
 
 
 # Writing a New Lesson
-*Programming Historian* is hosted at [GitHub](http://github.com), which is a free platform for maintaining files and their revision history. It's most often used to store files of programming code, but it's also a fabulous way to maintian an open-access resource like *Programming Historian*. More specifically, our site uses [GitHub Pages] to take a bunch of plain text files and turn them into a spiffy website.
+*Programming Historian* is hosted at [GitHub](http://github.com), which is a free platform for maintaining files and their revision history. It's most often used to store files of programming code, but it's also a fabulous way to maintain an open-access resource like *Programming Historian*. More specifically, our site uses [GitHub Pages] to take a bunch of plain text files and turn them into a spiffy website.
 
-This means that we we ask that authors adhere to the following lesson requirements, which are not merely stylistic, but in fact necessary for our publishing platform. **While our technical requirements may be unfamiliar to you, we are here to help you through the process and learn the technologies as you go.**
+This means that we ask that authors adhere to the following lesson requirements, which are not merely stylistic, but in fact necessary for our publishing platform. **While our technical requirements may be unfamiliar to you, we are here to help you through the process and learn the technologies as you go.**
 
 Please note that we do not have a budget to hire a copyeditor as this is a volunteer-driven project, so we are grateful for your attention to detail.
 
