@@ -64,7 +64,7 @@ En la página de inicio de *OpenRefine*, crea un nuevo proyecto utilizando el ar
 
 El conjunto de datos del museo Powerhouse está formado por metadatos detallados de todos los objetos de la colección, incluyendo título, descripción, varias categorías a las que pertenece el objeto, información de procedencia y un vínculo persistente al objeto en el sitio web del museo. Para tener una idea de a qué objeto corresponden los metadatos simplemente haz clic en el vínculo persistente y se abrirá el sitio web.
 
-{% include figure.html filename="powerhouseScreenshot.png" caption="Figura 1: Captura de pantalla de un Objeto de Muestra del sitio web del Museo Powerhouse" %}[^2]
+{% include figure.html caption="Figura 1: Captura de pantalla de un Objeto de Muestra del sitio web del Museo Powerhouse" filename="powerhouseScreenshot.png" %}[^2]
 
 ### Conoce tus datos
 
@@ -94,7 +94,7 @@ Una vez que el contenido de un campo ha sido separado correctamente, pueden apli
 
 Tras la aplicación de una faceta, *OpenRefine* propone agrupar facetas que han sido elegidas para ser agrupadas basándose en  varios métodos de similitud. Como muestra la Figura 2, el agrupamiento te permite resolver problemas relacionados con inconsistencias de casos, uso incoherente de la forma singular o plural y errores ortográficos sencillos. *OpenRefine* presenta los valores relacionados y propone fusionarlos en el valor más frecuente. Selecciona los valores que desees agrupar seleccionando individualmente sus casillas o haciendo clic en '**Seleccionar todos**' en la parte inferior, luego selecciona '**Unir seleccionados y reagrupar**'.
 
-{% include figure.html filename="visionAgrupaciones.png" caption="Figura 2: Visión general de algunas agrupaciones" %}
+{% include figure.html caption="Figura 2: Visión general de algunas agrupaciones" filename="visionAgrupaciones.png" %}
 
 El método de agrupación por defecto no es demasiado complejo, por eso no encuentra aún todos los grupos. Experimenta con diferentes métodos para ver qué resultados obtienen. No obstante, ten cuidado: algunos métodos son demasiado agresivos, de forma que podrías terminar agrupando valores que no están relacionados. Ahora que los valores han sido agrupados individualmente, podemos volverlos a unir en una sola celda. Haz clic en el triángulo Categorías y elije **Editar celdas**, **Unir celdas multi-valuadas**, **Aceptar**. Elije el carácter barra vertical (|) como separador. Las filas ahora se ven como antes, con un campo de Categorías de valor múltiple.
 
