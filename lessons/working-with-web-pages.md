@@ -1,17 +1,22 @@
 ---
-title: Downloading Web Pages with Python
+title: Downloading Web Pages with Python 
+layout: default
+slug: working-with-web-pages
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
-categories: [lessons, python, original-ph]
+difficulty: 2
+activity: acquiring
+topics: [python]
+abstract: "This lesson introduces Uniform Resource Locators (URLs) and explains how to use Python to download and save the contents of a web page to your local hard drive."
 next: manipulating-strings-in-python
 previous: code-reuse-and-modularity
+categories: [lessons, python, original-ph]
 ---
 
 Lesson Goals

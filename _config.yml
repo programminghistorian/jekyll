@@ -1,22 +1,13 @@
 name: Programming Historian
 description: Introductory and intermediate programming lessons for humanists
 url: http://programminghistorian.org
-baseurl: /jekyll
-permalink: :categories/:title
-exclude:
-  - deprecated
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-  - Procfile
+baseurl: ""
+exclude: [deprecated, vendor, Gemfile, Procfile]
 safe: true
 highlighter: rouge
 markdown: kramdown
 gems:
   - jekyll-redirect-from
-collections:
-  lessons:
-    output: true
 defaults:
   -
     scope:
@@ -28,3 +19,9 @@ defaults:
       path: "es"
     values:
       lang: "es"
+  - 
+    scope:
+      path: "lessons"
+    values:
+      lesson: true
+# For local work: bundle exec jekyll serve --watch --baseurl '/proghistdev' or wherever else your local site is located

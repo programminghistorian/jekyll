@@ -1,15 +1,19 @@
 ---
 title: An Introduction to Version Control Using GitHub Desktop
-authors: 
-- Daniel van Strien
+layout: default
+slug: getting-started-with-github-desktop
 date: 2016-06-17
+authors:
+- Daniel van Strien
 reviewers:
 - Ethan Miller
 - Lisa Spiro
 editors:
 - Caleb McDaniel
-layout: default
 difficulty: 1
+activity: sustaining
+topics: [data-management]
+abstract: "In this lesson you will be introduced to the basics of version control, understand why it is useful and implement basic version control for a plain text document using git and GitHub."
 ---
 
 ## Lesson Goals
@@ -100,7 +104,7 @@ One of the trickiest aspects of using GitHub is the new terminology. Some of the
 
 ### Register for a GitHub Account
 
-Since we are going to be using GitHub we will need to register for an account at [GitHub](https://github.com) if we don't already have one. For [students](https://education.github.com/pack) and [researchers](https://github.com/blog/1840-improving-github-for-science) GitHub offers free private repositories. These are not necessary but might be appealing if you want to keep some work private. 
+Since we are going to be using GitHub we will need to register for an account at [GitHub](GitHub.com) if we don't already have one. For [students](https://education.github.com/pack) and [researchers](https://github.com/blog/1840-improving-github-for-science) GitHub offers free private repositories. These are not necessary but might be appealing if you want to keep some work private. 
 
 ### Install GitHub Desktop
 

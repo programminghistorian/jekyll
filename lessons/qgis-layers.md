@@ -1,19 +1,25 @@
 ---
 title: Installing QGIS 2.0 and Adding Layers
+layout: default
+slug: qgis-layers
+date: 2013-12-13
 authors:
 - Jim Clifford
 - Josh MacFadyen
 - Daniel Macfarlane
-date: 2013-12-13
 reviewers:
 - Finn Arne Jørgensen
 - Sarah Simpkin
 editors:
 - Adam Crymble
-layout: default
+difficulty: 1
+activity: presenting
+topics: [mapping]
+abstract: "In this lesson you will install QGIS software, download geospatial files
+like shapefiles and GeoTIFFs, and create a map out of a number of vector
+and raster layers."
 next: vector-layers-qgis
 prev: googlemaps-googleearth
-difficulty: 1
 ---
 
 Lesson Goals

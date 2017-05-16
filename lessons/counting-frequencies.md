@@ -1,14 +1,19 @@
 ---
 title: Counting Word Frequencies with Python
+layout: default
+slug: counting-frequencies
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: analyzing
+topics: [python]
+abstract: "Counting the frequency of specific words in a list can provide illustrative data. This lesson will teach you Python's easy way to count such frequencies."
 next: creating-and-viewing-html-files-with-python
 previous: normalizing-data
 ---

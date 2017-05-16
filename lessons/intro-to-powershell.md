@@ -1,16 +1,20 @@
 ---
 title: Introduction to the Windows Command Line with PowerShell
+layout: default
+slug: intro-to-powershell
+date: 2016-07-21
 authors:
 - Ted Dawson
-date: 2016-07-21
 reviewers:
 - Erin N. Bush
 - Derek Price
 editors:
 - Jeri E. Wieringa
-review-ticket: 18
-layout: default
 difficulty: 1
+activity: transforming
+topics: [data-manipulation, get-ready]
+abstract: "This tutorial will introduce you to the basics of Windows PowerShell, the standard command-line interface for Windows computers."
+review-ticket: 18
 ---
 
 # Introduction

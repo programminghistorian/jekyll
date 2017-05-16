@@ -1,8 +1,10 @@
 ---
 title: Building a static website with Jekyll and GitHub Pages
+layout: default
+slug: building-static-sites-with-jekyll-github-pages
+date: 2016-04-18
 authors:
 - Amanda Visconti
-date: 2016-04-18
 reviewers:
 - Paige Morgan
 - Jamie Howe
@@ -10,6 +12,9 @@ editors:
 - Fred Gibbs
 layout: default
 difficulty: 1
+activity: presenting
+topics: [website, data-management]
+abstract: "This lesson will help you create entirely free, easy-to-maintain, preservation-friendly, secure website over which you have full control, such as a scholarly blog, project website, or online portfolio."
 ---
 
 **This lesson is for you if** you'd like an entirely free, easy-to-maintain, preservation-friendly, secure website over which you have full control, such as a scholarly blog, project website, or online portfolio. 
@@ -20,7 +25,7 @@ difficulty: 1
 
 **Difficulty level:** Intermediate (this lesson includes use of the command line and git, *but* walks you through anything needed to complete this lesson). Forthcoming lessons in the basics of git/GitHub and GitHub Pages will be linked here when available, and provide a good background for anyone wishing for deeper understanding of the technology used in this lesson.
 
-**Up to date?:** This lesson was last updated on *November 12, 2016* to fix issues caused by Jekyll version 3.2.
+**Up to date?:** This lesson was last updated on *May 2, 2017* to fix issues caused by Jekyll version 3.2.
 
 ## Table of contents
 * [What are static sites, Jekyll, etc. and why might I care?](#section0)
@@ -224,20 +229,19 @@ Don't forget to wait until the command prompt appears again to type the followin
 
    `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin`
 
-4. Install DevKit for Windows using the instructions at [https://github.com/oneclick/rubyinstaller/wiki/Development-Kit](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit).
+4. Close the "Command Prompt" app and open "Git Bash" (which you recently installed) instead. **You'll now use Git Bash any time the command line is called for.**
 
-5. Close the "Command Prompt" app and open "Git Bash" (which you recently installed) instead. **You'll now use Git Bash any time the command line is called for.**
-
-6. Jekyll is built from the [Ruby coding language](https://en.wikipedia.org/wiki/Ruby_%28programming_language%29). [Ruby Gems](https://rubygems.org/) makes setting up Ruby software like Jekyll easy (it's a package manager, just like Homebrew—instead of making installation easy on Macs, it adds some stuff to make Ruby installations simpler). We'll now install Ruby (this will take a few minutes):
+5. Jekyll is built from the [Ruby coding language](https://en.wikipedia.org/wiki/Ruby_%28programming_language%29). [Ruby Gems](https://rubygems.org/) makes setting up Ruby software like Jekyll easy (it's a package manager, just like Homebrew—instead of making installation easy on Macs, it adds some stuff to make Ruby installations simpler). We'll now install Ruby (this will take a few minutes):
 
    `choco install ruby -y`
 
-7. Close the command line program and restart (Ruby won't work until you've done this once)
+6. Close the command line program and restart (Ruby won't work until you've done this once)
 
-8. [Jekyll](https://jekyllrb.com/) is the code that creates your website (i.e. "site generation"), making it easier to do certain common tasks such as using the same template (same logo, menu, author information…) on all your blog post pages. There's more info on [what Jekyll and static sites are](#section0-1), and on [why you'd want to use Jekyll to make a static website](#section0-3), above. We'll now install Jekyll (if Windows Security gives you a warning popup, ignore it):
+7. [Jekyll](https://jekyllrb.com/) is the code that creates your website (i.e. "site generation"), making it easier to do certain common tasks such as using the same template (same logo, menu, author information…) on all your blog post pages. There's more info on [what Jekyll and static sites are](#section0-1), and on [why you'd want to use Jekyll to make a static website](#section0-3), above. We'll now install Jekyll (if Windows Security gives you a warning popup, ignore it):
 
    `gem install jekyll`
 
+   ​
 
 **From now on, all instructions are for both Mac and PC users!**
 
@@ -330,28 +334,28 @@ Don't forget to wait until the command prompt appears again to move to the next 
 
 ### Basic site settings via _config.yml <a id="section4-1"></a>
 
-1. Navigate to your website folder in Finder (Macs) or the directory folder (Windows. The author's website at */Users/DrJekyll/GitHub/JekyllDemo* (*DrJekyll* is my logged in username, and *JekyllDemo* is the name of my website folder). [Return to the "Setting up Jekyll" section](#section3) if you need help locating your website folder. 
+1. Navigate to your website folder in Finder (Macs) or the directory folder (Windows. The author's website at */Users/DrJekyll/GitHub/JekyllDemo* (*DrJekyll* is my logged in username, and *JekyllDemo* is the name of my website folder). [Return to the "Setting up Jekyll" section](#section3) if you need help locating your website folder.
 
 You'll notice that generating and running your site in the previous section added a new "_site" folder. This is where Jekyll puts the HTML files it generates from the other files in your website folder. Jekyll works by taking various files like your site configuration settings (_config.yml) and files that just contain post or page content without other webpage information (e.g. about.md), putting these all together, and spitting out HTML pages that a web browser is able to read and display to site visitors.
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-18.png" caption="Locating the website folder on the author's computer" %}
 
-2. We'll start by customizing the main settings file, **_config.yml**. You'll want to open this and any future website files using your text editor (e.g. TextWrangler or bbEdit on Macs, or Notepad++ on Windows).
+2. We'll start by customizing the main settings file, **_config.yml**. You'll want to open this and any future website files using your text editor (e.g. TextWrangler on Macs or Notepad++ on Windows).
 
-{% include figure.html filename="building-static-sites-with-jekyll-github-pages-14.png" caption="Opening the text editor program bbEdit on the author's Mac" %}
+{% include figure.html filename="building-static-sites-with-jekyll-github-pages-14.png" caption="Opening the text editor program TextWrangler on the author's Mac" %}
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-15.png" caption="The new _config.yml file" %}
 
    The *_config.yml* file is a file "meant for settings that affect your whole blog, values for which your are expected to set up once and rarely need to edit after that" (as it says inside the file!). *_config.yml* is the place where you can set the title of your site, share information like your email address that you want associated with the site, or add other "basic settings"-type information you want available across your website. 
 
    The *.yml* file type refers to how the file is written using [YAML](https://en.wikipedia.org/wiki/YAML) (the acronym standing for "YAML Ain't Markup Language"); YAML is a way of writing data that is both easy for humans to write and read, and easy for machines to interpret. You won't need to learn much about YAML, besides keeping the *_config.yml* formatted the way it originally is even as you customize the text it contains (e.g. the title information is on a separate line from your email).
 
-3. You can change the text in this file, save the file, and then visit your local website in a browser to see the changes. **Note that changes to _config.yml**, unlike the rest of your website files, will not show up if made while the website is already running; you need to either make them while the website isn't running, *or*, after making changes to _config.yml, stop then start running the website to see changes made to this particular file. (*Changes to the _config.yml file were left out of the ability to refresh because this file can be used to declare things like the structure of site links, and altering these while the site is running could badly break things.*)
+3. You can change the text in this file, save the file, and then visit your local website in a browser to see the changes. **Note that changes to _config.yml**, unlike the rest of your website files, will not show up if made while the website is already running; you need to make them while the website isn't running, *or* after making changes to _config.yml stop then start running the website, to see changes made to this particular file. (*Changes to the _config.yml file were left out of the ability to refresh because this file can be used to declare things like the structure of site links, and altering these while the site is running could badly break things.*)
 
    Making small changes to website files (one at a time to start with), saving, and then refreshing to see the effect on your site means if you mess anything up, it will be clear what caused the issue and how to undo it.
 
    - Note that any line that starts with a **#** sign is a *comment*: comments aren't read as code, and instead serve as a way to leave notes about how to do something or why you made a change to the code. 
 
-   - Comments can always be deleted without effect to your website (e.g. you can delete the commented lines 1-9 and 12-15 in *_config.yml*, if you don't want to always see this info about Jekyll use).
+   - Comments can always be deleted without effect to your website (e.g. you can delete the commented lines 1-6 in *_config.yml* if you don't want to always see this info about Jekyll use).
 
 4. Edit the *_config.yml* file according to these instructions:
 
@@ -363,7 +367,7 @@ You'll notice that generating and running your site in the previous section adde
    - **twitter_username**: Your Twitter username (do not include @ symbol).
    - **github_username**: Your GitHub username.
 
-   The changes you made to the *baseurl* and *url* lines will let your site run from the same files both locally on your computer and live on the Web, but **doing this changed the URL where you'll see your local site from now on** (while [Jekyll is running](#section3a-1)) from localhost:4000 to **localhost:4000/JekyllDemo/** (substitute your website folder name for *JekyllDemo* and remembering the last slash mark).
+   The changes you made to the *baseurl* and *url* lines will let your site run from the same files both locally on your computer and live on the Web, but **doing this changed the URL where you'll see your local site from now on** (while [Jekyll is running](#section3-1)) from localhost:4000 to **localhost:4000/JekyllDemo/** (substitute your website folder name for *JekyllDemo* and remembering the last slash mark).
 
    In the screenshot below, I have deleted the initial commented lines 1-9 and 12-15, as well as the commented text stating what "description" does (not necessary, just to show you can delete comments that you don't care about seeing!) and customized the rest of the file as instructed above:
 
@@ -375,24 +379,21 @@ You'll notice that generating and running your site in the previous section adde
 
 ### Where (and what) is everything? <a id="section4-2"></a>
 
-To get a sense of how your site works and what files you'd experiment with to do more advanced things, here are some notes on what each folder or file in your current website folder does. Remember to always open and edit any files with a text editor (e.g. bbEdit) and not a word processor (e.g. not Microsoft Word or anything that lets you add formatting like italic and bold); this prevents invisible formatting characters from being saved in the file and messing up the website. If you just want to start adding content to your site and make it public, you can [skip to the next section](#section5).
+To get a sense of how your site works and what files you'd experiment with to do more advanced things, here are some notes on what each folder or file in your current website folder does. Remember to always open and edit any files with a text editor (e.g. TextWrangler) and not a word processor (e.g. not Microsoft Word or anything that lets you add formatting like italic and bold); this prevents invisible formatting characters from being saved in the file and messing up the website. If you just want to start adding content to your site and make it public, you can [skip to the next section](#section5).
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-18.png" caption="A Finder window showing the default files and folders in a Jekyll website folder" %}
 
 - **_config.yml** is discussed [above](#section4-1); it provides basic settings information about your site, such as the site's title and additional possibilities we won't cover here, like how to structure links to posts (e.g. should they follow the pattern MySite.com/year/month/day/post-title?).
+- **_includes** folder has files that get included on all or certain pages (e.g. code to make the header contain your site title and main menu on every page of the site)
+- **_layouts** folder contains code that controls how the pages on your site look (default.html), as well as customizations of that code to further style blog posts (post.html) and pages (page.html)
 - **_posts** folder holds the individual files that each represent a blog post on your website. Adding a new post to this folder will make a new blog post appear on your website, in reverse chronological order (newest post to oldest). We'll cover adding blog posts in the [next section](#section5-2).
+- **_sass** folder holds SCSS files that control the visual design of the site
 - **_site** folder is where the HTML pages that appear on the web are generated and stored (e.g. you'll write and save posts as Markdown files, but Jekyll will convert these to HTML for display in a web browser)
 - **index.md** is a place to add content that you want to appear on your homepage, such as a biography blurb to appear above the "Posts" list
 - **about.md** is an example of a Jekyll *page*. It's already linked in the header of your website, and you can customize its text by opening and writing in that file. We'll cover adding more site pages in the [next section](#section5-3).
-
-The latest version of Jekyll no longer includes the files below by default, but they are options you might research when you're ready to customize your site further than this lesson covers. Any Jekyll documentation written before mid-Fall 2016 will assume these files are part of your website, since the change in what is included in default Jekyll was made in Fall 2016. These possibilities include:
-
-- A **_drafts** folder that looks just like the _posts folder is a way to save draft posts on your website, without having these appear in your site's list of readable posts
-- An **_includes** folder contains files that get included on all or certain pages such as a header (e.g. code to make the header contain your site title and main menu on every page of the site) or footer
-- A **_layouts** folder contains code that controls how the pages on your site look (e.g. default.html for default pages, project.html for pages discussing your projects that should all look the same way), as well as customizations of that code to further style blog posts (post.html) and pages (page.html)
-- A **_data** folder is a newer option. It stores files written using YAML (the acronym standing for “YAML Ain’t Markup Language”, discussed further above) and is a nice way to store and grab certain types of information. For example, _data/authors.yml could contain information for every author on your group blog, and the _layouts/post.html file could be set up to pull the correct biographical information about a given author for each of their posts, rather than making them write this information out fully for each new post.
-- A **feed.xml** file can let people follow the RSS feed of your blog posts.
-
+- **css** folder holds CSS converted from SCSS that controls the visual design of the site
+- **feed.xml** lets people follow the RSS feed of your blog posts
+- **index.html** controls the structuring of content on your site's homepage
 
 ## Writing pages and posts <a id="section5"></a>
 
@@ -412,7 +413,7 @@ You might be interested in "markdown editor" software such as [Typora](http://ww
 
 ### Authoring pages <a id="section5-3"></a>
 
-1. To see an existing page on your website (created as a default part of a Jekyll website [when you created the rest of your website's files](#section3)), navigate to your website folder and open the **about.md** file either in a text editor (e.g. bbEdit) or a Markdown editor (e.g. Typora) to see the file that creates the "About" page. Also click on the "About" link in the top-right of your webpage to see what the webpage the file creates looks like in a browser.
+1. To see an existing page on your website (created as a default part of a Jekyll website [when you created the rest of your website's files](#section3)), navigate to your website folder and open the **about.md** file either in a text editor (e.g. TextWrangler) or a Markdown editor (e.g. Typora) to see the file that creates the "About" page. Also click on the "About" link in the top-right of your webpage to see what the webpage the file creates looks like in a browser.
 
 2. The stuff between the \--- dashes is called "front matter" (*note that opening the file in a Markdown editor might make the front matter appear on a gray background instead of between dashes*). The front matter tells your site whether to format the content below the front matter as a page or blog post, the title of the post, the date and time the post should show it was published, and any categories you'd like the post or page listed under.
 
@@ -420,7 +421,7 @@ You might be interested in "markdown editor" software such as [Typora](http://ww
 
    - **layout:** Keep this as-is (it should say page).
    - **title:** Change this to the desired page title (unlike posts, no quotation marks around the title). In the screenshot below, I added a page with the title "Resume".
-   - **permalink:** change the text between the two forward slash marks to the word (*or phrase—but you'll need to use hyphens and never spaces!*) that you want to follow your site's main URL to reach the page. For example, **permalink: /about/** locates a page at **localhost:4000/yourwebsitefoldername/about/**
+   - **permalink:** change the text between the two forward slash marks to the word (*or phrase—but you'll need to use hyphens and not spaces!*) that you want to follow your site's main URL to reach the page. For example, **permalink: /about/** locates a page at **localhost:4000/yourwebsitefoldername/about/**
 
 3. The space below the front matter's second — dashes (or below the front matter's gray box, if using a Markdown editor) is where you write the content of your page, using [the Markdown formatting described above](#section5-1).
 
@@ -432,7 +433,7 @@ For reference, you can check out [an example of a page](http://amandavisconti.gi
 
 ### Authoring posts <a id="section5-2"></a>
 
-1. In Finder, navigate to your website folder (e.g. *JekyllDemo*) and the *_posts* folder inside it. Open the file inside it with either a text editor (e.g. bbEdit) or a Markdown editor (e.g. Typora). The file will be named something like *2016-02-28-welcome-to-jekyll.markdown* (the date will match when you created the Jekyll site).
+1. In Finder, navigate to your website folder (e.g. *JekyllDemo*) and the *_posts* folder inside it. Open the file inside it with either a text editor (e.g. TextWrangler) or a Markdown editor (e.g. Typora). The file will be named something like *2016-02-28-welcome-to-jekyll.markdown* (the date will match when you created the Jekyll site).
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-19.png" caption="An example Jekyll website blog post file opened in a text editor" %}
 
@@ -447,7 +448,7 @@ For reference, you can check out [an example of a page](http://amandavisconti.gi
    - **layout:** Keep this as-is (it should say *post*).
    - **title:** Change "Welcome to Jekyll!" to whatever title you'd like for your new post (keeping the quotation marks around the title). It's the norm to make the title the same as the words in the filename (except with added spaces and capitalization). This is how the title will appear on the post's webpage).
    - **date:** Change this to when you want the post to show as its publication date and time, making sure to match the date that's part of the filename. (The date *and* time should have occurred already, for your post to show up.)
-   - **categories:** Delete the words "jekyll update" for now, and don't add anything else here—the current theme doesn't use these and they mess up the post URLs. (*Other themes can use this field to sort blog posts by categories!*)
+   - **categories:** Delete the words "jekyll update" for now, and don't add anything else here—the current theme doesn't use these and they mess up the post URLs. (*Other themes can use this field to sort blog posts by categories*.)
    - **The space below the second \--- (or below the gray box, if using a Markdown editor):** This is where you write your blog post, using [the Markdown formatting described above](#section5-1).
 
    After saving, you should now be able to see your second post on the front page of your site, and clicking on the link should take you to the post's page:
@@ -461,14 +462,13 @@ Notice that **the URL of the post** is your local website URL (e.g. *localhost:4
 
 **To create further posts**, duplicate an existing file, then remember to change not just the front matter and content inside the post as described above, but also the file name (date and title) of the new file.
 
-For reference, you can check out [an example of a post](https://amandavisconti.github.io/JekyllDemo/2016/11/12/a-post-about-my-research.html) on my demo site, or see [the code running that post](http://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/_posts/2016-02-29-a-post-about-my-research.markdown).
+For reference, you can check out [an example of a post](http://amandavisconti.github.io/JekyllDemo/2016/02/29/a-post-about-my-research.html) on my demo site, or see [the code running that post](http://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/_posts/2016-02-29-a-post-about-my-research.markdown).
 
 ## Hosting on GitHub Pages <a id="section6"></a>
 
 *You now know how to add text pages and posts to your website. In this section. we'll move your local site live so that others can visit it on the Web.* **At this point, we are making a version of your website publicly viewable** *(e.g. to search engines and to anyone who knows of or happens on the link).*
 
 *[Earlier in the lesson,](#section1-2) you installed the GitHub Desktop app. We'll now use this app to easily move your website files to a place that will serve them to visitors as webpages (GitHub Pages), where the public can then visit them online. This first time, we'll move all your website's files to the Web since none of them are there yet; in the future, you'll use this app whenever you've adjusted the website's files (added, edited, or deleted content or files) on your local version of the website and are ready for the same changes to appear on the public website (there's [a cheatsheet at the end of this section](#section6-1) for this).*
-
 1. Open the GitHub Desktop app. Click the **+** icon in the top left corner, and click on the "Add" option along the top of the box that appears (if "Add" isn't already selected).
 
 2. Click on the "Choose…" button and choose the folder (*JekyllDemo* in my example) containing your website files (if on a Mac and unable to locate this folder, your Library folder may be hidden; [use these directions](http://www.macobserver.com/tmo/article/mavericks-easily-make-user-library-folder-visible) to make it visible so the GitHub Desktop app can look navigate inside it).
@@ -480,24 +480,21 @@ For reference, you can check out [an example of a post](https://amandavisconti.g
    You can use the larger text area below this to write a longer message, if needed (*it's optional*).
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-23.png" caption="Screenshot of the author's Jekyll website repository open in the GitHub app. On the left, we see our Jekyll website folder selected; in the middle, we see a list of files we've changed since the last time we changed the live website; and at the bottom we see fields for a short description of the changes you've made and for a longer description (if necessary)" %}
-
 5. At the top of the app window, click on the third icon from the left (it will say "Add a branch" if you hover over it). Type *gh-pages* in the "Name" field, then click the "Create branch" button.
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-24.png" caption="Type gh-pages in the 'Name' field, then click the 'Create branch' button" %}
-
 6. Click on the "Commit to gh-pages" button near the bottom-left of the app window.
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-25.png" caption="The 'Commit to gh-pages' button near the bottom-left of the app window" %}
-
 7. Click on the "Publish" button in the top-right.
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-26.png" caption="Click on the “Publish” button in the top-right" %}
 8. In the popup, leave everything as-is and click the "Publish repository" button in the lower-right (*your window may not show the options related to private repositories shown in the screenshot*).
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-27.png" caption="In the popup, leave everything as-is and click the 'Publish repository' button in the lower-right" %}
+9. Click the "Sync" button in the upper-right.
 
-9. With all commits *after* the first one (which we just did!), you can skip the "create branch" and "publish" steps, and click the "sync" button (upper right) after you've clicked "Commit to gh-pages" and the app has completed committing. 
-
+{% include figure.html filename="building-static-sites-with-jekyll-github-pages-28.png" caption="Click the 'Sync' button in the upper-right" %}
 10. You can now visit (and share the link to!) your live website. The URL will follow the pattern of *your GitHub username DOT github.io SLASH name of your website SLASH*. (For example, the author's URL is [amandavisconti.github.io/JekyllDemo/](http://amandavisconti.github.io/JekyllDemo/).)
 
 ### Mini cheatsheet <a id="section6-1"></a>
@@ -511,20 +508,20 @@ In the future when you want to move changes you've made locally to your live sit
 
 ## Getting fancy <a id="section7"></a>
 
-*This lesson won't cover advanced work like changing the visual appearance of your site or adding new functionality, but here is some information to get you started on your own. Also check out [the official Jekyll documentation pages](https://jekyllrb.com/docs/home/) as well as the lessons linked at the bottom of this lesson.* 
+*This lesson won't cover advanced work like changing the visual appearance of your site or adding new functionality, but here is some information to get you started on your own.* 
 
 ### Visual design <a id="section7-1"></a>
 
-The visual design of a website is often referred to as its *theme* (more properly, a theme is a set of code and image files that together make a major change to the appearance of a website). Jekyll's default theme (which you are seeing on your current website) is called "minima".
+The visual design of a website is often referred to as its *theme* (more properly, a theme is a set of code and image files that together make a major change to the appearance of a website). 
 
-You have several options for changing the visual design of your site: you can customize the current "minima" theme, create your own theme, or add one of the many excellent free Jekyll themes, including:
+You can customize the current theme of your website by making changes to the files in the *_sass* and *css* folders (unfortunately, the most recent version of Jekyll's move to use SASS instead of plain CSS makes learning to customize things a bit more difficult for non-designers).
 
-- [Alex Gil, Susanna Allés Torrent, Terry Catapano, and Johann Gillium's "Ed" theme for minimal digital editions](https://elotroalex.github.io/ed/) and [its documentation](https://elotroalex.github.io/ed/documentation/) (free)
+Or, you can add in (and further customize, if desired) a theme already created by someone else by searching for "Jekyll themes" or trying one of these resources:
+
+- [Alex Gil's "Ed" theme for minimal digital editions](https://elotroalex.github.io/ed/) and [its documentation](https://elotroalex.github.io/ed/documentation.html) (free)
 - [Rebecca Sutton Koeser's "Digital Edition" theme](https://github.com/emory-libraries-ecds/digitaledition-jekylltheme) (free)
 - The [Jekyll Themes](http://jekyllthemes.org/) directory (free)
 - [JekyllThemes.io](http://jekyllthemes.io/) (free and paid)
-
-Note that how Jekyll handles themes changed in mid-Fall 2016; where the standard practice used to be adding a set of files to your website folder, Jekyll now encourages you to add themes as Ruby gems (just like how we added Jekyll to our computer as a Ruby gem, early in this lesson). You may be able to ignore this change and just add themes the old way described in documentation from before mid-Fall 2016, or you can check out [this blog post which follows up on this lesson to help you switch to a new website theme](http://literaturegeek.com/2017/02/04/building-research-website-with-jekyll-githubpages-theming).
 
 ### Functionality <a id="section7-2"></a>
 
@@ -558,15 +555,11 @@ Note that how Jekyll handles themes changed in mid-Fall 2016; where the standard
 
 ### Help <a id="section9-1"></a>
 
-If you run into an issue, [Jekyll has a page on troubleshooting](https://jekyllrb.com/docs/troubleshooting/) that might help. If you're working on the command line and get an error message, don't forget to try searching for that specific error message online. Besides search engines, [the StackExchange site](http://stackexchange.com/) is a good place to find questions and answers from people who have run into the same problem as you in the past. 
-
-Also note that some major changes were made in a version of Jekyll released in mid-Fall 2016, and that documentation written before that point might assume your site is set up slightly differently than it is. In most cases, this will just mean that you need to create a folder that your website folder doesn't currently contain, such as _layouts, to add a new file into. 
-
-We hope to host a lesson covering next steps to further customize your Jekyll site in the future. 
+If you run into an issue, [Jekyll has a page on troubleshooting](https://jekyllrb.com/docs/troubleshooting/) that might help. If you're working on the command line and get an error message, don't forget to try searching for that specific error message online. Besides search engines, [the StackExchange site](http://stackexchange.com/) is a good place to find questions and answers from people who have run into the same problem as you in the past.
 
 ### Credits <a id="section9-2"></a>
 
-Thanks to *Programming Historian* Editor Fred Gibbs for editing, discussing, and reviewing this lesson; Paige Morgan and Jaime Howe for reviewing this lesson; Scott Weingart and students for testing the lesson with Windows; and Tod Robbins and Matthew Lincoln for suggestions on the [DH Slack](http://tinyurl.com/DHSlack) on what to cover in this lesson. Thank you to Kristen Mapes for reporting a change in Jekyll that had broken this lesson, and pointing me to [a StackExchange question](https://stackoverflow.com/questions/38891463/jekyll-default-installation-doesnt-have-layouts-directory) identifying the problem. Thanks also to Ed Sperr for reporting a fix for a Windows installation issue.
+Thanks to *Programming Historian* Editor Fred Gibbs for editing, discussing, and reviewing this lesson; Paige Morgan and Jaime Howe for reviewing this lesson; Scott Weingart and students for testing the lesson with Windows; and Tod Robbins and Matthew Lincoln for suggestions on the [DH Slack](http://tinyurl.com/DHSlack) on what to cover in this lesson.
 
 ### Further reading <a id="section9-3"></a>
 
@@ -575,7 +568,7 @@ Check out the following links for documentation, inspiration, and further readin
 * [Official Jekyll Documentation](http://jekyllrb.com/docs/home/)
 * Jekyll "unofficially" links to two Windows + Jekyll resources: [http://jekyll-windows.juthilo.com/](http://jekyll-windows.juthilo.com/) and [https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/)
 * [https://help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages/)
-* Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](http://literaturegeek.com/2015/12/08/WhyJekyllGitHub)
+* Amanda Visconti, ["Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)"](http://literaturegeek.com/2015-12-08-WhyJekyllGitHub/)
 * Alex Gil, ["How (and Why) to Generate a Static Website Using Jekyll, Part 1"](http://chronicle.com/blogs/profhacker/jekyll1/60913)
 * Eduardo Bouças, ["An Introduction to Static Site Generators"](https://davidwalsh.name/introduction-static-site-generators)
 * [Jekyll Style Guide](http://ben.balter.com/jekyll-style-guide/)

@@ -1,14 +1,21 @@
 ---
 title: Intro to the Zotero API
+layout: default
+slug: intro-to-the-zotero-api
+date: 2013-04-01
 authors:
 - Amanda Morton
-date: 2013-04-01
 editors:
 - Fred Gibbs
-layout: default
-categories: [lessons, api]
-next: creating-new-items-in-zotero
 difficulty: 1
+activity: acquiring
+topics: [api]
+abstract: "In this lesson, you’ll learn how to use python with the Zotero API to
+interact with your Zotero library. The Zotero API is a powerful
+interface that would allow you to build a complete Zotero client from
+scratch if you so desired."
+next: creating-new-items-in-zotero
+categories: [lessons, api]
 ---
 
 Lesson Goals
@@ -185,4 +192,4 @@ library.
   [Installing Python Modules with pip]: ../lessons/installing-python-modules-pip
   [pip]: https://pip.pypa.io/en/stable/
   [Programming Historian 2]: https://www.zotero.org/groups/programming_historian_2
-  [account settings]: https://www.zotero.org/settings/
+  [account settings]: https://www.zotero.org/settings/keys

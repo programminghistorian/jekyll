@@ -1,15 +1,21 @@
 ---
 title: Understanding Regular Expressions
+layout: default
+slug: understanding-regular-expressions
+date: 2013-06-22
 authors:
 - Doug Knox
-date: 2013-06-22
 reviewers:
 - Dave Shepard
 - Patrick Burns
 editors:
 - Adam Crymble
-layout: default
 difficulty: 2
+activity: transforming
+topics: [regex, data-manipulation]
+abstract: "In this lesson, we will use advanced find-and-replace capabilities in a
+word processing application in order to make use of structure in a brief
+historical document that is essentially a table in the form of prose."
 ---
 
 Lesson Goals

@@ -1,15 +1,19 @@
 ---
 title: Creating New Items in Zotero
+layout: default
+slug: creating-new-items-in-zotero
+date: 2013-04-01
 authors:
 - Amanda Morton
-date: 2013-04-01
 editors:
 - Fred Gibbs
-layout: default
-categories: [zotero, api]
+difficulty: 1
+activity: transforming
+topics: [zotero, api]
+abstract: "In this lesson, you will create a new item in a Zotero library and add some basic metadata such as title and date."
 next: counting-frequencies-from-zotero-items
 prev: intro-to-the-zotero-api
-difficulty: 1
+categories: [zotero, api]
 ---
 
 Using Python to Create an New Zotero Item

@@ -1,18 +1,23 @@
 ---
 title: Intro to Google Maps and Google Earth
+layout: default
+slug: googlemaps-googleearth
+date: 2013-12-13
 authors:
 - Jim Clifford
 - Josh MacFadyen
 - Daniel Macfarlane
-date: 2013-12-13
 reviewers:
 - Finn Arne Jørgensen
 - Sarah Simpkin
-editors:
 - Adam Crymble
-layout: default
-next: qgis-layers
 difficulty: 1
+activity: presenting
+topics: [mapping]
+abstract: "Google My Maps and Google Earth provide an easy way to start creating
+digital maps. With a Google Account you can create and edit personal
+maps by clicking on My Places."
+next: qgis-layers
 ---
 
 ## Google Maps

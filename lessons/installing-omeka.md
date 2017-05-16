@@ -1,13 +1,18 @@
 ---
 title: Installing Omeka
+layout: default
+slug: installing-omeka
+date: 2016-07-24
 authors:
 - Jonathan Reeve
-date: 2016-07-24
 reviewers:
 - M. H. Beals
 editors:
 - Fred Gibbs
-layout: default
+difficulty: 2
+activity: presenting
+topics: [omeka, website]
+abstract: "This lesson will teach you how to install your own copy of Omeka."
 next: creating-an-omeka-exhibit
 ---
 

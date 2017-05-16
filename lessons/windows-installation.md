@@ -1,15 +1,20 @@
 ---
 title: Setting Up an Integrated Development Environment for Python (Windows)
+layout: default
+slug: windows-installation
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 - Amanda Morton
 editors:
 - Miriam Posner
-layout: default
+difficulty: 1
+activity: beginning
+topics: [get-ready, python]
+abstract: "This lesson will help you set up an integrated development environment for Python on a computer running the Windows operating system."
 ---
 
 ## Back up your computer
@@ -41,7 +46,9 @@ download a copy from the [Komodo Edit website][].
 
 It should look something like this:
 
-{% include figure.html filename="komodo-edit-windows.png" caption="Komodo Edit on Windows" %}
+![Komodo Edit on Windows][]
+
+Komodo Edit on Windows
 
 If you don’t see the Toolbox pane on the right hand side, choose
 `View -> Tabs -> Toolbox`. It doesn’t matter if the Project pane is open
@@ -58,14 +65,18 @@ Now you need to set up the editor so that you can run Python programs.
     `C:\Python27\Python.exe`)\
      If it looks like this, click OK:
 
-{% include figure.html filename="komodo-python-interpreter.png" caption="Set the default Python interpreter." %}
+    ![Komodo Default Python Interpreter Settings][]
+
+    Set the Default Python Interpreter
 
 2.  Next, in the Preferences section select *Internationalization*.
     Select *Python* from the drop-down menu titled *Language-specific
     Default Encoding* and make sure that [UTF-8][] is selected as the
     default encoding method.
 
-    {% include figure.html filename="utf-set.jpg" caption="Set the Language to UTF-8" %}
+    ![utf-set][]
+
+    Set the Language to UTF-8
 
 Next choose `Toolbox->Add->New Command`. This will open a new dialog
 window. Rename your command to `‘Run Python’`. Under `‘Command’`, type:
@@ -83,7 +94,9 @@ Under `‘Start in’`, enter:
 
 If it looks like this, click OK:
 
-{% include figure.html filename="run-python-windows.png" caption="'Run Python' Command" %}
+![Run Python Command Windows][]
+
+'Run Python' Command
 
 Your new command should appear in the Toolbox pane. You may need to
 restart your machine after completing this step before Python will work
@@ -125,7 +138,7 @@ to execute your program. If all went well, it should look something like
 this (Example as seen in Komodo Edit. Click on the image to see a
 full-size copy):
 
-{% include figure.html filename="hello-world1.png" caption="Hello World in Komodo Edit" %}
+![hello world in Komodo Edit][]
 
 ## Interacting with a Python shell
 
@@ -159,7 +172,9 @@ print('hello world')
 
 On your screen, it will look more like this:
 
-{% include figure.html filename="python-shell-win.png" caption="Python Shell on Windows" %}
+![Python Shell on Windows][]
+
+Python Shell in Windows
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
@@ -168,6 +183,15 @@ order, we suggest you next try ‘[Understanding Web Pages and HTML][]‘
   [Python website]: http://www.python.org/
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
   [Komodo Edit website]: http://www.activestate.com/komodo-edit
+  [Komodo Edit on Windows]: ../images/komodo-edit-windows.png
+    "komodo-edit-windows"
+  [Komodo Default Python Interpreter Settings]: ../images/komodo-python-interpreter.png
+    "komodo-python-interpreter"
   [UTF-8]: http://en.wikipedia.org/wiki/UTF-8
+  [utf-set]: ../images/utf-set.jpg
+  [Run Python Command Windows]: ../images/run-python-windows.png
+    "run-python-windows"
+  [hello world in Komodo Edit]: ../images/hello-world1.png "hello-world"
+  [Python Shell on Windows]: ../images/python-shell-win.png
     "python-shell-win"
   [Understanding Web Pages and HTML]: /lessons/viewing-html-files

@@ -1,15 +1,20 @@
 ---
-title: Normalizing Textual Data with Python
+title: Normalizing Textual Data with Python 
+layout: default
+slug: normalizing-data
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 - Francesca Benatti
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "In this lesson, we will make the list we created in the 'From HTML to a List of Words' lesson easier to analyze by normalizing this data."
 next: counting-frequencies
 previous: from-html-to-list-of-words-2
 ---

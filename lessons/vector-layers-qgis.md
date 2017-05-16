@@ -1,20 +1,25 @@
 ---
 title: Creating New Vector Layers in QGIS 2.0
+layout: default
+slug: vector-layers-qgis
+date: 2013-12-13
 authors:
 - Jim Clifford
 - Josh MacFadyen
 - Daniel Macfarlane
-date: 2013-12-13
 reviewers:
 - Finn Arne Jørgensen
 - Peter Webster
 - Abby Schreiber
 editors:
 - Adam Crymble
-layout: default
+difficulty: 2
+activity: presenting
+topics: [mapping]
+abstract: "In this lesson you will learn how to create vector layers based on
+scanned historical maps."
 next: georeferencing-qgis
 prev: qgis-layers
-difficulty: 2
 ---
 
 Lesson Goals

@@ -1,20 +1,17 @@
+<span class="lesson-description">
 
-<div class="lesson-description">
+<span class="image">
+<a href="{{ site.baseurl }}/lessons/{{ page.slug }}"><img src="{{ site.baseurl }}/gallery/{{ page.slug }}.png" width= "200"></a>
+</span>
 
-  <div class="lesson-image">
-    <a href="{{ site.baseurl }}/lessons/{{ lesson.slug }}"><img class="rounded" src="{{ site.baseurl }}/gallery/{{ lesson.slug }}.png"></a>
-  </div>
+<span class="title"><a href="{{ site.baseurl }}/lessons/{{ page.slug }}">{{ page.title }}</a></span><br>
 
-  <h3 class="lesson-index-author">{{ include.authors }}</h3>
-  <a href="{{ site.baseurl }}/lessons/{{ lesson.slug }}"><h2 class="lesson-index-title">{{ lesson.title }}</h2></a>
+<p class="abstract">{{ page.abstract }}</p>
 
-  <p class="abstract">{{ lesson.abstract }}</p>
+<!-- Activity and topic are hidden via CSS as a hack to let JS sorting by activity and topic work -->
+<span class="activity">{{ page.activity }}</span>
+<span class="topics">{{ page.topics }}</span>
 
-  <!-- Activity and topic are hidden via CSS as a hack to let JS sorting by activity and topic work -->
-  <span class="activity">{{ lesson.activity }}</span>
-  <span class="topics">{{ lesson.topics }}</span>
-
-  <span class="date">{{ lesson.date }}</span><br>
-  <span class="difficulty">{{ lesson.difficulty }}</span>
-
-</div>
+<span class="date">{{ page.date }}</span><br>
+<span class="difficulty">{{ page.difficulty }}</span>
+</span>

@@ -1,14 +1,19 @@
 ---
 title: Output Keywords in Context in an HTML File with Python
+layout: default
+slug: output-keywords-in-context-in-html-file
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: presenting
+topics: [python]
+abstract: "This lesson builds on 'Keywords in Context (Using N-grams)', where n-grams were extracted from a text. Here, you will learn how to output all of the n-grams of a given keyword in a document downloaded from the Internet, and display them clearly in your browser window."
 next: downloading-multiple-records-using-query-strings
 previous: keywords-in-context-using-n-grams
 ---
