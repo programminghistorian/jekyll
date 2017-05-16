@@ -61,7 +61,7 @@ To create the YAML block for your lesson, you should **copy and paste the follow
     - Scott Weingart
     date: 2014-03-03
     reviewers:
-    layout: default
+    layout: lesson
     ---
 
 <div class="alert alert-danger">
