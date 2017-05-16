@@ -5,7 +5,7 @@ authors:
 - Adam Crymble
 date: 2012-07-17
 reviewers: Miriam Posner, Jim Clifford, Amanda Morton
-layout: default
+layout: blank
 ---
 
 Step 1 – How to Troubleshoot
