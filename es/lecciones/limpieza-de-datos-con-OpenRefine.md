@@ -13,7 +13,7 @@ editors:
 translator:
 - María-Jesús Colmenero-Ruiz
 - date: 2017-03-05
-translator-reviewer:
+translation-reviewer:
 - Antonio Rojas Castro
 - Luisina Silva
 layout: default
