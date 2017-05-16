@@ -1,13 +1,17 @@
 ---
-title: Up and Running with Omeka.net
+title: Up and Running with Omeka.net 
+layout: default
+slug: up-and-running-with-omeka
+date: 2016-02-17
 authors:
 - Miriam Posner
-date: 2016-02-17
-reviewers:
-- Sheila Brennan
 editors:
 - Adam Crymble
-layout: default
+reviewers:
+difficulty: 1
+activity: presenting
+topics: [omeka, website]
+abstract: "Omeka.net makes it easy to create websites that show off collections of items."
 ---
 
 [Omeka.net](http://www.omeka.net) makes it easy to create websites that show off collections of items.

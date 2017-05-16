@@ -1,15 +1,19 @@
 ---
 title: R Basics with Tabular Data
+layout: default
+slug: r-basics-with-tabular-data
+date: 2016-09-05
 authors:
 - Taryn Dewar
-date: 2016-09-05
-editors:
-- Adam Crymble
 reviewers:
 - James Baker
 - John Russell
-layout: default
+editors:
+- Adam Crymble
 difficulty: 1
+activity: transforming
+topics: [data-manipulation]
+abstract: "This lesson teaches a way to quickly analyze large volumes of tabular data, making research faster and more effective."
 ---
 
 ## Lesson Goals
@@ -434,8 +438,8 @@ This shows you the average number of theft crimes and then violent theft crimes 
 ### Practice
 
 1.	Create a matrix with two columns using the following data from the *Breaking Peace* and *Killing* crimes between 1710 and 1730 from the Old Bailey chart above: `c(2,3,3,44,51,17)`
-2.	Use the `cbind()` function to join `BreakingPeace <- c(2,3,3)` and `Killing <- c(44,51,17)` together.
-3.	Calculate the mean of each column for the above matrix using the `apply()` function.
+2.	Use the `cbind90` function to join `BreakingPeace <- c(2,3,3)` and `Killing <- c(44,51,17)` together.
+3.	Calculate the mean of each column for the above matrix using the `apply90` function.
 
 ## Solutions
 
@@ -524,7 +528,7 @@ There are also a number of other R tutorials online including:
 * [R: A self-learn tutorial](https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf) - this tutorial goes through a series of functions and provides exercises to practice skills.
 * [DataCamp Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) - this is a free online course that gives you feedback on your code to help identify errors and learn how to write code more efficiently.
 
-Finally, a great resource for digital historians is Lincoln Mullen's [Digital History Methods in R](http://dh-r.lincolnmullen.com/). It is a draft of a book written specifically on how to use R for digital history work.
+Finally, a great resource for digital historians is Lincoln Mullen's [Digital History Methods in R](http://lincolnmullen.com/projects/dh-r/). It is a draft of a book written specifically on how to use R for digital history work.
 
 ## Endnotes
 

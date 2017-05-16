@@ -1,7 +1,6 @@
 ---
 title: Getting Started with Markdown
-collection: lessons
-layout: lesson
+layout: default
 slug: getting-started-with-markdown
 date: 2015-11-13
 authors:
@@ -9,13 +8,9 @@ authors:
 reviewers:
 - John Fink
 - Nancy Lemay
-editors:
-- Jeri Wieringa
-- Ian Milligan
-difficulty: 0
+difficulty: 1
 activity: presenting
 topics: [data-management]
-writing-language: English
 abstract: "In this lesson, you will be introduced to Markdown, a plain text-based syntax for formatting documents. You will find out why it is used, how to format Markdown files, and how to preview Markdown-formatted documents on the web."
 ---
 

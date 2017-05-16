@@ -1,15 +1,19 @@
 ---
 title: Using Gazetteers to Extract Sets of Keywords from Free-Flowing Texts
+layout: default
+slug: extracting-keywords
+date: 2015-12-01
 authors:
 - Adam Crymble
-date: 2015-12-01
 reviewers:
 - Guy McClellan
 - Amanda Morton
 editors:
 - Fred Gibbs
-layout: default
-published: true
+difficulty: 2
+activity: acquiring
+topics: [data-manipulation]
+abstract: "This lesson will teach you how to use Python to extract a set of keywords very quickly and systematically from a set of texts."
 ---
 
 ## Lesson Goals

@@ -1,19 +1,24 @@
 ---
 title: Georeferencing in QGIS 2.0
+layout: default
+slug: georeferencing-qgis
+date: 2013-12-13
 authors:
 - Jim Clifford
 - Josh MacFadyen
 - Daniel Macfarlane
-date: 2013-12-13
 reviewers:
 - Finn Arne Jørgensen
 - Peter Webster
 - Abby Schreiber
 editors:
 - Adam Crymble
-layout: default
-prev: vector-layers-qgis
 difficulty: 2
+activity: transforming
+topics: [mapping]
+abstract: "In this lesson, you will learn how to georeference historical maps so
+that they may be added to a GIS as a raster layer."
+prev: vector-layers-qgis
 ---
 
 Lesson Goals

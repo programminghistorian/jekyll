@@ -1,16 +1,18 @@
 ---
-title: |
-    Supervised Classification: The Naive Bayesian Returns to the Old Bailey
+title: "Supervised Classification: The Naive Bayesian Returns to the Old Bailey"
+layout: default
+slug: naive-bayesian
+date: 2014-12-17
 authors: 
 - Vilja Hulden
-date: 2014-12-17
-published: true
 reviewers:
 - Adam Crymble
 editors:
 - William J. Turkel
-layout: default
 difficulty: 3
+activity: analyzing
+topics: [distant-reading]
+abstract: "This lesson shows how to use machine learning to extract interesting documents out of a digital archive."
 ---
 
 # WARNING - Technical issues with Old Bailey Online website

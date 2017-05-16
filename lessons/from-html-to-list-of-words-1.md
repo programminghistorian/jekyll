@@ -1,14 +1,20 @@
 ---
 title: From HTML to List of Words (part 1)
+layout: default
+slug: from-html-to-list-of-words-1
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "In this two-part lesson, we will build on what you’ve learned about Downloading Web Pages with Python, learning how to remove the HTML markup from the webpage of Benjamin Bowsey’s 1780 criminal trial transcript. We will achieve this by using a variety of string operators, string methods, and close reading skills. We introduce looping and branching so that programs can repeat tasks and test for certain conditions, making it possible to separate the content from the HTML tags. Finally, we convert content from a long string to a list of words that can later be sorted,
+indexed, and counted."
 next: from-html-to-list-of-words-2
 previous: manipulating-strings-in-python
 ---

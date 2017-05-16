@@ -1,15 +1,20 @@
 ---
 title: Setting up an Integrated Development Environment for Python (Linux)
+layout: default
+slug: linux-installation
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 - Amanda Morton
 editors:
 - Miriam Posner
-layout: default
+difficulty: 1
+activity: beginning
+topics: [get-ready, python]
+abstract: "This lesson will help you set up an integrated development environment for Python on a computer running the Linux operating system."
 ---
 
 Thanks to John Fink for providing the basis of this section. These
@@ -94,9 +99,12 @@ print('hello world')
 
 Your chosen text editor should have a “`Run`” button that will allow you
 to execute your program. If all went well, it should look something like
-this (Example as seen in Komodo Edit.)
+this (Example as seen in Komodo Edit. Click on the image to see a
+full-size copy):
 
-{% include figure.html filename="hello-world1.png" caption="" %}
+![hello world in Komodo Edit on a Mac][]
+
+“Hello World” in Python
 
 ## Interacting with a Python shell
 
@@ -136,7 +144,9 @@ print('hello world')
 
 On your screen, it will look more like this:
 
-{% include figure.html filename="hello-world-terminal.png" caption="" %}
+![hello world terminal on a Mac][]
+
+Python Shell in Mac Terminal
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
@@ -144,4 +154,8 @@ order, we suggest you next try ‘[Understanding Web Pages and HTML][]‘
 
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
   [Komoto Edit Website]: http://www.activestate.com/komodo-edit
+  [hello world in Komodo Edit on a Mac]: ../images/hello-world1.png
+    "hello-world"
+  [hello world terminal on a Mac]: ../images/hello-world-terminal.png
+    "hello-world-terminal"
   [Understanding Web Pages and HTML]: /lessons/viewing-html-files

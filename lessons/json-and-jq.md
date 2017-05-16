@@ -1,15 +1,19 @@
 ---
 title: Reshaping JSON with jq
+layout: default
+slug: json-and-jq
+date: 2016-05-24
 authors:
 - Matthew Lincoln
-date: 2016-05-24
 reviewers:
 - Shawn Graham
 - Nick Ruest
 editors:
 - Ian Milligan
-layout: default
 difficulty: 2
+activity: transforming
+topics: [data-manipulation]
+abstract: "Working with data from an art museum API and from the Twitter API, this lesson teaches how to use the command-line utility [jq] to filter and parse complex JSON files into flat CSV files."
 ---
 
 [jq]: https://stedolan.github.io/jq/

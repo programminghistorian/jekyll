@@ -1,13 +1,17 @@
 ---
 title: Sustainable Authorship in Plain Text using Pandoc and Markdown
+layout: default
+slug: sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+date: 2014-03-19
 authors:
 - Dennis Tenen
 - Grant Wythoff
-date: 2014-03-19
 editors:
 - Fred Gibbs
-layout: default
 difficulty: 2
+activity: sustaining
+topics: [markdown, data-management]
+abstract: "In this tutorial, you will first learn the basics of Markdown—an easy to read and write markup syntax for plain text—as well as Pandoc, a command line tool that converts plain text into a number of beautifully formatted file types: PDF, .docx, HTML, LaTeX, slide decks, and more."
 ---
 
 {% include figure.html filename="lexoriter.jpg" caption="" %}
@@ -316,7 +320,7 @@ of the text: `![image caption](your_image.jpg)`.
 
 At this point, your `main.md` should look something like the following.
 You can download this sample .md file
-[here](https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/sample.md).
+[here](../assets/sample.md).
 
     ---  
     title: Plain Text Workflow  
@@ -720,7 +724,7 @@ documentation).
 	in folder or file names. Dashes or underscores instead of spaces in your
 	filenames ensure lasting cross-platform compatibility.
 
-[^7]:  Thanks to [@njbart](https://github.com/njbart) for the
+[^7]:  Thanks to [@nickbart80](https://github.com/nickbart1980) for the
     correction. In response to our original suggestion, `Some sentence that
     needs citation.^[@fyfe_digital_2011 argues that too.]` [he
     writes](https://github.com/programminghistorian/jekyll/issues/46#issuecomment-59219906):
