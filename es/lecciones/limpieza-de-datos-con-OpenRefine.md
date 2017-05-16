@@ -63,9 +63,9 @@ Los términos del campo Categorías constituyen lo que llamamos un vocabulario c
 
 En la página de inicio de *OpenRefine*, crea un nuevo proyecto utilizando el archivo de datos descargado y haz clic en '**Siguiente**'. De forma predeterminada, la primera línea se analizará correctamente como el nombre de una columna, pero es necesario desmarcar la casilla de verificación 'Las comillas se usan para agrupar celdas que contienen separadores de columna', ya que las comillas dentro del archivo no tienen ningún significado para *OpenRefine*. Ahora haz clic en '**Crear proyecto**'. Si todo va bien, verás 75.814 filas. Como alternativa, puedes descargarte directamente el [proyecto inicial de *OpenRefine*](http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz).
 
-El conjunto de datos del museo Powerhouse está formado por metadatos detallados de todos los objetos de la colección, incluyendo título, descripción, varias categorías a las que pertenece el objeto, información de procedencia y un vínculo persistente al objeto en el sitio web del museo. Para tener una idea de a qué objeto corresponden los metadatos simplemente haz clic en el vínculo persistente y se abrirá el sitio web.
+El conjunto de datos del museo Powerhouse está formado por metadatos detallados de todos los objetos de la colección, incluyendo título, descripción, varias categorías a las que pertenece el objeto, información de procedencia y un vínculo persistente al objeto en el sitio web del museo. Para tener una idea de a qué objeto corresponden los metadatos simplemente haz clic en el vínculo persistente y se abrirá el sitio web.[^2]
 
-{% include figure.html caption="Figura 1: Captura de pantalla de un Objeto de Muestra del sitio web del Museo Powerhouse" filename="powerhouseScreenshot.png" %}[^2]
+{% include figure.html caption="Figura 1: Captura de pantalla de un Objeto de Muestra del sitio web del Museo Powerhouse" filename="powerhouseScreenshot.png" %}
 
 ### Conoce tus datos
 
