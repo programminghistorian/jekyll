@@ -12,7 +12,6 @@ editors:
 - Adam Crymble
 translator:
 - María-Jesús Colmenero-Ruiz
-- date: 2017-03-05
 translation-reviewer:
 - Antonio Rojas Castro
 - Luisina Silva
