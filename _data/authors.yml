@@ -351,7 +351,7 @@
     en: |
         Max De Wilde is a PhD student at the Information and Communication Science department of the Université libre de Bruxelles.
     es: |
-        Max de Wilde es investigador predoctoral en el departamento de Informacin y Comunicación de la universidad libre de Bruselas.
+        Max De Wilde es investigador predoctoral en el departamento de Información y Comunicación de la Universidad Libre de Bruselas.
 
 - name: Ruben Verborgh
   team: false
@@ -366,6 +366,8 @@
   bio:
     en: |
         Seth van Hooland is an associate professor at at the Information and Communication Science department of the Université libre de Bruxelles.
+    es: |   
+        Seth van Hooland es profesor asociado en el departamento de el departamento de Información y Comuninación de la Universidad Libre de Bruselas.
 
 - name: Jonathan Reeve
   url: "http://jonreeve.com"
