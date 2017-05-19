@@ -533,7 +533,7 @@ for tr in trs:
 You’ve done it! You have created a CSV file from all of the data in the table, creating useful data from the confusion of the html page.
 
   [Working with Text Files]: ../lessons/working-with-text-files
-  [Command Line Bootcamp]: http://praxis.scholarslab.org/scratchpad/bash/
+  [Command Line Bootcamp]: http://praxis.scholarslab.org/resources/bash/
   [Opening lines of Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/bs4/doc/
   [installing python modules]: ../lessons/installing-python-modules-pip
   [urllib3]: http://urllib3.readthedocs.org/en/latest/
