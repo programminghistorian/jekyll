@@ -68,7 +68,7 @@ Una seudobase de datos RDF podría contener declaraciones interrelacionadas entr
 
 Si visualizásemos estas declaraciones como nodos y aristas de un grafo o red, la representación sería como sigue: 
 
-{% include figure.html filename="sparql-lod-01.png" caption="Visualización en red del seudoRDF mostrado más arriba. Las flechas indican la 'dirección' del predicado. Por ejemplo, que '*La tasadora de perlas* fue creada por Vermeer' y no al revés. Diagrama reconstruido por Nuria Rodríguez Ortega." %}
+{% include figure.html caption="Visualización en red del seudoRDF mostrado más arriba. Las flechas indican la 'dirección' del predicado. Por ejemplo, que '*La tasadora de perlas* fue creada por Vermeer' y no al revés. Diagrama reconstruido por Nuria Rodríguez Ortega." filename="sparql-lod-01.png" %}
 
 Las tradicionales bases de datos relacionales pueden distribuir atributos sobre obras de arte y artistas en tablas separadas. En las bases de datos RDF u orientadas a grafos, todos estos datos pertenencen a un mismo mismo grafo interconectado, lo que permite a los usuarios una mayor flexibilidad a la hora de decidir cómo quieren interrogar estos recursos. 
 
@@ -87,7 +87,7 @@ WHERE {
 
 En este consulta, `?pintura` representa el nodo (o nodos) que la bases de datos nos devolverá. Una vez recibida la consulta, la base de datos buscará todos los valores para `?pintura` que adecuadamente complete la declaración RDF `<utiliza la técnica de> <óleo sobre lienzo>`. 
 
-{% include figure.html filename="sparql-lod-02.png" caption="Visualización de lo que nuestra consulta está buscando. Diagrama reconstruido por Nuria Rodríguez Ortega." %}
+{% include figure.html caption="Visualización de lo que nuestra consulta está buscando. Diagrama reconstruido por Nuria Rodríguez Ortega." filename="sparql-lod-02.png" %}
 
 
 Cuando la consulta interroga la base de datos completa, esta busca los sujetos, predicados y objetos que coinciden con esta declaración, exluyendo, al mismo tiempo, el resto de datos. 
