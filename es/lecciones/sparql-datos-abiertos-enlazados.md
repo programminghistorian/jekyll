@@ -2,7 +2,7 @@
 title: |
     Uso de SPARQL para acceder a datos abiertos enlazados
 authors:
-- Mathew Lincoln
+- Matthew Lincoln
 date: 2015-11-24
 reviewers: 
 - Patrick Murray-John
