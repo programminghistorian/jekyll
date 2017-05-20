@@ -69,6 +69,21 @@ La mayoría de tutoriales requieren la instalación de uno o más módulos de Py
   </li>
 </ul>
 
+Datos abiertos enlazados
+------------------
+
+Cada vez más los datos se puplican como datos abiertos enlazados, un tipo de formato que permite llevar a cabo búsquedas flexibles y, además, interrelacionar nuestros recursos. Con nuestras lecciones aprenderás cómo manipular este tipo de bases de datos con casos reales. 
+
+<ul class="lesson-images">
+  <li>
+    <a href="{{site.url}}/es/lecciones/sparql-datos-abiertos-enlazados">
+      <img src="{{site.url}}/gallery/graph-databases-and-SPARQL.jpg">
+      <h3>Uso de SPARQL para acceder a datos abiertos enlazados</h3>
+      <p>Matthew Lincoln</p>
+    </a>
+  </li>
+</ul>
+
   
 Análisis de redes
 ------------------
