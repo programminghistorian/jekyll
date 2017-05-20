@@ -17,7 +17,7 @@ translation-reviewer:
 - Antonio Rojas Castro
 - Juan Antonio Pastor Sánchez
 layout: default
-redirect-from: /es/lessons/graph-databases-and-sparql
+redirect-from: /es/lessons/graph-databases-and-SPARQL
 ---
 
 Objetivos de la lección
