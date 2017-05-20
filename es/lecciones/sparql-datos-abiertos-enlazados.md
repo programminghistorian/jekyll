@@ -27,7 +27,7 @@ Esta lección explica por qué numerosas instituciones culturales están adoptan
 
 _Índice de contenidos_
 
-* [Base de datos orientadas a grafos, RDF y datos abiertos enlazados (Linked Open Data, LOD)](Bases-de-datos-orientadas-a-grafo-,-RDF-y-datos-abiertos-enlazados-(-Linked-Open-Data-,-LOD-)
+* [Base de datos orientadas a grafos, RDF y datos abiertos enlazados (Linked Open Data, LOD)]
 	* [RDF en pocas palabras]
 	* [Buscando RDF con SPARQL]
 	* [URI y literales]
