@@ -11,10 +11,9 @@ reviewers:
 - Fred Gibbs 
 translator:
 - Nuria Rodríguez Ortega
-- date: 2017-02-17
 editor: 
 - Antonio Rojas Castro
-translator-reviewer:
+translation-reviewer:
 - Antonio Rojas Castro
 - Juan Antonio Pastor Sánchez
 layout: default
