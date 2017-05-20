@@ -20,6 +20,9 @@ translator-reviewer:
 layout: default
 ---
 
+* TOC
+{:toc}
+
 Objetivos de la lección
 -----------------------
 
