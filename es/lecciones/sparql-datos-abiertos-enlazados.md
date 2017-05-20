@@ -30,7 +30,7 @@ Esta lección explica por qué numerosas instituciones culturales están adoptan
 _Índice de contenidos_
 
 * [Base de datos orientadas a grafos, RDF y datos abiertos enlazados (Linked Open Data, LOD)]
-	* [RDF en pocas palabras]
+	* [RDF en pocas palabras](http://programminghistorian.org/es/lecciones/sparql-datos-abiertos-enlazados#Bases-de-datos-orientadas-a-grafo-RDF-y-datos-abiertos-enlazados-Linked-Open-Data-LOD)
 	* [Buscando RDF con SPARQL]
 	* [URI y literales]
 	* [Términos para revisar]
@@ -48,7 +48,7 @@ _Índice de contenidos_
 
 * [Lecturas adicionales]
 
-## Bases de datos orientadas a grafo, RDF y datos abiertos enlazadosenlazados (Linked Open Data, LOD)
+## Bases de datos orientadas a grafo, RDF y datos abiertos enlazados (Linked Open Data, LOD)
 
 Actualmente, numerosas instituciones culturales están  ofreciendo información sobre sus colecciones a través de las denominadas API ([*Application Programming Interfaces*](http://programminghistorian.org/lessons/intro-to-the-zotero-api.html)). Estas API son instrumentos muy eficaces para acceder de manera automatizada a registros individuales, sin embargo, no constituyen el procedimiento ideal cuando tratamos con datos culturales debido a que las API están estructuradas para trabajar con un conjunto predeterminado de consultas (*queries*). Por ejemplo, un museo puede tener información sobre donantes, artistas, obras de arte, exposiciones, procedencia de sus obras (*provenance*), etc., pero su API puede ofrecer solo una recuperación orientada a objetos, haciendo difícil o imposible buscar datos relacionados con donantes, artistas, etc. Así pues, esta estructura es interesante si el objetivo es buscar información sobre objetos particulares; sin embargo, puede complicar la operación de agregar información sobre los artistas o donantes que también se encuentran registrados en la base de datos. 
 
