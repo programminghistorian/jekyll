@@ -72,7 +72,7 @@ La mayoría de tutoriales requieren la instalación de uno o más módulos de Py
 Datos abiertos enlazados
 ------------------
 
-Cada vez más la información sobre colecciones digitales se publica como datos abiertos enlazados. Este tipo de formato permite llevar a cabo búsquedas flexibles y, además, interrelacionar recursos. Con nuestras lecciones aprenderás cómo manipular este tipo de bases de datos a partir de ejemplos prácticos y reales. 
+Cada vez más la información sobre colecciones digitales se publica como datos abiertos enlazados. Este tipo de formato permite llevar a cabo búsquedas flexibles y, además, interrelacionar recursos. Con nuestras lecciones aprenderás a manipular este tipo de bases de datos a partir de ejemplos prácticos y reales. 
 
 <ul class="lesson-images">
   <li>
