@@ -19,32 +19,14 @@ translation-reviewer:
 layout: default
 ---
 
-* TOC
-{:toc}
-
 Objetivos de la lección
 -----------------------
 
 Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos (*graph databases*) y cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL. 
 
-_Índice de contenidos_
+* TOC
+{:toc}
 
-* [Base de datos orientadas a grafos, RDF y datos abiertos enlazados (Linked Open Data, LOD)]
-	* [RDF en pocas palabras]
-	* [Buscando RDF con SPARQL]
-	* [URI y literales]
-	* [Términos para revisar]
-
-* [Consultas basadas en ejemplos reales]
-	* [Todas las declaraciones para un objeto]
-	* [Consultas complejas]
-	* [FILTER]
-	* [Agregación]
-	* [Enlazando múltiples puntos de entrada (*endpoints*) SPARQL]
-
-* [Trabajando con resultados SPARQL]
-	* [Exportar resultados en formato CSV]
-	* [Exportar resultados a Palladio]
 
 * [Lecturas adicionales]
 
