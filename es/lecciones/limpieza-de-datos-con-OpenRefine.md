@@ -141,7 +141,7 @@ Si sólo recordaras una cosa de esta lección, debería ser lo siguiente: *todos
   [^2]: La página del Museo Powerhouse ha sido modificada desde la publicación original de esta lección en 2013. La página actual que muestra la información de este mismo objeto de la imagen es https://collection.maas.museum/object/11848  
   [^3]: Es posible que al cargar este proyecto no veas ninguna columna con este color. Esto significa que ningún campo tiene definidos sus valores como numéricos.  
   [^4]: Al cargar el proyecto es muy posible que esta columna aparezca con formato de texto. Para poder aplicar una faceta numérica primero hay que convertirla a formato numérico: '**Editar celdas**' \> '**Transformaciones comunes**' \> '**a número**'.  
-  [^5]: Esta parte de la interface del programa no aparece traducida.  
+  [^5]: Esta parte de la interfaz del programa no aparece traducida.  
   
 
   [*OpenRefine*]: http://openrefine.org "OpenRefine"
