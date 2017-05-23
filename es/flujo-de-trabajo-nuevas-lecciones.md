@@ -68,7 +68,7 @@ Para añadir un bloque de metadatos YAML en una nueva lección, simplemente **co
     - Scott Weingart
     date: 2014-03-03
     reviewers:
-    layout: default
+    layout: lesson
     ---
     
 En caso de que envíes una traducción, debes mantener el bloque YAML de la lección original y adicionar la información del traductor y del revisor de la traducción. De tal forma, el ejemplo anterior quedará de la siguiente manera:
@@ -85,7 +85,7 @@ En caso de que envíes una traducción, debes mantener el bloque YAML de la lecc
     translator:
     - Antonio Rojas Castro
     translator-reviewer:
-    layout: default
+    layout: lesson
     ---
 
 ## Notas importantes acerca de YAML

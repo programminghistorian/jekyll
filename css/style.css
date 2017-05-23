@@ -128,9 +128,9 @@ color:#6cd;
      font-family:'Roboto Condensed', sans-serif;
      letter-spacing:80%;
      font-size:.9rem;
-     line-height:1.4rem;
+     line-height:1.1rem;
      color:#666;
-     margin:0 0 0 0;
+     margin:.3rem 0 0 0;
      padding:0;
      text-align:left;
      text-transform:uppercase;
@@ -146,7 +146,8 @@ color:#6cd;
      margin:0;
      padding:0;
      font-weight:200;
-     font-size:1rem;
+     font-size:.9rem;
+     line-height:1.3rem;
    }
 
    header .header-abstract {
@@ -190,10 +191,9 @@ header .header-helpers {
    header li, header .metarow {
      font-family:'Roboto Condensed';
      list-style-type:none;
-     line-height:1.4rem;
+     line-height:1.1rem;
      color:#eee;
      margin: 0 0 0 0;
-     padding:0;
      font-size:.9rem;
    }
 
@@ -206,7 +206,6 @@ header .header-helpers {
      margin:0 0 2rem 0;
      background-color:#777;
      padding:.8rem 0 .8rem 0;
-     text-align:center;
    }
 
    header .header-bottom h4 {

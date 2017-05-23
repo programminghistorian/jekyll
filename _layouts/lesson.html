@@ -15,13 +15,13 @@ layout: base
   <div class="container expanded">
 
     <div class="row">
-      <div class="col-4">
+      <div class="col-md-4">
         <div class="header-image rounded">
           <img src="{{ site.baseurl }}/gallery/{{ slug }}.png">
         </div>
       </div>
 
-      <div class="col-8">
+      <div class="col-md-8">
         <div class="header-title">
           <h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
         </div>
@@ -39,8 +39,8 @@ layout: base
   </div>
 </div>
 
-{% capture editor-style %}{% if page.translator %}col-md-3{% else %}col-md-3 offset-md-4{% endif %}{% endcapture %}
-{% capture reviewers-style %}{% if page.translator %}col-md-3{% else %}col-md-3{% endif %}{% endcapture %}
+{% capture editor-style %}{% if page.translator %}col-md-3{% else %}col-md-4 offset-md-4{% endif %}{% endcapture %}
+{% capture reviewers-style %}{% if page.translator %}col-md-3{% else %}col-md-4{% endif %}{% endcapture %}
 
 
   <div class="container-fluid header-helpers">
@@ -85,11 +85,11 @@ layout: base
   </div>
 
   <div class="container-fluid header-bottom">
-    <div class="container expanded text-center">
+    <div class="container expanded">
       <div class="row">
-      <div class="col-md-4 metarow text-left"><h4>published</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
-      <div class="col-md-4 metarow text-center"><h4>modified</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
-      <div class="col-md-4 metarow text-right"><h4>difficulty</h4>  {% include difficulty.html %}</div>
+      <div class="col-md-4 metarow"><h4>published</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      <div class="col-md-4 metarow"><h4>modified</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      <div class="col-md-4 metarow"><h4>difficulty</h4> {% include difficulty.html %}</div>
     </div>
     </div>
   </div>

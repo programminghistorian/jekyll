@@ -34,19 +34,30 @@ Our lessons are organized by typical phases of the research process, as well as 
 <li class="sort" data-sort="difficulty">Sort by difficulty</li>
 </ul>
 
+
 <div id="eachlesson">
 <ul class="list">
-{% for page in alllessons %}
-
-<li>
-{% include lesson_describe.html %} 
-</li>
-
+{% for lesson in alllessons %}
+{% capture author_string %} {% include author.html %} {% endcapture %}
+  <li>{% include lesson_describe.html authors=author_string %}</li>
 {% endfor %}
 </ul>
 </div>
+
 </div>
 
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js'></script>
 <script src="{{ site.baseurl }}/js/lessonfilter.js"></script>
+
+<script>
+  $(function() {
+
+    $('.filter').children().click(function() {
+        $('.filter').children().removeClass("current");
+        $(this).addClass("current");
+    });
+
+    initSort();
+  });
+</script>
