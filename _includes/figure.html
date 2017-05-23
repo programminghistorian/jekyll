@@ -1,7 +1,7 @@
 <!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
 
 {% if page.lang == "en" %}
-   {% capture imgpath %}{{ page.url | remove_first:'/lessons/' }}{% endcapture %}
+   {% capture imgpath %}{{ page.slug | remove_first:'/lessons/' }}{% endcapture %}
 {% elsif page.lang == "es" %}
    {% capture imgpath %}{{ page.redirect_from | remove_first: '/es/lessons/' }}{% endcapture %}
 {% endif %}
