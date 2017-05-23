@@ -637,11 +637,11 @@ li.nav-item {
 
   code {
     font-family: monospace, serif;
-    font-size:.8rem;
+    font-size:.9rem;
   }
 
     .highlight {
-      font-size:.8rem;
+      font-size:.9rem;
       white-space: pre;
       word-wrap: normal;
       overflow: auto;
@@ -658,12 +658,20 @@ li.nav-item {
      Figures
      ========================================================================== */
 
-  figure { margin: 0; }
+  figure {
+    margin: 0 auto;
+    text-align: center;
+    display:table;
+  }
 
   figcaption {
+    margin-top:.2rem;
     font-family:'Open Sans';
     font-size:0.8em;
-    color: #777;
+    color: #666;
+    display:table-caption;
+    caption-side: bottom;
+    text-align: justify;
   }
 
 
