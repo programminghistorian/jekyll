@@ -106,8 +106,8 @@ Aprende a presentar en línea artefactos del pasado.
 
 <ul class="lesson-images">
   <li>
-    <a href="../lessons/up-and-running-with-omeka">
-      <img src="../gallery/up-and-running-with-omeka.png">
+    <a href="{{site.url}}/es/lecciones/poniendo-omeka-a-funcionar">
+      <img src="{{site.url}}/gallery/up-and-running-with-omeka.png">
       <h3>Poniendo Omeka a funcionar</h3>
       <p>Miriam Posner</p>
     </a>
