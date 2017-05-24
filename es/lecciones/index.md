@@ -99,6 +99,21 @@ El despliegue visual de redes ayuda a los académicos en humanidades a revelar p
     </a>
   </li>
 </ul>
+
+Exposiciones digitales y realidad aumentada
+------------------------------------------
+Aprende a presentar en línea artefactos del pasado.
+
+<ul class="lesson-images">
+  <li>
+    <a href="../lessons/up-and-running-with-omeka">
+      <img src="../gallery/up-and-running-with-omeka.png">
+      <h3>Poniendo Omeka a funcionar</h3>
+      <p>Miriam Posner</p>
+    </a>
+  </li>
+</ul>
+
   
 Introducción a Python
 ----------------------
