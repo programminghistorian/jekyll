@@ -36,7 +36,7 @@ Detrás de tus investigaciones hay mucho trabajo. Asegúrate de que este esfuerz
   </li>
   </ul>
 
-Manipulación de datos
+Procesamiento de datos
 ----------------------
 
 Aprende a utilizar programas para cambiar, mover, limpiar y contar datos. He aquí una serie de lecciones con las que serás capaz de manipular tus datos con distintas herramientas.
