@@ -96,8 +96,13 @@ layout: base
 
 </header>
 
-
   <div class="container">
+
+      {% if page.previous %}
+      <div class="series-warning alert alert-info">
+        <strong>This lesson is part of a series.</strong> You might want to check out the <a href="{{page.previous}}">previous lesson</a>.
+      </div>
+      {% endif %}
 
      {% if page.deprecated %}
         <div class="deprecated"> {% include deprecated.html %} </div>
@@ -107,6 +112,11 @@ layout: base
          {{ content }}
      </div>
 
+     {% if page.next %}
+      <div class="series-warning alert alert-info">
+       <strong>Great!</strong> Now you're ready to move on to the <a href="{{page.next}}">next lesson</a>.
+     </div>
+     {% endif %}
 
      {% include author-info.html %}
 </div>
