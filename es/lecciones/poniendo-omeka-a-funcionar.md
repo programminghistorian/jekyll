@@ -9,7 +9,6 @@ editors:
 - Adam Crymble
 translator:
 - Maria José Afanador-Llach
-- date: 2017-02-02
 translation-reviewer:
 - Antonio Rojas Castro
 - Alicia Calvo
