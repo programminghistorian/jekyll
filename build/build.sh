@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Build site, and then run htmlproofer to check for broken internal and external links
+
 bundle exec jekyll build && bundle exec htmlproofer ./_site \
   --assume-extension \
   --empty-alt-ignore \
