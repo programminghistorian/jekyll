@@ -93,7 +93,7 @@ Una cuestión compleja
 
 {% include figure.html filename="up-and-running-10.png" caption="¿Qué es esto?" %} 
 
-Estoy creando un registro de un ítem para mi perro Bertie. Pero, ¿estoy describiendo al *mismo* Bertie o una *fotografía* de Bertie? Si es lo primero, el **Creator** sería...bueno, supongo que eso dependría de tus perspectivas religiosas. Si es lo segundo, el creador sería Brad Wallace, quien tomó la foto.
+Estoy creando un registro de un ítem para mi perro Bertie. Pero, ¿estoy describiendo al *mismo* Bertie o una *fotografía* de Bertie? Si es lo primero, el **Creator** sería... bueno, supongo que eso depende de tus creencias religiosas. Si es lo segundo, el creador sería Brad Wallace, quien tomó la foto.
 
 La decisión de si vas a describir un objeto o la representación del objecto es tuya. Una vez hayas decidido sé consistente. 
 
