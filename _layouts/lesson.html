@@ -50,7 +50,7 @@ layout: base
     <div class="row">
 
       <div class="{{editor-style}}">
-        <h3 class="text-left">Editor</h3>
+        <h3 class="text-left">{{site.data.snippets.editor[page.lang]}}</h3>
         <ul>
         {% for editor in page.editors %}
           <li>{{editor}}</li>
@@ -59,13 +59,13 @@ layout: base
       </div>
 
       <div class="{{reviewers-style}}" >
-        <h3 class="text-left">Reviewers</h3>
+        <h3 class="text-left">{{site.data.snippets.reviewers[page.lang]}}</h3>
           {% include reviewer.html %}
       </div>
 
       {% if page.translator %}
       <div class="col-md-3" >
-        <h3 class="text-left">Translator</h3>
+        <h3 class="text-left">{{site.data.snippets.translator[page.lang]}}</h3>
         {% for translator in page.translator %}
           <li>{{translator}}</li>
         {% endfor %}      </div>
@@ -73,7 +73,7 @@ layout: base
 
       {% if page.translation-reviewer %}
       <div class="col-md-3" >
-        <h3 class="text-left">Translation Reviewers</h3>
+        <h3 class="text-left">{{site.data.snippets.translation-reviewers[page.lang]}}</h3>
         {% for editor in page.translation-reviewer %}
           <li>{{editor}}</li>
         {% endfor %}
@@ -87,9 +87,9 @@ layout: base
   <div class="container-fluid header-bottom">
     <div class="container expanded">
       <div class="row">
-      <div class="col-md-4 metarow"><h4>published</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
-      <div class="col-md-4 metarow"><h4>modified</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
-      <div class="col-md-4 metarow"><h4>difficulty</h4> {% include difficulty.html %}</div>
+      <div class="col-md-4 metarow"><h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      <div class="col-md-4 metarow"><h4>{{site.data.snippets.modified[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      <div class="col-md-4 metarow"><h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}</div>
     </div>
     </div>
   </div>

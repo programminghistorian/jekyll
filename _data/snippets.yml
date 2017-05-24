@@ -87,3 +87,25 @@ by:
 reviewed:
    en: reviewed
    es: revisado
+
+editor:
+  en: editor
+  es: editor
+reviewers:
+  en: reviewers
+  es: reviewers
+translator:
+  en: translator
+  es: translator
+translation-reviewers:
+  en: translation reviewers
+  es: translation reviewers
+published:
+  en: published
+  es: published
+modified:
+  en: modified
+  es: modified
+difficulty:
+  en: difficulty
+  es: difficulty
