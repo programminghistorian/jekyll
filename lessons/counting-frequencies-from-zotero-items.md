@@ -12,7 +12,7 @@ activity: analyzing
 topics: [api]
 abstract: "This lesson will show you how to get information from Zotero HTML items, save
 the content from those items, and count the frequencies of words."
-prev: creating-new-items-in-zotero
+previous: creating-new-items-in-zotero
 ---
 
 Lesson Goals

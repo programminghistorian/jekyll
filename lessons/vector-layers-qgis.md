@@ -19,7 +19,7 @@ topics: [mapping]
 abstract: "In this lesson you will learn how to create vector layers based on
 scanned historical maps."
 next: georeferencing-qgis
-prev: qgis-layers
+previous: qgis-layers
 ---
 
 Lesson Goals

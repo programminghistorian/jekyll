@@ -15,7 +15,7 @@ difficulty: 2
 activity: transforming
 topics: [data-manipulation]
 abstract: "This lesson will look at how research data, when organised in a clear and predictable manner, can be counted and mined using the Unix shell."
-prev: intro-to-bash
+previous: intro-to-bash
 ---
 
 # Counting and mining research data with Unix
