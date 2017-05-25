@@ -1,12 +1,19 @@
+{% if page.lang == "en" %}
+   {% capture path %}{{ site.baseurl }}/lessons/{{ lesson.slug }}{% endcapture %}
+   {% capture imgpath %}{{ site.baseurl }}/gallery/{{ lesson.slug }}{% endcapture %}
+{% elsif page.lang == "es" %}
+   {% capture path %}{{ site.baseurl }}{{ lesson.redirect_from }}{% endcapture %}
+   {% capture imgpath %}{{ site.baseurl }}/gallery/{{ lesson.redirect_from | remove_first:'/es/lessons/' }}{% endcapture %}
+{% endif %}
 
 <div class="lesson-description">
 
   <div class="lesson-image">
-    <a href="{{ site.baseurl }}/lessons/{{ lesson.slug }}"><img class="rounded" src="{{ site.baseurl }}/gallery/{{ lesson.slug }}.png"></a>
+    <a href="{{ path }}"><img class="rounded" src="{{ imgpath }}.png"></a>
   </div>
 
   <h3 class="lesson-index-author">{{ include.authors }}</h3>
-  <a href="{{ site.baseurl }}/lessons/{{ lesson.slug }}"><h2 class="lesson-index-title">{{ lesson.title }}</h2></a>
+  <a href="{{ path }}"><h2 class="lesson-index-title">{{ lesson.title }}</h2></a>
 
   <p class="abstract">{{ lesson.abstract }}</p>
 

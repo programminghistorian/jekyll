@@ -1,3 +1,4 @@
+# top nav bar
 menu-home:
   en: /
   es: /es
@@ -78,16 +79,49 @@ menu-lang:
     title: '[en]'
     link: /
 
-and:
-   en: and
-   es: y
-by:
-   en: by
-   es: por
-reviewed:
-   en: reviewed
-   es: revisado
+# lesson-index
+acquire-button:
+  en:
+    acquire
+  es:
+    acquire
+transform-button:
+  en:
+    transform
+  es:
+    acquire
+analyze-button:
+  en:
+    analyze
+  es:
+    acquire
+present-button:
+  en:
+    present
+  es:
+    acquire
+sustain-button:
+  en:
+    sustain
+  es:
+    acquire
+reset-button:
+  en:
+    reset to see all lessons
+  es:
+    reset to see all lessons
+sort-by-date:
+  en:
+    sort by publication date
+  es:
+    sort by publication date
+sort-by-difficulty:
+  en:
+    sort by difficulty
+  es:
+    sort by difficulty
 
+# lesson headers
 editor:
   en: editor
   es: editor
@@ -109,3 +143,14 @@ modified:
 difficulty:
   en: difficulty
   es: difficulty
+
+# legacy
+  and:
+     en: and
+     es: y
+  by:
+     en: by
+     es: por
+  reviewed:
+     en: reviewed
+     es: revisado

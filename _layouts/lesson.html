@@ -88,7 +88,7 @@ layout: base
     <div class="container expanded">
       <div class="row">
       <div class="col-md-4 metarow"><h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
-      <div class="col-md-4 metarow"><h4>{{site.data.snippets.modified[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      <div class="col-md-4 metarow"><h4>{{site.data.snippets.modified[page.lang]}}</h4> <span id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span></div>
       <div class="col-md-4 metarow"><h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}</div>
     </div>
     </div>
@@ -120,3 +120,20 @@ layout: base
 
      {% include author-info.html %}
 </div>
+
+<script>
+(function() {
+  var githubAPI = "https://api.github.com/repos/programminghistorian/jekyll/commits";
+  $.getJSON( githubAPI, {
+    path: "{{page.path}}"
+  })
+    .done(function( data ) {
+      console.log(data);
+      var date = new Date(data[0].commit.author.date);
+      console.log(date);
+      var formatted_date = date.getFullYear()+'-'+("0"+date.getMonth()).slice(-2)+'-'+("0"+date.getDate()).slice(-2);
+      console.log(formatted_date);
+      $("#modified-date").text(formatted_date);
+    });
+})();
+</script>
