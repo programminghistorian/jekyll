@@ -10,7 +10,9 @@ bundle exec jekyll build && bundle exec htmlproofer ./_site \
   --alt-ignore '/.*/' \
   # Ignore any html files in the assets and the deprecated lessons folder
   --file-ignore '/.+/assets/.*/','/.+/lessons/deprecated/.*/' \
-  # Only re-echeck external links that have not been verified within the last 30 days. This makes reference to a cache directory that is saved when Travis CI finishes a successful build
+  # Only re-echeck external links that have not been verified within the last 30
+  # days. This makes reference to a cache directory that is saved when Travis CI
+  # finishes a successful build
   --timeframe '30d' \
   # Only report 400-range errors, e.g. missing content. This will silence errors
   # in the case of e.g. request timeouts.
