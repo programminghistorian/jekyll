@@ -1,3 +1,83 @@
+menu-home:
+  en: /
+  es: /es
+menu-about:
+    en: About
+    es: Acerca de
+menu-about-overview:
+  en:
+    title: About PH
+    link: /about
+  es:
+    title: Acerca de
+    link: /es/acerca
+menu-about-team:
+  en:
+    title: Project Team
+    link: /project-team
+  es:
+    title: Equipo de proyecto
+    link: /es/equipo-de-proyecto
+menu-about-research:
+  en:
+    title: Research
+    link: /research
+  es:
+    title: Investigación
+    link: /es/investigacion
+menu-contribute:
+  en: Contribute
+  es: Contribuciones
+menu-contribute-overview:
+  en:
+    title: Overview
+    link: /contribute
+  es:
+    title: Contribuciones
+    link: /es/contribuciones
+menu-contribute-feedback:
+  en:
+    title: Feedback
+    link: /feedback
+  es:
+    title: Sugerencias
+    link: /es/retroalimentacion
+menu-contribute-review:
+  en:
+    title: Reviewer Guidelines
+    link: /reviewer-guidelines
+  es:
+    title: Revisar una leccion
+    link: /es/guia-para-revisores
+menu-contribute-write:
+  en:
+    title: Author Guidelines
+    link: /author-guidelines
+  es:
+    title: Escribe una leccion
+    link: /es/flujo-de-trabajo-nuevas-lecciones
+menu-lessons:
+  en:
+    title: Lessons
+    link: /lessons
+  es:
+    title: Lecciones
+    link: /es/lecciones
+menu-blog:
+  en:
+    title: Blog
+    link: /blog
+  es:
+    title: Blog
+    link: /blog
+menu-lang:
+  en:
+    title: '[español]'
+    link: /es
+  es:
+    title: '[en]'
+    link: /
+
 and:
    en: and
    es: y
@@ -7,3 +87,25 @@ by:
 reviewed:
    en: reviewed
    es: revisado
+
+editor:
+  en: editor
+  es: editor
+reviewers:
+  en: reviewers
+  es: reviewers
+translator:
+  en: translator
+  es: translator
+translation-reviewers:
+  en: translation reviewers
+  es: translation reviewers
+published:
+  en: published
+  es: published
+modified:
+  en: modified
+  es: modified
+difficulty:
+  en: difficulty
+  es: difficulty
