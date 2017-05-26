@@ -57,6 +57,13 @@ menu-contribute-write:
   es:
     title: Escribe una leccion
     link: /es/flujo-de-trabajo-nuevas-lecciones
+menu-contribute-edit:
+  en:
+    title: Editor Guidelines
+    link: /editor-guidelines
+  es:
+    title: Escribe una leccion
+    link: /es/guia-para-editores
 menu-lessons:
   en:
     title: Lessons
