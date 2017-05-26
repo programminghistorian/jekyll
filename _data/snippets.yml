@@ -87,3 +87,23 @@ by:
 reviewed:
    en: reviewed
    es: revisado
+footer:
+  ph-released:
+    en: <em>The Programming Historian</em> is released under the
+    es: <em>The Programming Historian en español</em>
+  license:
+    en: license
+    es: licencia
+  gh-hosted:
+    en: Hosted on GitHub
+    es: Alojado en GitHub
+  rev-history:
+    en: See change history
+    es: Versiones anteriores
+  last-updated:
+    en: Last updated
+    es: Última actualización el
+  suggestion:
+    en: Make a suggestion
+    es: Envíanos tus comentarios
+    

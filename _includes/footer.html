@@ -1,69 +1,35 @@
 <footer role="contentinfo">
 
 <div class="container-fluid">
-{% if page.lang == "en" %}
 
 <div class="row">
   <div class="col-sm-12 footer-head">
-    <em>Programming Historian</em> is released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+    {{ site.data.snippets.footer.ph-released[page.lang] }} <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> {{ site.data.snippets.footer.license[page.lang] }}.</p>
   </div>
 </div>
 
 <div class="row">
   <div class="col-sm-3">
     <i class="fa fa-github" aria-hidden="true"></i>
-    <a href="https://github.com/programminghistorian/jekyll">Hosted on GitHub</a>
+    <a href="https://github.com/programminghistorian/jekyll">{{ site.data.snippets.footer.gh-hosted[page.lang] }}</a>
   </div>
 
   <div class="col-sm-3">
   <i class="fa fa-calendar" aria-hidden="true"></i>
-  Last updated {{ site.time | date_to_long_string }}
+  {{ site.data.snippets.footer.last-updated[page.lang] }} {{ site.time | date_to_long_string }}
   </div>
 
   <div class="col-sm-3">
   <i class="fa fa-history" aria-hidden="true"></i>
-  <a href="https://github.com/programminghistorian/jekyll/commits/gh-pages/{{ page.path }}">See change history</a>
+  <a href="https://github.com/programminghistorian/jekyll/commits/gh-pages/{{ page.path }}">{{ site.data.snippets.footer.rev-history[page.lang] }}</a>
   </div>
 
   <div class="col-sm-3">
   <i class="fa fa-bolt" aria-hidden="true"></i>
-  <a href="{{site.baseurl}}/feedback">Make a suggestion!</a>
+  <a href="{{site.baseurl}}{{ site.data.snippets.menu-contribute-feedback[page.lang].link }}">{{ site.data.snippets.footer.suggestion[page.lang] }}</a>
   </div>
 
-</div>
-
-{% elsif page.lang == "es" %}
-
-<div class="row">
-  <div class="col-sm-12 footer-head">
-    <em>The Programming Historian</em> es distribuido bajo una <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> licencia.</p>
   </div>
-</div>
-
-<div class="row">
-  <div class="col-sm-3">
-    <i class="fa fa-github" aria-hidden="true"></i>
-    <a href="https://github.com/programminghistorian/jekyll">Alojado en GitHub</a>
-  </div>
-
-  <div class="col-sm-3">
-  <i class="fa fa-calendar" aria-hidden="true"></i>
-  Última actualización el {{ site.time | date_to_long_string }}
-  </div>
-
-  <div class="col-sm-3">
-  <i class="fa fa-history" aria-hidden="true"></i>
-  <a href="https://github.com/programminghistorian/jekyll/commits/gh-pages/{{ page.path }}">Versiones anteriores</a>
-  </div>
-
-  <div class="col-sm-3">
-  <i class="fa fa-bolt" aria-hidden="true"></i>
-  <a href="{{site.baseurl}}/es/retroalimentacion">Envíanos tus comentarios</a>
-  </div>
-
-</div>
-
-{% endif %}
 </div>
 
 </footer>
