@@ -1,9 +1,10 @@
 ---
-title: Lesson Directory
+title: Índice de lecciones
 layout: blank
+permalink: /es/lecciones/
 ---
 
-# THIS PAGE NEEDS TO BE TRANSLATED
+# THIS PAGE's TEXT NEEDS TO BE TRANSLATED
 
 # Índice de lecciones
 
