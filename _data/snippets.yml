@@ -79,6 +79,7 @@ menu-lang:
     title: '[en]'
     link: /
 
+# site footer
 footer:
   ph-released:
     en: <em>The Programming Historian</em> is released under the
@@ -98,7 +99,7 @@ footer:
   suggestion:
     en: Make a suggestion
     es: Envíanos tus comentarios
-    
+
 # lesson-index
 acquire-button:
   en:
@@ -109,22 +110,22 @@ transform-button:
   en:
     transform
   es:
-    acquire
+    transform
 analyze-button:
   en:
     analyze
   es:
-    acquire
+    analyze
 present-button:
   en:
     present
   es:
-    acquire
+    present
 sustain-button:
   en:
     sustain
   es:
-    acquire
+    sustain
 reset-button:
   en:
     reset to see all lessons
