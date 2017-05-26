@@ -8,7 +8,7 @@ title: The Programming Historian
 
 <div class="home-block">
 	<div class="container">
-		<h2>Programming Historian</h2>
+		<h2>The Programming Historian</h2>
 		<p>We publish novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching. We are committed to fostering a diverse and inclusive community of editors, writers, and readers. </p>
 	</div>
 </div>
