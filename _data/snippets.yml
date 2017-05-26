@@ -79,15 +79,6 @@ menu-lang:
     title: '[en]'
     link: /
 
-and:
-   en: and
-   es: y
-by:
-   en: by
-   es: por
-reviewed:
-   en: reviewed
-   es: revisado
 footer:
   ph-released:
     en: <em>The Programming Historian</em> is released under the
