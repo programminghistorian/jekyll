@@ -12,7 +12,7 @@ activity: transforming
 topics: [zotero, api]
 abstract: "In this lesson, you will create a new item in a Zotero library and add some basic metadata such as title and date."
 next: counting-frequencies-from-zotero-items
-prev: intro-to-the-zotero-api
+previous: intro-to-the-zotero-api
 categories: [zotero, api]
 ---
 

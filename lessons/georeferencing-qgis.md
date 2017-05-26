@@ -18,7 +18,7 @@ activity: transforming
 topics: [mapping]
 abstract: "In this lesson, you will learn how to georeference historical maps so
 that they may be added to a GIS as a raster layer."
-prev: vector-layers-qgis
+previous: vector-layers-qgis
 ---
 
 Lesson Goals

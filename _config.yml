@@ -19,9 +19,15 @@ defaults:
       path: "es"
     values:
       lang: "es"
-  - 
+  -
     scope:
       path: "lessons"
     values:
       lesson: true
+  -
+    scope:
+      path: "es/lecciones"
+    values:
+      translated-lesson: true
+
 # For local work: bundle exec jekyll serve --watch --baseurl '/proghistdev' or wherever else your local site is located

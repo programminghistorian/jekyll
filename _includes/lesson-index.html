@@ -1,0 +1,52 @@
+<div id="lesson-list">
+
+<ul class="filter activities">
+<li id="filter-acquiring" class="filter">{{site.data.snippets.acquire-button[page.lang]}} ({{ site.pages | lessons | where:"activity","acquiring" | size }})</li>
+<li id="filter-transforming" class="filter">{{site.data.snippets.transform-button[page.lang]}} ({{ site.pages | lessons | where:"activity","transforming" | size }})</li>
+<li id="filter-analyzing" class="filter">{{site.data.snippets.analyze-button[page.lang]}} ({{ site.pages | lessons | where:"activity","analyzing" | size }})</li>
+<li id="filter-presenting" class="filter">{{site.data.snippets.present-button[page.lang]}} ({{ site.pages | lessons | where:"activity","presenting" | size }})</li>
+<li id="filter-sustaining" class="filter">{{site.data.snippets.sustain-button[page.lang]}} ({{ site.pages | lessons | where:"activity","sustaining" | size }})</li>
+</ul>
+
+<ul class="filter topics">
+{% for topic in site.data.topics %}
+{% assign tcount = topic.type %}
+<li id="filter-{{ topic.type }}" class="filter">{{ topic.displayname }} ({{ site.pages | where:"topics",tcount | size }})
+</li>
+{% endfor %}
+</ul>
+
+<div id="filter-none">{{site.data.snippets.reset-button[page.lang]}} ({{ site.pages | where:"lesson","true" | size }})</div>
+
+<ul class="sort-by">
+<li class="sort" data-sort="date">{{site.data.snippets.sort-by-date[page.lang]}}</li>
+<li class="sort" data-sort="difficulty">{{site.data.snippets.sort-by-difficulty[page.lang]}}</li>
+</ul>
+
+
+<div id="eachlesson">
+<ul class="list">
+{% for lesson in alllessons %}
+{% capture author_string %} {% include author.html %} {% endcapture %}
+  <li>{% include lesson_describe.html authors=author_string %}</li>
+{% endfor %}
+</ul>
+</div>
+
+</div>
+
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js'></script>
+<script src="{{ site.baseurl }}/js/lessonfilter.js"></script>
+
+<script>
+  $(function() {
+
+    $('.filter').children().click(function() {
+        $('.filter').children().removeClass("current");
+        $(this).addClass("current");
+    });
+
+    initSort();
+  });
+</script>

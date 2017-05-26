@@ -17,7 +17,7 @@
   }
 
   .container {
-    max-width: 47rem;
+    max-width: 48rem;
   }
 
   .expanded {
@@ -514,7 +514,7 @@ a.dropdown-item {
 
   abbr[title] { border-bottom: 1px dotted; }
 
-  b, strong { font-weight: 400; }
+  b, strong { font-weight: bold; }
 
   blockquote { margin: 1em 2em; padding: 0 1em 0 1em; font-style: italic; border:1px solid #666; background: #eeeeee; text-align:justify;}
 
