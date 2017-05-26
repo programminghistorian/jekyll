@@ -15,7 +15,7 @@ translator:
 translation-reviewer:
 - Antonio Rojas Castro
 - Luisina Silva
-layout: default
+layout: lesson
 redirect_from: /es/lessons/cleaning-data-with-openrefine
 difficulty: 2
 ---
@@ -142,7 +142,7 @@ Si sólo recordaras una cosa de esta lección, debería ser lo siguiente: *todos
   [^3]: Es posible que al cargar este proyecto no veas ninguna columna con este color. Esto significa que ningún campo tiene definidos sus valores como numéricos.  
   [^4]: Al cargar el proyecto es muy posible que esta columna aparezca con formato de texto. Para poder aplicar una faceta numérica primero hay que convertirla a formato numérico: '**Editar celdas**' \> '**Transformaciones comunes**' \> '**a número**'.  
   [^5]: Esta parte de la interfaz del programa no aparece traducida.  
-  
+
 
   [*OpenRefine*]: http://openrefine.org "OpenRefine"
   [Powerhouse museum]: http://www.powerhousemuseum.com
