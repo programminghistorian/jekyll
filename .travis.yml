@@ -8,7 +8,7 @@ rvm:
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: build/build.sh  
+script: _build/build.sh  
 
 env:
   global:
