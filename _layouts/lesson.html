@@ -98,11 +98,18 @@ layout: base
 
   <div class="container">
 
+    {% if page.redirect_from %}
+      <div class="alert alert-warning">
+        Esta lección fue publicada originalmente en Inglés. Es posible que desee consulte <a href="/lessons/{{slug}}">el original</a>.
+      </div>
+    {% endif %}
+
       {% if page.previous %}
       <div class="series-warning alert alert-info">
-        <strong>This lesson is part of a series.</strong> You might want to check out the <a href="{{page.previous}}">previous lesson</a>.
+        {{ site.data.snippets.series-previous-note[page.lang] }} <a href="{{page.previous}}">{{ site.data.snippets.previous-lesson[page.lang] }} </a>.
       </div>
       {% endif %}
+
 
      {% if page.deprecated %}
         <div class="deprecated"> {% include deprecated.html %} </div>
@@ -114,8 +121,8 @@ layout: base
 
      {% if page.next %}
       <div class="series-warning alert alert-info">
-       <strong>Great!</strong> Now you're ready to move on to the <a href="{{page.next}}">next lesson</a>.
-     </div>
+        {{ site.data.snippets.series-next-note[page.lang] }} <a href="{{page.previous}}">{{ site.data.snippets.next-lesson[page.lang] }} </a>.
+      </div>
      {% endif %}
 
      {% include author-info.html %}
@@ -128,11 +135,8 @@ layout: base
     path: "{{page.path}}"
   })
     .done(function( data ) {
-      console.log(data);
       var date = new Date(data[0].commit.author.date);
-      console.log(date);
       var formatted_date = date.getFullYear()+'-'+("0"+date.getMonth()).slice(-2)+'-'+("0"+date.getDate()).slice(-2);
-      console.log(formatted_date);
       $("#modified-date").text(formatted_date);
     });
 })();

@@ -26,6 +26,11 @@ defaults:
       lesson: true
   -
     scope:
+      path: "lessons/deprecated"
+    values:
+      lesson: false
+  -
+    scope:
       path: "es/lecciones"
     values:
       translated-lesson: true
