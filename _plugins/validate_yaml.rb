@@ -21,7 +21,7 @@ module MyModule
         page_errors = Array.new
 
         # For each required field, check if it is missing on the page. If so, log an error.
-        required_fields = ["layout", "editor", "reviewers", "authors", "date", "title"]
+        required_fields = ["layout", "reviewers", "authors", "date", "title"]
 
         required_fields.each do |f|
           if p.data[f].nil?
@@ -32,9 +32,19 @@ module MyModule
         # Spanish required fields
         es_required_fields = ["translator", "translation-reviewer", "redirect_from"]
 
-        if p.data["lang"] = "es"
-          required_fields.each do |f|
-            if p.data[f].mil?
+        if p.data["lang"] == "es"
+          es_required_fields.each do |f|
+            if p.data[f].nil?
+              page_errors.push("'#{f}' is missing.")
+            end
+          end
+        end
+
+        # English required fields
+        en_required_Fields = ["editors"]
+        if p.data["lang"] == "en"
+          en_required_Fields.each do |f|
+            if p.data[f].nil?
               page_errors.push("'#{f}' is missing.")
             end
           end
