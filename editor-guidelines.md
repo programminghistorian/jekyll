@@ -232,7 +232,18 @@ Upload the original image to the [gallery/originals](https://github.com/programm
 Add the image to the lessons page by editing the HTML in [lessons/index.md](https://github.com/programminghistorian/jekyll/blob/gh-pages/lessons/index.md) so that the image source matches the new image’s file location. In our previous example, the HTML line would be: `<img src="../gallery/cleaning-data-with-openrefine.png">`. The new image should appear on the [Lessons page]( http://programminghistorian.org/lessons)!
 
 
-### 8) Thank Everyone and Encourage Promotion
+### 8) Incorporate your lesson into our Twitter bot
+
+In addition to the Twitter promotion outlined below, we also make use of a Twitter bot to regularly re-advertise older lessons. In order to add the new lesson to our pipeline, you need to add it as a row in [this spreadsheet](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Everyone on the editorial team should have the ability to make changes, but write us if you have trouble doing so. You will need to add a new row for your lesson to the end of the table with the following fields:
+
+* id (column A) - a number. Simply add one to the id number of the previous lesson.
+* message_one (column B) - a twitter message to play early in the week.
+* message_two (column C) - an "In Case You Missed It" twitter message to play later in the week.
+* link (column D) - the link to the lesson.
+
+Leave column E blank and untouched - this field is used by the Twitter bot to log its progress through the list. Also note that this step should not replace your own promotion of the lesson. The bot goes through the lessons at random, one a week, so it could be months until your lesson comes up through this means.
+
+### 9) Thank Everyone and Encourage Promotion
 
 It's important to send an email or message to everyone involved thanking them for their efforts. In particular, thank the author for contributing and encourage them to think of us again in future. It's also worth giving the author some ideas on promoting their lesson. The most-used lessons always have authors' energies behind them. For example authors should be encouraged to:
 
