@@ -14,7 +14,7 @@ module MyModule
       clear = "\e[0m"
 
       # Find all the pages that represent non-deprecated lessons
-      lessons = site.pages.keep_if{|i| i.data["layout"] == "default" && !i.data["deprecated"]}
+      lessons = site.pages.keep_if{|i| i.data["lesson"] && !i.data["deprecated"]}
 
       lessons.each do |p|
 
