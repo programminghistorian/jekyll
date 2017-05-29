@@ -234,7 +234,7 @@ Add the image to the lessons page by editing the HTML in [lessons/index.md](http
 
 ### 8) Incorporate your lesson into our Twitter bot
 
-In addition to the Twitter promotion outlined below, we also make use of a Twitter bot to regularly re-advertise older lessons. In order to add the new lesson to our pipeline, you need to add it as a row in [this spreadsheet](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Everyone on the editorial team should have the ability to make changes, but write us if you have trouble doing so. You will need to add a new row for your lesson to the end of the table with the following fields:
+In addition to the Twitter promotion outlined below, we also make use of a Twitter bot to regularly re-advertise older lessons. In order to add the new lesson to our pipeline, you need to add it as a row in [this spreadsheet](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Everyone on the editorial team should have the ability to make changes; email the google group if you have trouble. You will need to add a new row for your lesson to the end of the table with the following fields:
 
 * id (column A) - a number. Simply add one to the id number of the previous lesson.
 * message_one (column B) - a twitter message to play early in the week.
