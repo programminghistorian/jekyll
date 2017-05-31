@@ -19,7 +19,9 @@ If you have an idea for a new lesson, or have already written a tutorial that yo
 
 We welcome all lesson proposals, pitched at any level of technical aptitude and experience, from neophytes to power users. Lessons may be a short and straightforward explanation of a discrete task (such "helper" lessons make complex lessons easier to follow); they may be quite long, complex, and technically sophisticated.
 
-You can get a better sense of what we think makes for a good lesson by looking through our [published lessons], reading our [reviewer guidelines] or browsing the [lessons currently in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). We encourage lesson proposals on topics already covered or in development, provided that the new lesson makes its own unique contribution. Everyone learns differently!
+You can get a better sense of what we think makes for a useful lesson by looking through our [published lessons], reading our [reviewer guidelines] or browsing the [lessons currently in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). We encourage lesson proposals on topics already covered or in development, provided that the new lesson makes its own unique contribution. Everyone learns differently!
+
+Once your proposal is accepted, an editor will create a "Proposal" ticket in our [submissions repository](https://github.com/programminghistorian/ph-submissions/issues) with the lesson's working title and proposed learning outcomes. This ticket serves to mark the work in progress while you are writing your lesson. To avoid a backlog in the system, we ask that you submit your lesson within 90 days of the proposal being accepted.
 
 
 ## Writing a New Lesson

@@ -165,6 +165,14 @@ The easiest way to publish the lesson is to use `git` from the command line. The
 4. Copy the lesson files and any related image and asset files from the `ph-submissions` directory on your machine to the appropriate places in the `jekyll` directory on your local machine. (You can use a command like `cp` on the Unix command line, or use your GUI file system if you are using GitHub Desktop.)
 5. From within the `jekyll` directory on your local machine, `git add` the new files and then `git commit` and `git push` the changes.
 
+After the lesson has been moved to the `jekyll` repository, you'll also need to archive the submitted lesson on the `ph-submissions` repository.
+
+1. Go to the directory for your local `ph-submissions` repository.
+2. Add a new line to the YAML header of the now published lesson: `redirect_from: "/lessons/LESSON-SLUG"`
+3. Copy the now published lesson from `lessons/` into `lessons/published/`.
+4. Copy the image folder containing the images for the now published lesson from `images/` to `images/published/`.
+5. Use `git add`, `git commit`, and `git push` to finalize all the changes.
+
 ### 2) Create an Author Bio
 
 If the lesson has been written by a new author, editors should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/authors.yml). Follow the syntax for the examples already included there:

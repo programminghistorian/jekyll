@@ -403,7 +403,7 @@ the case you have made an error.
   [Linked Data]: http://en.wikipedia.org/wiki/Linked_data
   [Download OpenRefine]: http://openrefine.org/#download_openrefine
   [FreeYourMetadata website]: http://data.freeyourmetadata.org/powerhouse-museum/
-  [phm-collection]: ../images/phm-collection.tsv
+  [phm-collection]: /assets/phm-collection.tsv
   [initial OpenRefine project]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
   [Powerhouse Museum Website]: ../images/powerhouseScreenshot.png
   [facet]: http://en.wikipedia.org/wiki/Faceted_search

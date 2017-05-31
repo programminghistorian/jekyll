@@ -196,6 +196,14 @@ La manera más fácil de publicar el texto es utilizar `git` en tu terminal de l
 4. Copia el texto, los archivos con datos y las imágenes guardados en `ph-submissions/es` y ponlos en el lugar apropiado del repositorio `jekyll` de tu ordenador. Si utilizas la línea de comandos, introduce `cp`; si, por el contrario, usas GitHub Desktop utiliza la interfaz gráfica de usuario para moverte por los directorios y mover los archivos.
 5. Dese tu repositorio local de `jekyll`, debes introducir `git add` para añadir los nuevos archivos, y a continuación `got commit`y `git push` para actualizar los cambios en el repositorio en línea.
 
+Después de haber movido la lección al repositorio local de `jekyll` tendrás además que guardar la lección que ya enviaste en el repositorio `ph-submissions`.
+
+1. Sitúate en el directorio local de tu repositorio `ph-submissions/es`.
+2. Añade una nueva línea en el encabezado YAML de la lección ya publicada: `redirect_from: "/lessons/LESSON-SLUG"`
+3. Copia la lección ya publicada de `lessons/` a `lessons/published/`.
+4. Copia el folder de imágenes que contiene las imágenes de la lección ya publicada de `images/` a `images/published/`.
+5. Utiliza `git add`, `git commit`, y `git push` para finalizar todos los cambios.
+
 ### 2) Crea una biografía para el autor
 
 En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor con el que no hemos trabajado anteriormente, los editores deben añadir información sobre el autor en la página [directorio de autores](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/authors.yml) del repositorio de *The programming historian*. Sigue la sintaxis de los ejemplos ya incluidos:
