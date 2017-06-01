@@ -9,7 +9,7 @@
   body {
     font-family: 'Quattrocento', Verdana, sans-serif;
     font-size:16px;
-    background-color:#fefefe;
+    background-color:#ffffff;
   }
 
   .noclear {
@@ -18,29 +18,29 @@
 
   .container {
     max-width: 48rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .expanded {
     max-width: 48rem;
   }
 
+  .alert {
+    font-family: 'Roboto';
+  }
 
-  /* =============================================================================
-  Home Page
-  ========================================================================== */
-
-
-.home-block a:visited {
-color: #38c;
-}
-
-.home-image {
-  text-align:center;
-}
+/* =============================================================================
+Home Page
+========================================================================== */
 
 .home-block {
   padding:3rem 0;
   color:#aaa;
+}
+
+.home-block a:visited {
+  color: #38c;
 }
 
 .home-block h2 {
@@ -58,11 +58,6 @@ color: #38c;
   text-align:justify;
 }
 
-.home-block-dark {
-  color:#eee;
-  background:#27b;
-}
-
 .home-block-gray {
   color:#fff;
   background:#289;
@@ -72,159 +67,123 @@ color: #38c;
   color:#fff;
 }
 
+.home-block-gray a:visited, .home-block-gray a:link {
+color:#6cd;
+}
+
+.home-block-dark {
+  color:#eee;
+  background:#27b;
+}
 
 .home-block-dark a:visited, .home-block-dark a:link {
 color:#6bf;
 }
 
-.home-block-gray a:visited, .home-block-gray a:link {
-color:#6cd;
-}
-
-.contact-box {
-  clear:both;
-  margin-bottom:2rem;
-}
 
 /* =============================================================================
-   Lesson Headers
-   ========================================================================== */
+Lesson Headers
+========================================================================== */
 
-    header {
-       margin:0;
-       padding:0;
-       text-align:left;
-       border-top:1px solid #333;
-       color:#ccc;
-       font-family:'Roboto', sans-serif;
-       background: #efefef;
-     }
+header {
+   margin:-3rem 0 3rem 0;
+   padding:0;
+   font-family:'Roboto', sans-serif;
+   color:#ccc;
+   background: #efefef;
+   border-top:1px solid #333;
+   border-bottom:1px solid #333;
+   text-align:left;
+ }
 
-     header .container-fluid {
-       margin:0 0 0 0;
-       padding:2rem;
-       background: #31404d;
-       background: #f5f5f5;
-     }
+ header .container-fluid {
+   margin:0;
+   padding:1rem;
+   background: #f5f5f5;
+ }
 
+ header h1 {
+   margin:0;
+   padding:0;
+   font-size:1.8rem;
+   text-align:left;
+ }
 
-   header h1 {
-     margin:0;
-     padding:0rem 0 0 0rem;;
-     font-size:2rem;
-     text-align:left;
-   }
+ header h2 {
+   font-family:'Roboto', sans-serif;
+   font-size:1.2rem;
+   color:#333;
+   margin: 1.5rem 0 1.5rem 0rem;
+   text-align:left;
+ }
 
-   header h2 {
-     font-family:'Roboto', sans-serif;
-     font-size:1.2rem;
-     color:#333;
-     margin: 1.5rem 0 1.5rem 0rem;
-     text-align:left;
+ header h3, header h4 {
+   font: .9rem/1.1rem 'Roboto Condensed', sans-serif;
+   text-transform:uppercase;
+   font-variant:small-caps;
+   letter-spacing:80%;
+   color:#666;
+   margin:.3rem 0 0 0;
+   padding:0;
+ }
 
-   }
+ header h3 {
+   margin-bottom:0;
+ }
 
-   header h3, header h4 {
-     font-family:'Roboto Condensed', sans-serif;
-     letter-spacing:80%;
-     font-size:.9rem;
-     line-height:1.1rem;
-     color:#666;
-     margin:.3rem 0 0 0;
-     padding:0;
-     text-align:left;
-     text-transform:uppercase;
-     font-variant:small-caps;
-   }
-
-   header h3 {
-     margin-bottom:0;
-   }
-
-   header h4 {
-     display:inline;
-     margin:0;
-     padding:0;
-     font-weight:200;
-     font-size:.9rem;
-     line-height:1.3rem;
-   }
-
-   header .header-abstract {
-     font-family:'Roboto', sans-serif;
-     color:#aaa;
-     font-weight:100;
-     font-size:1rem;
-     line-height:1.4rem;
-     margin:1rem 0 1rem 0;
-   }
+ header h4 {
+   display:inline;
+   margin:0;
+   padding:0;
+   font-weight:200;
+   font-size:.9rem;
+   line-height:1.3rem;
+ }
 
 header .header-image {
   float:left;
   border:.2rem solid gray;
   margin:0;
   padding:0;
-}
-
-header img {
   width:100%;
 }
 
-header .header-helpers {
-  clear:both;
-  border:0px solid #ccc;
-  padding:.5rem 0 .5rem 0;
-  background:#bbb;
-  color:#eee;
+
+header .header-abstract {
+  font: 1rem/1.4rem 'Roboto', sans-serif;
+  color:#999;
+  margin:1rem 0;
 }
 
-   header .row-metadata{
-     text-align:left;
-     margin-top:2rem;
-   }
 
-   header ul {
-     margin:0;
-     padding:0;
-   }
+header .header-helpers {
+  clear:both;
+  padding:.4rem 0 .4rem 0;
+  background:#ccc;
+  color:#fff;
+  border-top:1px solid #999;
+  border-bottom:1px solid #999;
+}
 
-   header li, header .metarow {
-     font-family:'Roboto Condensed';
-     list-style-type:none;
-     line-height:1.1rem;
-     color:#eee;
-     margin: 0 0 0 0;
-     font-size:.9rem;
-   }
+header ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
 
-   header .metarow {
-     font-size:1rem;
-   }
+header li, header .metarow {
+  font: .9rem/1.1rem 'Roboto Condensed';
+  margin: 0;
+}
 
-
-   header .header-bottom {
-     margin:0 0 2rem 0;
-     background-color:#777;
-     padding:.8rem 0 .8rem 0;
-   }
-
-   header .header-bottom h4 {
-     color:#aaa;
-
-   }
-
-  .deprecated {
-    text-align:center;
-    margin:0;
-    color: #F44336;
-    font-weight: 700;
-    font-size: 1em;
-  }
+header .metarow {
+  color:#999;
+}
 
 
-  /* =============================================================================
-     Lessons Page
-     ========================================================================== */
+/* =============================================================================
+Lessons Index
+========================================================================== */
 
   #eachlesson li {
     list-style-type:none;
@@ -268,7 +227,6 @@ header .header-helpers {
   #filter-none:hover {
     background-color:#ededed;
   }
-
 
   .activities li {
     padding: .3rem .8rem;
@@ -394,25 +352,19 @@ header .header-helpers {
     clear:none;
   }
 
-
-p.abstract {
-  font-family:'Open Sans';
-  font-size: .8rem;
-}
-
-
-  /* =============================================================================
-     Top Navigation Bar
-     ========================================================================== */
+  p.abstract {
+    font-family:'Open Sans';
+    font-size: .8rem;
+  }
 
 
-
+/* =============================================================================
+   Top Navigation Bar
+========================================================================== */
 .navbar {
-  color:#ccc;
-  background-color:#38c;
-  background-color:#215989;
   background-color:#555;
-  padding: .4rem 1rem;
+  padding: .6rem 1rem;
+  margin: 0 0 3rem 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -508,17 +460,13 @@ a.dropdown-item {
     opacity: 1;
   }
 
-  /* =============================================================================
-     Typography
-     ========================================================================== */
-
-  abbr[title] { border-bottom: 1px dotted; }
+/* =============================================================================
+Typography
+========================================================================== */
 
   b, strong { font-weight: bold; }
 
   blockquote { margin: 1em 2em; padding: 0 1em 0 1em; font-style: italic; border:1px solid #666; background: #eeeeee; text-align:justify;}
-
-  dfn { font-style: italic; }
 
   hr {
     display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 2em 0; padding: 0; }
@@ -551,9 +499,6 @@ img {
   margin-bottom: 1rem;
 }
 
-  mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
-
-
   h1,h2,h3,h4,h5 {
     font-family:'Crete Round', serif;
     font-weight:normal;
@@ -562,17 +507,16 @@ img {
   }
 
   h1 {
-  font-size:2rem;
-  margin-top:3rem;
-  margin-bottom:1.5rem;
-  letter-spacing:-.03rem;
-  text-align:center;
+    font-size:2rem;
+    margin-bottom:1.5rem;
+    letter-spacing:-.03rem;
+    text-align:center;
   }
 
   h2 {
-  font-size:1.6rem;
-  margin-top:3rem;
-  letter-spacing:-.02rem;
+    font-size:1.6rem;
+    margin-top:3rem;
+    letter-spacing:-.02rem;
   }
 
   h3 {
@@ -631,32 +575,29 @@ li.nav-item {
   margin-bottom:0;
 }
 
-    /* =============================================================================
-       Code Highlighting
-       ========================================================================== */
+/* =============================================================================
+Code Highlighting
+========================================================================== */
 
   code {
     font-family: monospace, serif;
     font-size:.9rem;
   }
 
-    .highlight {
-      font-size:.9rem;
-      white-space: pre;
-      word-wrap: normal;
-      overflow: auto;
-      padding:.5rem .2rem;
-      border: 1px solid #eee;
-      margin: 1rem 0 1rem 0;
-    }
+  .highlight {
+    font-size:.9rem;
+    white-space: pre;
+    word-wrap: normal;
+    overflow: auto;
+    padding:.5rem .2rem;
+    border: 1px solid #eee;
+    margin: 1rem 0 1rem 0;
+  }
 
 
-
-
-
-  /* =============================================================================
-     Figures
-     ========================================================================== */
+/* =============================================================================
+Figures
+========================================================================== */
 
   figure {
     margin: 0 auto;
@@ -674,36 +615,11 @@ li.nav-item {
     text-align: justify;
   }
 
-
-  .navigation {
-    list-style:none;
-    padding-left:0;
+  .author-info {
+    border-top:1px solid #333;
+    padding-top:1rem;
+    margin-top:2rem;
   }
-
-  .pager {
-    overflow:hidden;
-    zoom:1;
-  }
-
-  .pager li {
-    float:left;
-    width: 48%;
-  }
-
-  .pager li.next {
-    float:right;
-    text-align:right;
-  }
-
-  .pager a {
-    text-decoration:none;
-  }
-
-.author-info {
-  border-top:1px solid #333;
-  padding-top:1rem;
-  margin-top:2rem;
-}
 
   .author-name {
     font-family:'Roboto Condensed';
@@ -719,77 +635,26 @@ li.nav-item {
     color: #666;
   }
 
-  .additional ul {
-    list-style:none;
-    padding-left:0;
-    margin-left:0;
-    text-align:center;
-    font-size: 0.9em;
-  }
-
-  .additional ul li {
-    display:inline;
-  }
-
-  .additional li:not(:first-child):before {
-    content: " · ";
-    color: #999;
-  }
-
-  .additional a {
-    text-decoration:none;
-  }
-
   .avatar {
     float: left;
 	  margin: 0 2rem 3rem 0;
     width: 15%;
   }
 
-  article .pager {
-    border-bottom: 1px dotted #ccc;
-    padding-top:1em;
-    padding-bottom:2em;
-    margin-bottom: 1em;
-  }
+/* =============================================================================
+Footer
+========================================================================== */
 
-  article .previous {
-    float:left;
-    width: 48%;
-    text-align:left;
-  }
-
-  article .previous .kicker {
-    text-align:left;
-    margin:0;
-  }
-
-  article .next {
-    float:right;
-    width: 48%;
-    text-align:right !important;
-  }
-
-  article .next .kicker {
-    text-align:right;
-    margin:0;
-  }
-
-  article .pager a {
-    text-decoration:none;
-    font-weight: bold;
-  }
-
-  footer[role="contentinfo"] {
-    font-family:'Open Sans';
-    font-size:.9rem;
-    color:#e5e5e5;
-    background-color:#666;
-    text-align:center;
-    margin-top: 2rem;
-    border-top: 1px solid #eee;
-    padding: 2rem 0;
-  }
+footer[role="contentinfo"] {
+  font-family:'Open Sans';
+  font-size:.9rem;
+  color:#e5e5e5;
+  background-color:#666;
+  text-align:center;
+  margin-top: 2rem;
+  border-top: 1px solid #eee;
+  padding: 2rem 0;
+}
 
 .footer-head {
   font-size:1.1rem;
@@ -812,7 +677,7 @@ footer .fa {
 }
 
 
-}
+} /* end screen */
 
 @media print {
   * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
@@ -827,5 +692,4 @@ footer .fa {
   @page { margin: 0.5cm; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
-
 }

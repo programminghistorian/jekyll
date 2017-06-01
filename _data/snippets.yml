@@ -151,17 +151,17 @@ sort-by-difficulty:
 
 # lesson headers
 editor:
-  en: editor
+  en: edited by
   es: editor
 reviewers:
-  en: reviewers
+  en: reviewed by
   es: reviewers
 translator:
-  en: translator
+  en: translated by
   es: translator
 translation-reviewers:
-  en: translation reviewers
-  es: translation reviewers
+  en: translation reviewed by
+  es: translation reviewed by
 published:
   en: published
   es: published
@@ -178,7 +178,7 @@ previous-lesson:
   en: previous lesson
   es: lección anterior
 series-previous-note:
-  en: This lesson is part of a series. You might want to check out the 
+  en: This lesson is part of a series. You might want to check out the
   es: Esta lección es parte de una serie. Quizás quieras consultar el
 series-next-note:
   en: Great! Now you're ready to move on to the

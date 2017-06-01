@@ -66,17 +66,22 @@ layout: base
       {% if page.translator %}
       <div class="col-md-3" >
         <h3 class="text-left">{{site.data.snippets.translator[page.lang]}}</h3>
+        <ul>
         {% for translator in page.translator %}
           <li>{{translator}}</li>
-        {% endfor %}      </div>
+        {% endfor %}
+        </ul>
+      </div>
       {% endif %}
 
       {% if page.translation-reviewer %}
       <div class="col-md-3" >
         <h3 class="text-left">{{site.data.snippets.translation-reviewers[page.lang]}}</h3>
+        <ul>
         {% for editor in page.translation-reviewer %}
           <li>{{editor}}</li>
         {% endfor %}
+        </ul>
       </div>
       {% endif %}
 
@@ -104,16 +109,17 @@ layout: base
       </div>
     {% endif %}
 
+    {% if page.deprecated %}
+     <div class="alert alert-warning">
+       {% include deprecated.html %}
+     </div>
+    {% endif %}
+
       {% if page.previous %}
       <div class="series-warning alert alert-info">
-        {{ site.data.snippets.series-previous-note[page.lang] }} <a href="{{page.previous}}">{{ site.data.snippets.previous-lesson[page.lang] }} </a>.
+        {{ site.data.snippets.series-previous-note[page.lang] }} <a href="{{page.previous}}">{{ site.data.snippets.previous-lesson[page.lang] }}</a>.
       </div>
       {% endif %}
-
-
-     {% if page.deprecated %}
-        <div class="deprecated"> {% include deprecated.html %} </div>
-     {% endif %}
 
      <div class="content">
          {{ content }}
