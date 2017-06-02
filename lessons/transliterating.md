@@ -16,7 +16,7 @@ difficulty: 2
 * TOC
 {:toc}
 
-**Lesson Goals:**
+## Lesson Goals:
 
 This lesson shows how to use Python to transliterate automatically a
 list of words from a language with a non-Latin alphabet to a
@@ -30,7 +30,7 @@ Russian organization [Memorial][] from [Cyrillic][] into [Latin
 characters][]. Although the example uses Cyrillic characters, the
 technique can be reproduced with other alphabets using [Unicode][].
 
-**What Is Transliteration and for Whom Is It Useful?**
+## What Is Transliteration and for Whom Is It Useful?
 
 Transliteration is something that most people do every day, knowingly or
 not. Many English speakers would have trouble recognizing the name
@@ -76,7 +76,7 @@ considerably. However, this lesson will also allow practice with
 Unicode, character translation and using the parser [Beautiful Soup in
 Python.][]
 
-**Converting a Webpage to Unicode**
+## Converting a Webpage to Unicode
 
 The goal of this lesson is to take a list of names from a Russian
 database and convert them from Cyrillic into ASCII characters. The page
@@ -221,7 +221,7 @@ signify a line break (‘`\n`’) in a document. Each counts as just one
 character. Now we can create a Python *dictionary* that will act as the
 transliteration table.
 
-**Unicode Transliteration Dictionary**
+## Unicode Transliteration Dictionary
 
 A dictionary is an unordered collection of *key-object pairs*. What this
 means is that under each key, the dictionary stores some number or
@@ -369,7 +369,7 @@ the lesson, we will modify methods used in the lesson “[Intro to
 Beautiful Soup][]” to get a list of transliterated names from the
 webpage.
 
-**Transliterated List of Names**
+## Transliterated List of Names
 
 There may be cases where it is best to transliterate the entire file but
 if the goal is to transliterate and extract just a part of the data in
