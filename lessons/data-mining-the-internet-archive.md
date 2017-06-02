@@ -20,6 +20,9 @@ abstract: |
     and to MARC records found elsewhere.
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

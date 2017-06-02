@@ -9,6 +9,11 @@ layout: default
 difficulty: 2
 ---
 
+* TOC
+{:toc}
+
+## Introduction
+
 Optical Character Recognition (OCR)—the conversion of scanned images to
 machine-encoded text—has proven a godsend for historical research. This
 process allows texts to be searchable on one hand and more easily parsed

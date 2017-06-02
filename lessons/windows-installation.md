@@ -12,6 +12,9 @@ editors:
 layout: default
 ---
 
+* TOC
+{:toc}
+
 ## Back up your computer
 
 It is always important to make sure you have regular and recent backups

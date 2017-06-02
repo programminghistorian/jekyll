@@ -13,6 +13,9 @@ previous: output-keywords-in-context-in-html-file
 difficulty: 2
 ---
 
+* TOC
+{:toc}
+
 ## Module Goals
 
 Downloading a single record from a website is easy, but downloading many

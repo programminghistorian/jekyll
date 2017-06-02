@@ -13,6 +13,9 @@ next: from-html-to-list-of-words-1
 previous: working-with-web-pages
 ---
 
+* TOC
+{:toc}
+
 ## Lesson Goals
 
 This lesson is a brief introduction to [string](https://en.wikipedia.org/wiki/String_(computer_science)) manipulation techniques in

@@ -10,6 +10,9 @@ reviewers:
 layout: default
 ---
 
+* TOC
+{:toc}
+
 Getting Started with Markdown
 ---------------------
 

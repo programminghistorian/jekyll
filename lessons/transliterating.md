@@ -13,6 +13,9 @@ layout: default
 difficulty: 2
 ---
 
+* TOC
+{:toc}
+
 **Lesson Goals:**
 
 This lesson shows how to use Python to transliterate automatically a

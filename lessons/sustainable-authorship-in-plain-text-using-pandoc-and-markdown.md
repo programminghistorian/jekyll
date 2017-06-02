@@ -10,6 +10,9 @@ layout: default
 difficulty: 2
 ---
 
+* TOC
+{:toc}
+
 {% include figure.html filename="lexoriter.jpg" caption="" %}
 
 ## Objectives

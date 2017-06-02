@@ -14,6 +14,9 @@ next: manipulating-strings-in-python
 previous: code-reuse-and-modularity
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

@@ -18,6 +18,9 @@ difficulty: 2
 redirect_from: /es/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 ---
 
+* TOC
+{:toc}
+
 {% include figure.html filename="lexoriter.jpg" caption="" %}
 
 ## Objetivos

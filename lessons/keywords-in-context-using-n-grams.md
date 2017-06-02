@@ -13,6 +13,9 @@ next: output-keywords-in-context-in-html-file
 previous: output-data-as-html-file
 ---
 
+* TOC
+{:toc}
+
 ## Lesson Goals
 
 Like in [Output Data as HTML File][], this lesson takes the frequency

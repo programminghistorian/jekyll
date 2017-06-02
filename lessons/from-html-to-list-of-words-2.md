@@ -13,6 +13,9 @@ next: normalizing-data
 previous: from-html-to-list-of-words-1
 ---
 
+* TOC
+{:toc}
+
 ## Lesson Goals
 
 In this lesson, you will learn the Python commands needed to implement

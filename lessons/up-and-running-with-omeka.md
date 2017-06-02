@@ -10,6 +10,9 @@ editors:
 layout: default
 ---
 
+* TOC
+{:toc}
+
 [Omeka.net](http://www.omeka.net) makes it easy to create websites that show off collections of items.
 
 Sign up for an Omeka account

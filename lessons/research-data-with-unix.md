@@ -14,6 +14,9 @@ prev: intro-to-bash
 difficulty: 2
 ---
 
+* TOC
+{:toc}
+
 # Counting and mining research data with Unix
 
 ## Introduction

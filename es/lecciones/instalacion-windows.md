@@ -18,6 +18,8 @@ layout: default
 redirect_from: /es/lessons/windows-installation
 ---
 
+* TOC
+{:toc}
 
 ## Respalda toda tu computadora.
 

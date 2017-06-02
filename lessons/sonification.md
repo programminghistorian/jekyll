@@ -12,6 +12,9 @@ layout: default
 difficulty: 2
 ---
 
+* TOC
+{:toc}
+
 # Introduction
 
 ποίησις - fabrication, creation, production

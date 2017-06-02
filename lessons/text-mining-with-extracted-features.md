@@ -12,7 +12,8 @@ editors:
 layout: default
 ---
 
-
+* TOC
+{:toc}
 
 Summary: *We introduce a toolkit for working with the 13.6 million volume Extracted Features Dataset from the HathiTrust Research Center. You will learn how to peer at the words and trends of any book in the collection, while developing broadly useful Python data analysis skills.*
 

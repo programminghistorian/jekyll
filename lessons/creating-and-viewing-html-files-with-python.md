@@ -13,6 +13,9 @@ next: output-data-as-html-file
 previous: counting-frequencies
 ---
 
+* TOC
+{:toc}
+
 ## Lesson Goals
 
 This lesson uses Python to create and view an HTML file. If you write

@@ -12,6 +12,9 @@ editors:
 layout: default
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

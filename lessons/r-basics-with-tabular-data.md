@@ -12,6 +12,9 @@ layout: default
 difficulty: 1
 ---
 
+* TOC
+{:toc}
+
 ## Lesson Goals
 
 As more and more historical records are digitized, having a way to quickly analyze large volumes of tabular data makes research faster and more effective. 

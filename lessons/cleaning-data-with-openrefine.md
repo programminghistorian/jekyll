@@ -14,6 +14,9 @@ layout: default
 difficulty: 2
 ---
 
+* TOC
+{:toc}
+
 ## Lesson goals
 
 Don’t take your data at face value. That is the key message of this

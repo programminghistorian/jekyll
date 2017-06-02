@@ -15,6 +15,9 @@ difficulty: 2
 layout: default
 ---
 
+* TOC
+{:toc}
+
 # Learning Goals
 
 A substantial amount of historical data is now available in the form of raw, digitized text. Common examples include letters, newspaper articles, personal notes, diary entries, legal documents and transcribed speeches. While some stand-alone software applications provide tools for analyzing text data, a programming language offers increased flexibility to analyze a corpus of text documents. In this tutorial we guide users through the basics of text analysis within the R programming language. The approach we take involves only using a tokenizer that parses text into elements such as words, phrases and sentences. By the end of the lesson users will be able to:

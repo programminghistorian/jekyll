@@ -13,6 +13,9 @@ next: keywords-in-context-using-n-grams
 previous: creating-and-viewing-html-files-with-python
 ---
 
+* TOC
+{:toc}
+
 ## Lesson Goals
 
 This lesson takes the frequency pairs created in [Counting

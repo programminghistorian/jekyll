@@ -14,6 +14,9 @@ layout: default
 difficulty: 2
 ---
 
+* TOC
+{:toc}
+
 Editor's Note
 -------------
 

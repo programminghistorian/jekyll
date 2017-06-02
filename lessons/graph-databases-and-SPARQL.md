@@ -21,24 +21,8 @@ This lesson explains why many cultural institutions are adopting graph
 databases, and how researchers can access these data though the query language
 called SPARQL.
 
-_Table of contents_
-
-- [Graph Databases, RDF, and Linked Open Data](#graph-databases-rdf-and-linked-open-data)
-  - [RDF in brief](#rdf-in-brief)
-  - [Searching RDF with SPARQL](#searching-rdf-with-sparql)
-  - [URIs and Literals](#uris-and-literals)
-  - [Terms to review](#terms-to-review)
-- [Real-world queries](#real-world-queries)
-  - [All the statements for one object](#all-the-statements-for-one-object)
-  - [Complex queries](#complex-queries)
-  - [FILTER](#filter)
-  - [Aggregation](#aggregation)
-  - [Linking multiple SPARQL endpoints](#linking-multiple-sparql-endpoints)
-- [Working with SPARQL results](#working-with-sparql-results)
-  - [Export results to CSV](#export-results-to-csv)
-  - [Export results to Palladio](#export-results-to-palladio)
-- [Further reading](#further-reading)
-
+* TOC
+{:toc}
 
 # Graph Databases, RDF, and Linked Open Data
 

@@ -13,6 +13,9 @@ layout: default
 difficulty: 1
 ---
 
+* TOC
+{:toc}
+
 ## Introduction
 
 The day before your colleague is due to give a seminar on *Slave Rebellions in the New World*, he phones you to say he is ill and needs you to cover his sessions. You decide to compile a selection of primary sources to work through in class. You find some websites and readers with good sources, but scanning or cutting-and-pasting them into a new document is time consuming; the formatting and citations are inconsistent and you begin to wonder if the ones you have chosen work well together. One site allows you to download an [XML](https://en.wikipedia.org/wiki/XML) version of all its sources, but there are so many records, and so much [metadata](https://en.wikipedia.org/wiki/Metadata), that you cannot find the material you want quickly.

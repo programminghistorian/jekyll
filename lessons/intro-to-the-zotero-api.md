@@ -11,6 +11,9 @@ next: creating-new-items-in-zotero
 difficulty: 1
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

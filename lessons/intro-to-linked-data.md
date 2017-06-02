@@ -13,6 +13,9 @@ difficulty: 1
 review-ticket: 33
 ---
 
+* TOC
+{:toc}
+
 Introduction and Lesson Scope
 -----------------------------
 

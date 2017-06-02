@@ -18,6 +18,9 @@ layout: default
 redirect_from: /es/lessons/mac-installation
 ---
 
+* TOC
+{:toc}
+
 ### Haz respaldo (copia de seguridad) de toda tu computadora
 
 Los usuarios de Mac pueden aprovechar [Time Machine] para esta labor.

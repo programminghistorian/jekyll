@@ -16,6 +16,9 @@ prev: vector-layers-qgis
 difficulty: 2
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

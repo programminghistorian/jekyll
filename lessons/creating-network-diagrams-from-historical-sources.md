@@ -11,15 +11,8 @@ editors:
 layout: default
 ---
 
-Table of contents:
-
-- [*Introduction*](#introduction)
-- [*About the case study*](#about-the-case-study)
-- [*Developing a coding scheme*](#developing-a-coding-scheme)
-- [*Visualize network data in Palladio*](#visualize-network-data-in-palladio)
-- [*The added value of network visualizations*](#the-added-value-of-network-visualizations)
-- [*Other network visualization tools to consider*](#other-network-visualization-tools-to-consider)
-
+* TOC
+{:toc}
 
 Introduction
 ------------

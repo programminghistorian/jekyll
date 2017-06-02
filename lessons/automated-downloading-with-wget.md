@@ -12,6 +12,9 @@ next: applied-archival-downloading-with-wget
 difficulty: 1
 ---
 
+* TOC
+{:toc}
+
 Editor's Note
 -------------
 

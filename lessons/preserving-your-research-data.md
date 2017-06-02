@@ -13,6 +13,9 @@ layout: default
 difficulty: 1
 ---
 
+* TOC
+{:toc}
+
 #### Background
 
 In his 2003 essay 'Scarcity or Abundance' Roy Rosenzweig sought to alert

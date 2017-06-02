@@ -19,6 +19,9 @@ previous: de-html-a-lista-de-palabras-1
 redirect_from: /es/lessons/from-html-to-list-of-words-2
 ---
 
+* TOC
+{:toc}
+
 ## Objetivos de la lección
 
 En esa lección aprenderás los comandos de Python que son necesarios para implementar la segunda parte del algoritmo que comenzamos en [De HTML a lista de palabras (parte 1)][]. La primera parte del algoritmo obtiene el contenido de una página HTML y guarda solamente el contenido que se encuentra entre la primera etiqueta `<p>` y la última etiqueta `<br/>`. La segunda mitad del algoritmo hace lo siguiente:

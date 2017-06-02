@@ -13,6 +13,9 @@ difficulty: 2
 review-ticket: 27
 ---
 
+* TOC
+{:toc}
+
 ## Lesson Goals
 
 Many types of sources used by historians are inherently spatial. For example:

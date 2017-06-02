@@ -14,6 +14,9 @@ next: working-with-web-pages
 previous: working-with-text-files
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

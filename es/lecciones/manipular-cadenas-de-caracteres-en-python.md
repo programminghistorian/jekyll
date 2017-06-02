@@ -19,6 +19,9 @@ previous: trabajar-con-paginas-web
 redirect_from: /es/lessons/manipulating-strings-in-python
 ---
 
+* TOC
+{:toc}
+
 ## Objetivos de la lección
 
 Esta lección es una rápida introducción a técnicas de manipulación de [cadenas de caracteres] (o *strings*) en Python. Saber cómo manipular cadenas de caracteres juega un papel fundamental en la mayoría de las tareas de procesamiento de texto. Si quieres experimentar con las siguientes lecciones puedes escribir y ejecutar pequeños programas tal como lo hicimos en lecciones previas, o puedes abrir tu intérprete de comandos de Python / Terminal para probarlos ahí.

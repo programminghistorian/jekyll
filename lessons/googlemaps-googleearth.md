@@ -15,6 +15,9 @@ next: qgis-layers
 difficulty: 1
 ---
 
+* TOC
+{:toc}
+
 ## Google Maps
 
 Google My Maps and Google Earth provide an easy way to start creating

@@ -13,6 +13,9 @@ previous: automated-downloading-with-wget
 difficulty: 2
 ---
 
+* TOC
+{:toc}
+
 Background and Lesson Goals
 ---------------------------
 

@@ -12,6 +12,9 @@ editors:
 layout: default
 ---
 
+* TOC
+{:toc}
+
 ### Back up your computer
 
 Mac users can take advantage of the [Time Machine][] for this.

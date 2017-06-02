@@ -19,6 +19,9 @@ previous: manipular-cadenas-de-caracteres-en-python
 redirect_from: /es/lessons/from-html-to-list-of-words-1
 ---
 
+* TOC
+{:toc}
+
 ## Objetivos de la lección
 
 

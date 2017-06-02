@@ -9,6 +9,9 @@ layout: default
 difficulty: 2
 ---
 
+* TOC
+{:toc}
+
 Version: Python 2.7.2 and BeautifulSoup 4.
 
 This tutorial assumes basic knowledge of HTML, CSS, and the [Document

@@ -17,6 +17,9 @@ layout: default
 redirect_from: /es/installing-python-modules-pip
 ---
 
+* TOC
+{:toc}
+
 Objetivos de la lección
 -----------------------
 

@@ -16,6 +16,9 @@ prev: googlemaps-googleearth
 difficulty: 1
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

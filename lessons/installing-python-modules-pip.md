@@ -9,6 +9,9 @@ reviewers:
 layout: default
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

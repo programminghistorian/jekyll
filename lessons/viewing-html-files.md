@@ -14,6 +14,9 @@ next: working-with-text-files
 previous: introduction-and-installation
 ---
 
+* TOC
+{:toc}
+
 "Hello World" in HTML
 ---------------------
 

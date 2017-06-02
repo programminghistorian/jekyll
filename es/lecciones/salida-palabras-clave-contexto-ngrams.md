@@ -18,6 +18,9 @@ previous: palabras-clave-en-contexto-n-grams
 redirect_from: /es/lessons/output-keywords-in-context-in-html-file
 ---
 
+* TOC
+{:toc}
+
 ## Objetivo de la lección
 
 Esta lección se basa en [Palabras clave en contexto (usando n-grams)][], en la que se extrajeron n-gramas de un texto. Aquí aprenderás cómo generar una salidad de todos los n-gramas de una palabra clave dada en un documento descargado de Internet, y visualizarlos claramente en la ventana de tu navegador.

@@ -12,6 +12,9 @@ prev: intro-to-the-zotero-api
 difficulty: 1
 ---
 
+* TOC
+{:toc}
+
 Using Python to Create an New Zotero Item
 -----------------------------------------
 

@@ -20,6 +20,9 @@ redirect_from: /es/lessons/cleaning-data-with-openrefine
 difficulty: 2
 ---
 
+* TOC
+{:toc}
+
 ## Objetivos de la lección
 
 No confíes ciegamente en tus datos. Ese es el mensaje clave de este tutorial que se centra en mostrar cómo los investigadores pueden diagnosticar y proceder sobre la exactitud de los datos. En esta lección aprenderás los principios y la práctica de la limpieza de datos,  así como la forma de usar [*OpenRefine*](http://openrefine.org/) para realizar cuatro tareas esenciales que te ayudarán a limpiar tus datos:

@@ -15,6 +15,9 @@ next: research-data-with-unix
 difficulty: 1
 ---
 
+* TOC
+{:toc}
+
 # Introduction to the Bash Command Line
 
 ## Introduction

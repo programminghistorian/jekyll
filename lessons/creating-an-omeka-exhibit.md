@@ -11,6 +11,9 @@ editors:
 layout: default
 ---
 
+* TOC
+{:toc}
+
 Now that you've [added items to your Omeka site](/lessons/up-and-running-with-omeka) and grouped them into collections, you're ready for the next step: taking your users on a guided tour through the items you've collected.
 
 Before you begin: Map your exhibit
