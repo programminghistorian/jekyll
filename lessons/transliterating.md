@@ -16,7 +16,7 @@ difficulty: 2
 * TOC
 {:toc}
 
-## Lesson Goals:
+## Lesson Goals
 
 This lesson shows how to use Python to transliterate automatically a
 list of words from a language with a non-Latin alphabet to a
