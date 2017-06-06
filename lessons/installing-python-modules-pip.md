@@ -11,9 +11,7 @@ reviewers:
 difficulty: 1
 activity: acquiring
 topics: [get-ready, python]
-abstract: "This lesson shows you how to download and install Python modules. There
-are many ways to install external modules, but for the purposes of this
-lesson, we’re going to use a program called pip."
+abstract: "There are many ways to install external python libraries; this tutorial explains one of the most common methods using pip."
 ---
 
 Lesson Goals
@@ -21,7 +19,7 @@ Lesson Goals
 
 This lesson shows you how to download and install Python modules. There
 are many ways to install external modules, but for the purposes of this
-lesson, we’re going to use a program called [pip][]. As of Python 2.7.9 and newer, pip is installed by default. This tutorial will be helpful for anyone using older versions of Python (which are still quite common).
+lesson, we’re going to use a program called pip, easily installable on [mac/linux](https://pip.pypa.io/en/stable/) and [windows]( https://sites.google.com/site/pydatalog/python/pip-for-windows). As of Python 2.7.9 and newer, pip is installed by default. This tutorial will be helpful for anyone using older versions of Python (which are still quite common).
 
 Introducing Modules
 -------------------
@@ -56,7 +54,7 @@ Note: As of Python 3.4, pip will be included in the regular install.
 There are many reasons why you might not have this version yet, and in
 case you don’t, these instructions should help.
 
-### Mac and Linux instructions
+## Mac and Linux instructions
 
 As per the pip documentation, we can download a python script to install
 pip for us. Using a Mac or Linux, we can install pip via the command
@@ -86,7 +84,7 @@ trust to write to your system folders—you can use the **sudo** command
 sudo python get-pip.py
 ```
 
-### Windows Instructions
+## Windows Instructions
 
 As with the above platforms, the easiest way to install pip is through
 the use of a python program called get-pip.py, which you can download
@@ -111,7 +109,7 @@ command
 python get-pip.py to install pip
 ```
 
-If you are looking for more information, check out the [StackOverflow
+If you want more information or help with weird error message, check out the [StackOverflow
 page][] that seems to be regularly updated.
 
 Installing Python Modules
@@ -128,16 +126,21 @@ pip install beautifulsoup4
 pip install simplekml
 ```
 
-Remember, for the same reasons explained above, you will probably need
-to run pip with sudo on Mac or Linux systems (but not Windows), like
+Remember, for the same reasons explained above (on Mac or Linux systems, but not Windows), you might need to run pip with sudo, like
 
 ``` bash
 sudo pip install requests
 ```
+Sometimes, especially on Windows, you may find it helpful to use the -m flag, like
+
+``` bash
+python -m pip install XXX
+```
+
 
 Happy installing!
 
-  [pip]: https://pip.pypa.io/en/stable/
+  [pip]:
   [curl command]: http://www.thegeekstuff.com/2012/04/curl-examples/
   [here]: https://bootstrap.pypa.io/get-pip.py
   [StackOverflow page]: http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows
