@@ -16,13 +16,14 @@
 {% endfor %}
 </ul>
 
-<div id="filter-none">{{site.data.snippets.reset-button[page.lang]}} ({{ site.pages | where:"lesson","true" | size }})</div>
-
 <ul class="sort-by">
 <li class="sort" data-sort="date">{{site.data.snippets.sort-by-date[page.lang]}}</li>
 <li class="sort" data-sort="difficulty">{{site.data.snippets.sort-by-difficulty[page.lang]}}</li>
 </ul>
 
+<div id="filter-none">{{site.data.snippets.reset-button[page.lang]}} ({{ site.pages | where:"lesson","true" | size }})</div>
+
+<h2 class="results">Filtering Results: <span id="results-title">All lessons</span></h2>
 
 <div id="eachlesson">
 <ul class="list">
@@ -45,7 +46,21 @@
     $('.filter').children().click(function() {
         $('.filter').children().removeClass("current");
         $(this).addClass("current");
+        $('#results-title').text($(this).text());
+        $('#results-title').css('textTransform', 'capitalize');
     });
+
+    $('#filter-none').click(function() {
+        $('.filter').children().removeClass("current");
+        $('#results-title').text('All lessons');
+        //$(this).addClass("current");
+    });
+
+    $('.sort').click(function() {
+        $('.sort').removeClass("current");
+        $(this).addClass("current");
+    });
+
 
     initSort();
   });

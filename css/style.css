@@ -253,7 +253,7 @@ Lessons Index
     width:99.5%;
     clear:both;
     text-align:center;
-    margin-bottom:.2rem;
+    margin-bottom:1rem;
     background-color:#fefefe;
     color:#666;
     border:1px solid #666;
@@ -261,6 +261,14 @@ Lessons Index
 
   #filter-none:hover {
     background-color:#ededed;
+  }
+
+  .filter li:hover, .sort-by li:hover, #filter-none:hover {
+    cursor: pointer;
+  }
+
+  .activities li.current:hover, .filter li.current:hover,   .sort-by li.current:hover {
+    cursor:default;
   }
 
   .activities li {
@@ -272,8 +280,7 @@ Lessons Index
   }
 
   .activities li.current {
-    background-color:#39a;
-    color:#333;
+    background-color:#059;
   }
 
   .topics {
@@ -291,7 +298,7 @@ Lessons Index
   }
 
   .topics li.current {
-    background-color:#39a;
+    background-color:#aaa;
     color: #333;
   }
  .sort-by {
@@ -310,6 +317,11 @@ Lessons Index
   .sort:hover {
     text-decoration: none;
     background-color:#cecece;
+  }
+
+  .sort-by li.current {
+    background-color:#aaa;
+    color:#333;
   }
 
   .sort:focus {
@@ -339,9 +351,6 @@ Lessons Index
     right:-5px;
   }
 
-  .filter li:hover , #filter-none:hover {
-    cursor: pointer;
-  }
 
   .topic li a {
     text-decoration: none;
@@ -349,6 +358,14 @@ Lessons Index
 
   .list .date, .lesson-description .activity, .lesson-description .topics, .lesson-description .difficulty {
    display: none;
+   }
+
+   #lesson-list h2.results {
+     margin:1rem 0 2rem 0;
+   }
+
+   .results-title {
+     text-transform:capitalize;
    }
 
   .lesson-description {
