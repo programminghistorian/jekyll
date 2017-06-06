@@ -31,6 +31,41 @@
   }
 
 /* =============================================================================
+Blog Index
+========================================================================== */
+
+.blog-blurb {
+  text-align:center;
+}
+
+.blog-blurb h2 {
+  margin:0;
+}
+
+.blog-blurb h3 { /*author*/
+  margin-top:.4rem;
+  color: #666;
+  font-size:1rem;
+}
+
+.blog-blurb h4{
+  color: #999;
+  font-size:1rem;
+  margin-bottom:.2rem;
+  font-family:'Roboto Condensed';
+  text-transform:uppercase;
+}
+
+.blog-blurb figure {
+  max-width:80%;
+}
+
+.blog-blurb figcaption {
+  text-align:center;
+}
+
+
+/* =============================================================================
 Home Page
 ========================================================================== */
 
@@ -339,7 +374,6 @@ Lessons Index
     font-family:'Roboto Condensed';
     font-size:.8rem;
     color:#999;
-    text-align:left;
     text-transform:uppercase;
     clear:none;
   }
@@ -502,7 +536,6 @@ img {
   h1,h2,h3,h4,h5 {
     font-family:'Crete Round', serif;
     font-weight:normal;
-    text-align:left;
     clear:both;
   }
 
