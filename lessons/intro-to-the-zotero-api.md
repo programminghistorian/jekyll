@@ -11,9 +11,7 @@ difficulty: 1
 activity: acquiring
 topics: [api]
 abstract: "In this lesson, you’ll learn how to use python with the Zotero API to
-interact with your Zotero library. The Zotero API is a powerful
-interface that would allow you to build a complete Zotero client from
-scratch if you so desired."
+interact with your Zotero library."
 next: creating-new-items-in-zotero
 categories: [lessons, api]
 ---
@@ -44,7 +42,7 @@ directory you have chosen to use for these lessons.
 Using what you learned in the lesson on [Installing Python Modules with pip][],
 we'll use [pip][] to install libZotero, a python library that
 will allow us to interact with the Zotero API. To install the library,
-in your command line/terminal window enter:
+in your command line/terminal window (use Powershell on Windows) enter:
 
 ```
 pip install libZotero
@@ -56,7 +54,7 @@ password to allow the installation to proceed.
 ### Zotero Hello World
 
 Once *libZotero* is installed, we can use it to talk to the Zotero server
-using Python. In your text editor, run the following:
+using Python. In your text editor, open a new, blank text file, and begin with the following:
 
 ``` python
 #make the libZotero library available
@@ -97,8 +95,8 @@ the same page.
 To use the PH2 group library, use the following:
 
 ```
- Group ID: 155975
- API key: 9GLmvmZ1K1qGAz9QWcdlyf6L
+Group ID: 155975
+API key: 9GLmvmZ1K1qGAz9QWcdlyf6L
 ```
 
 ``` python
@@ -134,8 +132,8 @@ Next, we can print some basic information about these items.
 ``` python
 # print some data about these five items
 for item in items:
-  print 'Item Type: %s | Key: %s | Title: %s' % (item.itemType,
-item.itemKey, item.title)
+  print('Item Type: %s | Key: %s | Title: %s' % (item.itemType,
+item.itemKey, item.title))
 ```
 
 This step should retrieve the item type (journal article, webpage,
@@ -158,7 +156,7 @@ five items:
 
 ``` python
 for item in items:
-  print item.bibContent
+  print(item.bibContent)
 ```
 
 Running this command will print the bibliographic content stored on the
@@ -181,6 +179,8 @@ Zotero servers for these items:
   <div class="csl-entry">Ayers, Edward L. “The Pasts and Futures of Digital History” (1999). http://www.vcdh.virginia.edu/PastsFutures.html.</div>
 </div>
 ```
+
+If you are using Windows Terminal instead of Powershell and you get an error that starts with "UnicodeEncodeError", see this [explanation and instructions](https://pypi.python.org/pypi/win_unicode_console).
 
 Now that we have worked through retrieving information using the Zotero
 API, we can continue to use it to interact with the items stored in our
