@@ -2,9 +2,11 @@
 layout: blank
 ---
 
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date: "%B %-d, %Y" }}</p>
-<p>{% include author.html %}</p>
+<div class="blog-header blog-page-header">
+  <h3 class="above-title">{{page.date | date: "%B %-d, %Y"}}</h3>
+  <h1>{{ page.title }}</h1>
+  <h2 class="author-name">{% include author.html %}</h3>
+</div>
 
 {{ content }}
 

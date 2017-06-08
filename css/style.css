@@ -31,24 +31,25 @@
   }
 
 /* =============================================================================
-Blog Index
+Blog Index and Layout
 ========================================================================== */
 
-.blog-blurb {
+.blog-header {
   text-align:center;
 }
 
-.blog-blurb h2 {
+.blog-header h2 {
   margin:0;
+  line-height: 2rem;
 }
 
-.blog-blurb h3 { /*author*/
+.blog-header h3 { /*author*/
   margin-top:.4rem;
   color: #666;
   font-size:1rem;
 }
 
-.blog-blurb h4{
+.blog-header h4{
   color: #999;
   font-size:1rem;
   margin-bottom:.2rem;
@@ -56,14 +57,17 @@ Blog Index
   text-transform:uppercase;
 }
 
-.blog-blurb figure {
+.blog-header figure {
   max-width:80%;
 }
 
-.blog-blurb figcaption {
+.blog-header figcaption {
   text-align:center;
 }
 
+.blog-page-header {
+  margin-bottom:3rem;
+}
 
 /* =============================================================================
 Home Page
@@ -386,7 +390,7 @@ Lessons Index
       width:100%;
   }
 
-  h3.lesson-index-author {
+  .above-title {
     margin:0 0 .2rem 0;
     font-family:'Roboto Condensed';
     font-size:.8rem;
@@ -395,7 +399,7 @@ Lessons Index
     clear:none;
   }
 
-  h2.lesson-index-title {
+  .index-title {
     margin:0 0 1rem 0;
     font-size:1.1rem;
     font-family:'Crete Round';

@@ -12,8 +12,10 @@ Subscribe to the <a href="./feed.xml">RSS feed</a> for new blog posts.
 
 {% for post in site.posts %}
 
-<div class="blog-blurb">
-	<h4 class="lesson-index-author">{{post.date | date: "%B %-d, %Y"}}</h3>
+<hr/>
+
+<div class="blog-header">
+	<h4 class="above-title">{{post.date | date: "%B %-d, %Y"}}</h4>
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	<h3 class="author-name">
 		{% assign authorCount = post.authors | size %}
@@ -30,10 +32,9 @@ Subscribe to the <a href="./feed.xml">RSS feed</a> for new blog posts.
 	                         {% endif %}
 	                    {% endfor %}
 						{% endif %}
-	</h4>
+	</h3>
 	{{ post.excerpt | remove: '</p>' }} <a href="{{ post.url }}"><!--Read the full post! &raquo;--></a>
 </div>
 
-<hr/>
 
 {% endfor %}
