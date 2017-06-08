@@ -109,8 +109,9 @@ command
 python get-pip.py to install pip
 ```
 
-If you want more information or help with weird error message, check out the [StackOverflow
+If you want more information or help with a weird error message, check out the [StackOverflow
 page][] that seems to be regularly updated.
+
 
 Installing Python Modules
 -------------------------
@@ -131,7 +132,8 @@ Remember, for the same reasons explained above (on Mac or Linux systems, but not
 ``` bash
 sudo pip install requests
 ```
-Sometimes, especially on Windows, you may find it helpful to use the -m flag, like
+
+Sometimes, especially on Windows, you may find it helpful to use the -m flag (to help python find the pip module), like
 
 ``` bash
 python -m pip install XXX
