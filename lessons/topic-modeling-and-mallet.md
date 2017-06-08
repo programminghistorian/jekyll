@@ -25,6 +25,10 @@ This lesson requires you to use the command line. If you have no
 previous experience using the command line you may find it helpful to
 work through the Programming Historian [Bash Command Line][] lesson.
 
+**As noted below, while there is currently a preview release of MALLET 2.0.8 available, this
+lesson uses the official release of MALLET 2.0.7. If you are following
+along with our instructions, please be sure to download the correct version.**
+
 Lesson Goals
 ------------
 
