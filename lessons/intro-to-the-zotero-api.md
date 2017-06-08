@@ -41,13 +41,13 @@ directory you have chosen to use for these lessons.
 
 ### Installing libZotero
 
-Using what you learned in the lesson on [Installing Python Modules with pip][], 
+Using what you learned in the lesson on [Installing Python Modules with pip][],
 we'll use [pip][] to install libZotero, a python library that
 will allow us to interact with the Zotero API. To install the library,
 in your command line/terminal window enter:
 
 ```
-pip install libZotero 
+pip install libZotero
 ```
 
 Remember that you may need to use the `sudo` preface and enter your
@@ -60,7 +60,7 @@ using Python. In your text editor, run the following:
 
 ``` python
 #make the libZotero library available
-from libZotero import zotero 
+from libZotero import zotero
 ```
 
 Once we've successfully imported the name zotero from the library, we
@@ -76,7 +76,7 @@ password.
 ``` python
 #create Zotero library object called "zlib"
 zlib=zotero.Library('group','<insert group ID>','<null>',
-'<insert API key>') 
+'<insert API key>')
 ```
 
 For this lesson, you can use your own group or individual library, or
@@ -85,7 +85,7 @@ Historian 2][].
 
 If you want to use your own group or individual library, you will need
 to retrieve your group or user ID and your own API key. If you use your
-individual library, you'll also need to replace the word `group` with the 
+individual library, you'll also need to replace the word `group` with the
 word `user` in the above code.
 
 Your group ID can be found by hovering over the RSS option on your library
@@ -103,7 +103,7 @@ To use the PH2 group library, use the following:
 
 ``` python
 zlib=zotero.Library('group','155975','<null>',
-'9GLmvmZ1K1qGAz9QWcdlyf6L') 
+'9GLmvmZ1K1qGAz9QWcdlyf6L')
 ```
 
 Once we've defined our object, we can use it to interact with the
@@ -118,7 +118,7 @@ information from the first five top-level items in our collection.
 
 ``` python
 # retrieve the first five top-level items.
-items = zlib.fetchItemsTop({'limit': 5, 'content': 'json,bib,coins'}) 
+items = zlib.fetchItemsTop({'limit': 5, 'content': 'json,bib,coins'})
 ```
 
 Your output for this step, if you are using our sample collection,
@@ -126,7 +126,7 @@ should look like this:
 
 ``` xml
 value stored in cache - https://api.zotero.org/groups/155975/items/top?limit=5&content=
-json%2Cbib%2Ccoins&key=9GLmvmZ1K1qGAz9QWcdlyf6L 
+json%2Cbib%2Ccoins&key=9GLmvmZ1K1qGAz9QWcdlyf6L
 ```
 
 Next, we can print some basic information about these items.
@@ -134,8 +134,8 @@ Next, we can print some basic information about these items.
 ``` python
 # print some data about these five items
 for item in items:
-print 'Item Type: %s | Key: %s | Title: %s' % (item.itemType,
-item.itemKey, item.title) 
+  print 'Item Type: %s | Key: %s | Title: %s' % (item.itemType,
+item.itemKey, item.title)
 ```
 
 This step should retrieve the item type (journal article, webpage,
@@ -150,7 +150,7 @@ boosts access, collaboration, UCLA prof says
 Item Type: journalArticle | Key: 39V7A2SZ | Title: History
 and the second decade of the Web
 Item Type: journalArticle | Key: JRCM2PM7 | Title: The
-Pasts and Futures of Digital History 
+Pasts and Futures of Digital History
 ```
 
 We can also pull the bibliographic information associated with our first
@@ -158,7 +158,7 @@ five items:
 
 ``` python
 for item in items:
-    print item.bibContent 
+  print item.bibContent
 ```
 
 Running this command will print the bibliographic content stored on the
