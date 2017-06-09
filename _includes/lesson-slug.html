@@ -1,0 +1,5 @@
+{% if page.lang == 'en' %}
+  {% assign slug = page.url | remove_first: '/lessons/' | remove_first: '.html' %}
+{% else %}
+  {% assign slug = page.redirect_from  | remove_first:'/es/lessons/' %}
+{% endif %}
