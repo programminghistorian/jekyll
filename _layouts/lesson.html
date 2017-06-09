@@ -2,11 +2,8 @@
 layout: base
 ---
 
-{% if page.lang == 'en' %}
-  {% assign slug = page.slug %}
-{% else %}
-  {% assign slug = page.redirect_from  | remove_first:'/es/lessons/' %}
-{% endif %}
+<!-- Calculate the lesson slug for use across this page -->
+{% include lesson-slug.html %}
 
 <header>
 
