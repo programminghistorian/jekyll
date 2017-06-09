@@ -12,7 +12,7 @@ review-ticket: 34
 editors: 
 - Jeri E. Wieringa
 difficulty: 2
-layout: default
+layout: lesson
 ---
 
 # Learning Goals

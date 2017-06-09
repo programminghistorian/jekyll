@@ -8,7 +8,7 @@ reviewers:
 editors:
 - Adam Crymble
 date: 2017-05-07
-layout: default
+layout: lesson
 difficulty: 1
 review-ticket: 33
 ---
