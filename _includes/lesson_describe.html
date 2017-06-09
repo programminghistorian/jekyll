@@ -1,10 +1,7 @@
-{% if page.lang == "en" %}
-   {% capture path %}{{ site.baseurl }}/lessons/{{ lesson.slug }}{% endcapture %}
-   {% capture imgpath %}{{ site.baseurl }}/gallery/{{ lesson.slug }}{% endcapture %}
-{% elsif page.lang == "es" %}
-   {% capture path %}{{ site.baseurl }}{{ lesson.redirect_from }}{% endcapture %}
-   {% capture imgpath %}{{ site.baseurl }}/gallery/{{ lesson.redirect_from | remove_first:'/es/lessons/' }}{% endcapture %}
-{% endif %}
+{% include lesson-slug.html lesson=lesson %}
+
+{% capture path %}{{ site.baseurl }}/lessons/{{ slug }}{% endcapture %}
+{% capture imgpath %}{{ site.baseurl }}/gallery/{{ slug }}{% endcapture %}
 
 <div class="lesson-description">
 

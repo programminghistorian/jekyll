@@ -1,5 +1,12 @@
-{% if page.lang == 'en' %}
-  {% assign slug = page.url | remove_first: '/lessons/' | remove_first: '.html' %}
+{% if include.lesson %}
+  {% assign lessonobj = include.lesson %}
 {% else %}
-  {% assign slug = page.redirect_from  | remove_first:'/es/lessons/' %}
+  {% assign lessonobj = page %}
+{% endif %}
+
+
+{% if lessonobj.lang == 'en' %}
+  {% assign slug = lessonobj.url | remove_first: '/lessons/' | remove_first: '.html' %}
+{% else %}
+  {% assign slug = lessonobj.redirect_from  | remove_first:'/es/lessons/' %}
 {% endif %}
