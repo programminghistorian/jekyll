@@ -1,7 +1,6 @@
 ---
 title: Up and Running with Omeka.net 
 layout: lesson
-slug: up-and-running-with-omeka
 date: 2016-02-17
 authors:
 - Miriam Posner

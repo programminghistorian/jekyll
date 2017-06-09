@@ -1,7 +1,6 @@
 ---
 title: Keywords in Context (Using n-grams) with Python 
 layout: lesson
-slug: keywords-in-context-using-n-grams
 date: 2012-07-17
 authors:
 - William J. Turkel

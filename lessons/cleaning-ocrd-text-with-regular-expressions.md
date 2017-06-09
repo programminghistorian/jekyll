@@ -1,7 +1,6 @@
 ---
 title: Cleaning OCR’d text with Regular Expressions
 layout: lesson
-slug: cleaning-ocrd-text-with-regular-expressions
 date: 2013-05-22
 authors:
 - Laura Turner O'Hara

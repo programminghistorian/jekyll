@@ -1,7 +1,6 @@
 ---
 title: Automated Downloading with Wget
 layout: lesson
-slug: automated-downloading-with-wget
 date: 2012-06-27
 authors:
 - Ian Milligan
