@@ -1,3 +1,11 @@
+<!-- 
+
+This include generates the individual lesson descriptions that display on the lesson index pages (_includes/lesson-index.html)
+
+lesson-slug.html computes the correct lesson slug, and then this include determines both the proper lesson path as well as the avatar image path
+
+ -->
+
 {% include lesson-slug.html lesson=lesson %}
 
 {% if lesson.lang == "es" %}
