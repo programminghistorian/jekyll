@@ -181,59 +181,47 @@ Lesson Headers
 Lessons Index
 ========================================================================== */
 
-  #eachlesson li {
-    list-style-type:none;
-    margin:none;
-    padding:none;
-  }
-
-  #eachlesson ul {
-    margin:0;
-    padding:0;
-  }
-
   #lesson-list ul {
     text-align:center;
     padding: 0px;
+    margin: 0 0 1rem 0;
   }
 
-  .filter li, .sort, #filter-none {
-    font-family:'Open Sans';
-    border:none;
-    display:inline-block;
-    text-decoration: none;
-    background-color: #38c;
-    padding:.2rem .4rem;
-    color:#eee;
-    border-radius: 3px;
-    font-size:.9rem;
-    text-transform:uppercase;
+  #lesson-list ul li {
+    padding: .4rem .6rem;
   }
 
+  li.filter,
+  li.sort,
   #filter-none {
-    width:99.5%;
-    clear:both;
-    text-align:center;
-    margin-bottom:1rem;
-    background-color:#fefefe;
-    color:#666;
-    border:1px solid #666;
+    font: .9rem/1.1rem 'Open Sans', sans-serif;
+    padding:.2rem .4rem;
+    border:none;
+    border-radius: 3px;
+    display:inline-block;
+    text-transform:uppercase;
+    text-decoration: none;
   }
 
+  .filter li:hover,
+  .sort-by li:hover,
   #filter-none:hover {
-    background-color:#ededed;
-  }
-
-  .filter li:hover, .sort-by li:hover, #filter-none:hover {
     cursor: pointer;
   }
 
-  .activities li.current:hover, .filter li.current:hover,   .sort-by li.current:hover {
+  .activities li.current:hover,
+  .filter li.current:hover,
+  .sort-by li.current:hover {
     cursor:default;
   }
 
+  .topic li a {
+    text-decoration: none;
+  }
+
   .activities li {
-    padding: .3rem .8rem;
+    background-color:#38c;
+    color:#fff;
   }
 
   .activities li:hover {
@@ -244,10 +232,6 @@ Lessons Index
     background-color:#059;
   }
 
-  .topics {
-    margin:1rem 0 1rem 0;
-  }
-
   .topics li {
     background-color:#eee;
     color: #38a;
@@ -255,7 +239,6 @@ Lessons Index
 
   .topics li:hover {
     background-color:#ccc;
-    color: #38a;
   }
 
   .topics li.current {
@@ -263,26 +246,23 @@ Lessons Index
     color: #333;
   }
 
-  .sort {
-    margin:0;
-    color:#666;
-    text-decoration: none;
-    background-color: #efefef;
-    width:49.5%;
-    text-align:center;
-    font-family:'Open Sans';
+  ul.sort-by li.current {
+    background-color:#aaa;
+    color:#333;
   }
 
-  .sort:hover {
+  li.sort {
+    background-color: #efefef;
+    color:#666;
+    width:49.5%;
+  }
+
+  li.sort:hover {
     text-decoration: none;
     background-color:#cecece;
   }
 
-  .sort:focus {
-    outline:none;
-  }
-
-  .sort:after , .sort.asc:after {
+  li.sort:after , .sort.asc:after {
     width: 0;
     height: 0;
     border-left: 5px solid transparent;
@@ -293,7 +273,8 @@ Lessons Index
     top:13px;
     right:-5px;
   }
-  .sort.desc:after {
+
+  li.sort.desc:after {
     width: 0;
     height: 0;
     border-left: 5px solid transparent;
@@ -305,25 +286,27 @@ Lessons Index
     right:-5px;
   }
 
-  .sort-by {
-    margin-bottom:2rem;
-  }
-
-  .sort-by li.current {
-    background-color:#aaa;
-    color:#333;
-  }
-
-  .topic li a {
-    text-decoration: none;
-  }
-
-  .list .date, .lesson-description .activity, .lesson-description .topics, .lesson-description .difficulty {
-   display: none;
+   #filter-none {
+     width:99.5%;
+     clear:both;
+     text-align:center;
+     margin-bottom:1rem;
+     background-color:#fefefe;
+     color:#666;
+     border:1px solid #999;
    }
 
-   #lesson-list h2.results {
-     margin:1rem 0 2rem 0;
+   #filter-none:hover {
+     background-color:#ededed;
+   }
+
+   #eachlesson ul {
+     margin:0;
+     padding:0;
+   }
+
+   #eachlesson li {
+     list-style-type:none;
    }
 
    .results-title {
@@ -332,7 +315,6 @@ Lessons Index
 
   .lesson-description {
     margin-bottom:2rem;
-    border:0px solid #ccc;
     padding:0rem;
     min-height:120px;
     text-align:left;
@@ -357,17 +339,21 @@ Lessons Index
     clear:none;
   }
 
-  .index-title {
-    margin:0 0 1rem 0;
-    font-size:1.1rem;
-    font-family:'Crete Round';
-    text-align:left;
+  #eachlesson h2 {
+    font: 1.1rem/1.3rem 'Crete Round', serif;
+    margin:0 0 .8rem 0;
     clear:none;
   }
 
   p.abstract {
-    font-family:'Open Sans';
-    font-size: .8rem;
+    font: .8rem/1.2rem 'Open Sans', sans-serif;
+  }
+
+  .list .date,
+  .lesson-description .activity,
+  .lesson-description .topics,
+  .lesson-description .difficulty {
+    display: none;
   }
 
 
