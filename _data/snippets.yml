@@ -48,22 +48,22 @@ menu-contribute-review:
     title: Reviewer Guidelines
     link: /reviewer-guidelines
   es:
-    title: Revisar una leccion
+    title: Guia para revisores
     link: /es/guia-para-revisores
 menu-contribute-write:
   en:
     title: Author Guidelines
     link: /author-guidelines
   es:
-    title: Escribe una leccion
-    link: /es/flujo-de-trabajo-nuevas-lecciones
+    title: Guia para autores
+    link: /es/guia-para-autores
 menu-contribute-edit:
   en:
     title: Editor Guidelines
     link: /editor-guidelines
   es:
-    title: Escribe una leccion
-    link: /es/guia-editor
+    title: Guia para editores
+    link: /es/guia-para-editores
 menu-lessons:
   en:
     title: Lessons
