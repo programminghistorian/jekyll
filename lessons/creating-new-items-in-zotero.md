@@ -33,6 +33,8 @@ Zotero, you would create an *attachment* to that item. But for now you
 will start by creating a new Zotero Item and assigning some information
 to metadata fields.
 
+For the below instructions, you should put all of the code snippets into a single text file, save as 'myfile.py' (or whatever filename you'd like), and then run at the command prompt: python myfile.py.
+
 Your first step is to import the python modules that you will need for
 this program.
 
@@ -146,14 +148,14 @@ Item Type that interests you:
 
     https://api.zotero.org/items/new?itemType=document
 
-For example, the list of Item Types returned by the first URL shows a type called `videoRecording`. 
+For example, the list of Item Types returned by the first URL shows a type called `videoRecording`.
 In our code above, you could request a template for that type by changing the
-`document` argument in our `getItemTemplate()` function with `videoRecording`. To 
-see which fields are available in this template, you could navigate in your browser to the 
+`document` argument in our `getItemTemplate()` function with `videoRecording`. To
+see which fields are available in this template, you could navigate in your browser to the
 appropriate URL:
 
     https://api.zotero.org/items/new?itemType=videoRecording
-    
+
 For more details, see the documentation on write requests for the [Zotero API](https://www.zotero.org/support/dev/web_api/v3/write_requests).
 
   [Intro to the Zotero API]: ../lessons/intro-to-the-zotero-api
