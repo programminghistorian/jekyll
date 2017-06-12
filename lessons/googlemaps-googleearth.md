@@ -1,7 +1,6 @@
 ---
 title: Intro to Google Maps and Google Earth
 layout: lesson
-slug: googlemaps-googleearth
 date: 2013-12-13
 authors:
 - Jim Clifford

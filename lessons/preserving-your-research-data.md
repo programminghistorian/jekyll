@@ -1,7 +1,6 @@
 ---
 title: Preserving Your Research Data
 layout: lesson
-slug: preserving-your-research-data
 date: 2014-04-30
 authors:
 - James Baker

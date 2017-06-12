@@ -1,7 +1,6 @@
 ---
 title: Transliterating non-ASCII characters with Python
 layout: lesson
-slug: transliterating
 date: 2013-10-04
 authors:
 - Seth Bernstein

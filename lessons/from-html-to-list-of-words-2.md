@@ -1,7 +1,6 @@
 ---
 title: From HTML to List of Words (part 2)
 layout: lesson
-slug: from-html-to-list-of-words-2
 date: 2012-07-17
 authors:
 - William J. Turkel

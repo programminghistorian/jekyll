@@ -1,7 +1,6 @@
 ---
 title: Reshaping JSON with jq
 layout: lesson
-slug: json-and-jq
 date: 2016-05-24
 authors:
 - Matthew Lincoln

@@ -1,7 +1,6 @@
 ---
 title: Output Data as an HTML File with Python
 layout: lesson
-slug: output-data-as-html-file
 date: 2012-07-17
 authors:
 - William J. Turkel

@@ -1,7 +1,6 @@
 ---
 title: Data Mining the Internet Archive Collection
 layout: lesson
-slug: data-mining-the-internet-archive
 date: 2014-03-03
 authors:
 - Caleb McDaniel

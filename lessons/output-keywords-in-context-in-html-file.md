@@ -1,7 +1,6 @@
 ---
 title: Output Keywords in Context in an HTML File with Python
 layout: lesson
-slug: output-keywords-in-context-in-html-file
 date: 2012-07-17
 authors:
 - William J. Turkel

@@ -1,7 +1,6 @@
 ---
 title: Understanding Web Pages and HTML 
 layout: lesson
-slug: viewing-html-files
 date: 2012-07-17
 authors:
 - William J. Turkel

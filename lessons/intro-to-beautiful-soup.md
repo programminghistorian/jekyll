@@ -1,7 +1,6 @@
 ---
 title: Intro to Beautiful Soup
 layout: lesson
-slug: intro-to-beautiful-soup
 date: 2012-12-30
 authors:
 - Jeri Wieringa

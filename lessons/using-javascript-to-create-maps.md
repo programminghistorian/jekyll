@@ -11,7 +11,7 @@ reviewers:
 editors:
 - Caleb McDaniel
 difficulty: 2
-layout: default
+layout: lesson
 review-ticket: 32
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Installing QGIS 2.0 and Adding Layers
 layout: lesson
-slug: qgis-layers
 date: 2013-12-13
 authors:
 - Jim Clifford

@@ -1,10 +1,19 @@
-{% if page.lang == "en" %}
-   {% capture path %}{{ site.baseurl }}/lessons/{{ lesson.slug }}{% endcapture %}
-   {% capture imgpath %}{{ site.baseurl }}/gallery/{{ lesson.slug }}{% endcapture %}
-{% elsif page.lang == "es" %}
-   {% capture path %}{{ site.baseurl }}{{ lesson.redirect_from }}{% endcapture %}
-   {% capture imgpath %}{{ site.baseurl }}/gallery/{{ lesson.redirect_from | remove_first:'/es/lessons/' }}{% endcapture %}
+<!-- 
+
+This include generates the individual lesson descriptions that display on the lesson index pages (_includes/lesson-index.html)
+
+lesson-slug.html computes the correct lesson slug, and then this include determines both the proper lesson path as well as the avatar image path
+
+ -->
+
+{% include lesson-slug.html lesson=lesson %}
+
+{% if lesson.lang == "es" %}
+  {% capture path %}{{ site.baseurl }}/es/lessons/{{ slug }}{% endcapture %}
+{% else %}
+  {% capture path %}{{ site.baseurl }}/lessons/{{ slug }}{% endcapture %}
 {% endif %}
+{% capture imgpath %}{{ site.baseurl }}/gallery/{{ slug }}{% endcapture %}
 
 <div class="lesson-description">
 

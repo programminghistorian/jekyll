@@ -1,7 +1,6 @@
 ---
 title: Creating and Viewing HTML Files with Python
 layout: lesson
-slug: creating-and-viewing-html-files-with-python
 date: 2012-07-17
 authors:
 - William J. Turkel

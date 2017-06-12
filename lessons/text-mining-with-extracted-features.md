@@ -9,7 +9,7 @@ reviewers:
 - Catherine DeRose
 editors:
 - Ian Milligan
-layout: default
+layout: lesson
 ---
 
 

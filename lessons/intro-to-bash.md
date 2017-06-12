@@ -1,7 +1,6 @@
 ---
 title: Introduction to the Bash Command Line
 layout: lesson
-slug: intro-to-bash
 date: 2014-09-20
 authors: 
 - Ian Milligan

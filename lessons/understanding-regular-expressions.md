@@ -1,7 +1,6 @@
 ---
 title: Understanding Regular Expressions
 layout: lesson
-slug: understanding-regular-expressions
 date: 2013-06-22
 authors:
 - Doug Knox

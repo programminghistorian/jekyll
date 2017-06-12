@@ -1,7 +1,6 @@
 ---
 title: The Sound of Data (a gentle introduction to sonification for historians)
 layout: lesson
-slug: sonification
 date: 2016-06-07
 authors:
 - Shawn Graham
