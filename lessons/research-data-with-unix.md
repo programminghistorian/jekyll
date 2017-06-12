@@ -1,7 +1,6 @@
 ---
 title: Counting and mining research data with Unix
 layout: lesson
-slug: research-data-with-unix
 date: 2014-09-20
 authors: 
 - James Baker

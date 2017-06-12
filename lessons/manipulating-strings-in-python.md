@@ -1,7 +1,6 @@
 ---
 title: Manipulating Strings in Python
 layout: lesson
-slug: manipulating-strings-in-python
 date: 2012-07-17
 authors:
 - William J. Turkel

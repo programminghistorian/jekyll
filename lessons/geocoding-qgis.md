@@ -8,7 +8,7 @@ reviewers:
 - Léon Robichaud
 editors:
 - Adam Crymble
-layout: default
+layout: lesson
 difficulty: 2
 review-ticket: 27
 ---

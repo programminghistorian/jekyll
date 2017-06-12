@@ -1,7 +1,6 @@
 ---
 title: Cleaning Data with OpenRefine
 layout: lesson
-slug: cleaning-data-with-openrefine
 date: 2013-08-05
 authors:
 - Seth van Hooland

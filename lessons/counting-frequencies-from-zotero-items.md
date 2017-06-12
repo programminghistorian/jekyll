@@ -1,7 +1,6 @@
 ---
 title: Counting Frequencies from Zotero Items
 layout: lesson
-slug: counting-frequencies-from-zotero-items
 date: 2013-04-01
 authors:
 - Spencer Roberts

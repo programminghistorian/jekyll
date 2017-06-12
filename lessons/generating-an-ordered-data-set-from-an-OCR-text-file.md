@@ -1,7 +1,6 @@
 ---
 title: Generating an Ordered Data Set from an OCR Text File
 layout: lesson
-slug: generating-an-ordered-data-set-from-an-OCR-text-file
 date: 2014-11-25
 authors:
 - Jon Crump

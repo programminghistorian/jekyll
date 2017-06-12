@@ -1,7 +1,6 @@
 ---
 title: "Supervised Classification: The Naive Bayesian Returns to the Old Bailey"
 layout: lesson
-slug: naive-bayesian
 date: 2014-12-17
 authors: 
 - Vilja Hulden

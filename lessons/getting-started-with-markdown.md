@@ -1,7 +1,6 @@
 ---
 title: Getting Started with Markdown
 layout: lesson
-slug: getting-started-with-markdown
 date: 2015-11-13
 authors:
 - Sarah Simpkin

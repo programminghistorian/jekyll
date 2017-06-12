@@ -1,7 +1,6 @@
 ---
 title: Setting Up an Integrated Development Environment for Python (Windows)
 layout: lesson
-slug: windows-installation
 date: 2012-07-17
 authors:
 - William J. Turkel

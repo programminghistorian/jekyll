@@ -1,7 +1,6 @@
 ---
 title: Building a static website with Jekyll and GitHub Pages
 layout: lesson
-slug: building-static-sites-with-jekyll-github-pages
 date: 2016-04-18
 authors:
 - Amanda Visconti

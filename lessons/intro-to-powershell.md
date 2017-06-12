@@ -1,7 +1,6 @@
 ---
 title: Introduction to the Windows Command Line with PowerShell
 layout: lesson
-slug: intro-to-powershell
 date: 2016-07-21
 authors:
 - Ted Dawson

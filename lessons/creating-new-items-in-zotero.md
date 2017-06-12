@@ -1,7 +1,6 @@
 ---
 title: Creating New Items in Zotero
 layout: lesson
-slug: creating-new-items-in-zotero
 date: 2013-04-01
 authors:
 - Amanda Morton

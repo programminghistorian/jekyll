@@ -1,7 +1,6 @@
 ---
 title: "Transforming Data for Reuse and Re-publication with XML and XSL"
 layout: lesson
-slug: transforming-xml-with-xsl
 date: 2016-07-07
 authors:
 - M. H. Beals

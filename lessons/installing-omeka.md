@@ -1,7 +1,6 @@
 ---
 title: Installing Omeka
 layout: lesson
-slug: installing-omeka
 date: 2016-07-24
 authors:
 - Jonathan Reeve

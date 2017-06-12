@@ -1,7 +1,6 @@
 ---
 title: Setting up an Integrated Development Environment for Python (Linux)
 layout: lesson
-slug: linux-installation
 date: 2012-07-17
 authors:
 - William J. Turkel
