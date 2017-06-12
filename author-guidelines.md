@@ -5,10 +5,10 @@ layout: blank
 
 # Author Guidelines
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" />
-<h3 class="noclear">Step 1: <a href="#proposing-a-new-lesson">Proposing a New Lesson</a></h3>
-<h3 class="noclear">Step 2: <a href="#writing-a-new-lesson">Writing and Formatting a New Lesson</a></h3>
-<h3 class="noclear">Step 3: <a href="#submitting-a-new-lesson">Submitting a New Lesson</a></h3>
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
+<h2 class="noclear">Step 1: <a href="#proposing-a-new-lesson">Proposing a New Lesson</a></h2>
+<h2 class="noclear">Step 2: <a href="#writing-a-new-lesson">Writing and Formatting a New Lesson</a></h2>
+<h2 class="noclear">Step 3: <a href="#submitting-a-new-lesson">Submitting a New Lesson</a></h2>
 
 ## Proposing a New Lesson
 If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, contact [Jeri Wieringa] to discuss your idea. Getting in touch at an early stage will help you frame your lesson--especially identifying a target audience and expected skill level--and to pair you with the most appropriate editor.
@@ -70,7 +70,7 @@ To create the YAML block for your lesson, you should **copy and paste the follow
   <h4 class="alert heading">Important YAML Notes</h4>
   <ul>
     <li>Keep the \| in the title field as shown; indent the actual title with a tab on a blank line</li>
-    <li>Use the "list" format shown above for the authors field**, even if there is only one author</li>
+    <li>Use the "list" format shown above for the authors field, even if there is only one author</li>
     <li>Be sure there are no extraneous spaces in your header</li>
     <li>The YAML block must be followed by a blank line after the final <code>---</code></li>
   </ul>

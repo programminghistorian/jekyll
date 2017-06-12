@@ -7,11 +7,16 @@ redirect_from: /report-issue.html
 
 # We Appreciate Your Feedback
 
-<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" />
+<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" />
 
-Did you run into code that doesn't work? Does a command or concept need a clearer explanation? An awkward phrase that keeps tripping you up? Typos?
+Run into code that doesn't work?
+
+Does a command or concept need a clearer explanation?
+
+Find an awkward phrase that keeps tripping you up?
 
 Thank you for taking the time to report a problem or suggest a change. Your assistance is crucial for helping us maintain the best possible lessons!
+
 
 ## Option 1: Email or Tweet
 Contact <a href="mailto:jeri.elizabeth%2Bproghist@gmail.com">Jeri Wieringa</a> at George Mason University or one of the other members of our [Project Team](project-team.html). You can also tweet [@ProgHist](https://twitter.com/proghist).

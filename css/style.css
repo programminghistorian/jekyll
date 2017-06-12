@@ -31,6 +31,29 @@ Helper classes
     max-width: 58rem;
   }
 
+  .garnish {
+    width: 23%;
+    padding:0;
+  }
+
+  .full-width {
+    width:80%;
+    margin: 0 auto;
+    text-align:center;
+  }
+
+  .float-right {
+    float:right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .float-left {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+
 /* =============================================================================
 Home Page
 ========================================================================== */
@@ -483,33 +506,13 @@ Lesson Typography
 
   ins { background: #ff9; color: #000; text-decoration: none; }
 
-  .garnish {
-    width: 23%;
-    padding:0;
-  }
-
-  .full-width {
-    width:80%;
-    margin: 0 auto;
-    text-align:center;
-  }
-
-  .float-right {
-    float:right;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .float-left {
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-  }
 
   h1,h2,h3,h4,h5 {
     font-family:'Crete Round', serif;
     font-weight:normal;
     clear:both;
   }
+
 
   h1 {
     font-size:2rem;
@@ -572,6 +575,10 @@ Lesson Typography
 
   .alert {
     font-family: 'Roboto';
+  }
+
+  .alert h3, .alert h4 {
+    margin-top:0;
   }
 
 

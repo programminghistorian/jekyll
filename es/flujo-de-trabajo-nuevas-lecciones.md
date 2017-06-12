@@ -2,20 +2,15 @@
 title: Instrucciones para autores y traductores
 layout: directory
 ---
-Esta página contiene instrucciones para los autores que deseen contribuir con una nueva lección a *The Programming Historian en español*. 
-
-- Paso 1: [Traducir o proponer una lección nueva](#traducir-o-proponer-una-lección-nueva)
-- Paso 2: [Escribir y dar formato](#escribir-y-dar-formato)
-- Paso 3: [Enviar una traducción o lección nueva](#enviar-una-traducción-o-una-lección-nueva)
-
-<br/><br/>
-
 
 # Traducir o proponer una lección nueva
 
-<figure>
-    <img src="../images/author-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
-</figure>
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
+
+<h2 class="noclear">Paso 1: <a href="traducir-o-proponer-una-lección-nueva">Traducir o proponer una lección nueva</a></h2>
+<h2 class="noclear">Paso 2: <a href="escribir-y-dar-formato">Escribir y dar formato</a></h2>
+<h2 class="noclear">Paso 3: <a href="enviar-una-traducción-o-una-lección-nueva">Enviar una traducción o lección nueva</a></h2>
+
 
 Si quieres traducir una lección, tienes una idea para una lección nueva o ya has escrito un tutorial que crees que puede adaptarse a *The Programming Historian en español*, contacta con [Antonio Rojas Castro]. Cuanto antes te pongas en contacto con nosotros, mucho mejor; de esta manera, te ayudaremos a plantear adecuadamente tu contribución, teniendo en cuenta el público objetivo y el nivel de conocimientos necesarios. También te asignaremos un editor para ayudarte a resolver dudas y a desarrollar la lección de la mejor manera.
 
@@ -51,7 +46,7 @@ Identifica tu traduccion o lección nueva siguiendo estas instrucciones:
 
 - El nombre de archivo debe estar en minúscula y ser breve pero descriptivo. Este nombre de archivo se convertirá al final en el *[slug]* de la URL con que se publique en internet. Por ejemplo, la lección titulada "Getting Started with Markdown" tiene el *slug* `getting-started-with-markdown` y la URL <http://programminghistorian.org/lessons/getting-started-with-markdown>. Para más ejemplos, consulta el resto de lecciones publicadas.
 -   Tu *slug* será referenciado más tarde de la siguiente manera: LECCION-SLUG.
--    Ten en cuenta cómo los lectores potenciales pueden encontrar tu lección en los buscadores. Un *slug* que se componga de palabras claves es una muy buena forma de recibir visitas. 
+-    Ten en cuenta cómo los lectores potenciales pueden encontrar tu lección en los buscadores. Un *slug* que se componga de palabras claves es una muy buena forma de recibir visitas.
 -   No utilices espacios o guiones bajos `(_)` para separar palabras, utiliza el guion medio `(-)`.
 -   La extensión de tu archivo debe ser `.md` (markdown).
 
@@ -72,7 +67,7 @@ Para añadir un bloque de metadatos YAML en una nueva lección, simplemente **co
     reviewers:
     layout: lesson
     ---
-    
+
 En caso de que envíes una traducción, debes mantener el bloque YAML de la lección original y adicionar la información del traductor y del revisor de la traducción. De tal forma, el ejemplo anterior quedará de la siguiente manera:
 
     ---
@@ -94,7 +89,7 @@ En caso de que envíes una traducción, debes mantener el bloque YAML de la lecc
 
 - **Debes conservar la barra horizontal \| en el título tal y como se muestra** e indentar el título con el tabulador.
 - **Debes utilizar el formato de lista tal y como se muestra para los campos dedicados a los autores**; esto también debe realizarse aunque haya un único autor.
-- **Asegúrate de que no hay espacios sobrantes en el encabezado**. Los espacios pueden causar problemas y son difíciles de controlar. 
+- **Asegúrate de que no hay espacios sobrantes en el encabezado**. Los espacios pueden causar problemas y son difíciles de controlar.
 - **Tras el bloque YAML y los tres guiones `---`, debe seguir una línea en blanco**.
 
 ## Escribe en Markdown
@@ -111,7 +106,7 @@ Los recursos y tutoriales suguientes contienen más información sobre cómo dar
 
 ### Utiliza encabezados en cada sección
 
-Recomendamos el uso consistente de encabezados para que las lecciones sean fáciles de leer. A medida que traduces o escribes una lección, los niveles conformados por las secciones te ayudarán a visualizar la estructura de la lección. Por favor, evita secciones largas sin encabezados (son necesarios para facilitar la lectura); los encabezados no se generan mediante **negrita** o *cursiva* sino con la anotación Markdow oportuna. A menos que la lección sea muy breve, tu estructura precisará de tres niveles como mínimo. 
+Recomendamos el uso consistente de encabezados para que las lecciones sean fáciles de leer. A medida que traduces o escribes una lección, los niveles conformados por las secciones te ayudarán a visualizar la estructura de la lección. Por favor, evita secciones largas sin encabezados (son necesarios para facilitar la lectura); los encabezados no se generan mediante **negrita** o *cursiva* sino con la anotación Markdow oportuna. A menos que la lección sea muy breve, tu estructura precisará de tres niveles como mínimo.
 
 Hay distintas maneras de crear un encabezado de sección con Markdown pero te pedimos que, por favor, utilices la almohadilla (`#`). Las secciones de primer nivel se marcan con una sola \#; las secciones de segundo nivel se indican con dos \#\#. Y así sucesivamente. Con nuestra propuesta de marcado, el texto que sigue
 
@@ -139,7 +134,7 @@ Si utilizas los encabezados de sección de manera adecuada, ayudarás a los edit
 
 Si quieres señalar información que no es esencial para entender la lección pero crees que es importante mencionar (o solo interesa a unos pocos lectores), puedes separar el texto del resto utilizando bloques destacados. En Markdown, el destacado se marca de la suguiente manera:
 
-	> Texto destacado en Markdown. 
+	> Texto destacado en Markdown.
 
 Y se visualiza así:
 
@@ -223,7 +218,7 @@ Se puede controlar la alineación añadiendo columnas a la línea de guiones que
 Para añadir notas a tu traducción o lección, primero añade la marca de la nota en el cuerpo del texto de la siguiente manera:
 
     Esto es un texto.[^1] Otro texto.[^endnote]
-    
+
 Como puedes ver, la marca está rodeada por un par de paréntesis cuadrados, que pueden incluir un número o una letra, siempre y cuando vayan precedidos de un acento circunflejo (`^`).
 
 A continuación, deberás especificar qué texto corresponde a la marca de la nota, idealmente al final del archivo. Para definir la nota, tendrás que reproducir la marca utilizada, añadir una coma, y escribir el texto deseado:
@@ -231,8 +226,8 @@ A continuación, deberás especificar qué texto corresponde a la marca de la no
     [^1]: Una definición *boba* de nota.
 
     [^nota]: Mira, ¡he añadido una nota!
-    
-Para más detalles sobre cómo funciona esta sintaxis, por favor, consulta las [instrucciones de la versión extenddida de Markdown](http://kramdown.gettalong.org/syntax.html#footnotes). 
+
+Para más detalles sobre cómo funciona esta sintaxis, por favor, consulta las [instrucciones de la versión extenddida de Markdown](http://kramdown.gettalong.org/syntax.html#footnotes).
 
 
 ### Bloque de código
@@ -241,13 +236,13 @@ Si quieres incluir líneas de código en una lección o traducir una lección qu
 
 ```python
 print 'hola mundo'
-``` 
+```
 Puedes leer más sobre cómo [insertar código aquí].
 
 
 ### Comillas tipográficas
 
-Por favor, no utilices comillas tipográficas o comillas invertidas. Este tipo de comillas quedan bien en textos ensayísticos pero el ordenador los procesa como entidades y pueden afectar al código. He aquí una razón más para utilizar un editor de texto plano. 
+Por favor, no utilices comillas tipográficas o comillas invertidas. Este tipo de comillas quedan bien en textos ensayísticos pero el ordenador los procesa como entidades y pueden afectar al código. He aquí una razón más para utilizar un editor de texto plano.
 
 
 ### Énfasis
@@ -265,7 +260,7 @@ Los autores y traductores pueden enviarnos las lecciones de manera directa, es d
 
 1. Crea una cuenta gratuita en GitHub [aquí](https://github.com/join). Solo se necesitan 30 segundos.
 2. Contacta con tu editor a través de tu cuenta de GitHub para proporcionarle tu nombre de usuario y el nombre de la lección traducida o escrita por ti tal y como está en el *slug*; ¡asegúrate de haber seguido las reglas descritas más arriba! A continuación, el editor te añadirá como **colaborador** en el repositorio [ph-submissions]. Una vez tengas acceso como colaborador, podrás hacer cambios de manera en los archivos (adiciones, edición, eliminación, etc.). El editor también creará una carpeta con el mismo nombre de tu lección en la carpeta de imágenes. Si tuvieras otro tipo de archivo con datos, que te gustaría enlazar, por favor, comunícaselo al editor.
-3. Una vez has sido añadido como colaborador, navega hasta la [carpeta de lecciones](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones), o a la [carpeta de traducciones](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/traducciones) del repositorio [ph-submissions]. A continuación, solo tienes que arrastrar y soltar el archivo de Markdown desde tu ordenador a la ventana del navegador. Si necesitas ayuda, por favor, consulta las [instrucciones de GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/)). Haz clic sobre el botón verde "Commit Changes"; no hace falta que cambies el mensaje que sale por defecto. 
+3. Una vez has sido añadido como colaborador, navega hasta la [carpeta de lecciones](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones), o a la [carpeta de traducciones](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/traducciones) del repositorio [ph-submissions]. A continuación, solo tienes que arrastrar y soltar el archivo de Markdown desde tu ordenador a la ventana del navegador. Si necesitas ayuda, por favor, consulta las [instrucciones de GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/)). Haz clic sobre el botón verde "Commit Changes"; no hace falta que cambies el mensaje que sale por defecto.
 4. Seguramente tengas varias imágenes que acompañan a la lección. Asegúrate de que las imágenes hayan sido identificadas según las normas expuestas más arriba. Navega hasta la [carpeta de imágenes](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images) del [repositorio de envíos] [ph-submissions]. Haz clic en la carpeta que tiene el nombre de tu lección (que tu editor debería haber creado para ti; si no la encuentras, por favor, contacta con el editor asignado). Una vez has accedido a esta carpeta, arrastra y suelta todas las imágenes en la ventana del navegador, tal y como hiciste en el paso 3. No puedes arrastrar una carpeta de imágenes pero sí puedes seleccionar varios archivos a la vez.
 5. ¡Ya puedes visualizar tu lección! Normalmente GitHub tarda 5 minutos (o menos) en convertir los archivos Markdown en HTML. A continuación, navega hasta `http://programminghistorian.github.io/ph-submissions/lessons/` + `NOMBRE-DE-TU-LECCIÓN` (tras reemplazar el NOMBRE-DE-TU-LECCIÓN con el nombre de tu archivo).
 6. Ponte en contacto con tu editor para comunicarle que has subido los archivos al repositorio de envíos; los editores reciben una notificación pero mejor asegúrate de que no pasemos por alto tu envío.
@@ -275,7 +270,7 @@ Los autores y traductores pueden enviarnos las lecciones de manera directa, es d
 
 ## ¡Enviado! ¿Y ahora qué?
 
-Para saber qué ocurre tras enviar una traducción o lección, consulta nuestra [guía para editores](http://programminghistorian.org/es/guia-editor) en la que se detalla el proceso editorial. A continuación, resumimos el proceso. 
+Para saber qué ocurre tras enviar una traducción o lección, consulta nuestra [guía para editores](http://programminghistorian.org/es/guia-editor) en la que se detalla el proceso editorial. A continuación, resumimos el proceso.
 
 El paso más importante consiste en que tu editor cree un *[issue](https://github.com/programminghistorian/ph-submissions/issues)* para tu traducción o lección en el repositorio [ph-submissions], con un enlace a tu lección (que pre-visualizaste en el paso 5). El editor invitará a dos revisores (como mínimo) a que lean y comenten tu lección.
 
@@ -299,7 +294,7 @@ En cualquier momento del proceso, si no estás seguro o segura de cuál es tu ro
 
 ### Comunica a tu editor que has terminado y envíale una breve biografía
 
-Una vez has finalizado con los cambios sugeridos, ponte en contacto con tu editor. A continuación, si no lo has hecho ya, envía un texto biográfico breve (de 2 o 3 frases) para que se publique al final de la lección traducida o creada por ti. 
+Una vez has finalizado con los cambios sugeridos, ponte en contacto con tu editor. A continuación, si no lo has hecho ya, envía un texto biográfico breve (de 2 o 3 frases) para que se publique al final de la lección traducida o creada por ti.
 
 Finalmente, el equipo editorial the *The Programming Historian en español* revisará que hayas introducido los cambios necesarios y moverá el archivo desde el repositorio `ph-submissions` al repositorio `jekyll`, y actualizará el directorio de lecciones.
 
