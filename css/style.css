@@ -12,212 +12,169 @@
     background-color:#ffffff;
   }
 
-  .noclear {
-    clear:none;
-  }
-
   .container {
     max-width: 48rem;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 
+
+/* =============================================================================
+Helper classes
+========================================================================== */
+
+  .noclear {
+    clear:none;
+  }
+
   .expanded {
     max-width: 48rem;
   }
 
-  .alert {
-    font-family: 'Roboto';
-  }
-
-/* =============================================================================
-Blog Index and Layout
-========================================================================== */
-
-.blog-header {
-  text-align:center;
-}
-
-.blog-header h2 {
-  margin:0;
-  line-height: 2rem;
-}
-
-.blog-header h3 { /*author*/
-  margin-top:.4rem;
-  color: #666;
-  font-size:1rem;
-}
-
-.blog-header h4{
-  color: #999;
-  font-size:1rem;
-  margin-bottom:.2rem;
-  font-family:'Roboto Condensed';
-  text-transform:uppercase;
-}
-
-.blog-header figure {
-  max-width:80%;
-}
-
-.blog-header figcaption {
-  text-align:center;
-}
-
-.blog-page-header {
-  margin-bottom:3rem;
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
 }
 
 /* =============================================================================
 Home Page
 ========================================================================== */
 
-.home-block {
-  padding:3rem 0;
-  color:#aaa;
-}
+  .home-block {
+    padding:3rem 0;
+    color:#aaa;
+  }
 
-.home-block a:visited {
-  color: #38c;
-}
+  .home-block a:visited {
+    color: #38c;
+  }
 
-.home-block h2 {
-  margin:0;
-  font-size:2.8rem;
-  text-align:center;
-  color:#666;
-}
+  .home-block h2 {
+    margin:0;
+    font-size:2.8rem;
+    text-align:center;
+    color:#666;
+  }
 
-.home-block p {
-  margin:0rem;
-  font-family:'Open Sans';
-  font-size:1.2rem;
-  padding-top:2rem;
-  text-align:justify;
-}
+  .home-block p {
+    margin:0rem;
+    font-family:'Open Sans';
+    font-size:1.2rem;
+    padding-top:2rem;
+    text-align:justify;
+  }
 
-.home-block-gray {
-  color:#fff;
-  background:#289;
-}
+  .home-block-gray {
+    color:#fff;
+    background:#289;
+  }
 
-.home-block-gray h2, .home-block-dark h2  {
-  color:#fff;
-}
+  .home-block-gray h2, .home-block-dark h2  {
+    color:#fff;
+  }
 
-.home-block-gray a:visited, .home-block-gray a:link {
-color:#6cd;
-}
+  .home-block-gray a:visited, .home-block-gray a:link {
+    color:#6cd;
+  }
 
-.home-block-dark {
-  color:#eee;
-  background:#27b;
-}
+  .home-block-dark {
+    color:#eee;
+    background:#27b;
+  }
 
-.home-block-dark a:visited, .home-block-dark a:link {
-color:#6bf;
-}
+  .home-block-dark a:visited, .home-block-dark a:link {
+    color:#6bf;
+  }
 
 
 /* =============================================================================
 Lesson Headers
 ========================================================================== */
 
-header {
-   margin:-3rem 0 3rem 0;
-   padding:0;
-   font-family:'Roboto', sans-serif;
-   color:#ccc;
-   background: #efefef;
-   border-top:1px solid #333;
-   border-bottom:1px solid #333;
-   text-align:left;
- }
+  header {
+    margin:-3rem 0 3rem 0;
+    padding:0;
+    font-family:'Roboto', sans-serif;
+    color:#ccc;
+    background: #efefef;
+    border-top:1px solid #333;
+    border-bottom:1px solid #333;
+    text-align:left;
+  }
 
- header .container-fluid {
-   margin:0;
-   padding:1rem;
-   background: #f5f5f5;
- }
+  header .container-fluid {
+    margin:0;
+    padding:1rem;
+    background: #f5f5f5;
+  }
 
- header h1 {
-   margin:0;
-   padding:0;
-   font-size:1.8rem;
-   text-align:left;
- }
+  header h1 {
+    margin:0;
+    padding:0;
+    font-size:1.8rem;
+    text-align:left;
+  }
 
- header h2 {
-   font-family:'Roboto', sans-serif;
-   font-size:1.2rem;
-   color:#333;
-   margin: 1.5rem 0 1.5rem 0rem;
-   text-align:left;
- }
+  header h2 {
+    font-family:'Roboto', sans-serif;
+    font-size:1.2rem;
+    color:#333;
+    margin: 1.5rem 0 1.5rem 0rem;
+    text-align:left;
+  }
 
- header h3, header h4 {
-   font: .9rem/1.1rem 'Roboto Condensed', sans-serif;
-   text-transform:uppercase;
-   font-variant:small-caps;
-   letter-spacing:80%;
-   color:#666;
-   margin:.3rem 0 0 0;
-   padding:0;
- }
+  header h3, header h4 {
+    font: .9rem/1.1rem 'Roboto Condensed', sans-serif;
+    text-transform:uppercase;
+    font-variant:small-caps;
+    letter-spacing:80%;
+    color:#666;
+    margin:.3rem 0 0 0;
+    padding:0;
+  }
 
- header h3 {
-   margin-bottom:0;
- }
+  header h4 {
+    display:inline;
+    margin:0;
+    line-height:1.3rem;
+  }
 
- header h4 {
-   display:inline;
-   margin:0;
-   padding:0;
-   font-weight:200;
-   font-size:.9rem;
-   line-height:1.3rem;
- }
+  header .header-image {
+    float:left;
+    border:.2rem solid gray;
+    margin:0;
+    padding:0;
+  }
 
-header .header-image {
-  float:left;
-  border:.2rem solid gray;
-  margin:0;
-  padding:0;
-  width:100%;
-}
+  header .header-abstract {
+    font: 1rem/1.4rem 'Roboto', sans-serif;
+    color:#999;
+    margin:1rem 0;
+  }
 
+  header .header-helpers {
+    clear:both;
+    background:#ccc;
+    color:#fff;
+    border-top:1px solid #999;
+    border-bottom:1px solid #999;
+  }
 
-header .header-abstract {
-  font: 1rem/1.4rem 'Roboto', sans-serif;
-  color:#999;
-  margin:1rem 0;
-}
+  header ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+  }
 
+  header li, header .metarow {
+    font: .9rem/1.1rem 'Roboto Condensed';
+    margin: 0;
+  }
 
-header .header-helpers {
-  clear:both;
-  padding:.4rem 0 .4rem 0;
-  background:#ccc;
-  color:#fff;
-  border-top:1px solid #999;
-  border-bottom:1px solid #999;
-}
-
-header ul {
-  margin:0;
-  padding:0;
-  list-style-type: none;
-}
-
-header li, header .metarow {
-  font: .9rem/1.1rem 'Roboto Condensed';
-  margin: 0;
-}
-
-header .metarow {
-  color:#999;
-}
+  header .metarow {
+    color:#999;
+  }
 
 
 /* =============================================================================
@@ -305,9 +262,7 @@ Lessons Index
     background-color:#aaa;
     color: #333;
   }
- .sort-by {
-   margin-bottom:2rem;
- }
+
   .sort {
     margin:0;
     color:#666;
@@ -321,11 +276,6 @@ Lessons Index
   .sort:hover {
     text-decoration: none;
     background-color:#cecece;
-  }
-
-  .sort-by li.current {
-    background-color:#aaa;
-    color:#333;
   }
 
   .sort:focus {
@@ -355,6 +305,14 @@ Lessons Index
     right:-5px;
   }
 
+  .sort-by {
+    margin-bottom:2rem;
+  }
+
+  .sort-by li.current {
+    background-color:#aaa;
+    color:#333;
+  }
 
   .topic li a {
     text-decoration: none;
@@ -414,94 +372,94 @@ Lessons Index
 
 
 /* =============================================================================
-   Top Navigation Bar
+Top Navigation Bar
 ========================================================================== */
-.navbar {
-  background-color:#555;
-  padding: .6rem 1rem;
-  margin: 0 0 3rem 0;
-}
 
-.navbar-light .navbar-nav .nav-link {
-  font-family:'Open Sans';
-  text-transform:uppercase;
-  color:#999;
-  font-size:.9rem;
-}
+  .navbar {
+    background-color:#555;
+    padding: .6rem 1rem;
+    margin: 0 0 3rem 0;
+  }
 
-.lang {
-  text-transform:lowercase !important;
-}
+  .navbar-light .navbar-nav .nav-link {
+    font-family:'Open Sans';
+    text-transform:uppercase;
+    color:#999;
+    font-size:.9rem;
+  }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color:#39a;
-}
+  .lang {
+    text-transform:lowercase !important;
+  }
 
-.navbar-collapse {
-  text-align:center;
-}
+  .navbar-light .navbar-nav .nav-link:hover {
+    color:#39a;
+  }
 
-.navbar-light .navbar-brand {
-  font-family:'Crete Round', serif;
-  color:#999;
-}
+  .navbar-collapse {
+    text-align:center;
+  }
 
-a.dropdown-item {
-  border-bottom:1px solid #ccc;
-  font-family:'Roboto';
-}
+  .navbar-light .navbar-brand {
+    font-family:'Crete Round', serif;
+    color:#999;
+  }
 
-.dropdown-menu {
-	position: absolute;
-	background: #fff;
-	border: 1px solid #ccc;
-  margin:0;
-  padding:0;
-}
+  a.dropdown-item {
+    border-bottom:1px solid #ccc;
+    font-family:'Roboto';
+  }
 
-.dropdown-menu a {
-	font-size:.8rem;
-  line-height:2rem;
-  text-transform:uppercase;
-}
+  .dropdown-menu {
+  	position: absolute;
+  	background: #fff;
+  	border: 1px solid #ccc;
+    margin:0;
+    padding:0;
+  }
 
-.dropdown-menu a:last-child {
-  border-bottom:none;
-}
+  .dropdown-menu a {
+  	font-size:.8rem;
+    line-height:2rem;
+    text-transform:uppercase;
+  }
 
-.dropdown-menu:after, .dropdown-menu:before {
-	bottom: 100%;
-	left: 20%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-}
+  .dropdown-menu a:last-child {
+    border-bottom:none;
+  }
 
-.dropdown-menu:after {
-	border-color: rgba(255, 255, 255, 0);
-	border-bottom-color: #fff;
-	border-width: 12px;
-	margin-left: -12px;
-}
-.dropdown-menu:before {
-	border-color: rgba(51, 153, 170, 0);
-	border-bottom-color: #ccc;
-	border-width: 13px;
-	margin-left: -13px;
-}
+  .dropdown-menu:after, .dropdown-menu:before {
+  	bottom: 100%;
+  	left: 20%;
+  	border: solid transparent;
+  	content: " ";
+  	height: 0;
+  	width: 0;
+  	position: absolute;
+  	pointer-events: none;
+  }
 
-.navbar-light .navbar-nav .nav-link:focus {
-  color: #ccc;
-}
+  .dropdown-menu:after {
+  	border-color: rgba(255, 255, 255, 0);
+  	border-bottom-color: #fff;
+  	border-width: 12px;
+  	margin-left: -12px;
+  }
+  .dropdown-menu:before {
+  	border-color: rgba(51, 153, 170, 0);
+  	border-bottom-color: #ccc;
+  	border-width: 13px;
+  	margin-left: -13px;
+  }
+
+  .navbar-light .navbar-nav .nav-link:focus {
+    color: #ccc;
+  }
 
   .header-link {
     position: absolute;
     right: 0.6em;
     opacity: 0;
-
     -webkit-transition: opacity 0.2s ease-in-out 0.1s;
     -moz-transition: opacity 0.2s ease-in-out 0.1s;
     -ms-transition: opacity 0.2s ease-in-out 0.1s;
@@ -516,8 +474,15 @@ a.dropdown-item {
   }
 
 /* =============================================================================
-Typography
+Lesson Typography
 ========================================================================== */
+
+  a {text-decoration:none;}
+
+  a:link {color: #38c;}
+  a:visited {color: #39a;}
+  a:hover {color: #555;}
+  a:active {color: #555;}
 
   b, strong { font-weight: bold; }
 
@@ -526,9 +491,9 @@ Typography
   hr {
     display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 2em 0; padding: 0; }
 
-img {
-  max-width:100%;
-}
+  img {
+    max-width:100%;
+  }
 
   ins { background: #ff9; color: #000; text-decoration: none; }
 
@@ -537,22 +502,22 @@ img {
     padding:0;
   }
 
-.full-width {
-  width:80%;
-  margin: 0 auto;
-  text-align:center;
-}
+  .full-width {
+    width:80%;
+    margin: 0 auto;
+    text-align:center;
+  }
 
-.float-right {
-  float:right;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-}
+  .float-right {
+    float:right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
 
-.float-left {
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-}
+  .float-left {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
 
   h1,h2,h3,h4,h5 {
     font-family:'Crete Round', serif;
@@ -574,18 +539,18 @@ img {
   }
 
   h3 {
-  font-size:1.4rem;
-  margin-top:2.5rem;
+    font-size:1.4rem;
+    margin-top:2.5rem;
   }
 
   h4 {
-  font-size:1.2rem;
-  margin-top:1.8rem;
+    font-size:1.2rem;
+    margin-top:1.8rem;
   }
 
   h5 {
-  font-size:1.0rem;
-  margin-top:1.4rem;
+    font-size:1.0rem;
+    margin-top:1.4rem;
   }
 
   h1 a, h2 a, h3 a, h4 a, h5 a {
@@ -594,15 +559,6 @@ img {
 
   h1 a:link { color: #38c; }
   h1 a:visited {color: #39a; }
-
-  a {
-    text-decoration:none;
-  }
-
-  a:link {color: #38c;}
-  a:visited {color: #39a;}
-  a:hover {color: #555;}
-  a:active {color: #555;}
 
 
   /* select button generated by codeblocks.js */
@@ -619,19 +575,19 @@ img {
   sup { top: -0.5em; }
   sub { bottom: -0.25em; }
 
+  li {
+    margin-bottom:.5rem;
+    line-height:1.4rem;
+  }
 
-li {
-  margin-bottom:.5rem;
-  line-height:1.4rem;
-}
+  li.nav-item {
+    margin-bottom:0;
+  }
 
-li.nav-item {
-  margin-bottom:0;
-}
+  .alert {
+    font-family: 'Roboto';
+  }
 
-.contact-box {
-  clear:both;
-}
 
 /* =============================================================================
 Code Highlighting
@@ -693,47 +649,94 @@ Figures
     color: #666;
   }
 
+
+/* =============================================================================
+Blog Index and Layout
+========================================================================== */
+
+  .blog-header {
+    text-align:center;
+  }
+
+  .blog-header h2 {
+    margin:0;
+    line-height: 2rem;
+  }
+
+  .blog-header h3 { /*author*/
+    margin-top:.4rem;
+    color: #666;
+    font-size:1rem;
+  }
+
+  .blog-header h4{
+    color: #999;
+    font-size:1rem;
+    margin-bottom:.2rem;
+    font-family:'Roboto Condensed';
+    text-transform:uppercase;
+  }
+
+  .blog-header figure {
+    max-width:80%;
+  }
+
+  .blog-header figcaption {
+    text-align: center;
+  }
+
+  .blog-page-header {
+    margin-bottom:3rem;
+  }
+
+/* =============================================================================
+Project Team
+========================================================================== */
+
   .avatar {
     float: left;
-	  margin: 0 2rem 3rem 0;
+    margin: 0 2rem 0 0;
     width: 15%;
   }
+
+  .contact-box {
+    margin-bottom:3rem;
+  }
+
 
 /* =============================================================================
 Footer
 ========================================================================== */
 
-footer[role="contentinfo"] {
-  font-family:'Open Sans';
-  font-size:.9rem;
-  color:#e5e5e5;
-  background-color:#666;
-  text-align:center;
-  margin-top: 2rem;
-  border-top: 1px solid #eee;
-  padding: 2rem 0;
-}
+  footer[role="contentinfo"] {
+    margin-top: 2rem;
+    padding: 2rem 0;
+    font-family:'Open Sans';
+    font-size:.9rem;
+    color:#e5e5e5;
+    background-color:#666;
+    text-align:center;
+  }
 
-.footer-head {
-  font-size:1.1rem;
-  line-height:1.4rem;
-  margin-bottom:1rem;
-}
+  footer a, footer a:link, footer a:visited {
+    color: #fff;
+    border-bottom:1px #eee dotted;
+  }
 
-footer a, footer a:link, footer a:visited {
-  color: #fff;
-  border-bottom:1px #eee dotted;
-}
+  footer a:hover {
+    text-decoration: none;
+    border-bottom:1px #fff solid;
+  }
 
-footer a:hover {
-  text-decoration: none;
-  border-bottom:1px #fff solid;
-}
+  footer .fa {
+    margin: 0 .2rem 0rem 0rem;
+  }
 
-footer .fa {
-  margin: 0 .2rem 0rem 0rem;
-}
-
+  .footer-head {
+    font-size:1.1rem;
+    line-height:1.4rem;
+    margin-bottom:1rem;
+  }
 
 } /* end screen */
 
