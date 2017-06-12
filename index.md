@@ -13,7 +13,7 @@ title: The Programming Historian
 	</div>
 </div>
 
-<div class="home-block  home-block-dark">
+<div class="home-block  home-stripe-1">
 <div class="container">
 <h2>Learn</h2>
 <p>Use <a href="{{ site.baseurl }}/lessons/">our lessons</a> to teach your self new technical skills or understand how humanists are using new digital tools, methods, and research processes.</p>
@@ -27,7 +27,7 @@ title: The Programming Historian
 </div>
 </div>
 
-<div class="home-block home-block-gray">
+<div class="home-block home-stripe-2">
 <div class="container">
 <h2>Contribute</h2>
 <p><a href="author-guidelines.html">Write a lesson</a>, join our <a href="reviewer-guidelines">team of reviewers</a>, <a href="feedback.html">provide feedback</a>. We're always keen to hear from our readers!</p>

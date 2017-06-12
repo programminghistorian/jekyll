@@ -15,7 +15,7 @@ lesson-slug.html computes the correct lesson slug, and then this include determi
 {% endif %}
 {% capture imgpath %}{{ site.baseurl }}/gallery/{{ slug }}{% endcapture %}
 
-<div class="lesson-description">
+<div class="lesson-description clearfix">
 
   <div class="lesson-image">
     <a href="{{ path }}"><img class="rounded" src="{{ imgpath }}.png"></a>
@@ -29,8 +29,7 @@ lesson-slug.html computes the correct lesson slug, and then this include determi
   <!-- Activity and topic are hidden via CSS as a hack to let JS sorting by activity and topic work -->
   <span class="activity">{{ lesson.activity }}</span>
   <span class="topics">{{ lesson.topics }}</span>
-
-  <span class="date">{{ lesson.date }}</span><br>
+  <span class="date">{{ lesson.date }}</span>
   <span class="difficulty">{{ lesson.difficulty }}</span>
 
 </div>

@@ -28,14 +28,8 @@ Helper classes
   }
 
   .expanded {
-    max-width: 48rem;
+    max-width: 58rem;
   }
-
-.clearfix::after {
-    content:"";
-    display:block;
-    clear:both;
-}
 
 /* =============================================================================
 Home Page
@@ -43,18 +37,14 @@ Home Page
 
   .home-block {
     padding:3rem 0;
-    color:#aaa;
-  }
-
-  .home-block a:visited {
-    color: #38c;
+    color:#666;
   }
 
   .home-block h2 {
     margin:0;
     font-size:2.8rem;
+    color:#333;
     text-align:center;
-    color:#666;
   }
 
   .home-block p {
@@ -65,27 +55,32 @@ Home Page
     text-align:justify;
   }
 
-  .home-block-gray {
-    color:#fff;
-    background:#289;
+  .home-block a:visited {
+    color: #38c;
   }
 
-  .home-block-gray h2, .home-block-dark h2  {
-    color:#fff;
-  }
-
-  .home-block-gray a:visited, .home-block-gray a:link {
-    color:#6cd;
-  }
-
-  .home-block-dark {
+  .home-stripe-1 {
     color:#eee;
     background:#27b;
   }
 
-  .home-block-dark a:visited, .home-block-dark a:link {
+  .home-stripe-1 h2, .home-stripe-2 h2 {
+    color:#fff;
+  }
+
+  .home-stripe-1 a:visited, .home-stripe-1 a:link {
     color:#6bf;
   }
+
+  .home-stripe-2 {
+    color:#fff;
+    background:#289;
+  }
+
+  .home-stripe-2 a:visited, .home-stripe-2 a:link {
+    color:#6cd;
+  }
+
 
 
 /* =============================================================================
@@ -151,6 +146,7 @@ Lesson Headers
     font: 1rem/1.4rem 'Roboto', sans-serif;
     color:#999;
     margin:1rem 0;
+    text-align: justify;
   }
 
   header .header-helpers {
@@ -181,21 +177,17 @@ Lesson Headers
 Lessons Index
 ========================================================================== */
 
-  #lesson-list ul {
-    text-align:center;
-    padding: 0px;
+  ul.filter, ul.sort-by {
     margin: 0 0 1rem 0;
-  }
-
-  #lesson-list ul li {
-    padding: .4rem .6rem;
+    padding: 0px;
+    text-align:center;
   }
 
   li.filter,
   li.sort,
   #filter-none {
     font: .9rem/1.1rem 'Open Sans', sans-serif;
-    padding:.2rem .4rem;
+    padding: .4rem .6rem;
     border:none;
     border-radius: 3px;
     display:inline-block;
@@ -307,10 +299,18 @@ Lessons Index
 
    #eachlesson li {
      list-style-type:none;
+     margin:0;
    }
 
-   .results-title {
-     text-transform:capitalize;
+   h2.results {
+     margin:1rem 0;
+     font: 1.6rem/2rem 'Roboto Condensed';
+     color:#666;
+     text-transform:uppercase;
+   }
+
+   #results-title {
+     color:#000;
    }
 
   .lesson-description {
@@ -332,21 +332,21 @@ Lessons Index
 
   .above-title {
     margin:0 0 .2rem 0;
-    font-family:'Roboto Condensed';
-    font-size:.8rem;
+    font: .8rem/1rem 'Roboto Condensed';
     color:#999;
     text-transform:uppercase;
     clear:none;
   }
 
   #eachlesson h2 {
-    font: 1.1rem/1.3rem 'Crete Round', serif;
+    font: 1.2rem/1.3rem 'Crete Round', serif;
     margin:0 0 .8rem 0;
     clear:none;
   }
 
   p.abstract {
     font: .8rem/1.2rem 'Open Sans', sans-serif;
+    margin:0;
   }
 
   .list .date,
@@ -585,13 +585,14 @@ Code Highlighting
   }
 
   .highlight {
+    margin: 1rem 0 1rem 0;
+    padding:.5rem .2rem;
     font-size:.9rem;
     white-space: pre;
     word-wrap: normal;
     overflow: auto;
-    padding:.5rem .2rem;
     border: 1px solid #eee;
-    margin: 1rem 0 1rem 0;
+    background: #fafafa;
   }
 
 
