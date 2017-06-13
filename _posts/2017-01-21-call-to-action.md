@@ -6,8 +6,8 @@ layout: post
 categories: posts
 ---
 
-<p><figure><a href="../images/call-to-action/call-to-action.jpg">
-        <img src="../images/call-to-action/call-to-action.jpg" alt=""/></a><figcaption>
+<p><figure><a href="/images/call-to-action/call-to-action.jpg">
+        <img src="/images/call-to-action/call-to-action.jpg" alt=""/></a><figcaption>
     The Programming Historian Needs YOU...to help historians digitally analyse!</figcaption></figure></p>
 
 We've published 57 peer-reviewed tutorials since we launched in 2012, and we're proud of our pioneering role within digital humanities. These lessons are on topics as wide-ranging as introductory [Python programming](http://programminghistorian.org/lessons/introduction-and-installation), [Web Scraping](http://programminghistorian.org/lessons/automated-downloading-with-wget), and [Regular Expressions](http://programminghistorian.org/lessons/understanding-regular-expressions). Many of our lessons involve learning how to extract and structure information from other people's websites and databases. This has been an unfortunate need because of decisions in digitisation made in the first decade of the twenty-first century by organisations that assumed we'd want to read digital texts like we read them in the library: one word at a time.

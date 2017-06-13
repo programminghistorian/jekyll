@@ -6,8 +6,8 @@ layout: post
 categories: posts
 ---
 
-<p><figure><a href="../images/twenty-sixteen-review/twenty-sixteen-review.jpg">
-        <img src="../images/twenty-sixteen-review/twenty-sixteen-review.jpg" alt=""/></a><figcaption>
+<p><figure><a href="/images/twenty-sixteen-review/twenty-sixteen-review.jpg">
+        <img src="/images/twenty-sixteen-review/twenty-sixteen-review.jpg" alt=""/></a><figcaption>
     A toast to our authors! Eleven new tutorials published in 2016.</figcaption></figure></p>
 
 Twenty-sixteen was a big year for the *Programming Historian*. In addition to our ongoing maintenance of our existing lessons (no small feat), we're pleased to announce that we added eleven new tutorials to our mix.

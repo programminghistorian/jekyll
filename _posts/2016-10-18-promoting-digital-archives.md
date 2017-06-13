@@ -13,8 +13,8 @@ In February of this year the [New York Academy of Medicine](https://nyamcenterfo
 One of the things I enjoy most in my current position as a Cataloging and Metadata Librarian is interacting with digital archival materials for the Houston Area Digital Archives website. My primary goal is always to find new and exciting ways to make history and digitized archival materials interesting to people. It often is not enough to simply upload items into content management systems and expect them to be discoverable or even for people to understand their significance. Coloring books are a great promotional tool because they encourage interaction with collections and promote the value of preservation. They also help make materials more accessible. Specifically, the Houston Area Digital Archives promotes our coloring books to students, educators, and other librarians online and at conferences like Digital Frontiers and the Texas Library Association as a fun way to encourage interaction with local history.  I also enjoy creating coloring books because it is an opportunity to expand archival representation by featuring the records of groups such as [women](http://digital.houstonlibrary.org/cdm/ref/collection/curriculum-project/id/9) and the [LGBT community](http://digital.houstonlibrary.org/cdm/ref/collection/curriculum-project/id/16). 
 
 <figure>
-<a href="../images/promoting-digital-archives/houston.png">
-        <img src="../images/promoting-digital-archives/houston.png" alt=""/>
+<a href="/images/promoting-digital-archives/houston.png">
+        <img src="/images/promoting-digital-archives/houston.png" alt=""/>
     </a>
     <figcaption>
     <p>An example of a coloring book from <a href="http://digital.houstonlibrary.org/cdm/ref/collection/curriculum-project/id/10">Color the Big Top: Houston Area Digital Archives Coloring Book, Volume 2</a>.</p>

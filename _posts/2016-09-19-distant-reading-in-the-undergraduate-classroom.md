@@ -21,12 +21,12 @@ There are many avenues for researching the evolution of  exclusion in American i
 As a first foray into distant reading, instructors might encourage students to pick one annual report and run it through [Voyant Tools](http://voyant-tools.org/). For example, a group of students could plug in the U.S. Department of Labor’s Annual Report on Immigration for the year 1910 and do a group think on the document’s major word frequencies. 
 
 <figure>
-<a href="../images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png">
-        <img src="../images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png" alt="" />
+<a href="/images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png">
+        <img src="/images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png" alt="" />
     </a>
 </figure><figure>
-<a href="../images/distant-reading-in-the-undergraduate-classroom/distant-reading-02.png">
-        <img src="../images/distant-reading-in-the-undergraduate-classroom/distant-reading-02.png" alt="" />
+<a href="/images/distant-reading-in-the-undergraduate-classroom/distant-reading-02.png">
+        <img src="/images/distant-reading-in-the-undergraduate-classroom/distant-reading-02.png" alt="" />
     </a>
     <figcaption>
     <p>Screenshots of a distant reading of the US Department of Labor’s Annual Report on Immigration, 1910, conducted with <a href="http://voyant-tools.org/">VoyantTools.org</a>.</p>
