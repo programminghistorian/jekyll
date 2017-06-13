@@ -319,7 +319,7 @@ of the text: `![image caption](your_image.jpg)`.
 
 At this point, your `main.md` should look something like the following.
 You can download this sample .md file
-[here](/assets/sample.md).
+[here](https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/sample.md).
 
     ---  
     title: Plain Text Workflow  
