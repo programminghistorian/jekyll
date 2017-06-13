@@ -101,9 +101,7 @@ to execute your program. If all went well, it should look something like
 this (Example as seen in Komodo Edit. Click on the image to see a
 full-size copy):
 
-![hello world in Komodo Edit on a Mac][]
-
-“Hello World” in Python
+{% include figure.html caption="hello world in Komodo Edit on a Mac" filename="hello-world1.png" %}
 
 ## Interacting with a Python shell
 
@@ -143,7 +141,7 @@ print('hello world')
 
 On your screen, it will look more like this:
 
-![hello world terminal on a Mac][]
+{% include figure.html caption="hello world terminal on a Mac" filename="hello-world-terminal.png" %}
 
 Python Shell in Mac Terminal
 
@@ -153,8 +151,4 @@ order, we suggest you next try ‘[Understanding Web Pages and HTML][]‘
 
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
   [Komoto Edit Website]: http://www.activestate.com/komodo-edit
-  [hello world in Komodo Edit on a Mac]: ../images/hello-world1.png
-    "hello-world"
-  [hello world terminal on a Mac]: ../images/hello-world-terminal.png
-    "hello-world-terminal"
   [Understanding Web Pages and HTML]: /lessons/viewing-html-files
