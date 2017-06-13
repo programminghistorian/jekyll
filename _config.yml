@@ -9,6 +9,7 @@ exclude:
   - Gemfile.lock
 highlighter: rouge
 markdown: kramdown
+permalink: :categories/:title
 gems:
   - jekyll-redirect-from
 defaults:
@@ -37,5 +38,10 @@ defaults:
       path: "es/lecciones"
     values:
       translated-lesson: true
+  -
+    scope:
+      path: _posts
+    values:
+      category: posts
 
 # For local work: bundle exec jekyll serve --watch --baseurl '/proghistdev' or wherever else your local site is located
