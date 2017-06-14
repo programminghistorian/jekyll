@@ -1,16 +1,16 @@
 
 <ul class="filter activities">
-<li id="filter-acquiring" class="filter">{{site.data.snippets.acquire-button[page.lang]}} ({{ site.pages | lessons | where:"activity","acquiring" | size }})</li>
-<li id="filter-transforming" class="filter">{{site.data.snippets.transform-button[page.lang]}} ({{ site.pages | lessons | where:"activity","transforming" | size }})</li>
-<li id="filter-analyzing" class="filter">{{site.data.snippets.analyze-button[page.lang]}} ({{ site.pages | lessons | where:"activity","analyzing" | size }})</li>
-<li id="filter-presenting" class="filter">{{site.data.snippets.present-button[page.lang]}} ({{ site.pages | lessons | where:"activity","presenting" | size }})</li>
-<li id="filter-sustaining" class="filter">{{site.data.snippets.sustain-button[page.lang]}} ({{ site.pages | lessons | where:"activity","sustaining" | size }})</li>
+<li id="filter-acquiring" class="filter">{{site.data.snippets.acquire-button[page.lang]}} ({{ alllessons | where:"activity","acquiring" | size }})</li>
+<li id="filter-transforming" class="filter">{{site.data.snippets.transform-button[page.lang]}} ({{ alllessons | where:"activity","transforming" | size }})</li>
+<li id="filter-analyzing" class="filter">{{site.data.snippets.analyze-button[page.lang]}} ({{ alllessons | where:"activity","analyzing" | size }})</li>
+<li id="filter-presenting" class="filter">{{site.data.snippets.present-button[page.lang]}} ({{ alllessons | where:"activity","presenting" | size }})</li>
+<li id="filter-sustaining" class="filter">{{site.data.snippets.sustain-button[page.lang]}} ({{ alllessons | where:"activity","sustaining" | size }})</li>
 </ul>
 
 <ul class="filter topics">
 {% for topic in site.data.topics %}
 {% assign tcount = topic.type %}
-<li id="filter-{{ topic.type }}" class="filter">{{ topic.displayname }} ({{ site.pages | where:"topics",tcount | size }})
+<li id="filter-{{ topic.type }}" class="filter">{{ topic.displayname[page.lang] }} ({{ alllessons | where:"topics",tcount | size }})
 </li>
 {% endfor %}
 </ul>
