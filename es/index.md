@@ -9,8 +9,7 @@ title: The Programming Historian
 <div class="home-block">
 	<div class="container">
 	<h2><i>The Programming Historian</i> en español</h2>
-	<p>We publish novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching. We are committed to fostering a diverse and inclusive community of editors, writers, and readers. </p>
-	<p><iThe Programming Historian en español</i> ofrece tutoriales para principiantes y revisados por pares, que ayudan a humanistas en el aprendizaje de una amplia gama de herramientas digitales, técnicas y flujos de trabajo para facilitar su investigación y enseñanza. Estamos comprometidos en la promoción de una comunidad diversa de editores, autores y lectores.</p>
+	<p><i>The Programming Historian en español</i> ofrece tutoriales para principiantes y revisados por pares, que ayudan a humanistas en el aprendizaje de una amplia gama de herramientas digitales, técnicas y flujos de trabajo para facilitar su investigación y enseñanza. Estamos comprometidos en la promoción de una comunidad diversa de editores, autores y lectores.</p>
 	</div>
 </div>
 
