@@ -8,35 +8,36 @@ title: The Programming Historian
 
 <div class="home-block">
 	<div class="container">
-		<h2>The Programming Historian</h2>
-		<p>We publish novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching. We are committed to fostering a diverse and inclusive community of editors, writers, and readers. </p>
+	<h2><i>The Programming Historian</i> en español</h2>
+	<p>We publish novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching. We are committed to fostering a diverse and inclusive community of editors, writers, and readers. </p>
+	<p><iThe Programming Historian en español</i> ofrece tutoriales para principiantes y revisados por pares, que ayudan a humanistas en el aprendizaje de una amplia gama de herramientas digitales, técnicas y flujos de trabajo para facilitar su investigación y enseñanza. Estamos comprometidos en la promoción de una comunidad diversa de editores, autores y lectores.</p>
 	</div>
 </div>
 
 <div class="home-block  home-stripe-1">
 <div class="container">
-<h2>Learn</h2>
-<p>Use <a href="{{ site.baseurl }}/lessons/">our lessons</a> to teach your self new technical skills or understand how humanists are using new digital tools, methods, and research processes.</p>
+<h2>Aprende</h2>
+<p>Utiliza <a href="{{ site.baseurl }}es/lecciones/">nuestras lecciones</a> para aprender por tu cuenta nuevas técnicas y habilidades, o simplemente para entender mejor cómo los humanistas se sirven de herramientas, métodos y procesos computacionales.</p>
 </div>
 </div>
 
 <div class="home-block ">
 <div class="container">
-<h2>Teach</h2>
-<p>Use <i>Programming Historian</i> in your classes or workshops! Please <a href="feedback.html">let us know</a> how we can improve our lessons to suit your needs, or if you run into trouble using one.</p>
+<h2>Enseña</h2>
+<p>Utiliza <i>The Programming Historian en español</i> en tus clases o talleres. También puedes <a href="retroalimentacion.html">enviarnos tus comentarios</a> con el objetivo de mejorar los tutoriales para que se ajustan a tus necesidades, o bien para advertirnos de algún error o problema.</p>
 </div>
 </div>
 
 <div class="home-block home-stripe-2">
 <div class="container">
-<h2>Contribute</h2>
-<p><a href="author-guidelines.html">Write a lesson</a>, join our <a href="reviewer-guidelines">team of reviewers</a>, <a href="feedback.html">provide feedback</a>. We're always keen to hear from our readers!</p>
+<h2>Contribuye</h2>
+<p><a href="flujo-de-trabajo-nuevas-lecciones.html">Escribe una lección nueva</a>, únete a nuestro <a href="guia-para-revisores">equipo de revisores</a>, o bien envíanos tus <a href="retroalimentacion.html">comentarios</a>. ¡Nos gusta estar acompañados!</p>
 </div>
 </div>
 
 <div class="home-block">
 <div class="container">
-<h2>Our Team</h2>
-<p>As a volunteer, community-driven resource, we take pride in showing off and giving credit to the  <a href="project-team.html">great many people</a> who have contributed their time and energy to <i>Programming Historian</i>.</p>
+<h2>Equipo</h2>
+<p>Somos una comunidad de volunarios; por eso, nos gusta ser transparentes y dar crédito a los <a href="equipo-de-proyecto.html">colaboradores</a> que han invertido tiempo y energía en hacer posible <i>The Programming Historian en español</i>.</p>
 </div>
 </div>
