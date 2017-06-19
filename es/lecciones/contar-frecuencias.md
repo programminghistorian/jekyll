@@ -19,6 +19,9 @@ previous: normalizar-datos
 redirect_from: /es/lessons/counting-frequencies
 ---
 
+* TOC
+{:toc}
+
 ## Objetivo de la lección
 
 Tu lista ahora está lo suficientemente limpia para comenzar a analizar su contenido de una manera útil. Contar la frecuencia de palabras específicas en la lista puede proveernos con datos ilustrativos. Python posee una manera fácil de contar frecuencias, pero requiere el uso de un nuevo tipo de variable: el *diccionario*. Antes de comenzar a trabajar en un diccionario, considera los procesos utilizados para calcular las frecuencias en una lista.

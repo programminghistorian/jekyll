@@ -17,6 +17,9 @@ topics: [distant-reading]
 abstract: "In this lesson you will first learn what topic modeling is and why you might want to employ it in your research. You will then learn how to install and work with the MALLET natural language processing toolkit to do so."
 ---
 
+* TOC
+{:toc}
+
 Editor's Note
 -------------
 

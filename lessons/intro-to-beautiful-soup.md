@@ -13,6 +13,9 @@ abstract: "Beautiful Soup is a Python library for getting data out of HTML, XML,
 and other markup languages."
 ---
 
+* TOC
+{:toc}
+
 Version: Python 2.7.2 and BeautifulSoup 4.
 
 This tutorial assumes basic knowledge of HTML, CSS, and the [Document

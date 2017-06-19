@@ -20,6 +20,9 @@ previous: de-html-a-lista-de-palabras-2
 redirect_from: /es/lessons/normalizing-data
 ---
 
+* TOC
+{:toc}
+
 ## Objetivos de la lección
 
 La lista que creamos en [De HTML a lista de palabras (parte 2)][] necesita cierta "normalización" antes de que podamos usarla más adelante. Vamos a hacer esto aplicando métodos adicionales para cadenas de caracteres, así como utilizar *expresiones regulares*. Una vez normalizadas seremos capaces de analizar nuestros datos de una manera más fácil.

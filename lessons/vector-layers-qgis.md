@@ -21,6 +21,9 @@ next: georeferencing-qgis
 previous: qgis-layers
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

@@ -15,6 +15,11 @@ abstract: "This lesson will teach you how to install your own copy of Omeka."
 next: creating-an-omeka-exhibit
 ---
 
+* TOC
+{:toc}
+
+## Introduction
+
 [Omeka.net](http://omeka.net), as described in [the previous lesson](up-and-running-with-omeka.html), is a useful service for Omeka beginners, but there are a few reasons why you might want to install your own copy of Omeka. Reasons include:
 
  * **Upgrades**. By installing Omeka yourself, you can use the latest versions of Omeka as soon as they're released, without having to wait for Omeka.net to upgrade their system.

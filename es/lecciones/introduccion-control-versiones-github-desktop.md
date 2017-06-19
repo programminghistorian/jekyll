@@ -16,6 +16,9 @@ difficulty: 1
 redirect_from: /es/lessons/getting-started-with-github-desktop
 ---
 
+* TOC
+{:toc}
+
 ## Objetivos de la lección
 
 Con esta lección aprenderás el funcionamiento básico de los sistemas de control de versiones, entenderás por qué son útiles y te familiarizarás con [GitHub Desktop](https://desktop.github.com/), un control de versiones de documentos en formato de texto plano. Al finalizar la lección, serás capaz de entender:

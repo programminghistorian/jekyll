@@ -25,18 +25,8 @@ abstract: "This lesson will help you create entirely free, easy-to-maintain, pre
 
 **Up to date?:** This lesson was last updated on *May 2, 2017* to fix issues caused by Jekyll version 3.2.
 
-## Table of contents
-* [What are static sites, Jekyll, etc. and why might I care?](#section0)
-* [Preparing for installation](#section1)
-* [Installing dependencies](#section2)
-* [Setting up Jekyll](#section3)
-* [Running a website locally](#section3a)
-* [Tweaking the settings](#section4)
-* [Writing pages and posts](#section5)
-* [Hosting on GitHub Pages](#section6)
-* [Getting fancy](#section7)
-* [Cheatsheet](#section8)
-* [Help, credits, and further reading](#section9)
+* TOC
+{:toc}
 
 ## What are static sites, Jekyll, etc. & why might I care? <a id="section0"></a>
 

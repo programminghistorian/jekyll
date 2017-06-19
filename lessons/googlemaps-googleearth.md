@@ -19,6 +19,9 @@ maps by clicking on My Places."
 next: qgis-layers
 ---
 
+* TOC
+{:toc}
+
 ## Google Maps
 
 Google My Maps and Google Earth provide an easy way to start creating

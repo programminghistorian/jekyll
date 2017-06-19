@@ -18,6 +18,9 @@ previous: code-reuse-and-modularity
 categories: [lessons, python, original-ph]
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

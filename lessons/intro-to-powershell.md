@@ -16,6 +16,9 @@ abstract: "This tutorial will introduce you to the basics of Windows PowerShell,
 review-ticket: 18
 ---
 
+* TOC
+{:toc}
+
 # Introduction
 
 This tutorial will introduce you to the basics of Windows PowerShell, the standard command-line interface for Windows computers. If you are a Mac or Linux user, you should check out the [Bash introduction](http://programminghistorian.org/lessons/intro-to-bash) instead. If you are already familiar with using Bash, you may be able to get started with PowerShell just by looking at the [table at the end of this lesson](#quick-reference). 

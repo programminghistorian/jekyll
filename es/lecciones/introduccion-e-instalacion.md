@@ -18,6 +18,9 @@ layout: lesson
 redirect_from: /es/lessons/introduction-and-installation
 ---
 
+* TOC
+{:toc}
+
 Objetivos de la lección
 ------------
 

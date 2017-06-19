@@ -15,6 +15,9 @@ topics: [data-manipulation]
 abstract: "This lesson teaches a way to quickly analyze large volumes of tabular data, making research faster and more effective."
 ---
 
+* TOC
+{:toc}
+
 ## Lesson Goals
 
 As more and more historical records are digitized, having a way to quickly analyze large volumes of tabular data makes research faster and more effective. 

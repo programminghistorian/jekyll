@@ -18,6 +18,9 @@ abstract: "This tutorial focuses on how scholars can diagnose and act upon the
 accuracy of data."
 ---
 
+* TOC
+{:toc}
+
 ## Lesson goals
 
 Don’t take your data at face value. That is the key message of this

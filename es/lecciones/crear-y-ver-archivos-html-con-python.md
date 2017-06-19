@@ -19,6 +19,9 @@ previous: contar-frecuencias
 redirect_from: /es/lessons/creating-and-viewing-html-files-with-python
 ---
 
+* TOC
+{:toc}
+
 ## Objetivo de la lección
 
 Esta lección utiliza Python para crear y ver un archivo HTML. Si escribes programas que tengan salida en HTML puedes utilizar cualquier navegador para ver tus resultados. Esto es especialmente conveniente si tu programa crea automáticamente hipervínculos o entidades gráficas y diagramas.

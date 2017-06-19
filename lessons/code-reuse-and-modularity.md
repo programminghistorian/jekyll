@@ -22,6 +22,9 @@ previous: working-with-text-files
 categories: [lessons, original-ph, python]
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

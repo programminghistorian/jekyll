@@ -16,6 +16,9 @@ abstract: "In this lesson you will learn how to use Audacity to load, record, ed
 review-ticket: 15
 ---
 
+* TOC
+{:toc}
+
 ## Module Goals
 
 For those interested in audio, basic sound editing skills go a long way. Being able to handle and manipulate the materials can help you take control of your object of study: you can zoom in and extract particular moments to analyze, process the audio, and upload the materials to a server to compliment a blog post on the topic. On a more practical level, these skills could also allow you to record and package recordings of yourself or others for distribution. That guest lecture taking place in your department? Record it and edit it yourself! Doing so is a lightweight way to distribute resources among various institutions, and it also helps make the materials more accessible for readers and listeners with a wide variety of learning needs.

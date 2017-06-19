@@ -15,6 +15,9 @@ previous: intro-to-the-zotero-api
 categories: [zotero, api]
 ---
 
+* TOC
+{:toc}
+
 Using Python to Create an New Zotero Item
 -----------------------------------------
 

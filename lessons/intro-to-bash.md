@@ -18,6 +18,9 @@ abstract: "This lesson will teach you how to enter commands using a command-line
 next: research-data-with-unix
 ---
 
+* TOC
+{:toc}
+
 # Introduction to the Bash Command Line
 
 ## Introduction

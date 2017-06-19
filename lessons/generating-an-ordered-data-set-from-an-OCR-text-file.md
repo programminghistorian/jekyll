@@ -15,31 +15,14 @@ abstract: "This tutorial illustrates strategies for taking raw OCR output from a
 ---
 # Generating an Ordered Data Set from a Text File
 
-## Lesson goals:
+## Lesson goals
 
 This tutorial illustrates strategies for taking raw OCR output from a scanned text, parsing it to isolate and correct essential elements of metadata, and generating an ordered data set (a python dictionary) from it. These illustrations are specific to a particular text, but the overall strategy, and some of the individual procedures, can be adapted to organize any scanned text, even if it doesn't look like this one.
 
-### Table of Contents
-1. [Preliminaries](#prelim)
-    * [Levenshtein Distance Function](#levenshtein-distance)
-    * [Roman Numerals Function](#Roman-Numerals)
-    * [Imports](#imports-globals)
-    * [Regex Review](#regex-review)
-    * [Deploying the code snippets](#deployment)
-2. [Iterative processing of OCR output texts](#OCRprocessing)
-    * [Chunk up the text by pages](#pages)
-    * [Chunk up the text by charter](#charters)
-    * [Fixing folio markers](#folios)
-    * [Fixing the summary lines](#summary)
-    * [Fixing the footnotes](#footnotes)
-3. [Creating the dictionary](#dictionary)
-    * [Generate the skeleton dictionary](#first-pass)
-    * [Add marginal notation and summary lines](#second-pass)
-    * [Assign footnotes to their respective charters](#third-pass)
-    * [Parse and assign dates](#fourth-pass)
-4. [Completed dictionary](#completed-dict)
-    * [Applications](#applications)
+## Contents
 
+* TOC
+{:toc}
 
 ## Introduction
 It is often the case that historians involved in digital projects wish to work with digitized texts, so they think "OK, I'll just scan this fabulously rich and useful collection of original source material and do wonderful things with the digital text that results". (Those of us who have done this, now smile ruefully). Such historians quickly discover that even the best OCR results in unacceptably high error rates. So the historian now thinks "OK I'll get some grant money, and I'll enlist the help of an army of RAs/Grad students/Undergrads/Barely literate street urchins, to correct errors in my OCR output. (We smile again, even more sadly now).

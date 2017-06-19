@@ -16,6 +16,9 @@ retrieving online material."
 next: applied-archival-downloading-with-wget
 ---
 
+* TOC
+{:toc}
+
 Editor's Note
 -------------
 

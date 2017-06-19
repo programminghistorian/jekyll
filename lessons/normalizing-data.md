@@ -18,6 +18,9 @@ next: counting-frequencies
 previous: from-html-to-list-of-words-2
 ---
 
+* TOC
+{:toc}
+
 ## Lesson Goals
 
 The list that we created in the [From HTML to a List of Words (2)][]

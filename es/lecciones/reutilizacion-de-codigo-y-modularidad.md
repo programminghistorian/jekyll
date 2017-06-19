@@ -20,6 +20,9 @@ previous: trabajar-con-archivos-de-texto
 redirect_from: /es/lessons/code-reuse-and-modularity
 ---
 
+* TOC
+{:toc}
+
 Objetivos de la lección
 -----------------------
 

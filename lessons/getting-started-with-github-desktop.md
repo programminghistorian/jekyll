@@ -15,6 +15,9 @@ topics: [data-management]
 abstract: "In this lesson you will be introduced to the basics of version control, understand why it is useful and implement basic version control for a plain text document using git and GitHub."
 ---
 
+* TOC
+{:toc}
+
 ## Lesson Goals
 
 In this lesson you will be introduced to the basics of version control, understand why it is useful and implement basic version control for a plain text document using [GitHub Desktop](https://desktop.github.com/). By the end of this lesson you should understand:

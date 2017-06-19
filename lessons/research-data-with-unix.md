@@ -17,6 +17,9 @@ abstract: "This lesson will look at how research data, when organised in a clear
 previous: intro-to-bash
 ---
 
+* TOC
+{:toc}
+
 # Counting and mining research data with Unix
 
 ## Introduction

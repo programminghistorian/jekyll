@@ -17,6 +17,9 @@ layout: lesson
 redirect_from: /es/installing-python-modules-pip
 ---
 
+* TOC
+{:toc}
+
 Objetivos de la lección
 -----------------------
 

@@ -14,6 +14,9 @@ topics: [distant-reading]
 abstract: "This lesson shows how to use machine learning to extract interesting documents out of a digital archive."
 ---
 
+* TOC
+{:toc}
+
 # WARNING - Technical issues with Old Bailey Online website
 
 As of August 2016, the Old Bailey Online experienced some issues that are currently being resolved by their project team. One of those issues includes the temporary suspension of the API which are used as the basis of this tutorial.

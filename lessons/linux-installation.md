@@ -16,6 +16,9 @@ topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running the Linux operating system."
 ---
 
+* TOC
+{:toc}
+
 Thanks to John Fink for providing the basis of this section. These
 instructions are for Ubuntu 12.04 LTS, but should work for any apt based
 system such as Debian, or Linux Mint, provided you have sudo installed.

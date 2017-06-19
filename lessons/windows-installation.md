@@ -16,6 +16,9 @@ topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running the Windows operating system."
 ---
 
+* TOC
+{:toc}
+
 ## Back up your computer
 
 It is always important to make sure you have regular and recent backups

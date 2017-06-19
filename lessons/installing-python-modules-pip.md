@@ -13,6 +13,9 @@ topics: [get-ready, python]
 abstract: "There are many ways to install external python libraries; this tutorial explains one of the most common methods using pip."
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

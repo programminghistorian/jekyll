@@ -15,6 +15,9 @@ next: creating-new-items-in-zotero
 categories: [lessons, api]
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

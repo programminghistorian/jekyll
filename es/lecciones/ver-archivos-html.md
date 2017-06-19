@@ -20,7 +20,8 @@ previous: introduccion-e-instalacion
 redirect_from: /es/lessons/viewing-html-files
 ---
 
-
+* TOC
+{:toc}
 
 “Hola Mundo” en HTML
 --------------------------------

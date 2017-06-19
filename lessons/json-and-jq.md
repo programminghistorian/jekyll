@@ -15,6 +15,9 @@ topics: [data-manipulation]
 abstract: "Working with data from an art museum API and from the Twitter API, this lesson teaches how to use the command-line utility [jq] to filter and parse complex JSON files into flat CSV files."
 ---
 
+* TOC
+{:toc}
+
 [jq]: https://stedolan.github.io/jq/
 
 [jq play]: https://jqplay.org/
@@ -31,35 +34,6 @@ Working with data from an art museum API and from the Twitter API, this lesson t
 This lesson will begin with an overview of the basic operators of the jq query syntax.
 Next, you will learn progressively more complex ways of connecting these operators together.
 By the end of the lesson, you will understand how to combine basic operators to create queries that can reshape many types of JSON data.
-
-_Table of Contents_
-
--   [What is JSON?](#what-is-json)
--   [Lesson Setup](#lesson-setup)
--   [Core jq filters](#core-jq-filters)
-    -   [The dot: `.`](#the-dot-)
-    -   [The array operator: `[]`](#the-array-operator-)
-    -   [The pipe: `|`](#the-pipe-)
-    -   [Filter: `select()`](#filter-select)
-    -   [Create new JSON: `[]` and `{}`](#create-new-json--and-)
-    -   [Output a CSV: `@csv`](#output-a-csv-csv)
--   [Advanced operations](#advanced-operations)
-    -   [JSON vs. JSON Lines](#json-vs-json-lines)
-    -   [One-to-many relationships: Tweet
-        hashtags](#one-to-many-relationships-tweet-hashtags)
-    -   [Grouping and counting](#grouping-and-counting)
-        -   [Extracting user data](#extracting-user-data)
-        -   [Counting Twitter hashtags](#counting-twitter-hashtags)
-    -   [Challenges](#challenges)
-        -   [Filter before counting](#filter-before-counting)
-        -   [Count total retweets per user](#count-total-retweets-per-user)
--   [Using jq on the command line](#using-jq-on-the-command-line)
-    -   [Installation](#installation)
-        - [Installation on OS X](#installation-on-os-x)
-        - [Installation on Windows](#installation-on-windows)
-    -   [Invoking jq](#invoking-jq)
--   [Further Resources](#further-resources)
-
 
 ## What is JSON?
 

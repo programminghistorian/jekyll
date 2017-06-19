@@ -16,6 +16,9 @@ abstract: "Downloading a single record from a website is easy, but downloading m
 previous: output-keywords-in-context-in-html-file
 ---
 
+* TOC
+{:toc}
+
 ## Module Goals
 
 Downloading a single record from a website is easy, but downloading many

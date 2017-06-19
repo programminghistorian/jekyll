@@ -20,6 +20,9 @@ will focus on installing the relevant software – all free and reputable
 programming that provides immediate results."
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

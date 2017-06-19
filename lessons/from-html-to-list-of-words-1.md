@@ -18,6 +18,9 @@ next: from-html-to-list-of-words-2
 previous: manipulating-strings-in-python
 ---
 
+* TOC
+{:toc}
+
 ## Lesson Goals
 
 In this two-part lesson, we will build on what you’ve learned about

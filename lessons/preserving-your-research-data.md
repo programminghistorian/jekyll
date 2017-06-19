@@ -16,6 +16,9 @@ topics: [data-management]
 abstract: "This lesson will suggest ways in which historians can document and structure their research data so as to ensure it remains useful in the future."
 ---
 
+* TOC
+{:toc}
+
 #### Background
 
 In his 2003 essay 'Scarcity or Abundance' Roy Rosenzweig sought to alert

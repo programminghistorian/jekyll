@@ -20,6 +20,9 @@ previous: reutilizacion-de-codigo-y-modularidad
 redirect_from: /es/lessons/working-with-web-pages
 ---
 
+* TOC
+{:toc}
+
 Objetivos de la lección
 -----------------------
 

@@ -18,14 +18,8 @@ layout: lesson
 redirect_from: /es/lessons/creating-network-diagrams-from-historical-sources
 ---
 
-Tabla de contenidos:
-
-- [*Introducción*](#introducción)
-- [*Sobre el caso de estudio*](#sobre-el-caso-de-estudio)
-- [*Desarrollando un esquema de codificación*](#desarrollando-un-esquema-de-codificación)
-- [*Visualiza datos en red utilizando Palladio*](#visualiza-datos-en-red-utilizando-palladio)
-- [*El valor agregado de las visualizaciones de redes*](#el-valor-agregado-de-las-visualizaciones-de-redes)
-- [*Otras herramientas de visualización para tener en cuenta*](#otras-herramientas-de-visualización-para-tener-en-cuenta)
+* TOC
+{:toc}
 
 Introducción
 ------------

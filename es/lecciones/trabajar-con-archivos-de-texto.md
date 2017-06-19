@@ -19,6 +19,8 @@ previous: ver-archivos-html
 redirect_from: /es/lessons/working-with-text-files
 ---
 
+* TOC
+{:toc}
 
 ## Objetivos de la lección
 

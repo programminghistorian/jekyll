@@ -15,6 +15,9 @@ layout: lesson
 review-ticket: 32
 ---
 
+* TOC
+{:toc}
+
 ## Introduction
 
 The mapping software this lesson demonstrates grew out of a need to create a program that was easy to use and designed for the smaller and less uniform geospatial datasets used by historians. While working on a book manuscript on female abolitionists and early feminism in Britain and the United States, the question arose of how to determine the extent of transnational connections in women's antislavery work. We were interested not only in the number of letters that crossed the Atlantic, but also the specific locations the letters were sent from and to and how those international connections changed over time. 

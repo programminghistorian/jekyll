@@ -21,6 +21,9 @@ next: vector-layers-qgis
 previous: googlemaps-googleearth
 ---
 
+* TOC
+{:toc}
+
 Lesson Goals
 ------------
 

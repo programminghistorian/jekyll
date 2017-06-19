@@ -16,6 +16,9 @@ topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running an Apple operating system."
 ---
 
+* TOC
+{:toc}
+
 ### Back up your computer
 
 Mac users can take advantage of the [Time Machine][] for this.

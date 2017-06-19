@@ -17,6 +17,9 @@ next: downloading-multiple-records-using-query-strings
 previous: keywords-in-context-using-n-grams
 ---
 
+* TOC
+{:toc}
+
 ## Lesson Goals
 
 This lesson builds on [Keywords in Context (Using N-grams)][], where

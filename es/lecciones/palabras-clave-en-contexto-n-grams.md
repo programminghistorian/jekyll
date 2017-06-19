@@ -19,6 +19,9 @@ previous: salida-de-datos-como-archivo-html
 redirect_from: /es/lessons/keywords-in-context-using-n-grams
 ---
 
+* TOC
+{:toc}
+
 ## Objetivos de la lección
 
 Al igual que en [Salida de datos como archivo HTML][], esta lección retoma los pares de frecuencias recolectados en [Contar frecuencias de palabras][] y crea una salida de datos en HTML. Esta vez el objetivo son las palabras clave en contexto ("KWIC”, por sus siglas en inglés) que crea n-gramas del contenido del documento original -en este caso la transcripción de un juicio del "Old Bailey Online". Puedes utilizar tu programa para seleccionar una palabra clave y la computadora producirá una salida de datos con todas las veces en que aparece esa palabra clave, junto con las palabras a la derecha e izquierda de la misma, haciendo sencillo observar a simple vista cómo es utilizada dicha palabra.

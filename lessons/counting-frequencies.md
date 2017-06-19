@@ -17,6 +17,9 @@ next: creating-and-viewing-html-files-with-python
 previous: normalizing-data
 ---
 
+* TOC
+{:toc}
+
 ## Lesson Goals
 
 Your list is now clean enough that you can begin analyzing its contents
