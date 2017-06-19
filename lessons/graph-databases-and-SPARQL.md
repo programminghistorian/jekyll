@@ -472,7 +472,7 @@ instruct the database to "phone a friend" and run a portion of the query on
 an outside dataset, using the results to complete the query on the local
 dataset. While this lesson will go into the data models in Europeana and DBpedia in depth, the following query illustrates how a `SELECT` statement works. You may run it yourself by copying and pasting the query text into the [Europeana endpoint][eursparql].
 
-[eursparql]: http://europeana.ontotext.com/sparql
+[eursparql]: http://sparql.europeana.eu/
 
 ```
 PREFIX edm:    <http://www.europeana.eu/schemas/edm/>
