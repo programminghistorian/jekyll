@@ -15,6 +15,9 @@ translation-reviewer:
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
 layout: lesson
+difficulty: 1
+activity: acquiring
+topics: [python, get-ready]
 redirect_from: /es/lessons/introduction-and-installation
 ---
 
