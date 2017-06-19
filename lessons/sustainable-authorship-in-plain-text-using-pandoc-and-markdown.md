@@ -303,7 +303,7 @@ like this: `*italics*` and `**bold**`. We should also add a link and a
 footnote to our text to cover the basic components of an average paper.
 Type:
 
-    A sentence that needs a note.[^1] 
+    A sentence that needs a note.[^1]
 
     [^1]: my first footnote! And a [link](https://www.eff.org/).
 
@@ -521,7 +521,7 @@ project directory, and give it a reasonable title like "project.bib".
 The general idea is to keep your sources organized under one centralized
 bibliographic database, while generating specific and much smaller .bib
 files that will live in the same directory as your project. Go ahead and
-open your .bib file with the plain-text editor of your choice.[^4] 
+open your .bib file with the plain-text editor of your choice.[^4]
 
 Your .bib file should contain multiple entries that look something like
 this:
@@ -668,7 +668,7 @@ two "Question and Answer" type sites can field questions on Pandoc:
 [Digital Humanities Q&A](http://digitalhumanities.org/answers/).
 Questions may also be asked live, on Freenode IRC, \#Pandoc channel,
 frequented by a friendly group of regulars. As you learn more about
-Pandoc, you can also explore one of its most powerful features: [filters](https://github.com/jgm/pandoc/wiki/Pandoc-Filters). 
+Pandoc, you can also explore one of its most powerful features: [filters](https://github.com/jgm/pandoc/wiki/Pandoc-Filters).
 
 Although we suggest starting out with a simple editor, many (70+,
 according to [this blog
@@ -715,13 +715,13 @@ documentation).
 [^3]:  See Charlie Stross's excellent discussion of this topic in [Why
     Microsoft Word Must
     Die](http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html).
-    
+
 [^4]:  Note that the .bib extension may be "registered" to Zotero
 	in your operating system. That means when you click on a .bib file it is
 	likely that Zotero will be called to open it, whereas we want to open it
 	within a text editor. Eventually, you may want to associate the .bib
 	extension with your text editor.
-    
+
 [^5]:  There are no good solutions for directly arriving at MS
 	Word from LaTeX.
 
@@ -729,7 +729,7 @@ documentation).
 	in folder or file names. Dashes or underscores instead of spaces in your
 	filenames ensure lasting cross-platform compatibility.
 
-[^7]:  Thanks to [@nickbart80](https://github.com/nickbart1980) for the
+[^7]:  Thanks to [@njbart](https://github.com/njbart) for the
     correction. In response to our original suggestion, `Some sentence that
     needs citation.^[@fyfe_digital_2011 argues that too.]` [he
     writes](https://github.com/programminghistorian/jekyll/issues/46#issuecomment-59219906):
