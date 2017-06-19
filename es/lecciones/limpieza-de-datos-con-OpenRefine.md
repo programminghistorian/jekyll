@@ -18,6 +18,8 @@ translation-reviewer:
 layout: lesson
 redirect_from: /es/lessons/cleaning-data-with-openrefine
 difficulty: 2
+activity: transforming
+topics: [data-manipulation]
 ---
 
 ## Contenidos
