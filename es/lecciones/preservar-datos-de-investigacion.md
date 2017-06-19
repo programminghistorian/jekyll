@@ -15,7 +15,7 @@ translation-reviewer:
 - Maria José Afanador-Llach
 layout: lesson
 difficulty: 1
-redirect-from: /es/lessons/preserving-your-research-data
+redirect_from: /es/lessons/preserving-your-research-data
 ---
 
 ## Contenidos
