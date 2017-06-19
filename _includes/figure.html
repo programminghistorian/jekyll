@@ -7,10 +7,14 @@ If figure.html is being called from a lesson page, it collects the lesson slug f
 
 {% include lesson-slug.html %}
 
+{% if include.filename contains "http" %}
+  {% capture fullpath %}{{ include.filename }}{% endcapture %}
+{% else %}
 {% if page.layout == "lesson" %}
   {% capture fullpath %}{{ site.baseurl }}/images/{{ slug }}/{{ include.filename }}{% endcapture %}
 {% else %}
   {% capture fullpath %}{{ site.baseurl }}/{{ include.filename }}{% endcapture %}
+{% endif %}
 {% endif %}
 
 <figure>
