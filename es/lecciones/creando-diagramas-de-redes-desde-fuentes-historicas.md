@@ -16,6 +16,9 @@ translation-reviewer:
 - Jairo Antonio Melo Flórez
 layout: lesson
 redirect_from: /es/lessons/creating-network-diagrams-from-historical-sources
+difficulty: 2
+activity: transforming
+topics: [network-analysis]
 ---
 
 ## Contenidos
