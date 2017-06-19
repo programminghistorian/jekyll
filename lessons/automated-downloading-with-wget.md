@@ -10,7 +10,7 @@ editors:
 - Adam Crymble
 difficulty: 1
 activity: acquiring
-topics: [web-scrape]
+topics: [web-scraping]
 abstract: "Wget is a useful program, run through your computer's command line, for
 retrieving online material."
 next: applied-archival-downloading-with-wget

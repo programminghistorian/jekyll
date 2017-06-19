@@ -8,7 +8,7 @@ editors:
 - Fred Gibbs
 difficulty: 2
 activity: transforming
-topics: [web-scrape]
+topics: [web-scraping]
 abstract: "Beautiful Soup is a Python library for getting data out of HTML, XML,
 and other markup languages."
 ---
