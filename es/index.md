@@ -16,7 +16,7 @@ title: The Programming Historian
 <div class="home-block  home-stripe-1">
 <div class="container">
 <h2>Aprende</h2>
-<p>Utiliza <a href="{{ site.baseurl }}es/lecciones/">nuestras lecciones</a> para aprender por tu cuenta nuevas técnicas y habilidades, o simplemente para entender mejor cómo los humanistas se sirven de herramientas, métodos y procesos computacionales.</p>
+<p>Utiliza <a href="{{ site.baseurl }}/es/lecciones/">nuestras lecciones</a> para aprender por tu cuenta nuevas técnicas y habilidades, o simplemente para entender mejor cómo los humanistas se sirven de herramientas, métodos y procesos computacionales.</p>
 </div>
 </div>
 
@@ -30,7 +30,7 @@ title: The Programming Historian
 <div class="home-block home-stripe-2">
 <div class="container">
 <h2>Contribuye</h2>
-<p><a href="flujo-de-trabajo-nuevas-lecciones.html">Escribe una lección nueva</a>, únete a nuestro <a href="guia-para-revisores">equipo de revisores</a>, o bien envíanos tus <a href="retroalimentacion.html">comentarios</a>. ¡Nos gusta estar acompañados!</p>
+<p><a href="{{ site.baseurl }}/es/guia-para-autores.html">Escribe una lección nueva</a>, únete a nuestro <a href="guia-para-revisores">equipo de revisores</a>, o bien envíanos tus <a href="retroalimentacion.html">comentarios</a>. ¡Nos gusta estar acompañados!</p>
 </div>
 </div>
 
