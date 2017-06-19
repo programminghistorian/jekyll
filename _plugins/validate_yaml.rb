@@ -32,7 +32,7 @@ module MyModule
         # Spanish required fields
         es_required_fields = ["translator", "translation-reviewer", "redirect_from"]
 
-        if p.data["lang"] == "es"
+        if p.data["translated-lesson"]
           es_required_fields.each do |f|
             if p.data[f].nil?
               page_errors.push("'#{f}' is missing.")
@@ -41,9 +41,9 @@ module MyModule
         end
 
         # English required fields
-        en_required_Fields = ["editors"]
-        if p.data["lang"] == "en"
-          en_required_Fields.each do |f|
+        en_required_fields = ["editors", "difficulty", "activity", "topics"]
+        if p.data["translated-lesson"].nil?
+          en_required_fields.each do |f|
             if p.data[f].nil?
               page_errors.push("'#{f}' is missing.")
             end

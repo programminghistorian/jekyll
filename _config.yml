@@ -39,6 +39,7 @@ defaults:
       path: "es/lecciones"
     values:
       translated-lesson: true
+      lesson: true
   -
     scope:
       path: _posts
