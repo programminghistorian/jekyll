@@ -10,7 +10,7 @@ editors:
 - Fred Gibbs
 difficulty: 2
 activity: presenting
-topics: [omeka, website]
+topics: [website]
 abstract: "This lesson will teach you how to install your own copy of Omeka."
 next: creating-an-omeka-exhibit
 ---
