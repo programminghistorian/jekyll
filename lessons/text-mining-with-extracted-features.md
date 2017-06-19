@@ -10,6 +10,8 @@ reviewers:
 editors:
 - Ian Milligan
 layout: lesson
+activity: analyzing
+topics: [distant-reading]
 ---
 
 ## Contents
