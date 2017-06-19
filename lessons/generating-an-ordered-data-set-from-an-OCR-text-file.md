@@ -20,6 +20,7 @@ abstract: "This tutorial illustrates strategies for taking raw OCR output from a
 This tutorial illustrates strategies for taking raw OCR output from a scanned text, parsing it to isolate and correct essential elements of metadata, and generating an ordered data set (a python dictionary) from it. These illustrations are specific to a particular text, but the overall strategy, and some of the individual procedures, can be adapted to organize any scanned text, even if it doesn't look like this one.
 
 ## Contents
+{:.no_toc}
 
 * TOC
 {:toc}

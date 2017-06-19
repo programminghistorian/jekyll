@@ -18,6 +18,9 @@ next: output-data-as-html-file
 previous: counting-frequencies
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

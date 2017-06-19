@@ -16,6 +16,9 @@ topics: [augmented-reality]
 abstract: "This lesson serves as an introduction to creating mobile augmented reality applications. Augmented reality (AR) can be defined as the overlaying of digital content (images, video, text, sound, etc.) onto physical objects or locations, and it is typically experienced by looking through the camera lens of an electronic device such as a smartphone, tablet, or optical head-mounted display."
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

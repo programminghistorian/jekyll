@@ -18,6 +18,9 @@ next: counting-frequencies
 previous: from-html-to-list-of-words-2
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

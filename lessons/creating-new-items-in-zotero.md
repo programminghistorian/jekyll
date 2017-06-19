@@ -15,6 +15,9 @@ previous: intro-to-the-zotero-api
 categories: [zotero, api]
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

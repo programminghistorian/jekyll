@@ -14,6 +14,9 @@ the content from those items, and count the frequencies of words."
 previous: creating-new-items-in-zotero
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

@@ -16,6 +16,9 @@ difficulty: 1
 redirect_from: /es/lessons/getting-started-with-github-desktop
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

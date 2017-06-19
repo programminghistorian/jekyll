@@ -20,6 +20,9 @@ redirect_from: /es/lessons/cleaning-data-with-openrefine
 difficulty: 2
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

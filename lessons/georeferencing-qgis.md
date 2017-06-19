@@ -20,6 +20,9 @@ that they may be added to a GIS as a raster layer."
 previous: vector-layers-qgis
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

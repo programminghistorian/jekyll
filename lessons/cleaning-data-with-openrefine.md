@@ -18,6 +18,9 @@ abstract: "This tutorial focuses on how scholars can diagnose and act upon the
 accuracy of data."
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

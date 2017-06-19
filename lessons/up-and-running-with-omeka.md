@@ -13,6 +13,9 @@ topics: [omeka, website]
 abstract: "Omeka.net makes it easy to create websites that show off collections of items."
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

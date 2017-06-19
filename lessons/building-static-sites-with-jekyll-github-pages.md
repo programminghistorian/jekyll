@@ -25,6 +25,9 @@ abstract: "This lesson will help you create entirely free, easy-to-maintain, pre
 
 **Up to date?:** This lesson was last updated on *May 2, 2017* to fix issues caused by Jekyll version 3.2.
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

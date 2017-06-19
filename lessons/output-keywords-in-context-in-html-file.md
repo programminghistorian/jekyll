@@ -17,6 +17,9 @@ next: downloading-multiple-records-using-query-strings
 previous: keywords-in-context-using-n-grams
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

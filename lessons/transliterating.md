@@ -19,6 +19,9 @@ standardized format using the American Standard Code for Information
 Interchange (ASCII) characters."
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

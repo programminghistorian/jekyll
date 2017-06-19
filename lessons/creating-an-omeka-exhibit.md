@@ -15,6 +15,9 @@ topics: [omeka, website]
 abstract: "Now that you've added items to your Omeka site and grouped them into collections, you're ready for the next step: taking your users on a guided tour through the items you've collected."
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

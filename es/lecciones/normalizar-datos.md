@@ -20,6 +20,9 @@ previous: de-html-a-lista-de-palabras-2
 redirect_from: /es/lessons/normalizing-data
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

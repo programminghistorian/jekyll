@@ -17,6 +17,9 @@ abstract: "This lesson will look at how research data, when organised in a clear
 previous: intro-to-bash
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

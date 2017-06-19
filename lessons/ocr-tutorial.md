@@ -3,6 +3,9 @@ title: OCR Tutorial
 published: false
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

@@ -13,6 +13,9 @@ abstract: "Beautiful Soup is a Python library for getting data out of HTML, XML,
 and other markup languages."
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

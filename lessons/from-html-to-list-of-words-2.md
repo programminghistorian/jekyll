@@ -17,6 +17,9 @@ next: normalizing-data
 previous: from-html-to-list-of-words-1
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

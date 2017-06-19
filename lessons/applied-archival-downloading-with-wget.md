@@ -16,6 +16,9 @@ abstract: "Now that you have learned how Wget can be used to mirror or download 
 previous: automated-downloading-with-wget
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

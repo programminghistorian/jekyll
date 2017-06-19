@@ -19,6 +19,9 @@ previous: de-html-a-lista-de-palabras-1
 redirect_from: /es/lessons/from-html-to-list-of-words-2
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

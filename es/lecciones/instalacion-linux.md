@@ -18,6 +18,9 @@ layout: lesson
 redirect_from: /es/lessons/linux-installation
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

@@ -15,6 +15,9 @@ topics: [data-manipulation]
 abstract: "This lesson teaches a way to quickly analyze large volumes of tabular data, making research faster and more effective."
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

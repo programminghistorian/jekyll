@@ -15,6 +15,9 @@ layout: lesson
 review-ticket: 32
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

@@ -17,6 +17,9 @@ next: code-reuse-and-modularity
 previous: viewing-html-files
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

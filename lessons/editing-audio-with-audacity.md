@@ -16,6 +16,9 @@ abstract: "In this lesson you will learn how to use Audacity to load, record, ed
 review-ticket: 15
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

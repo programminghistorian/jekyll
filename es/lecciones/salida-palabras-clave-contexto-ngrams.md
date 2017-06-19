@@ -18,6 +18,9 @@ previous: palabras-clave-en-contexto-n-grams
 redirect_from: /es/lessons/output-keywords-in-context-in-html-file
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

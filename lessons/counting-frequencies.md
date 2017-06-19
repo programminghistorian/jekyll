@@ -17,6 +17,9 @@ next: creating-and-viewing-html-files-with-python
 previous: normalizing-data
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

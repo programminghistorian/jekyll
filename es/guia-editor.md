@@ -5,6 +5,9 @@ layout: directory
 
 Esta página contiene instrucciones detalladas dirigidas a los editores de *The Programming Historian en español* durante el proceso de revisión por pares.
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

@@ -18,6 +18,9 @@ next: working-with-text-files
 previous: introduction-and-installation
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

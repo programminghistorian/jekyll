@@ -15,6 +15,9 @@ abstract: "This lesson will teach you how to install your own copy of Omeka."
 next: creating-an-omeka-exhibit
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

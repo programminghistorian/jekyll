@@ -13,6 +13,9 @@ abstract: "Optical Character Recognition (OCR)—the conversion of scanned image
 machine-encoded text—has proven a godsend for historical research. This lesson will help you clean up OCR'd text to make it more usable."
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

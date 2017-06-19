@@ -17,6 +17,9 @@ word processing application in order to make use of structure in a brief
 historical document that is essentially a table in the form of prose."
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

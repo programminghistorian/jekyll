@@ -12,6 +12,9 @@ Reviewing for the _Programming Historian_ is a great way to learn new technical 
 
 These guidelines are to help reviewers understand their role in the editorial process and to answer common questions about how to be most efficient and effective with your reviews.
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

@@ -20,6 +20,9 @@ will focus on installing the relevant software – all free and reputable
 programming that provides immediate results."
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

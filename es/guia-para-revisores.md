@@ -11,6 +11,9 @@ layout: blank
 Esta guía pretende responder preguntas frecuentes y ayudar a los revisores a comprender mejor su rol durante el proceso editorial.
 
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

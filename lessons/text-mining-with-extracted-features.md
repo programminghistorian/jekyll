@@ -12,6 +12,9 @@ editors:
 layout: lesson
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

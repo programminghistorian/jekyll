@@ -16,6 +16,9 @@ layout: lesson
 redirect_from: /es/lessons/up-and-running-with-omeka
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

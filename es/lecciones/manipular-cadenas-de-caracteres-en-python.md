@@ -19,6 +19,9 @@ previous: trabajar-con-paginas-web
 redirect_from: /es/lessons/manipulating-strings-in-python
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 

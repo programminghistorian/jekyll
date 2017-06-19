@@ -13,6 +13,9 @@ difficulty: 1
 review-ticket: 33
 ---
 
+## Contents
+{:.no_toc}
+
 * TOC
 {:toc}
 
