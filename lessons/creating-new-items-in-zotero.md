@@ -8,7 +8,7 @@ editors:
 - Fred Gibbs
 difficulty: 1
 activity: transforming
-topics: [zotero, api]
+topics: [api]
 abstract: "In this lesson, you will create a new item in a Zotero library and add some basic metadata such as title and date."
 next: counting-frequencies-from-zotero-items
 previous: intro-to-the-zotero-api
