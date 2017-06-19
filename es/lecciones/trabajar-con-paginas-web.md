@@ -15,6 +15,9 @@ translation-reviewer:
 - Antonio Rojas Castro
 layout: lesson
 categories: [lessons, python, original-ph]
+difficulty: 2
+activity: acquiring
+topics: [python]
 next: manipular-cadenas-de-caracteres-en-python
 previous: reutilizacion-de-codigo-y-modularidad
 redirect_from: /es/lessons/working-with-web-pages
