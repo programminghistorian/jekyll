@@ -9,7 +9,7 @@ editors:
 reviewers:
 difficulty: 1
 activity: presenting
-topics: [omeka, website]
+topics: [website]
 abstract: "Omeka.net makes it easy to create websites that show off collections of items."
 ---
 
