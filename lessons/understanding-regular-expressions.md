@@ -11,7 +11,7 @@ editors:
 - Adam Crymble
 difficulty: 2
 activity: transforming
-topics: [regex, data-manipulation]
+topics: [data-manipulation]
 abstract: "In this lesson, we will use advanced find-and-replace capabilities in a
 word processing application in order to make use of structure in a brief
 historical document that is essentially a table in the form of prose."
