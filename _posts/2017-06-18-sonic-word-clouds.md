@@ -4,6 +4,7 @@ authors:
 - Daniel Ruten
 layout: post
 categories: posts
+date: 2017-06-19
 ---
 
 My name is Daniel Ruten, and I have just finished my undergraduate studies majoring in History at the University of Saskatchewan. During my last term, I took a course on Digital History (HIST396) with Dr. Jim Clifford. In it, I became familiarized with the various emerging digital tools and methodologies that are becoming increasingly important for historians to learn. The course also required that I create some kind of digital history project myself. For my project, I took inspiration from one lesson in particular featured on the Programming Historian website: [historian Shawn Graham’s lesson on data sonification](http://programminghistorian.org/lessons/sonification). Building off of what this lesson taught me, I developed my own method to represent and analyze textual data through sound, which I have termed Sonic Word Clouds. In this post I will briefly explain this method of sonification, while reflecting a bit on the learning process that both inspired the idea for this project and allowed me to make it a reality.
