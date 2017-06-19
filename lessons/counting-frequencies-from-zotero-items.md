@@ -244,6 +244,6 @@ Word Frequencies
 ...
 ```
 
-  [Counting Frequencies]: ../lessons/counting-frequencies
-  [zip]: ../assets/programming-historian3.zip
-  [Lesson on the Zotero API]: ../lessons/intro-to-the-zotero-api
+  [Counting Frequencies]: /lessons/counting-frequencies
+  [zip]: /assets/programming-historian3.zip
+  [Lesson on the Zotero API]: /lessons/intro-to-the-zotero-api
