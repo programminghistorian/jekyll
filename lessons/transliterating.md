@@ -521,10 +521,10 @@ characters. It is a simple tool but one that can be an enormous time
 saver.
 
   [ASCII]: http://en.wikipedia.org/wiki/Ascii
-  [Viewing HTML Files]: ../lessons/viewing-html-files
-  [Working with Web Pages]: ../lessons/working-with-web-pages
-  [From HTML to List of Words (part 1)]: ../lessons/from-html-to-list-of-words-1
-  [Intro to Beautiful Soup]: ../lessons/intro-to-beautiful-soup
+  [Viewing HTML Files]: /lessons/viewing-html-files
+  [Working with Web Pages]: /lessons/working-with-web-pages
+  [From HTML to List of Words (part 1)]: /lessons/from-html-to-list-of-words-1
+  [Intro to Beautiful Soup]: /lessons/intro-to-beautiful-soup
   [Memorial]: http://lists.memo.ru
   [Cyrillic]: http://en.wikipedia.org/wiki/Cyrillic_script
   [Latin characters]: http://en.wikipedia.org/wiki/Latin_script
@@ -536,14 +536,14 @@ saver.
   [Beautiful Soup in Python.]: http://www.crummy.com/software/BeautifulSoup/
   [Glasnost]: http://en.wikipedia.org/wiki/Glasnost
   [here]: http://lists.memo.ru/d1/f1.htm
-  [Automated Downloading with Wget]: ../lessons/automated-downloading-with-wget
+  [Automated Downloading with Wget]: /lessons/automated-downloading-with-wget
   [What is Unicode]: http://www.unicode.org/standard/WhatIsUnicode.html
   [comma separated value]: http://en.wikipedia.org/wiki/Comma-separated_values
-  [Counting Frequencies]: ../lessons/counting-frequencies
+  [Counting Frequencies]: /lessons/counting-frequencies
   [Library of Congress]: http://www.lcweb.loc.gov/catdir/cpso/romanization/russian.pdf
   [Wikipedia has a table]: http://en.wikipedia.org/wiki/Cyrillic_script_in_Unicode
   [Unicode website]: http://www.unicode.org/charts/
-  [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
-  [Installing Python Modules with pip]: ../lessons/installing-python-modules-pip
+  [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
+  [Installing Python Modules with pip]: /lessons/installing-python-modules-pip
   [Cascading Style Sheets]: http://www.w3schools.com/css/
   [Code Academy’s]: http://www.codecademy.com/courses/css-coding-with-style

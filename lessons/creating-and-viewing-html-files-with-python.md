@@ -190,8 +190,8 @@ path to the directory on your own computer.
 
 -   python-lessons6.zip [zip sync]
 
-  [zip file from the previous lesson]: ../assets/python-lessons5.zip
+  [zip file from the previous lesson]: /assets/python-lessons5.zip
   [Zotero]: http://zotero.org
   [W3 Schools HTML tutorial]: http://www.w3schools.com/html/default.asp
   [doctype declaration]: http://www.w3schools.com/tags/tag_doctype.asp
-  [zip sync]: ../assets/python-lessons6.zip
+  [zip sync]: /assets/python-lessons6.zip

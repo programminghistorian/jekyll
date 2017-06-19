@@ -656,15 +656,15 @@ from the fields, the possibilities can multiply rapidly!
   [search the Archive using the Python module that we installed]: https://pypi.python.org/pypi/internetarchive#searching-from-python
   [the advanced search for the collection]: http://archive.org/search.php?query=collection%3Abplscas
   [downloading]: https://pypi.python.org/pypi/internetarchive#downloading-from-python
-  [remember those?]: ../lessons/code-reuse-and-modularity
+  [remember those?]: /lessons/code-reuse-and-modularity
   [item files are named according to specific rules]: https://archive.org/about/faqs.php#140
   [handling exceptions]: http://docs.python.org/2/tutorial/errors.html#handling-exceptions
   [rules specified for the 260 datafield]: http://www.loc.gov/marc/bibliographic/bd260.html
   [MARC standards]: http://www.loc.gov/marc/
   [1]: https://github.com/edsu/pymarc
   [functions that it provides for working with MARC XML records]: https://github.com/edsu/pymarc/blob/master/pymarc/marcxml.py
-  [Counting Frequencies]: ../lessons/counting-frequencies
-  [Google Maps lesson]: ../lessons/googlemaps-googleearth
+  [Counting Frequencies]: /lessons/counting-frequencies
+  [Google Maps lesson]: /lessons/googlemaps-googleearth
   [Wordle word cloud]: http://www.wordle.net/
   [cleaning of your data]: /lessons/cleaning-ocrd-text-with-regular-expressions
   [Installing Python Modules with pip]: /lessons/installing-python-modules-pip

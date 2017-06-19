@@ -259,9 +259,9 @@ path to the directory on your own computer.
 
 -   python-lessons8.py ([zip sync][])
 
-  [Output Data as HTML File]: ../lessons/output-data-as-html-file
-  [Counting Frequencies]: ../lessons/counting-frequencies
+  [Output Data as HTML File]: /lessons/output-data-as-html-file
+  [Counting Frequencies]: /lessons/counting-frequencies
   [1]: output-data-as-html-file
-  [zip file from the previous lesson]: ../assets/python-lessons7.zip
-  [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
-  [zip sync]: ../assets/python-lessons8.zip
+  [zip file from the previous lesson]: /assets/python-lessons7.zip
+  [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
+  [zip sync]: /assets/python-lessons8.zip

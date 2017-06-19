@@ -290,4 +290,4 @@ that’s ok!
 -   programming-historian-1 ([zip][])
 
   [Python website]: https://docs.python.org/2/library/stdtypes.html#string-methods
-  [zip]: ../assets/python-lessons1.zip
+  [zip]: /assets/python-lessons1.zip

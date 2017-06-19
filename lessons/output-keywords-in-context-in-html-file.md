@@ -348,7 +348,7 @@ path to the directory on your own computer.
 
 There is an additional lesson on using Python to download multiple records using Query Strings, marked as the next lesson.
 
-  [Keywords in Context (Using N-grams)]: ../lessons/keywords-in-context-using-n-grams
-  [zip file from the previous lesson]: ../assets/python-lessons8.zip
+  [Keywords in Context (Using N-grams)]: /lessons/keywords-in-context-using-n-grams
+  [zip file from the previous lesson]: /assets/python-lessons8.zip
   [Output Data as HTML File]: /lessons/output-data-as-html-file
-  [zip sync]: ../assets/python-lessons9.zip
+  [zip sync]: /assets/python-lessons9.zip

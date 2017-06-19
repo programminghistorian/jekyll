@@ -250,7 +250,7 @@ file to make sure you have the correct code.
 -   programming-historian-1 ([zip][])
 
   [Old Bailey Online]: http://www.oldbaileyonline.org/
-  [Downloading Multiple Records Using Query Strings]: ../lessons/downloading-multiple-records-using-query-strings
+  [Downloading Multiple Records Using Query Strings]: /lessons/downloading-multiple-records-using-query-strings
   [Old]: /images/old-bailey.png "Old"
   [Gordon Riots]: http://en.wikipedia.org/wiki/Gordon_Riots
   [zip]: /assets/python-lessons1.zip

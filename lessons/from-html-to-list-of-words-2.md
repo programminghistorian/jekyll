@@ -339,8 +339,8 @@ to make sure you have the correct code.
 
 -   python-lessons3.zip ([zip sync][])
 
-  [From HTML to a List of Words (part 1)]: ../lessons/from-html-to-list-of-words-1
+  [From HTML to a List of Words (part 1)]: /lessons/from-html-to-list-of-words-1
   [integer]: http://docs.python.org/2.4/lib/typesnumeric.html
   [types]: http://docs.python.org/3/library/types.html
-  [zip]: ../assets/python-lessons2.zip
-  [zip sync]: ../assets/python-lessons3.zip
+  [zip]: /assets/python-lessons2.zip
+  [zip sync]: /assets/python-lessons3.zip

@@ -194,7 +194,7 @@ library.
   [Zotero]: http://zotero.org
   [Quick Start Guide]: https://www.zotero.org/support/quick_start_guide
   [libZotero GitHub library]: https://github.com/fcheslack/libZotero
-  [Installing Python Modules with pip]: ../lessons/installing-python-modules-pip
+  [Installing Python Modules with pip]: /lessons/installing-python-modules-pip
   [pip]: https://pip.pypa.io/en/stable/
   [Programming Historian 2]: https://www.zotero.org/groups/programming_historian_2
   [account settings]: https://www.zotero.org/settings/

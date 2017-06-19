@@ -86,7 +86,7 @@ doesn't work on your platform, please let us know.
   [Zotero]: http://www.zotero.org/
   [Jungle Disk]: https://www.jungledisk.com/
   [Dropbox]: https://www.dropbox.com/home
-  [Viewing HTML Files]: ../lessons/viewing-html-files
-  [Mac Python Installation]: ../lessons/mac-installation
-  [Windows Python Installation]: ../lessons/windows-installation
-  [Linux Python Installation]: ../lessons/linux-installation
+  [Viewing HTML Files]: /lessons/viewing-html-files
+  [Mac Python Installation]: /lessons/mac-installation
+  [Windows Python Installation]: /lessons/windows-installation
+  [Linux Python Installation]: /lessons/linux-installation

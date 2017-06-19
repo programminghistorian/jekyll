@@ -163,4 +163,4 @@ appropriate URL:
 
 For more details, see the documentation on write requests for the [Zotero API](https://www.zotero.org/support/dev/web_api/v3/write_requests).
 
-  [Intro to the Zotero API]: ../lessons/intro-to-the-zotero-api
+  [Intro to the Zotero API]: /lessons/intro-to-the-zotero-api

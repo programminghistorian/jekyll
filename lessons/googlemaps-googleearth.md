@@ -500,7 +500,7 @@ your work!**
   [geo10]: /images/googlemaps-googleearth/geo10.png
   [geo11]: /images/googlemaps-googleearth/geo11.png
   [geo12]: /images/googlemaps-googleearth/geo12.png
-  [Creating New Vector Layers in QGIS 2.0]: ../lessons/vector-layers-qgis
+  [Creating New Vector Layers in QGIS 2.0]: /lessons/vector-layers-qgis
   [geo13]: /images/googlemaps-googleearth/geo13.png
   [geo14]: /images/googlemaps-googleearth/geo14.png
   [geo15]: /images/googlemaps-googleearth/geo15.png
@@ -516,7 +516,7 @@ your work!**
   [www.davidrumsey.com]: http://www.davidrumsey.com/
   [geo25]: /images/googlemaps-googleearth/geo25.png
   [geo26]: /images/googlemaps-googleearth/geo26.png
-  [Georeferencing in QGIS 2.0]: ../lessons/georeferencing-qgis
+  [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
   [geo27]: /images/googlemaps-googleearth/geo27.png
   [geo28]: /images/googlemaps-googleearth/geo28.png
   [Maps Engine Lite]: https://mapsengine.google.com/map/

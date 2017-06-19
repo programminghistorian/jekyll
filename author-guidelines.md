@@ -146,8 +146,8 @@ When the Markdown is rendered by our system, this line will automatically produc
 
 ``` html
 <figure>
-    <a href="../images/LESSON-SLUG/IMAGE-FILENAME">
-       <img src="../images/LESSON-SLUG/IMAGE-FILENAME" alt="Caption to image">
+    <a href="/images/LESSON-SLUG/IMAGE-FILENAME">
+       <img src="/images/LESSON-SLUG/IMAGE-FILENAME" alt="Caption to image">
     </a>
 <figcaption>
     Caption to image
@@ -248,11 +248,11 @@ Congratulations! You've published a lesson at *Programming Historian*!
 
   [Jeri Wieringa]: mailto:jeri.elizabeth+proghist@gmail.com
   [Lesson Pipeline wiki page]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
-  [reviewer guidelines]: ../reviewer-guidelines.html
+  [reviewer guidelines]: /reviewer-guidelines.html
   [published lessons]: lessons
   [TextWrangler]: http://www.barebones.com/products/textwrangler/
   [Notepad++]: https://notepad-plus-plus.org/
-  [project team]: ../project-team.html
+  [project team]: /project-team.html
   [slug]: https://en.wikipedia.org/wiki/Semantic_URL#Slug
   [YAML]: https://en.wikipedia.org/wiki/YAML
   [GitHub Guide to Markdown]: https://guides.github.com/features/mastering-markdown/

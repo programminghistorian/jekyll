@@ -182,8 +182,8 @@ Al procesar el marcado, nuestra plataforma de publicación convertirá esta lín
 
 ``` html
 <figure>
-    <a href="../images/LESSON-SLUG/NOMBRE-DEL-ARCHIVO-DE-IMAGEN">
-       <img src="../images/LESSON-SLUG/NOMBRE-DEL-ARCHIVO-DE-IMAGEN" alt="Pie de la ilustración">
+    <a href="/images/LESSON-SLUG/NOMBRE-DEL-ARCHIVO-DE-IMAGEN">
+       <img src="/images/LESSON-SLUG/NOMBRE-DEL-ARCHIVO-DE-IMAGEN" alt="Pie de la ilustración">
     </a>
 <figcaption>
     Caption to image
@@ -308,11 +308,11 @@ Finalmente, el equipo editorial the *The Programming Historian en español* revi
 [lecciones en desarrollo]: https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons
   [Ian Milligan]: mailto:i2millig@uwaterloo.ca
   [Lesson Pipeline wiki page]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
-  [reviewer guidlines]: ../reviewer-guidelines.html
+  [reviewer guidlines]: /reviewer-guidelines.html
   [published lessons]: lessons
   [TextWrangler]: http://www.barebones.com/products/textwrangler/
   [Notepad++]: https://notepad-plus-plus.org/
-  [project team]: ../project-team.html
+  [project team]: /project-team.html
   [slug]: https://en.wikipedia.org/wiki/Semantic_URL#Slug
   [YAML]: https://es.wikipedia.org/wiki/YAML
   [GitHub Guide to Markdown]: https://guides.github.com/features/mastering-markdown/
