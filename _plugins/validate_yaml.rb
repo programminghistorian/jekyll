@@ -88,10 +88,10 @@ module MyModule
 
         unless page_errors.empty?
           # Throw a warning with the filename
-          warn "#{red}In #{p.dir}#{p.name}:#{clear}"
+          warn "#{red}* In #{p.dir}#{p.name}:#{clear}"
           
           # Add some formatting to the errors and then throw them
-          unit_errors = page_errors.map{|e| "\t - #{e}"}
+          unit_errors = page_errors.map{|e| "  - [ ] #{e}"}
 
           unit_errors.each do |e|
             warn "#{red}#{e}#{clear}"
