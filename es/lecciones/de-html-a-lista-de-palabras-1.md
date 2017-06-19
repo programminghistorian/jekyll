@@ -17,6 +17,9 @@ layout: lesson
 next: de-html-a-lista-de-palabras-2
 previous: manipular-cadenas-de-caracteres-en-python
 redirect_from: /es/lessons/from-html-to-list-of-words-1
+difficulty: 2
+activity: transforming
+topics: [python]
 ---
 
 ## Contenidos
