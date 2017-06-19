@@ -13,6 +13,8 @@ translation-reviewer:
 - Víctor Gayol
 layout: lesson
 difficulty: 1
+activity: sustaining
+topics: [data-management]
 redirect_from: /es/lessons/getting-started-with-github-desktop
 ---
 
