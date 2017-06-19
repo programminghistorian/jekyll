@@ -11,7 +11,7 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 1
-activity: acquiring
+activity: beginning
 topics: [python, get-ready]
 abstract: "This first lesson in our section on dealing with Online Sources is
 designed to get you and your computer set up to start programming. We

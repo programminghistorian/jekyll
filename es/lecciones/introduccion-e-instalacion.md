@@ -16,7 +16,7 @@ translation-reviewer:
 - Antonio Rojas Castro
 layout: lesson
 difficulty: 1
-activity: acquiring
+activity: beginning
 topics: [python, get-ready]
 redirect_from: /es/lessons/introduction-and-installation
 ---
