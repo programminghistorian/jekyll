@@ -7,9 +7,9 @@ layout: directory
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
 
-<h2 class="noclear">Paso 1: <a href="traducir-o-proponer-una-lección-nueva">Traducir o proponer una lección nueva</a></h2>
-<h2 class="noclear">Paso 2: <a href="escribir-y-dar-formato">Escribir y dar formato</a></h2>
-<h2 class="noclear">Paso 3: <a href="enviar-una-traducción-o-una-lección-nueva">Enviar una traducción o lección nueva</a></h2>
+<h2 class="noclear">Paso 1: <a href="#traducir-o-proponer-una-lección-nueva">Traducir o proponer una lección nueva</a></h2>
+<h2 class="noclear">Paso 2: <a href="#escribir-y-dar-formato">Escribir y dar formato</a></h2>
+<h2 class="noclear">Paso 3: <a href="#enviar-una-traducción-o-una-lección-nueva">Enviar una traducción o lección nueva</a></h2>
 
 
 Si quieres traducir una lección, tienes una idea para una lección nueva o ya has escrito un tutorial que crees que puede adaptarse a *The Programming Historian en español*, contacta con [Antonio Rojas Castro]. Cuanto antes te pongas en contacto con nosotros, mucho mejor; de esta manera, te ayudaremos a plantear adecuadamente tu contribución, teniendo en cuenta el público objetivo y el nivel de conocimientos necesarios. También te asignaremos un editor para ayudarte a resolver dudas y a desarrollar la lección de la mejor manera.
