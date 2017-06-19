@@ -20,12 +20,48 @@ module MyModule
 
         page_errors = Array.new
 
+        # Collect all valid topics
+        valid_topics = site.data["topics"].map{|t| t["type"]}
+
+        # Collect all valid activities
+        valid_activites = ["acquiring", "analyzing", "transforming", "presenting", "preserving"]
+
+        valid_difficulties = [1, 2, 3]
+
         # For each required field, check if it is missing on the page. If so, log an error.
-        required_fields = ["layout", "reviewers", "authors", "date", "title"]
+        required_fields = ["layout", "reviewers", "authors", "date", "title", "difficulty", "activity", "topics"]
 
         required_fields.each do |f|
           if p.data[f].nil?
             page_errors.push("'#{f}' is missing.")
+          end
+        end
+
+        # For each activity, topic, or difficulty, check that it is within allowed ranges
+
+        lesson_activity = p.data["activity"]
+
+        unless lesson_activity.nil?
+          if !valid_activites.include?(lesson_activity)
+              page_errors.push("'#{lesson_activity}' is not a valid lesson activity.")
+          end
+        end
+
+        lesson_topics = p.data["topics"]
+
+        unless lesson_topics.nil?
+          lesson_topics.each do |t|
+            if !valid_topics.include?(t)
+              page_errors.push("'#{t}' is not a valid lesson topic.")
+            end
+          end
+        end
+
+        lesson_difficulty = p.data["difficulty"]
+
+        unless lesson_difficulty.nil?
+          if !valid_difficulties.include?(lesson_difficulty)
+            page_errors.push("'#{lesson_difficulty}' is not a valid lesson difficulty.'")
           end
         end
 
@@ -41,7 +77,7 @@ module MyModule
         end
 
         # English required fields
-        en_required_fields = ["editors", "difficulty", "activity", "topics"]
+        en_required_fields = ["editors"]
         if p.data["translated-lesson"].nil?
           en_required_fields.each do |f|
             if p.data[f].nil?

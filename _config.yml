@@ -29,11 +29,13 @@ defaults:
       path: "lessons"
     values:
       lesson: true
+      english-lesson: true
   -
     scope:
       path: "lessons/deprecated"
     values:
       lesson: false
+      english-lesson: false
   -
     scope:
       path: "es/lecciones"
