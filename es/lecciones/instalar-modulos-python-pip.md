@@ -15,6 +15,9 @@ translation-reviewer:
 - Antonio Rojas Castro
 layout: lesson
 redirect_from: /es/lessons/installing-python-modules-pip
+difficulty: 1
+activity: acquiring
+topics: [get-ready, python]
 ---
 
 ## Contenidos
