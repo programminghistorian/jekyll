@@ -16,6 +16,9 @@ translation-reviewer:
 layout: lesson
 previous: palabras-clave-en-contexto-n-grams
 redirect_from: /es/lessons/output-keywords-in-context-in-html-file
+difficulty: 2
+activity: presenting
+topics: [python]
 ---
 
 ## Contenidos
