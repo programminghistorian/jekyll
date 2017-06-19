@@ -16,7 +16,7 @@ layout: lesson
 redirect_from: /es/lessons/up-and-running-with-omeka
 difficulty: 1
 activity: presenting
-topics: [omeka, website]
+topics: [website]
 ---
 
 ## Contenidos
