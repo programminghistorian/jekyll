@@ -13,7 +13,7 @@ _The Programming Historian en español_ es posible gracias al esfuerzo de volunt
 
 Si tienes dominio del inglés y del español, puedes traducir una lección ya publicada en _The programming Historian_. De esta manera participarás en la comunidad hispánica de las humanidades digitales y profundizarás en un lenguaje, método o tecnología.
 
-Buscamos traducciones rigurosas y de lectura amena que tengan en cuenta el contexto hispánico y los recursos disponibles en nuestra comunidad. Si te interesa colaborar, consulta nuestras [instrucciones para autores y traductores]({{site.baseurl}}/es/guia-para-autores).
+Buscamos traducciones rigurosas y de lectura amena que tengan en cuenta el contexto hispánico y los recursos disponibles en nuestra comunidad. Si te interesa colaborar, consulta nuestras [instrucciones para autores y traductores]({{site.baseurl}}/es/guia-para-autores.html).
 
 ## Escribe una lección
 
