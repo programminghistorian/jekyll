@@ -15,6 +15,8 @@ translation-reviewer:
 - Maria José Afanador-Llach
 layout: lesson
 difficulty: 2
+activity: sustaining
+topics: [website, data-management]
 redirect_from: /es/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 ---
 
