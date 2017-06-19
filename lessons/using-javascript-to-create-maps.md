@@ -13,6 +13,8 @@ editors:
 difficulty: 2
 layout: lesson
 review-ticket: 32
+activity: presenting
+topics: [mapping]
 ---
 
 ## Contents
