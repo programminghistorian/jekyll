@@ -666,5 +666,5 @@ from the fields, the possibilities can multiply rapidly!
   [Counting Frequencies]: ../lessons/counting-frequencies
   [Google Maps lesson]: ../lessons/googlemaps-googleearth
   [Wordle word cloud]: http://www.wordle.net/
-  [cleaning of your data]: http://programminghistorian.github.io/lessons/cleaning-ocrd-text-with-regular-expressions
-  [Installing Python Modules with pip]: http://programminghistorian.org/lessons/installing-python-modules-pip
+  [cleaning of your data]: /lessons/cleaning-ocrd-text-with-regular-expressions
+  [Installing Python Modules with pip]: /lessons/installing-python-modules-pip
