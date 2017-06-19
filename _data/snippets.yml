@@ -4,7 +4,7 @@ menu-home:
   es: /es
 menu-about:
     en: About
-    es: Acerca de
+    es: Acerca
 menu-about-overview:
   en:
     title: About PH
@@ -17,7 +17,7 @@ menu-about-team:
     title: Project Team
     link: /project-team
   es:
-    title: Equipo de proyecto
+    title: Equipo
     link: /es/equipo-de-proyecto
 menu-about-research:
   en:
@@ -48,21 +48,21 @@ menu-contribute-review:
     title: Reviewer Guidelines
     link: /reviewer-guidelines
   es:
-    title: Guia para revisores
+    title: Guía para revisores
     link: /es/guia-para-revisores
 menu-contribute-write:
   en:
     title: Author Guidelines
     link: /author-guidelines
   es:
-    title: Guia para autores
+    title: Guía para autores
     link: /es/guia-para-autores
 menu-contribute-edit:
   en:
     title: Editor Guidelines
     link: /editor-guidelines
   es:
-    title: Guia para editores
+    title: Guía para editores
     link: /es/guia-editor
 menu-lessons:
   en:
@@ -112,42 +112,42 @@ acquire-button:
   en:
     acquire
   es:
-    acquire
+    obtener
 transform-button:
   en:
     transform
   es:
-    transform
+    transformar
 analyze-button:
   en:
     analyze
   es:
-    analyze
+    analizar
 present-button:
   en:
     present
   es:
-    present
+    presentar
 sustain-button:
   en:
     sustain
   es:
-    sustain
+    preservar
 reset-button:
   en:
     reset to see all lessons
   es:
-    reset to see all lessons
+    restaurar para ver todas las lecciones
 sort-by-date:
   en:
     sort by publication date
   es:
-    sort by publication date
+    ordenar por fecha de publicación
 sort-by-difficulty:
   en:
     sort by difficulty
   es:
-    sort by difficulty
+    ordena por dificultad
 
 # lesson headers
 editor:
@@ -155,22 +155,22 @@ editor:
   es: editor
 reviewers:
   en: reviewed by
-  es: reviewers
+  es: revisores
 translator:
   en: translated by
-  es: translator
+  es: traductor
 translation-reviewers:
   en: translation reviewed by
-  es: translation reviewed by
+  es: traduccin revisada por
 published:
   en: published
-  es: published
+  es: publicado
 modified:
   en: modified
-  es: modified
+  es: modificado
 difficulty:
   en: difficulty
-  es: difficulty
+  es: dificultad
 next-lesson:
   en: next lesson
   es: siguiente lección

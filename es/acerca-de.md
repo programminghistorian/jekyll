@@ -3,30 +3,26 @@ layout: blank
 title: About the Programming Historian
 ---
 
-# About _Programming Historian_
+# Acerca de _The Programming Historian en español_
 
 
-## Peer Review
-All tutorials at _Programming Historian_ are rigorously peer reviewed, guided through the review process by one of our editors. Review involves a thorough exchange with the lesson editor to ensure the lesson works as intended and that all concepts are explained for a non-specialist reader, before the tutorial is sent to external reviewers.
+## Revisión por pares
+Todos los tutoriales publicados en _The Programming Historian en español_ han sido revisados de manera rigurosa bajo la supervisión de uno de nuestros editores. Cuando recibimos una propuesta de lección nueva o de traducción, uno de nuestros editores se encarga de que el texto cumpla con los objetivos marcados y de que todos los conceptos sean claros para cualquier usuario y estén bien explicados. Todo este proceso se lleva a cabo antes de enviar el texto a nuestros revisores externos.  
 
-Our peer review process is a bit different from what might be considered the traditional peer review process. We do not solicit reviews to judge whether a tutorial is “good enough” to be published. Rather, we consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to teach and learn from each other. Once a tutorial slips into our [editorial workflow]({{site.baseurl}}/author-guidelines), we do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time. Consult our [Reviewer Guidelines]({{site.baseurl}}/reviewer-guidelines) for more information.
+Nuestro proceso de revisión es un poco distinto al tradicional: no solicitamos una valoración sobre la calidad del texto, es decir, si merece ser publicado o no, sino que pedimos a nuestros revisores que participen de manera activa para mejorar el tutorial, de tal modo que todas las partes implicadas aprendan. Al hacernos cargo de un tutorial nuevo o bien de una traducción, seguimos un [flujo de trabajo]({{site.baseurl}}/flujo-de-trabajo-nuevas-lecciones) específico con el objetivo de que la lección se publique en un período de tiempo razonable. Puedes consultar nuestra [guía para revisores]({{site.baseurl}}/guia-para-revisores) si deseas más información. 
 
+## Código abierto
+En _The Programming Historian en español_ estamos comprometidos con el uso de herramientas y lenguajes accesibles para todo el mundo. Todas nuestras lecciones utilizan lenguajes y programas gratuitos. Creemos que cualquier persona debería poder hacer uso de nuestros tutoriales con independencia de la financiación disponible para llevar a cabo su proyecto de investigación.
 
-## Open Source
-_Programming Historian_ is committed to open source values. All contributed lessons make use of open source programming languages and software whenever possible. This policy is meant to minimize costs for all parties, and to allow the greatest possible level of participation. We believe everyone should be able to benefit from these tutorials, not just those with large research budgets for expensive proprietary software.
+## Acceso abierto *Gold*
+Todas las contribuciones a _The Programming Historian en español_ son publicadas con una licencia [Creative Commons BY](https://creativecommons.org/licenses/by/2.0/deed.es). Esto cumple con un modelo de publicación de acceso abierto *[Gold](https://es.wikipedia.org/wiki/Acceso_abierto)*, en conformidad con los requisitos de financiamiento [RCUK](http://www.rcuk.ac.uk/research/openaccess/) y de publicación académica [HEFCE](http://www.hefce.ac.uk/rsrch/oa/) en el Reino Unido, así como con la [Canadian Tri-Agency Open Access Policy](http://www.science.gc.ca/eic/site/063.nsf/eng/h_F6765465.html). Acceso abierto *Gold* significa que la versión de los documentos está disponible de manera libre, sin tarifas de suscripción o restricciones de acceso. A los autores se les permite republicar sus tutoriales en cualquier sitio. Asimismo, cualquiera puede hacerlo siempre y cuando cite al autor original y respete sus derechos morales.
 
+No aplicamos cargos por procesamiento de artículos (APCs), o suscripción bibliotecaria.
 
-## Gold Open Access
-All submissions to _Programming Historian_ are published under a [Creative Commons 'BY' license](https://creativecommons.org/licenses/by/2.0/). This adheres to a '[Gold](https://en.wikipedia.org/wiki/Open_access)' open access model of publishing, which is fully compliant with [RCUK](http://www.rcuk.ac.uk/research/openaccess/) funding and [HEFCE](http://www.hefce.ac.uk/rsrch/oa/) publishing requirements for scholars in the UK, as well as the [Canadian Tri-Agency Open Access Policy](http://www.science.gc.ca/eic/site/063.nsf/eng/h_F6765465.html). 'Gold' open access means that the version of record is made freely available without subscription fee or restrictions on access. Authors are permitted to republish their tutorials anywhere. And so can anyone, as long as they cite the original author and respect his or her moral rights.
-
-We do not charge Article Processing Charges (APCs), nor do we charge library subscriptions.
-
-_Programming Historian_ (ISSN 2397-2068) is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
+_The Programming Historian en español_ está indexado en el Directorio de Revistas de Acceso Abierto [DOAJ](https://doaj.org/toc/2397-2068).
 
 
-## Funding & Ownership
-_Programming Historian_ is a volunteer-driven project. It is not a legal entity, and does not currently receive direct funding from any source.
+## Financiamiento y propiedad
+_The Programming Historian_ es una iniciativa dirigida por voluntarios, controlada en su totalidad por el Consejo Editorial de *The Programming Historian* con la ayuda de contribuyentes de la comunidad. No es una persona jurídica y, actualmente, no recibe financiación directa de ninguna organizacin o entidad.
 
-The project is published by the Editorial Board of the _Programming Historian_.
-
-The project is grateful for past support by the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)), and for hosting support from the Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)).
+El proyecto agradece el apoyo anterior recibido de la Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)), y por el apoyo en el alojamiento del Roy Rosenzweig Centre for New Media ([RRCHNM](http://chnm.gmu.edu/)). 
