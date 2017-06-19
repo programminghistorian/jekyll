@@ -426,5 +426,5 @@ file to make sure you have the correct code.
   [list comprehension]: http://docs.python.org/tutorial/datastructures.html#list-comprehensions
   [computer scientists at Glasgow]: http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
   [Regular Expressions]: http://www.diveintopython.net/regular_expressions/index.html
-  [zip]: ../assets/python-lessons4.zip
-  [zip sync]: ../assets/python-lessons5.zip
+  [zip]: /assets/python-lessons4.zip
+  [zip sync]: /assets/python-lessons5.zip
