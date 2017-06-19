@@ -18,6 +18,9 @@ translation-reviewer:
 - Juan Antonio Pastor Sánchez
 layout: lesson
 redirect_from: /es/lessons/graph-databases-and-SPARQL
+difficulty: 2
+activity: acquiring
+topics: [lod]
 ---
 
 Objetivos de la lección
