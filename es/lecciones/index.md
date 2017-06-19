@@ -46,7 +46,7 @@ Aprende a utilizar programas para cambiar, mover, limpiar y contar datos. He aqu
     <a href="{{site.url}}/es/lecciones/limpieza-de-datos-con-OpenRefine">
       <img src="{{site.url}}/gallery/cleaning-data-with-openrefine.png">
       <h3>Limpieza de datos con OpenRefine</h3>
-      <p>Seth van Hooland y Ruben Verborgh</p>
+      <p>Seth van Hooland, Ruben Verborgh, y Max De Wilde</p>
     </a>
   </li>
   </ul>
