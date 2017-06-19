@@ -75,8 +75,8 @@ Si se te ocurren más formas de participación, siempre puedes escribirnos un em
 
 
 
-[nuevas lecciones]: {{site.baseurl}}/es/flujo-de-trabajo-nuevas-lecciones
-[envío]: {{site.baseurl}}/es/flujo-de-trabajo-nuevas-lecciones
+[nuevas lecciones]: {{site.baseurl}}/es/guia-para-autores
+[envío]: {{site.baseurl}}/es/guia-para-autores
 [revisores]: {{site.baseurl}}/es/guia-para-revisores
 [Guía para editores]: {{site.baseurl}}/es/guia-para-revisores
 [comentarios]: {{site.baseurl}}/es/retroalimentacion
