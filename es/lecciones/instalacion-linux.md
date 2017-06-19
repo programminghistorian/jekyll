@@ -16,6 +16,9 @@ translation-reviewer:
 - Antonio Rojas Castro
 layout: lesson
 redirect_from: /es/lessons/linux-installation
+difficulty: 1
+activity: beginning
+topics: [get-ready, python]
 ---
 
 ## Contenidos
