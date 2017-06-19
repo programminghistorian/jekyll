@@ -197,4 +197,4 @@ library.
   [Installing Python Modules with pip]: ../lessons/installing-python-modules-pip
   [pip]: https://pip.pypa.io/en/stable/
   [Programming Historian 2]: https://www.zotero.org/groups/programming_historian_2
-  [account settings]: https://www.zotero.org/settings/keys
+  [account settings]: https://www.zotero.org/settings/
