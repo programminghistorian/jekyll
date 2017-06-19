@@ -13,6 +13,8 @@ editors:
 - Jeri E. Wieringa
 difficulty: 2
 layout: lesson
+activity: analyzing
+topics: [distant-reading]
 ---
 
 ## Contents
