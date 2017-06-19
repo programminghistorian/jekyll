@@ -18,7 +18,7 @@ layout: lesson
 redirect_from: /es/lessons/mac-installation
 ---
 
-## Contents
+## Contenidos
 {:.no_toc}
 
 * TOC

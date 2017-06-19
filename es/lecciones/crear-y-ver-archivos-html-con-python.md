@@ -19,7 +19,7 @@ previous: contar-frecuencias
 redirect_from: /es/lessons/creating-and-viewing-html-files-with-python
 ---
 
-## Contents
+## Contenidos
 {:.no_toc}
 
 * TOC

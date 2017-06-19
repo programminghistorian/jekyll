@@ -20,7 +20,7 @@ previous: reutilizacion-de-codigo-y-modularidad
 redirect_from: /es/lessons/working-with-web-pages
 ---
 
-## Contents
+## Contenidos
 {:.no_toc}
 
 * TOC

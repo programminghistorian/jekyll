@@ -19,7 +19,7 @@ previous: normalizar-datos
 redirect_from: /es/lessons/counting-frequencies
 ---
 
-## Contents
+## Contenidos
 {:.no_toc}
 
 * TOC

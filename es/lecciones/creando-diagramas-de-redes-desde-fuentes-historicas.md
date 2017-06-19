@@ -18,7 +18,7 @@ layout: lesson
 redirect_from: /es/lessons/creating-network-diagrams-from-historical-sources
 ---
 
-## Contents
+## Contenidos
 {:.no_toc}
 
 * TOC

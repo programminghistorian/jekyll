@@ -20,7 +20,7 @@ previous: introduccion-e-instalacion
 redirect_from: /es/lessons/viewing-html-files
 ---
 
-## Contents
+## Contenidos
 {:.no_toc}
 
 * TOC

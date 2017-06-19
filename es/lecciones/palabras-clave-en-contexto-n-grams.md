@@ -19,7 +19,7 @@ previous: salida-de-datos-como-archivo-html
 redirect_from: /es/lessons/keywords-in-context-using-n-grams
 ---
 
-## Contents
+## Contenidos
 {:.no_toc}
 
 * TOC

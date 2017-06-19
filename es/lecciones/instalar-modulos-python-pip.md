@@ -17,7 +17,7 @@ layout: lesson
 redirect_from: /es/installing-python-modules-pip
 ---
 
-## Contents
+## Contenidos
 {:.no_toc}
 
 * TOC

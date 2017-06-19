@@ -20,7 +20,7 @@ previous: trabajar-con-archivos-de-texto
 redirect_from: /es/lessons/code-reuse-and-modularity
 ---
 
-## Contents
+## Contenidos
 {:.no_toc}
 
 * TOC

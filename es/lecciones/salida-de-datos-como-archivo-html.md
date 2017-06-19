@@ -19,7 +19,7 @@ previous: crear-y-ver-archivos-html-con-python
 redirect_from: /es/lessons/output-data-as-html-file
 ---
 
-## Contents
+## Contenidos
 {:.no_toc}
 
 * TOC
