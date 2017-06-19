@@ -11,6 +11,8 @@ editors:
 layout: lesson
 difficulty: 2
 review-ticket: 27
+activity: transforming
+topics: [mapping]
 ---
 
 ## Contents
