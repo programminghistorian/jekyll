@@ -267,7 +267,7 @@ Por último, añade la imagen a la lección editando la página HTML en [leccion
 ¡La nueva imagen debería aparecer en la [página de inicio](http://programminghistorian.org/es/)!
 
 
-### 8) Incorpora tu tutorial en nuestro Twitter bot
+### 8) Incorpora tu lección en nuestro Twitter bot
 
 Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos un Twitter bot para volver a promocionar lecciones pasadas. Para añadir la lección nueva a nuestro *pipeline* deberás añadirla como una fila en esta [hoja de cálculo](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=904817529). Todos los miembros del equipo editorial deben poder hacer cambios; envía un correo electrónico al grupo de google si tienes algún inconveniente. Deberás insertar una nueva fila para tu lección al final de la tabla con los siguientes campos: 
 
