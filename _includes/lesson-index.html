@@ -1,3 +1,4 @@
+<!-- Core code for generating filterable lesson indexes on lessons.md and es/lecciones.md. This will repeatedly call lesson_describe.html in which individual lessons have their metadata formatted for display. -->
 
 <ul class="filter activities">
 <li id="filter-acquiring" class="filter">{{site.data.snippets.acquire-button[page.lang]}} ({{ alllessons | where:"activity","acquiring" | size }})</li>
