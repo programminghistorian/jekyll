@@ -8,7 +8,7 @@ module MyModule
 
       # To skip running this plugin, pass 
       # JEKYLL_ENV=SKIP_YAML_CHECK bundle exec jekyll build
-      if site.config['env'] = "SKIP_YAML_CHECK"
+      if site.config['env'] == "SKIP_YAML_CHECK"
         return
       end
 
