@@ -1,4 +1,5 @@
-<!--
+{% comment %}
+
 This include takes a lesson page and returns the appropriate filename slug.
 
 For en pages, the base url is used; for es pages, the assigned "redirect_from" value is used.
@@ -11,7 +12,8 @@ These slugs are used in several locations:
 
 Note that this inlude defaults to using the current "page" as its environment. This is great when generating slugs for the current page being generated.
 However, when generating lesson links/avatars via _includes/lesson_describe.html for the lesson index pages, we need to explicitly pass lesson objects in a loop. 
--->
+
+{% endcomment %}
 
 {% if include.lesson %}
   {% assign lessonobj = include.lesson %}
