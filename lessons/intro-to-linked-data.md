@@ -35,7 +35,7 @@ This lesson offers a brief and concise introduction to [Linked Open Data](https:
 
 The tutorial should take a couple of hours to complete, and you may find it helpful to re-read sections to solidify your understanding. Technical terms have been linked to their corresponding page on Wikipedia, and you are encouraged to pause and read about terms that you find challenging. After having learned some of the key principles of LOD, the best way to improve and solidify that knowledge is to practise. This tutorial provides opportunities to do so. By the end of the course you should understand the basics of LOD, including key terms and concepts.
 
-If you need to learn how to explore LOD using the query language [SPARQL](https://en.wikipedia.org/wiki/SPARQL), I recommend Matthew Lincoln's ['Using SPARQL to access Linked Open Data](http://programminghistorian.org/lessons/graph-databases-and-SPARQL), which follows on practically from the conceptual overview offered in this lesson.
+If you need to learn how to explore LOD using the query language [SPARQL](https://en.wikipedia.org/wiki/SPARQL), I recommend Matthew Lincoln's ['Using SPARQL to access Linked Open Data](/lessons/graph-databases-and-SPARQL), which follows on practically from the conceptual overview offered in this lesson.
 
 In order to provide readers with a solid grounding in the basic principles of LOD, this tutorial will not be able to offer a comprehensive coverage of all LOD concepts. The following two LOD concepts will *not* be the focus of this lesson: 
 
@@ -308,7 +308,7 @@ For this final section we will interrogate some LOD and see what you can do with
 
 The query language we use for LOD is called [SPARQL](https://en.wikipedia.org/wiki/SPARQL). It's one of those recursive acronyms beloved of techie people: *SPARQL Protocol and Query Language*.
 
-As I mentioned at the beginning, *Programming Historian* has [a complete lesson](http://programminghistorian.org/lessons/graph-databases-and-SPARQL), by Matthew Lincoln, on using SPARQL. My final section here is just an overview of the basic concepts, and if SPARQL piques your interest, you can get a thorough grounding from Lincoln's tutorial.
+As I mentioned at the beginning, *Programming Historian* has [a complete lesson](/lessons/graph-databases-and-SPARQL), by Matthew Lincoln, on using SPARQL. My final section here is just an overview of the basic concepts, and if SPARQL piques your interest, you can get a thorough grounding from Lincoln's tutorial.
 
 We're going to run our SPARQL queries on [DBpedia](https://en.wikipedia.org/wiki/SPARQL), which is a huge LOD set derived from Wikipedia. As well as being full of information that is very difficult to find through the usual Wikipedia interface, it has several SPARQL "end points" - interfaces where you can type in SPARQL queries and get results from DBpedia's triples.
 
@@ -382,7 +382,7 @@ Only five British women historians? Of course there are, in reality, many more t
 
 With SPARQL on *DBpedia* you have to be careful of the inconsistencies of crowd-sourced material. You could use SPARQL in exactly the same way on a more curated dataset, for example the UK government data: [https://data-gov.tw.rpi.edu//sparql]() and expect to get more robust results (there is a brief tutorial for this dataset here: [https://data-gov.tw.rpi.edu/wiki/A\_crash\_course\_in\_SPARQL]()).
 
-However, despite its inconsistencies, *DBpedia* is a great place to learn SPARQL. This has only been an a brief introduction but there is much more in [Using SPARQL to access Linked Open Data](http://programminghistorian.org/lessons/graph-databases-and-SPARQL).
+However, despite its inconsistencies, *DBpedia* is a great place to learn SPARQL. This has only been an a brief introduction but there is much more in [Using SPARQL to access Linked Open Data](/lessons/graph-databases-and-SPARQL).
 
 ## Further reading and resources
 
@@ -393,7 +393,7 @@ However, despite its inconsistencies, *DBpedia* is a great place to learn SPARQL
 * Richard Gartner, *Metadata: Shaping Knowledge from Antiquity to the Semantic Web*, Springer, 2016
 * Seth van Hooland and Ruben Verborgh, *Linked Data for Libraries, Archives and Museums*, 2015
 * Also see the book's [companion website](http://freeyourmetadata.org/)
-* Matthew Lincoln ['Using SPARQL to access Linked Open Data'](http://programminghistorian.org/lessons/graph-databases-and-SPARQL)
+* Matthew Lincoln ['Using SPARQL to access Linked Open Data'](/lessons/graph-databases-and-SPARQL)
 * [Linked Data guides and tutorials](http://linkeddata.org/guides-and-tutorials)
 * Dominic Oldman, Martin Doerr and Stefan Gradmann, 'Zen and the Art of Linked Data: New Strategies for a Semantic Web of Humanist * Knowledge', in *A New Companion to Digital Humanities*, edited by Susan Schreibman et al.
 * Max Schmachtenberg, Christian Bizer and Heiko Paulheim, [State of the LOD Cloud 2017](http://linkeddatacatalog.dws.informatik.uni-mannheim.de/state/)

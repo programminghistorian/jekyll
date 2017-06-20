@@ -10,7 +10,7 @@ categories: posts
         <img src="/images/subject-specialist-editor/subject-specialist-editor.png" alt=""/></a><figcaption>
     The Programming Historian is looking for a new team member.</figcaption></figure></p>
 
- *The Programming Historian* (http://programminghistorian.org) is seeking an editor to work actively to solicit and edit lessons in a specific area or areas within the digital humanities. These lessons will focus on the analysis and interpretation phase of the research process, helping readers to move from digital data to publishable research.
+ *The Programming Historian* () is seeking an editor to work actively to solicit and edit lessons in a specific area or areas within the digital humanities. These lessons will focus on the analysis and interpretation phase of the research process, helping readers to move from digital data to publishable research.
 
 
 Themes might include (but are not limited to):

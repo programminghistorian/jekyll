@@ -8,7 +8,7 @@ categories: posts
 
 ¡[The Programming Historian](/) tiene el placer de presentar su nuevo equipo de editores de contenidos en español!
 
-En julio, el comité editorial de PH anunció una [convocatoria de aplicaciones](http://programminghistorian.org/posts/spanish-editor) para humanistas digitales que pudieran ayudar a traducir al español la creciente biblioteca de tutoriales revisados por pares de PH. La meta: hacer las lecciones de PH más accesibles al público hispanoparlante y comenzar a expandir la comunidad de PH más allá de la audiencia principal del sitio, académicos angloparlantes en Norte América y Europa. 
+En julio, el comité editorial de PH anunció una [convocatoria de aplicaciones](/posts/spanish-editor) para humanistas digitales que pudieran ayudar a traducir al español la creciente biblioteca de tutoriales revisados por pares de PH. La meta: hacer las lecciones de PH más accesibles al público hispanoparlante y comenzar a expandir la comunidad de PH más allá de la audiencia principal del sitio, académicos angloparlantes en Norte América y Europa. 
 
 Recibimos muchas aplicaciones excelentes y fue difícil escoger un solo editor. Después de hablar individualmente con los tres finalistas para la posición, el comité editorial decidió invitar a cada una de ellos a formar un equipo cuyo objetivo principal será construir conexiones entre The Programming Historian, el mundo hispanoparlante y la comunidad global de practicantes de las humanidades digitales. 
 
@@ -20,7 +20,7 @@ Nos emociona mucho anunciar que Maria José Afanador-Llach, Víctor Gayol y Anto
 
 [Antonio Rojas Castro](https://twitter.com/RojasCastroA) tiene un doctorado en Humanidades de la Universitat Pompeu Fabra en Barcelona, España. Como parte de su disertación construyó una edición digital crítica de las Soledades de Luis de Góngora (actualmente en versión beta). En 2013 creó el [Grupo de Humanidades Digitales de Zotero](https://www.zotero.org/groups/humanidades_digitales), y actualmente es el Coordinador de Comunicaciones de la [European Association for Digital Humanities (EADH)](http://eadh.org/).
 
-Por favor acompáñenos para darles la bienvenida a Maria, Víctor y Antonio! Los pueden saludar en Twitter tuiteando [@ProgHist](https://twitter.com/proghist), [@mariajoafana](https://twitter.com/mariajoafana), [@Victor_Gayol](https://twitter.com/victor_gayol), y [@RojasCastroA](https://twitter.com/RojasCastroA). Y por supuesto, manténganse en sintonía con [The Programming Historian](http://programminghistorian.org/) para ver sus contribuciones.
+Por favor acompáñenos para darles la bienvenida a Maria, Víctor y Antonio! Los pueden saludar en Twitter tuiteando [@ProgHist](https://twitter.com/proghist), [@mariajoafana](https://twitter.com/mariajoafana), [@Victor_Gayol](https://twitter.com/victor_gayol), y [@RojasCastroA](https://twitter.com/RojasCastroA). Y por supuesto, manténganse en sintonía con [The Programming Historian](/) para ver sus contribuciones.
 
 Traducido por Maria José Afanador-Llach
 

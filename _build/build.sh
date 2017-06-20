@@ -10,7 +10,7 @@ bundle exec jekyll build && bundle exec htmlproofer ./_site \
   --timeframe '30d' \
   --only-4xx \
   --http-status-ignore 429 \
-  --url-ignore 'http://www.gutenberg.org/ebooks/2600','/https://github.com/programminghistorian/jekyll/commits/*/','/\#/',"/espanol/"
+  --url-ignore 'http://www.gutenberg.org/ebooks/2600','/https://github.com/programminghistorian/jekyll/(commits|blob)/*/','/\#/',"/espanol/"
 
 # The folllowing comments docuemnt what each line of that build script does.
 

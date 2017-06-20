@@ -27,7 +27,7 @@ previous: manipulating-strings-in-python
 ## Lesson Goals
 
 In this two-part lesson, we will build on what you’ve learned about
-[Downloading Web Pages with Python](http://programminghistorian.org/lessons/working-with-web-pages), learning how to remove the *HTML markup* from
+[Downloading Web Pages with Python](/lessons/working-with-web-pages), learning how to remove the *HTML markup* from
 the webpage of [Benjamin Bowsey’s 1780 criminal trial transcript][]. We
 will achieve this by using a variety of *string operators*, *string methods*
 and close reading skills. We introduce *looping* and *branching* so that
@@ -39,7 +39,7 @@ indexed, and counted.
 ## The Challenge
 
 To get a clearer picture of the task ahead, open the
-*obo-t17800628-33.html* file that you created in [Downloading Web Pages with Python](http://programminghistorian.org/lessons/working-with-web-pages) (or [download and save the trial]
+*obo-t17800628-33.html* file that you created in [Downloading Web Pages with Python](/lessons/working-with-web-pages) (or [download and save the trial]
 [obo-t17800628-33.html] if you do not already have a
 copy), then look at the HTML source by clicking on
 *Tools -> Web Developer -> Page Source*. As you scroll through the

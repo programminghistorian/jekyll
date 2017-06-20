@@ -15,9 +15,9 @@ We are pleased to announce that Matthew Lincoln has joined the *Programming Hist
 
 Matthew has been a long-time friend of the project, having reviewed lessons, contributed to the website development, and authored two important tutorials:
 
-1 - Matthew Lincoln, '[Using SPARQL to access Linked Open Data](http://programminghistorian.org/lessons/graph-databases-and-SPARQL)', *Programming Historian* (2015).
+1 - Matthew Lincoln, '[Using SPARQL to access Linked Open Data](/lessons/graph-databases-and-SPARQL)', *Programming Historian* (2015).
 
-2 - Matthew Lincoln, '[Reshaping JSON with Jq](http://programminghistorian.org/lessons/json-and-jq)', *Programming Historian* (2016).
+2 - Matthew Lincoln, '[Reshaping JSON with Jq](/lessons/json-and-jq)', *Programming Historian* (2016).
 
 He will also take on a role as an editor, working with authors to develop our offering of lessons about research data re-use, data publication, and linked data.
 

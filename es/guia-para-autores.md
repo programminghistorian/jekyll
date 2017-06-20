@@ -38,7 +38,7 @@ Por favor, ten en cuenta que no tenemos presupuesto para contratar a un correcto
 
 Puesto que nuestro sitio web se publica mediante [GitHub Pages](https://pages.github.com), **las lecciones deben escribirse en texto plano**, con el programa de edición que prefieras. *Los editores de texto se diferencian de manera distintiva de los procesadores de texto tradicionales como MS Word*. Para Mac, recomendamos editores de texto gratuitos como [TextWrangler] o TextEdit (este último ya va incluido en Mac OS X). Para Windows, puedes usar Notepad o la versión mejorada [Notepad++].
 
-El editor de textos que elijas no es relevante pero, por favor, comienza tu traducción o tutorial en texto plano para evitar problemas más tarde. No dudes en contactar con algún miembro de nuestro [equipo](http://programminghistorian.org/es/equipo-de-proyecto) si tienes preguntas o dudas.
+El editor de textos que elijas no es relevante pero, por favor, comienza tu traducción o tutorial en texto plano para evitar problemas más tarde. No dudes en contactar con algún miembro de nuestro [equipo](/es/equipo-de-proyecto) si tienes preguntas o dudas.
 
 ## Identifica tu archivo
 
@@ -94,7 +94,7 @@ En caso de que envíes una traducción, debes mantener el bloque YAML de la lecc
 
 ## Escribe en Markdown
 
-**Todas las traducciones y lecciones nuevas deben estar escritas en Markdown**. Markdow es un lenguaje de marcado muy sencillo que se puede escribir con un editor de textos (tal y como se ha explicado más arriba, no utilices un procesador como MS Word u Open Office). [GitHub Pages] utiliza [Jekyll](http://jekyllrb.com/), que transforma de manera automática los archivos Markdown en archivos HTML para que se visualicen en el navegador. Esta página, por ejemplo, está escrita en Markdown; puedes comprobarlo tú mismo inspeccionado el archivo en [GitHub](https://github.com/programminghistorian/jekyll/blob/gh-pages/es/flujo-de-trabajo-nuevas-lecciones.md).  
+**Todas las traducciones y lecciones nuevas deben estar escritas en Markdown**. Markdow es un lenguaje de marcado muy sencillo que se puede escribir con un editor de textos (tal y como se ha explicado más arriba, no utilices un procesador como MS Word u Open Office). [GitHub Pages] utiliza [Jekyll](http://jekyllrb.com/), que transforma de manera automática los archivos Markdown en archivos HTML para que se visualicen en el navegador. Esta página, por ejemplo, está escrita en Markdown; puedes comprobarlo tú mismo inspeccionado el archivo en [GitHub](https://github.com/programminghistorian/jekyll/blob/gh-pages/es/guia-para-autores.md).  
 
 Los recursos y tutoriales suguientes contienen más información sobre cómo dar formato a una traducción o una lección nueva en Markdown:
 
@@ -254,7 +254,7 @@ Intenta utilizar los acentos (`` ` `` ) para introducir líneas de codigo y para
 # Enviar una traducción o una lección nueva
 Una vez tu archivo ha sido preparado de acuerdo con las especificaciones detalladas, ¡ya puedes enviárnoslo!
 
-Tenemos una página del proyecto [Programming Historian](https://github.com/programminghistorian) en GitHub, donde mantemos dos repositorios (es decir, un sitio en donde almacenar archivos y carpetas). Por un lado, tenemos el repositorio [jekyll](https://github.com/programminghistorian/jekyll), que contiene los archivos a los que se accede a través del navegador [web](http://programminghistorian.org/es). Por el otro, tenemos el repositorio llamado [ph-submissions].
+Tenemos una página del proyecto [Programming Historian](https://github.com/programminghistorian) en GitHub, donde mantemos dos repositorios (es decir, un sitio en donde almacenar archivos y carpetas). Por un lado, tenemos el repositorio [jekyll](https://github.com/programminghistorian/jekyll), que contiene los archivos a los que se accede a través del navegador [web](/es). Por el otro, tenemos el repositorio llamado [ph-submissions].
 
 Los autores y traductores pueden enviarnos las lecciones de manera directa, es decir, añadiendo los archivos al repositorio [ph-submissions]. Gracias a las características de GitHub, puedes llevar a cabo esto arrastrando y soltando los archivos. Si colaboras con nosotros por primera vez, estas instrucciones pueden ser útiles:
 
@@ -270,7 +270,7 @@ Los autores y traductores pueden enviarnos las lecciones de manera directa, es d
 
 ## ¡Enviado! ¿Y ahora qué?
 
-Para saber qué ocurre tras enviar una traducción o lección, consulta nuestra [guía para editores](http://programminghistorian.org/es/guia-editor) en la que se detalla el proceso editorial. A continuación, resumimos el proceso.
+Para saber qué ocurre tras enviar una traducción o lección, consulta nuestra [guía para editores](/es/guia-editor) en la que se detalla el proceso editorial. A continuación, resumimos el proceso.
 
 El paso más importante consiste en que tu editor cree un *[issue](https://github.com/programminghistorian/ph-submissions/issues)* para tu traducción o lección en el repositorio [ph-submissions], con un enlace a tu lección (que pre-visualizaste en el paso 5). El editor invitará a dos revisores (como mínimo) a que lean y comenten tu lección.
 
@@ -278,7 +278,7 @@ El paso más importante consiste en que tu editor cree un *[issue](https://githu
 
 Nos comprometemos a completar el proceso de revisión en cuatro semanas; sin embargo, en ocasiones en ocasiones hay demoras y el proceso puede tomar más tiempo del que nos gustaría.
 
-A fin de promover una revisión por pares abierta y una investigación pública, animamos a todos los participantes a revisar y debatir la lección en GitHub. Al mismo tiempo, también queremos que todo el mundo se sienta cómodo con el proceso. Por eso si necesitas debatir algo en privado, [puedes contactar con tu editor](http://programminghistorian.org/es/equipo-de-proyecto), o con uno de nuestros *ombudsperson* [Ian Milligan o Amanda Visconti](http://programminghistorian.org/project-team).
+A fin de promover una revisión por pares abierta y una investigación pública, animamos a todos los participantes a revisar y debatir la lección en GitHub. Al mismo tiempo, también queremos que todo el mundo se sienta cómodo con el proceso. Por eso si necesitas debatir algo en privado, [puedes contactar con tu editor](/es/equipo-de-proyecto), o con uno de nuestros *ombudsperson* [Ian Milligan o Amanda Visconti](/project-team).
 
 
 ### Contesta

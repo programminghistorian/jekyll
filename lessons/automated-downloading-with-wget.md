@@ -27,7 +27,7 @@ Editor's Note
 
 This lesson requires you to use the command line. If you have no
 previous experience using the command line you may find it helpful to
-work through the *Programming Historian’s* [Introduction to the Bash Programming Language](http://programminghistorian.org/lessons/intro-to-bash).
+work through the *Programming Historian’s* [Introduction to the Bash Programming Language](/lessons/intro-to-bash).
 
 Lesson Goals
 ------------

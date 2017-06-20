@@ -15,20 +15,20 @@ Esta página contiene instrucciones detalladas dirigidas a los editores de *The 
 
 Gracias por editar una lección para *The Programming Historian en español*. Estamos muy agradecidos por tus esfuerzos. Esta guía está pensada para garantizar que autores, traductores, editores y revisores tengan una experiencia justa y coherente. Si tienes alguna pregunta sobre esta guía, por favor, contacta con algún miembro del equipo o publica una pregunta en nuestro repositorio de [GitHub](https://github.com/programminghistorian/jekyll/issues). También puedes escribirnos si crees que esta guía debe ser actualizada o mejorada. 
 
-Tanto si estás editando una traducción como si estás editando una lección nueva el proceso sigue unas mismas líneas de acción; nuestro objetivo como editores no es supervisar, como se suele hacer en las revistas tradicionales sino ofrecer ayuda durante todo el proceso de escritura, traducción y publicación. Por eso es recomendable que te familiarices con la [Guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).  
+Tanto si estás editando una traducción como si estás editando una lección nueva el proceso sigue unas mismas líneas de acción; nuestro objetivo como editores no es supervisar, como se suele hacer en las revistas tradicionales sino ofrecer ayuda durante todo el proceso de escritura, traducción y publicación. Por eso es recomendable que te familiarices con la [Guía para autores y traductores](/es/guia-para-autores).  
 
 Si recibes una propuesta de lección nueva, asegúrate de que el autor te proporciona una idea clara del contenido antes de que empiece a escribir el tutorial. Si un tema no es adecuado para *The Programming Historian en español* nuestro trabajo es decírselo al autor antes de que empiece a escribir la lección. Con esto pretendemos ahorrarnos tiempo y energía. Una vez hemos hablado con el autor y hemos evaluado su propuesta, podemos seguir adelante con el proceso de revisión.
 
 
 ### Espacios seguros
 
-En *The Programming Historian en español* estamos comprometidos con ofrecer un espacio seguro en el que se puedan intercambiar ideas sin miedo a sentirse acosado o sin sufrir algún tipo de abuso. El editor cumple un rol fundamental a la hora de asegurarse que el espacio en que tienen lugar las conversaciones no sea dañino para los participantes. En otras palabras, tu rol, como editor, también consiste en reforzar nuestra política en contra del acoso en todo momento. Si necesitas ayuda, por favor, contacta con otro editor. Puedes leer más sobre este tema, en inglés, en nuestro [blog](http://programminghistorian.org/posts/PH-commitment-to-diversity).
+En *The Programming Historian en español* estamos comprometidos con ofrecer un espacio seguro en el que se puedan intercambiar ideas sin miedo a sentirse acosado o sin sufrir algún tipo de abuso. El editor cumple un rol fundamental a la hora de asegurarse que el espacio en que tienen lugar las conversaciones no sea dañino para los participantes. En otras palabras, tu rol, como editor, también consiste en reforzar nuestra política en contra del acoso en todo momento. Si necesitas ayuda, por favor, contacta con otro editor. Puedes leer más sobre este tema, en inglés, en nuestro [blog](/posts/PH-commitment-to-diversity).
 
 ### Política contra el acoso
 
 En esta sección encontrarás una declaración de los principios que deben regir *The Programming Historian en español*; también ofrece una pauta sobre el tono y el estilo que debiera predominar en todos los intercambios que tienen lugar en nuestros foros entre traductores, autores, revisores y editores.
 
-El objetivo de *The Programming Historian en español* es ofrecer un entorno abierto en el que la comunidad de participantes sea libre para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros *ombudspersons* [María José Afanador-Llach o Víctor Gayol](http://programminghistorian.org/es/equipo-de-proyecto).
+El objetivo de *The Programming Historian en español* es ofrecer un entorno abierto en el que la comunidad de participantes sea libre para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros *ombudspersons* [María José Afanador-Llach o Víctor Gayol](/es/equipo-de-proyecto).
 
 ### Seguimiento de lecciones
 
@@ -58,7 +58,7 @@ Una vez la lección haya sido entregada, el editor creará un ticket de revisió
 
 Antes de solicitar revisiones externas, el editor debe leer y probar el tutorial, y utilizar su experiencia previa para ayudar al autor o al traductor a realizar mejoras iniciales (si es necesario). En una lección nueva, los editores suelen intervenir para aclarar la audiencia objetiva de la lección, o bien para identificar frases difíciles de entender, tecnicismos que se podrían evitar, o pasos que requieren mayor número de explicaciones (o adaptaciones teniendo en cuenta el contexto cultural hispánico, si se trata de una traducción). Esta revisión inicial es importante porque permitirá a los revisores externos centrarse en la mejora de la lección. Todo esto se realiza, por lo común, en abierto, en nuestra plataforma de envíos (ver más abajo), pero si el autor o traductor lo requiere también es posible establecer un canal de comunicación privado.
 
-Cuando el traductor o el autor ha revisado la lección siguiendo el consejo del editor, se invitarán a dos revisores externos. La decisión sobre los revisores externos depende del editor; no obstante, se tendrá en cuenta nuestro compromiso con la [diversidad](https://github.com/programminghistorian/jekyll/issues) a la hora de elegir los revisores. Como editor, te animamos a que te preguntes si has hecho todo lo posible para elegir revisores de género, nacionalidad, raza, edad, o formación académica diversa. En otras palabras, evita elegir revisores que sean como tú. Al contactar con los revisores, por favor, proporciona la [guía para revisores](http://programminghistorian.org/es/guia-para-revisores) y fija una fecha límite para completar la revisión (un mes, por lo general), a fin de asegurarnos de que el proceso de publicación no se alargue de manera innecesaria.
+Cuando el traductor o el autor ha revisado la lección siguiendo el consejo del editor, se invitarán a dos revisores externos. La decisión sobre los revisores externos depende del editor; no obstante, se tendrá en cuenta nuestro compromiso con la [diversidad](https://github.com/programminghistorian/jekyll/issues) a la hora de elegir los revisores. Como editor, te animamos a que te preguntes si has hecho todo lo posible para elegir revisores de género, nacionalidad, raza, edad, o formación académica diversa. En otras palabras, evita elegir revisores que sean como tú. Al contactar con los revisores, por favor, proporciona la [guía para revisores](/es/guia-para-revisores) y fija una fecha límite para completar la revisión (un mes, por lo general), a fin de asegurarnos de que el proceso de publicación no se alargue de manera innecesaria.
 
 Al recibir una lección o traducción nueva, el editor iniciará un nuevo *issue* en nuestro [repositorio de envíos en Github](https://github.com/programminghistorian/ph-submissions/issues), en donde tendrá lugar el proceso de revisión. De esta manera, todos los participantes podrán seguir la conversación y recibirán los mensajes. Los editores, traductores y autores deberán registrarse en GitHub (si no lo han hecho ya) y acceder al repositorio con su cuenta.
 
@@ -79,7 +79,7 @@ Por favor, estás en libertad de utilizar los números de línea proporcionados 
 
 En adelante, intervendré como editor durante el proceso de revisión. Tras haber leído la lección y haber enviado mis comentarios al traductor, mi rol consistirá en solicitar otra revisión por parte de uno de los miembros de nuestro comité editorial y gestionar las conversaciones que se produzcan en este foro. 
 
-Otros miembros de nuestra comunidad también están invitados a ofrecer sus comentarios de una manera constructiva; los comentarios deberán publicarse en este hilo de conversación, por lo que se recomienda haber leído nuestra guía para revisores (http://programminghistorian.org/es/guia-para-revisores) y tener en cuenta nuestra política contra el acoso (ver más abajo). No se aceptarán más comentarios por parte de la comunidad tras la publicación de la segunda revisión formal a fin de que el traductor pueda empezar a trabajar en los cambios solicitados. Cuando esto ocurra, publicaré un anuncio aquí.
+Otros miembros de nuestra comunidad también están invitados a ofrecer sus comentarios de una manera constructiva; los comentarios deberán publicarse en este hilo de conversación, por lo que se recomienda haber leído nuestra guía para revisores (/es/guia-para-revisores) y tener en cuenta nuestra política contra el acoso (ver más abajo). No se aceptarán más comentarios por parte de la comunidad tras la publicación de la segunda revisión formal a fin de que el traductor pueda empezar a trabajar en los cambios solicitados. Cuando esto ocurra, publicaré un anuncio aquí.
 
 Asimismo, me comprometo a mantener la conversación abierta a todo el mundo en GitHub. Pero si alguno de los participantes quiere ponerse en contacto en privado conmigo, puede escribirme un correo electrónico. También es posible contactar con nuestros 'ombudpersons'.
 
@@ -101,7 +101,7 @@ Por favor, estás en libertad de utilizar los números de línea proporcionados 
 
 En adelante, intervendré como editor durante el proceso de revisión. Mi rol consistirá en solicitar dos revisiones externas y gestionar las conversaciones que se produzcan en este foro. He leído la lección y ya le he hecho llegar mis comentarios al traductor.
 
-Otros miembros de nuestra comunidad también están invitados a ofrecer sus comentarios de una manera constructiva; los comentarios deberán publicarse en este hilo de conversación, por lo que se recomienda haber leído nuestra guía para revisores (http://programminghistorian.org/es/guia-para-revisores) y tener en cuenta nuestra política contra el acoso (ver más abajo). No se aceptarán más comentarios por parte de la comunidad tras la publicación de la segunda revisión formal a fin de que le autor pueda empezar a trabajar en los cambios solicitados. Cuando esto ocurra, publicaré un anuncio aquí.
+Otros miembros de nuestra comunidad también están invitados a ofrecer sus comentarios de una manera constructiva; los comentarios deberán publicarse en este hilo de conversación, por lo que se recomienda haber leído nuestra guía para revisores (/es/guia-para-revisores) y tener en cuenta nuestra política contra el acoso (ver más abajo). No se aceptarán más comentarios por parte de la comunidad tras la publicación de la segunda revisión formal a fin de que le autor pueda empezar a trabajar en los cambios solicitados. Cuando esto ocurra, publicaré un anuncio aquí.
 
 Asimismo, me comprometo a mantener la conversación abierta a todo el mundo en GitHub. Pero si alguno de los participantes quiere ponerse en contacto en privado conmigo, puede escribirme un correo electrónico. También es posible contactar con nuestros 'ombudpersons'.
 
@@ -135,7 +135,7 @@ En *The Programming Historian en español* sabemos que existe un gran abanico de
 
 ## Aspectos técnicos del proceso de revisión - Lista de verificación
 
-Nuestro proceso de revisión se lleva a cabo en el [repositorio de envíos](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es) de GitHub. Las instrucciones sobre cómo subir los archivos, el formato de los archivos y el uso de Markdown se encuentran en nuestra [Guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones) actualizada periódicamente con nuevas instrucciones. Como editor, deberás familiarizarte con los pasos a seguir y referirte a ellos cuando sea necesario. Si necesitas ayuda, siempre puedes escribir a otro editor del [equipo](http://programminghistorian.org/es/equipo-de-proyecto).
+Nuestro proceso de revisión se lleva a cabo en el [repositorio de envíos](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es) de GitHub. Las instrucciones sobre cómo subir los archivos, el formato de los archivos y el uso de Markdown se encuentran en nuestra [Guía para autores y traductores](/es/guia-para-autores) actualizada periódicamente con nuevas instrucciones. Como editor, deberás familiarizarte con los pasos a seguir y referirte a ellos cuando sea necesario. Si necesitas ayuda, siempre puedes escribir a otro editor del [equipo](/es/equipo-de-proyecto).
 
 Desde un punto de vista técnico, estas son las áreas en las que tendrás que intervenir como editor:
 
@@ -152,7 +152,7 @@ Una vez hayas escogido el nombre del archivo, utiliza el mismo nombre para crear
 
 ### B) Revisar el etiquetado Markdown
 
-Los autores y traductores deben asegurarse de que utilizan Markdown de manera apropiada para dar formato y estructurar el texto. Si han seguido la sintaxis, no debería haber problema. Ahora bien, si puedes ver algún símbolo Markdown en el archivo, quiere decir que algo ha salido mal. Las instrucciones sobre cómo utilizar Markdown se encuentran en nuestra [guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
+Los autores y traductores deben asegurarse de que utilizan Markdown de manera apropiada para dar formato y estructurar el texto. Si han seguido la sintaxis, no debería haber problema. Ahora bien, si puedes ver algún símbolo Markdown en el archivo, quiere decir que algo ha salido mal. Las instrucciones sobre cómo utilizar Markdown se encuentran en nuestra [guía para autores y traductores](/es/guia-para-autores).
 
 Puedes comprobar con facilidad si todo es correcto accediendo a la visualización generada en GitHub: https://github.com/PH-espagnol/borradores/tree/master/lecciones/NOMBRE-DEL-ARCHIVO-AQUÍ (nota: sin extensión .md).
 
@@ -166,7 +166,7 @@ En el caso de las lecciones nuevas, si un tutorial ya contiene archivos numerado
 
 Con independencia de cómo se nombren las imágenes (semánticamente o de manera secuencial), todos los archivos deben situarse en el directorio `imagenes`. El sub-directorio debe tener como nombre el *slug* de la lección. Por favor, comprueba que las imágenes tienen un formato adecuado como PNG o JPEG y que el tamaño es correcto (en píxeles y en bytes).
 
-Más información sobre cómo añadir las imágenes en nuestra [guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
+Más información sobre cómo añadir las imágenes en nuestra [guía para autores y traductores](/es/guia-para-autores).
 
 ### D) Verificar los archivos con datos
 
@@ -191,7 +191,7 @@ Una vez el autor y tú como editor estéis satisfechos con el texto, sea una tra
 
 ### 1) Mueve el archivo
 
-La manera más fácil de publicar el texto es utilizar `git` en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios `jekyll` y `ph-submissions/es` (si no es así, nuestra [introducción a GitHub](http://programminghistorian.org/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar con Caleb McDaniel (en inglés) para que te ayude, o en español a través de Víctor Gayol.
+La manera más fácil de publicar el texto es utilizar `git` en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios `jekyll` y `ph-submissions/es` (si no es así, nuestra [introducción a GitHub](/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar con Caleb McDaniel (en inglés) para que te ayude, o en español a través de Víctor Gayol.
 
 1. Sitúate en el director local de tu repositorio `ph-submissions/es`.
 2. Introduce `git pull` para descargar los últimos cambios en tu ordenador (o `sync` si utilizas GitHub Desktop).
@@ -221,7 +221,7 @@ En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor 
 
 ### 3) Añade traductor, revisores y editores al archivo YAML
 
-Es muy importante acreditar el trabajo de nuestros traductores, revisores y editores. Así, pues, localiza el  bloque YAML que se encuentra al inicio del tutorial, y añade el nombre de los revisores y de todos los miembros de nuestra comunidad que han contribuido durante el proceso de revisión. Además, crea un campo `editor` y añade tu nombre y de cuantos otros editores hayan contribuido en la publicación. Las instrucciones para dar formato al bloque de YAML se encuentran en la [guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
+Es muy importante acreditar el trabajo de nuestros traductores, revisores y editores. Así, pues, localiza el  bloque YAML que se encuentra al inicio del tutorial, y añade el nombre de los revisores y de todos los miembros de nuestra comunidad que han contribuido durante el proceso de revisión. Además, crea un campo `editor` y añade tu nombre y de cuantos otros editores hayan contribuido en la publicación. Las instrucciones para dar formato al bloque de YAML se encuentran en la [guía para autores y traductores](/es/guia-para-autores).
 
 Si se trata de una traducción, asegúrate de que se mantienen los datos del YAML original, e introduce un campo para el traductor (`translator`), otro para los revisores de la traducción (`translation-reviewer`) y otro más para el editor de la traducción (`translation-editor`).
 
@@ -245,7 +245,7 @@ Actualiza la fecha en el campo correspondiente del archivo YAML tomando como ref
 
 ### 7) Busca una imagen que represente la lección
 
-Las lecciones se representan mediante una imagen `vintage` que refleja algún elemento de las tareas descritas en el tutorial. Puedes ver todas las imágenes en el [índice principal de lecciones](http://programminghistorian.org/es/lecciones). El editor es el encargado de seleccionar las imágenes. 
+Las lecciones se representan mediante una imagen `vintage` que refleja algún elemento de las tareas descritas en el tutorial. Puedes ver todas las imágenes en el [índice principal de lecciones](/es/lecciones). El editor es el encargado de seleccionar las imágenes. 
 
 Puedes buscar imágenes en los recursos siguientes:
 
@@ -255,7 +255,7 @@ Puedes buscar imágenes en los recursos siguientes:
  - [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
-Si como editor estás buscando una imagen para una lección nueva, asegúrate de que la imagen sigue el mismo estilo que las imágenes anteriores; debería ser una ilustración, no una fotografía, tener al menos 200 píxeles de anchura y altura, y estar libre de derechos. Asegúrate de que la magen no es ofensiva y ten en cuenta nuestro [compromiso con la diversidad](http://programminghistorian.org/posts/PH-commitment-to-diversity); en otras palabras, intenta encontrar una imagen que no perpetúe estereotipos o envíe mensajes sutiles sobre la masculinidad y la raza blanca.
+Si como editor estás buscando una imagen para una lección nueva, asegúrate de que la imagen sigue el mismo estilo que las imágenes anteriores; debería ser una ilustración, no una fotografía, tener al menos 200 píxeles de anchura y altura, y estar libre de derechos. Asegúrate de que la magen no es ofensiva y ten en cuenta nuestro [compromiso con la diversidad](/posts/PH-commitment-to-diversity); en otras palabras, intenta encontrar una imagen que no perpetúe estereotipos o envíe mensajes sutiles sobre la masculinidad y la raza blanca.
  
 Antes de editar la imagen, guarda el archivo original. El nombre del archivo debe coincidir con el *slug* de la URL de la lección y, además, `-original`; el formato del archivo debe ser `.png`. Por ejemplo, la lección "Cleaning Data with OpenRefine" tiene el *slug* `cleaning-data-with-openrefine`; por tanto, el nombre de la imagen original debería ser `cleaning-data-with-openrefine-original.png`.
 
@@ -267,7 +267,7 @@ Por último, añade la imagen a la lección editando la página HTML en [leccion
 
 `<img src="/gallery/cleaning-data-with-openrefine.png">`
 
-¡La nueva imagen debería aparecer en la [página de inicio](http://programminghistorian.org/es/)!
+¡La nueva imagen debería aparecer en la [página de inicio](/es/)!
 
 
 ### 8) Da las gracias a todo el mundo y difunde el tutorial

@@ -218,14 +218,14 @@ Our preferred way for authors to submit lessons is to add them directly to the [
 </div>
 
 ## Lesson Submitted! Now What?
-To see what happens after you submit a lesson, feel free to browse our [editor guidelines](http://programminghistorian.org/editor-guidelines), which detail our editorial process. Highlights are below:
+To see what happens after you submit a lesson, feel free to browse our [editor guidelines](/editor-guidelines), which detail our editorial process. Highlights are below:
 
 The most immediately important step is that your editor will create an [issue](https://github.com/programminghistorian/ph-submissions/issues) for the new lesson on the [ph-submissions] repo, with a link to your lesson (that you previewed in step 5). The editor and at least two reviewers invited by the editor will post their comments to this issue.
 
 ### Wait for Reviewer Feedback
 We aim to complete the review process within four weeks, but sometimes delays occur or people get busy and the process can take longer than we hoped.
 
-In keeping with the ideas of public scholarship and open peer review, we encourage discussions to stay on GitHub. However, we also want everyone to feel comfortable with the process. If you need to discuss something privately, please feel free to [email your editor directly](http://programminghistorian.org/project-team), or to contact one of our dedicated ombudspeople, [Ian Milligan or Amanda Visconti](http://programminghistorian.org/project-team).
+In keeping with the ideas of public scholarship and open peer review, we encourage discussions to stay on GitHub. However, we also want everyone to feel comfortable with the process. If you need to discuss something privately, please feel free to [email your editor directly](/project-team), or to contact one of our dedicated ombudspeople, [Ian Milligan or Amanda Visconti](/project-team).
 
 
 ### Respond to Feedback
