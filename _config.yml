@@ -3,6 +3,7 @@ description: Introductory and intermediate programming lessons for humanists
 url: http://programminghistorian.org
 baseurl: ""
 permalink: :categories/:title
+safe: true
 exclude:
   - deprecated
   - vendor
