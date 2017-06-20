@@ -82,7 +82,7 @@ We'd love to reach more people. So we've brought on a new member to the editoria
 
 ### Gender Balance and Submission (Social)
 
-We're pleased to announce that Jeri Wieringa has joined our editorial team. Jeri is the author of a popular lesson on [Introduction to Beautiful Soup](http://programminghistorian.org/lessons/intro-to-beautiful-soup). She and our other editors will be working actively to encourage and mentor authors who are looking for extra support during the writing and revising process.
+We're pleased to announce that Jeri Wieringa has joined our editorial team. Jeri is the author of a popular lesson on [Introduction to Beautiful Soup](/lessons/intro-to-beautiful-soup). She and our other editors will be working actively to encourage and mentor authors who are looking for extra support during the writing and revising process.
 
 We've also revised the text on our website in an effort to make it clearer that we're willing to work closely with prospective authors to develop their ideas. And we enthusiastically encourage you to reach out to any of the editors if we can help you to get a lesson into shape. We're committed to making sure that this is a welcoming space for everyone, and we'll be talking about how we can ensure this at every single editorial meeting.
 
