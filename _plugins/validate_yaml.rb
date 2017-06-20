@@ -6,11 +6,8 @@ module MyModule
   class WarningGenerator < Jekyll::Generator
     def generate(site)
 
-      # To skip running this plugin, pass 
-      # JEKYLL_ENV=SKIP_YAML_CHECK bundle exec jekyll build
-      if site.config['env'] == "SKIP_YAML_CHECK"
-        return
-      end
+      # To skip running this plugin, pass skip_yaml_check: true in a config file
+      unless site.config["skip_yaml_check"]
 
       # Empty array to collect all errors across the site
       total_errors = Array.new
@@ -114,4 +111,5 @@ module MyModule
       end
     end
   end
+end
 end
