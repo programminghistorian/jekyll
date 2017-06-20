@@ -30,7 +30,7 @@ Developed in 2004 by [John Gruber](http://daringfireball.net/projects/markdown/ 
 
 Plain text files have many advantages over other formats. For one, they are readable on virtually all devices. They have also withstood the test of time better than other file types -- if you've ever tried to open a document saved in a legacy word processor format, you'll be familiar with the compatibility challenges involved.
 
-By following Markdown syntax, you'll be able to produce files that are both legible in plain text and ready to be styled on other platforms. Many blogging engines, static site generators, and sites like [GitHub](http://github.com "GitHub") also support Markdown, and will render these files into HTML for display on the web. Additionally, tools like Pandoc can convert files into and out of Markdown. For more on Pandoc, visit the lesson on [Sustainable authorship in plain text using Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) by Dennis Tenen and Grant Wythoff.
+By following Markdown syntax, you'll be able to produce files that are both legible in plain text and ready to be styled on other platforms. Many blogging engines, static site generators, and sites like [GitHub](http://github.com "GitHub") also support Markdown, and will render these files into HTML for display on the web. Additionally, tools like Pandoc can convert files into and out of Markdown. For more on Pandoc, visit the lesson on [Sustainable authorship in plain text using Pandoc and Markdown](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) by Dennis Tenen and Grant Wythoff.
 
 ## Markdown Syntax
 Markdown files are saved with the extension `.md`, and can be opened in a text editor such as TextEdit, Notepad, Sublime Text, or Vim. Many websites and publishing platforms also offer web-based editors and/or extensions for entering text using Markdown syntax.
@@ -211,11 +211,11 @@ Links can be written in two styles.
 
 Inline links are written by enclosing the link text in square brackets first, then including the URL and optional alt-text in round brackets.
 
-`For more tutorials, please visit the [Programming Historian](http://programminghistorian.org/ "Programming Historian main page").`
+`For more tutorials, please visit the [Programming Historian](/ "Programming Historian main page").`
 
 **This renders as:**
 
-For more tutorials, please visit the [Programming Historian](http://programminghistorian.org/ "Programming Historian main page").
+For more tutorials, please visit the [Programming Historian](/ "Programming Historian main page").
 
 Reference-style links are handy for footnotes and may keep your plain text document neater. These are written with an additional set of square brackets to establish a link ID label.
 
@@ -297,7 +297,7 @@ To specify the alignment of each column, colons `:` can be added to the header r
 
 
 ## Markdown Limitations
-While Markdown is becoming increasingly popular, particularly for styling documents that are viewable on the web, many people and publishers still expect traditional Word documents, PDFs, and other file formats. This can be mitigated somewhat with command line conversion tools such as [Pandoc](http://johnmacfarlane.net/pandoc/); however, certain word processor features like track changes are not supported yet. Please visit the Programming Historian lesson on [Sustainable authorship in plain text using Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) for more information about Pandoc.
+While Markdown is becoming increasingly popular, particularly for styling documents that are viewable on the web, many people and publishers still expect traditional Word documents, PDFs, and other file formats. This can be mitigated somewhat with command line conversion tools such as [Pandoc](http://johnmacfarlane.net/pandoc/); however, certain word processor features like track changes are not supported yet. Please visit the Programming Historian lesson on [Sustainable authorship in plain text using Pandoc and Markdown](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) for more information about Pandoc.
 
 
 ## Conclusion

@@ -32,7 +32,7 @@ It is often the case that historians involved in digital projects wish to work w
 
 2. Even if you had such an army of helpers, proof-reading the OCR output of, say, a collection of twelfth century Italian charters transcribed and published in 1935, will quickly drive them all mad, make their eyes bleed, and the result will still be a great wad of text containing a great many errors, and you will __still__ have to do __something__ to it before it becomes useful in any context.
 
-Going through a text file line by line and correcting OCR errors one at a time is hugely error-prone, as any proof reader will tell you. There are ways to automate some of this tedious work. A scripting language like Perl or Python can allow you to search your OCR output text for common errors and correct them using "Regular Expressions", a language for describing patterns in text. (So called because they express a ["regular language"](http://en.wikipedia.org/wiki/Regular_language). See L.T. O'Hara's [tutorial on Regular Expressions](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions.html) here at the PM.) Regular Expressions, however, are only useful if the expressions you are searching for are ... well ... regular. Unfortunately, much of what you have in OCR output is highly *irregular*. If you could impose some order on it: create an ordered data set out of it, your Regular Expression tools would become much more powerful.
+Going through a text file line by line and correcting OCR errors one at a time is hugely error-prone, as any proof reader will tell you. There are ways to automate some of this tedious work. A scripting language like Perl or Python can allow you to search your OCR output text for common errors and correct them using "Regular Expressions", a language for describing patterns in text. (So called because they express a ["regular language"](http://en.wikipedia.org/wiki/Regular_language). See L.T. O'Hara's [tutorial on Regular Expressions](/lessons/cleaning-ocrd-text-with-regular-expressions.html) here at the PM.) Regular Expressions, however, are only useful if the expressions you are searching for are ... well ... regular. Unfortunately, much of what you have in OCR output is highly *irregular*. If you could impose some order on it: create an ordered data set out of it, your Regular Expression tools would become much more powerful.
 
 Consider, for example, what happens if your OCR interpreted a lot of strings like this "21 July, 1921" as "2l July, 192l", turning the integer '1' into an 'l'. You would love to be able to write a search and replace script that would turn all instances of 2l into 21, but then what would happen if you had lots of occurrences of strings like this in your text: "2lb. hammer". You'd get a bunch of 21b. hammers; not what you want. If only you could tell your script: only change 2l into 21 in sections where there are dates, not weights. If you had an ordered data set, you could do things like that.
 
@@ -204,13 +204,13 @@ def rom2ar(rom):
 (run <[this little script](../assets/Roman_to_Arabic.txt)> to see in detail how `rome2ar` works. Elegant programming like this can offer insight; like poetry.)
 
 ## <a name="imports-globals"></a> Some other things we'll need:
-At the top of your Python module, you're going to want to import some python modules that are a part of the standard library. (see Fred Gibbs's tutorial [*Installing Python Modules with pip*](http://programminghistorian.org/lessons/installing-python-modules-pip)).
+At the top of your Python module, you're going to want to import some python modules that are a part of the standard library. (see Fred Gibbs's tutorial [*Installing Python Modules with pip*](/lessons/installing-python-modules-pip)).
 
 1. First among these is the "re" (regular expression) module `import re`. Regular expressions are your friends. However, bear in mind Jamie Zawinski's quip:
 
     >Some people, when confronted with a problem, think "I know, I'll use regular expressions." Now they have two problems.
 
-    (Again, have a look at L.T. O'Hara's introduction here at the Programming Historian [Cleaning OCR’d text with Regular Expressions](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions.html))
+    (Again, have a look at L.T. O'Hara's introduction here at the Programming Historian [Cleaning OCR’d text with Regular Expressions](/lessons/cleaning-ocrd-text-with-regular-expressions.html))
 
 2. Also: `from pprint import pprint`. `pprint` is just a pretty-printer for python objects like lists and dictionaries. You'll want it because python dictionaries are much easier to read if they are formatted.
 
@@ -218,7 +218,7 @@ At the top of your Python module, you're going to want to import some python mod
 
 ## <a name="regex-review"></a> A very brief review of regular expressions as they are implemented in python
 
-L.T. O'Hara's [introduction](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions.html) to using python flavored regular expressions is invaluable. In this context we should review a couple of basic facts about Python's implementation of regular expressions, the `re` module, which is part of Python's standard library.
+L.T. O'Hara's [introduction](/lessons/cleaning-ocrd-text-with-regular-expressions.html) to using python flavored regular expressions is invaluable. In this context we should review a couple of basic facts about Python's implementation of regular expressions, the `re` module, which is part of Python's standard library.
 
 1. `re.compile()` creates a regular expression object that has a number of methods. You should be familiar with `.match()`, and `.search()`, but also `.findall()` and `.finditer()`
 2. Bear in mind the difference between `.match()` and `.search()`: `.match()` will only match at the __beginning__ of a line, whereas `.search()` will match anywhere in the line __but then it stops__, it'll __only__ return the first match it finds.
@@ -470,7 +470,7 @@ Since those roman numeral headings are now reliably findable with our 'slug' reg
 slug_and_firstline = re.compile("(\[~~~~\sGScriba_)(.*)\s::::\s(\d+)\s~~~~\]\n(.*)(\(\d?.*\d+\))")
 ```
 
-Let's break down that regex using the verbose mode (again, see O'Hara's [tutorial](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions.html)). Our 'slug' for each charter takes the form "[~\~\~\~ GScriba_CCVII :::: 207 ~~~~]" for example. The compiled pattern above is exactly equivalent to the folowing (note the re.VERBOSE switch at the end):
+Let's break down that regex using the verbose mode (again, see O'Hara's [tutorial](/lessons/cleaning-ocrd-text-with-regular-expressions.html)). Our 'slug' for each charter takes the form "[~\~\~\~ GScriba_CCVII :::: 207 ~~~~]" for example. The compiled pattern above is exactly equivalent to the folowing (note the re.VERBOSE switch at the end):
 
 ```python
 slug_and_firstline = re.compile(r"""

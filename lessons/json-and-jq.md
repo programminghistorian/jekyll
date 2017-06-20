@@ -29,7 +29,7 @@ abstract: "Working with data from an art museum API and from the Twitter API, th
 
 JSON (JavaScript Object Notation) is a common data sharing format that can describe complex relationships.
 Many libraries, archives, museums, and social media sites expose their data through JSON-based APIs.
-(On accessing APIs, see [downloading structured data with wget](http://programminghistorian.org/lessons/applied-archival-downloading-with-wget) and the [series of lessons on working with APIs](http://programminghistorian.org/lessons/intro-to-the-zotero-api).)
+(On accessing APIs, see [downloading structured data with wget](/lessons/applied-archival-downloading-with-wget) and the [series of lessons on working with APIs](/lessons/intro-to-the-zotero-api).)
 
 However, many tools for data analysis and visualization require input in flat tables (i.e. CSV), and because JSON is such a flexible data format, often with many nested levels of data, there is no one-size-fits-all graphical user interface for transforming JSON into other formats.
 
@@ -265,7 +265,7 @@ Let's break down this query into its component pieces:
 3. `.id` This final command accesses the value stored in the key `id` in the two objects that make it through the `select()` filter.
 
 jq can also filter based on regular expressions.
-(To learn more about regular expressions, see the Programming Historian lesson ["Understanding Regular Expressions"](http://programminghistorian.org/lessons/understanding-regular-expressions).)
+(To learn more about regular expressions, see the Programming Historian lesson ["Understanding Regular Expressions"](/lessons/understanding-regular-expressions).)
 For example, let's select only those objects whose primary maker has the particle "van" in their name, and return the artist name and artwork id.
 `test("van")` takes the value returned by the operator `.principalOrFirstMaker` and returns true if that value contains the string `van`:
 
@@ -919,7 +919,7 @@ For fast processing of very large files, or of JSON lines spread across multiple
 
 The easiest way to install jq on OS X is to use the package management system [Homebrew](http://brew.sh/).
 This system works via OS X's "Terminal" application, which gives you access to the Bash command line.
-[For an introduction to this system, see The Programming Historian's "Introduction to the Bash Command Line".](http://programminghistorian.org/lessons/intro-to-bash)
+[For an introduction to this system, see The Programming Historian's "Introduction to the Bash Command Line".](/lessons/intro-to-bash)
 
 Follow the installation instructions for Homebrew itself, and then use this command to install jq:
 
@@ -952,14 +952,14 @@ jq -r '.artObjects[] | [.id, .title, .principalOrFirstMaker, .webImage.url] | @c
 
 Alternatively, you can use bash pipes to send text from the output of one function into jq.
 This can be useful when downloading JSON with a utility like `wget` for retrieving online material.
-(See [Automated Downloading with Wget](http://programminghistorian.org/lessons/automated-downloading-with-wget) to learn the basics of this other command line program).
+(See [Automated Downloading with Wget](/lessons/automated-downloading-with-wget) to learn the basics of this other command line program).
 
 ```sh
 wget -qO- http://programminghistorian.org/assets/jq_rkm.json | jq -r '.artObjects[] | [.id, .title, .principalOrFirstMaker, .webImage.url] | @csv'
 ```
 
 Note that you must use the `wget` flag `-qO-` in order to send the output of `wget` into `jq` by way of a shell pipe.
-You can read more about command line pipes in ["Introduction to the Bash Command Line"](http://programminghistorian.org/lessons/intro-to-bash) (OS X) or ["Introduction to PowerShell"](/lessons/intro-to-powershell.html) (Windows).
+You can read more about command line pipes in ["Introduction to the Bash Command Line"](/lessons/intro-to-bash) (OS X) or ["Introduction to PowerShell"](/lessons/intro-to-powershell.html) (Windows).
 
 ## Further Resources
 

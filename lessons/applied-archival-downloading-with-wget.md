@@ -202,7 +202,7 @@ if you miss a page or two during an automated download.
 
 Note that a potential workaround
 could include using regular expressions to make more complicated queries if appropriate
-(for more, see the [Understanding Regular Expressions](http://programminghistorian.org/lessons/understanding-regular-expressions) 
+(for more, see the [Understanding Regular Expressions](/lessons/understanding-regular-expressions) 
 lesson).
 
 Let's run the script and Wget command once more:

@@ -380,7 +380,7 @@ bin\mallet import-dir --input sample-data\web\de --output tutorial.mallet --keep
 
 And then finally, you could use your own data. Change `sample-data\web\de` to a directory that contains your own research files. Good luck!
 
-If you are unsure how directories work, we suggest the *Programming Historian* lesson ["Introduction to the Bash Command Line"](http://programminghistorian.org/lessons/intro-to-bash). 
+If you are unsure how directories work, we suggest the *Programming Historian* lesson ["Introduction to the Bash Command Line"](/lessons/intro-to-bash). 
 
 ### For Mac
 

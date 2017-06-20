@@ -27,7 +27,7 @@ topics: [website]
 
 [Omeka.net](http://www.omeka.net) facilita la creación de sitios web para mostrar colecciones de ítems. 
 
-> *Nota de la traductora*: Antes de empezar es importante aclarar las diferencias entre **Omeka.net** y **Omeka.org**. Este tutorial es sobre **Omeka.net**, una plataforma de publicación en línea que permite a cualquier persona con una cuenta de acceso crear o colaborar en un sitio web para exhibir colecciones y construir exposiciones digitales. **Omeka.net** es una extensión de **Omeka.org** que está disponible para bajar e instalar en un servidor de tu propiedad. La traducción al español del tutorial de *The Programming Historian* sobre [cómo instalar Omeka](http://programminghistorian.org/lessons/installing-omeka) en un servidor se encuentra en proceso.
+> *Nota de la traductora*: Antes de empezar es importante aclarar las diferencias entre **Omeka.net** y **Omeka.org**. Este tutorial es sobre **Omeka.net**, una plataforma de publicación en línea que permite a cualquier persona con una cuenta de acceso crear o colaborar en un sitio web para exhibir colecciones y construir exposiciones digitales. **Omeka.net** es una extensión de **Omeka.org** que está disponible para bajar e instalar en un servidor de tu propiedad. La traducción al español del tutorial de *The Programming Historian* sobre [cómo instalar Omeka](/lessons/installing-omeka) en un servidor se encuentra en proceso.
 
 Regístrate para abrir una cuenta en Omeka
 ----------------------------

@@ -231,7 +231,7 @@ f.close
 So, if you can save a single file this easily, could you write a program
 to download a bunch of files? Could you step through trial IDs, for
 example, and make your own copies of a whole bunch of them? Yep. You can learn
-how to do that in [Downloading Multiple Files using Query Strings](http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings),
+how to do that in [Downloading Multiple Files using Query Strings](/lessons/downloading-multiple-records-using-query-strings),
 which we recommend after you have completed the introductory lessons in this series.
 
 Suggested Readings

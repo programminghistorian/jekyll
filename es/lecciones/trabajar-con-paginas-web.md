@@ -148,7 +148,7 @@ f.write(contenidoWeb)
 f.close
 ```
 
-Ahora, si tu puedes guardar un solo archivo así de fácil, ¿es posible escribir un programa que te permita descargar un puñado de archivos? ¿Es posible incrementar la cantidad de IDs de los juicios y obtener copias de todos ellos en una sola descarga? Efectivamente. Puedes aprender cómo hacerlo en la lección [Downloading Multiple Files using Query Strings](http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings), que te recomendamos ver una vez completadas las lecciones introductorias de esta serie.
+Ahora, si tu puedes guardar un solo archivo así de fácil, ¿es posible escribir un programa que te permita descargar un puñado de archivos? ¿Es posible incrementar la cantidad de IDs de los juicios y obtener copias de todos ellos en una sola descarga? Efectivamente. Puedes aprender cómo hacerlo en la lección [Downloading Multiple Files using Query Strings](/lessons/downloading-multiple-records-using-query-strings), que te recomendamos ver una vez completadas las lecciones introductorias de esta serie.
 
 Lecturas sugeridas
 ------------------

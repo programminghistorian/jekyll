@@ -33,11 +33,11 @@ This tutorial presumes no prior knowledge of R. It will go through some of the b
 
 R is ideal for analyzing larger data sets that would take too long to compute manually. Once you understand how to write some of the basic functions and how to import your own data files, you can analyze and visualize the data quickly and efficiently.
 
-While R is a great tool for tabular data, you may find using other approaches to analyse non-tabular sources (such as newspaper transcriptions) more useful. If you are interested in studying these types of sources, take a look at some of the other great lessons of the [Programming Historian](http://programminghistorian.org/lessons/).
+While R is a great tool for tabular data, you may find using other approaches to analyse non-tabular sources (such as newspaper transcriptions) more useful. If you are interested in studying these types of sources, take a look at some of the other great lessons of the [Programming Historian](/lessons/).
 
 ## Installing R
 
-R is a programming language and environment for working with data. It can be run using the R console as well as on the [command-line](http://programminghistorian.org/lessons/intro-to-bash) or the [R Studio Interface](https://www.rstudio.com/). This tutorial will focus on using the R console. To get started with R, download the program from [The Comprehensive R Archive Network](https://cran.r-project.org/). R is compatible with Linux, Mac, and Windows.
+R is a programming language and environment for working with data. It can be run using the R console as well as on the [command-line](/lessons/intro-to-bash) or the [R Studio Interface](https://www.rstudio.com/). This tutorial will focus on using the R console. To get started with R, download the program from [The Comprehensive R Archive Network](https://cran.r-project.org/). R is compatible with Linux, Mac, and Windows.
 
 When you first open the R console, it will open in a window that looks like this:
 
