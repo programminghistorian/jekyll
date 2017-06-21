@@ -40,12 +40,21 @@ module MyModule
 
         page_errors = Array.new
 
-        # Collect all valid topics
-        valid_topics = site.data["topics"].map{|t| t["type"]}
+        # Any fields listed in exclude_from_check YAML variable will not be checked.
+        excluded_fields = p.data["exclude_from_check"]
 
+        unless excluded_fields.nil? || excluded_fields.empty?
+          lesson_required_fields = required_fields - excluded_fields
+          es_lesson_required_fields = es_required_fields - excluded_fields
+          en_lesson_required_fields = en_required_fields - excluded_fields
+        else
+          lesson_required_fields = required_fields
+          es_lesson_required_fields = es_required_fields
+          en_lesson_required_fields = en_required_fields
+        end
 
         # For each required field, check if it is missing on the page. If so, log an error.
-        required_fields.each do |f|
+        lesson_required_fields.each do |f|
           if p.data[f].nil?
             page_errors.push("'#{f}' is missing.")
           end
@@ -80,7 +89,7 @@ module MyModule
 
         # Check Spanish required fields
         if p.data["translated-lesson"]
-          es_required_fields.each do |f|
+          es_lesson_required_fields.each do |f|
             if p.data[f].nil?
               page_errors.push("'#{f}' is missing.")
             end
@@ -89,7 +98,7 @@ module MyModule
 
         # Check English required fields
         if p.data["translated-lesson"].nil?
-          en_required_fields.each do |f|
+          en_lesson_required_fields.each do |f|
             if p.data[f].nil?
               page_errors.push("'#{f}' is missing.")
             end
