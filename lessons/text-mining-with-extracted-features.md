@@ -12,6 +12,7 @@ editors:
 layout: lesson
 activity: analyzing
 topics: [distant-reading]
+difficulty: 3
 ---
 
 ## Contents
