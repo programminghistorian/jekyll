@@ -16,6 +16,23 @@ module MyModule
       red = "\e[31m"
       clear = "\e[0m"
 
+      # Collect all valid topics
+      valid_topics = site.data["topics"].map{|t| t["type"]}
+
+      # Collect all valid activities
+      valid_activites = ["acquiring", "analyzing", "transforming", "presenting", "sustaining"]
+
+      valid_difficulties = [1, 2, 3]
+
+      # Fields required on ALL lessons
+      required_fields = ["layout", "reviewers", "authors", "date", "title", "difficulty", "activity", "topics"] 
+
+      # Fields required only on es lessons
+      es_required_fields = ["translator", "translation-reviewer", "redirect_from"]
+
+      # Fields required only on en lessons
+      en_required_fields = ["editors"]
+
       # Find all the pages that represent non-deprecated lessons
       lessons = site.pages.select{|i| i.data["lesson"] && !i.data["deprecated"]}
 
@@ -26,14 +43,8 @@ module MyModule
         # Collect all valid topics
         valid_topics = site.data["topics"].map{|t| t["type"]}
 
-        # Collect all valid activities
-        valid_activites = ["acquiring", "analyzing", "transforming", "presenting", "sustaining"]
-
-        valid_difficulties = [1, 2, 3]
 
         # For each required field, check if it is missing on the page. If so, log an error.
-        required_fields = ["layout", "reviewers", "authors", "date", "title", "difficulty", "activity", "topics"]
-
         required_fields.each do |f|
           if p.data[f].nil?
             page_errors.push("'#{f}' is missing.")
@@ -41,7 +52,6 @@ module MyModule
         end
 
         # For each activity, topic, or difficulty, check that it is within allowed ranges
-
         lesson_activity = p.data["activity"]
 
         unless lesson_activity.nil?
@@ -68,9 +78,7 @@ module MyModule
           end
         end
 
-        # Spanish required fields
-        es_required_fields = ["translator", "translation-reviewer", "redirect_from"]
-
+        # Check Spanish required fields
         if p.data["translated-lesson"]
           es_required_fields.each do |f|
             if p.data[f].nil?
@@ -79,8 +87,7 @@ module MyModule
           end
         end
 
-        # English required fields
-        en_required_fields = ["editors"]
+        # Check English required fields
         if p.data["translated-lesson"].nil?
           en_required_fields.each do |f|
             if p.data[f].nil?
