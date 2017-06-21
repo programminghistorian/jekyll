@@ -13,6 +13,8 @@ abstract: "In this lesson, you will create a new item in a Zotero library and ad
 next: counting-frequencies-from-zotero-items
 previous: intro-to-the-zotero-api
 categories: [zotero, api]
+exclude_from_check:
+  - reviewers
 ---
 
 ## Contents

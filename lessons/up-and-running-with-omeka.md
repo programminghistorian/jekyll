@@ -6,7 +6,8 @@ authors:
 - Miriam Posner
 editors:
 - Adam Crymble
-reviewers:
+exclude_from_check:
+  - reviewers
 difficulty: 1
 activity: presenting
 topics: [website]

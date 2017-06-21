@@ -11,6 +11,8 @@ activity: transforming
 topics: [web-scraping]
 abstract: "Beautiful Soup is a Python library for getting data out of HTML, XML,
 and other markup languages."
+exclude_from_check:
+  - reviewers
 ---
 
 ## Contents

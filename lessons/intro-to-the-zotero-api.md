@@ -13,6 +13,8 @@ abstract: "In this lesson, you’ll learn how to use python with the Zotero API 
 interact with your Zotero library."
 next: creating-new-items-in-zotero
 categories: [lessons, api]
+exclude_from_check:
+  - reviewers
 ---
 
 ## Contents

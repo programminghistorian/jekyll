@@ -11,6 +11,8 @@ activity: transforming
 topics: [data-manipulation]
 abstract: "Optical Character Recognition (OCR)—the conversion of scanned images to
 machine-encoded text—has proven a godsend for historical research. This lesson will help you clean up OCR'd text to make it more usable."
+exclude_from_check:
+  - reviewers
 ---
 
 ## Contents

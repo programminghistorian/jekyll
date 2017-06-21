@@ -11,6 +11,8 @@ difficulty: 1
 activity: presenting
 topics: [data-management]
 abstract: "In this lesson, you will be introduced to Markdown, a plain text-based syntax for formatting documents. You will find out why it is used, how to format Markdown files, and how to preview Markdown-formatted documents on the web."
+exclude_from_check:
+  - reviewers
 ---
 
 ## Contents
