@@ -17,7 +17,7 @@ translation-reviewer:
 layout: lesson
 redirect_from: /es/lessons/linux-installation
 difficulty: 1
-activity: beginning
+activity: transforming
 topics: [get-ready, python]
 ---
 

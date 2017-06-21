@@ -11,7 +11,7 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 1
-activity: beginning
+activity: transforming
 topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running an Apple operating system."
 ---
