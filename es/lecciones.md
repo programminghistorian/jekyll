@@ -4,11 +4,11 @@ layout: blank
 permalink: /es/lecciones/
 ---
 
-# THIS PAGE's TEXT NEEDS TO BE TRANSLATED
 
-# Índice de lecciones
+# Índice
 
-Our lessons are organized by typical phases of the research process, as well as general topics. Use the buttons to filter lessons by category. If you can’t find a skill, technology, or tool you're looking for, please [let us know]({{ site.baseurl }}/feedback)!
+Nuestras lecciones se organizan en fases del proceso de investigación y por temas generales. Utiliza los botones para filtrar las lecciones por categoría. Si no encuentras una habilidad, técnica o herramienta, por favor, ponte en [contacto]({{ site.baseurl }}/retroalimentacion) con nosotros.
+
 
 {% assign alllessons = (site.pages | where: "translated-lesson" , "true") %}
 
