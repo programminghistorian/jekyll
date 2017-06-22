@@ -5,6 +5,7 @@ authors:
 date: 2015-06-01
 layout: lesson
 deprecated: true
+redirect_from: /lessons/ocr-with-tesseract-and-scantailor
 ---
 
 #Introduction to OCR 
