@@ -108,7 +108,7 @@ layout: base
 
     {% if page.deprecated %}
      <div class="alert alert-warning">
-       {% include deprecated.html %}
+       {{ site.data.snippets.deprecated[page.lang] }}
      </div>
     {% endif %}
 
