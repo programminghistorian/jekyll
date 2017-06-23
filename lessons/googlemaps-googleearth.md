@@ -9,6 +9,7 @@ authors:
 reviewers:
 - Finn Arne Jørgensen
 - Sarah Simpkin
+editors:
 - Adam Crymble
 difficulty: 1
 activity: presenting
