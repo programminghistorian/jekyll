@@ -12,7 +12,7 @@ Nuestras lecciones se organizan en fases del proceso de investigación y por tem
 
 {% comment %}
 See documentation on the use of alllessons and lesson-index in /lessons.md
-{% endcommend %}
+{% endcomment %}
 
 {% assign alllessons = (site.pages | where: "translated-lesson" , "true") %}
 
