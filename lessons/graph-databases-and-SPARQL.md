@@ -324,6 +324,8 @@ useful to give them meaningful names for the complex queries that follow!.
 
 {% include figure.html filename="sparql04.png" caption="An initial list of all the predicates and objects associated with one artwork in the British Museum." %}
 
+**Note: depending on how the British Museum has configured their SPARQL endpoint when you read this lesson, instead of seeing "prefixed" versions of the URLs (e.g. `thes:8577`) you may instead see the full version `http://collection.britishmuseum.org/id/thesauri/x8577`. As noted [in the discussion of prefixes above](#terms-to-review), this still represents the same URI.**
+
 The BM endpoint formats the results table with hyperlinks for every variable
 that is itself an RDF node, so by clicking on any one of these links you can
 shift to seeing all the predicates and objects for that newly-selected node.
