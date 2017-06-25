@@ -27,6 +27,8 @@ htmlproofer is a program built to check that all the links in a Jekyll site, bot
 After running Jekyll and building your site in HTML, you can then run this utility to walk through those pages and check that these links point where they belong.
 htmlproofer can also be set up to periodically go back and crawl previously-tested links, and report back if they've changed status since last check.
 
+![](/images/editor-guidelines/travis_bottom_screen.png)
+
 Running this check on _PH_ [revealed several dozen links](https://github.com/programminghistorian/jekyll/issues/390) that had gone dead since they were first published.
 Once we identified these links, we either identified the new location to which the linked content had been moved.
 When that was not possible, we instead pointed to a version of the content archived in the [Wayback Machine].
