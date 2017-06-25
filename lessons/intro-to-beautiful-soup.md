@@ -15,11 +15,11 @@ exclude_from_check:
   - reviewers
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 Version: Python 2.7.2 and BeautifulSoup 4.
 

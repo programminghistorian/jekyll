@@ -16,11 +16,11 @@ retrieving online material."
 next: applied-archival-downloading-with-wget
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 Editor's Note
 -------------

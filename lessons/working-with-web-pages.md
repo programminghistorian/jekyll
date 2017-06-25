@@ -18,11 +18,11 @@ previous: code-reuse-and-modularity
 categories: [lessons, python, original-ph]
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 Lesson Goals
 ------------

@@ -21,11 +21,11 @@ topics: [python, get-ready]
 redirect_from: /es/lessons/introduction-and-installation
 ---
 
-## Contenidos
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 Objetivos de la lección
 ------------

@@ -23,11 +23,11 @@ activity: transforming
 topics: [python]
 ---
 
-## Contenidos
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Objetivos de la lección
 

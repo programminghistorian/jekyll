@@ -15,11 +15,11 @@ exclude_from_check:
 - editors
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 Lesson Goals
 ------------

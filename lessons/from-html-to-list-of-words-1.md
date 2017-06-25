@@ -18,11 +18,11 @@ next: from-html-to-list-of-words-2
 previous: manipulating-strings-in-python
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Lesson Goals
 

@@ -22,11 +22,11 @@ previous: working-with-text-files
 categories: [lessons, original-ph, python]
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 Lesson Goals
 ------------

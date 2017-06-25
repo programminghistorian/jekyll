@@ -183,6 +183,9 @@ series-previous-note:
 series-next-note:
   en: Great! Now you're ready to move on to the
   es: ¡Estupendo! Ahora ya estás listo para pasar a la
+contents:
+  en: Contents
+  es: Contenidos
 
 # Included in the lesson.html layout when a lesson has been marked as deprecated, and is not to be displayed on the main directory. 
 deprecated:

@@ -18,11 +18,11 @@ abstract: "This lesson will teach you how to enter commands using a command-line
 next: research-data-with-unix
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 # Introduction to the Bash Command Line
 

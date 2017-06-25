@@ -17,11 +17,11 @@ next: code-reuse-and-modularity
 previous: viewing-html-files
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Lesson Goals
 

@@ -20,11 +20,11 @@ topics: [website, data-management]
 redirect_from: /es/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 ---
 
-## Contenidos
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 {% include figure.html filename="lexoriter.jpg" caption="" %}
 

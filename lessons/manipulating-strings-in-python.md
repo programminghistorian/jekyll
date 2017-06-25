@@ -17,11 +17,11 @@ next: from-html-to-list-of-words-1
 previous: working-with-web-pages
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Lesson Goals
 

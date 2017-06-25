@@ -18,11 +18,11 @@ next: working-with-text-files
 previous: introduction-and-installation
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 "Hello World" in HTML
 ---------------------

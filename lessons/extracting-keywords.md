@@ -15,11 +15,11 @@ topics: [data-manipulation]
 abstract: "This lesson will teach you how to use Python to extract a set of keywords very quickly and systematically from a set of texts."
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Lesson Goals
 

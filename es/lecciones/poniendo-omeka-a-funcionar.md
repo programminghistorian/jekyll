@@ -19,11 +19,11 @@ activity: presenting
 topics: [website]
 ---
 
-## Contenidos
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 [Omeka.net](http://www.omeka.net) facilita la creación de sitios web para mostrar colecciones de ítems. 
 

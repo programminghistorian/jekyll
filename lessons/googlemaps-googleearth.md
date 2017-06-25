@@ -20,11 +20,11 @@ maps by clicking on My Places."
 next: qgis-layers
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Google Maps
 

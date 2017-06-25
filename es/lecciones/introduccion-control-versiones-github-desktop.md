@@ -18,11 +18,11 @@ topics: [data-management]
 redirect_from: /es/lessons/getting-started-with-github-desktop
 ---
 
-## Contenidos
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Objetivos de la lección
 

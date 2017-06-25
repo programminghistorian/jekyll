@@ -22,11 +22,11 @@ activity: transforming
 topics: [data-manipulation]
 ---
 
-## Contenidos
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Objetivos de la lección
 

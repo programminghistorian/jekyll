@@ -21,11 +21,11 @@ activity: presenting
 topics: [python]
 ---
 
-## Contenidos
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Objetivo de la lección
 

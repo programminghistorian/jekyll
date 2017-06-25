@@ -28,11 +28,11 @@ Objetivos de la lección
 
 Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos (*graph databases*) y cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL.
 
-## Contenidos
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 
 ## Bases de datos orientadas a grafo, RDF y datos abiertos enlazados (Linked Open Data, LOD)

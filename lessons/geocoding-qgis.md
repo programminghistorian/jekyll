@@ -15,11 +15,11 @@ activity: transforming
 topics: [mapping]
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Lesson Goals
 

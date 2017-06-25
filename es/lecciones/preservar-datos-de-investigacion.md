@@ -20,11 +20,11 @@ activity: sustaining
 topics: [data-management]
 ---
 
-## Contenidos
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 #### La cuestión de fondo
 

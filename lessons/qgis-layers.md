@@ -21,11 +21,11 @@ next: vector-layers-qgis
 previous: googlemaps-googleearth
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 Lesson Goals
 ------------

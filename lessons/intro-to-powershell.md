@@ -16,11 +16,11 @@ abstract: "This tutorial will introduce you to the basics of Windows PowerShell,
 review-ticket: 18
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 # Introduction
 

@@ -14,11 +14,11 @@ topics: [website]
 abstract: "Omeka.net makes it easy to create websites that show off collections of items."
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 [Omeka.net](http://www.omeka.net) makes it easy to create websites that show off collections of items.
 

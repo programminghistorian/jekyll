@@ -17,11 +17,11 @@ activity: presenting
 topics: [mapping]
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Introduction
 

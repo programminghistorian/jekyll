@@ -19,11 +19,11 @@ standardized format using the American Standard Code for Information
 Interchange (ASCII) characters."
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Lesson Goals
 

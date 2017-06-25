@@ -15,11 +15,11 @@ activity: acquiring
 topics: [lod]
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 Introduction and Lesson Scope
 -----------------------------

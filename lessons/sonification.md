@@ -15,11 +15,11 @@ topics: [distant-reading]
 abstract: "There are any number of guides that will help you visualize the past, but this lesson will help you hear the past."
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 # Introduction
 

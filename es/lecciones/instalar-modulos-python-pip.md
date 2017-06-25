@@ -20,11 +20,11 @@ activity: acquiring
 topics: [get-ready, python]
 ---
 
-## Contenidos
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 Objetivos de la lección
 -----------------------

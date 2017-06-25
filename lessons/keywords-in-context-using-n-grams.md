@@ -17,11 +17,11 @@ next: output-keywords-in-context-in-html-file
 previous: output-data-as-html-file
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Lesson Goals
 

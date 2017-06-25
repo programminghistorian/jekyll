@@ -15,11 +15,11 @@ exclude_from_check:
   - reviewers
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 {% include figure.html filename="lexoriter.jpg" caption="" %}
 

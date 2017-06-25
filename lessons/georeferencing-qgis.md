@@ -20,11 +20,11 @@ that they may be added to a GIS as a raster layer."
 previous: vector-layers-qgis
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 Lesson Goals
 ------------

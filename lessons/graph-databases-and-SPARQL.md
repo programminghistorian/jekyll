@@ -24,11 +24,11 @@ This lesson explains why many cultural institutions are adopting graph
 databases, and how researchers can access these data though the query language
 called SPARQL.
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 # Graph Databases, RDF, and Linked Open Data
 

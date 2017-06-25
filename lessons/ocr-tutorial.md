@@ -3,11 +3,11 @@ title: OCR Tutorial
 published: false
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 # Cleaning OCR Output
 

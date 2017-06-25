@@ -18,11 +18,11 @@ next: keywords-in-context-using-n-grams
 previous: creating-and-viewing-html-files-with-python
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Lesson Goals
 

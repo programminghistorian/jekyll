@@ -16,11 +16,11 @@ topics: [data-management]
 abstract: "This lesson will suggest ways in which historians can document and structure their research data so as to ensure it remains useful in the future."
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 #### Background
 

@@ -21,11 +21,11 @@ activity: transforming
 topics: [get-ready, python]
 ---
 
-## Contenidos
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ### Haz respaldo (copia de seguridad) de toda tu computadora
 

@@ -23,11 +23,11 @@ activity: presenting
 topics: [python]
 ---
 
-## Contenidos
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 “Hola Mundo” en HTML
 --------------------------------

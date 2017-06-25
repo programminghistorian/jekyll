@@ -17,11 +17,11 @@ activity: analyzing
 topics: [distant-reading]
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 # Learning Goals
 

@@ -18,11 +18,11 @@ next: output-data-as-html-file
 previous: counting-frequencies
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 ## Lesson Goals
 

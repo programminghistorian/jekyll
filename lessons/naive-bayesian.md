@@ -14,11 +14,11 @@ topics: [distant-reading]
 abstract: "This lesson shows how to use machine learning to extract interesting documents out of a digital archive."
 ---
 
-## Contents
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 # WARNING - Technical issues with Old Bailey Online website
 

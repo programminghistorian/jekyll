@@ -21,11 +21,11 @@ activity: transforming
 topics: [network-analysis]
 ---
 
-## Contenidos
-{:.no_toc}
+{% include toc.html %}
 
-* TOC
-{:toc}
+
+
+
 
 Introducción
 ------------
