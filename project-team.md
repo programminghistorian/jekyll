@@ -10,45 +10,12 @@ You can follow *The Programming Historian* on Twitter: [@proghist](http://twitte
 
 ## Editorial Board
 
-<div class="contact-box clearfix">
-<img class="avatar rounded-circle" src="{{site.baseurl}}/avatars/Maria-Jose-Afanador-Llach.png" />
-Maria José Afanador-Llach works in the Fundación Histórica Neogranadina,
-a non-profit organization digitizing endangered colonial archives in Colombia and promoting digital humanities projects.
-
-<a href="mailto:mariajose@neogranadina.org"><i class="fa fa-envelope-square fa-lg"></i></a>
-<a href="https://twitter.com/mariajoafana"><i class="fa fa-twitter-square fa-lg"></i></a>
-</div>
-
-{% include contact-info.html name="Adam Crymble" %}
-
-<div class="contact-box clearfix">
-<img class="avatar rounded-circle" src="{{site.baseurl}}/avatars/Victor-Gayol.png" />
-Víctor Gayol is a researcher and professor of history at El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
-
-		<a href="http://victorgayol.net"><i class="fa fa-home fa-lg"></i></a>
-		<a href="mailto:vgayol@colmich.edu.mx"><i class="fa fa-envelope-square fa-lg"></i></a>
-		<a href="https://twitter.com/victor_gayol"><i class="fa fa-twitter-square fa-lg"></i></a>
-		<a href="http://github.com/vgayolrs"><i class="fa fa-github-square fa-lg"></i></a>
-</div>
-
-{% include contact-info.html name="Fred Gibbs" %}
-
-{% include contact-info.html name="Matthew Lincoln" %}
-
-{% include contact-info.html name="Caleb McDaniel" %}
-
-{% include contact-info.html name="Ian Milligan" %}
-
-{% include contact-info.html name="Jessica Parr" %}
-
-{% include contact-info.html name="Antonio Rojas Castro" %}
-
-{% include contact-info.html name="Amanda Visconti" %}
-
-{% include contact-info.html name="Brandon Walsh" %}
-
-{% include contact-info.html name="Jeri Wieringa" %}
-
+{% for member in site.data.authors %}
+	{% if member.team == true %}
+		{% capture membername %}{{ member.name }}{% endcapture %}
+		{% include contact-info.html name=membername %}
+	{% endif %}
+{% endfor %}
 
 ## Emeritus Team Members
 

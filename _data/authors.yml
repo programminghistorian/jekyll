@@ -2,7 +2,7 @@
   url: "http://williamjturkel.net"
   twitter: williamjturkel
   github: williamjturkel
-  team: true
+  team: false
   bio:
     en: |
         William J. Turkel is Professor of History at the
@@ -116,10 +116,10 @@
   url: "hackademic.postach.io"
   github: smargh
   twitter: s_margheim
-  team: true
+  team: false
 
 - name: Evan Taparata
-  team: true
+  team: false
   bio:
     en: |
         Evan Taparata is a PhD candidate in history at the University of
@@ -147,13 +147,13 @@
   url: "http://digitizedhistory.wordpress.com"
   github: ahnatow
   twitter: andrew_hnatow
-  team: true
+  team: false
   bio:
     en: |
         Andrew Hnatow is a PhD candidate at Wayne State University.
 
 - name: Daniel van Strien
-  team: true
+  team: false
   url: "http://davanstrien.github.io/"
   bio:
     en: |
@@ -162,7 +162,7 @@
         Daniel van Strien es estudiante de Biblioteconomía en la Universidad de la Ciudad, Londres.
         
 - name: Kim Pham
-  team: true
+  team: false
   bio:
     en: |
         Kim Pham is a librarian in the Digital Scholarship Unit at the University
@@ -216,7 +216,7 @@
   github: miriamposner
   email: miriam.posner@gmail.com
   url: "http://miriamposner.com"
-  team: true
+  team: false
   bio:
     en: |
         Miriam Posner is the digital humanities program coordinator at the
@@ -227,7 +227,7 @@
 - name: Jeremy Boggs
   twitter: clioweb
   url: "http://clioweb.org"
-  team: true
+  team: false
   bio:
     en: |
         Jeremy Boggs is the Design Architect for Digital Research Scholarship
@@ -236,7 +236,7 @@
 - name: Allison Hegel
   twitter: AllisonHegel
   github: ahegel
-  team: true
+  team: false
   bio:
     en: |
         Allison Hegel is a PhD candidate in English at UCLA.
@@ -248,7 +248,7 @@
        
 - name: Alan MacEachern
   url: "http://history.uwo.ca/People/Faculty/maceachern.html"
-  team: true
+  team: false
   bio:
     en: |
         Alan MacEachern is a Professor of History at the University
@@ -256,7 +256,7 @@
         & Environment (NiCHE).
 
 - name: Carrie Sanders
-  team: true
+  team: false
   bio:
     en: |
         Carrie Sanders is a Ph.D candidate in history at UCLA.
