@@ -7,6 +7,9 @@ Nuestro equipo editorial trabaja en conjunto para ayudar a los autores a produci
 
 ## Consejo editorial
 
+{% comment %}
+All editorial board information should be edited in data/authors.yml. Authors who are on the editorial team must have team: true in their metadata.
+{% endcomment %}
 {% include project-team-loop.html %}
 
 ## Miembros eméritos del equipo
