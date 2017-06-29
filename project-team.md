@@ -10,12 +10,7 @@ You can follow *The Programming Historian* on Twitter: [@proghist](http://twitte
 
 ## Editorial Board
 
-{% for member in site.data.authors %}
-	{% if member.team == true %}
-		{% capture membername %}{{ member.name }}{% endcapture %}
-		{% include contact-info.html name=membername %}
-	{% endif %}
-{% endfor %}
+{% include project-team-loop.html %}
 
 ## Emeritus Team Members
 

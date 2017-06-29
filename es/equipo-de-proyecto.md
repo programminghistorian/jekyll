@@ -7,12 +7,7 @@ Nuestro equipo editorial trabaja en conjunto para ayudar a los autores a produci
 
 ## Consejo editorial
 
-{% for member in site.data.authors %}
-	{% if member.team == true %}
-		{% capture membername %}{{ member.name }}{% endcapture %}
-		{% include contact-info.html name=membername %}
-	{% endif %}
-{% endfor %}
+{% include project-team-loop.html %}
 
 ## Miembros eméritos del equipo
 
