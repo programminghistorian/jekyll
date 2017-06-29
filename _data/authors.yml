@@ -17,6 +17,7 @@
   twitter: Adam_Crymble
   url: "http://adamcrymble.org"
   team: true
+  sortname: Crymble
   bio:
     en: |
         Adam Crymble is a lecturer of digital history at the University of
@@ -29,6 +30,7 @@
   github: wcaleb
   url: "http://wcm1.web.rice.edu"
   team: true
+  sortname: McDaniel
   bio:
     en: |
         Caleb McDaniel is an associate professor of history at Rice University.
@@ -41,6 +43,7 @@
   email: i2millig@uwaterloo.ca
   url: "http://ianmilligan.ca"
   team: true
+  sortname: Milligan
   bio:
     en: |
         Ian Milligan is an assistant professor of history at the University
@@ -62,6 +65,7 @@
   github: fredgibbs
   twitter: fredgibbs
   team: true
+  sortname: Gibbs
   bio:
     en: |
         Fred Gibbs is an assistant professor of history at the University of
@@ -79,6 +83,7 @@
   twitter: mariajoafana
   github: mariajoafana
   team: true
+  sortname: Afandor-Llach
   bio:
     en: |
         Maria José Afanador-Llach works in the Fundación Histórica Neogranadina, 
@@ -93,6 +98,7 @@
   twitter: victor_gayol
   github: vgayolrs
   team: true
+  sortname: Gayol
   bio:
     en: |
         Víctor Gayol is a researcher and professor of history at El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
@@ -104,6 +110,7 @@
   twitter: RojasCastroA
   github: arojascastro
   team: true
+  sortname: Rojas Castro
   bio:
     en: |
         Antonio Rojas Castro is a researcher a the Cologne Center for eHumanities, with a PhD in Humanities (Spanish Literature).
@@ -320,6 +327,7 @@
   twitter: jerielizabeth
   url: "http://jeriwieringa.com"
   github: jerielizabeth
+  sortname: Wieringa
   bio:
     en: |
         Jeri Wieringa is a doctoral candidate in history at George Mason University.
@@ -420,6 +428,7 @@
   email: mlincoln@getty.edu
   github: mdlincoln
   team: true
+  sortname: Lincoln
   bio:
     en: |
         Matthew Lincoln is a data research specialist at the Getty Research Institute, and an art historian of early modern Europe.
@@ -439,6 +448,7 @@
   twitter: literature_geek
   url: "http://www.amandavisconti.com"
   team: true
+  sortname: Visconti
   bio:
     en: |
         Amanda Visconti is Managing Director at the University of Virginia Scholars' Lab DH center.
@@ -466,6 +476,7 @@
   email: walsh.brandon.michael@gmail.com
   url: "http://walshbr.com/"
   team: true
+  sortname: Walsh
   bio:
     en: |
         Brandon Walsh is Head of Graduate Programs in the Scholars' Lab in the University of Virginia Library.
@@ -540,6 +551,7 @@
   twitter: ProvAtlantic
   url: "http://jessicaparr.org/"
   team: true
+  sortname: Parr
   bio:
     en: |
         Jessica Parr teaches at Simmons College (Boston) and works on PLACE Project at UNH Durham. 
