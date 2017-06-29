@@ -12,7 +12,7 @@
 {% comment %}
  Generate avatar image path based on name 
 {% endcomment %}
-{% assign avatar = member.name | replace: " ","-" %}
+{% assign avatar = member.name | replace: " ","-" | replace: "é","e" | replace: "í", "i" %}
 <div class="contact-box clearfix">
 <img class="avatar rounded-circle" src="{{site.baseurl}}/avatars/{{avatar}}.png">
 {{ member.bio[page.lang] }} {{ member.interests[page.lang] }}

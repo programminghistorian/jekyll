@@ -53,6 +53,8 @@
         including: network analysis, text analysis and data mining, as well
         as intermediate to advanced-level lessons more generally. For planning purposes,
         Ian will be on parental leave between June and October 2017.
+    es: |
+        Tiene interés en editar lecciones sobre análisis de redes, análisis textual y minería de datos, y, en general, lecciones de nivel intermedio o superior.
 
 - name: Fred Gibbs
   email: fwgibbs@gmail.com
@@ -321,10 +323,14 @@
   bio:
     en: |
         Jeri Wieringa is a doctoral candidate in history at George Mason University.
+    es: |
+        Jeri Wieringa trabaja como jefa del departamento de producción digital en George Mason University Libraries; asimismo, es doctoranda en Historia en la misma universidad
   interests:
     en: |
         She is interested in working with authors on: accessibility and interface design; 
         data visualization; network analysis; text and data mining; workflows; and introductory lessons.
+    es: |
+        Está interesada en trabajar con autores sobre los siguientes temas: accesibilidad y diseño de interfaces, visualización de datos, análisis de redes, minería de datos, flujos de trabajo y, en general, lecciones introductorias.
 
 - name: Jon Crump
   team: false
@@ -436,9 +442,13 @@
   bio:
     en: |
         Amanda Visconti is Managing Director at the University of Virginia Scholars' Lab DH center.
+    es: |
+        Amanda Visconti es Directora general del centro de Humanidades Digitales Scholars' Lab en la Universidad de Virginia.
   interests: 
     en: |
         As a PH ombudsperson, you can contact Amanda to discuss any issues or concerns around the PH review and publication process.
+    es: |
+        Amanda trabaja en las mejoras técnicas de la web de The Programming Historian
 
 - name: Megan R. Brett
   twitter: magpie
