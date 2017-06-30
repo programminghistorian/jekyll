@@ -89,5 +89,7 @@ Travis currently operates this service for free for all open source projects on 
 
 ---
 
-Of course, it's impossible to catch every possible kind of human error, just as its impossible to completely stop the process of link rot.
-However, with these additions to our technical infrastructure, we take just a few more things off of each author's and editor's plate, and can ensure that even older lessons get faithfully validated.
+Of course, it's impossible to catch every possible kind of human error, just as it's impossible to completely stop the process of link rot.
+However, with these additions to our technical infrastructure, we take just a few more things off of each author's and editor's plate, and can help make it even easier to [contribute] a high-quality lesson to _The Programming Historian_.
+
+[contribute]: /contributions
