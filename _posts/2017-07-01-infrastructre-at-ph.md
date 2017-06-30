@@ -85,6 +85,8 @@ If any errors come back, however, then the team gets notified and we can track t
 Travis currently operates this service for free for all open source projects on GitHub.
 [You can read more about configuring the service here.](https://docs.travis-ci.com/user/for-beginners)
 
+[Travis CI]: https://travis-ci.com
+
 ---
 
 Of course, it's impossible to catch every possible kind of human error, just as its impossible to completely stop the process of link rot.
