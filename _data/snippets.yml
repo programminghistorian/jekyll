@@ -94,6 +94,9 @@ footer:
   license:
     en: license
     es: licencia
+  cc-link:
+    en: https://creativecommons.org/licenses/by/4.0/deed.en
+    es: https://creativecommons.org/licenses/by/4.0/deed.es
   gh-hosted:
     en: Hosted on GitHub
     es: Alojado en GitHub
