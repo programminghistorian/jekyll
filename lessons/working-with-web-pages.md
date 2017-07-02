@@ -78,7 +78,7 @@ following URL will take you to a search results page for criminal record
 trials containing the word "arsenic".
 
 ``` xml
-http://www.oldbaileyonline.org/search.jsp?form=custom&_divs_fulltext=arsenic
+https://www.oldbaileyonline.org/search.jsp?form=searchHomePage&_divs_fulltext=arsenic&kwparse=and&_persNames_surname=&_persNames_given=&_persNames_alias=&_offences_offenceCategory_offenceSubcategory=&_verdicts_verdictCategory_verdictSubcategory=&_punishments_punishmentCategory_punishmentSubcategory=&_divs_div0Type_div1Type=&fromMonth=&fromYear=&toMonth=&toYear=&ref=&submit.x=0&submit.y=0
 ```
 
 The snippet after the "?" represents the query. You can learn more about
