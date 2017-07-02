@@ -56,7 +56,7 @@ http://oldbaileyonline.org/static/Project.jsp
 Por último, muchas páginas web te permiten introducir consultas. El sitio web *The Old Bailey Online*, por ejemplo, está diseñado de tal manera que puedes solicitar una página en particular utilizando una [*cadena de consulta*]. EL siguiente URL te llevará a la página de resultados de búsqueda de registros de juicios criminales que contienen la palabra “arsenic” (arsénico)
 
 ``` xml
-http://www.oldbaileyonline.org/search.jsp?form=custom&_divs_fulltext=arsenic
+ttps://www.oldbaileyonline.org/search.jsp?form=searchHomePage&_divs_fulltext=arsenic&kwparse=and&_persNames_surname=&_persNames_given=&_persNames_alias=&_offences_offenceCategory_offenceSubcategory=&_verdicts_verdictCategory_verdictSubcategory=&_punishments_punishmentCategory_punishmentSubcategory=&_divs_div0Type_div1Type=&fromMonth=&fromYear=&toMonth=&toYear=&ref=&submit.x=0&submit.y=0
 ```
 
 El fragmento de texto después de “?” representa la consulta. Puedes aprender más acerca de la construcción de consultas en [Descarga de registros múltiples usando cadenas de consulta] (en inglés).
