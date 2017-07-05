@@ -1,6 +1,6 @@
 ---
 title: Instrucciones para autores y traductores
-layout: directory
+layout: blank
 ---
 
 # Traducir o proponer una lección nueva

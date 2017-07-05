@@ -1,7 +1,7 @@
 ---
 title: Comentarios y sugerencias
 date: 07-11-2015
-layout: directory
+layout: blank
 redirect_from: /report-issue.html
 ---
 

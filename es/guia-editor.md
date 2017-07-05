@@ -1,6 +1,6 @@
 ---
 title: Guía para editores
-layout: directory
+layout: blank
 ---
 
 Esta página contiene instrucciones detalladas dirigidas a los editores de *The Programming Historian en español* durante el proceso de revisión por pares.
@@ -13,7 +13,7 @@ Esta página contiene instrucciones detalladas dirigidas a los editores de *The 
 
 ## El rol del editor
 
-Gracias por editar una lección para *The Programming Historian en español*. Estamos muy agradecidos por tus esfuerzos. Esta guía está pensada para garantizar que autores, traductores, editores y revisores tengan una experiencia justa y coherente. Si tienes alguna pregunta sobre esta guía, por favor, contacta con algún miembro del equipo o publica una pregunta en nuestro repositorio de [GitHub](https://github.com/programminghistorian/jekyll/issues). También puedes escribirnos si crees que esta guía debe ser actualizada o mejorada. 
+Gracias por editar una lección para *The Programming Historian en español*. Estamos muy agradecidos por tus esfuerzos. Esta guía está pensada para garantizar que autores, traductores, editores y revisores tengan una experiencia justa y coherente. Si tienes alguna pregunta sobre esta guía, por favor, contacta con algún miembro del equipo o publica una pregunta en nuestro repositorio de [GitHub](https://github.com/programminghistorian/jekyll/issues). También puedes escribirnos si crees que esta guía debe ser actualizada o mejorada.
 
 Tanto si estás editando una traducción como si estás editando una lección nueva el proceso sigue unas mismas líneas de acción; nuestro objetivo como editores no es supervisar, como se suele hacer en las revistas tradicionales sino ofrecer ayuda durante todo el proceso de escritura, traducción y publicación. Por eso es recomendable que te familiarices con la [Guía para autores y traductores](/es/guia-para-autores).  
 
@@ -48,7 +48,7 @@ A continuación, el editor creará un *issue* en el [repositorio de GitHub](http
 
 	El principal contacto para esta lección es [nombre del editor]. Si se produce algún problema, el autor puede contactar con nuestros ’ombudspersons' (María José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
 
-Este texto, sin embargo, puede editarse y adaptarse a las necesidades para reflejar más objetivos o lo que se ha negociado entre el editor y el autor. 
+Este texto, sin embargo, puede editarse y adaptarse a las necesidades para reflejar más objetivos o lo que se ha negociado entre el editor y el autor.
 
 Una vez la lección haya sido entregada, el editor creará un ticket de revisión para la lección y cerrará el *issue* correspondiente a la propuesta inicial.
 
@@ -65,7 +65,7 @@ Al recibir una lección o traducción nueva, el editor iniciará un nuevo *issue
 
 ### Comentarios iniciales
 
-Cuando recibas una propuesta de traducción o creación de una lección nueva, tu primer mensaje debe utilizar la plantilla que describe el rol del editor y el proceso de revisión por pares, así como información necesaria en caso de que la revisión sufra algún incidente. Por favor, adapta la plantilla correspondiente para que aparezca al inicio del *issue*. 
+Cuando recibas una propuesta de traducción o creación de una lección nueva, tu primer mensaje debe utilizar la plantilla que describe el rol del editor y el proceso de revisión por pares, así como información necesaria en caso de que la revisión sufra algún incidente. Por favor, adapta la plantilla correspondiente para que aparezca al inicio del *issue*.
 
 En el caso de una traducción, utiliza esta [plantilla](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/PLANTILLA-TRADUCCION.md):
 
@@ -77,7 +77,7 @@ https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/traducci
 
 Por favor, estás en libertad de utilizar los números de línea proporcionados en la vista previa, si eso ayuda a señalar mejor tus comentarios. Pero puedes estructurar tu revisión como mejor te parezca.
 
-En adelante, intervendré como editor durante el proceso de revisión. Tras haber leído la lección y haber enviado mis comentarios al traductor, mi rol consistirá en solicitar otra revisión por parte de uno de los miembros de nuestro comité editorial y gestionar las conversaciones que se produzcan en este foro. 
+En adelante, intervendré como editor durante el proceso de revisión. Tras haber leído la lección y haber enviado mis comentarios al traductor, mi rol consistirá en solicitar otra revisión por parte de uno de los miembros de nuestro comité editorial y gestionar las conversaciones que se produzcan en este foro.
 
 Otros miembros de nuestra comunidad también están invitados a ofrecer sus comentarios de una manera constructiva; los comentarios deberán publicarse en este hilo de conversación, por lo que se recomienda haber leído nuestra guía para revisores (/es/guia-para-revisores) y tener en cuenta nuestra política contra el acoso (ver más abajo). No se aceptarán más comentarios por parte de la comunidad tras la publicación de la segunda revisión formal a fin de que el traductor pueda empezar a trabajar en los cambios solicitados. Cuando esto ocurra, publicaré un anuncio aquí.
 
@@ -145,10 +145,10 @@ El **editor** debe sugerir un nombre para el archivo de la traducción o lecció
 
 - El nombre debe ser corto pero descriptivo pues se convertirá en el *slug* de la lección cuando se publique (es decir, la terminación de la URL).
 - Una buena URL debería encajar en una diapositiva, debería ser fácil de recordar y debería describir el contenido de la lección. Nuestras URLS tienen el siguiente formato: http://programminghistorian.org/es/lecciones/NOMBRE-DEL-ARCHIVO-AQUI
-- No introduzcas espacios en el nombre del archivo; en su lugar utiliza guiones. 
+- No introduzcas espacios en el nombre del archivo; en su lugar utiliza guiones.
 - La extensión del arhivo debe ser `.md` con el objetivo de que GitHub genere una visualización provisional de la lección.
 
-Una vez hayas escogido el nombre del archivo, utiliza el mismo nombre para crear un directorio nuevo en [imágenes](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images); esta nueva carpeta contendrá las imágenes de la lección. Si la lección contiene archivos con datos, haz lo mismo pero en la carpeta [assets](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets) del repositio GitHub de *The Programming Historian en español*. Por favor, ten en cuenta que, en el caso de las traducciones donde el traductor no modifica imágenes o datos, estos ya están alojados. 
+Una vez hayas escogido el nombre del archivo, utiliza el mismo nombre para crear un directorio nuevo en [imágenes](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images); esta nueva carpeta contendrá las imágenes de la lección. Si la lección contiene archivos con datos, haz lo mismo pero en la carpeta [assets](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets) del repositio GitHub de *The Programming Historian en español*. Por favor, ten en cuenta que, en el caso de las traducciones donde el traductor no modifica imágenes o datos, estos ya están alojados.
 
 ### B) Revisar el etiquetado Markdown
 
@@ -170,7 +170,7 @@ Más información sobre cómo añadir las imágenes en nuestra [guía para autor
 
 ### D) Verificar los archivos con datos
 
-Al igual que las imágenes, todos los datos deben almacenarse en nuestro sitio; es decir, por motivos de sostenibilidad, no deben enlazarse como recursos externos. Los archivos de este tipo deben guardarse en la carpeta `assets` de *The Programming Historian en español*, siguiendo las mismas reglas que en el apartado anterior. Con todo, los autores pueden proporcionar una descripción para reflejar el contenido del archivo. Por ejemplo: 
+Al igual que las imágenes, todos los datos deben almacenarse en nuestro sitio; es decir, por motivos de sostenibilidad, no deben enlazarse como recursos externos. Los archivos de este tipo deben guardarse en la carpeta `assets` de *The Programming Historian en español*, siguiendo las mismas reglas que en el apartado anterior. Con todo, los autores pueden proporcionar una descripción para reflejar el contenido del archivo. Por ejemplo:
 
 -  `/assets/SLUG-DE-LA-LECCION/Louvre-Paintings-1.csv`
 
@@ -245,7 +245,7 @@ Actualiza la fecha en el campo correspondiente del archivo YAML tomando como ref
 
 ### 7) Busca una imagen que represente la lección
 
-Las lecciones se representan mediante una imagen `vintage` que refleja algún elemento de las tareas descritas en el tutorial. Puedes ver todas las imágenes en el [índice principal de lecciones](/es/lecciones). El editor es el encargado de seleccionar las imágenes. 
+Las lecciones se representan mediante una imagen `vintage` que refleja algún elemento de las tareas descritas en el tutorial. Puedes ver todas las imágenes en el [índice principal de lecciones](/es/lecciones). El editor es el encargado de seleccionar las imágenes.
 
 Puedes buscar imágenes en los recursos siguientes:
 
@@ -256,14 +256,14 @@ Puedes buscar imágenes en los recursos siguientes:
  - [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
 Si como editor estás buscando una imagen para una lección nueva, asegúrate de que la imagen sigue el mismo estilo que las imágenes anteriores; debería ser una ilustración, no una fotografía, tener al menos 200 píxeles de anchura y altura, y estar libre de derechos. Asegúrate de que la magen no es ofensiva y ten en cuenta nuestro [compromiso con la diversidad](/posts/PH-commitment-to-diversity); en otras palabras, intenta encontrar una imagen que no perpetúe estereotipos o envíe mensajes sutiles sobre la masculinidad y la raza blanca.
- 
+
 Antes de editar la imagen, guarda el archivo original. El nombre del archivo debe coincidir con el *slug* de la URL de la lección y, además, `-original`; el formato del archivo debe ser `.png`. Por ejemplo, la lección "Cleaning Data with OpenRefine" tiene el *slug* `cleaning-data-with-openrefine`; por tanto, el nombre de la imagen original debería ser `cleaning-data-with-openrefine-original.png`.
 
-A continuación, crea una copia de la imagen, córtala en un cuadrado sin eliminar detalles relevantes, cambia la dimensión a 200x200 píxeles y convierte la imagen a escala de grises. Puedes hacer cuanto retoques creas necesarios a fin de que se asemeje al resto de imágenes, por ejemplo, modficiar la luz o alterar el contraste. Guarda esta nueva imagen con el *slug* de la lección. Siguiendo con el ejemplo ya dado, la nueva imagen debería llamarse `cleaning-data-with-openrefine.png`. 
+A continuación, crea una copia de la imagen, córtala en un cuadrado sin eliminar detalles relevantes, cambia la dimensión a 200x200 píxeles y convierte la imagen a escala de grises. Puedes hacer cuanto retoques creas necesarios a fin de que se asemeje al resto de imágenes, por ejemplo, modficiar la luz o alterar el contraste. Guarda esta nueva imagen con el *slug* de la lección. Siguiendo con el ejemplo ya dado, la nueva imagen debería llamarse `cleaning-data-with-openrefine.png`.
 
 Sube la imagen original al directorio [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery).
 
-Por último, añade la imagen a la lección editando la página HTML en [lecciones/index.md](https://github.com/programminghistorian/jekyll/blob/gh-pages/es/lecciones/index.md); el enlace de la lección debe coincidir con el lugar en que se encuentra la imagen. Por ejemplo: 
+Por último, añade la imagen a la lección editando la página HTML en [lecciones/index.md](https://github.com/programminghistorian/jekyll/blob/gh-pages/es/lecciones/index.md); el enlace de la lección debe coincidir con el lugar en que se encuentra la imagen. Por ejemplo:
 
 `<img src="/gallery/cleaning-data-with-openrefine.png">`
 
