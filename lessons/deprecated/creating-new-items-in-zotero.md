@@ -16,6 +16,7 @@ categories: [zotero, api]
 exclude_from_check:
   - reviewers
 deprecated: true
+redirect_from: /lessons/creating-new-items-in-zotero
 ---
 
 {% include toc.html %}

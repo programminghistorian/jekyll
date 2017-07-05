@@ -16,6 +16,7 @@ categories: [lessons, api]
 exclude_from_check:
   - reviewers
 deprecated: true
+redirect_from: /lessons/intro-to-the-zotero-api
 ---
 
 {% include toc.html %}

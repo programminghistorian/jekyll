@@ -15,6 +15,7 @@ previous: creating-new-items-in-zotero
 exclude_from_check:
   - reviewers
 deprecated: true
+redirect_from: /lessons/counting-frequencies-from-zotero-items
 ---
 
 {% include toc.html %}
