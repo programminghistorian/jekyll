@@ -15,6 +15,7 @@ next: creating-new-items-in-zotero
 categories: [lessons, api]
 exclude_from_check:
   - reviewers
+deprecated: true
 ---
 
 {% include toc.html %}

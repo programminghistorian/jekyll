@@ -14,6 +14,7 @@ the content from those items, and count the frequencies of words."
 previous: creating-new-items-in-zotero
 exclude_from_check:
   - reviewers
+deprecated: true
 ---
 
 {% include toc.html %}
@@ -72,7 +73,7 @@ def stripTags(pageContents):
         else:
             text += char
 
-    return text 
+    return text
 ```
 
 Remember to save your changes before we continue.
@@ -96,7 +97,7 @@ libraries and program data we will need to run this program:
 #Get urls from Zotero items, create local copy, count frequencies
 import obo
 from libZotero import zotero
-import urllib2 
+import urllib2
 ```
 
 Next, we need to tell our program where to find the items we will be using in
@@ -117,7 +118,7 @@ zlib = zotero.Library('group', '155975', '<null>', 'f4Bfk3OTYb7bukNwfcKXKNLG')
 collectionKey = 'I253KRDT'
 
 #retrieves top two items from library
-items = zlib.fetchItemsTop({'limit': 2, 'collectionKey': collectionKey, 'content': 'json,bib,coins'}) 
+items = zlib.fetchItemsTop({'limit': 2, 'collectionKey': collectionKey, 'content': 'json,bib,coins'})
 ```
 
 Now we can instruct our program to retrieve the URL from each of our
@@ -144,7 +145,7 @@ Running this portion of the program will result in the following:
 
 ``` xml
 Saving local copy of PastsFutures.html
-Saving local copy of 29.html 
+Saving local copy of 29.html
 ```
 
 ### Get Item URLs from Zotero and Count Frequencies
@@ -165,7 +166,7 @@ for item in items:
     print '\n' + itemTitle +'\nFilename: ' + filename + '\nWord Frequencies\n'
     response = urllib2.urlopen(url)
     html = response.read()
-    
+
 ```
 
 This section of code grabs the URL from our items, removes the
@@ -179,7 +180,7 @@ Word Frequencies
 
 History and the Web, From the Illustrated Newspaper to Cyberspace: Visual Technologies and Interaction in the Nineteenth and Twenty-First Centuries
 Filename: 29.html
-Word Frequencies 
+Word Frequencies
 ```
 
 Now we can go ahead and create our list of words and their frequencies.

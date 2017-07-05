@@ -15,6 +15,7 @@ previous: intro-to-the-zotero-api
 categories: [zotero, api]
 exclude_from_check:
   - reviewers
+deprecated: true
 ---
 
 {% include toc.html %}
