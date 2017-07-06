@@ -739,6 +739,9 @@ Footer
   .garnish {
     display:none;
   }
+  .dropdown-menu:after, .dropdown-menu:before {
+    display:none;
+  }
 }
 
 @media print {
