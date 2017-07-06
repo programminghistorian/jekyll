@@ -393,7 +393,7 @@ Top Navigation Bar
   .navbar-light .navbar-nav .nav-link {
     font-family:'Open Sans';
     text-transform:uppercase;
-    color:#999;
+    color:#ccc;
     font-size:.9rem;
   }
 
@@ -401,7 +401,7 @@ Top Navigation Bar
     text-transform:lowercase !important;
   }
 
-  .navbar-light .navbar-nav .nav-link:hover {
+  .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover {
     color:#39a;
   }
 
@@ -411,7 +411,8 @@ Top Navigation Bar
 
   .navbar-light .navbar-brand {
     font-family:'Crete Round', serif;
-    color:#999;
+    color:#ccc;
+    letter-spacing: .02em;
   }
 
   a.dropdown-item {
@@ -707,7 +708,7 @@ Footer
     padding: 2rem 0;
     font-family:'Open Sans';
     font-size:.9rem;
-    color:#e5e5e5;
+    color:#ccc;
     background-color:#666;
     text-align:center;
   }
