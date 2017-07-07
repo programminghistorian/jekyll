@@ -13,10 +13,18 @@ editor:
 translation-reviewer:
 - Antonio Rojas Castro
 - Maria José Afanador-Llach
-layout: default
+layout: lesson
 difficulty: 2
+activity: sustaining
+topics: [website, data-management]
 redirect_from: /es/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 ---
+
+{% include toc.html %}
+
+
+
+
 
 {% include figure.html filename="lexoriter.jpg" caption="" %}
 

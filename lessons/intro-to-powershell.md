@@ -1,21 +1,30 @@
 ---
 title: Introduction to the Windows Command Line with PowerShell
+layout: lesson
+date: 2016-07-21
 authors:
 - Ted Dawson
-date: 2016-07-21
 reviewers:
 - Erin N. Bush
 - Derek Price
 editors:
 - Jeri E. Wieringa
-review-ticket: 18
-layout: default
 difficulty: 1
+activity: transforming
+topics: [data-manipulation, get-ready]
+abstract: "This tutorial will introduce you to the basics of Windows PowerShell, the standard command-line interface for Windows computers."
+review-ticket: 18
 ---
+
+{% include toc.html %}
+
+
+
+
 
 # Introduction
 
-This tutorial will introduce you to the basics of Windows PowerShell, the standard command-line interface for Windows computers. If you are a Mac or Linux user, you should check out the [Bash introduction](http://programminghistorian.org/lessons/intro-to-bash) instead. If you are already familiar with using Bash, you may be able to get started with PowerShell just by looking at the [table at the end of this lesson](#quick-reference). 
+This tutorial will introduce you to the basics of Windows PowerShell, the standard command-line interface for Windows computers. If you are a Mac or Linux user, you should check out the [Bash introduction](/lessons/intro-to-bash) instead. If you are already familiar with using Bash, you may be able to get started with PowerShell just by looking at the [table at the end of this lesson](#quick-reference). 
 
 The tutorial is divided into two main sections. In the first section, "[Getting Started](#getting-started)," you will learn to do basic desktop tasks like creating and opening files and folders using PowerShell. In the second section, "[Doing More](#doing-more)," you will get a glimpse of some of the features that make work on the command line particularly efficient, and learn enough of the basics to be able to explore further on your own. You will also [get set up to run Python scripts from the command line](#using-command-line-tools-and-running-python-scripts).
 
@@ -23,7 +32,7 @@ This tutorial was written for PowerShell 5.0. If you are using an earlier versio
 
 # What is PowerShell and Why is it Useful?
 
-Windows PowerShell is a **command-line interface** for Windows computers. A command-line interface (CLI) is a program for telling your computer to do tasks using typed commands, rather than by clicking pictures on the desktop as in a **graphical user interface** (GUI). (Technically, PowerShell is more than just the CLI, and you can get a quick overview of its features on [Wikipedia](https://en.wikipedia.org/wiki/Windows_PowerShell).) Using the command line has many advantages. It makes it possible to automate tasks and to do many things with one command. Most importantly, a number of tools of value to humanists can only be run from the command line, including many you can learn about on *The Programming Historian*, like [Mallet](http://programminghistorian.org/lessons/topic-modeling-and-mallet), [Pandoc](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown), or [Wget](http://programminghistorian.org/lessons/automated-downloading-with-wget). The command line is also the best place to work with programs you have custom built for your own research using programming languages like Python.
+Windows PowerShell is a **command-line interface** for Windows computers. A command-line interface (CLI) is a program for telling your computer to do tasks using typed commands, rather than by clicking pictures on the desktop as in a **graphical user interface** (GUI). (Technically, PowerShell is more than just the CLI, and you can get a quick overview of its features on [Wikipedia](https://en.wikipedia.org/wiki/Windows_PowerShell).) Using the command line has many advantages. It makes it possible to automate tasks and to do many things with one command. Most importantly, a number of tools of value to humanists can only be run from the command line, including many you can learn about on *The Programming Historian*, like [Mallet](/lessons/topic-modeling-and-mallet), [Pandoc](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown), or [Wget](/lessons/automated-downloading-with-wget). The command line is also the best place to work with programs you have custom built for your own research using programming languages like Python.
 
 # Getting Started
 
@@ -451,7 +460,7 @@ Use the up-arrow to get your last command back, and add `-ignorewhitespace` to t
 
 The most important reason to become familiar with using the command line is not because of the increased precision or the ability to work with multiple files, useful as these features are, but rather because of the many additional tools you gain access to, as mentioned in the introduction. When getting set up to work with some of these tools, you may run into problems because Windows sometimes configures the paths incorrectly. Fixing this problem requires setting environment variables, a topic beyond the scope of this tutorial. Fortunately, there is a lot of support out there, and a little searching will usually turn up the solution you need. Because many lessons on *The Programming Historian* require you to use Python, let's look briefly at getting Python set up. Having done this, you will be less daunted by instructions for setting environment variables for other programs.
 
-If you don't already have Python, or if you wonder why you would want to use it, check out the [Python tutorial](http://programminghistorian.org/lessons/introduction-and-installation) right here on *The Programming Historian*. In that tutorial, you will learn to set up Python to run scripts directly in an editor. It will often be more useful to be able to run scripts from the command line. In order to do that, we need to set an environment variable. First, you need to know the name of the directory where Python is installed on your computer. Enter `sl C:\` and then use `gci`. You should see a directory named "Python" with the version number at the end. On my computer, the directory is "Python27." Now we tell Windows to create a Path variable pointing to that directory by entering this into PowerShell, replacing "Python27" with the name of the directory on your computer:
+If you don't already have Python, or if you wonder why you would want to use it, check out the [Python tutorial](/lessons/introduction-and-installation) right here on *The Programming Historian*. In that tutorial, you will learn to set up Python to run scripts directly in an editor. It will often be more useful to be able to run scripts from the command line. In order to do that, we need to set an environment variable. First, you need to know the name of the directory where Python is installed on your computer. Enter `sl C:\` and then use `gci`. You should see a directory named "Python" with the version number at the end. On my computer, the directory is "Python27." Now we tell Windows to create a Path variable pointing to that directory by entering this into PowerShell, replacing "Python27" with the name of the directory on your computer:
 
 `[Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python27", "User")` 
 

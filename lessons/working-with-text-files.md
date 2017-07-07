@@ -1,17 +1,27 @@
 ---
 title: Working with Text Files in Python
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "In this lesson you will learn how to manipulate text files using Python."
 next: code-reuse-and-modularity
 previous: viewing-html-files
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson Goals
 
@@ -256,9 +266,9 @@ Suggested Readings
 
 -   [Non-Programmer’s Tutorial for Python 2.6/Hello, World][]
 
-  [Mac Installation]: ../lessons/mac-installation
-  [Windows Installation]: ../lessons/windows-installation
-  [Linux Installation]: ../lessons/linux-installation
+  [Mac Installation]: /lessons/mac-installation
+  [Windows Installation]: /lessons/windows-installation
+  [Linux Installation]: /lessons/linux-installation
   [print]: https://docs.python.org/2/reference/simple_stmts.html#the-print-statement
   [reserved word]: http://docs.python.org/release/2.5.4/ref/keywords.html
   [File Objects]: https://docs.python.org/2/library/stdtypes.html#bltin-file-objects

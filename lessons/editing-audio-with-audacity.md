@@ -1,17 +1,26 @@
 ---
 title: Editing Audio with Audacity
+layout: lesson
+date: 2016-08-05
 authors:
 - Brandon Walsh
-date: 2016-08-05
 reviewers:
 - Joanna Swafford
 - Celeste Tường Vy Sharpe
 editors:
 - Jeri Wieringa
 difficulty: 1
+activity: transforming
+topics: [data-manipulation]
+abstract: "In this lesson you will learn how to use Audacity to load, record, edit, mix, and export audio files."
 review-ticket: 15
-layout: default
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Module Goals
 

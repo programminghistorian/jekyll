@@ -13,12 +13,21 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 categories: [lessons, original-ph, python]
 next: trabajar-con-paginas-web
 previous: trabajar-con-archivos-de-texto
 redirect_from: /es/lessons/code-reuse-and-modularity
+difficulty: 2
+activity: transforming
+topics: [python]
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Objetivos de la lección
 -----------------------

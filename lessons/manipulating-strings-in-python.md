@@ -1,17 +1,27 @@
 ---
 title: Manipulating Strings in Python
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "This lesson is a brief introduction to string manipulation techniques in Python."
 next: from-html-to-list-of-words-1
 previous: working-with-web-pages
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson Goals
 
@@ -280,4 +290,4 @@ that’s ok!
 -   programming-historian-1 ([zip][])
 
   [Python website]: https://docs.python.org/2/library/stdtypes.html#string-methods
-  [zip]: ../assets/python-lessons1.zip
+  [zip]: /assets/python-lessons1.zip

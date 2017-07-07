@@ -1,21 +1,31 @@
 ---
 title: Creating New Vector Layers in QGIS 2.0
+layout: lesson
+date: 2013-12-13
 authors:
 - Jim Clifford
 - Josh MacFadyen
 - Daniel Macfarlane
-date: 2013-12-13
 reviewers:
 - Finn Arne Jørgensen
 - Peter Webster
 - Abby Schreiber
 editors:
 - Adam Crymble
-layout: default
-next: georeferencing-qgis
-prev: qgis-layers
 difficulty: 2
+activity: presenting
+topics: [mapping]
+abstract: "In this lesson you will learn how to create vector layers based on
+scanned historical maps."
+next: georeferencing-qgis
+previous: qgis-layers
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Lesson Goals
 ------------
@@ -401,9 +411,9 @@ work!**
 
 *This lesson is part of the [Geospatial Historian][].*
 
-  [Intro to Google Maps and Google Earth]: ../lessons/googlemaps-googleearth
-  [Installing QGIS 2.0 and Adding Layers]: ../lessons/qgis-layers
-  [PEI_Holland map]: ../assets/PEI_HollandMap1798_compLZW.tif
-  [Georeferencing in QGIS 2.0]: ../lessons/georeferencing-qgis
+  [Intro to Google Maps and Google Earth]: /lessons/googlemaps-googleearth
+  [Installing QGIS 2.0 and Adding Layers]: /lessons/qgis-layers
+  [PEI_Holland map]: /assets/PEI_HollandMap1798_compLZW.tif
+  [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
   [Wikipedia entry]: http://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

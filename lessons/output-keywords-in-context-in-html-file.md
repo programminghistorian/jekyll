@@ -1,17 +1,27 @@
 ---
 title: Output Keywords in Context in an HTML File with Python
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: presenting
+topics: [python]
+abstract: "This lesson builds on 'Keywords in Context (Using N-grams)', where n-grams were extracted from a text. Here, you will learn how to output all of the n-grams of a given keyword in a document downloaded from the Internet, and display them clearly in your browser window."
 next: downloading-multiple-records-using-query-strings
 previous: keywords-in-context-using-n-grams
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson Goals
 
@@ -338,7 +348,7 @@ path to the directory on your own computer.
 
 There is an additional lesson on using Python to download multiple records using Query Strings, marked as the next lesson.
 
-  [Keywords in Context (Using N-grams)]: ../lessons/keywords-in-context-using-n-grams
-  [zip file from the previous lesson]: ../assets/python-lessons8.zip
+  [Keywords in Context (Using N-grams)]: /lessons/keywords-in-context-using-n-grams
+  [zip file from the previous lesson]: /assets/python-lessons8.zip
   [Output Data as HTML File]: /lessons/output-data-as-html-file
-  [zip sync]: ../assets/python-lessons9.zip
+  [zip sync]: /assets/python-lessons9.zip

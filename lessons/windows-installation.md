@@ -1,16 +1,26 @@
 ---
 title: Setting Up an Integrated Development Environment for Python (Windows)
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 - Amanda Morton
 editors:
 - Miriam Posner
-layout: default
+difficulty: 1
+activity: transforming
+topics: [get-ready, python]
+abstract: "This lesson will help you set up an integrated development environment for Python on a computer running the Windows operating system."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Back up your computer
 
@@ -52,20 +62,21 @@ Komodo editor. The Help file is quite good.
 
 Now you need to set up the editor so that you can run Python programs.
 
-1.  Choose `Edit -> Preferences`. This will open a new dialog window.
+Choose `Edit -> Preferences`. This will open a new dialog window.
     Select the Python category and set the
     “`Default Python Interpreter`” (it should be
-    `C:\Python27\Python.exe`)\
+    `C:\Python27\Python.exe`)
      If it looks like this, click OK:
 
-{% include figure.html filename="komodo-python-interpreter.png" caption="Set the default Python interpreter." %}
+{% include figure.html caption="Set the Default Python Interpreter
+" filename="komodo-python-interpreter.png" %}
 
-2.  Next, in the Preferences section select *Internationalization*.
+Next, in the Preferences section select *Internationalization*.
     Select *Python* from the drop-down menu titled *Language-specific
     Default Encoding* and make sure that [UTF-8][] is selected as the
     default encoding method.
 
-    {% include figure.html filename="utf-set.jpg" caption="Set the Language to UTF-8" %}
+{% include figure.html caption="Set the Language to UTF-8" filename="utf-set.jpg" %}
 
 Next choose `Toolbox->Add->New Command`. This will open a new dialog
 window. Rename your command to `‘Run Python’`. Under `‘Command’`, type:
@@ -125,7 +136,7 @@ to execute your program. If all went well, it should look something like
 this (Example as seen in Komodo Edit. Click on the image to see a
 full-size copy):
 
-{% include figure.html filename="hello-world1.png" caption="Hello World in Komodo Edit" %}
+{% include figure.html filename="hello-world1.png" caption="'Hello World'" %}
 
 ## Interacting with a Python shell
 
@@ -159,7 +170,7 @@ print('hello world')
 
 On your screen, it will look more like this:
 
-{% include figure.html filename="python-shell-win.png" caption="Python Shell on Windows" %}
+{% include figure.html caption="Python Shell in Windows" filename="python-shell-win.png" %}
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
@@ -169,5 +180,4 @@ order, we suggest you next try ‘[Understanding Web Pages and HTML][]‘
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
   [Komodo Edit website]: http://www.activestate.com/komodo-edit
   [UTF-8]: http://en.wikipedia.org/wiki/UTF-8
-    "python-shell-win"
   [Understanding Web Pages and HTML]: /lessons/viewing-html-files

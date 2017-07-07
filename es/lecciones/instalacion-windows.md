@@ -14,9 +14,17 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 redirect_from: /es/lessons/windows-installation
+difficulty: 1
+activity: transforming
+topics: [get-ready, python]
 ---
+
+{% include toc.html %}
+
+
+
 
 
 ## Respalda toda tu computadora.

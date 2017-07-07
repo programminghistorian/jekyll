@@ -2,7 +2,7 @@
   url: "http://williamjturkel.net"
   twitter: williamjturkel
   github: williamjturkel
-  team: true
+  team: false
   bio:
     en: |
         William J. Turkel is Professor of History at the
@@ -17,6 +17,7 @@
   twitter: Adam_Crymble
   url: "http://adamcrymble.org"
   team: true
+  sortname: Crymble
   bio:
     en: |
         Adam Crymble is a lecturer of digital history at the University of
@@ -29,6 +30,7 @@
   github: wcaleb
   url: "http://wcm1.web.rice.edu"
   team: true
+  sortname: McDaniel
   bio:
     en: |
         Caleb McDaniel is an associate professor of history at Rice University.
@@ -41,6 +43,7 @@
   email: i2millig@uwaterloo.ca
   url: "http://ianmilligan.ca"
   team: true
+  sortname: Milligan
   bio:
     en: |
         Ian Milligan is an associate professor of history at the University
@@ -53,6 +56,8 @@
         including: network analysis, text analysis and data mining, as well
         as intermediate to advanced-level lessons more generally. For planning purposes,
         Ian will be on parental leave between June and October 2017.
+    es: |
+        Tiene interés en editar lecciones sobre análisis de redes, análisis textual y minería de datos, y, en general, lecciones de nivel intermedio o superior.
 
 - name: Fred Gibbs
   email: fwgibbs@gmail.com
@@ -60,6 +65,7 @@
   github: fredgibbs
   twitter: fredgibbs
   team: true
+  sortname: Gibbs
   bio:
     en: |
         Fred Gibbs is an assistant professor of history at the University of
@@ -77,6 +83,7 @@
   twitter: mariajoafana
   github: mariajoafana
   team: true
+  sortname: Afandor-Llach
   bio:
     en: |
         Maria José Afanador-Llach works in the Fundación Histórica Neogranadina,
@@ -91,6 +98,7 @@
   twitter: victor_gayol
   github: vgayolrs
   team: true
+  sortname: Gayol
   bio:
     en: |
         Víctor Gayol is a researcher and professor of history at El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
@@ -102,6 +110,7 @@
   twitter: RojasCastroA
   github: arojascastro
   team: true
+  sortname: Rojas Castro
   bio:
     en: |
         Antonio Rojas Castro is a researcher a the Cologne Center for eHumanities, with a PhD in Humanities (Spanish Literature).
@@ -116,10 +125,10 @@
   url: "hackademic.postach.io"
   github: smargh
   twitter: s_margheim
-  team: true
+  team: false
 
 - name: Evan Taparata
-  team: true
+  team: false
   bio:
     en: |
         Evan Taparata is a PhD candidate in history at the University of
@@ -147,13 +156,13 @@
   url: "http://digitizedhistory.wordpress.com"
   github: ahnatow
   twitter: andrew_hnatow
-  team: true
+  team: false
   bio:
     en: |
         Andrew Hnatow is a PhD candidate at Wayne State University.
 
 - name: Daniel van Strien
-  team: true
+  team: false
   url: "http://davanstrien.github.io/"
   bio:
     en: |
@@ -162,7 +171,7 @@
         Daniel van Strien es estudiante de Biblioteconomía en la Universidad de la Ciudad, Londres.
 
 - name: Kim Pham
-  team: true
+  team: false
   bio:
     en: |
         Kim Pham is a librarian in the Digital Scholarship Unit at the University
@@ -216,7 +225,7 @@
   github: miriamposner
   email: miriam.posner@gmail.com
   url: "http://miriamposner.com"
-  team: true
+  team: false
   bio:
     en: |
         Miriam Posner is the digital humanities program coordinator at the
@@ -227,7 +236,7 @@
 - name: Jeremy Boggs
   twitter: clioweb
   url: "http://clioweb.org"
-  team: true
+  team: false
   bio:
     en: |
         Jeremy Boggs is the Design Architect for Digital Research Scholarship
@@ -236,7 +245,7 @@
 - name: Allison Hegel
   twitter: AllisonHegel
   github: ahegel
-  team: true
+  team: false
   bio:
     en: |
         Allison Hegel is a PhD candidate in English at UCLA.
@@ -248,7 +257,7 @@
 
 - name: Alan MacEachern
   url: "http://history.uwo.ca/People/Faculty/maceachern.html"
-  team: true
+  team: false
   bio:
     en: |
         Alan MacEachern is a Professor of History at the University
@@ -256,7 +265,7 @@
         & Environment (NiCHE).
 
 - name: Carrie Sanders
-  team: true
+  team: false
   bio:
     en: |
         Carrie Sanders is a Ph.D candidate in history at UCLA.
@@ -317,13 +326,18 @@
   twitter: jerielizabeth
   url: "http://jeriwieringa.com"
   github: jerielizabeth
+  sortname: Wieringa
   bio:
     en: |
         Jeri Wieringa is a doctoral candidate in history at George Mason University.
+    es: |
+        Jeri Wieringa trabaja como jefa del departamento de producción digital en George Mason University Libraries; asimismo, es doctoranda en Historia en la misma universidad
   interests:
     en: |
         She is interested in working with authors on: accessibility and interface design;
         data visualization; network analysis; text and data mining; workflows; and introductory lessons.
+    es: |
+        Está interesada en trabajar con autores sobre los siguientes temas: accesibilidad y diseño de interfaces, visualización de datos, análisis de redes, minería de datos, flujos de trabajo y, en general, lecciones introductorias.
 
 - name: Jon Crump
   team: false
@@ -413,6 +427,7 @@
   email: mlincoln@getty.edu
   github: mdlincoln
   team: true
+  sortname: Lincoln
   bio:
     en: |
         Matthew Lincoln is a data research specialist at the Getty Research Institute, and an art historian of early modern Europe.
@@ -432,12 +447,17 @@
   twitter: literature_geek
   url: "http://www.amandavisconti.com"
   team: true
+  sortname: Visconti
   bio:
     en: |
         Amanda Visconti is Managing Director at the University of Virginia Scholars' Lab DH center.
-  interests:
+    es: |
+        Amanda Visconti es Directora general del centro de Humanidades Digitales Scholars' Lab en la Universidad de Virginia.
+  interests: 
     en: |
         As a PH ombudsperson, you can contact Amanda to discuss any issues or concerns around the PH review and publication process.
+    es: |
+        Amanda trabaja en las mejoras técnicas de la web de The Programming Historian
 
 - name: Megan R. Brett
   twitter: magpie
@@ -455,6 +475,7 @@
   email: walsh.brandon.michael@gmail.com
   url: "http://walshbr.com/"
   team: true
+  sortname: Walsh
   bio:
     en: |
         Brandon Walsh is Head of Graduate Programs in the Scholars' Lab in the University of Virginia Library.
@@ -529,6 +550,7 @@
   twitter: ProvAtlantic
   url: "http://jessicaparr.org/"
   team: true
+  sortname: Parr
   bio:
     en: |
         Jessica Parr teaches at Simmmons College (Boston) and works on PLACE Project at UNH Durham.

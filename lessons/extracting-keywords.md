@@ -1,16 +1,25 @@
 ---
 title: Using Gazetteers to Extract Sets of Keywords from Free-Flowing Texts
+layout: lesson
+date: 2015-12-01
 authors:
 - Adam Crymble
-date: 2015-12-01
 reviewers:
 - Guy McClellan
 - Amanda Morton
 editors:
 - Fred Gibbs
-layout: default
-published: true
+difficulty: 2
+activity: acquiring
+topics: [data-manipulation]
+abstract: "This lesson will teach you how to use Python to extract a set of keywords very quickly and systematically from a set of texts."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson Goals
 
@@ -24,25 +33,25 @@ This lesson is useful for anyone who works with historical sources that are stor
 
 The present tutorial will show users how to extract all mentions of English and Welsh county names from a series of 6,692 mini-biographies of individuals who began their studies at the University of Oxford during the reign of James I of England (1603-1625). These records were transcribed by [British History Online](http://www.british-history.ac.uk/alumni-oxon/1500-1714), from the printed version of *Alumni Oxonienses, 1500-1714*. These biographies contain information about each graduate, which includes the date of their studies and the college(s) they attended. Often entries contain additional information when known, including date or birth and death, the name or occupation of their father, where they originated, and what they went on to do in later life. The biographies are a rich resource, providing reasonably comparable data about a large number of similar individuals (rich men who went to Oxford). The 6,692 entries have been pre-processed by the author and saved to a [CSV file](http://en.wikipedia.org/wiki/Comma-separated_values) with one entry per row.
 
-In this tutorial, the dataset involves geographical keywords. Once extracted, these placenames could be geo-referenced to their place on the globe and then mapped using digital mapping. This might make it possible to discern which colleges attracted students from what parts of the country, or to determine if these patterns changed over time. For a practical tutorial on taking this next step, see the lesson by Fred Gibbs mentioned at the end of this lesson. Readers may also be interested in [georeferencing in QGIS 2.0](http://programminghistorian.org/lessons/georeferencing-qgis), also available from the *Programming Historian*.
+In this tutorial, the dataset involves geographical keywords. Once extracted, these placenames could be geo-referenced to their place on the globe and then mapped using digital mapping. This might make it possible to discern which colleges attracted students from what parts of the country, or to determine if these patterns changed over time. For a practical tutorial on taking this next step, see the lesson by Fred Gibbs mentioned at the end of this lesson. Readers may also be interested in [georeferencing in QGIS 2.0](/lessons/georeferencing-qgis), also available from the *Programming Historian*.
 
 This approach is not limited to geographical keywords, however. It could also be used to extract given names, prepositions, food words, or any other set of terms defined by the user. This process could therefore be useful for someone seeking to isolate individual entries containing any of these keywords, or for someone looking to calculate the frequency of their keywords within a corpus of texts. This tutorial provides pathways into textual or geospatial analyses, rather than research answers in its own right.
 
-Data management skills are increasingly crucial for historians and textual scholars, and anyone working with particularly messy or difficult texts might consider looking into [Cleaning Data with OpenRefine](http://programminghistorian.org/lessons/cleaning-data-with-openrefine) by Seth van Hooland et al. The approach outlined in this tutorial is not optimised for working with poorly transcribed texts such as text converted through [Optical Character Recognition](https://en.wikipedia.org/wiki/Optical_character_recognition) if the software has a high error rate. Readers working with early modern texts with non-standardised spelling may also find this approach challenging, as the gazetteer one uses must contain exact matches of the words sought. However, with a good enough gazetteer, this approach could prove quite useful for early modernites, and may exceed what's practical with traditional keyword searching by making [fuzzy searching](https://en.wikipedia.org/wiki/Approximate_string_matching) possible.
+Data management skills are increasingly crucial for historians and textual scholars, and anyone working with particularly messy or difficult texts might consider looking into [Cleaning Data with OpenRefine](/lessons/cleaning-data-with-openrefine) by Seth van Hooland et al. The approach outlined in this tutorial is not optimised for working with poorly transcribed texts such as text converted through [Optical Character Recognition](https://en.wikipedia.org/wiki/Optical_character_recognition) if the software has a high error rate. Readers working with early modern texts with non-standardised spelling may also find this approach challenging, as the gazetteer one uses must contain exact matches of the words sought. However, with a good enough gazetteer, this approach could prove quite useful for early modernites, and may exceed what's practical with traditional keyword searching by making [fuzzy searching](https://en.wikipedia.org/wiki/Approximate_string_matching) possible.
 
-This tutorial assumes that you have already installed Python version 2 on your computer. The lesson will use the Command Line to run Python, as this is more flexible and makes it possible for use in classrooms or computer labs in which students do not have the ability to download and install interactive development environments (IDEs) like Komodo Edit. Readers who would prefer to use an IDE might like to first read  [Python Introduction and Installation](http://programminghistorian.org/lessons/introduction-and-installation), but this is optional. The tutorial also makes some basic assumptions about your Python skills. It assumes you know what the following Python data structures are (though not knowing will not prevent the code from working should you follow all of the steps in the tutorial):
+This tutorial assumes that you have already installed Python version 2 on your computer. The lesson will use the Command Line to run Python, as this is more flexible and makes it possible for use in classrooms or computer labs in which students do not have the ability to download and install interactive development environments (IDEs) like Komodo Edit. Readers who would prefer to use an IDE might like to first read  [Python Introduction and Installation](/lessons/introduction-and-installation), but this is optional. The tutorial also makes some basic assumptions about your Python skills. It assumes you know what the following Python data structures are (though not knowing will not prevent the code from working should you follow all of the steps in the tutorial):
 
 * [List](https://docs.python.org/2/tutorial/datastructures.html)
 * [For Loop](https://docs.python.org/2/tutorial/controlflow.html)
 * [String](https://docs.python.org/2/library/string.html)
 
-The lesson touches on Regular Expressions, so some readers may find it handy to have the relevant Programming Historian lessons by [Doug Knox](http://programminghistorian.org/lessons/understanding-regular-expressions) or [Laura Turner O'Hara](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions) open to consult as needed.
+The lesson touches on Regular Expressions, so some readers may find it handy to have the relevant Programming Historian lessons by [Doug Knox](/lessons/understanding-regular-expressions) or [Laura Turner O'Hara](/lessons/cleaning-ocrd-text-with-regular-expressions) open to consult as needed.
 
 ## Familiarising yourself with the data
 
 The first step of this process is to take a look at the data that we will be using in the lesson. As mentioned, the data includes biographical details of approximately 6,692 graduates who began study at the University of Oxford in the early seventeenth century.
 
-[The\_Dataset\_-\_Alumni_Oxonienses-Jas1.csv](http://programminghistorian.org/assets/The_Dataset_-_Alumni_Oxonienses-Jas1.csv) (1.4MB)
+[The\_Dataset\_-\_Alumni_Oxonienses-Jas1.csv](/assets/The_Dataset_-_Alumni_Oxonienses-Jas1.csv) (1.4MB)
 
 {% include figure.html filename="extracting-keywords-1.png" caption="Screenshot of the first forty entries in the dataset" %}
 
@@ -190,7 +199,7 @@ If the code worked, you should see a big wall of text. Those are the texts we in
 
 ### Step 3: Remove unwanted punctuation
 
-When matching strings, you have to make sure the punctuation doesn't get in the way. Technically, 'London.' is a different string than 'London' or ';London' because of the added punctuation. These three strings which all mean the same thing to us as human readers will be viewed by the computer as distinct entities. To solve that problem, the easiest thing to do is just to remove all of the punctuation. You can do this with [regular expressions](http://en.wikipedia.org/wiki/Regular_expression), and [Doug Knox](http://programminghistorian.org/lessons/understanding-regular-expressions) and [Laura Turner O'Hara](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions) have provided great introductions at *Programming Historian* for doing so.
+When matching strings, you have to make sure the punctuation doesn't get in the way. Technically, 'London.' is a different string than 'London' or ';London' because of the added punctuation. These three strings which all mean the same thing to us as human readers will be viewed by the computer as distinct entities. To solve that problem, the easiest thing to do is just to remove all of the punctuation. You can do this with [regular expressions](http://en.wikipedia.org/wiki/Regular_expression), and [Doug Knox](/lessons/understanding-regular-expressions) and [Laura Turner O'Hara](/lessons/cleaning-ocrd-text-with-regular-expressions) have provided great introductions at *Programming Historian* for doing so.
 
 To keep things simple, this program will just replace the most common types of punctuation with nothing instead (effectively deleting punctuation).
 
@@ -338,7 +347,7 @@ If you do not like the output format, you can change it by adjusting the second 
     f.write(matchString)
     f.close()
 ```
-Note the 'a' instead of the 'r' we used earlier. This 'appends' the text to the file called `output.txt`, which will be saved in your working directory. You will have to take care, because running the program several times will continue to append all of the outputs to this file, creating a very long file. There are ways around this, which we will cover in a moment, and you might consider looking into how the 'w' (write) feature works, and experimenting with output formats. There is more information related to these features in ['Working with Text Files in Python'](http://programminghistorian.org/lessons/working-with-text-files).
+Note the 'a' instead of the 'r' we used earlier. This 'appends' the text to the file called `output.txt`, which will be saved in your working directory. You will have to take care, because running the program several times will continue to append all of the outputs to this file, creating a very long file. There are ways around this, which we will cover in a moment, and you might consider looking into how the 'w' (write) feature works, and experimenting with output formats. There is more information related to these features in ['Working with Text Files in Python'](/lessons/working-with-text-files).
 
 ## Refining the Gazetteer
 
@@ -545,4 +554,4 @@ This approach created longer and more complex code, but the result is a powerful
 
 ## Suggested Further Reading
 
-Readers who have completed this lesson might be interested in then geo-referencing the output using the Google API and mapping the results. You can learn more about this process from Fred Gibbs's tutorial, [Extract and Geocode Placenames from a Text File](http://fredgibbs.net/tutorials/extract-geocode-placenames-from-text-file.html). This will let you visualise the practical outputs of this tutorial. Alternatively, readers may be interested in [Jim Clifford et. al's tutorial on georeferencing in QGIS 2.0](http://programminghistorian.org/lessons/georeferencing-qgis), an open source [GIS](https://en.wikipedia.org/wiki/Geographic_information_system) program.
+Readers who have completed this lesson might be interested in then geo-referencing the output using the Google API and mapping the results. You can learn more about this process from Fred Gibbs's tutorial, [Extract and Geocode Placenames from a Text File](http://fredgibbs.net/tutorials/extract-geocode-placenames-from-text-file.html). This will let you visualise the practical outputs of this tutorial. Alternatively, readers may be interested in [Jim Clifford et. al's tutorial on georeferencing in QGIS 2.0](/lessons/georeferencing-qgis), an open source [GIS](https://en.wikipedia.org/wiki/Geographic_information_system) program.

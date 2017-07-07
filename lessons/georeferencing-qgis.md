@@ -1,20 +1,30 @@
 ---
 title: Georeferencing in QGIS 2.0
+layout: lesson
+date: 2013-12-13
 authors:
 - Jim Clifford
 - Josh MacFadyen
 - Daniel Macfarlane
-date: 2013-12-13
 reviewers:
 - Finn Arne Jørgensen
 - Peter Webster
 - Abby Schreiber
 editors:
 - Adam Crymble
-layout: default
-prev: vector-layers-qgis
 difficulty: 2
+activity: transforming
+topics: [mapping]
+abstract: "In this lesson, you will learn how to georeference historical maps so
+that they may be added to a GIS as a raster layer."
+previous: vector-layers-qgis
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Lesson Goals
 ------------
@@ -323,17 +333,17 @@ century.
 
 *This lesson is part of the [Geospatial Historian][].*
 
-  [Intro to Google Maps and Google Earth]: ../lessons/googlemaps-googleearth
+  [Intro to Google Maps and Google Earth]: /lessons/googlemaps-googleearth
   [rubber-sheeting]: http://en.wikipedia.org/wiki/Rubbersheeting
   [National Topographic System Maps]: http://maps.library.utoronto.ca/datapub/digital/3400s_63_1929/maptile/Halifax/googlemaps.html
   [1]: http://maps.library.utoronto.ca/datapub/PEI/NTS/west/
   [2]: http://maps.library.utoronto.ca/datapub/PEI/NTS/east/
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
-  [Installing QGIS 2.0 and adding Layers]: ../lessons/qgis-layers
+  [Installing QGIS 2.0 and adding Layers]: /lessons/qgis-layers
   [can be downloaded here]: http://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg
   [Island Imagined]: http://www.islandimagined.ca/fedora/repository/imagined%3A208687
   [in Atlantic Canada]: http://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s
   [world file]: http://en.wikipedia.org/wiki/World_file
   [Tif]: http://en.wikipedia.org/wiki/Tagged_Image_File_Format
-  [Creating New Vector Layers in QGIS]: ../lessons/vector-layers-qgis
+  [Creating New Vector Layers in QGIS]: /lessons/vector-layers-qgis
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

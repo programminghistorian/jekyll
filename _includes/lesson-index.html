@@ -1,0 +1,71 @@
+{% comment %}
+ Core code for generating filterable lesson indexes on lessons.md and es/lecciones.md. This will repeatedly call lesson_describe.html in which individual lessons have their metadata formatted for display. 
+{% endcomment %}
+
+<ul class="filter activities">
+<li id="filter-acquiring" class="filter">{{site.data.snippets.acquire-button[page.lang]}} ({{ alllessons | where:"activity","acquiring" | size }})</li>
+<li id="filter-transforming" class="filter">{{site.data.snippets.transform-button[page.lang]}} ({{ alllessons | where:"activity","transforming" | size }})</li>
+<li id="filter-analyzing" class="filter">{{site.data.snippets.analyze-button[page.lang]}} ({{ alllessons | where:"activity","analyzing" | size }})</li>
+<li id="filter-presenting" class="filter">{{site.data.snippets.present-button[page.lang]}} ({{ alllessons | where:"activity","presenting" | size }})</li>
+<li id="filter-sustaining" class="filter">{{site.data.snippets.sustain-button[page.lang]}} ({{ alllessons | where:"activity","sustaining" | size }})</li>
+</ul>
+
+<ul class="filter topics">
+{% for topic in site.data.topics %}
+{% assign tcount = topic.type %}
+<li id="filter-{{ topic.type }}" class="filter">{{ topic.displayname[page.lang] }} ({{ alllessons | where:"topics",tcount | size }})
+</li>
+{% endfor %}
+</ul>
+
+<ul class="sort-by">
+<li class="sort" data-sort="date">{{site.data.snippets.sort-by-date[page.lang]}}</li>
+<li class="sort" data-sort="difficulty">{{site.data.snippets.sort-by-difficulty[page.lang]}}</li>
+</ul>
+
+<div id="filter-none">{{site.data.snippets.reset-button[page.lang]}} ({{ site.pages | where:"lesson","true" | size }})</div>
+
+<h2 class="results">Filtering Results: <span id="results-title">All lessons</span></h2>
+
+<div id="lesson-list">
+
+<div id="eachlesson">
+<ul class="list">
+{% for lesson in alllessons %}
+{% capture author_string %} {% include author.html %} {% endcapture %}
+  <li>{% include lesson_describe.html authors=author_string %}</li>
+{% endfor %}
+</ul>
+</div>
+
+</div>
+
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js'></script>
+<script src="{{ site.baseurl }}/js/lessonfilter.js"></script>
+
+<script>
+  $(function() {
+
+    $('.filter').children().click(function() {
+        $('.filter').children().removeClass("current");
+        $(this).addClass("current");
+        $('#results-title').text($(this).text());
+        $('#results-title').css('textTransform', 'uppercase');
+    });
+
+    $('#filter-none').click(function() {
+        $('.filter').children().removeClass("current");
+        $('#results-title').text('All lessons');
+        //$(this).addClass("current");
+    });
+
+    $('.sort').click(function() {
+        $('.sort').removeClass("current");
+        $(this).addClass("current");
+    });
+
+
+    initSort();
+  });
+</script>

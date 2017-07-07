@@ -1,18 +1,28 @@
 ---
-title: Understanding Web Pages and HTML
+title: Understanding Web Pages and HTML 
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 - Amanda Morton
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: presenting
+topics: [python]
+abstract: "This lesson introduces you to HTML and the web pages it structures."
 next: working-with-text-files
 previous: introduction-and-installation
 ---
+
+{% include toc.html %}
+
+
+
+
 
 "Hello World" in HTML
 ---------------------

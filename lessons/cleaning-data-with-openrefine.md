@@ -1,18 +1,28 @@
 ---
 title: Cleaning Data with OpenRefine
+layout: lesson
+date: 2013-08-05
 authors:
 - Seth van Hooland
 - Ruben Verborgh
 - Max De Wilde
-date: 2013-08-05
 reviewers:
 - Patrick Burns
 - Nora McGregor
 editors:
 - Adam Crymble
-layout: default
 difficulty: 2
+activity: transforming
+topics: [data-manipulation]
+abstract: "This tutorial focuses on how scholars can diagnose and act upon the
+accuracy of data."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson goals
 
@@ -400,9 +410,9 @@ the case you have made an error.
   [FreeYourMetadata website]: http://data.freeyourmetadata.org/powerhouse-museum/
   [phm-collection]: /assets/phm-collection.tsv
   [initial OpenRefine project]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
-  [Powerhouse Museum Website]: ../images/powerhouseScreenshot.png
+  [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
   [facet]: http://en.wikipedia.org/wiki/Faceted_search
-  [Screenshot of OpenRefine Example]: ../images/overviewOfSomeClusters.png
+  [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
   [GREL documentation]: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
   [regular expression]: http://en.wikipedia.org/wiki/Regular_expression
     "Regular Expressions"

@@ -1,159 +1,16 @@
 ---
 title: Equipo de proyecto
-layout: directory
+layout: blank
 ---
 
 Nuestro equipo editorial trabaja en conjunto para ayudar a los autores a producir tutoriales de alta calidad. Por favor, dirige tu correspondencia, en primer lugar, a <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a>. Puedes seguir *The Programming Historian* en Twitter (en inglés): [@proghist](http://twitter.com/proghist).
 
 ## Consejo editorial
 
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Maria-Jose-Afanador-Llach.png" />
-Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una organización sin ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro, así como promover proyectos de Humanidades Digitales.
- 
-<br />
-	
-	
-		<a href="mailto:mariajose@neogranadina.org"><i class="fa fa-envelope-square fa-lg"></i></a>
-	
-	
-		<a href="https://twitter.com/mariajoafana"><i class="fa fa-twitter-square fa-lg"></i></a>
-<br /><br /><br />
-</div>
-
-{% include contact-info.html name="Adam Crymble" %}
-
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Victor-Gayol.png" />
-Víctor Gayol es profesor investigador en el Centro de Estudios Históricos de El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
- 
-<br />
-	
-		<a href="http://victorgayol.net"><i class="fa fa-home fa-lg"></i></a>
-		
-		<a href="mailto:vgayol@colmich.edu.mx"><i class="fa fa-envelope-square fa-lg"></i></a>
-	
-	
-		<a href="https://twitter.com/victor_gayol"><i class="fa fa-twitter-square fa-lg"></i></a>
-	
-	
-		<a href="http://github.com/vgayolrs"><i class="fa fa-github-square fa-lg"></i></a>
-	
-<br /><br /><br />
-</div>
-
-{% include contact-info.html name="Fred Gibbs" %}
-
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Matthew-Lincoln.png" />
-Matthew Lincoln es especialista en la investigación de datos en el Getty Research Institute e historiador del arte de la Europa moderna. 
- 
-<br />
-
-	<a href="http://matthewlincoln.net"><i class="fa fa-home fa-lg"></i></a>
-	
-		<a href="mailto:mlincoln@getty.edu"><i class="fa fa-envelope-square fa-lg"></i></a>
-	
-	
-		<a href="http://twitter.com/matthewdlincoln"><i class="fa fa-twitter-square fa-lg"></i></a>
-	
-	
-		<a href="http://github.com/mdlincoln"><i class="fa fa-github-square fa-lg"></i></a>
-	
-<br /><br /><br />
-</div>
-
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Caleb-McDaniel.png" />
-Caleb McDaniel es profesor asociado de Historia en Rice University.
- 
-<br />
-
-	<a href="http://wcm1.web.rice.edu"><i class="fa fa-home fa-lg"></i></a>
-	
-	
-		<a href="http://twitter.com/wcaleb"><i class="fa fa-twitter-square fa-lg"></i></a>
-	
-	
-		<a href="http://github.com/wcaleb"><i class="fa fa-github-square fa-lg"></i></a>
-	
-<br /><br /><br />
-</div>
-
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Ian-Milligan.png" />
-Ian Milligan es profesor de Historia en la Universidad de Waterloo. Tiene interés en editar lecciones sobre análisis de redes, análisis textual y minería de datos, y, en general, lecciones de nivel intermedio o superior.
- 
-<br />
-
-	<a href="http://ianmilligan.ca"><i class="fa fa-home fa-lg"></i></a>
-	
-	<a href="mailto:i2millig@uwaterloo.ca"><i class="fa fa-envelope-square fa-lg"></i></a>
-	
-		<a href="http://twitter.com/ianmilligan1"><i class="fa fa-twitter-square fa-lg"></i></a>
-	
-	
-		<a href="http://github.com/ianmilligan1"><i class="fa fa-github-square fa-lg"></i></a>
-	
-<br /><br /><br />
-</div>
-
-{% include contact-info.html name="Jessica Parr" %}
-
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Antonio-Rojas-Castro.png" />
-Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en el Cologne Center for eHumanities.
- 
-<br />
-
-	<a href="http://antoniorojascastro.com/"><i class="fa fa-home fa-lg"></i></a>
-	
-		<a href="mailto:rojas.castro.antonio@gmail.com"><i class="fa fa-envelope-square fa-lg"></i></a>
-	
-	
-		<a href="http://twitter.com/RojasCastroA"><i class="fa fa-twitter-square fa-lg"></i></a>
-	
-	
-		<a href="http://github.com/arojascastro"><i class="fa fa-github-square fa-lg"></i></a>
-	
-<br /><br /><br />
-</div>
-
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Amanda-Visconti.png" />
-Amanda Visconti es Directora general del centro de Humanidades Digitales Scholars' Lab en la Universidad de Virginia. Amanda trabaja en las mejoras técnicas de la web de <em>The Programming Historian</em>. 
- 
-<br />
-
-	<a href="http://www.amandavisconti.com"><i class="fa fa-home fa-lg"></i></a>
-	
-	<a href="mailto:amandavisconti@gmail.com"><i class="fa fa-envelope-square fa-lg"></i></a>
-	
-		<a href="http://twitter.com/literature_geek"><i class="fa fa-twitter-square fa-lg"></i></a>
-	
-	
-		<a href="http://github.com/amandavisconti"><i class="fa fa-github-square fa-lg"></i></a>
-	
-<br /><br /><br />
-</div>
-
-{% include contact-info.html name="Brandon Walsh" %}
-
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Jeri-Wieringa.png" />
-Jeri Wieringa trabaja como jefa del departamento de producción digital en George Mason University Libraries; asimismo, es doctoranda en Historia en la misma universidad. Está interesada en trabajar con autores sobre los siguientes temas: accesibilidad y diseño de interfaces, visualización de datos, análisis de redes, minería de datos, flujos de trabajo y, en general, lecciones introductorias. 
- 
-<br />
-
-	<a href="http://jeriwieringa.com"><i class="fa fa-home fa-lg"></i></a>
-	
-		<a href="http://twitter.com/jerielizabeth"><i class="fa fa-twitter-square fa-lg"></i></a>
-	
-	
-		<a href="http://github.com/jerielizabeth"><i class="fa fa-github-square fa-lg"></i></a>
-	
-<br /><br /><br />
-</div>
+{% comment %}
+All editorial board information should be edited in data/authors.yml. Authors who are on the editorial team must have team: true in their metadata.
+{% endcomment %}
+{% include project-team-loop.html %}
 
 ## Miembros eméritos del equipo
 
@@ -167,7 +24,7 @@ Jeri Wieringa trabaja como jefa del departamento de producción digital en Georg
 
 ## Participantes de la comunidad
 
-*Programming Historian* también se beneficia enormemente de los esfuerzos de las personas que ofrecen su tiempo y energía. Si estás interesado en unirte, ya sea con un proyecto único o con una actividad continuada, por favor ¡descubre [cómo contribuir](http://programminghistorian.org/es/contribuciones) y lee sobre nuestro [flujo de trabajo](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones)!
+*Programming Historian* también se beneficia enormemente de los esfuerzos de las personas que ofrecen su tiempo y energía. Si estás interesado en unirte, ya sea con un proyecto único o con una actividad continuada, por favor ¡descubre [cómo contribuir](/es/contribuciones) y lee sobre nuestro [flujo de trabajo](/es/guia-para-autores)!
 
 También queremos dar las gracias a todas las personas que han ayudado revisando lecciones, reportando problemas, arreglando errores, u organizando talleres basados en *The Programming Historian*:
 

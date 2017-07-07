@@ -1,16 +1,25 @@
 ---
 title: Corpus Analysis with Antconc
-authors: 
-- Heather Froehlich
+layout: lesson
 date: 2015-06-19
+authors:
+- Heather Froehlich
 reviewers:
 - Nabeel Siddiqui
 - Rob Sieczkiewicz
 editors:
 - Fred Gibbs
-layout: default
 difficulty: 1
+activity: analyzing
+topics: [distant-reading]
+abstract: "Corpus analysis is a form of text analysis which allows you to make comparisons between textual objects at a large scale (so-called 'distant reading')."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Introduction
 Corpus analysis is a form of text analysis which allows you to make comparisons between textual objects at a large scale (so-called 'distant reading'). It allows us to see things that we don't necessarily see when reading as humans.  If you’ve got a collection of documents, you may want to find patterns of grammatical use, or frequently recurring phrases in your corpus. You also may want to find statistically likely and/or unlikely phrases for a particular author or kind of text, particular kinds of grammatical structures or a lot of examples of a particular concept across a large number of documents in context. Corpus analysis is especially useful for testing intuitions about texts and/or triangulating results from other digital methods.
@@ -60,7 +69,7 @@ Visit your favorite website for news, and navigate to a news article (doesn't ma
 
 Open a text editor such as Notepad (on Windows) or TextEdit (on Mac) and paste in your text.
 
-Other free options for text editors include [Notepad++][53] (Windows) or [TextWrangler][54] (Mac), which offer more advanced features, and are especially good for doing a lot of text clean-up. By text clean-up, I mean removing extratextual information such as "boilerplate", which appears regularly throughout. If you keep this information, it's going to throw your data off; text analysis software will address these words in word counts, statistical analyses, and lexical relationships. For example, you might want to remove standard headers and footers which will appear on every page. Please see [“Cleaning Data with OpenRefine"](http://programminghistorian.org/lessons/cleaning-data-with-openrefine) for more on how to automate this task. On smaller corpora it may be more feasible to do this yourself, plus you'll get a much better sense of your corpus this way.
+Other free options for text editors include [Notepad++][53] (Windows) or [TextWrangler][54] (Mac), which offer more advanced features, and are especially good for doing a lot of text clean-up. By text clean-up, I mean removing extratextual information such as "boilerplate", which appears regularly throughout. If you keep this information, it's going to throw your data off; text analysis software will address these words in word counts, statistical analyses, and lexical relationships. For example, you might want to remove standard headers and footers which will appear on every page. Please see [“Cleaning Data with OpenRefine"](/lessons/cleaning-data-with-openrefine) for more on how to automate this task. On smaller corpora it may be more feasible to do this yourself, plus you'll get a much better sense of your corpus this way.
 
 Save the article as a .txt file to the desktop. You may want to do some follow-up text cleanup on other information, such as author by-line or title (remove them, then save the file again.) Remember that anything you leave in the text file can and will be addressed by text analysis software.
 
