@@ -1,10 +1,10 @@
+{% comment %}
+ Translate page difficulty from a number into text 
+{% endcomment %}
 
 {% if page.lang == "en" %}
-
-   Recommended for 
-        {% if page.difficulty == 1 %}Beginning{% endif %}
-        {% if page.difficulty == 2 %}Intermediate{% endif %}
-        {% if page.difficulty == 3 %}Advanced{% endif %}
-   Users
-
+        {% if page.difficulty == 0 %}Very Low{% endif %}
+        {% if page.difficulty == 1 %}Low{% endif %}
+        {% if page.difficulty == 2 %}Medium{% endif %}
+        {% if page.difficulty == 3 %}High{% endif %}
 {% endif %}

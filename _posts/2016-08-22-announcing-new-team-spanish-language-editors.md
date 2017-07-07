@@ -8,7 +8,7 @@ categories: posts
 
 [The Programming Historian](/) is proud to announce its new team of Spanish language editors! 
 
-In July, the PH editorial board announced a [call for applications](http://programminghistorian.org/posts/spanish-editor) from digital humanists who could help translate the site's growing library of peer-reviewed tutorials into Spanish. The goal: to make PH lessons more accessible to Spanish speakers and to begin expanding the PH community beyond the site's primary audience of English speaking scholars in North America and Europe. 
+In July, the PH editorial board announced a [call for applications](/posts/spanish-editor) from digital humanists who could help translate the site's growing library of peer-reviewed tutorials into Spanish. The goal: to make PH lessons more accessible to Spanish speakers and to begin expanding the PH community beyond the site's primary audience of English speaking scholars in North America and Europe. 
 
 We received many excellent applications, and it was difficult to choose just one new editor. After speaking individually with the three finalists for the position, the editorial board decided to invite each of them to form a team whose primarily goal will be to build connections between Programming Historian, the Spanish speaking world, and the broader global community of digital humanities practitioners.
 
@@ -20,4 +20,4 @@ We are now very excited to announce that Maria José Afanador-Llach, Víctor Gay
 
 [Antonio Rojas Castro](https://twitter.com/RojasCastroA) holds a PhD in Humanities from the Universitat Pompeu Fabra in Barcelona, Spain. As part of his dissertation he built a digital critical edition of Luis de Góngora's Solitudes (currently in beta). In 2013 he created the [Grupo de Humanidades Digitales de Zotero](https://www.zotero.org/groups/humanidades_digitales), and he is currently the Communication Coordinator for the [European Association for Digital Humanities (EADH)](http://eadh.org/).
 
-Please join us in welcoming Maria, Víctor, and Antonio! You can say hello to them on Twitter by tweeting [@ProgHist](https://twitter.com/proghist), [@mariajoafana](https://twitter.com/mariajoafana), [@Victor_Gayol](https://twitter.com/victor_gayol), and [@RojasCastroA](https://twitter.com/RojasCastroA). And of course, please stay tuned to [The Programming Historian](http://programminghistorian.org/) for their contributions. 
+Please join us in welcoming Maria, Víctor, and Antonio! You can say hello to them on Twitter by tweeting [@ProgHist](https://twitter.com/proghist), [@mariajoafana](https://twitter.com/mariajoafana), [@Victor_Gayol](https://twitter.com/victor_gayol), and [@RojasCastroA](https://twitter.com/RojasCastroA). And of course, please stay tuned to [The Programming Historian](/) for their contributions. 

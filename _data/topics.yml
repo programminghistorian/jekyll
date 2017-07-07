@@ -1,0 +1,87 @@
+- type: api
+  displayname:
+    en: "APIs"
+    es: "APIs"
+  description:
+    en: "APIs let you programmatically request specific information from a website. Learn how to use them."
+    es: "Las APIs te permiten solicitar información específica contenida en una web. Aprende a utilizarlas."
+
+- type: python
+  displayname:
+    en: "Python"
+    es: "Python"
+  description:
+    en: "Lessons teaching or using the Python coding language."
+    es: "Lecciones con las que aprenderás a utilizar el lenguaje de programación Python."
+
+- type: data-management
+  displayname:
+    en: "Data Management"
+    es: "Gestión de datos"
+  description:
+    en: "You put a lot of effort into your research. Make sure that effort lasts by adopting sustainable strategies to your code, your data, and your research processes. A little bit of planning can save you a lot of time."
+    es: "Pones mucho esfuerzo en tu investigación. Aprende a adoptar estrategias sostenibles para tu código, tus datos y tus procesos de investigación. Un poco de planificación puede ahorrarte mucho tiempo."
+
+- type: data-manipulation
+  displayname:
+    en: "Data Manipulation"
+    es: "Procesamiento de datos"
+  description:
+    en:: "Just like it sounds, learn how to use programming to change, move, clean, or count data. These are essential techniques for preparing data to be used with various tools."
+    es: "Cambiar, mueve, limpia o cuenta tus datos. Con estas lecciones aprenderás a procesar tus datos con distintas herramientas."
+
+- type: distant-reading
+  displayname:
+    en: "Distant Reading"
+    es: "Lectura distinta"
+  description:
+    en: "Computational tools allow you to make sense of a lot of documents at once. The Naive Bayesian is a machine learner: given some examples of the kind of thing you are interested in, it can quickly find many more."
+    es: "Herramientas computacionales con las que extraerás sentido de tus documentos. Un clasificador Bayesiano Naive es una máquina que aprende: dado un número de ejemplos, puede encontrar rápidamente muchos más." 
+
+- type: get-ready
+  displayname:
+    en: "Set up"
+    es: "Instalar"
+  description:
+    en: "If you’re new to programming, these lessons will help you get your computer set up correctly."
+    es: "Si eres nuevo en programación, estas lecciones te ayudarán a poner en marcha tu ordenador."
+
+- type: lod
+  displayname:
+    en: "Linked Open Data"
+    es: "Datos abiertos enlazados"
+  description:
+    en: "Many research datasets are published as Linked Open Data, a format that allows flexible querying and interlinking of complex sources. Get an introduction to manipulating these databases by working with some real-world examples."
+    es: "Gran parte de las investigaciones se publican como Datos abiertos enlazados, un formato que te permite interrogar y enlazar de manera flexible numerosos recursos. Iníciate en la manipulación de estas bases de datos trabajando con ejemplos reales."
+
+- type: mapping
+  displayname:
+      en: "Mapping"
+      es: "Mapeado"
+  description:
+      en: "Mapping can be an effective way to visualize and interpret historical data. These lessons introduce historical geographic information systems (GIS) using open source software."
+      es: "El mapeado puede ser una manera efectiva de visualizar e interpretar tus datos históricos. Estas lecciones te ayudarán a utilizar Sistemas de Información Geográfica de acceso abierto."
+
+- type: network-analysis
+  displayname:
+    en: "Network Analysis"
+    es: "Análisis de redes"
+  description:
+    en: "Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources."
+    es: "Las visualizaciones de redes pueden ayudarte a revelar patrones y estructuras escondidas o demasiado complejas presentes en tus fuentes." 
+
+- type: web-scraping
+  displayname:
+    en: "Web Scraping"
+    es: "Web Scraping"
+  description:
+    en: "Learn how to use programming to download material from the Internet in a controlled, semi-automated manner."
+    es: "Aprende a utilizar programas para descargar información de internet de una manera controlado y semiautomática."
+
+- type: website
+  displayname:
+    en: "Digital Publishing"
+    es: "Publicación digital"
+  description:
+    en: "How to design and develop a website such as a digital exhibit or research blog."
+    es: "Iníciate en el diseño y desarrollo de exposiciones o blogs de investigación."

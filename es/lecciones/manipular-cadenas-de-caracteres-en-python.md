@@ -13,11 +13,20 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: de-html-a-lista-de-palabras-1
 previous: trabajar-con-paginas-web
 redirect_from: /es/lessons/manipulating-strings-in-python
+difficulty: 2
+activity: transforming
+topics: [python]
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Objetivos de la lección
 

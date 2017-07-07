@@ -1,25 +1,49 @@
-<div class="additional">
-<ul id="menu-main-menu" class="additional">
+<nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
+  <!--<div class="container">-->
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="{{site.baseurl}}{{site.data.snippets.menu-home[page.lang]}}">The Programming Historian</a>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{site.data.snippets.menu-about[page.lang]}}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-about-overview[page.lang].link}}">{{site.data.snippets.menu-about-overview[page.lang].title}}</a>
+            <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-about-team[page.lang].link}}">{{site.data.snippets.menu-about-team[page.lang].title}}</a>
+            <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-about-research[page.lang].link}}">{{site.data.snippets.menu-about-research[page.lang].title}}</a>
+          </div>
+        </li>
 
-{% if page.lang == "en" %}
-            <li class="menu-item"><a href="/">About</a></li>
-            <li class="menu-item"><a href="/lessons">Lessons</a></li>
-            <li class="menu-item"><a href="/contribute">Contribute</a></li>
-            <li class="menu-item"><a href="/project-team">Project Team</a></li>
-            <li class="menu-item"><a href="/research">Research</a></li>
-            <li class="menu-item"><a href="/blog">Blog</a></li>
-	    <li class="menu-item"><a href="/es">Español</a></li>
-{% endif %}
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{site.data.snippets.menu-contribute[page.lang]}}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-overview[page.lang].link}}">{{site.data.snippets.menu-contribute-overview[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-feedback[page.lang].link}}">{{site.data.snippets.menu-contribute-feedback[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-review[page.lang].link}}">{{site.data.snippets.menu-contribute-review[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-write[page.lang].link}}">{{site.data.snippets.menu-contribute-write[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-edit[page.lang].link}}">{{site.data.snippets.menu-contribute-edit[page.lang].title}}</a>
+        </div>
+      </li>
 
-{% if page.lang == "es" %}
-            <li class="menu-item"><a href="/es/">Acerca de</a></li>
-            <li class="menu-item"><a href="/es/lecciones">Lecciones</a></li>
-            <li class="menu-item"><a href="/es/contribuciones">Contribuciones</a></li>
-            <li class="menu-item"><a href="/es/equipo-de-proyecto">Equipo de proyecto</a></li>
-            <li class="menu-item"><a href="/es/investigacion">Investigación</a></li>
-	        <li class="menu-item"><a href="/blog">Blog</a></li>
-	    <li class="menu-item"><a href="/">English</a></li>
-{% endif %}
+      <li class="nav-item">
+        <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-lessons[page.lang].link}}">{{site.data.snippets.menu-lessons[page.lang].title}}</a>
+      </li>
 
-</ul>
-</div>
+      <li class="nav-item">
+        <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-blog[page.lang].link}}">{{site.data.snippets.menu-blog[page.lang].title}}</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link lang" href="{{site.baseurl}}{{site.data.snippets.menu-lang[page.lang].link}}">{{site.data.snippets.menu-lang[page.lang].title}}</a>
+      </li>
+
+
+    </ul>
+  </div>
+  <!--</div>-->
+</nav>

@@ -14,11 +14,18 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: trabajar-con-archivos-de-texto
 previous: introduccion-e-instalacion
 redirect_from: /es/lessons/viewing-html-files
+difficulty: 2
+activity: presenting
+topics: [python]
 ---
+
+{% include toc.html %}
+
+
 
 
 

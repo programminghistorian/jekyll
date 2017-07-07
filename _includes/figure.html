@@ -1,14 +1,29 @@
-<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+{% comment %}
+figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll 
 
-{% if page.lang == "en" %}
-   {% capture imgpath %}{{ page.url | remove_first:'/lessons/' }}{% endcapture %}
-{% elsif page.lang == "es" %}
-   {% capture imgpath %}{{ page.redirect_from | remove_first: '/es/lessons/' }}{% endcapture %}
+If figure.html is being called from a lesson page, it collects the lesson slug from lesson-slug.html in order to compute the correct path to the image. Otherwise, it just appends the basepath and constructs the figure tag normally.
+
+In the event that an external image link has been provided, it will use that path without appending the PH baseurl.
+
+
+{% endcomment %}
+
+
+{% include lesson-slug.html %}
+
+{% if include.filename contains "http" %}
+  {% capture fullpath %}{{ include.filename }}{% endcapture %}
+{% else %}
+{% if page.layout == "lesson" %}
+  {% capture fullpath %}{{ site.baseurl }}/images/{{ slug }}/{{ include.filename }}{% endcapture %}
+{% else %}
+  {% capture fullpath %}{{ site.baseurl }}/{{ include.filename }}{% endcapture %}
+{% endif %}
 {% endif %}
 
 <figure>
-<a href="/images/{{ imgpath }}/{{ include.filename }}">
-    <img src="/images/{{ imgpath }}/{{ include.filename }}" alt="{{ include.caption }}">
+<a href="{{ fullpath }}">
+    <img src="{{ fullpath }}" alt="{{ include.caption }}">
 	</a>
 <figcaption>
     {{ include.caption | markdownify }}

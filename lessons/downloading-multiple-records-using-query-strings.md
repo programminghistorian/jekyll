@@ -1,17 +1,26 @@
 ---
 title: Downloading Multiple Records Using Query Strings
+layout: lesson
+date: 2012-11-11
 authors:
 - Adam Crymble
-date: 2012-11-11
 reviewers:
 - Luke Bergmann
 - Sharon Howard
 editors:
 - Fred Gibbs
-layout: default
-previous: output-keywords-in-context-in-html-file
 difficulty: 2
+activity: acquiring
+topics: [web-scraping]
+abstract: "Downloading a single record from a website is easy, but downloading many records at a time – an increasingly frequent need for a historian – is much more efficient using a programming language such as Python. In this lesson, we will write a program that will download a series of records from the Old Bailey Online using custom search criteria, and save them to a directory on our computer."
+previous: output-keywords-in-context-in-html-file
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Module Goals
 
@@ -1184,16 +1193,16 @@ helpful:
 
 
   [Old Bailey Online]: http://www.oldbaileyonline.org/
-  [Automated Downloading with WGET]: ../lessons/automated-downloading-with-wget
+  [Automated Downloading with WGET]: /lessons/automated-downloading-with-wget
   [Benjamin Bowsey’s case]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
   [advanced search form]: http://www.oldbaileyonline.org/forms/formMain.jsp
-  [Viewing HTML Files]: ../lessons/viewing-html-files
-  [Working with Webpages]: ../lessons/working-with-web-pages
-  [From HTML to a List of Words 2]: ../lessons/from-html-to-list-of-words-2
+  [Viewing HTML Files]: /lessons/viewing-html-files
+  [Working with Webpages]: /lessons/working-with-web-pages
+  [From HTML to a List of Words 2]: /lessons/from-html-to-list-of-words-2
   [modulo]: http://docs.python.org/release/2.5.2/ref/binary.html
   [range]: http://docs.python.org/2/tutorial/controlflow.html#the-range-function
   [regular expressions]: http://docs.python.org/2/library/re.html
-  [Counting Frequencies]: ../lessons/counting-frequencies
+  [Counting Frequencies]: /lessons/counting-frequencies
   [time out]: http://www.checkupdown.com/status/E408.html
   [Python Programming Basics]: http://programminghistorian.org/lessons/introduction-and-installation
   [try / except]: http://docs.python.org/tutorial/errors.html

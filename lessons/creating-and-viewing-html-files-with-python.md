@@ -1,17 +1,28 @@
 ---
 title: Creating and Viewing HTML Files with Python
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: presenting
+topics: [python, website]
+abstract: "Here you will learn how to create HTML files with Python scripts, and
+how to use Python to automatically open an HTML file in Firefox."
 next: output-data-as-html-file
 previous: counting-frequencies
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson Goals
 
@@ -179,8 +190,8 @@ path to the directory on your own computer.
 
 -   python-lessons6.zip [zip sync]
 
-  [zip file from the previous lesson]: ../assets/python-lessons5.zip
+  [zip file from the previous lesson]: /assets/python-lessons5.zip
   [Zotero]: http://zotero.org
   [W3 Schools HTML tutorial]: http://www.w3schools.com/html/default.asp
   [doctype declaration]: http://www.w3schools.com/tags/tag_doctype.asp
-  [zip sync]: ../assets/python-lessons6.zip
+  [zip sync]: /assets/python-lessons6.zip

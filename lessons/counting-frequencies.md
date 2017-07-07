@@ -1,17 +1,27 @@
 ---
 title: Counting Word Frequencies with Python
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: analyzing
+topics: [python]
+abstract: "Counting the frequency of specific words in a list can provide illustrative data. This lesson will teach you Python's easy way to count such frequencies."
 next: creating-and-viewing-html-files-with-python
 previous: normalizing-data
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson Goals
 
@@ -416,5 +426,5 @@ file to make sure you have the correct code.
   [list comprehension]: http://docs.python.org/tutorial/datastructures.html#list-comprehensions
   [computer scientists at Glasgow]: http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
   [Regular Expressions]: http://www.diveintopython.net/regular_expressions/index.html
-  [zip]: ../assets/python-lessons4.zip
-  [zip sync]: ../assets/python-lessons5.zip
+  [zip]: /assets/python-lessons4.zip
+  [zip sync]: /assets/python-lessons5.zip

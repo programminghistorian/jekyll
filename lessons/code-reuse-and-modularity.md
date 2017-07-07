@@ -1,18 +1,32 @@
 ---
 title: Code Reuse and Modularity in Python
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
-categories: [lessons, original-ph, python]
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "Computer programs can become long, unwieldy and confusing without
+special mechanisms for managing complexity. This lesson will show you
+how to reuse parts of your code by writing functions and break your
+programs into modules, in order to keep everything concise and easier to
+debug."
 next: working-with-web-pages
 previous: working-with-text-files
+categories: [lessons, original-ph, python]
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Lesson Goals
 ------------

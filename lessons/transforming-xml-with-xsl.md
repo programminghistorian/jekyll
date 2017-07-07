@@ -1,17 +1,25 @@
 ---
-title: |
-    Transforming Data for Reuse and Re-publication with XML and XSL
+title: "Transforming Data for Reuse and Re-publication with XML and XSL"
+layout: lesson
+date: 2016-07-07
 authors:
 - M. H. Beals
-date: 2016-07-07
 reviewers:
 - Jonathan Blaney
 - Tessa C Hauswedell
 editors:
 - Adam Crymble
-layout: default
 difficulty: 1
+activity: transforming
+topics: [data-manipulation]
+abstract: "This tutorial will provide you with the ability to convert or transform historical data from an XML database (whether a single file or several linked documents) into a variety of different presentations—condensed tables, exhaustive lists or paragraphed narratives—and file formats."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Introduction
 
