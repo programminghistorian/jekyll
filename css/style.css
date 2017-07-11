@@ -200,6 +200,9 @@ Lesson Headers
 Lessons Index
 ========================================================================== */
 
+/*****************
+  FILTER BUTTONS
+******************/
   ul.filter, ul.sort-by {
     margin: 0 0 1rem 0;
     padding: 0px;
@@ -261,10 +264,25 @@ Lessons Index
     color: #333;
   }
 
-  ul.sort-by li.current {
-    background-color:#aaa;
-    color:#333;
+
+  #filter-none {
+    width:99.5%;
+    clear:both;
+    text-align:center;
+    margin-bottom:1rem;
+    background-color:#fefefe;
+    color:#666;
+    border:1px solid #999;
   }
+
+  #filter-none:hover {
+    background-color:#ededed;
+  }
+
+
+  /*****************
+    SORT BUTTONS
+  *****************/
 
   li.sort {
     background-color: #efefef;
@@ -277,64 +295,69 @@ Lessons Index
     background-color:#cecece;
   }
 
-  li.sort:after , .sort.asc:after {
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #fff;
-    content:"";
-    position: relative;
-    top:13px;
-    right:-5px;
+  #current-sort {
+    font-size:75%;
   }
 
-  li.sort.desc:after {
+  .sort.asc:after, .sort-asc:after {
     width: 0;
     height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 5px solid #fff;
+    border-left: .4rem solid transparent;
+    border-right: .4rem solid transparent;
+    border-top: .4rem solid;
     content:"";
     position: relative;
-    top:-10px;
-    right:-5px;
+    top:.75rem;
+    right:-.3rem;
   }
 
-   #filter-none {
-     width:99.5%;
-     clear:both;
-     text-align:center;
-     margin-bottom:1rem;
-     background-color:#fefefe;
-     color:#666;
-     border:1px solid #999;
-   }
+  .sort.desc:after, .sort-desc:after {
+    width: 0;
+    height: 0;
+    border-left: .4rem solid transparent;
+    border-right: .4rem solid transparent;
+    border-bottom: .4rem solid;
+    content:"";
+    position: relative;
+    bottom:.75rem;
+    right:-.3rem;
+  }
 
-   #filter-none:hover {
-     background-color:#ededed;
-   }
 
-   #eachlesson ul {
-     margin:0;
-     padding:0;
-   }
+  .sort-asc:after {
+    top:1rem;
+  }
 
-   #eachlesson li {
-     list-style-type:none;
-     margin:0;
-   }
+  .sort-desc:after {
+    bottom:1rem;
+  }
 
-   h2.results {
+  /*****************************
+    LESSON INDEX RESULTS LIST
+  *****************************/
+
+   h2.results-title {
      margin:1rem 0;
      font: 1.6rem/2rem 'Roboto Condensed';
      color:#666;
      text-transform:uppercase;
    }
 
-   #results-title {
+   #results-value {
      color:#000;
    }
+
+
+  #lesson-list .list ul {
+    margin:0;
+    padding:0;
+  }
+
+  #lesson-list .list li {
+    list-style-type:none;
+    margin:0;
+  }
+
 
   .lesson-description {
     margin-bottom:2rem;
@@ -343,14 +366,14 @@ Lessons Index
     text-align:left;
   }
 
+  .lesson-description img {
+      width:100%;
+  }
+
   .lesson-image {
     width:120px;
     float:left;
     margin-right:1rem;
-  }
-
-  .lesson-description img {
-      width:100%;
   }
 
   .above-title {
@@ -361,7 +384,7 @@ Lessons Index
     clear:none;
   }
 
-  #eachlesson h2 {
+  .lesson-description h2.title {
     font: 1.2rem/1.3rem 'Crete Round', serif;
     margin:0 0 .8rem 0;
     clear:none;

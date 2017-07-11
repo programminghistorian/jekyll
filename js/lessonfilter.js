@@ -1,215 +1,96 @@
-function initSort() {
+---
+---
+
+function wireButtons(featureList) {
+
   var options = {
-    valueNames: [ 'date', 'difficulty', 'activity', 'topics' ]
+    valueNames: [ 'date', 'title', 'difficulty', 'activity', 'topics' ]
   };
 
   var featureList = new List('lesson-list', options);
 
-  /* Filtering by activity: This can be rewritten as a single loop going through the 5 activities and subbing them in 2 places
-  */
-  $('#filter-acquiring').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().activity == "acquiring") {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
+  // when a filter button is clicked, update the results header
+  $('.filter').children().click(function() {
+      $('.filter').children().removeClass("current");
+      $(this).addClass("current");
+      $('#results-value').text($(this).text() + " ");
+      $('#results-value').css('textTransform', 'uppercase');
   });
 
-  $('#filter-transforming').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().activity == "transforming") {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-analyzing').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().activity == "analyzing") {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-presenting').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().activity == "presenting") {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-sustaining').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().activity == "sustaining") {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  /* Filtering by topic: this can also be rewritten as a loop, ideally pulling from the /_data/topics.yml "type" field rather than a hardcoded array here, so that when new topics are added to that data file they automatically get filtering added here. Lessons.md already loops through all existing topics rather than current hardcoding, so: new topics don't need to be added there too. */
-  $('#filter-data-management').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().topics.indexOf('data-management') > -1) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-api').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().topics.indexOf('api') > -1) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-python').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().topics.indexOf('python') > -1) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-data-manipulation').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().topics.indexOf('data-manipulation') > -1) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-distant-reading').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().topics.indexOf('distant-reading') > -1) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-get-ready').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().topics.indexOf('get-ready') > -1) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-lod').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().topics.indexOf('lod') > -1) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-mapping').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().topics.indexOf('mapping') > -1) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-network-analysis').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().topics.indexOf('network-analysis') > -1) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-omeka').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().topics.indexOf('omeka') > -1) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-web-scrape').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().topics.indexOf('web-scrape') > -1) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-website').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().topics.indexOf('website') > -1) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  $('#filter-augmented-reality').click(function() {
-    featureList.filter(function(item) {
-      if (item.values().topics.indexOf('augmented-reality') > -1) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-    return false;
-  });
-
-  /* And back to no filtering, all lessons displayed chronologically starting at most recent (set in lessons.md with "reversed") */
+  // when the reset button is clicked, undo filtering, blank out the results header, and sort alphabetically.
   $('#filter-none').click(function() {
-    featureList.filter();
+      $('.filter').children().removeClass("current");
+      $('#results-value').text('All lessons');
+      $(this).addClass("current");
+      $('#current-sort').text("");
+      $('#current-sort').removeClass();
+      featureList.filter();
+      featureList.sort('title', { order: "asc" });
+  });
+
+  // when a sort button is clicked, update the results header to show current sorting status
+  $('.sort').click(function() {
+      $('.sort').removeClass("current");
+      $(this).addClass("current");
+      $('#current-sort').removeClass();
+
+      // update filter results header to show current sorting (date or difficulty)
+      if ($(this).attr("data-sort") == "date") {
+        $('#current-sort').text(" {{site.data.snippets.date[page.lang]}} ");
+      }
+      else {
+        $('#current-sort').text(" {{site.data.snippets.difficulty[page.lang]}} ");
+      }
+
+      // if the filter button has class of 'asc', that's what the next click will do. Therefore, the current sorting must be desc
+      if ( $(this).hasClass("asc") ) {
+        $('#current-sort').addClass("sort-desc")
+      }
+      else {
+        $('#current-sort').addClass("sort-asc");
+      }
+  });
+
+  /*
+  Wire up each of the activity filter buttons.
+  */
+  $('.filter.activities').children().click(function() {
+
+    var type = $(this).attr("id").substr(7);
+    //console.log(type);
+
+    featureList.filter(function(item) {
+      if (item.values().activity == type) {
+        return true;
+      } else {
+        return false;
+      }
+    });
     return false;
   });
+
+  /*
+  Wire up each of the topic filter buttons.
+  */
+  $('.filter.topics').children().click(function() {
+
+    var type = $(this).attr("id").substr(7);
+    //console.log(type);
+
+    featureList.filter(function(item) {
+      if (item.values().topics.includes(type)) {
+        return true;
+      } else {
+        return false;
+      }
+    });
+    return false;
+  });
+
+
+  // perform initial, default sort
+  featureList.sort('date', { order: "desc" });
+  //$('#sort-by-date').trigger("click");
+  // restore arrow to next option
 
 };
