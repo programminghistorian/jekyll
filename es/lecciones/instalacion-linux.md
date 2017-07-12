@@ -14,9 +14,18 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 redirect_from: /es/lessons/linux-installation
+difficulty: 1
+activity: transforming
+topics: [get-ready, python]
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Gracias a John Fink por proveer las bases de esta sección. Estas instrucciones son para Ubuntu 12.04 LTS, pero deben funcionar para cualquier distribución y APT como Debian Linux Mint, siempre y cuando tengas instalado [sudo](https://es.wikipedia.org/wiki/Sudo).
 

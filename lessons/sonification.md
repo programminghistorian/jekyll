@@ -1,16 +1,25 @@
 ---
 title: The Sound of Data (a gentle introduction to sonification for historians)
+layout: lesson
+date: 2016-06-07
 authors:
 - Shawn Graham
-date: 2016-06-07
 reviewers:
 - Jeff Veitch
 - Tim Compeau
 editors:
 - Ian Milligan
-layout: default
 difficulty: 2
+activity: transforming
+topics: [distant-reading]
+abstract: "There are any number of guides that will help you visualize the past, but this lesson will help you hear the past."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 # Introduction
 
@@ -156,7 +165,7 @@ When you have multiple voices of data, what stands out? Note that in this approa
 
 # A quick word about getting Python set up
 
-The next section of this tutorial requires Python. If you haven't experimented with Python yet, you will need to spend some time [becoming familiar with the command line (PC) or terminal (OS)](http://programminghistorian.org/lessons/intro-to-bash). You might find this quick [guide to installing python 'modules'](http://programminghistorian.org/lessons/installing-python-modules-pip) handy (but come back to it after you read the rest of this section). 
+The next section of this tutorial requires Python. If you haven't experimented with Python yet, you will need to spend some time [becoming familiar with the command line (PC) or terminal (OS)](/lessons/intro-to-bash). You might find this quick [guide to installing python 'modules'](/lessons/installing-python-modules-pip) handy (but come back to it after you read the rest of this section). 
 
 Mac users will already have Python installed on their machine. You can test this by holding down the COMMAND button and the spacebar; in the search window, type `terminal` and click on the terminal application. At the prompt, eg, the cursor blinking at `$` type `python --version` and the computer will respond with what version of python you have. _This next section of the tutorial assumes Python 2.7; it has not been tested on Python 3_. 
 
@@ -176,10 +185,10 @@ MIDITime is a python package developed by [Reveal News (formerly, the Centre for
 
 While the Musicalgorithms tool has a more-or-less intuitive interface, the investigator sacrifices the ability to know what, exactly, is going on under the hood. In principle, one could examine the underlying code for the MIDITime package to see exactly what's going on. More importantly, the previous tool had no ability to account for data where the points are distant from one another in clock-time. MIDITime lets us take into account that our data might be clustering in time.
 
-Let us assume that you have a historic diary to which you've fitted a [topic model](http://programminghistorian.org/lessons/topic-modeling-and-mallet). The resulting output might have diary entries as rows, and the percentage composition each topic contributes to that entry as the columns. In which case, _listening_ to these values might help you understand the patterns of thought in the diary in a way that visualizing as a graph might not. Outliers or recurrent musical patterns could stand out to the ear in a way the grammar of graphs obscures.
+Let us assume that you have a historic diary to which you've fitted a [topic model](/lessons/topic-modeling-and-mallet). The resulting output might have diary entries as rows, and the percentage composition each topic contributes to that entry as the columns. In which case, _listening_ to these values might help you understand the patterns of thought in the diary in a way that visualizing as a graph might not. Outliers or recurrent musical patterns could stand out to the ear in a way the grammar of graphs obscures.
 
 ### Installing MIDITime
-Installing miditime is straightforward using [pip](http://programminghistorian.org/lessons/installing-python-modules-pip): 
+Installing miditime is straightforward using [pip](/lessons/installing-python-modules-pip): 
 
 `$ pip install miditime` or `$ sudo pip install miditime` for a Mac or Linux machine;
 `> python pip install miditime` on a Windows machine. (Windows users, if the instructions above didn't quite work for you, you might want to try [this helper program](https://sites.google.com/site/pydatalog/python/pip-for-windows) instead to get Pip working properly on your machine).

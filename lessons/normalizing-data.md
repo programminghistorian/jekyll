@@ -1,18 +1,28 @@
 ---
-title: Normalizing Textual Data with Python
+title: Normalizing Textual Data with Python 
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 - Francesca Benatti
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "In this lesson, we will make the list we created in the 'From HTML to a List of Words' lesson easier to analyze by normalizing this data."
 next: counting-frequencies
 previous: from-html-to-list-of-words-2
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson Goals
 
@@ -239,12 +249,12 @@ to make sure you have the correct code.
 
 -   python-lessons4.zip ([zip sync][])
 
-  [From HTML to a List of Words (2)]: ../lessons/from-html-to-list-of-words-2
+  [From HTML to a List of Words (2)]: /lessons/from-html-to-list-of-words-2
   [web page]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-  [From HTML to a List of Words (1)]: ../lessons/from-html-to-list-of-words-1
-  [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
+  [From HTML to a List of Words (1)]: /lessons/from-html-to-list-of-words-1
+  [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
   [Unicode]: http://unicode.org/
   [Python support]: http://www.diveintopython.net/xml_processing/unicode.html
   [Dive into Python]: http://www.diveintopython.net/regular_expressions/index.html
-  [zip]: ../assets/python-lessons3.zip
-  [zip sync]: ../assets/python-lessons4.zip
+  [zip]: /assets/python-lessons3.zip
+  [zip sync]: /assets/python-lessons4.zip

@@ -1,17 +1,27 @@
 ---
 title: From HTML to List of Words (part 2)
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "In this lesson, you will learn the Python commands needed to implement the second part of the algorithm begun in the lesson 'From HTML to a List of Words (part 1)'."
 next: normalizing-data
 previous: from-html-to-list-of-words-1
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson Goals
 
@@ -329,8 +339,8 @@ to make sure you have the correct code.
 
 -   python-lessons3.zip ([zip sync][])
 
-  [From HTML to a List of Words (part 1)]: ../lessons/from-html-to-list-of-words-1
+  [From HTML to a List of Words (part 1)]: /lessons/from-html-to-list-of-words-1
   [integer]: http://docs.python.org/2.4/lib/typesnumeric.html
   [types]: http://docs.python.org/3/library/types.html
-  [zip]: ../assets/python-lessons2.zip
-  [zip sync]: ../assets/python-lessons3.zip
+  [zip]: /assets/python-lessons2.zip
+  [zip sync]: /assets/python-lessons3.zip

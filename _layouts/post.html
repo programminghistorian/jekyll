@@ -2,12 +2,16 @@
 layout: blank
 ---
 
-	     <header>
-			<p class="kicker">{{ page.date | date: "%B %-d, %Y" }}</p>
-			<h1>{{ page.title }}</h1>
-            <p class="byline">{% include author.html %}</p>
-		 </header>
+{% comment %}
+  This is the standard template used by all blog posts.
+{% endcomment %}
 
-      {{ content }}
+<div class="blog-header blog-page-header">
+  <h3 class="above-title">{{page.date | date: "%B %-d, %Y"}}</h3>
+  <h1>{{ page.title }}</h1>
+  <h2 class="author-name">{% include author.html %}</h3>
+</div>
 
-      {% include author-info.html %}
+{{ content }}
+
+{% include author-info.html %}

@@ -14,9 +14,18 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
+difficulty: 1
+activity: transforming
+topics: [python, get-ready]
 redirect_from: /es/lessons/introduction-and-installation
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Objetivos de la lección
 ------------

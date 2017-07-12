@@ -1,117 +1,578 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 @media screen {
 
-  /* =============================================================================
-     HTML5 display definitions
-     ========================================================================== */
-
-  article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
-  audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
-  audio:not([controls]) { display: none; }
-  [hidden] { display: none; }
-
-
-  /* =============================================================================
-     Base
-     ========================================================================== */
-
-  /*
-   * Sets box sizing to the border of the box. 
-   */
-  * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-  /*
-   * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
-   * 2. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
-   */
-
-  html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-
-  html, button, input, select, textarea { font-family: sans-serif; color: #222; }
-
-  body { margin: 0; font-size: 1em; line-height: 1.4; }
-
-  /*
-   * Remove text-shadow in selection highlight: h5bp.com/i
-   * These selection declarations have to be separate
-   * Also: hot pink! (or customize the background color to match your design)
-   */
-
-  ::-moz-selection { background: #3af; color: #fff; text-shadow: none; }
-  ::selection { background: #3af; color: #fff; text-shadow: none; }
-
-
-  /* =============================================================================
-     Links
-     ========================================================================== */
-
-  a:hover, a:active, a:focus { outline: 0; }
-
-.github {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  color: #222;
-  font-size: 0.9em;
+  body {
+    font-family: 'Quattrocento', Verdana, sans-serif;
+    font-size:16px;
+    background-color:#ffffff;
   }
 
-.github a {text-decoration: none;}
-
-.github img {
-  height: 30%;
-  margin: 0 0.4em;
+  .container {
+    max-width: 48rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
-  .github a:link {color: #999;}
-  .github a:visited {color: #999;}
-  .github a:hover {color: #222;}
-  .github a:active {color: #222;}
 
-.header-link {
-  position: absolute;
-  right: 0.6em;
-  opacity: 0;
+/* =============================================================================
+Helper classes
+========================================================================== */
 
-  -webkit-transition: opacity 0.2s ease-in-out 0.1s;
-  -moz-transition: opacity 0.2s ease-in-out 0.1s;
-  -ms-transition: opacity 0.2s ease-in-out 0.1s;
-}
+  .noclear {
+    clear:none;
+  }
 
-h2:hover .header-link,
-h3:hover .header-link,
-h4:hover .header-link,
-h5:hover .header-link,
-h6:hover .header-link {
-  opacity: 1;
-}
+  .expanded {
+    max-width: 58rem;
+  }
 
-  /* =============================================================================
-     Typography
-     ========================================================================== */
+  .garnish {
+    width: 23%;
+    padding:0;
+  }
 
-  abbr[title] { border-bottom: 1px dotted; }
+  .full-width {
+    width:80%;
+    margin: 0 auto;
+    text-align:center;
+  }
+
+  .float-right {
+    float:right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .float-left {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+
+/* =============================================================================
+Home Page
+========================================================================== */
+
+  .home-block {
+    padding:3rem 0;
+    color:#666;
+  }
+
+  .home-block h2 {
+    margin:0;
+    font-size:2.8rem;
+    color:#333;
+    text-align:center;
+  }
+
+  .home-block p {
+    margin:0rem;
+    font-family:'Open Sans';
+    font-size:1.2rem;
+    padding-top:2rem;
+    text-align:justify;
+  }
+
+  .home-block a:visited {
+    color: #38c;
+  }
+
+  .home-stripe-1 {
+    color:#eee;
+    background:#27b;
+  }
+
+  .home-stripe-1 h2, .home-stripe-2 h2 {
+    color:#fff;
+  }
+
+  .home-stripe-1 a:visited, .home-stripe-1 a:link {
+    color:#6bf;
+  }
+
+  .home-stripe-2 {
+    color:#fff;
+    background:#289;
+  }
+
+  .home-stripe-2 a:visited, .home-stripe-2 a:link {
+    color:#6cd;
+  }
+
+
+
+/* =============================================================================
+Lesson Headers
+========================================================================== */
+
+  header {
+    margin:-3rem 0 3rem 0;
+    padding:0;
+    font-family:'Roboto', sans-serif;
+    color:#ccc;
+    background: #efefef;
+    border-top:1px solid #333;
+    border-bottom:1px solid #333;
+    text-align:left;
+  }
+
+  header .container-fluid {
+    margin:0;
+    padding:1rem;
+    background: #f5f5f5;
+  }
+
+  header h1 {
+    margin:0;
+    padding:0;
+    font-size:1.8rem;
+    text-align:left;
+  }
+
+  header h2 {
+    font-family:'Roboto', sans-serif;
+    font-size:1.2rem;
+    color:#333;
+    margin: 1.5rem 0 1.5rem 0rem;
+    text-align:left;
+  }
+
+  header h3, header h4 {
+    font: .9rem/1.1rem 'Roboto Condensed', sans-serif;
+    text-transform:uppercase;
+    font-variant:small-caps;
+    letter-spacing:80%;
+    color:#666;
+    margin:.3rem 0 0 0;
+    padding:0;
+  }
+
+  header h4 {
+    display:inline;
+    margin:0;
+    line-height:1.3rem;
+  }
+
+  header .header-image {
+    float:left;
+    border:.2rem solid gray;
+    margin:0;
+    padding:0;
+  }
+
+  header .header-abstract {
+    font: 1rem/1.4rem 'Roboto', sans-serif;
+    color:#666;
+    margin:1rem 0;
+    text-align: justify;
+  }
+
+  header .header-helpers {
+    clear:both;
+    background:#ccc;
+    color:#fff;
+    border-top:1px solid #999;
+    border-bottom:1px solid #999;
+  }
+
+  header ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+  }
+
+  header li, header .metarow {
+    font: .9rem/1.1rem 'Roboto Condensed';
+    margin: 0;
+  }
+
+  header .metarow {
+    color:#999;
+  }
+
+
+/* =============================================================================
+Lessons Index
+========================================================================== */
+
+/*****************
+  FILTER BUTTONS
+******************/
+  ul.filter, ul.sort-by {
+    margin: 0 0 1rem 0;
+    padding: 0px;
+    text-align:center;
+  }
+
+  li.filter,
+  li.sort,
+  #filter-none {
+    font: .9rem/1.1rem 'Open Sans', sans-serif;
+    padding: .4rem .6rem;
+    border:none;
+    border-radius: 3px;
+    display:inline-block;
+    text-transform:uppercase;
+    text-decoration: none;
+  }
+
+  .filter li:hover,
+  .sort-by li:hover,
+  #filter-none:hover {
+    cursor: pointer;
+  }
+
+  .activities li.current:hover,
+  .filter li.current:hover,
+  .sort-by li.current:hover {
+    cursor:default;
+  }
+
+  .topic li a {
+    text-decoration: none;
+  }
+
+  .activities li {
+    background-color:#38c;
+    color:#fff;
+  }
+
+  .activities li:hover {
+    background-color:#16a;
+  }
+
+  .activities li.current {
+    background-color:#059;
+  }
+
+  .topics li {
+    background-color:#eee;
+    color: #38a;
+  }
+
+  .topics li:hover {
+    background-color:#ccc;
+  }
+
+  .topics li.current {
+    background-color:#aaa;
+    color: #333;
+  }
+
+
+  #filter-none {
+    width:99.5%;
+    clear:both;
+    text-align:center;
+    margin-bottom:1rem;
+    background-color:#fefefe;
+    color:#666;
+    border:1px solid #999;
+  }
+
+  #filter-none:hover {
+    background-color:#ededed;
+  }
+
+
+  /*****************
+    SORT BUTTONS
+  *****************/
+
+  li.sort {
+    background-color: #efefef;
+    color:#666;
+    width:49.5%;
+  }
+
+  li.sort:hover {
+    text-decoration: none;
+    background-color:#cecece;
+  }
+
+  #current-sort {
+    font-size:75%;
+  }
+
+  .sort.asc:after, .sort-asc:after {
+    width: 0;
+    height: 0;
+    border-left: .4rem solid transparent;
+    border-right: .4rem solid transparent;
+    border-top: .4rem solid;
+    content:"";
+    position: relative;
+    top:.75rem;
+    right:-.3rem;
+  }
+
+  .sort.desc:after, .sort-desc:after {
+    width: 0;
+    height: 0;
+    border-left: .4rem solid transparent;
+    border-right: .4rem solid transparent;
+    border-bottom: .4rem solid;
+    content:"";
+    position: relative;
+    bottom:.75rem;
+    right:-.3rem;
+  }
+
+
+  .sort-asc:after {
+    top:1rem;
+  }
+
+  .sort-desc:after {
+    bottom:1rem;
+  }
+
+  /*****************************
+    LESSON INDEX RESULTS LIST
+  *****************************/
+
+   h2.results-title {
+     margin:1rem 0;
+     font: 1.6rem/2rem 'Roboto Condensed';
+     color:#666;
+     text-transform:uppercase;
+   }
+
+   #results-value {
+     color:#000;
+   }
+
+
+  #lesson-list .list ul {
+    margin:0;
+    padding:0;
+  }
+
+  #lesson-list .list li {
+    list-style-type:none;
+    margin:0;
+  }
+
+
+  .lesson-description {
+    margin-bottom:2rem;
+    padding:0rem;
+    min-height:120px;
+    text-align:left;
+  }
+
+  .lesson-description img {
+      width:100%;
+  }
+
+  .lesson-image {
+    width:120px;
+    float:left;
+    margin-right:1rem;
+  }
+
+  .above-title {
+    margin:0 0 .2rem 0;
+    font: .8rem/1rem 'Roboto Condensed';
+    color:#999;
+    text-transform:uppercase;
+    clear:none;
+  }
+
+  .lesson-description h2.title {
+    font: 1.2rem/1.3rem 'Crete Round', serif;
+    margin:0 0 .8rem 0;
+    clear:none;
+  }
+
+  p.abstract {
+    font: .8rem/1.2rem 'Open Sans', sans-serif;
+    margin:0;
+  }
+
+  .list .date,
+  .lesson-description .activity,
+  .lesson-description .topics,
+  .lesson-description .difficulty {
+    display: none;
+  }
+
+
+/* =============================================================================
+Top Navigation Bar
+========================================================================== */
+
+  .navbar {
+    background-color:#555;
+    padding: .6rem 1rem;
+    margin: 0 0 3rem 0;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-family:'Open Sans';
+    text-transform:uppercase;
+    color:#ccc;
+    font-size:.9rem;
+  }
+
+  .lang {
+    text-transform:lowercase !important;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover {
+    color:#39a;
+  }
+
+  .navbar-collapse {
+    text-align:center;
+  }
+
+  .navbar-light .navbar-brand {
+    font-family:'Crete Round', serif;
+    color:#ccc;
+    letter-spacing: .02em;
+  }
+
+  a.dropdown-item {
+    border-bottom:1px solid #ccc;
+    font-family:'Roboto';
+  }
+
+  .dropdown-menu {
+  	position: absolute;
+  	background: #fff;
+  	border: 1px solid #ccc;
+    margin:0;
+    padding:0;
+  }
+
+  .dropdown-menu a {
+  	font-size:.8rem;
+    line-height:2rem;
+    text-transform:uppercase;
+  }
+
+  .dropdown-menu a:last-child {
+    border-bottom:none;
+  }
+
+  .dropdown-menu:after, .dropdown-menu:before {
+  	bottom: 100%;
+  	left: 20%;
+  	border: solid transparent;
+  	content: " ";
+  	height: 0;
+  	width: 0;
+  	position: absolute;
+  	pointer-events: none;
+  }
+
+  .dropdown-menu:after {
+  	border-color: rgba(255, 255, 255, 0);
+  	border-bottom-color: #fff;
+  	border-width: 12px;
+  	margin-left: -12px;
+  }
+  .dropdown-menu:before {
+  	border-color: rgba(51, 153, 170, 0);
+  	border-bottom-color: #ccc;
+  	border-width: 13px;
+  	margin-left: -13px;
+  }
+
+  .navbar-light .navbar-nav .nav-link:focus {
+    color: #ccc;
+  }
+
+  .header-link {
+    position: absolute;
+    right: 0.6em;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+    -moz-transition: opacity 0.2s ease-in-out 0.1s;
+    -ms-transition: opacity 0.2s ease-in-out 0.1s;
+  }
+
+  h2:hover .header-link,
+  h3:hover .header-link,
+  h4:hover .header-link,
+  h5:hover .header-link,
+  h6:hover .header-link {
+    opacity: 1;
+  }
+
+/* =============================================================================
+Lesson Typography
+========================================================================== */
+
+  a {text-decoration:none;}
+
+  a:link {color: #38c;}
+  a:visited {color: #39a;}
+  a:hover {color: #555;}
+  a:active {color: #555;}
 
   b, strong { font-weight: bold; }
 
   blockquote { margin: 1em 2em; padding: 0 1em 0 1em; font-style: italic; border:1px solid #666; background: #eeeeee; text-align:justify;}
 
-  dfn { font-style: italic; }
+  hr {
+    display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 2em 0; padding: 0; }
 
-  hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+  img {
+    max-width:100%;
+  }
 
   ins { background: #ff9; color: #000; text-decoration: none; }
 
-  mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
 
-  /* Redeclare monospace font family: h5bp.com/j */
-  pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em;}
+  h1,h2,h3,h4,h5 {
+    font-family:'Crete Round', serif;
+    font-weight:normal;
+    clear:both;
+  }
 
-  code {font-size: 80%; padding: 0 0.5em;}
 
-  /* Improve readability of pre-formatted text in all browsers */
-  pre { white-space: pre; word-wrap: normal; overflow: auto; margin:0; padding:1em 1em; border: 1px solid #eee;}
+  h1 {
+    font-size:2rem;
+    margin-bottom:1.5rem;
+    letter-spacing:-.03rem;
+    text-align:center;
+  }
 
-  pre code {padding: 0;}
+  h2 {
+    font-size:1.6rem;
+    margin-top:3rem;
+    letter-spacing:-.02rem;
+  }
+
+  h3 {
+    font-size:1.4rem;
+    margin-top:2.5rem;
+  }
+
+  h4 {
+    font-size:1.2rem;
+    margin-top:1.8rem;
+  }
+
+  h5 {
+    font-size:1.0rem;
+    margin-top:1.4rem;
+  }
+
+  h1 a, h2 a, h3 a, h4 a, h5 a {
+    text-decoration:none;
+  }
+
+  h1 a:link { color: #38c; }
+  h1 a:visited {color: #39a; }
+
 
   /* select button generated by codeblocks.js */
   .fa-align-left {opacity: 0.2;}
@@ -127,772 +588,183 @@ h6:hover .header-link {
   sup { top: -0.5em; }
   sub { bottom: -0.25em; }
 
-
-  /* =============================================================================
-     Lists
-     ========================================================================== */
-
-  ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
-  dd { margin: 0 0 0 40px; }
-  nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
-  li {padding-bottom: .5em}
-
-  /* =============================================================================
-     Embedded content
-     ========================================================================== */
-
-  /*
-   * 1. Improve image quality when scaled in IE7: h5bp.com/d
-   * 2. Remove the gap between images and borders on image containers: h5bp.com/i/440
-   */
-
-  img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
-
-  /*
-   * Correct overflow not hidden in IE9
-   */
-
-  svg:not(:root) { overflow: hidden; }
-
-
-  /* =============================================================================
-     Figures
-     ========================================================================== */
-
-  figure { margin: 0; }
-
-
-  /* =============================================================================
-     Forms
-     ========================================================================== */
-
-  form { margin: 0; }
-  fieldset { border: 0; margin: 0; padding: 0; }
-
-  /* Indicate that 'label' will shift focus to the associated form element */
-  label { cursor: pointer; }
-
-  /*
-   * 1. Correct color not inheriting in IE6/7/8/9
-   * 2. Correct alignment displayed oddly in IE6/7
-   */
-
-  legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
-
-  /*
-   * 1. Correct font-size not inheriting in all browsers
-   * 2. Remove margins in FF3/4 S5 Chrome
-   * 3. Define consistent vertical alignment display in all browsers
-   */
-
-  button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
-
-  /*
-   * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
-   */
-
-  button, input { line-height: normal; }
-
-  /*
-   * 1. Display hand cursor for clickable form elements
-   * 2. Allow styling of clickable form elements in iOS
-   * 3. Correct inner spacing displayed oddly in IE7 (doesn't effect IE6)
-   */
-
-  button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
-
-  /*
-   * Re-set default cursor for disabled elements
-   */
-
-  button[disabled], input[disabled] { cursor: default; }
-
-  /*
-   * Consistent box sizing and appearance
-   */
-
-  input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
-  input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
-  input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
-
-  /*
-   * Remove inner padding and border in FF3/4: h5bp.com/l
-   */
-
-  button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
-
-  /*
-   * 1. Remove default vertical scrollbar in IE6/7/8/9
-   * 2. Allow only vertical resizing
-   */
-
-  textarea { overflow: auto; vertical-align: top; resize: vertical; }
-
-  /* Colors for form validity */
-  input:valid, textarea:valid {  }
-  input:invalid, textarea:invalid { background-color: #f0dddd; }
-
-
-  /* =============================================================================
-     Tables
-     ========================================================================== */
-
-/* from Bret Terpstra's Marked style */
-/* https://github.com/ttscoff/MarkedCustomStyles/blob/master/default_styles/swiss.css */
-
-col, colgroup, table, tbody, td, tfoot, th, thead, tr {
-  border-spacing: 0; }
-
-table {
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  border-collapse: collapse;
-  display: table;
-  empty-cells: hide;
-  margin: -1px 0 1.3125em;
-  padding: 0;
-  table-layout: fixed; }
-
-col {
-  display: table-column; }
-
-colgroup {
-  display: table-column-group; }
-
-tbody {
-  display: table-row-group; }
-
-tfoot {
-  display: table-footer-group; }
-
-thead {
-  display: table-header-group; }
-
-td, th {
-  display: table-cell; }
-
-tr {
-  display: table-row; }
-
-table th, table td {
-  font-size: 1.1em;
-  line-height: 23px;
-  padding: 0 1em; }
-
-table thead {
-  background: rgba(0, 0, 0, 0.15);
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
-
-table tbody {
-  background: rgba(0, 0, 0, 0.05); }
-
-table tfoot {
-  background: rgba(0, 0, 0, 0.15);
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-top: 1px solid rgba(0, 0, 0, 0.2); }
-
-  html {
-      border-top: 1em solid rgba(0,0,0,0.05);
-      margin:0; padding:0;
+  li {
+    margin-bottom:.5rem;
+    line-height:1.4rem;
   }
 
-  body {
-      border-top: 1px solid rgba(0,0,0,0.1);
-      font-family: 'Lato', Verdana, sans-serif;
-      font-weight: 300;
-      color: #555;
-      padding: 2em;
-       
-  }
-
-
-  a:link {color: #38c;}
-  a:visited {color: #39a;}
-  a:hover {color: #555;}
-  a:active {color: #555;}
-
-  h1,h2,h3 {
-    font-family:'Crete Round', serif;
-    text-align:center;
-    font-weight:normal;
-  }
-
-  h1 {
-    font-size: 2em;
-  }
-
-  h1 a,
-  h2 a,
-  h3 a {
-    text-decoration:none;
-  }
-
-  h1 a:link { color: #38c; }
-  h1 a:visited {color: #39a; }
-
-  h3 {
-    font-size:1.25em;
-  }
-
-  h4,h5 {
-    font-size: 1em;
-    padding-bottom: 0em;
-    margin-bottom: -.8em;
-  }
-
-  h5 {
-    font-style: italic;
-  }
-
-  article h2,
-  article h3,
-  article h4,
-  article h5,
-  article h6 {
-    margin-top: 2em;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  form {
-    font-size:0.9em;
-    color: #555;
-  }
-
-  .navigation {
-    list-style:none;
-    padding-left:0;
-  }
-
-  .pager {
-    overflow:hidden;
-    zoom:1;
-  }
-
-  .pager li {
-    float:left;
-    width: 48%;
-  }
-
-  .pager li.next {
-    float:right;
-    text-align:right;
-  }
-
-  .pager a {
-    text-decoration:none;
-  }
-
-  .kicker {
-    font-size:0.8em;
+  li.nav-item {
     margin-bottom:0;
-    color: #999;
   }
 
-  .kicker + * {
+  .alert {
+    font-family: 'Roboto';
+  }
+
+  .alert h3, .alert h4 {
     margin-top:0;
   }
 
-  .byline {
-    text-align:center;
-    margin:0;
-    color: #777;
-    font-weight: 700;
-    font-size: 1.2em;
+
+/* =============================================================================
+Code Highlighting
+========================================================================== */
+
+  code {
+    font-family: monospace, serif;
+    font-size:.9rem;
   }
 
-  .deprecated {
-    text-align:center;
-    margin:0;
-    color: #F44336;
-    font-weight: 700;
-    font-size: 1em;
+  .highlight {
+    margin: 1rem 0 1rem 0;
+    padding:.5rem .2rem;
+    font-size:.9rem;
+    white-space: pre;
+    word-wrap: normal;
+    overflow: auto;
+    border: 1px solid #eee;
+    background: #fafafa;
   }
 
-  /*Editor's Comments during Review */
-  .editor{color: red;}
 
-  /* first instance of a technical term */
-  .tech {font-style: italic;}
+/* =============================================================================
+Figures
+========================================================================== */
 
-  /* filenames, file paths, menu paths; variable names, function names, parameters; titles of publications */
-  .filename, .var, .pub {font-style: italic;}
-
-  /* words that are part of a programming language's code. eg, if, for, while, etc */
-  .reserved {font-family: monospace;}
-
-  /* a value the user has to input themselves. */
-  .userinput {font-family: monospace;}
-
-  /* Contain floats: h5bp.com/q */
-  .clearfix:before, .clearfix:after { content: ""; display: table; }
-  .clearfix:after { clear: both; }
-  .clearfix { *zoom: 1; }
-
-  header[role="banner"] {
-    margin-bottom: 2em;
-    padding-bottom: 2em;
-    border-bottom: 1px solid #eee;
+  figure {
+    margin: 0 auto;
+    text-align: center;
+    display:table;
   }
 
-  header[role="banner"] h1 {
-    font-size: 1.5em;
-  }
-
-  header[role="banner"] h1 a {
-    color: #555;
-  }
-  
-  article:not(:first-child):before {
-      content: " â€” Â·Â·Â· â€”";
-      display:block;
-      color: rgba(0,0,0,0.2);
-      text-align:center;
-      margin: 1em 0;
-  }
-
-  article .kicker {
-    text-align:center;
-  }
-
-  article figure {
-    margin:2em 0;
-    text-align:center;
-    display:block;
-  }
-
-  article figure img {
-    margin-bottom: 0.5em;
-  }
-
-  article figcaption {
+  figcaption {
+    margin-top:.2rem;
+    font-family:'Open Sans';
     font-size:0.8em;
-    color: #777;
+    color: #666;
+    display:table-caption;
+    caption-side: bottom;
+    text-align: justify;
   }
 
-  .credits {
-    list-style:none;
-    padding-left:0;
-    text-align:center;
-    font-style:italic;
-    font-size: 85%;
-    font-weight: 400;
+  .author-info {
+    border-top:1px solid #333;
+    padding-top:1rem;
+    margin-top:2rem;
   }
 
-  .post-info h2 {
-    font-family:'Crete Round', serif;
-    text-align:left;
-    font-weight:normal;
-	margin: 0.25em 140px;
-  }
-
-  .post-info .kicker {
-    text-align:left;
-	margin: 0.25em 140px;
-  }
-
-  .author-info,
-  .citation-info,
-  .credits {
-    border:1px dotted #ccc;
-    border-width: 1px 0;
-    margin: 2em 0;
-    padding: 0.8em 0;
-    overflow:hidden;
-    *zoom:1;
-  }
-
-  .author-picture {
-    float:left;
-  }
-
-  .author-name,
-  .citation-head,
-  .author-description,
-  .suggested-citation,
-  .all-posts {
-    display:block;
-    margin: 0.25em 140px;
-  }
-
-  .contact-box {
-    display: block;
-	width: 100%;
-	clear: both;
-  }
-
-  .citation-head,
   .author-name {
+    font-family:'Roboto Condensed';
     font-weight: 600;
-    color: #999;
+    font-size:1.2rem;
+    color: #666;
+    text-transform:uppercase;
   }
 
-  .author-description p,
-  .suggested-citation,
-  .all-posts {
-    font-size:0.8em;
+  .author-description p {
+    font-size:0.9rem;
+    font-family:'Open Sans';
+    color: #666;
   }
-  
-  .additional ul {
-    list-style:none;
-    padding-left:0;
-    margin-left:0;
+
+
+/* =============================================================================
+Blog Index and Layout
+========================================================================== */
+
+  .blog-header {
     text-align:center;
-    font-size: 0.9em;
   }
 
-  .additional ul li {
-    display:inline;
+  .blog-header h2 {
+    margin:0;
+    line-height: 2rem;
   }
 
-  .additional li:not(:first-child):before {
-    content: " · ";
+  .blog-header h3 { /*author*/
+    margin-top:.4rem;
+    color: #666;
+    font-size:1rem;
+  }
+
+  .blog-header h4{
     color: #999;
+    font-size:1rem;
+    margin-bottom:.2rem;
+    font-family:'Roboto Condensed';
+    text-transform:uppercase;
   }
 
-  .additional a {
-    text-decoration:none;
+  .blog-header figure {
+    max-width:80%;
   }
 
-  .gist {
-    margin:2em 0;
+  .blog-header figcaption {
+    text-align: center;
   }
 
-  .gist .gist-meta {
-    font-size: 0.6em !important;
-    padding: 10px 20px !important;
-    color: #999 !important;
+  .blog-page-header {
+    margin-bottom:3rem;
   }
 
-  .gist .line_numbers span {
-    display:none;
-  }
+/* =============================================================================
+Project Team
+========================================================================== */
 
   .avatar {
     float: left;
-	margin: 0 15px 40px 0;
-	width: 100px;
-  }
-  .toc-author {
-    display: block;
-	float: right;
-	font-size: 0.8em;
+    margin: 0 2rem 0 0;
+    width: 15%;
   }
 
-  .lessons-list ul {
-    list-style:none;
-    padding-left:0;
+  .contact-box {
+    margin-bottom:3rem;
   }
 
-  .lessons-list li {
-    margin-bottom:1em;
+
+/* =============================================================================
+Footer
+========================================================================== */
+
+  footer[role="contentinfo"] {
+    margin-top: 2rem;
+    padding: 2rem 0;
+    font-family:'Open Sans';
+    font-size:.9rem;
+    color:#ccc;
+    background-color:#666;
+    text-align:center;
   }
 
-  .lessons-list li a.permalink {
-    text-decoration:none;
-    font-weight:bold;
+  footer a, footer a:link, footer a:visited {
+    color: #fff;
+    border-bottom:1px #eee dotted;
   }
 
-  .lessons {
-    list-style:none;
-    padding:0;
-    margin:0;
-    overflow:hidden;
-    zoom:1;
-  }
-
-  .lessons > li {
-    margin-bottom:2em;
-    font-size: 1.1em;
-    font-weight:bold;
-  }
-
-  .lessons > li > a {
-    text-decoration:none;
-    display:block;
-    margin-bottom:0.25em;
-  }
-
-  .lessons ul {
-    margin:0;
-  }
-
-  .lessons > li > ul {
-    font-size: 0.75em;
-    font-weight:normal;
-    padding-left: 1.25em;
-  }
-
-  ul.lesson-images {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  ul.lesson-images li {
-    width: 200px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 0 2.5% 2.5%;
-    padding: 0;
-  }
-
-  ul.lesson-images li a {
+  footer a:hover {
     text-decoration: none;
+    border-bottom:1px #fff solid;
   }
 
-  ul.lesson-images li a img {
-    box-shadow: 0 0 5px #c0c0c0;
-    width: 200px;
+  footer .fa {
+    margin: 0 .2rem 0rem 0rem;
   }
 
-  ul.lesson-images h3 {
-    font-size: 1em;
-    font-weight: bold;
-    text-align: left;
-    margin: 0 0 5px;
-    padding: 0;
+  .footer-head {
+    font-size:1.1rem;
+    line-height:1.4rem;
+    margin-bottom:1rem;
   }
 
-  ul.lesson-images p {
-    font-size: 0.9em;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-  
-  section.category {
-    overflow:hidden;
-    zoom:1;
-  }
+} /* end screen */
 
-  section.category + section {
-    border-top: 1px dotted #ccc;
-    padding-top: 2em;
-  }
-
-  section.category h2 {
-    margin-top:0;
-    float:left;
-    width: 48%;
-    text-align:left;
-  }
-
-  section.category .lessons {
-    float:right;
-    width: 48%;
-    clear:right;
-  }
-  article footer {
-    overflow:hidden;
-    zoom:1;
-  }
-
-  article .pager {
-    border-bottom: 1px dotted #ccc;
-    padding-top:1em;
-    padding-bottom:2em;
-    margin-bottom: 1em;
-  }
-
-  article .previous {
-    float:left;
-    width: 48%;
-    text-align:left;
-  }
-
-  article .previous .kicker {
-    text-align:left;
-    margin:0;
-  }
-
-  article .next {
-    float:right;
-    width: 48%;
-    text-align:right !important;
-  }
-
-  article .next .kicker {
-    text-align:right;
-    margin:0;
-  }
-
-  article .pager a {
-    text-decoration:none;
-    font-weight: bold;
-  }
-
-  .syntaxhighlighter {
-    border: 1px solid #ccc;
-    padding: 1em 0;
-  }
-
-  /* This is ridiculous. Thanks syntaxhighlighter. */
-  .syntaxhighlighter table tbody td {
-    font-size: 85% !important;
-  }
-
-  #respond {
-    clear:both;
-    margin-top:4em;
-  }
-
-  .commentlist,
-  .commentlist ul {
-    list-style:none;
-  }
-
-  .commentlist {
-    font-size:0.9em;
-    padding-left:0;
-  }
-
-  .commentlist > li+li {
-    border-top:1px solid #eee;
-  }
-
-  .commentlist li {
-    background: #fafafa;
-    padding: 1em;
-  }
-
-  .commentlist li li {
-    background: rgba(255,255,255,0.5);
-  }
-
-  .commentlist img.avatar {
-    float:right;
-    margin-left: 1em;
-  }
-
-  .fa {
-    margin-top: 0.4em;
-    margin-right: 0.4em;
-  }
-
-  a:link .fa {color: #999;}
-  a:visited .fa {color: #999;}
-  a:hover .fa {color: #222;}
-  a:active .fa {color: #222;}
-
-  .commentlist .says,
-  .commentmetadata {
+@media only screen and (max-width: 768px) {
+  .garnish {
     display:none;
   }
-
-  .commentlist cite {
-    font-style:normal;
-    font-weight:bold;
+  .dropdown-menu:after, .dropdown-menu:before {
+    display:none;
   }
-
-  .commentlist .reply {
-    text-align:right;
-    font-size:0.9em;
-    margin-bottom:1em;
-  }
-
-  footer[role="contentinfo"] {
-    text-align:center;
-    margin-top: 2em;
-    border-top: 1px solid #eee;
-  }
-
-  footer[role="contentinfo"] p {
-    font-size: 0.9em;
-    color: #999;
-  }
-
-  #logos {
-    overflow:hidden;
-    zoom:1;
-    padding-top: 2em;
-    margin-top: 1em;
-    border-top: 1px solid #eee;
-  }
-
-  #logos a {
-    display:block;
-    float:left;
-    width: 35%;
-  }
-
-  #logos a:link,
-  #logos a:visited {
-    opacity: 0.75;
-  }
-
-  #logos a:hover,
-  #logos a:focus,
-  #logos a:active {
-    opacity: 1;
-  }
-
-
-  #logos #rrchnm {
-    float:right;
-  }
-
-}
-
-@media screen and (min-width: 480px) {
-
-  body {
-    font-size:120%;
-  }
-
-  .unavailable header[role="banner"],
-  .unavailable div[role="main"] {
-    max-width: 480px;
-    margin-left:auto;
-    margin-right:auto;
-  }
-
-}
-
-@media screen and (min-width: 700px) {
-
-  body {
-    position:relative;
-  }
-
-  header[role="banner"],
-  div[role="main"],
-  footer[role="contentinfo"] {
-    max-width: 700px;
-    margin-left:auto;
-    margin-right:auto;
-  }
-
-}
-
-@media screen and (min-width: 1000px) and (min-height: 500px) {
-
-  .single-lesson .pager {
-    opacity: 0.5;
-  }
-
-  .single-lesson .pager:hover {
-    opacity: 1;
-  }
-
-  .single-lesson .previous,
-  .single-lesson .next {
-    display:block;
-    position:fixed !important;
-    width: 100px;
-    top: 275px;
-    font-size: 80%;
-  }
-
-  .single-lesson .previous {
-    margin-left: -160px;
-  }
-  .single-lesson .next {
-    margin-left: 760px;
-  }
-
 }
 
 @media print {
@@ -908,5 +780,4 @@ table tfoot {
   @page { margin: 0.5cm; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
-  
 }

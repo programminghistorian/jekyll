@@ -1,0 +1,11 @@
+{% comment %}
+Loops through members of editorial team and then generates their contact info using the contact-info.html include. This is used both on project-team.md as well as es/equipo-de-proyecto.md
+{% endcomment %}
+
+{% assign teammembers = site.data.authors | sort: "sortname" %}
+{% for member in teammembers %}
+  {% if member.team == true %}
+    {% capture membername %}{{ member.name }}{% endcapture %}
+    {% include contact-info.html name=membername %}
+  {% endif %}
+{% endfor %}

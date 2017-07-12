@@ -1,17 +1,27 @@
 ---
-title: Keywords in Context (Using n-grams) with Python
+title: Keywords in Context (Using n-grams) with Python 
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: presenting
+topics: [python]
+abstract: "This lesson takes the frequency pairs collected in [Counting Frequencies][] and outputs them in HTML."
 next: output-keywords-in-context-in-html-file
 previous: output-data-as-html-file
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson Goals
 
@@ -249,9 +259,9 @@ path to the directory on your own computer.
 
 -   python-lessons8.py ([zip sync][])
 
-  [Output Data as HTML File]: ../lessons/output-data-as-html-file
-  [Counting Frequencies]: ../lessons/counting-frequencies
+  [Output Data as HTML File]: /lessons/output-data-as-html-file
+  [Counting Frequencies]: /lessons/counting-frequencies
   [1]: output-data-as-html-file
-  [zip file from the previous lesson]: ../assets/python-lessons7.zip
-  [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
-  [zip sync]: ../assets/python-lessons8.zip
+  [zip file from the previous lesson]: /assets/python-lessons7.zip
+  [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
+  [zip sync]: /assets/python-lessons8.zip

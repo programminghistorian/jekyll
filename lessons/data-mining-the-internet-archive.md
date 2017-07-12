@@ -1,24 +1,25 @@
 ---
 title: Data Mining the Internet Archive Collection
+layout: lesson
+date: 2014-03-03
 authors:
 - Caleb McDaniel
-date: 2014-03-03
 reviewers:
 - Adam Crymble
 editors:
 - William J. Turkel
-layout: default
+- Adam Crymble
 difficulty: 2
-abstract: |
-    The collections of the Internet Archive include many digitized
-    historical sources. Many contain rich bibliographic data in a
-    format called MARC. In this lesson, you'll learn how to use Python
-    to automate the downloading of large numbers of MARC files from
-    the Internet Archive and the parsing of MARC records for specific
-    information such as authors, places of publication, and dates. The
-    lesson can be applied more generally to other Internet Archive files
-    and to MARC records found elsewhere.
+activity: acquiring
+topics: [web-scraping]
+abstract: "The collections of the Internet Archive include many digitized historical sources. Many contain rich bibliographic data in a format called MARC. In this lesson, you'll learn how to use Python to automate the downloading of large numbers of MARC files from the Internet Archive and the parsing of MARC records for specific information such as authors, places of publication, and dates. The lesson can be applied more generally to other Internet Archive files and to MARC records found elsewhere."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Lesson Goals
 ------------
@@ -72,14 +73,7 @@ manager. Begin by installing `pip` using Fred Gibbs' [Installing Python Modules 
 sudo pip install internetarchive
 ```
 
-You'll next want to install the `pymarc` package, which also needs version 1.9.0 of `six`, another Python package, also installed.[^1]
-To make sure your system has the latest version of `six`, first try:
-
-``` bash
-sudo pip install --upgrade six
-```
-
-Then, to install `pymarc`:
+To install `pymarc`:
 
 ``` bash
 sudo pip install pymarc
@@ -640,8 +634,6 @@ analyze which subjects are common in the MARC records. Now that you have
 the MARC records downloaded and can use `pymarc` to extract information
 from the fields, the possibilities can multiply rapidly!
 
-[^1]: Thanks to [Shawn Graham](https://hypothes.is/a/AVKeGm0rvTW_3w8Lypo1) for pointing out the `pymarc` dependency on `six` and providing a solution.
-
   [Internet Archive]: http://archive.org/
   [early JSTOR journal content]: https://archive.org/details/jstor_ejc
   [John Adams's personal library]: https://archive.org/details/johnadamsBPL
@@ -664,15 +656,15 @@ from the fields, the possibilities can multiply rapidly!
   [search the Archive using the Python module that we installed]: https://pypi.python.org/pypi/internetarchive#searching-from-python
   [the advanced search for the collection]: http://archive.org/search.php?query=collection%3Abplscas
   [downloading]: https://pypi.python.org/pypi/internetarchive#downloading-from-python
-  [remember those?]: ../lessons/code-reuse-and-modularity
+  [remember those?]: /lessons/code-reuse-and-modularity
   [item files are named according to specific rules]: https://archive.org/about/faqs.php#140
   [handling exceptions]: http://docs.python.org/2/tutorial/errors.html#handling-exceptions
   [rules specified for the 260 datafield]: http://www.loc.gov/marc/bibliographic/bd260.html
   [MARC standards]: http://www.loc.gov/marc/
   [1]: https://github.com/edsu/pymarc
   [functions that it provides for working with MARC XML records]: https://github.com/edsu/pymarc/blob/master/pymarc/marcxml.py
-  [Counting Frequencies]: ../lessons/counting-frequencies
-  [Google Maps lesson]: ../lessons/googlemaps-googleearth
+  [Counting Frequencies]: /lessons/counting-frequencies
+  [Google Maps lesson]: /lessons/googlemaps-googleearth
   [Wordle word cloud]: http://www.wordle.net/
-  [cleaning of your data]: http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions
-  [Installing Python Modules with pip]: http://programminghistorian.org/lessons/installing-python-modules-pip
+  [cleaning of your data]: /lessons/cleaning-ocrd-text-with-regular-expressions
+  [Installing Python Modules with pip]: /lessons/installing-python-modules-pip

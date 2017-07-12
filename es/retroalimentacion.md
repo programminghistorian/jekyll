@@ -1,43 +1,46 @@
 ---
 title: Comentarios y sugerencias
 date: 07-11-2015
-layout: directory
+layout: blank
 redirect_from: /report-issue.html
 ---
 
-<figure>
-	<img src="../images/reader-sm.png" width="180px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
-</figure>
+# Agradecemos sus comentarios
 
-¿Viste algún problema con alguna lección de *The Programming Historian en español*? ¿Código que no funciona o que necesita explicaciones más claras? ¿Errores de tipografía? ¿Sintaxis que no parece correcta? Gracias por tomarte el tiempo de advertirnos de un problema o de sugerir un cambio. Tu ayuda es crucial para ayudarnos a mantener los más altos estándares en nuestras lecciones.
+<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" />
 
-Hay varias maneras sencillas de darnos retroalimentación:
+¿Viste algún problema con alguna lección de *The Programming Historian en español*?
 
-<br/>
+¿Código que no funciona o que necesita explicaciones más claras?
+
+¿Errores de tipografía? ¿Sintaxis que no parece correcta?
+
+Gracias por tomarte el tiempo de advertirnos de un problema o de sugerir un cambio. Tu ayuda es crucial para ayudarnos a mantener los más altos estándares en nuestras lecciones.
+
 
 ## Opción 1: correo electrónico o "Tweet"
 
-Contacta a <a href="mailto:vgayol@colmich.edu.mx">Víctor Gayol</a>, <a href="mailto:mariajose@neogranadina.org">Maria José Afanador-Llach</a> o a <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a>. Puedes encontrar más sobre el equipo editorial en [Equipo de proyecto](./equipo-de-proyecto.html). 
+Contacta a <a href="mailto:vgayol@colmich.edu.mx">Víctor Gayol</a>, <a href="mailto:mariajose@neogranadina.org">Maria José Afanador-Llach</a> o a <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a>. Puedes encontrar más sobre el equipo editorial en [Equipo de proyecto](./equipo-de-proyecto.html).
 
 También nos puedes encontar en Twitter en [@ProgHist](https://twitter.com/proghist).
 
 ## Opción 2: inicia un "Issue" en GitHub
 
-Primero, si no tienes una ya,[abre una cuenta personal gratis en GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account). Si ya tienes una cuenta inicia sesión. 
+Primero, si no tienes una ya,[abre una cuenta personal gratis en GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account). Si ya tienes una cuenta inicia sesión.
 
 Después ve a la [página de "issues"](https://github.com/programminghistorian/jekyll/issues?state=open) de nuestro Repositorio.  
 
 Échale un vistazo a los "issues" que están abiertos para ver si el problema que has identificado ya ha sido reportado. Si así es pero tienes más información que quisieras compartir, deja un comentario en ese "issue".
 
-Si tu "issue" no ha sido reportado, crea un nuevo "issue" con un título descriptivo y con tanta información sobre el problema como te sea posible compartir. 
+Si tu "issue" no ha sido reportado, crea un nuevo "issue" con un título descriptivo y con tanta información sobre el problema como te sea posible compartir.
 
 ![](https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png)
 
 Para más información sobre los "issues", lee la guía de GitHub en [Mastering Issues](https://guides.github.com/features/issues/).
 
-## Opción 3: sugiere un cambio específico 
+## Opción 3: sugiere un cambio específico
 
-Para sugerir o hacer un cambio menor a una lección, primero navega al [directorio de lecciones](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons) y entra a la lección en cuestión. 
+Para sugerir o hacer un cambio menor a una lección, primero navega al [directorio de lecciones](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons) y entra a la lección en cuestión.
 
 Después pulsa el botón de "history":
 
@@ -47,7 +50,7 @@ Ahora pulsa en el más reciente "commit" para la lección:
 
 ![](https://cloud.githubusercontent.com/assets/1126864/4781629/901b4330-5cb2-11e4-9bc9-d211daa5e987.png)
 
-Después, para comentar en una línea, coloca el cursor sobre el número de una línea y un signo azul de suma (+) aparecerá; pulsando en este va a abrir una caja de comentarios para esa línea en particular. La línea que necesita arreglarse se puede ocultar; si es así, pulsa en el botón de expandir para mostrar las líneas ocultas. 
+Después, para comentar en una línea, coloca el cursor sobre el número de una línea y un signo azul de suma (+) aparecerá; pulsando en este va a abrir una caja de comentarios para esa línea en particular. La línea que necesita arreglarse se puede ocultar; si es así, pulsa en el botón de expandir para mostrar las líneas ocultas.
 
 ![](https://cloud.githubusercontent.com/assets/1126864/4781633/27b780b4-5cb3-11e4-81aa-0ed217b94a2f.png)
 

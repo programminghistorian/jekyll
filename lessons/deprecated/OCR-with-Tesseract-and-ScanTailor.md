@@ -3,15 +3,16 @@ title: OCR with Tesseract and ScanTailor
 authors:
 - Mila Oiva
 date: 2015-06-01
-layout: default
+layout: lesson
 deprecated: true
+redirect_from: /lessons/ocr-with-tesseract-and-scantailor
 ---
 
 #Introduction to OCR 
 
 ##Lesson Goals
 
-The goal of this lesson is to teach how to do OCR (Optical Character Recognition) for printed or typewritten text. After this lesson you will able to convert printed and typewritten texts into digital text files. In order to be able to go through all the steps the OCR'ing process demands, you'll need to have access to either a scanner or digital camera, a computer with internet access, some patience, and a lot of curiosity! We will make a few easy commands using the Command line, but if you have never used it before, you might want to look at the lesson [Introduction to the Bash Command Line] (http://programminghistorian.org/lessons/intro-to-bash). I use Windows, but these instructions should function also in Mac. 
+The goal of this lesson is to teach how to do OCR (Optical Character Recognition) for printed or typewritten text. After this lesson you will able to convert printed and typewritten texts into digital text files. In order to be able to go through all the steps the OCR'ing process demands, you'll need to have access to either a scanner or digital camera, a computer with internet access, some patience, and a lot of curiosity! We will make a few easy commands using the Command line, but if you have never used it before, you might want to look at the lesson [Introduction to the Bash Command Line] (/lessons/intro-to-bash). I use Windows, but these instructions should function also in Mac. 
 
 
 ##Why OCR?
@@ -185,7 +186,7 @@ So, now as you look at the OCR'd text, you will notice soon, that the text is no
 This is the moment when you will thank yourself if you have been able to do a good quality job in the previous phases, because you will probably have pretty clear data. This is also the moment when you will need to decide how pure text you want to have: are you willing to pay less attention in this phase and accept some blurred words, or is the clarity of the text so essential that you will check all the output? 
 
 You might be interested in reading further on what to do with the raw OCR data. Fortunately, there are great lessons for that: 
-[Cleaning the OCR results with regular expressions](http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions) or [generating an ordered data set from the OCR results](http://programminghistorian.org/lessons/generating-an-ordered-data-set-from-an-OCR-text-file) or [preserving your data](http://programminghistorian.org/lessons/preserving-your-research-data).
+[Cleaning the OCR results with regular expressions](/lessons/cleaning-ocrd-text-with-regular-expressions) or [generating an ordered data set from the OCR results](/lessons/generating-an-ordered-data-set-from-an-OCR-text-file) or [preserving your data](/lessons/preserving-your-research-data).
 
 Before OCR'ing all of your sources, try with a small sample of materials to do the whole process from scratch to the analysis part you are planning to do. When doing the latter steps you might realize some details that you will need to take into account when doing the previous stages.
 

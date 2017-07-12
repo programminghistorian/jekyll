@@ -1,20 +1,31 @@
 ---
 title: Installing QGIS 2.0 and Adding Layers
+layout: lesson
+date: 2013-12-13
 authors:
 - Jim Clifford
 - Josh MacFadyen
 - Daniel Macfarlane
-date: 2013-12-13
 reviewers:
 - Finn Arne Jørgensen
 - Sarah Simpkin
 editors:
 - Adam Crymble
-layout: default
-next: vector-layers-qgis
-prev: googlemaps-googleearth
 difficulty: 1
+activity: presenting
+topics: [mapping]
+abstract: "In this lesson you will install QGIS software, download geospatial files
+like shapefiles and GeoTIFFs, and create a map out of a number of vector
+and raster layers."
+next: vector-layers-qgis
+previous: googlemaps-googleearth
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Lesson Goals
 ------------
@@ -449,9 +460,9 @@ save your work!**
 
   [QGIS Download page]: http://hub.qgis.org/projects/quantum-gis/wiki/Download
   [KyngChaos Qgis download page]: http://www.kyngchaos.com/software/qgis
-  [PEI Highways]: ../assets/PEI_highway.zip
+  [PEI Highways]: /assets/PEI_highway.zip
   [alternate Tar file]: https://www.dropbox.com/s/8k81jnmhpoi99fv/pei_highway.tar.gz
-  [PEI Places]: ../assets/PEI_placenames.zip
+  [PEI Places]: /assets/PEI_placenames.zip
   [1]: https://www.dropbox.com/s/33g19iqhdnxoayd/pei_placenames.tar.gz
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
   [NRCan's website]: http://www.nrcan.gc.ca/earth-sciences/geography-boundary/mapping/topographic-mapping/10272
@@ -459,5 +470,5 @@ save your work!**
   [Tutorial: Working with Projections in QGIS]: http://qgis.spatialthoughts.com/2012/04/tutorial-working-with-projections-in.html
   [defined]: http://www.gislounge.com/geodatabases-explored-vector-and-raster-data/
   [aerial photos]: http://en.wikipedia.org/wiki/Orthophoto
-  [PEI_CumminsMap1927.tif]: ../assets/PEI_CumminsMap1927_compLZW.tif
+  [PEI_CumminsMap1927.tif]: /assets/PEI_CumminsMap1927_compLZW.tif
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

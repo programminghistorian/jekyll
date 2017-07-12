@@ -12,8 +12,18 @@ review-ticket: 34
 editors: 
 - Jeri E. Wieringa
 difficulty: 2
-layout: default
+layout: lesson
+activity: analyzing
+topics: [distant-reading]
+abstract: |
+  Learn how to use R to analyze high-level patterns in texts, apply stylometric methods over time and across authors, and use summary methods to describe items in a corpus.
 ---
+
+{% include toc.html %}
+
+
+
+
 
 # Learning Goals
 
@@ -450,7 +460,7 @@ This technique loads all of the files one by one off of GitHub. Optionally, you 
 
 ## Alternative Method for Loading the Corpus (Optional)
 
-The entire corpus can be downloaded from here: [sotu_text.zip](http://programminghistorian.org/assets/basic-text-processing-in-r/sotu_text.zip). Unzip the repository somewhere on your machine and set the variable `input_loc` to the full path of the directory where your unzipped file is. For example, if the file is on the desktop of a computer running macOS and the username is stevejobs, `input_loc` should be set to:
+The entire corpus can be downloaded from here: [sotu_text.zip](/assets/basic-text-processing-in-r/sotu_text.zip). Unzip the repository somewhere on your machine and set the variable `input_loc` to the full path of the directory where your unzipped file is. For example, if the file is on the desktop of a computer running macOS and the username is stevejobs, `input_loc` should be set to:
 
 ```{r}
 input_loc <- "/Users/stevejobs/Desktop/sotu_text"
@@ -626,7 +636,7 @@ Many generic tutorials exist for all three of these, as well as extensive packag
 
 # Endnotes
 
-[^1]: Taryn Dewar, "R Basics with Tabular Data," Programming Historian (05 September 2016), [http://programminghistorian.org/lessons/r-basics-with-tabular-data](http://programminghistorian.org/lessons/r-basics-with-tabular-data).
+[^1]: Taryn Dewar, "R Basics with Tabular Data," Programming Historian (05 September 2016), [http://programminghistorian.org/lessons/r-basics-with-tabular-data](/lessons/r-basics-with-tabular-data).
 
 [^2]: Our corpus has 236 State of the Union addresses. Depending on exactly what is counted, this number can be slightly higher or lower.
 

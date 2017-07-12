@@ -1,19 +1,30 @@
 ---
 title: Intro to Google Maps and Google Earth
+layout: lesson
+date: 2013-12-13
 authors:
 - Jim Clifford
 - Josh MacFadyen
 - Daniel Macfarlane
-date: 2013-12-13
 reviewers:
 - Finn Arne Jørgensen
 - Sarah Simpkin
 editors:
 - Adam Crymble
-layout: default
-next: qgis-layers
 difficulty: 1
+activity: presenting
+topics: [mapping]
+abstract: "Google My Maps and Google Earth provide an easy way to start creating
+digital maps. With a Google Account you can create and edit personal
+maps by clicking on My Places."
+next: qgis-layers
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Google Maps
 
@@ -477,52 +488,52 @@ your work!**
 *This lesson is part of the [Geospatial Historian][].*
 
   [Google Maps Engine Lite]: https://mapsengine.google.com
-  [geo1]: ../images/geo1.png
-  [geo2]: ../images/geo2.png
-  [geo3]: ../images/geo3.png
-  [geo4]: ../images/geo4.png
-  [geo5]: ../images/geo5.png
-  [geo6]: ../images/geo6.png
+  [geo1]: /images/googlemaps-googleearth/geo1.png
+  [geo2]: /images/googlemaps-googleearth/geo2.png
+  [geo3]: /images/googlemaps-googleearth/geo3.png
+  [geo4]: /images/googlemaps-googleearth/geo4.png
+  [geo5]: /images/googlemaps-googleearth/geo5.png
+  [geo6]: /images/googlemaps-googleearth/geo6.png
   [UK Global Fat Supply CSV file]: https://github.com/programminghistorian/jekyll/files/148984/UK.Global.Fat.Supply.1894-1896.-.Sheet1.csv.zip
-  [geo7]: ../images/geo7.png
-  [geo8]: ../images/geo8.png
-  [geo9]: ../images/geo9.png
-  [geo10]: ../images/geo10.png
-  [geo11]: ../images/geo11.png
-  [geo12]: ../images/geo12.png
-  [Creating New Vector Layers in QGIS 2.0]: ../lessons/vector-layers-qgis
-  [geo13]: ../images/geo13.png
-  [geo14]: ../images/geo14.png
-  [geo15]: ../images/geo15.png
-  [geo16]: ../images/geo16.png
-  [geo17]: ../images/geo17.png
-  [geo18]: ../images/geo18.png
-  [geo19]: ../images/geo19.png
-  [geo20]: ../images/geo20.png
-  [geo21]: ../images/geo21.png
-  [geo22]: ../images/geo22.png
-  [geo23]: ../images/geo23.png
-  [geo24]: ../images/geo24.png
+  [geo7]: /images/googlemaps-googleearth/geo7.png
+  [geo8]: /images/googlemaps-googleearth/geo8.png
+  [geo9]: /images/googlemaps-googleearth/geo9.png
+  [geo10]: /images/googlemaps-googleearth/geo10.png
+  [geo11]: /images/googlemaps-googleearth/geo11.png
+  [geo12]: /images/googlemaps-googleearth/geo12.png
+  [Creating New Vector Layers in QGIS 2.0]: /lessons/vector-layers-qgis
+  [geo13]: /images/googlemaps-googleearth/geo13.png
+  [geo14]: /images/googlemaps-googleearth/geo14.png
+  [geo15]: /images/googlemaps-googleearth/geo15.png
+  [geo16]: /images/googlemaps-googleearth/geo16.png
+  [geo17]: /images/googlemaps-googleearth/geo17.png
+  [geo18]: /images/googlemaps-googleearth/geo18.png
+  [geo19]: /images/googlemaps-googleearth/geo19.png
+  [geo20]: /images/googlemaps-googleearth/geo20.png
+  [geo21]: /images/googlemaps-googleearth/geo21.png
+  [geo22]: /images/googlemaps-googleearth/geo22.png
+  [geo23]: /images/googlemaps-googleearth/geo23.png
+  [geo24]: /images/googlemaps-googleearth/geo24.png
   [www.davidrumsey.com]: http://www.davidrumsey.com/
-  [geo25]: ../images/geo25.png
-  [geo26]: ../images/geo26.png
-  [Georeferencing in QGIS 2.0]: ../lessons/georeferencing-qgis
-  [geo27]: ../images/geo27.png
-  [geo28]: ../images/geo28.png
+  [geo25]: /images/googlemaps-googleearth/geo25.png
+  [geo26]: /images/googlemaps-googleearth/geo26.png
+  [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
+  [geo27]: /images/googlemaps-googleearth/geo27.png
+  [geo28]: /images/googlemaps-googleearth/geo28.png
   [Maps Engine Lite]: https://mapsengine.google.com/map/
   [Seaway map]: https://github.com/programminghistorian/jekyll/files/148993/seaway.zip
-  [geo29]: ../images/geo29.png
-  [geo30]: ../images/geo30.png
-  [geo31]: ../images/geo31.png
-  [geo32]: ../images/geo32.png
-  [geo33]: ../images/geo33.png
-  [geo34]: ../images/geo34.png
-  [geo35]: ../images/geo35.png
+  [geo29]: /images/googlemaps-googleearth/geo29.png
+  [geo30]: /images/googlemaps-googleearth/geo30.png
+  [geo31]: /images/googlemaps-googleearth/geo31.png
+  [geo32]: /images/googlemaps-googleearth/geo32.png
+  [geo33]: /images/googlemaps-googleearth/geo33.png
+  [geo34]: /images/googlemaps-googleearth/geo34.png
+  [geo35]: /images/googlemaps-googleearth/geo35.png
   [Mobile Mapping and Historical GIS in the Field]: http://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field/
     "Mobile Mapping and Historical GIS in the Field"
-  [geo36]: ../images/geo36.png
-  [geo37]: ../images/geo37.png
-  [geo38]: ../images/geo38.png
-  [geo39]: ../images/geo39.png
-  [geo40]: ../images/geo40.png
+  [geo36]: /images/googlemaps-googleearth/geo36.png
+  [geo37]: /images/googlemaps-googleearth/geo37.png
+  [geo38]: /images/googlemaps-googleearth/geo38.png
+  [geo39]: /images/googlemaps-googleearth/geo39.png
+  [geo40]: /images/googlemaps-googleearth/geo40.png
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
