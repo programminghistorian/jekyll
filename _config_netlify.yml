@@ -1,3 +1,0 @@
-# This additional config file is only called when buildling a preview version of this site on netlify.com
-url: http://ph-redesign-preview.netlify.com
-skip_yaml_check: true
