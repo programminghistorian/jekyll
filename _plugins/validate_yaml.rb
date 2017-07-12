@@ -31,7 +31,7 @@ module MyModule
       es_required_fields = ["translator", "translation-reviewer", "redirect_from"]
 
       # Fields required only on en lessons
-      en_required_fields = ["editors"]
+      en_required_fields = ["editors", "abstract"]
 
       # Find all the pages that represent non-deprecated lessons
       lessons = site.pages.select{|i| i.data["lesson"] && !i.data["deprecated"]}
