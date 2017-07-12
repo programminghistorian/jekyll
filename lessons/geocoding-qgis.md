@@ -13,6 +13,8 @@ difficulty: 2
 review-ticket: 27
 activity: transforming
 topics: [mapping]
+abstract: |
+  Learn how to use QGIS to convert lists of place names in to geographic coordinates, allowing you to map them.
 ---
 
 {% include toc.html %}

@@ -15,6 +15,8 @@ layout: lesson
 review-ticket: 32
 activity: presenting
 topics: [mapping]
+abstract: |
+  Demonstrates how to use the JavaScript library "Leaflet" to produce an interactive map that can be hosted online or viewed locally, and demonstrates how to customize many of its features.
 ---
 
 {% include toc.html %}

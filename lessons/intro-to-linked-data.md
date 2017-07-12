@@ -13,6 +13,8 @@ difficulty: 1
 review-ticket: 33
 activity: acquiring
 topics: [lod]
+abstract: |
+  Introduces core concepts of Linked Open Data, including URIs, ontologies, RDF formats, and a gentle intro to the graph query language SPARQL.
 ---
 
 {% include toc.html %}

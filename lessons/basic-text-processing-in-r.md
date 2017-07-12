@@ -15,6 +15,8 @@ difficulty: 2
 layout: lesson
 activity: analyzing
 topics: [distant-reading]
+abstract: |
+  Learn how to use R to analyze high-level patterns in texts, apply stylometric methods over time and across authors, and use summary methods to describe items in a corpus.
 ---
 
 {% include toc.html %}
