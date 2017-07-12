@@ -1,17 +1,28 @@
 ---
 title: Output Data as an HTML File with Python
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: transforming
+topics: [python, website]
+abstract: "This lesson takes the frequency pairs created in the 'Counting
+Frequencies' lesson and outputs them to an HTML file."
 next: keywords-in-context-using-n-grams
 previous: creating-and-viewing-html-files-with-python
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson Goals
 
@@ -283,6 +294,6 @@ path to the directory on your own computer.
 
 -   python-lessons7.zip [zip sync][]
 
-  [Counting Frequencies]: ../lessons/counting-frequencies
-  [zip file from the previous lesson]: ../assets/python-lessons6.zip
-  [zip sync]: ../assets/python-lessons7.zip
+  [Counting Frequencies]: /lessons/counting-frequencies
+  [zip file from the previous lesson]: /assets/python-lessons6.zip
+  [zip sync]: /assets/python-lessons7.zip

@@ -1,22 +1,33 @@
 ---
 title: From HTML to List of Words (part 1)
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "In this two-part lesson, we will build on what you’ve learned about Downloading Web Pages with Python, learning how to remove the HTML markup from the webpage of Benjamin Bowsey’s 1780 criminal trial transcript. We will achieve this by using a variety of string operators, string methods, and close reading skills. We introduce looping and branching so that programs can repeat tasks and test for certain conditions, making it possible to separate the content from the HTML tags. Finally, we convert content from a long string to a list of words that can later be sorted,
+indexed, and counted."
 next: from-html-to-list-of-words-2
 previous: manipulating-strings-in-python
 ---
 
+{% include toc.html %}
+
+
+
+
+
 ## Lesson Goals
 
 In this two-part lesson, we will build on what you’ve learned about
-[Downloading Web Pages with Python](http://programminghistorian.org/lessons/working-with-web-pages), learning how to remove the *HTML markup* from
+[Downloading Web Pages with Python](/lessons/working-with-web-pages), learning how to remove the *HTML markup* from
 the webpage of [Benjamin Bowsey’s 1780 criminal trial transcript][]. We
 will achieve this by using a variety of *string operators*, *string methods*
 and close reading skills. We introduce *looping* and *branching* so that
@@ -28,7 +39,7 @@ indexed, and counted.
 ## The Challenge
 
 To get a clearer picture of the task ahead, open the
-*obo-t17800628-33.html* file that you created in [Downloading Web Pages with Python](http://programminghistorian.org/lessons/working-with-web-pages) (or [download and save the trial]
+*obo-t17800628-33.html* file that you created in [Downloading Web Pages with Python](/lessons/working-with-web-pages) (or [download and save the trial]
 [obo-t17800628-33.html] if you do not already have a
 copy), then look at the HTML source by clicking on
 *Tools -> Web Developer -> Page Source*. As you scroll through the
@@ -227,13 +238,13 @@ that’s ok!
 
 -   programming-historian-2 ([zip][])
 
-  [http://programminghistorian.org/lessons/working-with-web-pages]: ../lessons/working-with-web-pages
+  [http://programminghistorian.org/lessons/working-with-web-pages]: /lessons/working-with-web-pages
   [Benjamin Bowsey’s 1780 criminal trial transcript]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
   [HTML]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33-defend448&div=t17800628-33
   [XML]: http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes
   [1]: http://www.w3schools.com/html/
-  [zip file from the previous lesson here.]: ../lessons/manipulating-strings-in-python#code-syncing
-  [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
-  [Code Reuse and Modularity]: ../lessons/code-reuse-and-modularity
-  [zip]: ../assets/python-lessons2.zip
-  [obo-t17800628-33.html]: ../assets/obo-t17800628-33.html
+  [zip file from the previous lesson here.]: /lessons/manipulating-strings-in-python#code-syncing
+  [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
+  [Code Reuse and Modularity]: /lessons/code-reuse-and-modularity
+  [zip]: /assets/python-lessons2.zip
+  [obo-t17800628-33.html]: /assets/obo-t17800628-33.html

@@ -13,10 +13,18 @@ translator:
 translation-reviewer:
 - Antonio Rojas Castro
 - Maria José Afanador-Llach
-layout: default
+layout: lesson
 difficulty: 1
-redirect-from: /es/lessons/preserving-your-research-data
+redirect_from: /es/lessons/preserving-your-research-data
+activity: sustaining
+topics: [data-management]
 ---
+
+{% include toc.html %}
+
+
+
+
 
 #### La cuestión de fondo
 

@@ -1,0 +1,158 @@
+---
+layout: base
+---
+
+{% comment %}
+  This is the standard template for all lessons. It builds on the base template, which includes the HTML header, the menu bar, page content, and footer.
+
+  In addition to general formatting, this layout also contains all the logic for displaying alert messages (lessons in a series, deprecated lessons, etc).
+
+  All lesson metadata and alerts should follow the convention of pulling appropriate text from the snippets.yml file.
+{% endcomment %}
+
+<!-- Calculate the lesson slug for use across this page -->
+{% include lesson-slug.html %}
+
+<header>
+
+<div class="container-fluid">
+
+  <div class="container expanded">
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="header-image rounded">
+          <img src="{{ site.baseurl }}/gallery/{{ slug }}.png">
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="header-title">
+          <h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+        </div>
+
+        <div class="header-author">
+          <h2>{% include author.html %}</h2>
+        </div>
+
+        <div class="header-abstract">
+          <p>{{ page.abstract }}</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% capture editor-style %}{% if page.translator %}col-md-3{% else %}col-md-4 offset-md-4{% endif %}{% endcapture %}
+{% capture reviewers-style %}{% if page.translator %}col-md-3{% else %}col-md-4{% endif %}{% endcapture %}
+
+
+  <div class="container-fluid header-helpers">
+
+    <div class="container expanded">
+
+    <div class="row">
+
+      <div class="{{editor-style}}">
+        <h3 class="text-left">{{site.data.snippets.editor[page.lang]}}</h3>
+        <ul>
+        {% for editor in page.editors %}
+          <li>{{editor}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+
+      <div class="{{reviewers-style}}" >
+        <h3 class="text-left">{{site.data.snippets.reviewers[page.lang]}}</h3>
+          <ul>
+          {% for reviewer in page.reviewers %}
+            <li>{{reviewer}}</li>
+          {% endfor %}
+          </ul>
+      </div>
+
+      {% if page.translator %}
+      <div class="col-md-3" >
+        <h3 class="text-left">{{site.data.snippets.translator[page.lang]}}</h3>
+        <ul>
+        {% for translator in page.translator %}
+          <li>{{translator}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if page.translation-reviewer %}
+      <div class="col-md-3" >
+        <h3 class="text-left">{{site.data.snippets.translation-reviewers[page.lang]}}</h3>
+        <ul>
+        {% for editor in page.translation-reviewer %}
+          <li>{{editor}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+    </div>
+    </div> <!-- end row -->
+  </div>
+
+  <div class="container-fluid header-bottom">
+    <div class="container expanded">
+      <div class="row">
+      <div class="col-md-4 metarow"><h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      <div class="col-md-4 metarow"><h4>{{site.data.snippets.modified[page.lang]}}</h4> <span id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span></div>
+      <div class="col-md-4 metarow"><h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}</div>
+    </div>
+    </div>
+  </div>
+
+</header>
+
+  <div class="container">
+
+    {% if page.redirect_from %}
+      <div class="alert alert-warning">
+        Esta lección fue publicada originalmente en Inglés. Es posible que desee consulte <a href="/lessons/{{slug}}">el original</a>.
+      </div>
+    {% endif %}
+
+    {% if page.deprecated %}
+     <div class="alert alert-warning">
+       {{ site.data.snippets.deprecated[page.lang] }}
+     </div>
+    {% endif %}
+
+      {% if page.previous %}
+      <div class="series-warning alert alert-info">
+        {{ site.data.snippets.series-previous-note[page.lang] }} <a href="{{page.previous}}">{{ site.data.snippets.previous-lesson[page.lang] }}</a>.
+      </div>
+      {% endif %}
+
+     <div class="content">
+         {{ content }}
+     </div>
+
+     {% if page.next %}
+      <div class="series-warning alert alert-info">
+        {{ site.data.snippets.series-next-note[page.lang] }} <a href="{{page.previous}}">{{ site.data.snippets.next-lesson[page.lang] }} </a>.
+      </div>
+     {% endif %}
+
+     {% include author-info.html %}
+</div>
+
+<script>
+(function() {
+  var githubAPI = "https://api.github.com/repos/programminghistorian/jekyll/commits";
+  $.getJSON( githubAPI, {
+    path: "{{page.path}}"
+  })
+    .done(function( data ) {
+      var date = new Date(data[0].commit.author.date);
+      var formatted_date = date.getFullYear()+'-'+("0"+date.getMonth()).slice(-2)+'-'+("0"+date.getDate()).slice(-2);
+      $("#modified-date").text(formatted_date);
+    });
+})();
+</script>

@@ -1,15 +1,25 @@
 ---
 title: Creating an Omeka Exhibit
+layout: lesson
+date: 2016-02-24
 authors:
 - Miriam Posner
 - Megan R. Brett
-date: 2016-02-24
 reviewers:
 - Sheila Brennan
 editors:
 - Adam Crymble
-layout: default
+difficulty: 1
+activity: presenting
+topics: [website]
+abstract: "Now that you've added items to your Omeka site and grouped them into collections, you're ready for the next step: taking your users on a guided tour through the items you've collected."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Now that you've [added items to your Omeka site](/lessons/up-and-running-with-omeka) and grouped them into collections, you're ready for the next step: taking your users on a guided tour through the items you've collected.
 

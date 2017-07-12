@@ -1,12 +1,25 @@
+{% comment %}
+ Generate contact info for editorial team members. Used on project-team.md and es/equipo-de-proyecto.md 
+{% endcomment %}
+
 {% assign author = include.name %}
 
+{% comment %}
+ For the provided author name, locate the appropriate entry in authors.yml, and then extract necessary bio and contact information. 
+{% endcomment %}
 {% for member in site.data.authors %}
 {% if author == member.name %}
-{% assign avatar = member.name | replace: " ","-" %}
-<div class="contact-box">
-<img class="avatar" src="/avatars/{{avatar}}.png">
+{% comment %}
+ Generate avatar image path based on name 
+{% endcomment %}
+{% assign avatar = member.name | replace: " ","-" | replace: "é","e" | replace: "í", "i" %}
+<div class="contact-box clearfix">
+<img class="avatar rounded-circle" src="{{site.baseurl}}/avatars/{{avatar}}.png">
 {{ member.bio[page.lang] }} {{ member.interests[page.lang] }}
 <br/>
+{% comment %}
+ List contact info 
+{% endcomment %}
 	{% if member.url %}
 		<a href="{{member.url}}"><i class="fa fa-home fa-lg"></i></a>
 	{% endif %}
@@ -21,6 +34,4 @@
 	{% endif %}
 {% endif %}
 {% endfor %}
-<br/><br/><br/>
 </div>
-

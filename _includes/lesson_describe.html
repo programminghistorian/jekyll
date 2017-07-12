@@ -1,0 +1,39 @@
+{% comment %}
+
+
+This include generates the individual lesson descriptions that display on the lesson index pages (_includes/lesson-index.html)
+
+lesson-slug.html computes the correct lesson slug, and then this include determines both the proper lesson path as well as the avatar image path
+
+
+{% endcomment %}
+
+{% include lesson-slug.html lesson=lesson %}
+
+{% if lesson.lang == "es" %}
+  {% capture path %}{{ site.baseurl }}/es/lessons/{{ slug }}{% endcapture %}
+{% else %}
+  {% capture path %}{{ site.baseurl }}/lessons/{{ slug }}{% endcapture %}
+{% endif %}
+{% capture imgpath %}{{ site.baseurl }}/gallery/{{ slug }}{% endcapture %}
+
+<div class="lesson-description clearfix">
+
+  <div class="lesson-image">
+    <a href="{{ path }}"><img class="rounded" src="{{ imgpath }}.png"></a>
+  </div>
+
+  <h3 class="above-title">{{ include.authors }}</h3>
+  <a href="{{ path }}"><h2 class="title">{{ lesson.title }}</h2></a>
+
+  <p class="abstract">{{ lesson.abstract }}</p>
+
+  {% comment %}
+ Activity and topic are hidden via CSS as a hack to let JS sorting by activity and topic work
+{% endcomment %}
+  <span class="activity">{{ lesson.activity }}</span>
+  <span class="topics">{{ lesson.topics }}</span>
+  <span class="date">{{ lesson.date }}</span>
+  <span class="difficulty">{{ lesson.difficulty }}</span>
+
+</div>

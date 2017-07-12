@@ -1,16 +1,26 @@
 ---
 title: Setting up an Integrated Development Environment for Python (Linux)
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 - Amanda Morton
 editors:
 - Miriam Posner
-layout: default
+difficulty: 1
+activity: transforming
+topics: [get-ready, python]
+abstract: "This lesson will help you set up an integrated development environment for Python on a computer running the Linux operating system."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Thanks to John Fink for providing the basis of this section. These
 instructions are for Ubuntu 12.04 LTS, but should work for any apt based
@@ -94,9 +104,10 @@ print('hello world')
 
 Your chosen text editor should have a “`Run`” button that will allow you
 to execute your program. If all went well, it should look something like
-this (Example as seen in Komodo Edit.)
+this (Example as seen in Komodo Edit. Click on the image to see a
+full-size copy):
 
-{% include figure.html filename="hello-world1.png" caption="" %}
+{% include figure.html caption="hello world in Komodo Edit on a Mac" filename="hello-world1.png" %}
 
 ## Interacting with a Python shell
 
@@ -136,7 +147,9 @@ print('hello world')
 
 On your screen, it will look more like this:
 
-{% include figure.html filename="hello-world-terminal.png" caption="" %}
+{% include figure.html caption="hello world terminal on a Mac" filename="hello-world-terminal.png" %}
+
+Python Shell in Mac Terminal
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in

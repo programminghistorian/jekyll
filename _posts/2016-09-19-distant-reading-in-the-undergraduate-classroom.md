@@ -9,7 +9,7 @@ categories: posts
 
 Close reading of primary sources is one of the most valuable skills historians can cultivate with their students. But as teachers, researchers, and students face unprecedented access to historical material in our [“culture of abundance,”](http://chnm.gmu.edu/essays-on-history-new-media/essays/?essayid=6) computer-assisted analysis of text is an increasingly viable and attractive skill. An insightful close reading of a single text, combined with a “distant reading” of a body of texts too large to comprehend on one’s own, can together offer students and researchers powerful new ways to understand historical documents. 
 
-Distant reading is one of the most well represented techniques in the *Programming Historian*’s cache of digital humanities tutorials. From [identifying common phrases and sentence structures with AntConc](http://programminghistorian.org/lessons/corpus-analysis-with-antconc) to [uncovering frequent keywords with MALLET](http://programminghistorian.org/lessons/topic-modeling-and-mallet), distant reading offers researchers an entryway into analyzing huge corpuses of text without requiring them to read through them line by line —— which could actually be an insurmountable task, depending on the scope of one’s archive, bibliography, or dataset.
+Distant reading is one of the most well represented techniques in the *Programming Historian*’s cache of digital humanities tutorials. From [identifying common phrases and sentence structures with AntConc](/lessons/corpus-analysis-with-antconc) to [uncovering frequent keywords with MALLET](/lessons/topic-modeling-and-mallet), distant reading offers researchers an entryway into analyzing huge corpuses of text without requiring them to read through them line by line —— which could actually be an insurmountable task, depending on the scope of one’s archive, bibliography, or dataset.
 
 Distant reading is a useful addition to any humanities researcher’s methodological toolkit. But it can also be really useful for teaching undergraduates how to research and analyze the many thousands of pages of archival documents that are being digitized every single day.   
 What might this look like in the classroom? Here’s an example from one of my own research and teaching areas, U.S. immigration history. 
@@ -21,12 +21,12 @@ There are many avenues for researching the evolution of  exclusion in American i
 As a first foray into distant reading, instructors might encourage students to pick one annual report and run it through [Voyant Tools](http://voyant-tools.org/). For example, a group of students could plug in the U.S. Department of Labor’s Annual Report on Immigration for the year 1910 and do a group think on the document’s major word frequencies. 
 
 <figure>
-<a href="../images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png">
-        <img src="../images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png" alt="" />
+<a href="/images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png">
+        <img src="/images/distant-reading-in-the-undergraduate-classroom/distant-reading-01.png" alt="" />
     </a>
 </figure><figure>
-<a href="../images/distant-reading-in-the-undergraduate-classroom/distant-reading-02.png">
-        <img src="../images/distant-reading-in-the-undergraduate-classroom/distant-reading-02.png" alt="" />
+<a href="/images/distant-reading-in-the-undergraduate-classroom/distant-reading-02.png">
+        <img src="/images/distant-reading-in-the-undergraduate-classroom/distant-reading-02.png" alt="" />
     </a>
     <figcaption>
     <p>Screenshots of a distant reading of the US Department of Labor’s Annual Report on Immigration, 1910, conducted with <a href="http://voyant-tools.org/">VoyantTools.org</a>.</p>

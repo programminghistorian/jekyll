@@ -14,9 +14,18 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 redirect_from: /es/lessons/mac-installation
+difficulty: 1
+activity: transforming
+topics: [get-ready, python]
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ### Haz respaldo (copia de seguridad) de toda tu computadora
 

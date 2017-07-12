@@ -1,0 +1,20 @@
+{% comment %}
+  This template assembles principal page components (standard HTML header, menu bar, main content, and footer) WITHOUT the standard wrapper div (called "container", which sets the standard page width) as found in the "blank" template.
+
+  This template, therefore, is most useful on pages requiring full-window bleeds: the index page and lessons pages.
+{% endcomment %}
+
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+
+  {% include header.html %}
+
+  <body>
+    {% include menu.html %}
+
+    {{content}}
+
+    {% include footer.html %}
+  </body>
+
+</html>

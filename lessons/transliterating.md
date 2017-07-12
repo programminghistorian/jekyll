@@ -1,19 +1,31 @@
 ---
 title: Transliterating non-ASCII characters with Python
+layout: lesson
+date: 2013-10-04
 authors:
 - Seth Bernstein
-date: 2013-10-04
 reviewers:
 - Michelle Moravec
 - Ezra Brooks
 - Russell Alleen-Willems
 editors:
 - Adam Crymble
-layout: default
 difficulty: 2
+activity: transforming
+topics: [data-manipulation]
+abstract: "This lesson shows how to use Python to transliterate automatically a
+list of words from a language with a non-Latin alphabet to a
+standardized format using the American Standard Code for Information
+Interchange (ASCII) characters."
 ---
 
-**Lesson Goals:**
+{% include toc.html %}
+
+
+
+
+
+## Lesson Goals
 
 This lesson shows how to use Python to transliterate automatically a
 list of words from a language with a non-Latin alphabet to a
@@ -27,7 +39,7 @@ Russian organization [Memorial][] from [Cyrillic][] into [Latin
 characters][]. Although the example uses Cyrillic characters, the
 technique can be reproduced with other alphabets using [Unicode][].
 
-**What Is Transliteration and for Whom Is It Useful?**
+## What Is Transliteration and for Whom Is It Useful?
 
 Transliteration is something that most people do every day, knowingly or
 not. Many English speakers would have trouble recognizing the name
@@ -73,7 +85,7 @@ considerably. However, this lesson will also allow practice with
 Unicode, character translation and using the parser [Beautiful Soup in
 Python.][]
 
-**Converting a Webpage to Unicode**
+## Converting a Webpage to Unicode
 
 The goal of this lesson is to take a list of names from a Russian
 database and convert them from Cyrillic into ASCII characters. The page
@@ -218,7 +230,7 @@ signify a line break (‘`\n`’) in a document. Each counts as just one
 character. Now we can create a Python *dictionary* that will act as the
 transliteration table.
 
-**Unicode Transliteration Dictionary**
+## Unicode Transliteration Dictionary
 
 A dictionary is an unordered collection of *key-object pairs*. What this
 means is that under each key, the dictionary stores some number or
@@ -366,7 +378,7 @@ the lesson, we will modify methods used in the lesson “[Intro to
 Beautiful Soup][]” to get a list of transliterated names from the
 webpage.
 
-**Transliterated List of Names**
+## Transliterated List of Names
 
 There may be cases where it is best to transliterate the entire file but
 if the goal is to transliterate and extract just a part of the data in
@@ -509,10 +521,10 @@ characters. It is a simple tool but one that can be an enormous time
 saver.
 
   [ASCII]: http://en.wikipedia.org/wiki/Ascii
-  [Viewing HTML Files]: ../lessons/viewing-html-files
-  [Working with Web Pages]: ../lessons/working-with-web-pages
-  [From HTML to List of Words (part 1)]: ../lessons/from-html-to-list-of-words-1
-  [Intro to Beautiful Soup]: ../lessons/intro-to-beautiful-soup
+  [Viewing HTML Files]: /lessons/viewing-html-files
+  [Working with Web Pages]: /lessons/working-with-web-pages
+  [From HTML to List of Words (part 1)]: /lessons/from-html-to-list-of-words-1
+  [Intro to Beautiful Soup]: /lessons/intro-to-beautiful-soup
   [Memorial]: http://lists.memo.ru
   [Cyrillic]: http://en.wikipedia.org/wiki/Cyrillic_script
   [Latin characters]: http://en.wikipedia.org/wiki/Latin_script
@@ -524,14 +536,14 @@ saver.
   [Beautiful Soup in Python.]: http://www.crummy.com/software/BeautifulSoup/
   [Glasnost]: http://en.wikipedia.org/wiki/Glasnost
   [here]: http://lists.memo.ru/d1/f1.htm
-  [Automated Downloading with Wget]: ../lessons/automated-downloading-with-wget
+  [Automated Downloading with Wget]: /lessons/automated-downloading-with-wget
   [What is Unicode]: http://www.unicode.org/standard/WhatIsUnicode.html
   [comma separated value]: http://en.wikipedia.org/wiki/Comma-separated_values
-  [Counting Frequencies]: ../lessons/counting-frequencies
+  [Counting Frequencies]: /lessons/counting-frequencies
   [Library of Congress]: http://www.lcweb.loc.gov/catdir/cpso/romanization/russian.pdf
   [Wikipedia has a table]: http://en.wikipedia.org/wiki/Cyrillic_script_in_Unicode
   [Unicode website]: http://www.unicode.org/charts/
-  [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
-  [Installing Python Modules with pip]: ../lessons/installing-python-modules-pip
+  [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
+  [Installing Python Modules with pip]: /lessons/installing-python-modules-pip
   [Cascading Style Sheets]: http://www.w3schools.com/css/
   [Code Academy’s]: http://www.codecademy.com/courses/css-coding-with-style

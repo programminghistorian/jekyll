@@ -1,17 +1,26 @@
 ---
 title: Preserving Your Research Data
+layout: lesson
+date: 2014-04-30
 authors:
 - James Baker
-date: 2014-04-30
 reviewers:
 - Jane Winters
 - Sharon Howard
 - William J. Turkel
 editors:
 - Adam Crymble
-layout: default
 difficulty: 1
+activity: sustaining
+topics: [data-management]
+abstract: "This lesson will suggest ways in which historians can document and structure their research data so as to ensure it remains useful in the future."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 #### Background
 
@@ -414,7 +423,7 @@ Biology Projects.PLoSComputBiol 5(7): e1000424 (2009)
 
 Oxford University Computing Services, 'Sudamih Project. Research
 Information Management: Organising Humanities Material' (2011)
-<http://doi.org/10.5281/zenodo.28329>
+<https://zenodo.org/record/28329>
 
 Pennock, Maureen, 'The Twelve Principles of Digital Preservation (and a
 cartridge in a repository…)', British Library Collection Care blog (3
