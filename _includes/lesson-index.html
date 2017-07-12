@@ -20,7 +20,7 @@
 {% endfor %}
 </ul>
 
-<div id="filter-none">{{site.data.snippets.reset-button[page.lang]}} ({{ site.pages | where:"lesson","true" | size }})</div>
+<div id="filter-none">{{site.data.snippets.reset-button[page.lang]}} ({{  alllessons | size  }})</div>
 
 <!-- this div ('lesson-list', referenced in lessonfilter.js) needs to contain the sort button/elements AND the actual list for the sort buttons to work -->
 <div id="lesson-list">
