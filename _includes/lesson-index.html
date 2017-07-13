@@ -3,11 +3,10 @@
 {% endcomment %}
 
 <ul class="filter activities">
-  <li id="filter-acquiring" class="filter">{{site.data.snippets.acquire-button[page.lang]}} ({{ alllessons | where:"activity","acquiring" | size }})</li>
-  <li id="filter-transforming" class="filter">{{site.data.snippets.transform-button[page.lang]}} ({{ alllessons | where:"activity","transforming" | size }})</li>
-  <li id="filter-analyzing" class="filter">{{site.data.snippets.analyze-button[page.lang]}} ({{ alllessons | where:"activity","analyzing" | size }})</li>
-  <li id="filter-presenting" class="filter">{{site.data.snippets.present-button[page.lang]}} ({{ alllessons | where:"activity","presenting" | size }})</li>
-  <li id="filter-sustaining" class="filter">{{site.data.snippets.sustain-button[page.lang]}} ({{ alllessons | where:"activity","sustaining" | size }})</li>
+  {% for activity in site.data.activities %}
+  {% assign atype = activity.type %}
+  <li id="filter-{{ atype }}" class="filter">{{ activity[page.lang]}} ({{ alllessons | where:"activity",atype | size }})</li>
+  {% endfor %}
 </ul>
 
 <ul class="filter topics">

@@ -20,7 +20,7 @@ module MyModule
       valid_topics = site.data["topics"].map{|t| t["type"]}
 
       # Collect all valid activities
-      valid_activites = ["acquiring", "analyzing", "transforming", "presenting", "sustaining"]
+      valid_activites = site.data["activities"].map{|t| t["type"]}
 
       valid_difficulties = [1, 2, 3]
 

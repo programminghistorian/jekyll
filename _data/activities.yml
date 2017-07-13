@@ -1,0 +1,15 @@
+- type: acquiring
+  en: acquire
+  es: obtener
+- type: transforming
+  en: transform
+  es: transformar
+- type: analyzing
+  en: analyze
+  es: analizar
+- type: presenting
+  en: present
+  es: presentar
+- type: sustaining
+  en: sustain
+  es: preservar

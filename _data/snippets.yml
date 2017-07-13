@@ -111,31 +111,6 @@ footer:
     es: Envíanos tus comentarios
 
 # lesson-index
-acquire-button:
-  en:
-    acquire
-  es:
-    obtener
-transform-button:
-  en:
-    transform
-  es:
-    transformar
-analyze-button:
-  en:
-    analyze
-  es:
-    analizar
-present-button:
-  en:
-    present
-  es:
-    presentar
-sustain-button:
-  en:
-    sustain
-  es:
-    preservar
 reset-button:
   en:
     reset to see all lessons
