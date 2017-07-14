@@ -20,7 +20,7 @@ redirect_from: /es/lessons/from-html-to-list-of-words-1
 difficulty: 2
 activity: transforming
 topics: [python]
-abstract: 
+abstract: "En esta lección en dos partes partiremos de lo que has aprendido sobre Descargar páginas web con Python, para aprender cómo remover las etiquetas HTML de la página web de la transcripción del juicio criminal contra Benjamin Bowsey de 1780. Lograremos esto utilizando una variedad de operadores de cadenas, métodos de cadenas y habilidades de lectura cercana. Vamos a presentar bucles (looping) y condicionales (branching), de manera que los programas puedan repetir tareas y pruebas para ciertas condiciones, haciendo posible separar el contenido de las etiquetas HTML. Por último, convertimos el contenido de una cadena larga a una lista de palabras que posteriormente podrán ser ordenadas, indexadas y contadas." 
 ---
 
 {% include toc.html %}
