@@ -20,6 +20,7 @@ redirect_from: /es/lessons/creating-and-viewing-html-files-with-python
 difficulty: 2
 activity: presenting
 topics: [python, website]
+abstract: "Aquí aprenderás cómo crear archivos HTML con scripts de Python, y cómo utilizar Python para abrir un archivo HTML en Firefox."
 ---
 
 {% include toc.html %}
