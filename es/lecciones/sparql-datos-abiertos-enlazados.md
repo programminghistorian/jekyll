@@ -21,6 +21,7 @@ redirect_from: /es/lessons/graph-databases-and-SPARQL
 difficulty: 2
 activity: acquiring
 topics: [lod]
+abstract: "Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos y cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL."
 ---
 
 Objetivos de la lección
