@@ -17,6 +17,7 @@ redirect_from: /es/lessons/up-and-running-with-omeka
 difficulty: 1
 activity: presenting
 topics: [website]
+abstract: "Con Omeka.net es fácil crear sitios web que contengan colecciones de ítems."
 ---
 
 {% include toc.html %}
