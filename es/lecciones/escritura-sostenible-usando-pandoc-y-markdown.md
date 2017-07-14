@@ -17,6 +17,7 @@ layout: lesson
 difficulty: 2
 activity: sustaining
 topics: [website, data-management]
+abstract: "En este tutorial aprenderás lo básico de Markdown—una sintaxis de marcado para texto plano que es fácil de leer y de escribir así como Pandoc, una herramienta de línea de comandos que convierte el texto plano en varios tipos de archivos bellamente formateados: PDF, .docx, HTML, LaTeX, presentaciones de diapositivas y más."
 redirect_from: /es/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 ---
 
