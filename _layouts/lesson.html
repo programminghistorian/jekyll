@@ -112,7 +112,7 @@ layout: base
 
   <div class="container">
 
-    {% if page.redirect_from %}
+    {% if page.redirect_from and page.lang == 'es' %}
       <div class="alert alert-warning">
         Esta lección fue publicada originalmente en Inglés. Es posible que desee consulte <a href="/lessons/{{slug}}">el original</a>.
       </div>
