@@ -12,10 +12,6 @@ module MyModule
       # Empty array to collect all errors across the site
       total_errors = Array.new
 
-      # ANSI codes to color the warnings red
-      red = "\e[31m"
-      clear = "\e[0m"
-
       # Collect all valid topics
       valid_topics = site.data["topics"].map{|t| t["type"]}
 
@@ -105,15 +101,22 @@ module MyModule
           end
         end
 
+        def format_red(error)
+          # ANSI codes to color the warnings red
+          red = "\e[31m"
+          clear = "\e[0m"
+          "#{red}#{error}#{clear}"
+        end
+
         unless page_errors.empty?
           # Throw a warning with the filename
-          warn "#{red}* In #{p.dir}#{p.name}:#{clear}"
+          warn format_red("* In #{p.dir}#{p.name}:")
           
           # Add some formatting to the errors and then throw them
           unit_errors = page_errors.map{|e| "  - [ ] #{e}"}
 
           unit_errors.each do |e|
-            warn "#{red}#{e}#{clear}"
+            warn format_red(e)
           end
 
           # Finally, add all errors on the page to the master error list
@@ -123,7 +126,7 @@ module MyModule
 
       # Iff there were page errors, raise an exception that will halt the build
       unless total_errors.empty?
-        raise "#{red}There were YAML errors.#{clear}"
+        raise format_red("There were YAML errors.")
       end
     end
   end
