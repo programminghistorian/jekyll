@@ -272,14 +272,13 @@ Por último, añade la imagen a la lección editando la página HTML en [leccion
 
 ### 8) Incorpora tu lección en nuestro Twitter bot
 
-Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos un Twitter bot para volver a promocionar lecciones pasadas. Para añadir la lección nueva a nuestro *pipeline* deberás añadirla como una fila en esta [hoja de cálculo](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=904817529). Todos los miembros del equipo editorial deben poder hacer cambios; envía un correo electrónico al grupo de google si tienes algún inconveniente. Deberás insertar una nueva fila para tu lección al final de la tabla con los siguientes campos: 
+Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos un Twitter bot para volver a promocionar lecciones pasadas. Para añadir la lección nueva a nuestro *pipeline* deberás añadirla como una fila en esta [hoja de cálculo](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=904817529). Todos los miembros del equipo editorial deben poder hacer cambios; envía un correo electrónico al grupo de google si tienes algún inconveniente. Deberás insertar una nueva fila para tu lección al final de la tabla con los siguientes campos:
 
-    id (columna A) - un número. Simplemente súmale uno al número de id de la leccion anterior.
-    message_one (columna B) - un mensaje de twitter para circular al comienzo de la semana.
-    message_two (columna C) - un mensaje de twitter “En caso de que te lo hayas perdido” para circular ms tarde en la semana.
-    link (columna D) - el enlace a la lección.
+    message_one (columna A) - un mensaje de twitter para circular al comienzo de la semana.
+    message_two (columna B) - un mensaje de twitter “En caso de que te lo hayas perdido” para circular ms tarde en la semana.
+    link (columna C) - el enlace a la lección.
 
-Deja la columna E en blanco y sin tocar - este campo es utilizado por el Twitter bot para registrar su progeso en la lista. Ten en cuenta además que este paso no reemplaza tu propia promoción de la lección. El bot escoge las lecciones aleatoriamente, una cada la semana, así que pueden pasar meses hasta que tu lección aparezca por este medio. 
+Deja la columna D en blanco y sin tocar - este campo es utilizado por el Twitter bot para registrar su progeso en la lista. Ten en cuenta además que este paso no reemplaza tu propia promoción de la lección. El bot escoge las lecciones aleatoriamente, una cada la semana, así que pueden pasar meses hasta que tu lección aparezca por este medio. 
 
 ### 9) Da las gracias a todo el mundo y difunde el tutorial
 
