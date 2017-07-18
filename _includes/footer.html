@@ -8,7 +8,7 @@
 
 <div class="row">
   <div class="col-sm-12 footer-head">
-    {{ site.data.snippets.footer.ph-released[page.lang] }} <a href="{{ site.data.snippets.footer.cc-link[page.lang] }}" rel="license">CC-BY</a> {{ site.data.snippets.footer.license[page.lang] }}.</p>
+    {{ site.data.snippets.footer.license[page.lang] | markdownify }}
   </div>
 </div>
 

@@ -88,15 +88,9 @@ menu-lang:
 
 # site footer
 footer:
-  ph-released:
-    en: <em>The Programming Historian</em> is released under the
-    es: <em>The Programming Historian en español</em> se publica con
   license:
-    en: license
-    es: licencia
-  cc-link:
-    en: https://creativecommons.org/licenses/by/4.0/deed.en
-    es: https://creativecommons.org/licenses/by/4.0/deed.es
+    en: _The Programming Historian_ is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license.
+    es: _The Programming Historian en español_ se publica con una licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es).
   gh-hosted:
     en: Hosted on GitHub
     es: Alojado en GitHub
