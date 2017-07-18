@@ -20,7 +20,7 @@ redirect_from: /es/lessons/output-data-as-html-file
 difficulty: 2
 activity: transforming
 topics: [python, website]
-abstract: "Esta lección toma los pares de frecuencia creados en [Contar frecuencias de palabras con Python][] y crea una salida de datos a un archivo HTML."
+abstract: "Esta lección toma los pares de frecuencia creados en 'Contar frecuencias de palabras con Python' y crea una salida de datos a un archivo HTML."
 ---
 
 {% include toc.html %}
