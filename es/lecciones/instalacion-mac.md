@@ -19,6 +19,7 @@ redirect_from: /es/lessons/mac-installation
 difficulty: 1
 activity: transforming
 topics: [get-ready, python]
+abstract: "Este turoial te ayudará a configurar un entorno de desarrollo integrado para Python en un computador con el sistema operativo de Apple."
 ---
 
 {% include toc.html %}
