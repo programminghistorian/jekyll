@@ -6,6 +6,9 @@ layout: blank
 # Project Scholarship
 The project team and members of the wider community are involved in a number of scholarly initiatives related to our work here at _Programming Historian_. These include events, journal articles, reviews (of us by the community), and posters. If you are conducting academic research using this project please let us know.
 
+# Original Programming Historian
+* William J. Turkel and Alan MacEachern, [_The Programming Historian_](http://niche-canada.org/wp-content/uploads/2013/09/programming-historian-1.pdf) 1st edition (Network in Canadian History &amp; Environment: 2007-2008).
+
 ## Reviews
 * Lincoln Mullen, '[Review of the Programming Historian](http://jah.oxfordjournals.org/content/103/1/299.2.full)', _The Journal of American History_, vol. 103, no. 1 (2016), pp. 299-301.
 * Cameron Blevins, '[Review of the Programming Historian](http://jitp.commons.gc.cuny.edu/review-of-the-programming-historian/)', _The Journal of Interactive Technology & Pedagogy_, vol. 8 (2015).
