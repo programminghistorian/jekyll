@@ -20,6 +20,7 @@ redirect_from: /es/lessons/manipulating-strings-in-python
 difficulty: 2
 activity: transforming
 topics: [python]
+abstract: "Esta lección es una rápida introducción a técnicas de manipulación de cadenas de caracteres (o strings) en Python." 
 ---
 
 {% include toc.html %}
