@@ -20,6 +20,8 @@ redirect_from: /es/lessons/cleaning-data-with-openrefine
 difficulty: 2
 activity: transforming
 topics: [data-manipulation]
+abstract: "Este tutorial se enfoca en cómo los académicos pueden diagnosticar y tomar acciones para asegurar la precisión de sus datos."   
+
 ---
 
 {% include toc.html %}
