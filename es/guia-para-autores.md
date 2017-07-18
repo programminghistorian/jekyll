@@ -145,7 +145,7 @@ Y se visualiza así:
 
 Como toda revista académica, *The Programming Historian en español* también tiene su estilo propio, que esperamos que los autores y traductores sigan de manera consistente a lo largo de las lecciones. A diferencia de la mayoría de revistas, sin embargo, no seguir con estas normas de estilo no solo disminuye la consistencia estilística sino que también afecta a la visualización del archivo entero.
 
-> Si ya estás familiarizado con Markdown, por favor, ten en cuenta que algunas de nuestras normas de estilo funcionan porque utilizamos una versión extendida de Markdown y una serie de *scripts* específicos para nuestro sitio web. En otra palabras, el marcado de ilustraciones, tablas, bloques de código, citas, notas a pie de página y énfasis sigue una sintaxis propia, que puede no funcionar en otros sitios web creados con Markdown.
+> Si ya estás familiarizado con Markdown, por favor, ten en cuenta que algunas de nuestras normas de estilo funcionan porque utilizamos una versión extendida de Markdown y una serie de *scripts* específicos para nuestro sitio web. En otras palabras, el marcado de ilustraciones, tablas, bloques de código, citas, notas a pie de página y énfasis sigue una sintaxis propia, que puede no funcionar en otros sitios web creados con Markdown.
 
 
 ### Ilustraciones
