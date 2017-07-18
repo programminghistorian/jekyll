@@ -20,6 +20,7 @@ redirect_from: /es/lessons/keywords-in-context-using-n-grams
 difficulty: 2
 activity: presenting
 topics: [python]
+abstract: "Esta lección retoma los pares de frecuencias recolectados en [Contar frecuencias de palabras][] y crea una salida de datos en HTML." 
 ---
 
 {% include toc.html %}
