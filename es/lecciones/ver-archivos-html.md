@@ -21,6 +21,7 @@ redirect_from: /es/lessons/viewing-html-files
 difficulty: 2
 activity: presenting
 topics: [python]
+abstract: "Esta lección te introduce a las estructuras de HTML y de páginas web." 
 ---
 
 {% include toc.html %}
