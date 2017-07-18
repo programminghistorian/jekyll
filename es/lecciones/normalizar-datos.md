@@ -21,6 +21,7 @@ redirect_from: /es/lessons/normalizing-data
 difficulty: 2
 activity: transforming
 topics: [python]
+abstract: "En esta lección haremos que la lista que creamos en'De HTML a lista de palabras (parte 2)' sea más fácil de analizar al “normalizar” los datos." 
 ---
 
 {% include toc.html %}
