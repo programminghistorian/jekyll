@@ -20,6 +20,7 @@ redirect_from: /es/lessons/working-with-text-files
 difficulty: 2
 activity: transforming
 topics: [python]
+abstract: "En esta lección aprenderás a manipular archivos de texto utilizando Python."
 ---
 
 {% include toc.html %}
