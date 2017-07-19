@@ -38,6 +38,10 @@ programs into *Modules*, in order to keep everything concise and easier to
 debug. Being able to remove a single dysfunctional module can save time
 and effort.
 
+## Python Version
+
+This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
+
 ### Functions
 
 You will often find that you want to re-use a particular set of
