@@ -37,6 +37,10 @@ Internet, and display them clearly in your browser window.
 If you do not have these files from the previous lesson, you can
 download a [zip file from the previous lesson][]
 
+## Python Version
+
+This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
+
 ## Making an N-Gram Dictionary
 
 Our n-grams have an odd number of words in them for a reason. At this
