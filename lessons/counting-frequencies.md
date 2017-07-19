@@ -39,6 +39,10 @@ processes used to calculate frequencies in a list.
 If you do not have these files, you can
 download a ([zip][]) file containing all of the code from the previous lessons in this series.
 
+## Python Version
+
+This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
+
 ## Frequencies
 
 Now we want to count the frequency of each word in our list. You’ve
