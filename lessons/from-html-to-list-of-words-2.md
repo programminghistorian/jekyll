@@ -51,6 +51,10 @@ tags. The second half of the algorithm does the following:
 If you do not have these files, you can
 download python-lessons2.zip, a ([zip][]) file from the previous lesson.
 
+## Python Version
+
+This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
+
 ## Repeating and Testing in Python
 
 The next stage in implementing the algorithm is to look at every
