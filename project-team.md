@@ -6,7 +6,7 @@ layout: blank
 # Project Team
 Looking for someone to contact? Please direct correspondence in the first instance to **<a href="mailto:jeri.elizabeth%2Bproghist@gmail.com">Jeri Wieringa</a>** at George Mason University, our acting commissioning editor.
 
-You can follow *The Programming Historian* on Twitter: [@proghist](http://twitter.com/proghist).
+You can follow the _Programming Historian_ on Twitter: [@proghist](http://twitter.com/proghist).
 
 ## Editorial Board
 
@@ -27,12 +27,12 @@ All editorial board information should be edited in data/authors.yml. Authors wh
 
 ## Community Participants
 
-*Programming Historian* also benefits enormously from the efforts of
+The _Programming Historian_ also benefits enormously from the efforts of
 people who volunteer their time and energy. If you are interested in
 pitching in, either for a single project or in an ongoing role, please
 find out [how to contribute](/contribute)!
 
-We are especially grateful to the dedicated Programming Historian authors who are not members of the Project Team:
+We are especially grateful to the dedicated _Programming Historian_ authors who are not members of the Project Team:
 
 {% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](/contribute).
 
