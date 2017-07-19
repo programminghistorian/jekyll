@@ -41,7 +41,7 @@ From time to time we may advertise that we are seeking more editors.
 
 If you are fluent in both English and Spanish, you are invited to get in touch with us about translating one of our published Programming Historian lessons into Spanish. This will help us to build a Spanish-language digital humanities community, and to build your language, method, and technological skills.
 
-We are seeking rigorous and readable translations that take into account the Spanish-language research context and the resources available in our community. If you are interested in collaborating, consult our [instructions for authors and translators](http://programminghistorian.org/es/guia-para-autores.html).
+We are seeking rigorous and readable translations that take into account the Spanish-language research context and the resources available in our community. If you are interested in collaborating, consult our [instructions for authors and translators](/es/guia-para-autores.html).
 
 ## Provide feedback or report problems
 
