@@ -540,7 +540,7 @@ saver.
   [What is Unicode]: http://www.unicode.org/standard/WhatIsUnicode.html
   [comma separated value]: http://en.wikipedia.org/wiki/Comma-separated_values
   [Counting Frequencies]: /lessons/counting-frequencies
-  [Library of Congress]: http://www.lcweb.loc.gov/catdir/cpso/romanization/russian.pdf
+  [Library of Congress]: http://web.archive.org/web/20170312041508/http://www.lcweb.loc.gov/catdir/cpso/romanization/russian.pdf
   [Wikipedia has a table]: http://en.wikipedia.org/wiki/Cyrillic_script_in_Unicode
   [Unicode website]: http://www.unicode.org/charts/
   [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
