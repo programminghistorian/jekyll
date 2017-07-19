@@ -55,7 +55,7 @@ understand it when you see it.
 
 ## Python Version
 
-This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
+This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](/lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
 
 ## Devising an Algorithm
 
