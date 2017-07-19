@@ -32,6 +32,10 @@ lessons, you can write and execute short programs as we’ve been doing in previ
 or you can open up a Python shell / Terminal to try them out on the
 command line.
 
+## Python Version
+
+This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
+
 ## Manipulating Python Strings
 
 If you have been exposed to another programming language before, you
