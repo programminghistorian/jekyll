@@ -51,6 +51,10 @@ from the Internet, and display them clearly in your browser window.
 If you do not have these files from the previous lesson, you can
 download programming-historian-7, a [zip file from the previous lesson][]
 
+## Python Version
+
+This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
+
 ## From Text to N-Grams to KWIC
 
 Now that you know how to harvest the textual content of a web page
