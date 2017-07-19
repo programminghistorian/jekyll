@@ -23,7 +23,7 @@ title: The Programming Historian
 <div class="home-block ">
 <div class="container">
 <h2>Teach</h2>
-<p>Use <i>Programming Historian</i> in your classes or workshops! Please <a href="feedback.html">let us know</a> how we can improve our lessons to suit your needs, or if you run into trouble using one.</p>
+<p>Use the <i>Programming Historian</i> in your classes or workshops! Please <a href="feedback.html">let us know</a> how we can improve our lessons to suit your needs, or if you run into trouble using one.</p>
 </div>
 </div>
 
@@ -37,6 +37,6 @@ title: The Programming Historian
 <div class="home-block">
 <div class="container">
 <h2>Our Team</h2>
-<p>As a volunteer, community-driven resource, we take pride in showing off and giving credit to the  <a href="project-team.html">great many people</a> who have contributed their time and energy to <i>Programming Historian</i>.</p>
+<p>As a volunteer, community-driven resource, we take pride in showing off and giving credit to the  <a href="project-team.html">great many people</a> who have contributed their time and energy to the <i>Programming Historian</i>.</p>
 </div>
 </div>
