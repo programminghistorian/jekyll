@@ -31,6 +31,10 @@ This lesson introduces *Uniform Resource Locators* (URLs) and explains how
 to use Python to download and save the contents of a web page to your
 local hard drive.
 
+## Python Version
+
+This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
+
 ### About URLs
 
 A *web page* is a file that is stored on another computer, a machine known
