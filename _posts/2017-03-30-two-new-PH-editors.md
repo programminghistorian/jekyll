@@ -21,5 +21,5 @@ Brandon Walsh is Head of Graduate Programs in the Scholars' Lab in the Universit
 
 Welcome to the team to both of them!
 
-<a href="http://programminghistorian.org/new-lesson-workflow">Please get in touch with us</a> if you've got an idea that touches on either of those research areas!
+<a href="/author-guidelines">Please get in touch with us</a> if you've got an idea that touches on either of those research areas!
 
