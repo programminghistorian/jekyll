@@ -55,6 +55,10 @@ keep a backup copy so you can access them without Internet access.
 
 This lesson is for intermediate Python users. If you have not already tried the [Python Programming Basics][] lessons, you may find that a useful starting point.
 
+## Python Version
+
+This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
+
 ## Applying our Historical Knowledge
 
 In this lesson, we are trying to create our own corpus of cases related
