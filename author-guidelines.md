@@ -1,6 +1,7 @@
 ---
 title: Author Guidelines
 layout: blank
+redirect_from: /new-lesson-workflow
 ---
 
 # Author Guidelines
