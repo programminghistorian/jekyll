@@ -53,6 +53,10 @@ understand it when you see it.
 
 -   *[obo-t17800628-33.html][]*
 
+## Python Version
+
+This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
+
 ## Devising an Algorithm
 
 Since the goal is to get rid of the HTML, the first step is to create an
