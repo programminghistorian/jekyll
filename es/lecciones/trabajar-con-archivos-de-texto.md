@@ -17,6 +17,7 @@ layout: lesson
 next: reutilizacion-de-codigo-y-modularidad
 previous: ver-archivos-html
 redirect_from: /es/lessons/working-with-text-files
+python_warning: true
 difficulty: 2
 activity: transforming
 topics: [python]

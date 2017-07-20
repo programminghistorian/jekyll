@@ -18,6 +18,7 @@ layout: lesson
 next: contar-frecuencias
 previous: de-html-a-lista-de-palabras-2
 redirect_from: /es/lessons/normalizing-data
+python_warning: true
 difficulty: 2
 activity: transforming
 topics: [python]

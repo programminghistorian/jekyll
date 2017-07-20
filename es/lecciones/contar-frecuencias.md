@@ -21,6 +21,7 @@ difficulty: 2
 activity: analyzing
 topics: [python]
 abstract: "Contar la frecuencia de palabras específicas en una lista puede proveer datos ilustrativos. Con esta lección aprenderás una forma fácil para contar dichas frecuencias usando Python."  
+python_warning: true
 ---
 
 {% include toc.html %}
