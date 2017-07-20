@@ -16,6 +16,7 @@ abstract: "This lesson takes the frequency pairs created in the 'Counting
 Frequencies' lesson and outputs them to an HTML file."
 next: keywords-in-context-using-n-grams
 previous: creating-and-viewing-html-files-with-python
+python_warning: true
 ---
 
 {% include toc.html %}
@@ -41,10 +42,6 @@ appears.
 
 If you do not have these files from the previous lesson, you can
 download programming-historian-6, a [zip file from the previous lesson][]
-
-## Python Version
-
-This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](/lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
 
 ## Building an HTML wrapper
 

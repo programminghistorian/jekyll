@@ -16,6 +16,7 @@ topics: [python]
 abstract: "In this lesson, we will make the list we created in the 'From HTML to a List of Words' lesson easier to analyze by normalizing this data."
 next: counting-frequencies
 previous: from-html-to-list-of-words-2
+python_warning: true
 ---
 
 {% include toc.html %}
@@ -39,10 +40,6 @@ data.
 
 If you do not have these files from the previous lesson, you can
 download a [zip][]
-
-## Python Version
-
-This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](/lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
 
 ## Cleaning up the List
 

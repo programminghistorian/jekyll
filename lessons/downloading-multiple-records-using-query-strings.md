@@ -14,6 +14,7 @@ activity: acquiring
 topics: [web-scraping]
 abstract: "Downloading a single record from a website is easy, but downloading many records at a time – an increasingly frequent need for a historian – is much more efficient using a programming language such as Python. In this lesson, we will write a program that will download a series of records from the Old Bailey Online using custom search criteria, and save them to a directory on our computer."
 previous: output-keywords-in-context-in-html-file
+python_warning: true
 ---
 
 {% include toc.html %}
@@ -54,10 +55,6 @@ simply reformat them to make browsing easier. Or, you may just want to
 keep a backup copy so you can access them without Internet access.
 
 This lesson is for intermediate Python users. If you have not already tried the [Python Programming Basics][] lessons, you may find that a useful starting point.
-
-## Python Version
-
-This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](/lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
 
 ## Applying our Historical Knowledge
 

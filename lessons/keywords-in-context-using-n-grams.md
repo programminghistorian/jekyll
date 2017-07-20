@@ -15,6 +15,7 @@ topics: [python]
 abstract: "This lesson takes the frequency pairs collected in [Counting Frequencies][] and outputs them in HTML."
 next: output-keywords-in-context-in-html-file
 previous: output-data-as-html-file
+python_warning: true
 ---
 
 {% include toc.html %}
@@ -50,10 +51,6 @@ from the Internet, and display them clearly in your browser window.
 
 If you do not have these files from the previous lesson, you can
 download programming-historian-7, a [zip file from the previous lesson][]
-
-## Python Version
-
-This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](/lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
 
 ## From Text to N-Grams to KWIC
 

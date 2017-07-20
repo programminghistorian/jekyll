@@ -13,6 +13,7 @@ difficulty: 2
 activity: acquiring
 topics: [data-manipulation]
 abstract: "This lesson will teach you how to use Python to extract a set of keywords very quickly and systematically from a set of texts."
+python_warning: true
 ---
 
 {% include toc.html %}
@@ -46,10 +47,6 @@ This tutorial assumes that you have already installed Python version 2 on your c
 * [String](https://docs.python.org/2/library/string.html)
 
 The lesson touches on Regular Expressions, so some readers may find it handy to have the relevant Programming Historian lessons by [Doug Knox](/lessons/understanding-regular-expressions) or [Laura Turner O'Hara](/lessons/cleaning-ocrd-text-with-regular-expressions) open to consult as needed.
-
-## Python Version
-
-This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](/lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
 
 ## Familiarising yourself with the data
 

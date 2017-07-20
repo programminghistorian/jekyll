@@ -15,6 +15,7 @@ topics: [python]
 abstract: "Counting the frequency of specific words in a list can provide illustrative data. This lesson will teach you Python's easy way to count such frequencies."
 next: creating-and-viewing-html-files-with-python
 previous: normalizing-data
+python_warning: true
 ---
 
 {% include toc.html %}
@@ -38,10 +39,6 @@ processes used to calculate frequencies in a list.
 
 If you do not have these files, you can
 download a ([zip][]) file containing all of the code from the previous lessons in this series.
-
-## Python Version
-
-This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](/lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
 
 ## Frequencies
 

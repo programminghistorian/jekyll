@@ -15,6 +15,7 @@ topics: [python]
 abstract: "In this lesson you will learn how to manipulate text files using Python."
 next: code-reuse-and-modularity
 previous: viewing-html-files
+python_warning: true
 ---
 
 {% include toc.html %}
@@ -38,10 +39,6 @@ written and executed in Komodo Edit.
 
 Python makes it easy to work with files and text. Let’s begin with
 files.
-
-## Python Version
-
-This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](/lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
 
 ## Creating and Writing to a Text File
 

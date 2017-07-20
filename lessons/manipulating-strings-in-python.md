@@ -15,6 +15,7 @@ topics: [python]
 abstract: "This lesson is a brief introduction to string manipulation techniques in Python."
 next: from-html-to-list-of-words-1
 previous: working-with-web-pages
+python_warning: true
 ---
 
 {% include toc.html %}
@@ -31,10 +32,6 @@ text processing tasks. If you’d like to experiment with the following
 lessons, you can write and execute short programs as we’ve been doing in previous lessons in the series,
 or you can open up a Python shell / Terminal to try them out on the
 command line.
-
-## Python Version
-
-This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](/lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
 
 ## Manipulating Python Strings
 
