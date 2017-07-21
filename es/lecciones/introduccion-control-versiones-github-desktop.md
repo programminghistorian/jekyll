@@ -2,7 +2,7 @@
 title: Introducción al control de versiones con GitHub Desktop
 authors: 
 - Daniel van Strien
-date: 2016-06-17
+date: 2016-04-07
 reviewers:
 - Ethan Miller
 - Lisa Spiro

@@ -3,6 +3,7 @@ title: Instalar módulos de Python con pip
 authors:
 - Fred Gibbs
 date: 2013-05-06
+translation_date: 2017-04-20
 reviewers:
 - Ben Hurwitz
 - Amanda Morton

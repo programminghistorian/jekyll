@@ -3,6 +3,7 @@ title: Poniendo Omeka a funcionar
 authors:
 - Miriam Posner
 date: 2016-02-17
+translation_date: 2017-26-04
 reviewers:
 - Sheila Brennan
 editors:
