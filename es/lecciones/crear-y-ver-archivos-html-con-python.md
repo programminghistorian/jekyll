@@ -21,6 +21,7 @@ difficulty: 2
 activity: presenting
 topics: [python, website]
 abstract: "Aquí aprenderás cómo crear archivos HTML con scripts de Python, y cómo utilizar Python para abrir un archivo HTML en Firefox."
+python_warning: true
 ---
 
 {% include toc.html %}

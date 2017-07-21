@@ -16,6 +16,7 @@ abstract: "In this two-part lesson, we will build on what you’ve learned about
 indexed, and counted."
 next: from-html-to-list-of-words-2
 previous: manipulating-strings-in-python
+python_warning: true
 ---
 
 {% include toc.html %}
@@ -52,10 +53,6 @@ understand it when you see it.
 ### Files Needed For This Lesson
 
 -   *[obo-t17800628-33.html][]*
-
-## Python Version
-
-This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](/lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
 
 ## Devising an Algorithm
 

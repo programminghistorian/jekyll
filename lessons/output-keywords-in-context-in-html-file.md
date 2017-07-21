@@ -15,6 +15,7 @@ topics: [python]
 abstract: "This lesson builds on 'Keywords in Context (Using N-grams)', where n-grams were extracted from a text. Here, you will learn how to output all of the n-grams of a given keyword in a document downloaded from the Internet, and display them clearly in your browser window."
 next: downloading-multiple-records-using-query-strings
 previous: keywords-in-context-using-n-grams
+python_warning: true
 ---
 
 {% include toc.html %}
@@ -36,10 +37,6 @@ Internet, and display them clearly in your browser window.
 
 If you do not have these files from the previous lesson, you can
 download a [zip file from the previous lesson][]
-
-## Python Version
-
-This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. '[Python Introduction and Installation](/lessons/introduction-and-installation)' provides instructions for how you can install Python 2.x alongside newer versions.
 
 ## Making an N-Gram Dictionary
 

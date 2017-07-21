@@ -17,6 +17,7 @@ layout: lesson
 next: salida-palabras-clave-contexto-ngrams
 previous: salida-de-datos-como-archivo-html
 redirect_from: /es/lessons/keywords-in-context-using-n-grams
+python_warning: true
 difficulty: 2
 activity: presenting
 topics: [python]
