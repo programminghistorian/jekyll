@@ -3,7 +3,7 @@ title: "De la hermeneútica a las redes de datos: Extracción de datos y visuali
 authors:
 - Marten Düring
 date: 2015-02-18
-translation_date: 2017-26-04
+translation_date: 2017-04-26
 reviewers:
 - Fred Gibbs
 - Ryan Cordell
