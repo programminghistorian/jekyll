@@ -24,6 +24,10 @@
         Hertfordshire.
     es: |
         Adam Crymble es profesor de historia digital en la Universidad de Hertfordshire.
+  team_roles:
+   - editorial
+   - community
+   - board
 
 - name: Caleb McDaniel
   twitter: wcaleb
@@ -58,6 +62,11 @@
         Ian will be on parental leave between June and October 2017.
     es: |
         Tiene interés en editar lecciones sobre análisis de redes, análisis textual y minería de datos, y, en general, lecciones de nivel intermedio o superior.
+  team_roles:
+   - editorial
+   - board
+   - ombuds
+
 
 - name: Fred Gibbs
   email: fwgibbs@gmail.com
@@ -94,7 +103,11 @@
         Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una organización sin
         ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro, así como promover proyectos de humanidades 
         digitales. Es profesora de humanidades digitales en la Universidad de los Andes en Bogotá, Colombia.
-
+  team_roles:
+   - spanish
+   - ombuds-es
+   - board
+   
 - name: Víctor Gayol
   url: "https://victorgayol.net"
   email: vgayol@colmich.edu.mx
@@ -107,7 +120,11 @@
         Víctor Gayol is a researcher and professor of history at El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
     es: |
         Víctor Gayol es profesor investigador en el Centro de Estudios Históricos de El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
-
+  team_roles:
+   - spanish
+   - managing-es
+   - board
+   
 - name: Antonio Rojas Castro
   url: "http://antoniorojascastro.com"
   email: rojas.castro.antonio@gmail.com
@@ -120,7 +137,11 @@
         Antonio Rojas Castro is a researcher a the Cologne Center for eHumanities, with a PhD in Humanities (Spanish Literature).
     es: |
         Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en el Cologne Center for eHumanities.
-
+  team_roles:
+   - spanish
+   - managing-es
+   - board
+   
 - name: Stephen Margheim
   bio:
     en: |
@@ -342,7 +363,11 @@
         data visualization; network analysis; text and data mining; workflows; and introductory lessons.
     es: |
         Está interesada en trabajar con autores sobre los siguientes temas: accesibilidad y diseño de interfaces, visualización de datos, análisis de redes, minería de datos, flujos de trabajo y, en general, lecciones introductorias.
-
+  team_roles:
+   - editorial
+   - managing-es
+   - board
+   
 - name: Jon Crump
   team: false
   bio:
@@ -437,6 +462,10 @@
         Matthew Lincoln is a data research specialist at the Getty Research Institute, and an art historian of early modern Europe.
     es: |
         Matthew Lincoln es especialista en la investigación de datos en el Getty Research Institute e historiador del arte de la Europa moderna.
+  team_roles:
+   - editorial
+   - technical
+   - board
 
 - name: Sarah Simpkin
   twitter: sarahsimpkin
@@ -462,6 +491,10 @@
         As a PH ombudsperson, you can contact Amanda to discuss any issues or concerns around the PH review and publication process.
     es: |
         Amanda trabaja en las mejoras técnicas de la web de The Programming Historian
+  team_roles:
+   - technical
+   - ombuds
+   - board
 
 - name: Megan R. Brett
   twitter: magpie
@@ -485,7 +518,11 @@
         Brandon Walsh is Head of Graduate Programs in the Scholars' Lab in the University of Virginia Library.
     es: |
         Brandon Walsh es Jefe de Programas de Posgrado en el Laboratorio de Estudiosos en la Biblioteca de la Universidad de Virginia.
-
+  team_roles:
+   - editorial
+   - community
+   - board
+   
 - name: Ted Dawson
   team: false
   bio:
@@ -564,6 +601,10 @@
   interests:
     en: |
         She is interested in working with authors on geospatial lessons as well as textual-geospatial lessons.
+  team_roles:
+   - editorial
+   - managing-en
+   - board
 
 - name: Taylor Arnold
   url:
