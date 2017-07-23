@@ -164,7 +164,7 @@ the instructions appropriate for you below:
 
 ### Windows Instructions
 
-1.  Go to the [MALLET][] project page. Since we are using Mallet 2.0.7, you can download this older version from this [direct link](http://mallet.cs.umass.edu/dist/mallet-2.0.8.zip).
+1.  Go to the [MALLET][] project page. Since we are using Mallet 2.0.7, you can download this older version from this [direct link](http://mallet.cs.umass.edu/dist/mallet-2.0.7.zip).
 2.  You will also need the [Java developer's kit][] – that is, not the
     regular Java that's on every computer, but the one that lets you
     program things. Install this on your computer.
@@ -241,7 +241,7 @@ You are now ready to skip ahead to the next section.
 Many of the instructions for OS X installation are similar to Windows,
 with a few differences. In fact, it is a bit easier.
 
-1.  Download and [install MALLET 2.0.7](http://mallet.cs.umass.edu/dist/mallet-2.0.8.zip).
+1.  Download and [install MALLET 2.0.7](http://mallet.cs.umass.edu/dist/mallet-2.0.7.zip).
 2.  Download the [Java Development Kit][Java developer's kit].
 
 Unzip MALLET into a directory on your system (for ease of following
