@@ -9,3 +9,9 @@ Loops through members of editorial team and then generates their contact info us
     {% include contact-info.html name=membername %}
   {% endif %}
 {% endfor %}
+
+<ul>
+{% for team in site.data.teamroles %}
+  <li>{{ team.label[page.lang] }}: {{ team.definition[page.lang] }}</li>
+{% endfor %}
+</ul>
