@@ -1,0 +1,63 @@
+- type: editorial
+  label:
+    en: Editorial Team
+    es:
+  definition:
+    en: Responsible for editorial work resulting in the review and publication of lessons
+    es:
+- type: community
+  label:
+    en: Community Engagement
+    es:
+  definition:
+    en: Responsible for project outreach and impact
+    es:
+- type: board
+  label:
+    en: Editorial Board
+    es:
+  definition:
+    en: a fully-fledged member of the project team, involved in directing the project's future
+    es:
+- type: ombuds
+  label:
+    en: Ombudsperson
+    es:
+  definition:
+    en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
+    es:
+- type: spanish
+  label:
+    en: Spanish Team
+    es:
+  definition:
+    en: Responsible for the Spanish-language version of the project
+    es:
+- type: ombuds-es
+  label:
+    en: Ombudsperson (Spanish)
+    es:
+  definition:
+    en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
+    es:
+- type: managing-es
+  label:
+    en: Managing Editor (Spanish)
+    es:
+  definition:
+    en: First point of contact for authors with lesson ideas
+    es:
+- type: technical
+  label:
+    en: Technical Team
+    es:
+  definition:
+    en: Responsible for the technical features that bring the content and peer review to our community
+    es:
+- type: managing-en
+  label:
+    en: Managing Editor (English)
+    es:
+  definition:
+    en: First point of contact for authors with lesson ideas
+    es:
