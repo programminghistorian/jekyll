@@ -637,8 +637,25 @@
   bio:
     en: |
         Jonathan Blaney is a project editor at the Institute of Historical Research, University of London.
+        
 - name: Daniel Ruten
   team: false
   bio:
     en: |
         Daniel Ruten is entering graduate studies in history at the University of Saskatchewan.
+
+- name: Anandi Silva Knuppel
+  github: alsalin
+  email: anandi.silva.knuppel@emory.edu
+  twitter: anandilila
+  url: "http://anandileela.com"
+  team: true
+  sortname: Silva
+  bio:
+    en: |
+        Anandi Silva Knuppel is a digital scholarship training coordinator at Emory University.
+    es: |
+        Anandi Silva Knuppel is a digital scholarship training coordinator at Emory University.
+  team_roles:
+   - editorial
+   - board
