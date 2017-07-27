@@ -299,7 +299,7 @@ Lessons Index
     font-size:75%;
   }
 
-  .sort.asc:after, .sort-asc:after {
+  .sort.my-desc:after, .sort-desc:after {
     width: 0;
     height: 0;
     border-left: .4rem solid transparent;
@@ -311,7 +311,7 @@ Lessons Index
     right:-.3rem;
   }
 
-  .sort.desc:after, .sort-desc:after {
+  .sort.my-asc:after, .sort-asc:after {
     width: 0;
     height: 0;
     border-left: .4rem solid transparent;
@@ -323,12 +323,11 @@ Lessons Index
     right:-.3rem;
   }
 
-
-  .sort-asc:after {
+  .sort-desc:after {
     top:1rem;
   }
 
-  .sort-desc:after {
+  .sort-asc:after {
     bottom:1rem;
   }
 

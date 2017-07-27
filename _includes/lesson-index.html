@@ -21,15 +21,24 @@
 
 <div id="filter-none">{{site.data.snippets.reset-button[page.lang]}} ({{  alllessons | size  }})</div>
 
-<!-- this div ('lesson-list', referenced in lessonfilter.js) needs to contain the sort button/elements AND the actual list for the sort buttons to work -->
+<!--
+this div ('lesson-list', referenced in lessonfilter.js) needs to contain the sort button/elements AND the actual list for the sort buttons to work
+-->
 <div id="lesson-list">
 
+<!--
+List.js uses button classes of asc and desc to control sorting functionality. It also toggles those classes off and on with click events.
+To not interfere with that, we use my-asc and my-desc to control the arrows, since our desired behavior is different from what list.js does.
+More concretely: to sort asc, the button class needs to contain asc, but we use the arrow ON THE BUTTON to indicate what WILL happen,
+not what IS HAPPENING (the filter header displays the current sort state). In order to have a down arrow, we use a my-desc class.
+Yes, this is confusing. But using two differnt classes allows us to separate functionality and presentation.
+-->
   <ul class="sort-by">
-    <li id="sort-by-date" class="sort asc" data-sort="date">{{site.data.snippets.sort-by-date[page.lang]}}</li>
-    <li id="sort-by-difficulty" class="sort desc" data-sort="difficulty">{{site.data.snippets.sort-by-difficulty[page.lang]}}</li>
+    <li id="sort-by-date" class="sort" data-sort="date">{{site.data.snippets.sort-by-date[page.lang]}}</li>
+    <li id="sort-by-difficulty" class="sort" data-sort="difficulty">{{site.data.snippets.sort-by-difficulty[page.lang]}}</li>
   </ul>
 
-  <h2 class="results-title">Filtering Results: <span id="results-value">All lessons </span><span id="current-sort" class="sort-asc">{{site.data.snippets.date[page.lang]}}</span></h2>
+  <h2 class="results-title">Filtering Results: <span id="results-value">All lessons </span><span id="current-sort" class="sort-desc">{{site.data.snippets.date[page.lang]}}</span></h2>
 
   <ul class="list">
     {% for lesson in alllessons %}
@@ -43,6 +52,7 @@
 
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js'></script>
+<script src="{{ site.baseurl }}/js/URI.min.js"></script>
 <script src="{{ site.baseurl }}/js/lessonfilter.js"></script>
 
 <script>
