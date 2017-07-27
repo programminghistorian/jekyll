@@ -382,12 +382,10 @@ If you are unsure how directories work, we suggest the *Programming Historian* l
 
 ### For Mac
 
-Mac instructions are similar to those above for Windows, but keep in
-mind that Unix file paths (which are used by Mac) are different: for
-example, if the directory was in one's home directory, one would type
+Mac instructions are similar to those above for Windows, but note some of the differences below:
 
 ``` bash
-./bin/mallet import-dir --input /users/username/database/ --output tutorial.mallet --keep-sequence --remove-stopwords
+./bin/mallet import-dir --input sample-data/web/en --output tutorial.mallet --keep-sequence --remove-stopwords
 ```
 
 Issues with Big Data
