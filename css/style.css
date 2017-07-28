@@ -683,6 +683,11 @@ Figures
     border-bottom: 1px solid #ddd;
   }
 
+  thead {
+    background-color: #535353;
+    color: #fff;
+  }
+
   tr:nth-child(even) {background-color: #f2f2f2}
 
 /* =============================================================================
