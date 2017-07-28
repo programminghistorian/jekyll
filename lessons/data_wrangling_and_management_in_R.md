@@ -354,7 +354,7 @@ dplyr package.
 What is Dplyr?
 ==============
 
-[dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html)
+[dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/dplyr.html)
 is another part of the tidyverse that provides functions for
 manipulating and transforming your data. Because we are keeping our data
 "tidy," we only need a small set of tools to explore our data. Compared
