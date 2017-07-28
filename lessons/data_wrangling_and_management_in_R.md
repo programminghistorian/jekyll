@@ -17,6 +17,12 @@ layout: lesson
 review-ticket: 60
 ---
 
+{% include toc.html %}
+
+
+
+
+
 Assumptions
 ===========
 
