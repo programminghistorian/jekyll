@@ -34,18 +34,18 @@
     en: Responsible for the Spanish-language version of the project
     es:
 - type: ombuds-es
+  suffix:
+    en: (Spanish)
+    es: (Español)
   label:
-    en: Ombudsperson (Spanish)
-    es:
-  definition:
-    en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
+    en: Ombudsperson
     es:
 - type: managing-es
+  suffix:
+    en: (Spanish)
+    es: (Español)
   label:
-    en: Managing Editor (Spanish)
-    es:
-  definition:
-    en: First point of contact for authors with lesson ideas
+    en: Managing Editor
     es:
 - type: technical
   label:
@@ -55,8 +55,11 @@
     en: Responsible for the technical features that bring the content and peer review to our community
     es:
 - type: managing-en
+  suffix:
+    en: (English)
+    es: (Ingles)
   label:
-    en: Managing Editor (English)
+    en: Managing Editor
     es:
   definition:
     en: First point of contact for authors with lesson ideas

@@ -12,6 +12,8 @@ Loops through members of editorial team and then generates their contact info us
 
 <ul>
 {% for team in site.data.teamroles %}
+  {% if team.definition %}
   <li>{{ team.label[page.lang] }}: {{ team.definition[page.lang] }}</li>
+  {% endif %}
 {% endfor %}
 </ul>
