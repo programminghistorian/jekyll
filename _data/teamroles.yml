@@ -1,3 +1,9 @@
+# Definitions of editorial sub teams.
+# 
+# type: the tag added in authors.yml
+# label: Short label to be displayed alongside the author bio, and in the roles definition list
+# definition: Brief description of that editorial team
+
 - type: editorial
   label:
     en: Editorial Team
