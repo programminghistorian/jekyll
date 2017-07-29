@@ -4,7 +4,7 @@ authors:
 - Ian Milligan
 - James Baker
 date: 2014-09-20
-translation_date: 2017-07-29
+translation_date: 2017-29-07
 reviewers:
 - Melodee Beals
 - Allison Hegel
