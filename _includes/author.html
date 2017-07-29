@@ -8,18 +8,4 @@
   {% assign authors = lesson.authors %}
 {% endif %}
 
-{% assign authorCount = authors | size %}
-{% capture authorString %}
-{% if authorCount == 1 %}
-  {{ authors[0] }}
-{% elsif authorCount == 2 %}
-    {{ authors[0] }} {{ site.data.snippets.and[page.lang] }} {{ authors[1] }}
-{% else %}
-  {% for author in authors %}
-    {% if forloop.last %} {{ site.data.snippets.and[page.lang] }} {{ author }}
-    {% else %}{{ author }},{% endif %}
-  {% endfor %}
-{% endif %}
-{% endcapture %}
-
-{{ authorString }}
+{{ authors | array_to_sentence_string: site.data.snippets.and[page.lang] }}
