@@ -24,7 +24,7 @@ List subteams within the larger editorial team
 <p>
 {% for role in member.team_roles %}
 {% assign role_label = (site.data.teamroles | where: "type", role) | first %}
-<span class="badge badge-primary">{{ role_label.label[page.lang] }}{% if role_label.suffix %} {{ role_label.suffix[page.lang] }}{% endif %}</span>
+<span class="badge badge-primary">{{ role_label.label[page.lang] }}</span>
 {% endfor %}
 </p>
 

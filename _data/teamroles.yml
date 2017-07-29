@@ -40,18 +40,12 @@
     en: Responsible for the Spanish-language version of the project
     es:
 - type: ombuds-es
-  suffix:
-    en: (Spanish)
-    es: (Español)
   label:
-    en: Ombudsperson
+    en: Ombudsperson (Spanish)
     es:
 - type: managing-es
-  suffix:
-    en: (Spanish)
-    es: (Español)
   label:
-    en: Managing Editor
+    en: Managing Editor (Spanish)
     es:
 - type: technical
   label:
@@ -61,9 +55,6 @@
     en: Responsible for the technical features that bring the content and peer review to our community
     es:
 - type: managing-en
-  suffix:
-    en: (English)
-    es: (Ingles)
   label:
     en: Managing Editor
     es:
