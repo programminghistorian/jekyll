@@ -24,7 +24,7 @@ module MyModule
       required_fields = ["layout", "reviewers", "authors", "date", "title", "difficulty", "activity", "topics", "abstract"] 
 
       # Fields required only on es lessons
-      es_required_fields = ["translator", "translation-reviewer", "redirect_from"]
+      es_required_fields = ["translator", "translation-reviewer", "redirect_from", "translation_date"]
 
       # Fields required only on en lessons
       en_required_fields = ["editors"]
