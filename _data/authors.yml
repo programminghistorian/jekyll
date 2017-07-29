@@ -18,6 +18,11 @@
   url: "http://adamcrymble.org"
   team: true
   sortname: Crymble
+  affiliation: 
+    en: |
+        University of Hertfordshire, UK.
+    es: |
+        Universidad de Hertfordshire, Reino Unido.
   bio:
     en: |
         Adam Crymble is a lecturer of digital history at the University of
@@ -48,6 +53,11 @@
   url: "http://ianmilligan.ca"
   team: true
   sortname: Milligan
+  affiliation: 
+    en: |
+        University of Waterloo, Canada.
+    es: |
+        Universidad de Waterloo, Canadá.
   bio:
     en: |
         Ian Milligan is an associate professor of history at the University
@@ -94,6 +104,11 @@
   github: mariajoafana
   team: true
   sortname: Afandor-Llach
+  affiliation: 
+    en: |
+        Fundación Histórica Neogranadina, Colombia.
+    es: |
+        Fundación Histórica Neogranadina, Colombia.
   bio:
     en: |
         Maria José Afanador-Llach works in the Fundación Histórica Neogranadina,
@@ -115,6 +130,11 @@
   github: vgayolrs
   team: true
   sortname: Gayol
+  affiliation: 
+    en: |
+        El Colegio de Michoacán, A.C. (CPI-CONACYT), Mexico.
+    es: |
+        El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
   bio:
     en: |
         Víctor Gayol is a researcher and professor of history at El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
@@ -132,6 +152,11 @@
   github: arojascastro
   team: true
   sortname: Rojas Castro
+  affiliation: 
+    en: |
+        Cologne Center for eHumanities, Germany.
+    es: |
+        Cologne Center for eHumanities, Alemania.
   bio:
     en: |
         Antonio Rojas Castro is a researcher a the Cologne Center for eHumanities, with a PhD in Humanities (Spanish Literature).
@@ -352,6 +377,11 @@
   url: "http://jeriwieringa.com"
   github: jerielizabeth
   sortname: Wieringa
+  affiliation: 
+    en: |
+        George Mason University, USA.
+    es: |
+        George Mason University, Estados Unidos.
   bio:
     en: |
         Jeri Wieringa is a doctoral candidate in history at George Mason University.
@@ -457,6 +487,11 @@
   github: mdlincoln
   team: true
   sortname: Lincoln
+  affiliation: 
+    en: |
+        Getty Research Institute, USA.
+    es: |
+        Getty Research Institute, Estados Unidos.
   bio:
     en: |
         Matthew Lincoln is a data research specialist at the Getty Research Institute, and an art historian of early modern Europe.
@@ -481,6 +516,11 @@
   url: "http://www.amandavisconti.com"
   team: true
   sortname: Visconti
+  affiliation: 
+    en: |
+        University of Virginia, USA.
+    es: |
+        Universidad de Virginia, Estados Unidos.
   bio:
     en: |
         Amanda Visconti is Managing Director at the University of Virginia Scholars' Lab DH center.
@@ -513,6 +553,11 @@
   url: "http://walshbr.com/"
   team: true
   sortname: Walsh
+  affiliation: 
+    en: |
+        University of Virginia, USA.
+    es: |
+        Universidad de Virginia, Estados Unidos.
   bio:
     en: |
         Brandon Walsh is Head of Graduate Programs in the Scholars' Lab in the University of Virginia Library.
@@ -592,6 +637,11 @@
   url: "http://jessicaparr.org/"
   team: true
   sortname: Parr
+  affiliation: 
+    en: |
+        Simmons College, USA.
+    es: |
+        Simmons College, Estados Unidos.
   bio:
     en: |
         Jessica Parr teaches at Simmons College (Boston) and works on PLACE Project at UNH Durham.
@@ -637,8 +687,36 @@
   bio:
     en: |
         Jonathan Blaney is a project editor at the Institute of Historical Research, University of London.
+        
 - name: Daniel Ruten
   team: false
   bio:
     en: |
         Daniel Ruten is entering graduate studies in history at the University of Saskatchewan.
+
+- name: Nabeel Siddiqui
+  team: false
+  bio:
+    en: |
+        Nabeel Siddiqui is a doctoral candidate in American Studies at the College of William and Mary, where he is also an inaugural fellow of the Digital Equality Lab. His research focuses broadly on the relationship between the humanities and computation, with a particular expertise on the cultural history of media, new media studies, digital humanities, information studies, and the history of science and technology. Currently, he is completing his dissertation entitled "Byting Out the Public," which looks at the historical relationship between the personal computer and the private sphere.
+
+- name: Anandi Silva Knuppel
+  github: alsalin
+  email: anandi.silva.knuppel@emory.edu
+  twitter: anandilila
+  url: "http://anandileela.com"
+  team: true
+  sortname: Silva
+  affiliation: 
+    en: |
+        Emory University, USA.
+    es: |
+        Universidad de Emory, Estados Unidos.
+  bio:
+    en: |
+        Anandi Silva Knuppel is a digital scholarship training coordinator at Emory University.
+    es: |
+        Anandi Silva Knuppel es coordinador del programa de Aprendizaje Digital de la Universidad de Emory.
+  team_roles:
+   - editorial
+   - board

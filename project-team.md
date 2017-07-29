@@ -4,7 +4,11 @@ layout: blank
 ---
 
 # Project Team
-Looking for someone to contact? Please direct correspondence in the first instance to **<a href="mailto:jeri.elizabeth%2Bproghist@gmail.com">Jeri Wieringa</a>** at George Mason University, our acting commissioning editor.
+Please direct correspondence in the first instance to:
+
+* <a href="mailto:jeri.elizabeth%2Bproghist@gmail.com">Jeri Wieringa</a> (English)
+* <a href="mailto:vgayol@colmich.edu.mx">Victor Gayol</a> (Spanish)
+* <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a> (Spanish)
 
 You can follow the _Programming Historian_ on Twitter: [@proghist](http://twitter.com/proghist).
 
@@ -15,15 +19,29 @@ All editorial board information should be edited in data/authors.yml. Authors wh
 {% endcomment %}
 {% include project-team-loop.html %}
 
-## Emeritus Team Members
+## Project Team Membership History
 
-* Jeremy Boggs, University of Virginia (2012-2014).
-* Allison Hegel, UCLA (2013-2016).
-* Alan MacEachern, Western University (2008-2013).
-* Miriam Posner, UCLA (2012-2016).
-* Carrie Sanders, UCLA (2013-2014).
-* Evan Taparata, University of Minnesota (2016).
-* William J. Turkel, Western University (2008-2015).
+* William J. Turkel, Western University (2008-2015)
+* Alan MacEachern, Western University (2008-2013)
+* Adam Crymble, University of Hertfordshire (2011-Present)
+* Fred Gibbs, University of New Mexico (2011-2017)
+* Jeremy Boggs, University of Virginia (2012-2014)
+* Miriam Posner, UCLA (2012-2016)
+* Allison Hegel, UCLA (2013-2016)
+* Carrie Sanders, UCLA (2013-2014)
+* Caleb McDaniel, Rice University (2014-2017)
+* Ian Milligan, University of Waterloo (2014-Present)
+* Jeri Wieringa, George Mason University (2015-Present)
+* Maria Jos&eacute; Afanador-Llach, Fundacion Historica Neograndina (2016-Present)
+* Victor Gayol, El Colegio de Michoac&aacute;n (2016-Present)
+* Antonio Rojas Castro, Cologne Center for eHumanities (2016-Present)
+* Evan Taparata, University of Minnesota (2016)
+* Amanda Visconti, University of Virginia (2016-Present)
+* Matthew Lincoln, Getty Institute (2017-Present)
+* Jessica Parr, Simmons College (2017-Present)
+* Brandon Walsh, University of Virginia (2017-Present)
+* Anandi Silva Knuppel, Emory University (2017-Present)
+
 
 ## Community Participants
 

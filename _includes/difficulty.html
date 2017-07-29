@@ -1,10 +1,5 @@
 {% comment %}
- Translate page difficulty from a number into text 
+ Translate page difficulty from a number into text using snippets.yml to get appropriate language text
 {% endcomment %}
 
-{% if page.lang == "en" %}
-        {% if page.difficulty == 0 %}Very Low{% endif %}
-        {% if page.difficulty == 1 %}Low{% endif %}
-        {% if page.difficulty == 2 %}Medium{% endif %}
-        {% if page.difficulty == 3 %}High{% endif %}
-{% endif %}
+{{ site.data.snippets.lesson-difficulty[page.difficulty][page.lang] }}

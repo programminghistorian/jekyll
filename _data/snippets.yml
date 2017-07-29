@@ -168,6 +168,19 @@ series-next-note:
 contents:
   en: Contents
   es: Contenidos
+lesson-difficulty:
+  0:
+    en: Very Low
+    es: Muy Bajo
+  1:
+    en: Low
+    es: Bajo
+  2:
+    en: Medium
+    es: Medio
+  3:
+    en: High
+    es: Alto
 
 # Included in the lesson.html layout when a lesson has been marked as deprecated, and is not to be displayed on the main directory.
 deprecated:
@@ -192,4 +205,4 @@ python-warning:
   en: |
     This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. "[Python Introduction and Installation](/lessons/introduction-and-installation)" provides instructions for how you can install Python 2.x alongside newer versions.
   es: |
-    Esta lección ha sido escrita utilizando Python v. 2.x. Es posible que el código no sea compatible con nuevas versiones de Python. "[Introducción a Python e instalación](es/lecciones/introduccion-e-instalacion)" contiene una panorámica sobre cómo instalar Python 2.x y versiones posteriores. 
+    Esta lección ha sido escrita utilizando Python v. 2.x. Es posible que el código no sea compatible con nuevas versiones de Python. "[Introducción a Python e instalación](/es/lecciones/introduccion-e-instalacion)" contiene una panorámica sobre cómo instalar Python 2.x y versiones posteriores.
