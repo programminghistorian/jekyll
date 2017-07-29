@@ -191,15 +191,15 @@ deprecated:
 
 
 # legacy
-  and:
-     en: and
-     es: y
-  by:
-     en: by
-     es: por
-  reviewed:
-     en: reviewed
-     es: revisado
+and:
+   en: and
+   es: y
+by:
+   en: by
+   es: por
+reviewed:
+   en: reviewed
+   es: revisado
 
 python-warning:
   en: |
