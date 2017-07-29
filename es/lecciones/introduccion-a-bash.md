@@ -28,6 +28,8 @@ next: datos-de-investigacion-con-unix
 
 {% include toc.html %}
 
+
+
 # Introducción a línea de comandos en Bash
 
 ## Introducción
