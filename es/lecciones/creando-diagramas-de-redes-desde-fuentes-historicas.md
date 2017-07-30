@@ -10,7 +10,7 @@ reviewers:
 - Justin Larsen
 translator:
 - Maria José Afanador-Llach
-editor:
+editors:
 - Víctor Gayol
 translation-reviewer:
 - José Antonio Motilla Chávez
