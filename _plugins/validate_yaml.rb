@@ -21,13 +21,13 @@ module MyModule
       valid_difficulties = [1, 2, 3]
 
       # Fields required on ALL lessons
-      required_fields = ["layout", "reviewers", "authors", "date", "title", "difficulty", "activity", "topics", "abstract"] 
+      required_fields = ["layout", "reviewers", "authors", "date", "title", "difficulty", "activity", "topics", "abstract", "editors"] 
 
       # Fields required only on es lessons
       es_required_fields = ["translator", "translation-reviewer", "redirect_from", "translation_date"]
 
       # Fields required only on en lessons
-      en_required_fields = ["editors"]
+      en_required_fields = []
 
       # Find all the pages that represent non-deprecated lessons
       lessons = site.pages.select{|i| i.data["lesson"] && !i.data["deprecated"]}
