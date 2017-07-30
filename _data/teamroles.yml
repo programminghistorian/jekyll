@@ -43,10 +43,12 @@
   label:
     en: Ombudsperson (Spanish)
     es:
+  source_role: ombuds
 - type: managing-es
   label:
     en: Managing Editor (Spanish)
     es:
+  source_role: managing-en
 - type: technical
   label:
     en: Technical Team
