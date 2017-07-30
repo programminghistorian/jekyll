@@ -2,7 +2,8 @@
 # 
 # type: the tag added in authors.yml
 # label: Short label to be displayed alongside the author bio, and in the roles definition list
-# definition: Brief description of that editorial team
+# definition: Brief description of that editorial team. If this is a derived label that uses the definition of another role, instead use...
+# source_role: The role type where the definition for this derived role can be found (e.g. pointing from an ES variant of a role to the original EN definition)
 
 - type: editorial
   label:
@@ -39,16 +40,6 @@
   definition:
     en: Responsible for the Spanish-language version of the project
     es:
-- type: ombuds-es
-  label:
-    en: Ombudsperson (Spanish)
-    es:
-  source_role: ombuds
-- type: managing-es
-  label:
-    en: Managing Editor (Spanish)
-    es:
-  source_role: managing-en
 - type: technical
   label:
     en: Technical Team
@@ -63,3 +54,14 @@
   definition:
     en: First point of contact for authors with lesson ideas
     es:
+# --- Derived roles ---
+- type: ombuds-es
+  label:
+    en: Ombudsperson (Spanish)
+    es:
+  source_role: ombuds
+- type: managing-es
+  label:
+    en: Managing Editor (Spanish)
+    es:
+  source_role: managing-en
