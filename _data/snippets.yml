@@ -144,6 +144,9 @@ translator:
 translation-reviewers:
   en: translation reviewed by
   es: traducción revisada por
+translation-editors:
+  en: translation edited by
+  es: traducción editado por
 published:
   en: published
   es: publicado

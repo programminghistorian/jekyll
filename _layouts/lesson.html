@@ -73,7 +73,7 @@ layout: base
       </div>
 
       {% if page.translator %}
-      <div class="col-md-3" >
+      <div class="col-md-2" >
         <h3 class="text-left">{{site.data.snippets.translator[page.lang]}}</h3>
         <ul>
         {% for translator in page.translator %}
@@ -83,8 +83,19 @@ layout: base
       </div>
       {% endif %}
 
+      {% if page.translation-editor %}
+      <div class="col-md-2" >
+        <h3 class="text-left">{{site.data.snippets.translation-editors[page.lang]}}</h3>
+        <ul>
+        {% for translation-editor in page.translation-editor %}
+          <li>{{translation-editor}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
       {% if page.translation-reviewer %}
-      <div class="col-md-3" >
+      <div class="col-md-2" >
         <h3 class="text-left">{{site.data.snippets.translation-reviewers[page.lang]}}</h3>
         <ul>
         {% for editor in page.translation-reviewer %}
