@@ -728,16 +728,9 @@ Blog Index and Layout
 Project Team
 ========================================================================== */
 
-  .avatar {
-    float: left;
-    margin: 0 2rem 0 0;
-    width: 15%;
-  }
-
   .contact-box {
     margin-bottom:3rem;
   }
-
 
 /* =============================================================================
 Footer
