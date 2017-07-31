@@ -5,6 +5,8 @@ authors:
 - Adam Crymble
 date: 2012-07-17
 translation_date: 2017-03-15
+editors:
+- Miriam Posner
 reviewers:
 - Miriam Posner
 - Jim Clifford
