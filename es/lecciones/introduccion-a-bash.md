@@ -5,6 +5,8 @@ authors:
 - James Baker
 date: 2014-09-20
 translation_date: 2017-29-07
+editors: 
+- Adam Crymble
 reviewers:
 - Melodee Beals
 - Allison Hegel
