@@ -25,21 +25,21 @@
     es: Consejo editorial
   definition:
     en: A fully-fledged member of the project team, involved in directing the project's future
-    es:
+    es: Miembro de pleno derecho del equipo del proyecto, encargado de su dirección a futuro
 - type: ombuds
   label:
     en: Ombudsperson
-    es:
+    es: Defensor
   definition:
     en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
-    es:
+    es: Persona a la que los autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
 - type: spanish
   label:
     en: Spanish Team
-    es:
+    es: Equipo español
   definition:
     en: Responsible for the Spanish-language version of the project
-    es:
+    es: Responsable de la versión en español del proyecto
 - type: technical
   label:
     en: Technical Team
@@ -58,10 +58,10 @@
 - type: ombuds-es
   label:
     en: Ombudsperson (Spanish)
-    es:
+    es: Defensor (español)
   source_role: ombuds
 - type: managing-es
   label:
     en: Managing Editor (Spanish)
-    es:
+    es: Jefe de redacción (español)
   source_role: managing-en
