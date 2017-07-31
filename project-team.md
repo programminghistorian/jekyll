@@ -37,7 +37,7 @@ All editorial board information should be edited in data/authors.yml. Authors wh
 * Antonio Rojas Castro, Cologne Center for eHumanities (2016-Present)
 * Evan Taparata, University of Minnesota (2016)
 * Amanda Visconti, University of Virginia (2016-Present)
-* Matthew Lincoln, Getty Institute (2017-Present)
+* Matthew Lincoln, Getty Research Institute (2017-Present)
 * Jessica Parr, Simmons College (2017-Present)
 * Brandon Walsh, University of Virginia (2017-Present)
 * Anandi Silva Knuppel, Emory University (2017-Present)
