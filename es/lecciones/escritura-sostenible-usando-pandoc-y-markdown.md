@@ -5,7 +5,7 @@ authors:
 - Grant Wythoff
 date: 2014-03-19
 translation_date: 2017-04-04
-reviewers:
+editors:
 - Fred Gibbs
 translator:
 - Víctor Gayol
