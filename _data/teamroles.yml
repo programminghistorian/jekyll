@@ -8,21 +8,21 @@
 - type: editorial
   label:
     en: Editorial Team
-    es:
+    es: Equipo editorial
   definition:
     en: Responsible for editorial work resulting in the review and publication of lessons
-    es:
+    es: Responsable del trabajo editorial qu ederiva en la revisión y publicación de las lecciones
 - type: community
   label:
     en: Community Engagement
-    es:
+    es: Proyección hacia la comunidad
   definition:
     en: Responsible for project outreach and impact
-    es:
+    es: Responsable de la proyección e impacto del proyecto
 - type: board
   label:
     en: Editorial Board
-    es:
+    es: Consejo editorial
   definition:
     en: A fully-fledged member of the project team, involved in directing the project's future
     es:
@@ -43,17 +43,17 @@
 - type: technical
   label:
     en: Technical Team
-    es:
+    es: Equipo técnico
   definition:
     en: Responsible for the technical features that bring the content and peer review to our community
-    es:
+    es: Responsable de las características técnicas respecto al contenido y la revisión por pares a nuestra comunidad
 - type: managing-en
   label:
     en: Managing Editor
-    es:
+    es: Jefe de redacción
   definition:
     en: First point of contact for authors with lesson ideas
-    es:
+    es: Primer contacto para autores con ideas de lecciones
 # --- Derived roles ---
 - type: ombuds-es
   label:
