@@ -5,6 +5,8 @@ authors:
 - Matthew Lincoln
 date: 2015-11-24
 translation_date: 2017-05-20
+editors:
+- Fred Gibbs
 reviewers:
 - Patrick Murray-John
 - Jason Heppler
