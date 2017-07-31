@@ -2,7 +2,7 @@
 title: Data Wrangling and Management in R
 authors:
 - Nabeel Siddiqui
-date: 2017-08-01
+date: 2017-07-31
 reviewers:
 - Lauren Tilton
 - Ryan Deschamps
