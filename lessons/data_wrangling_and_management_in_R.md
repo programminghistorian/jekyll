@@ -123,7 +123,7 @@ An Example of dplyr in Action
 Lets go through an example to see how dplyr can aid us as historians by
 inputting U.S. dicennial census data from 1790 to 2010. Download the
 data by [clicking
-here](https://www.dropbox.com/s/8pvgnvg5g14ka59/introductory_state_example.csv?dl=0)
+here](../assets/introductory_state_example.csv)
 and place it in the folder that you will use to work through the exmples
 in this tutorial.
 
