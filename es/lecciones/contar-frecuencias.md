@@ -8,7 +8,6 @@ translation_date: 2017-03-15
 editors:
 - Mirian Posner
 reviewers:
-- Miriam Posner
 - Jim Clifford
 translator:
 - Víctor Gayol
