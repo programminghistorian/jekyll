@@ -588,7 +588,7 @@ number of secular versus non-secular colleges founded after the start of
 the War of 1812:
 
     secular_colleges_after_1812<-early_colleges%>%
-      filter(established < 1812)%>%
+      filter(established > 1812)%>%
       mutate(is_secular=ifelse(sponsorship!="Secular", "no", "yes"))
              
     ggplot(secular_colleges_after_1812) +
