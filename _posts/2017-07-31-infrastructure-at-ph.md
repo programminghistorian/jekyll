@@ -4,7 +4,7 @@ authors:
 - Matthew Lincoln
 layout: post
 categories: posts
-published: false
+published: true
 ---
 
 The _The Programming Historian_ has enjoyed a [huge surge of new lessons and translations this past year](/posts/roundup2017a).
