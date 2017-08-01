@@ -52,7 +52,7 @@ For example, the metadata for this post looks something like:
 title: "Infrastructure for Collaboration: Catching Dead Links And Errors"
 author: Matthew Lincoln
 layout: post
-date: 2017-07-01
+date: 2017-07-31
 ```
 
 As we've expanded the capabilities of the site, the metadata has had to expand to keep up.
