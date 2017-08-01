@@ -30,7 +30,7 @@ htmlproofer can also be set up to periodically go back and crawl previously-test
 ![](/images/editor-guidelines/travis_bottom_screen.png)
 
 Running this check on _PH_ [revealed several dozen links](https://github.com/programminghistorian/jekyll/issues/390) that had gone dead since they were first published.
-Once we identified these links, we either identified the new location to which the linked content had been moved.
+Once we identified these links, we tried to find the new location to which the linked content had been moved.
 When that was not possible, we instead pointed to a version of the content archived in the [Wayback Machine].
 
 [Wayback Machine]: http://web.archive.org/
