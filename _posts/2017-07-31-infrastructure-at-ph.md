@@ -61,7 +61,7 @@ This makes the life of an editor more and more difficult, and we frequently foun
 
 Using Jekyll's [custom plugin](http://jekyllrb.com/docs/plugins/) capabilities, we are able to specify the metadata schema needed for lessons, and cause Jekyll to throw informative errors when it finds a lesson file that is missing a required field.
 Unlike htmlproofer, this code does not come as a fully-fledged package - we had to compose it ourselves.
-However [you can see our commented source code here](https://github.com/programminghistorian/jekyll/blob/redesign/_plugins/validate_yaml.rb) to understand how we specify and evaluate required metadata fields.
+However [you can see our commented source code here](https://github.com/programminghistorian/jekyll/blob/gh-pages/_plugins/validate_yaml.rb) to understand how we specify and evaluate required metadata fields.
 
 Running this validation was an essential phase for testing the recent redesign of the _Programming Historian_, and helped us catch many errors we might otherwise have missed.
 By running it consistently in the future, we can help prevent metadata errors from creeping into our publications, while making life just a bit easier for our authors and editors.
