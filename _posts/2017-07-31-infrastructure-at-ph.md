@@ -93,4 +93,4 @@ Of course, it's impossible to catch every possible kind of human error, just as 
 As a matter of fact, we are currently debating what to do when software updates render some of our most used lessons out-of-date - and we [encourage your contributions to these discussions](https://github.com/programminghistorian/jekyll/issues/536)!
 However, with these additions to our technical infrastructure, we take just a few more things off of each author's and editor's plate, and can help make it even easier to [contribute] a high-quality lesson to _The Programming Historian_.
 
-[contribute]: /contributions
+[contribute]: /contribute
