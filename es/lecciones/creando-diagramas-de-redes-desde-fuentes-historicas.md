@@ -5,13 +5,12 @@ authors:
 date: 2015-02-18
 translation_date: 2017-04-26
 reviewers:
-- Fred Gibbs
 - Ryan Cordell
 - Justin Larsen
 translator:
 - Maria José Afanador-Llach
 editors:
-- Víctor Gayol
+- Fred Gibbs
 translation-reviewer:
 - José Antonio Motilla Chávez
 - Jairo Antonio Melo Flórez
