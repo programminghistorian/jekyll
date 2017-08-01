@@ -4,11 +4,12 @@ authors:
 - James Baker
 date: 2014-04-30
 translation_date: 2017-03-20
+editors:
+- Adam Crymble
 reviewers:
 - Jane Winters
 - Sharon Howard
 - William J. Turkel
-- Adam Crymble
 translator:
 - Víctor Gayol
 translation-reviewer:
