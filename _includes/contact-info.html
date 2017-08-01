@@ -9,17 +9,38 @@
 {% endcomment %}
 {% for member in site.data.authors %}
 {% if author == member.name %}
+<div class="row contact-box">
 {% comment %}
  Generate avatar image path based on name 
 {% endcomment %}
 {% assign avatar = member.name | replace: " ","-" | replace: "é","e" | replace: "í", "i" %}
-<div class="contact-box clearfix">
-<img class="avatar rounded-circle" src="{{site.baseurl}}/avatars/{{avatar}}.png">
-{{ member.bio[page.lang] }} {{ member.interests[page.lang] }}
-<br/>
+<div class="col-3">
+  <img class="rounded-circle" src="{{site.baseurl}}/avatars/{{avatar}}.png">
+</div>
+
+<div class="col-9">
+<p>{{ member.bio[page.lang] }} {{ member.interests[page.lang] }}</p>
+
+{% comment %}
+List subteams within the larger editorial team
+{% endcomment %}
+<p>
+{% for role in member.team_roles %}
+{% assign role_label = (site.data.teamroles | where: "type", role) | first %}
+{% if role_label.source_role %}
+  {% assign source_role = (site.data.teamroles | where: "type", role_label.source_role | first %}
+  {% assign role_definition = source_role.definition %}
+{% else %}
+  {% assign role_definition = role_label.definition %}
+{% endif %}
+<span class="badge badge-primary" data-toggle="tooltip" data-placement="bottom" title = "{{ role_definition[page.lang] }}">{{ role_label.label[page.lang] }}</span>
+{% endfor %}
+</p>
+
 {% comment %}
  List contact info 
 {% endcomment %}
+<p>
 	{% if member.url %}
 		<a href="{{member.url}}"><i class="fa fa-home fa-lg"></i></a>
 	{% endif %}
@@ -32,6 +53,8 @@
 	{% if member.github %}
 		<a href="http://github.com/{{member.github}}"><i class="fa fa-github-square fa-lg"></i></a>
 	{% endif %}
+</p>
 {% endif %}
 {% endfor %}
+</div>
 </div>
