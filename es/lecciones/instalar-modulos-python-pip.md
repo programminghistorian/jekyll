@@ -20,6 +20,8 @@ difficulty: 1
 activity: acquiring
 topics: [get-ready, python]
 abstract: "Hay muchas maneras de instalar módulos externos; este tutorial explica uno de los métodos más comunes utilizando un programa llamado pip."
+exclude_from_check:
+- editors
 ---
 
 {% include toc.html %}
