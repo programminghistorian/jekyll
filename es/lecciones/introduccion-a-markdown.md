@@ -2,7 +2,7 @@
 title:  |
    Introducción a Markdown
 authors:
-- Sarah Simpking
+- Sarah Simpkin
 date: 2015-11-13
 translation_date: 2017-07-31
 editors: 
