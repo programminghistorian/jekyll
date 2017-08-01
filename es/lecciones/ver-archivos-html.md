@@ -4,8 +4,10 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
-reviewers:
+translation_date: 2017-03-15
+editors:
 - Miriam Posner
+reviewers:
 - Jim Clifford
 - Amanda Morton
 translator:
@@ -14,11 +16,19 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: trabajar-con-archivos-de-texto
 previous: introduccion-e-instalacion
 redirect_from: /es/lessons/viewing-html-files
+difficulty: 2
+activity: presenting
+topics: [python]
+abstract: "Esta lección te introduce a las estructuras de HTML y de páginas web." 
 ---
+
+{% include toc.html %}
+
+
 
 
 

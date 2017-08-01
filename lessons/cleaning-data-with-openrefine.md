@@ -1,18 +1,28 @@
 ---
 title: Cleaning Data with OpenRefine
+layout: lesson
+date: 2013-08-05
 authors:
 - Seth van Hooland
 - Ruben Verborgh
 - Max De Wilde
-date: 2013-08-05
 reviewers:
 - Patrick Burns
 - Nora McGregor
 editors:
 - Adam Crymble
-layout: default
 difficulty: 2
+activity: transforming
+topics: [data-manipulation]
+abstract: "This tutorial focuses on how scholars can diagnose and act upon the
+accuracy of data."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson goals
 
@@ -129,7 +139,8 @@ will open in your browser, but it is important to realise that the
 application is run locally and that your data won't be stored online.
 The data files are available on our [FreeYourMetadata website][], which
 will be used throughout this tutorial. Please download the
-*phm-collection.tsv* file before continuing.
+*phm-collection.tsv* file before continuing (also archived on the
+Programming Historian site: as [phm-collection][]).
 
 On the *OpenRefine* start page, create a new project using the
 downloaded data file and click **Next**. By default, the first line will
@@ -397,11 +408,11 @@ the case you have made an error.
   [Linked Data]: http://en.wikipedia.org/wiki/Linked_data
   [Download OpenRefine]: http://openrefine.org/#download_openrefine
   [FreeYourMetadata website]: http://data.freeyourmetadata.org/powerhouse-museum/
-  [phm-collection]: ../images/phm-collection.tsv
+  [phm-collection]: /assets/phm-collection.tsv
   [initial OpenRefine project]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
-  [Powerhouse Museum Website]: ../images/powerhouseScreenshot.png
+  [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
   [facet]: http://en.wikipedia.org/wiki/Faceted_search
-  [Screenshot of OpenRefine Example]: ../images/overviewOfSomeClusters.png
+  [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
   [GREL documentation]: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
   [regular expression]: http://en.wikipedia.org/wiki/Regular_expression
     "Regular Expressions"

@@ -6,7 +6,7 @@ layout: post
 categories: posts 
 ---
 
-Building on our commitment to diversity and access, [The Programming Historian](http://programminghistorian.org) is seeking a new team member to help us bring the project to 400-million Spanish speakers worldwide. We envisage this to include both cultivating of a Spanish-language community of users and contributors and facillitating the translation of existing resources. There is significant scope to make this role your own. This is a voluntary academic service position.
+Building on our commitment to diversity and access, [The Programming Historian]() is seeking a new team member to help us bring the project to 400-million Spanish speakers worldwide. We envisage this to include both cultivating of a Spanish-language community of users and contributors and facillitating the translation of existing resources. There is significant scope to make this role your own. This is a voluntary academic service position.
 
 You can read about our internal discussion about this role at:
 [https://github.com/programminghistorian/jekyll/issues/246](https://github.com/programminghistorian/jekyll/issues/246)

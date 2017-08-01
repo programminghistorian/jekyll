@@ -4,8 +4,10 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
-reviewers:
+translation_date: 2017-03-15
+editors:
 - Miriam Posner
+reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
@@ -13,11 +15,22 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: de-html-a-lista-de-palabras-2
 previous: manipular-cadenas-de-caracteres-en-python
 redirect_from: /es/lessons/from-html-to-list-of-words-1
+python_warning: true
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "En esta lección en dos partes partiremos de lo que has aprendido sobre Descargar páginas web con Python, para aprender cómo remover las etiquetas HTML de la página web de la transcripción del juicio criminal contra Benjamin Bowsey de 1780. Lograremos esto utilizando una variedad de operadores de cadenas, métodos de cadenas y habilidades de lectura cercana. Vamos a presentar bucles (looping) y condicionales (branching), de manera que los programas puedan repetir tareas y pruebas para ciertas condiciones, haciendo posible separar el contenido de las etiquetas HTML. Por último, convertimos el contenido de una cadena larga a una lista de palabras que posteriormente podrán ser ordenadas, indexadas y contadas." 
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Objetivos de la lección
 
@@ -26,7 +39,7 @@ En esta lección en dos partes partiremos de lo que has aprendido en [Descargar 
 
 ## El reto
 
-Para tener una idea más clara de la tarea que tenemos por delante, abre el archivo *obo-t17800628-33.html* que creaste en la lección [Descargar páginas web con Python](/es/lecciones/trabajar-con-paginas-web) (o [descarga y guarda el juicio](http://programminghistorian.org/assets/obo-t17800628-33.html), si aún no tienes una copia). Entonces observa el código HTML en tu navegador de Fierfox usando `Herramientas -> Desarrollador web -> Código fuente de esta página`. A medida que te desplazas a través del código fuente te darás cuenta que hay etiquetas HTML mezcladas con el texto. Si eres nuevo en HTML te recomendamos tomar el tutorial de W3Schools [HTML][1] para familiarizarte con el marcado. Si tu trabajo requiere a menudo que tengas que retirar etiquetas sin duda te va a servir para entenderlo en cuanto lo veas.
+Para tener una idea más clara de la tarea que tenemos por delante, abre el archivo *obo-t17800628-33.html* que creaste en la lección [Descargar páginas web con Python](/es/lecciones/trabajar-con-paginas-web) (o [descarga y guarda el juicio](/assets/obo-t17800628-33.html), si aún no tienes una copia). Entonces observa el código HTML en tu navegador de Fierfox usando `Herramientas -> Desarrollador web -> Código fuente de esta página`. A medida que te desplazas a través del código fuente te darás cuenta que hay etiquetas HTML mezcladas con el texto. Si eres nuevo en HTML te recomendamos tomar el tutorial de W3Schools [HTML][1] para familiarizarte con el marcado. Si tu trabajo requiere a menudo que tengas que retirar etiquetas sin duda te va a servir para entenderlo en cuanto lo veas.
 
 ## Archivos necesarios para esta lección
 
@@ -138,7 +151,7 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 [Descargar páginas web con Python]: http://programminghistorian.org/es/lecciones/trabajar-con-paginas-web
 [HTML]: http://www.w3schools.com/html/
 [1]: http://www.w3schools.com/html/
-[Manipular cadenas de caracteres en Python]: ../lecciones/manipular-cadenas-de-caracteres-en-python 
-[Reutilizacion de código y modularidad]: ../lecciones/reutilizacion-de-codigo-y-modularidad
+[Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python 
+[Reutilizacion de código y modularidad]: /es/lecciones/reutilizacion-de-codigo-y-modularidad
 [zip]: http://programminghistorian.org/assets/python-es-lecciones2.zip
 [obo-t17800628-33.html]: http://programminghistorian.org/assets/obo-t17800628-33.html

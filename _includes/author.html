@@ -1,19 +1,11 @@
+{% comment %}
+ Paste together lists of authors for a given page/lesson. This is used on the lesson.html pages as well as on lesson-index.html and for post.html (describing blog posts) 
+{% endcomment %}
 
-{% assign authorCount = page.authors | size %}
-{% capture authorString %}
-{% if authorCount == 1 %}
-      {{ page.authors | first }}
-{% else %}
-      {% for author in page.authors %}
-           {% if forloop.first %}
-                 {{ author }}
-           {% elsif forloop.last %}
-           {{ site.data.snippets.and[page.lang] }} {{ author }}
-           {% else %}
-		         , {{ author }}
-           {% endif %}
-      {% endfor %}
+{% if page.authors %}
+  {% assign authors = page.authors %}
+{% elsif lesson.authors %}
+  {% assign authors = lesson.authors %}
 {% endif %}
-{% endcapture %}
 
-{{ site.data.snippets.by[page.lang] | capitalize }} {{ authorString }}
+{{ authors | array_to_sentence_string: site.data.snippets.and[page.lang] }}

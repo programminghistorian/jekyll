@@ -1,32 +1,56 @@
 ---
 title: Guía para editores
-layout: directory
+layout: blank
 ---
 
 Esta página contiene instrucciones detalladas dirigidas a los editores de *The Programming Historian en español* durante el proceso de revisión por pares.
 
-* TOC
-{:toc}
+{% include toc.html %}
+
+
+
+
 
 ## El rol del editor
 
-Gracias por editar una lección para *The Programming Historian en español*. Estamos muy agradecidos por tus esfuerzos. Esta guía está pensada para garantizar que autores, traductores, editores y revisores tengan una experiencia justa y coherente. Si tienes alguna pregunta sobre esta guía, por favor, contacta con algún miembro del equipo o publica una pregunta en nuestro repositorio de [GitHub](https://github.com/programminghistorian/jekyll/issues). También puedes escribirnos si crees que esta guía debe ser actualizada o mejorada. 
+Gracias por editar una lección para *The Programming Historian en español*. Estamos muy agradecidos por tus esfuerzos. Esta guía está pensada para garantizar que autores, traductores, editores y revisores tengan una experiencia justa y coherente. Si tienes alguna pregunta sobre esta guía, por favor, contacta con algún miembro del equipo o publica una pregunta en nuestro repositorio de [GitHub](https://github.com/programminghistorian/jekyll/issues). También puedes escribirnos si crees que esta guía debe ser actualizada o mejorada.
 
-Tanto si estás editando una traducción como si estás editando una lección nueva el proceso sigue unas mismas líneas de acción; nuestro objetivo como editores no es supervisar, como se suele hacer en las revistas tradicionales sino ofrecer ayuda durante todo el proceso de escritura, traducción y publicación. Por eso es recomendable que te familiarices con la [Guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).  
+Tanto si estás editando una traducción como si estás editando una lección nueva el proceso sigue unas mismas líneas de acción; nuestro objetivo como editores no es supervisar, como se suele hacer en las revistas tradicionales sino ofrecer ayuda durante todo el proceso de escritura, traducción y publicación. Por eso es recomendable que te familiarices con la [Guía para autores y traductores](/es/guia-para-autores).  
 
 Si recibes una propuesta de lección nueva, asegúrate de que el autor te proporciona una idea clara del contenido antes de que empiece a escribir el tutorial. Si un tema no es adecuado para *The Programming Historian en español* nuestro trabajo es decírselo al autor antes de que empiece a escribir la lección. Con esto pretendemos ahorrarnos tiempo y energía. Una vez hemos hablado con el autor y hemos evaluado su propuesta, podemos seguir adelante con el proceso de revisión.
 
 
 ### Espacios seguros
 
-En *The Programming Historian en español* estamos comprometidos con ofrecer un espacio seguro en el que se puedan intercambiar ideas sin miedo a sentirse acosado o sin sufrir algún tipo de abuso. El editor cumple un rol fundamental a la hora de asegurarse que el espacio en que tienen lugar las conversaciones no sea dañino para los participantes. En otras palabras, tu rol, como editor, también consiste en reforzar nuestra política en contra del acoso en todo momento. Si necesitas ayuda, por favor, contacta con otro editor. Puedes leer más sobre este tema, en inglés, en nuestro [blog](http://programminghistorian.org/posts/PH-commitment-to-diversity).
+En *The Programming Historian en español* estamos comprometidos con ofrecer un espacio seguro en el que se puedan intercambiar ideas sin miedo a sentirse acosado o sin sufrir algún tipo de abuso. El editor cumple un rol fundamental a la hora de asegurarse que el espacio en que tienen lugar las conversaciones no sea dañino para los participantes. En otras palabras, tu rol, como editor, también consiste en reforzar nuestra política en contra del acoso en todo momento. Si necesitas ayuda, por favor, contacta con otro editor. Puedes leer más sobre este tema, en inglés, en nuestro [blog](/posts/PH-commitment-to-diversity).
 
 ### Política contra el acoso
 
 En esta sección encontrarás una declaración de los principios que deben regir *The Programming Historian en español*; también ofrece una pauta sobre el tono y el estilo que debiera predominar en todos los intercambios que tienen lugar en nuestros foros entre traductores, autores, revisores y editores.
 
-El objetivo de *The Programming Historian en español* es ofrecer un entorno abierto en el que la comunidad de participantes sea libre para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros *ombudspersons* [María José Afanador-Llach o Víctor Gayol](http://programminghistorian.org/es/equipo-de-proyecto).    
+El objetivo de *The Programming Historian en español* es ofrecer un entorno abierto en el que la comunidad de participantes sea libre para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros *ombudspersons* [María José Afanador-Llach o Víctor Gayol](/es/equipo-de-proyecto).
 
+### Seguimiento de lecciones
+
+Una vez se ha aceptado una propuesta de lección, el editor aclarará al autor cuáles son los objetivos y establecerá una fecha de entrega. El plazo recomendado es de 90 días para las lecciones nuevas; sin embargo, estos tiempo se pueden adaptar a cada caso.
+
+A continuación, el editor creará un *issue* en el [repositorio de GitHub](https://github.com/programminghistorian/ph-submissions/issues)    con la etiqueta “proposals” para las nuevas lecciones. La plantilla viene incluida por defecto en el *issue*, pero también se puede copiar el texto que se encuentra más abajo.
+
+	*The Programming historian* ha recibido una propuesta de lección con el título provisional ‘Título provisional de la lección’ por parte de ‘Nombre del autor o autores’. Los objetivos de la lección son:
+
+	- objetivo nº1
+	- objetivo nº2
+	- objetivo nº3
+
+	A fin de promover una publicación a tiempo, se ha acordado que la lección se entregará en un plazo de [90 days por defecto o más tarde si se ha establecido así con el autor]. El autor o autores contactará con antelación con el editor si no puede cumplir con la fecha de entrega y necesita una ampliación.
+
+	Si la lección no es entregada en la [fecha acordada], el editor intentará contactar con el autor o autores de la lección. Si no recibe noticias, el ticket se cerrará. Éste podrá abrirse en el futuro a petición del autor o autores.
+
+	El principal contacto para esta lección es [nombre del editor]. Si se produce algún problema, el autor puede contactar con nuestros ’ombudspersons' (María José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
+
+Este texto, sin embargo, puede editarse y adaptarse a las necesidades para reflejar más objetivos o lo que se ha negociado entre el editor y el autor.
+
+Una vez la lección haya sido entregada, el editor creará un ticket de revisión para la lección y cerrará el *issue* correspondiente a la propuesta inicial.
 
 ### Revisión por pares en abierto
 
@@ -34,14 +58,14 @@ El objetivo de *The Programming Historian en español* es ofrecer un entorno abi
 
 Antes de solicitar revisiones externas, el editor debe leer y probar el tutorial, y utilizar su experiencia previa para ayudar al autor o al traductor a realizar mejoras iniciales (si es necesario). En una lección nueva, los editores suelen intervenir para aclarar la audiencia objetiva de la lección, o bien para identificar frases difíciles de entender, tecnicismos que se podrían evitar, o pasos que requieren mayor número de explicaciones (o adaptaciones teniendo en cuenta el contexto cultural hispánico, si se trata de una traducción). Esta revisión inicial es importante porque permitirá a los revisores externos centrarse en la mejora de la lección. Todo esto se realiza, por lo común, en abierto, en nuestra plataforma de envíos (ver más abajo), pero si el autor o traductor lo requiere también es posible establecer un canal de comunicación privado.
 
-Cuando el traductor o el autor ha revisado la lección siguiendo el consejo del editor, se invitarán a dos revisores externos. La decisión sobre los revisores externos depende del editor; no obstante, se tendrá en cuenta nuestro compromiso con la [diversidad](https://github.com/programminghistorian/jekyll/issues) a la hora de elegir los revisores. Como editor, te animamos a que te preguntes si has hecho todo lo posible para elegir revisores de género, nacionalidad, raza, edad, o formación académica diversa. En otras palabras, evita elegir revisores que sean como tú. Al contactar con los revisores, por favor, proporciona la [guía para revisores](http://programminghistorian.org/es/guia-para-revisores) y fija una fecha límite para completar la revisión (un mes, por lo general), a fin de asegurarnos de que el proceso de publicación no se alargue de manera innecesaria.
+Cuando el traductor o el autor ha revisado la lección siguiendo el consejo del editor, se invitarán a dos revisores externos. La decisión sobre los revisores externos depende del editor; no obstante, se tendrá en cuenta nuestro compromiso con la [diversidad](https://github.com/programminghistorian/jekyll/issues) a la hora de elegir los revisores. Como editor, te animamos a que te preguntes si has hecho todo lo posible para elegir revisores de género, nacionalidad, raza, edad, o formación académica diversa. En otras palabras, evita elegir revisores que sean como tú. Al contactar con los revisores, por favor, proporciona la [guía para revisores](/es/guia-para-revisores) y fija una fecha límite para completar la revisión (un mes, por lo general), a fin de asegurarnos de que el proceso de publicación no se alargue de manera innecesaria.
 
 Al recibir una lección o traducción nueva, el editor iniciará un nuevo *issue* en nuestro [repositorio de envíos en Github](https://github.com/programminghistorian/ph-submissions/issues), en donde tendrá lugar el proceso de revisión. De esta manera, todos los participantes podrán seguir la conversación y recibirán los mensajes. Los editores, traductores y autores deberán registrarse en GitHub (si no lo han hecho ya) y acceder al repositorio con su cuenta.
 
 
 ### Comentarios iniciales
 
-Cuando recibas una propuesta de traducción o creación de una lección nueva, tu primer mensaje debe utilizar la plantilla que describe el rol del editor y el proceso de revisión por pares, así como información necesaria en caso de que la revisión sufra algún incidente. Por favor, adapta la plantilla correspondiente para que aparezca al inicio del *issue*. 
+Cuando recibas una propuesta de traducción o creación de una lección nueva, tu primer mensaje debe utilizar la plantilla que describe el rol del editor y el proceso de revisión por pares, así como información necesaria en caso de que la revisión sufra algún incidente. Por favor, adapta la plantilla correspondiente para que aparezca al inicio del *issue*.
 
 En el caso de una traducción, utiliza esta [plantilla](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/PLANTILLA-TRADUCCION.md):
 
@@ -53,9 +77,9 @@ https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/traducci
 
 Por favor, estás en libertad de utilizar los números de línea proporcionados en la vista previa, si eso ayuda a señalar mejor tus comentarios. Pero puedes estructurar tu revisión como mejor te parezca.
 
-En adelante, intervendré como editor durante el proceso de revisión. Tras haber leído la lección y haber enviado mis comentarios al traductor, mi rol consistirá en solicitar otra revisión por parte de uno de los miembros de nuestro comité editorial y gestionar las conversaciones que se produzcan en este foro. 
+En adelante, intervendré como editor durante el proceso de revisión. Tras haber leído la lección y haber enviado mis comentarios al traductor, mi rol consistirá en solicitar otra revisión por parte de uno de los miembros de nuestro comité editorial y gestionar las conversaciones que se produzcan en este foro.
 
-Otros miembros de nuestra comunidad también están invitados a ofrecer sus comentarios de una manera constructiva; los comentarios deberán publicarse en este hilo de conversación, por lo que se recomienda haber leído nuestra guía para revisores (http://programminghistorian.org/es/guia-para-revisores) y tener en cuenta nuestra política contra el acoso (ver más abajo). No se aceptarán más comentarios por parte de la comunidad tras la publicación de la segunda revisión formal a fin de que el traductor pueda empezar a trabajar en los cambios solicitados. Cuando esto ocurra, publicaré un anuncio aquí.
+Otros miembros de nuestra comunidad también están invitados a ofrecer sus comentarios de una manera constructiva; los comentarios deberán publicarse en este hilo de conversación, por lo que se recomienda haber leído nuestra guía para revisores (/es/guia-para-revisores) y tener en cuenta nuestra política contra el acoso (ver más abajo). No se aceptarán más comentarios por parte de la comunidad tras la publicación de la segunda revisión formal a fin de que el traductor pueda empezar a trabajar en los cambios solicitados. Cuando esto ocurra, publicaré un anuncio aquí.
 
 Asimismo, me comprometo a mantener la conversación abierta a todo el mundo en GitHub. Pero si alguno de los participantes quiere ponerse en contacto en privado conmigo, puede escribirme un correo electrónico. También es posible contactar con nuestros 'ombudpersons'.
 
@@ -77,7 +101,7 @@ Por favor, estás en libertad de utilizar los números de línea proporcionados 
 
 En adelante, intervendré como editor durante el proceso de revisión. Mi rol consistirá en solicitar dos revisiones externas y gestionar las conversaciones que se produzcan en este foro. He leído la lección y ya le he hecho llegar mis comentarios al traductor.
 
-Otros miembros de nuestra comunidad también están invitados a ofrecer sus comentarios de una manera constructiva; los comentarios deberán publicarse en este hilo de conversación, por lo que se recomienda haber leído nuestra guía para revisores (http://programminghistorian.org/es/guia-para-revisores) y tener en cuenta nuestra política contra el acoso (ver más abajo). No se aceptarán más comentarios por parte de la comunidad tras la publicación de la segunda revisión formal a fin de que le autor pueda empezar a trabajar en los cambios solicitados. Cuando esto ocurra, publicaré un anuncio aquí.
+Otros miembros de nuestra comunidad también están invitados a ofrecer sus comentarios de una manera constructiva; los comentarios deberán publicarse en este hilo de conversación, por lo que se recomienda haber leído nuestra guía para revisores (/es/guia-para-revisores) y tener en cuenta nuestra política contra el acoso (ver más abajo). No se aceptarán más comentarios por parte de la comunidad tras la publicación de la segunda revisión formal a fin de que le autor pueda empezar a trabajar en los cambios solicitados. Cuando esto ocurra, publicaré un anuncio aquí.
 
 Asimismo, me comprometo a mantener la conversación abierta a todo el mundo en GitHub. Pero si alguno de los participantes quiere ponerse en contacto en privado conmigo, puede escribirme un correo electrónico. También es posible contactar con nuestros 'ombudpersons'.
 
@@ -111,7 +135,7 @@ En *The Programming Historian en español* sabemos que existe un gran abanico de
 
 ## Aspectos técnicos del proceso de revisión - Lista de verificación
 
-Nuestro proceso de revisión se lleva a cabo en el [repositorio de envíos](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es) de GitHub. Las instrucciones sobre cómo subir los archivos, el formato de los archivos y el uso de Markdown se encuentran en nuestra [Guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones) actualizada periódicamente con nuevas instrucciones. Como editor, deberás familiarizarte con los pasos a seguir y referirte a ellos cuando sea necesario. Si necesitas ayuda, siempre puedes escribir a otro editor del [equipo](http://programminghistorian.org/es/equipo-de-proyecto).
+Nuestro proceso de revisión se lleva a cabo en el [repositorio de envíos](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es) de GitHub. Las instrucciones sobre cómo subir los archivos, el formato de los archivos y el uso de Markdown se encuentran en nuestra [Guía para autores y traductores](/es/guia-para-autores) actualizada periódicamente con nuevas instrucciones. Como editor, deberás familiarizarte con los pasos a seguir y referirte a ellos cuando sea necesario. Si necesitas ayuda, siempre puedes escribir a otro editor del [equipo](/es/equipo-de-proyecto).
 
 Desde un punto de vista técnico, estas son las áreas en las que tendrás que intervenir como editor:
 
@@ -121,14 +145,14 @@ El **editor** debe sugerir un nombre para el archivo de la traducción o lecció
 
 - El nombre debe ser corto pero descriptivo pues se convertirá en el *slug* de la lección cuando se publique (es decir, la terminación de la URL).
 - Una buena URL debería encajar en una diapositiva, debería ser fácil de recordar y debería describir el contenido de la lección. Nuestras URLS tienen el siguiente formato: http://programminghistorian.org/es/lecciones/NOMBRE-DEL-ARCHIVO-AQUI
-- No introduzcas espacios en el nombre del archivo; en su lugar utiliza guiones. 
+- No introduzcas espacios en el nombre del archivo; en su lugar utiliza guiones.
 - La extensión del arhivo debe ser `.md` con el objetivo de que GitHub genere una visualización provisional de la lección.
 
-Una vez hayas escogido el nombre del archivo, utiliza el mismo nombre para crear un directorio nuevo en [imágenes](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images); esta nueva carpeta contendrá las imágenes de la lección. Si la lección contiene archivos con datos, haz lo mismo pero en la carpeta [assets](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets) del repositio GitHub de *The Programming Historian en español*. Por favor, ten en cuenta que, en el caso de las traducciones donde el traductor no modifica imágenes o datos, estos ya están alojados. 
+Una vez hayas escogido el nombre del archivo, utiliza el mismo nombre para crear un directorio nuevo en [imágenes](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images); esta nueva carpeta contendrá las imágenes de la lección. Si la lección contiene archivos con datos, haz lo mismo pero en la carpeta [assets](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets) del repositio GitHub de *The Programming Historian en español*. Por favor, ten en cuenta que, en el caso de las traducciones donde el traductor no modifica imágenes o datos, estos ya están alojados.
 
 ### B) Revisar el etiquetado Markdown
 
-Los autores y traductores deben asegurarse de que utilizan Markdown de manera apropiada para dar formato y estructurar el texto. Si han seguido la sintaxis, no debería haber problema. Ahora bien, si puedes ver algún símbolo Markdown en el archivo, quiere decir que algo ha salido mal. Las instrucciones sobre cómo utilizar Markdown se encuentran en nuestra [guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
+Los autores y traductores deben asegurarse de que utilizan Markdown de manera apropiada para dar formato y estructurar el texto. Si han seguido la sintaxis, no debería haber problema. Ahora bien, si puedes ver algún símbolo Markdown en el archivo, quiere decir que algo ha salido mal. Las instrucciones sobre cómo utilizar Markdown se encuentran en nuestra [guía para autores y traductores](/es/guia-para-autores).
 
 Puedes comprobar con facilidad si todo es correcto accediendo a la visualización generada en GitHub: https://github.com/PH-espagnol/borradores/tree/master/lecciones/NOMBRE-DEL-ARCHIVO-AQUÍ (nota: sin extensión .md).
 
@@ -142,11 +166,11 @@ En el caso de las lecciones nuevas, si un tutorial ya contiene archivos numerado
 
 Con independencia de cómo se nombren las imágenes (semánticamente o de manera secuencial), todos los archivos deben situarse en el directorio `imagenes`. El sub-directorio debe tener como nombre el *slug* de la lección. Por favor, comprueba que las imágenes tienen un formato adecuado como PNG o JPEG y que el tamaño es correcto (en píxeles y en bytes).
 
-Más información sobre cómo añadir las imágenes en nuestra [guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
+Más información sobre cómo añadir las imágenes en nuestra [guía para autores y traductores](/es/guia-para-autores).
 
 ### D) Verificar los archivos con datos
 
-Al igual que las imágenes, todos los datos deben almacenarse en nuestro sitio; es decir, por motivos de sostenibilidad, no deben enlazarse como recursos externos. Los archivos de este tipo deben guardarse en la carpeta `assets` de *The Programming Historian en español*, siguiendo las mismas reglas que en el apartado anterior. Con todo, los autores pueden proporcionar una descripción para reflejar el contenido del archivo. Por ejemplo: 
+Al igual que las imágenes, todos los datos deben almacenarse en nuestro sitio; es decir, por motivos de sostenibilidad, no deben enlazarse como recursos externos. Los archivos de este tipo deben guardarse en la carpeta `assets` de *The Programming Historian en español*, siguiendo las mismas reglas que en el apartado anterior. Con todo, los autores pueden proporcionar una descripción para reflejar el contenido del archivo. Por ejemplo:
 
 -  `/assets/SLUG-DE-LA-LECCION/Louvre-Paintings-1.csv`
 
@@ -167,13 +191,21 @@ Una vez el autor y tú como editor estéis satisfechos con el texto, sea una tra
 
 ### 1) Mueve el archivo
 
-La manera más fácil de publicar el texto es utilizar `git` en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios `jekyll` y `ph-submissions/es` (si no es así, nuestra [introducción a GitHub](http://programminghistorian.org/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar con Caleb McDaniel (en inglés) para que te ayude, o en español a través de Víctor Gayol.
+La manera más fácil de publicar el texto es utilizar `git` en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios `jekyll` y `ph-submissions/es` (si no es así, nuestra [introducción a GitHub](/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar con Caleb McDaniel (en inglés) para que te ayude, o en español a través de Víctor Gayol.
 
 1. Sitúate en el director local de tu repositorio `ph-submissions/es`.
 2. Introduce `git pull` para descargar los últimos cambios en tu ordenador (o `sync` si utilizas GitHub Desktop).
 3. Repite los pasos 1 y 2 para el repositorio local de `jekyll` en tu máquina.
 4. Copia el texto, los archivos con datos y las imágenes guardados en `ph-submissions/es` y ponlos en el lugar apropiado del repositorio `jekyll` de tu ordenador. Si utilizas la línea de comandos, introduce `cp`; si, por el contrario, usas GitHub Desktop utiliza la interfaz gráfica de usuario para moverte por los directorios y mover los archivos.
 5. Dese tu repositorio local de `jekyll`, debes introducir `git add` para añadir los nuevos archivos, y a continuación `got commit`y `git push` para actualizar los cambios en el repositorio en línea.
+
+Después de haber movido la lección al repositorio local de `jekyll` tendrás además que guardar la lección que ya enviaste en el repositorio `ph-submissions`.
+
+1. Sitúate en el directorio local de tu repositorio `ph-submissions/es`.
+2. Añade una nueva línea en el encabezado YAML de la lección ya publicada: `redirect_from: "/lessons/LESSON-SLUG"`
+3. Copia la lección ya publicada de `lessons/` a `lessons/published/`.
+4. Copia el folder de imágenes que contiene las imágenes de la lección ya publicada de `images/` a `images/published/`.
+5. Utiliza `git add`, `git commit`, y `git push` para finalizar todos los cambios.
 
 ### 2) Crea una biografía para el autor
 
@@ -189,7 +221,7 @@ En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor 
 
 ### 3) Añade traductor, revisores y editores al archivo YAML
 
-Es muy importante acreditar el trabajo de nuestros traductores, revisores y editores. Así, pues, localiza el  bloque YAML que se encuentra al inicio del tutorial, y añade el nombre de los revisores y de todos los miembros de nuestra comunidad que han contribuido durante el proceso de revisión. Además, crea un campo `editor` y añade tu nombre y de cuantos otros editores hayan contribuido en la publicación. Las instrucciones para dar formato al bloque de YAML se encuentran en la [guía para autores y traductores](http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones).
+Es muy importante acreditar el trabajo de nuestros traductores, revisores y editores. Así, pues, localiza el  bloque YAML que se encuentra al inicio del tutorial, y añade el nombre de los revisores y de todos los miembros de nuestra comunidad que han contribuido durante el proceso de revisión. Además, crea un campo `editor` y añade tu nombre y de cuantos otros editores hayan contribuido en la publicación. Las instrucciones para dar formato al bloque de YAML se encuentran en la [guía para autores y traductores](/es/guia-para-autores).
 
 Si se trata de una traducción, asegúrate de que se mantienen los datos del YAML original, e introduce un campo para el traductor (`translator`), otro para los revisores de la traducción (`translation-reviewer`) y otro más para el editor de la traducción (`translation-editor`).
 
@@ -213,7 +245,7 @@ Actualiza la fecha en el campo correspondiente del archivo YAML tomando como ref
 
 ### 7) Busca una imagen que represente la lección
 
-Las lecciones se representan mediante una imagen `vintage` que refleja algún elemento de las tareas descritas en el tutorial. Puedes ver todas las imágenes en el [índice principal de lecciones](http://programminghistorian.org/es/lecciones). El editor es el encargado de seleccionar las imágenes. 
+Las lecciones se representan mediante una imagen `vintage` que refleja algún elemento de las tareas descritas en el tutorial. Puedes ver todas las imágenes en el [índice principal de lecciones](/es/lecciones). El editor es el encargado de seleccionar las imágenes.
 
 Puedes buscar imágenes en los recursos siguientes:
 
@@ -223,22 +255,32 @@ Puedes buscar imágenes en los recursos siguientes:
  - [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
-Si como editor estás buscando una imagen para una lección nueva, asegúrate de que la imagen sigue el mismo estilo que las imágenes anteriores; debería ser una ilustración, no una fotografía, tener al menos 200 píxeles de anchura y altura, y estar libre de derechos. Asegúrate de que la magen no es ofensiva y ten en cuenta nuestro [compromiso con la diversidad](http://programminghistorian.org/posts/PH-commitment-to-diversity); en otras palabras, intenta encontrar una imagen que no perpetúe estereotipos o envíe mensajes sutiles sobre la masculinidad y la raza blanca.
- 
+Si como editor estás buscando una imagen para una lección nueva, asegúrate de que la imagen sigue el mismo estilo que las imágenes anteriores; debería ser una ilustración, no una fotografía, tener al menos 200 píxeles de anchura y altura, y estar libre de derechos. Asegúrate de que la magen no es ofensiva y ten en cuenta nuestro [compromiso con la diversidad](/posts/PH-commitment-to-diversity); en otras palabras, intenta encontrar una imagen que no perpetúe estereotipos o envíe mensajes sutiles sobre la masculinidad y la raza blanca.
+
 Antes de editar la imagen, guarda el archivo original. El nombre del archivo debe coincidir con el *slug* de la URL de la lección y, además, `-original`; el formato del archivo debe ser `.png`. Por ejemplo, la lección "Cleaning Data with OpenRefine" tiene el *slug* `cleaning-data-with-openrefine`; por tanto, el nombre de la imagen original debería ser `cleaning-data-with-openrefine-original.png`.
 
-A continuación, crea una copia de la imagen, córtala en un cuadrado sin eliminar detalles relevantes, cambia la dimensión a 200x200 píxeles y convierte la imagen a escala de grises. Puedes hacer cuanto retoques creas necesarios a fin de que se asemeje al resto de imágenes, por ejemplo, modficiar la luz o alterar el contraste. Guarda esta nueva imagen con el *slug* de la lección. Siguiendo con el ejemplo ya dado, la nueva imagen debería llamarse `cleaning-data-with-openrefine.png`. 
+A continuación, crea una copia de la imagen, córtala en un cuadrado sin eliminar detalles relevantes, cambia la dimensión a 200x200 píxeles y convierte la imagen a escala de grises. Puedes hacer cuanto retoques creas necesarios a fin de que se asemeje al resto de imágenes, por ejemplo, modficiar la luz o alterar el contraste. Guarda esta nueva imagen con el *slug* de la lección. Siguiendo con el ejemplo ya dado, la nueva imagen debería llamarse `cleaning-data-with-openrefine.png`.
 
 Sube la imagen original al directorio [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery).
 
-Por último, añade la imagen a la lección editando la página HTML en [lecciones/index.md](https://github.com/programminghistorian/jekyll/blob/gh-pages/es/lecciones/index.md); el enlace de la lección debe coincidir con el lugar en que se encuentra la imagen. Por ejemplo: 
+Por último, añade la imagen a la lección editando la página HTML en [lecciones/index.md](https://github.com/programminghistorian/jekyll/blob/gh-pages/es/lecciones/index.md); el enlace de la lección debe coincidir con el lugar en que se encuentra la imagen. Por ejemplo:
 
 `<img src="/gallery/cleaning-data-with-openrefine.png">`
 
-¡La nueva imagen debería aparecer en la [página de inicio](http://programminghistorian.org/es/)!
+¡La nueva imagen debería aparecer en la [página de inicio](/es/)!
 
 
-### 8) Da las gracias a todo el mundo y difunde el tutorial
+### 8) Incorpora tu lección en nuestro Twitter bot
+
+Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos un Twitter bot para volver a promocionar lecciones pasadas. Para añadir la lección nueva a nuestro *pipeline* deberás añadirla como una fila en esta [hoja de cálculo](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=904817529). Todos los miembros del equipo editorial deben poder hacer cambios; envía un correo electrónico al grupo de google si tienes algún problema. Deberás insertar una nueva fila para tu lección al final de la tabla con los siguientes campos:
+
+    message_one (columna A) - un mensaje de twitter para circular al comienzo de la semana.
+    message_two (columna B) - un mensaje de twitter “En caso de que te lo hayas perdido” para circular ms tarde en la semana.
+    link (columna C) - el enlace a la lección.
+
+Deja la columna D en blanco y sin tocar - este campo es utilizado por el Twitter bot para registrar su progreso en la lista. Ten en cuenta además que este paso no reemplaza tu propia promoción de la lección. El bot escoge las lecciones aleatoriamente, una cada la semana, así que pueden pasar meses hasta que tu lección aparezca por este medio. 
+
+### 9) Da las gracias a todo el mundo y difunde el tutorial
 
 Es importante enviar un correo electrónico o un mensaje a todos los participantes para agradecerles el esfuerzo. En particular, da las gracias al autor o al traductor por enviar su texto y anímalo a volver a trabajar con nostros en el futuro. También puedes proporcionarle alguna idea sobre cómo difundir y anunciar su contribución. Las lecciones más visitadas suelen contar con la promoción del autor. Por ejemplo, el autor podría realizar las siguientes acciones:
 

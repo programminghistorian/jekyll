@@ -17,9 +17,9 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 ### Investigación publicada
 
 * Katrina Navickas and Adam Crymble, ['From Chartist Newspaper to Digital Map of Grass-roots Meetings, 1841-44: Documenting Workflows'](http://www.tandfonline.com/doi/full/10.1080/13555502.2017.1301179), _Journal of Victorian Culture_, (2017).
-* Adam Crymble, ['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian'], _Blended Learning in Practice_, (2016), 49-60. {['pre-print pdf']}
+* Adam Crymble, ['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian'], _Blended Learning in Practice_, (2016), 49-60. [[pre-print pdf](/researchpapers/openLearningCommunities2016.pdf)]
 * Fred Gibbs,‘[Editorial Sustainability and Open Peer Review at Programming Historian]’, *DH Commons*, Vol. 1 (2015).
-
+* Shawn Graham, Ian Milligan, and Scott Weingart, [_Exploring Big Historical Data: The Historian's Macroscope_](http://www.themacroscope.org/2.0/), (Imperial College Press, 2015).
 
 ### Talleres y eventos
 
@@ -44,6 +44,8 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Editoriales
 
+* Anaclet Pons, "The Programming Historian en español", *Clionauta: blog de historia*, 14 de junio, 2017 <http://clionauta.hypotheses.org/16979>
+* Seth Denbo, “Historian, Program! Self-Help for Digital Neophytes,” _Perspectives on History: The Newsmagazine of the American Historical Association_, May 2017, <https://www.historians.org/publications-and-directories/perspectives-on-history/may-2017/historian-program-self-help-digital-neophytes>.
 * Víctor Gayol, '*The Programming Historian* en español', *Blog de Humanidades Digitales*, 17 de marzo, 2017, <http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/>
 
 ### Proyectos que utilizan *The Programming Historian*

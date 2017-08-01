@@ -8,16 +8,7 @@ rvm:
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: |
-  bundle exec jekyll build && bundle exec htmlproofer ./_site \
-  --assume-extension \
-  --empty-alt-ignore \
-  --alt-ignore '/.*/' \
-  --file-ignore '/.+/assets/.*/','/.+/lessons/deprecated/.*/' \
-  --timeframe '30d' \
-  --only-4xx \
-  --http-status-ignore 429 \
-  --url-ignore http://www.gutenberg.org/ebooks/2600
+script: _build/build.sh  
 
 env:
   global:

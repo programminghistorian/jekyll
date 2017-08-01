@@ -1,18 +1,27 @@
 ---
-title: Getting Started with Topic Modeling and MALLET
+title: Getting Started with Topic Modeling and MALLET 
+layout: lesson
+date: 2012-09-02
 authors:
 - Shawn Graham
 - Scott Weingart
 - Ian Milligan
-date: 2012-09-02
 reviewers:
 - John Fink
 - Alan MacEachern
 editors:
 - Adam Crymble
-layout: default
 difficulty: 2
+activity: analyzing
+topics: [distant-reading]
+abstract: "In this lesson you will first learn what topic modeling is and why you might want to employ it in your research. You will then learn how to install and work with the MALLET natural language processing toolkit to do so."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Editor's Note
 -------------
@@ -20,6 +29,10 @@ Editor's Note
 This lesson requires you to use the command line. If you have no
 previous experience using the command line you may find it helpful to
 work through the Programming Historian [Bash Command Line][] lesson.
+
+**As noted below, while there is currently a preview release of MALLET 2.0.8 available, this
+lesson uses the official release of MALLET 2.0.7. If you are following
+along with our instructions, please be sure to download the correct version.**
 
 Lesson Goals
 ------------
@@ -151,8 +164,7 @@ the instructions appropriate for you below:
 
 ### Windows Instructions
 
-1.  Go to the [MALLET][] project page, and [`download MALLET`][]. (As
-    of this writing, remember, we are working with version 2.0.7.)
+1.  Go to the [MALLET][] project page. Since we are using Mallet 2.0.7, you can download this older version from this [direct link](http://mallet.cs.umass.edu/dist/mallet-2.0.7.zip).
 2.  You will also need the [Java developer's kit][] – that is, not the
     regular Java that's on every computer, but the one that lets you
     program things. Install this on your computer.
@@ -204,7 +216,7 @@ can type commands directly, rather than clicking on icons and menus.
 
 {% include figure.html filename="fig-5-command-prompt-window-getting-to-c.png" caption="Figure 5: Navigating to the C:\ Directory in Command Prompt" %}
 
-1.  Then type `cd mallet `and you are in the MALLETdirectory. Anything
+1.  Then type `cd mallet `and you are in the MALLET directory. Anything
     you type in the command prompt window is a *command*. There are
     commands like `cd` (change directory) and `dir` (list directory
     contents) that the computer understands. You have to tell the
@@ -229,8 +241,7 @@ You are now ready to skip ahead to the next section.
 Many of the instructions for OS X installation are similar to Windows,
 with a few differences. In fact, it is a bit easier.
 
-1.  Download and [install MALLET 2.0.7 (*mallet-2.0.7.tar.gaz* as of Summer
-    2012).][`download MALLET`]
+1.  Download and [install MALLET 2.0.7](http://mallet.cs.umass.edu/dist/mallet-2.0.7.zip).
 2.  Download the [Java Development Kit][Java developer's kit].
 
 Unzip MALLET into a directory on your system (for ease of following
@@ -367,7 +378,7 @@ bin\mallet import-dir --input sample-data\web\de --output tutorial.mallet --keep
 
 And then finally, you could use your own data. Change `sample-data\web\de` to a directory that contains your own research files. Good luck!
 
-If you are unsure how directories work, we suggest the *Programming Historian* lesson ["Introduction to the Bash Command Line"](http://programminghistorian.org/lessons/intro-to-bash). 
+If you are unsure how directories work, we suggest the *Programming Historian* lesson ["Introduction to the Bash Command Line"](/lessons/intro-to-bash). 
 
 ### For Mac
 
@@ -604,7 +615,7 @@ report.
   [Topic Modeling Martha Ballard's Diary]: http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/
   [MALLET]: http://mallet.cs.umass.edu/index.php
   [*Gibbs sampling*]: http://en.wikipedia.org/wiki/Gibbs_sampling
-  [`download MALLET`]: http://mallet.cs.umass.edu/dist/mallet-2.0.7.tar.gz
+  [`download MALLET`]: http://mallet.cs.umass.edu/download.php
   [Java developer's kit]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
   [automate this process]: http://electricarchaeology.ca/2012/07/09/mining-a-day-of-archaeology/
   [Mining the Open Web with Looted Heritage Draft]: http://electricarchaeology.ca/2012/06/08/mining-the-open-web-with-looted-heritage-draft/

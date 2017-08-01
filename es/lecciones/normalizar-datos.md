@@ -4,8 +4,10 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
-reviewers:
+translation_date: 2017-03-15
+editors:
 - Miriam Posner
+reviewers:
 - Jim Clifford
 - Francesca Benatti
 translator:
@@ -14,11 +16,22 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: contar-frecuencias
 previous: de-html-a-lista-de-palabras-2
 redirect_from: /es/lessons/normalizing-data
+python_warning: true
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "En esta lección haremos que la lista que creamos en'De HTML a lista de palabras (parte 2)' sea más fácil de analizar al “normalizar” los datos." 
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Objetivos de la lección
 
@@ -152,10 +165,10 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 -   python-es-lecciones4.zip ([zip sync][])
 
-[De HTML a lista de palabras (parte 2)]: ../lecciones/de-html-a-lista-de-palabras-2
+[De HTML a lista de palabras (parte 2)]: /es/lecciones/de-html-a-lista-de-palabras-2
   [web page]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-  [De HTML a lista de palabras (parte 1)]: ../lecciones/de-html-a-lista-de-palabras-1
-  [Manipular cadenas de caracteres en Python]: ../lecciones/manipular-cadenas-de-caracteres-en-python
+  [De HTML a lista de palabras (parte 1)]: /es/lecciones/de-html-a-lista-de-palabras-1
+  [Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
   [Unicode]: http://unicode.org/
   [soporte de Python]: http://www.diveintopython.net/xml_processing/unicode.html
   [Dive into Python]: http://www.diveintopython.net/regular_expressions/index.html

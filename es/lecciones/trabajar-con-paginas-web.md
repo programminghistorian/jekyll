@@ -4,6 +4,9 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
+translation_date: 2017-03-15
+editors:
+- Miriam Posner
 reviewers:
 - Miriam Posner
 - Jim Clifford
@@ -13,12 +16,23 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 categories: [lessons, python, original-ph]
+difficulty: 2
+activity: acquiring
+topics: [python]
+abstract: "Esta lección muestra qué es un Localizador de recursos uniforme (Uniform Resource Locator = URL) y explica cómo utilizar Python para descargar y guardar los contenidos de una página web en tu disco duro."
 next: manipular-cadenas-de-caracteres-en-python
 previous: reutilizacion-de-codigo-y-modularidad
 redirect_from: /es/lessons/working-with-web-pages
+python_warning: true
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Objetivos de la lección
 -----------------------
@@ -56,7 +70,7 @@ http://oldbaileyonline.org/static/Project.jsp
 Por último, muchas páginas web te permiten introducir consultas. El sitio web *The Old Bailey Online*, por ejemplo, está diseñado de tal manera que puedes solicitar una página en particular utilizando una [*cadena de consulta*]. EL siguiente URL te llevará a la página de resultados de búsqueda de registros de juicios criminales que contienen la palabra “arsenic” (arsénico)
 
 ``` xml
-http://www.oldbaileyonline.org/search.jsp?form=custom&_divs_fulltext=arsenic
+https://www.oldbaileyonline.org/search.jsp?form=searchHomePage&_divs_fulltext=arsenic&kwparse=and&_persNames_surname=&_persNames_given=&_persNames_alias=&_offences_offenceCategory_offenceSubcategory=&_verdicts_verdictCategory_verdictSubcategory=&_punishments_punishmentCategory_punishmentSubcategory=&_divs_div0Type_div1Type=&fromMonth=&fromYear=&toMonth=&toYear=&ref=&submit.x=0&submit.y=0
 ```
 
 El fragmento de texto después de “?” representa la consulta. Puedes aprender más acerca de la construcción de consultas en [Descarga de registros múltiples usando cadenas de consulta] (en inglés).
@@ -139,7 +153,7 @@ f.write(contenidoWeb)
 f.close
 ```
 
-Ahora, si tu puedes guardar un solo archivo así de fácil, ¿es posible escribir un programa que te permita descargar un puñado de archivos? ¿Es posible incrementar la cantidad de IDs de los juicios y obtener copias de todos ellos en una sola descarga? Efectivamente. Puedes aprender cómo hacerlo en la lección [Downloading Multiple Files using Query Strings](http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings), que te recomendamos ver una vez completadas las lecciones introductorias de esta serie.
+Ahora, si tu puedes guardar un solo archivo así de fácil, ¿es posible escribir un programa que te permita descargar un puñado de archivos? ¿Es posible incrementar la cantidad de IDs de los juicios y obtener copias de todos ellos en una sola descarga? Efectivamente. Puedes aprender cómo hacerlo en la lección [Downloading Multiple Files using Query Strings](/lessons/downloading-multiple-records-using-query-strings), que te recomendamos ver una vez completadas las lecciones introductorias de esta serie.
 
 Lecturas sugeridas
 ------------------

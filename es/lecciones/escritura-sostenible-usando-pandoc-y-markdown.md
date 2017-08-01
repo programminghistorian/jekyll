@@ -4,7 +4,8 @@ authors:
 - Dennis Tenen
 - Grant Wythoff
 date: 2014-03-19
-reviewers:
+translation_date: 2017-04-04
+editors:
 - Fred Gibbs
 translator:
 - Víctor Gayol
@@ -13,10 +14,21 @@ editor:
 translation-reviewer:
 - Antonio Rojas Castro
 - Maria José Afanador-Llach
-layout: default
+layout: lesson
 difficulty: 2
+activity: sustaining
+topics: [website, data-management]
+abstract: "En este tutorial aprenderás lo básico de Markdown—una sintaxis de marcado para texto plano que es fácil de leer y de escribir así como Pandoc, una herramienta de línea de comandos que convierte el texto plano en varios tipos de archivos bellamente formateados: PDF, .docx, HTML, LaTeX, presentaciones de diapositivas y más."
 redirect_from: /es/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+exclude_from_check:
+  - reviewers
 ---
+
+{% include toc.html %}
+
+
+
+
 
 {% include figure.html filename="lexoriter.jpg" caption="" %}
 

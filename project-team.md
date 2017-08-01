@@ -1,97 +1,68 @@
 ---
 title: Project Team
-layout: directory
+layout: blank
 ---
 
-Our editorial team works together to help authors produce high quality tutorials. Please direct correspondence in the first instance to **<a href="mailto:jeri.elizabeth%2Bproghist@gmail.com">Jeri Wieringa</a>** at George Mason University who is the acting commissioning editor. You can follow *The Programming Historian* on Twitter: [@proghist](http://twitter.com/proghist).
+# Project Team
+Please direct correspondence in the first instance to:
+
+* <a href="mailto:jeri.elizabeth%2Bproghist@gmail.com">Jeri Wieringa</a> (English)
+* <a href="mailto:vgayol@colmich.edu.mx">Victor Gayol</a> (Spanish)
+* <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a> (Spanish)
+
+You can follow the _Programming Historian_ on Twitter: [@proghist](http://twitter.com/proghist).
 
 ## Editorial Board
 
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Maria-Jose-Afanador-Llach.png" />
-Maria José Afanador-Llach works in the Fundación Histórica Neogranadina, 
-a non-profit organization digitizing endangered colonial archives in Colombia and promoting digital humanities projects.
- 
-<br />
-	
-	
-		<a href="mailto:mariajose@neogranadina.org"><i class="fa fa-envelope-square fa-lg"></i></a>
-	
-	
-		<a href="https://twitter.com/mariajoafana"><i class="fa fa-twitter-square fa-lg"></i></a>
-<br /><br /><br />
-</div>
+{% comment %}
+All editorial board information should be edited in data/authors.yml. Authors who are on the editorial team must have team: true in their metadata.
+{% endcomment %}
+{% include project-team-loop.html %}
 
-{% include contact-info.html name="Adam Crymble" %}
+## Project Team Membership History
 
-<div class="contact-box">
-<img class="avatar" src="http://programminghistorian.org/avatars/Victor-Gayol.png" />
-Víctor Gayol is a researcher and professor of history at El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
- 
-<br />
+* William J. Turkel, Western University (2008-2015)
+* Alan MacEachern, Western University (2008-2013)
+* Adam Crymble, University of Hertfordshire (2011-Present)
+* Fred Gibbs, University of New Mexico (2011-2017)
+* Jeremy Boggs, University of Virginia (2012-2014)
+* Miriam Posner, UCLA (2012-2016)
+* Allison Hegel, UCLA (2013-2016)
+* Carrie Sanders, UCLA (2013-2014)
+* Caleb McDaniel, Rice University (2014-2017)
+* Ian Milligan, University of Waterloo (2014-Present)
+* Jeri Wieringa, George Mason University (2015-Present)
+* Maria Jos&eacute; Afanador-Llach, Fundacion Historica Neograndina (2016-Present)
+* Victor Gayol, El Colegio de Michoac&aacute;n (2016-Present)
+* Antonio Rojas Castro, Cologne Center for eHumanities (2016-Present)
+* Evan Taparata, University of Minnesota (2016)
+* Amanda Visconti, University of Virginia (2016-Present)
+* Matthew Lincoln, Getty Research Institute (2017-Present)
+* Jessica Parr, Simmons College (2017-Present)
+* Brandon Walsh, University of Virginia (2017-Present)
+* Anandi Silva Knuppel, Emory University (2017-Present)
 
-		<a href="http://victorgayol.net"><i class="fa fa-home fa-lg"></i></a>
-	
-		<a href="mailto:vgayol@colmich.edu.mx"><i class="fa fa-envelope-square fa-lg"></i></a>
-	
-	
-		<a href="https://twitter.com/victor_gayol"><i class="fa fa-twitter-square fa-lg"></i></a>
-	
-	
-		<a href="http://github.com/vgayolrs"><i class="fa fa-github-square fa-lg"></i></a>
-	
-<br /><br /><br />
-</div>
-
-{% include contact-info.html name="Fred Gibbs" %}
-
-{% include contact-info.html name="Matthew Lincoln" %}
-
-{% include contact-info.html name="Caleb McDaniel" %}
-
-{% include contact-info.html name="Ian Milligan" %}
-
-{% include contact-info.html name="Jessica Parr" %}
-
-{% include contact-info.html name="Antonio Rojas Castro" %}
-
-{% include contact-info.html name="Amanda Visconti" %}
-
-{% include contact-info.html name="Brandon Walsh" %}
-
-{% include contact-info.html name="Jeri Wieringa" %}
-
-
-## Emeritus Team Members
-
-* Jeremy Boggs, University of Virginia (2012-2014).
-* Allison Hegel, UCLA (2013-2016).
-* Alan MacEachern, Western University (2008-2013).
-* Miriam Posner, UCLA (2012-2016).
-* Carrie Sanders, UCLA (2013-2014).
-* Evan Taparata, University of Minnesota (2016).
-* William J. Turkel, Western University (2008-2015).
 
 ## Community Participants
 
-*Programming Historian* also benefits enormously from the efforts of
+The _Programming Historian_ also benefits enormously from the efforts of
 people who volunteer their time and energy. If you are interested in
 pitching in, either for a single project or in an ongoing role, please
 find out [how to contribute](/contribute)!
 
-We are especially grateful to the dedicated Programming Historian authors who are not members of the Project Team: 
+We are especially grateful to the dedicated _Programming Historian_ authors who are not members of the Project Team:
 
 {% for member in site.data.authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](/contribute).
 
 We also thank everyone who has helped to review lessons by reporting issues,
 fixing errors, or conducting formal peer reviews. At the time of writing, this
-has included the following people: 
+has included the following people:
 
 {% for reviewer in site.data.reviewers %}
 {{reviewer}},{% endfor %} and, hopefully, you! Find out more about [how to
 contribute](/contribute).
 
-Finally, we'd like to thank those who have been involved in organising, running, leading, or supporting workshops involving the project and Project Team:
+Finally, we'd like to thank those who have been involved in organizing, running, leading, or supporting workshops involving the project and Project Team:
 
 * Anelda van der Walt, Talarify (South Africa)
 * Johann Templehoff, North-West University (South Africa)

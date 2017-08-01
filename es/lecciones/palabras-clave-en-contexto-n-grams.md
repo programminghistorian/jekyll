@@ -4,8 +4,10 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
-reviewers:
+translation_date: 2017-03-15
+editors:
 - Miriam Posner
+reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
@@ -13,11 +15,22 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: salida-palabras-clave-contexto-ngrams
 previous: salida-de-datos-como-archivo-html
 redirect_from: /es/lessons/keywords-in-context-using-n-grams
+python_warning: true
+difficulty: 2
+activity: presenting
+topics: [python]
+abstract: "Esta lección retoma los pares de frecuencias recolectados en [Contar frecuencias de palabras][] y crea una salida de datos en HTML." 
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Objetivos de la lección
 
@@ -161,9 +174,9 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 -   python-es-lecciones8.zip ([zip sync][])
 
-  [Salida de datos como archivo HTML]: ../lecciones/salida-de-datos-como-archivo-html
-  [Contar frecuencias de palabras]: ../lecciones/contar-frecuencias
+  [Salida de datos como archivo HTML]: /es/lecciones/salida-de-datos-como-archivo-html
+  [Contar frecuencias de palabras]: /es/lecciones/contar-frecuencias
   [1]: salida-de-datos-como-archivo-html
   [archivo zip de las lecciones anteriores]: http://programminghistorian.org/assets/python-es-lecciones7.zip
-  [Manipular cadenas de caracteres en Python]: ../lecciones/manipular-cadenas-de-caracteres-en-python
+  [Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
   [zip sync]: http://programminghistorian.org/assets/python-es-lecciones8.zip

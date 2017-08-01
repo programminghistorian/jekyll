@@ -1,18 +1,29 @@
 ---
-title: Downloading Web Pages with Python
+title: Downloading Web Pages with Python 
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-layout: default
-categories: [lessons, python, original-ph]
+difficulty: 2
+activity: acquiring
+topics: [python]
+abstract: "This lesson introduces Uniform Resource Locators (URLs) and explains how to use Python to download and save the contents of a web page to your local hard drive."
 next: manipulating-strings-in-python
 previous: code-reuse-and-modularity
+categories: [lessons, python, original-ph]
+python_warning: true
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Lesson Goals
 ------------
@@ -78,7 +89,7 @@ following URL will take you to a search results page for criminal record
 trials containing the word "arsenic".
 
 ``` xml
-http://www.oldbaileyonline.org/search.jsp?form=custom&_divs_fulltext=arsenic
+https://www.oldbaileyonline.org/search.jsp?form=searchHomePage&_divs_fulltext=arsenic&kwparse=and&_persNames_surname=&_persNames_given=&_persNames_alias=&_offences_offenceCategory_offenceSubcategory=&_verdicts_verdictCategory_verdictSubcategory=&_punishments_punishmentCategory_punishmentSubcategory=&_divs_div0Type_div1Type=&fromMonth=&fromYear=&toMonth=&toYear=&ref=&submit.x=0&submit.y=0
 ```
 
 The snippet after the "?" represents the query. You can learn more about
@@ -221,7 +232,7 @@ f.close
 So, if you can save a single file this easily, could you write a program
 to download a bunch of files? Could you step through trial IDs, for
 example, and make your own copies of a whole bunch of them? Yep. You can learn
-how to do that in [Downloading Multiple Files using Query Strings](http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings),
+how to do that in [Downloading Multiple Files using Query Strings](/lessons/downloading-multiple-records-using-query-strings),
 which we recommend after you have completed the introductory lessons in this series.
 
 Suggested Readings
@@ -240,7 +251,7 @@ file to make sure you have the correct code.
 -   programming-historian-1 ([zip][])
 
   [Old Bailey Online]: http://www.oldbaileyonline.org/
-  [Downloading Multiple Records Using Query Strings]: ../lessons/downloading-multiple-records-using-query-strings
-  [Old]: ../images/old-bailey.png "Old"
+  [Downloading Multiple Records Using Query Strings]: /lessons/downloading-multiple-records-using-query-strings
+  [Old]: /images/old-bailey.png "Old"
   [Gordon Riots]: http://en.wikipedia.org/wiki/Gordon_Riots
-  [zip]: ../assets/python-lessons1.zip
+  [zip]: /assets/python-lessons1.zip

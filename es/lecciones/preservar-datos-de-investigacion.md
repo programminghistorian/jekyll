@@ -3,20 +3,31 @@ title: Preservar tus datos de investigación
 authors:
 - James Baker
 date: 2014-04-30
+translation_date: 2017-03-20
+editors:
+- Adam Crymble
 reviewers:
 - Jane Winters
 - Sharon Howard
 - William J. Turkel
-- Adam Crymble
 translator:
 - Víctor Gayol
 translation-reviewer:
 - Antonio Rojas Castro
 - Maria José Afanador-Llach
-layout: default
+layout: lesson
 difficulty: 1
-redirect-from: /es/lessons/preserving-your-research-data
+redirect_from: /es/lessons/preserving-your-research-data
+activity: sustaining
+topics: [data-management]
+abstract: "Esta lección te sugerirá formas en las que los historiadores pueden documentar y estructurar sus datos de investigación con el fin de asegurar que permanecerán útiles en el futuro."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 #### La cuestión de fondo
 

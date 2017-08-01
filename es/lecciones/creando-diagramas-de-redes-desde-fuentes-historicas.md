@@ -3,29 +3,31 @@ title: "De la hermeneútica a las redes de datos: Extracción de datos y visuali
 authors:
 - Marten Düring
 date: 2015-02-18
+translation_date: 2017-04-26
 reviewers:
 - Fred Gibbs
 - Ryan Cordell
 - Justin Larsen
 translator:
 - Maria José Afanador-Llach
-editor:
+editors:
 - Víctor Gayol
 translation-reviewer:
 - José Antonio Motilla Chávez
 - Jairo Antonio Melo Flórez
-layout: default
+layout: lesson
 redirect_from: /es/lessons/creating-network-diagrams-from-historical-sources
+difficulty: 2
+activity: transforming
+topics: [network-analysis]
+abstract: "La visualizaciones de redes pueden ayudar a los humanistas a revelar patrones complejos escondidos y estructuras en fuentes textuales. Este tutorial explica cómo extraer datos en red (personas, instituciones, lugares, etcétera.) de fuentes históricas a través del uso de métodos no especializados desarrollados en el marco del análisis de datos qualitativos (Qualitative Data Analysis, QDA) y el análisis de redes sociales (Social Network Analysis, SNA), y cómo visualizar estos datos con Palladio, una aplicación independiente de plataforma y que es particularmente fácil de usar."
 ---
 
-Tabla de contenidos:
+{% include toc.html %}
 
-- [*Introducción*](#introducción)
-- [*Sobre el caso de estudio*](#sobre-el-caso-de-estudio)
-- [*Desarrollando un esquema de codificación*](#desarrollando-un-esquema-de-codificación)
-- [*Visualiza datos en red utilizando Palladio*](#visualiza-datos-en-red-utilizando-palladio)
-- [*El valor agregado de las visualizaciones de redes*](#el-valor-agregado-de-las-visualizaciones-de-redes)
-- [*Otras herramientas de visualización para tener en cuenta*](#otras-herramientas-de-visualización-para-tener-en-cuenta)
+
+
+
 
 Introducción
 ------------

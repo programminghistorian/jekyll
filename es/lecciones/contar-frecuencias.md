@@ -4,8 +4,10 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
+translation_date: 2017-03-15
+editors:
+- Mirian Posner
 reviewers:
-- Miriam Posner
 - Jim Clifford
 translator:
 - Víctor Gayol
@@ -13,11 +15,22 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: crear-y-ver-archivos-html-con-python
 previous: normalizar-datos
 redirect_from: /es/lessons/counting-frequencies
+difficulty: 2
+activity: analyzing
+topics: [python]
+abstract: "Contar la frecuencia de palabras específicas en una lista puede proveer datos ilustrativos. Con esta lección aprenderás una forma fácil para contar dichas frecuencias usando Python."  
+python_warning: true
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Objetivo de la lección
 

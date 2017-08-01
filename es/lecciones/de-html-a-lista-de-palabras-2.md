@@ -4,8 +4,10 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
-reviewers:
+translation_date: 2017-03-15
+editors:
 - Miriam Posner
+reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
@@ -13,11 +15,22 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: normalizar-datos
 previous: de-html-a-lista-de-palabras-1
 redirect_from: /es/lessons/from-html-to-list-of-words-2
+python_warning: true
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "En esa lección aprenderás los comandos de Python que son necesarios para implementar la segunda parte del algoritmo que comenzamos en la lección 'De HTML a lista de palabras (parte 1)'." 
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Objetivos de la lección
 
@@ -235,7 +248,7 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 -   python-es-lecciones3.zip ([zip sync][])
 
-  [De HTML a lista de palabras (parte 1)]: ../lecciones/de-html-a-lista-de-palabras-1
+  [De HTML a lista de palabras (parte 1)]: /es/lecciones/de-html-a-lista-de-palabras-1
   [entero]: http://docs.python.org/2.4/lib/typesnumeric.html
   [tipos]: http://docs.python.org/3/library/types.html
   [zip]: http://programminghistorian.org/assets/python-es-lecciones2.zip

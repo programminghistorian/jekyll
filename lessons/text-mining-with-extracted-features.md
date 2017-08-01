@@ -9,8 +9,17 @@ reviewers:
 - Catherine DeRose
 editors:
 - Ian Milligan
-layout: default
+layout: lesson
+activity: analyzing
+topics: [distant-reading]
+difficulty: 3
+abstract: |
+  Explains how to use Python to summarize and visualize data on millions of texts from the HathiTrust Research Center's Extracted Features dataset.
 ---
+
+{% include toc.html %}
+
+
 
 
 
@@ -54,9 +63,9 @@ The Extracted Features dataset also underlies higher-level analytic tools. [Mimn
 
 This lesson provides a gentle but technical introduction to text analysis in Python with the HTRC Feature Reader. Most of the code is provided, but is most useful if you are comfortable tinkering with it and seeing how outputs change when you do.
 
-We recommend a baseline knowledge of Python conventions, which can be learned with Turkel and Crymble's [series of Python lessons](http://programminghistorian.org/lessons/introduction-and-installation) on Programming Historian.
+We recommend a baseline knowledge of Python conventions, which can be learned with Turkel and Crymble's [series of Python lessons](/lessons/introduction-and-installation) on Programming Historian.
 
-The skills taught here are focused on flexibly accessing and working with already-computed text features. For a better understanding of the process of deriving word features, Programming Historian provides a lesson on [Counting Frequencies](http://programminghistorian.org/lessons/counting-frequencies), by Turkel and Crymble.
+The skills taught here are focused on flexibly accessing and working with already-computed text features. For a better understanding of the process of deriving word features, Programming Historian provides a lesson on [Counting Frequencies](/lessons/counting-frequencies), by Turkel and Crymble.
 
 A more detailed look at text analysis with Python is provided in the [Art of Literary Text Analysis](https://github.com/sgsinclair/alta/blob/master/ipynb/ArtOfLiteraryTextAnalysis.ipynb) (Sinclair). The Art of Literary Text Analysis (ALTA) provides a deeper introduction to foundation Python skills, as well as introduces further text analytics concepts to accompany the skills we cover in this lesson. This includes lessons on extracting features ([tokenization](https://github.com/sgsinclair/alta/blob/master/ipynb/Nltk.ipynb), [collocations](https://github.com/sgsinclair/alta/blob/master/ipynb/RepeatingPhrases.ipynb)), and [visualizing trends](https://github.com/sgsinclair/alta/blob/master/ipynb/GettingGraphical.ipynb).
 
@@ -136,7 +145,7 @@ In this notebook, it's time to give the HTRC Feature Reader a try. When it is ti
 ## Reading your First Volume
 The HTRC Feature Reader library has three main objects: **FeatureReader**, **Volume**, and **Page**.
 
-The **FeatureReader** object is the interface for loading the dataset files and making sense of them. The files are originally formatted in a notation called JSON (which _Programming Historian_ discusses [here](http://programminghistorian.org/lessons/json-and-jq)) and compressed, which FeatureReader makes sense of and returns as Volume objects. A **Volume** is a representation of a single book or other work. This is where you access features about a work. Many features for a volume are collected from individual pages; to access Page information, you can use the **Page** object.
+The **FeatureReader** object is the interface for loading the dataset files and making sense of them. The files are originally formatted in a notation called JSON (which _Programming Historian_ discusses [here](/lessons/json-and-jq)) and compressed, which FeatureReader makes sense of and returns as Volume objects. A **Volume** is a representation of a single book or other work. This is where you access features about a work. Many features for a volume are collected from individual pages; to access Page information, you can use the **Page** object.
 
 Let's load two volumes to understand how the FeatureReader works. Create a cell in the already-open Jupyter notebook and run the following code. This should give you the input shown below.
 
@@ -873,7 +882,7 @@ for page_number in page_numbers:
 token_idx = tl.index.get_level_values("token")
 tl[token_idx.str.isalpha()]
 ```
-Readers familiar with regular expressions (see [Understanding Regular Expressions](http://programminghistorian.org/lessons/understanding-regular-expressions) by Doug Knox) can adapt this example for even more robust selection using the `contains()` string method.
+Readers familiar with regular expressions (see [Understanding Regular Expressions](/lessons/understanding-regular-expressions) by Doug Knox) can adapt this example for even more robust selection using the `contains()` string method.
 
 ## Sorting DataFrames
 

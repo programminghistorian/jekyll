@@ -1,5 +1,7 @@
 ---
 title: Using SPARQL to access Linked Open Data
+layout: lesson
+date: 2015-11-24
 authors:
 - Matthew Lincoln
 reviewers:
@@ -8,10 +10,11 @@ reviewers:
 - Will Hanley
 editors:
 - Fred Gibbs
-date: 2015-11-24
-layout: default
-categories: [lessons]
 difficulty: 2
+activity: acquiring
+topics: [lod]
+abstract: "This lesson explains why many cultural institutions are adopting graph databases, and how researchers can access these data though the query language called SPARQL."
+categories: [lessons]
 ---
 
 Lesson Goals
@@ -21,23 +24,10 @@ This lesson explains why many cultural institutions are adopting graph
 databases, and how researchers can access these data though the query language
 called SPARQL.
 
-_Table of contents_
+{% include toc.html %}
 
-- [Graph Databases, RDF, and Linked Open Data](#graph-databases-rdf-and-linked-open-data)
-  - [RDF in brief](#rdf-in-brief)
-  - [Searching RDF with SPARQL](#searching-rdf-with-sparql)
-  - [URIs and Literals](#uris-and-literals)
-  - [Terms to review](#terms-to-review)
-- [Real-world queries](#real-world-queries)
-  - [All the statements for one object](#all-the-statements-for-one-object)
-  - [Complex queries](#complex-queries)
-  - [FILTER](#filter)
-  - [Aggregation](#aggregation)
-  - [Linking multiple SPARQL endpoints](#linking-multiple-sparql-endpoints)
-- [Working with SPARQL results](#working-with-sparql-results)
-  - [Export results to CSV](#export-results-to-csv)
-  - [Export results to Palladio](#export-results-to-palladio)
-- [Further reading](#further-reading)
+
+
 
 
 # Graph Databases, RDF, and Linked Open Data
@@ -324,6 +314,8 @@ useful to give them meaningful names for the complex queries that follow!.
 
 {% include figure.html filename="sparql04.png" caption="An initial list of all the predicates and objects associated with one artwork in the British Museum." %}
 
+**Note: depending on how the British Museum has configured their SPARQL endpoint when you read this lesson, instead of seeing "prefixed" versions of the URLs (e.g. `thes:8577`) you may instead see the full version `http://collection.britishmuseum.org/id/thesauri/x8577`. As noted [in the discussion of prefixes above](#terms-to-review), this still represents the same URI.**
+
 The BM endpoint formats the results table with hyperlinks for every variable
 that is itself an RDF node, so by clicking on any one of these links you can
 shift to seeing all the predicates and objects for that newly-selected node.
@@ -463,6 +455,8 @@ ORDER BY DESC(?n)
 
 ## Linking multiple SPARQL endpoints
 
+**2016-09-12: Unfortunately, Europeana has suspended their SPARQL endpoint until further notice, so the links in the following section are no longer operative. The text below will be retained as-is for reference purposes, and will be updated if and when Europeana renews their endpoint.**
+
 Up until now, we have constructed queries that look for patterns in one dataset
 alone. In the ideal world envisioned by Linked Open Data advocates, multiple
 databases can be interlinked to allow very complex queries dependent on
@@ -479,12 +473,10 @@ Architecture thesaurus. SPARQL allows you to insert `SERVICE` statements that
 instruct the database to "phone a friend" and run a portion of the query on
 an outside dataset, using the results to complete the query on the local
 dataset. While this lesson will go into the data models in Europeana and DBpedia in depth, the following query illustrates how a `SELECT` statement works. You may run it yourself by copying and pasting the query text into the [Europeana endpoint][eursparql].
-(On the Europeana endpoint, you must set the "Sponging" menu to "Retrieve remote RDF data for all missing source graphs" in order for this query to work.)
 
 [eursparql]: http://sparql.europeana.eu/
 
 ```
-PREFIX ore:    <http://www.openarchives.org/ore/terms/>
 PREFIX edm:    <http://www.europeana.eu/schemas/edm/>
 PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbo:    <http://dbpedia.org/ontology/>

@@ -4,8 +4,10 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
-reviewers:
+translation_date: 2017-03-15
+editors:
 - Miriam Posner
+reviewers:
 - Jim Clifford
 - Amanda Morton
 translator:
@@ -14,9 +16,19 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
+difficulty: 1
+activity: transforming
+topics: [python, get-ready]
+abstract: "Esta primera lección de nuestra sección sobre recursos en línea está diseñada para introducirte en el tema y preparar tu computadora para comenzar a programar. Nos enfocaremos en la instalación del software necesario para hacerlo –que es software libre y de buena reputación-, y finalmente te ayudaremos a dar una probadita en programación (como dicen en inglés: “get your toes wet”), con unos programas sencillos que producen resultados inmediatos."
 redirect_from: /es/lessons/introduction-and-installation
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Objetivos de la lección
 ------------

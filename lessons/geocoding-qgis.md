@@ -8,10 +8,20 @@ reviewers:
 - Léon Robichaud
 editors:
 - Adam Crymble
-layout: default
+layout: lesson
 difficulty: 2
 review-ticket: 27
+activity: transforming
+topics: [mapping]
+abstract: |
+  Learn how to use QGIS to convert lists of place names in to geographic coordinates, allowing you to map them.
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson Goals
 
@@ -27,7 +37,7 @@ In this tutorial, you will learn how to 'geocode' historial data containing plac
 - Analyse distances between locations in your data
 - View and analyse geographical distribution within your data
 
-This tutorial forms part of the Mapping and GIS series on *Programming Historian*, and builds upon skills you will have learned in earlier tutorials, especially [Installing QGIS 2.0 and Adding Layers](http://programminghistorian.org/lessons/qgis-layers). It presumes that you have a set of [shapefiles](https://en.wikipedia.org/wiki/Shapefile) relevant to the region for which you intend to produce a map, and data that you would like to get into those shapefiles so that it can be visualised and analysed.
+This tutorial forms part of the Mapping and GIS series on *Programming Historian*, and builds upon skills you will have learned in earlier tutorials, especially [Installing QGIS 2.0 and Adding Layers](/lessons/qgis-layers). It presumes that you have a set of [shapefiles](https://en.wikipedia.org/wiki/Shapefile) relevant to the region for which you intend to produce a map, and data that you would like to get into those shapefiles so that it can be visualised and analysed.
 
 ## About Geocoding
 
@@ -53,7 +63,7 @@ At the end of the tutorial there is a note on using automated geocoding tools wh
 
 ## Getting Started
 
-This tutorial assumes that you have installed QGIS version 2 or newer and have followed the *Programming Historian* tutorial [Installing QGIS 2.0 and Adding Layers](http://programminghistorian.org/lessons/qgis-layers) by Jim Clifford, Josh MacFadyen and Daniel Macfarlane. Or, at least that you are familiar with the process of adding vector layers in QGIS.
+This tutorial assumes that you have installed QGIS version 2 or newer and have followed the *Programming Historian* tutorial [Installing QGIS 2.0 and Adding Layers](/lessons/qgis-layers) by Jim Clifford, Josh MacFadyen and Daniel Macfarlane. Or, at least that you are familiar with the process of adding vector layers in QGIS.
 
 This tutorial was prepared using QGIS 2.14 'Essen' on Mac OS X 10.11. Menus, windows, and options might appear slightly different on different platforms or versions, but it should not be difficult to translate any differences. At a few points in the tutorial reference is made to how these techniques could be applied using [ArcGIS](https://www.arcgis.com/features/index.html), which is the industry standard commercial GIS application, and is widely available at universities, but is not always superior to QGIS.
 
@@ -61,7 +71,7 @@ You will also need to use a relational database such as Microsoft Access or [Lib
 
 **NB** LibreOffice requires a full installation of Java in order to use the Base application. This is achieved most easily by downloading and installing the Java 8 Development Kit for your operating system from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). The Java 8 Runtime Environment does NOT work with LibreOffice on Mac OS X 10.11. 
 
-The tutorial will map the data extracted from [*Alumni Oxonienses*](http://www.british-history.ac.uk/alumni-oxon/1500-1714) in the *Programming Historian* lesson [Using Gazetteers to Extract Sets of Keywords from Free-Flowing Texts](http://programminghistorian.org/lessons/extracting-keywords) using publically available maps of English and Welsh historic counties. If you complete that tutorial first it will help you to understand the nature of the data which is being mapped here. These data are provided as both a full dataset and also a separate file which is a summary of the numbers of Oxford alumni by their county of origin, created from the first file using an Excel PivotTable.
+The tutorial will map the data extracted from [*Alumni Oxonienses*](http://www.british-history.ac.uk/alumni-oxon/1500-1714) in the *Programming Historian* lesson [Using Gazetteers to Extract Sets of Keywords from Free-Flowing Texts](/lessons/extracting-keywords) using publically available maps of English and Welsh historic counties. If you complete that tutorial first it will help you to understand the nature of the data which is being mapped here. These data are provided as both a full dataset and also a separate file which is a summary of the numbers of Oxford alumni by their county of origin, created from the first file using an Excel PivotTable.
 
 # The Data
 
@@ -143,7 +153,7 @@ Geocoding is a much more powerful technique than simple table joins because each
 - [Association of British Counties Gazetteer](http://www.gazetteer.org.uk/index.php) (data available to purchase)
 - [The Historical Gazetteer of England's Place Names](http://placenames.org.uk/index.php) allows you to geocode individual locations online only, unfortunately the API service for accessing this data for use in automated geocoding, known as DEEP, part of Unlock, has now (late 2016) been withdrawn. A better browsing interface is available for those with UK Higher Education logins at the [Survey of English Place-Names](https://epns.nottingham.ac.uk/browse)
 
-If no gazetteer exists for the area or period that you are studying, you can make your own relatively simply from a vector map by creating a point layer containing the information that you require within QGIS (potentially by combining information from other existing layers) and exporting that complete with XY coordinates. For some parts of the world there are neither historical gazetters, nor vector maps suitable for historical periods, in these cases you will have to investigate creating your own vector and point layer; see the tutorial [Creating New Vector Layers in QGIS 2.0](http://programminghistorian.org/lessons/vector-layers-qgis).
+If no gazetteer exists for the area or period that you are studying, you can make your own relatively simply from a vector map by creating a point layer containing the information that you require within QGIS (potentially by combining information from other existing layers) and exporting that complete with XY coordinates. For some parts of the world there are neither historical gazetters, nor vector maps suitable for historical periods, in these cases you will have to investigate creating your own vector and point layer; see the tutorial [Creating New Vector Layers in QGIS 2.0](/lessons/vector-layers-qgis).
 
 ### Tutorial: Creating a Custom Gazetteer and Geocoding in Relational Database
 

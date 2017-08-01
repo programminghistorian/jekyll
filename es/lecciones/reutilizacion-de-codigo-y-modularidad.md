@@ -4,8 +4,10 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
-reviewers:
+translation_date: 2017-03-15
+editors:
 - Miriam Posner
+reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
@@ -13,12 +15,23 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 categories: [lessons, original-ph, python]
 next: trabajar-con-paginas-web
 previous: trabajar-con-archivos-de-texto
 redirect_from: /es/lessons/code-reuse-and-modularity
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "Los programas de computadora pueden resultar largos, inmanejables y confusos si no contamos con mecanismos especiales para la gestión de su complejidad. Esta lección te mostrará la manera de reutilizar partes de su código mediante la escritura de Funciones y cómo fraccionar tus programas en Módulos con el fin de mantener todo de una manera concisa y fácil de depurar." 
+python_warning: true
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Objetivos de la lección
 -----------------------

@@ -4,8 +4,10 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
-reviewers:
+translation_date: 2017-03-15
+editors:
 - Miriam Posner
+reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
@@ -13,11 +15,21 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 next: reutilizacion-de-codigo-y-modularidad
 previous: ver-archivos-html
 redirect_from: /es/lessons/working-with-text-files
+python_warning: true
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "En esta lección aprenderás a manipular archivos de texto utilizando Python."
 ---
+
+{% include toc.html %}
+
+
+
 
 
 ## Objetivos de la lección

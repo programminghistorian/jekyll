@@ -1,98 +1,42 @@
----  
-layout: directory
-title:  
-    Acerca de Programming Historian en español
-redirect_from:  /about.html
 ---
+layout: base
+title: The Programming Historian
+---
+<div class="container" style="text-align:center">
+	<img class="home-image" src="{{ site.baseurl }}/images/about.png" />
+</div>
 
-<figure>
-	<img src="../images/about.png" width="290px" style="float: left; margin-right: 15px; margin-bottom: 15px;" />
-</figure>
+<div class="home-block">
+	<div class="container">
+	<h2><i>The Programming Historian</i> en español</h2>
+	<p><i>The Programming Historian en español</i> publica tutoriales revisados por pares dirigidos a humanistas que quieran aprender  una amplia gama de herramientas digitales, técnicas computacionales y flujos de trabajo útiles para investigar y enseñar. Estamos comprometidos en la promoción de una comunidad diversa de editores, autores y lectores.</p>
+	</div>
+</div>
 
-*The Programming Historian en español* ofrece tutoriales para principiantes y revisados por pares, que ayudan a humanistas en el aprendizaje de una amplia gama de herramientas digitales, técnicas y flujos de trabajo para facilitar su investigación.
+<div class="home-block  home-stripe-1">
+<div class="container">
+<h2>Aprende</h2>
+<p>Utiliza <a href="{{ site.baseurl }}/es/lecciones/">nuestras lecciones</a> para aprender por tu cuenta nuevas técnicas y habilidades, o simplemente para entender mejor cómo los humanistas se sirven de herramientas, métodos y procesos computacionales.</p>
+</div>
+</div>
 
-Periódicamente publicamos nuevas [lecciones] y siempre damos la bienvenida a  propuestas de nuevos tutoriales sobre cualquier tema. Nuestros mentores editoriales estarán encantados de trabajar contigo durante todo el proceso de escritura de la lección. Si deseas ser un revisor o si tienes alguna sugerencia para hacer de *Programming Historian en español* un recurso más útil, por favor consulta nuestra página [contribuciones].
+<div class="home-block ">
+<div class="container">
+<h2>Enseña</h2>
+<p>Utiliza <i>The Programming Historian en español</i> en tus clases o talleres. También puedes <a href="retroalimentacion.html">enviarnos tus comentarios</a> con el objetivo de mejorar los tutoriales para que se ajustan a tus necesidades, o bien para advertirnos de algún error o problema.</p>
+</div>
+</div>
 
-Nuestro [equipo de proyecto] y los revisores trabajan en colaboración con los autores para elaborar tutoriales que ilustren los principios fundamentales de programación y técnicas digitales. Tenemos lecciones sobre interfaces de programación de aplicaciones (APIs), de gestión de datos, de manipulación de datos, lectura distante, cartografía y sistemas de información geográfica (SIG), análisis de redes, construcción de exhibiciones digitales, programación, recopilación automática de información en web o *web-scrapping*, y más. Nuestros tutoriales incluyen casi una docena de lecciones sobre herramientas populares en Historia Digital como MALLET, Omeka y QGIS.
+<div class="home-block home-stripe-2">
+<div class="container">
+<h2>Contribuye</h2>
+<p><a href="{{ site.baseurl }}/es/guia-para-autores.html">Escribe una lección nueva</a>, únete a nuestro <a href="guia-para-revisores">equipo de revisores</a>, o bien envíanos tus <a href="retroalimentacion.html">comentarios</a>. ¡Nos gusta estar acompañados!</p>
+</div>
+</div>
 
-Si no encuentras lo que estás buscando, esperamos tus [comentarios]. O, mejor aún: ¡[contribuye con una lección]! *The Programming Historian en español* (ISSN 2397-2068) tiene como objetivo establecer un nuevo estándar para la apertura y la colaboración en las publicaciones académicas, y tú puedes ayudar en ello.
-
-## Contacto
-
-Por favor, dirige la correspondencia primeramente a [Antonio Rojas Castro] (Cologne Center for eHumanities).
-
-- - - - - 
-
-Tabla de contenidos:
-
-* TOC
-{:toc}
-
-- - - - - 
-
-
-## Nuestra filosofía
-
-*The Programming Historian en español* está comprometido con la apertura, el acceso y la calidad:
-
-### Código abierto
-
-*The Programming Historian en español* está comprometido con los principios de código abierto y acceso abierto. Todas las lecciones propuestas deben hacer uso de lenguajes de programación de código abierto y programas de código abierto cuando sea posible. Esta regla intenta minimizar los costos para todos y permitir el nivel de participación más grande posible. Creemos que cualquiera debe tener la posibilidad de beneficiarse de estos tutoriales, no solamente aquellos que cuenten con un alto financiamiento para investigación para adquirir programas de cómputo propietario.
-
-### Acceso abierto "Gold"
-
-Todas las contribuciones a *The Programming Historian en español* son publicadas con una licencia [Creative Commons BY]. Esto cumple con un modelo de publicación de acceso abierto "[Gold]", en conformidad con los requisitos de financiamiento [RCUK] y de publicación académica [HEFCE] en el Reino Unido, así como con la [Canadian Tri-Agency Open Access Policy]. Acceso abierto "Gold" significa que la versión de los documentos está disponible de manera libre, sin tarifas de suscripción o restricciones de acceso. A los autores se les permite republicar sus tutoriales en cualquier sitio. Asimismo, cualquiera puede hacerlo siempre y cuando cite al autor original y respete sus derechos morales.
-
-*The Programming Historian en español* está indexado en el Directorio de Revistas de Acceso Abierto [DOAJ].
-
-No aplicamos cargos por procesamiento de artículos (APCs), o suscripción bibliotecaria.
-
-### Revisiones
-
-Todos los tutoriales que aparecen en *The Programming Historian en español* han sido rigurosamente revisados por pares, corregidos y editados. Cada lección es supervisada por uno de nuestros editores. La revisión implica un riguroso intercambio con el editor para asegurar que la lección funciona tal cual se ha planeado y que todos los conceptos están explicados por completo para un lector no especializado, antes de que el tutorial sea enviado para su prueba a los revisores externos y que estos provean sus comentarios. Pretendemos regresar el material revisado a los autores de la manera más rápida, pero nuestra prioridad siempre es asegurar un producto de calidad.
-
-Nuestro proceso de revisión entre pares en un poco diferente del que puede considerarse el proceso “tradicional”. No solicitamos a los revisores que juzguen si el tutorial es "suficientemente bueno" para ser publicado. Por el contrario, consideramos el proceso de revisión como un componente integral del esfuerzo colaborativo, productivo y sustentable de académicos para crear recursos técnicos útiles. Una vez que el tutorial pasa a nuestro [flujo de trabajo editorial], nuestro objetivo es hacer todo lo posible para asegurar que el tutorial sea lo más útil posible y sea publicado en un tiempo razonable. Para más información consulta nuestra [Guía para revisores].
-
-Una vez que ha comenzado el proceso de revisión por pares, el papel del editor es mediar entre los revisores y el autor y mantener un seguimiento a buen tiempo. A diferencia de los procesos de revisión por pares cerrados, serás avisado de los comentarios de los revisores inmediatamente en cuanto aparezcan. Esto significa que posiblemente verás los comentarios del revisor antes que el editor los vea. Si en algún momento no estás seguro si debes comenzar a abordar los comentarios o esperar a que el editor los juzgue, no dudes en enviar un mensaje para aclarar cualquier asunto. Entenderás que el editor puede tardar unos días en responder, pero esperamos que por las mejoras en la versión valga la pena esperar.
-
-De acuerdo con las ideas de una enseñanza pública y de una revisión por pares abierta, generalmente fomentamos que las discusiones e intercambios se den en GitHub, como se describe en nuestro flujo de trabajo editorial. Sin embargo, también queremos que todos se sientan cómodos y reconocemos que en algunos casos unas palabras en privado puede ser lo más apropiado. Si sientes la necesidad de discutir un asunto relacionado con una lección o con una revisión, no dudes en enviar directamente [un correo electrónico al editor asignado], o ponerte en contacto con nuestros *ombudsperson*, [María José Afanador-Llach o Víctor Gayol].
-
-Nos esforzamos en asegurar que todos los tutoriales sean funcionales a partir de la fecha de su publicación. No obstante, de vez en cuando cambia la tecnología y las lecciones dejan de funcionar según lo previsto. Si esto sucede, por favor [háznoslo saber] y asignaremos un editor para solucionar el problema.
-
-## Financiamiento y propiedad
-
-*The Programming Historian* es una iniciativa dirigida por voluntarios, controlada en su totalidad por el "Consejo Editorial de The Programming Historian" con la ayuda de contribuyentes de la comunidad. No es una persona jurídica y no recibe financiación directa de ninguna fuente actualmente.
-
-El proyecto agradece el apoyo anterior recibido de la Network in Canadian History &amp; Environment ([NiCHE]), y por el apoyo en el alojamiento del Roy Rosenzweig Centre for New Media ([RRCHNM]). Si desea proporcionar apoyo financiero para ayudar al crecimiento de proyecto, póngase en contacto con uno de los miembros del [Consejo Editorial].
-
-## Sugerencia de citación
-
-Si deseas citar el proyecto *The Programming Historian*, te sugerimos hacerlo de la siguiente forma:
-
-Afanador-Llach, Maria José, Antonio Rojas Castro, Adam Crymble, Víctor Gayol, Fred Gibbs, Caleb McDaniel, Ian Milligan, Evan Taparata, Amanda Visconti, and Jeri Wieringa, eds. _The Programming Historian_. 2nd ed., 2017. [http://programminghistorian.org].
-
-La forma de citación de cada tutorial individual se muestra al pie de cada lección.
-
-
-
-[lecciones]: http://programminghistorian.org/es/lecciones
-[contribuciones]: http://programminghistorian.org/es/contribuciones
-[equipo de proyecto]: http://programminghistorian.org/es/equipo-de-proyecto
-[comentarios]: http://programminghistorian.org/es/retroalimentacion
-[contribuye con una lección]: http://programminghistorian.org/es/contribuciones
-[Antonio Rojas Castro]: mailto:rojas.castro.antonio@gmail.com
-[Creative Commons BY]: https://creativecommons.org/licenses/by/2.0/
-[Gold]: https://en.wikipedia.org/wiki/Open_access
-[RCUK]: http://www.rcuk.ac.uk/research/openaccess/
-[HEFCE]: http://www.hefce.ac.uk/rsrch/oa/">HEFCE
-[Canadian Tri-Agency Open Access Policy]: http://www.science.gc.ca/default.asp?lang=En&amp;n=F6765465-1
-[DOAJ]: https://doaj.org/toc/2397-2068
-[flujo de trabajo editorial]: http://programminghistorian.org/es/flujo-de-trabajo-nuevas-lecciones
-[Guía para revisores]: http://programminghistorian.org/es/guia-para-revisores
-[un correo electrónico al editor asignado]: http://programminghistorian.org/es/equipo-de-proyecto
-[María José Afanador-Llach o Víctor Gayol]: http://programminghistorian.org/es/equipo-de-proyecto
-[háznoslo saber]: http://programminghistorian.org/es/retroalimentacion
-[NiCHE]: http://niche-canada.org/
-[RRCHNM]: http://chnm.gmu.edu/
-[Consejo Editorial]: http://programminghistorian.org/es/equipo-de-proyecto
-[http://programminghistorian.org]: http://programminghistorian.org/
+<div class="home-block">
+<div class="container">
+<h2>Equipo</h2>
+<p>Somos una comunidad de volunarios; por eso, nos gusta ser transparentes y dar crédito a los <a href="equipo-de-proyecto.html">colaboradores</a> que han invertido tiempo y energía en hacer posible <i>The Programming Historian en español</i>.</p>
+</div>
+</div>

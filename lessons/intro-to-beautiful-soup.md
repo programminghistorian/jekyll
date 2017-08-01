@@ -1,13 +1,25 @@
 ---
 title: Intro to Beautiful Soup
+layout: lesson
+date: 2012-12-30
 authors:
 - Jeri Wieringa
-date: 2012-12-30
 editors:
 - Fred Gibbs
-layout: default
 difficulty: 2
+activity: transforming
+topics: [web-scraping]
+abstract: "Beautiful Soup is a Python library for getting data out of HTML, XML,
+and other markup languages."
+exclude_from_check:
+  - reviewers
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Version: Python 2.7.2 and BeautifulSoup 4.
 
@@ -65,14 +77,7 @@ With sudo, the command is:
 sudo pip install beautifulsoup4
 ```
 
-<figure>
-<a href="http://imgs.xkcd.com/comics/sandwich.png">
-      <img src="http://imgs.xkcd.com/comics/sandwich.png" alt="The power of sudo: 'Sandwich' by XKCD">
-	</a>
-<figcaption>
-    The power of sudo: 'Sandwich' by XKCD
-</figcaption>
-</figure>
+{% include figure.html filename="http://imgs.xkcd.com/comics/sandwich.png" caption="The power of sudo: 'Sandwich' by XKCD" %}
 
 Application: Extracting names and URLs from an HTML page
 --------------------------------------------------------
@@ -467,7 +472,7 @@ for tr in trs:
         positions = str(tds[2].get_text())
         parties = str(tds[3].get_text())
         states = str(tds[4].get_text())
-        congress = str(tds[5].get_text())
+        congress = tds[5].get_text()
 
     except:
         print "bad tr string"
@@ -521,7 +526,7 @@ for tr in trs:
         positions = str(tds[2].get_text())
         parties = str(tds[3].get_text())
         states = str(tds[4].get_text())
-        congress = str(tds[5].get_text())
+        congress = tds[5].get_text()
 
     except:
         print "bad tr string"
@@ -532,11 +537,11 @@ for tr in trs:
 
 You’ve done it! You have created a CSV file from all of the data in the table, creating useful data from the confusion of the html page.
 
-  [Working with Text Files]: ../lessons/working-with-text-files
-  [Command Line Bootcamp]: http://praxis.scholarslab.org/scratchpad/bash/
+  [Working with Text Files]: /lessons/working-with-text-files
+  [Command Line Bootcamp]: http://praxis.scholarslab.org/resources/bash/
   [Opening lines of Beautiful Soup]: http://www.crummy.com/software/BeautifulSoup/bs4/doc/
-  [installing python modules]: ../lessons/installing-python-modules-pip
+  [installing python modules]: /lessons/installing-python-modules-pip
   [urllib3]: http://urllib3.readthedocs.org/en/latest/
-  [Automated Downloading with Wget]: ../lessons/automated-downloading-with-wget
-  [Downloading Multiple Records Using Query Strings]: ../lessons/downloading-multiple-records-using-query-strings
+  [Automated Downloading with Wget]: /lessons/automated-downloading-with-wget
+  [Downloading Multiple Records Using Query Strings]: /lessons/downloading-multiple-records-using-query-strings
   [Document Object Model]: https://en.wikipedia.org/wiki/Document_Object_Model

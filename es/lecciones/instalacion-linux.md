@@ -4,8 +4,10 @@ authors:
 - William J. Turkel
 - Adam Crymble
 date: 2012-07-17
-reviewers:
+translation_date: 2017-03-15
+editors:
 - Miriam Posner
+reviewers:
 - Jim Clifford
 - Amanda Morton
 translator:
@@ -14,9 +16,19 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
-layout: default
+layout: lesson
 redirect_from: /es/lessons/linux-installation
+difficulty: 1
+activity: transforming
+topics: [get-ready, python]
+abstract: "Este turoial te ayudará a configurar un entorno de desarrollo integrado para Python en un computador con el sistema operativo de Linux."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Gracias a John Fink por proveer las bases de esta sección. Estas instrucciones son para Ubuntu 12.04 LTS, pero deben funcionar para cualquier distribución y APT como Debian Linux Mint, siempre y cuando tengas instalado [sudo](https://es.wikipedia.org/wiki/Sudo).
 
