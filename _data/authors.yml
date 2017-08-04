@@ -38,7 +38,7 @@
   twitter: wcaleb
   github: wcaleb
   url: "http://wcm1.web.rice.edu"
-  team: true
+  team: false
   sortname: McDaniel
   bio:
     en: |
@@ -83,7 +83,7 @@
   url: "http://fredgibbs.net"
   github: fredgibbs
   twitter: fredgibbs
-  team: true
+  team: false
   sortname: Gibbs
   bio:
     en: |
@@ -256,13 +256,22 @@
 
 
 - name: James Baker
-  team: false
+  team: true
+  github: drjwbaker
+  email: james.baker@sussex.ac.uk
+  twitter: j_w_baker
+  url: "https://cradledincaricature.com/"
+  team: true
+  sortname: Baker
   bio:
     en: |
         James Baker is a Curator in the Digital Research team at the British
         Library and an historian of eighteenth century Britain.
     es: |
         James Baker es curador en el equipo de investigación digital de la Biblioteca Británica e historiador del siglo XVIII inglés.
+   team_roles:
+   - editorial
+   - board
 
 - name: Amanda Morton
   team: false
