@@ -261,7 +261,6 @@
   email: james.baker@sussex.ac.uk
   twitter: j_w_baker
   url: "https://cradledincaricature.com/"
-  team: true
   sortname: Baker
   bio:
     en: |
@@ -269,7 +268,7 @@
         Library and an historian of eighteenth century Britain.
     es: |
         James Baker es curador en el equipo de investigación digital de la Biblioteca Británica e historiador del siglo XVIII inglés.
-   team_roles:
+  team_roles:
    - editorial
    - board
 
