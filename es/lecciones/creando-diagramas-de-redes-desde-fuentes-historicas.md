@@ -132,7 +132,7 @@ Una vez hayas creado tu esquema de codificación y hayas codificado tus fuentes,
 
 Todos los editores de hojas de cálculo permiten exportar tablas como .csv (valores separados por comas) o como archivos .txt . Estos archivos pueden ser importados a todas las herramientas de visualización de redes comunmente utilizados (ver lista al final del tutorial). Para tus primeros pasos yo sugiero que pruebes Palladio, una herramienta de fácil uso para visualización de datos que se encuentra en desarrollo activo por parte de la Universidad de Stanford. Palladio corre en navegadores y trabaja independiente de plataforma. Ten en cuenta que aunque Palladio es muy versátil, está diseñada más para visualizaciones rápidas que para análisis de redes sofisticado.
 
-Los siguientes pasos explican cómo visualizar datos en red en Palladio, pero también recomiendo que revises sus propios materiales de inducción y explores sus datos de muestra. Acá, sin embargo, utilizo un [*conjunto de datos ligeramente modificado con base en el esquema de codificación*](https://docs.google.com/spreadsheets/d/1j5OuQMv9UGQOl7xJ1cECGLN4sUKcTdxXV7ocr-08rBk/edit?usp=sharing) presentado antes (también lo puedes bajar y utilizarlo para explorar otras herramientas).
+Los siguientes pasos explican cómo visualizar datos en red en Palladio, pero también recomiendo que revises sus propios materiales de inducción y explores sus datos de muestra. Acá, sin embargo, utilizo un [*conjunto de datos ligeramente modificado con base en el esquema de codificación*](https://docs.google.com/spreadsheets/d/1Y9xCnu0ignRYIPi5kqouJ2vRtVMBnMeLW2ka4-p4Q8I/edit?usp=sharing) presentado antes (también lo puedes bajar y utilizarlo para explorar otras herramientas).
 
 Paso a paso:
 
