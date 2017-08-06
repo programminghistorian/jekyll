@@ -274,7 +274,7 @@ In addition to the Twitter promotion outlined below, we also make use of a Twitt
 
 Leave column D blank and untouched - this field is used by the Twitter bot to log its progress through the list. Also note that this step should not replace your own promotion of the lesson. The bot goes through the lessons at random, one a week, so it could be months until your lesson comes up through this means.
 
-### 10) Confirm all links are functioning correctly
+### 10) Confirm all links and YAML headers are functioning correctly
 
 Once you push your changes on to the `gh-pages` branch of the [programminghistorian][ph_repo] repository, the site will be automatically tested by [Travis CI] ([Continuous Integration]).
 This test process checks two things: first, that all YAML and markdown code is parseable, and second, that all the hyperlinks on the site point to valid, operational pages.
@@ -303,7 +303,7 @@ If your build has errored, you will need to consult the build logs to see what i
 ![Travis details location](/images/editor-guidelines/commit_list_screen.png)
 2. This will bring you to the build log page on Travis CI. Build logs are usually several hundred lines long, but the error information we are looking for will be at the bottom. Click on the small gray circle at the upper right of the log display to scroll to the bottom.
 ![The top of the Travis CI build screen](/images/editor-guidelines/travis_top_screen.png)
-3. Failing links will be listed in red, grouped by the page they appeared in. If any links in your new lesson are causing errors, go back and double check that they do not have any typos. If they do, then make any necessary corrections and commit the changes to the repository, and wait for Travis CI to run its tests again.
+3. You may see two types of errors: first, if a page is missing a required YAML field (e.g. if a lesson does not have an `editors` field) then this will be marked in red. Failing links will be also be listed in red, grouped by the page they appeared in. If any links in your new lesson are causing errors, go back and double check that they do not have any typos. If they do, then make any necessary corrections and commit the changes to the repository, and wait for Travis CI to run its tests again.
 ![Locating error details in Travis CI build results](/images/editor-guidelines/travis_bottom_screen.png)
 
 - There are some rare circumstances in which a link will be failed by Travis CI, but will work perfectly fine when you navigate to it in your own Internet browser. If this occurs, [create a new issue] so that one of the members of the technical team can review the problem and find a workaround.
