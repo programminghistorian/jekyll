@@ -195,10 +195,9 @@ Here’s the Python file that I used to created to clean my document:
 #import re module
 import re
 
-#Open the text file with the ocr
-ocr = open('../../data/txt/50-1-p1.txt')
-#read the text file into a list
-Text = ocr.readlines()
+#Open the text file, and read the text file into a list
+with open('../../data/txt/50-1-p1.txt') as ocr:
+    Text = ocr.readlines()
 
 #Create an empty list to fill with lines of corrected text
 CleanText = []
@@ -238,11 +237,11 @@ for line in Text:
            #Append each line to CleanText list while it loops through
         CleanText.append(names)
 
-#Saving into a 'fake' csv file
-fcsv = open('cdocr2/50-1p1.csv', 'w')
-#Write each line in CleanText to a file
-for line in CleanText:
-    fcsv.write(line)
+#Saving into a 'fake' csv file   
+with open('cdocr2/50-1p1.csv', 'w') as fcsv:
+    #Write each line in CleanText to a file
+    for line in CleanText:
+        fcsv.write(line)
 ```
 
 I’ve commented it pretty extensively, so I will explain why I structured
@@ -334,10 +333,9 @@ nw\_pattern). I use them in my loop on lines 65 and 66.
 #import re module
 import re
 
-#Open the text file with the ocr
-ocr = open('../../data/txt/50-1-p1.txt')
-#read the text file into a list
-Text = ocr.readlines()
+#Open the text file, and read the text file into a list
+with open('../../data/txt/50-1-p1.txt') as ocr:
+    Text = ocr.readlines()
 
 #Create an empty list to fill with lines of corrected text
 CleanText = []
@@ -403,11 +401,11 @@ for line in Text:
          #Append each line to CleanText list while it loops through
         CleanText.append(names)
 
-#Saving into a 'fake' csv file
-fcsv = open('cdocr2/50-1p1.csv', 'w')
-#Write each line in CleanText to a file
-for line in CleanText:
-    fcsv.write(line)
+#Saving into a 'fake' csv file   
+with open('cdocr2/50-1p1.csv', 'w') as fcsv:
+    #Write each line in CleanText to a file
+    for line in CleanText:
+        fcsv.write(line)
 ```
 
 In conclusion, I will note that this is not for the faint of heart.
