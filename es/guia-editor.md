@@ -243,7 +243,44 @@ Crea un ticket de revisión en el archivo YAML y proporciona el número del tick
 
 Actualiza la fecha en el campo correspondiente del archivo YAML tomando como referencia el día en que el archivo fue movido al repositorio `jekyll`, salvo en el caso de las traducciones.
 
-### 7) Busca una imagen que represente la lección
+### 7) Otros aspectos para concluir el YAML de la lección
+
+Teniendo como referencia el ejemplo de abajo, asegúrate que todas la parte preliminar de la lección está completada adecuadamente. Los campos comunes que necesitas ecribir o editar en este punto son:
+
+- **collection** debe decir solamente "collection: lessons"
+- **layout** debe decir solamente "layout: lesson"
+- **slug** debe contener la ruta a la lección en el sitio público de PH, lo que significa un texto con guiones que sigue a programminghistorian.org/lessons/ (i.e. building-static-sites-with-jekyll-github-pages)
+- **activity** debe usarse una (y solo una) de las siguientes cinco opciones: *acquiring, transforming, analyzing, presenting, sustaining*. Escoge la que mejor describa lo que te enseña la lección acerca de datos en humanidades (i.e. una lección que muestre la creación de un sitio web con Omeka será sobre presentar (*presenting*) datos a través de una galería en la Web).
+- **topics** puede ser cualquier número de cosas listadas despues de "type:" en /\_data/topics.yml. Te invitamos a crear nuevos tópicos que ayuden a cualquiera a encontrar la lección. Para hacerlo, además de enlistar el o los nuevos tópicos en los preliminares de la leción, deberás:
+1. Agregar el tópico a cualquier lección descrita por el nuevo tópico
+2. Agregar el o los nuevos tópicos en el archivo /\_data/topics.yml siguiendo el formato de los otros tópicos que ahí se encuentran (por favor, ten en cuenta que los tópicos no pueden contener espacios, así que utiliza guiones si es necesario).
+3. Edita el archivo /js/lessonfilter.js para que funcione adecuadamente el botón que filtra la página de la lección con ese tópico. Busca en el archivo el fragmento de diez líneas de código que empieza con "$('#filter-api')", copia y pega ese fragmento de código y reemplaza las dos veces que aparece "api" con tu nuevo tópico.
+- **abstract** es una descripción de una a tres frases sobre lo que se aprende en esa lección. trata de evitar, en lo posible, un vocabulario técnico, para que estos resúmenes ayudan a los académicos sin un conocimiento técnico a probar nuevas cosas.
+
+Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML de la lección completo:
+
+    ---
+    title: "Getting Started with Topic Modeling and MALLET"
+    collection: lessons
+    layout: lesson
+    slug: topic-modeling-and-mallet
+    date: 2012-09-02
+    authors:
+    - Shawn Graham
+    - Scott Weingart
+    - Ian Milligan
+    reviewers:
+    - John Fink
+    - Alan MacEachern
+    - Adam Crymble
+    difficulty: 2
+    activity: analyzing
+    topics: [distant-reading]
+    abstract: "En esta lección aprenderás qué es el modelado tópico y por qué podrías querer emplearlo en tu investigación. A continuación, aprenderás a instalar y trabajar con MALLET, que es una herramienta para procesar lenguaje natural."
+    ---
+
+
+### 8) Busca una imagen que represente la lección
 
 Las lecciones se representan mediante una imagen `vintage` que refleja algún elemento de las tareas descritas en el tutorial. Puedes ver todas las imágenes en el [índice principal de lecciones](/es/lecciones). El editor es el encargado de seleccionar las imágenes.
 
@@ -270,7 +307,7 @@ Por último, añade la imagen a la lección editando la página HTML en [leccion
 ¡La nueva imagen debería aparecer en la [página de inicio](/es/)!
 
 
-### 8) Incorpora tu lección en nuestro Twitter bot
+### 9) Incorpora tu lección en nuestro Twitter bot
 
 Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos un Twitter bot para volver a promocionar lecciones pasadas. Para añadir la lección nueva a nuestro *pipeline* deberás añadirla como una fila en esta [hoja de cálculo](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=904817529). Todos los miembros del equipo editorial deben poder hacer cambios; envía un correo electrónico al grupo de google si tienes algún problema. Deberás insertar una nueva fila para tu lección al final de la tabla con los siguientes campos:
 
