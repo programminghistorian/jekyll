@@ -330,7 +330,7 @@ Ejecutamos estas compilaciones principalmente para comprobar que las URL que _al
 También son una excelente manera de detectar errores tipográficos pequeños que pueden haber pasado por alto autores, editores y revisores.
 El estado de estas pruebas (a menudo llamado "Estado de compilación" (_"Build Status"_) en Travis CI y en GitHub) se puede ver navegando a la página del repositorio [php_repo- sitory] [ph_repo] y haciendo clic en "Commits" en la parte superior izquierda del menú de código.
 
-![GitHub commit menu location](images/editor-guidelines/gh_commits_location_screen.png)
+![GitHub commit menu location](/images/editor-guidelines/gh_commits_location_screen.png)
 
 Esto te mostrará la lista de cada cambio realizado en el repositorio principal, junto con un icono de estado:
 
