@@ -156,7 +156,7 @@ Los autores y traductores deben asegurarse de que utilizan Markdown de manera ap
 
 Puedes comprobar con facilidad si todo es correcto accediendo a la visualización generada en GitHub: https://github.com/PH-espagnol/borradores/tree/master/lecciones/NOMBRE-DEL-ARCHIVO-AQUÍ (nota: sin extensión .md).
 
-Si la visualización no funciona, comprueba si hay algún problema en la [pestaña settings](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md) de la página del repositorio y buscar en GitHub Pages. Si hay un problema entonces, en vez de indicar en verde que el sitio está publicado, habrá una noticia de que el sitio tiene un problema de construcción. Si eso sucede, hazlo saber a Vctor Gayo (en español), quien trabajará con Caleb McDaniel para diagnosticarlo. Si lo haces en inglés, dirígete directamente con Caleb McDaniel.
+Si la visualización no funciona, hazlo saber a Víctor Gayo (en español), quien trabajará con Matthew Lincoln para diagnosticarlo. Si lo haces en inglés, dirígete directamente con Matthew Lincoln.
 
 ### C) Comprobar que las imágenes sean correctas
 
@@ -191,7 +191,7 @@ Una vez el autor y tú como editor estéis satisfechos con el texto, sea una tra
 
 ### 1) Mueve el archivo
 
-La manera más fácil de publicar el texto es utilizar `git` en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios `jekyll` y `ph-submissions/es` (si no es así, nuestra [introducción a GitHub](/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar con Caleb McDaniel (en inglés) para que te ayude, o en español a través de Víctor Gayol.
+La manera más fácil de publicar el texto es utilizar `git` en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios `jekyll` y `ph-submissions/es` (si no es así, nuestra [introducción a GitHub](/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar con Matthew Lincoln (en inglés) para que te ayude, o en español a través de Víctor Gayol.
 
 1. Sitúate en el director local de tu repositorio `ph-submissions/es`.
 2. Introduce `git pull` para descargar los últimos cambios en tu ordenador (o `sync` si utilizas GitHub Desktop).
