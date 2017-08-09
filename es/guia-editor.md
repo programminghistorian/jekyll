@@ -3,6 +3,8 @@ title: Guía para editores
 layout: blank
 ---
 
+# Guía para editores
+
 Esta página contiene instrucciones detalladas dirigidas a los editores de *The Programming Historian en español* durante el proceso de revisión por pares.
 
 ## El rol del editor
