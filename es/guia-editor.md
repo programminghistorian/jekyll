@@ -223,7 +223,7 @@ Es muy importante acreditar el trabajo de nuestros traductores, revisores y edit
 
 Si se trata de una traducción, asegúrate de que se mantienen los datos del YAML original, e introduce un campo para el traductor (`translator`), otro para los revisores de la traducción (`translation-reviewer`) y otro más para el editor de la traducción (`translation-editor`).
 
-Los revisores que no hayan trabajado con nostros en el pasado también deben añadirse en el archivo [reviewers.yml](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/reviewers.yml); de esta manera, el nombre de los revisores aparecerá como parte de nuestro equipo. Por favor, no te olvides de este paso.
+Los revisores que no hayan trabajado con nosotros en el pasado también deben añadirse en el archivo [reviewers.yml](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/reviewers.yml); de esta manera, el nombre de los revisores aparecerá como parte de nuestro equipo. Por favor, no te olvides de este paso.
 
 ### 4) Añade un nivel de dificultad el archivo YAML
 
@@ -235,7 +235,7 @@ difficulty: 1
 
 ### 5) Añade un ticket de revisión al archivo YAML
 
-Crea un ticket de revisión en el archivo YAML y proporciona el número del ticket correspondiente al envío del archivo en el repositorio `borradores`. Este procedimiento se realiza para incrementar la transparencia del proceso de revisión. La información, además, se utilizará para proporconar un enlace al ticket de revisión.
+Crea un ticket de revisión en el archivo YAML y proporciona el número del ticket correspondiente al envío del archivo en el repositorio `borradores`. Este procedimiento se realiza para incrementar la transparencia del proceso de revisión. La información, además, se utilizará para proporcionar un enlace al ticket de revisión.
 
 ### 6) Actualiza la fecha en el archivo YAML
 
@@ -253,7 +253,7 @@ Teniendo como referencia el ejemplo de abajo, asegúrate que toda la parte preli
 1. Agregar el tópico a cualquier lección descrita por el nuevo tópico
 2. Agregar el o los nuevos tópicos en el archivo /\_data/topics.yml siguiendo el formato de los otros tópicos que ahí se encuentran (por favor, ten en cuenta que los tópicos no pueden contener espacios, así que utiliza guiones si es necesario).
 3. Edita el archivo /js/lessonfilter.js para que funcione adecuadamente el botón que filtra la página de la lección con ese tópico. Busca en el archivo el fragmento de diez líneas de código que empieza con "$('#filter-api')", copia y pega ese fragmento de código y reemplaza las dos veces que aparece "api" con tu nuevo tópico.
-- **abstract** es una descripción de una a tres frases sobre lo que se aprende en esa lección. trata de evitar, en lo posible, un vocabulario técnico, para que estos resúmenes ayudan a los académicos sin un conocimiento técnico a probar nuevas cosas.
+- **abstract** es una descripción de una a tres frases sobre lo que se aprende en esa lección. Trata de evitar, en lo posible, un vocabulario técnico, para que estos resúmenes ayuden a los académicos sin un conocimiento técnico a probar nuevas cosas.
 
 Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML de la lección completo:
 
