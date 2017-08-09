@@ -126,7 +126,7 @@ You can quickly check that everything looks correct on a lesson submission by lo
 
 `http://programminghistorian.github.io/ph-submissions/lessons/FILENAME-HERE`  (note - no .md at the end)
 
-If that doesn't work, check to see if there's a problem that's keeping the site from building by going to [the settings tab](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md) on the repo page, and looking under GitHub Pages. If there's a problem, then instead of saying the site is published in green, it will contain a notice that the site is having trouble building. If that happens, let Caleb McDaniel know, and he will try to diagnose it.
+If that doesn't work, let Matthew Lincoln know, and he will try to diagnose it.
 
 ### C) Verify Images
 
@@ -160,7 +160,7 @@ Once you and the author are happy with a tutorial, the next step is to move the 
 
 ### 1) Move the Files
 
-The easiest way to publish the lesson is to use `git` from the command line. The following instructions assume that you have already cloned both the `jekyll` and `ph-submissions` repositories to your local machine. (Our [lesson on using GitHub Desktop](/lessons/getting-started-with-github-desktop) may be helpful if this is new to you.) If you are not sure how to do that or have any questions, contact Caleb McDaniel for assistance.
+The easiest way to publish the lesson is to use `git` from the command line. The following instructions assume that you have already cloned both the `jekyll` and `ph-submissions` repositories to your local machine. (Our [lesson on using GitHub Desktop](/lessons/getting-started-with-github-desktop) may be helpful if this is new to you.) If you are not sure how to do that or have any questions, contact Matthew Lincoln for assistance.
 
 1. Go to the directory for your local `ph-submissions` repository.
 2. `git pull` to get all of the newest changes on your machine (or `sync` if you are using GitHub Desktop)
