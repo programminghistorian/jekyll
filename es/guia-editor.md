@@ -5,15 +5,11 @@ layout: blank
 
 Esta página contiene instrucciones detalladas dirigidas a los editores de *The Programming Historian en español* durante el proceso de revisión por pares.
 
-{% include toc.html %}
-
-
-
-
-
 ## El rol del editor
 
 Gracias por editar una lección para *The Programming Historian en español*. Estamos muy agradecidos por tus esfuerzos. Esta guía está pensada para garantizar que autores, traductores, editores y revisores tengan una experiencia justa y coherente. Si tienes alguna pregunta sobre esta guía, por favor, contacta con algún miembro del equipo o publica una pregunta en nuestro repositorio de [GitHub](https://github.com/programminghistorian/jekyll/issues). También puedes escribirnos si crees que esta guía debe ser actualizada o mejorada.
+
+{% include toc.html %}
 
 Tanto si estás editando una traducción como si estás editando una lección nueva el proceso sigue unas mismas líneas de acción; nuestro objetivo como editores no es supervisar, como se suele hacer en las revistas tradicionales sino ofrecer ayuda durante todo el proceso de escritura, traducción y publicación. Por eso es recomendable que te familiarices con la [Guía para autores y traductores](/es/guia-para-autores).  
 
@@ -317,7 +313,45 @@ Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos 
 
 Deja la columna D en blanco y sin tocar - este campo es utilizado por el Twitter bot para registrar su progreso en la lista. Ten en cuenta además que este paso no reemplaza tu propia promoción de la lección. El bot escoge las lecciones aleatoriamente, una cada la semana, así que pueden pasar meses hasta que tu lección aparezca por este medio. 
 
-### 10) Da las gracias a todo el mundo y difunde el tutorial
+### 10) Confirma que todos los enlaces y encabezados YAML funcionen correctamente
+
+Una vez que envíes tus cambios a la rama `gh-pages` del repositorio de [programminghistorian][ph_repo], el sitio será comprobado automáticamente por [Travis CI] ([Continuous Integration]).
+Este proceso comprueba dos cosas: primero, que todo el código de YAML y markdown sea compilable y, segundo, que todos los hipervínculos del sitio apunten a páginas válidas y en operación.
+
+[ph_repo]: https://github.com/programminghistorian/jekyll
+
+[Travis CI]: https://travis-ci.org
+
+[Continuous Integration]: https://www.thoughtworks.com/continuous-integration
+
+Ejecutamos estas compilaciones principalmente para comprobar que las URL que _alguna vez_ funcionaron _siguen_ funcionando, ya que muchas veces las páginas web externas se mueven a nuevas direcciones o ya no están en línea.
+También son una excelente manera de detectar errores tipográficos pequeños que pueden haber pasado por alto autores, editores y revisores.
+El estado de estas pruebas (a menudo llamado "Estado de compilación" (_"Build Status"_) en Travis CI y en GitHub) se puede ver navegando a la página del repositorio [php_repo- sitory] [ph_repo] y haciendo clic en "Commits" en la parte superior izquierda del menú de código.
+
+![GitHub commit menu location](images/editor-guidelines/gh_commits_location_screen.png)
+
+Esto te mostrará la lista de cada cambio realizado en el repositorio principal, junto con un icono de estado:
+
+- Marca de verificación verde: ¡es correcto! Todos los enlaces de la página fueron revisados y son válidos. [**Puedes saltar el resto de esta sección.**](#11-da-las-gracias-a-todo-el-mundo-y-difunde-el-tutorial)
+- Círculo amarillo: la última modificación que hiciste está aún compilándose. Espera uno o dos minutos y revísala de nuevo.
+- Una X roja: hay un error en la compilación.
+
+En caso de error, debes consultar la bitácora de compilación (*Build logs*) para saber qué es lo que lo causa.
+
+1. Haz clic en la X roja de la más reciente modificación (la que está más cerca de la parte de arriba de la página), y haz clic en el vínculo "Details".
+![Travis details location](/images/editor-guidelines/commit_list_screen.png)
+2. Esto te llevará a la página de la bitácora de compilación en Travis CI. Las bitácoras de compilación contienen generalmente cientos de líneas, pero la información sobre el error que estamos buscando estará al final. Haz clic en el pequeño círculo gris de la parte superior derecha para desplazarte hacia abajo.
+![The top of the Travis CI build screen](/images/editor-guidelines/travis_top_screen.png)
+3. Verás dos tipos de errores: primero, si la página carece de un campo YAML (i.e. si la lección no tiene el campo `editors`) el error estará marcado en rojo. Los errores en los vínculos externos también se enlistan en rojo, agrupados por la página en la que aparecen. Si algún vínculo en tu nueva lección causa error, regresa y confirma que no hay errores de escritura. Si los hay, haz las correcciones necesarias, envía las modificaciones al repositorio y espera a que Travis CI corra las pruebas de nuevo.
+![Locating error details in Travis CI build results](/images/editor-guidelines/travis_bottom_screen.png)
+
+- Hay ocasiones en las que Travis CI considera que un vínculo contiene un error, pero éste funciona correctamente cuando accedes a él con tu navegador de Internet. Si esto ocurre, por favor, [abre un nuevo ticket] para que un miembro del equipo técnico pueda revisar el problema y encontrar una solución.
+- Como parte de su operación normal, ocasionalmente Travis CI regresa y revisa viejos vínculos por todo el sitio, incluyendo lecciones publicadas hace tiempo. De tal manera, mientras revisas tu trabajo podrías encontrar un error causado por otra página, no por tu lección. Si sabes la manera de arreglar inmediatamente el error, por favor hazlo, y espera a que el compilador vuelva a correr. Si no tienes tiempo para darle seguimiento, solamente asegúrate que no existen errores de vículos relacionados a tu lección y [abre un nuevo ticket] para que alguien del equipo técnico pueda revisar el problema.
+
+[abre un nuevo ticket]: https://github.com/programminghistorian/jekyll/issues/new
+
+
+### 11) Da las gracias a todo el mundo y difunde el tutorial
 
 Es importante enviar un correo electrónico o un mensaje a todos los participantes para agradecerles el esfuerzo. En particular, da las gracias al autor o al traductor por enviar su texto y anímalo a volver a trabajar con nostros en el futuro. También puedes proporcionarle alguna idea sobre cómo difundir y anunciar su contribución. Las lecciones más visitadas suelen contar con la promoción del autor. Por ejemplo, el autor podría realizar las siguientes acciones:
 
