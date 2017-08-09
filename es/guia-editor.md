@@ -245,7 +245,7 @@ Actualiza la fecha en el campo correspondiente del archivo YAML tomando como ref
 
 ### 7) Otros aspectos para concluir el YAML de la lección
 
-Teniendo como referencia el ejemplo de abajo, asegúrate que todas la parte preliminar de la lección está completada adecuadamente. Los campos comunes que necesitas ecribir o editar en este punto son:
+Teniendo como referencia el ejemplo de abajo, asegúrate que toda la parte preliminar de la lección está completada adecuadamente. Los campos comunes que necesitas escribir o editar en este punto son:
 
 - **collection** debe decir solamente "collection: lessons"
 - **layout** debe decir solamente "layout: lesson"
