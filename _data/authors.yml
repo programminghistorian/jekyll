@@ -729,3 +729,12 @@
   team_roles:
    - editorial
    - board
+
+- name: Evan Peter Williamson
+  team: false
+  bio:
+    en: |
+        Evan Peter Williamson is the Digital Infrastructure Librarian at University of Idaho Library, 
+        working with Data & Digital Services to bring cool projects, enlightening workshops, and 
+        innovative services to life. Despite a background in Art History, Classical Studies, and Archives, 
+        he always manages to get involved in all things digital.
