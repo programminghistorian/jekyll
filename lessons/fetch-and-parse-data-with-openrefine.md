@@ -74,7 +74,7 @@ The raw data for this example is an HTML copy of Shakespeare's [Sonnets](http://
 Processing a book of poems into structured data enables new ways of reading text, allowing us to sort, manipulate, and connect with other information. 
 
 <div class="alert alert-warning">
-Please note that Project Gutenberg provides [feeds](http://www.gutenberg.org/wiki/Gutenberg:Feeds) to bulk download catalog data. 
+Please note that Project Gutenberg provides <a href="http://www.gutenberg.org/wiki/Gutenberg:Feeds">feeds</a> to bulk download catalog data. 
 Their public website should not be used for web scraping purposes.
 A copy of the HTML ebook is hosted on GitHub for this example to avoid redirects built in to the Gutenberg site.
 </div>
