@@ -12,7 +12,7 @@ Our lessons are organized by typical phases of the research process, as well as 
 This creates a variable you can call to just pull lessons (which are the only pages with 'Lesson: true' in their front matter, courtesy of config.yml setting the scope of site URLs containing the 'lessons' path to follow 'lesson: true').
 {% endcomment %}
 
-{% assign alllessons = (site.pages | where: "english-lesson" , "true") %}
+{% assign alllessons = site.pages | where: "english-lesson" , "true" %}
 
 {% comment %}
 Pulls the parts of the page that filter and sort lesson info from includes/lesson-index.html. Note that a separate file, includes/lesson_describe.html, creates the actual display of lesson info on the page, and includes/lesson-slug.html creates the appropriate lesson slug (used in the link to individual lesson pages, avatar links, and image paths.).
