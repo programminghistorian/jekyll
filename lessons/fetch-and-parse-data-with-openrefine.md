@@ -2,7 +2,6 @@
 title: |
     Fetching and Parsing Data from the Web with OpenRefine
 layout: lesson
-slug: fetch-and-parse-data-with-openrefine
 date: 2017-08-12
 authors:
 - Evan Peter Williamson
