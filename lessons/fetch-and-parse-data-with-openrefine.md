@@ -1,6 +1,5 @@
 ---
-title: |
-    Fetching and Parsing Data from the Web with OpenRefine
+title: Fetching and Parsing Data from the Web with OpenRefine
 layout: lesson
 date: 2017-08-12
 authors:
