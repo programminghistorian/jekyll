@@ -10,7 +10,7 @@ reviewers:
 - Peggy Griesinger
 - Lisa Lowry
 editors:
-- Jeri E. Wieringa
+- Jeri Wieringa
 difficulty: 2
 review-ticket: 69
 activity: acquiring
