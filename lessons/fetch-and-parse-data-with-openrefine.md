@@ -18,6 +18,8 @@ topics: [data-manipulation, web-scraping, api]
 abstract: "OpenRefine is a powerful tool for exploring, cleaning, and transforming data. In this lesson you will learn how to use Refine to fetch URLs and parse web content."
 ---
 
+{% include toc.html %}
+
 # Lesson Goals
 
 OpenRefine is a powerful tool for exploring, cleaning, and transforming data. 
