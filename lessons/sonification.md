@@ -199,7 +199,7 @@ Let us look at the sample script provided. Open your text editor, and copy and p
 ```python
 #!/usr/bin/python
 
-from miditime.MIDITime import MIDITime
+from miditime.miditime import MIDITime
 
 # Instantiate the class with a tempo (120bpm is the default) and an output file destination.
 mymidi = MIDITime(120, 'myfile.mid')
