@@ -11,8 +11,6 @@ exclude:
 highlighter: rouge
 markdown: kramdown
 permalink: :categories/:title
-whitelist:
-  - jekyll-redirect-from
 plugins:
   - jekyll-redirect-from
 defaults:
