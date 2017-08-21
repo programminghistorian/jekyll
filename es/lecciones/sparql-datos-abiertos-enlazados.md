@@ -195,7 +195,7 @@ WHERE {
 }
 ```
 
-[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D&_implicit=false&_equivalent=false&_form=%2Fsparql) / [Edit query](http://collection.britishmuseum.org/sparql?sample=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D)
+[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D&_implicit=false&_equivalent=false&_form=%2Fsparql)
 
 Con la orden `SELECT ?p ?o`, le estamos diciendo a la base de datos que nos devuelva los valores de `?p` y `?o` descritos en el comando `WHERE {}`. Esta consulta devuelve cada declaración para la cual nuestra obra de arte seleccionada, `<http://collection.britishmuseum.org/id/object/PPA82633>`, es el sujeto. `?p` ocupa la posición central en la declaración RDF en el comando `WHERE {}`, por lo que esta devuelve cualquier predicado que coincide con la declaración, mientras que `?o`, en la posición final, devuelve todos los objetos. Aunque yo las he nombrado como `?p` y `?o`, en realidad, tal y como se puede ver en el ejemplo inferior, es posible nombrar estas variables del modo que nosotros queramos. De hecho, será útil darles nombres significativos para las  consultas complejas que siguen a continuación.  
 
