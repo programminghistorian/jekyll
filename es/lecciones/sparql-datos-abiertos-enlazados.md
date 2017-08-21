@@ -163,7 +163,7 @@ Las URI pueden llegar a ser difíciles de manejar cuando se componen consultas S
 
 Por ejemplo, con el prefijo `PREFIX rkm: que representa la cadena completa <http//data.rijksmuseum.nl>`, agregado al inicio de nuestra consulta SPARQL, `http://data.rijksmuseum.nl/item/8909812347 <` se convierte en `rkm:item/8909812347`.
 
-Numerosas bases de datos, como la del British Museum, ya han definido previamente estos prefijos por nosotros, por lo que no tendremos que enunciarlos explícitamente en nuestras consultas. Sin embargo, ahora sí que deberíamos ser capaces de reconocerlos cuando los utilicemos en una consulta SPARQL. También debemos ser conscientes de que los prefijos se pueden asignar arbitrariamente a cualquier abreviatura que queramos; así, diferentes puntos de entrada (*endpoints*) pueden utilizar prefijos ligeramente diferentes para el mismo espacio de nombre (*namespace*) (por ejemplo: `dct vs.` `dcterms` para `<http://purl.org/dc/terms>`).
+Debemos ser conscientes de que los prefijos se pueden asignar arbitrariamente a cualquier abreviatura que queramos; así, diferentes puntos de entrada (*endpoints*) pueden utilizar prefijos ligeramente diferentes para el mismo espacio de nombre (*namespace*) (por ejemplo: `dct vs.` `dcterms` para `<http://purl.org/dc/terms>`).
 
 ### Términos para revisar
 
@@ -186,7 +186,7 @@ Vamos a empezar nuestra primera consulta utilizando el [punto de entrada SPARQL 
 
 Cuando empezamos a explorar una nueva base de datos RDF, resulta últil examinar, a modo de ejemplo, las relaciones que emanan de un [objeto en concreto](http://collection.britishmuseum.org/resource?uri=http://collection.britishmuseum.org/id/object/PPA82633).
 
-(Para cada una de las siguientes consultas, clica en el enlace "Run query" situado más abajo para ver los resultados. Clica en el enlace "Edit query" para ir a la página web donde encontrarás la consulta automáticamente copiada en el punto de entrada del British Museum. La puedes ejecutar tal y como está o modificarla antes. En este último caso, recuerda que es necesario dejar sin marcar la casilla "Include inferred" antes de ejecutar la consulta).
+(Para cada una de las siguientes consultas, clica en el enlace "Run query" situado más abajo para ver los resultados. La puedes ejecutar tal y como está o modificarla antes. En este último caso, recuerda que es necesario dejar sin marcar la casilla "Include inferred" antes de ejecutar la consulta).
 
 ```
 SELECT ?p ?o

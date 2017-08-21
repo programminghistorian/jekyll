@@ -251,10 +251,7 @@ appended to the start of our SPARQL query,
 `<http://data.rijksmuseum.nl/item/8909812347>` becomes `rkm:item/8909812347`
 instead.
 
-Many live databases, such as the British Museum database that we will try our
-first new queries on, already define these prefixes for us, so we won't have to
-explicitly state them in our queries. However, you should now be able to
-recognize whenever we use one in a SPARQL query. Also be aware that, prefixes
+Be aware that, prefixes
 can be arbitrarily assigned with whatever abbreviations you like, different
 endpoints may use slightly different prefixes for the same namespace (e.g. `dct`
 vs. `dcterms` for `<http://purl.org/dc/terms/>`).
@@ -287,8 +284,7 @@ relationships that stem from a single [example
 object](http://collection.britishmuseum.org/id/object/PPA82633).
 
 (For each of the following queries, click on the "Run query" link below to see
-the results. Click on the "Edit query" link to go to a page with the query
-automatically pasted the query into the BM's endpoint. You can then run it as
+the results. You can then run it as
 is, or modify it before requesting the results. Remember when editing the query
 before running to uncheck the 'Include inferred' box.)
 
@@ -299,8 +295,7 @@ WHERE {
 }
 ```
 
-[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D&_implicit=false&_equivalent=false&_form=%2Fsparql) /
-[Edit query](http://collection.britishmuseum.org/sparql?sample=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D)
+[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D&_implicit=false&_equivalent=false&_form=%2Fsparql) 
 
 By calling `SELECT ?p ?o` we're asking the database to return the values of `?p`
 and `?o` as described in the `WHERE {}` command. This query returns every
@@ -353,7 +348,7 @@ WHERE {
 }
 ```
 
-[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+%3Fobject%0D%0AWHERE+%7B%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%7D&_implicit=false&implicit=false&_equivalent=false&_form=%2Fsparql) / [Edit query](http://collection.britishmuseum.org/sparql?sample=PREFIX+bmo%3A+%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fontology%2F%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0ASELECT+%3Fobject%0D%0AWHERE+%7B%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%7D) / [See a user-generated query](https://hypothes.is/a/AVLH7aAMvTW_3w8Ly19w)
+[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+%3Fobject%0D%0AWHERE+%7B%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%7D&_implicit=false&implicit=false&_equivalent=false&_form=%2Fsparql) / [See a user-generated query](https://hypothes.is/a/AVLH7aAMvTW_3w8Ly19w)
 
 {% include figure.html filename="sparql06.png" caption="A one-column table returned by our query for every object with type 'print'" %}
 
