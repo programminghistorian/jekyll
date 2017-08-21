@@ -218,6 +218,9 @@ Como se puede observar, este nodo tiene una etiqueta (*label*) en texto plano, a
 Para encontrar otros objetos del mismo tipo descritos con la etiqueta "print", podemos invocar esta consulta:
 
 ```
+PREFIX bmo: <http://www.researchspace.org/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
 SELECT ?object
 WHERE {
 
@@ -227,9 +230,10 @@ WHERE {
   # El "object type" debería tener la etiqueta "print"  
   ?object_type skos:prefLabel "print" .
 }
+LIMIT 10
 ```
 
-[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+%3Fobject%0D%0AWHERE+%7B%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%7D&_implicit=false&implicit=false&_equivalent=false&_form=%2Fsparql) / [Edit query](http://collection.britishmuseum.org/sparql?sample=PREFIX+bmo%3A+%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fontology%2F%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0ASELECT+%3Fobject%0D%0AWHERE+%7B%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%7D) / [User-generated query](https://hypothes.is/a/AVLH7aAMvTW_3w8Ly19w)
+[Run query](https://collection.britishmuseum.org/sparql#query=PREFIX+bmo%3A+%3Chttp%3A%2F%2Fwww.researchspace.org%2Fontology%2F%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0A%0ASELECT+%3Fobject%0AWHERE+%7B%0A%0A++%23+Search+for+all+values+of+%3Fobject+that+have+a+given+%22object+type%22%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0A%0A++%23+That+object+type+should+have+the+label+%22print%22%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0A%7D%0ALIMIT+10) / [User-generated query](https://hypothes.is/a/AVLH7aAMvTW_3w8Ly19w)
 
 {% include figure.html filename="sparql-lod-09.png" caption="Tabla resultantes de nuestra consulta para todos los objetos del tipo 'print'." %}
 

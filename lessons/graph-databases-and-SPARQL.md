@@ -337,6 +337,9 @@ To find other objects of the same type with the preferred label "print", we can
 call this query:
 
 ```
+PREFIX bmo: <http://www.researchspace.org/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
 SELECT ?object
 WHERE {
 
@@ -346,9 +349,10 @@ WHERE {
   # That object type should have the label "print"
   ?object_type skos:prefLabel "print" .
 }
+LIMIT 10
 ```
 
-[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+%3Fobject%0D%0AWHERE+%7B%0D%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0D%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0D%0A%7D&_implicit=false&implicit=false&_equivalent=false&_form=%2Fsparql) / [See a user-generated query](https://hypothes.is/a/AVLH7aAMvTW_3w8Ly19w)
+[Run query](https://collection.britishmuseum.org/sparql#query=PREFIX+bmo%3A+%3Chttp%3A%2F%2Fwww.researchspace.org%2Fontology%2F%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0A%0ASELECT+%3Fobject%0AWHERE+%7B%0A%0A++%23+Search+for+all+values+of+%3Fobject+that+have+a+given+%22object+type%22%0A++%3Fobject+bmo%3APX_object_type+%3Fobject_type+.%0A%0A++%23+That+object+type+should+have+the+label+%22print%22%0A++%3Fobject_type+skos%3AprefLabel+%22print%22+.%0A%7D%0ALIMIT+10) / [See a user-generated query](https://hypothes.is/a/AVLH7aAMvTW_3w8Ly19w)
 
 {% include figure.html filename="sparql06.png" caption="A one-column table returned by our query for every object with type 'print'" %}
 
