@@ -14,7 +14,7 @@
 </div>
 <div class="author-description"><p>
   {% for author in page.authors %}
-     {% for member in site.data.authors %}
+     {% for member in site.data.ph_authors %}
      {% if author == member.name %}
          {{ member.bio[page.lang] }}&nbsp;
      {% endif %}

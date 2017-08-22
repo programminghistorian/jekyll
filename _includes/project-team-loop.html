@@ -7,7 +7,7 @@ Loops through members of editorial team and then generates their contact info us
   $('[data-toggle="tooltip"]').tooltip()
 })</script>
 
-{% assign teammembers = site.data.authors | sort: "sortname" %}
+{% assign teammembers = site.data.ph_authors | sort: "sortname" %}
 {% for member in teammembers %}
   {% if member.team == true %}
     {% capture membername %}{{ member.name }}{% endcapture %}
