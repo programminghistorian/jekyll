@@ -298,13 +298,6 @@ A continuación, crea una copia de la imagen, córtala en un cuadrado sin elimin
 
 Sube la imagen original al directorio [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery).
 
-Por último, añade la imagen a la lección editando la página HTML en [lecciones/index.md](https://github.com/programminghistorian/jekyll/blob/gh-pages/es/lecciones/index.md); el enlace de la lección debe coincidir con el lugar en que se encuentra la imagen. Por ejemplo:
-
-`<img src="/gallery/cleaning-data-with-openrefine.png">`
-
-¡La nueva imagen debería aparecer en la [página de inicio](/es/)!
-
-
 ### 9) Incorpora tu lección en nuestro Twitter bot
 
 Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos un Twitter bot para volver a promocionar lecciones pasadas. Para añadir la lección nueva a nuestro *pipeline* deberás añadirla como una fila en esta [hoja de cálculo](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=904817529). Todos los miembros del equipo editorial deben poder hacer cambios; envía un correo electrónico al grupo de google si tienes algún problema. Deberás insertar una nueva fila para tu lección al final de la tabla con los siguientes campos:

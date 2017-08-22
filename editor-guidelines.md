@@ -262,9 +262,6 @@ Then, create a new copy of the image. Crop it to a square without removing any i
 
 Upload the original image to the [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) folder, and upload the edited image to the [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery) folder.
 
-Add the image to the lessons page by editing the HTML in [lessons/index.md](https://github.com/programminghistorian/jekyll/blob/gh-pages/lessons/index.md) so that the image source matches the new image’s file location. In our previous example, the HTML line would be: `<img src="/gallery/cleaning-data-with-openrefine.png">`. The new image should appear on the [Lessons page]( http://programminghistorian.org/lessons)!
-
-
 ### 9) Incorporate your lesson into our Twitter bot
 In addition to the Twitter promotion outlined below, we also make use of a Twitter bot to regularly re-advertise older lessons. In order to add the new lesson to our pipeline, you need to add it as a row in [this spreadsheet](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Everyone on the editorial team should have the ability to make changes; email the google group if you have trouble. You will need to add a new row for your lesson to the end of the table with the following fields:
 
