@@ -207,7 +207,7 @@ Después de haber movido la lección al repositorio local de `jekyll` tendrás a
 
 ### 2) Crea una biografía para el autor
 
-En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor con el que no hemos trabajado anteriormente, los editores deben añadir información sobre el autor en la página [directorio de autores](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/authors.yml) del repositorio de *The programming historian*. Sigue la sintaxis de los ejemplos ya incluidos:
+En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor con el que no hemos trabajado anteriormente, los editores deben añadir información sobre el autor en la página [directorio de autores](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml) del repositorio de *The programming historian*. Sigue la sintaxis de los ejemplos ya incluidos:
 
 ```yaml
 - name: Jim Clifford

@@ -178,7 +178,7 @@ After the lesson has been moved to the `jekyll` repository, you'll also need to 
 
 ### 2) Create an Author Bio
 
-If the lesson has been written by a new author, editors should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/authors.yml). Follow the syntax for the examples already included there:
+If the lesson has been written by a new author, editors should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Follow the syntax for the examples already included there:
 
 ```yaml
 - name: Jim Clifford

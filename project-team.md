@@ -15,7 +15,7 @@ You can follow the _Programming Historian_ on Twitter: [@proghist](http://twitte
 ## Editorial Board
 
 {% comment %}
-All editorial board information should be edited in data/authors.yml. Authors who are on the editorial team must have team: true in their metadata.
+All editorial board information should be edited in data/ph_authors.yml. Authors who are on the editorial team must have team: true in their metadata.
 {% endcomment %}
 {% include project-team-loop.html %}
 

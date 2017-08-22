@@ -1,6 +1,6 @@
 # Definitions of editorial sub teams.
 # 
-# type: the tag added in authors.yml
+# type: the tag added in ph_authors.yml
 # label: Short label to be displayed alongside the author bio, and in the roles definition list
 # definition: Brief description of that editorial team. If this is a derived label that uses the definition of another role, instead use...
 # source_role: The role type where the definition for this derived role can be found (e.g. pointing from an ES variant of a role to the original EN definition)
