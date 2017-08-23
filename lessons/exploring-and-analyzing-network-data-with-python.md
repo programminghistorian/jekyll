@@ -373,7 +373,7 @@ There are many network metrics derived from shortest path lengths. One such meas
 
 Diameter uses a simple command: `nx.diameter(G)`. However, running this command on the Quaker graph will yield an error telling you the Graph is "not connected." This simply means that your graph, as you already saw, has more than one component. Because there are some nodes that have no path at all to others, it is impossible to find all of the shortest paths. Take another look at the visualization of your graph:
 
-{% include figure.html filename="quaker_gephi.png" caption="Force-directed network visualization of the Quaker data, created in Gephi" %}
+{% include figure.html filename="exploring-and-analyzing-network-data-with-python-1.png" caption="Force-directed network visualization of the Quaker data, created in Gephi" %}
 
 Since there is no shortest path between nodes of one component and nodes of another, `nx.diameter()` returns the "not connected" error. You can remedy this by first finding out if your Graph "is connected" (i.e. all one component) and, if not connected, finding the largest component and calculating diameter on that component alone. Here's the code:
 
