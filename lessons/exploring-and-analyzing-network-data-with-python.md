@@ -43,7 +43,7 @@ This tutorial assumes that you have:
 
 - a basic familiarity with networks and/or have read  ["From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources"](http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources) by Martin Düring here on *Programming Historian*;
 - Installed Python 3, not the Python 2 that is installed natively in Unix-based operating systems such as Macs (If you need assistance installing Python 3, check out the [Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/starting/installation/)); and
-- Installed the `pip` package installer[^pipinstall]
+- Installed the `pip` package installer.[^pipinstall]
 
 It's possible to have two versions of Python (2 *and* 3) installed on your computer at one time. For this reason, when accessing Python 3 you will often have to explicitly declare it by typing `python3` and `pip3` instead of simply `python` and `pip`. Check out the *Programming Historian* tutorials on [installing Python](http://programminghistorian.org/lessons/introduction-and-installation) and [working with pip](http://programminghistorian.org/lessons/installing-python-modules-pip) for more information.
 
@@ -91,12 +91,11 @@ George Keith,Franciscus Mercurius van Helmont
 George Keith,William Penn
 ```
 
-Now that you've downloaded the Quaker data and had a look at how it's structured, it's time to begin working with that data in Python. Once both Python and pip are installed (see Prerequisites, above) you'll want to install NetworkX, by typing this into your [command line](http://programminghistorian.org/lessons/intro-to-bash):
+Now that you've downloaded the Quaker data and had a look at how it's structured, it's time to begin working with that data in Python. Once both Python and pip are installed (see Prerequisites, above) you'll want to install NetworkX, by typing this into your [command line](http://programminghistorian.org/lessons/intro-to-bash):[^pip]
 
 ```
 pip3 install networkx
 ```
-[^pip]
 
 If that doesn't work, you can instead type the following to deal with permissions problems (it will ask you for your computer's login password):
 
@@ -239,7 +238,7 @@ death_dict = {}
 id_dict = {}
 ```
 
-Now we can loop through our `nodes` list and add the appropriate items to each dictionary. We do this by knowing in advance the position, or *index*, of each attribute. Because our `quaker_nodelist.csv` file is well-organized, we know that the person's name will always be the first item in the list: index 0, since you always start counting with 0 in Python. The person's historical significance will be index 1, their gender will be index 2, and so on. Therefore we can construct our dictionaries like so:
+Now we can loop through our `nodes` list and add the appropriate items to each dictionary. We do this by knowing in advance the position, or *index*, of each attribute. Because our `quaker_nodelist.csv` file is well-organized, we know that the person's name will always be the first item in the list: index 0, since you always start counting with 0 in Python. The person's historical significance will be index 1, their gender will be index 2, and so on. Therefore we can construct our dictionaries like so:[^brackets]
 
 ```python
 for node in nodes: # Loop through the list, one row at a time
@@ -249,7 +248,6 @@ for node in nodes: # Loop through the list, one row at a time
     death_dict[node[0]] = node[4]
     id_dict[node[0]] = node[5]
 ```
-[^brackets]
 
 Now you have a set of dictionaries that you can use to add attributes to nodes in your Graph object. The `set_node_attributes` function takes three variables: the Graph to which you're adding the attribute, the name of the new attribute, and the dictionary of id-attribute pairs. The code for adding your six attributes looks like this:
 
