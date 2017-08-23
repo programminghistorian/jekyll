@@ -8,25 +8,38 @@ authors:
 - Scott Weingart
 date: 2017-06-16
 reviewers:
+- Elisa Beshero-Bondar
+- Anne Chao
+- Qiwei Li
+editors:
+- Brandon Walsh
+difficulty: 2
+review-ticket: 92
 layout: lesson
+collection: lessons
+slug: exploring-and-analyzing-network-data-with-python
+activity: analyzing
+topics: [python, network-analysis]
+date: 2017-08-23
+abstract: "This lesson introduces network metrics and how to draw conclusions from them when working with humanities data. You will learn how to use the NetworkX Python package to produce and work with these network statistics."
 ---
 
 # Introduction
 
 ## Lesson Goals
 
-In this tutorial, you will learn: 
+In this tutorial, you will learn:
 - To use the [**NetworkX**](https://networkx.readthedocs.io/en/stable/) package for working with network data in [**Python**](http://programminghistorian.org/lessons/introduction-and-installation); and
 - To analyze humanities network data to find:
     - Network structure and path lengths,
     - Important or central nodes, and
     - Communities and subgroups
-    
+
 **n.b.:** This is a tutorial for exploring network statistics and metrics. We will therefore focus on ways to analyze, and draw conclusions from, networks without visualizing them. You'll likely want a combination of visualization and network metrics in your own project, and so we recommend this article as a companion to [this earlier Programming Historian tutorial](http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources).
 
 ## Prerequisites
 
-This tutorial assumes that you have: 
+This tutorial assumes that you have:
 
 - a basic familiarity with networks and/or have read  ["From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources"](http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources) by Martin Düring here on *Programming Historian*;
 - Installed Python 3, not the Python 2 that is installed natively in Unix-based operating systems such as Macs (If you need assistance installing Python 3, check out the [Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/starting/installation/)); and
@@ -36,7 +49,7 @@ It's possible to have two versions of Python (2 *and* 3) installed on your compu
 
 ## What might you learn from network data?
 
-Networks have long interested researchers in the humanities, but many recent scholars have progressed from a largely qualitative and metaphoric interest in links and connections to a more formal suite of quantitative tools for studying mediators, hubs (important nodes), and inter-connected structures. As sociologist Mark Granovetter pointed out in his important 1973 article “[The Strength of Weak Ties](https://sociology.stanford.edu/sites/default/files/publications/the_strength_of_weak_ties_and_exch_w-gans.pdf),” it’s rarely enough to notice that two people were connected with one another.  Factors such as their structural relation to further people and whether those additional people were themselves connected to one another have decisive influence on events.   Insofar as even the most perceptive of scholars has difficulty perceiving, say, the overall shape of a network (its network "topology") and identifying the nodes most significant for connecting groups, quantitative network analysis offers scholars a way to move relatively fluidly between the large scale social object (the "graph") and the minute particularities of people and social ties. 
+Networks have long interested researchers in the humanities, but many recent scholars have progressed from a largely qualitative and metaphoric interest in links and connections to a more formal suite of quantitative tools for studying mediators, hubs (important nodes), and inter-connected structures. As sociologist Mark Granovetter pointed out in his important 1973 article “[The Strength of Weak Ties](https://sociology.stanford.edu/sites/default/files/publications/the_strength_of_weak_ties_and_exch_w-gans.pdf),” it’s rarely enough to notice that two people were connected with one another.  Factors such as their structural relation to further people and whether those additional people were themselves connected to one another have decisive influence on events.   Insofar as even the most perceptive of scholars has difficulty perceiving, say, the overall shape of a network (its network "topology") and identifying the nodes most significant for connecting groups, quantitative network analysis offers scholars a way to move relatively fluidly between the large scale social object (the "graph") and the minute particularities of people and social ties.
 
 This tutorial will help you answer questions such as:
 - What is the overall structure of the network?
@@ -46,7 +59,7 @@ This tutorial will help you answer questions such as:
 
 ## Our example: the Society of Friends
 
-Before there were Facebook friends, there was the Society of Friends, known as the Quakers. Founded in England in the mid-seventeenth century, the Quakers were Protestant Christians who dissented from the official Church of England and promoted broad religious toleration, preferring Christians' supposed "inner light" and consciences to state-enforced orthodoxy. Quakers' numbers grew rapidly in the mid- to late-seventeenth century and their members spread through the British Isles, Europe, and the New World colonies---especially Pennsylvania, founded by Quaker leader William Penn and the home of your four authors. 
+Before there were Facebook friends, there was the Society of Friends, known as the Quakers. Founded in England in the mid-seventeenth century, the Quakers were Protestant Christians who dissented from the official Church of England and promoted broad religious toleration, preferring Christians' supposed "inner light" and consciences to state-enforced orthodoxy. Quakers' numbers grew rapidly in the mid- to late-seventeenth century and their members spread through the British Isles, Europe, and the New World colonies---especially Pennsylvania, founded by Quaker leader William Penn and the home of your four authors.
 
 Since scholars have long linked Quakers' growth and endurance to the effectiveness of their networks, the data used in this tutorial is a list of names and relationships among the earliest seventeenth-century Quakers. This dataset is derived from the *[Oxford Dictionary of National Biography](http://www.oxforddnb.com)* and from the ongoing work of the *[Six Degrees of Francis Bacon](http://www.sixdegreesoffrancisbacon.com)* project, which is reconstructing the social networks of early modern Britain (1500-1700).  
 
@@ -70,7 +83,7 @@ Notice that though the columns don't line up correctly like they do in a spreads
 When you open the edge file, you will see that we use the names from the node file to identify the nodes connected by each edge. These edges begin at a **source** node and end at a **target** node. While this language derives from so-called **directed** network structures, we will be using our data as an **undirected** network: if Person A knows Person B, then Person B must also know Person A. In directed networks, relationships need not be reciprocal (Person A can send a letter to B without getting one back), but in undirected networks the connections are always reciprocal, or **symmetric**. Since this is a network of who knew whom rather than, say, a correspondence network, an undirected set of relations is the most fitting. The symmetric relations in undirected networks are useful any time you are concerned with relationships that stake out the same role for both parties. Two friends have a symmetric relationship: they are each a friend of the other. A letter writer and recipient have an asymmetric relationship because each has a different role. Directed and undirected networks each have their own affordances (and sometimes, their own unique metrics), and you'll want to choose the one that best suits the kinds of relationships you are recording and the questions you want to answer. Here are the first few edges in the undirected Quaker network:
 
 ```
-Source,Target 
+Source,Target
 George Keith,Robert Barclay
 George Keith,Benjamin Furly
 George Keith,Anne Conway Viscountess Conway and Killultagh
@@ -83,7 +96,7 @@ Now that you've downloaded the Quaker data and had a look at how it's structured
 ```
 pip3 install networkx
 ```
-[^pip] 
+[^pip]
 
 If that doesn't work, you can instead type the following to deal with permissions problems (it will ask you for your computer's login password):
 
@@ -102,7 +115,7 @@ And that's it! You're ready to start coding.
 # Getting Started
 
 ## Reading files, importing data
-    
+
 Start a new, blank plaintext file in the same directory as your data files called `quaker_network.py` (For more details on installing and running Python, see [this tutorial](http://programminghistorian.org/lessons/mac-installation)). At the top of that file, import the libraries you need. You'll need four libraries---the two we just installed, and two built-in Python libraries. You can type:
 
 ```python
@@ -119,9 +132,9 @@ with open('quakers_nodelist.csv', 'r') as nodecsv: # Open the file
     nodereader = csv.reader(nodecsv) # Read the csv  
     # Retrieve the data (using Python list comprhension and list slicing to remove the header row, see footnote 3)
     nodes = [n for n in nodereader][1:]                     
-                                                                       
+
 node_names = [n[0] for n in nodes] # Get a list of only the node names                                       
-                                                                       
+
 with open('quakers_edgelist.csv', 'r') as edgecsv: # Open the file
     edgereader = csv.reader(edgecsv) # Read the csv     
     edges = [tuple(e) for e in edgereader][1:] # Retrieve the data
@@ -191,7 +204,7 @@ import community
 with open('quakers_nodelist.csv', 'r') as nodecsv:                 
     nodereader = csv.reader(nodecsv)                                       
     nodes = [n for n in nodereader][1:]                                    
-                               
+
 # Get a list of just the node names (the first item in each row)
 node_names = [n[0] for n in nodes]                                       
 
@@ -203,7 +216,7 @@ with open('quakers_edgelist.csv', 'r') as edgecsv:
 # Print the number of nodes and edges in our two lists
 print(len(node_names))  
 print(len(edges))                                                                               
-                                                                       
+
 G = nx.Graph() # Initialize a Graph object                                                        
 G.add_nodes_from(node_names) # Add nodes to the Graph                             
 G.add_edges_from(edges) # Add edges to the Graph  
@@ -280,7 +293,7 @@ birth_dict = {}
 death_dict = {}
 id_dict = {}
 
-for node in nodes: # Loop through the list of nodes, one row at a time 
+for node in nodes: # Loop through the list of nodes, one row at a time
     hist_sig_dict[node[0]] = node[1] # Access the correct item, add it to the corresponding dictionary
     gender_dict[node[0]] = node[2]
     birth_dict[node[0]] = node[3]
@@ -303,11 +316,11 @@ Now you've learned how to create a Graph object and add attributes to it. In the
 
 # Metrics available in NetworkX
 
-When you start work on a new dataset, it's a good idea to get a general sense of the data. The first step, described above, is to simply open the files and see what's inside. Because it's a network, you know there will be nodes and edges, but how many of each are there? What information is appended to each node or edge? 
+When you start work on a new dataset, it's a good idea to get a general sense of the data. The first step, described above, is to simply open the files and see what's inside. Because it's a network, you know there will be nodes and edges, but how many of each are there? What information is appended to each node or edge?
 
-In our case, there are 174 edges and 119 nodes. These edges don't have directions (that is, there's a symmetric relationship between people) nor do they include additional information. For nodes, we know their names, historical significance, gender, birth and death dates, and SDFB ID. 
+In our case, there are 174 edges and 119 nodes. These edges don't have directions (that is, there's a symmetric relationship between people) nor do they include additional information. For nodes, we know their names, historical significance, gender, birth and death dates, and SDFB ID.
 
-These details inform what you can or should do with your dataset. Too few nodes (say, 15), and a network analysis is less useful than drawing a picture or doing some reading; too many (say, 15 million), and you should consider starting with a subset or finding a supercomputer. 
+These details inform what you can or should do with your dataset. Too few nodes (say, 15), and a network analysis is less useful than drawing a picture or doing some reading; too many (say, 15 million), and you should consider starting with a subset or finding a supercomputer.
 
 The network's properties also guide your analysis. Because this network is **undirected**, your analysis must use metrics that require symmetric edges between nodes. For example, you can determine what communities people find themselves in, but you can't determine the *directional* routes through which information might flow along the network (you'd need a directed network for that). By using the symmetric, undirected relationships in this case, you'll be able to find sub-communities and the people who are important to those communities, a process that would be more difficult (though still possible) with a directed network. NetworkX allows you to perform most analyses you might conceive, but you must understand the affordances of your dataset and realize some NetworkX algorithms are more appropriate than others.
 
@@ -315,9 +328,9 @@ The network's properties also guide your analysis. Because this network is **und
 
 After seeing what the *dataset* looks like, it's important to see what the *network* looks like. They're different things. The dataset is an abstract representation of what you assume to be connections between entities; the network is the specific instantiation of those assumptions. The network, at least in this context, is how the computer reads the connections you encoded in a dataset. A network has a [topology](https://en.wikipedia.org/wiki/Topology), or a connective shape, that could be centralized or decentralized; dense or sparse; cyclical or linear. A dataset does not, outside the structure of the table it's written in.
 
-The network's shape and basic properties will give you a handle on what you're working with and what analyses seem reasonable. You already know the number of nodes and edges, but what does the network 'look' like? Do nodes cluster together, or are they equally spread out? Are there complex structures, or is every node arranged along a straight line? 
+The network's shape and basic properties will give you a handle on what you're working with and what analyses seem reasonable. You already know the number of nodes and edges, but what does the network 'look' like? Do nodes cluster together, or are they equally spread out? Are there complex structures, or is every node arranged along a straight line?
 
-The visualization below, created in network visualization tool [Gephi](https://gephi.org/), will give you an idea of the topology of this network.[^singletons] You could create a similar graph in Palladio following [this tutorial](http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources). 
+The visualization below, created in network visualization tool [Gephi](https://gephi.org/), will give you an idea of the topology of this network.[^singletons] You could create a similar graph in Palladio following [this tutorial](http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources).
 
 {% include figure.html filename="quaker_gephi.png" caption="Force-directed network visualization of the Quaker data, created in Gephi" %}
 
@@ -375,7 +388,7 @@ largest_component = max(components, key=len)
 
 # Create a "subgraph" of just the largest component
 # Then calculate the diameter of the subgraph, just like you did with density.
-# 
+#
 
 subgraph = G.subgraph(largest_component)
 diameter = nx.diameter(subgraph)
@@ -384,7 +397,7 @@ print("Network diameter of largest component:", diameter)
 
 Since we took the largest component, we can assume there is no larger diameter for the other components. Therefore this figure is a good stand in for the diameter of the whole Graph. The network diameter of this network's largest component is 8: there is a path length of 8 between the two farthest-apart nodes in the network. Unlike density which is scaled from 0 to 1, it is difficult to know from this number alone whether 8 is a large or small diameter. For some global metrics, it can be best to compare it to networks of similar size and shape.[^random]
 
-The final structural calculation you will make on this network concerns the concept of **triadic closure**. Triadic closure supposes that if two people know the same person, they are likely to know each other. If Fox knows both Fell and Whitehead, then Fell and Whitehead may very well know each other, completing a **triangle** in the visualization of three edges connecting Fox, Fell, and Whitehead. The number of these enclosed triangles in the network can be used to find clusters and communities of individuals that all know each other fairly well. 
+The final structural calculation you will make on this network concerns the concept of **triadic closure**. Triadic closure supposes that if two people know the same person, they are likely to know each other. If Fox knows both Fell and Whitehead, then Fell and Whitehead may very well know each other, completing a **triangle** in the visualization of three edges connecting Fox, Fell, and Whitehead. The number of these enclosed triangles in the network can be used to find clusters and communities of individuals that all know each other fairly well.
 
 One way of measuring triadic closure is called **clustering coefficient** because of this clustering tendency, but the structural network measure you will learn is known as **transitivity**.[^transitivity] Transitivity is the ratio of all triangles over all possible triangles. A possible triangle exists when one person (Fox) knows two people (Fell and Whitehead). So transitivity, like density, expresses how interconnected a graph is in terms of a ratio of actual over possible connections. Remember, measurements like transitivity and density concern *likelihoods* rather than *certainties*. All the outputs of your Python script must be interpreted, like any other object of research. Transitivity allows you a way of thinking about all the relationships in your graph that *may* exist but currently do not.
 
