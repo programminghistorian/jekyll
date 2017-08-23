@@ -18,7 +18,7 @@
   url: "http://adamcrymble.org"
   team: true
   sortname: Crymble
-  affiliation: 
+  affiliation:
     en: |
         University of Hertfordshire, UK.
     es: |
@@ -53,7 +53,7 @@
   url: "http://ianmilligan.ca"
   team: true
   sortname: Milligan
-  affiliation: 
+  affiliation:
     en: |
         University of Waterloo, Canada.
     es: |
@@ -104,7 +104,7 @@
   github: mariajoafana
   team: true
   sortname: Afandor-Llach
-  affiliation: 
+  affiliation:
     en: |
         Fundación Histórica Neogranadina, Colombia.
     es: |
@@ -116,13 +116,13 @@
         digital humanities projects. She is also a lecturer in digital humanities at the Universidad de los Andes in Bogotá, Colombia.
     es: |
         Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una organización sin
-        ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro, así como promover proyectos de humanidades 
+        ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro, así como promover proyectos de humanidades
         digitales. Es profesora de humanidades digitales en la Universidad de los Andes en Bogotá, Colombia.
   team_roles:
    - spanish
    - ombuds-es
    - board
-   
+
 - name: Víctor Gayol
   url: "https://victorgayol.net"
   email: vgayol@colmich.edu.mx
@@ -130,7 +130,7 @@
   github: vgayolrs
   team: true
   sortname: Gayol
-  affiliation: 
+  affiliation:
     en: |
         El Colegio de Michoacán, A.C. (CPI-CONACYT), Mexico.
     es: |
@@ -144,7 +144,7 @@
    - spanish
    - managing-es
    - board
-   
+
 - name: Antonio Rojas Castro
   url: "http://antoniorojascastro.com"
   email: rojas.castro.antonio@gmail.com
@@ -152,7 +152,7 @@
   github: arojascastro
   team: true
   sortname: Rojas Castro
-  affiliation: 
+  affiliation:
     en: |
         Cologne Center for eHumanities, Germany.
     es: |
@@ -166,7 +166,7 @@
    - spanish
    - managing-es
    - board
-   
+
 - name: Stephen Margheim
   bio:
     en: |
@@ -385,7 +385,7 @@
   url: "http://jeriwieringa.com"
   github: jerielizabeth
   sortname: Wieringa
-  affiliation: 
+  affiliation:
     en: |
         George Mason University, USA.
     es: |
@@ -404,7 +404,7 @@
   team_roles:
    - editorial
    - board
-   
+
 - name: Jon Crump
   team: false
   bio:
@@ -494,7 +494,7 @@
   github: mdlincoln
   team: true
   sortname: Lincoln
-  affiliation: 
+  affiliation:
     en: |
         Getty Research Institute, USA.
     es: |
@@ -525,7 +525,7 @@
   url: "http://www.amandavisconti.com"
   team: true
   sortname: Visconti
-  affiliation: 
+  affiliation:
     en: |
         University of Virginia, USA.
     es: |
@@ -535,7 +535,7 @@
         Amanda Visconti is Managing Director at the University of Virginia Scholars' Lab DH center.
     es: |
         Amanda Visconti es Directora general del centro de Humanidades Digitales Scholars' Lab en la Universidad de Virginia.
-  interests: 
+  interests:
     en: |
         As a PH ombudsperson, you can contact Amanda to discuss any issues or concerns around the PH review and publication process.
     es: |
@@ -562,7 +562,7 @@
   url: "http://walshbr.com/"
   team: true
   sortname: Walsh
-  affiliation: 
+  affiliation:
     en: |
         University of Virginia, USA.
     es: |
@@ -576,7 +576,7 @@
    - editorial
    - community
    - board
-   
+
 - name: Ted Dawson
   team: false
   bio:
@@ -646,7 +646,7 @@
   url: "http://jessicaparr.org/"
   team: true
   sortname: Parr
-  affiliation: 
+  affiliation:
     en: |
         Simmons College, USA.
     es: |
@@ -696,7 +696,7 @@
   bio:
     en: |
         Jonathan Blaney is a project editor at the Institute of Historical Research, University of London.
-        
+
 - name: Daniel Ruten
   team: false
   bio:
@@ -716,7 +716,7 @@
   url: "http://anandileela.com"
   team: true
   sortname: Silva
-  affiliation: 
+  affiliation:
     en: |
         Emory University, USA.
     es: |
@@ -735,3 +735,21 @@
   bio:
     en: |
         Evan Peter Williamson is the Digital Infrastructure Librarian at University of Idaho Library, working with Data & Digital Services to bring cool projects, enlightening workshops, and innovative services to life. Despite a background in Art History, Classical Studies, and Archives, he always manages to get involved in all things digital.
+
+- name: John Ladd
+  team: false
+  bio:
+    en: |
+        John Ladd is a PhD candidate in literature at Washington University in St. Louis and postdoctoral fellow for Six Degrees of Francis Bacon at Carnegie Mellon.
+
+- name: Jessica Otis
+  team: false
+  bio:
+    en: |
+        Jessica Otis is a Digital Humanities Specialist in the University Libraries and Assistant Professor of History at Carnegie Mellon University.
+
+- name: Christopher N. Warren
+  team: false
+  bio:
+    en: |
+        Christopher N. Warren is Associate Professor of English at Carnegie Mellon University, where he teaches early modern studies and directs the Digital Humanities Faculty Research Group.
