@@ -182,9 +182,11 @@ If the lesson has been written by a new author, editors should add information a
 
 ```yaml
 - name: Jim Clifford
-  bio: |
-       Jim Clifford is an assistant professor in the Department of History
-       at the University of Saskatchewan.
+  team: false
+  bio:
+      en: |
+          Jim Clifford is an assistant professor in the Department of History
+          at the University of Saskatchewan.
 ```
 
 **Whitespace is important**, so be sure that the indentation matches the other examples.
