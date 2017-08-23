@@ -182,7 +182,6 @@ If the lesson has been written by a new author, editors should add information a
 
 ```yaml
 - name: Jim Clifford
-  team: false
   bio:
       en: |
           Jim Clifford is an assistant professor in the Department of History
