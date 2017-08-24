@@ -668,7 +668,7 @@ window.onload = function () {
 
 What we've done here is edit the [onEachFeature function](http://leafletjs.com/reference-1.2.0.html#geojson-oneachfeature), which gets called for each feature (in this case, each marker popup) to add additional information about each marker contained in our `census.geojson` data. To add attribute information from our `census.geojson` file, we use the convention `feature.properties.ATTRIBUTE_NAME` to access the population data. In this case, we are adding `feature.properties.Pop_2001`, `feature.properties.Pop_1981`, and `feature.properties.Pop_1801`, and adding a bit of styling with html for readability.
 
-{% include figure.html filename="webmap-06-exercise02" caption="Exercise 02" %}
+{% include figure.html filename="webmap-06-exercise02.jpg" caption="Exercise 02" %}
 
 ### Exercise 3: Change Data Source
 Change the data source to a different dataset, as an example you can use the [stations.geojson](/assets/mapping-with-python-leaflet/exercises/exercise03/stations.geojson) file.
