@@ -10,7 +10,7 @@ editors:
 - Ian Milligan
 difficulty: 2
 review-ticket: 85
-activity: present
+activity: presenting
 topics: [mapping]
 abstract: "This tutorial teaches users how to create a web map based on tabular data."
 layout: lesson
