@@ -211,7 +211,8 @@ En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor 
 
 ```yaml
 - name: Jim Clifford
-  bio: |
+  bio: 
+   es: |
        Jim Clifford es profesor ayudante en el Departamento de Historia de la Universidad de Saskatchewan.
 ```
 
