@@ -66,7 +66,6 @@ function wireButtons() {
   };
 
   var featureList = new List('lesson-list', options);
-
   // We need a stateObj for adjusting the URIs on button clicks, but the value is moot for now; could be useful for future functionality.
   var stateObj = { foo: "bar" };
 
@@ -176,7 +175,8 @@ function wireButtons() {
     var type = $(this).attr("id").substr(7);
 
     featureList.filter(function(item) {
-      if (item.values().topics.includes(type)) {
+      var topicsArray = item.values().topics.split(/\s/);
+      if (topicsArray.includes(type)) {
         return true;
       } else {
         return false;
