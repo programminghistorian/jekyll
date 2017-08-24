@@ -50,7 +50,7 @@ We're going to start with a plain comma-separated values (CSV) data file and cre
 
 The data file can be downloaded here: <https://programminghistorian.org/assets/mapping-with-python-leaflet/census.csv>. You can grab this by either opening the link in your browser and saving the page, or you can use the curl command from your command line:
 
-```curl https://programminghistorian.org/assets/mapping-with-python-leaflet/census.csv```
+```curl -O https://programminghistorian.org/assets/mapping-with-python-leaflet/census.csv```
 
 The original source of this data is from the [Greater London Authority London Datastore](http://data.london.gov.uk/dataset/historic-census-population).
 
