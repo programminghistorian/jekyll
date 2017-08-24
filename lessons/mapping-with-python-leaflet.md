@@ -633,7 +633,7 @@ window.onload = function () {
 
 What we've done there is changed the `.fitBounds` to `.setView`, with the various options mentioned above. Try reloading the file, and you'll see it loads to the correct place.
 
-{% include figure.html filename="webmap-05-exercise01" caption="Exercise 01" %}
+{% include figure.html filename="webmap-05-exercise01.jpg" caption="Exercise 01" %}
 
 ### Exercise 2: Marker Properties
 
@@ -705,7 +705,7 @@ window.onload = function () {
 
 Since we're loading a new dataset, we need a new view for our map. First, we've replaced `census.geojson` with `stations.geojson` to our $getJSON request. Next, we add the attribute information found in our `stations.geojson` file, including the name (`feature.properties.name`) and line (`features.properties.line`). Finally, we are using the `.fitBounds` function so that the viewport automatically centers on our new set of data points.
 
-{% include figure.html filename="webmap-07-exercise03" caption="Exercise 03" %}
+{% include figure.html filename="webmap-07-exercise03.jpg" caption="Exercise 03" %}
 
 ### Exercise 4: Custom Basemap
 Change your data source back to `census.geojson`. Change your basemap layer to a mapbox tileset.  You need to get a Mapbox account, create a map or style and get your Mapbox API access token.
@@ -775,7 +775,7 @@ window.onload = function () {
 
 In the javascript file, we've added our mapbox token in order to access the mapbox API that allows us to access the mapbox basemap that we want to use. Your final result (with your own basemap of choice) should look something like this:
 
-{% include figure.html filename="webmap-08-exercise04" caption="Exercise 04" %}
+{% include figure.html filename="webmap-08-exercise04.jpg" caption="Exercise 04" %}
 
 ### Exercise 5: Custom Marker Icon
 Add a custom leaf icon, as an example you can use [leaf.png](/assets/mapping-with-python-leaflet/exercises/exercise05/leaf.png). Or use your own!
@@ -829,7 +829,7 @@ Marker icons are defined in leaflet using the `L.icon` object. We specify the im
 
 The final map should look something like this:
 
-{% include figure.html filename="webmap-09-exercise05" caption="Exercise 05" %}
+{% include figure.html filename="webmap-09-exercise05.jpg" caption="Exercise 05" %}
 
 ## Next Steps
 
