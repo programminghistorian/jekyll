@@ -222,10 +222,14 @@
 
 - name: Kim Pham
   team: false
+  twitter: tolloid
+  github: kimpham54
   bio:
     en: |
-        Kim Pham is a librarian in the Digital Scholarship Unit at the University
-        of Toronto (Scarborough).
+        Kim Pham is the Digital Projects and Technologies Librarian
+        at the University of Toronto Scarborough Library. 
+        Her heart belongs to open-source software & shared,
+        community-driven development practices in libraries.
 
 - name: Douglas Duhaime
   bio:
