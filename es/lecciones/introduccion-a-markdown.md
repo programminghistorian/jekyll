@@ -183,14 +183,14 @@ Representar fragmentos de código en forma distinta al resto del documento es un
 
 Escribe lo siguiente en la caja de texto:
 
-    ```html
-    	 <html>
-             <head>
-	         <title>Título del sitio web</title>
-             </head>
-             <body>
-             </body>
-          </html>
+	```html
+    	 	<html>
+             		<head>
+	         		<title>Título del sitio web</title>
+             		</head>
+             		<body>
+             		</body>
+          	</html>
     ```
 
 **Y se representará así:**
