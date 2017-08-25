@@ -185,24 +185,24 @@ Escribe lo siguiente en la caja de texto:
 
     ```html
     <html>
-    	<head>
-		<title>Título del sitio web</title>
-	</head>
-	<body>
-	</body>
+        <head>
+            <title>Título del sitio Web</title>
+        </head>
+        <body>
+        </body>
     </html>
     ```
 
 **Y se representará así:**
 
-```html
-<html>
-       <head>
-	    <title>Título del sitio web</title>
-       </head>
-       <body>
-       </body>
-</html>
+```
+    <html>
+        <head>
+            <title>Título del sitio Web</title>
+        </head>
+        <body>
+        </body>
+    </html>
 ```
 
 Observa cómo el bloque de código se representa a renglón seguido.
