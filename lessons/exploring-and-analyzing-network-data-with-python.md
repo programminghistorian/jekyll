@@ -106,7 +106,7 @@ sudo pip3 install networkx
 You'll also need to install a **modularity** package to run **community detection** (more on what those terms mean later on). Use the same installation method:
 
 ```
-pip3 install python-louvain
+pip3 install python-louvain==0.5
 ```
 
 And that's it! You're ready to start coding.
@@ -266,19 +266,19 @@ for n in G.nodes(): # Loop through every node, in our data "n" will be the name 
     print(n, G.node[n]['birth_year']) # Access every node by its name, and then by the attribute "birth_year"
 ```
 
-From this statement, you'll get a line of output for each node in the network. It should look like a simple list of years:
+From this statement, you'll get a line of output for each node in the network. It should look like a simple list of names and years:
 
 ```
-1656
-1694
-1631
-1633
-1631
-1609
-1624
-1637
-1623
-1633
+Anne Camm 1627
+Sir Charles Wager 1666
+John Bellers 1654
+Dorcas Erbery 1656
+Mary Pennyman 1630
+Humphrey Woolrich 1633
+John Stubbs 1618
+Richard Hubberthorne 1628
+Robert Barclay 1648
+William Coddington 1601
 ```
 
 The steps above are a common method for adding attributes to nodes that you'll be using repeatedly later on in the tutorial. Here's a recap of the codeblock from this section:
