@@ -30,10 +30,6 @@ This lesson requires you to use the command line. If you have no
 previous experience using the command line you may find it helpful to
 work through the Programming Historian [Bash Command Line][] lesson.
 
-**As noted below, while there is currently a preview release of MALLET 2.0.8 available, this
-lesson uses the official release of MALLET 2.0.7. If you are following
-along with our instructions, please be sure to download the correct version.**
-
 Lesson Goals
 ------------
 
@@ -146,16 +142,12 @@ Installing MALLET
 -------------------
 
 There are many tools one could use to create topic models, but at the
-time of this writing (summer 2012) the simplest tool to run your text
+time of this writing (summer 2017) the simplest tool to run your text
 through is called MALLET. [MALLET][] uses an implementation of
 [*Gibbs sampling*][], a statistical technique meant to quickly construct
 a sample distribution, to create its topic models. MALLET requires
 using the command line – we'll talk about that more in a moment,
 although you typically use the same few commands over and over.
-
-**While there is currently a preview release of MALLET 2.0.8 available, this
-lesson uses the official release of MALLET 2.0.7. If you are following
-along with our instructions, please be sure to download the correct version.**
 
 The installation instructions are different for Windows and Mac. Follow
 the instructions appropriate for you below:
@@ -164,13 +156,13 @@ the instructions appropriate for you below:
 
 ### Windows Instructions
 
-1.  Go to the [MALLET][] project page. Since we are using Mallet 2.0.7, you can download this older version from this [direct link](http://mallet.cs.umass.edu/dist/mallet-2.0.7.zip).
+1.  Go to the [MALLET][] project page. You can [download MALLET here](http://mallet.cs.umass.edu/download.php).
 2.  You will also need the [Java developer's kit][] – that is, not the
     regular Java that's on every computer, but the one that lets you
     program things. Install this on your computer.
 3.  Unzip MALLET into your `C:` directory . This is important: it
     cannot be anywhere else. You will then have a directory called
-    `C:\mallet-2.0.7` or similar. For simplicity's sake, rename this
+    `C:\mallet-2.0.8` or similar. For simplicity's sake, rename this
     directory just `mallet`.
 4.  MALLET uses an *environment variable* to tell the computer where to
     find all the various components of its processes when it is running.
@@ -241,17 +233,17 @@ You are now ready to skip ahead to the next section.
 Many of the instructions for OS X installation are similar to Windows,
 with a few differences. In fact, it is a bit easier.
 
-1.  Download and [install MALLET 2.0.7](http://mallet.cs.umass.edu/dist/mallet-2.0.7.zip).
+1.  Download and [install MALLET](http://mallet.cs.umass.edu/download.php).
 2.  Download the [Java Development Kit][Java developer's kit].
 
 Unzip MALLET into a directory on your system (for ease of following
 along with this tutorial, your `/user/` directory works but anywhere is
 okay). Once it is unzipped, open up your Terminal window (in the
 `Applications` directory in your Finder. Navigate to the directory where
-you unzipped MALLET using the Terminal (it will be `mallet-2.0.7` . If
+you unzipped MALLET using the Terminal (it will be `mallet-2.0.8` . If
 you unzipped it into your `/user/` directory as was suggested in this
 lesson, you can navigate to the correct directory by typing
-`cd mallet-2.0.7`). cd is short for "change directory" when working in
+`cd mallet-2.0.8`). cd is short for "change directory" when working in
 the Terminal.
 
 The same command will suffice to run commands from this directory,
@@ -382,18 +374,16 @@ If you are unsure how directories work, we suggest the *Programming Historian* l
 
 ### For Mac
 
-Mac instructions are similar to those above for Windows, but keep in
-mind that Unix file paths (which are used by Mac) are different: for
-example, if the directory was in one's home directory, one would type
+Mac instructions are similar to those above for Windows, but note some of the differences below:
 
 ``` bash
-./bin/mallet import-dir --input /users/username/database/ --output tutorial.mallet --keep-sequence --remove-stopwords
+./bin/mallet import-dir --input sample-data/web/en --output tutorial.mallet --keep-sequence --remove-stopwords
 ```
 
 Issues with Big Data
 --------------------
 
-If you're working with extremely large file collections – or indeed,
+If you're working with large file collections – or indeed,
 very large files – you may run into issues with your *heap space*, your
 computer's working memory. This issue will initially arise during the
 import sequence, if it is relevant. By default, MALLET allows for 1GB
@@ -531,12 +521,15 @@ proportion, etc., as in figure 10.
 
 {% include figure.html filename="fig-10-topic-composition.png" caption="Figure 10: Topic Composition" %}
 
-You can see that doc\# 0 (ie, the first document loaded into MALLET),
-`elizabeth_needham.txt` has topic 2 as its principal topic, at about
-15%; topic 8 at 11%, and topic 1 at 8%. As we read along that first
-column of topics, we see that `zinta.txt` also has topic 2 as its
-largest topic, at 23%. The topic model suggests a connection between
-these two documents that you might not at first have suspected.
+This can be a somewhat difficult file to read. The topics begin in the third
+column, in this case Column C, and continue until the last topic in Column V. 
+This is because we have trained 20 topics – if we trained 25, for example, 
+they would run until column AA. 
+
+From this, you can see that doc\# 0 (ie, the first document loaded into MALLET),
+`elizabeth_needham.txt` has topic 0 at a percentage of 0.43% (column C). 
+We can see that topic 17 is the principal topic, at 59.05%, by locating the highest
+value. Your own topics may be different given the nature of MALLET.
 
 If you have a corpus of text files that are arranged in chronological
 order (e.g., `1.txt` is earlier than `2.txt`), then you can graph this
