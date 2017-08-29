@@ -15,7 +15,9 @@ editors:
 - Jessica Parr
 activity: presenting
 topics: [api]
-abstract: "" 
+abstract: "An Introduction to Twitter Bots with Tracery
+
+This lesson explains how to create simple twitterbots using Tracery and the Cheap Bots Done Quick service. Tracery exists in multiple languages and can be integrated into websites, games, bots." 
 
 ---
 
