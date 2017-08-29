@@ -3,9 +3,20 @@ title: |
     An Introduction to Twitterbots with Tracery
 authors:
 - Shawn Graham
-date: 2017-05-03
-reviewers:
+date: 2017-08-29
+reviewers: 
+- Lee Skallerup Bessette
+- Adam Crymble
+- Nick Roust
 layout: lesson
+difficulty: 2
+review-ticket: 75
+editor:
+- Jessica Parr
+activity: presenting
+topics: [api]
+abstract: "" 
+
 ---
 
 # An Introduction to Twitter Bots with Tracery
