@@ -200,6 +200,8 @@ Let us look at the sample script provided. Open your text editor, and copy and p
 #!/usr/bin/python
 
 from miditime.miditime import MIDITime
+# NOTE: this import works at least as of v1.1.3; for older versions or forks of miditime, you may need to use
+# from miditime.MIDITime import MIDITime
 
 # Instantiate the class with a tempo (120bpm is the default) and an output file destination.
 mymidi = MIDITime(120, 'myfile.mid')
