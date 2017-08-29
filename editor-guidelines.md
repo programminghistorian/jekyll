@@ -68,7 +68,7 @@ For each potential reviewer you do contact, regardless of response, please enter
 + the lesson to be reviewed,
 + and the response. 
 
-You can enter the date manually (please use mm/dd/yyyy) or using the `=today()` function.
+Please enter the date using a `mm/dd/yyyy` format.
 
 When inviting reviewers, the editor should provide them with our [reviewer guidelines](/reviewer-guidelines) and give them a deadline for completing their review (usually one month) so that we can ensure the timely publication of the tutorial.
 
