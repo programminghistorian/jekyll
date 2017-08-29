@@ -11,7 +11,7 @@ reviewers:
 layout: lesson
 difficulty: 2
 review-ticket: 75
-editor:
+editors:
 - Jessica Parr
 activity: presenting
 topics: [api]
