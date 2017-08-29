@@ -383,7 +383,7 @@ Mac instructions are similar to those above for Windows, but note some of the di
 Issues with Big Data
 --------------------
 
-If you're working with extremely large file collections – or indeed,
+If you're working with large file collections – or indeed,
 very large files – you may run into issues with your *heap space*, your
 computer's working memory. This issue will initially arise during the
 import sequence, if it is relevant. By default, MALLET allows for 1GB
