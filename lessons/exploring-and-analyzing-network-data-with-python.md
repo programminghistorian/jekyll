@@ -4,7 +4,7 @@ title: |
 authors:
 - John Ladd
 - Jessica Otis
-- Christopher Warren
+- Christopher N. Warren
 - Scott Weingart
 date: 2017-06-16
 reviewers:
