@@ -66,9 +66,10 @@ For each potential reviewer you do contact, regardless of response, please enter
 + the reviewer's name, 
 + your name as the editor, 
 + the lesson to be reviewed,
-+ and the response. 
++ the response,
++ and, if the response was "yes," the date completed. 
 
-Please enter the date using a `mm/dd/yyyy` format.
+Please enter the date using the `mm/dd/yyyy` format.
 
 When inviting reviewers, the editor should provide them with our [reviewer guidelines](/reviewer-guidelines) and give them a deadline for completing their review (usually one month) so that we can ensure the timely publication of the tutorial.
 
