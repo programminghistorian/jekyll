@@ -292,8 +292,7 @@ is important to ensuring it and its contents are easy to identify.
 whilst '2014-01-31\_Writing\_readme.txt' is as it replicates the title
 of the directory and included some date information (North American
 readers should note that I've chosen the structure year\_month\_date). A
-readme file I made for a recent project
-<https://www.dropbox.com/s/i12cv5rdnfbdoz3/network_analysis_of_Isaac_Cruikshank_and_his_publishers_readme.txt>
+[readme file I made for a recent project](/assets/preserving-your-research-data/network_analysis_of_Isaac_Cruikshank_and_his_publishers_readme.txt)
 contains the sort of information that you and other users of your data
 might find useful.
 
