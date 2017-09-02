@@ -461,9 +461,7 @@ save your work!**
   [QGIS Download page]: http://hub.qgis.org/projects/quantum-gis/wiki/Download
   [KyngChaos Qgis download page]: http://www.kyngchaos.com/software/qgis
   [PEI Highways]: /assets/PEI_highway.zip
-  [alternate Tar file]: https://www.dropbox.com/s/8k81jnmhpoi99fv/pei_highway.tar.gz
   [PEI Places]: /assets/PEI_placenames.zip
-  [1]: https://www.dropbox.com/s/33g19iqhdnxoayd/pei_placenames.tar.gz
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
   [NRCan's website]: http://www.nrcan.gc.ca/earth-sciences/geography-boundary/mapping/topographic-mapping/10272
   [Double Stereographic projection]: http://www.gov.pe.ca/gis/index.php3?number=77865&lang=E
