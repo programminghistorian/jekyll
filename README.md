@@ -2,4 +2,4 @@ This is the main repository for the _Programming Historian_ (<http://programming
 
 If you have suggestions for the site, please click on the [Issues Tab](https://github.com/programminghistorian/jekyll/issues) above, and click [New Issue](https://github.com/programminghistorian/jekyll/issues/new). You can also check out detailed instructions for contributors and reviewers on our [contributions page](http://programminghistorian.org/contribute).
 
-If you have any questions, please contact [Jeri Wieringa](mailto:jeri.elizabeth%2Bproghist@gmail.com).
+If you have any questions, please contact [Jessica Parr](mailto:jarr1129@gmail.com).
