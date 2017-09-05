@@ -2,7 +2,7 @@
 title: Web Mapping with Python and Leaflet
 authors:
 - Kim Pham
-date: 2017-08-24
+date: 2017-08-29
 reviewers:
 - Shawn Graham
 - Jim Clifford

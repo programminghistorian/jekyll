@@ -19,7 +19,7 @@ Thank you for taking the time to report a problem or suggest a change. Your assi
 
 
 ## Option 1: Email or Tweet
-Contact <a href="mailto:jeri.elizabeth%2Bproghist@gmail.com">Jeri Wieringa</a> at George Mason University or one of the other members of our [Project Team](project-team.html). You can also tweet [@ProgHist](https://twitter.com/proghist).
+Contact <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> at Simmons College or one of the other members of our [Project Team](project-team.html). You can also tweet [@ProgHist](https://twitter.com/proghist).
 
 ## Option 2: Open an Issue on GitHub
 This is our preferred way of handling feedback since all our editors are able to see and respond to your issue.
@@ -38,7 +38,7 @@ For more information about GitHub issues, read the GitHub Guide on [Mastering Is
 
 
 ## Option 3: Suggest a Particular Change
-To suggest or make minor changes to a lesson, first navigate to the  [lessons directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons) and click on the relevant lesson.
+To suggest or make minor changes to a lesson, first navigate to the [lessons directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons) and click on the relevant lesson.
 
 Next, click on the history button:
 
