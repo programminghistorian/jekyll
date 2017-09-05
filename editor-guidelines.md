@@ -56,7 +56,20 @@ The *Programming Historian* uses a model of open peer review, while we believe t
 
 Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). Often editors need help clarifying the intended audience of a lesson, or identifying jargon that needs further explanation. This initial review helps let the external reviewers focus on improving the piece. This is normally done openly on our submission system (see below), but it can be a closed review at the request of either party.
 
-Once an author has revised the tutorial to the satisfaction of the editor, it is the editor's job to invite two formal external peer reviews. It is entirely up to the editor who these reviewers are, however in the interest of our [commitment to diversity](https://github.com/programminghistorian/jekyll/issues), we encourage editors to ask themselves if they have made a sufficient effort to draw from reviewers who are distinct from themselves either by gender, nationality, race, age, or academic background. Please try not to find two people who are very like you.
+Once an author has revised the tutorial to the satisfaction of the editor, it is the editor's job to invite two formal external peer reviews. It is entirely up to the editor who these reviewers are, however in the interest of our [commitment to diversity](https://github.com/programminghistorian/jekyll/issues), we encourage editors to ask themselves if they have made a sufficient effort to draw from reviewers who are distinct from themselves either by gender, nationality, race, age, or academic background. Please try not to find two people who are very like you. 
+
+To coordinate our requests for reviewers, please use the "Programming Historian - Reviewer Tracking" Google Spreadsheet. (Contact the managing editor or Jeri Wieringa if you need help accessing the spreadsheet.) Prior to sending a review request, check the list to make sure that the person has not been recently contacted by another editor. To avoid over-taxing reviewers, please limit requests to once a year. If a reviewer has been contacted in the past year, the "date_contacted" field will display as red.
+
+For each potential reviewer you do contact, regardless of response, please enter: 
+
++ the date contacted, 
++ the reviewer's name, 
++ your name as the editor, 
++ the lesson to be reviewed,
++ the response,
++ and, if the response was "yes," the date completed. 
+
+Please enter the date using the `mm/dd/yyyy` format.
 
 When inviting reviewers, the editor should provide them with our [reviewer guidelines](/reviewer-guidelines) and give them a deadline for completing their review (usually one month) so that we can ensure the timely publication of the tutorial.
 
@@ -319,3 +332,5 @@ It's important to send an email or message to everyone involved thanking them fo
 - Add it to lists of resources in relevant repositories (eg, Wikipedia, community groups, etc).
 
 People don't find lessons on their own. The hard work is done, so let's make sure it was worth it!
+
+
