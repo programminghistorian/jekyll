@@ -47,7 +47,7 @@ This tutorial explores several different ways to approach a corpus of texts. It'
 1. Software:[AntConc](http://www.laurenceanthony.net/software/antconc/).    
 Unzip the download if necessary, and launch the application. Screen shots below may vary slightly from the version you have (and by operationg system, of course), but the procedures are more or less the same across platforms and recent versions of AntConc. This tutorial is written with a (much older) version of AntConc in mind, as I find it easier to use in an introductory context. You are welcome to use the most recent version, but if you wish to follow along with the screenshots provided, you can download the version used here, [version 3.2.4](http://www.laurenceanthony.net/software/antconc/releases/AntConc324/).
 
-2. Sample Corpus: Download the [zip file of movie reviews](https://db.tt/2PsC23px).
+2. Sample Corpus: Download the [zip file of movie reviews](/assets/corpus-analysis-with-antconc/antconc_corpus_files.zip).
 
 ### A broad outline of this tutorial:
 1. Working with plain text files
