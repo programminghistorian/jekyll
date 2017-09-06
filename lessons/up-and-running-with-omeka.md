@@ -25,14 +25,14 @@ abstract: "Omeka.net makes it easy to create websites that show off collections 
 Sign up for an Omeka account
 ----------------------------
 
-{% include figure.html filename="up-and-running-01.png" caption="Sign up for a basic account" %}
+{% include figure.html filename="up-and-running-01.png" caption="Sign up for a trial account" %}
 
-Go to [www.omeka.net](http://www.omeka.net) and click on **Sign Up**. Choose the Basic plan. Fill in the sign-up form. Check your email for the link to activate your account.
+Go to [www.omeka.net](http://www.omeka.net) and click on **Sign Up**. Choose the Trial plan. Fill in the sign-up form. Check your email for the link to activate your account.
 
 Create your new Omeka site
 --------------------------
 
-{% include figure.html filename="up-and-running-02.png" caption="Omeka.net dashboard" %}
+{% include figure.html filename="up-and-running-02.png" caption="Omeka.net account page" %}
 
 After you've clicked on the link in your email, click on Add a Site. 
 
