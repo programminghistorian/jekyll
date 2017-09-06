@@ -1,17 +1,29 @@
 ---
-title: Downloading Web Pages with Python
+title: Downloading Web Pages with Python 
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
-- Miriam Posner
 - Jim Clifford
-layout: default
-categories: [lessons, python, original-ph]
+editors:
+- Miriam Posner
+difficulty: 2
+activity: acquiring
+topics: [python]
+abstract: "This lesson introduces Uniform Resource Locators (URLs) and explains how to use Python to download and save the contents of a web page to your local hard drive."
 next: manipulating-strings-in-python
 previous: code-reuse-and-modularity
+categories: [lessons, python, original-ph]
+python_warning: true
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Lesson Goals
 ------------
@@ -24,7 +36,7 @@ local hard drive.
 
 A *web page* is a file that is stored on another computer, a machine known
 as a *web server*. When you "go to" a web page, what is actually happening
-is that your computer, the *client*, sends a request to the server (the
+is that your computer, (the *client*) sends a request to the server (the
 *host*) out over the network, and the server replies by sending a copy of
 the page back to your machine. One way to get to a web page with your
 browser is to follow a link from somewhere else. You also have the
@@ -51,7 +63,7 @@ you give this URL to your browser, it will return the main page of The
 page in a given directory will be named index, usually `index.html`.
 
 The URL can also include an optional *port number*. Without getting into
-too much detail at this point, the network protocol that underlies the
+too much detail, the network protocol that underlies the
 exchange of information on the Internet allows computers to connect in
 different ways. Port numbers are used to distinguish these different
 kinds of connection. Since the default port for HTTP is 80, the
@@ -77,14 +89,14 @@ following URL will take you to a search results page for criminal record
 trials containing the word "arsenic".
 
 ``` xml
-http://www.oldbaileyonline.org/search.jsp?form=custom&_divs_fulltext=arsenic
+https://www.oldbaileyonline.org/search.jsp?form=searchHomePage&_divs_fulltext=arsenic&kwparse=and&_persNames_surname=&_persNames_given=&_persNames_alias=&_offences_offenceCategory_offenceSubcategory=&_verdicts_verdictCategory_verdictSubcategory=&_punishments_punishmentCategory_punishmentSubcategory=&_divs_div0Type_div1Type=&fromMonth=&fromYear=&toMonth=&toYear=&ref=&submit.x=0&submit.y=0
 ```
 
 The snippet after the "?" represents the query. You can learn more about
 building queries in [Downloading Multiple Records Using Query
 Strings][].
 
-### Opening URLs with Python
+## Opening URLs with Python
 
 As a digital historian you will often find yourself wanting to use data
 held in scholarly databases online. To get this data you could open URLs
@@ -96,10 +108,10 @@ this.
 
 As an example, let's work with the kind of file that you might encounter
 while doing historical research. Say you're interested in race relations
-in eighteenth century Britain. [The Old Bailey Online][] (OBO) is a rich resource that provides trial transcripts from
+in eighteenth century Britain. 'The Old Bailey Online' (OBO) is a rich resource that provides trial transcripts from
 1674 to 1913 and is one good place to seek sources.
 
-{% include figure.html src="../images/old-bailey.png" caption="The Old Bailey Online Homepage" %}
+{% include figure.html filename="old-bailey.png" caption="The Old Bailey Online Homepage" %}
 
 For this example, we will be using the trial transcript of Benjamin
 Bowsey, a “black moor” who was convicted of breaking the peace during
@@ -119,25 +131,14 @@ in this case: *33*. If you change the two instances of `33` to `34` in
 your browser and press Enter, you should be taken to the next trial.
 Unfortunately, not all websites have such readable and reliable URLs.
 
-{% include figure.html src="../images/bowsey-trial-page.png" caption="Trial Transcript Page of Benjamin Bowsey, 1780" %}
+{% include figure.html filename="bowsey-trial-page.png" caption="Trial Transcript Page of Benjamin Bowsey, 1780" %}
 
 Spend a few minutes looking at Benjamin Bowsey’s trial page. Here we are
 not so much interested in what the transcript says, but what features
-the page has. Notice the "[View as XML][]" link at the bottom that takes
+the page has. Notice the [View as XML](http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes) link at the bottom that takes
 you to a heavily marked up version of the text which may be useful to
-certain types of research. You can look at a [scan of the original
-document][], which was transcribed to make this resource. And you can
-access a "[Print-friendly version][]" by clicking a link near the top of
-the entry.
-
-When you are processing web resources automatically, it is often a good
-idea to work with printable versions if you can, as they tend to have
-less formatting. Since we have that option, we will use the printable
-version in this lesson.
-
-``` xml
-http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
-```
+certain types of research. You can also look at a [scan of the original
+document](http://www.oldbaileyonline.org/images.jsp?doc=178006280084), which was transcribed to make this resource. 
 
 Now let's try opening the page using Python. Copy the following program
 into Komodo Edit and save it as `open-webpage.py`. When you execute the
@@ -149,19 +150,19 @@ that the HTML source of the page is the same as the source that your
 program retrieved. Each browser has a different shortcut key to open the
 page source. In Firefox on PC it is `CTRL+u`. If you cannot find it on
 your browser, try using a search engine to find where it is. (See the
-Python library reference to learn more about [urllib2][].)
+Python library reference to learn more about [urllib2](https://docs.python.org/2/library/urllib2.html).)
 
 ``` python
 # open-webpage.py
 
 import urllib2
 
-url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 response = urllib2.urlopen(url)
 webContent = response.read()
 
-print webContent[0:300]
+print(webContent[0:300])
 ```
 
 These five lines of code achieve an awful lot very quickly. Let us take
@@ -190,20 +191,19 @@ modules (1), the methods (2), and the parameters (1) before you move on.
 In the resulting output, you will notice a little bit of HTML markup:
 
 ``` xml
- <!-- MAIN CONTENT -->
-
-<div id="main" class="full"><div id="main2">
-        <div style="font-family:serif;"><i>Old Bailey Proceedings Online</i>
-(www.oldbaileyonline.org, version 6.0, 16 March 2013),
-June 1780, trial of
-BENJAMIN                      BOWSEY
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Browse - Central Criminal Court</title>
+	<meta http-equiv="content-type" content=
 ```
 
-Because we are using the printable version there is a lot less than most
-web pages have, but there is still more than we need. Don't worry; you
-will soon learn how to remove that excess markup.
+The content of the trial itself is much further down the page. What we
+see here is the HTML code at the top of the document. This is not quite
+what we need for historical research, but don't worry; you
+will soon learn how to remove that excess markup and get the content you are after.
 
-### Saving a Local Copy of a Web Page
+## Saving a Local Copy of a Web Page
 
 Given what you already know about writing to files, it is quite easy to
 modify the above program so that it writes the contents of the
@@ -219,7 +219,7 @@ the online copy.
 
 import urllib2
 
-url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 response = urllib2.urlopen(url)
 webContent = response.read()
@@ -231,8 +231,9 @@ f.close
 
 So, if you can save a single file this easily, could you write a program
 to download a bunch of files? Could you step through trial IDs, for
-example, and make your own copies of a whole bunch of them? Yep. We'll
-get there soon.
+example, and make your own copies of a whole bunch of them? Yep. You can learn
+how to do that in [Downloading Multiple Files using Query Strings](/lessons/downloading-multiple-records-using-query-strings),
+which we recommend after you have completed the introductory lessons in this series.
 
 Suggested Readings
 ------------------
@@ -250,12 +251,7 @@ file to make sure you have the correct code.
 -   programming-historian-1 ([zip][])
 
   [Old Bailey Online]: http://www.oldbaileyonline.org/
-  [Downloading Multiple Records Using Query Strings]: ../lessons/downloading-multiple-records-using-query-strings
-  [Old]: ../images/old-bailey.png "Old"
+  [Downloading Multiple Records Using Query Strings]: /lessons/downloading-multiple-records-using-query-strings
+  [Old]: /images/old-bailey.png "Old"
   [Gordon Riots]: http://en.wikipedia.org/wiki/Gordon_Riots
-  []: ../images/bowsey-trial-page.png "bowsey-trial-page"
-  [View as XML]: http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes
-  [scan of the original document]: http://www.oldbaileyonline.org/images.jsp?doc=178006280084
-  [Print-friendly version]: http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
-  [urllib2]: https://docs.python.org/2/library/urllib2.html
-  [zip]: ../assets/programming-historian1.zip
+  [zip]: /assets/python-lessons1.zip

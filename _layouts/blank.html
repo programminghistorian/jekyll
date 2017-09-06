@@ -1,23 +1,27 @@
-<!DOCTYPE html>
-<html>
+{% comment %}
+  This template assembles principal page components (standard HTML header, menu bar, page content, and footer). The page content is held in a wrapper div (called "container"), which sets the standard page width.
 
-	{% include header.html %}
+  This is the standard template used by ALL site pages EXCEPT the home page and lessons pages (which have full-window bleeds and therefore cannot have all page content wrapped in the "container" div; they use the base template).
+{% endcomment %}
+
+
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+
+  {% include header.html %}
 
   <body>
 
-    <header role="banner">
-    <h1><a href="{{ site.url }}">The Programming Historian</a></h1>
+    {% include menu.html %}
 
-	{% include menu.html %}
-	</header>
-
-	<div role="main">
-
-	{{content}}
-
+    <div class="container">
+      <article>
+  	     {{content}}
+      </article>
     </div>
 
     {% include footer.html %}
 
-    </body>
+  </body>
+
 </html>

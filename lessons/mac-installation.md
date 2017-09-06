@@ -1,15 +1,26 @@
 ---
-title: Setting Up an Integrated Development Environment for Python (Mac)
+title: Setting Up an Integrated Development Environment for Python (Mac) 
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
-- Miriam Posner
 - Jim Clifford
 - Amanda Morton
-layout: default
+editors:
+- Miriam Posner
+difficulty: 1
+activity: transforming
+topics: [get-ready, python]
+abstract: "This lesson will help you set up an integrated development environment for Python on a computer running an Apple operating system."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ### Back up your computer
 
@@ -24,8 +35,8 @@ followed by the Enter key. Pushing the Enter key sends the command to
 the computer when using the terminal. If you see `‘/usr/bin/python’` or
 something similar containing the word ‘python’ and a bunch of slashes,
 then you are all set. If not, close the Terminal, download the latest
-stable release of the Python programming language (Version 2.7.3 as of
-May 2012) and install it by following the instructions on the [Python
+stable release of the Python programming language (Version 2.7.12 as of
+August 2016) and install it by following the instructions on the [Python
 website][].
 
 ### Create a Directory
@@ -35,18 +46,10 @@ your computer where you will keep your Python programs (e.g.,
 `programming-historian`) and save it anywhere you like on your hard
 drive.
 
-### Beautiful Soup
-
-Download the latest version of [Beautiful Soup][] and copy it to the
-directory where you are going to put your own programs. Beautiful Soup
-is a library (a collection of prewritten code) that makes it easy for
-Python programs to break web pages down into meaningful chunks that can
-be further processed.
-
 ### Install Komodo Edit
 
-Komodo Edit is a free and open source code editor, but as we said in the
-introduction, you have many [other text editing options][]. Some of our
+Komodo Edit is a free and open source code editor. If you prefer to use
+another editor, there are many [other text editing options][]. Some of our
 testers prefer a program called [TextWrangler][]. Which you use is up to
 you, but for the sake of consistency in our lessons, we will be using
 Komodo Edit. You can download a copy of Komodo Edit from the [Komodo
@@ -99,7 +102,7 @@ accomplish a lot. The shorter the program, the more likely it is for the
 whole thing to fit on one screen, and the easier it is to keep track of
 all of it in your mind.
 
-The languages that we will be using are all interpreted. This means that
+Python is an 'interpreted' programming language. This means that
 there is a special computer program (known as an interpreter) that knows
 how to follow instructions written in that language. One way to use the
 interpreter is to store all of your instructions in a file, and then run
@@ -114,7 +117,7 @@ program and save it to your `programming-historian` directory as
 
 ``` python
 # hello-world.py
-print 'hello world'
+print('hello world')
 ```
 
 Your chosen text editor should have a “`Run`” button that will allow you
@@ -122,8 +125,7 @@ to execute your program. If you are using TextWrangler, click on the
 “\#!” button and Run. If all went well, it should look something like
 this:
 
-![TextWrangler-hello-world][]
-
+![TextWrangler-hello-world](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/TextWrangler-hello-world.png)
 “Hello World” in Python on a Mac
 
 ### Interacting with a Python shell
@@ -134,13 +136,13 @@ shell will respond to your command. Using a shell is a great way to test
 statements to make sure that they do what you think they should. This is
 done slightly differently on Mac, Linux and Windows.
 
-You can run a Python shell by launching the “terminal”. On the Mac, open
+You can run a Python shell by launching the 'terminal'. On the Mac, open
 the Finder and double-click on `Applications -> Utilities -> Terminal`
 then typing “`python`” into the window that opens on your screen. At the
 Python shell prompt, type
 
 ``` python
-print 'hello world'
+print('hello world')
 ```
 
 and press Enter. The computer will respond with
@@ -153,19 +155,18 @@ When we want to represent an interaction with the shell, we will use
 `->` to indicate the shell’s response to your command, as shown below:
 
 ``` python
-print 'hello world'
+print('hello world')
 -> hello world
 ```
 
 On your screen, it will look more like this:
 
-![hello world terminal on a Mac][]
-
+![hello world terminal on a Mac](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/hello-world-terminal.png)
 Python Shell in Mac Terminal
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
-order, we suggest you next try ‘[Viewing HTML Files][]‘
+order, we suggest you next try '[Understanding Web Pages and HTML][].'
 
   [Time Machine]: http://support.apple.com/kb/ht1427
   [Python website]: http://www.python.org/
@@ -173,8 +174,4 @@ order, we suggest you next try ‘[Viewing HTML Files][]‘
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
   [TextWrangler]: http://www.barebones.com/products/textwrangler/
   [Komodo Edit website]: http://www.activestate.com/komodo-edit
-  []: ../images/komodo-edit-mac.png "komodo-edit-mac"
-  [TextWrangler-hello-world]: ../images/TextWrangler-hello-world.png
-  [hello world terminal on a Mac]: ../images/hello-world-terminal.png
-    "hello-world-terminal"
-  [Viewing HTML Files]: /lessons/viewing-html-files
+  [Understanding Web Pages and HTML]: /lessons/viewing-html-files

@@ -1,29 +1,39 @@
 ---
 title: Manipulating Strings in Python
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
-- Miriam Posner
 - Jim Clifford
-layout: default
+editors:
+- Miriam Posner
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "This lesson is a brief introduction to string manipulation techniques in Python."
 next: from-html-to-list-of-words-1
 previous: working-with-web-pages
+python_warning: true
 ---
 
-Lesson Goals
-------------
+{% include toc.html %}
 
-This lesson is a brief introduction to string manipulation techniques in
+
+
+
+
+## Lesson Goals
+
+This lesson is a brief introduction to [string](https://en.wikipedia.org/wiki/String_(computer_science)) manipulation techniques in
 Python. Knowing how to manipulate strings plays a crucial role in most
 text processing tasks. If you’d like to experiment with the following
-lessons, you can write and execute short programs as we’ve been doing,
+lessons, you can write and execute short programs as we’ve been doing in previous lessons in the series,
 or you can open up a Python shell / Terminal to try them out on the
 command line.
 
-Manipulating Python Strings
----------------------------
+## Manipulating Python Strings
 
 If you have been exposed to another programming language before, you
 might have learned that you need to *declare* or *type* variables before you
@@ -35,9 +45,9 @@ wrapped with quotation marks into it with an equal sign (=):
 message = "Hello World"
 ```
 
-### String Operators: Adding and Multiplying
+## String Operators: Adding and Multiplying
 
-As we mentioned previously, a string is a type of object, one that
+A string is a type of object, one that
 consists of a series of characters. Python already knows how to deal
 with a number of general-purpose and powerful representations, including
 strings. One way to manipulate strings is by using *string operators*.
@@ -46,7 +56,7 @@ with mathematics, such as +, -, \*, /, and =. When used with strings,
 they perform actions that are similar to, but not the same as, their
 mathematical counterparts.
 
-#### Concatenate
+### Concatenate
 
 This term means to join strings together. The process is known as
 *concatenating* strings and it is done using the plus (+) operator. Note
@@ -58,11 +68,11 @@ world".
 
 ``` python
 message1 = 'hello' + ' ' + 'world'
-print message1
+print(message1)
 -> hello world
 ```
 
-#### Multiply
+### Multiply
 
 If you want multiple copies of a string, use the multiplication (\*)
 operator. In this example, string *message2a* is given the content
@@ -72,11 +82,11 @@ we print both strings.
 ``` python
 message2a = 'hello ' * 3
 message2b = 'world'
-print message2a + message2b
+print(message2a + message2b)
 -> hello hello hello world
 ```
 
-#### Append
+### Append
 
 What if you want to add material to the end of a string successively?
 There is a special operator for that (+=).
@@ -85,11 +95,11 @@ There is a special operator for that (+=).
 message3 = 'howdy'
 message3 += ' '
 message3 += 'world'
-print message3
+print(message3)
 -> howdy world
 ```
 
-### String Methods: Finding, Changing
+## String Methods: Finding, Changing
 
 In addition to operators, Python comes pre-installed with dozens of
 string methods that allow you to do things to strings. Used alone or in
@@ -100,18 +110,18 @@ each properly. To make sure that you’ve got a basic grasp of string
 methods, what follows is a brief overview of some of the more commonly
 used ones:
 
-#### Length
+### Length
 
 You can determine the number of characters in a string using `len`. Note
 that the blank space counts as a separate character.
 
 ``` python
 message4 = 'hello' + ' ' + 'world'
-print len(message4)
+print(len(message4))
 -> 11
 ```
 
-#### Find
+### Find
 
 You can search a string for a *substring* and your program will return the
 starting index position of that substring. This is helpful for further
@@ -121,7 +131,7 @@ the count starts with position 0, not 1.
 ``` python
 message5 = "hello world"
 message5a = message5.find("worl")
-print message5a
+print(message5a)
 -> 6
 ```
 
@@ -130,11 +140,11 @@ If the substring is not present, the program will return a value of -1.
 ``` python
 message6 = "Hello World"
 message6b = message6.find("squirrel")
-print message6b
+print(message6b)
 -> -1
 ```
 
-#### Lower Case
+### Lower Case
 
 Sometimes it is useful to convert a string to lower case. For example,
 if we standardize case it makes it easier for the computer to recognize
@@ -143,14 +153,14 @@ that "Sometimes" and "sometimes" are the same word.
 ``` python
 message7 = "HELLO WORLD"
 message7a = message7.lower()
-print message7a
+print(message7a)
 -> hello world
 ```
 
 The opposite effect, raising characters to upper case, can be achieved
 by changing `.lower()` to `.upper()`.
 
-#### Replace
+### Replace
 
 If you need to replace a substring throughout a string you can do so
 with the `replace` method.
@@ -158,11 +168,11 @@ with the `replace` method.
 ``` python
 message8 = "HELLO WORLD"
 message8a = message8.replace("L", "pizza")
-print message8a
+print(message8a)
 -> HEpizzapizzaO WORpizzaD
 ```
 
-#### Slice
+### Slice
 
 If you want to `slice` off unwanted parts of a string from the beginning
 or end you can do so by creating a substring. The same kind of technique
@@ -171,7 +181,7 @@ also allows you to break a long string into more manageable components.
 ``` python
 message9 = "Hello World"
 message9a = message9[1:8]
-print message9a
+print(message9a)
 -> ello Wo
 ```
 
@@ -181,7 +191,7 @@ You can substitute variables for the integers used in this example.
 startLoc = 2
 endLoc = 8
 message9b = message9[startLoc: endLoc]
-print message9b
+print(message9b)
 -> llo Wo
 ```
 
@@ -197,7 +207,7 @@ positions start counting from 0 rather than 1.
 
 ``` python
 message9 = "Hello World"
-print message9[:5].find("d")
+print(message9[:5].find("d"))
 -> -1
 ```
 
@@ -208,7 +218,7 @@ In Python, parentheses are usually used to *pass an argument* to a
 function. So when we see something like
 
 ``` python
-print len(message7)
+print(len(message7))
 ```
 
 it means pass the string *message7* to the function `len` then send the
@@ -220,7 +230,7 @@ example of that, too:
 ``` python
 message7 = "HELLO WORLD"
 message7a = message7.lower()
-print message7a
+print(message7a)
 -> hello world
 ```
 
@@ -234,7 +244,7 @@ need some way of giving Python a location within a sequence. That is
 what the square brackets do: indicate a beginning and ending location
 within a sequence as we saw when using the `slice` method.
 
-### Escape Sequences
+## Escape Sequences
 
 What do you do when you need to include quotation marks within a string?
 You don’t want the Python interpreter to get the wrong idea and end the
@@ -243,19 +253,19 @@ put a backslash (\\) in front of a quotation mark so that it doesn't
 terminate the string. These are known as escape sequences.
 
 ``` python
-print '\"'
+print('\"')
 -> "
 ```
 
 ``` python
-print 'The program printed \"hello world\"'
+print('The program printed \"hello world\"')
 -> The program printed "hello world"
 ```
 
 Two other escape sequences allow you to print tabs and newlines:
 
 ``` python
-print 'hello\thello\thello\nworld'
+print('hello\thello\thello\nworld')
 ->hello hello hello
 world
 ```
@@ -269,7 +279,7 @@ Suggested Reading
     -   Ch. 10: Introducing Python Statements
     -   Ch. 15: Function Basics
 
-### Code Syncing
+## Code Syncing
 
 To follow along with future lessons it is important that you have the
 right files and programs in your programming-historian directory. At the
@@ -278,7 +288,7 @@ to make sure you have the correct code. Note we have removed unneeded
 files from earlier lessons. Your directory may contain more files and
 that’s ok!
 
--   programming-historian-2 ([zip][])
+-   programming-historian-1 ([zip][])
 
   [Python website]: https://docs.python.org/2/library/stdtypes.html#string-methods
-  [zip]: ../assets/programming-historian2.zip
+  [zip]: /assets/python-lessons1.zip

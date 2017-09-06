@@ -1,22 +1,33 @@
 ---
 title: Automated Downloading with Wget
+layout: lesson
+date: 2012-06-27
 authors:
 - Ian Milligan
-date: 2012-06-27
 reviewers:
 - Aurélien Berra
+editors:
 - Adam Crymble
-layout: default
-next: applied-archival-downloading-with-wget
 difficulty: 1
+activity: acquiring
+topics: [web-scraping]
+abstract: "Wget is a useful program, run through your computer's command line, for
+retrieving online material."
+next: applied-archival-downloading-with-wget
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Editor's Note
 -------------
 
 This lesson requires you to use the command line. If you have no
 previous experience using the command line you may find it helpful to
-work through the Scholar's Lab [Command Line Bootcamp][] tutorial.
+work through the *Programming Historian’s* [Introduction to the Bash Programming Language](/lessons/intro-to-bash).
 
 Lesson Goals
 ------------
@@ -27,7 +38,7 @@ users should be able to follow along.
 Wget is a useful program, run through your computer's command line, for
 retrieving online material.
 
-{% include figure.html src="../images/Terminal-on-mac2.png" caption="The Mac Command Line, Terminal" %}
+{% include figure.html filename="Terminal-on-mac2.png" caption="The Mac Command Line, Terminal" %}
 
 It can be useful in the following situations:
 
@@ -367,7 +378,7 @@ is a critical command for delineating your search.
 
 Here is a graphical representation:
 
-{% include figure.html src="../images/active-history-chart_edited-1.jpg" caption="A graphical representation of how 'no-parent' works with wget" %}
+{% include figure.html filename="active-history-chart_edited-1.jpg" caption="A graphical representation of how 'no-parent' works with wget" %}
 
 Finally, if you do want to go outside of a hierarchy, it is best to be
 specific about how far you want to go. The default is to follow each
@@ -478,7 +489,7 @@ I've only given a snapshot of some of wget's functionalities. For more,
 please visit the [wget manual][GNU wget manual].
 
   [Command Line Bootcamp]: http://praxis.scholarslab.org/scratchpad/bash/
-  [download XCode via this link]: https://itunes.apple.com/en/app/xcode/id497799835?mt=12
+  [download XCode via this link]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
   [Apple Developer website]: https://developer.apple.com/xcode/
   [View Downloads]: https://developer.apple.com/downloads/
   [GNU website]: http://www.gnu.org/software/wget/

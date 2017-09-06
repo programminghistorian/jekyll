@@ -1,23 +1,25 @@
 ---
 title: Data Mining the Internet Archive Collection
+layout: lesson
+date: 2014-03-03
 authors:
 - Caleb McDaniel
-date: 2014-03-03
 reviewers:
+- Adam Crymble
+editors:
 - William J. Turkel
 - Adam Crymble
-layout: default
 difficulty: 2
-abstract: |
-    The collections of the Internet Archive include many digitized
-    historical sources. Many contain rich bibliographic data in a
-    format called MARC. In this lesson, you'll learn how to use Python
-    to automate the downloading of large numbers of MARC files from
-    the Internet Archive and the parsing of MARC records for specific
-    information such as authors, places of publication, and dates. The
-    lesson can be applied more generally to other Internet Archive files
-    and to MARC records found elsewhere.
+activity: acquiring
+topics: [web-scraping]
+abstract: "The collections of the Internet Archive include many digitized historical sources. Many contain rich bibliographic data in a format called MARC. In this lesson, you'll learn how to use Python to automate the downloading of large numbers of MARC files from the Internet Archive and the parsing of MARC records for specific information such as authors, places of publication, and dates. The lesson can be applied more generally to other Internet Archive files and to MARC records found elsewhere."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Lesson Goals
 ------------
@@ -64,8 +66,7 @@ Internet Archive. The second, [pymarc][], makes it easier to parse MARC
 records.
 
 The easiest way to download both is to use pip, the python package
-manager. Begin by installing `pip` using [this Programming Historian
-lesson][]. Then issue these commands at the command line: To install
+manager. Begin by installing `pip` using Fred Gibbs' [Installing Python Modules with pip][]. Then issue these commands at the command line: To install
 `internetarchive`:
 
 ``` bash
@@ -623,7 +624,7 @@ Or, to get a very rough visual sense of the places where letters were
 written, you could do what I've done below and simply make a [Wordle
 word cloud][] of the text file.
 
-{% include figure.html src="../images/bpl-wordle.png" caption="Wordle wordcloud of places of publication for abolitionist letters" %}
+{% include figure.html filename="bpl-wordle.png" caption="Wordle wordcloud of places of publication for abolitionist letters" %}
 
 Of course, to make such techniques useful would require more [cleaning
 of your data][]. And other applications of this lesson may prove more
@@ -641,7 +642,6 @@ from the fields, the possibilities can multiply rapidly!
   [Anti-Slavery Collection]: http://archive.org/details/bplscas
   [internetarchive]: https://pypi.python.org/pypi/internetarchive
   [pymarc]: https://pypi.python.org/pypi/pymarc/
-  [this Programming Historian lesson]: ../lessons/
   [this letter]: http://archive.org/details/lettertowilliaml00doug
   [original manuscript]: http://archive.org/stream/lettertowilliaml00doug/39999066767938#page/n0/mode/2up
   [multiple files]: http://archive.org/download/lettertowilliaml00doug
@@ -656,14 +656,15 @@ from the fields, the possibilities can multiply rapidly!
   [search the Archive using the Python module that we installed]: https://pypi.python.org/pypi/internetarchive#searching-from-python
   [the advanced search for the collection]: http://archive.org/search.php?query=collection%3Abplscas
   [downloading]: https://pypi.python.org/pypi/internetarchive#downloading-from-python
-  [remember those?]: ../lessons/code-reuse-and-modularity
+  [remember those?]: /lessons/code-reuse-and-modularity
   [item files are named according to specific rules]: https://archive.org/about/faqs.php#140
   [handling exceptions]: http://docs.python.org/2/tutorial/errors.html#handling-exceptions
   [rules specified for the 260 datafield]: http://www.loc.gov/marc/bibliographic/bd260.html
   [MARC standards]: http://www.loc.gov/marc/
   [1]: https://github.com/edsu/pymarc
   [functions that it provides for working with MARC XML records]: https://github.com/edsu/pymarc/blob/master/pymarc/marcxml.py
-  [Counting Frequencies]: ../lessons/counting-frequencies
-  [Google Maps lesson]: ../lessons/googlemaps-googleearth
+  [Counting Frequencies]: /lessons/counting-frequencies
+  [Google Maps lesson]: /lessons/googlemaps-googleearth
   [Wordle word cloud]: http://www.wordle.net/
-  [cleaning of your data]: http://programminghistorian.github.io/jekyll/lessons/cleaning-ocrd-text-with-regular-expressions
+  [cleaning of your data]: /lessons/cleaning-ocrd-text-with-regular-expressions
+  [Installing Python Modules with pip]: /lessons/installing-python-modules-pip
