@@ -196,7 +196,7 @@ This tutorial uses LibreOffice, which is an Open Source alternative to Microsoft
  {% include figure.html filename="QGISFigure5.png" caption="Figure 6: Copying a table into LibreOffice Base" %}
 
 * Go to the `Queries` pane and select `Create a Query using Design View` and add both tables so that you see small windows appear with lists of the field names in each table. Link the ‘Place of origin’ field in the alumni table to the `Name` field of the Counties table by dragging and dropping one field name onto the other.
-* Double click each field in the alumni table, which to adds it to the list of fields below (which define the structure of the table that you will get as the result of the query). 
+* Double click each field in the alumni table, which adds it to the list of fields below (which define the structure of the table that you will get as the result of the query). 
 * Add the `x` and `y` fields from the counties by double clicking them. This query now contains all of the data you need to be able to map your data.
 
 {% include figure.html filename="QGISFigure6.png" caption="Figure 7: The query design completed in LibreOffice Base, showing the join between the tables and the grid detailing the fields that will show in the result" %}
