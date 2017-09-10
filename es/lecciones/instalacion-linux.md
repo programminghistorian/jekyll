@@ -21,7 +21,7 @@ redirect_from: /es/lessons/linux-installation
 difficulty: 1
 activity: transforming
 topics: [get-ready, python]
-abstract: "Este turoial te ayudará a configurar un entorno de desarrollo integrado para Python en un computador con el sistema operativo de Linux."
+abstract: "Este tutorial te ayudará a configurar un entorno de desarrollo integrado para Python en un computador con el sistema operativo de Linux."
 ---
 
 {% include toc.html %}
