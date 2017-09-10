@@ -115,7 +115,7 @@ En los catálogos de archivo, se suelen utilizar URLs estructurados por un eleme
 
 Y el sitio Old Bailey Online usa este formato:
 
--   *nombre del sitio web*/*browse.jsp?ref=*reference number*
+-   *nombre del sitio web*/browse.jsp?ref=*número de referencia*
 -   <http://www.oldbaileyonline.org/browse.jsp?ref=OA16780417>
 
 Lo que aprendemos de estos ejemplos es que la combinación de descripciones semánticas con elementos de datos hacen consistente y predecible la lectura de los datos estructurados tanto por máquinas como por seres humanos. Transferir esto a los datos digitales acumulados durante el curso de la investigación histórica hace que los datos de investigación sean más fácilmente navegables, así como buscar y consultar utilizando las herramientas estándar provistas por nuestros sistemas operativos (y, como veremos en próximas lecciones, por herramientas más avanzadas).
