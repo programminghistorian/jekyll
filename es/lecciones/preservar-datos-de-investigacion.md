@@ -191,7 +191,7 @@ Observa los diferentes atributos de fechas. Estos reflejan el momento en que se 
 2014-02-02\_articulos\_revistas\_analisis\_leeme.txt.
 ```
 
-Finalmente, podemos crear un directorio que contenga los datos derivados de 2014-01-31_articulos_revistas.tsv, que llamaremos \\data\\ llamado \\datos_derivados\\. En este caso, cada archivo .tsv derivado contiene líneas que incluyen palabras clave como 'africa', 'america', 'arte', etcétera, y se nombran de acuerdo a ello [*Nota del traductor*: las palabras clave se escriben a propósito sin acentos para facilitar la estructura de datos en los directorios y su búsqueda independiente de plataforma].
+Finalmente, podemos crear un directorio dentro de la carpeta \\datos\\ que contenga los datos derivados de 2014-01-31_articulos_revistas.tsv, que llamaremos \\datos_derivados\\. En este caso, cada archivo .tsv derivado contiene líneas que incluyen palabras clave como 'africa', 'america', 'arte', etcétera, y se nombran de acuerdo a ello [*Nota del traductor*: las palabras clave se escriben a propósito sin acentos para facilitar la estructura de datos en los directorios y su búsqueda independiente de plataforma].
 
 ```
 2014-01-31_articulos_revista_KW_africa.tsv
