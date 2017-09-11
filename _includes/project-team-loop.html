@@ -15,7 +15,7 @@ Loops through members of editorial team and then generates their contact info us
   {% endif %}
 {% endfor %}
 
-<h3>Project Team Roles</h3>
+<h3>{{ site.data.snippets.project-team-roles[page.lang] }}</h3>
 <ul>
 {% for team in site.data.teamroles %}
   {% if team.definition %}
