@@ -257,7 +257,7 @@ If you only have a small number of rows in your data, or if you are having diffi
 
 ### Troubleshooting Database Gazetteer Joins
 
-While relational database queries are very powerful tools for doing customised geocoding, by allowing you to match multiple criteria simultaneously, they can also present misleading results if not checked carefully. Any data that is not matched will usually be ignored 'silently' (i.e. you will not see an error message, so it is important to check whether the total number of lines in your results matches that in your original data. 
+While relational database queries are very powerful tools for doing customised geocoding, by allowing you to match multiple criteria simultaneously, they can also present misleading results if not checked carefully. Any data that is not matched will usually be ignored 'silently' (i.e. you will not see an error message), so it is important to check whether the total number of lines in your results matches that in your original data. 
 
 If there are too few results, this means some values cannot be matched. In this table, for example, `Place of origin` includes values such as 'London' and 'Germany', which do not match any of the places in the gazetteer that we created. You could either conclude that the lower number of results is acceptable, or try to correct it by either altering places of origin, or adding locations to your gazetteer manually. Changing the properties of the join between the two tables from `Inner Join` to `Right Join` will ensure that ALL records from the alumni table are returned, whether or not there is matching data from the gazetteer `counties` table (presuming that the alumni table is on the right). This is a very useful diagnostic step.
 
