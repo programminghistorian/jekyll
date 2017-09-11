@@ -37,6 +37,6 @@ title: The Programming Historian
 <div class="home-block">
 <div class="container">
 <h2>Equipo</h2>
-<p>Somos una comunidad de volunarios; por eso, nos gusta ser transparentes y dar crédito a los <a href="equipo-de-proyecto.html">colaboradores</a> que han invertido tiempo y energía en hacer posible <i>The Programming Historian en español</i>.</p>
+<p>Somos una comunidad de voluntarios; por eso, nos gusta ser transparentes y dar crédito a los <a href="equipo-de-proyecto.html">colaboradores</a> que han invertido tiempo y energía en hacer posible <i>The Programming Historian en español</i>.</p>
 </div>
 </div>
