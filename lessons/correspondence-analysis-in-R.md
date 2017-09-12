@@ -3,9 +3,16 @@ title: |
     Correspondence Analysis for Historical Research with R
 authors:
     - Ryan Deschamps
-date: 2017-06-01
+date: 2017-09-12
 reviewers:
+  - Sandra van Ginhoven
+  - Taylor Arnold
+editors:
+  - Matthew Lincoln
 layout: lesson
+difficulty: 3
+activity: analyzing
+topics: [data-manipulation, network-analysis]
 ---
 
 Correspondence analysis (CA) produces a two or three dimensional plot based on relationships among two or more categories of data. These categories could be "members and clubs," "words and books" or "countries and trade agreements." For example, one club member could correspond to another club member based on the shared clubs that they belong to. Members who attend the same clubs probably have more in common than those who attend different clubs. In the same vein, clubs that share members are also likely to have more in common than clubs with different members.
