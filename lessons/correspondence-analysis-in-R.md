@@ -284,7 +284,7 @@ plot(CA_trudeau2)
 
 we get ...
 
-```R
+```
 Error in eigen(crossprod(X, X), symmetric = TRUE) : 
 infinite or missing values in 'x'
 ```
