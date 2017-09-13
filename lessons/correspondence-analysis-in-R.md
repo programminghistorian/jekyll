@@ -434,7 +434,7 @@ $inertia
 [1] 0.31400966 0.36956522 0.24927536 0.09017713 0.36956522
 ```
 
-Each score for a "dimension" can be used as a coordinate in a graph plot. Given that we cannot visualize in four dimensions, CA outputs usually focus on the first two or three dimensions to produce a graph (for example, HESA will be plotted on \[1.245, 0.989\] or \[1.245, 0.989, 0.438\] on a 3D graph).
+Each score for a "dimension" can be used as a coordinate in a graph plot. Given that we cannot visualize in four dimensions, CA outputs usually focus on the first two or three dimensions to produce a graph (for example, HESA will be plotted on `[1.245, 0.989]` or `[1.245, 0.989, 0.438]` on a 3D graph).
 
 {% include figure.html caption="Correspondence analysis of selected Parliamentary Committees for 1st Session of the Stephen Harper Government, 2006" filename="harper_ca_3.png" %}
 
