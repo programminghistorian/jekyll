@@ -7,7 +7,7 @@ date: 2017-08-29
 reviewers: 
 - Lee Skallerup Bessette
 - Adam Crymble
-- Nick Roust
+- Nick Ruest
 layout: lesson
 difficulty: 2
 review-ticket: 75
