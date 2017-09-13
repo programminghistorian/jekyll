@@ -452,11 +452,11 @@ Another important score is visible on the CA graph - the percentage of explanato
 
 [^factoextra]: Alboukadel Kassambara and Fabian Mundt (2017). factoextra: Extract and Visualize the
 Results of Multivariate Data Analyses. R package version 1.0.4.
-<https://CRAN.R-project.org/package=factoextra>;
+<https://CRAN.R-project.org/package=factoextra>
 
 [^factominer]: Sebastien Le, Julie Josse, Francois Husson (2008). FactoMineR: An R Package for
 Multivariate Analysis. Journal of Statistical Software, 25(1), 1-18.
-[10.18637/jss.v025.i01](https://doi.org/10.18637/jss.v025.i01);
+[10.18637/jss.v025.i01](https://doi.org/10.18637/jss.v025.i01)
 
 [^explantory]: _Explanatory value_ refers to the distance of the data points away from the centre of the graph. Each dimension will account for some of the distance the data points diverge from the centre.
 
