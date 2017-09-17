@@ -675,6 +675,8 @@
   bio:
     en: |
         Taylor Arnold is assistant professor of statistics at the University of Richmond.
+    es: |
+        Taylor Arnold es asistente de profesor de Estadísticas en la Universidad de Richmond.
 
 - name: Lauren Tilton
   url:
@@ -682,36 +684,48 @@
   bio:
     en: |
         Lauren Tilton is visiting assistant professor of digital humanities at the University of Richmond.
+    es: |
+        Lauren Tilton es asistente de profesor en Humanidades Digitales en la Universidad e Richmond.
 
 - name: Stephanie J. Richmond
   team: false
   bio:
     en: |
         Stephanie J. Richmond is an assistant professor of history at Norfolk State University in Virginia and a historian of gender and race in the Atlantic world.
+    es: |
+        Stephanie J. Richmond es asistente de profesor de Historia en Norfolk State University (Virginia); le interesa la historia del género y la raza la cultura atlántica.
 
 - name: Tommy Tavenner
   team: false
   bio:
     en: |
         Tommy Tavenner is a developer and data architect working in open data and civic engagement.
+    es: |
+        Tommy Tavenner es desarrollador y especialista en arquitectura de la información; actualmente, trabaja en temas relacionados con los datos abiertos y la participación ciudadana.
 
 - name: Jonathan Blaney
   team: false
   bio:
     en: |
         Jonathan Blaney is a project editor at the Institute of Historical Research, University of London.
+    es: |
+        Jonathan Blaney dirige un proyecto editorial en el Institute of Historical Research de la Universidad de Londres.
 
 - name: Daniel Ruten
   team: false
   bio:
     en: |
         Daniel Ruten is entering graduate studies in history at the University of Saskatchewan.
+    en: |
+        Daniel Ruten cursa una licenciatura en Historia en University of Saskatchewan.
 
 - name: Nabeel Siddiqui
   team: false
   bio:
     en: |
         Nabeel Siddiqui is a doctoral candidate in American Studies at the College of William and Mary, where he is also an inaugural fellow of the Digital Equality Lab. His research focuses broadly on the relationship between the humanities and computation, with a particular expertise on the cultural history of media, new media studies, digital humanities, information studies, and the history of science and technology. Currently, he is completing his dissertation entitled "Byting Out the Public," which looks at the historical relationship between the personal computer and the private sphere.
+    en: |
+        Nabeel Siddiqui es doctoranda en Estudios Americanos en College of William and Mary, donde también es becaria del Digital Equality Lab. Su investigación se centra en las relaciones entre las Humanidades y la Informática, en particular en la historia cultural de los medios, Comunicación y Humanidades Digitales, Ciencias de la Información, Historia de la Ciencia y Tecnología. Actualmente, está realizando su tesis doctoral titulada "Byting Out the Public", que pretende estudiar la relación entre el ordenador personal y la privacidad.
 
 - name: Anandi Silva Knuppel
   github: alsalin
@@ -756,7 +770,7 @@
     en: |
         Jessica Otis is a Digital Humanities Specialist in the University Libraries and Assistant Professor of History at Carnegie Mellon University.
     es: |
-        Jessica Otis es especialista en humanidades digitales de las bibliotecas universitarias y profesora asistente de Historia en la Universidad Carnegie Mellon.
+        Jessica Otis es especialista en Humanidades Digitales de las bibliotecas universitarias y profesora asistente de Historia en la Universidad Carnegie Mellon.
 
 - name: Christopher N. Warren
   team: false
