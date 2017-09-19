@@ -627,17 +627,17 @@ Figures
 ========================================================================== */
 
   figure {
-    margin: 0 auto;
+    margin: 0 auto .5rem;
     text-align: center;
     display:table;
   }
 
   figcaption {
-    margin-top:.2rem;
+    margin-top:.5rem;
     font-family:'Open Sans';
     font-size:0.8em;
     color: #666;
-    display:table-caption;
+    display:block;
     caption-side: bottom;
     text-align: justify;
   }
