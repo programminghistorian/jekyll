@@ -15,13 +15,13 @@ In this blog post, authors Viola Wiegand, Michaela Mahlberg, and Peter Stockwell
 
 You can find out more about the CLiC Dickens research project on the [project's website](http://www.birmingham.ac.uk/schools/edacs/departments/englishlanguage/research/projects/clic/index.aspx) and get in touch with the team via Twitter ([@CLiC_Dickens](https://twitter.com/CLiC_Dickens/)). 
 
-If you are interested in learning how to use collocations and keywords in your own research, we recommend starting with [Corpus Analysis with AntConc](https://programminghistorian.org/lessons/corpus-analysis-with-antconc) by Heather Froehlich. In this lesson, Froehlich introduces techniques from corpus linguistics to analyze the language of a corpus, showing how to identify significant patterns of language use within and between sets of texts using features such as collocates and keywords. And, as always, if you have an idea for a lesson or want to get involved with the *Programming Historian,* please visit our [contribute page](https://programminghistorian.org/contribute) for more information.
+If you are interested in learning how to use collocations and keywords in your own research, we recommend starting with [Corpus Analysis with AntConc](https://programminghistorian.org/lessons/corpus-analysis-with-antconc) by Heather Froehlich. In this lesson, Froehlich introduces techniques from corpus linguistics to analyze the language of a corpus, showing how to identify significant patterns of language use within and between sets of texts. And, as always, if you have an idea for a lesson or want to get involved with the *Programming Historian,* please visit our [contribute page](https://programminghistorian.org/contribute) for more information.
 
 ---
 
 ## The fireplace pose in 19th century fiction: an example using the CLiC web app
 
-Guest post by Viola Wiegard, Michaela Mahlberg, and Peter Stockwell
+Guest post by Viola Wiegand, Michaela Mahlberg, and Peter Stockwell
 
 [CLiC](http://clic.bham.ac.uk) (Corpus Linguistics in Context) is a web app specifically designed for the corpus linguistic study of literary texts. While CLiC shares much of its functionality with other corpus tools – similarly to what is described in the [Programming Historian’s lesson ‘Corpus Analysis with Antconc’](http://programminghistorian.org/lessons/corpus-analysis-with-antconc) – it also contains additional features that are particularly relevant to literary analysis. These include the ability to search subsets of the text – such as character speech – and a sorting function that goes beyond alphabetic sorting: the ‘KWICGrouper’, which this post focuses on. The CLiC web app has been developed as part of the [CLiC Dickens project](http://www.birmingham.ac.uk/schools/edacs/departments/englishlanguage/research/projects/clic/index.aspx) for the analysis of patterns in 19th century fiction, particularly novels by Charles Dickens. CLiC currently contains 15 Dickens novels and 29 novels by other 19th century authors and a corpus of 19th century children's literature will soon be added.
 
@@ -45,13 +45,13 @@ Concordance 3: All 15 concordance lines of *fire* co-occurring with both *standi
 
 Looking at the characters represented by this pattern, it is striking that they are all male. While this may be due to the practical reason that women’s floor-length skirts could easily catch fire, it also suggests that it was mainly men who stood in such a prominent place in the house (see [Korte 1997: 212](https://books.google.co.uk/books?id=o9o4gLzrRPEC&lpg=PP1&pg=PA212#v=onepage&q&f=false) and [Mahlberg 2013: 111-114](https://books.google.co.uk/books?id=v98rcxoYUbYC&lpg=PP1&dq=mahlberg%20corpus%20stylistics&pg=PA111#v=onepage&q&f=false)), whereas women might be more likely to be sitting by the fire as in the image from *David Copperfield.*
 
-![](/images/corpus-linguistics-in-action/Image_1_mr_dombey_and_the_world.jpg)
-
-Image from [Dombey and Son, Chapter 51](http://www.gutenberg.org/ebooks/821)
-
 ![](/images/corpus-linguistics-in-action/Image_2_David_Copperfield_fireplace.jpg)
 
 Image from [David Copperfield, Chapter 63](http://www.gutenberg.org/ebooks/766)
+
+![](/images/corpus-linguistics-in-action/Image_1_mr_dombey_and_the_world.jpg)
+
+Image from [Dombey and Son, Chapter 51](http://www.gutenberg.org/ebooks/821)
 
 A frequent textual pattern indicating the fireplace pose is *with his back to the fire* (see [Mahlberg 2013: 111](https://books.google.co.uk/books?id=v98rcxoYUbYC&lpg=PP1&dq=mahlberg%20corpus%20stylistics&pg=PA111#v=onepage&q&f=false)). A character who stands with his back to the fire faces the room as illustrated in the picture from *Dombey and Son* and in line 4 of Concordance 4, which describes the character as *surveying the whole scene*. The female variant of the pattern, *with her back to the fire*, only occurs once in Dickens’s novels, describing a powerful female character (Mrs. Pipchin in *Dombey and Son*).
 
