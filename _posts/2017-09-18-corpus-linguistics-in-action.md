@@ -1,9 +1,10 @@
 ---
-title: Corpus Linguistics in Action
+title: "Corpus Linguistics in Action: The Fireplace Pose in 19th Century Fiction"
 authors:
 - Viola Wiegand
 - Michaela Mahlberg
 - Peter Stockwell
+editors:
 - Jeri Wieringa
 layout: post
 categories: posts
@@ -15,15 +16,11 @@ In this blog post, authors Viola Wiegand, Michaela Mahlberg, and Peter Stockwell
 
 You can find out more about the CLiC Dickens research project on the [project's website](http://www.birmingham.ac.uk/schools/edacs/departments/englishlanguage/research/projects/clic/index.aspx) and get in touch with the team via Twitter ([@CLiC_Dickens](https://twitter.com/CLiC_Dickens/)). 
 
-If you are interested in learning how to use collocations and keywords in your own research, we recommend starting with [Corpus Analysis with AntConc](https://programminghistorian.org/lessons/corpus-analysis-with-antconc) by Heather Froehlich. In this lesson, Froehlich introduces techniques from corpus linguistics to analyze the language of a corpus, showing how to identify significant patterns of language use within and between sets of texts. And, as always, if you have an idea for a lesson or want to get involved with the *Programming Historian,* please visit our [contribute page](https://programminghistorian.org/contribute) for more information.
+If you are interested in learning how to use collocations and keywords in your own research, we recommend starting with [Corpus Analysis with AntConc](https://programminghistorian.org/lessons/corpus-analysis-with-antconc) by Heather Froehlich. In this lesson, Froehlich introduces techniques from corpus linguistics, showing how to identify significant patterns of language use within and between sets of texts. And, as always, if you have an idea for a lesson or want to get involved with the *Programming Historian,* please visit our [contribute page](https://programminghistorian.org/contribute) for more information.
 
 ---
 
-## The fireplace pose in 19th century fiction: an example using the CLiC web app
-
-Guest post by Viola Wiegand, Michaela Mahlberg, and Peter Stockwell
-
-[CLiC](http://clic.bham.ac.uk) (Corpus Linguistics in Context) is a web app specifically designed for the corpus linguistic study of literary texts. While CLiC shares much of its functionality with other corpus tools – similarly to what is described in the [Programming Historian’s lesson ‘Corpus Analysis with Antconc’](http://programminghistorian.org/lessons/corpus-analysis-with-antconc) – it also contains additional features that are particularly relevant to literary analysis. These include the ability to search subsets of the text – such as character speech – and a sorting function that goes beyond alphabetic sorting: the ‘KWICGrouper’, which this post focuses on. The CLiC web app has been developed as part of the [CLiC Dickens project](http://www.birmingham.ac.uk/schools/edacs/departments/englishlanguage/research/projects/clic/index.aspx) for the analysis of patterns in 19th century fiction, particularly novels by Charles Dickens. CLiC currently contains 15 Dickens novels and 29 novels by other 19th century authors and a corpus of 19th century children's literature will soon be added.
+[CLiC](http://clic.bham.ac.uk) (Corpus Linguistics in Context) is a web app specifically designed for the corpus linguistic study of literary texts. While CLiC shares much of its functionality with other corpus tools — similarly to what is described in the [Programming Historian’s lesson ‘Corpus Analysis with AntConc’](http://programminghistorian.org/lessons/corpus-analysis-with-antconc) — it also contains additional features that are particularly relevant to literary analysis. These include the ability to search subsets of the text – such as character speech – and a sorting function that goes beyond alphabetic sorting: the ‘KWICGrouper’, which this post focuses on. The CLiC web app has been developed as part of the [CLiC Dickens project](http://www.birmingham.ac.uk/schools/edacs/departments/englishlanguage/research/projects/clic/index.aspx) for the analysis of patterns in 19th century fiction, particularly novels by Charles Dickens. CLiC currently contains 15 Dickens novels and 29 novels by other 19th century authors and a corpus of 19th century children's literature will soon be added.
 
 Apart from aiding literary study, the corpus stylistic analysis of historical fiction can reveal insights into the social context of the texts more widely. In this post, we’ll discuss the so-called ‘fireplace pose’ in 19th century fiction that has been identified in literature and other cultural material from the time (for example paintings; see [Korte 1997: 212](https://books.google.co.uk/books?id=o9o4gLzrRPEC&lpg=PP1&pg=PA212#v=onepage&q&f=false)). In CLiC it is possible, for example, to 1) trace textual patterns which describe how fictional characters sit or stand in front of the fire or look at it and 2) compare the patterns found in Dickens with those of other authors.
 
@@ -33,7 +30,7 @@ Let’s start with a simple concordance of *fire* in Dickens’s novels in CLiC.
 
 As the word is relatively frequent at approximately 1700 hits, it is easier to see patterns by sorting the concordance. Note for instance, that the first line in the concordance is an example of the verb *fire.* In order to group words with similar patterns and hence similar meanings together, the KWICGrouper allows us to interactively search for particular words in a specified span, highlighting the matching lines. The line colour changes with the number of matches. Those lines with the most matches are moved to the top. This semi-automatic grouping of concordance lines can help us identify qualitative groups of meaningful functions. (For a step-by-step explanation of the KWICGrouper watch a [video tutorial](https://blog.bham.ac.uk/clic-dickens/2017/06/22/video-introducing-the-clic-kwicgrouper-function-to-group-concordance-lines/) on the CLiC Dickens blog.) In this case, the textual patterns to the left of *fire* are of particular interest for identifying character information. A search for *standing* on the left shows a pattern with *before* (Concordance 2). We can then add *before* to the search in order to group the lines together (Concordance 3).
 
-{% include figure.html caption="Concordance 2: The first 15 concordance lines of <em>fire</em> co-occurring with <em>standing</em> on the left (ordered by book" filename="images/corpus-linguistics-in-action/Concordance_2_clic_dickens_fire_standing_15_lines.png" %}
+{% include figure.html caption="Concordance 2: The first 15 concordance lines of <em>fire</em> co-occurring with <em>standing</em> on the left (ordered by book)" filename="images/corpus-linguistics-in-action/Concordance_2_clic_dickens_fire_standing_15_lines.png" %}
 
 {% include figure.html caption="Concordance 3: All 15 concordance lines of <em>fire</em> co-occurring with both <em>standing</em> and <em>before</em> on the left" filename="images/corpus-linguistics-in-action/Concordance_3_clic_dickens_fire_standing_before_15_lines.png" %}
 
@@ -41,10 +38,10 @@ Looking at the characters represented by this pattern, it is striking that they 
 
 <figure>
     <a href="/images/corpus-linguistics-in-action/Image_2_David_Copperfield_fireplace.jpg">
-        <img src="/images/corpus-linguistics-in-action/Image_2_David_Copperfield_fireplace.jpg" width="60%" style="margin-right:2%" />
+        <img src="/images/corpus-linguistics-in-action/Image_2_David_Copperfield_fireplace.jpg" style="margin-right:1%; max-width:60%;" />
     </a>
     <a href="/images/corpus-linguistics-in-action/Image_1_mr_dombey_and_the_world.jpg">
-        <img src="/images/corpus-linguistics-in-action/Image_1_mr_dombey_and_the_world.jpg"  style="margin-left:2%; max-height:360px"/>
+        <img src="/images/corpus-linguistics-in-action/Image_1_mr_dombey_and_the_world.jpg"  style="margin-left:1%; max-height:360px; max-width:35%;"/>
     </a>
 
 <figcaption style="text-align:center">
@@ -85,9 +82,3 @@ In this post, we have introduced corpus linguistic techniques for interrogating 
 · [Mahlberg, M. (2013). *Corpus Stylistics and Dickens’s Fiction*. New York & London: Routledge.](https://books.google.co.uk/books?id=v98rcxoYUbYC&lpg=PP1&pg=PP1#v=onepage&q&f=false)
 
 · [Mahlberg, M., Stockwell, P., de Joode, J., Smith, C., O’Donnell, M. Brook, (2016) CLiC Dickens – Novel uses of concordances for the integration of corpus stylistics and cognitive poetics, Corpora, 11 (3), 433-463.](http://www.euppublishing.com/doi/full/10.3366/cor.2016.0102)
-
-
-
-
-
-
