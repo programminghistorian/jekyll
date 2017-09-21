@@ -45,7 +45,7 @@ Looking at the characters represented by this pattern, it is striking that they 
     </a>
 
 <figcaption style="text-align:center">
-Left image from <a href="http://www.gutenberg.org/ebooks/766">David Copperfield, Chapter 63</a>; right image from <a href="http://www.gutenberg.org/ebooks/821">Dombey and Son, Chapter 51</a>
+<p>Left image from <a href="http://www.gutenberg.org/ebooks/766">David Copperfield, Chapter 63</a>; right image from <a href="http://www.gutenberg.org/ebooks/821">Dombey and Son, Chapter 51</a></p>
 </figcaption>
 </figure>
 
