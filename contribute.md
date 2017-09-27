@@ -5,7 +5,7 @@ layout: blank
 
 # Contribute to The Programming Historian
 
-The _Programming Historian_ runs on the far-from-endless energy of volunteers, and we want to hear from anyone who shares our interest in teaching digital methods, forging new processes of peer review, and building diversity in the digital humanities community. Below we've outlined a common ways to contribute; please let us know any ideas you have for broadening participation.
+The _Programming Historian_ runs on the far-from-endless energy of volunteers, and we want to hear from anyone who shares our interest in teaching digital methods, forging new processes of peer review, and building diversity in the digital humanities community. Below we've outlined common ways to contribute; please let us know any ideas you have for broadening participation.
 
 ## Write a new lesson
 
