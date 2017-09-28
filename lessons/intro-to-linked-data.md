@@ -268,12 +268,14 @@ By contrast with Turtle, RDF/XML can look a bit weighty. To begin with, let's ju
 
 In RDF/XML, with the prefixes declared inside the XML snippet, this is:
 
+``` xml
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:dc="http://purl.org/dc/terms/">
   <rdf:Description rdf:about="http://info:lccn/2010025398">
     <dc:creator rdf:resource="http://viaf.org/96994048"/>
   </rdf:Description>
 </rdf:RDF>
+```
 
 The RDF/XML format has the same basic information as Turtle, but is written very differently, drawing on the principles of nested XML tags.
 
