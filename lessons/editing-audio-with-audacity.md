@@ -28,7 +28,7 @@ For those interested in audio, basic sound editing skills go a long way. Being a
 
 In this lesson you will learn how to use *[Audacity](http://audacityteam.org/)* to load, record, edit, mix, and export audio files. Sound editing platforms are often expensive and offer extensive capabilities that can be overwhelming to the first-time user, but *Audacity* is a free and open source alternative that offers powerful capabilities for sound editing with a low barrier for entry.
 
-For this lesson we will work with two audio files: a recording of <a href="{{ root_url }}/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3">Bach's Goldberg Variations</a> and another recording of your own voice that will be made in the course of the lesson.
+For this lesson we will work with two audio files: a recording of [Bach's Goldberg Variations]({{ root_url }}/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3) and another recording of your own voice that will be made in the course of the lesson.
 
 This tutorial uses *Audacity* 2.1.2, released January 2016.
 
@@ -36,7 +36,7 @@ This tutorial uses *Audacity* 2.1.2, released January 2016.
 
 First, download the necessary files.
 
-You will need the <a href="{{ root_url }}/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3">.mp3 file of Bach's Goldberg Variations</a>. To download, right click <a href="{{ root_url }}/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3">here</a> and select 'Save Link As' to download the file onto your computer as an MP3.
+You will need the [mp3 file of Bach's Goldberg Variations]({{ root_url }}/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3). To download, right click [here]({{ root_url }}/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3) and select 'Save Link As' to download the file onto your computer as an MP3.
 
 Next, download and install *Audacity*, which is available on [the project site](http://audacityteam.org/). *Audacity* can be used on Mac OSX, Windows, or Linux.
 
