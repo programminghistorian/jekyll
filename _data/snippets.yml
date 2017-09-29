@@ -29,6 +29,13 @@ menu-about-research:
 menu-contribute:
   en: Contribute
   es: Contribuciones
+menu-contribute-archive:
+  en:
+    title: Archiving Policy
+    link: /archiving-policy
+  es:
+    title:
+    link:
 menu-contribute-overview:
   en:
     title: Overview
