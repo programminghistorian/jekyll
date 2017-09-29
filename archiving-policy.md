@@ -25,6 +25,7 @@ Whether or not a new derivative is created, the following steps will be taken wi
 
 1. The lesson will be moved from `https://programminghistorian.org/lesson/LESSON-TITLE` TO `https://programminghistorian.org/lesson/archived/LESSON-TITLE`. A redirect will be established, so any links to the original URL will seamlessly point the user to the new URL.
 
-2. The following announcement will be added to the top of the archived lesson: <div class="alert alert-warning">{{ site.data.snippets.deprecated[page.lang] }}</div>
+2. Once archived, the lesson will no longer appear in the directory of lessons.
 
-3. Once archived, the lesson will no longer appear in the directory of lessons.
+3. The following announcement will be added to the top of the archived lesson: 
+    <div class="alert alert-warning">{{ site.data.snippets.deprecated[page.lang] }}</div>
