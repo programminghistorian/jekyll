@@ -28,4 +28,4 @@ Whether or not a new derivative is created, the following steps will be taken wi
 2. Once archived, the lesson will no longer appear in the directory of lessons, and it will be removed from the Twitter announcement stream.
 
 3. The following announcement will be added to the top of the archived lesson: 
-    <div class="alert alert-warning">{{ site.data.snippets.deprecated[page.lang] }}
+    <div class="alert alert-warning">{{ site.data.snippets.deprecated[page.lang] | markdownify }}
