@@ -29,3 +29,9 @@ Whether or not a new derivative is created, the following steps will be taken wi
 
 3. The following announcement will be added to the top of the retired lesson: 
     <div class="alert alert-warning">{{ site.data.snippets.retired[page.lang] | markdownify }}
+
+## Retired Lessons
+
+{% for retired_lesson in site.pages | where: retired %}
+[{{ retired_lesson.title }}]({{ retired_lesson.url }})
+{% endfor %}
