@@ -32,6 +32,7 @@ Whether or not a new derivative is created, the following steps will be taken wi
 
 ## Retired Lessons
 
-{% for retired_lesson in site.pages | where: "retired", "true" %}
-[{{ retired_lesson.title }}]({{ retired_lesson.url }})
+{% assign retired = site.pages | where: "retired", "true" %}
+{% for lesson in retired %}
+[{{ lesson.title }}]({{ lesson.url }})
 {% endfor %}
