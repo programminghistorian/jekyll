@@ -5,7 +5,7 @@ layout: base
 {% comment %}
   This is the standard template for all lessons. It builds on the base template, which includes the HTML header, the menu bar, page content, and footer.
 
-  In addition to general formatting, this layout also contains all the logic for displaying alert messages (lessons in a series, deprecated lessons, etc).
+  In addition to general formatting, this layout also contains all the logic for displaying alert messages (lessons in a series, retired lessons, etc).
 
   All lesson metadata and alerts should follow the convention of pulling appropriate text from the snippets.yml file.
 {% endcomment %}
@@ -129,9 +129,9 @@ layout: base
       </div>
     {% endif %}
 
-    {% if page.deprecated %}
+    {% if page.retired %}
      <div class="alert alert-warning">
-       {{ site.data.snippets.deprecated[page.lang] | markdownify }}
+       {{ site.data.snippets.retired[page.lang] | markdownify }}
      </div>
     {% endif %}
 

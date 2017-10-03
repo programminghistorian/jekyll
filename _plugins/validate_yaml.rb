@@ -29,8 +29,8 @@ module MyModule
       # Fields required only on en lessons
       en_required_fields = []
 
-      # Find all the pages that represent non-deprecated lessons
-      lessons = site.pages.select{|i| i.data["lesson"] && !i.data["deprecated"]}
+      # Find all the pages that represent non-retired lessons
+      lessons = site.pages.select{|i| i.data["lesson"] && !i.data["retired"]}
 
       lessons.each do |p|
 
