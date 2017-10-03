@@ -5,7 +5,7 @@ layout: blank
 
 # Lesson Retirement Policy
 
-The Programming Historian editors do their best to maintain lessons as minor issues inevitably arise. 
+The _Programming Historian_ editors do their best to maintain lessons as minor issues inevitably arise. 
 However, as time passes, changes to either the underlying technologies or principles used by a given lesson can become so substantial that users will no longer be able to successfully complete the lesson.
 In these situations, the _Programming Historian_ editorial team may decide to "retire" a lesson: keeping the page published, but removing it from our directory of active lessons and adding a warning to the top of the page noting that not all elements of the lesson may be working as originally intended.
 
