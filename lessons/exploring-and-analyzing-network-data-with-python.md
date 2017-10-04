@@ -109,6 +109,8 @@ You'll also need to install a **modularity** package to run **community detectio
 pip3 install python-louvain==0.5
 ```
 
+Recently, NetworkX updated to version 2.0. If you're running into any problems with the code below and have worked with NetworkX before, you might try updating both the above packages with `pip3 install networkx --upgrade` and `pip3 install python-louvain --upgrade`.
+
 And that's it! You're ready to start coding.
 
 # Getting Started
