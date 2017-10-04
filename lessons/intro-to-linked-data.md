@@ -37,7 +37,7 @@ This lesson offers a brief and concise introduction to [Linked Open Data](https:
 
 The tutorial should take a couple of hours to complete, and you may find it helpful to re-read sections to solidify your understanding. Technical terms have been linked to their corresponding page on Wikipedia, and you are encouraged to pause and read about terms that you find challenging. After having learned some of the key principles of LOD, the best way to improve and solidify that knowledge is to practise. This tutorial provides opportunities to do so. By the end of the course you should understand the basics of LOD, including key terms and concepts.
 
-If you need to learn how to explore LOD using the query language [SPARQL](https://en.wikipedia.org/wiki/SPARQL), I recommend Matthew Lincoln's ['Using SPARQL to access Linked Open Data](/lessons/graph-databases-and-SPARQL), which follows on practically from the conceptual overview offered in this lesson.
+If you need to learn how to explore LOD using the query language [SPARQL](https://en.wikipedia.org/wiki/SPARQL), I recommend Matthew Lincoln's ['Using SPARQL to access Linked Open Data'](/lessons/graph-databases-and-SPARQL), which follows on practically from the conceptual overview offered in this lesson.
 
 In order to provide readers with a solid grounding in the basic principles of LOD, this tutorial will not be able to offer a comprehensive coverage of all LOD concepts. The following two LOD concepts will *not* be the focus of this lesson: 
 
@@ -60,7 +60,7 @@ Let's start with an example of data about a person, using a common [attribute-va
 
     person=number
 
-In this case, the 'attribute' is a person. And the value - or who that person is - is represented by a number. The number could be randomly assigned, or you could use a number that was already associated with that individual. The latter approach has big advantages: if everybody who creates a dataset that mentions that person uses the *exactly the same number* and in *exactly the same format*, then we can reliably find that individual in any dataset adhering to those rules. Let's create an example using Jack Straw: both the name of a fourteenth-century English rebel and a UK cabinet minister prominent in Tony Blair's administration. It is clearly useful to be able to differentiate the two people who share a common name.
+In this case, the 'attribute' is a person. And the value - or who that person is - is represented by a number. The number could be randomly assigned, or you could use a number that was already associated with that individual. The latter approach has big advantages: if everybody who creates a dataset that mentions that person uses *exactly the same number* and in *exactly the same format*, then we can reliably find that individual in any dataset adhering to those rules. Let's create an example using Jack Straw: both the name of a fourteenth-century English rebel and a UK cabinet minister prominent in Tony Blair's administration. It is clearly useful to be able to differentiate the two people who share a common name.
 
 Using the model above in which each person is represented by a unique number, let's make the UK minister Jack Straw, number `64183282`. His attribute-value pair would then look like this:
 
@@ -128,7 +128,7 @@ The problem is that around the world there are many databases that contain peopl
 
 Just as the unique number disambiguated our two Jack Straws, the full URI above helps us disambiguate between all of the different authority files out there. In this case, it's clear that we are using VIAF as our authority file. You have already seen this form of disambuguation many times on the web. There are many websites round the world with pages called `/home` or `/faq`. But there is no confusion because the [domain](https://en.wikipedia.org/wiki/Domain_name) (the first part of the [Uniform Resource Locator](https://en.wikipedia.org/wiki/Uniform_Resource_Locator) (URL) - eg. `bbc.co.uk`) is unique and thus all pages that are part of that domain are unique from other `/faq` pages on other websites. In the address `http://www.bbc.co.uk/faqs` it is the `bbc.co.uk` part which makes the subsequent pages unique. This is so obvious to people who use the web all the time that they don't think about it. You probably also know that if you want to start a website called `bbc.co.uk` you can't, because that name has already been registered with the appropriate authority, which is the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System). The registration guarantees uniqueness. URIs also have to be unique.
 
-While the examples above look like URLs, it is also possible to construct a URI that looks nothing like a URL. We have many ways of uniquely identifying people and things and we rarely think or worry about it. Barcodes, passport numbers, and even your postal address are all designed to be unique. In the developing world mobile phone numbers are frequently put up as shop signs precisely because they are unique. All of these could be used as URIs.
+While the examples above look like URLs, it is also possible to construct a URI that looks nothing like a URL. We have many ways of uniquely identifying people and things and we rarely think or worry about it. Barcodes, passport numbers, and even your postal address are all designed to be unique. Mobile phone numbers are frequently put up as shop signs precisely because they are unique. All of these could be used as URIs.
 
 When we wanted to create URIs for the entities described by the '[Tobias](http://www.history.ac.uk/projects/digital/tobias)' project, we chose a URL-like structure, and chose to use our institutional webspace, setting aside `data.history.ac.uk/tobias-project/` as a place dedicated to hosting these URIs. By putting it at `data.history.ac.uk` rather than `history.ac.uk`, there was a clear separation between URIs and the pages of the website. For example, one of the URIs from the Tobias project was http://data.history.ac.uk/tobias-project/person/15601. While the format of the abovementioned URIs is the same as a URL, they do not link to web pages (try pasting it of them into a web browser). Many people new to LOD find this confusing. All URLs are URIs but not all URIs are URLs. A URI can describe anything at all, whereas URL describes the location of something on the web. So a URL tells you the location of a web page or a file or something similar. A URI just does the job of identifying something. Just as the International Standard Book Number, or [ISBN](http://www.iso.org/iso/catalogue_detail?csnumber=36563) `978-0-1-873354-6` uniquely identifies a hardback edition of _Baptism, Brotherhood and Belief in Reformation Germany_ by Kat Hill, but doesn't tell you where to get a copy. For that you would need something like a library [shelfmark](https://en.wikipedia.org/wiki/Accession_number_(library_science)), which gives you an exact location on a shelf of a specific library.
 
@@ -157,7 +157,7 @@ We could equally have created our triples this way:
     "Charles Rosen" wasTaughtPianoBy "Moriz Rosenthal" . 
     "Moriz Rosenthal" wasTaughtPianoBy "Franz Liszt" .
 
-We're making up examples simply for the purposes of illustration, but if you want to link your data to other datasets in the 'linked data cloud' you should look at what conventions are used in those datasets and do the same. Actually this is one of the most useful features of LOD because much of the work has been done for you. People have spent a lot of time developing ways of modelling information within a particular area of study and thinking about how relationships within that area can be represented. These models are generally known as ontologies. An ontology is an abstraction that allows particular knowledge about the world to be represented. Ontologies, in this sense, are quite new and they were designed to do what a hiearchical [taxonomy](https://en.wikipedia.org/wiki/Taxonomy) does (think of the classification of species in the [Linnaean system](https://en.wikipedia.org/wiki/Linnaean_taxonomy), but more flexibly.
+We're making up examples simply for the purposes of illustration, but if you want to link your data to other datasets in the 'linked data cloud' you should look at what conventions are used in those datasets and do the same. Actually this is one of the most useful features of LOD because much of the work has been done for you. People have spent a lot of time developing ways of modelling information within a particular area of study and thinking about how relationships within that area can be represented. These models are generally known as ontologies. An ontology is an abstraction that allows particular knowledge about the world to be represented. Ontologies, in this sense, are quite new and they were designed to do what a hiearchical [taxonomy](https://en.wikipedia.org/wiki/Taxonomy) does (think of the classification of species in the [Linnaean system](https://en.wikipedia.org/wiki/Linnaean_taxonomy)), but more flexibly.
 
 An ontology is more flexible because it is non-hierarchical. It aims to represent the fluidity of the real world, where things can be related to each other in more complex ways than are represented by a hierarchical tree-like structure. Instead, an ontology is more like a spider's web.
 
@@ -231,7 +231,7 @@ In the above example, lccn:n82011242 represents Macbeth; dc:creator links Macbet
 
 Turtle also allows you to list triples without bothering to repeat each URI when you've only just used it. Let's add the date when scholars think Macbeth was written, using the Dublin Core attribute-value pair: `dc:created 'YYYY'`:
 
-    @prefix lccn: 
+    @prefix lccn: <http://id.loc.gov/authorities/names>
     @prefix dc: <http://purl.org/dc/elements/1.1/>
     @prefix viaf: <http://viaf.org/viaf>
 
@@ -244,9 +244,9 @@ Remember the structure of the triple, discussed in section 1? There we gave this
 
 The key thing is that the predicate connects the subject and the object. It describes the relationship between them. The subject comes first in the triple, but that's a matter of choice, as we discussed with the example of people who were taught the piano by Liszt.
 
-You can use a comma if the subject is the same but the predicate and object are different, or a semicolon if the subject and predicate are the same and only the object is different.
+You can use a semicolon if the subject is the same but the predicate and object are different, or a comma if the subject and predicate are the same and only the object is different.
 
-    no2010025398 dc:creator viaf:96994048 ;
+    no2010025398 dc:creator viaf:96994048 ,
                     viaf:12323361 .
 
 
@@ -279,7 +279,7 @@ In RDF/XML, with the prefixes declared inside the XML snippet, this is:
 
 The RDF/XML format has the same basic information as Turtle, but is written very differently, drawing on the principles of nested XML tags.
 
-Let's move on to a different example to show how RDF/XML combines triples and, at the same time, introduce [Simple Knowledge Organization System](https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System) (SKOS), which is designed for encoding  thesauri or a taxonomies.
+Let's move on to a different example to show how RDF/XML combines triples and, at the same time, introduce [Simple Knowledge Organization System](https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System) (SKOS), which is designed for encoding thesauri or taxonomies.
 
      <skosConcept rdf:about="http://www.ihr-tobias.org/concepts/21250/Abdication">
         <skos:prefLabel>Abdication</skos:prefLabel>
@@ -401,7 +401,7 @@ However, despite its inconsistencies, *DBpedia* is a great place to learn SPARQL
 * [Linked Data guides and tutorials](http://linkeddata.org/guides-and-tutorials)
 * Dominic Oldman, Martin Doerr and Stefan Gradmann, 'Zen and the Art of Linked Data: New Strategies for a Semantic Web of Humanist * Knowledge', in *A New Companion to Digital Humanities*, edited by Susan Schreibman et al.
 * Max Schmachtenberg, Christian Bizer and Heiko Paulheim, [State of the LOD Cloud 2017](http://linkeddatacatalog.dws.informatik.uni-mannheim.de/state/)
-* (David Wood, Marsha Zaidman and Luke Ruth, *Linked Data: Structured data on the Web*, Manning, 2014
+* David Wood, Marsha Zaidman and Luke Ruth, *Linked Data: Structured data on the Web*, Manning, 2014
 
 ## Acknowlegements
 
