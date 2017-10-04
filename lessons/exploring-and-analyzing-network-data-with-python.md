@@ -417,7 +417,7 @@ After getting some basic measures of the entire network structure, a good next s
 Calculating centrality for each node in NetworkX is not quite as simple as the network-wide metrics above, but it still involves one-line commands. All of the centrality commands you'll learn in this section produce dictionaries in which the keys are nodes and the values are centrality measures. That means they're ready-made to add back into your network as a node attribute, like you did in the last section. Start by calculating degree and adding it as an attribute to your network.
 
 ```python
-degree_dict = G.degree(G.nodes())
+degree_dict = dict(G.degree(G.nodes()))
 nx.set_node_attributes(G, degree_dict, 'degree')
 ```
 
