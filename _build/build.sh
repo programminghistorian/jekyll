@@ -9,7 +9,7 @@ bundle exec jekyll build && bundle exec htmlproofer ./_site \
   --file-ignore '/.+/assets/.*/','/.+/lessons/deprecated/.*/' \
   --timeframe '30d' \
   --only-4xx \
-  --http-status-ignore 429 \
+  --http-status-ignore 429,403 \
   --url-ignore '/http://www.gutenberg.org/*/','/https://github.com/programminghistorian/jekyll/(commits|blob)/*/','/\#/',"/espanol/","/deprecated/",'/collection.britishmuseum.org/','/analytics.hathitrust.org/'
 
 # The folllowing comments docuemnt what each line of that build script does.
