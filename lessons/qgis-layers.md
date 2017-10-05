@@ -62,11 +62,11 @@ Operating System. Follow the instructions below.
 
 -   For most people it will be best to choose Master release (the one
     that has a single installer package). You will still need to install
-    other software packages before installing QGIS. Under 4.2, click on
+    other software packages before installing QGIS. Under "Download for Mac OS X", click on
     the link ([KyngChaos Qgis download page][]) and download the
-    following two files (see screen shot below): 1) GDAL complete 1.10
-    framework package (under Requirements) and 2) QGIS 2.0.1 (under
-    Download) for your respective Mac OS (this works with versions from Lion onwards). Install these like any other Mac programs.
+    file (see screen shot below): 1) QGIS 2.18.13-1 (under
+    Download) for your respective Mac OS (this works with versions from Lion onwards). Then go to the left "software menu" and click on    "[Download Archive][]". Under "GDAL Complete" download the file 2) GDAL complete 1.11
+    framework package (under Requirements). Install the framework package like any other Mac programs.
 
 {% include figure.html filename="qgis1.png" caption="Figure 1: Click to view full-size image" %}
 
@@ -460,6 +460,7 @@ save your work!**
 
   [QGIS Download page]: http://qgis.org/en/site/forusers/download.html
   [KyngChaos Qgis download page]: http://www.kyngchaos.com/software/qgis
+  [Download Archive]: http://www.kyngchaos.com/software/archive
   [PEI Highways]: /assets/PEI_highway.zip
   [PEI Places]: /assets/PEI_placenames.zip
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system

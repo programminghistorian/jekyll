@@ -29,7 +29,7 @@ abstract: "This lesson introduces network metrics and how to draw conclusions fr
 ## Lesson Goals
 
 In this tutorial, you will learn:
-- To use the [**NetworkX**](https://networkx.readthedocs.io/en/stable/) package for working with network data in [**Python**](http://programminghistorian.org/lessons/introduction-and-installation); and
+- To use the [**NetworkX**](https://networkx.github.io/documentation/stable/index.html) package for working with network data in [**Python**](http://programminghistorian.org/lessons/introduction-and-installation); and
 - To analyze humanities network data to find:
     - Network structure and path lengths,
     - Important or central nodes, and
@@ -109,6 +109,8 @@ You'll also need to install a **modularity** package to run **community detectio
 pip3 install python-louvain==0.5
 ```
 
+Recently, NetworkX updated to version 2.0. If you're running into any problems with the code below and have worked with NetworkX before, you might try updating both the above packages with `pip3 install networkx --upgrade` and `pip3 install python-louvain --upgrade`.
+
 And that's it! You're ready to start coding.
 
 # Getting Started
@@ -171,7 +173,7 @@ G.add_nodes_from(node_names)
 G.add_edges_from(edges)
 ```
 
-This is one of several ways to add data to a network object. You can check out the [NetworkX documentation](https://networkx.readthedocs.io/en/stable/tutorial/tutorial.html#adding-attributes-to-graphs-nodes-and-edges) for information about adding weighted edges, or adding nodes and edges one-at-a-time.
+This is one of several ways to add data to a network object. You can check out the [NetworkX documentation](https://networkx.github.io/documentation/stable/tutorial.html#adding-attributes-to-graphs-nodes-and-edges) for information about adding weighted edges, or adding nodes and edges one-at-a-time.
 
 Finally, you can get basic information about your newly-created network using the `info` function:
 
@@ -249,14 +251,14 @@ for node in nodes: # Loop through the list, one row at a time
     id_dict[node[0]] = node[5]
 ```
 
-Now you have a set of dictionaries that you can use to add attributes to nodes in your Graph object. The `set_node_attributes` function takes three variables: the Graph to which you're adding the attribute, the name of the new attribute, and the dictionary of id-attribute pairs. The code for adding your six attributes looks like this:
+Now you have a set of dictionaries that you can use to add attributes to nodes in your Graph object. The `set_node_attributes` function takes three variables: the Graph to which you're adding the attribute, the dictionary of id-attribute pairs, and the name of the new attribute. The code for adding your six attributes looks like this:
 
 ```python
-nx.set_node_attributes(G, 'historical_significance', hist_sig_dict)
-nx.set_node_attributes(G, 'gender', gender_dict)
-nx.set_node_attributes(G, 'birth_year', birth_dict)
-nx.set_node_attributes(G, 'death_year', death_dict)
-nx.set_node_attributes(G, 'sdfb_id', id_dict)
+nx.set_node_attributes(G, hist_sig_dict, 'historical_significance')
+nx.set_node_attributes(G, gender_dict, 'gender')
+nx.set_node_attributes(G, birth_dict, 'birth_year')
+nx.set_node_attributes(G, death_dict, 'death_year')
+nx.set_node_attributes(G, id_dict, 'sdfb_id')
 ```
 
 Now all of your nodes have these six attributes, and you can access them at any time. For example, you can print out all the birth years of your nodes by looping through them and accessing the `birth_year` attribute, like this:
@@ -299,11 +301,11 @@ for node in nodes: # Loop through the list of nodes, one row at a time
     id_dict[node[0]] = node[5]
 
 # Add each dictionary as a node attribute to the Graph object
-nx.set_node_attributes(G, 'historical_significance', hist_sig_dict)
-nx.set_node_attributes(G, 'gender', gender_dict)
-nx.set_node_attributes(G, 'birth_year', birth_dict)
-nx.set_node_attributes(G, 'death_year', death_dict)
-nx.set_node_attributes(G, 'sdfb_id', id_dict)
+nx.set_node_attributes(G, hist_sig_dict, 'historical_significance')
+nx.set_node_attributes(G, gender_dict, 'gender')
+nx.set_node_attributes(G, birth_dict, 'birth_year')
+nx.set_node_attributes(G, death_dict, 'death_year')
+nx.set_node_attributes(G, id_dict, 'sdfb_id')
 
 # Loop through each node, to access and print all the "birth_year" attributes
 for n in G.nodes():
@@ -361,7 +363,7 @@ print("Shortest path between Fell and Whitehead:", fell_whitehead_path)
 
 Depending on the size of your network, this could take a little while to calculate, since Python first finds all possible paths and then picks the shortest one. The output of `shortest_path` will be a list of the nodes that includes the "source" (Fell), the "target" (Whitehead), and the nodes between them. In this case, we can see that Quaker Founder George Fox is on the shortest path between them. Since Fox is also a **hub** (see degree centrality, below) with many connections, we might suppose that several shortest paths run through him as a mediator. What might this say about the importance of the Quaker founders to their social network?
 
-Python includes many tools that calculate shortest paths. There are functions for the lengths of shortest paths, for all shortest paths, and for whether or not a path exists at all in the [documentation](http://networkx.readthedocs.io/en/stable/reference/algorithms.shortest_paths.html). You could use a separate function to find out the length of the Fell-Whitehead path we just calculated, or you could simply take the length of the list minus one,[^path] like this:
+Python includes many tools that calculate shortest paths. There are functions for the lengths of shortest paths, for all shortest paths, and for whether or not a path exists at all in the [documentation](https://networkx.github.io/documentation/stable/reference/algorithms/shortest_paths.html). You could use a separate function to find out the length of the Fell-Whitehead path we just calculated, or you could simply take the length of the list minus one,[^path] like this:
 
 ```python
 print("Length of that path:", len(fell_whitehead_path)-1)
@@ -417,8 +419,8 @@ After getting some basic measures of the entire network structure, a good next s
 Calculating centrality for each node in NetworkX is not quite as simple as the network-wide metrics above, but it still involves one-line commands. All of the centrality commands you'll learn in this section produce dictionaries in which the keys are nodes and the values are centrality measures. That means they're ready-made to add back into your network as a node attribute, like you did in the last section. Start by calculating degree and adding it as an attribute to your network.
 
 ```python
-degree_dict = G.degree(G.nodes())
-nx.set_node_attributes(G, 'degree', degree_dict)
+degree_dict = dict(G.degree(G.nodes()))
+nx.set_node_attributes(G, degree_dict, 'degree')
 ```
 
 You just ran the `G.degree()` method on the full list of nodes in your network (`G.nodes()`). Since you added it as an attribute, you can now see William Penn's degree along with his other information if you access his node directly:
@@ -443,9 +445,9 @@ for d in sorted_degree[:20]:
 
 As you can see, Penn's degree is 18, relatively high for this network. But printing out this ranking information illustrates the limitations of degree as a centrality measure. You probably didn't need NetworkX to tell you that William Penn, Quaker leader and founder of Pennsylvania, was important. Most social networks will have just a few hubs of very high degree, with the rest of similar, much lower degree.[^power] Degree can tell you about the biggest hubs, but it can't tell you that much about the rest of the nodes. And in many cases, those hubs it's telling you about (like Penn or Quakerism co-founder Margaret Fell, with a degree of 13) are not especially surprising. In this case almost all of the hubs are founders of the religion or otherwise important political figures.
 
-Thankfully there are other centrality measures that can tell you about more than just hubs. [Eigenvector centrality](http://networkx.readthedocs.io/en/stable/reference/generated/networkx.algorithms.centrality.eigenvector_centrality.html) is a kind of extension of degree---it looks at a combination of a node's edges and the edges of that node's neighbors. Eigenvector centrality cares if you are a hub, but it also cares how many hubs you are connected to. It's calculated as a value from 0 to 1: the closer to one, the greater the centrality. Eigenvector centrality is useful for understanding which nodes can get information to many other nodes quickly. If you know a lot of well-connected people, you could spread a message very efficiently. If you've used Google, then you're already somewhat familiar with Eigenvector centrality. Their PageRank algorithm uses an extension of this formula to decide which webpages get to the top of its search results.
+Thankfully there are other centrality measures that can tell you about more than just hubs. [Eigenvector centrality](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.eigenvector_centrality.html) is a kind of extension of degree---it looks at a combination of a node's edges and the edges of that node's neighbors. Eigenvector centrality cares if you are a hub, but it also cares how many hubs you are connected to. It's calculated as a value from 0 to 1: the closer to one, the greater the centrality. Eigenvector centrality is useful for understanding which nodes can get information to many other nodes quickly. If you know a lot of well-connected people, you could spread a message very efficiently. If you've used Google, then you're already somewhat familiar with Eigenvector centrality. Their PageRank algorithm uses an extension of this formula to decide which webpages get to the top of its search results.
 
-[Betweenness centrality](http://networkx.readthedocs.io/en/stable/reference/generated/networkx.algorithms.centrality.betweenness_centrality.html#networkx.algorithms.centrality.betweenness_centrality) is a bit different from the other two measures in that it doesn't care about the number of edges any one node or set of nodes has. Betweenness centrality looks at all the **shortest paths** that pass through a particular node (see above). To do this, it must first calculate every possible shortest path in your network, so keep in mind that betweenness centrality will take longer to calculate than other centrality measures (but it won't be an issue in a dataset of this size). Betweenness centrality, which is also expressed on a scale of 0 to 1, is fairly good at finding nodes that connect two otherwise disparate parts of a network. If you're the only thing connecting two clusters, every communication between those clusters has to pass through you. In contrast to a hub, this sort of node is often referred to as a **broker**. Betweenness centrality is not the only way of finding brokerage (and other methods are more systematic), but it's a quick way of giving you a sense of which nodes are important not because they have lots of connections themselves but because they stand *between* groups, giving the network connectivity and cohesion.
+[Betweenness centrality](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.betweenness_centrality.html) is a bit different from the other two measures in that it doesn't care about the number of edges any one node or set of nodes has. Betweenness centrality looks at all the **shortest paths** that pass through a particular node (see above). To do this, it must first calculate every possible shortest path in your network, so keep in mind that betweenness centrality will take longer to calculate than other centrality measures (but it won't be an issue in a dataset of this size). Betweenness centrality, which is also expressed on a scale of 0 to 1, is fairly good at finding nodes that connect two otherwise disparate parts of a network. If you're the only thing connecting two clusters, every communication between those clusters has to pass through you. In contrast to a hub, this sort of node is often referred to as a **broker**. Betweenness centrality is not the only way of finding brokerage (and other methods are more systematic), but it's a quick way of giving you a sense of which nodes are important not because they have lots of connections themselves but because they stand *between* groups, giving the network connectivity and cohesion.
 
 These two centrality measures are even simpler to run than degree---they don't need to be fed a list of nodes, just the graph `G`. You can run them with these functions:
 
@@ -454,8 +456,8 @@ betweenness_dict = nx.betweenness_centrality(G) # Run betweenness centrality
 eigenvector_dict = nx.eigenvector_centrality(G) # Run eigenvector centrality
 
 # Assign each to an attribute in your network
-nx.set_node_attributes(G, 'betweenness', betweenness_dict)
-nx.set_node_attributes(G, 'eigenvector', eigenvector_dict)
+nx.set_node_attributes(G, betweenness_dict, 'betweenness')
+nx.set_node_attributes(G, eigenvector_dict, 'eigenvector')
 ```
 
 You can sort betweenness (or eigenvector) centrality by changing the variable names in the sorting code above, as:
@@ -490,7 +492,7 @@ Another common thing to ask about a network dataset is what the subgroups or com
 
 Very dense networks are often more difficult to split into sensible partitions. Luckily, as you discovered earlier, this network is not all that dense. There aren't nearly as many actual connections as possible connections, and there are several altogether disconnected components. Its worthwhile partitioning this sparse network with modularity and seeing if the result make historical and analytical sense.
 
-Community detection and partitioning in NetworkX requires a little more setup than some of the other metrics. There are some built-in approaches to community detection (like [minimum cut](http://networkx.readthedocs.io/en/stable/reference/generated/networkx.algorithms.flow.minimum_cut.html#networkx.algorithms.flow.minimum_cut)), but modularity is not included with NetworkX. Fortunately there's an [additional python module](https://github.com/taynaud/python-louvain/) you can use with NetworkX, which you already installed and imported at the beginning of this tutorial. You can read the [full documentation](http://perso.crans.org/aynaud/communities/api.html) for all of the functions it offers, but for most community detection purposes you'll only want `best_partition()`:
+Community detection and partitioning in NetworkX requires a little more setup than some of the other metrics. There are some built-in approaches to community detection (like [minimum cut](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.flow.minimum_cut.html), but modularity is not included with NetworkX. Fortunately there's an [additional python module](https://github.com/taynaud/python-louvain/) you can use with NetworkX, which you already installed and imported at the beginning of this tutorial. You can read the [full documentation](http://perso.crans.org/aynaud/communities/api.html) for all of the functions it offers, but for most community detection purposes you'll only want `best_partition()`:
 
 ```python
 communities = community.best_partition(G)
@@ -499,7 +501,7 @@ communities = community.best_partition(G)
 The above code will create a dictionary just like the ones created by centrality functions. `best_partition()` tries to determine the number of communities appropriate for the graph, and assigns each node a number (starting at 0), corresponding to the community it's a member of. You can add these values to your network in the now-familiar way:
 
 ```python
-nx.set_node_attributes(G, 'modularity', communities)
+nx.set_node_attributes(G, communities, 'modularity')
 ```
 
 And as always, you can combine these measures with others. For example, here's how you find the highest eigenvector centrality nodes in modularity class 0 (the first one):
@@ -544,7 +546,7 @@ Working with NetworkX alone will get you far, and you can find out a lot about m
 
 # Exporting Data
 
-NetworkX supports a very large number of file formats for [data export](http://networkx.readthedocs.io/en/stable/reference/readwrite.html). If you wanted to export a plaintext edgelist to load into Palladio, there's a [convenient wrapper](http://networkx.readthedocs.io/en/stable/reference/generated/networkx.readwrite.edgelist.write_edgelist.html#networkx.readwrite.edgelist.write_edgelist) for that. Frequently at *Six Degrees of Francis Bacon*, we export NetworkX data in [D3's specialized JSON format](http://networkx.readthedocs.io/en/stable/reference/generated/networkx.readwrite.json_graph.node_link_data.html), for visualization in the browser. You could even [export](http://networkx.readthedocs.io/en/stable/reference/generated/networkx.convert_matrix.to_pandas_dataframe.html) your graph as a [Pandas dataframe](http://pandas.pydata.org/) if there were more advanced statistical operations you wanted to run. There are lots of options, and if you've been diligently adding all your metrics back into your Graph object as attributes, all your data will be exported in one fell swoop.
+NetworkX supports a very large number of file formats for [data export](https://networkx.github.io/documentation/stable/reference/readwrite/index.html). If you wanted to export a plaintext edgelist to load into Palladio, there's a [convenient wrapper](https://networkx.github.io/documentation/stable/reference/readwrite/generated/networkx.readwrite.edgelist.write_edgelist.html) for that. Frequently at *Six Degrees of Francis Bacon*, we export NetworkX data in [D3's specialized JSON format](https://networkx.github.io/documentation/stable/reference/readwrite/generated/networkx.readwrite.json_graph.node_link_data.html), for visualization in the browser. You could even [export](https://networkx.github.io/documentation/stable/reference/generated/networkx.convert_matrix.to_pandas_adjacency.html) your graph as a [Pandas dataframe](http://pandas.pydata.org/) if there were more advanced statistical operations you wanted to run. There are lots of options, and if you've been diligently adding all your metrics back into your Graph object as attributes, all your data will be exported in one fell swoop.
 
 Most of the export options work in roughly the same way, so for this tutorial you'll learn how to export your data into Gephi's GEXF format. Once you've exported the file, you can upload it [directly into Gephi](https://gephi.org/users/supported-graph-formats/) for visualization.
 
@@ -590,4 +592,4 @@ Each of these findings is an invitation to more research rather than an endpoint
 
 [^averagedegree]: Average degree is the average number of connections of each node in your network. See more on degree in the centrality section of this tutorial.
 
-[^random]: The most principled way of doing this kind of comparison is to create *random graphs* of identical size to see if the metrics differ from the norm. NetworkX offers plenty of tools for [generating random graphs](http://networkx.readthedocs.io/en/stable/reference/generators.html#module-networkx.generators.random_graphs).
+[^random]: The most principled way of doing this kind of comparison is to create *random graphs* of identical size to see if the metrics differ from the norm. NetworkX offers plenty of tools for [generating random graphs](https://networkx.github.io/documentation/stable/reference/generators.html#module-networkx.generators.random_graphs).
