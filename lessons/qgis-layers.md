@@ -458,7 +458,7 @@ save your work!**
 
 *This lesson is part of the [Geospatial Historian][].*
 
-  [QGIS Download page]: http://hub.qgis.org/projects/quantum-gis/wiki/Download
+  [QGIS Download page]: http://qgis.org/en/site/forusers/download.html
   [KyngChaos Qgis download page]: http://www.kyngchaos.com/software/qgis
   [PEI Highways]: /assets/PEI_highway.zip
   [PEI Places]: /assets/PEI_placenames.zip
