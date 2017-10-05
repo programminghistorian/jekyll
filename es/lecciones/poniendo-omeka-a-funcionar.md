@@ -28,20 +28,19 @@ abstract: "Con Omeka.net es fácil crear sitios web que contengan colecciones de
 
 
 [Omeka.net](http://www.omeka.net) facilita la creación de sitios web para mostrar colecciones de ítems. 
-
 > *Nota de la traductora*: Antes de empezar es importante aclarar las diferencias entre **Omeka.net** y **Omeka.org**. Este tutorial es sobre **Omeka.net**, una plataforma de publicación en línea que permite a cualquier persona con una cuenta de acceso crear o colaborar en un sitio web para exhibir colecciones y construir exposiciones digitales. **Omeka.net** es una extensión de **Omeka.org** que está disponible para bajar e instalar en un servidor de tu propiedad. La traducción al español del tutorial de *The Programming Historian* sobre [cómo instalar Omeka](/lessons/installing-omeka) en un servidor se encuentra en proceso.
-
+al 
 Regístrate para abrir una cuenta en Omeka
 ----------------------------
 
-{% include figure.html filename="up-and-running-01.png" caption="Regístrate para una cuenta básica" %}
+{% include figure.html filename="up-and-running-01.png" caption="Regístrate para una cuenta de prueba" %}
 
-Entra a [www.omeka.net](http://www.omeka.net) y haz clic en **Sign Up**. Elige el "Basic plan" (Plan básico). Rellena el formulario de registro. Revisa tu correo electrónico y haz clic en el enlace para activar tu cuenta.
+Entra a [www.omeka.net](http://www.omeka.net) y haz clic en **Sign Up**. Elige el plan "Omeka trial" (Plan de prueba). Rellena el formulario de registro. Revisa tu correo electrónico y haz clic en el enlace para activar tu cuenta.
 
 Crea tu nuevo sitio en Omeka
 --------------------------
 
-{% include figure.html filename="up-and-running-02.png" caption="Panel de control de Omeka.net" %}
+{% include figure.html filename="up-and-running-02.png" caption="Página de la cuenta de Omeka.net" %}
 
 Tras hacer clic en el enlace en tu correo electrónico, haz clic en **Add a Site** (Añadir un sitio).
 

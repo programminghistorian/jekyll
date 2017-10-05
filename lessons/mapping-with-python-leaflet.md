@@ -93,7 +93,7 @@ pip install pandas
 ```
 Note: We are installing numpy, python-dateutil, and pytz because pandas [requires them](http://pandas.pydata.org/pandas-docs/stable/install.html#dependencies).
 
-For Windows, you may need to install Microsoft Visual C++ Compiler for Python (for 2.7, you can download it from [Microsoft](http://aka.ms/vcpython27)). Set the environmental variables to recognize python and pip from the command line:
+For Windows, you may need to install Microsoft Visual C++ Compiler for Python (for 2.7, you can download it from [Microsoft](http://www.microsoft.com/en-us/download/details.aspx?id=44266)). Set the environmental variables to recognize python and pip from the command line:
 
 ```
 setx  PATH "%PATH%;C:\Python27"
