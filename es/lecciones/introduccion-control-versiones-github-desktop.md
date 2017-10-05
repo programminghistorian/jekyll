@@ -37,7 +37,7 @@ Con esta lección aprenderás el funcionamiento básico de los sistemas de contr
 * cómo utilizar un control de versiones con la interfaz gráfica 'GitHub Desktop'
 * qué otros recursos pueden ayudarte a implementar un control de versiones para investigar.
 
-## *Software* necesario
+## Programa necesario
 
 Actualmente, GitHub Desktop está disponible solamente para Windows y Mac. Si utilizas Linux probablemente estarás familiarizado con la línea de comandos y serás capaz de utilizar la versión de línea de comandos de Git. 
 
