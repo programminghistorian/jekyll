@@ -4,8 +4,9 @@ authors:
 - Mila Oiva
 date: 2015-06-01
 layout: lesson
-deprecated: true
+retired: true
 redirect_from: /lessons/ocr-with-tesseract-and-scantailor
+redirect_from: /lessons/deprecated/ocr-with-tesseract-and-scantailor
 ---
 
 #Introduction to OCR 
