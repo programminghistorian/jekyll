@@ -113,7 +113,11 @@ layout: base
     <div class="container expanded">
       <div class="row">
       <div class="col-md-4 metarow"><h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      {% if page.retired %}
+      <div class="col-md-4 metarow"><h4>{{site.data.snippets.retired-date[page.lang]}}</h4> <span id="retired-date">{{ page.retired_date | date:"%Y-%m-%d" }}</span></div>
+      {% else %}
       <div class="col-md-4 metarow"><h4>{{site.data.snippets.modified[page.lang]}}</h4> <span id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span></div>
+      {% endif %}
       <div class="col-md-4 metarow"><h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}</div>
     </div>
     </div>
