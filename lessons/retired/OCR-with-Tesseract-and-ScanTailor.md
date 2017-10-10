@@ -3,6 +3,7 @@ title: OCR with Tesseract and ScanTailor
 authors:
 - Mila Oiva
 date: 2015-06-01
+retired_date: 2017-05-10
 layout: lesson
 retired: true
 redirect_from: /lessons/ocr-with-tesseract-and-scantailor

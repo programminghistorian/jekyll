@@ -2,6 +2,7 @@
 title: Counting Frequencies from Zotero Items
 layout: lesson
 date: 2013-04-01
+retired_date: 2017-07-05
 authors:
 - Spencer Roberts
 editors:

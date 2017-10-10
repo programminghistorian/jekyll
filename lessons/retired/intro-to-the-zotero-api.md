@@ -2,6 +2,7 @@
 title: Intro to the Zotero API
 layout: lesson
 date: 2013-04-01
+retired_date: 2017-07-05
 authors:
 - Amanda Morton
 editors:
