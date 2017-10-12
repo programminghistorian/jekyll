@@ -54,7 +54,9 @@ Upon successful submission of the lesson, the editor will create a review ticket
 ### Open Peer Review
 The *Programming Historian* uses a model of open peer review, while we believe this helps maintain civility and the productive sharing of ideas, authors have the right (and we have a requirement to respect that right) to request a closed peer review. There are many reasons why someone might be hesitant to engage in an open review and we encourage authors to always pursue the option with which they are most comfortable.
 
-Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). Often editors need help clarifying the intended audience of a lesson, or identifying jargon that needs further explanation. This initial review helps let the external reviewers focus on improving the piece. This is normally done openly on our submission system (see below), but it can be a closed review at the request of either party.
+Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). The editor should complete an initial sustainability overview of the submission to ensure that software versions and dependencies are clearly marked, specificities of software like screenshots are limited to those required to complete the lesson, and that the lesson makes use of existing software documentation whenever available and appropriate. Editors should also ensure that lessons try, as much as possible, to avoid software specific directions, such as "Right-click on the _x_ icon to access the _x_ menu," instead favoring general methodological overviews. The Editorial Checklist contains more details about sustainability practices for PH. 
+
+Often editors need help clarifying the intended audience of a lesson, or identifying jargon that needs further explanation. This initial review helps let the external reviewers focus on improving the piece. This is normally done openly on our submission system (see below), but it can be a closed review at the request of either party.
 
 Once an author has revised the tutorial to the satisfaction of the editor, it is the editor's job to invite two formal external peer reviews. It is entirely up to the editor who these reviewers are, however in the interest of our [commitment to diversity](https://github.com/programminghistorian/jekyll/issues), we encourage editors to ask themselves if they have made a sufficient effort to draw from reviewers who are distinct from themselves either by gender, nationality, race, age, or academic background. Please try not to find two people who are very like you. 
 
@@ -141,7 +143,18 @@ You can quickly check that everything looks correct on a lesson submission by lo
 
 If that doesn't work, let Matthew Lincoln know, and he will try to diagnose it.
 
-### C) Verify Images
+### C) Sustainability Review
+To increase the lifespan of our articles, _Programming Historian_ editors should complete a sustainability review as a part of their final checklist. Every submission is different and some of these areas may not be applicable to all submissions. Keeping in mind the difficulty level of each lesson and its intended audience, editors should use these areas as guidelines to ensure that lessons are as sustainable as possible from the date of publication.
+
+- All software versions and dependencies are described in the introduction to the lesson
+- Sources of data for lessons are clearly noted and should be hosted at PH whenever possible
+- Lessons make use of existing software documentation whenever possible
+- Lessons link to Wikipedia for technical terminology
+- Screenshots of software GUIs are limited to those that are required to understand the lesson
+- External links (e.g. software or data sources) are current and live though authors should consider directing users to documentation generally rather than providing links to specific documentation pages
+- Links to articles use DOIs if available
+
+### D) Verify Images
 
 All images should use consistent, semantically meaningful filenames that clearly indicate what they are. If a lesson has a large number of images in rapid succession, and the order is important (for example, a series of screenshots), it may be advisable to use a sequential naming system---ideally using the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, `counting-frequencies-1.png`, `counting-frequencies-2.png`, and so on.)
 
@@ -151,13 +164,13 @@ Regardless of how the images are named (semantically or sequentially), they shou
 
 Full instructions on adding images is available in [Author Submission Instructions](/author-guidelines).
 
-### D) Verify Data files
+### E) Verify Data files
 
 Similarly to Images, all data files should be stored on the site (not linked externally - for sustainability purposes). All data should be stored in the 'assets' directory, using the same rules as above, but authors should feel free to use a description for their data file that reflects what it is:
 
  - `/assets/LESSON-SLUG/Louvre-Paintings-1.csv`
 
-### E) Verify videos/gifs
+### F) Verify videos/gifs
 
 Videos and gifs are strongly discouraged because they create a range of problems. For example, it is difficult and time consuming to ask for changes to a video during the peer review process, and impossible for an editor to make minor updates to it in years to come as it becomes outdated. Videos also require the administration of a separate channel at YouTube. Videos also cannot be printed, and many of our readers use PDF copies or [printed copies of the *Programming Historian*](https://zenodo.org/record/49873#.V0lazGaGa7o). As such they should ONLY be used when absolutely necessary.
 
