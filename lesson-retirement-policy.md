@@ -30,6 +30,14 @@ Whether or not a new derivative is created, the following steps will be taken wi
 3. The following announcement will be added to the top of the retired lesson: 
     <div class="alert alert-warning">{{ site.data.snippets.retired[page.lang] | markdownify }}
 
+## Related Sustainability Guidelines
+
+[Author Guidelines for Writing Sustainably](/author-guidelines#write-sustainably)
+
+[Reviewer Guidelines for Assessing Lesson Sustainability](/reviewer-guidelines#sustainability)
+
+[Editor Guidelines for Fostering Lesson Sustainability](/editor-guidelines#c-sustainability-review)
+
 ## Retired Lessons
 
 {% assign retired = site.pages | where: "retired", "true" %}
