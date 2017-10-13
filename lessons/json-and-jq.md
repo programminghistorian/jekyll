@@ -197,7 +197,7 @@ Try it:
 ```
 
 Notice that the `[]` wrapping our results are now gone.
-To make clear what has happened, check the "Compact Output" checkbox in the upper left.
+To make clear what has happened, check the "Compact Output" checkbox in the upper right.
 This removes the cosmetic line breaks in the results, returning one JSON object per line.
 You should have a 10-line output now.
 
@@ -381,7 +381,7 @@ The results:
 
 Note that, to access the url nested in the `webImage` object, we chained together `.webImage.url`.
 
-To format this as CSV, add the operator `@csv` on the end with another pipe and check the "Raw Output" box in the upper left.
+To format this as CSV, add the operator `@csv` on the end with another pipe and check the "Raw Output" box in the upper right.
 `@csv` properly joins the arrays with `,` and adds quotes where needed.
 "Raw Output" tells jq that we want to produce a text file, rather than a new JSON file.
 
