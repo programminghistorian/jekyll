@@ -687,7 +687,7 @@ Because we have read the input JSON lines using the "Slurp" option, we already s
 We can use `group_by(.user)` to collect these tweets into sub-arrays of one user each.
 
 ```txt
-.group_by(.user)
+group_by(.user)
 ```
 
 You should see that the results are now wrapped within an additional pair of `[]`:
