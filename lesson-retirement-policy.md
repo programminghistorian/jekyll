@@ -16,7 +16,7 @@ Often, we will decide it is not necessary to retire the lesson:
 - In cases where minor fixes are easily done, such as correcting the formatting of a lesson, or changing one or two broken URLs, we will generally do so.
 - In cases where new methods for a task have emerged that may be preferred to the methods discussed in a lesson, but the original technology for a lesson still works and is available, we will **not** retire the lesson. The lesson may still prove a useful learning tool and a snapshot into the techniques of digital history when it was published
 
-However, if it is clear that systemic changes to text, code, and/or figures are necessary, of a scale that would require complete re-testing of the entire lesson, then we will open a public issue to discuss the possibility of retiring the lesson between all the members of the editorial team.
+However, if it is clear that systemic changes to text, code, and/or figures are necessary, and that such changes are of a scale that would require complete re-testing of the entire lesson, then we will open a public issue to discuss the possibility of retiring the lesson between all the members of the editorial team.
 
 In cases where members of the editorial team, or members of the larger community, are willing and able to volunteer their expertise, we may create an updated lesson derived from the original.
 In accordance with our [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) licensing, this derivative will conspicuously attribute the creator of the original lesson, as well as the names of any contributors who aided in the production of the new lesson.
