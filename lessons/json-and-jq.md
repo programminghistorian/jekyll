@@ -437,7 +437,7 @@ There are a few ways to express this as a CSV table, but we will implement two c
 Let's create a table with one column with a tweet ID, and a second column with all the hashtags in each tweet, separated by a semicolon: `;`
 
 This is a relatively complex query that will require a multi-step filter.
-First, let's reduce the twitter JSON to just ids and the objects describing the hashtags.
+First, let's reduce the Twitter JSON to just ids and the objects describing the hashtags.
 Paste this filter into [jq play]:
 
 ```txt
@@ -615,7 +615,7 @@ There are ways to get the same results using an even shorter query, but in most 
 
 This is actually simpler to implement in jq, because we can take advantage of jq's natural behavior of repeating filters.
 
-We will start with the same set of operations that extract the tweet ID and the hashtag objects from the original twitter JSON:
+We will start with the same set of operations that extract the tweet ID and the hashtag objects from the original Twitter JSON:
 
 ```txt
 {id: .id, hashtags: .entities.hashtags} | {id: .id, hashtags: .hashtags[].text}
@@ -652,7 +652,7 @@ However, in cases where we are aggregating information about the individual obje
 This is where we want to use "Slurp" (or the `-s` flag on command-line jq).
 "Slurp" tells jq to read every line of the input JSON lines and treat the entire group as one huge array of objects.
 
-With the twitter data still in the input box on [jq play], check the "Slurp" box, and just put `.` in the filter.
+With the Twitter data still in the input box on [jq play], check the "Slurp" box, and just put `.` in the filter.
 Note that it's wrapped the objects in `[]`.
 Now we can build even more complex commands that require knowledge of the entire input file.
 
