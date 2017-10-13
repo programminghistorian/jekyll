@@ -16,8 +16,9 @@ previous: creating-new-items-in-zotero
 exclude_from_check:
   - reviewers
 retired: true
-redirect_from: /lessons/counting-frequencies-from-zotero-items
-redirect_from: /lessons/deprecated/counting-frequencies-from-zotero-items
+redirect_from: 
+  - /lessons/counting-frequencies-from-zotero-items
+  - /lessons/deprecated/counting-frequencies-from-zotero-items
 ---
 
 {% include toc.html %}

@@ -17,8 +17,9 @@ categories: [lessons, api]
 exclude_from_check:
   - reviewers
 retired: true
-redirect_from: /lessons/intro-to-the-zotero-api
-redirect_from: /lessons/deprecated/intro-to-the-zotero-api
+redirect_from: 
+  - /lessons/intro-to-the-zotero-api
+  - /lessons/deprecated/intro-to-the-zotero-api
 ---
 
 {% include toc.html %}
