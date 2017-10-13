@@ -144,7 +144,7 @@ You can quickly check that everything looks correct on a lesson submission by lo
 If that doesn't work, let Matthew Lincoln know, and he will try to diagnose it.
 
 ### C) Sustainability Review
-To increase the lifespan of our articles, _Programming Historian_ editors should complete a sustainability review as a part of their final checklist. Every submission is different and some of these areas may not be applicable to all submissions. Keeping in mind the difficulty level of each lesson and its intended audience, editors should use these areas as guidelines to ensure that lessons are as sustainable as possible from the date of publication.
+To increase the lifespan of our lessons, _Programming Historian_ editors should complete a sustainability review as a part of their final checklist. Every submission is different and some of these areas may not be applicable to all submissions. Keeping in mind the difficulty level of each lesson and its intended audience, editors should use these areas as guidelines to ensure that lessons are as sustainable as possible from the date of publication.
 
 - All software versions and dependencies are described in the introduction to the lesson
 - Sources of data for lessons are clearly noted and should be hosted at PH whenever possible
