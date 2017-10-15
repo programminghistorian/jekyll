@@ -132,6 +132,12 @@ difficulty:
     difficulty
   es:
     dificultad
+all-lessons:
+  en: All Lessons
+  es: 
+filtering-results:
+  en: Filtering Results
+  es:
 
 # lesson headers
 editor:
