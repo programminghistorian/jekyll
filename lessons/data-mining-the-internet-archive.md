@@ -58,6 +58,11 @@ work with the MARC format or the Internet Archive on a regular basis.
 Before You Begin
 ----------------
 
+To write scripts that interact with the Internet Archive, you will
+first need to [create an IA account](https://archive.org/account/login.createaccount.php).
+Follow the steps to confirm your account and carefully note down
+your email address and password.
+
 We will be working with two Python modules that are not included in
 Python's standard library.
 
@@ -72,6 +77,11 @@ manager. Begin by installing `pip` using Fred Gibbs' [Installing Python Modules 
 ``` bash
 sudo pip install internetarchive
 ```
+
+Now you will need to configure your computer so that the new package
+will work. Type `ia configure` at the command line, and then enter in
+the email address and password you used above to create your Internet Archive
+account.
 
 To install `pymarc`:
 
