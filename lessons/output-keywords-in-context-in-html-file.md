@@ -1,33 +1,44 @@
 ---
 title: Output Keywords in Context in an HTML File with Python
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
-- Miriam Posner
 - Jim Clifford
-layout: default
+editors:
+- Miriam Posner
+difficulty: 2
+activity: presenting
+topics: [python]
+abstract: "This lesson builds on 'Keywords in Context (Using N-grams)', where n-grams were extracted from a text. Here, you will learn how to output all of the n-grams of a given keyword in a document downloaded from the Internet, and display them clearly in your browser window."
 next: downloading-multiple-records-using-query-strings
 previous: keywords-in-context-using-n-grams
+python_warning: true
 ---
 
-Lesson Goals
-------------
+{% include toc.html %}
+
+
+
+
+
+## Lesson Goals
 
 This lesson builds on [Keywords in Context (Using N-grams)][], where
 n-grams were extracted from a text. Here, you will learn how to output
 all of the n-grams of a given keyword in a document downloaded from the
 Internet, and display them clearly in your browser window.
 
-### Files Needed For This Lesson
+## Files Needed For This Lesson
 
 -   `obo.py`
 
 If you do not have these files from the previous lesson, you can
 download a [zip file from the previous lesson][]
 
-### Making an N-Gram Dictionary
+## Making an N-Gram Dictionary
 
 Our n-grams have an odd number of words in them for a reason. At this
 point, our n-grams don"t actually have a keyword; they're just a list of
@@ -55,9 +66,9 @@ returns an answer to the nearest whole number, always rounding down –
 hence the term "floor".
 
 ``` python
-print (7 // 2)
-print (5 // 2)
-print (3 // 2)
+print(7 // 2)
+print(5 // 2)
+print(3 // 2)
 ```
 
 Let's build a function that can identify the index position of the
@@ -81,12 +92,14 @@ well, since we are dealing with a 5-gram, you should get 2 as the index
 position of the keyword as we determined above.
 
 ``` python
+#get-keyword.py
+
 import obo
 
 test = 'this test sentence has eight words in it'
 ngrams = obo.getNGrams(test.split(), 5)
 
-print obo.nGramsToKWICDict(ngrams)
+print(obo.nGramsToKWICDict(ngrams))
 ```
 
 Now that we know the location of the keywords, let's add everything to a
@@ -121,8 +134,7 @@ more useful format as we did in [Output Data as HTML File][].
 Try rerunning the `get-keyword.py` program and you should now see what's
 in your KWIC dictionary.
 
-Outputting to HTML
-------------------
+## Outputting to HTML
 
 ### Pretty Printing a KWIC
 
@@ -160,14 +172,14 @@ import obo
 
 # create dictionary of n-grams
 n = 7
-url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 text = obo.webPageToText(url)
 fullwordlist = obo.stripNonAlphaNum(text)
 ngrams = obo.getNGrams(fullwordlist, n)
 worddict = obo.nGramsToKWICDict(ngrams)
 
-print worddict["black"]
+print(worddict["black"])
 ```
 
 As you can see when you run the above program, the output is not very
@@ -186,24 +198,24 @@ historian.
 # calculate the length of the n-gram
 kwic = 'amongst them a black there was one'.split()
 n = len(kwic)
-print n
+print(n)
 -> 7
 
 # calculate the index position of the keyword
 keyindex = n // 2
-print keyindex
+print(keyindex)
 -> 3
 
 # display the items before the keyword
-print kwic[:keyindex]
+print(kwic[:keyindex])
 -> ['amongst', 'them', 'a']
 
 # display the keyword only
-print kwic[keyindex]
+print(kwic[keyindex])
 -> black
 
 # display the items after the keyword
-print kwic[(keyindex+1):]
+print(kwic[(keyindex+1):])
 -> ['there', 'was', 'one']
 ```
 
@@ -215,7 +227,7 @@ separated by blank spaces. We’ll use the `join` method to turn the list
 entries into a string.
 
 ``` python
-print ' '.join(kwic[(keyindex+1):])
+print(' '.join(kwic[(keyindex+1):]))
 -> there was one
 ```
 
@@ -228,7 +240,7 @@ added hash marks at the beginning and end of the expression so you can
 see the leading and trailing blanks.
 
 ``` python
-print '#' + str(kwic[keyindex]).center(len(kwic[keyindex])+6) + '#'
+print('#' + str(kwic[keyindex]).center(len(kwic[keyindex])+6) + '#')
 -> #   black   #
 ```
 
@@ -242,7 +254,7 @@ we've added hash marks so you can see the leading blanks.
 
 ``` python
 width = 10
-print '#' + ' '.join(kwic[:keyindex]).rjust(width*keyindex) + '#'
+print('#' + ' '.join(kwic[:keyindex]).rjust(width*keyindex) + '#')
 -> #                 amongst them a#
 ```
 
@@ -266,14 +278,15 @@ def prettyPrintKWIC(kwic):
     return outstring
 ```
 
-Putting it All Together
------------------------
+## Putting it All Together
 
 We can now create a program that, given a URL and a keyword, wraps a
 KWIC display in HTML and outputs it in Firefox. This program begins and
 ends in a similar fashion as the program that computed word frequencies.
 Type or copy the code into your text editor, save it as
-`html-to-kwic.py`, and execute it.
+`html-to-kwic.py`, and execute it. You will need to choose either
+obo.wrapStringInHTMLMac() or obo.wrapStringInHTMLWindows() as appropriate
+for your system, as done before.
 
 ``` python
 # html-to-kwic.py
@@ -282,7 +295,7 @@ import obo
 
 # create dictionary of n-grams
 n = 7
-url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
+url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 text = obo.webPageToText(url)
 fullwordlist = ('# ' * (n//2)).split()
@@ -324,21 +337,19 @@ methods needed to create this final program. By referring to those
 lessons, you can now experiment with Python to create programs that
 accomplish specific tasks that will help in your research process.
 
-### Code Syncing
+## Code Syncing
 
-To follow along with future lessons it is important that you have the
-right files and programs in your "programming-historian" directory. At
-the end of each chapter you can download the "programming-historian" zip
-file to make sure you have the correct code. If you are following along
+This marks the end of this series of original lessons on python. The finished code
+for the series can be downloaded as a zip file. If you are following along
 with the Mac / Linux version you may have to open the `obo.py` file and
 change "file:///Users/username/Desktop/programming-historian/" to the
 path to the directory on your own computer.
 
--   programming-historian [Mac / Linux] ([zip][])
--   programming-historian [Windows] ([zip][1])
+-   python-lessons9.zip [zip sync][]
 
-  [Keywords in Context (Using N-grams)]: ../lessons/keywords-in-context-using-n-grams
-  [zip file from the previous lesson]: ../assets/programming-historian3.zip
+There is an additional lesson on using Python to download multiple records using Query Strings, marked as the next lesson.
+
+  [Keywords in Context (Using N-grams)]: /lessons/keywords-in-context-using-n-grams
+  [zip file from the previous lesson]: /assets/python-lessons8.zip
   [Output Data as HTML File]: /lessons/output-data-as-html-file
-  [zip]: ../assets/programming-historian-mac-linux.zip
-  [1]: ../assets/programming-historian-windows.zip
+  [zip sync]: /assets/python-lessons9.zip

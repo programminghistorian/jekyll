@@ -1,18 +1,29 @@
 ---
 title: Downloading Multiple Records Using Query Strings
+layout: lesson
+date: 2012-11-11
 authors:
 - Adam Crymble
-date: 2012-11-11
 reviewers:
-- Fred Gibbs
 - Luke Bergmann
 - Sharon Howard
-layout: default
+editors:
+- Fred Gibbs
+difficulty: 2
+activity: acquiring
+topics: [web-scraping]
+abstract: "Downloading a single record from a website is easy, but downloading many records at a time – an increasingly frequent need for a historian – is much more efficient using a programming language such as Python. In this lesson, we will write a program that will download a series of records from the Old Bailey Online using custom search criteria, and save them to a directory on our computer."
 previous: output-keywords-in-context-in-html-file
+python_warning: true
 ---
 
-Module Goals
-------------
+{% include toc.html %}
+
+
+
+
+
+## Module Goals
 
 Downloading a single record from a website is easy, but downloading many
 records at a time – an increasingly frequent need for a historian – is
@@ -24,8 +35,7 @@ and manipulating URL *Query Strings*. In this case, the tutorial will seek
 to download sources that contain references to people of African descent
 that were published in the *Old Bailey Proceedings* between 1700 and 1750.
 
-For Whom is this Useful?
-------------------------
+## For Whom is this Useful?
 
 Automating the process of downloading records from an online database
 will be useful for anyone who works with historical sources that are
@@ -46,8 +56,7 @@ keep a backup copy so you can access them without Internet access.
 
 This lesson is for intermediate Python users. If you have not already tried the [Python Programming Basics][] lessons, you may find that a useful starting point.
 
-Applying our Historical Knowledge
----------------------------------
+## Applying our Historical Knowledge
 
 In this lesson, we are trying to create our own corpus of cases related
 to people of African descent. From [Benjamin Bowsey’s case][] at the Old Bailey in 1780, we might note that “black” can be a useful keyword for us to use for locating other
@@ -65,9 +74,9 @@ target demographic. If we try these two terms in separate simple
 searches on the Old Bailey website, we get results like in these
 screenshots:
 
-{% include figure.html src="../images/SearchResultsNegro.png" caption="Search results for 'negro' in the Old Bailey Online" %}
+{% include figure.html filename="SearchResultsNegro.png" caption="Search results for 'negro' in the Old Bailey Online" %}
 
-{% include figure.html src="../images/SearchResultsMulatto.png" caption="Search results for 'mulatto' in the Old Bailey Online" %}
+{% include figure.html filename="SearchResultsMulatto.png" caption="Search results for 'mulatto' in the Old Bailey Online" %}
 
 After glancing through these search results, it seems clear that these
 are references to people, rather than horses or cloth or other things
@@ -75,8 +84,7 @@ that may be black. We want to download them all to use in our analysis.
 We could, of course, download them one at a time, manually. But let’s
 find a programmatic way to automate this task.
 
-The Advanced Search on OBO
---------------------------
+## The Advanced Search on OBO
 
 Every website’s search features work differently. While searches work
 similarly, the intricacies of database searches may not be entirely
@@ -88,9 +96,7 @@ attention. The Old Bailey Online’s [advanced search form][] lets you
 refine your searches based on ten different fields including simple
 keywords, a date range, and a crime type. As each website’s search
 feature is different it always pays to take a moment or two to play with
-and read about the search options available. In this case, read over the
-short explanation of the “Advanced” features by clicking on the “what’s
-this?” link, which will explain how to refine your search further. Since
+and read about the search options available. Since
 we have already done the simple searches for “negro” and “mulatto”, we
 know there will be results. However, let’s use the advanced search to
 limit our results to records published in the Old Bailey Proceedings
@@ -100,9 +106,9 @@ Perform the search shown in the image below. Make sure you tick the
 “Advanced” radio button and include the `*` wildcards to include
 pluralized entries or those with an extra “e” on the end.
 
-{% include figure.html src="../images/AdvancedSearchExample.png" caption="Old Bailey Advanced Search Example" %}
+{% include figure.html filename="AdvancedSearchExample.png" caption="Old Bailey Advanced Search Example" %}
 
-Execute the search and then click on the “[Calculate Total][]” link to
+Execute the search and then click on the “Calculate Total” link to
 see how many entries there are. We now have 13 results (if you have a
 different number go back and make sure you copied the example above
 exactly). What we want to do at this point is download all of these
@@ -115,14 +121,13 @@ becomes that much more valuable. To automate the download process, we
 need to step back and learn how the search URLs are created on the Old
 Bailey website, a method common to many online databases and websites.
 
-Understanding URL Queries
--------------------------
+## Understanding URL Queries
 
 Take a look at the URL produced with the last search results page. It
 should look like this:
 
 ``` xml
-http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
+https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper_trialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0 
 ```
 
 We had a look at URLs in [Viewing HTML Files][], but this looks a lot
@@ -131,32 +136,32 @@ complex. But it is easier to understand by noticing how our search
 criteria get represented in the URL.
 
 ``` xml
-http://www.oldbaileyonline.org/search.jsp
-?foo=bar
+https://www.oldbaileyonline.org/search.jsp
+?gen=1
 &form=searchHomePage
 &_divs_fulltext=mulatto*+negro*
 &kwparse=advanced
-&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount
+&_divs_div0Type_div1Type=sessionsPaper_trialAccount
 &fromYear=1700
 &fromMonth=00
 &toYear=1750
 &toMonth=99
 &start=0
-&count=0
+&count=0 
 ```
 
 In this view, we see more clearly our 12 important pieces of information
 that we need to perform our search (one per line). On the first is the
 Old Bailey’s base website URL, followed by a query: “?” (don’t worry
-about the `foo=bar` bit; the developers of the Old Bailey Online say that
+about the `gen=1` bit; the developers of the Old Bailey Online say that
 it does not do anything.) and a series of 10 *name/value pairs* put
 together with & characters. Together these 10 name/value pairs comprise
 the query string, which tells the search engine what variables to use in
 specific stages of the search. Notice that each name/value pair contains
-both a variable name: toYear, and then assigns that variable a value:
-1750. This works in exactly the same way as *Function Arguments* by
+both a variable name: toYear, and then assigns that variable a value: 1750. 
+This works in exactly the same way as *Function Arguments* by
 passing certain information to specific variables. In this case, the
-most important variable is `\_divs\_fulltext=` which has been given the
+most important variable is `_divs_fulltext=` which has been given the
 value:
 
 ```
@@ -191,8 +196,7 @@ which entry should be shown at the top of the search results list. We
 should be able to use this knowledge to create a series of URLs that
 will allow us to download all 13 files. Let’s turn to that now.
 
-Systematically Downloading Files
---------------------------------
+## Systematically Downloading Files
 
 In [Working with Webpages][] we learned that Python can download a
 webpage as long as we have the URL. In that lesson we used the URL to
@@ -236,7 +240,7 @@ page. We have already got the first one by using the form on the
 website:
 
 ``` xml
-http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
+https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper_trialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0 
 ```
 
 We could type this URL out twice and alter the ‘*start*’ variable to get
@@ -254,10 +258,10 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth):
     startValue = 0
 
     #each part of the URL. Split up to be easier to read.
-    url = 'http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext='
+    url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
     url += query
     url += '&kwparse=' + kwparse
-    url += '&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount'
+    url += '&_divs_div0Type_div1Type=sessionsPaper_trialAccount'
     url += '&fromYear=' + fromYear
     url += '&fromMonth=' + fromMonth
     url += '&toYear=' + toYear
@@ -322,7 +326,7 @@ on, we will use the word Terminal to refer to this program).
 ``` python
 entries = 13
 pageCount = entries / 10
-print pageCount
+print(pageCount)
 -> 1
 ```
 
@@ -358,7 +362,7 @@ tab so that it is all enclosed in the for loop:
 
 ``` python
 for pages in range(1, pageCount+1):
-    print pages
+    print(pages)
 ```
 
 Since this is a for loop, all of the code we want to run repeatedly
@@ -378,7 +382,7 @@ writing for loops, you can open your Terminal and play around.
 ``` python
 pageCount = 2
 for pages in range(1, pageCount+1):
-    print pages
+    print(pages)
 
 -> 1
 -> 2
@@ -446,17 +450,17 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
     for pages in range(1, pageCount +1):
 
         #each part of the URL. Split up to be easier to read.
-        url = 'http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext='
+        url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
         url += query
         url += '&kwparse=' + kwparse
-        url += '&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount'
+        url += '&_divs_div0Type_div1Type=sessionsPaper_trialAccount'
         url += '&fromYear=' + fromYear
         url += '&fromMonth=' + fromMonth
         url += '&toYear=' + toYear
         url += '&toMonth=' + toMonth
         url += '&start=' + str(startValue)
         url += '&count=0'
-
+    
         #download the page and save the result.
         response = urllib2.urlopen(url)
         webContent = response.read()
@@ -550,17 +554,17 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
     for pages in range(1, pageCount +1):
 
         #each part of the URL. Split up to be easier to read.
-        url = 'http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext='
+        url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
         url += query
         url += '&kwparse=' + kwparse
-        url += '&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount'
+        url += '&_divs_div0Type_div1Type=sessionsPaper_trialAccount'
         url += '&fromYear=' + fromYear
         url += '&fromMonth=' + fromMonth
         url += '&toYear=' + toYear
         url += '&toMonth=' + toMonth
         url += '&start=' + str(startValue)
         url += '&count=0'
-
+    
         #download the page and save the result.
         response = urllib2.urlopen(url)
         webContent = response.read()
@@ -638,10 +642,10 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
     for pages in range(1, pageCount+1):
 
         #each part of the URL. Split up to be easier to read.
-        url = 'http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext='
+        url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
         url += query
         url += '&kwparse=' + kwparse
-        url += '&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount'
+        url += '&_divs_div0Type_div1Type=sessionsPaper_trialAccount'
         url += '&fromYear=' + fromYear
         url += '&fromMonth=' + fromMonth
         url += '&toYear=' + toYear
@@ -704,7 +708,7 @@ the trials. The first entry starts with “Anne Smith” so you can use the
 Notice Anne’s name is part of a link:
 
 ``` xml
-http://www.oldbaileyonline.org/browse.jsp?id=t17160113-18&div=t17160113-18&terms=mulatto|negro#highlight 
+browse.jsp?id=t17160113-18&amp;div=t17160113-18&amp;terms=mulatto*_negro*#highlight 
 ```
 
 Perfect, the link contains the trial ID! Scroll through the remaining
@@ -728,7 +732,7 @@ def getIndivTrials(query):
     cleanQuery = re.sub(r'\W+', '', query)
     searchResults = os.listdir(cleanQuery)
 
-    print searchResults
+    print(searchResults)
 ```
 
 Create and run a new program called `extract-trial-ids.py` with the
@@ -782,7 +786,7 @@ that will download the desired trials.
                     #isolate the id
                     urls.append(words[words.find("id=") +3: words.find("&")])
 
-    print urls
+    print(urls)
 ```
 
 That last line of the for loop may look tricky, but make sure you
@@ -922,10 +926,10 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
     for pages in range(1, pageCount +1):
 
         #each part of the URL. Split up to be easier to read.
-        url = 'http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext='
+        url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
         url += query
         url += '&kwparse=' + kwparse
-        url += '&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount'
+        url += '&_divs_div0Type_div1Type=sessionsPaper_trialAccount'
         url += '&fromYear=' + fromYear
         url += '&fromMonth=' + fromMonth
         url += '&toYear=' + toYear
@@ -1005,7 +1009,7 @@ First, we need to load the `socket` library, which should be done in the
 same way as all of our previous library imports. We will also need to
 set the default socket timeout length – how long do we want to try to
 download a page before we give up. This should go immediately after the
-comment that begins with `\#download the page`
+comment that begins with `#download the page`
 
 ```
 import os, urllib2, time, socket
@@ -1088,10 +1092,10 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
     for pages in range(1, pageCount+1):
 
         #each part of the URL. Split up to be easier to read.
-        url = 'http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext='
+        url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
         url += query
         url += '&kwparse=' + kwparse
-        url += '&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount'
+        url += '&_divs_div0Type_div1Type=sessionsPaper_trialAccount'
         url += '&fromYear=' + fromYear
         url += '&fromMonth=' + fromMonth
         url += '&toYear=' + toYear
@@ -1172,8 +1176,7 @@ def newDir(newDir):
         os.makedirs(dir)
 ```
 
-Further Reading
----------------
+## Further Reading
 
 For more advanced users, or to become a more advanced user, you may find
 it worthwhile to read about achieving this same process using
@@ -1191,20 +1194,16 @@ helpful:
 
 
   [Old Bailey Online]: http://www.oldbaileyonline.org/
-  [Automated Downloading with WGET]: ../lessons/automated-downloading-with-wget
+  [Automated Downloading with WGET]: /lessons/automated-downloading-with-wget
   [Benjamin Bowsey’s case]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-  []: ../images/SearchResultsNegro.png "SearchResultsNegro"
-  [1]: ../images/SearchResultsMulatto.png "SearchResultsMulatto"
   [advanced search form]: http://www.oldbaileyonline.org/forms/formMain.jsp
-  [2]: ../images/AdvancedSearchExample.png "AdvancedSearchExample"
-  [Calculate Total]: http://www.oldbaileyonline.org/search.jsp?foo=bar&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper%7CtrialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
-  [Viewing HTML Files]: ../lessons/viewing-html-files
-  [Working with Webpages]: ../lessons/working-with-web-pages
-  [From HTML to a List of Words 2]: ../lessons/from-html-to-list-of-words-2
+  [Viewing HTML Files]: /lessons/viewing-html-files
+  [Working with Webpages]: /lessons/working-with-web-pages
+  [From HTML to a List of Words 2]: /lessons/from-html-to-list-of-words-2
   [modulo]: http://docs.python.org/release/2.5.2/ref/binary.html
   [range]: http://docs.python.org/2/tutorial/controlflow.html#the-range-function
   [regular expressions]: http://docs.python.org/2/library/re.html
-  [Counting Frequencies]: ../lessons/counting-frequencies
+  [Counting Frequencies]: /lessons/counting-frequencies
   [time out]: http://www.checkupdown.com/status/E408.html
+  [Python Programming Basics]: http://programminghistorian.org/lessons/introduction-and-installation
   [try / except]: http://docs.python.org/tutorial/errors.html
-  [Python Programming Basics]: ../lessons

@@ -28,10 +28,10 @@
           {% if page.layout == 'default' %}
 			<item>
 				<title>{{ page.title }}</title>
-				{% if page.excerpt %}
-					<description>{{ page.excerpt | xml_escape }}</description>
+				{% if page.abstract %}
+					<description>{{ page.abstract | xml_escape }}</description>
 				{% else %}
-					<description>Page posted on the Programming Historian</description>
+                <description>{{ page.excerpt | xml_escape }}</description>
 				{% endif %}
 				<pubDate>{{ page.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ site.url }}{{ page.url }}</link>

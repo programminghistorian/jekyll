@@ -1,19 +1,31 @@
 ---
 title: Creating New Vector Layers in QGIS 2.0
+layout: lesson
+date: 2013-12-13
 authors:
 - Jim Clifford
 - Josh MacFadyen
 - Daniel Macfarlane
-date: 2013-12-13
 reviewers:
 - Finn Arne Jørgensen
 - Peter Webster
 - Abby Schreiber
+editors:
 - Adam Crymble
-layout: default
+difficulty: 2
+activity: presenting
+topics: [mapping]
+abstract: "In this lesson you will learn how to create vector layers based on
+scanned historical maps."
 next: georeferencing-qgis
-prev: qgis-layers
+previous: qgis-layers
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Lesson Goals
 ------------
@@ -52,7 +64,7 @@ concerning Prince Edward Island.
 
 ## Getting Started
 
-Start by downloading the [PEI\_Holland map][] to the project folder:
+Start by downloading the [PEI_Holland map][] to the project folder:
 
 Open the file you saved at the end of [Installing QGIS 2.0 and Adding
 Layers][]. You should have the following layers in your Layers window:
@@ -67,11 +79,11 @@ Layers][]. You should have the following layers in your Layers window:
 Uncheck all of these layer except for PEI\_placenames,
 coastline\_polygon and PEI\_CumminsMap1927
 
-{% include figure.html src="../images/pei1.png" caption="Figure 1: Click to see full size image." %}
+{% include figure.html filename="pei1.png" caption="Figure 1: Click to see full size image." %}
 
 We are now going to add a second historical map as a raster layer.
 
-{% include figure.html src="../images/pei2.png" caption="Figure 2" %}
+{% include figure.html filename="pei2.png" caption="Figure 2" %}
 
 -   under Layer on toolbar, choose Add Raster Layer (alternatively the
     same icon you see next to 'Add Raster Layer' can also be selected
@@ -89,7 +101,7 @@ We are now going to add a second historical map as a raster layer.
     should be prompted for a CRS and you can select the NAD83 option
     (see above).
 
-{% include figure.html src="../images/pei3.png" caption="Figure 3" %}
+{% include figure.html filename="pei3.png" caption="Figure 3" %}
 
 In previous steps you have selected and unselected layers in the Layers
 window by checking and unchecking the boxes next to them. These layers
@@ -107,7 +119,7 @@ this is because it has already been georeferenced by the lesson writers
 to match the GIS vector layers. Learn more about georeferencing in
 [Georeferencing in QGIS 2.0][].
 
-{% include figure.html src="../images/pei4.png" caption="Figure 4" %}
+{% include figure.html filename="pei4.png" caption="Figure 4" %}
 
 We will now create a point shapefile, which is a vector layer. Click
 Layer -\> New -\> New Shapefile Layer
@@ -115,7 +127,7 @@ Layer -\> New -\> New Shapefile Layer
 -   alternatively you can select the New Shapefile Layer icon on the top
     of the QGIS toolbar window
 
-{% include figure.html src="../images/pei5.png" caption="Figure 5" %}
+{% include figure.html filename="pei5.png" caption="Figure 5" %}
 
 After selecting New Shapefile Layer, a window titled New Vector Layer
 appears
@@ -126,7 +138,7 @@ appears
     understanding and selecting UTM zone:
     <http://www.lib.uwaterloo.ca/locations/umd/digital/clump_classes.html>)
 
-{% include figure.html src="../images/pei6.png" caption="Figure 6: Click to see full size image." %}
+{% include figure.html filename="pei6.png" caption="Figure 6: Click to see full size image." %}
 
 Returning to the New Vector Layer window, we are going to make some
 attributes. To create the first attribute:
@@ -152,7 +164,7 @@ For the third attribute:
 -   change the Type again to Whole Number
 -   click Add to attribute list
 
-{% include figure.html src="../images/pei7.png" caption="Figure 7" %}
+{% include figure.html filename="pei7.png" caption="Figure 7" %}
 
 -   When you complete these three steps, finish creating this shapefile
     by clicking OK on the bottom right of the New Vector Layer window. A
@@ -162,7 +174,7 @@ For the third attribute:
 Note that a layer called 'settlements' now appears in your Layers
 window. Relocate it above the raster layers.
 
-{% include figure.html src="../images/pei8.png" caption="Figure 8" %}
+{% include figure.html filename="pei8.png" caption="Figure 8" %}
 
 Uncheck all layers except settlements. You will notice that your viewing
 window is now blank as we have not created any data. We will now create
@@ -179,13 +191,13 @@ new data from both the `PEI_HollandMap 1798` and the
 -   select settlements layer in Layers window
 -   on the menu bar, select Toggle Editing
 
-{% include figure.html src="../images/pei9.png" caption="Figure 9" %}
+{% include figure.html filename="pei9.png" caption="Figure 9" %}
 
 -   After selecting Toggle Editing, editing buttons will become
     available to the right along the menu bar. Select the 3 dot feature
     button.
 
-{% include figure.html src="../images/pei10.png" caption="Figure 10" %}
+{% include figure.html filename="pei10.png" caption="Figure 10" %}
 
 -   Your cursor now appears as a crosshair – point the crosshair at
     Charlottetown (if you don't happen to know PEI's geography, you can
@@ -206,7 +218,7 @@ feature button and click on Montague on the map. When the Attributes
 window appears, input Montague and 1732 in the appropriate fields.
 Repeat for Summerside (1876) and Cavendish (1790).
 
-{% include figure.html src="../images/pei11.png" caption="Figure 11" %}
+{% include figure.html filename="pei11.png" caption="Figure 11" %}
 
 In the Layers window, unselect the PEI\_CumminsMap1927 and select
 PEI\_HollandMap1798. We are now going to identify two settlements
@@ -227,7 +239,7 @@ PEI\_HollandMap1798. We are now going to identify two settlements
     appears, put Princetown in the Settlement field, put 1764 into the
     Year field, and put 1947 into the End\_Year. Click OK
 
-{% include figure.html src="../images/pei12.png" caption="Figure 12" %}
+{% include figure.html filename="pei12.png" caption="Figure 12" %}
 
 -   Click on Save Edits icon on the menu bar (it is between Toggle and
     Add Feature)
@@ -249,7 +261,7 @@ called Havre-St-Pierre.
     that appears, put Havre-St-Pierre in the Settlement field, put 1720
     into the Year field, and put 1758 into the End\_Year. Click OK
 
-{% include figure.html src="../images/pei13.png" caption="Figure 13" %}
+{% include figure.html filename="pei13.png" caption="Figure 13" %}
 
 We will now now create another vector layer – this layer will be a line
 vector. Click Layer -\> New -\> New Shapefile Layer. The New Vector
@@ -275,7 +287,7 @@ PEI\_Holland1798 and settlements layers checked in the Layers window.
 Select road layer in the layers window, select Toggle Editing on the top
 toolbar, and then select Add Feature
 
-{% include figure.html src="../images/pei14.png" caption="Figure 14" %}
+{% include figure.html filename="pei14.png" caption="Figure 14" %}
 
 -   First trace the road from Charlottetown to Princetown. Click on
     Charlottetown and then click repeatedly at points along the road to
@@ -284,7 +296,7 @@ toolbar, and then select Add Feature
     – road window, in the Name field enter "to Princetown" and in the
     Year field enter 1798. Click OK
 
-{% include figure.html src="../images/pei15.png" caption="Figure 15" %}
+{% include figure.html filename="pei15.png" caption="Figure 15" %}
 
 -   repeat this step for 3 to 4 more roads found on the
     PEI\_HollandMap1798.
@@ -294,7 +306,7 @@ Deselect the PEI\_HollandMap1798 in the Layers window and select the
 PEI\_highway map. Compare the roads represented in the PEI\_highway map
 (the red dotted lines) to the roads you have just traced.
 
-{% include figure.html src="../images/pei16.png" caption="Figure 16" %}
+{% include figure.html filename="pei16.png" caption="Figure 16" %}
 
 -   We can see that some of these roads correspond closely to modern
     roads, while others do not at all correspond. It would take further
@@ -318,7 +330,7 @@ Create a second attribute
 -   change the Type to Whole Number
 -   click Add to attribute list
 
-{% include figure.html src="../images/pei7.png" caption="Figure 17" %}
+{% include figure.html filename="pei7.png" caption="Figure 17" %}
 
 Start by creating a polygon for lot 66, which is the only rectangular
 lot on the island
@@ -331,7 +343,7 @@ lot on the island
     appear. Add 66 to lot\_names field and add 1764 (the year these lots
     were surveyed) to the Year field
 
-{% include figure.html src="../images/pei18.png" caption="Figure 18" %}
+{% include figure.html filename="pei18.png" caption="Figure 18" %}
 
 We are now going to trace lot 38, which is just west of Havre-St-Pierre.
 Make sure that there is a check mark in the box beside
@@ -348,14 +360,14 @@ nearby feature)
 
 -   select Settings-\> Snapping Options
 
-{% include figure.html src="../images/pei19.png" caption="Figure 19" %}
+{% include figure.html filename="pei19.png" caption="Figure 19" %}
 
 -   a Snapping options window will open: click on the box beside
     coastal\_polygon, for the Mode category select "to vertex and
     segment", for Tolerance select 10.0, and for Units select 'pixels'.
     Click OK
 
-{% include figure.html src="../images/pei20.png" caption="Figure 20" %}
+{% include figure.html filename="pei20.png" caption="Figure 20" %}
 
 Make sure that the lots layer is selected in Layers window, and select
 Add Feature from the tool bar
@@ -370,7 +382,7 @@ Add Feature from the tool bar
     keep in mind that for many HGIS purposes obtaining extreme accuracy
     sometimes produces diminishing returns.
 
-{% include figure.html src="../images/pei21.png" caption="Figure 21" %}
+{% include figure.html filename="pei21.png" caption="Figure 21" %}
 
 When you finish tracing and creating the polygon, select and deselect
 the various layers you have created, comparing and seeing what
@@ -399,9 +411,9 @@ work!**
 
 *This lesson is part of the [Geospatial Historian][].*
 
-  [Intro to Google Maps and Google Earth]: ../lessons/googlemaps-googleearth
-  [Installing QGIS 2.0 and Adding Layers]: ../lessons/qgis-layers
-  [PEI\_Holland map]: ../assets/PEI_HollandMap1798_compLZW.tif
-  [Georeferencing in QGIS 2.0]: ../lessons/georeferencing-qgis
+  [Intro to Google Maps and Google Earth]: /lessons/googlemaps-googleearth
+  [Installing QGIS 2.0 and Adding Layers]: /lessons/qgis-layers
+  [PEI_Holland map]: /assets/PEI_HollandMap1798_compLZW.tif
+  [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
   [Wikipedia entry]: http://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

@@ -16,7 +16,9 @@ we really appreciate your patience as we work through them. In the
 meantime, by request, here’s a list of the lessons in their original
 order:
 
-[Your First Lesson][]
+**NOTE, 2017-03-17:** As many of these lessons and links have changed, not all of these links may be up-to-date. Our most up-to-date listing of lessons can be found on the [lesson directory](/lessons/).
+
+Your First Lesson
 
 [Getting Started with Online Sources][]
 
@@ -39,13 +41,12 @@ order:
 Look for more updates soon as we continue to add lessons and work on our
 organizational setup.
 
-  [Your First Lesson]: ../lessons/your-first-lesson-2
-  [Getting Started with Online Sources]: ../lessons/viewing-html-files
-  [Working with Files and Web Pages]: ../lessons/working-with-files-and-webpages
-  [From HTML to a List of Words ]: ../lessons/from-html-to-list-of-words
-  [Computing Frequencies]: ../lessons/computing-frequencies-2
-  [Wrapping Output in HTML]: ../lessons/output-data-as-html-file
-  [Keywords in Context (KWIC)]: ../lessons/keywords-in-context-using-n-grams
-  [Downloading Multiple Records Using Query Strings ]: ../lessons/downloading-multiple-records-using-query-strings
-  [Automated Downloading with Wget]: ../lessons/automated-downloading-with-wget
-  [Getting Started with Topic Modeling and MALLET]: ../lessons/topic-modeling-and-mallet
+  [Getting Started with Online Sources]: /lessons/viewing-html-files
+  [Working with Text Files]: /lessons/working-with-text-files
+  [From HTML to a List of Words ]: /lessons/from-html-to-list-of-words-1
+  [Computing Frequencies]: /lessons/counting-frequencies
+  [Wrapping Output in HTML]: /lessons/output-data-as-html-file
+  [Keywords in Context (KWIC)]: /lessons/keywords-in-context-using-n-grams
+  [Downloading Multiple Records Using Query Strings ]: /lessons/downloading-multiple-records-using-query-strings
+  [Automated Downloading with Wget]: /lessons/automated-downloading-with-wget
+  [Getting Started with Topic Modeling and MALLET]: /lessons/topic-modeling-and-mallet

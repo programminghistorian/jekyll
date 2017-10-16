@@ -1,36 +1,46 @@
 ---
 title: Working with Text Files in Python
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
-- Miriam Posner
 - Jim Clifford
-layout: default
+editors:
+- Miriam Posner
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "In this lesson you will learn how to manipulate text files using Python."
 next: code-reuse-and-modularity
 previous: viewing-html-files
+python_warning: true
 ---
 
-Lesson Goals
-------------
+{% include toc.html %}
+
+
+
+
+
+## Lesson Goals
 
 In this lesson you will learn how to manipulate text files using Python.
 This includes opening, closing, reading from, and writing to `.txt`
-files.
+files using programming.
 
-The next few lessons will involve downloading a web page from the
+The next few lessons in this series will involve downloading a web page from the
 Internet and reorganizing the contents into useful chunks of
 information. You will be doing most of your work using Python code
 written and executed in Komodo Edit.
 
-Working with Text Files
------------------------
+## Working with Text Files
 
 Python makes it easy to work with files and text. Let’s begin with
 files.
 
-### Creating and Writing to a Text File
+## Creating and Writing to a Text File
 
 Let’s start with a brief discussion of terminology. In a previous lesson
 (depending on your operating system: [Mac Installation][], [Windows
@@ -39,7 +49,7 @@ information to the "Command Output" window of your text editor by using
 Python's [print][] command.
 
 ``` python
-print 'hello world'
+print('hello world')
 ```
 
 The Python programming language is *object-oriented*. That is to say that
@@ -201,7 +211,7 @@ print the message to the "Command Output" pane.
 # file-input.py
 f = open('helloworld.txt','r')
 message = f.read()
-print message
+print(message)
 f.close()
 ```
 
@@ -257,9 +267,9 @@ Suggested Readings
 
 -   [Non-Programmer’s Tutorial for Python 2.6/Hello, World][]
 
-  [Mac Installation]: ../lessons/mac-installation
-  [Windows Installation]: ../lessons/windows-installation
-  [Linux Installation]: ../lessons/linux-installation
+  [Mac Installation]: /lessons/mac-installation
+  [Windows Installation]: /lessons/windows-installation
+  [Linux Installation]: /lessons/linux-installation
   [print]: https://docs.python.org/2/reference/simple_stmts.html#the-print-statement
   [reserved word]: http://docs.python.org/release/2.5.4/ref/keywords.html
   [File Objects]: https://docs.python.org/2/library/stdtypes.html#bltin-file-objects

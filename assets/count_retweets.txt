@@ -1,0 +1,1 @@
+group_by(.user) | .[] | {user_id: .[0].user.id, per_tweet_rts: [.[].retweet_count]} | {user_id: .user_id, total_rts: .per_tweet_rts | add} | [.user_id, .total_rts] | @csv

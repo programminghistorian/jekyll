@@ -1,24 +1,35 @@
 ---
 title: From HTML to List of Words (part 2)
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
-- Miriam Posner
 - Jim Clifford
-layout: default
+editors:
+- Miriam Posner
+difficulty: 2
+activity: transforming
+topics: [python]
+abstract: "In this lesson, you will learn the Python commands needed to implement the second part of the algorithm begun in the lesson 'From HTML to a List of Words (part 1)'."
 next: normalizing-data
 previous: from-html-to-list-of-words-1
+python_warning: true
 ---
 
-Lesson Goals
-------------
+{% include toc.html %}
+
+
+
+
+
+## Lesson Goals
 
 In this lesson, you will learn the Python commands needed to implement
 the second part of the algorithm begun in the [From HTML to a List of
 Words (part 1)][]. The first half of the algorithm gets the content of
-an HTML page and saves only the content that follows the `<hr/><h2>`
+an HTML page and saves only the content betwee the first `<p>` and the last `<br/>`
 tags. The second half of the algorithm does the following:
 
 -   Look at every character in the *pageContents* string, one character at
@@ -39,10 +50,9 @@ tags. The second half of the algorithm does the following:
 -   *trial-content.py*
 
 If you do not have these files, you can
-download programming-historian-2, a ([zip][]) file from the previous lesson.
+download python-lessons2.zip, a ([zip][]) file from the previous lesson.
 
-Repeating and Testing in Python
--------------------------------
+## Repeating and Testing in Python
 
 The next stage in implementing the algorithm is to look at every
 character in the *pageContents* string, one at a time and decide whether
@@ -60,11 +70,11 @@ each character from *pageContents* in succession. We gave *char* its name;
 it does not have any special significance and could have been named
 *jingles* or *k* if we had felt so inclined. You can use the colour-coding
 in Komodo Edit as a guideline for deciding if a word is a variable with
-a user-given name (such as “*char*“) or a Python-defined name that serves
-a specific purpose (such as “`for`“). It is usually a good idea to give
+a user-given name (such as '*char*') or a Python-defined name that serves
+a specific purpose (such as '`for`'). It is usually a good idea to give
 variables names that provide information about what they contain. This
 will make it much easier to understand a program that you haven’t looked
-at for a while. With this in mind, “*jingles*” is probably not a very good
+at for a while. With this in mind, '*jingles*' is probably not a very good
 choice for a variable name in this case.
 
 ``` python
@@ -114,8 +124,7 @@ else:
     # do something completely different
 ```
 
-Use the Algorithm to Remove HTML Markup
----------------------------------------
+## Use the Algorithm to Remove HTML Markup
 
 You now know enough to implement the second part of the algorithm:
 removing all HTML tags. In this part of the algorithm we want to:
@@ -152,8 +161,10 @@ version as well to make sure that your program does what ours does.
 ``` python
 # obo.py
 def stripTags(pageContents):
-    startLoc = pageContents.find("<hr/><h2>")
-    pageContents = pageContents[startLoc:]
+    startLoc = pageContents.find("<p>")
+    endLoc = pageContents.rfind("<br/>")
+
+    pageContents = pageContents[startLoc:endLoc]
 
     inside = 0
     text = ''
@@ -196,8 +207,8 @@ theResult = obo.stripTags(myText)
 ```
 
 By using `return`, we have been able to save the output of the *stripTags*
-function directly into a variable, which we can then resume processing
-as needed using additional code.
+function directly into a variable that we have called 'theResult', 
+which we can then resume processing as needed using additional code.
 
 Note that in the *stripTags* example from the start of this sub-section,
 the value that we want to return now is not *pageContents*, but rather the
@@ -209,8 +220,7 @@ something different (and closer to what we want). Before you continue,
 make sure that you understand why the behaviour of *trial-content.py*
 would change when we only edited *obo.py*.
 
-Python Lists
-------------
+## Python Lists
 
 Now that you have the ability to extract raw text from web pages, you’re
 going to want to get the text in a form that is easy to process. So far,
@@ -254,11 +264,11 @@ s2 = 'howdy world'
 charlist = []
 for char in s1:
     charlist.append(char)
-print charlist
+print(charlist)
 
 # list of 'words'
 wordlist = s2.split()
-print wordlist
+print(wordlist)
 ```
 
 The first routine uses a for loop to step through each character in the
@@ -286,40 +296,34 @@ html = response.read()
 text = obo.stripTags(html)
 wordlist = text.split()
 
-print wordlist[0:120]
+print(wordlist[0:120])
 ```
 
 You should get something like the following.
 
 ``` python
-['BENJAMIN', 'BOWSEY,', 'Breaking', 'Peace', '>',
-'riot,', '28th', 'June', '1780.', '324.', 'BENJAMIN',
-'BOWSEY', '(a', 'blackmoor', ')', 'was', 'indicted',
-'for', 'that', 'he', 'together', 'with', 'five',
-'hundred', 'other', 'persons', 'and', 'more,', 'did,',
-'unlawfully,', 'riotously,', 'and', 'tumultuously',
-'assemble', 'on', 'the', '6th', 'of', 'June', 'to',
-'the', 'disturbance', 'of', 'the', 'public', 'peace',
-'and', 'did', 'begin', 'to', 'demolish', 'and', 'pull',
-'down', 'the', 'dwelling', 'house', 'of', 'Richard',
-'Akerman', ',', 'against', 'the', 'form', 'of', 'the',
-'statute,', '&c.', 'ROSE', 'JENNINGS', ',', 'Esq.',
-'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be',
-'in', 'this', 'part', 'of', 'the', 'town,', 'on', 'the',
-'6th', 'of', 'June', 'in', 'the', 'evening?', '-', 'I',
-'dined', 'with', 'my', 'brother', 'who', 'lives',
-'opposite', 'Mr.', "Akerman's", 'house.', 'They',
-'attacked', 'Mr.', "Akerman's", 'house', 'precisely',
-'at', 'seven', "o'clock;", 'they', 'were', 'preceded',
-'by', 'a', 'man']
+['324.', '\xc2\xa0', 'BENJAMIN', 'BOWSEY', '(a', 'blackmoor', ')', 'was', 
+'indicted', 'for', 'that', 'he', 'together', 'with', 'five', 'hundred', 
+'other', 'persons', 'and', 'more,', 'did,', 'unlawfully,', 'riotously,', 
+'and', 'tumultuously', 'assemble', 'on', 'the', '6th', 'of', 'June', 'to', 
+'the', 'disturbance', 'of', 'the', 'public', 'peace', 'and', 'did', 'begin', 
+'to', 'demolish', 'and', 'pull', 'down', 'the', 'dwelling', 'house', 'of', 
+'\xc2\xa0', 'Richard', 'Akerman', ',', 'against', 'the', 'form', 'of', 
+'the', 'statute,', '&amp;c.', '\xc2\xa0', 'ROSE', 'JENNINGS', ',', 'Esq.', 
+'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be', 'in', 'this', 'part', 
+'of', 'the', 'town,', 'on', 'the', '6th', 'of', 'June', 'in', 'the', 
+'evening?', '-', 'I', 'dined', 'with', 'my', 'brother', 'who', 'lives', 
+'opposite', 'Mr.', "Akerman's", 'house.', 'They', 'attacked', 'Mr.', 
+"Akerman's", 'house', 'precisely', 'at', 'seven', "o'clock;", 'they', 
+'were', 'preceded', 'by', 'a', 'man', 'better', 'dressed', 'than', 'the', 
+'rest,', 'who']
 ```
 
 Simply having a list of words doesn’t buy you much yet. As human beings,
 we already have the ability to read. You’re getting much closer to a
 representation that your programs can process, however.
 
-Suggested Reading
------------------
+## Suggested Reading
 
 -   Lutz, *Learning Python*
     -   Ch. 7: Strings
@@ -331,14 +335,13 @@ Suggested Reading
 
 To follow along with future lessons it is important that you have the
 right files and programs in your programming-historian directory. At the
-end of each chapter you can download the programming-historian zip file
-to make sure you have the correct code. Note we have removed unneeded
-files from earlier lessons. Your directory may contain more files and
-that’s ok!
+end of each chapter in this series you can download the programming-historian zip file
+to make sure you have the correct code.
 
--   programming-historian-2 ([zip][])
+-   python-lessons3.zip ([zip sync][])
 
-  [From HTML to a List of Words (part 1)]: ../lessons/from-html-to-list-of-words-1
+  [From HTML to a List of Words (part 1)]: /lessons/from-html-to-list-of-words-1
   [integer]: http://docs.python.org/2.4/lib/typesnumeric.html
   [types]: http://docs.python.org/3/library/types.html
-  [zip]: ../assets/programming-historian2.zip
+  [zip]: /assets/python-lessons2.zip
+  [zip sync]: /assets/python-lessons3.zip

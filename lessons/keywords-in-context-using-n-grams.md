@@ -1,19 +1,30 @@
 ---
-title: Keywords in Context (Using n-grams) with Python
+title: Keywords in Context (Using n-grams) with Python 
+layout: lesson
+date: 2012-07-17
 authors:
 - William J. Turkel
 - Adam Crymble
-date: 2012-07-17
 reviewers:
-- Miriam Posner
 - Jim Clifford
-layout: default
+editors:
+- Miriam Posner
+difficulty: 2
+activity: presenting
+topics: [python]
+abstract: "This lesson takes the frequency pairs collected in [Counting Frequencies][] and outputs them in HTML."
 next: output-keywords-in-context-in-html-file
 previous: output-data-as-html-file
+python_warning: true
 ---
 
-Lesson Goals
-------------
+{% include toc.html %}
+
+
+
+
+
+## Lesson Goals
 
 Like in [Output Data as HTML File][], this lesson takes the frequency
 pairs collected in [Counting Frequencies][] and outputs them in HTML.
@@ -34,15 +45,14 @@ n-grams from the text. In the next lesson, you will be learn how to
 output all of the n-grams of a given keyword in a document downloaded
 from the Internet, and display them clearly in your browser window.
 
-### Files Needed For This Lesson
+## Files Needed For This Lesson
 
 -   `obo.py`
 
 If you do not have these files from the previous lesson, you can
-download programming-historian-3, a [zip file from the previous lesson][]
+download programming-historian-7, a [zip file from the previous lesson][]
 
-From Text to N-Grams to KWIC
-----------------------------
+## From Text to N-Grams to KWIC
 
 Now that you know how to harvest the textual content of a web page
 automatically with Python, and have begun to use strings, lists and
@@ -77,7 +87,7 @@ any keyword in a body of text, showing it in the context of a fixed
 number of words on either side. As before, we will wrap the output so
 that it can be viewed in Firefox and added easily to Zotero.
 
-### From Text to N-grams
+## From Text to N-grams
 
 Since we want to work with words as opposed to characters or phonemes,
 it will be much easier to create n-grams using a list of words rather
@@ -90,7 +100,7 @@ when working with strings in [Manipulating Strings in Python][].
 ``` python
 message9 = "Hello World"
 message9a = message9[1:8]
-print message9a
+print(message9a)
 -> ello Wo
 ```
 
@@ -103,22 +113,22 @@ wordstring = 'it was the best of times it was the worst of times '
 wordstring += 'it was the age of wisdom it was the age of foolishness'
 wordlist = wordstring.split()
 
-print wordlist[0:4]
+print(wordlist[0:4])
 -> ['it', 'was', 'the', 'best']
 
-print wordlist[0:6]
+print(wordlist[0:6])
 -> ['it', 'was', 'the', 'best', 'of', 'times']
 
-print wordlist[6:10]
+print(wordlist[6:10])
 -> ['it', 'was', 'the', 'worst']
 
-print wordlist[0:12]
+print(wordlist[0:12])
 -> ['it', 'was', 'the', 'best', 'of', 'times', 'it', 'was', 'the', 'worst', 'of', 'times']
 
-print wordlist[:12]
+print(wordlist[:12])
 -> ['it', 'was', 'the', 'best', 'of', 'times', 'it', 'was', 'the', 'worst', 'of', 'times']
 
-print wordlist[12:]
+print(wordlist[12:])
 -> ['it', 'was', 'the', 'age', 'of', 'wisdom', 'it', 'was', 'the', 'age', 'of', 'foolishness']
 ```
 
@@ -138,7 +148,7 @@ string from the example above.
 ``` python
 i = 0
 for items in wordlist:
-    print wordlist[i: i+5]
+    print(wordlist[i: i+5])
     i += 1
 ```
 
@@ -166,6 +176,8 @@ def getNGrams(wordlist, n):
     return ngrams
 ```
 
+Use whichever makes most sense to you.
+
 A concept that may still be confusing to you are the two function
 arguments. Notice that our function has two variable names in the
 parentheses after its name when we declared it: *wordlist*, *n*. These two
@@ -186,7 +198,7 @@ wordstring = 'it was the best of times it was the worst of times '
 wordstring += 'it was the age of wisdom it was the age of foolishness'
 allMyWords = wordstring.split()
 
-print obo.getNGrams(allMyWords, 5)
+print(obo.getNGrams(allMyWords, 5))
 ```
 
 Notice that the arguments you enter do not have to have the same names
@@ -236,7 +248,7 @@ We now have a way to extract all possible n-grams from a body of text.
 In the next lesson, we can focus our attention on isolating those
 n-grams that are of interest to us.
 
-### Code Syncing
+## Code Syncing
 
 To follow along with future lessons it is important that you have the
 right files and programs in your "programming-historian" directory. At
@@ -246,13 +258,11 @@ with the Mac / Linux version you may have to open the `obo.py` file and
 change "file:///Users/username/Desktop/programming-historian/" to the
 path to the directory on your own computer.
 
--   programming-historian [Mac / Linux] ([zip][])
--   programming-historian [Windows] ([zip][2])
+-   python-lessons8.py ([zip sync][])
 
-  [Output Data as HTML File]: ../lessons/output-data-as-html-file
-  [Counting Frequencies]: ../lessons/counting-frequencies
+  [Output Data as HTML File]: /lessons/output-data-as-html-file
+  [Counting Frequencies]: /lessons/counting-frequencies
   [1]: output-data-as-html-file
-  [zip file from the previous lesson]: ../assets/programming-historian3.zip
-  [Manipulating Strings in Python]: ../lessons/manipulating-strings-in-python
-  [zip]: ../assets/programming-historian-mac-linux.zip
-  [2]: ../assets/programming-historian-windows.zip
+  [zip file from the previous lesson]: /assets/python-lessons7.zip
+  [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
+  [zip sync]: /assets/python-lessons8.zip

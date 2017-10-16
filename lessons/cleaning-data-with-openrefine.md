@@ -1,16 +1,28 @@
 ---
 title: Cleaning Data with OpenRefine
+layout: lesson
+date: 2013-08-05
 authors:
 - Seth van Hooland
 - Ruben Verborgh
 - Max De Wilde
-date: 2013-08-05
 reviewers:
-- Adam Crymble
 - Patrick Burns
 - Nora McGregor
-layout: default
+editors:
+- Adam Crymble
+difficulty: 2
+activity: transforming
+topics: [data-manipulation]
+abstract: "This tutorial focuses on how scholars can diagnose and act upon the
+accuracy of data."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 ## Lesson goals
 
@@ -146,7 +158,7 @@ object on the museum website. To get an idea of what object the metadata
 corresponds to, simply click the persistent link and the website will
 open.
 
-{% include figure.html src="../images/powerhouseScreenshot.png" caption="Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website" %}
+{% include figure.html filename="powerhouseScreenshot.png" caption="Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website" %}
 
 ### Get to know your data
 
@@ -260,7 +272,7 @@ and proposes a merge into the most recurrent value. Select values you
 wish to cluster by selecting their boxes individually or by clicking
 '**Select all**' at the bottom, then chose '**Merge Selected and Re-Cluster**'.
 
-{% include figure.html src="../images/overviewOfSomeClusters.png" caption="Figure 2 : Overview of some clusters" %}
+{% include figure.html filename="overviewOfSomeClusters.png" caption="Figure 2 : Overview of some clusters" %}
 
 The default clustering method is not too complicated, so it does not
 find all clusters yet. Experiment with different methods to see what
@@ -396,11 +408,11 @@ the case you have made an error.
   [Linked Data]: http://en.wikipedia.org/wiki/Linked_data
   [Download OpenRefine]: http://openrefine.org/#download_openrefine
   [FreeYourMetadata website]: http://data.freeyourmetadata.org/powerhouse-museum/
-  [phm-collection]: ../images/phm-collection.tsv
+  [phm-collection]: /assets/phm-collection.tsv
   [initial OpenRefine project]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
-  [Powerhouse Museum Website]: ../images/powerhouseScreenshot.png
+  [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
   [facet]: http://en.wikipedia.org/wiki/Faceted_search
-  [Screenshot of OpenRefine Example]: ../images/overviewOfSomeClusters.png
+  [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
   [GREL documentation]: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
   [regular expression]: http://en.wikipedia.org/wiki/Regular_expression
     "Regular Expressions"

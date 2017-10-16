@@ -1,12 +1,51 @@
 name: Programming Historian
 description: Introductory and intermediate programming lessons for humanists
-url: http://programminghistorian.org
+url: https://programminghistorian.org
+baseurl: ""
 permalink: :categories/:title
-exclude: [deprecated, vendor, Gemfile, Procfile]
-safe: true
-highlighter: pygments
-markdown: redcarpet
-gems:
+exclude:
+  - deprecated
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+highlighter: rouge
+markdown: kramdown
+permalink: :categories/:title
+plugins:
   - jekyll-redirect-from
-redcarpet:
- extensions: ['smart', 'with_toc_data', 'tables', 'superscript']
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: "en"
+  -
+    scope:
+      path: "es"
+    values:
+      lang: "es"
+  -
+    scope:
+      path: "lessons"
+    values:
+      lesson: true
+      english-lesson: true
+  -
+    scope:
+      path: "lessons/deprecated"
+    values:
+      lesson: false
+      english-lesson: false
+  -
+    scope:
+      path: "es/lecciones"
+    values:
+      translated-lesson: true
+      lesson: true
+  -
+    scope:
+      path: _posts
+    values:
+      category: posts
+
+# For local work: bundle exec jekyll serve --watch --baseurl '/proghistdev' or wherever else your local site is located

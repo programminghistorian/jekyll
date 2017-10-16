@@ -1,0 +1,1 @@
+[.[] | select(.retweet_count >= 200) | {id: .id, hashtag: .entities.hashtags} | {id: .id, hashtag: .hashtag[].text}] | group_by(.hashtag) | .[] | {tag: .[0].hashtag, count: . | length} | [.tag, .count] | @csv
