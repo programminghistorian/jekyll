@@ -58,6 +58,11 @@ work with the MARC format or the Internet Archive on a regular basis.
 Before You Begin
 ----------------
 
+To write scripts that interact with the Internet Archive, you will
+first need to [create an IA account](https://archive.org/account/login.createaccount.php).
+Follow the steps to confirm your account and carefully note down
+your email address and password.
+
 We will be working with two Python modules that are not included in
 Python's standard library.
 
@@ -72,6 +77,11 @@ manager. Begin by installing `pip` using Fred Gibbs' [Installing Python Modules 
 ``` bash
 sudo pip install internetarchive
 ```
+
+Now you will need to configure your computer so that the new package
+will work. Type `ia configure` at the command line, and then enter in
+the email address and password you used above to create your Internet Archive
+account.
 
 To install `pymarc`:
 
@@ -653,9 +663,9 @@ from the fields, the possibilities can multiply rapidly!
   [the way that items and item URLs are structured]: http://blog.archive.org/2011/03/31/how-archive-org-items-are-structured/
   [advanced search]: https://archive.org/advancedsearch.php
   [this page]: https://archive.org/search.php?query=collection%3A%28bplscas%29
-  [search the Archive using the Python module that we installed]: https://pypi.python.org/pypi/internetarchive#searching-from-python
+  [search the Archive using the Python module that we installed]: http://internetarchive.readthedocs.io/en/latest/quickstart.html#searching
   [the advanced search for the collection]: http://archive.org/search.php?query=collection%3Abplscas
-  [downloading]: https://pypi.python.org/pypi/internetarchive#downloading-from-python
+  [downloading]: http://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading
   [remember those?]: /lessons/code-reuse-and-modularity
   [item files are named according to specific rules]: https://archive.org/about/faqs.php#140
   [handling exceptions]: http://docs.python.org/2/tutorial/errors.html#handling-exceptions
