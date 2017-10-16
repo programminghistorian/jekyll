@@ -663,9 +663,9 @@ from the fields, the possibilities can multiply rapidly!
   [the way that items and item URLs are structured]: http://blog.archive.org/2011/03/31/how-archive-org-items-are-structured/
   [advanced search]: https://archive.org/advancedsearch.php
   [this page]: https://archive.org/search.php?query=collection%3A%28bplscas%29
-  [search the Archive using the Python module that we installed]: https://pypi.python.org/pypi/internetarchive#searching-from-python
+  [search the Archive using the Python module that we installed]: http://internetarchive.readthedocs.io/en/latest/quickstart.html#searching
   [the advanced search for the collection]: http://archive.org/search.php?query=collection%3Abplscas
-  [downloading]: https://pypi.python.org/pypi/internetarchive#downloading-from-python
+  [downloading]: http://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading
   [remember those?]: /lessons/code-reuse-and-modularity
   [item files are named according to specific rules]: https://archive.org/about/faqs.php#140
   [handling exceptions]: http://docs.python.org/2/tutorial/errors.html#handling-exceptions
