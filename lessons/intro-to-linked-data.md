@@ -252,7 +252,7 @@ You can use a semicolon if the subject is the same but the predicate and object 
 
 Here we're saying that Shakespeare (96994048) and John Fletcher (12323361) were both the creators of the work *The Two Noble Kinsmen*.
 
-When we looked at ontologies earlier I suggested you have a look at the examples from [the Music Ontology](http://www.musicontology.com/docs/getting-started.html). I hope they didn't put you off. Have a look again now. This is still complicated stuff, but do they make more sense now?
+When we looked at ontologies earlier I suggested you have a look at the examples from [the Music Ontology](http://web.archive.org/web/20170718143925/http://musicontology.com/docs/getting-started.html). I hope they didn't put you off. Have a look again now. This is still complicated stuff, but do they make more sense now?
 
 One of the most approachable ontologies is Friend of a Friend, or [FOAF](https://en.wikipedia.org/wiki/FOAF_(ontology)). This is designed to describe people, and is perhaps for that reason, fairly intuitive. If, for example, you want to write to tell me that this course is the best thing you've ever read, here is my email address expressed as triples in FOAF:
 
