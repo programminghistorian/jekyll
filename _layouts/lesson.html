@@ -135,7 +135,13 @@ layout: base
 
     {% if page.retired %}
      <div class="alert alert-warning">
-       {{ site.data.snippets.retired[page.lang] | markdownify }}
+        <h2>{{ site.data.snippets.retired[page.lang] }}</h2>
+        <p><em>{{ site.data.snippets.retired-meaning[page.lang] }}</em></p>
+        <p>{{ site.data.snippets.retired-definition[page.lang] | markdownify }}</p>
+      {% if page.retirement-reason %}
+        <p><em>{{ site.data.snippets.retirement-reason[page.lang] }}</em></p>
+        <p>{{ page.retirement-reason | markdownify }}</p>
+      {% endif %}
      </div>
     {% endif %}
 
