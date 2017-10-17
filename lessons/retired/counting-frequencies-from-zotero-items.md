@@ -16,6 +16,8 @@ previous: creating-new-items-in-zotero
 exclude_from_check:
   - reviewers
 retired: true
+retirement-reason: |
+  This lesson relied on the Python library libZotero, which is no longer maintained, and which now returns several errors when used. [See further discussion about this retirement decision.](https://github.com/programminghistorian/jekyll/issues/225)
 redirect_from: 
   - /lessons/counting-frequencies-from-zotero-items
   - /lessons/deprecated/counting-frequencies-from-zotero-items
