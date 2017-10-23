@@ -46,6 +46,10 @@ All editorial board information should be edited in data/ph_authors.yml. Authors
 
 *Programming Historian* también se beneficia enormemente de los esfuerzos de las personas que ofrecen su tiempo y energía. Si estás interesado en unirte, ya sea con un proyecto único o con una actividad continuada, por favor ¡descubre [cómo contribuir](/es/contribuciones) y lee sobre nuestro [flujo de trabajo](/es/guia-para-autores)!
 
+Agradecemos especialmente a los autores que han contribuido a _Programming Historian_ y que no son miembros del equipo del proyecto:
+
+{% for member in site.data.ph_authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](/contribute).
+
 También queremos dar las gracias a todas las personas que han ayudado revisando lecciones, reportando problemas, arreglando errores, u organizando talleres basados en *The Programming Historian*:
 
 * Anelda van der Walt, Talarify (South Africa)
