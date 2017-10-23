@@ -54,3 +54,17 @@ También queremos dar las gracias a todas las personas que han ayudado revisando
 
 {% for reviewer in site.data.reviewers %}
 {{reviewer}},{% endfor %} ¡y esperamos que tú tambien! Consulta al respecto [cómo contribuir](/es/contribuciones).
+
+Finalmente, queremos agradecer a aquellas personas que han participado en la organización, ejecución, dirección o apoyo de talleres que involucran al proyecto y al Equipo del Proyecto:
+
+* Anelda van der Walt, Talarify (South Africa)
+* Johann Templehoff, North-West University (South Africa)
+* Niklas Zimmer, University of Cape Town (South Africa)
+* Renate Meyer, University of Cape Town (South Africa)
+* Jane Winters, University of London
+* Jonathan Blaney, University of London
+* Justin Colson, University of Essex
+* Carys Brown, University of Cambridge
+* James Baker, University of Sussex
+* Anouk Lang, University of Edinburgh
+
