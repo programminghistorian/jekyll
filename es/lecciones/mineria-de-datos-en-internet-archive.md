@@ -10,7 +10,7 @@ editors:
 - William J. Turkel
 translator:
 - Jairo A. Melo
-editor: 
+translation-editor: 
 - Víctor Gayol
 translation-reviewer:
 - Carlos Loz
