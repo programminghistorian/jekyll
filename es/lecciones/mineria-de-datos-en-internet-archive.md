@@ -14,6 +14,7 @@ editor:
 - Víctor Gayol
 translation-reviewer:
 - Carlos Loz
+- Antonio Rojas Castro
 layout: lesson
 difficulty: 2
 activity: acquiring
