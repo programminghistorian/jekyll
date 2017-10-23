@@ -50,15 +50,8 @@ Agradecemos especialmente a los autores que han contribuido a _Programming Histo
 
 {% for member in site.data.ph_authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](/contribute).
 
-También queremos dar las gracias a todas las personas que han ayudado revisando lecciones, reportando problemas, arreglando errores, u organizando talleres basados en *The Programming Historian*:
+También queremos dar las gracias a todas las personas que han ayudado revisando lecciones, reportando problemas, arreglando errores, u organizando talleres basados en *The Programming Historian*. En este momento incluye a las siguientes personas:
 
-* Anelda van der Walt, Talarify (South Africa)
-* Johann Templehoff, North-West University (South Africa)
-* Niklas Zimmer, University of Cape Town (South Africa)
-* Renate Meyer, University of Cape Town (South Africa)
-* Jane Winters, University of London
-* Jonathan Blaney, University of London
-* Justin Colson, University of Essex
-* Carys Brown, University of Cambridge
-* James Baker, University of Sussex
-* Anouk Lang, University of Edinburgh
+{% for reviewer in site.data.reviewers %}
+{{reviewer}},{% endfor %} and, hopefully, you! Find out more about [how to
+contribute](/contribute).
