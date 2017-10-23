@@ -3,7 +3,12 @@ title: Equipo de proyecto
 layout: blank
 ---
 
-Nuestro equipo editorial trabaja en conjunto para ayudar a los autores a producir tutoriales de alta calidad. Por favor, dirige tu correspondencia, en primer lugar, a <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a>. Puedes seguir *The Programming Historian* en Twitter (en inglés): [@proghist](http://twitter.com/proghist).
+Por favor, dirige tu correspondencia, en primer lugar a:
+* <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> (English)
+* <a href="mailto:vgayol@colmich.edu.mx">Victor Gayol</a> (Spanish)
+* <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a> (Spanish)
+
+Puedes seguir _Programming Historian_ en Twitter: [@proghist](http://twitter.com/proghist).
 
 ## Consejo editorial
 
