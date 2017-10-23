@@ -53,4 +53,4 @@ Agradecemos especialmente a los autores que han contribuido a _Programming Histo
 También queremos dar las gracias a todas las personas que han ayudado revisando lecciones, reportando problemas, arreglando errores, u organizando talleres basados en *The Programming Historian*. En este momento incluye a las siguientes personas:
 
 {% for reviewer in site.data.reviewers %}
-{{reviewer}},{% endfor %} ¡y esperamos que tú tambien! Consulta al respecto [cómo contribuir](es/contribuciones).
+{{reviewer}},{% endfor %} ¡y esperamos que tú tambien! Consulta al respecto [cómo contribuir](/es/contribuciones).
