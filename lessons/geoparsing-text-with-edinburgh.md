@@ -15,7 +15,7 @@ difficulty: 3
 review-ticket: 26
 activity: presenting
 topics: [mapping]
-abstract: "This tutorial teaches users how to use the Edinburgh Geoparse to process a piece of text, extract and resolve the locations contained within it, and plot them as a web map."
+abstract: "This tutorial teaches users how to use the Edinburgh Geoparser to process a piece of text, extract and resolve the locations contained within it, and plot them as a web map."
 ---
 
 # Introduction
