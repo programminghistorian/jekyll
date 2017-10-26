@@ -18,6 +18,8 @@ topics: [mapping]
 abstract: "This tutorial teaches users how to use the Edinburgh Geoparser to process a piece of text, extract and resolve the locations contained within it, and plot them as a web map."
 ---
 
+{% include toc.html %}
+
 # Introduction
 
 This is a lesson on how to use the [Edinburgh Geoparser](https://www.ltg.ed.ac.uk/software/geoparser/).  The Geoparser allows you to process a piece of text and extract and resolve the locations contained within it. Among other uses, geo-resolution of locations makes it possible to map the data.
