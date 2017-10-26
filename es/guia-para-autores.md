@@ -37,7 +37,7 @@ Por favor, ten en cuenta que no tenemos presupuesto para contratar a un correcto
 
 ## Utiliza un archivo de texto plano
 
-Puesto que nuestro sitio web se publica mediante [GitHub Pages](https://pages.github.com), **las lecciones deben escribirse en texto plano**, con el programa de edición que prefieras. *Los editores de texto se diferencian de manera distintiva de los procesadores de texto tradicionales como MS Word*. Para Mac, recomendamos editores de texto gratuitos como [TextWrangler] o TextEdit (este último ya va incluido en Mac OS X). Para Windows, puedes usar Notepad o la versión mejorada [Notepad++].
+Puesto que nuestro sitio web se publica mediante [GitHub Pages](https://pages.github.com), **las lecciones deben escribirse en texto plano**, con el programa de edición que prefieras. *Los editores de texto se diferencian de manera distintiva de los procesadores de texto tradicionales como MS Word*. Es muy recomendable utilizar [Atom](https://atom.io/), disponible para Mac o Windows. Para Mac, recomendamos editores de texto gratuitos como [TextWrangler] o TextEdit (este último ya va incluido en Mac OS X). Para Windows, puedes usar Notepad o la versión mejorada [Notepad++].
 
 El editor de textos que elijas no es relevante pero, por favor, comienza tu traducción o tutorial en texto plano para evitar problemas más tarde. No dudes en contactar con algún miembro de nuestro [equipo](/es/equipo-de-proyecto) si tienes preguntas o dudas.
 
