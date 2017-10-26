@@ -39,7 +39,7 @@ The following lesson explains how the Edinburgh Geoparser works under the hood a
 *	Geo-parsing multiple text files, and
 *	Extracting geo-resolution output to TSV.
 
-### Prerequisites and Terminology
+## Prerequisites and Terminology
 This lesson requires users to be familiar with the command line.  If not then you should follow the lesson [Introduction to the Bash Command Line](https://programminghistorian.org/lessons/intro-to-bash) first.
 
 The Geoparser works on MacOS or Linux but is not supported for Windows. The following lesson provides command line instructions for MacOSX users and equivalent commands for Linux users (only if different to the Mac versions). Note that if your machine is running macOS Sierra (Darwin 16.7.0) or later versions then you need to apply a temporary [patch fix](#patch_fix).
@@ -48,7 +48,7 @@ The terms geo-parsing and geo-referencing are used interchangeably in this lesso
 
 The Edinburgh Geoparser is used in conjunction with various gazetteers. The term [gazetteer](https://en.wikipedia.org/wiki/Gazetteer) here refers to a list of place names and information about them (e.g. their latitude/longitude coordinates, population size and country they are contained in).  More information on [Using Gazetteers to Extract Sets of Keywords from Free-Flowing Texts](https://programminghistorian.org/lessons/extracting-keywords) can be found in Adam Cryble's Programming Historian lesson. His lesson focusses on matching gazetteer entries in text to identify place names.  The Edinburgh Geoparser goes beyond string matching as it applies a large number of rules to identify place names and other types of named entities in text and goes on to ground the extracted entities (either by geo-resolution or date normalisation).
 
-### Downloading and Setting up the Geoparser
+## Downloading and Setting up the Geoparser
 
 The current Edinburgh Geoparser download can be found at <https://www.ltg.ed.ac.uk/software/geoparser/>.
 
@@ -65,7 +65,7 @@ If you double-click on the geoparser-v1.1 folder you can see the content of the 
 
 {% include figure.html filename="geoparser_figure00.png" caption="Figure 2: Content of the Geoparser." %}
 
-#### Installation Steps for the Command Line
+### Installation Steps for the Command Line
 
 1\. Move (`mv`) the `.tar.gz` file to the directory where you want to install the Geoparser.  In this case, I'd like the Geoparser to be installed in my `Software` directory inside the `Documents` directory.  If you don’t have a Software directory, create it first:
 
@@ -104,7 +104,7 @@ You can list (`ls`) and check its content by typing:
 
 Congratulations! You have successfully downloaded and set up the Geoparser, and you can now begin geo-parsing.
 
-### Geo-parsing a Text File
+## Geo-parsing a Text File
 
 In this section you will learn how to geo-parse a simple text file.  Use the `cd` command to go the geoparser’s script directory:
 
@@ -175,9 +175,9 @@ You can also specify the option `-top` on the command line. This creates some ad
 
 The vanilla download works most accurately with running English text.  It even works on individual sentences.  Geo-resolution accuracy increases however if the Geoparser has access to more context.  On the other hand, the Geoparser is not well suited to process large documents made up of several sub-texts, e.g. a journal issue made up of articles. In the latter case it would be better to split the document into the articles first.
 
-### Other Useful Options for Running the Geoparser
+## Other Useful Options for Running the Geoparser
 
-#### Giving Preference to a Geographical Area
+### Giving Preference to a Geographical Area
 
 If you know that your text is about a particular geographical area you can instruct the Geoparser to give this area higher weighting during the geo-resolution step. For example, if you know that your data is mostly set in Canada then it may make sense to give candidate locations inside Canada higher preference.  By doing so the Geoparser will prefer places within the specified area but it will still consider locations outside it if other factors give them higher weighting.
 
@@ -214,7 +214,7 @@ Here, the `score` has been set to 2.  This gives a location within the bounding
 
 In this case, all place names (including Washington, Wimbledon, Germany and France) were resolved to locations within the bounding box (see Figure 6).  The locality option should therefore be used with care and should ideally only be applied to documents where you are relatively certain that all or most locations appear within the specified area.
 
-#### Specifying a Document Date
+### Specifying a Document Date
 
 As well as identifying locations and person names within text, the Geoparser also recognises temporal expressions (dates and times) in textual data and normalises them. Normalisation here means that the temporal expressions are enriched with additional information of when exactly they occurred. For example, it computes which the exact calendar date the expression "last Friday" refers to.
 
@@ -268,7 +268,7 @@ Figure 7 is a screenshot of the timeline view in Firefox.  At the top of the scr
 
 If the document date is not specified all temporal expressions will be interpreted relative to the date when the Geoparser is run.  While this setting does not affect the performance of the geo-resolution of place names in this release, one could imagine a possible extension where the document date affects the type of gazetteer used or the location name variants that should be considered as place names change over time.
 
-#### Geo-parsing Multiple Text Files
+### Geo-parsing Multiple Text Files
 
 Now that you know how to geo-parse one file, you may want to do the same thing for a set of documents all at once. You can download a simple shell script which geo-parses multiple files [here](http://groups.inf.ed.ac.uk/geoparser/scripts/run-multiple-files.sh). Please refer to the [Geoparser workshop](http://homepages.inf.ed.ac.uk/balex/publications/geoparser-workshop.pdf) slides for more information on how to make this script executable, run and it and adapt it to your needs.
 
@@ -335,7 +335,7 @@ If you open `./out/172172.out.tsv` in Excel, for example, you can see that the i
 Once you have extracted the geo-location information from the `*out.xml` file(s) you can use it as input into your favourite mapping tool though you will have to adjust the format depending on your needs.
 
 <a name="patch_fix"></a>
-### Patch Fix
+## Patch Fix
 
 If your machine is running maxOS Sierra (Darwin 16.7.0) or later versions you will get an error message similar to the following when running the Geoparser version 1.1:
 
@@ -352,7 +352,7 @@ with
 
 We will release a new version shortly which will fix is this error.
 
-### Credits and Citation
+## Credits and Citation
 The Geoparser and its demo were developed over a number of years in a team effort by members of the [Edinburgh Language Technology Group](https://www.ltg.ed.ac.uk/), including Claire Grover, Richard Tobin, Kate Byrne and myself (Beatrice Alex).
 
 If you found this lesson useful for your work, please cite it as:
@@ -372,7 +372,7 @@ In the past the Geoparser was used to identify place names for different purpose
 
 The Geoparser was also adapted to the ancient world for the [Google Ancient Places](https://googleancientplaces.wordpress.com/) project (e.g. see Isaksen et al., 2011), with its [GapVis](http://nrabinowitz.github.io/gapvis/)  interface. More recently, the Geoparser was used to geo-parse Twitter user profile locations (Alex et al, 2016).  
 
-### References
+## References
 
 Beatrice Alex, Clare Llewellyn, Claire Grover, Jon Oberlander and Richard Tobin (2016). Homing in on Twitter users: Evaluating an Enhanced Geoparser for User Profile Locations. 2016. In the Proceedings of the 10th Language Resources and Evaluation Conference (LREC), 23-28 May 2016. [[pdf](http://www.lrec-conf.org/proceedings/lrec2016/pdf/129_Paper.pdf)]
 
