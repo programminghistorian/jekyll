@@ -20,7 +20,7 @@ abstract: "This tutorial teaches users how to use the Edinburgh Geoparser to pro
 
 {% include toc.html %}
 
-# Introduction
+## Introduction
 
 This is a lesson on how to use the [Edinburgh Geoparser](https://www.ltg.ed.ac.uk/software/geoparser/).  The Geoparser allows you to process a piece of text and extract and resolve the locations contained within it. Among other uses, geo-resolution of locations makes it possible to map the data.
 
