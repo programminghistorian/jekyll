@@ -50,7 +50,7 @@ The Edinburgh Geoparser is used in conjunction with various gazetteers. The term
 
 The current Edinburgh Geoparser download can be found at <https://www.ltg.ed.ac.uk/software/geoparser/>.
 
-Go to the Download section and click on The Edinburgh Geoparser link.  All you need to do then is accept the license, fill in some personal details, and then press **Download**.  A compressed file called `geoparser-march2016-2.tar.gz` will be downloaded to your Download directory or to wherever you specified the download to go.  Note that this file name will change new versions of the tool are released.  
+Go to the Download section and click on The Edinburgh Geoparser link.  All you need to do then is accept the license, fill in some personal details, and then press **Download**.  A compressed file called `geoparser-march2016.tar.gz` will be downloaded to your Download directory or to wherever you specified the download to go.  Note that this file name will change new versions of the tool are released.  
 
 Some machines will automatically decompress the .gz file and create the directory `geoparser-v1.1`.  If this happens, and you see the `geoparser-v1.1` directory appear, move this new directory to wherever you want it to be installed and go to step 2.  If this does not happen, and your machine does not decompress the `.tar.gz` file and create a new directory automatically, follow step 1 first.  (Note that version 1.1 is the current release but this number will change in the future.)
 
@@ -355,7 +355,7 @@ The Geoparser and its demo were developed over a number of years in a team effor
 
 If you found this lesson useful for your work, please cite it as:
 
-    Beatrice Alex. 2017. Geoparsing Text with the Edinburgh Geoparser, The Programming Historian lesson, ADD URL HERE, 2017.
+    Beatrice Alex. 2017. Geoparsing Text with the Edinburgh Geoparser, The Programming Historian lesson, https://programminghistorian.org/lessons/geoparsing-text-with-edinburgh, 2017.
 
 or cite one of the publications listed [here](https://www.ltg.ed.ac.uk/software/geoparser/).
 
