@@ -218,7 +218,15 @@ En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor 
 
 **Los espacios en blanco son importantes**, así que asegúrate de que la identación se ajusta a la de los otros casos y utiliza espacios en blanco en vez de tabuladores.
 
-### 3) Añade traductor, revisores y editores al archivo YAML
+### 3) Agrega una tabla de contenidos a la lección
+
+El siguiente código debe agregarse al texto de la lección, generalmente antes del primer subtítulo
+
+```
+{% raw %}{% include toc.html %}{% endraw %}
+```
+
+### 4) Añade traductor, revisores y editores al archivo YAML
 
 Es muy importante acreditar el trabajo de nuestros traductores, revisores y editores. Así, pues, localiza el  bloque YAML que se encuentra al inicio del tutorial, y añade el nombre de los revisores y de todos los miembros de nuestra comunidad que han contribuido durante el proceso de revisión. Además, crea un campo `editor` y añade tu nombre y de cuantos otros editores hayan contribuido en la publicación. Las instrucciones para dar formato al bloque de YAML se encuentran en la [guía para autores y traductores](/es/guia-para-autores).
 
@@ -226,7 +234,7 @@ Si se trata de una traducción, asegúrate de que se mantienen los datos del YAM
 
 Los revisores que no hayan trabajado con nosotros en el pasado también deben añadirse en el archivo [reviewers.yml](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/reviewers.yml); de esta manera, el nombre de los revisores aparecerá como parte de nuestro equipo. Por favor, no te olvides de este paso.
 
-### 4) Añade un nivel de dificultad el archivo YAML
+### 5) Añade un nivel de dificultad el archivo YAML
 
 Con el objetivo de ayudar a los lectores a evaluar si una lección se ajusta a sus necesidades y experiencia, proporcionamos un campo "Recomendado para usuarios ____" en el bloque YAML. Actualmente, contamos con tres niveles de dificultad, que se escogen mediante tres códigos numéricos: 1 (introductorio), 2 (intermedio) y 3 (avanzado). En el caso de las lecciones nuevas, para añadir el nivel de dificultad a la lección, debes incluir las siguientes líneas al archivo YAML:
 
@@ -234,15 +242,15 @@ Con el objetivo de ayudar a los lectores a evaluar si una lección se ajusta a s
 difficulty: 1
 ```
 
-### 5) Añade un ticket de revisión al archivo YAML
+### 6) Añade un ticket de revisión al archivo YAML
 
 Crea un ticket de revisión en el archivo YAML y proporciona el número del ticket correspondiente al envío del archivo en el repositorio `borradores`. Este procedimiento se realiza para incrementar la transparencia del proceso de revisión. La información, además, se utilizará para proporcionar un enlace al ticket de revisión.
 
-### 6) Actualiza la fecha en el archivo YAML
+### 7) Actualiza la fecha en el archivo YAML
 
 Actualiza la fecha en el campo correspondiente del archivo YAML tomando como referencia el día en que el archivo fue movido al repositorio `jekyll`, salvo en el caso de las traducciones.
 
-### 7) Otros aspectos para concluir el YAML de la lección
+### 8) Otros aspectos para concluir el YAML de la lección
 
 Teniendo como referencia el ejemplo de abajo, asegúrate que toda la parte preliminar de la lección está completada adecuadamente. Los campos comunes que necesitas escribir o editar en este punto son:
 
@@ -279,7 +287,7 @@ Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML d
     ---
 
 
-### 8) Busca una imagen que represente la lección
+### 9) Busca una imagen que represente la lección
 
 Las lecciones se representan mediante una imagen `vintage` que refleja algún elemento de las tareas descritas en el tutorial. Puedes ver todas las imágenes en el [índice principal de lecciones](/es/lecciones). El editor es el encargado de seleccionar las imágenes.
 
@@ -299,7 +307,7 @@ A continuación, crea una copia de la imagen, córtala en un cuadrado sin elimin
 
 Sube la imagen original al directorio [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery).
 
-### 9) Incorpora tu lección en nuestro Twitter bot
+### 10) Incorpora tu lección en nuestro Twitter bot
 
 Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos un Twitter bot para volver a promocionar lecciones pasadas. Para añadir la lección nueva a nuestro *pipeline* deberás añadirla como una fila en esta [hoja de cálculo](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=904817529). Todos los miembros del equipo editorial deben poder hacer cambios; envía un correo electrónico al grupo de google si tienes algún problema. Deberás insertar una nueva fila para tu lección al final de la tabla con los siguientes campos:
 
@@ -309,7 +317,7 @@ Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos 
 
 Deja la columna D en blanco y sin tocar - este campo es utilizado por el Twitter bot para registrar su progreso en la lista. Ten en cuenta además que este paso no reemplaza tu propia promoción de la lección. El bot escoge las lecciones aleatoriamente, una cada la semana, así que pueden pasar meses hasta que tu lección aparezca por este medio. 
 
-### 10) Confirma que todos los enlaces y encabezados YAML funcionen correctamente
+### 11) Confirma que todos los enlaces y encabezados YAML funcionen correctamente
 
 Una vez que envíes tus cambios a la rama `gh-pages` del repositorio de [programminghistorian][ph_repo], el sitio será comprobado automáticamente por [Travis CI] ([Continuous Integration]).
 Este proceso comprueba dos cosas: primero, que todo el código de YAML y markdown sea compilable y, segundo, que todos los hipervínculos del sitio apunten a páginas válidas y en operación.
@@ -347,7 +355,7 @@ En caso de error, debes consultar la bitácora de compilación (*Build logs*) pa
 [abre un nuevo ticket]: https://github.com/programminghistorian/jekyll/issues/new
 
 
-### 11) Da las gracias a todo el mundo y difunde el tutorial
+### 12) Da las gracias a todo el mundo y difunde el tutorial
 
 Es importante enviar un correo electrónico o un mensaje a todos los participantes para agradecerles el esfuerzo. En particular, da las gracias al autor o al traductor por enviar su texto y anímalo a volver a trabajar con nostros en el futuro. También puedes proporcionarle alguna idea sobre cómo difundir y anunciar su contribución. Las lecciones más visitadas suelen contar con la promoción del autor. Por ejemplo, el autor podría realizar las siguientes acciones:
 
