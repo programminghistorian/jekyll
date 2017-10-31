@@ -3,7 +3,7 @@ title: Geoparsing Text with the Edinburgh Geoparser
 collection: lessons
 layout: lesson
 slug: geoparsing-text-with-edinburgh
-date: 2017-10-30
+date: 2017-10-31
 authors:
 - Beatrice Alex
 reviewers:
