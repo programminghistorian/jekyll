@@ -1,5 +1,5 @@
 ---
-title: Geoparsing Text with the Edinburgh Geoparser
+title: Geoparsing English-Language Text with the Edinburgh Geoparser
 collection: lessons
 layout: lesson
 slug: geoparsing-text-with-edinburgh
@@ -15,14 +15,14 @@ difficulty: 3
 review-ticket: 26
 activity: presenting
 topics: [mapping]
-abstract: "This tutorial teaches users how to use the Edinburgh Geoparser to process a piece of text, extract and resolve the locations contained within it, and plot them as a web map."
+abstract: "This tutorial teaches users how to use the Edinburgh Geoparser to process a piece of English-language text, extract and resolve the locations contained within it, and plot them as a web map."
 ---
 
 {% include toc.html %}
 
 ## Introduction
 
-This is a lesson on how to use the [Edinburgh Geoparser](https://www.ltg.ed.ac.uk/software/geoparser/).  The Geoparser allows you to process a piece of text and extract and resolve the locations contained within it. Among other uses, geo-resolution of locations makes it possible to map the data.
+This is a lesson on how to use the [Edinburgh Geoparser](https://www.ltg.ed.ac.uk/software/geoparser/).  The Geoparser allows you to process a piece of English-language text and extract and resolve the locations contained within it. Among other uses, geo-resolution of locations makes it possible to map the data.
 
 The Geoparser works best on running text, as it considers locations in context for disambiguation. For example, if you would like to get a sense of the place names mentioned in a piece of text, the Geoparser can be used to identify terms in a document that are likely to refer to place names.  It will then provide its best guess as to where those places are in terms of latitute/longitude coordinates.
 
