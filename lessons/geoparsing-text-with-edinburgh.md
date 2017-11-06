@@ -1,5 +1,5 @@
 ---
-title: Geoparsing Text with the Edinburgh Geoparser
+title: Geoparsing English-Language Text with the Edinburgh Geoparser
 collection: lessons
 layout: lesson
 slug: geoparsing-text-with-edinburgh
@@ -15,14 +15,14 @@ difficulty: 3
 review-ticket: 26
 activity: presenting
 topics: [mapping]
-abstract: "This tutorial teaches users how to use the Edinburgh Geoparser to process a piece of text, extract and resolve the locations contained within it, and plot them as a web map."
+abstract: "This tutorial teaches users how to use the Edinburgh Geoparser to process a piece of English-language text, extract and resolve the locations contained within it, and plot them as a web map."
 ---
 
 {% include toc.html %}
 
 ## Introduction
 
-This is a lesson on how to use the [Edinburgh Geoparser](https://www.ltg.ed.ac.uk/software/geoparser/).  The Geoparser allows you to process a piece of text and extract and resolve the locations contained within it. Among other uses, geo-resolution of locations makes it possible to map the data.
+This is a lesson on how to use the [Edinburgh Geoparser](https://www.ltg.ed.ac.uk/software/geoparser/).  The Geoparser allows you to process a piece of English-language text and extract and resolve the locations contained within it. Among other uses, geo-resolution of locations makes it possible to map the data.
 
 The Geoparser works best on running text, as it considers locations in context for disambiguation. For example, if you would like to get a sense of the place names mentioned in a piece of text, the Geoparser can be used to identify terms in a document that are likely to refer to place names.  It will then provide its best guess as to where those places are in terms of latitute/longitude coordinates.
 
@@ -295,7 +295,7 @@ and on MacOSX type:
 
     ./bin/sys-i386-snow-leopard/lxprintf -e "ent[@type='location']" "%s\t%s\t%s\t%s\t%s\n" "normalize-space(parts/part)" "@gazref" "@in-country" "@lat" "@long" < ./out/172172.out.xml> ./out/172172.out.tsv
 
-The previous `lxprintf` command reads through a geo-parsed XML output file, extracts all location entities identified by the Geoparser and presents them in TSV format. In the example above, the XML input file (containing the location entities) is `./out/burtons.out.xml`, and the TSV file is `./out/172172.out.tsv`. The `<` symbol signifies "standard in" (or stdin) which tells the script to read in the file that follows it and the `>` symbol signifies standard out (or stdout) which specifies sending the output to the file that follows it.
+The previous `lxprintf` command reads through a geo-parsed XML output file, extracts all location entities identified by the Geoparser and presents them in TSV format. In the example above, the XML input file (containing the location entities) is `./out/172172.out.xml`, and the TSV file is `./out/172172.out.tsv`. The `<` symbol signifies "standard in" (or stdin) which tells the script to read in the file that follows it and the `>` symbol signifies standard out (or stdout) which specifies sending the output to the file that follows it.
 
 The way this command works is that lxprintf looks for XML entities specified after the option `-e`.  In this case, entities of type location are to be extracted (`"ent[@type='location’]”`).  Here is an example of an entity of type location in the XML:
 
