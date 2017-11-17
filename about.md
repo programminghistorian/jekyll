@@ -13,7 +13,7 @@ Our peer review process is a bit different from what might be considered the tra
 
 
 ## Open Source
-The _Programming Historian_ is committed to open source values. All contributed lessons make use of open source programming languages and software whenever possible. This policy is meant to minimize costs for all parties, and to allow the greatest possible level of participation. We believe everyone should be able to benefit from these tutorials, not just those with large research budgets for expensive proprietary software.
+The _Programming Historian_ is committed to open source values. All contributed lessons make use of open source programming languages and software whenever possible. This policy is meant to minimize costs for all parties, and to allow the greatest possible level of participation. We believe everyone should be able to benefit from these tutorials, not just those with large research budgets for expensive proprietary software. Since 2016, a citable version of the _Programming Historian_ project has been deposited on [Zenodo](https://zenodo.org/). The 2017 deposit is available at [doi.org/10.5281/zenodo.1046738](https://doi.org/10.5281/zenodo.1046738).
 
 
 ## Gold Open Access
