@@ -1,7 +1,7 @@
 ---
 title: Convocatoria para editor de contenidos en español de The Programming Historian 
 authors:
-- Maria Jose Afanador-Llach
+- Maria José Afanador-Llach
 layout: post
 categories: posts
 ---
