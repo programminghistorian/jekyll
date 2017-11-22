@@ -29,6 +29,9 @@ module MyModule
       # Fields required only on en lessons
       en_required_fields = []
 
+      # Collect valid author names from ph_authors.yml
+      valid_authors = site.data["ph_authors"].map{|t| t["name"]}
+  
       # Find all the pages that represent non-deprecated lessons
       lessons = site.pages.select{|i| i.data["lesson"] && !i.data["deprecated"]}
 
@@ -98,6 +101,13 @@ module MyModule
             if p.data[f].nil?
               page_errors.push("'#{f}' is missing.")
             end
+          end
+        end
+
+        # Check if page author names have exact matches in the ph_authors.yml
+        p.data["authors"].each do |a|
+          unless valid_authors.include?(a)
+            page_errors.push("'#{a}' is not currently listed in ph_authors.yml. Check your spelling.")
           end
         end
 
