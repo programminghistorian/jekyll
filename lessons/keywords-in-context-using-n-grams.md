@@ -12,7 +12,8 @@ editors:
 difficulty: 2
 activity: presenting
 topics: [python]
-abstract: "This lesson takes the frequency pairs collected in [Counting Frequencies][] and outputs them in HTML."
+abstract: |
+  This lesson takes the frequency pairs collected in "Counting Frequencies" and outputs them in HTML.
 next: output-keywords-in-context-in-html-file
 previous: output-data-as-html-file
 python_warning: true
