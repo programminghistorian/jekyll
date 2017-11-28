@@ -68,8 +68,7 @@
     en: |
         He is interested in working with authors on topics
         including: network analysis, text analysis and data mining, as well
-        as intermediate to advanced-level lessons more generally. For planning purposes,
-        Ian will be on parental leave between June and October 2017.
+        as intermediate to advanced-level lessons more generally. 
     es: |
         Tiene interés en editar lecciones sobre análisis de redes, análisis textual y minería de datos, y, en general, lecciones de nivel intermedio o superior.
   team_roles:
@@ -803,3 +802,9 @@
   bio:
     en: |
         Peter Stockwell is the Associate Pro-Vice-Chancellor for Global Engagement (Europe) and Professor of Literary Linguistics at the University of Nottingham.
+
+- name: Beatrice Alex
+  team: false
+  bio:
+    en: |
+        Beatrice Alex is a research fellow at the Institute for Language, Cognition and Computation at the School of Informatics, University of Edinburgh and a Turing fellow at the Alan Turing Institute.  Her research interests focus on text mining and geoparsing.

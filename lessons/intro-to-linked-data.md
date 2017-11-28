@@ -163,7 +163,7 @@ An ontology is more flexible because it is non-hierarchical. It aims to represen
 
 Whatever you are looking to represent with LOD, we suggest that you find an existing vocabulary and use it, rather than try to write your own. The main page here has [a list of some of the most popular vocabularies](http://semanticweb.org/wiki/Main_Page.html).
 
-Since our example above focuses on pianists, it would be a good idea to find an appropriate ontology rather than create our own system. In fact there is [an ontology for music](http://www.musicontology.com/). As well as a well-developed specification it also has some useful examples of its use. You can have a look at the [Getting started pages](http://www.musicontology.com/docs/getting-started.html) to get a sense of how you might use that particular ontology.
+Since our example above focuses on pianists, it would be a good idea to find an appropriate ontology rather than create our own system. In fact there is [an ontology for music](http://web.archive.org/web/20170715094229/http://www.musicontology.com/). As well as a well-developed specification it also has some useful examples of its use. You can have a look at the [Getting started pages](http://web.archive.org/web/20170718143925/http://musicontology.com/docs/getting-started.html) to get a sense of how you might use that particular ontology.
 
 Unfortunately I can't find anything that describes the relationship between a teacher and a pupil in the Music Ontology. But the ontology is published openly, so I can use it to describe other features of music and then create my own extension. If I then publish my extension openly, others can use it if they wish and it may become a standard. While the Music Ongology project does not have the relationship I need, the [Linked Jazz project](https://linkedjazz.org/) allows use of 'mentorOf', which sounds like it would work nicely in our case. While this is not an ideal solution, it is one that makes an effort to use what is already out there.
 
@@ -252,7 +252,7 @@ You can use a semicolon if the subject is the same but the predicate and object 
 
 Here we're saying that Shakespeare (96994048) and John Fletcher (12323361) were both the creators of the work *The Two Noble Kinsmen*.
 
-When we looked at ontologies earlier I suggested you have a look at the examples from [the Music Ontology](http://www.musicontology.com/docs/getting-started.html). I hope they didn't put you off. Have a look again now. This is still complicated stuff, but do they make more sense now?
+When we looked at ontologies earlier I suggested you have a look at the examples from [the Music Ontology](http://web.archive.org/web/20170718143925/http://musicontology.com/docs/getting-started.html). I hope they didn't put you off. Have a look again now. This is still complicated stuff, but do they make more sense now?
 
 One of the most approachable ontologies is Friend of a Friend, or [FOAF](https://en.wikipedia.org/wiki/FOAF_(ontology)). This is designed to describe people, and is perhaps for that reason, fairly intuitive. If, for example, you want to write to tell me that this course is the best thing you've ever read, here is my email address expressed as triples in FOAF:
 

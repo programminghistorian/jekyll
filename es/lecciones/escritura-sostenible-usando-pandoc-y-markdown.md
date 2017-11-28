@@ -9,7 +9,7 @@ editors:
 - Fred Gibbs
 translator:
 - Víctor Gayol
-editor:
+translation-editor:
 - María José Afanador-Llach
 translation-reviewer:
 - Antonio Rojas Castro

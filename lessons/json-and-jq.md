@@ -197,7 +197,7 @@ Try it:
 ```
 
 Notice that the `[]` wrapping our results are now gone.
-To make clear what has happened, check the "Compact Output" checkbox in the upper left.
+To make clear what has happened, check the "Compact Output" checkbox in the upper right.
 This removes the cosmetic line breaks in the results, returning one JSON object per line.
 You should have a 10-line output now.
 
@@ -381,7 +381,7 @@ The results:
 
 Note that, to access the url nested in the `webImage` object, we chained together `.webImage.url`.
 
-To format this as CSV, add the operator `@csv` on the end with another pipe and check the "Raw Output" box in the upper left.
+To format this as CSV, add the operator `@csv` on the end with another pipe and check the "Raw Output" box in the upper right.
 `@csv` properly joins the arrays with `,` and adds quotes where needed.
 "Raw Output" tells jq that we want to produce a text file, rather than a new JSON file.
 
@@ -437,7 +437,7 @@ There are a few ways to express this as a CSV table, but we will implement two c
 Let's create a table with one column with a tweet ID, and a second column with all the hashtags in each tweet, separated by a semicolon: `;`
 
 This is a relatively complex query that will require a multi-step filter.
-First, let's reduce the twitter JSON to just ids and the objects describing the hashtags.
+First, let's reduce the Twitter JSON to just ids and the objects describing the hashtags.
 Paste this filter into [jq play]:
 
 ```txt
@@ -615,7 +615,7 @@ There are ways to get the same results using an even shorter query, but in most 
 
 This is actually simpler to implement in jq, because we can take advantage of jq's natural behavior of repeating filters.
 
-We will start with the same set of operations that extract the tweet ID and the hashtag objects from the original twitter JSON:
+We will start with the same set of operations that extract the tweet ID and the hashtag objects from the original Twitter JSON:
 
 ```txt
 {id: .id, hashtags: .entities.hashtags} | {id: .id, hashtags: .hashtags[].text}
@@ -642,7 +642,7 @@ The results:
 
 ### Grouping and Counting
 
-Often times, your JSON will be structured based one type of entity (say, artworks from the Rijksmuseum API, or Tweets from the Twitter API) when you, the researcher, may be more interested in collecting information about a related, but secondary entity, like an artist, a Twitter hashtag, or a Twitter user.
+Often times, your JSON will be structured around one type of entity (say, artworks from the Rijksmuseum API, or tweets from the Twitter API) when you, the researcher, may be more interested in collecting information about a related, but secondary entity, like an artist, a Twitter hashtag, or a Twitter user.
 In this section, we will use jq to extract a table of information about Twitter _users_ from the tweet-based JSON, as well as grouping and counting tweet _hashtags_.
 
 For the previous examples, we have only needed to consider each tweet individually.
@@ -652,7 +652,7 @@ However, in cases where we are aggregating information about the individual obje
 This is where we want to use "Slurp" (or the `-s` flag on command-line jq).
 "Slurp" tells jq to read every line of the input JSON lines and treat the entire group as one huge array of objects.
 
-With the twitter data still in the input box on [jq play], check the "Slurp" box, and just put `.` in the filter.
+With the Twitter data still in the input box on [jq play], check the "Slurp" box, and just put `.` in the filter.
 Note that it's wrapped the objects in `[]`.
 Now we can build even more complex commands that require knowledge of the entire input file.
 
@@ -687,7 +687,7 @@ Because we have read the input JSON lines using the "Slurp" option, we already s
 We can use `group_by(.user)` to collect these tweets into sub-arrays of one user each.
 
 ```txt
-.group_by(.user)
+group_by(.user)
 ```
 
 You should see that the results are now wrapped within an additional pair of `[]`:
@@ -740,7 +740,7 @@ The results should look like:
 
 Let's break down this complex filter:
 
-1. `group_by(.user) |` This takes the big array of tweets and returns and array of sub-arrays, each sharing the exact same information in the `user` key. Note that this works even when the value at the `user` key is itself a JSON object wrapped in `{}`.
+1. `group_by(.user) |` This takes the big array of tweets and returns an array of sub-arrays, each sharing the exact same information in the `user` key. Note that this works even when the value at the `user` key is itself a JSON object wrapped in `{}`.
 1. `.[] |` Having created an array of sub-arrays, we want to break out the individual sub-arrays.
 1. `{user_id: .[0].user.id, user_name: .[0].user.screen_name, user_followers: .[0].user.followers_count, tweet_ids: [.[].id | tostring] | join(";")}` This next bit creates a new set of JSON information, filling in keys and values with the following sub-commands:
     1. `user_id: .[0].user.id,` This pulls the first tweet in the sub-array and access the user id, assigning it to the key `user_id` in our new JSON object
@@ -781,7 +781,7 @@ However, we can also use `group_by()` in conjunction with `length` to compute ne
 In this final exercise, we will use jq to count the number of times unique hashtags appear in this dataset.
 
 Once again, make sure that the "Slurp" option is checked.
-(However, uncheck the "Raw Output" option until we are ready to actually produce the final CSV output).
+(However, uncheck the "Raw Output" option until we are ready to actually produce the final CSV output.)
 Counterintuitively, the first thing we need to do to access the hashtags again is to break them _out_ of that large array:
 
 ```txt
@@ -848,7 +848,7 @@ The results:
 /*ETC...*/
 ```
 
-(Remember, to format CSV output correctly, set jq to "Raw output" using the `-r` flag on the command line, or check the "Raw output" box on [jq play].)
+(Remember, to format CSV output correctly, set jq to "Raw Output" using the `-r` flag on the command line, or check the "Raw Output" box on [jq play].)
 
 `.[]` once again breaks apart the large array, so we are left only with the sub-arrays within.
 We need to retrieve two pieces of information: first, the name of the hashtag for each sub-array, which we can get by accessing the value of the `hashtag` key in the first tweet/hashtag combo of the array (accessed with `.[0]`).
@@ -952,7 +952,7 @@ jq -r '.artObjects[] | [.id, .title, .principalOrFirstMaker, .webImage.url] | @c
 
 Alternatively, you can use bash pipes to send text from the output of one function into jq.
 This can be useful when downloading JSON with a utility like `wget` for retrieving online material.
-(See [Automated Downloading with Wget](/lessons/automated-downloading-with-wget) to learn the basics of this other command line program).
+(See [Automated Downloading with Wget](/lessons/automated-downloading-with-wget) to learn the basics of this other command line program.)
 
 ```sh
 wget -qO- http://programminghistorian.org/assets/jq_rkm.json | jq -r '.artObjects[] | [.id, .title, .principalOrFirstMaker, .webImage.url] | @csv'

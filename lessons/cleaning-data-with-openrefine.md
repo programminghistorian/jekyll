@@ -147,7 +147,9 @@ downloaded data file and click **Next**. By default, the first line will
 be correctly parsed as the name of a column, but you need to unselect
 the 'Quotation marks are used to enclose cells containing column
 separators' checkbox, since the quotes inside the file do not have any
-meaning to *OpenRefine*. Now click on '**Create project**'. If all goes
+meaning to *OpenRefine*. Additionally, select the 'Parse cell text into
+numbers, dates, ...' checkbox to let OpenRefine automatically detect
+numbers. Now click on '**Create project**'. If all goes
 well, you will see 75,814 rows. Alternatively, you can download the
 [initial OpenRefine project][] directly.
 
@@ -220,7 +222,7 @@ Be aware that special caution is needed when eliminating duplicates. In
 the above mentioned step, we assume the dataset has a field with unique
 values, indicating that the entire row represents a duplicate. This is
 not necessarily the case, and great caution should be taken to manually
-verify wether the entire row represents a duplicate or not.
+verify whether the entire row represents a duplicate or not.
 
 ### Atomization
 
@@ -350,7 +352,7 @@ again. To achieve this, just type the following expression:
 value.split('|').uniques().join('|')
 ```
 
-You will notice that 32,599 cells are affected, more than half the
+You will notice that 33,008 cells are affected, more than half the
 collection.
 
 ### Exporting your cleaned data

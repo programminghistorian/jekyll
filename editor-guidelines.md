@@ -216,11 +216,19 @@ If the lesson has been written by a new author, editors should add information a
 
 **Whitespace is important**, so be sure that the indentation matches the other examples.
 
-### 3) Add reviewers and editors to the YAML file
+### 3) Add a table of contents to the lesson
+
+The following code should be added into the text of the lesson, usually before the first subheader:
+
+```
+{% raw %}{% include toc.html %}{% endraw %}
+```
+
+### 4) Add reviewers and editors to the YAML file
 
 It is important that we acknowledge the work of our peer reviewers and editors. To the YAML file at the top of the tutorial, add the names of the reviewers who helped work on the piece as well as the names of any members of the community who contributed substantial open reviews. In addition, create an `editors` key and add yourself and any other editors who actively contributed to guiding the piece to publication. YAML formatting instructions can be found in the [Author Guidelines](/author-guidelines).
 
-### 4) Add a difficulty indicator to the YAML file
+### 5) Add a difficulty indicator to the YAML file
 
 To help readers evaluate which lessons best fit their goals and skill level, we provide "Recommended for ___ Users" information in the lesson YAML file. There are currently three tiers, which can be set with the following numerical codes: 1 (Beginning), 2 (Intermediate), 3 (Advanced). To add the difficulty level to the lesson, include the following in the YAML file:
 
@@ -228,15 +236,15 @@ To help readers evaluate which lessons best fit their goals and skill level, we 
 difficulty: 1
 ```
 
-### 5) Add the review ticket number to the YAML file
+### 6) Add the review ticket number to the YAML file
 
 In order to promote transparency around the review process, create a `review-ticket` key in the YAML file and provide the ticket number for the corresponding review ticket in the ph-submissions repository. This information will be used to provide a link back to the review ticket for the lesson.
 
-### 6) Update the date field in the YAML file
+### 7) Update the date field in the YAML file
 
 Update the date in the YAML file to the date the lesson was moved to the jekyll repository and the added to the main site.
 
-### 7) Other lesson YAML finalization
+### 8) Other lesson YAML finalization
 Looking at the example below, make sure all front matter on the lesson is properly filled out.  Common fields that need writing or editing at this point are:
 - **collection** should just say "collection: lessons"
 - **layout** should just say "layout: lesson"
@@ -270,7 +278,7 @@ Check out the example below to see what finished front matter should look like:
     abstract: "In this lesson you will first learn what topic modeling is and why you might want to employ it in your research. You will then learn how to install and work with the MALLET natural language processing toolkit to do so."
     ---
 
-### 8) Find an Image to represent the lesson
+### 9) Find an Image to represent the lesson
 
 We represent our lessons using an old image that we feel captures some element of the task described in the tutorial. You can see the full range of these on the [main Lessons directory](/lessons/). These images are selected by editors.
 
@@ -289,7 +297,7 @@ Then, create a new copy of the image. Crop it to a square without removing any i
 
 Upload the original image to the [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) folder, and upload the edited image to the [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery) folder.
 
-### 9) Incorporate your lesson into our Twitter bot
+### 10) Incorporate your lesson into our Twitter bot
 In addition to the Twitter promotion outlined below, we also make use of a Twitter bot to regularly re-advertise older lessons. In order to add the new lesson to our pipeline, you need to add it as a row in [this spreadsheet](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Everyone on the editorial team should have the ability to make changes; email the google group if you have trouble. You will need to add a new row for your lesson to the end of the table with the following fields:
 
 * message_one (column A) - a twitter message to play early in the week.
@@ -298,7 +306,7 @@ In addition to the Twitter promotion outlined below, we also make use of a Twitt
 
 Leave column D blank and untouched - this field is used by the Twitter bot to log its progress through the list. Also note that this step should not replace your own promotion of the lesson. The bot goes through the lessons at random, one a week, so it could be months until your lesson comes up through this means.
 
-### 10) Confirm all links and YAML headers are functioning correctly
+### 11) Confirm all links and YAML headers are functioning correctly
 
 Once you push your changes on to the `gh-pages` branch of the [programminghistorian][ph_repo] repository, the site will be automatically tested by [Travis CI] ([Continuous Integration]).
 This test process checks two things: first, that all YAML and markdown code is parseable, and second, that all the hyperlinks on the site point to valid, operational pages.
@@ -335,7 +343,7 @@ If your build has errored, you will need to consult the build logs to see what i
 
 [create a new issue]: https://github.com/programminghistorian/jekyll/issues/new
 
-### 11) Thank Everyone and Encourage Promotion
+### 12) Thank Everyone and Encourage Promotion
 It's important to send an email or message to everyone involved thanking them for their efforts. In particular, thank the author for contributing and encourage them to think of us again in future. It's also worth giving the author some ideas on promoting their lesson. The most-used lessons always have authors' energies behind them. For example authors should be encouraged to:
 
 - Tweet at least 3 times about their lesson (with a link).

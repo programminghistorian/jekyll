@@ -9,6 +9,13 @@ module MyModule
       # To skip running this plugin, pass skip_yaml_check: true in a config file
       unless site.config["skip_yaml_check"]
 
+      def format_red(error)
+        # ANSI codes to color the warnings red
+        red = "\e[31m"
+        clear = "\e[0m"
+        "#{red}#{error}#{clear}"
+      end
+
       # Empty array to collect all errors across the site
       total_errors = Array.new
 
@@ -31,6 +38,9 @@ module MyModule
 
       # Find all the pages that represent non-retired lessons
       lessons = site.pages.select{|i| i.data["lesson"] && !i.data["retired"]}
+
+      # Collect valid author names from ph_authors.yml
+      valid_authors = site.data["ph_authors"].map{|t| t["name"]}
 
       lessons.each do |p|
 
@@ -101,11 +111,11 @@ module MyModule
           end
         end
 
-        def format_red(error)
-          # ANSI codes to color the warnings red
-          red = "\e[31m"
-          clear = "\e[0m"
-          "#{red}#{error}#{clear}"
+        # Check if page author names have exact matches in the ph_authors.yml
+        p.data["authors"].each do |a|
+          unless valid_authors.include?(a)
+            page_errors.push("'#{a}' is not currently listed in ph_authors.yml. Check your spelling.")
+          end
         end
 
         unless page_errors.empty?
@@ -121,6 +131,38 @@ module MyModule
 
           # Finally, add all errors on the page to the master error list
           total_errors.concat(page_errors)
+        end
+      end
+
+      blog_posts = site.posts
+
+      blog_posts.docs.each do |p|
+
+        post_errors = Array.new
+
+        if p.data["authors"].nil?
+          post_errors.push("'authors' field is missing.")
+        else
+          p.data["authors"].each do |a|
+            unless valid_authors.include?(a)
+              post_errors.push("'#{a}' is not currently listed in ph_authors.yml. Check your spelling.")
+            end
+          end
+        end
+        
+        unless post_errors.empty?
+          # Throw a warning with the filename
+          warn format_red("* In #{p.data["slug"]}:")
+          
+          # Add some formatting to the errors and then throw them
+          unit_errors = post_errors.map{|e| "  - [ ] #{e}"}
+
+          unit_errors.each do |e|
+            warn format_red(e)
+          end
+
+          # Finally, add all errors on the page to the master error list
+          total_errors.concat(post_errors)
         end
       end
 
