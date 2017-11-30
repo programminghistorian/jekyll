@@ -57,10 +57,10 @@
  - type: archive
     label:
     en: Archivist
-    es: FIXME
+    es: Archivista
     definition:
     en: Responsible for archiving the project
-    es: FIXME   
+    es: Responsable del archivo del proyecto   
 # --- Derived roles ---
 - type: ombuds-es
   label:
