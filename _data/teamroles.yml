@@ -54,6 +54,13 @@
   definition:
     en: First point of contact for authors with lesson ideas
     es: Primer contacto para autores con ideas de lecciones
+ - type: archive
+    label:
+    en: Archivist
+    es: FIXME
+    definition:
+    en: Responsible for archiving the project
+    es: FIXME   
 # --- Derived roles ---
 - type: ombuds-es
   label:
