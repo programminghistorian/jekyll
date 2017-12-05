@@ -274,6 +274,7 @@
   team_roles:
    - editorial
    - board
+   - archive
 
 - name: Amanda Morton
   team: false
