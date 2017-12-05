@@ -54,11 +54,11 @@
   definition:
     en: First point of contact for authors with lesson ideas
     es: Primer contacto para autores con ideas de lecciones
- - type: archive
-    label:
+- type: archive
+  label:
     en: Archivist
     es: Archivista
-    definition:
+  definition:
     en: Responsible for archiving the project
     es: Responsable del archivo del proyecto   
 # --- Derived roles ---
