@@ -12,6 +12,8 @@ reviewers:
 - William J. Turkel
 translator:
 - Víctor Gayol
+translation-editor:
+- Maria José Afanador-Llach
 translation-reviewer:
 - Antonio Rojas Castro
 - Maria José Afanador-Llach
