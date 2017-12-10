@@ -11,6 +11,8 @@ reviewers:
 - Lisa Spiro
 translator:
 - Antonio Rojas Castro
+translation-editor:
+- Víctor Gayol
 translation-reviewer:
 - María José Afanador-Llach
 - Víctor Gayol

@@ -12,6 +12,8 @@ translator:
 - Jairo A. Melo
 translation-editor: 
 - Víctor Gayol
+translation-editor:
+- Antonio Rojas Castro
 translation-reviewer:
 - Carlos Loz
 - Antonio Rojas Castro

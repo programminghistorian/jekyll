@@ -12,6 +12,8 @@ reviewers:
 - Nancy Lemay
 translator:
 - Víctor Gayol
+translation-editor:
+- María José Afanador-Llach
 translation-reviewer:
 - Juan Cobo
 - Maria José Afanador

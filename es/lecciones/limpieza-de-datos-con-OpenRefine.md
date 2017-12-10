@@ -13,6 +13,8 @@ editors:
 - Adam Crymble
 translator:
 - María-Jesús Colmenero-Ruiz
+translation-editor:
+- Antonio Rojas Castro
 translation-reviewer:
 - Antonio Rojas Castro
 - Luisina Silva
