@@ -38,7 +38,7 @@ Para esta lección vamos a trabajar con dos archivos de audio: una grabación de
 
 ## Trabajar con Audacity
 
-Primero, descarga los archivos necesarios
+Primero, descarga los archivos necesarios.
 
 Vas a necesitar el [archivo en .mp3 de las Variaciones Goldberg de Bach](https://programminghistorian.org/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3). Para descargarlo, haz click con el botón derecho [aquí](https://programminghistorian.org/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3) y selecciona "guardar como" para guardar el archivo en tu computadora como un MP3.
 
@@ -85,13 +85,13 @@ Hemos cargado la introducción musical para nuestro podcast. Continuemos graband
 
 - Para empezar a grabar en *Audacity*, presiona el círculo rojo en la parte superior izquierda de la venta de *Audacity*. No te preocupes demasiado en conseguir la calidad adecuada; a continuación, trabajaremos en la edición del archivo sonoro.
 
-- Haz tu mejor voz de radiolocutor en dirección de tu computadora, y cuando estés listo, da clic en el rectángulo para detener la grabación.
+- Haz tu mejor voz de radio-locutor en dirección de tu computadora, y cuando estés listo, da clic en el rectángulo para detener la grabación.
 
 Se mostrará algo parecido a esto:
 
 ![Dos pistas cargadas en Audacity](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-5.png)
 
-Nuestra grabación original de “Bach” se mantiene en la parte superior de la interface, mientras que nuestra nueva grabación está por debajo de ella. De forma predeterminada, *Audacity* no sobrescribirá una grabación anterior. Por el contrario, aísla ambos sonidos o pistas, permitiéndonos manipular componentes separados antes de mezclarlos en una grabación final. Podemos hacer cambios a uno sin afectar al otro. Observa cómo, con respecto al tiempo, la nueva pista se grabó de manera predeterminada al principio del proyecto de Audacity. Por ahora, las pistas de “Bach” y la vocal comienzan al mismo tiempo. Existen otras imperfecciones potenciales en tu grabación única, algunas de las cuales podemos corregir.
+Nuestra grabación original de “Bach” se mantiene en la parte superior de la interface, mientras que nuestra nueva grabación está por debajo de ella. De forma predeterminada, *Audacity* no sobreescribirá una grabación anterior. Por el contrario, aísla ambos sonidos o pistas, permitiéndonos manipular componentes separados antes de mezclarlos en una grabación final. Podemos hacer cambios a uno sin afectar al otro. Observa cómo, con respecto al tiempo, la nueva pista se grabó de manera predeterminada al principio del proyecto de Audacity. Por ahora, las pistas de “Bach” y la vocal comienzan al mismo tiempo. Existen otras imperfecciones potenciales en tu grabación única, algunas de las cuales podemos corregir.
 
 Finalmente, observa cómo en mi ejemplo existen dos formas de onda para la grabación de Bach, pero solo una para la grabación de mi voz. La grabación de Bach fue hecha en estéreo, lo que significa que había dos canales de entrada, mientras que la grabación de mi voz fue hecha en *monoauraL*. *Audacity* permite grabar en ambos, y cualquiera de las dos funcionará para esta lección, así que no te preocupes si tu grabación aparece en estéreo. Puedes cambiar de mono a estéreo y viceversa desde “Editar”, disponible en la sección “Barra de herramientas” del menú “ver”. Para más información sobre mono contra estéreo, revista esta [*lectura*] (http://www.diffen.com/difference/Mono_vs_Stereo/) (en inglés).
 
@@ -121,19 +121,19 @@ Si sólo seleccionaste una pequeña porción de audio, es posible que no puedas 
 
 ![Pista después del desvanecimiento inicial](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-9.png)
 
-El fundido de entrada disminuyó dramáticamente la amplitud inicial e introdujo cambios graduales de amplitud a lo largo de las secciones resaltadas de la pista, suavizando y creando la percepción de un incremento en el volumen. 
+El fundido de entrada disminuyó dramáticamente la amplitud inicial e introdujo cambios graduales de amplitud a lo largo de las secciones destacadas de la pista, suavizando y creando la percepción de un incremento en el volumen. 
 
 - Repite esto al final de la pista, pero ahora con “desvanecer progresivamente”
 
 Tu pista estará configurada para ser insertada suavemente en cualquier parte del archivo. 
 
-La eliminación del silencio y del sonido no deseado preparó el clip, pero aún tenemos que moverlo hacia la marca de tiempo que queremos. Queremos ubicarlo en la parte apropiada del podcast, después de que la música introductoria se haya reproducido un poco. Para mover una pista horizontalmente en el eje de las X del diagrama de onda y reasignarle una nueva posición en el tiempo, usa la herramienta de cambio de tiempo. Con esta herramienta seleccionada, al hacer clic en una pista de sonido te permite moverla horizontalmente en el tiempo, en relación con las otras pistas. 
+La eliminación del silencio y del sonido no deseado preparó el clip, pero aún tenemos que moverlo hacia la marca de tiempo que queremos. Queremos ubicarlo en la parte apropiada del podcast, después de que la música introductoria se haya reproducido un poco. Para mover una pista horizontalmente en el eje de las X del diagrama de onda y re-asignarle una nueva posición en el tiempo, usa la herramienta de cambio de tiempo. Con esta herramienta seleccionada, al hacer clic en una pista de sonido te permite moverla horizontalmente en el tiempo, en relación con las otras pistas. 
 
 - Mueve nuestro clip vocal hacia la derecha, para que comience después de que la música introductoria se haya reproducido durante algunos segundos. 
 
 ![Reposicionamiento del clip de audio en el tiempo](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-10.png)
 
-Si el volumen de tu voz, en relación con la música introductoria, te parece desbalanceado, puedes reorganizarlos para que estén más equilibrados. El volumen de una pista en particular se puede ajustar utilizando el control deslizante de volumen de la pista, ubicado a la izquierda del panel de la pista. Éste parece una pequeña escala -/+:
+Si el volumen de tu voz, en relación con la música introductoria, te parece desequilibrado, puedes reorganizarlos para que estén más equilibrados. El volumen de una pista en particular se puede ajustar utilizando el control deslizante de volumen de la pista, ubicado a la izquierda del panel de la pista. Éste parece una pequeña escala -/+:
 
 ![Barra de desplazamiento de volumen](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-11.png)
 
@@ -143,7 +143,7 @@ Pero eventualmente vamos a querer cambiar el enfoque de la pista por completo de
 
 - Alinea lo que queda con tu pista de voz usando la barra de desplazamiento de control de tiempo, para que las dos pistas se sobrepongan ligeramente.
 
-- Después usa la herramienta de selección para hacer clic y arrastrar la sección en la que se sobrepondrán, comenzando con la pista superior y terminando con la inferior. Ambas pistas deben de estar resaltadas. 
+- Después usa la herramienta de selección para hacer clic y arrastrar la sección en la que se sobrepondrán, comenzando con la pista superior y terminando con la inferior. Ambas pistas deben de estar destacadas. 
 
 ![Resaltado sobre las pistas para la transición](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-12.png)
 
@@ -165,4 +165,4 @@ Al hacer esto, mezclarás las múltiples pistas en un solo archivo de audio, y t
 
 Existe un rango de diferentes opciones para refinar el proceso de exportación, pero el más importante es “tipo de archivo”. MP3 y Ogg son buenas opciones para el audio destinado a ser mostrado en la web, ya que ambos comprimen los archivos para que sean rápidos de cargar. Para mejores resultados, puedes incluir ambos formatos y sólo mostrar uno como una alternativa cuando alguno no sea compatible con el navegador web del usuario.  Para mayor información, *NCH Software* ofrece un [buen desglose técnico para sus diferentes opciones](http://www.nch.com.au/acm/formats.html), mientras que Jonathan Sterne ha hecho un [trabajo fascinante](https://www.dukeupress.edu/MP3/) sobre las implicaciones culturales de tales decisiones de formato. Y la W3Schools ofrece una [buena comparación](https://www.w3schools.com/html/html5_audio.asp) de estos formatos usados en el desarrollo web.
 
-¡Felicidades! Haz producido exitosamente un pequeño podcast. Puede que no parezca mucho, pero con frecuencia yo uso estas mismas recomendaciones para presentaciones, sitios web y cuestiones académicas. De ninguna manera esta lección pretende agotar los múltiples temas al respecto, pero debe haberte proporcionado algunas herramientas básicas para trabajar con sonido en proyectos de humanidades digitales. 
+¡Felicidades! Has producido exitosamente un pequeño podcast. Puede que no parezca mucho, pero con frecuencia yo uso estas mismas recomendaciones para presentaciones, sitios web y cuestiones académicas. De ninguna manera esta lección pretende agotar los múltiples temas al respecto, pero debe haberte proporcionado algunas herramientas básicas para trabajar con sonido en proyectos de humanidades digitales. 
