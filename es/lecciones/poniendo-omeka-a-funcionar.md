@@ -10,6 +10,8 @@ editors:
 - Adam Crymble
 translator:
 - Maria José Afanador-Llach
+translation-editor:
+- Antonio Rojas Castro
 translation-reviewer:
 - Antonio Rojas Castro
 - Alicia Calvo

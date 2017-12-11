@@ -242,8 +242,6 @@ Auto-completion with the tab key also provides more information about what you c
 
 The Extracted Features dataset does not hold all the metadata that the HathiTrust has for the book. More in-depth metadata like genre and subject class needs to be grabbed from other sources, such as the [HathiTrust Bibliographic API](https://www.hathitrust.org/bib_api). The URL to access this information can be retrieved with `vol.ht_bib_url`.
 
-An additional data source for metadata is the [HTRC Solr Proxy](https://wiki.htrc.illinois.edu/display/COM/Solr+Proxy+API+User+Guide), which allows searches for many books at a time, but only for Public Domain books. `vol.metadata` can ask this source for metadata straight from your code. Remember that pinging HTRC adds overhead, so an efficient large-scale algorithm should avoid `vol.metadata`.
-
 ## Our First Feature Access: Visualizing Words Per Page
 
 It's time to access the first features of `vol`: a table of total words for every single page. These can be accessed by calling `vol.tokens_per_page()`. Try the following code.
