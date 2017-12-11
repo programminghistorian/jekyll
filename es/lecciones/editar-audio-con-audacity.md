@@ -21,7 +21,7 @@ redirect_from: /es/lessons/editing-audio-with-audacity
 difficulty: 1
 activity: transforming
 topics: [data-manipulation]
-abstract: “Con esta lección aprenderás a utilizar Audacity para cargar, editar, mezclar y exportar archivos de audio.”   
+abstract: "Con esta lección aprenderás a utilizar Audacity para cargar, editar, mezclar y exportar archivos de audio."   
 ---
 
 {% include toc.html %}
