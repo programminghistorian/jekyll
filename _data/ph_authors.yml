@@ -98,7 +98,7 @@
 
 - name: Maria José Afanador-Llach
   url: "http://www.mariajoseafanador.com"
-  email: mariajose@neogranadina.org
+  email: mj.afanador28@uniandes.edu.co
   twitter: mariajoafana
   github: mariajoafana
   team: true
@@ -110,13 +110,10 @@
         Fundación Histórica Neogranadina, Colombia.
   bio:
     en: |
-        Maria José Afanador-Llach works in the Fundación Histórica Neogranadina,
-        a non-profit organization digitizing endangered colonial archives in Colombia and promoting
-        digital humanities projects. She is also a lecturer in digital humanities at the Universidad de los Andes in Bogotá, Colombia.
+        Maria José Afanador-Llach is an assistant professor of Digital Humanities and History at the Universidad de los Andes, Bogotá (Colombia), and member of the board of Directors at the Fundación Histórica Neogranadina, a non-profit organization digitizing endangered colonial archives in Colombia and promoting digital humanities projects.
     es: |
-        Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una organización sin
-        ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro, así como promover proyectos de humanidades
-        digitales. Es profesora de humanidades digitales en la Universidad de los Andes en Bogotá, Colombia.
+        Maria José Afanador-Llach es profesora asistente de humanidades digitales e historia en la Universidad de los Andes, Bogotá (Colombia) y es miembro del consejo directivo de la Fundación Histórica Neogranadina, una organización sin
+        ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro y a promover proyectos de humanidades digitales.
   team_roles:
    - spanish
    - ombuds-es
