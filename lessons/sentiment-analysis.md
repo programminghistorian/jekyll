@@ -6,7 +6,7 @@ layout: lesson
 slug: sentiment-analysis
 date: 2017-01-15
 authors:
-    - Zo‘ Wilkinson Salda–a
+    - Zo&#235; Wilkinson Salda&#241;a
 reviewers:
     - Anandi Silva Knuppel
     - Puteri Zarina Megat Khalid
