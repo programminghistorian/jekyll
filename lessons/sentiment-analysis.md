@@ -4,7 +4,7 @@ title: |
 collection: lessons
 layout: lesson
 slug: sentiment-analysis
-date: 2017-01-15
+date: 2018-01-15
 authors:
     - Zo&#235; Wilkinson Salda&#241;a
 reviewers:
@@ -38,7 +38,7 @@ This lesson uses [sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_an
 
 In 1977, mathematician [John Tukey](https://en.wikipedia.org/wiki/John_Tukey) described exploratory data analysis as a form of detective work without which scholars would too frequently miss out on interesting but less obvious findings:
 
-> "Unless the detective finds the clues, judge or jury has nothing to consider. Unless exploratory data analysis uncovers indications, usually quantitative ones, there is likely to be nothing for confirmation data analysis to consider." (Tukey 1977:3) 
+> "Unless the detective finds the clues, judge or jury has nothing to consider. Unless exploratory data analysis uncovers indications, usually quantitative ones, there is likely to be nothing for confirmation data analysis to consider." (Tukey 1977:3)
 
 ## Exploring Text with Sentiment Analysis
 
@@ -54,7 +54,7 @@ To get you started, this lesson provides an introduction to sentiment analysis t
 
 Written correspondences such as letters, e-mails, chat logs, tweets, and text message histories can provide researchers with invaluable insight into their authors. Texts are often rich with emotions and information not disclosed elsewhere. A researcher may learn about the opinions that their subjects held on various topics or about certain events. It could also be possible to learn about the relationships that individuals developed and maintained within complex organizations or networks.
 
-While methodologies such as [ethnography](https://en.wikipedia.org/wiki/Ethnography), close reading, and [discourse analysis](https://en.wikipedia.org/wiki/Discourse_analysis) all help researchers analyze historical correspondence, these methods face significant challenges when the number of texts grows from dozens or hundreds to thousands or millions. Computational textual analysis provides a set of methods for making visible trends, dynamics, and relationships that may be hidden to the human reader by problems of scale. Furthermore, many computation methods produce findings that can be expressed quantitatively, and that may subsequently allow the researcher to conduct [statistical modeling](https://en.wikipedia.org/wiki/Statistical_model), information visualization, and [machine learning](https://en.wikipedia.org/wiki/Machine_learning) to make further discoveries. 
+While methodologies such as [ethnography](https://en.wikipedia.org/wiki/Ethnography), close reading, and [discourse analysis](https://en.wikipedia.org/wiki/Discourse_analysis) all help researchers analyze historical correspondence, these methods face significant challenges when the number of texts grows from dozens or hundreds to thousands or millions. Computational textual analysis provides a set of methods for making visible trends, dynamics, and relationships that may be hidden to the human reader by problems of scale. Furthermore, many computation methods produce findings that can be expressed quantitatively, and that may subsequently allow the researcher to conduct [statistical modeling](https://en.wikipedia.org/wiki/Statistical_model), information visualization, and [machine learning](https://en.wikipedia.org/wiki/Machine_learning) to make further discoveries.
 
 ## A Case Study: the Enron E-mail Corpus
 
@@ -89,7 +89,7 @@ To complete the example below, you will need to install the following:
 
 The Natural Language Toolkit (NLTK) is a collection of reusable Python tools (also known as a Python [library](https://en.wikipedia.org/wiki/Library_(computing)) that help researchers apply a set of computational methods to texts. The tools range from methods of breaking up text into smaller pieces, to identifying whether a word belongs in a given language, to sample texts that researchers can use for training and development purposes (such as the complete text of *Moby Dick*).
 
-If you need any help downloading and installing the module for [Python 3](https://www.python.org/download/releases/3.0/), take a look at the [Installing Python Modules with pip lesson](https://programminghistorian.org/lessons/installing-python-modules-pip) by Fred Gibbs. 
+If you need any help downloading and installing the module for [Python 3](https://www.python.org/download/releases/3.0/), take a look at the [Installing Python Modules with pip lesson](https://programminghistorian.org/lessons/installing-python-modules-pip) by Fred Gibbs.
 
 In our case, we will be using two NLTK tools in particular:
 
@@ -106,14 +106,14 @@ nltk.download('vader_lexicon')
 nltk.download('punkt')
 ```
 
-You can save this file as "`installation.py`". If you are unsure how to save and run Python scripts, please review the appropriate tutorial on setting up an 'Integrated Development Environment' using Python, replacing the command '%(python) %f' with '%(python3) %f' when you reach that point in the tutorial. 
+You can save this file as "`installation.py`". If you are unsure how to save and run Python scripts, please review the appropriate tutorial on setting up an 'Integrated Development Environment' using Python, replacing the command '%(python) %f' with '%(python3) %f' when you reach that point in the tutorial.
 
 1. Setting Up an Integrated Development Environment for Python [Windows](https://programminghistorian.org/lessons/windows-installation).
 2. Setting Up an Integrated Development Environment for Python [Mac](https://programminghistorian.org/lessons/mac-installation).
 3. Setting Up an Integrated Development Environment for Python [Linux](https://programminghistorian.org/lessons/linux-installation).
 
 If you do know how to run Python scripts, run the file using Python 3.
- 
+
 [*VADER*](http://www.nltk.org/_modules/nltk/sentiment/vader.html "Vader page in the NLTK Documentation") (Valence Aware Dictionary and sEntiment Reasoner) is a sentiment intensity tool added to NLTK in 2014. Unlike other techniques that require training on related text before use, *VADER* is ready to go for analysis without any special setup. *VADER* is unique in that it makes fine-tuned distinctions between varying degrees of positivity and negativity. For example, *VADER* scores "comfort" moderately positively and "euphoria" extremely positively. It also attempts to capture and score textual features common in informal online text such as capitalizations, exclamation points, and emoticons, as shown in the table below:
 
 {% include figure.html filename="sentiment-analysis1.png" caption="Vader captures slight gradations in enthusiasm. (Hutto and Gilbert, 2014)" %}
@@ -126,9 +126,9 @@ While *VADER* is a good general purpose tool for both contemporary and historica
 
 Consider the following passage:
 
->"Like you, I am getting very frustrated with this process. I am genuinely trying to be as reasonable as possible. I am not trying to "hold up" the deal at the last minute. I'm afraid that I am being asked to take a fairly large leap of faith after this company (I don't mean the two of you -- I mean Enron) has screwed me and the people who work for me." 
+>"Like you, I am getting very frustrated with this process. I am genuinely trying to be as reasonable as possible. I am not trying to "hold up" the deal at the last minute. I'm afraid that I am being asked to take a fairly large leap of faith after this company (I don't mean the two of you -- I mean Enron) has screwed me and the people who work for me."
 
-This is the opening paragraph from January 2012 e-mail from Timothy Belden to Louise Kitchen and John Lavorato regarding the "Employment Contracts Deal". Belden directed Enron's Energy Services, and would later be convicted of conspiracy to drive up energy costs in California that led to a statewide energy crisis. 
+This is the opening paragraph from January 2012 e-mail from Timothy Belden to Louise Kitchen and John Lavorato regarding the "Employment Contracts Deal". Belden directed Enron's Energy Services, and would later be convicted of conspiracy to drive up energy costs in California that led to a statewide energy crisis.
 
 Despite the feeling of frustration and anxiety you may glean from the paragraph as a whole, notice the ambivalence of the specific phrases within the paragraph. Some appear to express good faith efforts, e.g.  "not trying to 'hold up' the deal" and "genuinely trying". And yet, there are even stronger negative statements about "getting frustrated", "I am afraid", and "this company... has screwed me and the people who work for me."
 
@@ -225,7 +225,7 @@ compound: -0.3804, neg: 0.093, neu: 0.836, pos: 0.071,
 
 <div class="alert alert-warning"> Be careful to use three single quotes to wrap the <em>message_text</em> string above. If you use double quotes, the string will end early due to the quotation marks within the text</div>
 
-*VADER* collects and scores negative, neutral, and positive words and features (and accounts for factors like negation along the way). The "neg", "neu", and "pos" values describe the fraction of weighted scores that fall into each category. *VADER* also sums all weighted scores to calculate a "compound" value normalized between -1 and 1; this value attempts to describe the overall affect of the entire text from strongly negative (-1) to strongly positive (1). In this case, the *VADER* analysis describes the passage as slightly-to-moderately negative (-0.3804). We can think of this value as estimating the overall impression of an average reader when considering the e-mail as a whole, despite some ambiguity and ambivalence along the way. 
+*VADER* collects and scores negative, neutral, and positive words and features (and accounts for factors like negation along the way). The "neg", "neu", and "pos" values describe the fraction of weighted scores that fall into each category. *VADER* also sums all weighted scores to calculate a "compound" value normalized between -1 and 1; this value attempts to describe the overall affect of the entire text from strongly negative (-1) to strongly positive (1). In this case, the *VADER* analysis describes the passage as slightly-to-moderately negative (-0.3804). We can think of this value as estimating the overall impression of an average reader when considering the e-mail as a whole, despite some ambiguity and ambivalence along the way.
 
 Reading the text, I would be inclined to agree with this overall assessment. The output value of -0.3804 is negative but not very strongly negative. Researchers may wish to set a minimum threshold for positivity or negativity before they declare a text definitively positive or negative -- for instance, the official *VADER* documentation suggests a threshold of -0.5 and 0.5, which this particular excerpt would fail to meet (in other words, this text is negative, but not definitively negative).
 
@@ -238,14 +238,14 @@ Looks great.  I think we should have a least 1 or 2 real time traders in Calgary
 ```
 
 ```
-I think we are making great progress on the systems side.  I would like to 
-set a deadline of November 10th to have a plan on all North American projects 
-(I'm ok if fundementals groups are excluded) that is signed off on by 
-commercial, Sally's world, and Beth's world.  When I say signed off I mean 
-that I want signitures on a piece of paper that everyone is onside with the 
-plan for each project.  If you don't agree don't sign. If certain projects 
-(ie. the gas plan) are not done yet then lay out a timeframe that the plan 
-will be complete.  I want much more in the way of specifics about objectives 
+I think we are making great progress on the systems side.  I would like to
+set a deadline of November 10th to have a plan on all North American projects
+(I'm ok if fundementals groups are excluded) that is signed off on by
+commercial, Sally's world, and Beth's world.  When I say signed off I mean
+that I want signitures on a piece of paper that everyone is onside with the
+plan for each project.  If you don't agree don't sign. If certain projects
+(ie. the gas plan) are not done yet then lay out a timeframe that the plan
+will be complete.  I want much more in the way of specifics about objectives
 and timeframe.
 
 Thanks for everyone's hard work on this.
@@ -263,35 +263,35 @@ In this section, we will introduce you to the process of selecting the scope of 
 Message-ID: <3764632.1075857565248.JavaMail.evans@thyme>
 Date: Mon, 23 Oct 2000 09:14:00 -0700 (PDT)
 From: jeffrey.shankman@enron.com
-To: john.nowlan@enron.com, don.schroeder@enron.com, david.botchlett@enron.com, 
+To: john.nowlan@enron.com, don.schroeder@enron.com, david.botchlett@enron.com,
         chris.mahoney@enron.com, ross.koller@enron.com
-Subject: 
+Subject:
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
 X-From: Jeffrey A Shankman
 X-To: John L Nowlan, Don Schroeder, David J Botchlett, Chris Mahoney, Ross Koller
-X-cc: 
-X-bcc: 
+X-cc:
+X-bcc:
 X-Folder: \Jeffrey_Shankman_Jun2001\Notes Folders\Sent
 X-Origin: Shankman-J
 X-FileName: jshankm.nsf
 
-It seems to me we are in the middle of no man's land with respect to the 
-following:  Opec production speculation, Mid east crisis and renewed 
-tensions, US elections and what looks like a slowing economy  (?),  and no 
-real weather anywhere in the world.  I think it would be most prudent to play 
-the markets from a very flat price position and try to day trade more 
-aggressively.  I have no intentions of outguessing Mr. Greenspan, the US. 
-electorate, the Opec ministers and their new important roles, The Israeli and 
-Palestinian leaders, and somewhat importantly, Mother Nature.  Given that, 
-and that we cannot afford to lose any more money, and that Var seems to be a 
-problem, let's be as flat as possible. I'm ok with spread risk  (not front to 
+It seems to me we are in the middle of no man's land with respect to the
+following:  Opec production speculation, Mid east crisis and renewed
+tensions, US elections and what looks like a slowing economy  (?),  and no
+real weather anywhere in the world.  I think it would be most prudent to play
+the markets from a very flat price position and try to day trade more
+aggressively.  I have no intentions of outguessing Mr. Greenspan, the US.
+electorate, the Opec ministers and their new important roles, The Israeli and
+Palestinian leaders, and somewhat importantly, Mother Nature.  Given that,
+and that we cannot afford to lose any more money, and that Var seems to be a
+problem, let's be as flat as possible. I'm ok with spread risk  (not front to
 backs, but commodity spreads).  
 
 
-The morning meetings are not inspiring, and I don't have a real feel for 
-everyone's passion with respect to the markets.  As such, I'd like to ask 
+The morning meetings are not inspiring, and I don't have a real feel for
+everyone's passion with respect to the markets.  As such, I'd like to ask
 John N. to run the morning meetings on Mon. and Wed.  
 
 
@@ -302,9 +302,9 @@ In the message text of the e-mail, Shankman outlines a corporate strategy for mo
 
 Before we proceed, take a minute to reflect on the message. How do you feel like a typical reader would describe the emotional intensity of this e-mail? Given what you now know about *VADER*, what ratio of positivity, negativity, and neutrality do you expect the sentiment analysis tool to find in the message? Finally, what do you think the compound score will suggest about the overall affect in the message?
 
-As we discussed above, sentiment analysis does not provide an objective output so much as guiding indicators that reflect our choice and calibration of analytical tools. Perhaps the most important element of calibration is selecting the **scope** of the text being analyzed, meaning how much of a message we feed into the tool at once. In our case, we can determine the scope of analysis by deciding between analyzing the entire message as a single unit, or instead by breaking the message into smaller units like sentences and analyzing each separately. 
+As we discussed above, sentiment analysis does not provide an objective output so much as guiding indicators that reflect our choice and calibration of analytical tools. Perhaps the most important element of calibration is selecting the **scope** of the text being analyzed, meaning how much of a message we feed into the tool at once. In our case, we can determine the scope of analysis by deciding between analyzing the entire message as a single unit, or instead by breaking the message into smaller units like sentences and analyzing each separately.
 
-First, let's consider a *message-level approach*, in which we analyze the message as a single block: 
+First, let's consider a *message-level approach*, in which we analyze the message as a single block:
 
 ```
 # Continue with the same code the previous section, but replace the *message_text* variable with the new e-mail text:
@@ -413,4 +413,4 @@ Klimt, B., & Yang, Y. (2004). The enron corpus: A new dataset for email classifi
 
 Tukey, J.W. (1977). *Exploratory Data Analysis*. Addison-Wesley Publishing Company
 
-Quinn, J. (2006, November 14). Ex-Enron man goes back into energy. Retrieved January 10, 2018, from http://www.telegraph.co.uk/finance/2950645/Ex-Enron-man-goes-back-into-energy.html 
+Quinn, J. (2006, November 14). Ex-Enron man goes back into energy. Retrieved January 10, 2018, from http://www.telegraph.co.uk/finance/2950645/Ex-Enron-man-goes-back-into-energy.html
