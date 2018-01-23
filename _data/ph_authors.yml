@@ -812,3 +812,21 @@
   bio:
     en: |
         Zo&#235; Wilkinson Salda&#241;a is a graduate student at the University of Michigan School of Information, where she focuses on the intersection of critical data literacies, academic libraries, and data-informed learning.
+
+- name: José Antonio Motilla
+  url: "http://jamotilla.net"
+  twitter: jamotilla
+  email: jamotilla@gmail.com
+  github: jamotilla
+  team: true
+  sortname: Motilla
+  affiliation:
+    en: |
+        Universidad Autónoma de San Luis Potosí, México.
+    es: |
+        Universidad Autónoma de San Luis Potosí, México.
+  bio:
+    en: |
+        José Antonio Motilla is a researcher of history, art, culture and digital humanities at the Universidad Autónoma de San Luis Potosí, México. Director of the “Ricardo B. Anaya" Library (San Luis Potosí, México). 
+    es: |
+        José Antonio Motilla es investigador de historia, arte, cultura y humanidades digitales en la Universidad Autónoma de San Luis Potosí, México. Director de la biblioteca "Ricardo B. Anaya" (San Luis Potosí, México). 
