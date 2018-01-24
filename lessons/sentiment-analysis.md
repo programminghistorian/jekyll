@@ -399,7 +399,7 @@ What do you notice about the distribution of scores? How can you imagine collect
 
 # Acknowledgments
 
-My sincere thanks to Justin Joque, Visualization Librarian at the University of Michigan Library and the [Digital Project Studio](https://clarkdatalabs.github.io) for support in formulating the ideas and approach behind this lesson.
+My sincere thanks to Justin Joque, Visualization Librarian at the University of Michigan Library and the [Digital Projects Studio](https://clarkdatalabs.github.io) for support in formulating the ideas and approach behind this lesson.
 
 Many thanks as well to Adam Crymble, who provided extensive insight and support throughout the editorial process. And thank you to Anandi Silva Knuppel and Puteri Zarina Megat Khalid for their thoughtful comments. 
 
