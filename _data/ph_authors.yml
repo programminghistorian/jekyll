@@ -833,3 +833,24 @@
   team_roles:
    - spanish
    - board
+
+- name: Jennifer Isasi
+  url: "http://jenniferisasi.com"
+  twitter: jenniferisve
+  email: jenniferbibat@gmail.com
+  github: jenniferisasi
+  team: true
+  sortname: Isasi
+  affiliation: 
+    en: |
+        University of Nebraska at Kearney, USA.
+    es: |
+        Universidad de Nebraska en Kearney, Estados Unidos. 
+  bio: 
+    en: | 
+        Jennifer Isasi is a Lecturer of Spanish at the University of Nebraska at Kearney, and a PhD on Hispanic Studies. 
+    es: |
+        Jennifer Isasi es profesora numeraria de español en la Universidad de Nebraska en Kearney y doctora en Estudios Hispánicos. 
+  team_roles:
+    - spanish
+    - board
