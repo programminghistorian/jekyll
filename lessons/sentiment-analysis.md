@@ -397,6 +397,12 @@ But even at this level, *VADER* also runs into a number of errors. The sentence 
 
 What do you notice about the distribution of scores? How can you imagine collecting them in a manner that would help you better understand your data and its relationships to the research questions you care about? (Feel free to experiment with different kinds of text in the *message_text* variable to see how the tool responds to different types of language constructions). The code you have just written can be repurposed for any text.
 
+# Acknowledgments
+
+My sincere thanks to Justin Joque, Visualization Librarian at the University of Michigan Library and the [Digital Projects Studio](https://clarkdatalabs.github.io) for support in formulating the ideas and approach behind this lesson.
+
+Many thanks as well to Adam Crymble, who provided extensive insight and support throughout the editorial process. And thank you to Anandi Silva Knuppel and Puteri Zarina Megat Khalid for their thoughtful comments. 
+
 # Works Cited
 
 Barton, D., & Hall, N. (Eds.). (2000). Letter writing as a social practice (Vol. 9). John Benjamins Publishing.
