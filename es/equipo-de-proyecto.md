@@ -39,7 +39,8 @@ All editorial board information should be edited in data/ph_authors.yml. Authors
 * Brandon Walsh, University of Virginia (2017-Present)
 * Anandi Silva Knuppel, Emory University (2017-Present)
 * James Baker, University of Sussex (2017-Present)
-
+* Jos&eacute; Antonio Motilla, Universidad Aut&oacute;noma de San Luis Potosi (2018-Present)
+* Jennifer Isasi, Universidad de Nebraska (2018-Present)
 
 ## Participantes de la comunidad
 
