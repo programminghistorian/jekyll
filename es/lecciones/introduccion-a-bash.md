@@ -8,7 +8,7 @@ translation_date: 2017-29-07
 editors: 
 - Adam Crymble
 reviewers:
-- Melodee Beals
+- M. H. Beals
 - Allison Hegel
 - Charlotte Tupman
 - Adam Crymble

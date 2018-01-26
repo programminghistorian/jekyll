@@ -109,7 +109,7 @@ A big thanks to everyone who has made this project possible thus far. *The Progr
 * Jeanette Sewell, Houston Area Digital Archives
 * Jon Crump, Independent, Seattle
 * Scott Weingart, Indiana University
-* M.H. Beals, Loughborough University
+* M. H. Beals, Loughborough University
 * Patrik Persson, Lund University
 * St&eacute;fan Sinclair, McGill University
 * Kellen Kurschinski, McMaster University

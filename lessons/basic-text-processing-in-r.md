@@ -10,7 +10,7 @@ reviewers:
 - John Russell
 review-ticket: 34
 editors: 
-- Jeri E. Wieringa
+- Jeri Wieringa
 difficulty: 2
 layout: lesson
 activity: analyzing
