@@ -3,6 +3,9 @@
   twitter: williamjturkel
   github: williamjturkel
   team: false
+  team_start: 2008
+  team_end: 2015
+  institution: Western University
   bio:
     en: |
         William J. Turkel is Professor of History at the
@@ -11,12 +14,19 @@
         William J. Turkel es profesor de Historia en la Universidad de Western
         Ontario.
 
+- name: Alan MacEachern
+  team_start: 2008
+  team_end: 2013
+  institution: Western University
+
 - name: Adam Crymble
   github: acrymble
   email: adam.crymble@gmail.com
   twitter: Adam_Crymble
   url: "http://adamcrymble.org"
   team: true
+  team_start: 2011
+  institution: University of Hertfordshire
   sortname: Crymble
   affiliation:
     en: |
@@ -39,6 +49,9 @@
   github: wcaleb
   url: "http://wcm1.web.rice.edu"
   team: false
+  team_start: 2014
+  team_end: 2017
+  institution: Rice University
   sortname: McDaniel
   bio:
     en: |
@@ -52,6 +65,8 @@
   email: i2millig@uwaterloo.ca
   url: "http://ianmilligan.ca"
   team: true
+  team_start: 2014
+  institution: University of Waterloo
   sortname: Milligan
   affiliation:
     en: |
@@ -83,6 +98,9 @@
   github: fredgibbs
   twitter: fredgibbs
   team: false
+  team_start: 2011
+  team_end: 2017
+  institution: University of New Mexico
   sortname: Gibbs
   bio:
     en: |
@@ -102,6 +120,8 @@
   twitter: mariajoafana
   github: mariajoafana
   team: true
+  team_start: 2016
+  institution: Fundacion Historica Neograndina
   sortname: Afandor-Llach
   affiliation:
     en: |
@@ -125,6 +145,8 @@
   twitter: victor_gayol
   github: vgayolrs
   team: true
+  team_start: 2016
+  institution: El Colegio de Michoacán
   sortname: Gayol
   affiliation:
     en: |
@@ -147,6 +169,8 @@
   twitter: RojasCastroA
   github: arojascastro
   team: true
+  team_start: 2016
+  institution: Cologne Center for eHumanities
   sortname: Rojas Castro
   affiliation:
     en: |
@@ -175,6 +199,9 @@
 
 - name: Evan Taparata
   team: false
+  team_start: 2016
+  team_end: 2016
+  institution: University of Minnesota
   bio:
     en: |
         Evan Taparata is a PhD candidate in history at the University of
@@ -257,6 +284,8 @@
 
 - name: James Baker
   team: true
+  team_start: 2017
+  institution: University of Sussex
   github: drjwbaker
   email: james.baker@sussex.ac.uk
   twitter: j_w_baker
@@ -285,6 +314,9 @@
   email: miriam.posner@gmail.com
   url: "http://miriamposner.com"
   team: false
+  team_start: 2012
+  team_end: 2016
+  institution: UCLA
   bio:
     en: |
         Miriam Posner is the digital humanities program coordinator at the
@@ -296,6 +328,9 @@
   twitter: clioweb
   url: "http://clioweb.org"
   team: false
+  team_start: 2012
+  team_end: 2014
+  institution: University of Virginia
   bio:
     en: |
         Jeremy Boggs is the Design Architect for Digital Research Scholarship
@@ -305,6 +340,9 @@
   twitter: AllisonHegel
   github: ahegel
   team: false
+  team_start: 2013
+  team_end: 2016
+  institution: UCLA
   bio:
     en: |
         Allison Hegel is a PhD candidate in English at UCLA.
@@ -325,6 +363,9 @@
 
 - name: Carrie Sanders
   team: false
+  team_start: 2013
+  team_end: 2014
+  institution: UCLA
   bio:
     en: |
         Carrie Sanders is a Ph.D candidate in history at UCLA.
@@ -382,6 +423,8 @@
 
 - name: Jeri Wieringa
   team: true
+  team_start: 2015
+  institution: George Mason University
   twitter: jerielizabeth
   url: "http://jeriwieringa.com"
   github: jerielizabeth
@@ -494,6 +537,8 @@
   email: mlincoln@getty.edu
   github: mdlincoln
   team: true
+  team_start: 2017
+  institution: Getty Research Institute
   sortname: Lincoln
   affiliation:
     en: |
@@ -525,6 +570,8 @@
   twitter: literature_geek
   url: "http://www.amandavisconti.com"
   team: true
+  team_start: 2016
+  institution: University of Virginia
   sortname: Visconti
   affiliation:
     en: |
@@ -562,6 +609,8 @@
   email: walsh.brandon.michael@gmail.com
   url: "http://walshbr.com/"
   team: true
+  team_start: 2017
+  institution: University of Virginia
   sortname: Walsh
   affiliation:
     en: |
@@ -646,6 +695,8 @@
   twitter: ProvAtlantic
   url: "http://jessicaparr.org/"
   team: true
+  team_start: 2017
+  institution: Simmons College
   sortname: Parr
   affiliation:
     en: |
@@ -730,6 +781,8 @@
   twitter: anandilila
   url: "http://anandileela.com"
   team: true
+  team_start: 2017
+  institution: Emory University
   sortname: Silva
   affiliation:
     en: |
@@ -819,6 +872,8 @@
   email: jamotilla@gmail.com
   github: jamotilla
   team: true
+  team_start: 2018
+  institution: Universidad Autónoma de San Luis Potosi
   sortname: Motilla
   affiliation:
     en: |
@@ -840,6 +895,8 @@
   email: jenniferbibat@gmail.com
   github: jenniferisasi
   team: true
+  team_start: 2018
+  institution: University of Nebraska
   sortname: Isasi
   affiliation: 
     en: |
