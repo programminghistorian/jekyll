@@ -56,9 +56,9 @@ We are especially grateful to the dedicated _Programming Historian_ authors who 
 
 {% include authors_loop.html %} and, hopefully, you! Find out more about [becoming an author](/contribute).
 
-We also thank everyone who has helped to review lessons by reporting issues,
-fixing errors, or conducting formal peer reviews. At the time of writing, this
-has included the following people:
+We also thank everyone who has helped to improve our lessons by reporting
+issues, fixing errors, conducting formal peer reviews, translating, or editing.
+At the time of writing, this has included the following people:
 
 {% include collaborators_loop.html %} and, hopefully, you! Find out more about [how to
 contribute](/contribute).
