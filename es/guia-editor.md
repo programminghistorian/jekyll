@@ -232,8 +232,6 @@ Es muy importante acreditar el trabajo de nuestros traductores, revisores y edit
 
 Si se trata de una traducción, asegúrate de que se mantienen los datos del YAML original, e introduce un campo para el traductor (`translator`), otro para los revisores de la traducción (`translation-reviewer`) y otro más para el editor de la traducción (`translation-editor`).
 
-Los revisores que no hayan trabajado con nosotros en el pasado también deben añadirse en el archivo [reviewers.yml](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/reviewers.yml); de esta manera, el nombre de los revisores aparecerá como parte de nuestro equipo. Por favor, no te olvides de este paso.
-
 ### 5) Añade un nivel de dificultad el archivo YAML
 
 Con el objetivo de ayudar a los lectores a evaluar si una lección se ajusta a sus necesidades y experiencia, proporcionamos un campo "Recomendado para usuarios ____" en el bloque YAML. Actualmente, contamos con tres niveles de dificultad, que se escogen mediante tres códigos numéricos: 1 (introductorio), 2 (intermedio) y 3 (avanzado). En el caso de las lecciones nuevas, para añadir el nivel de dificultad a la lección, debes incluir las siguientes líneas al archivo YAML:
