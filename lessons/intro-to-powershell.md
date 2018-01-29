@@ -8,7 +8,7 @@ reviewers:
 - Erin N. Bush
 - Derek Price
 editors:
-- Jeri Wieringa
+- Jeri E. Wieringa
 difficulty: 1
 activity: transforming
 topics: [data-manipulation, get-ready]

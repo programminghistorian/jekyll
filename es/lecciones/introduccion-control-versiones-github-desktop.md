@@ -14,7 +14,7 @@ translator:
 translation-editor:
 - Víctor Gayol
 translation-reviewer:
-- Maria José Afanador-Llach
+- María José Afanador-Llach
 - Víctor Gayol
 layout: lesson
 difficulty: 1

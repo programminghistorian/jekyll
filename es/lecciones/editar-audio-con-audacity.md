@@ -14,7 +14,7 @@ translator:
 translation-editor:
 - Antonio Rojas Castro
 translation-reviewer:
-- Jairo A. Melo
+- Jairo Antonio Melo Flórez
 - Víctor Gayol
 layout: lesson
 redirect_from: /es/lessons/editing-audio-with-audacity

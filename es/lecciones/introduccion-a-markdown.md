@@ -13,10 +13,10 @@ reviewers:
 translator:
 - Víctor Gayol
 translation-editor:
-- Maria José Afanador-Llach
+- María José Afanador-Llach
 translation-reviewer:
 - Juan Cobo
-- Maria José Afanador-Llach
+- Maria José Afanador
 difficulty: 1
 activity: presenting
 layout: lesson

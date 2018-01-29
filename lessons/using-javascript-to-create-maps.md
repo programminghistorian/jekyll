@@ -6,7 +6,7 @@ authors:
 - Tommy Tavenner
 date: 2017-04-24
 reviewers:
-- Erin N. Bush
+- Erin Bush
 - Jason Heppler
 editors:
 - Caleb McDaniel

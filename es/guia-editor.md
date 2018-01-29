@@ -26,7 +26,7 @@ En *The Programming Historian en español* estamos comprometidos con ofrecer un 
 
 En esta sección encontrarás una declaración de los principios que deben regir *The Programming Historian en español*; también ofrece una pauta sobre el tono y el estilo que debiera predominar en todos los intercambios que tienen lugar en nuestros foros entre traductores, autores, revisores y editores.
 
-El objetivo de *The Programming Historian en español* es ofrecer un entorno abierto en el que la comunidad de participantes sea libre para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros *ombudspersons* [Maria José Afanador-Llach o Víctor Gayol](/es/equipo-de-proyecto).
+El objetivo de *The Programming Historian en español* es ofrecer un entorno abierto en el que la comunidad de participantes sea libre para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros *ombudspersons* [María José Afanador-Llach o Víctor Gayol](/es/equipo-de-proyecto).
 
 ### Seguimiento de lecciones
 
@@ -44,7 +44,7 @@ A continuación, el editor creará un *issue* en el [repositorio de GitHub](http
 
 	Si la lección no es entregada en la [fecha acordada], el editor intentará contactar con el autor o autores de la lección. Si no recibe noticias, el ticket se cerrará. Éste podrá abrirse en el futuro a petición del autor o autores.
 
-	El principal contacto para esta lección es [nombre del editor]. Si se produce algún problema, el autor puede contactar con nuestros ’ombudspersons' (Maria José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
+	El principal contacto para esta lección es [nombre del editor]. Si se produce algún problema, el autor puede contactar con nuestros ’ombudspersons' (María José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
 
 Este texto, sin embargo, puede editarse y adaptarse a las necesidades para reflejar más objetivos o lo que se ha negociado entre el editor y el autor.
 
@@ -84,7 +84,7 @@ Asimismo, me comprometo a mantener la conversación abierta a todo el mundo en G
 Política contra el acoso
 _
 
-El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudspersons' (Maria José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
+El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudspersons' (María José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
 
 ```
 Para las lecciones nuevas, utiliza la siguiente [plantilla](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/PLANTILLA-LECCION.md):
@@ -106,7 +106,7 @@ Asimismo, me comprometo a mantener la conversación abierta a todo el mundo en G
 Política contra el acoso
 _
 
-El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudspersons' (Maria José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
+El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudspersons' (María José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
 
 ```
 
@@ -231,6 +231,8 @@ El siguiente código debe agregarse al texto de la lección, generalmente antes 
 Es muy importante acreditar el trabajo de nuestros traductores, revisores y editores. Así, pues, localiza el  bloque YAML que se encuentra al inicio del tutorial, y añade el nombre de los revisores y de todos los miembros de nuestra comunidad que han contribuido durante el proceso de revisión. Además, crea un campo `editor` y añade tu nombre y de cuantos otros editores hayan contribuido en la publicación. Las instrucciones para dar formato al bloque de YAML se encuentran en la [guía para autores y traductores](/es/guia-para-autores).
 
 Si se trata de una traducción, asegúrate de que se mantienen los datos del YAML original, e introduce un campo para el traductor (`translator`), otro para los revisores de la traducción (`translation-reviewer`) y otro más para el editor de la traducción (`translation-editor`).
+
+Los revisores que no hayan trabajado con nosotros en el pasado también deben añadirse en el archivo [reviewers.yml](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/reviewers.yml); de esta manera, el nombre de los revisores aparecerá como parte de nuestro equipo. Por favor, no te olvides de este paso.
 
 ### 5) Añade un nivel de dificultad el archivo YAML
 
