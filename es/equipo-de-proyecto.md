@@ -26,12 +26,11 @@ All editorial board information should be edited in data/ph_authors.yml. Authors
 
 Agradecemos especialmente a los autores que han contribuido a _Programming Historian_ y que no son miembros del equipo del proyecto:
 
-{% for member in site.data.ph_authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} ¡y esperemos que tú tmabién! Consulta como [convertirte en autor](/es/contribuciones).
+{% include authors_loop.html %} ¡y esperemos que tú tmabién! Consulta como [convertirte en autor](/es/contribuciones).
 
 También queremos dar las gracias a todas las personas que han ayudado revisando lecciones, reportando problemas, arreglando errores, u organizando talleres basados en *The Programming Historian*. En este momento incluye a las siguientes personas:
 
-{% for reviewer in site.data.reviewers %}
-{{reviewer}},{% endfor %} ¡y esperamos que tú tambien! Consulta al respecto [cómo contribuir](/es/contribuciones).
+{% include collaborators_loop.html %} ¡y esperamos que tú tambien! Consulta al respecto [cómo contribuir](/es/contribuciones).
 
 Finalmente, queremos agradecer a aquellas personas que han participado en la organización, ejecución, dirección o apoyo de talleres que involucran al proyecto y al Equipo del Proyecto:
 

@@ -14,8 +14,8 @@ editors:
 translation-editor:
 - Víctor Gayol
 translation-reviewer:
-- José Antonio Motilla Chávez
-- Jairo Antonio Melo Flórez
+- José Antonio Motilla
+- Jairo A. Melo
 layout: lesson
 redirect_from: /es/lessons/creating-network-diagrams-from-historical-sources
 difficulty: 2

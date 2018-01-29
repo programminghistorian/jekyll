@@ -32,14 +32,13 @@ find out [how to contribute](/contribute)!
 
 We are especially grateful to the dedicated _Programming Historian_ authors who are not members of the Project Team:
 
-{% for member in site.data.ph_authors %}{% if member.team == false %} {{member.name}},{% endif %}{% endfor %} and, hopefully, you! Find out more about [becoming an author](/contribute).
+{% include authors_loop.html %} and, hopefully, you! Find out more about [becoming an author](/contribute).
 
-We also thank everyone who has helped to review lessons by reporting issues,
-fixing errors, or conducting formal peer reviews. At the time of writing, this
-has included the following people:
+We also thank everyone who has helped to improve our lessons by reporting
+issues, fixing errors, conducting formal peer reviews, translating, or editing.
+At the time of writing, this has included the following people:
 
-{% for reviewer in site.data.reviewers %}
-{{reviewer}},{% endfor %} and, hopefully, you! Find out more about [how to
+{% include collaborators_loop.html %} and, hopefully, you! Find out more about [how to
 contribute](/contribute).
 
 Finally, we'd like to thank those who have been involved in organizing, running, leading, or supporting workshops involving the project and Project Team:

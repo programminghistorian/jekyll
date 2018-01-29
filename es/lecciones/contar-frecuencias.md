@@ -6,7 +6,7 @@ authors:
 date: 2012-07-17
 translation_date: 2017-03-15
 editors:
-- Mirian Posner
+- Miriam Posner
 reviewers:
 - Jim Clifford
 translator:

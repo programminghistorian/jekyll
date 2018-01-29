@@ -6,7 +6,7 @@ authors:
 - Ian Milligan
 - James Baker
 reviewers:
-- Melodee Beals
+- M. H. Beals
 - Allison Hegel
 - Charlotte Tupman
 editors:
