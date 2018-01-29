@@ -216,3 +216,7 @@ python-warning:
 project-team-roles:
   en: Project Team Roles
   es: Papel en el equipo del proyecto
+
+present:
+  en: Present
+  es: Present

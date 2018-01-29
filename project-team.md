@@ -21,29 +21,7 @@ All editorial board information should be edited in data/ph_authors.yml. Authors
 
 ## Project Team Membership History
 
-* William J. Turkel, Western University (2008-2015)
-* Alan MacEachern, Western University (2008-2013)
-* Adam Crymble, University of Hertfordshire (2011-Present)
-* Fred Gibbs, University of New Mexico (2011-2017)
-* Jeremy Boggs, University of Virginia (2012-2014)
-* Miriam Posner, UCLA (2012-2016)
-* Allison Hegel, UCLA (2013-2016)
-* Carrie Sanders, UCLA (2013-2014)
-* Caleb McDaniel, Rice University (2014-2017)
-* Ian Milligan, University of Waterloo (2014-Present)
-* Jeri Wieringa, George Mason University (2015-Present)
-* Maria Jos&eacute; Afanador-Llach, Fundacion Historica Neograndina (2016-Present)
-* Victor Gayol, El Colegio de Michoac&aacute;n (2016-Present)
-* Antonio Rojas Castro, Cologne Center for eHumanities (2016-Present)
-* Evan Taparata, University of Minnesota (2016)
-* Amanda Visconti, University of Virginia (2016-Present)
-* Matthew Lincoln, Getty Research Institute (2017-Present)
-* Jessica Parr, Simmons College (2017-Present)
-* Brandon Walsh, University of Virginia (2017-Present)
-* Anandi Silva Knuppel, Emory University (2017-Present)
-* James Baker, University of Sussex (2017-Present)
-* Jos&eacute; Antonio Motilla, Universidad Aut&oacute;noma de San Luis Potosi (2018-Present)
-* Jennifer Isasi, University of Nebraska (2018-Present)
+{% include team_history.html %}
 
 ## Community Participants
 
