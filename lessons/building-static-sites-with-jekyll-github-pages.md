@@ -194,6 +194,8 @@ Don't forget to wait until the command prompt appears again to type the followin
 
 `gem install rubygems-update`
 
+If you get a permissions error at this point, entering `usr/local/bin/gem install rubygems-update` instead of the command above may help.
+
 ### NodeJS <a id="section2-4"></a>
 
 [NodeJS](https://nodejs.org/en/) (or Node.js) is a development platform (in particular, a "runtime environment") that does things like making Javascript run faster.
@@ -205,6 +207,8 @@ Don't forget to wait until the command prompt appears again to type the followin
 [Jekyll](https://jekyllrb.com/) is the code that creates your website (i.e. "site generation"), making it easier to do certain common tasks such as using the same template (same logo, menu, author information…) on all your blog post pages. There's more info on [what Jekyll and static sites are](#section0-1), and on [why you'd want to use Jekyll to make a static website](#section0-3), above.
 
 `gem install jekyll`
+
+If you get a permissions error at this point, entering `usr/local/bin/gem install jekyll` instead of the command above may help.
 
 **Skip the following steps (which are for Windows users only) and jump down to [Setting up Jekyll](#section3).**
 
@@ -248,7 +252,7 @@ Don't forget to wait until the command prompt appears again to type the followin
 
    On Macs, a search box will appear in the middle of the screen; type in "GitHub", then double-click on the "GitHub" option that appears under "Folders" to reveal the GitHub folder in Finder (this may look slightly different on Windows, but should function the same).
 
-   Note that on some computers, this folder is instead labeled "GitHub for Macs" and may not show up on a search; if the previous steps didn't locate a GitHub folder for you, navigate to Library > Application Support in Finder and check if a "GitHub for Mac" folder is located there.
+   Note that on some computers, this folder is instead labeled "GitHub for Macs" and may not show up on a search; if the previous steps didn't locate a GitHub folder for you, navigate to Library > Application Support in Finder and check if a "GitHub for Mac" folder is located there. You can alternatively press the Option key while clicking the Finder Go menu to see the "Library" folder for your username.
 
 {% include figure.html filename="building-static-sites-with-jekyll-github-pages-6.png" caption="After searching for 'GitHub', a “GitHub” option appears under the 'Folders' heading; double-click 'GitHub' to reveal the GitHub folder in Finder" %}
 
@@ -550,7 +554,7 @@ If you run into an issue, [Jekyll has a page on troubleshooting](https://jekyllr
 
 ### Credits <a id="section9-2"></a>
 
-Thanks to *Programming Historian* Editor Fred Gibbs for editing, discussing, and reviewing this lesson; Paige Morgan and Jaime Howe for reviewing this lesson; Scott Weingart and students for testing the lesson with Windows; and Tod Robbins and Matthew Lincoln for suggestions on the [DH Slack](http://tinyurl.com/DHSlack) on what to cover in this lesson.
+Thanks to *Programming Historian* Editor Fred Gibbs for editing, discussing, and reviewing this lesson; Paige Morgan and Jaime Howe for reviewing this lesson; Scott Weingart and students for testing the lesson with Windows; Tod Robbins and Matthew Lincoln for suggestions on the [DH Slack](http://tinyurl.com/DHSlack) on what to cover in this lesson; and Roxanne Shirazi for solutions to possible permission and navigation problems.
 
 ### Further reading <a id="section9-3"></a>
 
