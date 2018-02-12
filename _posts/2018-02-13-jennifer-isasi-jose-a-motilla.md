@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<p><figure><img src="/avatars/Jennifer-Isasi.png" alt=""/><img src="/avatars/Jose-Antonio-Motilla.png" alt=""/><figcaption>
+<p><figure><img src="/avatars/Jennifer-Isasi.png" alt="" style="width:200px;"/><img src="/avatars/Jose-Antonio-Motilla.png" alt="" style="width:200px;"/><figcaption>
     Jennifer Isasi y José Antonio Motillo se han unido a The Programming Historian</figcaption></figure></p>
     
 ¡The Programming Historian tiene el placer de presentar sus dos nuevos miembros del equipo de editores de contenidos en español!
