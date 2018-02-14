@@ -27,10 +27,7 @@ Con independencia de que se cree o no un nuevo derivado, si el tutorial ya ha si
 
 ## Lecciones retiradas
 
-[OCR with Tesseract and ScanTailor](https://deploy-preview-612--ph-dev.netlify.com/lessons/retired/ocr-with-tesseract-and-scantailor)
-
-[Counting Frequencies from Zotero Items](https://deploy-preview-612--ph-dev.netlify.com/lessons/retired/counting-frequencies-from-zotero-items)
-
-[Creating New Items in Zotero](https://deploy-preview-612--ph-dev.netlify.com/lessons/retired/creating-new-items-in-zotero)
-
-[Intro to Zotero API](https://deploy-preview-612--ph-dev.netlify.com/lessons/retired/intro-to-the-zotero-api)
+{% assign retired = site.pages | where: "retired", "true" %}
+{% for lesson in retired %}
+[{{ lesson.title }}]({{ lesson.url }})
+{% endfor %}
