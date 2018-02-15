@@ -21,6 +21,8 @@ Si quieres traducir una lección, tienes una idea para una lección nueva o ya h
 
 **En resumen, aceptamos todo tipo de propuestas.** Para hacerte una idea de lo que buscamos, echa un vistazo a las [lecciones ya publicadas], lee nuestra [guía para revisores] o accede a las [lecciones en desarrollo]. Ten en cuenta que aceptamos lecciones sobre un tema ya cubierto o en desarrollo dado que cada propuesta supone una contribución única: creemos que cada uno aprende de manera distinta y por eso favorecemos cierto solapamiento.
 
+A fin de que nuestras lecciones sean sostenibles a largo plazo, se anima a los autores a proponer tutoriales que no dependan de un programa o de una interfaz especfica. De lo contrario, los tutoriales dejarían de ser estables y necesitarían cambios con cada actualización. En aras de una mayor conservación, es mejor enseñar conceptos que a 'clicar sobre un botón X'. 
+
 Tras la aprobación de tu propuesta, uno de nuestros editores creará un tíquet "Propuesta" en nuestro [repositorio][ph-submissions], en donde se detallará el título provisional y los objetivos de la lección. Este tíquet sirve para documentar el progreso realizado durante la escritura de la lección. Para evitar que se acumulen las lecciones en fase de escritura, te pedimos que entregues tu texto al cabo de 90 días tras la aprobación.
 
 <br/><br/>
@@ -104,6 +106,14 @@ Los recursos y tutoriales suguientes contienen más información sobre cómo dar
 
 **Antes de continuar, por favor, asegúrate de que entiendes cómo utilizar la sintaxis Markdown para marcar al texto con encabezados, negrita, cursiva, enlaces, párrafos y listas**.
 
+### Escribe de manera sostenible
+En *The Programming Historian* queremos que las lecciones puedan utilizarse a largo plazo. Por este motivo, recomendamos consultar nuestra [poltica de retirada de lecciones]({{site.baseurl}}/politica-retirada-lecciones), en donde describimos el procedimiento llevado a cabo cuando un tutorial se vuelve obsoleto. Con el propsito de incrementar la sostenibilidad de las lecciones, pedimos a los autores de originales que se ajusten a una serie de recomendaciones durante el proceso de escritura:
+
+- En lugar de tratar cuestiones específicas sobre el funcionamiento de un programa, las lecciones deberían centrarse en la metodología y los aspectos generales de las herramientas.
+- Si la lección puede puede aprovechar la documentación existente del programa, recomendamos dirigir a los lectores a esta documentación en lugar de repetirla en la lección. Asimismo, en lugar de enlazar directamente a los recursos de un programa comercial (que a menudo cambia), es mejor proporcionar una orientación general sobre cómo encontrar la documentación.
+- Recomendamos un uso limitado de imágenes específicas de la versión del programa utilizado, a menos que sean estrictamente necesarias para seguir con la lección.
+- Revisa los enlaces externos para asegurarte de que funcionan y están actualizados.
+- Las fuentes y conjuntos de datos necesarios para llevar a cabo una lección deben hospedarse en nuestra web.
 
 ### Utiliza encabezados en cada sección
 
