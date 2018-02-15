@@ -59,9 +59,9 @@ Nuestra plataforma de publicación, [GitHub Pages], depende de los encabezados e
 
 Para añadir un bloque de metadatos YAML en una nueva lección, simplemente **copia y pega al inicio de tu archivo el texto situado más abajo** y cambia el valor de los campos. Este bloque debería aparecer al principio de cada archivo **seguido de una línea en blanco**. Los revisores añadirán la línea en blanco por ti.
 
-     	---
+	---
 	title: |
-	    Uso de SPARQL para acceder a datos abiertos enlazados
+   	 Uso de SPARQL para acceder a datos abiertos enlazados
 	authors:
 	- Matthew Lincoln
 	date: 2015-11-24
@@ -72,15 +72,16 @@ Para añadir un bloque de metadatos YAML en una nueva lección, simplemente **co
 	- Patrick Murray-John
 	- Jason Heppler
 	- Will Hanley
-	- Fred Gibbs
+	- Fred Gibb 
 	layout: lesson
+	redirect_from: /es/lessons/graph-databases-and-SPARQL
 	difficulty: 2
 	activity: acquiring
 	topics: [lod]
-	abstract: "Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos y 	cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL."
+	abstract: "Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos y cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL."
 	---
 
-En caso de que envíes una traducción, debes mantener el bloque YAML de la lección original y adicionar la información del traductor y del revisor de la traducción. De tal forma, el ejemplo anterior quedará de la siguiente manera:
+En caso de que envíes una traducción, debes mantener el bloque YAML de la lección original y añadir tu nombre en el campo `translator` e información sobre el editor y los revisores de la traducción. De tal forma, el ejemplo anterior quedará de la siguiente manera:
 
     	---
 	title: |
