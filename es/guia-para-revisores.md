@@ -101,6 +101,15 @@ Por lo que respecta a las lecciones nuevas, queremos que las explicaciones técn
 - ¿Hay recapitulaciones, resúmenes o paradas que marcan una transición a lo largo del tutorial?
 - Si se requiere un *dataset*, ¿está disponible en internet para descargar?
 
+### Sostenibilidad
+
+Para aumentar la vida útil de nuestras lecciones, los revisores deben tener en cuenta las siguientes preguntas acerca de la sostenibilidad. Cada propuesta es diferente, por lo que algunas de estas recomendaciones no son pertinentes. Teniendo en cuenta el nivel de dificultad de la lección y su público objetivo, los revisores deben utilizar estas preguntas como guía para asegurar que los tutoriales son lo más sostenibles posibles desde el momento en que se publican.
+
+- ¿Se listan las versiones y especificaciones de los programas utilizados? ¿Los recursos utilizados son los más recientes? Si la lección usa versiones más antiguas, ¿el autor lo justifica?
+- Si se tiene experiencia en la metodología o herramientas utilizadas, ¿la lección está a la orden del día?
+- ¿Qué fuentes o datos se utilizan? ¿Están incluidos de tal manera que no dependen de un alojamiento externo?
+- ¿Qué enlaces externos contiene la lección? ¿Estos recursos son actuales o existen otros, más recientes o apropiados, que se podrían vincular?
+
 ### Integrando la lección a _The Programming Historian en español_
 
 - ¿La lección contribuye al desarrollo de otras lecciones ya publicadas?
