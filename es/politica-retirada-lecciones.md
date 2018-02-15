@@ -1,5 +1,5 @@
 ---
-title: Guía para revisores
+title: Política de retirada de lecciones
 layout: blank
 ---
 
