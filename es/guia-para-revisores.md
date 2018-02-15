@@ -68,6 +68,7 @@ De manera más específica, en cuanto a las traducciones, apreciamos el rigor pe
 - Si no se traducen ciertos términos, ¿se marcan en cursiva?
 - ¿El traductor ha añadido notas aclaratorias?
 - ¿Las capturas de pantalla y trozos de código han sido adaptados?
+- ¿Se han añadido referencias bibliográficas en español?
 
 ### Lecciones nuevas
 Por lo que respecta a las lecciones nuevas, queremos que las explicaciones técnicas (y el nivel de dificultad) sea constante a lo largo del tutorial. En tanto que revisor, queremos que, en un tutorial dirigido a un usuario experimentado, seas capaz de detectar pasajes que explican en detalle un concepto demasiado simple. Y a la inversa: queremos evitar tutoriales dirigidos a principiantees que no explican de manera adecuada un concepto fundamental para entender la lección. Aspectos a tener en cuenta:
