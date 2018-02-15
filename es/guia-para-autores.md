@@ -81,7 +81,7 @@ Para añadir un bloque de metadatos YAML en una nueva lección, simplemente **co
 	abstract: "Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos y cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL."
 	---
 
-En caso de que envíes una traducción, debes mantener el bloque YAML de la lección original y añadir tu nombre en el campo `translator` e información sobre el editor y los revisores de la traducción. De tal forma, el ejemplo anterior quedará de la siguiente manera:
+En caso de que envíes una traducción, debes mantener el bloque YAML de la lección original y añadir tu nombre en el campo `translator` e información sobre el editor, los revisores y fecha de la traducción. De tal forma, el ejemplo anterior quedará de la siguiente manera:
 
     	---
 	title: |
