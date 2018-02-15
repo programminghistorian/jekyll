@@ -59,34 +59,57 @@ Nuestra plataforma de publicación, [GitHub Pages], depende de los encabezados e
 
 Para añadir un bloque de metadatos YAML en una nueva lección, simplemente **copia y pega al inicio de tu archivo el texto situado más abajo** y cambia el valor de los campos. Este bloque debería aparecer al principio de cada archivo **seguido de una línea en blanco**. Los revisores añadirán la línea en blanco por ti.
 
-    ---
-    title: |
-        Getting Started with Topic Models: A MALLET Primer
-    authors:
-    - Ian Milligan
-    - Shawn Graham
-    - Scott Weingart
-    date: 2014-03-03
-    reviewers:
-    layout: lesson
-    ---
+     	---
+	title: |
+	    Uso de SPARQL para acceder a datos abiertos enlazados
+	authors:
+	- Matthew Lincoln
+	date: 2015-11-24
+	translation_date: 2017-05-20
+	editors:
+	- Fred Gibbs
+	reviewers:
+	- Patrick Murray-John
+	- Jason Heppler
+	- Will Hanley
+	- Fred Gibbs
+	layout: lesson
+	difficulty: 2
+	activity: acquiring
+	topics: [lod]
+	abstract: "Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos y 	cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL."
+	---
 
 En caso de que envíes una traducción, debes mantener el bloque YAML de la lección original y adicionar la información del traductor y del revisor de la traducción. De tal forma, el ejemplo anterior quedará de la siguiente manera:
 
-    ---
-    title: |
-        Introducción al modelado tópico con MALLET.
-    authors:
-    - Ian Milligan
-    - Shawn Graham
-    - Scott Weingart
-    date: 2014-03-03
-    reviewers:
-    translator:
-    - Antonio Rojas Castro
-    translator-reviewer:
-    layout: lesson
-    ---
+    	---
+	title: |
+	    Uso de SPARQL para acceder a datos abiertos enlazados
+	authors:
+	- Matthew Lincoln
+	date: 2015-11-24
+	translation_date: 2017-05-20
+	editors:
+	- Fred Gibbs
+	reviewers:
+	- Patrick Murray-John
+	- Jason Heppler
+	- Will Hanley
+	- Fred Gibbs
+	translator:
+	- Nuria Rodríguez Ortega
+	translation-editor:
+	- Antonio Rojas Castro
+	translation-reviewer:
+	- Antonio Rojas Castro
+	- Juan Antonio Pastor Sánchez
+	layout: lesson
+	redirect_from: /es/lessons/graph-databases-and-SPARQL
+	difficulty: 2
+	activity: acquiring
+	topics: [lod]
+	abstract: "Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos y 	cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL."
+	---
 
 ## Notas importantes acerca de YAML
 
