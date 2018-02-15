@@ -24,7 +24,7 @@ Con independencia de que se cree o no un nuevo derivado, si el tutorial ya ha si
 
 - El siguiente anuncio será añadido a la parte superior de la lección retirada:
 
->Los editores de *The Programming Historian* hacen todo lo posible para mantener las lecciones cuando aparecen problemas menores. Sin embargo, desde el momento de la publicación, los cambios en las tecnologías subyacentes o los principios utilizados en esta lección han sido sustanciales, hasta el punto de que los editores han decidido no actualizarla más. Es posible que la lección siga siendo una herramienta de aprendizaje útil y una instantánea de las técnicas de la historia digital cuando se publicó, pero no podemos garantizar que todos los elementos sigan funcionando como estaba previsto.
+    <div class="alert alert-warning">{{ site.data.snippets.retired-definition[page.lang] | markdownify }}
 
 ## Más sobre sostenibilidad 
 
