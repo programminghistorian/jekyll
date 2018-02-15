@@ -1,3 +1,8 @@
+---
+title: Guía para revisores
+layout: blank
+---
+
 # Política de retirada de lecciones
 
 Los editores de *The Programming Historian* hacemos todo lo posible para mantener el funcionamiento de las lecciones a medida que surgen problemas menores. Sin embargo, con el paso del tiempo, los cambios en las tecnologías subyacentes o los principios utilizados por una lección determinada pueden llegar a ser tan sustanciales que los usuarios ya no podrán completar la lección con éxito. Ante estas situaciones, el equipo editorial del *The Programming Historian en español* puede decidir no traducir una lección o bien, si ya ha sido traducida, "retirarla", es decir, mantener la página publicada, pero eliminándola de nuestro directorio de lecciones activas tras añadir una advertencia en la parte superior de la página señalando que no todos los elementos de la lección funcionan como se pretendía originalmente. Esta última medida también se llevaría a cabo con las lecciones originales en español.
