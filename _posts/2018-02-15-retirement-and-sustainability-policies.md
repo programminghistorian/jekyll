@@ -10,7 +10,7 @@ Last year we were excited to [introduce some important behind-the-scenes infrast
 However, no set of technical solutions can address every sustainability problem faced by lessons about the fast-developing world of software.
 
 That is why, for the past few months, _The Programming Historian_ editorial team has been working to codify sustainability guidelines for our authors, editors, and peer reviewers to consult as new lessons are developed.
-These include suggestions like favoring tutorials on well-supported software and tools, being mindful of software versions and version-specific language, and favoring data examples that are hosted directly on <https://programminghistorian.com>.
+These include suggestions like favoring tutorials on well-supported software and tools, being mindful of software versions and version-specific language, and favoring data examples that are hosted directly on our site.
 We hope that these new guidelines will result in easier-to-use, more long-lived lessons:
 
 - [Author Guidelines for Writing Sustainably](/author-guidelines#write-sustainably)
