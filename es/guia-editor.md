@@ -54,7 +54,9 @@ Una vez la lección haya sido entregada, el editor creará un ticket de revisió
 
 *The Programming Historian en español* se sirve de un modelo de revisión por pares en abierto; creemos que esto incentiva el respeto y la generación de ideas. Sin embargo, los autores y traductores también tienen derecho a tener un proceso de revisión tradicional, es decir, mediante mensajes privados. Existen muchas razones por las que alguien podría dudar a la hora de iniciar un proceso de revisión por pares en abierto; por eso, animamos a los autores y traductores a que elijan la opción con la que se sientan más cómodos.
 
-Antes de solicitar revisiones externas, el editor debe leer y probar el tutorial, y utilizar su experiencia previa para ayudar al autor o al traductor a realizar mejoras iniciales (si es necesario). En una lección nueva, los editores suelen intervenir para aclarar la audiencia objetiva de la lección, o bien para identificar frases difíciles de entender, tecnicismos que se podrían evitar, o pasos que requieren mayor número de explicaciones (o adaptaciones teniendo en cuenta el contexto cultural hispánico, si se trata de una traducción). Esta revisión inicial es importante porque permitirá a los revisores externos centrarse en la mejora de la lección. Todo esto se realiza, por lo común, en abierto, en nuestra plataforma de envíos (ver más abajo), pero si el autor o traductor lo requiere también es posible establecer un canal de comunicación privado.
+Antes de solicitar revisiones externas, el editor debe leer y probar el tutorial y utilizar su experiencia editorial previa para ayudar al autor a realizar algunas mejoras iniciales (si es necesario). El editor debe escribir un resumen sobre la sostenibilidad de la propuesta para asegurarse de que la versión y las especificaciones del programa son claras, que las capturas de pantalla son realmente necesarias para completar la lección y que la lección hace uso de la documentación existente siempre que esté disponible y sea apropiado. Los editores también deben asegurarse de que las lecciones intentan, en la medida de lo posible, evitar las instrucciones específicas del programa, como "Haga clic con el botón derecho del ratón en el icono _x_ para acceder al menú _x_", en lugar de favorecer las descripciones metodológicas generales. La lista de comprobación editorial [contiene más detalles sobre las prácticas de sostenibilidad](#c-revisar-la-sostenibilidad).
+
+A menudo, los editores necesitan ayuda para aclarar la audiencia a la que se quiere llegar con una lección, o para identificar la jerga que necesita más explicación. Esta revisión inicial ayuda a los revisores externos a centrarse en mejorar la pieza. Esto normalmente se hace abiertamente en nuestro sistema de presentación (ver más abajo), pero puede ser una revisión cerrada a petición de cualquiera de las partes.
 
 Cuando el traductor o el autor ha revisado la lección siguiendo el consejo del editor, se invitarán a dos revisores externos. La decisión sobre los revisores externos depende del editor; no obstante, se tendrá en cuenta nuestro compromiso con la [diversidad](https://github.com/programminghistorian/jekyll/issues) a la hora de elegir los revisores. Como editor, te animamos a que te preguntes si has hecho todo lo posible para elegir revisores de género, nacionalidad, raza, edad, o formación académica diversa. En otras palabras, evita elegir revisores que sean como tú. Al contactar con los revisores, por favor, proporciona la [guía para revisores](/es/guia-para-revisores) y fija una fecha límite para completar la revisión (un mes, por lo general), a fin de asegurarnos de que el proceso de publicación no se alargue de manera innecesaria.
 
@@ -156,7 +158,19 @@ Puedes comprobar con facilidad si todo es correcto accediendo a la visualizació
 
 Si la visualización no funciona, hazlo saber a Víctor Gayo (en español), quien trabajará con Matthew Lincoln para diagnosticarlo. Si lo haces en inglés, dirígete directamente con Matthew Lincoln.
 
-### C) Comprobar que las imágenes sean correctas
+### C) Revisar la sostenibilidad
+
+Para aumentar la vida útil de nuestras lecciones, los editores de *The Programming Historian* deben completar una revisión de sostenibilidad como parte de su lista de verificación final. Cada propuesta es diferente, así que es posible que algunas de estas recomendaciones no sean aplicables. Teniendo en cuenta el nivel de dificultad de cada lección y su público objetivo, los editores deben utilizar estas recomendaciones para asegurarse de que las lecciones son lo más sostenibles posibles desde la fecha de publicación.
+
+- Las versiones y especificidades del programa se describen en la introducción a la lección.
+- Las fuentes y conjuntos de datos de las lecciones se señalan de manera clara y se alojan en nuestra web.
+- La lección utiliza la documentación existente del programa siempre que sea posible.
+- La lección proporciona enlaces a Wikipedia para la terminología técnica.
+- Las capturas de pantalla de las interfaces de usuario del programa se limitan a las necesarias para comprender la lección.
+- Los enlaces externos (por ejemplo, programa o conjunto de datos) están actualizados, aunque los autores deberían dirigir a los usuarios a la documentación en general, en lugar de proporcionar enlaces a páginas de documentación específicas.
+- Los enlaces a artículos son DOIs (si es posible).
+
+### D) Comprobar que las imágenes sean correctas
 
 Todas las imágenes deberían utilizar nombres de archivos consistentes y semánticamente claros. Si un texto contiene varias imágenes seguidas, el orden es muy importante (por ejemplo, una serie de capturas de pantalla). En tal caso se puede recomendar nombrar los archivos de manera secuencia; lo ideal sería utilizar el nombre del archivo de la lección (o una versión más corta) seguido de un número que indique su posición. Por ejemplo: `contando-frecuencias-1.png`, `contando-frecuencias-2.png`, etc.
 
@@ -166,14 +180,14 @@ Con independencia de cómo se nombren las imágenes (semánticamente o de manera
 
 Más información sobre cómo añadir las imágenes en nuestra [guía para autores y traductores](/es/guia-para-autores).
 
-### D) Verificar los archivos con datos
+### E) Verificar los archivos con datos
 
 Al igual que las imágenes, todos los datos deben almacenarse en nuestro sitio; es decir, por motivos de sostenibilidad, no deben enlazarse como recursos externos. Los archivos de este tipo deben guardarse en la carpeta `assets` de *The Programming Historian en español*, siguiendo las mismas reglas que en el apartado anterior. Con todo, los autores pueden proporcionar una descripción para reflejar el contenido del archivo. Por ejemplo:
 
 -  `/assets/SLUG-DE-LA-LECCION/Louvre-Paintings-1.csv`
 
 
-### E) Comprobar vídeos y *Gifs*
+### F) Comprobar vídeos y *Gifs*
 
 Se recomienda no incluir vídeos o *gifs* porque provocan muchos problemas. Por ejemplo, resulta muy difícil solicitar cambios en vídeos durante el proceso de revisión porque requiere dedicarle mucho tiempo; además, los vídeos no se pueden editar con tanta facilidad si la lección requiere nuevas actualizaciones. Asimismo, para incorporar vídeos se tendría que mantener un canal en YouTube. Como es lógico, no se pueden imprimir pero gran parte de nuestros lectores utilizan [versiones en PDF](https://zenodo.org/record/49873#.V0lazGaGa7o). Por tanto, solo deberían incluirse en casos totalmente necesarios.
 
