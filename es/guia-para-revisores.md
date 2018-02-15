@@ -68,6 +68,7 @@ De manera más específica, en cuanto a las traducciones, apreciamos el rigor pe
 - Si no se traducen ciertos términos, ¿se marcan en cursiva?
 - ¿El traductor ha añadido notas aclaratorias?
 - ¿Las capturas de pantalla y trozos de código han sido adaptados?
+- ¿Se han añadido referencias bibliográficas en español?
 
 ### Lecciones nuevas
 Por lo que respecta a las lecciones nuevas, queremos que las explicaciones técnicas (y el nivel de dificultad) sea constante a lo largo del tutorial. En tanto que revisor, queremos que, en un tutorial dirigido a un usuario experimentado, seas capaz de detectar pasajes que explican en detalle un concepto demasiado simple. Y a la inversa: queremos evitar tutoriales dirigidos a principiantees que no explican de manera adecuada un concepto fundamental para entender la lección. Aspectos a tener en cuenta:
@@ -100,6 +101,15 @@ Por lo que respecta a las lecciones nuevas, queremos que las explicaciones técn
 - Si la lección tiene una extensión larga, ¿debería dividirse en otras más breves?
 - ¿Hay recapitulaciones, resúmenes o paradas que marcan una transición a lo largo del tutorial?
 - Si se requiere un *dataset*, ¿está disponible en internet para descargar?
+
+### Sostenibilidad
+
+Para aumentar la vida útil de nuestras lecciones, los revisores deben tener en cuenta las siguientes preguntas acerca de la sostenibilidad. Cada propuesta es diferente, por lo que algunas de estas recomendaciones no son pertinentes. Teniendo en cuenta el nivel de dificultad de la lección y su público objetivo, los revisores deben utilizar estas preguntas como guía para asegurar que los tutoriales son lo más sostenibles posibles desde el momento en que se publican.
+
+- ¿Se listan las versiones y especificaciones de los programas utilizados? ¿Los recursos utilizados son los más recientes? Si la lección usa versiones más antiguas, ¿el autor lo justifica?
+- ¿La metodología o herramientas utilizadas en la lección están a la orden del día? ¿Están actualizadas?
+- ¿Qué fuentes o datos se utilizan? ¿Están incluidos de tal manera que no dependan de un alojamiento externo?
+- ¿Qué enlaces externos contiene la lección? ¿Estos recursos son actuales o existen otros, más recientes o apropiados, que se podrían vincular?
 
 ### Integrando la lección a _The Programming Historian en español_
 

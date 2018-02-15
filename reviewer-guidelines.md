@@ -71,6 +71,14 @@ While we like each of our lessons to take the unique voice of its author, we als
 - Are there logical stopping points throughout the lesson?
 - If datasets are required, are they available to download at various points throughout the lesson (or different versions of them as the tutorial may require)?
 
+### Sustainability
+To increase the lifespan of our lessons, PH reviewers should keep in mind the following questions about sustainability. Every submission is different and some of these areas may not be applicable to all submissions. Keeping in mind the difficulty level of each lesson and its intended audience, reviewers should use these questions as guidelines to ensure that lessons are as sustainable as possible from the date of publication.
+
+- Are all software versions and dependencies listed in the submission? Are these assets the most recent versions? If the lesson uses older software versions, does the author note why?
+- If you have expertise in the specific methodology or tool(s) for the lesson, is the methodology generally up-to-date?
+- What are the data sources for the submission? Are they included in a way that does not heavily on third-party hosting?
+- What kinds of other external links does the submission use? Are these current or are there other, more recent or appropriate, resources that could be linked to?
+
 ### Integrating with the _Programming Historian_
 - Does the lesson build upon an existing lesson and explain how?
 - Does the lesson tie into existing lessons and have appropriate links?

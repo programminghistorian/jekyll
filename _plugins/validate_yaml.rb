@@ -36,11 +36,11 @@ module MyModule
       # Fields required only on en lessons
       en_required_fields = []
 
+      # Find all the pages that represent non-retired lessons
+      lessons = site.pages.select{|i| i.data["lesson"] && !i.data["retired"]}
+
       # Collect valid author names from ph_authors.yml
       valid_authors = site.data["ph_authors"].map{|t| t["name"]}
-  
-      # Find all the pages that represent non-deprecated lessons
-      lessons = site.pages.select{|i| i.data["lesson"] && !i.data["deprecated"]}
 
       lessons.each do |p|
 

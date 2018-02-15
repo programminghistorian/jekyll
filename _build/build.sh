@@ -6,7 +6,7 @@ bundle exec jekyll build && bundle exec htmlproofer ./_site \
   --assume-extension \
   --empty-alt-ignore \
   --alt-ignore '/.*/' \
-  --file-ignore '/.+/assets/.*/','/.+/lessons/deprecated/.*/' \
+  --file-ignore '/.+/assets/.*/','/.+/lessons/retired/.*/' \
   --timeframe '30d' \
   --only-4xx \
   --http-status-ignore 429,403 \
@@ -20,8 +20,8 @@ bundle exec jekyll build && bundle exec htmlproofer ./_site \
 #   # Don't throw a warning if images are missing an alt tag
 #   --empty-alt-ignore \
 #   --alt-ignore '/.*/' \
-#   # Ignore any html files in the assets and the deprecated lessons folder
-#   --file-ignore '/.+/assets/.*/','/.+/lessons/deprecated/.*/' \
+#   # Ignore any html files in the assets and the retired lessons folder
+#   --file-ignore '/.+/assets/.*/','/.+/lessons/retired/.*/' \
 #   # Only re-echeck external links that have not been verified within the last
 #   30 # days. This makes reference to a cache directory that is saved when
 #   Travis CI

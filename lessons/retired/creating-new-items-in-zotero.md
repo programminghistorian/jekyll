@@ -2,6 +2,7 @@
 title: Creating New Items in Zotero
 layout: lesson
 date: 2013-04-01
+retired_date: 2017-07-05
 authors:
 - Amanda Morton
 editors:
@@ -15,8 +16,12 @@ previous: intro-to-the-zotero-api
 categories: [zotero, api]
 exclude_from_check:
   - reviewers
-deprecated: true
-redirect_from: /lessons/creating-new-items-in-zotero
+retired: true
+retirement-reason: |
+  This lesson relied on the Python library libZotero, which is no longer maintained, and which now returns several errors when used. [See further discussion about this retirement decision.](https://github.com/programminghistorian/jekyll/issues/225)
+redirect_from: 
+  - /lessons/creating-new-items-in-zotero
+  - /lessons/deprecated/creating-new-items-in-zotero
 ---
 
 {% include toc.html %}

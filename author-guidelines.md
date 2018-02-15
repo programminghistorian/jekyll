@@ -22,6 +22,8 @@ We welcome all lesson proposals, pitched at any level of technical aptitude and 
 
 You can get a better sense of what we think makes for a useful lesson by looking through our [published lessons], reading our [reviewer guidelines] or browsing the [lessons currently in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). We encourage lesson proposals on topics already covered or in development, provided that the new lesson makes its own unique contribution. Everyone learns differently!
 
+To aid in the sustainability of our lessons, authors should seek to submit lessons that are not overly dependent upon specific software or user interfaces. These lessons inevitably break or need substantial revision when a new version comes out. Teaching concepts rather than 'click on the _x_ button' helps make for sustainable tutorials.
+
 Once your proposal is accepted, an editor will create a "Proposal" ticket in our [submissions repository](https://github.com/programminghistorian/ph-submissions/issues) with the lesson's working title and proposed learning outcomes. This ticket serves to mark the work in progress while you are writing your lesson. To avoid a backlog in the system, we ask that you submit your lesson within 90 days of the proposal being accepted.
 
 
@@ -87,6 +89,15 @@ For a gentle introduction to GitHub Markdown (especially with *Programming Histo
   Before continuing, be sure you understand how to use Markdown syntax to use basic formatting like headers, bold, italics, links, paragraphs, and lists.
 </div>
 
+### Write Sustainably
+PH strives to publish lessons that will be of use to our readers for the foreseeable future. Authors should consult our [lesson retirement policy]({{site.baseurl}}/lesson-retirement-policy), which describes how the _Programming Historian_ editorial team manages lessons that have become out-of-date. To aid in creating sustainable lessons, we ask that you keep certain writing guidelines in mind as you create your lesson:
+
+- Instead of focusing on software specifics, keep your lesson more geared towards methodologies and tool generalities.
+- If your lesson can leverage existing software documentation, consider directing your readers to this documentation rather than repeating it in the lesson. Instead of linking directly to a software company's resources (which often change), you can provide general guidance on how to find the documentation.
+- Limit the use of software version-specific images, unless required to follow the lesson.
+- Check any external links to ensure they are live and up-to-date.
+- Data sources for lessons should be hosted at PH.
+
 ### Use informative section headings
 We strive to make our lessons easy to follow by using section headings consistently throughout our lessons. As you compose your lesson, section headings will help you visualize how well you've structured your lesson. Avoid long sections of text with no headings; these become very difficult to follow.
 
@@ -110,7 +121,6 @@ And will render on the website as:
 <div class="alert alert-warning">
   Be sure that you follow directions carefully!
 </div>
-
 
 ### Special style rules
 Like any other journal, *Programming Historian* also has a house style that we expect authors to follow to maintain consistency across our lessons. Unlike other journals, however, breaking these style rules can mean that your lessons will not be properly generated into a web page and therefore will remain invisible.

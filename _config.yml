@@ -32,7 +32,7 @@ defaults:
       english-lesson: true
   -
     scope:
-      path: "lessons/deprecated"
+      path: "lessons/retired"
     values:
       lesson: false
       english-lesson: false
