@@ -11,21 +11,21 @@ redirect_from:
   - /lessons/deprecated/ocr-with-tesseract-and-scantailor
 ---
 
-#Introduction to OCR 
+# Introduction to OCR 
 
-##Lesson Goals
+## Lesson Goals
 
 The goal of this lesson is to teach how to do OCR (Optical Character Recognition) for printed or typewritten text. After this lesson you will able to convert printed and typewritten texts into digital text files. In order to be able to go through all the steps the OCR'ing process demands, you'll need to have access to either a scanner or digital camera, a computer with internet access, some patience, and a lot of curiosity! We will make a few easy commands using the Command line, but if you have never used it before, you might want to look at the lesson [Introduction to the Bash Command Line] (/lessons/intro-to-bash). I use Windows, but these instructions should function also in Mac. 
 
 
-##Why OCR?
+## Why OCR?
 
 Before starting, I would like to say a couple of words on why would anyone want to learn to OCR. There is an increasing amount of digitized sources available in various databases. Simultaneously, OCR'ing takes a lot of time, so why bother? That's true! However, sometimes just the most relevant and interesting documents for your project are not in digital form. And if you think about the source materials that we use for producing new insights and knowledge on our past, it is very important that we not deliberately restrict ourselves to the already digitized documents, but look also at the sources that might provide alternative and contradictory views! 
 
 OCR'ing takes a lot of time. You'll spend numerous hours with your documents, and you might be frustrated. But don't worry! I have realized that actually, when you spend a lot of time doing relatively simple and repetitive work, you'll process the issues related to source criticism more thoroughly. 
 
 
-##Stages of the Lesson
+## Stages of the Lesson
 
 The OCR process can be divided into four stages:
 
@@ -41,7 +41,7 @@ Before starting, try to doublecheck that no-one else has done the work already. 
 Ok, are you ready? Let's start then!
 
 
-##<a name="prework"></a>Prework
+## <a name="prework"></a>Prework
 
 So, now that you have the material you want to convert into text form, there are two options for doing the prework. The preferable option is to scan the texts, if you have a good scanner. If you don't, you can take digital photographs of the documents. Scanning is a better option, because when the paper lays on the scanner's glass, it will be more or less straight. When you are taking photographs of a big book, the flexure of the paper might cause reduced readability later in the process.
 
@@ -58,7 +58,7 @@ I use Zotero for keeping track of the metadata of my sources, and here is an exa
 {% include figure.html filename="OCR02.png" caption="My metadata in Zotero" %}
 
 
-##<a name="imagepreprocessing"></a>Image Preprocessing
+## <a name="imagepreprocessing"></a>Image Preprocessing
 
 So, now that we have the text as an image, we will move on to image preprocessing.  
 
@@ -106,7 +106,7 @@ If you feel you need more instructions on how to use Scan Tailor, they have good
 Save the preprocessed images to a place where it is easy to access them by using the command line.
 
 
-##<a name="ocr"></a>OCR
+## <a name="ocr"></a>OCR
 
 OK, let's move on! For OCR we will use a free and open source program called Tesseract. 
 
@@ -182,7 +182,7 @@ The batched text file will appear in the file.
 Now you have the OCR raw data! Congratulations! 
 
 
-##<a name="ocrcleaning"></a>OCR Cleaning
+## <a name="ocrcleaning"></a>OCR Cleaning
 
 So, now as you look at the OCR'd text, you will notice soon, that the text is not perfect. Some words are probably not separated and some letters are not correctly written. What remains to be done, is to go through the text, and correct the errors. 
 
