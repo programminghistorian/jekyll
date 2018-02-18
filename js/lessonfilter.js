@@ -3,7 +3,6 @@
 
 
 function resetSort() {
-  $('#current-sort').text(" {{site.data.snippets.date[page.lang]}} ");
   $('#current-sort').removeClass().addClass("sort-desc");
   $("#sort-by-date").removeClass().addClass("sort desc my-asc");
   $("#sort-by-difficulty").removeClass().addClass("sort my-desc");
