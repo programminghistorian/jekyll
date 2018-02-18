@@ -9,8 +9,8 @@ editors:
 - Fred Gibbs
 translator:
 - Víctor Gayol
-editor:
-- María José Afanador-Llach
+translation-editor:
+- Maria José Afanador-Llach
 translation-reviewer:
 - Antonio Rojas Castro
 - Maria José Afanador-Llach

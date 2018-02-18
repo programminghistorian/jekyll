@@ -3,6 +3,9 @@
   twitter: williamjturkel
   github: williamjturkel
   team: false
+  team_start: 2008
+  team_end: 2015
+  institution: Western University
   bio:
     en: |
         William J. Turkel is Professor of History at the
@@ -11,12 +14,19 @@
         William J. Turkel es profesor de Historia en la Universidad de Western
         Ontario.
 
+- name: Alan MacEachern
+  team_start: 2008
+  team_end: 2013
+  institution: Western University
+
 - name: Adam Crymble
   github: acrymble
   email: adam.crymble@gmail.com
   twitter: Adam_Crymble
   url: "http://adamcrymble.org"
   team: true
+  team_start: 2011
+  institution: University of Hertfordshire
   sortname: Crymble
   affiliation:
     en: |
@@ -39,6 +49,9 @@
   github: wcaleb
   url: "http://wcm1.web.rice.edu"
   team: false
+  team_start: 2014
+  team_end: 2017
+  institution: Rice University
   sortname: McDaniel
   bio:
     en: |
@@ -52,6 +65,8 @@
   email: i2millig@uwaterloo.ca
   url: "http://ianmilligan.ca"
   team: true
+  team_start: 2014
+  institution: University of Waterloo
   sortname: Milligan
   affiliation:
     en: |
@@ -83,6 +98,9 @@
   github: fredgibbs
   twitter: fredgibbs
   team: false
+  team_start: 2011
+  team_end: 2017
+  institution: University of New Mexico
   sortname: Gibbs
   bio:
     en: |
@@ -98,10 +116,12 @@
 
 - name: Maria José Afanador-Llach
   url: "http://www.mariajoseafanador.com"
-  email: mariajose@neogranadina.org
+  email: mj.afanador28@uniandes.edu.co
   twitter: mariajoafana
   github: mariajoafana
   team: true
+  team_start: 2016
+  institution: Fundacion Historica Neograndina
   sortname: Afandor-Llach
   affiliation:
     en: |
@@ -110,13 +130,10 @@
         Fundación Histórica Neogranadina, Colombia.
   bio:
     en: |
-        Maria José Afanador-Llach works in the Fundación Histórica Neogranadina,
-        a non-profit organization digitizing endangered colonial archives in Colombia and promoting
-        digital humanities projects. She is also a lecturer in digital humanities at the Universidad de los Andes in Bogotá, Colombia.
+        Maria José Afanador-Llach is an assistant professor of Digital Humanities and History at the Universidad de los Andes, Bogotá (Colombia), and member of the board of Directors at the Fundación Histórica Neogranadina, a non-profit organization digitizing endangered colonial archives in Colombia and promoting digital humanities projects.
     es: |
-        Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una organización sin
-        ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro, así como promover proyectos de humanidades
-        digitales. Es profesora de humanidades digitales en la Universidad de los Andes en Bogotá, Colombia.
+        Maria José Afanador-Llach es profesora asistente de humanidades digitales e historia en la Universidad de los Andes, Bogotá (Colombia) y es miembro del consejo directivo de la Fundación Histórica Neogranadina, una organización sin
+        ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro y a promover proyectos de humanidades digitales.
   team_roles:
    - spanish
    - ombuds-es
@@ -128,6 +145,8 @@
   twitter: victor_gayol
   github: vgayolrs
   team: true
+  team_start: 2016
+  institution: El Colegio de Michoacán
   sortname: Gayol
   affiliation:
     en: |
@@ -150,6 +169,8 @@
   twitter: RojasCastroA
   github: arojascastro
   team: true
+  team_start: 2016
+  institution: Cologne Center for eHumanities
   sortname: Rojas Castro
   affiliation:
     en: |
@@ -178,6 +199,9 @@
 
 - name: Evan Taparata
   team: false
+  team_start: 2016
+  team_end: 2016
+  institution: University of Minnesota
   bio:
     en: |
         Evan Taparata is a PhD candidate in history at the University of
@@ -260,6 +284,8 @@
 
 - name: James Baker
   team: true
+  team_start: 2017
+  institution: University of Sussex
   github: drjwbaker
   email: james.baker@sussex.ac.uk
   twitter: j_w_baker
@@ -274,6 +300,7 @@
   team_roles:
    - editorial
    - board
+   - archive
 
 - name: Amanda Morton
   team: false
@@ -287,6 +314,9 @@
   email: miriam.posner@gmail.com
   url: "http://miriamposner.com"
   team: false
+  team_start: 2012
+  team_end: 2016
+  institution: UCLA
   bio:
     en: |
         Miriam Posner is the digital humanities program coordinator at the
@@ -298,6 +328,9 @@
   twitter: clioweb
   url: "http://clioweb.org"
   team: false
+  team_start: 2012
+  team_end: 2014
+  institution: University of Virginia
   bio:
     en: |
         Jeremy Boggs is the Design Architect for Digital Research Scholarship
@@ -307,6 +340,9 @@
   twitter: AllisonHegel
   github: ahegel
   team: false
+  team_start: 2013
+  team_end: 2016
+  institution: UCLA
   bio:
     en: |
         Allison Hegel is a PhD candidate in English at UCLA.
@@ -327,6 +363,9 @@
 
 - name: Carrie Sanders
   team: false
+  team_start: 2013
+  team_end: 2014
+  institution: UCLA
   bio:
     en: |
         Carrie Sanders is a Ph.D candidate in history at UCLA.
@@ -384,6 +423,8 @@
 
 - name: Jeri Wieringa
   team: true
+  team_start: 2015
+  institution: George Mason University
   twitter: jerielizabeth
   url: "http://jeriwieringa.com"
   github: jerielizabeth
@@ -496,6 +537,8 @@
   email: mlincoln@getty.edu
   github: mdlincoln
   team: true
+  team_start: 2017
+  institution: Getty Research Institute
   sortname: Lincoln
   affiliation:
     en: |
@@ -527,6 +570,8 @@
   twitter: literature_geek
   url: "http://www.amandavisconti.com"
   team: true
+  team_start: 2016
+  institution: University of Virginia
   sortname: Visconti
   affiliation:
     en: |
@@ -564,6 +609,8 @@
   email: walsh.brandon.michael@gmail.com
   url: "http://walshbr.com/"
   team: true
+  team_start: 2017
+  institution: University of Virginia
   sortname: Walsh
   affiliation:
     en: |
@@ -648,6 +695,8 @@
   twitter: ProvAtlantic
   url: "http://jessicaparr.org/"
   team: true
+  team_start: 2017
+  institution: Simmons College
   sortname: Parr
   affiliation:
     en: |
@@ -732,6 +781,8 @@
   twitter: anandilila
   url: "http://anandileela.com"
   team: true
+  team_start: 2017
+  institution: Emory University
   sortname: Silva
   affiliation:
     en: |
@@ -802,3 +853,61 @@
   bio:
     en: |
         Peter Stockwell is the Associate Pro-Vice-Chancellor for Global Engagement (Europe) and Professor of Literary Linguistics at the University of Nottingham.
+
+- name: Beatrice Alex
+  team: false
+  bio:
+    en: |
+        Beatrice Alex is a research fellow at the Institute for Language, Cognition and Computation at the School of Informatics, University of Edinburgh and a Turing fellow at the Alan Turing Institute.  Her research interests focus on text mining and geoparsing.
+
+- name: Zo&#235; Wilkinson Salda&#241;a
+  team: false
+  bio:
+    en: |
+        Zo&#235; Wilkinson Salda&#241;a is a graduate student at the University of Michigan School of Information, where she focuses on the intersection of critical data literacies, academic libraries, and data-informed learning.
+
+- name: José Antonio Motilla
+  url: "http://jamotilla.net"
+  twitter: jamotilla
+  email: jamotilla@gmail.com
+  github: jamotilla
+  team: true
+  team_start: 2018
+  institution: Universidad Autónoma de San Luis Potosi
+  sortname: Motilla
+  affiliation:
+    en: |
+        Universidad Autónoma de San Luis Potosí, México.
+    es: |
+        Universidad Autónoma de San Luis Potosí, México.
+  bio:
+    en: |
+        José Antonio Motilla is a researcher of history, art, culture and digital humanities at the Universidad Autónoma de San Luis Potosí, México. Director of the “Ricardo B. Anaya" Library (San Luis Potosí, México). 
+    es: |
+        José Antonio Motilla es investigador de historia, arte, cultura y humanidades digitales en la Universidad Autónoma de San Luis Potosí, México. Director de la biblioteca "Ricardo B. Anaya" (San Luis Potosí, México). 
+  team_roles:
+   - spanish
+   - board
+
+- name: Jennifer Isasi
+  url: "http://jenniferisasi.com"
+  twitter: jenniferisve
+  email: jenniferbibat@gmail.com
+  github: jenniferisasi
+  team: true
+  team_start: 2018
+  institution: University of Nebraska
+  sortname: Isasi
+  affiliation: 
+    en: |
+        University of Nebraska at Kearney, USA.
+    es: |
+        Universidad de Nebraska en Kearney, Estados Unidos. 
+  bio: 
+    en: | 
+        Jennifer Isasi is a Lecturer of Spanish at the University of Nebraska at Kearney, and a PhD on Hispanic Studies. 
+    es: |
+        Jennifer Isasi es profesora numeraria de español en la Universidad de Nebraska en Kearney y doctora en Estudios Hispánicos. 
+  team_roles:
+    - spanish
+    - board

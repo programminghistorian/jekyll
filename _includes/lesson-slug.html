@@ -23,7 +23,7 @@ However, when generating lesson links/avatars via _includes/lesson_describe.html
 
 
 {% if lessonobj.lang == 'en' %}
-  {% assign slug = lessonobj.url | remove_first: '/lessons/' | remove_first: '.html' %}
+  {% assign slug = lessonobj.url | remove_first: '/lessons/' | remove_first: '.html' | remove_first: 'retired/' %}
 {% else %}
   {% assign slug = lessonobj.redirect_from  | remove_first:'/es/lessons/' %}
 {% endif %}

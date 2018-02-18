@@ -26,7 +26,7 @@ En *The Programming Historian en español* estamos comprometidos con ofrecer un 
 
 En esta sección encontrarás una declaración de los principios que deben regir *The Programming Historian en español*; también ofrece una pauta sobre el tono y el estilo que debiera predominar en todos los intercambios que tienen lugar en nuestros foros entre traductores, autores, revisores y editores.
 
-El objetivo de *The Programming Historian en español* es ofrecer un entorno abierto en el que la comunidad de participantes sea libre para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros *ombudspersons* [María José Afanador-Llach o Víctor Gayol](/es/equipo-de-proyecto).
+El objetivo de *The Programming Historian en español* es ofrecer un entorno abierto en el que la comunidad de participantes sea libre para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros *ombudspersons* [Maria José Afanador-Llach o Víctor Gayol](/es/equipo-de-proyecto).
 
 ### Seguimiento de lecciones
 
@@ -44,7 +44,7 @@ A continuación, el editor creará un *issue* en el [repositorio de GitHub](http
 
 	Si la lección no es entregada en la [fecha acordada], el editor intentará contactar con el autor o autores de la lección. Si no recibe noticias, el ticket se cerrará. Éste podrá abrirse en el futuro a petición del autor o autores.
 
-	El principal contacto para esta lección es [nombre del editor]. Si se produce algún problema, el autor puede contactar con nuestros ’ombudspersons' (María José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
+	El principal contacto para esta lección es [nombre del editor]. Si se produce algún problema, el autor puede contactar con nuestros ’ombudspersons' (Maria José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
 
 Este texto, sin embargo, puede editarse y adaptarse a las necesidades para reflejar más objetivos o lo que se ha negociado entre el editor y el autor.
 
@@ -54,7 +54,9 @@ Una vez la lección haya sido entregada, el editor creará un ticket de revisió
 
 *The Programming Historian en español* se sirve de un modelo de revisión por pares en abierto; creemos que esto incentiva el respeto y la generación de ideas. Sin embargo, los autores y traductores también tienen derecho a tener un proceso de revisión tradicional, es decir, mediante mensajes privados. Existen muchas razones por las que alguien podría dudar a la hora de iniciar un proceso de revisión por pares en abierto; por eso, animamos a los autores y traductores a que elijan la opción con la que se sientan más cómodos.
 
-Antes de solicitar revisiones externas, el editor debe leer y probar el tutorial, y utilizar su experiencia previa para ayudar al autor o al traductor a realizar mejoras iniciales (si es necesario). En una lección nueva, los editores suelen intervenir para aclarar la audiencia objetiva de la lección, o bien para identificar frases difíciles de entender, tecnicismos que se podrían evitar, o pasos que requieren mayor número de explicaciones (o adaptaciones teniendo en cuenta el contexto cultural hispánico, si se trata de una traducción). Esta revisión inicial es importante porque permitirá a los revisores externos centrarse en la mejora de la lección. Todo esto se realiza, por lo común, en abierto, en nuestra plataforma de envíos (ver más abajo), pero si el autor o traductor lo requiere también es posible establecer un canal de comunicación privado.
+Antes de solicitar revisiones externas, el editor debe leer y probar el tutorial y utilizar su experiencia editorial previa para ayudar al autor a realizar algunas mejoras iniciales (si es necesario). El editor debe escribir un resumen sobre la sostenibilidad de la propuesta para asegurarse de que la versión y las especificaciones del programa son claras, que las capturas de pantalla son realmente necesarias para completar la lección y que la lección hace uso de la documentación existente siempre que esté disponible y sea apropiado. Los editores también deben asegurarse de que las lecciones intentan, en la medida de lo posible, evitar las instrucciones específicas del programa, como "Haga clic con el botón derecho del ratón en el icono _x_ para acceder al menú _x_", en lugar de favorecer las descripciones metodológicas generales. La lista de comprobación editorial [contiene más detalles sobre las prácticas de sostenibilidad](#c-revisar-la-sostenibilidad).
+
+A menudo, los editores necesitan ayuda para aclarar la audiencia a la que se quiere llegar con una lección, o para identificar la jerga que necesita más explicación. Esta revisión inicial ayuda a los revisores externos a centrarse en mejorar la pieza. Esto normalmente se hace abiertamente en nuestro sistema de presentación (ver más abajo), pero puede ser una revisión cerrada a petición de cualquiera de las partes.
 
 Cuando el traductor o el autor ha revisado la lección siguiendo el consejo del editor, se invitarán a dos revisores externos. La decisión sobre los revisores externos depende del editor; no obstante, se tendrá en cuenta nuestro compromiso con la [diversidad](https://github.com/programminghistorian/jekyll/issues) a la hora de elegir los revisores. Como editor, te animamos a que te preguntes si has hecho todo lo posible para elegir revisores de género, nacionalidad, raza, edad, o formación académica diversa. En otras palabras, evita elegir revisores que sean como tú. Al contactar con los revisores, por favor, proporciona la [guía para revisores](/es/guia-para-revisores) y fija una fecha límite para completar la revisión (un mes, por lo general), a fin de asegurarnos de que el proceso de publicación no se alargue de manera innecesaria.
 
@@ -84,7 +86,7 @@ Asimismo, me comprometo a mantener la conversación abierta a todo el mundo en G
 Política contra el acoso
 _
 
-El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudspersons' (María José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
+El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudspersons' (Maria José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
 
 ```
 Para las lecciones nuevas, utiliza la siguiente [plantilla](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/PLANTILLA-LECCION.md):
@@ -106,7 +108,7 @@ Asimismo, me comprometo a mantener la conversación abierta a todo el mundo en G
 Política contra el acoso
 _
 
-El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudspersons' (María José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
+El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudspersons' (Maria José Afanador-Llach o Víctor Gayol - http://programminghistorian.org/es/equipo-de-proyecto).
 
 ```
 
@@ -156,7 +158,19 @@ Puedes comprobar con facilidad si todo es correcto accediendo a la visualizació
 
 Si la visualización no funciona, hazlo saber a Víctor Gayo (en español), quien trabajará con Matthew Lincoln para diagnosticarlo. Si lo haces en inglés, dirígete directamente con Matthew Lincoln.
 
-### C) Comprobar que las imágenes sean correctas
+### C) Revisar la sostenibilidad
+
+Para aumentar la vida útil de nuestras lecciones, los editores de *The Programming Historian* deben completar una revisión de sostenibilidad como parte de su lista de verificación final. Cada propuesta es diferente, así que es posible que algunas de estas recomendaciones no sean aplicables. Teniendo en cuenta el nivel de dificultad de cada lección y su público objetivo, los editores deben utilizar estas recomendaciones para asegurarse de que las lecciones son lo más sostenibles posibles desde la fecha de publicación.
+
+- Las versiones y especificidades del programa se describen en la introducción a la lección.
+- Las fuentes y conjuntos de datos de las lecciones se señalan de manera clara y se alojan en nuestra web.
+- La lección utiliza la documentación existente del programa siempre que sea posible.
+- La lección proporciona enlaces a Wikipedia para la terminología técnica.
+- Las capturas de pantalla de las interfaces de usuario del programa se limitan a las necesarias para comprender la lección.
+- Los enlaces externos (por ejemplo, programa o conjunto de datos) están actualizados, aunque los autores deberían dirigir a los usuarios a la documentación en general, en lugar de proporcionar enlaces a páginas de documentación específicas.
+- Los enlaces a artículos son DOIs (si es posible).
+
+### D) Comprobar que las imágenes sean correctas
 
 Todas las imágenes deberían utilizar nombres de archivos consistentes y semánticamente claros. Si un texto contiene varias imágenes seguidas, el orden es muy importante (por ejemplo, una serie de capturas de pantalla). En tal caso se puede recomendar nombrar los archivos de manera secuencia; lo ideal sería utilizar el nombre del archivo de la lección (o una versión más corta) seguido de un número que indique su posición. Por ejemplo: `contando-frecuencias-1.png`, `contando-frecuencias-2.png`, etc.
 
@@ -166,14 +180,14 @@ Con independencia de cómo se nombren las imágenes (semánticamente o de manera
 
 Más información sobre cómo añadir las imágenes en nuestra [guía para autores y traductores](/es/guia-para-autores).
 
-### D) Verificar los archivos con datos
+### E) Verificar los archivos con datos
 
 Al igual que las imágenes, todos los datos deben almacenarse en nuestro sitio; es decir, por motivos de sostenibilidad, no deben enlazarse como recursos externos. Los archivos de este tipo deben guardarse en la carpeta `assets` de *The Programming Historian en español*, siguiendo las mismas reglas que en el apartado anterior. Con todo, los autores pueden proporcionar una descripción para reflejar el contenido del archivo. Por ejemplo:
 
 -  `/assets/SLUG-DE-LA-LECCION/Louvre-Paintings-1.csv`
 
 
-### E) Comprobar vídeos y *Gifs*
+### F) Comprobar vídeos y *Gifs*
 
 Se recomienda no incluir vídeos o *gifs* porque provocan muchos problemas. Por ejemplo, resulta muy difícil solicitar cambios en vídeos durante el proceso de revisión porque requiere dedicarle mucho tiempo; además, los vídeos no se pueden editar con tanta facilidad si la lección requiere nuevas actualizaciones. Asimismo, para incorporar vídeos se tendría que mantener un canal en YouTube. Como es lógico, no se pueden imprimir pero gran parte de nuestros lectores utilizan [versiones en PDF](https://zenodo.org/record/49873#.V0lazGaGa7o). Por tanto, solo deberían incluirse en casos totalmente necesarios.
 
@@ -218,15 +232,21 @@ En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor 
 
 **Los espacios en blanco son importantes**, así que asegúrate de que la identación se ajusta a la de los otros casos y utiliza espacios en blanco en vez de tabuladores.
 
-### 3) Añade traductor, revisores y editores al archivo YAML
+### 3) Agrega una tabla de contenidos a la lección
+
+El siguiente código debe agregarse al texto de la lección, generalmente antes del primer subtítulo
+
+```
+{% raw %}{% include toc.html %}{% endraw %}
+```
+
+### 4) Añade traductor, revisores y editores al archivo YAML
 
 Es muy importante acreditar el trabajo de nuestros traductores, revisores y editores. Así, pues, localiza el  bloque YAML que se encuentra al inicio del tutorial, y añade el nombre de los revisores y de todos los miembros de nuestra comunidad que han contribuido durante el proceso de revisión. Además, crea un campo `editor` y añade tu nombre y de cuantos otros editores hayan contribuido en la publicación. Las instrucciones para dar formato al bloque de YAML se encuentran en la [guía para autores y traductores](/es/guia-para-autores).
 
 Si se trata de una traducción, asegúrate de que se mantienen los datos del YAML original, e introduce un campo para el traductor (`translator`), otro para los revisores de la traducción (`translation-reviewer`) y otro más para el editor de la traducción (`translation-editor`).
 
-Los revisores que no hayan trabajado con nosotros en el pasado también deben añadirse en el archivo [reviewers.yml](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/reviewers.yml); de esta manera, el nombre de los revisores aparecerá como parte de nuestro equipo. Por favor, no te olvides de este paso.
-
-### 4) Añade un nivel de dificultad el archivo YAML
+### 5) Añade un nivel de dificultad el archivo YAML
 
 Con el objetivo de ayudar a los lectores a evaluar si una lección se ajusta a sus necesidades y experiencia, proporcionamos un campo "Recomendado para usuarios ____" en el bloque YAML. Actualmente, contamos con tres niveles de dificultad, que se escogen mediante tres códigos numéricos: 1 (introductorio), 2 (intermedio) y 3 (avanzado). En el caso de las lecciones nuevas, para añadir el nivel de dificultad a la lección, debes incluir las siguientes líneas al archivo YAML:
 
@@ -234,15 +254,15 @@ Con el objetivo de ayudar a los lectores a evaluar si una lección se ajusta a s
 difficulty: 1
 ```
 
-### 5) Añade un ticket de revisión al archivo YAML
+### 6) Añade un ticket de revisión al archivo YAML
 
 Crea un ticket de revisión en el archivo YAML y proporciona el número del ticket correspondiente al envío del archivo en el repositorio `borradores`. Este procedimiento se realiza para incrementar la transparencia del proceso de revisión. La información, además, se utilizará para proporcionar un enlace al ticket de revisión.
 
-### 6) Actualiza la fecha en el archivo YAML
+### 7) Actualiza la fecha en el archivo YAML
 
 Actualiza la fecha en el campo correspondiente del archivo YAML tomando como referencia el día en que el archivo fue movido al repositorio `jekyll`, salvo en el caso de las traducciones.
 
-### 7) Otros aspectos para concluir el YAML de la lección
+### 8) Otros aspectos para concluir el YAML de la lección
 
 Teniendo como referencia el ejemplo de abajo, asegúrate que toda la parte preliminar de la lección está completada adecuadamente. Los campos comunes que necesitas escribir o editar en este punto son:
 
@@ -279,7 +299,7 @@ Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML d
     ---
 
 
-### 8) Busca una imagen que represente la lección
+### 9) Busca una imagen que represente la lección
 
 Las lecciones se representan mediante una imagen `vintage` que refleja algún elemento de las tareas descritas en el tutorial. Puedes ver todas las imágenes en el [índice principal de lecciones](/es/lecciones). El editor es el encargado de seleccionar las imágenes.
 
@@ -299,7 +319,7 @@ A continuación, crea una copia de la imagen, córtala en un cuadrado sin elimin
 
 Sube la imagen original al directorio [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery).
 
-### 9) Incorpora tu lección en nuestro Twitter bot
+### 10) Incorpora tu lección en nuestro Twitter bot
 
 Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos un Twitter bot para volver a promocionar lecciones pasadas. Para añadir la lección nueva a nuestro *pipeline* deberás añadirla como una fila en esta [hoja de cálculo](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=904817529). Todos los miembros del equipo editorial deben poder hacer cambios; envía un correo electrónico al grupo de google si tienes algún problema. Deberás insertar una nueva fila para tu lección al final de la tabla con los siguientes campos:
 
@@ -309,7 +329,7 @@ Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos 
 
 Deja la columna D en blanco y sin tocar - este campo es utilizado por el Twitter bot para registrar su progreso en la lista. Ten en cuenta además que este paso no reemplaza tu propia promoción de la lección. El bot escoge las lecciones aleatoriamente, una cada la semana, así que pueden pasar meses hasta que tu lección aparezca por este medio. 
 
-### 10) Confirma que todos los enlaces y encabezados YAML funcionen correctamente
+### 11) Confirma que todos los enlaces y encabezados YAML funcionen correctamente
 
 Una vez que envíes tus cambios a la rama `gh-pages` del repositorio de [programminghistorian][ph_repo], el sitio será comprobado automáticamente por [Travis CI] ([Continuous Integration]).
 Este proceso comprueba dos cosas: primero, que todo el código de YAML y markdown sea compilable y, segundo, que todos los hipervínculos del sitio apunten a páginas válidas y en operación.
@@ -347,7 +367,7 @@ En caso de error, debes consultar la bitácora de compilación (*Build logs*) pa
 [abre un nuevo ticket]: https://github.com/programminghistorian/jekyll/issues/new
 
 
-### 11) Da las gracias a todo el mundo y difunde el tutorial
+### 12) Da las gracias a todo el mundo y difunde el tutorial
 
 Es importante enviar un correo electrónico o un mensaje a todos los participantes para agradecerles el esfuerzo. En particular, da las gracias al autor o al traductor por enviar su texto y anímalo a volver a trabajar con nostros en el futuro. También puedes proporcionarle alguna idea sobre cómo difundir y anunciar su contribución. Las lecciones más visitadas suelen contar con la promoción del autor. Por ejemplo, el autor podría realizar las siguientes acciones:
 

@@ -11,8 +11,10 @@ reviewers:
 - Lisa Spiro
 translator:
 - Antonio Rojas Castro
+translation-editor:
+- Víctor Gayol
 translation-reviewer:
-- María José Afanador-Llach
+- Maria José Afanador-Llach
 - Víctor Gayol
 layout: lesson
 difficulty: 1

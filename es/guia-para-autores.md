@@ -21,6 +21,8 @@ Si quieres traducir una lección, tienes una idea para una lección nueva o ya h
 
 **En resumen, aceptamos todo tipo de propuestas.** Para hacerte una idea de lo que buscamos, echa un vistazo a las [lecciones ya publicadas], lee nuestra [guía para revisores] o accede a las [lecciones en desarrollo]. Ten en cuenta que aceptamos lecciones sobre un tema ya cubierto o en desarrollo dado que cada propuesta supone una contribución única: creemos que cada uno aprende de manera distinta y por eso favorecemos cierto solapamiento.
 
+A fin de que nuestras lecciones sean sostenibles a largo plazo, se anima a los autores a proponer tutoriales que no dependan de un programa o de una interfaz especfica. De lo contrario, los tutoriales dejarían de ser estables y necesitarían cambios con cada actualización. En aras de una mayor conservación, es mejor enseñar conceptos que a 'clicar sobre un botón X'. 
+
 Tras la aprobación de tu propuesta, uno de nuestros editores creará un tíquet "Propuesta" en nuestro [repositorio][ph-submissions], en donde se detallará el título provisional y los objetivos de la lección. Este tíquet sirve para documentar el progreso realizado durante la escritura de la lección. Para evitar que se acumulen las lecciones en fase de escritura, te pedimos que entregues tu texto al cabo de 90 días tras la aprobación.
 
 <br/><br/>
@@ -37,7 +39,7 @@ Por favor, ten en cuenta que no tenemos presupuesto para contratar a un correcto
 
 ## Utiliza un archivo de texto plano
 
-Puesto que nuestro sitio web se publica mediante [GitHub Pages](https://pages.github.com), **las lecciones deben escribirse en texto plano**, con el programa de edición que prefieras. *Los editores de texto se diferencian de manera distintiva de los procesadores de texto tradicionales como MS Word*. Para Mac, recomendamos editores de texto gratuitos como [TextWrangler] o TextEdit (este último ya va incluido en Mac OS X). Para Windows, puedes usar Notepad o la versión mejorada [Notepad++].
+Puesto que nuestro sitio web se publica mediante [GitHub Pages](https://pages.github.com), **las lecciones deben escribirse en texto plano**, con el programa de edición que prefieras. *Los editores de texto se diferencian de manera distintiva de los procesadores de texto tradicionales como MS Word*. Es muy recomendable utilizar [Atom](https://atom.io/), disponible para Mac o Windows. Para Mac, recomendamos editores de texto gratuitos como [TextWrangler] o TextEdit (este último ya va incluido en Mac OS X). Para Windows, puedes usar Notepad o la versión mejorada [Notepad++].
 
 El editor de textos que elijas no es relevante pero, por favor, comienza tu traducción o tutorial en texto plano para evitar problemas más tarde. No dudes en contactar con algún miembro de nuestro [equipo](/es/equipo-de-proyecto) si tienes preguntas o dudas.
 
@@ -57,34 +59,58 @@ Nuestra plataforma de publicación, [GitHub Pages], depende de los encabezados e
 
 Para añadir un bloque de metadatos YAML en una nueva lección, simplemente **copia y pega al inicio de tu archivo el texto situado más abajo** y cambia el valor de los campos. Este bloque debería aparecer al principio de cada archivo **seguido de una línea en blanco**. Los revisores añadirán la línea en blanco por ti.
 
-    ---
-    title: |
-        Getting Started with Topic Models: A MALLET Primer
-    authors:
-    - Ian Milligan
-    - Shawn Graham
-    - Scott Weingart
-    date: 2014-03-03
-    reviewers:
-    layout: lesson
-    ---
+	---
+	title: |
+   	 Uso de SPARQL para acceder a datos abiertos enlazados
+	authors:
+	- Matthew Lincoln
+	date: 2015-11-24
+	translation_date: 2017-05-20
+	editors:
+	- Fred Gibbs
+	reviewers:
+	- Patrick Murray-John
+	- Jason Heppler
+	- Will Hanley
+	- Fred Gibb 
+	layout: lesson
+	redirect_from: /es/lessons/graph-databases-and-SPARQL
+	difficulty: 2
+	activity: acquiring
+	topics: [lod]
+	abstract: "Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos y cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL."
+	---
 
-En caso de que envíes una traducción, debes mantener el bloque YAML de la lección original y adicionar la información del traductor y del revisor de la traducción. De tal forma, el ejemplo anterior quedará de la siguiente manera:
+En caso de que envíes una traducción, debes mantener el bloque YAML de la lección original y añadir tu nombre en el campo `translator` e información sobre el editor, los revisores y fecha de la traducción. De tal forma, el ejemplo anterior quedará de la siguiente manera:
 
-    ---
-    title: |
-        Introducción al modelado tópico con MALLET.
-    authors:
-    - Ian Milligan
-    - Shawn Graham
-    - Scott Weingart
-    date: 2014-03-03
-    reviewers:
-    translator:
-    - Antonio Rojas Castro
-    translator-reviewer:
-    layout: lesson
-    ---
+    	---
+	title: |
+	    Uso de SPARQL para acceder a datos abiertos enlazados
+	authors:
+	- Matthew Lincoln
+	date: 2015-11-24
+	translation_date: 2017-05-20
+	editors:
+	- Fred Gibbs
+	reviewers:
+	- Patrick Murray-John
+	- Jason Heppler
+	- Will Hanley
+	- Fred Gibbs
+	translator:
+	- Nuria Rodríguez Ortega
+	translation-editor:
+	- Antonio Rojas Castro
+	translation-reviewer:
+	- Antonio Rojas Castro
+	- Juan Antonio Pastor Sánchez
+	layout: lesson
+	redirect_from: /es/lessons/graph-databases-and-SPARQL
+	difficulty: 2
+	activity: acquiring
+	topics: [lod]
+	abstract: "Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos y 	cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL."
+	---
 
 ## Notas importantes acerca de YAML
 
@@ -104,6 +130,14 @@ Los recursos y tutoriales suguientes contienen más información sobre cómo dar
 
 **Antes de continuar, por favor, asegúrate de que entiendes cómo utilizar la sintaxis Markdown para marcar al texto con encabezados, negrita, cursiva, enlaces, párrafos y listas**.
 
+### Escribe de manera sostenible
+En *The Programming Historian* queremos que las lecciones puedan utilizarse a largo plazo. Por este motivo, recomendamos consultar nuestra [poltica de retirada de lecciones]({{site.baseurl}}/es/politica-retirada-lecciones), en donde describimos el procedimiento llevado a cabo cuando un tutorial se vuelve obsoleto. Con el propsito de incrementar la sostenibilidad de las lecciones, pedimos a los autores de originales que se ajusten a una serie de recomendaciones durante el proceso de escritura:
+
+- En lugar de tratar cuestiones específicas sobre el funcionamiento de un programa, las lecciones deberían centrarse en la metodología y los aspectos generales de las herramientas.
+- Si la lección puede puede aprovechar la documentación existente del programa, recomendamos dirigir a los lectores a esta documentación en lugar de repetirla en la lección. Asimismo, en lugar de enlazar directamente a los recursos de un programa comercial (que a menudo cambia), es mejor proporcionar una orientación general sobre cómo encontrar la documentación.
+- Recomendamos un uso limitado de imágenes específicas de la versión del programa utilizado, a menos que sean estrictamente necesarias para seguir con la lección.
+- Revisa los enlaces externos para asegurarte de que funcionan y están actualizados.
+- Las fuentes y conjuntos de datos necesarios para llevar a cabo una lección deben hospedarse en nuestra web.
 
 ### Utiliza encabezados en cada sección
 

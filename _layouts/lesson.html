@@ -5,7 +5,7 @@ layout: base
 {% comment %}
   This is the standard template for all lessons. It builds on the base template, which includes the HTML header, the menu bar, page content, and footer.
 
-  In addition to general formatting, this layout also contains all the logic for displaying alert messages (lessons in a series, deprecated lessons, etc).
+  In addition to general formatting, this layout also contains all the logic for displaying alert messages (lessons in a series, retired lessons, etc).
 
   All lesson metadata and alerts should follow the convention of pulling appropriate text from the snippets.yml file.
 {% endcomment %}
@@ -113,7 +113,11 @@ layout: base
     <div class="container expanded">
       <div class="row">
       <div class="col-md-4 metarow"><h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      {% if page.retired %}
+      <div class="col-md-4 metarow"><h4>{{site.data.snippets.retired-date[page.lang]}}</h4> <span id="retired-date">{{ page.retired_date | date:"%Y-%m-%d" }}</span></div>
+      {% else %}
       <div class="col-md-4 metarow"><h4>{{site.data.snippets.modified[page.lang]}}</h4> <span id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span></div>
+      {% endif %}
       <div class="col-md-4 metarow"><h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}</div>
     </div>
     </div>
@@ -129,9 +133,15 @@ layout: base
       </div>
     {% endif %}
 
-    {% if page.deprecated %}
+    {% if page.retired %}
      <div class="alert alert-warning">
-       {{ site.data.snippets.deprecated[page.lang] }}
+        <h2>{{ site.data.snippets.retired[page.lang] }}</h2>
+        <p><em>{{ site.data.snippets.retired-meaning[page.lang] }}</em></p>
+        <p>{{ site.data.snippets.retired-definition[page.lang] | markdownify }}</p>
+      {% if page.retirement-reason %}
+        <p><em>{{ site.data.snippets.retirement-reason[page.lang] }}</em></p>
+        <p>{{ page.retirement-reason | markdownify }}</p>
+      {% endif %}
      </div>
     {% endif %}
 
@@ -154,7 +164,7 @@ layout: base
 
      {% if page.next %}
       <div class="series-warning alert alert-info">
-        {{ site.data.snippets.series-next-note[page.lang] }} <a href="{{page.previous}}">{{ site.data.snippets.next-lesson[page.lang] }} </a>.
+        {{ site.data.snippets.series-next-note[page.lang] }} <a href="{{page.next}}">{{ site.data.snippets.next-lesson[page.lang] }} </a>.
       </div>
      {% endif %}
 
@@ -169,7 +179,7 @@ layout: base
   })
     .done(function( data ) {
       var date = new Date(data[0].commit.author.date);
-      var formatted_date = date.getFullYear()+'-'+("0"+date.getMonth()).slice(-2)+'-'+("0"+date.getDate()).slice(-2);
+      var formatted_date = new Intl.DateTimeFormat('sv').format(date)
       $("#modified-date").text(formatted_date);
     });
 })();

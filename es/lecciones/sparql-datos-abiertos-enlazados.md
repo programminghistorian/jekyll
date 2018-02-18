@@ -14,7 +14,7 @@ reviewers:
 - Fred Gibbs
 translator:
 - Nuria Rodríguez Ortega
-editor:
+translation-editor:
 - Antonio Rojas Castro
 translation-reviewer:
 - Antonio Rojas Castro

@@ -596,7 +596,7 @@ Lesson Typography
     font-family: 'Roboto';
   }
 
-  .alert h3, .alert h4 {
+  .alert h2, .alert h3, .alert h4 {
     margin-top:0;
   }
 

@@ -9,7 +9,7 @@ reviewers:
 - Amanda Morton
 translator:
 - Víctor Gayol
-editor:
+translation-editor:
 - Antonio Rojas Castro
 translation-reviewer:
 - José Calvo Tello

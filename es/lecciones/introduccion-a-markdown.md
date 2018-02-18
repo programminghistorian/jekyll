@@ -12,9 +12,11 @@ reviewers:
 - Nancy Lemay
 translator:
 - Víctor Gayol
+translation-editor:
+- Maria José Afanador-Llach
 translation-reviewer:
 - Juan Cobo
-- Maria José Afanador
+- Maria José Afanador-Llach
 difficulty: 1
 activity: presenting
 layout: lesson

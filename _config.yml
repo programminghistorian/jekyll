@@ -11,6 +11,7 @@ exclude:
 highlighter: rouge
 markdown: kramdown
 permalink: :categories/:title
+future: true
 plugins:
   - jekyll-redirect-from
 defaults:
@@ -32,7 +33,7 @@ defaults:
       english-lesson: true
   -
     scope:
-      path: "lessons/deprecated"
+      path: "lessons/retired"
     values:
       lesson: false
       english-lesson: false

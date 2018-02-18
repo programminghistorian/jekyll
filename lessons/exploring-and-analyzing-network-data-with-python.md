@@ -19,10 +19,12 @@ layout: lesson
 collection: lessons
 slug: exploring-and-analyzing-network-data-with-python
 activity: analyzing
-topics: [python, network-analysis]
+topics: [network-analysis]
 date: 2017-08-23
 abstract: "This lesson introduces network metrics and how to draw conclusions from them when working with humanities data. You will learn how to use the NetworkX Python package to produce and work with these network statistics."
 ---
+
+{% include toc.html %}
 
 # Introduction
 
