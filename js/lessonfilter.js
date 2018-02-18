@@ -88,7 +88,7 @@ function wireButtons() {
       $('.filter').children().removeClass("current");
 
       // Reset filter results header
-      $('#results-value').text('All lessons');
+      $('#results-value').text($('#results-value').text());
 
       // Reset uri to remove query params
       uri.search("");
