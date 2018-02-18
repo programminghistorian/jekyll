@@ -32,11 +32,11 @@ function applySortFromURI(uri,featureList) {
 
     // Update filter header and restore defaults to other button
     if (sortType == "date") {
-      $('#current-sort').text(" {{site.data.snippets.date[page.lang]}} ");
+      $('#current-sort').text($('#date-sort-text').attr('label'));
       $('#sort-by-difficulty').removeClass().addClass("sort my-asc");
     }
     else {
-      $('#current-sort').text(" {{site.data.snippets.difficulty[page.lang]}} ");
+      $('#current-sort').text($('#difficulty-sort-text').attr("label"));
       $('#sort-by-date').removeClass().addClass("sort my-desc");
     }
   }
@@ -123,11 +123,11 @@ function wireButtons() {
     // Update filter results header to show current sorting (date or difficulty)
     // Reset the other (non-pressed) button to its default sort arrow.
     if (sortType == "date") {
-      $('#current-sort').text(" {{site.data.snippets.date[page.lang]}} ");
+      $('#current-sort').text($('#date-sort-text').attr('label'));
       $('#sort-by-difficulty').removeClass().addClass("sort my-asc");
     }
     else {
-      $('#current-sort').text(" {{site.data.snippets.difficulty[page.lang]}} ");
+      $('#current-sort').text($('#difficulty-sort-text').attr('label'));
       $('#sort-by-date').removeClass().addClass("sort my-desc");
     }
 
