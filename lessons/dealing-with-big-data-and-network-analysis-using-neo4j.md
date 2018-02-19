@@ -140,11 +140,12 @@ Using the CSV batch loading mechanism in Neo4j is the fastest way to import data
 In this section I am going to talk about the process more generally for simple cases.
 This process assumes that you have an empty database.
 
-> If you want to follow along, you can download the example data files
-> [nodes_companies.csv](../assets/dealing-with-big-data-and-network-analysis-using-neo4j/nodes_companies.csv) and
-> [edges_director_duration.csv](../assets/dealing-with-big-data-and-network-analysis-using-neo4j/edges_director_duration.csv).
-> The canonical guide to loading data from CSV is on [the Neo4j website](https://neo4j.com/developer/guide-import-csv/).
-
+<div class="alert alert-warning">
+If you want to follow along, you can download the example data files
+[nodes_companies.csv](../assets/dealing-with-big-data-and-network-analysis-using-neo4j/nodes_companies.csv) and
+[edges_director_duration.csv](../assets/dealing-with-big-data-and-network-analysis-using-neo4j/edges_director_duration.csv).
+The canonical guide to loading data from CSV is on [the Neo4j website](https://neo4j.com/developer/guide-import-csv/).
+</div>
 
 Now that we have the example CSV files downloaded, we will use the **Cypher** query language to load them into our empty Neo4j database. 
 Cypher is a specialized query language that is designed to load and manipulate data in the Neo4j database.
@@ -209,7 +210,7 @@ Click on the "Manage" button in the database pane, then the drop down menu next 
 {% include figure.html filename="new-neo4j-files.png" caption="Pressing the Open Folders button" %}
 
 You now need to copy the 
-**nodes_nodes_companies.csv** and the **edges_director_duration.csv** files there.
+`nodes_nodes_companies.csv` and the `edges_director_duration.csv` files there.
 Now we can use a Cypher command to load the files.
 
 {% include figure.html filename="importing.png" caption="Moving the files to this directory" %}
@@ -254,9 +255,9 @@ from the file we placed in the import directory. (By default, Neo4j can only loa
 The results will be stored as an object called **nodes**.
 
 The second line CREATEs data in our database. In particular, we create a series of node objects of the type COMPANY 
-that contain a **name** and an **id**. We set the name of this new company node to the name stored in the **nodes.name** object and the id to the same as stored in the **nodes.companyID**.
+that contain a `name` and an `id`. We set the name of this new company node to the name stored in the `nodes.name` object and the id to the same as stored in the `nodes.companyID`.
 Notice that the fields that are stored in the nodes object corresponds to the headers we set in the CSV files.
-We also use the **toInteger()** function to make sure our numbers are represented as integers and not as text.
+We also use the `toInteger()` function to make sure our numbers are represented as integers and not as text.
 
 Next we need to load the edge data.
 
@@ -264,7 +265,7 @@ This command does something similar. However, a new command called MATCH has bee
 The first line loads the CSV file from the import directory and assigns it to a variable called **edges**.
 The next two lines use MATCH. The first line goes to the existing database and finds a COMPANY node with
 an id the same as START_ID. The next line does the same thing, except looks for a match with the END_ID column 
-in the CSV file. These results are assigned to the variables **a** and **b**, respectively.
+in the CSV file. These results are assigned to the variables `a` and `b`, respectively.
 
 The final line CREATES a relationship between these nodes. In this case, the relationship type is called INTERLOCK.
 There is a field called years within the INTERLOCK that is set to the years_served value from the CSV. 
@@ -275,12 +276,16 @@ MATCH (a:COMPANY { id: toInteger(edges.START_ID) })
 MATCH (b:COMPANY { id: toInteger(edges.END_ID)   })
 CREATE (a)-[r:INTERLOCK{weight:toInteger(edges.years_served)}]->(b);
 ```
-> Note: If you have difficulties during the loading process, you can delete all of the nodes and
-> edges in your database using the following command. 
-> ```
-> MATCH (n)
-> DETACH DELETE n
-> ```
+
+<div class="alert alert-warning">
+Note: If you have difficulties during the loading process, you can delete all of the nodes and
+edges in your database using the following command. 
+
+```
+MATCH (n)
+DETACH DELETE n
+```
+</div>
 
 ### Using the Cypher query language 
 
@@ -296,13 +301,13 @@ A typical Cypher statement shows the relationship between two nodes.
 For example, we can create a new COMPANY node:
 
 ```
-    CREATE (acompany:COMPANY { id:900, name:"Economical Mutual Fire Insurance Company of Berlin"})
+CREATE (acompany:COMPANY { id:900, name:"Economical Mutual Fire Insurance Company of Berlin"})
 ```
 
-In this example, **acompany** is the variable name we have given to the node object we created in the database.
-We marked the node object as being a **COMPANY** type. 
-A COMPANY has an attribute called **id** which is a unique number assigned to that particular company.
-In the examples above, each entry also has a **name** field. 
+In this example, `acompany` is the variable name we have given to the node object we created in the database.
+We marked the node object as being a `COMPANY` type. 
+A COMPANY has an attribute called `id` which is a unique number assigned to that particular company.
+In the examples above, each entry also has a `name` field. 
 We can use this unique id to query the database for information about the ties from each firm
 
 Now suppose that the database already contains data and we aren't sure if there is information about a given company.
@@ -337,7 +342,7 @@ SET c.url = "https://economical.com";
 
 ### Reviewing the data
 
-The data supplied in the **nodes_companies.csv** and **edges_director_duration.csv** files 
+The data supplied in the `nodes_companies.csv` and `edges_director_duration.csv` files 
 provides us with the basic corporate interlock network that existed in Canada in 1912.
 
 If we use the web interface that comes with Neo4j we'll be able to see what parts of this network looks like by using a simple query.
@@ -375,7 +380,7 @@ Create another index using the company name as well.
 CREATE INDEX ON :COMPANY(name)
 ```
 
-Creating this index will greatly speed up any queries we make based on the unique keys **id** and **name**.
+Creating this index will greatly speed up any queries we make based on the unique keys `id` and `name`.
 
 <div class="alert alert-warning">
 Don't create more indexes than you need. 
@@ -392,8 +397,10 @@ We've seen that relationships on a graph are written quite intuitively using Cyp
 ```
 In this section we used Cypher to CREATE entries in the database, MATCH existing data, and we used SET to alter existing data we found.
 
-> More on the [Cypher query language](https://neo4j.com/developer/cypher-query-language/) can be found on the Neo4j
+<div class="alert alert-warning">
+More on the [Cypher query language](https://neo4j.com/developer/cypher-query-language/) can be found on the Neo4j
 web site.
+</div>
 
 # Putting it all together: A working example
 
@@ -433,13 +440,13 @@ return c0, r, c1;
 
 {% include figure.html filename="graph_example.png" caption="Example graph" %}
 
-> You can download the data used in this lesson [here](http://jgmackay.com/) (search for the relevant blog posts).
-> If you make use of this data, please cite the following in addition to this lesson.
->
-> Mackay, Jon. 2017. "Canadian Regional and National Business Elites in 1912: Who Was Connected, Who Wasn't and
-> Why" In A History of Socially Responsible Business, c.1600--1950, 189-212. Palgrave Studies in the History
-> of Finance. Palgrave Macmillan.
-> [https://doi.org/10.1007/978-3-319-60146-5_8](https://doi.org/10.1007/978-3-319-60146-5_8).
+You can download the data used in this lesson [here](http://jgmackay.com/) (search for the relevant blog posts).
+If you make use of this data, please cite the following in addition to this lesson:
+
+Mackay, Jon. 2017. "Canadian Regional and National Business Elites in 1912: Who Was Connected, Who Wasn't and
+Why" In A History of Socially Responsible Business, c.1600--1950, 189-212. Palgrave Studies in the History
+of Finance. Palgrave Macmillan.
+[https://doi.org/10.1007/978-3-319-60146-5_8](https://doi.org/10.1007/978-3-319-60146-5_8).
 
 
 # Conclusion
