@@ -33,8 +33,6 @@ We will also make clear to our readers which lessons are considered up to date, 
 
 We rely heavily on our community to alert us to problems in our lessons, so please [contact us](/feedback) if one of your favorite lessons is no longer working!
 
----
-
 As with all big changes at _Programming Historian_, these new policies are the result of a group effort involving intense discussion and debate within our editorial team.
 We also want to thank the broader community for your contributions and suggestions during this long process, which ranged from broad suggestions to small, but crucial changes to site layout and design around retired lessons.
 For anyone interested in how this conversation developed, we recommend reading the [GitHub issue where we developed our guiding sustainability principles](https://github.com/programminghistorian/jekyll/issues/536), as well as the [pull request where we refined the wording of the text.](https://github.com/programminghistorian/jekyll/pull/612)
