@@ -4,7 +4,7 @@ collection: lessons
 slug: dealing-with-big-data-and-network-analysis-using-neo4j
 authors: 
 - Jon MacKay
-date: 2018-01-24
+date: 2018-02-20
 reviewers:
 - Ryan Deschamps
 - François Dominic Laramée
