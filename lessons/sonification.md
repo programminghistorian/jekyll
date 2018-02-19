@@ -234,7 +234,7 @@ D, D, A, A, B, B, B, B, A
 Baa, Baa, black, sheep, have, you, any, wool?
 ```
 
-Can you make your computer play this song? (This [chart](http://www.electronics.dit.ie/staff/tscarff/Music_technology/midi/midi_note_numbers_for_octaves.htm) will help).
+Can you make your computer play this song? (This [chart](https://web.archive.org/web/20171211192102/http://www.electronics.dit.ie/staff/tscarff/Music_technology/midi/midi_note_numbers_for_octaves.htm) will help).
 
 **By the way** There is a text file specification for describing music called '[ABC Notation](http://abcnotation.com/wiki/abc:standard:v2.1)'. It is beyond us for now, but one could write a sonification script in say a spreadsheet, mapping values to note names in the ABC specification (if you've ever used an IF - THEN in Excel to convert percentage grades to letter grades, you'll have a sense of how this might be done) and then using a site like [this one](http://trillian.mit.edu/~jc/music/abc/ABCcontrib.html) to convert the ABC notation into a .mid file.
 
