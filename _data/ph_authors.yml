@@ -911,3 +911,9 @@
   team_roles:
     - spanish
     - board
+
+- name: Jon MacKay
+  team: false
+  bio:
+    en: |
+        Jon MacKay holds a PhD in Management Science from the University of Waterloo. He is currently a senior advanced analytics professional at Economical Insurance.
