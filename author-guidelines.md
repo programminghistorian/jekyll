@@ -96,7 +96,7 @@ PH strives to publish lessons that will be of use to our readers for the foresee
 - If your lesson can leverage existing software documentation, consider directing your readers to this documentation rather than repeating it in the lesson. Instead of linking directly to a software company's resources (which often change), you can provide general guidance on how to find the documentation.
 - Limit the use of software version-specific images, unless required to follow the lesson.
 - Check any external links to ensure they are live and up-to-date.
-- Data sources for lessons should be hosted at PH.
+- Data sources for lessons should be hosted with the _Programming Historian_.
 
 ### Use informative section headings
 We strive to make our lessons easy to follow by using section headings consistently throughout our lessons. As you compose your lesson, section headings will help you visualize how well you've structured your lesson. Avoid long sections of text with no headings; these become very difficult to follow.
