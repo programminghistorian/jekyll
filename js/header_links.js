@@ -11,19 +11,3 @@ $(function() {
     }
   });
 });
-
-// $(function() {
-//   $( 'li[class="nav-item dropdown"]' ).click(function(){
-//     // remove show class from all other menus.
-//     $( this ).addClass('show');
-//     // $( 'li' ).not( this ).removeClass('show');
-//     // add show to this particular menu.
-//
-//     console.log('clicked!');
-//   });
-//   // add show class
-// });
-//
-// // $(document).click( function(){
-// //     // $( 'li[class="nav-item dropdown show"]' ).removeClass('show');
-// // });
