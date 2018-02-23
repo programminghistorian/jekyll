@@ -147,7 +147,7 @@ If that doesn't work, let Matthew Lincoln know, and he will try to diagnose it.
 To increase the lifespan of our lessons, _Programming Historian_ editors should complete a sustainability review as a part of their final checklist. Every submission is different and some of these areas may not be applicable to all submissions. Keeping in mind the difficulty level of each lesson and its intended audience, editors should use these areas as guidelines to ensure that lessons are as sustainable as possible from the date of publication.
 
 - All software versions and dependencies are described in the introduction to the lesson
-- Sources of data for lessons are clearly noted and should be hosted at PH whenever possible
+- Sources of data for lessons are clearly noted and should be hosted at the _Programming Historian_ whenever possible
 - Lessons make use of existing software documentation whenever possible
 - Lessons link to Wikipedia for technical terminology
 - Screenshots of software GUIs are limited to those that are required to understand the lesson
