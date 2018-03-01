@@ -21,6 +21,9 @@ No aplicamos cargos por procesamiento de artículos (APCs), o suscripción bibli
 
 _The Programming Historian en español_ está indexado en el Directorio de Revistas de Acceso Abierto [DOAJ](https://doaj.org/toc/2397-2068).
 
+## Política de diversidad
+
+En The Programming Historian estamos comprometidos con la diversidad y defendemos la necesidad de mantener un espacio de trabajo sin ningún tipo de acoso u hostigamiento basado en el género, identidad, orientación sexual, capacidades, físico, peso, etnia, edad, religión o nivel de conocimiento técnico de los participantes y colaboradores. Asimismo, nuestro compromiso con la diversidad se extiende a la composición del Consejo Editorial garantizando que los miembros de un mismo género o nacionalidad no alcanzan una ratio superior al 50% +1 del total. Con esto pretendemos que el proyecto se siga beneficiando de puntos de vista distintos. La medida está sujeta a revisiones futuras, por lo que aceptamos el envío de sugerencias de los miembros de la comunidad.
 
 ## Financiamiento y propiedad
 _The Programming Historian_ es una iniciativa dirigida por voluntarios, controlada en su totalidad por el Consejo Editorial de *The Programming Historian* con la ayuda de contribuyentes de la comunidad. No es una persona jurídica y, actualmente, no recibe financiación directa de ninguna organizacin o entidad.

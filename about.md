@@ -23,6 +23,9 @@ We do not charge Article Processing Charges (APCs), nor do we charge library sub
 
 The _Programming Historian_ (ISSN 2397-2068) is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
 
+## Diversity Policy
+
+The Programming Historian is committed to diversity, and we insist on a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. Our commitment to diversity extends to our Editorial Board, which has adopted a diversity policy to ensure that members from any one gender or any one nationality do not comprise more than 50% + 1 of the members on the board. This is to ensure that the project continues to benefit from diverse viewpoints. This policy is under perpetual review and we welcome suggestions on it from the community.
 
 ## Funding & Ownership
 The _Programming Historian_ is a volunteer-driven project. It is not a legal entity, and does not currently receive direct funding from any source.
