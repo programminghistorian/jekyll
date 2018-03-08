@@ -7,21 +7,21 @@
 
 
 $( document ).ready( function () {
-    $( '.foo a.dropdown-toggle' ).on( 'click', function ( e ) {
+    $( '.mobile-drop a.dropdown-toggle' ).on( 'click', function ( e ) {
         console.log('starting click');
         var $el = $( this );
-        var $parent = $( this ).offsetParent( ".foo" );
+        var $parent = $( this ).offsetParent( ".mobile-drop" );
         if ( !$( this ).next().hasClass( 'show' ) ) {
-            $( this ).parents( '.foo' ).first().find( '.show' ).removeClass( "show" );
+            $( this ).parents( '.mobile-drop' ).first().find( '.show' ).removeClass( "show" );
             console.log('inside first branch');
         }
-        var $subMenu = $( this ).next( ".foo" );
+        var $subMenu = $( this ).next( ".mobile-drop" );
         $subMenu.toggleClass( 'show' );
 
         $( this ).parent( "li" ).toggleClass( 'show' );
 
         $( this ).parents( 'li.nav-item.dropdown.show' ).on( 'hidden.bs.dropdown', function ( e ) {
-            $( '.foo .show' ).removeClass( "show" );
+            $( '.mobile-drop .show' ).removeClass( "show" );
         } );
 
          if ( !$parent.parent().hasClass( 'navbar-nav' ) ) {
