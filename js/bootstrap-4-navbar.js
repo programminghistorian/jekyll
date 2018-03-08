@@ -11,7 +11,7 @@ $( document ).ready( function () {
         var $el = $( this );
         var $parent = $( this ).offsetParent( ".mobile-drop" );
         if ($('.show.mobile-drop').length > 0){
-          $('.show').each(function(item){
+          $('.show.mobile-drop').each(function(item){
             $(this).toggleClass('show');
           });
         }
