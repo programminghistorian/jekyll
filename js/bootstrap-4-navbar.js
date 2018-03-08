@@ -14,12 +14,16 @@ $( document ).ready( function () {
             $( this ).parents( '.mobile-drop' ).first().find( '.show' ).removeClass( "show" );
             console.log('inside first branch');
         }
+        if ( !$( this ).previous().hasClass( 'show' ) ) {
+            $( this ).parents( '.mobile-drop' ).first().find( '.show' ).removeClass( "show" );
+            console.log('inside first branch');
+        }
         var $subMenu = $( this ).next( ".mobile-drop" );
         $subMenu.toggleClass( 'show' );
 
         $( this ).parent( "li" ).toggleClass( 'show' );
 
-        $( this ).parents( 'li .nav-item .dropdown .show' ).on( 'hidden.bs.dropdown', function ( e ) {
+        $( this ).parents( 'li.nav-item.dropdown.mobile-drop.show' ).on( 'click', function ( e ) {
             $( '.mobile-drop .show' ).removeClass( "show" );
             console.log('second branch');
         } );
