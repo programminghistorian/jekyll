@@ -83,7 +83,7 @@
     en: |
         He is interested in working with authors on topics
         including: network analysis, text analysis and data mining, as well
-        as intermediate to advanced-level lessons more generally. 
+        as intermediate to advanced-level lessons more generally.
     es: |
         Tiene interés en editar lecciones sobre análisis de redes, análisis textual y minería de datos, y, en general, lecciones de nivel intermedio o superior.
   team_roles:
@@ -250,7 +250,7 @@
   bio:
     en: |
         Kim Pham is the Digital Projects and Technologies Librarian
-        at the University of Toronto Scarborough Library. 
+        at the University of Toronto Scarborough Library.
         Her heart belongs to open-source software & shared,
         community-driven development practices in libraries.
 
@@ -650,7 +650,7 @@
 
 - name: Jacob W. Greene
   url: "http://jacobwgreene.com"
-  twitter: jacobwgreene
+  twitter: jacobwesgreene
   team: false
   bio:
     en: |
@@ -882,9 +882,9 @@
         Universidad Autónoma de San Luis Potosí, México.
   bio:
     en: |
-        José Antonio Motilla is a researcher of history, art, culture and digital humanities at the Universidad Autónoma de San Luis Potosí, México. Director of the “Ricardo B. Anaya" Library (San Luis Potosí, México). 
+        José Antonio Motilla is a researcher of history, art, culture and digital humanities at the Universidad Autónoma de San Luis Potosí, México. Director of the “Ricardo B. Anaya" Library (San Luis Potosí, México).
     es: |
-        José Antonio Motilla es investigador de historia, arte, cultura y humanidades digitales en la Universidad Autónoma de San Luis Potosí, México. Director de la biblioteca "Ricardo B. Anaya" (San Luis Potosí, México). 
+        José Antonio Motilla es investigador de historia, arte, cultura y humanidades digitales en la Universidad Autónoma de San Luis Potosí, México. Director de la biblioteca "Ricardo B. Anaya" (San Luis Potosí, México).
   team_roles:
    - spanish
    - board
@@ -898,16 +898,16 @@
   team_start: 2018
   institution: University of Nebraska
   sortname: Isasi
-  affiliation: 
+  affiliation:
     en: |
         University of Nebraska at Kearney, USA.
     es: |
-        Universidad de Nebraska en Kearney, Estados Unidos. 
-  bio: 
-    en: | 
-        Jennifer Isasi is a Lecturer of Spanish at the University of Nebraska at Kearney, and a PhD on Hispanic Studies. 
+        Universidad de Nebraska en Kearney, Estados Unidos.
+  bio:
+    en: |
+        Jennifer Isasi is a Lecturer of Spanish at the University of Nebraska at Kearney, and a PhD on Hispanic Studies.
     es: |
-        Jennifer Isasi es profesora numeraria de español en la Universidad de Nebraska en Kearney y doctora en Estudios Hispánicos. 
+        Jennifer Isasi es profesora numeraria de español en la Universidad de Nebraska en Kearney y doctora en Estudios Hispánicos.
   team_roles:
     - spanish
     - board
