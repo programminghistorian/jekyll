@@ -8,7 +8,6 @@
 
 $( document ).ready( function () {
     $( '.mobile-drop a.dropdown-toggle' ).on( 'click', function ( e ) {
-        console.log('starting click');
         var $el = $( this );
         var $parent = $( this ).offsetParent( ".mobile-drop" );
         if ( !$( this ).next().hasClass( 'show' ) ) {
@@ -20,8 +19,9 @@ $( document ).ready( function () {
 
         $( this ).parent( "li" ).toggleClass( 'show' );
 
-        $( this ).parents( 'li.nav-item.dropdown.show' ).on( 'hidden.bs.dropdown', function ( e ) {
+        $( this ).parents( 'li .nav-item .dropdown .show' ).on( 'hidden.bs.dropdown', function ( e ) {
             $( '.mobile-drop .show' ).removeClass( "show" );
+            console.log('second branch');
         } );
 
          if ( !$parent.parent().hasClass( 'navbar-nav' ) ) {
