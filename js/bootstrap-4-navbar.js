@@ -9,19 +9,10 @@
 $( document ).ready( function () {
     $( '.mobile-drop a.dropdown-toggle' ).on( 'click', function ( e ) {
         var $el = $( this );
-        console.log('this');
-        console.log($el);
         var $parent = $( this ).offsetParent( ".mobile-drop" );
-        console.log('====');
-        console.log('parent');
-        console.log($parent);
-        if ($('.show').length > 0){
+        if ($('.show.mobile-drop').length > 0){
           $('.show').each(function(item){
-            console.log('====');
-            console.log('hi');
             $(this).toggleClass('show');
-            console.log(item);
-            console.log('====');
           });
         }
 
@@ -32,7 +23,6 @@ $( document ).ready( function () {
 
         $( this ).parents( 'li.nav-item.dropdown.mobile-drop.show' ).on( 'click', function ( e ) {
             $( '.mobile-drop .show' ).removeClass( "show" );
-            console.log('second branch');
         } );
 
          if ( !$parent.parent().hasClass( 'navbar-nav' ) ) {
