@@ -9,15 +9,22 @@
 $( document ).ready( function () {
     $( '.mobile-drop a.dropdown-toggle' ).on( 'click', function ( e ) {
         var $el = $( this );
+        console.log('this');
+        console.log($el);
         var $parent = $( this ).offsetParent( ".mobile-drop" );
-        if ( !$( this ).next().hasClass( 'show' ) ) {
-            $( this ).parents( '.mobile-drop' ).first().find( '.show' ).removeClass( "show" );
-            console.log('inside first branch');
+        console.log('====');
+        console.log('parent');
+        console.log($parent);
+        if ($('.show').length > 0){
+          $('.show').each(function(item){
+            console.log('====');
+            console.log('hi');
+            $(this).toggleClass('show');
+            console.log(item);
+            console.log('====');
+          });
         }
-        if ( !$( this ).previous().hasClass( 'show' ) ) {
-            $( this ).parents( '.mobile-drop' ).first().find( '.show' ).removeClass( "show" );
-            console.log('inside first branch');
-        }
+
         var $subMenu = $( this ).next( ".mobile-drop" );
         $subMenu.toggleClass( 'show' );
 
