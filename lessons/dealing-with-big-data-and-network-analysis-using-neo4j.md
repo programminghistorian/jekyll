@@ -140,12 +140,10 @@ Using the CSV batch loading mechanism in Neo4j is the fastest way to import data
 In this section I am going to talk about the process more generally for simple cases.
 This process assumes that you have an empty database.
 
-<div class="alert alert-warning">
-If you want to follow along, you can download the example data files
+**If you want to follow along, you can download the example data files
 [nodes_companies.csv](../assets/dealing-with-big-data-and-network-analysis-using-neo4j/nodes_companies.csv) and
 [edges_director_duration.csv](../assets/dealing-with-big-data-and-network-analysis-using-neo4j/edges_director_duration.csv).
-The canonical guide to loading data from CSV is on [the Neo4j website](https://neo4j.com/developer/guide-import-csv/).
-</div>
+The canonical guide to loading data from CSV is on [the Neo4j website](https://neo4j.com/developer/guide-import-csv/).**
 
 Now that we have the example CSV files downloaded, we will use the **Cypher** query language to load them into our empty Neo4j database. 
 Cypher is a specialized query language that is designed to load and manipulate data in the Neo4j database.
@@ -277,15 +275,14 @@ MATCH (b:COMPANY { id: toInteger(edges.END_ID)   })
 CREATE (a)-[r:INTERLOCK{weight:toInteger(edges.years_served)}]->(b);
 ```
 
-<div class="alert alert-warning">
-Note: If you have difficulties during the loading process, you can delete all of the nodes and
-edges in your database using the following command. 
+**Note: If you have difficulties during the loading process, you can delete all of the nodes and
+edges in your database using the following command.** 
 
 ```
 MATCH (n)
 DETACH DELETE n
 ```
-</div>
+
 
 ### Using the Cypher query language 
 
@@ -397,10 +394,8 @@ We've seen that relationships on a graph are written quite intuitively using Cyp
 ```
 In this section we used Cypher to CREATE entries in the database, MATCH existing data, and we used SET to alter existing data we found.
 
-<div class="alert alert-warning">
 More on the [Cypher query language](https://neo4j.com/developer/cypher-query-language/) can be found on the Neo4j
 web site.
-</div>
 
 # Putting it all together: A working example
 
