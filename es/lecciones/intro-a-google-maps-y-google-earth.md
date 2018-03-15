@@ -15,7 +15,7 @@ editors:
 translators:
 - Andrés Gattinoni
 translation-editor:
-Maria José Afanador-Llach
+- Maria José Afanador-Llach
 translator-reviewer:
 - Antonio Rojas Castro
 - Jennifer Isasi
