@@ -20,6 +20,7 @@ translation-editor:
 translation-reviewer:
 - Antonio Rojas Castro
 - Jennifer Isasi
+redirect_from: /es/lessons/googlemaps-googleearth
 difficulty: 1
 activity: presenting
 topics: [mapping]
