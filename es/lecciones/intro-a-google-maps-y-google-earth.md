@@ -27,7 +27,7 @@ topics: [mapping]
 abstract: "Google My Maps y Google Earth son una buena manera de comenzar
 a crear mapas digitales. Con una cuenta de Google puedes crear y editar mapas
 personales haciendo clic en Mis Sitios"
-next: qgis-layers
+next: /lessons/qgis-layers
 ---
 
 {% include toc.html %}
@@ -555,14 +555,8 @@ trabajo!**
   [geo-es34]: /images/intro-a-google-maps-y-google-earth/geo-es34.png
   [geo-es35]: /images/intro-a-google-maps-y-google-earth/geo-es35.png
   [Mobile Mapping and Historical GIS in the Field]: http://niche-canada.org/2011/12/14/mobile-mapping-and-historical-gis-in-the-field/
-    "Mobile Mapping and Historical GIS in the Field"
   [geo-es36]: /images/intro-a-google-maps-y-google-earth/geo-es36.png
   [geo-es37]: /images/intro-a-google-maps-y-google-earth/geo-es37.png
   [geo-es38]: /images/intro-a-google-maps-y-google-earth/geo-es38.png
   [geo-es39]: /images/intro-a-google-maps-y-google-earth/geo-es39.png
   [geo-es40]: /images/intro-a-google-maps-y-google-earth/geo-es40.png
-<<<<<<< HEAD
-  [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
-=======
-  [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
->>>>>>> origin/gh-pages
