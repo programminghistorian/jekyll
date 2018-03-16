@@ -3,6 +3,7 @@ title: |
   Introducción a Google Maps y Google Earth
 layout: lesson
 date: 2013-12-13
+translation_date: 2018-03-15
 authors:
 - Jim Clifford
 - Josh MacFadyen
@@ -12,7 +13,7 @@ reviewers:
 - Sarah Simpkin
 editors:
 - Adam Crymble
-translators:
+translator:
 - Andrés Gattinoni
 translation-editor:
 - Maria José Afanador-Llach
