@@ -17,7 +17,7 @@ translator:
 - Andrés Gattinoni
 translation-editor:
 - Maria José Afanador-Llach
-translator-reviewer:
+translation-reviewer:
 - Antonio Rojas Castro
 - Jennifer Isasi
 difficulty: 1
