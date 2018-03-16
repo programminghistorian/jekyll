@@ -366,7 +366,7 @@ The lesson is also available in workshop form.  If you're interested in running 
 The Geoparser team also welcomes suggestions for future collaboration to tailor the Geoparser to different needs.  Please get in touch if you have ideas about how it could be applied.
 
 In the past the Geoparser was used to identify place names for different purposes and in different types of data (e.g. Grover et al., 2010 and Alex et al., 2015).  For example, it was adapted to perform fine-grained geo-parsing for literature set in Edinburgh ([Palimpsest](http://palimpsest.blogs.edina.ac.uk/)) presented in the [LitLong](http://litlong.org/) interface.  It was used to geo-parse
-* volumes of the Survey of English Place Names ([DEEP](http://englishplacenames.cerch.kcl.ac.uk/), see Grover and Tobin, 2014),
+* volumes of the Survey of English Place Names ([DEEP](http://web.archive.org/web/20170722115758/http://englishplacenames.cerch.kcl.ac.uk/), see Grover and Tobin, 2014),
 * large historical collections related to commodity trading in the 19th century British Empire ([Trading Consequences](http://tradingconsequences.blogs.edina.ac.uk/)) and
 * 19th century British newspapers by [Prof. Ian Gregory](http://www.lancaster.ac.uk/staff/gregoryi/)’s group at Lancaster University.
 
