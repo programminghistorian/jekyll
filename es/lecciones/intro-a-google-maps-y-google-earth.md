@@ -510,7 +510,7 @@ de cambios a través del tiempo.
 **Ya aprendiste a utilizar Google Maps y Google Earth. ¡Asegúrate de guardar tu
 trabajo!**
 
-*Esta lección es parte de [Geospatial Historian][].*
+*Esta lección es parte de [Geospatial Historian]: https://geospatialhistorian.wordpress.com/*
 
   [Google Maps Engine Lite]: https://mapsengine.google.com
   [geo-es1]: /images/intro-a-google-maps-y-google-earth/geo-es1.png
@@ -519,7 +519,8 @@ trabajo!**
   [geo-es4]: /images/intro-a-google-maps-y-google-earth/geo-es4.png
   [geo-es5]: /images/intro-a-google-maps-y-google-earth/geo-es5.png
   [geo-es6]: /images/intro-a-google-maps-y-google-earth/geo-es6.png
-  [Archivo CSV del Suministro global de grasa de Reino Unido]: https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/Suministro global de grasa de Reino Unido 1894-1896.zip
+  [Archivo CSV del Suministro global de grasa de Reino Unido]: https://github.com/programminghistorian/jekyll/assets/Suministro global de grasa de Reino Unido 1894-1896.zip
+  
   [geo-es7]: /images/intro-a-google-maps-y-google-earth/geo-es7.png
   [geo-es8]: /images/intro-a-google-maps-y-google-earth/geo-es8.png
   [geo-es9]: /images/intro-a-google-maps-y-google-earth/geo-es9.png
