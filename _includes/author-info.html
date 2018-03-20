@@ -12,13 +12,12 @@
       <p class="author-name">Acerca {% if authorCount == 1 %}del autor{% else %}de los autores{% endif %}</p>
   {% endif %}
 </div>
-<div class="author-description"><p>
+<div class="author-description">
   {% for author in page.authors %}
      {% for member in site.data.ph_authors %}
      {% if author == member.name %}
-         {{ member.bio[page.lang] }}&nbsp;
+         <p>{{ member.bio[page.lang] }}<p>
      {% endif %}
      {% endfor %}
-{% endfor %}</p>
-
+{% endfor %}
 </div>
