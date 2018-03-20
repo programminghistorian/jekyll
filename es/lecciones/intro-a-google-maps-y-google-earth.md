@@ -519,8 +519,7 @@ trabajo!**
   [geo-es4]: /images/intro-a-google-maps-y-google-earth/geo-es4.png
   [geo-es5]: /images/intro-a-google-maps-y-google-earth/geo-es5.png
   [geo-es6]: /images/intro-a-google-maps-y-google-earth/geo-es6.png
-  [Archivo CSV del Suministro global de grasa de Reino Unido]: https://github.com/programminghistorian/jekyll/assets/Suministro global de grasa de Reino Unido 1894-1896.zip
-  
+  [Archivo CSV del Suministro global de grasa de Reino Unido]: /assets/Suministro_global_de_grasa_de_Reino_Unido_1894_1896.zip
   [geo-es7]: /images/intro-a-google-maps-y-google-earth/geo-es7.png
   [geo-es8]: /images/intro-a-google-maps-y-google-earth/geo-es8.png
   [geo-es9]: /images/intro-a-google-maps-y-google-earth/geo-es9.png
