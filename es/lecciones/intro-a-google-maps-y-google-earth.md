@@ -510,7 +510,7 @@ de cambios a través del tiempo.
 **Ya aprendiste a utilizar Google Maps y Google Earth. ¡Asegúrate de guardar tu
 trabajo!**
 
-*Esta lección es parte de [Geospatial Historian]: https://geospatialhistorian.wordpress.com/*
+*Esta lección es parte de [Geospatial Historian](https://geospatialhistorian.wordpress.com/)*
 
   [Google Maps Engine Lite]: https://mapsengine.google.com
   [geo-es1]: /images/intro-a-google-maps-y-google-earth/geo-es1.png
