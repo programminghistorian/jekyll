@@ -546,4 +546,4 @@ saver.
   [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
   [Installing Python Modules with pip]: /lessons/installing-python-modules-pip
   [Cascading Style Sheets]: http://www.w3schools.com/css/
-  [Code Academy’s]: http://www.codecademy.com/courses/css-coding-with-style
+  [Code Academy’s]: https://www.codecademy.com/catalog/subject/web-development

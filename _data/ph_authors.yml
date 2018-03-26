@@ -406,21 +406,30 @@
     en: |
         Jim Clifford is an assistant professor in the Department of History
         at the University of Saskatchewan.
-
+    es: |
+        Jim Clifford es profesor asistente en el Departamento de Historia 
+        de la Universidad de Saskatchewan.
+        
 - name: Daniel Macfarlane
   team: false
   bio:
     en: |
         Daniel Macfarlane is a Visiting Scholar in the School of Canadian
         Studies at Carleton University.
-
+    es: |
+        Daniel Macfarlane es profesor visitante en la Escuela de Estudios 
+        Canadienses en la Universidad de Carleton.
+        
 - name: Josh MacFadyen
   team: false
   bio:
     en: |
         Josh MacFadyen is a Project Coordinator at the Network in Canadian
         History & Environment.
-
+    es: |
+        Josh MacFayden es Coordinador de Proyectos en la Red Canadiense 
+        de Historia y Medio Ambiente. 
+        
 - name: Jeri Wieringa
   team: true
   team_start: 2015
