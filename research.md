@@ -31,6 +31,7 @@ The project team and members of the wider community are involved in a number of 
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 May 2015).
 
 ## Posters, Conference Papers, & Invited Talks
+* James Baker, '[The Programming Historian: Open Access, Open Source, Open Project](https://www.slideshare.net/drjwbaker/the-programming-historian-open-access-open-source-open-project)', Research Hive Seminar on 'Open publication: exploring alternative models and practices', University of Sussex (22 March 2018).
 * Adam Crymble, 'White, Male, and North American: Challenges of Diversifying the Programming Historian', Universit&eacute; de Lausanne, Switzerland (23-24 March 2017).
 * Victor Gayol, 'La investigación del pasado y la historia digital: análisis de datos y cómo aprender (The Programming Historian en español)', _Humanidades Digitales_, IV Feria Internacional de Ciencias Sociales y Humanidades, Centro Universitario de Los Lagos - Universidad de Guadalajara, Lagos de Moreno, Jalisco (9 March, 2017).
 * Victor Gayol, 'The Programming Historian: 'un modelo colaborativo para la investigaci&oacute;n y la ensen&ntilde;anza en ciencias sociales y humanidades digitales', _Mesa de Trabajo sobre Ciencias Sociales y Humanidades Digitales_, El Colegio De Michoac&aacute;n, Mexico (21 February 2017).
