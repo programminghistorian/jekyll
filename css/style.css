@@ -642,13 +642,13 @@ Figures
     text-align: justify;
   }
 
-  .author-info {
+  .author-info, .citation-info {
     border-top:1px solid #333;
     padding-top:1rem;
     margin-top:2rem;
   }
 
-  .author-name {
+  .author-name, .suggested-citation-header {
     font-family:'Roboto Condensed';
     font-weight: 600;
     font-size:1.2rem;
@@ -656,7 +656,7 @@ Figures
     text-transform:uppercase;
   }
 
-  .author-description p {
+  .author-description p, .suggested-citation-text p {
     font-size:0.9rem;
     font-family:'Open Sans';
     color: #666;

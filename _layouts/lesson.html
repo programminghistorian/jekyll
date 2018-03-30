@@ -169,6 +169,22 @@ layout: base
      {% endif %}
 
      {% include author-info.html %}
+
+      <div class="citation-info">
+        {% assign vol_start = site.data.snippets.volume-start[page.lang] %}
+        {% if page.lang == "en" %}
+          {% assign page_year = page.date | date: "%Y" %}
+        {% elsif page.lang == "es" %}
+          {% assign page_year = page.translation_date | date: "%Y" %}
+        {% endif %}
+        {% assign vol_no = page_year | minus: vol_start | plus: 1 %}
+
+        <h5 class="suggested-citation-header">{{ site.data.snippets.suggested-citation[page.lang] }}</h5>
+        <div class="suggested-citation-text">
+        <p class="suggested-citation-text">{% include author.html %}, "{{ page.title }}." <em>{{ site.data.snippets.journal-title[page.lang] }}</em> {{ vol_no }}, {{ page_year }}, {{ site.url }}{{ page.url }}</p>
+        </div>
+      </div>
+  </div>
 </div>
 
 <script>
