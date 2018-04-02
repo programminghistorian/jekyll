@@ -245,3 +245,12 @@ project-team-roles:
 present:
   en: Present
   es: Presente
+volume-start:
+  en: 2012
+  es: 2016
+suggested-citation:
+  en: Suggested Citation
+  es: Cita sugerida
+journal-title:
+  en: The Programming Historian
+  es: The Programming Historian en español
