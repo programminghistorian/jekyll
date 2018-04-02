@@ -1,6 +1,7 @@
 ---
 title: |
     Creating Web APIs with Python and Flask
+collection: lessons
 authors:
 - Patrick Smyth
 date: 2018-04-02
@@ -11,11 +12,12 @@ reviewers:
 - Ryan Deschamps
 difficulty: 2
 layout: lesson
-collection: lessons
 slug: creating-apis-with-python-and-flask
 activity: presenting
 topics: [api, data-management]
 review-ticket:  106
+abstract: |
+  Learn how to set up a basic Application Program Interface (API) to make your data more accessible to users, good principles for API construction, and why you might want to set one up in the first place.
 ---
 
 {% include toc.html %}
