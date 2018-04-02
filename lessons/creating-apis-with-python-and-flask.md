@@ -3,10 +3,22 @@ title: |
     Creating Web APIs with Python and Flask
 authors:
 - Patrick Smyth
-date: 2017-08-01
+date: 2018-04-02
+editors:
+- Brandon Walsh
 reviewers:
+- Megan Kudzia
+- Ryan Deschamps
+difficulty: 2
 layout: lesson
+collection: lessons
+slug: creating-apis-with-python-and-flask
+activity: presenting
+topics: [api, data-management]
+review-ticket:  106
 ---
+
+{% include toc.html %}
 
 # Contents
 
