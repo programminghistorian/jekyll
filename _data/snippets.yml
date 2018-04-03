@@ -254,3 +254,9 @@ suggested-citation:
 journal-title:
   en: The Programming Historian
   es: The Programming Historian en español
+title-open-quote:
+  en: '"'
+  es: '"'
+title-close-quote:
+  en: ',"'
+  es: '",'
