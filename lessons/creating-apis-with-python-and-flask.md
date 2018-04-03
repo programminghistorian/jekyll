@@ -17,7 +17,7 @@ activity: presenting
 topics: [api, data-management]
 review-ticket:  106
 abstract: |
-  Learn how to set up a basic Application Program Interface (API) to make your data more accessible to users, good principles for API construction, and why you might want to set one up in the first place.
+  Learn how to set up a basic Application Programming Interface (API) to make your data more accessible to users. This lesson also discusses principles of API design and the benefits of APIs for digital projects.
 ---
 
 {% include toc.html %}
