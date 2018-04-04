@@ -10,7 +10,6 @@ authors:
 reviewers:
 - Ryan Deschamps
 - Megan Kudzia
-- Ian Milligan
 editors:
 - Brandon Walsh
 difficulty: 2
