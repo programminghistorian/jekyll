@@ -10,7 +10,6 @@ authors:
 reviewers:
 - Ryan Deschamps
 - Megan Kudzia
-- Matthew Lincoln
 - Ian Milligan
 editors:
 - Brandon Walsh
