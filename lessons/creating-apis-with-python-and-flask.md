@@ -700,7 +700,7 @@ The below resources provide information on useful APIs for researchers in the hu
 
 [History Data Service (HDS)](http://hds.essex.ac.uk/) - A collection of data from a wide variety of historical sources.
 
-[ARTstor](http://www.artstor.org/) - More than two million images from historical, carographic, and art history sources.
+[Europeana](https://pro.europeana.eu/)
 
 [Digging into Data API List](https://diggingintodata.org/repositories)
 
