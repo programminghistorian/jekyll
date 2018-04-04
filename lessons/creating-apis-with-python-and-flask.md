@@ -44,7 +44,7 @@ For this tutorial, you will need Python 3 and the Flask web framework. You'll al
 
 To download Python, follow [this link](https://www.python.org/downloads/), select the button that says `Download Python 3.x.x`, and then run the installer as you normally would to install applications on your operating system. The default settings should be fine.
 
-To confirm that Python installed successfully, first open the command line. In OSX, click the finder on the top left of your desktop (the magnifying glass) and type `terminal`. The terminal should be the first application that appears. On Windows, click the Start menu icon and type `cmd` in the search box, then press `Enter`.
+To confirm that Python installed successfully, first open the command line. In macOS, click the spotlight icon on the top right corner of your desktop (the magnifying glass) and type terminal. The terminal should be the first application that appears. On Windows, click the Start menu icon and type `cmd` in the search box, then press `Enter`.
 
 Once your command line is open, enter these commands:
 
