@@ -8,8 +8,10 @@ date: 2018-04-02
 authors:
 - Patrick Smyth
 reviewers:
-- Megan Kudzia
 - Ryan Deschamps
+- Megan Kudzia
+- Matthew Lincoln
+- Ian Milligan
 editors:
 - Brandon Walsh
 difficulty: 2
