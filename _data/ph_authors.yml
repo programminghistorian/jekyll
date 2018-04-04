@@ -407,9 +407,9 @@
         Jim Clifford is an assistant professor in the Department of History
         at the University of Saskatchewan.
     es: |
-        Jim Clifford es profesor asistente en el Departamento de Historia 
+        Jim Clifford es profesor asistente en el Departamento de Historia
         de la Universidad de Saskatchewan.
-        
+
 - name: Daniel Macfarlane
   team: false
   bio:
@@ -417,9 +417,9 @@
         Daniel Macfarlane is a Visiting Scholar in the School of Canadian
         Studies at Carleton University.
     es: |
-        Daniel Macfarlane es profesor visitante en la Escuela de Estudios 
+        Daniel Macfarlane es profesor visitante en la Escuela de Estudios
         Canadienses en la Universidad de Carleton.
-        
+
 - name: Josh MacFadyen
   team: false
   bio:
@@ -427,9 +427,9 @@
         Josh MacFadyen is a Project Coordinator at the Network in Canadian
         History & Environment.
     es: |
-        Josh MacFayden es Coordinador de Proyectos en la Red Canadiense 
-        de Historia y Medio Ambiente. 
-        
+        Josh MacFayden es Coordinador de Proyectos en la Red Canadiense
+        de Historia y Medio Ambiente.
+
 - name: Jeri Wieringa
   team: true
   team_start: 2015
@@ -824,11 +824,11 @@
     en: |
         Anna-Maria Sichani is a Modern Greek literary historian and a Digital Humanist. She is currently a Research Fellow at King's Digital Lab.
     es: |
-        Anna-Maria Sichani es especialista en Historia de la literatura griega moderna y en Humanidades Digitales. Actualmente, trabaja como investigadora en King's Digital Lab. 
+        Anna-Maria Sichani es especialista en Historia de la literatura griega moderna y en Humanidades Digitales. Actualmente, trabaja como investigadora en King's Digital Lab.
   team_roles:
    - editorial
    - board
-   
+
 - name: Evan Peter Williamson
   team: false
   bio:
@@ -948,3 +948,9 @@
   bio:
     en: |
         Jon MacKay holds a PhD in Management Science from the University of Waterloo. He is currently a senior advanced analytics professional at Economical Insurance.
+
+- name: Patrick Smyth
+  team: false
+  bio:
+      en: |
+          Patrick Smyth is a PhD student in English and Digital Fellow at the Graduate Center, CUNY.
