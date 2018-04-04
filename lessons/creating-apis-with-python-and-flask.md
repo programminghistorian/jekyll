@@ -34,9 +34,9 @@ Web APIs are tools for making information and application functionality accessib
 
 ## Prerequisites
 
-You can use the Windows, OSX, or Linux operating systems to complete this tutorial, and those few instructions that are not the same across platforms will be explicitly noted. Python 3, the Flask web framework, and a web browser are required for this tutorial, and installation instructions for all platforms are outlined below.
+You can use the Windows, macOS, or Linux operating systems to complete this tutorial, and those few instructions that are not the same across platforms will be explicitly noted. Python 3, the Flask web framework, and a web browser are required for this tutorial, and installation instructions for all platforms are outlined below.
 
-The only knowledge explicitly assumed for this lesson is the ability to use a text editor, such as BBEdit on OSX or Notepad++ on Windows. However, knowledge of the command line, Python, and web concepts such as HTTP may make this tutorial easier to follow. If you're new to Python, consider working through the Programming Historian series on [dealing with online sources](https://programminghistorian.org/lessons/introduction-and-installation) to familiarize yourself with fundamental concepts in Python programming.
+The only knowledge explicitly assumed for this lesson is the ability to use a text editor, such as BBEdit on macOS or Notepad++ on Windows. However, knowledge of the command line, Python, and web concepts such as HTTP may make this tutorial easier to follow. If you're new to Python, consider working through the Programming Historian series on [dealing with online sources](https://programminghistorian.org/lessons/introduction-and-installation) to familiarize yourself with fundamental concepts in Python programming.
 
 ## Installing Python and Flask
 
@@ -63,7 +63,7 @@ As an alternative to the above installation instructions, you can install the Py
 
 If you're running into trouble installing Python, you may find [this Programming Historian article on installing Python](https://programminghistorian.org/lessons/introduction-and-installation) helpful. Note that the instructions in that tutorial are for installing Python 2—make sure you choose Python 3 when downloading installers from the Python website, since this tutorial uses Python 3.
 
-If you don't have a preferred text editor, I recommend [BBEdit](https://www.barebones.com/products/bbedit/download.html) for OSX or [Notepad++](https://notepad-plus-plus.org/) for Windows.
+If you don't have a preferred text editor, I recommend [BBEdit](https://www.barebones.com/products/bbedit/download.html) for macOS or [Notepad++](https://notepad-plus-plus.org/) for Windows.
 
 # Introducing APIs
 
@@ -173,9 +173,9 @@ We'll begin by using Flask to create a home page for our site. In this step, we'
 <p>Python has a number of web frameworks that can be used to create web apps and APIs. The most well-known is Django, a framework that has a set project structure and which includes many built-in tools. This can save time and effort for experienced programmers, but can be overwhelming. Flask applications tend to be written on a blank canvas, so to speak, and so are more suited to a contained application such as our prototype API.</p>
 </div>
 
-First, create a new folder on your computer that will serve as a project folder. This can be in your `Desktop` folder, but I recommend creating a dedicated `projects` folder for this and similar projects. This tutorial will assume that the files related to this lesson will be stored in a folder called `api` inside a folder named `projects` in your home directory. If you need help with navigation on the command line, see the [Programming Historian Introduction to the Bash Command Line](http://programminghistorian.org/lessons/intro-to-bash) for the OSX and Linux command line or the [Introduction to the Windows Command Line with PowerShell](https://programminghistorian.org/lessons/intro-to-powershell) for Windows.
+First, create a new folder on your computer that will serve as a project folder. This can be in your `Desktop` folder, but I recommend creating a dedicated `projects` folder for this and similar projects. This tutorial will assume that the files related to this lesson will be stored in a folder called `api` inside a folder named `projects` in your home directory. If you need help with navigation on the command line, see the [Programming Historian Introduction to the Bash Command Line](http://programminghistorian.org/lessons/intro-to-bash) for the macOS and Linux command line or the [Introduction to the Windows Command Line with PowerShell](https://programminghistorian.org/lessons/intro-to-powershell) for Windows.
 
-In OSX, you can directly create a an `api` folder inside a `projects` folder in your home directory with this terminal  command:
+In macOS, you can directly create a an `api` folder inside a `projects` folder in your home directory with this terminal  command:
 
 	mkdir -p ~/projects/api
 
