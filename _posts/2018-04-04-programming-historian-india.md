@@ -41,5 +41,5 @@ Of course, these figures are modest: 18,222 readers per month from Bengaluru doe
 
 With that in mind, we'd love to hear from our readers in India about why and how they use the _Programming Historian_, from academics in India or scholars working on contemporary India (anthropologists, researchers in development studies) with ideas about what might be happening, and from comparable projects - such as our friends at _[Software Carpentry](https://software-carpentry.org/)_ - with comparable stories to tell.
 
-If you use the tutorials on the _Programming Historian_ and live in India, please take a moment to fill in our survey about how we could better serve the needs of people like you: (https://www.surveymonkey.co.uk/r/DQFBPKF)[https://www.surveymonkey.co.uk/r/DQFBPKF]
+If you use the tutorials on the _Programming Historian_ and live in India, please take a moment to fill in our survey about how we could better serve the needs of people like you: [https://www.surveymonkey.co.uk/r/DQFBPKF](https://www.surveymonkey.co.uk/r/DQFBPKF)
 
