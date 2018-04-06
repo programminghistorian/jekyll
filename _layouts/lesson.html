@@ -131,10 +131,29 @@ layout: base
 
   <div class="container">
 
-    {% if page.redirect_from and page.lang == 'es' %}
-      <div class="alert alert-warning">
-        Esta lección fue publicada originalmente en Inglés. Es posible que desee consultar <a href="/lessons/{{slug}}">el original</a>.
-      </div>
+    {% assign translated_lessons = site.pages | where: "translated-lesson", "true" %}
+    {% for candidate in translated_lessons %}
+      {% assign candidate_lang = candidate.lang %}
+      {% assign candidate_lang_path = candidate_lang | prepend: "/" %}
+      {% assign redirect_slug = candidate.redirect_from | remove_first: candidate_lang_path %}
+      {% if redirect_slug == page.url %}
+        <div class="alert alert-warning">
+          {{ site.data.snippets.translation-target[page.lang]}} {{ site.data.snippets.language-name[candidate_lang][page.lang]}}: <a href="{{ candidate.url }}">{{ candidate.title }}</a>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    {% if page.redirect_from %}
+      {% assign target_slug = page.redirect_from | split: "/" | last %}
+      {% assign candidate_lessons = site.pages | where: "lesson", "true" %}
+      {% for candidate in candidate_lessons %}
+        {% assign candidate_slug = candidate.url | split: "/" | last %}
+        {% if candidate_slug == target_slug %}
+          <div class="alert alert-warning">
+            {{ site.data.snippets.translation-source[page.lang] }} {{ site.data.snippets.language-name.en[page.lang]}}: <a href="{{ candidate.url }}">{{ candidate.title }}</a>
+          </div>
+        {% endif %}
+      {% endfor %}
     {% endif %}
 
     {% if page.retired %}

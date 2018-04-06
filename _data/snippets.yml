@@ -263,3 +263,16 @@ title-open-quote:
 title-close-quote:
   en: ',"'
   es: '",'
+translation-target:
+  en: This lesson has been translated into
+  es: Esta lección ha sido traducida al
+language-name:
+  en:
+    en: English
+    es: inglés
+  es:
+    en: Spanish
+    es: español
+translation-source:
+  en: This lesson was originally published in
+  es: Esta lección fue publicada originalmente en
