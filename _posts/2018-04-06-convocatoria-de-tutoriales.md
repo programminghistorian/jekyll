@@ -1,7 +1,8 @@
 ---
 title: Convocatoria para lecciones en español en The Programming Historian
 authors:
-- Jennifer Isasi y José Antonio Motilla
+- Jennifer Isasi 
+- José Antonio Motilla
 layout: post
 categories: posts
 ---
