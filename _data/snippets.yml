@@ -260,3 +260,13 @@ title-open-quote:
 title-close-quote:
   en: ',"'
   es: '",'
+translation-target:
+  en: This lesson has been translated into
+  es: Esta lección ha sido traducida al
+language-name:
+  en:
+    en: English
+    es: Ingles
+  es:
+    en: Spanish
+    es: español
