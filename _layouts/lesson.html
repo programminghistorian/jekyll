@@ -133,10 +133,12 @@ layout: base
 
     {% assign translated_lessons = site.pages | where: "translated-lesson", "true" %}
     {% for candidate in translated_lessons %}
-      {% assign redirect_slug = candidate.redirect_from | remove_first: "/es" %}
+      {% assign candidate_lang = candidate.lang %}
+      {% assign candidate_lang_path = candidate_lang | prepend: "/" %}
+      {% assign redirect_slug = candidate.redirect_from | remove_first: candidate_lang_path %}
       {% if redirect_slug == page.url %}
         <div class="alert alert-warning">
-          {{ site.data.snippets.translation-target[page.lang]}} {{ site.data.snippets.language-name[candidate.lang][page.lang]}}: <a href="{{ candidate.url }}">{{ candidate.title }}</a>
+          {{ site.data.snippets.translation-target[page.lang]}} {{ site.data.snippets.language-name[candidate_lang][page.lang]}}: <a href="{{ candidate.url }}">{{ candidate.title }}</a>
         </div>
       {% endif %}
     {% endfor %}
