@@ -46,6 +46,7 @@ layout: base
 
 {% capture editor-style %}{% if page.translator %}col-md-3{% else %}col-md-4 offset-md-4{% endif %}{% endcapture %}
 {% capture reviewers-style %}{% if page.translator %}col-md-3{% else %}col-md-4{% endif %}{% endcapture %}
+{% capture date-style %}{% if page.translation_date %}col-md-3{% else %}col-md-4{% endif %}{% endcapture %}
 
 
   <div class="container-fluid header-helpers">
@@ -112,13 +113,16 @@ layout: base
   <div class="container-fluid header-bottom">
     <div class="container expanded">
       <div class="row">
-      <div class="col-md-4 metarow"><h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
-      {% if page.retired %}
-      <div class="col-md-4 metarow"><h4>{{site.data.snippets.retired-date[page.lang]}}</h4> <span id="retired-date">{{ page.retired_date | date:"%Y-%m-%d" }}</span></div>
-      {% else %}
-      <div class="col-md-4 metarow"><h4>{{site.data.snippets.modified[page.lang]}}</h4> <span id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span></div>
+      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      {% if page.translation_date %}
+      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.translated-date[page.lang]}}</h4> <span id="translated-date">{{ page.translation_date | date:"%Y-%m-%d" }}</span></div>
       {% endif %}
-      <div class="col-md-4 metarow"><h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}</div>
+      {% if page.retired %}
+      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.retired-date[page.lang]}}</h4> <span id="retired-date">{{ page.retired_date | date:"%Y-%m-%d" }}</span></div>
+      {% else %}
+      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.modified[page.lang]}}</h4> <span id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span></div>
+      {% endif %}
+      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}</div>
     </div>
     </div>
   </div>
