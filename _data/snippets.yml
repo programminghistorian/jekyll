@@ -276,3 +276,15 @@ language-name:
 translation-source:
   en: This lesson was originally published in
   es: Esta lección fue publicada originalmente en
+
+# Author Info
+about-the:
+  en: About the
+  es: Acerca
+the-authors:
+  singular:
+    en: author
+    es: del autor
+  plural:
+    en: authors
+    es: de los autores
