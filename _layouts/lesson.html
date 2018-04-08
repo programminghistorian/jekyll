@@ -185,10 +185,10 @@ layout: base
 
       <div class="citation-info">
         {% assign vol_start = site.data.snippets.volume-start[page.lang] %}
-        {% if page.lang == "en" %}
-          {% assign page_year = page.date | date: "%Y" %}
-        {% elsif page.lang == "es" %}
+        {% if page.translation_date %}
           {% assign page_year = page.translation_date | date: "%Y" %}
+        {% else %}
+          {% assign page_year = page.date | date: "%Y" %}
         {% endif %}
         {% assign vol_no = page_year | minus: vol_start | plus: 1 %}
 
