@@ -21,9 +21,12 @@ However, when generating lesson links/avatars via _includes/lesson_describe.html
   {% assign lessonobj = page %}
 {% endif %}
 
-
-{% if lessonobj.lang == 'en' %}
-  {% assign slug = lessonobj.url | remove_first: '/lessons/' | remove_first: '.html' | remove_first: 'retired/' %}
+{% if lessonobj.redirect_from %}
+  {% assign canonical_url = lessonobj.redirect_from %}
 {% else %}
-  {% assign slug = lessonobj.redirect_from  | remove_first:'/es/lessons/' %}
+  {% assign canonical_url = lessonobj.url %}
 {% endif %}
+
+{% assign slug = canonical_url | split: "/" | last | remove_first: ".html" %}
+
+{% assign original = lessonobj.redirect_from | split: "/" | last | remove_first: ".html" %}

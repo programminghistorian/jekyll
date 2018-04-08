@@ -10,21 +10,14 @@ lesson-slug.html computes the correct lesson slug, and then this include determi
 
 {% include lesson-slug.html lesson=lesson %}
 
-{% if lesson.lang == "es" %}
-  {% capture path %}{{ site.baseurl }}/es/lessons/{{ slug }}{% endcapture %}
-{% else %}
-  {% capture path %}{{ site.baseurl }}/lessons/{{ slug }}{% endcapture %}
-{% endif %}
-{% capture imgpath %}{{ site.baseurl }}/gallery/{{ slug }}{% endcapture %}
-
 <div class="lesson-description clearfix">
 
   <div class="lesson-image">
-    <a href="{{ path }}"><img class="rounded" src="{{ imgpath }}.png"></a>
+    <a href="{{ lesson.url }}"><img class="rounded" src="/gallery/{{ slug }}.png"></a>
   </div>
 
   <h3 class="above-title">{{ include.authors }}</h3>
-  <a href="{{ path }}"><h2 class="title">{{ lesson.title }}</h2></a>
+  <a href="{{ lesson.url }}"><h2 class="title">{{ lesson.title }}</h2></a>
 
   <p class="abstract">{{ lesson.abstract }}</p>
 
