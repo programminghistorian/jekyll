@@ -7,8 +7,8 @@ categories: posts
 ---
 
 <p><figure><img src="/images/convocatoria-workshop-colombia/workshop_Colombia.jpg" alt=""/></figure></p>
+The Programming Historian (https://programminghistorian.org/es/) invita a la comunidad académica hispanohablante a participar en el taller **Escritura en Humanidades Digitales para América Latina** que se llevará a cabo en la Universidad de los Andes (Bogotá, Colombia) del 1 al 3 de agosto de 2018. El objetivo del taller es reunir a un grupo diverso de investigadores en distintas áreas de las humanidades para escribir tutoriales sobre metodologías en humanidades digitales, abordando específicamente necesidades de investigación en América Latina y el mundo hispano. Durante el taller se facilitará la producción de los primeros tutoriales originales en español para ser compartidos con una audiencia global.
 
-The Programming Historian (https://programminghistorian.org/es/) invita a la comunidad académica hispanohablante a participar en un taller de **Escritura en Humanidades Digitales para América Latina** que se llevará a cabo en la Universidad de los Andes (Bogotá, Colombia) del 1 al 3 de agosto de 2018. El objetivo del taller es reunir a un grupo diverso de investigadores en distintas áreas de las humanidades para escribir tutoriales sobre metodologías en humanidades digitales, abordando específicamente necesidades de investigación en América Latina y el mundo hispano. Durante el taller se facilitará la producción de los primeros tutoriales originales en español para ser compartidos con una audiencia global.
 
 Los participantes trabajarán de cerca con los editores de The Programming Historian para aprender sobre escritura técnica y espacios de publicación en humanidades digitales. Un tiempo importante se dedicará a escribir. Al final del tercer día del taller esperamos que los participantes tengan un tutorial en borrador para publicación en The Programming Historian en español. El taller será bilingüe, algunas sesiones serán en inglés y otras en español. 
 
@@ -20,6 +20,7 @@ El taller es posible gracias al apoyo financiero de la British Academy que nos p
 2* Norte de Suramérica (£500)
 4* Colombia (£125)
 3* Otras partes del mundo (£700)
+
 Recibimos aplicaciones de investigadores hispanohablantes y de América Latina en cualquier etapa de su carrera. Animamos a aplicar especialmente a investigadores en la fase incial de sus carreras y a estudiantes de posgrado. Los interesados deben enviar un correo electrónico a mj.afanador28@uniandes.edu.co con un CV de máximo 2 páginas y una descripción de máximo 250 palabras sobre el tutorial de humanidades digitales que les gustaría escribir en el taller. La descripción debe explicar el alcance e impacto que la lección puede tener en el ámbito de las humanidades digitales, por qué es importante que otros investigadores aprendan esa habilidad y por qué el aplicante es la persona idónea para escribirla.
 
 Algunos de los temas para los tutoriales pueden ser, aunque no se limitan, a los siguientes:
