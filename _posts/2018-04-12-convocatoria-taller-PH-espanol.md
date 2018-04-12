@@ -24,21 +24,20 @@ Recibimos aplicaciones de investigadores hispanohablantes y de América Latina e
 
 Algunos de los temas para los tutoriales pueden ser, aunque no se limitan, a los siguientes:
 
-Digitalización, catalogación y metadatos
-OCR, clasificación y anotación
-Gestión y procesamiento de datos
-Metodologías de mapeo
-Lectura distante y análisis de texto
-Publicación digital
+- Digitalización, catalogación y metadatos  
+- OCR, clasificación y anotación  
+- Gestión y procesamiento de datos  
+- Metodologías de mapeo  
+- Lectura distante y análisis de texto  
+- Publicación digital  
+
 Cualquier pregunta puede ser enviada a Maria-José Afanador-Llach (Maestría en Humanidades Digitales, Universidad de los Andes) [mj.afanador28@uniandes.edu.co](mailto:mj.afanador28@uniandes.edu.co) o Adam Crymble (Departamento de Historia, University of Hertfordshire) [a.crymble@herts.ac.uk](mailto:a.crymble@herts.ac.uk).
 
 La fecha límite para enviar las aplicaciones es el **11 de mayo de 2018**.
 
 *Sobre los socios del evento:*
 
-British Academy
-Maestría en Humanidades Digitales, Universidad de los Andes, Colombia
-Departamento de Historia, Universidad de Herfordshire, Inglaterra
+British Academy, Maestría en Humanidades Digitales, Universidad de los Andes, Colombia, Departamento de Historia, Universidad de Herfordshire, Inglaterra
 
 *The Programming Historian:*
 The Programming Historian es una publicación en línea revisada por pares y la fuente principal en el mundo para aprender y enseñar métodos de investigación digital. The Programming Historian en español publica tutoriales revisados por pares dirigidos a humanistas que quieran aprender una amplia gama de herramientas digitales, técnicas computacionales y flujos de trabajo útiles para investigar y enseñar. Estamos comprometidos en la promoción de una comunidad diversa de editores, autores y lectores. Desde su lanzamento en 2012, el proyecto ha atraído 1,300,000 usuarios alrededor del mundo. The Programming Historian en español fue lanzado en 2017, y el número de visitantes de países hispanohablantes a la página ha crecido en 1,000% en su primer año. Este es nuestro primer evento en América Latina y esperamos que puedan acompañarnos.
