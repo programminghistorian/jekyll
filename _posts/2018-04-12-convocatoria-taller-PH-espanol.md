@@ -30,7 +30,7 @@ Gestión y procesamiento de datos
 Metodologías de mapeo
 Lectura distante y análisis de texto
 Publicación digital
-Cualquier pregunta puede ser enviada a Maria-José Afanador-Llach (Maestría en Humanidades Digitales, Universidad de los Andes) mj.afanador28@uniandes.edu.co o Adam Crymble (Departamento de Historia, University of Hertfordshire) a.crymble@herts.ac.uk.
+Cualquier pregunta puede ser enviada a Maria-José Afanador-Llach (Maestría en Humanidades Digitales, Universidad de los Andes) [mj.afanador28@uniandes.edu.co](mailto:mj.afanador28@uniandes.edu.co) o Adam Crymble (Departamento de Historia, University of Hertfordshire) [a.crymble@herts.ac.uk](mailto:a.crymble@herts.ac.uk).
 
 La fecha límite para enviar las aplicaciones es el **11 de mayo de 2018**.
 
