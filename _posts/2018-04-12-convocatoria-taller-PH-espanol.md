@@ -34,7 +34,7 @@ Cualquier pregunta puede ser enviada a Maria-José Afanador-Llach (Maestría en 
 
 La fecha límite para enviar las aplicaciones es el **11 de mayo de 2018**.
 
-*Sobre los socios del proyecto:*
+*Sobre los socios del evento:*
 
 British Academy
 Maestría en Humanidades Digitales, Universidad de los Andes, Colombia
