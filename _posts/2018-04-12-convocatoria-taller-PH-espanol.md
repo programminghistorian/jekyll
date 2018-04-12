@@ -13,12 +13,12 @@ Los participantes trabajarán de cerca con los editores de The Programming Histo
 
 Estamos agradecidos con la British Academy cuyo apoyo financiero nos permite ofrecer hasta 15 subsidios para cubrir los costos de viaje y alojamiento a participantes de las siguientes regiones:
 
-2* Centroamérica (£700 cada uno)
-2* El Caribe (£700)
-2* Cono Sur (£700)
-2* Norte de Suramérica (£500)
-4* Colombia (£125)
-3* Otras partes del mundo (£700)
+- 2 - Centroamérica (£700 cada uno)
+- 2 - El Caribe (£700)
+- 2 - Cono Sur (£700)
+- 2 - Norte de Suramérica (£500)
+- 4 - Colombia (£125)
+- 3 - Otras partes del mundo (£700)
 
 Recibimos aplicaciones de investigadores hispanohablantes y de América Latina en cualquier etapa de su carrera. Animamos a aplicar especialmente a investigadores en la fase incial de sus carreras y a estudiantes de posgrado. Los interesados deben enviar un correo electrónico a mj.afanador28@uniandes.edu.co con un CV de máximo 2 páginas y una descripción de máximo 250 palabras sobre el tutorial de humanidades digitales que les gustaría escribir en el taller. La descripción debe explicar el alcance e impacto que la lección puede tener en el ámbito de las humanidades digitales, por qué es importante que otros investigadores aprendan esa habilidad y por qué el aplicante es la persona idónea para escribirla.
 
