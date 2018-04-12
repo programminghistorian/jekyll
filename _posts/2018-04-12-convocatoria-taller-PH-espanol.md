@@ -2,6 +2,7 @@
 title: Convocatoria para taller de Escritura en Humanidades Digitales para América Latina
 authors:
 - Maria José Afanador-Llach
+- Adam Crymble
 layout: post
 categories: posts
 ---
