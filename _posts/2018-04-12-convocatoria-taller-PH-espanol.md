@@ -11,7 +11,7 @@ The Programming Historian (https://programminghistorian.org/es/) invita a la com
 
 Los participantes trabajarán de cerca con los editores de The Programming Historian para aprender sobre escritura técnica, escritura de propuestas para becas y espacios de publicación en humanidades digitales. Un tiempo importante se dedicará a escribir. Al final del tercer día del taller esperamos que los participantes tengan un tutorial en borrador para publicación en The Programming Historian en español. El taller será bilingüe, algunas sesiones serán en inglés y otras en español. 
 
-El taller es posible gracias al apoyo financiero de la British Academy que nos permite ofrecer hasta 15 subsidios para cubrir los costos de viaje y alojamiento a participantes de las siguientes regiones:
+Estamos agradecidos con la British Academy, cuyo apoyo financiero nos permite ofrecer hasta 15 subsidios para cubrir los costos de viaje y alojamiento a participantes de las siguientes regiones:
 
 2* Centroamérica (£700 cada uno)
 2* El Caribe (£700)
