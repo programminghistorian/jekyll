@@ -2,6 +2,7 @@
 title: Convocatoria para taller de Escritura en Humanidades Digitales para América Latina
 authors:
 - Maria José Afanador-Llach
+- Adam Crymble
 layout: post
 categories: posts
 ---
@@ -20,7 +21,7 @@ Estamos agradecidos con la British Academy cuyo apoyo financiero nos permite ofr
 - 4 - Colombia (£125)
 - 3 - Otras partes del mundo (£700)
 
-Recibimos aplicaciones de investigadores hispanohablantes y de América Latina en cualquier etapa de su carrera. Animamos a aplicar especialmente a investigadores en la fase incial de sus carreras y a estudiantes de posgrado. Los interesados deben enviar un correo electrónico a mj.afanador28@uniandes.edu.co con un CV de máximo 2 páginas y una descripción de máximo 250 palabras sobre el tutorial de humanidades digitales que les gustaría escribir en el taller. La descripción debe explicar el alcance e impacto que la lección puede tener en el ámbito de las humanidades digitales, por qué es importante que otros investigadores aprendan esa habilidad y por qué el aplicante es la persona idónea para escribirla.
+Recibimos aplicaciones de investigadores hispanohablantes y de América Latina en cualquier etapa de su carrera. Animamos a aplicar especialmente a investigadores en la fase incial de sus carreras y a estudiantes de posgrado. Los interesados deben enviar un correo electrónico a [mj.afanador28@uniandes.edu.co] (mailto:mj.afanador28@uniandes.edu.co) con un CV de máximo 2 páginas y una descripción de máximo 250 palabras sobre el tutorial de humanidades digitales que les gustaría escribir en el taller. La descripción debe explicar el alcance e impacto que la lección puede tener en el ámbito de las humanidades digitales, por qué es importante que otros investigadores aprendan esa habilidad y por qué el aplicante es la persona idónea para escribirla.
 
 Algunos de los temas para los tutoriales pueden ser, aunque no se limitan, a los siguientes:
 
