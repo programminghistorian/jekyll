@@ -300,7 +300,7 @@ Save and refresh your browser to see your changes.  Using this information, you 
 
 #### Exercise A:
 
-Note: Possible solutions for the following exercies are located at the end of the tutorial.
+Note: Possible solutions for the following exercises are located at the end of the tutorial.
 
 Print an inventory of the records in database, displaying the *id*, *title* and *date* of each record. A solution to this and the following exercises is available at the end of the tutorial.
 
