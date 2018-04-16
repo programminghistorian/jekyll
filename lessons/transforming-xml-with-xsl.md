@@ -386,7 +386,7 @@ Once you are comfortable using the commands listed here, explore the *transforme
         <html>
             <body>
                 <xsl:for-each select="root/record">
-                    <xsl:if test="keywords/keyword = 'slave rebellion'">
+                    <xsl:if test="keywords/keyword = 'slave insurrections'">
                         <h2>
                             <i><xsl:value-of select="title"/></i>, <xsl:value-of
                                 select="substring(date/@when, 9, 2)"/>
