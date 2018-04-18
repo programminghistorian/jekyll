@@ -70,7 +70,7 @@ For this lesson, you will need to download the following software applications a
 
 ### Unity
 
-Since the release of Unity 2017.2, the Vuforia SDK is integrated into the Unity Editor. If you are unable to download Unity 2017.2 or later, [consult this archived lesson for earlier versions of Unity](link to previous lesson). To download Unity and Vuforia, go to the [Unity website](https://store.unity.com/download) and download the latest version of the Unity installer. In the "Choose Components" dialog box, make sure to select "Vuforia Augmented Reality Support" in addition to either "Android Build Support" and/or "iOS Build Support," depending on your target mobile device platform. Once the download completes, start Unity and follow the setup prompts. If Unity asks if you are creating a personal or professional account, choose personal account.
+Since the release of Unity 2017.2, the Vuforia SDK is integrated into the Unity Editor. If you are unable to download Unity 2017.2 or later, [consult this archived lesson for earlier versions of Unity](/lessons/intro-to-augmented-reality-with-unity). To download Unity and Vuforia, go to the [Unity website](https://store.unity.com/download) and download the latest version of the Unity installer. In the "Choose Components" dialog box, make sure to select "Vuforia Augmented Reality Support" in addition to either "Android Build Support" and/or "iOS Build Support," depending on your target mobile device platform. Once the download completes, start Unity and follow the setup prompts. If Unity asks if you are creating a personal or professional account, choose personal account.
 
 {% include figure.html filename="ar-dev-3.png" caption="Check the option for Vuforia Augmented Reality Support." %}
 
