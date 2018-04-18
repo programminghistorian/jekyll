@@ -17,6 +17,10 @@ topics: [website,mapping]
 abstract: "This lesson serves as an introduction to creating mobile augmented reality applications. Augmented reality (AR) can be defined as the overlaying of digital content (images, video, text, sound, etc.) onto physical objects or locations, and it is typically experienced by looking through the camera lens of an electronic device such as a smartphone, tablet, or optical head-mounted display."
 ---
 
+<div class="alert alert-warning">
+    This lesson covers Unity 2017.2 or later. <a href="/lessons/intro-to-augmented-reality-with-unity">Consult this archived lesson for earlier versions of Unity</a>.
+</div>
+
 This lesson serves as an introduction to creating mobile augmented reality applications. Augmented reality (AR) can be defined as the overlaying of digital content (images, video, text, sound, etc.) onto physical objects or locations, and it is typically experienced by looking through the camera lens of an electronic device such as a smartphone, tablet, or optical head-mounted display (e.g. Microsoft Hololens). Although AR is a cutting-edge, complex technology, there are a number of user-friendly platforms that allow people with no previous coding experience to create compelling augmented reality experiences.
 
 ## Lesson Goals
