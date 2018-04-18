@@ -6,7 +6,7 @@ layout: post
 categories: posts 
 ---
 
-*To participate in Programming Historian 2018 Community Survey, follow this link to a Google Form: [https://goo.gl/forms/2M8AbAiwgmGrD7MI3](https://goo.gl/forms/2M8AbAiwgmGrD7MI3). The survey will close July 15, 2018.*
+*To participate in Programming Historian 2018 Community Survey, follow this link to a Google Form: [https://goo.gl/forms/2M8AbAiwgmGrD7MI3](https://goo.gl/forms/2M8AbAiwgmGrD7MI3). The survey should take only a few minutes to complete and will close July 15, 2018.*
 
 In the spirit of community engagement that has long been the foundation of the _Programming Historian_, earlier this year, the editorial board determined that it was time again for us to get in touch with our readers, authors, reviewers, and editors about their experiences with the _Programming Historian_ website, content, and overall vision. By learning more about our readership through a community survey, we hope to better serve our current community and to reach out to new audiences.
 
@@ -18,4 +18,4 @@ Our survey ends with an open-ended question. As a new member to the editorial bo
 
 After the survey closes, a sub-group made up of our editorial board members will convene to discuss the results and propose actions to the rest of the board members. The _Programming Historian_ will not keep the survey data and any data summaries created from this survey will meaningfully anonymized. We will publish the results of the survey and changes that come from it within a year of the survey publication. 
 
-*To participate in the Programming Historian 2018 Community Survey, follow this link to a Google Form: [https://goo.gl/forms/2M8AbAiwgmGrD7MI3](https://goo.gl/forms/2M8AbAiwgmGrD7MI3). The survey will close July 15, 2018.*
+*To participate in the Programming Historian 2018 Community Survey, follow this link to a Google Form: [https://goo.gl/forms/2M8AbAiwgmGrD7MI3](https://goo.gl/forms/2M8AbAiwgmGrD7MI3). The survey should take only a few minutes to complete and will close July 15, 2018.*
