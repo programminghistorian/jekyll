@@ -403,7 +403,7 @@ Next, you will need to register your iOS device with Xcode. First, connect it to
 
 Next, switch over to the "Unity-iPhone" targets menu and click on the tab labelled "General." Make sure that "Automatically manage signing" is selected and switch your "Team" to the Apple ID account you just added. In "Deployment Info" select either iPhone or iPad depending on your target build device.
 
-{% include figure.html filename="ar-dev-54.png" caption="Switch over to the "Unity-iPhone" targets menu." %}
+{% include figure.html filename="ar-dev-54.png" caption="Switch over to the 'Unity-iPhone' targets menu." %}
 
 Finally, select "Product > Run" in the top menu and wait for your app to build to your iOS device. Once the app has finished building, you will need to authorize your Apple ID as a trusted developer. Go to the settings on your iOS device and click "General > Device Management" and choose the option for "Trust [Your Apple ID username]." Start the application by clicking on the application icon on your app home screen.
 
