@@ -11,7 +11,7 @@
     es: Equipo editorial (Inglés)
   definition:
     en: Responsible for editorial work resulting in the review and publication of English-language lessons
-    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones Inglés
+    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en inglés
 - type: community
   label:
     en: Community Engagement
@@ -39,7 +39,7 @@
     es: Equipo editorial (español)
   definition:
     en: Responsible for editorial work resulting in the review and publication of Spanish-language lessons
-    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones español
+    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en español
 - type: technical
   label:
     en: Technical Team
