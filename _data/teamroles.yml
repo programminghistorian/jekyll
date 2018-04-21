@@ -7,11 +7,11 @@
 
 - type: editorial
   label:
-    en: Editorial Team
-    es: Equipo editorial
+    en: Editorial Team (English)
+    es: Equipo editorial (Inglés)
   definition:
-    en: Responsible for editorial work resulting in the review and publication of lessons
-    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones
+    en: Responsible for editorial work resulting in the review and publication of English-language lessons
+    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en inglés
 - type: community
   label:
     en: Community Engagement
@@ -35,11 +35,11 @@
     es: Persona a la que los autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
 - type: spanish
   label:
-    en: Spanish Team
-    es: Equipo español
+    en: Editorial Team (Spanish)
+    es: Equipo editorial (español)
   definition:
-    en: Responsible for the Spanish-language version of the project
-    es: Responsable de la versión en español del proyecto
+    en: Responsible for editorial work resulting in the review and publication of Spanish-language lessons
+    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en español
 - type: technical
   label:
     en: Technical Team
