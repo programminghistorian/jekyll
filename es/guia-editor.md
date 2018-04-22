@@ -225,6 +225,7 @@ En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor 
 
 ```yaml
 - name: Jim Clifford
+  team: false
   bio: 
    es: |
        Jim Clifford es profesor ayudante en el Departamento de Historia de la Universidad de Saskatchewan.
@@ -292,6 +293,9 @@ Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML d
     - John Fink
     - Alan MacEachern
     - Adam Crymble
+    editors:
+    - Adam Crymble
+    review-ticket: 14
     difficulty: 2
     activity: analyzing
     topics: [distant-reading]
