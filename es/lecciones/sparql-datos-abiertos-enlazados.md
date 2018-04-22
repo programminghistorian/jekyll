@@ -20,6 +20,7 @@ translation-reviewer:
 - Antonio Rojas Castro
 - Juan Antonio Pastor Sánchez
 layout: lesson
+original: graph-databases-and-SPARQL
 redirect_from: /es/lessons/graph-databases-and-SPARQL
 difficulty: 2
 activity: acquiring

@@ -19,6 +19,7 @@ translation-reviewer:
 - Antonio Rojas Castro
 - Luisina Silva
 layout: lesson
+original: cleaning-data-with-openrefine
 redirect_from: /es/lessons/cleaning-data-with-openrefine
 difficulty: 2
 activity: transforming

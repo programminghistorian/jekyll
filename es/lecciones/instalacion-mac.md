@@ -19,6 +19,7 @@ translation-reviewer:
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
 layout: lesson
+original: mac-installation
 redirect_from: /es/lessons/mac-installation
 difficulty: 1
 activity: transforming

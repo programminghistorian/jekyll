@@ -19,6 +19,7 @@ translation-reviewer:
 - Maria José Afanador-Llach
 layout: lesson
 difficulty: 1
+original: preserving-your-research-data
 redirect_from: /es/lessons/preserving-your-research-data
 activity: sustaining
 topics: [data-management]

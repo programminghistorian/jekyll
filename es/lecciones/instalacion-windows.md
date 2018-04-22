@@ -19,6 +19,7 @@ translation-reviewer:
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
 layout: lesson
+original: windows-installation
 redirect_from: /es/lessons/windows-installation
 difficulty: 1
 activity: transforming

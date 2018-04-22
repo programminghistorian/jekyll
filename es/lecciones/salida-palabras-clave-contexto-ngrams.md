@@ -19,6 +19,7 @@ translation-reviewer:
 - Antonio Rojas Castro
 layout: lesson
 previous: palabras-clave-en-contexto-n-grams
+original: output-keywords-in-context-in-html-file
 redirect_from: /es/lessons/output-keywords-in-context-in-html-file
 python_warning: true
 difficulty: 2
