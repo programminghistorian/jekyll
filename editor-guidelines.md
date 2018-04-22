@@ -208,6 +208,7 @@ If the lesson has been written by a new author, editors should add information a
 
 ```yaml
 - name: Jim Clifford
+  team: false
   bio:
       en: |
           Jim Clifford is an assistant professor in the Department of History
@@ -272,6 +273,9 @@ Check out the example below to see what finished front matter should look like:
     - John Fink
     - Alan MacEachern
     - Adam Crymble
+    editors:
+    - Adam Crymble
+    review-ticket: 14
     difficulty: 2
     activity: analyzing
     topics: [distant-reading]
