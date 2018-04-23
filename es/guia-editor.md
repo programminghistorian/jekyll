@@ -1,6 +1,7 @@
 ---
 title: Guía para editores
 layout: blank
+original: editor-guidelines
 ---
 
 # Guía para editores

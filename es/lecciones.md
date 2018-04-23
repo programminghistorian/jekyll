@@ -2,6 +2,7 @@
 title: Índice de lecciones
 layout: blank
 permalink: /es/lecciones/
+original: lessons
 ---
 
 

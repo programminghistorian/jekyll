@@ -1,6 +1,7 @@
 ---
 layout: blank
 title: About the Programming Historian
+original: about
 ---
 
 # Acerca de _The Programming Historian en español_
