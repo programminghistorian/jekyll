@@ -10,8 +10,7 @@ layout: base
   All lesson metadata and alerts should follow the convention of pulling appropriate text from the snippets.yml file.
 {% endcomment %}
 
-<!-- Calculate the lesson slug for use across this page -->
-{% include lesson-slug.html %}
+{% include translation-links.html %}
 
 <header>
 
@@ -22,7 +21,7 @@ layout: base
     <div class="row">
       <div class="col-md-4">
         <div class="header-image rounded">
-          <img src="{{ site.baseurl }}/gallery/{{ slug }}.png">
+          <img src="{{ site.baseurl }}/gallery/{{ canonical_slug }}.png">
         </div>
       </div>
 
@@ -131,19 +130,17 @@ layout: base
 
   <div class="container">
 
-    {% assign candidates = site.pages | where_exp: "item", "item.redirect_from contains slug" | where_exp: "item", "item.url != page.url" %}
-    {% for candidate in candidates %}
+    {% for candidate in translation_candidates %}
       <div class="alert alert-warning">
         {{ site.data.snippets.translation-target[page.lang]}} {{ site.data.snippets.language-name[candidate.lang][page.lang]}}: <a href="{{ candidate.url }}">{{ candidate.title }}</a>
       </div>
     {% endfor %}
 
-    {% if page.redirect_from %}
-      {% assign target_slug = page.redirect_from | split: "/" | last %}
-      {% assign candidate = site.pages | where_exp: "item", "item.url contains target_slug" | where_exp: "item", "item.url != page.url" | first %}
-          <div class="alert alert-warning">
-            {{ site.data.snippets.translation-source[page.lang] }} {{ site.data.snippets.language-name.en[page.lang]}}: <a href="{{ candidate.url }}">{{ candidate.title }}</a>
-          </div>
+    {% assign selected_translation_source = translation_source | first %}
+    {% if selected_translation_source %}
+      <div class="alert alert-warning">
+        {{ site.data.snippets.translation-source[page.lang] }} {{ site.data.snippets.language-name.en[page.lang]}}: <a href="{{ selected_translation_source.url }}">{{ selected_translation_source.title }}</a>
+      </div>
     {% endif %}
 
     {% if page.retired %}

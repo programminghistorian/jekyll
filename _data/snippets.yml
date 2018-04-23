@@ -1,3 +1,7 @@
+language-list:
+  - en
+  - es
+
 # top nav bar
 menu-home:
   en: /
@@ -86,10 +90,10 @@ menu-blog:
     title: Blog
     link: /blog
 menu-lang:
-  en:
-    title: '[español]'
-    link: /es
   es:
+    title: '[es]'
+    link: /es
+  en:
     title: '[en]'
     link: /
 

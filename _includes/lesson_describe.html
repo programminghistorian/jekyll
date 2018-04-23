@@ -8,12 +8,16 @@ lesson-slug.html computes the correct lesson slug, and then this include determi
 
 {% endcomment %}
 
-{% include lesson-slug.html lesson=lesson %}
-
 <div class="lesson-description clearfix">
 
+  {% if lesson.original %}
+    {% assign canonical_slug = lesson.original %}
+  {% else %}
+    {% assign canonical_slug = lesson.url | split: "/" | last | remove_first: ".html" %}
+  {% endif %}
+
   <div class="lesson-image">
-    <a href="{{ lesson.url }}"><img class="rounded" src="/gallery/{{ slug }}.png"></a>
+    <a href="{{ lesson.url }}"><img class="rounded" src="/gallery/{{ canonical_slug }}.png"></a>
   </div>
 
   <h3 class="above-title">{{ include.authors }}</h3>
