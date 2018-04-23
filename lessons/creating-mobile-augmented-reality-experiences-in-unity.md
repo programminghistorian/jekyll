@@ -1,5 +1,5 @@
 ---
-title: Introduction to Mobile Augmented Reality Development in Unity
+title: Creating Mobile Augmented Reality Experiences in Unity
 authors:
 - Jacob W. Greene
 date: 2018-04-18
