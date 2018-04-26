@@ -313,7 +313,7 @@ El paso más importante consiste en que tu editor cree un *[issue](https://githu
 
 Nos comprometemos a completar el proceso de revisión en cuatro semanas; sin embargo, en ocasiones en ocasiones hay demoras y el proceso puede tomar más tiempo del que nos gustaría.
 
-A fin de promover una revisión por pares abierta y una investigación pública, animamos a todos los participantes a revisar y debatir la lección en GitHub. Al mismo tiempo, también queremos que todo el mundo se sienta cómodo con el proceso. Por eso si necesitas debatir algo en privado, [puedes contactar con tu editor](/es/equipo-de-proyecto), o con uno de nuestros *ombudsperson* [Ian Milligan o Amanda Visconti](/project-team).
+A fin de promover una revisión por pares abierta y una investigación pública, animamos a todos los participantes a revisar y debatir la lección en GitHub. Al mismo tiempo, también queremos que todo el mundo se sienta cómodo con el proceso. Por eso si necesitas debatir algo en privado, [puedes contactar con tu editor](/es/equipo-de-proyecto) o con nuestra [*ombudsperson*](/project-team) María-José Afanador.
 
 
 ### Contesta
@@ -324,7 +324,7 @@ Puedes editar tus archivos en GitHub, siguiendo estas [instrucciones](https://he
 
 Tus revisiones deberían estar completadas al cabo de cuatro semanas de recibir los comentarios de tu editor. Con esta medida pretendemos que las lecciones se publiquen en un margen de tiempo adecuado y que el proceso no se alargue de manera innecesaria. Si prevees que no podrás completar los cambios en el tiempo acordado, por favor, contacta con tu editor para establecer una nueva fecha límite.
 
-En cualquier momento del proceso, si no estás seguro o segura de cuál es tu rol o de qué deberías hacer, también puedes comunicarte con tu editor. Asimismo, te animamos a preguntarnos en forma de mensaje en el `*issue*`creado a propósito de tu traducción o lección. A veces podemos demorarnos en contestar, pero esperamos que los cambios propuestos sirvan para mejorar tu contribución.
+En cualquier momento del proceso, si no estás seguro o segura de cuál es tu rol o de qué deberías hacer, también puedes comunicarte con tu editor. Asimismo, te animamos a preguntarnos en forma de mensaje en el *issue* creado a propósito de tu traducción o lección. A veces podemos demorarnos en contestar, pero esperamos que los cambios propuestos sirvan para mejorar tu contribución.
 
 
 ### Comunica a tu editor que has terminado y envíale una breve biografía
