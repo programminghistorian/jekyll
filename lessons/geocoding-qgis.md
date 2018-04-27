@@ -10,7 +10,7 @@ editors:
 - Adam Crymble
 layout: lesson
 difficulty: 2
-review-ticket: 27
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/27
 activity: transforming
 topics: [mapping]
 abstract: |

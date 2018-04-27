@@ -12,7 +12,7 @@ editors:
 - Caleb McDaniel
 difficulty: 2
 layout: lesson
-review-ticket: 32
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/32
 activity: presenting
 topics: [mapping]
 abstract: |

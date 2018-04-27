@@ -8,7 +8,7 @@ date: 2017-03-27
 reviewers:
 - Brandon Walsh
 - John Russell
-review-ticket: 34
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/34
 editors: 
 - Jeri Wieringa
 difficulty: 2

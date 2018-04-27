@@ -10,7 +10,7 @@ reviewers:
 - Nick Ruest
 layout: lesson
 difficulty: 2
-review-ticket: 75
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/75
 editors:
 - Jessica Parr
 activity: presenting

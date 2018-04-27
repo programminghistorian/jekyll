@@ -9,7 +9,7 @@ reviewers:
 editors:
 - Ian Milligan
 difficulty: 2
-review-ticket: 85
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/85
 activity: presenting
 topics: [mapping]
 abstract: "This tutorial teaches users how to create a web map based on tabular data."

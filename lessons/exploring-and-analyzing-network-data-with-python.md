@@ -14,7 +14,7 @@ reviewers:
 editors:
 - Brandon Walsh
 difficulty: 2
-review-ticket: 92
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/92
 layout: lesson
 collection: lessons
 slug: exploring-and-analyzing-network-data-with-python
