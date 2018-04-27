@@ -433,7 +433,7 @@ The `apply()` function allows you to perform the same function on every row or c
 The above example shows the apply function used on the `Crime` matrix to calculate the mean of each column, and so the average number of combined theft and violent theft crimes that were committed in each decade. If you want to find the mean of each row, you would use `2` instead of `1` inside of the function:
 
 ```
-> apply(Crime,1,mean)
+> apply(Crime,2,mean)
        Theft ViolentTheft
        20.75        16.50
 ```

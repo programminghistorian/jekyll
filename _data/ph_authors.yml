@@ -35,7 +35,7 @@
         Universidad de Hertfordshire, Reino Unido.
   bio:
     en: |
-        Adam Crymble is a lecturer of digital history at the University of
+        Adam Crymble is a senior lecturer of digital history at the University of
         Hertfordshire.
     es: |
         Adam Crymble es profesor de historia digital en la Universidad de Hertfordshire.
@@ -160,7 +160,6 @@
         Víctor Gayol es profesor investigador en el Centro de Estudios Históricos de El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
   team_roles:
    - spanish
-   - managing-es
    - board
 
 - name: Antonio Rojas Castro
@@ -954,3 +953,11 @@
   bio:
       en: |
           Patrick Smyth is a PhD student in English and Digital Fellow at the Graduate Center, CUNY.
+          
+- name: François Dominic Laramée
+  team: false
+  bio:
+      en: |
+          François Dominic Laramée is a doctoral candidate in history at the Université de Montréal, in Canada. 
+          He holds master's degrees in computer science and U.S. history and is a former video game designer, TV personality and screenwriter.
+

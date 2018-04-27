@@ -225,15 +225,15 @@ After you save your file, open your preferred web browser (IE or Firefox) and us
 
 You should now see the text from your data file with line breaks but *without* its structuring elements, as pictured below.
 
-{% include figure.html filename="transforming-xml-with-xsl-4.png" caption="Figure 5: Initial Text Output" %}
+{% include figure.html filename="transforming-xml-with-xsl-4.png" caption="Figure 4: Initial Text Output" %}
 
 If you see the XML data without any formatting, or an error message, go back and double-check your stylesheet reference within you XML file as well as your XSL stylesheet. Even a small typographical error will prevent the transformer from rendering the output.
 
-{% include figure.html filename="transforming-xml-with-xsl-5.png" caption="Figure 6: Unstructured 'Error' Output" %}
+{% include figure.html filename="transforming-xml-with-xsl-5.png" caption="Figure 5: Unstructured 'Error' Output" %}
 
 Once you have successfully rendered the data as a plain-text output, organise your desktop so that you can move quickly between your text editor and your browser.  I suggest docking (snapping) your browser window to one side of the screen and your editor to the other.
 
-{% include figure.html filename="transforming-xml-with-xsl-6.png" caption="Figure 7: Organising Your Workspace" %}
+{% include figure.html filename="transforming-xml-with-xsl-6.png" caption="Figure 6: Organising Your Workspace" %}
 
 ## Populating Your Outputs
 
@@ -300,7 +300,7 @@ Save and refresh your browser to see your changes.  Using this information, you 
 
 #### Exercise A:
 
-Note: Possible solutions for the following exercies are located at the end of the tutorial.
+Note: Possible solutions for the following exercises are located at the end of the tutorial.
 
 Print an inventory of the records in database, displaying the *id*, *title* and *date* of each record. A solution to this and the following exercises is available at the end of the tutorial.
 
@@ -386,7 +386,7 @@ Once you are comfortable using the commands listed here, explore the *transforme
         <html>
             <body>
                 <xsl:for-each select="root/record">
-                    <xsl:if test="keywords/keyword = 'slave rebellion'">
+                    <xsl:if test="keywords/keyword = 'slave insurrections'">
                         <h2>
                             <i><xsl:value-of select="title"/></i>, <xsl:value-of
                                 select="substring(date/@when, 9, 2)"/>
