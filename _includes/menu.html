@@ -37,6 +37,10 @@
         <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-lessons[page.lang].link}}">{{site.data.snippets.menu-lessons[page.lang].title}}</a>
       </li>
 
+      {% comment %}
+      This tries to find the correct corresponding link to give to the language switching buttons in the upper right of the page. Where it can find a matching translation/translation_source for the current page in another language, that link will be added. If no translation/translation_source for this page is found for a given language, then the default "home page" link for that language is used instead.
+      {% endcomment %}
+
       <li class="nav-item">
         <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-blog[page.lang].link}}">{{site.data.snippets.menu-blog[page.lang].title}}</a>
       </li>

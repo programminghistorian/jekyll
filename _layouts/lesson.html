@@ -131,6 +131,7 @@ layout: base
   <div class="container">
 
     {% for candidate in translation_candidates %}
+      <!-- Banner pointing to translations of this lesson when they exist -->
       <div class="alert alert-warning">
         {{ site.data.snippets.translation-target[page.lang]}} {{ site.data.snippets.language-name[candidate.lang][page.lang]}}: <a href="{{ candidate.url }}">{{ candidate.title }}</a>
       </div>
@@ -138,6 +139,7 @@ layout: base
 
     {% assign selected_translation_source = translation_source | first %}
     {% if selected_translation_source %}
+      <!-- If this lesson is translated, banner pointing to the original language source of this lesson -->
       <div class="alert alert-warning">
         {{ site.data.snippets.translation-source[page.lang] }} {{ site.data.snippets.language-name.en[page.lang]}}: <a href="{{ selected_translation_source.url }}">{{ selected_translation_source.title }}</a>
       </div>
