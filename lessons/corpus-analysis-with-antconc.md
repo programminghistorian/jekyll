@@ -10,6 +10,7 @@ reviewers:
 editors:
 - Fred Gibbs
 difficulty: 1
+review-ticket: NULL
 activity: analyzing
 topics: [distant-reading]
 abstract: "Corpus analysis is a form of text analysis which allows you to make comparisons between textual objects at a large scale (so-called 'distant reading')."
