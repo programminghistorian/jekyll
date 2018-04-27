@@ -12,6 +12,7 @@ reviewers:
 editors:
 - Adam Crymble
 difficulty: 1
+review-ticket: NULL
 activity: presenting
 topics: [mapping]
 abstract: "In this lesson you will install QGIS software, download geospatial files
