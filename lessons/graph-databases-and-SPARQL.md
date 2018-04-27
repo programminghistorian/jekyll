@@ -11,6 +11,7 @@ reviewers:
 editors:
 - Fred Gibbs
 difficulty: 2
+review-ticket: 166
 activity: acquiring
 topics: [lod]
 abstract: "This lesson explains why many cultural institutions are adopting graph databases, and how researchers can access these data though the query language called SPARQL."
