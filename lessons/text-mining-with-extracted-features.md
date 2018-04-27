@@ -13,6 +13,7 @@ layout: lesson
 activity: analyzing
 topics: [distant-reading]
 difficulty: 3
+review-ticket: 29
 abstract: |
   Explains how to use Python to summarize and visualize data on millions of texts from the HathiTrust Research Center's Extracted Features dataset.
 ---
