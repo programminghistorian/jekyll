@@ -10,6 +10,7 @@ reviewers:
 editors:
 - Fred Gibbs
 difficulty: 2
+review-ticket: NULL
 activity: acquiring
 topics: [web-scraping]
 abstract: "Downloading a single record from a website is easy, but downloading many records at a time – an increasingly frequent need for a historian – is much more efficient using a programming language such as Python. In this lesson, we will write a program that will download a series of records from the Old Bailey Online using custom search criteria, and save them to a directory on our computer."
