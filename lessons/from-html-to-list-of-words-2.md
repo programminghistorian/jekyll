@@ -10,6 +10,7 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 2
+review-ticket: NULL
 activity: transforming
 topics: [python]
 abstract: "In this lesson, you will learn the Python commands needed to implement the second part of the algorithm begun in the lesson 'From HTML to a List of Words (part 1)'."

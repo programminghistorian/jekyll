@@ -9,6 +9,7 @@ editors:
 exclude_from_check:
   - reviewers
 difficulty: 1
+review-ticket: NULL
 activity: presenting
 topics: [website]
 abstract: "Omeka.net makes it easy to create websites that show off collections of items."

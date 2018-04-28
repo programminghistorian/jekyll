@@ -11,6 +11,7 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 1
+review-ticket: NULL
 activity: transforming
 topics: [python, get-ready]
 abstract: "This first lesson in our section on dealing with Online Sources is

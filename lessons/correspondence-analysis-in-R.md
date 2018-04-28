@@ -11,6 +11,7 @@ editors:
   - Matthew Lincoln
 layout: lesson
 difficulty: 3
+review-ticket: 78
 activity: analyzing
 topics: [data-manipulation, network-analysis]
 abstract: |

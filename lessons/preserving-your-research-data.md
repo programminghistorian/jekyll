@@ -11,6 +11,7 @@ reviewers:
 editors:
 - Adam Crymble
 difficulty: 1
+review-ticket: NULL
 activity: sustaining
 topics: [data-management]
 abstract: "This lesson will suggest ways in which historians can document and structure their research data so as to ensure it remains useful in the future."

@@ -7,6 +7,7 @@ authors:
 editors:
 - Fred Gibbs
 difficulty: 2
+review-ticket: NULL
 activity: transforming
 topics: [data-manipulation]
 abstract: "Optical Character Recognition (OCR)—the conversion of scanned images to

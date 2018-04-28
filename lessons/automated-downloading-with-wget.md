@@ -9,6 +9,7 @@ reviewers:
 editors:
 - Adam Crymble
 difficulty: 1
+review-ticket: NULL
 activity: acquiring
 topics: [web-scraping]
 abstract: "Wget is a useful program, run through your computer's command line, for
