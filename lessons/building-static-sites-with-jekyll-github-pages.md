@@ -10,7 +10,7 @@ reviewers:
 editors:
 - Fred Gibbs
 difficulty: 1
-review-ticket: 3
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/3
 activity: presenting
 topics: [website, data-management]
 abstract: "This lesson will help you create entirely free, easy-to-maintain, preservation-friendly, secure website over which you have full control, such as a scholarly blog, project website, or online portfolio."
