@@ -8,7 +8,7 @@ reviewers:
 - John Fink
 - Nancy Lemay
 difficulty: 1
-review-ticket: 165
+review-ticket: https://github.com/programminghistorian/jekyll/pull/61
 editors:
 - Ian Milligan
 activity: presenting
