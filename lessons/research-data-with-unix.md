@@ -11,7 +11,8 @@ reviewers:
 editors:
 - Adam Crymble
 difficulty: 2
-review-ticket: NULL
+exclude_from_check:
+  - review-ticket
 activity: transforming
 topics: [data-manipulation]
 abstract: "This lesson will look at how research data, when organised in a clear and predictable manner, can be counted and mined using the Unix shell."

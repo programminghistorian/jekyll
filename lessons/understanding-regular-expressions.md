@@ -10,7 +10,8 @@ reviewers:
 editors:
 - Adam Crymble
 difficulty: 2
-review-ticket: NULL
+exclude_from_check:
+  - review-ticket
 activity: transforming
 topics: [data-manipulation]
 abstract: "In this lesson, we will use advanced find-and-replace capabilities in a

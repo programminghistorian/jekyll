@@ -10,7 +10,8 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 2
-review-ticket: NULL
+exclude_from_check:
+  - review-ticket
 activity: presenting
 topics: [python, website]
 abstract: "Here you will learn how to create HTML files with Python scripts, and

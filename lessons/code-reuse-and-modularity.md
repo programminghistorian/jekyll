@@ -10,7 +10,8 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 2
-review-ticket: NULL
+exclude_from_check:
+  - review-ticket
 activity: transforming
 topics: [python]
 abstract: "Computer programs can become long, unwieldy and confusing without

@@ -11,7 +11,8 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 2
-review-ticket: NULL
+exclude_from_check:
+  - review-ticket
 activity: transforming
 topics: [python]
 abstract: "In this lesson, we will make the list we created in the 'From HTML to a List of Words' lesson easier to analyze by normalizing this data."

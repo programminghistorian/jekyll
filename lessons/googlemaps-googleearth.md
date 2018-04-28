@@ -12,7 +12,8 @@ reviewers:
 editors:
 - Adam Crymble
 difficulty: 1
-review-ticket: NULL
+exclude_from_check:
+  - review-ticket
 activity: presenting
 topics: [mapping]
 abstract: "Google My Maps and Google Earth provide an easy way to start creating

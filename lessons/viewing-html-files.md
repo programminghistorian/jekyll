@@ -11,7 +11,8 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 2
-review-ticket: NULL
+exclude_from_check:
+  - review-ticket
 activity: presenting
 topics: [python]
 abstract: "This lesson introduces you to HTML and the web pages it structures."

@@ -12,7 +12,8 @@ reviewers:
 editors:
 - Adam Crymble
 difficulty: 2
-review-ticket: NULL
+exclude_from_check:
+  - review-ticket
 activity: transforming
 topics: [data-manipulation]
 abstract: "This tutorial focuses on how scholars can diagnose and act upon the

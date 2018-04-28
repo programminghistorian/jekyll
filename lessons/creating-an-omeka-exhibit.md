@@ -10,7 +10,8 @@ reviewers:
 editors:
 - Adam Crymble
 difficulty: 1
-review-ticket: NULL
+exclude_from_check:
+  - review-ticket
 activity: presenting
 topics: [website]
 abstract: "Now that you've added items to your Omeka site and grouped them into collections, you're ready for the next step: taking your users on a guided tour through the items you've collected."
