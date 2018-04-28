@@ -10,6 +10,7 @@ editors:
 - William J. Turkel
 - Adam Crymble
 difficulty: 2
+review-ticket: NULL
 activity: acquiring
 topics: [web-scraping]
 abstract: "The collections of the Internet Archive include many digitized historical sources. Many contain rich bibliographic data in a format called MARC. In this lesson, you'll learn how to use Python to automate the downloading of large numbers of MARC files from the Internet Archive and the parsing of MARC records for specific information such as authors, places of publication, and dates. The lesson can be applied more generally to other Internet Archive files and to MARC records found elsewhere."

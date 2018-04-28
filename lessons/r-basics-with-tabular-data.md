@@ -10,6 +10,7 @@ reviewers:
 editors:
 - Adam Crymble
 difficulty: 1
+review-ticket: 19
 activity: transforming
 topics: [data-manipulation]
 abstract: "This lesson teaches a way to quickly analyze large volumes of tabular data, making research faster and more effective."

@@ -10,6 +10,7 @@ reviewers:
 editors:
 - Caleb McDaniel
 difficulty: 1
+review-ticket: 14
 activity: sustaining
 topics: [data-management]
 abstract: "In this lesson you will be introduced to the basics of version control, understand why it is useful and implement basic version control for a plain text document using git and GitHub."

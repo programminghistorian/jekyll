@@ -10,6 +10,7 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 2
+review-ticket: NULL
 activity: transforming
 topics: [python]
 abstract: "In this lesson you will learn how to manipulate text files using Python."

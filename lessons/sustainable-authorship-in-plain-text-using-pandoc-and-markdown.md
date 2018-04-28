@@ -8,6 +8,7 @@ authors:
 editors:
 - Fred Gibbs
 difficulty: 2
+review-ticket: NULL
 activity: sustaining
 topics: [website, data-management]
 abstract: "In this tutorial, you will first learn the basics of Markdown—an easy to read and write markup syntax for plain text—as well as Pandoc, a command line tool that converts plain text into a number of beautifully formatted file types: PDF, .docx, HTML, LaTeX, slide decks, and more."

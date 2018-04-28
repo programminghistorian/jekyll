@@ -10,6 +10,7 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 2
+review-ticket: NULL
 activity: transforming
 topics: [python]
 abstract: "This lesson is a brief introduction to string manipulation techniques in Python."

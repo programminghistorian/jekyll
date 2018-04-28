@@ -13,6 +13,7 @@ reviewers:
 editors:
 - Adam Crymble
 difficulty: 2
+review-ticket: NULL
 activity: presenting
 topics: [mapping]
 abstract: "In this lesson you will learn how to create vector layers based on
