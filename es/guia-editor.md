@@ -295,7 +295,7 @@ Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML d
     - Adam Crymble
     editors:
     - Adam Crymble
-    review-ticket: 14
+    review-ticket: https://github.com/programminghistorian/ph-submissions/issues/14
     difficulty: 2
     activity: analyzing
     topics: [distant-reading]
