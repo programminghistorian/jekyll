@@ -237,9 +237,9 @@ To help readers evaluate which lessons best fit their goals and skill level, we 
 difficulty: 1
 ```
 
-### 6) Add the review ticket number to the YAML file
+### 6) Add the review ticket URL to the YAML file
 
-In order to promote transparency around the review process, create a `review-ticket` key in the YAML file and provide the ticket number for the corresponding review ticket in the ph-submissions repository. This information will be used to provide a link back to the review ticket for the lesson.
+In order to promote transparency around the review process, create a `review-ticket` key in the YAML file and provide the URL to the peer review in the ph-submissions repository. This information will be used to provide a link back to the review ticket for the lesson.
 
 ### 7) Update the date field in the YAML file
 
@@ -275,7 +275,7 @@ Check out the example below to see what finished front matter should look like:
     - Adam Crymble
     editors:
     - Adam Crymble
-    review-ticket: 14
+    review-ticket: https://github.com/programminghistorian/ph-submissions/issues/164
     difficulty: 2
     activity: analyzing
     topics: [distant-reading]
