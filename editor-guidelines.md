@@ -275,7 +275,7 @@ Check out the example below to see what finished front matter should look like:
     - Adam Crymble
     editors:
     - Adam Crymble
-    review-ticket: https://github.com/programminghistorian/ph-submissions/issues/164
+    review-ticket: https://github.com/programminghistorian/ph-submissions/issues/14
     difficulty: 2
     activity: analyzing
     topics: [distant-reading]
