@@ -10,7 +10,7 @@ reviewers:
 - Simon Appleford
 layout: lesson
 difficulty: 2
-review-ticket: 153
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/153
 collection: lessons
 slug: getting-started-with-mysql-using-r
 activity: transforming
