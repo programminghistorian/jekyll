@@ -38,8 +38,6 @@ Some knowledge of installing software as well as organizing data into fields is 
 
 {% include toc.html %}
 
-# Getting Started With MySQL
-
 # Introduction
 
 MySQL is a relational database used to store and query information. This lesson will use the R language to provide a tutorial and examples to:
