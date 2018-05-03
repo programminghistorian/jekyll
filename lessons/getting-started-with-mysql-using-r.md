@@ -599,10 +599,8 @@ Error in .local(conn, statement, ...) :
 ```
 You can check with a SELECT statement that there is no record in the table with a story title of THE LOST LUSITANIA'S RUDDER. 
 
-Single apostrophes are part of SQL syntax and they indicate a text value.  If they are in the wrong place, it causes an error.  We have to handle cases where we have data with apostrophes.  SQL accepts two apostrophes in an insert statement to represent an apostrophe in data, as per below:
-```
-''
-```
+Single apostrophes are part of SQL syntax and they indicate a text value.  If they are in the wrong place, it causes an error.  We have to handle cases where we have data with apostrophes.  SQL accepts two apostrophes in an insert statement to represent an apostrophe in data ('').
+
 We'll handle apostrophes by using a gsub function to replace a single apostrophe with a double one, as per below.
 
 ```
