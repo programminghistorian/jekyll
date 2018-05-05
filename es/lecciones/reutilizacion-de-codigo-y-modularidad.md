@@ -17,6 +17,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/41
 layout: lesson
 categories: [lessons, original-ph, python]
 next: trabajar-con-paginas-web
