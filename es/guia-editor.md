@@ -1,6 +1,7 @@
 ---
 title: Guía para editores
 layout: blank
+original: editor-guidelines
 ---
 
 # Guía para editores
@@ -214,7 +215,7 @@ La manera más fácil de publicar el texto es utilizar `git` en tu terminal de l
 Después de haber movido la lección al repositorio local de `jekyll` tendrás además que guardar la lección que ya enviaste en el repositorio `ph-submissions`.
 
 1. Sitúate en el directorio local de tu repositorio `ph-submissions/es`.
-2. Añade una nueva línea en el encabezado YAML de la lección ya publicada: `redirect_from: "/lessons/LESSON-SLUG"`
+2. Añade una nueva línea en el encabezado YAML de la lección ya publicada: `original: "LESSON-SLUG"`
 3. Copia la lección ya publicada de `lessons/` a `lessons/published/`.
 4. Copia el folder de imágenes que contiene las imágenes de la lección ya publicada de `images/` a `images/published/`.
 5. Utiliza `git add`, `git commit`, y `git push` para finalizar todos los cambios.

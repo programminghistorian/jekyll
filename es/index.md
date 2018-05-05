@@ -1,5 +1,6 @@
 ---
 layout: base
+original: index
 title: |
   The Programming Historian en español
 ---

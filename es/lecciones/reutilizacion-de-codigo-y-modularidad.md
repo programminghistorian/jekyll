@@ -21,6 +21,7 @@ layout: lesson
 categories: [lessons, original-ph, python]
 next: trabajar-con-paginas-web
 previous: trabajar-con-archivos-de-texto
+original: code-reuse-and-modularity
 redirect_from: /es/lessons/code-reuse-and-modularity
 difficulty: 2
 activity: transforming

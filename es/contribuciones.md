@@ -1,6 +1,7 @@
 ---
 title: Contribuye a The Programming Historian en españolr
 layout: blank
+original: contribute
 ---
 
 # Contribuye a *The Programming Historian en español*

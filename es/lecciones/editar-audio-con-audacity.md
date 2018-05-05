@@ -17,6 +17,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Víctor Gayol
 layout: lesson
+original: editing-audio-with-audacity
 redirect_from: /es/lessons/editing-audio-with-audacity
 difficulty: 1
 activity: transforming

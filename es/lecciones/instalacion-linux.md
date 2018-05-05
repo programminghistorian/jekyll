@@ -19,6 +19,7 @@ translation-reviewer:
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
 layout: lesson
+original: linux-installation
 redirect_from: /es/lessons/linux-installation
 difficulty: 1
 activity: transforming

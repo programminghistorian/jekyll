@@ -20,6 +20,7 @@ translation-reviewer:
 layout: lesson
 next: reutilizacion-de-codigo-y-modularidad
 previous: ver-archivos-html
+original: working-with-text-files
 redirect_from: /es/lessons/working-with-text-files
 python_warning: true
 difficulty: 2

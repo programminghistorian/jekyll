@@ -1,6 +1,7 @@
 ---
 title: Investigación
 layout: blank
+original: research
 ---
 
 ## Producción académica sobre el proyecto

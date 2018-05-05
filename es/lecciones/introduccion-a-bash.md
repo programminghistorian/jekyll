@@ -19,6 +19,7 @@ translation-editor:
 translation-reviewer:
 - Antonio Jesús Sánchez Padial
 - Antonio Rojas Castro
+original: intro-to-bash
 redirect_from: /es/lessons/intro-to-bash
 layout: lesson
 difficulty: 1

@@ -1,6 +1,7 @@
 ---
 title: Instrucciones para autores y traductores
 layout: blank
+original: author-guidelines
 ---
 
 # Guía para autores y traductores

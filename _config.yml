@@ -20,11 +20,15 @@ defaults:
       path: ""
     values:
       lang: "en"
+      basepath: ""
+      lessonpath: "/lessons"
   -
     scope:
       path: "es"
     values:
       lang: "es"
+      basepath: "/es"
+      lessonpath: "/lecciones"
   -
     scope:
       path: "lessons"

@@ -16,6 +16,7 @@ translation-reviewer:
 - Antonio Rojas Castro
 - Alicia Calvo
 layout: lesson
+original: up-and-running-with-omeka
 redirect_from: /es/lessons/up-and-running-with-omeka
 difficulty: 1
 activity: presenting

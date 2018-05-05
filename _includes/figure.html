@@ -8,14 +8,13 @@ In the event that an external image link has been provided, it will use that pat
 
 {% endcomment %}
 
-
-{% include lesson-slug.html %}
+{% include page-slug.html %}
 
 {% if include.filename contains "http" %}
   {% capture fullpath %}{{ include.filename }}{% endcapture %}
 {% else %}
 {% if page.layout == "lesson" %}
-  {% capture fullpath %}{{ site.baseurl }}/images/{{ slug }}/{{ include.filename }}{% endcapture %}
+  {% capture fullpath %}{{ site.baseurl }}/images/{{ canonical_slug }}/{{ include.filename }}{% endcapture %}
 {% else %}
   {% capture fullpath %}{{ site.baseurl }}/{{ include.filename }}{% endcapture %}
 {% endif %}

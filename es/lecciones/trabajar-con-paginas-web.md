@@ -26,6 +26,7 @@ topics: [python]
 abstract: "Esta lección muestra qué es un Localizador de recursos uniforme (Uniform Resource Locator = URL) y explica cómo utilizar Python para descargar y guardar los contenidos de una página web en tu disco duro."
 next: manipular-cadenas-de-caracteres-en-python
 previous: reutilizacion-de-codigo-y-modularidad
+original: working-with-web-pages
 redirect_from: /es/lessons/working-with-web-pages
 python_warning: true
 ---

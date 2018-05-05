@@ -4,7 +4,9 @@
 
   {% include metadata.html %}
 
+  {% if page.lesson or page.category == "posts" %}
   {% include twitter-card.html %}
+  {% endif %}
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <meta name="viewport" content="width=device-width">

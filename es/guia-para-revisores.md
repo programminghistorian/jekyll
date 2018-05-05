@@ -2,6 +2,7 @@
 title: Guía para revisores
 date: 20-09-20156
 layout: blank
+original: reviewer-guidelines
 ---
 
 # Guía para revisores

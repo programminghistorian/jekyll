@@ -15,6 +15,7 @@ translation-reviewer:
 - José Calvo Tello
 - Antonio Rojas Castro
 layout: lesson
+original: installing-python-modules-pip
 redirect_from: /es/lessons/installing-python-modules-pip
 difficulty: 1
 activity: acquiring
