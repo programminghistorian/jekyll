@@ -17,6 +17,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/45
 layout: lesson
 next: normalizar-datos
 previous: de-html-a-lista-de-palabras-1
