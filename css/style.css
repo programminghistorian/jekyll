@@ -191,6 +191,10 @@ Lesson Headers
     color:#999;
   }
 
+  header .peer-review, header .open-license {
+    font-size:0.9rem;
+    margin: 0;
+  }
 
 /* =============================================================================
 Lessons Index
@@ -661,7 +665,6 @@ Figures
     font-family:'Open Sans';
     color: #666;
   }
-
 
   /* =============================================================================
   Tables
