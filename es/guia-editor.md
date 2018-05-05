@@ -255,9 +255,9 @@ Con el objetivo de ayudar a los lectores a evaluar si una lección se ajusta a s
 difficulty: 1
 ```
 
-### 6) Añade un ticket de revisión al archivo YAML
+### 6) Añade la URL del tícket de revisión al archivo YAML
 
-Crea un ticket de revisión en el archivo YAML y proporciona el número del ticket correspondiente al envío del archivo en el repositorio `borradores`. Este procedimiento se realiza para incrementar la transparencia del proceso de revisión. La información, además, se utilizará para proporcionar un enlace al ticket de revisión.
+Crea un metadato `review-ticket` en el encabezado YAML y proporciona la URL del tícket correspondiente al envío del archivo en el repositorio `ph-submissions`. Este procedimiento se realiza para incrementar la transparencia del proceso de revisión. La información, además, se utilizará para proporcionar un enlace al ticket de revisión.
 
 ### 7) Actualiza la fecha en el archivo YAML
 
@@ -277,7 +277,7 @@ Teniendo como referencia el ejemplo de abajo, asegúrate que toda la parte preli
 3. Edita el archivo /js/lessonfilter.js para que funcione adecuadamente el botón que filtra la página de la lección con ese tópico. Busca en el archivo el fragmento de diez líneas de código que empieza con "$('#filter-api')", copia y pega ese fragmento de código y reemplaza las dos veces que aparece "api" con tu nuevo tópico.
 - **abstract** es una descripción de una a tres frases sobre lo que se aprende en esa lección. Trata de evitar, en lo posible, un vocabulario técnico, para que estos resúmenes ayuden a los académicos sin un conocimiento técnico a probar nuevas cosas.
 
-Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML de la lección completo:
+Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML de la lección por completo (para tutoriales originales):
 
     ---
     title: "Getting Started with Topic Modeling and MALLET"
@@ -295,7 +295,7 @@ Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML d
     - Adam Crymble
     editors:
     - Adam Crymble
-    review-ticket: 14
+    review-ticket: https://github.com/programminghistorian/ph-submissions/issues/14
     difficulty: 2
     activity: analyzing
     topics: [distant-reading]

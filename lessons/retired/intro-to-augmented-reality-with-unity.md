@@ -15,6 +15,13 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/17
 activity: presenting
 topics: [website,mapping]
 abstract: "This lesson serves as an introduction to creating mobile augmented reality applications. Augmented reality (AR) can be defined as the overlaying of digital content (images, video, text, sound, etc.) onto physical objects or locations, and it is typically experienced by looking through the camera lens of an electronic device such as a smartphone, tablet, or optical head-mounted display."
+retired: true
+retirement-reason: |
+  Unity recently changed several of its components, so this lesson was rendered out of date. An updated lesson on augmented reality in Unity is in process - stay tuned!
+
+  [See further discussion about this retirement decision.](https://github.com/programminghistorian/jekyll/issues/717)
+redirect_from:
+  - /lessons/intro-to-augmented-reality-with-unity
 ---
 
 {% include toc.html %}
@@ -23,7 +30,7 @@ abstract: "This lesson serves as an introduction to creating mobile augmented re
 
 
 
-This lesson serves as an introduction to creating mobile augmented reality applications. Augmented reality (AR) can be defined as the overlaying of digital content (images, video, text, sound, etc.) onto physical objects or locations, and it is typically experienced by looking through the camera lens of an electronic device such as a smartphone, tablet, or optical head-mounted display (e.g. Microsoft Hololens). Although AR is a cutting-edge, complex technology, there are a number of user-friendly platforms that allow people with no previous coding experience to create compelling augmented reality experiences. 
+This lesson serves as an introduction to creating mobile augmented reality applications. Augmented reality (AR) can be defined as the overlaying of digital content (images, video, text, sound, etc.) onto physical objects or locations, and it is typically experienced by looking through the camera lens of an electronic device such as a smartphone, tablet, or optical head-mounted display (e.g. Microsoft Hololens). Although AR is a cutting-edge, complex technology, there are a number of user-friendly platforms that allow people with no previous coding experience to create compelling augmented reality experiences.
 
 ## Lesson Goals
 
@@ -78,9 +85,9 @@ For this lesson, you will need to download the following software applications a
 
 ### Unity
 
-* [Download Unity for Windows](https://unity3d.com/get-unity/download/archive): 
+* [Download Unity for Windows](https://unity3d.com/get-unity/download/archive):
 
-If you are working on a 32-bit Windows computer, skip down to "Installing the 32-bit Unity Editor." Otherwise, select the "Unity Installer" option from the latest version of Unity in the "Downloads (Win)" dropdown menu. Unity will download the "UnityDownloadAssistant" application to guide you through the installation process. Launch this application after it downloads and follow the instructions. On the "Choose Components" page, make sure that the options for "Android Build Support" and "Windows Build Support" are both selected. 
+If you are working on a 32-bit Windows computer, skip down to "Installing the 32-bit Unity Editor." Otherwise, select the "Unity Installer" option from the latest version of Unity in the "Downloads (Win)" dropdown menu. Unity will download the "UnityDownloadAssistant" application to guide you through the installation process. Launch this application after it downloads and follow the instructions. On the "Choose Components" page, make sure that the options for "Android Build Support" and "Windows Build Support" are both selected.
 
 Installing the 32-bit Unity editor: Download and install the 32-bit Unity Editor from the [Unity Download Archive](https://unity3d.com/get-unity/download/archive). Then, return to the Unity Download Archive and download the Unity Installer. When you get to the "Choose Components" page, deselect everything except for "Android Build Support" and "Windows Build Support."
 
@@ -108,7 +115,7 @@ Download and install the [Java Development Kit](http://www.oracle.com/technetwor
 
 {% include figure.html filename="ar-dev-1-9.png" caption="Download the .exe file for your operating system." %}
 
-Click on the file once it has finished downloading, and follow the installation guide. 
+Click on the file once it has finished downloading, and follow the installation guide.
 
 ### Android SDK Tools (only if testing on an Android device)
 
@@ -116,7 +123,7 @@ There are two options for downloading the Android SDK Tools:
 
 * Download and install [Android Studio](https://developer.android.com/studio/index.html). Android Studio is the official IDE (integrated development environment) for creating Android applications. However, keep in mind that Android Studio is a very large program that will take longer to download, so only take this option if you are interested in developing other mobile applications with Android. If you take this option, follow the instructions in the download assistant.
 
-* Alternatively, you can download just the [Android command line tools](https://developer.android.com/sdk/index.html#Other), which will give you access to the Android SDK but not the Android Studio IDE. if you take this option, scroll down on the Android Studio download page until you see a section labelled "Get just the command line tools." 
+* Alternatively, you can download just the [Android command line tools](https://developer.android.com/sdk/index.html#Other), which will give you access to the Android SDK but not the Android Studio IDE. if you take this option, scroll down on the Android Studio download page until you see a section labelled "Get just the command line tools."
 
 {% include figure.html filename="new-ar-dev-27.png" caption="Download the Android command line tools that are compatible with your operating system." %}
 
@@ -130,26 +137,26 @@ If you are trying to install the Android packages but keep getting an error abou
 
 ### Xcode
 
-Because Vuforia [no longer supports](https://developer.vuforia.com/forum/unity-extension-technical-discussion/unity-invalid-pbx-project) building Xcode projects with the Windows version of Unity, you cannot test your application on an iOS device if you are working on a Windows computer. In order to build iOS applications with Unity, you need 1) an apple device (iPhone, iPad, etc.) running iOS 9 or later and 2) a Mac running OS X 10.10.5 or later. If you meet these technical requirements, download [Xcode 7 or later](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) from the Apple app store. 
+Because Vuforia [no longer supports](https://developer.vuforia.com/forum/unity-extension-technical-discussion/unity-invalid-pbx-project) building Xcode projects with the Windows version of Unity, you cannot test your application on an iOS device if you are working on a Windows computer. In order to build iOS applications with Unity, you need 1) an apple device (iPhone, iPad, etc.) running iOS 9 or later and 2) a Mac running OS X 10.10.5 or later. If you meet these technical requirements, download [Xcode 7 or later](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) from the Apple app store.
 
 ## Connect the Android SDK and Java Development Kit to Unity
 
-In Unity, go to "Edit > Preferences > External Tools" and point Unity to the file locations for the Android Tools (Android SDK) and Java Development Kit (JDK) you just installed. If you do not see options for adding the Android SDK and Java SDK, then you will need to close Unity and restart the Unity Download Assistant and make sure that "Android Build Support" is selected on the "Choose Components" page. 
+In Unity, go to "Edit > Preferences > External Tools" and point Unity to the file locations for the Android Tools (Android SDK) and Java Development Kit (JDK) you just installed. If you do not see options for adding the Android SDK and Java SDK, then you will need to close Unity and restart the Unity Download Assistant and make sure that "Android Build Support" is selected on the "Choose Components" page.
 
 {% include figure.html filename="ar-dev-1-10.png" caption="Restart the Unity Download Assistant." %}
 
 {% include figure.html filename="ar-dev-1-11.png" caption="Check the Android Build Support option. Check the iOS Build Support option if you working on a Mac." %}
 
-Unity should automatically detect the location of the Java Development Kit once it has finished installing. If it does not, restart Unity and go to "Edit > Preferences." Select the "External Tools" and make sure that the "JDK" field is pointing to the Java Development Kit. Click the "Browse" button next to the JDK field and select the "jdk[version number]" folder in the "C:/Program Files/Java" folder. Leave the "NDK" field blank. 
+Unity should automatically detect the location of the Java Development Kit once it has finished installing. If it does not, restart Unity and go to "Edit > Preferences." Select the "External Tools" and make sure that the "JDK" field is pointing to the Java Development Kit. Click the "Browse" button next to the JDK field and select the "jdk[version number]" folder in the "C:/Program Files/Java" folder. Leave the "NDK" field blank.
 
 In the External Tools dialogue box in Unity, click the "Browse" button next to the "SDK" field and point it to the "android-sdk" folder on your computer. If you downloaded the SDK through the Android Studio IDE, this folder will be located in "C:/Program Files/Android" folder. If you downloaded just the command line tools, it will be in this folder: "C:/Users/[your username]/AppData/Local/Android."
 
 {% include figure.html filename="new-ar-dev-29.png" caption="Connect the Android SDK Tools and the Java Development Kit to your Unity project." %}
 
-If you do not see the "AppData" folder, open your file explorer and select the "View" option in the top menu. Select the box labelled "Hidden items." 
+If you do not see the "AppData" folder, open your file explorer and select the "View" option in the top menu. Select the box labelled "Hidden items."
 
 {% include figure.html filename="ar-dev-28.png" caption="Check the 'Hidden items' box in your file explorer View options." %}
-  
+
 ## Navigating the Unity Interface
 
 This section covers some of the basic knowledge you will need while working with the Unity Editor. If you are already familiar with the Unity Interface, feel free to skip down to "Setting up Unity for AR Development."
@@ -164,7 +171,7 @@ Items that appear in the hierarchy panel are referred to as "game objects," and 
 
 {% include figure.html filename="ar-dev-1-1.png" caption="The game objects in your hierarchy panel are represented visually in the scene panel." %}
 
-In Unity, a game object is a container for different components that can be added and modified in the inspector panel. Select the "Directional Light" game object in your hierarchy panel. You should now see the properties of the Directional Light in the inspector panel on the far right. The inspector panel contains all of the "components" attached to a game object. The Directional Light game object has two components: "Transform" and "Light." You can add and modify components to change the appearance and functionality of your game objects. 
+In Unity, a game object is a container for different components that can be added and modified in the inspector panel. Select the "Directional Light" game object in your hierarchy panel. You should now see the properties of the Directional Light in the inspector panel on the far right. The inspector panel contains all of the "components" attached to a game object. The Directional Light game object has two components: "Transform" and "Light." You can add and modify components to change the appearance and functionality of your game objects.
 
 {% include figure.html filename="ar-dev-1-2.png" caption="Use the inspector panel to modify the components of individual game objects." %}
 
@@ -178,7 +185,7 @@ Go to the project panel and navigate to the "Assets > Vuforia > Prefabs" folder.
 
 {% include figure.html filename="ar-dev-4.png" caption="Use this area to navigate around the file structure of your Unity project." %}
 
-In Unity, a "prefab" is a game object that contains all of the information necessary to perform a specific function in your project, such as accessing the camera on a mobile device or playing a video. While in the prefabs folder, click and drag the "ARCamera" and "ImageTarget" prefabs into your hierarchy panel. Locate the directional widget in the top right corner of your scene panel. You can use this to adjust the view of your scene panel to the x, y, or z axis. Click the green y-axis option of your directional widget. This will make the green arrow  disappear and shift your perspective in the scene panel to a y-axis "birds-eye" view of your project. It will now be easier to manipulate the game objects in your scene view. 
+In Unity, a "prefab" is a game object that contains all of the information necessary to perform a specific function in your project, such as accessing the camera on a mobile device or playing a video. While in the prefabs folder, click and drag the "ARCamera" and "ImageTarget" prefabs into your hierarchy panel. Locate the directional widget in the top right corner of your scene panel. You can use this to adjust the view of your scene panel to the x, y, or z axis. Click the green y-axis option of your directional widget. This will make the green arrow  disappear and shift your perspective in the scene panel to a y-axis "birds-eye" view of your project. It will now be easier to manipulate the game objects in your scene view.
 
 {% include figure.html filename="ar-dev-1-4.png" caption="Click the green y-axis option of your directional widget." %}
 
@@ -237,7 +244,7 @@ Click "Add" in the "Add Target" options box on the Vuforia developer portal. Onc
 
 {% include figure.html filename="ar-dev-16.png" caption="Vuforia's augmentability rating for the book cover." %}
 
-The yellow markers represent the areas in the image that your application will use to determine if it is looking at the proper image target. If you notice that Vuforia is tracking unstable elements in your image (e.g. shadow, person, etc.), then you will need to re-edit or choose a different image. 
+The yellow markers represent the areas in the image that your application will use to determine if it is looking at the proper image target. If you notice that Vuforia is tracking unstable elements in your image (e.g. shadow, person, etc.), then you will need to re-edit or choose a different image.
 
 If your image is given a good augmentability rating (anything between 2-5 stars should work), select your image and click "Download Database." If you were creating an AR application with multiple Image Targets, you would want to convert all of your images through Vuforia's developer portal before downloading them as a Unity package.
 
@@ -247,15 +254,15 @@ In the dialogue box that pops up, select "Unity Editor." Click "Download" and sa
 
 {% include figure.html filename="ar-dev-17.png" caption="Download your Image Target Database" %}
 
-## Import the Image Target 
- 
+## Import the Image Target
+
 Now that you have converted your image into an image target, you need to associate it with your ImageTarget prefab in Unity. Return to Unity and import the database package you just downloaded from the Vuforia developer portal by selecting "Assets > Import Package > Custom Package."
 
-Once the database has been imported, select the ImageTarget prefab in the project hierarchy panel. Navigate to the inspector panel and select the drop-down menu of the "Database" parameter in the "Image Target Behaviour." Select the name of the database you created earlier. The ImageTarget prefab should now be associated with your book cover. 
+Once the database has been imported, select the ImageTarget prefab in the project hierarchy panel. Navigate to the inspector panel and select the drop-down menu of the "Database" parameter in the "Image Target Behaviour." Select the name of the database you created earlier. The ImageTarget prefab should now be associated with your book cover.
 
 {% include figure.html filename="ar-dev-18.png" caption="Image Target" %}
 
-Zoom into your Image Target game object by selecting it in the hierarchy panel and striking the "F" key with your cursor hovering over the scene panel. If your scene view does not look like something similar to the image above, click on the green y-axis in the directional widget of your scene panel. 
+Zoom into your Image Target game object by selecting it in the hierarchy panel and striking the "F" key with your cursor hovering over the scene panel. If your scene view does not look like something similar to the image above, click on the green y-axis in the directional widget of your scene panel.
 
 Next, select the "ARCamera" object in your project hierarchy and locate the "Database Load Behaviour" component in the inspector panel on the right. Check the "Load Database" and "Activate" parameters. The AR camera will not recognize your image target unless both of these boxes are selected, so make you check them first when troubleshooting your application.
 
@@ -269,13 +276,13 @@ First, find an image that you want to use as an overlay. If your application is 
 
 {% include figure.html filename="ar-dev-20.png" caption="Convert overlay image to a sprite" %}
 
-Next, drag the sprite you just imported onto your "Image Target" game object in the project hierarchy. 
+Next, drag the sprite you just imported onto your "Image Target" game object in the project hierarchy.
 
 {% include figure.html filename="ar-dev-1.gif" caption="Attach your author image as a child of your ImageTarget prefab." %}
 
 The sprite is now a "child" of the Image Target prefab and will only appear if the ARCamera recognizes the Image Target.
 
-The position of your image overlay (the author image) in the scene view is the same position that it will appear when scanned with a mobile device camera. For example, if you place the author image at the top of the book then it will also appear at the top of the book cover when your user scans it. 
+The position of your image overlay (the author image) in the scene view is the same position that it will appear when scanned with a mobile device camera. For example, if you place the author image at the top of the book then it will also appear at the top of the book cover when your user scans it.
 
 Next, you will need to adjust the size and position of your author image to center it on your book cover using the translate, scale, and rotate tools located in the upper left of the Unity editor interface. Use the instructions for each of these tools below until your author image is positioned on top of your book cover. Remember to use the "F" key to locate your overlay or image target within the scene view.
 
@@ -301,7 +308,7 @@ If you cannot find your author image in the scene view, try the following steps:
 
 * Select the author image in the hierarchy panel and navigate to its "Transform" component in the inspector panel. Click on the small cog icon in the upper right corner of the "Transform" component and select "Reset."
 * Use the "F" key to search for any game object. Make sure the game object you are searching for is selected in the hierarchy panel and that your cursor is within the bounds of the scene view.
-* Select the hand tool (left-most option) in the transform menu and adjust your perspective in the scene view. Hold the Alt/Option button on your keyboard to adjust your perspective in 3D space. 
+* Select the hand tool (left-most option) in the transform menu and adjust your perspective in the scene view. Hold the Alt/Option button on your keyboard to adjust your perspective in 3D space.
 * Use the translate, scale, and rotate tools described above to reposition your author image on top of the book cover.
 
 {% include figure.html filename="ar-dev-22.png" caption="Reset the position, rotation, and scale of a game object in the Transform component." %}
@@ -368,7 +375,7 @@ If you are getting errors that your "Android Build Tools" are out of date, open 
 
 If you get an error saying that "Unity cannot install the APK!" go to your player settings and set the "Install Location" to "Automatic."
 
-### iOS 
+### iOS
 
 Before you can build your application to an iOS device, you will need to create an XCode project in Unity. Go to "File > Build Settings" and switch your platform target to "iOS." Click "Build" and create a new folder named "iOS Build."
 
@@ -380,7 +387,7 @@ Open your project in Xcode. When opening Xcode for the first time, you might get
 
 {% include figure.html filename="ar-dev-2-2.png" caption="Possible Xcode error." %}
 
-Next, you will need to register your iOS device with Xcode. First, connect it to your computer with a USB cable. This device must be registered under the same Apple ID associated with Xcode.You might have to wait a few minutes while Xcode prepares your device for app development. 
+Next, you will need to register your iOS device with Xcode. First, connect it to your computer with a USB cable. This device must be registered under the same Apple ID associated with Xcode.You might have to wait a few minutes while Xcode prepares your device for app development.
 
 In order to build your app to an iOS device, you will need to link your apple account to Xcode. Under the "General" tab, select "Team" and then "Add Account." Add the Apple ID account associated with your iOS device (this is the account you use to download apps and purchase music through iTunes). Next, scroll down to "Deployment info" and select "iPhone" or "iPad" depending on the type of device you are building to. If you are still getting the warning message "No code signing identities found," make sure that your Apple ID is selected and click on the "Fix Issue" button.
 
@@ -399,6 +406,3 @@ Finally, select "Product > Run" in the top menu and wait for your app to build t
 ## Extending the Tutorial
 
 You should now have a fairly good grasp of how the Unity game engine can be used to create a simple augmented reality application. In future tutorials, we will cover more advanced topics that will provide you with the necessary technical skills to create more robust mobile AR applications with dynamic, interactive overlays.
- 
-
-
