@@ -16,6 +16,7 @@ translation-editor:
 translation-reviewer:
 - Maria José Afanador-Llach
 - Víctor Gayol
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/64
 layout: lesson
 difficulty: 1
 activity: sustaining
