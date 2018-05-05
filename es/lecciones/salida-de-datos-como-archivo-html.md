@@ -17,6 +17,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/49
 layout: lesson
 next: palabras-clave-en-contexto-n-grams
 previous: crear-y-ver-archivos-html-con-python
