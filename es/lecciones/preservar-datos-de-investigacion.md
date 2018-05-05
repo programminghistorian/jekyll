@@ -17,6 +17,7 @@ translation-editor:
 translation-reviewer:
 - Antonio Rojas Castro
 - Maria José Afanador-Llach
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/55
 layout: lesson
 difficulty: 1
 redirect_from: /es/lessons/preserving-your-research-data
