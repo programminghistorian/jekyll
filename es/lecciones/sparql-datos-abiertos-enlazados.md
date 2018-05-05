@@ -19,6 +19,7 @@ translation-editor:
 translation-reviewer:
 - Antonio Rojas Castro
 - Juan Antonio Pastor Sánchez
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/67
 layout: lesson
 redirect_from: /es/lessons/graph-databases-and-SPARQL
 difficulty: 2
