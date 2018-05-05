@@ -18,6 +18,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/35
 layout: lesson
 difficulty: 1
 activity: transforming
