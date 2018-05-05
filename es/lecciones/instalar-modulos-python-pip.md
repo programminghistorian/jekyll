@@ -14,6 +14,7 @@ translation-editor:
 translation-reviewer:
 - José Calvo Tello
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/63
 layout: lesson
 redirect_from: /es/lessons/installing-python-modules-pip
 difficulty: 1
