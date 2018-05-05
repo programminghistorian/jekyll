@@ -20,6 +20,7 @@ translation-editor:
 translation-reviewer:
 - Antonio Rojas Castro
 - Jennifer Isasi
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/130
 redirect_from: /es/lessons/googlemaps-googleearth
 difficulty: 1
 activity: presenting
