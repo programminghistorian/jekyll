@@ -41,10 +41,16 @@ layout: base
 
         {% if page.reviewers %}
         <div class="peer-review">
+          <p>
           {% if page.review-ticket %}
           <a href="{{ page.review-ticket }}">{% endif %}<i class="fas fa-user-check"></i> {{ site.data.snippets.peer-review[page.lang] }}{% if page.review-ticket %}</a>{% endif %}
+          </p>
         </div>
         {% endif %}
+
+        <div class="open-license">
+          <p><a href="https://creativecommons.org/licenses/by/4.0/deed.en"><i class="fas fa-lock-open"></i> CC-BY 4.0</a></p>
+        </div>
 
       </div>
     </div>
