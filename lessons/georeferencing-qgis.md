@@ -15,6 +15,8 @@ editors:
 difficulty: 2
 activity: transforming
 topics: [mapping]
+exclude_from_check: 
+  - review-ticket
 abstract: "In this lesson, you will learn how to georeference historical maps so
 that they may be added to a GIS as a raster layer."
 previous: vector-layers-qgis

@@ -17,7 +17,7 @@ translation-editor:
 translation-reviewer:
 - Carlos Loz
 - Antonio Rojas Castro
-reviewe-ticket: https://github.com/programminghistorian/ph-submissions/issues/59
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/59
 layout: lesson
 difficulty: 2
 activity: acquiring
