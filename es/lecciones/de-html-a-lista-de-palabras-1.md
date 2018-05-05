@@ -17,6 +17,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/44
 layout: lesson
 next: de-html-a-lista-de-palabras-2
 previous: manipular-cadenas-de-caracteres-en-python
