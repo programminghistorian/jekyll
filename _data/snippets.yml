@@ -96,7 +96,13 @@ menu-lang:
   en:
     title: '[en]'
     link: /
-
+menu-translation-concordance:
+  es:
+    title: Concordancia de traducción
+    link: /translation-concordance
+  en:
+    title: Translation Concordance
+    link: /translation-concordance
 # site footer
 footer:
   license:
