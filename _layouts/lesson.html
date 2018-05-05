@@ -39,6 +39,12 @@ layout: base
           <p>{{ page.abstract }}</p>
         </div>
 
+        {% if page.review-ticket %}
+        <div class="peer-review">
+          <a href="{{ page.review-ticket }}">Peer-reviewed</a>
+        </div>
+        {% endif %}
+
       </div>
     </div>
   </div>
