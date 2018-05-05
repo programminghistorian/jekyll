@@ -18,6 +18,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/37
 layout: lesson
 redirect_from: /es/lessons/windows-installation
 difficulty: 1
