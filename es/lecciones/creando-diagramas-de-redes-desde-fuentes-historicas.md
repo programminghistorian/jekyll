@@ -16,6 +16,7 @@ translation-editor:
 translation-reviewer:
 - José Antonio Motilla
 - Jairo A. Melo
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/58
 layout: lesson
 redirect_from: /es/lessons/creating-network-diagrams-from-historical-sources
 difficulty: 2
