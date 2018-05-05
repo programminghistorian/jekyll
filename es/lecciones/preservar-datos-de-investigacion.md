@@ -20,6 +20,7 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/55
 layout: lesson
 difficulty: 1
+original: preserving-your-research-data
 redirect_from: /es/lessons/preserving-your-research-data
 activity: sustaining
 topics: [data-management]

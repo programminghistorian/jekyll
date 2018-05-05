@@ -20,6 +20,7 @@ translation-reviewer:
 - Antonio Jesús Sánchez Padial
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/62
+original: intro-to-bash
 redirect_from: /es/lessons/intro-to-bash
 layout: lesson
 difficulty: 1

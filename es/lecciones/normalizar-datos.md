@@ -22,6 +22,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/46
 layout: lesson
 next: contar-frecuencias
 previous: de-html-a-lista-de-palabras-2
+original: normalizing-data
 redirect_from: /es/lessons/normalizing-data
 python_warning: true
 difficulty: 2

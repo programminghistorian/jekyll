@@ -22,6 +22,7 @@ difficulty: 1
 activity: sustaining
 topics: [data-management]
 abstract: "En esta lección aprenderás lo básico del control de versiones, comprenderás por qué es útil e implementarás el control básico de versiones en un documento de texto plano utilizando git y GitHub."
+original: getting-started-with-github-desktop
 redirect_from: /es/lessons/getting-started-with-github-desktop
 ---
 

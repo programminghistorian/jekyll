@@ -1,6 +1,7 @@
 ---
 title: Equipo de proyecto
 layout: blank
+original: project-team
 ---
 
 Por favor, dirige tu correspondencia, en primer lugar a:

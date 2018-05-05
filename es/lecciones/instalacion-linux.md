@@ -20,6 +20,7 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/38
 layout: lesson
+original: linux-installation
 redirect_from: /es/lessons/linux-installation
 difficulty: 1
 activity: transforming

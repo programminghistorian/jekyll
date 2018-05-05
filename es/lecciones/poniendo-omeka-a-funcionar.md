@@ -17,6 +17,7 @@ translation-reviewer:
 - Alicia Calvo
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/61
 layout: lesson
+original: up-and-running-with-omeka
 redirect_from: /es/lessons/up-and-running-with-omeka
 difficulty: 1
 activity: presenting

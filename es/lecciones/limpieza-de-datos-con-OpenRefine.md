@@ -20,6 +20,7 @@ translation-reviewer:
 - Luisina Silva
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/73
 layout: lesson
+original: cleaning-data-with-openrefine
 redirect_from: /es/lessons/cleaning-data-with-openrefine
 difficulty: 2
 activity: transforming

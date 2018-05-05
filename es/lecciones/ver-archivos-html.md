@@ -22,6 +22,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/39
 layout: lesson
 next: trabajar-con-archivos-de-texto
 previous: introduccion-e-instalacion
+original: viewing-html-files
 redirect_from: /es/lessons/viewing-html-files
 difficulty: 2
 activity: presenting

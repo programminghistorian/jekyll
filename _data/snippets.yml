@@ -1,3 +1,7 @@
+language-list:
+  - en
+  - es
+
 # top nav bar
 menu-home:
   en: /
@@ -86,13 +90,19 @@ menu-blog:
     title: Blog
     link: /blog
 menu-lang:
-  en:
-    title: '[español]'
-    link: /es
   es:
+    title: '[es]'
+    link: /es
+  en:
     title: '[en]'
     link: /
-
+menu-translation-concordance:
+  es:
+    title: Concordancia de traducción
+    link: /translation-concordance
+  en:
+    title: Translation Concordance
+    link: /translation-concordance
 # site footer
 footer:
   license:
@@ -276,6 +286,19 @@ language-name:
 translation-source:
   en: This lesson was originally published in
   es: Esta lección fue publicada originalmente en
+
 peer-review:
   en: Peer-reviewed
   es: Revisado por pares
+
+# Author Info
+about-the:
+  en: About the
+  es: Acerca
+the-authors:
+  singular:
+    en: author
+    es: del autor
+  plural:
+    en: authors
+    es: de los autores

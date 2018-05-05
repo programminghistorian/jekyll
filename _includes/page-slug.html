@@ -1,0 +1,12 @@
+{% comment %}
+
+Calculates canonical page slug used for referencing subdirectories in the /assets/images and /gallery directories. If the page is translated, then the canonical slug belongs to the original lesson; if not, then the canonical slug is taken from the page url alone.
+
+{% endcomment %}
+
+{% assign slug = page.url | split: "/" | last | remove_first: ".html" %}
+{% if page.original %}
+  {% assign canonical_slug = page.original %}
+{% else %}
+  {% assign canonical_slug = slug %}
+{% endif %}

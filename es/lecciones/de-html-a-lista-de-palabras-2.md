@@ -21,6 +21,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/45
 layout: lesson
 next: normalizar-datos
 previous: de-html-a-lista-de-palabras-1
+original: from-html-to-list-of-words-2
 redirect_from: /es/lessons/from-html-to-list-of-words-2
 python_warning: true
 difficulty: 2

@@ -21,6 +21,7 @@ translation-reviewer:
 - Juan Antonio Pastor Sánchez
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/67
 layout: lesson
+original: graph-databases-and-SPARQL
 redirect_from: /es/lessons/graph-databases-and-SPARQL
 difficulty: 2
 activity: acquiring

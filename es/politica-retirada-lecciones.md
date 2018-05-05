@@ -1,6 +1,7 @@
 ---
 title: Política de retirada de lecciones
 layout: blank
+original: lesson-retirement-policy
 ---
 
 # Política de retirada de lecciones

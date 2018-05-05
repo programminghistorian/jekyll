@@ -20,6 +20,7 @@ translation-reviewer:
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/37
 layout: lesson
+original: windows-installation
 redirect_from: /es/lessons/windows-installation
 difficulty: 1
 activity: transforming

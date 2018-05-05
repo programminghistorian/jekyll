@@ -21,6 +21,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/50
 layout: lesson
 next: salida-palabras-clave-contexto-ngrams
 previous: salida-de-datos-como-archivo-html
+original: keywords-in-context-using-n-grams
 redirect_from: /es/lessons/keywords-in-context-using-n-grams
 python_warning: true
 difficulty: 2
