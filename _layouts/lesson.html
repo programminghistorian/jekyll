@@ -39,9 +39,10 @@ layout: base
           <p>{{ page.abstract }}</p>
         </div>
 
-        {% if page.review-ticket %}
+        {% if page.reviewers %}
         <div class="peer-review">
-          <a href="{{ page.review-ticket }}">Peer-reviewed</a>
+          {% if page.review-ticket %}
+          <a href="{{ page.review-ticket }}">{% endif %}<i class="fas fa-user-check"></i> Peer-reviewed{% if page.review-ticket %}</a>{% endif %}
         </div>
         {% endif %}
 
