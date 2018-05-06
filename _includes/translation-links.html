@@ -11,4 +11,10 @@ Attached to all pages, this include will check two things:
 {% assign translation_candidates = site.pages | where_exp: "item", "item.original contains slug" | where_exp: "item", "item.url != page.url" %}
 
 {% assign target_slug = page.original %}
-{% assign translation_source = site.pages | where_exp: "item", "item.url contains target_slug" | where_exp: "item", "item.url != page.url" | where_exp: "item", "item.name != 'redirect.html'" %}
+{% assign translation_sources = site.pages | where_exp: "item", "item.url contains target_slug" | where_exp: "item", "item.url != page.url" | where_exp: "item", "item.name != 'redirect.html'" %}
+{% for s in translation_sources %}
+  {% assign last_component = s.url | split: "/" | last %}
+  {% if last_component == target_slug %}
+    {% assign translation_source = s %}
+  {% endif %}
+{% endfor %}
