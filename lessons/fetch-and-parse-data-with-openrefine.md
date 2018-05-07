@@ -45,7 +45,7 @@ David Huynh, the creator of Freebase Gridworks (2009) which became GoogleRefine 
 - more provisional / exploratory / experimental / playful than a database [^huynh]
 
 Refine is a unique tool that combines the power of databases and scripting languages into an interactive and user friendly visual interface. 
-Because of this flexibility it has been embraced by [journalists](https://www.propublica.org/nerds/item/using-google-refine-for-data-cleaning), [librarians](http://data-lessons.github.io/library-openrefine/), [scientists](http://www.datacarpentry.org/OpenRefine-ecology-lesson/), and others needing to wrangle data from diverse sources and formats into structured information.
+Because of this flexibility it has been embraced by [journalists](https://www.propublica.org/nerds/item/using-google-refine-for-data-cleaning), [librarians](http://web.archive.org/web/20180129051941/http://data-lessons.github.io/library-openrefine/), [scientists](http://www.datacarpentry.org/OpenRefine-ecology-lesson/), and others needing to wrangle data from diverse sources and formats into structured information.
 
 {% include figure.html filename="openrefine.png" caption="OpenRefine terminal and GUI" %}
 

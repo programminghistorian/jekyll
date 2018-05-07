@@ -50,10 +50,8 @@
 
         {% for lang in other_languages %}
 
-        {% assign language_is_source = translation_source | where_exp: "item", "item.lang == lang" | first %}
-
-        {% if language_is_source %}
-          {% assign alternate_target = language_is_source %}
+        {% if translation_source.lang == lang %}
+          {% assign alternate_target = translation_source %}
         {% else %}
 
         {% assign alternate_target = translation_candidates | where_exp: "item", "item.lang == lang" | first %}

@@ -137,7 +137,7 @@ layout: base
       </div>
     {% endfor %}
 
-    {% assign selected_translation_source = translation_source | first %}
+    {% assign selected_translation_source = translation_source %}
     {% if selected_translation_source %}
       <!-- If this lesson is translated, banner pointing to the original language source of this lesson -->
       <div class="alert alert-warning">
