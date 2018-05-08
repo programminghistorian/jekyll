@@ -24,7 +24,8 @@
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 			</item>
 		{% endfor %}
-        {% for page in site.pages limit:10 %}
+				{% assign pages = site.pages | sort: 'date '%}
+        {% for page in pages limit:10 %}
           {% if page.layout == 'lesson' %}
 			<item>
 				<title>{{ page.title }}</title>
