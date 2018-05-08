@@ -143,7 +143,7 @@ You can quickly check that everything looks correct on a lesson submission by lo
 
 If that doesn't work, let Matthew Lincoln know, and he will try to diagnose it.
 
-### C) Sustainability Review
+### C) Sustainability & Internationalization Review
 To increase the lifespan of our lessons, _Programming Historian_ editors should complete a sustainability review as a part of their final checklist. Every submission is different and some of these areas may not be applicable to all submissions. Keeping in mind the difficulty level of each lesson and its intended audience, editors should use these areas as guidelines to ensure that lessons are as sustainable as possible from the date of publication.
 
 - All software versions and dependencies are described in the introduction to the lesson
@@ -153,6 +153,14 @@ To increase the lifespan of our lessons, _Programming Historian_ editors should 
 - Screenshots of software GUIs are limited to those that are required to understand the lesson
 - External links (e.g. software or data sources) are current and live though authors should consider directing users to documentation generally rather than providing links to specific documentation pages
 - Links to articles use DOIs if available
+
+To help reach a global audience, authors have been advised to adhere to the following guidelines where possible:
+
+- When choosing your methods or tools, try to make choices with multi-lingual readers in mind. This is particularly important when working on textual analysis methods, or where users may reasonably want to have support for different character sets (eg, accented characters, non-Latin, etc).
+- When choosing primary sources, images, producing figures, or taking screen shots, consider how they will present themselves to a global audience.
+- When writing, avoid jokes, cultural references, puns, plays on words, idiomatic expressions, sarcasm, emojis, or language that is more difficult than it needs to be. Mentions of persons, organisations, or historical details should always come with contextual information. It may help to assume your reader does not live in your country or speak your language.
+- In code examples or metadata, use internationally recognised standard formats for dates and times ([ISO 8601:2004](https://www.iso.org/standard/40874.html)). In free text, be aware of cultural differences related to the representation of dates and times which might cause confusion.
+- Where possible, choose methods and tools that have multi-lingual documentation. If this is not practical, it would be great if you could add some multi-lingual references at the end of your tutorial.
 
 ### D) Verify Images
 
