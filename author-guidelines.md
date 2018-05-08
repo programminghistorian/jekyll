@@ -99,7 +99,7 @@ PH strives to publish lessons that will be of use to our readers for the foresee
 - Data sources for lessons should be hosted with the _Programming Historian_.
 
 
-## Write For a Global Audience
+### Write For a Global Audience
 
 Programming Historian readers live all around the world, and operate in a range of cultural contexts. To help reach that global audience, we have been publishing in more than one language since 2017, and aim to translate all tutorials. **While we recognise that not all methods or tools are fully internationally accessible**, authors can and should take steps to write their lesson in a way that is accessible to as many people as possible. **Please consider the following when writing your tutorial**:
 
