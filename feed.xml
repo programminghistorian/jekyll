@@ -24,9 +24,8 @@
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 			</item>
 		{% endfor %}
-				{% assign pages = site.pages | sort: 'date' %}
+				{% assign pages = site.pages | where:'layout','lesson'| sort:'date' | reverse %}
         {% for page in pages limit:10 %}
-          {% if page.layout == 'lesson' %}
 			<item>
 				<title>{{ page.title }}</title>
 				{% if page.abstract %}
@@ -38,7 +37,6 @@
 				<link>{{ site.url }}{{ page.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
 			</item>
-          {% endif %}
         {% endfor %}
 	</channel>
 </rss>
