@@ -25,7 +25,7 @@
 			</item>
 		{% endfor %}
         {% for page in site.pages %}
-          {% if page.layout == 'lesson' %}
+          {% if page.layout == 'lesson' limit:10 %}
 			<item>
 				<title>{{ page.title }}</title>
 				{% if page.abstract %}
