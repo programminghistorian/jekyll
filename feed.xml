@@ -5,7 +5,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>{{ site.name | xml_escape }}</title>
-		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
+		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
 		<link>{{ site.url }}</link>
 		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.posts limit:10 %}
@@ -13,7 +13,7 @@
 				<title>{{ post.title | xml_escape }}</title>
 				{% if post.author.name %}
 					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
-				{% endif %}        
+				{% endif %}
 				{% if post.excerpt %}
 					<description>{{ post.excerpt | xml_escape }}</description>
 				{% else %}
@@ -25,7 +25,7 @@
 			</item>
 		{% endfor %}
         {% for page in site.pages %}
-          {% if page.layout == 'default' %}
+          {% if page.layout == 'lesson' %}
 			<item>
 				<title>{{ page.title }}</title>
 				{% if page.abstract %}
