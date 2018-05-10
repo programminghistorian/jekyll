@@ -159,7 +159,7 @@ Puedes comprobar con facilidad si todo es correcto accediendo a la visualizació
 
 Si la visualización no funciona, hazlo saber a Víctor Gayo (en español), quien trabajará con Matthew Lincoln para diagnosticarlo. Si lo haces en inglés, dirígete directamente con Matthew Lincoln.
 
-### C) Revisar la sostenibilidad
+### C) Revisar la sostenibilidad y internacionalización
 
 Para aumentar la vida útil de nuestras lecciones, los editores de *The Programming Historian* deben completar una revisión de sostenibilidad como parte de su lista de verificación final. Cada propuesta es diferente, así que es posible que algunas de estas recomendaciones no sean aplicables. Teniendo en cuenta el nivel de dificultad de cada lección y su público objetivo, los editores deben utilizar estas recomendaciones para asegurarse de que las lecciones son lo más sostenibles posibles desde la fecha de publicación.
 
@@ -170,6 +170,16 @@ Para aumentar la vida útil de nuestras lecciones, los editores de *The Programm
 - Las capturas de pantalla de las interfaces de usuario del programa se limitan a las necesarias para comprender la lección.
 - Los enlaces externos (por ejemplo, programa o conjunto de datos) están actualizados, aunque los autores deberían dirigir a los usuarios a la documentación en general, en lugar de proporcionar enlaces a páginas de documentación específicas.
 - Los enlaces a artículos son DOIs (si es posible).
+
+Para ayudar a llegar a un público global, se ha aconsejado a los autores que cumplan las siguientes pautas siempre que sea posible:
+
+
+* Al elegir tus métodos o herramientas, toma tus decisiones con una audiencia multilingüe en mente. Esto es particularmente importante cuando se trabaja en métodos de análisis textual, o cuando los usuarios quieran tener soporte para diferentes conjuntos de caracteres de forma razonable (por ejemplo, caracteres acentuados, no latinos, etc.).
+* Al elegir tus fuentes primarias e imágenes, al crear figuras o al hacer capturas de pantalla, considera cómo se presentarán a una audiencia global.
+* Al escribir evita usar chistes, referencias culturales, juegos de palabras, expresiones idiomáticas, el sarcasmo, emojis o un lenguaje innecesariamente complicado. Las menciones a personas, a organizaciones o a eventos históricos siempre deben ir acompañadas de información contextual. Te puede resultar útil pensar que tu audiencia no vive en tu país o que no habla tu mismo idioma.
+* En tus ejemplos de código o metadatos, utiliza los formatos estándar internacionalmente reconocidos para fechas y horas ([ISO 8601: 2004](https://www.iso.org/standard/40874.html)). En tu texto, ten en cuenta las diferencias culturales relacionadas con la presentación de fechas y horas que puedan causar confusión.
+8 Cuando sea posible escoge métodos y herrramientas que tengan documentación multilingüe. Si esto no es posible, trata de agregar algunas referencias multilingües al final de tu tutorial.
+
 
 ### D) Comprobar que las imágenes sean correctas
 
