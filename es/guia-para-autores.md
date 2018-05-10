@@ -140,6 +140,18 @@ En *The Programming Historian* queremos que las lecciones puedan utilizarse a la
 - Revisa los enlaces externos para asegurarte de que funcionan y están actualizados.
 - Las fuentes y conjuntos de datos necesarios para llevar a cabo una lección deben hospedarse en nuestra web.
 
+### Escribir para una audiencia global
+
+Los lectores de Programming Historian viven por todo el mundo y, como tal, trabajan en un amplio rango de contextos culturales. Para poder alcanzar a dicha audiencia global, hemos estado publicando en más de un idioma desde 2017 y nuestro objetivo es traducir todos los tutoriales. Aunque reconocemos que no todos los métodos o herramientas son totalmente accesibles a nivel internacional, los autores pueden y deben tomar medidas para escribir sus lecciones de manera que sea accessible al mayor número de personas posible. Por favor, considera lo siguiente al escribir tu tutorial:
+
+* Al elegir tus métodos o herramientas, toma tus decisiones con una audiencia multilingüe en mente. Esto es particularmente importante cuando se trabaja en métodos de análisis textual, o cuando los usuarios quieran tener soporte para diferentes conjuntos de caracteres de forma razonable (por ejemplo, caracteres acentuados, no latinos, etc.).
+* Al elegir tus fuentes primarias e imágenes, al crear figuras o al hacer capturas de pantalla, considera cómo se presentarán a una audiencia global.
+* Al escribir evita usar chistes, referencias culturales, juegos de palabras, expresiones idiomáticas, el sarcasmo, emojis o un lenguaje innecesariamente complicado. Las menciones a personas, a organizaciones o a eventos históricos siempre deben ir acompañadas de información contextual. Te puede resultar útil pensar que tu audiencia no vive en tu país o que no habla tu mismo idioma.
+* En tus ejemplos de código o metadatos, utiliza los formatos estándar internacionalmente reconocidos para fechas y horas ([ISO 8601: 2004](https://www.iso.org/standard/40874.html)). En tu texto, ten en cuenta las diferencias culturales relacionadas con la presentación de fechas y horas que puedan causar confusión.
+* Cuando sea posible escoge métodos y herrramientas que tengan documentación multilingüe. Si esto no es posible, trata de agregar algunas referencias multilingües al final de tu tutorial.
+
+Contacta con tu editor si necesitas orientación sobre alguno de estos asuntos. Puede que no podamos traducir tu tutorial si no cumple con estas pautas, pero aún así lo consideraremos para su publicación monolingüe.
+
 ### Utiliza encabezados en cada sección
 
 Recomendamos el uso consistente de encabezados para que las lecciones sean fáciles de leer. A medida que traduces o escribes una lección, los niveles conformados por las secciones te ayudarán a visualizar la estructura de la lección. Por favor, evita secciones largas sin encabezados (son necesarios para facilitar la lectura); los encabezados no se generan mediante **negrita** o *cursiva* sino con la anotación Markdow oportuna. A menos que la lección sea muy breve, tu estructura precisará de tres niveles como mínimo.
