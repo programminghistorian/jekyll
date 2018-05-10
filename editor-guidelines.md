@@ -162,6 +162,8 @@ To help reach a global audience, authors have been advised to adhere to the foll
 - In code examples or metadata, use internationally recognised standard formats for dates and times ([ISO 8601:2004](https://www.iso.org/standard/40874.html)). In free text, be aware of cultural differences related to the representation of dates and times which might cause confusion.
 - Where possible, choose methods and tools that have multi-lingual documentation. If this is not practical, it would be great if you could add some multi-lingual references at the end of your tutorial.
 
+Editors should work closely with authors to ensure that these criteria are met. Where this is not possible, justifications for not meeting them should be clearly and transparently outlined in the relevant review ticket
+
 ### D) Verify Images
 
 All images should use consistent, semantically meaningful filenames that clearly indicate what they are. If a lesson has a large number of images in rapid succession, and the order is important (for example, a series of screenshots), it may be advisable to use a sequential naming system---ideally using the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, `counting-frequencies-1.png`, `counting-frequencies-2.png`, and so on.)
