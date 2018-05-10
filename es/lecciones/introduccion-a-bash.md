@@ -1,11 +1,11 @@
 ---
 title: Introducción a la línea de comandos en Bash
-authors: 
+authors:
 - Ian Milligan
 - James Baker
 date: 2014-09-20
-translation_date: 2017-29-07
-editors: 
+translation_date: 2017-07-29
+editors:
 - Adam Crymble
 reviewers:
 - M. H. Beals
@@ -65,7 +65,7 @@ Cuando lo ejecutes verás esto en la ventana:
 Quizá quieras cambiar la apariencia que por defecto tiene la terminal para no esforzarte de más al mirar continuamente texto negro sobre fondo blanco. En la aplicación por defecto de OS X puedes abrir el menú 'Perfiles' en 'Preferencias', bajo 'Terminal'. Haz clic en la pestaña 'Perfiles' y cámbialo por un nuevo esquema de color. Personalmente preferimos algo con menor contraste entre el fondo y el primer plano, pues lo estarás viendo durante mucho tiempo. 'Novel' es uno muy relajante ya que es la paleta de colores de la popular *suite* [Solarized](http://ethanschoonover.com/solarized). Los usuarios de Windows pueden obtener un efecto similar utilizando la pestaña 'Properties' de Git bash. Para llegar a ella, haz click con el botón derecho en cualquier lugar de la barra superior y seleciona 'Properties'.
 
 {% include figure.html filename="Settings.png" caption="Pantalla de configutación en Terminal de OS X" %}
- 
+
 Una vez satisfecho con la apariencia de la interfaz, ya estás listo para comenzar.
 
 ## Navegando por el sistema de archivos de tu computadora
@@ -130,7 +130,7 @@ Afortunadamente hay otra bandera:
 
 Cuando quieres utilizar dos banderas puedes simplemente ejecutarlas juntas. Así, al escribir
 
-`ls -lh` 
+`ls -lh`
 
 obtendrás una salida en un formato legible para seres humanos; aprenderás que 6020 bits son también 5.9KB, que otro archivo tiene 1 megabite y así sucesivamente.
 
@@ -196,7 +196,7 @@ Ahora necesitas encontrar un archivo de texto básico para que nos ayude con el 
 
 `wget  http://www.gutenberg.org/files/2600/2600-0.txt`
 
-Si no lo has instalado, descarga el texto utilizando tu navegador. Ve al enlace anterior y, desde tu navegador, usa el comando 'Guardar como' del menú 'Archivo'. Guárdalo en tu nuevo directorio `ProgHist-Textos`. Ahora, cuando escribas 
+Si no lo has instalado, descarga el texto utilizando tu navegador. Ve al enlace anterior y, desde tu navegador, usa el comando 'Guardar como' del menú 'Archivo'. Guárdalo en tu nuevo directorio `ProgHist-Textos`. Ahora, cuando escribas
 
 `ls -lh`
 
@@ -276,7 +276,7 @@ El uso de Vim para leer archivos es relativamente simple. Puedes usar las teclas
 
 `Ctrl+F` (esto es, mantén oprimida la tecla 'Control' y presiona a la vez la tecla 'F'), te moverá una página adelante (en Windows: `Shift+FlechaArriba`).
 
-`Ctrl+B` te moverá una página arriba. (`Shift+FlechaAbajo` para usuarios de Windows). 
+`Ctrl+B` te moverá una página arriba. (`Shift+FlechaAbajo` para usuarios de Windows).
 
 Si te quieres desplazar rápidamente al final de una línea, puedes oprimir `$` y para moverte al inicio: `0`. También puedes moverte entre frases escribiendo `)` (hacia adelante) o `(` (atrás). Para párrafos, utiliza `}` y `{`. Dado que estás haciendo todo con el teclado, en vez de tener que mantener pulsada la tecla de flecha para moverte por el documento, esto te permite pasar volando hacia atrás y adelante.
 
