@@ -32,7 +32,7 @@ Funding & Ownership
 
 The project is grateful for the following support:
 
-* Seed funding and project management support from the Network in Canadian History & Environment (NiCHE) [2011-2013].
+* Seed funding and project management support from the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) [2011-2013].
 * Ongoing hosting support from the Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)) [2011-Present].
 * Funding for a writing workshop in Bogota, Colombia, supported by the [British Academy](https://www.britac.ac.uk/) [2018].
 
