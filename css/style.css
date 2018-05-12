@@ -192,7 +192,8 @@ Lesson Headers
   }
 
   header .peer-review, header .open-license {
-    font-size:0.9rem;
+    font-size: 0.9rem;
+    color: #666;
     margin: 0;
   }
 
