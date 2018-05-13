@@ -15,7 +15,7 @@ editors:
 difficulty: 2
 activity: presenting
 topics: [api, data-management]
-review-ticket:  106
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/106
 abstract: |
   Learn how to set up a basic Application Programming Interface (API) to make your data more accessible to users. This lesson also discusses principles of API design and the benefits of APIs for digital projects.
 ---

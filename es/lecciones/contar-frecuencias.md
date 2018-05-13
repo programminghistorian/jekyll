@@ -17,6 +17,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/47
 layout: lesson
 next: crear-y-ver-archivos-html-con-python
 previous: normalizar-datos

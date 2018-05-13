@@ -10,6 +10,8 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 2
+exclude_from_check:
+  - review-ticket
 activity: transforming
 topics: [python]
 abstract: "In this two-part lesson, we will build on what you’ve learned about Downloading Web Pages with Python, learning how to remove the HTML markup from the webpage of Benjamin Bowsey’s 1780 criminal trial transcript. We will achieve this by using a variety of string operators, string methods, and close reading skills. We introduce looping and branching so that programs can repeat tasks and test for certain conditions, making it possible to separate the content from the HTML tags. Finally, we convert content from a long string to a list of words that can later be sorted,

@@ -10,6 +10,8 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 2
+exclude_from_check:
+  - review-ticket
 activity: transforming
 topics: [python, website]
 abstract: "This lesson takes the frequency pairs created in the 'Counting

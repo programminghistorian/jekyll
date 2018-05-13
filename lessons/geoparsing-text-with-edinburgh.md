@@ -12,7 +12,7 @@ reviewers:
 editors:
 - Ian Milligan
 difficulty: 3
-review-ticket: 26
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/26
 activity: presenting
 topics: [mapping]
 abstract: "This tutorial teaches users how to use the Edinburgh Geoparser to process a piece of English-language text, extract and resolve the locations contained within it, and plot them as a web map."

@@ -10,6 +10,8 @@ reviewers:
 editors:
 - Fred Gibbs
 difficulty: 2
+exclude_from_check:
+  - review-ticket
 activity: acquiring
 topics: [data-manipulation]
 abstract: "This lesson will teach you how to use Python to extract a set of keywords very quickly and systematically from a set of texts."

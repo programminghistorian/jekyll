@@ -6,9 +6,10 @@ authors:
 - Miriam Posner
 editors:
 - Adam Crymble
+difficulty: 1
 exclude_from_check:
   - reviewers
-difficulty: 1
+  - review-ticket
 activity: presenting
 topics: [website]
 abstract: "Omeka.net makes it easy to create websites that show off collections of items."

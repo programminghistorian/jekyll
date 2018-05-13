@@ -10,7 +10,7 @@ reviewers:
 editors:
 - Jeri Wieringa
 difficulty: 2
-review-ticket: 69
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/69
 activity: acquiring
 topics: [data-manipulation, web-scraping, api]
 abstract: "OpenRefine is a powerful tool for exploring, cleaning, and transforming data. In this lesson you will learn how to use Refine to fetch URLs and parse web content."

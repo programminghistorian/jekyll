@@ -16,6 +16,7 @@ translation-editor:
 translation-reviewer:
 - Jairo A. Melo
 - Víctor Gayol
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/134
 layout: lesson
 original: editing-audio-with-audacity
 redirect_from: /es/lessons/editing-audio-with-audacity

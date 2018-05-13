@@ -11,6 +11,8 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 1
+exclude_from_check:
+  - review-ticket
 activity: transforming
 topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running the Windows operating system."

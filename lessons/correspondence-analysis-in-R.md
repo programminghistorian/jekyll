@@ -11,6 +11,7 @@ editors:
   - Matthew Lincoln
 layout: lesson
 difficulty: 3
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/78
 activity: analyzing
 topics: [data-manipulation, network-analysis]
 abstract: |

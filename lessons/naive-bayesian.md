@@ -9,6 +9,8 @@ reviewers:
 editors:
 - William J. Turkel
 difficulty: 3
+exclude_from_check:
+  - review-ticket
 activity: analyzing
 topics: [distant-reading]
 abstract: "This lesson shows how to use machine learning to extract interesting documents out of a digital archive."

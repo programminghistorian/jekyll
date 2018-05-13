@@ -9,6 +9,8 @@ reviewers:
 editors:
 - Fred Gibbs
 difficulty: 3
+exclude_from_check:
+  - review-ticket
 activity: transforming
 topics: [data-manipulation]
 abstract: "This tutorial illustrates strategies for taking raw OCR output from a scanned text, parsing it to isolate and correct essential elements of metadata, and generating an ordered data set (a python dictionary) from it."

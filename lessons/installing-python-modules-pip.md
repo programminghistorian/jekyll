@@ -12,7 +12,8 @@ activity: acquiring
 topics: [get-ready, python]
 abstract: "There are many ways to install external python libraries; this tutorial explains one of the most common methods using pip."
 exclude_from_check:
-- editors
+  - editors
+  - review-ticket
 ---
 
 {% include toc.html %}

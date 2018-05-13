@@ -13,7 +13,7 @@ difficulty: 1
 activity: transforming
 topics: [data-manipulation]
 abstract: "In this lesson you will learn how to use Audacity to load, record, edit, mix, and export audio files."
-review-ticket: 15
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/15
 ---
 
 {% include toc.html %}

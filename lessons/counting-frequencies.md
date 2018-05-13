@@ -10,6 +10,8 @@ reviewers:
 editors:
 - Miriam Posner
 difficulty: 2
+exclude_from_check:
+  - review-ticket
 activity: analyzing
 topics: [python]
 abstract: "Counting the frequency of specific words in a list can provide illustrative data. This lesson will teach you Python's easy way to count such frequencies."

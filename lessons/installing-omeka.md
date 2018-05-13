@@ -9,6 +9,7 @@ reviewers:
 editors:
 - Fred Gibbs
 difficulty: 2
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/6
 activity: presenting
 topics: [website]
 abstract: "This lesson will teach you how to install your own copy of Omeka."

@@ -28,7 +28,7 @@ module MyModule
       valid_difficulties = [1, 2, 3]
 
       # Fields required on ALL lessons
-      required_fields = ["layout", "reviewers", "authors", "date", "title", "difficulty", "activity", "topics", "abstract", "editors"] 
+      required_fields = ["layout", "reviewers", "authors", "date", "title", "difficulty", "activity", "topics", "abstract", "editors", "review-ticket"] 
 
       # Fields required only on es lessons
       es_required_fields = ["translator", "translation-reviewer", "original", "translation_date", "translation-editor"]

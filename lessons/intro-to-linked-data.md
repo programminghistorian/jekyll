@@ -10,7 +10,7 @@ editors:
 date: 2017-05-07
 layout: lesson
 difficulty: 1
-review-ticket: 33
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/33
 activity: acquiring
 topics: [lod]
 abstract: |

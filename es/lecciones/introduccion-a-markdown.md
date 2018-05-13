@@ -17,6 +17,7 @@ translation-editor:
 translation-reviewer:
 - Juan Cobo
 - Maria José Afanador-Llach
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/56
 difficulty: 1
 activity: presenting
 layout: lesson

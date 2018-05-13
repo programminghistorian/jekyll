@@ -13,7 +13,7 @@ difficulty: 1
 activity: transforming
 topics: [data-manipulation, get-ready]
 abstract: "This tutorial will introduce you to the basics of Windows PowerShell, the standard command-line interface for Windows computers."
-review-ticket: 18
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/18
 ---
 
 {% include toc.html %}

@@ -17,6 +17,7 @@ translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/50
 layout: lesson
 next: salida-palabras-clave-contexto-ngrams
 previous: salida-de-datos-como-archivo-html

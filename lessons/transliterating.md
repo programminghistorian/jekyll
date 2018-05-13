@@ -11,6 +11,8 @@ reviewers:
 editors:
 - Adam Crymble
 difficulty: 2
+exclude_from_check:
+  - review-ticket
 activity: transforming
 topics: [data-manipulation]
 abstract: "This lesson shows how to use Python to transliterate automatically a
