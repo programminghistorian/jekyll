@@ -18,9 +18,9 @@ Si quieres traducir una lección, tienes una idea para una lección nueva o ya h
 
 **¿Qué lecciones traducir?** Si quieres traducir una lección, por favor, revisa la lista de [traducciones pendientes] y ponte en contacto con nosotros. Buscamos traducciones rigurosas, de lectura amena y que, además, tengan en cuenta el contexto de España y América Latina y los recursos disponibles en lengua española.
 
-**¿Qué tipo de lección queremos?** *The Programming Historian en español* no tiene un modelo de lección estándar. Recibimos lecciones sobre cualquier tema siempre y cuando ayuden a los humanistas (usualmente historiadores, pero no siempre) en cualquier fase del proceso de investigación y publicación. Aceptamos lecciones dirigidas a todos los públicos, desde las que requieren habilidades y experencia avanzadas, hasta las que tienen naturaleza introductoria para principiantes. Las lecciones pueden tener una extensión breve y tratar de manera directa una tarea concreta; o bien, pueden ser lecciones largas que requieren un mayor número de explicaciones en detalle.
+**¿Qué tipo de lección queremos?** Aceptamos tutoriales relevantes para las humanidades, dirigidos a cualquier nivel de aptitud técnica y experiencia, que se centren en un problema o proceso, que puedan ser sostenibles a largo plazo y que estén dirigidos a una audiencia global. El alcance y la longitud del tutorial han de corresponderse con la complejidad de la tarea que se enseña. Los tutoriales no deben exceder las 8.000 palabras (incluyendo el código) sin el permiso explícito del editor y que se otorgará únicamente en circunstancias excepcionales. Esperamos que la mayoría de las lecciones tengan entre 4.000 y 6.000 palabras. Puede que pidamos dividir en varios tutoriales las lecciones más largas.
 
-**En resumen, aceptamos todo tipo de propuestas.** Para hacerte una idea de lo que buscamos, echa un vistazo a las [lecciones ya publicadas], lee nuestra [guía para revisores] o accede a las [lecciones en desarrollo]. Ten en cuenta que aceptamos lecciones sobre un tema ya cubierto o en desarrollo dado que cada propuesta supone una contribución única: creemos que cada uno aprende de manera distinta y por eso favorecemos cierto solapamiento.
+**En resumen, aceptamos todo tipo de propuestas.** Consulta nuestras [lecciones publicadas], lee nuestras [directrices para revisores] o explora las [lecciones actualmente en desarrollo] (https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons) para hacerte una mejor idea de lo que publicamos. Animamos al envío de propuestas de lecciones sobre temas ya cubiertos o en desarrollo, siempre que la lección nueva una contribución propia.
 
 A fin de que nuestras lecciones sean sostenibles a largo plazo, se anima a los autores a proponer tutoriales que no dependan de un programa o de una interfaz especfica. De lo contrario, los tutoriales dejarían de ser estables y necesitarían cambios con cada actualización. En aras de una mayor conservación, es mejor enseñar conceptos que a 'clicar sobre un botón X'. 
 
@@ -35,8 +35,7 @@ Tras la aprobación de tu propuesta, uno de nuestros editores creará un tíquet
 
 Esto implica que pidamos a los traductores y autores seguir una serie de requisitos, que no son meramente estilísticos, sino necesarios para publicar las lecciones. **Aunque estos requisitos técnicos puedan ser nuevos para ti, estamos aquí para ayudarte en todo momento y para que aprendas las tecnologías necesarias a medida que avanzas.**
 
-Por favor, ten en cuenta que no tenemos presupuesto para contratar a un corrector (ya que se trata de un proyecto basado en la colaboración de voluntarios). Por este motivo te agradeceremos que prestes atención a los detalles.
-
+Ten en cuenta que, como proyecto impulsado por voluntarios, esperamos atención al detalle.
 
 ## Utiliza un archivo de texto plano
 
