@@ -15,7 +15,7 @@ translation-editor:
 - Antonio Rojas Castro
 translation-reviewer:
 - Jennifer Isasi
-- 
+- Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/170
 layout: lesson
 redirect_from: /lessons/corpus-analysis-with-antconc
