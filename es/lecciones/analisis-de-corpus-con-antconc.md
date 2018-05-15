@@ -92,7 +92,7 @@ La construcción de corpus es un campo de estudio en sí mismo. Para más inform
 
 Al iniciarse, AntConc se verá como en la siguiente imagen:
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/antconc1.png" caption="Ventana principal de AntConc" %}
+{% include figure.html filename="antconc1.png" caption="Ventana principal de AntConc" %}
 
 En el costado izquierdo de la pantalla principal hay un cuadro que enlista todos los archivos cargados del corpus, el cual usaremos más adelante.
 
@@ -112,25 +112,25 @@ Dado su carácter introductorio, este tutorial solo brinda una mirada superficia
 
 Tal como sucede con cualquier otro programa informático, comenzaremos por ir a  “File” – “Open” (“Archivo” – Abrir); pero en lugar de abrir solo **un** archivo, haremos lo propio con la carpeta que contiene todos los documentos que constituyen el corpus. AntConc permite abrir directorios completos; en consecuencia, si ya tienes conocimiento y te sientes cómodo trabajando de esta manera, puedes abrir la carpeta “All reviews” ("Todas las reseñas") y pasar directamente a la sección de análisis de este tutorial [^4].
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/open-file-21.png" caption="Apertura de una carpeta." %}
+{% include figure.html filename="open-file-21.png" caption="Apertura de una carpeta." %}
 
 - Recuerda que guardamos los archivos en el escritorio; dirígete entonces a esa ubicación en el menú desplegable.
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/files-on-desktop-open.png" caption="Apertura de una carpeta localizada en el escritorio." %}
+{% include figure.html filename="files-on-desktop-open.png" caption="Apertura de una carpeta localizada en el escritorio." %}
 
 - Una vez en el escritorio, elige la carpeta “movie reviews from ntlk” ("reseñas cienmatográficas del ntlk"):
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/browse-for-directory-inside-folder.png" caption="Localización de la carpeta *movie reviews from nltk*" %}
+{% include figure.html filename="browse-for-directory-inside-folder.png" caption="Localización de la carpeta *movie reviews from nltk*" %}
 
 - Ahora, selecciona la carpeta “Negative reviews” ("Reseñas negativas") y haz clic en “OK”. Hecho esto, deberían cargarse 200 archivos de texto en la columna izquierda del programa —confírmalo mediante la casilla “Total No.”—.
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/open-negative-reviews.png" caption="Carga de la carpeta *Negative Reviews*." %}
+{% include figure.html filename="open-negative-reviews.png" caption="Carga de la carpeta *Negative Reviews*." %}
 
 - Repite el mismo proceso para cargar la carpeta "Positive Reviews" ("Reseñas positivas"). Con esto, deberías tener 400 textos en la columna "Corpus Files".
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/positive-reviews.png" caption="Carga de la carpeta *Positive Reviews*." %}
+{% include figure.html filename="positive-reviews.png" caption="Carga de la carpeta *Positive Reviews*." %}
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/all-reviews-loaded.png" caption="Conjunto completo de reseñas cargadas en el programa." %}
+{% include figure.html filename="all-reviews-loaded.png" caption="Conjunto completo de reseñas cargadas en el programa." %}
 
 ## Búsqueda de palabras clave en contexto
 
@@ -140,7 +140,7 @@ Una de las labores en las cuales se destacan las herramientas de análisis de co
 
 En la pestaña *Concordance*, escribe la palabra 'the' en el cuadro de búsqueda ubicado en la parte inferior y haz clic en “Start”. Acto seguido, el programa mostrará cada una de las apariciones de dicho término en el corpus de reseñas cinematográficas, así como el contexto en el que estas se presentan. Esto recibe el nombre de "visor de palabras clave en contexto" (*keywords in context viewer*).
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/the-thinking.png" caption="*The* es una palabra común en la lengua inglesa." %}
+{% include figure.html filename="the-thinking.png" caption="*The* es una palabra común en la lengua inglesa." %}
 
 La palabra buscada aparece 14.618 veces en el corpus según la casilla *Concordance Hits*, que se encuentra en la parte inferior de la pestaña.
 
@@ -152,7 +152,7 @@ Llegados a este punto, ya debes estar familiarizado con las líneas de texto que
 
 ¿Qué ves? Entendemos que esta puede ser una forma de identificar patrones difícil de intepretar. Intenta presionar el botón amarillo “Sort” (clasificar): ¿qué sucede al hacerlo?
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/sorting-shot-1l1r.png" caption="Palabras que aparecen junto a *shot*." %}
+{% include figure.html filename="sorting-shot-1l1r.png" caption="Palabras que aparecen junto a *shot*." %}
 
 Puedes ajustar la forma en que AntConc ordena la información encontrada si cambias los parámetros que en la imagen anterior aparecen encerrados en el círculo de color rojo: L corresponde a izquierda (*left*) y R a derecha (*right*); lo anterior puede extenderse hasta 5 posiciones en cualquier dirección. Los valores por defecto de la aplicación son 1 izquierda (1L), 2 derecha (2R), 3 derecha (3R); pero puedes alterarlos, por ejemplo, a 3 izquierda (3L), 2 izquierda (2L), 1 derecha (1R) (en aras de obtener frases o trigramas que finalicen con el término buscado) si haces clic en las flechas hacia arriba y abajo que se encuentran junto a los parámetros. Si no deseas realizar este tipo de clasificación, puedes omitirla (dejar los valores predeterminados 1L, 2R y 3R) o dejar todos los parámetros con el valor 0. Cabe la posibilidad de generar clasificaciones menos lineales, como 4L, 3R, 5R, que arrojarían como resultado mucha más información del contexto. El programa puede tardar un poco en mostrar este tipo de clasificaciones, por lo que sugerimos tener paciencia al efectuarlas. Si no estás seguro de cuáles serán los resultados arrojados por la búsqueda, haz clic en "Sort" para ver qué ocurre y efectúa los ajustes a los que haya lugar según tus necesidades.
 
@@ -166,7 +166,7 @@ El operador * (que sirve para buscar 0 o más caracteres) puede ayudar a encontr
 
 Para obtener una lista completa de los operadores comodín disponibles y su función, revisa "Global Settings" – "Wildcard Settings".
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/wildcard-settings.png" caption="Configuración de operadores de búsqueda." %}
+{% include figure.html filename="wildcard-settings.png" caption="Configuración de operadores de búsqueda." %}
 
 Para conocer la diferencia entre los operadores * y ?, busca _th*n_ y luego _th?n_. Estas dos búsquedas, que a simple vista parecieran muy similares, arrojan resultados distintos.
 
@@ -186,13 +186,13 @@ Una búsqueda de _m*n_, en cambio, no es útil porque se obtendrán resultados q
 
 > Sugerencia: durante la exploración en tu investigación, generarás muchos documentos como este para efectos de consulta. Es conveniente, por tanto, nombrar los archivos de tal manera que se describa lo que estos contienen (por ejemplo, “wom?n-results.txt” en lugar de “antconc-results.txt”).
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/save-output-as-text-file.png" caption="Opción *Save output as text file*." %}
+{% include figure.html filename="save-output-as-text-file.png" caption="Opción *Save output as text file*." %}
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/save-as.png" caption="Cuadro de diálogo *Save As*." %}
+{% include figure.html filename="save-as.png" caption="Cuadro de diálogo *Save As*." %}
 
 Con lo anterior, puedes abrir el archivo de texto plano generado por el programa en un editor de texto; es posible que debas ampliar la ventana de la aplicación para que este sea legible.
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/results.png" caption="Archivo de resultados de búsqueda KWIC exportado por Antconc, tal como se muestra en un editor de texto." %}
+{% include figure.html filename="results.png" caption="Archivo de resultados de búsqueda KWIC exportado por Antconc, tal como se muestra en un editor de texto." %}
 
 Realiza el proceso anterior con los resultados de las dos búsquedas y compara los archivos de texto generados. ¿Qué fenómenos puedes ver?
 
@@ -213,7 +213,7 @@ Buenas noticias: existe una manera de obtener esta información en AntConc; est�
 
 > Nota: solo recibirás este aviso cuando no hayas creado una lista de palabras.
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/wordlistwarning.png" caption="Mensaje de advertencia para indicar la necesidad de generar una lista de palabras." %}
+{% include figure.html filename="wordlistwarning.png" caption="Mensaje de advertencia para indicar la necesidad de generar una lista de palabras." %}
 
 Ahora, intenta generar la lista de colocaciones para el término 'she'.
 
@@ -243,7 +243,7 @@ Asegúrate de pensar cuidadosamente sobre las características que podría tener
 - Haz clic en el botón "Add Directory" y selecciona la carpeta que contiene los archivos del corpus de referencia.
 - Verifica que dispongas de la lista completa de archivos en el listado que se mostrará.
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/adding-a-reference-corpus.png" caption="Carga de un corpus de referencia." %}
+{% include figure.html filename="adding-a-reference-corpus.png" caption="Carga de un corpus de referencia." %}
 
 - Haz clic en el botón "Load" y espera que el programa cargue los archivos; una vez la casilla de verificación "Loaded" esté marcada, haz clic en "Apply".
 
@@ -257,7 +257,7 @@ Existe la posibilidad de intercambiar los roles del corpus de referencia y los a
 
 ¿Cuáles son nuestras palabras clave?
 
-{% include figure.html filename="/images/corpus-analysis-with-antconc/spielberg-vs-movie-reviews.png" caption="Spielberg *vs.* reseñas cinematográficas." %}
+{% include figure.html filename="spielberg-vs-movie-reviews.png" caption="Spielberg *vs.* reseñas cinematográficas." %}
 
 ## Discusión: hacer comparaciones significativas
 
