@@ -15,7 +15,7 @@ activity: acquiring
 topics: [lod]
 abstract: |
   Introduces core concepts of Linked Open Data, including URIs, ontologies, RDF formats, and a gentle intro to the graph query language SPARQL.
-  redirect_from: /lessons/intro-to-linked-data
+redirect_from: /lessons/intro-to-linked-data
 ---
 
 {% include toc.html %}

@@ -16,7 +16,7 @@ difficulty: 3
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/29
 abstract: |
   Explains how to use Python to summarize and visualize data on millions of texts from the HathiTrust Research Center's Extracted Features dataset.
-  redirect_from: /lessons/text-mining-with-extracted-features
+redirect_from: /lessons/text-mining-with-extracted-features
 ---
 
 {% include toc.html %}

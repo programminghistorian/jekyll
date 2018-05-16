@@ -375,7 +375,7 @@ Before you re-run your Python code, you'll have to update your `texts.txt` file 
 
 I'd challenge you to make a few refinements to your gazetteer before moving ahead, just to make sure you have the hang of it.
 
-Once you are happy with that, you can snag my [completed list of English and Welsh counties, shortforms, and various other cities (London, Bristol etc) and places (Jersey, Ireland, etc)](../assets/extracting-keywords-final-gazetteer.txt). My completed list contains 157 entries, and should get you all of the entries that can be extracted from the texts in this collection.
+Once you are happy with that, you can snag my [completed list of English and Welsh counties, shortforms, and various other cities (London, Bristol etc) and places (Jersey, Ireland, etc)](/assets/extracting-keywords-final-gazetteer.txt). My completed list contains 157 entries, and should get you all of the entries that can be extracted from the texts in this collection.
 
 At this point you could stop, as you've achieved what you set out to do. This lesson taught you how to use a short Python program to search a fairly large number of texts for a set of keywords defined by you.
 

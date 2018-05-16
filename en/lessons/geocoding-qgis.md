@@ -76,8 +76,8 @@ The tutorial will map the data extracted from [*Alumni Oxonienses*](http://www.b
 
 # The Data
 
-* [The_Dataset-Alum-Oxon-Jas1-Placenames.csv](../assets/The_Dataset-Alum-Oxon-Jas1-Placenames.csv)
-* [AlumniCounties.csv](../assets/AlumniCounties.csv)
+* [The_Dataset-Alum-Oxon-Jas1-Placenames.csv](/assets/The_Dataset-Alum-Oxon-Jas1-Placenames.csv)
+* [AlumniCounties.csv](/assets/AlumniCounties.csv)
 
 ## Part 1: Joining Tables and Maps
 

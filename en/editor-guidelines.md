@@ -336,7 +336,7 @@ We run these builds primarily to check that URLs that _once_ were functional are
 They are also an excellent way to catch small typos that may have evaded authors, editors, and reviewers.
 The status of these tests (often called a "Build Status" on Travis CI and on GitHub) can be seen by navigating to the [programminghistorian repository page][ph_repo], and clicking "Commits" on the upper left side of the code menu.
 
-![GitHub commit menu location](images/editor-guidelines/gh_commits_location_screen.png)
+![GitHub commit menu location](/images/editor-guidelines/gh_commits_location_screen.png)
 
 This will show you the list of every change made to the main repository, along with a status icon:
 

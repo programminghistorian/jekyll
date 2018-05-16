@@ -142,8 +142,8 @@ In this section I am going to talk about the process more generally for simple c
 This process assumes that you have an empty database.
 
 **If you want to follow along, you can download the example data files
-[nodes_companies.csv](../assets/dealing-with-big-data-and-network-analysis-using-neo4j/nodes_companies.csv) and
-[edges_director_duration.csv](../assets/dealing-with-big-data-and-network-analysis-using-neo4j/edges_director_duration.csv).
+[nodes_companies.csv](/assets/dealing-with-big-data-and-network-analysis-using-neo4j/nodes_companies.csv) and
+[edges_director_duration.csv](/assets/dealing-with-big-data-and-network-analysis-using-neo4j/edges_director_duration.csv).
 The canonical guide to loading data from CSV is on [the Neo4j website](https://neo4j.com/developer/guide-import-csv/).**
 
 Now that we have the example CSV files downloaded, we will use the **Cypher** query language to load them into our empty Neo4j database. 

@@ -275,7 +275,7 @@ Congratulations! You've published a lesson at *Programming Historian*!
   [Jessica Parr]: mailto:jparr1129@gmail.com
   [Lesson Pipeline wiki page]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
   [reviewer guidelines]: /reviewer-guidelines.html
-  [published lessons]: lessons
+  [published lessons]: /en/lessons
   [TextWrangler]: http://www.barebones.com/products/textwrangler/
   [Notepad++]: https://notepad-plus-plus.org/
   [project team]: /project-team.html

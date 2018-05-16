@@ -121,7 +121,7 @@ To begin work with the Scissors and Paste Database, visit its [Github repository
 
 {% include figure.html filename="transforming-xml-with-xsl-1.png" caption="Figure 1: Downloading Your Data" %}
 
-Alternatively, you can also download the scissors and paste file [here](../assets/scissorsandpaste-master.zip).
+Alternatively, you can also download the scissors and paste file [here](/assets/scissorsandpaste-master.zip).
 
 Open the ZIP file and you will find a folder entitled **scissorsandpaste-master**.  Extract this folder by either using the extract button of your unzipping programme or by dragging and dropping the folder onto your desktop.
 

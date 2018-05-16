@@ -21,6 +21,7 @@ retirement-reason: |
 redirect_from: 
   - /lessons/counting-frequencies-from-zotero-items
   - /lessons/deprecated/counting-frequencies-from-zotero-items
+  - /lessons/retired/counting-frequencies-from-zotero-items
 ---
 
 {% include toc.html %}
