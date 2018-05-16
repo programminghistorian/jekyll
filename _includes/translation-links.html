@@ -1,0 +1,20 @@
+{% comment %}
+Attached to all pages, this include will check two things:
+
+1. First, if there are any translations of this page elsewhere on the site. Those 0+ page objects are saved to the variable `translation_candidates` available when rendering the rest of the page.
+
+2. IF this page is known to be a translation of another page because its YAML contains an `original` tag, then the second section of this workflow searches across the site to find the 1 matching page that is the `translation_source`
+{% endcomment %}
+
+{% include page-slug.html %}
+
+{% assign translation_candidates = site.pages | where_exp: "item", "item.original == slug" | where_exp: "item", "item.url != page.url" %}
+
+{% assign target_slug = page.original %}
+{% assign translation_sources = site.pages | where_exp: "item", "item.url contains target_slug" | where_exp: "item", "item.url != page.url" | where_exp: "item", "item.name != 'redirect.html'" %}
+{% for s in translation_sources %}
+  {% assign last_component = s.url | split: "/" | last %}
+  {% if last_component == target_slug %}
+    {% assign translation_source = s %}
+  {% endif %}
+{% endfor %}

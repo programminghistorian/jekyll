@@ -1,10 +1,11 @@
 ---
 ---
+
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>{{ site.name | xml_escape }}</title>
-		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
+		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
 		<link>{{ site.url }}</link>
 		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.posts limit:10 %}
@@ -12,7 +13,7 @@
 				<title>{{ post.title | xml_escape }}</title>
 				{% if post.author.name %}
 					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
-				{% endif %}        
+				{% endif %}
 				{% if post.excerpt %}
 					<description>{{ post.excerpt | xml_escape }}</description>
 				{% else %}
@@ -23,5 +24,15 @@
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 			</item>
 		{% endfor %}
+
+				{% assign pages = site.pages | where:'layout','lesson'| where: 'lang', 'en' | sort:'date' | reverse %}
+				{% for page in pages limit:10 %}
+						{% include feed-item.html %}
+				{% endfor %}
+
+				{% assign pages = site.pages | where:'layout','lesson'|  where:'lang','es' | sort:'translation_date' | reverse %}
+				{% for page in pages limit:10 %}
+						{% include feed-item.html %}
+				{% endfor %}
 	</channel>
 </rss>

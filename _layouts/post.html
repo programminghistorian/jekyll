@@ -1,60 +1,17 @@
-<!DOCTYPE html>
-<html>
+---
+layout: blank
+---
 
-	{% include header.html %}
+{% comment %}
+  This is the standard template used by all blog posts.
+{% endcomment %}
 
-<body>
-
-  <header role="banner">
-    <h1><a href="{{ site.url }}">The Programming Historian</a></h1>
-
-	{% include menu.html %}
-
-  </header>
-
-  <div role="main">
-      <article>
-	     <header>
-			<p class="kicker">{{ page.date | date: "%B %-d, %Y" }}</p>
-			<h1>{{ page.title }}</h1>
-            <p class="byline">By
-            {% assign authorCount = page.authors | size %}
-				{% if authorCount == 1 %}
-				      {{ page.authors | first }}
-                {% else %}
-                      {% for author in page.authors %}
-                           {% if forloop.first %}
-                                 {{ author }}
-                           {% elsif forloop.last %}
-                                 and {{ author }}
-                           {% else %}
-						         , {{ author }}
-                           {% endif %}
-                      {% endfor %}
-                {% endif %}
-				</p>
-		 <header>
-
-      {{ content }}
-
-	        <div class="author-info">
-	   	        <p class="author-name">About the {% if authorCount == 1 %}author{% else %}authors{% endif %}</p>
-			    <div class="author-description"><p>
-                {% for author in page.authors %}
-                   {% for member in site.data.authors %}
-                   {% if author == member.name %}
-                       {{ member.bio }}&nbsp;
-                   {% endif %}
-                   {% endfor %}
-		        {% endfor %}</p>
-			    </div>
-	        </div>
-
-      </article>
-
+<div class="blog-header blog-page-header">
+  <h3 class="above-title">{{page.date | date: "%B %-d, %Y"}}</h3>
+  <h1>{{ page.title }}</h1>
+  <h2 class="author-name">{% include author.html %}</h3>
 </div>
 
-    {% include footer.html %}
+{{ content }}
 
-</body>
-</html>
+{% include author-info.html %}

@@ -1,16 +1,29 @@
 ---
 title: Counting and mining research data with Unix
+layout: lesson
+date: 2014-09-20
 authors: 
 - James Baker
 - Ian Milligan
 reviewers:
-- Melodee Beals
+- M. H. Beals
 - Allison Hegel
+editors:
 - Adam Crymble
-date: 2014-09-20
-layout: default
-prev: intro-to-bash
+difficulty: 2
+exclude_from_check:
+  - review-ticket
+activity: transforming
+topics: [data-manipulation]
+abstract: "This lesson will look at how research data, when organised in a clear and predictable manner, can be counted and mined using the Unix shell."
+previous: intro-to-bash
 ---
+
+{% include toc.html %}
+
+
+
+
 
 # Counting and mining research data with Unix
 
@@ -25,6 +38,7 @@ The Unix shell gives you access to a range of powerful commands that can transfo
 This lesson will also demonstrate that the options for manipulating, counting and mining data available to you will often depend on the amount of metadata, or descriptive text, contained in the filenames of the data you are using as much as the range of Unix commands you have learnt to use. Thus, even if it is not a prerequisite of working with the Unix shell, taking the time to structure your research data and filenaming conventions in a consistent and predictable manner is certainly a significant step towards getting the most out of Unix commands and being able to count and mine your research data. For the value of taking the time to make your data consistent and predictable beyond matters of preservation, see "[Preserving Your Research Data: Documenting and Structuring Data](../lessons/preserving-your-research-data)".
 
 _____
+
 ## Software and setup
 
 Windows users will need to install Git Bash. This can be installed by downloading the most recent installer at the [git for windows webpage](http://msysgit.github.io/). Instructions for installation are available at [Open Hatch](https://openhatch.org/missions/windows-setup/install-git-bash).
@@ -38,6 +52,7 @@ The files used in this lesson are available on "[Figshare](http://dx.doi.org/10.
 Download the required files, save them to your computer, and unzip them. If you do not have default software installed to interact with .zip files, we recommend [7-zip](http://www.7-zip.org/) for this purpose. On Windows, we recommend unzipping the folder provided to your c: drive so the files are at `c:\proghist\`. However, any location will work fine, but you may have to adjust your commands as you are following along with this lesson if you use a different location. On OS X or Linux, we similarly recommend unzipping them to your user directory, so that they appear at `/user/USERNAME/proghist/`. In both cases, this means that when you open up a new terminal window, you can just type `cd proghist` to move to the correct directory.
 
 _____
+
 ## Counting files
 
 You will begin this lesson by counting the contents of files using the Unix shell. The Unix shell can be used to quickly generate counts from across files, something that is tricky to achieve using the graphical user interfaces (GUI) of standard office suites.
@@ -72,7 +87,7 @@ With these three flags, the most obvious thing historians can use `wc` for is to
 
 Moreover, as our datasets increase in size you can use the Unix shell to do more than copy these line counts by hand, by the use of print screen, or by copy and paste methods. Using the `>` redirect operator you can export your query results to a new file. Type `wc -l 2014-01-31_JA_a*.tsv > results/2014-01-31_JA_a_wc.txt` and hit enter. This runs the same query as before, but rather than print the results within the Unix shell it saves the results as `2014-01-31_JA_a_wc.txt`. By prefacing this with `results/` it moves the .txt file to the `results` sub-directory. To check this, navigate to the `results` subdirectory, hit enter, type `ls`, and hit enter again to see this file listed within `c:\proghist\data\derived_data\results` on Windows or `/users/USERNAME/proghist/data/derived_data/results` on OS X/Linux.
 
-##Mining files
+## Mining files
 
 The Unix shell can do much more than count the words, characters, and lines within a file. The `grep` command (meaning 'global regular expression print') is used to search across multiple files for specific strings of characters. It is able to do so much faster than the graphical search interface offered by most operating systems or office suites. And combined with the `>` operator, the `grep` command becomes a powerful research tool can be used to mine your data for characteristics or word clusters that appear across multiple files and then export that data to a new file. The only limitations here are your imagination, the shape of your data, and - when working with thousands or millions of files - the processing power at your disposal.
 
@@ -103,7 +118,8 @@ Within the Unix shell you can now:
 - combine these commands and flags to build complex queries in a way that suggests the potential for using the Unix shell to count and mine your research data and research projects.
 
 _____
-####Conclusion
+
+#### Conclusion
 
 In this lesson you have learnt to undertake some basic file counting, to query across research data for common strings, and to save results and derived data. Though this lesson is restricted to using the Unix shell to count and mine tabulated data, the processes can be easily extended to free text. For this we recommend two guides written by William Turkel:
 

@@ -1,0 +1,74 @@
+# Definitions of editorial sub teams.
+# 
+# type: the tag added in ph_authors.yml
+# label: Short label to be displayed alongside the author bio, and in the roles definition list
+# definition: Brief description of that editorial team. If this is a derived label that uses the definition of another role, instead use...
+# source_role: The role type where the definition for this derived role can be found (e.g. pointing from an ES variant of a role to the original EN definition)
+
+- type: editorial
+  label:
+    en: Editorial Team (English)
+    es: Equipo editorial (Inglés)
+  definition:
+    en: Responsible for editorial work resulting in the review and publication of English-language lessons
+    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en inglés
+- type: community
+  label:
+    en: Community Engagement
+    es: Proyección hacia la comunidad
+  definition:
+    en: Responsible for project outreach and impact
+    es: Responsable de la proyección e impacto del proyecto
+- type: board
+  label:
+    en: Editorial Board
+    es: Consejo editorial
+  definition:
+    en: A fully-fledged member of the project team, involved in directing the project's future
+    es: Miembro de pleno derecho del equipo del proyecto, encargado de su dirección a futuro
+- type: ombuds
+  label:
+    en: Ombudsperson
+    es: Mediador
+  definition:
+    en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
+    es: Persona a la que los autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
+- type: spanish
+  label:
+    en: Editorial Team (Spanish)
+    es: Equipo editorial (español)
+  definition:
+    en: Responsible for editorial work resulting in the review and publication of Spanish-language lessons
+    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en español
+- type: technical
+  label:
+    en: Technical Team
+    es: Equipo técnico
+  definition:
+    en: Responsible for the technical features that bring the content and peer review to our community
+    es: Responsable de las características técnicas respecto al contenido y la revisión por pares a nuestra comunidad
+- type: managing-en
+  label:
+    en: Managing Editor
+    es: Jefe de redacción
+  definition:
+    en: First point of contact for authors with lesson ideas
+    es: Primer contacto para autores con ideas de lecciones
+- type: archive
+  label:
+    en: Archivist
+    es: Archivista
+  definition:
+    en: Responsible for archiving the project
+    es: Responsable del archivo del proyecto   
+# --- Derived roles ---
+- type: ombuds-es
+  label:
+    en: Ombudsperson (Spanish)
+    es: Mediador (español)
+  source_role: ombuds
+- type: managing-es
+  label:
+    en: Managing Editor (Spanish)
+    es: Jefe de redacción (español)
+  source_role: managing-en

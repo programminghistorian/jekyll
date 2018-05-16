@@ -1,15 +1,28 @@
 ---
 title: Preserving Your Research Data
+layout: lesson
+date: 2014-04-30
 authors:
 - James Baker
-date: 2014-04-30
 reviewers:
 - Jane Winters
 - Sharon Howard
 - William J. Turkel
+editors:
 - Adam Crymble
-layout: default
+difficulty: 1
+exclude_from_check:
+  - review-ticket
+activity: sustaining
+topics: [data-management]
+abstract: "This lesson will suggest ways in which historians can document and structure their research data so as to ensure it remains useful in the future."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 #### Background
 
@@ -281,8 +294,7 @@ is important to ensuring it and its contents are easy to identify.
 whilst '2014-01-31\_Writing\_readme.txt' is as it replicates the title
 of the directory and included some date information (North American
 readers should note that I've chosen the structure year\_month\_date). A
-readme file I made for a recent project
-<https://www.dropbox.com/s/i12cv5rdnfbdoz3/network_analysis_of_Isaac_Cruikshank_and_his_publishers_readme.txt>
+[readme file I made for a recent project](/assets/preserving-your-research-data/network_analysis_of_Isaac_Cruikshank_and_his_publishers_readme.txt)
 contains the sort of information that you and other users of your data
 might find useful.
 
@@ -412,7 +424,7 @@ Biology Projects.PLoSComputBiol 5(7): e1000424 (2009)
 
 Oxford University Computing Services, 'Sudamih Project. Research
 Information Management: Organising Humanities Material' (2011)
-<http://dspace.jorum.ac.uk/xmlui/handle/10949/14725>
+<https://zenodo.org/record/28329>
 
 Pennock, Maureen, 'The Twelve Principles of Digital Preservation (and a
 cartridge in a repository…)', British Library Collection Care blog (3

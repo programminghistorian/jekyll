@@ -1,13 +1,27 @@
 ---
 title: Data Mining the Internet Archive Collection
+layout: lesson
+date: 2014-03-03
 authors:
 - Caleb McDaniel
-date: 2014-03-03
 reviewers:
+- Adam Crymble
+editors:
 - William J. Turkel
 - Adam Crymble
-layout: default
+difficulty: 2
+exclude_from_check:
+  - review-ticket
+activity: acquiring
+topics: [web-scraping]
+abstract: "The collections of the Internet Archive include many digitized historical sources. Many contain rich bibliographic data in a format called MARC. In this lesson, you'll learn how to use Python to automate the downloading of large numbers of MARC files from the Internet Archive and the parsing of MARC records for specific information such as authors, places of publication, and dates. The lesson can be applied more generally to other Internet Archive files and to MARC records found elsewhere."
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Lesson Goals
 ------------
@@ -46,6 +60,11 @@ work with the MARC format or the Internet Archive on a regular basis.
 Before You Begin
 ----------------
 
+To write scripts that interact with the Internet Archive, you will
+first need to [create an IA account](https://archive.org/account/login.createaccount.php).
+Follow the steps to confirm your account and carefully note down
+your email address and password.
+
 We will be working with two Python modules that are not included in
 Python's standard library.
 
@@ -54,13 +73,17 @@ Internet Archive. The second, [pymarc][], makes it easier to parse MARC
 records.
 
 The easiest way to download both is to use pip, the python package
-manager. Begin by installing `pip` using [this Programming Historian
-lesson][]. Then issue these commands at the command line: To install
+manager. Begin by installing `pip` using Fred Gibbs' [Installing Python Modules with pip][]. Then issue these commands at the command line: To install
 `internetarchive`:
 
 ``` bash
 sudo pip install internetarchive
 ```
+
+Now you will need to configure your computer so that the new package
+will work. Type `ia configure` at the command line, and then enter in
+the email address and password you used above to create your Internet Archive
+account.
 
 To install `pymarc`:
 
@@ -613,7 +636,7 @@ Or, to get a very rough visual sense of the places where letters were
 written, you could do what I've done below and simply make a [Wordle
 word cloud][] of the text file.
 
-{% include figure.html src="../images/bpl-wordle.png" caption="Wordle wordcloud of places of publication for abolitionist letters" %}
+{% include figure.html filename="bpl-wordle.png" caption="Wordle wordcloud of places of publication for abolitionist letters" %}
 
 Of course, to make such techniques useful would require more [cleaning
 of your data][]. And other applications of this lesson may prove more
@@ -631,7 +654,6 @@ from the fields, the possibilities can multiply rapidly!
   [Anti-Slavery Collection]: http://archive.org/details/bplscas
   [internetarchive]: https://pypi.python.org/pypi/internetarchive
   [pymarc]: https://pypi.python.org/pypi/pymarc/
-  [this Programming Historian lesson]: ../lessons/
   [this letter]: http://archive.org/details/lettertowilliaml00doug
   [original manuscript]: http://archive.org/stream/lettertowilliaml00doug/39999066767938#page/n0/mode/2up
   [multiple files]: http://archive.org/download/lettertowilliaml00doug
@@ -643,17 +665,18 @@ from the fields, the possibilities can multiply rapidly!
   [the way that items and item URLs are structured]: http://blog.archive.org/2011/03/31/how-archive-org-items-are-structured/
   [advanced search]: https://archive.org/advancedsearch.php
   [this page]: https://archive.org/search.php?query=collection%3A%28bplscas%29
-  [search the Archive using the Python module that we installed]: https://pypi.python.org/pypi/internetarchive#searching-from-python
+  [search the Archive using the Python module that we installed]: http://internetarchive.readthedocs.io/en/latest/quickstart.html#searching
   [the advanced search for the collection]: http://archive.org/search.php?query=collection%3Abplscas
-  [downloading]: https://pypi.python.org/pypi/internetarchive#downloading-from-python
-  [remember those?]: ../lessons/code-reuse-and-modularity
+  [downloading]: http://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading
+  [remember those?]: /lessons/code-reuse-and-modularity
   [item files are named according to specific rules]: https://archive.org/about/faqs.php#140
   [handling exceptions]: http://docs.python.org/2/tutorial/errors.html#handling-exceptions
   [rules specified for the 260 datafield]: http://www.loc.gov/marc/bibliographic/bd260.html
   [MARC standards]: http://www.loc.gov/marc/
   [1]: https://github.com/edsu/pymarc
   [functions that it provides for working with MARC XML records]: https://github.com/edsu/pymarc/blob/master/pymarc/marcxml.py
-  [Counting Frequencies]: ../lessons/counting-frequencies
-  [Google Maps lesson]: ../lessons/googlemaps-googleearth
+  [Counting Frequencies]: /lessons/counting-frequencies
+  [Google Maps lesson]: /lessons/googlemaps-googleearth
   [Wordle word cloud]: http://www.wordle.net/
-  [cleaning of your data]: http://programminghistorian.github.io/jekyll/lessons/cleaning-ocrd-text-with-regular-expressions
+  [cleaning of your data]: /lessons/cleaning-ocrd-text-with-regular-expressions
+  [Installing Python Modules with pip]: /lessons/installing-python-modules-pip

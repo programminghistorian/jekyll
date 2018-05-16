@@ -1,21 +1,35 @@
 ---
 title: Automated Downloading with Wget
+layout: lesson
+date: 2012-06-27
 authors:
 - Ian Milligan
-date: 2012-06-27
 reviewers:
 - Aurélien Berra
+editors:
 - Adam Crymble
-layout: default
+difficulty: 1
+exclude_from_check:
+  - review-ticket
+activity: acquiring
+topics: [web-scraping]
+abstract: "Wget is a useful program, run through your computer's command line, for
+retrieving online material."
 next: applied-archival-downloading-with-wget
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Editor's Note
 -------------
 
 This lesson requires you to use the command line. If you have no
 previous experience using the command line you may find it helpful to
-work through the Scholar's Lab [Command Line Bootcamp][] tutorial.
+work through the *Programming Historian’s* [Introduction to the Bash Programming Language](/lessons/intro-to-bash).
 
 Lesson Goals
 ------------
@@ -26,7 +40,7 @@ users should be able to follow along.
 Wget is a useful program, run through your computer's command line, for
 retrieving online material.
 
-{% include figure.html src="../images/Terminal-on-mac2.png" caption="The Mac Command Line, Terminal" %}
+{% include figure.html filename="Terminal-on-mac2.png" caption="The Mac Command Line, Terminal" %}
 
 It can be useful in the following situations:
 
@@ -236,8 +250,10 @@ You should now have wget installed.
 ### Windows Instructions
 
 The easiest way is to download a working version. To do so, visit
-[this website](https://eternallybored.org/misc/wget/) and, download `wget.exe` (as of writing it is version 1.16.3, and you should download the 32-bit binary). If you place `wget.exe` in
-your `C:Windows` directory, you can then use wget from anywhere on your
+[this website](https://eternallybored.org/misc/wget/) and, download `wget.exe` (as of writing it is version 1.17.1, and you should download the 32-bit binary). The file is the second link in the 32-bit binary column, entitled just `wget.exe`.
+
+If you place `wget.exe` in
+your `C:\Windows` directory, you can then use wget from anywhere on your
 computer. This will make your life easier as you will not have to worry
 about always running wget from only one place on your system. If it is
 in this directory, Windows will know that the command can be used
@@ -364,7 +380,7 @@ is a critical command for delineating your search.
 
 Here is a graphical representation:
 
-{% include figure.html src="../images/active-history-chart_edited-1.jpg" caption="A graphical representation of how 'no-parent' works with wget" %}
+{% include figure.html filename="active-history-chart_edited-1.jpg" caption="A graphical representation of how 'no-parent' works with wget" %}
 
 Finally, if you do want to go outside of a hierarchy, it is best to be
 specific about how far you want to go. The default is to follow each
@@ -474,8 +490,8 @@ files, backups, etc.
 I've only given a snapshot of some of wget's functionalities. For more,
 please visit the [wget manual][GNU wget manual].
 
-  [Command Line Bootcamp]: http://praxis.scholarslab.org/tutorials/bash/
-  [download XCode via this link]: https://itunes.apple.com/en/app/xcode/id497799835?mt=12
+  [Command Line Bootcamp]: http://praxis.scholarslab.org/scratchpad/bash/
+  [download XCode via this link]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
   [Apple Developer website]: https://developer.apple.com/xcode/
   [View Downloads]: https://developer.apple.com/downloads/
   [GNU website]: http://www.gnu.org/software/wget/

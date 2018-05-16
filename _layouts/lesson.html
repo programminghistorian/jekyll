@@ -1,0 +1,235 @@
+---
+layout: base
+---
+
+{% comment %}
+  This is the standard template for all lessons. It builds on the base template, which includes the HTML header, the menu bar, page content, and footer.
+
+  In addition to general formatting, this layout also contains all the logic for displaying alert messages (lessons in a series, retired lessons, etc).
+
+  All lesson metadata and alerts should follow the convention of pulling appropriate text from the snippets.yml file.
+{% endcomment %}
+
+{% include translation-links.html %}
+
+<header>
+
+<div class="container-fluid">
+
+  <div class="container expanded">
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="header-image rounded">
+          <img src="{{ site.baseurl }}/gallery/{{ canonical_slug }}.png">
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="header-title">
+          <h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
+        </div>
+
+        <div class="header-author">
+          <h2>{% include author.html %}</h2>
+        </div>
+
+        <div class="header-abstract">
+          <p>{{ page.abstract }}</p>
+        </div>
+
+        <div class="container expanded">
+          <div class="row">
+            <div class="col-md-3">
+              {% if page.reviewers %}
+              <div class="peer-review">
+                <p>
+                {% if page.review-ticket %}
+                <a href="{{ page.review-ticket }}">{% endif %}<i class="fas fa-user-check"></i> {{ site.data.snippets.peer-review[page.lang] }}{% if page.review-ticket %}</a>{% endif %}
+                </p>
+              </div>
+              </div>
+              {% endif %}
+
+              <div class="col-md-3">
+              <div class="open-license">
+                <p><a href="https://creativecommons.org/licenses/by/4.0/deed.en"><i class="fas fa-lock-open"></i> CC-BY 4.0</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% capture editor-style %}{% if page.translator %}col-md-3{% else %}col-md-4 offset-md-4{% endif %}{% endcapture %}
+{% capture reviewers-style %}{% if page.translator %}col-md-3{% else %}col-md-4{% endif %}{% endcapture %}
+{% capture date-style %}{% if page.translation_date %}col-md-3{% else %}col-md-4{% endif %}{% endcapture %}
+
+
+  <div class="container-fluid header-helpers">
+
+    <div class="container expanded">
+
+    <div class="row">
+
+      <div class="{{editor-style}}">
+        <h3 class="text-left">{{site.data.snippets.editor[page.lang]}}</h3>
+        <ul>
+        {% for editor in page.editors %}
+          <li>{{editor}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+
+      <div class="{{reviewers-style}}" >
+        <h3 class="text-left">{{site.data.snippets.reviewers[page.lang]}}</h3>
+          <ul>
+          {% for reviewer in page.reviewers %}
+            <li>{{reviewer}}</li>
+          {% endfor %}
+          </ul>
+      </div>
+
+      {% if page.translator %}
+      <div class="col-md-2" >
+        <h3 class="text-left">{{site.data.snippets.translator[page.lang]}}</h3>
+        <ul>
+        {% for translator in page.translator %}
+          <li>{{translator}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if page.translation-editor %}
+      <div class="col-md-2" >
+        <h3 class="text-left">{{site.data.snippets.translation-editors[page.lang]}}</h3>
+        <ul>
+        {% for translation-editor in page.translation-editor %}
+          <li>{{translation-editor}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if page.translation-reviewer %}
+      <div class="col-md-2" >
+        <h3 class="text-left">{{site.data.snippets.translation-reviewers[page.lang]}}</h3>
+        <ul>
+        {% for editor in page.translation-reviewer %}
+          <li>{{editor}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+    </div>
+    </div> <!-- end row -->
+  </div>
+
+  <div class="container-fluid header-bottom">
+    <div class="container expanded">
+      <div class="row">
+      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      {% if page.translation_date %}
+      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.translated-date[page.lang]}}</h4> <span id="translated-date">{{ page.translation_date | date:"%Y-%m-%d" }}</span></div>
+      {% endif %}
+      {% if page.retired %}
+      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.retired-date[page.lang]}}</h4> <span id="retired-date">{{ page.retired_date | date:"%Y-%m-%d" }}</span></div>
+      {% else %}
+      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.modified[page.lang]}}</h4> <span id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span></div>
+      {% endif %}
+      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}</div>
+    </div>
+    </div>
+  </div>
+
+</header>
+
+  <div class="container">
+
+    {% for candidate in translation_candidates %}
+      <!-- Banner pointing to translations of this lesson when they exist -->
+      <div class="alert alert-warning">
+        {{ site.data.snippets.translation-target[page.lang]}} {{ site.data.snippets.language-name[candidate.lang][page.lang]}}: <a href="{{ candidate.url }}">{{ candidate.title }}</a>
+      </div>
+    {% endfor %}
+
+    {% assign selected_translation_source = translation_source %}
+    {% if selected_translation_source %}
+      <!-- If this lesson is translated, banner pointing to the original language source of this lesson -->
+      <div class="alert alert-warning">
+        {{ site.data.snippets.translation-source[page.lang] }} {{ site.data.snippets.language-name.en[page.lang]}}: <a href="{{ selected_translation_source.url }}">{{ selected_translation_source.title }}</a>
+      </div>
+    {% endif %}
+
+    {% if page.retired %}
+     <div class="alert alert-warning">
+        <h2>{{ site.data.snippets.retired[page.lang] }}</h2>
+        <p><em>{{ site.data.snippets.retired-meaning[page.lang] }}</em></p>
+        <p>{{ site.data.snippets.retired-definition[page.lang] | markdownify }}</p>
+      {% if page.retirement-reason %}
+        <p><em>{{ site.data.snippets.retirement-reason[page.lang] }}</em></p>
+        <p>{{ page.retirement-reason | markdownify }}</p>
+      {% endif %}
+     </div>
+    {% endif %}
+
+    {% if page.python_warning %}
+    <div class="alert alert-warning">
+      {{ site.data.snippets.python-warning[page.lang] | markdownify }}
+    </div>
+    {% endif %}
+
+
+      {% if page.previous %}
+      <div class="series-warning alert alert-info">
+        {{ site.data.snippets.series-previous-note[page.lang] }} <a href="{{page.previous}}">{{ site.data.snippets.previous-lesson[page.lang] }}</a>.
+      </div>
+      {% endif %}
+
+     <div class="content">
+         {{ content }}
+     </div>
+
+     {% if page.next %}
+      <div class="series-warning alert alert-info">
+        {{ site.data.snippets.series-next-note[page.lang] }} <a href="{{page.next}}">{{ site.data.snippets.next-lesson[page.lang] }}</a>.
+      </div>
+     {% endif %}
+
+     {% include author-info.html %}
+
+      <div class="citation-info">
+        {% assign vol_start = site.data.snippets.volume-start[page.lang] %}
+        {% if page.translation_date %}
+          {% assign page_year = page.translation_date | date: "%Y" %}
+        {% else %}
+          {% assign page_year = page.date | date: "%Y" %}
+        {% endif %}
+        {% assign vol_no = page_year | minus: vol_start | plus: 1 %}
+
+        <h5 class="suggested-citation-header">{{ site.data.snippets.suggested-citation[page.lang] }}</h5>
+        <div class="suggested-citation-text">
+        <p class="suggested-citation-text">{% include author.html %}, {{ site.data.snippets.title-open-quote[page.lang] }}{{ page.title | strip }}{{ site.data.snippets.title-close-quote[page.lang] }}{% if page.translator %} {{ site.data.snippets.translator[page.lang] }} {{ page.translator | array_to_sentence_string: site.data.snippets.and[page.lang] }},{% endif %} <em>{{ site.data.snippets.journal-title[page.lang] }}</em> {{ vol_no }} ({{ page_year }}), {{ site.url }}{{ page.url }}.</p>
+        </div>
+      </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var githubAPI = "https://api.github.com/repos/programminghistorian/jekyll/commits";
+  $.getJSON( githubAPI, {
+    path: "{{page.path}}"
+  })
+    .done(function( data ) {
+      var date = new Date(data[0].commit.author.date);
+      var formatted_date = new Intl.DateTimeFormat('sv').format(date)
+      $("#modified-date").text(formatted_date);
+    });
+})();
+</script>

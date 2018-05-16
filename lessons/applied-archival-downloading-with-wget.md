@@ -1,15 +1,28 @@
 ---
 title: Applied Archival Downloading with Wget
+layout: lesson
+date: 2013-09-13
 authors:
 - Kellen Kurschinski
-date: 2013-09-13
 reviewers:
 - Nick Ruest
 - Konrad Lawson
+editors:
 - Ian Milligan
-layout: default
+difficulty: 2
+exclude_from_check:
+  - review-ticket
+activity: acquiring
+topics: [web-scraping]
+abstract: "Now that you have learned how Wget can be used to mirror or download specific files from websites via the command line, it's time to expand your web-scraping skills through a few more lessons that focus on other uses for Wget's recursive retrieval function."
 previous: automated-downloading-with-wget
 ---
+
+{% include toc.html %}
+
+
+
+
 
 Background and Lesson Goals
 ---------------------------
@@ -187,7 +200,12 @@ may miss a page or two in the automated download – in this case there
 are a few URLs that include a letter in the name of the .jpeg
 ('s126a.v.jpg' or 's126b.v.jpg' for example). This is going to happen
 from time to time when downloading from archives, so do not be surprised
-if you miss a page or two during an automated download.
+if you miss a page or two during an automated download. 
+
+Note that a potential workaround
+could include using regular expressions to make more complicated queries if appropriate
+(for more, see the [Understanding Regular Expressions](/lessons/understanding-regular-expressions) 
+lesson).
 
 Let's run the script and Wget command once more:
 

@@ -1,59 +1,73 @@
 ---
-title: Contribute to Programming Historian
+title: Contribute to the Programming Historian
 layout: blank
 ---
 
-# All Suggestions Welcome
-Want to update or improve a lesson? Found a mistake? Have an idea for a new lesson? Want to contribute lessons of your own? Suggestions for how to make _Programming Historian_ more useful? We want to hear from you!
+# Contribute to The Programming Historian
 
------
+The _Programming Historian_ runs on the far-from-endless energy of volunteers, and we want to hear from anyone who shares our interest in teaching digital methods, forging new processes of peer review, and building diversity in the digital humanities community. Below we've outlined common ways to contribute; please let us know any ideas you have for broadening participation.
 
-***There are 3 main ways to get involved with the _Programming Historian_***
+## Write a new lesson
 
-- Report a problem or make suggestions for improvements
-- Join our team of reviewers
-- Write a lesson 
+<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" />
 
+Writing a tutorial is one of the best ways to teach yourself particular skills and actively engage in the digital humanities community.
 
------
+We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft your essay to be as clear and as useful as possible--a great way to improve your technical writing skills. Please read more about our [submission process][submissions].
 
-
-## Report a problem or suggest improvments
-As URLs change and as new versions of software and platforms are released, lessons develop glitches over time. Please help us keep _Programming Historian_ up to date by letting us know about these. You can report problems or make suggestions by following our instructions on [how to create an issue in our GitHub repository](https://github.com/programminghistorian/jekyll/wiki/Reporting-Issues).
-
+If you'd like to propose a lesson (for you or for someone else to write), email <a href="mailto:jparr1129@gmail.com">Jessica Parr</a>.
 
 ## Join our team of reviewers
-Academic peer review is essential for producing trusted high-quality resources, and even as a free, open-source, community-driven resource _Programming Historian_, holds peer review in the highest regard. But we prefer an open and collaborative process--where reviewers get full and public credit for their work--to traditional closed and opaque procedures. For more on our review philosophy and procedures, please see the [Guidelines for Reviewers][reviewers].
 
-We hope you'll consider joining our team of reviewers in a way that fits your own schedule. Please email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with a bit of information about yourself, especially the specific skills, tools, topics, and technologies that you'd like to be involved with so that we can send you the most appropriate lessons to review. 
+<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-right" />
 
+The _Programming Historian_ holds peer review in the highest regard, and we take an open and collaborative approach in which reviewers get full and public credit for their work. For more on our review philosophy and procedures, please see the [Guidelines for Reviewers][reviewers].
 
-## Contribute a Lesson
-From our own experience, we know that the difficult job of writing technically challenging but accessible tutorials is one of the best ways to teach yourself particular skills and actively engage in the digital humanities community.
-
-We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft and hone your topic and approach, as well as to make your tutorial as clear and as useful as possible. Our peer review process helps improve your lessons even further, as well as improve your technical writing skills.
-
-If you'd like to suggest idea to make _Programming Historian_ a more useful resource for you, or propose a lesson (for you or for someone else to write), email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with your ideas! 
-
-Please read more about our [editorial policies][editorial-policies] our [submission proceess][submissions].
+We hope you'll consider joining our team of reviewers. The time commitment is flexible, you'll learn a lot, and contribute to a widely-used and highly-valued resource. Please email <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> to introduce yourself and let us know any specific skills, tools, topics, and technologies that you'd like to focus on.
 
 
-## I'm too busy. Why Bother?
+## Edit lessons
 
-- **Learn:** Reviewing and especailly writing tutorials are extremely effecient ways to learn about and develop practical proficiency in new digital tools, techniques, and programmatic thinking.
-
-- **Network:** Get to know people working on really cool stuff and wanting to share and teach others about it. Many within the _Programming Historian_ community have collaborated on research projects completely independently of the site.
-
-- **Engage:** We prominently feature the names of authors and reviewers on all of our lesson pages, as well as the contributors page; new lessons tend to be frequently tweeted and retweeted. Because we average more than 100,000 unique visitors per year, *The Programming Historian* remains a vibrant and visible site for community collaboration and education.
-
-- **Karma:** Contribute to a good cause and community goodwill.
+<img src="{{site.baseurl}}/gallery/editor-guidelines.png" class="garnish rounded float-right" />
 
 
-No matter how you'd like to be involved, you can always email <a href="mailto:fwgibbs@gmail.com">Fred Gibbs</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails within three working days.
+Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [guidelines for editors](editor-guidelines) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
+
+From time to time we may advertise that we are seeking more editors.
+
+## Translate a lesson
+
+<img src="{{site.baseurl}}/images/translator.png" class="garnish rounded float-right" />
+
+If you are fluent in both English and Spanish, you are invited to get in touch with us about translating one of our published _Programming Historian_ lessons into Spanish. This will help us to build a Spanish-language digital humanities community, and to build your language, method, and technological skills.
+
+We are seeking rigorous and readable translations that take into account the Spanish-language research context and the resources available in our community. If you are interested in collaborating, consult our [instructions for authors and translators](/es/guia-para-autores.html).
+
+## Provide feedback or report problems
+
+<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" />
+
+We welcome [feedback](feedback.html) on any aspect of the _Programming Historian_. Let us know what we can do to make the project better!
+
+We are especially grateful for tips about lessons that seem to be broken. As URLs change and as new versions of software and platforms are released, lessons develop glitches over time. Please help us keep the _Programming Historian_ up to date by letting us know about these when you come across them in the course of your reading.
 
 
-Thanks for making _Programming Historian_ such a great resource!
- 
- [editorial-policies]: http://programminghistorian.org/editorial-policies
- [submissions]: new-lesson-workflow
- [reviewers]: http://programminghistorian.org/reviewer-guidelines
+## Add us to your Library Catalog
+
+<img src="{{site.baseurl}}/images/library-catalogue.png" class="garnish float-right" />
+
+
+This project is our attempt to demonstrate what open access academic publishing can and should be. Please help us spreading the message and providing the widest possible access to this resource by asking your librarian to include the project in your library catalogue.
+
+The _Programming Historian_ has a [listing in WorldCat](http://www.worldcat.org/title/programming-historian/oclc/951537099) (with thanks to the [University of Purdue library](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink) and Amanda Visconti) and is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
+
+
+## Make a suggestion
+
+No matter how you'd like to be involved, you can always email <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
+
+
+Thanks for your help in improving the _Programming Historian_!
+
+ [submissions]: {{site.baseurl}}/author-guidelines
+ [reviewers]: {{site.baseurl}}/reviewer-guidelines

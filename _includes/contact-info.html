@@ -1,12 +1,46 @@
+{% comment %}
+ Generate contact info for editorial team members. Used on project-team.md and es/equipo-de-proyecto.md
+{% endcomment %}
+
 {% assign author = include.name %}
 
-{% for member in site.data.authors %}
+{% comment %}
+ For the provided author name, locate the appropriate entry in ph_authors.yml, and then extract necessary bio and contact information.
+{% endcomment %}
+{% for member in site.data.ph_authors %}
 {% if author == member.name %}
-{% assign avatar = member.name | replace: " ","-" %}
-<div class="contact-box">
-<img class="avatar" src="{{site.url}}/avatars/{{avatar}}.png">
-{{ member.bio }}
-<br/>
+<div class="row contact-box">
+{% comment %}
+ Generate avatar image path based on name
+{% endcomment %}
+{% assign avatar = member.name | replace: " ","-" | replace: "é","e" | replace: "í", "i" %}
+<div class="col-3">
+  <img class="rounded-circle" src="{{site.baseurl}}/avatars/{{avatar}}.png">
+</div>
+
+<div class="col-9">
+<p>{{ member.bio[page.lang] }} {{ member.interests[page.lang] }}</p>
+
+{% comment %}
+List subteams within the larger editorial team
+{% endcomment %}
+<p>
+{% for role in member.team_roles %}
+{% assign role_label = (site.data.teamroles | where: "type", role) | first %}
+{% if role_label.source_role %}
+  {% assign source_role = (site.data.teamroles | where: "type", role_label.source_role | first %}
+  {% assign role_definition = source_role.definition %}
+{% else %}
+  {% assign role_definition = role_label.definition %}
+{% endif %}
+<span class="badge badge-primary" data-toggle="tooltip" data-placement="bottom" title = "{{ role_definition[page.lang] }}">{{ role_label.label[page.lang] }}</span>
+{% endfor %}
+</p>
+
+{% comment %}
+ List contact info
+{% endcomment %}
+<p>
 	{% if member.url %}
 		<a href="{{member.url}}"><i class="fa fa-home fa-lg"></i></a>
 	{% endif %}
@@ -14,13 +48,13 @@
 		<a href="mailto:{{member.email}}"><i class="fa fa-envelope-square fa-lg" ></i></a>
 	{% endif %}
 	{% if member.twitter %}
-		<a href="http://twitter.com/{{member.twitter}}"><i class="fa fa-twitter-square fa-lg"></i></a>
+		<a href="http://twitter.com/{{member.twitter}}"><i class="fab fa-twitter-square fa-lg"></i></a>
 	{% endif %}
 	{% if member.github %}
-		<a href="http://github.com/{{member.github}}"><i class="fa fa-github-square fa-lg"></i></a>
+		<a href="http://github.com/{{member.github}}"><i class="fab fa-github-square fa-lg"></i></a>
 	{% endif %}
+</p>
 {% endif %}
 {% endfor %}
-<br/>
 </div>
-
+</div>

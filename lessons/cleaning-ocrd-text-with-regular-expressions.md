@@ -1,12 +1,28 @@
 ---
 title: Cleaning OCR’d text with Regular Expressions
+layout: lesson
+date: 2013-05-22
 authors:
 - Laura Turner O'Hara
-reviewers:
+editors:
 - Fred Gibbs
-date: 2013-05-22
-layout: default
+difficulty: 2
+activity: transforming
+topics: [data-manipulation]
+abstract: "Optical Character Recognition (OCR)—the conversion of scanned images to
+machine-encoded text—has proven a godsend for historical research. This lesson will help you clean up OCR'd text to make it more usable."
+exclude_from_check:
+  - reviewers
+  - review-ticket
 ---
+
+{% include toc.html %}
+
+
+
+
+
+## Introduction
 
 Optical Character Recognition (OCR)—the conversion of scanned images to
 machine-encoded text—has proven a godsend for historical research. This
@@ -17,12 +33,12 @@ OCR. Take for example, this page from the *Congressional Directory* from
 the 50th Congress (1887). The PDF scan downloaded from [HeinOnline][]
 looks organized:
 
-{% include figure.html src="../images/cd_pdf.png" caption="This is a screenshot of the PDF page." %}
+{% include figure.html filename="cd_pdf.png" caption="This is a screenshot of the PDF page." %}
 
 However, the OCR layer (downloaded as a text file\*) shows that the
 machine-encoded text is not nearly as neat:
 
-{% include figure.html src="../images/cd_txt.png" caption="This is a screenshot of the OCR." %}
+{% include figure.html filename="cd_txt.png" caption="This is a screenshot of the OCR." %}
 
 > Note: If you do not have the option to download a text file, you can
 use the [pdfminer][] module to extract text from the pdf.
@@ -138,9 +154,7 @@ of luck with the [Patterns App][] (Mac Store \$2.99), which allowed me
 to see what the regular expressions were doing in real time. It also
 comes with a built-in cheat sheet for the symbols, but I actually found
 this generic (meaning it works across languages) [cheat sheet][] more
-comprehensive. For PC users (or people who don’t want to pay or download
-software), I also found [another tester tool][] that was fairly
-transparent.
+comprehensive.
 
 Python and Regex
 ----------------
@@ -182,10 +196,9 @@ Here’s the Python file that I used to created to clean my document:
 #import re module
 import re
 
-#Open the text file with the ocr
-ocr = open('../../data/txt/50-1-p1.txt')
-#read the text file into a list
-Text = ocr.readlines()
+#Open the text file, and read the text file into a list
+with open('../../data/txt/50-1-p1.txt') as ocr:
+    Text = ocr.readlines()
 
 #Create an empty list to fill with lines of corrected text
 CleanText = []
@@ -225,11 +238,11 @@ for line in Text:
            #Append each line to CleanText list while it loops through
         CleanText.append(names)
 
-#Saving into a 'fake' csv file
-fcsv = open('cdocr2/50-1p1.csv', 'w')
-#Write each line in CleanText to a file
-for line in CleanText:
-    fcsv.write(line)
+#Saving into a 'fake' csv file   
+with open('cdocr2/50-1p1.csv', 'w') as fcsv:
+    #Write each line in CleanText to a file
+    for line in CleanText:
+        fcsv.write(line)
 ```
 
 I’ve commented it pretty extensively, so I will explain why I structured
@@ -321,10 +334,9 @@ nw\_pattern). I use them in my loop on lines 65 and 66.
 #import re module
 import re
 
-#Open the text file with the ocr
-ocr = open('../../data/txt/50-1-p1.txt')
-#read the text file into a list
-Text = ocr.readlines()
+#Open the text file, and read the text file into a list
+with open('../../data/txt/50-1-p1.txt') as ocr:
+    Text = ocr.readlines()
 
 #Create an empty list to fill with lines of corrected text
 CleanText = []
@@ -390,11 +402,11 @@ for line in Text:
          #Append each line to CleanText list while it loops through
         CleanText.append(names)
 
-#Saving into a 'fake' csv file
-fcsv = open('cdocr2/50-1p1.csv', 'w')
-#Write each line in CleanText to a file
-for line in CleanText:
-    fcsv.write(line)
+#Saving into a 'fake' csv file   
+with open('cdocr2/50-1p1.csv', 'w') as fcsv:
+    #Write each line in CleanText to a file
+    for line in CleanText:
+        fcsv.write(line)
 ```
 
 In conclusion, I will note that this is not for the faint of heart.

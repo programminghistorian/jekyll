@@ -1,18 +1,36 @@
 ---
-title: |
-    Supervised Classification: The Naive Bayesian Returns to the Old Bailey
+title: "Supervised Classification: The Naive Bayesian Returns to the Old Bailey"
+layout: lesson
+date: 2014-12-17
 authors: 
 - Vilja Hulden
-date: 2014-12-17
-published: true
 reviewers:
-- William J. Turkel
 - Adam Crymble
-layout: default
+editors:
+- William J. Turkel
+difficulty: 3
+exclude_from_check:
+  - review-ticket
+activity: analyzing
+topics: [distant-reading]
+abstract: "This lesson shows how to use machine learning to extract interesting documents out of a digital archive."
 ---
 
-Introduction
-------------
+{% include toc.html %}
+
+
+
+
+
+# WARNING - Technical issues with Old Bailey Online website
+
+As of August 2016, the Old Bailey Online experienced some issues that are currently being resolved by their project team. One of those issues includes the temporary suspension of the API which are used as the basis of this tutorial.
+
+While those fixes are underway the example in this tutorial will not work properly.
+
+You can still read through to build an understanding of how this process works, without actually running the working code. We apologise for this problem. If you notice that it has been rectified and we have not yet updated this tutorial or removed this notice, please let us know!
+
+## Introduction
 
 A few years back, William Turkel wrote a series of blog posts called [A
 Naive Bayesian in the Old Bailey][], which showed how one could use 
@@ -78,8 +96,7 @@ of the part where we actually begin to code.
 installations, except for [BeautifulSoup][] (used in the data creation step, 
 not in the learner code itself).*
 
-The Old Bailey Digital Archive
-------------------------------
+## The Old Bailey Digital Archive
 
 The [Old Bailey digital archive](http://www.oldbaileyonline.org/)
 contains 197,745 criminal trials held at the Old Bailey, aka the Central
@@ -109,8 +126,7 @@ Old Bailey documents. That, in turn, helps us decide how (or whether) a
 learner could help us explore other digital document collections, most
 of which are not as richly annotated.
 
-Machine learning
-----------------
+## Machine learning
 
 Machine learning can mean a lot of different things, but the most common
 tasks are [classification][] and [clustering][].
@@ -258,7 +274,7 @@ own bag, which has a different set of words, and then he would follow
 the same procedure of taking out a word, writing it down, putting it
 back in. It's just one damn word after another.
 
-{% include figure.html src="../images/naive-bayesian-1.png" caption="Bags of Words" %}
+{% include figure.html filename="naive-bayesian-1.png" caption="Bags of Words" %}
 
 *(If this procedure sounds familiar, that may be because it sounds a bit
 like the generative story told in explaining how [topic modeling][] works. 
@@ -533,7 +549,7 @@ If you only downloaded the scripts, you should do the following:
 
 On my Mac, the structure looks like this:
 
-{% include figure.html src="../images/naive-bayesian-2.png" caption="Bailey Folders" %}
+{% include figure.html filename="naive-bayesian-2.png" caption="Bailey Folders" %}
 
 #### Downloading trials
 
@@ -1451,7 +1467,7 @@ Happy hunting!
 
   [A Naive Bayesian in the Old Bailey]: http://digitalhistoryhacks.blogspot.com/2008/05/naive-bayesian-in-old-bailey-part-1.html
   [Old Bailey digital archive]: http://www.oldbaileyonline.org/
-  [A zip file of the scripts]: ../assets/baileycode.zip
+  [A zip file of the scripts]: /assets/baileycode.zip
   [another zip file]: http://dx.doi.org/10.5281/zenodo.13284
   [BeautifulSoup]: http://www.crummy.com/software/BeautifulSoup/
   [search interface]: http://www.oldbaileyonline.org/forms/formMain.jsp
