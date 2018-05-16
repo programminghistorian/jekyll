@@ -17,12 +17,10 @@ redirect_from:
 If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, contact [Jessica Parr] to discuss your idea. Getting in touch at an early stage will help you frame your lesson--especially identifying a target audience and expected skill level--and to pair you with the most appropriate editor.
 
 <div class="alert alert-success">
-  There is no standard lesson at the <i>Programming Historian</i>. We welcome lessons on any topic that helps humanists at any phase of the research and publication process.
+We welcome tutorials relevant for the humanities, pitched at any level of technical aptitude and experience that focus on one problem or process, can be sustainable in the long term, and are addressed to a global audience. The scope and length of the tutorial should be appropriate to the complexity of the task being taught. Tutorials should not exceed 8,000 words (including code) without the explicit permission of the editor, which will be granted only in exceptional circumstances. We expect that most lessons will be between 4,000 and 6,000 words. Longer lessons may need to be split into multiple tutorials.
 </div>
 
-We welcome all lesson proposals, pitched at any level of technical aptitude and experience, from neophytes to power users. Lessons may be a short and straightforward explanation of a discrete task (such "helper" lessons make complex lessons easier to follow); they may be quite long, complex, and technically sophisticated.
-
-You can get a better sense of what we think makes for a useful lesson by looking through our [published lessons], reading our [reviewer guidelines] or browsing the [lessons currently in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). We encourage lesson proposals on topics already covered or in development, provided that the new lesson makes its own unique contribution. Everyone learns differently!
+You can get a better sense of what we publish by looking through our [published lessons], reading our [reviewer guidelines] or browsing the [lessons currently in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). We encourage lesson proposals on topics already covered or in development, provided that the new lesson makes its own unique contribution.
 
 To aid in the sustainability of our lessons, authors should seek to submit lessons that are not overly dependent upon specific software or user interfaces. These lessons inevitably break or need substantial revision when a new version comes out. Teaching concepts rather than 'click on the _x_ button' helps make for sustainable tutorials.
 
@@ -34,7 +32,7 @@ The *Programming Historian* is hosted at [GitHub](http://github.com), which is a
 
 This means that we we ask that authors adhere to the following lesson requirements, which are not merely stylistic, but in fact necessary for our publishing platform. While our technical requirements may be unfamiliar to you, **we are here to help you through the process and learn the technologies as you go.**
 
-Please note that as a volunteer-driven project, we are grateful for your attention to detail!
+Please note that as a volunteer-driven project, we are grateful for your attention to detail.
 
 
 ### Use plain text
@@ -275,7 +273,7 @@ Congratulations! You've published a lesson at *Programming Historian*!
   [Jessica Parr]: mailto:jparr1129@gmail.com
   [Lesson Pipeline wiki page]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
   [reviewer guidelines]: /reviewer-guidelines.html
-  [published lessons]: /en/lessons
+  [published lessons]: lessons
   [TextWrangler]: http://www.barebones.com/products/textwrangler/
   [Notepad++]: https://notepad-plus-plus.org/
   [project team]: /project-team.html
@@ -303,3 +301,4 @@ Congratulations! You've published a lesson at *Programming Historian*!
   [Git for Philosophers]: https://github.com/rzach/git4phi
   [GitHub Pages]: https://pages.github.com
   [ph-submissions]: https://github.com/programminghistorian/ph-submissions
+
