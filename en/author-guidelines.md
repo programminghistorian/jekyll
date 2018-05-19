@@ -45,7 +45,7 @@ The specific editor you choose is not important, but you should begin writing yo
 Name your new lesson file following these guidelines:
 
 -   Make the filename all lowercase, and short but descriptive. This filename will
-    eventually become the [slug] for the lesson's URL when published. For example, the lesson titled "Getting Started with Markdown" has a slug of `getting-started-with-markdown` and a URL of <http://programminghistorian.org/lessons/getting-started-with-markdown>. Please see existing lessons for more concrete examples.
+    eventually become the [slug] for the lesson's URL when published. For example, the lesson titled "Getting Started with Markdown" has a slug of `getting-started-with-markdown` and a URL of <https://programminghistorian.org/en/lessons/getting-started-with-markdown>. Please see existing lessons for more concrete examples.
 -   Your slug will be referenced later in these directions as LESSON-SLUG.
 -    Think about how potential readers might search for something like your lesson. A keyword-rich slug is a good way to get search-engine traffic.
 -   Do not put spaces or underscores in the filename; use hyphens instead.

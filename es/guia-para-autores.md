@@ -47,7 +47,7 @@ El editor de textos que elijas no es relevante pero, por favor, comienza tu trad
 
 Identifica tu traduccion o lección nueva siguiendo estas instrucciones:
 
-- El nombre de archivo debe estar en minúscula y ser breve pero descriptivo. Este nombre de archivo se convertirá al final en el *[slug]* de la URL con que se publique en internet. Por ejemplo, la lección titulada "Getting Started with Markdown" tiene el *slug* `getting-started-with-markdown` y la URL <http://programminghistorian.org/lessons/getting-started-with-markdown>. Para más ejemplos, consulta el resto de lecciones publicadas.
+- El nombre de archivo debe estar en minúscula y ser breve pero descriptivo. Este nombre de archivo se convertirá al final en el *[slug]* de la URL con que se publique en internet. Por ejemplo, la lección titulada "Getting Started with Markdown" tiene el *slug* `getting-started-with-markdown` y la URL <https://programminghistorian.org/en/lessons/getting-started-with-markdown>. Para más ejemplos, consulta el resto de lecciones publicadas.
 -   Tu *slug* será referenciado más tarde de la siguiente manera: LECCION-SLUG.
 -    Ten en cuenta cómo los lectores potenciales pueden encontrar tu lección en los buscadores. Un *slug* que se componga de palabras claves es una muy buena forma de recibir visitas.
 -   No utilices espacios o guiones bajos `(_)` para separar palabras, utiliza el guion medio `(-)`.

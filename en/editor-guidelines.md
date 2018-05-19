@@ -128,7 +128,7 @@ There are a few areas where you should intervene in the process from a technical
 The **Editor** should suggest a name for the new lesson file that conforms to these guidelines:
 
 - Make the filename short, but descriptive; this filename will eventually become the slug for the lesson's URL when published.
-- A good URL would fit nicely on a powerpoint slide, is easy to remember, and tells you something about the lesson. Our URLS take the following format: http://programminghistorian.org/lessons/FILENAME-HERE
+- A good URL would fit nicely on a powerpoint slide, is easy to remember, and tells you something about the lesson. Our URLS take the following format: https://programminghistorian.org/en/lessons/FILENAME-HERE
 - Do not put spaces in the filename; use hyphens instead.
 - The filename extension should be `.md` so that GitHub will generate a preview of the lesson.
 
