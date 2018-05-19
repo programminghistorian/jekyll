@@ -80,7 +80,7 @@ ties. (Nodes are also referred to as "vertices" and ties are referred to as "edg
 Databases are designed for dealing with large amounts of data.
 However, when working with small datasets it is often more efficient not to use a database.
 The *Programming Historian* has excellent tutorials for dealing with network data.
-For an introduction, see [Exploring and Analyzing Network Data with Python](https://programminghistorian.org/lessons/exploring-and-analyzing-network-data-with-python).
+For an introduction, see [Exploring and Analyzing Network Data with Python](/lessons/exploring-and-analyzing-network-data-with-python).
 
 
 # Installing and creating a Neo4j database 

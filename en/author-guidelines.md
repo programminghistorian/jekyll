@@ -285,7 +285,7 @@ Congratulations! You've published a lesson at *Programming Historian*!
   [the raw text on GitHub]: https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/author-guidelines.md
   [elements provided by HTML5]: http://html5doctor.com/the-figure-figcaption-elements/
   [example of the preview with figures here]: https://github.com/programminghistorian/jekyll/commit/476f6d466d7dc4c36048954d2e1f309a597a4b87#diff-f61eee270fe5a122a0163ebf0e2f8725L28
-  [live version here]: http://programminghistorian.org/lessons/automated-downloading-with-wget#lesson-goals
+  [live version here]: /lessons/automated-downloading-with-wget#lesson-goals
   [extended table syntax]: http://kramdown.gettalong.org/syntax.html#tables
   [pandoc]: http://johnmacfarlane.net/pandoc/
   [fenced code blocks]: https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks

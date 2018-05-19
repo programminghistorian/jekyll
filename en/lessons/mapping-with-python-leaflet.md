@@ -32,7 +32,7 @@ In this lesson, you will learn how to create a web map based on that data.  By t
 
 This lesson uses:
 
-- [python](https://programminghistorian.org/lessons/?topic=python) ([pip](http://pip.readthedocs.org/en/stable/), [geopy](https://github.com/geopy/geopy), [pandas](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe))
+- [python](/lessons/?topic=python) ([pip](http://pip.readthedocs.org/en/stable/), [geopy](https://github.com/geopy/geopy), [pandas](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe))
 - [leaflet](http://leafletjs.com/)
 - [geojson.io (from mapbox)](http://geojson.io/)
 - [javascript](https://www.javascript.com/) and [jquery](https://jquery.com/)
@@ -69,19 +69,19 @@ To clarify, we need to figure out how to gather coordinates for a location for e
 
 There's a simple way to do this: you can look up a coordinate online in Google Maps and put each coordinate in your spreadsheet manually.  But, if you had 5,000 points the task becomes a little bit more daunting. If you're faced with a repetitive task, it might be worthwhile to approach it programmatically.
 
-If you're familiar with _Programming Historian_, you might have already noticed that there there are many [lessons available on how to use Python](https://programminghistorian.org/lessons/?topic=python).  Python is a great beginner programming language because it is easy to read and happens to be used a lot in GIS applications to optimize workflows.  One of the biggest advantages to Python is the impressive amount of libraries which act like pluggable tools to use for many different tasks.  Knowing that this is a good programmatic approach, we're now going to build a Python script that will automate geocode every address for us.
+If you're familiar with _Programming Historian_, you might have already noticed that there there are many [lessons available on how to use Python](/lessons/?topic=python).  Python is a great beginner programming language because it is easy to read and happens to be used a lot in GIS applications to optimize workflows.  One of the biggest advantages to Python is the impressive amount of libraries which act like pluggable tools to use for many different tasks.  Knowing that this is a good programmatic approach, we're now going to build a Python script that will automate geocode every address for us.
 
 [Geopy](https://github.com/geopy/geopy) is a Python library that gives you access to the various geocoding APIs.  Geopy makes it easy for Python developers to locate the coordinates of addresses, cities, countries, and landmarks across the globe using third-party geocoders and other data sources. Geopy includes geocoders built by OpenStreetMap Nominatim, ESRI ArcGIS, Google Geocoding API (V3), Baidu Maps, Bing Maps API, Yahoo! PlaceFinder, Yandex, IGN France, GeoNames, NaviData, OpenMapQuest, What3Words, OpenCage, SmartyStreets, geocoder.us, and GeocodeFarm geocoder services.
 
 [Pandas](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe) is another python library that we will use.  It's very popular library amongst scientists and mathematicians to manipulate and analyse data.
 
-Finally, [Pip](http://pip.readthedocs.org/en/stable/) is a very useful package manager to help you install things like Geopy and Pandas! If you've [already installed Python](http://programminghistorian.org/lessons/introduction-and-installation) and [installed pip](https://programminghistorian.org/lessons/installing-python-modules-pip), type ```pip list``` to see if you already have the geopy and pandas packages installed. If you do not have pip installed, you can download [get-pip.py](https://bootstrap.pypa.io/get-pip.py), then from your command line go to the directory where get-pip.py is located and run
+Finally, [Pip](http://pip.readthedocs.org/en/stable/) is a very useful package manager to help you install things like Geopy and Pandas! If you've [already installed Python](/lessons/introduction-and-installation) and [installed pip](/lessons/installing-python-modules-pip), type ```pip list``` to see if you already have the geopy and pandas packages installed. If you do not have pip installed, you can download [get-pip.py](https://bootstrap.pypa.io/get-pip.py), then from your command line go to the directory where get-pip.py is located and run
 
 ```python get-pip.py ```
 
 For the most up to date instructions, you can visit [pip's installation manual](http://pip.readthedocs.org/en/stable/installing/).
 
-To install Geopy and Pandas, open your [command line (using this lesson as a guideline if necessary)](http://programminghistorian.org/lessons/intro-to-bash) and install the Geopy and Pandas libraries:
+To install Geopy and Pandas, open your [command line (using this lesson as a guideline if necessary)](/lessons/intro-to-bash) and install the Geopy and Pandas libraries:
 
 On OS X or Linux, the following commands will install the necessary packages:
 
@@ -838,4 +838,4 @@ Congratulations! You now have some hands-on experience geocoding using common Py
 
 If you want to explore other web mapping features with Leaflet, there are a number of additional [plugins](http://leafletjs.com/plugins.html) to try out. Of particular interest may be ability to create [time based visualizations](https://github.com/skeate/Leaflet.timeline) and do [heat-mapping](https://github.com/pa7/heatmap.js).
 
-Also, check out the Programming Historian Lesson [Using Javascript to Create Maps of Correspondence](https://programminghistorian.org/lessons/using-javascript-to-create-maps) that goes in depth on how to analyze correspondence using geospatial software, and using some of the same tools as this lesson.
+Also, check out the Programming Historian Lesson [Using Javascript to Create Maps of Correspondence](/lessons/using-javascript-to-create-maps) that goes in depth on how to analyze correspondence using geospatial software, and using some of the same tools as this lesson.

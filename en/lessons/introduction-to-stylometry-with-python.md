@@ -48,7 +48,7 @@ At the end of this lesson, we will have examined the following topics:
 
 ## Prior Reading
 
-If you do not have experience with the Python programming language or are finding examples in this tutorial difficult, the author recommends you read the lessons on [Working with Text Files in Python](https://programminghistorian.org/lessons/working-with-text-files) and [Manipulating Strings in Python](https://programminghistorian.org/lessons/manipulating-strings-in-python). Please note, that those lessons were written in Python version 2 whereas this one uses Python version 3. The differences in [syntax](https://en.wikipedia.org/wiki/Syntax) between the two versions of the language can be subtle. If you are confused at any time, follow the examples as written in this lesson and use the other lessons as background material. (More precisely, the code in this tutorial was written using [Python 3.6.4](https://www.python.org/downloads/release/python-364/); the [f-string construct](https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals) in the line `with open(f'data/federalist_{filename}.txt') as f:`, for example, requires Python 3.6 or a more recent version of the language.) 
+If you do not have experience with the Python programming language or are finding examples in this tutorial difficult, the author recommends you read the lessons on [Working with Text Files in Python](/lessons/working-with-text-files) and [Manipulating Strings in Python](/lessons/manipulating-strings-in-python). Please note, that those lessons were written in Python version 2 whereas this one uses Python version 3. The differences in [syntax](https://en.wikipedia.org/wiki/Syntax) between the two versions of the language can be subtle. If you are confused at any time, follow the examples as written in this lesson and use the other lessons as background material. (More precisely, the code in this tutorial was written using [Python 3.6.4](https://www.python.org/downloads/release/python-364/); the [f-string construct](https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals) in the line `with open(f'data/federalist_{filename}.txt') as f:`, for example, requires Python 3.6 or a more recent version of the language.) 
 
 ## Required materials
 
@@ -66,7 +66,7 @@ This lesson uses the following Python language versions and [libraries](https://
 * [nltk](https://www.nltk.org/) - Natural Language Toolkit, usually abbreviated `nltk`.
 * [matplotlib](https://matplotlib.org/)
 
-Some of these modules may not be pre-installed on your computer. Should you encounter error messages such as: "Module not found" or similar, you will have to download and install the missing module(s). This is easiest to accomplish using the `pip` command. Full details are available via the *Programming Historian* lesson on [Installing Python modules with pip](https://programminghistorian.org/lessons/installing-python-modules-pip). 
+Some of these modules may not be pre-installed on your computer. Should you encounter error messages such as: "Module not found" or similar, you will have to download and install the missing module(s). This is easiest to accomplish using the `pip` command. Full details are available via the *Programming Historian* lesson on [Installing Python modules with pip](/lessons/installing-python-modules-pip). 
 
 ## Some Notes about Language Independence
 
@@ -141,7 +141,7 @@ papers = {
 
 Python dictionaries are very flexible. For example, we can access a value by *indexing* the dictionary with one of its keys, we can scan the entire dictionary by looping over its list of keys, etc. We will make ample use of this functionality as we move along.
 
-Next, as we are interested in each author's vocabulary, we will define a short Python [function](https://en.wikipedia.org/wiki/Subroutine) that creates a long listing of the words in each of the papers assigned to a single author. This will be stored as a [string](https://en.wikipedia.org/wiki/String_(computer_science)). Open your chosen Python development environment. If you do not know how to do this, you should read Setting up an Integrated Development Environment ([Mac](https://programminghistorian.org/lessons/mac-installation)), ([Linux](https://programminghistorian.org/lessons/linux-installation)), ([Windows](https://programminghistorian.org/lessons/windows-installation)) before continuing.
+Next, as we are interested in each author's vocabulary, we will define a short Python [function](https://en.wikipedia.org/wiki/Subroutine) that creates a long listing of the words in each of the papers assigned to a single author. This will be stored as a [string](https://en.wikipedia.org/wiki/String_(computer_science)). Open your chosen Python development environment. If you do not know how to do this, you should read Setting up an Integrated Development Environment ([Mac](/lessons/mac-installation)), ([Linux](/lessons/linux-installation)), ([Windows](/lessons/windows-installation)) before continuing.
 
 ```python
 # A function that compiles all of the text files associated with a single author into a single string

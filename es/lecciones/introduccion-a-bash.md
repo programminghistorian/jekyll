@@ -135,7 +135,7 @@ Cuando quieres utilizar dos banderas puedes simplemente ejecutarlas juntas. Así
 
 obtendrás una salida en un formato legible para seres humanos; aprenderás que 6020 bits son también 5.9KB, que otro archivo tiene 1 megabite y así sucesivamente.
 
-Estas opciones son *muy* importantes. Lo verás en otras lecciones de *The Programming Historian en español*. [Wget](http://programminghistorian.org//lessons/applied-archival-downloading-with-wget), [MALLET](http://programminghistorian.org//lessons/topic-modeling-and-mallet) y [Pandoc](http://programminghistorian.org//lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) utilizan la misma sintaxis. Afortunadamente no necesitas memorizar la sintaxis; en lugar de ello, mantén estas lecciones a mano para que puedas echar un vistazo rápido si es necesario ajustar algo. Estas lecciones se pueden hacer en cualquier orden.
+Estas opciones son *muy* importantes. Lo verás en otras lecciones de *The Programming Historian en español*. [Wget](/lessons/applied-archival-downloading-with-wget), [MALLET](/lessons/topic-modeling-and-mallet) y [Pandoc](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) utilizan la misma sintaxis. Afortunadamente no necesitas memorizar la sintaxis; en lugar de ello, mantén estas lecciones a mano para que puedas echar un vistazo rápido si es necesario ajustar algo. Estas lecciones se pueden hacer en cualquier orden.
 
 Ya has estado mucho tiempo en tu directorio personal. Vamos a otro lugar; puedes hacerlo a través del comando `cd` que significa 'Cambiar de directorio'.
 
@@ -167,7 +167,7 @@ O en Windows algo como:
 
 `cd c:\mallet-2.0.7\`
 
-e ir a nuestro directorio MALLET para [modelado de tópicos](http://programminghistorian.org//lessons/topic-modeling-and-mallet).
+e ir a nuestro directorio MALLET para [modelado de tópicos](/lessons/topic-modeling-and-mallet).
 
 Finalmente, prueba:
 
@@ -193,7 +193,7 @@ Esto crea un directorio llamado (¡adivinaste!) `ProgHist-Textos`. En general, e
 
 Pero ¡espera! Hay un truco para hacer las cosas un poco más rápido. Ve arriba un directorio (`cd ..`, lo cual te llevará de regreso al escritorio). Para navegar al directorio `ProgHist-Textos` puedes escribir `cd ProgHist-Textos`. Alternativamente puedes escribir `cd Prog` y luego pulsar la tecla de tabulador. Te darás cuenta de que la interfaz completa la línea como `cd ProgHist-Textos`. **Si pulsas el tabulador en cualquier momento dentro del *shell* le pedirás que intente completar automáticamente la línea en función de los archivos o subdirectorios que estén en el directorio actual. Sin embargo, la función es sensible a mayúsculas (así, en el ejemplo anterior, `cd prog` no podrá autocompletarse como `cd ProgHist-Textos`). En donde haya dos archivos con los mismos caracteres, autocompletar solamente llenará la línea hasta el primer punto de diferencia. Sugerimos utilizar este método a lo largo de la lección para ver cómo se comporta.**
 
-Ahora necesitas encontrar un archivo de texto básico para que nos ayude con el ejemplo. ¿Por qué no utilizar un libro que sabes que es largo, como la épica "Guerra y Paz" de Leon Tolstói? El archivo de texto está disponible en [Project Gutenberg](http://www.gutenberg.org/ebooks/2600). Si ya instalaste [wget](http://programminghistorian.org//lessons/applied-archival-downloading-with-wget), puedes escribir:
+Ahora necesitas encontrar un archivo de texto básico para que nos ayude con el ejemplo. ¿Por qué no utilizar un libro que sabes que es largo, como la épica "Guerra y Paz" de Leon Tolstói? El archivo de texto está disponible en [Project Gutenberg](http://www.gutenberg.org/ebooks/2600). Si ya instalaste [wget](/lessons/applied-archival-downloading-with-wget), puedes escribir:
 
 `wget  http://www.gutenberg.org/files/2600/2600-0.txt`
 
@@ -307,7 +307,7 @@ Para abandonar Vim o guardar cambios, tienes que introducir una serie de comando
 
 Si deseas salir del programa, escribe de nuevo `:` y luego `q`. Esto te regresará a la línea de comandos. Al igual que con el resto de *bash*, también podrías haber combinado los dos comandos. Presionando `:` y luego poniendo `wq` habríamos guardado el archivo y luego habríamos salido del programa. O, si querías salir **sin** guardar, `q!`, habrías salido de Vim y cancelado la preferencia de sobreescribir, por defecto, para guardar tus cambios.
 
-Vim es diferente a los procesadores de texto a los que estás acostumbrado y requerirá más trabajo y práctica para llegar a tener fluidez en su uso. Pero si estás ajustando cosas menores en archivos, es una buena manera de empezar. A medida que te sientas más cómodo podrías incluso escribir documentos con él, aprovechando el potencial de [formar y poner notas a pie de Pandoc y Markdown](http://programminghistorian.org//lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
+Vim es diferente a los procesadores de texto a los que estás acostumbrado y requerirá más trabajo y práctica para llegar a tener fluidez en su uso. Pero si estás ajustando cosas menores en archivos, es una buena manera de empezar. A medida que te sientas más cómodo podrías incluso escribir documentos con él, aprovechando el potencial de [formar y poner notas a pie de Pandoc y Markdown](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
 
 ## Mover, copiar y borrar archivos
 

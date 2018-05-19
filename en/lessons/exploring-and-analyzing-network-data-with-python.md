@@ -32,23 +32,23 @@ redirect_from: /lessons/exploring-and-analyzing-network-data-with-python
 ## Lesson Goals
 
 In this tutorial, you will learn:
-- To use the [**NetworkX**](https://networkx.github.io/documentation/stable/index.html) package for working with network data in [**Python**](http://programminghistorian.org/lessons/introduction-and-installation); and
+- To use the [**NetworkX**](https://networkx.github.io/documentation/stable/index.html) package for working with network data in [**Python**](/lessons/introduction-and-installation); and
 - To analyze humanities network data to find:
     - Network structure and path lengths,
     - Important or central nodes, and
     - Communities and subgroups
 
-**n.b.:** This is a tutorial for exploring network statistics and metrics. We will therefore focus on ways to analyze, and draw conclusions from, networks without visualizing them. You'll likely want a combination of visualization and network metrics in your own project, and so we recommend this article as a companion to [this earlier Programming Historian tutorial](http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources).
+**n.b.:** This is a tutorial for exploring network statistics and metrics. We will therefore focus on ways to analyze, and draw conclusions from, networks without visualizing them. You'll likely want a combination of visualization and network metrics in your own project, and so we recommend this article as a companion to [this earlier Programming Historian tutorial](/lessons/creating-network-diagrams-from-historical-sources).
 
 ## Prerequisites
 
 This tutorial assumes that you have:
 
-- a basic familiarity with networks and/or have read  ["From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources"](http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources) by Martin Düring here on *Programming Historian*;
+- a basic familiarity with networks and/or have read  ["From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources"](/lessons/creating-network-diagrams-from-historical-sources) by Martin Düring here on *Programming Historian*;
 - Installed Python 3, not the Python 2 that is installed natively in Unix-based operating systems such as Macs (If you need assistance installing Python 3, check out the [Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/starting/installation/)); and
 - Installed the `pip` package installer.[^pipinstall]
 
-It's possible to have two versions of Python (2 *and* 3) installed on your computer at one time. For this reason, when accessing Python 3 you will often have to explicitly declare it by typing `python3` and `pip3` instead of simply `python` and `pip`. Check out the *Programming Historian* tutorials on [installing Python](http://programminghistorian.org/lessons/introduction-and-installation) and [working with pip](http://programminghistorian.org/lessons/installing-python-modules-pip) for more information.
+It's possible to have two versions of Python (2 *and* 3) installed on your computer at one time. For this reason, when accessing Python 3 you will often have to explicitly declare it by typing `python3` and `pip3` instead of simply `python` and `pip`. Check out the *Programming Historian* tutorials on [installing Python](/lessons/introduction-and-installation) and [working with pip](/lessons/installing-python-modules-pip) for more information.
 
 ## What might you learn from network data?
 
@@ -70,7 +70,7 @@ Since scholars have long linked Quakers' growth and endurance to the effectivene
 
 Before beginning this tutorial, you will need to download two files that together constitute our network dataset. The file <a href="{{ root_url }}/assets/exploring-and-analyzing-network-data-with-python/quakers_nodelist.csv" download="quakers_nodelist.csv">quakers_nodelist.csv</a> is a list of early modern Quakers (nodes) and the file <a href="{{ root_url }}/assets/exploring-and-analyzing-network-data-with-python/quakers_edgelist.csv" download="quakers_edgelist.csv">quakers_edgelist.csv</a> is a list of relationships between those Quakers (edges). To download these files, simply right-click on the links and select "Save Link As...".
 
-It will be extremely helpful to familiarize yourself with the structure of the dataset before continuing. For more on the general structure of network datasets, see [this tutorial](http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources#developing-a-coding-scheme). When you open the node file in the program of your choice, you will see that each Quaker is primarily identified by their name. Each Quaker node also has a number of associated attributes including historical significance, gender, birth/death dates, and SDFB ID---a unique numerical identifier that will enable you to cross-reference nodes in this dataset with the original *Six Degrees of Francis Bacon* dataset, if desired. Here are the first few lines:
+It will be extremely helpful to familiarize yourself with the structure of the dataset before continuing. For more on the general structure of network datasets, see [this tutorial](/lessons/creating-network-diagrams-from-historical-sources#developing-a-coding-scheme). When you open the node file in the program of your choice, you will see that each Quaker is primarily identified by their name. Each Quaker node also has a number of associated attributes including historical significance, gender, birth/death dates, and SDFB ID---a unique numerical identifier that will enable you to cross-reference nodes in this dataset with the original *Six Degrees of Francis Bacon* dataset, if desired. Here are the first few lines:
 
 ```
 Name,Historical Significance,Gender,Birthdate,Deathdate,ID
@@ -94,7 +94,7 @@ George Keith,Franciscus Mercurius van Helmont
 George Keith,William Penn
 ```
 
-Now that you've downloaded the Quaker data and had a look at how it's structured, it's time to begin working with that data in Python. Once both Python and pip are installed (see Prerequisites, above) you'll want to install NetworkX, by typing this into your [command line](http://programminghistorian.org/lessons/intro-to-bash):[^pip]
+Now that you've downloaded the Quaker data and had a look at how it's structured, it's time to begin working with that data in Python. Once both Python and pip are installed (see Prerequisites, above) you'll want to install NetworkX, by typing this into your [command line](/lessons/intro-to-bash):[^pip]
 
 ```
 pip3 install networkx
@@ -120,7 +120,7 @@ And that's it! You're ready to start coding.
 
 ## Reading files, importing data
 
-Start a new, blank plaintext file in the same directory as your data files called `quaker_network.py` (For more details on installing and running Python, see [this tutorial](http://programminghistorian.org/lessons/mac-installation)). At the top of that file, import the libraries you need. You'll need four libraries---the two we just installed, and two built-in Python libraries. You can type:
+Start a new, blank plaintext file in the same directory as your data files called `quaker_network.py` (For more details on installing and running Python, see [this tutorial](/lessons/mac-installation)). At the top of that file, import the libraries you need. You'll need four libraries---the two we just installed, and two built-in Python libraries. You can type:
 
 ```python
 import csv
@@ -144,7 +144,7 @@ with open('quakers_edgelist.csv', 'r') as edgecsv: # Open the file
     edges = [tuple(e) for e in edgereader][1:] # Retrieve the data
 ```
 
-This code performs similar functions to the ones in [this tutorial](http://programminghistorian.org/lessons/working-with-text-files) but uses the CSV module to load your nodes and edges. You'll go back and get more node information later, but for now you need two things: the full list of nodes and a list of edge pairs (as tuples of nodes).[^slicing] These are the forms NetworkX will need to create a "graph object," a special NetworkX data type you'll learn about in the next section.
+This code performs similar functions to the ones in [this tutorial](/lessons/working-with-text-files) but uses the CSV module to load your nodes and edges. You'll go back and get more node information later, but for now you need two things: the full list of nodes and a list of edge pairs (as tuples of nodes).[^slicing] These are the forms NetworkX will need to create a "graph object," a special NetworkX data type you'll learn about in the next section.
 
 At this stage, before you start using NetworkX, you can do some basic sanity checks to make sure that your data loaded correctly using built-in Python functions and methods. Typing
 
@@ -333,7 +333,7 @@ After seeing what the *dataset* looks like, it's important to see what the *netw
 
 The network's shape and basic properties will give you a handle on what you're working with and what analyses seem reasonable. You already know the number of nodes and edges, but what does the network 'look' like? Do nodes cluster together, or are they equally spread out? Are there complex structures, or is every node arranged along a straight line?
 
-The visualization below, created in network visualization tool [Gephi](https://gephi.org/), will give you an idea of the topology of this network.[^singletons] You could create a similar graph in Palladio following [this tutorial](http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources).
+The visualization below, created in network visualization tool [Gephi](https://gephi.org/), will give you an idea of the topology of this network.[^singletons] You could create a similar graph in Palladio following [this tutorial](/lessons/creating-network-diagrams-from-historical-sources).
 
 {% include figure.html filename="exploring-and-analyzing-network-data-with-python-1.png" caption="Force-directed network visualization of the Quaker data, created in Gephi" %}
 

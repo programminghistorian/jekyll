@@ -1482,7 +1482,7 @@ Happy hunting!
   [Introduction to the Bash Command Line]: /lessons/intro-to-bash
   [Automated Downloading with wget]: /lessons/automated-downloading-with-wget
   [Understanding Regular Expressions]: /lessons/understanding-regular-expressions
-  [Intro to Beautiful Soup]: http://programminghistorian.org/lessons/intro-to-beautiful-soup
+  [Intro to Beautiful Soup]: /lessons/intro-to-beautiful-soup
   [documentation for developers]: http://www.oldbaileyonline.org/static/DocAPI.jsp
   [Old Bailey search page]: http://www.oldbaileyonline.org/forms/formMain.jsp
   [pypy]: http://pypy.org/

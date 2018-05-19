@@ -323,7 +323,7 @@ Markdown es un término medio muy útil entre los archivos de texto plano sin es
 
 
 [John Gruber]: http://daringfireball.net/projects/markdown/
-[Autoría sustentable utilizando Pandoc y Markdown]: http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+[Autoría sustentable utilizando Pandoc y Markdown]: /lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 [StackEdit]: https://stackedit.io
 [editor de StackEdit]: https://stackedit.io/editor
 [GitHub Flavored Markdown]: https://help.github.com/articles/github-flavored-markdown/

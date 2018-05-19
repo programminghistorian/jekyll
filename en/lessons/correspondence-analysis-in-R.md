@@ -35,9 +35,9 @@ After reading this tutorial, you should:
 
 This tutorial is for intermediate programming historians. It assumes you have basic understanding of R and some basic statistical knowledge.
 
-Taryn Dewar's tutorial on [R Basics with Tabular Data](http://programminghistorian.org/lessons/r-basics-with-tabular-data) has information on how to set up and configure R. Taylor Arnold and Lauren Tilton's tutorial on [Basic Text Processing in R](http://programminghistorian.org/lessons/basic-text-processing-in-r) could be helpful as a warm-up, also. 
+Taryn Dewar's tutorial on [R Basics with Tabular Data](/lessons/r-basics-with-tabular-data) has information on how to set up and configure R. Taylor Arnold and Lauren Tilton's tutorial on [Basic Text Processing in R](/lessons/basic-text-processing-in-r) could be helpful as a warm-up, also. 
 
- Since CA is a kind of social network analysis, it would not hurt to look at Marten Düring's [From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources](http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources) which also has some useful information on structuring data for network analysis. 
+ Since CA is a kind of social network analysis, it would not hurt to look at Marten Düring's [From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources](/lessons/creating-network-diagrams-from-historical-sources) which also has some useful information on structuring data for network analysis. 
 
 ## What is Correspondence Analysis?
 

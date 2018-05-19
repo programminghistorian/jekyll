@@ -1161,7 +1161,7 @@ Peter Organisciak, Loretta Auvil, J. Stephen Downie (2015). “Remembering books
 
 Stéfan Sinclair & Geoffrey Rockwell (2016). "The Art of Literary Text Analysis." Github.com. Commit b04bc18. https://github.com/sgsinclair/alta.
 
-William J. Turkel and Adam Crymble (2012). "Counting Word Frequencies with Python". The Programming Historian. http://programminghistorian.org/lessons/counting-frequencies.
+William J. Turkel and Adam Crymble (2012). "Counting Word Frequencies with Python". The Programming Historian. /lessons/counting-frequencies.
 
 Ted Underwood (2014): Understanding Genre in a Collection of a Million Volumes, Interim Report. figshare.
 https://dx.doi.org/10.6084/m9.figshare.1281251.v1.

@@ -41,7 +41,7 @@ This deepened our challenge, however, because our original HTML files did not pl
 <article>
 <header>
 <p class="kicker">March 3, 2014</p>
-<h1><a href="http://programminghistorian.org/lessons/data-mining-the-internet-archive">Data Mining the Internet Archive Collection</a></h1>
+<h1><a href="/lessons/data-mining-the-internet-archive">Data Mining the Internet Archive Collection</a></h1>
 <p class="byline">By Caleb McDaniel</p>
 <ul class="credits">
 <li class="technical-reviewer">Technical Reviewer: William J Turkel</li>

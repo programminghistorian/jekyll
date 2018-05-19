@@ -242,7 +242,7 @@ that’s ok!
 
 -   programming-historian-2 ([zip][])
 
-  [http://programminghistorian.org/lessons/working-with-web-pages]: /lessons/working-with-web-pages
+  [/lessons/working-with-web-pages]: /lessons/working-with-web-pages
   [Benjamin Bowsey’s 1780 criminal trial transcript]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
   [HTML]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33-defend448&div=t17800628-33
   [XML]: http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes

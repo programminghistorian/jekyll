@@ -20,7 +20,7 @@ Some additional ideas include:
 
 ## A Manageable Scope
 
-_Programming Historian_ authors are nothing if not ambitious. That's great, but sometimes we receive pitches for lessons that simply want to do too much, such as teach an entire programming language, or cover everything one needs to know about a category of research. Some of these ideas would make better textbooks than tutorials. If you are too ambitious with the scope of your lesson, chances are you'll have trouble writing it. A good lesson does one thing well. Take a look at our [published lessons](http://programminghistorian.org/lessons/) for a sense of what's possible. 
+_Programming Historian_ authors are nothing if not ambitious. That's great, but sometimes we receive pitches for lessons that simply want to do too much, such as teach an entire programming language, or cover everything one needs to know about a category of research. Some of these ideas would make better textbooks than tutorials. If you are too ambitious with the scope of your lesson, chances are you'll have trouble writing it. A good lesson does one thing well. Take a look at our [published lessons](/lessons/) for a sense of what's possible. 
 
 ## Multiple Lessons
 

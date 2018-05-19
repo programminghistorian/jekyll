@@ -300,8 +300,8 @@ In summary: it's worth thinking about:
 [43]: http://hfroehlich.wordpress.com/2014/05/11/intro-bibliography-corpus-linguistics/
 [47]: http://hfroehli.ch/workshops/getting-started-with-antconc/
 [48]: http://voyant-tools.org/
-[50]: http://programminghistorian.org/lessons/intro-to-beautiful-soup
-[51]: http://programminghistorian.org/lessons/automated-downloading-with-wget
+[50]: /lessons/intro-to-beautiful-soup
+[51]: /lessons/automated-downloading-with-wget
 [52]: http://www.antlab.sci.waseda.ac.jp/
 [53]: http://notepad-plus-plus.org/
 [54]: http://www.barebones.com/products/textwrangler/

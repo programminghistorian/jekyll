@@ -52,7 +52,7 @@ In this tutorial you will make a database of newspaper stories that contain word
 R, R Studio, MySQL Server and MySQL Workbench are the pieces of software required for this lesson.  Notes on installing these software packages are below.
 
 ## R
-In their lesson [Basic Text Processing in R](https://programminghistorian.org/lessons/basic-text-processing-in-r)[^3], Taylor Arnold and Lauren Tilton provide an excellent summary of the knowledge of R required for this lesson.  Only basic knowledge of R is assumed. Taryn Dewar's lesson ['R Basics with Tabular Data']( http://programminghistorian.org/lessons/r-basics-with-tabular-data)[^4]
+In their lesson [Basic Text Processing in R](/lessons/basic-text-processing-in-r)[^3], Taylor Arnold and Lauren Tilton provide an excellent summary of the knowledge of R required for this lesson.  Only basic knowledge of R is assumed. Taryn Dewar's lesson ['R Basics with Tabular Data']( /lessons/r-basics-with-tabular-data)[^4]
 covers how to install R and become familiar with it.
 
 ### Download R
@@ -816,8 +816,8 @@ Ullman, L. 2005. *PHP and MySQL for Dynamic Web Sites, 2nd ed.* Berkeley, Calif:
 
 [^2]: Jason A. French, "Using R With MySQL Databases," blog (3 July 2014), [http://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/](http://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/).
 
-[^3]: Taylor Arnold and Lauren Tilton, "Basic Text Processing in R," Programming Historian (27 March 2017), [https://programminghistorian.org/lessons/basic-text-processing-in-r](https://programminghistorian.org/lessons/basic-text-processing-in-r).
+[^3]: Taylor Arnold and Lauren Tilton, "Basic Text Processing in R," Programming Historian (27 March 2017), [/lessons/basic-text-processing-in-r](/lessons/basic-text-processing-in-r).
 
-[^4]: Taryn Dewar, "R Basics with Tabular Data," Programming Historian (05 September 2016), [http://programminghistorian.org/lessons/r-basics-with-tabular-data](http://programminghistorian.org/lessons/r-basics-with-tabular-data).
+[^4]: Taryn Dewar, "R Basics with Tabular Data," Programming Historian (05 September 2016), [/lessons/r-basics-with-tabular-data](/lessons/r-basics-with-tabular-data).
 
 The R program I used to gather the sample data is [here](https://github.com/jeffblackadar/getting-started-with-mysql/blob/master/newspaper-search-and-store.R).

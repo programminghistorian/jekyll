@@ -368,7 +368,7 @@ Finalmente, el equipo editorial the *The Programming Historian en español* revi
   [the raw text on GitHub]: https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/new-lesson-workflow.md
   [elements provided by HTML5]: http://html5doctor.com/the-figure-figcaption-elements/
   [ilustración de ejemplo]: https://github.com/programminghistorian/jekyll/commit/476f6d466d7dc4c36048954d2e1f309a597a4b87#diff-f61eee270fe5a122a0163ebf0e2f8725L28
-  [versión en línea]: http://programminghistorian.org/lessons/automated-downloading-with-wget#lesson-goals
+  [versión en línea]: /lessons/automated-downloading-with-wget#lesson-goals
   [sintaxis extendida]: http://kramdown.gettalong.org/syntax.html#tables
   [pandoc]: http://johnmacfarlane.net/pandoc/
   [insertar código aquí]: https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks

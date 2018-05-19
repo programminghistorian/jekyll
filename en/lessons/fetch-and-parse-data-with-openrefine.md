@@ -22,7 +22,7 @@ redirect_from: /lessons/fetch-and-parse-data-with-openrefine
 # Lesson Goals
 
 OpenRefine is a powerful tool for exploring, cleaning, and transforming data. 
-An earlier Programming Historian lesson, ["Cleaning Data with OpenRefine"](http://programminghistorian.org/lessons/cleaning-data-with-openrefine), introduced the basic functionality of Refine to efficiently discover and correct inconsistency in a data set.
+An earlier Programming Historian lesson, ["Cleaning Data with OpenRefine"](/lessons/cleaning-data-with-openrefine), introduced the basic functionality of Refine to efficiently discover and correct inconsistency in a data set.
 Building on those essential data wrangling skills, this lesson focuses on Refine's ability to fetch URLs and parse web content.
 Examples introduce some of the advanced features to transform and enhance a data set including: 
 
@@ -32,12 +32,12 @@ Examples introduce some of the advanced features to transform and enhance a data
 - use array functions to manipulate string values
 - use Jython to extend Refine's functionality
 
-It will be helpful to have basic familiarity with [OpenRefine](http://programminghistorian.org/lessons/cleaning-data-with-openrefine), [HTML](https://programminghistorian.org/lessons/viewing-html-files), and programming concepts such as variables and loops to complete this lesson.
+It will be helpful to have basic familiarity with [OpenRefine](/lessons/cleaning-data-with-openrefine), [HTML](/lessons/viewing-html-files), and programming concepts such as variables and loops to complete this lesson.
 
 ## Why Use OpenRefine?
 
 The ability to create data sets from unstructured documents available on the web opens possibilities for research using digitized primary materials, web archives, texts, and contemporary media streams. 
-Programming Historian lessons introduce a number of methods to gather and interact with this content, from [wget](http://programminghistorian.org/lessons/applied-archival-downloading-with-wget) to [Python](http://programminghistorian.org/lessons/intro-to-beautiful-soup).
+Programming Historian lessons introduce a number of methods to gather and interact with this content, from [wget](/lessons/applied-archival-downloading-with-wget) to [Python](/lessons/intro-to-beautiful-soup).
 When working with text documents, Refine is particularly suited for this task, allowing users to fetch urls and directly process the results in an iterative, exploratory manner.
 
 David Huynh, the creator of Freebase Gridworks (2009) which became GoogleRefine (2010) and then OpenRefine (2012+), describes Refine as:
@@ -623,7 +623,7 @@ Archaic words and phrases contribute significantly to the sonnets' sentiment, ye
 While comparing the metrics is fascinating, neither is likely to produce quality results for this data set.
 Rather than an accurate sentiment, we might be surprised to find a quantifiable dissonance between the sonnet's English and our modern web usage.
 However, a model optimized to Shakespeare's words could be developed using more appropriate training data.
-To learn more about classifiers and how to implement one, see Vilja Hulden's PH lesson ["Supervised Classification: The Naive Bayesian Returns to the Old Bailey"](http://programminghistorian.org/lessons/naive-bayesian) or Steven Bird, Ewan Klein, and Edward Loper's ["Learning to Classify Text"](http://www.nltk.org/book/ch06.html) in the [NTLK Book](http://www.nltk.org/book/).
+To learn more about classifiers and how to implement one, see Vilja Hulden's PH lesson ["Supervised Classification: The Naive Bayesian Returns to the Old Bailey"](/lessons/naive-bayesian) or Steven Bird, Ewan Klein, and Edward Loper's ["Learning to Classify Text"](http://www.nltk.org/book/ch06.html) in the [NTLK Book](http://www.nltk.org/book/).
 
 Accessing data and services on the web opens new possibilities and efficiencies for humanities research.
 While powerful, these APIs are often not aimed at humanities scholarship and may not be appropriate or optimized for our inquiries.

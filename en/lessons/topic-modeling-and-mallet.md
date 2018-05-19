@@ -599,7 +599,7 @@ report.
     'Methods' section is especially important, in that it discusses
     preparing text for this sort of analysis.
 
-  [Bash Command Line]: http://programminghistorian.org/lessons/intro-to-bash
+  [Bash Command Line]: /lessons/intro-to-bash
   [discussion list]: http://mallet.cs.umass.edu/mailinglist.php
   [Distant Reading]: http://www.cs.umbc.edu/~hillol/NGDM07/abstracts/talks/MKirschenbaum.pdf
   [Reading Machines]: http://www.worldcat.org/title/reading-machines-toward-an-algorithmic-criticism/oclc/708761605&referer=brief_results

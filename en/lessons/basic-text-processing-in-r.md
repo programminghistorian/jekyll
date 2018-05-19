@@ -37,7 +37,7 @@ elements in a corpus.
 
 All of these will be demonstrated on a dataset from the text of United States Presidential State of the Union Addresses.[^2]
 
-We assume that users have only a very basic understanding of the R programming language. The ['R Basics with Tabular Data' lesson by Taryn Dewar]( http://programminghistorian.org/lessons/r-basics-with-tabular-data)[^1] is an excellent guide that covers all of the R knowledge assumed here, such as installing and starting R, installing and loading packages, importing data and working with basic R data. Users can download R for their operating system from [The Comprehensive R Archive Network](https://cran.r-project.org/). Though not required, we also recommend that new users download [RStudio](https://www.rstudio.com/products/rstudio/#Desktop), an open source development environment for writing and executing R programs. 
+We assume that users have only a very basic understanding of the R programming language. The ['R Basics with Tabular Data' lesson by Taryn Dewar]( /lessons/r-basics-with-tabular-data)[^1] is an excellent guide that covers all of the R knowledge assumed here, such as installing and starting R, installing and loading packages, importing data and working with basic R data. Users can download R for their operating system from [The Comprehensive R Archive Network](https://cran.r-project.org/). Though not required, we also recommend that new users download [RStudio](https://www.rstudio.com/products/rstudio/#Desktop), an open source development environment for writing and executing R programs. 
 
 All of the code in this lesson was tested in R version 3.3.2, though we expect it to run properly on any future version of the software.
 
@@ -637,7 +637,7 @@ Many generic tutorials exist for all three of these, as well as extensive packag
 
 # Endnotes
 
-[^1]: Taryn Dewar, "R Basics with Tabular Data," Programming Historian (05 September 2016), [http://programminghistorian.org/lessons/r-basics-with-tabular-data](/lessons/r-basics-with-tabular-data).
+[^1]: Taryn Dewar, "R Basics with Tabular Data," Programming Historian (05 September 2016), [/lessons/r-basics-with-tabular-data](/lessons/r-basics-with-tabular-data).
 
 [^2]: Our corpus has 236 State of the Union addresses. Depending on exactly what is counted, this number can be slightly higher or lower.
 

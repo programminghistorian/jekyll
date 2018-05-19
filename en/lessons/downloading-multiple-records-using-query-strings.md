@@ -1208,5 +1208,5 @@ helpful:
   [regular expressions]: http://docs.python.org/2/library/re.html
   [Counting Frequencies]: /lessons/counting-frequencies
   [time out]: http://www.checkupdown.com/status/E408.html
-  [Python Programming Basics]: http://programminghistorian.org/lessons/introduction-and-installation
+  [Python Programming Basics]: /lessons/introduction-and-installation
   [try / except]: http://docs.python.org/tutorial/errors.html

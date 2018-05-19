@@ -166,7 +166,7 @@ Before we move on, there is one last thing to examine. Press the JSON button in 
 }
 ```
 
-Every Tracery grammar is actually a JSON object consisting of key/value pairs, which is what Tracery calls symbols and rules. (For more on JSON, please see [this tutorial by Matthew Lincoln](https://programminghistorian.org/lessons/json-and-jq)). This is the format we will be using when we actually set our bot up to start tweeting. JSON is finicky. Note how the symbols are wrapped in `"` as are the rules, but the rules are also listed with commas inside `[` and `]`. Remember:
+Every Tracery grammar is actually a JSON object consisting of key/value pairs, which is what Tracery calls symbols and rules. (For more on JSON, please see [this tutorial by Matthew Lincoln](/lessons/json-and-jq)). This is the format we will be using when we actually set our bot up to start tweeting. JSON is finicky. Note how the symbols are wrapped in `"` as are the rules, but the rules are also listed with commas inside `[` and `]`. Remember:
 ```JSON
 {
   "symbol": ["rule","rule","rule"],
@@ -300,7 +300,7 @@ To set up a response pattern, click at the bottom of the page to set the button 
 	"Should|should|Maybe|maybe|if|If":"#shouldanswer#"
 }
 ```
-The symbols here can include regular expression (Regex) patterns (see [this lesson](https://programminghistorian.org/lessons/understanding-regular-expressions) on regular expressions) . So, in the example above, the final symbol is watching for 'Should' OR 'should' OR 'Maybe' OR 'maybe' OR 'if' OR 'IF'. To respond to everything thrown its way, the symbol would be the simple dot: `.`. The rules can include simple text (as in the response to "hello") or can be another symbol. The rules should be included in your main grammar in the first JSON editing box on the page. Thus, `#shouldanswer#` is in the main @tinyarchae grammar editor box as a line:
+The symbols here can include regular expression (Regex) patterns (see [this lesson](/lessons/understanding-regular-expressions) on regular expressions) . So, in the example above, the final symbol is watching for 'Should' OR 'should' OR 'Maybe' OR 'maybe' OR 'if' OR 'IF'. To respond to everything thrown its way, the symbol would be the simple dot: `.`. The rules can include simple text (as in the response to "hello") or can be another symbol. The rules should be included in your main grammar in the first JSON editing box on the page. Thus, `#shouldanswer#` is in the main @tinyarchae grammar editor box as a line:
 
 ```JSON
 "shouldanswer":["We asked #name#, who wrote 'An Archaeology of #verb.capitalize#'. The answer is #yesno#.","This isn't magic 8 ball, you know.","This is all very meta, isn't it.","#name# says to tell you, '42'."],
