@@ -34,7 +34,7 @@ Para aquellos interesados en audio, las habilidades básicas de edición de soni
 
 En esta lección aprenderás a utilizar [Audacity](http://www.audacityteam.org/) para cargar, grabar, editar, mezclar y exportar archivos de audio. Con frecuencia, las plataformas de edición de audio son costosas y ofrecen numerosas funciones que pueden ser abrumadoras para el usuario que no tiene experiencia previa, al contrario, *Audacity* es una alternativa gratuita y de código abierto que ofrece gran funcionalidad y fácil acceso para editar archivos de audio. 
 
-Para esta lección vamos a trabajar con dos archivos de audio: una grabación de las [Variaciones Goldberg de Bach](https://programminghistorian.org/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3), y otra grabación de tu propia voz que se hará en el transcurso de la lección. 
+Para esta lección vamos a trabajar con dos archivos de audio: una grabación de las [Variaciones Goldberg de Bach](/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3), y otra grabación de tu propia voz que se hará en el transcurso de la lección. 
 
 Éste tutorial utiliza *Audacity* 2.1.2, lanzado en enero de 2016.
 
@@ -42,7 +42,7 @@ Para esta lección vamos a trabajar con dos archivos de audio: una grabación de
 
 Primero, descarga los archivos necesarios.
 
-Vas a necesitar el [archivo en .mp3 de las Variaciones Goldberg de Bach](https://programminghistorian.org/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3). Para descargarlo, haz click con el botón derecho [aquí](https://programminghistorian.org/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3) y selecciona "guardar como" para guardar el archivo en tu computadora como un MP3.
+Vas a necesitar el [archivo en .mp3 de las Variaciones Goldberg de Bach](/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3). Para descargarlo, haz click con el botón derecho [aquí](/assets/editing-audio-with-audacity/bach-goldberg-variations.mp3) y selecciona "guardar como" para guardar el archivo en tu computadora como un MP3.
 
 
 A continuación, descarga e instala *Audacity*, que está disponible en el [sitio del proyecto]( http://www.audacityteam.org/). *Audacity* puede utilizarse en Mac OSX, Windows o Linux.
@@ -53,7 +53,7 @@ Para empezar, abre la grabación de Bach que recién descargaste usando el menú
 
 La interfaz cargará y mostrará los archivos cargados:
 
-![Diagrama de onda de audio de Bach en Audacity]( https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-1.png)
+![Diagrama de onda de audio de Bach en Audacity]( /images/editing-audio-with-audacity/editing-audio-with-audacity-1.png)
 
 *Audacity* convierte el sonido en un diagrama de onda, una forma frecuentemente utilizada para representar sonido. El eje horizontal representa el tiempo en forma de segundos (o minutos y segundos, dependiendo de la extensión del clip). El inicio del sonido se visualiza del lado izquierdo de la interfaz y *Audacity* coloca marcadores a lo largo de la onda hacia la derecha. Si damos clic en el botón de reproducir *Audacity* se moverá sobre el sonido de izquierda a derecha, entre tanto una línea vertical representará nuestra posición en el clip de audio. 
 
@@ -67,15 +67,15 @@ La representación de tiempo y amplitud de *Audacity* es tu primer y más fácil
 
 Si amplías seis o siete veces, verás algo que puede parecerse más a una onda:
 
-![Vista amplificada del diagrama de Bach](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-2.png)
+![Vista amplificada del diagrama de Bach](/images/editing-audio-with-audacity/editing-audio-with-audacity-2.png)
 
 Observa que el incremento de tiempo en *Audacity* se ajusta conforme amplas la selección. Las frecuencias de tono se miden en ondas por segundo, y el programa tiene que fusionar las partes para lograr que el clip de sonido encaje en una ventana. El resultado es una forma de onda que nosotros vemos cuando reducimos la selección, al seleccionar “Normal”, desde el menú Ver. Cada vista –la micro y la macro- tiene sus usos particulares. Volveremos a ellas más adelante.
 
-![Paleta de reproducción de Audacity](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-3.png)
+![Paleta de reproducción de Audacity](/images/editing-audio-with-audacity/editing-audio-with-audacity-3.png)
 
 Antes de proceder, vale la pena observar las diversas paletas que proporciona *Audacity* para sus funciones más comunes. La paleta de reproducción ofrece símbolos que seguramente son familiares: los botones que te permiten pausar, reproducir, detener, avanzar al principio o al final de un clip, y grabar. 
 
-![Paleta de herramientas de Audacity](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-4.png)
+![Paleta de herramientas de Audacity](/images/editing-audio-with-audacity/editing-audio-with-audacity-4.png)
 
 Por otro lado, la paleta de herramientas probablemente parece nueva. No discutiremos todas las funciones que ofrece *Audacity*, así que no usaremos algunos de estos botones. Pero toma nota: las herramientas de “selección” superior izquierda y el “cambio de tiempo”, inferior medio, serán las dos que usaremos en esta lección. De forma predeterminada, cuando abres *Audacity*, tu estarás utilizando la herramienta de selección.  
 
@@ -91,7 +91,7 @@ Hemos cargado la introducción musical para nuestro podcast. Continuemos graband
 
 Se mostrará algo parecido a esto:
 
-![Dos pistas cargadas en Audacity](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-5.png)
+![Dos pistas cargadas en Audacity](/images/editing-audio-with-audacity/editing-audio-with-audacity-5.png)
 
 Nuestra grabación original de “Bach” se mantiene en la parte superior de la interface, mientras que nuestra nueva grabación está por debajo de ella. De forma predeterminada, *Audacity* no sobreescribirá una grabación anterior. Por el contrario, aísla ambos sonidos o pistas, permitiéndonos manipular componentes separados antes de mezclarlos en una grabación final. Podemos hacer cambios a uno sin afectar al otro. Observa cómo, con respecto al tiempo, la nueva pista se grabó de manera predeterminada al principio del proyecto de Audacity. Por ahora, las pistas de “Bach” y la vocal comienzan al mismo tiempo. Existen otras imperfecciones potenciales en tu grabación única, algunas de las cuales podemos corregir.
 
@@ -107,9 +107,9 @@ Para utilizar la pista grabada, vamos a necesitar limpiarla un poco, aislar y re
 
 - Ampliar el comienzo de la pista nos dará una vista del silencio, y al hacer clic y arrastrar las secciones del diagrama de ondas, podemos eliminarlos al pulsar la tecla suprimir (en la mayoría de los teclados). 
 
-![Principio de la pista vocal, listo para ser eliminado](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-6.png)
+![Principio de la pista vocal, listo para ser eliminado](/images/editing-audio-with-audacity/editing-audio-with-audacity-6.png)
 
-![Principio de la pista después de haber eliminado el silencio](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-7.png)
+![Principio de la pista después de haber eliminado el silencio](/images/editing-audio-with-audacity/editing-audio-with-audacity-7.png)
 
 Esas pequeñas pausas pueden pasar prácticamente inadvertidas, pero son elementos importantes dentro de cualquier pista de audio,además, queremos que los límites de la nueva pista vocal no contengan datos extraños. Después de eliminar, debes de tener un clip de audio agradable y compacto, con tan solo una pequeña fracción de silencio en cada extremo.
 
@@ -119,9 +119,9 @@ Para asegurar transiciones suaves entre las pistas, debemos introducir efectos d
 
 Si sólo seleccionaste una pequeña porción de audio, es posible que no puedas ver los cambios que causaron los desvanecimientos. Estas capturas de gran aumento ayudarán:
 
-![Pista antes del desvanecimiento inicial](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-8.png)
+![Pista antes del desvanecimiento inicial](/images/editing-audio-with-audacity/editing-audio-with-audacity-8.png)
 
-![Pista después del desvanecimiento inicial](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-9.png)
+![Pista después del desvanecimiento inicial](/images/editing-audio-with-audacity/editing-audio-with-audacity-9.png)
 
 El fundido de entrada disminuyó dramáticamente la amplitud inicial e introdujo cambios graduales de amplitud a lo largo de las secciones destacadas de la pista, suavizando y creando la percepción de un incremento en el volumen. 
 
@@ -133,11 +133,11 @@ La eliminación del silencio y del sonido no deseado preparó el clip, pero aún
 
 - Mueve nuestro clip vocal hacia la derecha, para que comience después de que la música introductoria se haya reproducido durante algunos segundos. 
 
-![Reposicionamiento del clip de audio en el tiempo](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-10.png)
+![Reposicionamiento del clip de audio en el tiempo](/images/editing-audio-with-audacity/editing-audio-with-audacity-10.png)
 
 Si el volumen de tu voz, en relación con la música introductoria, te parece desequilibrado, puedes reorganizarlos para que estén más equilibrados. El volumen de una pista en particular se puede ajustar utilizando el control deslizante de volumen de la pista, ubicado a la izquierda del panel de la pista. Éste parece una pequeña escala -/+:
 
-![Barra de desplazamiento de volumen](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-11.png)
+![Barra de desplazamiento de volumen](/images/editing-audio-with-audacity/editing-audio-with-audacity-11.png)
 
 Pero eventualmente vamos a querer cambiar el enfoque de la pista por completo de la música de introducción y dar nuevo énfasis a la grabación de nuestra voz. Un “*crossfade*” como este, es fácil de realizar en *Audacity*.
 
@@ -147,13 +147,13 @@ Pero eventualmente vamos a querer cambiar el enfoque de la pista por completo de
 
 - Después usa la herramienta de selección para hacer clic y arrastrar la sección en la que se sobrepondrán, comenzando con la pista superior y terminando con la inferior. Ambas pistas deben de estar destacadas. 
 
-![Resaltado sobre las pistas para la transición](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-12.png)
+![Resaltado sobre las pistas para la transición](/images/editing-audio-with-audacity/editing-audio-with-audacity-12.png)
 
 - Seleccionar “Crossfade Tracks”, del menú Efecto, esto le indicará a Audacity que realice el desvanecimiento de salida de la pista superior mientras hace el desvanecimiento de entrada de la pista inferior; en este caso, el posicionamiento de las pistas es importante.
 
 *Audacity* te ofrecerá opciones para el *crossfade* de la pista, pero por ahora está bien mantener la configuración preestablecida en “Fade type:constant gain”. Ésta configuración garantiza que ambas pistas se desvanecerán o alinearán (para mayor información, revisa la documentación de *["crossfades” de Audacity](http://manual.audacityteam.org/man/crossfade_clips.html)*
 
-![Post-crossfade](https://programminghistorian.org/images/editing-audio-with-audacity/editing-audio-with-audacity-13.png)
+![Post-crossfade](/images/editing-audio-with-audacity/editing-audio-with-audacity-13.png)
 
 Cuando el producto final está mezclado, el resultado será una transición fluida entre los dos elementos.
 

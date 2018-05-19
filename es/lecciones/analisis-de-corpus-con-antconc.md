@@ -57,7 +57,7 @@ En este tutorial se presentan varias maneras diferentes de acercarse a un corpus
 
    Descomprime el archivo del programa (si fuere necesario) e inícialo. Las capturas de pantalla presentadas aquí pueden diferir ligeramente de la versión de AntConc que utilices (y del sistema operativo, desde luego), pero los procedimientos son más o menos los mismos en todas las plataformas y versiones recientes de la aplicación. Este tutorial fue escrito teniendo como referente una versión específica (bastante antigua) de AntConc, en tanto consideramos que resulta más fácil de usar para fines introductorios. Puedes emplear la versión más reciente para desarrollar el tutorial si lo tienes a bien; pero, si deseas seguir los pasos con la misma información que presentamos en las capturas de pantalla de esta lección, es necesario que descargues la versión específica que empleamos aquí ([3.2.4](http://www.laurenceanthony.net/software/antconc/releases/AntConc324/)).
 
-2. Corpus de prueba: descarga este [archivo zip de reseñas cinematográficas](https://programminghistorian.org/assets/corpus-analysis-with-antconc/antconc_corpus_files.zip) (escritas en inglés).
+2. Corpus de prueba: descarga este [archivo zip de reseñas cinematográficas](/assets/corpus-analysis-with-antconc/antconc_corpus_files.zip) (escritas en inglés).
 
 ### Presentación sintética de las temáticas abordadas en la lección
 

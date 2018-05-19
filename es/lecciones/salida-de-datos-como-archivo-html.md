@@ -221,5 +221,5 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
   [Contar frecuencias de palabras con Python]: /es/lecciones/contar-frecuencias
   [Contar frecuencias]: /es/lecciones/contar-frecuencias
-  [archivo zip de las lecciones anteriores]: http://programminghistorian.org/assets/python-es-lecciones6.zip
-  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones7.zip
+  [archivo zip de las lecciones anteriores]: /assets/python-es-lecciones6.zip
+  [zip sync]: /assets/python-es-lecciones7.zip

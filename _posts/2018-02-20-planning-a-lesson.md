@@ -10,7 +10,7 @@ So you've got an idea for a tutorial, and you're excited to share it with the re
 
 ## Sustainability
 
-You will put a lot of work into your tutorial, so the last thing you want is for it to become dated or obsolete. To make sure your efforts have a long-lasting effect on the field, you can take steps to future-proof your work. We have put together some [Sustainability Guidelines](https://programminghistorian.org/author-guidelines#write-sustainably) to help authors think through that process and write defensively.
+You will put a lot of work into your tutorial, so the last thing you want is for it to become dated or obsolete. To make sure your efforts have a long-lasting effect on the field, you can take steps to future-proof your work. We have put together some [Sustainability Guidelines](/author-guidelines#write-sustainably) to help authors think through that process and write defensively.
 
 Some additional ideas include:
 
@@ -40,4 +40,4 @@ And finally, keep at it. We want to make sure that authors' initial hard work su
 
 ## Get in touch
 
-We hope that gives you an idea of what it takes to write a great tutorial. If you're still interested, please email your idea to our [managing editor](http://programminghistorian.org/project-team) for some initial feedback. We look forward to hearing from you.
+We hope that gives you an idea of what it takes to write a great tutorial. If you're still interested, please email your idea to our [managing editor](/project-team) for some initial feedback. We look forward to hearing from you.

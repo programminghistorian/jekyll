@@ -235,4 +235,4 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 [cadenas de caracteres]: https://es.wikipedia.org/wiki/Cadena_de_caracteres
 [sitio web de Python]: https://docs.python.org/2/library/stdtypes.html#string-methods
-[zip]: http://programminghistorian.org/assets/python-es-lecciones1.zip
+[zip]: /assets/python-es-lecciones1.zip

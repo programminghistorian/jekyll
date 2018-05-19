@@ -176,6 +176,6 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
   [Unicode]: http://unicode.org/
   [soporte de Python]: http://www.diveintopython.net/xml_processing/unicode.html
   [Dive into Python]: http://www.diveintopython.net/regular_expressions/index.html
-  [zip]: http://programminghistorian.org/assets/python-es-lecciones3.zip
-  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones4.zip
+  [zip]: /assets/python-es-lecciones3.zip
+  [zip sync]: /assets/python-es-lecciones4.zip
   [página Web]: https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33

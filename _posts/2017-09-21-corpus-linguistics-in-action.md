@@ -16,7 +16,7 @@ In this blog post, authors Viola Wiegand, Michaela Mahlberg, and Peter Stockwell
 
 You can find out more about the CLiC Dickens research project on the [project's website](http://www.birmingham.ac.uk/schools/edacs/departments/englishlanguage/research/projects/clic/index.aspx) and get in touch with the team via Twitter ([@CLiC_Dickens](https://twitter.com/CLiC_Dickens/)). 
 
-If you are interested in learning how to use collocations and keywords in your own research, we recommend starting with [Corpus Analysis with AntConc](/lessons/corpus-analysis-with-antconc) by Heather Froehlich. In this lesson, Froehlich introduces techniques from corpus linguistics, showing how to identify significant patterns of language use within and between sets of texts. And, as always, if you have an idea for a lesson or want to get involved with the *Programming Historian,* please visit our [contribute page](https://programminghistorian.org/contribute) for more information.
+If you are interested in learning how to use collocations and keywords in your own research, we recommend starting with [Corpus Analysis with AntConc](/lessons/corpus-analysis-with-antconc) by Heather Froehlich. In this lesson, Froehlich introduces techniques from corpus linguistics, showing how to identify significant patterns of language use within and between sets of texts. And, as always, if you have an idea for a lesson or want to get involved with the *Programming Historian,* please visit our [contribute page](/contribute) for more information.
 
 ---
 
