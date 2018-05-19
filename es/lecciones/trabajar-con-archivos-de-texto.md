@@ -170,9 +170,9 @@ Lecturas recomendadas
 -   [Non-Programmer’s Tutorial for Python 2.6/Hello, World][]
 
 
-[Mac]: http://programminghistorian.org/es/lecciones/instalacion-mac
-[Windows]: http://programminghistorian.org/es/lecciones/instalacion-windows
-[Linux]: http://programminghistorian.org/es/lecciones/instalacion-linux
+[Mac]: /es/lecciones/instalacion-mac
+[Windows]: /es/lecciones/instalacion-windows
+[Linux]: /es/lecciones/instalacion-linux
 [print]: https://docs.python.org/2/reference/simple_stmts.html#the-print-statement
 [palabra reservada]: https://docs.python.org/release/2.5.4/ref/keywords.html
 [file objects]: https://docs.python.org/2/library/stdtypes.html#bltin-file-objects

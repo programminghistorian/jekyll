@@ -69,7 +69,7 @@ Con el fin de trabajar con las diversas técnicas que se ofrecen en *Programming
 [Zotero]: https://www.zotero.org
 [Jungle Disk]: https://www.jungledisk.com
 [Dropbox]: https://www.dropbox.com
-[Para entender páginas Web y HTML]: http://programminghistorian.org/es/lecciones/ver-archivos-html
-[Instalación de Python en Mac]: http://programminghistorian.org/es/lecciones/instalacion-mac
-[Instalación de Python en Windows]: http://programminghistorian.org/es/lecciones/instalacion-windows
-[Instalación de Python en Linux]: http://programminghistorian.org/es/lecciones/instalacion-linux
+[Para entender páginas Web y HTML]: /es/lecciones/ver-archivos-html
+[Instalación de Python en Mac]: /es/lecciones/instalacion-mac
+[Instalación de Python en Windows]: /es/lecciones/instalacion-windows
+[Instalación de Python en Linux]: /es/lecciones/instalacion-linux
