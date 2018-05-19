@@ -38,8 +38,8 @@ ___2016___
 * Adam Crymble, 'Digital History Workshop', University of Hertfordshire, UK (Spring 2016).
 
 ___2015___
-* Shawn Graham, '[Digital Humanities](http://dhcu.ca/2015/what-is-a-tool-tutorial)', Carleton University, Canada (Autumn 2015).
-* Manan Ahmed, '[Borderlands: Towards a Spatial History of Empire](http://mananahmed.github.io/borderlands.html)', Columbia University, USA (Spring 2015).
+* Shawn Graham, 'Digital Humanities (formerly available from: http://dhcu.ca/2015/what-is-a-tool-tutorial)', Carleton University, Canada (Autumn 2015).
+* Manan Ahmed, 'Borderlands: Towards a Spatial History of Empire (formerly available from: http://mananahmed.github.io/borderlands.html)', Columbia University, USA (Spring 2015).
 * Andrew Ross, '[Exploring Digital Humanities (HIST 4170)](https://www.uoguelph.ca/history/sites/uoguelph.ca.history/files/syllabus/4170%20W15.pdf)', University of Guelph, Canada (Winter 2015).
 * Adam Crymble, '[Intro to Digital History](http://adamcrymble.org/intro-to-digital-history-2015/)', University of Hertfordshire, UK (Spring 2015).
 * John Russell, '[Digital Scholarship Methods](https://library.uoregon.edu/node/4570)', University of Oregon, USA (Winter 2015).
@@ -50,13 +50,13 @@ ___2014___
 * Lincoln Mullen, '[Clio 3: Programming for Historians (HIST 698)](http://lincolnmullen.com/files/clio3.syllabus.hist698.2014f.pdf)', George Mason University, USA (Autumn 2014).
 * Wilko Graf von Hardenberg, '[Digital History (History 795)](http://www.wilkohardenberg.net/content/Hardenberg_DigitalHistory_Hist795.pdf)', University of Wisconsin-Madison, USA (Spring 2014).
 * Christopher Church, '[Introduction to the Digital Humanities](http://www.christophermchurch.com/draft-for-new-course-digital-toolbox-for-historians-unr/)', University of Nevada - Reno, USA (2014).
-* Jason A. Heppler, '[Digital History: Concepts, Methods, Problems (History 205F)](http://stanford.edu/~jheppler/stanford.syllabus.hist205f.2014f.pdf)', Stanford University, USA (Autumn 2014).
+* Jason A. Heppler, 'Digital History: Concepts, Methods, Problems (History 205F) (formerly available from: http://stanford.edu/~jheppler/stanford.syllabus.hist205f.2014f.pdf)', Stanford University, USA (Autumn 2014).
 * Elisha E. Besherho-Bondar, '[Digital Humanities / Digital Studies](http://www.pitt.edu/~ebb8/DHDS/)', University of Pittsburg, USA (Autumn 2014).
 * Andrew M Shocket, '[Intro to DH (ACS 6820)](http://intro-dh-2014.andyschocket.net/syllabus/)', Bowling Green State University, USA (Spring 2014).
 * Jeff McClurken, '[Adventures in Digital History (HIST 428)](http://dh2014.umwblogs.org/syllabus/)', University of Mary Washington, USA (Spring 2014).
 * Jennifer Guiliano, '[Making/Building Digital History](http://devdh.org/files/downloads/Guiliano_Digital_History_Syllabus_Fall2014_IUPUI.pdf)', Indiana University-Purdue University Indianapolis, USA (Autumn 2014).
 * Andrew J. Torget, '[Introtudction to Digital Scholarship (HIST 5100)](http://torget.us/HIST5100/syllabus/)', University of North Texas, USA (Spring 2014).
-* Anne Mitchell Whisnant, '[Introduction to Public History (History 671)](http://publichistory.web.unc.edu/syllabus/)', UNC-Chapel Hill, USA (Autumn 2014).
+* Anne Mitchell Whisnant, 'Introduction to Public History (History 671) (formerly available from: http://publichistory.web.unc.edu/syllabus/)', UNC-Chapel Hill, USA (Autumn 2014).
 * Ian Milligan, '[Digital History (HIST 303)](https://ianmilli.files.wordpress.com/2014/01/w2014-hist-303.pdf)', University of Waterloo, Canada (Winter 2014).
 
 ___2013___
