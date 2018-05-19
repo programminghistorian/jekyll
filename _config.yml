@@ -21,24 +21,25 @@ defaults:
       path: ""
     values:
       lang: "en"
-      basepath: ""
-      lessonpath: "/lessons"
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
   -
     scope:
       path: "es"
     values:
       lang: "es"
-      basepath: "/es"
-      lessonpath: "/lecciones"
   -
     scope:
-      path: "lessons"
+      path: "en/lessons"
     values:
       lesson: true
       english-lesson: true
   -
     scope:
-      path: "lessons/retired"
+      path: "en/lessons/retired"
     values:
       lesson: false
       english-lesson: false
