@@ -146,8 +146,8 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 -   python-es-lecciones6.zip [zip sync]
 
-  [archivo zip de las lecciones anteriores]: http://programminghistorian.org/assets/python-es-lecciones5.zip
+  [archivo zip de las lecciones anteriores]: /assets/python-es-lecciones5.zip
   [Zotero]: http://zotero.org
   [tutorial de HTML de W3 Schools]: http://www.w3schools.com/html/default.asp
   [declaración doctype]: http://www.w3schools.com/tags/tag_doctype.asp
-  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones6.zip
+  [zip sync]: /assets/python-es-lecciones6.zip

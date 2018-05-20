@@ -122,4 +122,4 @@ Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos 
 
 [opciones de editores de texto]: https://wiki.python.org/moin/PythonEditors/
 [sitio web de Komodo Edit]: http://komodoide.com/komodo-edit/
-[Para entender páginas web y HTML]: http://programminghistorian.org/es/lecciones/ver-archivos-html
+[Para entender páginas web y HTML]: /es/lecciones/ver-archivos-html

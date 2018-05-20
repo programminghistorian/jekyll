@@ -455,5 +455,5 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
   [lista por comprensión]: http://docs.python.org/tutorial/datastructures.html#list-comprehensions
   [informáticos de Glasgow]: http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
   [Regular Expressions]: http://www.diveintopython.net/regular_expressions/index.html
-  [zip]: http://programminghistorian.org/assets/python-es-lecciones4.zip
-  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones5.zip
+  [zip]: /assets/python-es-lecciones4.zip
+  [zip sync]: /assets/python-es-lecciones5.zip

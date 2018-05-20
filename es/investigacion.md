@@ -64,7 +64,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 [Review of the Programming Historian]: http://jah.oxfordjournals.org/content/103/1/299.2.full
 [Review of the Programming Historian]: http://jitp.commons.gc.cuny.edu/review-of-the-programming-historian
 ['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian']: http://researchprofiles.herts.ac.uk/portal/files/10476604/Blip_2016_Autumn_2016_Final_Autumn_2016.pdf
-['pre-print pdf']: http://programminghistorian.org/researchpapers/openLearningCommunities2016.pdf
+['pre-print pdf']: /researchpapers/openLearningCommunities2016.pdf
 [Editorial Sustainability and Open Peer Review at Programming Historian]: http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian
 ['Digital Project Consultations']: https://dhatasa2015.wordpress.com/
 [Library Carpentry: software skills training for library professionals]: https://www.liberquarterly.eu/articles/10176/

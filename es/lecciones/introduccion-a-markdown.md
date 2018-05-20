@@ -42,7 +42,7 @@ Markdown fue desarrollado en 2004 por [John Gruber](http://daringfireball.net/pr
 
 Los archivos de texto plano tienen muchas ventajas sobre otro tipo de formato. Por un lado, se pueden leer prácticamente en todos los dispositivos. También han resistido la prueba del paso del tiempo mejor que otro tipo de archivos -si alguna vez has intentado abrir un documento guardado en un formato de [procesador de textos heredado](https://es.wikipedia.org/wiki/Sistema_heredado), estarás familiarizado con los problemas de compatibilidad que implican-.
 
-Al utilizar la sintaxis de Markdown, serás capaz de producir archivos que pueden ser legibles como texto plano y que a la vez están listos para ser formados en otras plataformas. Muchos generadores de bitácoras y de sitios estáticos, así como sitios como GitHub, también aceptan Markdown y traducen estos archivos a HTML para su visualización en la web. Además, herramientas como Pandoc pueden convertir archivos en o desde Markdown. Para más información sobre Pandoc puedes consultar la lección sobre [Escritura sostenible utilizando Pandoc y Markdown](http://programminghistorian.org/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown) de Dennise Tenen y Grant Wythoff.
+Al utilizar la sintaxis de Markdown, serás capaz de producir archivos que pueden ser legibles como texto plano y que a la vez están listos para ser formados en otras plataformas. Muchos generadores de bitácoras y de sitios estáticos, así como sitios como GitHub, también aceptan Markdown y traducen estos archivos a HTML para su visualización en la web. Además, herramientas como Pandoc pueden convertir archivos en o desde Markdown. Para más información sobre Pandoc puedes consultar la lección sobre [Escritura sostenible utilizando Pandoc y Markdown](/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown) de Dennise Tenen y Grant Wythoff.
 
 ### Sintaxis en Markdown
 
@@ -323,11 +323,11 @@ Markdown es un término medio muy útil entre los archivos de texto plano sin es
 
 
 [John Gruber]: http://daringfireball.net/projects/markdown/
-[Autoría sustentable utilizando Pandoc y Markdown]: http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+[Autoría sustentable utilizando Pandoc y Markdown]: /lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 [StackEdit]: https://stackedit.io
 [editor de StackEdit]: https://stackedit.io/editor
 [GitHub Flavored Markdown]: https://help.github.com/articles/github-flavored-markdown/
 [GitHub Flavored Markdown]: https://help.github.com/articles/github-flavored-markdown/
 [Pandoc]: http://johnmacfarlane.net/pandoc/
-[Escritura sostenible en texto plano usando Pandoc y Markdown]: http://programminghistorian.org/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown
+[Escritura sostenible en texto plano usando Pandoc y Markdown]: /es/lecciones/escritura-sostenible-usando-pandoc-y-markdown
 

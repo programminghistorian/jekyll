@@ -261,7 +261,7 @@ Esta lección marca el final de la serie de lecciones originales sobre Python. E
 *Nota:* Ahora puedes ir a la siguiente lección (en inglés) para aprender a [Descargar registros múltiples](/lessons/downloading-multiple-records-using-query-strings)
 
   [Palabras clave en contexto (usando n-grams)]: /es/lecciones/palabras-clave-en-contexto-n-grams
-  [archivo zip de las lecciones anteriores]: http://programminghistorian.org/assets/python-es-lecciones8.zip
+  [archivo zip de las lecciones anteriores]: /assets/python-es-lecciones8.zip
   [Salida de datos como archivo HTML]: /es/lecciones/salida-de-datos-como-archivo-html
-  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones9.zip
+  [zip sync]: /assets/python-es-lecciones9.zip
  

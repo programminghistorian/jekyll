@@ -255,5 +255,5 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
   [De HTML a lista de palabras (parte 1)]: /es/lecciones/de-html-a-lista-de-palabras-1
   [entero]: http://docs.python.org/2.4/lib/typesnumeric.html
   [tipos]: http://docs.python.org/3/library/types.html
-  [zip]: http://programminghistorian.org/assets/python-es-lecciones2.zip
-  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones3.zip
+  [zip]: /assets/python-es-lecciones2.zip
+  [zip sync]: /assets/python-es-lecciones3.zip

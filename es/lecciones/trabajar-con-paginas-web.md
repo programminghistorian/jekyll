@@ -174,10 +174,10 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 [The Old Bailey Online]: http://oldbaileyonline.org
 [*cadena de consulta*]: https://es.wikipedia.org/wiki/Query_string
-[Descarga de registros múltiples usando cadenas de consulta]: http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings
+[Descarga de registros múltiples usando cadenas de consulta]: /lessons/downloading-multiple-records-using-query-strings
 [revueltas de Gordon]: http://en.wikipedia.org/wiki/Gordon_Riots
 [View as XML]: http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes
 [XML]: https://es.wikipedia.org/wiki/Extensible_Markup_Language
 [documento original]: http://www.oldbaileyonline.org/images.jsp?doc=178006280084
 [urllib2]: https://docs.python.org/2/library/urllib2.html
-[zip]: http://programminghistorian.org/assets/python-es-lecciones1.zip
+[zip]: /assets/python-es-lecciones1.zip

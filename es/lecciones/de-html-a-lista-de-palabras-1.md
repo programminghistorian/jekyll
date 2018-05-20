@@ -152,10 +152,10 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 
 [transcripción del juicio criminal contra Benjamin Bowsey de 1780]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-[Descargar páginas web con Python]: http://programminghistorian.org/es/lecciones/trabajar-con-paginas-web
+[Descargar páginas web con Python]: /es/lecciones/trabajar-con-paginas-web
 [HTML]: http://www.w3schools.com/html/
 [1]: http://www.w3schools.com/html/
 [Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python 
 [Reutilizacion de código y modularidad]: /es/lecciones/reutilizacion-de-codigo-y-modularidad
-[zip]: http://programminghistorian.org/assets/python-es-lecciones2.zip
-[obo-t17800628-33.html]: http://programminghistorian.org/assets/obo-t17800628-33.html
+[zip]: /assets/python-es-lecciones2.zip
+[obo-t17800628-33.html]: /assets/obo-t17800628-33.html
