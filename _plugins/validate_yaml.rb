@@ -48,7 +48,7 @@ module MyModule
 
         # Guff about page content
         if Regexp.new("[\\(<]https?://programminghistorian.org/*") =~ p["content"]
-          page_errors.push('It looks like you have a link to programminghistorian.org in this lesson. All internal links should start with "/" and not use https or the domain name.')
+          page_errors.push('It looks this lesson contains a full link to "https://programminghistorian.org". All internal links should start with "/" followed by the relative page path, and not use the full domain name.')
         end
 
         # Any fields listed in exclude_from_check YAML variable will not be checked.
