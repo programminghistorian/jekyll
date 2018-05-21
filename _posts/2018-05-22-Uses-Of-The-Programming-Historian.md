@@ -77,7 +77,7 @@ ___2011___
 
 __Other Teaching__
 
-___Using [the intro Jekyll lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages)___
+___Using [the intro Jekyll lesson](/lessons/building-static-sites-with-jekyll-github-pages)___
 * [DH at Guelph Minimal Computing class](https://twitter.com/antimony27/status/730808295410311169) (Spring 2016).
 * Scott Weingart graduate teaching (Spring 2016)
 
