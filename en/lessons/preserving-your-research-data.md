@@ -421,7 +421,7 @@ our messy research data', Early Modern Notes blog (18 May 2013)
 
 Noble, William Stafford, A Quick Guide to Organizing Computational
 Biology Projects.PLoSComputBiol 5(7): e1000424 (2009)
-<http://dx.doi.org/10.1371/journal.pcbi.1000424>
+<https://doi.org/10.1371/journal.pcbi.1000424>
 
 Oxford University Computing Services, 'Sudamih Project. Research
 Information Management: Organising Humanities Material' (2011)

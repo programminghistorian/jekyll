@@ -55,7 +55,7 @@ This tutorial teaches the fundamentals of using the Extracted Features dataset w
 
 Though it is relatively new, the Extracted Features dataset is already seeing use by scholars, as seen on a [page collected by the HTRC](https://wiki.htrc.illinois.edu/display/COM/Extracted+Features+in+the+Wild).
 
-[Underwood](http://dx.doi.org/10.6084/m9.figshare.1279201) leveraged the features for identifying genres, such as fiction, poetry, and drama (2014). Associated with this work, he has released a dataset of 178k books classified by genre alongside genre-specific word counts ([Underwood 2015](http://dx.doi.org/10.13012/J8JW8BSJ)).
+[Underwood](https://doi.org/10.6084/m9.figshare.1279201) leveraged the features for identifying genres, such as fiction, poetry, and drama (2014). Associated with this work, he has released a dataset of 178k books classified by genre alongside genre-specific word counts ([Underwood 2015](https://doi.org/10.13012/J8JW8BSJ)).
 
 The Underwood subset of the Extracted Features dataset was used by Forster (2015) to [observing gender in literature](http://cforster.com/2015/09/gender-in-hathitrust-dataset/), illustrating the decline of woman authors through the 19th century.
 
@@ -1151,7 +1151,7 @@ Finally, the repository for the HTRC Feature Reader has [advanced tutorial noteb
 
 # References
 
-Boris Capitanu, Ted Underwood, Peter Organisciak, Timothy Cole, Maria Janina Sarol, J. Stephen Downie (2016). The HathiTrust Research Center Extracted Feature Dataset (1.0) [Dataset]. HathiTrust Research Center, https://dx.doi.org/10.13012/J8X63JT3.
+Boris Capitanu, Ted Underwood, Peter Organisciak, Timothy Cole, Maria Janina Sarol, J. Stephen Downie (2016). The HathiTrust Research Center Extracted Feature Dataset (1.0) [Dataset]. HathiTrust Research Center, https://doi.org/10.13012/J8X63JT3.
 
 Chris Forster. "A Walk Through the Metadata: Gender in the HathiTrust Dataset." Blog. http://cforster.com/2015/09/gender-in-hathitrust-dataset/.
 
@@ -1164,9 +1164,9 @@ Stéfan Sinclair & Geoffrey Rockwell (2016). "The Art of Literary Text Analysis.
 William J. Turkel and Adam Crymble (2012). "Counting Word Frequencies with Python". The Programming Historian. /lessons/counting-frequencies.
 
 Ted Underwood (2014): Understanding Genre in a Collection of a Million Volumes, Interim Report. figshare.
-https://dx.doi.org/10.6084/m9.figshare.1281251.v1.
+https://doi.org/10.6084/m9.figshare.1281251.v1.
 
-Ted Underwood, Boris Capitanu, Peter Organisciak, Sayan Bhattacharyya, Loretta Auvil, Colleen Fallaw, J. Stephen Downie (2015). "Word Frequencies in English-Language Literature, 1700-1922" (0.2) [Dataset]. *HathiTrust Research Center*. https://dx.doi.org/10.13012/J8JW8BSJ.
+Ted Underwood, Boris Capitanu, Peter Organisciak, Sayan Bhattacharyya, Loretta Auvil, Colleen Fallaw, J. Stephen Downie (2015). "Word Frequencies in English-Language Literature, 1700-1922" (0.2) [Dataset]. *HathiTrust Research Center*. https://doi.org/10.13012/J8JW8BSJ.
 
 Hadley Wickham (2011). "The split-apply-combine strategy for data analysis". *Journal of Statistical Software*, 40(1), 1-29.
 

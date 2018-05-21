@@ -113,7 +113,7 @@ harper_df <- read.csv("http://programminghistorian.org/assets/correspondence-ana
 
 ## The Data
 
-The data for this tutorial can be found archived in [Zenodo](http://doi.org/10.5281/zenodo.889846) if you would like to see the raw data. It has been conveniently included in tabular format as well (note: you do not need to manually download these files. We will use R to download them directly):
+The data for this tutorial can be found archived in [Zenodo](https://doi.org/10.5281/zenodo.889846) if you would like to see the raw data. It has been conveniently included in tabular format as well (note: you do not need to manually download these files. We will use R to download them directly):
 
 1) [Harper's CPCs]({{ site.baseurl }}/assets/correspondence-analysis-in-R/HarperCPC.csv)
 2) [Trudeau's CPCs]({{ site.baseurl }}/assets/correspondence-analysis-in-R/TrudeauCPC.csv)
