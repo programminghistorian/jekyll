@@ -41,7 +41,7 @@ For more information about GitHub issues, read the GitHub Guide on [Mastering Is
 
 
 ## Option 3: Suggest a Particular Change
-To suggest or make minor changes to a lesson, first navigate to the [lessons directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons) and click on the relevant lesson.
+To suggest or make minor changes to a lesson, first navigate to the [lessons directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/en/lessons) and click on the relevant lesson.
 
 Next, click on the history button:
 

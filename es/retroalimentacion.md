@@ -41,7 +41,7 @@ Para más información sobre los "issues", lee la guía de GitHub en [Mastering 
 
 ## Opción 3: sugiere un cambio específico
 
-Para sugerir o hacer un cambio menor a una lección, primero navega al [directorio de lecciones](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons) y entra a la lección en cuestión.
+Para sugerir o hacer un cambio menor a una lección, primero navega al [directorio de lecciones](https://github.com/programminghistorian/jekyll/tree/gh-pages/en/lessons) y entra a la lección en cuestión.
 
 Después pulsa el botón de "history":
 
