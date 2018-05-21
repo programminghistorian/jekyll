@@ -46,7 +46,7 @@ module MyModule
 
         page_errors = Array.new
 
-        # Guff about page content
+        # Warn if any lesson content matches this regex
         if Regexp.new("[\\(<]https?://programminghistorian.org/*") =~ p["content"]
           page_errors.push('It looks this lesson contains a full link to "https://programminghistorian.org". All internal links should start with "/" followed by the relative page path, and not use the full domain name.')
         end
