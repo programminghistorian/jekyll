@@ -1,8 +1,8 @@
 ---
 title: Lesson Directory
 layout: blank
-permalink: /lessons/
-redirect_from: /lessons
+permalink: /en/lessons/
+redirect_from: /lessons/
 ---
 
 # Lesson Index

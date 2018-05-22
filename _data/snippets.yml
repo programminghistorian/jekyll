@@ -12,21 +12,21 @@ menu-about:
 menu-about-overview:
   en:
     title: About PH
-    link: /about
+    link: /en/about
   es:
     title: Acerca
     link: /es/acerca-de
 menu-about-team:
   en:
     title: Project Team
-    link: /project-team
+    link: /en/project-team
   es:
     title: Equipo
     link: /es/equipo-de-proyecto
 menu-about-research:
   en:
     title: Research
-    link: /research
+    link: /en/research
   es:
     title: Investigación
     link: /es/investigacion
@@ -36,49 +36,49 @@ menu-contribute:
 menu-contribute-retirement:
   en:
     title: Lesson Retirement Policy
-    link: /lesson-retirement-policy
+    link: /en/lesson-retirement-policy
   es:
     title: Política de retirada de lecciones
     link: /es/politica-retirada-lecciones
 menu-contribute-overview:
   en:
     title: Overview
-    link: /contribute
+    link: /en/contribute
   es:
     title: Contribuciones
     link: /es/contribuciones
 menu-contribute-feedback:
   en:
     title: Feedback
-    link: /feedback
+    link: /en/feedback
   es:
     title: Sugerencias
     link: /es/retroalimentacion
 menu-contribute-review:
   en:
     title: Reviewer Guidelines
-    link: /reviewer-guidelines
+    link: /en/reviewer-guidelines
   es:
     title: Guía para revisores
     link: /es/guia-para-revisores
 menu-contribute-write:
   en:
     title: Author Guidelines
-    link: /author-guidelines
+    link: /en/author-guidelines
   es:
     title: Guía para autores y traductores
     link: /es/guia-para-autores
 menu-contribute-edit:
   en:
     title: Editor Guidelines
-    link: /editor-guidelines
+    link: /en/editor-guidelines
   es:
     title: Guía para editores
     link: /es/guia-editor
 menu-lessons:
   en:
     title: Lessons
-    link: /lessons
+    link: /en/lessons
   es:
     title: Lecciones
     link: /es/lecciones
