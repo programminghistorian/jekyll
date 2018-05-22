@@ -64,8 +64,9 @@
   github: ianmilligan1
   email: i2millig@uwaterloo.ca
   url: "http://ianmilligan.ca"
-  team: true
+  team: false
   team_start: 2014
+  team_end: 2018
   institution: University of Waterloo
   sortname: Milligan
   affiliation:
@@ -430,8 +431,9 @@
         de Historia y Medio Ambiente.
 
 - name: Jeri Wieringa
-  team: true
+  team: false
   team_start: 2015
+  team_end: 2018
   institution: George Mason University
   twitter: jerielizabeth
   url: "http://jeriwieringa.com"
