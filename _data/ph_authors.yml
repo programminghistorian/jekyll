@@ -64,8 +64,9 @@
   github: ianmilligan1
   email: i2millig@uwaterloo.ca
   url: "http://ianmilligan.ca"
-  team: true
+  team: false
   team_start: 2014
+  team_end: 2018
   institution: University of Waterloo
   sortname: Milligan
   affiliation:
@@ -430,8 +431,9 @@
         de Historia y Medio Ambiente.
 
 - name: Jeri Wieringa
-  team: true
+  team: false
   team_start: 2015
+  team_end: 2018
   institution: George Mason University
   twitter: jerielizabeth
   url: "http://jeriwieringa.com"
@@ -814,18 +816,18 @@
   url: "https://amsichani.github.io"
   team: true
   team_start: 2018
-  institution: King's Digital Lab | King's College London
+  institution: University of Sussex
   sortname: Sichani
   affiliation:
     en: |
-       King's Digital Lab | King's College London.
+       University of Sussex
     es: |
-        King's Digital Lab | King's College London.
+       University of Sussex
   bio:
     en: |
-        Anna-Maria Sichani is a Modern Greek literary historian and a Digital Humanist. She is currently a Research Fellow at King's Digital Lab.
+        Anna-Maria Sichani is a literary and cultural historian and a Digital Humanist. She is currently a Research Fellow in Media History at the University of Sussex.
     es: |
-        Anna-Maria Sichani es especialista en Historia de la literatura griega moderna y en Humanidades Digitales. Actualmente, trabaja como investigadora en King's Digital Lab.
+        Anna-Maria Sichani es especialista en Historia cultural y literaria, y en Humanidades Digitales. Actualmente, trabaja como investigadora en Comunicación y Medios en la Universidad de Sussex.
   team_roles:
    - editorial
    - board
