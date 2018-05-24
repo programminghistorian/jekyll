@@ -1,7 +1,7 @@
 ---
 title: Anna-Maria Sichani joins Project Team
 authors: 
-- Antonio Rojas Castro
+    - Antonio Rojas Castro
 layout: post
 categories: posts
 ---
