@@ -77,7 +77,7 @@ If you are using the _Programming Historian_ in interesting ways, we'd love to h
 
 ## Other Teaching
 
-### Using [the intro Jekyll lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages)___
+### Using [the intro Jekyll lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages)
 * [DH at Guelph Minimal Computing class](https://twitter.com/antimony27/status/730808295410311169) (Spring 2016).
 * Scott Weingart graduate teaching (Spring 2016)
 
