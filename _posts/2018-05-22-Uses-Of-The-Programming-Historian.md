@@ -12,9 +12,9 @@ If you are using the _Programming Historian_ in interesting ways, we'd love to h
 
 ## Select Citations
 
-* M.D. LeBlanc, "Towards Reproducibility in DH Experiments", _Book of Abstracts of Digital Humanities 2017 (2017).
+* M.D. LeBlanc, "Towards Reproducibility in DH Experiments", _Book of Abstracts of Digital Humanities 2017_ (2017).
 * A Berra, "Embedding Digital Humanities in a Classics Master Programme", _Digital Humanities_ (2017).
-F Nanni, "The Web as a Historical Corpus: Collecting, Analysing and Selecting Sources on the Recent Past of Academic Institutions" (2017).
+* F Nanni, "The Web as a Historical Corpus: Collecting, Analysing and Selecting Sources on the Recent Past of Academic Institutions" (2017).
 * D Miller, "Average Broadway", _Theatre Journal_ (2016).
 * S Fox Lee, "Digital methods for the history of psychology", _History of Psychology_ (2016).
 * Nicholas Terpstra, Colin Rose, 'Mapping Space, Sense, and Movement in Florence: Historical GIS and the Early Modern City' (Routledge, 2016).
@@ -25,7 +25,7 @@ F Nanni, "The Web as a Historical Corpus: Collecting, Analysing and Selecting So
 * William J. Turkel, Shenzan Muhammedi, Mary Beth Start, '[Grounding Digital History in the History of Computing](http://muse.jhu.edu/login?auth=0&type=summary&url=/journals/ieee_annals_of_the_history_of_computing/v036/36.2.turkel.html)', _IEEE Annals of the History of Computing_, Vol. 36, No. 2 (2014), pp. 72-75.
 * Elijah Meeks and Scott Weingart, '[The Digital Humanities Contribution to Topic Modeling](http://journalofdigitalhumanities.org/2-1/dh-contribution-to-topic-modeling/)', _Journal of Digital Humanities_, Vol. 2, No. 1 (2012).
 * Ted Underwood, '[What can topic models of PMLA teach us about the history of literary scholarship?](http://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/)' _The Stone and the Shell_ (2012).
-* Wingyan Chung, Edward A. Fox, Steven D. Sheetz, Seungwon Yang, '[LIKES: Educating the Next Generation of Knowledge Society Builders](http://aisel.aisnet.org/cgi/viewcontent.cgi?article=1072&context=amcis2009)', _Association for Information Systems: AMCIS Proceedings (2009). 
+* Wingyan Chung, Edward A. Fox, Steven D. Sheetz, Seungwon Yang, '[LIKES: Educating the Next Generation of Knowledge Society Builders](http://aisel.aisnet.org/cgi/viewcontent.cgi?article=1072&context=amcis2009)', _Association for Information Systems: AMCIS Proceedings_ (2009). 
 
 ## University Syllabi (2011-2016 only)
 
