@@ -33,7 +33,7 @@
 - type: distant-reading
   displayname:
     en: "Distant Reading"
-    es: "Lectura distinta"
+    es: "Lectura distante"
   description:
     en: "Computational tools allow you to make sense of a lot of documents at once. The Naive Bayesian is a machine learner: given some examples of the kind of thing you are interested in, it can quickly find many more."
     es: "Herramientas computacionales con las que extraerás sentido de tus documentos. Un clasificador Bayesiano Naive es una máquina que aprende: dado un número de ejemplos, puede encontrar rápidamente muchos más." 
