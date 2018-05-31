@@ -33,6 +33,11 @@ defaults:
       lang: "es"
   -
     scope:
+      path: "fr"
+    values:
+      lang: "fr"
+  -
+    scope:
       path: "en/lessons"
     values:
       lesson: true
