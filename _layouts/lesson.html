@@ -41,7 +41,7 @@ layout: base
         <div class="container expanded">
           <div class="row">
             <div class="col-md-3">
-              {% if page.reviewers %}
+              {% if page.reviewers or page.review-ticket %}
               <div class="peer-review">
                 <p>
                 {% if page.review-ticket %}
