@@ -348,7 +348,7 @@ Deja la columna D en blanco y sin tocar - este campo es utilizado por el Twitter
 ### 11) Confirma que todos los enlaces y encabezados YAML funcionen correctamente
 
 Una vez que envíes tus cambios a la rama `gh-pages` del repositorio de [programminghistorian][ph_repo], el sitio será comprobado automáticamente por [Travis CI] ([Continuous Integration]).
-Este proceso comprueba dos cosas: primero, que todo el código de YAML y markdown sea compilable y, segundo, que todos los hipervínculos del sitio apunten a páginas válidas y en operación.
+Este proceso comprueba tres cosas: primero, que todo el código de YAML y markdown sea compilable; segundo, que todos los hipervínculos del sitio apunten a páginas válidas y en funcionamiento; por último, que todos los hipervínculos internos a otras páginas de _The Programming Historian en español_ son relativos y empizan con una barra lateral `/` en lugar de `https://programminghistorian.org/es`.
 
 [ph_repo]: https://github.com/programminghistorian/jekyll
 

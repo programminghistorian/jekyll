@@ -228,11 +228,11 @@ Los enlaces de Internet se pueden escribir de dos maneras.
 
 El título del enlace se encierra primero entre corchetes y después se incluye la dirección completa del URL entre paréntesis.
 
-`Para más tutoriales visita la página [The Programming Historian en español](http://programminghistorian.org/es).`
+`Para más tutoriales visita la página [The Programming Historian en español](/es).`
 
 **Lo cual se representa así:**
 
-Para más tutoriales visita la página [The Programming Historian en español](http://programminghistorian.org/es).
+Para más tutoriales visita la página [The Programming Historian en español](/es).
 
 Los enlaces también se utilizan para crear notas a pie de página y son útiles porque, además, ayudan a mantener más ordenado tu documento en texto plano. Las notas a pie se escriben con un par adicional de corchetes con el número de referencia para establecer el vínculo que identifique la etiqueta.
 
