@@ -19,6 +19,8 @@ translation-reviewer:
 layout: lesson
 difficulty: 1
 redirect-from: /es/lessons/intro-to-powershell
+original: intro-to-powershell
+review_ticket: https://github.com/programminghistorian/ph-submissions/issues/146
 activity: transforming
 topics: [data-manipulation, get-ready]
 abstract: "En este tutorial aprenderás las bases de PowerShell de Windows, la interfaz de línea de comandos estándar de computadoras con Windows."
