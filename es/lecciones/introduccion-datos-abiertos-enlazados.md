@@ -13,7 +13,7 @@ translator:
 - María-Jesús Colmenero-Ruiz
 translation-editor:
 - Antonio Rojas Castro
-translator-reviewer:
+translation-reviewer:
 - Maria Jose Afanador
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/142
