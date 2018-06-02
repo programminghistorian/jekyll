@@ -40,6 +40,13 @@ menu-contribute-retirement:
   es:
     title: Política de retirada de lecciones
     link: /es/politica-retirada-lecciones
+menu-contribute-technical:
+  en:
+    title: Technical Contributions
+    link: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions
+  es:
+    title: Contribuciones técnicas
+    link: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions
 menu-contribute-overview:
   en:
     title: Overview
