@@ -40,7 +40,7 @@ Esta lección ofrece una introducción breve y concisa a los [datos abiertos enl
 
 El tutorial puede completarse en un par de horas, pero siempre es posible releer algunas secciones para reforzar la comprensión. Los términos técnicos se han enlazado con su página correspondiente en Wikipedia; te animamos a hacer una pausa y leer sobre los términos que encuentres más complejos. Después de haber aprendido algunos de los principios clave de LOD, la mejor manera de mejorar y consolidar ese conocimiento es practicar. Este tutorial ofrece oportunidades para hacerlo. Al final del curso deberías entender los fundamentos de LOD, incluyendo términos y conceptos clave.
 
-Si necesitas aprender a explorar los LOD usando el lenguaje de consulta [SPARQL](https://es.wikipedia.org/wiki/SPARQL), recomiendo la lección ['Uso de SPARQL para acceder a datos abiertos enlazados'](https://programminghistorian.org/es/lecciones/sparql-datos-abiertos-enlazados) de Matthew Lincoln, que sigue de una forma práctica la perspectiva conceptual ofrecida en esta lección.
+Si necesitas aprender a explorar los LOD usando el lenguaje de consulta [SPARQL](https://es.wikipedia.org/wiki/SPARQL), recomiendo la lección ['Uso de SPARQL para acceder a datos abiertos enlazados'](/es/lecciones/sparql-datos-abiertos-enlazados) de Matthew Lincoln, que sigue de una forma práctica la perspectiva conceptual ofrecida en esta lección.
 
 Con el fin de proporcionar a los lectores una base sólida de los principios básicos de LOD, este tutorial no ofrecerá una cobertura completa de todos los conceptos LOD. Los siguientes dos conceptos de LOD *no* se explicarán en esta lección:
 
@@ -304,7 +304,7 @@ Para esta sección final, interrogaremos algunos LOD y veremos qué podemos hace
 
 El lenguaje de consulta que utilizamos para los LOD se llama [SPARQL](https://es.wikipedia.org/wiki/SPARQL). Es uno de esos acrónimos recursivos amados por los tecnólogos: *Protocolo y lenguaje de consulta SPARQL* .
 
-Como mencioné al principio, *The Programming Historian en español* tiene [una lección completa](https://programminghistorian.org/es/lecciones/sparql-datos-abiertos-enlazados), por Matthew Lincoln, sobre el uso de SPARQL. Esta última sección sólo proporciona una descripción general de los conceptos básicos y, si SPARQL despierta tu interés, puedes obtener una base sólida con el tutorial de Lincoln.
+Como mencioné al principio, *The Programming Historian en español* tiene [una lección completa](/es/lecciones/sparql-datos-abiertos-enlazados), por Matthew Lincoln, sobre el uso de SPARQL. Esta última sección sólo proporciona una descripción general de los conceptos básicos y, si SPARQL despierta tu interés, puedes obtener una base sólida con el tutorial de Lincoln.
 
 Vamos a ejecutar nuestras consultas SPARQL en [DBpedia](https://es.wikipedia.org/wiki/SPARQL), que es un gran conjunto de LOD derivado de Wikipedia. Además de estar lleno de información que es muy difícil de encontrar a través de la interfaz habitual de Wikipedia, tiene varios "puntos finales" SPARQL: interfaces donde puedes escribir consultas SPARQL y obtener resultados de las tripletas de DBpedia.
 
@@ -378,7 +378,7 @@ Así que esto funciona para crear listas, lo cual es útil, pero sería mucho m�
 
 Con SPARQL en *DBpedia*, debes tener cuidado con las inconsistencias del material de múltiples fuentes. Podrías usar SPARQL exactamente de la misma manera en un conjunto de datos más mantenido, por ejemplo, los datos del gobierno del Reino Unido: [https://data-gov.tw.rpi.edu//sparql]() y esperar obtener resultados más sólidos (hay un breve resumen tutorial para este conjunto de datos aquí: [https://data-gov.tw.rpi.edu/wiki/A\_crash\_course\_in\_SPARQL]()).
 
-Sin embargo, a pesar de sus inconsistencias, *DBpedia* es un gran lugar para aprender SPARQL. Esto solo ha sido una breve introducción pero hay mucho más en ['Uso de SPARQL para acceder a datos abiertos enlazados'](https://programminghistorian.org/es/lecciones/sparql-datos-abiertos-enlazados).
+Sin embargo, a pesar de sus inconsistencias, *DBpedia* es un gran lugar para aprender SPARQL. Esto solo ha sido una breve introducción pero hay mucho más en ['Uso de SPARQL para acceder a datos abiertos enlazados'](/es/lecciones/sparql-datos-abiertos-enlazados).
 
 ## Lecturas adicionales y recursos
 
@@ -396,7 +396,7 @@ Sin embargo, a pesar de sus inconsistencias, *DBpedia* es un gran lugar para apr
 
 * Mira también la [página web](http://freeyourmetadata.org/) complementaria del libro 
 
-* Matthew Lincoln ['Using SPARQL to access Linked Open Data'](http://programminghistorian.org/lessons/graph-databases-and-SPARQL)
+* Matthew Lincoln ['Using SPARQL to access Linked Open Data'](/en/lessons/graph-databases-and-SPARQL)
 
 * [Linked Data guides and tutorials](http://linkeddata.org/guides-and-tutorials)
 
