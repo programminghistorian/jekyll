@@ -194,7 +194,7 @@ Los LOD usan un estándar, definido por el [World Wide Web Consortium](https://w
 A menudo oirás que los LOD son denominados simplemente como RDF. Hemos retrasado hablar de RDF hasta ahora porque es bastante abstracto. RDF es un [modelo de datos](https://es.wikipedia.org/wiki/Modelo_de_datos) que describe cómo se estructuran los datos en un nivel teórico. Así, la insistencia en usar tripletas (en lugar de cuatro partes, o dos o nueve, por ejemplo) es una regla de RDF. Pero cuando se trata de asuntos más prácticos, tienes algunas opciones de implementación. Por tanto, RDF te dice lo que tienes que hacer, pero no exactamente cómo tienes que hacerlo. Estas opciones se dividen en dos áreas: cómo escribes las cosas (serialización) y las relaciones que describen tus tripletas.
 
 ### Serialización
-La [serialización](https://es.wikipedia.org/wiki/Serializaci%C3%B3nn) es el término técnico para 'cómo escribes las cosas'. El chino estándar (mandarín) se puede escribir en caracteres tradicionales, caracteres simplificados o romanización Pinyin y el idioma en sí no cambia. Del mismo modo, RDF se puede escribir en diversas formas. Aquí veremos dos (hay otros, pero por simplicidad, nos centraremos en estos):
+La [serialización](https://es.wikipedia.org/wiki/Serializaci%C3%B3n) es el término técnico para 'cómo escribes las cosas'. El chino estándar (mandarín) se puede escribir en caracteres tradicionales, caracteres simplificados o romanización Pinyin y el idioma en sí no cambia. Del mismo modo, RDF se puede escribir en diversas formas. Aquí veremos dos (hay otros, pero por simplicidad, nos centraremos en estos):
 
 1) [Turtle](https://es.wikipedia.org/wiki/Turtle_(sintaxis))
 
