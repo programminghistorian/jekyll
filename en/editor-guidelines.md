@@ -324,7 +324,7 @@ Leave column D blank and untouched - this field is used by the Twitter bot to lo
 ### 11) Confirm all links and YAML headers are functioning correctly
 
 Once you push your changes on to the `gh-pages` branch of the [programminghistorian][ph_repo] repository, the site will be automatically tested by [Travis CI] ([Continuous Integration]).
-This test process checks two things: first, that all YAML and markdown code is parseable, and second, that all the hyperlinks on the site point to valid, operational pages.
+This test process checks three things: first, that all YAML and markdown code is parseable; second, that all the hyperlinks on the site point to valid, operational pages; and third, that internal links to pages on the _Programming Historian_ are all relative links that start with `/` rather than `https://programminghistorian.org/`
 
 [ph_repo]: https://github.com/programminghistorian/jekyll
 

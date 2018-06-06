@@ -774,7 +774,7 @@
   bio:
     en: |
         Daniel Ruten is entering graduate studies in history at the University of Saskatchewan.
-    en: |
+    es: |
         Daniel Ruten cursa una licenciatura en Historia en University of Saskatchewan.
 
 - name: Nabeel Siddiqui
@@ -971,3 +971,22 @@
       en: |
           Jeff Blackadar is a part-time undergraduate history student at Carleton University. His career is in the field of information technology.
 
+          
+- name: Sofia Papastamkou
+  email: spapastamkou@gmail.com
+  twitter: s_papastamkou
+  github: spapastamkou
+  team: true
+  team_start: 2018
+  institution: CNRS
+  sortname: Papastamkou
+  affiliation: Maison européenne des sciences de l'homme et de la société Lille Nord de France
+  bio:
+        en: | 
+            Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS). 
+            She is currently assigned to the Maison européenne des sciences de l'homme et de la société Lille Nord de France.
+        es: |
+            Sofia Papastamkou es historiadora e investigadora en Humanidades Digitales en el Centre national de la recherche scientifique  (CNRS). Actualmente, su labor está asociada con Maison européenne des sciences de l'homme et de la société Lille Nord de France.
+        fr: |
+            Sofia Papastamkou est docteure en histoire et ingénieure d'études en humanités numériques au CNRS. Elle est affectée à la Maison européenne des sciences de l'homme et de la société Lille Nord de France.
+        

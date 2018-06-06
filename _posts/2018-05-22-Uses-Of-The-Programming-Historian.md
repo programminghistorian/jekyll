@@ -42,7 +42,7 @@ If you are using the _Programming Historian_ in interesting ways, we'd love to h
 * Manan Ahmed, 'Borderlands: Towards a Spatial History of Empire (formerly available from: http://mananahmed.github.io/borderlands.html)', Columbia University, USA (Spring 2015).
 * Andrew Ross, '[Exploring Digital Humanities (HIST 4170)](https://www.uoguelph.ca/history/sites/uoguelph.ca.history/files/syllabus/4170%20W15.pdf)', University of Guelph, Canada (Winter 2015).
 * Adam Crymble, '[Intro to Digital History](http://adamcrymble.org/intro-to-digital-history-2015/)', University of Hertfordshire, UK (Spring 2015).
-* John Russell, '[Digital Scholarship Methods](https://library.uoregon.edu/node/4570)', University of Oregon, USA (Winter 2015).
+* John Russell, '[Digital Scholarship Methods](http://web.archive.org/web/20150905233647/https://library.uoregon.edu/node/4570)', University of Oregon, USA (Winter 2015).
 
 ### 2014
 
@@ -69,7 +69,7 @@ If you are using the _Programming Historian_ in interesting ways, we'd love to h
 
 ### 2012
 
-* Matthew Wilkens, '[Digital Humanities (English 90127)](http://www3.nd.edu/~mwilkens/Wilkens_DH_Syllabus_Init.pdf)', Notre Dame, USA (Autumn 2012).
+* Matthew Wilkens, '[Digital Humanities (English 90127)](http://www.scottbot.net/HIAL/wp-content/uploads/2012/09/Wilkens_DH_Syllabus_Init.pdf)', Notre Dame, USA (Autumn 2012).
 
 ### 2011
 
@@ -77,7 +77,7 @@ If you are using the _Programming Historian_ in interesting ways, we'd love to h
 
 ## Other Teaching
 
-### Using [the intro Jekyll lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages)
+___Using [the intro Jekyll lesson](/lessons/building-static-sites-with-jekyll-github-pages)___
 * [DH at Guelph Minimal Computing class](https://twitter.com/antimony27/status/730808295410311169) (Spring 2016).
 * Scott Weingart graduate teaching (Spring 2016)
 
