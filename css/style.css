@@ -102,6 +102,29 @@ Home Page
     width: 75%;
   }
 
+  .index-box {
+    margin: 0rem;
+    padding: 1rem;
+    color: #fff
+  }
+
+  .index-boxes p {
+    font-family: 'Open Sans';
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  #en-index-box {
+    background-color: #343434
+  }
+
+  #es-index-box {
+    background-color: #42496C
+  }
+
+  #fr-index-box {
+    background-color: #31696E
+  }
 /* =============================================================================
 Lesson Headers
 ========================================================================== */
