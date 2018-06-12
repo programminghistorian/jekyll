@@ -399,6 +399,7 @@ Let's look at the frequencies of each feature in each candidate's subcorpus, as 
 
 ```python
 # The main data structure
+features = [word for word,freq in whole_corpus_freq_dist]
 feature_freqs = {}
 
 for author in authors:
