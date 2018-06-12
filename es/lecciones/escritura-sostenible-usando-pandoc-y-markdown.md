@@ -275,7 +275,7 @@ Edita la nota a pie de página en la primera línea de tu archivo `principal.md`
 - `Una referencia bibliográfica formateada como ésta se traducirá apropiadamente tanto en un estilo de citación en texto -como en nota a pie- [@nombre_título_fecha, 67].`[^7]
 - `"Para citas entrecomilladas, pon la coma afuera de los signos de las comillas" [@nombre_título_fecha, 67].`
 
-Una vez que ejecutes el markdown a través de Pandoc, "@fyfe\_digital\_2011" se ampliará a una citación completa en el estilo que hayas seleccionado. Puedes usar la sintaxis `@citacion` de cualquier manera que veas que encaja: dentro de las líneas de tu texto o en las notas a pie. Para generar una bibliografía simplemente incluye una sección llamada `# Bibliography` al final del documento.
+Una vez que ejecutes el markdown a través de Pandoc, "@fyfe\_digital\_2011" se ampliará a una citación completa en el estilo que hayas seleccionado. Puedes usar la sintaxis `@citacion` de cualquier manera que veas que encaja: dentro de las líneas de tu texto o en las notas a pie. Para generar una bibliografía simplemente incluye una sección llamada `# Bibliografía` al final del documento.
 
 Ahora, vayamos de nuevo a nuestro bloque de metadatos en el encabezado de tu documento `.md`, y especifica el archivo de bibliografía que deberá utilizarse, algo como:
 
