@@ -1,5 +1,5 @@
 {% comment %}
- Include the footer with license, GitHub hosting label, commit history, and feedback submission link. 
+ Include the footer with license, GitHub hosting label, commit history, and feedback submission link.
 {% endcomment %}
 
 <footer role="contentinfo">
@@ -7,7 +7,14 @@
 <div class="container-fluid">
 
 <div class="row">
-  <div class="col-sm-12 footer-head">
+  <div class="col-sm-4 footer-head">
+    {% for l in site.data.snippets.language-list %}
+    {% if page.lang == l %}<strong>{% endif %}
+    <p><a href="{{ site.data.snippets.menu-home[l] }}">ISSN {{ site.data.snippets.issn[l] }} ({{ site.data.snippets.language-name[l][page.lang]}})</a></p>
+    {% if page.lang == l %}</strong>{% endif %}
+    {% endfor %}
+  </div>
+  <div class="col-sm-8 footer-head">
     {{ site.data.snippets.footer.license[page.lang] | markdownify }}
   </div>
 </div>
