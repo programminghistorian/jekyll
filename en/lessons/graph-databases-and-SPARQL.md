@@ -297,7 +297,7 @@ WHERE {
 }
 ```
 
-[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D&_implicit=false&_equivalent=false&_form=%2Fsparql) 
+[Run query](http://collection.britishmuseum.org/sparql?query=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D&_implicit=false&_equivalent=false&_form=%2Fsparql)
 
 By calling `SELECT ?p ?o` we're asking the database to return the values of `?p`
 and `?o` as described in the `WHERE {}` command. This query returns every
@@ -307,7 +307,7 @@ is in the middle position of the RDF statement in the `WHERE {}` command, so it
 returns any predicates matching this statement, while `?o` in the final position
 returns all objects. Though I have named them `?p` and `?o` here, as you will
 see below we can name these variables anything we like. Indeed, it will be
-useful to give them meaningful names for the complex queries that follow!. 
+useful to give them meaningful names for the complex queries that follow!.
 
 {% include figure.html filename="sparql04.png" caption="An initial list of all the predicates and objects associated with one artwork in the British Museum." %}
 
@@ -466,7 +466,7 @@ ORDER BY DESC(?n)
 
 ## Linking multiple SPARQL endpoints
 
-**2016-09-12: Unfortunately, Europeana has suspended their SPARQL endpoint until further notice, so the links in the following section are no longer operative. The text below will be retained as-is for reference purposes, and will be updated if and when Europeana renews their endpoint.**
+**2018-06-13: Unfortunately, Europeana has removed the ability to link to external SPARQL endpoints using `SERVICE` queries, so the query in this section can no longer be run. The text below will be retained as-is for reference purposes, and may be updated if and when Europeana again allows `SERVICE` queries.**
 
 Up until now, we have constructed queries that look for patterns in one dataset
 alone. In the ideal world envisioned by Linked Open Data advocates, multiple
