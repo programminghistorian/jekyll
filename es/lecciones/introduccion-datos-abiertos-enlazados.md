@@ -59,7 +59,7 @@ Para lograr este objetivo, al trabajar con LOD, recuerda siempre los tres princi
 
 2. **Refiérete a una entidad de la misma forma que otras personas**. Si tienes datos sobre la misma persona/lugar/cosa en dos o más sitios, asegúrate de referirte a la persona/lugar/cosa de la misma manera en todos los casos.
 
-3. **Publica tus datos en abierto**. Con la expresión "en abierto" queremos decir que cualquier persona pueda usarlos sin pagar una cuota y en un formato que no requiera [programas de pago] (https://en.wikipedia.org/wiki/Proprietary_software).
+3. **Publica tus datos en abierto**. Con la expresión "en abierto" queremos decir que cualquier persona pueda usarlos sin pagar una cuota y en un formato que no requiera [programas de pago](https://en.wikipedia.org/wiki/Proprietary_software).
 
 Comencemos con un ejemplo de datos sobre una persona, usando un habitual [par atributo-valor](https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair) típico en computación:
 
@@ -93,7 +93,7 @@ La falta de archivos de autoridad consistentes es uno de los principales retos a
 
 Una vez que se asignan identificadores únicos a todos los elementos, el siguiente paso es clave en la creación de LOD para tener una manera de *describir* la relación entre Jack Straw (`64183282`) y Blackburn (`blackburn1955-current`). En los LOD, las relaciones se expresan utilizando lo que se conoce como una '[tripleta](https://en.wikipedia.org/wiki/Semantic_triple)'. Hagamos una tripleta que representa la relación entre Jack Straw y su circunscripción electoral:
 
-    persona:64183282 rol:representanteEnElParlamentoUK circunscripción:"blackburn1955-current" 
+    persona:64183282 rol:representanteEnElParlamentoUK circunscripción:"blackburn1955-current"
 
 La presentación (o [sintaxis](https://es.wikipedia.org/wiki/Sintaxis)) de las tripletas, incluida la puntuación utilizada anteriormente, se analizará más adelante, en la sección sobre RDF y formatos de datos. Por ahora, concéntrate en la estructura básica. La tripleta, como es lógico, tiene tres partes. Éstas se conocen convencionalmente como sujeto, predicado y objeto:
 
@@ -159,7 +159,7 @@ Estamos poniendo ejemplos simplemente con el fin de ilustrar, pero si deseas enl
 
 Una ontología es más flexible porque no es jerárquica. Su objetivo es representar la fluidez del mundo real, donde las cosas se pueden relacionar entre sí de formas más complejas que las representadas por una estructura jerárquica de tipo arbóreo. En cambio, una ontología es más como una tela de araña.
 
-Sea lo que sea que desees representar con los LOD, te sugerimos que busques un vocabulario existente y lo uses, en lugar de intentar escribir el tuyo propio. Esta página principal incluye [una lista de algunos de los vocabularios más populares](http://semanticweb.org/wiki/Main_Page.html) 
+Sea lo que sea que desees representar con los LOD, te sugerimos que busques un vocabulario existente y lo uses, en lugar de intentar escribir el tuyo propio. Esta página principal incluye [una lista de algunos de los vocabularios más populares](http://semanticweb.org/wiki/Main_Page.html)
 > N.T.: desplázate hacia la zona derecha/abajo de la página: "Popular Vocabularies"
 
 Dado que nuestro anterior ejemplo se centra en los pianistas, sería una buena idea encontrar una ontología adecuada en lugar de crear nuestro propio sistema. De hecho, hay [una ontología para la música](http://web.archive.org/web/20170715094229/http://www.musicontology.com/). Además de una especificación bien desarrollada, tiene también algunos ejemplos útiles de su uso. Puedes echar un vistazo a las páginas de [Introducción](http://web.archive.org/web/20170718143925/http://musicontology.com/docs/getting-started.html) para tener una idea de cómo puedes usar esa ontología particular.
@@ -394,7 +394,7 @@ Sin embargo, a pesar de sus inconsistencias, *DBpedia* es un gran lugar para apr
 
 * Seth van Hooland y Ruben Verborgh, *Linked Data for Libraries, Archives and Museums*, 2015
 
-* Mira también la [página web](http://freeyourmetadata.org/) complementaria del libro 
+* Mira también la [página web](http://freeyourmetadata.org/) complementaria del libro
 
 * Matthew Lincoln ['Using SPARQL to access Linked Open Data'](/en/lessons/graph-databases-and-SPARQL)
 
