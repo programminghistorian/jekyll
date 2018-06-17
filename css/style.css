@@ -105,14 +105,20 @@ Home Page
   .index-box {
     margin: 0rem;
     padding: 1rem;
-    color: #fff
+    color: #fff;
+    width: 33%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .index-box {
+      width: 100%;
+    }
   }
 
   .index-boxes p {
     font-family: 'Crete Round';
     font-size: 1rem;
     text-align: center;
-    width: 220px;
   }
 
   #en-index-box {
