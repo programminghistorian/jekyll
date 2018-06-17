@@ -5,28 +5,16 @@ title: The Programming Historian
 
 <div class="container index-boxes">
   <div class="row">
-    <div class=".col-md-3 col-xs-12 index-box" id="en-index-box">
-      <p>{{ site.data.snippets.language-version["en"]}}<p>
-      {% assign en_count = site.pages | where: "lesson", "true" | where: "lang", "en" | size %}
-      <p>{{ en_count }} {{ site.data.snippets.peer-reviewed-lessons["en"]}}</p>
-      <p>ISSN: {{ site.data.snippets.issn["en"] }}</p>
-      <p>{{ site.data.snippets.star-learning["en"] }}</p>
+    <div class=".col-md-4 col-xs-12 index-box" id="en-index-box">
+      {% include landing-page-block.html lang="en" %}
     </div>
 
-    <div class=".col-md-3 col-xs-12 index-box" id="es-index-box">
-      <p>{{ site.data.snippets.language-version["es"]}}<p>
-      {% assign es_count = site.pages | where: "lesson", "true" | where: "lang", "es" | size %}
-      <p>{{ es_count }} {{ site.data.snippets.peer-reviewed-lessons["es"]}}</p>
-      <p>ISSN: {{ site.data.snippets.issn["es"] }}</p>
-      <p>{{ site.data.snippets.star-learning["es"] }}</p>
+    <div class=".col-md-4 col-xs-12 index-box" id="es-index-box">
+       {% include landing-page-block.html lang="es" %}
     </div>
 
-    <div class=".col-md-3 col-xs-12 index-box" id="fr-index-box">
-      <p>{{ site.data.snippets.language-version["fr"]}}<p>
-      {% assign fr_count = site.pagfr | where: "lesson", "true" | where: "lang", "fr" | size %}
-      <p>{{ fr_count }} {{ site.data.snippets.peer-reviewed-lessons["fr"]}}</p>
-      <p>ISSN: {{ site.data.snippets.issn["fr"] }}</p>
-      <p>{{ site.data.snippets.star-learning["fr"] }}</p>
+    <div class=".col-md-4 col-xs-12 index-box" id="fr-index-box">
+       {% include landing-page-block.html lang="fr" %}
     </div>
   </div>
 </div>

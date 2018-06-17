@@ -328,4 +328,14 @@ peer-reviewed-lessons:
 start-learning:
   en: Start Learning!
   es: Comencemos aprediendo!
-  fr: Commencer a apprendre
+  fr: Commencer a apprendre!
+
+logo:
+  plain:
+    en: images/logos/ph-en.svg
+    es: images/logos/ph-es.svg
+    fr: images/logos/ph-fr.svg
+  url:
+    en: images/logos/ph-en-url.svg
+    es: images/logos/ph-es-url.svg
+    fr: images/logos/ph-fr-url.svg

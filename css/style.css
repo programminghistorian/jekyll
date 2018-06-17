@@ -109,22 +109,29 @@ Home Page
   }
 
   .index-boxes p {
-    font-family: 'Open Sans';
-    font-size: 1.2rem;
+    font-family: 'Crete Round';
+    font-size: 1rem;
     text-align: center;
+    width: 220px;
   }
 
   #en-index-box {
-    background-color: #343434
+    background-color: #444444
   }
 
   #es-index-box {
-    background-color: #42496C
+    background-color: #535d7f
   }
 
   #fr-index-box {
-    background-color: #31696E
+    background-color: #3d7c81
   }
+/*
+  img .logo {
+    width: 100%;
+    height: 100%
+  } */
+
 /* =============================================================================
 Lesson Headers
 ========================================================================== */
