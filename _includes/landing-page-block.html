@@ -3,5 +3,5 @@
 {% assign lang_count = site.pages | where: "lesson", "true" | where: "lang", include.lang | size %}
 <p>{{ lang_count }} {{ site.data.snippets.peer-reviewed-lessons[include.lang]}}</p>
 <p>ISSN: {{ site.data.snippets.issn[include.lang] }}</p>
-<hr>
+<hr />
 <a href="{{ site.data.snippets.menu-home[include.lang] }}"><p>{{ site.data.snippets.start-learning[include.lang] }}</p></a>

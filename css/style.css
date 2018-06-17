@@ -109,9 +109,26 @@ Home Page
     width: 33%;
   }
 
+  .index-box a:link, .index-box a:visited {
+    color: #fff;
+    text-decoration: underline;
+  }
+
   @media screen and (max-width: 768px) {
     .index-box {
       width: 100%;
+    }
+
+    img.logo {
+      height: 100px;
+    }
+
+    .index-boxes p {
+      margin-bottom: 0.2rem;
+    }
+
+    .index-boxes hr {
+      margin: 0.3rem;
     }
   }
 
@@ -132,11 +149,6 @@ Home Page
   #fr-index-box {
     background-color: #3d7c81
   }
-/*
-  img .logo {
-    width: 100%;
-    height: 100%
-  } */
 
 /* =============================================================================
 Lesson Headers
