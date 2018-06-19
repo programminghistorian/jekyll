@@ -114,13 +114,17 @@ Home Page
     text-decoration: underline;
   }
 
+  img.logo {
+    height: 300px;
+  }
+
   @media screen and (max-width: 768px) {
     .index-box {
       width: 100%;
     }
 
     img.logo {
-      height: 100px;
+      height: 150px;
     }
 
     .index-boxes p {
