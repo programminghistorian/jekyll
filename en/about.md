@@ -22,7 +22,7 @@ All submissions to the _Programming Historian_ are published under a [Creative C
 
 We do not charge Article Processing Charges (APCs), nor do we charge library subscriptions.
 
-The _Programming Historian_ (ISSN 2397-2068) is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
+The _Programming Historian_ (ISSN {{ site.data.snippets.issn[page.lang] }}) is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
 
 ## Diversity Policy
 

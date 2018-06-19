@@ -21,7 +21,7 @@ Todas las contribuciones a _The Programming Historian en español_ son publicada
 
 No aplicamos cargos por procesamiento de artículos (APCs), o suscripción bibliotecaria.
 
-_The Programming Historian en español_ está indexado en el Directorio de Revistas de Acceso Abierto [DOAJ](https://doaj.org/toc/2397-2068).
+_The Programming Historian en español_ (ISSN {{ site.data.snippets.issn[page.lang] }}) está indexado en el Directorio de Revistas de Acceso Abierto [DOAJ](https://doaj.org/toc/2397-2068).
 
 ## Política de diversidad
 
