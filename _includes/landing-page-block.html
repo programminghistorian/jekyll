@@ -1,7 +1,9 @@
+<a href="{{ site.data.snippets.menu-home[include.lang] }}">
 <img src="{{ site.data.snippets.logo.plain[include.lang] }}" class="logo" />
 <p>{{ site.data.snippets.language-version[include.lang]}}<br/>
 {% assign lang_count = site.pages | where: "lesson", "true" | where: "lang", include.lang | size %}
 {{ lang_count }} {{ site.data.snippets.peer-reviewed-lessons[include.lang]}}</p>
 <p>ISSN: {{ site.data.snippets.issn[include.lang] }}</p>
 <hr />
-<a href="{{ site.data.snippets.menu-home[include.lang] }}"><p>{{ site.data.snippets.start-learning[include.lang] }}</p></a>
+<p>{{ site.data.snippets.start-learning[include.lang] }}</p>
+</a>
