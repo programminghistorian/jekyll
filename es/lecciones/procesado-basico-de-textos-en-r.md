@@ -51,14 +51,14 @@ install.packages("tokenizers")
 
 Dependiendo de la configuración de tu sistema, puede que se abra un cuadro de diálogo pidiéndote que elijas un sitio espejo (*mirror*) del que realizar la descarga. Escoge uno cerca de tu localización. La descarga y la instalación deberían realizarse automáticamente.
 
-Ahora que estos paquetes están descargados en tu ordenador, tenemos que decirle a R que los cargue para usarlos. Hacemos esto mediante el comando <code class="highlighter-rouge">library</code>(librería); puede que aparezcan algunos avisos mientras se cargan otras dependencias, pero por lo general se pueden ignorar sin mayor problema.
+Ahora que estos paquetes están descargados en tu ordenador, tenemos que decirle a R que los cargue para usarlos. Hacemos esto mediante el comando `library`(librería); puede que aparezcan algunos avisos mientras se cargan otras dependencias, pero por lo general se pueden ignorar sin mayor problema.
 
 ```{r}
 library(tidyverse)
 library(tokenizers)
 ```
 
-Mientras que solo necesitas ejecutar el comando <code class="highlighter-rouge">install.packages</code> (instalar paquetes) la primera vez que inicias este tutorial, tendrás que ejecutar el comando <code class="highlighter-rouge">library</code> cada vez que reinicies R[^5].
+Mientras que solo necesitas ejecutar el comando `install.packages</code> (instalar paquetes) la primera vez que inicias este tutorial, tendrás que ejecutar el comando <code class="highlighter-rouge">library` cada vez que reinicies R[^5].
 
 ## Segmentación de palabras
 
@@ -70,15 +70,15 @@ Para cargar el texto copia y pega lo siguiente en la consola de R.
 texto <- paste("También entiendo que como es temporada de elecciones, las expectativas para lo que lograremos este año son bajas. Aún así, señor Presidente de la Cámara de Representantes, aprecio el enfoque constructivo que usted y los otros líderes adoptaron a finales del año pasado para aprobar un presupuesto, y hacer permanentes los recortes de impuestos para las familias trabajadoras. Así que espero que este año podamos trabajar juntos en prioridades bipartidistas como la reforma de la justicia penal y ayudar a la gente que está luchando contra la adicción a fármacos de prescripción. Tal vez podamos sorprender de nuevo a los cínicos.")
 ```
 
-Después de ejecutar esto (haciendo clic en 'Intro'), escribe la palabra <code class="highlighter-rouge">texto</code> en la consola y haz clic en 'Intro'. R imprimirá el párrafo de texto porque la variable 'texto' ahora contiene el documento.
+Después de ejecutar esto (haciendo clic en 'Intro'), escribe la palabra `texto` en la consola y haz clic en 'Intro'. R imprimirá el párrafo de texto porque la variable 'texto' ahora contiene el documento.
 
-Como primer paso en el procesado del texto vamos a usar la función <code class="highlighter-rouge">tokenize_words</code> (segmentar palabras) del paquete **tokenizers** para dividir el texto en palabras individuales.
+Como primer paso en el procesado del texto vamos a usar la función `tokenize_words` (segmentar palabras) del paquete **tokenizers** para dividir el texto en palabras individuales.
 
 ```{r}
 palabras <- tokenize_words(texto)
 ```
 
-Para imprimir los resultados en la ventana de la consola de R, mostrando tanto el resultado tokenizado como la posición de cada elemento en el margen izquierdo, ejecuta <code class="highlighter-rouge">palabras</code> en la consola:
+Para imprimir los resultados en la ventana de la consola de R, mostrando tanto el resultado tokenizado como la posición de cada elemento en el margen izquierdo, ejecuta `palabras` en la consola:
 
 ```{r}
 palabras
@@ -117,7 +117,7 @@ Esto produce el siguiente resultado:
 
 ¿Cómo ha cambiado el texto cargado después de ejecutar esa función de R? Ha eliminado todos los signos de puntuación, ha dividido el texto en palabras individuales y ha convertido todo a minúsculas. Veremos a continuación por qué todas estas intervenciones son útiles para nuestro análisis.
 
-¿Cuántas palabras hay en este fragmento de texto? Si usamos la función <code class="highlighter-rouge">length</code> (longitud) directamente en el objeto <code class="highlighter-rouge">palabras</code>, el resultado no es muy útil que digamos.
+¿Cuántas palabras hay en este fragmento de texto? Si usamos la función `length` (longitud) directamente en el objeto `palabras`, el resultado no es muy útil que digamos.
 
 ```{r}
 length(palabras)
@@ -129,15 +129,15 @@ El resultado es igual a:
 [1] 1
 ```
 
-La razón por la cual la longitud equivale a 1 es que la función <code class="highlighter-rouge">tokenize_words</code> devuelve una lista de objetos con una entrada por documento cargado. Nuestro ingreso solo tiene un documento y, por tanto, la lista contiene solo un elemento. Para ver las palabras *dentro* del primer documento, usamos el símbolo del corchete para seleccionar solo el primer elemento de la lista, así:
+La razón por la cual la longitud equivale a 1 es que la función `tokenize_words` devuelve una lista de objetos con una entrada por documento cargado. Nuestro ingreso solo tiene un documento y, por tanto, la lista contiene solo un elemento. Para ver las palabras *dentro* del primer documento, usamos el símbolo del corchete para seleccionar solo el primer elemento de la lista, así:
 
 ```{r}
 length(palabras[[1]])
 ```
 
-El resultado es <code class="highlighter-rouge">101</code>, lo cual indica que hay 101 palabras en nuestro párrafo.
+El resultado es `101`, lo cual indica que hay 101 palabras en nuestro párrafo.
 
-La separación del documento en palabras individuales hace posible calcular cuántas veces se utilizó cada palabra en el texto. Para hacer esto, primero aplicamos la función <code class="highlighter-rouge">table</code>(tabla) a las palabras en el primer (y aquí, único) documento y después separamos los nombres y los valores de la tabla en un único objeto llamado marco de datos (*data frame*). Los marcos de datos en R son utilizados de manera similar a como se utiliza una tabla en una base de datos. Estos pasos, junto con la impresión de los resultados, son conseguidos con las siguientes líneas de código:
+La separación del documento en palabras individuales hace posible calcular cuántas veces se utilizó cada palabra en el texto. Para hacer esto, primero aplicamos la función `table`(tabla) a las palabras en el primer (y aquí, único) documento y después separamos los nombres y los valores de la tabla en un único objeto llamado marco de datos (*data frame*). Los marcos de datos en R son utilizados de manera similar a como se utiliza una tabla en una base de datos. Estos pasos, junto con la impresión de los resultados, son conseguidos con las siguientes líneas de código:
 
 ```{r}
 tabla <- table(palabras[[1]])
@@ -166,7 +166,7 @@ El resultado de este comando debería parecerse a este en tu consola (una *tibbl
 
 Hay una gran cantidad de información en esta muestra. Vemos que hay 70 palabras únicas, como indica la dimensión de la tabla. Se imprimen las 10 primeras filas del conjunto de datos con la segunda columna indicando el número de veces que la palabra de la primera columna ha sido usada. Por ejemplo, "a" se usó 4 veces pero "ayudar" solo se usó una vez.
 
-También podemos ordenar la tabla usando la función <code class="highlighter-rouge">arrange</code>(organizar). Esta función toma el conjunto de datos sobre el que trabajar, aquí <code class="highlighter-rouge">tabla</code>, y después el nombre de la columna que toma como referencia para ordenarlo. La función <code class="highlighter-rouge">desc</code> en el segundo argumento indica que queremos clasificar en orden descendiente.
+También podemos ordenar la tabla usando la función `arrange`(organizar). Esta función toma el conjunto de datos sobre el que trabajar, aquí `tabla`, y después el nombre de la columna que toma como referencia para ordenarlo. La función `desc` en el segundo argumento indica que queremos clasificar en orden descendiente.
 
 ```{r}
 arrange(tabla, desc(recuento))
@@ -196,7 +196,7 @@ Una técnica popular es cargar una lista de palabras usadas con gran frecuencia 
 
 ## Detectar oraciones
 
-El paquete **tokenizer** también contiene la función <code class="highlighter-rouge">tokenize_sentences</code> que divide el texto en oraciones en vez de en palabras. Se puede ejecutar de la siguiente manera:
+El paquete **tokenizer** también contiene la función `tokenize_sentences` que divide el texto en oraciones en vez de en palabras. Se puede ejecutar de la siguiente manera:
 
 ```{r}
 oraciones <- tokenize_sentences(texto)
@@ -215,14 +215,14 @@ Con el resultado:
 
 El resultado es un vector de caracteres, un objeto unidimensional que consta únicamente de elementos representados como caracteres. Advierte que el resultado ha marcado cada oración como un elemento separado.
 
-Es posible conectar el resultado de la división de oraciones con el de la división por palabras. Si ejecutamos la división de oraciones del párrafo con la función <code class="highlighter-rouge">tokenize_words</code>, cada oración es tratada como un único documento. Ejecuta esto usando la siguiente línea de código y observa si el resultado se parece al que estabas esperando; usa la segunda línea para imprimir el resultado.
+Es posible conectar el resultado de la división de oraciones con el de la división por palabras. Si ejecutamos la división de oraciones del párrafo con la función `tokenize_words`, cada oración es tratada como un único documento. Ejecuta esto usando la siguiente línea de código y observa si el resultado se parece al que estabas esperando; usa la segunda línea para imprimir el resultado.
 
 ```{r}
 oraciones_palabras <- tokenize_words(oraciones[[1]])
 oraciones_palabras
 ```
 
-Si miramos el tamaño del resultado directamente podemos ver que hay cuatro "documentos" en el objeto <code class="highlighter-rouge">oraciones_palabras</code>:
+Si miramos el tamaño del resultado directamente podemos ver que hay cuatro "documentos" en el objeto `oraciones_palabras`:
 
 ```{r}
 length(oraciones_palabras)
@@ -237,7 +237,7 @@ length(oraciones_palabras[[3]])
 length(oraciones_palabras[[4]])
 ```
 
-Esto puede ser algo engorroso pero, afortunadamente, hay una forma más sencilla de hacerlo. La función <code class="highlighter-rouge">sapply</code> ejecuta la función en el segundo argumento a cada elemento en el primer argumento. Como resultado, podemos calcular la longitud de cada oración en el primer párrafo con una sola línea de código:
+Esto puede ser algo engorroso pero, afortunadamente, hay una forma más sencilla de hacerlo. La función `sapply` ejecuta la función en el segundo argumento a cada elemento en el primer argumento. Como resultado, podemos calcular la longitud de cada oración en el primer párrafo con una sola línea de código:
 
 ```{r}
 sapply(oraciones_palabras, length)
@@ -256,7 +256,7 @@ Podemos ver que hay cuatro oraciones con una longitud de 18, 40, 34 y 9 palabras
 
 Vamos a aplicar las técnicas de la sección previa a un discurso del Estado de la Unión completo. Por motivos de consistencia, vamos a usar el mismo discurso de 2016 de Obama. Aquí vamos a cargar los datos desde un archivo puesto que copiarlo directamente se vuelve difícil a gran escala.
 
-Para hacer esto, vamos a combinar la función <code class="highlighter-rouge">readLines</code> (leer líneas) para cargar el texto en R y la función <code class="highlighter-rouge">paste</code> (pegar) para combinar todas las líneas en un único objeto. Vamos a crear la URL del archivo de texto usando la función <code class="highlighter-rouge">sprintf</code> puesto que este formato permitirá su fácil modificación para otras direcciones web[^7][^8].
+Para hacer esto, vamos a combinar la función `readLines` (leer líneas) para cargar el texto en R y la función `paste` (pegar) para combinar todas las líneas en un único objeto. Vamos a crear la URL del archivo de texto usando la función `sprintf` puesto que este formato permitirá su fácil modificación para otras direcciones web[^7][^8].
 
 ```{r}
 base_url <- "https://programminghistorian.org/assets/basic-text-processing-in-r"
@@ -271,7 +271,7 @@ palabras <- tokenize_words(texto)
 length(palabras[[1]])
 ```
 
-Vemos que este discurso contiene un total de <code class="highlighter-rouge">6113</code> palabras. Combinando las funciones de <code class="highlighter-rouge">table</code> (tabla), <code class="highlighter-rouge">data_frame</code> (marco de datos) y <code class="highlighter-rouge">arrange</code> (organizar), como lo hicimos en el ejemplo, obtenemos las palabras más frecuentes del discurso entero. Mientras haces esto, advierte lo fácil que es reutilizar código previo para repetir el análisis en un nuevo grupo de datos; esto es uno de los mayores beneficios de usar un lenguaje de programación para realizar un análisis basado en datos.
+Vemos que este discurso contiene un total de `6113` palabras. Combinando las funciones de `table` (tabla), `data_frame` (marco de datos) y `arrange` (organizar), como lo hicimos en el ejemplo, obtenemos las palabras más frecuentes del discurso entero. Mientras haces esto, advierte lo fácil que es reutilizar código previo para repetir el análisis en un nuevo grupo de datos; esto es uno de los mayores beneficios de usar un lenguaje de programación para realizar un análisis basado en datos.
 
 ```{r}
 tabla <- table(palabras[[1]])
@@ -279,7 +279,7 @@ tabla <- data_frame(word = names(tabla), count = as.numeric(tabla))
 tabla <- arrange(tabla, desc(count))
 tabla
 ```
-```{r} Aquí optamos por nombrar a las columnas de la tabla en inglés, como "word" (palabra) y "count" (recuento), para facilitar su interoperabilidad con el conjunto de datos que introducimos más adelante con la función <code class="highlighter-rouge">inner_join</code> de más adelante. [N. de la T.]
+```{r} Aquí optamos por nombrar a las columnas de la tabla en inglés, como "word" (palabra) y "count" (recuento), para facilitar su interoperabilidad con el conjunto de datos que introducimos más adelante con la función `inner_join` de más adelante. [N. de la T.]
 ```
 
 El resultado debería ser:
@@ -309,7 +309,7 @@ palabras_frecuentes
 
 La primera columna indica el lenguaje (siempre "en" por el inglés en este caso), la segunda aporta la palabra en cuestión y la tercera el porcentaje con que aparece en el *Corpus de un trillón de palabras de Google*. Por ejemplo, la palabra "for" aparece casi exactamente 1 vez cada 100 palabras, por lo menos en los textos de webs indexadas por Google.
 
-Para combinar estas palabras frecuentes con el grupo de datos en la <code class="highlighter-rouge">tabla</code> construida a partir de este discurso del Estado de la Unión, podemos utilizar la función <code class="highlighter-rouge">inner_join</code> (unión interna). Esta función toma dos grupos de datos y los combina en todas las columnas que tengan el mismo nombre; en este caso la columna común es la que se llama "palabra".
+Para combinar estas palabras frecuentes con el grupo de datos en la `tabla` construida a partir de este discurso del Estado de la Unión, podemos utilizar la función `inner_join` (unión interna). Esta función toma dos grupos de datos y los combina en todas las columnas que tengan el mismo nombre; en este caso la columna común es la que se llama "palabra".
 
 ```{r}
 tabla <- inner_join(tabla, palabras_frecuentes)
@@ -340,7 +340,7 @@ Esto da:
 >#... with 1,447 more rows
 ```
 
-Esta lista ya comienza a ser más interesante. Un término como "america" aparece a la cabeza de la lista porque,  podemos pensar, se utiliza mucho en los discursos de los políticos y menos en otros ámbitos. Al establecer el umbral aun más bajo, a 0.002, obtenemos un mejor resumen del discurso. Puesto que sería útil ver más que las diez líneas por defecto, vamos a usar la función <code class="highlighter-rouge">print</code> (imprimir) junto con la opción <code class="highlighter-rouge">n</code> (de número) configurada a 15 para poder ver más líneas.
+Esta lista ya comienza a ser más interesante. Un término como "america" aparece a la cabeza de la lista porque,  podemos pensar, se utiliza mucho en los discursos de los políticos y menos en otros ámbitos. Al establecer el umbral aun más bajo, a 0.002, obtenemos un mejor resumen del discurso. Puesto que sería útil ver más que las diez líneas por defecto, vamos a usar la función `print` (imprimir) junto con la opción `n` (de número) configurada a 15 para poder ver más líneas.
 
 ```{r}
 print(filter(tabla, frequency < 0.002), n = 15)
@@ -421,7 +421,7 @@ Esto debería darnos el siguiente resultado:
 
 ## Cargar el corpus
 
-Lo primero que hay que hacer para analizar el corpus de discursos sobre el Estado de la Unión es cargarlos todos en R. Esto implica las mismas funciones <code class="highlighter-rouge">paste</code> (pegar) y <code class="highlighter-rouge">readLines</code> (leer líneas) que antes, pero tenemos que generar un bucle <code class="highlighter-rouge">for</code> (para) que ejecuta las funciones en los 236 archivos de texto. Estos se combinan con la función <code class="highlighter-rouge">c</code>.
+Lo primero que hay que hacer para analizar el corpus de discursos sobre el Estado de la Unión es cargarlos todos en R. Esto implica las mismas funciones `paste` (pegar) y `readLines` (leer líneas) que antes, pero tenemos que generar un bucle `for` (para) que ejecuta las funciones en los 236 archivos de texto. Estos se combinan con la función `c`.
 
 ```{r}
 archivos <- sprintf("%s/sotu_text/%03d.txt", base_url, 1:236)
@@ -435,7 +435,7 @@ Esta técnica carga todos los archivos uno por uno desde Github. Opcionalmente, 
 
 ## Forma alternativa de cargar el corpus (opcional)
 
-El corpus completo puede descargarse aquí: [sotu_text.zip](/assets/basic-text-processing-in-r/sotu_text.zip). Descomprime el repositorio en algún lugar de tu ordenador y fija la variable <code class="highlighter-rouge">input_loc</code> (localización de carga) a la ruta de directorio donde has descomprimido el archivo. Por ejemplo, si los archivos están en el escritorio de un ordenador con el sistema operativo macOS y el usuario es stevejobs, <code class="highlighter-rouge">input_loc</code> debería ser:
+El corpus completo puede descargarse aquí: [sotu_text.zip](/assets/basic-text-processing-in-r/sotu_text.zip). Descomprime el repositorio en algún lugar de tu ordenador y fija la variable `input_loc` (localización de carga) a la ruta de directorio donde has descomprimido el archivo. Por ejemplo, si los archivos están en el escritorio de un ordenador con el sistema operativo macOS y el usuario es stevejobs, `input_loc` debería ser:
 
 ```{r}
 input_loc <- "/Users/stevejobs/Desktop/sotu_text"
@@ -455,7 +455,7 @@ Puedes usar esta misma técnica para cargar tu propio corpus de textos.
 
 ## Análisis exploratorio
 
-Una vez más, con la función <code class="highlighter-rouge">tokenize_words</code> podemos calcular la longitud de cada discurso en número de palabras.
+Una vez más, con la función `tokenize_words` podemos calcular la longitud de cada discurso en número de palabras.
 
 ```{r}
 palabras <- tokenize_words(texto)
@@ -464,7 +464,7 @@ sapply(palabras, length)
 
 ¿Existe un patrón temporal sobre la longitud de los discursos? ¿Cómo se compara la longitud de los discursos de otros presidentes a los de Franklin D. Roosevelt, Abraham Lincoln y George Washington?
 
-La mejor forma de saberlo es mediante la creación un gráfico de dispersión. Puedes construir uno usando <code class="highlighter-rouge">qplot</code> (gráfico), con el año (year) en el eje-x u horizontal y el número de palabras (length) en el eje-y o vertical.
+La mejor forma de saberlo es mediante la creación un gráfico de dispersión. Puedes construir uno usando `qplot` (gráfico), con el año (year) en el eje-x u horizontal y el número de palabras (length) en el eje-y o vertical.
 
 ```{r}
 qplot(metadatos$year, sapply(palabras, length)) + labs(x = "Año", y = "Número de palabras")
@@ -475,7 +475,7 @@ Esto crea un gráfico como este:
 {% include figure.html filename="/images/procesado-basico-de-textos-en-r/numero-de-palabras.jpg" caption="Número de palabras en cada Estado de la Unión dispuestos por año" %}
 
 ```{r}
-Utiliza la opción <code class="highlighter-rouge">+ labs(x = "nombre", y = "nombre")</code> para añadir un nombre a los ejes de tu gráfico y facilitar así su lectura. [N. de la T.]
+Utiliza la opción `+ labs(x = "nombre", y = "nombre")` para añadir un nombre a los ejes de tu gráfico y facilitar así su lectura. [N. de la T.]
 ```
 
 Parece que en su mayor parte los discursos incrementaron su longitud de 1790 a 1850 y después incrementaron de nuevo hacia finales del siglo XIX. La longitud disminuyó drásticamente alrededor de la Primera Guerra Mundial, con unos pocos valores atípicos dispersos a lo largo del siglo XX.
@@ -496,19 +496,19 @@ Vemos que el incremento en el siglo XIX se dio cuando los discursos pasaron a se
 
 La estilometría, el estudio lingüístico del estilo, utiliza ampliamente los métodos computacionales para describir el estilo de escritura de un autor. Con nuestro corpus, es posible detectar cambios en el estilo de escritura a lo largo de los siglos XIX y XX. Un estudio estilométrico más formal usualmente implica el uso de código de análisis sintáctico o de reducciones dimensionales algorítmicas complejas como el análisis de componentes principales para el estudio a lo largo del tiempo y en varios autores. En este tutorial nos seguiremos enfocando en el estudio de la longitud de las oraciones.
 
-El corpus puede dividirse en oraciones usando la función <code class="highlighter-rouge">tokenize_sentences</code>. En este caso el resultado es una lista con 236 objetos en ella, cada uno representando un documento específico.
+El corpus puede dividirse en oraciones usando la función `tokenize_sentences`. En este caso el resultado es una lista con 236 objetos en ella, cada uno representando un documento específico.
 
 ```{r}
 oraciones <- tokenize_sentences(texto)
 ```
 
-Lo siguiente es dividir cada oración en palabras. Se puede usar la función <code class="highlighter-rouge">tokenize_words</code> pero no directamente sobre las <code class="highlighter-rouge">oraciones</code> en la lista de objetos. Podríamos hacer esto con un bucle <code class="highlighter-rouge">for</code> nuevo pero hay una forma más sencilla de hacerlo. La función <code class="highlighter-rouge">sapply</code> ofrece un acercamiento más directo. Aquí, queremos aplicar la segmentación de palabras individualmente a cada documento y, por tanto, esta función es perfecta.
+Lo siguiente es dividir cada oración en palabras. Se puede usar la función `tokenize_words` pero no directamente sobre las `oraciones` en la lista de objetos. Podríamos hacer esto con un bucle `for` nuevo pero hay una forma más sencilla de hacerlo. La función `sapply` ofrece un acercamiento más directo. Aquí, queremos aplicar la segmentación de palabras individualmente a cada documento y, por tanto, esta función es perfecta.
 
  ```{r}
  oraciones_palabras <- sapply(oraciones, tokenize_words)
  ```
 
-Ahora tenemos una lista (con cada elemento representando un documento) de listas (con cada elemento representando las palabras en una oración dada). El resultado que necesitamos es una lista de objetos que dé la longitud de cada oración en un documento dado. Para ello, combinamos el bucle <code class="highlighter-rouge">for</code> con la función <code class="highlighter-rouge">sapply</code>.
+Ahora tenemos una lista (con cada elemento representando un documento) de listas (con cada elemento representando las palabras en una oración dada). El resultado que necesitamos es una lista de objetos que dé la longitud de cada oración en un documento dado. Para ello, combinamos el bucle `for` con la función `sapply`.
 
 ```{r}
 longitud_oraciones <- list()
@@ -517,13 +517,13 @@ longitud_oraciones[[i]] <- sapply(oraciones_palabras[[i]], length)
 }
 ```
 
-El resultado de <code class="highlighter-rouge">longitud_oraciones</code> puede ser visualizado sobre una línea temporal. Primero tenemos que resumir la longitud de todas las oraciones en un documento a un único número. La función <code class="highlighter-rouge">median</code>, que encuentra el percentil 50º de los datos ingresados, es una buena opción para resumirlos, puesto que no se verá demasiado afectada por el error de segmentación que haya podido crear una oración artificalmente larga[^10].
+El resultado de `longitud_oraciones` puede ser visualizado sobre una línea temporal. Primero tenemos que resumir la longitud de todas las oraciones en un documento a un único número. La función `median`, que encuentra el percentil 50º de los datos ingresados, es una buena opción para resumirlos, puesto que no se verá demasiado afectada por el error de segmentación que haya podido crear una oración artificalmente larga[^10].
 
 ```{r}
 media_longitud_oraciones <- sapply(longitud_oraciones, median)
 ```
 
-Ahora creamos un diagrama con esta variable junto con los años de los discursos usando, una vez más, la función <code class="highlighter-rouge">qplot</code>.
+Ahora creamos un diagrama con esta variable junto con los años de los discursos usando, una vez más, la función `qplot`.
 
 ```{r}
 qplot(metadatos$year, media_longitud_oraciones) + labs(x = "Año", y = "Longitud media de las oraciones")
@@ -533,7 +533,7 @@ qplot(metadatos$year, media_longitud_oraciones) + labs(x = "Año", y = "Longitud
 
 El gráfico muestra una fuerte evolución a oraciones más cortas a lo largo de los dos siglos de nuestro corpus. Recuerda que algunos discursos hacia el final de la segunda mitad del siglo XX eran discursos escritos largos parecidos a los del siglo XIX. Es particularmente interesante que estos no destacan en cuanto a la media de la longitud de sus oraciones. Esto apunta al menos a una forma en que los discursos del Estado de la Unión han cambiado adaptándose a lo largo del tiempo.
 
-Para ver el patrón de forma más explícita, es posible añadir una línea de tendencia sobre el diagrama con la función <code class="highlighter-rouge">geom_smooth</code> (geometrización suave).
+Para ver el patrón de forma más explícita, es posible añadir una línea de tendencia sobre el diagrama con la función `geom_smooth` (geometrización suave).
 
 ```{r}
 qplot(metadatos$year, media_longitud_oraciones) + geom_smooth() + labs(x = "Año", y = "Longitud media de las oraciones")
@@ -545,7 +545,7 @@ Las líneas de tendencia son un gran añadido a los gráficos. Tienen la doble f
 
 ## Resumen de documento
 
-Como última tarea vamos a aplicar la función de resumen simple que hemos usado en la sección previa a cada uno de los documentos en este corpus más amplio. Necesitamos usar un bucle otra vez, pero el código interior sigue siendo casi el mismo a excepción de que vamos a guardar los resultados como un elemento del vector <code class="highlighter-rouge">descripcion</code>.
+Como última tarea vamos a aplicar la función de resumen simple que hemos usado en la sección previa a cada uno de los documentos en este corpus más amplio. Necesitamos usar un bucle otra vez, pero el código interior sigue siendo casi el mismo a excepción de que vamos a guardar los resultados como un elemento del vector `descripcion`.
 
 ```{r}
 descripcion <- c()
@@ -562,7 +562,7 @@ for (i in 1:length(palabras)) {
 }
 ```
 
-Mientras se procesa cada archivo como resultado de la función <code class="highlighter-rouge">inner_join</code>, verás una línea que dice **Joining, by = "word"**. Como el bucle puede tardar uno o más minutos en procesar la función, dicha línea sirve para asegurarse de que el código está procesando los archivos. Podemos ver el resultado del bucle escribiendo <code class="highlighter-rouge">descripcion</code> en la consola, pero con la función <code class="highlighter-rouge">cat</code> obtenemos una vista más clara de los resultados.
+Mientras se procesa cada archivo como resultado de la función `inner_join`, verás una línea que dice **Joining, by = "word"**. Como el bucle puede tardar uno o más minutos en procesar la función, dicha línea sirve para asegurarse de que el código está procesando los archivos. Podemos ver el resultado del bucle escribiendo `descripcion` en la consola, pero con la función `cat` obtenemos una vista más clara de los resultados.
 
 ```{r}
 cat(descripcion, sep = "\n")
@@ -615,7 +615,7 @@ Existen muchos tutoriales genéricos para estos tres ejemplos, además de docume
 [^2]: Taryn Deward, [“Datos tabulares en R,” Programming Historian](/lecciones/datos-tabulares-en-r). Trad. de Jennifer Isasi de 10 de abril de 2018.
 [^3]: Hadley Wickham. “tidyverse: Easily Install and Load ‘Tidyverse’ Packages”. R Package, Version 1.1.1. https://cran.r-project.org/web/packages/tidyverse/index.html
 [^4]: Lincoln Mullen and Dmitriy Selivanov. “tokenizers: A Consistent Interface to Tokenize Natural Language Text Convert”. R Package, Version 0.1.4. https://cran.r-project.org/web/packages/tokenizers/index.html
-[^5]: Ten en cuenta que los nombres de las funciones como <code class="highlighter-rouge">library</code> o <code class="highlighter-rouge">install.packages</code> siempre estarán en inglés. No obstante, se proporciona una traducción de su significado para facilitar la comprensión y se traducen el nombre de las variables.[N. de la T.]
+[^5]: Ten en cuenta que los nombres de las funciones como `library` o `install.packages` siempre estarán en inglés. No obstante, se proporciona una traducción de su significado para facilitar la comprensión y se traducen el nombre de las variables.[N. de la T.]
 [^6]: Traducción publicada en CNN en español (12 de enero de 2016) http://cnnespanol.cnn.com/2016/01/12/discurso-completo-de-obama-sobre-el-estado-de-la-union/ [N. de la T.]
 [^7]: Todos los discursos presidenciales del Estado de la Unión fueron descargados de The American Presidency Project at the University of California Santa Barbara (Accedido el 11 de noviembre de 2016) http://www.presidency.ucsb.edu/sou.php
 [^8]: Aquí volvemos a la versión del discurso en su original (inglés) por motivos de continuación del análisis y, en particular, el listado de las palabras más frecuentes usadas en inglés. Seguimos traduciendo los nombres de las variables y de las funciones para facilitar la comprensión en español.[N. de la T.]
