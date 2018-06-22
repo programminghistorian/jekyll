@@ -19,7 +19,7 @@ translation-reviewer:
 layout: lesson
 original: basic-text-processing-in-r
 redirect_from: /es/lecciones/procesado-basico-de-textos-en-r
-review-ticket: https://github.com/programminghistorian/ph-submissions/issues/172 
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/172
 difficulty: 2
 activity: analyzing
 topics: [distant-reading]
@@ -38,7 +38,7 @@ Para el particular se utilizará un conjunto de datos compuesto por los textos d
 
 Asumimos que los usuarios tienen un conocimiento básico del lenguaje de programación R. La lección ['R Basics with Tabular Data' de Taryn Dewar](/r-basics-with-tabular-data)[^2] es una excelente guía que trata todo el conocimiento sobre R aquí asumido: instalar y abrir R, instalar y cargar paquetes, e importar y trabajar con datos básicos de R. Los usuarios pueden descargar R para su sistema operativo desde [The Comprehensive R Archive Network](https://cran.r-project.org/). Aunque no es un requisito, también recomendamos que los nuevos usuarios descarguen [R Studio](https://www.rstudio.com/products/rstudio/#Desktop), un entorno de desarrollo de código abierto para escribir y ejecutar programas en R.
 
-Todo el código de esta lección fue probado en la versión 3.3.2 de R, pero creemos que funcionará correctamente en versiones futuras del programa.  
+Todo el código de esta lección fue probado en la versión 3.3.2 de R, pero creemos que funcionará correctamente en versiones futuras del programa.
 
 # Un pequeño ejemplo
 
@@ -50,9 +50,9 @@ install.packages("tidyverse")
 install.packages("tokenizers")
 ```
 
-Dependiendo de la configuración de tu sistema, puede que se abra un cuadro de diálogo pidiéndote que elijas un sitio espejo (*mirror*) del que realizar la descarga. Escoge uno cerca de tu localización. La descarga y la instalación deberían realizarse automáticamente.    
+Dependiendo de la configuración de tu sistema, puede que se abra un cuadro de diálogo pidiéndote que elijas un sitio espejo (*mirror*) del que realizar la descarga. Escoge uno cerca de tu localización. La descarga y la instalación deberían realizarse automáticamente.
 
-Ahora que estos paquetes están descargados en tu ordenador, tenemos que decirle a R que los cargue para usarlos. Hacemos esto mediante el comando <code class="highlighter-rouge">library</code>(librería); puede que aparezcan algunos avisos mientras se cargan otras dependencias, pero por lo general se pueden ignorar sin mayor problema.  
+Ahora que estos paquetes están descargados en tu ordenador, tenemos que decirle a R que los cargue para usarlos. Hacemos esto mediante el comando <code class="highlighter-rouge">library</code>(librería); puede que aparezcan algunos avisos mientras se cargan otras dependencias, pero por lo general se pueden ignorar sin mayor problema.
 
 ```{r}
 library(tidyverse)
@@ -88,37 +88,37 @@ palabras
 Esto produce el siguiente resultado:
 ```
 > [[1]]
-  [1] "también"        "entiendo"       "que"            "como"          
-  [5] "es"             "temporada"      "de"             "elecciones"    
-  [9] "las"            "expectativas"   "para"           "lo"            
- [13] "que"            "lograremos"     "este"           "año"           
- [17] "son"            "bajas"          "aún"            "así"           
- [21] "señor"          "presidente"     "de"             "la"            
- [25] "cámara"         "de"             "representantes" "aprecio"       
- [29] "el"             "enfoque"        "constructivo"   "que"           
- [33] "usted"          "y"              "los"            "otros"         
- [37] "líderes"        "adoptaron"      "a"              "finales"       
- [41] "del"            "año"            "pasado"         "para"          
- [45] "aprobar"        "un"             "presupuesto"    "y"             
- [49] "hacer"          "permanentes"    "los"            "recortes"      
- [53] "de"             "impuestos"      "para"           "las"           
- [57] "familias"       "trabajadoras"   "así"            "que"           
- [61] "espero"         "que"            "este"           "año"           
- [65] "podamos"        "trabajar"       "juntos"         "en"            
- [69] "prioridades"    "bipartidistas"  "como"           "la"            
- [73] "reforma"        "de"             "la"             "justicia"      
- [77] "penal"          "y"              "ayudar"         "a"             
- [81] "la"             "gente"          "que"            "está"          
- [85] "luchando"       "contra"         "la"             "adicción"      
- [89] "a"              "fármacos"       "de"             "prescripción"  
- [93] "tal"            "vez"            "podamos"        "sorprender"    
- [97] "de"             "nuevo"          "a"              "los"           
-[101] "cínicos"  
+  [1] "también"        "entiendo"       "que"            "como"
+  [5] "es"             "temporada"      "de"             "elecciones"
+  [9] "las"            "expectativas"   "para"           "lo"
+ [13] "que"            "lograremos"     "este"           "año"
+ [17] "son"            "bajas"          "aún"            "así"
+ [21] "señor"          "presidente"     "de"             "la"
+ [25] "cámara"         "de"             "representantes" "aprecio"
+ [29] "el"             "enfoque"        "constructivo"   "que"
+ [33] "usted"          "y"              "los"            "otros"
+ [37] "líderes"        "adoptaron"      "a"              "finales"
+ [41] "del"            "año"            "pasado"         "para"
+ [45] "aprobar"        "un"             "presupuesto"    "y"
+ [49] "hacer"          "permanentes"    "los"            "recortes"
+ [53] "de"             "impuestos"      "para"           "las"
+ [57] "familias"       "trabajadoras"   "así"            "que"
+ [61] "espero"         "que"            "este"           "año"
+ [65] "podamos"        "trabajar"       "juntos"         "en"
+ [69] "prioridades"    "bipartidistas"  "como"           "la"
+ [73] "reforma"        "de"             "la"             "justicia"
+ [77] "penal"          "y"              "ayudar"         "a"
+ [81] "la"             "gente"          "que"            "está"
+ [85] "luchando"       "contra"         "la"             "adicción"
+ [89] "a"              "fármacos"       "de"             "prescripción"
+ [93] "tal"            "vez"            "podamos"        "sorprender"
+ [97] "de"             "nuevo"          "a"              "los"
+[101] "cínicos"
 ```
 
 ¿Cómo ha cambiado el texto cargado después de ejecutar esa función de R? Ha eliminado todos los signos de puntuación, ha dividido el texto en palabras individuales y ha convertido todo a minúsculas. Veremos a continuación por qué todas estas intervenciones son útiles para nuestro análisis.
 
-¿Cuántas palabras hay en este fragmento de texto? Si usamos la función <code class="highlighter-rouge">length</code> (longitud) directamente en el objeto <code class="highlighter-rouge">palabras</code>, el resultado no es muy útil que digamos.   
+¿Cuántas palabras hay en este fragmento de texto? Si usamos la función <code class="highlighter-rouge">length</code> (longitud) directamente en el objeto <code class="highlighter-rouge">palabras</code>, el resultado no es muy útil que digamos.
 
 ```{r}
 length(palabras)
@@ -165,7 +165,7 @@ El resultado de este comando debería parecerse a este en tu consola (una *tibbl
 # ... with 60 more rows
 ```
 
-Hay una gran cantidad de información en esta muestra. Vemos que hay 70 palabras únicas, como indica la dimensión de la tabla. Se imprimen las 10 primeras filas del conjunto de datos con la segunda columna indicando el número de veces que la palabra de la primera columna ha sido usada. Por ejemplo, "a" se usó 4 veces pero "ayudar" solo se usó una vez.  
+Hay una gran cantidad de información en esta muestra. Vemos que hay 70 palabras únicas, como indica la dimensión de la tabla. Se imprimen las 10 primeras filas del conjunto de datos con la segunda columna indicando el número de veces que la palabra de la primera columna ha sido usada. Por ejemplo, "a" se usó 4 veces pero "ayudar" solo se usó una vez.
 
 También podemos ordenar la tabla usando la función <code class="highlighter-rouge">arrange</code>(organizar). Esta función toma el conjunto de datos sobre el que trabajar, aquí <code class="highlighter-rouge">tabla</code>, y después el nombre de la columna que toma como referencia para ordenarlo. La función <code class="highlighter-rouge">desc</code> en el segundo argumento indica que queremos clasificar en orden descendiente.
 
@@ -260,7 +260,7 @@ Vamos a aplicar las técnicas de la sección previa a un discurso del Estado de 
 Para hacer esto, vamos a combinar la función <code class="highlighter-rouge">readLines</code> (leer líneas) para cargar el texto en R y la función <code class="highlighter-rouge">paste</code> (pegar) para combinar todas las líneas en un único objeto. Vamos a crear la URL del archivo de texto usando la función <code class="highlighter-rouge">sprintf</code> puesto que este formato permitirá su fácil modificación para otras direcciones web[^7][^8].
 
 ```{r}
-base_url <- "/assets/basic-text-processing-in-r"
+base_url <- "https://programminghistorian.org/assets/basic-text-processing-in-r"
 url <- sprintf("%s/sotu_text/236.txt", base_url)
 texto <- paste(readLines(url), collapse = "\n")
 ```
@@ -270,7 +270,7 @@ Como antes, vamos a segmentar el texto y ver el número de palabras que hay en e
 ```{r}
 palabras <- tokenize_words(texto)
 length(palabras[[1]])
-``` 
+```
 
 Vemos que este discurso contiene un total de <code class="highlighter-rouge">6113</code> palabras. Combinando las funciones de <code class="highlighter-rouge">table</code> (tabla), <code class="highlighter-rouge">data_frame</code> (marco de datos) y <code class="highlighter-rouge">arrange</code> (organizar), como lo hicimos en el ejemplo, obtenemos las palabras más frecuentes del discurso entero. Mientras haces esto, advierte lo fácil que es reutilizar código previo para repetir el análisis en un nuevo grupo de datos; esto es uno de los mayores beneficios de usar un lenguaje de programación para realizar un análisis basado en datos.
 
@@ -385,17 +385,17 @@ Aparecerán las primeras diez líneas del grupo de datos así:
 ```{r}
 >#A tibble: 236 x 4
    president          year party       sotu_type
-   <chr>             <int> <chr>       <chr>    
- 1 George Washington  1790 Nonpartisan speech   
- 2 George Washington  1790 Nonpartisan speech   
- 3 George Washington  1791 Nonpartisan speech   
- 4 George Washington  1792 Nonpartisan speech   
- 5 George Washington  1793 Nonpartisan speech   
- 6 George Washington  1794 Nonpartisan speech   
- 7 George Washington  1795 Nonpartisan speech   
- 8 George Washington  1796 Nonpartisan speech   
- 9 John Adams         1797 Federalist  speech   
-10 John Adams         1798 Federalist  speech   
+   <chr>             <int> <chr>       <chr>
+ 1 George Washington  1790 Nonpartisan speech
+ 2 George Washington  1790 Nonpartisan speech
+ 3 George Washington  1791 Nonpartisan speech
+ 4 George Washington  1792 Nonpartisan speech
+ 5 George Washington  1793 Nonpartisan speech
+ 6 George Washington  1794 Nonpartisan speech
+ 7 George Washington  1795 Nonpartisan speech
+ 8 George Washington  1796 Nonpartisan speech
+ 9 John Adams         1797 Federalist  speech
+10 John Adams         1798 Federalist  speech
 >#... with 226 more rows
 ```
 
@@ -416,7 +416,7 @@ Esto debería darnos el siguiente resultado:
 [1] "Barack Obama; 2016; risa; voces; aliados; más duro; qaeda"
 ```
 
-¿Capta esta línea todo lo relativo al discurso? Por supuesto que no. El procesamiento de texto nunca va a reemplazar a la lectura atenta de un texto, pero ayuda a dar un resumen de alto nivel de los temas discutidos (la "risa" aparece aquí porque en el texto del discurso están anotadas las reacciones de la audiencia). Este resumen es útil de varias formas. Puede dar un buen título y resumen para un documento que carece de ellos; puede servir para recordar a los lectores que han leído o escuchado el discurso cuáles fueron los temas principales discutidos en él; y recopilar varios resúmenes con una sola acción puede mostrar patrones de gran escala que suelen perderse en corpus amplios. Es este último uso al que recurrimos ahora al aplicar las técnicas de esta sección a un grupo más amplio de discursos del Estado de la Unión.   
+¿Capta esta línea todo lo relativo al discurso? Por supuesto que no. El procesamiento de texto nunca va a reemplazar a la lectura atenta de un texto, pero ayuda a dar un resumen de alto nivel de los temas discutidos (la "risa" aparece aquí porque en el texto del discurso están anotadas las reacciones de la audiencia). Este resumen es útil de varias formas. Puede dar un buen título y resumen para un documento que carece de ellos; puede servir para recordar a los lectores que han leído o escuchado el discurso cuáles fueron los temas principales discutidos en él; y recopilar varios resúmenes con una sola acción puede mostrar patrones de gran escala que suelen perderse en corpus amplios. Es este último uso al que recurrimos ahora al aplicar las técnicas de esta sección a un grupo más amplio de discursos del Estado de la Unión.
 
 # Análisis de los discursos del Estado de la Unión desde 1790 a 2016
 
@@ -465,7 +465,7 @@ sapply(palabras, length)
 
 ¿Existe un patrón temporal sobre la longitud de los discursos? ¿Cómo se compara la longitud de los discursos de otros presidentes a los de Franklin D. Roosevelt, Abraham Lincoln y George Washington?
 
-La mejor forma de saberlo es mediante la creación un gráfico de dispersión. Puedes construir uno usando <code class="highlighter-rouge">qplot</code> (gráfico), con el año (year) en el eje-x u horizontal y el número de palabras (length) en el eje-y o vertical. 
+La mejor forma de saberlo es mediante la creación un gráfico de dispersión. Puedes construir uno usando <code class="highlighter-rouge">qplot</code> (gráfico), con el año (year) en el eje-x u horizontal y el número de palabras (length) en el eje-y o vertical.
 
 ```{r}
 qplot(metadatos$year, sapply(palabras, length)) + labs(x = "Año", y = "Número de palabras")
@@ -563,7 +563,7 @@ for (i in 1:length(palabras)) {
 }
 ```
 
-Mientras se procesa cada archivo como resultado de la función <code class="highlighter-rouge">inner_join</code>, verás una línea que dice **Joining, by = "word"**. Como el bucle puede tardar uno o más minutos en procesar la función, dicha línea sirve para asegurarse de que el código está procesando los archivos. Podemos ver el resultado del bucle escribiendo <code class="highlighter-rouge">descripcion</code> en la consola, pero con la función <code class="highlighter-rouge">cat</code> obtenemos una vista más clara de los resultados.  
+Mientras se procesa cada archivo como resultado de la función <code class="highlighter-rouge">inner_join</code>, verás una línea que dice **Joining, by = "word"**. Como el bucle puede tardar uno o más minutos en procesar la función, dicha línea sirve para asegurarse de que el código está procesando los archivos. Podemos ver el resultado del bucle escribiendo <code class="highlighter-rouge">descripcion</code> en la consola, pero con la función <code class="highlighter-rouge">cat</code> obtenemos una vista más clara de los resultados.
 
 ```{r}
 cat(descripcion, sep = "\n")
@@ -604,7 +604,7 @@ Como ya habíamos señalado, estos resúmenes temáticos no reemplazan de ningun
 
 En este tutorial breve hemos explorado algunas formas básicas para analizar datos textuales con el lenguaje de programación R. Existen varias direcciones que puedes tomar para adentrarte más en las nuevas técnicas del análisis de texto. Estos son tres ejemplos particularmente interesantes:
 
-* procesar un flujo completo de anotación de procesamiento de lenguajes naturales (NLP) en un texto para extraer características como nombres de entidades, categorías gramaticales y relaciones de dependencia. Estos están disponibles en varios paquetes de R, incluyendo **cleanNLP**, y para varios idiomas[^11].  
+* procesar un flujo completo de anotación de procesamiento de lenguajes naturales (NLP) en un texto para extraer características como nombres de entidades, categorías gramaticales y relaciones de dependencia. Estos están disponibles en varios paquetes de R, incluyendo **cleanNLP**, y para varios idiomas[^11].
 * ajustar modelos temáticos (*topic models*) para detectar discursos particulares en el corpus usando paquetes como **mallet**[^12] y **topicmodels**[^13].
 * aplicar técnicas de reducción dimensional para crear gráficos de tendencias estilísticas a lo largo del tiempo o entre múltiples autores. Por ejemplo, el paquete **tsne**[^14] realiza una forma poderosa de reducción dimensional particularmente apta para gráficos detallados.
 
@@ -626,4 +626,4 @@ Existen muchos tutoriales genéricos para estos tres ejemplos, además de docume
 [^12]: David Mimno. “mallet: A wrapper around the Java machine learning tool MALLET”. R Package, Version 1.0. https://cran.r-project.org/web/packages/mallet/index.html
 [^13]: Bettina Grün and Kurt Hornik. “https://cran.r-project.org/web/packages/topicmodels/index.html”. R Package, Version 0.2-4. https://cran.r-project.org/web/packages/topicmodels/index.html
 [^14]: Ver el artículo t-distributed stochastic neighbor embedding (en inglés) en Wikipedia. https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding [N. de la T.]
-[^15]: Ver, por ejemplo, el libro de los autores: Taylor Arnold and Lauren Tilton. *Humanities Data in R: Exploring Networks, Geospatial Data, Images, and Text.* Springer, 2015.  
+[^15]: Ver, por ejemplo, el libro de los autores: Taylor Arnold and Lauren Tilton. *Humanities Data in R: Exploring Networks, Geospatial Data, Images, and Text.* Springer, 2015.
