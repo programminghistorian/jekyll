@@ -273,7 +273,7 @@ Crea un metadato `review-ticket` en el encabezado YAML y proporciona la URL del 
 
 ### 7) Actualiza la fecha en el archivo YAML
 
-Actualiza la fecha en el campo correspondiente del archivo YAML tomando como referencia el día en que el archivo fue movido al repositorio `jekyll`, salvo en el caso de las traducciones. Las traduccions, además, deben contener el metadato `translation_date`.
+Actualiza la fecha en el campo correspondiente del archivo YAML tomando como referencia el día en que el archivo fue movido al repositorio `jekyll`, salvo en el caso de las traducciones. Las traducciones, además, deben contener el metadato `translation_date`.
 
 ### 8) Otros aspectos para concluir el YAML de la lección
 
