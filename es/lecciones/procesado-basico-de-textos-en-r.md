@@ -260,7 +260,7 @@ Vamos a aplicar las técnicas de la sección previa a un discurso del Estado de 
 Para hacer esto, vamos a combinar la función <code class="highlighter-rouge">readLines</code> (leer líneas) para cargar el texto en R y la función <code class="highlighter-rouge">paste</code> (pegar) para combinar todas las líneas en un único objeto. Vamos a crear la URL del archivo de texto usando la función <code class="highlighter-rouge">sprintf</code> puesto que este formato permitirá su fácil modificación para otras direcciones web[^7][^8].
 
 ```{r}
-base_url <- "https://programminghistorian.org/assets/basic-text-processing-in-r"
+base_url <- "/assets/basic-text-processing-in-r"
 url <- sprintf("%s/sotu_text/236.txt", base_url)
 texto <- paste(readLines(url), collapse = "\n")
 ```
@@ -436,7 +436,7 @@ Esta técnica carga todos los archivos uno por uno desde Github. Opcionalmente, 
 
 ## Forma alternativa de cargar el corpus (opcional)
 
-El corpus completo puede descargarse aquí: [sotu_text.zip](https://programminghistorian.org/assets/basic-text-processing-in-r/sotu_text.zip). Descomprime el repositorio en algún lugar de tu ordenador y fija la variable <code class="highlighter-rouge">input_loc</code> (localización de carga) a la ruta de directorio donde has descomprimido el archivo. Por ejemplo, si los archivos están en el escritorio de un ordenador con el sistema operativo macOS y el usuario es stevejobs, <code class="highlighter-rouge">input_loc</code> debería ser:
+El corpus completo puede descargarse aquí: [sotu_text.zip](/assets/basic-text-processing-in-r/sotu_text.zip). Descomprime el repositorio en algún lugar de tu ordenador y fija la variable <code class="highlighter-rouge">input_loc</code> (localización de carga) a la ruta de directorio donde has descomprimido el archivo. Por ejemplo, si los archivos están en el escritorio de un ordenador con el sistema operativo macOS y el usuario es stevejobs, <code class="highlighter-rouge">input_loc</code> debería ser:
 
 ```{r}
 input_loc <- "/Users/stevejobs/Desktop/sotu_text"
