@@ -613,7 +613,7 @@ Existen muchos tutoriales genéricos para estos tres ejemplos, además de docume
 # Notas
 
 [^1]: Nuestro corpus contiene 236 discursos del Estado de la Unión. Dependiendo de lo que se cuente, este número puede ser ligeramente más alto o más bajo.
-[^2]: Taryn Deward, [“Datos tabulares en R,” Programming Historian](es/lecciones/datos-tabulares-en-r). Trad. de Jennifer Isasi de 10 de abril de 2018.
+[^2]: Taryn Deward, [“Datos tabulares en R,” Programming Historian](/lecciones/datos-tabulares-en-r). Trad. de Jennifer Isasi de 10 de abril de 2018.
 [^3]: Hadley Wickham. “tidyverse: Easily Install and Load ‘Tidyverse’ Packages”. R Package, Version 1.1.1. https://cran.r-project.org/web/packages/tidyverse/index.html
 [^4]: Lincoln Mullen and Dmitriy Selivanov. “tokenizers: A Consistent Interface to Tokenize Natural Language Text Convert”. R Package, Version 0.1.4. https://cran.r-project.org/web/packages/tokenizers/index.html
 [^5]: Ten en cuenta que los nombres de las funciones como <code class="highlighter-rouge">library</code> o <code class="highlighter-rouge">install.packages</code> siempre estarán en inglés. No obstante, se proporciona una traducción de su significado para facilitar la comprensión y se traducen el nombre de las variables.[N. de la T.]
