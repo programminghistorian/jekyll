@@ -473,7 +473,7 @@ qplot(metadatos$year, sapply(palabras, length)) + labs(x = "Año", y = "Número 
 
 Esto crea un gráfico como este:
 
-{% include figure.html filename="numero-de-palabras" caption="Número de palabras en cada Estado de la Unión dispuestos por año" %}
+{% include figure.html filename="/images/procesado-basico-de-textos-en-r/numero-de-palabras.jpg" caption="Número de palabras en cada Estado de la Unión dispuestos por año" %}
 
 ```{r}
 Utiliza la opción <code class="highlighter-rouge">+ labs(x = "nombre", y = "nombre")</code> para añadir un nombre a los ejes de tu gráfico y facilitar así su lectura. [N. de la T.]
@@ -489,7 +489,7 @@ qplot(metadatos$year, sapply(palabras, length), color = metadatos$sotu_type) + l
 
 Esto proporciona el siguiente gráfico:
 
-{% include figure.html filename="numero-de-palabras-y-tipo" caption="Número de palabras en cada Estado de la Unión dispuestos por año y con el color denotando si se trató de un discurso escrito u oral" %}
+{% include figure.html filename="/images/procesado-basico-de-textos-en-r/numero-de-palabras-y-tipo.jpg" caption="Número de palabras en cada Estado de la Unión dispuestos por año y con el color denotando si se trató de un discurso escrito u oral" %}
 
 Vemos que el incremento en el siglo XIX se dio cuando los discursos pasaron a ser documentos escritos y que la caída drástica se dio cuando Woodrow Wilson (28º presidente de los EEUU de 1913 a 1921) rompió con la tradición y dio su discurso sobre el Estado de la Unión de forma oral en el Congreso. Los valores atípicos que vimos previamente fueron discursos dados de forma escrita después de la Segunda Guerra Mundial.
 
@@ -530,7 +530,7 @@ Ahora creamos un diagrama con esta variable junto con los años de los discursos
 qplot(metadatos$year, media_longitud_oraciones) + labs(x = "Año", y = "Longitud media de las oraciones")
 ```
 
-{% include figure.html filename="longitud-de-oraciones" caption="Longitud media de las oraciones por cada discurso del Estado de la Unión" %}
+{% include figure.html filename="/images/procesado-basico-de-textos-en-r/longitud-de-oraciones-linea.jpg" caption="Longitud media de las oraciones por cada discurso del Estado de la Unión" %}
 
 El gráfico muestra una fuerte evolución a oraciones más cortas a lo largo de los dos siglos de nuestro corpus. Recuerda que algunos discursos hacia el final de la segunda mitad del siglo XX eran discursos escritos largos parecidos a los del siglo XIX. Es particularmente interesante que estos no destacan en cuanto a la media de la longitud de sus oraciones. Esto apunta al menos a una forma en que los discursos del Estado de la Unión han cambiado adaptándose a lo largo del tiempo.
 
@@ -540,7 +540,7 @@ Para ver el patrón de forma más explícita, es posible añadir una línea de t
 qplot(metadatos$year, media_longitud_oraciones) + geom_smooth() + labs(x = "Año", y = "Longitud media de las oraciones")
 ```
 
-{% include figure.html filename="longitud-de-oraciones-linea" caption="Longitud media de cada discurso del Estado de la Unión con una línea de tendencia" %}
+{% include figure.html filename="/images/procesado-basico-de-textos-en-r/longitud-de-oraciones-linea.jpg" caption="Longitud media de cada discurso del Estado de la Unión con una línea de tendencia" %}
 
 Las líneas de tendencia son un gran añadido a los gráficos. Tienen la doble función de mostrar la corriente general de los datos en el tiempo mientras destaca puntos de datos atípicos o periféricos.
 
