@@ -19,7 +19,6 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/170
 layout: lesson
 original: corpus-analysis-with-antconc
-redirect_from: /es/lessons/corpus-analysis-with-antconc
 difficulty: 1
 activity: analyzing
 topics: [distant-reading]
