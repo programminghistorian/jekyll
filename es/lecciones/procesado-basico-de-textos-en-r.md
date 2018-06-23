@@ -16,7 +16,7 @@ translation-editor:
 translation-reviewer:
 - Víctor Gayol
 - Riva Quiroga
-- José Antonio Padial
+- Antonio Sánchez-Padial
 layout: lesson
 original: basic-text-processing-in-r
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/172
