@@ -989,3 +989,19 @@
         fr: |
             Sofia Papastamkou est docteure en histoire et ingénieure d'études en humanités numériques au CNRS. Elle est affectée à la Maison européenne des sciences de l'homme et de la société Lille Nord de France.
         
+  
+  - name: Marie Puren
+  email: marie.puren1406@gmail.com
+  twitter: MariePuren
+  github: mpuren
+  team: true
+  team_start: 2018
+  institution: INRIA
+  sortname: Puren
+  affiliation: INRIA Paris
+  bio:
+        en: |
+            Marie Puren is an historian and research engineer in the ALMAnaCH team at Inria Paris.
+        fr: |
+            Marie Puren est historienne et ingénieure de recherche en humanités numériques dans l'équipe ALMAnaCH à Inria Paris.
+
