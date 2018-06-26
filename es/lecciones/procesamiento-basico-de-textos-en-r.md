@@ -1,5 +1,5 @@
 ---
-title: Procesado básico de textos en R
+title: Procesamiento básico de textos en R
 authors:
 - Taylor Arnold
 - Lauren Tilton
@@ -73,7 +73,7 @@ texto <- paste("También entiendo que como es temporada de elecciones, las expec
 
 Después de ejecutar esto (haciendo clic en 'Intro'), escribe la palabra `texto` en la consola y haz clic en 'Intro'. R imprimirá el párrafo de texto porque la variable 'texto' ahora contiene el documento.
 
-Como primer paso en el procesado del texto vamos a usar la función `tokenize_words` (segmentar palabras) del paquete **tokenizers** para dividir el texto en palabras individuales.
+Como primer paso en el procesamiento del texto vamos a usar la función `tokenize_words` (segmentar palabras) del paquete **tokenizers** para dividir el texto en palabras individuales.
 
 ```{r}
 palabras <- tokenize_words(texto)
