@@ -980,6 +980,9 @@
   institution: CNRS
   sortname: Papastamkou
   affiliation: Maison européenne des sciences de l'homme et de la société Lille Nord de France
+  team_roles:
+    - french
+    - board
   bio:
         en: | 
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS). 
@@ -998,6 +1001,9 @@
   institution: INRIA
   sortname: Puren
   affiliation: INRIA Paris
+  team_roles:
+    - french
+    - board
   bio:
         en: |
             Marie Puren is an historian and research engineer in the ALMAnaCH team at Inria Paris.
