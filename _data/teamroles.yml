@@ -9,83 +9,105 @@
   label:
     en: Editorial Board
     es: Consejo editorial
+    fr: Conseil éditorial
   definition:
     en: A fully-fledged member of the project team, involved in directing the project's future
     es: Miembro de pleno derecho del equipo del proyecto, encargado de su dirección a futuro
+    fr: Membre à plein rang de l'équipe impliqué à la direction du projet
 - type: editorial
   label:
     en: Editorial Team (English)
     es: Equipo editorial (Inglés)
+    fr: Équipe éditoriale (anglais)
   definition:
     en: Responsible for editorial work resulting in the review and publication of English-language lessons
     es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en inglés
+    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en anglais 
 - type: spanish
   label:
     en: Editorial Team (Spanish)
     es: Equipo editorial (español)
+    fr: Équipe éditoriale (espagnol)
   definition:
     en: Responsible for editorial work resulting in the review and publication of Spanish-language lessons
     es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en español
+    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en espagnol
 - type: french
   label:
     en: Editorial Team (French)
     es: Equipo editorial (francés)
+    fr: Équipe éditoriale (français)
   definition:
     en: Responsible for editorial work resulting in the review and publication of French-language lessons
     es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en francés
+    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en français
 - type: community
   label:
     en: Community Engagement
     es: Proyección hacia la comunidad
+    fr: Engagement communautaire
   definition:
     en: Responsible for project outreach and impact
     es: Responsable de la proyección e impacto del proyecto
+    fr: Responsable de la diffusion et de l'impact du projet
 - type: managing-en
   label:
     en: Managing Editor
     es: Jefe de redacción
+    fr: Rédacteur/rédactrice en chef
   definition:
     en: First point of contact for authors with lesson ideas
     es: Primer contacto para autores con ideas de lecciones
+    fr: Premier contact pour les auteurs souhaitant proposer une lesson
 - type: ombuds
   label:
     en: Ombudsperson
     es: Mediador
+    fr: Médiateur/médiatrice
   definition:
     en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
     es: Persona a la que los autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
+    fr: Personne que les auteurs et évaluateurs peuvent consulter pour toute question liée à la procédure de l'évaluation par les pairs ou à la publication
 - type: technical
   label:
     en: Technical Team
     es: Equipo técnico
+    fr: Équipe technique
   definition:
     en: Responsible for the technical features that bring the content and peer review to our community
     es: Responsable de las características técnicas respecto al contenido y la revisión por pares a nuestra comunidad
+    fr: Responsable des aspects techniques rendant accessibles à notre communauté le contenu et l'évaluation par les pairs 
 - type: archive
   label:
     en: Archivist
     es: Archivista
+    fr: Archiviste
   definition:
     en: Responsible for archiving the project
-    es: Responsable del archivo del proyecto   
+    es: Responsable del archivo del proyecto
+    fr: Responsable de l'archive du projet   
 # --- Derived roles ---
 - type: ombuds-es
   label:
     en: Ombudsperson (Spanish)
     es: Mediador (español)
+    fr: Médiateur/médiatrice (espagnol)
   source_role: ombuds
 - type: ombuds-fr
   label:
     en: Ombudsperson (French)
     es: Mediador (francés)
+    fr: Médiateur/médiatrice (français)
   source_role: ombuds
 - type: managing-es
   label:
     en: Managing Editor (Spanish)
     es: Jefe de redacción (español)
+    fr: Rédacteur/rédactrice en chef (espagnol)
   source_role: managing-en
 - type: managing-fr
   label:
     en: Managing Editor (French)
     es: Jefe de redacción (francés)
+    fr: Rédacteur/rédactrice en chef (français)
   source_role: managing-en
