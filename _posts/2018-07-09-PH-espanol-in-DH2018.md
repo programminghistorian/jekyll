@@ -17,6 +17,6 @@ The growth of PH en español, has also brought about crucial discussions on the 
 
 The paper was nominated to the [2018 Paul Fortier Prize](http://adho.org/announcements/2018/six-nominees-2018-paul-fortier-prize), a prize that is given for the best paper by a young scholar/early stage researcher at each annual conference. Although we did not win, we are proud to realize that the hard work of the editorial team of PH and its commitment with geographic and linguistic diversity its been recognized by the DH global community.  
 
-The PH team met, circulated stickers, and particpated with a paper presentation. 
+The PH team met, circulated 200-stickers.... [Picture of the team]
 
 
