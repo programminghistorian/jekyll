@@ -20,13 +20,13 @@ The presentation discussed the achievements of the *Programming Historian en esp
 The growth of the *Programming Historian en español*, has also brought about crucial discussions on the internationalization of the project. The challenges of translating and adapting *Programming Historian* tutorials into Spanish has [led the team to consider the question of how to best reach a global audience while making our tutorials accessible and meaningful in a range of cultural contexts](https://github.com/programminghistorian/jekyll/issues/651). Expanding on this, the presentation reflected on the challeges of incentivating the production of Spanish-language original tutorials in regions such as Latin America, where the digital divide often means limited access to resources for building basic technlogical infrastructures for digital humanities work. Moving forward, the *Programming Historian en español* is [holding a Programming Historian tutorial writing workshop](https://programminghistorian.org/posts/convocatoria-taller-PH-espanol) which will bring together Spanish-speaking scholars from North, Central, and South America in an effort to produce the first original Spanish-language tutorials.
 
 <p><figure><a href="https://twitter.com/visceral_blot/status/1012453500595290112">
-        <img src="images/dh2018blog/talk-grab.png" alt=""/></a><figcaption>
+        <img src="/images/dh2018blog/talk-grab.png" alt=""/></a><figcaption>
     Conference attendees enjoyed the talk!</figcaption></figure></p>
 
 We were humbled to discover that the paper was nominated for the [2018 Paul Fortier Prize](http://adho.org/announcements/2018/six-nominees-2018-paul-fortier-prize), given for the best paper by a young scholar/early stage researcher at the conference. Although we did not win, we are proud that the hard work of the editorial team of the *Programming Historian* and its commitment to geographic and linguistic diversity has been recognized by the global digital humanities community.  
 
 The conference was also an opportunity for the project team to meet, in many cases for the first time! The *Programming Historian* editors at DH2018 included [Marie Puren](https://github.com/mpuren), a member of our nascent [French language initiative](https://github.com/programminghistorian/jekyll/issues?q=french+label%3Afrench), who along with the rest of the project team distributed 200 [Programming Historian en español stickers](https://github.com/programminghistorian/jekyll/tree/gh-pages/_promo) to conference delegates.
 
-<p><figure><a href="images/dh2018blog/stickers-shot.jpg">
-        <img src="images/dh2018blog/stickers-shot.jpg" alt=""/></a><figcaption>
+<p><figure><a href="/images/dh2018blog/stickers-shot.jpg">
+        <img src="/images/dh2018blog/stickers-shot.jpg" alt=""/></a><figcaption>
     Stickers ready to go to Mexico!</figcaption></figure></p>
