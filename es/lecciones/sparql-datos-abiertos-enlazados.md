@@ -333,9 +333,7 @@ ORDER BY DESC(?n)
 
 ### Enlazando múltiples puntos de entrada SPARQL
 
-> **2018-06-13: Desafortunadamente, Europeana ha eliminado la opción de enlazar puntos de entrada externos por medio de consultas `SERVICE`, y, en consecuencia, esta sección ha dejado de funcionar. Mantenemos el texto que sigue porque creemos que puede tener valor como referencia y porque esperamos que el servicio de Europeana vuelva a estar operativo en el futuro. 
-
-Unfortunately, Europeana has removed the ability to link to external SPARQL endpoints using `SERVICE` queries, so the query in this section can no longer be run. The text below will be retained as-is for reference purposes, and may be updated if and when Europeana again allows `SERVICE` queries.**
+> **2018-06-13: Desafortunadamente, Europeana ha eliminado la opción de enlazar puntos de entrada externos por medio de consultas `SERVICE`, y, en consecuencia, esta sección ha dejado de funcionar. Mantenemos el texto que sigue porque creemos que puede tener valor como referencia y porque esperamos que el servicio de Europeana vuelva a estar operativo en el futuro.**
 
 Hasta ahora, hemos construido consultas que buscan patrones en un único conjunto de datos. Sin embargo, el escenario ideal al que aspiran los partidarios de LOD viene dado por la posibilidad de enlazar múltiples bases de datos, lo que permitirá realizar consultas mucho más complejas al estar estas basadas en el conocimiento distribuido que es posible extraer de diversos espacios web. No obstante, esto resulta más fácil de decir que de hacer, y muchos puntos de entrada (incluido el del British Museum) todavía no referencian recursos de autoridad externos.
 
