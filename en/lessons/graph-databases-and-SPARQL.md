@@ -466,7 +466,7 @@ ORDER BY DESC(?n)
 
 ## Linking multiple SPARQL endpoints
 
-**2018-06-13: Unfortunately, Europeana has removed the ability to link to external SPARQL endpoints using `SERVICE` queries, so the query in this section can no longer be run. The text below will be retained as-is for reference purposes, and may be updated if and when Europeana again allows `SERVICE` queries.**
+<div class="alert alert-warning">2018-06-13: Unfortunately, Europeana has removed the ability to link to external SPARQL endpoints using `SERVICE` queries, so the query in this section can no longer be run. The text below will be retained as-is for reference purposes, and may be updated if and when Europeana again allows `SERVICE` queries.</div>
 
 Up until now, we have constructed queries that look for patterns in one dataset
 alone. In the ideal world envisioned by Linked Open Data advocates, multiple
