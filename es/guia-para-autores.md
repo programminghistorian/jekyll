@@ -20,9 +20,9 @@ Si quieres traducir una lección, tienes una idea para una lección nueva o ya h
 
 **¿Qué tipo de lección queremos?** Aceptamos tutoriales relevantes para las humanidades, dirigidos a cualquier nivel de aptitud técnica y experiencia, que se centren en un problema o proceso, que puedan ser sostenibles a largo plazo y que estén dirigidos a una audiencia global. El alcance y la longitud del tutorial han de corresponderse con la complejidad de la tarea que se enseña. Los tutoriales no deben exceder las 8.000 palabras (incluyendo el código) sin el permiso explícito del editor y que se otorgará únicamente en circunstancias excepcionales. Esperamos que la mayoría de las lecciones tengan entre 4.000 y 6.000 palabras. Puede que pidamos dividir en varios tutoriales las lecciones más largas.
 
-**En resumen, aceptamos todo tipo de propuestas.** Consulta nuestras [lecciones publicadas], lee nuestras [directrices para revisores] o explora las [lecciones actualmente en desarrollo] (https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons) para hacerte una mejor idea de lo que publicamos. Animamos al envío de propuestas de lecciones sobre temas ya cubiertos o en desarrollo, siempre que la lección nueva haga una contribución propia.
+**En resumen, aceptamos todo tipo de propuestas.** Consulta nuestras [lecciones ya publicadas], lee nuestras [directrices para revisores] o explora las [lecciones actualmente en desarrollo](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons) para hacerte una mejor idea de lo que publicamos. Animamos al envío de propuestas de lecciones sobre temas ya cubiertos o en desarrollo, siempre que la lección nueva haga una contribución propia.
 
-A fin de que nuestras lecciones sean sostenibles a largo plazo, se anima a los autores a proponer tutoriales que no dependan de un programa o de una interfaz especfica. De lo contrario, los tutoriales dejarían de ser estables y necesitarían cambios con cada actualización. En aras de una mayor conservación, es mejor enseñar conceptos que a 'clicar sobre un botón X'. 
+A fin de que nuestras lecciones sean sostenibles a largo plazo, se anima a los autores a proponer tutoriales que no dependan de un programa o de una interfaz especfica. De lo contrario, los tutoriales dejarían de ser estables y necesitarían cambios con cada actualización. En aras de una mayor conservación, es mejor enseñar conceptos que a 'clicar sobre un botón X'.
 
 Tras la aprobación de tu propuesta, uno de nuestros editores creará un tíquet "Propuesta" en nuestro [repositorio][ph-submissions], en donde se detallará el título provisional y los objetivos de la lección. Este tíquet sirve para documentar el progreso realizado durante la escritura de la lección. Para evitar que se acumulen las lecciones en fase de escritura, te pedimos que entregues tu texto al cabo de 90 días tras la aprobación.
 
@@ -31,7 +31,7 @@ Tras la aprobación de tu propuesta, uno de nuestros editores creará un tíquet
 
 # Escribir y dar formato
 
-*The Programming Historian en español* se hospeda en [GitHub](http://github.com), una plataforma para mantener archivos y revisar cambios. Se utilizan por lo general para almacenar archivos de código pero también ofrece una buena manera de mantener un recurso en abierto como *The Programming historian en español*. En concreto, nuestrio sitio utiliza [GitHub Pages] para acceder a los archivos de texto y transformarlos en una web.  
+*The Programming Historian en español* se hospeda en [GitHub](http://github.com), una plataforma para mantener archivos y revisar cambios. Se utilizan por lo general para almacenar archivos de código pero también ofrece una buena manera de mantener un recurso en abierto como *The Programming historian en español*. En concreto, nuestrio sitio utiliza [GitHub Pages] para acceder a los archivos de texto y transformarlos en una web.
 
 Esto implica que pidamos a los traductores y autores seguir una serie de requisitos, que no son meramente estilísticos, sino necesarios para publicar las lecciones. **Aunque estos requisitos técnicos puedan ser nuevos para ti, estamos aquí para ayudarte en todo momento y para que aprendas las tecnologías necesarias a medida que avanzas.**
 
@@ -72,7 +72,7 @@ Para añadir un bloque de metadatos YAML en una nueva lección, simplemente **co
 	- Patrick Murray-John
 	- Jason Heppler
 	- Will Hanley
-	- Fred Gibb 
+	- Fred Gibb
 	layout: lesson
 	redirect_from: /es/lessons/graph-databases-and-SPARQL
 	difficulty: 2
@@ -121,7 +121,7 @@ En caso de que envíes una traducción, debes mantener el bloque YAML de la lecc
 
 ## Escribe en Markdown
 
-**Todas las traducciones y lecciones nuevas deben estar escritas en Markdown**. Markdow es un lenguaje de marcado muy sencillo que se puede escribir con un editor de textos (tal y como se ha explicado más arriba, no utilices un procesador como MS Word u Open Office). [GitHub Pages] utiliza [Jekyll](http://jekyllrb.com/), que transforma de manera automática los archivos Markdown en archivos HTML para que se visualicen en el navegador. Esta página, por ejemplo, está escrita en Markdown; puedes comprobarlo tú mismo inspeccionado el archivo en [GitHub](https://github.com/programminghistorian/jekyll/blob/gh-pages/es/guia-para-autores.md).  
+**Todas las traducciones y lecciones nuevas deben estar escritas en Markdown**. Markdow es un lenguaje de marcado muy sencillo que se puede escribir con un editor de textos (tal y como se ha explicado más arriba, no utilices un procesador como MS Word u Open Office). [GitHub Pages] utiliza [Jekyll](http://jekyllrb.com/), que transforma de manera automática los archivos Markdown en archivos HTML para que se visualicen en el navegador. Esta página, por ejemplo, está escrita en Markdown; puedes comprobarlo tú mismo inspeccionado el archivo en [GitHub](https://github.com/programminghistorian/jekyll/blob/gh-pages/es/guia-para-autores.md).
 
 Los recursos y tutoriales suguientes contienen más información sobre cómo dar formato a una traducción o una lección nueva en Markdown:
 
@@ -351,7 +351,7 @@ Finalmente, el equipo editorial the *The Programming Historian en español* revi
 [Antonio Rojas Castro]: mailto:rojas.castro.antonio@gmail.com
 [traducciones pendientes]: https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/lista-de-traducciones.md
 [lecciones ya publicadas]: /es/lecciones
-[guía para revisores]: /es/guia-para-revisores
+[directrices para revisores]: /es/guia-para-revisores
 [lecciones en desarrollo]: https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons
   [Ian Milligan]: mailto:i2millig@uwaterloo.ca
   [Lesson Pipeline wiki page]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline

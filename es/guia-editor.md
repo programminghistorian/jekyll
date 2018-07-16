@@ -273,7 +273,7 @@ Crea un metadato `review-ticket` en el encabezado YAML y proporciona la URL del 
 
 ### 7) Actualiza la fecha en el archivo YAML
 
-Actualiza la fecha en el campo correspondiente del archivo YAML tomando como referencia el día en que el archivo fue movido al repositorio `jekyll`, salvo en el caso de las traducciones.
+Actualiza la fecha en el campo correspondiente del archivo YAML tomando como referencia el día en que el archivo fue movido al repositorio `jekyll`, salvo en el caso de las traducciones. Las traducciones, además, deben contener el metadato `translation_date`.
 
 ### 8) Otros aspectos para concluir el YAML de la lección
 
@@ -313,6 +313,37 @@ Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML d
     topics: [distant-reading]
     abstract: "En esta lección aprenderás qué es el modelado tópico y por qué podrías querer emplearlo en tu investigación. A continuación, aprenderás a instalar y trabajar con MALLET, que es una herramienta para procesar lenguaje natural."
     ---
+    
+Para las traducciones, no solo hay que añadir `translator`, `translation-reviewer`, `translation-editor` y `translation_date`. También hay que añadir el campo `original` tal y como se muestra aquí: 
+
+	---
+	title: Análisis de corpus con AntConc
+	authors:
+	- Heather Froehlich
+	date: 2015-11-24
+	translation_date: 2018-05-04
+	editors:
+	- Fred Gibbs
+	reviewers:
+	- Nabeel Siddiqui
+	- Rob Sieczkiewicz
+	translator:
+	- Carlos Manuel Varón Castañeda
+	translation-editor:
+	- Antonio Rojas Castro
+	translation-reviewer:
+	- Jennifer Isasi
+	- Antonio Rojas Castro
+	review-ticket: https://github.com/programminghistorian/ph-submissions/issues/170
+	layout: lesson
+	original: corpus-analysis-with-antconc
+	difficulty: 1
+	activity: analyzing
+	topics: [distant-reading]
+	abstract: "El análisis de corpus permite hacer comparaciones a gran escala entre objetos presentes en los textos; es decir, lo que se conoce como lectura distante."
+	---
+
+Es decir, con el nombre del archivo en inglés, sin extensión `.md` y sin indicar que se encuentra en el directorio `en`. En total, pues, las traducciones contienen cinco metadatos adicionales.
 
 
 ### 9) Busca una imagen que represente la lección
@@ -333,7 +364,7 @@ Antes de editar la imagen, guarda el archivo original. El nombre del archivo deb
 
 A continuación, crea una copia de la imagen, córtala en un cuadrado sin eliminar detalles relevantes, cambia la dimensión a 200x200 píxeles y convierte la imagen a escala de grises. Puedes hacer cuanto retoques creas necesarios a fin de que se asemeje al resto de imágenes, por ejemplo, modficiar la luz o alterar el contraste. Guarda esta nueva imagen con el *slug* de la lección. Siguiendo con el ejemplo ya dado, la nueva imagen debería llamarse `cleaning-data-with-openrefine.png`.
 
-Sube la imagen original al directorio [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery).
+Sube la imagen original al directorio [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery). Si se trata de una traducción, no hace falta buscar una imagen, pues se reutiliza la contenida en el original.
 
 ### 10) Incorpora tu lección en nuestro Twitter bot
 
@@ -348,7 +379,7 @@ Deja la columna D en blanco y sin tocar - este campo es utilizado por el Twitter
 ### 11) Confirma que todos los enlaces y encabezados YAML funcionen correctamente
 
 Una vez que envíes tus cambios a la rama `gh-pages` del repositorio de [programminghistorian][ph_repo], el sitio será comprobado automáticamente por [Travis CI] ([Continuous Integration]).
-Este proceso comprueba tres cosas: primero, que todo el código de YAML y markdown sea compilable; segundo, que todos los hipervínculos del sitio apunten a páginas válidas y en funcionamiento; por último, que todos los hipervínculos internos a otras páginas de _The Programming Historian en español_ son relativos y empizan con una barra lateral `/` en lugar de `https://programminghistorian.org/es`.
+Este proceso comprueba tres cosas: primero, que todo el código de YAML y markdown sea compilable; segundo, que todos los hipervínculos del sitio apunten a páginas válidas y en funcionamiento; por último, que todos los hipervínculos internos a otras páginas de _The Programming Historian en español_ son relativos y empiezan con una barra lateral `/` en lugar de `https://programminghistorian.org/es`.
 
 [ph_repo]: https://github.com/programminghistorian/jekyll
 

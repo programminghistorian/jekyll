@@ -792,7 +792,7 @@ Below is what the plot should look like:
 If you wanted to put a database on a website, using MySQL as the database and the PHP language to build the pages of the site is one way to do this. An example of this type of website is one I built to [search issues of the Equity newspaper](http://www.jeffblackadar.ca/graham_fellowship/corpus_entities_equity/). Larry Ullman's book *PHP and MySQL for Dynamic Web Sites* covers how to set up and connect to a database using MySQL and PHP in a hacker resistant way.
 
 For examples of using SQL to sort and group data as well as perform calculations, see: 
-[MySQL by Examples for Beginners](https://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html) or MySQL's [Examples of Common Queries](https://dev.mysql.com/doc/refman/5.7/en/examples.html).
+[MySQL by Examples for Beginners](http://web.archive.org/web/20171228130133/https://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html) or MySQL's [Examples of Common Queries](https://dev.mysql.com/doc/refman/5.7/en/examples.html).
 
 
 # Conclusion

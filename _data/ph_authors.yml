@@ -122,19 +122,18 @@
   github: mariajoafana
   team: true
   team_start: 2016
-  institution: Fundacion Historica Neograndina
+  institution: Universidad de los Andes, Colombia
   sortname: Afandor-Llach
   affiliation:
     en: |
-        Fundación Histórica Neogranadina, Colombia.
+        University of los Andes, Colombia.
     es: |
-        Fundación Histórica Neogranadina, Colombia.
+        Universidad de los Andes, Colombia.
   bio:
     en: |
-        Maria José Afanador-Llach is an assistant professor of Digital Humanities and History at the Universidad de los Andes, Bogotá (Colombia), and member of the board of Directors at the Fundación Histórica Neogranadina, a non-profit organization digitizing endangered colonial archives in Colombia and promoting digital humanities projects.
+        Maria José Afanador-Llach is an assistant professor of Digital Humanities and History at the Universidad de los Andes, Bogotá (Colombia).
     es: |
-        Maria José Afanador-Llach es profesora asistente de humanidades digitales e historia en la Universidad de los Andes, Bogotá (Colombia) y es miembro del consejo directivo de la Fundación Histórica Neogranadina, una organización sin
-        ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro y a promover proyectos de humanidades digitales.
+        Maria José Afanador-Llach es profesora asistente de humanidades digitales e historia en la Universidad de los Andes, Bogotá (Colombia).
   team_roles:
    - spanish
    - ombuds-es
@@ -981,6 +980,9 @@
   institution: CNRS
   sortname: Papastamkou
   affiliation: Maison européenne des sciences de l'homme et de la société Lille Nord de France
+  team_roles:
+    - french
+    - board
   bio:
         en: | 
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS). 
@@ -990,3 +992,21 @@
         fr: |
             Sofia Papastamkou est docteure en histoire et ingénieure d'études en humanités numériques au CNRS. Elle est affectée à la Maison européenne des sciences de l'homme et de la société Lille Nord de France.
         
+- name: Marie Puren
+  email: marie.puren1406@gmail.com
+  twitter: MariePuren
+  github: mpuren
+  team: true
+  team_start: 2018
+  institution: INRIA
+  sortname: Puren
+  affiliation: INRIA Paris
+  team_roles:
+    - french
+    - board
+  bio:
+        en: |
+            Marie Puren is an historian and research engineer in the ALMAnaCH team at Inria Paris.
+        fr: |
+            Marie Puren est historienne et ingénieure de recherche en humanités numériques dans l'équipe ALMAnaCH à Inria Paris.
+
