@@ -121,11 +121,11 @@ the lines and press Ctrl+Enter (Command+Enter on Mac OS):
 An Example of dplyr in Action
 =============================
 
-Lets go through an example to see how dplyr can aid us as historians by
+Let's go through an example to see how dplyr can aid us as historians by
 inputting U.S. dicennial census data from 1790 to 2010. Download the
 data by [clicking
 here](/assets/introductory_state_example.csv)
-and place it in the folder that you will use to work through the exmples
+and place it in the folder that you will use to work through the examples
 in this tutorial.
 
 Since the data is in a csv file, we are going to use the read\_csv()
@@ -145,7 +145,7 @@ one for the population, one for the year, and one for the state. This
 data is already in a tidy format providing us a multitude of options for
 further exploration.
 
-For this example, lets visualize the population growth of California and
+For this example, let's visualize the population growth of California and
 New York to gain a better understanding of Western migration. We will
 use dplyr to filter our data so that it only contains information about
 the states we are interested in, and we will use ggplot2 to visualize
@@ -209,10 +209,10 @@ your code more readable by avoiding nested statements. Don't worry if
 all this is a little confusing right now. It will become more clear as
 we go through the examples.
 
-Lets say that we are interested in getting the square root of each
+Let's say that we are interested in getting the square root of each
 population value and then summing all the square roots before getting
-the mean. Obviously, this isn't a useful measurement, but it demonstrate
-just how fast R code can become difficult to read. Normally, we would
+the mean. Obviously, this isn't a useful measurement, but it demonstrates
+just how quickly R code can become difficult to read. Normally, we would
 nest such statements:
 
     mean(sum(sqrt(us_state_populations_import$population)))
@@ -220,7 +220,7 @@ nest such statements:
     ## [1] 1256925
 
 As you can see, with enough nested commands, it is hard to remember how
-many parenthesis you need and makes the code awkard to read. To mitigate
+many parenthesis you need and makes the code awkward to read. To mitigate
 this, some people may create temporary vectors in between each function
 call.
 
@@ -317,12 +317,12 @@ start by loading the data and view it.
     ## # ... with 55 more rows, and 2 more variables: established <int>,
     ## #   sponsorship <chr>
 
-As you can observe, this dataset contains the name of the college, its
-original name, the city and state it was founded, when the college was
+As you can observe, this dataset contains the current name of the college, its
+original name, the city and state where it was founded, when the college was
 established, and its sponsorship. As we discussed earlier, before we can
-work with a dataset. It is important to think about how to organize the
-data. Lets see if any of our data is not in a "tidy" format. Do you see
-any cells that do not match the three critireia for tidy data?
+work with a dataset, it is important to think about how to organize the
+data. Let's see if any of our data is not in a "tidy" format. Do you see
+any cells that do not match the three criteria for tidy data?
 
 If you guessed the sponsorship of Harvard, you are correct. In addition
 to noting the original sponsorship, it also mentions that it changed
@@ -355,16 +355,16 @@ dplyr package.
 What is Dplyr?
 ==============
 
-[dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/dplyr.html)
+[Dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/dplyr.html)
 is another part of the tidyverse that provides functions for
 manipulating and transforming your data. Because we are keeping our data
 "tidy," we only need a small set of tools to explore our data. Compared
-to base R, using dplyr, is often faster, and gaurantees that if our
-input is tidy that our output will be also. Perhaps most importantly,
+to base R, using dplyr is often faster, and guarantees that if our
+input is tidy then our output will also be tidy. Perhaps most importantly,
 dplyr makes our code easier to read and utilizes "verbs" that are, in
-most cases, intuitive. Each function in dplyr corresponds to these verb,
+most cases, intuitive. Each function in dplyr corresponds to these verbs,
 with the five key ones being filter, select, arrange, mutate, and
-summarise--dplyr uses the British spelling. Lets go through each of them
+summarise--dplyr uses the British spelling. Let's go through each of them
 individually to see how they work in practice.
 
 ### Select
@@ -372,9 +372,9 @@ individually to see how they work in practice.
 If we look at the early\_colleges data, we can observe that there are a
 lot of NA's in the original names column. NA signifies that the data is
 not available, and we may want to view our data with this column
-removed. dplyr's select() function allows us the ability to do this. It
-takes the data frame you want to manipulate as the first argument and a
-list signifying what columns you would like to keep:
+removed. dplyr's select() function gives us the ability to do this. It
+takes the data frame you want to manipulate as the first argument, followed by a
+list signifying which columns you would like to keep:
 
     # Remove the original names column using select()
     # Note that you do not have to append the column name with a $ to the end of early_colleges since  
@@ -397,7 +397,7 @@ list signifying what columns you would like to keep:
     ## 10   Charleston, Coll. Of    Charleston    SC        1770
     ## # ... with 55 more rows, and 1 more variables: sponsorship <chr>
 
-Lets also go ahead and see how to write this using the pipe operator
+Let's also go ahead and see how to write this using the pipe operator
 (%&gt;%):
 
     early_colleges%>%
@@ -479,7 +479,7 @@ existed before the turn of the century.
 
 The mutate command allows you to add a column to your data frame. Right
 now, we have the city and state in two separate columns. We can use the
-paste command to combine two strings and specify a seperator. Lets place
+paste command to combine two strings and specify a seperator. Let's place
 them in a single column called "location."
 
     early_colleges%>%mutate(location=paste(city,state,sep=","))
@@ -570,7 +570,7 @@ Putting it All Together
 =======================
 
 Now that we have gone through the five main verbs for dplyr, we can use
-them to create a quick visualization of our data. Lets go ahead and
+them to create a quick visualization of our data. Let's go ahead and
 create a bar graph showing the number of secular and non-secular
 colleges founded before the U.S. War of 1812:
 
@@ -605,7 +605,7 @@ This tutorial should put you well on the way to thinking about how to
 organize and manipulate your data in R. Later, you will probably want to
 graph your data in some way. I recommend that you begin looking at the
 [ggplot2](http://www.ggplot2.org) package for a set of tools that work
-well with dplyr. In addition, you may want to take examine some of the
+well with dplyr. In addition, you may want to examine some of the
 other functions that come with dplyr to hone your skills. Either way,
-this should provide a good foundation to build on and covers a lot of
+this should provide a good foundation to build on and cover a lot of
 the common problems you will encounter.
