@@ -1,36 +1,36 @@
 ---
 layout: blank
-title: About the Programming Historian
+title: Présentation du Programming Historian en français
 redirect_from: /about
 ---
 
-# About the _Programming Historian_
+# Présentation du _Programming Historian en français_
 
 
-## Peer Review
-All tutorials at the _Programming Historian_ are rigorously peer reviewed, guided through the review process by one of our editors. Review involves a thorough exchange with the lesson editor to ensure the lesson works as intended and that all concepts are explained for a non-specialist reader, before the tutorial is sent to external reviewers.
+## Évaluation par les pairs
+Tous les tutoriels du _Programming Historian en français_ sont rigoureusement évalués par des pairs, la procédure étant suivie par un rédacteur ou une rédactrice de notre équipe. L'évaluation implique des échanges approfondis avec la personne responsable de la leçon avant l'envoi aux experts externes pour s'assurer, d'une part, de la cohérence du tutoriel selon les objectifs préalablement fixés, d'autre part, que tous les concepts sont suffisamment explicites pour un lectorat non-spécialiste.
 
-Our peer review process is a bit different from what might be considered the traditional peer review process. We do not solicit reviews to judge whether a tutorial is “good enough” to be published. Rather, we consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to teach and learn from each other. Once a tutorial slips into our [editorial workflow]({{site.baseurl}}/author-guidelines), we do everything we can to make sure the tutorial becomes as useful as possible and published in a reasonable amount of time. Consult our [Reviewer Guidelines]({{site.baseurl}}/reviewer-guidelines) for more information.
-
-
-## Open Source
-The _Programming Historian_ is committed to open source values. All contributed lessons make use of open source programming languages and software whenever possible. This policy is meant to minimize costs for all parties, and to allow the greatest possible level of participation. We believe everyone should be able to benefit from these tutorials, not just those with large research budgets for expensive proprietary software. Since 2016, a citable version of the _Programming Historian_ project has been deposited on [Zenodo](https://zenodo.org/). The 2017 deposit is available at [doi.org/10.5281/zenodo.1046738](https://doi.org/10.5281/zenodo.1046738).
+Notre procédure d'évaluation par les pairs est un peu différente de celle qui peut être considérée comme traditionnelle. Nous ne sollicitons pas des expertises afin de juger si un tutoriel est "suffisamment bon" pour être publié. De notre point de vue, la procédure d'évaluation fait plutôt partie intégrale d'un effort collaboratif, productif et durable d'enseignement et d'apprentissage réciproque entre universitaires. Une fois qu'un tutoriel entre dans notre [flux éditorial]({{site.baseurl}}/fr/consignes-auteurs), nous ne nous épargnons aucun effort pour le rendre le plus utile possible et le publier dans des délais raisonnables. Merci de consulter nos [consignes aux rédacteurs]({{site.baseurl}}/fr/consignes-redacteurs) pour plus d'informations.
 
 
-## Gold Open Access
-All submissions to the _Programming Historian_ are published under a [Creative Commons 'CC-BY' license](https://creativecommons.org/licenses/by/4.0/deed.en). This adheres to a '[Gold](https://en.wikipedia.org/wiki/Open_access)' open access model of publishing, which is fully compliant with the [Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities](http://www.berlin9.org/about/declaration/), [RCUK](http://www.rcuk.ac.uk/research/openaccess/) funding and [HEFCE](http://www.hefce.ac.uk/rsrch/oa/) publishing requirements for scholars in the UK, as well as the [Canadian Tri-Agency Open Access Policy](http://www.science.gc.ca/eic/site/063.nsf/eng/h_F6765465.html). 'Gold' open access means that the version of record is made freely available without subscription fee or restrictions on access. Authors are permitted to republish their tutorials anywhere. And so can anyone, as long as they cite the original author and respect his or her moral rights.
+## Open Source (code source ouvert)
+Le _Programming Historian en français_ adhère aux principes de l'open source. Toutes les leçons utilisent dans la mesure du possible des langages de programmation et des logiciels à code source ouvert. Cette politique vise à minimiser les coûts pour toutes les parties concernées et à encourager la plus large participation possible. C'est notre conviction que tout un chacun devrait avoir la possibilité de profiter de ces tutoriels, non pas seulement ceux et celles disposant des budgets de recherche considérables qui permettent l'acquisition de lociciels propriétaires coûteux. Depuis 2016, une version citable du projet _Programming Historian_ est déposée sur [Zenodo](https://zenodo.org/). Le dépôt de 2017 est accessible sur [doi.org/10.5281/zenodo.1046738](https://doi.org/10.5281/zenodo.1046738).
 
-We do not charge Article Processing Charges (APCs), nor do we charge library subscriptions.
 
-The _Programming Historian_ (ISSN 2397-2068) is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
+## Voie dorée (Gold Open Access)
+Tout dépôt fait sur le _Programming Historian en français_ est publié sous [licence Creative Commons 'CC-BY'](https://creativecommons.org/licenses/by/4.0/deed.fr) selon le modèle de publication en libre accès de la '[voie dorée](https://fr.wikipedia.org/wiki/Libre_acc%C3%A8s_(%C3%A9dition_scientifique))'. Ce modèle suit pleinement la [Déclaration de Berlin sur le libre accès à la connaissance en sciences exactes, sciences de la vie, sciences humaines et sociales](http://www.berlin9.org/about/declaration/), la politique du [RCUK](http://www.rcuk.ac.uk/research/openaccess/) et du [HEFCE](http://www.hefce.ac.uk/rsrch/oa/) en matière de publications scientifiques au Royaume-Uni, ainsi que la [Politique des trois organismes sur le libre accès aux publications](http://www.science.gc.ca/eic/site/063.nsf/fra/h_F6765465.html?OpenDocument) du Canada. Suivant le modèle de la 'voie dorée', une version électronique de la publication est en libre accès sans aucune restriction. De leur côté, les auteurs sont permis de republier leurs tutoriels où ils le souhaitent. Les contenus peuvent être repris par tout un chacun à condition que l'auteur soit cité et que ses droits soient respectés. 
 
-## Diversity Policy
+Nous ne faisons payer ni frais de publication d'articles (APC) ni abonnements à des bibliothèques. 
 
-The Programming Historian is committed to diversity, and we insist on a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. Our commitment to diversity extends to our Editorial Board, which has adopted a diversity policy to ensure that members from any one gender or any one nationality do not comprise more than 50% + 1 of the members on the board. This is to ensure that the project continues to benefit from diverse viewpoints. This policy is under perpetual review and we welcome suggestions on it from the community.
+Le _Programming Historian en français_ (ISSN xxxx-xxxx) est recensé dans le répertoire de revues en libre accès [DOAJ](https://doaj.org/toc/2397-2068).
 
-## Funding & Ownership
-The _Programming Historian_ is a volunteer-driven project. It is not a legal entity, and does not currently receive direct funding from any source.
+## Politique de diversité
 
-The project is published by the Editorial Board of the _Programming Historian_.
+Le _Programming Historian en français_ s'attache au principe de la diversité. Nous tenons à garantir un espace libre de toute discrimination envers les personnes contribuant au projet indépendamment du genre, de l'orientation sexuelle, des situations d'handicap, de l'apparence, de la taille corporelle, de l'origine, de l'âge, de la religion ou de l'expérience technique. Notre engagement en faveur de la diversité est aussi valable pour notre Conseil éditorial dont la politique s'assure que les membres représentant un sexe ou une nationalité ne constituent pas plus que 50% + 1 de l'ensemble du conseil. Ce principe vise à se garantir la diversité des points de vue qui bénéficient au projet. Cette politique évolue constamment et toute proposition venant de la communauté est la bienvenue. 
 
-The project is grateful for past support by the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)), and for hosting support from the Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)).
+## Financement & proprieté
+The _Programming Historian_  est un projet mené par des volontaires. Il ne constitue pas une entité juridique et, à l'heure actuelle, ne reçoit de financement direct d'aucune source. 
+
+Le projet est publié par le Conseil éditorial du _Programming Historian_.
+
+Le projet est reconnaisant au Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) pour son soutien fourni par le passé, ainsi qu'au Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)) pour l'hébergement. 
