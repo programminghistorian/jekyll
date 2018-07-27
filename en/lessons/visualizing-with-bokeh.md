@@ -2,7 +2,7 @@
 title: Visualizing Data with Bokeh and Pandas
 authors:
 - Charlie Harper
-date: FIXME (date the lesson was moved to the jekyll repository and the added to the main site.)
+date: 2018-07-27
 reviewers:
 - Zoe LeBlanc
 - Ben Schmidt
@@ -11,8 +11,8 @@ editors:
 - Ian Milligan
 difficulty: 2
 activity: analyzing
-topics: [FIXME, FIXME, FIXME]
-abstract: "FIXME"
+topics: [python, data-manipulation, mapping]
+abstract: "In this lesson you will learn how to visually explore and present data in Python by using the Bokeh and Pandas libraries."
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/152
 layout: lesson
 ---
