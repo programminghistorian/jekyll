@@ -188,11 +188,7 @@ p.line(x, y, color='blue', legend='line')
 p.triangle(y, x, color='yellow', size=10, legend='triangle')
 ```
 
-<div class="alert alert-warning">
-
-`p` is a common variable name for a `figure` object, since a figure is a type of plot.
-
-</div>
+{% include alert.html text="`p` is a common variable name for a `figure` object, since a figure is a type of plot." %}
 
 After instantiating the figure, we call the `circle` , `line`, and `triangle` methods to plot our data. These types of methods are known as a *glyph method*. The term *glyph* in Bokeh refers to the lines, circles, bars, and other shapes that are added to plots to display data. 
 
@@ -314,11 +310,7 @@ Next, we create our `figure` object and call the `circle` glyph method to plot o
 
 Interestingly, when we use a `ColumnDataSource` we're not limited to just using column names for `x` and `y` parameters. We can also pass a column name for other parameters such as `size`, `line_color`, or `fill_color`. This allows styling options to be determined by columns in the datasource itself! If you'd like to see this in action, in the code above, change `size=10` to `size='TONS_HE'`. The size of each dot will then reflect the tons of high explosives used.
 
-<div class="alert alert-warning">
-
-Throughout the tutorial, I often pass arguments by name where they could more succinctly be passed by position. This is helpful, in my opinion, for the reader to keep track of what arguments are being passed.
-
-</div>
+{% include alert.html text="Throughout the tutorial, I often pass arguments by name where they could more succinctly be passed by position. This is helpful, in my opinion, for the reader to keep track of what arguments are being passed" %}
 
 Next we add a title and label our axes.
 ```python
@@ -453,11 +445,7 @@ We add a hover tool again, but now we see that we can use multiple data variable
 
 {% include figure.html filename="visualizing-with-bokeh-3.png" caption="A Bar Chart with Categorical Data and Coloring" %}
 
-<div class="alert alert-warning">
-
-If you have a chance, it's worth exploring Bokeh's [color palettes](https://bokeh.pydata.org/en/latest/docs/reference/palettes.html). In the above example, try rewriting the code to use something other than `Spectral5`, such as `Inferno5` or `RdGy5`. To take it one step further, you can try your hand at using built-in palettes in any example that uses color.
-
-</div>
+{% include alert.html text="If you have a chance, it's worth exploring Bokeh's [color palettes](https://bokeh.pydata.org/en/latest/docs/reference/palettes.html). In the above example, try rewriting the code to use something other than `Spectral5`, such as `Inferno5` or `RdGy5`. To take it one step further, you can try your hand at using built-in palettes in any example that uses color." %}
 
 # Stacked Bar Charts and Sub-sampling Data: Types of Munitions Dropped by Country
 
@@ -641,11 +629,7 @@ show(p)
 
 A few patterns emerge in the ETO data. First we see a very clear escalation of overall bombings leading up to June 6, 1944 and a notable dip during the winter of 1944/1945. Incendiary munitions show three spikes and confirm that the fourth spike seen in the preceding example was directed at the bombing of Japan after Germany's surrender. The pattern of fragmentation bombs is harder to read, but it's now clear that they were only seriously used in the European Theater after D-Day. 
 
-<div class="alert alert-warning">
-
-Try your hand at resampling this data using any of [Pandas' time frequencies ](http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases) to see what other trends might emerge. Remember, you can preface these frequencies with numbers as well (e.g. if you were working with historical stock market data, 2Q would give you bi-quarterly data!)
-
-</div>
+{% include alert.html text="Try your hand at resampling this data using any of [Pandas' time frequencies ](http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases) to see what other trends might emerge. Remember, you can preface these frequencies with numbers as well (e.g. if you were working with historical stock market data, 2Q would give you bi-quarterly data!)" %}
 
 Since we have established that 6 June 1944 and the winter of 1944/1945 mark changes to the bombing patterns in the ETO, let's highlight these trends using Bokeh's annotation features. 
 
@@ -676,11 +660,7 @@ p.add_layout(box)
 
 {% include figure.html filename="visualizing-with-bokeh-8.png" caption="A Time-Series Plot of the ETO with Annotations Added" %}
 
-<div class="alert alert-warning"> 
-
-Try to create a similar plot for the Pacific Theater of Operations (PTO). Annotate the invasion of Iwo Jima (February 19, 1945) and Japan's announcement of surrender (August 15, 1945).
-
-</div>
+{% include alert.html text="Try to create a similar plot for the Pacific Theater of Operations (PTO). Annotate the invasion of Iwo Jima (February 19, 1945) and Japan's announcement of surrender (August 15, 1945)." %}
 
 # Spatial Data: Mapping Target Locations
 
@@ -690,11 +670,7 @@ Bokeh provides [built-in tile providers](https://bokeh.pydata.org/en/latest/docs
 
 We'll also be using functions imported from the `pyproj` library. Since our coordinates are stored as latitude/longitude, we'll define a custom function to convert them before mapping. Note that although Bokeh is coordinate-system neutral, it uses the Web Mercator projection for mapping, a standard found across web tile providers. The subject of coordinate systems and projections are outside the scope of this tutorial, but the interested reader will find many useful web resources on these topics.
 
-<div class="alert alert-warning">
-
-If your own dataset has place names, but not latitude and longitude, don't worry! You can find ways to easily get coordinates from place names in Programming Historian's [Geocoding Historical Data using QGIS](/lessons/geocoding-qgis) or [Web Mapping with Python and Leaflet](/mapping-with-python-leaflet#geocoding-with-python).
-
-</div>
+{% include alert.html text="If your own dataset has place names, but not latitude and longitude, don't worry! You can find ways to easily get coordinates from place names in Programming Historian's [Geocoding Historical Data using QGIS](/lessons/geocoding-qgis) or [Web Mapping with Python and Leaflet](/mapping-with-python-leaflet#geocoding-with-python)." %}
 
 ```python
 #target_locations.py
