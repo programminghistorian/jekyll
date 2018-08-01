@@ -1,7 +1,7 @@
 ---
 layout: blank
 title: Présentation du Programming Historian en français
-redirect_from: /about
+original: /about
 ---
 
 # Présentation du _Programming Historian en français_
