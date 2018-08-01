@@ -185,7 +185,7 @@ p = figure()
 
 p.circle(x, y, size=10, color='red', legend='circle')
 p.line(x, y, color='blue', legend='line')
-p.triangle(y, x, color='yellow', size=10, legend='triangle')
+p.triangle(y, x, color='gold', size=10, legend='triangle')
 ```
 
 {% include alert.html text="`p` is a common variable name for a `figure` object, since a figure is a type of plot." %}
@@ -215,7 +215,7 @@ python my_first_plot.py
 
 {% include figure.html filename="visualizing-with-bokeh-1.png" caption="Plotting a Single Glyph" %}
 
-A web browser will now appear showing the html file with your visualization. The red circles, blue line, and yellow triangles are the result of our glyph method calls. Clicking the legend in the upper right corner will show/hide each glyph type. Note that Bokeh has automatically handled the creation of the grid-lines and tick labels. 
+A web browser will now appear showing the html file with your visualization. The red circles, blue line, and gold triangles are the result of our glyph method calls. Clicking the legend in the upper right corner will show/hide each glyph type. Note that Bokeh has automatically handled the creation of the grid-lines and tick labels. 
 
 Along the right-hand side, the default toolbar is also displayed. The tools include drag, box zoom, wheel zoom, save, reset, and help. Using these tools, a user can pan along the plot or zoom in on interesting portions of the data. Since this is a stand-alone HTML page, which includes a reference to BokehJS, it can be immediately passed to a co-worker for exploration or posted to the web.
 
