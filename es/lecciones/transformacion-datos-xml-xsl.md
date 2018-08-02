@@ -125,7 +125,7 @@ En 2015, la base de datos alcanzó las 350 noticias con metadatos. Aunque quizá
 
 Para empezar a trabajar con la base de datos *Scissors and Paste*, descarga los archivos desde [aquí](https://programminghistorian.org/assets/scissorsandpaste-master.zip). Abre el archivo ZIP para obtener la carpeta llamada **scissorsandpaste-master**. Puedes extraer los documentos utilizando un programa de descompresión, haciendo doble clic (en Mac) o bien arrastrando y dejando el directorio en el escritorio de tu ordenador.
 
-{% include figure.html filename="transformacion-datos-xml-xsl-1.png" caption="Figura 1: Cómo descargar los archivos" %}
+{% include figure.html filename="/images/transforming-xml-with-xsl/transformacion-datos-xml-xsl-1.png" caption="Figura 1: Cómo descargar los archivos" %}
 
 La carpeta contiene tres documentos principales:
 
@@ -148,7 +148,7 @@ Ve a la carpeta **Outputs** y continúa hasta la carpeta **XML**. Dentro encontr
 
 Abre el archivo *SAPsimple_es.xml* con tu navegador favorito y examina su contenido. Puedes abrirlo eligiendo la opción *Abrir como*, arrastrando el documento al icono del navegador de tu escritorio o con un editor de texto sencillo como Notepad o TextEdit.
 
-{% include figure.html filename="transformacion-datos-xml-xsl-2.png" caption="Figura 2: Cómo visualizar el archivo XML" %}
+{% include figure.html filename="/images/transforming-xml-with-xsl/transformacion-datos-xml-xsl-2.png" caption="Figura 2: Cómo visualizar el archivo XML" %}
 
 La primera línea del archivo XML es ```<?xml version="1.0" encoding="UTF-8"?>```; esta línea indica la versión de XML utilizada (1.0) y el método de codificación del texto (UTF-8). En la segunda línea se encuentra la etiqueta de apertura ```<raíz>``` y, al final, la etiqueta de cierre ```</raíz>```. Esto quiere decir que ```<raíz>```, como su nombre indica, es el elemento raíz que contiene todos los artículos de periódicos etiquetados con el elemento ```<registro>```. Antes de continuar, localiza la etiqueta de cierre ```</registro>```.
 
@@ -177,7 +177,7 @@ Añade una línea nueva debajo de ```<?xml version="1.0" encoding="UTF-8"?>```. 
 
 y luego guarda el archivo.
 
-{% include figure.html filename="transformacion-datos-xml-xsl-3.png" caption="Figura 3: Cómo añadir una referencia a la hoja de estilo en un archivo XML" %}
+{% include figure.html filename="/images/transforming-xml-with-xsl/transformacion-datos-xml-xsl-3.png" caption="Figura 3: Cómo añadir una referencia a la hoja de estilo en un archivo XML" %}
 
 La línea recién creada apunta hacia el archivo XSL que en el apartado siguiente vamos a crear. De esta manera, se convertirá en la hoja de estilo con la transformación por defecto que debemos aplicar al documento XML. El nombre del archivo no importa, pero asegúrate de que coincide con el valor del enlace (```href="miestilo.xsl"```) contenido en la instrucción ```xml-stylesheet```.
 
@@ -223,15 +223,15 @@ Tras guardar el archivo, ábrelo con un navegador (Internet Explorer o Firefox) 
 
 El resultado debería ser el texto con los saltos de línea existentes, peor *sin* los elementos XML, tal y como se percibe en la imagen de abajo.
 
-{% include figure.html filename="transformacion-datos-xml-xsl-4.png" caption="Figura 4: *Output* con texto inicial" %}
+{% include figure.html filename="/images/transforming-xml-with-xsl/transformacion-datos-xml-xsl-4.png" caption="Figura 4: *Output* con texto inicial" %}
 
 Si, por el contrario, lo que obtienes es un texto sin formato, o bien un mensaje de error, retrocede y revisa el archivo XML y la hoja de estilo XSL. Es posible que un error (quizás tipográfico) haya impedido al procesador realizar la transformación necesaria para presentar el texto como deseamos.
 
-{% include figure.html filename="transformacion-datos-xml-xsl-5.png" caption="Figura 5: *Output* sin estructurar, es decir, erróneo" %}
+{% include figure.html filename="/images/transforming-xml-with-xsl/transformacion-datos-xml-xsl-5.png" caption="Figura 5: *Output* sin estructurar, es decir, erróneo" %}
 
 Si el resultado obtenido es satisfactorio, es decir, si has conseguido generar un texto sencillo con saltos de línea y márgenes, te recomendamos organizar tu escritorio para que puedas moverte con agilidad entre el editor de texto y el navegador. Por ejemplo, puedes disminuir la ventana del navegador hasta que quepa en una mitad de la pantalla y luego hacer lo mismo con el editor.
 
-{% include figure.html filename="transformacion-datos-xml-xsl-6.png" caption="Figure 6: Cómo organizar tu lugar de trabajo" %}
+{% include figure.html filename="/images/transforming-xml-with-xsl/transformacion-datos-xml-xsl-6.png" caption="Figure 6: Cómo organizar tu lugar de trabajo" %}
 
 ## Cómo poblar un *output*
 
