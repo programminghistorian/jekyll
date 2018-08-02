@@ -1,8 +1,9 @@
 ---
 title: Transformación de datos con XML y XSL para su reutilización
 layout: lesson
+slug: transformacion-datos-xml-xsl
 date: 2016-07-07
-translation_date: 2018-04-17
+translation_date: 2018-08-02
 authors:
 - M. H. Beals
 reviewers:
