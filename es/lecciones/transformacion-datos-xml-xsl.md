@@ -125,7 +125,7 @@ En 2015, la base de datos alcanzó las 350 noticias con metadatos. Aunque quizá
 
 Para empezar a trabajar con la base de datos *Scissors and Paste*, descarga los archivos desde [aquí](https://programminghistorian.org/assets/scissorsandpaste-master.zip). Abre el archivo ZIP para obtener la carpeta llamada **scissorsandpaste-master**. Puedes extraer los documentos utilizando un programa de descompresión, haciendo doble clic (en Mac) o bien arrastrando y dejando el directorio en el escritorio de tu ordenador.
 
-{% include figure.html filename="transformacion-datos-xml-xsl-1.png" caption="Figura 1: Cómo descargar los archivos" %}
+{% include figure.html filename="/images/transforming-xml-with-xsl/transformacion-datos-xml-xsl-1.png" caption="Figura 1: Cómo descargar los archivos" %}
 
 La carpeta contiene tres documentos principales:
 
