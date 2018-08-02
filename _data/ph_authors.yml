@@ -1010,3 +1010,8 @@
         fr: |
             Marie Puren est historienne et ingénieure de recherche en humanités numériques dans l'équipe ALMAnaCH à Inria Paris.
 
+- name: Charlie Harper
+  team: false
+  bio:
+      en: |
+          Charlie Harper is the Digital Learning and Scholarship Librarian at Case Western Reserve University
