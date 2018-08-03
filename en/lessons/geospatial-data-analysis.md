@@ -15,8 +15,6 @@ layout: lesson
 difficulty: 2
 activity: data analysis
 topics: [mapping]
-exclude_from_check: 
- - review-ticket
 abstract: "In this lesson, you will use R-language to analyze and map geospatial data."
 ---
 
