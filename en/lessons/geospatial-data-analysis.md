@@ -6,11 +6,11 @@ date: 2018-08-03
 authors:
     - Eric Weinberg
 reviewers:
-	 - Lauren Tilton 
-	 - Adam Crymble
-	 - Ryan Deschamps
+    - Lauren Tilton 
+    - Adam Crymble
+    - Ryan Deschamps
 editors: 
-	 - Jessica Parr 
+    - Jessica Parr 
 layout: lesson
 difficulty: 2
 activity: data analysis
