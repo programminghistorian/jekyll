@@ -13,10 +13,14 @@ editors:
     - Jessica Parr 
 layout: lesson
 difficulty: 2
-activity: data analysis
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/102
+activity: analyzing
 topics: [mapping]
 abstract: "In this lesson, you will use R-language to analyze and map geospatial data."
+redirect
 ---
+
+{% include toc.html %}
 
 ## Introduction
 One primary focus of historical scholarship is explaining the complex relationships that influence change in the past. More often then not, patterns of change are understood and dependent on geographic understandings—or variations over space. The Great Migration, early development of the European economy, and the development of the American West are just a few topics that are both historical and geographic in nature. Combining knowledge of both space and time can provide a fuller understanding of events and transformations. This is even more evident when we are able to discern characteristics about the people/populations who are part of historical transformations/events.
