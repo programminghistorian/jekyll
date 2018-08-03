@@ -1,11 +1,23 @@
 ---
 title: |
     Using Geospatial Data to Inform Historical Research in R
+    
+date: 2018-08-03
 authors:
     - Eric Weinberg
-date: 2017-06-30
 reviewers:
+	 - Lauren Tilton 
+	 - Adam Crymble
+	 - Ryan Deschamps
+editors: 
+	 - Jessica Parr 
 layout: lesson
+difficulty: 2
+activity: data analysis
+topics: [mapping]
+exclude_from_check: 
+ - review-ticket
+abstract: "In this lesson, you will use R-language to analyze and map geospatial data."
 ---
 
 ## Introduction
