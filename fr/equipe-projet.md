@@ -1,47 +1,41 @@
 ---
-title: Project Team
+title: Équipe du projet
 layout: blank
-redirect_from: /project-team
+original: /project-team
 ---
 
-# Project Team
-Please direct correspondence in the first instance to:
+# Équipe du projet
+Merci de diriger en amont votre correspondance à:
 
-* <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> (English)
-* <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a> (Spanish)
+* <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> (en anglais)
+* <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a> (en espagnol)
 
-You can follow the _Programming Historian_ on Twitter: [@proghist](http://twitter.com/proghist).
+Vous pouvez suivre le _Programming Historian_ sur Twitter: [@proghist](http://twitter.com/proghist).
 
-## Editorial Board
+## Conseil éditorial
 
 {% comment %}
 All editorial board information should be edited in data/ph_authors.yml. Authors who are on the editorial team must have team: true in their metadata.
 {% endcomment %}
 {% include project-team-loop.html %}
 
-## Project Team Membership History
+## Historique des membres de l'équipe du projet
 
 {% include team_history.html %}
 
-## Community Participants
+## Participant(e)s de la communauté
 
-The _Programming Historian_ also benefits enormously from the efforts of
-people who volunteer their time and energy. If you are interested in
-pitching in, either for a single project or in an ongoing role, please
-find out [how to contribute](/contribute)!
+Le _Programming Historian_ bénéficie énormément des efforts des personnes qui font don de leur temps et de leur énergie. Si vous souhaitez vous y lancer, soit dans le cadre d'un projet uniquement soit pour avoir un rôle plus pérenne, voici comment vous pouvez [contribuer](/fr/contribuer)!   
 
-We are especially grateful to the dedicated _Programming Historian_ authors who are not members of the Project Team:
+Nous sommes particulièrement reconnaissants aux auteur(e)s dévoué(e)s du _Programming Historian_ qui ne sont pas membres de l'équipe du projet: 
 
-{% include authors_loop.html %} and, hopefully, you! Find out more about [becoming an author](/contribute).
+{% include authors_loop.html %} et, nous l'espérons, à vous aussi! Découvrez comment vous pouvez [devenir auteur(e)](/contribuer).
 
-We also thank everyone who has helped to improve our lessons by reporting
-issues, fixing errors, conducting formal peer reviews, translating, or editing.
-At the time of writing, this has included the following people:
+Nous remercions aussi toutes les personnes qui ont contribué à l'amélioration de nos leçons en nous signalant des problèmes, en corrigeant des erreurs, en faisant des évaluations, des traductions ou des éditions de leçons. À l'heure actuelle, il s'agit des personnes suivantes: 
 
-{% include collaborators_loop.html %} and, hopefully, you! Find out more about [how to
-contribute](/contribute).
+{% include collaborators_loop.html %} et, nous l'espérons, de vous aussi! Découvrez [comment vous pouvez contribuer](/contribuer).
 
-Finally, we'd like to thank those who have been involved in organizing, running, leading, or supporting workshops involving the project and Project Team:
+Enfin, nous souhaitons remercier toutes les personnes qui se sont impliquées dans l'organisation, la gestion, l'animation ou le soutien d'ateliers portant sur le projet ou incluant des membres de son équipe:
 
 * Anelda van der Walt, Talarify (South Africa)
 * Johann Templehoff, North-West University (South Africa)
