@@ -1,45 +1,48 @@
 ---
-title: Lesson Retirement Policy
+title: Politique de retrait des leçons
 layout: blank
-redirect_from: /lesson-retirement-policy
+original: /lesson-retirement-policy
 ---
 
-# Lesson Retirement Policy
+# Politique de retrait des leçons
 
-The _Programming Historian_ editors do their best to maintain lessons as minor issues inevitably arise. 
-However, as time passes, changes to either the underlying technologies or principles used by a given lesson can become so substantial that users will no longer be able to successfully complete the lesson.
-In these situations, the _Programming Historian_ editorial team may decide to "retire" a lesson: keeping the page published, but removing it from our directory of active lessons and adding a warning to the top of the page noting that not all elements of the lesson may be working as originally intended.
+Les rédacteurs et les rédactries du _Programming Historian_ font de leur mieux pour maintenir les leçons en ligne car des problèmes mineurs peuvent inévitablement survenir.  
+Néanmoins, l'évolution au fil du temps des technologies ou des concepts mobilisés dans un cours peut être importante au point que les utilisateurs ne seront plus en mesure de terminer la leçon avec succès.
+Dans de tels cas, l'équipe éditoriale du _Programming Historian_ peut prendre la décision de "retirer" une leçon: si la page reste publiée, un avertissement est ajouté que certaines composantes du cours peuvent ne pas fonctionner comme initialement prévu, et la leçon est enlevée du directoire des leçons actives. 
 
-We do not retire lessons lightly.
-If the editorial team begins to receive reports about problems with a lesson, we will investigate the problem and take steps to address it.
-Often, we will decide it is not necessary to retire the lesson:
+Nous ne procédons pas facilement au retrait des leçons.
+Si l'équipe éditoriale commence à recevoir des informations concernant d'éventuels problèmes sur une leçon, nous allons les examiner et tenter de les résoudre. 
+Il arrive fréquemment de décider qu'il n'est pas nécessaire de retirer la leçon:
 
-- In cases where minor fixes are easily done, such as correcting the formatting of a lesson, or changing one or two broken URLs, we will generally do so.
-- In cases where new methods for a task have emerged that may be preferred to the methods discussed in a lesson, but the original technology for a lesson still works and is available, we will **not** retire the lesson. The lesson may still prove a useful learning tool and a snapshot into the techniques of digital history when it was published
+- Lorsque des corrections peuvent se faire facilement pour réviser le formattage d'une leçon ou remplacer quelques URL obsolètes, nous les prenons en charge. 
+- Lorsque de nouvelles méthodes semblent préférables à celles discutées dans une leçon, mais que les technologies mobilisées restent néanmoins efficaces et disponibles, la leçon **n'est pas** retirée. Elle peut en effet servir encore en tant qu'outil d'apprentissage, tout en illustrant quelles étaient les techniques de l'histoire numérique au moment de sa publication.
 
-However, if it is clear that systemic changes to text, code, and/or figures are necessary, and that such changes are of a scale that would require complete re-testing of the entire lesson, then we will open a public issue to discuss the possibility of retiring the lesson between all the members of the editorial team.
+Toutefois, lorsqu'il devient clair que des changements essentiels sont nécessaires dans le code, le texte et/ou les figures fournies, qui déboucheraient sur le remaniement complet de la leçon, dans ce cas nous ouvrons un ticket public pour discuter entre tous les membres de l'équipe éditoriale de la possibilité de retirer cette leçon.
 
-In cases where members of the editorial team, or members of the larger community, are willing and able to volunteer their expertise, we may create an updated lesson derived from the original.
-In accordance with our [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) licensing, this derivative will conspicuously attribute the creator of the original lesson, as well as the names of any contributors who aided in the production of the new lesson.
+Si des membres de l'équipe éditoriale ou de la communauté plus large qui l'entoure ont la volonté et la possibilité d'offrir leur expertise, il peut alors être envisagé de créer une leçon mise à jour, dérivée de celle d'origine.
+En accord avec notre licence [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.fr), cette version dérivée sera créditée à l'auteur(e) de la leçon originale, ainsi qu'aux personnes qui auront contribué à son élaboration.
 
-Whether or not a new derivative is created, the following steps will be taken with the retired lesson:
+Qu'une leçon dérivée soit créée ou pas, voici les étapes à suivre quant à la leçon retirée:
 
-1. The lesson will be moved from `https://programminghistorian.org/lesson/LESSON-TITLE` TO `https://programminghistorian.org/lesson/retired/LESSON-TITLE`. A redirect will be established, so any links to the original URL will seamlessly point the user to the new URL.
+1. La leçon sera déplacée de `https://programminghistorian.org/fr/lecon/TITRE-DE-LA-LEÇON` à `https://programminghistorian.org/fr/lesson/retired/TITRE-DE-LA-LEÇON`. Une redirection sera mise en place pour que des liens pointant à l'URL originelle renvoient l'utilisateur à la nouvelle URL.
 
-2. Once retired, the lesson will no longer appear in the directory of lessons, and it will be removed from the Twitter announcement stream.
+2. Une fois la leçon retirée, celle-ci n'apparaît plus dans le répertoire des leçons et elle est aussi enlevée de la liste de publications sur Twitter.
 
-3. The following announcement will be added to the top of the retired lesson: 
+3. L'avertissement suivant est ajouté en haut de la page de la leçon retirée: 
     <div class="alert alert-warning">{{ site.data.snippets.retired-definition[page.lang] | markdownify }}
 
-## Related Sustainability Guidelines
+## Autres consignes sur la pérennisation des leçons 
 
+{% comment %}
+The following anchors need to be checked/replaced once all pages have been created and published in the FR branch) 
 [Author Guidelines for Writing Sustainably](/author-guidelines#write-sustainably)
 
 [Reviewer Guidelines for Assessing Lesson Sustainability](/reviewer-guidelines#sustainability)
 
-[Editor Guidelines for Fostering Lesson Sustainability](/editor-guidelines#c-sustainability-review)
+[Consignes aux rédacteurs et rédactrices pour assurer la pérennisation des leçons]((/consignes-redacteurs#c-perennisation-et-internationalisation)) [Editor Guidelines for Fostering Lesson Sustainability](/editor-guidelines#c-sustainability-review)
+{% endcomment %}
 
-## Retired Lessons
+## Leçons retirées
 
 {% assign retired = site.pages | where: "retired", "true" %}
 {% for lesson in retired %}
