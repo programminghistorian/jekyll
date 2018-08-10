@@ -2,11 +2,29 @@
 title: Creating Mobile Augmented Reality Experiences in Unity
 authors:
 - Jacob W. Greene
-date: 2015-01-04
+date: 2018-08-10
 layout: lesson
+difficulty: 2
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/175
+reviewers:
+- Brenta Blevins
+- Jason Crider
+- Fred Gibbs
+- Sean Morey
+- Anandi Silva Knuppel
+editors:
+- Fred Gibbs
+- Brandon Walsh
+activity: presenting
+topics: [website,mapping]
+abstract: "This lesson serves as an introduction to creating mobile augmented reality applications. Augmented reality (AR) can be defined as the overlaying of digital content (images, video, text, sound, etc.) onto physical objects or locations, and it is typically experienced by looking through the camera lens of an electronic device such as a smartphone, tablet, or optical head-mounted display."
+collection: lessons
+slug: creating-mobile-augmented-reality-experiences-in-unity
 ---
 
 This lesson serves as an introduction to creating mobile augmented reality applications in the Unity game engine. Augmented reality (AR) can be defined as the overlaying of digital content (images, video, text, sound, etc.) onto physical objects or locations, and it is typically experienced by looking through the camera lens of an electronic device such as a smartphone, tablet, or optical head-mounted display (e.g. Microsoft Hololens). Although AR is a cutting-edge, complex technology, there are a number of user-friendly platforms that allow people with no previous coding experience to create compelling augmented reality experiences. 
+
+{% include toc.html %}
 
 ## Lesson Goals
 
