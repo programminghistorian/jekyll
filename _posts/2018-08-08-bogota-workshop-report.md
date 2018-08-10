@@ -2,7 +2,7 @@
 title: Writing Workshop Report Bogotá, Colombia
 authors:
 - Adam Crymble
-- Maria José Afanador Llach
+- Maria José Afanador-Llach
 layout: post
 categories: post
 ---
