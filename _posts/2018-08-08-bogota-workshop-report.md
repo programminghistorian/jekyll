@@ -40,7 +40,7 @@ La selección de los participantes se basó en sus propuestas, que abarcaron des
 
 <p><figure><img src="/images/bogota-workshop-report/Bogota2.png" /><figcaption>Tweet by Silvia Gutiérrez about her time in Bogotá.</figcaption></figure></p>
 
-Tal vez fue apropiado que el evento terminara para muchos de nuestros participantes, no el viernes por la noche como estaba programado, sino en el desayuno de la mañana siguiente. En un verdadero estilo latinoamericano, el baile se extendió a lo largo de la noche, y unos pocos valientes se quedaron juntos para ver salir el sol sobre Bogotá, con la esperanza de extender unas horas extras lo que se convirtió en un vínculo profundo entre un grupo que sólo unos días antes eran completos desconocidos. Las humanidades digitales parecen construir esos lazos tan bien, y esperamos que esto sea sólo la primera de muchas oportunidades para que los “Programming Historians” se reúnan y compartan sus conocimientos con el mundo.
+Tal vez fue apropiado que el evento terminara para muchos de nuestros participantes, no el viernes por la noche como estaba programado, sino en el desayuno de la mañana siguiente. En un verdadero estilo latinoamericano, el baile se extendió a lo largo de la noche, y unos pocos valientes se quedaron juntos para ver salir el sol sobre Bogotá, con la esperanza de extender unas horas extras lo que se convirtió en un vínculo profundo entre un grupo que sólo unos días antes eran completos desconocidos. Las humanidades digitales parecen construir esos lazos muy bien, y esperamos que esto sea sólo la primera de muchas oportunidades para que los “Programming Historians” se reúnan y compartan sus conocimientos con el mundo.
 
 ¡Hasta la pronto desde Bogotá! Gracias por todo su arduo trabajo.
 
