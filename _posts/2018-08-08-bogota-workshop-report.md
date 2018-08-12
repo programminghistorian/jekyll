@@ -11,7 +11,7 @@ categories: post
 
 (SPANISH TO FOLLOW)
 
-Twenty-two digital humanities scholars from across the Americas met for four days in the Andes Mountains in Bogotá, and before they left, the Programming Historian started to receive its first ever Spanish-first tutorials. Thanks to support from the British Academy, we were able to host the first ever Programming Historian writing workshop at the Universidad de los Andes, the institutional base of one of our editors, Maria José Afanador Llach.
+Twenty-two digital humanities scholars from across the Americas met for four days in the Andes Mountains in Bogotá, and before they left, the Programming Historian started to receive its first ever Spanish-first tutorials. Thanks to support from the British Academy, we were able to host the first ever Programming Historian writing workshop at the Universidad de los Andes, the institutional base of one of our editors, Maria José Afanador-Llach.
 
 The workshop took place over three days (1-3 August 2018), and included scholars from Colombia, Mexico, Cuba, Brazil, Peru, Argentina, Chile, Britain, Canada, and the United States who came together over pandeyucas, carimañolas, arepas, and as much Colombian coffee as they could handle, to write digital humanities tutorials that addressed the needs of Latin American scholars.
 
@@ -30,7 +30,7 @@ Hasta la vista from Bogotá! Thanks for all of your hard work.
 
 ---
 
-Veintidós académicos de las humanidades digitales de todas partes de América se reunieron durante cuatro días en la cordillera de los Andes en Bogotá, y antes de partir, Programming Historian comenzó a recibir sus primeros tutoriales en español. Gracias al apoyo de la British Academy, pudimos realizar el primer taller de escritura de Programming Historian en la Universidad de los Andes, la base institucional de una de nuestras editoras, María José Afanador Llach.
+Veintidós académicos de las humanidades digitales de todas partes de América se reunieron durante cuatro días en la cordillera de los Andes en Bogotá, y antes de partir, Programming Historian comenzó a recibir sus primeros tutoriales en español. Gracias al apoyo de la British Academy, pudimos realizar el primer taller de escritura de Programming Historian en la Universidad de los Andes, la base institucional de una de nuestras editoras, María José Afanador-Llach.
 
 El taller se llevó a cabo durante tres días (del 1 al 3 de agosto de 2018) e incluyó a académicos de Colombia, México, Cuba, Brasil, Perú, Argentina, Chile, Gran Bretaña, Canadá y Estados Unidos, quienes se reunieron alrededor de pandeyucas, arepas y carimañolas y mucho café colombiano, para escribir tutoriales de humanidades digitales que abordaran las necesidades de los académicos latinoamericanos.
 
