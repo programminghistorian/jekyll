@@ -33,6 +33,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, Université d'Edimbourg (26 mai 2015).
 
 ## Posters, présentations et conférences invitées
+* Afanador, Maria José. 'The Programming Historian en español: estrategias y retos para la construcción de una comunidad global de humanidades digitales.' Conférence DH2018, Mexico, Méxique (juin 2018).
 * Caleb McDaniel, 'Open Access, Transparent Peer Review', Annual Meeting of the Organizations of American Historians, Sacremento, California, (14 avril 2018).
 * James Baker, '[The Programming Historian: Open Access, Open Source, Open Project](https://www.slideshare.net/drjwbaker/the-programming-historian-open-access-open-source-open-project)', Research Hive Seminar on 'Open publication: exploring alternative models and practices', Université de Sussex (22 mars 2018).
 * Adam Crymble, 'White, Male, and North American: Challenges of Diversifying the Programming Historian', Universit&eacute; de Lausanne, Suisse (23-24 mars 2017).
