@@ -432,7 +432,7 @@ The `apply()` function allows you to perform the same function on every row or c
 [1]  4.5 25.0 37.0  8.0
 ```
 
-The above example shows the apply function used on the `Crime` matrix to calculate the mean of each column, and so the average number of combined theft and violent theft crimes that were committed in each decade. If you want to find the mean of each row, you would use `2` instead of `1` inside of the function:
+The above example shows the apply function used on the `Crime` matrix to calculate the mean of each row, and so the average number of combined theft and violent theft crimes that were committed in each decade. If you want to find the mean of each column, you would use `2` instead of `1` inside of the function:
 
 ```
 > apply(Crime,2,mean)
@@ -445,8 +445,8 @@ This shows you the average number of theft crimes and then violent theft crimes 
 ### Practice
 
 1.	Create a matrix with two columns using the following data from the *Breaking Peace* and *Killing* crimes between 1710 and 1730 from the Old Bailey chart above: `c(2,3,3,44,51,17)`
-2.	Use the `cbind90` function to join `BreakingPeace <- c(2,3,3)` and `Killing <- c(44,51,17)` together.
-3.	Calculate the mean of each column for the above matrix using the `apply90` function.
+2.	Use the `cbind()` function to join `BreakingPeace <- c(2,3,3)` and `Killing <- c(44,51,17)` together.
+3.	Calculate the mean of each column for the above matrix using the `apply()` function.
 
 ## Solutions
 
