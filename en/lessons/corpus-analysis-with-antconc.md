@@ -198,7 +198,7 @@ Search on she|he.
 
 Now search for these separately: how many instances of she vs he?  
 
-There are many fewer instances of she – why? That's a research question! A good follow-up questions might be to sort the she|he search for patterns, and look to see if particular verbs follow each. 
+There are many fewer instances of she – why? That's a research question! A good follow-up questions might be to sort the she\|he search for patterns, and look to see if particular verbs follow each. 
 
 **Task:** 
 Practice searching a word of your choice, sorting in different ways, using wildcard(s), and finally exporting. Guiding focus question here: what kinds of patterns do you see? Can you explain them?
