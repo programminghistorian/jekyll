@@ -3,7 +3,7 @@ title: |
   Using Geospatial Data to Inform Historical Research in R
 collection: lessons
 layout: lesson   
-date: 2018-08-17
+date: 2018-08-20
 authors:
   - Eric Weinberg
 reviewers:
