@@ -610,11 +610,11 @@ Como ya habíamos señalado, estos resúmenes temáticos no reemplazan de ningun
 
 En este tutorial breve hemos explorado algunas formas básicas para analizar datos textuales con el lenguaje de programación R. Existen varias direcciones que puedes tomar para adentrarte más en las nuevas técnicas del análisis de texto. Estos son tres ejemplos particularmente interesantes:
 
-* procesar un flujo completo de anotación de procesamiento de lenguajes naturales (NLP) en un texto para extraer características como nombres de entidades, categorías gramaticales y relaciones de dependencia. Estos están disponibles en varios paquetes de R, incluyendo **cleanNLP**, y para varios idiomas[^11].
-* ajustar modelos temáticos (*topic models*) para detectar discursos particulares en el corpus usando paquetes como **mallet**[^12] y **topicmodels**[^13].
-* aplicar técnicas de reducción dimensional para crear gráficos de tendencias estilísticas a lo largo del tiempo o entre múltiples autores. Por ejemplo, el paquete **tsne**[^14] realiza una forma poderosa de reducción dimensional particularmente apta para gráficos detallados.
+* procesar un flujo completo de anotación de procesamiento de lenguajes naturales (NLP) en un texto para extraer características como nombres de entidades, categorías gramaticales y relaciones de dependencia. Estos están disponibles en varios paquetes de R, incluyendo **cleanNLP**, y para varios idiomas[^12].
+* ajustar modelos temáticos (*topic models*) para detectar discursos particulares en el corpus usando paquetes como **mallet**[^13] y **topicmodels**[^14].
+* aplicar técnicas de reducción dimensional para crear gráficos de tendencias estilísticas a lo largo del tiempo o entre múltiples autores. Por ejemplo, el paquete **tsne**[^15] realiza una forma poderosa de reducción dimensional particularmente apta para gráficos detallados.
 
-Existen muchos tutoriales genéricos para estos tres ejemplos, además de documentación detallada de los paquetes[^15]. Esperamos ofrecer tutoriales enfocados en aplicaciones históricas en particular en el futuro.
+Existen muchos tutoriales genéricos para estos tres ejemplos, además de documentación detallada de los paquetes[^16]. Esperamos ofrecer tutoriales enfocados en aplicaciones históricas en particular en el futuro.
 
 # Notas
 
@@ -626,10 +626,11 @@ Existen muchos tutoriales genéricos para estos tres ejemplos, además de docume
 [^6]: Traducción publicada en CNN en español (12 de enero de 2016) http://cnnespanol.cnn.com/2016/01/12/discurso-completo-de-obama-sobre-el-estado-de-la-union/ [N. de la T.]
 [^7]: Todos los discursos presidenciales del Estado de la Unión fueron descargados de The American Presidency Project at the University of California Santa Barbara (Accedido el 11 de noviembre de 2016) http://www.presidency.ucsb.edu/sou.php
 [^8]: Aquí volvemos a la versión del discurso en su original (inglés) por motivos de continuación del análisis y, en particular, el listado de las palabras más frecuentes usadas en inglés. Seguimos traduciendo los nombres de las variables y de las funciones para facilitar la comprensión en español.[N. de la T.]
-[^9]: Peter Norvig. “Google Web Trillion Word Corpus”. (Accedido el 11 de noviembre de 2016) http://norvig.com/ngrams/.
-[^10]: Esto ocurre en algunos discursos escritos del Estado de la Unión, donde una lista con puntos de enumeración es segmentada como una única oración larga.
-[^11]: Taylor Arnold. “cleanNLP: A Tidy Data Model for Natural Language Processing”. R Package, Version 0.24. https://cran.r-project.org/web/packages/cleanNLP/index.html
-[^12]: David Mimno. “mallet: A wrapper around the Java machine learning tool MALLET”. R Package, Version 1.0. https://cran.r-project.org/web/packages/mallet/index.html
-[^13]: Bettina Grün and Kurt Hornik. “https://cran.r-project.org/web/packages/topicmodels/index.html”. R Package, Version 0.2-4. https://cran.r-project.org/web/packages/topicmodels/index.html
-[^14]: Ver el artículo t-distributed stochastic neighbor embedding (en inglés) en Wikipedia. https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding [N. de la T.]
-[^15]: Ver, por ejemplo, el libro de los autores: Taylor Arnold and Lauren Tilton. *Humanities Data in R: Exploring Networks, Geospatial Data, Images, and Text.* Springer, 2015.
+[^9]: Aquí optamos por nombrar a las columnas de la tabla en inglés, como "word" (palabra) y "count" (recuento), para facilitar su interoperabilidad con el conjunto de datos que introducimos más adelante con la función `inner_join` de más adelante. [N. de la T.]
+[^10]: Peter Norvig. “Google Web Trillion Word Corpus”. (Accedido el 11 de noviembre de 2016) http://norvig.com/ngrams/.
+[^11]: Esto ocurre en algunos discursos escritos del Estado de la Unión, donde una lista con puntos de enumeración es segmentada como una única oración larga.
+[^12]: Taylor Arnold. “cleanNLP: A Tidy Data Model for Natural Language Processing”. R Package, Version 0.24. https://cran.r-project.org/web/packages/cleanNLP/index.html
+[^13]: David Mimno. “mallet: A wrapper around the Java machine learning tool MALLET”. R Package, Version 1.0. https://cran.r-project.org/web/packages/mallet/index.html
+[^14]: Bettina Grün and Kurt Hornik. “https://cran.r-project.org/web/packages/topicmodels/index.html”. R Package, Version 0.2-4. https://cran.r-project.org/web/packages/topicmodels/index.html
+[^15]: Ver el artículo t-distributed stochastic neighbor embedding (en inglés) en Wikipedia. https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding [N. de la T.]
+[^16]: Ver, por ejemplo, el libro de los autores: Taylor Arnold and Lauren Tilton. *Humanities Data in R: Exploring Networks, Geospatial Data, Images, and Text.* Springer, 2015.
