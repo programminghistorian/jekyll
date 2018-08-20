@@ -18,6 +18,7 @@ translation-reviewer:
 - Joseba Moreno
 - Antonio Rojas Castro
 layout: lesson
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/164
 original: r-basics-with-tabular-data
 difficulty: 1
 activity: transforming
@@ -37,11 +38,11 @@ Este tutorial no presupone conocimiento previo de R. Te guiará por algunas de l
 
 R es ideal para analizar grandes cantidades de datos que llevarían demasiado tiempo de computación manual. Una vez que entiendas cómo escribir algunas de las funciones básicas y a importar tus propios archivos de datos, podrás analizar y visualizar los datos de forma rápida y eficiente.
 
-Mientras que R es una gran herramienta para datos tabulares, puede que encuentres más útiles otros acercamientos al análisis de fuentes no tabulares (como transcripciones de periódicos). Si te interesa estudiar este tipo de recursos, echa un vistazo al resto de lecciones en [The Programming Historian en español](https://programminghistorian.org/es/).
+Mientras que R es una gran herramienta para datos tabulares, puede que encuentres más útiles otros acercamientos al análisis de fuentes no tabulares (como transcripciones de periódicos). Si te interesa estudiar este tipo de recursos, echa un vistazo al resto de lecciones en [The Programming Historian en español](/es).
 
 ## Instalar R
 
-R es un lenguaje de programación y un entorno para trabajar con datos. Se puede usar en la consola de R en la [línea de comandos](https://programminghistorian.org/es/lecciones/introduccion-a-bash) o en el [Interfaz de R](https://www.rstudio.com/products/rstudio/download/), ambos disponibles solamente en inglés. Este tutorial se centrará en el uso de la consola de R. Para empezar con R, descarga el programa desde [The Comprehensive R Archive Network](https://cran.r-project.org/). R es compatible con Linux, Mac y Windows.
+R es un lenguaje de programación y un entorno para trabajar con datos. Se puede usar en la consola de R en la [línea de comandos](/es/lecciones/introduccion-a-bash) o en el [Interfaz de R](https://www.rstudio.com/products/rstudio/download/), ambos disponibles solamente en inglés. Este tutorial se centrará en el uso de la consola de R. Para empezar con R, descarga el programa desde [The Comprehensive R Archive Network](https://cran.r-project.org/). R es compatible con Linux, Mac y Windows.
 
 Cuando inicies la consola de R por primera vez, se abrirá una ventana parecida a esta:
 
