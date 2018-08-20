@@ -23,7 +23,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/172
 difficulty: 2
 activity: analyzing
 topics: [distant-reading]
-abstract: "Aprende a utilizar R para analizar patrones a nivel general (*high-level patterns*) en textos, para aplicar métodos de estilometría a lo largo del tiempo y entre autores y para aprender metodologías de resumen con las que describir objetos de un corpus."
+abstract: "Aprende a utilizar R para analizar patrones a nivel general en textos, para aplicar métodos de estilometría a lo largo del tiempo y entre autores y para aprender metodologías de resumen con las que describir objetos de un corpus."
 ---
 {% include toc.html %}
 
@@ -86,6 +86,7 @@ palabras
 ```
 
 Esto produce el siguiente resultado:
+
 ```
 > [[1]]
   [1] "también"        "entiendo"       "que"            "como"
@@ -149,7 +150,7 @@ tabla
 El resultado de este comando debería parecerse a este en tu consola (una *tibble* es una variedad específica de marco de datos creado bajo el enfoque [Tidy Data](https://en.wikipedia.org/wiki/Tidy_data)):
 
 ```
->   # A tibble: 70 x 2
+   # A tibble: 70 x 2
    palabra   recuento
    <chr>        <dbl>
  1 a               4.
@@ -174,6 +175,7 @@ arrange(tabla, desc(recuento))
 ```
 
 Y el resultado ahora será:
+
 ```{r}
 # A tibble: 70 x 2
    palabra recuento
@@ -205,6 +207,7 @@ oraciones
 ```
 
 Con el resultado:
+
 ```{r}
 > oraciones
 [[1]]
@@ -280,10 +283,10 @@ tabla <- data_frame(word = names(tabla), count = as.numeric(tabla))
 tabla <- arrange(tabla, desc(count))
 tabla
 ```
-```{r} Aquí optamos por nombrar a las columnas de la tabla en inglés, como "word" (palabra) y "count" (recuento), para facilitar su interoperabilidad con el conjunto de datos que introducimos más adelante con la función `inner_join` de más adelante. [N. de la T.]
-```
+[^9] 
 
 El resultado debería ser:
+
 ```{r}
 >#A tibble: 1,590 x 2
    word  count
@@ -301,7 +304,7 @@ El resultado debería ser:
 >#... with 1,580 more rows
 ```
 
-De nuevo, palabras extremamente comunes como "the", "to", "and" y "of" están a la cabeza de la tabla. Estos términos no son particularmente esclarecedores si queremos saber el tema del discurso. En realidad, queremos encontrar palabras que destaquen más en este texto que en un corpus externo amplio en inglés. Para lograr esto necesitamos un grupo de datos que proporcione estas frecuencias. Aquí está el conjunto de datos de Peter Norviq usando el *Google Web Trillion Word Corpus* (Corpus de un trillón de palabras web de Google), recogido de los datos recopilados a través del rastreo de sitios web más conocidos en inglés realizado por Google[^9]:
+De nuevo, palabras extremamente comunes como "the", "to", "and" y "of" están a la cabeza de la tabla. Estos términos no son particularmente esclarecedores si queremos saber el tema del discurso. En realidad, queremos encontrar palabras que destaquen más en este texto que en un corpus externo amplio en inglés. Para lograr esto necesitamos un grupo de datos que proporcione estas frecuencias. Aquí está el conjunto de datos de Peter Norviq usando el *Google Web Trillion Word Corpus* (Corpus de un trillón de palabras web de Google), recogido de los datos recopilados a través del rastreo de sitios web más conocidos en inglés realizado por Google[^10]:
 
 ```{r}
 palabras_frecuentes <- read_csv(sprintf("%s/%s", base_url, "word_frequency.csv"))
@@ -324,6 +327,7 @@ filter(tabla, frequency < 0.1)
 ```
 
 Esto da:
+
 ```{r}
 >#A tibble: 1,457 x 4
    word     count language frequency
@@ -348,6 +352,7 @@ print(filter(tabla, frequency < 0.002), n = 15)
 ```
 
 Esto ahora nos muestra el siguiente resultado:
+
 ```{r}
 >#A tibble: 463 x 4
    word        count language frequency
@@ -382,6 +387,7 @@ metadatos
 ```
 
 Aparecerán las primeras diez líneas del grupo de datos así:
+
 ```{r}
 >#A tibble: 236 x 4
    president          year party       sotu_type
@@ -518,7 +524,7 @@ longitud_oraciones[[i]] <- sapply(oraciones_palabras[[i]], length)
 }
 ```
 
-El resultado de `longitud_oraciones` puede ser visualizado sobre una línea temporal. Primero tenemos que resumir la longitud de todas las oraciones en un documento a un único número. La función `median`, que encuentra el percentil 50º de los datos ingresados, es una buena opción para resumirlos, puesto que no se verá demasiado afectada por el error de segmentación que haya podido crear una oración artificalmente larga[^10].
+El resultado de `longitud_oraciones` puede ser visualizado sobre una línea temporal. Primero tenemos que resumir la longitud de todas las oraciones en un documento a un único número. La función `median`, que encuentra el percentil 50º de los datos ingresados, es una buena opción para resumirlos, puesto que no se verá demasiado afectada por el error de segmentación que haya podido crear una oración artificalmente larga[^11].
 
 ```{r}
 media_longitud_oraciones <- sapply(longitud_oraciones, median)
