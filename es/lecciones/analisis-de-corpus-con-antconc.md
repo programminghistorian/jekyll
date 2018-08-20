@@ -198,7 +198,7 @@ Realiza el proceso anterior con los resultados de las dos búsquedas y compara l
 
 #### Operador | ("o")
 
-**Tarea:** busca _she|he_.
+**Tarea:** busca _she\|he_.
 
 Ahora, busca las dos palabras anteriores por separado: ¿cuántas veces aparece 'she' en comparación con 'he'?
 
