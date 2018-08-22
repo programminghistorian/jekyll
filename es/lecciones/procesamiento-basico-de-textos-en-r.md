@@ -23,7 +23,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/172
 difficulty: 2
 activity: analyzing
 topics: [distant-reading]
-abstract: "Aprende a utilizar R para analizar patrones a nivel general (*high-level patterns*) en textos, para aplicar métodos de estilometría a lo largo del tiempo y entre autores y para aprender metodologías de resumen con las que describir objetos de un corpus."
+abstract: "Aprende a utilizar R para analizar patrones a nivel general en textos, para aplicar métodos de estilometría a lo largo del tiempo y entre autores y para aprender metodologías de resumen con las que describir objetos de un corpus."
 ---
 {% include toc.html %}
 
@@ -86,6 +86,7 @@ palabras
 ```
 
 Esto produce el siguiente resultado:
+
 ```
 > [[1]]
   [1] "también"        "entiendo"       "que"            "como"
@@ -149,7 +150,7 @@ tabla
 El resultado de este comando debería parecerse a este en tu consola (una *tibble* es una variedad específica de marco de datos creado bajo el enfoque [Tidy Data](https://en.wikipedia.org/wiki/Tidy_data)):
 
 ```
->   # A tibble: 70 x 2
+   # A tibble: 70 x 2
    palabra   recuento
    <chr>        <dbl>
  1 a               4.
@@ -174,6 +175,7 @@ arrange(tabla, desc(recuento))
 ```
 
 Y el resultado ahora será:
+
 ```{r}
 # A tibble: 70 x 2
    palabra recuento
@@ -205,6 +207,7 @@ oraciones
 ```
 
 Con el resultado:
+
 ```{r}
 > oraciones
 [[1]]
@@ -280,10 +283,10 @@ tabla <- data_frame(word = names(tabla), count = as.numeric(tabla))
 tabla <- arrange(tabla, desc(count))
 tabla
 ```
-```{r} Aquí optamos por nombrar a las columnas de la tabla en inglés, como "word" (palabra) y "count" (recuento), para facilitar su interoperabilidad con el conjunto de datos que introducimos más adelante con la función `inner_join` de más adelante. [N. de la T.]
-```
+[^9] 
 
 El resultado debería ser:
+
 ```{r}
 >#A tibble: 1,590 x 2
    word  count
@@ -301,7 +304,7 @@ El resultado debería ser:
 >#... with 1,580 more rows
 ```
 
-De nuevo, palabras extremamente comunes como "the", "to", "and" y "of" están a la cabeza de la tabla. Estos términos no son particularmente esclarecedores si queremos saber el tema del discurso. En realidad, queremos encontrar palabras que destaquen más en este texto que en un corpus externo amplio en inglés. Para lograr esto necesitamos un grupo de datos que proporcione estas frecuencias. Aquí está el conjunto de datos de Peter Norviq usando el *Google Web Trillion Word Corpus* (Corpus de un trillón de palabras web de Google), recogido de los datos recopilados a través del rastreo de sitios web más conocidos en inglés realizado por Google[^9]:
+De nuevo, palabras extremamente comunes como "the", "to", "and" y "of" están a la cabeza de la tabla. Estos términos no son particularmente esclarecedores si queremos saber el tema del discurso. En realidad, queremos encontrar palabras que destaquen más en este texto que en un corpus externo amplio en inglés. Para lograr esto necesitamos un grupo de datos que proporcione estas frecuencias. Aquí está el conjunto de datos de Peter Norviq usando el *Google Web Trillion Word Corpus* (Corpus de un trillón de palabras web de Google), recogido de los datos recopilados a través del rastreo de sitios web más conocidos en inglés realizado por Google[^10]:
 
 ```{r}
 palabras_frecuentes <- read_csv(sprintf("%s/%s", base_url, "word_frequency.csv"))
@@ -324,6 +327,7 @@ filter(tabla, frequency < 0.1)
 ```
 
 Esto da:
+
 ```{r}
 >#A tibble: 1,457 x 4
    word     count language frequency
@@ -348,6 +352,7 @@ print(filter(tabla, frequency < 0.002), n = 15)
 ```
 
 Esto ahora nos muestra el siguiente resultado:
+
 ```{r}
 >#A tibble: 463 x 4
    word        count language frequency
@@ -382,6 +387,7 @@ metadatos
 ```
 
 Aparecerán las primeras diez líneas del grupo de datos así:
+
 ```{r}
 >#A tibble: 236 x 4
    president          year party       sotu_type
@@ -518,7 +524,7 @@ longitud_oraciones[[i]] <- sapply(oraciones_palabras[[i]], length)
 }
 ```
 
-El resultado de `longitud_oraciones` puede ser visualizado sobre una línea temporal. Primero tenemos que resumir la longitud de todas las oraciones en un documento a un único número. La función `median`, que encuentra el percentil 50º de los datos ingresados, es una buena opción para resumirlos, puesto que no se verá demasiado afectada por el error de segmentación que haya podido crear una oración artificalmente larga[^10].
+El resultado de `longitud_oraciones` puede ser visualizado sobre una línea temporal. Primero tenemos que resumir la longitud de todas las oraciones en un documento a un único número. La función `median`, que encuentra el percentil 50º de los datos ingresados, es una buena opción para resumirlos, puesto que no se verá demasiado afectada por el error de segmentación que haya podido crear una oración artificalmente larga[^11].
 
 ```{r}
 media_longitud_oraciones <- sapply(longitud_oraciones, median)
@@ -604,26 +610,27 @@ Como ya habíamos señalado, estos resúmenes temáticos no reemplazan de ningun
 
 En este tutorial breve hemos explorado algunas formas básicas para analizar datos textuales con el lenguaje de programación R. Existen varias direcciones que puedes tomar para adentrarte más en las nuevas técnicas del análisis de texto. Estos son tres ejemplos particularmente interesantes:
 
-* procesar un flujo completo de anotación de procesamiento de lenguajes naturales (NLP) en un texto para extraer características como nombres de entidades, categorías gramaticales y relaciones de dependencia. Estos están disponibles en varios paquetes de R, incluyendo **cleanNLP**, y para varios idiomas[^11].
-* ajustar modelos temáticos (*topic models*) para detectar discursos particulares en el corpus usando paquetes como **mallet**[^12] y **topicmodels**[^13].
-* aplicar técnicas de reducción dimensional para crear gráficos de tendencias estilísticas a lo largo del tiempo o entre múltiples autores. Por ejemplo, el paquete **tsne**[^14] realiza una forma poderosa de reducción dimensional particularmente apta para gráficos detallados.
+* procesar un flujo completo de anotación de procesamiento de lenguajes naturales (NLP) en un texto para extraer características como nombres de entidades, categorías gramaticales y relaciones de dependencia. Estos están disponibles en varios paquetes de R, incluyendo **cleanNLP**, y para varios idiomas[^12].
+* ajustar modelos temáticos (*topic models*) para detectar discursos particulares en el corpus usando paquetes como **mallet**[^13] y **topicmodels**[^14].
+* aplicar técnicas de reducción dimensional para crear gráficos de tendencias estilísticas a lo largo del tiempo o entre múltiples autores. Por ejemplo, el paquete **tsne**[^15] realiza una forma poderosa de reducción dimensional particularmente apta para gráficos detallados.
 
-Existen muchos tutoriales genéricos para estos tres ejemplos, además de documentación detallada de los paquetes[^15]. Esperamos ofrecer tutoriales enfocados en aplicaciones históricas en particular en el futuro.
+Existen muchos tutoriales genéricos para estos tres ejemplos, además de documentación detallada de los paquetes[^16]. Esperamos ofrecer tutoriales enfocados en aplicaciones históricas en particular en el futuro.
 
 # Notas
 
 [^1]: Nuestro corpus contiene 236 discursos del Estado de la Unión. Dependiendo de lo que se cuente, este número puede ser ligeramente más alto o más bajo.
-[^2]: Taryn Dewar, “Datos tabulares en R”, Programming Historian. Trad. de Jennifer Isasi de 10 de abril de 2018.
+[^2]: Dewar, Taryn. "Datos tabulares en R", traducido por Jennifer Isasi, *The Programming Historian en español* 3 (2018), https://programminghistorian.org/es/lecciones/datos-tabulares-en-r.
 [^3]: Hadley Wickham. “tidyverse: Easily Install and Load ‘Tidyverse’ Packages”. R Package, Version 1.1.1. https://cran.r-project.org/web/packages/tidyverse/index.html
 [^4]: Lincoln Mullen and Dmitriy Selivanov. “tokenizers: A Consistent Interface to Tokenize Natural Language Text Convert”. R Package, Version 0.1.4. https://cran.r-project.org/web/packages/tokenizers/index.html
 [^5]: Ten en cuenta que los nombres de las funciones como `library` o `install.packages` siempre estarán en inglés. No obstante, se proporciona una traducción de su significado para facilitar la comprensión y se traducen el nombre de las variables.[N. de la T.]
 [^6]: Traducción publicada en CNN en español (12 de enero de 2016) http://cnnespanol.cnn.com/2016/01/12/discurso-completo-de-obama-sobre-el-estado-de-la-union/ [N. de la T.]
 [^7]: Todos los discursos presidenciales del Estado de la Unión fueron descargados de The American Presidency Project at the University of California Santa Barbara (Accedido el 11 de noviembre de 2016) http://www.presidency.ucsb.edu/sou.php
 [^8]: Aquí volvemos a la versión del discurso en su original (inglés) por motivos de continuación del análisis y, en particular, el listado de las palabras más frecuentes usadas en inglés. Seguimos traduciendo los nombres de las variables y de las funciones para facilitar la comprensión en español.[N. de la T.]
-[^9]: Peter Norvig. “Google Web Trillion Word Corpus”. (Accedido el 11 de noviembre de 2016) http://norvig.com/ngrams/.
-[^10]: Esto ocurre en algunos discursos escritos del Estado de la Unión, donde una lista con puntos de enumeración es segmentada como una única oración larga.
-[^11]: Taylor Arnold. “cleanNLP: A Tidy Data Model for Natural Language Processing”. R Package, Version 0.24. https://cran.r-project.org/web/packages/cleanNLP/index.html
-[^12]: David Mimno. “mallet: A wrapper around the Java machine learning tool MALLET”. R Package, Version 1.0. https://cran.r-project.org/web/packages/mallet/index.html
-[^13]: Bettina Grün and Kurt Hornik. “https://cran.r-project.org/web/packages/topicmodels/index.html”. R Package, Version 0.2-4. https://cran.r-project.org/web/packages/topicmodels/index.html
-[^14]: Ver el artículo t-distributed stochastic neighbor embedding (en inglés) en Wikipedia. https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding [N. de la T.]
-[^15]: Ver, por ejemplo, el libro de los autores: Taylor Arnold and Lauren Tilton. *Humanities Data in R: Exploring Networks, Geospatial Data, Images, and Text.* Springer, 2015.
+[^9]: Aquí optamos por nombrar a las columnas de la tabla en inglés, como "word" (palabra) y "count" (recuento), para facilitar su interoperabilidad con el conjunto de datos que introducimos más adelante con la función `inner_join` de más adelante. [N. de la T.]
+[^10]: Peter Norvig. “Google Web Trillion Word Corpus”. (Accedido el 11 de noviembre de 2016) http://norvig.com/ngrams/.
+[^11]: Esto ocurre en algunos discursos escritos del Estado de la Unión, donde una lista con puntos de enumeración es segmentada como una única oración larga.
+[^12]: Taylor Arnold. “cleanNLP: A Tidy Data Model for Natural Language Processing”. R Package, Version 0.24. https://cran.r-project.org/web/packages/cleanNLP/index.html
+[^13]: David Mimno. “mallet: A wrapper around the Java machine learning tool MALLET”. R Package, Version 1.0. https://cran.r-project.org/web/packages/mallet/index.html
+[^14]: Bettina Grün and Kurt Hornik. “https://cran.r-project.org/web/packages/topicmodels/index.html”. R Package, Version 0.2-4. https://cran.r-project.org/web/packages/topicmodels/index.html
+[^15]: Ver el artículo t-distributed stochastic neighbor embedding (en inglés) en Wikipedia. https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding [N. de la T.]
+[^16]: Ver, por ejemplo, el libro de los autores: Taylor Arnold and Lauren Tilton. *Humanities Data in R: Exploring Networks, Geospatial Data, Images, and Text.* Springer, 2015.
