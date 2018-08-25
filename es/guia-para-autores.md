@@ -43,6 +43,8 @@ Puesto que nuestro sitio web se publica mediante [GitHub Pages](https://pages.gi
 
 El editor de textos que elijas no es relevante pero, por favor, comienza tu traducción o tutorial en texto plano para evitar problemas más tarde. No dudes en contactar con algún miembro de nuestro [equipo](/es/equipo-de-proyecto) si tienes preguntas o dudas.
 
+Se pide a los autores que usen el [Manual de estilo de Chicago](https://es.wikipedia.org/wiki/Manual_de_estilo_de_Chicago) para el formateo de las notas al final.
+
 ## Identifica tu archivo
 
 Identifica tu traduccion o lección nueva siguiendo estas instrucciones:
