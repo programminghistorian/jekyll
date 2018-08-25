@@ -40,6 +40,10 @@ Because our site is hosted using [GitHub Pages](https://pages.github.com), **you
 
 The specific editor you choose is not important, but you should begin writing your lesson in plain text to avoid frustrations later on. For instance, stylized quotation marks automatically inserted by MS Word create formatting problems that can be hard to debug.
 
+### Endnote format
+
+Authors are asked to use the [Chicago Manual of Style](https://en.wikipedia.org/wiki/The_Chicago_Manual_of_Style) for endnote formatting.
+
 
 ### Choose a searchable name
 Name your new lesson file following these guidelines:
