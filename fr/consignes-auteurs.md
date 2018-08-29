@@ -36,8 +36,7 @@ Une fois que votre proposition est acceptée, un(e) éditeur(trice) va créer un
 
 -----
 
-## Writing a New Lesson
-Écrire une nouvelle leçon
+## Écrire une nouvelle leçon
 Le *Programming Historian en français* est hébergé par [GitHub](http://github.com), qui est plateforme gratuite permettant de sauvegarder des fichiers et de suivre l'historique de leurs révisions. La plupart du temps, Github est utilisé pour stocker des fichiers de code de programmation, mais c'est aussi une excellente solution pour maintenir une ressource en libre accès comme le *Programming Historian en français*. Plus spécifiquement, notre site utilise [GitHub Pages] pour traiter un ensemble de fichiers de texte brut et les transformer en un site internet élégant.
 
 Cela signifie que nous demandons aux auteur(e)s de respecter les consignes détaillées ci-dessous pour écrire leurs leçons. Celles-ci sont non seulement stylistiques, mais aussi nécessaires pour assurer le bon fonctionnement de notre plateforme de publication. Si nos exigences vous semble difficiles à respecter, **nous sommes là pour vous aider à vous familiariser avec le processus de publication, et à apprendre à utiliser, au fur et à mesure de vos avancées, les technologies nécessaires**.
@@ -49,8 +48,8 @@ Parce que notre site est hébergé avec [GitHub Pages](https://pages.github.com)
 
 Si le choix de l'éditeur n'a pas vraiment d'importance, vous devriez toutefois écrire dès le départ votre leçon en texte brut pour éviter des frustrations dans le futur. Par exemple, les guillemets insérés automatiquement par Word crée des problèmes de formatage difficiles à débugger. 
 
-### Format des notes de bas de page
-Nous demandons aux auteur(e)s de bien vouloir utiliser le style [Chicago Manual of Style](https://fr.wikipedia.org/wiki/The_Chicago_Manual_of_Style) pour mettre en forme les notes de bas de page.
+### Mettez en forme les notes de bas de page
+Nous vous demandons de bien vouloir utiliser le style [Chicago Manual of Style](https://fr.wikipedia.org/wiki/The_Chicago_Manual_of_Style) pour mettre en forme les notes de bas de page.
 
 ### Choisissez un nom facile à trouver
 Appelez le fichier de votre nouvelle leçon en respectant les conseils suivants :
@@ -62,7 +61,7 @@ Appelez le fichier de votre nouvelle leçon en respectant les conseils suivants 
 -   L'extension du nom du fichier doit être `.md` (markdown).
 
 
-### AAjoutez des métadonnées
+### Ajoutez des métadonnées
 Notre plateforme de publication, [GitHub Pages], dépend d'en-têtes spéciales, qui doivent être insérées dans chaque fichier de leçon en texte brut. Ces en-têtes sont appelées blocs liminaires [YAML], et c'est grâce à elles que la leçon s'affiche correctement sur notre site internet. Ces blocs consistent en des champs (comme "titre" et "auteurs") appariés avec des valeurs (comme "Fouiller les données dans l'Internet Archive Collection" et "Caleb McDaniel"). Vous n'avez pas besoin de comprendre en quoi consiste YAML et comment cela fonctionne, mais **vous devez inclure un bloc YAML au début de votre leçon**.
 
 Pour créer le bloc YAML pour votre leçon, vous devez **copier et coller le texte suivant dans votre fichier texte**, et changer les métadonnées correspondantes. Il doit apparaître au tout début de votre fichier, et *doit être suivi d'une ligne vide*. Laissez vide le champ "reviewers" pour l'instant.
@@ -135,7 +134,7 @@ Bien qu'il y ait plusieurs manières de créer des en-têtes de section avec Mar
     ### Titre 3
     #### Titre 4
 
-Il apparaissent ainsi en ligne :
+Il apparaissent ainsi sur le site Internet :
 # Titre 1
 ## Titre 2
 ### Titre 3
