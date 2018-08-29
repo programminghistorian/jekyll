@@ -8,63 +8,59 @@ redirect_from:
 
 ---
 
-# We Appreciate Your Feedback
+# Vos commentaires sont les bienvenus
 
 <img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" />
 
-Run into code that doesn't work?
+Vous avez essayé d'utiliser des lignes de code qui ne fonctionnent pas ?
 
-Does a command or concept need a clearer explanation?
+Vous avez besoin d'explications plus claires pour comprendre une commande informatique ou un concept ?
 
-Find an awkward phrase that keeps tripping you up?
+Vous avez trouvé une coquille ou vous avez repéré une erreur de syntaxe ?
 
-Thank you for taking the time to report a problem or suggest a change. Your assistance is crucial for helping us maintain the best possible lessons!
+Merci de prendre le temps de signaler ce problème ou de proposer un changement. Votre aide est cruciale pour nous aider à continuer de proposer les meilleures leçons possibles !
 
 
-## Option 1: Email or Tweet
-Contact <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> at Simmons College or one of the other members of our [Project Team](project-team.html). You can also tweet [@ProgHist](https://twitter.com/proghist).
+## Option 1 : Envoyez-nous un mail ou un tweet
+Contactez <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> au Simmons College ou l'un des autres membres de notre [équipe projet](équipe-projet.html). Vous pouvez aussi envoyer un tweet [@ProgHist](https://twitter.com/proghist).
 
-## Option 2: Open an Issue on GitHub
-This is our preferred way of handling feedback since all our editors are able to see and respond to your issue.
+## Option 2 : Ouvrez une "issue" sur GitHub
+C'est le mode de contact que nous privilégions pour gérer les commentaires, parce qu'il permet à tous les éditeurs de prendre connaissance de votre "issue" et d'y répondre.
 
-First, [sign up for a free, personal GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account) if you don't already have one. Log in if you already have an account.
+D'abord, si vous n'en avez pas déjà un, [créez un compte gratuit et personnel sur GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account) Ou connectez-vous directement à votre compte si vous en avez déjà un.
 
-Then, go to the [issues page](https://github.com/programminghistorian/jekyll/issues?state=open) for our Repository.
+Ensuite, rendez-vous sur la [page rassemblant les issues](https://github.com/programminghistorian/jekyll/issues?state=open) pour notre dépôt Github.
 
-Glance at the open issues to see if the problem you have identified has already been reported. If it has, but you have additional information to share, leave a comment on that issue.
+Jetez un coup d'oeil aux "issues" pour voir si le problème que vous avez identifié n'a pas déjà été signalé. Si c'est le cas, mais que vous souhaitez partager des informations complémentaires, laissez un commentaire sur cette "issue".
 
-If your issue has not been reported, create a new issue with a descriptive title and as much information about the problem as you can give.
+Si votre "issue" n'a pas été signalé, créez une nouvelle "issue" en utilisant un titre clair, et fournissez le plus d"informations possibles sur le problème que vous avez identifié.
 
 <img src="https://cloud.githubusercontent.com/assets/1126864/3697100/52b37768-139e-11e4-816e-c3eee5516997.png" class="full-width rounded" />
 
-For more information about GitHub issues, read the GitHub Guide on [Mastering Issues](https://guides.github.com/features/issues/).
+Pour plus d'informations sur les "issues" GitHub, vous pouvez lire le guide GitHub [Mastering Issues](https://guides.github.com/features/issues/).
 
 
-## Option 3: Suggest a Particular Change
-To suggest or make minor changes to a lesson, first navigate to the [lessons directory](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons) and click on the relevant lesson.
+## Option 3 : Proposez un changement en particulier
+Pour suggérer ou faire des changements mineurs dans une leçon, rendez-vous d'abord dans le [répertoire des leçons](https://github.com/programminghistorian/jekyll/tree/gh-pages/lessons) et cliquez sur la leçon concernée.
 
-Next, click on the history button:
+Ensuite, faîtes apparaître l'historique de la leçon en cliquant sur le bouton "History" :
 
 <img src="https://cloud.githubusercontent.com/assets/1126864/4781623/36c1e29e-5cb2-11e4-9ed8-df952fbd4a0b.png" class="full-width rounded" />
 
-
-Now click on the most recent commit for the lesson:
+Maintenant cliquez sur le commit le plus récent pour la leçon :
 
 <img src="https://cloud.githubusercontent.com/assets/1126864/4781629/901b4330-5cb2-11e4-9bc9-d211daa5e987.png" class="full-width rounded" />
 
-Next, to comment on a line, hover over a line number, and a blue plus-sign will appear; clicking on it will open a comment box for that particular line. The line that needs fixing may be hidden; if so, click on the expand icon to show hidden lines.
+Ensuite, pour ajouter un commentaire sur une ligne, passez la souris sur le numéro de la ligne et un signe plus (+) de couleur bleue va apparaître ; en cliquant sur celui-ci, vous allez ouvrir une boîte de commentaire pour cette ligne en particulier. La ligne qui a besoin d'être corrigée peut être cachée ; dans ce cas, cliquez sur l'icône "développer", de façon à faire apparaître les lignes cachées.
 
 <img src="https://cloud.githubusercontent.com/assets/1126864/4781633/27b780b4-5cb3-11e4-81aa-0ed217b94a2f.png" class="full-width rounded" />
 
-Editors will be notified of these comments and can then incorporate your suggestions into the lesson. As much as we strive for openness, only _Programming Historian_ editors can make changes directly to the lessons at this time.
+Les éditeur(trice)s recevront les notifications concernant ces commentaires et pourront ensuite inclure vos suggestions dans les leçons. Bien que nous favorisions autant que possible l'ouverture du _Programming Historian en français_, seuls les éditeur(trice)s peuvent, pour le moment, effectuer directement des changements dans les leçons.
 
+## Option 4 : Faire une pull request
+Si vous pensez que vous savez comment corriger un problème dans une leçon, vous pouvez envisagez de réaliser un "fork" de notre dépôt GitHub et de faire une "pull request".
 
-## Option 4: Make a Pull Request
+Pour plus d'informations sur les pull requests, consultez le guide Github [Forking Projects](https://guides.github.com/activities/forking/) ou le tutoriel de Rich Jones [How to GitHub](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
 
-If you believe you know how to fix the problem in the lesson, you may wish to consider forking our repository and making a pull request.
-
-For more information on pull requests, see the GitHub Guide on [Forking Projects](https://guides.github.com/activities/forking/) or Rich Jones's tutorial on [How to GitHub](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/).
-
-## Further Resources on Git and GitHub
-
-Using Git and GitHub can be fairly simple once you get the hang of it.  If you are interested in learning more and contributing, the [GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/) website is a great place to start.
+## Ressources complémentaires sur Git et GitHub
+Utiliser Git et Github peut devenir relativement simple une fois que vous avez un peu de pratique. Si vous souhaitez en apprendre plus et contribuer, le site internet de [GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/) est un excellent endroit pour débuter.
