@@ -1,22 +1,21 @@
 ---
-title: Lesson Directory
+title: Répertoire des leçons
 layout: blank
-permalink: /en/lessons/
-redirect_from: /lessons/
+permalink: /fr/lecons/
+redirect_from: /lecons/
 ---
 
-# Lesson Index
-
-Our lessons are organized by typical phases of the research process, as well as general topics. Use the buttons to filter lessons by category. If you can’t find a skill, technology, or tool you're looking for, please [let us know]({{ site.baseurl }}/feedback)!
+# Index des leçons
+Nos leçons sont organisées en fonction des phases essentielles du processus de recherche, mais aussi en fonction de sujets généraux. Utilisez les boutons pour filtrer les leçons par catégories. Si vous ne pouvez pas trouver la compétence, la technologie ou l'outil que vous recherchez, [faites-le nous savoir]({{site.baseurl}}/feedback) s'il-vous-plaît!
 
 {% comment %}
-This creates a variable you can call to just pull lessons (which are the only pages with 'Lesson: true' in their front matter, courtesy of config.yml setting the scope of site URLs containing the 'lessons' path to follow 'lesson: true').
+Cela crée une variable que vous pouvez appeler pour juste chercher ("pull") des leçons (qui sont les seules pages comportant 'Lesson: true' dans leur en-tête, avec l'aimable autorisation de config.yml qui fixe le champ des URLs contenant le chemin vers les 'leçons' de façon à suivre 'lesson true').
 {% endcomment %}
 
 {% assign alllessons = site.pages | where: "english-lesson" , "true" %}
 
 {% comment %}
-Pulls the parts of the page that filter and sort lesson info from includes/lesson-index.html. Note that a separate file, includes/lesson_describe.html, creates the actual display of lesson info on the page, and includes/lesson-slug.html creates the appropriate lesson slug (used in the link to individual lesson pages, avatar links, and image paths.).
+Cherche ("pulls") les parties de la page qui filtre et présente les informations associées aux leçons depuis includes/lesson-index.html. Notez qu'un fichier séparé,  includes/lesson_describe.html, crée la présentation actuelle des informations associées aux leçons sur la page, et includes/lesson-slug.html crée le slug de leçon approprié (utilisé dans les liens vers les pages individuelles des leçons, les liens vers les avatars et les chemins vers les images.).
 {% endcomment %}
 
 {% include lesson-index.html %}
