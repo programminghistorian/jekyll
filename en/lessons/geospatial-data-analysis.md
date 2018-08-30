@@ -64,10 +64,10 @@ If you are looking nationally prior to 1990, the county-level data is often your
 
 
 ## Reading the Data
-We start by loading in the selected data. The data for this tutorial can be [dowloaded here](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/geospatial-data-analysis). Once downloaded place all the files in a folder labled data inside your working directory in R. We are going to create a variable and read in our data from our variable directory to it. Once run, the County_Aggregate_Data variable will contain the data and geographic information that we will analyze:
+We start by loading in the selected data. The data for this tutorial can be [dowloaded here](/assets/geospatial-data-analysis). Once downloaded place all the files in a folder labled data inside your working directory in R. We are going to create a variable and read in our data from our variable directory to it. Once run, the County_Aggregate_Data variable will contain the data and geographic information that we will analyze:
 ```
 County_Aggregate_Data <- st_read("./data/County1990/")
-```
+```Coordinate Reference System and Spatial Projection
 We should now have a data object loaded with attached data:
 
 ![DataLoaded.png](/images/geospatial-data-analysis/DataLoaded.png "Data Loaded in R")
@@ -156,7 +156,7 @@ Now we have a large dataframe called County_Aggregate_Data which has our count d
 ```
 religion <- read.csv("./data/Religion/Churches.csv", as.is=TRUE)
 ```
-Depending on the state of the data you may need to do some data transformations in order to merge it back with the DataFrame. For complex transformations, see tutorials in R on working with data such as [Data Wrangling and Management in R tutorial](https://programminghistorian.org/en/lessons/data_wrangling_and_management_in_R) [data transforms](http://r4ds.had.co.nz/transform.html). In essence, you need to have a common field in both datasets to merge upon. Often this is a geographic id for the county and state represented by GEOID. It could also be the unique FIPS Code given by the US Census. Below I am using state and county GEOID. In this example, we are converting one data frame's common fields to numeric so that they match the variable type of the other dataframe:
+Depending on the state of the data you may need to do some data transformations in order to merge it back with the DataFrame. For complex transformations, see tutorials in R on working with data such as [Data Wrangling and Management in R tutorial](/en/lessons/data_wrangling_and_management_in_R) [data transforms](http://r4ds.had.co.nz/transform.html). In essence, you need to have a common field in both datasets to merge upon. Often this is a geographic id for the county and state represented by GEOID. It could also be the unique FIPS Code given by the US Census. Below I am using state and county GEOID. In this example, we are converting one data frame's common fields to numeric so that they match the variable type of the other dataframe:
 ```
 religion$STATEFP <- religion$STATE
 religion$COUNTYFP <-religion$COUNTY
