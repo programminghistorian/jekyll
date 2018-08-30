@@ -145,7 +145,7 @@ points <- st_as_sf(geocoded_addresses, coords= c("Longitude","Latitude"),crs = 4
 ```
 Before we do the actual merge, we should ensure both objects are using the same coordinate systems otherwise the points and counties will not match up throwing everything off. To do that we transform our census data to our current system.
 
-```f
+```r
 County_Aggregate_Data <- st_transform(County_Aggregate_Data, st_crs(points))
 ```
 Then I like to glimpse at the distribution of the point data within the census. We do this for a couple of reasons: first to verify that the merge will function correctly; secondly, to begin to look at the data distribution. We should see a list of numbers where each list represents the points that intersected with a particular county. Many of the insights we gain will come from this distribution. If counties with particular characteristics show a higher distribution, that can provide insights into our membership.  We will be looking at this more in depth as we proceed, but we are beginning to see some information here:
