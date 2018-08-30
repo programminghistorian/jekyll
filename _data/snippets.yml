@@ -232,23 +232,23 @@ filtering-results:
 editor:
   en: edited by
   es: editado por
-  fr: suivi éditorial
+  fr: suivi éditorial par
 reviewers:
   en: reviewed by
   es: revisado por
-  fr: évaluation
+  fr: évaluation par
 translator:
   en: translated by
   es: traducido por
-  fr: traduction
+  fr: traduction par
 translation-reviewers:
   en: translation reviewed by
   es: traducción revisada por
-  fr: évaluation de traduction
+  fr: évaluation de traduction par
 translation-editors:
   en: translation edited by
   es: traducción editada por
-  fr: suivi de traduction
+  fr: suivi de traduction par
 published:
   en: published
   es: publicado
@@ -322,7 +322,7 @@ retired-definition:
   es: |
     Los editores de The Programming Historian hacen todo lo posible para mantener las lecciones a medida que surgen inevitablemente problemas menores. Sin embargo, desde la publicación, los cambios en las tecnologías subyacentes o los principios utilizados en esta lección han sido sustanciales, hasta el punto de que los editores han decidido no actualizarla más. Es posible que la lección siga siendo una herramienta de aprendizaje útil y una instantánea de las técnicas de la historia digital cuando se publicó, pero no podemos garantizar que todos los elementos sigan funcionando como estaba previsto.
   fr: |
-    Les rédacteurs et rédactrices du Programming Historian ne s'épargnent aucun effort pour maintenir les leçons en ligne car de petits problèmes peuvent survenir. Toutefois, depuis sa parution, soit les technologies soit les principes mobilisés par cette leçon ont subi de tels changements qu'il a été décidé de ne plus le mettre à jour. Cette leçon peut encore s'avérer un outil d'apprentissage utile ou encore offrir un aperçu des techniques utilisées en histoire numérique au moment de sa publication, néanmoins nous ne sommes pas en mesure de garantir que dans son ensemble elle reste aussi efficace que prévu.     
+    Les rédacteurs et rédactrices du Programming Historian font tout leur possible pour pour maintenir les leçons en ligne car de petits problèmes peuvent survenir. Toutefois, depuis sa parution, soit les technologies soit les principes mobilisés par cette leçon ont subi de tels changements qu'il a été décidé de ne plus le mettre à jour. Cette leçon peut encore s'avérer un outil d'apprentissage utile ou encore offrir un aperçu des techniques utilisées en histoire numérique au moment de sa publication, néanmoins nous ne sommes pas en mesure de garantir que dans son ensemble elle reste aussi efficace que prévu.     
 
 retirement-reason:
   en: Why was this lesson retired?
