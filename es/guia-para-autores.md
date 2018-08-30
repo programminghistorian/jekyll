@@ -80,9 +80,9 @@ Para añadir un bloque de metadatos YAML en una nueva lección, simplemente **co
 	abstract: "[Resumen]"
 	---
 	
-A continuación, añade el título de la lección y tu nombre en los campos `title` y `authors`. Este bloque debería aparecer al principio de cada archivo **seguido de una línea en blanco**. El editor de tu lección añadirá los restantes metadatos.
+A continuación, añade el título de la lección y tu nombre en los campos `title` y `authors`. Este bloque debería aparecer al principio de cada archivo **seguido de una línea en blanco**. El/la editor/a de tu lección añadirá los restantes metadatos.
 
-En caso de que envíes una traducción, debes mantener el bloque YAML de la lección original (con la fecha de publicación, autor, revisores etc.); a continuación, añade el título de tu traducción y tu nombre en los campos `title` y `translator` respectivamente; el editor asignado se encargará de completar los metadatos una vez finalice el proceso de revisión:
+En caso de que envíes una traducción, debes mantener el bloque YAML de la lección original (con la fecha de publicación, autor/a, revisores, etc.); a continuación, añade el título de tu traducción y tu nombre en los campos `title` y `translator` respectivamente; el/la editor/a asignado se encargará de completar los metadatos una vez finalice el proceso de revisión:
 
     	---
 	title: |
