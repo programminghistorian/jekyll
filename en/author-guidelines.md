@@ -153,29 +153,6 @@ This is some more text.[^2]
 [^1] Properly formatted citation using Chicago Manual of Style
 [^2] Properly formatted citation using Chicago Manual of Style
 ```
-
-### Write Sustainably
-PH strives to publish lessons that will be of use to our readers for the foreseeable future. Authors should consult our [lesson retirement policy]({{site.baseurl}}/lesson-retirement-policy), which describes how the _Programming Historian_ editorial team manages lessons that have become out-of-date. To aid in creating sustainable lessons, we ask that you keep certain writing guidelines in mind as you create your lesson:
-
-- Instead of focusing on software specifics, keep your lesson more geared towards methodologies and tool generalities.
-- If your lesson can leverage existing software documentation, consider directing your readers to this documentation rather than repeating it in the lesson. Instead of linking directly to a software company's resources (which often change), you can provide general guidance on how to find the documentation.
-- Limit the use of software version-specific images, unless required to follow the lesson.
-- Check any external links to ensure they are live and up-to-date.
-- Data sources for lessons should be hosted with the _Programming Historian_.
-
-
-### Write For a Global Audience
-
-Programming Historian readers live all around the world, and operate in a range of cultural contexts. To help reach that global audience, we have been publishing in more than one language since 2017, and aim to translate all tutorials. **While we recognise that not all methods or tools are fully internationally accessible**, authors can and should take steps to write their lesson in a way that is accessible to as many people as possible. **Please consider the following when writing your tutorial**:
-
-- When choosing your methods or tools, try to make choices with multi-lingual readers in mind. This is particularly important when working on textual analysis methods, or where users may reasonably want to have support for different character sets (eg, accented characters, non-Latin, etc).
-- When choosing primary sources, images, producing figures, or taking screen shots, consider how they will present themselves to a global audience.
-- When writing, avoid jokes, cultural references, puns, plays on words, idiomatic expressions, sarcasm, emojis, or language that is more difficult than it needs to be. Mentions of persons, organisations, or historical details should always come with contextual information. It may help to assume your reader does not live in your country or speak your language.
-- In code examples or metadata, use internationally recognised standard formats for dates and times ([ISO 8601:2004](https://www.iso.org/standard/40874.html)). In free text, be aware of cultural differences related to the representation of dates and times which might cause confusion.
-- Where possible, choose methods and tools that have multi-lingual documentation. If this is not practical, it would be great if you could add some multi-lingual references at the end of your tutorial.
-
-Contact your editor if you require guidance on any of these matters. Tutorials that are unable to meet these guidelines may not be translated, but are still welcome for consideration for monolingual publication.
-
 ### Use informative section headings
 We strive to make our lessons easy to follow by using section headings consistently throughout our lessons. As you compose your lesson, section headings will help you visualize how well you've structured your lesson. Avoid long sections of text with no headings; these become very difficult to follow.
 
@@ -260,6 +237,28 @@ offset in the finished version and will look like this:
 ``` python
 print 'hello world'
 ```
+
+### Write Sustainably
+PH strives to publish lessons that will be of use to our readers for the foreseeable future. Authors should consult our [lesson retirement policy]({{site.baseurl}}/lesson-retirement-policy), which describes how the _Programming Historian_ editorial team manages lessons that have become out-of-date. To aid in creating sustainable lessons, we ask that you keep certain writing guidelines in mind as you create your lesson:
+
+- Instead of focusing on software specifics, keep your lesson more geared towards methodologies and tool generalities.
+- If your lesson can leverage existing software documentation, consider directing your readers to this documentation rather than repeating it in the lesson. Instead of linking directly to a software company's resources (which often change), you can provide general guidance on how to find the documentation.
+- Limit the use of software version-specific images, unless required to follow the lesson.
+- Check any external links to ensure they are live and up-to-date.
+- Data sources for lessons should be hosted with the _Programming Historian_.
+
+
+### Write For a Global Audience
+
+Programming Historian readers live all around the world, and operate in a range of cultural contexts. To help reach that global audience, we have been publishing in more than one language since 2017, and aim to translate all tutorials. **While we recognise that not all methods or tools are fully internationally accessible**, authors can and should take steps to write their lesson in a way that is accessible to as many people as possible. **Please consider the following when writing your tutorial**:
+
+- When choosing your methods or tools, try to make choices with multi-lingual readers in mind. This is particularly important when working on textual analysis methods, or where users may reasonably want to have support for different character sets (eg, accented characters, non-Latin, etc).
+- When choosing primary sources, images, producing figures, or taking screen shots, consider how they will present themselves to a global audience.
+- When writing, avoid jokes, cultural references, puns, plays on words, idiomatic expressions, sarcasm, emojis, or language that is more difficult than it needs to be. Mentions of persons, organisations, or historical details should always come with contextual information. It may help to assume your reader does not live in your country or speak your language.
+- In code examples or metadata, use internationally recognised standard formats for dates and times ([ISO 8601:2004](https://www.iso.org/standard/40874.html)). In free text, be aware of cultural differences related to the representation of dates and times which might cause confusion.
+- Where possible, choose methods and tools that have multi-lingual documentation. If this is not practical, it would be great if you could add some multi-lingual references at the end of your tutorial.
+
+Contact your editor if you require guidance on any of these matters. Tutorials that are unable to meet these guidelines may not be translated, but are still welcome for consideration for monolingual publication.
 
 -----
 
