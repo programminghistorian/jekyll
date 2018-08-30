@@ -142,12 +142,6 @@ abstract: [LEAVE BLANK]
 | Row 2, column 1 | Row 2, column 2 | Row 2, column 3|
 | Row 3, column 1 | Row 3, column 2 | Row 3, column 3|
 
-### A Code Block:
-
-```
-Code block
-```
-
 ### An End Note:
 
 This is some text.[^1] 
@@ -253,24 +247,6 @@ When the Markdown is rendered by our system, this line will automatically produc
 <div class="alert alert-warning">
   Note that when figure tags are added this way, the image will not show up in the preview on GitHub or in other Markdown preview programs.
 </div>
-
-
-### Endnotes
-To add endnotes to your text, first add an endnote marker in the body of the text, like this:
-
-    This is some text.[^1] Other text.[^endnote]
-
-As you can see, the marker text is wrapped in square brackets and can be made up of numbers
-or letters, as long as it begins with the caret (`^`) symbol.
-
-Next you'll need to specify the text for that endnote, ideally at the bottom of your text file. To define the endnote, you'll reproduce the marker syntax, add a colon, and then type your endnote:
-
-    [^1]: Some *crazy* endnote definition.
-
-    [^endnote]: Look, Ma, I made an endnote!
-
-For more details about how this syntax works, see the [extended instructions](http://kramdown.gettalong.org/syntax.html#footnotes)
-for the footnote feature.
 
 
 ### Code Blocks
