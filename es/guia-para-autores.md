@@ -59,59 +59,57 @@ Identifica tu traduccion o lección nueva siguiendo estas instrucciones:
 
 Nuestra plataforma de publicación, [GitHub Pages], depende de los encabezados en forma de bloque en los archivos de texto plano; estos bloques de información siguen un protocolo [YAML] que hace posible que las lecciones se visualicen en el navegador de manera correcta. Los bloques de metadatos consisten en una serie de campos (como "título" o "autores") y sus valores asociados (como "Data Mining the Internet Archive Collection" o "Caleb McDaniel"). Para contribuir no necesitas entender qué es YAML o cómo funciona, pero sí **debes incluir un bloque YAML al principio de la lección**.
 
-Para añadir un bloque de metadatos YAML en una nueva lección, simplemente **copia y pega al inicio de tu archivo el texto situado más abajo** y cambia el valor de los campos. Este bloque debería aparecer al principio de cada archivo **seguido de una línea en blanco**. Los revisores añadirán la línea en blanco por ti.
+Para añadir un bloque de metadatos YAML en una nueva lección, simplemente **copia y pega al inicio de tu archivo el siguiente fragmento**: 
 
 	---
 	title: |
-   	 Uso de SPARQL para acceder a datos abiertos enlazados
+   	 	[Título de la lección]	
 	authors:
-	- Matthew Lincoln
-	date: 2015-11-24
-	translation_date: 2017-05-20
+	- [Nombre del autor 1]
+	- [Nombre del autor 2]
+	date: [YYYY-MM-DD]
 	editors:
-	- Fred Gibbs
+	- [Nombre del editor]
 	reviewers:
-	- Patrick Murray-John
-	- Jason Heppler
-	- Will Hanley
-	- Fred Gibb
+	- [Nombre del revisor 1]
+	- [Nombre del revisor 2]
 	layout: lesson
-	redirect_from: /es/lessons/graph-databases-and-SPARQL
-	difficulty: 2
-	activity: acquiring
-	topics: [lod]
-	abstract: "Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos y cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL."
+	difficulty: [Número]
+	activity: [Actividad]
+	topics: [Tema]
+	abstract: "[Resumen]"
 	---
+	
+A continuación, añade el título de la lección y tu nombre en los campos `title` y `authors`. Este bloque debería aparecer al principio de cada archivo **seguido de una línea en blanco**. El editor de tu lección añadirá los restantes metadatos.
 
-En caso de que envíes una traducción, debes mantener el bloque YAML de la lección original y añadir tu nombre en el campo `translator` e información sobre el editor, los revisores y fecha de la traducción. De tal forma, el ejemplo anterior quedará de la siguiente manera:
+En caso de que envíes una traducción, debes mantener el bloque YAML de la lección original (con la fecha de publicación, autor, revisores etc.); a continuación, añade el título de tu traducción y tu nombre en los campos `title` y `translator` respectivamente; el editor asignado se encargará de completar los metadatos una vez finalice el proceso de revisión:
 
     	---
 	title: |
-	    Uso de SPARQL para acceder a datos abiertos enlazados
+		[Título de la lección]		
 	authors:
-	- Matthew Lincoln
-	date: 2015-11-24
-	translation_date: 2017-05-20
+	- [Nombre del autor 1]
+	- [Nombre del autor 2]
+	date: [Fecha original]
+	translation_date: [Fecha traducción] 
 	editors:
-	- Fred Gibbs
+	- [Nombre del editor original]
 	reviewers:
-	- Patrick Murray-John
-	- Jason Heppler
-	- Will Hanley
-	- Fred Gibbs
+	- [Nombre del revisor original 1]
+	- [Nombre del revisor original 2]
 	translator:
-	- Nuria Rodríguez Ortega
+	- [Nombre del traductor]
 	translation-editor:
-	- Antonio Rojas Castro
+	- [Nombre del editor de la traducción]
 	translation-reviewer:
-	- Antonio Rojas Castro
-	- Juan Antonio Pastor Sánchez
+	- [Nombre del revisor de la traducción 1]
+	- [Nombre del revisor de la traducción 2]
 	layout: lesson
-	redirect_from: /es/lessons/graph-databases-and-SPARQL
-	difficulty: 2
-	activity: acquiring
-	topics: [lod]
-	abstract: "Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos y 	cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL."
+	original: [slug del original]
+	difficulty: [mantener original]
+	activity: [mantener original]
+	topics: [mantener original]
+	abstract: "[Traducción del resumen del original]"
 	---
 
 ## Notas importantes acerca de YAML
