@@ -261,13 +261,6 @@ offset in the finished version and will look like this:
 print 'hello world'
 ```
 
-
-### Emphasis Tagging
-Try to use back-ticks (`` ` `` ) for reserved code words (as in `for`
-loop) and file names (e.g., `obo.py`). All other emphasis is done with
-paired asterisks (`*`) (as in `*client*`, `*protocol*`, `*The Old Bailey
-Online*`).
-
 -----
 
 ## Submitting a New Lesson
