@@ -70,7 +70,7 @@ County_Aggregate_Data <- st_read("./data/County1990/")
 ```
 We should now have a data object loaded with attached data:
 
-![DataLoaded.png](../images/geospatial-data-analysis/DataLoaded.png "Data Loaded in R")
+![DataLoaded.png](/images/geospatial-data-analysis/DataLoaded.png "Data Loaded in R")
 
 If you are only interested in looking at particular states, I recommend filtering the results to speed up processing and data analyisis. To accomplish this, use the following commands:
 ```
@@ -85,14 +85,14 @@ summary(County_Aggregate_Data)
 This will return a bunch of summary data but most importantly it is showing that I have data only for the states I am filtering on:
 
 
-![Data2.png](../images/geospatial-data-analysis/Data2.png "Data Loaded in R Two")
+![Data2.png](/images/geospatial-data-analysis/Data2.png "Data Loaded in R Two")
 
 Optionally, you can also plot the results to view a map of the data that you have downloaded. This could take some time, especially if you are not filtering the data. As above, this helps confirm that you are looking at the right geographic areas as only the filtered areas should be drawn. Below we will use R's basic graphing function to do this:
 ```
 plot(County_Aggregate_Data$geometry,axes=TRUE)
 ```
 
-![NCSC.png](../images/geospatial-data-analysis/NCSC.png "FIRST DATA PLOT")
+![NCSC.png](/images/geospatial-data-analysis/NCSC.png "FIRST DATA PLOT")
 
 ## Merging Census Data
 Currently, our County_Aggregate_Data variable has the necessary geographic boundries for our analysis(as the above plot highlighted), but not the demographic information that will allow us to assess characteristics of our membership list. Although the demographic data came along with the geographic data, it needs to be merged into our County_Aggregate_Data variable which is a SpatialDataFrame. The next step is to begin merging County_Aggregate_Data with NHGIS table data in the downloaded data directory.
@@ -114,7 +114,7 @@ If you have less than 2,500 addresses this can be handled in R using Google's ge
 Addresses <- data$Address
 Member_Coordinates <- geocode(addresses)
 ```
-In our example, we allready have a list of geographic coordinates. But we still need to merge it with our SpatialDataFrame(County_Aggregate_Data) so we can analyze it in relation to the census and geographic data we have downloaded. First, we either get the externally geocoded data or the newly geocoded data. Since our data has been geocoded, we will use the first command below to pull in that data.
+In our example, we already have a list of geographic coordinates. But we still need to merge it with our SpatialDataFrame(County_Aggregate_Data) so we can analyze it in relation to the census and geographic data we have downloaded. First, we either get the externally geocoded data or the newly geocoded data. Since our data has been geocoded, we will use the first command below to pull in that data.
 
 ```
 geocoded_addresses <- read.csv("./data/GeocodedAddresses.csv", as.is=TRUE)
@@ -156,7 +156,7 @@ Now we have a large dataframe called County_Aggregate_Data which has our count d
 ```
 religion <- read.csv("./data/Religion/Churches.csv", as.is=TRUE)
 ```
-Depending on the state of the data you may need to do some data transformations in order to merge it back with the DataFrame. For complex transformations, see tutorials in R on working with data such as [Data Wrangling and Management in R tutorial](http://programminghistorian.github.io/ph-submissions/lessons/data_wrangling_and_management_in_R) [data transforms](http://r4ds.had.co.nz/transform.html). In essence, you need to have a common field in both datasets to merge upon. Often this is a geographic id for the county and state represented by GEOID. It could also be the unique FIPS Code given by the US Census. Below I am using state and county GEOID. In this example, we are converting one data frame's common fields to numeric so that they match the variable type of the other dataframe:
+Depending on the state of the data you may need to do some data transformations in order to merge it back with the DataFrame. For complex transformations, see tutorials in R on working with data such as [Data Wrangling and Management in R tutorial](https://programminghistorian.org/en/lessons/data_wrangling_and_management_in_R) [data transforms](http://r4ds.had.co.nz/transform.html). In essence, you need to have a common field in both datasets to merge upon. Often this is a geographic id for the county and state represented by GEOID. It could also be the unique FIPS Code given by the US Census. Below I am using state and county GEOID. In this example, we are converting one data frame's common fields to numeric so that they match the variable type of the other dataframe:
 ```
 religion$STATEFP <- religion$STATE
 religion$COUNTYFP <-religion$COUNTY
@@ -187,7 +187,7 @@ Now we will create the map. TMAP allows for the quick creation of thematic maps 
 qtm(shp = County_Aggregate_Data, fill = "RelativeTotal",text="NHGISNAM",text.size="A57AA1980")
 ```
 
-![CH1.png](../images/geospatial-data-analysis/CH1.png "Cholopleth of Normalized Data")
+![CH1.png](/images/geospatial-data-analysis/CH1.png "Cholopleth of Normalized Data")
 
 
 Feel free to experiment with the choropleth. In particular, try switching out the text.size variable to see if you can discover patterns that might appear to be linked to membership. Can you detect any trends between choropleth colors and text size? The income variable would be another test that could be run to see if counties with larger representation are wealthier. These visualizations, of course, are also be useful as a means to present information.
@@ -221,7 +221,7 @@ plot(WhitePer10K,dataM$BD5AA1990)
 Below we see the results of the above code. We see what is described as a strong positive correlation, which is typical in the United States as there are strong correlations between race and income. As the percentage of white people increases, the per-capita income rises accordingly. The dots on plot represent the graphed points of these two values. We can measure that statistically, but we can also see it visually.
 
 
-![Plot.png](../images/geospatial-data-analysis/Plot.png "Scatterplot of White people to per-capita income")
+![Plot.png](/images/geospatial-data-analysis/Plot.png "Scatterplot of White people to per-capita income")
 
 We can see this more precisely by adding a line of best fit to the plot which represents an estimated values based on the data presented. I also added red lines representing the distance from this line known as residuals. In essence, this showing us that we see a correlation between these two variables and it can be modeled with some accuracy.
 ```
@@ -236,7 +236,7 @@ segments(y, x, y, pre, col="red")
 ```
 Here we see it:
 
-![Fit.png](../images/geospatial-data-analysis/Fit.png "Scatter Plot with Residuals")
+![Fit.png](/images/geospatial-data-analysis/Fit.png "Scatter Plot with Residuals")
 
 Below, let's set up a variable to try to take a look at some of the variables to look for possible correlations. Below we are going to create a variable that measures the distribution of denominational churches in a county, which will allow us measure if our membership is correlated with a particular denomination:
 ```
@@ -252,7 +252,7 @@ We did a regular plot of the data but it is better to account for the fact that 
 hist(dataM$CountMembers,breaks = 15)
 ```
 
-![NCSC.png](../images/geospatial-data-analysis/Bar.png "Distribution Plot with Histogram")
+![NCSC.png](/images/geospatial-data-analysis/Bar.png "Distribution Plot with Histogram")
 
 
 OK, there are a significant number of low values which is typical of this type of information and some counties that are much higher than others.[^4]
@@ -266,7 +266,7 @@ Through this process, we have gathered and transformed geospatial data into a us
 
 
 ## Other Models and Visualizations
-There are many other models and visualizations available that can bring insight but they also add some complexity which demand further statistical understandings. For example, You can also create more complex scatterplots that can provide further insights. [Plot.ly](https://plot.ly/r/) offers interactive scatter plots that can be customized and shared.[^8]. While statistical modeling usually focuses on a particular model's predictive insight, well-fit models also provide insight into the data they represent. In particular, the Poisson regression is frequently used to create [models of count data](http://www.theanalysisfactor.com/regression-models-for-count-data/) which is how population data is often represented.[Geographically Weighted Regressions](https://rstudio-pubs-static.s3.amazonaws.com/44975_0342ec49f925426fa16ebcdc28210118.html) also have particular advantages with this type of data. But assessing fit has some complexity. [Decision trees](hhttps://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/) could also be useful for historical data because they give an understandable graphical representation of the the leading factors that caused inclusion in a group or list. Principal component analysis, [correspondence analysis](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/lessons/correspondence-analysis-in-R.md) and other clustering methods can also be helpful, especially when there is limited knowledge or insight into the event being analyzed yet there is an abundance of data associated with the event. I recommend background reading or discussions with a data scientist or statistician when exploring some of these modeling options as understanding the configuration and parameters of the individual models is essential to ensuring the results are trustworthy and significant.
+There are many other models and visualizations available that can bring insight but they also add some complexity which demand further statistical understandings. For example, You can also create more complex scatterplots that can provide further insights. [Plot.ly](https://plot.ly/r/) offers interactive scatter plots that can be customized and shared.[^8]. While statistical modeling usually focuses on a particular model's predictive insight, well-fit models also provide insight into the data they represent. In particular, the Poisson regression is frequently used to create [models of count data](http://www.theanalysisfactor.com/regression-models-for-count-data/) which is how population data is often represented.[Geographically Weighted Regressions](https://rstudio-pubs-static.s3.amazonaws.com/44975_0342ec49f925426fa16ebcdc28210118.html) also have particular advantages with this type of data. But assessing fit has some complexity. [Decision trees](hhttps://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/) could also be useful for historical data because they give an understandable graphical representation of the the leading factors that caused inclusion in a group or list. Principal component analysis, [correspondence analysis](https://programminghistorian.org/en/lessons/correspondence-analysis-in-R) and other clustering methods can also be helpful, especially when there is limited knowledge or insight into the event being analyzed yet there is an abundance of data associated with the event. I recommend background reading or discussions with a data scientist or statistician when exploring some of these modeling options as understanding the configuration and parameters of the individual models is essential to ensuring the results are trustworthy and significant.
 
 
 
@@ -286,7 +286,7 @@ There are many other models and visualizations available that can bring insight 
 
 [^6] For details on ggmap and and integration with Google Maps or other maps services see the [ggmap overview](http://stat405.had.co.nz/ggmap.pdf). For another broader discussions on google map making that utilizes a few of the libraries in this tutorial see [R and Google Map Making](https://rpubs.com/nickbearman/r-google-map-making). For a discussion of the sf library and it relationship to sp see [Simple Features for R](https://cran.r-project.org/web/packages/sf/vignettes/sf1.html). While sp has been the library spatial analysis library of choice, it is being superseded by sf.
 
-[^7] We are setting Coordinate Reference System(CRS) to EPSG 4326 which is the most common mapping system used int the U.S. It is used by Google  which is the origins of our data. EPSG 3857 is also used by google. For more on CRS see [Intro to Coordinate Refrence Systems & Spatial Projections](http://www.datacarpentry.org/r-spatial-data-management-intro/R/intro-to-coordinate-reference-systems). Also see [coordinate systems reference in R](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/OverviewCoordinateReferenceSystems.pdf).
+[^7] We are setting Coordinate Reference System(CRS) to EPSG 4326 which is the most common mapping system used int the U.S. It is used by Google  which is the origins of our data. EPSG 3857 is also used by google. For more on CRS see [Coordinate Reference Systems & Spatial Projections](https://www.earthdatascience.org/courses/earth-analytics/spatial-data-r/intro-to-coordinate-reference-systems/). Also see [coordinate systems reference in R](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/OverviewCoordinateReferenceSystems.pdf).
 
 [^8] These plots are a bit more complex and requires an extra library, but they have some advantages. They work well with complex datasets because they have the ability to model more than two relationships by altering the color or size of the data points(we did this earlier on the choropleth by altering font size). Moreover, they are interactive which allows you to explore extra information about data points after the plot is created without wrecking the visual makeup of the plot. Here is an example that looks at the relationship between income and membership but also adds urban status to the visual using color. I am also adjusting point size based on population so I can take a look at more populated areas alongside the other data:
 
@@ -310,6 +310,6 @@ p <- plot_ly(
 p
 ```
 
-![Ply1.png](../images/geospatial-data-analysis/Ply1.png "Multi-deminsional scatterplot with Plot.ly")
+![Ply1.png](/images/geospatial-data-analysis/Ply1.png "Multi-deminsional scatterplot with Plot.ly")
 
 [^8] The variable A57AA1980 should be converted to a relative population variable so it is accounting for how rural a county is rather than how many people live in the county. This wlll be covered later but it should also take place here as well. It could be converted to a percentage via: County_Aggregate_Data$Percent_Rural = (cntyNCG$A57AA1980/cntyNCG$AV0AA1990).
