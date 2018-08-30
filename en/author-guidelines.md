@@ -40,22 +40,6 @@ Because our site is hosted using [GitHub Pages](https://pages.github.com), **you
 
 The specific editor you choose is not important, but you should begin writing your lesson in plain text to avoid frustrations later on. For instance, stylized quotation marks automatically inserted by MS Word create formatting problems that can be hard to debug.
 
-### Endnote format
-
-Authors are asked to use the [Chicago Manual of Style](https://en.wikipedia.org/wiki/The_Chicago_Manual_of_Style) for endnote formatting.
-
-
-### Choose a searchable name
-Name your new lesson file following these guidelines:
-
--   Make the filename all lowercase, and short but descriptive. This filename will
-    eventually become the [slug] for the lesson's URL when published. For example, the lesson titled "Getting Started with Markdown" has a slug of `getting-started-with-markdown` and a URL of `https://programminghistorian.org/en/lessons/getting-started-with-markdown`. Please see existing lessons for more concrete examples.
--   Your slug will be referenced later in these directions as LESSON-SLUG.
--    Think about how potential readers might search for something like your lesson. A keyword-rich slug is a good way to get search-engine traffic.
--   Do not put spaces or underscores in the filename; use hyphens instead.
--   The filename extension should be `.md` (markdown).
-
-
 
 ### Write in Markdown
 **All new lessons must be written in Markdown.** Markdown is a simple mark-up language that is best written in a text editor (as explained above, do not use a word processor like MS Word or Open Office). [GitHub Pages] are powered by [Jekyll](http://jekyllrb.com/), which automatically converts the Markdown files into the HTML pages that you can find here on the website. Even this page is written in Markdown, as you can see by inspecting [the raw text on GitHub].
@@ -153,6 +137,21 @@ This is some more text.[^2]
 [^1] Properly formatted citation using Chicago Manual of Style
 [^2] Properly formatted citation using Chicago Manual of Style
 ```
+
+### Choose a searchable name
+Name your new lesson file following these guidelines:
+
+-   Make the filename all lowercase, and short but descriptive. This filename will
+    eventually become the [slug] for the lesson's URL when published. For example, the lesson titled "Getting Started with Markdown" has a slug of `getting-started-with-markdown` and a URL of `https://programminghistorian.org/en/lessons/getting-started-with-markdown`. Please see existing lessons for more concrete examples.
+-   Your slug will be referenced later in these directions as LESSON-SLUG.
+-    Think about how potential readers might search for something like your lesson. A keyword-rich slug is a good way to get search-engine traffic.
+-   Do not put spaces or underscores in the filename; use hyphens instead.
+-   The filename extension should be `.md` (markdown).
+
+### Endnote format
+
+Authors are asked to use the [Chicago Manual of Style](https://en.wikipedia.org/wiki/The_Chicago_Manual_of_Style) for endnote formatting.
+
 ### Use informative section headings
 We strive to make our lessons easy to follow by using section headings consistently throughout our lessons. As you compose your lesson, section headings will help you visualize how well you've structured your lesson. Avoid long sections of text with no headings; these become very difficult to follow.
 
