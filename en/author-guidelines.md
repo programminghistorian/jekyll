@@ -56,33 +56,6 @@ Name your new lesson file following these guidelines:
 -   The filename extension should be `.md` (markdown).
 
 
-### Add metadata
-Our publication platform, [GitHub Pages], depends on special headers in each plain-text lesson file called [YAML] front-matter blocks in order to render that lesson correctly on our website. These blocks consist of fields (like "title" and "authors") paired with values (like "Data Mining the Internet Archive Collection" and "Caleb McDaniel"). You don't need to understand what YAML is or how it works, but **you do need to include a YAML block at the beginning of your lesson**.
-
-To create the YAML block for your lesson, you should **copy and paste the following text into your text file**, and changing the relevant metadata. This should appear at the very top of your lesson file, and *must be followed by a blank line*. Leave the "reviewers" field blank for now.
-
-    ---
-    title: |
-        Getting Started with Topic Models: A MALLET Primer
-    authors:
-    - Ian Milligan
-    - Shawn Graham
-    - Scott Weingart
-    date: 2014-03-03
-    reviewers:
-    layout: lesson
-    ---
-
-<div class="alert alert-danger">
-  <h4 class="alert heading">Important YAML Notes</h4>
-  <ul>
-    <li>Keep the \| in the title field as shown; indent the actual title with a tab on a blank line</li>
-    <li>Use the "list" format shown above for the authors field, even if there is only one author</li>
-    <li>Be sure there are no extraneous spaces in your header</li>
-    <li>The YAML block must be followed by a blank line after the final <code>---</code></li>
-  </ul>
-</div>
-
 
 ### Write in Markdown
 **All new lessons must be written in Markdown.** Markdown is a simple mark-up language that is best written in a text editor (as explained above, do not use a word processor like MS Word or Open Office). [GitHub Pages] are powered by [Jekyll](http://jekyllrb.com/), which automatically converts the Markdown files into the HTML pages that you can find here on the website. Even this page is written in Markdown, as you can see by inspecting [the raw text on GitHub].
@@ -92,6 +65,7 @@ For a gentle introduction to GitHub Markdown (especially with *Programming Histo
 <div class="alert alert-warning">
   Before continuing, be sure you understand how to use Markdown syntax to use basic formatting like headers, bold, italics, links, paragraphs, and lists.
 </div>
+
 
 To make this easier, we have provided a template that we ask you to use for all lessons:
 
