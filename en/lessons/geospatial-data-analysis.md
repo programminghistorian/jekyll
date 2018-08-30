@@ -70,7 +70,7 @@ County_Aggregate_Data <- st_read("./data/County1990/")
 ```
 We should now have a data object loaded with attached data:
 
-![DataLoaded.png](../images/geospatial-data-analysis/DataLoaded.png "Data Loaded in R")
+![DataLoaded.png](/images/geospatial-data-analysis/DataLoaded.png "Data Loaded in R")
 
 If you are only interested in looking at particular states, I recommend filtering the results to speed up processing and data analyisis. To accomplish this, use the following commands:
 ```
@@ -85,14 +85,14 @@ summary(County_Aggregate_Data)
 This will return a bunch of summary data but most importantly it is showing that I have data only for the states I am filtering on:
 
 
-![Data2.png](../images/geospatial-data-analysis/Data2.png "Data Loaded in R Two")
+![Data2.png](/images/geospatial-data-analysis/Data2.png "Data Loaded in R Two")
 
 Optionally, you can also plot the results to view a map of the data that you have downloaded. This could take some time, especially if you are not filtering the data. As above, this helps confirm that you are looking at the right geographic areas as only the filtered areas should be drawn. Below we will use R's basic graphing function to do this:
 ```
 plot(County_Aggregate_Data$geometry,axes=TRUE)
 ```
 
-![NCSC.png](../images/geospatial-data-analysis/NCSC.png "FIRST DATA PLOT")
+![NCSC.png](/images/geospatial-data-analysis/NCSC.png "FIRST DATA PLOT")
 
 ## Merging Census Data
 Currently, our County_Aggregate_Data variable has the necessary geographic boundries for our analysis(as the above plot highlighted), but not the demographic information that will allow us to assess characteristics of our membership list. Although the demographic data came along with the geographic data, it needs to be merged into our County_Aggregate_Data variable which is a SpatialDataFrame. The next step is to begin merging County_Aggregate_Data with NHGIS table data in the downloaded data directory.
@@ -114,7 +114,7 @@ If you have less than 2,500 addresses this can be handled in R using Google's ge
 Addresses <- data$Address
 Member_Coordinates <- geocode(addresses)
 ```
-In our example, we allready have a list of geographic coordinates. But we still need to merge it with our SpatialDataFrame(County_Aggregate_Data) so we can analyze it in relation to the census and geographic data we have downloaded. First, we either get the externally geocoded data or the newly geocoded data. Since our data has been geocoded, we will use the first command below to pull in that data.
+In our example, we already have a list of geographic coordinates. But we still need to merge it with our SpatialDataFrame(County_Aggregate_Data) so we can analyze it in relation to the census and geographic data we have downloaded. First, we either get the externally geocoded data or the newly geocoded data. Since our data has been geocoded, we will use the first command below to pull in that data.
 
 ```
 geocoded_addresses <- read.csv("./data/GeocodedAddresses.csv", as.is=TRUE)
@@ -187,7 +187,7 @@ Now we will create the map. TMAP allows for the quick creation of thematic maps 
 qtm(shp = County_Aggregate_Data, fill = "RelativeTotal",text="NHGISNAM",text.size="A57AA1980")
 ```
 
-![CH1.png](../images/geospatial-data-analysis/CH1.png "Cholopleth of Normalized Data")
+![CH1.png](/images/geospatial-data-analysis/CH1.png "Cholopleth of Normalized Data")
 
 
 Feel free to experiment with the choropleth. In particular, try switching out the text.size variable to see if you can discover patterns that might appear to be linked to membership. Can you detect any trends between choropleth colors and text size? The income variable would be another test that could be run to see if counties with larger representation are wealthier. These visualizations, of course, are also be useful as a means to present information.
@@ -236,7 +236,7 @@ segments(y, x, y, pre, col="red")
 ```
 Here we see it:
 
-![Fit.png](../images/geospatial-data-analysis/Fit.png "Scatter Plot with Residuals")
+![Fit.png](/images/geospatial-data-analysis/Fit.png "Scatter Plot with Residuals")
 
 Below, let's set up a variable to try to take a look at some of the variables to look for possible correlations. Below we are going to create a variable that measures the distribution of denominational churches in a county, which will allow us measure if our membership is correlated with a particular denomination:
 ```
@@ -252,7 +252,7 @@ We did a regular plot of the data but it is better to account for the fact that 
 hist(dataM$CountMembers,breaks = 15)
 ```
 
-![NCSC.png](../images/geospatial-data-analysis/Bar.png "Distribution Plot with Histogram")
+![NCSC.png](/images/geospatial-data-analysis/Bar.png "Distribution Plot with Histogram")
 
 
 OK, there are a significant number of low values which is typical of this type of information and some counties that are much higher than others.[^4]
@@ -310,6 +310,6 @@ p <- plot_ly(
 p
 ```
 
-![Ply1.png](../images/geospatial-data-analysis/Ply1.png "Multi-deminsional scatterplot with Plot.ly")
+![Ply1.png](/images/geospatial-data-analysis/Ply1.png "Multi-deminsional scatterplot with Plot.ly")
 
 [^8] The variable A57AA1980 should be converted to a relative population variable so it is accounting for how rural a county is rather than how many people live in the county. This wlll be covered later but it should also take place here as well. It could be converted to a percentage via: County_Aggregate_Data$Percent_Rural = (cntyNCG$A57AA1980/cntyNCG$AV0AA1990).
