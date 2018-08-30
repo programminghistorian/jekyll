@@ -26,7 +26,7 @@
   description:
     en: "You put a lot of effort into your research. Make sure that effort lasts by adopting sustainable strategies to your code, your data, and your research processes. A little bit of planning can save you a lot of time."
     es: "Pones mucho esfuerzo en tu investigación. Aprende a adoptar estrategias sostenibles para tu código, tus datos y tus procesos de investigación. Un poco de planificación puede ahorrarte mucho tiempo."
-    fr: "Vous vous investissez considérablement dans vos recherches. Pour les pérenniser, adoptez des stratégies de préservation de votre code, de vos données et de la procédure de votre recherche. Un peu de planification peut vous gagner beaucoup de temps."
+    fr: "Vous vous investissez considérablement dans vos recherches. Pour les pérenniser, adoptez des stratégies de préservation de votre code, de vos données et de vos procédures de votre recherche. Un peu de planification peut vous gagner beaucoup de temps."
 
 - type: data-manipulation
   displayname:
@@ -36,7 +36,7 @@
   description:
     en:: "Just like it sounds, learn how to use programming to change, move, clean, or count data. These are essential techniques for preparing data to be used with various tools."
     es: "Cambiar, mueve, limpia o cuenta tus datos. Con estas lecciones aprenderás a procesar tus datos con distintas herramientas."
-    fr: "Apprenez comment modifier, migrer, nettoyer ou calculer des données. Ces techniques sont essentielles pour préparer les données avant d'utiliser des outils variés."
+    fr: "Apprenez comment modifier, migrer, nettoyer ou compter des données. Ces techniques sont essentielles pour préparer les données en vue de les utiliser avec des outils variés."
 
 - type: distant-reading
   displayname:
@@ -76,7 +76,7 @@
   description:
       en: "Mapping can be an effective way to visualize and interpret historical data. These lessons introduce historical geographic information systems (GIS) using open source software."
       es: "El mapeado puede ser una manera efectiva de visualizar e interpretar tus datos históricos. Estas lecciones te ayudarán a utilizar Sistemas de Información Geográfica de acceso abierto."
-      fr: "La cartographie peut fournir un moyen efficace pour visualiser et interpréter les données hisotoriques. Ces leçons initient aux systèmes d'information géographique (SIG) utilisant du logiciel ouvert"
+      fr: "La cartographie peut fournir un moyen efficace pour visualiser et interpréter les données hisotoriques. Ces leçons initient aux systèmes d'information géographique (SIG) utilisant des logiciels ouverts."
 
 - type: network-analysis
   displayname:
