@@ -93,6 +93,99 @@ For a gentle introduction to GitHub Markdown (especially with *Programming Histo
   Before continuing, be sure you understand how to use Markdown syntax to use basic formatting like headers, bold, italics, links, paragraphs, and lists.
 </div>
 
+To make this easier, we have provided a template that we ask you to use for all lessons:
+
+```
+title: ["YOUR TITLE HERE"]
+collection: lessons
+layout: lesson
+slug: [LEAVE BLANK]
+date: [LEAVE BLANK]
+translation_date: [LEAVE BLANK]
+authors:
+- [FORENAME SURNAME 1]
+- [FORENAME SURNAME 2, etc]
+reviewers:
+- [LEAVE BLANK]
+editors:
+- [LEAVE BLANK]
+translator:
+- [FORENAME SURNAME 1]
+translation-editor:
+- [LEAVE BLANK]
+translation-reviewer:
+- [LEAVE BLANK]
+original: [LEAVE BLANK]
+review-ticket: [LEAVE BLANK]
+difficulty: [LEAVE BLANK]
+activity: [LEAVE BLANK]
+topics: [LEAVE BLANK]
+abstract: [LEAVE BLANK]
+---
+
+# Contents
+
+{% include toc.html %}
+
+# First level heading
+
+[CONTENT HERE. Please write formally, sustainably, and for a global audience.]
+
+## Second level heading - with some examples of formatting
+
+### Font Formatting:
+*italic text*
+**bold text**
+`reserved words or file names` (eg "for loop", or "myData.csv")
+
+### Links:
+[a link to *Programming Historian*](http://programminghistorian.org)
+
+### Images:
+{% include figure.html filename="IMAGE-FILENAME" caption="Caption to image" %} - see https://programminghistorian.org/en/author-guidelines for more guidance on images.
+
+### A Sample Unordered List
+
+* Fruits
+  * Apples
+  * Oranges
+  * Grapes
+* Dairy
+  * Milk
+  * Cheese
+
+### A Sample Ordered List
+
+1. Finish tutorial
+2. Go to grocery store
+3. Prepare lunch
+
+###A Sample Table:
+
+| Heading 1 | Heading 2 | Heading 3 |
+| --------- | --------- | --------- |
+| Row 1, column 1 | Row 1, column 2 | Row 1, column 3|
+| Row 2, column 1 | Row 2, column 2 | Row 2, column 3|
+| Row 3, column 1 | Row 3, column 2 | Row 3, column 3|
+
+### A Code Block:
+
+```
+Code block
+```
+
+### An End Note:
+
+This is some text.[^1] 
+This is some more text.[^2] 
+
+
+
+# Endnotes
+[^1] Properly formatted citation using Chicago Manual of Style
+[^2] Properly formatted citation using Chicago Manual of Style
+```
+
 ### Write Sustainably
 PH strives to publish lessons that will be of use to our readers for the foreseeable future. Authors should consult our [lesson retirement policy]({{site.baseurl}}/lesson-retirement-policy), which describes how the _Programming Historian_ editorial team manages lessons that have become out-of-date. To aid in creating sustainable lessons, we ask that you keep certain writing guidelines in mind as you create your lesson:
 
