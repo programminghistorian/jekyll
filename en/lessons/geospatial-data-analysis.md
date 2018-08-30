@@ -49,12 +49,12 @@ This tutorial will assume that you have [set up R and R studio](https://www.yout
 
 The first steps in R will be to load the necessary libraries that will allow R to perform the geographic functions used for this type of analysis:
 
-    ```r
-    install.packages("sf") # helps us work with spatial data
-    install.packages("tmap") #helps create simple choropleths
-    library(sf)
-	library(tmap)
-	```
+```r
+install.packages("sf") # helps us work with spatial data
+install.packages("tmap") #helps create simple choropleths
+library(sf)
+library(tmap)
+```
 
 ## The Data
 We are using two sources of data in this tutorial: our list of address from the organization, and the downloaded geospatial data that contains the demographic and geographic data that will aid our analysis. We are going to begin with geospatial data. This data is formatted as a [shapefile](https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf). Shapefiles are data files that represent geographic regions and can also contain characteristics about that region. The U.S. census contains a bevy of information in shapefile format.
@@ -190,7 +190,7 @@ Now we have a large SpatialDataFrame called County_Aggregate_Data which has our 
 Because we are analyzing geospatial data, it is often best to begin with geographic visuals. There are many options here, but I find it easiest to start with the qtm function from the TMAP library which creates [choropleth](https://en.wikipedia.org/wiki/Choropleth_map) maps simply. We could also use [GGPlot2](http://strimas.com/r/tidy-sf/) which which should be installed using the development version.
 
 
-Now, we are going to prepare the map and look at some census data. First on our list should be membership numbers relative to population(relative membership distribution). One of the most commonly used and clearest ways to display this information is by number of members per 10,000 people. We will then do the math to create a relative population variable(number of members per 10,000 people). We do this because we have to ensure we are taking into account the variability of populations within the census regions that we are analyzing otherwise we will get misleading visualization in densely populated counties that represent general population trends rather than variable relationships. If we did not take this step, we would undoubtedly see a map that highlights urban areas rather than areas where membership is strongest.
+Now, we are going to prepare the map and look at some census data. First on our list should be membership numbers relative to population (relative membership distribution). One of the most commonly used and clearest ways to display this information is by number of members per 10,000 people. We will then do the math to create a relative population variable(number of members per 10,000 people). We do this because we have to ensure we are taking into account the variability of populations within the census regions that we are analyzing otherwise we will get misleading visualization in densely populated counties that represent general population trends rather than variable relationships. If we did not take this step, we would undoubtedly see a map that highlights urban areas rather than areas where membership is strongest.
 
 To begin looking at this data, we need to find the variable in our SpatialDataframe that represents population. In the downloaded census data folders, there is a codebook that will reveal what fields represent what data. After looking through the codebook, I discovered AV0AA1990 is the total Census population as of 1990. Below, I take this variable and tranform it into a variable that adjusts for population fluctuations(number of members per 10,000 people):
 
