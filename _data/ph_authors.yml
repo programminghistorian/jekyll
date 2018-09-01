@@ -724,7 +724,6 @@
         She is interested in working with authors on geospatial lessons as well as textual-geospatial lessons.
   team_roles:
    - editorial
-   - managing-en
    - board
 
 - name: Taylor Arnold
@@ -801,11 +800,12 @@
         Universidad de Emory, Estados Unidos.
   bio:
     en: |
-        Anandi Silva Knuppel is a digital scholarship training coordinator at Emory University.
+        Anandi Silva Knuppel is a digital scholarship training coordinator and special projects liaison at Emory University.
     es: |
         Anandi Silva Knuppel es coordinadora del programa de Aprendizaje Digital de la Universidad de Emory.
   team_roles:
    - editorial
+   - managing-en
    - board
 
 
