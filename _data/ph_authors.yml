@@ -137,6 +137,7 @@
   team_roles:
    - spanish
    - ombuds-es
+   - managing-es
    - board
 
 - name: Víctor Gayol
@@ -183,7 +184,6 @@
         Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en el Cologne Center for eHumanities.
   team_roles:
    - spanish
-   - managing-es
    - board
 
 - name: Stephen Margheim
@@ -725,7 +725,6 @@
         She is interested in working with authors on geospatial lessons as well as textual-geospatial lessons.
   team_roles:
    - editorial
-   - managing-en
    - board
 
 - name: Taylor Arnold
@@ -807,6 +806,7 @@
         Anandi Silva Knuppel es coordinadora del programa de Aprendizaje Digital de la Universidad de Emory.
   team_roles:
    - editorial
+   - managing-en
    - board
 
 
