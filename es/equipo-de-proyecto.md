@@ -5,7 +5,7 @@ original: project-team
 ---
 
 Por favor, dirige tu correspondencia, en primer lugar a:
-* <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> (en inglés)
+* <a href="mailto:anandi.silva.knuppel@emory.edu">Anandi Silva Knuppel</a> (en inglés)
 * <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a> (español)
 
 Puedes seguir _Programming Historian_ en Twitter: [@proghist](http://twitter.com/proghist).
