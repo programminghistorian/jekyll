@@ -7,8 +7,8 @@ redirect_from: /project-team
 # Project Team
 Please direct correspondence in the first instance to:
 
-* <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> (English)
-* <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a> (Spanish)
+* <a href="mailto:satyananda@gmail.com">Anandi Knuppel</a> (English)
+* <a href="mailto:mariajose@neogranadina.org">Maria José Afanador-Llach</a> (Spanish)
 
 You can follow the _Programming Historian_ on Twitter: [@proghist](http://twitter.com/proghist).
 
