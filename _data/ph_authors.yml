@@ -547,20 +547,20 @@
 - name: Matthew Lincoln
   url: "http://matthewlincoln.net"
   twitter: matthewdlincoln
-  email: mlincoln@getty.edu
+  email: mlincoln@andrew.cmu.edu
   github: mdlincoln
   team: true
   team_start: 2017
-  institution: Getty Research Institute
+  institution: Carnegie Mellon University
   sortname: Lincoln
   affiliation:
     en: |
-        Getty Research Institute, USA.
+        Carnegie Mellon University, USA.
     es: |
-        Getty Research Institute, Estados Unidos.
+        Carnegie Mellon University, Estados Unidos.
   bio:
     en: |
-        Matthew Lincoln is a data research specialist at the Getty Research Institute, and an art historian of early modern Europe.
+        Matthew Lincoln is the digital humanities developer at Carnegie Mellon University, and an art historian of early modern Europe.
     es: |
         Matthew Lincoln es especialista en la investigación de datos en el Getty Research Institute e historiador del arte de la Europa moderna.
   team_roles:
@@ -957,12 +957,12 @@
   bio:
       en: |
           Patrick Smyth is a PhD student in English and Digital Fellow at the Graduate Center, CUNY.
-          
+
 - name: François Dominic Laramée
   team: false
   bio:
       en: |
-          François Dominic Laramée is a doctoral candidate in history at the Université de Montréal, in Canada. 
+          François Dominic Laramée is a doctoral candidate in history at the Université de Montréal, in Canada.
           He holds master's degrees in computer science and U.S. history and is a former video game designer, TV personality and screenwriter.
 
 - name: Jeff Blackadar
@@ -971,7 +971,7 @@
       en: |
           Jeff Blackadar is a part-time undergraduate history student at Carleton University. His career is in the field of information technology.
 
-          
+
 - name: Sofia Papastamkou
   email: spapastamkou@gmail.com
   twitter: s_papastamkou
@@ -985,14 +985,14 @@
     - french
     - board
   bio:
-        en: | 
-            Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS). 
+        en: |
+            Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
             She is currently assigned to the Maison européenne des sciences de l'homme et de la société Lille Nord de France.
         es: |
             Sofia Papastamkou es historiadora e investigadora en Humanidades Digitales en el Centre national de la recherche scientifique  (CNRS). Actualmente, su labor está asociada con Maison européenne des sciences de l'homme et de la société Lille Nord de France.
         fr: |
             Sofia Papastamkou est docteure en histoire et ingénieure d'études en humanités numériques au CNRS. Elle est affectée à la Maison européenne des sciences de l'homme et de la société Lille Nord de France.
-        
+
 - name: Marie Puren
   email: marie.puren1406@gmail.com
   twitter: MariePuren
