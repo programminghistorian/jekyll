@@ -2,16 +2,16 @@
 title: |
   Using Geospatial Data to Inform Historical Research in R
 collection: lessons
-layout: lesson   
+layout: lesson
 date: 2018-08-20
 authors:
   - Eric Weinberg
 reviewers:
-  - Lauren Tilton 
+  - Lauren Tilton
   - Adam Crymble
   - Ryan Deschamps
-editors: 
-  - Jessica Parr 
+editors:
+  - Jessica Parr
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/102
 activity: analyzing
@@ -209,10 +209,10 @@ qtm(shp = County_Aggregate_Data, fill = "RelativeTotal",text="NHGISNAM",text.siz
 
 Feel free to experiment with the choropleth. In particular, try switching out the text.size variable to see if you can discover patterns that might appear to be linked to membership. Can you detect any trends between choropleth colors and text size? The income variable would be another test that could be run to see if counties with larger representation are wealthier. These visualizations, of course, are also be useful as a means to present information.
 
-You can also look and the unadjusted distribution which shows the raw distribution of members(without adjusting for local population distribution) as I did below:
+You can also look and the unadjusted distribution which shows the raw distribution of members(without adjusting for local population distribution) as I did below[^9]:
 
 ```r
-qtm(shp = cntyNCG, fill = "CountMembers",text="NHGISNAM",text.size="A57AA1980")[^9]
+qtm(shp = cntyNCG, fill = "CountMembers",text="NHGISNAM",text.size="A57AA1980")
 ```
 ## Visualizing Data Relationships
 While choropleths and their many variations are an extremely helpful way to visualize the geospatial data, there are other methods that help visualize the data. One helpful method is the scatterplot which provides a visual means to show relationships between two variables. In particular, it is useful to assess if there are correlations between our event data and other characteristics as defined by the census data. For example, do we see a corelation between counties with low average income and membership. If so, that might indicate something about the nature of the movement or organization. We could look at a multitude of factors along these lines and our census data and codebook has many. While [correlations do not alone prove causality](http://www.nature.com/nmeth/journal/v12/n10/full/nmeth.3587.html), they provide basic insight. When doing these comparisons, we have to again ensure we are taking into account the variability of populations within the census regions we are analyzing otherwise we will get misleading correlation in densely populated counties. To do this we need to convert any population number into numbers per 10,000 people.
@@ -304,17 +304,17 @@ There are many other models and visualizations available that can bring insight 
 
 [^2]: For a discussion on the benefits and drawbacks on this methodology and its assumptions see, [Spatializing health research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3732658/). Some states like Kentucky have a larger number of counties (120) which often encompass entire cities which often leads to more homogeneity within those regions. In contrast, a state like Massachusetts has only 14 counties which can lead to more variability with the county geographies leading to more questionable results in some cases.
 
-[^3]: This is often leveraged in the field of public health. See for example, [Spatial Analysis and Correlates of County-Level Diabetes Prevalence](https://www.cdc.gov/pcd/issues/2015/14_0404.htm). Other fields such as criminal justice also rely on similar analytics although criminal justice tends to look at smaller census areas within regions. See, for example, https://www.ncjrs.gov/pdffiles1/nij/grants/204432.pdf
+[^3]: This is often leveraged in the field of public health. See for example, [Spatial Analysis and Correlates of County-Level Diabetes Prevalence](https://www.cdc.gov/pcd/issues/2015/14_0404.htm). Other fields such as criminal justice also rely on similar analytics although criminal justice tends to look at smaller census areas within regions. See, for example, `https://www.ncjrs.gov/pdffiles1/nij/grants/204432.pdf`
 
 [^4]: Count data typically has large numbers of zero values which can add some complexity that will not be covered here. There are more complex ways to minimize this using more complex regression models. See, for example [Regression Models with Count Data](https://stats.idre.ucla.edu/stata/seminars/regression-models-with-count-data/). For general description of what normal distributions, which work well without modification look like see normal [distributions](http://www.statisticshowto.com/probability-and-statistics/normal-distributions/)
 
 [^5]: There are different strategies to dealing with this type of data. See for example, [The Excess-zero Problem in Soil Animal Count Data](http://www.sciencedirect.com/science/article/pii/S0031405608000073) or [Data Transformations](http://www.biostathandbook.com/transformation.html).
 
-[^6] For details on ggmap and and integration with Google Maps or other maps services see the [ggmap overview](http://stat405.had.co.nz/ggmap.pdf). For another broader discussions on google map making that utilizes a few of the libraries in this tutorial see [R and Google Map Making](https://rpubs.com/nickbearman/r-google-map-making). For a discussion of the sf library and it relationship to sp see [Simple Features for R](https://cran.r-project.org/web/packages/sf/vignettes/sf1.html). While sp has been the library spatial analysis library of choice, it is being superseded by sf.
+[^6]: For details on ggmap and and integration with Google Maps or other maps services see the [ggmap overview](http://stat405.had.co.nz/ggmap.pdf). For another broader discussions on google map making that utilizes a few of the libraries in this tutorial see [R and Google Map Making](https://rpubs.com/nickbearman/r-google-map-making). For a discussion of the sf library and it relationship to sp see [Simple Features for R](https://cran.r-project.org/web/packages/sf/vignettes/sf1.html). While sp has been the library spatial analysis library of choice, it is being superseded by sf.
 
-[^7] We are setting Coordinate Reference System(CRS) to EPSG 4326 which is the most common mapping system used int the U.S. It is used by Google  which is the origins of our data. EPSG 3857 is also used by google. For more on CRS see [Coordinate Reference Systems & Spatial Projections](https://www.earthdatascience.org/courses/earth-analytics/spatial-data-r/intro-to-coordinate-reference-systems/). Also see [coordinate systems reference in R](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/OverviewCoordinateReferenceSystems.pdf).
+[^7]: We are setting Coordinate Reference System(CRS) to EPSG 4326 which is the most common mapping system used int the U.S. It is used by Google  which is the origins of our data. EPSG 3857 is also used by google. For more on CRS see [Coordinate Reference Systems & Spatial Projections](https://www.earthdatascience.org/courses/earth-analytics/spatial-data-r/intro-to-coordinate-reference-systems/). Also see [coordinate systems reference in R](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/OverviewCoordinateReferenceSystems.pdf).
 
-[^8] These plots are a bit more complex and requires an extra library, but they have some advantages. They work well with complex datasets because they have the ability to model more than two relationships by altering the color or size of the data points(we did this earlier on the choropleth by altering font size). Moreover, they are interactive which allows you to explore extra information about data points after the plot is created without wrecking the visual makeup of the plot. Here is an example that looks at the relationship between income and membership but also adds urban status to the visual using color. I am also adjusting point size based on population so I can take a look at more populated areas alongside the other data:
+[^8]: These plots are a bit more complex and requires an extra library, but they have some advantages. They work well with complex datasets because they have the ability to model more than two relationships by altering the color or size of the data points(we did this earlier on the choropleth by altering font size). Moreover, they are interactive which allows you to explore extra information about data points after the plot is created without wrecking the visual makeup of the plot. Here is an example that looks at the relationship between income and membership but also adds urban status to the visual using color. I am also adjusting point size based on population so I can take a look at more populated areas alongside the other data:
 
 ```r
 library(plotly)
@@ -331,11 +331,11 @@ p <- plot_ly(
   textfont = list(color = '#000000', size = 16)) %>%
   layout(title = 'Members and Income, Size=Population',
          xaxis = list(title = 'Members per 10k population'),
-         yaxis = list(title = 'Income')) 
+         yaxis = list(title = 'Income'))
 
 p
 ```
 
 ![Ply1.png](/images/geospatial-data-analysis/Ply1.png "Multi-deminsional scatterplot with Plot.ly")
 
-[^8] The variable A57AA1980 should be converted to a relative population variable so it is accounting for how rural a county is rather than how many people live in the county. This wlll be covered later but it should also take place here as well. It could be converted to a percentage via: County_Aggregate_Data$Percent_Rural = (cntyNCG$A57AA1980/cntyNCG$AV0AA1990).
+[^9]: The variable `A57AA1980` should be converted to a relative population variable so it is accounting for how rural a county is rather than how many people live in the county. This wlll be covered later but it should also take place here as well. It could be converted to a percentage via: `County_Aggregate_Data$Percent_Rural = (cntyNCG$A57AA1980/cntyNCG$AV0AA1990)`.
