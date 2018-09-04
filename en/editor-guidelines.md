@@ -55,22 +55,22 @@ Upon successful submission of the lesson, the editor will create a review ticket
 ### Open Peer Review
 The *Programming Historian* uses a model of open peer review, while we believe this helps maintain civility and the productive sharing of ideas, authors have the right (and we have a requirement to respect that right) to request a closed peer review. There are many reasons why someone might be hesitant to engage in an open review and we encourage authors to always pursue the option with which they are most comfortable.
 
-Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). The editor should complete an initial sustainability overview of the submission to ensure that software versions and dependencies are clearly marked, specificities of software like screenshots are limited to those required to complete the lesson, and that the lesson makes use of existing software documentation whenever available and appropriate. Editors should also ensure that lessons try, as much as possible, to avoid software specific directions, such as "Right-click on the _x_ icon to access the _x_ menu," instead favoring general methodological overviews. The Editorial Checklist [contains more details about sustainability practices](#c-sustainability-review) for PH. 
+Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). The editor should complete an initial sustainability overview of the submission to ensure that software versions and dependencies are clearly marked, specificities of software like screenshots are limited to those required to complete the lesson, and that the lesson makes use of existing software documentation whenever available and appropriate. Editors should also ensure that lessons try, as much as possible, to avoid software specific directions, such as "Right-click on the _x_ icon to access the _x_ menu," instead favoring general methodological overviews. The Editorial Checklist [contains more details about sustainability practices](#c-sustainability-review) for PH.
 
 Often editors need help clarifying the intended audience of a lesson, or identifying jargon that needs further explanation. This initial review helps let the external reviewers focus on improving the piece. This is normally done openly on our submission system (see below), but it can be a closed review at the request of either party.
 
-Once an author has revised the tutorial to the satisfaction of the editor, it is the editor's job to invite two formal external peer reviews. It is entirely up to the editor who these reviewers are, however in the interest of our [commitment to diversity](https://github.com/programminghistorian/jekyll/issues), we encourage editors to ask themselves if they have made a sufficient effort to draw from reviewers who are distinct from themselves either by gender, nationality, race, age, or academic background. Please try not to find two people who are very like you. 
+Once an author has revised the tutorial to the satisfaction of the editor, it is the editor's job to invite two formal external peer reviews. It is entirely up to the editor who these reviewers are, however in the interest of our [commitment to diversity](https://github.com/programminghistorian/jekyll/issues), we encourage editors to ask themselves if they have made a sufficient effort to draw from reviewers who are distinct from themselves either by gender, nationality, race, age, or academic background. Please try not to find two people who are very like you.
 
 To coordinate our requests for reviewers, please use the "Programming Historian - Reviewer Tracking" Google Spreadsheet. (Contact the managing editor or Jeri Wieringa if you need help accessing the spreadsheet.) Prior to sending a review request, check the list to make sure that the person has not been recently contacted by another editor. To avoid over-taxing reviewers, please limit requests to once a year. If a reviewer has been contacted in the past year, the "date_contacted" field will display as red.
 
-For each potential reviewer you do contact, regardless of response, please enter: 
+For each potential reviewer you do contact, regardless of response, please enter:
 
-+ the date contacted, 
-+ the reviewer's name, 
-+ your name as the editor, 
++ the date contacted,
++ the reviewer's name,
++ your name as the editor,
 + the lesson to be reviewed,
 + the response,
-+ and, if the response was "yes," the date completed. 
++ and, if the response was "yes," the date completed.
 
 Please enter the date using the `mm/dd/yyyy` format.
 
@@ -128,7 +128,7 @@ There are a few areas where you should intervene in the process from a technical
 The **Editor** should suggest a name for the new lesson file that conforms to these guidelines:
 
 - Make the filename short, but descriptive; this filename will eventually become the slug for the lesson's URL when published.
-- A good URL would fit nicely on a powerpoint slide, is easy to remember, and tells you something about the lesson. Our URLS take the following format: https://programminghistorian.org/en/lessons/FILENAME-HERE
+- A good URL would fit nicely on a powerpoint slide, is easy to remember, and tells you something about the lesson. Our URLS take the following format: `https://programminghistorian.org/en/lessons/FILENAME-HERE`
 - Do not put spaces in the filename; use hyphens instead.
 - The filename extension should be `.md` so that GitHub will generate a preview of the lesson.
 
@@ -254,7 +254,7 @@ abstract: [see guidance below]
 - **topics** can be any number of the things listed after "type:" in /\_data/topics.yml. You are also encouraged to create new topics that would help someone find the lesson. To do so, besides listing the topic(s) in the lesson's front matter, you should:
 1. Add the topic to any existing lesson(s) also described by the new topic
 2. Add the new topic(s) to /\_data/topics.yml following the format of the other topics there (note that topics can't have spaces—use hyphens if needed).
-3. Edit /js/lessonfilter.js so the filter button to filter the lesson page to that topic works. Search the file for the ten-line chunk of code beginning with "$('#filter-api')", copy and paste that chunk of code, and replace the *two* appearances of "api" with your new topic.
+3. Edit /js/lessonfilter.js so the filter button to filter the lesson page to that topic works. Search the file for the ten-line chunk of code beginning with `$('#filter-api')`, copy and paste that chunk of code, and replace the *two* appearances of "api" with your new topic.
 - **abstract** is a 1-3 sentence description of what you'll learn in the lesson. Try to avoid technical vocabulary when possible, as these summaries can help scholars without technical knowledge to try out something new.
 
 ### 4) Find an Image to represent the lesson
@@ -318,7 +318,7 @@ The editor should have left you a clear list of files that need to be published 
 
 There are several ways that you can perform a pull request to publish the files:
 
-* A) Follow our "Making Technical Contributions" guidelines, which uses the Github website GUI: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions
+* A) Follow our ["Making Technical Contributions" guidelines](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions), which uses the Github website GUI.
 
 * B) Use `git` from the command line. The following instructions assume that you have already cloned both the `jekyll` and `ph-submissions` repositories to your local machine. (Our [lesson on using GitHub Desktop](/lessons/getting-started-with-github-desktop) may be helpful if this is new to you.) If you are not sure how to do that or have any questions, contact Matthew Lincoln for assistance.
 
@@ -327,7 +327,7 @@ There are several ways that you can perform a pull request to publish the files:
  3. Repeat Steps 1 and 2 for the `jekyll` repository on your local machine.
  4. Copy the lesson files and any related image and asset files from the `ph-submissions` directory on your machine to the appropriate places in the `jekyll` directory on your local machine. (You can use a command like `cp` on the Unix command line, or use your GUI file system if you are using GitHub Desktop.)
  5. From within the `jekyll` directory on your local machine, `git add` the new files and then `git commit` and `git push` the changes.
- 
+
 After the lesson has been moved to the `jekyll` repository, you'll also need to archive the submitted lesson on the `ph-submissions` repository.
 
 1. Go to the directory for your local `ph-submissions` repository.
