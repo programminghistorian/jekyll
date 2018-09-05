@@ -612,7 +612,7 @@
     en: |
         Megan R. Brett is Digital History Associate at the Roy Rosenzweig Center for History and New
         Media, where she acts as Outreach Coordinator for the Omeka projects. She is also a doctoral
-        student in the Department of History and Art History at George Mason Unveristy.
+        student in the Department of History and Art History at George Mason University.
 
 - name: Brandon Walsh
   github: walshbr
@@ -715,10 +715,10 @@
         Simmons College, Estados Unidos.
   bio:
     en: |
-        Jessica Parr teaches at Simmons College (Boston) and works on PLACE Project at UNH Durham.
+        Jessica Parr is a Lecturer in History at Simmons College (Boston).
         She is a scholar of the early modern Atlantic.
     es: |
-        Jessica Parr enseña en el Simmons College (Boston) y trabaja en el proyecto PLACE de la UNH Durham. Es especialista en la historia del mundo Atlántico moderno temprano.
+        Jessica Parr enseña en el Simmons College (Boston). Es especialista en la historia del mundo Atlántico moderno temprano.
   interests:
     en: |
         She is interested in working with authors on geospatial lessons as well as textual-geospatial lessons.
@@ -1016,3 +1016,10 @@
   bio:
       en: |
           Charlie Harper is the Digital Learning and Scholarship Librarian at Case Western Reserve University
+          
+- name: Eric Weinberg
+  team: false
+  bio:  
+       en: | 
+           Eric Weinberg holds a PhD in History from the University of Kentucky. He teaches at Viterbo University in La Crosse, WI.
+        

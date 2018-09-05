@@ -1,0 +1,378 @@
+<?xml version="1.0" standalone="no"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Minnesota Population Center</origin>
+				<title>Historic Counties for the 1990 Census of Population and Housing</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Minneapolis, Minnesota</pubplace>
+					<publish>Minnesota Population Center</publish>
+				</pubinfo>
+				<onlink>http://www.nhgis.org</onlink>
+				<lworkcit></lworkcit>
+				<ftname Sync="TRUE">US_county_1990</ftname>
+				<pubdate>2006</pubdate></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This boundary file contains historic county boundaries for which the U.S. Census Bureau tabulated data and was produced by the Minnesota Population Center as part of the National Historical Geographic Information System (NHGIS) project. The NHGIS is an National Science Foundation-sponsored project (Grant No. BCS0094908) to create a digital spatial-temporal database of all available historical US aggregate census materials.  The available shapefiles on the NHGIS site represent version 1.0 of historical US county boundary files for the 1790 to 2000 censuses. These electronic county boundary files were created by referencing a wide variety of sources and considerable care was taken during their production. U.S. Census Bureau TIGER/Line Census 2000 files provided the 1990 and 2000 county boundaries and the roads, hydrography, and public land survey lines required to construct historic county boundaries.  Locations of historic county boundaries were derived from William Thorndale and William Dollarhide's Map Guide to the U.S. Federal Censuses (1987), various volumes of John H. Long's Atlas of Historical County Boundaries, the Atlas of Historical County Boundaries website (http://www.newberry.org/ahcbp/), and other state-specific sources.  TIGER/Line spatial features that corresponded to boundaries in these sources were used to construct the proper historic boundaries.   When a TIGER/Line feature was not available, we digitized the historic boundary from one of the map sources.  Aggregate data from Michael Haines' Historical Demographic, Economic and Social Data: The United States, 1790-1970 (2001) and Richard Forstall's Population of States and Counties of the United States: 1790 to 1990 (1996) were used to determine whether a county was enumerated during a given census. If a county was not enumerated, notes from those sources were used to attach the county in question to the county with which it was enumerated. If a county was not enumerated and the notes provide no details, the county was considered 'unattached' and it was merged with other unattached land within the state or territory.</abstract>
+			<purpose>These data are based upon work supported by the National Science Foundation under Grant No. BCS0094908 - in infrastructure grant provided for the social sciences. Its purpose is twofold. First, the NHGIS created and freely distributes a database incorporating all available aggregate census information for the United States between 1790 and 2000. The database contains information for a wide variety of statistical (blocks, block groups, census tracts, metropolitan statistical areas) and administrative units (places, minor civil divisions, counties, states).  Second, the NHGIS produced and freely distributes boundary files for small areas (census tracts and counties) in the United States. Boundary files for tracts are available for the 1910-2000 censuses, and boundary files for counties are available for the 1790-2000 censuses. The boundaries contained in this file do not necessarily represent legal county boundaries. Instead, they represent the county boundaries over which the U.S. Census Bureau tabulated and published data.</purpose>
+			<supplinf>Counties are the primary legal subdivisions of most states and territories. Louisiana uses the term parish when referring to counties.  Alaska has no counties; instead, the equivalents to counties are census areas, boroughs, city and boroughs, and municipalities.  The U.S. Census Bureau and the state of Alaska jointly delineate the state's county equivalents.  The District of Columbia has to legal subdivisions; thus, the Census Bureau treats the entire entity as a county.  Four states (Maryland, Missouri, Nevada, and Virginia) have independent cities.  These cities are independent of any county and thus serve as county equivalents in their respective states.    The NHGIS assigned a four-digit code to every county and county equivalent within a state or territory.  The codes are assigned in alphabetical order, except for independent cities, which are assigned codes higher than counties. FIPS codes were used to uniquely identify a county within a state or territory, except for historical counties that were never assigned FIPS codes. For those historical counties, the NHGIS assigned a new code based on the alphabetical order of all counties a state or territory ever contained.</supplinf>
+			<langdata Sync="TRUE">en</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate><caldate>1990</caldate></sngdate>
+				<sngdate><caldate>1990</caldate></sngdate>
+				<sngdate><caldate>1990</caldate></sngdate>
+				<sngdate><caldate>1990</caldate></sngdate>
+				<sngdate><caldate>1990</caldate></sngdate>
+				<sngdate><caldate>1990</caldate></sngdate>
+				<sngdate><caldate>1990</caldate></sngdate>
+				<sngdate><caldate>1990</caldate></sngdate>
+				<sngdate><caldate>1990</caldate></sngdate>
+				<sngdate><caldate>1990</caldate></sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>As work is completed</update>
+		</status>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>historical</themekey>
+				<themekey>census of population and housing</themekey>
+				<themekey>counties</themekey>
+				<themekey>county equivalents</themekey>
+				<themekey>census boundaries</themekey>
+				<themekey>census geography</themekey>
+				<themekey>census data</themekey>
+				<themekey>population</themekey>
+				<themekey>housing</themekey>
+				<themekey>county</themekey><themekey>borough</themekey><themekey>independent city</themekey><themekey>census area</themekey><themekey>parish</themekey></theme>
+			<place>
+				<placekt>None</placekt>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+			</temporal>
+		</keywords>
+		<accconst>All persons are granted a limited license to use and distribute this documentation and the available data, subject to the use constraints listed below.</accconst>
+		<useconst>This dataset was produced with an intended application at the state/territory, regional or national level. Appropriate uses include thematic mapping of census data and spatial analysis of census data.  These unaltered data may be redistributed by a third party.   If these data are altered or incorporated into another dataset, they are not to be redistributed without also: altering the name of the dataset, including a Content Standars for Digital Geospatial Metadata (FGDC-STD-001-1998) compliant metadata file that describes the dataset and reflects the alteration steps that makes the new dataset different from this one, and citing this dataset in the metadata as a source for the altered dataset using the source citation specified below.  If these digital data are used in the production of a report or in the compilation of a standalone printed map, then this dataset is to be cited in the report or on the map using the source citation specified below.  The following source citation should be used when citing this dataset: John S. Adams, William C. Block, Mark Lindberg, Robert McMaster, Steven Ruggles, and Wendy Thomas, National Historical Geographic Information System: Pre-release Version 0.1, Minneapolis: Minnesota Population Center, University of Minnesota, 2004.  No fee may be charged for use or distribution. Publications and research reports based on the database must cite it appropriately. Users are requested to send a copy of any publications, research reports, or educational material making use of the data or documentation. Printed matter should be sent to:  NHGIS  Minnesota Population Center University of Minnesota 50 Willey Hall 225 19th Avenue South Minneapolis, MN 55455</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Petra Noble</cntper>
+					<cntorg>Minnesota Population Center</cntorg>
+				</cntperp>
+				<cntpos>Research Fellow</cntpos>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>50 Willey Hall</address>
+					<address>225 19th Avenue South</address>
+					<city>Minneapolis</city>
+					<state>Minnesota</state>
+					<postal>55455</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>612-625-7375</cntvoice>
+				<cntemail>nhgis@pop.umn.edu</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>National Science Foundation Grant No. BCS0094908</datacred>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</native>
+		<spdom>
+			<lboundng>
+				<leftbc Sync="TRUE">-2356113.743199</leftbc>
+				<rightbc Sync="TRUE">2258224.796357</rightbc>
+				<bottombc Sync="TRUE">-1337508.077280</bottombc>
+				<topbc Sync="TRUE">1565781.659379</topbc>
+			</lboundng>
+			<bounding>
+				<westbc Sync="TRUE">-127.887285</westbc>
+				<eastbc Sync="TRUE">-65.345793</eastbc>
+				<northbc Sync="TRUE">51.604785</northbc>
+				<southbc Sync="TRUE">22.871934</southbc>
+			</bounding>
+		</spdom>
+		<natvform Sync="TRUE">Shapefile</natvform>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>All county codes were checked against codes in the available aggregate data to ensure accuracy and consistency. The boundary file may contain more or fewer counties than the aggregate data file. Sources for the boundary files sometimes depicted counties that contained no population; thus, they have no record in the aggregate data file.  Sometimes, the aggregate data files contain records for county equivalents that are not mappable (e.g., military forts).  Also, the boundary file sometimes contains an "unattached" county. This section of the state was not counted by the U.S. Census Bureau, but it has been included in order to depict the correct state/territory outline.</attraccr>
+		</attracc>
+		<logic>All spatial data have been reviewed to assure topological consistency and completeness. All polygons close and do not overlap. No voids exist within polygons. ArcGIS topology features classes were used to identify and fix topological errors (e.g., overlaps, voids, missing polygons) in the county boundary datasets. The ArcGIS topology rules used to ensure logical consistency were 'Must not overlap' and 'Must be covered by'.</logic>
+		<complete>Version 1.0 of the county boundary files contains counties and county equivalents.  Most counties, although not all, have a matching record in the aggregate data files.  Counties without a matching record were denoted on source materials as having "no population".  We still made those counties because we had a geographic representation of it.  Additionally, some records in the aggregate data files could not be mapped because they represent point features (e.g., military forts) - NHGIS boundary files are only composed of polygon features. Version 1.0 boundary files have not been generalized, and counties containing parts of the following bodies of water do not have historically accurate coastlines: the Great Lakes, Atlantic Ocean, Pacific Ocean, and the Gulf of Mexico.  No counties overlap, no voids exist within counties, and any polygon belongs to one and only one county. Every county has a FIPS-like code (GISJOIN) that uniquely identifies it.  The aggregate data contains a matching code (GISJOIN) so that the files can be easily joined together. </complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The horizontal positional accuracy of the source data (U.S. Census Bureau TIGER/Line 2000 files) can be found at  http://www.census.gov/geo/www/tlmetadata/tl2kmeta.txt. To create historic county boundaries, we used existing TIGER lines whereever possible. When no TIGER line existed, we digitized new linework from scanned and rectified Thorndale and Dollarhide (1987) maps for John H. Long (various) maps. These historic county boundaries do not represent legal boundaries and should only be used for thematic mapping and statistical analysis.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>These process steps describe, in general, the procedures used to construct the NHGIS' historical county boundaries. The production procedures vary depending on the available source materials. The base counties were derived from the U.S. Census Bureau's Census 2000 TIGER/Line files. Many historical boundaries were derived from linear features also available in the TIGER/Line files. Those boundaries not available in digital form were digitized from scanned, geo-referenced maps.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>Using a custom AML, generated a statewide polygon coverage containing a union of 1990 and 2000 counties from the statewide census tract coverage. The projection, units, and datum for this coverage were geographic (latitude/longitude), decimal degrees, and NAD 83.</procdesc>
+				<procsv>ArcInfo 8.3</procsv></procstep>
+			<procstep>
+				<procdesc>Using a custom AML, generated a statewide coverage containing two region subclasses. One subclass contained all linear hydrographic (water) features and the second contained all roads and non-visible boundaries. The projection, units, and datum for this coverage were geographic (latitude/longitude), decimal degrees, and NAD 83.</procdesc>
+				<procsv>ArcInfo 8.3</procsv></procstep>
+			<procstep>
+				<procdesc>Using ArcCatalog 9.0, created feature datasets for each state in an ArcSDE database. The projection, unit, and datum of the feature datasets were geographic (latitude/longitude), decimal degrees, and NAD 83. The feature dataset's geographic extent was derived from an existing feature dataset containing all the state's census tracts.</procdesc>
+				<procsv>ArcCatalog 9.0</procsv></procstep>
+			<procstep>
+				<procdesc>Imported the county polygon coverage, the hydrographic lines, and the streets into the ArcSDE feature dataset as feature classes. ArcCatalog 9.0's import function was used.</procdesc>
+				<procsv>ArcCatalog 9.0</procsv></procstep>
+			<procstep>
+				<procdesc>Registered every state's featured data as versioned so that NHGIS staff could edit the feature classes.</procdesc>
+				<procsv>ArcCatalog 9.0</procsv></procstep>
+			<procstep>
+				<procdesc>The county polygon features classes were edited in ArcMap to create the historical county boundaries. Edits were based on the sources available for a given state.  Long (various) and Thorndale and Dollarhide (1987) were the main sources for historical boundaries.  Books depicting or describing historical county boundaries existed for some states, and these were used when available. First, the counties, water, and roads were loaded into ArcMap. Second, map topology was created for the county polygon feature class. Third, the roads or water features representing a historical boundary were selected. Fourth, the polygon or polygons that required editing were selected. Finally, the Construct Features option of the ArcMap topology toolbar was used to split the selected polygon(s) with the selected roads and/or water.  If a historical county boundary followed a feature not in the roads or water feature classes, the feature was digitized into the proper feature class.</procdesc>
+				<srcused>Thorndale and Dollarhide 1987</srcused>
+				<srcused>U.S. Census Bureau 2000</srcused>
+				<srcused>various John H. Long volumes</srcused>
+				<procsv>ArcMap 9.0</procsv></procstep>
+			<procstep>
+				<procdesc>After all edits were complete, the state features datasets were copied from one ArcSDE instance to a second ArcSDE instance.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>A topology features class was created for each state. The county polygon feature class was the only feature class participating in the topology. The topology rules were "Must not overlap" and "Must not have gaps." ArcCatalog's Create New Topology was used.</procdesc>
+				<procsv>ArcCatalog 9.0</procsv></procstep>
+			<procstep>
+				<procdesc>The topology feature class was used to find gaps and overlaps in the county polygon feature class. ArcMap's editing tools were then used to fix the errors.</procdesc>
+				<procsv>ArcMap 9.0</procsv></procstep>
+			<procstep>
+				<procdesc>A unique ID was then assigned to every polygon in a county polygon feature class. The ID was a concatenation of the state FIPS code and the polygon OID.  Using the state FIPS code in the ID guaranteed that every polygon had a unique ID, even when appended together to make the entire country.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>Using historical census data acquired from Michael Haines, a database table was created for every state and territory in Microsoft Excel. The table contained a COUNTYSHAPE_ID for every census in which a county had data tabulated for it. The COUNTYSHAPE_ID was a concatenation of the county FIPS code and the census decade. The database table was saved as a comma-delimited file and imported into the ArcSDE database using a custom VBA script.</procdesc>
+				<srcused>Haines 2001</srcused>
+				<procsv>ArcCatalog 9.0</procsv></procstep>
+			<procstep>
+				<procdesc>Using a custom VBA script in ArcMap, a many-to-many relationship was established between county polygons and the database table containing the COUNTYSHAPE_ID. The polygons comprising a historical county were selected and "associated" to a row in the database table.</procdesc>
+				<procsv>ArcMap 9.0</procsv></procstep>
+			<procstep>
+				<procdesc>After finishing the many-to-many relationships for the COUNTYSHAPE_IDs for a state or territory, a custom Python script was run to generate the counties for every census. Topology rules were established to detect holes and overlaps in a census' counties. The topology feature class was used to locate holes and overlaps. Custom ArcMap VBA tools were used to fix the "associations" between a county and the polygons comprising the county.  Individual polygons were deleted or added to an "association" in order to fix the topology error.  This step was repeated until all the topology errors in a state were eliminated.</procdesc>
+				<procsv>ArcCatalog 9.0 and ArcMap 9.0</procsv></procstep>
+			<procstep>
+				<procdesc>Checked the accuracy of historical county boundaries by comparing them to maps in Thorndale and Dollarhide (1987) or various John H. Long volumes.</procdesc>
+				<srcused>Thorndale and Dollarhide 1987</srcused>
+				<srcused>various John H. Long volumes</srcused>
+			</procstep>
+			<srcinfo><srccite><citeinfo><origin>William Thorndale and William Dollarhide</origin><pubdate>1987</pubdate><title>Map Guide to the U.S. Federal Censuses, 1790-1920</title><pubinfo><pubplace>Baltimore, MD</pubplace><publish>Genealogical Publishing Co., Inc.</publish></pubinfo><geoform>map</geoform><publish>Genealogical Publishing Co., Inc.</publish></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Thorndale and Dollarhide 1987</srccitea><srccontr>Depicts county boundaries used in 1790-1920 census</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>Richard Forstall</origin><pubdate>1966</pubdate><title>Population of States and Counties of the United States: 1790 to 1990</title><pubinfo><pubplace>Washington, DC</pubplace><publish>U.S. Department of Commerce, Bureau of the Census, Population Division</publish></pubinfo><publish>U.S. Department of Commerce, Bureau of the Census, Population Division</publish></citeinfo></srccite><typesrc>paper</typesrc><srccitea>Forstall 1996</srccitea><srccontr>Lists population for each county enumerated</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>U.S. Census Bureau</origin><pubdate>2001</pubdate><title>Census 2000 TIGER/Line files [machine-readable data file]</title><pubinfo><pubplace>Washington, DC</pubplace><publish>U.S. Department of Commerce, Bureau of the Census, Geography Division</publish></pubinfo><geoform>vector digital file</geoform><onlink>http://www.census.gov/geo/www/tiger/index.html</onlink><publish>U.S. Department of Commerce, Bureau of the Census, Geography Division</publish></citeinfo></srccite><srcscale>100000</srcscale><typesrc>online</typesrc><srccitea>U.S. Census Bureau 2001b</srccitea><srccontr>Base linework for the historic counties</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>John S. Adams, William C. Block, Mark Lindberg, Robert McMaster, Steven Ruggles, and Wendy Thomas</origin><pubdate>2004</pubdate><title>National Historical Geographic Information System: Pre-release Version 0.1 </title><pubinfo><pubplace>Minneapolis, MN</pubplace><publish>Minnesota Population Center, University of Minnesota</publish></pubinfo><geoform>vector digital file</geoform><onlink>http://www.nhgis.org</onlink><publish>Minnesota Population Center, University of Minnesota</publish></citeinfo></srccite><srcscale>100000</srcscale><typesrc>online</typesrc><srccitea>Adams, et al. 2004</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Peggy Tuck Sinko (comp.), Laura Rico (comp.) and John H. Long (ed.)</origin><pubdate>2004</pubdate><title>Wyoming Historical Counties</title><pubinfo><pubplace>Chicago</pubplace><publish>The Newberry Library</publish></pubinfo><geoform>map</geoform><onlink>http://www.newberry.org/ahcbp/ie/index.html</onlink><publish>The Newberry Library</publish></citeinfo></srccite><srcscale>various</srcscale><typesrc>online</typesrc><srccitea>Sinko, Rico and Long 2004e</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Gordon DenBoer (comp.) and John H. Long (ed.)</origin><pubdate>1995</pubdate><title>Atlas of Historical County Boundaries: Kentucky</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>DenBoer and Long 1995</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Gordon DenBoer (comp.) and John H. Long (ed.)</origin><pubdate>2000</pubdate><title>Atlas of Historical County Boundaries: Minnesota</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>DenBoer and Long 2000</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Gordon DenBoer (comp.) and John H. Long (ed.)</origin><title>Atlas of Historical County Boundaries: North Carolina</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo><pubdate>1998</pubdate></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>DenBoer and Long 1998b</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Gordon DenBoer (comp.) and John H. Long (ed.)</origin><title>Atlas of Historical County Boundaries: Pennsylvania</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo><pubdate>1996</pubdate></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>DenBoer and Long 1996</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Gordon DenBoer (comp.) and John H. Long (ed.)</origin><title>Atlas of Historical County Boundaries: Wisconsin</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo><pubdate>1997</pubdate></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>DenBoer and Long 1997b</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Gordon DenBoer (comp.), John H. Long (comp.) and John H. Long (ed.)</origin><pubdate>1994</pubdate><title>Atlas of Historical County Boundaries: Connecticut, Maine, Massachusette, Rhode Island</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Simon and Schuster</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>DenBoer, Long and Long 1994</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Gordon DenBoer (comp.), Kathryn Ford Thorne (comp.), and John H. Long (ed.)</origin><title>Atlas of Historical County Boundaries: South Carolina</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Simon and Schuster</publish></pubinfo><pubdate>1993</pubdate></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>DenBoer, Thorne, and Long 1993</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Gordon DenBoer (comp.), George E. Goodridge, Jr. (comp.) and John H. Long (ed.)</origin><pubdate>1993</pubdate><title>Atlas of Historical County Boundaries: New Hampshire, Vermont</title><edition>map</edition><pubinfo><pubplace>New York</pubplace><publish>Simon and Schuster</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>DenBoer, Goodridge Jr., and Long 1993</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>John H. Long (comp. and ed.)</origin><pubdate>1996</pubdate><title>Atlas of Historical Boundaries: Delaware, Maryland, District of Columbia</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Long 1996</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Peggy Tuck Sinko (comp.) and John H. Long (ed.)</origin><pubdate>1996</pubdate><title>Atlas of Historical County Boundaries: Alabama</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Sinko and Long 1996a</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Peggy Tuck Sinko (comp.) and John H. Long (ed.)</origin><pubdate>1996</pubdate><title>Atlas of Historical County Boundaries: Indiana</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Sinko and Long 1996b</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Peggy Tuck Sinko (comp.) and John H. Long (ed.)</origin><pubdate>1997</pubdate><title>Atlas of Historical County Boundaries: Michigan</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Sinko and Long 1997</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Peggy Tuck Sinko (comp.) and John H. Long (ed.)</origin><pubdate>1993</pubdate><title>Atlas of Historical County Boundaries: Mississippi</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Simon and Schuster</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Sinko and Long 1993</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Peggy Tuck Sinko (comp.) and John H. Long (ed.)</origin><pubdate>1998</pubdate><title>Atlas of Historical County Boundaries: Ohio</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Sinko and Long 1998</srccitea></srcinfo><srcinfo><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Sinko and Long 2000</srccitea><srccite><citeinfo><origin>Peggy Tuck Sinko (comp.) and John H. Long (ed.)</origin><pubdate>2000</pubdate><title>Atlas of Historical County Boundaries: Tennessee</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo></citeinfo></srccite></srcinfo><srcinfo><srccite><citeinfo><origin>Peggy Tuck Sinko (comp.), Kathryn Ford Thorne (comp.), and John H. Long (ed.)</origin><pubdate>1997</pubdate><title>Atlas of Historical County Boundaries: Florida</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Sinko, Thorne and Long 1997</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Kathryn Ford Thorne (comp.) and John H. Long (ed.)</origin><pubdate>1993</pubdate><title>Atlas of Historical County Boundaries: New York</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Simon and Schuster</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Thorne and Long 1993</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Gordon DenBoer (comp.) and John H. Long (ed.)</origin><pubdate>1997</pubdate><title>Atlas of Historical County Boundaries: Illinois</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>DenBoer and Long 1997a</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Gordon DenBoer (comp.) and John H. Long (ed.)</origin><pubdate>1998</pubdate><title>Atlas of Historical County Boundaries: Iowa</title><geoform>map</geoform><pubinfo><pubplace>New York</pubplace><publish>Charles Scribner's Sons</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>DenBoer and Long 1998a</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Peggy Tuck Sinko (comp.), Laura Rico (comp.) and John H. Long (ed.)</origin><pubdate>2004</pubdate><title>Virginia Historical Counties</title><geoform>map</geoform><pubinfo><pubplace>Chicago</pubplace><publish>The Newberry Library</publish></pubinfo><onlink>http://www.newberry.org/ahcbp/ie/index.html</onlink></citeinfo></srccite><srcscale>various</srcscale><typesrc>online</typesrc><srccitea>Sinko, Rico and Long 2004b</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Peggy Tuck Sinko (comp.), Laura Rico (comp.) and John H. Long (ed.)</origin><pubdate>2004</pubdate><title>Montana Historical Counties</title><geoform>map</geoform><pubinfo><pubplace>Chicago </pubplace><publish>The Newberry Library</publish></pubinfo><onlink>http://www.newberry.org/ahcbp/ie/index.html</onlink></citeinfo></srccite><srcscale>various</srcscale><typesrc>online</typesrc><srccitea>Sinko, Rico and Long 2004d</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Peggy Tuck Sinko (comp.), Laura Rico (comp.) and John H. Long (ed.)</origin><pubdate>2004</pubdate><title>West Virginia Historical Counties</title><geoform>map</geoform><pubinfo><pubplace>Chicago</pubplace><publish>The Newberry Library</publish></pubinfo><onlink>http://www.newberry.org/ahcbp/ie/index.html</onlink></citeinfo></srccite><srcscale>various</srcscale><typesrc>online</typesrc><srccitea>Sinko, Rico and Long 2004c</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Sylvia Nimmo</origin><pubdate>1978</pubdate><title>Maps Showing the County Boundaries of Nebraska, 1854-1925</title><geoform>map</geoform><pubinfo><pubplace>Papillion, NE</pubplace><publish>Sylvia Nimmo</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Nimmo 1978</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>John H. Long (ed.) and Stephen L. Hansen (comp.)</origin><pubdate>1984</pubdate><title>Historical Atlas and Chronology of County Boundaries, 1788-1980, Volume 2: Illinois, Indiana, Ohio</title><geoform>map</geoform><pubinfo><pubplace>Boston</pubplace><publish>G.K. Hall &amp; Co.</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Long and Hansen 1984</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>John H. Long (ed. and comp.) and Hugo P. Leaming (comp.)</origin><pubdate>1984</pubdate><title>Historical Atlas and Chronology of County Boundaries, 1788-1980, Volume 3: Michigan, Wisconsin</title><geoform>map</geoform><pubinfo><pubplace>Boston</pubplace><publish>G.K. Hall &amp; Co.</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Long and Leaming 1984</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>John H. Long (ed.), Mark P. Donovan (comp.), and Jeffrey D. Siebert (comp.)</origin><pubdate>1984</pubdate><title>Historical Atlas and Chronology of County Boundaries, 1788-1980, Volume 5: Minnesota, North Dakota, South Dakota</title><geoform>map</geoform><pubinfo><pubplace>Boston</pubplace><publish>G.K. Hall &amp; Co.</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Long, Donovan and Siebert 1984</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>U.S. Census Bureau</origin><pubdate>1932</pubdate><title>Fifteenth Census of the United States: 1930. Population. Volume III</title><geoform>map</geoform><pubinfo><pubplace>Washington, D.C.</pubplace><publish>U.S. Government Printing Office</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>U.S. Census Bureau 1932</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>U.S. Census Bureau</origin><pubdate>1943</pubdate><title>Sixteenth Census of the United States: 1940. Population. Volume II</title><geoform>map</geoform><pubinfo><pubplace>Washington, D.C.</pubplace><publish>U.S. Government Printing Office</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>U.S. Census Bureau 1943</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>U.S. Census Bureau</origin><pubdate>1952</pubdate><title>Census of Population: 1950. Volume II. Characteristics of the Population</title><geoform>map</geoform><pubinfo><pubplace>Washington, D.C.</pubplace><publish>U.S. Government Printing Office</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>U.S. Census Bureau 1952c</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>U.S. Census Bureau</origin><pubdate>1963</pubdate><title>Census of Population: 1960. Volume I. Characteristics of the Population</title><geoform>map</geoform><pubinfo><pubplace>Washington, D.C.</pubplace><publish>U.S. Government Printing Office</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>U.S. Census Bureau 1963</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>U.S. Census Bureau</origin><pubdate>1973</pubdate><title>Census of Population: 1970. Volume I, Characteristics of the Population</title><geoform>map</geoform><pubinfo><pubplace>Washington, D.C.</pubplace><publish>U.S. Government Printing Office</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>U.S. Census Bureau 1973</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>U.S. Census Bureau</origin><pubdate>1981</pubdate><title>1980 Census of Population: Volume I, Characteristics of the Population</title><geoform>map</geoform><pubinfo><pubplace>Washington, D.C.</pubplace><publish>U.S. Government Printing Office</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>U.S. Census Bureau 1981</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>John H. Long (ed. and comp.) and Adele Hast (comp.)</origin><pubdate>1984</pubdate><title>Historical Atlas and Chronology of County Boundaries, 1788-1980, Volume 4: Iowa, Missouri</title><geoform>map</geoform><pubinfo><pubplace>Boston</pubplace><publish>G.K. Hall &amp; Co.</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Long and Hast 1984</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>John H. Long (ed.and comp.)</origin><pubdate>1984</pubdate><title>Historical Atlas and Chronology of County Boundaries, 1788-1980, Volume 1: Delaware, Maryland, New Jersey, Pennsylvania</title><geoform>map</geoform><pubinfo><pubplace>Boston</pubplace><publish>G.K. Hall &amp; Co.</publish></pubinfo></citeinfo></srccite><srcscale>various</srcscale><typesrc>paper</typesrc><srccitea>Long 1984</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>Michael Haines</origin><pubdate>2001</pubdate><title>Historical Demographic, Economic and Social Data: The United States, 1790-1970</title><pubinfo><pubplace>Ann Arbor, MI</pubplace><publish>Inter-University Consortium for Political and Social Research</publish></pubinfo></citeinfo></srccite><srccitea>Haines 2001</srccitea></srcinfo><procstep><procdesc>Projected each state feature dataset to USA Contiguous Albers Equal Area Conic projection, in meters and NAD83.  Alaska was projected to the Alaska Albers Equal Area Conic projection, and Hawaii was projected to the Hawaii Albers Equal Area Conic projection.</procdesc><procsv>ArcCatalog 9.0</procsv></procstep><procstep><procdesc>Used the Integrate function (with a 2.0 meter cluster tolerance) in ArcCatalog to snap the state polygon feature classes to the state boundaries contained in a nationwide feature class. We did the Integrate so that we could append all states together to make a seamless nationwide feature class containing all counties.</procdesc><procsv>ArcCatalog 9.0</procsv></procstep><procstep><procdesc>Using a custom Python script, extracted counties for each decade from the contiguous 48 states.  </procdesc><procsv>ArcCatalog 9.0</procsv></procstep><procstep><procdesc>Starting in 1790, we appended all extracted counties together to make a nationwide feature class, one for each decade (1790-2000).  We also created a topology feature class with the Must Not Overlap and Must Not Have Gaps rules to check for errors introduced by the append. Any errors were corrected and then this step was repeated.</procdesc><procsv>ArcCatalog 9.0 and ArcMap 9.0</procsv></procstep><procstep><procdesc>For each decade, we joined the attributes from Haines 2001 to the corresponding nationwide county feature class. This will provide users with the state and county codes and county names in the Haines 2001 data along with the state and county codes and county names developed for the NHGIS.</procdesc><procsv>ArcCatalog 9.0</procsv></procstep><procstep><procdesc>Attached FGDC-compliant metadata to every nationwide feature class and converted the feature classes to shapefiles for distribution on the NHGIS data access site.</procdesc><procsv>ArcCatalog 9.0</procsv></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\WorkSpace\county.xml</srcused><date Sync="TRUE">20060911</date><time Sync="TRUE">08132600</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=sdenhgis.socsci.umn.edu; Service=5153; User=popgis; Version=SDE.DEFAULT</srcused><date Sync="TRUE">20061206</date><time Sync="TRUE">10060300</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="US_county_1990">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>11</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="US_county_1990">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">0</efeacnt>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<projcsn Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic</projcsn></cordsysn>
+			<planar><planci><plance Sync="TRUE">coordinate pair</plance><plandu Sync="TRUE">meters</plandu><coordrep><absres Sync="TRUE">0.000000</absres><ordres Sync="TRUE">0.000000</ordres></coordrep></planci><mapproj><mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn><albers><stdparll Sync="TRUE">29.500000</stdparll><stdparll Sync="TRUE">45.500000</stdparll><longcm Sync="TRUE">-96.000000</longcm><latprjo Sync="TRUE">37.500000</latprjo><feast Sync="TRUE">0.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></albers></mapproj></planar></horizsys>
+		<vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">1.000000</altres></altsys></vertdef></spref>
+	<eainfo>
+		<detailed Name="US_county_1990">
+			<enttyp>
+				<enttypl Sync="TRUE">US_county_1990</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr><attrlabl Sync="TRUE">GISJOIN</attrlabl><attalias Sync="TRUE">GISJOIN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">7</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Attribute used to join GIS data to aggregate data tables</attrdef><attrdefs>NHGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">DECADE</attrlabl><attalias Sync="TRUE">DECADE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Census decade</attrdef><attrdefs>NHGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">NHGISNAM</attrlabl><attalias Sync="TRUE">NHGISNAM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>NHGIS county name</attrdef><attrdefs>NHGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">NHGISST</attrlabl><attalias Sync="TRUE">NHGISST</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>NHGIS state code</attrdef><attrdefs>NHGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">NHGISCTY</attrlabl><attalias Sync="TRUE">NHGISCTY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><attrdef>NHGIS county code </attrdef><attrdefs>NHGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ICPSRST</attrlabl><attalias Sync="TRUE">ICPSRST</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>ICPSR state code</attrdef><attrdefs>Historical, Demographic, Economic, and Social Data: The United States, 1790-2000 (Haines 2001)</attrdefs></attr><attr><attrlabl Sync="TRUE">ICPSRCTY</attrlabl><attalias Sync="TRUE">ICPSRCTY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><attrdef>ICPSR county code</attrdef><attrdefs>Historical, Demographic, Economic, and Social Data: The United States, 1790-2000 (Haines 2004)</attrdefs></attr><attr><attrlabl Sync="TRUE">ICPSRNAM</attrlabl><attalias Sync="TRUE">ICPSRNAM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>ICPSR county name</attrdef><attrdefs>Historical, Demographic, Economic, and Social Data: The United States, 1790-2000 (Haines 2004)</attrdefs></attr><attr><attrlabl Sync="TRUE">STATENAM</attrlabl><attalias Sync="TRUE">STATENAM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>State or territory name</attrdef><attrdefs>NHGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ICPSRSTI</attrlabl><attalias Sync="TRUE">ICPSRSTI</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth></attr><attr><attrlabl Sync="TRUE">ICPSRCTYI</attrlabl><attalias Sync="TRUE">ICPSRCTYI</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl Sync="TRUE">ICPSRFIP</attrlabl><attalias Sync="TRUE">ICPSRFIP</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl Sync="TRUE">STATE</attrlabl><attalias Sync="TRUE">STATE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">17</attwidth><atnumdec Sync="TRUE">5</atnumdec></attr><attr><attrlabl Sync="TRUE">COUNTY</attrlabl><attalias Sync="TRUE">COUNTY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth></attr><attr><attrlabl Sync="TRUE">PID</attrlabl><attalias Sync="TRUE">PID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl Sync="TRUE">X_CENTROID</attrlabl><attalias Sync="TRUE">X_CENTROID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">8</atnumdec></attr><attr><attrlabl Sync="TRUE">GISJOIN2</attrlabl><attalias Sync="TRUE">GISJOIN2</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>Alternate attribute used to join GIS data to aggregate data tables</attrdef><attrdefs>NHGIS</attrdefs><atnumdec Sync="TRUE">8</atnumdec></attr><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">8</atnumdec></attr><attr><attrlabl Sync="TRUE">Y_CENTROID</attrlabl><attalias Sync="TRUE">Y_CENTROID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth></attr><attr><attrlabl Sync="TRUE">SHAPE</attrlabl><attalias Sync="TRUE">SHAPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">7</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">SHAPE_AREA</attrlabl><attalias Sync="TRUE">SHAPE_AREA</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">SHAPE_LEN</attrlabl><attalias Sync="TRUE">SHAPE_LEN</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+		<overview>
+			<eaover>This dataset is a shapefile containing polygon features. The features depict historic county boundaries for the Unites States.  There are 13 attributes associated with each county:
+
+OID - unique identifier calculate by ArcSDE
+
+GISJOIN - this attribute is a concatenation of the NHGISST and NHGISCTY codes and is a unique identifier for a county in a given decade. Use this attribute to join the shapefile's attribute table to aggregate data tables downloaded from the NHGIS website.  Please note that values in GISJOIN begin with "G" in order to retain leading zeros. This update took effect on May 7, 2008.
+
+GISJOIN2 - this attribute is an alternative linking attribute and is similar to GISJOIN except that its values do not begin with "G". GISJOIN2 may be used when linking to an aggregate data file extracted before May 7, 2008.
+
+DECADE - this attribute is the census decade
+
+NHGISST - this attribute is the NHGIS state code, which was adapted from the FIPS codes. NHGIS staff added a third character to the FIPS codes for territories.
+
+NHGISCTY - this attribute is the NHGIS county code, which was adapted from the FIPS codes. NHGIS staff added a fourth character to the FIPS codes for historical counties (i.e., counties that no longer exist).
+
+NHGISNAM - this attribute is the NHGIS county name. NHGIS staff adapted the county names from Thorndale and Dollarhide (1987), John Long (various), Haines (2004), and current-day FIPS codes.
+
+ICPSRST - this attribute is the ICPSR state code, which came from the Historical, Demographic, Economic, and Social Data: The United States, 1790-2000 (Haines 2004, http://webapp.icpsr.umich.edu/cocoon/ICPSR-STUDY/02896.xml) dataset. Counties with no value in the ICPSRST column were not found in the ICPSR dataset.
+
+ICPSRCTY - this attribute is the ICPSR county code, which came from the Historical, Demographic, Economic, and Social Data: The United States, 1790-2000 (Haines 2004, http://webapp.icpsr.umich.edu/cocoon/ICPSR-STUDY/02896.xml) dataset. Counties with no value in the ICPSRCTY column were not found in the ICPSR dataset.
+
+ICPSRNAM - this attribute is the ICPSR county name, which came from the Historical, Demographic, Economic, and Social Data: The United States, 1790-2000 (Haines 2004, http://webapp.icpsr.umich.edu/cocoon/ICPSR-STUDY/02896.xml) dataset. Counties with no value in the ICPSRNAM column were not found in the ICPSR dataset.
+
+STATENAM - this attribute is the NHGIS state/territory name. NHGIS staff adapted the county names from Thorndale and Dollarhide (1987), John Long (various), Haines (2004), and current-day FIPS codes.
+
+SHAPE - this is the geometry attribute for the county. ESRI ArcSDE maintains this attribute.
+
+SHAPE.AREA - this is the area of a county, in square meters.
+
+SHAPE.LEN - this is the perimeter of a county, in meters.</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Minnesota Population Center</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>50 Willey Hall</address>
+					<address>225 19th Ave S</address>
+					<city>Minneapolis</city>
+					<state>MN</state>
+					<postal>55455</postal>
+				</cntaddr>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.026</transize>
+					<dssize Sync="TRUE">0.000</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metfrd>As necessary</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Minnesota Population Center</cntorg>
+					<cntper>Petra Noble</cntper>
+				</cntorgp>
+				<cntaddr>
+					<address>50 Willey Hall</address>
+					<address>225 19th Avenue South</address>
+					<city>Minneapolis</city>
+					<state>Minnesota</state>
+					<postal>55455</postal>
+					<country>USA</country>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype></cntaddr>
+				<cntvoice>612-625-7375</cntvoice>
+				<cntemail>nhgis@pop.umn.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta>
+		<metd Sync="TRUE">20080424</metd><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="en"></languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">US_county_1990</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"></PresFormCd>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">-2356113.743199</westBL>
+					<eastBL Sync="TRUE">2258224.796357</eastBL>
+					<northBL Sync="TRUE">1565781.659379</northBL>
+					<southBL Sync="TRUE">-1337508.07728</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">-127.887285</westBL>
+			<eastBL Sync="TRUE">-65.345793</eastBL>
+			<northBL Sync="TRUE">51.604785</northBL>
+			<southBL Sync="TRUE">22.871934</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+	</dataIdInfo>
+	<mdLang>
+		<languageCode Sync="TRUE" value="en"></languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004"></CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005"></ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc Sync="TRUE">002</orDesc>
+					<linkage Sync="TRUE">file://\\thalia.socsci.umn.edu\popgis\labpcs\conflation\shapefiles\packing\gisjoin_gisjoin2_feature_class\county\us_county_1990\US_county_1990.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</onLineSrc>
+				<transSize Sync="TRUE">0.000</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">Shapefile</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001"></TopoLevCd>
+			</topLvl>
+			<geometObjs Name="US_county_1990"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<Esri>
+		<SyncDate>20080424</SyncDate>
+		<SyncTime>16402900</SyncTime>
+		<ModDate>20080424</ModDate>
+		<ModTime>16402900</ModTime>
+		<CreaDate>20061206</CreaDate><CreaTime>10060300</CreaTime><SyncOnce>FALSE</SyncOnce><DataProperties><lineage><Process Name="Add Field (20)" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20061204" Time="062903">AddField "Database Connections\Connection to sdenhgis.socsci.umn.edu(sdebase5153).sde\POPGIS.AppendedStates\POPGIS.ct1990" ICPSRFIP DOUBLE 16 5 # # NULLABLE NON_REQUIRED # "Database Connections\Connection to sdenhgis.socsci.umn.edu(sdebase5153).sde\POPGIS.AppendedStates\POPGIS.ct1990"</Process><Process Name="Add Field (20)" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20061206" Time="071240">AddField "Database Connections\Connection to sdenhgis.socsci.umn.edu(sdebase5153).sde\POPGIS.AppendedStates\POPGIS.ct1990" STATE TEXT 16 5 3 # NULLABLE NON_REQUIRED # "Database Connections\Connection to sdenhgis.socsci.umn.edu(sdebase5153).sde\POPGIS.AppendedStates\POPGIS.ct1990"</Process><Process Name="Add Field (20)" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20061206" Time="073728">AddField "Database Connections\Connection to sdenhgis.socsci.umn.edu(sdebase5153).sde\POPGIS.AppendedStates\POPGIS.ct1990" COUNTY TEXT 16 5 4 # NULLABLE NON_REQUIRED # "Database Connections\Connection to sdenhgis.socsci.umn.edu(sdebase5153).sde\POPGIS.AppendedStates\POPGIS.ct1990"</Process><Process Name="Add Field (20)" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20061208" Time="063027">AddField "Database Connections\Connection to sdenhgis.socsci.umn.edu(sdebase5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990" PID DOUBLE 38 8 # # NULLABLE NON_REQUIRED # "Database Connections\Connection to sdenhgis.socsci.umn.edu(sdebase5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990"</Process><Process Name="Add Field (22)" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20070226" Time="075406">AddField "Database Connections\Connection to sdenhgis.socsci.umn.edu(sdebase5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990" X_Centroid DOUBLE # # # # NULLABLE NON_REQUIRED # "Database Connections\Connection to sdenhgis.socsci.umn.edu(sdebase5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990"</Process><Process Name="Add Field (39)" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20070226" Time="075437">AddField "Database Connections\Connection to sdenhgis.socsci.umn.edu(sdebase5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990" Y_Centroid DOUBLE # # # # NULLABLE NON_REQUIRED # "Database Connections\Connection to sdenhgis.socsci.umn.edu(sdebase5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990"</Process><Process Name="CopyFeatures_3" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20080410" Time="123640">CopyFeatures "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990" "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_CopyFeatures" # 0 0 0</Process><Process Name="Select Data" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectData" Date="20080410" Time="144945">SelectData "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea" POPGIS.ct1990_GIS_GIS2 "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2"</Process><Process Name="Add GISJOINA" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20080410" Time="145033">AddField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2" GISJOINA TEXT # # 7 # NULLABLE NON_REQUIRED # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2"</Process><Process Name="Calculate GISJOINA" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20080410" Time="145627">CalculateField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2" GISJOINA [GISJOIN] VB # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2"</Process><Process Name="Delete GISJOIN" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20080410" Time="145715">DeleteField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2" GISJOIN "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2"</Process><Process Name="Add GISJOIN" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20080410" Time="145739">AddField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2" GISJOIN TEXT # # 8 # NULLABLE NON_REQUIRED # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2"</Process><Process Name="Calculate GISJOIN" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20080410" Time="150319">CalculateField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2" GISJOIN ""G" &amp; [GISJOINA]" VB # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2"</Process><Process Name="Add GISJOIN2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20080410" Time="150404">AddField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2" GISJOIN2 TEXT # # 7 # NULLABLE NON_REQUIRED # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2"</Process><Process Name="Calculate GISJOIN2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20080410" Time="150931">CalculateField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2" GISJOIN2 [GISJOINA] VB # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2"</Process><Process Name="Delete GISJOINA" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20080410" Time="151016">DeleteField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2" GISJOINA "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2"</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20080417" Time="133515">CopyFeatures "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990_GIS_GIS2" "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990" # 0 0 0</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20080424" Time="164052">CopyFeatures "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_C_aea\POPGIS.ct1990" G:\conflation\shapefiles\packing\gisjoin_gisjoin2_feature_class\county\us_county_1990\US_county_1990.shp # 0 0 0</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20130506" Time="140222">Append G:\data_projects\istads\shape_processing\AK_county_1990.shp;G:\data_projects\istads\shape_processing\HI_county_1990.shp G:\data_projects\istads\shape_processing\US_county_1990.shp NO_TEST "DECADE "DECADE" true false false 4 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,DECADE,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,DECADE,-1,-1;NHGISNAM "NHGISNAM" true false false 50 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,NHGISNAM,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,NHGISNAM,-1,-1;NHGISST "NHGISST" true false false 3 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,NHGISST,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,NHGISST,-1,-1;NHGISCTY "NHGISCTY" true false false 4 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,NHGISCTY,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,NHGISCTY,-1,-1;ICPSRST "ICPSRST" true false false 3 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,ICPSRST,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,ICPSRST,-1,-1;ICPSRCTY "ICPSRCTY" true false false 4 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,ICPSRCTY,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,ICPSRCTY,-1,-1;ICPSRNAM "ICPSRNAM" true false false 50 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,ICPSRNAM,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,ICPSRNAM,-1,-1;STATENAM "STATENAM" true false false 25 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,STATENAM,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,STATENAM,-1,-1;ICPSRSTI "ICPSRSTI" true false false 10 Double 0 10 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,ICPSRSTI,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,ICPSRSTI,-1,-1;ICPSRCTYI "ICPSRCTYI" true false false 10 Double 0 10 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,ICPSRCTYI,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,ICPSRCTYI,-1,-1;ICPSRFIP "ICPSRFIP" true false false 17 Double 5 16 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,ICPSRFIP,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,ICPSRFIP,-1,-1;STATE "STATE" true false false 3 Text 0 0 ,First,#;COUNTY "COUNTY" true false false 4 Text 0 0 ,First,#;PID "PID" true false false 19 Double 8 18 ,First,#;X_CENTROID "X_CENTROID" true false false 19 Double 8 18 ,First,#;Y_CENTROID "Y_CENTROID" true false false 19 Double 8 18 ,First,#;GISJOIN "GISJOIN" true false false 8 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,GISJOIN,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,GISJOIN,-1,-1;GISJOIN2 "GISJOIN2" true false false 7 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,GISJOIN2,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,GISJOIN2,-1,-1;SHAPE_AREA "SHAPE_AREA" true false false 19 Double 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,SHAPE_AREA,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,SHAPE_AREA,-1,-1;SHAPE_LEN "SHAPE_LEN" true false false 19 Double 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_county_1990.shp,SHAPE_LEN,-1,-1,G:\data_projects\istads\shape_processing\HI_county_1990.shp,SHAPE_LEN,-1,-1" #</Process></lineage><itemProps><itemLocation><linkage Sync="TRUE">file://\\thalia.socsci.umn.edu\popgis\labpcs\data_projects\istads\shape_processing\county\US_county_1990</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="G:\data_projects\istads\shape_processing\US_county_1990" dest="\\thalia.socsci.umn.edu\popgis\labpcs\data_projects\istads\shape_processing\county\US_county_1990" date="20130514" time="10102500"></copy></copyHistory></DataProperties><MetaID>{E4422BC2-1808-4825-8E52-BABA4720A400}</MetaID></Esri>
+	<mdDateSt Sync="TRUE">20080424</mdDateSt>
+</metadata>
