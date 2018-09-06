@@ -303,7 +303,7 @@ and a double hyphen. A single hyphen is simply part of the name; it
 replaces a space (e.g., `import-dir` rather than import dir), since
 spaces offset multiple commands or parameters. These parameters let us
 tweak the file that is created when we import our texts into MALLET. A
-double hyphen (as with `–help` above) modifies, adds a sub-command, or
+double hyphen (as with `–-help` above) modifies, adds a sub-command, or
 specifies some sort of parameter to the command.
 
 For Windows users, if you got the error *'exception in thread "main"
@@ -476,7 +476,7 @@ This command
     each topic within each original text file you imported
     (`tutorial_composition.txt`). (To see the full range of possible
     parameters that you may wish to tweak, type
-    `bin\mallet train-topics –help` at the prompt.)
+    `bin\mallet train-topics –-help` at the prompt.)
 
 Type `dir`. Your outputted files will be at the bottom of the list of
 files and directories in `C:\Mallet`. Open `tutorial_keys.txt` in a word
@@ -511,7 +511,7 @@ the output might look like this:
 
 That is, the first number is the topic (topic 0), and the second number
 gives an indication of the *weight* of that topic. In general, including
-`–optimize-interval` leads to better topics.
+`-–optimize-interval` leads to better topics.
 
 ### The composition of your documents
 
