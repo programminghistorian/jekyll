@@ -1,74 +1,73 @@
 ---
-title: Contribute to the Programming Historian
+title: Contribuer au Programming Historian
 layout: blank
-redirect_from: /contribute
+original: /contribute
 ---
 
-# Contribute to The Programming Historian
+# Contribuer au Programming Historian en français
 
-The _Programming Historian_ runs on the far-from-endless energy of volunteers, and we want to hear from anyone who shares our interest in teaching digital methods, forging new processes of peer review, and building diversity in the digital humanities community. Below we've outlined common ways to contribute; please let us know any ideas you have for broadening participation.
+Le _Programming Historian en français_ est porté par des volontaires. Leur énergie n'étant pas inépuisable, faites-nous donc signe si vous partagez notre intérêt pour enseigner les méthodes numériques, pour élaborer de nouvelles procédures d'évaluation par les pairs, pour assurer la diversité de la communauté des humanités numériques. Vous trouverez ci-dessous les manières les plus courantes pour contribuer, si vous avez plus d'idées pour élargir la participation, merci de nous le faire savoir.
 
-## Write a new lesson
+## Écrire une nouvelle leçon
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" />
 
-Writing a tutorial is one of the best ways to teach yourself particular skills and actively engage in the digital humanities community.
+Écrire un tutoriel est l'un des meilleurs moyens pour acquérir des compétences spécifiques et être partie prenante dans la communauté des humanités numériques. 
 
-We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft your essay to be as clear and as useful as possible--a great way to improve your technical writing skills. Please read more about our [submission process][submissions].
+Nous sommes loin de simplement accepter ou rejeter des articles, comme le font les revues traditionnelles. Nos rédacteurs et rédactrices collaborent avec vous pour construire un texte aussi clair et utile que possible, ce qui vous permet de parfaire vos compétences et techniques d'écriture. N'hésitez pas à apprendre davantage sur notre procédure de [dépôt] [depot] de propositions.
 
-If you'd like to propose a lesson (for you or for someone else to write), email <a href="mailto:jparr1129@gmail.com">Jessica Parr</a>.
+Si vous souhaitez proposer une leçon, que vous en soyez l'auteur(e) ou pas, merci d'envoyer un courriel à <a href="mailto:jparr1129@gmail.com">Jessica Parr</a>.
 
-## Join our team of reviewers
+## Rejoindre notre équipe d'évaluation 
 
 <img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-right" />
 
-The _Programming Historian_ holds peer review in the highest regard, and we take an open and collaborative approach in which reviewers get full and public credit for their work. For more on our review philosophy and procedures, please see the [Guidelines for Reviewers][reviewers].
+Le _Programming Historian en français_ attache la plus grande importance à l'évaluation par les pairs, en adoptant une approche ouverte et collaborative qui reconnait pleinement et publiquement le travail des évaluateurs et évaluatrices. Pour vous renseigner plus sur nos principes et la procédure d'évaluation, merci de vous référer aux [consignes d'évaluation] [evaluateurs] 
 
-We hope you'll consider joining our team of reviewers. The time commitment is flexible, you'll learn a lot, and contribute to a widely-used and highly-valued resource. Please email <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> to introduce yourself and let us know any specific skills, tools, topics, and technologies that you'd like to focus on.
+Nous espérons que vous allez sérieusement envisager de rejoindre notre équipe d'évaluateurs et d'évaluatrices. Les délais sont flexibles, vous apprenez beaucoup et vous avez l'occasion de contribuer à une ressource largement utilisée, qui jouit d'une haute estime. Merci d'envoyer un courriel à <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> pour vous présenter et nous faire connaître les compétences, les outils, les sujets et les technologies qui sont de votre domaine.
 
-
-## Edit lessons
+## Assurer le suivi éditorial d'une leçon
 
 <img src="{{site.baseurl}}/gallery/editor-guidelines.png" class="garnish rounded float-right" />
 
+Les membres de notre comité éditorial apportent leur concours lors de l'évaluation par les pairs et travaillent avec les auteur(e)s pour améliorer leurs leçons. Nos [consignes aux rédacteurs et rédactrices][redacteurs] visent à ce que tout se passe au mieux, lors de l'évaluation par les pairs, pour tout le monde, auteur(e)s, évaluateurs et évaluatrices, membres de la communauté plus large.
 
-Our editorial board members help facilitate peer review and work with authors closely to make improvements to their lessons. Our [guidelines for editors](editor-guidelines) is meant to ensure that everyone, from authors to reviewers to members of the wider community, receive a fair and consistent experience during peer review.
+Il arrive de temps en temps de faire des appels pour recruter des membres pour notre comité éditorial. 
 
-From time to time we may advertise that we are seeking more editors.
-
-## Translate a lesson
+## Traduire une leçon
 
 <img src="{{site.baseurl}}/images/translator.png" class="garnish rounded float-right" />
 
-If you are fluent in both English and Spanish, you are invited to get in touch with us about translating one of our published _Programming Historian_ lessons into Spanish. This will help us to build a Spanish-language digital humanities community, and to build your language, method, and technological skills.
+Si vous parlez couramment plus qu'une des langues dans lesquelles le _Programming Historian_ paraît (français, anglais, espagnol), nous vous invitons à prendre contact avec nous pour traduire une des leçons publiées d'une langue à une autre. Cela nous aidera à être partie prenante dans les communautés des humanités numériques hispanophone et francophone et vous permettra de renforcer vos compétences linguistiques, méthodologiques et techniques.
 
-We are seeking rigorous and readable translations that take into account the Spanish-language research context and the resources available in our community. If you are interested in collaborating, consult our [instructions for authors and translators](/es/guia-para-autores.html).
+Nous recherchons des traductions rigoureuses et lisibles qui tiennent compte des contextes de recherche hispanophone et francophone et des ressources disponibles dans nos communauté respectives. Si cela vous intéresse de collaborer avec nous, merci de consulter nos [consignes aux auteur(e)s et traducteurs/traductrices](/fr/consignes-auteurs.html).
 
-## Provide feedback or report problems
+## Faire un retour ou signaler un problème
 
 <img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" />
 
-We welcome [feedback](feedback.html) on any aspect of the _Programming Historian_. Let us know what we can do to make the project better!
+Nous vous invitons à nous faire des [retours d'expérience](/fr/feedback.html) sur tout aspect du _Programming Historian en français_. D'avance merci de nous aider à améliorer le projet.  
 
-We are especially grateful for tips about lessons that seem to be broken. As URLs change and as new versions of software and platforms are released, lessons develop glitches over time. Please help us keep the _Programming Historian_ up to date by letting us know about these when you come across them in the course of your reading.
+Nous apprécions tout particulièrement les informations reçues sur les liens cassés. Au fur et à mesure que les URL changent et que les versions des logiciels et des plateformes évoluent, les leçons peuvent présenter des défaillances. Merci de nous aider à garder le _Programming Historian en français_ à jour en nous tenant au courant de tout problème rencontré pendant vos lectures.
 
 
-## Add us to your Library Catalog
+## Nous ajouter dans votre catalogue de bibliothèque 
 
 <img src="{{site.baseurl}}/images/library-catalogue.png" class="garnish float-right" />
 
 
-This project is our attempt to demonstrate what open access academic publishing can and should be. Please help us spreading the message and providing the widest possible access to this resource by asking your librarian to include the project in your library catalogue.
+Ce projet est notre démonstration de ce que l'édition scientifique en accès libre peut et doit être. Merci de nous aider à disséminer le message  et à fournir le plus large accès possible à cette ressource en demandant à votre bibliothèque d'enregister le projet dans son catalogue.
 
-The _Programming Historian_ has a [listing in WorldCat](http://www.worldcat.org/title/programming-historian/oclc/951537099) (with thanks to the [University of Purdue library](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink) and Amanda Visconti) and is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
-
-
-## Make a suggestion
-
-No matter how you'd like to be involved, you can always email <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
+Le _Programming Historian_ a sa [notice dans WorldCat](http://www.worldcat.org/title/programming-historian/oclc/951537099) (toute notre gratitude à la [bibliothèque de l'Université de Purdue](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink) et à Amanda Visconti) et il est aussi indexé dans le [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
 
 
-Thanks for your help in improving the _Programming Historian_!
+## Faire une suggestion
 
- [submissions]: {{site.baseurl}}/author-guidelines
- [reviewers]: {{site.baseurl}}/reviewer-guidelines
+Pour vous impliquer comme vous le préférez, merci de contacter <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> pour lui faire part de vos commentaires, vos questions, vos remarques ou suggestions. Nous faisons notre possible pour répondre aux courriels rapidement.
+
+
+Merci de nous aider à améliorer le _Programming Historian_!
+
+ [depot]: {{site.baseurl}}/fr/consignes-auteurs
+ [evaluateurs]: {{site.baseurl}}/fr/consignes-evaluateurs
+ [redacteurs]: {{site.baseurl}}/fr/consignes-redacteurs 

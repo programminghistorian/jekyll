@@ -1,221 +1,214 @@
 ---
-title: Editor Guidelines
+title: Consignes aux rédacteurs et rédactrices
 layout: blank
-redirect_from: /editor-guidelines
+original: /editor-guidelines
 ---
 
-# Editor Guidelines
+# Consignes aux rédacteurs et les rédactrices
 
-This page contains step-by-step instructions for editors facilitating peer review for the *Programming Historian*.
+Cette page fournit des instructions détaillées aux rédacteurs et rédactrices qui apportent leur concours lors de l'évaluation par les pairs dans le cadre du *Programming Historian en français*.
 
-
-## The Role of the Editor
-Thank you for editing a lesson for the *Programming Historian*. We are extremely grateful for your efforts. This guide is meant to ensure that all authors, editors, and reviewers receive a consistent and fair experience with the *Programming Historian*. If you have any questions about anything in these guidelines, please email one of the other editors or post a question on our [Github issues](https://github.com/programminghistorian/jekyll/issues). Do the same if you think these guidelines need improvement or updating.
+## Le rôle du rédacteur / de la rédactrice
+Nous vous remercions d'assurer le travail éditorial pour une leçon du *Programming Historian en français*, nous vous savons gré pour vos efforts. Ce guide a comme objectif de se garantir la cohérence et la qualité de la collaboration entre auteur(e)s, rédacteurs/rédactrices et évaluateurs/évaluatrices avec le *Programming Historian en français*. Pour toute question qui porte sur les consignes, merci de contacter par courriel un de nos rédacteurs ou de poser une question sur notre espace dédié sur [Github](https://github.com/programminghistorian/jekyll/issues). Merci de le faire aussi si vous jugez que ces consignes doivent être améliorés ou mis à jour. 
 
 {% include toc.html %}
 
+Qu'il s'agisse du suivi éditorial d'une leçon originale ou d'une traduction, notre rôle n'est pas celui d'un gardien, comme dans les revues traditionnelles, mais d'apporter notre concours lors de la procédure de l'écriture, de la traduction, de l'évaluation et de la publication. Merci donc de prendre connaissance de nos [consignes de rédaction et de traduction](/consignes-auteurs). Nous encourageons toujours les personnes susceptibles de rédiger une leçon de soumettre un plan détaillé de leurs idées avant d'entamer l'écriture. Si néanmoins un texte ne convient pas au *Programming Historian en français*, il nous incombe de le dire avant que l'auteur(e) ne s'avance trop dans la rédaction d'un tutoriel. Ainsi, nous espérons que cela évite à toutes et à tous de perdre du temps et de l'énergie. Une fois les discussions avec un(e) auteur(e) entamées et son idée encouragée, nous fournissons par la suite un soutien constant jusqu'à la publication de la leçon. 
 
+### Espaces de sécurité
+Le *Programming Historian en français* s'engage à fournir un espace de sécurité pour l'échange d'idées où personne n'aura peur de se faire harcéler ou abuser. Le rédacteur ou la rédactrice a un rôle fondamental pour le maintien de telles conditions car une de vos missions est de renforcer notre politique contre le harcèlement constamment. Si vous avez besoin d'aide, merci de vous adresser au reste du comité éditorial ou à notre médiateur Ian Miligan et notre médiatrice Amanda VIsconti. Vous pouvez vous renseigner davantage sur notre [engagement pour les espaces de sécurité](/posts/PH-commitment-to-diversity) sur le blog du projet. You can read more about our [commitment to safe spaces](/posts/PH-commitment-to-diversity) on the project blog.
 
+### Politique contre le harcèlement
+Vous trouverez ci-dessous les principes du *Programming Historian en français* qui inspirent les échanges entre évaluateurs/évaluatrices, auteur(e)s, rédacteurs/rédactrices, ainsi que toute personne contribuant à nos forums publics. 
 
+Le *Programming Historian en français* tient à garantir un environnement savant ouvert à la communauté, qui offre la pleine liberté d'explorer minutieusement des idées, poser des questions, faire des suggestions ou demander des clarifications. Il fournit aussi un espace libre de toute discrimination envers les personnes contribuant au projet indépendamment du genre, de l'orientation sexuelle, des situations d'handicap, de l'apparence, de la taille corporelle, de l'origine, de l'âge, de la religion ou de l'expérience technique. Nous ne tolérons aucune forme d'harcélement ou d'attaque personnelle contre les membres de la communauté. Les personnes qui violent ces règles sont susceptibles d'être expulsées de la communauté à la discrétion du conseil éditorial. Toute personne en mesure de témoigner de tels comportements ou qui en est la victime peut contacter notre dispositif de médiation (Ian Milligan or Amanda Visconti - http://programminghistorian.org/fr/equipe-projet). Merci de nous aider à créer un espace de sécurité.
 
+### Suivi des leçons proposées 
+Lorsqu'une proposition de leçon reçoit feu vert par l'équipe éditoriale, un rédacteur ou une rédactrice lui est assigné(e) pour mener un travail en commun avec l'auteur(e) dans le but de définir des objectifs clairs pour la leçon et de fixer une date-délai. Habituellement, nous recommandons 90 jours à partir du moment que les discussions sont entamées, mais ce délai peut être réajusté si nécessaire.  
 
-We always encourage prospective authors to pitch their ideas before they start writing. We do not act as gatekeepers in the same way as a traditional journal. If a piece is not suitable for the *Programming Historian* our job is to tell an author before they have written a full tutorial. We hope this saves everyone time and energy. Once we have spoken to an author and encouraged their idea, our aim is always to support authors until the piece is publishable. Our goal is to help them reach that stage as efficiently as possible with clear guidance. You may find it helpful to familiarise yourself with our [instructions for authors](/author-guidelines).
-
-### Safe Spaces
-The *Programming Historian* is committed to providing a safe space for the exchange of ideas, where everyone can share without fear of harassment or abuse. The editor plays a fundamental role in ensuring that space endures. Your job includes enforcing our anti-harassment policy at all times. If you need help please ask one of the other editors or PH ombudspeople Ian Milligan or Amanda Visconti. You can read more about our [commitment to safe spaces](/posts/PH-commitment-to-diversity) on the project blog.
-
-### Anti-Harassment Policy
-This is a statement of the *Programming Historian's* principles and sets expectations for the tone and style of all correspondence between reviewers, authors, editors, and contributors to our public forums.
-
-The *Programming Historian* is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudspeople (Ian Milligan or Amanda Visconti - http://programminghistorian.org/project-team). Thank you for helping us to create a safe space.
-
-### Track Proposed Lessons
-Once a lesson proposal has been given the "green light" by the editorial team and has been assigned an editor, the editor will work with the author to clarify the goals of the lesson and to establish an agreed upon submission deadline. The recommended time frame is 90 days from the start of the editorial conversation, though this can be adjusted if needed.
-
-The editor will then create a "Proposed Lesson" issue in the [submissions repository on Github](https://github.com/programminghistorian/ph-submissions/issues) and assign it the "proposals" label. The default proposal text is included in the issue template, or can be copied from below.
+Le rédacteur ou la rédactrice doit alors créer un nouveau ticket intitulé "Proposition de leçon" dans le [dépôt des soumissions sur Github](https://github.com/programminghistorian/ph-submissions/issues) en le signalant avec l'étiquette "proposal". Le texte par défaut à utiliser comme introduction se trouve dans le gabarit du ticket ou alors il peut être copié ci-dessous. 
 
 ```
-The Programming Historian has received the following proposal for a lesson on 'PROVISIONAL LESSON TITLE' by AUTHOR(S) NAME(S). The proposed learning outcomes of the lesson are:
+Le Programming Historian en français a reçu la propoposition suivante d'une leçon intitulée 'TITRE PROVISOIRE DE LA LEÇON' de la part de NOM(S) D'AUTEUR(E-S).  has received the following proposal for a lesson on 'PROVISIONAL LESSON TITLE' by AUTHOR(S) NAME(S). Les principaux objectifs pédagogiques envisagés sont: 
 
-- key learning outcome 1
-- key learning outcome 2
-- key learning outcome 3 (add as needed)
+- principal objectif pédagogique no 1
+- principal objectif pédagogique no 2
+- principal objectif pédagogique no 3 (ajouter plus si besoin)
 
-In order to promote speedy publication of this important topic, we have agreed to a submission date of no later than [90 DAYS BY DEFAULT BY LONGER IF AGREED WITH EDITOR]. The author(s) agree to contact the editor in advance if they need to revise the deadline.
+Pour s'assurer d'une rapide publication sur ce sujet important, nous avons agréé à une date de dépôt qui ne dépasse pas In order to promote speedy publication of this important topic, we have agreed to a submission date of no later than [90 DAYS BY DEFAULT BY LONGER IF AGREED WITH EDITOR]. The author(s) agree to contact the editor in advance if they need to revise the deadline.
 
-If the lesson is not submitted by [THE AGREED DATE], the editor will attempt to contact the author(s). If they do not receive an update, this ticket will be closed. The ticket can be reopened at a future date at the request of the author(s).
+Si la leçon n'est pas déposée d'ici le [DATE AGRÉÉE], le rédacteur ou la rédactrice tentera de contacter l'auteur(e). Sans mise à jour de sa part, ce ticket sera clos, il peut toutefois être à nouveau ouvert sur demande de l'auteur(e). 
 
-The main editorial contact for this lesson is [EDITOR USERNAME]. If there are any concerns from the authors they can contact the Ombudsperson @ianmilligan1 or @amandavisconti.
+Le principal contact éditorial pour cette leçon est [NOM D'UTILISATEUR/UTILISATRICE DU RÉDACTEUR/DE LA RÉDACTRICE]. Pour tout souci, les auteur(e)s peuvent contacter le médiateur @ianmilligan1 ou la médiatrice @amandavisconti.
 ```
+Le rédacteur ou la rédactrice peut adapter le texte du ticket de proposition en fonction d'éventuels objectifs supplémentaires ou de prérequis agréés avec l'auteur(e) ou les auteur(e)s.  
 
-The editor is encouraged to adjust the issue text to reflect any additional goals or requirements agreed upon between the author(s) and editor.
+Après qu'une leçon a été déposée, le rédacteur ou la rédactrice doit créer un ticket d'évaluation en fermant celui de proposition. 
 
-Upon successful submission of the lesson, the editor will create a review ticket for the lesson and close the proposal issue.
+### Évaluation ouverte par les pairs
+Le *Programming Historian en français* pratique l'évaluation ouverte par les pairs. Si notre conviction est bien que ce système garantit la qualité des rapports et le partage productif des idées, les auteurs ont toutefois le droit, que nous devons respecter, de solliciter une procédure fermée d'évaluation par les pairs. Une personne peut être réservée vis-à-vis d'une évaluation ouverte pour plusieurs raisons et, de notre côté, nous encourageons les auteur(e)s de choisir l'option qui leur convient le plus.
 
-### Open Peer Review
-The *Programming Historian* uses a model of open peer review, while we believe this helps maintain civility and the productive sharing of ideas, authors have the right (and we have a requirement to respect that right) to request a closed peer review. There are many reasons why someone might be hesitant to engage in an open review and we encourage authors to always pursue the option with which they are most comfortable.
+Avant de solliciter des évaluations externes, le rédacteur ou la rédactrice doit lire et tester le tutoriel, en profitant de l'expérience acquise dans le cadre du *Programming Historian en français* pour aider l'auteur(e) à apporter des améliorations, si nécessaire. __Le rédacteur ou la rédactrice passe au crible le caractère durable du dépôt pour vérifier si les versions des logiciels et des dépendances sont clairement mentionnées, mais aussi que les exigences spécifiques du logiciel, tout comme les prises d'écran se limitent à ce qui est nécessaire pour compléter la leçon. Il/elle veille, enfin, à ce que la leçon mobilise la documentation des logiciels lorsque celle-ci est disponible et pertinente.__ Les rédacteurs et rédactrices doivent aussi s'assurer que les leçons s'abstiennent autant que possible de fournir des instructions spécifiques comme "faire un click droit sur l'icône _x_ pour accéder au menu _x_," et qu'ils offrent, en revanche, des aperçus méthodologiques plus larges. La liste de vérification éditoriale [offre plus de détails sur les pratiques de pérennisation](#c-sustainability-review) pour le PH.  
 
-Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). The editor should complete an initial sustainability overview of the submission to ensure that software versions and dependencies are clearly marked, specificities of software like screenshots are limited to those required to complete the lesson, and that the lesson makes use of existing software documentation whenever available and appropriate. Editors should also ensure that lessons try, as much as possible, to avoid software specific directions, such as "Right-click on the _x_ icon to access the _x_ menu," instead favoring general methodological overviews. The Editorial Checklist [contains more details about sustainability practices](#c-sustainability-review) for PH. 
+Souvent, les rédacteurs et les rédactrices doivent apporter leur concours pour identifier les publics ciblés par une leçon ou encore pour décrypter un jargon qui nécessite d'être clarifié. Cette relecture initiale permet aux évaluateurs et évaluatrices externes de se concentrer à l'amélioration du reste. D'habitude, cela se fait ouvertement dans le cadre de notre système de soumissions (voir ci-dessous), mais la relecture peut aussi être non publique sur demande des parties intéressées.
 
-Often editors need help clarifying the intended audience of a lesson, or identifying jargon that needs further explanation. This initial review helps let the external reviewers focus on improving the piece. This is normally done openly on our submission system (see below), but it can be a closed review at the request of either party.
+Lorsqu'un(e) auteur(e) a revisé le tutoriel de manière satisfaisante, c'est au rédacteur ou à la rédactrice de faire formellement appel à deux personnes pour lancer l'évaluation par les pairs. Certes, le choix lui appartient entièrement, cependant, en ce sens que nous devons respecter notre [engagement en faveur de la diversité](https://github.com/programminghistorian/jekyll/issues), nous espérons qu'aucun effort n'aura été épargné pour que les personnes choisies aient des profiles diversifiés en termes de genre, de nationalité, de culture, d'âge ou d'appartenance académique. Merci donc de faire de votre mieux pour ne pas trouver deux personnes qui vous ressemblent trop.
 
-Once an author has revised the tutorial to the satisfaction of the editor, it is the editor's job to invite two formal external peer reviews. It is entirely up to the editor who these reviewers are, however in the interest of our [commitment to diversity](https://github.com/programminghistorian/jekyll/issues), we encourage editors to ask themselves if they have made a sufficient effort to draw from reviewers who are distinct from themselves either by gender, nationality, race, age, or academic background. Please try not to find two people who are very like you. 
+Nos demandes d'évaluations sont organisées à l'aide d'un tableur Google intitulé "Programming Historian - Reviewer Tracking" que nous vous prions de bien vouloir utiliser (vous pouvez contacter le rédacteur ou la rédactrice en chef ou Jeri Wieringa si vous avez besoin d'aide pour accéder au tableur). Avant de proposer une évaluation, merci de vérifier si la personne sollicitée n'a pas été récemment contactée par un autre membre de l'équipe de rédaction. Pour éviter de surcharger les évaluateurs et évaluatrices, merci de limiter vos demandes à une par an. Si une personne a été sollicitée dans l'année passée, le champ "date_contacted" apparaitra en rouge. 
 
-To coordinate our requests for reviewers, please use the "Programming Historian - Reviewer Tracking" Google Spreadsheet. (Contact the managing editor or Jeri Wieringa if you need help accessing the spreadsheet.) Prior to sending a review request, check the list to make sure that the person has not been recently contacted by another editor. To avoid over-taxing reviewers, please limit requests to once a year. If a reviewer has been contacted in the past year, the "date_contacted" field will display as red.
+Pour chaque personne pressentie en tant qu'évaluateur ou évaluatrice, indépendamment de la réponse, merci d'insérer: 
 
-For each potential reviewer you do contact, regardless of response, please enter: 
++ la date de prise de contact, 
++ le nom de l'évaluateur/évaluatrice, 
++ votre nom en tant que rédacteur ou rédactrice, 
++ le titre de la leçon à évaluer,
++ la réponse,
++ et, si la réponse est "oui", la date à laquelle l'évaluation a été achevée. 
 
-+ the date contacted, 
-+ the reviewer's name, 
-+ your name as the editor, 
-+ the lesson to be reviewed,
-+ the response,
-+ and, if the response was "yes," the date completed. 
+Pour les dates, merci d'utiliser le format `mm/jj/aaaa`.
 
-Please enter the date using the `mm/dd/yyyy` format.
+Lorsque la proposition est faite aux candidat(e)s, le rédacteur ou la rédactrice doit mettre à leur disposition nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs) et fixer une date-délai pour compléter l'évaluation (habituellement un mois) pour que le tutoriel puisse être publié à temps.
 
-When inviting reviewers, the editor should provide them with our [reviewer guidelines](/reviewer-guidelines) and give them a deadline for completing their review (usually one month) so that we can ensure the timely publication of the tutorial.
+Quand une leçon est soumise, le rédacteur ou la rédactrice doit ouvrir un nouveau ticket sur notre [dépôt de soumissions sur Github](https://github.com/programminghistorian/ph-submissions/issues). C'est là que va se passer l'évaluation ouverte, puisque des messages qui peuvent être postés via l'interface permettent à tout un chacun de suivre les traces de la discussion. Pour cela, il est nécessaire pour toutes les parties prenantes d'avoir un compte gratuit Github.  where the open review will take place. This message board allows everyone to keep track of the conversation.
 
-When a lesson has been submitted, the editor will open a new 'issue' on our [Github submissions repository](https://github.com/programminghistorian/ph-submissions/issues) where the open review will take place. This message board allows everyone to keep track of the conversation. You will need to sign up for a free Github account if you do not already have one, as will both the author and reviewers.
+### Le commentaire initial
 
-### The Initial Comment
-
-Your first comment on the message board for a given tutorial review should use our template which outlines the role of the editor and what will take place during the review, as well as everyone's options in the unlikely event that something goes wrong. Please adapt [the template](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md), which should appear automatically in all new issue boxes, as needed:
+Votre premier commentaire sur le ticket d'évaluation d'un tutoriel doit être calqué sur le modèle de celui qui explique le rôle du rédacteur et de la rédactrice, décrit la procédure de l'évaluation ainsi que les options qui se présentent au cas improbable où des problèmes surgiraient. Merci d'adapter [le modèle](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md), qui devrait apparaître automatiquement lors de l'ouverture d'un nouveau ticket, de la manière qui correspond:
 
 ```
-The Programming Historian has received the following tutorial on '[LESSON TITLE]' by [AUTHOR GITHUB USERNAME]. This lesson is now under review and can be read at:
+Le Programming Historian en français a reçu le tutoriel intitulé '[TITRE DE LA LEÇON]' par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DE L'AUTEUR(E)]. La leçon préparée par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DU TRADUCTEUR OU DE LA TRADUCTRICE]) est actuellement en cours d'évaluation et peut être consultée ici: 
 
 http://programminghistorian.github.io/ph-submissions/lessons/[URL to lesson]
 
-I will act as editor for the review process. My role is to solicit two reviews from the community and to manage the discussions, which should be held here on this forum. I have already read through the lesson and provided feedback, to which the author has responded.
+J'exercerai le rôle de rédacteur/rédactrice lors de la procédure de l'évaluation. Cela implique de solliciter deux relectures d'évaluation de la communauté et de gérer les discussions qui auront lieu sur ce forum. J'ai déjà fait une lecture critique de la leçon puis un retour auquel l'auteur(e) a répondu. 
 
-Members of the wider community are also invited to offer constructive feedback which should post to this message thread, but they are asked to first read our Reviewer Guidelines (/reviewer-guidelines) and to adhere to our anti-harassment policy (below). We ask that all reviews stop after the second formal review has been submitted so that the author can focus on any revisions. I will make an announcement on this thread when that has occurred.
+Les membres de la communauté plus large sont aussi invités de fournir une critique constructive via ce fil de messages, après avoir pris connaissance de nos consignes aux évaluateurs et évaluatrices (/fr/consignes-evaluateurs) et accepté notre politique contre le harcèlement (cf. ci-dessous). Nous demandons que toute nouvelle évaluation cesse après que la seconde de celles qui sont formellement sollicitées a été déposée, pour que l'auteur(e) puisse se concentrer sur les révisions à faire. Lorsque cela est le cas, je prendrai soin d'indiquer sur le fil de la discussion.
 
-I will endeavor to keep the conversation open here on Github. If anyone feels the need to discuss anything privately, you are welcome to email me. You can always turn to @ianmilligan1 if you feel there's a need for an ombudsperson to step in.
+Je vais essayer de garder la discussion ouverte ici sur Github. Si quelqu'un a besoin de discuter en privé, merci de m'envoyer un courriel. Il y a toujours la possibilité de vous adresser à @ianmilligan1 si vous souhaitez qu'un médiateur doit intervenir. 
 
-Anti-Harassment Policy
+Politique contre le harcèlement. 
 _
 
-This is a statement of the Programming Historian's principles and sets expectations for the tone and style of all correspondence between reviewers, authors, editors, and contributors to our public forums.
+Ceci est une déclaration des principes du Programming Historian en français et définit nos attentes concernant le ton et le style des échanges entre évaluateurs/évaluatrices, auteur(e)s, reédacteurs/rédactrices et toute autre personne contribuant à nos forums publics.
 
 The Programming Historian is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutinize ideas, to ask questions, make suggestions, or to requests for clarification, but also provides a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudsperson (Amanda Visconti - http://programminghistorian.org/project-team). Thank you for helping us to create a safe space.
 ```
 
-### Guiding the Conversation
+### Mener la discussion
 
-Everyone will be looking to you as the editor for guidance on the system. For most authors and reviewers this will be their first experience with our peer review process. The immediate feedback offered by the message board means that authors may see the reviewer comments before you do. That means you will have to clearly signpost how everything will work and when everyone should participate or wait for further instruction.
+Votre rôle de rédacteur ou de rédactrice signifie que les personnes impliquées dans les différentes étapes de la procédure vont s'appuyer sur vous pour s'orienter. Pour la plupart des auteur(e)s et des évaluateurs/évaluatrices, il peut s'agir d'une première expérience de notre dispositif d'évaluation par les pairs.  La publication immédiate des expertises sous forme de commentaires dans le ticket correspondant signifie que les auteur(e)s peuvent en prendre connaissance avant vous. C'est pourquoi il vous incombe d'indiquer clairement les étapes de la procédure et préciser quand chaque personne doit participer ou attendre des instructions complémentaires.
 
-If possible it is always best to acknowledge review milestones as soon as possible. For example, after the first review has come in, post a response to thank the reviewer and let the author know that another review is on its way. Suggest that they wait for the second review before responding. This lets everyone know what to expect.
+Il est toujours mieux de définir des étapes clés dès que possible. Par exemple, à la suite de la réception de la première évaluation, publiez un message en remerciant l'évaluateur ou l'évaluatrice et en faisant savoir à l'auteur(e) qu'une expertise supplémentaire est attendue. À cette occasion, n'hésitez pas à lui suggérer d'attendre que la seconde expertise arrive avant de répondre. De cette manière, toutes les personnes savent à quoi s'attendre. 
 
-If you are really busy, if possible make a note on the forum to say you have seen the new activity, but will need some time to respond properly. Managing expectations can be key to keeping everyone happy.
+Si vous êtes vraiment pas disponible, faites si possible un bref message expliquant que vous êtes au courant des activités en cours, mais que vous avez besoin de plus de temps pour répondre de manière correcte. Satisfaire les attentes des personnes impliquées est élémentaire pour que tout le monde soit heureux. 
 
-### Summarising the Review
+### Résumer les points principaux de l'expertise
+Une fois que les deux évaluations formelles sont prêtes, de même que toute contribution en provenance de la communauté, vous devez faire un résumé des suggestions faites et indiquer clairement à l'auteur(e) les modifications qui lui sont proposées. Si certaines propositions ne correspondent pas à l'esprit du *Programming Historian en français*, il faut indiquer à l'auteur(e) de ne pas en tenir compte. Merci de vous mettre à la place d'un(e) auteur(e) qui reçoit une évaluation: la personne a besoin d'indications claires, tout en maintenant la liberté de rejeter parmi les suggestions qui lui sont faites celles qui n'améliorent pas nécessairement son écrit. La personne doit encore avoir le sentiment que les objectifs sont bien fixés. Un bon résumé des expertises offre à l'auteur(e) la possibilité de réagir tout en garantissant la publication de son travail, si les principaux obstacles sont dépassés. 
 
-Once the two formal reviews are in (as well as any informal contributions from the community), you will have to summarise the suggestions and give the author a clear path for any revisions that you would like them to respond to. If any suggestions are counter to our aims at the *Programming Historian*, politely tell the author to forego those suggestions. Keep in mind what it is like to be an author and receive a review. You want clear guidance, but also the right to reject ideas that don't improve the piece. You also want assurance that you are not trying to hit a moving target. A good summary of reviews means an author can respond and expect publication if all significant obstacles are met.
+### Gérer la procédure de la révision
 
-### Managing the Revision Process
+Lorsque vous fournissez le résumé des expertises et les instructions finales à l'auteur(e), rappelez aussi le délai de quatre semaines accordé pour faire les révisions. Fixer un délai garantit un horizon de publication des leçons et évite une prolongation de la procédure sans raison. Si l'auteur(e) a du mal à respecter le délai, il lui incombe de contacter le rédacteur ou la rédactrice pour convenir d'une date appropriée. 
 
-With your summary of the reviews and any final instructions for the editor, include a reminder to the author that revisions should be completed within 4 weeks. This is to ensure that lessons are published in a timely fashion and do not drag on unnecessarily. If the author anticipates trouble meeting the deadline, they should contact their editor to establish a more suitable due date.
+## Questions techniques de l'évaluation - liste de vérification éditoriale 
 
-## Technical Processes of Review - Editorial Checklist
+Notre procédure d'évaluation par les pairs est menée sur notre [dépôt des soumissions](https://github.com/programminghistorian/ph-submissions) sur Github. Des instructions détaillées pour télécharger les fichiers et choisir les bons formats et langages se trouvent sur les [consignes aux auteur(e)s](/fr/consignes-auteurs) qui sont régulièrement mis à jour. Merci de vous familiariser avec ces étapes et de vous y référer chaque fois que cela est nécessaire. Si vous avez besoin d'aide, il est toujours possible de [contacter directement par courriel un autre membre de l'équipe de rédaction](/fr/equipe-projet).
 
-Our peer review is conducted on our [Submissions repository](https://github.com/programminghistorian/ph-submissions) on Github. Full instructions for how to upload files, including file formats and formatting guidelines can be found on our [Author Submission Instructions](/author-guidelines) which will always contain the most up to date instructions. Please familiarise yourself with these steps or refer to them as needed. If you need help you are always welcome to [email another editor directly](/project-team).
+Il y a certaines manipulations techniques à faire à ce stade qui sont les suivantes:
 
-There are a few areas where you should intervene in the process from a technical standpoint. They include:
+### A) Nommer le fichier de la leçon
 
-### A) Naming the Lesson File
+C'est au **rédacteur** ou à la **rédactrice** de proposer un nommage de fichier pour la nouvelle leçon qui se conforme aux consignes suivantes: 
 
-The **Editor** should suggest a name for the new lesson file that conforms to these guidelines:
+- Le nom du fichier doit être court, mais descriptif, car il fournira aussi l'URL de la leçon au moment de sa publication. 
+- L'URL idéale est celle qui peut aisément s'insérer dans une diapositive, aussi d'un point de vue esthétique, elle est facile à retenir et peut avoir une fonction sémantique par rapport à la leçon. Nos URL prennent la forme suivante: https://programminghistorian.org/fr/lecons/NOM-DE-FICHIER-ICI
+- N'insérez pas des espaces à l'intérieur des noms de fichiers, préférez les tirets. 
+- L'extension du fichier doit être `.md` pour que Github puisse générer un aperçu de la leçon.
 
-- Make the filename short, but descriptive; this filename will eventually become the slug for the lesson's URL when published.
-- A good URL would fit nicely on a powerpoint slide, is easy to remember, and tells you something about the lesson. Our URLS take the following format: https://programminghistorian.org/en/lessons/FILENAME-HERE
-- Do not put spaces in the filename; use hyphens instead.
-- The filename extension should be `.md` so that GitHub will generate a preview of the lesson.
+Lorsque vous aurez choisi un nom de fichier pour la leçon, merci de l'utiliser aussi pour créer un nouveau dossier dans `images`, c'est là où seront stockées toutes les images de la leçon. S'il existe aussi des fichiers de données, merci de faire la même action dans le dossier `assets`.
 
-Once you have chosen a name for the lesson file, use the same name to create a new folder in `images` which will contain all of the images for the lesson. If the lesson uses data files, do the same in the `assets` folder.
+### B) Initial Check of Markdown Vérification de la syntaxe de Markdown
 
-### B) Initial Check of Markdown
+Les auteur(e)s ont la responsabilité de vérifier que la syntaxe de leur leçon en Markdown est correcte. Si toutes les règles ont été respectées, aucun problème ne devrait se présenter. Au cas contraire, des symboles de Markdown restent visibles sur la page, ce qui signifie qu'il y a des erreurs. Des instructions détaillées sur la syntaxe de Markdown peuvent se trouver dans nos [consignes aux auteur(e)s](/fr/consignes-auteurs).
 
-Authors are responsible for checking that their lesson has rendered properly in Markdown. If they have followed the syntax rules, it should be ok. If you can see any Markdown symbols on the page, something went wrong. Detailed instructions of Markdown syntax are available on our [Author Guidelines](/author-guidelines)
-
+Vous pouvez vérifier rapidement si tout se présente correctement en consultant la version du fichier qui s'affiche sur  
 You can quickly check that everything looks correct on a lesson submission by looking at the rendered version of the page. It will be found at:
 
-`http://programminghistorian.github.io/ph-submissions/lessons/FILENAME-HERE`  (note - no .md at the end)
+`http://programminghistorian.github.io/ph-submissions/fr/lecons/NOM-DU-FICHIER-ICI`  (attention, pas d'extension .md à la fin)
 
-If that doesn't work, let Matthew Lincoln know, and he will try to diagnose it.
+Si cela ne marche pas, merci d'en informer Matthew Lincoln qui s'occupera du problème. 
 
-### C) Sustainability & Internationalization Review
-To increase the lifespan of our lessons, _Programming Historian_ editors should complete a sustainability review as a part of their final checklist. Every submission is different and some of these areas may not be applicable to all submissions. Keeping in mind the difficulty level of each lesson and its intended audience, editors should use these areas as guidelines to ensure that lessons are as sustainable as possible from the date of publication.
+### C) Vérifications de pérennité et d'ouverture internationale
 
-- All software versions and dependencies are described in the introduction to the lesson
-- Sources of data for lessons are clearly noted and should be hosted at the _Programming Historian_ whenever possible
-- Lessons make use of existing software documentation whenever possible
-- Lessons link to Wikipedia for technical terminology
-- Screenshots of software GUIs are limited to those that are required to understand the lesson
-- External links (e.g. software or data sources) are current and live though authors should consider directing users to documentation generally rather than providing links to specific documentation pages
-- Links to articles use DOIs if available
+Pour augmenter la durée de vie de nos leçons, les rédacteurs et rédactrices du _Programming Historian en français_ doivent vérifier si certaines conditions qui garantissent la pérennité de la leçon sont réunies. Certes, les mêmes critères ne peuvent pas nécessairement s'appliquer à tous les dépôts, vu que chaque cas est différent. Toutefois, en tenant compte du niveau de difficulté de chaque leçon et du public auquel il s'adresse, les rédacteurs et les rédactrices peuvent se guider des critères suivants pour s'assurer de la longévité des leçons après la date de leur publication.
 
-To help reach a global audience, authors have been advised to adhere to the following guidelines where possible:
+- Toutes les versions des logiciels et les dépendances sont décrites dans l'introduction de la leçon. 
+- Les sources des données mobilisées par les leçons sont clairement mentionnées et, si possible, hébergées sur le _Programming Historian_. 
+- Les leçons mobilisent la documentation existant sur les logiciels autant que possible.
+- Les leçons pointent vers Wikipédia pour les termes techniques. 
+- Les prises d'écran d'interfaces graphiques sont limitées à ce qui est nécessaire pour la compréhension de la leçon. 
+- Les liens externes (par exemple vers des logiciels ou des sources de données) sont actualisés et pas obsolètes. De ce point de vue, les auteur(e)s doivent pointer vers une documentation générale plutôt que vers des pages spécifiques. 
+- Les liens qui renvoient vers des articles utilisent des identifiants DOI, si ceux-ci sont disponibles.   
 
-- When choosing your methods or tools, try to make choices with multi-lingual readers in mind. This is particularly important when working on textual analysis methods, or where users may reasonably want to have support for different character sets (eg, accented characters, non-Latin, etc).
-- When choosing primary sources, images, producing figures, or taking screen shots, consider how they will present themselves to a global audience.
-- When writing, avoid jokes, cultural references, puns, plays on words, idiomatic expressions, sarcasm, emojis, or language that is more difficult than it needs to be. Mentions of persons, organisations, or historical details should always come with contextual information. It may help to assume your reader does not live in your country or speak your language.
-- In code examples or metadata, use internationally recognised standard formats for dates and times ([ISO 8601:2004](https://www.iso.org/standard/40874.html)). In free text, be aware of cultural differences related to the representation of dates and times which might cause confusion.
-- Where possible, choose methods and tools that have multi-lingual documentation. If this is not practical, it would be great if you could add some multi-lingual references at the end of your tutorial.
+Pour s'adresser à une audience globale, il faut inviter les auteur(e)s à se conformer aux instructions suivantes dans la mesure du possible:
 
-Editors should work closely with authors to ensure that these criteria are met. Where this is not possible, justifications for not meeting them should be clearly and transparently outlined in the relevant review ticket
+- Lorsque vous effectuez les choix de vos méthodes ou vos outils, merci de garder à l'esprit que le lectorat est multilingue. Cela est particulièrement important pour les méthodes d'analyse textuelle ou dans les cas où les utilisateurs et utilisatrices peuvent avoir besoin d'aide pour des jeux de données avec des caractères spécifiques (caractères accentués, non-latins etc). 
+- Au moment du choix des sources primaires, des images, des graphiques ou des prises d'écran, merci de penser à leur perception par une audience globale. 
+- Lorsque vous écrivez, merci d'éviter les blagues, les références culturelles, les jeux de mots, les idiomatismes, le sarcasme, les émojis ou un langage trop sophistiqué. Si des personnes, des organisations ou des détails historiques sont mentionnés, merci de fournir du contexte, car votre lectorat puisse ne pas vivre dans votre pays ou parler votre langue. 
+- Dans les exemples qui fournissent du code ou des métadonnées, merci d'utiliser des formats standard internationaux pour les dates et le temps ([ISO 8601:2004](https://www.iso.org/standard/40874.html). Dans le texte, nous vous remercions par avance de rester vigilant(e) sur les différences culturelles dans la représentation des dates et du temps qui puissent générer de la confusion. 
+- Lorsque cela est possible, optez pour des méthodes et des outils qui disposent d'une documentation multilingue. Si cela n'est pas à portée, il serait pertinent d'ajouter certaines références multilingues à la fin de votre tutoriel. 
 
-### D) Verify Images
+Les rédacteurs et les rédactrices doivent travailler en étroite collaboration avec les auteur(e)s pour s'assurer que ces critères sont remplis. Quand cela n'est pas possible, il faut en expliquer les raisons clairement en toute transparence dans le ticket de suivi éditorial correspondant.
 
-All images should use consistent, semantically meaningful filenames that clearly indicate what they are. If a lesson has a large number of images in rapid succession, and the order is important (for example, a series of screenshots), it may be advisable to use a sequential naming system---ideally using the same hyphenated filename slug as the lesson itself (or an abbreviated version if the lesson title is rather long), followed by numbers to indicate which figure it is (For example, `counting-frequencies-1.png`, `counting-frequencies-2.png`, and so on.)
+### D) Vérifier les images
 
-If a lesson does use a sequential image naming system, it is possible that figure numbering will change during the peer review process. We ask that before a lesson is published that all filenames are updated to the proper figure numbers. This makes it much easier for us to update lessons if needed in the future. Thank you for helping us keep the *Programming Historian* sustainable.
+Toutes les images doivent porter des noms de fichiers cohérents qui décrivent ce qu'elles représentent. Si une leçon comporte un grand nombre d'images qui se succèdent, l'ordre peut être important (par exemple, une série de prises d'écran). Dans ce cas, il est conseillé d'appliquer un système de nommage de fichiers séquentiel, en utilisant dans l'idéal le nom de fichier de la leçon (ou alors une version abrégée si le titre est trop long), numéroté dans chaque cas pour indiquer la figure (par exemple, `counting-frequencies-1.png`, `counting-frequencies-2.png` et ainsi de suite).
 
-Regardless of how the images are named (semantically or sequentially), they should be placed in a subdirectory within the `images` directory. The subdirectory should be named using the same URL slug used to name the lesson. Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
+Si une leçon utilise un système de nommage d'images séquentiel, il est possible que la numérotation des figures se modifie pendant la procédure de l'évaluation par les pairs. Avant la publication d'une leçon, nous demandons que tous les noms de fichiers soient mis à jour avec les bons numéros de figures. Cela facilite aussi la future mise à jour des leçons le cas échéant. Merci de nous aider, de cette manière, à assurer la pérennité du *Programming Historian en français*.
 
-Full instructions on adding images is available in [Author Submission Instructions](/author-guidelines).
+Nonobstant le type de nommage des images, sémantique ou séquentiel, celles-ci doivent être placées dans un sous-répertoire du répertoire `images`. Ce dossier doit être nommé suivant le nom du fichier et de l'URL de la leçon. Merci de vous assurer que les images ont des formats appropriés pour une publication sur le web tel que PNG ou JPEG et ont les bonnes dimensions (à la fois en pixels et en bytes). 
 
-### E) Verify Data files
+Des instructions complètes pour ajouter des images sont disponibles dans les [consignes aux auteur(e)s pour les dépôts des leçons] Full instructions on adding images is available in [Author Submission Instructions](/author-guidelines).
 
-Similarly to Images, all data files should be stored on the site (not linked externally - for sustainability purposes). All data should be stored in the 'assets' directory, using the same rules as above, but authors should feel free to use a description for their data file that reflects what it is:
+### E) Vérifier les fichiers des données
+
+Comme les images, tous les fichiers des données doivent être hébergés sur le site, plutôt que d'être accessibles via des liens externes, pour en assurer la pérennité. Toutes les données doivent être stockées dans le répertoire `assets` selon les mêmes règles citées plus haut, mais les auteur(e)s peuvent se sentir libres d'utiliser un titre descriptif pour le fichier de leurs données qui reflète son contenu: 
 
  - `/assets/LESSON-SLUG/Louvre-Paintings-1.csv`
 
-### F) Verify videos/gifs
+### F) Vérifier les vidéos et les gifs
 
-Videos and gifs are strongly discouraged because they create a range of problems. For example, it is difficult and time consuming to ask for changes to a video during the peer review process, and impossible for an editor to make minor updates to it in years to come as it becomes outdated. Videos also require the administration of a separate channel at YouTube. Videos also cannot be printed, and many of our readers use PDF copies or [printed copies of the *Programming Historian*](https://zenodo.org/record/49873#.V0lazGaGa7o). As such they should ONLY be used when absolutely necessary.
+L'utilisation de vidéos et de gifs n'est franchement pas recommandée car elle peut générer plusieurs problèmes. Par exemple, cela prend beaucoup de temps et d'énergie de demander des modifications sur une vidéo pendant la procédure de l'évaluation par les pairs. Il est par ailleurs impossible pour l'équipe de rédaction d'effectuer des mises à jour au fil des années pour que la vidéo reste actuelle. En outre, les vidéos nécessitent aussi l'administration d'une chaîne distincte sur YouTube. Enfin, elles ne sont pas imprimables, or beaucoup de nos lecteurs utilisent des copies en PDF ou [des imprimés du *Programming Historian*](https://zenodo.org/record/49873#.V0lazGaGa7o). Dans ces conditions, les vidéos devraient être utilisées SEULEMENT lorsque cela s'avère absolument nécessaire.
 
-If a tutorial contains a video it should be hosted on our YouTube channel (which is not set up yet so email the other editors when you get a video). A backup of the file should also be stored in our Github repository, following the same principles of naming and storage as in sections for images and data described above and stored in the 'assets' directory:
-
- - `/assets/LESSON-SLUG/FILENAME-HERE-3`
+Si un tutoriel contient une vidéo, celle-ci doit être hébergée sur notre chaîne YouTube. À ce jour, cette dernière n'est pas configurée, merci donc d'envoyer un courriel au reste de l'équipe de rédaction lorsque vous recevez une vidéo. Une copie de sauvegarde du fichier devrait aussi être placée dans notre dépôt Github, suivant les mêmes principes de nommage et de stockage qui sont valables pour les images et les données, décrites plus haut, pour faire partie du répertoire 'assets': 
+- `/assets/SLUG-DE-LA-LECON/NOM-DE-FICHIER-ICI-3` 
 
 ---
 
-## Acceptance and Publication - Editorial Checklist
+## Acceptation et publication - Liste de vérification éditoriale
 
-Once you and the author are happy with a tutorial, the next step is to move the lesson from the Submissions site to our main repository that hosts the live website.
+Lorsque vous et l'auteur(e) trouvez le tutoriel satisfaisant, l'étape suivante est de transférer la leçon depuis le site des soumissions à notre dépôt principal qui héberge le site web live.
 
-### 1) Move the Files
+### 1) Transférer les fichiers
 
-The easiest way to publish the lesson is to use `git` from the command line. The following instructions assume that you have already cloned both the `jekyll` and `ph-submissions` repositories to your local machine. (Our [lesson on using GitHub Desktop](/lessons/getting-started-with-github-desktop) may be helpful if this is new to you.) If you are not sure how to do that or have any questions, contact Matthew Lincoln for assistance.
+La manière la plus simple pour publier la leçon est d'utiliser `git` depuis la ligne de commande. Les instructions suivantes supposent que vous avez déjà cloné les dépôts `jekyll` and `ph-submissions` en local sur votre machine. Notre [leçon sur l'utilisation de l'application GitHub Desktop](/lessons/getting-started-with-github-desktop) peut vous être utile, si cela est tout nouveau pour vous. Si vous n'êtes pas confiant(e) sur comment procéder ou si vous avez des questions, merci de contacter Matthew Lincoln pour obtenir de l'aide.
 
-1. Go to the directory for your local `ph-submissions` repository.
-2. `git pull` to get all of the newest changes on your machine (or `sync` if you are using GitHub Desktop)
-3. Repeat Steps 1 and 2 for the `jekyll` repository on your local machine.
-4. Copy the lesson files and any related image and asset files from the `ph-submissions` directory on your machine to the appropriate places in the `jekyll` directory on your local machine. (You can use a command like `cp` on the Unix command line, or use your GUI file system if you are using GitHub Desktop.)
-5. From within the `jekyll` directory on your local machine, `git add` the new files and then `git commit` and `git push` the changes.
+1. Aller au répertoire de votre dépôt local `ph-submissions`.
+2. Faire `git pull` pour obtenir le transfert de toutes les modifications récentes sur votre machine (ou faire `sync` si vous utilisez GitHub Desktop).
+3. Répéter les étapes 1 et 2 pour le dépôt `jekyll` sur votre machine.
+4. Copier les fichiers des leçons et ceux des images et ressources associées depuis le dépôt `ph-submissions` de votre machine aux endroits appropriés dans le répertoire de `jekyll`, toujours sur votre machine (il est possible d'utiliser la commande `cp` depuis la ligne de commande Unix ou naviguer dans l'arborescence de fichiers de votre interface graphique si vous utilisez GitHub Desktop). 
+5. Depuis le répertoire `jekyll` qui se trouve en local sur votre machine, exécuter `git add` pour les nouveaux fichiers puis `git commit` et `git push` pour soumettre et envoyer les modifications.
 
-After the lesson has been moved to the `jekyll` repository, you'll also need to archive the submitted lesson on the `ph-submissions` repository.
+Après le transfert de la leçon dans le répertoire `jekyll`, il faudra aussi archiver la version soumise au dépôt `ph-submissions`.
 
-1. Go to the directory for your local `ph-submissions` repository.
-2. Add a new line to the YAML header of the now published lesson: `redirect_from: "/lessons/LESSON-SLUG"`
-3. Copy the now published lesson from `lessons/` into `lessons/published/`.
-4. Copy the image folder containing the images for the now published lesson from `images/` to `images/published/`.
-5. Use `git add`, `git commit`, and `git push` to finalize all the changes.
+1. Aller au répertoire `ph-submissions` de votre dépôt local.
+2. Ajouter une nouvelle ligne à l'en-tête YAML de la leçon qui est désormais publiée: `redirect_from: "/lessons/SLUG-DE-LA-LEÇON"`
+3. Copier la leçon publiée depuis `lessons/` vers `lessons/published/`.
+4. Copier le dossier qui contient les images de la leçon publiée depuis `images/` vers `images/published/`. 
+5. Exécuter les commandes `git add`, `git commit` et `git push` pour finaliser toutes les modifications.   
 
-### 2) Create an Author Bio
+### 2) Créer une bio d'auteur(e)
 
-If the lesson has been written by a new author, editors should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Follow the syntax for the examples already included there:
+Si l'auteur(e) de la leçon apparaît pour la première fois, il appartient au rédacteur ou à la rédactrice d'ajouter les informations concernant la personne dans le [répertoire des auteur(e)s](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml) du site. Merci de respecter la syntaxe des exemples qui se trouvent dans le fichier:
 
 ```yaml
 - name: Jim Clifford
@@ -226,49 +219,50 @@ If the lesson has been written by a new author, editors should add information a
           at the University of Saskatchewan.
 ```
 
-**Whitespace is important**, so be sure that the indentation matches the other examples.
+**L'espace blanc est important**, merci donc de faire attention à ce que l'indentation suive le reste des exemples. 
 
-### 3) Add a table of contents to the lesson
+### 3) Ajouter une table de matières à la leçon
 
-The following code should be added into the text of the lesson, usually before the first subheader:
+Le code suivant doit être ajouté au texte de la leçon, habituellement avant le premier sous-titre:
 
 ```
 {% raw %}{% include toc.html %}{% endraw %}
 ```
 
-### 4) Add reviewers and editors to the YAML file
+### 4) Ajouter les évaluateurs/évaluatrices et rédacteurs/rédactrices dans le fichier YAML
 
-It is important that we acknowledge the work of our peer reviewers and editors. To the YAML file at the top of the tutorial, add the names of the reviewers who helped work on the piece as well as the names of any members of the community who contributed substantial open reviews. In addition, create an `editors` key and add yourself and any other editors who actively contributed to guiding the piece to publication. YAML formatting instructions can be found in the [Author Guidelines](/author-guidelines).
+Il est important de reconnaître le travail accompli par les personnes qui assurent l'évaluation par les pairs et le suivi éditorial des leçons. Merci d'ajouter les noms des évaluateurs/évaluatrices, ainsi que de toute personne ayant contribué à l'évaluation ouverte, dans le fichier YAML qui correspond au haut de la page du tutoriel. Par ailleurs, merci de créer un champ `editors` pour insérer votre nom et celui d'autres membres de l'équipe de la rédaction qui a eu un rôle actif dans la publication de la pièce. Des instructions pour le formatage des fichiers YAML sont disponibles dans les [consignes aux auteur(e)s](/author-guidelines).
 
-### 5) Add a difficulty indicator to the YAML file
+### 5) Insérer un indice de difficulté dans le fichier YAML
 
-To help readers evaluate which lessons best fit their goals and skill level, we provide "Recommended for ___ Users" information in the lesson YAML file. There are currently three tiers, which can be set with the following numerical codes: 1 (Beginning), 2 (Intermediate), 3 (Advanced). To add the difficulty level to the lesson, include the following in the YAML file:
+Pour aider les lecteurs et les lectrices repérer les leçons qui conviennent mieux à leur niveau de besoins et de compétences, le fichier YAML du tutoriel contient une information de type "Recommandé aux utilisateurs de niveau __ ". Il existe à l'heure actuelle trois niveaux définis qui sont codés comme suit: 1 (débutant), 2 (intermédiaire), 3 (avancé). Pour insérer cette information dans le fichier YAML, merci d'ajouter:
 
 ```yaml
 difficulty: 1
 ```
 
-### 6) Add the review ticket URL to the YAML file
+### 6) Ajouter le ticket d'évaluation dans le fichier YAML
 
-In order to promote transparency around the review process, create a `review-ticket` key in the YAML file and provide the URL to the peer review in the ph-submissions repository. This information will be used to provide a link back to the review ticket for the lesson.
+Pour assurer la pleine transparence autour de la procédure de l'évaluation, merci de créer un champ `review-ticket` dans le fichier YAML pour fournir l'URL qui correspond au ticket d'évaluation qui se trouve sur le dépôt des soumissions ph-submissions. En insérant cette information, un lien sera créé pour pointer vers le ticket d'évaluation depuis la leçon.
 
-### 7) Update the date field in the YAML file
+### 7) Mettre à jour le champ de date dans le fichier YAML
 
-Update the date in the YAML file to the date the lesson was moved to the jekyll repository and the added to the main site.
+Mettez à jour la date dans le fichier YAML pour indiquer quand la leçon a été transférée dans le dépôt de jekyll et intégrée au site web principal.
 
-### 8) Other lesson YAML finalization
-Looking at the example below, make sure all front matter on the lesson is properly filled out.  Common fields that need writing or editing at this point are:
-- **collection** should just say "collection: lessons"
-- **layout** should just say "layout: lesson"
-- **slug** should have the path to the lesson on the public PH site, which means the hyphenated text following programminghistorian.org/lessons/ (e.g. building-static-sites-with-jekyll-github-pages)
-- **activity** should use one (and only one) of these five options: *acquiring, transforming, analyzing, presenting, sustaining*. Pick whichever one best describes what the lesson teaches you to do with humanities data (e.g. a lesson on creating a new Omeka website would be about *presenting* humanities data through a web gallery).
-- **topics** can be any number of the things listed after "type:" in /\_data/topics.yml. You are also encouraged to create new topics that would help someone find the lesson. To do so, besides listing the topic(s) in the lesson's front matter, you should:
-1. Add the topic to any existing lesson(s) also described by the new topic
-2. Add the new topic(s) to /\_data/topics.yml following the format of the other topics there (note that topics can't have spaces—use hyphens if needed).
-3. Edit /js/lessonfilter.js so the filter button to filter the lesson page to that topic works. Search the file for the ten-line chunk of code beginning with "$('#filter-api')", copy and paste that chunk of code, and replace the *two* appearances of "api" with your new topic.
-- **abstract** is a 1-3 sentence description of what you'll learn in the lesson. Try to avoid technical vocabulary when possible, as these summaries can help scholars without technical knowledge to try out something new.
+### 8) Autres touches finales pour le fichier YAML
 
-Check out the example below to see what finished front matter should look like:
+Selon l'exemple ci-dessous, merci de vous assurer que tous les champs de l'en-tête du fichier de la leçon sont correctement remplis. Le plus souvent, les champs à être complétés ou modifiés à ce stade sont les suivants: 
+- **collection** doit simplement contenir "collection: lessons"
+- **layout** doit simplement contenir "layout: lesson"
+- **slug** doit reproduire le chemin vers la leçon tel qu'il s'affiche sur le site web public du PH, à savoir le texte avec traits d'union qui suit l'adresse programminghistorian.org/lessons/ (par exemple, building-static-sites-with-jekyll-github-pages)
+- **activity** doit utiliser une seule et unique option parmi les cinq suivantes: *acquiring, transforming, analyzing, presenting, sustaining*. Merci de sélectionner celle qui décrit mieux ce que la leçon apprend à faire avec les données des sciences humaines et sociales (par exemple, une leçon sur comment créer un site web avec Omeka mobiliserait la catégorie *presenting* car il s'agit de présenter ses données en les exposant sur une galerie web).
+- **topics** peut correspondre à tout ce qui est listé sous "type:" dans le fichier /\_data/topics.yml. Nous vous invitons aussi à créer de nouveaux sujets qui peuvent faciliter la découverte des leçons. Pour ce faire, en plus de noter le(s) sujet(s) dans l'en-tête de la leçon, il faudrait encore: 
+1. Indexer aussi, en utilisant le nouveau sujet, toutes les anciennes leçons que celui-ci sert à décrire également. 
+2. Ajouter le nouveau sujet - ou plus le cas échéant - dans le fichier /\_data/topics.yml en respectant le format suivi pour les autres sujets (merci de noter que les espaces blancs ne sont pas permis-utiliser des traits d'union si nécessaire).
+3. Modifier le fichier /js/lessonfilter.js pour que le classement de la page de la leçon par sujet puisse prendre effet. Rechercher dans le fichier la partie du code à dix lignes qui commence par "$('#filter-api')", remplacer les *deux* occurrences de "api" avec votre nouveau sujet. 
+- **abstract** est une description de deux à trois phrases sur l'apport de la leçon. Merci d'éviter autant que possible les termes techniques car ces résumés s'adressent aux universitaires qui n'ont pas de connaissances techniques pour les convaincre précisément de tester de nouvelles méthodes. 
+
+Voici ci-dessous un en-tête achevé qui peut servir d'exemple:
 
     ---
     title: "Getting Started with Topic Modeling and MALLET"
@@ -293,38 +287,37 @@ Check out the example below to see what finished front matter should look like:
     abstract: "In this lesson you will first learn what topic modeling is and why you might want to employ it in your research. You will then learn how to install and work with the MALLET natural language processing toolkit to do so."
     ---
 
-### 9) Find an Image to represent the lesson
+### 9) Trouver une image pour représenter une leçon
+Pour illustrer nos leçons, nous utilisons de vieilles images qui nous semblent représentatives du contenu des tutoriels. L'ensemble de ces images se trouve dans le répertoire des leçons. Ces images sont choisies par les rédacteurs et les rédactrices. 
 
-We represent our lessons using an old image that we feel captures some element of the task described in the tutorial. You can see the full range of these on the [main Lessons directory](/lessons/). These images are selected by editors.
-
-Here are a few places to look for lesson images:
+Ci-dessous quelques sites pour chercher des images:
 
  - The [British Library](https://www.flickr.com/photos/britishlibrary)
  - The [Internet Archive Book Images](https://www.flickr.com/photos/internetarchivebookimages)
  - The [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
-Ensure that the image matches the style of the other images (it should be a book image, not a photograph), is at least 200 pixels in both dimensions, and is not copyright restricted. Make sure the image is not offensive, and keeping with our [Commitment to Diversity](/posts/PH-commitment-to-diversity) try to find something that does not perpetuate stereotypes or send a subtle message about maleness and whiteness.
+Merci de prendre soin de trouver une image dont le style est proche de celles déjà utilisées, donc pas de photographie, mais plutôt une image d'illustration de livre, de taille minimale de 200x200 pixels, sans restriction de droits de copyright. Merci de faire attention à ce que les images ne heurtent pas les sensibilités et, en conformité à notre [engagement en faveur de la diversité](/posts/PH-commitment-to-diversity), qu'elles ne reproduisent pas de stéréotypes sexistes ou raciaux.
 
-Save the original image. The filename should be the same as the corresponding lesson’s URL slug with `-original` at the end, and the filetype must be `.png`. For example, the lesson “Cleaning Data with OpenRefine” has the URL slug `cleaning-data-with-openrefine`, so its original lesson image filename should be `cleaning-data-with-openrefine-original.png`.
+Par la suite, il faut sauvegarder l'image originale. Le nom du fichier deoit être le même que celui de la leçon correpospondante, et donc correspondre aussi au slug de son URL, suivi de `-original` à la fin. Le fichier doit être en format `.png`. Prenant pour exemple la leçon “Cleaning Data with OpenRefine”, le texte (slug) de son URL est `cleaning-data-with-openrefine`, par conséquent le nom de fichier de l'image de la leçon doit être `cleaning-data-with-openrefine-original.png`.
 
-Then, create a new copy of the image. Crop it to a square without removing any important features. Change the dimensions to 200x200 pixels. Convert the image to grayscale. Perform any adjustments necessary to make it conform to the other lesson images, such as lightening or darkening it, or altering the contrast. Save this new image as the lesson’s URL slug; again, **the file format must be png**. In our previous example, the filename would be `cleaning-data-with-openrefine.png`.
+Il faut ensuite créer une nouvelle copie de l'image. Découpez-la en carré en préservant l'essentiel de la représentation puis modifiez la résolution en 200x200 pixels et convertissez-la en mode niveaux de gris. Si besoin, faites des réajustements pour que l'image soit conforme à celles des autres leçons au niveau de la luminosité ou des contrastes. Cette nouvelle image doit être sauvegardée dans un fichier nommé selon le texte de l'URL de la leçon sans oublier que **le format doit être en png**. Pour reprendre notre exemple précédent, le nom de ce fichier serait donc `cleaning-data-with-openrefine.png`.
 
-Upload the original image to the [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) folder, and upload the edited image to the [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery) folder.
+Le fichier de l'image originale doit être téléchargé dans le répertoire [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals), celui de l'image modifiée dans le répertoire [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery).
 
-### 10) Incorporate your lesson into our Twitter bot
-In addition to the Twitter promotion outlined below, we also make use of a Twitter bot to regularly re-advertise older lessons. In order to add the new lesson to our pipeline, you need to add it as a row in [this spreadsheet](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Everyone on the editorial team should have the ability to make changes; email the google group if you have trouble. You will need to add a new row for your lesson to the end of the table with the following fields:
+### 10) Intégrer votre leçon dans notre bot Twitter
+La campagne de promotion sur Twitter, dont les étapes sont décrites ci-dessous, utilise aussi un bot pour faire une communication régulière sur les leçons plus anciennes. Pour y ajouter une nouvelle, vous remplissez une ligne dans [ce fichier](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Normalement, tous les membres de l'équipe éditoriale doivent pouvoir modifier le tableur. En cas de problème, merci de faire un courriel au groupe Google. Il vous faut ajouter une nouvelle ligne pour votre leçon ) la fin du fichier avec les champs suivants: 
 
-* message_one (column A) - a twitter message to play early in the week.
-* message_two (column B) - an "In Case You Missed It" twitter message to play later in the week.
-* link (column C) - the link to the lesson.
+* message_one (column A) - un message pour twitter qui est publié au début de la semaine.
+* message_two (column B) - un message twitter de type "Si vous avez raté cela" qui est publié plus tard la semaine.
+* link (column C) - le lien vers la leçon.
 
-Leave column D blank and untouched - this field is used by the Twitter bot to log its progress through the list. Also note that this step should not replace your own promotion of the lesson. The bot goes through the lessons at random, one a week, so it could be months until your lesson comes up through this means.
+Laissez la colonne D vide sans intervenir - ce champ est utilisé par le bot pour enregistrer son progrès à travers la liste. Par ailleurs, cette étape ne remplace pas votre propre promotion de la leçon. Le bot relève les leçons de manière aléatoire une fois par semaine, ce qui signifie que votre leçon pour mettre plusieurs mois avant d'avoir son tweet.
 
-### 11) Confirm all links and YAML headers are functioning correctly
+### 11) Vérifier les liens et les en-tête en YAML
 
-Once you push your changes on to the `gh-pages` branch of the [programminghistorian][ph_repo] repository, the site will be automatically tested by [Travis CI] ([Continuous Integration]).
-This test process checks two things: first, that all YAML and markdown code is parseable, and second, that all the hyperlinks on the site point to valid, operational pages.
+Une fois que vous aurez soumis vos modifications à la branche `gh-pages` du dépôt du [programminghistorian][ph_repo], le site web sera automatiquement testé par [Travis CI] ([Continuous Integration]).
+Cette procédure teste deux choses: d'abord que tout le code en YAML et markdown peut être parsé, ensuite que tous les hyperliens du site web pointent vers des pages valides et opérationnelles.
 
 [ph_repo]: https://github.com/programminghistorian/jekyll
 
@@ -332,41 +325,43 @@ This test process checks two things: first, that all YAML and markdown code is p
 
 [Continuous Integration]: https://www.thoughtworks.com/continuous-integration
 
-We run these builds primarily to check that URLs that _once_ were functional are _still_ functional, as often times external web pages are moved to new addresses, or are no longer live.
-They are also an excellent way to catch small typos that may have evaded authors, editors, and reviewers.
-The status of these tests (often called a "Build Status" on Travis CI and on GitHub) can be seen by navigating to the [programminghistorian repository page][ph_repo], and clicking "Commits" on the upper left side of the code menu.
+Ces opérations visent principalement à vérifier si des URL qui _par le passé_ ont été valides le restent _toujours_ car, souvent, les pages externes au site changent d'adresse ou ne sont plus alimentées.
+Elles offrent en outre un excellent moyen pour repérer des coquilles qui auraient pu échapper à l'attention des auteurs, rédacteurs et relecteurs.
+L'état de ces tests, couramment appelé _"Build Status"_ sur Travis CI et sur GitHub, peut être vérifié en naviguant sur la [page du dépôt du programminghistorian][ph_repo] et en cliquant sur "Commits" en haut à gauche du menu du code.
 
 ![GitHub commit menu location](/images/editor-guidelines/gh_commits_location_screen.png)
 
-This will show you the list of every change made to the main repository, along with a status icon:
+Ainsi, vous pouvez voir la liste de toutes les modifications effectuées sur le dépôt principal, tout comme une icône qui montre l'état:
 
-- Green check mark: you're good to go! All the links on the page were checked and found valid. [**You may skip the rest of this section.**](#11-thank-everyone-and-encourage-promotion)
-- Yellow circle: your latest commit is still building. Wait 1-2 minutes and then check back.
-- Red X: there was an error in the build.
+- Coche verte: c'est bon! Tous les liens d'une page ont été vérifiés et sont valides. [**Vous pouvez ignorer la partie de la section qui suit**](#11-thank-everyone-and-encourage-promotion)
+- Cercle jaune: votre dernière modification est toujours en cours d'enregistrement. Attendez quelques minutes avant de vérifier à nouveau. 
+- X rouge: il y a eu une erreur dans l'enregistrement de la modification.
 
-If your build has errored, you will need to consult the build logs to see what is causing it.
+Si votre compilation a échoué, il est nécessaire de consulter l'historique pour en repérer la cause.
 
-1. Click on the red X for the most recent commit (the one nearest the top of the page), and click on the "Details" link.
+1. Cliquer sur l'icône de X rouge qui correspond à la modification la plus récente (elle apparaît au plus haut de la page) puis cliquer sur le lien "Details". 
 ![Travis details location](/images/editor-guidelines/commit_list_screen.png)
-2. This will bring you to the build log page on Travis CI. Build logs are usually several hundred lines long, but the error information we are looking for will be at the bottom. Click on the small gray circle at the upper right of the log display to scroll to the bottom.
+2. Vous serez ainsi dirigés vers la page de l'historique des compilations sur Travis CI. Les compilations sont habituellement longues de plusieurs centaines de lignes, mais il faut descendre pour trouver l'information sur l'erreur. Cliquez donc sur le petit cercle gris qui se trouve en haut à droite de l'affichage de l'historique pour afficher le bas de la page. 
 ![The top of the Travis CI build screen](/images/editor-guidelines/travis_top_screen.png)
-3. You may see two types of errors: first, if a page is missing a required YAML field (e.g. if a lesson does not have an `editors` field) then this will be marked in red. Failing links will be also be listed in red, grouped by the page they appeared in. If any links in your new lesson are causing errors, go back and double check that they do not have any typos. If they do, then make any necessary corrections and commit the changes to the repository, and wait for Travis CI to run its tests again.
+3. Il existe deux types d'erreurs: d'abord, si un des champs requis en YAML est manquant (par exemple, si une leçon n'a pas de champ `editors`), cela apparaîtra en rouge. Les liens qui ne marchent pas seront aussi affichés en rouge et regroupés selon la page à laquelle ils apparaissent. Si des liens de votre leçon renvoient des erreurs, il vaut mieux vérifier à nouveau qu'il n'y a pas de fautes dans l'adresse. Si c'est le cas, il faut faire les corrections nécessaires puis soumettre les modifications au dépôt et attendre que Travis CI lance de nouveaux tests. 
 ![Locating error details in Travis CI build results](/images/editor-guidelines/travis_bottom_screen.png)
 
-- There are some rare circumstances in which a link will be failed by Travis CI, but will work perfectly fine when you navigate to it in your own Internet browser. If this occurs, [create a new issue] so that one of the members of the technical team can review the problem and find a workaround.
-- As part of its normal operations, Travis CI will occasionally go back and re-check old links across this entire site, including old lessons. Therefore, you may see an error being caused not by your lesson, but by another page. If you can see how to immediately fix those errors on other pages, please do so, and then wait for the build to re-run. If you do not have the time to track down those other broken links, first ensure that there are no error links coming from your new lesson, and then [create a new issue] so that someone else on the technical team can review the problem.
+- Rarement, un lien qui échoue sur Travis CI peut parfaitement fonctionner lorsque vous vous y rendez à partir de votre propre navigateur. Si cela arrive, merci de [créer un nouveau ticket] pour que l'un des membres de l'équipe technique puisse travailler sur le problème pour trouver une solution.
+- Dans le cadre de ces opérations habituelles, Travis CI ira occasionnellement vérifier des liens de tout le site y compris ceux d'anciennes leçons. Ainsi, il est possible de voir une erreur qui est causée non pas par votre leçon, mais par une autre page. Si vous avez moyen de corriger ces erreurs dans l'immédiat, merci de le faire puis attendre qu'une nouvelle compilation se fasse. S'il vous est impossible d'enquêter sur ces autres liens, merci de vérifier que les erreurs ne viennent pas de votre leçon et, par la suite, [créer un nouveau ticket] pour qu'un autre membre de l'équipe technique puisse s'occuper du problème.
 
-[create a new issue]: https://github.com/programminghistorian/jekyll/issues/new
+[créer un nouveau ticket]: https://github.com/programminghistorian/jekyll/issues/new   
 
-### 12) Thank Everyone and Encourage Promotion
-It's important to send an email or message to everyone involved thanking them for their efforts. In particular, thank the author for contributing and encourage them to think of us again in future. It's also worth giving the author some ideas on promoting their lesson. The most-used lessons always have authors' energies behind them. For example authors should be encouraged to:
 
-- Tweet at least 3 times about their lesson (with a link).
-- Retweet our tweets about their lesson ('liking' does not help spread the word)
-- Promote their lesson in presentations or publications about their research
-- Link to it in blog posts when relevant
-- Add it to lists of resources in relevant repositories (eg, Wikipedia, community groups, etc).
 
-People don't find lessons on their own. The hard work is done, so let's make sure it was worth it!
+### 12) Remerciements et promotion de la communication
+Il est important d'envoyer un message à toutes les personnes impliquées pour les remercier de leur contribution. En particulier, il faut remercier l'auteur(e) et lui proposer des pistes pour faire la communication autour du cours. Les leçons les plus populaires bénéficient en règle générale de l'énergie investie par leurs auteur(e)s. À titre d'exemple, il est possible d'inviter les auteur(e)s à:
+
+- Tweeter au moins trois fois sur la leçon (en fournissant le lien)
+- Retweeter nos tweets autour de leur leçon (seulement "liker" un tweet n'aide pas à disséminer le message)
+- Faire la promotion de leur leçon dans le cadre de présentations ou de publications de leur recherche
+- Pointer vers la ressource à partir d'un blog quand le cadre s'y prête
+- Ajouter la leçon aux listes de ressources des dépôts appropriés (par exemple, Wikipédia, pages de groupes etc)
+
+Les leçons sont le fruit d'un investissement considérable, faisons donc de notre mieux pour que les gens puissent les découvrir! 
 
 
