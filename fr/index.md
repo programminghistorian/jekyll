@@ -9,7 +9,7 @@ title: The Programming Historian en français
 <div class="home-block">
 	<div class="container">
 		<h2>The Programming Historian en français</h2>
-		<p>Nous publions des tutoriels évalués par des pairs qui permettent l'initiation et l'apprentissage d'un large éventail d'outils numériques, de techniques et de flux de travail pour faciliter la recherche et l'enseignement en sciences humaines et sociales. Nous tenons à créer une communauté diversifiée et inclusive de rédacteurs, d'auteurs et de lecteurs. </p>
+		<p>Nous publions des tutoriels évalués par des pairs qui permettent l'initiation à et l'apprentissage d'un large éventail d'outils numériques, de techniques et de flux de travail pour faciliter la recherche et l'enseignement en sciences humaines et sociales. Nous tenons à créer une communauté diversifiée et inclusive de rédacteur(trice)s, d'auteur(e)s et de lecteur(trice)s. </p>
 	</div>
 </div>
 
@@ -23,7 +23,7 @@ title: The Programming Historian en français
 <div class="home-block ">
 <div class="container">
 <h2>Enseigner</h2>
-<p>Vous pouvez utiliser le <i>Programming Historian en français</i> dans le cadre de vos cours ou vos ateliers! Si nous pouvons améliorer nos leçons pour qu'elles répondent mieux à vos besoins ou si vous rencontrez des difficultés, merci de <a href="fr/feedback.html">nous le faire savoir</a>.</p>
+<p>Vous pouvez utiliser le <i>Programming Historian en français</i> dans le cadre de vos cours ou de vos ateliers! Si nous pouvons améliorer nos leçons pour qu'elles répondent mieux à vos besoins ou si vous rencontrez des difficultés, merci de <a href="fr/feedback.html">nous le faire savoir</a>.</p>
 </div>
 </div>
 

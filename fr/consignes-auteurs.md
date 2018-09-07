@@ -1,65 +1,74 @@
 ---
-title: Author Guidelines
+title: Consignes aux auteur(e)s
 layout: blank
 redirect_from: 
- - /new-lesson-workflow
- - /author-guidelines
+ - /nouvelle-leçon-workflow
+ - /consignes-auteurs
 ---
 
-# Author Guidelines
+# Consignes aux auteur(e)s
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
-<h2 class="noclear">Step 1: <a href="#proposing-a-new-lesson">Proposing a New Lesson</a></h2>
-<h2 class="noclear">Step 2: <a href="#writing-a-new-lesson">Writing and Formatting a New Lesson</a></h2>
-<h2 class="noclear">Step 3: <a href="#submitting-a-new-lesson">Submitting a New Lesson</a></h2>
+<h2 class="noclear"> Étape 1 : <a href="#proposer-une-nouvelle-leçon">Proposer une nouvelle leçon</a></h2>
+<h2 class="noclear">Étape 2 : <a href="#écrire-une-nouvelle-leçon">Écrire et mettre en forme une nouvelle leçon</a></h2>
+<h2 class="noclear">Étape 3 : <a href="#soumettre-une-nouvelle-leçon">Soumettre une nouvelle leçon</a></h2>
 
-## Proposing a New Lesson
-If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, contact [Jessica Parr] to discuss your idea. Getting in touch at an early stage will help you frame your lesson--especially identifying a target audience and expected skill level--and to pair you with the most appropriate editor.
+## Proposer une nouvelle leçon
+Si vous avez une idée pour une nouvelle leçon, ou si vous avez déjà rédigé un tutoriel qui, selon vous, pourrait être adapté au *Programming Historian en français*, contactez [Jessica Parr] pour discuter de votre idée. En prenant contact avec l'équipe au tout début du processus, il vous sera plus facile d'élaborer votre leçon -- et plus particulièrement d'identifier le lectorat cible et le niveau de compétence attendu - et de vous associer à l'éditeur(trice) le(a) plus expérimenté(e) sur les thèmes que vous abordez.
 
 <div class="alert alert-success">
-We welcome tutorials relevant for the humanities, pitched at any level of technical aptitude and experience that focus on one problem or process, can be sustainable in the long term, and are addressed to a global audience. The scope and length of the tutorial should be appropriate to the complexity of the task being taught. Tutorials should not exceed 8,000 words (including code) without the explicit permission of the editor, which will be granted only in exceptional circumstances. We expect that most lessons will be between 4,000 and 6,000 words. Longer lessons may need to be split into multiple tutorials.
+Nous acceptons des tutoriels :
+
+ - pertinents pour les humanités, 
+ - adaptés à n'importe quel niveau de compétence et d'expérience technique, 
+ - concernant un problème ou un processus particulier, 
+ - pérennes dans le long terme, 
+ - et s'adressant à un public international. 
+
+La portée et la longueur du tutoriel doivent être appropriés à la complexité de la tâche qui y est expliquée. La longueur des tutoriels ne doit pas excéder 8,000 mots (en incluant le code source) à moins que l'éditeur(trice) n'en ait explicitement donné la permission. Celle-ci sera uniquement accordée dans des circonstances exceptionnelles. Nous demandons que la longueur des leçons soit en général comprise entre 4,000 et 6,000 mots. Les leçons plus longues pourront être divisées en plusieurs tutoriels.
 </div>
 
-You can get a better sense of what we publish by looking through our [published lessons], reading our [reviewer guidelines] or browsing the [lessons currently in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). We encourage lesson proposals on topics already covered or in development, provided that the new lesson makes its own unique contribution.
+Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos [leçons publiées], en lisant nos [consignes aux relecteur(trice)s] ou en parcourant les [leçons en cours de développement](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lecons). Nous vous encourageons à proposer des leçons sur des sujets déjà traités ou en en cours de développement, à condition que la nouvelle leçon apporte sa propre contribution originale au traitement d'un sujet donné.
 
-To aid in the sustainability of our lessons, authors should seek to submit lessons that are not overly dependent upon specific software or user interfaces. These lessons inevitably break or need substantial revision when a new version comes out. Teaching concepts rather than 'click on the _x_ button' helps make for sustainable tutorials.
+Afin d'assurer la pérennité de nos leçons, les auteur(e)s doivent s'efforcer de soumettre des leçons qui ne sont pas complètement dépendantes de logiciels spécifiques ou d'interfaces utilisateurs. Ces leçons vont à coup sûr souffrir d'instabilité, et vont avoir besoin de révisions substantielles lorsque sort une nouvelle version du logiciel ou de l'interface. Enseigner des concepts, plutôt que demander de 'cliquer sur le bouton _x_', facilite la rédaction et la publication de tutoriels pérennes.
 
-Once your proposal is accepted, an editor will create a "Proposal" ticket in our [submissions repository](https://github.com/programminghistorian/ph-submissions/issues) with the lesson's working title and proposed learning outcomes. This ticket serves to mark the work in progress while you are writing your lesson. To avoid a backlog in the system, we ask that you submit your lesson within 90 days of the proposal being accepted.
+Une fois que votre proposition est acceptée, un(e) éditeur(trice) va créer un ticket "Proposition" dans notre [dépôt de soumissions](https://github.com/programminghistorian/ph-submissions/issues) avec le titre provisoire de la leçon et les objectifs pédagogiques proposés. Ce ticket sert à signaler le travail en cours alors que vous êtes en train de rédiger votre leçon. Pour éviter d'accumuler les retards, nous vous demandons de soumettre votre leçon dans les 90 jours suivants l'acceptation de votre proposition.
+
+-----
+
+## Écrire une nouvelle leçon
+Le *Programming Historian en français* est hébergé par [GitHub](http://github.com), qui est plateforme gratuite permettant de sauvegarder des fichiers et de suivre l'historique de leurs révisions. La plupart du temps, Github est utilisé pour stocker des fichiers de code de programmation, mais c'est aussi une excellente solution pour maintenir une ressource en libre accès comme le *Programming Historian en français*. Plus spécifiquement, notre site utilise [GitHub Pages] pour traiter un ensemble de fichiers de texte brut et les transformer en un site internet élégant.
+
+Cela signifie que nous demandons aux auteur(e)s de respecter les consignes détaillées ci-dessous pour écrire leurs leçons. Celles-ci sont non seulement stylistiques, mais aussi nécessaires pour assurer le bon fonctionnement de notre plateforme de publication. Si nos exigences vous semble difficiles à respecter, **nous sommes là pour vous aider à vous familiariser avec le processus de publication, et à apprendre à utiliser, au fur et à mesure de vos avancées, les technologies nécessaires**.
+
+Gardez à l'esprit que ce projet est basé sur le volontariat, et que nous avons donc besoin que vous fassiez bien attention à tous ces détails.
+
+### Utilisez le texte brut
+Parce que notre site est hébergé avec [GitHub Pages](https://pages.github.com), **votre leçon doit être écrite en texte brut**, en utilisant un éditeur de texte de votre choix. *Les éditeurs de texte se distinguent clairement des traitements de texte traditionnels comme Microsoft Word*. Nous recommandons d'utiliser [Atom](https://atom.io/), qui est disponible sous Mac ou Windows. Les utilisateurs de Mac peuvent également envisager d'utiliser [TextWrangler] ou TextEdit (qui est fourni avec macOS). Les utilisateurs de Windows peuvent envisager d'utiliser [Notepad++].
+
+Si le choix de l'éditeur n'a pas vraiment d'importance, vous devriez toutefois écrire dès le départ votre leçon en texte brut pour éviter des frustrations dans le futur. Par exemple, les guillemets insérés automatiquement par Word crée des problèmes de formatage difficiles à débugger. 
+
+### Mettez en forme les notes de bas de page
+Nous vous demandons de bien vouloir utiliser le style [Chicago Manual of Style](https://fr.wikipedia.org/wiki/The_Chicago_Manual_of_Style) pour mettre en forme les notes de bas de page.
+
+### Choisissez un nom facile à trouver
+Appelez le fichier de votre nouvelle leçon en respectant les conseils suivants :
+
+-   Utilisez des minuscules et choisissez un nom court mais parlant. Ce nom de fichier deviendra le [slug] de l'URL de la leçon quand elle sera publiée. Par exemple, le titre de la leçon intitulée "Débuter avec Markdown" a le slug suivant : `débuter-avec-markdown` et l'URL : `https://programminghistorian.org/en/lessons/débuter-avec-markdown`. Pensez à regarder des leçons existantes pour plus d'exemples concrets.
+-   Votre "slug" sera référencé plus tard de la manière suivante LEÇON-SLUG. 
+-   Pensez à la manière dont des lecteur(trice)s potentiel(le)s pourraient chercher quelque chose de similaire à votre leçon. Un "slug" riche de mots-clé est une bonne manière de capter le trafic des moteurs de recherche.
+-   N'utilisez pas d'espaces ou de tirets bas `(_)` dans le nom du fichier ; utilisez plutôt les tirets haut `(-)`.
+-   L'extension du nom du fichier doit être `.md` (markdown).
 
 
-## Writing a New Lesson
-The *Programming Historian* is hosted at [GitHub](http://github.com), which is a free platform for maintaining files and their revision history. It's most often used to store files of programming code, but it's also a fabulous way to maintain an open-access resource like the *Programming Historian*. More specifically, our site uses [GitHub Pages] to take a bunch of plain text files and turn them into a spiffy website.
+### Ajoutez des métadonnées
+Notre plateforme de publication, [GitHub Pages], dépend d'en-têtes spéciales, qui doivent être insérées dans chaque fichier de leçon en texte brut. Ces en-têtes sont appelées blocs liminaires [YAML], et c'est grâce à elles que la leçon s'affiche correctement sur notre site internet. Ces blocs consistent en des champs (comme "titre" et "auteurs") appariés avec des valeurs (comme "Fouiller les données dans l'Internet Archive Collection" et "Caleb McDaniel"). Vous n'avez pas besoin de comprendre en quoi consiste YAML et comment cela fonctionne, mais **vous devez inclure un bloc YAML au début de votre leçon**.
 
-This means that we we ask that authors adhere to the following lesson requirements, which are not merely stylistic, but in fact necessary for our publishing platform. While our technical requirements may be unfamiliar to you, **we are here to help you through the process and learn the technologies as you go.**
+Pour créer le bloc YAML pour votre leçon, vous devez **copier et coller le texte suivant dans votre fichier texte**, et changer les métadonnées correspondantes. Il doit apparaître au tout début de votre fichier, et *doit être suivi d'une ligne vide*. Laissez vide le champ "reviewers" pour l'instant.
 
-Please note that as a volunteer-driven project, we are grateful for your attention to detail.
-
-
-### Use plain text
-Because our site is hosted using [GitHub Pages](https://pages.github.com), **your lesson must be written in plain text**, using a text editor of your choice. *Text editors are distinctly different from traditional word processing programs like MS Word.* We highly recommend using [Atom](https://atom.io/), which is available for Mac or Windows. Mac users might consider [TextWrangler] or TextEdit (which comes with Mac OS X). Windows users might consider [Notepad++].
-
-The specific editor you choose is not important, but you should begin writing your lesson in plain text to avoid frustrations later on. For instance, stylized quotation marks automatically inserted by MS Word create formatting problems that can be hard to debug.
-
-
-### Choose a searchable name
-Name your new lesson file following these guidelines:
-
--   Make the filename all lowercase, and short but descriptive. This filename will
-    eventually become the [slug] for the lesson's URL when published. For example, the lesson titled "Getting Started with Markdown" has a slug of `getting-started-with-markdown` and a URL of `https://programminghistorian.org/en/lessons/getting-started-with-markdown`. Please see existing lessons for more concrete examples.
--   Your slug will be referenced later in these directions as LESSON-SLUG.
--    Think about how potential readers might search for something like your lesson. A keyword-rich slug is a good way to get search-engine traffic.
--   Do not put spaces or underscores in the filename; use hyphens instead.
--   The filename extension should be `.md` (markdown).
-
-
-### Add metadata
-Our publication platform, [GitHub Pages], depends on special headers in each plain-text lesson file called [YAML] front-matter blocks in order to render that lesson correctly on our website. These blocks consist of fields (like "title" and "authors") paired with values (like "Data Mining the Internet Archive Collection" and "Caleb McDaniel"). You don't need to understand what YAML is or how it works, but **you do need to include a YAML block at the beginning of your lesson**.
-
-To create the YAML block for your lesson, you should **copy and paste the following text into your text file**, and changing the relevant metadata. This should appear at the very top of your lesson file, and *must be followed by a blank line*. Leave the "reviewers" field blank for now.
-
-    ---
+     ---
     title: |
-        Getting Started with Topic Models: A MALLET Primer
+       Débuter avec le Topic-Modelling et MALLET
     authors:
     - Ian Milligan
     - Shawn Graham
@@ -70,93 +79,103 @@ To create the YAML block for your lesson, you should **copy and paste the follow
     ---
 
 <div class="alert alert-danger">
-  <h4 class="alert heading">Important YAML Notes</h4>
+  <h4 class="alert heading">Notes importantes concernant YAML</h4>
   <ul>
-    <li>Keep the \| in the title field as shown; indent the actual title with a tab on a blank line</li>
-    <li>Use the "list" format shown above for the authors field, even if there is only one author</li>
-    <li>Be sure there are no extraneous spaces in your header</li>
-    <li>The YAML block must be followed by a blank line after the final <code>---</code></li>
+    <li>Conservez \| dans le champ titre comme indiqué ; indentez le titre avec une tabulation sur la ligne suivante </li>
+    <li> Utilisez le format "liste" indiqué ci-dessus pour le champ auteur, même s'il n'y a qu'un seul auteur</li>
+    <li>Assurez-vous qu'il n'y a pas d'espaces superflus dans votre en-tête</li>
+    <li> Le bloc YAML doit être suivi par une ligne vide après les trois tirets <code>---</code></li>
   </ul>
 </div>
 
 
-### Write in Markdown
-**All new lessons must be written in Markdown.** Markdown is a simple mark-up language that is best written in a text editor (as explained above, do not use a word processor like MS Word or Open Office). [GitHub Pages] are powered by [Jekyll](http://jekyllrb.com/), which automatically converts the Markdown files into the HTML pages that you can find here on the website. Even this page is written in Markdown, as you can see by inspecting [the raw text on GitHub].
+### Écrivez en Markdown
+**Toutes les nouvelles leçons doivent être écrites en Markdown.** Markdown est un langage de balisage que l'on écrit très facilement avec un éditeur de texte (comme expliqué ci-dessus, n'utilisez pas un traitement de texte comme Word ou Open Office).  Les [GitHub Pages] sont générées par [Jekyll](http://jekyllrb.com/), qui convertit automatiquement les fichiers Markdown dans des pages HTML que vous pouvez trouver sur le site Web. Cette page est elle-même écrite en Markdown, comme vous pouvez le voir en regardant [le texte brut sur Github].
 
-For a gentle introduction to GitHub Markdown (especially with *Programming Historian*, see [Getting Started with Markdown]({{site.baseurl}}/lessons/getting-started-with-markdown), or the concise reference [GitHub Guide to Markdown].
+Pour une introduction en douceur à Markdown, consultez:
+- [Débuter avec Markdown]({{site.baseurl}}/leçons/débuter-avec-markdown), un tutoriel du *Programming Historian* écrit par Sarah Simpkin
+- ou le guide [GitHub Guide to Markdown].
 
 <div class="alert alert-warning">
-  Before continuing, be sure you understand how to use Markdown syntax to use basic formatting like headers, bold, italics, links, paragraphs, and lists.
+  Avant de continuer, assurez vous que vous comprenez comment utiliser la syntaxe Markdown pour du formatage basique comme la mise en valeur des en-têtes, la mise en gras du texte, l'utilisation de l'italique, l'ajout de liens, la mise en forme des paragraphes, et la création de listes.
 </div>
 
-### Write Sustainably
-PH strives to publish lessons that will be of use to our readers for the foreseeable future. Authors should consult our [lesson retirement policy]({{site.baseurl}}/lesson-retirement-policy), which describes how the _Programming Historian_ editorial team manages lessons that have become out-of-date. To aid in creating sustainable lessons, we ask that you keep certain writing guidelines in mind as you create your lesson:
+### Écrivez de manière durable
+Le *Programming Historian en français* s'efforce de publier des leçons qui sont utiles à nos lecteur(trice)s dans l'immédiat. Les auteur(e)s doivent consulter notre [politique de retrait des leçons]({{site.baseurl}}/politique-retrait-leçons), qui décrit comment l'équipe éditoriale du *Programming Historian en français* gère les leçons qui sont devenues obsolètes. Pour assurer la création de leçons pérennes, nous vous demandons de garder à l'esprit un certain nombre de consignes lors de la rédaction :
 
-- Instead of focusing on software specifics, keep your lesson more geared towards methodologies and tool generalities.
-- If your lesson can leverage existing software documentation, consider directing your readers to this documentation rather than repeating it in the lesson. Instead of linking directly to a software company's resources (which often change), you can provide general guidance on how to find the documentation.
-- Limit the use of software version-specific images, unless required to follow the lesson.
-- Check any external links to ensure they are live and up-to-date.
-- Data sources for lessons should be hosted with the _Programming Historian_.
+- Au lieu de vous concentrer sur des logiciels en particulier, axez de préférence votre leçon sur les méthodologies, et sur une présentation plus générale des outils.
+- Si votre leçon peut tirer profit de la documentation d'un logiciel existant, envisagez de diriger vos lecteur(trice)s vers cette documentation plutôt que de la répéter dans votre leçon. Et au lieu d'ajouter un lien vers les ressources concernant un logiciel développé par une entreprise - ressources qui, en général, changent très souvent -, vous pouvez fournir des conseils généraux sur la manière dont vos lecteur(rice)s peuvent trouver la documentation. 
+- Limitez l'usage d'images spécifiques à la version du logiciel présenté, à moins que cela ne soit requis pour suivre votre leçon.
+- Vérifiez tous les liens externes de façon à vous assurez qu'ils sont à jour.
+- Les données nécessaires pour suivre une leçon doivent être hébergées avec notre site Internet.
 
 
-### Write For a Global Audience
+### Écrivez pour un public international
 
-Programming Historian readers live all around the world, and operate in a range of cultural contexts. To help reach that global audience, we have been publishing in more than one language since 2017, and aim to translate all tutorials. **While we recognise that not all methods or tools are fully internationally accessible**, authors can and should take steps to write their lesson in a way that is accessible to as many people as possible. **Please consider the following when writing your tutorial**:
+Les lecteur(trice)s du *Programming Historian en français* viennent du monde entier, et travaillent au sein d'environnements culturels variés. Pour qu'un public international puisse être touché, un certain nombre de nos publications sont accessibles dans plus d'une langue depuis 2017. Nous avons également pour but de traduire tous nos tutoriels. **Comme nous reconnaissons que toutes les méthodes et outils ne sont pas pleinement accessibles à un public international**, les auteur(e)s peuvent et doivent écrire leurs leçons de façon à ce qu'elles soient accessibles à autant de personnes que possible. **Nous vous donc de bien vouloir respecter les conseils suivants lorsque vous écrivez votre tutoriel** :
 
-- When choosing your methods or tools, try to make choices with multi-lingual readers in mind. This is particularly important when working on textual analysis methods, or where users may reasonably want to have support for different character sets (eg, accented characters, non-Latin, etc).
-- When choosing primary sources, images, producing figures, or taking screen shots, consider how they will present themselves to a global audience.
-- When writing, avoid jokes, cultural references, puns, plays on words, idiomatic expressions, sarcasm, emojis, or language that is more difficult than it needs to be. Mentions of persons, organisations, or historical details should always come with contextual information. It may help to assume your reader does not live in your country or speak your language.
-- In code examples or metadata, use internationally recognised standard formats for dates and times ([ISO 8601:2004](https://www.iso.org/standard/40874.html)). In free text, be aware of cultural differences related to the representation of dates and times which might cause confusion.
-- Where possible, choose methods and tools that have multi-lingual documentation. If this is not practical, it would be great if you could add some multi-lingual references at the end of your tutorial.
+- Lorsque vous choisissez vos méthodes et outils, essayez de les choisir en gardant à l'esprit que les tous les lecteurs et lectrices ne parlent pas tous et toutes la même langue. Cela est particulièrement important lorsque l'on travaille sur des méthodes d'analyse des textes, ou lorsque les utilisateur(trice)s souhaiteraient travailler avec des ensembles de caractères différents (par exemple, caractères accentués, non-latins, etc.).
+- Quand vous choisissez des images et des sources primaires, quand vous produisez des illustrations, ou quand vous faites des copies d'écran, pensez à la manière dont ils vont être vus par un public international. 
+- Au cours de la rédaction, évitez les plaisanteries, les références culturelles, les calembours, les jeux de mots, les expressions idiomatiques, le sarcasme, les emojis ou une syntaxe qui serait plus compliquée que nécessaire. Les mentions de personnes, d'organisations, ou de détails historiques doivent toujours être accompagnées d'informations contextuelles. Vous devez constamment penser au fait que vos lecteur(trice)s ne vivent pas toujours dans le même pays que vous, et qu'ils ne parlent pas la même langue.
+- Dans les exemples de codes source ou les métadonnées, utilisez des formats standards, reconnus au niveau international, pour les dates et les heures ([ISO 8601:2004](https://www.iso.org/fr/standard/40874.html)). Dans votre texte, restez bien conscients des différences culturelles existantes dans la représentations des dates et des heures. Ces différence pourraient en effet causer de la confusion.
+- Quand cela est possible, choisissez des méthodes et des outils qui disposent de documentation multilingue. Dans le cas contraire, essayez d'ajouter, autant que faire se peut, des références multilingues à la fin de votre tutoriel. 
 
-Contact your editor if you require guidance on any of these matters. Tutorials that are unable to meet these guidelines may not be translated, but are still welcome for consideration for monolingual publication.
+Contactez votre éditeur(trice) si vous avez besoin de conseils sur n'importe quel de ces points. Les tutoriels qui ne peuvent pas respecter ces consignes ne seront pas traduits, mais ils sont les bienvenus afin d'être envisagés pour une publication en une seule langue.
 
-### Use informative section headings
-We strive to make our lessons easy to follow by using section headings consistently throughout our lessons. As you compose your lesson, section headings will help you visualize how well you've structured your lesson. Avoid long sections of text with no headings; these become very difficult to follow.
+### Utilisez des en-têtes pour marquer le début d'une section
+Nous nous efforçons de publier des leçons faciles à suivre, grâce à l'utilisation systématique d'en-têtes de section dans le corps des textes. Au moment où vous créez votre leçon, les en-têtes de section vont vous aider à visualiser et à vérifier la structure de celle-ci. Éviter les longues sections de texte sans en-têtes ; celles-ci peuvent en effet devenir très difficiles à suivre.
 
-**Please do not make your own headings** with **bold** or *italic* text; use an appropriate heading level (which we can style consistently across our lessons). Unless your lesson is incredibly short, you'll probably need at least 3 levels.
+**Ne rendez pas vos sections visibles** en mettant votre texte **en gras** ou en *italique*. Vous devez utilisez le niveau de titre approprié (que vous pouvez mettre en forme de manière systématique dans le corps du texte). À moins que votre leçon ne soit particulièrement courte, vous allez avoir besoin d'un moins 3 niveaux différents.
 
-Although there are a few ways to create section headings with Markdown, we ask that you use the `#` notation in your headings. Top-level section headings are indicated with a \#; second-level with \#\#, and so on.
+Bien qu'il y ait plusieurs manières de créer des en-têtes de section avec Markdown, nous vous demandons d'utiliser la notation `#` dans vos en-têtes. Le titre de premier niveau est indiqué avec \# ; le niveau de titre suivant avec \#\#, et ainsi de suite :
 
-### Alerts
-If you want to point out something that isn't essential for following the lesson but think is important enough to mention (or applies only to certain readers), you can set it apart from the main lesson text by using our [alert styling](https://v4-alpha.getbootstrap.com/components/alerts/) (borrowed from Bootstrap).
+    # Titre 1
+    ## Titre 2
+    ### Titre 3
+    #### Titre 4
 
-For this, you need to use HTML, such as
+Il apparaissent ainsi sur le site Internet :
+# Titre 1
+## Titre 2
+### Titre 3
+#### Titre 4
+Si vous utilisez les en-têtes de section de manière adéquate, vous allez aussi aider les éditeur(trice)s et les relecteur(trice)s à évaluer plus facilement la structure générale de votre leçon ou traduction.
+
+### Alertes
+Si vous voulez attirer l'attention sur quelque chose qui n'est pas essentiel pour suivre votre leçon, mais qui est suffisamment important pour être mentionné (ou qui peut être utile pour certain de vos lecteur(trice)s), vous pouvez le dissocier du texte principal de votre leçon en utilisant notre [mise en forme d'alerte](https://v4-alpha.getbootstrap.com/components/alerts/) (emprunté à Bootstrap).
+
+Pour ce faire, vous avez besoin d'utiliser du langage HTML de la façon suivante :
 
 ``` html
 <div class="alert alert-warning">
-  Be sure that you follow directions carefully!
+  Assurez vous de suivre attentivement les consignes !
 </div>
 ```
-
-And will render on the website as:
+Sur le site web, le texte va se présenter ainsi : 
 
 <div class="alert alert-warning">
-  Be sure that you follow directions carefully!
+ Assurez vous de suivre attentivement les consignes !
 </div>
 
-### Special style rules
-Like any other journal, *Programming Historian* also has a house style that we expect authors to follow to maintain consistency across our lessons. Unlike other journals, however, breaking these style rules can mean that your lessons will not be properly generated into a web page and therefore will remain invisible.
+### Règles de mise en forme spéciales
+Comme n'importe quel autre journal, le *Programming Historian en français* a lui aussi un style "maison" que les auteurs doivent suivre pour garantir la cohérence des leçons. Mais contrairement à d'autres journaux, ne pas respecter ces règles de mise en forme peut avoir pour conséquence que vos leçons ne s'affichent pas correctement sur notre site web, et qu'elles restent donc invisibles.
 
-### Figures
-No matter how short or simple, all lessons benefit from images, particularly screen shots (or partial screen shots) that illustrate what the reader should see as they move through the tutorial. Not only do they make tutorials more "skimmable," figures help show the reader they are doing the right thing. And of course images can save a considerable amount of description in your text.
-
-
-#### Create a folder
-First, create a folder in which you will store all of your image files  The folder name should be the same as the `LESSON-SLUG` that you have chosen for your lesson file name. The editor assigned to your lesson can assist you in uploading your images to the `ph-submissions` repository when you submit your lesson.
+### Illustrations
+Quels que soient leur longueur ou leur niveau de difficulté, toutes les leçons peuvent tirer avantage des images, particulièrement les copies d'écran qui illustrent ce que les lecteur(trice)s doivent voir au fur et à mesure de leur avancée dans le tutoriel. Les captures d'écran permettent non seulement de savoir si une leçon nous intéresse d'un simple coup d'œil, mais elles aident également les utilisateur(trice)s à savoir s'il(elle)s font la bonne chose. Et bien sûr les images peuvent vous éviter de multiplier les longues descriptions dans votre texte.
 
 
-#### Use intelligible filenames
-There are two ways you can name your files. One option is to use consistent, semantically meaningful filenames that clearly indicate what the image is about. Alternatively, you can  name them sequentially using the same hyphenated lesson slug
-(or an abbreviated version if the slug is rather long), followed by
-numbers to indicate which figure it is. (For example,
-`counting-frequencies-1.png`, `counting-frequencies-2.png`, and so on.)
+#### Créer un dossier
+Tout d'abord, créez un dossier dans lequel vous allez stocker tous vos fichiers images. Le nom du dossier doit être le même que le `LEÇON-SLUG` que vous avez choisi pour le nom de votre fichier. L'éditeur(trice) assigné(e) à votre leçon peut vous assister en téléchargeant vos images dans le dépôt `ph-submissions` au moment où vous soumettez votre leçon.
 
-#### Use standard formats and sizes
-Make sure the images are in web-friendly formats such as PNG or JPEG and sized appropriately (both in terms of pixels and bytes).
+#### Utilisez des noms de fichiers compréhensibles 
+Il y a deux façons de nommer vos fichiers. Une option consiste à utiliser des noms de fichier cohérents, et sémantiquement signifiants, qui indiquent clairement ce sur quoi porte l'image. Une autre option consiste à les nommer de manière séquentielle, en utilisant le même "slug" de leçon (ou une abréviation si le "slug" est trop long), suivi par un chiffre indiquant de quelle illustration il s'agit. Par exemple :
+`counting-frequencies-1.png`, `counting-frequencies-2.png`, et ainsi de suite.)
 
-#### Including images
-Wherever you want to insert an image, use the following line of code in the body of your lesson:
+#### Utilisez des tailles et des formats standard
+Assurez vous que les images sont des formats adaptés pour le Web, comme PNG ou JPEG, et dans des tailles appropriées (à la fois en termes de pixels et de bytes).
+
+#### Inclure des images
+À chaque fois que vous souhaitez insérer une image, utilisez la ligne de code suivante dans votre leçon :
 
 {% raw %}
 ``` markdown
@@ -164,141 +183,134 @@ Wherever you want to insert an image, use the following line of code in the body
 ```
 {% endraw %}
 
-You'll need to modify `IMAGE-FILENAME` and `Caption to image` according to your lesson and image. Note that you may use Markdown within caption text, for instance to mark text as bold or italic.
+Vous allez avoir besoin de renseigner le `NOM-DU-FICHIER-IMAGE` et la `Légende de l'image` en fonction de votre leçon et de l'image. Vous pouvez également avoir besoin d'utiliser du balisage Markdown pour la légende, par exemple pour mettre le texte en gras ou en italique.
 
-When the Markdown is rendered by our system, this line will automatically produce HTML that looks like this:
+Quand le Markdown est traité par notre system, cette ligne va automatiquement produire du HTML qui va ressembler à ceci :
 
 ``` html
 <figure>
-    <a href="/images/LESSON-SLUG/IMAGE-FILENAME">
-       <img src="/images/LESSON-SLUG/IMAGE-FILENAME" alt="Caption to image">
+    <a href="/images/LEÇON-SLUG/NOM-DU-FICHIER-IMAGE">
+       <img src="/images/LEÇON-SLUG/NOM-DU-FICHIER-IMAGE" alt="Légende de l'image">
     </a>
 <figcaption>
-    Caption to image
+    Légende de l'image
 </figcaption>
 </figure>
 ```
 
 <div class="alert alert-warning">
-  Note that when figure tags are added this way, the image will not show up in the preview on GitHub or in other Markdown preview programs.
+ Il est important de noter que lorsque les images sont encodées de cette manière, elles ne sont pas visibles dans la pré-visualisation sur Github ou dans d'autres programmes de pré-visualisation pour Markdown.
 </div>
 
 
-### Endnotes
-To add endnotes to your text, first add an endnote marker in the body of the text, like this:
+### Notes de bas de page
+Pour ajouter des notes de bas de page à votre texte, ajoutez un marqueur de la note dans le corps du texte de la façon suivante :
 
-    This is some text.[^1] Other text.[^endnote]
+	Voilà du texte. [^1]Encore du texte. [^note de bas de page] 
 
-As you can see, the marker text is wrapped in square brackets and can be made up of numbers
-or letters, as long as it begins with the caret (`^`) symbol.
+Comme vous pouvez le voir, le marqueur est entre crochets, et peut être composé de chiffres ou de lettres, du moment qu'il débute par le signe diacritique "accent circonflexe" (`^`)
 
-Next you'll need to specify the text for that endnote, ideally at the bottom of your text file. To define the endnote, you'll reproduce the marker syntax, add a colon, and then type your endnote:
+Ensuite, vous devez préciser quel texte correspond au marqueur de la note, idéalement à la fin de votre fichier. Pour définir une note de bas de page, vous allez reproduire la syntaxe du marqueur, ajouter les deux-points, et taper la note de bas de page :
 
-    [^1]: Some *crazy* endnote definition.
+    [^1]: Une définition *idote* de la note
 
-    [^endnote]: Look, Ma, I made an endnote!
+    [^endnote]: Regarde, j'ai fait une note de bas de page !
 
-For more details about how this syntax works, see the [extended instructions](http://kramdown.gettalong.org/syntax.html#footnotes)
-for the footnote feature.
+Pour en savoir plus sur la manière dont fonctionne cette syntaxe, regardez les [instructions complètes](http://kramdown.gettalong.org/syntax.html#footnotes) pour la fonctionnalité "note de bas de page".
 
 
-### Code Blocks
-If you want to include code in a lesson, or to show the output of a
-program, use what's called a [fenced code block]. On a new line, use three backticks
-(`` ` ``) to open a code block, followed by the language of your code
-(eg, `python` or `html`). Then paste in your code, and when finished,
-close the code block with three more backticks. The code will then be
-offset in the finished version and will look like this:
+### Blocs de code
+Si vous voulez inclure du code source dans une leçon, ou si vous voulez montrer le résultat d'un programme informatique, utilisez ce que l'on appelle un *bloc de code*. Sur une nouvelle ligne, utilisez 3 accents graves (`` ` ``) pour ouvrir un bloc de code, suivi du langage de votre code (par exemple  `python` ou `html`). Ensuite collez votre code source, et quand vous avez terminé, fermez le bloc de code avec 3 accents graves.
 
+	``` python
+	print 'hello world'
+	```
+Le code sera visible en ligne de la façon suivante :
 ``` python
 print 'hello world'
 ```
 
-
-### Emphasis Tagging
-Try to use back-ticks (`` ` `` ) for reserved code words (as in `for`
-loop) and file names (e.g., `obo.py`). All other emphasis is done with
-paired asterisks (`*`) (as in `*client*`, `*protocol*`, `*The Old Bailey
+### Mettre en avant des parties du texte
+Essayez d'utiliser les accents graves (`` ` `` ) pour afficher des lignes de codes dans le corps du texte et dans les noms de fichiers. Pour mettre en valeur d'autres types d'information, utilisez 2 astérisques (`* `) comme dans `*client*`, `*protocole*`, `*Le Old Bailey
 Online*`).
 
 -----
 
-## Submitting a New Lesson
-Once your lesson file has been prepared to the above specifications, you are ready to submit it!
+## Soumettre une nouvelle leçon
+Une fois que votre leçon a été préparée en suivant les consignes données ci-dessus, vous êtes prêt(e) à la soumettre !
 
-We have a [Programming Historian project page](https://github.com/programminghistorian) at GitHub, where we maintain two repositories (a repository is a place to store related files and folders--you can think of it as a kind of folder). One of these, called [jekyll](https://github.com/programminghistorian/jekyll), hosts the code for the live version of the site you see at <http://programminghistorian.org>. The other repository is called [ph-submissions].
+Nous avons une [page-projet pour le Programming Historian](https://github.com/programminghistorian) sur GitHub, où nous maintenons deux dépôts (un dépôt ou *repository* est un endroit destiné à stocker les fichiers et les dossiers reliés - on peut les voir comme les dossiers que vous avez sur votre ordinateur). L'un d'entre eux s'appelle [jekyll](https://github.com/programminghistorian/jekyll), et héberge le code source du site visible à cette adresse <http://programminghistorian.org/fr/>. L'autre dépôt s'appelle [ph-submissions].
 
-Our preferred way for authors to submit lessons is to add them directly to the [ph-submissions] repository (or repo, for short). Thanks to GitHub's features, you can do this using drag-and-drop uploading actions with which you are probably already familiar. As a new author, here are the steps:
+Nous souhaitons que les auteurs soumettent directement les leçons en les ajoutant au dépôt [ph-submissions]. Grâce aux fonctionnalités offertes par Github, vous pouvez utiliser l'action *glisser-déposer* pour télécharger des fichiers. En tant que nouvel auteur, voilà les étapes que vous allez devoir suivre :
 
-1. Create a [free account at GitHub](https://github.com/join). It takes about 30 seconds.
-2. Email your editor with your new GitHub username and your lesson filename/slug (be sure you've followed the naming guidelines above). The editor will then add you as a **collaborator** on the [ph-submissions] repo. Once you are added as a collaborator, you will be able to make direct changes to the [ph-submissions] repo, including adding, editing, removing, and renaming files. The editor will also create a folder with the same name as your lesson in the images folder. (If you have other data files that you link to in your tutorial, please ask your editor about them.)
-3. Once you've heard from your editor that you've been added as a collaborator, navigate to the [lessons folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons) of the [ph-submissions] repo. Then, drag and drop the markdown file of your lesson from your computer onto your browser window. (If you need help, see [GitHub's instructions](https://help.github.com/articles/adding-a-file-to-a-repository/)). Now click the green "Commit Changes" button; you don't need to change the default message.
-4. You probably have some images that go along with your lesson. Make sure all the image files are named appropriately according to the naming conventions specified above. Navigate to the [images folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images) in the [ph-submissions] repo. Click on the folder with the same name as your lesson (which your editor should have created for you; if you don't see it, please contact your editor and wait for instructions). Once you are in the correct folder, drag and drop all of your images files onto the browser window, just like in step 3. You can't drag a folder of images; but you can drag multiple files at once.
-5. Preview your lesson! Wait a few minutes (usually less) for GitHub to convert your Markdown file into HTML and make it a live webpage. Then navigate to `http://programminghistorian.github.io/ph-submissions/lessons/` + `YOUR-LESSON-NAME` (but replace YOUR-LESSON-NAME with the name of your file).
-6. Let your editor know that you have uploaded your lesson files to the ph-submissions repo (they should get a notification about this, but we want to make sure nothing gets overlooked).
+1. Créer un [compte gratuit sur Github](https://github.com/join). Cela prend environ 30 secondes.
+2. Envoyez un message à votre éditeur(trice) avec votre nouveau nom d'utilisateur(trice) Github et le nom/slug du fichier de votre leçon (assurez vous d'avoir suivi les règles de nommage exposées ci-dessus). L'éditeur va ensuite vous ajouter comme **collaborateur(trice)** dans le dépôt [ph-submissions]. Une fois que vous avez accès au dépôt en tant que collaborateur(trice), vous allez alors pouvoir directement faire des changements dans le dépôt [ph-submissions], comme ajouter, éditer, supprimer ou renommer des fichiers. L'éditeur(trice) va également créer un dossier avec le même nom que votre leçon dans le dossier "images". (Si vous avez d'autres types de fichiers de données que vous souhaitez associer à votre tutoriel, parlez en à votre éditeur(trice).
+3. Une fois que votre éditeur(trice) vous a informé que vous avez été ajouté(e) en tant que collaborateur(trice) au dépôt, rendez vous dans le [dossier des leçons](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons) du dépôt [ph-submissions]. Ensuite, faites un glisser-déposer avec votre fichier en Markdown depuis votre ordinateur vers la fenêtre de votre navigateur. (Si vous avez besoin d'aide, consultez les [instructions fournies par Github](https://help.github.com/articles/adding-a-file-to-a-repository/)). Maintenant cliquez sur le bouton vert "Commit Changes" ; vous n'avez pas besoin de changer le message qui s'affiche par défaut.
+4. Vous avez probablement des images qui accompagnent votre leçon. Soyez sûr(e) que tous les fichiers images sont nommés de manière appropriée, en accord avec les conventions de nommage spécifiées ci-dessus. Rendez vous dans le [dossier des images](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images) dans le dépôt [ph-submissions]. Cliquez sur le dossier avec le même nom que votre leçon (que votre éditeur(trice) a dû créer pour vous ; si vous ne le voyez pas, prenez contact avec votre éditeur(trice) et attendez de recevoir ses instructions). Une fois que vous êtes dans le bon dossier, faites un glisser-déposer de tous vos fichiers images de votre ordinateur vers la fenêtre de votre navigateur, comme vous l'avez fait lors de l'étape 3. Vous ne pouvez pas déposer un dossier contenant vos images ; mais vous pouvez déposer plusieurs fichiers en une fois.
+5. Vous pouvez avoir un aperçu de votre leçon en ligne ! Attendez quelques minutes (voire moins) pour que Github convertisse votre fichier Markdown en HTML et en fasse une page web visible en ligne. Ensuite, rendez vous à l'adresse suivante : `http://programminghistorian.github.io/ph-submissions/lessons/NOM-DE-VOTRE-LEÇON` (mais remplacez NOM-DE-VOTRE-LEÇON par le nom de votre fichier).
+6. Faites savoir à votre éditeur(trice) que vous avez téléchargé les fichiers de votre leçon dans le dépôt [ph-submissions] (il(elle) devrait recevoir une notification l'en informant ; mais nous préférons nous assurer que rien ne peut être omis). 
 
 <div class="alert alert-info">
-  If you are familiar with command-line git and GitHub already, you may also submit your lesson and images as a pull request to the `ph-submission` repo and merge it yourself after being added as a collaborator. <b>Please do not submit lessons by pull request to the main Jekyll repo</b> so we can provide live previews of lessons in progress.
+  Si vous avez l'habitude d'utiliser git et Github en ligne de commande, vous pouvez également soumettre votre leçon et vos images comme une *pull request* au dépôt `ph-submission` et la fusionner vous-même après y avoir été ajouté en tant que collaborateur(trice) <b> Nous vous demandons de ne pas soumettre des leçons par  [pull request] au dépôt principal Jekyll</b> de manière à ce que nous puissions fournir des aperçus en ligne des leçons en cours de relecture.
 </div>
 
-## Lesson Submitted! Now What?
-To see what happens after you submit a lesson, feel free to browse our [editor guidelines](/editor-guidelines), which detail our editorial process. Highlights are below:
+## La leçon a été soumise ! Et maintenant ?
+Pour savoir ce qui va arriver à votre leçon après sa soumission, sentez-vous libre de consulter nos [consignes aux relecteur(trice)s](/consignes-relecteur), qui détaillent notre processus de révision et de publication. Vous pouvez retrouver les étapes les plus importantes ci-dessous.
 
-The most immediately important step is that your editor will create an [issue](https://github.com/programminghistorian/ph-submissions/issues) for the new lesson on the [ph-submissions] repo, with a link to your lesson (that you previewed in step 5). The editor and at least two reviewers invited by the editor will post their comments to this issue.
+L'étape la plus immédiate consiste en la création par votre éditeur(trice) d'une [issue](https://github.com/programminghistorian/ph-submissions/issues) pour la leçon téléchargée dans le dépôt [ph-submissions], contenant un lien vers votre leçon (dont vous avez pu avoir un aperçu lors de l'étape 5). L'éditeur(trice) et au moins deux relecteur(trice)s invité(e)s par l'éditeur(trice) vont poster leurs commentaires pour cette "issue".
 
-### Wait for Reviewer Feedback
-We aim to complete the review process within four weeks, but sometimes delays occur or people get busy and the process can take longer than we hoped.
+### Attendez les commentaires des relecteur(trice)s
+Nous essayons de finaliser le processus de relecture dans un délai de quatre semaines ; mais il peut parfois arriver que nous prenions du retard, ou que les personnes impliquées dans le processus de relecture soient très occupées, et cela peut prendre plus de temps que prévu.
 
-In keeping with the ideas of public scholarship and open peer review, we encourage discussions to stay on GitHub. However, we also want everyone to feel comfortable with the process. If you need to discuss something privately, please feel free to [email your editor directly](/project-team), or to contact one of our dedicated ombudspeople, [Ian Milligan or Amanda Visconti](/project-team).
-
-
-### Respond to Feedback
-Your editor and reviewers will most likely make some suggestions for improvements on the "issue" for your lesson. The editor should clarify which suggestions are essential to address, which are optional, and which can be set aside.
-
-You can edit your files on GitHub, following [these instructions](https://help.github.com/articles/editing-files-in-your-repository/).
-
-Your revisions should be completed within 4 weeks of receiving guidance from the editor on how to respond to the peer review. This is to ensure that lessons are published in a timely fashion and do not drag on unnecessarily. If you anticipate having trouble meeting the deadline, you should contact your editor to establish a more suitable due date.
-
-If at any point you are unsure of your role or what to do next, feel free to email your editor or, better yet, to post a question to the issue (another editor might see it and can help you sooner than your own editor). You’ll understand that sometimes it will take us a few days to respond, but we hope the improvements to the finished lesson will be worth the wait.
+Afin de promouvoir l'évaluation ouverte par les pairs et le développement d'un environnement académique ouvert, nous encourageons les discussions à rester sur Github. Toutefois, nous souhaitons également que vous vous sentiez à l'aise avec le processus de relecture ; sentez vous libre d'[envoyer directement un message à votre éditeur(trice)](/équipe-projet), ou de contacter notre médiatrice dédiée, [Amanda Visconti](/équipe-projet)..
 
 
-### Let your editor know you're done
-Once you have finished responding to feedback, let your editor know. If you haven't done so already, send your editor a 2-3 sentence bio statement that will appear at the end of your lesson, following the model of other lessons.
+### Répondez aux commentaires
+Votre éditeur(trice) et vos relecteur(trice)s vont très probablement vous suggérer des modifications sur "l'issue" concernant votre leçon. L'éditeur(trice) vous dira clairement quelles sont les modifications indispensables, quelles sont les modifications optionnelles, et quelles modifications peuvent être mises de côté.
 
-Then, *Programming Historian*'s editorial team will quickly review your lesson and move it from the `ph-submissions` repository to the `jekyll` repository, and update our lessons directory.
+Vous pouvez éditer vos fichiers sur Github, en suivant [ces instructions](https://help.github.com/articles/editing-files-in-your-repository/).
 
-Congratulations! You've published a lesson at *Programming Historian*!
+Vos révisions doivent être finalisées sous 4 semaines après avoir reçu les consignes de votre éditeur(trice) concernant les réponses à donner à la suite de l'évaluation par les pairs. Il s'agit de s'assurer ainsi que les leçons sont publiées dans un délai convenable et ne prennent pas du retard inutilement. Si vous pensez que vous allez avoir des difficultés à respecter ce délai, vous devez contacter votre éditeur(trice) pour choisir une date plus appropriée.
+
+Si, à n'importe quel moment, vous n'êtes pas sûr(e) de votre rôle ou de ce que l'on attend de vous, sentez vous libre d'envoyer un message à votre éditeur(trice) ou, encore mieux, de poster votre question sur l'issue concernant votre leçon (un(e) autre éditeur(trice) peut la voir et vous répondre à la place de votre éditeur(trice)). Vous devez comprendre que nous pouvons prendre quelques jours pour vous répondre, mais nous espérons que les améliorations apportées à votre leçon sauront récompenser votre patience.
+
+### Faites savoir à votre éditeur(trice) que vous avez terminé
+Une fois que vous avez terminé de répondre aux commentaires, faites le savoir à votre éditeur(trice). Si vous ne l'avez pas déjà fait, envoyez 2 ou 3 lignes de biographie, qui apparaîtront à la fin de votre leçon, suivant ainsi le modèle des autres leçons.
+
+Ensuite, le comité éditorial du *Programming Historian en français* va rapidement relire votre leçon et la déplacer du dépôt `ph-submissions` vers le dépôt `jekyll`, et mettre à jour notre répertoire des leçons.
+
+Félicitations ! Vous avez publié une leçon pour le *Programming Historian en français*!
 
 
-  [Jessica Parr]: mailto:jparr1129@gmail.com
-  [Lesson Pipeline wiki page]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
-  [reviewer guidelines]: /reviewer-guidelines.html
-  [published lessons]: /lessons
+   [Jessica Parr]: mailto:jparr1129@gmail.com
+  [page wiki des leçons en cours de développement]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
+  [consignes aux relecteur(trice)s]: /consignes-relecteurs.html
+  [leçons publiées]: /leçons
   [TextWrangler]: http://www.barebones.com/products/textwrangler/
   [Notepad++]: https://notepad-plus-plus.org/
-  [project team]: /project-team.html
+  [équipe-projet]: /équipe-projet.html
   [slug]: https://en.wikipedia.org/wiki/Semantic_URL#Slug
-  [YAML]: https://en.wikipedia.org/wiki/YAML
-  [GitHub Guide to Markdown]: https://guides.github.com/features/mastering-markdown/
-  [Markdown Basics]: https://help.github.com/articles/markdown-basics
+  [YAML]: https://fr.wikipedia.org/wiki/YAML
+  [Guide GitHub pour Markdown]: https://guides.github.com/features/mastering-markdown/
+  [les bases de Markdown]: https://help.github.com/articles/markdown-basics
   [Github Flavored Markdown]: https://help.github.com/articles/github-flavored-markdown
-  [the raw text on GitHub]: https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/author-guidelines.md
-  [elements provided by HTML5]: http://html5doctor.com/the-figure-figcaption-elements/
-  [example of the preview with figures here]: https://github.com/programminghistorian/jekyll/commit/476f6d466d7dc4c36048954d2e1f309a597a4b87#diff-f61eee270fe5a122a0163ebf0e2f8725L28
-  [live version here]: /lessons/automated-downloading-with-wget#lesson-goals
-  [extended table syntax]: http://kramdown.gettalong.org/syntax.html#tables
+  [le texte brut sur Github]: https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/author-guidelines.md
+  [éléments fournis par HTML5]: http://html5doctor.com/the-figure-figcaption-elements/
+  [exemple de pré-visualisation avec images ici]: https://github.com/programminghistorian/jekyll/commit/476f6d466d7dc4c36048954d2e1f309a597a4b87#diff-f61eee270fe5a122a0163ebf0e2f8725L28
+  [version "live" ici]: /lessons/automated-downloading-with-wget#lesson-goals
+  [tableau de syntaxe étendu]: http://kramdown.gettalong.org/syntax.html#tables
   [pandoc]: http://johnmacfarlane.net/pandoc/
   [fenced code blocks]: https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks
   [pull request]: https://help.github.com/articles/using-pull-requests/
-  [GitHub for Mac]: https://mac.github.com/
-  [GitHub for Windows]: https://windows.github.com/
-  [Create an account]: https://help.github.com/articles/signing-up-for-a-new-github-account/
-  [naming conventions described above]: #name-the-lesson-file
-  [pending pull requests on our repo]: https://github.com/programminghistorian/jekyll/pulls
-  [GitHub Guides]: https://guides.github.com/activities/forking/
-  [forking]: https://help.github.com/articles/fork-a-repo/
-  [independent tutorials]: https://gun.io/blog/how-to-github-fork-branch-and-pull-request/
-  [Git for Philosophers]: https://github.com/rzach/git4phi
+  [GitHub pour Mac]: https://mac.github.com/
+  [GitHub pour Windows]: https://windows.github.com/
+  [créer un compte sur Github]: https://help.github.com/articles/signing-up-for-a-new-github-account/
+  [conventions de nommage décrites ci-dessus]: #choisissez-le-nom-de-vos-fichiers
+  [pull requests en attente dans notre dépôt]: https://github.com/programminghistorian/jekyll/pulls
+  [guides GitHub]: https://guides.github.com/activities/forking/
+  [réaliser un fork]: https://help.github.com/articles/fork-a-repo/
+  [tutoriels indépendants]: https://gun.io/blog/how-to-github-fork-branch-and-pull-request/
+  [Git pour les philosophes]: https://github.com/rzach/git4phi
   [GitHub Pages]: https://pages.github.com
   [ph-submissions]: https://github.com/programminghistorian/ph-submissions
 
