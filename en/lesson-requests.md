@@ -31,4 +31,6 @@ After having seen a great workshop by Katrina Navickas on Space Syntax we’d li
 
 Digital scholarly editions are often modelled as XML documents. Although there are some publication tools such available, the options can be bewildering and the solutions may not fit a user’s particular needs. Keeping with our open ethos, we’d like to see someone take readers through an open source solution that gives them a sustainable and flexible way to publish their digital edition.
 
-7) How to Analyse Audio Artefacts We have one lesson on how to use Audacity to edit audio files and another on how to transform you transform your data into audio to better understand it. But you can do much more! How are you using tools to get quantifiable data about your audio artefacts? Or, how can you use machine learning techniques to produce new understandings of an audio collection?
+7) How to Analyse Audio Artefacts
+
+We have one lesson on how to use Audacity to edit audio files and another on how to transform you transform your data into audio to better understand it. But you can do much more! How are you using tools to get quantifiable data about your audio artefacts? Or, how can you use machine learning techniques to produce new understandings of an audio collection?
