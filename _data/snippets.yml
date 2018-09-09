@@ -54,6 +54,10 @@ menu-contribute-overview:
   es:
     title: Contribuciones
     link: /es/contribuciones
+menu-lesson-requests:
+  en:
+    title: Lesson Requests
+    link: /en/lesson-requests
 menu-contribute-feedback:
   en:
     title: Feedback
