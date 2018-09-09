@@ -945,6 +945,7 @@
   team_roles:
     - spanish
     - board
+    - technical
 
 - name: Jon MacKay
   team: false
