@@ -314,3 +314,33 @@ the-authors:
   plural:
     en: authors
     es: de los autores
+
+# ISSNs
+issn:
+  en: 2397-2068
+  es: XXXX-XXXX
+  fr: XXXX-XXXX
+
+# Homepage texts
+language-version:
+  en: English Language Version
+  es: Versión en español
+  fr: Version francais
+peer-reviewed-lessons:
+  en: Peer Reviewed Lessons
+  es: Peer Reviewed Lecciones
+  fr: Peer Reviewed Cours
+start-learning:
+  en: Start Learning!
+  es: ¡Comencemos a aprender!
+  fr: Commencer a apprendre!
+
+logo:
+  plain:
+    en: images/logos/ph-en.svg
+    es: images/logos/ph-es.svg
+    fr: images/logos/ph-fr.svg
+  url:
+    en: images/logos/ph-en-url.svg
+    es: images/logos/ph-es-url.svg
+    fr: images/logos/ph-fr-url.svg

@@ -102,6 +102,58 @@ Home Page
     width: 75%;
   }
 
+  .index-box {
+    margin: 0rem;
+    padding: 1rem;
+    color: #fff;
+    width: 33%;
+  }
+
+  .index-box a:link, .index-box a:visited {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  img.logo {
+    height: 300px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .index-box {
+      width: 100%;
+    }
+
+    img.logo {
+      height: 150px;
+    }
+
+    .index-boxes p {
+      margin-bottom: 0.2rem;
+    }
+
+    .index-boxes hr {
+      margin: 0.3rem;
+    }
+  }
+
+  .index-boxes p {
+    font-family: 'Crete Round';
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  #en-index-box {
+    background-color: #444444
+  }
+
+  #es-index-box {
+    background-color: #535d7f
+  }
+
+  #fr-index-box {
+    background-color: #3d7c81
+  }
+
 /* =============================================================================
 Lesson Headers
 ========================================================================== */
