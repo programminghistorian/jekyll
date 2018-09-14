@@ -20,12 +20,13 @@ redirect_from: /lessons/getting-started-with-github-desktop
 {% include toc.html %}
 
 
+{% include alert.html text='This lesson was written for an older version of GitHub Desktop for OS X. Since then, GitHub has released an entirely new version of GitHub Desktop with a significantly different interface.
 
-
+This lesson only refers to the OS X version now known as "GitHub Desktop Classic" [that may be downloaded here](https://central.github.com/mac/latest).' %}
 
 ## Lesson Goals
 
-In this lesson you will be introduced to the basics of version control, understand why it is useful and implement basic version control for a plain text document using [GitHub Desktop](https://desktop.github.com/). By the end of this lesson you should understand:
+In this lesson you will be introduced to the basics of version control, understand why it is useful and implement basic version control for a plain text document using GitHub Desktop. By the end of this lesson you should understand:
 
 * what version control is and why it can be useful
 * the differences between Git and GitHub
@@ -34,7 +35,7 @@ In this lesson you will be introduced to the basics of version control, understa
 
 ## Software Requirements
 
-GitHub Desktop is currently only available for Windows and Mac. If you use Linux you will probably already be familiar with the command line and will be able to use the Command Line version of Git.
+GitHub Desktop Classic is currently only available for Mac. If you use Linux you will probably already be familiar with the command line and will be able to use the Command Line version of Git.
 
 
 ## What is Version Control and Why Use It?
@@ -111,11 +112,13 @@ One of the trickiest aspects of using GitHub is the new terminology. Some of the
 
 ### Register for a GitHub Account
 
-Since we are going to be using GitHub we will need to register for an account at [GitHub](https://github.com/) if we don't already have one. For [students](https://education.github.com/pack) and [researchers](https://github.com/blog/1840-improving-github-for-science) GitHub offers free private repositories. These are not necessary but might be appealing if you want to keep some work private. 
+Since we are going to be using GitHub we will need to register for an account at [GitHub](https://github.com/) if we don't already have one. For [students](https://education.github.com/pack) and [researchers](https://github.com/blog/1840-improving-github-for-science) GitHub offers free private repositories. These are not necessary but might be appealing if you want to keep some work private.
 
 ### Install GitHub Desktop
 
-Once you have registered for an account the process for installing software will be slightly different depending on whether you are on Windows or Mac. Since the instructions may change it is best to follow the instructions at GitHub's [install page](https://desktop.github.com/). Once you have installed GitHub Desktop and followed the setup instructions we can start using the software with a text document.
+[You can download GitHub Desktop "Classic" for OS X here.](https://central.github.com/mac/latest)
+Once you have downloaded the file, unzip it and open the app, following the instructions for logging in to your GitHub account.
+Once you have installed GitHub Desktop and followed the setup instructions we can start using the software with a text document.
 
 ## Version Controlling a Plain Text Document
 
@@ -131,7 +134,7 @@ The Markdown syntax won't be covered in this lesson in order to keep the length 
 
 To write in plain text we want to use a text editor. There are a huge number of free and paid text editors available. Some of these are very straightforward and simple to use while others have a learning curve and potential uses beyond simple text editing. In the long run using a more advanced and extendable text editor like Vim or Emacs may save you time but for now we can start with a simpler editor. [Atom](https://atom.io/) is a good option for getting started. Atom is a text editor built by GitHub and includes syntax highlighting for Markdown alongside integration with GitHub. It is free and open source, a full 'flight manual', including installation instructions, is available [here](http://flight-manual.atom.io/).
 
-If you don't want to install any new software then you can use your system's included text editor: TextEdit for Mac and Notepad for windows. If you decide to use Markdown beyond this tutorial then you will benefit from a text editor which includes syntax highlighting for Markdown alongside other features useful for writing.  
+If you don't want to install any new software then you can use your system's included text editor: TextEdit for Mac and Notepad for windows. If you decide to use Markdown beyond this tutorial then you will benefit from a text editor which includes syntax highlighting for Markdown alongside other features useful for writing.
 
 ### Creating a Document
 
@@ -141,9 +144,9 @@ We can begin with a very simple document.
 Hello world!
 ```
 
-Include the above text or something similar in a new plain text document. Once you have done this save the file with a file extension '.md'. This is the most popular file extension used for markdown files though others are sometimes used. Make sure that it is saved in plain text format in a new folder. Sometimes your text editor will default to Rich Text Format. You should be able to change this in the preferences or options of your chosen text editor. Make sure to name the file and folder with something meaningful. This may seem slightly confusing. The '.md' file extension lets GitHub (and other software) know that we are using markdown syntax. However, we still want to ensure that the encoding of the file is in 'plain text'. Once you are setup with a text editor you like then the encoding of documents will not usually be an issue.  
+Include the above text or something similar in a new plain text document. Once you have done this save the file with a file extension '.md'. This is the most popular file extension used for markdown files though others are sometimes used. Make sure that it is saved in plain text format in a new folder. Sometimes your text editor will default to Rich Text Format. You should be able to change this in the preferences or options of your chosen text editor. Make sure to name the file and folder with something meaningful. This may seem slightly confusing. The '.md' file extension lets GitHub (and other software) know that we are using markdown syntax. However, we still want to ensure that the encoding of the file is in 'plain text'. Once you are setup with a text editor you like then the encoding of documents will not usually be an issue.
 
-To most effectively use Git to version control it is important to organize projects in folders. Git tracks the contents of a folder by creating a **repository** in the folder. The repository is made up of all the files in the folder that are 'watched' for changes by Git. It is best to create one repository for each major project you are working on, i.e., one repository for an article, one for a book, and one for some code you are developing. These folders are like the normal folders you would have on your computer for different projects, though the files in the folders have to be deliberately added to the repository in order to be version controlled.  
+To most effectively use Git to version control it is important to organize projects in folders. Git tracks the contents of a folder by creating a **repository** in the folder. The repository is made up of all the files in the folder that are 'watched' for changes by Git. It is best to create one repository for each major project you are working on, i.e., one repository for an article, one for a book, and one for some code you are developing. These folders are like the normal folders you would have on your computer for different projects, though the files in the folders have to be deliberately added to the repository in order to be version controlled.
 
 ### Adding a Document
 
@@ -174,7 +177,7 @@ Save the changes to your file and go back to GitHub Desktop. You will see that t
 
 To do this we need to **commit** our changes.
 
-### Committing Changes  
+### Committing Changes
 
 A **commit** tells Git that you made some changes which you want to record. Though a **commit** seems similar to saving a file, there are different aims behind 'committing' changes compared to saving changes. Though people sometimes save different versions of a document, often you are saving a document merely to record the version as it is when it is saved. Saving the document means you can close the file and return to it in the same state later on. **Commits**, however, take a snapshot of the file at that point and allow you to document information about the changes made to the document.
 
@@ -182,7 +185,7 @@ A **commit** tells Git that you made some changes which you want to record. Thou
 
 To commit changes you must give a summary of the changes and include an optional message. It is important that you think carefully about when to make commits. The advantages of version control taking snapshots of your changes regularly relies on you making commits. It is often tempting to just commit changes when you have finished working on a document but this might not reflect when important changes occurred.
 
-When you commit you will see 'commit to master'. This refers to the 'master branch'. Within a Git repository it is possible to have multiple 'branches.' These different branches are essentially different places in which to work. Often they are used to test new ideas or work on a particular feature. Initially it is not necessary to use the branches feature of GitHub, but you may want to learn to use it in the future, particularly if you want to use GitHub to collaborate on a repository with other people.  
+When you commit you will see 'commit to master'. This refers to the 'master branch'. Within a Git repository it is possible to have multiple 'branches.' These different branches are essentially different places in which to work. Often they are used to test new ideas or work on a particular feature. Initially it is not necessary to use the branches feature of GitHub, but you may want to learn to use it in the future, particularly if you want to use GitHub to collaborate on a repository with other people.
 
 A useful way to think about commits is as the 'history' of your document. Each commit records a development or change made to the documents in your repository; the history of the document can be traced by looking at all of the commits. For this history to be useful later on, either for ourselves or for someone else, it is important that this history is recorded at relevant points. Trying to make commits 'atomic' is an important consideration. What this means is that each commit 'makes sense' on its own. The changes in the commit and the message are understandable without having to look at surrounding commits.
 
@@ -199,7 +202,7 @@ One way of addressing this is to try to follow a 'commit style'. One influential
 ```
 Capitalized, short (50 chars or less) summary
 
-More detailed explanatory text, if necessary. In some contexts, the first line is treated as the subject of an email and the rest of the text as the body.  
+More detailed explanatory text, if necessary. In some contexts, the first line is treated as the subject of an email and the rest of the text as the body.
 
 Write your commit message in the present tense: "Fix typos" and not "Fixed
 typos."  This convention matches with other aspects Git commands.
@@ -224,7 +227,7 @@ Why? Some of the methods discussion doesn't make sense without a description
 of the sources being used.
 ```
 
-A potentially useful parallel to writing good commit messages is the messages included when you edit a Wikipedia or Wiki page. When writing these messages it is important to explain the changes you made to the page and the reasoning behind these changes so that other people who see the changes can understand your reasoning. Approaching commit messages as if they will be read not only by yourself but also by others will help you write clear and meaningful commit messages.  
+A potentially useful parallel to writing good commit messages is the messages included when you edit a Wikipedia or Wiki page. When writing these messages it is important to explain the changes you made to the page and the reasoning behind these changes so that other people who see the changes can understand your reasoning. Approaching commit messages as if they will be read not only by yourself but also by others will help you write clear and meaningful commit messages.
 
 ### Building a Good Repository
 
@@ -246,7 +249,7 @@ You can now see your document in your online repository.
 
 {% include figure.html filename="getting-started-with-github-desktop-6.png" caption="The online repository you have published" %}
 
-Once your document is online, you can continue to make local changes to your file. But you will have to **sync** your local changes to reflect these changes in the published GitHub repository. GitHub stores changes both locally (on your computer) and remotely (on their servers). It is important to keep these changes in sync. On GitHub Desktop this process is simplified by using a sync option rather than by using the **push** and **pull** commands used on the command line. You will see a 'sync' button on GitHub Desktop. This will ensure your local (computer) and remote (GitHub server) repositories are the same. If you want to work on your document before 'publishing it' you can choose to make commits without syncing. This will allow you to implement version control early on whilst keeping the changes local to your computer initially.  
+Once your document is online, you can continue to make local changes to your file. But you will have to **sync** your local changes to reflect these changes in the published GitHub repository. GitHub stores changes both locally (on your computer) and remotely (on their servers). It is important to keep these changes in sync. On GitHub Desktop this process is simplified by using a sync option rather than by using the **push** and **pull** commands used on the command line. You will see a 'sync' button on GitHub Desktop. This will ensure your local (computer) and remote (GitHub server) repositories are the same. If you want to work on your document before 'publishing it' you can choose to make commits without syncing. This will allow you to implement version control early on whilst keeping the changes local to your computer initially.
 
 ### Making Changes Remotely
 
@@ -254,7 +257,7 @@ It is also possible to make a change to your repository on the web interface. Cl
 
 {% include figure.html filename="getting-started-with-github-desktop-7.png" caption="The view of your document online" %}
 
-(Note: At this point it might seem strange that all the text appears on one line, when your local file had two lines. This is because in Markdown, syntax paragraphs must be broken using a blank line; two consecutive lines are interpreted as a single paragraph. If we had used the file extension '.txt' we would have had a line break appear here, but using the extension '.md' told the GitHub web interface to preview the document using Markdown rules. This is another reason that using a text editor which includes facilities for rendering your Markdown file will be useful when you are first using the format.)  
+(Note: At this point it might seem strange that all the text appears on one line, when your local file had two lines. This is because in Markdown, syntax paragraphs must be broken using a blank line; two consecutive lines are interpreted as a single paragraph. If we had used the file extension '.txt' we would have had a line break appear here, but using the extension '.md' told the GitHub web interface to preview the document using Markdown rules. This is another reason that using a text editor which includes facilities for rendering your Markdown file will be useful when you are first using the format.)
 
 From the web interface you have a variety of options available to you, including viewing the history of changes, viewing the file in GitHub Desktop, and deleting it. You can also see some other options next to 'code'. These options will not be so important to begin with but you may want to use them in the future. For now we will try editing a file in the web interface and syncing these changes to our local repository.
 
@@ -313,7 +316,7 @@ You will see that the conflicting section is marked with `<<<<<<<` and ends with
 
 This may seem like a convoluted approach to dealing with conflicts but it is very useful because of the control given to you in dealing with conflicts. If conflicts emerge on a system like Dropbox the result is two files being created. Although this is better than potentially loosing important changes, it also means you still have to look at these two documents and decide how you are going to merge them. If you are careful about always syncing changes you will be able to avoid having to deal with conflicts. When collaborating the likelihood for conflicts increases so it is useful to be aware of how to deal with conflicts before you begin to collaborate using GitHub.
 
-## Version Control in a Plain Text Workflow  
+## Version Control in a Plain Text Workflow
 
 So far we have only implemented version control with a very basic document. Learning more about Markdown and writing in plain text will allow you to use version control in more the sorts of documents you would use in your day-to-day work. Version controlling a Markdown document will allow you to learn the Markdown syntax while reinforcing your understanding of version controlling documents. [Sustainable Authorship in Plain Text using Pandoc and Markdown](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) by Dennis Tenen and Grant Wythoff will provide you with an understanding of how you could use plain text for academic writing using Pandoc and Markdown. Pandoc allows you to convert Markdown formated Plain Text files into numerous different formats including HTML, PDF and Word. The combination of Markdown, Pandoc and Version Control will provide a powerful, sustainable and flexible approach to academic writing.
 
@@ -323,7 +326,6 @@ The workflow introduced in this lesson can also be used as a foundation to creat
 
 GitHub Desktop offers an easy way of getting started with GitHub and version control. Depending on your use case GitHub desktop may be sufficient for your needs. If you are already familiar with using the Command Line then using Git on the Command Line may offer some advantages. Version control systems like Git have a lot of features available to use. Some of these will only be applicable in very specific contexts, others will be more commonly useful. Alongside the lesson suggested above the resources below will allow you to gain a deeper understanding of version control.
 
-* The [GitHub Desktop](https://desktop.github.com/) and the GitHub Desktop [documentation](https://help.github.com/desktop/) outlines more features included in GitHub Desktop.
 * GitHub provides extensive support in the form of [guides](https://guides.github.com/) and [help](https://help.github.com/).
 * [GitHub Glossary](https://help.github.com/articles/github-glossary/) outlines the most commonly used GitHub/Git terminology.
 * [Atlassian](https://www.atlassian.com/git/tutorials): Some in-depth but clear tutorials on using git. There is a focus on explaining the differences between git and other version control systems which may not be relevant but will help you understand the inner workings of git in greater detail.
