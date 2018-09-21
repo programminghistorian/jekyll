@@ -26,7 +26,7 @@ Escribir un tutorial es una de las mejores maneras de profundizar en un método 
 
 Nuestro objetivo no es aceptar o rechazar artículos como una revista académica tradicional. Por el contrario, nuestro equipo editorial colaborará y te ayudará a mejorar la escritura de la lección y cómo plantearla de manera adecuada para que resulte clara y útil. Nuestro proceso de revisión contribuye a mejorar las lecciones y tu destreza a la hora de escribir sobre temas técnicos o especializados. Por favor, no dudes en leer más sobre el proceso de [envío].
 
-Si quieres proponer una lección (escrita por ti o por otra persona), envía un email a [Antonio Rojas Castro].
+Si quieres proponer una lección (escrita por ti o por otra persona), envía un email a [Maria José Afanador Llach].
 
 
 ## Únete a nuestro equipo de revisores
@@ -36,7 +36,7 @@ Si quieres proponer una lección (escrita por ti o por otra persona), envía un 
 
 La revisión por pares es esencial para producir recursos fiables de calidad. El equipo de _The Programming Historian en español_ tiene en gran estima el proceso de revisión y, además, adopta una aproximación abierta y colaborativa en la que los revisores reciben crédito de manera pública y completa por su trabajo. Para más información sobre nuestra filosofía y forma de trabajar, por favor, consulta la Guía para [revisores].
 
-Te animamos a que te unas a nuestro equipo de revisores. El tiempo dedicado es flexible; de esta manera, contribuirás a mantener la calidad de los contenidos. Por favor, envía un email a [Antonio Rojas Castro] con una breve presentación y dinos en qué métodos, herramientas, temas o tecnologías estás interesado o interesada para que podamos encargarte la revisión de una lección apropiada.
+Te animamos a que te unas a nuestro equipo de revisores. El tiempo dedicado es flexible; de esta manera, contribuirás a mantener la calidad de los contenidos. Por favor, envía un email a [Maria José Afanador Llach] con una breve presentación y dinos en qué métodos, herramientas, temas o tecnologías estás interesado o interesada para que podamos encargarte la revisión de una lección apropiada.
 
 
 ## Conviértete en editor
@@ -70,7 +70,7 @@ Este proyecto se propone demostrar cómo deben ser las publicaciones académicas
 
 ## O simplemente ponte en contacto con nosotros
 
-Si se te ocurren más formas de participación, siempre puedes escribirnos un email a [Antonio Rojas Castro] con comentarios, preguntas, quejas o sugerencias. Nos comprometemos a responder a todos los mensajes tan pronto como sea posible.
+Si se te ocurren más formas de participación, siempre puedes escribirnos un email a [Maria José Afanador Llachf] con comentarios, preguntas, quejas o sugerencias. Nos comprometemos a responder a todos los mensajes tan pronto como sea posible.
 
 ¡Gracias por ayudarnos a mejorar _The Programming Historian en español_!
 
@@ -84,4 +84,5 @@ Si se te ocurren más formas de participación, siempre puedes escribirnos un em
 [WorldCat]: http://www.worldcat.org/title/programming-historian/oclc/951537099
 [University of Purdue library]: http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink
 [Directory of Open Access Journals]: https://doaj.org/toc/2397-2068
-[Antonio Rojas Castro]: mailto:rojas.castro.antonio@gmail.com
+[Maria José Afanador Llach]: mailto:mj.afanador28@uniandes.edu.co
+
