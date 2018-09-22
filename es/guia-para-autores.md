@@ -348,7 +348,7 @@ Finalmente, el equipo editorial the *The Programming Historian en español* revi
 ¡Felicidades! ¡Ya has publicado tu traducción o lección en *The Programming Historian en español*!
 
 
-[Maria José Afanador Llach]: mailto:mj.afanador28@uniandes.co
+[Maria José Afanador Llach]: mailto:mj.afanador28@uniandes.edu.co
 [traducciones pendientes]: https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/lista-de-traducciones.md
 [lecciones ya publicadas]: /es/lecciones
 [directrices para revisores]: /es/guia-para-revisores
