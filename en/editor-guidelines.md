@@ -55,22 +55,22 @@ Upon successful submission of the lesson, the editor will create a review ticket
 ### Open Peer Review
 The *Programming Historian* uses a model of open peer review, while we believe this helps maintain civility and the productive sharing of ideas, authors have the right (and we have a requirement to respect that right) to request a closed peer review. There are many reasons why someone might be hesitant to engage in an open review and we encourage authors to always pursue the option with which they are most comfortable.
 
-Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). The editor should complete an initial sustainability overview of the submission to ensure that software versions and dependencies are clearly marked, specificities of software like screenshots are limited to those required to complete the lesson, and that the lesson makes use of existing software documentation whenever available and appropriate. Editors should also ensure that lessons try, as much as possible, to avoid software specific directions, such as "Right-click on the _x_ icon to access the _x_ menu," instead favoring general methodological overviews. The Editorial Checklist [contains more details about sustainability practices](#c-sustainability-review) for PH. 
+Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). The editor should complete an initial sustainability overview of the submission to ensure that software versions and dependencies are clearly marked, specificities of software like screenshots are limited to those required to complete the lesson, and that the lesson makes use of existing software documentation whenever available and appropriate. Editors should also ensure that lessons try, as much as possible, to avoid software specific directions, such as "Right-click on the _x_ icon to access the _x_ menu," instead favoring general methodological overviews. The Editorial Checklist [contains more details about sustainability practices](#c-sustainability-review) for PH.
 
 Often editors need help clarifying the intended audience of a lesson, or identifying jargon that needs further explanation. This initial review helps let the external reviewers focus on improving the piece. This is normally done openly on our submission system (see below), but it can be a closed review at the request of either party.
 
-Once an author has revised the tutorial to the satisfaction of the editor, it is the editor's job to invite two formal external peer reviews. It is entirely up to the editor who these reviewers are, however in the interest of our [commitment to diversity](https://github.com/programminghistorian/jekyll/issues), we encourage editors to ask themselves if they have made a sufficient effort to draw from reviewers who are distinct from themselves either by gender, nationality, race, age, or academic background. Please try not to find two people who are very like you. 
+Once an author has revised the tutorial to the satisfaction of the editor, it is the editor's job to invite two formal external peer reviews. It is entirely up to the editor who these reviewers are, however in the interest of our [commitment to diversity](https://github.com/programminghistorian/jekyll/issues), we encourage editors to ask themselves if they have made a sufficient effort to draw from reviewers who are distinct from themselves either by gender, nationality, race, age, or academic background. Please try not to find two people who are very like you.
 
 To coordinate our requests for reviewers, please use the "Programming Historian - Reviewer Tracking" Google Spreadsheet. (Contact the managing editor or Jeri Wieringa if you need help accessing the spreadsheet.) Prior to sending a review request, check the list to make sure that the person has not been recently contacted by another editor. To avoid over-taxing reviewers, please limit requests to once a year. If a reviewer has been contacted in the past year, the "date_contacted" field will display as red.
 
-For each potential reviewer you do contact, regardless of response, please enter: 
+For each potential reviewer you do contact, regardless of response, please enter:
 
-+ the date contacted, 
-+ the reviewer's name, 
-+ your name as the editor, 
++ the date contacted,
++ the reviewer's name,
++ your name as the editor,
 + the lesson to be reviewed,
 + the response,
-+ and, if the response was "yes," the date completed. 
++ and, if the response was "yes," the date completed.
 
 Please enter the date using the `mm/dd/yyyy` format.
 
@@ -128,7 +128,7 @@ There are a few areas where you should intervene in the process from a technical
 The **Editor** should suggest a name for the new lesson file that conforms to these guidelines:
 
 - Make the filename short, but descriptive; this filename will eventually become the slug for the lesson's URL when published.
-- A good URL would fit nicely on a powerpoint slide, is easy to remember, and tells you something about the lesson. Our URLS take the following format: https://programminghistorian.org/en/lessons/FILENAME-HERE
+- A good URL would fit nicely on a powerpoint slide, is easy to remember, and tells you something about the lesson. Our URLS take the following format: `https://programminghistorian.org/en/lessons/FILENAME-HERE`
 - Do not put spaces in the filename; use hyphens instead.
 - The filename extension should be `.md` so that GitHub will generate a preview of the lesson.
 
@@ -193,27 +193,9 @@ If a tutorial contains a video it should be hosted on our YouTube channel (which
 
 ## Acceptance and Publication - Editorial Checklist
 
-Once you and the author are happy with a tutorial, the next step is to move the lesson from the Submissions site to our main repository that hosts the live website.
+Once you and the author are happy with a tutorial, the next step is to begin the publication process. This involves checking the files and adding some additional metadata:
 
-### 1) Move the Files
-
-The easiest way to publish the lesson is to use `git` from the command line. The following instructions assume that you have already cloned both the `jekyll` and `ph-submissions` repositories to your local machine. (Our [lesson on using GitHub Desktop](/lessons/getting-started-with-github-desktop) may be helpful if this is new to you.) If you are not sure how to do that or have any questions, contact Matthew Lincoln for assistance.
-
-1. Go to the directory for your local `ph-submissions` repository.
-2. `git pull` to get all of the newest changes on your machine (or `sync` if you are using GitHub Desktop)
-3. Repeat Steps 1 and 2 for the `jekyll` repository on your local machine.
-4. Copy the lesson files and any related image and asset files from the `ph-submissions` directory on your machine to the appropriate places in the `jekyll` directory on your local machine. (You can use a command like `cp` on the Unix command line, or use your GUI file system if you are using GitHub Desktop.)
-5. From within the `jekyll` directory on your local machine, `git add` the new files and then `git commit` and `git push` the changes.
-
-After the lesson has been moved to the `jekyll` repository, you'll also need to archive the submitted lesson on the `ph-submissions` repository.
-
-1. Go to the directory for your local `ph-submissions` repository.
-2. Add a new line to the YAML header of the now published lesson: `redirect_from: "/lessons/LESSON-SLUG"`
-3. Copy the now published lesson from `lessons/` into `lessons/published/`.
-4. Copy the image folder containing the images for the now published lesson from `images/` to `images/published/`.
-5. Use `git add`, `git commit`, and `git push` to finalize all the changes.
-
-### 2) Create an Author Bio
+### 1) Create an Author Bio
 
 If the lesson has been written by a new author, editors should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Follow the syntax for the examples already included there:
 
@@ -228,7 +210,7 @@ If the lesson has been written by a new author, editors should add information a
 
 **Whitespace is important**, so be sure that the indentation matches the other examples.
 
-### 3) Add a table of contents to the lesson
+### 2) Add a table of contents to the lesson
 
 The following code should be added into the text of the lesson, usually before the first subheader:
 
@@ -236,64 +218,46 @@ The following code should be added into the text of the lesson, usually before t
 {% raw %}{% include toc.html %}{% endraw %}
 ```
 
-### 4) Add reviewers and editors to the YAML file
+### 3) Add YAML metadata to the lesson file
 
-It is important that we acknowledge the work of our peer reviewers and editors. To the YAML file at the top of the tutorial, add the names of the reviewers who helped work on the piece as well as the names of any members of the community who contributed substantial open reviews. In addition, create an `editors` key and add yourself and any other editors who actively contributed to guiding the piece to publication. YAML formatting instructions can be found in the [Author Guidelines](/author-guidelines).
+```
+title: ["YOUR TITLE HERE"]
+collection: lessons
+layout: lesson
+slug: [e.g. sentiment analysis]
+date: [YYYY-MM-DD]
+translation_date: [YYYY-MM-DD (translations only)]
+authors:
+- [FORENAME SURNAME 1]
+- [FORENAME SURNAME 2, etc]
+reviewers:
+- [FORENAME SURNAME 1]
+- [FORENAME SURNAME 2, etc]
+editors:
+- [FORENAME SURNAME]
+translator:
+- [FORENAME SURNAME (translations only)]
+translation-editor:
+- [FORNAME SURNAME (translations only)]
+translation-reviewer:
+- [FORNAME SURNAME (translations only)]
+original: [slug to original published lesson (translations only)]
+review-ticket: [e.g. https://github.com/programminghistorian/ph-submissions/issues/108]
+difficulty: [see guidance below]
+activity: [ONE OF: acquiring, transforming, analyzing, presenting, sustaining]
+topics: [see guidance below]
+abstract: [see guidance below]
 
-### 5) Add a difficulty indicator to the YAML file
-
-To help readers evaluate which lessons best fit their goals and skill level, we provide "Recommended for ___ Users" information in the lesson YAML file. There are currently three tiers, which can be set with the following numerical codes: 1 (Beginning), 2 (Intermediate), 3 (Advanced). To add the difficulty level to the lesson, include the following in the YAML file:
-
-```yaml
-difficulty: 1
 ```
 
-### 6) Add the review ticket URL to the YAML file
-
-In order to promote transparency around the review process, create a `review-ticket` key in the YAML file and provide the URL to the peer review in the ph-submissions repository. This information will be used to provide a link back to the review ticket for the lesson.
-
-### 7) Update the date field in the YAML file
-
-Update the date in the YAML file to the date the lesson was moved to the jekyll repository and the added to the main site.
-
-### 8) Other lesson YAML finalization
-Looking at the example below, make sure all front matter on the lesson is properly filled out.  Common fields that need writing or editing at this point are:
-- **collection** should just say "collection: lessons"
-- **layout** should just say "layout: lesson"
-- **slug** should have the path to the lesson on the public PH site, which means the hyphenated text following programminghistorian.org/lessons/ (e.g. building-static-sites-with-jekyll-github-pages)
-- **activity** should use one (and only one) of these five options: *acquiring, transforming, analyzing, presenting, sustaining*. Pick whichever one best describes what the lesson teaches you to do with humanities data (e.g. a lesson on creating a new Omeka website would be about *presenting* humanities data through a web gallery).
+- **difficulty** To help readers evaluate which lessons best fit their goals and skill level, we provide "Recommended for ___ Users" information in the lesson YAML file. There are currently three tiers, which can be set with the following numerical codes: 1 (Beginning), 2 (Intermediate), 3 (Advanced). To add the difficulty level to the lesson, include the following in the YAML file:
 - **topics** can be any number of the things listed after "type:" in /\_data/topics.yml. You are also encouraged to create new topics that would help someone find the lesson. To do so, besides listing the topic(s) in the lesson's front matter, you should:
 1. Add the topic to any existing lesson(s) also described by the new topic
 2. Add the new topic(s) to /\_data/topics.yml following the format of the other topics there (note that topics can't have spaces—use hyphens if needed).
-3. Edit /js/lessonfilter.js so the filter button to filter the lesson page to that topic works. Search the file for the ten-line chunk of code beginning with "$('#filter-api')", copy and paste that chunk of code, and replace the *two* appearances of "api" with your new topic.
+3. Edit /js/lessonfilter.js so the filter button to filter the lesson page to that topic works. Search the file for the ten-line chunk of code beginning with `$('#filter-api')`, copy and paste that chunk of code, and replace the *two* appearances of "api" with your new topic.
 - **abstract** is a 1-3 sentence description of what you'll learn in the lesson. Try to avoid technical vocabulary when possible, as these summaries can help scholars without technical knowledge to try out something new.
 
-Check out the example below to see what finished front matter should look like:
-
-    ---
-    title: "Getting Started with Topic Modeling and MALLET"
-    collection: lessons
-    layout: lesson
-    slug: topic-modeling-and-mallet
-    date: 2012-09-02
-    authors:
-    - Shawn Graham
-    - Scott Weingart
-    - Ian Milligan
-    reviewers:
-    - John Fink
-    - Alan MacEachern
-    - Adam Crymble
-    editors:
-    - Adam Crymble
-    review-ticket: https://github.com/programminghistorian/ph-submissions/issues/14
-    difficulty: 2
-    activity: analyzing
-    topics: [distant-reading]
-    abstract: "In this lesson you will first learn what topic modeling is and why you might want to employ it in your research. You will then learn how to install and work with the MALLET natural language processing toolkit to do so."
-    ---
-
-### 9) Find an Image to represent the lesson
+### 4) Find an Image to represent the lesson
 
 We represent our lessons using an old image that we feel captures some element of the task described in the tutorial. You can see the full range of these on the [main Lessons directory](/lessons/). These images are selected by editors.
 
@@ -312,7 +276,7 @@ Then, create a new copy of the image. Crop it to a square without removing any i
 
 Upload the original image to the [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) folder, and upload the edited image to the [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery) folder.
 
-### 10) Incorporate your lesson into our Twitter bot
+### 5) Incorporate your lesson into our Twitter bot
 In addition to the Twitter promotion outlined below, we also make use of a Twitter bot to regularly re-advertise older lessons. In order to add the new lesson to our pipeline, you need to add it as a row in [this spreadsheet](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Everyone on the editorial team should have the ability to make changes; email the google group if you have trouble. You will need to add a new row for your lesson to the end of the table with the following fields:
 
 * message_one (column A) - a twitter message to play early in the week.
@@ -321,7 +285,58 @@ In addition to the Twitter promotion outlined below, we also make use of a Twitt
 
 Leave column D blank and untouched - this field is used by the Twitter bot to log its progress through the list. Also note that this step should not replace your own promotion of the lesson. The bot goes through the lessons at random, one a week, so it could be months until your lesson comes up through this means.
 
-### 11) Confirm all links and YAML headers are functioning correctly
+### 6) Inform the Managing Editor to Publish
+
+The Managing Editor will publish the lesson by moving the files to the main website and check everything over. To make this person's job easier, post a list in the submission ticket of all files that need to be moved to publish the lesson. This should normally include:
+
+- The lesson .md file
+- The directory for any accompanying files (images, data, etc)
+- The gallery icons
+
+### 7) Thank Everyone and Encourage Promotion
+Once you have been given word that the Managing Editor has successfully published the lesson, close the submission ticket, linking to the published lesson. It's important to send an email or message to everyone involved thanking them for their efforts. In particular, thank the author for contributing and encourage them to think of us again in future. It's also worth giving the author some ideas on promoting their lesson. The most-used lessons always have authors' energies behind them. For example authors should be encouraged to:
+
+- Tweet at least 3 times about their lesson (with a link).
+- Retweet our tweets about their lesson ('liking' does not help spread the word)
+- Promote their lesson in presentations or publications about their research
+- Link to it in blog posts when relevant
+- Add it to lists of resources in relevant repositories (eg, Wikipedia, community groups, etc).
+
+People don't find lessons on their own. The hard work is done, so let's make sure it was worth it!
+
+# Managing Editor Checklist
+
+The Managing Editor is responsible for moving the files to the main website via a pull request. This is also a chance for the managing editor to familiarize him/herself with the new lesson, and to quickly check that everything looks ok.
+
+## 1) Look over the submission preview
+
+Check the submission preview for any obvious errors such as broken images or strange formatting. Inform the editor of any mistakes, which they are responsible for getting fixed.
+
+## 2) Move the Files
+
+The editor should have left you a clear list of files that need to be published on the submission ticket. If they have not done so, ask them to fix it before proceeding.
+
+There are several ways that you can perform a pull request to publish the files:
+
+* A) Follow our ["Making Technical Contributions" guidelines](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions), which uses the Github website GUI.
+
+* B) Use `git` from the command line. The following instructions assume that you have already cloned both the `jekyll` and `ph-submissions` repositories to your local machine. (Our [lesson on using GitHub Desktop](/lessons/getting-started-with-github-desktop) may be helpful if this is new to you.) If you are not sure how to do that or have any questions, contact Matthew Lincoln for assistance.
+
+ 1. Go to the directory for your local `ph-submissions` repository.
+ 2. `git pull` to get all of the newest changes on your machine (or `sync` if you are using GitHub Desktop)
+ 3. Repeat Steps 1 and 2 for the `jekyll` repository on your local machine.
+ 4. Copy the lesson files and any related image and asset files from the `ph-submissions` directory on your machine to the appropriate places in the `jekyll` directory on your local machine. (You can use a command like `cp` on the Unix command line, or use your GUI file system if you are using GitHub Desktop.)
+ 5. From within the `jekyll` directory on your local machine, `git add` the new files and then `git commit` and `git push` the changes.
+
+After the lesson has been moved to the `jekyll` repository, you'll also need to archive the submitted lesson on the `ph-submissions` repository.
+
+1. Go to the directory for your local `ph-submissions` repository.
+2. Add a new line to the YAML header of the now published lesson: `redirect_from: "/lessons/LESSON-SLUG"`
+3. Copy the now published lesson from `lessons/` into `lessons/published/`.
+4. Copy the image folder containing the images for the now published lesson from `images/` to `images/published/`.
+5. Use `git add`, `git commit`, and `git push` to finalize all the changes (or follow the Making Technical Contributions instructions: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions)
+
+## 3) Confirm all links and YAML headers are functioning correctly
 
 Once you push your changes on to the `gh-pages` branch of the [programminghistorian][ph_repo] repository, the site will be automatically tested by [Travis CI] ([Continuous Integration]).
 This test process checks three things: first, that all YAML and markdown code is parseable; second, that all the hyperlinks on the site point to valid, operational pages; and third, that internal links to pages on the _Programming Historian_ are all relative links that start with `/` rather than `https://programminghistorian.org/`
@@ -358,15 +373,6 @@ If your build has errored, you will need to consult the build logs to see what i
 
 [create a new issue]: https://github.com/programminghistorian/jekyll/issues/new
 
-### 12) Thank Everyone and Encourage Promotion
-It's important to send an email or message to everyone involved thanking them for their efforts. In particular, thank the author for contributing and encourage them to think of us again in future. It's also worth giving the author some ideas on promoting their lesson. The most-used lessons always have authors' energies behind them. For example authors should be encouraged to:
+## 4) Inform the Editor
 
-- Tweet at least 3 times about their lesson (with a link).
-- Retweet our tweets about their lesson ('liking' does not help spread the word)
-- Promote their lesson in presentations or publications about their research
-- Link to it in blog posts when relevant
-- Add it to lists of resources in relevant repositories (eg, Wikipedia, community groups, etc).
-
-People don't find lessons on their own. The hard work is done, so let's make sure it was worth it!
-
-
+Once the lesson has been published, inform the editor.
