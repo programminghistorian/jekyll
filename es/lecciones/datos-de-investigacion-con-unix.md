@@ -49,7 +49,7 @@ _____
 
 Los usuarios de Windows deben instalar Git Bash. Lo pueden hacer descargando el más reciente instalador de la [página web de Git para Windos](http://msysgit.github.io/). Las instrucciones para su instalación están disponibles en [Open Hatch](https://openhatch.org/missions/windows-setup/install-git-bash) (en inglés).
 
-Los usuarios de OS X y Linux necesitarán utilizar la Terminal, o intérprete de línea de comandos, como se explica en la "[Introducción a la línea de comandos de Bash](https://programminghistorian.org/es/lecciones/introduccion-a-bash)."
+Los usuarios de OS X y Linux necesitarán utilizar la Terminal, o intérprete de línea de comandos, como se explica en la "[Introducción a la línea de comandos de Bash](/lecciones/introduccion-a-bash)."
 
 Esta lección se escribió utilizando Git Bash 1.9.0 en sistema operativo Windows 7. Se han incluido, cuando ha sido posible, rutas de archivo equivalentes para OS X/Linux. Sin embargo, como los comandos y variables pueden cambiar ligeramente entre sistemas operativos, los usuarios de OS X/Linux pueden consultar Deborah S. Ray y Eric J. Ray, [*Unix and Linux: Visual Quickstart Guide*](https://www.worldcat.org/title/unix-and-linux/oclc/308171076&referer=brief_results), 4a ed. (2009), que cubre la interoperabilidad con gran detalle. (**N. del T.**: en español se puede consultar [*Unix y linux : Guía práctica*](https://www.worldcat.org/title/unix-y-linux-gua-prctica/oclc/970524006&referer=brief_results)
 
