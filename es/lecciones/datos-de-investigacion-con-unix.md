@@ -23,6 +23,7 @@ collection: lessons
 original: research-data-with-unix
 activity: transforming
 topics: [data-manipulation]
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/138
 abstract: "En esta lección aprenderás cómo los datos de tu investigación pueden ser contados y extraídos mediante el shell Unix, cuando están organizados de manera clara y predecible."
 previous: introduccion-a-bash
 ---
