@@ -137,7 +137,7 @@ Step by Step:
 
 **2. Start.** On their website click the “Start” button.
 
-**3. Load attribute data.** From your data sheet, copy the sample [data table 2 - attribute table](/assets/creating-network-diagrams-from-historical-sources/network-examples2-en.csv), and paste it in the white section of the page, now click “Load”.
+**3. Load attribute data.** From your data sheet, copy the sample [data table 2 - attribute table](/assets/creating-network-diagrams-from-historical-sources/network-example2-en.csv), and paste it in the white section of the page, now click “Load”.
 
 {% include figure.html caption="Figure 6: Loading attribute data into Palladio." filename="image13.png" %}
 
