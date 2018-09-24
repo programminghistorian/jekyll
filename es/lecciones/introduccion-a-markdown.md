@@ -5,8 +5,8 @@ authors:
 - Sarah Simpkin
 date: 2015-11-13
 translation_date: 2017-07-31
-editors: 
-- Ian Milligan 
+editors:
+- Ian Milligan
 reviewers:
 - John Fink
 - Nancy Lemay
@@ -78,10 +78,10 @@ Primer nivel de encabezado
 
 Segundo nivel de encabeado
 --------------------------
-``` 
+```
 
 Estos se representarán como:
- 
+
 # Primer nivel de encabezado
 
 ## Segundo nivel de encabezado
@@ -131,7 +131,7 @@ Añade énfasis a una frase utilizando estos métodos:
 
 Lo cual queda representado así:
 
-¡Estoy **muy** entusiasmado con los tutoriales de _The Programming Historian en español_! 
+¡Estoy **muy** entusiasmado con los tutoriales de _The Programming Historian en español_!
 
 #### Listados
 
@@ -216,11 +216,11 @@ Observa cómo el bloque de código se representa a renglón seguido.
 Escribe el siguiente texto en la caja de texto:
 
 ```
-> Hola. Éste es un párrafo de texto incluido en un bloque de cita. Fíjate que tengo una sangría con respecto al margen izquierdo. 
+> Hola. Éste es un párrafo de texto incluido en un bloque de cita. Fíjate que tengo una sangría con respecto al margen izquierdo.
 ```
 Lo cual se representará:
 
-> Hola. Éste es un párrafo de texto incluido como un bloque de cita textual. Fíjate que tengo una sangría con respecto al margen izquierdo. 
+> Hola. Éste es un párrafo de texto incluido como un bloque de cita textual. Fíjate que tengo una sangría con respecto al margen izquierdo.
 
 #### Enlaces de Internet
 
@@ -253,11 +253,11 @@ Un ejemplo es el sitio *[The Programming Historian en español][1]*
 
 Se pueden referir las imágenes mediante el uso de `!`, seguido de un texto alternativo entre corchetes, seguido a su vez por el URL de la imagen y un título opcional entre comillas. Esto no se representará como texto en tu documento pero te permitirá incluir la imagen en la visualización de una página en HTML.
 
-`![Logo de Wikipedia](http://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg "Wikipedia logo")`
+`![Logo de Wikipedia](https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg "Wikipedia logo")`
 
 **Esto aparece como:**
 
-![Logo de Wikipedia](http://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg "Wikipedia logo")
+![Logo de Wikipedia](https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg "Wikipedia logo")
 
 #### Reglas y líneas horizontales
 
@@ -297,7 +297,7 @@ Para crear una tabla en GitHub, usa barras verticales `|`para separar columnas y
 | renglón 2, columna 1 | renglón 2, columna 2 | renglón 2, columna 3|
 | renglón 3, columna 1 | renglón 3, columna 2 | renglón 3, columna 3|
 
-Para especificar la alineación del contenido de cada columna se pueden agregar dos puntos `:`al renglón de los encabezados como sigue: 
+Para especificar la alineación del contenido de cada columna se pueden agregar dos puntos `:`al renglón de los encabezados como sigue:
 
 ```
 | Alineado-izquierda | Centrado | Alineado-derecha |
