@@ -14,7 +14,9 @@ redirect_from:
 <h2 class="noclear">Step 3: <a href="#submitting-a-new-lesson">Submitting a New Lesson</a></h2>
 
 ## Proposing a New Lesson
-If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, contact [Anandi Silva Knuppel](mailto:anandi.silva.knuppel@emory.edu) to discuss your idea. Getting in touch at an early stage will help you frame your lesson--especially identifying a target audience and expected skill level--and to pair you with the most appropriate editor.
+
+If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, contact [Anandi Silva Knuppel] to discuss your idea. Getting in touch at an early stage will help you frame your lesson--especially identifying a target audience and expected skill level--and to pair you with the most appropriate editor.
+
 
 <div class="alert alert-success">
 We welcome tutorials relevant for the humanities, pitched at any level of technical aptitude and experience that focus on one problem or process, can be sustainable in the long term, and are addressed to a global audience. The scope and length of the tutorial should be appropriate to the complexity of the task being taught. Tutorials should not exceed 8,000 words (including code) without the explicit permission of the editor, which will be granted only in exceptional circumstances. We expect that most lessons will be between 4,000 and 6,000 words. Longer lessons may need to be split into multiple tutorials.
@@ -40,10 +42,103 @@ Because our site is hosted using [GitHub Pages](https://pages.github.com), **you
 
 The specific editor you choose is not important, but you should begin writing your lesson in plain text to avoid frustrations later on. For instance, stylized quotation marks automatically inserted by MS Word create formatting problems that can be hard to debug.
 
-### Endnote format
 
-Authors are asked to use the [Chicago Manual of Style](https://en.wikipedia.org/wiki/The_Chicago_Manual_of_Style) for endnote formatting.
+### Write in Markdown
+**All new lessons must be written in Markdown.** Markdown is a simple mark-up language that is best written in a text editor (as explained above, do not use a word processor like MS Word or Open Office). [GitHub Pages] are powered by [Jekyll](http://jekyllrb.com/), which automatically converts the Markdown files into the HTML pages that you can find here on the website. Even this page is written in Markdown, as you can see by inspecting [the raw text on GitHub].
 
+For a gentle introduction to GitHub Markdown (especially with *Programming Historian*, see [Getting Started with Markdown]({{site.baseurl}}/lessons/getting-started-with-markdown), or the concise reference [GitHub Guide to Markdown].
+
+<div class="alert alert-warning">
+  Before continuing, be sure you understand how to use Markdown syntax to use basic formatting like headers, bold, italics, links, paragraphs, and lists.
+</div>
+
+
+To make this easier, we have provided a template that we ask you to use for all lessons:
+
+```
+title: ["YOUR TITLE HERE"]
+collection: lessons
+layout: lesson
+slug: [LEAVE BLANK]
+date: [LEAVE BLANK]
+translation_date: [LEAVE BLANK]
+authors:
+- [FORENAME SURNAME 1]
+- [FORENAME SURNAME 2, etc]
+reviewers:
+- [LEAVE BLANK]
+editors:
+- [LEAVE BLANK]
+translator:
+- [FORENAME SURNAME 1]
+translation-editor:
+- [LEAVE BLANK]
+translation-reviewer:
+- [LEAVE BLANK]
+original: [LEAVE BLANK]
+review-ticket: [LEAVE BLANK]
+difficulty: [LEAVE BLANK]
+activity: [LEAVE BLANK]
+topics: [LEAVE BLANK]
+abstract: [LEAVE BLANK]
+---
+
+# Contents
+
+{% include toc.html %}
+
+# First level heading
+
+[CONTENT HERE. Please write formally, sustainably, and for a global audience.]
+
+## Second level heading - with some examples of formatting
+
+### Font Formatting:
+*italic text*
+**bold text**
+`reserved words or file names` (eg "for loop", or "myData.csv")
+
+### Links:
+[a link to *Programming Historian*](http://programminghistorian.org)
+
+### Images:
+{% include figure.html filename="IMAGE-FILENAME" caption="Caption to image" %} - see https://programminghistorian.org/en/author-guidelines for more guidance on images.
+
+### A Sample Unordered List
+
+* Fruits
+  * Apples
+  * Oranges
+  * Grapes
+* Dairy
+  * Milk
+  * Cheese
+
+### A Sample Ordered List
+
+1. Finish tutorial
+2. Go to grocery store
+3. Prepare lunch
+
+###A Sample Table:
+
+| Heading 1 | Heading 2 | Heading 3 |
+| --------- | --------- | --------- |
+| Row 1, column 1 | Row 1, column 2 | Row 1, column 3|
+| Row 2, column 1 | Row 2, column 2 | Row 2, column 3|
+| Row 3, column 1 | Row 3, column 2 | Row 3, column 3|
+
+### An End Note:
+
+This is some text.[^1] 
+This is some more text.[^2] 
+
+
+
+# Endnotes
+[^1] Properly formatted citation using Chicago Manual of Style
+[^2] Properly formatted citation using Chicago Manual of Style
+```
 
 ### Choose a searchable name
 Name your new lesson file following these guidelines:
@@ -55,65 +150,9 @@ Name your new lesson file following these guidelines:
 -   Do not put spaces or underscores in the filename; use hyphens instead.
 -   The filename extension should be `.md` (markdown).
 
+### Endnote format
 
-### Add metadata
-Our publication platform, [GitHub Pages], depends on special headers in each plain-text lesson file called [YAML] front-matter blocks in order to render that lesson correctly on our website. These blocks consist of fields (like "title" and "authors") paired with values (like "Data Mining the Internet Archive Collection" and "Caleb McDaniel"). You don't need to understand what YAML is or how it works, but **you do need to include a YAML block at the beginning of your lesson**.
-
-To create the YAML block for your lesson, you should **copy and paste the following text into your text file**, and changing the relevant metadata. This should appear at the very top of your lesson file, and *must be followed by a blank line*. Leave the "reviewers" field blank for now.
-
-    ---
-    title: |
-        Getting Started with Topic Models: A MALLET Primer
-    authors:
-    - Ian Milligan
-    - Shawn Graham
-    - Scott Weingart
-    date: 2014-03-03
-    reviewers:
-    layout: lesson
-    ---
-
-<div class="alert alert-danger">
-  <h4 class="alert heading">Important YAML Notes</h4>
-  <ul>
-    <li>Keep the \| in the title field as shown; indent the actual title with a tab on a blank line</li>
-    <li>Use the "list" format shown above for the authors field, even if there is only one author</li>
-    <li>Be sure there are no extraneous spaces in your header</li>
-    <li>The YAML block must be followed by a blank line after the final <code>---</code></li>
-  </ul>
-</div>
-
-
-### Write in Markdown
-**All new lessons must be written in Markdown.** Markdown is a simple mark-up language that is best written in a text editor (as explained above, do not use a word processor like MS Word or Open Office). [GitHub Pages] are powered by [Jekyll](http://jekyllrb.com/), which automatically converts the Markdown files into the HTML pages that you can find here on the website. Even this page is written in Markdown, as you can see by inspecting [the raw text on GitHub].
-
-For a gentle introduction to GitHub Markdown (especially with *Programming Historian*, see [Getting Started with Markdown]({{site.baseurl}}/lessons/getting-started-with-markdown), or the concise reference [GitHub Guide to Markdown].
-
-<div class="alert alert-warning">
-  Before continuing, be sure you understand how to use Markdown syntax to use basic formatting like headers, bold, italics, links, paragraphs, and lists.
-</div>
-
-### Write Sustainably
-PH strives to publish lessons that will be of use to our readers for the foreseeable future. Authors should consult our [lesson retirement policy]({{site.baseurl}}/lesson-retirement-policy), which describes how the _Programming Historian_ editorial team manages lessons that have become out-of-date. To aid in creating sustainable lessons, we ask that you keep certain writing guidelines in mind as you create your lesson:
-
-- Instead of focusing on software specifics, keep your lesson more geared towards methodologies and tool generalities.
-- If your lesson can leverage existing software documentation, consider directing your readers to this documentation rather than repeating it in the lesson. Instead of linking directly to a software company's resources (which often change), you can provide general guidance on how to find the documentation.
-- Limit the use of software version-specific images, unless required to follow the lesson.
-- Check any external links to ensure they are live and up-to-date.
-- Data sources for lessons should be hosted with the _Programming Historian_.
-
-
-### Write For a Global Audience
-
-Programming Historian readers live all around the world, and operate in a range of cultural contexts. To help reach that global audience, we have been publishing in more than one language since 2017, and aim to translate all tutorials. **While we recognise that not all methods or tools are fully internationally accessible**, authors can and should take steps to write their lesson in a way that is accessible to as many people as possible. **Please consider the following when writing your tutorial**:
-
-- When choosing your methods or tools, try to make choices with multi-lingual readers in mind. This is particularly important when working on textual analysis methods, or where users may reasonably want to have support for different character sets (eg, accented characters, non-Latin, etc).
-- When choosing primary sources, images, producing figures, or taking screen shots, consider how they will present themselves to a global audience.
-- When writing, avoid jokes, cultural references, puns, plays on words, idiomatic expressions, sarcasm, emojis, or language that is more difficult than it needs to be. Mentions of persons, organisations, or historical details should always come with contextual information. It may help to assume your reader does not live in your country or speak your language.
-- In code examples or metadata, use internationally recognised standard formats for dates and times ([ISO 8601:2004](https://www.iso.org/standard/40874.html)). In free text, be aware of cultural differences related to the representation of dates and times which might cause confusion.
-- Where possible, choose methods and tools that have multi-lingual documentation. If this is not practical, it would be great if you could add some multi-lingual references at the end of your tutorial.
-
-Contact your editor if you require guidance on any of these matters. Tutorials that are unable to meet these guidelines may not be translated, but are still welcome for consideration for monolingual publication.
+Authors are asked to use the [Chicago Manual of Style](https://en.wikipedia.org/wiki/The_Chicago_Manual_of_Style) for endnote formatting.
 
 ### Use informative section headings
 We strive to make our lessons easy to follow by using section headings consistently throughout our lessons. As you compose your lesson, section headings will help you visualize how well you've structured your lesson. Avoid long sections of text with no headings; these become very difficult to follow.
@@ -188,24 +227,6 @@ When the Markdown is rendered by our system, this line will automatically produc
 </div>
 
 
-### Endnotes
-To add endnotes to your text, first add an endnote marker in the body of the text, like this:
-
-    This is some text.[^1] Other text.[^endnote]
-
-As you can see, the marker text is wrapped in square brackets and can be made up of numbers
-or letters, as long as it begins with the caret (`^`) symbol.
-
-Next you'll need to specify the text for that endnote, ideally at the bottom of your text file. To define the endnote, you'll reproduce the marker syntax, add a colon, and then type your endnote:
-
-    [^1]: Some *crazy* endnote definition.
-
-    [^endnote]: Look, Ma, I made an endnote!
-
-For more details about how this syntax works, see the [extended instructions](http://kramdown.gettalong.org/syntax.html#footnotes)
-for the footnote feature.
-
-
 ### Code Blocks
 If you want to include code in a lesson, or to show the output of a
 program, use what's called a [fenced code block]. On a new line, use three backticks
@@ -218,12 +239,27 @@ offset in the finished version and will look like this:
 print 'hello world'
 ```
 
+### Write Sustainably
+PH strives to publish lessons that will be of use to our readers for the foreseeable future. Authors should consult our [lesson retirement policy]({{site.baseurl}}/lesson-retirement-policy), which describes how the _Programming Historian_ editorial team manages lessons that have become out-of-date. To aid in creating sustainable lessons, we ask that you keep certain writing guidelines in mind as you create your lesson:
 
-### Emphasis Tagging
-Try to use back-ticks (`` ` `` ) for reserved code words (as in `for`
-loop) and file names (e.g., `obo.py`). All other emphasis is done with
-paired asterisks (`*`) (as in `*client*`, `*protocol*`, `*The Old Bailey
-Online*`).
+- Instead of focusing on software specifics, keep your lesson more geared towards methodologies and tool generalities.
+- If your lesson can leverage existing software documentation, consider directing your readers to this documentation rather than repeating it in the lesson. Instead of linking directly to a software company's resources (which often change), you can provide general guidance on how to find the documentation.
+- Limit the use of software version-specific images, unless required to follow the lesson.
+- Check any external links to ensure they are live and up-to-date.
+- Data sources for lessons should be hosted with the _Programming Historian_.
+
+
+### Write For a Global Audience
+
+Programming Historian readers live all around the world, and operate in a range of cultural contexts. To help reach that global audience, we have been publishing in more than one language since 2017, and aim to translate all tutorials. **While we recognise that not all methods or tools are fully internationally accessible**, authors can and should take steps to write their lesson in a way that is accessible to as many people as possible. **Please consider the following when writing your tutorial**:
+
+- When choosing your methods or tools, try to make choices with multi-lingual readers in mind. This is particularly important when working on textual analysis methods, or where users may reasonably want to have support for different character sets (eg, accented characters, non-Latin, etc).
+- When choosing primary sources, images, producing figures, or taking screen shots, consider how they will present themselves to a global audience.
+- When writing, avoid jokes, cultural references, puns, plays on words, idiomatic expressions, sarcasm, emojis, or language that is more difficult than it needs to be. Mentions of persons, organisations, or historical details should always come with contextual information. It may help to assume your reader does not live in your country or speak your language.
+- In code examples or metadata, use internationally recognised standard formats for dates and times ([ISO 8601:2004](https://www.iso.org/standard/40874.html)). In free text, be aware of cultural differences related to the representation of dates and times which might cause confusion.
+- Where possible, choose methods and tools that have multi-lingual documentation. If this is not practical, it would be great if you could add some multi-lingual references at the end of your tutorial.
+
+Contact your editor if you require guidance on any of these matters. Tutorials that are unable to meet these guidelines may not be translated, but are still welcome for consideration for monolingual publication.
 
 -----
 
@@ -274,7 +310,7 @@ Then, *Programming Historian*'s editorial team will quickly review your lesson a
 Congratulations! You've published a lesson at *Programming Historian*!
 
 
-  [Jessica Parr]: mailto:jparr1129@gmail.com
+  [Anandi Silva Knuppel]: mailto:anandi.silva.knuppel@emory.edu
   [Lesson Pipeline wiki page]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
   [reviewer guidelines]: /reviewer-guidelines.html
   [published lessons]: /lessons
