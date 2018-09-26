@@ -137,7 +137,7 @@ Esta lección no cubre la sintaxis Markdown por razones de espacio, pero es úti
 
 Para escribir un documento de texto plano necesitamos un editor. Hay muchos editores disponibles, algunos gratuitos, otros de pago. Algunos son fáciles de usar mientras que otros tienen una curva de aprendizaje y un potencial que sobrepasa las funciones de un editor de texto. A largo plazo, un editor avanzado como Vim o Emacs puede ahorrarte tiempo pero de momento puedes empezar con un editor más simple. Por ejemplo, [Atom](https://atom.io/) es un buen editor desarrollado por GitHub que destaca la sintaxis Markdown y, además, se integra con la plataforma GitHub. Es gratuito y su código es abierto; además, incluye un [manual](http://flight-manual.atom.io/) de instrucciones muy exhaustivo.
 
-Si no quieres instalar un programa nuevo, puedes utilizar uno de los editores que incluidos en tu ordenador como TextEdit para Mac o bien Notepad para Windows. Si decides continuar aprendiendo Markdown en el futuro, te recomendamos utilizar un editor de texto que destaque la sintaxis Markdown, entre otras funcionalidades.
+Si no quieres instalar un programa nuevo, puedes utilizar uno de los editores que incluidos en tu ordenador como TextEdit para Mac. Si decides continuar aprendiendo Markdown en el futuro, te recomendamos utilizar un editor de texto que destaque la sintaxis Markdown, entre otras funcionalidades.
 
 ### Crear un documento
 
