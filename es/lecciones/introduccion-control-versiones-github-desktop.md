@@ -28,13 +28,12 @@ redirect_from: /es/lessons/getting-started-with-github-desktop
 
 {% include toc.html %}
 
-
-
+{% include alert.html text='Esta lección fue escrita teniendo en cuenta una versión antigua de Github Desktop para OS X. Desde su publicación, Github ha lanzado una nueva versión de Github Desktop con cambios significativos en la interfaz. El tutorial solo cubre la la antigua versión para OS X, que ha pasado a denominarse "Github Desktop Classic" y que [puede descargarse desde aquí](https://central.github.com/mac/latest).' %}
 
 
 ## Objetivos de la lección
 
-Con esta lección aprenderás el funcionamiento básico de los sistemas de control de versiones, entenderás por qué son útiles y te familiarizarás con [GitHub Desktop](https://desktop.github.com/), un control de versiones de documentos en formato de texto plano. Al finalizar la lección, serás capaz de entender:
+Con esta lección aprenderás el funcionamiento básico de los sistemas de control de versiones, entenderás por qué son útiles y te familiarizarás con GitHub Desktop, un control de versiones de documentos en formato de texto plano. Al finalizar la lección, serás capaz de entender:
 
 * qué es un control de versiones y por qué puede ser útil
 * las diferencias entre Git y GitHub
@@ -43,8 +42,7 @@ Con esta lección aprenderás el funcionamiento básico de los sistemas de contr
 
 ## Programa necesario
 
-Actualmente, GitHub Desktop está disponible solamente para Windows y Mac. Si utilizas Linux probablemente estarás familiarizado con la línea de comandos y serás capaz de utilizar la versión de línea de comandos de Git. 
-
+Actualmente, GitHub Desktop Classic está disponible solamente para Mac. Si utilizas Linux probablemente estarás familiarizado con la línea de comandos y serás capaz de utilizar la versión de línea de comandos de Git. 
 
 ## ¿Qué es un control de versiones y por qué debería utilizarlo? 
 
@@ -123,7 +121,7 @@ Puesto que vamos a utilizar GitHub, necesitarás regístrate con una cuenta en [
 
 ### Instala GitHub Desktop
 
-Una vez te hayas registrado, el proceso de instalación variará dependiendo de si utilizas Windows o Mac. Las instrucciones pueden cambiar, por lo que te recomendamos que sigas el procedimiento explicado en la [página de instalación de GitHub](https://desktop.github.com/). Tras descargar GitHub Desktop e instalarlo, ya podemos empezar a usar el programa con un archivo de texto plano.
+Te recomendamos que sigas el procedimiento explicado en la [página de instalación de GitHub Classic](https://central.github.com/mac/latest). Tras descargar GitHub Desktop Classic e instalarlo, ya podemos empezar a usar el programa con un archivo de texto plano.
 
 ## Control de versiones y texto plano
 
@@ -321,7 +319,6 @@ Asimismo, el flujo de trabajo presentado en esta lección también puede convert
 GitHub Desktop es una forma sencilla de aprender a controlar versiones con GitHub. En función de tus necesidades, GitHub será suficiente. Ahora bien, si ya conoces el funcionamiento de la línea de comandos, utilizar Git puede tener más ventajas. Los controles de versiones como Git ofrecen muchas más opciones; algunos tienen un uso concreto mientras que otros se pueden utilizar de manera más generalizable. Como complemento a esta lección, te sugerimos una serie de recursos que pueden ayudarte a mejorar tu comprensión del control de versiones.
 
 
-* La web de [GitHub Desktop](https://desktop.github.com/) y su [documentación](https://help.github.com/desktop/) cubren un mayor número de funciones disponibles. 
 * GitHub ofrece ayuda a través de sus [guías](https://guides.github.com/) y [ayuda](https://help.github.com/). 
 * El [Glosario de GitHub](https://help.github.com/articles/github-glossary/) explica la terminología más frecuente en Git. 
 * [Atlassian](https://www.atlassian.com/git/tutorials): contiene tutoriales más avanzados (pero fáciles de entender) de Git. Ponen el acento en las diferencias entre Git y otros controles de versiones; esto puede no ser relevante para ti pero te ayudará a comprender el funcionamiento de Git de manera más detallada.
