@@ -129,7 +129,7 @@ Once you have come up with a coding scheme and encoded your sources you are read
 
 All spreadsheet editors let you export tables as either .csv (comma-separated values) or as .txt files. These files can be imported into all of the commonly used network visualization tools (see the list at the end of the tutorial). For your first steps however I suggest that you try out Palladio, a very easy-to-use data visualization tool in active development by Stanford University. It runs in browsers and is therefore platform-independent. Please note that Palladio, although quite versatile, is designed more for quick visualizations than sophisticated network analysis.
 
-The following steps will explain how to visualize network data in Palladio but I also recommend that you take a look at their own training materials and explore their sample data. Here however I use a [*slightly modified sample dataset based on the coding scheme*](https://docs.google.com/spreadsheets/d/1LzbWsG73m74t3p6xE7lutfVWuOdzOIfN55FbhCCRZvk/edit#gid=0%20) presented earlier (you can also download it and use it to explore other tools).
+The following steps will explain how to visualize network data in Palladio but I also recommend that you take a look at their own training materials and explore their sample data. Here however I use a *slightly modified sample dataset based on the coding scheme* [data table 1 - relations](/assets/creating-network-diagrams-from-historical-sources/network-example1-en.csv), [data table 2 - attribute table](/assets/creating-network-diagrams-from-historical-sources/network-example2-en.csv), presented earlier (you can also download it and use it to explore other tools).
 
 Step by Step:
 
@@ -137,7 +137,7 @@ Step by Step:
 
 **2. Start.** On their website click the “Start” button.
 
-**3. Load attribute data.** From your data sheet, copy the attribute data ([*Sample dataset*](https://docs.google.com/spreadsheets/d/1LzbWsG73m74t3p6xE7lutfVWuOdzOIfN55FbhCCRZvk/edit#gid=0), Sheet 2) and paste it in the white section of the page, now click “Load”.
+**3. Load attribute data.** From your data sheet, copy the sample [data table 2 - attribute table](/assets/creating-network-diagrams-from-historical-sources/network-example2-en.csv), and paste it in the white section of the page, now click “Load”.
 
 {% include figure.html caption="Figure 6: Loading attribute data into Palladio." filename="image13.png" %}
 
@@ -147,7 +147,7 @@ Step by Step:
 {% include figure.html caption="Figure 7: View of attribute data in Palladio." filename="image14.png" %}
 
 
-**5. Load relational data.** To do this, click on “Person” and “Add a new table”. Now paste all the relational data ([*Sample data*](https://docs.google.com/spreadsheets/d/1LzbWsG73m74t3p6xE7lutfVWuOdzOIfN55FbhCCRZvk/edit#gid=0), Sheet 1) in the appropriate field. Palladio expects unique identifiers to link the relational information to the actor attribute information. Make sure this lines up well and that you avoid any irritating characters such as “/”. Palladio will prompt you with error messages if you do. Click “Load data”, close the overlay window and go back to the main data overview. You should see something like this:
+**5. Load relational data.** To do this, click on “Person” and “Add a new table”. Now paste all the [data table 1 - relations](/assets/creating-network-diagrams-from-historical-sources/network-example1-en.csv), in the appropriate field. Palladio expects unique identifiers to link the relational information to the actor attribute information. Make sure this lines up well and that you avoid any irritating characters such as “/”. Palladio will prompt you with error messages if you do. Click “Load data”, close the overlay window and go back to the main data overview. You should see something like this:
 
 {% include figure.html caption="Figure 8: Loading relational data." filename="image17.png" %}
 

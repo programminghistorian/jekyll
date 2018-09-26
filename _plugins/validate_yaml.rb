@@ -28,7 +28,7 @@ module MyModule
       valid_difficulties = [1, 2, 3]
 
       # Fields required on ALL lessons
-      required_fields = ["layout", "reviewers", "authors", "date", "title", "difficulty", "activity", "topics", "abstract", "editors", "review-ticket"] 
+      required_fields = ["layout", "reviewers", "authors", "date", "title", "difficulty", "activity", "topics", "abstract", "editors", "review-ticket"]
 
       # Fields required only on es lessons
       es_required_fields = ["translator", "translation-reviewer", "original", "translation_date", "translation-editor"]
@@ -46,9 +46,14 @@ module MyModule
 
         page_errors = Array.new
 
-        # Warn if any lesson content matches this regex
+        # Warn if any lesson content contains absolute links
         if Regexp.new("[\\(<]https?://programminghistorian.org/*") =~ p["content"]
           page_errors.push('It looks this lesson contains a full link to "https://programminghistorian.org". All internal links should start with "/" followed by the relative page path, and not use the full domain name.')
+        end
+
+        # Warn if any lesson content contains inesure image content
+        if Regexp.new("\\(http://\\S*(png|svg|jpg|jpeg|gif|tiff)") =~ p["content"]
+          page_errors.push('It looks like you are linking to an image using an "http" URL. Make sure all image links use "https".')
         end
 
         # Any fields listed in exclude_from_check YAML variable will not be checked.
@@ -126,7 +131,7 @@ module MyModule
         unless page_errors.empty?
           # Throw a warning with the filename
           warn format_red("* In #{p.dir}#{p.name}:")
-          
+
           # Add some formatting to the errors and then throw them
           unit_errors = page_errors.map{|e| "  - [ ] #{e}"}
 
@@ -154,11 +159,11 @@ module MyModule
             end
           end
         end
-        
+
         unless post_errors.empty?
           # Throw a warning with the filename
           warn format_red("* In #{p.data["slug"]}:")
-          
+
           # Add some formatting to the errors and then throw them
           unit_errors = post_errors.map{|e| "  - [ ] #{e}"}
 

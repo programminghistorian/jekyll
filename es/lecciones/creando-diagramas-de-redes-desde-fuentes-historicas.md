@@ -136,7 +136,8 @@ Una vez hayas creado tu esquema de codificación y hayas codificado tus fuentes,
 
 Todos los editores de hojas de cálculo permiten exportar tablas como .csv (valores separados por comas) o como archivos .txt . Estos archivos pueden ser importados a todas las herramientas de visualización de redes comunmente utilizados (ver lista al final del tutorial). Para tus primeros pasos yo sugiero que pruebes Palladio, una herramienta de fácil uso para visualización de datos que se encuentra en desarrollo activo por parte de la Universidad de Stanford. Palladio corre en navegadores y trabaja independiente de plataforma. Ten en cuenta que aunque Palladio es muy versátil, está diseñada más para visualizaciones rápidas que para análisis de redes sofisticado.
 
-Los siguientes pasos explican cómo visualizar datos en red en Palladio, pero también recomiendo que revises sus propios materiales de inducción y explores sus datos de muestra. Acá, sin embargo, utilizo un [*conjunto de datos ligeramente modificado con base en el esquema de codificación*](https://docs.google.com/spreadsheets/d/1Y9xCnu0ignRYIPi5kqouJ2vRtVMBnMeLW2ka4-p4Q8I/edit?usp=sharing) presentado antes (también lo puedes bajar y utilizarlo para explorar otras herramientas).
+Los siguientes pasos explican cómo visualizar datos en red en Palladio, pero también recomiendo que revises sus propios materiales de inducción y explores sus datos de muestra. Acá, sin embargo, utilizo un *conjunto de datos ligeramente modificado con base en el esquema de codificación*
+[datos 1 - Relaciones](/assets/creating-network-diagrams-from-historical-sources/network-example1-es.csv), [datos 2 - attribute table](/assets/creating-network-diagrams-from-historical-sources/network-example2-es.csv), presentado antes (también lo puedes bajar y utilizarlo para explorar otras herramientas).
 
 Paso a paso:
 
@@ -144,7 +145,7 @@ Paso a paso:
 
 **2. Comienza.** En el sitio web haz clic en el botón "Start".
 
-**3. Carga los atributos de los datos.** De tu hoja de cálculo, copia los atributos de los datos ([*Sample dataset*](https://docs.google.com/spreadsheets/d/1_RzqvgUs-q9fpnyc9MEH4FFYXmuGa2xOmzyEUax6kFk/edit#gid=0), Hoja de cálculo 2) y pégalos en la sección blanca de la página, ahora haz clic en "Load".
+**3. Carga los atributos de los datos.** De tu hoja de cálculo, copia los atributos de los datos [Atributos](/assets/creating-network-diagrams-from-historical-sources/network-example2-es.csv), pégalos en la sección blanca de la página, ahora haz clic en "Load".
 
 {% include figure.html caption="Figura 6: Subiendo los atributos de los datos en Palladio." filename="diagramas-de-redes-06.png" %}
 
@@ -154,7 +155,7 @@ Paso a paso:
 {% include figure.html caption="Figura 7: Vista de los atributos de los datos en Palladio." filename="diagramas-de-redes-07.png" %}
 
 
-**5. Carga los datos relaciones.** Para hacer esto, haz clic en "Persona" y "Add a new table" (Añade una nueva tabla). Ahora pega todos los datos relacionales ([*Datos de muestra*](https://docs.google.com/spreadsheets/d/1_RzqvgUs-q9fpnyc9MEH4FFYXmuGa2xOmzyEUax6kFk/edit#gid=0), Hoja de cálculo 1) en el campo apropiado. Palladio espera identificadores únicos para enlazar la información relacional a la información de atributo por actor. Asegúrate de que esto se alinee bien y evita caracteres irritantes como "/". Palladio te avisará con mensajes de error si esto ocurre. Haz clic en "Load data" (Cargar datos), cierra la ventana superpuesta y regresa a la vista de los datos principales. Deberías ver algo como:
+**5. Carga los datos relaciones.** Para hacer esto, haz clic en "Persona" y "Add a new table" (Añade una nueva tabla). Ahora pega todos los datos [relacionales](/assets/creating-network-diagrams-from-historical-sources/network-example1-es.csv), en el campo apropiado. Palladio espera identificadores únicos para enlazar la información relacional a la información de atributo por actor. Asegúrate de que esto se alinee bien y evita caracteres irritantes como "/". Palladio te avisará con mensajes de error si esto ocurre. Haz clic en "Load data" (Cargar datos), cierra la ventana superpuesta y regresa a la vista de los datos principales. Deberías ver algo como:
 
 {% include figure.html caption="Figura 8: Cargando los datos relacionales." filename="diagramas-de-redes-08.png" %}
 
