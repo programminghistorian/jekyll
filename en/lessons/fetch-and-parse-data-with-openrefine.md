@@ -323,7 +323,7 @@ Only the currently selected subset will be exported.
 
 Many cultural institutions provide web APIs allowing users to access information about their collections via simple [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) requests.
 These sources enable new queries and aggregations of text that were previously impossible, cutting across boundaries of repositories and collections to support large scale analysis of both content and metadata.
-This example will harvest data from the [Chronicling America](http://chroniclingamerica.loc.gov/) project to assemble a small set of newspaper front pages with full text.
+This example will harvest data from the [Chronicling America](https://chroniclingamerica.loc.gov/) project to assemble a small set of newspaper front pages with full text.
 Following a common web scraping workflow, Refine is used to construct the query URL, fetch the information, and parse the JSON response.
 
 <div class="alert alert-warning">
@@ -354,16 +354,16 @@ Add the *Project name* "ChronAm" at the top right and click *Create project*.
 
 ## Construct a Query
 
-Chronicling America provides [documentation](http://chroniclingamerica.loc.gov/about/api/) for their API and URL patterns.
+Chronicling America provides [documentation](https://chroniclingamerica.loc.gov/about/api/) for their API and URL patterns.
 In addition to formal documentation, information about alternative formats and search API are sometimes given in the `<head>` element of a web page.
 Check for `<link rel="alternate"`, `<link rel="search"`, or `<!--` comments which provide hints on how to interact with the site.
 These clues provide a recipe book for interacting with the server using public links.
 
 The basic components of the ChromAm API are:
 
-- the base URL, `http://chroniclingamerica.loc.gov/`
+- the base URL, `https://chroniclingamerica.loc.gov/`
 - the search service location for individual newspaper pages, `search/pages/results`
-- a query string, starting with `?` and made up of value pairs (`fieldname=value`) separated by `&`. Much like using the [advanced search form](http://chroniclingamerica.loc.gov/#tab=tab_advanced_search), the value pairs of the query string set the [search options](http://chroniclingamerica.loc.gov/search/pages/opensearch.xml). 
+- a query string, starting with `?` and made up of value pairs (`fieldname=value`) separated by `&`. Much like using the [advanced search form](https://chroniclingamerica.loc.gov/#tab=tab_advanced_search), the value pairs of the query string set the [search options](https://chroniclingamerica.loc.gov/search/pages/opensearch.xml). 
 
 Using a GREL expression, these components can be combined with the values in the "ChronAm" project to construct a search query URL.
 The contents of the data table can be accessed using [GREL variables](https://github.com/OpenRefine/OpenRefine/wiki/Variables).
@@ -377,7 +377,7 @@ For example, the expression `"one" + "two"` would result in "onetwo".
 To create the set of search queries, from the *state* column, add a column named "url" with this expression:
 
 ```
-"http://chroniclingamerica.loc.gov/search/pages/results/?state=" + value.escape('url') + "&date1=" + cells['year'].value.escape('url') + "&date2=" + cells['year'].value.escape('url') + "&dateFilterType=yearRange&sequence=1&sort=date&rows=5&format=json"
+"https://chroniclingamerica.loc.gov/search/pages/results/?state=" + value.escape('url') + "&date1=" + cells['year'].value.escape('url') + "&date2=" + cells['year'].value.escape('url') + "&dateFilterType=yearRange&sequence=1&sort=date&rows=5&format=json"
 ```
 {% include figure.html caption="Create query URL" filename="refine-chronam-url.png" %}
 
@@ -469,7 +469,7 @@ Transform the *date* column with the expression `value.toDate("yyyymmdd").toStri
 
 Another common workflow is to extend the data with further URL queries.
 For example, a link to full information about each issue can be formed based on the *lccn*.
-Create a new column based on *lccn* using the expression `"http://chroniclingamerica.loc.gov/lccn/" + value + "/" + cells['date'].value + "/ed-1.json"`.
+Create a new column based on *lccn* using the expression `"https://chroniclingamerica.loc.gov/lccn/" + value + "/" + cells['date'].value + "/ed-1.json"`.
 Fetching this URL returns a complete list of the issue's pages, which could in turn be harvested. 
 
 For now, the headlines of 1865 from the Northwest are ready to enjoy!
