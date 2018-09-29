@@ -675,21 +675,29 @@ dbWriteTable(storiesDb, value = sampleGardenData, row.names = FALSE, name = "tbl
 We're not ready to run dbWriteTable() yet, we need to connect to the database first. Here is the program to do that, as well as load sample-data-submarine.csv too. Read through this and run it.
 
 ```
-library(RMySQL)
+library(RMariaDB)
+rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
-# R needs a full path to find the settings file
-rmysql.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 5.7\\newspaper_search_results.cnf"
+rmariadb.db<-"newspaper_search_results"
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
 
-rmysql.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMySQL::MySQL(),default.file=rmysql.settingsfile,group=rmysql.db) 
+setwd("C:\\a_orgs\\carleton\\hist3814\\R\\getting-started-with-mysql")
 
 # read in the sample data from a newspaper search of Allotment And Garden
 sampleGardenData <- read.csv(file="sample-data-allotment-garden.csv", header=TRUE, sep=",")
+
+# The story_title column in the database table can store values up to 99 characters long.  
+# This statement trims any story_titles that are any longer to 99 characters.
+sampleGardenData$story_title <- substr(sampleGardenData$story_title,0,99)
 
 dbWriteTable(storiesDb, value = sampleGardenData, row.names = FALSE, name = "tbl_newspaper_search_results", append = TRUE ) 
 
 # read in the sample data from a newspaper search of German+Submarine
 sampleSubmarineData <- read.csv(file="sample-data-submarine.csv", header=TRUE, sep=",")
+
+# The story_title column in the database table can store values up to 99 characters long.  
+# This statement trims any story_titles that are any longer to 99 characters.
+sampleSubmarineData$story_title <- substr(sampleSubmarineData$story_title,0,99)
 
 dbWriteTable(storiesDb, value = sampleSubmarineData, row.names = FALSE, name = "tbl_newspaper_search_results", append = TRUE ) 
 
@@ -708,51 +716,62 @@ You should have a count of 2880 records. 1242 from sampleGardenData and 1638 fro
 Our goal here is to use the table of newspaper stories we have imported and make a graph of the number of stories published in Welsh Newspapers during each month of World War I that match the search terms (allotment and garden) and (German and submarine)
 
 The script below queries the database and produces the line graph plot below.  Read through the script to see what is happening. An explanation of script follows it.
+
 ```
-library(RMySQL)
+library(RMariaDB)
+rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
-rmysql.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 5.7\\newspaper_search_results.cnf"
-
-rmysql.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMySQL::MySQL(),default.file=rmysql.settingsfile,group=rmysql.db) 
+rmariadb.db<-"newspaper_search_results"
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
 
 searchTermUsed="German+Submarine"
 # Query a count of the number of stories matching searchTermUsed that were published each month
-query<-paste("SELECT (
-  COUNT(CONCAT(MONTH(story_date_published),' ',YEAR(story_date_published)))) as 'count' 
-  FROM tbl_newspaper_search_results 
-  WHERE search_term_used='",searchTermUsed,"' 
-  GROUP BY YEAR(story_date_published),MONTH(story_date_published) 
-  ORDER BY YEAR(story_date_published),MONTH(story_date_published);",sep="")
-
+query<-paste("SELECT ( COUNT(CONCAT(MONTH(story_date_published), ' ',YEAR(story_date_published)))) as 'count' 
+             FROM tbl_newspaper_search_results
+             WHERE search_term_used='",searchTermUsed,"'
+             GROUP BY YEAR(story_date_published),MONTH(story_date_published)
+             ORDER BY YEAR(story_date_published),MONTH(story_date_published);",sep="")
+print(query)
 rs = dbSendQuery(storiesDb,query)
 dbRows<-dbFetch(rs)
+
+countOfStories<-c(as.integer(dbRows$count))
+
 #Put the results of the query into a time series
-qts1 = ts(dbRows$count, frequency = 12, start = c(1914, 8)) 
+qts1 = ts(countOfStories, frequency = 12, start = c(1914, 8))
+print(qts1)
 #Plot the qts1 time series data with line width of 3 in the color red.
-plot(qts1, lwd=3,col = "red", 
+plot(xlim=c(1914,1919), 
+     ylim=c(0,150), 
+     qts1, 
+     lwd=3,
+     col = "red",
      xlab="Month of the war",
-     ylab="Number of newspaper stories", 
+     ylab="Number of newspaper stories",
      main=paste("Number of stories in Welsh newspapers matching the search terms listed below.",sep=""),
      sub="Search term legend: Red = German+Submarine. Green = Allotment And Garden.")
 
 searchTermUsed="AllotmentAndGarden"
 #Query a count of the number of stories matching searchTermUsed that were published each month
-query<-paste("SELECT (
-  COUNT(CONCAT(MONTH(story_date_published),' ',YEAR(story_date_published)))) as 'count' 
-  FROM tbl_newspaper_search_results 
-  WHERE search_term_used='",searchTermUsed,"' 
-  GROUP BY YEAR(story_date_published),MONTH(story_date_published) 
-  ORDER BY YEAR(story_date_published),MONTH(story_date_published);",sep="")
-
+query<-paste("SELECT (  COUNT(CONCAT(MONTH(story_date_published),' ',YEAR(story_date_published)))) as 'count'   FROM tbl_newspaper_search_results   WHERE search_term_used='",searchTermUsed,"'   GROUP BY YEAR(story_date_published),MONTH(story_date_published)   ORDER BY YEAR(story_date_published),MONTH(story_date_published);",sep="")
+print(query)
 rs = dbSendQuery(storiesDb,query)
 dbRows<-dbFetch(rs)
+
+countOfStories<-c(as.integer(dbRows$count))
+
 #Put the results of the query into a time series
-qts2 = ts(dbRows$count, frequency = 12, start = c(1914, 8))
+qts2 = ts(countOfStories, frequency = 12, start = c(1914, 8))
 #Add this line with the qts2 time series data to the the existing plot 
 lines(qts2, lwd=3,col="darkgreen")
 
+# Clear the result
+dbClearResult(rs)
+
+#disconnect to clean up the connection to the database
 dbDisconnect(storiesDb)
+
+
 ```
 ## Explanation of the select and plot data program.
 The method to connect to the database is explained [above](#connecting-to-the-database-with-a-password).
@@ -784,13 +803,17 @@ dbRows<-dbFetch(rs)
 Below the data frame *dbRows* is put into a time series with the *ts()* function so that it can be plotted for each month, starting from August 1914.
 ```
 #Put the results of the query into a time series
-qts1 = ts(dbRows$count, frequency = 12, start = c(1914, 8)) 
+qts1 = ts(countOfStories, frequency = 12, start = c(1914, 8))
 ```
 Below, the data in the *qts1* time series is plotted on a graph
 ```
-plot(qts1, lwd=3,col = "red", 
+plot(xlim=c(1914,1919), 
+     ylim=c(0,150), 
+     qts1, 
+     lwd=3,
+     col = "red",
      xlab="Month of the war",
-     ylab="Number of newspaper stories", 
+     ylab="Number of newspaper stories",
      main=paste("Number of stories in Welsh newspapers matching the search terms listed below.",sep=""),
      sub="Search term legend: Red = German+Submarine. Green = Allotment And Garden.")
 ```
