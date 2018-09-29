@@ -290,8 +290,15 @@ CREATE USER 'newspaper_search_results_user'@'localhost' IDENTIFIED BY 'Something
 GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE, SHOW VIEW ON newspaper_search_results.* TO 'newspaper_search_results_user'@'localhost';
 ```
 
+### MySQL version 8 and user Authentication Type.
 
+When a user is created in MySQL 8 Workbench the **Authentication Type** is defaulted to **caching_sha2_password**. That type of authentication causes an error for the R package we will use to connect to the database later in this lesson. The error is *Authentication plugin 'caching_sha2_password' cannot be loaded* and it is described in [Stack Overflow](https://stackoverflow.com/questions/49194719/authentication-plugin-caching-sha2-password-cannot-be-loaded).
 
+To avoid this error we can change the user's Authentication Type to Standard. Do this this, run this command:
+
+```
+ALTER USER 'newspaper_search_results_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'SomethingDifficult';
+```
 # Create an R Script that connects to the database
 
 Open RStudio, which you installed earlier in this lesson.  See the [RStudio](#rstudio) section. 
@@ -300,19 +307,19 @@ We'll now use RStudio to make a new R Script and save the script with the name n
 
 Go to File > New File > R Script, then save that new file with the name newspaper_search.R.
 
-We will use the RMySQL package to connect to MySQL.  (If you're curious, documentation for the RMySQL package is [here](https://cran.r-project.org/web/packages/RMySQL/RMySQL.pdf).)
+We will use the RMariaDB package to connect to MySQL.  (If you're curious, documentation for the RMariaDB package is [here](https://cran.r-project.org/web/packages/RMariaDB/RMariaDB.pdf).)
 
 
-If you don't have the library RMySQL installed (which is likely, if this is the first time you're using RStudio), install it using the RStudio Console.  After opening RStudio, copy and paste the following into the left window at the > prompt, then press enter:
+If you don't have the library RMariaDB installed (which is likely, if this is the first time you're using RStudio), install it using the RStudio Console.  After opening RStudio, copy and paste the following into the left window at the > prompt, then press enter:
 
 ```
-install.packages("RMySQL")
+install.packages("RMariaDB")
 ```
 
 Add this statement to the newspaper_search.R program
 
 ```
-library(RMySQL)
+library(RMariaDB)
 ```
 
 ## Connecting to the database with a password
@@ -331,10 +338,11 @@ To run this script, select all the text and click the Run button. (There are oth
 
 
 ```
-library(RMySQL)
+library(RMariaDB)
 # The connection method below uses a password stored in a variable.  
 # To use this set localuserpassword="The password of newspaper_search_results_user" 
-storiesDb <- dbConnect(MySQL(), user='newspaper_search_results_user', password=localuserpassword, dbname='newspaper_search_results', host='localhost')
+
+storiesDb <- dbConnect(RMariaDB::MariaDB(), user='newspaper_search_results_user', password=localuserpassword, dbname='newspaper_search_results', host='localhost')
 dbListTables(storiesDb)
 dbDisconnect(storiesDb)
 ```
@@ -343,7 +351,6 @@ In the console you should see:
 > dbListTables(storiesDb)
 [1] "tbl_newspaper_search_results"
 > dbDisconnect(storiesDb)
-[1] TRUE
 ```
 Success! you have:
 1. Connected to the database with dbConnect.
@@ -370,19 +377,19 @@ database=newspaper_search_results
 3. Update the newspaper_search.R program above to connect to the database using the configuration file.
 
 ```
-library(RMySQL)
-# The connection method below uses a password stored in a variable.  
-# To use this set localuserpassword="The password of newspaper_search_results_user" 
-# storiesDb <- dbConnect(MySQL(), user='newspaper_search_results_user', password=localuserpassword, dbname='newspaper_search_results', host='localhost')
+library(RMariaDB)
+# The connection method below uses a password stored in a settings file.  
 
-#R needs a full path to find the settings file
-rmysql.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 5.7\\newspaper_search_results.cnf"
+# R needs a full path to find the settings file.
+rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
-rmysql.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMySQL::MySQL(),default.file=rmysql.settingsfile,group=rmysql.db) 
+rmariadb.db<-"newspaper_search_results"
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
+
+# list the table. This confirms we connected to the database.
 dbListTables(storiesDb)
 
-#disconnect to clean up the connection to the database
+# disconnect to clean up the connection to the database.
 dbDisconnect(storiesDb)
 ```
 
@@ -468,18 +475,19 @@ Let's do this using R! Below is an expanded version of the R Script we used abov
 In line 4 of the program below, remember to change the path to the rmysql.settingsfile that matches your computer.
 
 ```
-library(RMySQL)
+library(RMariaDB)
+# The connection method below uses a password stored in a settings file.  
 
-# R needs a full path to find the settings file
-rmysql.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 5.7\\newspaper_search_results.cnf"
+# R needs a full path to find the settings file.
+rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
-rmysql.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMySQL::MySQL(),default.file=rmysql.settingsfile,group=rmysql.db) 
+rmariadb.db<-"newspaper_search_results"
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
 
-# optional - confirms we connected to the database
+# Optional. List the table. This confirms we connected to the database.
 dbListTables(storiesDb)
 
-# Create the query statement
+# Create the query statement.
 query<-"INSERT INTO tbl_newspaper_search_results (
 story_title,
 story_date_published,
@@ -490,13 +498,16 @@ VALUES('THE LOST LUSITANIA.',
 LEFT(RTRIM('http://newspapers.library.wales/view/4121281/4121288/94/'),99),
 'German+Submarine');"
 
-# optional - prints out the query in case you need to troubleshoot it
+# Optional. Prints out the query in case you need to troubleshoot it.
 print(query)
 
-#execute the query on the storiesDb that we connected to above.
+# Execute the query on the storiesDb that we connected to above.
 rsInsert <- dbSendQuery(storiesDb, query)
 
-#disconnect to clean up the connection to the database
+# Clear the result.
+dbClearResult(rsInsert)
+
+# Disconnect to clean up the connection to the database.
 dbDisconnect(storiesDb)
 
 ```
@@ -526,20 +537,21 @@ To practice what we just did:
 We will be inserting a lot of data into the table using R, so we will change the INSERT statement to use variables. See the code below the *#Assemble the query* remark.
 
 ```
-library(RMySQL)
+library(RMariaDB)
+# The connection method below uses a password stored in a settings file.  
 
-# R needs a full path to find the settings file
-rmysql.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 5.7\\newspaper_search_results.cnf"
+# R needs a full path to find the settings file.
+rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
-rmysql.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMySQL::MySQL(),default.file=rmysql.settingsfile,group=rmysql.db) 
+rmariadb.db<-"newspaper_search_results"
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
 
-# optional - confirms we connected to the database
+# Optional. List the table. This confirms we connected to the database.
 dbListTables(storiesDb)
 
-# Assemble the query
+# Assemble the query.
 
-# Assign variables
+# Assign variables.
 entryTitle <- "THE LOST LUSITANIA."
 entryPublished <- "21 MAY 1916"
 #convert the string value to a date to store it into the database
@@ -559,16 +571,20 @@ query<-paste(
   LEFT(RTRIM('",entryUrl,"'),99),
   '",searchTermsSimple,"')",
   sep = ''
-)
+  )
 
-# optional - prints out the query in case you need to troubleshoot it
+# Optional. Prints out the query in case you need to troubleshoot it.
 print(query)
 
-# execute the query on the storiesDb that we connected to above.
+# Execute the query on the storiesDb that we connected to above.
 rsInsert <- dbSendQuery(storiesDb, query)
 
-# disconnect to clean up the connection to the database
+# Clear the result.
+dbClearResult(rsInsert)
+
+# Disconnect to clean up the connection to the database.
 dbDisconnect(storiesDb)
+
 ```
 Let's test this program:
 1. Run a SELECT statement and note the rows you have.
@@ -591,10 +607,10 @@ and re-run the program.
 In the R Console there is an error:
 ```
 > rsInsert <- dbSendQuery(storiesDb, query)
-Error in .local(conn, statement, ...) : 
-  could not run statement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S RUDDER.',
+Error in result_create(conn@ptr, statement, is_statement) : 
+  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S RUDDER.',
   '1916-05-21',
-  LEFT(RTRIM('http://newspapers.library.wales/view/4' at line 6
+  LEFT(RTRIM('http://newspapers.library.wales/view/4' at line 6 [1064]
 ```
 You can check with a SELECT statement that there is no record in the table with a story title of THE LOST LUSITANIA'S RUDDER. 
 
