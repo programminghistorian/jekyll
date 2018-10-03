@@ -67,7 +67,21 @@
     es: Archivista
   definition:
     en: Responsible for archiving the project
-    es: Responsable del archivo del proyecto   
+    es: Responsable del archivo del proyecto
+- type: treasurer
+  label:
+    en: Treasurer
+    es: 
+  definition:
+    en: Responsible for project finances
+    es: 
+- type: sponsorship
+  label:
+    en: Sponsorship Coordinator
+    es: 
+  definition:
+    en: Responsible for managing relationships with our sponsors
+    es: 
 # --- Derived roles ---
 - type: ombuds-es
   label:
