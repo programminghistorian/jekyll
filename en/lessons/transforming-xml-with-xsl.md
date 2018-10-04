@@ -294,7 +294,7 @@ Here you can see that your *template* has three lines of code.
 
 Save your file and refresh your browser. You should now have a very messy line of text, listing the value of every title element in the database. You can organise this data by instructing the transformer to add a new line after each entry.
 
-At the end of your *value-of* line, type ```<xsl:text>&#xA;</xsl:text>``` to add a line break. ```&#xA;``` is the [ISO 10646 hex code](http://do.remifa.so/archives/unicode/latin1.html) for a new line and the ```<xsl:text>``` element tells the transformer to print the value as plain text.
+At the end of your *value-of* line, type ```<xsl:text>&#xA;</xsl:text>``` to add a line break. ```&#xA;``` is the [ISO 10646 hex code](https://doremifaso.ca/archives/unicode/latin1.html) for a new line and the ```<xsl:text>``` element tells the transformer to print the value as plain text.
 
 Depending on the type of outputs you are using, some special characters, particularly multiple spaces or line breaks, may not render correctly if entered on their own. Using ```<text>``` elements ensures that your text renders exactly the way you intend it to.
 
