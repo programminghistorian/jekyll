@@ -117,6 +117,8 @@ Check: TCP/IP.  Port number: 3306.
 
 {% include figure.html filename="getting-started-with-mysql-8.png" caption="Development Machine TCPIP port 3306" %}
 
+###### 5. Accounts and Roles
+
 {% include figure.html filename="getting-started-with-mysql-9.png" caption="Write down and then type in a root password" %}
 
 ###### 6. Windows Service
