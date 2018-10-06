@@ -88,7 +88,7 @@ Below are tips on the installation for the PC and Mac:
 
 ##### Installation tips for a PC
 
-Once the file is downloaded, double click on the downloaded file to install it.  Follow the prompts to accept the licence.
+Using the MySQL Installer for Windows is the recommended way to install the components of MySQL. Once the file is downloaded, double click on the downloaded file to install it.  Follow the prompts to accept the licence.
 After the products are installed, you will be prompted for options:
 
 
@@ -636,7 +636,7 @@ Once you see your test record, TRUNCATE tbl_newspaper_search_results to remove t
 
 In the next part of the lesson we'll query the database table.  Our goal is to have enough data in the table to make a graph. To prepare for that let's load some sample data from comma separated value (.csv) text files.
 
-Download these .csv files to your R working directory.
+Download these .csv files to your R working directory. These files are stored in GitHub so download the Raw version of the files.
 1. [sample-data-allotment-garden.csv](/assets/getting-started-with-mysql-using-r/sample-data-allotment-garden.csv) This is a list of Welsh newspaper stories published during World War I that match the search terms allotment and garden.
 2. [sample-data-submarine.csv](/assets/getting-started-with-mysql-using-r/sample-data-submarine.csv) This is a list of Welsh newspaper stories published during World War I that match the search terms German and submarine.
 
