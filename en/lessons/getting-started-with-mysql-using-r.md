@@ -692,14 +692,16 @@ sampleGardenData <- read.csv(file="sample-data-allotment-garden.csv", header=TRU
 # This statement trims any story_titles that are any longer to 99 characters.
 sampleGardenData$story_title <- substr(sampleGardenData$story_title,0,99)
 
+# This statement formats story_date_published to represent a DATETIME.
+sampleGardenData$story_date_published <- paste(sampleGardenData$story_date_published," 00:00:00",sep="")
+
 dbWriteTable(storiesDb, value = sampleGardenData, row.names = FALSE, name = "tbl_newspaper_search_results", append = TRUE ) 
 
 # read in the sample data from a newspaper search of German+Submarine
 sampleSubmarineData <- read.csv(file="sample-data-submarine.csv", header=TRUE, sep=",")
 
-# The story_title column in the database table can store values up to 99 characters long.  
-# This statement trims any story_titles that are any longer to 99 characters.
 sampleSubmarineData$story_title <- substr(sampleSubmarineData$story_title,0,99)
+sampleSubmarineData$story_date_published <- paste(sampleSubmarineData$story_date_published," 00:00:00",sep="")
 
 dbWriteTable(storiesDb, value = sampleSubmarineData, row.names = FALSE, name = "tbl_newspaper_search_results", append = TRUE ) 
 
