@@ -221,7 +221,7 @@ Cuando el Markdown es procesado por nuestro sistema dicha línea automáticament
 Si necesitas incluir código en tu lección, o mostrar el resultado de un programa, utiliza el llamado [bloque de código destacado]. En una nueva línea, utiliza tres tildes graves para abrir un bloque, seguido del lenguaje de tu código (por ejemplo, ```python``` o ```html```). Luego copia tu código y cuando termines, cierra el bloque con tres tildes graves más. El marcado se procesara en el resultado final y se verá así:
 
 ```  
-print 'hello world'
+print 'hola mundo'
 ```
 
 ### Escribe de manera sostenible
