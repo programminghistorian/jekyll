@@ -198,14 +198,17 @@ Asegúrate de que las imágenes están en un formato sostenible como PNG o JPEG 
 #### Cómo incluir las imágenes
 Cuando quieras insertar una imagen, utiliza la siguiente línea de código en el cuerpo de tu lección:
 
-```
+{% raw %}
+```markdown
 {% include figure.html filename="NOMBRE-DE-IMAGEN" caption="Leyenda o pie de imagen" %}
 ```
+{% endraw %}
+
 Tienes que modificar ```NOMBRE-DE-IMAGEN``` y ```Leyenda o pie de imagen``` según tu imagen y la lección. Nota que puedes usar el formato Markdown dentro de la leyenda de tu imagen, por ejemplo para escribir en negrita o cursiva.
 
 Cuando el Markdown es procesado por nuestro sistema dicha línea automáticamente producirá este HTML:
 
-```
+```html
 <figure>
 <a href="/NOMBRE-DE-IMAGEN">
     <img src="/NOMBRE-DE-IMAGEN" alt="Leyenda o pie de imagen">
@@ -215,6 +218,7 @@ Cuando el Markdown es procesado por nuestro sistema dicha línea automáticament
 </figcaption>
 </figure>
 ```
+
 <div class="alert alert-warning"> Nota que cuando se añaden etiquetas de figura de esta manera, la imagen no se mostrará en la vista previa de Github ni en la vista previa de otros programas en que estés usando Markdown.</div>
 
 ### Bloques de código
