@@ -53,6 +53,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Editoriales
 
+* 'Championing open access with online digital history journal', _University of Sussex Press Office_, 9 de octubre, 2018, <https://www.sussex.ac.uk/news/people?id=46353/>.
 * Adam Crymble, 'A Decade of Programming Historians', _Network in Canadian History &amp; Environment_, 23 de marzo, 2018 ,<http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/>.
 * Anaclet Pons, "The Programming Historian en español", *Clionauta: blog de historia*, 14 de junio, 2017 <http://clionauta.hypotheses.org/16979>.
 * Seth Denbo, “Historian, Program! Self-Help for Digital Neophytes,” _Perspectives on History: The Newsmagazine of the American Historical Association_, May 2017, <https://www.historians.org/publications-and-directories/perspectives-on-history/may-2017/historian-program-self-help-digital-neophytes>.
