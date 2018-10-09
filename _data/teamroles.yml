@@ -71,17 +71,17 @@
 - type: treasurer
   label:
     en: Treasurer
-    es: 
+    es: Tesorería
   definition:
     en: Responsible for project finances
-    es: 
+    es: Responsable de las finanzas del proyecto
 - type: sponsorship
   label:
     en: Sponsorship Coordinator
-    es: 
+    es: Coordinación de patrocinio
   definition:
     en: Responsible for managing relationships with our sponsors
-    es: 
+    es: Responsable de coordinar las relaciones con las y los patrocinadores
 # --- Derived roles ---
 - type: ombuds-es
   label:
