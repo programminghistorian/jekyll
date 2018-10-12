@@ -180,6 +180,8 @@ folder as you please.
 A Second Example: The National Archives of Australia
 ----------------------------------------------------
 
+{% include alert.html text='After this lesson was originally published, the National Archvies of Australia changed their URL patterns and broke the links provided here. We are preserving the original text for reference, however you may wish to [skip to the next section](#recursive-retrieval-and-wgets-accept--a-function).' %}
+
 Let's try one more example using this method of recursive retrieval.
 This lesson can be broadly applied to numerous archives, not just
 Canadian ones!
@@ -201,11 +203,11 @@ may miss a page or two in the automated download – in this case there
 are a few URLs that include a letter in the name of the .jpeg
 ('s126a.v.jpg' or 's126b.v.jpg' for example). This is going to happen
 from time to time when downloading from archives, so do not be surprised
-if you miss a page or two during an automated download. 
+if you miss a page or two during an automated download.
 
 Note that a potential workaround
 could include using regular expressions to make more complicated queries if appropriate
-(for more, see the [Understanding Regular Expressions](/lessons/understanding-regular-expressions) 
+(for more, see the [Understanding Regular Expressions](/lessons/understanding-regular-expressions)
 lesson).
 
 Let's run the script and Wget command once more:
@@ -272,7 +274,7 @@ Instead, simply manipulate the URLs in a .txt file as follows:
 
 <http://memory.loc.gov/master/mss/mtj/mtj1/001/0200/>
 
-... all the way up to 
+... all the way up to
 
 <http://memory.loc.gov/master/mss/mtj/mtj1/001/1400>
 
