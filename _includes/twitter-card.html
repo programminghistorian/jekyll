@@ -10,12 +10,4 @@
     <meta name="twitter:description" content="{{ page.content | truncate: 197 | strip_html }}" />
 {% endif %}
 
-{% if page.lang == "en" %}
-    <meta name="twitter:image" content="{{ site.liveurl }}/gallery/{{ page.url | remove_first:'/lessons/' }}.png" />
-{% endif %}
-
-{% if page.lang == "es" %}
-    <meta name="twitter:image" content="{{ site.liveurl }}/gallery/{{ page.redirect_from | remove_first:'/es/lessons/' }}.png" />
-{% endif %}
-
-
+<meta name="twitter:image" content="{{ site.liveurl }}/gallery/{{ page.slug }}.png" />
