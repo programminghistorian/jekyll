@@ -3,7 +3,7 @@ title: |
   Temporal Network Analysis with R
 authors:
 - Alex Brey
-date: 2017-10-22
+date: 2018-10-22
 reviewers:
 - Zoe LeBlanc
 - Ryan Deschamps
