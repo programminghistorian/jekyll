@@ -19,7 +19,7 @@ abstract: |
   Learn how to use R to analyze networks that change over time.
 ---
 
-# Temporal Network Analysis with R
+{% include toc.html %}
 
 ## Introduction
 
