@@ -3,9 +3,20 @@ title: |
   Temporal Network Analysis with R
 authors:
 - Alex Brey
-date: 2017-06-22
+date: 2017-10-22
 reviewers:
+- Zoe LeBlanc
+- Ryan Deschamps
+difficulty: 3
+activity: analyzing
+topics:
+- network-analysis
+editors:
+- Matthew Lincoln
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/179
 layout: lesson
+abstract: |
+  Learn how to use R to analyze networks that change over time.
 ---
 
 # Temporal Network Analysis with R
@@ -36,11 +47,11 @@ In this tutorial you will learn:
 
 This tutorial assumes that you have:
 
-- a basic familiarity with static network visualization and analysis, which you can get from excellent tutorials on the Programming Historian such as [From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources](https://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources) and [Exploring and Analyzing Network Data with Python](https://programminghistorian.org/lessons/exploring-and-analyzing-network-data-with-python)
+- a basic familiarity with static network visualization and analysis, which you can get from excellent tutorials on the Programming Historian such as [From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources](/en/lessons/creating-network-diagrams-from-historical-sources) and [Exploring and Analyzing Network Data with Python](/en/lessons/exploring-and-analyzing-network-data-with-python)
 
 - RStudio with R version 3.0 or higher
 
-- A basic understanding of how R can be used to modify data. You may want to review the excellent tutorial on [R Basics with Tabular Data](https://programminghistorian.org/en/lessons/r-basics-with-tabular-data).
+- A basic understanding of how R can be used to modify data. You may want to review the excellent tutorial on [R Basics with Tabular Data](/en/lessons/r-basics-with-tabular-data).
 
 ## Packages for Temporal Network analysis
 
@@ -145,14 +156,14 @@ Illuminated medieval manuscripts are about as messy as historical data gets. In 
 
 ## Static Visualizations
 
-Now that we have a sense of where this temporal network data comes from and how it is structured, we can start to visualize and analyze it. First lets load up our network as a static edge list, which I'll call `PHStaticEdges` with its associated vertex attributes, here called `PHVertexAttributes`. Download the [static edgelist](https://github.com/programminghistorian/ph-submissions/raw/gh-pages/assets/temporal-network-analysis-with-r/TNAWR_StaticEdgelist.csv) and load it into R using the `read.csv()` call. Instead of remembering the path to the file, you can open a finder window that will let you visually navigate to the file using the `file.choose()` function: 
+Now that we have a sense of where this temporal network data comes from and how it is structured, we can start to visualize and analyze it. First lets load up our network as a static edge list, which I'll call `PHStaticEdges` with its associated vertex attributes, here called `PHVertexAttributes`. Download the [static edgelist](/assets/temporal-network-analysis-with-r/TNAWR_StaticEdgelist.csv) and load it into R using the `read.csv()` call. Instead of remembering the path to the file, you can open a finder window that will let you visually navigate to the file using the `file.choose()` function:
 
 ```r
 # Import Static Network Data
 PHStaticEdges <- read.csv(file.choose())
 ```
 
-Then use the same function to load the [vertex attributes](https://github.com/programminghistorian/ph-submissions/raw/gh-pages/assets/temporal-network-analysis-with-r/TNAWR_VertexAttributes.csv) into R.
+Then use the same function to load the [vertex attributes](/assets/temporal-network-analysis-with-r/TNAWR_VertexAttributes.csv) into R.
 
 ```r
 PHVertexAttributes <- read.csv(
@@ -179,7 +190,7 @@ This should produce something like the following image – a tangle of nodes and
 
 {% include figure.html filename="tna_with_r_1.png" caption="A static visualization of the network" %}
 
-Now let's make our network dynamic. First, we have to import the temporal data associated with the [dynamic edges](https://github.com/programminghistorian/ph-submissions/raw/gh-pages/assets/temporal-network-analysis-with-r/TNAWR_DynamicEdges.csv) and [dynamic nodes](https://github.com/programminghistorian/ph-submissions/raw/gh-pages/assets/temporal-network-analysis-with-r/TNAWR_DynamicNodes.csv).
+Now let's make our network dynamic. First, we have to import the temporal data associated with the [dynamic edges](/assets/temporal-network-analysis-with-r/TNAWR_DynamicEdges.csv) and [dynamic nodes](/assets/temporal-network-analysis-with-r/TNAWR_DynamicNodes.csv).
 
 ```r
 # Import Temporal Network Data
@@ -274,7 +285,7 @@ render.d3movie(
 
 This should generate a website with an interactive visualization of your temporal network and open it in your default browser. The RStudio console might show a bunch of warnings, but those just specify that if multiple values were present for vertex attributes, the `render.d3movie()` function used the earliest attribute for each vertex. If all went well, it looks like this:
 
-<iframe src="https://cdn.rawgit.com/programminghistorian/ph-submissions/gh-pages/images/temporal-network-analysis-with-r/tna_with_r_dynamic_visualization.html" width="720" height="500"></iframe>
+<iframe src="/images/temporal-network-analysis-with-r/tna_with_r_dynamic_visualization.html" width="720" height="500"></iframe>
 
 The default labels are simply the identification number for each vertex, so we have turned those off. The `vertex.tooltip` parameter of this function might look a little scary, but basically it supplies each frame or "slice" of the animation with the correct tooltip information so we can see the name and region of each vertex if we click on it.
 
@@ -366,7 +377,7 @@ This produces a visualization of the forward reach of the Hospitaller Master and
 
 {% include figure.html filename="tna_with_r_7.png" caption="The forward reachable path of the Hospitaller Master, with elapsed time labels for edges" %}
 
-We can see that the Hospitaller Master was favorably positioned to have a sizable impact on the future of manuscript illumination in the region of Paris through his collaborative work. This potential for impact was due not only to his position within the network, but also to the chronology of the network's development, 
+We can see that the Hospitaller Master was favorably positioned to have a sizable impact on the future of manuscript illumination in the region of Paris through his collaborative work. This potential for impact was due not only to his position within the network, but also to the chronology of the network's development,
 
 If the numeric labels that show the elapsed time of each collaboration bug you, you can make them transparent by adding `edge.label.col = rgb(0,0,0,0),` to the `plotPaths()` function call.
 
@@ -380,7 +391,7 @@ If, on the other hand, we are interested in the network of collaborations betwee
 HospitallerBkwdPath <- tPath(
   dynamicCollabs,
   v = 3,
-  direction = "bkwd", 
+  direction = "bkwd",
   type='latest.depart'
 )
 plotPaths(
@@ -407,7 +418,7 @@ If we had already observed certain features within the manuscripts produced by t
 
 Let's take a step back and reflect on what we've learned. At this point, we have a sense of how temporal network data is structured and what kinds of decisions go into producing it. We've learned how to make both animated and static visualizations that show change in a network over time. We know how static network metrics like reach take on different properties in the context of temporal networks. We can graph the size of the forward and backward reach of each node, and visualize the paths through which these sets are constituted.
 
-If there is one thing that I hope you will take away from this tutorial, it is the idea that adding temporal data to nodes and edges transforms a general social science tool into a powerful method for historical argument. Comparing network structures and metrics from one timeslice to another gives them historical significance that can be difficult, if not impossible, to discern in conventional static social network analysis. 
+If there is one thing that I hope you will take away from this tutorial, it is the idea that adding temporal data to nodes and edges transforms a general social science tool into a powerful method for historical argument. Comparing network structures and metrics from one timeslice to another gives them historical significance that can be difficult, if not impossible, to discern in conventional static social network analysis.
 
 This tutorial introduced only a few of the many tools and techniques made possible by temporal network analysis. One especially exciting area of this field is in dynamic simulations that model the transmission of something, for example a disease or an idea, among individuals within a given temporal network. If that sounds interesting, take a look at the [EpiModel](http://www.epimodel.org/) package or other tools created by epidemiologists to model diffusion within dynamic networks.
 
