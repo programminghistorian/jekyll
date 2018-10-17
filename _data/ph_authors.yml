@@ -1017,10 +1017,14 @@
   bio:
       en: |
           Charlie Harper is the Digital Learning and Scholarship Librarian at Case Western Reserve University
-          
+
 - name: Eric Weinberg
   team: false
-  bio:  
-       en: | 
+  bio:
+       en: |
            Eric Weinberg holds a PhD in History from the University of Kentucky. He teaches at Viterbo University in La Crosse, WI.
-        
+
+- name: Alex Brey
+  team: false
+  bio:
+      en: |
