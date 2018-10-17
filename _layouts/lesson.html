@@ -35,7 +35,7 @@ layout: base
         </div>
 
         <div class="header-abstract">
-          <p>{{ page.abstract }}</p>
+          {{ page.abstract | markdownify }}
         </div>
 
         <div class="container expanded">
