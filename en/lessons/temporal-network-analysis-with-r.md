@@ -95,7 +95,6 @@ All of the R libraries in this tutorial assume that your network is unimodal –
 
 The difference between a static network and a temporal one is the amount of information contained in the node and edge lists. In order to convert this static network into a temporal one, you need to add *temporal information* to these two lists. Basically, we need to supply a span of time that represents the period in which each edge and each node exists.
 
-
 #### Edge Lists
 
 An undirected edge list must contain three columns of data: a unique identifier for the edge, a source node (one of the workshops involved), and a target node (another workshop involved) for each edge. Something like this:
@@ -427,6 +426,7 @@ Depending on the historical data that you're working with, temporal network anal
 ## Further reading
 
 Maybe you made it through this tutorial but you are still more comfortable with a Graphical User Interface than a programming environment like RStudio. There are a few Gephi tutorials that introduce some of the same basic concepts:
+
 - [Creating a simple dynamic network](https://seinecle.github.io/gephi-tutorials/generated-html/creating-a-simple-dynamic-network.html) by Clément Levallois
 
 - [Converting a network with dates into a dynamic network](https://seinecle.github.io/gephi-tutorials/generated-html/converting-a-network-with-dates-into-dynamic.html) by Clément Levallois
