@@ -71,12 +71,12 @@ install.packages("tsna")
 install.packages("ndtv")
 ```
 
-To make sure these packages are installed and loaded when you run your R script, use the `require()` function at the top of your script:
+To make sure these packages are installed and loaded when you run your R script, use the `library()` function at the top of your script:
 
 ```r
-require(sna)
-require(tsna)
-require(ndtv)
+library(sna)
+library(tsna)
+library(ndtv)
 ```
 
 ## Obtaining Your Data
