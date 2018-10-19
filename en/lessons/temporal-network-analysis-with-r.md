@@ -155,14 +155,15 @@ Illuminated medieval manuscripts are about as messy as historical data gets. In 
 
 ## Static Visualizations
 
-Now that we have a sense of where this temporal network data comes from and how it is structured, we can start to visualize and analyze it. First lets load up our network as a static edge list, which I'll call `PHStaticEdges` with its associated vertex attributes, here called `PHVertexAttributes`. Download the [static edgelist](/assets/temporal-network-analysis-with-r/TNAWR_StaticEdgelist.csv) and load it into R using the `read.csv()` call. Instead of remembering the path to the file, you can open a finder window that will let you visually navigate to the file using the `file.choose()` function:
+Now that we have a sense of where this temporal network data comes from and how it is structured, we can start to visualize and analyze it. First lets load up our network as a static edge list, which I'll call `PHStaticEdges` with its associated vertex attributes, here called `PHVertexAttributes`. Download the <a href="/assets/temporal-network-analysis-with-r/TNAWR_StaticEdgelist.csv" download>static edgelist</a>
+ and load it into R using the `read.csv()` call. Instead of remembering the path to the file, you can open a finder window that will let you visually navigate to the file using the `file.choose()` function:
 
 ```r
 # Import Static Network Data
 PHStaticEdges <- read.csv(file.choose())
 ```
 
-Then use the same function to load the [vertex attributes](/assets/temporal-network-analysis-with-r/TNAWR_VertexAttributes.csv) into R.
+Then use the same function to load the <a href="/assets/temporal-network-analysis-with-r/TNAWR_VertexAttributes.csv" download>vertex attributes</a> into R.
 
 ```r
 PHVertexAttributes <- read.csv(
@@ -189,7 +190,7 @@ This should produce something like the following image – a tangle of nodes and
 
 {% include figure.html filename="tna_with_r_1.png" caption="A static visualization of the network" %}
 
-Now let's make our network dynamic. First, we have to import the temporal data associated with the [dynamic edges](/assets/temporal-network-analysis-with-r/TNAWR_DynamicEdges.csv) and [dynamic nodes](/assets/temporal-network-analysis-with-r/TNAWR_DynamicNodes.csv).
+Now let's make our network dynamic. First, we have to import the temporal data associated with the <a href="/assets/temporal-network-analysis-with-r/TNAWR_DynamicEdges.csv" download>dynamic edges</a> and <a href="/assets/temporal-network-analysis-with-r/TNAWR_DynamicNodes.csv" download>dynamic nodes</a>.
 
 ```r
 # Import Temporal Network Data
@@ -228,7 +229,7 @@ This produces... something that looks disappointingly like the plot of our stati
 
 {% include figure.html filename="tna_with_r_2.png" caption="An anticlimactic visualization of the dynamic network" %}
 
-That's because the plot() function produces a static image of the entire dynamic network. In order to see the actual temporal transformations within the network, we need to use a different visualization that breaks this network up into successive temporal slices. One way to do this is to use the `filmstrip()` function.
+That's because the `plot()` function produces a static image of the entire dynamic network. In order to see the actual temporal transformations within the network, we need to use a different visualization that breaks this network up into successive temporal slices. One way to do this is to use the `filmstrip()` function.
 
 ```r
 # Plot our dynamic network as a filmstrip
@@ -245,7 +246,7 @@ Because collaborations between workshops are pretty rare, relatively speaking, t
 
 Although the historical phenomenon that we are modeling is continuous, most approaches to visualizing and analyzing temporal networks convert this continuous dynamic network into a series of many static networks, known as network slices, which represent the accumulated state of the network over a given span of time – 10 years, or 1 year, or 1 day. These slices can be connected together sequentially, like frames in a film.
 
-Making an animation like this is a little complicated, so the NDTV package actually breaks up the math-y calculations behind the animation from the rendering of the animation itself. First, it "computes" the animation given a set of parameters that tell it when to start, stop, how much to incrementally advance between frames, and how much time we want each interval to aggregate. Depending on how large your network is, this function may take a long time to run.
+Making an animation like this is a little complicated, so the NDTV package actually breaks up the math-y calculations behind the animation from the rendering of the animation itself. First, it computes the animation given a set of parameters that tell it when to start, stop, how much to incrementally advance between frames, and how much time we want each interval to aggregate. Depending on how large your network is, this function may take a long time to run.
 
 ```r
 # Calculate how to plot an animated version of the dynamic network
@@ -303,7 +304,7 @@ The graph should look like this:
 
 {% include figure.html filename="tna_with_r_4.png" caption="Edge Formation in the Workshop Network, 1260-1320" %}
 
-Our animation might give us an intuitive sense of that most edges are formed somewhere between 1280 and 1300, but this plot of the edge formation provides more concrete insights. By setting the interval of samples to every 6 months (.5 years), we can see exactly when and how many collaborations occurred between workshops.
+Our animation might give us an intuitive sense of that most edges are formed somewhere between 1280 and 1300, but this plot of the edge formation provides more concrete insights. By setting the interval of samples to every 6 months (0.5 years), we can see exactly when and how many collaborations occurred between workshops.
 
 ### Changing Centrality
 
@@ -382,7 +383,7 @@ If the numeric labels that show the elapsed time of each collaboration bug you, 
 
 {% include figure.html filename="tna_with_r_8.png" caption="The forward reachable paths of the Hospitaller Master, without elapsed time labels for edges" %}
 
-If, on the other hand, we are interested in the network of collaborations between workshops that set the stage for the emergence of the Hospitaller Master, we can look at his backward reachable set. Using `tpath(` again, we'll use `direction = bkwd`, and `type = latest depart` to find the paths formed by earlier collaborative manuscripts. To visually distinguish this from his forward reach, we'll use the `path.col` property to make the paths that trace his backward reach blue instead of red.
+If, on the other hand, we are interested in the network of collaborations between workshops that set the stage for the emergence of the Hospitaller Master, we can look at his backward reachable set. Using `tpath(` again, we'll use `direction = "bkwd"`, and `type = "latest.depart"` to find the paths formed by earlier collaborative manuscripts. To visually distinguish this from his forward reach, we'll use the `path.col` property to make the paths that trace his backward reach blue instead of red.
 
 ```r
 # Calculate and plot the backward reachable paths
@@ -391,7 +392,7 @@ HospitallerBkwdPath <- tPath(
   dynamicCollabs,
   v = 3,
   direction = "bkwd",
-  type='latest.depart'
+  type = 'latest.depart'
 )
 plotPaths(
   dynamicCollabs,
