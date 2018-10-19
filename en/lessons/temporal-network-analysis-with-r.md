@@ -107,7 +107,7 @@ An undirected edge list must contain three columns of data: a unique identifier 
 |.|.|.|
 |142|97|73|
 
-In addition to these three pieces of information, a temporal edge list must contain at the very minimum two additional pieces of information: when a link comes into existence, also known as the **onset** of the edge, and when the edge disappears, or the **terminus**. The NDTV and TSNA libraries that we are using throughout this tutorial will expect your data to include an onset, terminus, tail, head, and edge id. Depending on how you conceptualize your network, the onset and terminus might be relatively close together, representing the time span of a single event that connects two nodes, or quite far apart, representing the beginning and end of a series of events that represent a relationship. For our manuscript workshops, the temporal edge list looks like this:
+In addition to these three pieces of information, a temporal edge list must contain at the very minimum two additional pieces of information: when a link comes into existence, also known as the `onset` of the edge, and when the edge disappears, or the `terminus`. The NDTV and TSNA libraries that we are using throughout this tutorial will expect your data to include an onset, terminus, tail, head, and edge id. Depending on how you conceptualize your network, the onset and terminus might be relatively close together, representing the time span of a single event that connects two nodes, or quite far apart, representing the beginning and end of a series of events that represent a relationship. For our manuscript workshops, the temporal edge list looks like this:
 
 |onset|terminus|tail|head|onset.censored|terminus.censored|duration|edge.id|
 |--|--|--|--|--|--|--|--|
@@ -117,7 +117,7 @@ In addition to these three pieces of information, a temporal edge list must cont
 |.|.|.|.|.|.|.|.|
 |1319.0|1320.0|99|100|FALSE|FALSE|1|108|
 
-The first collaboration in the list took place between workshops 10 and 11 between 1300 and 1301, and lasted one year (we don't really know how long it took these two workshops to produce this manuscript together, this is an approximation), and so on. You might be scratching your head about the onset.censored and terminus.censored columns here.  In temporal network analysis, **censoring** is a way of ignoring the start or end of a given edge or node. This ability to ignore the onset or terminus can be useful for modeling specific types of temporal networks, creating cumulative visualizations, or debugging your code, among other things, but for this tutorial we won't be censoring anything.
+The first collaboration in the list took place between workshops 10 and 11 between 1300 and 1301, and lasted one year (we don't really know how long it took these two workshops to produce this manuscript together, this is an approximation), and so on. You might be scratching your head about the `onset.censored` and `terminus.censored` columns here.  In temporal network analysis, **censoring** is a way of ignoring the start or end of a given edge or node. This ability to ignore the onset or terminus can be useful for modeling specific types of temporal networks, creating cumulative visualizations, or debugging your code, among other things, but for this tutorial we won't be censoring anything.
 
 #### Node Lists
 
@@ -131,7 +131,7 @@ In most static network analysis, a node list is just a simple list of all of the
 |.|
 |106|
 
-In a temporal network, however, actors and objects enter and exit the network over time. Our workshops of illuminators might be churning out beautiful books for two, five, or even thirty two and a half years. In order to reflect the emergence and dispersal of these workshops, we need a onset (starting point), terminus (end point), and duration for each of them. The R packages that we are using will expect that data to look like this:
+In a temporal network, however, actors and objects enter and exit the network over time. Our workshops of illuminators might be churning out beautiful books for two, five, or even thirty two and a half years. In order to reflect the emergence and dispersal of these workshops, we need a `onset` (starting point), `terminus` (end point), and `duration` for each of them. The R packages that we are using will expect that data to look like this:
 
 |onset|terminus|vertex.id|onset.censored|terminus.censored|duration|
 |--|--|--|--|--|--|
