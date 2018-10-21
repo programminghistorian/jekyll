@@ -17,7 +17,7 @@ topics: [website,mapping]
 abstract: "This lesson serves as an introduction to creating mobile augmented reality applications. Augmented reality (AR) can be defined as the overlaying of digital content (images, video, text, sound, etc.) onto physical objects or locations, and it is typically experienced by looking through the camera lens of an electronic device such as a smartphone, tablet, or optical head-mounted display."
 retired: true
 retirement-reason: |
-  Unity recently changed several of its components, so this lesson was rendered out of date. An [updated lesson on augmented reality in Unity is now available](/lessons/en/creating-mobile-augmented-reality-experiences-in-unity).
+  Unity recently changed several of its components, so this lesson was rendered out of date. An [updated lesson on augmented reality in Unity is now available](/en/lessons/creating-mobile-augmented-reality-experiences-in-unity).
 
   [See further discussion about this retirement decision.](https://github.com/programminghistorian/jekyll/issues/717)
 redirect_from:
