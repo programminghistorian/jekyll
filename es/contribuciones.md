@@ -14,7 +14,8 @@ _The Programming Historian en español_ es posible gracias al esfuerzo de volunt
 
 Si tienes dominio del inglés y del español, puedes traducir una lección ya publicada en _The programming Historian_. De esta manera participarás en la comunidad hispánica de las humanidades digitales y profundizarás en un lenguaje, método o tecnología.
 
-Buscamos traducciones rigurosas y de lectura amena que tengan en cuenta el contexto hispánico y los recursos disponibles en nuestra comunidad. Si te interesa colaborar, consulta nuestras [instrucciones para autores y traductores]({{site.baseurl}}/es/guia-para-autores.html).
+Buscamos traducciones rigurosas y de lectura amena que tengan en cuenta el contexto hispánico y los recursos disponibles en nuestra comunidad. Puesto que muchos de lo tecnicismos son nuevos y/o todavía no están recogidos en los diccionarios, también recomendamos el uso de la [Taxonomía sobre Actividades de investigación digital en humanidades](http://vocabularios.caicyt.gov.ar/portal/index.php?task=fetchLast&v=42) de TaDiRAH y el [Glosario de Preservación Archivística Digital (Versión 4.0)](http://www.mecd.gob.es/planes-nacionales/dam/jcr:f20a4ba1-0ed2-445d-9be9-b8b0382562ea/mex-glosario-interpares-total0112.pdf) de Voutssas-M y Barnard Amozorrutia (UNAM). 
+Si te interesa colaborar, consulta nuestras [instrucciones para autores y traductores]({{site.baseurl}}/es/guia-para-autores.html).  
 
 ## Escribe una lección
 
