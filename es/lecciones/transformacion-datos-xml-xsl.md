@@ -344,8 +344,8 @@ Hasta el momento hemos impreso todos los registros contenidos en el documento XM
 
 Así, para imprimir los *identificadores* de los registros de 1815 podemos escribir la siguiente plantilla:
 
-  <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="text"/>
+ 	<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    	<xsl:output method="text"/>
 
     <xsl:template match="/">
         <xsl:for-each select="raíz/registro">
@@ -356,7 +356,7 @@ Así, para imprimir los *identificadores* de los registros de 1815 podemos escri
         </xsl:for-each>
     </xsl:template>
 
-</xsl:stylesheet>
+	</xsl:stylesheet>
 
 Si queremos excluir el año 1815, en cambio, utilizaremos la expresión ```fecha/año != '1815'``` donde **!=** significa *que no es igual a*.
 
