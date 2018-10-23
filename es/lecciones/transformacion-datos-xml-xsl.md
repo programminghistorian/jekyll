@@ -342,9 +342,10 @@ Genera un documento con el texto de los artículos ordenados de más a menos rec
 
 Hasta el momento hemos impreso todos los registros contenidos en el documento XML. Ahora bien, si solo queremos seleccionar unos cuantos, necesitaremos filtrar los resultados mediante condiciones. Esto se consigue utilizando el elemento ```<xsl:if>``` (literalmente, *si*) y añadiendo la condición deseada en el atributo ```@test```. Si el registro cumple con la condición, el procesador llevará a cabo la instrucción contenida en ```<xsl:if>```. Si no la cumple, lo ignorará y seguirá adelante.
 
-Así, para imprimir los *identificadores* de los registros de 1815 podemos escribir la siguiente plantilla:
+Así, para imprimir los *identificadores* de los registros de 1815 podemos escribir la siguiente plantilla
 
-  <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+```
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="text"/>
 
     <xsl:template match="/">
@@ -357,6 +358,7 @@ Así, para imprimir los *identificadores* de los registros de 1815 podemos escri
     </xsl:template>
 
 </xsl:stylesheet>
+```
 
 Si queremos excluir el año 1815, en cambio, utilizaremos la expresión ```fecha/año != '1815'``` donde **!=** significa *que no es igual a*.
 
