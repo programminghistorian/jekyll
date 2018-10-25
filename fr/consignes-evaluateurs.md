@@ -5,7 +5,7 @@ layout: blank
 redirect_from: /consignes-evaluateurs
 ---
 
-# Consignes aux évaluateur(trice)s
+# Consignes aux évaluateurs et évaluatrices
 
 <img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-left" />
 
