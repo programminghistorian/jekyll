@@ -25,7 +25,7 @@ Merci de prendre le temps de signaler ce problème ou de proposer un changement.
 Contactez <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> au Simmons College ou l'un des autres membres de notre [équipe projet](équipe-projet.html). Vous pouvez aussi envoyer un tweet [@ProgHist](https://twitter.com/proghist).
 
 ## Option 2 : Ouvrez une "issue" sur GitHub
-C'est le mode de contact que nous privilégions pour gérer les commentaires, parce qu'il permet à tous les éditeurs de prendre connaissance de votre "issue" et d'y répondre.
+C'est le mode de contact que nous privilégions pour gérer les commentaires, parce qu'il permet à tous les rédacteurs et toutes les rédactrices de prendre connaissance de votre "issue" et d'y répondre.
 
 D'abord, si vous n'en avez pas déjà un, [créez un compte gratuit et personnel sur GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account) Ou connectez-vous directement à votre compte si vous en avez déjà un.
 
@@ -55,7 +55,7 @@ Ensuite, pour ajouter un commentaire sur une ligne, passez la souris sur le num�
 
 <img src="https://cloud.githubusercontent.com/assets/1126864/4781633/27b780b4-5cb3-11e4-81aa-0ed217b94a2f.png" class="full-width rounded" />
 
-Les éditeur(trice)s recevront les notifications concernant ces commentaires et pourront ensuite inclure vos suggestions dans les leçons. Bien que nous favorisions autant que possible l'ouverture du _Programming Historian en français_, seuls les éditeur(trice)s peuvent, pour le moment, effectuer directement des changements dans les leçons.
+Les rédacteur(trice)s recevront les notifications concernant ces commentaires et pourront ensuite inclure vos suggestions dans les leçons. Bien que nous favorisions autant que possible l'ouverture du _Programming Historian en français_, seul(e)s les rédacteur(trice)s peuvent, pour le moment, effectuer directement des changements dans les leçons.
 
 ## Option 4 : Faire une pull request
 Si vous pensez que vous savez comment corriger un problème dans une leçon, vous pouvez envisagez de réaliser un "fork" de notre dépôt GitHub et de faire une "pull request".
