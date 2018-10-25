@@ -5,7 +5,7 @@ original: /project-team
 ---
 
 # Équipe du projet
-Merci de diriger en amont votre correspondance à:
+Merci de diriger d'abord votre correspondance à:
 
 * <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> (en anglais)
 * <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a> (en espagnol)
@@ -25,7 +25,7 @@ All editorial board information should be edited in data/ph_authors.yml. Authors
 
 ## Participant(e)s de la communauté
 
-Le _Programming Historian_ bénéficie énormément des efforts des personnes qui font don de leur temps et de leur énergie. Si vous souhaitez vous y lancer, soit dans le cadre d'un projet uniquement soit pour avoir un rôle plus pérenne, voici comment vous pouvez [contribuer](/fr/contribuer)!   
+Le _Programming Historian_ bénéficie énormément des efforts des personnes qui font don de leur temps et de leur énergie. Si vous souhaitez vous lancer dans l'aventure, soit dans le cadre d'un projet uniquement soit pour avoir un rôle plus pérenne, voici comment vous pouvez [contribuer](/fr/contribuer)!   
 
 Nous sommes particulièrement reconnaissants aux auteur(e)s dévoué(e)s du _Programming Historian_ qui ne sont pas membres de l'équipe du projet: 
 
