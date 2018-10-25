@@ -1,5 +1,5 @@
 ---
-title: Répertoire des leçons
+title: Index des leçons
 layout: blank
 permalink: /fr/lecons/
 redirect_from: /lecons/
