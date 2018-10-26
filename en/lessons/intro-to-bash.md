@@ -197,7 +197,7 @@ But wait! There's a trick to make things a bit quicker. Go up one directory (`cd
 
 Now you need to find a basic text file to help us with the example. Why don't you use a book that you know is long, such as Leo Tolstoy's epic *War and Peace*. The text file is availiable via [Project Gutenberg](http://www.gutenberg.org/ebooks/2600). If you have already installed [wget](/lessons/applied-archival-downloading-with-wget), you can just type
 
-`wget http://www.gutenberg.org/cache/epub/2600/pg2600.txt`
+`wget http://www.gutenberg.org/files/2600/2600-0.txt`
 
 If you do not have wget installed, download the text itself using your browser. Go to the link above, and, in your browser, use the 'Save Page as..' command in your 'file menu.' Save it in your new 'ProgHist-Text directory.' Now, when you type
 
