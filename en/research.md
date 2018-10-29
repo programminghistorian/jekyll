@@ -22,7 +22,7 @@ The project team and members of the wider community are involved in a number of 
 
 ## Workshops & Events
 * Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 October 2018).
-* Adam Crymble, Maria José Afanador Llach, José Antonio Motilla, 'Digital Humanities Skills for Latin American Scholarship', Universidad de los Andes, Bogotá, Colombia (1-3 August 2018) - funded by the British Academy.
+* Adam Crymble, Maria José Afanador Llach, José Antonio Motilla, '[Digital Humanities Skills for Latin American Scholarship](https://zenodo.org/record/1473414)', Universidad de los Andes, Bogotá, Colombia (1-3 August 2018) - funded by the British Academy.
 * Victor Gayol, 'Introducción a las Ciencias Sociales y Humanidades Digitales. The Programming Historian en español – COLMICH', El Colegio de Michoacán (September 2017).
 * Fred Gibbs, 'Digital History @UM: The Programming Historian', University of Michigan (27 January 2017).
 * Adam Crymble, 'Enhancing Digital Skills Applied to History', North-West University, Vanderbijlpark, South Africa (20-22 June 2016).
