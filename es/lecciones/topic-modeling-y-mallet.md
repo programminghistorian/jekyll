@@ -215,7 +215,7 @@ Si trabajas con colecciones grandes de archivos – o también archivos muy gran
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 ```
 
-Si tu sistema tiene más memoria, puedes tratar de aumentar la memoria asignada a tu *máquina virtual Java*. Para hacerlo, tienes que editar el código en el fichero `mallet` que se encuentra en el subdirectorio `bin` de tu carpeta MALLET. Abre el archivo `Mallet.bat` (`C:\Mallet\bin\mallet.bat`) si trabajas en Windows o el archivo `mallet` (`~/Mallet/bin/mallet`) si trabajas en Linux u OS X. Ábrelo con el programa Komodo Edit (véase [Mac](/instalacion-mac), [Windows](/instalacion-windows), [Linux](/instalacion-linux) para instrucciones de instalación).
+Si tu sistema tiene más memoria, puedes tratar de aumentar la memoria asignada a tu *máquina virtual Java*. Para hacerlo, tienes que editar el código en el fichero `mallet` que se encuentra en el subdirectorio `bin` de tu carpeta MALLET. Abre el archivo `Mallet.bat` (`C:\Mallet\bin\mallet.bat`) si trabajas en Windows o el archivo `mallet` (`~/Mallet/bin/mallet`) si trabajas en Linux u OS X. Ábrelo con el programa Komodo Edit (véase [Mac](/lecciones/instalacion-mac), [Windows](/lecciones/instalacion-windows), [Linux](/lecciones/instalacion-linux) para instrucciones de instalación).
 
 Encuentra la línea siguiente:
 
