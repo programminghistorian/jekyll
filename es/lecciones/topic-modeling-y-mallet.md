@@ -258,7 +258,7 @@ Este comando
 
 - abre tu archivo `leccion.mallet`
 - prepara MALLET a encontrar 10 tópicos
-- imprime cada palabra de tu corpus y el tópico al que pertenece en un archivo comprimido (`.gz`; véase [www.gzip.org](www.gzip.org) sobre cómo descomprimirlo)
+- imprime cada palabra de tu corpus y el tópico al que pertenece en un archivo comprimido (`.gz`; véase [gzip](https://www.gzip.org/) sobre cómo descomprimirlo)
 - produce un documento de texto que muestra cuáles son las palabras clave principales para cada tópico (`leccion_topicos.txt`)
 - y produce un archivo de texto que indica el porcentaje de cada tópico en cada documento de texto que importaste (`leccion_topicos_en_docs.txt`). (Para ver todos los parámetros del comando `train-topics` que se pueden ajustar, teclea `bin\mallet train-topics --help` en la línea de comandos.)
 
