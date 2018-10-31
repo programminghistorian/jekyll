@@ -394,12 +394,16 @@
   bio:
     en: |
         Shawn Graham is associate professor of digital humanities and history at Carleton University.
+    es: |
+        Shawn Graham es profesor asociado en Humanidades Digitales e Historia en Carleton University.
 
 - name: Scott Weingart
   team: false
   bio:
     en: |
         Scott Weingart is a historian of science and digital humanities specialist at Carnegie Mellon University.
+    es: |
+        Scott Wingart es historiador de la ciencia y especialista en Humanidades Digitales en Carnegie Mellon University.
 
 - name: Jim Clifford
   team: false
