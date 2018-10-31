@@ -117,7 +117,7 @@ MALLET se ejecuta desde la línea de comandos, conocida también como *Símbolo 
 3. Luego escribe `cd mallet` y estarás en el directorio de MALLET. Todo lo que escribas en la ventana de la línea de comandos es un *comando*. Hay comandos como `cd` (cambiar directorio) o `dir` (listar los contenidos del directorio) que la computatora entiende. Si quieres utilizar MALLET tienes que decirle de manera explícita 'esto es un comando de MALLET'. Para esto, se le especifica a la computadora que tiene que tomar sus instrucciones de la carpeta *bin*, un subdirectorio de MALLET que contiene las rutinas operacionales principales.
 4. Teclea `bin\mallet` como en la figura 6. Si todo ha ido bien deberías ver una lista de comandos de MALLET – ¡felicitaciones! Si recibes un mensaje de error comprueba lo que has escrito. ¿Utilizaste un tipo de barra equivocado? ¿Configuraste la variable de entorno correctamente?[^6] ¿Se encuentra MALLET en `C:\mallet`?
 
-{% include figure.html filename="fig-5-ventana-linea-de-comandos-llegar-a-c.png" caption="Figura 5: Navegar al directorio C:\ en la línea de comandos" %}
+{% include figure.html filename="fig5-ventana-linea-de-comandos-llegar-a-c.png" caption="Figura 5: Navegar al directorio C:\ en la línea de comandos" %}
 
 {% include figure.html filename="fig6-linea-de-comandos-mallet-instalado.png" caption="Figura 6: Línea de comandos: MALLET instalado" %}
 
@@ -290,7 +290,7 @@ El primer número es el tópico (topic 0) y el segundo número indica el *peso* 
 
 ¿Qué tópicos componen tus documentos? La respuesta está en el archivo `leccion_topicos_en_docs.txt`. Para mantener todo organizado, importa el archivo `leccion_topicos_en_docs.txt` a una hoja de cálculo (en Excel, Open Office, etc.). Tendrás una tabla con las columnas *número de documento, fuente, proporción del tópico*. Todas las columnas subsiguientes son proporciones de los tópicos, como en la figura 11.[^12]
 
-{% include figure.html filename="fig-11-topicos-en-docs.png" caption="Figura 11: Tópicos en documentos" %}
+{% include figure.html filename="fig11-topicos-en-docs.png" caption="Figura 11: Tópicos en documentos" %}
 
 Puede resultar difícil leer estos datos. Los tópicos comienzan en la tercera columna, en este caso en la columna C, y continúan hasta el último tópico en la columna L. Es así porque entrenamos 10 tópicos – si hubiéramos entrenado 20, por ejemplo, llegarían hasta la columna V.
 
