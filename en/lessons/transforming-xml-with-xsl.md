@@ -35,7 +35,7 @@ Then again...
 
 You are starting a new project analysing book auction catalogues from the early seventeenth century. You start recording the publication details and auction listings into a series of Word documents and Excel spreadsheets. A month into the project, you are invited to present your research to the Pro-Vice Chancellor. Your head of department suggests that you create a 'snazzy' set of slides and handouts to help her understand your project.  You have some preliminary conclusions about the material, but the data is scattered in several places and formatting it properly will take more time than you have.
 
-In all three of these situations, a basic understanding of XML, and its sister-language [XSL](https://en.wikipedia.org/wiki/XML), could have saved you time and aggravation.  This tutorial will provide you with the ability to convert or transform historical data from an [XML](https://en.wikipedia.org/wiki/XML) database (whether a single file or several linked documents) into a variety of different presentations---condensed tables, exhaustive lists or paragraphed narratives---and file formats. Whether filtering a large database or adding formatting such as headings and pagination, [XSL](https://en.wikipedia.org/wiki/XSL) offers historians the ability to reshape databases to support their changing research or publication needs.
+In all three of these situations, a basic understanding of XML, and its sister-language [XSL](https://en.wikipedia.org/wiki/XSL), could have saved you time and aggravation.  This tutorial will provide you with the ability to convert or transform historical data from an [XML](https://en.wikipedia.org/wiki/XML) database (whether a single file or several linked documents) into a variety of different presentations---condensed tables, exhaustive lists or paragraphed narratives---and file formats. Whether filtering a large database or adding formatting such as headings and pagination, [XSL](https://en.wikipedia.org/wiki/XSL) offers historians the ability to reshape databases to support their changing research or publication needs.
 
 ## What is XML?
 
@@ -294,7 +294,7 @@ Here you can see that your *template* has three lines of code.
 
 Save your file and refresh your browser. You should now have a very messy line of text, listing the value of every title element in the database. You can organise this data by instructing the transformer to add a new line after each entry.
 
-At the end of your *value-of* line, type ```<xsl:text>&#xA;</xsl:text>``` to add a line break. ```&#xA;``` is the [ISO 10646 hex code](http://do.remifa.so/archives/unicode/latin1.html) for a new line and the ```<xsl:text>``` element tells the transformer to print the value as plain text.
+At the end of your *value-of* line, type ```<xsl:text>&#xA;</xsl:text>``` to add a line break. ```&#xA;``` is the [ISO 10646 hex code](https://doremifaso.ca/archives/unicode/latin1.html) for a new line and the ```<xsl:text>``` element tells the transformer to print the value as plain text.
 
 Depending on the type of outputs you are using, some special characters, particularly multiple spaces or line breaks, may not render correctly if entered on their own. Using ```<text>``` elements ensures that your text renders exactly the way you intend it to.
 

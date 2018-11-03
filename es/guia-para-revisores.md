@@ -43,7 +43,7 @@ Queremos que el proceso de producción y revisión sea transparente. Por eso tie
 
 Tu trabajo como revisor --así como tu identidad-- será totalmente visible para el autor o traductor. En consecuencia, los comentarios deben dirigirse directamente al autor o traductor (y no al editor). Si en algún momento del proceso tienes dudas sobre cuál es tu rol o qué se espera de ti, por favor, publica tus dudas o preguntas en nuestro repositorio para que alguno de nuestros editores pueda ayudarte. En ocasiones podemos demorarnos un poco pero estamos convencidos de que, una vez se publique la traducción o lección, habrá valido la pena esperar unos días.
 
-A fin de mantener nuestro compromiso con una investigación pública, abierta y transparente, te animamos a mantener las conversaciones en Github, tal y como se expone en el apartado dedicado a nuestro flujo de trabajo. Sin embargo, también queremos que todo el mundo se sienta cómodo y por eso, pero de manera ocasional, también aceptamos tratar un asunto en privado. En tal caso puedes contactar a tu [editor asignado](/project-team) o a alguno de nuestros *ombudsperson* [Antonio Rojas Castro, Víctor Gayol o Maria José Afanador-Llach](/project-team).
+A fin de mantener nuestro compromiso con una investigación pública, abierta y transparente, te animamos a mantener las conversaciones en Github, tal y como se expone en el apartado dedicado a nuestro flujo de trabajo. Sin embargo, también queremos que todo el mundo se sienta cómodo y por eso, pero de manera ocasional, también aceptamos tratar un asunto en privado. En tal caso puedes contactar a tu [editor asignado](/project-team) o a alguno de nuestros *ombudsperson* [Maria José Afanador-Llach](/project-team).
 
 A menos que nos indiques lo contario, tu nombre aparecerá como revisor en la página de la lección en  _The Programming Historian en español_ una vez se publique de manera oficial. Esto es solo un pequeño reconocimiento pero nos gustaría enfatizar que _The Programming Historian en español_ se lleva a cabo gracias al trabajo de los voluntarios y por eso es obligado darles crédito.
 
@@ -70,6 +70,8 @@ De manera más específica, en cuanto a las traducciones, apreciamos el rigor pe
 - ¿El traductor ha añadido notas aclaratorias?
 - ¿Las capturas de pantalla y trozos de código han sido adaptados?
 - ¿Se han añadido referencias bibliográficas en español?
+
+Puesto que muchos de lo tecnicismos son nuevos y/o todavía no están recogidos en los diccionarios, recomendamos el uso de la [Taxonomía sobre Actividades de investigación digital en humanidades](http://vocabularios.caicyt.gov.ar/portal/index.php?task=fetchLast&v=42) de TaDiRAH y el [Glosario de Preservación Archivística Digital (Versión 4.0)](http://www.mecd.gob.es/planes-nacionales/dam/jcr:f20a4ba1-0ed2-445d-9be9-b8b0382562ea/mex-glosario-interpares-total0112.pdf) de Voutssas-M y Barnard Amozorrutia (UNAM). 
 
 ### Lecciones nuevas
 Por lo que respecta a las lecciones nuevas, queremos que las explicaciones técnicas (y el nivel de dificultad) sea constante a lo largo del tutorial. En tanto que revisor, queremos que, en un tutorial dirigido a un usuario experimentado, seas capaz de detectar pasajes que explican en detalle un concepto demasiado simple. Y a la inversa: queremos evitar tutoriales dirigidos a principiantees que no explican de manera adecuada un concepto fundamental para entender la lección. Aspectos a tener en cuenta:

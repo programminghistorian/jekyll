@@ -88,7 +88,7 @@ Below are tips on the installation for the PC and Mac:
 
 ##### Installation tips for a PC
 
-Once the file is downloaded, double click on the downloaded file to install it.  Follow the prompts to accept the licence.
+Using the MySQL Installer for Windows is the recommended way to install the components of MySQL. Once the file is downloaded, double click on the downloaded file to install it.  Follow the prompts to accept the licence.
 After the products are installed, you will be prompted for options:
 
 
@@ -116,6 +116,8 @@ Check: TCP/IP.  Port number: 3306.
 (See below)
 
 {% include figure.html filename="getting-started-with-mysql-8.png" caption="Development Machine TCPIP port 3306" %}
+
+###### 5. Accounts and Roles
 
 {% include figure.html filename="getting-started-with-mysql-9.png" caption="Write down and then type in a root password" %}
 
@@ -290,8 +292,15 @@ CREATE USER 'newspaper_search_results_user'@'localhost' IDENTIFIED BY 'Something
 GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE, SHOW VIEW ON newspaper_search_results.* TO 'newspaper_search_results_user'@'localhost';
 ```
 
+### MySQL version 8 and user Authentication Type.
 
+When a user is created in MySQL 8 Workbench the **Authentication Type** is defaulted to **caching_sha2_password**. That type of authentication causes an error for the R package we will use to connect to the database later in this lesson. The error is *Authentication plugin 'caching_sha2_password' cannot be loaded* and it is described in [Stack Overflow](https://stackoverflow.com/questions/49194719/authentication-plugin-caching-sha2-password-cannot-be-loaded).
 
+To avoid this error we can change the user's Authentication Type to Standard. To do this, run this command:
+
+```
+ALTER USER 'newspaper_search_results_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'SomethingDifficult';
+```
 # Create an R Script that connects to the database
 
 Open RStudio, which you installed earlier in this lesson.  See the [RStudio](#rstudio) section. 
@@ -300,19 +309,19 @@ We'll now use RStudio to make a new R Script and save the script with the name n
 
 Go to File > New File > R Script, then save that new file with the name newspaper_search.R.
 
-We will use the RMySQL package to connect to MySQL.  (If you're curious, documentation for the RMySQL package is [here](https://cran.r-project.org/web/packages/RMySQL/RMySQL.pdf).)
+We will use the RMariaDB package to connect to MySQL.  (If you're curious, documentation for the RMariaDB package is [here](https://cran.r-project.org/web/packages/RMariaDB/RMariaDB.pdf).)
 
 
-If you don't have the library RMySQL installed (which is likely, if this is the first time you're using RStudio), install it using the RStudio Console.  After opening RStudio, copy and paste the following into the left window at the > prompt, then press enter:
+If you don't have the library RMariaDB installed (which is likely, if this is the first time you're using RStudio), install it using the RStudio Console.  After opening RStudio, copy and paste the following into the left window at the > prompt, then press enter:
 
 ```
-install.packages("RMySQL")
+install.packages("RMariaDB")
 ```
 
 Add this statement to the newspaper_search.R program
 
 ```
-library(RMySQL)
+library(RMariaDB)
 ```
 
 ## Connecting to the database with a password
@@ -331,10 +340,11 @@ To run this script, select all the text and click the Run button. (There are oth
 
 
 ```
-library(RMySQL)
+library(RMariaDB)
 # The connection method below uses a password stored in a variable.  
 # To use this set localuserpassword="The password of newspaper_search_results_user" 
-storiesDb <- dbConnect(MySQL(), user='newspaper_search_results_user', password=localuserpassword, dbname='newspaper_search_results', host='localhost')
+
+storiesDb <- dbConnect(RMariaDB::MariaDB(), user='newspaper_search_results_user', password=localuserpassword, dbname='newspaper_search_results', host='localhost')
 dbListTables(storiesDb)
 dbDisconnect(storiesDb)
 ```
@@ -343,7 +353,6 @@ In the console you should see:
 > dbListTables(storiesDb)
 [1] "tbl_newspaper_search_results"
 > dbDisconnect(storiesDb)
-[1] TRUE
 ```
 Success! you have:
 1. Connected to the database with dbConnect.
@@ -370,19 +379,19 @@ database=newspaper_search_results
 3. Update the newspaper_search.R program above to connect to the database using the configuration file.
 
 ```
-library(RMySQL)
-# The connection method below uses a password stored in a variable.  
-# To use this set localuserpassword="The password of newspaper_search_results_user" 
-# storiesDb <- dbConnect(MySQL(), user='newspaper_search_results_user', password=localuserpassword, dbname='newspaper_search_results', host='localhost')
+library(RMariaDB)
+# The connection method below uses a password stored in a settings file.  
 
-#R needs a full path to find the settings file
-rmysql.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 5.7\\newspaper_search_results.cnf"
+# R needs a full path to find the settings file.
+rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
-rmysql.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMySQL::MySQL(),default.file=rmysql.settingsfile,group=rmysql.db) 
+rmariadb.db<-"newspaper_search_results"
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
+
+# list the table. This confirms we connected to the database.
 dbListTables(storiesDb)
 
-#disconnect to clean up the connection to the database
+# disconnect to clean up the connection to the database.
 dbDisconnect(storiesDb)
 ```
 
@@ -465,21 +474,22 @@ SELECT story_title, story_date_published FROM tbl_newspaper_search_results;
 
 Let's do this using R! Below is an expanded version of the R Script we used above to connect to the database. For brevity, the first 3 comments we had in the R Script above are removed.  We no longer need them.
 
-In line 4 of the program below, remember to change the path to the rmysql.settingsfile that matches your computer.
+In line 4 of the program below, remember to change the path to the rmariadb.settingsfile that matches your computer.
 
 ```
-library(RMySQL)
+library(RMariaDB)
+# The connection method below uses a password stored in a settings file.  
 
-# R needs a full path to find the settings file
-rmysql.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 5.7\\newspaper_search_results.cnf"
+# R needs a full path to find the settings file.
+rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
-rmysql.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMySQL::MySQL(),default.file=rmysql.settingsfile,group=rmysql.db) 
+rmariadb.db<-"newspaper_search_results"
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
 
-# optional - confirms we connected to the database
+# Optional. List the table. This confirms we connected to the database.
 dbListTables(storiesDb)
 
-# Create the query statement
+# Create the query statement.
 query<-"INSERT INTO tbl_newspaper_search_results (
 story_title,
 story_date_published,
@@ -490,13 +500,16 @@ VALUES('THE LOST LUSITANIA.',
 LEFT(RTRIM('http://newspapers.library.wales/view/4121281/4121288/94/'),99),
 'German+Submarine');"
 
-# optional - prints out the query in case you need to troubleshoot it
+# Optional. Prints out the query in case you need to troubleshoot it.
 print(query)
 
-#execute the query on the storiesDb that we connected to above.
+# Execute the query on the storiesDb that we connected to above.
 rsInsert <- dbSendQuery(storiesDb, query)
 
-#disconnect to clean up the connection to the database
+# Clear the result.
+dbClearResult(rsInsert)
+
+# Disconnect to clean up the connection to the database.
 dbDisconnect(storiesDb)
 
 ```
@@ -526,20 +539,21 @@ To practice what we just did:
 We will be inserting a lot of data into the table using R, so we will change the INSERT statement to use variables. See the code below the *#Assemble the query* remark.
 
 ```
-library(RMySQL)
+library(RMariaDB)
+# The connection method below uses a password stored in a settings file.  
 
-# R needs a full path to find the settings file
-rmysql.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 5.7\\newspaper_search_results.cnf"
+# R needs a full path to find the settings file.
+rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
-rmysql.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMySQL::MySQL(),default.file=rmysql.settingsfile,group=rmysql.db) 
+rmariadb.db<-"newspaper_search_results"
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
 
-# optional - confirms we connected to the database
+# Optional. List the table. This confirms we connected to the database.
 dbListTables(storiesDb)
 
-# Assemble the query
+# Assemble the query.
 
-# Assign variables
+# Assign variables.
 entryTitle <- "THE LOST LUSITANIA."
 entryPublished <- "21 MAY 1916"
 #convert the string value to a date to store it into the database
@@ -559,16 +573,20 @@ query<-paste(
   LEFT(RTRIM('",entryUrl,"'),99),
   '",searchTermsSimple,"')",
   sep = ''
-)
+  )
 
-# optional - prints out the query in case you need to troubleshoot it
+# Optional. Prints out the query in case you need to troubleshoot it.
 print(query)
 
-# execute the query on the storiesDb that we connected to above.
+# Execute the query on the storiesDb that we connected to above.
 rsInsert <- dbSendQuery(storiesDb, query)
 
-# disconnect to clean up the connection to the database
+# Clear the result.
+dbClearResult(rsInsert)
+
+# Disconnect to clean up the connection to the database.
 dbDisconnect(storiesDb)
+
 ```
 Let's test this program:
 1. Run a SELECT statement and note the rows you have.
@@ -591,10 +609,10 @@ and re-run the program.
 In the R Console there is an error:
 ```
 > rsInsert <- dbSendQuery(storiesDb, query)
-Error in .local(conn, statement, ...) : 
-  could not run statement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S RUDDER.',
+Error in result_create(conn@ptr, statement, is_statement) : 
+  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S RUDDER.',
   '1916-05-21',
-  LEFT(RTRIM('http://newspapers.library.wales/view/4' at line 6
+  LEFT(RTRIM('http://newspapers.library.wales/view/4' at line 6 [1064]
 ```
 You can check with a SELECT statement that there is no record in the table with a story title of THE LOST LUSITANIA'S RUDDER. 
 
@@ -618,7 +636,7 @@ Once you see your test record, TRUNCATE tbl_newspaper_search_results to remove t
 
 In the next part of the lesson we'll query the database table.  Our goal is to have enough data in the table to make a graph. To prepare for that let's load some sample data from comma separated value (.csv) text files.
 
-Download these .csv files to your R working directory.
+Download these .csv files to your R working directory. These files are stored in GitHub so download the Raw version of the files.
 1. [sample-data-allotment-garden.csv](/assets/getting-started-with-mysql-using-r/sample-data-allotment-garden.csv) This is a list of Welsh newspaper stories published during World War I that match the search terms allotment and garden.
 2. [sample-data-submarine.csv](/assets/getting-started-with-mysql-using-r/sample-data-submarine.csv) This is a list of Welsh newspaper stories published during World War I that match the search terms German and submarine.
 
@@ -659,21 +677,31 @@ dbWriteTable(storiesDb, value = sampleGardenData, row.names = FALSE, name = "tbl
 We're not ready to run dbWriteTable() yet, we need to connect to the database first. Here is the program to do that, as well as load sample-data-submarine.csv too. Read through this and run it.
 
 ```
-library(RMySQL)
+library(RMariaDB)
+rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
-# R needs a full path to find the settings file
-rmysql.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 5.7\\newspaper_search_results.cnf"
+rmariadb.db<-"newspaper_search_results"
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
 
-rmysql.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMySQL::MySQL(),default.file=rmysql.settingsfile,group=rmysql.db) 
+setwd("C:\\a_orgs\\carleton\\hist3814\\R\\getting-started-with-mysql")
 
 # read in the sample data from a newspaper search of Allotment And Garden
 sampleGardenData <- read.csv(file="sample-data-allotment-garden.csv", header=TRUE, sep=",")
+
+# The story_title column in the database table can store values up to 99 characters long.  
+# This statement trims any story_titles that are any longer to 99 characters.
+sampleGardenData$story_title <- substr(sampleGardenData$story_title,0,99)
+
+# This statement formats story_date_published to represent a DATETIME.
+sampleGardenData$story_date_published <- paste(sampleGardenData$story_date_published," 00:00:00",sep="")
 
 dbWriteTable(storiesDb, value = sampleGardenData, row.names = FALSE, name = "tbl_newspaper_search_results", append = TRUE ) 
 
 # read in the sample data from a newspaper search of German+Submarine
 sampleSubmarineData <- read.csv(file="sample-data-submarine.csv", header=TRUE, sep=",")
+
+sampleSubmarineData$story_title <- substr(sampleSubmarineData$story_title,0,99)
+sampleSubmarineData$story_date_published <- paste(sampleSubmarineData$story_date_published," 00:00:00",sep="")
 
 dbWriteTable(storiesDb, value = sampleSubmarineData, row.names = FALSE, name = "tbl_newspaper_search_results", append = TRUE ) 
 
@@ -692,51 +720,65 @@ You should have a count of 2880 records. 1242 from sampleGardenData and 1638 fro
 Our goal here is to use the table of newspaper stories we have imported and make a graph of the number of stories published in Welsh Newspapers during each month of World War I that match the search terms (allotment and garden) and (German and submarine)
 
 The script below queries the database and produces the line graph plot below.  Read through the script to see what is happening. An explanation of script follows it.
+
 ```
-library(RMySQL)
+library(RMariaDB)
+rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
-rmysql.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 5.7\\newspaper_search_results.cnf"
-
-rmysql.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMySQL::MySQL(),default.file=rmysql.settingsfile,group=rmysql.db) 
+rmariadb.db<-"newspaper_search_results"
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
 
 searchTermUsed="German+Submarine"
-# Query a count of the number of stories matching searchTermUsed that were published each month
-query<-paste("SELECT (
-  COUNT(CONCAT(MONTH(story_date_published),' ',YEAR(story_date_published)))) as 'count' 
-  FROM tbl_newspaper_search_results 
-  WHERE search_term_used='",searchTermUsed,"' 
-  GROUP BY YEAR(story_date_published),MONTH(story_date_published) 
-  ORDER BY YEAR(story_date_published),MONTH(story_date_published);",sep="")
+# Query a count of the number of stories matching searchTermUsed that were published each month.
+query<-paste("SELECT ( COUNT(CONCAT(MONTH(story_date_published), ' ',YEAR(story_date_published)))) as 'count' 
+    FROM tbl_newspaper_search_results
+    WHERE search_term_used='",searchTermUsed,"'
+    GROUP BY YEAR(story_date_published),MONTH(story_date_published)
+    ORDER BY YEAR(story_date_published),MONTH(story_date_published);",sep="")
 
+print(query)
 rs = dbSendQuery(storiesDb,query)
 dbRows<-dbFetch(rs)
-#Put the results of the query into a time series
-qts1 = ts(dbRows$count, frequency = 12, start = c(1914, 8)) 
-#Plot the qts1 time series data with line width of 3 in the color red.
-plot(qts1, lwd=3,col = "red", 
-     xlab="Month of the war",
-     ylab="Number of newspaper stories", 
-     main=paste("Number of stories in Welsh newspapers matching the search terms listed below.",sep=""),
-     sub="Search term legend: Red = German+Submarine. Green = Allotment And Garden.")
+
+countOfStories<-c(as.integer(dbRows$count))
+
+# Put the results of the query into a time series.
+qts1 = ts(countOfStories, frequency = 12, start = c(1914, 8))
+print(qts1)
+
+# Plot the qts1 time series data with a line width of 3 in the color red.
+plot(qts1, 
+    lwd=3,
+    col = "red",
+    xlab="Month of the war",
+    ylab="Number of newspaper stories",
+    xlim=c(1914,1919), 
+    ylim=c(0,150), 
+    main=paste("Number of stories in Welsh newspapers matching the search terms listed below.",sep=""),
+    sub="Search term legend: Red = German+Submarine. Green = Allotment And Garden.")
 
 searchTermUsed="AllotmentAndGarden"
-#Query a count of the number of stories matching searchTermUsed that were published each month
-query<-paste("SELECT (
-  COUNT(CONCAT(MONTH(story_date_published),' ',YEAR(story_date_published)))) as 'count' 
-  FROM tbl_newspaper_search_results 
-  WHERE search_term_used='",searchTermUsed,"' 
-  GROUP BY YEAR(story_date_published),MONTH(story_date_published) 
-  ORDER BY YEAR(story_date_published),MONTH(story_date_published);",sep="")
 
+# Query a count of the number of stories matching searchTermUsed that were published each month.
+query<-paste("SELECT (  COUNT(CONCAT(MONTH(story_date_published),' ',YEAR(story_date_published)))) as 'count'   FROM tbl_newspaper_search_results   WHERE search_term_used='",searchTermUsed,"'   GROUP BY YEAR(story_date_published),MONTH(story_date_published)   ORDER BY YEAR(story_date_published),MONTH(story_date_published);",sep="")
+print(query)
 rs = dbSendQuery(storiesDb,query)
 dbRows<-dbFetch(rs)
-#Put the results of the query into a time series
-qts2 = ts(dbRows$count, frequency = 12, start = c(1914, 8))
-#Add this line with the qts2 time series data to the the existing plot 
+
+countOfStories<-c(as.integer(dbRows$count))
+
+# Put the results of the query into a time series.
+qts2 = ts(countOfStories, frequency = 12, start = c(1914, 8))
+
+# Add this line with the qts2 time series data to the the existing plot.
 lines(qts2, lwd=3,col="darkgreen")
 
+# Clear the result
+dbClearResult(rs)
+
+# Disconnect to clean up the connection to the database.
 dbDisconnect(storiesDb)
+
 ```
 ## Explanation of the select and plot data program.
 The method to connect to the database is explained [above](#connecting-to-the-database-with-a-password).
@@ -768,15 +810,19 @@ dbRows<-dbFetch(rs)
 Below the data frame *dbRows* is put into a time series with the *ts()* function so that it can be plotted for each month, starting from August 1914.
 ```
 #Put the results of the query into a time series
-qts1 = ts(dbRows$count, frequency = 12, start = c(1914, 8)) 
+qts1 = ts(countOfStories, frequency = 12, start = c(1914, 8))
 ```
 Below, the data in the *qts1* time series is plotted on a graph
 ```
-plot(qts1, lwd=3,col = "red", 
-     xlab="Month of the war",
-     ylab="Number of newspaper stories", 
-     main=paste("Number of stories in Welsh newspapers matching the search terms listed below.",sep=""),
-     sub="Search term legend: Red = German+Submarine. Green = Allotment And Garden.")
+plot(qts1, 
+    lwd=3,
+    col = "red",
+    xlab="Month of the war",
+    ylab="Number of newspaper stories",
+    xlim=c(1914,1919), 
+    ylim=c(0,150), 
+    main=paste("Number of stories in Welsh newspapers matching the search terms listed below.",sep=""),
+    sub="Search term legend: Red = German+Submarine. Green = Allotment And Garden.")
 ```
 What is different about the part of the program that plots the stories matching the search "Allotment And Garden"? Not very much at all.  We just use the *lines()* function to plot those results on the same plot we made above.
 ```
@@ -792,7 +838,7 @@ Below is what the plot should look like:
 If you wanted to put a database on a website, using MySQL as the database and the PHP language to build the pages of the site is one way to do this. An example of this type of website is one I built to [search issues of the Equity newspaper](http://www.jeffblackadar.ca/graham_fellowship/corpus_entities_equity/). Larry Ullman's book *PHP and MySQL for Dynamic Web Sites* covers how to set up and connect to a database using MySQL and PHP in a hacker resistant way.
 
 For examples of using SQL to sort and group data as well as perform calculations, see: 
-[MySQL by Examples for Beginners](https://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html) or MySQL's [Examples of Common Queries](https://dev.mysql.com/doc/refman/5.7/en/examples.html).
+[MySQL by Examples for Beginners](http://web.archive.org/web/20171228130133/https://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html) or MySQL's [Examples of Common Queries](https://dev.mysql.com/doc/refman/5.7/en/examples.html).
 
 
 # Conclusion

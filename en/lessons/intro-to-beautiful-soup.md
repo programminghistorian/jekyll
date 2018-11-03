@@ -79,7 +79,7 @@ With sudo, the command is:
 sudo pip install beautifulsoup4
 ```
 
-{% include figure.html filename="http://imgs.xkcd.com/comics/sandwich.png" caption="The power of sudo: 'Sandwich' by XKCD" %}
+{% include figure.html filename="https://imgs.xkcd.com/comics/sandwich.png" caption="The power of sudo: 'Sandwich' by XKCD" %}
 
 Application: Extracting names and URLs from an HTML page
 --------------------------------------------------------

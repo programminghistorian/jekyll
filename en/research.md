@@ -21,7 +21,9 @@ The project team and members of the wider community are involved in a number of 
 * Shawn Graham, Ian Milligan, and Scott Weingart, [_Exploring Big Historical Data: The Historian's Macroscope_](http://www.themacroscope.org/2.0/), (Imperial College Press, 2015).
 
 ## Workshops & Events
-* Victor Gayol, 'Introducción a las Ciencias Sociales y Humanidades Digitales. The Programming Historian en español – COLMICH', El Colegio de Michoacán (september 2017)
+* Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 October 2018).
+* Adam Crymble, Maria José Afanador Llach, José Antonio Motilla, '[Digital Humanities Skills for Latin American Scholarship](https://zenodo.org/record/1473414)', Universidad de los Andes, Bogotá, Colombia (1-3 August 2018) - funded by the British Academy.
+* Victor Gayol, 'Introducción a las Ciencias Sociales y Humanidades Digitales. The Programming Historian en español – COLMICH', El Colegio de Michoacán (September 2017).
 * Fred Gibbs, 'Digital History @UM: The Programming Historian', University of Michigan (27 January 2017).
 * Adam Crymble, 'Enhancing Digital Skills Applied to History', North-West University, Vanderbijlpark, South Africa (20-22 June 2016).
 * Adam Crymble and Justin Colson, 'Intro to Geocoding', Institute of Historical Research, London, (19 April 2016).
@@ -32,6 +34,7 @@ The project team and members of the wider community are involved in a number of 
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 May 2015).
 
 ## Posters, Conference Papers, & Invited Talks
+* Afanador, Maria José. 'The Programming Historian en español: estrategias y retos para la construcción de una comunidad global de humanidades digitales.' Ponencia presentada en la Conferencia de Humanidades Digitales DH2018, Ciudad de México, México, (2018, junio). 
 * Caleb McDaniel, 'Open Access, Transparent Peer Review', Annual Meeting of the Organizations of American Historians, Sacremento, California, (14 April 2018).
 * James Baker, '[The Programming Historian: Open Access, Open Source, Open Project](https://www.slideshare.net/drjwbaker/the-programming-historian-open-access-open-source-open-project)', Research Hive Seminar on 'Open publication: exploring alternative models and practices', University of Sussex (22 March 2018).
 * Adam Crymble, 'White, Male, and North American: Challenges of Diversifying the Programming Historian', Universit&eacute; de Lausanne, Switzerland (23-24 March 2017).
@@ -43,11 +46,11 @@ The project team and members of the wider community are involved in a number of 
 * Adam Crymble, 'The Programming Historian 2', _Digital Humanities 2012_, Hamburg (July 2012).
 
 ## Media &amp; Media Contributions
+* 'Championing open access with online digital history journal', _University of Sussex Press Office_, 9 October, 2018, <https://www.sussex.ac.uk/news/people?id=46353/>.
 * Adam Crymble, 'A Decade of Programming Historians', _Network in Canadian History &amp; Environment_, 23 March, 2018 ,<http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/>.
 * Anaclet Pons, "The Programming Historian en español", _Clionauta: Blog de historia_, June 14, 2017, <http://clionauta.hypotheses.org/16979>.
 * Seth Denbo, “Historian, Program! Self-Help for Digital Neophytes,” _Perspectives on History: The Newsmagazine of the American Historical Association_, May 2017, <https://www.historians.org/publications-and-directories/perspectives-on-history/may-2017/historian-program-self-help-digital-neophytes>.
 * Víctor Gayol, '*The Programming Historian* en español', *Blog de Humanidades Digitales*, March 17, 2017, <http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/>.
-
 
 ## Projects Using the Programming Historian
 * James Baker, Caitlin Moore, Ernesto Priego, Raquel Alegre, Jez Cope, Ludi Price, Owen Stephens, Daniel van Strien, Greg Wilson, '[Library Carpentry: software skills training for library professionals](https://www.liberquarterly.eu/articles/10176/)', _Liber Quarterly: The Journal of the Association of European Research Libraries_, 26(3) (2016).

@@ -1,0 +1,1610 @@
+Data File: CMS90CNT(Description Only Codebook)
+
+1) NAME
+NAME OF COUNTY
+
+
+2) STATE
+State Census Code
+
+
+3) COUNTY
+County Census Code
+
+
+4) FIPS
+Full FIPS Code
+
+
+5) CHTOTAL
+Total number of churches (1990)--ALL DENOMINATIONS
+
+
+6) TOTMEM
+Total Members (1990)--ALL DENOMINATIONS
+
+
+7) TOTADH
+Total Adherents (1990)--ALL DENOMINATIONS
+
+
+8) TOTPOP
+Total Population 1990
+
+
+9) ADVCC@C
+Number of Churches (1990)--ADVENT CHRISTIAN CHURCH--Denomination Code 1
+
+
+10) ADVCC@M
+Number of Members (1990)--ADVENT CHRISTIAN CHURCH--Denomination Code 1
+
+
+11) ADVCC@A
+Number of Adherents (1990)--ADVENT CHRISTIAN CHURCH--Denomination Code 1
+
+
+12) AMEZ@C
+Number of Churches (1990)--AFRICAN METHODIST EPISCOPAL ZION CHURCH--Denomination Code 5
+
+
+13) AMEZ@M
+Number of Members (1990)--AFRICAN METHODIST EPISCOPAL ZION CHURCH--Denomination Code 5
+
+
+14) AMEZ@A
+Number of Adherents (1990)--AFRICAN METHODIST EPISCOPAL ZION CHURCH--Denomination Code 5
+
+
+15) ALBORA@C
+Number of Churches (1990)--ALBANIAN ORTHODOX ARCHDIOCESE IN AMERICA--Denomination Code 7
+
+
+16) ALBORA@M
+Number of Members (1990)--ALBANIAN ORTHODOX ARCHDIOCESE IN AMERICA--Denomination Code 7
+
+
+17) ALBORA@A
+Number of Adherents (1990)--ALBANIAN ORTHODOX ARCHDIOCESE IN AMERICA--Denomination Code 7
+
+
+18) ALBOD@C
+Number of Churches (1990)--ALBANIAN ORTHODOX DIOCESE OF AMERICA--Denomination Code 9
+
+
+19) ALBOD@M
+Number of Members (1990)--ALBANIAN ORTHODOX DIOCESE OF AMERICA--Denomination Code 9
+
+
+20) ALBOD@A
+Number of Adherents (1990)--ALBANIAN ORTHODOX DIOCESE OF AMERICA--Denomination Code 9
+
+
+21) AWMC@C
+Number of Churches (1990)--ALLEGHENY WESLEYAN METHODIST CONNECTION--Denomination Code 11
+
+
+22) AWMC@M
+Number of Members (1990)--ALLEGHENY WESLEYAN METHODIST CONNECTION--Denomination Code 11
+
+
+23) AWMC@A
+Number of Adherents (1990)--ALLEGHENY WESLEYAN METHODIST CONNECTION--Denomination Code 11
+
+
+24) AMBAPT@C
+Number of Churches (1990)--AMERICAN BAPTIST CHURCHES IN THE U.S.A.--Denomination Code 19
+
+
+25) AMBAPT@M
+Number of Members (1990)--AMERICAN BAPTIST CHURCHES IN THE U.S.A.--Denomination Code 19
+
+
+26) AMBAPT@A
+Number of Adherents (1990)--AMERICAN BAPTIST CHURCHES IN THE U.S.A.--Denomination Code 19
+
+
+27) EASTOR@C
+Number of Churches (1990)--AMERICAN CARPATHO-RUSSIAN ORTHODOX GREEK CATHOLIC DIOCESE OF THE U.S.A.--Denomination Code 22
+
+
+28) EASTOR@M
+Number of Members (1990)--AMERICAN CARPATHO-RUSSIAN ORTHODOX GREEK CATHOLIC DIOCESE OF THE U.S.A.--Denomination Code 22
+
+
+29) EASTOR@A
+Number of Adherents (1990)--AMERICAN CARPATHO-RUSSIAN ORTHODOX GREEK CATHOLIC DIOCESE OF THE U.S.A.--Denomination Code 2
+
+
+30) APOSCC@C
+Number of Churches (1990)--APOSTOLIC CHRISTIAN CHURCH (NAZAREAN)--Denomination Code 39
+
+
+31) APOSCC@M
+Number of Members (1990)--APOSTOLIC CHRISTIAN CHURCH (NAZAREAN)--Denomination Code 39
+
+
+32) APOSCC@A
+Number of Adherents (1990)--APOSTOLIC CHRISTIAN CHURCH (NAZAREAN)--Denomination Code 39
+
+
+33) APOSCA@C
+Number of Churches (1990)--APOSTOLIC CHRISTIAN CHURCH OF AMERICA--Denomination Code 40
+
+
+34) APOSCA@M
+Number of Members (1990)--APOSTOLIC CHRISTIAN CHURCH OF AMERICA--Denomination Code 40
+
+
+35) APOSCA@A
+Number of Adherents (1990)--APOSTOLIC CHRISTIAN CHURCH OF AMERICA--Denomination Code 40
+
+
+36) APOSLU@C
+Number of Churches (1990)--APOSTOLIC LUTHERAN CHURCH OF AMERICA--Denomination Code 45
+
+
+37) APOSLU@M
+Number of Members (1990)--APOSTOLIC LUTHERAN CHURCH OF AMERICA--Denomination Code 45
+
+
+38) APOSLU@A
+Number of Adherents (1990)--APOSTOLIC LUTHERAN CHURCH OF AMERICA--Denomination Code 45
+
+
+39) ARAPOS@C
+Number of Churches (1990)--ARMENIAN APOSTOLIC CHURCH OF AMER EASTERN PRELACY--Denomination Code 49
+
+
+40) ARAPOS@M
+Number of Members (1990)--ARMENIAN APOSTOLIC CHURCH OF AMER EASTERN PRELACY--Denomination Code 49
+
+
+41) ARAPOS@A
+Number of Adherents (1990)--ARMENIAN APOSTOLIC CHURCH OF AMER EASTERN PRELACY--Denomination Code 49
+
+
+42) AOG@C
+Number of Churches (1990)--ASSEMBLIES OF GOD--Denomination Code 53
+
+
+43) AOG@M
+Number of Members (1990)--ASSEMBLIES OF GOD--Denomination Code 53
+
+
+44) AOG@A
+Number of Adherents (1990)--ASSEMBLIES OF GOD--Denomination Code 53
+
+
+45) ARPC@C
+Number of Churches (1990)--ASSOCIATE REFORMED PRESBYTERIAN CHURCH (GEN SYNOD)--Denomination Code 55
+
+
+46) ARPC@M
+Number of Members (1990)--ASSOCIATE REFORMED PRESBYTERIAN CHURCH (GEN SYNOD)--Denomination Code 55
+
+
+47) ARPC@A
+Number of Adherents (1990)--ASSOCIATE REFORMED PRESBYTERIAN CHURCH (GEN SYNOD)--Denomination Code 55
+
+
+48) BAPTGC@C
+Number of Churches (1990)--BAPTIST GENERAL CONFERENCE--Denomination Code 57
+
+
+49) BAPTGC@M
+Number of Members (1990)--BAPTIST GENERAL CONFERENCE--Denomination Code 57
+
+
+50) BAPTGC@A
+Number of Adherents (1990)--BAPTIST GENERAL CONFERENCE--Denomination Code 57
+
+
+51) BMAA@C
+Number of Churches (1990)--BAPTIST MISSIONARY ASSOCIATION OF AMERICA--Denomination Code 59
+
+
+52) BMAA@M
+Number of Members (1990)--BAPTIST MISSIONARY ASSOCIATION OF AMERICA--Denomination Code 59
+
+
+53) BMAA@A
+Number of Adherents (1990)--BAPTIST MISSIONARY ASSOCIATION OF AMERICA--Denomination Code 59
+
+
+54) BRNRVR@C
+Number of Churches (1990)--BARREN RIVER MISSIONARY BAPTISTS--Denomination Code 60
+
+
+55) BRNRVR@M
+Number of Members (1990)--BARREN RIVER MISSIONARY BAPTISTS--Denomination Code 60
+
+
+56) BRNRVR@A
+Number of Adherents (1990)--BARREN RIVER MISSIONARY BAPTISTS--Denomination Code 60
+
+
+57) BAMISH@C
+Number of Churches (1990)--BEACHY AMISH MENNONITE CHURCHES--Denomination Code 61
+
+
+58) BAMISH@M
+Number of Members (1990)--BEACHY AMISH MENNONITE CHURCHES--Denomination Code 61
+
+
+59) BAMISH@A
+Number of Adherents (1990)--BEACHY AMISH MENNONITE CHURCHES--Denomination Code 61
+
+
+60) BEREAN@C
+Number of Churches (1990)--BEREAN FUNDAMENTAL CHURCH--Denomination Code 63
+
+
+61) BEREAN@M
+Number of Members (1990)--BEREAN FUNDAMENTAL CHURCH--Denomination Code 63
+
+
+62) BEREAN@A
+Number of Adherents (1990)--BEREAN FUNDAMENTAL CHURCH--Denomination Code 63
+
+
+63) BIBLCC@C
+Number of Churches (1990)--BIBLE CHURCH OF CHRIST INC., THE--Denomination Code 66
+
+
+64) BIBLCC@M
+Number of Members (1990)--BIBLE CHURCH OF CHRIST INC., THE--Denomination Code 66
+
+
+65) BIBLCC@A
+Number of Adherents (1990)--BIBLE CHURCH OF CHRIST INC., THE--Denomination Code 66
+
+
+66) BRETAS@C
+Number of Churches (1990)--BRETHREN CHURCH (ASHLAND OHIO)--Denomination Code 71
+
+
+67) BRETAS@M
+Number of Members (1990)--BRETHREN CHURCH (ASHLAND OHIO)--Denomination Code 71
+
+
+68) BRETAS@A
+Number of Adherents (1990)--BRETHREN CHURCH (ASHLAND OHIO)--Denomination Code 71
+
+
+69) BRCC@C
+Number of Churches (1990)--BRETHREN IN CHRIST CHURCH--Denomination Code 75
+
+
+70) BRCC@M
+Number of Members (1990)--BRETHREN IN CHRIST CHURCH--Denomination Code 75
+
+
+71) BRCC@A
+Number of Adherents (1990)--BRETHREN IN CHRIST CHURCH--Denomination Code 75
+
+
+72) BYELOR@C
+Number of Churches (1990)--BYELORUSSIAN COUNCIL OF ORTHODOX CHURCHES IN NORTH AMERICA--Denomination Code 80
+
+
+73) BYELOR@M
+Number of Members (1990)--BYELORUSSIAN COUNCIL OF ORTHODOX CHURCHES IN NORTH AMERICA--Denomination Code 80
+
+
+74) BYELOR@A
+Number of Adherents (1990)--BYELORUSSIAN COUNCIL OF ORTHODOX CHURCHES IN NORTH AMERICA--Denomination Code 80
+
+
+75) CATHOL@C
+Number of Churches (1990)--CATHOLIC CHURCH--Denomination Code 81
+
+
+76) CATHOL@A
+Number of Adherents (1990)--CATHOLIC CHURCH--Denomination Code 81
+
+
+77) CEBAPT@C
+Number of Churches (1990)--CENTRAL BAPTISTS--Denomination Code 82
+
+
+78) CEBAPT@M
+Number of Members (1990)--CENTRAL BAPTISTS--Denomination Code 82
+
+
+79) CEBAPT@A
+Number of Adherents (1990)--CENTRAL BAPTISTS--Denomination Code 82
+
+
+80) CHRCC@C
+Number of Churches (1990)--CHRIST CATHOLIC CHURCH--Denomination Code 83
+
+
+81) CHRCC@M
+Number of Members (1990)--CHRIST CATHOLIC CHURCH--Denomination Code 83
+
+
+82) CHRCC@A
+Number of Adherents (1990)--CHRIST CATHOLIC CHURCH--Denomination Code 83
+
+
+83) CMALLI@C
+Number of Churches (1990)--CHRISTIAN AND MISSIONARY ALLIANCE, THE--Denomination Code 89
+
+
+84) CMALLI@M
+Number of Members (1990)--CHRISTIAN AND MISSIONARY ALLIANCE, THE--Denomination Code 89
+
+
+85) CMALLI@A
+Number of Adherents (1990)--CHRISTIAN AND MISSIONARY ALLIANCE, THE--Denomination Code 89
+
+
+86) DISCC@C
+Number of Churches (1990)--CHRISTIAN CHURCH (DISCIPLES OF CHRIST)--Denomination Code 93
+
+
+87) DISCC@M
+Number of Members (1990)--CHRISTIAN CHURCH (DISCIPLES OF CHRIST)--Denomination Code 93
+
+
+88) DISCC@A
+Number of Adherents (1990)--CHRISTIAN CHURCH (DISCIPLES OF CHRIST)--Denomination Code 93
+
+
+89) CCCC@C
+Number of Churches (1990)--CHRISTIAN CHURCHES AND CHURCHES OF CHRIST--Denomination Code 97
+
+
+90) CCCC@M
+Number of Members (1990)--CHRISTIAN CHURCHES AND CHURCHES OF CHRIST--Denomination Code 97
+
+
+91) CCCC@A
+Number of Adherents (1990)--CHRISTIAN CHURCHES AND CHURCHES OF CHRIST--Denomination Code 97
+
+
+92) CHRREF@C
+Number of Churches (1990)--CHRISTIAN REFORMED CHURCH--Denomination Code 105
+
+
+93) CHRREF@M
+Number of Members (1990)--CHRISTIAN REFORMED CHURCH--Denomination Code 105
+
+
+94) CHRREF@A
+Number of Adherents (1990)--CHRISTIAN REFORMED CHURCH--Denomination Code 105
+
+
+95) CCSCI@C
+Number of Churches (1990)--CHURCH OF CHRIST SCIENTIST--Denomination Code 111
+
+
+96) CCSCI@M
+Number of Members (1990)--CHURCH OF CHRIST SCIENTIST--Denomination Code 111
+
+
+97) CCSCI@A
+Number of Adherents (1990)--CHURCH OF CHRIST SCIENTIST--Denomination Code 111
+
+
+98) CGGCA@C
+Number of Churches (1990)--CHURCH OF GOD GENERAL CONFERENCE (ABRAHAMIC FAITH) OREGON ILL.--Denomination Code 121
+
+
+99) CGGCA@M
+Number of Members (1990)--CHURCH OF GOD GENERAL CONFERENCE (ABRAHAMIC FAITH) OREGON ILL.--Denomination Code 121
+
+
+100) CGGCA@A
+Number of Adherents (1990)--CHURCH OF GOD GENERAL CONFERENCE (ABRAHAMIC FAITH) OREGON ILL.--Denomination Code 121
+
+
+101) CGIN@C
+Number of Churches (1990)--CHURCH OF GOD (ANDERSON INDIANA)--Denomination Code 123
+
+
+102) CGIN@M
+Number of Members (1990)--CHURCH OF GOD (ANDERSON INDIANA)--Denomination Code 123
+
+
+103) CGIN@A
+Number of Adherents (1990)--CHURCH OF GOD (ANDERSON INDIANA)--Denomination Code 123
+
+
+104) CGTN@C
+Number of Churches (1990)--CHURCH OF GOD (CLEVELAND TENNESSEE)--Denomination Code 127
+
+
+105) CGTN@M
+Number of Members (1990)--CHURCH OF GOD (CLEVELAND TENNESSEE)--Denomination Code 127
+
+
+106) CGTN@A
+Number of Adherents (1990)--CHURCH OF GOD (CLEVELAND TENNESSEE)--Denomination Code 127
+
+
+107) CGOD7@C
+Number of Churches (1990)--CHURCH OF GOD (SEVENTH DAY) DENVER COLORADO THE--Denomination Code 133
+
+
+108) CGOD7@M
+Number of Members (1990)--CHURCH OF GOD (SEVENTH DAY) DENVER COLORADO THE--Denomination Code 133
+
+
+109) CGOD7@A
+Number of Adherents (1990)--CHURCH OF GOD (SEVENTH DAY) DENVER COLORADO THE--Denomination Code 133
+
+
+110) CGODMN@C
+Number of Churches (1990)--CHURCH OF GOD IN CHRIST (MENNONITE)--Denomination Code 143
+
+
+111) CGODMN@M
+Number of Members (1990)--CHURCH OF GOD IN CHRIST (MENNONITE)--Denomination Code 143
+
+
+112) CGODMN@A
+Number of Adherents (1990)--CHURCH OF GOD IN CHRIST (MENNONITE)--Denomination Code 143
+
+
+113) CGP@C
+Number of Churches (1990)--CHURCH OF GOD OF PROPHECY--Denomination Code 145
+
+
+114) CGP@M
+Number of Members (1990)--CHURCH OF GOD OF PROPHECY--Denomination Code 145
+
+
+115) CGP@A
+Number of Adherents (1990)--CHURCH OF GOD OF PROPHECY--Denomination Code 145
+
+
+116) CGMA@C
+Number of Churches (1990)--CHURCH OF GOD OF THE MOUNTAIN ASSEMBLY INC.--Denomination Code 146
+
+
+117) CGMA@M
+Number of Members (1990)--CHURCH OF GOD OF THE MOUNTAIN ASSEMBLY INC.--Denomination Code 146
+
+
+118) CGMA@A
+Number of Adherents (1990)--CHURCH OF GOD OF THE MOUNTAIN ASSEMBLY INC.--Denomination Code 146
+
+
+119) LDS@C
+Number of Churches (1990)--CHURCH OF JESUS CHRIST OF LATTER-DAY SAINTS, THE--Denomination Code 151
+
+
+120) LDS@A
+Number of Adherents (1990)--CHURCH OF JESUS CHRIST OF LATTER-DAY SAINTS, THE--Denomination Code 151
+
+
+121) COB@C
+Number of Churches (1990)--CHURCH OF THE BRETHREN--Denomination Code 157
+
+
+122) COB@M
+Number of Members (1990)--CHURCH OF THE BRETHREN--Denomination Code 157
+
+
+123) COB@A
+Number of Adherents (1990)--CHURCH OF THE BRETHREN--Denomination Code 157
+
+
+124) LUBRET@C
+Number of Churches (1990)--CHURCH OF THE LUTHERAN BRETHREN OF AMERICA--Denomination Code 163
+
+
+125) LUBRET@M
+Number of Members (1990)--CHURCH OF THE LUTHERAN BRETHREN OF AMERICA--Denomination Code 163
+
+
+126) LUBRET@A
+Number of Adherents (1990)--CHURCH OF THE LUTHERAN BRETHREN OF AMERICA--Denomination Code 163
+
+
+127) LUCONF@C
+Number of Churches (1990)--CHURCH OF THE LUTHERAN CONFESSION--Denomination Code 164
+
+
+128) LUCONF@M
+Number of Members (1990)--CHURCH OF THE LUTHERAN CONFESSION--Denomination Code 164
+
+
+129) LUCONF@A
+Number of Adherents (1990)--CHURCH OF THE LUTHERAN CONFESSION--Denomination Code 164
+
+
+130) NAZ@C
+Number of Churches (1990)--CHURCH OF THE NAZARENE--Denomination Code 165
+
+
+131) NAZ@M
+Number of Members (1990)--CHURCH OF THE NAZARENE--Denomination Code 165
+
+
+132) NAZ@A
+Number of Adherents (1990)--CHURCH OF THE NAZARENE--Denomination Code 165
+
+
+133) CCHRIS@C
+Number of Churches (1990)--CHURCHES OF CHRIST--Denomination Code 167
+
+
+134) CCHRIS@M
+Number of Members (1990)--CHURCHES OF CHRIST--Denomination Code 167
+
+
+135) CCHRIS@A
+Number of Adherents (1990)--CHURCHES OF CHRIST--Denomination Code 167
+
+
+136) CGGC@C
+Number of Churches (1990)--CHURCHES OF GOD GENERAL CONFERENCE--Denomination Code 171
+
+
+137) CGGC@M
+Number of Members (1990)--CHURCHES OF GOD GENERAL CONFERENCE--Denomination Code 171
+
+
+138) CGGC@A
+Number of Adherents (1990)--CHURCHES OF GOD GENERAL CONFERENCE--Denomination Code 171
+
+
+139) NACCC@C
+Number of Churches (1990)--CONGREGATIONAL CHRISTIAN CHURCHES NATIONAL ASSOC OF--Denomination Code 175
+
+
+140) NACCC@M
+Number of Members (1990)--CONGREGATIONAL CHRISTIAN CHURCHES NATIONAL ASSOC OF--Denomination Code 175
+
+
+141) NACCC@A
+Number of Adherents (1990)--CONGREGATIONAL CHRISTIAN CHURCHES NATIONAL ASSOC OF--Denomination Code 175
+
+
+142) CCCNOT@C
+Number of Churches (1990)--CONGREGATIONAL CHRISTIAN CHURCHES ADDITIONAL--Denomination Code 176
+
+
+143) CCCNOT@M
+Number of Members (1990)--CONGREGATIONAL CHRISTIAN CHURCHES ADDITIONAL--Denomination Code 176
+
+
+144) CCCNOT@A
+Number of Adherents (1990)--CONGREGATIONAL CHRISTIAN CHURCHES ADDITIONAL--Denomination Code 176
+
+
+145) CBAPT@C
+Number of Churches (1990)--CONSERVATIVE BAPTIST ASSOCIATION OF AMERICA--Denomination Code 179
+
+
+146) CBAPT@M
+Number of Members (1990)--CONSERVATIVE BAPTIST ASSOCIATION OF AMERICA--Denomination Code 179
+
+
+147) CBAPT@A
+Number of Adherents (1990)--CONSERVATIVE BAPTIST ASSOCIATION OF AMERICA--Denomination Code 179
+
+
+148) CCONG@C
+Number of Churches (1990)--CONSERVATIVE CONGREGATIONAL CHRISTIAN CONFERENCE--Denomination Code 181
+
+
+149) CCONG@M
+Number of Members (1990)--CONSERVATIVE CONGREGATIONAL CHRISTIAN CONFERENCE--Denomination Code 181
+
+
+150) CCONG@A
+Number of Adherents (1990)--CONSERVATIVE CONGREGATIONAL CHRISTIAN CONFERENCE--Denomination Code 181
+
+
+151) CPC@C
+Number of Churches (1990)--CUMBERLAND PRESBYTERIAN CHURCH--Denomination Code 185
+
+
+152) CPC@M
+Number of Members (1990)--CUMBERLAND PRESBYTERIAN CHURCH--Denomination Code 185
+
+
+153) CPC@A
+Number of Adherents (1990)--CUMBERLAND PRESBYTERIAN CHURCH--Denomination Code 185
+
+
+154) DUCKR@C
+Number of Churches (1990)--DUCK RIVER AND KINDRED BAPTISTS ASSOCIATIONS--Denomination Code 189
+
+
+155) DUCKR@M
+Number of Members (1990)--DUCK RIVER AND KINDRED BAPTISTS ASSOCIATIONS--Denomination Code 189
+
+
+156) DUCKR@A
+Number of Adherents (1990)--DUCK RIVER AND KINDRED BAPTISTS ASSOCIATIONS--Denomination Code 189
+
+
+157) EBA@C
+Number of Churches (1990)--ENTERPRISE BAPTIST--Denomination Code 191
+
+
+158) EBA@M
+Number of Members (1990)--ENTERPRISE BAPTIST--Denomination Code 191
+
+
+159) EBA@A
+Number of Adherents (1990)--ENTERPRISE BAPTIST--Denomination Code 191
+
+
+160) EPISC@C
+Number of Churches (1990)--EPISCOPAL CHURCH, THE--Denomination Code 193
+
+
+161) EPISC@M
+Number of Members (1990)--EPISCOPAL CHURCH, THE--Denomination Code 193
+
+
+162) EPISC@A
+Number of Adherents (1990)--EPISCOPAL CHURCH, THE--Denomination Code 193
+
+
+163) EELUTH@C
+Number of Churches (1990)--ESTONIAN EVANGELICAL LUTHERAN CHURCH--Denomination Code 195
+
+
+164) EELUTH@M
+Number of Members (1990)--ESTONIAN EVANGELICAL LUTHERAN CHURCH--Denomination Code 195
+
+
+165) EELUTH@A
+Number of Adherents (1990)--ESTONIAN EVANGELICAL LUTHERAN CHURCH--Denomination Code 195
+
+
+166) EVANCC@C
+Number of Churches (1990)--EVANGELICAL CONGREGATIONAL CHURCH--Denomination Code 199
+
+
+167) EVANCC@M
+Number of Members (1990)--EVANGELICAL CONGREGATIONAL CHURCH--Denomination Code 199
+
+
+168) EVANCC@A
+Number of Adherents (1990)--EVANGELICAL CONGREGATIONAL CHURCH--Denomination Code 199
+
+
+169) EVFREE@C
+Number of Churches (1990)--EVANGELICAL FREE CHURCH OF AMERICA, THE--Denomination Code 203
+
+
+170) EVFREE@M
+Number of Members (1990)--EVANGELICAL FREE CHURCH OF AMERICA, THE--Denomination Code 203
+
+
+171) EVFREE@A
+Number of Adherents (1990)--EVANGELICAL FREE CHURCH OF AMERICA, THE--Denomination Code 203
+
+
+172) ELCA@C
+Number of Churches (1990)--EVANGELICAL LUTHERAN CHURCH IN AMERICA--Denomination Code 207
+
+
+173) ELCA@M
+Number of Members (1990)--EVANGELICAL LUTHERAN CHURCH IN AMERICA--Denomination Code 207
+
+
+174) ELCA@A
+Number of Adherents (1990)--EVANGELICAL LUTHERAN CHURCH IN AMERICA--Denomination Code 207
+
+
+175) ELSYN@C
+Number of Churches (1990)--EVANGELICAL LUTHERAN SYNOD--Denomination Code 209
+
+
+176) ELSYN@M
+Number of Members (1990)--EVANGELICAL LUTHERAN SYNOD--Denomination Code 209
+
+
+177) ELSYN@A
+Number of Adherents (1990)--EVANGELICAL LUTHERAN SYNOD--Denomination Code 209
+
+
+178) EVMENN@C
+Number of Churches (1990)--EVANGELICAL MENNONITE BRETHREN CONFERENCE--Denomination Code 211
+
+
+179) EVMENN@M
+Number of Members (1990)--EVANGELICAL MENNONITE BRETHREN CONFERENCE--Denomination Code 211
+
+
+180) EVMENN@A
+Number of Adherents (1990)--EVANGELICAL MENNONITE BRETHREN CONFERENCE--Denomination Code 211
+
+
+181) EMENN@C
+Number of Churches (1990)--EVANGELICAL MENNONITE CHURCH INC.--Denomination Code 213
+
+
+182) EMENN@M
+Number of Members (1990)--EVANGELICAL MENNONITE CHURCH INC.--Denomination Code 213
+
+
+183) EMENN@A
+Number of Adherents (1990)--EVANGELICAL MENNONITE CHURCH INC.--Denomination Code 213
+
+
+184) EVMETH@C
+Number of Churches (1990)--EVANGELICAL METHODIST CHURCH--Denomination Code 215
+
+
+185) EVMETH@M
+Number of Members (1990)--EVANGELICAL METHODIST CHURCH--Denomination Code 215
+
+
+186) EVMETH@A
+Number of Adherents (1990)--EVANGELICAL METHODIST CHURCH--Denomination Code 215
+
+
+187) EVPC@C
+Number of Churches (1990)--EVANGELICAL PRESBYTERIAN CHURCH--Denomination Code 216
+
+
+188) EVPC@M
+Number of Members (1990)--EVANGELICAL PRESBYTERIAN CHURCH--Denomination Code 216
+
+
+189) EVPC@A
+Number of Adherents (1990)--EVANGELICAL PRESBYTERIAN CHURCH--Denomination Code 216
+
+
+190) FIREBP@C
+Number of Churches (1990)--FIRE BAPTIZED HOLINESS CHURCH (WESLEYAN), THE--Denomination Code 217
+
+
+191) FIREBP@M
+Number of Members (1990)--FIRE BAPTIZED HOLINESS CHURCH (WESLEYAN), THE--Denomination Code 217
+
+
+192) FIREBP@A
+Number of Adherents (1990)--FIRE BAPTIZED HOLINESS CHURCH (WESLEYAN), THE--Denomination Code 217
+
+
+193) FREELU@C
+Number of Churches (1990)--FREE LUTHERAN CONGREGATIONS, THE ASSOCIATION OF--Denomination Code 220
+
+
+194) FREELU@M
+Number of Members (1990)--FREE LUTHERAN CONGREGATIONS, THE ASSOCIATION OF--Denomination Code 220
+
+
+195) FREELU@A
+Number of Adherents (1990)--FREE LUTHERAN CONGREGATIONS, THE ASSOCIATION OF--Denomination Code 220
+
+
+196) FMETH@C
+Number of Churches (1990)--FREE METHODIST CHURCH OF NORTH AMERICA--Denomination Code 221
+
+
+197) FMETH@M
+Number of Members (1990)--FREE METHODIST CHURCH OF NORTH AMERICA--Denomination Code 221
+
+
+198) FMETH@A
+Number of Adherents (1990)--FREE METHODIST CHURCH OF NORTH AMERICA--Denomination Code 221
+
+
+199) FWBAP@C
+Number of Churches (1990)--FREE WILL BAPTIST NATIONAL ASSOCIATION OF INC.--Denomination Code 223
+
+
+200) FWBAP@M
+Number of Members (1990)--FREE WILL BAPTIST NATIONAL ASSOCIATION OF INC.--Denomination Code 223
+
+
+201) FWBAP@A
+Number of Adherents (1990)--FREE WILL BAPTIST NATIONAL ASSOCIATION OF INC.--Denomination Code 223
+
+
+202) FRIEND@C
+Number of Churches (1990)--FRIENDS--Denomination Code 226
+
+
+203) FRIEND@M
+Number of Members (1990)--FRIENDS--Denomination Code 226
+
+
+204) FRIEND@A
+Number of Adherents (1990)--FRIENDS--Denomination Code 226
+
+
+205) FUMETH@C
+Number of Churches (1990)--FUNDAMENTAL METHODIST CHURCH INC.--Denomination Code 230
+
+
+206) FUMETH@M
+Number of Members (1990)--FUNDAMENTAL METHODIST CHURCH INC.--Denomination Code 230
+
+
+207) FUMETH@A
+Number of Adherents (1990)--FUNDAMENTAL METHODIST CHURCH INC.--Denomination Code 230
+
+
+208) GCMENN@C
+Number of Churches (1990)--GENERAL CONFERENCE OF MENNONITE BRETHREN CHURCHES--Denomination Code 237
+
+
+209) GCMENN@M
+Number of Members (1990)--GENERAL CONFERENCE OF MENNONITE BRETHREN CHURCHES--Denomination Code 237
+
+
+210) GCMENN@A
+Number of Adherents (1990)--GENERAL CONFERENCE OF MENNONITE BRETHREN CHURCHES--Denomination Code 237
+
+
+211) GENSIX@C
+Number of Churches (1990)--GENERAL SIX PRINCIPLE BAPTISTS--Denomination Code 241
+
+
+212) GENSIX@M
+Number of Members (1990)--GENERAL SIX PRINCIPLE BAPTISTS--Denomination Code 241
+
+
+213) GENSIX@A
+Number of Adherents (1990)--GENERAL SIX PRINCIPLE BAPTISTS--Denomination Code 241
+
+
+214) GORTH@C
+Number of Churches (1990)--GREEK ORTHODOX ARCHDIOCESE OF NORTH AND SOUTH AMERICA--Denomination Code 246
+
+
+215) GORTH@M
+Number of Members (1990)--GREEK ORTHODOX ARCHDIOCESE OF NORTH AND SOUTH AMERICA--Denomination Code 246
+
+
+216) GORTH@A
+Number of Adherents (1990)--GREEK ORTHODOX ARCHDIOCESE OF NORTH AND SOUTH AMERICA--Denomination Code 246
+
+
+217) APCATH@C
+Number of Churches (1990)--HOLY APOSTOLIC CATHOLIC ASSYRIAN CHURCH OF THE EAST--Denomination Code 249
+
+
+218) APCATH@M
+Number of Members (1990)--HOLY APOSTOLIC CATHOLIC ASSYRIAN CHURCH OF THE EAST--Denomination Code 249
+
+
+219) APCATH@A
+Number of Adherents (1990)--HOLY APOSTOLIC CATHOLIC ASSYRIAN CHURCH OF THE EAST--Denomination Code 249
+
+
+220) HUTTER@C
+Number of Churches (1990)--HUTTERIAN BRETHREN--Denomination Code 257
+
+
+221) HUTTER@A
+Number of Adherents (1990)--HUTTERIAN BRETHREN--Denomination Code 257
+
+
+222) IFCA@C
+Number of Churches (1990)--INDEPENDENT FUNDAMENTAL CHURCHES OF AMERICA--Denomination Code 259
+
+
+223) IFCA@M
+Number of Members (1990)--INDEPENDENT FUNDAMENTAL CHURCHES OF AMERICA--Denomination Code 259
+
+
+224) IFCA@A
+Number of Adherents (1990)--INDEPENDENT FUNDAMENTAL CHURCHES OF AMERICA--Denomination Code 259
+
+
+225) FOURSQ@C
+Number of Churches (1990)--INTERNATIONAL CHURCH OF THE FOURSQUARE GOSPEL--Denomination Code 263
+
+
+226) FOURSQ@M
+Number of Members (1990)--INTERNATIONAL CHURCH OF THE FOURSQUARE GOSPEL--Denomination Code 263
+
+
+227) FOURSQ@A
+Number of Adherents (1990)--INTERNATIONAL CHURCH OF THE FOURSQUARE GOSPEL--Denomination Code 263
+
+
+228) IPENT@C
+Number of Churches (1990)--INTERNATIONAL PENTECOSTAL CHURCH OF CHRIST--Denomination Code 265
+
+
+229) IPENT@M
+Number of Members (1990)--INTERNATIONAL PENTECOSTAL CHURCH OF CHRIST--Denomination Code 265
+
+
+230) IPENT@A
+Number of Adherents (1990)--INTERNATIONAL PENTECOSTAL CHURCH OF CHRIST--Denomination Code 265
+
+
+231) IMBA@C
+Number of Churches (1990)--INTERSTATE & FOREIGN LANDMARK MISSIONARY BAPTISTS--Denomination Code 266
+
+
+232) IMBA@M
+Number of Members (1990)--INTERSTATE &  FOREIGN LANDMARK MISSIONARY BAPTISTS--Denomination Code 266
+
+
+233) IMBA@A
+Number of Adherents (1990)--INTERSTATE &  FOREIGN LANDMARK MISSIONARY BAPTISTS--Denomination Code 266
+
+
+234) JASPER@C
+Number of Churches (1990)--JASPER AND PLEASANT VALLEY BAPTISTS--Denomination Code 269
+
+
+235) JASPER@M
+Number of Members (1990)--JASPER AND PLEASANT VALLEY BAPTISTS--Denomination Code 269
+
+
+236) JASPER@A
+Number of Adherents (1990)--JASPER AND PLEASANT VALLEY BAPTISTS--Denomination Code 269
+
+
+237) LATVLU@C
+Number of Churches (1990)--LATVIAN EVANGELICAL LUTHERAN CHURCH IN AMERICA, THE--Denomination Code 274
+
+
+238) LATVLU@M
+Number of Members (1990)--LATVIAN EVANGELICAL LUTHERAN CHURCH IN AMERICA, THE--Denomination Code 274
+
+
+239) LATVLU@A
+Number of Adherents (1990)--LATVIAN EVANGELICAL LUTHERAN CHURCH IN AMERICA, THE--Denomination Code 274
+
+
+240) LCMS@C
+Number of Churches (1990)--LUTHERAN CHURCH - MISSOURI SYNOD, THE--Denomination Code 283
+
+
+241) LCMS@M
+Number of Members (1990)--LUTHERAN CHURCH - MISSOURI SYNOD, THE--Denomination Code 283
+
+
+242) LCMS@A
+Number of Adherents (1990)--LUTHERAN CHURCH - MISSOURI SYNOD, THE--Denomination Code 283
+
+
+243) AALUTH@C
+Number of Churches (1990)--LUTHERAN CHURCHES, THE AMERICAN ASSOCIATION OF--Denomination Code 284
+
+
+244) AALUTH@M
+Number of Members (1990)--LUTHERAN CHURCHES, THE AMERICAN ASSOCIATION OF--Denomination Code 284
+
+
+245) AALUTH@A
+Number of Adherents (1990)--LUTHERAN CHURCHES, THE AMERICAN ASSOCIATION OF--Denomination Code 284
+
+
+246) MENNT@C
+Number of Churches (1990)--MENNONITE CHURCH--Denomination Code 285
+
+
+247) MENNT@M
+Number of Members (1990)--MENNONITE CHURCH--Denomination Code 285
+
+
+248) MENNT@A
+Number of Adherents (1990)--MENNONITE CHURCH--Denomination Code 285
+
+
+249) EPMENN@C
+Number of Churches (1990)--EASTERN PENNSYLVANIA MENNONITE CHURCH--Denomination Code 286
+
+
+250) EPMENN@M
+Number of Members (1990)--EASTERN PENNSYLVANIA MENNONITE CHURCH--Denomination Code 286
+
+
+251) EPMENN@A
+Number of Adherents (1990)--EASTERN PENNSYLVANIA MENNONITE CHURCH--Denomination Code 286
+
+
+252) MENNGC@C
+Number of Churches (1990)--MENNONITE CHURCH THE GENERAL CONFERENCE--Denomination Code 287
+
+
+253) MENNGC@M
+Number of Members (1990)--MENNONITE CHURCH THE GENERAL CONFERENCE--Denomination Code 287
+
+
+254) MENNGC@A
+Number of Adherents (1990)--MENNONITE CHURCH THE GENERAL CONFERENCE--Denomination Code 287
+
+
+255) NHBAPT@C
+Number of Churches (1990)--NEW HOPE BAPTIST ASSOCIATION--Denomination Code 289
+
+
+256) NHBAPT@M
+Number of Members (1990)--NEW HOPE BAPTIST ASSOCIATION--Denomination Code 289
+
+
+257) NHBAPT@A
+Number of Adherents (1990)--NEW HOPE BAPTIST ASSOCIATION--Denomination Code 289
+
+
+258) MISSNC@C
+Number of Churches (1990)--MISSIONARY CHURCH, THE--Denomination Code 291
+
+
+259) MISSNC@M
+Number of Members (1990)--MISSIONARY CHURCH, THE--Denomination Code 291
+
+
+260) MISSNC@A
+Number of Adherents (1990)--MISSIONARY CHURCH, THE--Denomination Code 291
+
+
+261) MORAVK@C
+Number of Churches (1990)--MORAVIAN CHURCH IN AMERICA ALASKA PROVINCE--Denomination Code 292
+
+
+262) MORAVK@M
+Number of Members (1990)--MORAVIAN CHURCH IN AMERICA ALASKA PROVINCE--Denomination Code 292
+
+
+263) MORAVK@A
+Number of Adherents (1990)--MORAVIAN CHURCH IN AMERICA ALASKA PROVINCE--Denomination Code 292
+
+
+264) MORAVN@C
+Number of Churches (1990)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) NO PROV--Denomination Code 293
+
+
+265) MORAVN@M
+Number of Members (1990)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) NO PROV--Denomination Code 293
+
+
+266) MORAVN@A
+Number of Adherents (1990)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) NO PROV--Denomination Code 293
+
+
+267) MORAVS@C
+Number of Churches (1990)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) SO PROV--Denomination Code 295
+
+
+268) MORAVS@M
+Number of Members (1990)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) SO PROV--Denomination Code 295
+
+
+269) MORAVS@A
+Number of Adherents (1990)--MORAVIAN CHURCH IN AMER (UNITAS FRATRUM) SO PROV--Denomination Code 295
+
+
+270) MWCCF@C
+Number of Churches (1990)--MIDWEST CONGREGATIONAL CHRISTIAN FELLOWSHIP--Denomination Code 296
+
+
+271) MWCCF@M
+Number of Members (1990)--MIDWEST CONGREGATIONAL CHRISTIAN FELLOWSHIP--Denomination Code 296
+
+
+272) MWCCF@A
+Number of Adherents (1990)--MIDWEST CONGREGATIONAL CHRISTIAN FELLOWSHIP--Denomination Code 296
+
+
+273) NETHRE@C
+Number of Churches (1990)--NETHERLANDS REFORMED CONGREGATIONS--Denomination Code 307
+
+
+274) NETHRE@M
+Number of Members (1990)--NETHERLANDS REFORMED CONGREGATIONS--Denomination Code 307
+
+
+275) NETHRE@A
+Number of Adherents (1990)--NETHERLANDS REFORMED CONGREGATIONS--Denomination Code 307
+
+
+276) NABC@C
+Number of Churches (1990)--NORTH AMERICAN BAPTIST CONFERENCE--Denomination Code 313
+
+
+277) NABC@M
+Number of Members (1990)--NORTH AMERICAN BAPTIST CONFERENCE--Denomination Code 313
+
+
+278) NABC@A
+Number of Adherents (1990)--NORTH AMERICAN BAPTIST CONFERENCE--Denomination Code 313
+
+
+279) OLDMBA@C
+Number of Churches (1990)--"OLD" MISSIONARY BAPTISTS ASSOCIATION--Denomination Code 320
+
+
+280) OLDMBA@M
+Number of Members (1990)--"OLD" MISSIONARY BAPTISTS ASSOCIATION--Denomination Code 320
+
+
+281) OLDMBA@A
+Number of Adherents (1990)--"OLD" MISSIONARY BAPTISTS ASSOCIATION--Denomination Code 320
+
+
+282) OAMISH@C
+Number of Churches (1990)--OLD ORDER AMISH CHURCH--Denomination Code 323
+
+
+283) OAMISH@A
+Number of Adherents (1990)--OLD ORDER AMISH CHURCH--Denomination Code 323
+
+
+284) OLDRB@C
+Number of Churches (1990)--OLD ORDER RIVER BRETHREN--Denomination Code 324
+
+
+285) OLDRB@M
+Number of Members (1990)--OLD ORDER RIVER BRETHREN--Denomination Code 324
+
+
+286) OLDRB@A
+Number of Adherents (1990)--OLD ORDER RIVER BRETHREN--Denomination Code 324
+
+
+287) ORBAP@C
+Number of Churches (1990)--OLD REGULAR BAPTISTS--Denomination Code 325
+
+
+288) ORBAP@M
+Number of Members (1990)--OLD REGULAR BAPTISTS--Denomination Code 325
+
+
+289) ORBAP@A
+Number of Adherents (1990)--OLD REGULAR BAPTISTS--Denomination Code 325
+
+
+290) OPBIBL@C
+Number of Churches (1990)--OPEN BIBLE STANDARD CHURCHES INC.--Denomination Code 329
+
+
+291) OPBIBL@M
+Number of Members (1990)--OPEN BIBLE STANDARD CHURCHES INC.--Denomination Code 329
+
+
+292) OPBIBL@A
+Number of Adherents (1990)--OPEN BIBLE STANDARD CHURCHES INC.--Denomination Code 329
+
+
+293) ORTHAM@C
+Number of Churches (1990)--ORTHODOX CHURCH IN AMERICA--Denomination Code 331
+
+
+294) ORTHAM@M
+Number of Members (1990)--ORTHODOX CHURCH IN AMERICA--Denomination Code 331
+
+
+295) ORTHAM@A
+Number of Adherents (1990)--ORTHODOX CHURCH IN AMERICA--Denomination Code 331
+
+
+296) PENTCH@C
+Number of Churches (1990)--PENTECOSTAL CHURCH OF GOD--Denomination Code 339
+
+
+297) PENTCH@M
+Number of Members (1990)--PENTECOSTAL CHURCH OF GOD--Denomination Code 339
+
+
+298) PENTCH@A
+Number of Adherents (1990)--PENTECOSTAL CHURCH OF GOD--Denomination Code 339
+
+
+299) PENTHO@C
+Number of Churches (1990)--PENTECOSTAL HOLINESS CHURCH INC.--Denomination Code 349
+
+
+300) PENTHO@M
+Number of Members (1990)--PENTECOSTAL HOLINESS CHURCH INC.--Denomination Code 349
+
+
+301) PENTHO@A
+Number of Adherents (1990)--PENTECOSTAL HOLINESS CHURCH INC.--Denomination Code 349
+
+
+302) CHRBRE@C
+Number of Churches (1990)--CHRISTIAN (PLYMOUTH) BRETHREN--Denomination Code 353
+
+
+303) CHRBRE@M
+Number of Members (1990)--CHRISTIAN (PLYMOUTH) BRETHREN--Denomination Code 353
+
+
+304) CHRBRE@A
+Number of Adherents (1990)--CHRISTIAN (PLYMOUTH) BRETHREN--Denomination Code 353
+
+
+305) PCUSA@C
+Number of Churches (1990)--PRESBYTERIAN CHURCH (U.S.A.)--Denomination Code 355
+
+
+306) PCUSA@M
+Number of Members (1990)--PRESBYTERIAN CHURCH (U.S.A.)--Denomination Code 355
+
+
+307) PCUSA@A
+Number of Adherents (1990)--PRESBYTERIAN CHURCH (U.S.A.)--Denomination Code 355
+
+
+308) PCIA@C
+Number of Churches (1990)--PRESBYTERIAN CHURCH IN AMERICA--Denomination Code 356
+
+
+309) PCIA@M
+Number of Members (1990)--PRESBYTERIAN CHURCH IN AMERICA--Denomination Code 356
+
+
+310) PCIA@A
+Number of Adherents (1990)--PRESBYTERIAN CHURCH IN AMERICA--Denomination Code 356
+
+
+311) PADVCC@C
+Number of Churches (1990)--PRIMITIVE ADVENT CHRISTIAN CHURCH--Denomination Code 359
+
+
+312) PADVCC@M
+Number of Members (1990)--PRIMITIVE ADVENT CHRISTIAN CHURCH--Denomination Code 359
+
+
+313) PADVCC@A
+Number of Adherents (1990)--PRIMITIVE ADVENT CHRISTIAN CHURCH--Denomination Code 359
+
+
+314) PBA@C
+Number of Churches (1990)--PRIMITIVE BAPTISTS ASSOCIATIONS--Denomination Code 361
+
+
+315) PBA@M
+Number of Members (1990)--PRIMITIVE BAPTISTS ASSOCIATIONS--Denomination Code 361
+
+
+316) PBA@A
+Number of Adherents (1990)--PRIMITIVE BAPTISTS ASSOCIATIONS--Denomination Code 361
+
+
+317) PRMETH@C
+Number of Churches (1990)--PRIMITIVE METHODIST CHURCH U.S.A.--Denomination Code 363
+
+
+318) PRMETH@M
+Number of Members (1990)--PRIMITIVE METHODIST CHURCH U.S.A.--Denomination Code 363
+
+
+319) PRMETH@A
+Number of Adherents (1990)--PRIMITIVE METHODIST CHURCH U.S.A.--Denomination Code 363
+
+
+320) PRCONF@C
+Number of Churches (1990)--THE PROTESTANT CONFERENCE (LUTHERAN)--Denomination Code 367
+
+
+321) PRCONF@M
+Number of Members (1990)--THE PROTESTANT CONFERENCE (LUTHERAN)--Denomination Code 367
+
+
+322) PRCONF@A
+Number of Adherents (1990)--THE PROTESTANT CONFERENCE (LUTHERAN)--Denomination Code 367
+
+
+323) REFCH@C
+Number of Churches (1990)--REFORMED CHURCH IN AMERICA--Denomination Code 371
+
+
+324) REFCH@M
+Number of Members (1990)--REFORMED CHURCH IN AMERICA--Denomination Code 371
+
+
+325) REFCH@A
+Number of Adherents (1990)--REFORMED CHURCH IN AMERICA--Denomination Code 371
+
+
+326) REFCHU@C
+Number of Churches (1990)--REFORMED CHURCH IN THE UNITED STATES--Denomination Code 373
+
+
+327) REFCHU@M
+Number of Members (1990)--REFORMED CHURCH IN THE UNITED STATES--Denomination Code 373
+
+
+328) REFCHU@A
+Number of Adherents (1990)--REFORMED CHURCH IN THE UNITED STATES--Denomination Code 373
+
+
+329) REPISC@C
+Number of Churches (1990)--REFORMED EPISCOPAL CHURCH--Denomination Code 375
+
+
+330) REPISC@M
+Number of Members (1990)--REFORMED EPISCOPAL CHURCH--Denomination Code 375
+
+
+331) REPISC@A
+Number of Adherents (1990)--REFORMED EPISCOPAL CHURCH--Denomination Code 375
+
+
+332) REGBAP@C
+Number of Churches (1990)--REGULAR BAPTISTS--Denomination Code 386
+
+
+333) REGBAP@M
+Number of Members (1990)--REGULAR BAPTISTS--Denomination Code 386
+
+
+334) REGBAP@A
+Number of Adherents (1990)--REGULAR BAPTISTS--Denomination Code 386
+
+
+335) ROMORT@C
+Number of Churches (1990)--ROMANIAN ORTHODOX EPISCOPATE OF AMERICA--Denomination Code 397
+
+
+336) ROMORT@M
+Number of Members (1990)--ROMANIAN ORTHODOX EPISCOPATE OF AMERICA--Denomination Code 397
+
+
+337) ROMORT@A
+Number of Adherents (1990)--ROMANIAN ORTHODOX EPISCOPATE OF AMERICA--Denomination Code 397
+
+
+338) SALVA@C
+Number of Churches (1990)--SALVATION ARMY, THE--Denomination Code 403
+
+
+339) SALVA@M
+Number of Members (1990)--SALVATION ARMY, THE--Denomination Code 403
+
+
+340) SALVA@A
+Number of Adherents (1990)--SALVATION ARMY, THE--Denomination Code 403
+
+
+341) SCHEWN@C
+Number of Churches (1990)--SCHWENKFELDER CHURCH, THE--Denomination Code 405
+
+
+342) SCHEWN@M
+Number of Members (1990)--SCHWENKFELDER CHURCH, THE--Denomination Code 405
+
+
+343) SCHEWN@A
+Number of Adherents (1990)--SCHWENKFELDER CHURCH, THE--Denomination Code 405
+
+
+344) SDA@C
+Number of Churches (1990)--SEVENTH-DAY ADVENTISTS--Denomination Code 413
+
+
+345) SDA@M
+Number of Members (1990)--SEVENTH-DAY ADVENTISTS--Denomination Code 413
+
+
+346) SDA@A
+Number of Adherents (1990)--SEVENTH-DAY ADVENTISTS--Denomination Code 413
+
+
+347) SDBGC@C
+Number of Churches (1990)--SEVENTH DAY BAPTIST GENERAL CONFERENCE--Denomination Code 415
+
+
+348) SDBGC@M
+Number of Members (1990)--SEVENTH DAY BAPTIST GENERAL CONFERENCE--Denomination Code 415
+
+
+349) SDBGC@A
+Number of Adherents (1990)--SEVENTH DAY BAPTIST GENERAL CONFERENCE--Denomination Code 415
+
+
+350) SBC@C
+Number of Churches (1990)--SOUTHERN BAPTIST CONVENTION--Denomination Code 419
+
+
+351) SBC@M
+Number of Members (1990)--SOUTHERN BAPTIST CONVENTION--Denomination Code 419
+
+
+352) SBC@A
+Number of Adherents (1990)--SOUTHERN BAPTIST CONVENTION--Denomination Code 419
+
+
+353) SYRANT@C
+Number of Churches (1990)--SYRIAN ORTHODOX CHURCH OF ANTIOCH (ARCHDIOCESE OF THE U.S.A. AND CANADA)--Denomination Code 4
+
+
+354) SYRANT@A
+Number of Adherents (1990)--SYRIAN ORTHODOX CHURCH OF ANTIOCH (ARCHDIOCESE OF THE U.S.A. AND CANADA)--Denomination Code 
+
+
+355) TWOSED@C
+Number of Churches (1990)--TW0-SEED-IN-THE-SPIRIT PREDESTINARIAN BAPTISTS--Denomination Code 426
+
+
+356) TWOSED@M
+Number of Members (1990)--TW0-SEED-IN-THE-SPIRIT PREDESTINARIAN BAPTISTS--Denomination Code 426
+
+
+357) TWOSED@A
+Number of Adherents (1990)--TW0-SEED-IN-THE-SPIRIT PREDESTINARIAN BAPTISTS--Denomination Code 426
+
+
+358) TRUVIN@C
+Number of Churches (1990)--TRUEVINE BAPTISTS ASSOCIATION--Denomination Code 430
+
+
+359) TRUVIN@M
+Number of Members (1990)--TRUEVINE BAPTISTS ASSOCIATION--Denomination Code 430
+
+
+360) TRUVIN@A
+Number of Adherents (1990)--TRUEVINE BAPTISTS ASSOCIATION--Denomination Code 430
+
+
+361) UKRORT@C
+Number of Churches (1990)--UKRAINIAN ORTHODOX CHURCH OF AMER (ECUMENICAL PATRIARCHATE)--Denomination Code 431
+
+
+362) UKRORT@M
+Number of Members (1990)--UKRAINIAN ORTHODOX CHURCH OF AMER (ECUMENICAL PATRIARCHATE)--Denomination Code 431
+
+
+363) UKRORT@A
+Number of Adherents (1990)--UKRAINIAN ORTHODOX CHURCH OF AMER (ECUMENICAL PATRIARCHATE)--Denomination Code 431
+
+
+364) UNITA@C
+Number of Churches (1990)--UNITARIAN UNIVERSALIST ASSOCIATION--Denomination Code 435
+
+
+365) UNITA@M
+Number of Members (1990)--UNITARIAN UNIVERSALIST ASSOCIATION--Denomination Code 435
+
+
+366) UNITA@A
+Number of Adherents (1990)--UNITARIAN UNIVERSALIST ASSOCIATION--Denomination Code 435
+
+
+367) UBAPT@C
+Number of Churches (1990)--UNITED BAPTISTS--Denomination Code 436
+
+
+368) UBAPT@M
+Number of Members (1990)--UNITED BAPTISTS--Denomination Code 436
+
+
+369) UBAPT@A
+Number of Adherents (1990)--UNITED BAPTISTS--Denomination Code 436
+
+
+370) UBIC@C
+Number of Churches (1990)--UNITED BRETHREN IN CHRIST--Denomination Code 438
+
+
+371) UBIC@M
+Number of Members (1990)--UNITED BRETHREN IN CHRIST--Denomination Code 438
+
+
+372) UBIC@A
+Number of Adherents (1990)--UNITED BRETHREN IN CHRIST--Denomination Code 438
+
+
+373) UNTCHR@C
+Number of Churches (1990)--UNITED CHRISTIAN CHURCH--Denomination Code 441
+
+
+374) UNTCHR@M
+Number of Members (1990)--UNITED CHRISTIAN CHURCH--Denomination Code 441
+
+
+375) UNTCHR@A
+Number of Adherents (1990)--UNITED CHRISTIAN CHURCH--Denomination Code 441
+
+
+376) UCC@C
+Number of Churches (1990)--UNITED CHURCH OF CHRIST--Denomination Code 443
+
+
+377) UCC@M
+Number of Members (1990)--UNITED CHURCH OF CHRIST--Denomination Code 443
+
+
+378) UCC@A
+Number of Adherents (1990)--UNITED CHURCH OF CHRIST--Denomination Code 443
+
+
+379) UNMETH@C
+Number of Churches (1990)--UNITED METHODIST CHURCH, THE--Denomination Code 449
+
+
+380) UNMETH@M
+Number of Members (1990)--UNITED METHODIST CHURCH, THE--Denomination Code 449
+
+
+381) UNMETH@A
+Number of Adherents (1990)--UNITED METHODIST CHURCH, THE--Denomination Code 449
+
+
+382) WAYNE@C
+Number of Churches (1990)--WAYNE TRAIL MISSIONARY BAPTISTS ASSOCIATION--Denomination Code 466
+
+
+383) WAYNE@M
+Number of Members (1990)--WAYNE TRAIL MISSIONARY BAPTISTS ASSOCIATION--Denomination Code 466
+
+
+384) WAYNE@A
+Number of Adherents (1990)--WAYNE TRAIL MISSIONARY BAPTISTS ASSOCIATION--Denomination Code 466
+
+
+385) WESLY@C
+Number of Churches (1990)--THE WESLEYAN CHURCH--Denomination Code 467
+
+
+386) WESLY@M
+Number of Members (1990)--THE WESLEYAN CHURCH--Denomination Code 467
+
+
+387) WESLY@A
+Number of Adherents (1990)--THE WESLEYAN CHURCH--Denomination Code 467
+
+
+388) WELS@C
+Number of Churches (1990)--WISCONSIN EVANGELICAL LUTHERAN SYNOD--Denomination Code 469
+
+
+389) WELS@M
+Number of Members (1990)--WISCONSIN EVANGELICAL LUTHERAN SYNOD--Denomination Code 469
+
+
+390) WELS@A
+Number of Adherents (1990)--WISCONSIN EVANGELICAL LUTHERAN SYNOD--Denomination Code 469
+
+
+391) JEWISH@C
+Number of Churches (1990)--JEWISH ESTIMATE--Denomination Code 496
+
+
+392) JEWISH@M
+Number of Members (1990)--JEWISH ESTIMATE--Denomination Code 496
+
+
+393) JEWISH@A
+Number of Adherents (1990)--JEWISH ESTIMATE--Denomination Code 496
+
+
+394) BLBAPT@C
+Number of Churches (1990)--BLACK BAPTISTS ESTIMATE--Denomination Code 497
+
+
+395) BLBAPT@M
+Number of Members (1990)--BLACK BAPTISTS ESTIMATE--Denomination Code 497
+
+
+396) BLBAPT@A
+Number of Adherents (1990)--BLACK BAPTISTS ESTIMATE--Denomination Code 497
+
+
+397) INCHAR@C
+Number of Churches (1990)--INDEPENDENT CHARISMATIC CHURCHES--Denomination Code 498
+
+
+398) INCHAR@M
+Number of Members (1990)--INDEPENDENT CHARISMATIC CHURCHES--Denomination Code 498
+
+
+399) INCHAR@A
+Number of Adherents (1990)--INDEPENDENT CHARISMATIC CHURCHES--Denomination Code 498
+
+
+400) NONCHR@C
+Number of Churches (1990)--INDEPENDENT NON-CHARISMATIC CHURCHES--Denomination Code 499
+
+
+401) NONCHR@M
+Number of Members (1990)--INDEPENDENT NON-CHARISMATIC CHURCHES--Denomination Code 499
+
+
+402) NONCHR@A
+Number of Adherents (1990)--INDEPENDENT NON-CHARISMATIC CHURCHES--Denomination Code 499
+
+

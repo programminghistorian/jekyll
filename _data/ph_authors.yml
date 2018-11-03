@@ -34,7 +34,7 @@
     es: |
         Universidad de Hertfordshire, Reino Unido.
     fr: |
-        Université du Hertfordshire, Royaume-Uni. 
+        Université du Hertfordshire, Royaume-Uni.
   bio:
     en: |
         Adam Crymble is a senior lecturer of digital history at the University of
@@ -126,25 +126,28 @@
   github: mariajoafana
   team: true
   team_start: 2016
-  institution: Fundacion Historica Neograndina
+  institution: Universidad de los Andes, Colombia
   sortname: Afandor-Llach
   affiliation:
     en: |
-        Fundación Histórica Neogranadina, Colombia.
+        University of los Andes, Colombia.
     es: |
         Fundación Histórica Neogranadina, Colombia.
     fr: |
         Fundación Histórica Neogranadina, Colombie.
+        Universidad de los Andes, Colombia.
   bio:
     en: |
-        Maria José Afanador-Llach is an assistant professor of Digital Humanities and History at the Universidad de los Andes, Bogotá (Colombia), and member of the board of Directors at the Fundación Histórica Neogranadina, a non-profit organization digitizing endangered colonial archives in Colombia and promoting digital humanities projects.
+        Maria José Afanador-Llach is an assistant professor of Digital Humanities and History at the Universidad de los Andes, Bogotá (Colombia).
     es: |
         Maria José Afanador-Llach es profesora asistente de humanidades digitales e historia en la Universidad de los Andes, Bogotá (Colombia) y es miembro del consejo directivo de la Fundación Histórica Neogranadina, una organización sin
         ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro y a promover proyectos de humanidades digitales.
     fr: |
         Maria José Afanador-Llach est maître de conférences en Humanités numériques et histoire à l'Université de los Andes, (Bogota, Colombie), et membre du conseil de direction de la Fundación Histórica Neogranadina, une fondation à but non-lucratif qui se charge de la numérisation d'archives coloniales en péril en Colombie et de la promotion de projets en humanités numériques.
+        Maria José Afanador-Llach es profesora asistente de humanidades digitales e historia en la Universidad de los Andes, Bogotá (Colombia).
   team_roles:
    - spanish
+   - managing-es
    - ombuds-es
    - board
 
@@ -197,10 +200,9 @@
     es: |
         Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en el Cologne Center for eHumanities.
     fr: |
-        Antonio Rojas Castro est docteur en Littérature espagnole (Université Pompeu Fabra) et chercheur au Cologne Center for eHumanities. 
+        Antonio Rojas Castro est docteur en Littérature espagnole (Université Pompeu Fabra) et chercheur au Cologne Center for eHumanities.
   team_roles:
    - spanish
-   - managing-es
    - board
 
 - name: Stephen Margheim
@@ -232,6 +234,8 @@
     en: |
         Taryn Dewar has a Master's degree in Public History at Western University,
         and is an Interpreter at the Oil Sands Discovery Centre in Fort McMurray, Alberta.
+    es: |
+        Taryn Dewar tiene una maestría en Historia Pública (Western University) y es intérprete en el Centro de investigación de arenas de alquitrán en Fort McMurray, Alberta.
 
 - name: Maria Velez-Serna
   url: "http://earlycinema.gla.ac.uk"
@@ -309,12 +313,13 @@
   sortname: Baker
   bio:
     en: |
-        James Baker is a Lecturer in Digital History and Archives at the University of Sussex
+        James Baker is a Senior Lecturer in Digital History and Archives at the University of Sussex
         and a historian of interactions between people and things.
     es: |
         James Baker es curador en el equipo de investigación digital de la Biblioteca Británica e historiador del siglo XVIII inglés.
     fr: |
-        James Baker est maître de conférences en histoire numérique et en archivistique à l'Université du Sussex; il est spécialiste en histoire des interactions entre personnes et objets. 
+        James Baker est maître de conférences en histoire numérique et en archivistique à l'Université du Sussex; il est spécialiste en histoire des interactions entre personnes et objets.
+        James Baker es profesor titular en Historia Digital y Archivos en la Universidad de Sussex; su línea de investigación es el cruce histórico de personas y objetos.
   team_roles:
    - editorial
    - board
@@ -411,12 +416,16 @@
   bio:
     en: |
         Shawn Graham is associate professor of digital humanities and history at Carleton University.
+    es: |
+        Shawn Graham es profesor asociado en Humanidades Digitales e Historia en Carleton University.
 
 - name: Scott Weingart
   team: false
   bio:
     en: |
         Scott Weingart is a historian of science and digital humanities specialist at Carnegie Mellon University.
+    es: |
+        Scott Wingart es historiador de la ciencia y especialista en Humanidades Digitales en Carnegie Mellon University.
 
 - name: Jim Clifford
   team: false
@@ -564,26 +573,26 @@
 - name: Matthew Lincoln
   url: "http://matthewlincoln.net"
   twitter: matthewdlincoln
-  email: mlincoln@getty.edu
+  email: mlincoln@andrew.cmu.edu
   github: mdlincoln
   team: true
   team_start: 2017
-  institution: Getty Research Institute
+  institution: Carnegie Mellon University
   sortname: Lincoln
   affiliation:
     en: |
-        Getty Research Institute, USA.
+        Carnegie Mellon University, USA.
     es: |
         Getty Research Institute, Estados Unidos.
     fr: |
-        Getty Research Institute, États-Unis.
+        Carnegie Mellon University, États-Unis.
   bio:
     en: |
-        Matthew Lincoln is a data research specialist at the Getty Research Institute, and an art historian of early modern Europe.
+        Matthew Lincoln is the digital humanities developer at Carnegie Mellon University, and an art historian of early modern Europe.
     es: |
-        Matthew Lincoln es especialista en la investigación de datos en el Getty Research Institute e historiador del arte de la Europa moderna.
+        Matthew Lincoln es desarrollador de humanidades digitales en la Universidad Carnegie Mellon e historiador del arte de la Europa moderna.
     fr: |
-        Matthew Lincoln est spécialiste en analyse des données au Getty Research Institute et historien de l'art européen moderne. 
+        Matthew Lincoln est spécialiste en analyse des données au Getty Research Institute et historien de l'art européen moderne.
   team_roles:
    - editorial
    - technical
@@ -613,14 +622,14 @@
     es: |
         Universidad de Virginia, Estados Unidos.
     fr: |
-        Université de Virginie, États-Unis. 
+        Université de Virginie, États-Unis.
   bio:
     en: |
         Amanda Visconti is Managing Director at the University of Virginia Scholars' Lab DH center.
     es: |
         Amanda Visconti es Directora general del centro de Humanidades Digitales Scholars' Lab en la Universidad de Virginia.
     fr: |
-        Amanda Visconti est directrice du centre des humanités numériques du Scholars' Lab de l'Université de Virginie. 
+        Amanda Visconti est directrice du centre des humanités numériques du Scholars' Lab de l'Université de Virginie.
   interests:
     en: |
         As a PH ombudsperson, you can contact Amanda to discuss any issues or concerns around the PH review and publication process.
@@ -639,7 +648,7 @@
     en: |
         Megan R. Brett is Digital History Associate at the Roy Rosenzweig Center for History and New
         Media, where she acts as Outreach Coordinator for the Omeka projects. She is also a doctoral
-        student in the Department of History and Art History at George Mason Unveristy.
+        student in the Department of History and Art History at George Mason University.
 
 - name: Brandon Walsh
   github: walshbr
@@ -682,6 +691,8 @@
   bio:
     en: |
         M. H. Beals is a Lecturer in Digital History at Loughborough University.
+    es: |
+        M.H. Beals es Profesor de Historia Digital en la Universidad de Loughborough.
 
 - name: Elizabeth Venditto
   url: "http://cla.umn.edu/ihrc"
@@ -696,10 +707,7 @@
   team: false
   bio:
     en: |
-        Jacob Greene is a PhD Candidate in English at the University of Florida. His work explores how
-        augmented reality technology can be leveraged within humanities teaching and research, and he
-        currently serves as the Augmented Reality Criticisms Coordinator for Trace Innovation, a
-        digital humanities initiative in the University of Florida English Department.
+        Jacob Greene is an Assistant Professor of English in the Writing, Rhetorics, and Literacies program at Arizona State University. His research and teaching explore how mobile technologies such augmented reality can be used to promote critical interventions into public and private spaces.
 
 - name: Jeanette Sewell
   url: "http://digital.houstonlibrary.org/"
@@ -749,10 +757,10 @@
         Simmons College, États-Unis.
   bio:
     en: |
-        Jessica Parr teaches at Simmons College (Boston) and works on PLACE Project at UNH Durham.
+        Jessica Parr is a Lecturer in History at Simmons College (Boston).
         She is a scholar of the early modern Atlantic.
     es: |
-        Jessica Parr enseña en el Simmons College (Boston) y trabaja en el proyecto PLACE de la UNH Durham. Es especialista en la historia del mundo Atlántico moderno temprano.
+        Jessica Parr enseña en el Simmons College (Boston). Es especialista en la historia del mundo Atlántico moderno temprano.
     fr: |
         Jessica Parr est enseignante au Simmons College à Boston, et elle travaille pour le projet PLACE de l'Université du New Hampshire à Durham (UNH Durham).
   interests:
@@ -762,7 +770,6 @@
         Elle souhaite plus particulièrement travailler avec des auteurs proposant des lessons sur l'utilisation de données geospatiales et textuelles-geospatiales. Elle est spécialiste de l'histoire du monde atlantique à l'époque moderne.
   team_roles:
    - editorial
-   - managing-en
    - board
 
 - name: Taylor Arnold
@@ -841,13 +848,14 @@
         Université Emory, États-Unis.
   bio:
     en: |
-        Anandi Silva Knuppel is a digital scholarship training coordinator at Emory University.
+        Anandi Silva Knuppel is a digital scholarship training coordinator and special projects liaison at Emory University.
     es: |
         Anandi Silva Knuppel es coordinadora del programa de Aprendizaje Digital de la Universidad de Emory.
-    fr: | 
+    fr: |
         Anandi Silva Knuppel est coordinatrice des programmes de formation au numérique à l'Université Emory.
   team_roles:
    - editorial
+   - managing-en
    - board
 
 
@@ -968,7 +976,7 @@
     es: |
         José Antonio Motilla es investigador de historia, arte, cultura y humanidades digitales en la Universidad Autónoma de San Luis Potosí, México. Director de la biblioteca "Ricardo B. Anaya" (San Luis Potosí, México).
     fr: |
-        José Antonio Motilla est chercheur en histoire, art, culture et humanités numériques à l'Université autonome de San Luis Potosí au Mexique et directeur de la bibliothèque Ricardo B. Anaya.   
+        José Antonio Motilla est chercheur en histoire, art, culture et humanités numériques à l'Université autonome de San Luis Potosí au Mexique et directeur de la bibliothèque Ricardo B. Anaya.
   team_roles:
    - spanish
    - board
@@ -980,7 +988,7 @@
   github: jenniferisasi
   team: true
   team_start: 2018
-  institution: University of Nebraska
+  institution: University of Texas
   sortname: Isasi
   affiliation:
     en: |
@@ -995,10 +1003,11 @@
     es: |
         Jennifer Isasi es investigadora postdoctoral CLIR en Estudios y Colecciones de Latinoamérica en LLILAS Benson, y doctora en Estudios Hispánicos.
     fr: |
-        Jennifer Isasi est chercheuse postdoctorale du programme CLIR au LLILAS Benson en Études et collections latino-américaines, et docteure en études hispaniques. 
+        Jennifer Isasi est chercheuse postdoctorale du programme CLIR au LLILAS Benson en Études et collections latino-américaines, et docteure en études hispaniques.
   team_roles:
     - spanish
     - board
+    - technical
 
 - name: Jon MacKay
   team: false
@@ -1011,12 +1020,12 @@
   bio:
       en: |
           Patrick Smyth is a PhD student in English and Digital Fellow at the Graduate Center, CUNY.
-          
+
 - name: François Dominic Laramée
   team: false
   bio:
       en: |
-          François Dominic Laramée is a doctoral candidate in history at the Université de Montréal, in Canada. 
+          François Dominic Laramée is a doctoral candidate in history at the Université de Montréal, in Canada.
           He holds master's degrees in computer science and U.S. history and is a former video game designer, TV personality and screenwriter.
 
 - name: Jeff Blackadar
@@ -1025,7 +1034,7 @@
       en: |
           Jeff Blackadar is a part-time undergraduate history student at Carleton University. His career is in the field of information technology.
 
-          
+
 - name: Sofia Papastamkou
   email: spapastamkou@gmail.com
   twitter: s_papastamkou
@@ -1034,24 +1043,26 @@
   team_start: 2018
   institution: CNRS
   sortname: Papastamkou
-  affiliation: 
+  affiliation:
         en: |
             European Centre for the Humanities and Social Sciences, Lille, France
         es: |
             Maison européenne des sciences de l'homme et de la société Lille Nord de France
         fr: |
             Maison européenne des sciences de l'homme et de la société Lille Nord de France
+  affiliation: Maison européenne des sciences de l'homme et de la société Lille Nord de France
+  team_roles:
+    - french
+    - board
   bio:
         en: |
-            Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS). 
-            She is currently assigned to the European Centre for the Humanities and Social Sciences in Lille, France (Maison européenne des sciences de l'homme et de la société Lille Nord de France).
+            Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
+            She is currently assigned to the Maison européenne des sciences de l'homme et de la société Lille Nord de France.
         es: |
             Sofia Papastamkou es historiadora e investigadora en Humanidades Digitales en el Centre national de la recherche scientifique  (CNRS). Actualmente, su labor está asociada con Maison européenne des sciences de l'homme et de la société Lille Nord de France.
         fr: |
             Sofia Papastamkou est docteure en histoire et ingénieure d'études en humanités numériques au CNRS. Elle est affectée à la Maison européenne des sciences de l'homme et de la société Lille Nord de France.
- 
- 
- - name: Marie Puren
+- name: Marie Puren
   email: marie.puren1406@gmail.com
   twitter: MariePuren
   github: mpuren
@@ -1069,4 +1080,15 @@
         fr: |
             Marie Puren est historienne et ingénieure de recherche en humanités numériques dans l'équipe ALMAnaCH à Inria Paris.
 
+- name: Charlie Harper
+  team: false
+  bio:
+      en: |
+          Charlie Harper is the Digital Learning and Scholarship Librarian at Case Western Reserve University
+
+- name: Eric Weinberg
+  team: false
+  bio:
+       en: |
+           Eric Weinberg holds a PhD in History from the University of Kentucky. He teaches at Viterbo University in La Crosse, WI.
 
