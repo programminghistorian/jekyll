@@ -23,7 +23,7 @@ title: The Programming Historian en français
 <div class="home-block ">
 <div class="container">
 <h2>Enseigner</h2>
-<p>Vous pouvez utiliser le <i>Programming Historian en français</i> dans le cadre de vos cours ou de vos ateliers! Si nous pouvons améliorer nos leçons pour qu'elles répondent mieux à vos besoins ou si vous rencontrez des difficultés, merci de <a href="fr/feedback.html">nous le faire savoir</a>.</p>
+<p>Vous pouvez utiliser le <i>Programming Historian en français</i> dans le cadre de vos cours ou de vos ateliers! Si nous pouvons améliorer nos leçons pour qu'elles répondent mieux à vos besoins ou si vous rencontrez des difficultés, merci de <a href="/fr/feedback.html">nous le faire savoir</a>.</p>
 </div>
 </div>
 

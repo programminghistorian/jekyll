@@ -26,7 +26,7 @@ Nous acceptons des tutoriels :
 La portée et la longueur du tutoriel doivent être appropriés à la complexité de la tâche qui y est expliquée. La longueur des tutoriels ne doit pas excéder 8,000 mots (en incluant le code source) à moins que le rédacteur ou la rédactrice n'en ait explicitement donné la permission. Celle-ci sera uniquement accordée dans des circonstances exceptionnelles. Nous demandons que la longueur des leçons soit en général comprise entre 4,000 et 6,000 mots. Les leçons plus longues pourront être divisées en plusieurs tutoriels.
 </div>
 
-Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos [leçons publiées], en lisant nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs.html) ou en parcourant les [leçons en cours de développement](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lecons). Nous vous encourageons à proposer des leçons sur des sujets déjà traités ou en en cours de développement, à condition que la nouvelle leçon apporte sa propre contribution originale au traitement d'un sujet donné.
+Vous pouvez avoir une meilleure idée de ce que nous publions en consultant nos [leçons publiées], en lisant nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs.html) ou en parcourant les [leçons en cours de développement](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Nous vous encourageons à proposer des leçons sur des sujets déjà traités ou en en cours de développement, à condition que la nouvelle leçon apporte sa propre contribution originale au traitement d'un sujet donné.
 
 Afin d'assurer la pérennité de nos leçons, les auteur(e)s doivent s'efforcer de soumettre des leçons qui ne sont pas complètement dépendantes de logiciels spécifiques ou d'interfaces utilisateurs. Ces leçons vont à coup sûr souffrir d'instabilité et vont avoir besoin de révisions substantielles lorsque sort une nouvelle version du logiciel ou de l'interface. Enseigner des concepts, plutôt que demander de 'cliquer sur le bouton _x_', facilite la rédaction et la publication de tutoriels pérennes.
 
@@ -237,7 +237,7 @@ Online*`).
 ## Soumettre une nouvelle leçon
 Une fois que votre leçon a été préparée en suivant les consignes données ci-dessus, vous êtes prêt(e) à la soumettre !
 
-Nous avons une [page-projet pour le Programming Historian](https://github.com/programminghistorian) sur GitHub, où nous maintenons deux dépôts (un dépôt ou *repository* est un endroit destiné à stocker les fichiers et les dossiers reliés - on peut les voir comme les dossiers que vous avez sur votre ordinateur). L'un d'entre eux s'appelle [jekyll](https://github.com/programminghistorian/jekyll) et héberge le code source du site visible à cette adresse <http://programminghistorian.org/fr/>. L'autre dépôt s'appelle [ph-submissions].
+Nous avons une [page-projet pour le Programming Historian](https://github.com/programminghistorian) sur GitHub, où nous maintenons deux dépôts (un dépôt ou *repository* est un endroit destiné à stocker les fichiers et les dossiers reliés - on peut les voir comme les dossiers que vous avez sur votre ordinateur). L'un d'entre eux s'appelle [jekyll](https://github.com/programminghistorian/jekyll) et héberge le code source du site visible à cette adresse <http://programminghistorian.org/>. L'autre dépôt s'appelle [ph-submissions].
 
 Nous souhaitons que les auteurs soumettent directement les leçons en les ajoutant au dépôt [ph-submissions]. Grâce aux fonctionnalités offertes par Github, vous pouvez utiliser l'action *glisser-déposer* pour télécharger des fichiers. En tant que nouvel(le) auteur(e), voilà les étapes que vous allez devoir suivre :
 
@@ -283,7 +283,7 @@ Félicitations ! Vous avez publié une leçon ou une traduction pour le *Program
    [Jessica Parr]: mailto:jparr1129@gmail.com
   [page wiki des leçons en cours de développement]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
   [consignes aux évaluateurs et évaluatrices]: /fr/consignes-evaluateurs.html
-  [leçons publiées]: fr/lecons
+  [leçons publiées]: /fr/lecons
   [TextWrangler]: http://www.barebones.com/products/textwrangler/
   [Notepad++]: https://notepad-plus-plus.org/
   [équipe-projet]: /fr/equipe-projet.html
