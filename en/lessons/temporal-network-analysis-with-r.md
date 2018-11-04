@@ -345,10 +345,9 @@ To calculate the size of the forward reachable sets of each node, we can use the
 ```r
 # Calculate and store the sizes of
 # forward and backward reachable sets for each node
-sets <- NULL
-sets$fwd_reach <- tReach(dynamicCollabs)
-sets$bkwd_reach <- tReach(dynamicCollabs, direction = "bkwd")
-plot(sets$fwd_reach, sets$bkwd_reach)
+fwd_reach <- tReach(dynamicCollabs)
+bkwd_reach <- tReach(dynamicCollabs, direction = "bkwd")
+plot(fwd_reach, bkwd_reach)
 ```
 
 This produces a graph of the sizes of the forward and backward reachable sets for each workshop or illuminator. From this graph, we can get a sense of who was in a position to have the biggest impact on the network based on their forward reach, and who was well connected to their predecessors based on their collaborations.
