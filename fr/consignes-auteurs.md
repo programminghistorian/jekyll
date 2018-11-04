@@ -17,11 +17,11 @@ Si vous avez une idée pour une nouvelle leçon, ou si vous avez déjà rédigé
 <div class="alert alert-success">
 Nous acceptons des tutoriels :
 
-- pertinents pour les humanités, 
-- adaptés à n'importe quel niveau de compétence et d'expérience technique, 
-- concernant un problème ou un processus particulier, 
-- pérennes dans le long terme, 
-- et s'adressant à un public international. 
+- pertinents pour les humanités,
+- adaptés à n'importe quel niveau de compétence et d'expérience technique,
+- concernant un problème ou un processus particulier,
+- pérennes dans le long terme,
+- et s'adressant à un public international.
 
 La portée et la longueur du tutoriel doivent être appropriés à la complexité de la tâche qui y est expliquée. La longueur des tutoriels ne doit pas excéder 8,000 mots (en incluant le code source) à moins que le rédacteur ou la rédactrice n'en ait explicitement donné la permission. Celle-ci sera uniquement accordée dans des circonstances exceptionnelles. Nous demandons que la longueur des leçons soit en général comprise entre 4,000 et 6,000 mots. Les leçons plus longues pourront être divisées en plusieurs tutoriels.
 </div>
@@ -44,7 +44,7 @@ Gardez à l'esprit que ce projet est basé sur le volontariat, et que nous avons
 ### Utilisez le texte brut
 Parce que notre site est hébergé avec [GitHub Pages](https://pages.github.com), **votre leçon doit être écrite en texte brut**, en utilisant un éditeur de texte de votre choix. *Les éditeurs de texte se distinguent clairement des traitements de texte traditionnels comme Microsoft Word*. Nous recommandons d'utiliser [Atom](https://atom.io/), qui est disponible sous Mac ou Windows. Les utilisateurs de Mac peuvent également envisager d'utiliser [TextWrangler] ou TextEdit (qui est fourni avec macOS). Les utilisateurs de Windows peuvent envisager d'utiliser [Notepad++].
 
-Que vous choisissiez un éditeur de texte ou un autre - cela n'a pas vraiment d'importance -, vous devriez toutefois envisager d'écrire dès le départ votre leçon en texte brut pour éviter de futures frustrations. Par exemple, les guillemets insérés automatiquement par Word crée des problèmes de formatage difficiles à débugger. 
+Que vous choisissiez un éditeur de texte ou un autre - cela n'a pas vraiment d'importance -, vous devriez toutefois envisager d'écrire dès le départ votre leçon en texte brut pour éviter de futures frustrations. Par exemple, les guillemets insérés automatiquement par Word crée des problèmes de formatage difficiles à débugger.
 
 ### Mettez en forme les notes de bas de page
 Nous vous demandons de bien vouloir utiliser le style [Chicago Manual of Style](https://fr.wikipedia.org/wiki/The_Chicago_Manual_of_Style) pour mettre en forme les notes de bas de page.
@@ -53,7 +53,7 @@ Nous vous demandons de bien vouloir utiliser le style [Chicago Manual of Style](
 Nommez le fichier de votre nouvelle leçon en respectant les conseils suivants :
 
 -   Utilisez des minuscules et choisissez un nom court mais parlant. Ce nom de fichier deviendra le [slug] de l'URL de la leçon quand elle sera publiée. Par exemple, le titre de la leçon intitulée "Débuter avec Markdown" a le slug suivant : `debuter-avec-markdown` et l'URL : `https://programminghistorian.org/en/lessons/debuter-avec-markdown`. Pensez à regarder des leçons existantes pour plus d'exemples concrets.
--   Votre "slug" sera référencé plus tard de la manière suivante : LEÇON-SLUG. 
+-   Votre "slug" sera référencé plus tard de la manière suivante : LEÇON-SLUG.
 -   Pensez à la manière dont des lecteur(trice)s potentiel(le)s pourraient chercher quelque chose de similaire à votre leçon. Un "slug" riche de mots-clés est une bonne manière de capter le trafic des moteurs de recherche.
 -   N'utilisez pas d'espaces ou de tirets bas `(_)` dans le nom du fichier ; utilisez plutôt les traits d'union `(-)`.
 -   L'extension du nom du fichier doit être `.md` (markdown).
@@ -102,7 +102,7 @@ Pour une introduction en douceur à Markdown, consultez:
 Le *Programming Historian en français* s'efforce de publier des leçons qui sont utiles à notre lectorat dans l'immédiat. Les auteur(e)s doivent consulter notre [politique de retrait des leçons]({{site.baseurl}}/fr/politique-retrait-lecons), qui décrit comment l'équipe éditoriale du *Programming Historian en français* gère les leçons qui sont devenues obsolètes. Pour assurer la création de leçons pérennes, nous vous demandons de garder à l'esprit un certain nombre de consignes lors de leur rédaction :
 
 - Au lieu de vous concentrer sur des logiciels en particulier, axez de préférence votre leçon sur les méthodologies, et sur une présentation plus générale des outils.
-- Si votre leçon peut tirer profit de la documentation d'un logiciel existant, envisagez de diriger votre lectorat vers cette documentation plutôt que de la répéter dans votre leçon. Et, au lieu d'ajouter un lien vers les ressources concernant un logiciel développé par une entreprise - ressources qui, en général, changent très souvent -, vous pouvez fournir des conseils généraux sur la manière dont vos lecteurs et lectrices peuvent trouver la documentation. 
+- Si votre leçon peut tirer profit de la documentation d'un logiciel existant, envisagez de diriger votre lectorat vers cette documentation plutôt que de la répéter dans votre leçon. Et, au lieu d'ajouter un lien vers les ressources concernant un logiciel développé par une entreprise - ressources qui, en général, changent très souvent -, vous pouvez fournir des conseils généraux sur la manière dont vos lecteurs et lectrices peuvent trouver la documentation.
 - Limitez l'usage d'images spécifiques à la version du logiciel présenté, à moins que cela ne soit requis pour suivre votre leçon.
 - Vérifiez tous les liens externes de façon à vous assurer qu'ils sont à jour.
 - Les données nécessaires pour suivre une leçon doivent être hébergées avec notre site Internet.
@@ -113,10 +113,10 @@ Le *Programming Historian en français* s'efforce de publier des leçons qui son
 Les lecteurs et les lectrices du *Programming Historian en français* viennent du monde entier et travaillent au sein d'environnements culturels variés. Pour qu'un public international puisse être touché, un certain nombre de nos publications sont accessibles dans plus d'une langue depuis 2017. Nous avons également pour but de traduire tous nos tutoriels. **Comme nous reconnaissons que toutes les méthodes et outils ne sont pas pleinement accessibles à un public international**, les auteur(e)s peuvent et doivent écrire leurs leçons de façon à ce qu'elles soient accessibles à autant de personnes que possible. **Nous vous prions donc de bien vouloir respecter les conseils suivants lorsque vous écrivez votre tutoriel** :
 
 - Lorsque vous choisissez vos méthodes et outils, essayez de les choisir en gardant à l'esprit que les tous les lecteurs et toutes les lectrices ne parlent pas tous et toutes la même langue. Cela est particulièrement important lorsque l'on travaille sur des méthodes d'analyse des textes, ou lorsque les utilisateurs et les utilisatrices souhaiteraient travailler avec des ensembles de caractères différents (par exemple, caractères accentués, non-latins, etc.).
-- Quand vous choisissez des images et des sources primaires, quand vous produisez des illustrations, ou quand vous faites des copies d'écran, pensez à la manière dont celles-ci vont être vues par un public international. 
+- Quand vous choisissez des images et des sources primaires, quand vous produisez des illustrations, ou quand vous faites des copies d'écran, pensez à la manière dont celles-ci vont être vues par un public international.
 - Au cours de la rédaction, évitez les plaisanteries, les références culturelles, les calembours, les jeux de mots, les expressions idiomatiques, le sarcasme, les emojis ou une syntaxe qui serait plus compliquée que nécessaire. Les mentions de personnes, d'organisations, ou de détails historiques doivent toujours être accompagnées d'informations contextuelles. Vous devez constamment penser au fait que vos lecteurs et lectrices ne vivent pas toujours dans le même pays que vous et qu'ils ne parlent pas la même langue.
 - Dans les exemples de codes source ou les métadonnées, utilisez des formats standards, reconnus au niveau international, pour les dates et les heures ([ISO 8601:2004](https://www.iso.org/fr/standard/40874.html)). Dans votre texte, restez bien conscient(e) des différences culturelles existantes dans la représentations des dates et des heures. Ces différence pourraient en effet causer de la confusion.
-- Quand cela est possible, choisissez des méthodes et des outils qui disposent de documentation multilingue. Dans le cas contraire, essayez d'ajouter, autant que faire se peut, des références multilingues à la fin de votre tutoriel. 
+- Quand cela est possible, choisissez des méthodes et des outils qui disposent de documentation multilingue. Dans le cas contraire, essayez d'ajouter, autant que faire se peut, des références multilingues à la fin de votre tutoriel.
 
 Contactez votre rédacteur(trice) si vous avez besoin de conseils sur n'importe quel de ces points. Les tutoriels qui ne peuvent pas respecter ces consignes ne seront pas traduits, mais ils sont les bienvenus afin d'être envisagés pour une publication en une seule langue.
 
@@ -149,7 +149,7 @@ Pour ce faire, vous avez besoin d'utiliser du langage HTML de la façon suivante
   Assurez vous de suivre attentivement les consignes !
 </div>
 ```
-Sur le site web, le texte va se présenter ainsi : 
+Sur le site web, le texte va se présenter ainsi :
 
 <div class="alert alert-warning">
  Assurez vous de suivre attentivement les consignes !
@@ -165,7 +165,7 @@ Quels que soient leur longueur ou leur niveau de difficulté, toutes les leçons
 #### Créer un dossier
 Tout d'abord, créez un dossier dans lequel vous allez stocker tous vos fichiers images. Le nom du dossier doit être le même que le `SLUG-DE-LA-LEÇON` que vous avez choisi pour le nom de votre fichier. Le rédacteur ou la rédactrice responsable de votre leçon peut vous assister en téléchargeant vos images dans le dépôt `ph-submissions` au moment où vous soumettez votre leçon.
 
-#### Utilisez des noms de fichiers compréhensibles 
+#### Utilisez des noms de fichiers compréhensibles
 Il y a deux façons de nommer vos fichiers. Une option consiste à utiliser des noms de fichier cohérents, et sémantiquement signifiants, qui indiquent clairement ce sur quoi porte l'image. Une autre option consiste à les nommer de manière séquentielle, en utilisant le même "slug" de leçon (ou une abréviation si le "slug" est trop long), suivi par un chiffre indiquant de quelle illustration il s'agit. Par exemple :
 `counting-frequencies-1.png`, `counting-frequencies-2.png`, et ainsi de suite.)
 
@@ -204,7 +204,7 @@ Quand le Markdown est traité par notre système, cette ligne va automatiquement
 ### Notes de bas de page
 Pour ajouter des notes de bas de page à votre texte, ajoutez un marqueur de la note dans le corps du texte de la façon suivante :
 
-	Voilà du texte. [^1]Encore du texte. [^note de bas de page] 
+	Voilà du texte. [^1]Encore du texte. [^note de bas de page]
 
 Comme vous pouvez le voir, le marqueur est entre crochets, et peut être composé de chiffres ou de lettres, du moment qu'il débute par le signe diacritique "accent circonflexe" (`^`)
 
@@ -246,7 +246,7 @@ Nous souhaitons que les auteurs soumettent directement les leçons en les ajouta
 3. Une fois que votre rédacteur(trice) vous a informé que vous avez été ajouté(e) en tant que collaborateur(trice) au dépôt, rendez vous dans le [dossier des leçons](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons) du dépôt [ph-submissions]. Ensuite, faites un glisser-déposer avec votre fichier en Markdown depuis votre ordinateur vers la fenêtre de votre navigateur. (Si vous avez besoin d'aide, consultez les [instructions fournies par Github](https://help.github.com/articles/adding-a-file-to-a-repository/)). Maintenant cliquez sur le bouton vert "Commit Changes" ; vous n'avez pas besoin de changer le message qui s'affiche par défaut.
 4. Vous avez probablement des images qui accompagnent votre leçon. Soyez sûr(e) que tous les fichiers images sont nommés de manière appropriée, en accord avec les conventions de nommage spécifiées ci-dessus. Rendez vous dans le [dossier des images](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images) dans le dépôt [ph-submissions]. Cliquez sur le dossier avec le même nom que votre leçon (que votre rédacteur ou rédactrice a dû créer pour vous ; si vous ne le voyez pas, prenez contact avec la personne et attendez de recevoir ses instructions). Une fois que vous êtes dans le bon dossier, faites un glisser-déposer de tous vos fichiers images de votre ordinateur vers la fenêtre de votre navigateur, comme vous l'avez fait lors de l'étape 3. Vous ne pouvez pas déposer un dossier contenant vos images, mais vous pouvez déposer plusieurs fichiers en une fois.
 5. Vous pouvez avoir un aperçu de votre leçon ou de votre traduction en ligne ! Attendez quelques minutes (voire moins) pour que Github convertisse votre fichier Markdown en HTML et en fasse une page web visible en ligne. Ensuite, rendez vous à l'adresse suivante : `http://programminghistorian.github.io/ph-submissions/lessons/NOM-DE-VOTRE-LEÇON` (mais remplacez NOM-DE-VOTRE-LEÇON par le nom de votre fichier).
-6. Faites savoir à votre rédacteur ou votre rédactrice que vous avez téléchargé les fichiers de votre leçon ou traduction dans le dépôt [ph-submissions]. Même si une notification l'en informant a dû lui être envoyée, nous préférons nous assurer que rien peut être omis. 
+6. Faites savoir à votre rédacteur ou votre rédactrice que vous avez téléchargé les fichiers de votre leçon ou traduction dans le dépôt [ph-submissions]. Même si une notification l'en informant a dû lui être envoyée, nous préférons nous assurer que rien peut être omis.
 
 <div class="alert alert-info">
 Si vous avez l'habitude d'utiliser git et Github en ligne de commande, vous pouvez également soumettre votre leçon et vos images comme une *pull request* au dépôt `ph-submission` et la fusionner vous-même après y avoir été ajouté en tant que collaborateur(trice). <b>Nous vous demandons de ne pas soumettre des leçons par [pull request] au dépôt principal Jekyll</b> de manière à ce que nous puissions fournir des aperçus en ligne des leçons en cours de relecture.
@@ -292,7 +292,7 @@ Félicitations ! Vous avez publié une leçon ou une traduction pour le *Program
   [Guide GitHub pour Markdown]: https://guides.github.com/features/mastering-markdown/
   [les bases de Markdown]: https://help.github.com/articles/markdown-basics
   [Github Flavored Markdown]: https://help.github.com/articles/github-flavored-markdown
-  [le texte brut sur Github]: https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/author-guidelines.md
+  [le texte brut sur Github]: https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/en/author-guidelines.md
   [éléments fournis par HTML5]: http://html5doctor.com/the-figure-figcaption-elements/
   [exemple de pré-visualisation avec images ici]: https://github.com/programminghistorian/jekyll/commit/476f6d466d7dc4c36048954d2e1f309a597a4b87#diff-f61eee270fe5a122a0163ebf0e2f8725L28
   [version "live" ici]: /lessons/automated-downloading-with-wget#lesson-goals
