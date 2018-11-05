@@ -13,7 +13,7 @@
   definition:
     en: A fully-fledged member of the project team, involved in directing the project's future
     es: Miembro de pleno derecho del equipo del proyecto, encargado de su dirección a futuro
-    fr: Membre à part entière de l'équipe impliqué dans la direction du projet
+    fr: Membre à part entière de l'équipe, impliqué dans la direction du projet
 - type: editorial
   label:
     en: Editorial Team (English)
@@ -90,20 +90,20 @@
   label:
     en: Treasurer
     es: Tesorería
-    fr:
+    fr: Trésorier/trésorière
   definition:
     en: Responsible for project finances
     es: Responsable de las finanzas del proyecto
-    fr:
+    fr: Personne chargée des finances du projet
 - type: sponsorship
   label:
     en: Sponsorship Coordinator
     es: Coordinación de patrocinio
-    fr:
+    fr: Chargé(e) des donations
   definition:
     en: Responsible for managing relationships with our sponsors
     es: Responsable de coordinar las relaciones con las y los patrocinadores
-    fr:
+    fr: Personne chargée des relations avec les sponsors du projet 
 # --- Derived roles ---
 - type: ombuds-es
   label:
