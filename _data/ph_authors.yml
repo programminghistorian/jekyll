@@ -316,11 +316,10 @@
         James Baker is a Senior Lecturer in Digital History and Archives at the University of Sussex
         and a historian of interactions between people and things.
     es: |
-        James Baker es curador en el equipo de investigación digital de la Biblioteca Británica e historiador del siglo XVIII inglés.
+        James Baker es profesor titular en Historia Digital y Archivos en la Universidad de Sussex; su línea de investigación es el cruce histórico de personas y objetos.
     fr: |
         James Baker est maître de conférences en histoire numérique et en archivistique à l'Université du Sussex; il est spécialiste en histoire des interactions entre personnes et objets.
-        James Baker es profesor titular en Historia Digital y Archivos en la Universidad de Sussex; su línea de investigación es el cruce histórico de personas y objetos.
-  team_roles:
+    team_roles:
    - editorial
    - board
    - archive
@@ -594,7 +593,7 @@
     es: |
         Matthew Lincoln es desarrollador de humanidades digitales en la Universidad Carnegie Mellon e historiador del arte de la Europa moderna.
     fr: |
-        Matthew Lincoln est spécialiste en analyse des données au Getty Research Institute et historien de l'art européen moderne.
+        Matthew Lincoln est développeur en humanités numériques à l'Université Carnegie Mellon et historien de l'art européen moderne.
   team_roles:
    - editorial
    - technical
@@ -764,12 +763,12 @@
     es: |
         Jessica Parr enseña en el Simmons College (Boston). Es especialista en la historia del mundo Atlántico moderno temprano.
     fr: |
-        Jessica Parr est enseignante au Simmons College à Boston, et elle travaille pour le projet PLACE de l'Université du New Hampshire à Durham (UNH Durham).
+        Jessica Parr est maîtresse de conférences au Simmons College à Boston et spécialiste du monde atlantique à l'époque moderne.
   interests:
     en: |
         She is interested in working with authors on geospatial lessons as well as textual-geospatial lessons.
     fr: |
-        Elle souhaite plus particulièrement travailler avec des auteurs proposant des lessons sur l'utilisation de données geospatiales et textuelles-geospatiales. Elle est spécialiste de l'histoire du monde atlantique à l'époque moderne.
+        Elle souhaite plus particulièrement travailler avec des auteur(e)s proposant des lessons sur l'utilisation de données geospatiales et textuelles-geospatiales.
   team_roles:
    - editorial
    - board
@@ -883,7 +882,7 @@
     es: |
         Anna-Maria Sichani es especialista en Historia cultural y literaria, y en Humanidades Digitales. Actualmente, trabaja como investigadora en Comunicación y Medios en la Universidad de Sussex.
     fr: |
-        Anna-Maria Sichani est spécialiste de histoire culturelle et de l'histoire de de la littérature, mais aussi des humanités numériques. Elle est actuellement chercheuse en histoire des médias à l'Université du Sussex.
+        Anna-Maria Sichani est spécialiste de l'histoire culturelle et de l'histoire de la littérature, mais aussi des humanités numériques. Elle est actuellement chercheuse en histoire des médias à l'Université du Sussex.
   team_roles:
    - editorial
    - board
@@ -978,7 +977,7 @@
     es: |
         José Antonio Motilla es investigador de historia, arte, cultura y humanidades digitales en la Universidad Autónoma de San Luis Potosí, México. Director de la biblioteca "Ricardo B. Anaya" (San Luis Potosí, México).
     fr: |
-        José Antonio Motilla est chercheur en histoire, art, culture et humanités numériques à l'Université autonome de San Luis Potosí au Mexique et directeur de la bibliothèque Ricardo B. Anaya.
+        José Antonio Motilla est chercheur en histoire, art, culture et humanités numériques à l'Université autonome de San Luis Potosí au Mexique, et directeur de la bibliothèque Ricardo B. Anaya.
   team_roles:
    - spanish
    - board
@@ -1061,7 +1060,7 @@
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
             She is currently assigned to the Maison européenne des sciences de l'homme et de la société Lille Nord de France.
         es: |
-            Sofia Papastamkou es historiadora e investigadora en Humanidades Digitales en el Centre national de la recherche scientifique  (CNRS). Actualmente, su labor está asociada con Maison européenne des sciences de l'homme et de la société Lille Nord de France.
+            Sofia Papastamkou es historiadora e investigadora en Humanidades Digitales en el Centre national de la recherche scientifique (CNRS). Actualmente, su labor está asociada con Maison européenne des sciences de l'homme et de la société Lille Nord de France.
         fr: |
             Sofia Papastamkou est docteure en histoire et ingénieure d'études en humanités numériques au CNRS. Elle est affectée à la Maison européenne des sciences de l'homme et de la société Lille Nord de France.
 - name: Marie Puren
