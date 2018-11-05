@@ -1,5 +1,5 @@
 # Definitions of editorial sub teams.
-# 
+#
 # type: the tag added in ph_authors.yml
 # label: Short label to be displayed alongside the author bio, and in the roles definition list
 # definition: Brief description of that editorial team. If this is a derived label that uses the definition of another role, instead use...
@@ -22,7 +22,7 @@
   definition:
     en: Responsible for editorial work resulting in the review and publication of English-language lessons
     es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en inglés
-    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en anglais 
+    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en anglais
 - type: spanish
   label:
     en: Editorial Team (Spanish)
@@ -76,7 +76,7 @@
   definition:
     en: Responsible for the technical features that bring the content and peer review to our community
     es: Responsable de las características técnicas respecto al contenido y la revisión por pares a nuestra comunidad
-    fr: Responsable des aspects techniques rendant accessibles à notre communauté le contenu et l'évaluation par les pairs 
+    fr: Responsable des aspects techniques rendant accessibles à notre communauté le contenu et l'évaluation par les pairs
 - type: archive
   label:
     en: Archivist
@@ -85,7 +85,25 @@
   definition:
     en: Responsible for archiving the project
     es: Responsable del archivo del proyecto
-    fr: Responsable de l'archive du projet   
+    fr: Responsable de l'archive du projet
+- type: treasurer
+  label:
+    en: Treasurer
+    es: Tesorería
+    fr:
+  definition:
+    en: Responsible for project finances
+    es: Responsable de las finanzas del proyecto
+    fr:
+- type: sponsorship
+  label:
+    en: Sponsorship Coordinator
+    es: Coordinación de patrocinio
+    fr:
+  definition:
+    en: Responsible for managing relationships with our sponsors
+    es: Responsable de coordinar las relaciones con las y los patrocinadores
+    fr:
 # --- Derived roles ---
 - type: ombuds-es
   label:
