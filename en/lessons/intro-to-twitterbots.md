@@ -4,7 +4,7 @@ title: |
 authors:
 - Shawn Graham
 date: 2017-08-29
-reviewers: 
+reviewers:
 - Lee Skallerup Bessette
 - Adam Crymble
 - Nick Ruest
@@ -17,7 +17,7 @@ activity: presenting
 topics: [api]
 abstract: "An Introduction to Twitter Bots with Tracery
 
-This lesson explains how to create simple twitterbots using Tracery and the Cheap Bots Done Quick service. Tracery exists in multiple languages and can be integrated into websites, games, bots." 
+This lesson explains how to create simple twitterbots using Tracery and the Cheap Bots Done Quick service. Tracery exists in multiple languages and can be integrated into websites, games, bots."
 redirect_from: /lessons/intro-to-twitterbots
 
 ---
@@ -27,7 +27,7 @@ redirect_from: /lessons/intro-to-twitterbots
 This lesson explains how to create simple twitterbots using the [Tracery generative grammar](http://tracery.io) and the [Cheap Bots Done Quick](http://cheapbotsdonequick.com/) service. Tracery exists in multiple languages and can be integrated into websites, games, bots. You may fork it [on github here](https://github.com/galaxykate/tracery/tree/tracery2).
 
 ## Why bots?
-Strictly speaking, a twitter bot is a piece of software for automated controlling a Twitter account. When thousands of these are created and are tweeting more or less the same message, they have the ability to shape discourse on Twitter which then can influence other media discourses. Bots of this kind [can even be seen as credible sources of information](http://www.sciencedirect.com/science/article/pii/S0747563213003129). Projects such as [Documenting the Now](http://www.docnow.io/) are creating tools to allow researchers to create and query archives of social media around current events - and which will naturally contain many bot-generated posts. In this tutorial, I want to demonstrate how one can build a simple twitterbot so that, knowing how they operate, historians may more easily spot the bots in our archives - and perhaps counter with bots of their own. 
+Strictly speaking, a twitter bot is a piece of software for automated controlling a Twitter account. When thousands of these are created and are tweeting more or less the same message, they have the ability to shape discourse on Twitter which then can influence other media discourses. Bots of this kind [can even be seen as credible sources of information](http://www.sciencedirect.com/science/article/pii/S0747563213003129). Projects such as [Documenting the Now](http://www.docnow.io/) are creating tools to allow researchers to create and query archives of social media around current events - and which will naturally contain many bot-generated posts. In this tutorial, I want to demonstrate how one can build a simple twitterbot so that, knowing how they operate, historians may more easily spot the bots in our archives - and perhaps counter with bots of their own.
 
 But I believe also that there is space in digital history and the digital humanities more generally for creative, expressive, artistic work. I belive that there is space for programming historians to use the affordances of digital media to create _things_ that could not otherwise exist to move us, to inspire us, to challenge us. There is room for satire; there is room for comment. With Mark Sample, I believe that there is a need for '[bots of conviction](https://medium.com/@samplereality/a-protest-bot-is-a-bot-so-specific-you-cant-mistake-it-for-bullshit-90fe10b7fbaa)'.
 
@@ -70,10 +70,10 @@ Some suggestions to get you thinking, from individuals on Twitter who responded 
 — Cory Taylor (@CoryTaylor_) April 22, 2017
 
 Given that so much historical data is expressed on the web as [JSON](http://json.org/), a bit of digging should find you data that you can actually fold into your bot.
- 
+
 My method is that of the bricoleur, the person who adapts and pastes together the bits and bobs of code that he finds; in truth, most programming functions this way. There are many packages available that will interface with Twitter's API, in various languages. There is little 'programming' in this lesson in the sense of writing bots in (for instance) Python. In this introductory lesson, I will show you how to build bots that tell stories, that write poetry, that do wonderful things using Tracery.io as our _generative grammar_, in conjunction with the Cheap Bots Done Quick service to host the bot. For more tutorials on building and hosting Twitter bots with other services, see [the Botwiki tutorial list](https://botwiki.org/tutorials/twitterbots/).
 
-My most successful bot has been [@tinyarchae](http://twitter.com/tinyarchae), a bot that tweets scenes from a horrible dsyfunctional archaeological excavation project. Every archaeological project deals with problems of sexism, abuse, and bad faith; @tinyarchae pushes the stuff of conference whispers to a ridiculous extreme. It is a caricature that contains a kernel of uncomfortable truth. Other bots I have built glitch [archaeological photography](https://twitter.com/archaeoglitch); one is actually useful, in that it is [tweeting out new journal articles in archaeology](https://twitter.com/botarchaeo) and so serves as a research assistant. (For more thoughts on the role bots play in public archaeology, see this [keynote](https://electricarchaeology.ca/2017/04/27/bots-of-archaeology-machines-writing-public-archaeology/) from the [Public Archaeology Twitter Conference](https://publicarchaeologyconference.wordpress.com/)).
+My most successful bot has been [@tinyarchae](http://twitter.com/tinyarchae), a bot that tweets scenes from a horrible dsyfunctional archaeological excavation project. Every archaeological project deals with problems of sexism, abuse, and bad faith; @tinyarchae pushes the stuff of conference whispers to a ridiculous extreme. It is a caricature that contains a kernel of uncomfortable truth. Other bots I have built glitch [archaeological photography](https://twitter.com/archaeoglitch); one is actually useful, in that it is [tweeting out new journal articles in archaeology](https://twitter.com/botarchaeo) and so serves as a research assistant. (For more thoughts on the role bots play in public archaeology, see this [keynote](https://electricarchaeology.ca/2017/04/27/bots-of-archaeology-machines-writing-public-archaeology/) from the [Public Archaeology Twitter Conference](http://web.archive.org/web/20180131161516/https://publicarchaeologyconference.wordpress.com/)).
 
 # Planning: What will your bot do?
 
@@ -85,7 +85,7 @@ and students would fill in the blanks appropriately. It was silly; and it was fu
 
 We are going to start by sketching out a _replacement grammar_. The conventions of this grammar were developed by Kate Compton ([@galaxykate](https://twitter.com/galaxykate) on Twitter); it's called [Tracery.io](http://tracery.io). It can be used as a javascript library in webpages, in games, and in bots. A replacement grammar works rather similarly to the madlibs you might remember as a child.
 
-*In order to make it clear what the _grammar_ is doing, we are going to _not_ create a history bot for the time being. I want to make it clear what the grammar does, and so we will build something surreal to surface how that grammar works.* 
+*In order to make it clear what the _grammar_ is doing, we are going to _not_ create a history bot for the time being. I want to make it clear what the grammar does, and so we will build something surreal to surface how that grammar works.*
 
 Let's imagine that you would like to create a bot that speaks with the voice of a potted plant - call it, _plantpotbot_. What kinds of things might _plantpotbot_ say? Jot down some ideas-
 
@@ -174,7 +174,7 @@ Every Tracery grammar is actually a JSON object consisting of key/value pairs, w
 }
 ```
 
-(of course, the number of symbols and rules is immaterial, but make sure the commas are right!)  
+(of course, the number of symbols and rules is immaterial, but make sure the commas are right!)
 
 It is good practice to copy that JSON to a text editor and save another copy somewhere safe.
 
