@@ -102,6 +102,31 @@ Home Page
     width: 75%;
   }
 
+  .home-logo {
+    margin: 0.8rem;
+  }
+
+  .media-body a:link {
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  .home-logo img {
+    width: 200px;
+  }
+
+  .en-back {
+    background-color: #444444;
+  }
+
+  .es-back {
+    background-color: #535D7F;
+  }
+
+  .fr-back {
+    background-color: #3D7C81;
+  }
+
 /* =============================================================================
 Lesson Headers
 ========================================================================== */
