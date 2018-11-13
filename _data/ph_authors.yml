@@ -1035,3 +1035,27 @@
   bio:
       en: |
           Alexander Brey is a Research Associate at the Center for Advanced Study in the Visual Arts. His research investigates mechanisms for and perceptions of cross-cultural exchange in medieval visual culture, with a focus on the Islamic world.
+
+- name: Zoe LeBlanc
+  github: ZoeLeBlanc
+  twitter: zoe_leblanc
+  email: zgleblanc@gmail.com
+  url: "http://zoeleblanc.com"
+  team: true
+  team_start: 2018
+  institution: University of Virginia
+  sortname: LeBlanc
+  affiliation:
+    en: |
+        University of Virginia, USA.
+    es: |
+        Universidad de Virginia, Estados Unidos.
+  bio:
+    en: |
+        Zoe LeBlanc is a digital humanities developer in the Scholars' Lab in the University of Virginia Library.
+    es: |
+        Zoe LeBlanc es desarrolladora de proyectos de Humanidades Digitales en el Scholars' Lab de la Universidad de Virginia Library.
+  team_roles:
+   - editorial
+   - board
+   - technical
