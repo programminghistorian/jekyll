@@ -318,6 +318,10 @@ lesson-difficulty:
     en: High
     es: Alto
     fr: Difficile
+lesson:
+  en: lessons
+  es: lecciones
+  fr: lecons
 
 # Included in the lesson.html layout when a lesson has been marked as retired, and is not to be displayed on the main directory.
 retired:
