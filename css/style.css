@@ -103,7 +103,7 @@ Home Page
   }
 
   .home-logo img {
-    width: 250px;
+    width: 300px;
   }
 
   .home-logo a h1 {
@@ -112,6 +112,10 @@ Home Page
 
   .home-logo {
     color: #fff;
+  }
+
+  .home-logo li {
+    font-size: 1.2rem;
   }
 
   .en-back {
