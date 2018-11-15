@@ -102,17 +102,16 @@ Home Page
     width: 75%;
   }
 
-  .home-logo {
-    margin: 0.8rem;
-  }
-
-  .media-body a:link {
-    font-size: 1.5rem;
-    color: #333;
-  }
-
   .home-logo img {
-    width: 200px;
+    width: 250px;
+  }
+
+  .home-logo a h1 {
+    color: #fff;
+  }
+
+  .home-logo {
+    color: #fff;
   }
 
   .en-back {

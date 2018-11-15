@@ -1,8 +1,8 @@
-<div class="card {{ include.lang }}-back">
+<div class="card {{ include.lang }}-back m-4 p-3">
   <div class="media home-logo">
-    <img class="mr-3 align-self-center" src="images/logos/ph-{{ include.lang }}.svg" alt="Generic placeholder image">
+    <a href="/{{ include.lang }}"><img class="mr-3 align-self-center" src="images/logos/ph-{{ include.lang }}.svg" alt="Generic placeholder image"></a>
     <div class="media-body align-items-center">
-      <a href="/en"><h1 class="mt-0">{{ site.data.snippets.journal-title[include.lang] }}</h1></a>
+      <a href="/{{ include.lang }}"><h1 class="mt-0">{{ site.data.snippets.journal-title[include.lang] }}</h1></a>
       <hr>
       <p class="home-lesson-count">{{ site.pages | where: "lesson", "true" |  where: "lang", include.lang | size }} {{ site.data.snippets.lesson[include.lang] }}</p>
       <p class="home-issn">ISSN: {{ site.data.snippets.issn[include.lang] }}</p>
