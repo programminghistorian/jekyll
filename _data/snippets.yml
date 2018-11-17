@@ -438,3 +438,12 @@ the-authors:
     en: authors
     es: de los autores
     fr: des auteur(e)s
+
+# Home Page
+project-summary:
+  en: |
+    We publish novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching.
+  es: |
+    Publicamos tutoriales revisados por pares dirigidos a humanistas que quieran aprender  una amplia gama de herramientas digitales, técnicas computacionales y flujos de trabajo útiles para investigar y enseñar.
+  fr: |
+    Nous publions des tutoriels évalués par des pairs qui permettent l'initiation à et l'apprentissage d'un large éventail d'outils numériques, de techniques et de flux de travail pour faciliter la recherche et l'enseignement en sciences humaines et sociales.
