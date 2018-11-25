@@ -166,16 +166,17 @@ menu-translation-concordance:
 issn:
   en: 2397-2068
   es: 2517-5769
+  fr: 2631-9462
 
 # site footer
 footer:
   license:
     en: |
-      _The Programming Historian_ is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license.
+      _The Programming Historian_ (ISSN: 2397-2068) is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license.
     es: |
-      _The Programming Historian en español_ (ISSN: 2397-2068) se publica con una licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es).
+      _The Programming Historian en español_ (ISSN: 2517-5769) se publica con una licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es).
     fr: |
-      _The Programming Historian en français (ISSN: 2397-2068) est publié sous licence [CC-BY] (https://creativecommons.org/licenses/by/4.0/deed.fr).
+      _The Programming Historian en français (ISSN: 2631-9462) est publié sous licence [CC-BY] (https://creativecommons.org/licenses/by/4.0/deed.fr).
 
   gh-hosted:
     en: Hosted on GitHub
