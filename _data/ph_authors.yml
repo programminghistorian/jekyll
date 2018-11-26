@@ -1068,17 +1068,17 @@
   github: mpuren
   team: true
   team_start: 2018
-  institution: INRIA
+  institution: LARHRA
   sortname: Puren
-  affiliation: INRIA Paris
+  affiliation: LARHRA Lyon
   team_roles:
     - french
     - board
   bio:
         en: |
-            Marie Puren is an historian and research engineer in the ALMAnaCH team at Inria Paris.
+            Marie Puren is an historian and a postdoctoral researcher in History and Digital Humanities at LARHRA (CNRS) in Lyon.
         fr: |
-            Marie Puren est historienne et ingénieure de recherche en humanités numériques dans l'équipe ALMAnaCH à Inria Paris.
+            Marie Puren est historienne et chercheuse post-doctorante en histoire et humanités numériques au LARHRA (CNRS) à Lyon.
 
 - name: Charlie Harper
   team: false
