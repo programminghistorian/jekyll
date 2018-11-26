@@ -15,7 +15,7 @@ redirect_from:
 
 ## Proposing a New Lesson
 
-If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, contact [Anandi Silva Knuppel] to discuss your idea. Getting in touch at an early stage will help you frame your lesson--especially identifying a target audience and expected skill level--and to pair you with the most appropriate editor.
+If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, complete a lesson [proposal form](/assets/forms/Lesson.Query.Form.txt) and contact [Anandi Silva Knuppel] to discuss your idea. Getting in touch at an early stage will help you frame your lesson--especially identifying a target audience and expected skill level--and to pair you with the most appropriate editor.
 
 
 <div class="alert alert-success">
