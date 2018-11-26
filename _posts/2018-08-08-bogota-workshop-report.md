@@ -4,7 +4,7 @@ authors:
 - Adam Crymble
 - Maria José Afanador-Llach
 layout: post
-categories: post
+categories: posts
 ---
 
 <p><figure><img src="/images/bogota-workshop-report/Bogota1.png" /><figcaption>Group Photograph of workshop participants in Bogota, 2018.</figcaption></figure></p>
