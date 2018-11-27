@@ -22,7 +22,7 @@ collection: lessons
 slug: creating-mobile-augmented-reality-experiences-in-unity
 ---
 
-This lesson serves as an introduction to creating mobile augmented reality applications in the Unity game engine. Augmented reality (AR) can be defined as the overlaying of digital content (images, video, text, sound, etc.) onto physical objects or locations, and it is typically experienced by looking through the camera lens of an electronic device such as a smartphone, tablet, or optical head-mounted display (e.g. Microsoft Hololens). Although AR is a cutting-edge, complex technology, there are a number of user-friendly platforms that allow people with no previous coding experience to create compelling augmented reality experiences. 
+This lesson serves as an introduction to creating mobile augmented reality applications in the Unity game engine. Augmented reality (AR) can be defined as the overlaying of digital content (images, video, text, sound, etc.) onto physical objects or locations, and it is typically experienced by looking through the camera lens of an electronic device such as a smartphone, tablet, or optical head-mounted display (e.g. Microsoft Hololens). Although AR is a cutting-edge, complex technology, there are a number of user-friendly platforms that allow people with no previous coding experience to create compelling augmented reality experiences.
 
 {% include toc.html %}
 
@@ -38,7 +38,7 @@ This lesson was written using Unity 2017.2 and Vuforia 7. To access this version
 
 ## Software Requirements
 
-For this lesson, you will need to download the following software applications and SDKs (software development kits). Several of the applications used in this tutorial (Unity and Android SDK) are very large and will take some time to download and install. You might want to complete the downloads section of this tutorial while working on something else. All of the steps in this lesson can be completed using either the free or paid versions of the software. This lesson was written using Unity 2017.2. 
+For this lesson, you will need to download the following software applications and SDKs (software development kits). Several of the applications used in this tutorial (Unity and Android SDK) are very large and will take some time to download and install. You might want to complete the downloads section of this tutorial while working on something else. All of the steps in this lesson can be completed using either the free or paid versions of the software. This lesson was written using Unity 2017.2.
 
 * Unity 2017.2
 * Vuforia 7
@@ -56,7 +56,7 @@ Novel applications of AR continue to surface  within a variety of industries: [m
 
 Since at least 2010, [digital artists](https://manifestarblog.wordpress.com/about/) have been creating AR applications for social advocacy and cultural intervention. For example, Tamiko Thiel's AR project [Clouding Green](http://www.tamikothiel.com/AR/clouding-green.html) reveals the carbon footprint of specific technology companies. More recently, a group of New York artists created a ["vandalized" version of Jeff Koon's Snapchat sculptures](https://techcrunch.com/2017/10/08/jeff-koons-augmented-reality-snapchat-artwork-gets-vandalized/) as a way of protesting the digital takeover of public AR spaces.
 
-At the [Trace Initiative](http://english.ufl.edu/trace_arcs/), a digital humanities organization in the University of Florida English Department, we seek to build upon the work of these artists by promoting the creation and circulation of humanities-focused mobile AR applications. We released our first AR application [to the Google Play store](https://play.google.com/store/apps/details?id=com.Trace.Dollars&hl=en) in spring 2016.
+At the [Trace Initiative](http://web.archive.org/web/20180421163517/http://english.ufl.edu/trace_arcs/), a digital humanities organization in the University of Florida English Department, we seek to build upon the work of these artists by promoting the creation and circulation of humanities-focused mobile AR applications. We released our first AR application [to the Google Play store](https://play.google.com/store/apps/details?id=com.Trace.Dollars&hl=en) in spring 2016.
 
 The augmented reality software used in this tutorial relies on image-recognition technology, meaning that it requires some kind of visual trigger (a logo, painting, etc.) to know when to display digital content. In the example application depicted in the image above, the application is programmed to only display the digital image of John C. Calhoun if the camera "recognizes" the specific historical marker with which it is associated. For this lesson, you will augment the cover of a physical book with a digital overlay that displays a picture of the author. You could use the technical skills gained throughout this tutorial to create digital overlays for a variety of texts such as historical documents or signs. For example, you might create an application that allows readers to scan the pages of a book or document and access historical context or critique related to that specific page. Humanities scholars could also use this tutorial to create site-specific AR applications to educate visitors about cultural aspects of a location that have been excluded from its historical presentation.
 
@@ -68,7 +68,7 @@ However, before you decide to dive into AR development in the Unity interface, i
 
 HP Reveal is a fantastic AR creation platform that can be learned fairly quickly. I would highly recommend it for classroom usage and for smaller projects with simple multimedia overlays such as images or short videos. However, online creation platforms like HP Reveal have their limitations. When you create an overlay in HP Reveal, users can only access it through the HP Reveal application. This leaves the AR creator with no control over the design of the application interface. Moreover, HP Reveal requires that users have internet acess when using the application, which makes it difficult to create site-specific AR applications in places where there is little to no internet connectivity. With Vuforia, however, you can create stand-alone AR applications that can be downloaded and stored in the mobile device's memory and thus do not require that users to have internet access. Consult the table below to help you decide which platform is best suited for your AR development needs.
 
-|            | HP Reveal        | Unity/Vuforia    |     
+|            | HP Reveal        | Unity/Vuforia    |
 |------------| ------------- |-------------|
 | **Type**           | online platform    | computer program |
 | **Use**           | small projects with simple overlays     | large projects with complex overlays, site-specific applications |
@@ -86,20 +86,20 @@ Since the release of Unity 2017.2, the Vuforia SDK is integrated into the Unity 
 
 Download and install the [Java Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your operating system. At this time, Unity is incompatible with JDK 10.
 
-Click the file once it has finished downloading, and follow the installation guide. 
+Click the file once it has finished downloading, and follow the installation guide.
 
 ### Android SDK Tools (only if testing on an Android device)
 
-Go to the [Android Studio website](https://developer.Android.com/studio/index.html) and choose Standard install. Android Studio is the official IDE (integrated development environment) for creating Android applications. Download and install Android Studio and follow the instructions below. Keep in mind that Android Studio is a large program that will take time to download. 
+Go to the [Android Studio website](https://developer.Android.com/studio/index.html) and choose Standard install. Android Studio is the official IDE (integrated development environment) for creating Android applications. Download and install Android Studio and follow the instructions below. Keep in mind that Android Studio is a large program that will take time to download.
 
-1. Start the SDK manager after installation by choosing the Configure option on the first splash screen. Install any packages that are automatically selected, but make sure that the Android SDK Platform-tools and Android SDK Build-tools options are both selected. 
+1. Start the SDK manager after installation by choosing the Configure option on the first splash screen. Install any packages that are automatically selected, but make sure that the Android SDK Platform-tools and Android SDK Build-tools options are both selected.
 2. Scroll down to the folder labelled Extras and select the Android Support Repository and Google USB Driver. The Google USB Driver is only available for Windows.
 3. Click Install packages.
 4. If you are trying to install the Android packages but keep getting an error about temp folders not being created, close the manager and go to the Android-sdk folder on your computer. Right click the "SDK Manager" application file and select "Run as administrator."
 
 ### Xcode
 
-To build iOS applications with Unity, you need: 
+To build iOS applications with Unity, you need:
 
 1. An apple device (iPhone, iPad, etc.) running iOS 9 or later
 2. A Mac running OS X 10.10.5 or later. If you meet these technical requirements, download [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) from the Apple app store.
@@ -108,37 +108,37 @@ The remaining steps in this lesson are completed with a Windows 10 operating sys
 
 ## Connect the Android SDK and Java Development Kit to Unity
 
-In Unity, go to Edit > Preferences > External Tools (or Unity > Preferences > External Tools on a Mac) and point Unity to the file locations for the Android Tools (Android SDK) and Java Development Kit (JDK) you just installed. If you do not see options for adding the Android SDK and Java SDK, then you will need to close Unity and restart the Unity Download Assistant and make sure that "Android Build Support" is selected on the Components dialog box. 
+In Unity, go to Edit > Preferences > External Tools (or Unity > Preferences > External Tools on a Mac) and point Unity to the file locations for the Android Tools (Android SDK) and Java Development Kit (JDK) you just installed. If you do not see options for adding the Android SDK and Java SDK, then you will need to close Unity and restart the Unity Download Assistant and make sure that "Android Build Support" is selected on the Components dialog box.
 
 {% include figure.html filename="ar-dev-2.png" caption=" Components dialog box for Unity 2017.2. Check the Android Build Support option. Check the iOS Build Support option if you working on a Mac."%}
 
-Unity should automatically detect the location of the Java Development Kit once it has finished installing. If you are working on Windows machine and Unity is not detecting the JDK, 
+Unity should automatically detect the location of the Java Development Kit once it has finished installing. If you are working on Windows machine and Unity is not detecting the JDK,
 
-1. Restart Unity and go to Edit > Preferences. 
-2. Navigate to External Tools and ensure that the *JDK* field is pointing to the Java Development Kit. 
+1. Restart Unity and go to Edit > Preferences.
+2. Navigate to External Tools and ensure that the *JDK* field is pointing to the Java Development Kit.
 3. Click the Browse button next to the JDK field and select the *jdk[version number]* folder in the C:/Program Files/Java folder. Leave the *NDK* field blank.
 4. Click the Browse button next to the SDK field and point it to the Android-sdk folder on your computer. This folder should be located in the C:/Program Files/Android folder. If it is not in this folder, then look for it in C:/Users/[your username]/AppData/Local/Android.
 
 {% include figure.html filename="ar-dev-3.png" caption="Connect the Android SDK Tools and the Java Development Kit to your Unity project." %}
 
-If you do not see the "AppData" folder, open your file explorer and select the "View" option in the top menu. Select the box labelled "Hidden items." 
+If you do not see the "AppData" folder, open your file explorer and select the "View" option in the top menu. Select the box labelled "Hidden items."
 
 {% include figure.html filename="ar-dev-4.png" caption="Check the 'Hidden items' box in your file explorer View options." %}
-  
+
 ## Navigating Unity
 
 This section covers some of the basic knowledge you will need while working with the Unity Editor. If you are already familiar with the Unity Interface, feel free to skip down to "**Setting up Unity for AR Development**."
 
-1. Open Unity and create a new 3D project. 
-2. Select the "Window" option in the top menu and go to "Layouts". 
-3. Select the "Default" layout option. 
+1. Open Unity and create a new 3D project.
+2. Select the "Window" option in the top menu and go to "Layouts".
+3. Select the "Default" layout option.
 4. Starting from the upper left and moving clockwise, you should see four panels labelled "Hierarchy," "Scene," "Inspector," and "Project."
 
 {% include figure.html filename="ar-dev-5.png" caption="Default layout of the Unity interface." %}
 
 ### Hierarchy Panel
 
-Navigate to the Hierarchy panel in the upper left. If this menu is closed, click the small black arrow in the dropdown menu to expand. The Hierarchy panel should have a Main Camera and Directional Light included by default. Items that appear in the Hierarchy panel are referred to as game objects, and any game objects listed in the Hierarchy panel are visually represented in the scene panel. Notice how the Directional Light game object appears in the scene panel as a sun and camera icon. To locate the position of a game object within your scene, select it in the Hierarchy panel, place your cursor within the scene panel, and then strike the "F" key on your keyboard to find the game object. 
+Navigate to the Hierarchy panel in the upper left. If this menu is closed, click the small black arrow in the dropdown menu to expand. The Hierarchy panel should have a Main Camera and Directional Light included by default. Items that appear in the Hierarchy panel are referred to as game objects, and any game objects listed in the Hierarchy panel are visually represented in the scene panel. Notice how the Directional Light game object appears in the scene panel as a sun and camera icon. To locate the position of a game object within your scene, select it in the Hierarchy panel, place your cursor within the scene panel, and then strike the "F" key on your keyboard to find the game object.
 
 {% include figure.html filename="ar-dev-6.png" caption="The game objects in the Hierarchy panel are represented visually in the scene panel." %}
 
@@ -157,8 +157,8 @@ Navigate to the bottom of the Unity interface where you will find a panel labell
 Next, you need to setup unity for AR development.
 
 1. Navigate to the GameObject dropdown menu and select "Vuforia > AR Camera." If a dialog box appears requesting that you import additional assets, select "Import."
-2. Select "Vuforia > Image" in the GameObject dropdown menu to add an Image Target to your scene. 
-3. Locate the directional widget in the top right corner of your scene panel. Click the green y-axis option of your directional widget. This will make the green arrow disappear and shift your perspective in the scene panel to a y-axis birds-eye view of your project. 
+2. Select "Vuforia > Image" in the GameObject dropdown menu to add an Image Target to your scene.
+3. Locate the directional widget in the top right corner of your scene panel. Click the green y-axis option of your directional widget. This will make the green arrow disappear and shift your perspective in the scene panel to a y-axis birds-eye view of your project.
 
 {% include figure.html filename="ar-dev-8.png" caption="Click the green y-axis option of your directional widget." %}
 
@@ -166,15 +166,15 @@ Select the ImageTarget game object in the Hierarchy panel and strike the "F" key
 
 Go to the [Vuforia developer portal](https://developer.vuforia.com/) to create your free Vuforia account and generate a development license key for your application.
 
-1. Select "Register" in the upper right corner. 
-2. Once your account is setup, select "Develop" in the menu panel and then "License Manager." 
-3. Select "Get Development Key" on the License Manager page. 
+1. Select "Register" in the upper right corner.
+2. Once your account is setup, select "Develop" in the menu panel and then "License Manager."
+3. Select "Get Development Key" on the License Manager page.
 4. On the "Add a free Development License Key" page, give your application a name and agree to the terms.
 5. To access your license key, return to the "License Manager" page in the Vuforia developer portal and click the application name you just created. Copy the alphanumeric string on the right.
-6. Return to Unity and File > Build Setting and click the "Player Settings" button in the bottom of the pop up window. 
+6. Return to Unity and File > Build Setting and click the "Player Settings" button in the bottom of the pop up window.
 7. Navigate back to the Inspector panel and click the "XR Settings" option located at the bottom of the accordion menu. Select "Vuforia Augmented Reality Support." Accept the Vuforia license in Unity.
 8. Select ARCamera in the Hierarchy pane. In the inspector panel, click the "Open Vuforia Configuration" button in the Vuforia Behavious (Script)" component. Copy and paste your license key in the App License Key text field.
-9. Navigate to "File > Save Scene as..." and give your scene a name. By default, Unity will save your scenes to the "Assets" folder of your project. 
+9. Navigate to "File > Save Scene as..." and give your scene a name. By default, Unity will save your scenes to the "Assets" folder of your project.
 
 ## Convert your Image Target to a Dataset
 
@@ -192,7 +192,7 @@ If you are taking a picture of your book cover, make sure that there are no extr
 
 {% include figure.html filename="ar-dev-11.png" caption="Crop out the area around the book." %}
 
-Next, you will need to upload your book cover to Vuforia in order to code it with tracking information. 
+Next, you will need to upload your book cover to Vuforia in order to code it with tracking information.
 
 1. Go to the [Vuforia developer portal](https://developer.vuforia.com/) and click "Develop" in the top menu and then select "Target Manager."
 2. Click the "Add Database" button on the Target Manager page. In the dialog box that appears, give your database a name and select the device option. Click "Create."
@@ -204,7 +204,7 @@ Vuforia assigns target images a feature tracking rating on a scale of 1 to 5 sta
 
 {% include figure.html filename="ar-dev-12.png" caption="Vuforia's augmentability rating for the book cover." %}
 
-The yellow markers represent the areas in the image that your application will use to determine if it is looking at the proper image target. If you notice that Vuforia is tracking unstable elements in your image (e.g. shadow, person, etc.), then you will need to re-edit or choose a different image. 
+The yellow markers represent the areas in the image that your application will use to determine if it is looking at the proper image target. If you notice that Vuforia is tracking unstable elements in your image (e.g. shadow, person, etc.), then you will need to re-edit or choose a different image.
 
 If your image is given a good augmentability rating (anything between 3-5 stars should work), access the Target Manager page, then select your image and click "Download Database." If you were creating an AR application with multiple Image Targets, you would want to convert all of your images through Vuforia's developer portal before downloading them as a Unity package.
 
@@ -212,9 +212,9 @@ If your image is given a good augmentability rating (anything between 3-5 stars 
 
 Select Unity Editor and download the package. An Import dialog box will appear in Unity; click "Import" to finish.
 
-## Import the Image Target 
- 
-Select the ImageTarget GameObject in the project Hierarchy panel. Navigate to the inspector panel and select the drop-down menu of the Database parameter in the Image Target Behaviour. Select the name of the database you created earlier. The ImageTarget game object should now be associated with your book cover. 
+## Import the Image Target
+
+Select the ImageTarget GameObject in the project Hierarchy panel. Navigate to the inspector panel and select the drop-down menu of the Database parameter in the Image Target Behaviour. Select the name of the database you created earlier. The ImageTarget game object should now be associated with your book cover.
 
 Zoom into your Image Target game object by selecting it in the Hierarchy panel and striking the "F" key with your cursor hovering over the scene panel. Click the green y-axis in the directional widget of your scene panel to snap to a bird's-eye view of the Image Target.
 
@@ -226,19 +226,19 @@ First, find an image that you want to use as an overlay. If your application is 
 
 {% include figure.html filename="ar-dev-14.png" caption="Convert overlay image to a sprite" %}
 
-Next, drag the sprite you just imported onto your "Image Target" game object in the project Hierarchy. 
+Next, drag the sprite you just imported onto your "Image Target" game object in the project Hierarchy.
 
 {% include figure.html filename="ar-dev-15.gif" caption="Attach your author image as a child of your ImageTarget game object." %}
 
 The sprite is now a "child" of the Image Target game object and will only appear if the ARCamera recognizes the Image Target.
 
-The position of your image overlay (the author image) in the scene view is the same position that it will appear when scanned with a mobile device camera. For example, if you place the author image at the top of the book then it will also appear at the top of the book cover when your user scans it. 
+The position of your image overlay (the author image) in the scene view is the same position that it will appear when scanned with a mobile device camera. For example, if you place the author image at the top of the book then it will also appear at the top of the book cover when your user scans it.
 
 Next, you will need to adjust the size and position of your author image to center it on your book cover using the translate, scale, and rotate tools located in the upper left of the Unity editor interface. Use the instructions for each of these tools below until your author image is positioned on top of your book cover. Remember to use the "F" key to locate your overlay or image target within the scene view.
 
-To move the author image, 
-1. Select the "translate" tool from the button-menu directly above the Hierarchy panel. 
-2. Select the author image in the Hierarchy panel. You can now move your author image in the x, y, or z axis by clicking on dragging on the red, blue, or green arrows. 
+To move the author image,
+1. Select the "translate" tool from the button-menu directly above the Hierarchy panel.
+2. Select the author image in the Hierarchy panel. You can now move your author image in the x, y, or z axis by clicking on dragging on the red, blue, or green arrows.
 3. Use the green y-axis arrow to position your author image slightly above the book cover. Your overlay should have a slightly higher y-axis value (only about .1 or .2) than your Image Target. You can check these values in the Transform > Position component in your inspector panel.
 
 {% include figure.html filename="ar-dev-16.gif" caption="Use the Translate tool to move game objects in your scene view." %}
@@ -261,7 +261,7 @@ Try the following steps if you cannot find your author image in the scene view:
 
 1. Select the author image in the Hierarchy panel and navigate to its "Transform" component in the inspector panel. click the small cog icon in the upper right corner of the "Transform" component and select "Reset."
 2. Use the "F" key to search for any game object. Make sure the game object you are searching for is selected in the Hierarchy panel and that your cursor is within the bounds of the scene view.
-3. Select the hand tool (left-most option) in the transform menu and adjust your perspective in the scene view. Hold the Alt/Option button on your keyboard to adjust your perspective in 3D space. 
+3. Select the hand tool (left-most option) in the transform menu and adjust your perspective in the scene view. Hold the Alt/Option button on your keyboard to adjust your perspective in 3D space.
 4. Use the translate, scale, and rotate tools described above to reposition your author image on top of the book cover.
 
 ## Create a Simple User Interface
@@ -272,23 +272,23 @@ Next, navigate to the Hierarchy panel and select "Create > UI > Image." Select t
 
 {% include figure.html filename="ar-dev-20.gif" caption="Select the 2D view in your scene menu and expand the Canvas image." %}
 
-Next, add some instructions to your UI by 
+Next, add some instructions to your UI by
 
-1. Selecting "Create > UI > Text." 
-2. In the inspector panel, write some instructions in the text field, such as "Scan this Image." 
+1. Selecting "Create > UI > Text."
+2. In the inspector panel, write some instructions in the text field, such as "Scan this Image."
 3. Position your text box directly below your book cover and modify the font and color accordingly.
 
 {% include figure.html filename="ar-dev-21.gif" caption="Position the UI instructions directly below the book cover." %}
 
-Before you can add functionality to the UI, you will need to combine your Canvas elements into a single game object. 
+Before you can add functionality to the UI, you will need to combine your Canvas elements into a single game object.
 
-1. Select "Create > Create Empty." This will add an empty GameObject to your project Hierarchy. 
+1. Select "Create > Create Empty." This will add an empty GameObject to your project Hierarchy.
 2. Rename this GameObject "Finder" and make it a child of the Canvas by dragging it into the Canvas game object.
 3. Drag the Image and Text game objects and make them children of your new "Finder" game object.
 
 {% include figure.html filename="ar-dev-22.gif" caption="Create a Finder game object to hold your Image and Text game objects." %}
 
-For this next step of the UI design, you will need to modify Vuforia's "Default Trackable Event Handler" so that your "Finder" game object disappears from the user's view once the Image Target has been found by the application. 
+For this next step of the UI design, you will need to modify Vuforia's "Default Trackable Event Handler" so that your "Finder" game object disappears from the user's view once the Image Target has been found by the application.
 
 Go to the search bar within your project Hierarchy panel and search for "DefaultTrackableEventHandler" C# script. Double-click to open in Unity's Monodevelop. To create a public game object to store the "Finder" game object you just created, navigate to the section of the script labelled "#region PRIVATE_MEMBER_VARIABLES" (or "#region PROTECTED_MEMBER_VARIABLES") and add the following script within this region. Save your changes:
 
@@ -317,10 +317,10 @@ These lines of code tell the application to disable the Finder game object if th
 
 If you do not have a webcam on your computer, skip to the section "Building Your Application to a Mobile Device."
 
-To test your application, 
+To test your application,
 
-1. Save your scene and press the play icon in the menu above the scene view. 
-2. Give Unity permission to access your webcam, and return to the scene view by clicking on the Scene tab to the left of the Game tab. 
+1. Save your scene and press the play icon in the menu above the scene view.
+2. Give Unity permission to access your webcam, and return to the scene view by clicking on the Scene tab to the left of the Game tab.
 3. Hold your book cover in front of your webcam. You should see your UI overlaid onto the camera view. Place your book cover into the camera view and the author image should appear overlaid on top of it.
 
 {% include figure.html filename="ar-dev-23.gif" caption="Place your book cover within the webcam view while in play mode." %}
@@ -331,18 +331,18 @@ Vuforia 7.2 should automatically load and activate your Image Target Database. H
 
 Return to Unity to setup your application for an Android or iOS build:
 
-1. Go to File > Build Settings. In the Platform section of the dialog box, select Android or iOS and click Switch Platform. 
+1. Go to File > Build Settings. In the Platform section of the dialog box, select Android or iOS and click Switch Platform.
 2. Select Add Open Scenes.
-3. click Player Settings and navigate to the inspector panel. 
-4. Change the Product Name to the name you want to use for your app (e.g. "Programming Historian Demo"). 
+3. click Player Settings and navigate to the inspector panel.
+4. Change the Product Name to the name you want to use for your app (e.g. "Programming Historian Demo").
 5. Scroll down in the inspector panel and select the Other Settings tab. Change the "Bundle Identifier" settings from com.Company.ProductName to a name that will be unique to your application, such as com.Demo.Steinbeck.
 
 ### Android
 
-To install your own applications on your Android device, 
+To install your own applications on your Android device,
 
 1. [Enable USB debugging](http://developer.Android.com/tools/device.html) by going to Setting > About Device.
-2. Tap the Build number seven times. 
+2. Tap the Build number seven times.
 3. Return to the previous screen and you should now see a Developer Options tab. Click it and make sure the option for USB debugging is checked.
 
 {% include figure.html filename="ar-dev-24.png" caption="Tap the 'Build Number' seven times." %}
@@ -391,18 +391,18 @@ If you are getting errors that your "Android Build Tools are out of date," open 
 
 ### iOS
 
-Unity cannot create iOS apps. Instead, it builds Xcode projects, which can then be opened in Xcode and built out to an iOS device. iOS applications also require a camera usage description and minimum iOS version to be set for all apps. To do these, 
+Unity cannot create iOS apps. Instead, it builds Xcode projects, which can then be opened in Xcode and built out to an iOS device. iOS applications also require a camera usage description and minimum iOS version to be set for all apps. To do these,
 
-1. Click "Player Settings..." and expand the option labelled "Other Settings." 
-2. Add a description in the text field labelled "Camera Usage Description" (e.g. "This application requires access to your device camera."). 
-3. Next, set the "Target Minimum iOS Version" to 9.0. Scroll to XR Settings and check "Vuforia Augmented Reality." 
+1. Click "Player Settings..." and expand the option labelled "Other Settings."
+2. Add a description in the text field labelled "Camera Usage Description" (e.g. "This application requires access to your device camera.").
+3. Next, set the "Target Minimum iOS Version" to 9.0. Scroll to XR Settings and check "Vuforia Augmented Reality."
 4. Click "Build" and name the project "ProgrammingHistorianLessonXcodeBuild."
 5. Open your project in Xcode. If Xcode asks if you would like to update your project to the recommended settings, select "perform changes" and wait for the project to update.
-6. Connect an iOS device to your computer with a USB cable.  You might have to wait a few minutes while Xcode prepares your device for app development. 
+6. Connect an iOS device to your computer with a USB cable.  You might have to wait a few minutes while Xcode prepares your device for app development.
 7. Link your apple account to Xcode by selecting Xcode > Preferences and choosing the Accounts tab. Sign in using the same Apple ID associated with the iOS device you will be building the app to.
-8. Switch over to the "Unity-iPhone" targets menu and click the tab labelled "General." Make sure that "Automatically manage signing" is selected and switch your Team to the Apple ID account you just added. 
-9. In "Deployment Info" select either iPhone or iPad depending on your target build device. 
-10. Select "Product > Run" in the top menu and wait for your app to build to your iOS device. 
+8. Switch over to the "Unity-iPhone" targets menu and click the tab labelled "General." Make sure that "Automatically manage signing" is selected and switch your Team to the Apple ID account you just added.
+9. In "Deployment Info" select either iPhone or iPad depending on your target build device.
+10. Select "Product > Run" in the top menu and wait for your app to build to your iOS device.
 
 Once the app has finished building, you will need to authorize your Apple ID as a trusted developer. Go to the settings on your iOS device and click "General > Device Management" and choose the option for "Trust [Your Apple ID username]." Start the application by clicking on the application icon on your app home screen.
 
