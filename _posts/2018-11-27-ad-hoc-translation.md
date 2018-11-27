@@ -1,6 +1,7 @@
 ---
 title: Linguistic diversity and Ad-hoc translation of the Programming Historian’s lessons
-authors: Anna-Maria Sichani
+authors: 
+Anna-Maria Sichani
 layout: post
 categories: posts
 ---
