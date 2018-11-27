@@ -49,7 +49,7 @@ Now that you have a running server, connect to it with an SSH client. This is so
 
 And here are a few guides for shared hosts:
 
- * [DreamHost Wiki: SSH](http://wiki.dreamhost.com/SSH)
+ * [DreamHost Wiki: SSH](https://help.dreamhost.com/hc/en-us/articles/216041267-SSH-overview)
  * [HostGator: How Do I Get and Use SSH Access?](http://support.hostgator.com/articles/hosting-guide/lets-get-started/how-do-i-get-and-use-ssh-access)
 
 When you're connected, you should see a prompt that looks roughly like this:
