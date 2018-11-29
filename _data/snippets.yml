@@ -388,6 +388,8 @@ journal-title:
   en: The Programming Historian
   es: The Programming Historian en español
   fr: The Programming Historian en français
+journal-subtitle: # ENGLISH ONLY FOR NOW, DO NOT TRANSLATE
+  en: The initial English version
 title-open-quote:
   en: '"'
   es: '"'
