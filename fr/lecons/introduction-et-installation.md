@@ -34,7 +34,7 @@ Dans ce module d'ouverture, vous allez installer le [langage de programmation Py
 
 Le langage de programmation Python
 -------------------------------
-Le langage de programmation que nous utiliserons dans cette série de cours est Python, un langage libre et gratuit. Sauf indication contraire, nous utiliserons Python v.2 tout au long de ces tutoriels. La version 3 est disponible mais nous avons choisi de conserver la version 2 car c'est la version la plus utilisée et celle qui est préinstallée sur les nouveaux Macs. [Python 3 a quelques différences dans le formatage](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html) (pensez aux règles de grammaire) et si vous essayez d'utiliser Python 3 avec Programming Historian, vous pourrez rencontrer des difficultés.
+Le langage de programmation que nous utiliserons dans cette série de cours est Python, un langage libre et gratuit. Sauf indication contraire, nous utiliserons Python v.2 tout au long de ces tutoriels. La version 3 est disponible mais nous avons choisi de conserver la version 2 car c'est la version la plus utilisée et celle qui est préinstallée sur les nouveaux Macs. [Python 3 a quelques différences dans le formatage](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html) (pensez aux règles de grammaire) et si vous essayez d'utiliser Python 3 avec le Programming Historian, vous pourrez rencontrer des difficultés.
 
 Sauvegardez votre travail!
 -----------------
