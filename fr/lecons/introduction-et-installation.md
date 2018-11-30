@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introduction à Python et installation 
 layout: lesson
 date: 2012-07-17
