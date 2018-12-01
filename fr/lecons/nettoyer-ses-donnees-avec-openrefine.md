@@ -1,4 +1,4 @@
-﻿---
+---
 title: Nettoyer ses données avec OpenRefine
 layout: lesson
 date: 2013-08-05
@@ -124,7 +124,7 @@ Depuis que vous avez chargé vos données dans *OpenRefine*, toutes les opérati
 Une fois vos données nettoyées, vous pouvez passer à l'étape suivante et explorer d'autres fonctionnalités intéressantes d'*OpenRefine*. La communauté d'utilisateurs d'*OpenRefine* a développé deux extensions particulièrement intéressantes qui vous permettent de lier vos données à des données déjà publiées sur le Web. L'[extension RDF Refine][] transforme les mots-clés en texte brut en URL. L'[extension NER][] vous permet d'appliquer la reconnaissance des entités nommées, qui identifie les mots-clés dans un texte et leur donne une URL.
 
 ## Conclusions
-Si vous devez vous souvenir d'une seule chose de ce cours, ce doit être celle-ci : *toutes les données sont sales, mais vous pouvez y faire quelque chose*. Comme nous l'avons montré ici, il y a déjà beaucoup de choses que vous pouvez faire par vous-mêmes pour améliorer la qualité des données. 
+Si vous devez vous souvenir d'une seule chose de ce cours, ce doit être celle-ci : *toutes les données sont sales, mais vous pouvez y faire quelque chose*. Comme nous l'avons montré ici, il y a déjà beaucoup de choses que vous pouvez faire par vous-mêmes pour améliorer la qualité des données.
 Vous avez ainsi appris comment avoir un rapide aperçu du nombre de valeurs vides que contient votre jeu de données et à quelle fréquence une valeur particulière (par exemple un mot-clé) est utilisée dans une collection. Ces cours vous ont également montré comment résoudre des problèmes récurrents tels que les doublons et les incohérences orthographiques de manière automatisée à l'aide d'*OpenRefine*.
 
 [*OpenRefine*]: http://openrefine.org "OpenRefine"
@@ -137,7 +137,7 @@ Vous avez ainsi appris comment avoir un rapide aperçu du nombre de valeurs vide
   [OCLC]: https://www.oclc.org/fr/home.html "OCLC"
   [site web]: http://www.powerhousemuseum.com/collection/database/download.php "site web"
   [licence Creative Commons Attribution Share Alike (CCASA)]: https://creativecommons.org/licenses/by-sa/3.0/deed.fr
-  [vocabulaire contrôlé]: https://fr.wikipedia.org/wiki/Vocabulaire_contr%C3%B4l%C3%A9: 
+  [vocabulaire contrôlé]: https://fr.wikipedia.org/wiki/Vocabulaire_contr%C3%B4l%C3%A9:
   [données liées]: https://fr.wikipedia.org/wiki/Web_des_donn%C3%A9es
   [Téléchargez OpenRefine]: http://openrefine.org/#download_openrefine
   [site FreeYourMetadata]: http://data.freeyourmetadata.org/powerhouse-museum/
