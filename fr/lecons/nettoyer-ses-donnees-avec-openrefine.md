@@ -15,12 +15,11 @@ translators:
 - Sybille Clochet
 difficulty: 2
 exclude_from_check:
-  - review-ticket
+- review-ticket
 activity: transforming
 topics: [data-manipulation]
 abstract: "Ce tutoriel explique comment les chercheur(e)s peuvent agir pour obtenir des données précises."
-original: en/lessons/cleaning-data-with-openrefine
-redirect_from: fr/lecons/nettoyer-ses-donnees-avec-openrefine
+original: cleaning-data-with-openrefine
 ---
 
 {% include toc.html %}
