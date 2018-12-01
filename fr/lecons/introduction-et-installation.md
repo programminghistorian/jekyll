@@ -9,7 +9,7 @@ authors:
 reviewers:
 - Jim Clifford
 - Amanda Morton
-- translator:
+translator:
 - Anastasiia Zadykhina
 editors:
 - Miriam Posner
