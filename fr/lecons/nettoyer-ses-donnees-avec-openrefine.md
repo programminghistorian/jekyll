@@ -11,15 +11,21 @@ reviewers:
 - Nora McGregor
 editors:
 - Adam Crymble
-translators:
+translator:
 - Sybille Clochet
+translation-editor:
+- Sofia Papastamkou
+translation-reviewer: 
+- Marie Puren
+translation_date: 2018-11-26
 difficulty: 2
 exclude_from_check:
 - review-ticket
 activity: transforming
 topics: [data-manipulation]
-abstract: "Ce tutoriel explique comment les chercheur(e)s peuvent agir pour obtenir des données précises."
+abstract: "Ce tutoriel explique comment les chercheur(e)s peuvent obtenir des données précises."
 original: cleaning-data-with-openrefine
+redirect_from: /fr/lecons/nettoyer-ses-donnees-avec-openrefine
 ---
 
 {% include toc.html %}
