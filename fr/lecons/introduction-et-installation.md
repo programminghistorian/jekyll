@@ -1,5 +1,5 @@
 ---
-title: Introduction à Python et installation 
+title: Introduction à Python et installation
 layout: lesson
 date: 2012-07-17
 translation_date: 2018-11-15
@@ -17,11 +17,11 @@ translation-reviewer:
 - Marie Puren
 difficulty: 1
 exclude_from_check:
-  - review-ticket
+- review-ticket
 activity: transforming
 topics: [python, get-ready]
 abstract: "Cette première leçon de notre section traitant des sources en ligne a pour but de vous - et votre ordinateur - faire commencer à programmer. Nous allons nous concentrer sur l'installation du logiciel approprié - tout est gratuit et fiable - et à la fin de cette leçon, nous vous aiderons à faire un premier essai avec une programmation simple qui donnera des résultats immédiats."
-redirect_from: fr/lessons/introduction-and-installation
+original: introduction-and-installation
 ---
 
 {% include toc.html %}
