@@ -30,14 +30,16 @@ module MyModule
       # Fields required on ALL lessons
       required_fields = ["layout", "reviewers", "authors", "date", "title", "difficulty", "activity", "topics", "abstract", "editors", "review-ticket"]
 
-      # Fields required only on es lessons
-      es_required_fields = ["translator", "translation-reviewer", "original", "translation_date", "translation-editor"]
+      # Fields required only on translated lessons
+      trans_required_fields = ["translator", "translation-reviewer", "original", "translation_date", "translation-editor"]
 
-      # Fields required only on en lessons
-      en_required_fields = []
+      # Fields required only on original lessons
+      original_required_fields = []
 
       # Find all the pages that represent non-retired lessons
       lessons = site.pages.select{|i| i.data["lesson"] && !i.data["retired"]}
+
+      trans_lessons = site.pages.select{|i| i.data["lesson"] && !i.data["original"]}
 
       # Collect valid author names from ph_authors.yml
       valid_authors = site.data["ph_authors"].map{|t| t["name"]}
@@ -61,12 +63,12 @@ module MyModule
 
         unless excluded_fields.nil? || excluded_fields.empty?
           lesson_required_fields = required_fields - excluded_fields
-          es_lesson_required_fields = es_required_fields - excluded_fields
-          en_lesson_required_fields = en_required_fields - excluded_fields
+          trans_lesson_required_fields = trans_required_fields - excluded_fields
+          orig_lesson_required_fields = original_required_fields - excluded_fields
         else
           lesson_required_fields = required_fields
-          es_lesson_required_fields = es_required_fields
-          en_lesson_required_fields = en_required_fields
+          trans_lesson_required_fields = trans_required_fields
+          orig_lesson_required_fields = original_required_fields
         end
 
         # For each required field, check if it is missing on the page. If so, log an error.
@@ -103,18 +105,18 @@ module MyModule
           end
         end
 
-        # Check Spanish required fields
-        if p.data["translated-lesson"]
-          es_lesson_required_fields.each do |f|
+        # Check translation required fields
+        if p.data["original"]
+          trans_lesson_required_fields.each do |f|
             if p.data[f].nil?
               page_errors.push("'#{f}' is missing.")
             end
           end
         end
 
-        # Check English required fields
-        if p.data["translated-lesson"].nil?
-          en_lesson_required_fields.each do |f|
+        # Check original lesson required fields
+        if p.data["original"].nil?
+          orig_lesson_required_fields.each do |f|
             if p.data[f].nil?
               page_errors.push("'#{f}' is missing.")
             end
