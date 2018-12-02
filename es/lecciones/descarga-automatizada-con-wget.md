@@ -2,6 +2,7 @@
 title: Descarga automatizada con Wget
 layout: lesson
 date: 2012-06-27
+translation-date: 2018-11-29
 authors:
 - Ian Milligan
 reviewers:
