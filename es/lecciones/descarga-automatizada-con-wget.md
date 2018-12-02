@@ -23,7 +23,6 @@ difficulty: 1
 activity: acquiring
 topics: [web-scraping]
 abstract: "Wget es un programa útil que se ejecuta a través de la línea de comandos de tu computadora. Sirve para recuperar material en línea."
-next: descarga-archivos-wget
 redirect_from: 
 ---
 
