@@ -36,7 +36,7 @@ redirect_from:
 Nota del editor
 -------------
 
-Esta lección requiere que uses la línea de comandos. Si no tienes experiencia previa en el uso de la línea de comandos, será útil estudiar la lección  [Introducción a la línea de comandos en Bash](/lecciones/introduccion-a-bash), en *The Programming Historian* en español.
+Esta lección requiere que uses la línea de comandos. Si no tienes experiencia previa en el uso de la línea de comandos, será útil estudiar la lección  [Introducción a la línea de comandos en Bash](/es/lecciones/introduccion-a-bash), en *The Programming Historian* en español.
 
 
 Objetivos de la lección
