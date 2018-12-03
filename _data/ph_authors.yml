@@ -966,11 +966,28 @@
           Patrick Smyth is a PhD student in English and Digital Fellow at the Graduate Center, CUNY.
 
 - name: François Dominic Laramée
-  team: false
+  github: fdlaramee
+  twitter: fdlaramee
+  url: "http://www.francoisdominiclaramee.com"
+  email: fdl@francoisdominiclaramee.com
+  team: true
+  team_start: 2018
+  institution: Université de Montréal
+  affiliation:
+      en: |
+          University of Montreal, Canada
+      fr: |
+          Université de Montréal, Canada
+  team_roles:
+    - french
+    - board  
   bio:
       en: |
           François Dominic Laramée is a doctoral candidate in history at the Université de Montréal, in Canada.
           He holds master's degrees in computer science and U.S. history and is a former video game designer, TV personality and screenwriter.
+      fr: |
+          François Dominic Laramée est doctorant en histoire à l'Université de Montréal, au Canada.
+          Détenteur de maîtrises en histoire des États-Unis et en informatique, il est aussi un ancien concepteur de jeux vidéo, scénariste et artiste de la télévision au Québec.
 
 - name: Jeff Blackadar
   team: false
