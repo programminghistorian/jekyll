@@ -13,7 +13,7 @@
 {% comment %}
  Generate avatar image path based on name
 {% endcomment %}
-{% assign avatar = member.name | slugify: "latin" %}
+{% assign avatar = member.name | replace: " ","-" | replace: "é","e" | replace: "í","i" | replace: "ç","c" %}
 <div class="col-3">
   <img class="rounded-circle" src="{{site.baseurl}}/avatars/{{avatar}}.png">
 </div>
