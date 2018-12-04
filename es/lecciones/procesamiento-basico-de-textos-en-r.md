@@ -59,7 +59,7 @@ library(tidyverse)
 library(tokenizers)
 ```
 
-Mientras que solo necesitas ejecutar el comando `install.packages</code> (instalar paquetes) la primera vez que inicias este tutorial, tendrás que ejecutar el comando <code class="highlighter-rouge">library` cada vez que reinicies R[^5].
+Mientras que solo necesitas ejecutar el comando `install.packages` (instalar paquetes) la primera vez que inicias este tutorial, tendrás que ejecutar el comando `library` cada vez que reinicies R[^5].
 
 ## Segmentación de palabras
 
@@ -67,7 +67,7 @@ En esta sección vamos a trabajar con un único párrafo. Este ejemplo pertenece
 
 Para cargar el texto copia y pega lo siguiente en la consola de R.
 
-```{r}
+```
 texto <- paste("También entiendo que como es temporada de elecciones, las expectativas para lo que lograremos este año son bajas. Aún así, señor Presidente de la Cámara de Representantes, aprecio el enfoque constructivo que usted y los otros líderes adoptaron a finales del año pasado para aprobar un presupuesto, y hacer permanentes los recortes de impuestos para las familias trabajadoras. Así que espero que este año podamos trabajar juntos en prioridades bipartidistas como la reforma de la justicia penal y ayudar a la gente que está luchando contra la adicción a fármacos de prescripción. Tal vez podamos sorprender de nuevo a los cínicos.")
 ```
 
