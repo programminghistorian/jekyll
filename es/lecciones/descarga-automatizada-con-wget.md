@@ -15,7 +15,7 @@ translation-editor:
 - Jennifer Isasi
 translation-reviewer:
 - Jennifer Isasi
-- Joshua Ortiz-Baco 
+- Joshua Ortiz-Baco
 original: automated-downloading-with-wget
 exclude_from_check:
   - review-ticket
@@ -23,7 +23,6 @@ difficulty: 1
 activity: acquiring
 topics: [web-scraping]
 abstract: "Wget es un programa útil que se ejecuta a través de la línea de comandos de tu computadora. Sirve para recuperar material en línea."
-redirect_from: 
 ---
 
 {% include toc.html %}
@@ -247,7 +246,7 @@ La recuperación recursiva es la parte más importante de wget. Lo que esto sign
 
 
 ``` bash
---no-parent 
+--no-parent
 ```
 
 (El doble guión indica el texto completo de un comando. Todos los comandos también tienen una versión corta, éste podría iniciarse usando -np).
@@ -315,8 +314,8 @@ Aquí solo he dado una instantánea de algunas de las funcionalidades de wget. P
 
 #### Notas
 
-[^1]: Al momento de la traducción el más reciente es Mojave (OS-X 10.14), desde el 25 de septiembre de 2018.  
-[^2]: La versión más reciente es wget 1.19, desde el 3 de febrero de 2017. 
+[^1]: Al momento de la traducción el más reciente es Mojave (OS-X 10.14), desde el 25 de septiembre de 2018.
+[^2]: La versión más reciente es wget 1.19, desde el 3 de febrero de 2017.
 
 
   [Command Line Bootcamp]: http://praxis.scholarslab.org/scratchpad/bash/
