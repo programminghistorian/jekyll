@@ -972,6 +972,7 @@
   email: fdl@francoisdominiclaramee.com
   team: true
   team_start: 2018
+  sortname: Laramée
   institution: Université de Montréal
   affiliation:
       en: |
@@ -982,7 +983,7 @@
           Universidad de Montréal, Canadá
   team_roles:
     - french
-    - board  
+    - board
   bio:
       en: |
           François Dominic Laramée is a doctoral candidate in history at the Université de Montréal, in Canada.
@@ -1037,6 +1038,8 @@
   bio:
         en: |
             Marie Puren is an historian and research engineer in the ALMAnaCH team at Inria Paris.
+        es: |
+            Marie Puren es historiadora e investigadora de humanidades digitales en el equipo ALMAnaCH en Inria París.
         fr: |
             Marie Puren est historienne et ingénieure de recherche en humanités numériques dans l'équipe ALMAnaCH à Inria Paris.
 
