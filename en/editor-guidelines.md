@@ -250,7 +250,10 @@ abstract: [see guidance below]
 
 ```
 
-- **difficulty** To help readers evaluate which lessons best fit their goals and skill level, we provide "Recommended for ___ Users" information in the lesson YAML file. There are currently three tiers, which can be set with the following numerical codes: 1 (Beginning), 2 (Intermediate), 3 (Advanced). To add the difficulty level to the lesson, include the following in the YAML file:
+- **difficulty** To help readers evaluate which lessons best fit their goals and skill level, we provide "Recommended for ___ Users" information in the lesson YAML file. There are currently three tiers, which can be set with the following numerical codes: 1 (Beginning), 2 (Intermediate), 3 (Advanced). To add the difficulty level of 'intermediate' to the lesson, include the following in the YAML file:
+```
+difficulty: 2
+```
 - **topics** can be any number of the things listed after "type:" in /\_data/topics.yml. You are also encouraged to create new topics that would help someone find the lesson. To do so, besides listing the topic(s) in the lesson's front matter, you should:
 1. Add the topic to any existing lesson(s) also described by the new topic
 2. Add the new topic(s) to /\_data/topics.yml following the format of the other topics there (note that topics can't have spaces—use hyphens if needed).
