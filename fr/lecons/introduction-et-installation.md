@@ -13,10 +13,11 @@ translator:
 - Anastasiia Zadykhina
 editors:
 - Miriam Posner
-translation-reviewer:
+translation-editor:
 - Marie Puren
 difficulty: 1
 exclude_from_check:
+- translation-reviewer
 - review-ticket
 activity: transforming
 topics: [python, get-ready]
