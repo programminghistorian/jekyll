@@ -3,7 +3,7 @@ title: Uses of the Programming Historian
 authors:
     - Adam Crymble
 layout: post
-categories: posts 
+categories: posts
 ---
 
 If you're looking for inspiration into how you can use the _Programming Historian_ in your work, look no further. We've put together a list of some of the examples we've come across over the years. We're sure it's no where near complete, but it's great to see the hard work of our authors, reviewers, and team translating into real impact in a range of settings.
@@ -25,7 +25,7 @@ If you are using the _Programming Historian_ in interesting ways, we'd love to h
 * William J. Turkel, Shenzan Muhammedi, Mary Beth Start, '[Grounding Digital History in the History of Computing](http://muse.jhu.edu/login?auth=0&type=summary&url=/journals/ieee_annals_of_the_history_of_computing/v036/36.2.turkel.html)', _IEEE Annals of the History of Computing_, Vol. 36, No. 2 (2014), pp. 72-75.
 * Elijah Meeks and Scott Weingart, '[The Digital Humanities Contribution to Topic Modeling](http://journalofdigitalhumanities.org/2-1/dh-contribution-to-topic-modeling/)', _Journal of Digital Humanities_, Vol. 2, No. 1 (2012).
 * Ted Underwood, '[What can topic models of PMLA teach us about the history of literary scholarship?](http://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/)' _The Stone and the Shell_ (2012).
-* Wingyan Chung, Edward A. Fox, Steven D. Sheetz, Seungwon Yang, '[LIKES: Educating the Next Generation of Knowledge Society Builders](http://aisel.aisnet.org/cgi/viewcontent.cgi?article=1072&context=amcis2009)', _Association for Information Systems: AMCIS Proceedings_ (2009). 
+* Wingyan Chung, Edward A. Fox, Steven D. Sheetz, Seungwon Yang, '[LIKES: Educating the Next Generation of Knowledge Society Builders](http://aisel.aisnet.org/cgi/viewcontent.cgi?article=1072&context=amcis2009)', _Association for Information Systems: AMCIS Proceedings_ (2009).
 
 ## University Syllabi (2011-2016 only)
 
@@ -50,7 +50,7 @@ If you are using the _Programming Historian_ in interesting ways, we'd love to h
 * Lincoln Mullen, '[Clio 3: Programming for Historians (HIST 698)](http://lincolnmullen.com/files/clio3.syllabus.hist698.2014f.pdf)', George Mason University, USA (Autumn 2014).
 * Wilko Graf von Hardenberg, '[Digital History (History 795)](http://www.wilkohardenberg.net/content/Hardenberg_DigitalHistory_Hist795.pdf)', University of Wisconsin-Madison, USA (Spring 2014).
 * Christopher Church, '[Introduction to the Digital Humanities](http://www.christophermchurch.com/draft-for-new-course-digital-toolbox-for-historians-unr/)', University of Nevada - Reno, USA (2014).
-* Jason A. Heppler, 'Digital History: Concepts, Methods, Problems (History 205F) (formerly available from: http://stanford.edu/~jheppler/stanford.syllabus.hist205f.2014f.pdf)', Stanford University, USA (Autumn 2014).
+* Jason A. Heppler, 'Digital History: Concepts, Methods, Problems (History 205F)' (formerly available from: http://stanford.edu/~jheppler/stanford.syllabus.hist205f.2014f.pdf), Stanford University, USA (Autumn 2014).
 * Elisha E. Besherho-Bondar, '[Digital Humanities / Digital Studies](http://www.pitt.edu/~ebb8/DHDS/)', University of Pittsburg, USA (Autumn 2014).
 * Andrew M Shocket, '[Intro to DH (ACS 6820)](http://intro-dh-2014.andyschocket.net/syllabus/)', Bowling Green State University, USA (Spring 2014).
 * Jeff McClurken, '[Adventures in Digital History (HIST 428)](http://dh2014.umwblogs.org/syllabus/)', University of Mary Washington, USA (Spring 2014).
@@ -63,7 +63,7 @@ If you are using the _Programming Historian_ in interesting ways, we'd love to h
 
 * Jim English, '[Empirical Method in Literary Studies](http://www.english.upenn.edu/~jenglish/Courses/Fall2014/505Syllabus.pdf)', University of Pennsylvania, USA (Autumn 2013).
 * Melissa Bailar and Lisa Spiro, '[Introduction to Digital Humanities](http://digitalhumanities.rice.edu/fall-2013-syllabus/)', Rice University, USA (Autumn 2013).
-* Devon Elliott, '[Digital History and American Popular Culture (HIST2897F)](http://www.huronuc.on.ca/Assets/website/Document/FASS/HIS/HIS2897FDElliott2013.pdf)', Huron College, Canada (Autumn 2013).
+* Devon Elliott, 'Digital History and American Popular Culture (HIST2897F)'(formerly available from: http://www.huronuc.on.ca/Assets/website/Document/FASS/HIS/HIS2897FDElliott2013.pdf), Huron College, Canada (Autumn 2013).
 * Chad Black, '[Theory and Practice of Digital History](http://dh.chadblack.net/info/syllabus/)', University of Tennessee, USA (Autumn 2013).
 * Aaron Shapiro, '[Seminar in Digital History and New Media (History 7970)](http://wp.auburn.edu/dighist/?page_id=127)', Auburn University, USA (2013).
 

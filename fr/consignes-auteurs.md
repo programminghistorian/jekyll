@@ -12,7 +12,8 @@ original: /author-guidelines
 <h2 class="noclear">Étape 3 : <a href="#soumettre-une-nouvelle-leçon">Soumettre une nouvelle leçon</a></h2>
 
 ## Proposer une nouvelle leçon
-Si vous avez une idée pour une nouvelle leçon, ou si vous avez déjà rédigé un tutoriel qui, selon vous, pourrait être adapté au *Programming Historian en français*, enfin, si vous souhaitez proposer une traduction, contactez [Jessica Parr] pour discuter de votre idée. En prenant contact avec l'équipe au tout début du processus, il vous sera plus facile d'élaborer votre leçon -- et plus particulièrement d'identifier le lectorat cible et le niveau de compétence attendu - et de vous associer au rédacteur ou à la rédactrice avec le plus d'expérience sur les thèmes que vous abordez.
+Si vous avez une idée pour une nouvelle leçon, ou si vous avez déjà rédigé un tutoriel qui, selon vous, pourrait être adapté au *Programming Historian en français*, enfin, si vous souhaitez proposer une traduction, compléter une leçon [formulaire de proposition](/assets/forms/Formulaire.Tutoriel.txt) et
+contactez [Jessica Parr] pour discuter de votre idée. En prenant contact avec l'équipe au tout début du processus, il vous sera plus facile d'élaborer votre leçon -- et plus particulièrement d'identifier le lectorat cible et le niveau de compétence attendu - et de vous associer au rédacteur ou à la rédactrice avec le plus d'expérience sur les thèmes que vous abordez.
 
 <div class="alert alert-success">
 Nous acceptons des tutoriels :
