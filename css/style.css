@@ -446,7 +446,7 @@ Top Navigation Bar
   .navbar-dark .navbar-nav .nav-link {
     font-family:'Open Sans';
     text-transform:uppercase;
-    color:#ccc;
+    color:#fff;
     font-size:.9rem;
   }
 
@@ -464,7 +464,7 @@ Top Navigation Bar
 
   .navbar-dark .navbar-brand {
     font-family:'Crete Round', serif;
-    color:#ccc;
+    color:#fff;
     letter-spacing: .02em;
   }
 
@@ -776,7 +776,7 @@ Footer
     padding: 2rem 0;
     font-family:'Open Sans';
     font-size:.9rem;
-    color:#ccc;
+    color: #fff;
     background-color:#666;
     text-align:center;
   }
