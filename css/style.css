@@ -1,3 +1,6 @@
+---
+---
+
 @media screen {
 
   body {
@@ -119,15 +122,15 @@ Home Page
   }
 
   .en-back {
-    background-color: #444444;
+    background-color: {{ site.data.snippets.background_color.en }};
   }
 
   .es-back {
-    background-color: #535D7F;
+    background-color: {{ site.data.snippets.background_color.es }};
   }
 
   .fr-back {
-    background-color: #3D7C81;
+    background-color: {{ site.data.snippets.background_color.fr }};
   }
 
 /* =============================================================================
