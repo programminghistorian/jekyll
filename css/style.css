@@ -439,12 +439,11 @@ Top Navigation Bar
 ========================================================================== */
 
   .navbar {
-    background-color:#555;
     padding: .6rem 1rem;
     margin: 0 0 3rem 0;
   }
 
-  .navbar-light .navbar-nav .nav-link {
+  .navbar-dark .navbar-nav .nav-link {
     font-family:'Open Sans';
     text-transform:uppercase;
     color:#ccc;
@@ -455,7 +454,7 @@ Top Navigation Bar
     text-transform:lowercase !important;
   }
 
-  .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover {
+  .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-brand:hover {
     color:#39a;
   }
 
@@ -463,7 +462,7 @@ Top Navigation Bar
     text-align:center;
   }
 
-  .navbar-light .navbar-brand {
+  .navbar-dark .navbar-brand {
     font-family:'Crete Round', serif;
     color:#ccc;
     letter-spacing: .02em;
@@ -516,7 +515,7 @@ Top Navigation Bar
   	margin-left: -13px;
   }
 
-  .navbar-light .navbar-nav .nav-link:focus {
+  .navbar-dark .navbar-nav .nav-link:focus {
     color: #ccc;
   }
 
