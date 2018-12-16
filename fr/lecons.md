@@ -2,7 +2,7 @@
 title: Index des leçons
 layout: blank
 permalink: /fr/lecons/
-redirect_from: /lecons/
+original: lessons
 ---
 
 # Index des leçons
