@@ -1,7 +1,7 @@
 ---
 title: Équipe du projet
 layout: blank
-original: /project-team
+original: project-team
 ---
 
 # Équipe du projet

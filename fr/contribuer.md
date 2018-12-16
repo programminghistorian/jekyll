@@ -1,7 +1,7 @@
 ---
 title: Contribuer au Programming Historian
 layout: blank
-original: /contribute
+original: contribute
 ---
 
 # Contribuer au Programming Historian en français
@@ -12,17 +12,17 @@ Le _Programming Historian en français_ est porté par des volontaires. Leur én
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" />
 
-Écrire un tutoriel est l'un des meilleurs moyens pour acquérir des compétences spécifiques et être partie prenante dans la communauté des humanités numériques. 
+Écrire un tutoriel est l'un des meilleurs moyens pour acquérir des compétences spécifiques et être partie prenante dans la communauté des humanités numériques.
 
 Nous sommes loin de simplement accepter ou rejeter des articles, comme le font les revues traditionnelles. Nos rédacteurs et rédactrices collaborent avec vous pour construire un texte aussi clair et utile que possible, ce qui vous permet de parfaire vos compétences et techniques d'écriture. N'hésitez pas à apprendre davantage sur notre procédure de [dépôt] [depot] de propositions.
 
 Si vous souhaitez proposer une leçon, que vous en soyez l'auteur(e) ou pas, merci d'envoyer un courriel à <a href="mailto:jparr1129@gmail.com">Jessica Parr</a>.
 
-## Rejoindre notre équipe d'évaluation 
+## Rejoindre notre équipe d'évaluation
 
 <img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-right" />
 
-Le _Programming Historian en français_ attache la plus grande importance à l'évaluation par les pairs, en adoptant une approche ouverte et collaborative qui reconnait pleinement et publiquement le travail des évaluateurs et évaluatrices. Pour vous renseigner plus sur nos principes et sur la procédure d'évaluation, merci de vous référer aux [consignes d'évaluation] [evaluateurs] 
+Le _Programming Historian en français_ attache la plus grande importance à l'évaluation par les pairs, en adoptant une approche ouverte et collaborative qui reconnait pleinement et publiquement le travail des évaluateurs et évaluatrices. Pour vous renseigner plus sur nos principes et sur la procédure d'évaluation, merci de vous référer aux [consignes d'évaluation] [evaluateurs]
 
 Nous espérons que vous allez sérieusement envisager de rejoindre notre équipe d'évaluateurs et d'évaluatrices. Les délais sont flexibles, vous apprendrez beaucoup et vous aurez ainsi l'occasion de contribuer à une ressource largement utilisée, qui jouit d'une très bonne réputation. Merci d'envoyer un courriel à <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> pour vous présenter et nous faire connaître les compétences, les outils, les sujets et les technologies qui sont dans votre domaine d'expertise.
 
@@ -32,7 +32,7 @@ Nous espérons que vous allez sérieusement envisager de rejoindre notre équipe
 
 Les membres de notre comité éditorial apportent leur concours lors de l'évaluation par les pairs et travaillent avec les auteur(e)s pour améliorer leurs leçons. Nos [consignes aux rédacteurs et rédactrices][redacteurs] visent à ce que tout se passe au mieux, lors de l'évaluation par les pairs, pour tout le monde, auteur(e)s, évaluateurs et évaluatrices, et plus largement pour les membres de la communauté.
 
-Il nous arrive de temps en temps de faire des appels pour recruter des membres pour notre comité éditorial. 
+Il nous arrive de temps en temps de faire des appels pour recruter des membres pour notre comité éditorial.
 
 ## Traduire une leçon
 
@@ -46,12 +46,12 @@ Nous recherchons des traductions rigoureuses et lisibles qui tiennent compte des
 
 <img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" />
 
-Nous vous invitons à nous faire des [retours d'expérience](/fr/feedback.html) sur tout aspect du _Programming Historian en français_. D'avance merci de nous aider à améliorer le projet.  
+Nous vous invitons à nous faire des [retours d'expérience](/fr/feedback.html) sur tout aspect du _Programming Historian en français_. D'avance merci de nous aider à améliorer le projet.
 
 Nous apprécions tout particulièrement les informations reçues sur les liens cassés. Au fur et à mesure que les URLs changent et que les versions des logiciels et des plateformes évoluent, les leçons peuvent présenter des défaillances. Merci de nous aider à garder le _Programming Historian en français_ à jour en nous tenant au courant de tout problème rencontré pendant vos lectures.
 
 
-## Nous ajouter dans le catalogue de votre bibliothèque 
+## Nous ajouter dans le catalogue de votre bibliothèque
 
 <img src="{{site.baseurl}}/images/library-catalogue.png" class="garnish float-right" />
 
@@ -70,4 +70,4 @@ Merci de nous aider à améliorer le _Programming Historian_!
 
  [depot]: {{site.baseurl}}/fr/consignes-auteurs
  [evaluateurs]: {{site.baseurl}}/fr/consignes-evaluateurs
- [redacteurs]: {{site.baseurl}}/fr/consignes-redacteurs 
+ [redacteurs]: {{site.baseurl}}/fr/consignes-redacteurs

@@ -1,7 +1,7 @@
 ---
 title: Consignes aux auteur(e)s
 layout: blank
-original: /author-guidelines
+original: author-guidelines
 ---
 
 # Consignes aux auteur(e)s et aux traducteur(trice)s
