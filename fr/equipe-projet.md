@@ -7,8 +7,8 @@ original: project-team
 # Équipe du projet
 Merci de diriger d'abord votre correspondance à:
 
-* <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> (en anglais)
-* <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a> (en espagnol)
+* <a href="mailto:anandi.silva.knuppel@emory.edu">Anandi Silva Knuppel</a> (en anglais)
+* <a href="mailto:mj.afanador28@uniandes.edu.co">Maria José Afanador Llach</a> (en espagnol)
 
 Vous pouvez suivre le _Programming Historian_ sur Twitter: [@proghist](http://twitter.com/proghist).
 
