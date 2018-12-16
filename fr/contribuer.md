@@ -46,7 +46,7 @@ Nous recherchons des traductions rigoureuses et lisibles qui tiennent compte des
 
 <img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-right" />
 
-Nous vous invitons à nous faire des [retours d'expérience](/fr/feedback.html) sur tout aspect du _Programming Historian en français_. D'avance merci de nous aider à améliorer le projet.
+Nous vous invitons à nous faire des [retours d'expérience](/fr/reaction.html) sur tout aspect du _Programming Historian en français_. D'avance merci de nous aider à améliorer le projet.
 
 Nous apprécions tout particulièrement les informations reçues sur les liens cassés. Au fur et à mesure que les URLs changent et que les versions des logiciels et des plateformes évoluent, les leçons peuvent présenter des défaillances. Merci de nous aider à garder le _Programming Historian en français_ à jour en nous tenant au courant de tout problème rencontré pendant vos lectures.
 
