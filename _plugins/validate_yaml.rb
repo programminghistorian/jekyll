@@ -152,6 +152,11 @@ module MyModule
 
         post_errors = Array.new
 
+        # Warn if any lesson content contains absolute links
+        if Regexp.new("[\\(<]https?://programminghistorian.org/*") =~ p.content
+          post_errors.push('It looks this post contains a full link to "https://programminghistorian.org". All internal links should start with "/" followed by the relative page path, and not use the full domain name.')
+        end
+
         if p.data["authors"].nil?
           post_errors.push("'authors' field is missing.")
         else
