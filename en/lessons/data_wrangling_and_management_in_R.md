@@ -67,7 +67,7 @@ three key criteria:
 2.  Each variable is in a column.
 3.  Each value has its own cell.
 
-Being observent of these criteria allows us to recognize when data is
+Being observant of these criteria allows us to recognize when data is
 organized or unorganized. It also provides us a standardized schema and
 set of tools for cleaning up some of the most common ways that datasets
 are "messy:"
@@ -122,7 +122,7 @@ An Example of dplyr in Action
 =============================
 
 Let's go through an example to see how dplyr can aid us as historians by
-inputting U.S. dicennial census data from 1790 to 2010. Download the
+inputting U.S. decennial census data from 1790 to 2010. Download the
 data by [clicking
 here](/assets/introductory_state_example.csv)
 and place it in the folder that you will use to work through the examples
@@ -596,7 +596,7 @@ variable.
 
 The arrange() function allows us to order our columns in a new way.
 Currently, the colleges are organized by year in ascending order. Lets
-place them in descending order of establishment from the Civil War.
+place them in descending order of establishment, in this case, from the end of the Mexican-American War.
 
     early_colleges %>% 
         arrange(desc(established))
