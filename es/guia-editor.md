@@ -215,7 +215,7 @@ Una vez el autor y tú como editor estéis satisfechos con el texto, sea una tra
 
 ### 1) Crea una biografía para el autor
 
-En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor con el que no hemos trabajado anteriormente, los editores deben añadir información sobre el autor en la página [directorio de autores](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml) del repositorio de *The programming historian*. En el caso de una trducción, debes traducir tambin la biografa incluyendo la clave `es`. Sigue la sintaxis de los ejemplos ya incluidos:
+En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor con el que no hemos trabajado anteriormente, los editores deben añadir información sobre el autor en la página [directorio de autores](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml) del repositorio de *The programming historian*. En el caso de una traducción, debes traducir también la biografa incluyendo la clave `es`. Sigue la sintaxis de los ejemplos ya incluidos:
 
 ```yaml
 - name: Jim Clifford
@@ -229,21 +229,21 @@ En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor 
 
 ### 2) Agrega una tabla de contenidos a la lección
 
-El siguiente código debe agregarse al texto de la lección, generalmente antes del primer subtítulo
+El siguiente código debe agregarse al texto de la lección, generalmente antes del primer subtítulo:
 
 ```
 {% raw %}{% include toc.html %}{% endraw %}
 ```
 
-### 3) Agregar metadatos YAML al archivo de lección
+### 3) Agrega metadatos YAML al archivo de la lección
 
-Añade traductor, revisores y editores al archivo YAML
+Añade a los autores o traductores, revisores y editores al archivo YAML.
 
 Así, pues, localiza el bloque YAML que se encuentra al inicio del tutorial, y añade el nombre de los revisores y de todos los miembros de nuestra comunidad que han contribuido durante el proceso de revisión. Además, crea un campo `editor` y añade tu nombre y de cuantos otros editores hayan contribuido en la publicación. Las instrucciones para dar formato al bloque de YAML se encuentran en la [guía para autores y traductores](/es/guia-para-autores).
 
 Si se trata de una traducción, asegúrate de que se mantienen los datos del YAML original, e introduce un campo para el traductor (`translator`), otro para los revisores de la traducción (`translation-reviewer`) y otro más para el editor de la traducción (`translation-editor`).
 
-Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML de la lección por completo (para tutoriales originales):
+Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML de la lección por completo tanto en el caso de tutoriales originales como de tutoriales traducidos:
 
 ```
 ---
@@ -253,40 +253,40 @@ collection: lessons
 layout: lesson
 slug: [e.g. sentiment analysis]
 date: [Fecha original, YYYY-MM-DD]
-translation_date: [Fecha traducción YYYY-MM-DD]
+translation_date: [Fecha de traducción, YYYY-MM-DD]
 authors:
 - [Nombre del autor 1]
-- [Nombre del autor 2]
+- [Nombre del autor 2, etc.]
 editors:
 - [Nombre del editor original]
 reviewers:
 - [Nombre del revisor original 1]
 - [Nombre del revisor original 2]
 translator:
-- [Nombre del traductor]
+- [Nombre del traductor (solo en traducción)]
 translation-editor:
-- [Nombre del editor de la traducción]
+- [Nombre del editor de la traducción (solo en traducción)]
 translation-reviewer:
-- [Nombre del revisor de la traducción 1]
-- [Nombre del revisor de la traducción 2]
-original: [slug del original (traducción)]
-difficulty: [mantener original (traducción)]
-activity: [mantener original (traducción)]
-topics: [mantener original (traducción)]
-abstract: "[Traducción del resumen del original]"
+- [Nombre del revisor de la traducción 1 (solo en traducción)]
+- [Nombre del revisor de la traducción 2 (solo en traducción)]
+original: [slug del original ((solo en traducción))]
+difficulty: [(ver abajo o mantener original en traducciones)]
+activity: [(ver abajo o mantener original en traducciones)]
+topics: [(ver abajo o mantener original en traducciones)]
+abstract: "[(ver abajo o traducir el original)]"
 ---
 ```
 
-- **difficulty** Con el objetivo de ayudar a los lectores a evaluar si una lección se ajusta a sus necesidades y experiencia, proporcionamos un campo "Recomendado para usuarios ____" en el bloque YAML. Actualmente, contamos con tres niveles de dificultad, que se escogen mediante tres códigos numéricos: 1 (introductorio), 2 (intermedio) y 3 (avanzado). TRANSLATION REQUIRED: To add the difficulty level of 'intermediate' to the lesson, include the following in the YAML file:
+- **difficulty** Con el objetivo de ayudar a los lectores a evaluar si una lección se ajusta a sus necesidades y experiencia, proporcionamos un campo " Recomendado para usuarios____ " en el bloque YAML. Actualmente, contamos con tres niveles de dificultad, que se escogen mediante tres códigos numéricos: 1 (introductorio), 2 (intermedio) y 3 (avanzado). Por ejemplo, para añadir el nivel de dificultad intermedia a la lección, añade lo siguiente en el bloque YAML:
 ```
 difficulty: 2
-``` 
+```
 - **slug** debe contener la ruta a la lección en el sitio público de _Programming Historian_, lo que significa un texto con guiones que sigue a programminghistorian.org/lessons/ (i.e. building-static-sites-with-jekyll-github-pages)
-- **activity** debe usarse una (y solo una) de las siguientes cinco opciones: *acquiring, transforming, analyzing, presenting, sustaining*. Escoge la que mejor describa lo que te enseña la lección acerca de datos en humanidades (i.e. una lección que muestre la creación de un sitio web con Omeka será sobre presentar (*presenting*) datos a través de una galería en la Web).
-- **topics** puede ser cualquier número de cosas listadas despues de "type:" en /\_data/topics.yml. Te invitamos a crear nuevos tópicos que ayuden a cualquiera a encontrar la lección. Para hacerlo, además de enlistar el o los nuevos tópicos en los preliminares de la leción, deberás:
+- **activity** debe usarse una (y solo una) de las siguientes cinco opciones: *acquiring, transforming, analyzing, presenting, sustaining* (adquisición, transformación, análisis, presentación o sostenibilidad). Escoge la que mejor describa lo que te enseña la lección acerca de datos en humanidades (i.e. una lección que muestre la creación de un sitio web con Omeka será sobre presentar (*presenting*) datos a través de una galería en la Web).
+- **topics** puede ser cualquier número de cosas listadas despues de "type:" en /\_data/topics.yml. También te invitamos a crear nuevos tópicos que ayuden a alguien a encontrar la lección. Para hacerlo, además de listar el o los nuevos tópicos en los preliminares de la leción, deberás:
 1. Agregar el tópico a cualquier lección descrita por el nuevo tópico
 2. Agregar el o los nuevos tópicos en el archivo /\_data/topics.yml siguiendo el formato de los otros tópicos que ahí se encuentran (por favor, ten en cuenta que los tópicos no pueden contener espacios, así que utiliza guiones si es necesario).
-3. Edita el archivo /js/lessonfilter.js para que funcione adecuadamente el botón que filtra la página de la lección con ese tópico. Busca en el archivo el fragmento de diez líneas de código que empieza con "$('#filter-api')", copia y pega ese fragmento de código y reemplaza las dos veces que aparece "api" con tu nuevo tópico.
+3. Edita el archivo /js/lessonfilter.js para que funcione adecuadamente el botón que filtra la página de la lección con ese tópico. Busca en el archivo el fragmento de diez líneas de código que empieza con `$('#filter-api')`, copia y pega ese fragmento de código y reemplaza las dos veces que aparece "api" con tu nuevo tópico.
 - **abstract** es una descripción de una a tres frases sobre lo que se aprende en esa lección. Trata de evitar, en lo posible, un vocabulario técnico, para que estos resúmenes ayuden a los académicos sin un conocimiento técnico a probar nuevas cosas.
 
 
