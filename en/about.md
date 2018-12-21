@@ -30,10 +30,6 @@ The Programming Historian is committed to diversity, and we insist on a harassme
 
 ## Funding & Ownership
 
-The project is grateful for the following support:
-
-* Seed funding and project management support from the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) [2011-2013].
-* Ongoing hosting support from the Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)) [2011-Present].
-* Funding for a writing workshop in Bogota, Colombia, supported by the [British Academy](https://www.britac.ac.uk/) [2018].
+For a list of our funders and supports, see the ['Support Us']({{site.baseurl}}/support-us) page
 
 The Programming Historian is a volunteer-driven project. It is published by the Editorial Board of the Programming Historian.
