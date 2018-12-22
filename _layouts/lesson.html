@@ -51,11 +51,15 @@ layout: base
               </div>
               {% endif %}
 
+              {% if page.reviewers or page.review-ticket %}
               <div class="col-md-3">
+              {% else %}
+              <div class="col-md-8">
+              {% endif %}
               <div class="open-license">
                 <p><a href="https://creativecommons.org/licenses/by/4.0/deed.en"><i class="fas fa-lock-open"></i> CC-BY 4.0</a></p>
               </div>
-            </div>
+              </div>
           </div>
         </div>
 
