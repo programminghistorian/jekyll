@@ -28,7 +28,7 @@ We hope to have a donation mechanism in place by mid-2019.
 
 ## Sponsor Us
 
-If you represent an organisation or group who are interested in sponsoring The Programming Historian, please contact [James Baker](drjwbaker) to discuss. Sponsorship can be financial, in-kind, or a combination of both. Sponsorship length and value are negotiable.
+If you represent an organisation or group who are interested in sponsoring The Programming Historian, please contact [James Baker](https://github.com/drjwbaker) to discuss. Sponsorship can be financial, in-kind, or a combination of both. Sponsorship length and value are negotiable.
 
 All sponsorship is subject to [agreement](https://github.com/programminghistorian/jekyll/wiki/Programming-Historian-Governance) by the [Editorial Board](https://programminghis) of The Programming Historian. In order to avoid perceived conflicts of interest, safeguard our peer review process, and ensure our academic integrity, the Editorial Board have agreed **not to accept** the following forms of sponsorship
 
@@ -41,4 +41,4 @@ The Programming Historian runs on the far-from-endless energy of volunteers, and
 
 ## Management of Donations and Sponsorship
 
-Donations and sponsorship are managed by [James Baker](drjwbaker) on behalf of the [Editorial Board of The Programming Historian](https://programminghistorian.org/en/project-team).
+Donations and sponsorship are managed by [James Baker](https://github.com/drjwbaker) on behalf of the [Editorial Board of The Programming Historian](https://programminghistorian.org/en/project-team).
