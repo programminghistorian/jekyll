@@ -224,7 +224,7 @@ The following code should be added into the text of the lesson, usually before t
 title: ["YOUR TITLE HERE"]
 collection: lessons
 layout: lesson
-slug: [e.g. sentiment analysis]
+slug: [e.g. introduction-to-sentiment-analysis]
 date: [YYYY-MM-DD]
 translation_date: [YYYY-MM-DD (translations only)]
 authors:
@@ -259,6 +259,7 @@ difficulty: 2
 2. Add the new topic(s) to /\_data/topics.yml following the format of the other topics there (note that topics can't have spaces—use hyphens if needed).
 3. Edit /js/lessonfilter.js so the filter button to filter the lesson page to that topic works. Search the file for the ten-line chunk of code beginning with `$('#filter-api')`, copy and paste that chunk of code, and replace the *two* appearances of "api" with your new topic.
 - **abstract** is a 1-3 sentence description of what you'll learn in the lesson. Try to avoid technical vocabulary when possible, as these summaries can help scholars without technical knowledge to try out something new.
+- **slug** should have the path to the lesson on the public PH site, which means the hyphenated text following programminghistorian.org/lessons/ (e.g. building-static-sites-with-jekyll-github-pages)"
 
 ### 4) Find an Image to represent the lesson
 
@@ -353,7 +354,7 @@ If the lesson has been written by a new author, editors should add information a
           at the University of Saskatchewan.
 ```
 
-## 3) Confirm all links and YAML headers are functioning correctly
+## 4) Confirm all links and YAML headers are functioning correctly
 
 Once you push your changes on to the `gh-pages` branch of the [programminghistorian][ph_repo] repository, the site will be automatically tested by [Travis CI] ([Continuous Integration]).
 This test process checks three things: first, that all YAML and markdown code is parseable; second, that all the hyperlinks on the site point to valid, operational pages; and third, that internal links to pages on the _Programming Historian_ are all relative links that start with `/` rather than `https://programminghistorian.org/`
@@ -390,6 +391,6 @@ If your build has errored, you will need to consult the build logs to see what i
 
 [create a new issue]: https://github.com/programminghistorian/jekyll/issues/new
 
-## 4) Inform the Editor
+## 5) Inform the Editor
 
 Once the lesson has been published, inform the editor.
