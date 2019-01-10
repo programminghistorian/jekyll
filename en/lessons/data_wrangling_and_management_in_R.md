@@ -92,13 +92,13 @@ package of the tidyverse, but it is worth briefly mentioning some others
 we will be running into:
 
 [**magittr**](http://magrittr.tidyverse.org)--This package gives us
-access to the forward pipe operator and makes our code easier to read.  
+access to the forward pipe operator and makes our code easier to read.
 [**ggplot2**](http://ggplot2.tidyverse.org/)--This package utilizes the
 ["Grammar of Graphics"](http://www.springer.com/us/book/9780387245447)
-to provide an easy way to visualize our data.  
+to provide an easy way to visualize our data.
 [**readr**](http://readr.tidyverse.org)--This package makes available a
 faster and more streamlined method of importing rectangular data, such
-as csv files.  
+as csv files.
 [**tibble**](http://tibble.tidyverse.org/)--This package provides us
 access to a reconceptualization of data frames that are easier to work
 with and print.
@@ -157,10 +157,10 @@ time.
     california_and_new_york_state_populations<-us_state_populations_import %>%
       filter(state %in% c("California", "New York"))
 
-    # Plot California and New York State Populations 
+    # Plot California and New York State Populations
     ggplot(data=california_and_new_york_state_populations, aes(x=year, y=population, color=state)) +
       geom_line() +
-      geom_point() 
+      geom_point()
 
 {% include figure.html filename="california_new_york_population.png" caption="Graph of California and New York population" %}
 
@@ -175,10 +175,10 @@ with two different states such as Mississippi and Virginia.
     mississippi_and_virginia_state_populations<-us_state_populations_import %>%
       filter(state %in% c("Mississippi", "Virginia"))
 
-    # Plot California and New York State Populations 
+    # Plot California and New York State Populations
     ggplot(data=mississippi_and_virginia_state_populations, aes(x=year, y=population, color=state)) +
       geom_line() +
-      geom_point() 
+      geom_point()
 
 {% include figure.html filename="mississippi_virginia_population.png" caption="Graph of Mississippi and Virginia population" %}
 
@@ -304,28 +304,28 @@ start by loading the data and view it.
     ## # A tibble: 65 x 6
     ##    college                original_name         city          state
     ##    <chr>                  <chr>                 <chr>         <chr>
-    ##  1 Harvard                <NA>                  Cambridge     MA   
-    ##  2 William and Mary       <NA>                  Williamsburg  VA   
-    ##  3 Yale                   <NA>                  New Haven     CT   
-    ##  4 Pennsylvania, Univ. of <NA>                  Philadelphia  PA   
-    ##  5 Princeton              College of New Jersey Princeton     NJ   
-    ##  6 Columbia               King's College        New York      NY   
-    ##  7 Brown                  <NA>                  Providence    RI   
-    ##  8 Rutgers                Queen's College       New Brunswick NJ   
-    ##  9 Dartmouth              <NA>                  Hanover       NH   
-    ## 10 Charleston, Coll. Of   <NA>                  Charleston    SC   
-    ##    established sponsorship                         
-    ##          <int> <chr>                               
+    ##  1 Harvard                <NA>                  Cambridge     MA
+    ##  2 William and Mary       <NA>                  Williamsburg  VA
+    ##  3 Yale                   <NA>                  New Haven     CT
+    ##  4 Pennsylvania, Univ. of <NA>                  Philadelphia  PA
+    ##  5 Princeton              College of New Jersey Princeton     NJ
+    ##  6 Columbia               King's College        New York      NY
+    ##  7 Brown                  <NA>                  Providence    RI
+    ##  8 Rutgers                Queen's College       New Brunswick NJ
+    ##  9 Dartmouth              <NA>                  Hanover       NH
+    ## 10 Charleston, Coll. Of   <NA>                  Charleston    SC
+    ##    established sponsorship
+    ##          <int> <chr>
     ##  1        1636 Congregational; after 1805 Unitarian
-    ##  2        1693 Anglican                            
-    ##  3        1701 Congregational                      
-    ##  4        1740 Nondenominational                   
-    ##  5        1746 Presbyterian                        
-    ##  6        1754 Anglican                            
-    ##  7        1765 Baptist                             
-    ##  8        1766 Dutch Reformed                      
-    ##  9        1769 Congregational                      
-    ## 10        1770 Anglican                            
+    ##  2        1693 Anglican
+    ##  3        1701 Congregational
+    ##  4        1740 Nondenominational
+    ##  5        1746 Presbyterian
+    ##  6        1754 Anglican
+    ##  7        1765 Baptist
+    ##  8        1766 Dutch Reformed
+    ##  9        1769 Congregational
+    ## 10        1770 Anglican
     ## # ... with 55 more rows
 
 As you can observe, this dataset contains the current name of the college, its
@@ -347,28 +347,28 @@ going to change the column to only have the original sponsorship.
     ## # A tibble: 65 x 6
     ##    college                original_name         city          state
     ##    <chr>                  <chr>                 <chr>         <chr>
-    ##  1 Harvard                <NA>                  Cambridge     MA   
-    ##  2 William and Mary       <NA>                  Williamsburg  VA   
-    ##  3 Yale                   <NA>                  New Haven     CT   
-    ##  4 Pennsylvania, Univ. of <NA>                  Philadelphia  PA   
-    ##  5 Princeton              College of New Jersey Princeton     NJ   
-    ##  6 Columbia               King's College        New York      NY   
-    ##  7 Brown                  <NA>                  Providence    RI   
-    ##  8 Rutgers                Queen's College       New Brunswick NJ   
-    ##  9 Dartmouth              <NA>                  Hanover       NH   
-    ## 10 Charleston, Coll. Of   <NA>                  Charleston    SC   
-    ##    established sponsorship      
-    ##          <int> <chr>            
-    ##  1        1636 Congregational   
-    ##  2        1693 Anglican         
-    ##  3        1701 Congregational   
+    ##  1 Harvard                <NA>                  Cambridge     MA
+    ##  2 William and Mary       <NA>                  Williamsburg  VA
+    ##  3 Yale                   <NA>                  New Haven     CT
+    ##  4 Pennsylvania, Univ. of <NA>                  Philadelphia  PA
+    ##  5 Princeton              College of New Jersey Princeton     NJ
+    ##  6 Columbia               King's College        New York      NY
+    ##  7 Brown                  <NA>                  Providence    RI
+    ##  8 Rutgers                Queen's College       New Brunswick NJ
+    ##  9 Dartmouth              <NA>                  Hanover       NH
+    ## 10 Charleston, Coll. Of   <NA>                  Charleston    SC
+    ##    established sponsorship
+    ##          <int> <chr>
+    ##  1        1636 Congregational
+    ##  2        1693 Anglican
+    ##  3        1701 Congregational
     ##  4        1740 Nondenominational
-    ##  5        1746 Presbyterian     
-    ##  6        1754 Anglican         
-    ##  7        1765 Baptist          
-    ##  8        1766 Dutch Reformed   
-    ##  9        1769 Congregational   
-    ## 10        1770 Anglican         
+    ##  5        1746 Presbyterian
+    ##  6        1754 Anglican
+    ##  7        1765 Baptist
+    ##  8        1766 Dutch Reformed
+    ##  9        1769 Congregational
+    ## 10        1770 Anglican
     ## # ... with 55 more rows
 
 Now that we have our data in a tidy format, we can shape it through the
@@ -399,24 +399,24 @@ takes the data frame you want to manipulate as the first argument, followed by a
 list signifying which columns you would like to keep:
 
     # Remove the original names column using select()
-    # Note that you do not have to append the column name with a $ to the end of early_colleges since  
-    # dplyr automatically assumes that a "," represents AND 
+    # Note that you do not have to append the column name with a $ to the end of early_colleges since
+    # dplyr automatically assumes that a "," represents AND
 
     select(early_colleges, college, city, state, established, sponsorship)
 
     ## # A tibble: 65 x 5
-    ##    college                city          state established sponsorship      
-    ##    <chr>                  <chr>         <chr>       <int> <chr>            
-    ##  1 Harvard                Cambridge     MA           1636 Congregational   
-    ##  2 William and Mary       Williamsburg  VA           1693 Anglican         
-    ##  3 Yale                   New Haven     CT           1701 Congregational   
+    ##    college                city          state established sponsorship
+    ##    <chr>                  <chr>         <chr>       <int> <chr>
+    ##  1 Harvard                Cambridge     MA           1636 Congregational
+    ##  2 William and Mary       Williamsburg  VA           1693 Anglican
+    ##  3 Yale                   New Haven     CT           1701 Congregational
     ##  4 Pennsylvania, Univ. of Philadelphia  PA           1740 Nondenominational
-    ##  5 Princeton              Princeton     NJ           1746 Presbyterian     
-    ##  6 Columbia               New York      NY           1754 Anglican         
-    ##  7 Brown                  Providence    RI           1765 Baptist          
-    ##  8 Rutgers                New Brunswick NJ           1766 Dutch Reformed   
-    ##  9 Dartmouth              Hanover       NH           1769 Congregational   
-    ## 10 Charleston, Coll. Of   Charleston    SC           1770 Anglican         
+    ##  5 Princeton              Princeton     NJ           1746 Presbyterian
+    ##  6 Columbia               New York      NY           1754 Anglican
+    ##  7 Brown                  Providence    RI           1765 Baptist
+    ##  8 Rutgers                New Brunswick NJ           1766 Dutch Reformed
+    ##  9 Dartmouth              Hanover       NH           1769 Congregational
+    ## 10 Charleston, Coll. Of   Charleston    SC           1770 Anglican
     ## # ... with 55 more rows
 
 Let's also go ahead and see how to write this using the pipe operator
@@ -426,20 +426,20 @@ Let's also go ahead and see how to write this using the pipe operator
         select(college, city, state, established, sponsorship)
 
     ## # A tibble: 65 x 5
-    ##    college                city          state established sponsorship      
-    ##    <chr>                  <chr>         <chr>       <int> <chr>            
-    ##  1 Harvard                Cambridge     MA           1636 Congregational   
-    ##  2 William and Mary       Williamsburg  VA           1693 Anglican         
-    ##  3 Yale                   New Haven     CT           1701 Congregational   
+    ##    college                city          state established sponsorship
+    ##    <chr>                  <chr>         <chr>       <int> <chr>
+    ##  1 Harvard                Cambridge     MA           1636 Congregational
+    ##  2 William and Mary       Williamsburg  VA           1693 Anglican
+    ##  3 Yale                   New Haven     CT           1701 Congregational
     ##  4 Pennsylvania, Univ. of Philadelphia  PA           1740 Nondenominational
-    ##  5 Princeton              Princeton     NJ           1746 Presbyterian     
-    ##  6 Columbia               New York      NY           1754 Anglican         
-    ##  7 Brown                  Providence    RI           1765 Baptist          
-    ##  8 Rutgers                New Brunswick NJ           1766 Dutch Reformed   
-    ##  9 Dartmouth              Hanover       NH           1769 Congregational   
-    ## 10 Charleston, Coll. Of   Charleston    SC           1770 Anglican         
+    ##  5 Princeton              Princeton     NJ           1746 Presbyterian
+    ##  6 Columbia               New York      NY           1754 Anglican
+    ##  7 Brown                  Providence    RI           1765 Baptist
+    ##  8 Rutgers                New Brunswick NJ           1766 Dutch Reformed
+    ##  9 Dartmouth              Hanover       NH           1769 Congregational
+    ## 10 Charleston, Coll. Of   Charleston    SC           1770 Anglican
     ## # ... with 55 more rows
-    
+
 Referencing each of the columns that we want to keep just to get rid of
 one is a little tedous. We can use the minus symbol (-) to demonstrate
 that we want to remove a column.
@@ -448,20 +448,20 @@ that we want to remove a column.
         select(-original_name)
 
     ## # A tibble: 65 x 5
-    ##    college                city          state established sponsorship      
-    ##    <chr>                  <chr>         <chr>       <int> <chr>            
-    ##  1 Harvard                Cambridge     MA           1636 Congregational   
-    ##  2 William and Mary       Williamsburg  VA           1693 Anglican         
-    ##  3 Yale                   New Haven     CT           1701 Congregational   
+    ##    college                city          state established sponsorship
+    ##    <chr>                  <chr>         <chr>       <int> <chr>
+    ##  1 Harvard                Cambridge     MA           1636 Congregational
+    ##  2 William and Mary       Williamsburg  VA           1693 Anglican
+    ##  3 Yale                   New Haven     CT           1701 Congregational
     ##  4 Pennsylvania, Univ. of Philadelphia  PA           1740 Nondenominational
-    ##  5 Princeton              Princeton     NJ           1746 Presbyterian     
-    ##  6 Columbia               New York      NY           1754 Anglican         
-    ##  7 Brown                  Providence    RI           1765 Baptist          
-    ##  8 Rutgers                New Brunswick NJ           1766 Dutch Reformed   
-    ##  9 Dartmouth              Hanover       NH           1769 Congregational   
-    ## 10 Charleston, Coll. Of   Charleston    SC           1770 Anglican         
+    ##  5 Princeton              Princeton     NJ           1746 Presbyterian
+    ##  6 Columbia               New York      NY           1754 Anglican
+    ##  7 Brown                  Providence    RI           1765 Baptist
+    ##  8 Rutgers                New Brunswick NJ           1766 Dutch Reformed
+    ##  9 Dartmouth              Hanover       NH           1769 Congregational
+    ## 10 Charleston, Coll. Of   Charleston    SC           1770 Anglican
     ## # ... with 55 more rows
-    
+
 ### Filter
 
 The filter() function does the same thing as the select function but
@@ -475,46 +475,46 @@ existed before the turn of the century.
     ## # A tibble: 20 x 6
     ##    college                  original_name         city           state
     ##    <chr>                    <chr>                 <chr>          <chr>
-    ##  1 Harvard                  <NA>                  Cambridge      MA   
-    ##  2 William and Mary         <NA>                  Williamsburg   VA   
-    ##  3 Yale                     <NA>                  New Haven      CT   
-    ##  4 Pennsylvania, Univ. of   <NA>                  Philadelphia   PA   
-    ##  5 Princeton                College of New Jersey Princeton      NJ   
-    ##  6 Columbia                 King's College        New York       NY   
-    ##  7 Brown                    <NA>                  Providence     RI   
-    ##  8 Rutgers                  Queen's College       New Brunswick  NJ   
-    ##  9 Dartmouth                <NA>                  Hanover        NH   
-    ## 10 Charleston, Coll. Of     <NA>                  Charleston     SC   
-    ## 11 Hampden-Sydney           <NA>                  Hampden-Sydney VA   
-    ## 12 Transylvania             <NA>                  Lexington      KY   
-    ## 13 Georgia, Univ. of        <NA>                  Athens         GA   
-    ## 14 Georgetown               <NA>                  Washington     DC   
-    ## 15 North Carolina, Univ. of <NA>                  Chapel Hill    NC   
-    ## 16 Vermont, Univ. of        <NA>                  Burlington     VT   
-    ## 17 Williams                 <NA>                  Williamstown   MA   
-    ## 18 Tennessee, Univ. of      Blount College        Knoxville      TN   
-    ## 19 Union College            <NA>                  Schenectady    NY   
-    ## 20 Marietta                 <NA>                  Marietta       OH   
-    ##    established sponsorship                     
-    ##          <int> <chr>                           
-    ##  1        1636 Congregational                  
-    ##  2        1693 Anglican                        
-    ##  3        1701 Congregational                  
-    ##  4        1740 Nondenominational               
-    ##  5        1746 Presbyterian                    
-    ##  6        1754 Anglican                        
-    ##  7        1765 Baptist                         
-    ##  8        1766 Dutch Reformed                  
-    ##  9        1769 Congregational                  
-    ## 10        1770 Anglican                        
-    ## 11        1775 Presbyterian                    
-    ## 12        1780 Disciples of Christ             
-    ## 13        1785 Secular                         
-    ## 14        1789 Roman Catholic                  
-    ## 15        1789 Secular                         
-    ## 16        1791 Nondenominational               
-    ## 17        1793 Congregational                  
-    ## 18        1794 Secular                         
+    ##  1 Harvard                  <NA>                  Cambridge      MA
+    ##  2 William and Mary         <NA>                  Williamsburg   VA
+    ##  3 Yale                     <NA>                  New Haven      CT
+    ##  4 Pennsylvania, Univ. of   <NA>                  Philadelphia   PA
+    ##  5 Princeton                College of New Jersey Princeton      NJ
+    ##  6 Columbia                 King's College        New York       NY
+    ##  7 Brown                    <NA>                  Providence     RI
+    ##  8 Rutgers                  Queen's College       New Brunswick  NJ
+    ##  9 Dartmouth                <NA>                  Hanover        NH
+    ## 10 Charleston, Coll. Of     <NA>                  Charleston     SC
+    ## 11 Hampden-Sydney           <NA>                  Hampden-Sydney VA
+    ## 12 Transylvania             <NA>                  Lexington      KY
+    ## 13 Georgia, Univ. of        <NA>                  Athens         GA
+    ## 14 Georgetown               <NA>                  Washington     DC
+    ## 15 North Carolina, Univ. of <NA>                  Chapel Hill    NC
+    ## 16 Vermont, Univ. of        <NA>                  Burlington     VT
+    ## 17 Williams                 <NA>                  Williamstown   MA
+    ## 18 Tennessee, Univ. of      Blount College        Knoxville      TN
+    ## 19 Union College            <NA>                  Schenectady    NY
+    ## 20 Marietta                 <NA>                  Marietta       OH
+    ##    established sponsorship
+    ##          <int> <chr>
+    ##  1        1636 Congregational
+    ##  2        1693 Anglican
+    ##  3        1701 Congregational
+    ##  4        1740 Nondenominational
+    ##  5        1746 Presbyterian
+    ##  6        1754 Anglican
+    ##  7        1765 Baptist
+    ##  8        1766 Dutch Reformed
+    ##  9        1769 Congregational
+    ## 10        1770 Anglican
+    ## 11        1775 Presbyterian
+    ## 12        1780 Disciples of Christ
+    ## 13        1785 Secular
+    ## 14        1789 Roman Catholic
+    ## 15        1789 Secular
+    ## 16        1791 Nondenominational
+    ## 17        1793 Congregational
+    ## 18        1794 Secular
     ## 19        1795 Presbyterian with Congregational
     ## 20        1797 Congregational
 
@@ -530,28 +530,28 @@ them in a single column called "location."
     ## # A tibble: 65 x 7
     ##    college                original_name         city          state
     ##    <chr>                  <chr>                 <chr>         <chr>
-    ##  1 Harvard                <NA>                  Cambridge     MA   
-    ##  2 William and Mary       <NA>                  Williamsburg  VA   
-    ##  3 Yale                   <NA>                  New Haven     CT   
-    ##  4 Pennsylvania, Univ. of <NA>                  Philadelphia  PA   
-    ##  5 Princeton              College of New Jersey Princeton     NJ   
-    ##  6 Columbia               King's College        New York      NY   
-    ##  7 Brown                  <NA>                  Providence    RI   
-    ##  8 Rutgers                Queen's College       New Brunswick NJ   
-    ##  9 Dartmouth              <NA>                  Hanover       NH   
-    ## 10 Charleston, Coll. Of   <NA>                  Charleston    SC   
-    ##    established sponsorship       location        
-    ##          <int> <chr>             <chr>           
-    ##  1        1636 Congregational    Cambridge,MA    
-    ##  2        1693 Anglican          Williamsburg,VA 
-    ##  3        1701 Congregational    New Haven,CT    
-    ##  4        1740 Nondenominational Philadelphia,PA 
-    ##  5        1746 Presbyterian      Princeton,NJ    
-    ##  6        1754 Anglican          New York,NY     
-    ##  7        1765 Baptist           Providence,RI   
+    ##  1 Harvard                <NA>                  Cambridge     MA
+    ##  2 William and Mary       <NA>                  Williamsburg  VA
+    ##  3 Yale                   <NA>                  New Haven     CT
+    ##  4 Pennsylvania, Univ. of <NA>                  Philadelphia  PA
+    ##  5 Princeton              College of New Jersey Princeton     NJ
+    ##  6 Columbia               King's College        New York      NY
+    ##  7 Brown                  <NA>                  Providence    RI
+    ##  8 Rutgers                Queen's College       New Brunswick NJ
+    ##  9 Dartmouth              <NA>                  Hanover       NH
+    ## 10 Charleston, Coll. Of   <NA>                  Charleston    SC
+    ##    established sponsorship       location
+    ##          <int> <chr>             <chr>
+    ##  1        1636 Congregational    Cambridge,MA
+    ##  2        1693 Anglican          Williamsburg,VA
+    ##  3        1701 Congregational    New Haven,CT
+    ##  4        1740 Nondenominational Philadelphia,PA
+    ##  5        1746 Presbyterian      Princeton,NJ
+    ##  6        1754 Anglican          New York,NY
+    ##  7        1765 Baptist           Providence,RI
     ##  8        1766 Dutch Reformed    New Brunswick,NJ
-    ##  9        1769 Congregational    Hanover,NH      
-    ## 10        1770 Anglican          Charleston,SC   
+    ##  9        1769 Congregational    Hanover,NH
+    ## 10        1770 Anglican          Charleston,SC
     ## # ... with 55 more rows
 
 Again, you need to remember that dplyr does not save the data or
@@ -561,35 +561,35 @@ variable.
 
     early_colleges_with_location <- early_colleges%>%
         mutate(location=paste(city, state, sep=","))
-        
-    # View the new tibble with the location added 
+
+    # View the new tibble with the location added
     early_colleges_with_location
 
     ## # A tibble: 65 x 7
     ##    college                original_name         city          state
     ##    <chr>                  <chr>                 <chr>         <chr>
-    ##  1 Harvard                <NA>                  Cambridge     MA   
-    ##  2 William and Mary       <NA>                  Williamsburg  VA   
-    ##  3 Yale                   <NA>                  New Haven     CT   
-    ##  4 Pennsylvania, Univ. of <NA>                  Philadelphia  PA   
-    ##  5 Princeton              College of New Jersey Princeton     NJ   
-    ##  6 Columbia               King's College        New York      NY   
-    ##  7 Brown                  <NA>                  Providence    RI   
-    ##  8 Rutgers                Queen's College       New Brunswick NJ   
-    ##  9 Dartmouth              <NA>                  Hanover       NH   
-    ## 10 Charleston, Coll. Of   <NA>                  Charleston    SC   
-    ##    established sponsorship       location        
-    ##          <int> <chr>             <chr>           
-    ##  1        1636 Congregational    Cambridge,MA    
-    ##  2        1693 Anglican          Williamsburg,VA 
-    ##  3        1701 Congregational    New Haven,CT    
-    ##  4        1740 Nondenominational Philadelphia,PA 
-    ##  5        1746 Presbyterian      Princeton,NJ    
-    ##  6        1754 Anglican          New York,NY     
-    ##  7        1765 Baptist           Providence,RI   
+    ##  1 Harvard                <NA>                  Cambridge     MA
+    ##  2 William and Mary       <NA>                  Williamsburg  VA
+    ##  3 Yale                   <NA>                  New Haven     CT
+    ##  4 Pennsylvania, Univ. of <NA>                  Philadelphia  PA
+    ##  5 Princeton              College of New Jersey Princeton     NJ
+    ##  6 Columbia               King's College        New York      NY
+    ##  7 Brown                  <NA>                  Providence    RI
+    ##  8 Rutgers                Queen's College       New Brunswick NJ
+    ##  9 Dartmouth              <NA>                  Hanover       NH
+    ## 10 Charleston, Coll. Of   <NA>                  Charleston    SC
+    ##    established sponsorship       location
+    ##          <int> <chr>             <chr>
+    ##  1        1636 Congregational    Cambridge,MA
+    ##  2        1693 Anglican          Williamsburg,VA
+    ##  3        1701 Congregational    New Haven,CT
+    ##  4        1740 Nondenominational Philadelphia,PA
+    ##  5        1746 Presbyterian      Princeton,NJ
+    ##  6        1754 Anglican          New York,NY
+    ##  7        1765 Baptist           Providence,RI
     ##  8        1766 Dutch Reformed    New Brunswick,NJ
-    ##  9        1769 Congregational    Hanover,NH      
-    ## 10        1770 Anglican          Charleston,SC   
+    ##  9        1769 Congregational    Hanover,NH
+    ## 10        1770 Anglican          Charleston,SC
     ## # ... with 55 more rows
 
 ### Arrange
@@ -598,7 +598,7 @@ The arrange() function allows us to order our columns in a new way.
 Currently, the colleges are organized by year in ascending order. Lets
 place them in descending order of establishment, in this case, from the end of the Mexican-American War.
 
-    early_colleges %>% 
+    early_colleges %>%
         arrange(desc(established))
 
     ## # A tibble: 65 x 6
@@ -614,17 +614,17 @@ place them in descending order of establishment, in this case, from the end of t
     ##  8 U.S. Naval Academy    <NA>          Annapolis   MD           1845
     ##  9 Mississipps, Univ. of <NA>          Oxford      MI           1844
     ## 10 Holy Cross            <NA>          Worchester  MA           1843
-    ##    sponsorship   
-    ##    <chr>         
-    ##  1 Secular       
-    ##  2 Quaker        
+    ##    sponsorship
+    ##    <chr>
+    ##  1 Secular
+    ##  2 Quaker
     ##  3 Congregational
-    ##  4 Baptist       
+    ##  4 Baptist
     ##  5 Congregational
-    ##  6 Methodist     
-    ##  7 Secular       
-    ##  8 Secular       
-    ##  9 Secular       
+    ##  6 Methodist
+    ##  7 Secular
+    ##  8 Secular
+    ##  9 Secular
     ## 10 Roman Catholic
     ## # ... with 55 more rows
 
@@ -654,7 +654,7 @@ colleges founded before the U.S. War of 1812:
     secular_colleges_before_1812<-early_colleges%>%
       filter(established < 1812)%>%
       mutate(is_secular=ifelse(sponsorship!="Secular", "no", "yes"))
-             
+
     ggplot(secular_colleges_before_1812) +
       geom_bar(aes(x=is_secular, fill=is_secular))+
       labs(x="Is the college secular?")
@@ -668,7 +668,7 @@ the War of 1812:
     secular_colleges_after_1812<-early_colleges%>%
       filter(established > 1812)%>%
       mutate(is_secular=ifelse(sponsorship!="Secular", "no", "yes"))
-             
+
     ggplot(secular_colleges_after_1812) +
       geom_bar(aes(x=is_secular, fill=is_secular))+
       labs(x="Is the college secular?")
@@ -681,7 +681,7 @@ Conclusion
 This tutorial should put you well on the way to thinking about how to
 organize and manipulate your data in R. Later, you will probably want to
 graph your data in some way. I recommend that you begin looking at the
-[ggplot2](http://www.ggplot2.org) package for a set of tools that work
+[ggplot2](https://ggplot2.tidyverse.org/) package for a set of tools that work
 well with dplyr. In addition, you may want to examine some of the
 other functions that come with dplyr to hone your skills. Either way,
 this should provide a good foundation to build on and cover a lot of
