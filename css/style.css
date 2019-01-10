@@ -528,6 +528,10 @@ Lesson Typography
     max-width:100%;
   }
 
+  img .lesson-avatar {
+    max-width: 250px;
+  }
+
   ins { background: #ff9; color: #000; text-decoration: none; }
 
 
