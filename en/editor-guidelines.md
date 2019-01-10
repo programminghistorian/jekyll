@@ -260,6 +260,7 @@ difficulty: 2
 3. Edit /js/lessonfilter.js so the filter button to filter the lesson page to that topic works. Search the file for the ten-line chunk of code beginning with `$('#filter-api')`, copy and paste that chunk of code, and replace the *two* appearances of "api" with your new topic.
 - **abstract** is a 1-3 sentence description of what you'll learn in the lesson. Try to avoid technical vocabulary when possible, as these summaries can help scholars without technical knowledge to try out something new.
 - **slug** should have the path to the lesson on the public PH site, which means the hyphenated text following programminghistorian.org/lessons/ (e.g. building-static-sites-with-jekyll-github-pages)"
+- **date** The date of the lesson should be updated to the date that the submission was moved to the main Jekyll repository.
 
 ### 4) Find an Image to represent the lesson
 
