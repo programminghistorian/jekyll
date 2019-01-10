@@ -279,18 +279,9 @@ Save the original image. The filename should be the same as the corresponding le
 
 Then, create a new copy of the image. Crop it to a square without removing any important features. Change the dimensions to 200x200 pixels. Convert the image to grayscale. Perform any adjustments necessary to make it conform to the other lesson images, such as lightening or darkening it, or altering the contrast. Save this new image as the lesson’s URL slug; again, **the file format must be png**. In our previous example, the filename would be `cleaning-data-with-openrefine.png`.
 
-Upload the original image to the [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) folder, and upload the edited image to the [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery) folder.
+Upload the original image to the [gallery/originals](https://github.com/programminghistorian/ph_submissions/tree/gh-pages/gallery/originals) folder, and upload the edited image to the [gallery](https://github.com/programminghistorian/ph_submissions/tree/gh-pages/gallery) folder. You will need to direct the managing editor to the locations of these images on the ph_submissions repo when you hand the files off to them for publishing.
 
-### 5) Incorporate your lesson into our Twitter bot
-In addition to the Twitter promotion outlined below, we also make use of a Twitter bot to regularly re-advertise older lessons. In order to add the new lesson to our pipeline, you need to add it as a row in [this spreadsheet](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Everyone on the editorial team should have the ability to make changes; email the google group if you have trouble. You will need to add a new row for your lesson to the end of the table with the following fields:
-
-* message_one (column A) - a twitter message to play early in the week.
-* message_two (column B) - an "In Case You Missed It" twitter message to play later in the week.
-* link (column C) - the link to the lesson.
-
-Leave column D blank and untouched - this field is used by the Twitter bot to log its progress through the list. Also note that this step should not replace your own promotion of the lesson. The bot goes through the lessons at random, one a week, so it could be months until your lesson comes up through this means.
-
-### 6) Inform the Managing Editor to Publish
+### 5) Inform the Managing Editor to Publish
 
 The Managing Editor will publish the lesson by moving the files to the main website and check everything over. To make this person's job easier, post a list in the submission ticket of all files that need to be moved to publish the lesson. This should normally include:
 
@@ -298,6 +289,17 @@ The Managing Editor will publish the lesson by moving the files to the main webs
 - The directory for any accompanying files (images, data, etc)
 - The gallery icons
 - A bio if the author is new
+
+All except the bio should be represented as files somewhere in the ph_submissions repo. The bio can be placed in the ticket directly.
+
+### 6) Incorporate your lesson into our Twitter bot
+In addition to the Twitter promotion outlined below, we also make use of a Twitter bot to regularly re-advertise older lessons. In order to add the new lesson to our pipeline, you need to add it as a row in [this spreadsheet](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Everyone on the editorial team should have the ability to make changes; email the google group if you have trouble. You will need to add a new row for your lesson to the end of the table with the following fields:
+
+* message_one (column A) - a twitter message to play early in the week.
+* message_two (column B) - an "In Case You Missed It" twitter message to play later in the week.
+* link (column C) - the link to the lesson.
+
+Leave column D blank and untouched - this field is used by the Twitter bot to log its progress through the list. Also note that this step should not replace your own promotion of the lesson. The bot goes through the lessons at random, one a week, so it could be months until your lesson comes up through this means.
 
 ### 7) Thank Everyone and Encourage Promotion
 Once you have been given word that the Managing Editor has successfully published the lesson, close the submission ticket, linking to the published lesson. It's important to send an email or message to everyone involved thanking them for their efforts. In particular, thank the author for contributing and encourage them to think of us again in future. It's also worth giving the author some ideas on promoting their lesson. The most-used lessons always have authors' energies behind them. For example authors should be encouraged to:
@@ -344,7 +346,7 @@ After the lesson has been moved to the `jekyll` repository, you'll also need to 
 
 ## 3) Add the author bio to ph_authors.yml
 
-If the lesson has been written by a new author, editors should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Follow the syntax for the examples already included there:
+If the lesson has been written by a new author, the managing editor should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Follow the syntax for the examples already included there, using the bio that the editor provided you:
 
 ```yaml
 - name: Jim Clifford
