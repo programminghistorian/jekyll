@@ -159,6 +159,7 @@ Lesson Headers
     border:.2rem solid gray;
     margin:0;
     padding:0;
+    max-width: 200px;
   }
 
   header .header-abstract {
