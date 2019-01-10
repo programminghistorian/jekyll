@@ -197,7 +197,7 @@ Once you and the author are happy with a tutorial, the next step is to begin the
 
 ### 1) Create an Author Bio
 
-If the lesson has been written by a new author, editors should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Follow the syntax for the examples already included there:
+If the lesson has been written by a new author, the managing editor will need to add a new bio for that person. You will need to provide the managing editor with a version of the following information:
 
 ```yaml
 - name: Jim Clifford
@@ -295,6 +295,7 @@ The Managing Editor will publish the lesson by moving the files to the main webs
 - The lesson .md file
 - The directory for any accompanying files (images, data, etc)
 - The gallery icons
+- A bio if the author is new
 
 ### 7) Thank Everyone and Encourage Promotion
 Once you have been given word that the Managing Editor has successfully published the lesson, close the submission ticket, linking to the published lesson. It's important to send an email or message to everyone involved thanking them for their efforts. In particular, thank the author for contributing and encourage them to think of us again in future. It's also worth giving the author some ideas on promoting their lesson. The most-used lessons always have authors' energies behind them. For example authors should be encouraged to:
@@ -338,6 +339,19 @@ After the lesson has been moved to the `jekyll` repository, you'll also need to 
 3. Copy the now published lesson from `lessons/` into `lessons/published/`.
 4. Copy the image folder containing the images for the now published lesson from `images/` to `images/published/`.
 5. Use `git add`, `git commit`, and `git push` to finalize all the changes (or follow the Making Technical Contributions instructions: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions)
+
+## 3) Add the author bio to ph_authors.yml
+
+If the lesson has been written by a new author, editors should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Follow the syntax for the examples already included there:
+
+```yaml
+- name: Jim Clifford
+  team: false
+  bio:
+      en: |
+          Jim Clifford is an assistant professor in the Department of History
+          at the University of Saskatchewan.
+```
 
 ## 3) Confirm all links and YAML headers are functioning correctly
 
