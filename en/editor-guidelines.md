@@ -396,4 +396,4 @@ If your build has errored, you will need to consult the build logs to see what i
 
 ## 5) Inform the Editor
 
-Once the lesson has been published, inform the editor.
+Once the lesson has been published, inform the editor and ensure they have added the lesson to the twitter bot pipeline.
