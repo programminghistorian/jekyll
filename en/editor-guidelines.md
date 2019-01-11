@@ -279,7 +279,7 @@ Save the original image. The filename should be the same as the corresponding le
 
 Then, create a new copy of the image. Crop it to a square without removing any important features. Change the dimensions to 200x200 pixels. Convert the image to grayscale. Perform any adjustments necessary to make it conform to the other lesson images, such as lightening or darkening it, or altering the contrast. Save this new image as the lesson’s URL slug; again, **the file format must be png**. In our previous example, the filename would be `cleaning-data-with-openrefine.png`.
 
-Upload the original image to the [gallery/originals](https://github.com/programminghistorian/ph_submissions/tree/gh-pages/gallery/originals) folder, and upload the edited image to the [gallery](https://github.com/programminghistorian/ph_submissions/tree/gh-pages/gallery) folder. You will need to direct the managing editor to the locations of these images on the ph_submissions repo when you hand the files off to them for publishing.
+Upload the original image to the [gallery/originals](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/gallery/originals) folder, and upload the edited image to the [gallery](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/gallery) folder. You will need to direct the managing editor to the locations of these images on the ph_submissions repo when you hand the files off to them for publishing.
 
 ### 5) Inform the Managing Editor to Publish
 
