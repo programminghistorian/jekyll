@@ -27,25 +27,11 @@ What if you only wanted to look at the pictures in a book? This is a thought tha
 
 Here are the page thumbnails for a HathiTrust volume with unique identifier `osu.32435078698222`. After the process described in this lesson, only those pages with pictures (31 in total) have been downloaded as JPEGs to a folder.
 
-<figure>
-<a href="../images/extracting-illustrated-pages/file-explorer-example.png">
-    <img src="../images/extracting-illustrated-pages/file-explorer-example.png" alt="View of volume for which only pages with pictures have been downloaded">
-	</a>
-<figcaption>
-    <p>View of volume for which only pages with pictures have been downloaded.</p>
-</figcaption>
-</figure>
+{% include figure.html filename=“file-explorer-example.png” caption=“View of volume for which only pages with pictures have been downloaded.” %}
 
 To see how many *unillustrated* pages have been filtered out, compare against the [full set of thumbnails](https://babel.hathitrust.org/cgi/pt?id=osu.32435078698222;view=thumb;seq=1) for all 148 pages in this revised 1845 edition of Samuel Griswold Goodrich's bestselling children's book *Tales of Peter Parley about America* (1827).
 
-<figure>
-<a href="../images/extracting-illustrated-pages/parley-full-thumbnails.png">
-    <img src="../images/extracting-illustrated-pages/parley-full-thumbnails.png" alt="View of HathiTrust thumbnails for all pages">
-	</a>
-<figcaption>
-    <p>View of HathiTrust thumbnails for all pages.</p>
-</figcaption>
-</figure>
+{% include figure.html filename=“parley-full-thumbnails.png” caption=“View of HathiTrust thumbnails for all pages.” %}
 
 This lesson shows how complete these filtering and downloading steps for public-domain text volumes held by HathiTrust (HT) and Internet Archive (IA), two of the largest digital libraries in the world. It will be of interest to anyone who wants to create image corpora in order to learn about the history of illustration and the layout (*mise en page*) of books. Visual approaches to digital bibliography are becoming popular, following  the pioneering efforts of [EBBA](https://ebba.english.ucsb.edu/) and [AIDA](http://projectaida.org/). Recently completed or funded projects explore ways to [identify footnotes](http://culturalanalytics.org/2018/12/detecting-footnotes-in-32-million-pages-of-ecco/) and [track marginalia](http://www.ccs.neu.edu/home/dasmith/ichneumon-proposal.pdf), to give just two [examples](https://www.neh.gov/divisions/odh/grant-news/announcing-new-2017-odh-grant-awards). 
 
@@ -213,14 +199,7 @@ Peter Organisciak and Boris Capitanu's [Text Mining in Python through the HTRC F
 
 This will run the notebook server in your shell and launch your default browser with the Jupyter homepage. The homepage shows all the files in the current working directory.
 
-<figure>
-<a href="../images/extracting-illustrated-pages/jupyter-home.png">
-    <img src="../images/extracting-illustrated-pages/jupyter-home.png" alt="Jupyter homepage showing lesson files">
-	</a>
-<figcaption>
-    <p>Jupyter homepage showing lesson files.</p>
-</figcaption>
-</figure>
+{% include figure.html filename=“jupyter-home.png” caption=“Jupyter homepage showing lesson files.” %}
 
 <div class="alert alert-warning">
 In your shell, make sure you have <code>cd</code>-ed into the unzipped <code>lesson-files</code> directory.
@@ -260,14 +239,7 @@ HT allows anyone to make a collection of items&mdash;you don't even have to be l
 
 As you update a collection, HT keeps track of the associated metadata for each item in it. I have included in the lesson files the metadata for a sample lesson in JSON format. If you wanted to use the file from your own HT collection, you would navigate to your collections page and hover on the metadata link on the left to bring up the option to download as JSON as seen in the following screenshot.
 
-<figure>
-<a href="../images/extracting-illustrated-pages/download-ht-json.png">
-    <img src="../images/extracting-illustrated-pages/download-ht-json.png" alt="Screenshot of how to download collection metadata in JSON format">
-	</a>
-<figcaption>
-    <p>Screenshot of how to download collection metadata in JSON format.</p>
-</figcaption>
-</figure>
+{% include figure.html filename=“download-ht-json.png” caption=“Screenshot of how to download collection metadata in JSON format.” %}
 
 When you have downloaded the JSON file, simply move it to the directory where you placed the Jupyter notebooks. Replace the name of the JSON file in the HT notebook with the name of your collection's file.
 
