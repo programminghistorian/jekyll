@@ -12,9 +12,9 @@ reviewers:
 editors:
 - Anandi Silva Knuppel
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/193
-difficulty: Medium
+difficulty: 2
 activity: acquiring
-topics: [API]
+topics: [api]
 abstract: Digital library volumes, like the physical objects they remediate, are visually structured. However, much recent DH work makes use of textual features that lose all information about typography, paper, scan artefacts, diagrams, and pictures. Machine learning and API extensions by HathiTrust and Internet Archive are making it easier to extract page regions of visual interest from digitized volumes. This lesson shows how to efficiently extract those regions and, in doing so, prompt new, visual research questions.
 ---
 
@@ -75,7 +75,7 @@ The big-picture goal is to strengthen data collection and exploration skills by 
 
 This lesson's software requirements are minimal: access to a machine running a standard operating system and a web browser. Miniconda is available in both 32- and 64-bit versions for Windows, macOS, and Linux. Python 3 is the current stable release of the language and will be supported indefinitely.
 
-This tutorial assumes basic knowledge of the command line and the Python  programming language. You should understand the conventions for comments and commands in a shell-based tutorial. I recommend Ian Milligan and James Baker's [Introduction to the Bash Command Line](https://programminghistorian.org/en/lessons/intro-to-bash) for learning or brushing up on your command line skills.
+This tutorial assumes basic knowledge of the command line and the Python  programming language. You should understand the conventions for comments and commands in a shell-based tutorial. I recommend Ian Milligan and James Baker's [Introduction to the Bash Command Line](/en/lessons/intro-to-bash) for learning or brushing up on your command line skills.
 
 
 # Setup
@@ -209,7 +209,7 @@ C:\Users\stephen-krewson\Miniconda\envs\extract-pages\Scripts\pip.exe install ha
 
 ## Jupyter Notebooks
 
-Peter Organisciak and Boris Capitanu's [Text Mining in Python through the HTRC Feature Reader](https://programminghistorian.org/en/lessons/text-mining-with-extracted-features#start-a-notebook) explains the benefits of notebooks for development and data exploration. It also contains helpful information on how to effectively run cells. Since we installed the minimalist version of Anaconda, we need to launch Jupyter from the command line. In your shell (from inside the folder containing the lesson files) run `jupyter notebook`.
+Peter Organisciak and Boris Capitanu's [Text Mining in Python through the HTRC Feature Reader](/en/lessons/text-mining-with-extracted-features#start-a-notebook) explains the benefits of notebooks for development and data exploration. It also contains helpful information on how to effectively run cells. Since we installed the minimalist version of Anaconda, we need to launch Jupyter from the command line. In your shell (from inside the folder containing the lesson files) run `jupyter notebook`.
 
 This will run the notebook server in your shell and launch your default browser with the Jupyter homepage. The homepage shows all the files in the current working directory.
 
@@ -416,7 +416,7 @@ While HT's IMAGE_ON_PAGE feature contains no information about the *location* of
 
 Part of the intellectual fun of this lesson is using a noisy dataset (OCR block tags) for a largely unintended purpose: identifying pictures and not words. At some point, it will become computationally feasible to run deep learning models on every raw page image in a volume and pick out the desired type(s) of picture(s). But since most pages in most volumes are unillustrated, that is an expensive task. For now, it makes more sense to leverage the existing data we have from the OCR ingest process. 
 
-For more information on how OCR itself works and interacts with the scan process, please see Mila Oiva's PH lesson [OCR with Tesseract and ScanTailor](https://programminghistorian.org/en/lessons/retired/OCR-with-Tesseract-and-ScanTailor). Errors can crop up due to skewing, artefacts, and many other problems. These errors end up affecting the reliability and precision of the "Picture" blocks. In many cases, Abbyy will estimate that blank or discolored pages are actually pictures. These incorrect block tags, while undesirable, can be dealt with using retrained convolutional neural networks. Think of the page images downloaded in this lesson as a first pass in a longer process of obtaining a clean and usable dataset of historical illustrations.
+For more information on how OCR itself works and interacts with the scan process, please see Mila Oiva's PH lesson [OCR with Tesseract and ScanTailor](/en/lessons/retired/OCR-with-Tesseract-and-ScanTailor). Errors can crop up due to skewing, artefacts, and many other problems. These errors end up affecting the reliability and precision of the "Picture" blocks. In many cases, Abbyy will estimate that blank or discolored pages are actually pictures. These incorrect block tags, while undesirable, can be dealt with using retrained convolutional neural networks. Think of the page images downloaded in this lesson as a first pass in a longer process of obtaining a clean and usable dataset of historical illustrations.
 
 
 ## Code Walk-through
