@@ -5,7 +5,7 @@ layout: lesson
 slug: introduction-to-ffmpeg
 date: 2018-12-20
 authors:
-- David Rodriguez
+- Dave Rodriguez
 reviewers:
 - Tesla Cariani
 - Josh Romphf
