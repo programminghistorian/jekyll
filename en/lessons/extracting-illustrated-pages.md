@@ -77,7 +77,7 @@ More experienced readers may wish to simply install the dependencies and run the
 
 ## Lesson Files
 
-Download this compressed [folder](../assets/extracting-illustrated-pages/lesson-files.zip) that contains two Jupyter notebooks, one for each of the digital libraries. The folder also contains a sample JSON metadata file describing a HathiTrust collection. Unzip and check that the following files are present: `554050894-1535834127.json`, `hathitrust.ipynb`, `internetarchive.ipynb`.
+Download this compressed [folder](/assets/extracting-illustrated-pages/lesson-files.zip) that contains two Jupyter notebooks, one for each of the digital libraries. The folder also contains a sample JSON metadata file describing a HathiTrust collection. Unzip and check that the following files are present: `554050894-1535834127.json`, `hathitrust.ipynb`, `internetarchive.ipynb`.
 
 <div class="alert alert-warning">
 All subsequent commands assume that your current working directory is the folder containing the lesson files.
@@ -353,7 +353,7 @@ for i, page in enumerate(img_pages):
 
 ## API Access
 
-We connect to the Python API library using an Archive.org account email and password rather than API tokens. This is discussed in the [Quickstart Guide](https://internetarchive.readthedocs.io/en/latest/quickstart.html). If you do not have an account, [register](https://archive.org/account/login.createaccount.php) for your "Virtual Library Card."
+We connect to the Python API library using an Archive.org account email and password rather than API tokens. This is discussed in the [Quickstart Guide](https://archive.org/services/docs/api/internetarchive/quickstart.html). If you do not have an account, [register](https://archive.org/account/login.createaccount.php) for your "Virtual Library Card."
 
 In the first cell of the `internetarchive.ipynb` notebook, enter your credentials as directed. Run the cell to authenticate to the API.
 
