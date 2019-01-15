@@ -86,7 +86,7 @@ All subsequent commands assume that your current working directory is the folder
 
 ### Download Destination
 
-Here is the default directory that will be created once all the cells in both notebooks have been run (as provided). After getting a list of which pages in a volume contain pictures, the HT and IA download functions request those pages as JPEGs (named by page number) and store them in sub-directories (named by item id). You can of course use different volume lists or change the `out_dir` destination to something other than `items`.
+Here is the default directory that will be created once all the cells in both notebooks have been run (as provided). After getting a list of which pages in a volume contain pictures, the HT and IA download functions request those pages as JPEGs (named by page number) and store them in sub-directories (named by item ID). You can of course use different volume lists or change the `out_dir` destination to something other than `items`.
 
 ```
 items/
@@ -274,15 +274,15 @@ Given a list of volumes, we want to explore what visual features they have at th
 >    - TABLE_OF_CONTENTS
 >    - TITLE
 
-What the `hathitrust-api` wrapper does is make the full metadata for a HT volume available as a Python object. Given a volume's identifier, we can request its metadata and then drill down through the page *sequence* into page-level information. The `htd:pfeat` *list* is associated with each page in a volume and in theory contains all features that apply to that page. In practice, there a quite a few more feature tags than the eight listed above. The one we will be working with is called IMAGE_ON_PAGE and is more abstractly visual than structural tags such as CHAPTER_START.
+What the `hathitrust-api` wrapper does is make the full metadata for a HT volume available as a Python object. Given a volume's identifier, we can request its metadata and then drill down through the page *sequence* into page-level information. The `htd:pfeat` *list* is associated with each page in a volume and in theory contains all features that apply to that page. In practice, there a quite a few more feature tags than the eight listed above. The one we will be working with is called `IMAGE_ON_PAGE` and is more abstractly visual than structural tags such as `CHAPTER_START`.
 
 Tom Burton-West, a research librarian at the University of Michigan Library, works closely with HathiTrust and HTRC, HathiTrust's Research Center. Tom told me over email that HathiTrust is provided the `htd:pfeat` information by Google, with whom they have worked closely since HT's founding in 2008. A contact at Google gave Tom permission to share the following:
 
 > These tags are derived from a combination of heuristics, machine learning, and human tagging.
 
-An example heuristic might be that the first element in the volume page sequence is almost always the FRONT_COVER. Machine learning could be used to train models to discriminate, say, between image data that is more typical of lines of prose in a Western script or of the lines in an engraving. Human tagging is the manual assignment of labels to images. The ability to view a volume's illustrations in the EEBO and ECCO databases is an example of human tagging.
+An example heuristic might be that the first element in the volume page sequence is almost always the `FRONT_COVER`. Machine learning could be used to train models to discriminate, say, between image data that is more typical of lines of prose in a Western script or of the lines in an engraving. Human tagging is the manual assignment of labels to images. The ability to view a volume's illustrations in the EEBO and ECCO databases is an example of human tagging.
 
-The use of "machine learning" by Google sounds somewhat mysterious. Until Google publicizes their methods, it is impossible to know all the details. However, it's likely that the IMAGE_ON_PAGE tags were first proposed by detecting "Picture" blocks in the OCR output files (a process discussed below in the Internet Archive section). Further filtering may then be applied.
+The use of "machine learning" by Google sounds somewhat mysterious. Until Google publicizes their methods, it is impossible to know all the details. However, it's likely that the `IMAGE_ON_PAGE` tags were first proposed by detecting "Picture" blocks in the OCR output files (a process discussed below in the Internet Archive section). Further filtering may then be applied.
 
 
 ## Code Walk-through
@@ -382,9 +382,9 @@ All recent versions of FineReader produce an [XML document](https://en.wikipedia
 </block>
 ```
 
-The IA equivalent to looking for IMAGE_ON_PAGE tags in HT is parsing the Abbyy XML file and iterating over each page. If there is at least one `Picture` block on that page, the page is flagged as possibly containing an image. 
+The IA equivalent to looking for `IMAGE_ON_PAGE` tags in HT is parsing the Abbyy XML file and iterating over each page. If there is at least one `Picture` block on that page, the page is flagged as possibly containing an image. 
 
-While HT's IMAGE_ON_PAGE feature contains no information about the *location* of that image, the `Picture` blocks in the XML file are associated with a rectangular region on the page. However, since FineReader specializes in recognizing letters from Western character sets, it is much less accurate at identifying image regions. Leetaru's project (see Overview) used the region coordinates to crop pictures, but in this lesson we will simply download the whole page.
+While HT's `IMAGE_ON_PAGE` feature contains no information about the *location* of that image, the `Picture` blocks in the XML file are associated with a rectangular region on the page. However, since FineReader specializes in recognizing letters from Western character sets, it is much less accurate at identifying image regions. Leetaru's project (see Overview) used the region coordinates to crop pictures, but in this lesson we will simply download the whole page.
 
 Part of the intellectual fun of this lesson is using a noisy dataset (OCR block tags) for a largely unintended purpose: identifying pictures and not words. At some point, it will become computationally feasible to run deep learning models on every raw page image in a volume and pick out the desired type(s) of picture(s). But since most pages in most volumes are unillustrated, that is an expensive task. For now, it makes more sense to leverage the existing data we have from the OCR ingest process. 
 
@@ -451,7 +451,7 @@ os.remove(abbyy_file)
 
 ### Download Images
 
-IA's Python wrapper does not provide a single-page download function&mdash;only bulk. This means that we will use IA's RESTful API to get specific pages. First we construct a URL for each page that we need. Then we use the `requests` library to send an HTTP GET request and, if everything goes well (i.e. the code 200 is returned in the response), we write out the contents of the response to a JPEG file. 
+IA's Python wrapper does not provide a single-page download function&mdash;only bulk. This means that we will use IA's RESTful API to get specific pages. First we construct a URL for each page that we need. Then we use the `requests` library to send an HTTP `GET` request and, if everything goes well (i.e. the code 200 is returned in the response), we write out the contents of the response to a JPEG file. 
 
 IA has been working on an [alpha version](https://iiif.archivelab.org/iiif/documentation) of an API for image cropping and resizing that conforms to the standards of the International Image Interoperability Framework ([IIIF](https://iiif.io/)). IIIF represents a vast improvement on the old method for single-page downloads which required downloading JP2 files, a largely unsupported archival format. Now it's extremely simple to get a single page JPEG:
 
