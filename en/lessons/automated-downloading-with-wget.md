@@ -134,7 +134,7 @@ next to Command Line Tools. We are now ready to install a package
 manager.
 
 The easiest package manager to install is *Homebrew*. Go to
-<http://mxcl.github.io/homebrew/> and review the instructions. There are
+<https://brew.sh> and review the instructions. There are
 many important commands, like wget, that are not included by default in
 OS X. This program facilitates the downloading and installation of all
 required files.
@@ -143,7 +143,7 @@ To install *Homebrew*, open up your terminal window and type the
 following:
 
 ``` bash
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 This uses the ruby programming language, built into OS X, to install
