@@ -340,8 +340,8 @@ After the lesson has been moved to the `jekyll` repository, you'll also need to 
 
 1. Go to the directory for your local `ph-submissions` repository.
 2. Add a new line to the YAML header of the now published lesson: `redirect_from: "/lessons/LESSON-SLUG"`
-3. Copy the now published lesson from `lessons/` into `lessons/published/`.
-4. Copy the image folder containing the images for the now published lesson from `images/` to `images/published/`.
+3. Move the now published lesson from `lessons/` into `lessons/published/`.
+4. Move the image folder containing the images for the now published lesson from `images/` to `images/published/`.
 5. Use `git add`, `git commit`, and `git push` to finalize all the changes (or follow the Making Technical Contributions instructions: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions)
 
 ## 3) Add the author bio to ph_authors.yml
