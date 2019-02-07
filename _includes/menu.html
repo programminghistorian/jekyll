@@ -51,7 +51,8 @@ navbar-dark" style="background-color: {{ site.data.snippets.background_color[pag
 
         {% assign other_languages = site.data.snippets.language-list | where_exp: "item", "item != page.lang" %}
 
-        {% for lang in other_languages %}
+        <div class="btn-group btn-group-toggle" role="group" aria-label="Language selector">
+        {% for lang in site.data.snippets.language-list %}
 
         {% if translation_source.lang == lang %}
           {% assign alternate_target = translation_source %}
@@ -67,9 +68,9 @@ navbar-dark" style="background-color: {{ site.data.snippets.background_color[pag
           {% assign page_link = site.data.snippets.menu-lang[lang].link %}
         {% endif %}
         <li class="nav-item">
-          <a class="nav-link lang" href="{{ page_link }}">{{site.data.snippets.menu-lang[lang].title}}</a>
-        </li>
+          <a class="btn btn-secondary" href="{{ page_link }}">{{site.data.snippets.menu-lang[lang].title}}</a>
         {% endfor %}
+        </div>
 
     </ul>
   </div>
