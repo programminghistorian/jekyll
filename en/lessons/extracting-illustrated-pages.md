@@ -4,7 +4,7 @@ collection: lessons
 layout: lesson
 slug: extracting-illustrated-pages
 date: 2019-01-14
-authors: 
+authors:
 - Stephen Krewson
 reviewers:
 - Catherine DeRose
@@ -33,7 +33,7 @@ To see how many *unillustrated* pages have been filtered out, compare against th
 
 {% include figure.html filename="parley-full-thumbnails.png" caption="View of HathiTrust thumbnails for all pages." %}
 
-This lesson shows how complete these filtering and downloading steps for public-domain text volumes held by HathiTrust (HT) and Internet Archive (IA), two of the largest digital libraries in the world. It will be of interest to anyone who wants to create image corpora in order to learn about the history of illustration and the layout (*mise en page*) of books. Visual approaches to digital bibliography are becoming popular, following  the pioneering efforts of [EBBA](https://ebba.english.ucsb.edu/) and [AIDA](http://projectaida.org/). Recently completed or funded projects explore ways to [identify footnotes](http://culturalanalytics.org/2018/12/detecting-footnotes-in-32-million-pages-of-ecco/) and [track marginalia](http://www.ccs.neu.edu/home/dasmith/ichneumon-proposal.pdf), to give just two [examples](https://www.neh.gov/divisions/odh/grant-news/announcing-new-2017-odh-grant-awards). 
+This lesson shows how complete these filtering and downloading steps for public-domain text volumes held by HathiTrust (HT) and Internet Archive (IA), two of the largest digital libraries in the world. It will be of interest to anyone who wants to create image corpora in order to learn about the history of illustration and the layout (*mise en page*) of books. Visual approaches to digital bibliography are becoming popular, following  the pioneering efforts of [EBBA](https://ebba.english.ucsb.edu/) and [AIDA](http://projectaida.org/). Recently completed or funded projects explore ways to [identify footnotes](http://culturalanalytics.org/2018/12/detecting-footnotes-in-32-million-pages-of-ecco/) and [track marginalia](http://www.ccs.neu.edu/home/dasmith/ichneumon-proposal.pdf), to give just two [examples](https://www.neh.gov/divisions/odh/grant-news/announcing-new-2017-odh-grant-awards).
 
 My own research tries to answer empirical questions about changes in the frequency and mode of illustration in nineteenth-century  medical and educational texts. This involves aggregating counts of pictures per book and trying to estimate what printing process was used to make those pictures. A more targeted use case for extracting picture pages might be the collation of illustrations across [different editions](https://www.cambridge.org/core/books/cambridge-companion-to-robinson-crusoe/iconic-crusoe-illustrations-and-images-of-robinson-crusoe/B83352C33FB1A9929A856FFA8E2D0CD0/core-reader) of the same book. Future work might profitably investigate the visual characteristics and *meaning* of the extracted pictures: their color, size, theme, genre, number of figures, and so on.
 
@@ -114,7 +114,7 @@ Anaconda is the leading scientific Python distribution. Its `conda` package mana
 
 Download and install [Miniconda](https://conda.io/miniconda.html). Choose the latest stable release of Python 3. If everything goes well, you should be able to run `which conda` (linux/macOS) or `where conda` (Windows) in your shell and see the location of the executable program in the output.
 
-Anaconda has a handy [cheat sheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf) for frequently used commands.
+Anaconda has a handy [cheat sheet](http://web.archive.org/web/20190115051900/https://conda.io/docs/_downloads/conda-cheatsheet.pdf) for frequently used commands.
 
 ### Create an Environment
 
@@ -129,7 +129,7 @@ conda env list
 conda list
 ```
 
-Now we create a named environment, set it to use Python 3, and activate it. 
+Now we create a named environment, set it to use Python 3, and activate it.
 
 ```bash
 # note the --name flag which takes a string argument (e.g. "extract-pages")
@@ -161,7 +161,7 @@ conda install jupyter
 conda install --channel anaconda requests
 ```
 
-Jupyter has many dependencies (other packages on which it relies), so this step may take a few minutes. Remember that when `conda` prompts you with `Proceed ([y]/n)?` you should type a `y` or `yes` and then press Enter to accept the package plan. 
+Jupyter has many dependencies (other packages on which it relies), so this step may take a few minutes. Remember that when `conda` prompts you with `Proceed ([y]/n)?` you should type a `y` or `yes` and then press Enter to accept the package plan.
 
 <div class="alert alert-warning">
   Behind the scenes, <code>conda</code> is working to make sure all the required packages and dependencies will be installed in a compatible way.
@@ -170,7 +170,7 @@ Jupyter has many dependencies (other packages on which it relies), so this step 
 
 ### Install Pip Packages
 
-If you are using a `conda` environment, it's best to use the local version of `pip`. Check that the following commands output a program whose absolute path contains something like `/Miniconda/envs/extract-pages/Scripts/pip`. 
+If you are using a `conda` environment, it's best to use the local version of `pip`. Check that the following commands output a program whose absolute path contains something like `/Miniconda/envs/extract-pages/Scripts/pip`.
 
 ```bash
 which pip
@@ -229,13 +229,13 @@ data_api = DataAPI(ht_access_key, ht_secret_key)
 ```
 
 <div class="alert alert-warning">
-  Careful! Do not expose your access tokens through a public repo on GitHub (or other version control host). They will be searchable by just about anyone. One good practice for a Python project is to either store your tokens as environment variables or save them in a file that is not versioned. 
+  Careful! Do not expose your access tokens through a public repo on GitHub (or other version control host). They will be searchable by just about anyone. One good practice for a Python project is to either store your tokens as environment variables or save them in a file that is not versioned.
 </div>
 
 
 ## Create Volume List
 
-HT allows anyone to make a collection of items&mdash;you don't even have to be logged in! You should register for an account, however, if you want to save your list of volumes. Follow the [instructions](https://babel.hathitrust.org/cgi/mb?colltype=updated) to do some full-text searches and then add selected results to a collection. Currently, HathiTrust does not have a public search API for acquiring volumes programmatically; you need to search through their web interface.  
+HT allows anyone to make a collection of items&mdash;you don't even have to be logged in! You should register for an account, however, if you want to save your list of volumes. Follow the [instructions](https://babel.hathitrust.org/cgi/mb?colltype=updated) to do some full-text searches and then add selected results to a collection. Currently, HathiTrust does not have a public search API for acquiring volumes programmatically; you need to search through their web interface.
 
 As you update a collection, HT keeps track of the associated metadata for each item in it. I have included in the lesson files the metadata for a sample lesson in JSON format. If you wanted to use the file from your own HT collection, you would navigate to your collections page and hover on the metadata link on the left to bring up the option to download as JSON as seen in the following screenshot.
 
@@ -333,7 +333,7 @@ for i, page in enumerate(img_pages):
 			page, i+1, total_pages))
 
         img = data_api.getpageimage(item_id, page)
-    
+
         # N.B. loop only executes if out_dir is not None
         img_out = os.path.join(out_dir, str(page) + ".jpg")
 
@@ -367,11 +367,11 @@ In the notebook, I generate a list of IA ids with the following code:
 # sample search (should yield two results)
 query = "peter parley date:[1825 TO 1830] mediatype:texts"
 vol_ids = [result['identifier'] for result in ia.search_items(query)]
-``` 
+```
 
 ## Visual Feature: Picture Blocks
 
-Internet Archive does not release any page-level features. Instead, it makes a number of raw files from the digitization process available to users. The most important of these for our purposes is the Abbyy XML file. Abbyy is a Russian company whose FineReader software dominates the OCR market. 
+Internet Archive does not release any page-level features. Instead, it makes a number of raw files from the digitization process available to users. The most important of these for our purposes is the Abbyy XML file. Abbyy is a Russian company whose FineReader software dominates the OCR market.
 
 All recent versions of FineReader produce an [XML document](https://en.wikipedia.org/wiki/XML) that associates different "blocks" with each page in the scanned document. The most common type of block is `Text` but there are `Picture` blocks as well. Here is an example block taken from an IA Abbyy XML file. The top-left ("t" and "l") and bottom-right ("b" and "r") corners are enough to identify the rectangular block region.
 
@@ -382,11 +382,11 @@ All recent versions of FineReader produce an [XML document](https://en.wikipedia
 </block>
 ```
 
-The IA equivalent to looking for `IMAGE_ON_PAGE` tags in HT is parsing the Abbyy XML file and iterating over each page. If there is at least one `Picture` block on that page, the page is flagged as possibly containing an image. 
+The IA equivalent to looking for `IMAGE_ON_PAGE` tags in HT is parsing the Abbyy XML file and iterating over each page. If there is at least one `Picture` block on that page, the page is flagged as possibly containing an image.
 
 While HT's `IMAGE_ON_PAGE` feature contains no information about the *location* of that image, the `Picture` blocks in the XML file are associated with a rectangular region on the page. However, since FineReader specializes in recognizing letters from Western character sets, it is much less accurate at identifying image regions. Leetaru's project (see Overview) used the region coordinates to crop pictures, but in this lesson we will simply download the whole page.
 
-Part of the intellectual fun of this lesson is using a noisy dataset (OCR block tags) for a largely unintended purpose: identifying pictures and not words. At some point, it will become computationally feasible to run deep learning models on every raw page image in a volume and pick out the desired type(s) of picture(s). But since most pages in most volumes are unillustrated, that is an expensive task. For now, it makes more sense to leverage the existing data we have from the OCR ingest process. 
+Part of the intellectual fun of this lesson is using a noisy dataset (OCR block tags) for a largely unintended purpose: identifying pictures and not words. At some point, it will become computationally feasible to run deep learning models on every raw page image in a volume and pick out the desired type(s) of picture(s). But since most pages in most volumes are unillustrated, that is an expensive task. For now, it makes more sense to leverage the existing data we have from the OCR ingest process.
 
 For more information on how OCR itself works and interacts with the scan process, please see Mila Oiva's PH lesson [OCR with Tesseract and ScanTailor](/en/lessons/retired/OCR-with-Tesseract-and-ScanTailor). Errors can crop up due to skewing, artefacts, and many other problems. These errors end up affecting the reliability and precision of the "Picture" blocks. In many cases, Abbyy will estimate that blank or discolored pages are actually pictures. These incorrect block tags, while undesirable, can be dealt with using retrained convolutional neural networks. Think of the page images downloaded in this lesson as a first pass in a longer process of obtaining a clean and usable dataset of historical illustrations.
 
@@ -436,7 +436,7 @@ with gzip.open(abbyy_file) as fp:
                     img_pages.append(i)
                     break
             except KeyError:
-                continue    
+                continue
 
 # 0 is not a valid page for making GET requests to IA, yet sometimes
 # it's in the zipped Abbyy file
@@ -446,18 +446,18 @@ img_pages = [page for page in img_pages if page > 0]
 total_pages = len(img_pages)
 
 # OCR files are huge, so just delete once we have pagelist
-os.remove(abbyy_file)       
+os.remove(abbyy_file)
 ```
 
 ### Download Images
 
-IA's Python wrapper does not provide a single-page download function&mdash;only bulk. This means that we will use IA's RESTful API to get specific pages. First we construct a URL for each page that we need. Then we use the `requests` library to send an HTTP `GET` request and, if everything goes well (i.e. the code 200 is returned in the response), we write out the contents of the response to a JPEG file. 
+IA's Python wrapper does not provide a single-page download function&mdash;only bulk. This means that we will use IA's RESTful API to get specific pages. First we construct a URL for each page that we need. Then we use the `requests` library to send an HTTP `GET` request and, if everything goes well (i.e. the code 200 is returned in the response), we write out the contents of the response to a JPEG file.
 
 IA has been working on an [alpha version](https://iiif.archivelab.org/iiif/documentation) of an API for image cropping and resizing that conforms to the standards of the International Image Interoperability Framework ([IIIF](https://iiif.io/)). IIIF represents a vast improvement on the old method for single-page downloads which required downloading JP2 files, a largely unsupported archival format. Now it's extremely simple to get a single page JPEG:
 
 ```Python
 # See: https://iiif.archivelab.org/iiif/documentation
-urls = ["https://iiif.archivelab.org/iiif/{}${}/full/full/0/default.jpg".format(item_id, page) 
+urls = ["https://iiif.archivelab.org/iiif/{}${}/full/full/0/default.jpg".format(item_id, page)
     for page in img_pages]
 
 # no direct page download through python library, construct GET request
