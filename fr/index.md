@@ -6,6 +6,8 @@ title: The Programming Historian en français
 	<img class="home-image" src="{{ site.baseurl }}/images/about.png" />
 </div>
 
+{% include french-alert.html %}
+
 <div class="home-block">
 	<div class="container">
 		<h2>The Programming Historian en français</h2>
