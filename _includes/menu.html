@@ -41,37 +41,36 @@ navbar-dark" style="background-color: {{ site.data.snippets.background_color[pag
         <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-lessons[page.lang].link}}">{{site.data.snippets.menu-lessons[page.lang].title}}</a>
       </li>
 
-      {% comment %}
-      This tries to find the correct corresponding link to give to the language switching buttons in the upper right of the page. Where it can find a matching translation/translation_source for the current page in another language, that link will be added. If no translation/translation_source for this page is found for a given language, then the default "home page" link for that language is used instead.
-      {% endcomment %}
-
       <li class="nav-item">
         <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-blog[page.lang].link}}">{{site.data.snippets.menu-blog[page.lang].title}}</a>
       </li>
 
-        {% assign other_languages = site.data.snippets.language-list | where_exp: "item", "item != page.lang" %}
+          {% comment %}
+      This tries to find the correct corresponding link to give to the language switching buttons in the upper right of the page. Where it can find a matching translation/translation_source for the current page in another language, that link will be added. If no translation/translation_source for this page is found for a given language, then the default "home page" link for that language is used instead.
+      {% endcomment %}
 
+      <li class="nav-item">
         <div class="btn-group btn-group-toggle" role="group" aria-label="Language selector">
         {% for lang in site.data.snippets.language-list %}
 
-        {% if translation_source.lang == lang %}
-          {% assign alternate_target = translation_source %}
-        {% else %}
+          {% if page.lang == lang %}
+            <button class="btn btn-secondary active" aria-pressed="true">{{ site.data.snippets.menu-lang[lang].title }}</button>
+          {% else %}
+            {% if translation_source.lang == lang %}
+              {% assign alternate_target = translation_source %}
+            {% else %}
+              {% assign alternate_target = translation_candidates | where_exp: "item", "item.lang == lang" | first %}
+            {% endif %}
 
-        {% assign alternate_target = translation_candidates | where_exp: "item", "item.lang == lang" | first %}
-
-        {% endif %}
-
-        {% if alternate_target %}
-          {% assign page_link = alternate_target.url %}
-        {% else %}
-          {% assign page_link = site.data.snippets.menu-lang[lang].link %}
-        {% endif %}
-        <li class="nav-item">
-          <a class="btn btn-secondary" href="{{ page_link }}">{{site.data.snippets.menu-lang[lang].title}}</a>
+            {% if alternate_target %}
+              <a class="btn btn-secondary" role="button" href="{{ alternate_target.url }}">{{ site.data.snippets.menu-lang[lang].title }}</a>
+            {% else %}
+              <a class="btn btn-secondary" role="button" href="{{ site.data.snippets.menu-lang[lang].link }}">{{ site.data.snippets.menu-lang[lang].title }}</a>
+            {% endif %}
+          {% endif %}
         {% endfor %}
         </div>
-
+      </li>
     </ul>
   </div>
   <!--</div>-->
