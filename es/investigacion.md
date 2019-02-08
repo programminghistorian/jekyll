@@ -28,7 +28,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Adam Crymble, Maria José Afanador Llach, José Antonio Motilla, '[Digital Humanities Skills for Latin American Scholarship](https://zenodo.org/record/1473414)', Universidad de los Andes, Bogotá, Colombia (1-3 de agosto 2018) - financiado por la British Academy.
 * Victor Gayol, 'Introducción a las Ciencias Sociales y Humanidades Digitales. The Programming Historian en español – COLMICH', El Colegio de Michoacán (septiembre 2017).
 * Fred Gibbs, 'Digital History @UM: The Programming Historian', University of Michigan (27 de enero, 2017).
-* Adam Crymble, 'Enhancing Digital Skills Applied to History', North-West University, Vanderbijlpark, South Africa (20-22 de junio, 2016). 
+* Adam Crymble, 'Enhancing Digital Skills Applied to History', North-West University, Vanderbijlpark, South Africa (20-22 de junio, 2016).
 * Adam Crymble and Justin Colson, 'Intro to Geocoding', Institute of Historical Research, London, (19 de abril, 2016).
 * Carys Brown, James Baker, Adam Crymble, 'Defining Effective Digital History Mentorship', University of Cambridge (15 marzo, 2016).
 * Adam Crymble, 'Intro to Data Mining', Institute of Historical Research, London (2 de febrero, 2016).

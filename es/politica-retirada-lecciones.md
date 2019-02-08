@@ -27,7 +27,7 @@ Con independencia de que se cree o no un nuevo derivado, si el tutorial ya ha si
 
     <div class="alert alert-warning">{{ site.data.snippets.retired-definition[page.lang] | markdownify }}
 
-## Más sobre sostenibilidad 
+## Más sobre sostenibilidad
 
 [Guía para autores y traductores - Escribe de manera sostenible](/es/guia-para-autores#escribe-de-manera-sostenible)
 

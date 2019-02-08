@@ -20,7 +20,7 @@ Esta guía pretende responder preguntas frecuentes y ayudar a los revisores a co
 
 
 ## Nuestra filosofía
-Para el equipo de _The Programming Historian en español_ revisar una traducción o una lección nueva constituye una oportunidad para aprender una nueva habilidad (a cualquier nivel) y para contribuir en la comunidad de humanidades digitales al mismo tiempo. Por eso nos esforzarmos en que nuestros revisores reciban crédito y reconocimiento por su trabajo.  
+Para el equipo de _The Programming Historian en español_ revisar una traducción o una lección nueva constituye una oportunidad para aprender una nueva habilidad (a cualquier nivel) y para contribuir en la comunidad de humanidades digitales al mismo tiempo. Por eso nos esforzarmos en que nuestros revisores reciban crédito y reconocimiento por su trabajo.
 
 ## Política antiacoso
 Queremos exponer los principios que rigen _The Programming Historian en español_, así como toda la correspondencia accesible en nuestros fórums entre los revisores, los autores, los editores y otros colaboradores.
@@ -71,7 +71,7 @@ De manera más específica, en cuanto a las traducciones, apreciamos el rigor pe
 - ¿Las capturas de pantalla y trozos de código han sido adaptados?
 - ¿Se han añadido referencias bibliográficas en español?
 
-Puesto que muchos de lo tecnicismos son nuevos y/o todavía no están recogidos en los diccionarios, recomendamos el uso de la [Taxonomía sobre Actividades de investigación digital en humanidades](http://vocabularios.caicyt.gov.ar/portal/index.php?task=fetchLast&v=42) de TaDiRAH y el [Glosario de Preservación Archivística Digital (Versión 4.0)](http://www.mecd.gob.es/planes-nacionales/dam/jcr:f20a4ba1-0ed2-445d-9be9-b8b0382562ea/mex-glosario-interpares-total0112.pdf) de Voutssas-M y Barnard Amozorrutia (UNAM). 
+Puesto que muchos de lo tecnicismos son nuevos y/o todavía no están recogidos en los diccionarios, recomendamos el uso de la [Taxonomía sobre Actividades de investigación digital en humanidades](http://vocabularios.caicyt.gov.ar/portal/index.php?task=fetchLast&v=42) de TaDiRAH y el [Glosario de Preservación Archivística Digital (Versión 4.0)](http://www.mecd.gob.es/planes-nacionales/dam/jcr:f20a4ba1-0ed2-445d-9be9-b8b0382562ea/mex-glosario-interpares-total0112.pdf) de Voutssas-M y Barnard Amozorrutia (UNAM).
 
 ### Lecciones nuevas
 Por lo que respecta a las lecciones nuevas, queremos que las explicaciones técnicas (y el nivel de dificultad) sea constante a lo largo del tutorial. En tanto que revisor, queremos que, en un tutorial dirigido a un usuario experimentado, seas capaz de detectar pasajes que explican en detalle un concepto demasiado simple. Y a la inversa: queremos evitar tutoriales dirigidos a principiantees que no explican de manera adecuada un concepto fundamental para entender la lección. Aspectos a tener en cuenta:
