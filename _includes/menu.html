@@ -54,7 +54,7 @@ navbar-dark" style="background-color: {{ site.data.snippets.background_color[pag
         {% for lang in site.data.snippets.language-list %}
 
           {% if page.lang == lang %}
-            <button class="btn btn-secondary active" aria-pressed="true">{{ site.data.snippets.menu-lang[lang].title }}</button>
+            <a class="btn btn-secondary active" role="button"  aria-pressed="true">{{ site.data.snippets.menu-lang[lang].title }}</a>
           {% else %}
             {% if translation_source.lang == lang %}
               {% assign alternate_target = translation_source %}
