@@ -8,8 +8,6 @@ Attached to all pages, this include will check two things:
 
 {% include page-slug.html %}
 
-{% assign translation_candidates = site.pages | where_exp: "item", "item.original == slug" | where_exp: "item", "item.url != page.url" %}
-
 {% assign target_slug = page.original %}
 {% assign translation_sources = site.pages | where_exp: "item", "item.url contains target_slug" | where_exp: "item", "item.url != page.url" | where_exp: "item", "item.name != 'redirect.html'" %}
 {% for s in translation_sources %}
@@ -18,3 +16,7 @@ Attached to all pages, this include will check two things:
     {% assign translation_source = s %}
   {% endif %}
 {% endfor %}
+
+{% assign direct_translation_candidates = site.pages | where_exp: "item", "item.original == slug" | where_exp: "item", "item.url != page.url" %}
+{% assign indirect_translation_candidates = site.pages | where_exp: "item", "item.original == page.original" | where_exp: "item", "item.url != page.url" %}
+{% assign translation_candidates = indirect_translation_candidates | concat: direct_translation_candidates %}
