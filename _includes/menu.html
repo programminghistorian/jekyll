@@ -50,11 +50,11 @@ navbar-dark" style="background-color: {{ site.data.snippets.background_color[pag
       {% endcomment %}
 
       <li class="nav-item">
-        <div class="btn-group btn-group-toggle" role="group" aria-label="Language selector">
+        <div class="btn-group" role="group" aria-label="Language selector">
         {% for lang in site.data.snippets.language-list %}
 
           {% if page.lang == lang %}
-            <a class="btn btn-secondary active" role="button"  aria-pressed="true">{{ site.data.snippets.menu-lang[lang].title }}</a>
+            <a class="btn btn-secondary nav-link active disabled" role="button" aria-pressed="true">{{ site.data.snippets.menu-lang[lang].title }}</a>
           {% else %}
             {% if translation_source.lang == lang %}
               {% assign alternate_target = translation_source %}
@@ -63,9 +63,9 @@ navbar-dark" style="background-color: {{ site.data.snippets.background_color[pag
             {% endif %}
 
             {% if alternate_target %}
-              <a class="btn btn-secondary" role="button" href="{{ alternate_target.url }}">{{ site.data.snippets.menu-lang[lang].title }}</a>
+              <a class="btn btn-secondary nav-link" role="button" href="{{ alternate_target.url }}">{{ site.data.snippets.menu-lang[lang].title }}</a>
             {% else %}
-              <a class="btn btn-secondary" role="button" href="{{ site.data.snippets.menu-lang[lang].link }}">{{ site.data.snippets.menu-lang[lang].title }}</a>
+              <a class="btn btn-secondary nav-link" role="button" href="{{ site.data.snippets.menu-lang[lang].link }}">{{ site.data.snippets.menu-lang[lang].title }}</a>
             {% endif %}
           {% endif %}
         {% endfor %}
