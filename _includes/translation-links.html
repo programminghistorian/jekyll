@@ -28,5 +28,5 @@ A future version of Jekyll will allow binary boolean operators (and/or) inside a
 {% endcomment %}
 
 {% assign direct_translation_candidates = site.pages | where_exp: "item", "item.original == slug" | where_exp: "item", "item.url != page.url" %}
-{% assign indirect_translation_candidates = site.pages | where_exp: "item", "item.original == page.original" | where_exp: "item", "item.url != page.url" %}
+{% assign indirect_translation_candidates = site.pages | where_exp: "item", "item.original != nil" | where_exp: "item", "item.original == page.original" | where_exp: "item", "item.url != page.url" %}
 {% assign translation_candidates = indirect_translation_candidates | concat: direct_translation_candidates %}
