@@ -451,6 +451,11 @@ Top Navigation Bar
     font-size:.9rem;
   }
 
+  .btn-group > .btn-secondary {
+    border-color: #333333;
+    background-color: #888888;
+  }
+
   .lang {
     text-transform:lowercase !important;
   }

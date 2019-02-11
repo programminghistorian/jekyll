@@ -144,13 +144,13 @@ menu-blog:
     link: /blog
 menu-lang:
   es:
-    title: '[es]'
+    title: es
     link: /es
   en:
-    title: '[en]'
+    title: en
     link: /en
   fr:
-    title: '[fr]'
+    title: fr
     link: /fr
 menu-translation-concordance:
   es:
