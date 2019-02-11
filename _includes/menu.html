@@ -1,3 +1,17 @@
+{% comment %}
+
+Adding new menu bar items:
+
+1. Go to `_data/snippets.yml` and create a new entry in the section with the comment `# top nav bar`. Follow the pattern of items like `menu-about-overview`, with sub-entries for each language with both the display `title` as well as the proper `link` for the page you want to add.
+
+2. Copy one of this dropdown-item tag:
+
+  <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-about-team[page.lang].link}}">{{site.data.snippets.menu-about-team[page.lang].title}}</a>
+
+Paste this into the dropdown menu where you want your new link to appear, and rename the `menu-about-team` variable to match the new entry you made in `_data/snippets.yml`
+
+{% endcomment %}
+
 {% include translation-links.html %}
 
 <nav class="navbar navbar-toggleable-sm .
