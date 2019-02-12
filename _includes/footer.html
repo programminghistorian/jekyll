@@ -5,11 +5,11 @@
 <footer role="contentinfo" style="background-color: {{site.data.snippets.background_color[page.lang] }}">
 
 
-<div class="d-flex justify-content-center footer-head">
+<div class="d-flex flex-wrap justify-content-center footer-head">
   {{ site.data.snippets.footer.license[page.lang] | markdownify }}
 </div>
 
-<div class="d-flex justify-content-around">
+<div class="d-flex flex-wrap justify-content-around">
   <div class="mx-4">
     {% for l in site.data.snippets.language-list %} {% if page.lang == l %}
     <strong>{% endif %}
