@@ -478,6 +478,11 @@ Top Navigation Bar
     letter-spacing: .02em;
   }
 
+  .btn-group > a.btn {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   a.dropdown-item {
     border-bottom:1px solid #ccc;
     font-family:'Roboto';
