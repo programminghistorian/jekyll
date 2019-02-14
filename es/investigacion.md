@@ -44,7 +44,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Victor Gayol, 'La investigación del pasado y la historia digital: análisis de datos y cómo aprender (The Programming Historian en español)', _Humanidades Digitales_, IV Feria Internacional de Ciencias Sociales y Humanidades, Centro Universitario de Los Lagos - Universidad de Guadalajara, Lagos de Moreno, Jalisco (9 de marzo, 2017).
 * Victor Gayol, 'The Programming Historian: 'un modelo colaborativo para la investigaci&oacute;n y la ense&ntilde;anza en ciencias sociales y humanidades digitales', _Mesa de Trabajo sobre Ciencias Sociales y Humanidades Digitales_, El Colegio De Michoac&aacute;n, México (21 de febrero, 2017).
 * Adam Crymble, 'Bringing Digital Humanities into the University for Free', University of Cape Town, South Africa (27-28 junio 2016).
-* Fred Gibbs, ‘The Programming Historian’ (Cartel), *American Historical Association*, New York (enero 2015).
+* Fred Gibbs, ‘<a href="http://fredgibbs.net/assets/images/ph-poster/final-board.png">The Programming Historian</a>’ (Cartel), *American Historical Association*, New York (enero 2015).
 * Adam Crymble, ‘The Programming Historian 2’, *Digital History Seminar*, Institute of Historical Research, London (13 octubre 2013).
 * Adam Crymble, ‘The Programming Historian 2’, *Digital Humanities 2012*, Hamburg (julio 2012).
 * Anaclet Pons, “The Programming Historian en español”, Clionauta: Blog de historia, junio 14, 2017, http://clionauta.hypotheses.org/16979
@@ -55,12 +55,14 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 * 'Championing open access with online digital history journal', _University of Sussex Press Office_, 9 de octubre, 2018, <https://www.sussex.ac.uk/news/people?id=46353/>.
 * Adam Crymble, 'A Decade of Programming Historians', _Network in Canadian History &amp; Environment_, 23 de marzo, 2018 ,<http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/>.
+* Fred Gibbs, "Sustainable Publishing: Reflections of a Former Programming Historian Editor", <em>FredGibbs.net</em>, 2017: <http://fredgibbs.net/posts/reflections-former-PH-editor>.
 * Anaclet Pons, "The Programming Historian en español", *Clionauta: blog de historia*, 14 de junio, 2017 <http://clionauta.hypotheses.org/16979>.
 * Seth Denbo, “Historian, Program! Self-Help for Digital Neophytes,” _Perspectives on History: The Newsmagazine of the American Historical Association_, May 2017, <https://www.historians.org/publications-and-directories/perspectives-on-history/may-2017/historian-program-self-help-digital-neophytes>.
 * Víctor Gayol, '*The Programming Historian* en español', *Blog de Humanidades Digitales*, 17 de marzo, 2017, <http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/>
 
 ### Proyectos que utilizan *The Programming Historian*
 
+* Paul Spence, Renata Brandao, "<a href="https://languageacts.org/digital-mediations/event/writing-sprint/call-proposals/">Digital Modern Languages Writing Sprint</a>", <em>Language Acts and Worldmaking</em> (2019).
 * James Baker, Caitlin Moore, Ernesto Priego, Raquel Alegre, Jez Cope, Ludi Price, Owen Stephens, Daniel van Strien, Greg Wilson, '[Library Carpentry: software skills training for library professionals]', _Liber Quarterly: The Journal of the Association of European Research Libraries_, 26(3) (2016).
 
 
