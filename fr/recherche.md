@@ -22,6 +22,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Shawn Graham, Ian Milligan et Scott Weingart, [_Exploring Big Historical Data: The Historian's Macroscope_](http://www.themacroscope.org/2.0/), (Imperial College Press, 2015).
 
 ## Ateliers et manifestations
+* Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 October 2018).
 * Adam Crymble, Maria José Afanador Llach, José Antonio Motilla, 'Digital Humanities Skills for Latin American Scholarship', Université de los Andes, Bogotá, Colombie (1-3 août 2018) - a reçu le financement de la British Academy.
 * Victor Gayol, 'Introducción a las Ciencias Sociales y Humanidades Digitales. The Programming Historian en español – COLMICH', El Colegio de Michoacán (septembre 2017)
 * Fred Gibbs, 'Digital History @UM: The Programming Historian', Université de Michigan (27 janvier 2017).
@@ -41,16 +42,19 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Victor Gayol, 'La investigación del pasado y la historia digital: análisis de datos y cómo aprender (The Programming Historian en español)', _Humanidades Digitales_, IV Feria Internacional de Ciencias Sociales y Humanidades, Centro Universitario de Los Lagos - Universidad de Guadalajara, Lagos de Moreno, Jalisco (9 mars 2017).
 * Victor Gayol, 'The Programming Historian: 'un modelo colaborativo para la investigaci&oacute;n y la ensen&ntilde;anza en ciencias sociales y humanidades digitales', _Mesa de Trabajo sobre Ciencias Sociales y Humanidades Digitales_, El Colegio De Michoac&aacute;n, Mexico (21 février 2017).
 * Adam Crymble, 'Bringing Digital Humanities into the University for Free', Université de Cape Town, Afrique du Sud (27-28 juin 2016).
-* Fred Gibbs, 'The Programming Historian' (Poster), _American Historical Association_, New York (janvier 2015).
+* Fred Gibbs, '<a href="http://fredgibbs.net/assets/images/ph-poster/final-board.png">The Programming Historian</a>' (Poster), _American Historical Association_, New York (janvier 2015).
 * Adam Crymble, 'The Programming Historian 2', _Digital History Seminar_, Institute of Historical Research, Londres (13 octobre 2013).
 * Adam Crymble, 'The Programming Historian 2', _Digital Humanities 2012_, Hamburg (juillet 2012).
 
 ## Articles et contributions dans les médias
-* Adam Crymble, 'A Decade of Programming Historians', _Network in Canadian History &amp; Environment_, 23 mars 2018 ,<http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/>.
+* 'Championing open access with online digital history journal', _University of Sussex Press Office_, 9 October, 2018, <https://www.sussex.ac.uk/news/people?id=46353/>.
+* Adam Crymble, 'A Decade of Programming Historians', _Network in Canadian History &amp; Environment_, 23 mars 2018, <http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/>.
+* Fred Gibbs, "Sustainable Publishing: Reflections of a Former Programming Historian Editor", <em>FredGibbs.net</em>, 2017, <http://fredgibbs.net/posts/reflections-former-PH-editor>.
 * Anaclet Pons, "The Programming Historian en español", _Clionauta: Blog de historia_, 14 juin 2017, <http://clionauta.hypotheses.org/16979>.
 * Seth Denbo, “Historian, Program! Self-Help for Digital Neophytes,” _Perspectives on History: The Newsmagazine of the American Historical Association_, mai 2017, <https://www.historians.org/publications-and-directories/perspectives-on-history/may-2017/historian-program-self-help-digital-neophytes>.
 * Víctor Gayol, '*The Programming Historian* en español', *Blog de Humanidades Digitales*, 17 mars 2017, <http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/>.
 
 
 ## Projets utilisant le Programming Historian
+* Paul Spence, Renata Brandao, "<a href="https://languageacts.org/digital-mediations/event/writing-sprint/call-proposals/">Digital Modern Languages Writing Sprint</a>", <em>Language Acts and Worldmaking</em> (2019).
 * James Baker, Caitlin Moore, Ernesto Priego, Raquel Alegre, Jez Cope, Ludi Price, Owen Stephens, Daniel van Strien, Greg Wilson, '[Library Carpentry: software skills training for library professionals](https://www.liberquarterly.eu/articles/10176/)', _Liber Quarterly: The Journal of the Association of European Research Libraries_, 26(3) (2016).
