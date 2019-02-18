@@ -10,11 +10,11 @@ layout: post
 categories: posts
 ---
 
-Here at the Programming Historian, we have a number of lessons focused on "[distant reading](/lessons/?topic=distant-reading)." These lessons pull from a variety of fields to demonstrate different ways to computationally surface patterns across a large collection of digital objects. But how do you build on those patterns as part of a research project? That question of what to do next is what the authors of this post have set out to answer. 
+Here at the Programming Historian, we have a number of lessons focused on "[distant reading](/lessons/?topic=distant-reading)." These lessons pull from a variety of fields to demonstrate different ways to computationally surface patterns across a large collection of digital objects. But how do you build on those patterns as part of a research project? That question of what to do next is what the authors of this post have set out to answer.
 
-In this blog post, authors Viola Wiegand, Michaela Mahlberg, and Peter Stockwell offer a sample of their research analyzing the language used in 19th century English novels. Using [CLiC](http://clic.bham.ac.uk/), a corpus analysis application that the authors are developing in a joint project between the University of Birmingham and the University of Nottingham, they explore the 'fireplace pose' in Dickens's novels. Their goal is to "find textual patterns that are shared across novels and point to socially and culturally relevant behaviours and conventions in the real world." 
+In this blog post, authors Viola Wiegand, Michaela Mahlberg, and Peter Stockwell offer a sample of their research analyzing the language used in 19th century English novels. Using [CLiC](http://clic.bham.ac.uk/), a corpus analysis application that the authors are developing in a joint project between the University of Birmingham and the University of Nottingham, they explore the 'fireplace pose' in Dickens's novels. Their goal is to "find textual patterns that are shared across novels and point to socially and culturally relevant behaviours and conventions in the real world."
 
-You can find out more about the CLiC Dickens research project on the [project's website](http://www.birmingham.ac.uk/schools/edacs/departments/englishlanguage/research/projects/clic/index.aspx) and get in touch with the team via Twitter ([@CLiC_Dickens](https://twitter.com/CLiC_Dickens/)). 
+You can find out more about the CLiC Dickens research project on the [project's website](http://www.birmingham.ac.uk/schools/edacs/departments/englishlanguage/research/projects/clic/index.aspx).
 
 If you are interested in learning how to use collocations and keywords in your own research, we recommend starting with [Corpus Analysis with AntConc](/lessons/corpus-analysis-with-antconc) by Heather Froehlich. In this lesson, Froehlich introduces techniques from corpus linguistics, showing how to identify significant patterns of language use within and between sets of texts. And, as always, if you have an idea for a lesson or want to get involved with the *Programming Historian,* please visit our [contribute page](/contribute) for more information.
 
@@ -57,7 +57,7 @@ The following example from *Little Dorrit* (Chapter 12) illustrates how the pose
 
 <figure>
     <a href="/images/corpus-linguistics-in-action/quotation.png">
-        <img src="/images/corpus-linguistics-in-action/quotation.png" 
+        <img src="/images/corpus-linguistics-in-action/quotation.png"
         alt="Mr Merdie stood in one of his drawing-rooms, with his back to the fire, waiting for the arrival of his important guests. He seldom or never took the liberty of standing with his back to the fire unless he was quite alone. In the presence of the Chief Butler, he could not have done such a deed. He would have clasped himself by the wrists in that constabulary manner of his, and have paced up and down the hearthrug, or gone creeping about among the rich objects of furniture, if his oppressive retainer had appeared in the room at that very moment. The sly shadows which seemed to dart out of hiding when the fire rose, and to dart back into it when the fire fell, were sufficient witness of his making himself so easy."/>
     </a>
 </figure>

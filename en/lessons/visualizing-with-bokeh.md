@@ -24,9 +24,9 @@ layout: lesson
 
 # Overview
 
-The ability to load raw data, sample it, and then visually explore and present it is a valuable skill across disciplines. In this tutorial, you will learn how to do this in Python by using the Bokeh and Pandas libraries. Specifically, we will work through visualizing and exploring aspects of WWII bombing runs conducted by Allied powers. 
+The ability to load raw data, sample it, and then visually explore and present it is a valuable skill across disciplines. In this tutorial, you will learn how to do this in Python by using the Bokeh and Pandas libraries. Specifically, we will work through visualizing and exploring aspects of WWII bombing runs conducted by Allied powers.
 
-At the end of the lesson you will be able to: 
+At the end of the lesson you will be able to:
 
 - Load tabular CSV data
 - Perform basic data manipulation, such as aggregating and sub-sampling raw data
@@ -47,7 +47,7 @@ The dataset used in this tutorial is contained in [thor_wwii.csv](https://raw.gi
 
 We'll use Bokeh and Pandas to address some of the following questions:
 
-- What types and weights of munitions were dropped during World War II (WWII)? What patterns can we discern in the use of different types of munitions? 
+- What types and weights of munitions were dropped during World War II (WWII)? What patterns can we discern in the use of different types of munitions?
 - How did the types and weights of munitions dropped change over the course of WWII? How do these changes correspond to major military events?
 - What targets were munitions dropped on during the war? Were particular types of munitions limited to certain theaters of operations or targets?
 
@@ -69,17 +69,17 @@ All three datasets contain comparable quantitative, qualitative, and temporal da
 
 This tutorial can be completed using any operating systems. It requires Python 3 and a web browser. You may use any text editor to write your code.
 
-This tutorial assumes that you have a basic knowledge of the Python language and its associated data structures, particularly lists. 
+This tutorial assumes that you have a basic knowledge of the Python language and its associated data structures, particularly lists.
 
-If you work in Python 2, you will need to create a virtual environment for Python 3, and even if you work in Python 3, creating a virtual environment for this tutorial is good practice. 
+If you work in Python 2, you will need to create a virtual environment for Python 3, and even if you work in Python 3, creating a virtual environment for this tutorial is good practice.
 
 ## Creating a Python 3 Virtual Environment
 
 A Python virutal environment is an isolated environment in which you can install libraries and execute code. Many different virtual evironments can be created to work with different versions of Python and Python libraries. Virtual environments are useful because they ensure you have only the necessary libraries installed and that you do not encounter version conflicts. An additional benefit of virtual environments is that you can pass them to others so that you know your code will execute on another machine.
 
-[Miniconda](https://conda.io/miniconda.html) is one easy way to create virtual environments that is simple to install across operating systems. You should download Miniconda and follow the instructions for [Windows](https://conda.io/docs/user-guide/install/windows.html), [Mac](https://conda.io/docs/user-guide/install/macos.html), or [Linux](https://conda.io/docs/user-guide/install/linux.html) as appropriate for your operating system.
+[Miniconda](https://conda.io/miniconda.html) is one easy way to create virtual environments that is simple to install across operating systems. You should download Miniconda and follow the instructions for [Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html), [Mac](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html), or [Linux](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html) as appropriate for your operating system.
 
-Once you have downloaded and installed Miniconda for your operating system, you can check that it has installed correctly by opening a command line and typing: 
+Once you have downloaded and installed Miniconda for your operating system, you can check that it has installed correctly by opening a command line and typing:
 ```python
 conda info
 ```
@@ -94,7 +94,7 @@ We'll use Miniconda to create a Python 3 virtual environment named *bokeh-env* f
 ```python
 conda create --name bokeh-env python=3.6
 ```
-Say 'yes' when you are prompted to install new packages. 
+Say 'yes' when you are prompted to install new packages.
 
 To activate the *bokeh-env* virtual environment, the command differs slightly depending on your operating system.
 ```python
@@ -146,7 +146,7 @@ Bokeh is a library for creating interactive data visualizations in a web browser
 
 Matplotlib has existed since 2002 and has long been a standard of Python data visualization. Bokeh emerged in 2013. This difference in age means that Matplotlib matured long before Bokeh was released; however, in a short period of time, Bokeh has reached a high level of maturity.
 
-The intended uses of matplotlib and Bokeh are quite different. Matplotlib creates static graphics that are useful for quick and simple visualizations, or for creating publication quality images. Bokeh creates visualizations for display on the web (whether locally or embedded in a webpage) and most importantly, the visualizations are meant to be highly interactive. Matplotlib does not offer either of these features. 
+The intended uses of matplotlib and Bokeh are quite different. Matplotlib creates static graphics that are useful for quick and simple visualizations, or for creating publication quality images. Bokeh creates visualizations for display on the web (whether locally or embedded in a webpage) and most importantly, the visualizations are meant to be highly interactive. Matplotlib does not offer either of these features.
 
 If would you like to visually interact with your data in an exploratory manner or you would like to distribute interactive visual data to a web audience, Bokeh is the library for you! If your main interest is producing finalized visualizations for publication, matplotlib may be better, although Bokeh does offer a way to create static graphics.
 
@@ -154,11 +154,11 @@ With this differences in mind, as we work through the lesson, I'll emphasize the
 
 ## Your First Plot
 
-First, create a new file called `my_first_plot.py` in the same directory as  `wwii_thor.csv` and then open it up in a text editor. We'll be adding lines to this file to run. 
+First, create a new file called `my_first_plot.py` in the same directory as  `wwii_thor.csv` and then open it up in a text editor. We'll be adding lines to this file to run.
 
 ```python
 #my_first_plot.py
-from bokeh.plotting import figure, output_file, show	
+from bokeh.plotting import figure, output_file, show
 ```
 
 To implement and use Bokeh, we first import some basics that we need from the `bokeh.plotting` module.
@@ -190,11 +190,11 @@ p.triangle(y, x, color='gold', size=10, legend='triangle')
 
 {% include alert.html text="`p` is a common variable name for a `figure` object, since a figure is a type of plot." %}
 
-After instantiating the figure, we call the `circle` , `line`, and `triangle` methods to plot our data. These types of methods are known as a *glyph method*. The term *glyph* in Bokeh refers to the lines, circles, bars, and other shapes that are added to plots to display data. 
+After instantiating the figure, we call the `circle` , `line`, and `triangle` methods to plot our data. These types of methods are known as a *glyph method*. The term *glyph* in Bokeh refers to the lines, circles, bars, and other shapes that are added to plots to display data.
 
-If we wanted, we could just keep adding glyphs to the plot! In addition to the `circle`, `line`,   and `triangle` glyphs, there are many others, including:  `asterisk`, `circle_cross`, `circle_x`, `cross`, `diamond`, `diamond_cross`, `inverted_triangle`, `square`, `square_cross`, `square_x`, and `x`. 
+If we wanted, we could just keep adding glyphs to the plot! In addition to the `circle`, `line`,   and `triangle` glyphs, there are many others, including:  `asterisk`, `circle_cross`, `circle_x`, `cross`, `diamond`, `diamond_cross`, `inverted_triangle`, `square`, `square_cross`, `square_x`, and `x`.
 
-When calling a glyph method, at a minimum, we must pass the data we would like to plot, but frequently we might add styling arguments. Here, we set a size, color, and legend name for each glyph. 
+When calling a glyph method, at a minimum, we must pass the data we would like to plot, but frequently we might add styling arguments. Here, we set a size, color, and legend name for each glyph.
 
 ```python
 p.legend.click_policy='hide'
@@ -215,7 +215,7 @@ python my_first_plot.py
 
 {% include figure.html filename="visualizing-with-bokeh-1.png" caption="Plotting a Single Glyph" %}
 
-A web browser will now appear showing the html file with your visualization. The red circles, blue line, and gold triangles are the result of our glyph method calls. Clicking the legend in the upper right corner will show/hide each glyph type. Note that Bokeh has automatically handled the creation of the grid-lines and tick labels. 
+A web browser will now appear showing the html file with your visualization. The red circles, blue line, and gold triangles are the result of our glyph method calls. Clicking the legend in the upper right corner will show/hide each glyph type. Note that Bokeh has automatically handled the creation of the grid-lines and tick labels.
 
 Along the right-hand side, the default toolbar is also displayed. The tools include drag, box zoom, wheel zoom, save, reset, and help. Using these tools, a user can pan along the plot or zoom in on interesting portions of the data. Since this is a stand-alone HTML page, which includes a reference to BokehJS, it can be immediately passed to a co-worker for exploration or posted to the web.
 
@@ -268,11 +268,11 @@ The output should look like:
 ```
 Some of these column names are self explanatory, but it's worth pointing out the following: MSNDATE (mission date), NAF (numbered airforce responsible for mission), AC_ATTACKING (number of aircraft), TONS_HE (high-explosives), TONS_IC (incendiary devices), TONS_FRAG (fragmentation bombs).
 
-When it comes to accessing data within a `DataFrame`, in this tutorial we use one basic approach: indexing. Here to access a single column we pass a string to our dataframe's indexer: e.g. `df['MSNDATE']`.  To access multiple columns, we pass a list of names to our dataframe's indexer: e.g. `df[['MSNDATE', 'THEATER']]`. 
+When it comes to accessing data within a `DataFrame`, in this tutorial we use one basic approach: indexing. Here to access a single column we pass a string to our dataframe's indexer: e.g. `df['MSNDATE']`.  To access multiple columns, we pass a list of names to our dataframe's indexer: e.g. `df[['MSNDATE', 'THEATER']]`.
 
 ## The Bokeh ColumnDataSource
 
-Now that we've learned how to create a Bokeh plot and how to load tabular data into Pandas, it's time to learn how to link Pandas' `DataFrame` with Bokeh visualizations. The Bokeh object `ColumnDataSource` provides this integration. 
+Now that we've learned how to create a Bokeh plot and how to load tabular data into Pandas, it's time to learn how to link Pandas' `DataFrame` with Bokeh visualizations. The Bokeh object `ColumnDataSource` provides this integration.
 
 The object's constructor accepts a Pandas `DataFrame` as an argument. After it is created, the `ColumnDataSource` can then be passed to glyph methods via the `source` parameter and other parameters, such as our x and y data, can then reference column names within our source. Let's go through an example of this.
 
@@ -302,8 +302,8 @@ Since we don't want to plot all 170,000+ rows in our scatterplot (which would re
 
 ```python
 p = figure()
-p.circle(x='TOTAL_TONS', y='AC_ATTACKING', 
-         source=source, 
+p.circle(x='TOTAL_TONS', y='AC_ATTACKING',
+         source=source,
          size=10, color='green')
 ```
 Next, we create our `figure` object and call the `circle` glyph method to plot our data. This is where the `source` variable that holds our `ColumnDataSource` comes into play. It's passed as our `source` argument to the glyph method and the column names holding the number of attacking aircraft (AC_ATTACKING) and tons of munitions dropped (TOTAL_TONS) are passed as our `x` and `y` arguments.
@@ -341,15 +341,15 @@ Finally, we make sure to add the line to show the plot. Now we can run `column_d
 
 {% include figure.html filename="visualizing-with-bokeh-2.png" caption="Plotting with the ColumnDataSource and More Styling Options" %}
 
-Note that because we are randomly sampling the data, our plot will look different each time we run the code. 
+Note that because we are randomly sampling the data, our plot will look different each time we run the code.
 
-At the top and along the axes of the plot, we see the labels that we added. There is also a new tool in the toolbar. This is the hover tool that we added. To see it in action, hover over any data point in the scatterplot. A window will pop up showing the columns we set in our `tooltip` property! 
+At the top and along the axes of the plot, we see the labels that we added. There is also a new tool in the toolbar. This is the hover tool that we added. To see it in action, hover over any data point in the scatterplot. A window will pop up showing the columns we set in our `tooltip` property!
 
-Before moving to the next section of the lesson, try returning to the example above and adding/removing other variables and changing display names. 
+Before moving to the next section of the lesson, try returning to the example above and adding/removing other variables and changing display names.
 
 # Categorical Data and Bar Charts: Munitions Dropped by Country
 
-In the preceding example, we plotted quantitative data. Frequently, though, we want to plot categorical data. Categorical data, in contrast to quantitative, is data that can be divided into groups, but that does not necessarily have a numerical aspect to it. For example, while your height is numerical, your hair color is categorical. From the perspective of our dataset, features like attacking country hold categorical data, while features like the weight of munitions hold quantitative data. 
+In the preceding example, we plotted quantitative data. Frequently, though, we want to plot categorical data. Categorical data, in contrast to quantitative, is data that can be divided into groups, but that does not necessarily have a numerical aspect to it. For example, while your height is numerical, your hair color is categorical. From the perspective of our dataset, features like attacking country hold categorical data, while features like the weight of munitions hold quantitative data.
 
 In this section, we'll learn how to use categorical data as our x-axis values in Bokeh and how to use the `vbar` glyph method to create a vertical bar chart (an `hbar` glyph method functions similarly to create a horizontal bar chart). In addition, we'll learn about preparing categorical data in Pandas by grouping data. Further, we'll add to our knowledge of Bokeh styling and the hover tool.
 
@@ -372,7 +372,7 @@ df = pd.read_csv('thor_wwii.csv')
 ```
 First, we import the Pandas library and the basic elements from Bokeh (i.e. `figure`, `output_file`, `show`, and `ColumnDataSource`). We also make two new imports: `Spectral5` is a pre-made five color pallette, one of Bokeh's many [pre-made color palettes](https://bokeh.pydata.org/en/latest/docs/reference/palettes.html), and `factor_cmap` is a helper method for mapping colors to bars in a bar-charts.
 
-After the imports, we set our `output_file`  and load the thor_wwii.csv file into a `DataFrame`.   
+After the imports, we set our `output_file`  and load the thor_wwii.csv file into a `DataFrame`.
 
 We now need to get from the 170,000+ records of individual missions to one record per attacking country with the total munitions dropped.
 
@@ -381,13 +381,13 @@ grouped = df.groupby('COUNTRY_FLYING_MISSION')['TOTAL_TONS', 'TONS_HE', 'TONS_IC
 ```
 Pandas lets us do this in a single line of code by using the `groupby` dataframe method. This method accepts a column by which to group the data and one or more aggregating methods that tell Pandas how to group the data together. The output is a new dataframe.
 
-Let's take this one piece at a time. The `groupby('COUNTRY_FLYING_MISSION')` sets the column that we are grouping on. In other words, this says that we want the resulting dataframe to have one row per unique entry in the column `COUNTRY_FLYING_MISSION`. Since we don't care about aggregating all 19 columns in the dataframe, we choose just the tons of munitions columns with the indexer, `['TOTAL_TONS', 'TONS_HE', 'TONS_IC', 'TONS_FRAG']`. Finally, we use the `sum` method to let Pandas know how to aggregate all of the different rows. Other methods also exist for aggregating, such as `count`, `mean`, `max`, and `min`. 
+Let's take this one piece at a time. The `groupby('COUNTRY_FLYING_MISSION')` sets the column that we are grouping on. In other words, this says that we want the resulting dataframe to have one row per unique entry in the column `COUNTRY_FLYING_MISSION`. Since we don't care about aggregating all 19 columns in the dataframe, we choose just the tons of munitions columns with the indexer, `['TOTAL_TONS', 'TONS_HE', 'TONS_IC', 'TONS_FRAG']`. Finally, we use the `sum` method to let Pandas know how to aggregate all of the different rows. Other methods also exist for aggregating, such as `count`, `mean`, `max`, and `min`.
 
 If you execute `print(grouped)`, you'll see that Pandas has grouped by the five unique countries in our dataset and summed the total tons dropped by each. You can also see the dataset has some problems: South Africa and New Zealand dropped more high explosives than the total tons column. Problems like this are typical of large, manually-created datasets and this is a great reminder why is so important to explore and visualize your data before creating research results.
 
 ```
                         TOTAL_TONS     TONS_HE     TONS_IC  TONS_FRAG
-COUNTRY_FLYING_MISSION                                               
+COUNTRY_FLYING_MISSION
 AUSTRALIA                   479.89      453.90      13.600      18.64
 GREAT BRITAIN           1112598.95   868277.23  209036.158    1208.00
 NEW ZEALAND                2629.06     4263.70     166.500       0.00
@@ -415,7 +415,7 @@ To do this, we create a list of countries from our source object, using `source.
 
 
 ```python
-color_map = factor_cmap(field_name='COUNTRY_FLYING_MISSION', 
+color_map = factor_cmap(field_name='COUNTRY_FLYING_MISSION',
                     palette=Spectral5, factors=countries)
 
 p.vbar(x='COUNTRY_FLYING_MISSION', top='TOTAL_TONS', source=source, width=0.70, color=color_map)
@@ -427,7 +427,7 @@ p.yaxis.axis_label = 'Kilotons of Munitions'
 
 Now we plot our data as individually colored bars and add basic labels. To color our bars we use the `factor_cmap` helper function. This creates a special color map that matches an individual color to each category (i.e. what Bokeh calls a *factor*). The color map is then passed as the color argument to our `vbar` glyph method.
 
-For the data in our glyph method, we're passing a source and again referencing column names. Instead of using a `y` parameter, however, the `vbar` method takes a `top` parameter. A `bottom` parameter can equally be specified, but if left out, its default value is 0. 
+For the data in our glyph method, we're passing a source and again referencing column names. Instead of using a `y` parameter, however, the `vbar` method takes a `top` parameter. A `bottom` parameter can equally be specified, but if left out, its default value is 0.
 
 ```python
 hover = HoverTool()
@@ -441,7 +441,7 @@ p.add_tools(hover)
 show(p)
 ```
 
-We add a hover tool again, but now we see that we can use multiple data variables in a single line and add in our own text so the hover popup will list the kilotons of each type of explosive. The `hover.mode` is new. Three modes exist for the hover tool: `mouse`, `vline`, and `hline`. These tell the hover tool when to show the popup. `mouse` is the default value and shows a popup when directly over a glyph. `vline` and `hline` tell the popup to show when a vertical or horizontal line crosses a glyph. With `vline` set here, anytime your mouse passes through an imaginary vertical line extending from each bar, a popup will show. 
+We add a hover tool again, but now we see that we can use multiple data variables in a single line and add in our own text so the hover popup will list the kilotons of each type of explosive. The `hover.mode` is new. Three modes exist for the hover tool: `mouse`, `vline`, and `hline`. These tell the hover tool when to show the popup. `mouse` is the default value and shows a popup when directly over a glyph. `vline` and `hline` tell the popup to show when a vertical or horizontal line crosses a glyph. With `vline` set here, anytime your mouse passes through an imaginary vertical line extending from each bar, a popup will show.
 
 {% include figure.html filename="visualizing-with-bokeh-3.png" caption="A Bar Chart with Categorical Data and Coloring" %}
 
@@ -449,7 +449,7 @@ We add a hover tool again, but now we see that we can use multiple data variable
 
 # Stacked Bar Charts and Sub-sampling Data: Types of Munitions Dropped by Country
 
-Because the previous plot shows that the USA and Great Britain account for the overwhelming majority of bombings, we now focus on these two countries and learn how to make a stacked bar chart that shows the types of munitions each country used. 
+Because the previous plot shows that the USA and Great Britain account for the overwhelming majority of bombings, we now focus on these two countries and learn how to make a stacked bar chart that shows the types of munitions each country used.
 
 We'll start a new file called `munitions_by_country_stacked.py`
 
@@ -484,7 +484,7 @@ grouped = df.groupby('COUNTRY_FLYING_MISSION')['TONS_IC', 'TONS_FRAG', 'TONS_HE'
 grouped = grouped / 1000
 ```
 
-Now that we have reduced the dataframe to show only records for the USA and Great Britain, we group our data with `groupby` and aggregate the three columns that hold bomb types with `sum`. 
+Now that we have reduced the dataframe to show only records for the USA and Great Britain, we group our data with `groupby` and aggregate the three columns that hold bomb types with `sum`.
 
 ```python
 source = ColumnDataSource(grouped)
@@ -495,13 +495,13 @@ p = figure(x_range=countries)
 As in the previous example, we create a source object from our grouped data and make sure our figure uses categorical data for the x-axis by setting the `x_range` to the list of countries.
 
 ```python
-p.vbar_stack(stackers=['TONS_HE', 'TONS_FRAG', 'TONS_IC'], 
-             x='COUNTRY_FLYING_MISSION', source=source, 
+p.vbar_stack(stackers=['TONS_HE', 'TONS_FRAG', 'TONS_IC'],
+             x='COUNTRY_FLYING_MISSION', source=source,
              legend = ['High Explosive', 'Fragmentation', 'Incendiary'],
              width=0.5, color=Spectral3)
 ```
 
-To create the stacked bar chart, we call the `vbar_stack` glyph method. Rather than passing a single column name to a `y` parameter, we instead pass a list of column names as `stackers`. The order of this list determines the order that the columns will be stacked from bottom to top (after you've worked through this example, try switching the column order to see what happens). The `legend` argument supplies text for each stacker and the `Spectral3` palette provides colors for each stacker. 
+To create the stacked bar chart, we call the `vbar_stack` glyph method. Rather than passing a single column name to a `y` parameter, we instead pass a list of column names as `stackers`. The order of this list determines the order that the columns will be stacked from bottom to top (after you've worked through this example, try switching the column order to see what happens). The `legend` argument supplies text for each stacker and the `Spectral3` palette provides colors for each stacker.
 
 ```python
 p.title.text ='Types of Munitions Dropped by Allied Country'
@@ -552,11 +552,11 @@ p.yaxis.axis_label = 'Kilotons of Munitions Dropped'
 show(p)
 ```
 
-Take a minute to seriously look through this code and see what you recognize. Two items should stand out as new. 
+Take a minute to seriously look through this code and see what you recognize. Two items should stand out as new.
 
 First, the statement `df['MSNDATE'] = pd.to_datetime(df['MSNDATE'], format='%m/%d/%Y')` makes sure our MSNDATE column is a datetime. This is important because often data loaded from a csv file will not be properly typed as datetime. Supplying the `format` argument is not required, but doing so significantly speeds up the process.
 
-Second, we pass the argument `x_axis_type='datetime'` to our figure constructor to tell it that our x data will be datetimes. Otherwise, Bokeh works seamlessly with time data just like any other type of numerical data! 
+Second, we pass the argument `x_axis_type='datetime'` to our figure constructor to tell it that our x data will be datetimes. Otherwise, Bokeh works seamlessly with time data just like any other type of numerical data!
 
 Looking at the output, though, you might notice a major issue.
 
@@ -570,7 +570,7 @@ Thankfully, Pandas offers a quick and easy way to do this. By modifying a single
 
 Resampling time-series data can involve either upsampling (creating more records) or downsampling (creating fewer records). For example, a list of daily temperatures could be upsampled to a list of hourly temperatures or downsampled to a list of weekly temperatures. We'll only be downsampling in this tutorial, but upsampling is very useful when you're trying to match a sporadically-measured dataset with one that's more periodically measured.
 
-To resample our data, we use a Pandas `Grouper` object, to which we pass the column name holding our datetimes and a code representing the desired resampling frequency. In the case of our data, the statement `pd.Grouper(key='MSNDATE', freq='M') ` will be used to resample our MSNDATE column by *M*onth. We could equally resample by *W*eek, *Y*ear, *H*our, and [so forth](http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases). These frequency designations can also be prefaced with numbers so that, for example, `freq='2W'` resamples at two week intervals! 
+To resample our data, we use a Pandas `Grouper` object, to which we pass the column name holding our datetimes and a code representing the desired resampling frequency. In the case of our data, the statement `pd.Grouper(key='MSNDATE', freq='M') ` will be used to resample our MSNDATE column by *M*onth. We could equally resample by *W*eek, *Y*ear, *H*our, and [so forth](http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases). These frequency designations can also be prefaced with numbers so that, for example, `freq='2W'` resamples at two week intervals!
 
 To complete the process of resampling and plotting our data, we pass the above `Grouper` object to our `groupby` function in place of the raw column name. The `groupby` statement from the previous code example should now look like this:
 
@@ -627,11 +627,11 @@ show(p)
 
 {% include figure.html filename="visualizing-with-bokeh-7.png" caption="A Time-Series Plot of the ETO with Data Resampled to Months" %}
 
-A few patterns emerge in the ETO data. First we see a very clear escalation of overall bombings leading up to June 6, 1944 and a notable dip during the winter of 1944/1945. Incendiary munitions show three spikes and confirm that the fourth spike seen in the preceding example was directed at the bombing of Japan after Germany's surrender. The pattern of fragmentation bombs is harder to read, but it's now clear that they were only seriously used in the European Theater after D-Day. 
+A few patterns emerge in the ETO data. First we see a very clear escalation of overall bombings leading up to June 6, 1944 and a notable dip during the winter of 1944/1945. Incendiary munitions show three spikes and confirm that the fourth spike seen in the preceding example was directed at the bombing of Japan after Germany's surrender. The pattern of fragmentation bombs is harder to read, but it's now clear that they were only seriously used in the European Theater after D-Day.
 
 {% include alert.html text="Try your hand at resampling this data using any of [Pandas' time frequencies ](http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases) to see what other trends might emerge. Remember, you can preface these frequencies with numbers as well (e.g. if you were working with historical stock market data, 2Q would give you bi-quarterly data!)" %}
 
-Since we have established that 6 June 1944 and the winter of 1944/1945 mark changes to the bombing patterns in the ETO, let's highlight these trends using Bokeh's annotation features. 
+Since we have established that 6 June 1944 and the winter of 1944/1945 mark changes to the bombing patterns in the ETO, let's highlight these trends using Bokeh's annotation features.
 
 To do this, we'll create a `BoxAnnotation` and then add these to our `figure` before showing it. First, we need to add an additional import statement to our code.
 
@@ -639,14 +639,14 @@ To do this, we'll create a `BoxAnnotation` and then add these to our `figure` be
 from bokeh.models import BoxAnnotation
 ```
 
-To create the box, we first need to determine its coordinates. Coordinates for Bokeh annotations can be either absolute (i.e. positioned using screen units), meaning they always stay in one place, or they can be positioned in relation to data. Our annotations will all be positioned using data coordinates. 
+To create the box, we first need to determine its coordinates. Coordinates for Bokeh annotations can be either absolute (i.e. positioned using screen units), meaning they always stay in one place, or they can be positioned in relation to data. Our annotations will all be positioned using data coordinates.
 
 ```python
 box_left = pd.to_datetime('6-6-1944')
 box_right = pd.to_datetime('16-12-1944')
 ```
 
-The left of the box will be 6 June 1944 (D-Day) and for the right of the box we'll choose the first day of the Battle of the Bulge: 16 December 1944. In this case, the dates follow a month-day-year format, but `to_datetime` also works with [day-first and year-first formats](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.to_datetime.html). 
+The left of the box will be 6 June 1944 (D-Day) and for the right of the box we'll choose the first day of the Battle of the Bulge: 16 December 1944. In this case, the dates follow a month-day-year format, but `to_datetime` also works with [day-first and year-first formats](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.to_datetime.html).
 
 We pass these coordinates to the `BoxAnnotation` constructor along with some styling arguments. Then, we add it to the our figure using the `add_layout()` method.
 
@@ -680,7 +680,7 @@ from bokeh.models import ColumnDataSource, Range1d
 from bokeh.layouts import layout
 from bokeh.palettes import Spectral3
 from bokeh.tile_providers import CARTODBPOSITRON
-from pyproj import Proj, transform 
+from pyproj import Proj, transform
 output_file('mapping_targets.html')
 
 #helper function to convert lat/long to easting/northing for mapping
@@ -701,7 +701,7 @@ df['E'], df['N'] = zip(*df.apply(lambda x: LongLat_to_EN(x['TGT_LONGITUDE'], x['
 The boilerplate imports and our conversion function are defined. Next, we load our data and apply our conversion function to create new E and N columns that store our Web Mercator easting and northing.
 
 ```python
-grouped = df.groupby(['E', 'N'])['TONS_IC', 
+grouped = df.groupby(['E', 'N'])['TONS_IC',
 'TONS_FRAG'].sum().reset_index()
 
 filter = grouped['TONS_FRAG']!=0
@@ -710,7 +710,7 @@ grouped = grouped[filter]
 source = ColumnDataSource(grouped)
 ```
 
-Because a single target can appear in multiple records, we need to group the data by E and N to get unique target locations. Otherwise, we would map the same target every time it appears in a record. 
+Because a single target can appear in multiple records, we need to group the data by E and N to get unique target locations. Otherwise, we would map the same target every time it appears in a record.
 
 The `reset_index` function applied after aggregating is new here. By default, when Pandas groups these two columns it will make E and N the index for each row in the new dataframe. Since we just want E and N to remain as normal columns for mapping, we call `reset_index`.
 
@@ -723,7 +723,7 @@ top = 11000000
 p = figure(x_range=Range1d(left, right), y_range=Range1d(bottom, top))
 ```
 
-To set bounds for our map, we'll set a minimum and maximum value for our plot's `x_range` and `y_range`. We use the `Range1D` object, which represents bounded 1-dimensional data in Bokeh. 
+To set bounds for our map, we'll set a minimum and maximum value for our plot's `x_range` and `y_range`. We use the `Range1D` object, which represents bounded 1-dimensional data in Bokeh.
 
 ```python
 p.add_tile(CARTODBPOSITRON)

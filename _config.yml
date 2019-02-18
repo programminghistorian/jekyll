@@ -33,21 +33,29 @@ defaults:
       lang: "es"
   -
     scope:
+      path: "fr"
+    values:
+      lang: "fr"
+  -
+    scope:
       path: "en/lessons"
     values:
       lesson: true
-      english-lesson: true
   -
     scope:
       path: "en/lessons/retired"
     values:
       lesson: false
-      english-lesson: false
+      retired: true
   -
     scope:
       path: "es/lecciones"
     values:
-      translated-lesson: true
+      lesson: true
+  -
+    scope:
+      path: "fr/lecons"
+    values:
       lesson: true
   -
     scope:

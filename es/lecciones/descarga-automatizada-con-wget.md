@@ -99,7 +99,7 @@ El gestor de paquetes más fácil de instalar es *Homebrew*. Ve a <https://brew.
 Para instalar *Homebrew*, abre la ventana de Terminal y escribe:
 
 ``` bash
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 Esta instalación de *Hombrew* utiliza el lenguaje de programación Ruby, integrado en OS X. Para ver si la instalación fue correcta, escribe la siguiente orden en la ventana de tu Terminal:

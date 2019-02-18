@@ -2,7 +2,6 @@
 title: Comentarios y sugerencias
 date: 07-11-2015
 layout: blank
-redirect_from: /report-issue.html
 original: feedback
 ---
 
@@ -29,7 +28,7 @@ También nos puedes encontar en Twitter en [@ProgHist](https://twitter.com/progh
 
 Primero, si no tienes una ya,[abre una cuenta personal gratis en GitHub](https://help.github.com/articles/signing-up-for-a-new-github-account). Si ya tienes una cuenta inicia sesión.
 
-Después ve a la [página de "issues"](https://github.com/programminghistorian/jekyll/issues?state=open) de nuestro Repositorio.  
+Después ve a la [página de "issues"](https://github.com/programminghistorian/jekyll/issues?state=open) de nuestro Repositorio.
 
 Échale un vistazo a los "issues" que están abiertos para ver si el problema que has identificado ya ha sido reportado. Si así es pero tienes más información que quisieras compartir, deja un comentario en ese "issue".
 

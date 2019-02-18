@@ -15,6 +15,6 @@ Nuestras lecciones se organizan en fases del proceso de investigación y por tem
 See documentation on the use of alllessons and lesson-index in /lessons.md
 {% endcomment %}
 
-{% assign alllessons = site.pages | where: "translated-lesson" , "true" %}
+{% assign alllessons = site.pages | where: "lesson", "true" | where: "lang", "es" %}
 
 {% include lesson-index.html %}

@@ -5,24 +5,20 @@ title: Translation Concordance
 
 An automatically-generated list of page translation relationships across this site.
 
-{% assign translated_pages = site.pages | where_exp: "item", "item.original != nil" %}
+{% assign original_pages = site.pages | where_exp: "item", "item.name != 'redirect.html'" | where_exp: "item", "item.name != 'redirects.json'" | where_exp: "item", "item.name != 'index.md'" | where_exp: "item", "item.original == nil" %}
 
 <table>
   <tr>{% for l in site.data.snippets.language-list %}
     <th>{{ l }}</th>{% endfor %}
   </tr>
-{% for p in translated_pages %}
-  {% assign s_slug = p.original %}
-  {% assign s = site.pages | where_exp: "item", "item.url contains s_slug" | where_exp: "item", "item.url != p.url" | where_exp: "item", "item.name != 'redirect.html'" | first %}
+  {% for p in original_pages %}
+  {% assign reverse_p = p.name | split: "." | first %}
+  {% assign translated_pages = site.pages | where: "original", reverse_p %}
+  {% assign page_versions =  p | concat: translated_pages %}
   <tr>
     {% for l in site.data.snippets.language-list %}
-      {% if s.lang == l %}
-    <td><a href="{{s.url}}">{{ s.title }}</a></td>
-      {% else if p.lang == l %}
-    <td><a href="{{p.url}}">{{ p.title }}</a></td>
-      {% else %}
-    <td></td>
-    {% endif %}
+    {% assign sp = page_versions | where: "lang", l | first %}
+    <td><a href="{{sp.url}}">{{ sp.title }}</a></td>
     {% endfor %}
   </tr>
 {% endfor %}

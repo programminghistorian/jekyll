@@ -29,7 +29,7 @@ redirect_from: /lessons/sonification
 
 I am too tired of seeing the past. There are any number of guides that will help you _visualize_ that past which cannot be seen, but often we forget what a creative act visualization is. We are perhaps too tied to our screens, too much invested in ‘seeing’. Let me hear something of the past instead.
 
-While there is a deep history and literature on archaeoacoustics and soundscapes that try to capture the sound of a place _as it was_ ([see for instance the Virtual St. Paul's](https://www.digitalstudies.org/articles/10.16995/dscn.58) or the work of [Jeff Veitch on ancient Ostia](https://jeffdveitch.wordpress.com/)), I am interested instead to ’sonify' what I have _right now_, the data themselves. I want to figure out a grammar for representing data in sound that is appropriate for history. [Drucker](#Drucker) [famously reminds us](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) that ‘data’ are not really things given, but rather things captured, things transformed: that is to say, ‘capta’. In sonifying data, I literally perform the past in the present, and so the assumptions, the transformations, I make are foregrounded. The resulting aural experience is a literal ‘deformance’ (portmanteau of ‘deform’ and ‘perform’) that makes us hear modern layers of the past in a new way. 
+While there is a deep history and literature on archaeoacoustics and soundscapes that try to capture the sound of a place _as it was_ ([see for instance the Virtual St. Paul's](https://www.digitalstudies.org/articles/10.16995/dscn.58) or the work of [Jeff Veitch on ancient Ostia](https://jeffdveitch.wordpress.com/)), I am interested instead to ’sonify' what I have _right now_, the data themselves. I want to figure out a grammar for representing data in sound that is appropriate for history. [Drucker](#Drucker) [famously reminds us](http://web.archive.org/web/20190203083307/http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) that ‘data’ are not really things given, but rather things captured, things transformed: that is to say, ‘capta’. In sonifying data, I literally perform the past in the present, and so the assumptions, the transformations, I make are foregrounded. The resulting aural experience is a literal ‘deformance’ (portmanteau of ‘deform’ and ‘perform’) that makes us hear modern layers of the past in a new way.
 
 I want to hear the meaning of the past, but I know that I can’t. Nevertheless, when I hear an instrument, I can imagine the physicality of the player playing it; in its echoes and resonances I can discern the physical space. I can feel the bass; I can move to the rhythm. The music engages my whole body, my whole imagination. Its associations with sounds, music, and tones I’ve heard before create a deep temporal experience, a system of embodied relationships between myself and the past. Visual? We have had visual representations of the past for so long, we have almost forgotten the artistic and performative aspect of those grammars of expression.
 
@@ -37,9 +37,9 @@ In this tutorial, you will learn to make some noise from your data about the pas
 
 ## Objectives
 
-In this tutorial, I will introduce you to three different ways of generating sound or music from your data. 
+In this tutorial, I will introduce you to three different ways of generating sound or music from your data.
 
-In the first, we will use a freely available and free-to-use system developed by Jonathan Middleton called _Musicalgorithms_, to introduce some of the issues and key terms involved. In the second, we will use a small python library to 'parameter map' our data against the 88 key keyboard, and introduce some artistry into our work. Finally, we will learn how to load our data into the open source live-coding environment for sound and music, _Sonic Pi_, at which time I will leave you to explore that project's copious tutorials and resources. 
+In the first, we will use a freely available and free-to-use system developed by Jonathan Middleton called _Musicalgorithms_, to introduce some of the issues and key terms involved. In the second, we will use a small python library to 'parameter map' our data against the 88 key keyboard, and introduce some artistry into our work. Finally, we will learn how to load our data into the open source live-coding environment for sound and music, _Sonic Pi_, at which time I will leave you to explore that project's copious tutorials and resources.
 
 You will see that 'sonification' moves us along the spectrum from mere 'visualization/auralization' to actual performance.
 
@@ -56,12 +56,12 @@ You will see that 'sonification' moves us along the spectrum from mere 'visualiz
 
 # Some Background on Sonification
 
-Sonification is the practice of mapping aspects of the data to produce sound signals. In general, a technique can be called ‘sonification’ if it meets certain conditions. These include reproducibility (the same data can be transformed the same ways by other researchers and produce the same results) and what might be called intelligibility - that the ‘objective’ elements of the original data are reflected systematically in the resulting sound (see [Hermann](#Hermann) [2008](http://www.icad.org/Proceedings/2008/Hermann2008.pdf) for a taxonomy of sonification). [Last and Usyskin](#Last) [(2015)](https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data) designed a series of experiments to determine what kinds of data-analytic tasks could be performed when the data were sonified. Their experimental results (Last and Usyskin 2015) have shown that even untrained listeners (listeners with no formal training in music) can make useful distinctions in the data. They found listeners could discriminate in the sonified data common data exploration tasks such as classification and clustering. (Their sonified outputs mapped the underlying data to the Western musical scale.) 
+Sonification is the practice of mapping aspects of the data to produce sound signals. In general, a technique can be called ‘sonification’ if it meets certain conditions. These include reproducibility (the same data can be transformed the same ways by other researchers and produce the same results) and what might be called intelligibility - that the ‘objective’ elements of the original data are reflected systematically in the resulting sound (see [Hermann](#Hermann) [2008](http://www.icad.org/Proceedings/2008/Hermann2008.pdf) for a taxonomy of sonification). [Last and Usyskin](#Last) [(2015)](https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data) designed a series of experiments to determine what kinds of data-analytic tasks could be performed when the data were sonified. Their experimental results (Last and Usyskin 2015) have shown that even untrained listeners (listeners with no formal training in music) can make useful distinctions in the data. They found listeners could discriminate in the sonified data common data exploration tasks such as classification and clustering. (Their sonified outputs mapped the underlying data to the Western musical scale.)
 
-Last and Usyskin focused on time-series data.  They argue that time-series data are particularly well suited to sonification because there are natural parallels with musical sound. Music is sequential, it has duration, and it evolves over time; so too with time-series data [(Last and Usyskin 2015: 424)](https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data). It becomes a problem of matching the data to the appropriate sonic outputs. In many applications of sonification, a technique called ‘parameter mapping’ is used to marry aspects of the data along various auditory dimensions such as [pitch](#pitch), variation, brilliance, and onset. The problem with this approach is that where there is no temporal relationship (or rather, no non-linear relationship) between the original data points, the resulting sound can be ‘confusing’ (2015: 422). 
+Last and Usyskin focused on time-series data.  They argue that time-series data are particularly well suited to sonification because there are natural parallels with musical sound. Music is sequential, it has duration, and it evolves over time; so too with time-series data [(Last and Usyskin 2015: 424)](https://www.researchgate.net/publication/282504359_Listen_to_the_Sound_of_Data). It becomes a problem of matching the data to the appropriate sonic outputs. In many applications of sonification, a technique called ‘parameter mapping’ is used to marry aspects of the data along various auditory dimensions such as [pitch](#pitch), variation, brilliance, and onset. The problem with this approach is that where there is no temporal relationship (or rather, no non-linear relationship) between the original data points, the resulting sound can be ‘confusing’ (2015: 422).
 
 ## Hearing the Gaps
-There is also the way that we fill in gaps in the sound with our expectations. Consider this video where the [mp3](#mp3) has been converted to [MIDI](#midi) back to mp3; the music has been 'flattened' so that all sonic information is being played by one instrument. (Generating this effect is rather like saving a webpage as .txt, opening it in Word, and then resaving it as .html). All sounds (including vocals) have been translated to their corresponding note values, and then turned back into an mp3. 
+There is also the way that we fill in gaps in the sound with our expectations. Consider this video where the [mp3](#mp3) has been converted to [MIDI](#midi) back to mp3; the music has been 'flattened' so that all sonic information is being played by one instrument. (Generating this effect is rather like saving a webpage as .txt, opening it in Word, and then resaving it as .html). All sounds (including vocals) have been translated to their corresponding note values, and then turned back into an mp3.
 
 It is noisy; yet we perceive meaning. Consider the video below:
 
@@ -71,13 +71,13 @@ What's going on here? If that song was already known to you, you probably heard 
 
 Consider the implications for history. If we sonify our data, and begin to hear patterns in the sound, or odd outliers, our cultural expectations about how music works (our memories of similar snippets of music, heard in particular contexts) are going to colour our interpretation. This I would argue is true about all representations of the past, but sonifying is just odd enough to our regular methods that this self-awareness will help us identify or communicate the critical patterns in the (data of the) past.
 
-We will progress through three different tools for sonifying data, noting how choices in one tool affect the output, and can be mitigated by reimagining the data via another tool. Ultimately, there is nothing any more objective in 'sonification' than there is in 'visualization', and so the investigator has to be prepared to justify her choices, and to make these choices transparent and reproducible for others. (And lest we think that sonification and algorithmically generated music is somehow a 'new' thing, I direct the interested reader to [Hedges, (1978)](#hedges).) 
+We will progress through three different tools for sonifying data, noting how choices in one tool affect the output, and can be mitigated by reimagining the data via another tool. Ultimately, there is nothing any more objective in 'sonification' than there is in 'visualization', and so the investigator has to be prepared to justify her choices, and to make these choices transparent and reproducible for others. (And lest we think that sonification and algorithmically generated music is somehow a 'new' thing, I direct the interested reader to [Hedges, (1978)](#hedges).)
 
 In each section, I will give a conceptual introduction, followed by a walkthrough using sample archaeological or historical data.
 
 # Musicalgorithms
 
-There are a wide variety of tools out there to sonify data. Some for instance are packages for the widely-used [R statistical environment](https://cran.r-project.org/), such as ‘[playitbyR](https://cran.r-project.org/web/packages/playitbyr/index.html)’ and ‘[AudiolyzR](https://cran.r-project.org/web/packages/audiolyzR/index.html)’. The first of these however has not been maintained or updated to work with the current version of R (its last update was a number of years ago), and the second requires considerable configuration of extra software to make it work properly. 
+There are a wide variety of tools out there to sonify data. Some for instance are packages for the widely-used [R statistical environment](https://cran.r-project.org/), such as ‘[playitbyR](https://cran.r-project.org/web/packages/playitbyr/index.html)’ and ‘[AudiolyzR](https://cran.r-project.org/web/packages/audiolyzR/index.html)’. The first of these however has not been maintained or updated to work with the current version of R (its last update was a number of years ago), and the second requires considerable configuration of extra software to make it work properly.
 
 By contrast, the [Musicalgorithms](http://musicalgorithms.org/) site is quite easy to use. The Musicalgorithms site has been online for over a decade. Though it is not open source, it represents a long-term research project in computational music by its creator, Jonathan Middleton. It is currently in its third major iteration (earlier iterations remain usable online). We will begin with Musicalalgorithms because it allows us to quickly enter and tweak our data to produce a MIDI file representation. Make sure to select '[Version 3](http://musicalgorithms.org/3.0/index.html).'
 
@@ -86,7 +86,7 @@ By contrast, the [Musicalgorithms](http://musicalgorithms.org/) site is quite ea
 Musicalgorithms effects a number of transformations on the data. In the sample data below (the default from the site itself), there is but one row of data, even if it looks like several rows. The sample data is comprised of comma separated fields that are themselves space delimited.
 
 ```
-# Of Voices, Text Area Name, Text Area Data 
+# Of Voices, Text Area Name, Text Area Data
 1,morphBox,
 ,areaPitch1,2 7 1 8 2 8 1 8 2 8 4 5 9 0 4 5 2 3 5 3 6 0 2 8
 ,dAreaMap1,2 7 1 8 2 8 1 8 2 8 4 5 9 0 4 5 2 3 5 3 6 0 2 8
@@ -98,7 +98,7 @@ Musicalgorithms effects a number of transformations on the data. In the sample d
 This data represents the source data and its transformations; sharing this data would allow another investigator to replicate or extend the sonification using other tools. When one begins however, only the basic data below is needed (a list of data points):
 
 ```
-# Of Voices, Text Area Name, Text Area Data 
+# Of Voices, Text Area Name, Text Area Data
 1,morphBox,
 ,areaPitch1,24 72 12 84 21 81 14 81 24 81 44 51 94 01 44 51 24 31 5 43 61 04 21 81
 ```
@@ -109,7 +109,7 @@ The key field for us is ‘areaPitch1,’ which contains the space-delimited inp
 
 Now, as you page across the various tabs in the interface (‘[duration](#duration) input’, ‘[pitch mapping](#pitch mapping)’, ‘duration mapping’, ‘scale options’) you can effect various transformations. In ‘pitch mapping’, there are a number of mathematical options for mapping the data against the full 88 keys/pitches of a piano keyboard (in a linear mapping, the _mean_ of one’s data would be mapped to middle C, or 40). One can also choose the kind of scale, whether it is a minor or major and so on. At this point, once you've selected your various transformations, you should save the text file. On the file tab, ‘play’, one can download a midi file. Your default audio program can play midi files (often defaulting to a piano tone). More complicated instrumentation can be assigned by opening the midi file in music mixing programs such as GarageBand (Mac) or [LMMS](https://lmms.io/) (Windows, Mac, Linux). (Using Garageband or LMMS are outside the scope of this tutorial. A video tutorial on LMMS is available [here](https://youtu.be/4dYxV3tqTUc), while Garageband tutorials proliferate online. Lynda.com has [an excellent one](http://www.lynda.com/GarageBand-tutorials/Importing-audio-tracks/156620/164050-4.html))
 
-If you had several columns of data for the same points - say, in our example from Roman Britain, we also wanted to sonify counts of a pottery type for those same towns - you can reload your next data series, effect the transformations and mappings, and generate another MIDI file. Since Garageband and LMMS allow for overlaying of voices, you can begin to build up complicated sequences of music. 
+If you had several columns of data for the same points - say, in our example from Roman Britain, we also wanted to sonify counts of a pottery type for those same towns - you can reload your next data series, effect the transformations and mappings, and generate another MIDI file. Since Garageband and LMMS allow for overlaying of voices, you can begin to build up complicated sequences of music.
 
 {% include figure.html filename="sonification-garageband-john-adams-3.png" caption="Screenshot of Garageband, where the midi files are sonified topics from John Adams' Diary. In the Garageband interface (LMMS is similar), each midi file is dragged-and-dropped into place. The instrumentation for each midi file (ie track) can be selected from Garageband's menus. The labels for each track have here been changed to reflect the key words in each topic. The green area to the right represents a visualization of the notes in each track. You can watch this interface in action and listen to the music [here](https://youtu.be/ikqRXtI3JeA)." %}
 
@@ -120,12 +120,12 @@ _There is no 'right' way to represent your data as sound_, at least not yet: but
 But what about time? Historical data often has a punctuation point, a distinct 'time when' something occured. Thus, the amount of time between two data points has to be taken into account. This is where our next tool becomes quite useful, for when our data points have a relationship to one another in temporal space. We begin to move from sonfication (data points) to music (relationships between points).
 
 ### Practice
-The [sample dataset](/assets/sonification-roman-data.csv) provided contains counts of Roman coins in its first column and counts of other Roman materials from the same locations, as contained in the Portable Antiquities Scheme database from the British Museum. A sonification of this data might reveal or highlight aspects of the economic situation along Watling street, a major route through Roman Britain. The data points are organized geographically from North West to South East; thus as the sound plays out, we are hearing movement over space. Each note represents another stop along the way. 
+The [sample dataset](/assets/sonification-roman-data.csv) provided contains counts of Roman coins in its first column and counts of other Roman materials from the same locations, as contained in the Portable Antiquities Scheme database from the British Museum. A sonification of this data might reveal or highlight aspects of the economic situation along Watling street, a major route through Roman Britain. The data points are organized geographically from North West to South East; thus as the sound plays out, we are hearing movement over space. Each note represents another stop along the way.
 
 1. Open the[sonification-roman-data.csv](/assets/sonification-roman-data.csv) in a spreadsheet. Copy the first column into a text editor. Delete the line endings so that the data is all in a single row.
 2. Add the following column information like so:
 ```
-# Of Voices, Text Area Name, Text Area Data 
+# Of Voices, Text Area Name, Text Area Data
 1,morphBox,
 ,areaPitch1,
 ```
@@ -133,7 +133,7 @@ The [sample dataset](/assets/sonification-roman-data.csv) provided contains coun
 
 3. Go to the [Musicalgorithms](http://musicalgorithms.org/3.0/index.html) site (version 3), and hit the load button. In the pop-up, click the blue 'load' button and select the file saved in step 2. The site will load your materials and display a green check mark if it loaded successfully. If it did not, make sure that your values are separated by spaces, and that they follow immediately the last comma in the code block in step 2. You may also try loading up the [demo file for this tutorial](/assets/sonification-romancoin-data-music.csv) instead.{% include figure.html filename="sonification-musicalgorithms-upload-4.png" caption="Click 'load' on the main screen to get this dialogue box. Then 'load csv'. Select your file; it will appear in the box. Then click the bottom load button." %}
 4. Click on 'Pitch Input'. You'll see the values of your data. For now, **do not select** any further options on this page (thus using the site's default values).
-5. Click on 'Duration Input'. **Do not select any options here for now**. The options here will map various transformations against your data that will alter the duration for each note. Do not worry about these options for now; move on. 
+5. Click on 'Duration Input'. **Do not select any options here for now**. The options here will map various transformations against your data that will alter the duration for each note. Do not worry about these options for now; move on.
 6. Click on 'Pitch Mapping'. This is the most crucial choice, as it will transform (that is, scale) your raw data to a mapping against the keys of the keyboard. Leave the `mapping` set to 'division'.  (The other options are modulo or logarithmic). The option `Range` 1 to 88 uses the full 88 keys of the keyboard; thus your lowest value would accord to the deepest note on the piano and your highest value with the highest note. You might wish instead to constrain your music around middle C, so enter 25 to 60 as your range. The output should change to: `31,34,34,34,25,28,30,60,28,25,26,26,25,25,60,25,25,38,33,26,25,25,25` These are no longer your counts; they are notes on the keyboard.{% include figure.html filename="sonification-musicalgorithms-settings-for-pitch-mapping-5.png" caption="Click into the 'range' box and set it to 25. The values underneath will change automatically. Click into the 'to' box and set it to 60. Click back into the other box; the values will update." %}
 7. Click on 'Duration Mapping'. Like Pitch Mapping, this takes a range of times that you specify and uses the various mathematical options to map that range of possibilities against your notes. If you mouse over the `i` you will see how the numbers correspond with whole notes, quarter notes, eigth notes, and so on. Leave the default values for now.
 8. Click on 'Scale Options'. Here we can begin to select something of what might be called the 'emotional' aspect to sound. We commonly think of major scales being 'happy' while minor scales are 'sad'; for an accessible discussion see [this blog post](http://www.ethanhein.com/wp/2010/scales-and-emotions/). For now, select 'scale by: major'. Leave the 'scale' as `C`.
@@ -141,7 +141,7 @@ The [sample dataset](/assets/sonification-roman-data.csv) provided contains coun
 You have now sonified one column of data! Click on the 'save' button, then 'save csv'. {% include figure.html filename="sonification-musicalgorithms-save-6.png" caption="The save data dialogue box." %}You'll have a file that looks something like this:
 
 ```
-# Of Voices, Text Area Name, Text Area Data 
+# Of Voices, Text Area Name, Text Area Data
 1,morphBox,
 ,areaPitch1,80 128 128 128 1 40 77 495 48 2 21 19 1 1 500 1 3 190 115 13 5 1 3
 ,dAreaMap1,2 7 1 8 2 8 1 8 2 8 4 5 9 0 4 5 2 3 5 3 6 0 2
@@ -155,7 +155,7 @@ You can see your original data in the 'areaPitch1' field, and your subsequent ma
 Go back to the beginning, and load both columns of data into this template:
 
 ```
-# Of Voices, Text Area Name, Text Area Data 
+# Of Voices, Text Area Name, Text Area Data
 2,morphBox,
 ,areaPitch1,
 ,areaPitch2,
@@ -167,9 +167,9 @@ When you have multiple voices of data, what stands out? Note that in this approa
 
 # A quick word about getting Python set up
 
-The next section of this tutorial requires Python. If you haven't experimented with Python yet, you will need to spend some time [becoming familiar with the command line (PC) or terminal (OS)](/lessons/intro-to-bash). You might find this quick [guide to installing python 'modules'](/lessons/installing-python-modules-pip) handy (but come back to it after you read the rest of this section). 
+The next section of this tutorial requires Python. If you haven't experimented with Python yet, you will need to spend some time [becoming familiar with the command line (PC) or terminal (OS)](/lessons/intro-to-bash). You might find this quick [guide to installing python 'modules'](/lessons/installing-python-modules-pip) handy (but come back to it after you read the rest of this section).
 
-Mac users will already have Python installed on their machine. You can test this by holding down the COMMAND button and the spacebar; in the search window, type `terminal` and click on the terminal application. At the prompt, eg, the cursor blinking at `$` type `python --version` and the computer will respond with what version of python you have. _This next section of the tutorial assumes Python 2.7; it has not been tested on Python 3_. 
+Mac users will already have Python installed on their machine. You can test this by holding down the COMMAND button and the spacebar; in the search window, type `terminal` and click on the terminal application. At the prompt, eg, the cursor blinking at `$` type `python --version` and the computer will respond with what version of python you have. _This next section of the tutorial assumes Python 2.7; it has not been tested on Python 3_.
 
 For Windows users, Python is not installed by default on your machine so [this page](http://docs.python-guide.org/en/latest/starting/install/win/) will help you get started, though things are a bit more complicated than that page makes out. First, download the `.msi` file that that page recommends (Python 2.7). Double click the file, and it should install itself in a new directory, eg `C:\Python27\`. Then, we have to tell Windows the location of where to look for Python whenever you run a python program; that is, you put the location of that directory into your 'path', or the environment variable that windows always checks when confronted with a new command. There are a couple ways of doing this, but perhaps the easiest is to search your computer for the program `Powershell` (type 'powershell' into your windows computer search). Open Powershell, and at the `>` prompt, paste this entire line:
 
@@ -183,19 +183,19 @@ Finally, when you have python code you want to run, you can enter it in your tex
 
 # MIDITime
 
-MIDITime is a python package developed by [Reveal News (formerly, the Centre for Investigative Reporting)](https://www.revealnews.org/). Its [Github repository is here](https://github.com/cirlabs/miditime). Miditime is built explicitly for time series data (that is, a sequence of observations collected over time). 
+MIDITime is a python package developed by [Reveal News (formerly, the Centre for Investigative Reporting)](https://www.revealnews.org/). Its [Github repository is here](https://github.com/cirlabs/miditime). Miditime is built explicitly for time series data (that is, a sequence of observations collected over time).
 
 While the Musicalgorithms tool has a more-or-less intuitive interface, the investigator sacrifices the ability to know what, exactly, is going on under the hood. In principle, one could examine the underlying code for the MIDITime package to see exactly what's going on. More importantly, the previous tool had no ability to account for data where the points are distant from one another in clock-time. MIDITime lets us take into account that our data might be clustering in time.
 
 Let us assume that you have a historic diary to which you've fitted a [topic model](/lessons/topic-modeling-and-mallet). The resulting output might have diary entries as rows, and the percentage composition each topic contributes to that entry as the columns. In which case, _listening_ to these values might help you understand the patterns of thought in the diary in a way that visualizing as a graph might not. Outliers or recurrent musical patterns could stand out to the ear in a way the grammar of graphs obscures.
 
 ### Installing MIDITime
-Installing miditime is straightforward using [pip](/lessons/installing-python-modules-pip): 
+Installing miditime is straightforward using [pip](/lessons/installing-python-modules-pip):
 
 `$ pip install miditime` or `$ sudo pip install miditime` for a Mac or Linux machine;
 `> python pip install miditime` on a Windows machine. (Windows users, if the instructions above didn't quite work for you, you might want to try [this helper program](https://sites.google.com/site/pydatalog/python/pip-for-windows) instead to get Pip working properly on your machine).
 
-### Practice 
+### Practice
 Let us look at the sample script provided. Open your text editor, and copy and paste the sample script in:
 
 ```python
@@ -225,7 +225,7 @@ Save this script as `music1.py`. At your terminal or command prompt, run the scr
 
 `$ python music1.py`
 
-A new file, `myfile.mid` will be written to your directory. To hear this file, you can open it with Quicktime or Windows Media Player. (You can add instrumentation to it by opening it in Garageband or [LMMS](https://lmms.io/)). 
+A new file, `myfile.mid` will be written to your directory. To hear this file, you can open it with Quicktime or Windows Media Player. (You can add instrumentation to it by opening it in Garageband or [LMMS](https://lmms.io/)).
 
 `Music1.py` imports miditime (remember, you must do `pip install miditime` before running the script). Then, it creates an output file destination and sets the tempo. The notes are all listed individually, where the first number is the time when the note should be played, the pitch of the note (ie, the actual note!), how hard or rythmically the note is hit (the [attack](#attack)), and then how long the note lasts. The notes are then written to the track, and then the track is written to `myfile.mid`.
 
@@ -259,11 +259,11 @@ my_data = [
 
 One could approach the problem of getting our data into that format using regular expressions; it might be easier to just open our topic model in a spreadsheet. Copy the topic data to a new sheet, and leave columns to the left and to the right of the data. In the example below, I put it in column D, and then filled in the rest of the data around it, like so:
 
-|   | A | B | C | D | E |
-|---|---|---|---|---|---|
-|1 | {'event_date': datetime |(1753,6,8)  |, 'magnitude':  |0.0024499630  |},  |
-|2 | | | | | |
-|3 | | | | | |
+|     | A                       | B          | C              | D            | E   |
+| --- | ----------------------- | ---------- | -------------- | ------------ | --- |
+| 1   | {'event_date': datetime | (1753,6,8) | , 'magnitude': | 0.0024499630 | },  |
+| 2   |                         |            |                |              |     |
+| 3   |                         |            |                |              |     |
 
 Then copy and paste the elements that do not change to fill up the entire column. The date element has to be (year,month,day). Once you've filled up the table, you can copy and paste it into your text editor so that it becomes part of the `my_data` array, like so:
 
@@ -293,13 +293,13 @@ mymidi = MIDITime(108, 'johnadams1.mid', 3, 4, 1)
 ```
 
 The values after MIDITime, `MIDITime(108, 'johnadams1.mid', 3, 4, 1)` set
-+ the beats per minute (108), 
-+ the output file ('johnadams1.mid'), 
-+ the number of seconds to represent a year in the music (3 seconds to a calendar year, so all of the notes for diary entries from 1753 will be scaled against 3 seconds; there are 50 years in the data, so the final song will be 50 x 3 seconds long, or a bit over two minutes), 
-+ the base octave for the music (middle C is conventionally represented as C5, so here 4 represents one octave below middle C), 
-+ and how many octaves to map the pitches against. 
- 
-Now we pass our data into the script by feeding it into the `my_data` array (this gets pasted in next): 
++ the beats per minute (108),
++ the output file ('johnadams1.mid'),
++ the number of seconds to represent a year in the music (3 seconds to a calendar year, so all of the notes for diary entries from 1753 will be scaled against 3 seconds; there are 50 years in the data, so the final song will be 50 x 3 seconds long, or a bit over two minutes),
++ the base octave for the music (middle C is conventionally represented as C5, so here 4 represents one octave below middle C),
++ and how many octaves to map the pitches against.
+
+Now we pass our data into the script by feeding it into the `my_data` array (this gets pasted in next):
 
 ```python
 my_data = [
@@ -324,7 +324,7 @@ my_data_timed = [{'beat': mymidi.beat(d['days_since_epoch']), 'magnitude': d['ma
 start_time = my_data_timed[0]['beat']
 ```
 
-This part works out the timing between your different diary entries; diaries that are close together in time will therefore have their notes sounding closer together. Finally, we define how the data get mapped against the pitch. Remembering that our data are percentages ranging from 0.01 (ie 1%) to 0.99 (99%), we `scale_pct` between 0 and 1. If you weren't dealing with percentages, you'd use your lowest value and your highest value (if for instance your data were counts of some element of interest, as in the archaology data used earlier). Thus, we paste in: 
+This part works out the timing between your different diary entries; diaries that are close together in time will therefore have their notes sounding closer together. Finally, we define how the data get mapped against the pitch. Remembering that our data are percentages ranging from 0.01 (ie 1%) to 0.99 (99%), we `scale_pct` between 0 and 1. If you weren't dealing with percentages, you'd use your lowest value and your highest value (if for instance your data were counts of some element of interest, as in the archaology data used earlier). Thus, we paste in:
 
 ```python
 def mag_to_pitch_tuned(magnitude):
@@ -367,7 +367,7 @@ For each column of data in your original data, **have a unique script and rememb
 
 # Sonic Pi
 
-Having unique midifiles that you arrange (in Garageband or some other music composition program) moves you from 'sonifying' towards composition and sound art. In this final section, I do not offer you a full tutorial on using [Sonic Pi](http://sonic-pi.net), but rather point you towards this environment that allows for the actual live-coding and performance of your data (see [this video](https://www.youtube.com/watch?v=oW-3HVOeUQA) for an actual live-coding performance). Sonic Pi's built-in tutorials will show you something of the potential of using your computer as an actual musical instrument (where you type Ruby code into its built-in editor while the interpreter plays what you encode). 
+Having unique midifiles that you arrange (in Garageband or some other music composition program) moves you from 'sonifying' towards composition and sound art. In this final section, I do not offer you a full tutorial on using [Sonic Pi](http://sonic-pi.net), but rather point you towards this environment that allows for the actual live-coding and performance of your data (see [this video](https://www.youtube.com/watch?v=oW-3HVOeUQA) for an actual live-coding performance). Sonic Pi's built-in tutorials will show you something of the potential of using your computer as an actual musical instrument (where you type Ruby code into its built-in editor while the interpreter plays what you encode).
 
 Why would you want to do this? As has progressively become clear in tutorial, when you sonify your data you begin to make choices about how the data maps into sound, and these choices reflect implicit or explicit decisions about which data matter. There is a continuum of 'objectivity', if you will. At one end, a sonification that supports an argument about the past; at the other, a performance about the past as riveting and personal as any well-done public lecture. Sonification moves our data off the page and into the ears of our listeners: it is a kind of public history. Performing our data... imagine that!
 
@@ -385,13 +385,13 @@ data = CSV.parse(File.read("/path/to/your/directory/data.csv"), {:headers => tru
 use_bpm 100
 ```
 
-Remember, `path/to/your/directory/` is the actual location of your data on your machine. Make sure it is either called `data.csv` or that you change the line above so that it actually loads your file! 
+Remember, `path/to/your/directory/` is the actual location of your data on your machine. Make sure it is either called `data.csv` or that you change the line above so that it actually loads your file!
 
 Now, let's load that data into our music:
 
 ```
-#this bit of code will run only once, unless you comment out the line with 
-#'live_loop', and also comment out the final 'end' at the bottom 
+#this bit of code will run only once, unless you comment out the line with
+#'live_loop', and also comment out the final 'end' at the bottom
 # of this code block
 #'commenting out' means removing the # sign.
 
@@ -451,13 +451,13 @@ Sonifying our data forces us to confront the ways our data are often not so much
 + **Pitch**,<a name="pitch"></a> the actual note itself (middle C, etc)
 + **Attack**,<a name="attack"></a> how the note is played or hit
 + **Duration**,<a name="duration"></a> how long the note lasts (whole notes, quarter notes, eighth notes etc)
-+ **Pitch Mapping & Duration Mapping**, <a name="pitch mapping"></a> scaling data values against a range of notes or the length of the note 
++ **Pitch Mapping & Duration Mapping**, <a name="pitch mapping"></a> scaling data values against a range of notes or the length of the note
 + **Amplitude**, <a name="amplitude"></a>roughly, the loudness of the note
 
 # References
 <a name="Baio"></a>Baio, Andy. 2015. 'If Drake Was Born A Piano'. Waxy. [http://waxy.org/2015/12/if_drake_was_born_a_piano/](http://waxy.org/2015/12/if_drake_was_born_a_piano/)
 
-<a name="Drucker"></a>Drucker, Johanna. 2011. Humanities Approaches to Graphical Display. DHQ 5.1 [http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html)
+<a name="Drucker"></a>Drucker, Johanna. 2011. Humanities Approaches to Graphical Display. DHQ 5.1 [http://web.archive.org/web/20190203083307/http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html](http://web.archive.org/web/20190203083307/http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html)
 
 <a name="Hedges"></a>Hedges, Stephen A. 1978. “Dice Music in the Eighteenth Century”. Music & Letters 59 (2). Oxford University Press: 180–87. [http://www.jstor.org/stable/734136](http://www.jstor.org/stable/734136).
 

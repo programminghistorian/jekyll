@@ -168,7 +168,7 @@ Los encabezados no se generan mediante **negrita** o *cursiva* sino con la anota
 Aunque hay varias maneras de crear encabezados de secciones en Markdown, pedimos el uso de la notación `#` (numeral o almohadilla). Los encabezados de nivel superior se indican con un símbolo `#`; el segundo nivel con dos `##`; etc.
 
 ### Alertas
-Si quieres añadir información sobre algo que no es esencial para la lección pero que crees que puede ser importante (o que corresponde a ciertos lectores), puedes marcarlo usando el [estilo de alertado](https://v4-alpha.getbootstrap.com/components/alerts/) (tomado de Bootstrap).  
+Si quieres añadir información sobre algo que no es esencial para la lección pero que crees que puede ser importante (o que corresponde a ciertos lectores), puedes marcarlo usando el [estilo de alertado](https://v4-alpha.getbootstrap.com/components/alerts/) (tomado de Bootstrap).
 
 Para ello, necesitas utilizar HTML, tal que
 ```
@@ -184,7 +184,7 @@ Esto se verá así en la lección:
 Como toda revista académica, *The Programming Historian en español* también tiene su estilo propio, que esperamos que los autores y traductores sigan de manera consistente a lo largo de las lecciones. A diferencia de la mayoría de revistas, sin embargo, no seguir con estas normas de estilo no solo disminuye la consistencia estilística sino que también afecta a la visualización del archivo entero.
 
 #### Figuras
-Sin importar su longitud o nivel de dificultad, todas las lecciones se benefician de tener imágenes, sobre todo capturas de pantalla (o capturas parciales) que ilustran lo que los lectores deberían ver mientras realizan el tutorial. No sólo hacen el tutorial más fácil de ojear; las figuras ayudan al lector a ver que está haciendo lo correcto. Y por su puesto, las imágenes pueden ayudar a reducir las descripciones en tu texto.  
+Sin importar su longitud o nivel de dificultad, todas las lecciones se benefician de tener imágenes, sobre todo capturas de pantalla (o capturas parciales) que ilustran lo que los lectores deberían ver mientras realizan el tutorial. No sólo hacen el tutorial más fácil de ojear; las figuras ayudan al lector a ver que está haciendo lo correcto. Y por su puesto, las imágenes pueden ayudar a reducir las descripciones en tu texto.
 
 #### Crea una carpeta
 Primero, crea una carpeta en la que guardarás las imágenes. El nombre de la carpeta tiene que ser el mismo que el ```SLUG-DE-LA-LECCION``` que hayas escogido para el nombre del archivo de tu lección. El editor asignado a tu lección te puede ayudar a cargar las imágenes al repositorio ```ph-submissions``` cuando subas tu lección.
@@ -224,7 +224,7 @@ Cuando el Markdown es procesado por nuestro sistema dicha línea automáticament
 ### Bloques de código
 Si necesitas incluir código en tu lección, o mostrar el resultado de un programa, utiliza el llamado [bloque de código destacado]. En una nueva línea, utiliza tres tildes graves para abrir un bloque, seguido del lenguaje de tu código (por ejemplo, ```python``` o ```html```). Luego copia tu código y cuando termines, cierra el bloque con tres tildes graves más. El marcado se procesara en el resultado final y se verá así:
 
-```  
+```
 print 'hola mundo'
 ```
 

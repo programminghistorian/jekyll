@@ -14,7 +14,7 @@ Gracias por editar una lección para *The Programming Historian en español*. Es
 
 {% include toc.html %}
 
-Tanto si estás editando una traducción como si estás editando una lección nueva el proceso sigue unas mismas líneas de acción; nuestro objetivo como editores no es supervisar, como se suele hacer en las revistas tradicionales sino ofrecer ayuda durante todo el proceso de escritura, traducción y publicación. Por eso es recomendable que te familiarices con la [Guía para autores y traductores](/es/guia-para-autores).  
+Tanto si estás editando una traducción como si estás editando una lección nueva el proceso sigue unas mismas líneas de acción; nuestro objetivo como editores no es supervisar, como se suele hacer en las revistas tradicionales sino ofrecer ayuda durante todo el proceso de escritura, traducción y publicación. Por eso es recomendable que te familiarices con la [Guía para autores y traductores](/es/guia-para-autores).
 
 Si recibes una propuesta de lección nueva, asegúrate de que el autor te proporciona una idea clara del contenido antes de que empiece a escribir el tutorial. Si un tema no es adecuado para *The Programming Historian en español* nuestro trabajo es decírselo al autor antes de que empiece a escribir la lección. Con esto pretendemos ahorrarnos tiempo y energía. Una vez hemos hablado con el autor y hemos evaluado su propuesta, podemos seguir adelante con el proceso de revisión.
 
@@ -220,7 +220,7 @@ En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor 
 ```yaml
 - name: Jim Clifford
   team: false
-  bio: 
+  bio:
    es: |
        Jim Clifford es profesor ayudante en el Departamento de Historia de la Universidad de Saskatchewan.
 ```
@@ -248,12 +248,12 @@ Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML d
 ```
 ---
 title: |
-	[Título de la lección]	
+	[Título de la lección]
 collection: lessons
 layout: lesson
 slug: [e.g. sentiment analysis]
 date: [Fecha original, YYYY-MM-DD]
-translation_date: [Fecha de traducción, YYYY-MM-DD] 
+translation_date: [Fecha de traducción, YYYY-MM-DD]
 authors:
 - [Nombre del autor 1]
 - [Nombre del autor 2, etc.]
@@ -276,11 +276,11 @@ topics: [(ver abajo o mantener original en traducciones)]
 abstract: "[(ver abajo o traducir el original)]"
 ---
 ```
- 
+
 - **difficulty** Con el objetivo de ayudar a los lectores a evaluar si una lección se ajusta a sus necesidades y experiencia, proporcionamos un campo " Recomendado para usuarios____ " en el bloque YAML. Actualmente, contamos con tres niveles de dificultad, que se escogen mediante tres códigos numéricos: 1 (introductorio), 2 (intermedio) y 3 (avanzado). Por ejemplo, para añadir el nivel de dificultad intermedia a la lección, añade lo siguiente en el bloque YAML:
 ```
 difficulty: 2
-``` 
+```
 - **slug** debe contener la ruta a la lección en el sitio público de _Programming Historian_, lo que significa un texto con guiones que sigue a programminghistorian.org/lessons/ (i.e. building-static-sites-with-jekyll-github-pages)
 - **activity** debe usarse una (y solo una) de las siguientes cinco opciones: *acquiring, transforming, analyzing, presenting, sustaining* (adquisición, transformación, análisis, presentación o sostenibilidad). Escoge la que mejor describa lo que te enseña la lección acerca de datos en humanidades (i.e. una lección que muestre la creación de un sitio web con Omeka será sobre presentar (*presenting*) datos a través de una galería en la Web).
 - **topics** puede ser cualquier número de cosas listadas despues de "type:" en /\_data/topics.yml. También te invitamos a crear nuevos tópicos que ayuden a alguien a encontrar la lección. Para hacerlo, además de listar el o los nuevos tópicos en los preliminares de la leción, deberás:
@@ -290,7 +290,7 @@ difficulty: 2
 - **abstract** es una descripción de una a tres frases sobre lo que se aprende en esa lección. Trata de evitar, en lo posible, un vocabulario técnico, para que estos resúmenes ayuden a los académicos sin un conocimiento técnico a probar nuevas cosas.
 
 
-Para las traducciones, no solo hay que añadir `translator`, `translation-reviewer`, `translation-editor` y `translation_date`. También hay que añadir el campo `original`: 
+Para las traducciones, no solo hay que añadir `translator`, `translation-reviewer`, `translation-editor` y `translation_date`. También hay que añadir el campo `original`:
 
 Es decir, con el nombre del archivo en inglés, sin extensión `.md` y sin indicar que se encuentra en el directorio `en`. En total, pues, las traducciones contienen cinco metadatos adicionales.
 
@@ -323,7 +323,7 @@ Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos 
     message_two (columna B) - un mensaje de twitter “En caso de que te lo hayas perdido” para circular ms tarde en la semana.
     link (columna C) - el enlace a la lección.
 
-Deja la columna D en blanco y sin tocar - este campo es utilizado por el Twitter bot para registrar su progreso en la lista. Ten en cuenta además que este paso no reemplaza tu propia promoción de la lección. El bot escoge las lecciones aleatoriamente, una cada la semana, así que pueden pasar meses hasta que tu lección aparezca por este medio. 
+Deja la columna D en blanco y sin tocar - este campo es utilizado por el Twitter bot para registrar su progreso en la lista. Ten en cuenta además que este paso no reemplaza tu propia promoción de la lección. El bot escoge las lecciones aleatoriamente, una cada la semana, así que pueden pasar meses hasta que tu lección aparezca por este medio.
 
 ### 6) Informar al Jefe de redacción
 Al jefe de redacción publicará la lección moviendo los archivos al sitio web principal y comprobando todo. Para facilitar el trabajo de esta persona, publique una lista en el boleto de presentación de todos los archivos que deban moverse para publicar la lección:
