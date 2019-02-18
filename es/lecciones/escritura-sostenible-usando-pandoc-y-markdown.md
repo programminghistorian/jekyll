@@ -113,16 +113,16 @@ date: 20 de enero de 2014
 El Markdown "Pandoc-flavored" almacena cada uno de los valores anteriores y los "imprime" en la ubicación apropiada de tu documento de salida una vez que está listo para la composición tipográfica. Más adelante aprenderemos a incluir campos más potentes en YAML. Por ahora, vamos a suponer que estamos escribiendo un documento compuesto por tres secciones, cada una subdividida en dos. Hay que dejar una línea en blanco después de los tres últimos guiones del bloque YAML para que puedas pegar lo que sigue:
 
 ```
-# Sección 1  
+# Sección 1
 
-## Subsección 1.1  
+## Subsección 1.1
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 El siguiente párrafo debe empezar como éste, sin sangría:
 
 ## Subsección 1.2
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-    
+
 # Sección 2
 
 ## Subsección 2.1
@@ -153,16 +153,16 @@ author: Gabriel García
 date: 20 de enero de 2014
 ---
 
-# Sección 1  
+# Sección 1
 
-## Subsección 1.1  
+## Subsección 1.1
 Lorem *ipsum* dolor sit amet, **consectetur** adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 El siguiente párrafo debe empezar como este, sin sangría:
 
 ## Subsección 1.2
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-    
+
 # Sección 2
 
 ## Subsección 2.1
@@ -333,7 +333,7 @@ Trata tus archivos de origen como versiones autorizadas de tu texto y los archiv
 
 ## Recursos útiles
 
-En caso de meterte en problemas no hay un mejor lugar para empezar a buscar soluciones que el [sitio web de Pandoc](http://johnmacfarlane.net/pandoc/) de John MacFarlane y la [lista de correos](https://groups.google.com/forum/#!forum/pandoc-discuss) afiliada (en inglés). Al menos en dos sitios de tipo "Pregunta y respuesta" puedes encontrar respuestas a preguntas sobre Pandoc: [Stack Overflow](http://stackoverflow.com/questions/tagged/pandoc) y [Digital Humanities Q&A](http://digitalhumanities.org/answers/). Puedes hacer preguntas en vivo en Freenode IRC, \#Pandoc channel, frecuentado por un amistoso grupo de asiduos. A medida que aprendas más acerca de Pandoc, puedes explorar una de sus particularidades más poderosa: [filtros](https://github.com/jgm/pandoc/wiki/Pandoc-Filters).
+En caso de meterte en problemas no hay un mejor lugar para empezar a buscar soluciones que el [sitio web de Pandoc](http://johnmacfarlane.net/pandoc/) de John MacFarlane y la [lista de correos](https://groups.google.com/forum/#!forum/pandoc-discuss) afiliada (en inglés). Al menos en dos sitios de tipo "Pregunta y respuesta" puedes encontrar respuestas a preguntas sobre Pandoc: [Stack Overflow](http://stackoverflow.com/questions/tagged/pandoc) y [Digital Humanities Q&A](http://web.archive.org/web/20190203062832/http://digitalhumanities.org/answers/). Puedes hacer preguntas en vivo en Freenode IRC, \#Pandoc channel, frecuentado por un amistoso grupo de asiduos. A medida que aprendas más acerca de Pandoc, puedes explorar una de sus particularidades más poderosa: [filtros](https://github.com/jgm/pandoc/wiki/Pandoc-Filters).
 
 Aunque te sugerimos comenzar con un simple editor de texto plano, hay muchas más alternativas (más de 70, de acuerdo con [esta entrada de blog](http://web.archive.org/web/20140120195538/http://mashable.com/2013/06/24/markdown-tools/) a MS Word para trabajar específicamente con Markdown, disponibles en línea y a menudo sin costo. Para las autónomas nos gustan [Mou](http://mouapp.com/), [Write Monkey](http://writemonkey.com), y [Sublime Text](http://www.sublimetext.com/). Varias plataformas web que han surgido recientemente proporcionan interfaces gráficas adecuadas para desarrollar una escritura colaborativa con seguimiento de cambios en las versiones utilizando Markdown. Éstas incluyen: [prose.io](http://prose.io), [Authorea](http://www.authorea.com), [Penflip](http://www.penflip.com), [Draft](http://www.draftin.com), y [StackEdit](https://stackedit.io).
 

@@ -18,7 +18,7 @@ The project team and members of the wider community are involved in a number of 
 ## Published Research
 * Katrina Navickas and Adam Crymble, ['From Chartist Newspaper to Digital Map of Grass-roots Meetings, 1841-44: Documenting Workflows'](http://www.tandfonline.com/doi/full/10.1080/13555502.2017.1301179), _Journal of Victorian Culture_, (2017).
 * Adam Crymble, ['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian'](http://researchprofiles.herts.ac.uk/portal/files/10476604/Blip_2016_Autumn_2016_Final_Autumn_2016.pdf), _Blended Learning in Practice_, (2016), 49-60. [[pre-print pdf](/researchpapers/openLearningCommunities2016.pdf)]
-* Fred Gibbs, ['Editorial Sustainability and Open Peer Review at Programming Historian',](http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian) _DH Commons_, Vol. 1 (2015).
+* Fred Gibbs, ['Editorial Sustainability and Open Peer Review at Programming Historian',](http://web.archive.org/web/20180713014622/http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian) _DH Commons_, Vol. 1 (2015).
 * Shawn Graham, Ian Milligan, and Scott Weingart, [_Exploring Big Historical Data: The Historian's Macroscope_](http://www.themacroscope.org/2.0/), (Imperial College Press, 2015).
 
 ## Workshops & Events
@@ -35,7 +35,7 @@ The project team and members of the wider community are involved in a number of 
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 May 2015).
 
 ## Posters, Conference Papers, & Invited Talks
-* Afanador, Maria José. 'The Programming Historian en español: estrategias y retos para la construcción de una comunidad global de humanidades digitales.' Ponencia presentada en la Conferencia de Humanidades Digitales DH2018, Ciudad de México, México, (2018, junio). 
+* Afanador, Maria José. 'The Programming Historian en español: estrategias y retos para la construcción de una comunidad global de humanidades digitales.' Ponencia presentada en la Conferencia de Humanidades Digitales DH2018, Ciudad de México, México, (2018, junio).
 * Caleb McDaniel, 'Open Access, Transparent Peer Review', Annual Meeting of the Organizations of American Historians, Sacremento, California, (14 April 2018).
 * James Baker, '[The Programming Historian: Open Access, Open Source, Open Project](https://www.slideshare.net/drjwbaker/the-programming-historian-open-access-open-source-open-project)', Research Hive Seminar on 'Open publication: exploring alternative models and practices', University of Sussex (22 March 2018).
 * Adam Crymble, 'White, Male, and North American: Challenges of Diversifying the Programming Historian', Universit&eacute; de Lausanne, Switzerland (23-24 March 2017).
