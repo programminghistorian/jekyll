@@ -270,11 +270,11 @@ which contains some useful metadata.
 Let's now create a simple document in Markdown. Open a plain-text editor
 of your choice and begin typing. It should look like this:
 
-    ---  
-    title: Plain Text Workflow  
-    author: Dennis Tenen, Grant Wythoff  
-    date: January 20, 2014  
-    ---  
+    ---
+    title: Plain Text Workflow
+    author: Dennis Tenen, Grant Wythoff
+    date: January 20, 2014
+    ---
 
 Pandoc-flavored Markdown stores each of the above values, and "prints"
 them in the appropriate location of your outputted document once you are
@@ -284,9 +284,9 @@ contains three sections, each subdivided into two subsections. Leave a
 blank line after last three dashes in the YAML block and paste the
 following:
 
-    # Section 1  
+    # Section 1
 
-    ## Subsection 1.1  
+    ## Subsection 1.1
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
     Next paragraph should start like this. Do not indent.
@@ -331,11 +331,11 @@ At this point, your `main.md` should look something like the following.
 You can download this sample .md file
 [here](https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/sample.md).
 
-    ---  
-    title: Plain Text Workflow  
-    author: Dennis Tenen, Grant Wythoff  
-    date: January 20, 2014  
-    ---  
+    ---
+    title: Plain Text Workflow
+    author: Dennis Tenen, Grant Wythoff
+    date: January 20, 2014
+    ---
 
     # Section 1
 
@@ -669,7 +669,7 @@ affiliated [mailing
 list](https://groups.google.com/forum/#!forum/pandoc-discuss). At least
 two "Question and Answer" type sites can field questions on Pandoc:
 [Stack Overflow](http://stackoverflow.com/questions/tagged/pandoc) and
-[Digital Humanities Q&A](http://digitalhumanities.org/answers/).
+[Digital Humanities Q&A](http://web.archive.org/web/20190203062832/http://digitalhumanities.org/answers/).
 Questions may also be asked live, on Freenode IRC, \#Pandoc channel,
 frequented by a friendly group of regulars. As you learn more about
 Pandoc, you can also explore one of its most powerful features: [filters](https://github.com/jgm/pandoc/wiki/Pandoc-Filters).

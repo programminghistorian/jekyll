@@ -18,7 +18,7 @@ The project team and members of the wider community are involved in a number of 
 ## Published Research
 * Katrina Navickas and Adam Crymble, ['From Chartist Newspaper to Digital Map of Grass-roots Meetings, 1841-44: Documenting Workflows'](http://www.tandfonline.com/doi/full/10.1080/13555502.2017.1301179), _Journal of Victorian Culture_, (2017).
 * Adam Crymble, ['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian'](http://researchprofiles.herts.ac.uk/portal/files/10476604/Blip_2016_Autumn_2016_Final_Autumn_2016.pdf), _Blended Learning in Practice_, (2016), 49-60. [[pre-print pdf](/researchpapers/openLearningCommunities2016.pdf)]
-* Fred Gibbs, ['Editorial Sustainability and Open Peer Review at Programming Historian',](http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian) _DH Commons_, Vol. 1 (2015).
+* Fred Gibbs, ['Editorial Sustainability and Open Peer Review at Programming Historian',](http://web.archive.org/web/20180713014622/http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian) _DH Commons_, Vol. 1 (2015).
 * Shawn Graham, Ian Milligan, and Scott Weingart, [_Exploring Big Historical Data: The Historian's Macroscope_](http://www.themacroscope.org/2.0/), (Imperial College Press, 2015).
 
 ## Workshops & Events
