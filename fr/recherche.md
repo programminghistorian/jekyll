@@ -48,8 +48,8 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 ## Articles et contributions dans les médias
 * 'Championing open access with online digital history journal', _University of Sussex Press Office_, 9 October, 2018, <https://www.sussex.ac.uk/news/people?id=46353/>.
-* Adam Crymble, 'A Decade of Programming Historians', _Network in Canadian History &amp; Environment_, 23 mars 2018 ,<http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/>.
-* Fred Gibbs, "Sustainable Publishing: Reflections of a Former Programming Historian Editor", <em>FredGibbs.net</em>, 2017: <http://fredgibbs.net/posts/reflections-former-PH-editor>.
+* Adam Crymble, 'A Decade of Programming Historians', _Network in Canadian History &amp; Environment_, 23 mars 2018, <http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/>.
+* Fred Gibbs, "Sustainable Publishing: Reflections of a Former Programming Historian Editor", <em>FredGibbs.net</em>, 2017, <http://fredgibbs.net/posts/reflections-former-PH-editor>.
 * Anaclet Pons, "The Programming Historian en español", _Clionauta: Blog de historia_, 14 juin 2017, <http://clionauta.hypotheses.org/16979>.
 * Seth Denbo, “Historian, Program! Self-Help for Digital Neophytes,” _Perspectives on History: The Newsmagazine of the American Historical Association_, mai 2017, <https://www.historians.org/publications-and-directories/perspectives-on-history/may-2017/historian-program-self-help-digital-neophytes>.
 * Víctor Gayol, '*The Programming Historian* en español', *Blog de Humanidades Digitales*, 17 mars 2017, <http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/>.
