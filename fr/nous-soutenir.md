@@ -6,12 +6,12 @@ original: /support-us
 
 # Soutenir le _Programming Historian_
 
-Le Programming Historian est un projet porté par des volontaires. Parce que nous adhérons aux principes de l'open source, notre contenu n'est pas susceptible de disparaître derrière des barrières payantes. Toutefois, pour élargir, améliorer et pérenniser notre travail, le [conseil éditorial du Programming Historian](https://programminghistorian.org/fr/equipe-projet) a commencé, en 2018, de mettre en place des dispositifs lui permettant de bénéficier de soutien et de donations. Ainsi, nous pouvons: 
+Le Programming Historian est un projet porté par des volontaires. Parce que nous adhérons aux principes de l'open source, notre contenu n'est pas susceptible de disparaître derrière des barrières payantes. Toutefois, pour élargir, améliorer et pérenniser notre travail, le [conseil éditorial du Programming Historian](https://programminghistorian.org/fr/equipe-projet) a commencé, en 2018, à mettre en place des dispositifs lui permettant de bénéficier de soutien et de donations. Ainsi, nous pouvons: 
 
 - Assurer la maintenance de notre infrastructure. 
 - Introduire des services professionnels qui améliorent la qualité de nos publications. 
-- Renforcer notre capacité de sensibilisation communautaire et d'internationalisation du projet
-- Garder le Programming Historian à l'abri de changements des conditions d'utilisation des services gratuit dont nous faisons usage. 
+- Renforcer notre capacité de sensibilisation communautaire et d'internationalisation du projet.
+- Garder le Programming Historian à l'abri de changements des conditions d'utilisation des services gratuits dont nous faisons usage. 
 
 ## Nos soutiens
 
@@ -19,15 +19,16 @@ Le projet est reconnaissant pour leur soutien à:
 
 - [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) et [Andrew W. Mellon Foundation](https://mellon.org/) [2018-Present] pour soutenir notre développement web. 
 - Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)) [2011-actuellement] pour nous offrir des services d'hébergement. 
-- [British Academy](https://www.britac.ac.uk/) [2018] pour le financement d'un atelier d'écriture à Bogota en Colombie
+- [British Academy](https://www.britac.ac.uk/) [2018] pour le financement d'un atelier d'écriture à Bogota en Colombie.
 - Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) [2011-2013] pour le soutien de projet émergent et de gestion de projet.
 
 # Donations
 
-Nous espérons avoir mis en place un mécanisme de donations d'ici à mi-2019.
+Nous espérons avoir mis en place un mécanisme de donations d'ici la mi-2019.
 
 # Nous parrainer
-Si vous représentez un organisme ou groupe qui s'intéresse à sponsoriser le Programming Historian, merci de prendre contact avec  [James Baker](https://github.com/drjwbaker) pour en discuter avec lui. Ce type de soutien peut être soit financier soit en nature ou encore les deux à la fois, d'une durée et de valeur négociables. 
+
+Si vous représentez un organisme ou groupe intéressé à sponsoriser le Programming Historian, merci de prendre contact avec  [James Baker](https://github.com/drjwbaker) pour en discuter avec lui. Ce type de soutien peut être soit financier soit en nature ou encore les deux à la fois, d'une durée et de valeur négociables. 
 
 Tout parrainage est soumis à [l'approbation](https://github.com/programminghistorian/jekyll/wiki/Programming-Historian-Governance) du [conseil éditorial] (https://programminghistorian.org/fr/equipe-projet) du Programming Historian. Pour éviter d'éventuels conflits d'intérêts, préserver notre procédure d'évaluation par les pairs et sauvegarder notre intégrité scientifique, le conseil éditorial s'est mis d'accord de **ne pas accepter** les formes de parrainage suivantes: 
  
@@ -36,8 +37,8 @@ Tout parrainage est soumis à [l'approbation](https://github.com/programminghist
 
 # Vous êtes à sec? 
 
-Le Programming Historian est porté par des volontaires. Leur énergie n’étant pas inépuisable, faites-nous donc signe si vous partagez notre intérêt pour enseigner les méthodes numériques, pour élaborer de nouvelles procédures d’évaluation par les pairs, pour assurer la diversité de la communauté des humanités numériques. Si vous ne souhaitez ou n'avez pas la possibilité de faire une donation au Programming Historian, mais vous voulez néanmoins contribuer d'une manière ou d'une autre, merci de consulter notre page "[Contribuer au Programming Historian](https://programminghistorian.org/fr/contribuer)" qui expose toutes les possibilités dans ce sens. 
+Le Programming Historian est porté par des volontaires. Leur énergie n’étant pas inépuisable, faites-nous donc signe si vous partagez notre intérêt pour enseigner les méthodes numériques, pour élaborer de nouvelles procédures d’évaluation par les pairs ou pour assurer la diversité de la communauté des humanités numériques. Si vous ne souhaitez pas ou n'avez pas la possibilité de donner au Programming Historian, mais que vous voulez néanmoins contribuer d'une manière ou d'une autre, merci de consulter notre page "[Contribuer au Programming Historian](https://programminghistorian.org/fr/contribuer)" qui présente toutes les options disponibles. 
 
-## Gestion de donations et de parrainages Management of Donations and Sponsorship
+## Gestion de donations et de parrainages
 
 Les questions liées aux donations et au parrainage sont traitées par [James Baker](https://github.com/drjwbaker) pour le compte du [conseil éditorial du Programming Historian](https://programminghistorian.org/fr/equipe-projet).
