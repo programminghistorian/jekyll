@@ -34,10 +34,10 @@ Tout parrainage est soumis à [l'approbation](https://github.com/programminghist
 - Indications de parrainage dans les titres. Par exemple, "Le Programming Historian en association avec..." ou 'Le Programming Historian soutenu par...". 
 - Parrainage exclusif ou sélectif de tutoriel. C'est-à-dire, poser votre logo sur la page d'un tutoriel seulement ou sur des tutoriels qui portent sur un outil ou des approches spécifiques. 
 
-#Vous êtes à sec? 
+# Vous êtes à sec? 
 
 Le Programming Historian est porté par des volontaires. Leur énergie n’étant pas inépuisable, faites-nous donc signe si vous partagez notre intérêt pour enseigner les méthodes numériques, pour élaborer de nouvelles procédures d’évaluation par les pairs, pour assurer la diversité de la communauté des humanités numériques. Si vous ne souhaitez ou n'avez pas la possibilité de faire une donation au Programming Historian, mais vous voulez néanmoins contribuer d'une manière ou d'une autre, merci de consulter notre page "[Contribuer au Programming Historian](https://programminghistorian.org/fr/contribuer)" qui expose toutes les possibilités dans ce sens. 
 
-##Gestion de donations et de parrainages Management of Donations and Sponsorship
+## Gestion de donations et de parrainages Management of Donations and Sponsorship
 
 Les questions liées aux donations et au parrainage sont traitées par [James Baker](https://github.com/drjwbaker) pour le compte du [conseil éditorial du Programming Historian](https://programminghistorian.org/fr/equipe-projet).
