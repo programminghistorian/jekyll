@@ -60,7 +60,11 @@ We are especially grateful for tips about lessons that seem to be broken. As URL
 
 This project is our attempt to demonstrate what open access academic publishing can and should be. Please help us spreading the message and providing the widest possible access to this resource by asking your librarian to include the project in your library catalogue.
 
-The _Programming Historian_ has a [listing in WorldCat](http://www.worldcat.org/title/programming-historian/oclc/951537099) (with thanks to the [University of Purdue library](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink) and Amanda Visconti) and is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
+The _Programming Historian_ has [listings in WorldCat] [English](http://www.worldcat.org/title/programming-historian/oclc/951537099)  and [Spanish](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results).
+
+With thanks to the [University of Purdue library](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink) and Amanda Visconti, and to the University of Virginia. 
+
+The English edition of the project is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
 
 
 ## Make a suggestion
