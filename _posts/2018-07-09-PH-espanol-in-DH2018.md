@@ -23,7 +23,7 @@ The growth of the *Programming Historian en español*, has also brought about cr
         <img src="/images/dh2018blog/talk-grab.png" alt=""/></a><figcaption>
     Conference attendees enjoyed the talk!</figcaption></figure></p>
 
-We were humbled to discover that the paper was nominated for the [2018 Paul Fortier Prize](http://adho.org/announcements/2018/six-nominees-2018-paul-fortier-prize), given for the best paper by a young scholar/early stage researcher at the conference. Although we did not win, we are proud that the hard work of the editorial team of the *Programming Historian* and its commitment to geographic and linguistic diversity has been recognized by the global digital humanities community.
+We were humbled to discover that the paper was nominated for the 2018 Paul Fortier Prize, given for the best paper by a young scholar/early stage researcher at the conference. Although we did not win, we are proud that the hard work of the editorial team of the *Programming Historian* and its commitment to geographic and linguistic diversity has been recognized by the global digital humanities community.
 
 The conference was also an opportunity for the project team to meet, in many cases for the first time! The *Programming Historian* editors at DH2018 included [Marie Puren](https://github.com/mpuren), a member of our nascent [French language initiative](https://github.com/programminghistorian/jekyll/issues?q=french+label%3Afrench), who along with the rest of the project team distributed 200 [Programming Historian en español stickers](https://github.com/programminghistorian/jekyll/tree/gh-pages/images/logos) to conference delegates.
 
