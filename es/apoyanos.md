@@ -35,8 +35,8 @@ Todo patrocinio está sujeto al acuerdo del [Consejo Editorial](https://programm
 - Lecciones con patrocinio individual o selectivo. Por ejemplo, el emplazamiento del logo del patrocinador en la página de una lección o en las páginas de las lecciones de una única herramiento o conjunto de metodologías. 
 
 ## ¿No tienes dinero?
-*The Programming Historian* funciona con la energía de voluntarios, y estamos interesados en conocer a cualquier persona que comparta nuestros intereses en la enseñanza de métodos digitales, en forjar nuevos procesos de revisión por pares y en contribuir a la diversidad de la comunidad de humanistas digitales. Así que si no quieres o no puedes hacer una donación a *The Programming Historian* pero deseas contribuir de alguna manera, consulta nuestra página [Contribuye a *The Programming Historian*](https://programminghistorian.org/es/contribuciones) donde podrás encontrar otras formas de contribuir con nosotros. 
+*The Programming Historian* funciona con la energía de voluntarios, y estamos interesados en conocer a cualquier persona que comparta nuestros intereses en la enseñanza de métodos digitales, en forjar nuevos procesos de revisión por pares y en contribuir a la diversidad de la comunidad de humanistas digitales. Así que si no quieres o no puedes hacer una donación a *The Programming Historian* pero deseas contribuir de alguna manera, consulta nuestra página [Contribuye a *The Programming Historian*](https://programminghistorian.org/es/contribuciones) donde podrás encontrar otras formas de contribuir. 
 
 ## Administración de donaciones y patrocinios
-[James Baker](https://github.com/drjwbaker) administra las donaciones y los patrocionios en nombre del [Consejo Editorial de *The Programming Historian*](https://programminghistorian.org/es/equipo-de-proyecto). 
+[James Baker](https://github.com/drjwbaker) administra las donaciones y los patrocinios en nombre del [Consejo Editorial de *The Programming Historian*](https://programminghistorian.org/es/equipo-de-proyecto). 
 
