@@ -215,7 +215,7 @@ Una vez el autor y tú como editor estéis satisfechos con el texto, sea una tra
 
 ### 1) Crea una biografía para el autor
 
-En el caso de las lecciones nuevas, si el tutorial ha sido escrito por un autor con el que no hemos trabajado anteriormente, los editores deben añadir información sobre el autor en la página [directorio de autores](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml) del repositorio de *The programming historian*. En el caso de una traducción, debes traducir también la biografa incluyendo la clave `es`. Sigue la sintaxis de los ejemplos ya incluidos:
+Si la lección fue escrita por un autor nuevo, el editor encargado necesitará una biografía nueva para esa persona. Deberás proporcionar la siguiente información:
 
 ```yaml
 - name: Jim Clifford
@@ -251,7 +251,7 @@ title: |
 	[Título de la lección]
 collection: lessons
 layout: lesson
-slug: [e.g. sentiment analysis]
+slug: [e.g. introduccion-al-analisis-de-sentimientos]
 date: [Fecha original, YYYY-MM-DD]
 translation_date: [Fecha de traducción, YYYY-MM-DD]
 authors:
@@ -282,6 +282,7 @@ abstract: "[(ver abajo o traducir el original)]"
 difficulty: 2
 ```
 - **slug** debe contener la ruta a la lección en el sitio público de _Programming Historian_, lo que significa un texto con guiones que sigue a programminghistorian.org/lessons/ (i.e. building-static-sites-with-jekyll-github-pages)
+**date** La fecha de la lección debe ser actualizada a la fecha en la cual la lección se movió al repositorio de Jekyll.
 - **activity** debe usarse una (y solo una) de las siguientes cinco opciones: *acquiring, transforming, analyzing, presenting, sustaining* (adquisición, transformación, análisis, presentación o sostenibilidad). Escoge la que mejor describa lo que te enseña la lección acerca de datos en humanidades (i.e. una lección que muestre la creación de un sitio web con Omeka será sobre presentar (*presenting*) datos a través de una galería en la Web).
 - **topics** puede ser cualquier número de cosas listadas despues de "type:" en /\_data/topics.yml. También te invitamos a crear nuevos tópicos que ayuden a alguien a encontrar la lección. Para hacerlo, además de listar el o los nuevos tópicos en los preliminares de la leción, deberás:
 1. Agregar el tópico a cualquier lección descrita por el nuevo tópico
@@ -313,10 +314,19 @@ Antes de editar la imagen, guarda el archivo original. El nombre del archivo deb
 
 A continuación, crea una copia de la imagen, córtala en un cuadrado sin eliminar detalles relevantes, cambia la dimensión a 200x200 píxeles y convierte la imagen a escala de grises. Puedes hacer cuanto retoques creas necesarios a fin de que se asemeje al resto de imágenes, por ejemplo, modficiar la luz o alterar el contraste. Guarda esta nueva imagen con el *slug* de la lección. Siguiendo con el ejemplo ya dado, la nueva imagen debería llamarse `cleaning-data-with-openrefine.png`.
 
-Sube la imagen original al directorio [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery). Si se trata de una traducción, no hace falta buscar una imagen, pues se reutiliza la contenida en el original.
+Sube la imagen original al directorio [gallery/originals](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/gallery). Deberás darle instrucciones al editor encargado sobre la ubicación de estas imágenes en el repositorio de ph-submissions cuando les entregues las imágenes para publicarlas. Si se trata de una traducción, no hace falta buscar una imagen, pues se reutiliza la contenida en el original.
 
-### 5) Incorpora tu lección en nuestro Twitter bot
+### 5) Informa al jefe de redacción para publicar
+El jefe de redacción publicará la lección moviendo los archivos al sitio web principal y revisando todo. Para facilitar el trabajo de esta persona, publique una lista en el ticket de envío listando todos los archivos que necesitan ser movidos para publicar la lección. Esto normalmente debería incluir:
 
+- El archivo lección.md
+- El directorio de los archivos que lo acompañan (imágenes, datos, etc.)
+- Los iconos de la galería
+- Una biografía si el autor es nuevo
+
+Todos, excepto la biografía, deben ser representados como archivos en algún lugar del repositorio ph-submissions. La biografía se puede colocar directamente en ticket.
+
+### 6) Incorpora tu lección en nuestro Twitter bot
 Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos un Twitter bot para volver a promocionar lecciones pasadas. Para añadir la lección nueva a nuestro *pipeline* deberás añadirla como una fila en esta [hoja de cálculo](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=904817529). Todos los miembros del equipo editorial deben poder hacer cambios; envía un correo electrónico al grupo de google si tienes algún problema. Deberás insertar una nueva fila para tu lección al final de la tabla con los siguientes campos:
 
     message_one (columna A) - un mensaje de twitter para circular al comienzo de la semana.
@@ -324,13 +334,6 @@ Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos 
     link (columna C) - el enlace a la lección.
 
 Deja la columna D en blanco y sin tocar - este campo es utilizado por el Twitter bot para registrar su progreso en la lista. Ten en cuenta además que este paso no reemplaza tu propia promoción de la lección. El bot escoge las lecciones aleatoriamente, una cada la semana, así que pueden pasar meses hasta que tu lección aparezca por este medio.
-
-### 6) Informar al Jefe de redacción
-Al jefe de redacción publicará la lección moviendo los archivos al sitio web principal y comprobando todo. Para facilitar el trabajo de esta persona, publique una lista en el boleto de presentación de todos los archivos que deban moverse para publicar la lección:
-
-- es una lección .md file
-- el directorio de cualquier archivo de acompañamiento (imágenes, datos, etc)
-- los iconos de la galería
 
 ### 7) Da las gracias a todo el mundo y difunde el tutorial
 
@@ -346,7 +349,7 @@ Una vez que se le haya dado la palabra de que al jefe de redacción ha publicado
 
 ## Jefe de redacción - Lista de verificación
 
-### 1) Tener una lectura rápida
+### 1) Haz una lectura rápida
 
 Compruebe la vista previa de la presentación para ver si hay errores obvios como imágenes rotas o formato extraño. Informar al editor de cualquier error, que son responsables de ser arreglados.
 
@@ -356,7 +359,7 @@ El editor de gestión es responsable de mover los archivos al sitio web principa
 
 Sus opciones son:
 
-A) siga nuestras ["Making Technical Contributions" guidelines](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions) que utiliza el sitio web de github GUI.
+A) Siga nuestras ["Making Technical Contributions" guidelines](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions) que utiliza el sitio web de github GUI.
 
 B) La manera más fácil de publicar el texto es utilizar git en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios jekyll y ph-submissions/es (si no es así, nuestra [introducción a GitHub](/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar con Matthew Lincoln (en inglés) para que te ayude, o en español a través de Víctor Gayol.
 
@@ -364,19 +367,30 @@ B) La manera más fácil de publicar el texto es utilizar git en tu terminal de 
 2. Introduce `git pull` para descargar los últimos cambios en tu ordenador (o `sync` si utilizas GitHub Desktop).
 3. Repite los pasos 1 y 2 para el repositorio local de `jekyll` en tu máquina.
 4. Copia el texto, los archivos con datos y las imágenes guardados en `ph-submissions/es` y ponlos en el lugar apropiado del repositorio `jekyll` de tu ordenador. Si utilizas la línea de comandos, introduce `cp`; si, por el contrario, usas GitHub Desktop utiliza la interfaz gráfica de usuario para moverte por los directorios y mover los archivos.
-5. Dese tu repositorio local de `jekyll`, debes introducir `git add` para añadir los nuevos archivos, y a continuación `got commit`y `git push` para actualizar los cambios en el repositorio en línea.
+5. Desde tu repositorio local de `jekyll`, debes introducir `git add` para añadir los nuevos archivos, y a continuación `got commit`y `git push` para actualizar los cambios en el repositorio en línea.
 
 Después de haber movido la lección al repositorio local de `jekyll` tendrás además que guardar la lección que ya enviaste en el repositorio `ph-submissions`.
 
 1. Sitúate en el directorio local de tu repositorio `ph-submissions/es`.
 2. Añade una nueva línea en el encabezado YAML de la lección ya publicada: `original: "LESSON-SLUG"`
-3. Copia la lección ya publicada de `lessons/` a `lessons/published/`.
-4. Copia el folder de imágenes que contiene las imágenes de la lección ya publicada de `images/` a `images/published/`.
-5. Utiliza `git add`, `git commit`, y `git push` para finalizar todos los cambios.
+3. Mueva la lección publicada de `lessons/` a `lessons/published/`.
+4. Mueve el directorio de imágenes que contiene las imágenes de la lección ya publicada de `images/` a `images/published/`.
+5. Utiliza `git add`, `git commit`, y `git push` para finalizar todos los cambios (o sigue las instrucciones "Making technical contributions": https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions).
 
-### 3) Confirma que todos los enlaces y encabezados YAML funcionen correctamente
+### 3) Añade la biografía del autor a ph_authors.yml
+Si la lección ha sido escrita por un nuevo autor, el jefe de redacción debe añadir información sobre el autor al directorio [autores](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml) del sitio. Sigue la sintaxis de los ejemplos ya incluidos, utilizando la biografía que el editor le proporcionó:
 
-Una vez que envíes tus cambios a la rama `gh-pages` del repositorio de [programminghistorian][ph_repo], el sitio será comprobado automáticamente por [Travis CI] ([Continuous Integration]).
+```yaml
+- name: Jim Clifford
+  team: false
+  bio:
+   es: |
+       Jim Clifford es profesor ayudante en el Departamento de Historia de la Universidad de Saskatchewan.
+```
+
+### 4) Confirma que todos los enlaces y encabezados YAML funcionen correctamente
+Una vez que envíes tus cambios a la rama `gh-pages` del repositorio de [Programminghistorian][ph_repo], el sitio será comprobado automáticamente por [Travis CI] ([Continuous Integration]).
+
 Este proceso comprueba tres cosas: primero, que todo el código de YAML y markdown sea compilable; segundo, que todos los hipervínculos del sitio apunten a páginas válidas y en funcionamiento; por último, que todos los hipervínculos internos a otras páginas de _The Programming Historian en español_ son relativos y empiezan con una barra lateral `/` en lugar de `https://programminghistorian.org/es`.
 
 [ph_repo]: https://github.com/programminghistorian/jekyll
@@ -386,6 +400,7 @@ Este proceso comprueba tres cosas: primero, que todo el código de YAML y markdo
 [Continuous Integration]: https://www.thoughtworks.com/continuous-integration
 
 Ejecutamos estas compilaciones principalmente para comprobar que las URL que _alguna vez_ funcionaron _siguen_ funcionando, ya que muchas veces las páginas web externas se mueven a nuevas direcciones o ya no están en línea.
+
 También son una excelente manera de detectar errores tipográficos pequeños que pueden haber pasado por alto autores, editores y revisores.
 El estado de estas pruebas (a menudo llamado "Estado de compilación" (_"Build Status"_) en Travis CI y en GitHub) se puede ver navegando a la página del repositorio [php_repo- sitory] [ph_repo] y haciendo clic en "Commits" en la parte superior izquierda del menú de código.
 
@@ -403,14 +418,14 @@ En caso de error, debes consultar la bitácora de compilación (*Build logs*) pa
 ![Travis details location](/images/editor-guidelines/commit_list_screen.png)
 2. Esto te llevará a la página de la bitácora de compilación en Travis CI. Las bitácoras de compilación contienen generalmente cientos de líneas, pero la información sobre el error que estamos buscando estará al final. Haz clic en el pequeño círculo gris de la parte superior derecha para desplazarte hacia abajo.
 ![The top of the Travis CI build screen](/images/editor-guidelines/travis_top_screen.png)
-3. Verás dos tipos de errores: primero, si la página carece de un campo YAML (i.e. si la lección no tiene el campo `editors`) el error estará marcado en rojo. Los errores en los vínculos externos también se enlistan en rojo, agrupados por la página en la que aparecen. Si algún vínculo en tu nueva lección causa error, regresa y confirma que no hay errores de escritura. Si los hay, haz las correcciones necesarias, envía las modificaciones al repositorio y espera a que Travis CI corra las pruebas de nuevo.
+3. Verás dos tipos de errores: primero, si la página carece de un campo YAML (por ejemplo, si la lección no tiene el campo `editors`) el error estará marcado en rojo. Los errores en los vínculos externos también se enlistan en rojo, agrupados por la página en la que aparecen. Si algún vínculo en tu nueva lección causa error, regresa y confirma que no hay errores de escritura. Si los hay, haz las correcciones necesarias, envía las modificaciones al repositorio y espera a que Travis CI corra las pruebas de nuevo.
 ![Locating error details in Travis CI build results](/images/editor-guidelines/travis_bottom_screen.png)
 
-- Hay ocasiones en las que Travis CI considera que un vínculo contiene un error, pero éste funciona correctamente cuando accedes a él con tu navegador de Internet. Si esto ocurre, por favor, [abre un nuevo ticket] para que un miembro del equipo técnico pueda revisar el problema y encontrar una solución.
-- Como parte de su operación normal, ocasionalmente Travis CI regresa y revisa viejos vínculos por todo el sitio, incluyendo lecciones publicadas hace tiempo. De tal manera, mientras revisas tu trabajo podrías encontrar un error causado por otra página, no por tu lección. Si sabes la manera de arreglar inmediatamente el error, por favor hazlo, y espera a que el compilador vuelva a correr. Si no tienes tiempo para darle seguimiento, solamente asegúrate que no existen errores de vículos relacionados a tu lección y [abre un nuevo ticket] para que alguien del equipo técnico pueda revisar el problema.
+- Hay ocasiones en las que Travis CI considera que un vínculo contiene un error, pero éste funciona correctamente cuando accedes a él con tu navegador de internet. Si esto ocurre, por favor, [abre un nuevo tícket] para que un miembro del equipo técnico pueda revisar el problema y encontrar una solución.
+- Como parte de su operación normal, ocasionalmente Travis CI regresa y revisa viejos vínculos por todo el sitio, incluyendo lecciones publicadas hace tiempo. De tal manera, mientras revisas tu trabajo podrías encontrar un error causado por otra página, no por tu lección. Si sabes la manera de arreglar inmediatamente el error, por favor hazlo, y espera a que el compilador vuelva a correr. Si no tienes tiempo para darle seguimiento, solamente asegúrate de que no existen errores de vínculos relacionados a tu lección y [abre un nuevo tícket] para que alguien del equipo técnico pueda revisar el problema.
 
 [abre un nuevo ticket]: https://github.com/programminghistorian/jekyll/issues/new
 
-### 4) Informe al editor
+### 5) Informa al editor
 
-Una vez que la lección haya sido publicada, informe al editor.
+Una vez que la lección haya sido publicada, informe al editor y asegúrate de que hayan añadido la lección al twitter bot.

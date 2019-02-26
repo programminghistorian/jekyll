@@ -197,7 +197,7 @@ Once you and the author are happy with a tutorial, the next step is to begin the
 
 ### 1) Create an Author Bio
 
-If the lesson has been written by a new author, editors should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Follow the syntax for the examples already included there:
+If the lesson has been written by a new author, the managing editor will need to add a new bio for that person. You will need to provide the managing editor with a version of the following information:
 
 ```yaml
 - name: Jim Clifford
@@ -224,7 +224,7 @@ The following code should be added into the text of the lesson, usually before t
 title: ["YOUR TITLE HERE"]
 collection: lessons
 layout: lesson
-slug: [e.g. sentiment analysis]
+slug: [e.g. introduction-to-sentiment-analysis]
 date: [YYYY-MM-DD]
 translation_date: [YYYY-MM-DD (translations only)]
 authors:
@@ -259,6 +259,8 @@ difficulty: 2
 2. Add the new topic(s) to /\_data/topics.yml following the format of the other topics there (note that topics can't have spaces—use hyphens if needed).
 3. Edit /js/lessonfilter.js so the filter button to filter the lesson page to that topic works. Search the file for the ten-line chunk of code beginning with `$('#filter-api')`, copy and paste that chunk of code, and replace the *two* appearances of "api" with your new topic.
 - **abstract** is a 1-3 sentence description of what you'll learn in the lesson. Try to avoid technical vocabulary when possible, as these summaries can help scholars without technical knowledge to try out something new.
+- **slug** should have the path to the lesson on the public PH site, which means the hyphenated text following programminghistorian.org/lessons/ (e.g. building-static-sites-with-jekyll-github-pages)"
+- **date** The date of the lesson should be updated to the date that the submission was moved to the main Jekyll repository.
 
 ### 4) Find an Image to represent the lesson
 
@@ -277,9 +279,20 @@ Save the original image. The filename should be the same as the corresponding le
 
 Then, create a new copy of the image. Crop it to a square without removing any important features. Change the dimensions to 200x200 pixels. Convert the image to grayscale. Perform any adjustments necessary to make it conform to the other lesson images, such as lightening or darkening it, or altering the contrast. Save this new image as the lesson’s URL slug; again, **the file format must be png**. In our previous example, the filename would be `cleaning-data-with-openrefine.png`.
 
-Upload the original image to the [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals) folder, and upload the edited image to the [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery) folder.
+Upload the original image to the [gallery/originals](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/gallery/originals) folder, and upload the edited image to the [gallery](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/gallery) folder. You will need to direct the managing editor to the locations of these images on the ph_submissions repo when you hand the files off to them for publishing.
 
-### 5) Incorporate your lesson into our Twitter bot
+### 5) Inform the Managing Editor to Publish
+
+The Managing Editor will publish the lesson by moving the files to the main website and check everything over. To make this person's job easier, post a list in the submission ticket of all files that need to be moved to publish the lesson. This should normally include:
+
+- The lesson .md file
+- The directory for any accompanying files (images, data, etc)
+- The gallery icons
+- A bio if the author is new
+
+All except the bio should be represented as files somewhere in the ph_submissions repo. The bio can be placed in the ticket directly.
+
+### 6) Incorporate your lesson into our Twitter bot
 In addition to the Twitter promotion outlined below, we also make use of a Twitter bot to regularly re-advertise older lessons. In order to add the new lesson to our pipeline, you need to add it as a row in [this spreadsheet](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Everyone on the editorial team should have the ability to make changes; email the google group if you have trouble. You will need to add a new row for your lesson to the end of the table with the following fields:
 
 * message_one (column A) - a twitter message to play early in the week.
@@ -287,14 +300,6 @@ In addition to the Twitter promotion outlined below, we also make use of a Twitt
 * link (column C) - the link to the lesson.
 
 Leave column D blank and untouched - this field is used by the Twitter bot to log its progress through the list. Also note that this step should not replace your own promotion of the lesson. The bot goes through the lessons at random, one a week, so it could be months until your lesson comes up through this means.
-
-### 6) Inform the Managing Editor to Publish
-
-The Managing Editor will publish the lesson by moving the files to the main website and check everything over. To make this person's job easier, post a list in the submission ticket of all files that need to be moved to publish the lesson. This should normally include:
-
-- The lesson .md file
-- The directory for any accompanying files (images, data, etc)
-- The gallery icons
 
 ### 7) Thank Everyone and Encourage Promotion
 Once you have been given word that the Managing Editor has successfully published the lesson, close the submission ticket, linking to the published lesson. It's important to send an email or message to everyone involved thanking them for their efforts. In particular, thank the author for contributing and encourage them to think of us again in future. It's also worth giving the author some ideas on promoting their lesson. The most-used lessons always have authors' energies behind them. For example authors should be encouraged to:
@@ -335,11 +340,24 @@ After the lesson has been moved to the `jekyll` repository, you'll also need to 
 
 1. Go to the directory for your local `ph-submissions` repository.
 2. Add a new line to the YAML header of the now published lesson: `redirect_from: "/lessons/LESSON-SLUG"`
-3. Copy the now published lesson from `lessons/` into `lessons/published/`.
-4. Copy the image folder containing the images for the now published lesson from `images/` to `images/published/`.
+3. Move the now published lesson from `lessons/` into `lessons/published/`.
+4. Move the image folder containing the images for the now published lesson from `images/` to `images/published/`.
 5. Use `git add`, `git commit`, and `git push` to finalize all the changes (or follow the Making Technical Contributions instructions: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions)
 
-## 3) Confirm all links and YAML headers are functioning correctly
+## 3) Add the author bio to ph_authors.yml
+
+If the lesson has been written by a new author, the managing editor should add information about the author to the site's [authors directory](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Follow the syntax for the examples already included there, using the bio that the editor provided you:
+
+```yaml
+- name: Jim Clifford
+  team: false
+  bio:
+      en: |
+          Jim Clifford is an assistant professor in the Department of History
+          at the University of Saskatchewan.
+```
+
+## 4) Confirm all links and YAML headers are functioning correctly
 
 Once you push your changes on to the `gh-pages` branch of the [programminghistorian][ph_repo] repository, the site will be automatically tested by [Travis CI] ([Continuous Integration]).
 This test process checks three things: first, that all YAML and markdown code is parseable; second, that all the hyperlinks on the site point to valid, operational pages; and third, that internal links to pages on the _Programming Historian_ are all relative links that start with `/` rather than `https://programminghistorian.org/`
@@ -376,6 +394,6 @@ If your build has errored, you will need to consult the build logs to see what i
 
 [create a new issue]: https://github.com/programminghistorian/jekyll/issues/new
 
-## 4) Inform the Editor
+## 5) Inform the Editor
 
-Once the lesson has been published, inform the editor.
+Once the lesson has been published, inform the editor and ensure they have added the lesson to the twitter bot pipeline.

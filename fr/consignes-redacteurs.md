@@ -4,24 +4,24 @@ layout: blank
 original: editor-guidelines
 ---
 
-# Consignes aux rédacteurs et les rédactrices
+# Consignes aux rédacteurs et aux rédactrices
 
 Cette page fournit des instructions détaillées aux rédacteurs et rédactrices qui apportent leur concours lors de l'évaluation par les pairs dans le cadre du *Programming Historian en français*.
 
-## Le rôle du rédacteur / de la rédactrice
-Nous vous remercions d'assurer le travail éditorial pour une leçon du *Programming Historian en français*, nous vous savons gré pour vos efforts. Ce guide a comme objectif de garantir la cohérence et la qualité de la collaboration entre auteur(e)s, rédacteurs/rédactrices et évaluateurs/évaluatrices avec le *Programming Historian en français*. Pour toute question qui porte sur les consignes, merci de contacter par courriel un(e) de nos rédacteur(trice)s ou de poser une question sur notre espace dédié sur [Github](https://github.com/programminghistorian/jekyll/issues). Merci de le faire aussi si vous jugez que ces consignes doivent être améliorées ou mis à jour.
+## Le rôle du rédacteur et de la rédactrice
+Nous vous remercions d'assurer le travail éditorial pour une leçon du *Programming Historian en français*, nous vous savons gré pour vos efforts. Ce guide a comme objectif de garantir la cohérence et la qualité de la collaboration entre auteur(e)s, rédacteurs/rédactrices et évaluateurs/évaluatrices avec le *Programming Historian en français*. Pour toute question qui porte sur les consignes, merci de contacter par courriel un des membres du conseil éditorial ou de poser une question sur notre espace dédié sur [Github](https://github.com/programminghistorian/jekyll/issues). Merci de le faire aussi si vous jugez que ces consignes doivent être améliorées ou mis à jour.
 
 {% include toc.html %}
 
 Qu'il s'agisse du suivi éditorial d'une leçon originale ou d'une traduction, notre rôle n'est pas celui d'un gardien, comme dans les revues traditionnelles, mais d'apporter notre concours lors du processus d'écriture, de traduction, d'évaluation et de publication. Merci donc de prendre connaissance de nos [consignes de rédaction et de traduction](/fr/consignes-auteurs). Nous encourageons toujours les personnes susceptibles de rédiger une leçon de soumettre un plan détaillé de leurs idées avant d'entamer l'écriture. Si néanmoins un texte ne convient pas au *Programming Historian en français*, il nous incombe de le dire avant que l'auteur(e) ne s'avance trop dans la rédaction d'un tutoriel. Ainsi, nous espérons que cela évite à toutes et à tous de perdre du temps et de l'énergie. Une fois les discussions avec un(e) auteur(e) entamées et son idée encouragée, nous fournissons par la suite un soutien constant jusqu'à la publication de la leçon.
 
 ### Un espace d'échange sûr
-Le *Programming Historian en français* s'engage à fournir un espace sûr pour l'échange d'idées où personne n'aura peur de se faire harceler ou attaquer. Le rédacteur ou la rédactrice a un rôle fondamental pour le maintien de telles conditions car une de vos missions est de constamment renforcer notre politique contre le harcèlement. Si vous avez besoin d'aide, merci de vous adresser au reste du comité éditorial ou à notre médiatrice Amanda VIsconti. Vous pouvez vous renseigner davantage sur notre [engagement pour des espaces d'échange sûrs](/posts/PH-commitment-to-diversity) sur le blog du projet.
+Le *Programming Historian en français* s'engage à fournir un espace sûr pour l'échange d'idées où personne n'aura peur de se faire harceler ou attaquer. Le rédacteur ou la rédactrice a un rôle fondamental pour le maintien de telles conditions car une de vos missions est de constamment renforcer notre politique contre le harcèlement. Si vous avez besoin d'aide, merci de vous adresser au reste du comité éditorial ou à notre médiatrice Amanda Visconti. Vous pouvez vous renseigner davantage sur notre [engagement pour des espaces d'échange sûrs](/posts/PH-commitment-to-diversity) sur le blog du projet.
 
 ### Politique contre le harcèlement
 Vous trouverez ci-dessous les principes du *Programming Historian en français* qui doivent inspirer les échanges entre évaluateurs et évaluatrices, auteur(e)s, rédacteurs et rédactrices, ainsi que toute personne contribuant à nos forums publics.
 
-Le *Programming Historian en français* tient à garantir un environnement académique ouvert à la communauté, qui offre la pleine liberté d'explorer minutieusement des idées, poser des questions, faire des suggestions ou demander des clarifications. Il fournit aussi un espace libre de toute discrimination envers les personnes contribuant au projet indépendamment du genre, de l'orientation sexuelle, des situations d'handicap, de l'apparence physique, de la masse corporelle, de l'origine, de l'âge, de la religion ou de l'expérience technique. Nous ne tolérons aucune forme d'harcélement ou d'attaque personnelle contre les membres de la communauté. Les personnes qui violent ces règles sont susceptibles d'être expulsées de la communauté à la discrétion du conseil éditorial. Toute personne en mesure de témoigner de tels comportements ou qui en est la victime peut contacter notre dispositif de médiation (Amanda Visconti - http://programminghistorian.org/fr/equipe-projet). Merci de nous aider à créer un espace d'échange et de discussion sûr.
+Le *Programming Historian en français* tient à garantir un environnement académique ouvert à la communauté, qui offre la pleine liberté d'explorer minutieusement des idées, poser des questions, faire des suggestions ou demander des clarifications. Il fournit aussi un espace libre de toute discrimination envers les personnes contribuant au projet, indépendamment du genre, de l'orientation sexuelle, des situations d'handicap, de l'apparence physique, de la masse corporelle, de l'origine, de l'âge, de la religion ou de l'expérience technique. Nous ne tolérons aucune forme d'harcélement ou d'attaque personnelle contre les membres de la communauté. Les personnes qui violent ces règles sont susceptibles d'être expulsées de la communauté à la discrétion du conseil éditorial. Toute personne en mesure de témoigner de tels comportements ou qui en est la victime peut contacter notre dispositif de médiation (Amanda Visconti - http://programminghistorian.org/fr/equipe-projet). Merci de nous aider à créer un espace d'échange et de discussion sûr.
 
 ### Suivi des leçons proposées
 Lorsqu'une proposition de leçon reçoit le feu vert par l'équipe éditoriale, un rédacteur ou une rédactrice lui est assigné(e) pour mener un travail en commun avec l'auteur(e) dans le but de définir des objectifs clairs pour la leçon et de fixer un délai de publication. Habituellement, nous recommandons de respecter un délai de 90 jours à partir du moment où les discussions sont entamées, mais ce délai peut être réajusté si nécessaire.
@@ -187,25 +187,7 @@ Si un tutoriel contient une vidéo, celle-ci doit être hébergée sur notre cha
 
 Lorsque vous et l'auteur(e) trouvez le tutoriel satisfaisant, l'étape suivante est de transférer la leçon depuis le site des soumissions à notre dépôt principal qui héberge le site web live.
 
-### 1) Transférer les fichiers
-
-La manière la plus simple pour publier la leçon est d'utiliser `git` depuis la ligne de commande. Les instructions suivantes supposent que vous avez déjà cloné les dépôts `jekyll` and `ph-submissions` en local sur votre machine. Notre [leçon sur l'utilisation de l'application GitHub Desktop](/lessons/getting-started-with-github-desktop) peut vous être utile, si cela est tout nouveau pour vous. Si vous n'êtes pas confiant(e) sur comment procéder ou si vous avez des questions, merci de contacter Matthew Lincoln pour obtenir de l'aide.
-
-1. Aller au répertoire de votre dépôt local `ph-submissions`.
-2. Faire `git pull` pour obtenir le transfert de toutes les modifications récentes sur votre machine (ou faire `sync` si vous utilisez GitHub Desktop).
-3. Répéter les étapes 1 et 2 pour le dépôt `jekyll` sur votre machine.
-4. Copier les fichiers des leçons et ceux des images et ressources associées depuis le dépôt `ph-submissions` de votre machine aux endroits appropriés dans le répertoire de `jekyll`, toujours sur votre machine (il est possible d'utiliser la commande `cp` depuis la ligne de commande Unix ou naviguer dans l'arborescence de fichiers de votre interface graphique si vous utilisez GitHub Desktop).
-5. Depuis le répertoire `jekyll` qui se trouve en local sur votre machine, exécuter `git add` pour les nouveaux fichiers puis `git commit` et `git push` pour soumettre et envoyer les modifications.
-
-Après le transfert de la leçon dans le répertoire `jekyll`, il faudra aussi archiver la version soumise au dépôt `ph-submissions`.
-
-1. Aller au répertoire `ph-submissions` de votre dépôt local.
-2. Ajouter une nouvelle ligne à l'en-tête YAML de la leçon qui est désormais publiée: `redirect_from: "/lessons/SLUG-DE-LA-LEÇON"`
-3. Copier la leçon publiée depuis `lessons/` vers `lessons/published/`.
-4. Copier le dossier qui contient les images de la leçon publiée depuis `images/` vers `images/published/`.
-5. Exécuter les commandes `git add`, `git commit` et `git push` pour finaliser toutes les modifications.
-
-### 2) Créer une biographie d'auteur(e)
+### 1) Créer une biographie d'auteur(e)
 
 Si l'auteur(e) de la leçon apparaît pour la première fois, il appartient au rédacteur ou à la rédactrice d'ajouter les informations concernant la personne dans le [répertoire des auteur(e)s](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml) du site. Merci de respecter la syntaxe des exemples qui se trouvent dans le fichier:
 
@@ -213,14 +195,13 @@ Si l'auteur(e) de la leçon apparaît pour la première fois, il appartient au r
 - name: Jim Clifford
   team: false
   bio:
-      en: |
-          Jim Clifford is an assistant professor in the Department of History
-          at the University of Saskatchewan.
+      fr: |
+          Jim Clifford est professeur adjoint au Département d'histoire de l'Université de la Saskatchewan.
 ```
 
 **L'espace blanc est important**, merci donc de faire attention à ce que l'indentation suive le reste des exemples.
 
-### 3) Ajouter une table de matières à la leçon
+### 2) Ajouter une table de matières à la leçon
 
 Le code suivant doit être ajouté au texte de la leçon, habituellement avant le premier sous-titre:
 
@@ -228,65 +209,52 @@ Le code suivant doit être ajouté au texte de la leçon, habituellement avant l
 {% raw %}{% include toc.html %}{% endraw %}
 ```
 
-### 4) Ajouter les évaluateurs/évaluatrices et rédacteurs/rédactrices dans le fichier YAML
+### 3) Ajouter les métadonnées en YAML dans le fichier de la leçon
 
-Il est important de reconnaître le travail accompli par les personnes qui assurent l'évaluation par les pairs et le suivi éditorial des leçons. Merci d'ajouter les noms des évaluateurs/évaluatrices, ainsi que de toute personne ayant contribué à l'évaluation ouverte, dans le fichier YAML qui correspond au haut de la page du tutoriel. Par ailleurs, merci de créer un champ `editors` pour insérer votre nom et celui d'autres membres de l'équipe de la rédaction qui a eu un rôle actif dans la publication de la pièce. Des instructions pour le formatage des fichiers YAML sont disponibles dans les [consignes aux auteur(e)s](/author-guidelines).
+```
+title: ["VOTRE TITRE"]
+collection: lecons
+layout: lesson
+slug: [par ex. introduction-analyse-des-sentiments]
+date: [AAAA-MM-JJ]
+translation_date: [AAAA-MM-JJ (champ spécifique aux traductions)]
+authors:
+- [PRÉNOM NOM 1]
+- [PRÉNOM NOM 2, etc]
+reviewers:
+- [PRÉNOM NOM 1]
+- [PRÉNOM NOM 2, etc]
+editors:
+- [PRÉNOM NOM]
+translator:
+- [PRÉNOM NOM (champ spécifique aux traductions)]
+translation-editor:
+- [PRÉNOM NOM (champ spécifique aux traductions)]
+translation-reviewer:
+- [PRÉNOM NOM (champ spécifique aux traductions)]
+original: [slug to original published lesson (champ spécifique aux traductions)]
+review-ticket: [e.g. https://github.com/programminghistorian/ph-submissions/issues/108]
+difficulty: [voir ci-dessous]
+activity: [UNIQUEMENT UN PARMI: acquiring, transforming, analyzing, presenting, sustaining]
+topics: [voir ci-dessous]
+abstract: [voir ci-dessous]
 
-### 5) Insérer un indice de difficulté dans le fichier YAML
-
-Pour aider les lecteurs et les lectrices repérer les leçons qui conviennent mieux à leur niveau de besoins et de compétences, le fichier YAML du tutoriel contient une information de type "Recommandé aux utilisateurs de niveau __ ". Il existe à l'heure actuelle trois niveaux définis qui sont codés comme suit: 1 (débutant), 2 (intermédiaire), 3 (avancé). Pour insérer cette information dans le fichier YAML, merci d'ajouter:
-
-```yaml
-difficulty: 1
 ```
 
-### 6) Ajouter le ticket d'évaluation dans le fichier YAML
+- **difficulty** Pour aider les lecteurs et les lectrices repérer les leçons qui conviennent mieux à leur niveau de besoins et de compétences, le fichier YAML du tutoriel contient une information de type "Recommandé aux utilisateurs de niveau __ ". Il existe à l'heure actuelle trois niveaux définis qui sont codés comme suit: 1 (débutant), 2 (intermédiaire), 3 (avancé). Pour insérer cette information dans le fichier YAML, merci d'ajouter:
 
-Pour assurer la pleine transparence autour de la procédure de l'évaluation, merci de créer un champ `review-ticket` dans le fichier YAML pour fournir l'URL qui correspond au ticket d'évaluation qui se trouve sur le dépôt des soumissions ph-submissions. En insérant cette information, un lien sera créé pour pointer vers le ticket d'évaluation depuis la leçon.
-
-### 7) Mettre à jour le champ de date dans le fichier YAML
-
-Mettez à jour la date dans le fichier YAML pour indiquer quand la leçon a été transférée dans le dépôt de jekyll et intégrée au site web principal.
-
-### 8) Autres touches finales pour le fichier YAML
-
-Selon l'exemple ci-dessous, merci de vous assurer que tous les champs de l'en-tête du fichier de la leçon sont correctement remplis. Le plus souvent, les champs à être complétés ou modifiés à ce stade sont les suivants:
-- **collection** doit simplement contenir "collection: lessons"
-- **layout** doit simplement contenir "layout: lesson"
-- **slug** doit reproduire le chemin vers la leçon tel qu'il s'affiche sur le site web public du PH, à savoir le texte avec traits d'union qui suit l'adresse programminghistorian.org/lessons/ (par exemple, building-static-sites-with-jekyll-github-pages)
-- **activity** doit utiliser une seule et unique option parmi les cinq suivantes: *acquiring, transforming, analyzing, presenting, sustaining*. Merci de sélectionner celle qui décrit mieux ce que la leçon apprend à faire avec les données des sciences humaines et sociales (par exemple, une leçon sur comment créer un site web avec Omeka mobiliserait la catégorie *presenting* car il s'agit de présenter ses données en les exposant sur une galerie web).
+```yaml
+difficulty: 2
+```
 - **topics** peut correspondre à tout ce qui est listé sous "type:" dans le fichier /\_data/topics.yml. Nous vous invitons aussi à créer de nouveaux sujets qui peuvent faciliter la découverte des leçons. Pour ce faire, en plus de noter le(s) sujet(s) dans l'en-tête de la leçon, il faudrait encore:
 1. Indexer aussi, en utilisant le nouveau sujet, toutes les anciennes leçons que celui-ci sert à décrire également.
 2. Ajouter le nouveau sujet - ou plus le cas échéant - dans le fichier /\_data/topics.yml en respectant le format suivi pour les autres sujets (merci de noter que les espaces blancs ne sont pas permis-utiliser des traits d'union si nécessaire).
 3. Modifier le fichier /js/lessonfilter.js pour que le classement de la page de la leçon par sujet puisse prendre effet. Rechercher dans le fichier la partie du code à dix lignes qui commence par "$('#filter-api')", remplacer les *deux* occurrences de "api" avec votre nouveau sujet.
 - **abstract** est une description de deux à trois phrases sur l'apport de la leçon. Merci d'éviter autant que possible les termes techniques car ces résumés s'adressent aux universitaires qui n'ont pas de connaissances techniques et il s'agit précisément de les convaincre de tester de nouvelles méthodes.
+- **slug** doit reproduire le chemin vers la leçon tel qu'il s'affiche sur le site web public du PH, à savoir le texte avec traits d'union qui suit l'adresse programminghistorian.org/lessons/ (par exemple, building-static-sites-with-jekyll-github-pages)
+-**date** Mettez à jour la date dans le fichier YAML pour indiquer quand la leçon a été transférée dans le dépôt de jekyll et intégrée au site web principal.
 
-Voici ci-dessous un en-tête achevé qui peut servir d'exemple:
-
-    ---
-    title: "Getting Started with Topic Modeling and MALLET"
-    collection: lessons
-    layout: lesson
-    slug: topic-modeling-and-mallet
-    date: 2012-09-02
-    authors:
-    - Shawn Graham
-    - Scott Weingart
-    - Ian Milligan
-    reviewers:
-    - John Fink
-    - Alan MacEachern
-    - Adam Crymble
-    editors:
-    - Adam Crymble
-    review-ticket: https://github.com/programminghistorian/ph-submissions/issues/14
-    difficulty: 2
-    activity: analyzing
-    topics: [distant-reading]
-    abstract: "In this lesson you will first learn what topic modeling is and why you might want to employ it in your research. You will then learn how to install and work with the MALLET natural language processing toolkit to do so."
-    ---
-
-### 9) Trouver une image pour représenter une leçon
+### 4) Trouver une image pour représenter une leçon
 Pour illustrer nos leçons, nous utilisons des images anciennes qui nous semblent représentatives du contenu des tutoriels. L'ensemble de ces images se trouve dans le répertoire des leçons. Ces images sont choisies par les rédacteurs et les rédactrices.
 
 Ci-dessous quelques sites pour chercher des images:
@@ -304,7 +272,18 @@ Il faut ensuite créer une nouvelle copie de l'image. Découpez-la en carré en 
 
 Le fichier de l'image originale doit être téléchargé dans le répertoire [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals), celui de l'image modifiée dans le répertoire [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery).
 
-### 10) Intégrer votre leçon dans notre bot Twitter
+### 5) Prévenir le rédacteur en chef pour publier
+
+Le rédacteur ou la rédactrice en chef est en charge de la publication de la leçon en déposant les fichiers sur le site web principal et en faisant les vérifications finales. Pour lui faciliter la tâche, merci de publier une liste dans le ticket de la soumission de tous les fichiers à transférer d'un dépôt à l'autre. Habituellement il s'agit: 
+
+- du fichier .md de la leçon;
+- du répertoire de fichiers supplémentaires le cas échéant (images, données etc)
+- Les icônes de gallerie
+- Une bio d'auteur(e) si la personne apparaît pour la première fois
+
+Mise à part la bio, le reste des éléments devrait exister sous forme de fichiers dans le dépôt ph_submissions. La bio peut être inserée directement dans le ticket.
+
+### 6) Intégrer votre leçon dans notre bot Twitter
 La campagne de promotion sur Twitter, dont les étapes sont décrites ci-dessous, utilise aussi un bot pour faire une communication régulière sur les leçons plus anciennes. Pour y ajouter une nouvelle, vous remplissez une ligne dans [ce fichier](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Normalement, tous les membres de l'équipe éditoriale doivent pouvoir modifier le tableur. En cas de problème, merci de faire un courriel au groupe Google. Il vous faut ajouter une nouvelle ligne pour votre leçon ) la fin du fichier avec les champs suivants:
 
 * message_one (column A) - un message pour twitter qui est publié au début de la semaine.
@@ -313,10 +292,54 @@ La campagne de promotion sur Twitter, dont les étapes sont décrites ci-dessous
 
 Laissez la colonne D vide sans intervenir - ce champ est utilisé par le bot pour enregistrer son progrès à travers la liste. Par ailleurs, cette étape ne remplace pas votre propre promotion de la leçon. Le bot relève les leçons de manière aléatoire une fois par semaine, ce qui signifie que votre leçon pour mettre plusieurs mois avant d'avoir son tweet.
 
-### 11) Vérifier les liens et les en-tête en YAML
+### 7) Remerciements et promotion de la communication
+Il est important d'envoyer un message à toutes les personnes impliquées pour les remercier de leur contribution. En particulier, il faut remercier l'auteur(e) et lui proposer des pistes pour faire la communication autour du cours. Les leçons les plus populaires bénéficient en règle générale de l'énergie investie par leurs auteur(e)s. À titre d'exemple, il est possible d'inviter les auteur(e)s à:
+
+- Tweeter au moins trois fois sur la leçon (en fournissant le lien)
+- Retweeter nos tweets autour de leur leçon (seulement "liker" un tweet n'aide pas à disséminer le message)
+- Faire la promotion de leur leçon dans le cadre de présentations ou de publications de leur recherche
+- Pointer vers la ressource à partir d'un blog quand le cadre s'y prête
+- Ajouter la leçon aux listes de ressources des dépôts appropriés (par exemple, Wikipédia, pages de groupes etc)
+
+Les leçons sont le fruit d'un investissement considérable, faisons donc de notre mieux pour que les gens puissent les découvrir!
+
+# Liste de vérification du rédacteur ou de la rédactrice en chef
+
+Le rédacteur ou la rédactrice en chef a la responsabilité de déposer les fichiers sur le site web principal via un "pull request". Cela lui permet aussi de prendre connaissance de la nouvelle leçon et de vérifier rapidement que tout se présente bien. 
+
+## 1) Parcourir l'aperçu de la soumission
+
+Vérifier l'aperçu de la soumission pour repérer des erreurs manifestes, comme des problèmes d'affichage des images ou de formattage. Prévenez-en, le cas échéant, le rédacteur ou la rédactrice en charge de la leçon pour les corriger.
+
+## 2) Transférer les fichiers
+
+Le rédacteur ou la rédactrice aurait dû vous laisser une liste claire, dans le ticket de la soumission, avec les fichiers à être publiés. Si ce n'est pas le cas, demandez que cela s'arrange avant d'aller plus loin.  The editor should have left you a clear list of files that need to be published on the submission ticket. If they have not done so, ask them to fix it before proceeding.
+
+Il existe différentes manières de faire un "pull request" pour publier les fichiers:
+
+* A) Suivre nos [consignes pour faire des contributions techniques](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions) via l'interface GUI de Github.
+
+* B) Utiliser `git` depuis la ligne de commande. Les instructions suivantes supposent que vous avez déjà cloné les dépôts `jekyll` and `ph-submissions` en local sur votre machine. Notre [leçon sur l'utilisation de l'application GitHub Desktop](/lessons/getting-started-with-github-desktop) peut vous être utile, si cela est tout nouveau pour vous. Si vous n'êtes pas confiant(e) sur comment procéder ou si vous avez des questions, merci de contacter Matthew Lincoln pour obtenir de l'aide.
+
+
+1. Aller au répertoire de votre dépôt local `ph-submissions`.
+2. Faire `git pull` pour obtenir le transfert de toutes les modifications récentes sur votre machine (ou faire `sync` si vous utilisez GitHub Desktop).
+3. Répéter les étapes 1 et 2 pour le dépôt `jekyll` sur votre machine.
+4. Copier les fichiers des leçons et ceux des images et ressources associées depuis le dépôt `ph-submissions` de votre machine aux endroits appropriés dans le répertoire de `jekyll`, toujours sur votre machine (il est possible d'utiliser la commande `cp` depuis la ligne de commande Unix ou naviguer dans l'arborescence de fichiers de votre interface graphique si vous utilisez GitHub Desktop).
+5. Depuis le répertoire `jekyll` qui se trouve en local sur votre machine, exécuter `git add` pour les nouveaux fichiers puis `git commit` et `git push` pour soumettre et envoyer les modifications.
+
+Après le transfert de la leçon dans le répertoire `jekyll`, il faudra aussi archiver la version soumise au dépôt `ph-submissions`.
+
+1. Aller au répertoire `ph-submissions` de votre dépôt local.
+2. Ajouter une nouvelle ligne à l'en-tête YAML de la leçon qui est désormais publiée: `redirect_from: "/lessons/SLUG-DE-LA-LEÇON"`
+3. Copier la leçon publiée depuis `lessons/` vers `lessons/published/`.
+4. Copier le dossier qui contient les images de la leçon publiée depuis `images/` vers `images/published/`.
+5. Exécuter les commandes `git add`, `git commit` et `git push` pour finaliser toutes les modifications.
+
+## 3) Vérifier les liens et les en-tête en YAML
 
 Une fois que vous aurez soumis vos modifications à la branche `gh-pages` du dépôt du [programminghistorian][ph_repo], le site web sera automatiquement testé par [Travis CI] ([Continuous Integration]).
-Cette procédure teste deux choses: d'abord que tout le code en YAML et markdown peut être parsé, ensuite que tous les hyperliens du site web pointent vers des pages valides et opérationnelles.
+Cette procédure teste trois choses. D'abord, que tout le code en YAML et markdown peut être parsé. Ensuite, que tous les hyperliens du site web pointent vers des pages valides et opérationnelles. Enfin, que les liens internes pointant vers des pages du _Programming Historian_ sont des liens relatifs qui commencent par `/` plutôt que par `https://programminghistorian.org/`
 
 [ph_repo]: https://github.com/programminghistorian/jekyll
 
@@ -332,7 +355,7 @@ L'état de ces tests, couramment appelé _"Build Status"_ sur Travis CI et sur G
 
 Ainsi, vous pouvez voir la liste de toutes les modifications effectuées sur le dépôt principal, tout comme une icône qui en montre l'état:
 
-- Coche verte: c'est bon! Tous les liens d'une page ont été vérifiés et sont valides. [**Vous pouvez ignorer la partie de la section qui suit**](#11-thank-everyone-and-encourage-promotion)
+- Coche verte: c'est bon! Tous les liens d'une page ont été vérifiés et sont valides. [**Vous pouvez ignorer la partie de la section qui suit**](#7-remerciements-et-communication)
 - Cercle jaune: votre dernière modification est toujours en cours d'enregistrement. Attendez quelques minutes avant de vérifier à nouveau.
 - X rouge: il y a eu une erreur dans l'enregistrement de la modification.
 
@@ -350,17 +373,6 @@ Si votre compilation a échoué, il est nécessaire de consulter l'historique po
 
 [créer un nouveau ticket]: https://github.com/programminghistorian/jekyll/issues/new
 
+## 4) Tenir au courant le rédacteur ou la rédactrice en charge du suivi éditorial de la leçon
 
-
-### 12) Remerciements et promotion de la communication
-Il est important d'envoyer un message à toutes les personnes impliquées pour les remercier de leur contribution. En particulier, il faut remercier l'auteur(e) et lui proposer des pistes pour faire la communication autour du cours. Les leçons les plus populaires bénéficient en règle générale de l'énergie investie par leurs auteur(e)s. À titre d'exemple, il est possible d'inviter les auteur(e)s à:
-
-- Tweeter au moins trois fois sur la leçon (en fournissant le lien)
-- Retweeter nos tweets autour de leur leçon (seulement "liker" un tweet n'aide pas à disséminer le message)
-- Faire la promotion de leur leçon dans le cadre de présentations ou de publications de leur recherche
-- Pointer vers la ressource à partir d'un blog quand le cadre s'y prête
-- Ajouter la leçon aux listes de ressources des dépôts appropriés (par exemple, Wikipédia, pages de groupes etc)
-
-Les leçons sont le fruit d'un investissement considérable, faisons donc de notre mieux pour que les gens puissent les découvrir!
-
-
+Lorsque la leçon a été publiée, merci d'en informer le rédacteur ou la rédactrice qui en a assuré le suivi éditorial. 
