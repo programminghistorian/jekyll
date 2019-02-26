@@ -120,7 +120,7 @@ Como editor, todos los participantes del proceso estarán pendientes de tus inte
 
 Siempre que sea posible se recomienda publicar algún mensaje con el que se haga explícita la recepción de los comentarios. Por ejemplo, tras recibir la primera revisión, publica una respuesta para agradecer al primer revisor y recuerda al autor que una segunda revisión (en el caso de las lecciones nuevas) se encuentra en camino. Por este motivo, sugiere al autor que espere hasta recibir los comentarios pendientes. De esta manera todo el mundo sabe qué pasos hay que seguir.
 
-Si estás muy atareado, simplemente publica una nota en el foro para deciro que has visto los nuevos comentario y que necesitarás más tiempo para responder en detalle. Gestionar las expectativas de todas las partes es la mejor manera de asegurarte que el proceso de revisión tenga un final feliz.
+Si estás muy atareado, simplemente publica una nota en el foro para decir que has visto los nuevos comentario y que necesitarás más tiempo para responder en detalle. Gestionar las expectativas de todas las partes es la mejor manera de asegurarte que el proceso de revisión tenga un final feliz.
 
 ### Cómo resumir la revisión
 
@@ -321,7 +321,7 @@ El jefe de redacción publicará la lección moviendo los archivos al sitio web 
 
 - El archivo lección.md
 - El directorio de los archivos que lo acompañan (imágenes, datos, etc.)
-- Los íconos de la galería
+- Los iconos de la galería
 - Una biografía si el autor es nuevo
 
 Todos, excepto la biografía, deben ser representados como archivos en algún lugar del repositorio ph-submissions. La biografía se puede colocar directamente en ticket.
@@ -349,7 +349,7 @@ Una vez que se le haya dado la palabra de que al jefe de redacción ha publicado
 
 ## Jefe de redacción - Lista de verificación
 
-### 1) Tener una lectura rápida
+### 1) Haz una lectura rápida
 
 Compruebe la vista previa de la presentación para ver si hay errores obvios como imágenes rotas o formato extraño. Informar al editor de cualquier error, que son responsables de ser arreglados.
 
@@ -359,7 +359,7 @@ El editor de gestión es responsable de mover los archivos al sitio web principa
 
 Sus opciones son:
 
-A) siga nuestras ["Making Technical Contributions" guidelines](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions) que utiliza el sitio web de github GUI.
+A) Siga nuestras ["Making Technical Contributions" guidelines](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions) que utiliza el sitio web de github GUI.
 
 B) La manera más fácil de publicar el texto es utilizar git en tu terminal de línea de comandos. Las siguientes instrucciones presuponen que ya has clonado en tu ordenador los repositorios jekyll y ph-submissions/es (si no es así, nuestra [introducción a GitHub](/lessons/getting-started-with-github-desktop) puedes ser útil). Si tienes alguna duda puedes contactar con Matthew Lincoln (en inglés) para que te ayude, o en español a través de Víctor Gayol.
 
@@ -367,15 +367,15 @@ B) La manera más fácil de publicar el texto es utilizar git en tu terminal de 
 2. Introduce `git pull` para descargar los últimos cambios en tu ordenador (o `sync` si utilizas GitHub Desktop).
 3. Repite los pasos 1 y 2 para el repositorio local de `jekyll` en tu máquina.
 4. Copia el texto, los archivos con datos y las imágenes guardados en `ph-submissions/es` y ponlos en el lugar apropiado del repositorio `jekyll` de tu ordenador. Si utilizas la línea de comandos, introduce `cp`; si, por el contrario, usas GitHub Desktop utiliza la interfaz gráfica de usuario para moverte por los directorios y mover los archivos.
-5. Dese tu repositorio local de `jekyll`, debes introducir `git add` para añadir los nuevos archivos, y a continuación `got commit`y `git push` para actualizar los cambios en el repositorio en línea.
+5. Desde tu repositorio local de `jekyll`, debes introducir `git add` para añadir los nuevos archivos, y a continuación `got commit`y `git push` para actualizar los cambios en el repositorio en línea.
 
 Después de haber movido la lección al repositorio local de `jekyll` tendrás además que guardar la lección que ya enviaste en el repositorio `ph-submissions`.
 
 1. Sitúate en el directorio local de tu repositorio `ph-submissions/es`.
 2. Añade una nueva línea en el encabezado YAML de la lección ya publicada: `original: "LESSON-SLUG"`
 3. Mueva la lección publicada de `lessons/` a `lessons/published/`.
-4. Mueve el folder de imágenes que contiene las imágenes de la lección ya publicada de `images/` a `images/published/`.
-5. Utiliza `git add`, `git commit`, y `git push` para finalizar todos los cambios. ( o sigue las instrucciones "Making technical contributions": https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions)
+4. Mueve el directorio de imágenes que contiene las imágenes de la lección ya publicada de `images/` a `images/published/`.
+5. Utiliza `git add`, `git commit`, y `git push` para finalizar todos los cambios (o sigue las instrucciones "Making technical contributions": https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions).
 
 ### 3) Añade la biografía del autor a ph_authors.yml
 Si la lección ha sido escrita por un nuevo autor, el jefe de redacción debe añadir información sobre el autor al directorio[autores] del sitio (https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Siga la sintaxis de los ejemplos ya incluidos, utilizando la biografía que el editor le proporcionó:
@@ -388,8 +388,9 @@ Si la lección ha sido escrita por un nuevo autor, el jefe de redacción debe a�
        Jim Clifford es profesor ayudante en el Departamento de Historia de la Universidad de Saskatchewan.
 ```
 
-### 4) Confirma que todos los enlaces y encabezados YAML funcionen correctamenta
-Una vez que envíes tus cambios a la rama `gh-pages` del repositorio de [programminghistorian][ph_repo], el sitio será comprobado automáticamente por [Travis CI] ([Continuous Integration]).
+### 4) Confirma que todos los enlaces y encabezados YAML funcionen correctamente
+Una vez que envíes tus cambios a la rama `gh-pages` del repositorio de [Programminghistorian][ph_repo], el sitio será comprobado automáticamente por [Travis CI] ([Continuous Integration]).
+
 Este proceso comprueba tres cosas: primero, que todo el código de YAML y markdown sea compilable; segundo, que todos los hipervínculos del sitio apunten a páginas válidas y en funcionamiento; por último, que todos los hipervínculos internos a otras páginas de _The Programming Historian en español_ son relativos y empiezan con una barra lateral `/` en lugar de `https://programminghistorian.org/es`.
 
 [ph_repo]: https://github.com/programminghistorian/jekyll
@@ -399,6 +400,7 @@ Este proceso comprueba tres cosas: primero, que todo el código de YAML y markdo
 [Continuous Integration]: https://www.thoughtworks.com/continuous-integration
 
 Ejecutamos estas compilaciones principalmente para comprobar que las URL que _alguna vez_ funcionaron _siguen_ funcionando, ya que muchas veces las páginas web externas se mueven a nuevas direcciones o ya no están en línea.
+
 También son una excelente manera de detectar errores tipográficos pequeños que pueden haber pasado por alto autores, editores y revisores.
 El estado de estas pruebas (a menudo llamado "Estado de compilación" (_"Build Status"_) en Travis CI y en GitHub) se puede ver navegando a la página del repositorio [php_repo- sitory] [ph_repo] y haciendo clic en "Commits" en la parte superior izquierda del menú de código.
 
@@ -416,11 +418,11 @@ En caso de error, debes consultar la bitácora de compilación (*Build logs*) pa
 ![Travis details location](/images/editor-guidelines/commit_list_screen.png)
 2. Esto te llevará a la página de la bitácora de compilación en Travis CI. Las bitácoras de compilación contienen generalmente cientos de líneas, pero la información sobre el error que estamos buscando estará al final. Haz clic en el pequeño círculo gris de la parte superior derecha para desplazarte hacia abajo.
 ![The top of the Travis CI build screen](/images/editor-guidelines/travis_top_screen.png)
-3. Verás dos tipos de errores: primero, si la página carece de un campo YAML (i.e. si la lección no tiene el campo `editors`) el error estará marcado en rojo. Los errores en los vínculos externos también se enlistan en rojo, agrupados por la página en la que aparecen. Si algún vínculo en tu nueva lección causa error, regresa y confirma que no hay errores de escritura. Si los hay, haz las correcciones necesarias, envía las modificaciones al repositorio y espera a que Travis CI corra las pruebas de nuevo.
+3. Verás dos tipos de errores: primero, si la página carece de un campo YAML (por ejemplo, si la lección no tiene el campo `editors`) el error estará marcado en rojo. Los errores en los vínculos externos también se enlistan en rojo, agrupados por la página en la que aparecen. Si algún vínculo en tu nueva lección causa error, regresa y confirma que no hay errores de escritura. Si los hay, haz las correcciones necesarias, envía las modificaciones al repositorio y espera a que Travis CI corra las pruebas de nuevo.
 ![Locating error details in Travis CI build results](/images/editor-guidelines/travis_bottom_screen.png)
 
-- Hay ocasiones en las que Travis CI considera que un vínculo contiene un error, pero éste funciona correctamente cuando accedes a él con tu navegador de Internet. Si esto ocurre, por favor, [abre un nuevo ticket] para que un miembro del equipo técnico pueda revisar el problema y encontrar una solución.
-- Como parte de su operación normal, ocasionalmente Travis CI regresa y revisa viejos vínculos por todo el sitio, incluyendo lecciones publicadas hace tiempo. De tal manera, mientras revisas tu trabajo podrías encontrar un error causado por otra página, no por tu lección. Si sabes la manera de arreglar inmediatamente el error, por favor hazlo, y espera a que el compilador vuelva a correr. Si no tienes tiempo para darle seguimiento, solamente asegúrate que no existen errores de vículos relacionados a tu lección y [abre un nuevo ticket] para que alguien del equipo técnico pueda revisar el problema.
+- Hay ocasiones en las que Travis CI considera que un vínculo contiene un error, pero éste funciona correctamente cuando accedes a él con tu navegador de internet. Si esto ocurre, por favor, [abre un nuevo tícket] para que un miembro del equipo técnico pueda revisar el problema y encontrar una solución.
+- Como parte de su operación normal, ocasionalmente Travis CI regresa y revisa viejos vínculos por todo el sitio, incluyendo lecciones publicadas hace tiempo. De tal manera, mientras revisas tu trabajo podrías encontrar un error causado por otra página, no por tu lección. Si sabes la manera de arreglar inmediatamente el error, por favor hazlo, y espera a que el compilador vuelva a correr. Si no tienes tiempo para darle seguimiento, solamente asegúrate de que no existen errores de vínculos relacionados a tu lección y [abre un nuevo tícket] para que alguien del equipo técnico pueda revisar el problema.
 
 [abre un nuevo ticket]: https://github.com/programminghistorian/jekyll/issues/new
 
