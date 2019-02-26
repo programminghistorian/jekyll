@@ -215,7 +215,7 @@ Una vez el autor y tú como editor estéis satisfechos con el texto, sea una tra
 
 ### 1) Crea una biografía para el autor
 
-Si la lección fue escrita por un autor nuevo, el editor encargado necesitará una biografía nueva para esa persona. Deberás proporcionar la siguiente información: 
+Si la lección fue escrita por un autor nuevo, el editor encargado necesitará una biografía nueva para esa persona. Deberás proporcionar la siguiente información:
 
 ```yaml
 - name: Jim Clifford
@@ -282,7 +282,7 @@ abstract: "[(ver abajo o traducir el original)]"
 difficulty: 2
 ```
 - **slug** debe contener la ruta a la lección en el sitio público de _Programming Historian_, lo que significa un texto con guiones que sigue a programminghistorian.org/lessons/ (i.e. building-static-sites-with-jekyll-github-pages)
-**date** La fecha de la lección debe ser actualizada a la fecha en la cual la lección se movió al repositorio de Jekyll. 
+**date** La fecha de la lección debe ser actualizada a la fecha en la cual la lección se movió al repositorio de Jekyll.
 - **activity** debe usarse una (y solo una) de las siguientes cinco opciones: *acquiring, transforming, analyzing, presenting, sustaining* (adquisición, transformación, análisis, presentación o sostenibilidad). Escoge la que mejor describa lo que te enseña la lección acerca de datos en humanidades (i.e. una lección que muestre la creación de un sitio web con Omeka será sobre presentar (*presenting*) datos a través de una galería en la Web).
 - **topics** puede ser cualquier número de cosas listadas despues de "type:" en /\_data/topics.yml. También te invitamos a crear nuevos tópicos que ayuden a alguien a encontrar la lección. Para hacerlo, además de listar el o los nuevos tópicos en los preliminares de la leción, deberás:
 1. Agregar el tópico a cualquier lección descrita por el nuevo tópico
@@ -314,7 +314,7 @@ Antes de editar la imagen, guarda el archivo original. El nombre del archivo deb
 
 A continuación, crea una copia de la imagen, córtala en un cuadrado sin eliminar detalles relevantes, cambia la dimensión a 200x200 píxeles y convierte la imagen a escala de grises. Puedes hacer cuanto retoques creas necesarios a fin de que se asemeje al resto de imágenes, por ejemplo, modficiar la luz o alterar el contraste. Guarda esta nueva imagen con el *slug* de la lección. Siguiendo con el ejemplo ya dado, la nueva imagen debería llamarse `cleaning-data-with-openrefine.png`.
 
-Sube la imagen original al directorio [gallery/originals](https://github.com/programminghistorian/ph_submissions/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/ph_submissions/tree/gh-pages/gallery). Deberás darle instrucciones al editor encargado sobre la ubicación de estas imágenes en el repositorio de ph_submissions cuando les entregues las imágenes para publicarlas. Si se trata de una traducción, no hace falta buscar una imagen, pues se reutiliza la contenida en el original.
+Sube la imagen original al directorio [gallery/originals](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/gallery/originals) y la imagen editada al directorio [gallery](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/gallery). Deberás darle instrucciones al editor encargado sobre la ubicación de estas imágenes en el repositorio de ph-submissions cuando les entregues las imágenes para publicarlas. Si se trata de una traducción, no hace falta buscar una imagen, pues se reutiliza la contenida en el original.
 
 ### 5) Informa al jefe de redacción para publicar
 El jefe de redacción publicará la lección moviendo los archivos al sitio web principal y revisando todo. Para facilitar el trabajo de esta persona, publique una lista en el ticket de envío listando todos los archivos que necesitan ser movidos para publicar la lección. Esto normalmente debería incluir:
@@ -324,7 +324,7 @@ El jefe de redacción publicará la lección moviendo los archivos al sitio web 
 - Los íconos de la galería
 - Una biografía si el autor es nuevo
 
-Todos, excepto la biografía, deben ser representados como archivos en algún lugar del repositorio ph_submissions. La biografía se puede colocar directamente en ticket.
+Todos, excepto la biografía, deben ser representados como archivos en algún lugar del repositorio ph-submissions. La biografía se puede colocar directamente en ticket.
 
 ### 6) Incorpora tu lección en nuestro Twitter bot
 Adicionalmente a la promoción vía Twitter descrita abajo, también utilizamos un Twitter bot para volver a promocionar lecciones pasadas. Para añadir la lección nueva a nuestro *pipeline* deberás añadirla como una fila en esta [hoja de cálculo](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=904817529). Todos los miembros del equipo editorial deben poder hacer cambios; envía un correo electrónico al grupo de google si tienes algún problema. Deberás insertar una nueva fila para tu lección al final de la tabla con los siguientes campos:
@@ -375,9 +375,9 @@ Después de haber movido la lección al repositorio local de `jekyll` tendrás a
 2. Añade una nueva línea en el encabezado YAML de la lección ya publicada: `original: "LESSON-SLUG"`
 3. Mueva la lección publicada de `lessons/` a `lessons/published/`.
 4. Mueve el folder de imágenes que contiene las imágenes de la lección ya publicada de `images/` a `images/published/`.
-5. Utiliza `git add`, `git commit`, y `git push` para finalizar todos los cambios. ( o sigue las instrucciones "Making technical contributions": https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions) 
+5. Utiliza `git add`, `git commit`, y `git push` para finalizar todos los cambios. ( o sigue las instrucciones "Making technical contributions": https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions)
 
-### 3) Añade la biografía del autor a ph_authors.yml 
+### 3) Añade la biografía del autor a ph_authors.yml
 Si la lección ha sido escrita por un nuevo autor, el jefe de redacción debe añadir información sobre el autor al directorio[autores] del sitio (https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Siga la sintaxis de los ejemplos ya incluidos, utilizando la biografía que el editor le proporcionó:
 
 ```yaml
@@ -386,9 +386,9 @@ Si la lección ha sido escrita por un nuevo autor, el jefe de redacción debe a�
   bio:
    es: |
        Jim Clifford es profesor ayudante en el Departamento de Historia de la Universidad de Saskatchewan.
-```	
+```
 
-### 4) Confirma que todos los enlaces y encabezados YAML funcionen correctamenta 
+### 4) Confirma que todos los enlaces y encabezados YAML funcionen correctamenta
 Una vez que envíes tus cambios a la rama `gh-pages` del repositorio de [programminghistorian][ph_repo], el sitio será comprobado automáticamente por [Travis CI] ([Continuous Integration]).
 Este proceso comprueba tres cosas: primero, que todo el código de YAML y markdown sea compilable; segundo, que todos los hipervínculos del sitio apunten a páginas válidas y en funcionamiento; por último, que todos los hipervínculos internos a otras páginas de _The Programming Historian en español_ son relativos y empiezan con una barra lateral `/` en lugar de `https://programminghistorian.org/es`.
 
