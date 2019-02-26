@@ -378,7 +378,7 @@ Después de haber movido la lección al repositorio local de `jekyll` tendrás a
 5. Utiliza `git add`, `git commit`, y `git push` para finalizar todos los cambios (o sigue las instrucciones "Making technical contributions": https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions).
 
 ### 3) Añade la biografía del autor a ph_authors.yml
-Si la lección ha sido escrita por un nuevo autor, el jefe de redacción debe añadir información sobre el autor al directorio[autores] del sitio (https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). Siga la sintaxis de los ejemplos ya incluidos, utilizando la biografía que el editor le proporcionó:
+Si la lección ha sido escrita por un nuevo autor, el jefe de redacción debe añadir información sobre el autor al directorio [autores](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml) del sitio. Siga la sintaxis de los ejemplos ya incluidos, utilizando la biografía que el editor le proporcionó:
 
 ```yaml
 - name: Jim Clifford
