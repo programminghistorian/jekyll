@@ -63,9 +63,17 @@ layout: base
 
   <div class="container-fluid header-helpers">
   <div class="container expanded">
-    <div class="d-flex flex-wrap justify-content-between">
-      <div class="mr-auto">
-        <h3 class="text-left">{{site.data.snippets.editor[page.lang]}}</h3>
+  {% comment %}
+  If the page is an original, and thus has no translator info, wrap the editor & reviewer in a smaller column
+  {% endcomment %}
+  {% unless page.original %}
+    <div class="col-6 p-0 m-0">
+  {% else %}
+    <div>
+  {% endunless %}
+    <div class="d-flex flex-wrap flex-md-row flex-column justify-content-between">
+      <div>
+        <h3>{{site.data.snippets.editor[page.lang]}}</h3>
         <ul>
         {% for editor in page.editors %}
           <li>{{editor}}</li>
@@ -73,8 +81,8 @@ layout: base
         </ul>
       </div>
 
-      <div class="mr-auto">
-        <h3 class="text-left">{{site.data.snippets.reviewers[page.lang]}}</h3>
+      <div>
+        <h3>{{site.data.snippets.reviewers[page.lang]}}</h3>
           <ul>
           {% for reviewer in page.reviewers %}
             <li>{{reviewer}}</li>
@@ -83,8 +91,8 @@ layout: base
       </div>
 
       {% if page.translator %}
-      <div class="mr-auto">
-        <h3 class="text-left">{{site.data.snippets.translator[page.lang]}}</h3>
+      <div>
+        <h3>{{site.data.snippets.translator[page.lang]}}</h3>
         <ul>
         {% for translator in page.translator %}
           <li>{{translator}}</li>
@@ -94,8 +102,8 @@ layout: base
       {% endif %}
 
       {% if page.translation-editor %}
-      <div class="mr-auto">
-        <h3 class="text-left">{{site.data.snippets.translation-editors[page.lang]}}</h3>
+      <div>
+        <h3>{{site.data.snippets.translation-editors[page.lang]}}</h3>
         <ul>
         {% for translation-editor in page.translation-editor %}
           <li>{{translation-editor}}</li>
@@ -106,7 +114,7 @@ layout: base
 
       {% if page.translation-reviewer %}
       <div>
-        <h3 class="text-left">{{site.data.snippets.translation-reviewers[page.lang]}}</h3>
+        <h3>{{site.data.snippets.translation-reviewers[page.lang]}}</h3>
         <ul>
         {% for editor in page.translation-reviewer %}
           <li>{{editor}}</li>
@@ -114,7 +122,7 @@ layout: base
         </ul>
       </div>
       {% endif %}
-
+    </div>
     </div>
     </div> <!-- end row -->
   </div>
