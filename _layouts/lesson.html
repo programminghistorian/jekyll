@@ -121,7 +121,7 @@ layout: base
 
   <div class="container-fluid header-bottom">
     <div class="container expanded">
-      <div class="d-flex flex-wrap justify-content-between">
+      <div class="d-flex flex-wrap flex-md-row flex-column justify-content-between">
       <div class="metarow"><h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
       {% if page.translation_date %}
       <div class="metarow"><h4>{{site.data.snippets.translated-date[page.lang]}}</h4> <span id="translated-date">{{ page.translation_date | date:"%Y-%m-%d" }}</span></div>
