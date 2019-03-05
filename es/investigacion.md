@@ -37,9 +37,10 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 de mayo, 2015).
 
 ### Carteles, conferencias y presentaciones
-* Afanador, Maria José. 'The Programming Historian en español: estrategias y retos para la construcción de una comunidad global de humanidades digitales.' Ponencia presentada en la Conferencia de Humanidades Digitales DH2018, Ciudad de México, México, (2018, junio).
-* Caleb McDaniel, 'Open Access, Transparent Peer Review', Annual Meeting of the Organizations of American Historians, Sacremento, California, (14 abril 2018).
-* James Baker, '[The Programming Historian: Open Access, Open Source, Open Project](https://www.slideshare.net/drjwbaker/the-programming-historian-open-access-open-source-open-project)', Research Hive Seminar on 'Open publication: exploring alternative models and practices', University of Sussex (22 marzo 2018).
+* Jennifer Isasi, Antonio Rojas y Anna-Maria Sichani, 'Data science and the language question in digital humanities pedagogy: the example of the Programming Historian', *EADH 2018*, National University of Ireland, Galway, 9 December 2018.
+* Maria José Afanador, 'The Programming Historian en español: estrategias y retos para la construcción de una comunidad global de humanidades digitales', Ponencia presentada en la Conferencia de Humanidades Digitales *DH2018*, Ciudad de México, México, (2018, junio).
+* Caleb McDaniel, 'Open Access, Transparent Peer Review', *Annual Meeting of the Organizations of American Historians*, Sacramento, California, (14 abril 2018).
+* James Baker, '[The Programming Historian: Open Access, Open Source, Open Project](https://www.slideshare.net/drjwbaker/the-programming-historian-open-access-open-source-open-project)', Research Hive Seminar on *Open publication: exploring alternative models and practices*, University of Sussex (22 marzo 2018).
 * Adam Crymble, 'White, Male, and North American: Challenges of Diversifying the Programming Historian', Universit&eacute; de Lausanne, Switzerland (23-24 marzo 2017).
 * Victor Gayol, 'La investigación del pasado y la historia digital: análisis de datos y cómo aprender (The Programming Historian en español)', _Humanidades Digitales_, IV Feria Internacional de Ciencias Sociales y Humanidades, Centro Universitario de Los Lagos - Universidad de Guadalajara, Lagos de Moreno, Jalisco (9 de marzo, 2017).
 * Victor Gayol, 'The Programming Historian: 'un modelo colaborativo para la investigaci&oacute;n y la ense&ntilde;anza en ciencias sociales y humanidades digitales', _Mesa de Trabajo sobre Ciencias Sociales y Humanidades Digitales_, El Colegio De Michoac&aacute;n, México (21 de febrero, 2017).
