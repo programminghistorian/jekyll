@@ -122,6 +122,16 @@ menu-contribute-edit:
   fr:
     title: Consignes aux rédacteurs
     link: /fr/consignes-redacteurs
+menu-contribute-support:
+  en:
+    title: Support Us
+    link: /en/support-us
+  es:
+    title: Apóyanos
+    link: /es/apoyanos
+  fr:
+    title: Nous soutenir
+    link: /fr/nous-soutenir
 menu-lessons:
   en:
     title: Lessons
