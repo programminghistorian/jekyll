@@ -18,7 +18,7 @@ The _Programming Historian_ is committed to open source values. All contributed 
 
 
 ## Gold Open Access
-All submissions to the _Programming Historian_ are published under a [Creative Commons 'CC-BY' license](https://creativecommons.org/licenses/by/4.0/deed.en). This adheres to a '[Gold](https://en.wikipedia.org/wiki/Open_access)' open access model of publishing, which is fully compliant with the [Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities](http://www.berlin9.org/about/declaration/), [RCUK](http://www.rcuk.ac.uk/research/openaccess/) funding and [HEFCE](http://www.hefce.ac.uk/rsrch/oa/) publishing requirements for scholars in the UK, as well as the [Canadian Tri-Agency Open Access Policy](http://www.science.gc.ca/eic/site/063.nsf/eng/h_F6765465.html). 'Gold' open access means that the version of record is made freely available without subscription fee or restrictions on access. Authors are permitted to republish their tutorials anywhere. And so can anyone, as long as they cite the original author and respect his or her moral rights.
+All submissions to the _Programming Historian_ are published under a [Creative Commons 'CC-BY' license](https://creativecommons.org/licenses/by/4.0/deed.en). This adheres to a '[Gold](https://en.wikipedia.org/wiki/Open_access)' open access model of publishing. The version of record is made freely available without subscription fee or restrictions on access. Authors are permitted to republish their tutorials anywhere. And so can anyone, as long as they cite the original author and respect his or her moral rights.
 
 We do not charge Article Processing Charges (APCs), nor do we charge library subscriptions.
 
