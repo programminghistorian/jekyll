@@ -39,27 +39,20 @@ layout: base
         </div>
 
         <div class="container expanded">
-          <div class="row">
-            <div class="col-md-3">
-              {% if page.reviewers or page.review-ticket %}
-              <div class="peer-review">
-                <p>
-                {% if page.review-ticket %}
-                <a href="{{ page.review-ticket }}">{% endif %}<i class="fas fa-user-check"></i> {{ site.data.snippets.peer-review[page.lang] }}{% if page.review-ticket %}</a>{% endif %}
-                </p>
-              </div>
-              </div>
-              {% endif %}
-
-              {% if page.reviewers or page.review-ticket %}
-              <div class="col-md-3">
-              {% else %}
-              <div class="col-md-8">
-              {% endif %}
-              <div class="open-license">
-                <p><a href="https://creativecommons.org/licenses/by/4.0/deed.en"><i class="fas fa-lock-open"></i> CC-BY 4.0</a></p>
-              </div>
-              </div>
+          <div class="row d-flex justify-content-left">
+            {% if page.reviewers or page.review-ticket %}
+            <div class="peer-review mr-5">
+              <p>
+              {% if page.review-ticket %}<a href="{{ page.review-ticket }}">{% endif %}
+              <i class="fas fa-user-check"></i> {{ site.data.snippets.peer-review[page.lang] }}
+              {% if page.review-ticket %}</a>{% endif %}
+              </p>
+            </div>
+            {% endif %}
+            <div class="open-license">
+              <p><a href="https://creativecommons.org/licenses/by/4.0/deed.en"><i class="fas fa-lock-open"></i> CC-BY 4.0</a></p>
+            </div>
+          </div>
           </div>
         </div>
 
@@ -68,19 +61,19 @@ layout: base
   </div>
 </div>
 
-{% capture editor-style %}{% if page.translator %}col-md-3{% else %}col-md-4 offset-md-4{% endif %}{% endcapture %}
-{% capture reviewers-style %}{% if page.translator %}col-md-3{% else %}col-md-4{% endif %}{% endcapture %}
-{% capture date-style %}{% if page.translation_date %}col-md-3{% else %}col-md-4{% endif %}{% endcapture %}
-
-
   <div class="container-fluid header-helpers">
-
-    <div class="container expanded">
-
-    <div class="row">
-
-      <div class="{{editor-style}}">
-        <h3 class="text-left">{{site.data.snippets.editor[page.lang]}}</h3>
+  <div class="container expanded">
+  {% comment %}
+  If the page is an original, and thus has no translator info, wrap the editor & reviewer in a smaller column
+  {% endcomment %}
+  {% unless page.original %}
+    <div class="col-6 p-0 m-0">
+  {% else %}
+    <div>
+  {% endunless %}
+    <div class="d-flex flex-wrap flex-md-row flex-column justify-content-between">
+      <div>
+        <h3>{{site.data.snippets.editor[page.lang]}}</h3>
         <ul>
         {% for editor in page.editors %}
           <li>{{editor}}</li>
@@ -88,8 +81,8 @@ layout: base
         </ul>
       </div>
 
-      <div class="{{reviewers-style}}" >
-        <h3 class="text-left">{{site.data.snippets.reviewers[page.lang]}}</h3>
+      <div>
+        <h3>{{site.data.snippets.reviewers[page.lang]}}</h3>
           <ul>
           {% for reviewer in page.reviewers %}
             <li>{{reviewer}}</li>
@@ -98,8 +91,8 @@ layout: base
       </div>
 
       {% if page.translator %}
-      <div class="col-md-2" >
-        <h3 class="text-left">{{site.data.snippets.translator[page.lang]}}</h3>
+      <div>
+        <h3>{{site.data.snippets.translator[page.lang]}}</h3>
         <ul>
         {% for translator in page.translator %}
           <li>{{translator}}</li>
@@ -109,8 +102,8 @@ layout: base
       {% endif %}
 
       {% if page.translation-editor %}
-      <div class="col-md-2" >
-        <h3 class="text-left">{{site.data.snippets.translation-editors[page.lang]}}</h3>
+      <div>
+        <h3>{{site.data.snippets.translation-editors[page.lang]}}</h3>
         <ul>
         {% for translation-editor in page.translation-editor %}
           <li>{{translation-editor}}</li>
@@ -120,8 +113,8 @@ layout: base
       {% endif %}
 
       {% if page.translation-reviewer %}
-      <div class="col-md-2" >
-        <h3 class="text-left">{{site.data.snippets.translation-reviewers[page.lang]}}</h3>
+      <div>
+        <h3>{{site.data.snippets.translation-reviewers[page.lang]}}</h3>
         <ul>
         {% for editor in page.translation-reviewer %}
           <li>{{editor}}</li>
@@ -129,24 +122,24 @@ layout: base
         </ul>
       </div>
       {% endif %}
-
+    </div>
     </div>
     </div> <!-- end row -->
   </div>
 
   <div class="container-fluid header-bottom">
     <div class="container expanded">
-      <div class="row">
-      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
+      <div class="d-flex flex-wrap flex-md-row flex-column justify-content-between">
+      <div class="metarow"><h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
       {% if page.translation_date %}
-      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.translated-date[page.lang]}}</h4> <span id="translated-date">{{ page.translation_date | date:"%Y-%m-%d" }}</span></div>
+      <div class="metarow"><h4>{{site.data.snippets.translated-date[page.lang]}}</h4> <span id="translated-date">{{ page.translation_date | date:"%Y-%m-%d" }}</span></div>
       {% endif %}
       {% if page.retired %}
-      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.retired-date[page.lang]}}</h4> <span id="retired-date">{{ page.retired_date | date:"%Y-%m-%d" }}</span></div>
+      <div class="metarow"><h4>{{site.data.snippets.retired-date[page.lang]}}</h4> <span id="retired-date">{{ page.retired_date | date:"%Y-%m-%d" }}</span></div>
       {% else %}
-      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.modified[page.lang]}}</h4> <span id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span></div>
+      <div class="metarow"><h4>{{site.data.snippets.modified[page.lang]}}</h4> <span id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span></div>
       {% endif %}
-      <div class="{{ date-style }} metarow"><h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}</div>
+      <div class="metarow"><h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}</div>
     </div>
     </div>
   </div>
