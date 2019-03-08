@@ -596,9 +596,3 @@ Thank you very much for your patience. The author hopes you learn the fundamenta
 [Klaus Illmayer](https://www.oeaw.ac.at/acdh/team/current-team/klaus-illmayer/)
 
 [Norbert Czirjak](https://www.oeaw.ac.at/acdh/team/current-team/norbert-czirjak/)
-
-### ABOUT THE AUTHOR
-[Go Sugimoto](https://www.oeaw.ac.at/acdh/team/current-team/go-sugimoto/) is a data analyst at the Austrian Centre for Digital Humanities (ACDH) in the Austrian Academy of Sciences. He is originally an archaeologist, and holds MSc in Archaeolgical Information Systems (University of York) and MA in Heritage Management (University of Birmingham). It is hard to categorise him, because he has worked for a wide range of cultural heritage projects around the world, including [Europeana](https://www.europeana.eu) and [Archives Portal Europe](https://www.archivesportaleurope.net/) (at [the National Archives of the Netherlands](https://www.nationaalarchief.nl)), [the European Commission](https://ec.europa.eu/info/departments/research-executive-agency_en), [CHIRON fellowship](https://cordis.europa.eu/project/rcn/73683_en.html) at the University of Florence (Italy), [the National Museum of Modern Art Tokyo](http://www.momat.go.jp/) (Japan), and [Wessex Archaeology](https://www.wessexarch.co.uk/) (UK).
-
-### Suggested Citation
-Go Sugimoto, "Using Application Programming Interface (API) with minimal coding: Kick start with Europeana API with PHP" The Programming Historian x (2018), https://programminghistorian.org/en/lessons/use-api-almost-without-coding-php.
