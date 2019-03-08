@@ -16,7 +16,7 @@ Le _Programming Historian en français_ est porté par des volontaires. Leur én
 
 Nous sommes loin de simplement accepter ou rejeter des articles, comme le font les revues traditionnelles. Nos rédacteurs et rédactrices collaborent avec vous pour construire un texte aussi clair et utile que possible, ce qui vous permet de parfaire vos compétences et techniques d'écriture. N'hésitez pas à apprendre davantage sur notre procédure de [dépôt] [depot] de propositions.
 
-Si vous souhaitez proposer une leçon, que vous en soyez l'auteur(e) ou pas, merci d'envoyer un courriel à <a href="mailto:anandi.silva.knuppel@emory.edu">Anandi Silva Knuppel</a>.
+Si vous souhaitez proposer une leçon, que vous en soyez l'auteur(e) ou pas, merci d'envoyer un courriel à <a href="mailto:spapastamkou@gmail.com">Sofia Papastamkou</a>.
 
 ## Rejoindre notre équipe d'évaluation
 
