@@ -24,7 +24,7 @@ Si vous souhaitez proposer une leçon, que vous en soyez l'auteur(e) ou pas, mer
 
 Le _Programming Historian en français_ attache la plus grande importance à l'évaluation par les pairs, en adoptant une approche ouverte et collaborative qui reconnait pleinement et publiquement le travail des évaluateurs et évaluatrices. Pour vous renseigner plus sur nos principes et sur la procédure d'évaluation, merci de vous référer aux [consignes d'évaluation] [evaluateurs]
 
-Nous espérons que vous allez sérieusement envisager de rejoindre notre équipe d'évaluateurs et d'évaluatrices. Les délais sont flexibles, vous apprendrez beaucoup et vous aurez ainsi l'occasion de contribuer à une ressource largement utilisée, qui jouit d'une très bonne réputation. Merci d'envoyer un courriel à <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> pour vous présenter et nous faire connaître les compétences, les outils, les sujets et les technologies qui sont dans votre domaine d'expertise.
+Nous espérons que vous allez sérieusement envisager de rejoindre notre équipe d'évaluateurs et d'évaluatrices. Les délais sont flexibles, vous apprendrez beaucoup et vous aurez ainsi l'occasion de contribuer à une ressource largement utilisée, qui jouit d'une très bonne réputation. Merci d'envoyer un courriel à <a href="mailto:spapastamkou@gmail.com">Sofia Papastamkou</a> pour vous présenter et nous faire connaître les compétences, les outils, les sujets et les technologies qui sont dans votre domaine d'expertise.
 
 ## Assurer le suivi éditorial d'une leçon
 
@@ -67,10 +67,10 @@ L'édition anglais est aussi indexé dans le [Directory of Open Access Journals]
 
 ## Faire une suggestion
 
-Pour vous impliquer comme vous le préférez, merci de contacter <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> pour lui faire part de vos commentaires, vos questions, vos remarques ou suggestions. Nous faisons notre possible pour répondre aux courriels rapidement.
+Pour vous impliquer comme vous le préférez, merci de contacter <a href="mailto:spapastamkou@gmail.com">Sofia Papastamkou</a> pour lui faire part de vos commentaires, vos questions, vos remarques ou suggestions. Nous faisons notre possible pour répondre aux courriels rapidement.
 
 
-Merci de nous aider à améliorer le _Programming Historian_!
+Merci de nous aider à améliorer le _Programming Historian en français_!
 
  [depot]: {{site.baseurl}}/fr/consignes-auteurs
  [evaluateurs]: {{site.baseurl}}/fr/consignes-evaluateurs
