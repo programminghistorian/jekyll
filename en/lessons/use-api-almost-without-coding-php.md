@@ -1,12 +1,22 @@
 ---
-title: |
-    Using Application Programming Interface (API) with minimal coding: Kick start with Europeana API with PHP
-
-authors:
-- Go Sugimoto
-date: 2018-09-17
-reviewers:
+title: [" Using Application Programming Interface (API) with minimal coding: Kick start with Europeana API with PHP"]
+collection: lessons
 layout: lesson
+slug: [use-api-almost-without-coding-php]
+date: [2019-03-08]
+translation_date: [YYYY-MM-DD (translations only)]
+authors:
+- [Go Sugimoto]
+reviewers:
+- [Brianna Allen]
+- [Amber Stubbs]
+editors:
+- [Jessica Parr]
+review-ticket: [e.g. https://github.com/programminghistorian/ph-submissions/issues/196]
+difficulty: [1]
+activity: [acquiring]
+topics: [API]
+abstract: [Application Programming Interface (API) is frequently used as a means of Open Data. Many humanities researchers have started to share their data on the web with APIs. However, APIs are often tailored for developers, and it is still not easy for the researchers who have little IT experience to work on them. This tutorial demonstrates how to quickly learn the technology without a prior programming background.
 ---
 {% include toc.html %}
 
