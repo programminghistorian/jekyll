@@ -8,6 +8,7 @@ date: 2018-09-17
 reviewers:
 layout: lesson
 ---
+{% include toc.html %}
 
 # Scope
 **Application Programming Interface (API)** is frequently used as a means of **Open Data**. Indeed, over the last years, many humanities researchers have started to share their data on the web with APIs. As a result, there are a large amount of valuable datasets available. However, APIs are often tailored for developers, and it is still not easy for the researchers who have little IT experience to work on them.
