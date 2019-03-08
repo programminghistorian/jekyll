@@ -14,7 +14,7 @@ editors:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/196
 difficulty: 1
 activity: acquiring
-topics: API
+topics: [api]
 abstract: Application Programming Interface (API) is frequently used as a means of Open Data. Many humanities researchers have started to share their data on the web with APIs. However, APIs are often tailored for developers, and it is still not easy for the researchers who have little IT experience to work on them. This tutorial demonstrates how to quickly learn the technology without a prior programming background.
 ---
 {% include toc.html %}
