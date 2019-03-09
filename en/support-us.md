@@ -6,7 +6,7 @@ redirect_from: /support-us
 
 # Supporting the _Programming Historian_
 
-The Programming Historian is a volunteer-driven project. We are committed to open source values and our content will not disappear behind a paywall. However, in order for it to grow, improve, and sustain our work, in 2018 the [Editorial Board of The Programming Historian](https://programminghistorian.org/en/project-team) started to put in place financial and policy-based mechanisms for accepting sponsorship and donations. This enables us to:
+The Programming Historian is a volunteer-driven project. We are committed to open source values and our content will not disappear behind a paywall. However, in order for it to grow, improve, and sustain our work, in 2018 the [Editorial Board of The Programming Historian](/en/project-team) started to put in place financial and policy-based mechanisms for accepting sponsorship and donations. This enables us to:
 
 - Maintain our infrastructure.
 - Bring in professional services that enhance the quality of our publications.
@@ -37,8 +37,8 @@ All sponsorship is subject to [agreement](https://github.com/programminghistoria
 
 ## Haven't got any money?
 
-The Programming Historian runs on the far-from-endless energy of volunteers, and we want to hear from anyone who shares our interest in teaching digital methods, forging new processes of peer review, and building diversity in the digital humanities community. So if you are unwilling or unable to donate to The Programming Historian, but want to contribute in some way, please see our '[Contribute to The Programming Historian](https://programminghistorian.org/en/contribute)' page where we’ve outlined common ways to contribute.
+The Programming Historian runs on the far-from-endless energy of volunteers, and we want to hear from anyone who shares our interest in teaching digital methods, forging new processes of peer review, and building diversity in the digital humanities community. So if you are unwilling or unable to donate to The Programming Historian, but want to contribute in some way, please see our '[Contribute to The Programming Historian](/en/contribute)' page where we’ve outlined common ways to contribute.
 
 ## Management of Donations and Sponsorship
 
-Donations and sponsorship are managed by [James Baker](https://github.com/drjwbaker) on behalf of the [Editorial Board of The Programming Historian](https://programminghistorian.org/en/project-team).
+Donations and sponsorship are managed by [James Baker](https://github.com/drjwbaker) on behalf of the [Editorial Board of The Programming Historian](/en/project-team).
