@@ -2,6 +2,7 @@
 title: Consignes aux auteur(e)s
 layout: blank
 original: author-guidelines
+skip_validation: true
 ---
 
 # Consignes aux auteur(e)s et aux traducteur(trice)s

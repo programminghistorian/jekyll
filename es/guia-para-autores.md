@@ -2,6 +2,7 @@
 title: Instrucciones para autores y traductores
 layout: blank
 original: author-guidelines
+skip_validation: true
 ---
 
 # Guía para autores y traductores

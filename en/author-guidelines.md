@@ -1,9 +1,10 @@
 ---
 title: Author Guidelines
 layout: blank
-redirect_from: 
+redirect_from:
  - /new-lesson-workflow
  - /author-guidelines
+skip_validation: true
 ---
 
 # Author Guidelines
@@ -130,8 +131,8 @@ abstract: [LEAVE BLANK]
 
 ### An End Note:
 
-This is some text.[^1] 
-This is some more text.[^2] 
+This is some text.[^1]
+This is some more text.[^2]
 
 
 

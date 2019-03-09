@@ -21,7 +21,7 @@ module MyModule
 
       # All pages validator
 
-      all_pages = site.pages
+      all_pages = site.pages.select{|i| !i.data["skip_validation"]}
 
       all_pages.each do |p|
 
