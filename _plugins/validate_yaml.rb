@@ -19,6 +19,42 @@ module MyModule
       # Empty array to collect all errors across the site
       total_errors = Array.new
 
+      # All pages validator
+
+      all_pages = site.pages
+
+      all_pages.each do |p|
+
+        page_errors = Array.new
+
+          # Warn if any page content contains absolute links
+        if Regexp.new("[\\(<]https?://programminghistorian.org/*") =~ p["content"]
+          page_errors.push('It looks this page contains a full link to "https://programminghistorian.org". All internal links should start with "/" followed by the relative page path, and not use the full domain name.')
+        end
+
+        # Warn if any page content contains inesure image content
+        if Regexp.new("\\(http://\\S*(png|svg|jpg|jpeg|gif|tiff)") =~ p["content"]
+          page_errors.push('It looks like you are linking to an image using an "http" URL. Make sure all image links use "https".')
+        end
+
+        unless page_errors.empty?
+          # Throw a warning with the filename
+          warn format_red("* In #{p.dir}#{p.name}:")
+
+          # Add some formatting to the errors and then throw them
+          unit_errors = page_errors.map{|e| "  - [ ] #{e}"}
+
+          unit_errors.each do |e|
+            warn format_red(e)
+          end
+
+          # Finally, add all errors on the page to the master error list
+          total_errors.concat(page_errors)
+        end
+      end
+
+      # Lesson validator
+
       # Collect all valid topics
       valid_topics = site.data["topics"].map{|t| t["type"]}
 
@@ -46,17 +82,7 @@ module MyModule
 
       lessons.each do |p|
 
-        page_errors = Array.new
-
-        # Warn if any lesson content contains absolute links
-        if Regexp.new("[\\(<]https?://programminghistorian.org/*") =~ p["content"]
-          page_errors.push('It looks this lesson contains a full link to "https://programminghistorian.org". All internal links should start with "/" followed by the relative page path, and not use the full domain name.')
-        end
-
-        # Warn if any lesson content contains inesure image content
-        if Regexp.new("\\(http://\\S*(png|svg|jpg|jpeg|gif|tiff)") =~ p["content"]
-          page_errors.push('It looks like you are linking to an image using an "http" URL. Make sure all image links use "https".')
-        end
+        lesson_errors = Array.new
 
         # Any fields listed in exclude_from_check YAML variable will not be checked.
         excluded_fields = p.data["exclude_from_check"]
@@ -74,7 +100,7 @@ module MyModule
         # For each required field, check if it is missing on the page. If so, log an error.
         lesson_required_fields.each do |f|
           if p.data[f].nil?
-            page_errors.push("'#{f}' is missing.")
+            lesson_errors.push("'#{f}' is missing.")
           end
         end
 
@@ -83,7 +109,7 @@ module MyModule
 
         unless lesson_activity.nil?
           if !valid_activites.include?(lesson_activity)
-              page_errors.push("'#{lesson_activity}' is not a valid lesson activity.")
+              lesson_errors.push("'#{lesson_activity}' is not a valid lesson activity.")
           end
         end
 
@@ -92,7 +118,7 @@ module MyModule
         unless lesson_topics.nil?
           lesson_topics.each do |t|
             if !valid_topics.include?(t)
-              page_errors.push("'#{t}' is not a valid lesson topic.")
+              lesson_errors.push("'#{t}' is not a valid lesson topic.")
             end
           end
         end
@@ -101,7 +127,7 @@ module MyModule
 
         unless lesson_difficulty.nil?
           if !valid_difficulties.include?(lesson_difficulty)
-            page_errors.push("'#{lesson_difficulty}' is not a valid lesson difficulty.'")
+            lesson_errors.push("'#{lesson_difficulty}' is not a valid lesson difficulty.'")
           end
         end
 
@@ -109,7 +135,7 @@ module MyModule
         if p.data["original"]
           trans_lesson_required_fields.each do |f|
             if p.data[f].nil?
-              page_errors.push("'#{f}' is missing.")
+              lesson_errors.push("'#{f}' is missing.")
             end
           end
         end
@@ -118,7 +144,7 @@ module MyModule
         if p.data["original"].nil?
           orig_lesson_required_fields.each do |f|
             if p.data[f].nil?
-              page_errors.push("'#{f}' is missing.")
+              lesson_errors.push("'#{f}' is missing.")
             end
           end
         end
@@ -126,23 +152,23 @@ module MyModule
         # Check if page author names have exact matches in the ph_authors.yml
         p.data["authors"].each do |a|
           unless valid_authors.include?(a)
-            page_errors.push("'#{a}' is not currently listed in ph_authors.yml. Check your spelling.")
+            lesson_errors.push("'#{a}' is not currently listed in ph_authors.yml. Check your spelling.")
           end
         end
 
-        unless page_errors.empty?
+        unless lesson_errors.empty?
           # Throw a warning with the filename
           warn format_red("* In #{p.dir}#{p.name}:")
 
           # Add some formatting to the errors and then throw them
-          unit_errors = page_errors.map{|e| "  - [ ] #{e}"}
+          unit_errors = lesson_errors.map{|e| "  - [ ] #{e}"}
 
           unit_errors.each do |e|
             warn format_red(e)
           end
 
           # Finally, add all errors on the page to the master error list
-          total_errors.concat(page_errors)
+          total_errors.concat(lesson_errors)
         end
       end
 
@@ -151,11 +177,6 @@ module MyModule
       blog_posts.docs.each do |p|
 
         post_errors = Array.new
-
-        # Warn if any lesson content contains absolute links
-        if Regexp.new("[\\(<]https?://programminghistorian.org/*") =~ p.content
-          post_errors.push('It looks this post contains a full link to "https://programminghistorian.org". All internal links should start with "/" followed by the relative page path, and not use the full domain name.')
-        end
 
         if p.data["authors"].nil?
           post_errors.push("'authors' field is missing.")
