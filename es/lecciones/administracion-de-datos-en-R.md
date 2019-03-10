@@ -16,6 +16,7 @@ translation-editor:
 translation-reviewer:
 - Riva Quiroga
 - Victor Gayol
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/199
 layout: lesson
 original: data-wrangling-and-management-in-R
 difficulty: 2
