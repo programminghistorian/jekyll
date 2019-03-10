@@ -29,7 +29,7 @@ abstract: "Este tutorial explora la manera en que los académicos pueden adminis
 
 
 ## Requisitos
-En esta lección asumimos que tienes cierto conocimiento sobre R. Si no has completado el tutorial de [datos tabulares básicos con R](https://programminghistorian.org/es/lecciones/datos-tabulares-en-r), te recomendamos hacerlo. Saber otro lenguaje de programación también te será útil. Si necesitas un lugar donde empezar, recomendamos trabajar con los excelentes tutoriales sobre [Python](https://programminghistorian.org/es/lecciones/?topic=python) en *The Programming Historian en español*.
+En esta lección asumimos que tienes cierto conocimiento sobre R. Si no has completado el tutorial de [datos tabulares básicos con R](/es/lecciones/datos-tabulares-en-r), te recomendamos hacerlo. Saber otro lenguaje de programación también te será útil. Si necesitas un lugar donde empezar, recomendamos trabajar con los excelentes tutoriales sobre [Python](/es/lecciones/?topic=python) en *The Programming Historian en español*.
 
 ## Objetivos de la lección
 Al final de la lección,
@@ -75,7 +75,7 @@ Copia el siguiente código en R Studio. Para ejecutarlo tienes que marcar las l�
 ```
 
 ## Un ejemplo de dplyr en acción
-Veamos un ejemplo de cómo dyplr nos puede ayudar a los historiadores. Vamos a cargar los datos del censo decenal de 1790 a 2010 de Estados Unidos. Descarga los datos haciendo [click aquí](https://programminghistorian.org/assets/ejemplo_introductorio_estados.csv)[2] y ponlos en la carpeta que vas a utilizar para trabajar en los ejemplos de este tutorial.
+Veamos un ejemplo de cómo dyplr nos puede ayudar a los historiadores. Vamos a cargar los datos del censo decenal de 1790 a 2010 de Estados Unidos. Descarga los datos haciendo [click aquí](/assets/ejemplo_introductorio_estados.csv)[2] y ponlos en la carpeta que vas a utilizar para trabajar en los ejemplos de este tutorial.
 
 Como los datos están en un archivo CSV, vamos a usar el comando de lectura ```read_csv()``` en el paquete [readr](https://cran.r-project.org/web/packages/readr/vignettes/readr.html) de "tidyverse".
 
