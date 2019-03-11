@@ -196,7 +196,7 @@ install.packages("historydata")
 library(historydata)
 ```
 
-Este paquete contiene ejemplos de conjuntos de datos históricos - el ejemplo anterior con datos del censo del EEUU fue tomado de este paquete (y modificado por la traductora). A lo largo de este tutorial, vamos a trabajar con el conjunto de *early_colleges* (primeras_universidades) que contiene datos sobre las universidades fundadas antes de 1848.[^4] Lo primero que vamos a hacer es cargar los datos y leerlos:
+Este paquete contiene ejemplos de conjuntos de datos históricos - el ejemplo anterior con datos del censo del EEUU fue tomado de este paquete (y modificado por la traductora). A lo largo de este tutorial, vamos a trabajar con el conjunto de `early_colleges` (primeras_universidades) que contiene datos sobre las universidades fundadas antes de 1848.[^4] Lo primero que vamos a hacer es cargar los datos y leerlos:
 
 ```
 # Asegúrate de que has instalado y cargado el paquete historydata antes de nada
