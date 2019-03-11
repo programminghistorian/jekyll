@@ -471,7 +471,7 @@ ggplot(universidades_seculares_despues_1812) +
 {% include figure.html filename="universidades_seculares_despues_1812" caption="Número de universidades laicas y religiosas después de la Guerra de 1812" %}
 
 ## Conclusión
-Este tutorial debería darte una idea de cómo organizar y manipular tus datos en R. Más adelante quizás quieras visualizar tus datos de alguna otra forma. Te recomiendo que empieces por explorar el paquete [ggplot2](http://www.ggplot2.org/) (ver abajo) porque su conjunto de herramientas funciona muy bien con `dplyr`. Además, puede que quieras examinar alguna otra función de las que viene con `dplyr` para mejorar tus habilidades. En todo caso, esto te proporciona una buena base sobre la que construir para abarcar algunos de los problemas comunes que encontrarás.
+Este tutorial debería darte una idea de cómo organizar y manipular tus datos en R. Más adelante quizás quieras visualizar tus datos de alguna otra forma. Te recomiendo que empieces por explorar el paquete [ggplot2](https://ggplot2.tidyverse.org/) (ver abajo) porque su conjunto de herramientas funciona muy bien con `dplyr`. Además, puede que quieras examinar alguna otra función de las que viene con `dplyr` para mejorar tus habilidades. En todo caso, esto te proporciona una buena base sobre la que construir para abarcar algunos de los problemas comunes que encontrarás.
 
 ## Recursos adicionales en español
 
