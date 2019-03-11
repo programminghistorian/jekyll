@@ -40,7 +40,7 @@ Al final de la lección,
 4. aprenderás las bases del análisis exploratorio de datos a través de algunos ejemplos básicos de manipulación de datos.
 
 ## Introducción
-Los datos que puedes encontrar disponibles en red raramente están en el formato necesario para su análisis y necesitarás manipularlos antes de explorar las preguntas que te interesan. ¡Esto puede llevar más tiempo que el análisis! En este tutorial vamos a aprender algunas técnicas básicas de manipulación, manejo y administración de tus datos en R. Más específicamente, vamos a seguir la filosofía de "datos limpios" o [*"tidy data"*](https://www.jstatsoft.org/article/view/v059i10) articulada por Hadley Wickham.     
+Los datos que puedes encontrar disponibles en red raramente están en el formato necesario para su análisis y necesitarás manipularlos antes de explorar las preguntas que te interesan. ¡Esto puede llevar más tiempo que el análisis! En este tutorial vamos a aprender algunas técnicas básicas de manipulación, manejo y administración de tus datos en R. Más específicamente, vamos a seguir la filosofía de "datos limpios" o [*"tidy data"*](https://www.jstatsoft.org/article/view/v059i10) articulada por Hadley Wickham.
 
 Según [Wickham](http://hadley.nz), los datos están "limpios" cuando cumplen tres criterios:
 1. Cada observación está en una fila.
@@ -59,7 +59,7 @@ Tal vez lo más importante sea que tener nuestros datos en este formato nos perm
 En este tutorial nos enfocamos en el paquete [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html) de tidyverse pero merece la pena mencionar otros que nos encontraremos por el camino:
 
 [**magittr**](https://magrittr.tidyverse.org): Este paquete nos da acceso al el operador `%>%` y hace nuestro código más fácilmente de leer.
-[**ggplot2**](https://ggplot2.tidyverse.org): Este paquete utiliza  ["la gramática de gráficos"](http://academica-e.unavarra.es/bitstream/handle/2454/15785/Gramática.pdf?sequence=1)[1] para ofrecer una manera fácil de visualizar nuestros datos.
+[**ggplot2**](https://ggplot2.tidyverse.org): Este paquete utiliza  ["la gramática de gráficos"](http://academica-e.unavarra.es/bitstream/handle/2454/15785/Gramática.pdf?sequence=1)[^1] para ofrecer una manera fácil de visualizar nuestros datos.
 [**readr**](https://readr.tidyverse.org): Este paquete da acceso a un método más rápido y racionalizado para importar datos rectangulares (una tabla), como son los archivos CSV (valores separados por comas).
 [**tibble**](https://tibble.tidyverse.org): Este paquete nos permite reconceptualizar el formato _data frame_ (marco o tabla de datos) para que sea más fácil trabajar con ellos e imprimirlos.
 
@@ -76,7 +76,7 @@ Copia el siguiente código en R Studio. Para ejecutarlo tienes que marcar las l�
 ```
 
 ## Un ejemplo de dplyr en acción
-Veamos un ejemplo de cómo dyplr nos puede ayudar a los historiadores. Vamos a cargar los datos del censo decenal de 1790 a 2010 de Estados Unidos. Descarga los datos haciendo [click aquí](/assets/ejemplo_introductorio_estados.csv)[2] y ponlos en la carpeta que vas a utilizar para trabajar en los ejemplos de este tutorial.
+Veamos un ejemplo de cómo dyplr nos puede ayudar a los historiadores. Vamos a cargar los datos del censo decenal de 1790 a 2010 de Estados Unidos. Descarga los datos haciendo [click aquí](/assets/ejemplo_introductorio_estados.csv)[^2] y ponlos en la carpeta que vas a utilizar para trabajar en los ejemplos de este tutorial.
 
 Como los datos están en un archivo CSV, vamos a usar el comando de lectura ```read_csv()``` en el paquete [readr](https://cran.r-project.org/web/packages/readr/vignettes/readr.html) de "tidyverse".
 
@@ -91,7 +91,7 @@ importacion_poblacion_estados_eeuu <-read_csv("ejemplo_introductorio_estados.csv
 
 Una vez que importas los datos, verás que hay tres columnas: una para la población, otra para el año y otra para el estado. Estos datos ya están en un formato limpio y nos dan multitud de opciones para explorarlos.
 
-Para el particular, vamos a visualizar el crecimiento de la población de California y Nueva York para conocer mejor de la migración del oeste [3]. Vamos a usar `dplyr` para filtrar los datos que contienen solo la información de los estados que nos interesan y ggplot2 para visualizar dichos datos. Este ejercicio es solo un ejemplo para que te hagas una idea de lo que puede hacer `dplyr`, así que no te preocupes si no entiendes el código en este momento.
+Para el particular, vamos a visualizar el crecimiento de la población de California y Nueva York para conocer mejor de la migración del oeste.[^3] Vamos a usar `dplyr` para filtrar los datos que contienen solo la información de los estados que nos interesan y ggplot2 para visualizar dichos datos. Este ejercicio es solo un ejemplo para que te hagas una idea de lo que puede hacer `dplyr`, así que no te preocupes si no entiendes el código en este momento.
 
 ```
 # Filtrar solo los estados de California y Nueva York
@@ -196,7 +196,7 @@ install.packages("historydata")
 library(historydata)
 ```
 
-Este paquete contiene ejemplos de conjuntos de datos históricos - el ejemplo anterior con datos del censo del EEUU fue tomado de este paquete (y modificado por la traductora). A lo largo de este tutorial, vamos a trabajar con el conjunto de *early_colleges* (primeras_universidades) que contiene datos sobre las universidades fundadas antes de 1848[4]. Lo primero que vamos a hacer es cargar los datos y leerlos:
+Este paquete contiene ejemplos de conjuntos de datos históricos - el ejemplo anterior con datos del censo del EEUU fue tomado de este paquete (y modificado por la traductora). A lo largo de este tutorial, vamos a trabajar con el conjunto de *early_colleges* (primeras_universidades) que contiene datos sobre las universidades fundadas antes de 1848.[^4] Lo primero que vamos a hacer es cargar los datos y leerlos:
 
 ```
 # Asegúrate de que has instalado y cargado el paquete historydata antes de nada
@@ -205,18 +205,18 @@ data(early_colleges)
 early_colleges
 
 # A tibble: 65 x 6
-   college                original_name         city          state established sponsorship                 
-   <chr>                  <chr>                 <chr>         <chr>       <int> <chr>                       
+   college                original_name         city          state established sponsorship
+   <chr>                  <chr>                 <chr>         <chr>       <int> <chr>
  1 Harvard                NA                    Cambridge     MA           1636 Congregational; after 1805 …
- 2 William and Mary       NA                    Williamsburg  VA           1693 Anglican                    
- 3 Yale                   NA                    New Haven     CT           1701 Congregational              
- 4 Pennsylvania, Univ. of NA                    Philadelphia  PA           1740 Nondenominational           
- 5 Princeton              College of New Jersey Princeton     NJ           1746 Presbyterian                
- 6 Columbia               King's College        New York      NY           1754 Anglican                    
- 7 Brown                  NA                    Providence    RI           1765 Baptist                     
- 8 Rutgers                Queen's College       New Brunswick NJ           1766 Dutch Reformed              
- 9 Dartmouth              NA                    Hanover       NH           1769 Congregational              
-10 Charleston, Coll. Of   NA                    Charleston    SC           1770 Anglican                    
+ 2 William and Mary       NA                    Williamsburg  VA           1693 Anglican
+ 3 Yale                   NA                    New Haven     CT           1701 Congregational
+ 4 Pennsylvania, Univ. of NA                    Philadelphia  PA           1740 Nondenominational
+ 5 Princeton              College of New Jersey Princeton     NJ           1746 Presbyterian
+ 6 Columbia               King's College        New York      NY           1754 Anglican
+ 7 Brown                  NA                    Providence    RI           1765 Baptist
+ 8 Rutgers                Queen's College       New Brunswick NJ           1766 Dutch Reformed
+ 9 Dartmouth              NA                    Hanover       NH           1769 Congregational
+10 Charleston, Coll. Of   NA                    Charleston    SC           1770 Anglican
 # ... with 55 more rows
 ```
 Como puedes ver, este conjunto de datos contiene el nombre actual de la universidad (*original_name*), la ciudad (*city*) y el estado (*state*) en que fue fundada, la fecha en que se fundó (*established*), y la entidad responsable de su patrocinio (*sponsorship*). Como ya hemos dicho, antes de poder trabajar con un conjunto de datos, es importante pensar en cómo organizar los datos. Veamos si alguno de estos datos no está en formato "limpio" (*"tidy"*). ¿Puedes ver alguna celda que no concuerde con los tres criterio de datos limpios?
@@ -228,18 +228,18 @@ early_colleges[1,6] <- "Congregational"
 early_colleges
 
 # A tibble: 65 x 6
-   college                original_name         city          state established sponsorship      
-   <chr>                  <chr>                 <chr>         <chr>       <int> <chr>            
- 1 Harvard                NA                    Cambridge     MA           1636 Congregational   
- 2 William and Mary       NA                    Williamsburg  VA           1693 Anglican         
- 3 Yale                   NA                    New Haven     CT           1701 Congregational   
+   college                original_name         city          state established sponsorship
+   <chr>                  <chr>                 <chr>         <chr>       <int> <chr>
+ 1 Harvard                NA                    Cambridge     MA           1636 Congregational
+ 2 William and Mary       NA                    Williamsburg  VA           1693 Anglican
+ 3 Yale                   NA                    New Haven     CT           1701 Congregational
  4 Pennsylvania, Univ. of NA                    Philadelphia  PA           1740 Nondenominational
- 5 Princeton              College of New Jersey Princeton     NJ           1746 Presbyterian     
- 6 Columbia               King's College        New York      NY           1754 Anglican         
- 7 Brown                  NA                    Providence    RI           1765 Baptist          
- 8 Rutgers                Queen's College       New Brunswick NJ           1766 Dutch Reformed   
- 9 Dartmouth              NA                    Hanover       NH           1769 Congregational   
-10 Charleston, Coll. Of   NA                    Charleston    SC           1770 Anglican         
+ 5 Princeton              College of New Jersey Princeton     NJ           1746 Presbyterian
+ 6 Columbia               King's College        New York      NY           1754 Anglican
+ 7 Brown                  NA                    Providence    RI           1765 Baptist
+ 8 Rutgers                Queen's College       New Brunswick NJ           1766 Dutch Reformed
+ 9 Dartmouth              NA                    Hanover       NH           1769 Congregational
+10 Charleston, Coll. Of   NA                    Charleston    SC           1770 Anglican
 # ... with 55 more rows
 ```
 Ahora que tenemos nuestros datos en formato limpio, podemos formatearlos a través del paquete `dplyr`.
@@ -257,18 +257,18 @@ Si miramos el conjunto *early_colleges* (primeras_universidades), podemos ver qu
 select(early_colleges, college, city, state, established, sponsorship)
 
 # A tibble: 65 x 5
-   college                city          state established sponsorship      
-   <chr>                  <chr>         <chr>       <int> <chr>            
- 1 Harvard                Cambridge     MA           1636 Congregational   
- 2 William and Mary       Williamsburg  VA           1693 Anglican         
- 3 Yale                   New Haven     CT           1701 Congregational   
+   college                city          state established sponsorship
+   <chr>                  <chr>         <chr>       <int> <chr>
+ 1 Harvard                Cambridge     MA           1636 Congregational
+ 2 William and Mary       Williamsburg  VA           1693 Anglican
+ 3 Yale                   New Haven     CT           1701 Congregational
  4 Pennsylvania, Univ. of Philadelphia  PA           1740 Nondenominational
- 5 Princeton              Princeton     NJ           1746 Presbyterian     
- 6 Columbia               New York      NY           1754 Anglican         
- 7 Brown                  Providence    RI           1765 Baptist          
- 8 Rutgers                New Brunswick NJ           1766 Dutch Reformed   
- 9 Dartmouth              Hanover       NH           1769 Congregational   
-10 Charleston, Coll. Of   Charleston    SC           1770 Anglican         
+ 5 Princeton              Princeton     NJ           1746 Presbyterian
+ 6 Columbia               New York      NY           1754 Anglican
+ 7 Brown                  Providence    RI           1765 Baptist
+ 8 Rutgers                New Brunswick NJ           1766 Dutch Reformed
+ 9 Dartmouth              Hanover       NH           1769 Congregational
+10 Charleston, Coll. Of   Charleston    SC           1770 Anglican
 # ... with 55 more rows
  ```
 
@@ -279,18 +279,18 @@ early_colleges%>%
     select(college, city, state, established, sponsorship)
 
 # A tibble: 65 x 5
-   college                city          state established sponsorship      
-   <chr>                  <chr>         <chr>       <int> <chr>            
- 1 Harvard                Cambridge     MA           1636 Congregational   
- 2 William and Mary       Williamsburg  VA           1693 Anglican         
- 3 Yale                   New Haven     CT           1701 Congregational   
+   college                city          state established sponsorship
+   <chr>                  <chr>         <chr>       <int> <chr>
+ 1 Harvard                Cambridge     MA           1636 Congregational
+ 2 William and Mary       Williamsburg  VA           1693 Anglican
+ 3 Yale                   New Haven     CT           1701 Congregational
  4 Pennsylvania, Univ. of Philadelphia  PA           1740 Nondenominational
- 5 Princeton              Princeton     NJ           1746 Presbyterian     
- 6 Columbia               New York      NY           1754 Anglican         
- 7 Brown                  Providence    RI           1765 Baptist          
- 8 Rutgers                New Brunswick NJ           1766 Dutch Reformed   
- 9 Dartmouth              Hanover       NH           1769 Congregational   
-10 Charleston, Coll. Of   Charleston    SC           1770 Anglican         
+ 5 Princeton              Princeton     NJ           1746 Presbyterian
+ 6 Columbia               New York      NY           1754 Anglican
+ 7 Brown                  Providence    RI           1765 Baptist
+ 8 Rutgers                New Brunswick NJ           1766 Dutch Reformed
+ 9 Dartmouth              Hanover       NH           1769 Congregational
+10 Charleston, Coll. Of   Charleston    SC           1770 Anglican
 # ... with 55 more rows
 ```
 
@@ -301,18 +301,18 @@ early_colleges%>%
     select(-original_name)
 
     # A tibble: 65 x 5
-       college                city          state established sponsorship      
-       <chr>                  <chr>         <chr>       <int> <chr>            
-     1 Harvard                Cambridge     MA           1636 Congregational   
-     2 William and Mary       Williamsburg  VA           1693 Anglican         
-     3 Yale                   New Haven     CT           1701 Congregational   
+       college                city          state established sponsorship
+       <chr>                  <chr>         <chr>       <int> <chr>
+     1 Harvard                Cambridge     MA           1636 Congregational
+     2 William and Mary       Williamsburg  VA           1693 Anglican
+     3 Yale                   New Haven     CT           1701 Congregational
      4 Pennsylvania, Univ. of Philadelphia  PA           1740 Nondenominational
-     5 Princeton              Princeton     NJ           1746 Presbyterian     
-     6 Columbia               New York      NY           1754 Anglican         
-     7 Brown                  Providence    RI           1765 Baptist          
-     8 Rutgers                New Brunswick NJ           1766 Dutch Reformed   
-     9 Dartmouth              Hanover       NH           1769 Congregational   
-    10 Charleston, Coll. Of   Charleston    SC           1770 Anglican         
+     5 Princeton              Princeton     NJ           1746 Presbyterian
+     6 Columbia               New York      NY           1754 Anglican
+     7 Brown                  Providence    RI           1765 Baptist
+     8 Rutgers                New Brunswick NJ           1766 Dutch Reformed
+     9 Dartmouth              Hanover       NH           1769 Congregational
+    10 Charleston, Coll. Of   Charleston    SC           1770 Anglican
     # ... with 55 more rows
 ```
 
@@ -325,31 +325,31 @@ early_colleges%>%
     filter(established < 1800)
 
     # A tibble: 20 x 6
-       college                  original_name         city           state established sponsorship              
-       <chr>                    <chr>                 <chr>          <chr>       <int> <chr>                    
-     1 Harvard                  NA                    Cambridge      MA           1636 Congregational           
-     2 William and Mary         NA                    Williamsburg   VA           1693 Anglican                 
-     3 Yale                     NA                    New Haven      CT           1701 Congregational           
-     4 Pennsylvania, Univ. of   NA                    Philadelphia   PA           1740 Nondenominational        
-     5 Princeton                College of New Jersey Princeton      NJ           1746 Presbyterian             
-     6 Columbia                 King's College        New York       NY           1754 Anglican                 
-     7 Brown                    NA                    Providence     RI           1765 Baptist                  
-     8 Rutgers                  Queen's College       New Brunswick  NJ           1766 Dutch Reformed           
-     9 Dartmouth                NA                    Hanover        NH           1769 Congregational           
-    10 Charleston, Coll. Of     NA                    Charleston     SC           1770 Anglican                 
-    11 Hampden-Sydney           NA                    Hampden-Sydney VA           1775 Presbyterian             
-    12 Transylvania             NA                    Lexington      KY           1780 Disciples of Christ      
-    13 Georgia, Univ. of        NA                    Athens         GA           1785 Secular                  
-    14 Georgetown               NA                    Washington     DC           1789 Roman Catholic           
-    15 North Carolina, Univ. of NA                    Chapel Hill    NC           1789 Secular                  
-    16 Vermont, Univ. of        NA                    Burlington     VT           1791 Nondenominational        
-    17 Williams                 NA                    Williamstown   MA           1793 Congregational           
-    18 Tennessee, Univ. of      Blount College        Knoxville      TN           1794 Secular                  
+       college                  original_name         city           state established sponsorship
+       <chr>                    <chr>                 <chr>          <chr>       <int> <chr>
+     1 Harvard                  NA                    Cambridge      MA           1636 Congregational
+     2 William and Mary         NA                    Williamsburg   VA           1693 Anglican
+     3 Yale                     NA                    New Haven      CT           1701 Congregational
+     4 Pennsylvania, Univ. of   NA                    Philadelphia   PA           1740 Nondenominational
+     5 Princeton                College of New Jersey Princeton      NJ           1746 Presbyterian
+     6 Columbia                 King's College        New York       NY           1754 Anglican
+     7 Brown                    NA                    Providence     RI           1765 Baptist
+     8 Rutgers                  Queen's College       New Brunswick  NJ           1766 Dutch Reformed
+     9 Dartmouth                NA                    Hanover        NH           1769 Congregational
+    10 Charleston, Coll. Of     NA                    Charleston     SC           1770 Anglican
+    11 Hampden-Sydney           NA                    Hampden-Sydney VA           1775 Presbyterian
+    12 Transylvania             NA                    Lexington      KY           1780 Disciples of Christ
+    13 Georgia, Univ. of        NA                    Athens         GA           1785 Secular
+    14 Georgetown               NA                    Washington     DC           1789 Roman Catholic
+    15 North Carolina, Univ. of NA                    Chapel Hill    NC           1789 Secular
+    16 Vermont, Univ. of        NA                    Burlington     VT           1791 Nondenominational
+    17 Williams                 NA                    Williamstown   MA           1793 Congregational
+    18 Tennessee, Univ. of      Blount College        Knoxville      TN           1794 Secular
     19 Union College            NA                    Schenectady    NY           1795 Presbyterian with Congre…
     20 Marietta                 NA                    Marietta       OH           1797 Congregational
 ```
 
-### ```mutate``` (mutar)  
+### ```mutate``` (mutar)
 
 El comando ```mutate``` nos permite añadir una columna al conjunto de datos. Ahora mismo, tenemos la ciudad y el estado en dos columnas diferentes. Podemos usar el comando de pegar (```paste```) para combinar dos cadenas de caracteres y especificar un separador. Pongámoslas en una única columna llamada "location" (lugar):
 
@@ -357,18 +357,18 @@ El comando ```mutate``` nos permite añadir una columna al conjunto de datos. Ah
 early_colleges%>%mutate(location=paste(city,state,sep=","))
 
 # A tibble: 65 x 7
-   college                original_name         city          state established sponsorship       location        
-   <chr>                  <chr>                 <chr>         <chr>       <int> <chr>             <chr>           
- 1 Harvard                NA                    Cambridge     MA           1636 Congregational    Cambridge,MA    
+   college                original_name         city          state established sponsorship       location
+   <chr>                  <chr>                 <chr>         <chr>       <int> <chr>             <chr>
+ 1 Harvard                NA                    Cambridge     MA           1636 Congregational    Cambridge,MA
  2 William and Mary       NA                    Williamsburg  VA           1693 Anglican          Williamsburg,VA
- 3 Yale                   NA                    New Haven     CT           1701 Congregational    New Haven,CT    
+ 3 Yale                   NA                    New Haven     CT           1701 Congregational    New Haven,CT
  4 Pennsylvania, Univ. of NA                    Philadelphia  PA           1740 Nondenominational Philadelphia,PA
- 5 Princeton              College of New Jersey Princeton     NJ           1746 Presbyterian      Princeton,NJ    
- 6 Columbia               King's College        New York      NY           1754 Anglican          New York,NY     
- 7 Brown                  NA                    Providence    RI           1765 Baptist           Providence,RI   
+ 5 Princeton              College of New Jersey Princeton     NJ           1746 Presbyterian      Princeton,NJ
+ 6 Columbia               King's College        New York      NY           1754 Anglican          New York,NY
+ 7 Brown                  NA                    Providence    RI           1765 Baptist           Providence,RI
  8 Rutgers                Queen's College       New Brunswick NJ           1766 Dutch Reformed    New Brunswick,NJ
- 9 Dartmouth              NA                    Hanover       NH           1769 Congregational    Hanover,NH      
-10 Charleston, Coll. Of   NA                    Charleston    SC           1770 Anglican          Charleston,SC   
+ 9 Dartmouth              NA                    Hanover       NH           1769 Congregational    Hanover,NH
+10 Charleston, Coll. Of   NA                    Charleston    SC           1770 Anglican          Charleston,SC
 # ... with 55 more rows
 ```
 
@@ -382,48 +382,48 @@ primeras_universidades_con_localizacion <- early_colleges%>%
 primeras_universidades_con_localizacion
 
 # A tibble: 65 x 7
-   college                original_name         city          state established sponsorship       location        
-   <chr>                  <chr>                 <chr>         <chr>       <int> <chr>             <chr>           
- 1 Harvard                NA                    Cambridge     MA           1636 Congregational    Cambridge,MA    
+   college                original_name         city          state established sponsorship       location
+   <chr>                  <chr>                 <chr>         <chr>       <int> <chr>             <chr>
+ 1 Harvard                NA                    Cambridge     MA           1636 Congregational    Cambridge,MA
  2 William and Mary       NA                    Williamsburg  VA           1693 Anglican          Williamsburg,VA
- 3 Yale                   NA                    New Haven     CT           1701 Congregational    New Haven,CT    
+ 3 Yale                   NA                    New Haven     CT           1701 Congregational    New Haven,CT
  4 Pennsylvania, Univ. of NA                    Philadelphia  PA           1740 Nondenominational Philadelphia,PA
- 5 Princeton              College of New Jersey Princeton     NJ           1746 Presbyterian      Princeton,NJ    
- 6 Columbia               King's College        New York      NY           1754 Anglican          New York,NY     
- 7 Brown                  NA                    Providence    RI           1765 Baptist           Providence,RI   
+ 5 Princeton              College of New Jersey Princeton     NJ           1746 Presbyterian      Princeton,NJ
+ 6 Columbia               King's College        New York      NY           1754 Anglican          New York,NY
+ 7 Brown                  NA                    Providence    RI           1765 Baptist           Providence,RI
  8 Rutgers                Queen's College       New Brunswick NJ           1766 Dutch Reformed    New Brunswick,NJ
- 9 Dartmouth              NA                    Hanover       NH           1769 Congregational    Hanover,NH      
-10 Charleston, Coll. Of   NA                    Charleston    SC           1770 Anglican          Charleston,SC   
+ 9 Dartmouth              NA                    Hanover       NH           1769 Congregational    Hanover,NH
+10 Charleston, Coll. Of   NA                    Charleston    SC           1770 Anglican          Charleston,SC
 # ... with 55 more rows
 ```
 
 ### ```arrange```(ordenar)
 
-La función ```arrange``` nos permite ordenar nuestras columnas de una nueva forma. Ahora mismo, las universidades están organizadas por año en orden ascendiente. Pongámoslas en el orden descendiente de fundación desde, en este caso, el fin de la guerra con México en 1848[5].
+La función ```arrange``` nos permite ordenar nuestras columnas de una nueva forma. Ahora mismo, las universidades están organizadas por año en orden ascendiente. Pongámoslas en el orden descendiente de fundación desde, en este caso, el fin de la guerra con México en 1848.[^5]
 
 ```
 early_colleges %>%
    arrange(desc(established))
 
 # A tibble: 65 x 6
-   college               original_name city        state established sponsorship   
-   <chr>                 <chr>         <chr>       <chr>       <int> <chr>         
- 1 Wisconsin, Univ. of   NA            Madison     WI           1848 Secular       
- 2 Earlham               NA            Richmond    IN           1847 Quaker        
+   college               original_name city        state established sponsorship
+   <chr>                 <chr>         <chr>       <chr>       <int> <chr>
+ 1 Wisconsin, Univ. of   NA            Madison     WI           1848 Secular
+ 2 Earlham               NA            Richmond    IN           1847 Quaker
  3 Beloit                NA            Beloit      WI           1846 Congregational
- 4 Bucknell              NA            Lewisburg   PA           1846 Baptist       
+ 4 Bucknell              NA            Lewisburg   PA           1846 Baptist
  5 Grinnell              NA            Grinnell    IA           1846 Congregational
- 6 Mount Union           NA            Alliance    OH           1846 Methodist     
- 7 Louisiana, Univ. of   NA            New Orleans LA           1845 Secular       
- 8 U.S. Naval Academy    NA            Annapolis   MD           1845 Secular       
- 9 Mississipps, Univ. of NA            Oxford      MI           1844 Secular       
+ 6 Mount Union           NA            Alliance    OH           1846 Methodist
+ 7 Louisiana, Univ. of   NA            New Orleans LA           1845 Secular
+ 8 U.S. Naval Academy    NA            Annapolis   MD           1845 Secular
+ 9 Mississipps, Univ. of NA            Oxford      MI           1844 Secular
 10 Holy Cross            NA            Worchester  MA           1843 Roman Catholic
 # ... with 55 more rows
 ```
 
 ### ```summarise``` (resumir)
 
-La última función clave en `dplyr` es ```summarise()``` - en ortografía británica (con 's') o en estadounidense (con 'z'). ```summarise()``` toma una función u operación y generalmente se usa para crear un _data frame_ que contiene los datos estadísticos de resumen y que podemos visualizar en forma de gráfico. Aquí la vamos a usar para calcular el año promedio en que se fundaron las universidades antes de 1848. 
+La última función clave en `dplyr` es ```summarise()``` - en ortografía británica (con 's') o en estadounidense (con 'z'). ```summarise()``` toma una función u operación y generalmente se usa para crear un _data frame_ que contiene los datos estadísticos de resumen y que podemos visualizar en forma de gráfico. Aquí la vamos a usar para calcular el año promedio en que se fundaron las universidades antes de 1848.
 
 ```
 early_colleges%>%summarise(mean(established))
@@ -437,7 +437,7 @@ early_colleges%>%summarise(mean(established))
 
 ## Poniéndolo todo junto
 
-Ahora que hemos aprendido los cinco verbos principales para `dplyr`, podemos usarlos para crear rápidas visualizaciones de nuestros datos. Vamos a crear un gráfico de barras mostrando el número de universidades laicas y religiosas antes de la Guerra de EEUU de 1812[6]:
+Ahora que hemos aprendido los cinco verbos principales para `dplyr`, podemos usarlos para crear rápidas visualizaciones de nuestros datos. Vamos a crear un gráfico de barras mostrando el número de universidades laicas y religiosas antes de la Guerra de EEUU de 1812[^6]:
 
 ```
 universidades_seculares_antes_1812 <- early_colleges%>%
@@ -479,11 +479,16 @@ Este tutorial debería darte una idea de cómo organizar y manipular tus datos e
 
 * Esta "[Guía rápida de visualización de datos con ggplot2](https://www.rstudio.com/wp-content/uploads/2016/12/ggplot2-cheatsheet-2.1-Spanish.pdf)" u hoja de referencia de ggplot2 (*cheatheet*) tiene un buen resumen de las funciones del paquete para la visualización de datos. La proporciona y actualiza el equipo de RStudio (2016).
 
-* Tanto la *[Guía  para  la  Presentación  de  Gráficos  Estadísticos](https://www.inei.gob.pe/media/MenuRecursivo/metodologias/libro.pdf),* del Instituto  Nacional  de Estadística e Informática (2009) así como la [*Gramática de las gráficas: Pistas para mejorar las representaciones de datos*](http://academica-e.unavarra.es/bitstream/handle/2454/15785/Gramática.pdf?sequence=1) de Joaquín Sevilla Moróder ofrecen explicaciones de cómo presentar tus datos y errores a evitar.  
+* Tanto la *[Guía  para  la  Presentación  de  Gráficos  Estadísticos](https://www.inei.gob.pe/media/MenuRecursivo/metodologias/libro.pdf),* del Instituto  Nacional  de Estadística e Informática (2009) así como la [*Gramática de las gráficas: Pistas para mejorar las representaciones de datos*](http://academica-e.unavarra.es/bitstream/handle/2454/15785/Gramática.pdf?sequence=1) de Joaquín Sevilla Moróder ofrecen explicaciones de cómo presentar tus datos y errores a evitar.
 
-[1]:En el tutorial original se hace referencia al libro "[The Grammar of Graphics](https://www.springer.com/us/book/9780387245447)" (2005) de Wilkinson.
-[2]:Este listado contiene el censo de la población de cada estado desde 1790, es decir, a partir de la formación de los Estados Unidos de América. De esta manera, el listado comienza con 15 estados (los 13 primeros estados eran ya parte del país desde su [independencia en 1776](https://es.wikipedia.org/wiki/Declaración_de_Independencia_de_los_Estados_Unidos), pero no se ratificó su admisión hasta la [Constitución de 1787](https://es.wikipedia.org/wiki/Constitución_de_los_Estados_Unidos)), los del noreste y parte del sureste, a los que se van añadiendo territorios (que luego se convertirán en estado) a lo largo de los siglos XIX y XX, hasta llegar a la actual división territorial del país: [50 estados](https://es.wikipedia.org/wiki/Anexo:Estados_y_Territorios_de_los_Estados_Unidos#Lista_de_estados), un [distrito federal](https://es.wikipedia.org/wiki/Anexo:Estados_y_Territorios_de_los_Estados_Unidos#Distrito_Federal) y varios [territorios no incorporados](https://es.wikipedia.org/wiki/Anexo:Estados_y_Territorios_de_los_Estados_Unidos#Territorios) (Puerto Rico aparece en este censo pero no es un estado como tal, sino un [estado libre asociado](https://es.wikipedia.org/wiki/Estado_libre_asociado) o territorio). Se han traducido los datos originales (en inglés) al español. [N. de la T.]    
-[3]:[La migración hacia el oeste de los Estados Unidos](https://es.wikipedia.org/wiki/Historia_territorial_de_los_Estados_Unidos) se dio durante el siglo XIX a partir de la compra de Luisiana (a Francia) y hasta su llegada a la costa Pacífico, despojando a los norteamericanos nativos de sus tierras mediante la violencia. Nótese, además, que California fue incorporada a los Estados Unidos en 1850, tras su cesión por parte de México al finalizar la guerra entre ambos países (1846-1848) por el [Tratado de Guadalupe Hidalgo](https://es.wikipedia.org/wiki/Tratado_de_Guadalupe_Hidalgo).
-[4]:No traducimos estos conjunto pero, por suerte, los datos son bastante intuitivos al tratarse de nombres propios, ciudades, años e iglesias cuyos nombres son cognados entre inglés y español (Anglican por anglicana, Presbyterian por presbiteriana, etc.) [N.de la T.]
-[5]:La también llamada [Guerra Mexico-Americana](https://es.wikipedia.org/wiki/Intervención_estadounidense_en_México) fue la guerra librada entre los Estados Unidos y México desde 1846 hasta la firma del [Tratado de Guadalupe Hidalgo](https://es.wikipedia.org/wiki/Tratado_de_Guadalupe_Hidalgo) en 1848 y la [cesión mexicana](https://es.wikipedia.org/wiki/Cesión_mexicana).
-[6]La [Guerra de 1812](https://es.wikipedia.org/wiki/Guerra_anglo-estadounidense_de_1812), o guerra anglo-estadounidense, enfrentó a los EEUU contra el Reino Unido al tratar los primeros de conquistar los territorios coloniales de los segundos. Finalizó en 1815.
+[^1]: En el tutorial original se hace referencia al libro "[The Grammar of Graphics](https://www.springer.com/us/book/9780387245447)" (2005) de Wilkinson.
+
+[^2]: Este listado contiene el censo de la población de cada estado desde 1790, es decir, a partir de la formación de los Estados Unidos de América. De esta manera, el listado comienza con 15 estados (los 13 primeros estados eran ya parte del país desde su [independencia en 1776](https://es.wikipedia.org/wiki/Declaración_de_Independencia_de_los_Estados_Unidos), pero no se ratificó su admisión hasta la [Constitución de 1787](https://es.wikipedia.org/wiki/Constitución_de_los_Estados_Unidos)), los del noreste y parte del sureste, a los que se van añadiendo territorios (que luego se convertirán en estado) a lo largo de los siglos XIX y XX, hasta llegar a la actual división territorial del país: [50 estados](https://es.wikipedia.org/wiki/Anexo:Estados_y_Territorios_de_los_Estados_Unidos#Lista_de_estados), un [distrito federal](https://es.wikipedia.org/wiki/Anexo:Estados_y_Territorios_de_los_Estados_Unidos#Distrito_Federal) y varios [territorios no incorporados](https://es.wikipedia.org/wiki/Anexo:Estados_y_Territorios_de_los_Estados_Unidos#Territorios) (Puerto Rico aparece en este censo pero no es un estado como tal, sino un [estado libre asociado](https://es.wikipedia.org/wiki/Estado_libre_asociado) o territorio). Se han traducido los datos originales (en inglés) al español. [N. de la T.]
+
+[^3]: [La migración hacia el oeste de los Estados Unidos](https://es.wikipedia.org/wiki/Historia_territorial_de_los_Estados_Unidos) se dio durante el siglo XIX a partir de la compra de Luisiana (a Francia) y hasta su llegada a la costa Pacífico, despojando a los norteamericanos nativos de sus tierras mediante la violencia. Nótese, además, que California fue incorporada a los Estados Unidos en 1850, tras su cesión por parte de México al finalizar la guerra entre ambos países (1846-1848) por el [Tratado de Guadalupe Hidalgo](https://es.wikipedia.org/wiki/Tratado_de_Guadalupe_Hidalgo).
+
+[^4]: No traducimos estos conjunto pero, por suerte, los datos son bastante intuitivos al tratarse de nombres propios, ciudades, años e iglesias cuyos nombres son cognados entre inglés y español (Anglican por anglicana, Presbyterian por presbiteriana, etc.) [N.de la T.]
+
+[^5]: La también llamada [Guerra Mexico-Americana](https://es.wikipedia.org/wiki/Intervención_estadounidense_en_México) fue la guerra librada entre los Estados Unidos y México desde 1846 hasta la firma del [Tratado de Guadalupe Hidalgo](https://es.wikipedia.org/wiki/Tratado_de_Guadalupe_Hidalgo) en 1848 y la [cesión mexicana](https://es.wikipedia.org/wiki/Cesión_mexicana).
+
+[^6]: La [Guerra de 1812](https://es.wikipedia.org/wiki/Guerra_anglo-estadounidense_de_1812), o guerra anglo-estadounidense, enfrentó a los EEUU contra el Reino Unido al tratar los primeros de conquistar los territorios coloniales de los segundos. Finalizó en 1815.
