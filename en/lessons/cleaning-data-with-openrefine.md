@@ -422,5 +422,5 @@ the case you have made an error.
   [regular expression]: http://en.wikipedia.org/wiki/Regular_expression
     "Regular Expressions"
   [CSV]: http://en.wikipedia.org/wiki/Comma-separated_values
-  [RDF Refine extension]: http://refine.deri.ie/docs
+  [RDF Refine extension]: http://web.archive.org/web/20180113121435/http://refine.deri.ie/docs
   [NER extension]: https://github.com/RubenVerborgh/Refine-NER-Extension
