@@ -18,7 +18,7 @@ translation-reviewer:
 - Victor Gayol
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/199
 layout: lesson
-original: data-wrangling-and-management-in-R
+original: data_wrangling_and_management_in_R
 difficulty: 2
 activity: transforming
 topics: [data-manipulation, data-management, distant-reading]
