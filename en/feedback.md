@@ -22,7 +22,7 @@ Thank you for taking the time to report a problem or suggest a change. Your assi
 
 
 ## Option 1: Email or Tweet
-Contact <a href="mailto:anandi.silva.knuppel@emory.edu">Anandi Silva Knuppel</a> at Emory University or one of the other members of our [Project Team](project-team.html). You can also tweet [@ProgHist](https://twitter.com/proghist).
+Contact <a href="mailto:a.crymble@herts.ac.uk">Adam Crymble</a> at Emory University or one of the other members of our [Project Team](project-team.html). You can also tweet [@ProgHist](https://twitter.com/proghist).
 
 ## Option 2: Open an Issue on GitHub
 This is our preferred way of handling feedback since all our editors are able to see and respond to your issue.
