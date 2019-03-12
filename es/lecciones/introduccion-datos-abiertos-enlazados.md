@@ -212,15 +212,16 @@ Turtle usa alias o atajos conocidos como [prefijos](https://www.w3.org/TeamSubmi
 
 No queremos escribir esto cada vez que nos referimos a esta persona (Jack Straw, como recordarás). Entonces sólo tenemos que anunciar nuestro atajo:
 
-    @prefix toby: <http://data.history.ac.uk/tobias-project/person>
+    @prefix toby: <http://data.history.ac.uk/tobias-project/person> .
 
 Así, Jack es `toby:15601`, que reemplaza el URI largo y es más fácil de leer. He elegido 'toby', pero podría haber elegido cualquier cadena de letras con la misma facilidad.
 
 Pasemos ahora de Jack Straw a William Shakespeare y usemos Turtle para describir algunos elementos sobre sus obras. Tendremos que decidir qué archivos de autoridad usar, un proceso que, como se mencionó anteriormente, se optimiza si consultamos otros conjuntos de LOD. Aquí usaremos [Dublin Core](https://es.wikipedia.org/wiki/Dublin_Core), un estándar de [metadatos](https://es.wikipedia.org/wiki/Metadato) usado por las bibliotecas, como uno de nuestros prefijos, el archivo de autoridad del [Número de control de la Biblioteca del Congreso](https://es.wikipedia.org/wiki/Library_of_Congress_Control_Number) para otro, y el último (VIAF) debería serte familiar. En conjunto, estos tres archivos de autoridad proporcionan identificadores únicos para todas las entidades que planeo usar en este ejemplo:
 
-    @prefix lccn: <http://id.loc.gov/authorities/names>
-    @prefix dc: <http://purl.org/dc/elements/1.1/>
-    @prefix viaf: <http://viaf.org/viaf>
+    @prefix lccn: <http://id.loc.gov/authorities/names> .
+    @prefix dc: <http://purl.org/dc/elements/1.1/> .
+    @prefix viaf: <http://viaf.org/viaf> .
+
     lccn:n82011242 dc:creator viaf:96994048 .
 
 Ten en cuenta el espaciado del punto final después de la última línea. Esta es la forma de Turtle de indicar el final. Técnicamente no tiene que tener el espacio, pero lo hace más fácil de leer después de una larga cadena de caracteres.
@@ -229,10 +230,10 @@ En el ejemplo anterior, lccn: n82011242 representa a Macbeth; dc: creator vincul
 
 Turtle también te permite listar tripletas sin molestarte en repetir cada URI cuando acabas de usarlo. Agreguemos la fecha en la que los expertos creen que Macbeth fue escrita utilizando el par atributo-valor de Dublin Core:`dc: created 'YYYY'` :
 
-    @prefix lccn: <http://id.loc.gov/authorities/names>
-    @prefix dc: <http://purl.org/dc/elements/1.1/>
-    @prefix viaf: <http://viaf.org/viaf>
-    lccn: n82011242   dc: creator   viaf: 96994048 ,
+    @prefix lccn: <http://id.loc.gov/authorities/names> .
+    @prefix dc: <http://purl.org/dc/elements/1.1/> .
+    @prefix viaf: <http://viaf.org/viaf> .
+    lccn: n82011242   dc: creator   viaf: 96994048 ;
             dc: created   "1606"   .
 
 ¿Recuerdas la estructura de la tripleta, discutida en la sección 1? Allí pusimos este ejemplo:
