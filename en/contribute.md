@@ -16,7 +16,7 @@ Writing a tutorial is one of the best ways to teach yourself particular skills a
 
 We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft your essay to be as clear and as useful as possible--a great way to improve your technical writing skills. Please read more about our [submission process][submissions].
 
-If you'd like to propose a lesson (for you or for someone else to write), email <a href="mailto:anandi.silva.knuppel@emory.edu">Anandi Silva Knuppel</a>.
+If you'd like to propose a lesson (for you or for someone else to write), email <a href="mailto:a.crymble@herts.ac.uk">Adam Crymble</a>.
 
 ## Join our team of reviewers
 
@@ -24,7 +24,7 @@ If you'd like to propose a lesson (for you or for someone else to write), email 
 
 The _Programming Historian_ holds peer review in the highest regard, and we take an open and collaborative approach in which reviewers get full and public credit for their work. For more on our review philosophy and procedures, please see the [Guidelines for Reviewers][reviewers].
 
-We hope you'll consider joining our team of reviewers. The time commitment is flexible, you'll learn a lot, and contribute to a widely-used and highly-valued resource. Please email <a href="mailto:anandi.silva.knuppel@emory.edu">Anandi Silva Knuppel</a> to introduce yourself and let us know any specific skills, tools, topics, and technologies that you'd like to focus on.
+We hope you'll consider joining our team of reviewers. The time commitment is flexible, you'll learn a lot, and contribute to a widely-used and highly-valued resource. Please email <a href="mailto:a.crymble@herts.ac.uk">Adam Crymble</a> to introduce yourself and let us know any specific skills, tools, topics, and technologies that you'd like to focus on.
 
 
 ## Edit lessons
@@ -69,7 +69,7 @@ The English edition of the project is indexed by the [Directory of Open Access J
 
 ## Make a suggestion
 
-No matter how you'd like to be involved, you can always email <a href="mailto:anandi.silva.knuppel@emory.edu">Anandi Silva Knuppel</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
+No matter how you'd like to be involved, you can always email <a href="mailto:a.crymble@herts.ac.uk">Adam Crymble</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
 
 
 Thanks for your help in improving the _Programming Historian_!

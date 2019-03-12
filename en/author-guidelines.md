@@ -15,8 +15,7 @@ redirect_from:
 
 ## Proposing a New Lesson
 
-If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, complete a lesson [proposal form](/assets/forms/Lesson.Query.Form.txt) and contact [Anandi Silva Knuppel] to discuss your idea. Getting in touch at an early stage will help you frame your lesson--especially identifying a target audience and expected skill level--and to pair you with the most appropriate editor.
-
+If you have an idea for a new lesson, or have already written a tutorial that you think could be adapted for the *Programming Historian*, complete a lesson [proposal form](/assets/forms/Lesson.Query.Form.txt) and contact [Adam Crymble] to discuss your idea. Getting in touch at an early stage will help you frame your lesson--especially identifying a target audience and expected skill level--and to pair you with the most appropriate editor.
 
 <div class="alert alert-success">
 We welcome tutorials relevant for the humanities, pitched at any level of technical aptitude and experience that focus on one problem or process, can be sustainable in the long term, and are addressed to a global audience. The scope and length of the tutorial should be appropriate to the complexity of the task being taught. Tutorials should not exceed 8,000 words (including code) without the explicit permission of the editor, which will be granted only in exceptional circumstances. We expect that most lessons will be between 4,000 and 6,000 words. Longer lessons may need to be split into multiple tutorials.
