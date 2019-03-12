@@ -18,11 +18,11 @@ Le _Programming Historian en français_ adhère aux principes de l'open source. 
 
 
 ## Voie dorée (Gold Open Access)
-Tout dépôt fait sur le _Programming Historian en français_ est publié sous [licence Creative Commons 'CC-BY'](https://creativecommons.org/licenses/by/4.0/deed.fr) selon le modèle de publication en libre accès de la '[voie dorée](https://fr.wikipedia.org/wiki/Libre_acc%C3%A8s_(%C3%A9dition_scientifique))'. Ce modèle suit pleinement la [Déclaration de Berlin sur le libre accès à la connaissance en sciences exactes, sciences de la vie, sciences humaines et sociales](http://www.berlin9.org/about/declaration/), la politique du [RCUK](http://www.rcuk.ac.uk/research/openaccess/) et du [HEFCE](http://www.hefce.ac.uk/rsrch/oa/) en matière de publications scientifiques au Royaume-Uni, ainsi que la [Politique des trois organismes sur le libre accès aux publications](http://www.science.gc.ca/eic/site/063.nsf/fra/h_F6765465.html?OpenDocument) du Canada. Suivant le modèle de la 'voie dorée', une version électronique de la publication est en libre accès sans aucune restriction. De leur côté, les auteur(e)s ont la permission de republier leurs tutoriels où il(elle)s le souhaitent. Les contenus peuvent être repris par tout un chacun à condition que l'auteur(e) soit cité(e) et que ses droits soient respectés.
+Tout dépôt fait sur le _Programming Historian en français_ est publié sous [licence Creative Commons 'CC-BY'](https://creativecommons.org/licenses/by/4.0/deed.fr) selon le modèle de publication en libre accès de la '[voie dorée](https://fr.wikipedia.org/wiki/Libre_acc%C3%A8s_(%C3%A9dition_scientifique))'. La version électronique de la publication est en libre accès sans aucune restriction et les auteur(e)s ont la permission de republier leurs tutoriels ailleurs. Les contenus peuvent être repris par tout un chacun à condition que l'auteur(e) soit cité(e) et que ses droits soient respectés.
 
 Nous ne faisons payer ni frais de publication d'articles (APC) ni abonnements à des bibliothèques.
 
-Le _Programming Historian en français_ (ISSN xxxx-xxxx) est recensé dans le répertoire de revues en libre accès [DOAJ](https://doaj.org/toc/2397-2068).
+Le _Programming Historian_ (ISSN 2397-2068) est recensé dans le répertoire de revues en libre accès [DOAJ](https://doaj.org/toc/2397-2068).
 
 ## Politique de diversité
 
@@ -31,7 +31,7 @@ Le _Programming Historian en français_ s'attache au principe de la diversité. 
 ## Financement & proprieté
 
 Une liste de nos donateurs et des soutiens reçus est consultable sur la page qui expose comment vous pouvez ['nous soutenir']({{site.baseurl}}/fr/nous-soutenir).
-Le _Programming Historian_  est un projet mené par des volontaires et publié par le conseil éditorial du _Programming Historian_.
+Le _Programming Historian_ est un projet mené par des volontaires et publié par le conseil éditorial du _Programming Historian_.
 
 ## Histoire du projet
 
