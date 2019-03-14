@@ -1,0 +1,3 @@
+{% for me-lang in site.data.snippets.language-list %}
+- {% include managing-editor.html lang=me-lang%} ({{ site.data.snippets.language-name[me-lang][page.lang] }})
+{% endfor %}

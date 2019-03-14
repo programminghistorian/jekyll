@@ -1,0 +1,2 @@
+{% assign me = site.data.ph_authors | where: "name", site.data.snippets.managing_editor[include.lang] | first %}
+[{{ me.name }}](mailto:{{ me.email }})
