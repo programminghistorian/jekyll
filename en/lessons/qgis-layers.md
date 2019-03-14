@@ -106,7 +106,7 @@ making the downloads quick! Download PEI shapefiles:
 4.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=forest_35&file_format=SHP>
 5.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=nat_parks&file_format=SHP>
 6.  [PEI Highways][]
-7.  [PEI Places][] 
+7.  [PEI Places][]
 
 -   After downloading all seven files, move them into a folder and unzip
     the zipped files. Take a look at the contents of the folders. You
@@ -469,7 +469,7 @@ save your work!**
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
   [NRCan's website]: http://www.nrcan.gc.ca/earth-sciences/geography-boundary/mapping/topographic-mapping/10272
   [Double Stereographic projection]: http://www.gov.pe.ca/gis/index.php3?number=77865&lang=E
-  [Tutorial: Working with Projections in QGIS]: http://qgis.spatialthoughts.com/2012/04/tutorial-working-with-projections-in.html
+  [Tutorial: Working with Projections in QGIS]: http://web.archive.org/web/20180807132308/http://qgis.spatialthoughts.com/2012/04/tutorial-working-with-projections-in.html
   [defined]: http://www.gislounge.com/geodatabases-explored-vector-and-raster-data/
   [aerial photos]: http://en.wikipedia.org/wiki/Orthophoto
   [PEI_CumminsMap1927.tif]: /assets/PEI_CumminsMap1927_compLZW.tif
