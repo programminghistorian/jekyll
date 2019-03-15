@@ -7,9 +7,7 @@ redirect_from: /project-team
 # Project Team
 Please direct correspondence in the first instance to:
 
-* <a href="mailto:a.crymble@herts.ac.uk">Adam Crymble</a> (English)
-* <a href="mailto:mj.afanador28@uniandes.edu.co">Maria José Afanador Llach</a> (Spanish)
-* <a href="mailto:spapastamkou@gmail.com">Sofia Papastamkou</a> (French)
+{% include managing-editor-loop.html %}
 
 You can follow the _Programming Historian_ on Twitter: [@proghist](http://twitter.com/proghist).
 

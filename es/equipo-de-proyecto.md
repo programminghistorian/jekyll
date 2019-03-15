@@ -5,9 +5,8 @@ original: project-team
 ---
 
 Por favor, dirige tu correspondencia, en primer lugar a:
-* <a href="mailto:anandi.silva.knuppel@emory.edu">Anandi Silva Knuppel</a> (en inglés)
-* <a href="mailto:mj.afanador28@uniandes.edu.co">Maria José Afanador Llach</a> (español)
-* <a href="mailto:spapastamkou@gmail.com">Sofia Papastamkou</a> (en francés)
+
+{% include managing-editor-loop.html %}
 
 Puedes seguir _Programming Historian_ en Twitter: [@proghist](http://twitter.com/proghist).
 

@@ -19,7 +19,7 @@ Merci de prendre le temps de signaler ce problème ou de proposer un changement.
 
 
 ## Option 1 : Envoyez-nous un mail ou un tweet
-Contactez <a href="mailto:jparr1129@gmail.com">Jessica Parr</a> au Simmons College ou l'un des autres membres de notre [équipe projet](/fr/equipe-projet). Vous pouvez aussi envoyer un tweet [@ProgHist](https://twitter.com/proghist).
+Contactez {% include managing-editor.html lang=page.lang %} ou l'un des autres membres de notre [équipe projet](/fr/equipe-projet). Vous pouvez aussi envoyer un tweet [@ProgHist](https://twitter.com/proghist).
 
 ## Option 2 : Ouvrez une "issue" sur GitHub
 C'est le mode de contact que nous privilégions pour gérer les commentaires, parce qu'il permet à tous les rédacteurs et toutes les rédactrices de prendre connaissance de votre "issue" et d'y répondre.

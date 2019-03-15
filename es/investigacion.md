@@ -6,7 +6,7 @@ original: research
 
 ## Producción académica sobre el proyecto
 
-El equipo del proyecto y los miembros de la comunidad en general están involucrados en una serie de iniciativas académicas relacionadas con nuestro trabajo aquí en *The Programming Historian*. Estas iniciativas incluyen eventos, artículos en revistas académicas, reseñas (de nosotros por la comunidad) y carteles. Si tú estás desarrollando una investigación académica usando los materiales de este proyecto, por favor contacta con nuestra Jefa de redacción [Jessica Parr](mailto:jparr1129@gmail.com).
+El equipo del proyecto y los miembros de la comunidad en general están involucrados en una serie de iniciativas académicas relacionadas con nuestro trabajo aquí en *The Programming Historian*. Estas iniciativas incluyen eventos, artículos en revistas académicas, reseñas (de nosotros por la comunidad) y carteles. Si tú estás desarrollando una investigación académica usando los materiales de este proyecto, por favor contacta con nuestra Jefa de redacción {% include managing-editor.html lang=page.lang %}.
 
 ### Reseñas
 
