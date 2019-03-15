@@ -1162,3 +1162,29 @@
   bio:
       en: |
           Stephen Krewson is a PhD candidate in English at Yale University. His research explores the interplay between progressive theories of education and print media in the early nineteenth century. He holds a MS in Computer Science (also from Yale) and has been working on efficient methods for filtering and retrieval tasks within large-scale digital libraries.  
+
+- name: Riva Quiroga
+  twitter: rivaquiroga
+  email: riva.quiroga@uc.cl
+  github: rivaquiroga
+  team: true
+  team_start: 2019
+  institution: Universidad Católica de Chile
+  sortname: Quiroga
+  affiliation:
+    en: |
+        Catholic University of Chile, Chile.
+    es: |
+        Universidad Católica de Chile, Chile.
+    fr: |
+        Université Catholique de Chili, Chili.
+  bio:
+    en: |
+        Riva Quiroga is a PhD student in Linguistics at the Catholic University of Chile. 
+    es: |
+        Riva Quiroga es estudiante de doctorado en Lingüística en la Universidad Católica de Chile.
+    fr: |
+        Riva Quiroga est doctorante en linguistique à l'Université Catholique de Chili.
+  team_roles:
+    - spanish
+    - board
