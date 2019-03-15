@@ -1,8 +1,14 @@
-﻿# Proposition de tutoriel pour le Programming HistorianSi vous souhaitez écrire un tutoriel et le soumettre au Programming Historian, merci de remplir cette fiche en fournissant toutes les informations qui permettront au comité éditorial de discuter de votre idée. Pour toute question sur ce formulaire, merci de contacter directement notre rédacteur ou rédactrice en chef:Anglais: Anandi Silva Knuppel (anandi.silva.knuppel@emory.edu)
+﻿# Proposition de tutoriel pour le Programming Historian
+
+Si vous souhaitez écrire un tutoriel et le soumettre au Programming Historian, merci de remplir cette fiche en fournissant toutes les informations qui permettront au comité éditorial de discuter de votre idée. Pour toute question sur ce formulaire, merci de contacter directement notre rédacteur ou rédactrice en chef:
+
+Anglais: Anandi Silva Knuppel (anandi.silva.knuppel@emory.edu)
 Espagnol: Maria José Afanador Llach (mj.afanador28@uniandes.co)
+Français: Sofia Papastamkou (spapastamkou@gmail.com)
 
 
-##Vous1. Votre nom
+## Vous
+1. Votre nom
 2. Votre adresse électronique
 
 ## Métadonnées de la leçon

@@ -9,6 +9,7 @@ Merci de diriger d'abord votre correspondance à:
 
 * <a href="mailto:anandi.silva.knuppel@emory.edu">Anandi Silva Knuppel</a> (en anglais)
 * <a href="mailto:mj.afanador28@uniandes.edu.co">Maria José Afanador Llach</a> (en espagnol)
+* <a href="mailto:spapastamkou@gmail.com">Sofia Papastamkou</a> (en français)
 
 Vous pouvez suivre le _Programming Historian_ sur Twitter: [@proghist](http://twitter.com/proghist).
 

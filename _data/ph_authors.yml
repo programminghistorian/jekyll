@@ -1038,6 +1038,7 @@
   team_roles:
     - french
     - board
+    - ombuds-fr
   bio:
       en: |
           François Dominic Laramée is a doctoral candidate in history at the Université de Montréal, in Canada.
@@ -1074,6 +1075,7 @@
   team_roles:
     - french
     - board
+    - managing-fr
   bio:
         en: |
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
@@ -1094,6 +1096,7 @@
   team_roles:
     - french
     - board
+    - ombuds-fr
   bio:
         en: |
             Marie Puren is an historian and research engineer in the ALMAnaCH team at Inria Paris.
