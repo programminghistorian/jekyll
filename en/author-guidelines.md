@@ -4,6 +4,7 @@ layout: blank
 redirect_from:
  - /new-lesson-workflow
  - /author-guidelines
+skip_validation: true
 ---
 
 # Author Guidelines
