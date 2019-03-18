@@ -15,7 +15,8 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/204
 difficulty: 3
 activity: analyzing
 topics: [data-manipulation]
-abstract: This lesson introduces a gravity model approach for manipulating and analyzing historical datasets, by using two historical migration case-studies.
+abstract: |
+  This lesson introduces a gravity model approach for manipulating and analyzing historical datasets by using two historical migration case-studies.
 ---
 
 {% include toc.html %}
@@ -120,7 +121,7 @@ As part of the "[Vagrant Lives](http://www.migrants.adamcrymble.org/the-project/
 
 * Adam Crymble, Louise Falcini, Tim Hitchcock, "Vagrant Lives: 14,789 Vagrants Processed by the County of Middlesex, 1777-1786", *Journal of Open Humanities Data*, vol. 1, no. 1 (2015), http://doi.org/10.5334/johd.1.
 
-Readers are invited to download and explore this [published dataset](https://zenodo.org/record/1217600) and its documentation to understand the types of primary sources being modelled in this example. 
+Readers are invited to download and explore this [published dataset](https://zenodo.org/record/1217600) and its documentation to understand the types of primary sources being modelled in this example.
 
 ## Important Notes about the Dataset:
 
@@ -136,7 +137,7 @@ Gravity models will only return meaningful results if constructed for case studi
 
 {% include figure.html filename="figure4.png" caption="Figure 4: A map of historic English counties, showing counties excluded from the analysis" %}
 
-* A model of this sort should always contain moving entities that are of the same type as one another whenever possible (coffee beans and coffee beans, not coffee beans and bananas). Despite the fact that all of these individuals appear on the same types of lists, the "vagrants" in the sources represent three distinct types of people. 
+* A model of this sort should always contain moving entities that are of the same type as one another whenever possible (coffee beans and coffee beans, not coffee beans and bananas). Despite the fact that all of these individuals appear on the same types of lists, the "vagrants" in the sources represent three distinct types of people.
 
  1. The "vagabond poor" - the stereotypical poor individual from elsewhere.
  2. Demobilised soldiers who used the vagrancy system for a free ride home.
@@ -162,7 +163,7 @@ $$μ_{ij} = exp(β_{0} + β_{1}ln(P_{i}) + β_{2}ln(d_{ij}) + β_{3}Wh_{i} + β_
 
 The following section outlines the intellectual origins of the gravity model formula, and will help you to understand the branch of mathematics from which it comes. This will allow you to develop the vocabulary and background needed to discuss the model's mathematics at a basic level. If you are not familiar or comfortable with mathematical operations, you may find it helpful to read or refresh your knowledge of orders of operation, as this knowledge is needed to solve the mathematical equations correctly.
 
-<ul><li><a href="https://en.wikipedia.org/wiki/Order_of_operations">order of operations</a></li></ul>. 
+<ul><li><a href="https://en.wikipedia.org/wiki/Order_of_operations">order of operations</a></li></ul>.
 </div>
 
 The example used in this tutorial is one of many "gravity models" or "spatial interaction models" that measure the way entities (often people) use spaces. They are part of what A.G. Wilson referred to as a "family of spatial interaction models", and were developed from R.G. Ravenstein's 1885 attempts to derive "laws" of migration that could explain or even predict the movement of populations, including an assertion that both distance and population are key factors in the flows of migration between two points [^3]. Wilson outlines many different equations (models), depending on what type of movement is under investigation and what information is known or unknown. For example, you would need to use a different or adapted model (equation) if your case study involved movement between multiple locations and multiple destinations. Gravity models are also the subject of active research, and scholars continue to refine their underlying mathematics as new ideas emerge. The formula used here is based upon the latest research to date, at the time the article was written. It is particularly indebted to earlier work by Tobler, Flowerdew, Aiken, Lovett, Abel, and Congdon, variously published between 1970 and 2010.[^4]
@@ -236,7 +237,7 @@ In probability statistics, there are a number of different [probability distribu
 
 As it happens, our vagrants are best suited to a negative binomial distribution. The reasons for this are that they represent count data (1, 2, 53 vagrants) that must be whole numbers (no 0.5 vagrants) and cannot be negative (no -9 vagrants). Earlier gravity modelling conducted in the 1980s tended to use a [Poisson Distribution](https://en.wikipedia.org/wiki/Poisson_distribution) for modelling human migration. The best approach for gravity models is still a point of academic debate, with some scholars opting for a Negative Binomial approach, and others sticking with the Poisson distribution.[^7] It is possible that another probability distribution entirely is most appropriate for your own data. If you were modelling trade surpluses or deficits (which could be + or -), your data may not follow a negative binomial distribution, and the author recommends speaking to a statistician about the most appropriate option.
 
-What this means for us in this example is that the formula changes slightly. In particular, we no longer solve for "$$y$$", but for the [natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) (ln) of the [population mean](http://www.statisticshowto.com/population-mean/) ($$μ$$). You can read more about this type of formula in Michael L. Zwilling's work[^8]. 
+What this means for us in this example is that the formula changes slightly. In particular, we no longer solve for "$$y$$", but for the [natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) (ln) of the [population mean](http://www.statisticshowto.com/population-mean/) ($$μ$$). You can read more about this type of formula in Michael L. Zwilling's work[^8].
 
 **Multivariate Regression Model:**
 
@@ -306,7 +307,7 @@ All categories of data must exist for each point of interest. That means that al
 
 **Reliable Data Only**
 
-The computer science adage "garbage in, garbage out" also applies to gravity models, which are only as reliable as the data used to build them. Beyond choosing robust and reliable historical data from sources you can trust, there are lots of ways to make mistakes that will render the outputs of your model meaningless. For example, it is worth making sure that the data you have exactly match the territories (eg, county data to represent counties, not city data to represent a county). 
+The computer science adage "garbage in, garbage out" also applies to gravity models, which are only as reliable as the data used to build them. Beyond choosing robust and reliable historical data from sources you can trust, there are lots of ways to make mistakes that will render the outputs of your model meaningless. For example, it is worth making sure that the data you have exactly match the territories (eg, county data to represent counties, not city data to represent a county).
 
 Depending on the time and place of your study, you may find it difficult to obtain a reliable set of data upon which to base your model. The further back in the past one's study, the more difficult that may be. Likewise, it may be easier to conduct these types of analyses in societies that were heavily bureaucratic and left a good surviving paper trail, such as in Europe or North America.
 
@@ -331,7 +332,7 @@ Having decided on these variables, the co-author of the original study, Adam Den
 <tablecaption>Table 2: The symbols used in the gravity model equation to self-document the formula, and their meanings.</tablecaption>
 
 |Symbol            | Meaning         |
-| -----------      |:------:		| 
+| -----------      |:------:		|
 | $$i$$             | the county of origin |
 | $$j$$             | London (destination) |
 | $$P$$             | Population at origin ($$i$$) |
@@ -395,7 +396,7 @@ Because this is the case with this *particular* data (your own data in a similar
 
 {% include figure.html filename="figure8.png" caption="Figure 8: The final gravity model formula broken down by steps and colour-coded. Elements in black are mathematical operations. Elements in Blue represent our variables, which we have just gathered (Step 1). Elements in Red represent the weightings of each variable, which we must calculate (Step 2), and the Element in Orange is the final estimate of vagrants from that county, which we can calculate once we have the other information (Step 3)." %}
 
-The values in Table 3 give us everything we need to fill in the Blue parts of each equation in Figure 8. We can now turn our attention to the Red parts, which tell us how important each variable is in the model overall, and gives us the numbers we need to complete the equation. 
+The values in Table 3 give us everything we need to fill in the Blue parts of each equation in Figure 8. We can now turn our attention to the Red parts, which tell us how important each variable is in the model overall, and gives us the numbers we need to complete the equation.
 
 
 ## Step 2: Determining the Weightings
@@ -441,7 +442,7 @@ Pearson's correlation coefficient can be calculated long-hand but it's a rather 
 
 **Calculating $$s_{y}$$ & $$s_{x}$$ (Standard Deviation)**
 
-[Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) is a way of expressing how much variation from the mean (average) there is in the data. In other words, is the data fairly clustered around the mean, or is the spread much wider? 
+[Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) is a way of expressing how much variation from the mean (average) there is in the data. In other words, is the data fairly clustered around the mean, or is the spread much wider?
 
 Again, there are online calculators and statistical software packages that can do this calculation for you if you provide the data.
 
@@ -496,7 +497,7 @@ summary(gravityModel)
 Copy the above code into your *weightingsCalculations.r* file and save. You can now run the code using your favourite *R* environment (I use [RStudio](https://www.rstudio.com/)) and the results of the calculation should appear in the console window (what this looks like will depend upon your environment). You may need to set the [Working Directory](https://en.wikipedia.org/wiki/Working_directory) of your *R* environment to the directory containing your .csv and .r files. If you are using RStudio you can do this via the menus (Session -> Set Working Directory -> Choose Directory). You can also achieve the same with the command:
 
 ```
-setwd(PATH) #change "PATH" to the full location on your computer where the files can be found  
+setwd(PATH) #change "PATH" to the full location on your computer where the files can be found
 
 ```
 
@@ -520,15 +521,15 @@ You could do this with a scientific calculator, by creating a spreadsheet formul
 
 ```
 for (entry in c(gravityModelData$County)){
-  print(paste("Result for County ", gravityModelData$County[entry], 
-              (exp(-3.848 
-                  + (1.235 * log(gravityModelData$population[entry])) 
-                  + (-0.542 * log(gravityModelData$distance[entry])) 
-                  + (-0.024 * gravityModelData$wheat[entry]) 
-                  + (-0.025 * gravityModelData$wages[entry]) 
+  print(paste("Result for County ", gravityModelData$County[entry],
+              (exp(-3.848
+                  + (1.235 * log(gravityModelData$population[entry]))
+                  + (-0.542 * log(gravityModelData$distance[entry]))
+                  + (-0.024 * gravityModelData$wheat[entry])
+                  + (-0.025 * gravityModelData$wages[entry])
                   + (-0.014 * gravityModelData$wageTrajectory[entry])
               ))
-        )) 
+        ))
 }
 ```
 
@@ -536,19 +537,19 @@ To build understanding, I suggest doing one county long-hand. This tutorial will
 
 Using the data for Hertfordshire in Table 3, and the weightings for each variable in Table 4, we can now complete our formula, which will give the result of 95:
 
-$$estimated vagrants = 
-  exp(y-intercept 
-  + (#population calculation) 
-  + (#distance calculation) 
-  + (#wheat price calculation) 
-  + (#wages calculation) 
+$$estimated vagrants =
+  exp(y-intercept
+  + (#population calculation)
+  + (#distance calculation)
+  + (#wheat price calculation)
+  + (#wages calculation)
   + (#wage trajectory calculation)
   )$$
 
 
 First, let's swap out the symbols for the numbers, taken from the tables mentioned above.
 
-$$estimated vagrants = 
+$$estimated vagrants =
   exp(-3.848  						#y-intercept
   + (1.235 * ln(97389)) 			#population calculation
   + (-0.542 * ln(35.3)) 	#distance calculation
@@ -560,7 +561,7 @@ $$estimated vagrants =
 Then, start to calculate values to get to the estimate. Remembering mathematical order of operations, multiply values before adding. So start by calculating each variable (you can use a scientific calculator for this):
 
 
-$$estimated vagrants = 
+$$estimated vagrants =
   exp(-3.848  						#y-intercept
   + (14.185788655431) 				#population calculation
   + (−1.93162456646) 				#distance calculation
@@ -582,34 +583,34 @@ We have dropped the remainder and declared that the estimated number of vagrants
 
 **Hertfordshire**
 
-$$95 = estimated vagrants 
-  = exp(-3.848 
-  + (1.235 * ln(97389)) 
-  + (-0.542 * ln (35.3)) 
-  + (-0.024 * 63.82) 
-  + (-0.025 * 90) 
+$$95 = estimated vagrants
+  = exp(-3.848
+  + (1.235 * ln(97389))
+  + (-0.542 * ln (35.3))
+  + (-0.024 * 63.82)
+  + (-0.025 * 90)
   + (-0.014 * 4.44)
   )$$
 
 
 **Buckinghamshire**
 
-$$83 = estimated vagrants 
-  = exp(-3.848 
-  + (1.235 * ln(95936)) 
-  + (-0.542 * ln (46.7)) 
-  + (-0.024 * 63) 
-  + (-0.025 * 96) 
+$$83 = estimated vagrants
+  = exp(-3.848
+  + (1.235 * ln(95936))
+  + (-0.542 * ln (46.7))
+  + (-0.024 * 63)
+  + (-0.025 * 96)
   + (-0.014 * -8.33)
   )$$
 
-I recommend choosing one other county and calculating it long-hand before moving on, to make sure you 
+I recommend choosing one other county and calculating it long-hand before moving on, to make sure you
 can do the calculations on your own. The correct answer is available in Table 5, which compares the observed values (as seen in the primary source record) to the estimated values (as calculated by our gravity model). The "Residual" is the difference between the two, with a large difference suggesting an unexpected number of vagrants that might be worth a closer look with one's historian's hat on.
 
 <tablecaption>Table 5: The "Observed" and "Estimated" number of vagabond poor from each county, as well as the residual (difference between the two) Available as Table 3 in the original article.</tablecaption>
 
 |County       | Observed Value| Estimated Value  | Residual |
-| -----------      |:------:	|:------:    |:------: |                                         
+| -----------      |:------:	|:------:    |:------: |
 |Bedfordshire	|	26 	      | 41				| -15 		|
 |Berkshire		|	111		| 76				| 35		|
 |Buckinghamshire	|	79		| 83				| -4		|
@@ -675,16 +676,16 @@ There is a long history of gravity models in academic scholarship. To use one ef
 
 * The gravity model concept is also built on the premise that movements (migration, trade, etc) are based on a collection of voluntary individual decisions that might be influenced by outside factors, but are not wholly controlled by them. For example, voluntary migrations or purchases made of free will could be modelled using this technique, but forced migration, compulsory purchase, or natural processes such as bird migration or river flow may not follow the same principles and therefore a different type of model may be needed.
 
-* Gravity models can be used to predict the behaviour of populations but not individuals, and therefore attempts to model data should include a large number of movements to ensure statistical significance. 
+* Gravity models can be used to predict the behaviour of populations but not individuals, and therefore attempts to model data should include a large number of movements to ensure statistical significance.
 
 There are many more pitfalls, but also tremendous possibilities. It is my hope that this walk-through of a gravity model, and its accompanying published research, will make this powerful tool more accessible for historians. If you are planning to use a gravity model in your scholarly research, the author strongly recommends the following articles:
 
 1. Wilson, A. G., ‘A family of spatial interaction models, and associated developments’, Environment and Planning A, 3 (1971), pp. 1–32.
 2. Flowerdew, R. and Aitkin, M., ‘A method of fitting the gravity model based on the Poisson distribution’, Journal of Regional Science, 22 (1982), pp. 191–202.
 3. Flowerdew, R. and Lovett, A., ‘Fitting constrained Poisson regression models to interurban migration flows’, Geographical Analysis, 20 (1988), pp. 297–307.
-4. Congdon, P., ‘Approaches to modelling overdispersion in the analysis of migration’, Environment and Planning A, 25 (1993), pp. 1481–510. 
+4. Congdon, P., ‘Approaches to modelling overdispersion in the analysis of migration’, Environment and Planning A, 25 (1993), pp. 1481–510.
 5. Flowerdew, R., ‘Modelling migration with Poisson regression’, in J. Stillwell, O. Duke-Williams, and A. Dennett, eds., Technologies for migration and commuting analysis: spatial interaction data applications (Hershey, Pa., 2010), pp. 261–79.
-6. Abel, G. J., ‘Estimation of international migration flow tables in Europe: international migration flow tables’, Journal of the Royal Statistical Society, Series A (Statistics in Society), 173 (2010), pp. 797–825. 
+6. Abel, G. J., ‘Estimation of international migration flow tables in Europe: international migration flow tables’, Journal of the Royal Statistical Society, Series A (Statistics in Society), 173 (2010), pp. 797–825.
 
 # Acknowledgements
 
