@@ -3,7 +3,7 @@ title: "Introduction to Gravity Models of Migration & Trade"
 collection: lessons
 layout: lesson
 slug: gravity-model
-date: 2018-00-00
+date: 2019-03-18
 authors:
 - Adam Crymble
 reviewers:
