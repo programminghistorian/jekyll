@@ -52,7 +52,7 @@ It operates on the principle that if you know the volume of movement, and you kn
 If you also know how many migrants *did* come from each county, or now much coffee *did* go to each nation, the model allows you to identify regional anomalies by comparing the estimated to the observed values. Those might be regions that, given the various contributing factors, were sending more or fewer migrants than we would expect, or consuming disproportionately more or less coffee. These anomalies can then become the subject of scholarly investigation, leading to historical conclusions.
 
 
-# The Need for a tutorial
+# The Need for a Tutorial
 
 While popular with some geographers and economists, and while gravity models have tremendous potential for historians, they have as yet been used very rarely in historical studies. The author was only able to identify two historical migration studies that employed a gravity model as an integral part of the analysis:
 
@@ -157,7 +157,7 @@ The formula used to arrive at that result is provided below, with the following 
 
 $$μ_{ij} = exp(β_{0} + β_{1}ln(P_{i}) + β_{2}ln(d_{ij}) + β_{3}Wh_{i} + β_{4}Wa_{i} + β_{5}WaT_{i})$$
 
-# Regression Modelling, and the Mathematics Behind our Model
+# Regression Modelling, and the Mathematics Behind the Model
 
 <div class="alert alert-warning">
 
@@ -207,15 +207,15 @@ Unlike in the simple linear regression formula, in this example, there are multi
 
 You can add and remove the number of variables to suit your own needs. Keeping in mind that "$$y$$" counts as one of the variables (vagrants observed, in this case), a three, four, and five variable version of the above equation looks like this:
 
-**Three Variable ($$y$$ plus 2 independent variables):**
+**Three Variable ($$y$$ Plus 2 Independent Variables):**
 
 $$y = β_{0} + (β_{1}x_{1}) + (β_{2}x_{2})$$
 
-**Four Variable  ($$y$$ plus 3 independent variables):**
+**Four Variable  ($$y$$ Plus 3 Independent Variables):**
 
 $$y = β_{0} + (β_{1}x_{1}) + (β_{2}x_{2}) + (β_{3}x_{3})$$
 
-**Five Variable  ($$y$$ plus 4 independent variables):**
+**Five Variable  ($$y$$ Plus 4 Independent Variables):**
 
 $$y = β_{0} + (β_{1}x_{1}) + (β_{2}x_{2}) + (β_{3}x_{3}) + (β_{4}x_{4})$$
 
@@ -279,7 +279,7 @@ In order to determine the most likely distribution of migrants across the 32 cou
 Each of those three steps will involve finding certain parts of the equation so that we can ultimately solve it mathematically. This three-step process provides a numerical estimate of migrants (or coffee beans/widgets) for each territory in the model, allowing for a final step: Historical interpretation.
 
 
-## Step 1 - Deciding on variables and gathering the relevant data
+## Step 1 - Deciding on Variables and Gathering the Relevant Data
 
 The first step is to decide which independent variables / influencing factors to include in the model. These are the variables that we think will influence the distribution of our migrants. How many variables you choose to include and what they are is part art, part science, and part luck.
 
@@ -418,7 +418,7 @@ At this stage we do not know how important each is. Perhaps wheat price is a bet
 
 To calculate these values long-hand requires an incredible amount of work. We will use a quick solution in the *R* programming language that takes advantage of William Venables and Brian Ripley's *MASS* package that can solve negative binomial regression equations like our gravity model with a single line of code. However, it is important to understand the principles behind what one is doing in order to appreciate what the code does (note the following sections do not DO the calculation, but explain its steps for you; we will do the calculation with the code further down the page).
 
-**Calculating the individual Weightings (in principle)**
+**Calculating the Individual Weightings (in Principle)**
 
 $$β_{1}$$, $$β_{2}$$, etc, are the same as "$$β$$" in the Simple Linear Regression model above, which is the [slope](https://en.wikipedia.org/wiki/Slope) of the regression line (the rise over the run, or how much "$$y$$" increases when "$$x$$" increases by 1). The only difference here between a Simple Linear Regression and our gravity model is that we have to calculate 5 slopes instead of 1.
 
@@ -448,7 +448,7 @@ Again, there are online calculators and statistical software packages that can d
 
 With the above values, you can calculate $$β_{1}$$. This will have to be done once for each of the five variables $$β_{1}$$ to $$β_{5}$$. These values allow you to calculate the y-intercept, $$\beta_{0}$$
 
-**Calculating $$\beta_{0}$$ (the y-intercept)**
+**Calculating $$\beta_{0}$$ (the y-Intercept)**
 
 Next, we have to calculate the y-intercept. The formula for calculating the y-intercept in a Simple Linear Regression is:
 
@@ -511,7 +511,7 @@ The outputs of the calculation can be seen in Figure 9:
 
 {% include figure.html filename="figure9.png" caption="Figure 9: The summary of the above code, showing the weightings for each variable and the y-intercept, listed under the 'Estimate' heading ($$\beta_{0}$$ to $$\beta_{5}$$. This summary also shows a number of other calculations, including [statistical significance](https://en.wikipedia.org/wiki/Statistical_significance)." %}
 
-## Step 3: Calculating the Estimates for each County
+## Step 3: Calculating the Estimates for Each County
 
 Because we now have the y-intercept ($$β0$$), the weightings ($$β1-5$$), and the 5 variable values for each county ($$P$$, $$d$$, $$Wh$$, $$Wa$$, $$WaT$$), we have all the numbers we need to solve for the model's predicted value for a county: the final result.
 
