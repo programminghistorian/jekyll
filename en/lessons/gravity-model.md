@@ -143,7 +143,7 @@ Gravity models will only return meaningful results if constructed for case studi
  2. Demobilised soldiers who used the vagrancy system for a free ride home.
  3. Individuals expelled back to London from other counties (not relevant to the original research question and excluded here).
 
- The first two groups represent migrants from elsewhere, but because they came to London via quite different paths - one as an economic migrants and one dumped on the docks after finishing work overseas - they were modelled separately in the original article. Splitting these two types of vagrants into two models meant more defensible results. Those were not the ONLY two subsets we could have modelled, as any subset for which there was an intellectual case would also do (e.g. men and women).
+ The first two groups represent migrants from elsewhere, but because they came to London via quite different paths - one as an economic migrants and one dumped on the docks after finishing work overseas - they were modelled separately in the original article. Splitting these two types of vagrants into two models meant more defensible results. Those were not the only two subsets we could have modelled, as any subset for which there was an intellectual case would also do (e.g. men and women).
 
  For the sake of brevity, this tutorial will take readers through the modelling of the 3,262 "vagabond poor", though the process for modelling the demobilised soldiers is exactly the same.
 
@@ -236,7 +236,7 @@ In probability statistics, there are a number of different [probability distribu
 
 As it happens, our vagrants are best suited to a negative binomial distribution. The reasons for this are that they represent count data (1, 2, 53 vagrants) that must be whole numbers (no 0.5 vagrants) and cannot be negative (no -9 vagrants). Earlier gravity modelling conducted in the 1980s tended to use a [Poisson Distribution](https://en.wikipedia.org/wiki/Poisson_distribution) for modelling human migration. The best approach for gravity models is still a point of academic debate, with some scholars opting for a Negative Binomial approach, and others sticking with the Poisson distribution.[^7] It is possible that another probability distribution entirely is most appropriate for your own data. If you were modelling trade surpluses or deficits (which could be + or -), your data may not follow a negative binomial distribution, and the author recommends speaking to a statistician about the most appropriate option.
 
-What this means for us in this example is that the formula changes slightly. In particular, we no longer solve for $$y$$, but for the [natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) (ln) of the [population mean](http://www.statisticshowto.com/population-mean/) ($$μ$$). You can read more about this type of formula in Michael L. Zwilling's work[^8].
+What this means for us in this example is that the formula changes slightly. In particular, we no longer solve for $$y$$, but for the [natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) ($$ln$$) of the [population mean](http://www.statisticshowto.com/population-mean/) ($$μ$$). You can read more about this type of formula in Michael L. Zwilling's work[^8].
 
 **Multivariate Regression Model:**
 
@@ -251,9 +251,9 @@ The full formula looks like this:
 
 $$ln(μ) = β_{0} + (β_{1}x_{1}) + (β_{2}x_{2}) + (β_{3}x_{3}) + (β_{4}x_{4}) + (β_{5}x_{5})$$
 
-To make it easier to solve, we can rewrite this formula to isolate μ on the left side of the equation by counteracting the natural log (ln) - effectively removing it from the calculation. To do so, we must perform the inverse of natural log on both sides of the equation. The inverse of a natural log (ln) is the [exponential function](https://en.wikipedia.org/wiki/Exponential_function) (exp). This means multiplying natural log by the exponential function on the left side of the equation (resulting in 1, and making it redundant since 1($$μ$$) is $$μ$$). You must also do the same on the right side.
+To make it easier to solve, we can rewrite this formula to isolate $$μ$$ on the left side of the equation by counteracting the natural log ($$ln$$) - effectively removing it from the calculation. To do so, we must perform the inverse of natural log on both sides of the equation. The inverse of a natural log ($$ln$$) is the [exponential function](https://en.wikipedia.org/wiki/Exponential_function) ($$exp$$). This means multiplying natural log by the exponential function on the left side of the equation (resulting in 1, and making it redundant since 1($$μ$$) is $$μ$$). You must also do the same on the right side.
 
-This means everything on the right side of the new equation must be multiplied by exp():
+This means everything on the right side of the new equation must be multiplied by $$exp()$$:
 
 $$μ = exp(β_{0} + (β_{1}x_{1}) + (β_{2}x_{2}) + (β_{3}x_{3}) + (β_{4}x_{4}) + (β_{5}x_{5}))$$
 
@@ -275,7 +275,7 @@ In order to determine the most likely distribution of migrants across the 32 cou
 2. Determining the relative importance (weighting) of each variable.
 3. Applying the weightings for each county to get a predicted number of movements.
 
-Each of those three steps will involve finding certain parts of the equation so that we can ultimately solve it mathematically. This three-step process provides a numerical estimate of migrants (or coffee beans/widgets) for each territory in the model, allowing for a final step: Historical interpretation.
+Each of those three steps will involve finding certain parts of the equation so that we can ultimately solve it mathematically. This three-step process provides a numerical estimate of migrants (or coffee beans/widgets) for each territory in the model, allowing for a final step: historical interpretation.
 
 
 ## Step 1 - Deciding on Variables and Gathering the Relevant Data
@@ -314,9 +314,9 @@ To ensure data quality in this case study, each variable was either reliably cal
 
 ### Our Five Model Variables
 
-With the above principles in mind, we could have chosen any number of variables, given what we knew about migration push and pull factors. We settled on FIVE, chosen based on what we thought would be most important, and which we knew could be backed up with reliable data.
+With the above principles in mind, we could have chosen any number of variables, given what we knew about migration push and pull factors. We settled on five (5), chosen based on what we thought would be most important, and which we knew could be backed up with reliable data.
 
-<tablecaption>Table 1: The Five variables used in the model, and the source of each in the peer reviewed literature.</tablecaption>
+<tablecaption>Table 1: The five variables used in the model, and the source of each in the peer reviewed literature.</tablecaption>
 
 |Variable                      | Source  |
 | -------------                |:-------------:|
@@ -426,7 +426,7 @@ $$y = α + βx$$
 
 We will need to solve for each of these five slopes before we can calculate the y-intercept in the next step. That is because the slopes of the various $$β$$ values are part of the equation for calculating the y-intercept.
 
-The formula for calculating β in a regression analysis is:
+The formula for calculating $$β$$ in a regression analysis is:
 
 $$β = r (\frac{s_{y}}{s_{x}})$$
 
@@ -445,9 +445,9 @@ Pearson's correlation coefficient can be calculated long-hand but it's a rather 
 
 Again, there are online calculators and statistical software packages that can do this calculation for you if you provide the data.
 
-With the above values, you can calculate $$β_{1}$$. This will have to be done once for each of the five variables $$β_{1}$$ to $$β_{5}$$. These values allow you to calculate the y-intercept, $$\beta_{0}$$
+With the above values, you can calculate $$β_{1}$$. This will have to be done once for each of the five variables $$β_{1}$$ to $$β_{5}$$. These values allow you to calculate the y-intercept, $$β_{0}$$
 
-**Calculating $$\beta_{0}$$ (the y-Intercept)**
+**Calculating $$β_{0}$$ (the y-Intercept)**
 
 Next, we have to calculate the y-intercept. The formula for calculating the y-intercept in a Simple Linear Regression is:
 
@@ -504,7 +504,6 @@ Notice that line 4 is the line that solves the equation for us, using the [glm.n
 
 * our variables using the column headers as written in the .csv file, along with any logging that must be done to them (vagrants, log(population), log(distance), wheat, wages, wageTrajectory). If you were running a model with your own data, you would adjust these to reflect your column headers in your dataset.
 * where the code can find the data - in this case a variable we've defined in line 3 called $$gravityModelData$$.
-* and instructions on what to do if a value is missing (na.action=na.exclude).
 
 The outputs of the calculation can be seen in Figure 9:
 
@@ -659,7 +658,7 @@ Not all of the patterns were expected. Northumberland in the far north east prov
 
 After having tried this example problem, you should have a clear understanding of how to use this example formula, as well as whether or not a gravity model might be an appropriate solution for your research problem. You have the experience and vocabulary to approach and discuss gravity models with an appropriately mathematically literate collaborator should you need to, who can help you to adapt it to your own case study.
 
-If you are fortunate enough to also have data about migrants moving to late eighteenth century London and you want to model it using the same five variables listed above, this formula would work as-is - there's an easy study here for someone with the right data! However, this model does not only work for studies about migrants moving to London. The variables can change, and the destination does not need to be London. It would be possible to use a gravity model to study migration to ancient Rome, or twenty-first century Bangkok, if you have the data and the research question. It does not even need to be a model of migration. To use the Colombian coffee case study from the introduction, which focuses on trade rather than migration, Table 6 shows a viable use of the same formula, unaltered.
+If you are fortunate enough to also have data about migrants moving to late eighteenth century London and you want to model it using the same five variables listed above, this formula would work as-is - there's an easy study here for someone with the right data. However, this model does not only work for studies about migrants moving to London. The variables can change, and the destination does not need to be London. It would be possible to use a gravity model to study migration to ancient Rome, or twenty-first century Bangkok, if you have the data and the research question. It does not even need to be a model of migration. To use the Colombian coffee case study from the introduction, which focuses on trade rather than migration, Table 6 shows a viable use of the same formula, unaltered.
 
 <tablecaption>Table 6: An example of how the formula used above could be repurposed for a study of Colombian coffee exporting patterns in 1950.</tablecaption>
 
