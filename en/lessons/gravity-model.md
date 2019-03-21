@@ -58,7 +58,7 @@ While popular with some geographers and economists, and while gravity models hav
 
 1. A.A. Lovett, I.D. Whyte, and K.A. Whyte, "Poisson regression analysis and migration fields: the example of the apprenticeship records of Edinburgh in the seventeenth and eighteenth centuries", *Transactions of the Institute of British Geographers*, 10 (1985), pp. 317–32.
 
-2. Adam Crymble, Adam Dennett, Tim Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, 71, 3 (2018), pp. 747-771: https://doi.org/10.1111/ehr.12569.
+2. Adam Crymble, Adam Dennett, Tim Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, 71, 3 (2018), pp. 747-771: <https://doi.org/10.1111/ehr.12569>.
 
 Given the lack of exposure historians have to gravity models, this tutorial seeks to provide an accessible introduction by providing a walk-through of the example used in my article listed immediately above. This approach allows the reader to try a working gravity model, with the aim of understanding what it is and how it is put together, while also being able to turn to the published literature to see how the modelling process led to scholarly findings.
 
@@ -105,9 +105,9 @@ This tutorial uses a number of mathematical concepts and operations. To understa
 
 While gravity models can be used in a range of different migration and trade studies, this tutorial uses a specific historical case study of migration based on the history of vagrancy in eighteenth century London as an example for readers to follow. The materials used in this case study are built from:
 
-1 - Adam Crymble, Adam Dennett, Tim Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, 71, 3 (2018), pp. 747-771: https://doi.org/10.1111/ehr.12569 (Paywall until July 2019).
+1 - Adam Crymble, Adam Dennett, Tim Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, 71, 3 (2018), pp. 747-771: <https://doi.org/10.1111/ehr.12569> (Paywall until July 2019).
 
-2 - Adam Crymble, Louise Falcini, Tim Hitchcock, "Vagrant Lives: 14,789 Vagrants Processed by the County of Middlesex, 1777-1786", *Journal of Open Humanities Data*, vol. 1, no. 1 (2015), http://doi.org/10.5334/johd.1.
+2 - Adam Crymble, Louise Falcini, Tim Hitchcock, "Vagrant Lives: 14,789 Vagrants Processed by the County of Middlesex, 1777-1786", *Journal of Open Humanities Data*, vol. 1, no. 1 (2015), <http://doi.org/10.5334/johd.1>.
 
 The Vagrancy Act of 1744 gave communities in England and Wales the right to expel outsiders back from whence they came. This was an important right because welfare was distributed locally at the time, and it was paid for by local taxes with the intention of supporting local people. That meant that a large influx of poor outsiders could financially cripple communities that attracted a lot of migration (such as those in London). This restriction on internal migration was only really used against the poor, and constables and local magistrates had tremendous powers of discretion over who they labelled a "vagrant" and who they left alone. As of the time of writing, a version of this law is still on the books in England, and it is still used by the police to arrest people who are begging or who they otherwise feel need to be removed from a situation. People in the late eighteenth century who were arrested under the 1744 act are therefore evidence of internal migration between the various counties of England and London. The question is: were any counties sending more or fewer vagrants to London than we would expect?
 
@@ -119,7 +119,7 @@ A sample of the primary sources that detail these individuals' journeys can be s
 
 As part of the "[Vagrant Lives](http://www.migrants.adamcrymble.org/the-project/)" project, the original vagrancy lists were converted into a scholarly dataset and published as:
 
-* Adam Crymble, Louise Falcini, Tim Hitchcock, "Vagrant Lives: 14,789 Vagrants Processed by the County of Middlesex, 1777-1786", *Journal of Open Humanities Data*, vol. 1, no. 1 (2015), http://doi.org/10.5334/johd.1.
+* Adam Crymble, Louise Falcini, Tim Hitchcock, "Vagrant Lives: 14,789 Vagrants Processed by the County of Middlesex, 1777-1786", *Journal of Open Humanities Data*, vol. 1, no. 1 (2015), <http://doi.org/10.5334/johd.1>.
 
 Readers are invited to download and explore this [published dataset](https://zenodo.org/record/1217600) and its documentation to understand the types of primary sources being modelled in this example.
 
@@ -697,10 +697,10 @@ With thanks to Angela Kedgley, Sarah Lloyd, Tim Hitchcock, Joe Cozens, Katrina N
 [^2]: Crymble, A, A. Dennett, and T. Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, vol. 71, no. 3 (2018), 751.
 [^3]: Ravenstein, R.G., 'The Laws of Migration', Journal of the Statistical Society of London, 48 (1885), 167-235; Wilson, A. G., ‘A family of spatial interaction models, and associated developments’, Environment and Planning A, 3 (1971), pp. 1–32.
 [^4]: Tobler, W.R., 'A Computer Movie Simulating Urban Growth in the Detroit Region', Economic Geography, 46 (1970), 234-240; Flowerdew, R. and Aitkin, M., ‘A method of fitting the gravity model based on the Poisson distribution’, Journal of Regional Science, 22 (1982), pp. 191–202; Flowerdew, R. and Lovett, A., ‘Fitting constrained Poisson regression models to interurban migration flows’, Geographical Analysis, 20 (1988), pp. 297–307; Congdon, P., ‘Approaches to modeling overdispersion in the analysis of migration’, Environment and Planning A, 25 (1993), pp. 1481–510; Flowerdew, R., ‘Modelling migration with Poisson regression’, in J. Stillwell, O. Duke-Williams, and A. Dennett, eds., Technologies for migration and commuting analysis: spatial interaction data applications (Hershey, Pa., 2010), pp. 261–79; Abel, G. J., ‘Estimation of international migration flow tables in Europe: international migration flow tables’, Journal of the Royal Statistical Society, Series A (Statistics in Society), 173 (2010), pp. 797–825.
-[^5]: For English speakers, the author recommends Eugene O'Loughlin, 'How To...Perform Simple Linear Regression by Hand', *YouTube* (23 December 2015): https://www.youtube.com/watch?v=GhrxgbQnEEU.
-[^6]: "Chapter 326: Negative Binomial Regression", *NCSS Stats Software* (n.d.): https://ncss-wpengine.netdna-ssl.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Negative_Binomial_Regression.pdf
+[^5]: For English speakers, the author recommends Eugene O'Loughlin, 'How To...Perform Simple Linear Regression by Hand', *YouTube* (23 December 2015): <https://www.youtube.com/watch?v=GhrxgbQnEEU>.
+[^6]: "Chapter 326: Negative Binomial Regression", *NCSS Stats Software* (n.d.): <https://ncss-wpengine.netdna-ssl.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Negative_Binomial_Regression.pdf>
 [^7]: Flowerdew, R. and Aitkin, M., ‘A method of fitting the gravity model based on the Poisson distribution’, Journal of Regional Science, 22 (1982), pp. 191–202; Flowerdew, R. and Lovett, A., ‘Fitting constrained Poisson regression models to interurban migration flows’, Geographical Analysis, 20 (1988), pp. 297–307; Congdon, P., ‘Approaches to modeling overdispersion in the analysis of migration’, Environment and Planning A, 25 (1993), pp. 1481–510; Flowerdew, R., ‘Modelling migration with Poisson regression’, in J. Stillwell, O. Duke-Williams, and A. Dennett, eds., Technologies for migration and commuting analysis: spatial interaction data applications (Hershey, Pa., 2010), pp. 261–79.
-[^8]: Michael L. Zwilling, "Negative Binomial Regression", _The Mathematica Journal_, vol. 15 (2013): http://www.mathematica-journal.com/2013/06/negative-binomial-regression/.
+[^8]: Michael L. Zwilling, "Negative Binomial Regression", _The Mathematica Journal_, vol. 15 (2013): <http://www.mathematica-journal.com/2013/06/negative-binomial-regression/>.
 [^9]: Crymble, A, A. Dennett, and T. Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, vol. 71, no. 3 (2018), 747-771.
 [^10]: For example, see: Grigg, D.B. "E.G. Ravenstein and the 'laws of migration", *Journal of Historical Geography*, vol. 3, no. 1 (1977), pp. 44-54.
 [^11]: Crymble, A, A. Dennett, and T. Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, vol. 71, no. 3 (2018), 753-754.
@@ -709,5 +709,5 @@ With thanks to Angela Kedgley, Sarah Lloyd, Tim Hitchcock, Joe Cozens, Katrina N
 [^14]: Hunt, E.H., "Industrialization and Regional Inequality: Wages in Britain, 1760-1914", *Journal of Economic History*, vol. 46 (1986), pp. 965-966.
 [^15]: Hunt, E.H., "Industrialization and Regional Inequality: Wages in Britain, 1760-1914", *Journal of Economic History*, vol. 46 (1986), pp. 965-966.
 [^16]: Crymble, A, A. Dennett, and T. Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, vol. 71, no. 3 (2018), 769.
-[^17]: For English speakers, the author recommends Eugene O'Loughlin, 'How To...Calculate Pearson's Correlation Coefficient', *YouTube* (17 December 2015): https://www.youtube.com/watch?v=2SCg8Kuh0tE&t=10s.
+[^17]: For English speakers, the author recommends Eugene O'Loughlin, 'How To...Calculate Pearson's Correlation Coefficient', *YouTube* (17 December 2015): <https://www.youtube.com/watch?v=2SCg8Kuh0tE&t=10s>.
 [^18]: Crymble, A, A. Dennett, and T. Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, vol. 71, no. 3 (2018), 747-771.
