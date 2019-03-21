@@ -184,27 +184,27 @@ There are many websites that provide calculator functions that will do this for 
 
 $$y = α + βx$$
 
-- "$$y$$" is a value on the y-axis (number of vagrants, in the example above).
-- "$$α$$" is the [y-intercept](https://en.wikipedia.org/wiki/Y-intercept). This is the value of "$$y$$" when $$x = 0$$.
-- "$$β$$" is the [slope](https://en.wikipedia.org/wiki/Slope) of the regression line.
-- "$$x$$" is a value on the x-axis (the population of the county).
+- $$y$$ is a value on the y-axis (number of vagrants, in the example above).
+- $$α$$ is the [y-intercept](https://en.wikipedia.org/wiki/Y-intercept). This is the value of $$y$$ when $$x = 0$$.
+- $$β$$ is the [slope](https://en.wikipedia.org/wiki/Slope) of the regression line.
+- $$x$$ is a value on the x-axis (the population of the county).
 
-Many tutorials can teach you to conduct simple linear regressions.[^5] When you know "$$α$$" and "$$β$$", you can choose a value for either "$$x$$" (population) or "$$y$$" (number of vagrants), and then calculate the other. You can do that mathematically using the formula above, or you can eyeball it by looking at the graph in Figure 6 if you only need a rough measure. If you want to know the estimated number of vagrants for a county with a population of 200,000 ("A." on Figure 6), then you find where "$$x$$" and "$$y$$" meet ("B."), and finally the y-intercept for that value ("C."). In other words: if population is 200,000, how many vagrants would we expect? According to the graph, about 90.
+Many tutorials can teach you to conduct simple linear regressions.[^5] When you know $$α$$ and $$β$$, you can choose a value for either $$x$$ (population) or $$y$$ (number of vagrants), and then calculate the other. You can do that mathematically using the formula above, or you can eyeball it by looking at the graph in Figure 6 if you only need a rough measure. If you want to know the estimated number of vagrants for a county with a population of 200,000 ($$A.$$ on Figure 6), then you find where $$x$$ and $$y$$ meet ($$B.$$), and finally the y-intercept for that value ($$C.$$). In other words: if population is 200,000, how many vagrants would we expect? According to the graph, about 90.
 
 ## Multivariate Linear Regression
 
-A [multivariate linear regression](https://en.wikipedia.org/wiki/Multivariate_statistics) (multiple variable) is a more powerful version of the above. Instead of handling two variables ("$$y$$" and "$$x$$"), it can handle an unlimited number. The principles are exactly the same as the simple linear regression above. Again, there are online calculators that can conduct a multivariate linear regression, or we can calculate it using the following equation:
+A [multivariate linear regression](https://en.wikipedia.org/wiki/Multivariate_statistics) (multiple variable) is a more powerful version of the above. Instead of handling two variables ($$y$$ and $$x$$), it can handle an unlimited number. The principles are exactly the same as the simple linear regression above. Again, there are online calculators that can conduct a multivariate linear regression, or we can calculate it using the following equation:
 
 $$y = β_{0} + β_{1}(x_{1}) + β_{2}(x_{2}) + ... + β_{p}(x_{p})$$
 
-The formula works the same way, and the symbols mean exactly the same as above, with the exception of "$$β_{0}$$" and "$$p$$".
+The formula works the same way, and the symbols mean exactly the same as above, with the exception of $$β_{0}$$ and $$p$$.
 
-- "$$β_{0}$$" is the y-intercept in a multivariate linear regression (represented as "$$α$$" in the Simple Linear Regression formula). From our perspective, it is the same.
-- "$$p$$" simply stands for "the last/final variable" and is used to show that there is no upper limit to the number of possible variables.
+- $$β_{0}$$ is the y-intercept in a multivariate linear regression (represented as $$α$$ in the Simple Linear Regression formula). From our perspective, it is the same.
+- $$p$$ simply stands for "the last/final variable" and is used to show that there is no upper limit to the number of possible variables.
 
-Unlike in the simple linear regression formula, in this example, there are multiple variables, each of which has a [line of best fit](https://en.wikipedia.org/wiki/Line_fitting), each of which has a [slope](https://en.wikipedia.org/wiki/Slope) of the line that has to be calculated ("$$β_{1}$$", "$$β_{2}$$", etc). It is difficult to draw a multivariate linear regression on a scatterplot because you would need a new dimension for each added variable. In principle it is the same as the simpler version, but with more axes.
+Unlike in the simple linear regression formula, in this example, there are multiple variables, each of which has a [line of best fit](https://en.wikipedia.org/wiki/Line_fitting), each of which has a [slope](https://en.wikipedia.org/wiki/Slope) of the line that has to be calculated ($$β_{1}$$, $$β_{2}$$, etc). It is difficult to draw a multivariate linear regression on a scatterplot because you would need a new dimension for each added variable. In principle it is the same as the simpler version, but with more axes.
 
-You can add and remove the number of variables to suit your own needs. Keeping in mind that "$$y$$" counts as one of the variables (vagrants observed, in this case), a three, four, and five variable version of the above equation looks like this:
+You can add and remove the number of variables to suit your own needs. Keeping in mind that $$y$$ counts as one of the variables (vagrants observed, in this case), a three, four, and five variable version of the above equation looks like this:
 
 **Three Variable ($$y$$ Plus 2 Independent Variables):**
 
@@ -236,7 +236,7 @@ In probability statistics, there are a number of different [probability distribu
 
 As it happens, our vagrants are best suited to a negative binomial distribution. The reasons for this are that they represent count data (1, 2, 53 vagrants) that must be whole numbers (no 0.5 vagrants) and cannot be negative (no -9 vagrants). Earlier gravity modelling conducted in the 1980s tended to use a [Poisson Distribution](https://en.wikipedia.org/wiki/Poisson_distribution) for modelling human migration. The best approach for gravity models is still a point of academic debate, with some scholars opting for a Negative Binomial approach, and others sticking with the Poisson distribution.[^7] It is possible that another probability distribution entirely is most appropriate for your own data. If you were modelling trade surpluses or deficits (which could be + or -), your data may not follow a negative binomial distribution, and the author recommends speaking to a statistician about the most appropriate option.
 
-What this means for us in this example is that the formula changes slightly. In particular, we no longer solve for "$$y$$", but for the [natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) (ln) of the [population mean](http://www.statisticshowto.com/population-mean/) ($$μ$$). You can read more about this type of formula in Michael L. Zwilling's work[^8].
+What this means for us in this example is that the formula changes slightly. In particular, we no longer solve for $$y$$, but for the [natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) (ln) of the [population mean](http://www.statisticshowto.com/population-mean/) ($$μ$$). You can read more about this type of formula in Michael L. Zwilling's work[^8].
 
 **Multivariate Regression Model:**
 
@@ -273,7 +273,7 @@ In order to determine the most likely distribution of migrants across the 32 cou
 
 1. Deciding on variables and gathering the relevant data.
 2. Determining the relative importance (weighting) of each variable.
-3. Applying the weightings for each county to get a "Predicted" number of movements.
+3. Applying the weightings for each county to get a predicted number of movements.
 
 Each of those three steps will involve finding certain parts of the equation so that we can ultimately solve it mathematically. This three-step process provides a numerical estimate of migrants (or coffee beans/widgets) for each territory in the model, allowing for a final step: Historical interpretation.
 
@@ -340,7 +340,7 @@ Having decided on these variables, the co-author of the original study, Adam Den
 | $$Wa$$            | Average wages at origin ($$i$$)  |
 | $$WaT$$           | Wage trajectory at origin ($$i$$) |
 
-Two additional variables "$$i$$" and "$$j$$", mean "at point of origin" and "at London" respectively. $$Wa_{i}$$ means "wage levels at the point of origin" whereas $$Wa_{j}$$ would mean "wage levels in London". These seven new symbols can replace the more generic ones in the formula:
+Two additional variables $$i$$ and $$j$$, mean "at point of origin" and "at London" respectively. $$Wa_{i}$$ means "wage levels at the point of origin" whereas $$Wa_{j}$$ would mean "wage levels in London". These seven new symbols can replace the more generic ones in the formula:
 
 $$μ_{ij} = exp(β_{0} + (β_{1}P_{i}) + (β_{2}d_{ij}) + (β_{3}Wh_{i}) + (β_{4}Wa_{i}) + (β_{5}WaT_{i}))$$
 
@@ -419,7 +419,7 @@ To calculate these values long-hand requires an incredible amount of work. We wi
 
 **Calculating the Individual Weightings (in Principle)**
 
-$$β_{1}$$, $$β_{2}$$, etc, are the same as "$$β$$" in the Simple Linear Regression model above, which is the [slope](https://en.wikipedia.org/wiki/Slope) of the regression line (the rise over the run, or how much "$$y$$" increases when "$$x$$" increases by 1). The only difference here between a Simple Linear Regression and our gravity model is that we have to calculate 5 slopes instead of 1.
+$$β_{1}$$, $$β_{2}$$, etc, are the same as $$β$$ in the Simple Linear Regression model above, which is the [slope](https://en.wikipedia.org/wiki/Slope) of the regression line (the rise over the run, or how much $$y$$ increases when $$x$$ increases by 1). The only difference here between a Simple Linear Regression and our gravity model is that we have to calculate 5 slopes instead of 1.
 
 *A Simple Linear Regression*
 $$y = α + βx$$
@@ -430,14 +430,14 @@ The formula for calculating β in a regression analysis is:
 
 $$β = r (\frac{s_{y}}{s_{x}})$$
 
-- We already know that "$$β$$" is the slope, which is what we are trying to calculate.
-- "r" is [Pearson's correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient), which we are going to compute
-- "$$s_{y}$$" is the standard deviation of "$$y$$"
-- "$$s_{x}$$" is the standard deviation of "$$x$$"
+- We already know that $$β$$ is the slope, which is what we are trying to calculate.
+- $$r$$ is [Pearson's correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient), which we are going to compute
+- $$s_{y}$$ is the standard deviation of $$y$$
+- $$s_{x}$$ is the standard deviation of $$x$$
 
 **Pearson's Correlation Coefficient**
 
-Pearson's correlation coefficient can be calculated long-hand but it's a rather long calculation in this case, requiring 64 numbers. There are some great video tutorials in English available online if you would like to see a walk-through of how to do the calculations long-hand.[^17] There are also a number of online calculators that will calculate "r" for you if you provide the data. Given the large number of digits to compute, I would recommend a website with a built in tool designed to make this calculation. Make sure you choose a reputable site, such as one offered by a university.
+Pearson's correlation coefficient can be calculated long-hand but it's a rather long calculation in this case, requiring 64 numbers. There are some great video tutorials in English available online if you would like to see a walk-through of how to do the calculations long-hand.[^17] There are also a number of online calculators that will calculate $$r$$ for you if you provide the data. Given the large number of digits to compute, I would recommend a website with a built in tool designed to make this calculation. Make sure you choose a reputable site, such as one offered by a university.
 
 **Calculating $$s_{y}$$ & $$s_{x}$$ (Standard Deviation)**
 
@@ -503,7 +503,7 @@ setwd(PATH) #change "PATH" to the full location on your computer where the files
 Notice that line 4 is the line that solves the equation for us, using the [glm.nb](https://stat.ethz.ch/R-manual/R-devel/library/MASS/html/glm.nb.html) function, which is short for "generalized linear model - negative binomial". This line requires a number of inputs:
 
 * our variables using the column headers as written in the .csv file, along with any logging that must be done to them (vagrants, log(population), log(distance), wheat, wages, wageTrajectory). If you were running a model with your own data, you would adjust these to reflect your column headers in your dataset.
-* where the code can find the data - in this case a variable we've defined in line 3 called "gravityModelData".
+* where the code can find the data - in this case a variable we've defined in line 3 called $$gravityModelData$$.
 * and instructions on what to do if a value is missing (na.action=na.exclude).
 
 The outputs of the calculation can be seen in Figure 9:
