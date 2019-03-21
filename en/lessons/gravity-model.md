@@ -516,7 +516,7 @@ Because we now have the y-intercept ($$β0$$), the weightings ($$β1-5$$), and t
 
 We have to do this once for each of the 32 counties.
 
-You could do this with a scientific calculator, by creating a spreadsheet formula, or writing a computer programme. To do this automatically in *R*, you can add the following to your code and re-run the programme. This *for* loop calculates the expected number of vagrants from each of the 32 counties in the example and prints the results for you to see:
+You could do this with a scientific calculator, by creating a spreadsheet formula, or writing a computer programme. To do this automatically in *R*, you can add the following to your code and re-run the programme. This `for` loop calculates the expected number of vagrants from each of the 32 counties in the example and prints the results for you to see:
 
 ```
 for (entry in c(gravityModelData$County)){
