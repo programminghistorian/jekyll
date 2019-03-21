@@ -316,7 +316,7 @@ To ensure data quality in this case study, each variable was either reliably cal
 
 With the above principles in mind, we could have chosen any number of variables, given what we knew about migration push and pull factors. We settled on five (5), chosen based on what we thought would be most important, and which we knew could be backed up with reliable data.
 
-<tablecaption>Table 1: The five variables used in the model, and the source of each in the peer reviewed literature.</tablecaption>
+<caption>Table 1: The five variables used in the model, and the source of each in the peer reviewed literature.</caption>
 
 |Variable                      | Source  |
 | -------------                |:-------------:|
@@ -328,7 +328,7 @@ With the above principles in mind, we could have chosen any number of variables,
 
 Having decided on these variables, the co-author of the original study, Adam Dennett, decided to rewrite the formula to make it self-documenting so that it was easy to tell which bits pertained to each of these five variables. This is why the formula shown above looks different than the one in the original research paper. The new symbols can be seen in Table 2:
 
-<tablecaption>Table 2: The symbols used in the gravity model equation to self-document the formula, and their meanings.</tablecaption>
+<caption>Table 2: The symbols used in the gravity model equation to self-document the formula, and their meanings.</caption>
 
 |Symbol            | Meaning         |
 | -----------      |:------:		|
@@ -350,7 +350,7 @@ This is now more verbose and a slightly self-documented version of the previous 
 
 To make the tutorial quicker easier to complete, the data for each of the 5 variables and each of the 32 counties have already been compiled and cleaned, and can be seen in Table 3 or downloaded as a [csv file](/assets/gravity-model/VagrantsExampleData.csv). This table also includes the known number of vagrants from that county, as observed in the primary source record:
 
-<tablecaption>Table 3: The five variables used in the model, for each of the 32 counties. These are the data that go into the model to calculate the result.</tablecaption>
+<caption>Table 3: The five variables used in the model, for each of the 32 counties. These are the data that go into the model to calculate the result.</caption>
 
 | County            | Vagrants | $$d$$ km to London | $$P$$ Population (persons) | $$Wa$$ Average Wage (shillings) | $$WaT$$ Wage Trajectory 1767-95 (% change) | $$Wh$$ Wheat Price (shillings) |
 | -------------    |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -404,7 +404,7 @@ The weightings for each variable tell us how important that push/pull factor is 
 
 At this stage we do not know how important each is. Perhaps wheat price is a better predictor of migration than distance? We will not know until we calculate the values of $$β1$$ through $$β5$$ (the weightings) by solving the equation above. The y-intercept ($$β0$$) only possible to calculate once you know all of the others ($$β1-β5$$). These are the RED values in Figure 8 above. The weightings can be seen in Table 4 and in Table A1 of the original paper.[^16] We will now demonstrate how we came to these values.
 
-<tablecaption>Table 4: The parameter weightings for the five variables (β1 to β5) and the y-intercept (β0), used to solve the gravity model equation.</tablecaption>
+<caption>Table 4: The parameter weightings for the five variables (β1 to β5) and the y-intercept (β0), used to solve the gravity model equation.</caption>
 
 | Variable             | Weighting  | Symbol   |
 | -------------        |:-------------:      | :------: |
@@ -605,7 +605,7 @@ $$83 = estimated vagrants
 I recommend choosing one other county and calculating it long-hand before moving on, to make sure you
 can do the calculations on your own. The correct answer is available in Table 5, which compares the observed values (as seen in the primary source record) to the estimated values (as calculated by our gravity model). The "Residual" is the difference between the two, with a large difference suggesting an unexpected number of vagrants that might be worth a closer look with one's historian's hat on.
 
-<tablecaption>Table 5: The "Observed" and "Estimated" number of vagabond poor from each county, as well as the residual (difference between the two) Available as Table 3 in the original article.</tablecaption>
+<caption>Table 5: The "Observed" and "Estimated" number of vagabond poor from each county, as well as the residual (difference between the two) Available as Table 3 in the original article.</caption>
 
 |County       | Observed Value| Estimated Value  | Residual |
 | -----------      |:------:	|:------:    |:------: |
@@ -660,7 +660,7 @@ After having tried this example problem, you should have a clear understanding o
 
 If you are fortunate enough to also have data about migrants moving to late eighteenth century London and you want to model it using the same five variables listed above, this formula would work as-is - there's an easy study here for someone with the right data. However, this model does not only work for studies about migrants moving to London. The variables can change, and the destination does not need to be London. It would be possible to use a gravity model to study migration to ancient Rome, or twenty-first century Bangkok, if you have the data and the research question. It does not even need to be a model of migration. To use the Colombian coffee case study from the introduction, which focuses on trade rather than migration, Table 6 shows a viable use of the same formula, unaltered.
 
-<tablecaption>Table 6: An example of how the formula used above could be repurposed for a study of Colombian coffee exporting patterns in 1950.</tablecaption>
+<caption>Table 6: An example of how the formula used above could be repurposed for a study of Colombian coffee exporting patterns in 1950.</caption>
 
 | Criteria                                                | Coffee Exporting Example |
 | :---:                                                   | :---:|
