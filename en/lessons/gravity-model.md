@@ -458,16 +458,44 @@ The weightings for each variable tell us how important that push/pull factor is 
 
 At this stage we do not know how important each is. Perhaps wheat price is a better predictor of migration than distance? We will not know until we calculate the values of $$β1$$ through $$β5$$ (the weightings) by solving the equation above. The y-intercept ($$β0$$) only possible to calculate once you know all of the others ($$β1-β5$$). These are the RED values in Figure 8 above. The weightings can be seen in Table 4 and in Table A1 of the original paper.[^16] We will now demonstrate how we came to these values.
 
+<table>
 <caption>Table 4: The parameter weightings for the five variables (β1 to β5) and the y-intercept (β0), used to solve the gravity model equation.</caption>
-
-| Variable             | Weighting  | Symbol   |
-| -------------        |:-------------:      | :------: |
-| y-intercept          | -3.84678            | β0        |
-| population           | 1.235208               | β1		|
-| distance             | -0.541863              | β2		|
-| wheat price          | -0.023957               | β3		|
-| wages                | -0.025184              | β4		|
-| wage trajectory      | -0.013779              | β5      |
+  <tr>
+    <th>Variable</th>
+    <th>Weighting</th>
+    <th>Symbol</th>
+  </tr>
+  <tr>
+    <td>y-intercept</td>
+    <td>-3.84678 </td>
+    <td>$$β0$$</td>
+  </tr>
+  <tr>
+    <td>population</td>
+    <td>1.235208</td>
+    <td>$$β1$$</td>
+  </tr>
+  <tr>
+    <td>distance</td>
+    <td>-0.541863</td>
+    <td>$$β2$$</td>
+  </tr>
+  <tr>
+    <td>wheat price</td>
+    <td>-0.023957</td>
+    <td>$$β3$$</td>
+  </tr>
+  <tr>
+    <td>wages</td>
+    <td>-0.025184</td>
+    <td>$$β4$$</td>
+  </tr>
+  <tr>
+    <td>wage trajectory</td>
+    <td>-0.013779</td>
+    <td>$$β5$$</td>
+  </tr>
+</table>
 
 To calculate these values long-hand requires an incredible amount of work. We will use a quick solution in the *R* programming language that takes advantage of William Venables and Brian Ripley's *MASS* package that can solve negative binomial regression equations like our gravity model with a single line of code. However, it is important to understand the principles behind what one is doing in order to appreciate what the code does (note the following sections do not DO the calculation, but explain its steps for you; we will do the calculation with the code further down the page).
 
@@ -659,42 +687,49 @@ $$83 = estimated vagrants
 I recommend choosing one other county and calculating it long-hand before moving on, to make sure you
 can do the calculations on your own. The correct answer is available in Table 5, which compares the observed values (as seen in the primary source record) to the estimated values (as calculated by our gravity model). The "Residual" is the difference between the two, with a large difference suggesting an unexpected number of vagrants that might be worth a closer look with one's historian's hat on.
 
+<table>
 <caption>Table 5: The "Observed" and "Estimated" number of vagabond poor from each county, as well as the residual (difference between the two) Available as Table 3 in the original article.</caption>
+  <tr>
+    <th>County</th>
+    <th>Observed Value</th>
+    <th>Estimated Value</th>
+    <th>Residual</th>  
+  </tr>
+  <tr><td>Bedfordshire</td><td>26</td><td>41</td><td>-15</td></tr>
+  <tr><td>Berkshire</td><td>111</td><td>76</td><td>35</td></tr>
+  <tr><td>Buckinghamshire</td><td>79</td><td>83</td><td>-4</td></tr>
+  <tr><td>Cambridgeshire</td><td>32</td><td>48</td><td>-16</td></tr>
+  <tr><td>Cheshire</td><td>34</td><td>44</td><td>-10</td></tr>
+  <tr><td>Cornwall</td><td>40</td><td>42</td><td>-2</td></tr>
+  <tr><td>Cumberland</td><td>13</td><td>21</td><td>-8</td></tr>
+  <tr><td>Derbyshire</td><td>28</td><td>36</td><td>-8</td></tr>
+  <tr><td>Devon</td><td>98</td><td>121</td><td>-23</td></tr>
+  <tr><td>Dorset</td><td>27</td><td>36</td><td>-9</td></tr>
+  <tr><td>Durham</td><td>25</td><td>31</td><td>-6</td></tr>
+  <tr><td>Gloucestershire</td><td>162</td><td>123</td><td>39</td></tr>
+  <tr><td>Hampshire</td><td>78</td><td>92</td><td>-14</td></tr>
+  <tr><td>Herefordshire</td><td>45</td><td>39</td><td>6</td></tr>
+  <tr><td>Hertfordshire</td><td>99</td><td>95</td><td>4</td></tr>
+  <tr><td>Huntingdonshire</td><td>21</td><td>18</td><td>3</td></tr>
+  <tr><td>Lancashire</td><td>94</td><td>84</td><td>10</td></tr>
+  <tr><td>Leicestershire</td><td>20</td><td>28</td><td>-8</td></tr>
+  <tr><td>Lincolnshire</td><td>41</td><td>86</td><td>-45</td></tr>
+  <tr><td>Northamptonshire</td><td>33</td><td>78</td><td>-45</td></tr>
+  <tr><td>Northumberland</td><td>58</td><td>29</td><td>29</td></tr>
+  <tr><td>Nottinghamshire</td><td>31</td><td>28</td><td>3</td></tr>
+  <tr><td>Oxfordshire</td><td>78</td><td>52</td><td>26</td></tr>
+  <tr><td>Rutland</td><td>2</td><td>4</td><td>-2</td></tr>
+  <tr><td>Shropshire</td><td>75</td><td>66</td><td>9</td></tr>
+  <tr><td>Somerset</td><td>159</td><td>145</td><td>14</td></tr>
+  <tr><td>Staffordshire</td><td>82</td><td>85</td><td>-3</td></tr>
+  <tr><td>Warwickshire</td><td>104</td><td>70</td><td>34</td></tr>
+  <tr><td>Westmorland</td><td>5</td><td>5</td><td>0</td></tr>
+  <tr><td>Wiltshire</td><td>99</td><td>95</td><td>4</td></tr>
+  <tr><td>Worcestershire</td><td>94</td><td>53</td><td>41</td></tr>
+  <tr><td>Yorkshire</td><td>127</td><td>207</td><td>-80</td></tr>
+  
+</table>
 
-|County       | Observed Value| Estimated Value  | Residual |
-| -----------      |:------:	|:------:    |:------: |
-|Bedfordshire	|	26 	      | 41				| -15 		|
-|Berkshire		|	111		| 76				| 35		|
-|Buckinghamshire	|	79		| 83				| -4		|
-|Cambridgeshire	|	32	 	| 48				| -16		|
-|Cheshire		|	34		| 44				| -10		|
-|Cornwall		|	40		| 42				| -2		|
-|Cumberland		|	13		| 21				| -8		|
-|Derbyshire		|	28		| 36				| -8		|
-|Devon			|	98		| 121				| -23		|
-|Dorset		|	27		| 36				| -9		|
-|Durham		|	25		| 31				| -6		|
-|Gloucestershire	|	162		| 123				| 39		|
-|Hampshire		|	78		| 92				| -14		|
-|Herefordshire	|	45		| 39				| 6		|
-|Hertfordshire	|	99		| 95				| 4		|
-|Huntingdonshire	|	21		| 18				| 3		|
-|Lancashire		|	94		| 84				| 10		|
-|Leicestershire	|	20		| 28				| -8		|
-|Lincolnshire	|	41		| 86				| -45		|
-|Northamptonshire	|	33		| 78				| -45		|
-|Northumberland	|	58		| 29				| 29		|
-|Nottinghamshire	|	31		| 28				| 3		|
-|Oxfordshire		|	78		| 52				| 26		|
-|Rutland		|	2		| 4				| -2		|
-|Shropshire		|	75		| 66				| 9		|
-|Somerset		|	159		| 145				| 14		|
-|Staffordshire	|	82		| 85				| -3		|
-|Warwickshire	|	104		| 70				| 34		|
-|Westmorland		|	5		| 5				| 0		|
-|Wiltshire		|	99		| 95				| 4		|
-|Worcestershire	|	94		| 53				| 41		|
-|Yorkshire		|	127		| 207				| -80		|
 
 
 ## Step 4 - Historical Interpretation
@@ -714,13 +749,26 @@ After having tried this example problem, you should have a clear understanding o
 
 If you are fortunate enough to also have data about migrants moving to late eighteenth century London and you want to model it using the same five variables listed above, this formula would work as-is - there's an easy study here for someone with the right data. However, this model does not only work for studies about migrants moving to London. The variables can change, and the destination does not need to be London. It would be possible to use a gravity model to study migration to ancient Rome, or twenty-first century Bangkok, if you have the data and the research question. It does not even need to be a model of migration. To use the Colombian coffee case study from the introduction, which focuses on trade rather than migration, Table 6 shows a viable use of the same formula, unaltered.
 
+<table>
 <caption>Table 6: An example of how the formula used above could be repurposed for a study of Colombian coffee exporting patterns in 1950.</caption>
+  <tr>
+    <th>Criteria</th>
+    <th>Coffee Exporting Example</th>
+  </tr>
+  <tr>
+    <td>ONE point of origin</td>
+    <td>coffee exports from the port of Barranquilla, Colombia</td>
+  </tr>
+  <tr>
+    <td>MULTIPLE finite destinations</td>
+    <td>the 21 countries of the Western Hemisphere in 1950</td>
+  </tr>
+  <tr>
+    <td>FIVE explanatory variables</td>
+    <td>(1) number of Atlantic Ocean ports in receiving country (2) miles from Colombia, (3) Gross Domestic Product of receiving country, (4) Domestic Coffee grown in tons, (5) coffee shops per 10,000 people</td>
+  </tr>
 
-| Criteria                                                | Coffee Exporting Example |
-| :---:                                                   | :---:|
-| ONE point of origin                                     | coffee exports from the port of Barranquilla, Colombia |
-| MULTIPLE finite destinations                            | the 21 countries of the Western Hemisphere in 1950 |
-| FIVE explanatory variables | (1) number of Atlantic Ocean ports in receiving country (2) miles from Colombia, (3) Gross Domestic Product of receiving country, (4) Domestic Coffee grown in tons, (5) coffee shops per 10,000 people |
+</table>
 
 There is a long history of gravity models in academic scholarship. To use one effectively for research, you need to understand the basic theory and mathematics behind them and the reasons that they have developed as they have. It is also important to understand their limits and conditions for using them properly, some of which were discussed above. It might also help to know:
 
