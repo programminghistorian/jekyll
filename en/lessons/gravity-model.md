@@ -319,8 +319,8 @@ With the above principles in mind, we could have chosen any number of variables,
 <table>
 <caption>Table 1: The five variables used in the model, and the source of each in the peer reviewed literature.</caption>
   <tr>
-    <td>Variable</td>
-    <td>Source</td>
+    <th>Variable</th>
+    <th>Source</th>
   </tr>
     <tr>
     <td>population at origin</td>
@@ -351,8 +351,8 @@ Having decided on these variables, the co-author of the original study, Adam Den
 <table>
 <caption>Table 2: The symbols used in the gravity model equation to self-document the formula, and their meanings.</caption>
   <tr>
-    <td>Symbol</td>
-    <td>Meaning</td>
+    <th>Symbol</th>
+    <th>Meaning</th>
   </tr>
   <tr>
     <td>$$i$$</td>
@@ -395,42 +395,51 @@ This is now more verbose and a slightly self-documented version of the previous 
 
 To make the tutorial quicker easier to complete, the data for each of the 5 variables and each of the 32 counties have already been compiled and cleaned, and can be seen in Table 3 or downloaded as a [csv file](/assets/gravity-model/VagrantsExampleData.csv). This table also includes the known number of vagrants from that county, as observed in the primary source record:
 
+<table>
 <caption>Table 3: The five variables used in the model, for each of the 32 counties. These are the data that go into the model to calculate the result.</caption>
+  <tr>
+    <th>County</th>
+    <th>Vagrants</th>
+    <th>$$d$$ km to London</th>
+    <th>$$P$$ Population (persons)</th>
+    <th>$$Wa$$ Average Wage (shillings)</th>
+    <th>$$WaT$$ Wage Trajectory 1767-95 (% change)</th>
+    <th>$$Wh$$ Wheat Price (shillings)</th>
+  </tr>
+  <tr><td>Bedfordshire</td><td>26</td><td>61.9</td><td>54836</td><td>87</td><td>1.149</td><td>61.79</td></tr>
+  <tr><td>Berkshire</td><td>111</td><td>61.7</td><td>101939</td><td>90</td><td>4.44</td><td>63.07</td></tr>
+  <tr><td>Buckinghamshire</td><td>79</td><td>46.7</td><td>95936</td><td>96</td><td>-8.33</td><td>63.09</td></tr>
+  <tr><td>Cambridgeshire</td><td>32</td><td>86.8</td><td>80497</td><td>88</td><td>11.36</td><td>60.05</td></tr>
+  <tr><td>Cheshire</td><td>34</td><td>255.1</td><td>158038</td><td>80</td><td>35.00</td><td>69.19</td></tr>
+  <tr><td>Cornwall</td><td>40</td><td>364.6</td><td>142179</td><td>81</td><td>14.81</td><td>67.94</td></tr>
+  <tr><td>Cumberland</td><td>13</td><td>407.3</td><td>96862</td><td>78</td><td>38.46</td><td>64.42</td></tr>
+  <tr><td>Derbyshire</td><td>28</td><td>196.9</td><td>122593</td><td>75</td><td>48.00</td><td>68.02</td></tr>
+  <tr><td>Devon</td><td>98</td><td>272.5</td><td>279652</td><td>89</td><td>-7.87</td><td>69.98</td></tr>
+  <tr><td>Dorset</td><td>27</td><td>176.8</td><td>97262</td><td>81</td><td>22.22</td><td>67.30</td></tr>
+  <tr><td>Durham</td><td>25</td><td>380.7</td><td>119779</td><td>78</td><td>33.33</td><td>63.16</td></tr>
+  <tr><td>Gloucestershire</td><td>162</td><td>157.1</td><td>215576</td><td>81</td><td>9.88</td><td>66.54</td></tr>
+  <tr><td>Hampshire</td><td>78</td><td>102.4</td><td>166648</td><td>96</td><td>6.25</td><td>61.45</td></tr>
+  <tr><td>Herefordshire</td><td>45</td><td>190.5</td><td>81882</td><td>70</td><td>28.57</td><td>62.05</td></tr>
+  <tr><td>Hertfordshire</td><td>99</td><td>35.3</td><td>95868</td><td>90</td><td>4.44</td><td>63.82</td></tr>
+  <tr><td>Huntingdonshire</td><td>21</td><td>87.5</td><td>35370</td><td>89</td><td>7.87</td><td>58.72</td></tr>
+  <tr><td>Lancashire</td><td>94</td><td>281.8</td><td>301407</td><td>78</td><td>55.13</td><td>71.65</td></tr>
+  <tr><td>Leicestershire</td><td>20</td><td>146.1</td><td>107028</td><td>79</td><td>65.82</td><td>64.84</td></tr>
+  <tr><td>Lincolnshire</td><td>41</td><td>179.8</td><td>181814</td><td>84</td><td>26.19</td><td>58.73</td></tr>
+  <tr><td>Northamptonshire</td><td>33</td><td>107.6</td><td>128798</td><td>78</td><td>21.79</td><td>63.81</td></tr>
+  <tr><td>Northumberland</td><td>58</td><td>440.0</td><td>148148</td><td>72</td><td>70.83</td><td>58.22</td></tr>
+  <tr><td>Nottinghamshire</td><td>31</td><td>187.5</td><td>98216</td><td>108</td><td>0.00</td><td>61.30</td></tr>
+  <tr><td>Oxfordshire</td><td>78</td><td>86.8</td><td>99354</td><td>84</td><td>25.00</td><td>64.23</td></tr>
+  <tr><td>Rutland</td><td>2</td><td>132.5</td><td>15123</td><td>90</td><td>10.00</td><td>64.12</td></tr>
+  <tr><td>Shropshire</td><td>75</td><td>214.0</td><td>147303</td><td>76</td><td>18.42</td><td>66.50</td></tr>
+  <tr><td>Somerset</td><td>159</td><td>180.4</td><td>234179</td><td>77</td><td>3.90</td><td>68.29</td></tr>
+  <tr><td>Staffordshire</td><td>82</td><td>185.3</td><td>175075</td><td>76</td><td>18.42</td><td>67.80</td></tr>
+  <tr><td>Warwickshire</td><td>104</td><td>149.3</td><td>152050</td><td>96</td><td>-3.13</td><td>65.05</td></tr>
+  <tr><td>Westmorland</td><td>5</td><td>365.0</td><td>38342</td><td>74</td><td>62.16</td><td>71.05</td></tr>
+  <tr><td>Wiltshire</td><td>99</td><td>131.7</td><td>182421</td><td>84</td><td>20.24</td><td>63.64</td></tr>
+  <tr><td>Worcestershire</td><td>94</td><td>164.4</td><td>130757</td><td>81</td><td>25.93</td><td>65.78</td></tr>
+  <tr><td>Yorkshire</td><td>127</td><td>282.2</td><td>651709</td><td>80</td><td>58.33</td><td>61.87</td></tr>
+</table>
 
-| County            | Vagrants | $$d$$ km to London | $$P$$ Population (persons) | $$Wa$$ Average Wage (shillings) | $$WaT$$ Wage Trajectory 1767-95 (% change) | $$Wh$$ Wheat Price (shillings) |
-| -------------    |:---:|:---:|:---:|:---:|:---:|:---:|
-| Bedfordshire | 26 | 61.9 | 54836 | 87 | 1.149 | 61.79 |
-|Berkshire | 111 | 61.7 | 101939 | 90 | 4.44 |	63.07 |
-| Buckinghamshire | 79 | 46.7 | 95936 | 96 | -8.33 | 63.09 |
-| Cambridgeshire | 32 | 86.8 | 80497 | 88 | 11.36 | 60.05 |
-| Cheshire | 34 | 255.1 | 158038 | 80 | 35.00 | 69.19 |
-| Cornwall | 40 | 364.6 | 142179 | 81 | 14.81 | 67.94 |
-| Cumberland | 13 | 407.3 | 96862 | 78 | 38.46 | 64.42 |
-| Derbyshire | 28 | 196.9 | 122593 | 75 | 48.00 | 68.02 |
-| Devon | 98 | 272.5 | 279652 | 89 | -7.87 | 69.98 |
-| Dorset	| 27 | 176.8 | 97262 | 81 | 22.22 | 67.30 |
-| Durham | 25 | 380.7 | 119779 | 78 | 33.33 | 63.16 |
-| Gloucestershire | 162 | 157.1 | 215576 | 81 | 	9.88 | 66.54 |
-| Hampshire | 78 | 102.4 | 166648 | 96 | 6.25 | 61.45|
-| Herefordshire | 45 | 190.5 | 81882 | 70 | 28.57 | 62.05 |
-| Hertfordshire | 99 | 35.3 | 95868 | 90 | 4.44 | 63.82 |
-| Huntingdonshire | 21 | 87.5 | 35370 | 89 | 7.87 | 58.72 |
-| Lancashire | 94 | 281.8 | 301407 | 78 | 55.13 | 71.65 |
-| Leicestershire | 20 | 146.1 | 107028 | 79 | 65.82 | 64.84 |
-| Lincolnshire | 41 | 179.8 | 181814 | 84 | 26.19 | 58.73 |
-| Northamptonshire | 33 | 107.6 | 128798 | 78 | 21.79 | 63.81 |
-| Northumberland | 58 | 440.0 | 148148 | 72 | 70.83 | 58.22 |
-| Nottinghamshire | 31 | 187.5 | 98216 | 108 | 0.00 | 61.30|
-| Oxfordshire | 78 | 86.8 | 99354 | 84 | 25.00 | 64.23 |
-| Rutland | 2 | 132.5 | 15123 | 90 | 10.00 | 64.12 |
-| Shropshire | 75 | 214.0 | 147303 | 76 | 18.42 | 66.50 |
-| Somerset | 159 | 180.4 | 234179 | 77 | 3.90 | 68.29 |
-| Staffordshire | 82 | 185.3 | 175075 | 76 | 18.42 | 67.80 |
-| Warwickshire | 104 | 149.3 | 152050 | 96 | -3.13 | 65.05 |
-| Westmorland | 5 | 365.0 | 38342 | 74 | 62.16 | 71.05|
-| Wiltshire | 99 | 131.7 | 182421 | 84 | 20.24 | 63.64 |
-| Worcestershire | 94 | 164.4 | 130757 | 81 | 25.93 | 65.78 |
-| Yorkshire | 127 | 282.2 | 651709 | 80	 | 58.33 | 61.87 |
 
 The final difference between this formula and the one used in the original article, is that two of the variables happen to have a stronger relationship with vagrancy when plotted naturally logarithmically. They are population at origin ($$P$$) and distance from origin to London ($$d$$). What this means is that for the data in this study, the regression line (sometimes called line of best fit) is a better fit when the data has been logged than when it has not been. You can see this in Figure 7, with the non-logged population figures on the left, and the logged version on the right. More of the points are closer to the line of best fit on the logged graph than on the non-logged one.
 
