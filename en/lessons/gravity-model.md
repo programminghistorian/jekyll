@@ -316,29 +316,74 @@ To ensure data quality in this case study, each variable was either reliably cal
 
 With the above principles in mind, we could have chosen any number of variables, given what we knew about migration push and pull factors. We settled on five (5), chosen based on what we thought would be most important, and which we knew could be backed up with reliable data.
 
+<table>
 <caption>Table 1: The five variables used in the model, and the source of each in the peer reviewed literature.</caption>
+  <tr>
+    <td>Variable</td>
+    <td>Source</td>
+  </tr>
+    <tr>
+    <td>population at origin</td>
+    <td>1771 values, Wrigley, "English county populations", pp. 54-5.[^12]</td>
+  </tr>
+  <tr>
+    <td>distance from London</td>
+    <td>calculated with software </td>
+  </tr>
+  <tr>
+    <td>price of wheat</td>
+    <td>Cannon and Brunt, "Weekly British Grain Prices"[^13]</td>
+  </tr>
+  <tr>
+    <td>average wages at origin</td>
+    <td>Hunt, "Industrialization and Regional Inequality", pp. 965-6.[^14]</td>
+  </tr>
+  <tr>
+    <td>trajectory of wages</td>
+    <td>Hunt, "Industrialization and Regional Inequality", pp. 965-6.[^15]</td>
+  </tr>
 
-|Variable                      | Source  |
-| -------------                |:-------------:|
-| population at origin         | 1771 values, Wrigley, "English county populations", pp. 54-5.[^12]|
-| distance from London         | calculated with software |
-| price of wheat               | Cannon and Brunt, "Weekly British Grain Prices"[^13]|
-| average wages at origin      | Hunt, "Industrialization and Regional Inequality", pp. 965-6.[^14] |
-| trajectory of wages          | Hunt, "Industrialization and Regional Inequality", pp. 965-6.[^15]|
+
+</table>
 
 Having decided on these variables, the co-author of the original study, Adam Dennett, decided to rewrite the formula to make it self-documenting so that it was easy to tell which bits pertained to each of these five variables. This is why the formula shown above looks different than the one in the original research paper. The new symbols can be seen in Table 2:
 
+<table>
 <caption>Table 2: The symbols used in the gravity model equation to self-document the formula, and their meanings.</caption>
+  <tr>
+    <td>Symbol</td>
+    <td>Meaning</td>
+  </tr>
+  <tr>
+    <td>$$i$$</td>
+    <td>the county of origin</td>
+  </tr>
+  <tr>
+    <td>$$j$$</td>
+    <td>London (destination)</td>
+  </tr>
+  <tr>
+    <td>$$P$$</td>
+    <td>Population at origin ($$i$$)</td>
+  </tr>
+  <tr>
+    <td>$$d$$</td>
+    <td>Distance from origin ($$i$$) to London ($$j$$)</td>
+  </tr>
+  <tr>
+    <td>$$Wh$$</td>
+    <td>Price of Wheat at origin ($$i$$)</td>
+  </tr>
+  <tr>
+    <td>$$Wa$$</td>
+    <td>Average wages at origin ($$i$$)</td>
+  </tr>
+  <tr>
+    <td>$$WaT$$</td>
+    <td>Wage trajectory at origin ($$i$$)</td>
+  </tr>
 
-|Symbol            | Meaning         |
-| -----------      |:------:		|
-| $$i$$             | the county of origin |
-| $$j$$             | London (destination) |
-| $$P$$             | Population at origin ($$i$$) |
-| $$d$$             | Distance from origin ($$i$$) to London ($$j$$) |
-| $$Wh$$            | Price of Wheat at origin ($$i$$) |
-| $$Wa$$            | Average wages at origin ($$i$$)  |
-| $$WaT$$           | Wage trajectory at origin ($$i$$) |
+</table>
 
 Two additional variables $$i$$ and $$j$$, mean "at point of origin" and "at London" respectively. $$Wa_{i}$$ means "wage levels at the point of origin" whereas $$Wa_{j}$$ would mean "wage levels in London". These seven new symbols can replace the more generic ones in the formula:
 
