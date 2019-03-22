@@ -826,7 +826,7 @@
     en: |
         Nabeel Siddiqui is a doctoral candidate in American Studies at the College of William and Mary, where he is also an inaugural fellow of the Digital Equality Lab. His research focuses broadly on the relationship between the humanities and computation, with a particular expertise on the cultural history of media, new media studies, digital humanities, information studies, and the history of science and technology. Currently, he is completing his dissertation entitled "Byting Out the Public," which looks at the historical relationship between the personal computer and the private sphere.
     es: |
-        Nabeel Siddiqui es doctoranda en Estudios Americanos en College of William and Mary, donde también es becaria del Digital Equality Lab. Su investigación se centra en las relaciones entre las Humanidades y la Informática, en particular en la historia cultural de los medios, Comunicación y Humanidades Digitales, Ciencias de la Información, Historia de la Ciencia y Tecnología. Actualmente, está realizando su tesis doctoral titulada "Byting Out the Public", que pretende estudiar la relación entre el ordenador personal y la privacidad.
+        Nabeel Siddiqui es doctorando en Estudios Americanos en College of William and Mary, donde también es becario del Digital Equality Lab. Su investigación se centra en las relaciones entre las Humanidades y la Informática, en particular en la historia cultural de los medios, Comunicación y Humanidades Digitales, Ciencias de la Información, Historia de la Ciencia y Tecnología. Actualmente, está realizando su tesis doctoral titulada "Byting Out the Public", que pretende estudiar la relación entre el ordenador personal y la privacidad.
 
 - name: Anandi Silva Knuppel
   github: alsalin
@@ -1038,6 +1038,7 @@
   team_roles:
     - french
     - board
+    - ombuds-fr
   bio:
       en: |
           François Dominic Laramée is a doctoral candidate in history at the Université de Montréal, in Canada.
@@ -1074,6 +1075,7 @@
   team_roles:
     - french
     - board
+    - managing-fr
   bio:
         en: |
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
@@ -1094,6 +1096,7 @@
   team_roles:
     - french
     - board
+    - ombuds-fr
   bio:
         en: |
             Marie Puren is an historian and research engineer in the ALMAnaCH team at Inria Paris.
@@ -1165,3 +1168,55 @@
   bio:
       en: |
           Go Sugimoto is a data analyst at the Austrian Centre for Digital Humanities (ACDH) in the Austrian Academy of Sciences. He is originally an archaeologist, and holds MSc in Archaeolgical Information Systems (University of York) and MA in Heritage Management (University of Birmingham). It is hard to categorise him, because he has worked for a wide range of cultural heritage projects around the world, including Europeana and Archives Portal Europe (at the National Archives of the Netherlands), the European Commission, CHIRON fellowship at the University of Florence (Italy), the National Museum of Modern Art Tokyo (Japan), and Wessex Archaeology (UK).  
+
+- name: Riva Quiroga
+  twitter: rivaquiroga
+  email: riva.quiroga@uc.cl
+  github: rivaquiroga
+  team: true
+  team_start: 2019
+  institution: Universidad Católica de Chile
+  sortname: Quiroga
+  affiliation:
+    en: |
+        Catholic University of Chile, Chile.
+    es: |
+        Universidad Católica de Chile, Chile.
+    fr: |
+        Université Catholique de Chili, Chili.
+  bio:
+    en: |
+        Riva Quiroga is a PhD student in Linguistics at the Catholic University of Chile. 
+    es: |
+        Riva Quiroga es estudiante de doctorado en Lingüística en la Universidad Católica de Chile.
+    fr: |
+        Riva Quiroga est doctorante en linguistique à l'Université Catholique de Chili.
+  team_roles:
+    - spanish
+    - board
+    
+- name: Joshua G. Ortiz Baco
+  twitter: jgob
+  email: joshuaortizbaco@utexas.edu
+  github: joshuagob
+  team: true
+  team_start: 2019
+  institution: University of Texas, at Austin
+  sortname: Ortiz
+  affiliation:
+    en: |
+        University of Texas, at Austin.
+    es: |
+        Universidad de Texas en Austin.
+    fr: |
+        Université du Texas à Austin.
+  bio:
+    en: |
+        Joshua G. Ortiz Baco is a PhD student in Spanish and Portuguese at the University of Texas, at Austin.
+    es: |
+        Joshua G. Ortiz Baco es estudiante de doctorado en Español y Portugués en la Universidad de Texas en Austin.
+    fr: |
+        Joshua G. Ortiz Baco est un doctorant en espagnol et portugais de l'Université du Texas à Austin.
+  team_roles:
+    - spanish
+    - board

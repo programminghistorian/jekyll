@@ -2,6 +2,7 @@
 title: Consignes aux auteur(e)s
 layout: blank
 original: author-guidelines
+skip_validation: true
 ---
 
 # Consignes aux auteur(e)s et aux traducteur(trice)s
@@ -13,7 +14,7 @@ original: author-guidelines
 
 ## Proposer une nouvelle leçon
 Si vous avez une idée pour une nouvelle leçon, ou si vous avez déjà rédigé un tutoriel qui, selon vous, pourrait être adapté au *Programming Historian en français*, enfin, si vous souhaitez proposer une traduction, compléter une leçon [formulaire de proposition](/assets/forms/Formulaire.Tutoriel.txt) et
-contactez [Jessica Parr] pour discuter de votre idée. En prenant contact avec l'équipe au tout début du processus, il vous sera plus facile d'élaborer votre leçon -- et plus particulièrement d'identifier le lectorat cible et le niveau de compétence attendu - et de vous associer au rédacteur ou à la rédactrice avec le plus d'expérience sur les thèmes que vous abordez.
+contactez {% include managing-editor.html lang=page.lang %} pour discuter de votre idée. En prenant contact avec l'équipe au tout début du processus, il vous sera plus facile d'élaborer votre leçon -- et plus particulièrement d'identifier le lectorat cible et le niveau de compétence attendu - et de vous associer au rédacteur ou à la rédactrice avec le plus d'expérience sur les thèmes que vous abordez.
 
 <div class="alert alert-success">
 Nous acceptons des tutoriels :
@@ -261,7 +262,7 @@ L'étape la plus immédiate consiste en la création par votre rédacteur(trice)
 ### Attendez les commentaires des évaluateurs/évaluatrices
 Nous essayons de finaliser le processus de relecture dans un délai de quatre semaines ; mais il peut parfois arriver que nous prenions du retard, ou que les personnes impliquées dans le processus de relecture soient très occupées, et cela peut prendre plus de temps que prévu.
 
-Afin de promouvoir l'évaluation ouverte par les pairs et le développement d'un environnement académique ouvert, nous encourageons les discussions à rester sur Github. Toutefois, nous souhaitons également que vous vous sentiez à l'aise avec le processus de relecture ; sentez vous libre d'[envoyer directement un message à votre rédacteur ou rédactrice](/fr/equipe-projet), ou de contacter notre médiatrice dédiée, [Amanda Visconti](/fr/equipe-projet).
+Afin de promouvoir l'évaluation ouverte par les pairs et le développement d'un environnement académique ouvert, nous encourageons les discussions à rester sur Github. Toutefois, nous souhaitons également que vous vous sentiez à l'aise avec le processus de relecture ; sentez vous libre d'[envoyer directement un message à votre rédacteur ou rédactrice](/fr/equipe-projet), ou de contacter l'un.e de nos médiateurs et médiatrices, [Marie Puren et François Dominic Laramée](/fr/equipe-projet).
 
 
 ### Répondez aux commentaires
@@ -281,7 +282,6 @@ Ensuite, le comité éditorial du *Programming Historian en français* va rapide
 Félicitations ! Vous avez publié une leçon ou une traduction pour le *Programming Historian en français*!
 
 
-   [Jessica Parr]: mailto:jparr1129@gmail.com
   [page wiki des leçons en cours de développement]: https://github.com/programminghistorian/jekyll/wiki/Lesson-Pipeline
   [consignes aux évaluateurs et évaluatrices]: /fr/consignes-evaluateurs.html
   [leçons publiées]: /fr/lecons

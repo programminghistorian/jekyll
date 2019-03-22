@@ -1,0 +1,2 @@
+{% comment %} Any time we need to print the name of a journal's current managing editor with a link to their email, call this include. To change a managing editor, edit snippets.yml:managing_editor {% endcomment %}
+{% assign me = site.data.ph_authors | where: "name", site.data.snippets.managing_editor[include.lang] | first %}[{{ me.name }}](mailto:{{ me.email }})

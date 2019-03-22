@@ -214,15 +214,15 @@ Turtle uses aliases or a shortcuts known as [prefixes](https://www.w3.org/TeamSu
 
 We don't want to type this out every time we refer to this person (Jack Straw, you'll remember). So we just have to announce our shortcut:
 
-    @prefix toby: <http://data.history.ac.uk/tobias-project/person>
+    @prefix toby: <http://data.history.ac.uk/tobias-project/person> .
 
 Then Jack is `toby:15601`, which replaces the long URI and is easier on the eye. I have chosen 'toby', but could just as easily chosen any string of letters.
 
 Let's now move from Jack Straw to William Shakespeare and use Turtle to describe some stuff about his works. We'll need to decide on the authority files to use, a process which, as mentioned above, is best gleaned from looking at other LOD sets. Here we'll use [Dublin Core](https://en.wikipedia.org/wiki/Dublin_Core), a library [metadata](https://en.wikipedia.org/wiki/Metadata) standard, as one of our prefixes, the [Library of Congress Control Number](https://en.wikipedia.org/wiki/Library_of_Congress_Control_Number) authority file for another, and the last one (VIAF) should be familiar to you. Together these three authority files provide unique identifiers for all of the entities I plan to use in this example.:
 
-    @prefix lccn: <http://id.loc.gov/authorities/names>
-    @prefix dc: <http://purl.org/dc/elements/1.1/>
-    @prefix viaf: <http://viaf.org/viaf>
+    @prefix lccn: <http://id.loc.gov/authorities/names> .
+    @prefix dc: <http://purl.org/dc/elements/1.1/> .
+    @prefix viaf: <http://viaf.org/viaf> .
 
     lccn:n82011242 dc:creator viaf:96994048 .
 
@@ -232,11 +232,11 @@ In the above example, lccn:n82011242 represents Macbeth; dc:creator links Macbet
 
 Turtle also allows you to list triples without bothering to repeat each URI when you've only just used it. Let's add the date when scholars think Macbeth was written, using the Dublin Core attribute-value pair: `dc:created 'YYYY'`:
 
-    @prefix lccn: <http://id.loc.gov/authorities/names>
-    @prefix dc: <http://purl.org/dc/elements/1.1/>
-    @prefix viaf: <http://viaf.org/viaf>
+    @prefix lccn: <http://id.loc.gov/authorities/names> .
+    @prefix dc: <http://purl.org/dc/elements/1.1/> .
+    @prefix viaf: <http://viaf.org/viaf> .
 
-    lccn:n82011242 dc:creator viaf:96994048 ,
+    lccn:n82011242 dc:creator viaf:96994048 ;
                dc:created "1606" .
 
 Remember the structure of the triple, discussed in section 1? There we gave this example:

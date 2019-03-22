@@ -16,7 +16,7 @@ Writing a tutorial is one of the best ways to teach yourself particular skills a
 
 We don't simply accept or reject articles like traditional journals. Our editors collaborate with you to help craft your essay to be as clear and as useful as possible--a great way to improve your technical writing skills. Please read more about our [submission process][submissions].
 
-If you'd like to propose a lesson (for you or for someone else to write), email <a href="mailto:anandi.silva.knuppel@emory.edu">Anandi Silva Knuppel</a>.
+If you'd like to propose a lesson (for you or for someone else to write), email {% include managing-editor.html lang=page.lang %}.
 
 ## Join our team of reviewers
 
@@ -24,7 +24,7 @@ If you'd like to propose a lesson (for you or for someone else to write), email 
 
 The _Programming Historian_ holds peer review in the highest regard, and we take an open and collaborative approach in which reviewers get full and public credit for their work. For more on our review philosophy and procedures, please see the [Guidelines for Reviewers][reviewers].
 
-We hope you'll consider joining our team of reviewers. The time commitment is flexible, you'll learn a lot, and contribute to a widely-used and highly-valued resource. Please email <a href="mailto:anandi.silva.knuppel@emory.edu">Anandi Silva Knuppel</a> to introduce yourself and let us know any specific skills, tools, topics, and technologies that you'd like to focus on.
+We hope you'll consider joining our team of reviewers. The time commitment is flexible, you'll learn a lot, and contribute to a widely-used and highly-valued resource. Please email {% include managing-editor.html lang=page.lang %} to introduce yourself and let us know any specific skills, tools, topics, and technologies that you'd like to focus on.
 
 
 ## Edit lessons
@@ -62,14 +62,14 @@ This project is our attempt to demonstrate what open access academic publishing 
 
 The _Programming Historian_ has listings in WorldCat ([English](http://www.worldcat.org/title/programming-historian/oclc/951537099))  and ([Spanish](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)).
 
-With thanks to the [University of Purdue library](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink) and Amanda Visconti, and to the University of Virginia. 
+With thanks to the [University of Purdue library](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink) and Amanda Visconti, and to the University of Virginia.
 
 The English edition of the project is indexed by the [Directory of Open Access Journals](https://doaj.org/toc/2397-2068).
 
 
 ## Make a suggestion
 
-No matter how you'd like to be involved, you can always email <a href="mailto:anandi.silva.knuppel@emory.edu">Anandi Silva Knuppel</a> with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
+No matter how you'd like to be involved, you can always email {% include managing-editor.html lang=page.lang %} with any comments, questions, complaints, or suggestions.  We endeavor to respond to all emails promptly.
 
 
 Thanks for your help in improving the _Programming Historian_!
