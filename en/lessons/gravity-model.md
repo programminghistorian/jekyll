@@ -184,37 +184,37 @@ There are many websites that provide calculator functions that will do this for 
 
 $$y = α + βx$$
 
-- $$y$$ is a value on the y-axis (number of vagrants, in the example above).
-- $$α$$ is the [y-intercept](https://en.wikipedia.org/wiki/Y-intercept). This is the value of $$y$$ when $$x = 0$$.
-- $$β$$ is the [slope](https://en.wikipedia.org/wiki/Slope) of the regression line.
-- $$x$$ is a value on the x-axis (the population of the county).
+- $y$ is a value on the y-axis (number of vagrants, in the example above).
+- $α$ is the [y-intercept](https://en.wikipedia.org/wiki/Y-intercept). This is the value of $y$ when $x = 0$.
+- $β$ is the [slope](https://en.wikipedia.org/wiki/Slope) of the regression line.
+- $x$ is a value on the x-axis (the population of the county).
 
-Many tutorials can teach you to conduct simple linear regressions.[^5] When you know $$α$$ and $$β$$, you can choose a value for either $$x$$ (population) or $$y$$ (number of vagrants), and then calculate the other. You can do that mathematically using the formula above, or you can eyeball it by looking at the graph in Figure 6 if you only need a rough measure. If you want to know the estimated number of vagrants for a county with a population of 200,000 ($$A.$$ on Figure 6), then you find where $$x$$ and $$y$$ meet ($$B.$$), and finally the y-intercept for that value ($$C.$$). In other words: if population is 200,000, how many vagrants would we expect? According to the graph, about 90.
+Many tutorials can teach you to conduct simple linear regressions.[^5] When you know $α$ and $β$, you can choose a value for either $x$ (population) or $y$ (number of vagrants), and then calculate the other. You can do that mathematically using the formula above, or you can eyeball it by looking at the graph in Figure 6 if you only need a rough measure. If you want to know the estimated number of vagrants for a county with a population of 200,000 ($A.$ on Figure 6), then you find where $x$ and $y$ meet ($B.$), and finally the y-intercept for that value ($C.$). In other words: if population is 200,000, how many vagrants would we expect? According to the graph, about 90.
 
 ## Multivariate Linear Regression
 
-A [multivariate linear regression](https://en.wikipedia.org/wiki/Multivariate_statistics) (multiple variable) is a more powerful version of the above. Instead of handling two variables ($$y$$ and $$x$$), it can handle an unlimited number. The principles are exactly the same as the simple linear regression above. Again, there are online calculators that can conduct a multivariate linear regression, or we can calculate it using the following equation:
+A [multivariate linear regression](https://en.wikipedia.org/wiki/Multivariate_statistics) (multiple variable) is a more powerful version of the above. Instead of handling two variables ($y$ and $x$), it can handle an unlimited number. The principles are exactly the same as the simple linear regression above. Again, there are online calculators that can conduct a multivariate linear regression, or we can calculate it using the following equation:
 
 $$y = β_{0} + β_{1}(x_{1}) + β_{2}(x_{2}) + ... + β_{p}(x_{p})$$
 
-The formula works the same way, and the symbols mean exactly the same as above, with the exception of $$β_{0}$$ and $$p$$.
+The formula works the same way, and the symbols mean exactly the same as above, with the exception of $β_{0}$ and $p$.
 
-- $$β_{0}$$ is the y-intercept in a multivariate linear regression (represented as $$α$$ in the Simple Linear Regression formula). From our perspective, it is the same.
-- $$p$$ simply stands for "the last/final variable" and is used to show that there is no upper limit to the number of possible variables.
+- $β_{0}$ is the y-intercept in a multivariate linear regression (represented as $α$ in the Simple Linear Regression formula). From our perspective, it is the same.
+- $p$ simply stands for "the last/final variable" and is used to show that there is no upper limit to the number of possible variables.
 
-Unlike in the simple linear regression formula, in this example, there are multiple variables, each of which has a [line of best fit](https://en.wikipedia.org/wiki/Line_fitting), each of which has a [slope](https://en.wikipedia.org/wiki/Slope) of the line that has to be calculated ($$β_{1}$$, $$β_{2}$$, etc). It is difficult to draw a multivariate linear regression on a scatterplot because you would need a new dimension for each added variable. In principle it is the same as the simpler version, but with more axes.
+Unlike in the simple linear regression formula, in this example, there are multiple variables, each of which has a [line of best fit](https://en.wikipedia.org/wiki/Line_fitting), each of which has a [slope](https://en.wikipedia.org/wiki/Slope) of the line that has to be calculated ($β_{1}$, $β_{2}$, etc). It is difficult to draw a multivariate linear regression on a scatterplot because you would need a new dimension for each added variable. In principle it is the same as the simpler version, but with more axes.
 
-You can add and remove the number of variables to suit your own needs. Keeping in mind that $$y$$ counts as one of the variables (vagrants observed, in this case), a three, four, and five variable version of the above equation looks like this:
+You can add and remove the number of variables to suit your own needs. Keeping in mind that $y$ counts as one of the variables (vagrants observed, in this case), a three, four, and five variable version of the above equation looks like this:
 
-**Three Variable ($$y$$ Plus 2 Independent Variables):**
+**Three Variable ($y$ Plus 2 Independent Variables):**
 
 $$y = β_{0} + (β_{1}x_{1}) + (β_{2}x_{2})$$
 
-**Four Variable  ($$y$$ Plus 3 Independent Variables):**
+**Four Variable  ($y$ Plus 3 Independent Variables):**
 
 $$y = β_{0} + (β_{1}x_{1}) + (β_{2}x_{2}) + (β_{3}x_{3})$$
 
-**Five Variable  ($$y$$ Plus 4 Independent Variables):**
+**Five Variable  ($y$ Plus 4 Independent Variables):**
 
 $$y = β_{0} + (β_{1}x_{1}) + (β_{2}x_{2}) + (β_{3}x_{3}) + (β_{4}x_{4})$$
 
@@ -236,7 +236,7 @@ In probability statistics, there are a number of different [probability distribu
 
 As it happens, our vagrants are best suited to a negative binomial distribution. The reasons for this are that they represent count data (1, 2, 53 vagrants) that must be whole numbers (no 0.5 vagrants) and cannot be negative (no -9 vagrants). Earlier gravity modelling conducted in the 1980s tended to use a [Poisson Distribution](https://en.wikipedia.org/wiki/Poisson_distribution) for modelling human migration. The best approach for gravity models is still a point of academic debate, with some scholars opting for a Negative Binomial approach, and others sticking with the Poisson distribution.[^7] It is possible that another probability distribution entirely is most appropriate for your own data. If you were modelling trade surpluses or deficits (which could be + or -), your data may not follow a negative binomial distribution, and the author recommends speaking to a statistician about the most appropriate option.
 
-What this means for us in this example is that the formula changes slightly. In particular, we no longer solve for $$y$$, but for the [natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) ($$ln$$) of the [population mean](http://www.statisticshowto.com/population-mean/) ($$μ$$). You can read more about this type of formula in Michael L. Zwilling's work[^8].
+What this means for us in this example is that the formula changes slightly. In particular, we no longer solve for $y$, but for the [natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) ($ln$) of the [population mean](http://www.statisticshowto.com/population-mean/) ($μ$). You can read more about this type of formula in Michael L. Zwilling's work[^8].
 
 **Multivariate Regression Model:**
 
@@ -251,9 +251,9 @@ The full formula looks like this:
 
 $$ln(μ) = β_{0} + (β_{1}x_{1}) + (β_{2}x_{2}) + (β_{3}x_{3}) + (β_{4}x_{4}) + (β_{5}x_{5})$$
 
-To make it easier to solve, we can rewrite this formula to isolate $$μ$$ on the left side of the equation by counteracting the natural log ($$ln$$) - effectively removing it from the calculation. To do so, we must perform the inverse of natural log on both sides of the equation. The inverse of a natural log ($$ln$$) is the [exponential function](https://en.wikipedia.org/wiki/Exponential_function) ($$exp$$). This means multiplying natural log by the exponential function on the left side of the equation (resulting in 1, and making it redundant since 1($$μ$$) is $$μ$$). You must also do the same on the right side.
+To make it easier to solve, we can rewrite this formula to isolate $μ$ on the left side of the equation by counteracting the natural log ($\ln$) - effectively removing it from the calculation. To do so, we must perform the inverse of natural log on both sides of the equation. The inverse of a natural log ($\ln$) is the [exponential function](https://en.wikipedia.org/wiki/Exponential_function) ($exp$). This means multiplying natural log by the exponential function on the left side of the equation (resulting in 1, and making it redundant since 1($μ$) is $μ$). You must also do the same on the right side.
 
-This means everything on the right side of the new equation must be multiplied by $$exp()$$:
+This means everything on the right side of the new equation must be multiplied by $\exp()$:
 
 $$μ = exp(β_{0} + (β_{1}x_{1}) + (β_{2}x_{2}) + (β_{3}x_{3}) + (β_{4}x_{4}) + (β_{5}x_{5}))$$
 
@@ -263,7 +263,7 @@ The above is the basis of the equation used in the *Economic History Review* art
 
 $$μ_{ij} = exp(β_{0} + (β_{1}ln(P_{i}) + (β_{2}ln(d_{ij}) + (β_{3}Wh_{i}) + (β_{4}Wa_{i}) + (β_{5})WaT_{i}))$$
 
-$$μ_{ij}$$ stands for the population interaction between origin $$i$$ and destination $$j$$ - in this case, the number of vagrants moving to London from that area. The remaining symbols represent each of the five variables used in the example case study, and will be explained more fully below.
+$μ_{ij}$ stands for the population interaction between origin $i$ and destination $j$ - in this case, the number of vagrants moving to London from that area. The remaining symbols represent each of the five variables used in the example case study, and will be explained more fully below.
 
 # The Three Steps of Gravity Modelling
 
@@ -330,42 +330,44 @@ Having decided on these variables, the co-author of the original study, Adam Den
 
 <table>
 <caption>Table 2: The symbols used in the gravity model equation to self-document the formula, and their meanings.</caption>
+  <thead>
   <tr>
     <th>Symbol</th>
     <th>Meaning</th>
   </tr>
+  </thead>
   <tr>
-    <td>$$i$$</td>
+    <td>$i$</td>
     <td>the county of origin</td>
   </tr>
   <tr>
-    <td>$$j$$</td>
+    <td>$j$</td>
     <td>London (destination)</td>
   </tr>
   <tr>
-    <td>$$P$$</td>
-    <td>Population at origin ($$i$$)</td>
+    <td>$P$</td>
+    <td>Population at origin ($i$)</td>
   </tr>
   <tr>
-    <td>$$d$$</td>
-    <td>Distance from origin ($$i$$) to London ($$j$$)</td>
+    <td>$d$</td>
+    <td>Distance from origin ($i$) to London ($j$)</td>
   </tr>
   <tr>
-    <td>$$Wh$$</td>
-    <td>Price of Wheat at origin ($$i$$)</td>
+    <td>$Wh$</td>
+    <td>Price of Wheat at origin ($i$)</td>
   </tr>
   <tr>
-    <td>$$Wa$$</td>
-    <td>Average wages at origin ($$i$$)</td>
+    <td>$Wa$</td>
+    <td>Average wages at origin ($i$)</td>
   </tr>
   <tr>
-    <td>$$WaT$$</td>
-    <td>Wage trajectory at origin ($$i$$)</td>
+    <td>$WaT$</td>
+    <td>Wage trajectory at origin ($i$)</td>
   </tr>
 
 </table>
 
-Two additional variables $$i$$ and $$j$$, mean "at point of origin" and "at London" respectively. $$Wa_{i}$$ means "wage levels at the point of origin" whereas $$Wa_{j}$$ would mean "wage levels in London". These seven new symbols can replace the more generic ones in the formula:
+Two additional variables $i$ and $j$, mean "at point of origin" and "at London" respectively. $Wa_{i}$ means "wage levels at the point of origin" whereas $Wa_{j}$ would mean "wage levels in London". These seven new symbols can replace the more generic ones in the formula:
 
 $$μ_{ij} = exp(β_{0} + (β_{1}P_{i}) + (β_{2}d_{ij}) + (β_{3}Wh_{i}) + (β_{4}Wa_{i}) + (β_{5}WaT_{i}))$$
 
@@ -377,15 +379,17 @@ To make the tutorial quicker easier to complete, the data for each of the 5 vari
 
 <table>
 <caption>Table 3: The five variables used in the model, for each of the 32 counties. These are the data that go into the model to calculate the result.</caption>
+  <thead>
   <tr>
     <th>County</th>
     <th>Vagrants</th>
-    <th>$$d$$ km to London</th>
-    <th>$$P$$ Population (persons)</th>
-    <th>$$Wa$$ Average Wage (shillings)</th>
-    <th>$$WaT$$ Wage Trajectory 1767-95 (% change)</th>
-    <th>$$Wh$$ Wheat Price (shillings)</th>
+    <th>$d$ km to London</th>
+    <th>$P$ Population (persons)</th>
+    <th>$Wa$ Average Wage (shillings)</th>
+    <th>$WaT$ Wage Trajectory 1767-95 (% change)</th>
+    <th>$Wh$ Wheat Price (shillings)</th>
   </tr>
+  </thead>
   <tr><td>Bedfordshire</td><td>26</td><td>61.9</td><td>54836</td><td>87</td><td>1.149</td><td>61.79</td></tr>
   <tr><td>Berkshire</td><td>111</td><td>61.7</td><td>101939</td><td>90</td><td>4.44</td><td>63.07</td></tr>
   <tr><td>Buckinghamshire</td><td>79</td><td>46.7</td><td>95936</td><td>96</td><td>-8.33</td><td>63.09</td></tr>
@@ -421,7 +425,7 @@ To make the tutorial quicker easier to complete, the data for each of the 5 vari
 </table>
 
 
-The final difference between this formula and the one used in the original article, is that two of the variables happen to have a stronger relationship with vagrancy when plotted naturally logarithmically. They are population at origin ($$P$$) and distance from origin to London ($$d$$). What this means is that for the data in this study, the regression line (sometimes called line of best fit) is a better fit when the data has been logged than when it has not been. You can see this in Figure 7, with the non-logged population figures on the left, and the logged version on the right. More of the points are closer to the line of best fit on the logged graph than on the non-logged one.
+The final difference between this formula and the one used in the original article, is that two of the variables happen to have a stronger relationship with vagrancy when plotted naturally logarithmically. They are population at origin ($P$) and distance from origin to London ($d$). What this means is that for the data in this study, the regression line (sometimes called line of best fit) is a better fit when the data has been logged than when it has not been. You can see this in Figure 7, with the non-logged population figures on the left, and the logged version on the right. More of the points are closer to the line of best fit on the logged graph than on the non-logged one.
 
 {% include figure.html filename="figure7.png" caption="Figure 7: Number of Vagrants plotted against population at origin (left), and natural log of population of origin (right) with a simple regression line overlayed on both. Note the stronger relationship between the two variables visible on the second graph." %}
 
@@ -434,46 +438,48 @@ The values in Table 3 give us everything we need to fill in the Blue parts of ea
 
 ## Step 2: Determining the Weightings
 
-The weightings for each variable tell us how important that push/pull factor is relative to the other variables when trying to estimate the number of vagrants that should have come from a given county. The $$β$$ parameters must be determined across the whole data set from the known data. With these to hand we will be able to compare individual origin-specific observations with the general model. We can then examine these and identify over and under predicted flows between the various origins and the destination.
+The weightings for each variable tell us how important that push/pull factor is relative to the other variables when trying to estimate the number of vagrants that should have come from a given county. The $β$ parameters must be determined across the whole data set from the known data. With these to hand we will be able to compare individual origin-specific observations with the general model. We can then examine these and identify over and under predicted flows between the various origins and the destination.
 
-At this stage we do not know how important each is. Perhaps wheat price is a better predictor of migration than distance? We will not know until we calculate the values of $$β1$$ through $$β5$$ (the weightings) by solving the equation above. The y-intercept ($$β0$$) only possible to calculate once you know all of the others ($$β1-β5$$). These are the RED values in Figure 8 above. The weightings can be seen in Table 4 and in Table A1 of the original paper.[^16] We will now demonstrate how we came to these values.
+At this stage we do not know how important each is. Perhaps wheat price is a better predictor of migration than distance? We will not know until we calculate the values of $β1$ through $β5$ (the weightings) by solving the equation above. The y-intercept ($β0$) only possible to calculate once you know all of the others ($β1-β5$). These are the RED values in Figure 8 above. The weightings can be seen in Table 4 and in Table A1 of the original paper.[^16] We will now demonstrate how we came to these values.
 
 <table>
-<caption>Table 4: The parameter weightings for the five variables ($$β1$$ to $$β5$$) and the y-intercept ($$β0$$), used to solve the gravity model equation.</caption>
+<caption>Table 4: The parameter weightings for the five variables ($β1$ to $β5$) and the y-intercept ($β0$), used to solve the gravity model equation.</caption>
+  <thead>
   <tr>
     <th>Variable</th>
     <th>Weighting</th>
     <th>Symbol</th>
   </tr>
+  </thead>
   <tr>
     <td>y-intercept</td>
     <td>-3.84678 </td>
-    <td>$$β0$$</td>
+    <td>$β0$</td>
   </tr>
   <tr>
     <td>population</td>
     <td>1.235208</td>
-    <td>$$β1$$</td>
+    <td>$β1$</td>
   </tr>
   <tr>
     <td>distance</td>
     <td>-0.541863</td>
-    <td>$$β2$$</td>
+    <td>$β2$</td>
   </tr>
   <tr>
     <td>wheat price</td>
     <td>-0.023957</td>
-    <td>$$β3$$</td>
+    <td>$β3$</td>
   </tr>
   <tr>
     <td>wages</td>
     <td>-0.025184</td>
-    <td>$$β4$$</td>
+    <td>$β4$</td>
   </tr>
   <tr>
     <td>wage trajectory</td>
     <td>-0.013779</td>
-    <td>$$β5$$</td>
+    <td>$β5$</td>
   </tr>
 </table>
 
@@ -481,35 +487,35 @@ To calculate these values long-hand requires an incredible amount of work. We wi
 
 **Calculating the Individual Weightings (in Principle)**
 
-$$β_{1}$$, $$β_{2}$$, etc, are the same as $$β$$ in the Simple Linear Regression model above, which is the [slope](https://en.wikipedia.org/wiki/Slope) of the regression line (the rise over the run, or how much $$y$$ increases when $$x$$ increases by 1). The only difference here between a Simple Linear Regression and our gravity model is that we have to calculate 5 slopes instead of 1.
+$β_{1}$, $β_{2}$, etc, are the same as $β$ in the Simple Linear Regression model above, which is the [slope](https://en.wikipedia.org/wiki/Slope) of the regression line (the rise over the run, or how much $y$ increases when $x$ increases by 1). The only difference here between a Simple Linear Regression and our gravity model is that we have to calculate 5 slopes instead of 1.
 
 *A Simple Linear Regression*
 $$y = α + βx$$
 
-We will need to solve for each of these five slopes before we can calculate the y-intercept in the next step. That is because the slopes of the various $$β$$ values are part of the equation for calculating the y-intercept.
+We will need to solve for each of these five slopes before we can calculate the y-intercept in the next step. That is because the slopes of the various $β$ values are part of the equation for calculating the y-intercept.
 
-The formula for calculating $$β$$ in a regression analysis is:
+The formula for calculating $β$ in a regression analysis is:
 
 $$β = r (\frac{s_{y}}{s_{x}})$$
 
-- We already know that $$β$$ is the slope, which is what we are trying to calculate.
-- $$r$$ is [Pearson's correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient), which we are going to compute
-- $$s_{y}$$ is the standard deviation of $$y$$
-- $$s_{x}$$ is the standard deviation of $$x$$
+- We already know that $β$ is the slope, which is what we are trying to calculate.
+- $r$ is [Pearson's correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient), which we are going to compute
+- $s_{y}$ is the standard deviation of $y$
+- $s_{x}$ is the standard deviation of $x$
 
 **Pearson's Correlation Coefficient**
 
-Pearson's correlation coefficient can be calculated long-hand but it's a rather long calculation in this case, requiring 64 numbers. There are some great video tutorials in English available online if you would like to see a walk-through of how to do the calculations long-hand.[^17] There are also a number of online calculators that will calculate $$r$$ for you if you provide the data. Given the large number of digits to compute, I would recommend a website with a built in tool designed to make this calculation. Make sure you choose a reputable site, such as one offered by a university.
+Pearson's correlation coefficient can be calculated long-hand but it's a rather long calculation in this case, requiring 64 numbers. There are some great video tutorials in English available online if you would like to see a walk-through of how to do the calculations long-hand.[^17] There are also a number of online calculators that will calculate $r$ for you if you provide the data. Given the large number of digits to compute, I would recommend a website with a built in tool designed to make this calculation. Make sure you choose a reputable site, such as one offered by a university.
 
-**Calculating $$s_{y}$$ & $$s_{x}$$ (Standard Deviation)**
+**Calculating $s_{y}$ & $s_{x}$ (Standard Deviation)**
 
 [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) is a way of expressing how much variation from the mean (average) there is in the data. In other words, is the data fairly clustered around the mean, or is the spread much wider?
 
 Again, there are online calculators and statistical software packages that can do this calculation for you if you provide the data.
 
-With the above values, you can calculate $$β_{1}$$. This will have to be done once for each of the five variables $$β_{1}$$ to $$β_{5}$$. These values allow you to calculate the y-intercept, $$β_{0}$$
+With the above values, you can calculate $β_{1}$. This will have to be done once for each of the five variables $β_{1}$ to $β_{5}$. These values allow you to calculate the y-intercept, $β_{0}$
 
-**Calculating $$β_{0}$$ (the y-Intercept)**
+**Calculating $β_{0}$ (the y-Intercept)**
 
 Next, we have to calculate the y-intercept. The formula for calculating the y-intercept in a Simple Linear Regression is:
 
@@ -565,15 +571,15 @@ setwd(PATH) #change "PATH" to the full location on your computer where the files
 Notice that line 4 is the line that solves the equation for us, using the [glm.nb](https://stat.ethz.ch/R-manual/R-devel/library/MASS/html/glm.nb.html) function, which is short for "generalized linear model - negative binomial". This line requires a number of inputs:
 
 * our variables using the column headers as written in the .csv file, along with any logging that must be done to them (vagrants, log(population), log(distance), wheat, wages, wageTrajectory). If you were running a model with your own data, you would adjust these to reflect your column headers in your dataset.
-* where the code can find the data - in this case a variable we've defined in line 3 called $$gravityModelData$$.
+* where the code can find the data - in this case a variable we've defined in line 3 called `gravityModelData`.
 
 The outputs of the calculation can be seen in Figure 9:
 
-{% include figure.html filename="figure9.png" caption="Figure 9: The summary of the above code, showing the weightings for each variable and the y-intercept, listed under the 'Estimate' heading ($$\beta_{0}$$ to $$\beta_{5}$$. This summary also shows a number of other calculations, including [statistical significance](https://en.wikipedia.org/wiki/Statistical_significance)." %}
+{% include figure.html filename="figure9.png" caption="Figure 9: The summary of the above code, showing the weightings for each variable and the y-intercept, listed under the 'Estimate' heading ($\beta_{0}$ to $\beta_{5}$. This summary also shows a number of other calculations, including [statistical significance](https://en.wikipedia.org/wiki/Statistical_significance)." %}
 
 ## Step 3: Calculating the Estimates for Each County
 
-Because we now have the y-intercept ($$β0$$), the weightings ($$β1-5$$), and the 5 variable values for each county ($$P$$, $$d$$, $$Wh$$, $$Wa$$, $$WaT$$), we have all the numbers we need to solve for the model's predicted value for a county: the final result.
+Because we now have the y-intercept ($β0$), the weightings ($β1-5$), and the 5 variable values for each county ($P$, $d$, $Wh$, $Wa$, $WaT$), we have all the numbers we need to solve for the model's predicted value for a county: the final result.
 
 We have to do this once for each of the 32 counties.
 
@@ -597,38 +603,42 @@ To build understanding, I suggest doing one county long-hand. This tutorial will
 
 Using the data for Hertfordshire in Table 3, and the weightings for each variable in Table 4, we can now complete our formula, which will give the result of 95:
 
-$$estimated vagrants =
+```
+estimated vagrants =
   exp(y-intercept
   + (#population calculation)
   + (#distance calculation)
   + (#wheat price calculation)
   + (#wages calculation)
   + (#wage trajectory calculation)
-  )$$
-
+  )
+```
 
 First, let's swap out the symbols for the numbers, taken from the tables mentioned above.
 
-$$estimated vagrants =
+```
+estimated vagrants =
   exp(-3.848  						#y-intercept
   + (1.235 * ln(97389)) 			#population calculation
   + (-0.542 * ln(35.3)) 	#distance calculation
   + (-0.024 * 63.82) 			#wheat price calculation
   + (-0.025 * 90) 					#wages calculation
   + (-0.014 * 4.44)			#wage trajectory calculation
-  )$$
+  )
+```
 
 Then, start to calculate values to get to the estimate. Remembering mathematical order of operations, multiply values before adding. So start by calculating each variable (you can use a scientific calculator for this):
 
-
-$$estimated vagrants =
+```
+estimated vagrants =
   exp(-3.848  						#y-intercept
   + (14.185788655431) 				#population calculation
   + (−1.93162456646) 				#distance calculation
   + (−1.53168) 				#wheat price calculation
   + (-2.25) 							#wages calculation
   + (−0.06216)				#wage trajectory calculation
-  )$$
+  )
+```
 
 The next step is to add the numbers together:
 
@@ -669,12 +679,14 @@ can do the calculations on your own. The correct answer is available in Table 5,
 
 <table>
 <caption>Table 5: The "Observed" and "Estimated" number of vagabond poor from each county, as well as the residual (difference between the two) Available as Table 3 in the original article.</caption>
+  <thead>
   <tr>
     <th>County</th>
     <th>Observed Value</th>
     <th>Estimated Value</th>
-    <th>Residual</th>  
+    <th>Residual</th>
   </tr>
+  </thead>
   <tr><td>Bedfordshire</td><td>26</td><td>41</td><td>-15</td></tr>
   <tr><td>Berkshire</td><td>111</td><td>76</td><td>35</td></tr>
   <tr><td>Buckinghamshire</td><td>79</td><td>83</td><td>-4</td></tr>
@@ -707,7 +719,7 @@ can do the calculations on your own. The correct answer is available in Table 5,
   <tr><td>Wiltshire</td><td>99</td><td>95</td><td>4</td></tr>
   <tr><td>Worcestershire</td><td>94</td><td>53</td><td>41</td></tr>
   <tr><td>Yorkshire</td><td>127</td><td>207</td><td>-80</td></tr>
-  
+
 </table>
 
 
@@ -731,10 +743,12 @@ If you are fortunate enough to also have data about migrants moving to late eigh
 
 <table>
 <caption>Table 6: An example of how the formula used above could be repurposed for a study of Colombian coffee exporting patterns in 1950.</caption>
+  <thead>
   <tr>
     <th>Criteria</th>
     <th>Coffee Exporting Example</th>
   </tr>
+  </thead>
   <tr>
     <td>ONE point of origin</td>
     <td>coffee exports from the port of Barranquilla, Colombia</td>
