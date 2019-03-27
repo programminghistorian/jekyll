@@ -1188,3 +1188,29 @@
   team_roles:
     - spanish
     - board
+    
+- name: Joshua G. Ortiz Baco
+  twitter: jgob
+  email: joshuaortizbaco@utexas.edu
+  github: joshuagob
+  team: true
+  team_start: 2019
+  institution: University of Texas, at Austin
+  sortname: Ortiz
+  affiliation:
+    en: |
+        University of Texas, at Austin.
+    es: |
+        Universidad de Texas en Austin.
+    fr: |
+        Université du Texas à Austin.
+  bio:
+    en: |
+        Joshua G. Ortiz Baco is a PhD student in Spanish and Portuguese at the University of Texas, at Austin.
+    es: |
+        Joshua G. Ortiz Baco es estudiante de doctorado en Español y Portugués en la Universidad de Texas en Austin.
+    fr: |
+        Joshua G. Ortiz Baco est un doctorant en espagnol et portugais de l'Université du Texas à Austin.
+  team_roles:
+    - spanish
+    - board
