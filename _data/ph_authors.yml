@@ -1214,3 +1214,9 @@
   team_roles:
     - spanish
     - board
+    
+- name: Armado Luza
+  team: false
+  bio:
+   es: |
+       Armando Luza es Maestro en Traducción por El Colegio de México. Actualmente se desempeña en investigación, traducción y corrección de estilo.
