@@ -1214,3 +1214,9 @@
   team_roles:
     - spanish
     - board
+
+- name: Armando Luza
+  team: false
+  bio:
+   es: |
+       Armando Luza es [waiting from info from author]
