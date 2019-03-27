@@ -14,7 +14,6 @@ difficulty: 2
 slug: corpus-paralelo-lfaligner
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/197
 activity: analyzing
-topics:
 abstract: |
   "Esta lección enseña a crear corpus con traducciones a distintas lenguas, de forma que queden perfectamente alineados para una mejor visualización y consulta."
 ---
@@ -262,14 +261,14 @@ Si deseamos editar el documento de formas que la herramienta gráfica de LF Alig
 
 También puedes guardar, por separado, las versiones recién alineadas en documentos de texto plano (txt) y usar un visualizador sencillo de traducciones paralelas como [AntPConc](http://www.laurenceanthony.net/software/antpconc/).
 
-Sobre la base de la imagen anterior, podemos plantear algunas preguntas que podrían ser útiles para nuestra investigación; tanto en la fase preliminar de un proyecto, en la cual no se tiene claridad sobre lo que se quiere observar, como en una fase avanzada, en la que hacemos búsquedas motivadas por preguntas y criterios previamente establecidos. El tutorial sobre [AntConc](https://programminghistorian.org/es/lecciones/analisis-de-corpus-con-antconc) alojado en este sitio profundiza más en el concepto de lectura distante.
+Sobre la base de la imagen anterior, podemos plantear algunas preguntas que podrían ser útiles para nuestra investigación; tanto en la fase preliminar de un proyecto, en la cual no se tiene claridad sobre lo que se quiere observar, como en una fase avanzada, en la que hacemos búsquedas motivadas por preguntas y criterios previamente establecidos. El tutorial sobre [AntConc]("/"/es/lecciones/analisis-de-corpus-con-antconc) alojado en este sitio profundiza más en el concepto de lectura distante.
 
 Como vemos con el ejemplo de *persona* -búsqueda basada en una lectura exploratoria del texto- tanto las similitudes como las diferencias en las traducciones del término son reveladoras; por un lado, permiten conocer sus distintas traducciones y, por otro, permiten describir y comprender la naturaleza de las regularidades y variaciones de estas, lo que nos acerca más al estudio de las técnicas de traducción empleadas y las características de cada texto. En otras palabras, visualizar los textos de este modo nos permite observar, cuantificar y calificar los fenómenos discursivos y de traducción que pueden encontrarse en el texto.
 
 
 ## Referencias bibliográficas
 
-- Froehlich, Heather, "Análisis de corpus con AntConc", traducido por Carlos Manuel Varón Castañeda, _The Programming Historian en español_ 3 (2018), https://programminghistorian.org/es/lecciones/analisis-de-corpus-con-antconc.
+- Froehlich, Heather, "Análisis de corpus con AntConc", traducido por Carlos Manuel Varón Castañeda, _The Programming Historian en español_ 3 (2018), [Análisis de corpus con AntConc](/es/lecciones/analisis-de-corpus-con-antconc)
 
 - Luna, R., “El corpus: herramienta de investigación traductológica”, *Temas de traducción*, Lima, Universidad Femenina del Sagrado Corazón (2002), pp. 57-72.
 
