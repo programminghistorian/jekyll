@@ -12,7 +12,7 @@ editors:
 layout: lesson
 difficulty: 2
 slug: corpus-paralelo-lfaligner
-Topics: distant-reading
+topics: distant-reading
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/197
 activity: analyzing
 abstract: |
