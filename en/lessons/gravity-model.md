@@ -253,7 +253,7 @@ $$ln(μ) = β_{0} + (β_{1}x_{1}) + (β_{2}x_{2}) + (β_{3}x_{3}) + (β_{4}x_{4}
 
 To make it easier to solve, we can rewrite this formula to isolate $μ$ on the left side of the equation by counteracting the natural log ($ln$) - effectively removing it from the calculation. To do so, we must perform the inverse of natural log on both sides of the equation. The inverse of a natural log ($ln$) is the [exponential function](https://en.wikipedia.org/wiki/Exponential_function) ($exp$). This means multiplying natural log by the exponential function on the left side of the equation (resulting in 1, and making it redundant since 1($μ$) is $μ$). You must also do the same on the right side.
 
-This means everything on the right side of the new equation must be multiplied by $\exp()$:
+This means everything on the right side of the new equation must be multiplied by $exp()$:
 
 $$μ = exp(β_{0} + (β_{1}x_{1}) + (β_{2}x_{2}) + (β_{3}x_{3}) + (β_{4}x_{4}) + (β_{5}x_{5}))$$
 
