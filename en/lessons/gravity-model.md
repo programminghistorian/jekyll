@@ -642,11 +642,15 @@ estimated vagrants =
 
 The next step is to add the numbers together:
 
-$$estimated vagrants = exp(4.56232408897)$$
+```
+estimated vagrants = exp(4.56232408897)
+```
 
 And finally, to calculate the exponential function (use a scientific calculator):
 
-$$estimated vagrants = 95.8059926832$$
+```
+estimated vagrants = 95.8059926832
+```
 
 We have dropped the remainder and declared that the estimated number of vagrants from Hertfordshire in this model is 95. You have to conduct the same calculations for each of the other counties, which you could speed up by using a spreadsheet program. Just to make sure you can do it again, I've also included the numbers for Buckinghamshire:
 
