@@ -1,14 +1,14 @@
 language: ruby
-cache: 
+cache:
   - bundler
   - directories:
     - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 rvm:
-- 2.3.3
+- 2.5.4
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: _build/build.sh  
+script: _build/build.sh
 
 env:
   global:
