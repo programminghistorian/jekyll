@@ -161,7 +161,7 @@ $$μ_{ij} = exp(β_{0} + β_{1}ln(P_{i}) + β_{2}ln(d_{ij}) + β_{3}Wh_{i} + β_
 
 <div class="alert alert-warning">
 
-The following section outlines the intellectual origins of the gravity model formula, and will help you to understand the branch of mathematics from which it comes. This will allow you to develop the vocabulary and background needed to discuss the model's mathematics at a basic level. If you are not familiar or comfortable with mathematical operations, you may find it helpful to read or refresh your knowledge of [orders of operation](https://en.wikipedia.org/wiki/Order_of_operations), as this knowledge is needed to solve the mathematical equations correctly.
+The following section outlines the intellectual origins of the gravity model formula, and will help you to understand the branch of mathematics from which it comes. This will allow you to develop the vocabulary and background needed to discuss the model's mathematics at a basic level. If you are not familiar or comfortable with mathematical operations, you may find it helpful to read or refresh your knowledge of <a href="https://en.wikipedia.org/wiki/Order_of_operations">orders of operation</a>, as this knowledge is needed to solve the mathematical equations correctly.
 
 </div>
 
