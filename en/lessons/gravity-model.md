@@ -296,7 +296,7 @@ There are also a number of *wrong* ways you can include variables. A gravity mod
 
 As the gravity model is a mathematical equation, all input variables must be numerical. That could be a count (population), spatial measure (area, distance, etc), time (hours from London on foot), percentage (wage increase/decrease), currency value (wages in shillings), or some other *measure* of the places involved in the model.
 
-Numbers must be meaningful and cannot be nominal [categorical variables](https://en.wikipedia.org/wiki/Categorical_variable) which act as a stand-in for a qualitative attribute. For example you **cannot** arbitrarily assign a number and use it in the model if the number doesn't have meaning (eg, road quality = good, or road quality = 4). Though the latter is numerical it is not a measure of road quality. Instead, you might use the average travel speed in miles per hour as a proxy for road quality. Whether average speed is a meaningful measure of road quality is up to you to determine and defend as the author of the study.
+Numbers must be meaningful and cannot be nominal [categorical variables](https://en.wikipedia.org/wiki/Categorical_variable) which act as a stand-in for a qualitative attribute. For example you **cannot** arbitrarily assign a number and use it in the model if the number doesn't have meaning (eg, `road quality` = good, or `road quality` = 4). Though the latter is numerical it is not a measure of road quality. Instead, you might use the average travel speed in miles per hour as a proxy for road quality. Whether average speed is a meaningful measure of road quality is up to you to determine and defend as the author of the study.
 
 Generally speaking, if you can measure it or count it, you can model it.
 
@@ -531,12 +531,12 @@ This section assumes you have installed *R* and have installed the *MASS* packag
 
 To use this code, you will need to download a copy of the dataset of the five variables plus the number of observed vagrants from each of the 32 counties. This is available above as Table 3, or can be downloaded as a [.csv file](/assets/gravity-model/VagrantsExampleData.csv). Whatever mode you choose, save the file as *VagrantsExampleData.csv*. If you are using a Mac make sure you save it as a [Windows format .csv](https://superuser.com/questions/385265/whats-the-difference-between-csv-ms-dos-csv-macintosh-csv-comma-delimi) file. Open *VagrantsExampleData.csv* and familiarise yourself with its contents. You should notice each of the 32 counties, along with each of the variables we've discussed throughout this tutorial. We will be using the column headers to access this data with our computer programme. I could have called them anything, but in this file they are:
 
-1. vagrants
-2. population
-3. distance
-4. wheat
-5. wages
-6. wageTrajectory
+1. `vagrants`
+2. `population`
+3. `distance`
+4. `wheat`
+5. `wages`
+6. `wageTrajectory`
 
 In the same directory as you saved the csv file, create and save a new *R* script file (you can do this with any text editor or with RStudio, but do not use a word processor like MS Word). Save it as *weightingsCalculations.r*.
 
@@ -570,7 +570,7 @@ setwd(PATH) #change "PATH" to the full location on your computer where the files
 
 Notice that line 4 is the line that solves the equation for us, using the [glm.nb](https://stat.ethz.ch/R-manual/R-devel/library/MASS/html/glm.nb.html) function, which is short for "generalized linear model - negative binomial". This line requires a number of inputs:
 
-* our variables using the column headers as written in the .csv file, along with any logging that must be done to them (vagrants, log(population), log(distance), wheat, wages, wageTrajectory). If you were running a model with your own data, you would adjust these to reflect your column headers in your dataset.
+* our variables using the column headers as written in the .csv file, along with any logging that must be done to them (`vagrants`, log(`population`), log(`distance`), `wheat`, `wages`, `wageTrajectory`). If you were running a model with your own data, you would adjust these to reflect your column headers in your dataset.
 * where the code can find the data - in this case a variable we've defined in line 3 called `gravityModelData`.
 
 The outputs of the calculation can be seen in Figure 9:
@@ -798,7 +798,7 @@ With thanks to Angela Kedgley, Sarah Lloyd, Tim Hitchcock, Joe Cozens, Katrina N
 [^5]: For English speakers, the author recommends Eugene O'Loughlin, 'How To...Perform Simple Linear Regression by Hand', *YouTube* (23 December 2015): <https://www.youtube.com/watch?v=GhrxgbQnEEU>.
 [^6]: "Chapter 326: Negative Binomial Regression", *NCSS Stats Software* (n.d.): <https://ncss-wpengine.netdna-ssl.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Negative_Binomial_Regression.pdf>
 [^7]: Flowerdew, R. and Aitkin, M., ‘A method of fitting the gravity model based on the Poisson distribution’, *Journal of Regional Science*, 22 (1982), pp. 191–202; Flowerdew, R. and Lovett, A., ‘Fitting constrained Poisson regression models to interurban migration flows’, *Geographical Analysis*, 20 (1988), pp. 297–307; Congdon, P., ‘Approaches to modeling overdispersion in the analysis of migration’, *Environment and Planning* A, 25 (1993), pp. 1481–510; Flowerdew, R., ‘Modelling migration with Poisson regression’, in J. Stillwell, O. Duke-Williams, and A. Dennett, eds., *Technologies for migration and commuting analysis: spatial interaction data applications* (Hershey, Pa., 2010), pp. 261–79.
-[^8]: Michael L. Zwilling, "Negative Binomial Regression", _The Mathematica Journal_, vol. 15 (2013): <http://www.mathematica-journal.com/2013/06/negative-binomial-regression/>.
+[^8]: Michael L. Zwilling, "Negative Binomial Regression", *The Mathematica Journal*, vol. 15 (2013): <http://www.mathematica-journal.com/2013/06/negative-binomial-regression/>.
 [^9]: Crymble, A, A. Dennett, and T. Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, vol. 71, no. 3 (2018), 747-771.
 [^10]: For example, see: Grigg, D.B. "E.G. Ravenstein and the 'laws of migration", *Journal of Historical Geography*, vol. 3, no. 1 (1977), pp. 44-54.
 [^11]: Crymble, A, A. Dennett, and T. Hitchcock, "Modelling regional imbalances in English plebeian migration to late eighteenth-century London", *Economic History Review*, vol. 71, no. 3 (2018), 753-754.
