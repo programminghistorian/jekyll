@@ -103,7 +103,7 @@ epr. Informes del Parlamento Europeo.
 
 En este caso, ya que trabajaremos con documentos *txt*, debemos ingresar *t*- y presionar *entrar*.
 
-{% include figure.html filename="/images/corpus-paralelo-lfaligner/3a.jpg" caption="Interfaz de carga en Linux: selección de tipo de documentos" %}
+{% include figure.html filename="lfaligner/3a.jpg" caption="Interfaz de carga en Linux: selección de tipo de documentos" %}
 
 ### Especificando las lenguas de tus textos
 
@@ -145,7 +145,7 @@ Presiona el botón *next* (siguiente) para que el software proceda con la alinea
 **Carga de documentos en las versiones de Linux y Mac**
 Conforme lo solicite el programa, arrastraremos cada archivo -uno a la vez, en el orden que establecimos al momento de ingresar las lenguas-, lo soltaremos dentro de la ventana de la terminal y presionaremos *entrar*. Luego de haber cargado el último documento, el programa comenzará automáticamente con la alineación.
 
-{% include figure.html filename="/images/corpus-paralelo-lfaligner/8a.jpg" caption="Interfaz de carga de documentos en Linux" %}
+{% include figure.html filename="8a.jpg" caption="Interfaz de carga de documentos en Linux" %}
 
 Como podemos ver en la imagen, nos pide cada documento según el orden que ingresamos anteriormente. Primero, debemos arrastrar el documento en inglés (*en*), después, el documento en español (*es*), en tercer lugar, el documento en francés (*fr*) y, por último, el documento en portugués (*pt*).
 
@@ -169,7 +169,7 @@ Luego de haber tomado una decisión al respecto -lo que también obedecerá a la
 **Resultados de la alineación en las versiones de Linux y Mac**
 El programa nos informará sobre los resultados del proceso de alineación, ofreciéndonos casi las mismas opciones que su contraparte de Windows. La diferencia radica en que aquí simplemente nos pregunta si queremos revertir a segmentación por párrafo o no. Para tomar esta decisión, debemos basarnos en el resultado final de la segmentación que se muestra en pantalla:
 
-{% include figure.html filename="/images/corpus-paralelo-lfaligner/10a.jpg" caption="Resultados del proceso de alineación en Linux" %}
+{% include figure.html filename="10a.jpg" caption="Resultados del proceso de alineación en Linux" %}
 
 En este caso, la variación en el número de segmentos antes y después de la alineación es mínima; esto quiere decir que no necesitamos revertir a la separación por párrafo y podemos conservar la versión alineada a nivel de oración hecha por el programa.
 
