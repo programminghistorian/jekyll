@@ -61,7 +61,7 @@ Además, si trabajas en un entorno Linux de 64 bits, necesitarás instalar algun
 
 Para abrir el programa, además de utilizar los comandos de navegación, una forma sencilla de ejecutar este tipo de archivos consiste en arrastrarlo hasta la ventana de la terminal, soltarlo ahí y luego presionar *entrar*.
 
-{% include figure.html filename="/images/corpus-paralelo-lfaligner/1a.jpg" caption="Ejecución del programa en Linux" %}
+{% include figure.html filename="1a.jpg" caption="Ejecución del programa en Linux" %}
 
 ## Carga de documentos en el programa
 ### Eligiendo el formato apropiado
