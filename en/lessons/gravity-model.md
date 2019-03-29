@@ -16,7 +16,7 @@ difficulty: 3
 activity: analyzing
 topics: [data-manipulation]
 abstract: |
-  This lesson introduces a gravity model approach for manipulating and analyzing historical datasets by using two historical migration case-studies.
+  This lesson introduces gravity models as a means for determining the probable distribution of entities across space in historical datasets. It does so through a case study of historical migration patterns.
 ---
 
 {% include toc.html %}
