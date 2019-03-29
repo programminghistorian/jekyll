@@ -31,7 +31,7 @@ Para este tutorial necesitarás los siguientes materiales y conocimientos:
 ---
 
 * El programa [LF Aligner](https://sourceforge.net/projects/aligner/), disponible para Windows (versión 4.2), Mac (versión 3.12) y Linux (versión 3.11). **En este tutorial nos centraremos en la versión de Windows, que es la más reciente. Sin embargo, también se explicará cómo utilizarlo en Mac y en sistemas basados en el kernel de Linux.** La interfaz del programa está en inglés y no cuenta con una versión en español, por lo que se proveen traducciones de algunos elementos que son indispensables para comprender el funcionamiento de LF Aligner.
-* Un texto de partida -digitalizado- y por lo menos una traducción de este. En este caso, alinearemos distintas traducciones de un documento que desde 1948 guía el quehacer y la convivencia humana en todos los ámbitos de la vida pública y privada, la [Declaración Universal de Derechos Humanos](https://es.wikipedia.org/wiki/Declaraci%C3%B3n_Universal_de_los_Derechos_Humanos): en [español](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/assets/corpus-paralelo-lfaligner/DDHH_es.txt), [inglés](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/assets/corpus-paralelo-lfaligner/DDHH_en.txt), [francés](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/assets/corpus-paralelo-lfaligner/DDHH_fr.txt) y [portugués](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/assets/corpus-paralelo-lfaligner/DDHH_pt.txt)
+* Un texto de partida -digitalizado- y por lo menos una traducción de este. En este caso, alinearemos distintas traducciones de un documento que desde 1948 guía el quehacer y la convivencia humana en todos los ámbitos de la vida pública y privada, la [Declaración Universal de Derechos Humanos](https://es.wikipedia.org/wiki/Declaraci%C3%B3n_Universal_de_los_Derechos_Humanos): en [español](/assets/corpus-paralelo-lfaligner/DDHH_es.txt), [inglés](/assets/corpus-paralelo-lfaligner/DDHH_en.txt), [francés](/assets/corpus-paralelo-lfaligner/DDHH_fr.txt) y [portugués](/assets/corpus-paralelo-lfaligner/DDHH_pt.txt)
 * Conocimiento básico de las lenguas de traducción, ya que en algunos casos tendremos que modificar algunos de los segmentos alineados.
 
 Adicionalmente, podemos utilizar este programa para alinear distintas versiones de un texto en una misma lengua, lo que es útil para [análisis relacional](http://vocabularios.caicyt.gov.ar/portal/index.php?task=fetchTerm&arg=136&v=42), pero hay otras iniciativas que cumplen mejor con esta tarea como [Collatex](https://collatex.net/) o [Juxta](http://www.juxtasoftware.org/).
@@ -42,7 +42,7 @@ Si trabajas con lenguas que no estén incluidas en ese código, puedes recurrir 
 
 Como resultado final del procesamiento de los textos con LF Aligner obtendrás algo así:
 
-{% include figure.html filename="lfaligner-1.jpg" %}
+{% include figure.html filename="lfaligner-1.jpg" caption="Resultado del procesamiento de los textos"%}
 
 ## Instalación y ejecución del programa
 Para comenzar a utilizar el programa, no es necesario instalar ningún software adicional; solo debes descargar el paquete que ofrece la web oficial, descomprimirlo en una carpeta de tu elección y ejecutar el archivo .exe (Windows), .sh (Linux) o .command (Mac), según corresponda, que se encuentra en el paquete.
@@ -61,9 +61,7 @@ Además, si trabajas en un entorno Linux de 64 bits, necesitarás instalar algun
 
 Para abrir el programa, además de utilizar los comandos de navegación, una forma sencilla de ejecutar este tipo de archivos consiste en arrastrarlo hasta la ventana de la terminal, soltarlo ahí y luego presionar *entrar*.
 
-```
 {% include figure.html filename="/images/corpus-paralelo-lfaligner/1a.jpg" caption="Ejecución del programa en Linux" %}
-```
 
 ## Carga de documentos en el programa
 ### Eligiendo el formato apropiado
@@ -105,9 +103,8 @@ epr. Informes del Parlamento Europeo.
 
 En este caso, ya que trabajaremos con documentos *txt*, debemos ingresar *t*- y presionar *entrar*.
 
-```
 {% include figure.html filename="/images/corpus-paralelo-lfaligner/3a.jpg" caption="Interfaz de carga en Linux: selección de tipo de documentos" %}
-```
+
 ### Especificando las lenguas de tus textos
 
 {% include figure.html filename="lfaligner-4.jpg" caption="Interfaz de selección de lenguas" %}
@@ -131,9 +128,9 @@ Del mismo modo, debemos especificar cuál será el texto principal o de partida 
 
 **Cómo especificar las lenguas de los textos en las versiones de Linux y Mac**
 Como vimos anteriormente, las opciones se despliegan como texto dentro de la terminal. Debemos introducir con el teclado el número de lenguas (mínimo: 2; máximo: 11) y la combinación que deseamos, según el código de dos letras que cada lengua tiene (en nuestro caso: *es*, *en*, *fr* y *pt*).
-```
+
 {% include figure.html filename="/images/corpus-paralelo-lfaligner/4a.jpg" caption="Interfaz de selección de lenguas en Linux" %}
-```
+
 ### Cargando los documentos
 Los documentos se cargan uno a uno. Presiona el botón *Browse* (explorar) junto a la etiqueta de cada lengua para buscar el documento correspondiente. Es importante separar los archivos en una carpeta fácil de localizar y que se use exclusivamente para almacenar los documentos que queremos integrar en nuestro corpus paralelo.
 
@@ -147,9 +144,9 @@ Presiona el botón *next* (siguiente) para que el software proceda con la alinea
 
 **Carga de documentos en las versiones de Linux y Mac**
 Conforme lo solicite el programa, arrastraremos cada archivo -uno a la vez, en el orden que establecimos al momento de ingresar las lenguas-, lo soltaremos dentro de la ventana de la terminal y presionaremos *entrar*. Luego de haber cargado el último documento, el programa comenzará automáticamente con la alineación.
-```
+
 {% include figure.html filename="/images/corpus-paralelo-lfaligner/8a.jpg" caption="Interfaz de carga de documentos en Linux" %}
-```
+
 Como podemos ver en la imagen, nos pide cada documento según el orden que ingresamos anteriormente. Primero, debemos arrastrar el documento en inglés (*en*), después, el documento en español (*es*), en tercer lugar, el documento en francés (*fr*) y, por último, el documento en portugués (*pt*).
 
 ## Resultados de la alineación
@@ -171,9 +168,9 @@ Luego de haber tomado una decisión al respecto -lo que también obedecerá a la
 
 **Resultados de la alineación en las versiones de Linux y Mac**
 El programa nos informará sobre los resultados del proceso de alineación, ofreciéndonos casi las mismas opciones que su contraparte de Windows. La diferencia radica en que aquí simplemente nos pregunta si queremos revertir a segmentación por párrafo o no. Para tomar esta decisión, debemos basarnos en el resultado final de la segmentación que se muestra en pantalla:
-```
+
 {% include figure.html filename="/images/corpus-paralelo-lfaligner/10a.jpg" caption="Resultados del proceso de alineación en Linux" %}
-```
+
 En este caso, la variación en el número de segmentos antes y después de la alineación es mínima; esto quiere decir que no necesitamos revertir a la separación por párrafo y podemos conservar la versión alineada a nivel de oración hecha por el programa.
 
 Para continuar, elegiremos la opción *no*, introduciendo una *n* y presionando *entrar*.
@@ -254,7 +251,7 @@ Si seguiste las indicaciones anteriores sobre el nombramiento y almacenamiento d
 
 {% include figure.html filename="lfaligner-20.jpg" caption="El archivo exportado en formato xls aparecerá en la carpeta correspondiente" %}
 
-También puedes [**descargar**](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/assets/corpus-paralelo-lfaligner/align_2018.08.03_14.09.46/DDHH_es-es-en-fr-pt.xls) el documento alineado y explorarlo para aprender más sobre el funcionamiento de este software.
+También puedes [**descargar**](/assets/corpus-paralelo-lfaligner/align_2018.08.03_14.09.46/DDHH_es-es-en-fr-pt.xls) el documento alineado y explorarlo para aprender más sobre el funcionamiento de este software.
 
 ## Visualización y búsquedas simples
 Si deseamos editar el documento de formas que la herramienta gráfica de LF Aligner no cubre, recomendamos abrirlo con un paquete de ofimática potente como [Libreoffice](https://es.libreoffice.org/descarga/libreoffice-estable/); su aplicación *Calc* es un excelente procesador de hojas de cálculo. No obstante, como ya nos dimos por satisfechos con nuestro trabajo de revisión anterior, exportaremos el archivo en formato *html* para poder hacer búsquedas de manera sencilla en el documento, desde nuestro navegador web. Escoge *guardar como*, en el menú *archivo* y elige *html* como formato de guardado. La herramienta de búsqueda de texto de un navegador como Google Chrome (*ctrl+f*) bastará para hacer consultas sencillas.
