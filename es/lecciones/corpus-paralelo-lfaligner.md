@@ -17,7 +17,7 @@ topics:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/197
 activity: analyzing
 abstract: |
-  "Esta lección enseña a crear corpus con traducciones a distintas lenguas, de forma que queden perfectamente alineados para una mejor visualización y consulta."
+  Esta lección enseña a crear corpus con traducciones a distintas lenguas, de forma que queden perfectamente alineados para una mejor visualización y consulta.
 ---
 
 {% include toc.html %}
