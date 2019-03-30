@@ -14,7 +14,8 @@ Paste this into the dropdown menu where you want your new link to appear, and re
 
 {% include translation-links.html %}
 
-<nav class="navbar navbar-toggleable-sm navbar-dark bg-dark" style="background-color: {{ site.data.snippets.background_color[page.lang] }}">
+<nav class="hide-screen navbar navbar-toggleable-sm navbar-dark bg-dark"
+  style="background-color: {{ site.data.snippets.background_color[page.lang] }}">
   <!--<div class="container">-->
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -89,3 +90,5 @@ Paste this into the dropdown menu where you want your new link to appear, and re
   </div>
   <!--</div>-->
 </nav>
+
+<nav class="hide-print print-header navbar-brand">The Programming Historian </nav>
