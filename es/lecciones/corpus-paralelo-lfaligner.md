@@ -3,7 +3,7 @@ title: |
     Creación de corpus paralelo con LF Aligner
 authors:
     - Armando Luza
-date: 2018-08-13
+date: 2019-04-01
 reviewers:
 - Antonio Rojas Castro
 - Ignacio Rodríguez
