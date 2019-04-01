@@ -129,7 +129,7 @@ Del mismo modo, debemos especificar cuál será el texto principal o de partida 
 **Cómo especificar las lenguas de los textos en las versiones de Linux y Mac**
 Como vimos anteriormente, las opciones se despliegan como texto dentro de la terminal. Debemos introducir con el teclado el número de lenguas (mínimo: 2; máximo: 11) y la combinación que deseamos, según el código de dos letras que cada lengua tiene (en nuestro caso: *es*, *en*, *fr* y *pt*).
 
-{% include figure.html filename="/images/corpus-paralelo-lfaligner/4a.jpg" caption="Interfaz de selección de lenguas en Linux" %}
+{% include figure.html filename="4a.jpg" caption="Interfaz de selección de lenguas en Linux" %}
 
 ### Cargando los documentos
 Los documentos se cargan uno a uno. Presiona el botón *Browse* (explorar) junto a la etiqueta de cada lengua para buscar el documento correspondiente. Es importante separar los archivos en una carpeta fácil de localizar y que se use exclusivamente para almacenar los documentos que queremos integrar en nuestro corpus paralelo.
