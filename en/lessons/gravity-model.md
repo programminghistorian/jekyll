@@ -82,7 +82,7 @@ The tutorial also uses a spreadsheet programme, and a scientific calculator or s
 The associated material for use in this tutorial is introduced as needed. You can also download it all here:
 
 - [VagrantsExampleData.csv](/assets/gravity-model/VagrantsExampleData.csv)
-- [weightingCalculations.r](/assets/gravity-model/weightingCalculations.r)
+- [weightingCalculation.r](/assets/gravity-model/weightingCalculation.r)
 
 ## Mathematical Concepts
 
