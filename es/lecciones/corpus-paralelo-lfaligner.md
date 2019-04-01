@@ -103,7 +103,7 @@ epr. Informes del Parlamento Europeo.
 
 En este caso, ya que trabajaremos con documentos *txt*, debemos ingresar *t*- y presionar *entrar*.
 
-{% include figure.html filename="lfaligner/3a.jpg" caption="Interfaz de carga en Linux: selección de tipo de documentos" %}
+{% include figure.html filename="3a.jpg" caption="Interfaz de carga en Linux: selección de tipo de documentos" %}
 
 ### Especificando las lenguas de tus textos
 
