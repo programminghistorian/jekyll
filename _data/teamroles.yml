@@ -104,6 +104,15 @@
     en: Responsible for managing relationships with our sponsors
     es: Responsable de coordinar las relaciones con las y los patrocinadores
     fr: Personne chargée des relations avec les sponsors du projet 
+- type: communication
+  label:
+    en: Communication Manager
+    es: TBD
+    fr: TBD
+  definition:
+    en: Responsible for managing and developing communication channels
+    es: TBD
+    fr: TBD    
 # --- Derived roles ---
 - type: ombuds-es
   label:
