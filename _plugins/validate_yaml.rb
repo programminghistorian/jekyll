@@ -156,6 +156,11 @@ module MyModule
           end
         end
 
+        # Check for download links to github
+        if Regexp.new("[\\(<]https?://github.com/programminghistorian/.+/blob") =~ p["content"]
+          lesson_errors.push('It looks this page contains a full link to data in one of our GitHub repositories. Do not link to GitHub for data. Instead, please use a relative path starting with "/".')
+        end
+
         unless lesson_errors.empty?
           # Throw a warning with the filename
           warn format_red("* In #{p.dir}#{p.name}:")
