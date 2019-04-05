@@ -138,6 +138,11 @@ module MyModule
               lesson_errors.push("'#{f}' is missing.")
             end
           end
+
+          # Check that translation date is later than publication date
+          unless p.data["translation_date"] > p.data["date"]
+            lesson_errors.push("translation_date is earlier than original publication date.")
+          end
         end
 
         # Check original lesson required fields
