@@ -16,7 +16,7 @@ Two and a half years later, and with an almost entirely new team in control, I t
 
 The second map shows where our authors and translators lived when they contributed to the project. This is based on institutional affiliations rather than nationality. Gold entries show English-language contributions, and red ones show Spanish-language lessons. This one was a surprise for me, because apart from a lesson written by some colleagues in Belgium, our English-language offering remains a Canadian-American-British affair. Interestingly, we still haven't had any contributions from Australia, New Zealand, or South Africa, despite large English-speaking populations. Perhaps a sign that we need to reach out to these communities.
 
-<p><figure><img src="/images/blog/Readers2019.jpg" /><figcaption>Map showing the countries where our authors and translators came from</figcaption></figure></p>
+<p><figure><img src="/images/blog/ReadersMap2019.jpg" /><figcaption>Map showing the countries where our authors and translators came from</figcaption></figure></p>
 
 Finally, map 3 shows our top ten sources of readers in the past 365 days. In order they are:
 
