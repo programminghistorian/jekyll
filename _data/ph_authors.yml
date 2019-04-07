@@ -1068,13 +1068,14 @@
   team_start: 2018
   institution: CNRS
   sortname: Papastamkou
+  orcid: 0000-0002-5148-1348
   affiliation:
         en: |
-            European Centre for the Humanities and Social Sciences, Lille, France
+            Institut de recherches historiques du Septentrion (IRHiS, CNRS/University of Lille)
         es: |
-            Maison européenne des sciences de l'homme et de la société Lille Nord de France
+            Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille)
         fr: |
-            Maison européenne des sciences de l'homme et de la société Lille Nord de France
+            Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
   team_roles:
     - french
     - board
