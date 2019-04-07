@@ -122,7 +122,7 @@ layout: base
         <ul>
         {% for translation-reviewer-name in page.translation-reviewer %}
           {% assign translation-reviewer = site.data.ph_authors | where: "name", translation-reviewer-name | first %}
-          <li>{{ translation-reviewer-name }}{% if translation-editor.orcid %} {% include orcid.html author = translation-reviewer %}{% endif %}</li>
+          <li>{{ translation-reviewer-name }}{% if translation-reviewer.orcid %} {% include orcid.html author = translation-reviewer %}{% endif %}</li>
         {% endfor %}
         </ul>
       </div>
