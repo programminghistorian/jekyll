@@ -8,4 +8,4 @@
   {% assign authors = lesson.authors %}
 {% endif %}
 
-{% if include.orcid == true %}{% for author_name in authors %}{% assign author = site.data.ph_authors | where: "name", author_name | first %}{% if forloop.length > 2 and forloop.index0 > 0 %}, {% endif %}{% if forloop.last %} {{ site.data.snippets.and[page.lang] }} {% endif %}{{ author.name }}{% if author.orcid %} {% include orcid.html author=author %} {% endif %}{% endfor %}{% else %}{{ authors | array_to_sentence_string: site.data.snippets.and[page.lang] }}{% endif %}
+{% if include.orcid == true %}{% for author_name in authors %}{% assign author = site.data.ph_authors | where: "name", author_name | first %}{% if forloop.length > 2 and forloop.index0 > 0 %}, {% endif %}{% if forloop.last and forloop.length > 1 %} {{ site.data.snippets.and[page.lang] }} {% endif %}{{ author.name }}{% if author.orcid %} {% include orcid.html author=author %} {% endif %}{% endfor %}{% else %}{{ authors | array_to_sentence_string: site.data.snippets.and[page.lang] }}{% endif %}
