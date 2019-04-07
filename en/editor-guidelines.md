@@ -211,7 +211,7 @@ If the lesson has been written by a new author, the managing editor will need to
 
 **Whitespace is important**, so be sure that the indentation matches the other examples.
 
-The `orcid` ID is optional, but highly encouraged if [authors have registered for an ID with the service](https://orcid.org/).
+The `orcid` ID is optional, but highly encouraged if [authors have registered for an ID with the service](https://orcid.org/). **Only enter an ORCiD ID that an author has explicitly provided to you. Do enter an ID without first getting that author's confirmation that you are using the correct ID.**
 
 ### 2) Add a table of contents to the lesson
 
