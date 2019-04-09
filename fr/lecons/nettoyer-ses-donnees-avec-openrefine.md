@@ -12,7 +12,7 @@ reviewers:
 - Nora McGregor
 editors:
 - Adam Crymble
-translators:
+translator:
 - Sybille Clochet
 translation-editor:
 - Sofia Papastamkou
