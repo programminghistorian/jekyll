@@ -16,7 +16,7 @@ translator:
 - Sybille Clochet
 translation-editor:
 - Sofia Papastamkou
-translation-reviewers:
+translation-reviewer:
 - François Dominic Laramée
 - Marie Puren
 difficulty: 2
