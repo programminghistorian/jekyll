@@ -1,6 +1,6 @@
 ---
 title: Welcome to The Programming Historian en français!
-author:
+authors:
 - Sofia Papastamkou
 layout: post
 categories: posts
