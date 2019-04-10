@@ -1,6 +1,7 @@
 ---
 title: Nettoyer ses données avec OpenRefine
 layout: lesson
+slug: nettoyer-ses-donnees-avec-openrefine
 date: 2013-08-05
 translation_date: 2018-11-27
 authors:
