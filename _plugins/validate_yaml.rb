@@ -139,6 +139,11 @@ module MyModule
             end
           end
 
+          # Check that the original slug is well-formed
+          if Regexp.new("\/") =~ p.data["original"]
+            lesson_errors.push('`original` should only contain the original lesson slug, with no other url elements like /en or /lesson')
+          end
+
           # Check that translation date is later than publication date
           unless p.data["translation_date"] > p.data["date"]
             lesson_errors.push("translation_date is earlier than original publication date.")
