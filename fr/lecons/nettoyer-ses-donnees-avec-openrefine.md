@@ -20,14 +20,11 @@ translation-reviewer:
 - François Dominic Laramée
 - Marie Puren
 difficulty: 2
-exclude_from_check:
-  - review-ticket
 activity: transforming
 topics: [data-manipulation]
 abstract: "Ce tutoriel explique comment les chercheur(e)s peuvent déterminer l'état de précision de leurs données et comment agir pour l'améliorer." 
-original: /en/lessons/cleaning-data-with-openrefine
+original: cleaning-data-with-openrefine
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/223 
-redirect_from: /fr/lecons/nettoyer-ses-donnees-avec-openrefine
 ---
 
 {% include toc.html %}
@@ -110,7 +107,7 @@ Maintenant, entrez un second `|` après le premier de sorte à obtenir « || »
 
 Le mot « valeur » dans le champ texte représente la valeur actuelle de chaque cellule, que vous pouvez voir ci-dessous. Nous pouvons modifier cette valeur en lui appliquant des fonctions (voir la [documentation GREL](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions "documentation GREL") pour une liste complète). Dans ce cas, nous voulons remplacer les doubles **pipes** par un seul **pipe**. Cela peut être réalisé en entrant l'[expression régulière][]suivante (assurez-vous de ne pas oublier les guillemets) :
 
-value.replace('||', '|')
+``` value.replace('||', '|') ```
 
 Sous le champ texte **Expression**, vous obtenez un aperçu des valeurs modifiées, avec les doubles **pipes** supprimés. Cliquez sur **OK** et réessayez de fractionner les catégories avec **Modifier les cellules**\> **Diviser les cellules multivaluées** : le nombre d'entrées restera à 75 727 (cliquez sur le lien **entrées** pour vérifier une nouvelle fois).
 
