@@ -23,9 +23,9 @@ translation-reviewer:
 difficulty: 2
 activity: transforming
 topics: [data-manipulation]
-abstract: "Ce tutoriel explique comment les chercheur(e)s peuvent déterminer l'état de précision de leurs données et comment agir pour l'améliorer." 
+abstract: "Ce tutoriel explique comment les chercheur(e)s peuvent déterminer l'état de précision de leurs données et comment agir pour l'améliorer."
 original: cleaning-data-with-openrefine
-review-ticket: https://github.com/programminghistorian/ph-submissions/issues/223 
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/223
 ---
 
 {% include toc.html %}
@@ -139,7 +139,7 @@ Vous avez ainsi appris comment avoir un rapide aperçu du nombre de valeurs vide
   [OCLC]: https://www.oclc.org/fr/home.html "OCLC"
   [site web]: http://www.powerhousemuseum.com/collection/database/download.php "site web"
   [licence Creative Commons Attribution Share Alike (CCASA)]: https://creativecommons.org/licenses/by-sa/3.0/deed.fr
-  [vocabulaire contrôlé]: https://fr.wikipedia.org/wiki/Vocabulaire_contr%C3%B4l%C3%A9:
+  [vocabulaire contrôlé]: https://fr.wikipedia.org/wiki/Vocabulaire_contr%C3%B4l%C3%A9
   [données liées]: https://fr.wikipedia.org/wiki/Web_des_donn%C3%A9es
   [Téléchargez OpenRefine]: http://openrefine.org/#download_openrefine
   [site FreeYourMetadata]: http://data.freeyourmetadata.org/powerhouse-museum/
