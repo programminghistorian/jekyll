@@ -112,7 +112,6 @@ Le mot « valeur » dans le champ texte représente la valeur actuelle de chaque
 
 Sous le champ texte **Expression**, vous obtenez un aperçu des valeurs modifiées, avec les doubles **pipes** supprimés. Cliquez sur **OK** et réessayez de fractionner les catégories avec **Modifier les cellules**\> **Diviser les cellules multivaluées** : le nombre d'entrées restera à 75 727 (cliquez sur le lien **entrées** pour vérifier une nouvelle fois).
 
-\* \* \*\
 Un autre problème qui peut être résolu avec l'aide de GREL est celui des entrées pour lesquelles la même catégorie est listée deux fois. Prenez par exemple le cas 41, dont les catégories sont **Models | Botanical specimens | Botanical Specimens | Didactic Displays | Models**. La catégorie **Models** apparaît deux fois sans raison valable, nous voulons donc supprimer ce doublon. Cliquez sur le triangle **Categories** et choisissez **Éditer les cellules**\>**Joindre les cellules multivaluées**\>**OK**. Choisissez le caractère **pipe** comme séparateur. Maintenant, les catégories sont listées comme avant. Sélectionnez ensuite **Éditer les cellules**\> **Transformer**, également dans la colonne des catégories. En utilisant GREL, nous pouvons diviser successivement les catégories sur le caractère **pipe**, rechercher des catégories uniques et les joindre à nouveau. Pour ce faire, tapez simplement l'expression suivante :
 
     value.split('|').uniques().join('|')
