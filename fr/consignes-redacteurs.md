@@ -201,6 +201,8 @@ Si l'auteur(e) de la leçon apparaît pour la première fois, il appartient au r
 
 **L'espace blanc est important**, merci donc de faire attention à ce que l'indentation suive le reste des exemples.
 
+Indiquer l'identifiant `orcid`n'est pas obligatoire, nous vous encourageons toutefois fortement de le faire, si les auteur(e)s en ont créé un dans le répertoire ORCID (https://orcid.org/). **Néanmoins, merci de prendre soin d'utiliser un identifiant ORCID fourni explicitement par l'auteur(e). Évitez par conséquent de le faire sans la confirmation préalable de l'auteur(e) qu'il s'agit du bon identifiant.** 
+
 ### 2) Ajouter une table de matières à la leçon
 
 Le code suivant doit être ajouté au texte de la leçon, habituellement avant le premier sous-titre:
@@ -272,7 +274,7 @@ Il faut ensuite créer une nouvelle copie de l'image. Découpez-la en carré en 
 
 Le fichier de l'image originale doit être téléchargé dans le répertoire [gallery/originals](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery/originals), celui de l'image modifiée dans le répertoire [gallery](https://github.com/programminghistorian/jekyll/tree/gh-pages/gallery).
 
-### 5) Prévenir le rédacteur en chef pour publier
+### 5) Prévenir le rédacteur ou la rédactrice en chef pour publier
 
 Le rédacteur ou la rédactrice en chef est en charge de la publication de la leçon en déposant les fichiers sur le site web principal et en faisant les vérifications finales. Pour lui faciliter la tâche, merci de publier une liste dans le ticket de la soumission de tous les fichiers à transférer d'un dépôt à l'autre. Habituellement il s'agit: 
 

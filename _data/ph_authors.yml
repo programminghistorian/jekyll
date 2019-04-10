@@ -157,6 +157,7 @@
   team_start: 2016
   institution: El Colegio de Michoacán
   sortname: Gayol
+  orcid: 0000-0002-2442-3193
   affiliation:
     en: |
         El Colegio de Michoacán, A.C. (CPI-CONACYT), Mexico.
@@ -184,6 +185,7 @@
   team_start: 2016
   institution: Cologne Center for eHumanities
   sortname: Rojas Castro
+  orcid: 0000-0002-8916-4997
   affiliation:
     en: |
         Cologne Center for eHumanities, Germany.
@@ -308,6 +310,7 @@
   twitter: j_w_baker
   url: "https://cradledincaricature.com/"
   sortname: Baker
+  orcid: 0000-0002-2682-6922
   bio:
     en: |
         James Baker is a Senior Lecturer in Digital History and Archives at the University of Sussex
@@ -577,6 +580,7 @@
   team_start: 2017
   institution: Carnegie Mellon University
   sortname: Lincoln
+  orcid: 0000-0002-4387-3384
   affiliation:
     en: |
         Carnegie Mellon University, USA.
@@ -1027,6 +1031,7 @@
   team: true
   team_start: 2018
   sortname: Laramée
+  orcid: 0000-0001-5542-3754
   institution: Université de Montréal
   affiliation:
       en: |
@@ -1065,13 +1070,14 @@
   team_start: 2018
   institution: CNRS
   sortname: Papastamkou
+  orcid: 0000-0002-5148-1348
   affiliation:
         en: |
-            European Centre for the Humanities and Social Sciences, Lille, France
+            Institut de recherches historiques du Septentrion (IRHiS, CNRS/University of Lille)
         es: |
-            Maison européenne des sciences de l'homme et de la société Lille Nord de France
+            Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille)
         fr: |
-            Maison européenne des sciences de l'homme et de la société Lille Nord de France
+            Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
   team_roles:
     - french
     - board
