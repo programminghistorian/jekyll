@@ -56,7 +56,7 @@ Plusieurs outils généralistes pour la transformation interactive des données 
 En plus des opérations de [profilage][] et de nettoyage des données, des extensions *OpenRefine* permettent aux utilisateurs et utilisatrices d'identifier des objets textuels dans du texte non structuré, un processus appelé [reconnaissance d'entités nommées][], et peuvent également lier leurs propres données avec des bases de connaissances existantes. Ce faisant, *OpenRefine* peut être un outil pratique pour lier des données avec des objets et des autorités qui ont déjà été déclarés sur le Web par des organisations telles que la [Bibliothèque du Congrès][] ou l'[OCLC][]. Le nettoyage des données est une condition préalable à ces étapes ; le taux de réussite de la reconnaissance d’entités nommées et un processus de croisement productif de vos données avec les autorités externes dépendent de votre capacité à rendre vos données aussi cohérentes que possible.
 
 ## Description de l'exercice : Powerhouse Museum
-Le *Powerhouse Museum* de Sydney met à disposition sur son [site web][] un jeu de métadonnées sur sa collection, librement utilisable. Le musée est l'un des plus grands musées de science et de technologie au monde, offrant un accès à près de 90 000 objets, des machines à vapeur à la verrerie fine en passant par la haute couture et les puces informatiques.
+Le *Powerhouse Museum* de Sydney met à disposition sur son [site web][] un jeu de métadonnées sur sa collection, librement utilisable (_NDLR: le jeu de données, téléchargé à l'origine en 2013, peut ne plus être disponible à l'adresse indiquée, il est néanmoins fourni ci-dessous_). Le musée est l'un des plus grands musées de science et de technologie au monde, offrant un accès à près de 90 000 objets, des machines à vapeur à la verrerie fine en passant par la haute couture et les puces informatiques.
 
 Le *Powerhouse Museum* a largement diffusé sa collection en ligne et a rendu la plupart de ses données disponibles gratuitement. À partir du site web du musée, un fichier texte séparé par des tabulations sous le nom *phm-collection.tsv* peut être téléchargé, que vous pouvez ouvrir sous forme de feuille de calcul. Le fichier décompressé (58 Mo) contient des métadonnées de base (17 champs) pour 75 823 objets, publiées sous [licence Creative Commons Attribution - Partage dans les Mêmes Conditions][]. Dans ce tutoriel, nous utiliserons une copie des données que nous avons archivées pour vous permettre de les télécharger (dans la suite de la leçon). Cela garantit que si le *Powerhouse Museum* met à jour les données, vous serez toujours en mesure de suivre le cours.
 
@@ -136,7 +136,7 @@ Vous avez ainsi appris comment avoir un rapide aperçu du nombre de valeurs vide
   [reconnaissance d'entités nommées]: https://fr.wikipedia.org/wiki/Reconnaissance_d%27entit%C3%A9s_nomm%C3%A9es
   [Bibliothèque du Congrès]: http://www.loc.gov/index.html "Bibliothèque du Congrès"
   [OCLC]: https://www.oclc.org/fr/home.html "OCLC"
-  [site web]: http://www.powerhousemuseum.com/collection/database/download.php "site web"
+  [site web]: https://api.maas.museum/docs "site web"
   [licence Creative Commons Attribution - Partage dans les Mêmes Conditions]: https://creativecommons.org/licenses/by-sa/4.0/deed.fr
   [vocabulaire contrôlé]: https://fr.wikipedia.org/wiki/Vocabulaire_contr%C3%B4l%C3%A9
   [données liées]: https://fr.wikipedia.org/wiki/Web_des_donn%C3%A9es
