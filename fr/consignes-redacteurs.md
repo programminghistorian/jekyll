@@ -265,6 +265,8 @@ Ci-dessous quelques sites pour chercher des images:
  - The [Internet Archive Book Images](https://www.flickr.com/photos/internetarchivebookimages)
  - The [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
+ - [Gallica](https://gallica.bnf.fr)
+ - [Europeana](https://www.europeana.eu) 
 
 Merci de prendre soin de trouver une image dont le style est proche de celles déjà utilisées, donc pas de photographie, mais plutôt une image d'illustration de livre, de taille minimale de 200x200 pixels, sans restriction de droits de copyright. Merci de faire attention à ce que les images ne heurtent pas les sensibilités et, en conformité à notre [engagement en faveur de la diversité](/posts/PH-commitment-to-diversity), qu'elles ne reproduisent pas de stéréotypes sexistes ou raciaux.
 
@@ -283,7 +285,7 @@ Le rédacteur ou la rédactrice en chef est en charge de la publication de la le
 - Les icônes de gallerie
 - Une bio d'auteur(e) si la personne apparaît pour la première fois
 
-Mise à part la bio, le reste des éléments devrait exister sous forme de fichiers dans le dépôt ph_submissions. La bio peut être inserée directement dans le ticket.
+Mise à part la bio, le reste des éléments devrait exister sous forme de fichiers dans le dépôt `ph-submissions`. La bio peut être inserée directement dans le ticket.
 
 ### 6) Intégrer votre leçon dans notre bot Twitter
 La campagne de promotion sur Twitter, dont les étapes sont décrites ci-dessous, utilise aussi un bot pour faire une communication régulière sur les leçons plus anciennes. Pour y ajouter une nouvelle, vous remplissez une ligne dans [ce fichier](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Normalement, tous les membres de l'équipe éditoriale doivent pouvoir modifier le tableur. En cas de problème, merci de faire un courriel au groupe Google. Il vous faut ajouter une nouvelle ligne pour votre leçon ) la fin du fichier avec les champs suivants:
