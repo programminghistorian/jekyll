@@ -14,12 +14,22 @@ skip_validation: true
 <h2 class="noclear">Step 3: <a href="#submitting-a-new-lesson">Submitting a Translated Lesson</a></h2>
 
 ### Proposing the Translation of a Lesson
-If you want to translate a lesson published in *The Programming Historian*, please see the list of pending translations [each language-team should have one] and contact [Adam Crymble](adam.crymble@gmail.com) to discuss your language skills and translation experience. We look for translations that are rigorous, readable, and consider the needs of an English-reading audience. 
+If you want to translate a lesson published in *The Programming Historian*, please see the list of pending translations [each language-team should have one] and contact [Adam Crymble](adam.crymble@gmail.com) to discuss your language skills and translation experience. We look for translations that are rigorous, readable, and consider the needs of an English-reading audience.
 
-Once the translation of a published lesson is approved, one of our editors will create a "Translation Review Ticket" in our [repository](https://github.com/programminghistorian/ph-submissions). This issue will serve to document the progress made during the translation review. To avoid delays in publishing, we ask that you submit your translation within 90 days of the editor accepting your proposal. 
+Once the translation of a published lesson is approved, one of our editors will create a "Translation Review Ticket" in our [repository](https://github.com/programminghistorian/ph-submissions). This issue will serve to document the progress made during the translation review. To avoid delays in publishing, we ask that you submit your translation within 90 days of the editor accepting your proposal.
+
+### Translating a lesson
+Translating a lesson involves principally the following:
+- translating the main textual body of a lesson;
+- translating code terms and examples, if this is possible;
+- if a lesson uses software with an interface available in the target language, then technical terms related to the software that are used in the text (menu entries, buttons etc) should be translated accordingly;
+- translating titles and captions of the images; in some cases, new images need to be produced, for example in an exercice with use of software with an interface existing in the target language;
+- adapting the links and notes provided in the original text to fit the targeted linguistic context, if possible; for example, link to software documentation, Wikipedia notices etc., if these resources are provided in the target language.
+
+If you translate into English, please keep in mind that English is a universal language and that you address a global audience. If you translate into English or French, please keep in mind that all variations are accepted.  
 
 ### Writing and Formatting a Translation
-The Programming Historian is hosted at [GitHub](http://github.com/), which is a free platform for maintaining files and their revision history. It’s most often used to store files of programming code, but it’s also a fabulous way to maintain an open-access resource like the Programming Historian. More specifically, our site uses [GitHub Pages](https://pages.github.com/) to take a bunch of plain text files and turn them into a spiffy website. 
+The Programming Historian is hosted at [GitHub](http://github.com/), which is a free platform for maintaining files and their revision history. It’s most often used to store files of programming code, but it’s also a fabulous way to maintain an open-access resource like the Programming Historian. More specifically, our site uses [GitHub Pages](https://pages.github.com/) to take a bunch of plain text files and turn them into a spiffy website.
 
 This means that we we ask that translators adhere to the following lesson requirements, which are not merely stylistic, but in fact necessary for our publishing platform. While our technical requirements may be unfamiliar to you, **we are here to help you through the process and learn the technologies as you go.**
 
