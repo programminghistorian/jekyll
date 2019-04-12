@@ -107,12 +107,12 @@
 - type: communication
   label:
     en: Communication Manager
-    es: TBD
-    fr: TBD
+    es: Manger de comunicación
+    fr: Responsable de la communication
   definition:
     en: Responsible for managing and developing communication channels
-    es: TBD
-    fr: TBD    
+    es: Responsable del mantenimiento y creación de canales de comunicación
+    fr: Responsable de la gestion et du développement des canaux de communication    
 # --- Derived roles ---
 - type: ombuds-es
   label:
