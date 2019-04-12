@@ -515,6 +515,8 @@
         Max De Wilde is a PhD student at the Information and Communication Science department of the Université libre de Bruxelles.
     es: |
         Max De Wilde es investigador predoctoral en el departamento de Información y Comunicación de la Universidad Libre de Bruselas.
+    fr: |
+        Max De Wilde est doctorant au Centre de recherche en Information et Communication de l'Université libre de Bruxelles.
 
 - name: Ruben Verborgh
   team: false
@@ -523,14 +525,18 @@
         Ruben Verborgh is a post-doc researcher at the Multimedia Lab of the Universtiteit Gent.
     es: |
         Ruben Verborgh es investigador postdoctoral en Multimedia Lab (Universtiteit Gent).
+    fr: |
+        Ruben Verborgh est chercheur postdoctoral au Multimedia Lab de l'Université de Gand.
 
 - name: Seth van Hooland
   team: false
   bio:
     en: |
-        Seth van Hooland is an associate professor at at the Information and Communication Science department of the Université libre de Bruxelles.
+        Seth van Hooland is an associate professor at the Information and Communication Science department of the Université libre de Bruxelles.
     es: |
         Seth van Hooland es profesor asociado en el departamento de Información y Comuninación de la Universidad Libre de Bruselas.
+    fr: |
+        Seth van Hooland est professeur associé au Centre de recherche en Information et Communication de l'Université libre de Bruxelles.
 
 - name: Jonathan Reeve
   url: "http://jonreeve.com"
