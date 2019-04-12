@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<p><figure><img src="/images/welcome-ph-fr.png" /><figcaption>Schéma de Paul Otlet: documentation et télécommunication, <i>Mundaneum, Centre d'archives de la Fédération Wallonie-Bruxelles, Mons, Belgique. © Mundaneum</i></figcaption></figure></p>
+<p><figure><img src="/images/welcome-ph-fr/welcome-ph-fr.png" /><figcaption>Schéma de Paul Otlet: documentation et télécommunication, <i>Mundaneum, Centre d'archives de la Fédération Wallonie-Bruxelles, Mons, Belgique. © Mundaneum</i></figcaption></figure></p>
 
 Le _[Programming Historian en français]_(http://programminghistorian.org/fr) est en ligne! Lancée deux ans après l'inauguration d'une édition hispanophone, qui rencontre un franc succès, la version francophone confirme ainsi [l'internationalisation en cours](https://programminghistorian.org/fr/apropos#histoire-du-projet) d'un projet initialement anglophone. Nous proposons des tutoriels ouvertement évalués par les pairs qui peuvent aider les historien(ne)s, mais aussi d'autres chercheurs et chercheuses en sciences humaines et sociales, à s'approprier des méthodes interdisciplinaires, des outils numériques et des flux de travail leur permettant de conduire des recherches et de mener des enseignements avec utilisation de données numériques. La diversité étant au coeur du projet global, toutes les variations de la langue française sont acceptées. Par ailleurs, le _Programming Historian en français_ s'engage en faveur de l'utilisation de l'écriture inclusive suivant les principes arrêtés par l'Office québécois de la langue française.            
 
