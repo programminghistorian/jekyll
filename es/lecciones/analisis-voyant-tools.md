@@ -16,8 +16,7 @@ layout: lesson
 slug: analisis-voyant-tools
 activity: analyzing
 topics: [distant-reading]
-abstract: |
-En este tutorial se aprenderá cómo organizar y analizar un conjunto de textos con Voyant-Tools. 
+abstract: "En este tutorial se aprenderá cómo organizar y analizar un conjunto de textos con Voyant-Tools." 
 ---
 
 {% include toc.html %}
