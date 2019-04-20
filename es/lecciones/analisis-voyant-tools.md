@@ -24,7 +24,7 @@ En este tutorial se aprenderá cómo organizar y analizar un conjunto de textos 
 
 # Análisis de corpus con Voyant Tools
 
-En este tutorial se aprenderá cómo organizar un conjunto de textos para la investigación; es decir, se aprenderán los pasos básicos de la creación de un corpus. También se aprenderán las métricas principales del análisis cuantitativo de textos. Para este fin, se ensañará a usar una plataforma que no requiere instalación (sólo conexión a Internet): [Voyant Tools](https://voyant-tools.org/?lang=es) (Sinclair y Rockwell, 2016). Este tutorial está pensado como un primer paso en una serie cada vez más compleja de métodos de la lingüística de corpus. En este sentido, podría considerarse este texto como una de las opciones para el análisis de corpus que puedes encontrar en PH (ver por ejemplo: "[Análisis de corpus con Antconc](https://programminghistorian.org/es/lecciones/analisis-de-corpus-con-antconc)").
+En este tutorial se aprenderá cómo organizar un conjunto de textos para la investigación; es decir, se aprenderán los pasos básicos de la creación de un corpus. También se aprenderán las métricas principales del análisis cuantitativo de textos. Para este fin, se ensañará a usar una plataforma que no requiere instalación (sólo conexión a Internet): [Voyant Tools](https://voyant-tools.org/?lang=es) (Sinclair y Rockwell, 2016). Este tutorial está pensado como un primer paso en una serie cada vez más compleja de métodos de la lingüística de corpus. En este sentido, podría considerarse este texto como una de las opciones para el análisis de corpus que puedes encontrar en PH (ver por ejemplo: "[Análisis de corpus con Antconc](/es/lecciones/analisis-de-corpus-con-antconc)").
 
 
 ## Análisis de corpus
@@ -37,7 +37,7 @@ Desde el inicio de la informática, tanto lingüistas computacionales como espec
 
 Voyant Tools es una herramienta basada en Web que no requiere de la instalación de ningún tipo de software especializado pues funciona en cualquier equipo con conexión a Internet.
 
-Como se ha dicho en este otro [tutorial](https://programminghistorian.org/es/lecciones/analisis-de-corpus-con-antconc), esta herramienta es una buena puerta de entrada a otros métodos más complejos.
+Como se ha dicho en este otro [tutorial](/es/lecciones/analisis-de-corpus-con-antconc), esta herramienta es una buena puerta de entrada a otros métodos más complejos.
 
 Al finalizar este tutorial, tendrás la capacidad de:
 
@@ -100,7 +100,7 @@ código del país ([ISO 3166-1 alfa-2](https://es.wikipedia.org/wiki/ISO_3166-1#
 En la página de entrada de Voyant Tools encontrarás cuatro opciones sencillas para cargar textos.<sup>2</sup> Las dos primeras opciones están en el cuadro blanco. En este cuadro puedes pegar directamente un texto que hayas copiado de algún lugar; o bien, pegar direcciones web --separadas por comas-- de los sitios en donde se encuentren los textos que quieres analizar.
 Una tercera opción es dar clic en "Abrir" y seleccionar alguno de los dos corpus que Voyant tiene precargados (las obras de Shakespeare o las novelas de Austen: ambos en inglés).
 
-Por último, está la opción que usaremos en este tutorial, en la que puedes cargar directamente los documentos que tengas en tu computadora. En este caso subiremos el [corpus completo](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/analisis-voyant-tools) de discursos presidenciales.
+Por último, está la opción que usaremos en este tutorial, en la que puedes cargar directamente los documentos que tengas en tu computadora. En este caso subiremos el [corpus completo](/assets/analisis-voyant-tools) de discursos presidenciales.
 
 Para cargar los materiales pulsa sobre el icono que dice "Cargar", abre tu explorador de archivos y, dejando presionada la tecla 'Shift' selecciona todos los archivos que deseas analizar.
 
@@ -241,7 +241,7 @@ Voyant tiene ya cargada una lista de _stop words_ o palabras vacías del españo
 
 4) Una vez que hayamos añadido las palabras que deseamos filtrar damos clic en "salvar" (sic).
 
->    **Cuidado:** por defecto está seleccionada una caja que dice "Aplicar a todo"; si ésta se deja seleccionada el filtrado de palabras afectará las métricas de todas las otras herramientas. Es muy importante que documentes tus decisiones. Una buena práctica es guardar la lista de palabras vacías en un archivo de texto (.txt) Para este tutorial hemos creado una (lista de palabras para filtrar)[https://github.com/programminghistorian/ph-submissions/blob/gh-pages/assets/analisis-voyant-tools/stopwords-es.txt] y la puedes usar si así lo quieres, sólo recuerda que esto afectará tus resultados. Por ejemplo: en la lista de palabras filtradas incluí "todas" y "todos", habrá personas para las que estas palabras podrían ser interesantes dado que muestran que "todos" es mucho más utilizado que "todas" y esto podría darnos pistas sobre el uso de lenguaje incluyente.
+>    **Cuidado:** por defecto está seleccionada una caja que dice "Aplicar a todo"; si ésta se deja seleccionada el filtrado de palabras afectará las métricas de todas las otras herramientas. Es muy importante que documentes tus decisiones. Una buena práctica es guardar la lista de palabras vacías en un archivo de texto (.txt) Para este tutorial hemos creado una [lista de palabras para filtrar](/assets/analisis-voyant-tools/stopwords-es.txt) y la puedes usar si así lo quieres, sólo recuerda que esto afectará tus resultados. Por ejemplo: en la lista de palabras filtradas incluí "todas" y "todos", habrá personas para las que estas palabras podrían ser interesantes dado que muestran que "todos" es mucho más utilizado que "todas" y esto podría darnos pistas sobre el uso de lenguaje incluyente.
 
 #### Frecuencias con palabras vacías filtradas
 Volvamos entonces a esta sección del sumario. Como dijimos en el iniciso anterior las palabras filtradas afectan otros campos de Voyant. En este caso, si dejaste seleccionada la caja de "Aplicar a todo", en la lista que aparece debajo de la leyenda: **Palabra más frecuente en el corpus** , se mostrarán las palabras que se repiten más **sin contar** aquéllas que fueron filtradas. En mi caso, muestra:
