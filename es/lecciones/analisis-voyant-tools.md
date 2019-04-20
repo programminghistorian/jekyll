@@ -2,28 +2,25 @@
 title: |
     Análisis de corpus con Voyant Tools
 collection: lessons
-layout: lesson
-slug:
-date:
-translation_date:
 authors:
     - Silvia Gutiérrez
+date: 2019-04-20
 reviewers:
-editors:
+    - Daniela Ávido
+    - Jennifer Isasi
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/211
+editors:
+    - Jennifer Isasi
 difficulty: 1
+layout: lesson
+slug: analisis-voyant-tools
 activity: analyzing
-topics:
+topics: [distant-reading]
 abstract: |
+En este tutorial se aprenderá cómo organizar y analizar un conjunto de textos con Voyant-Tools. 
 ---
 
- ## Contenidos
- {:.no_toc}
-
- * TOC
- {:toc}
-
-# Contenidos
+{% include toc.html %}
 
 # Análisis de corpus con Voyant Tools
 
