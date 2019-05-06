@@ -49,9 +49,9 @@ En este tutorial aprenderás:
 
 # Prerrequisitos
 Este tutorial asume que tienes:
-* Un conocimiento básico de la visualización y el análisis de redes estáticas, algo que puedes aprender con tutoriales de Programming Historian como [De la hermenéutica a las redes de datos: Extracción de datos y visualización de redes en fuentes históricas](/creando-diagramas-de-redes-desde-fuentes-historicas) y [Exploring and Analyzing Network Data with Python](/en/lessons/exploring-and-analyzing-network-data- with-python) (en inglés).
+* Un conocimiento básico de la visualización y el análisis de redes estáticas, algo que puedes aprender con tutoriales de Programming Historian como [De la hermenéutica a las redes de datos: Extracción de datos y visualización de redes en fuentes históricas](/es/lecciones/creando-diagramas-de-redes-desde-fuentes-historicas) y [Exploring and Analyzing Network Data with Python](/en/lessons/exploring-and-analyzing-network-data- with-python) (en inglés).
 * R Studio con la versión 3.0 o superior de R instalado.
-* Un entendimiento básico de cómo utilizar R para modificar tus datos. Te recomendamos revisar el excelente tutorial [Datos tabulares en R](/datos-tabulares-en-r).
+* Un entendimiento básico de cómo utilizar R para modificar tus datos. Te recomendamos revisar el excelente tutorial [Datos tabulares en R](/es/lecciones/datos-tabulares-en-r).
 
 # Paquetes para el análisis temporal de redes
 Mientras sigues este tutorial te recomiendo que escribas el código en el archivo de comandos (*script*) de R para poder guardarlo y editarlo a medida que trabajas. Puedes ejecutar la línea de código o selección de este *script* usando un atajo del teclado (Ctrl+Intro en Windows y Linux, Command+Intro en Mac).
