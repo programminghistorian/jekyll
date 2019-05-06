@@ -170,7 +170,7 @@ plot(la_red)
 ```
 Esto debería producir algo parecido a esta imagen - una red de nodos y vínculos que muestra cada taller y colaboración del período de sesenta años capturado en los datos de los manuscritos:
 
-{% include figure.html filename="tna_with_r_1" caption="Una visualización estática de la red" %}
+{% include figure.html filename="tna_with_r_1.png" caption="Una visualización estática de la red" %}
 
 Ahora hagamos nuestra red dinámica. Primero, tenemos que importar los datos temporales asociados con los [vínculos dinámicos](/assets/temporal-network-analysis-with-r/TNAWR_DynamicEdges.csv) y los [nodos dinámicos](/assets/temporal-network-analysis-with-r/TNAWR_DynamicNodes.csv).
 ```
@@ -202,7 +202,7 @@ plot(colaboraciones_dinamicas)
 ```
 Esto produce... algo que, de manera decepcionante, se parece a la red estática de más arriba.
 
-{% include figure.html filename="tna_with_r_2" caption="Una visualización decepcionante de la red dinámica" %}
+{% include figure.html filename="tna_with_r_2.png" caption="Una visualización decepcionante de la red dinámica" %}
 
 Esto es porque la función `plot()` (gráfico) produce una imagen estática de la red dinámica al completo. Para poder ver las transformaciones temporales dentro de la red, necesitamos usar una visualización diferente que divida la red en partes temporales sucesivas. Una forma de hacer esto es con la función `filmstrip()` (tira de película).
 ```
@@ -213,7 +213,7 @@ filmstrip(colaboraciones_dinamicas, displaylabels = FALSE)
 
 ¡Ahora tenemos algo! Esto nos da una muestra de cómo la red se desarrolla a lo largo del tiempo, tomando muestras en algunos momentos clave a lo largo de su vida.
 
-{% include figure.html filename="tna_with_r_3" caption="Una visualización de la red dinámica en fragmentos" %}
+{% include figure.html filename="tna_with_r_3.png" caption="Una visualización de la red dinámica en fragmentos" %}
 
 Puesto que, relativamente, las colaboraciones entre talleres era poco frecuente, esta tira fílmica es demasiado escasa para que podamos entender cómo las colaboraciones en la red emergieron y cambiaron durante el tiempo. Para poder ver estos cambios, vamos a utilizar una animación que muestra el intervalo cambiante del período de sesenta años y agrega todas las colaboraciones dentro de ese intervalo.
 
@@ -255,7 +255,7 @@ render.d3movie(
 ```
 Esto debería generar una página web con una visualización interactiva de tu red temporal y abrirla en tu navegador por defecto. Puede que la consola de R Studio muestre algunos mensajes de aviso, pero estos solo especifican que si hay valores múltiples en los atributos de los vértices, la función `render.d3movie()` utiliza el primer atributo en el tiempo para cada vértice. Si todo ha ido bien, debería verse así:
 
-{% include figure.html filename="tna_with_r_dynamic_visualization" caption="" %}
+{% include figure.html filename="tna_with_r_dynamic_visualization.html" caption="" %}
 
 Las etiquetas por defecto son simplemente el número de identificación de cada vértice, así que lo hemos desconectado (*FALSE*). El parámetro `vertex.tooltip` de esta función puede dar algo de miedo, pero básicamente proporciona a cada fragmento de la animación la información sobre la herramienta correcta para que podamos ver el nombre y la región de cada vértice cuando hacemos clic en ellos.
 
@@ -269,7 +269,7 @@ plot(tEdgeFormation(colaboraciones_dinamicas, time.interval = .25))
 ```
 El gráfico debería verse así:
 
-{% include figure.html filename="tna_with_r_4" caption="Formación de vínculos en la red de talleres, 1260-1320" %}
+{% include figure.html filename="tna_with_r_4.png" caption="Formación de vínculos en la red de talleres, 1260-1320" %}
 
 Nuestra animación podría darnos una idea intuitiva de que la mayoría de las colaboraciones se dieron entre 1280 y 1300, pero este gráfico de la formación de vínculos proporciona información más concreta. Al establecer el intervalo de muestras cada 6 meses (medio año), podemos ver exactamente cuándo y cómo tuvieron lugar muchas colaboraciones entre los talleres.
 
@@ -292,7 +292,7 @@ plot(IntermediacionDinamica, xlab="Tiempo")
 ```
 Esto genera un gráfico de la centralización agregada cambiante de la red, que muestra cómo la centralización intermedia de la red de manuscritos en colaboración alcanza su punto máximo alrededor del año 1280 y cae alrededor de 1300. [Nota de la T.: Añadimos `xlab=` para cambiar la etiqueta del eje-x o eje horizontal].
 
-{% include figure.html filename="atr_1" caption="Centralidad de intermediación de la red de talleres, 1260-1320" %}
+{% include figure.html filename="atr_1.png" caption="Centralidad de intermediación de la red de talleres, 1260-1320" %}
 
 También es posible calcular y crear el gráfico de la métricas a nivel de nodo a medida que cambian con el tiempo usando la función `tSnaStat()`, pero es una función computacional intensiva y producirá errores si los nodos aparecen y desaparecen de la red.
 
@@ -314,7 +314,7 @@ plot(conjunto_futuro, conjunto_pasado)
 ```
 Esto produce un gráfico de los tamaños de los conjuntos accesibles hacia adelante y hacia atrás para cada taller o iluminador. A partir de este gráfico podemos tener una idea de quién estaba en posición de tener un mayor impacto en la red en función del alcance hacia adelante y quién estaba bien conectado con sus predecesores en función de sus colaboraciones.
 
-{% include figure.html filename="atr_2" caption="Tamaño de conjuntos accesibles hacia adelante y hacia atrás de talleres/iluminadores" %}
+{% include figure.html filename="atr_2.png" caption="Tamaño de conjuntos accesibles hacia adelante y hacia atrás de talleres/iluminadores" %}
 
 También podemos visualizar estos conjuntos utilizando la función `tPath()` para encontrar la ruta que conecta un nodo concreto a sus conjuntos hacia atrás y hacia adelante, y la función `plotPaths()` para crear un gráfico donde se represente en el conjunto de la red. En el siguiente ejemplo, vamos a escoger un único taller - el de Hospitaller Master, seleccionado por su identificación de vértice número 3 - y visualizamos su conjunto accesible hacia adelante (con "fwd" de *forward*).
 
@@ -334,13 +334,13 @@ plotPaths(
 ```
 Esto produce una visualización del alcance de Hospitaller Master y su taller hacia futuro basado en la cronología de sus colaboraciones.
 
-{% include figure.html filename="tna_with_r_7" caption="La ruta de acceso hacia delante de Hospitaller Master, con etiquetas del tiempo transcurrido en los vínculos" %}
+{% include figure.html filename="tna_with_r_7.png" caption="La ruta de acceso hacia delante de Hospitaller Master, con etiquetas del tiempo transcurrido en los vínculos" %}
 
 Podemos ver que Hospitaller Master tenía una posición favorable para tener un impacto considerable en el futuro de la iluminación de manuscritos en la región de París a través de su trabajo colaborativo. Este potencial de impacto se debió no sólo a su posición dentro de la red, sino también al desarrollo de la red en el tiempo.
 
 Si las etiquetas numéricas que muestran el tiempo transcurrido por cada colaboración te molesta, puedes hacerlas transparentes añadiendo  `edge.lable.col = rgb (0,0,0,0)` (color de la etiqueta del vínculo = valor de color 0) a la función `plotPaths()`.
 
-{% include figure.html filename="tna_with_r_8" caption="La ruta de acceso hacia delante de Hospitaller Master, sin la etiqueta de los vínculos" %}
+{% include figure.html filename="tna_with_r_8.png" caption="La ruta de acceso hacia delante de Hospitaller Master, sin la etiqueta de los vínculos" %}
 
 Si, por otro lado, nos interesara ver la red de colaboración entre talleres que preparó el camino para el surgimiento de Hospitaller Master, podemos ver su conjunto accesible hacia atrás. Usando `tpath()` de nuevo, usamos `direction = "bkwd"` y `type = "latest.depart"` para encontrar las rutas formadas por colaboraciones anteriores en manuscritos. Para distinguir visualmente esto de su alcance hacia el futuro, usamos la propiedad `path.col` para poner en azul las rutas del pasado en vez de rojo.
 
@@ -363,7 +363,7 @@ plotPaths(
 ```
 El resultado será algo así:
 
-{% include figure.html filename="tna_with_r_9" caption="La ruta de acceso hacia el pasado de Hospitaller Master" %}
+{% include figure.html filename="tna_with_r_9.png" caption="La ruta de acceso hacia el pasado de Hospitaller Master" %}
 
 Podemos ver que el conjunto accesible hacia atrás de Hospitaller Master era un grupo central en la comunidad de talleres parisinos. Debido a que este taller participó activamente en producciones colaborativas entre alrededor de 1260 y 1290, durante la primera mitad del período que estamos estudiando, puede que no nos sorprenda del todo que su alcance hacia futuro sea mayor que su alcance hacia el pasado. Sin embargo, dada la centralidad de Hospitaller Master, ambos conjuntos pueden parecer más pequeños de lo esperado.   
 
