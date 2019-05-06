@@ -146,12 +146,12 @@ Como historiadores, solo podemos ser tan específicos y consistentes como lo sea
 Los manuscritos medievales iluminados son un buen ejemplo de cuán complicados son los datos históricos. En algunos casos se puede fechar los manuscritos por un único año en el colofón (una nota breve al comienzo o final del texto sobre la producción del manuscrito). Puede que los historiadores del arte que han dedicado toda su carrera al estudio de estos manuscritos solo se sientan cómodos fechando los manuscritos por décadas (por ejemplo, de la década de 1290) o incluso un tiempo de varias décadas (entre 1275 y 1300). Para el propósito de este tutorial he creado un conjunto de datos temporales haciendo la media de estos rangos de tiempo y usándolos como el inicio de cada colaboración, fijando su término a un año desde el inicio. Esto no es una solución ideal, pero tampoco es arbitraria o injustificable.[^4]
 
 # Visualizaciones estáticas
-Ahora que tenemos una idea de dónde provienen los datos para la red temporal y cómo está estructurada, podemos empezar a visualizar y analizar la red. Primero cargamos nuestra red como una lista estática de vínculos, a la que hemos llamado `VinculosEstaticosPH` con sus atributos de vértice asociados, aquí llamados `AtributosVerticesPH`. Descarga la [lista de vínculos estática](/assets/temporal-network-analysis-with- r/ATR_VinculosEstaticos.csv) y cárgala en R usando el comando `read.csv()` (leer archivo separado por comas). En vez de recordar la ruta al archivo, puedes abrir una ventana que te deje navegar visualmente al archivo usando la función `file.choose()`:
+Ahora que tenemos una idea de dónde provienen los datos para la red temporal y cómo está estructurada, podemos empezar a visualizar y analizar la red. Primero cargamos nuestra red como una lista estática de vínculos, a la que hemos llamado `VinculosEstaticosPH` con sus atributos de vértice asociados, aquí llamados `AtributosVerticesPH`. Descarga la [lista de vínculos estática](/assets/temporal-network-analysis-with-r/ATR_VinculosEstaticos.csv) y cárgala en R usando el comando `read.csv()` (leer archivo separado por comas). En vez de recordar la ruta al archivo, puedes abrir una ventana que te deje navegar visualmente al archivo usando la función `file.choose()`:
 ```
 #Importar datos de red estática
 VinculosEstaticosPH <- read.csv(file.choose())
 ```
-Después utiliza la misma función para cargar los [atributos de los vértices](/assets/temporal-network-analysis- with-r/ATR_AtributosVertices.csv) en R.
+Después utiliza la misma función para cargar los [atributos de los vértices](/assets/temporal-network-analysis-with-r/ATR_AtributosVertices.csv) en R.
 ```
 AtributosVerticesPH <- read.csv( file.choose(), stringsAsFactors = FALSE
 )
