@@ -28,6 +28,8 @@ topics: [network-analysis]
 abstract: "Aprende a utilizar R para analizar cómo cambian las redes a lo largo del tiempo."
 ---
 
+{% include toc.html %}
+
 # Introducción
 Si estás leyendo este tutorial seguramente ya tendrás experiencia en modelar datos de humanidades en forma de red. Quizás seas un/a historiador/a de religión investigando las redes de correspondencia de [la Sociedad Religiosa de los Amigos o cuáqueros](https://es.wikipedia.org/wiki/Sociedad_Religiosa_de_los_Amigos), en las que los nodos representan a los emisores y los receptores de las cartas y los vínculos representan los intercambios epistolares. O quizás seas un/a historiador/a del arte que estudia una red compuesta de diseñadores de medios impresos y grabadores, con conexiones derivadas de su colaboración en libros. Probablemente hayas visualizado y analizado tu red estática, pero a lo mejor crees que hay algo que estás pasando por alto o que algo está mal. Puede que la red te parezca más grande y robusta de lo que te parecía al obtener los datos de los archivos, o quizás las medidas de centralidad de tus nodos no tienen mucho sentido en el contexto histórico concreto en que existieron.
 
