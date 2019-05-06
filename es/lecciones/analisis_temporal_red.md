@@ -18,6 +18,8 @@ translation-editor:
 translation-reviewer:
 - Isabelle Gribomont 
 - Antonio Sánchez-Padial 
+review-ticket:
+- https://github.com/programminghistorian/ph-submissions/issues/218
 layout: lesson
 original: temporal-network-analysis-with-r
 difficulty: 3
