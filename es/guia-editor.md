@@ -220,12 +220,15 @@ Si la lección fue escrita por un autor nuevo, el editor encargado necesitará u
 ```yaml
 - name: Jim Clifford
   team: false
+  orcid: 0000-0000-1111-1111
   bio:
    es: |
        Jim Clifford es profesor ayudante en el Departamento de Historia de la Universidad de Saskatchewan.
 ```
 
 **Los espacios en blanco son importantes**, así que asegúrate de que la identación se ajusta a la de los otros casos y utiliza espacios en blanco en vez de tabuladores.
+
+Incluir el identificador `orcid` no es obligatorio, pero sí es recomendable si los autores se han registrado previamente en el [portal ORCID](https://orcid.org/). **Como editor, es importante tener la aprobación explícita del autor y asegurarse de que el identificador ORCID utilizado es el correcto**. 
 
 ### 2) Agrega una tabla de contenidos a la lección
 

@@ -35,6 +35,11 @@
   <script type="text/javascript" src="{{site.baseurl}}/js/ext_links.js"></script>
   <script type="text/javascript" src="{{site.baseurl}}/js/header_links.js"></script>
 
+  {% comment %}
+  MathJax is an expensive JS library so we only want to add it to pages when
+  it's actually going to be used.
+  {% endcomment %}
+  {% if page.mathjax %}
   <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
@@ -50,6 +55,8 @@
   <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js">
   </script>
+  {% endif %}
+
   <script src="{{site.baseurl}}/js/bootstrap-4-navbar.js"></script>
 
 

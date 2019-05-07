@@ -415,9 +415,7 @@ you need to learn only a few, very simple commands.
 First, open a command line window. If you are using a Mac, open Terminal
 in the 'Applications/Utilities' directory. On Windows, you'll use
 PowerShell. On Windows 7 or later, click Start, type "powershell" in
-"Search programs and files," and hit enter. For a detailed introduction
-to using the command line, see Zed A. Shaw's excellent *[Command Line
-Crash Course.](http://cli.learncodethehardway.org/book/)*
+"Search programs and files," and hit enter.
 
 Once opened, you should see a text window and a prompt that looks
 something like this: `computer-name:~username$`. The tilde indicates

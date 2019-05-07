@@ -53,6 +53,9 @@ List subteams within the larger editorial team
 	{% if member.github %}
 		<a href="http://github.com/{{member.github}}"><i class="fab fa-github-square fa-lg"></i></a>
 	{% endif %}
+	{% if member.orcid %}
+		{% include orcid.html author=member %}
+	{% endif %}
 </p>
 {% endif %}
 {% endfor %}

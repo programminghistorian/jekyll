@@ -4,7 +4,7 @@ authors:
 - Peter Organisciak
 - Boris Capitanu
 date: 2016-11-22
-reviewers: 
+reviewers:
 - Stéfan Sinclair
 - Catherine DeRose
 editors:
@@ -17,6 +17,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/29
 abstract: |
   Explains how to use Python to summarize and visualize data on millions of texts from the HathiTrust Research Center's Extracted Features dataset.
 redirect_from: /lessons/text-mining-with-extracted-features
+mathjax: true
 ---
 
 {% include toc.html %}
@@ -79,7 +80,7 @@ The lesson files include a sample of files from the HTRC Extracted Features data
 
 ## Installation
 
-For this lesson, you need to install the HTRC Feature Reader library for Python alongside the data science libraries that it depends on. 
+For this lesson, you need to install the HTRC Feature Reader library for Python alongside the data science libraries that it depends on.
 
 For ease, this lesson will focus on installing Python through a scientific distribution called Anaconda. Anaconda is an easy-to-install Python distribution that already includes most of the dependencies for the HTRC Feature Reader.
 
@@ -184,7 +185,7 @@ You may recognize `for` loops from past experience iterating through what is kno
 
 What is a generator, and why do we iterate over it?
 
-Generators are the key to working with lots of data. They allow you to iterate over a set of items that don't exist yet, preparing them only when it is their turn to be acted upon. 
+Generators are the key to working with lots of data. They allow you to iterate over a set of items that don't exist yet, preparing them only when it is their turn to be acted upon.
 
 Remember that there are 13.6 million volumes in the Extracted Features dataset. When coding at that scale, you need to be be mindful of two rules:
 
@@ -248,7 +249,7 @@ The Extracted Features dataset does not hold all the metadata that the HathiTrus
 
 It's time to access the first features of `vol`: a table of total words for every single page. These can be accessed by calling `vol.tokens_per_page()`. Try the following code.
 
-> If you are using a Jupyter notebook, returning this table at the end of a cell formats it nicely in the browser. Below, you'll see us append `.head()` to the `tokens` table, which allows us to look at just the top few rows: the 'head' of the data. 
+> If you are using a Jupyter notebook, returning this table at the end of a cell formats it nicely in the browser. Below, you'll see us append `.head()` to the `tokens` table, which allows us to look at just the top few rows: the 'head' of the data.
 
 
 ```python
@@ -324,7 +325,7 @@ tokens.plot()
 
 On some systems, this may take some time the first time. It is clear that pages at the start of a book have fewer words per page, after which the count is fairly steady except for occasional valleys.
 
-You may have some guesses for what these patterns mean. A look at the [scans](http://hdl.handle.net/2027/nyp.33433074811310) confirms that the large valleys are often illustration pages or blank pages, small valleys are chapter headings, and the upward pattern at the start is from front matter. 
+You may have some guesses for what these patterns mean. A look at the [scans](http://hdl.handle.net/2027/nyp.33433074811310) confirms that the large valleys are often illustration pages or blank pages, small valleys are chapter headings, and the upward pattern at the start is from front matter.
 
 Not all books will have the same patterns so we can't just codify these correlations for millions of books. However, looking at this plot makes clear an inportant assumption in text and data mining: that there are patterns underlying even the basic statistics derived from a text. The trick is to identify the consistent and interesting patterns and teach them to a computer.
 
@@ -340,8 +341,8 @@ Many of the methods in the HTRC Feature Reader return DataFrames. The aim is to 
 
 ## Loading a Token List
 
-The information contained in `vol.tokens_per_page()` is minimal, a sum of all words in the body of each page. 
-The Extracted Features dataset also provides token counts with much more granularity: for every part of speech (e.g. noun, verb) of every occurring capitalization of every word of every section (i.e. header, footer, body) of every page of the volume. 
+The information contained in `vol.tokens_per_page()` is minimal, a sum of all words in the body of each page.
+The Extracted Features dataset also provides token counts with much more granularity: for every part of speech (e.g. noun, verb) of every occurring capitalization of every word of every section (i.e. header, footer, body) of every page of the volume.
 
 `tokens_per_page()` only kept the "for every page" grouping; `vol.tokenlist()` can be called to return section-, part-of-speech-, and word-specific details:
 
@@ -452,7 +453,7 @@ The Pandas DataFrame type returned by the HTRC Feature Reader is very malleable.
 
 ### Selecting Subsets of a DataFrame by a Condition
 
-Consider this example: *I only want to look at tokens that occur more than a hundred times in the book.* 
+Consider this example: *I only want to look at tokens that occur more than a hundred times in the book.*
 
 Remembering that the table-like output from the HTRC Feature Reader is a Pandas DataFrame, the way to pursue this goal is to learn to filter and subset DataFrames. Knowing how to do so is important for working with just the data that you need.
 
@@ -629,7 +630,7 @@ tl_simple[tl_simple['count'] > 100].sample(5)
 
 
 
-As might be expected, many of the tokens that occur very often are common words like "she" and "and", as well as various punctuation. 
+As might be expected, many of the tokens that occur very often are common words like "she" and "and", as well as various punctuation.
 
 Multiple conditions can be chained with `&` (and) or `|` (or), using regular brackets so that Python knows the order of operations. For example, words with a count greater than 150 *and* a count less than 200 are selected in this way:
 
@@ -699,10 +700,10 @@ In the DataFrame returned by `vol.tokenlist()`, page, section, token, and POS we
 
 {% include figure.html filename="Excel.PNG" caption="One can think of an index as the margin notations in Excel (i.e. 1,2,3... and A,B,C,..), except it can be named and can have multiple levels." %}
 
-    
+
 Slicing a DataFrame against a labelled index is done using `DataFrame.loc[]`. Try the following examples and see what is returned:
 
-- Select information from page 17: 
+- Select information from page 17:
   - `tl.loc[(17),]`
 - Select 'body' section of page 17:
   - `tl.loc[(17, 'body'),]`
@@ -713,7 +714,7 @@ The levels of the index are specified in order, so in this case the first value 
 
 - Select counts of the word 'Anne' for all pages and all page sections
   - `tl.loc[(slice(None), slice(None), "Anne"),]`
-  
+
 Finally, it is possible to select multiple labels for a level of the index, with a list of labels (i.e. `['label1', 'label2']`) or a sequence covering everything from one value to another (i.e. `slice(start, end)`):
 
 - Select pages 37, 38, and 52
@@ -722,7 +723,7 @@ Finally, it is possible to select multiple labels for a level of the index, with
   - `tl.loc[(slice(37, 40)),]`
 - Select counts for 'Anne' or 'Hilary' from all pages
   - `tl.loc[(slice(None), slice(None), ["Anne", "Hilary"]),]`
-  
+
 > The reason for the comma in `tl.loc[(...),]` is because columns can be selected in the same way after the comma. Pandas DataFrames can have a multiple-level index for columns, but the HTRC Feature Reader does not use this.
 
 Knowing how to slice, let's try to find the word "CHAPTER" in this book, and compare where that shows up to the token-per-page pattern previously plotted.
@@ -855,7 +856,7 @@ chapter_pages
 
 
 
-Earlier, token counts were visualized using `tokens.plot()`, a built-in function of DataFrames that uses the Matplotlib visualization library. 
+Earlier, token counts were visualized using `tokens.plot()`, a built-in function of DataFrames that uses the Matplotlib visualization library.
 
 We can add to the earlier visualization by using Matplotlib directly. Try the following code in a new cell, which goes through every page number in the earlier search for 'CHAPTER' and adds a red vertical line at the place in the chart with `matplotlib.pyplot.axvline()`:
 
@@ -878,7 +879,7 @@ for page_number in page_numbers:
 
 
 > Advanced: Though slicing with `loc` is more common when working with the index, it is possible to create a True/False list from an index to select rows as we did earlier. Here's an advanced example that grabs the 'token' part of the index and, using the `isalpha()` string method that Pandas provides, filters to fully alphabetical words.
-``` 
+```
 token_idx = tl.index.get_level_values("token")
 tl[token_idx.str.isalpha()]
 ```
@@ -1016,7 +1017,7 @@ tl.groupby(level=["pos"]).sum()
 The output is a count of how often each part-of-speech tag ("pos") occurs in the entire book.
 
 - *Split* with `groupby()`: We took the token count dataframe that is set to `tl` and grouped by the part-of-speech (`pos`) level of the index. This means that rather than thinking in terms of rows, Pandas is now thinking of the `tl` DataFrame as a series of smaller groups, the groups selected by a common value for part of speech. So, all the personal pronouns ("PRP") are in one group, and all the adverbs ("RB") are in another, and so on.
-- *Apply* with `sum()`: These groups were sent to an apply function, `sum()`. Sum is an aggregation function, so it sums all the information in the 'count' column for each group. For example, all the rows of data in the adverb group are summed up into a single count of all adverbs. 
+- *Apply* with `sum()`: These groups were sent to an apply function, `sum()`. Sum is an aggregation function, so it sums all the information in the 'count' column for each group. For example, all the rows of data in the adverb group are summed up into a single count of all adverbs.
 - *Combine*: The combine step is implicit: the DataFrame knows from the `groupby` pattern to take everything that the apply function gives back (in the case of 'sum', just one row for every group) and stick it together.
 
 `sum()` is one of many convenient functions [built-in](http://pandas.pydata.org/pandas-docs/stable/groupby.html) to Pandas. Other useful functions are `mean()`, `count()`, `max()`. It is also possible to send your groups to any function that you write with `apply()`.
@@ -1029,7 +1030,7 @@ Below are some examples of grouping token counts.
   - `tl.groupby(level="token").sum().sort_values("count", ascending=False)`
 - Count how many pages each token/pos combination occurs on
   - `tl.groupby(level=["token", "pos"]).count()`
-  
+
 Remember from earlier that certain information can be called by sending arguments to `vol.tokenlist()`, so you don't always have to do the grouping yourself.
 
 With `sum`, the data is being reduced: only one row is left for each group. It is also possible to 'transform' a group, where the same number of rows are returned. This is useful if processing is necessary based on the group statistics, such as percentages. Here is an advanced example of transformation, a [TF\*IDF](https://web.archive.org/web/20161108211721/https://porganized.com/2016/03/09/term-weighting-for-humanists/) function. TF\*IDF weighs a token's value to a document based on how common it is. In this case, it highlights words that are notable for a page but not the entire book.
@@ -1181,7 +1182,7 @@ rsync -rv data.analytics.hathitrust.org::features/ .
 ```
 
 This command recurses (the `-r` flag) through all the folders on the HTRC server, and syncs all the files to a location on your system; in this case the `.` at the end means "the current folder". The `-v` flag means `--verbose`, which tells rsync to show you more information.
- 
+
 It is possible to sync individual files by specifying a full file path. Files are organized in a [PairTree structure](https://wiki.ucop.edu/display/Curation/PairTree), meaning that you can find an exact dataset file from a volume's HathiTrust id. The HTRC Feature Reader has a tools and instructions for [getting the path for a volume](https://github.com/htrc/htrc-feature-reader/blob/master/examples/ID_to_Rsync_Link.ipynb). A list of all file paths is available:
 
 ```bash
