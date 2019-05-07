@@ -41,8 +41,8 @@ more general programming environments.
 We will start with something like this:
 
 ```
-Arizona. — Quarter ended June 30, 1907. Estimated population,  
- 122,931. Total number of deaths 292, including diphtheria 1, enteric  
+Arizona. — Quarter ended June 30, 1907. Estimated population,
+ 122,931. Total number of deaths 292, including diphtheria 1, enteric
  fever 4, scarlet fever 11, smallpox 2, and 49 from tuberculosis.
 ```
 
@@ -214,7 +214,7 @@ selection matches your expectations. After repeating this a few times
 you can click `Replace All` to replace all the rest at once. If you
 make a mistake or are uncertain, you can undo recent steps with `Edit
 → Undo` from the menu bar, or keyboard shortcut `Ctrl+Z` (Cmd+Z on
-Mac). 
+Mac).
 
 In this document replacing line ends results in 291
 replacements. (Your number may differ slightly depending on the number
@@ -233,9 +233,9 @@ Again using find-and-replace,
 
 This will close up patterns like "tuber- #culosis" to "tuberculosis" on one line, and will make a total of 27 replacements in this case.
 
-Next: 
+Next:
 
-*replace all* `##` with `\n`. 
+*replace all* `##` with `\n`.
 
 This results in 71 replacements. In this step we take what were originally paragraph breaks, which appeared as double line breaks, and then were represented as doubled `#` characters, and we turn them back again into actual single line breaks. These will function in a spreadsheet context to mark new rows.
 
@@ -729,9 +729,7 @@ sample text and dynamically shows matches and matched groups. David
 Birnbaum, Chair of the Department of Slavic Languages and Literatures at
 the University of Pittsburg, has some good materials on how to work with
 [regular expressions and XML tools][] to help mark up plain-text files
-in TEI XML. Zed Shaw has begun developing a book, freely available
-online, [Learn Regex the Hard Way.][] The book's exercises are built
-around a Python-based program developed by the author.
+in TEI XML.
 
   [Read Online]: http://archive.org/stream/jstor-4560629/4560629#page/n0/mode/2up
   [Full Text]: http://archive.org/stream/jstor-4560629/4560629_djvu.txt
@@ -739,4 +737,3 @@ around a Python-based program developed by the author.
   [regular expressions]: http://en.wikipedia.org/wiki/Regular_expressions
   [Rubular]: http://rubular.com/
   [regular expressions and XML tools]: http://dh.obdurodon.org/regex.html
-  [Learn Regex the Hard Way.]: http://regex.learncodethehardway.org/book/
