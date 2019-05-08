@@ -23,7 +23,7 @@ difficulty: 2
 activity: analyzing 
 topics: [distant-reading]
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/231
-abstract: Ce tutoriel vous apprendra comment appliquer diverses méthodes stylométriques pour déterminer les auteurs de textes disputés. Trois méthodes sont abordées: les courbes caractéristiques de composition de Mendenhall, la méthode du khi carré de Kilgariff et, enfin, la méthode du Delta de John Burrows. 
+abstract: "Ce tutoriel vous apprendra comment appliquer diverses méthodes stylométriques pour déterminer les auteurs de textes disputés. Trois méthodes sont abordées: les courbes caractéristiques de composition de Mendenhall, la méthode du khi carré de Kilgariff et, enfin, la méthode du Delta de John Burrows." 
 original: introduction-to-stylometry-with-python
 
 ---
