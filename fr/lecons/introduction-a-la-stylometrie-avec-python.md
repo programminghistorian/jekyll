@@ -5,7 +5,7 @@ slug: introduction-a-la-stylometrie-avec-python
 authors:
 - François Dominic Laramée
 date: 2018-04-21 
-editor: 
+editors: 
 - Adam Crymble
 reviewers:
 - Folgert Karsdorp
@@ -16,7 +16,7 @@ translator:
 translation_date: 2019-05-03
 translation-editor:
 - Sofia Papastamkou
-translation-reviewers:
+translation-reviewer:
 - Isabelle Gribomont
 - Fanny Mézard
 difficulty: 2
