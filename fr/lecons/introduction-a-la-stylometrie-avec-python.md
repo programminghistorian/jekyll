@@ -322,7 +322,7 @@ for auteur in auteurs:
 ```
 
 Les résultats devraient ressembler à ceci:
-```python
+```
 Le khi carré mesuré pour le candidat Hamilton est 3434.6850314768426
 Le khi carré mesuré pour le candidat Madison est 1907.5992915766838
 ```
@@ -518,7 +518,7 @@ for trait in traits:
 
 Les résultats du calcul des cotes Z pour quelques traits du _Federalist 64_ ressemblent à ceci:
 
-```python
+```
 Cote Z du Fédéraliste 64 pour le trait the = -0.7692828380408238
 Cote Z du Fédéraliste 64 pour le trait of = -1.8167784558461264
 Cote Z du Fédéraliste 64 pour le trait to = 1.032705844508835
@@ -543,7 +543,7 @@ for auteur in auteurs:
 
 Le résultat? Delta estime que _Federalist 64_ a bel et bien été rédigé par John Jay:
 
-```python
+```
 Cote Delta du candidat Hamilton est 1.768470453004334
 Cote Delta du candidat Madison est 1.6089724119682816
 Cote Delta du candidat Jay est 1.5345768956569326
