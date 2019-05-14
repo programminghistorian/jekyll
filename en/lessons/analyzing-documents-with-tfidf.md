@@ -434,34 +434,34 @@ If you are not using Anaconda, you will need to cover the following dependencies
 
 # Endnotes
 
-[^1]: Underwood, Ted. "Identifying diction that characterizes an author or genre: why Dunning's may not be the best method," _The Stone and the Shell_, November 9, 2011. https://tedunderwood.com/2011/11/09/identifying-the-terms-that-characterize-an-author-or-genre-why-dunnings-may-not-be-the-best-method/
+[^1]: Underwood, Ted. "Identifying diction that characterizes an author or genre: why Dunning's may not be the best method," _The Stone and the Shell_, November 9, 2011. <https://tedunderwood.com/2011/11/09/identifying-the-terms-that-characterize-an-author-or-genre-why-dunnings-may-not-be-the-best-method/>
 
-[^2]: Bennett, Jessica, and Amisha Padnani. "Overlooked," March 8, 2018. https://www.nytimes.com/interactive/2018/obituaries/overlooked.html
+[^2]: Bennett, Jessica, and Amisha Padnani. "Overlooked," March 8, 2018. <https://www.nytimes.com/interactive/2018/obituaries/overlooked.html>
 
 [^3]: This dataset is from a version of _The New York Times_ "On This Day" website that hasn't been updated since January 31, 2011, and it has been replaced by a newer, sleeker blog located at [https://learning.blogs.nytimes.com/on-this-day/](https://learning.blogs.nytimes.com/on-this-day/). What's left on the older "On This Day" Website is a static .html file for each day of the year (0101.html, 0102.html, etc.), including a static page for February 29th (0229.html). Content appears to have been overwritten whenever it was last updated, so there are no archives of content by year. Presumably, the "On This Day" entries for January 1 - January 31 were last updated on their corresponding days in 2011. Meanwhile, February 1 - December 31 were probably last updated on their corresponding days in 2010. The page representing February 29 was probably last updated on February 29, 2008.
 
 [^4]: Spärck Jones, Karen. "A Statistical Interpretation of Term Specificity and Its Application in Retrieval." _Journal of Documentation_ vol. 28, no. 1 (1972): 16.
 
-[^5]: "Nellie Bly, Journalist, Dies of Pneumonia" _The New York Times_, January 28, 1922, 11. https://www.nytimes.com
+[^5]: "Nellie Bly, Journalist, Dies of Pneumonia" _The New York Times_, January 28, 1922, 11. <https://www.nytimes.com>
 
-[^6]: Documentation for TfidfVectorizer. https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
+[^6]: Documentation for TfidfVectorizer. <https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html>
 
-[^7]: Schmidt, Ben. "Do Digital Humanists Need to Understand Algorithms?" _Debates in the Digital Humanities 2016_. Online edition. (Minneapois: University of Minnesota Press): n.p. http://dhdebates.gc.cuny.edu/debates/text/99
+[^7]: Schmidt, Ben. "Do Digital Humanists Need to Understand Algorithms?" _Debates in the Digital Humanities 2016_. Online edition. (Minneapois: University of Minnesota Press): n.p. <http://dhdebates.gc.cuny.edu/debates/text/99>
 
-[^8]: van Rossum,  Guido, Barry Warsaw, and Nick Coghlan. "PEP 8 -- Style Guide for Python Code." July 5, 2001. Updated July 2013. https://www.python.org/dev/peps/pep-0008/
+[^8]: van Rossum,  Guido, Barry Warsaw, and Nick Coghlan. "PEP 8 -- Style Guide for Python Code." July 5, 2001. Updated July 2013. <https://www.python.org/dev/peps/pep-0008/>
 
-[^9]: "Ida M. Tarbell, 86, Dies in Bridgeport" _The New York Times_, January 7, 1944, 17. https://www.nytimes.com; "Nellie Bly, Journalist, Dies of Pneumonia" _The New York Times_, January 28, 1922, 11. https://www.nytimes.com; "W. E. B. DuBois Dies in Ghana; Negro Leader and Author, 95" _The New York Times_, August 28, 1963, 27. https://www.nytimes.com; Whitman, Alden. "Upton Sinclair, Author, Dead; Crusader for Social Justice, 90" _The New York Times_, November 26, 1968, 1, 34. https://www.nytimes.com; "Willa Cather Dies; Noted Novelist, 70" _The New York Times_, April 25, 1947, 21. https://www.nytimes.com
+[^9]: "Ida M. Tarbell, 86, Dies in Bridgeport" _The New York Times_, January 7, 1944, 17. <https://www.nytimes.com>; "Nellie Bly, Journalist, Dies of Pneumonia" _The New York Times_, January 28, 1922, 11. <https://www.nytimes.com>; "W. E. B. DuBois Dies in Ghana; Negro Leader and Author, 95" _The New York Times_, August 28, 1963, 27. <https://www.nytimes.com>; Whitman, Alden. "Upton Sinclair, Author, Dead; Crusader for Social Justice, 90" _The New York Times_, November 26, 1968, 1, 34. <https://www.nytimes.com>; "Willa Cather Dies; Noted Novelist, 70" _The New York Times_, April 25, 1947, 21. <https://www.nytimes.com>
 
-[^10]: Stray, Jonathan, and Julian Burgess. "A Full-text Visualization of the Iraq War Logs," December 10, 2010 (Update April 2012). http://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs
+[^10]: Stray, Jonathan, and Julian Burgess. "A Full-text Visualization of the Iraq War Logs," December 10, 2010 (Update April 2012). <http://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs>
 
 [^11]: Manning, C.D., P. Raghavan, and H. Schütze, _Introduction to Information Retrieval_. (Cambridge: Cambridge University Press, 2008): 118-120.
 
-[^12]: Beckman, Milo. "These Are The Phrases Each GOP Candidate Repeats Most," _FiveThirtyEight_, March 10, 2016. https://fivethirtyeight.com/features/these-are-the-phrases-each-gop-candidate-repeats-most/
+[^12]: Beckman, Milo. "These Are The Phrases Each GOP Candidate Repeats Most," _FiveThirtyEight_, March 10, 2016. <https://fivethirtyeight.com/features/these-are-the-phrases-each-gop-candidate-repeats-most/>
 
 [^13]: Bondi, Marina, and Mike Scott, eds. _Keyness in Texts_. (Philadelphia: John Benjamins, 2010).
 
-[^14]: __Tf-idf__ is not typically a recommended pre-processing step when generating topic models. See https://datascience.stackexchange.com/questions/21950/why-we-should-not-feed-lda-with-tfidf
+[^14]: __Tf-idf__ is not typically a recommended pre-processing step when generating topic models. See <https://datascience.stackexchange.com/questions/21950/why-we-should-not-feed-lda-with-tfidf>
 
-[^15]: Schmidt, Ben. "Words Alone: Dismantling Topic Models in the Humanities," _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p. http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/
+[^15]: Schmidt, Ben. "Words Alone: Dismantling Topic Models in the Humanities," _Journal of Digital Humanities_. Vol. 2, No. 1 (2012): n.p. <http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/>
 
-[^16]: Mihalcea, Rada, and Paul Tarau. "Textrank: Bringing order into text." In Proceedings of the 2004 conference on empirical methods in natural language processing. 2004.
+[^16]: Mihalcea, Rada, and Paul Tarau. "Textrank: Bringing order into text." In _Proceedings of the 2004 conference on empirical methods in natural language processing_. 2004.
