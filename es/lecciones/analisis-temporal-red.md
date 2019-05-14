@@ -16,7 +16,7 @@ translator:
 translation-editor:
 - Antonio Rojas Castro
 translation-reviewer:
-- Isabelle Gribomont 
+- G. Elgarrista
 - Antonio Sánchez-Padial 
 review-ticket:
 - https://github.com/programminghistorian/ph-submissions/issues/218
