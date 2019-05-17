@@ -273,3 +273,6 @@ Como vemos con el ejemplo de *persona* -búsqueda basada en una lectura explorat
 
 - Tiedemann, Jörg, *Bitext Alignment*, San Rafael CA, Morgan & Claypool (2011).
 
+<div class="alert alert-warning">
+Este tutorial fue posible gracias al apoyo de la British Academy y fue escrito durante el taller de Programming Historian llevado a cabo en la Universidad de Los Andes en Bogotá, Colombia, 31 de julio - 3 de agosto, 2018.
+</div>
