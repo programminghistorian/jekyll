@@ -408,6 +408,10 @@ Sinclair, Stéfan and Geoffrey Rockwell, 2016.  _Voyant Tools_. Web. [http://voy
 
 Terras, Melissa, 2013. "For Ada Lovelace Day – Father Busa’s Female Punch Card Operatives". _Melissa Terras' Blog_. Web. [http://melissaterras.blogspot.com/2013/10/for-ada-lovelace-day-father-busas.html](http://melissaterras.blogspot.com/2013/10/for-ada-lovelace-day-father-busas.html).
 
+<div class="alert alert-warning">
+Este tutorial fue escrito gracias al apoyo de la Academia Británica y preparado durante el Taller de escritura de The Programming Historian en la Universidad de los Andes en Bogotá, Colombia, el del 31 de julio al 3 de agosto de 2018. 
+</div>
+
 ## Notas al pie
 [^1]: Los textos de Perú fueron recopilados por a [Pamela Sertzen](https://twitter.com/madvivacious)
 [^2]: Existen formas más complejas para cargar el corpus que [puedes consultar en la documentación en inglés](https://voyant-tools.org/docs/#!/guide/corpuscreator).
