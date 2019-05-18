@@ -81,7 +81,8 @@ menu-lesson-requests:
     title: Lesson Requests
     link: /en/lesson-requests
   es:
-    title: Solicitudes de lecciones
+    title: Solicitud de lecciones
+    link: /es/solicitud-lecciones
 menu-contribute-feedback:
   en:
     title: Feedback
