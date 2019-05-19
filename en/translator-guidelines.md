@@ -26,7 +26,7 @@ Translating a lesson involves principally the following:
 - translating titles and captions of the images; in some cases, new images need to be produced, for example if an exercise uses a software with an interface that can be changed to the target language;
 - adapting the links and notes provided in the original text to fit the targeted linguistic context, if possible; for example, link to software documentation, Wikipedia notices etc., if these resources are provided in the target language.
 
-If you decide to translate, please keep in mind that you are addressing a global audience and, for that reason, all variations are accepted. 
+If you decide to translate, please keep in mind that you are addressing a global audience. For that reason, all linguistic variations are accepted. For instance, if you are translating into English, we accept British English, Indian English, Australian English, etc. and we will respect regional variations for words such as 'timetable' and 'schedule' or 'full stop' and 'period'.     
 
 ## Writing and Formatting a Translation
 The Programming Historian is hosted at [GitHub](http://github.com/), which is a free platform for maintaining files and their revision history. It’s most often used to store files of programming code, but it’s also a fabulous way to maintain an open-access resource like the Programming Historian. More specifically, our site uses [GitHub Pages](https://pages.github.com/) to take a bunch of plain text files and turn them into a spiffy website.
