@@ -1,6 +1,7 @@
 ---
 layout: blank
 title: Solicitud de lecciones
+original: lesson-requests
 ---
 
 # Solicitud de lecciones 
