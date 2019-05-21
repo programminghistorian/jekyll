@@ -105,7 +105,7 @@ When you become more comfortable with XML and XSL, and are ready to tackle more 
 
 ### Transformers
 
-Once you have obtained you preferred text editor, you will need to obtain an **XSL transformer**. There are two ways to use XSL stylesheets to transform your XML data: on the command line or through an embedded transformer within another programme. Although there are many stand-alone programmes for XSL transformation, you can also undertake simple transformations using an internet browser.
+Once you have obtained your preferred text editor, you will need to obtain an **XSL transformer**. There are two ways to use XSL stylesheets to transform your XML data: on the command line or through an embedded transformer within another programme. Although there are many stand-alone programmes for XSL transformation, you can also undertake simple transformations using an internet browser.
 
 Although Chrome and Safari's security features make in-browser transformations difficult, some other internet browsers, such as ([Internet Explorer](http://windows.microsoft.com/en-gb/internet-explorer/download-ie) and [Firefox](https://www.mozilla.org/en-GB/firefox/new/)), include an **XSL 1.0** transformer, which will provide all of the functionality that you will need for this tutorial. If you don't already have one of these browsers on your computer, download and install whichever you feel most comfortable using and then proceed to the next section.
 
