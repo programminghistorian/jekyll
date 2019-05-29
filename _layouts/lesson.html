@@ -31,7 +31,7 @@ layout: base
         </div>
 
         <div class="header-author">
-          <h2>{% include author.html %}</h2>
+          <h2>{% include author.html orcid = true %}</h2>
         </div>
 
         <div class="header-abstract">
@@ -75,8 +75,9 @@ layout: base
       <div>
         <h3>{{site.data.snippets.editor[page.lang]}}</h3>
         <ul>
-        {% for editor in page.editors %}
-          <li>{{editor}}</li>
+        {% for editor_name in page.editors %}
+        {% assign editor = site.data.ph_authors | where: "name", editor_name | first %}
+          <li>{{ editor_name }}{% if editor.orcid %} {% include orcid.html author = editor %}{% endif %}</li>
         {% endfor %}
         </ul>
       </div>
@@ -84,8 +85,9 @@ layout: base
       <div>
         <h3>{{site.data.snippets.reviewers[page.lang]}}</h3>
           <ul>
-          {% for reviewer in page.reviewers %}
-            <li>{{reviewer}}</li>
+          {% for reviewer_name in page.reviewers %}
+          {% assign reviewer = site.data.ph_authors | where: "name", reviewer_name | first %}
+            <li>{{ reviewer_name }}{% if reviewer.orcid %} {% include orcid.html author = reviewer %}{% endif %}</li>
           {% endfor %}
           </ul>
       </div>
@@ -94,8 +96,9 @@ layout: base
       <div>
         <h3>{{site.data.snippets.translator[page.lang]}}</h3>
         <ul>
-        {% for translator in page.translator %}
-          <li>{{translator}}</li>
+        {% for translator_name in page.translator %}
+        {% assign translator = site.data.ph_authors | where: "name", translator_name | first %}
+          <li>{{ translator_name }}{% if translator.orcid %} {% include orcid.html author = translator %}{% endif %}</li>
         {% endfor %}
         </ul>
       </div>
@@ -105,8 +108,9 @@ layout: base
       <div>
         <h3>{{site.data.snippets.translation-editors[page.lang]}}</h3>
         <ul>
-        {% for translation-editor in page.translation-editor %}
-          <li>{{translation-editor}}</li>
+        {% for translation-editor-name in page.translation-editor %}
+          {% assign translation-editor = site.data.ph_authors | where: "name", translation-editor-name | first %}
+          <li>{{ translation-editor-name }}{% if translation-editor.orcid %} {% include orcid.html author = translation-editor %}{% endif %}</li>
         {% endfor %}
         </ul>
       </div>
@@ -116,8 +120,9 @@ layout: base
       <div>
         <h3>{{site.data.snippets.translation-reviewers[page.lang]}}</h3>
         <ul>
-        {% for editor in page.translation-reviewer %}
-          <li>{{editor}}</li>
+        {% for translation-reviewer-name in page.translation-reviewer %}
+          {% assign translation-reviewer = site.data.ph_authors | where: "name", translation-reviewer-name | first %}
+          <li>{{ translation-reviewer-name }}{% if translation-reviewer.orcid %} {% include orcid.html author = translation-reviewer %}{% endif %}</li>
         {% endfor %}
         </ul>
       </div>

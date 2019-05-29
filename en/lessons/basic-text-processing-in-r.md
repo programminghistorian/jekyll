@@ -424,7 +424,7 @@ The first ten rows of the dataset will be printed; they should look like this:
 # ... with 226 more rows
 ```
 
-For each speech we have the president, the year, the president's party, and whether the State of the Union was giving as a speech or as a written address. The 2016 speech is the 236th row of the metadata data, which is also the last one. 
+For each speech we have the president, the year, the president's party, and whether the State of the Union was given as a speech or as a written address. The 2016 speech is the 236th row of the metadata data, which is also the last one. 
 
 It will be useful in the next section to be able to summarize an address in just a single line of text. We can do that here by extracting the top five most used words that have a frequency less than 0.002% in the Google Web Corpus, and combining this with the president and year.
 

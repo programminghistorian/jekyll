@@ -157,6 +157,7 @@
   team_start: 2016
   institution: El Colegio de Michoacán
   sortname: Gayol
+  orcid: 0000-0002-2442-3193
   affiliation:
     en: |
         El Colegio de Michoacán, A.C. (CPI-CONACYT), Mexico.
@@ -184,6 +185,7 @@
   team_start: 2016
   institution: Cologne Center for eHumanities
   sortname: Rojas Castro
+  orcid: 0000-0002-8916-4997
   affiliation:
     en: |
         Cologne Center for eHumanities, Germany.
@@ -308,6 +310,7 @@
   twitter: j_w_baker
   url: "https://cradledincaricature.com/"
   sortname: Baker
+  orcid: 0000-0002-2682-6922
   bio:
     en: |
         James Baker is a Senior Lecturer in Digital History and Archives at the University of Sussex
@@ -512,6 +515,8 @@
         Max De Wilde is a PhD student at the Information and Communication Science department of the Université libre de Bruxelles.
     es: |
         Max De Wilde es investigador predoctoral en el departamento de Información y Comunicación de la Universidad Libre de Bruselas.
+    fr: |
+        Max De Wilde est doctorant au Centre de recherche en Information et Communication de l'Université libre de Bruxelles.
 
 - name: Ruben Verborgh
   team: false
@@ -520,14 +525,18 @@
         Ruben Verborgh is a post-doc researcher at the Multimedia Lab of the Universtiteit Gent.
     es: |
         Ruben Verborgh es investigador postdoctoral en Multimedia Lab (Universtiteit Gent).
+    fr: |
+        Ruben Verborgh est chercheur postdoctoral au Multimedia Lab de l'Université de Gand.
 
 - name: Seth van Hooland
   team: false
   bio:
     en: |
-        Seth van Hooland is an associate professor at at the Information and Communication Science department of the Université libre de Bruxelles.
+        Seth van Hooland is an associate professor at the Information and Communication Science department of the Université libre de Bruxelles.
     es: |
         Seth van Hooland es profesor asociado en el departamento de Información y Comuninación de la Universidad Libre de Bruselas.
+    fr: |
+        Seth van Hooland est professeur associé au Centre de recherche en Information et Communication de l'Université libre de Bruxelles.
 
 - name: Jonathan Reeve
   url: "http://jonreeve.com"
@@ -577,6 +586,7 @@
   team_start: 2017
   institution: Carnegie Mellon University
   sortname: Lincoln
+  orcid: 0000-0002-4387-3384
   affiliation:
     en: |
         Carnegie Mellon University, USA.
@@ -1006,6 +1016,7 @@
     - spanish
     - board
     - technical
+    - communication
 
 - name: Jon MacKay
   team: false
@@ -1027,6 +1038,7 @@
   team: true
   team_start: 2018
   sortname: Laramée
+  orcid: 0000-0001-5542-3754
   institution: Université de Montréal
   affiliation:
       en: |
@@ -1065,13 +1077,14 @@
   team_start: 2018
   institution: CNRS
   sortname: Papastamkou
+  orcid: 0000-0002-5148-1348
   affiliation:
         en: |
-            European Centre for the Humanities and Social Sciences, Lille, France
+            Institut de recherches historiques du Septentrion (IRHiS, CNRS/University of Lille)
         es: |
-            Maison européenne des sciences de l'homme et de la société Lille Nord de France
+            Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille)
         fr: |
-            Maison européenne des sciences de l'homme et de la société Lille Nord de France
+            Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
   team_roles:
     - french
     - board
@@ -1220,3 +1233,15 @@
   bio:
     es: |
         Armando Luza es Maestro en Traducción por El Colegio de México. Actualmente se desempeña en investigación, traducción y corrección de estilo.
+
+- name: Silvia Gutiérrez
+  team: false
+  bio:
+    es: |
+        Silvia Gutiérrez es bibliotecaria de investigación digital en la biblioteca Daniel Cosío Villegas en El Colegio de México. 
+
+- name: Matthew J. Lavin
+  team: false
+  bio:
+      en: |
+          Matthew J. Lavin is a Clinical Assistant Professor of English and Director of the Digital Media Lab at the University of Pittsburgh. His current scholarship and teaching focus on book history, cultural analytics, turn-of-the-twentieth-century U.S. literature and culture. 

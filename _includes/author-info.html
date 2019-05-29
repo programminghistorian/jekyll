@@ -1,5 +1,5 @@
 {% comment %}
- Generate author bios at the footer of each lesson page. See _layouts/lesson.html for context. 
+ Generate author bios at the footer of each lesson page. See _layouts/lesson.html for context.
 {% endcomment %}
 
 {% assign authorCount = page.authors | size %}
@@ -11,7 +11,7 @@
   {% for author in page.authors %}
      {% for member in site.data.ph_authors %}
      {% if author == member.name %}
-         <p>{{ member.bio[page.lang] }}<p>
+         <p>{{ member.bio[page.lang] }}{% if member.orcid %} {% include orcid.html author=member %}{% endif %}<p>
      {% endif %}
      {% endfor %}
 {% endfor %}

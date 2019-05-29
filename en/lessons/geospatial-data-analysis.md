@@ -198,7 +198,7 @@ Now, we are going to prepare the map and look at some census data. First on our 
 To begin looking at this data, we need to find the variable in our `SpatialDataframe` that represents population. In the downloaded census data folders, there is a codebook that will reveal what fields represent what data. After looking through the codebook, I discovered AV0AA1990 is the total Census population as of 1990. Below, I take this variable and transform it into a variable that adjusts for population fluctuations(number of members per 10,000 people):
 
 ```r
-County_Aggregate_Data$RelativeTotal= ((cntyNCG$AV0AA1990/10000)/cntyNCG$CountMembers )
+County_Aggregate_Data$RelativeTotal= ((County_Aggregate_Data$AV0AA1990/10000)/County_Aggregate_Data$CountMembers )
 ```
 
 Now we will create the map. TMAP allows for the quick creation of thematic maps or more specifically choropleths. We can also vary text size based on another census variable. Here I am using the count of people living in rural areas (A57AA1980), making the text larger in more rural counties. Now I can start to assess visually if counties with higher distributions of membership also tend to be more rural as has been described. As the data shows, the membership is not clearly biased towards rural counties exclusively, giving us our first insight:
@@ -215,7 +215,7 @@ Feel free to experiment with the choropleth. In particular, try switching out th
 You can also look and the unadjusted distribution which shows the raw distribution of members(without adjusting for local population distribution) as I did below[^9]:
 
 ```r
-qtm(shp = cntyNCG, fill = "CountMembers",text="NHGISNAM",text.size="A57AA1980")
+qtm(shp = County_Aggregate_Data, fill = "CountMembers",text="NHGISNAM",text.size="A57AA1980")
 ```
 ## Visualizing Data Relationships
 While choropleths and their many variations are an extremely helpful way to visualize the geospatial data, there are other methods that help visualize the data. One helpful method is the scatterplot which provides a visual means to show relationships between two variables. In particular, it is useful to assess if there are correlations between our event data and other characteristics as defined by the census data. For example, do we see a correlation between counties with low average income and membership. If so, that might indicate something about the nature of the movement or organization. We could look at a multitude of factors along these lines and our census data and codebook has many. While [correlations do not alone prove causality](http://www.nature.com/nmeth/journal/v12/n10/full/nmeth.3587.html), they provide basic insight. When doing these comparisons, we have to again ensure we are taking into account the variability of populations within the census regions we are analyzing otherwise we will get misleading correlation in densely populated counties. To do this we need to convert any population number into numbers per 10,000 people.

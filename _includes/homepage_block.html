@@ -13,7 +13,6 @@
         <li class="nav-item">{{ site.pages | where: "lesson", "true" |  where: "lang", include.lang | size }} {{ site.data.snippets.lesson[include.lang] }}</li>
         <li class="nav-item">ISSN: {{ site.data.snippets.issn[include.lang] }}</li>
       </ul>
-      {% if include.lang == "fr" %}{% include french-alert.html %}{% endif %}
       <p>{{ site.data.snippets.project-summary[include.lang] }}</p>
     </div>
   </div>
