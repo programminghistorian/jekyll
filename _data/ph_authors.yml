@@ -1,7 +1,4 @@
 - name: William J. Turkel
-  url: "http://williamjturkel.net"
-  twitter: williamjturkel
-  github: williamjturkel
   team: false
   team_start: 2008
   team_end: 2015
@@ -49,9 +46,6 @@
    - board
 
 - name: Caleb McDaniel
-  twitter: wcaleb
-  github: wcaleb
-  url: "http://wcm1.web.rice.edu"
   team: false
   team_start: 2014
   team_end: 2017
@@ -64,10 +58,6 @@
         Caleb McDaniel es profesor asociado de Historia en Rice University.
 
 - name: Ian Milligan
-  twitter: ianmilligan1
-  github: ianmilligan1
-  email: i2millig@uwaterloo.ca
-  url: "http://ianmilligan.ca"
   team: false
   team_start: 2014
   team_end: 2018
@@ -84,24 +74,8 @@
         of Waterloo.
     es: |
         Ian Milligan es profesor asociado de historia en la Universidad de Waterloo.
-  interests:
-    en: |
-        He is interested in working with authors on topics
-        including: network analysis, text analysis and data mining, as well
-        as intermediate to advanced-level lessons more generally.
-    es: |
-        Tiene interés en editar lecciones sobre análisis de redes, análisis textual y minería de datos, y, en general, lecciones de nivel intermedio o superior.
-  team_roles:
-   - editorial
-   - board
-   - ombuds
-
 
 - name: Fred Gibbs
-  email: fwgibbs@gmail.com
-  url: "http://fredgibbs.net"
-  github: fredgibbs
-  twitter: fredgibbs
   team: false
   team_start: 2011
   team_end: 2017
@@ -113,11 +87,6 @@
         New Mexico.
     es: |
         Fred Gibbs es profesor de Historia en la Universidad de Nuevo México.
-  interests:
-    en: |
-        He is particularly interested in lessons pertaining to digital mapping, data visualization, and web publishing.
-    es: |
-        Particularmente se interesa en editar lecciones sobre cartografía digital, visualización de datos y publicación web.
 
 - name: Maria José Afanador-Llach
   url: "http://www.mariajoseafanador.com"
@@ -209,9 +178,6 @@
     en: |
         Stephen Margheim is a classicist turned digital humanist hunkered down in
         Philadelphia, looking for his next step.
-  url: "hackademic.postach.io"
-  github: smargh
-  twitter: s_margheim
   team: false
 
 - name: Evan Taparata
@@ -223,8 +189,6 @@
     en: |
         Evan Taparata is a PhD candidate in history at the University of
         Minnesota.
-  github: tapar001
-  twitter: etaparata
 
 - name: Taryn Dewar
   twitter: dtdewar
@@ -237,17 +201,12 @@
         Taryn Dewar tiene una maestría en Historia Pública (Western University) y es intérprete en el Centro de investigación de arenas de alquitrán en Fort McMurray, Alberta.
 
 - name: Maria Velez-Serna
-  url: "http://earlycinema.gla.ac.uk"
-  twitter: jeely_jar
   bio:
     en: |
         Maria Velez-Serna is a research assistant in the Early Cinema of Scotland
         project, University of Glasgow.
 
 - name: Andrew Hnatow
-  url: "http://digitizedhistory.wordpress.com"
-  github: ahnatow
-  twitter: andrew_hnatow
   team: false
   bio:
     en: |
@@ -255,7 +214,6 @@
 
 - name: Daniel van Strien
   team: false
-  url: "http://davanstrien.github.io/"
   bio:
     en: |
         Daniel van Strien is a Library Science student at City University, London.
@@ -264,8 +222,6 @@
 
 - name: Kim Pham
   team: false
-  twitter: tolloid
-  github: kimpham54
   bio:
     en: |
         Kim Pham is the Digital Projects and Technologies Librarian
@@ -280,7 +236,6 @@
         and a doctoral student at the University of Notre Dame.
 
 - name: Kellen Kurschinski
-  twitter: Kellen2K
   team: false
   bio:
     en: |
@@ -333,10 +288,6 @@
         Amanda Morton is a DH Fellow at the Center for History and New Media.
 
 - name: Miriam Posner
-  twitter: miriamkp
-  github: miriamposner
-  email: miriam.posner@gmail.com
-  url: "http://miriamposner.com"
   team: false
   team_start: 2012
   team_end: 2016
@@ -349,8 +300,6 @@
         Miriam Posner es coordinadora del programa de Humanidades Digitales de la Universidad de California (Los Angeles).
 
 - name: Jeremy Boggs
-  twitter: clioweb
-  url: "http://clioweb.org"
   team: false
   team_start: 2012
   team_end: 2014
@@ -361,8 +310,6 @@
         at the University of Virginia Library.
 
 - name: Allison Hegel
-  twitter: AllisonHegel
-  github: ahegel
   team: false
   team_start: 2013
   team_end: 2016
@@ -370,20 +317,6 @@
   bio:
     en: |
         Allison Hegel is a PhD candidate in English at UCLA.
-  interests:
-    en: |
-        She is interested in working with authors on text analysis
-        and data visualization, as well as hearing from anyone
-        with feedback on the design and usability of the website.
-
-- name: Alan MacEachern
-  url: "http://history.uwo.ca/People/Faculty/maceachern.html"
-  team: false
-  bio:
-    en: |
-        Alan MacEachern is a Professor of History at the University
-        of Western Ontario and the former Director of the Network in Canadian History
-        & Environment (NiCHE).
 
 - name: Carrie Sanders
   team: false
@@ -462,10 +395,6 @@
   team: false
   team_start: 2015
   team_end: 2018
-  institution: George Mason University
-  twitter: jerielizabeth
-  url: "http://jeriwieringa.com"
-  github: jerielizabeth
   sortname: Wieringa
   affiliation:
     en: |
@@ -477,12 +406,6 @@
         Jeri Wieringa is a doctoral candidate in history at George Mason University.
     es: |
         Jeri Wieringa es doctoranda en Historia en George Mason University.
-  interests:
-    en: |
-        She is interested in working with authors on: accessibility and interface design;
-        data visualization; network analysis; text and data mining; workflows; and introductory lessons.
-    es: |
-        Está interesada en trabajar con autores sobre los siguientes temas: accesibilidad y diseño de interfaces, visualización de datos, análisis de redes, minería de datos, flujos de trabajo y, en general, lecciones introductorias.
   team_roles:
    - editorial
    - board
@@ -539,17 +462,12 @@
         Seth van Hooland est professeur associé au Centre de recherche en Information et Communication de l'Université libre de Bruxelles.
 
 - name: Jonathan Reeve
-  url: "http://jonreeve.com"
-  twitter: j0_0n
-  github: JonathanReeve
   team: false
   bio:
     en: |
         Jonathan Reeve is a digital humanist and web developer for the Modern Language Association.
 
 - name: Spencer Roberts
-  url: "http://swroberts.ca/"
-  twitter: robertssw87
   team: false
   bio:
     en: |
@@ -562,8 +480,6 @@
         Doug Knox is the Assistant Director of the Humanities Digital Workshop at Washington University in St. Louis.
 
 - name: Heather Froehlich
-  url: "http://hfroehli.ch"
-  twitter: heatherfro
   team: false
   bio:
     en: |
@@ -591,7 +507,7 @@
     en: |
         Carnegie Mellon University, USA.
     es: |
-        Getty Research Institute, Estados Unidos.
+        Carnegie Mellon University, Estados Unidos.
     fr: |
         Carnegie Mellon University, États-Unis.
   bio:
@@ -607,7 +523,6 @@
    - board
 
 - name: Sarah Simpkin
-  twitter: sarahsimpkin
   team: false
   bio:
     en: |
@@ -638,19 +553,10 @@
         Amanda Visconti es Directora general del centro de Humanidades Digitales Scholars' Lab en la Universidad de Virginia.
     fr: |
         Amanda Visconti est directrice du centre des humanités numériques du Scholars' Lab de l'Université de Virginie.
-  interests:
-    en: |
-        As a PH ombudsperson, you can contact Amanda to discuss any issues or concerns around the PH review and publication process.
-    es: |
-        Amanda trabaja en las mejoras técnicas de la web de The Programming Historian.
-    fr: |
-        Amanda est médiatrice pour The Programming Historian, et elle est disponible pour clarifier toute question concernant l'évaluation ouverte par les pairs et la publication de contenus.
   team_roles:
    - ombuds
 
 - name: Megan R. Brett
-  twitter: magpie
-  url: "http://meganrbrett.net"
   team: false
   bio:
     en: |
@@ -693,8 +599,6 @@
         Ted Dawson is a Doctoral Candidate in German Studies at Vanderbilt University.
 
 - name: M. H. Beals
-  twitter: mhbeals
-  url: "http://mhbeals.com/"
   team: false
   bio:
     en: |
@@ -703,22 +607,18 @@
         M.H. Beals es Profesor de Historia Digital en la Universidad de Loughborough.
 
 - name: Elizabeth Venditto
-  url: "http://cla.umn.edu/ihrc"
   team: false
   bio:
     en: |
         Elizabeth Venditto is Project Manager for "Immigrant Stories," a digital storytelling initiative based at the University of Minnesota's Immigration History Research Center.
 
 - name: Jacob W. Greene
-  url: "http://jacobwgreene.com"
-  twitter: jacobwesgreene
   team: false
   bio:
     en: |
         Jacob Greene is an Assistant Professor of English in the Writing, Rhetorics, and Literacies program at Arizona State University. His research and teaching explore how mobile technologies such augmented reality can be used to promote critical interventions into public and private spaces.
 
 - name: Jeanette Sewell
-  url: "http://digital.houstonlibrary.org/"
   team: false
   bio:
     en: |
@@ -734,14 +634,12 @@
         Urbana-Champaign, and a MBA+MHRIR from the same institution.
 
 - name: Peter Organisciak
-  url: "https://porganized.com/"
   team: false
   bio:
     en: |
         Peter Organisciak is an information scientist, at the HathiTrust Research Center as a postdoctoral research associate.
 
 - name: Justin Colson
-  url: "https://www.essex.ac.uk/history/staff/profile.aspx?ID=4559"
   team: false
   bio:
     en: |
@@ -771,17 +669,11 @@
         Jessica Parr enseña en el Simmons College (Boston). Es especialista en la historia del mundo Atlántico moderno temprano.
     fr: |
         Jessica Parr est maîtresse de conférences au Simmons College à Boston et spécialiste du monde atlantique à l'époque moderne.
-  interests:
-    en: |
-        She is interested in working with authors on geospatial lessons as well as textual-geospatial lessons.
-    fr: |
-        Elle souhaite plus particulièrement travailler avec des auteur(e)s proposant des lessons sur l'utilisation de données geospatiales et textuelles-geospatiales.
   team_roles:
    - editorial
    - board
 
 - name: Taylor Arnold
-  url:
   team: false
   bio:
     en: |
@@ -790,7 +682,6 @@
         Taylor Arnold es asistente de profesor de Estadísticas en la Universidad de Richmond.
 
 - name: Lauren Tilton
-  url:
   team: false
   bio:
     en: |
