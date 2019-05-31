@@ -8,7 +8,6 @@ date: 2019-05-22
 authors:
 - Go Sugimoto
 reviewers:
-reviewers:
 - Amber Stubbs
 - Brianna Allen
 - Adam Crymble
@@ -17,7 +16,8 @@ editors:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/196
 difficulty: 2
 activity: acquiring
-topics: apis
+topics:
+- api
 abstract: This lesson introduces a way to populate a website with data obtained from another website via an Application Programming Interface (API). Using some simple programming, it provides strategies for customizing the presentation of that data, providing flexible and generalizable skills.
 
 
@@ -117,7 +117,7 @@ Let’s have a closer look at what you typed into your browser URL box the examp
 {% include figure.html filename="website-api2.jpg" caption="Untidy JSON data structure (raw data) in Chrome" %}
 
 ## Understanding API Data (in JSON)
-If your browser does not support a tidy [JSON](https://en.wikipedia.org/wiki/JSON) view (the latest Firefox should have a pre-installed JSON viewer), please copy and paste the entire data to an [online JSON viewer](http://jsonviewer.stack.hu/). It allows us to view the data more easily by expanding (+ button) and collapsing (- button) the data hierarchy. 
+If your browser does not support a tidy [JSON](https://en.wikipedia.org/wiki/JSON) view (the latest Firefox should have a pre-installed JSON viewer), please copy and paste the entire data to an [online JSON viewer](http://jsonviewer.stack.hu/). It allows us to view the data more easily by expanding (+ button) and collapsing (- button) the data hierarchy.
 
 {% include figure.html filename="website-api3.jpg" caption="Online JSON viewer" %}
 
@@ -127,7 +127,7 @@ Now, if you look carefully at the first lines of the data, you may notice someth
 {"apikey":"YOUR_API_KEY","success":true,"requestNumber":999,"itemsCount":12,"totalResults":1967341,
 ```
 
-You read literally: `"apikey"` is your API key. Your API access is `success`ful. We can ignore what `requestNumber` is, but only the first `12` items (records) are returned (to avoid a flood of data) out of the `totalResults` of `1967431`. After that, you have actual data from the collection (i.e. the 12 items). 
+You read literally: `"apikey"` is your API key. Your API access is `success`ful. We can ignore what `requestNumber` is, but only the first `12` items (records) are returned (to avoid a flood of data) out of the `totalResults` of `1967431`. After that, you have actual data from the collection (i.e. the 12 items).
 
 In order to organise the data, Europeana uses a particular format/structure, called [JSON (JavaScript Object Notation)](http://json.org/). The data are wrapped with curly brackets (which is called Object). It always starts with `{` and ends with `}`. Inside, the data are represented with pairs of strings. Each pair has two components separated by a colon (`:`). For instance, `"totalResults":1967341`. We call this format [name-value pair](https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair). In our case, the name is `"totalResults"` and `1967341` is the data value. If there are more than one pair, name-value pairs are separated by comma (`,`). To sum up, the simplest JSON data look like this:
 
@@ -162,10 +162,10 @@ It is outside of the scope of this tutorial to explain the data model of Europea
 - [Dublin Core](http://dublincore.org/documents/dcmi-terms/) metadata to describe a cultural heritage object (stored in museums, libraries and archives). It includes the description of mostly physical aspects of the object such as title (Mona Lisa), creator (Leonardo da Vinci), size (77 cm × 53 cm), date (1503-1517?), place (France), owner (Louvre museum), and type (painting). In the Europeana API, it is often specified with prefix `dc`.
 
 - Metadata about digital versions of the physical object. It may include URLs where user can view the object (both at the Europeana website and external website), digital formats (jpg), and licensing information ([Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons)).
- 
+
 To know more about EDM, you can consult their [documentation](https://pro.europeana.eu/page/edm-documentation).
 
-As you have already seen in the example above, to view data via APIs, you only need a web browser. In the case of Europeana, you can also use [Europeana Rest API Console](https://pro.europeana.eu/page/europeana-rest-api#console) where you can set parameters (e.g. "London" as a search keyword) and check the data without any additional software installation. 
+As you have already seen in the example above, to view data via APIs, you only need a web browser. In the case of Europeana, you can also use [Europeana Rest API Console](https://pro.europeana.eu/page/europeana-rest-api#console) where you can set parameters (e.g. "London" as a search keyword) and check the data without any additional software installation.
 
 Searching and viewing Europeana datasets is good, but it is not very convenient, because we can only view raw data and/or the default data view. So, let’s move away from the web browser and try to customise the data view.
 
@@ -194,7 +194,7 @@ Now, we have to set up a new development environment. Please go to [XAMPP websit
 4. See a full tutorial [here](http://www.letscodepro.com/install-xampp-on-ubuntu-linux/#more-249)
 
 ## XAMPP and the first Attempt with PHP
-When your installation is complete, let’s get started building our website that can access Europeana data. First, open XAMPP. On Windows, go to the start menu and click XAMPP Control Panel. In case of MAC, open XAMPP Control. The name of the XAMPP Control is "manager-osx". 
+When your installation is complete, let’s get started building our website that can access Europeana data. First, open XAMPP. On Windows, go to the start menu and click XAMPP Control Panel. In case of MAC, open XAMPP Control. The name of the XAMPP Control is "manager-osx".
 
 If you do not see a green highlight for "Apache Module", please click the buttons to start Apache. Then, we can use them on our local machines.
 
@@ -232,16 +232,16 @@ You should see "Hello World" on a white background in your browser window. Congr
 {% include figure.html filename="website-api7.jpg" caption="Your first PHP web page in a browser" %}
 
 ## The first go with HTML
-In the example, PHP uses `'Hello World'` as a normal text. But, PHP can also work with HTML very well. HTML is a markup language which creates web pages and applications. 
+In the example, PHP uses `'Hello World'` as a normal text. But, PHP can also work with HTML very well. HTML is a markup language which creates web pages and applications.
 (To view the HTML of a website with your web browser, right click in a text area on the home page (or go to the top menu bar of your browser), and select "view page source").
 
-So, let’s make a little change to try using PHP to write HTML. Change 
+So, let’s make a little change to try using PHP to write HTML. Change
 
 ```
 'Hello World'
 ```
 
-to 
+to
 
 ```
 '<b>Hello World</b>'
@@ -275,11 +275,11 @@ It does so by putting the whole HTML tag in single quotes.
 
 {% include figure.html filename="website-api8.jpg" caption="Hello World in bold and an image from Wikipedia" %}
 
-In HTML, (enclosing) tag names are called [elements](https://en.wikipedia.org/wiki/HTML_element). Within an element, there are also [attributes](https://en.wikipedia.org/wiki/HTML_attribute) which are additional values that configure the elements or adjust their behavior. Normally attributes appear as name-value pairs, and separated by `=`.  For example, `<img>` is an element, and `src=""` is an attribute. 
+In HTML, (enclosing) tag names are called [elements](https://en.wikipedia.org/wiki/HTML_element). Within an element, there are also [attributes](https://en.wikipedia.org/wiki/HTML_attribute) which are additional values that configure the elements or adjust their behavior. Normally attributes appear as name-value pairs, and separated by `=`.  For example, `<img>` is an element, and `src=""` is an attribute.
 
 If you put an image in the "htdoc" folder, you can also specify it using the format `IMAGE FILE` (eg, "MyImage.jpg") instead of `http://...`
 
-Now let’s make a real website. The real power of Internet lies in hyperlinks, so we add a link to Wikipedia. Copy and paste the following code and replace with the entire previous example. 
+Now let’s make a real website. The real power of Internet lies in hyperlinks, so we add a link to Wikipedia. Copy and paste the following code and replace with the entire previous example.
 
 ```
 <?php
@@ -297,9 +297,9 @@ What you have just created is the essence of all the websites on the Internet, c
 {% include figure.html filename="website-api9.jpg" caption="Complete web page with an image and a hyperlink" %}
 
 ## Using PHP with the Europeana API
-Finally, we would like to work on the API, using what we have learned about PHP. We will not go into details of programming, but you have to know one important thing. 
+Finally, we would like to work on the API, using what we have learned about PHP. We will not go into details of programming, but you have to know one important thing.
 
-In programming, we use a lot of [variables](https://en.wikipedia.org/wiki/Variable_(computer_science)). They are basically references. In a way, they are similar to the names in name-value pairs of JSON. They name a location where values are stored, so that an unpredictable or changeable value can be accessed through predetermined names. When you need to use a value, you can simply refer to the variable that contains that value. 
+In programming, we use a lot of [variables](https://en.wikipedia.org/wiki/Variable_(computer_science)). They are basically references. In a way, they are similar to the names in name-value pairs of JSON. They name a location where values are stored, so that an unpredictable or changeable value can be accessed through predetermined names. When you need to use a value, you can simply refer to the variable that contains that value.
 
 In PHP, variables are represented by the prefix `$`. Let's assume the author often says “floccinaucinihilipilification”, [one of the longest English words](https://en.wikipedia.org/wiki/Longest_word_in_English), meaning the act of something unimportant. For example:
 
@@ -315,7 +315,7 @@ x = 10
 
 y = 5
 
-x + y = 15 
+x + y = 15
 ```
 
 Variables are also useful when numbers are assigned, so the calculation of formulae would become simpler. Let's say, you specify a population of a country in 2018 in a variable, and use it for different statistical calculations in your code, but later you need to update the information with the population in 2019. All you have to do is to change the variable. All calculations based on it will be automatically updated. So, the code is very flexible and reusable.
@@ -339,13 +339,13 @@ print $json_europeana;
 
 The data look familiar, don't they? It is the same JSON data we saw in a web browser earlier. But the big difference is we see it on our web server (`localhost`), not on the Europeana server.
 
-Let's consider how the code works, line by line. The first line defines the variable `$apikey` and stores the value of `YOUR_API_KEY`. By doing so, we will not need to type `YOUR_API_KEY` every time we need it. Although we did not use it often this case, it is a good practice, as you never know what will happen in future. The next line also defines another variable `$contents_europeana`, which we use to store data from the Europeana API. 
+Let's consider how the code works, line by line. The first line defines the variable `$apikey` and stores the value of `YOUR_API_KEY`. By doing so, we will not need to type `YOUR_API_KEY` every time we need it. Although we did not use it often this case, it is a good practice, as you never know what will happen in future. The next line also defines another variable `$contents_europeana`, which we use to store data from the Europeana API.
 
 `fopen()` means please open data from `"http://www.europeana.eu/api/v2/search.json?wskey=".$apikey."&query=London&reusability=open&media=true"`, and it is reading content only (`"r"`), not writing it to the file. The URL includes `$apikey`, thus, it is equivalent to `"http://www.europeana.eu/api/v2/search.json?wskey=YOUR_API_KEY&query=London&reusability=open&media=true"`.
 
 The next line declares another variable `$json_europeana` and assign `stream_get_contents($contents_europeana)` as a value. It obtains the data you just opened. Just as we open the data, we close it with `fclose`. Here, `$contents_europeana` is starting to do a good job of not repeating things. Up to this point, everything happens behind the scenes and you don’t see anything on your browser. Only `print $json_europeana;` enables us to display the value of the variable `$json_europeana`, namely the JSON data you already know.
 
-In order to manipulate the JSON data, we need to use it in PHP format. Please add three lines at the end of `europeana_api.php`, but before closing of PHP (`?>`), and save it. 
+In order to manipulate the JSON data, we need to use it in PHP format. Please add three lines at the end of `europeana_api.php`, but before closing of PHP (`?>`), and save it.
 
 ```
 $data_europeana = json_decode($json_europeana);
@@ -375,13 +375,13 @@ print '</table>';
 
 {% include figure.html filename="website-api12.jpg" caption="Table header is created" %}
 
-In the above code, the `hr` tag is to visually separate the previous outputs from the table we are working on now. 
+In the above code, the `hr` tag is to visually separate the previous outputs from the table we are working on now.
 
 On the second line, `//` signifies a "[comment](https://en.wikipedia.org/wiki/Comment_(computer_programming))". It tells the computer to ignore this line, so "Table view of Europeana data" is skipped. Developers use comments to document their code, so that they can understand what the code is for and what it does in the future, as can other developers who need to work on the same code. People often forget what they have done, so it is the best practice to record the history of the code.
 
 On the third line, we set up a table with HTML code. Full explanation can be found in a [HTML tutorial](https://www.w3schools.com/html/), but the first line `<table border=1>` defines a table with a single width border line. Note that `print "</table>";` at the end of the example is a closing HTML tag. While `<tr></tr>` (table row) generates a header row in a table, `<th></th>` (table header) provides columns and heading names within.
 
-Next, we will manipulate Europeana data which now should be stored in the variable `$data_europeana`. In the space between the `table` and `/table` tags, add the following code: 
+Next, we will manipulate Europeana data which now should be stored in the variable `$data_europeana`. In the space between the `table` and `/table` tags, add the following code:
 
 ```
 foreach($data_europeana->items as $item) {
@@ -398,7 +398,7 @@ The table now includes the title, data provider, external link, and thumbnail. D
 
 {% include figure.html filename="website-api13.jpg" caption="Table shows Europeana data " %}
 
-Let's try to understand the logic behind what we have created. As mentioned earlier, Europeana records are stored in an array called `items`. Within it, each piece of data is stored in order and can be accessed by the number corresponding to its place in the array, from `[0]` to `[11]`. In order to manipulate data within an array, we need to use `foreach(){}`. It’s a "[Foreach loop](https://en.wikipedia.org/wiki/Foreach_loop)" - a function that repeats a task for items in a sequence. In our case, within the round brackets, we assign a new variable called `$item` for each record of the array (`$data_europeana->items as $item`). In other words, we can access each record from `[0]` to `[11]` with the variable `$item`. The loop will be specified within curly brackets `{}`. It is easier to understand when looking at the following lines, so leave it for now. We have to print the datasets, so `print` is used many times in the table. `<td></td>` represents a row in the table. 
+Let's try to understand the logic behind what we have created. As mentioned earlier, Europeana records are stored in an array called `items`. Within it, each piece of data is stored in order and can be accessed by the number corresponding to its place in the array, from `[0]` to `[11]`. In order to manipulate data within an array, we need to use `foreach(){}`. It’s a "[Foreach loop](https://en.wikipedia.org/wiki/Foreach_loop)" - a function that repeats a task for items in a sequence. In our case, within the round brackets, we assign a new variable called `$item` for each record of the array (`$data_europeana->items as $item`). In other words, we can access each record from `[0]` to `[11]` with the variable `$item`. The loop will be specified within curly brackets `{}`. It is easier to understand when looking at the following lines, so leave it for now. We have to print the datasets, so `print` is used many times in the table. `<td></td>` represents a row in the table.
 
 Now, we would like to scrutinise Europeana’s JSON data, because we have to specify what data should be displayed, as we don’t need all of them. Open a new window/tab and visit `http://www.europeana.eu/api/v2/search.json?wskey=YOUR_API_KEY&query=London&reusability=open&media=true`, remembering to swap `YOUR_API_KEY` with the appropriate string. You should use the JSON viewer to identify the data you would like to fetch.
 
@@ -411,7 +411,7 @@ For the second column, there is nothing more than `<td></td>`, implying only a t
 To sum up, `foreach` loops a task over an array. The repeating element is defined in `()` and the task is defined in `{}`. In our case, we display the data values of each item (from `[0]` to `[11]`) repeatedly, without writing `[0]` to `[11]` one by one. Code normally consists of a lof of functions like `foreach` to execute different types of tasks. That's why users can do many things with software.
 
 ## Error handling
-Finally, let’s try to make it tidy. It is not 100% satisfactory, because we may have error messages. They basically tell you that PHP cannot process Europeana data, because the data values we requested don't exist in the Europeana records. 
+Finally, let’s try to make it tidy. It is not 100% satisfactory, because we may have error messages. They basically tell you that PHP cannot process Europeana data, because the data values we requested don't exist in the Europeana records.
 
 So, if you click the image of a record, you are directed to the correct website, but if you do the same for another, you may not reach the website, simply because there is no link. Actually our web site still works, but, due to the absence of data, the error messages may be displayed.
 
@@ -431,7 +431,7 @@ foreach($data_europeana->items as $item) {
 The above is almost identical to the previous example, but `isset` is added. It is a PHP function that checks if data is set (exists) or not within brackets `()`. In addition, the following makes a conditional task:
 
 ```
-isset($data)?’$data is set’:‘$data is not set’; 
+isset($data)?’$data is set’:‘$data is not set’;
 ```
 
 In this case, if `$data` is available, the text `"$data is set"` will be used, and if `$data` is not available, the text `"$data is not set"` will be used. We can execute a task based on this code for a condition. For example, in the first column of our table, if `$item->guid` is set, we use it. Otherwise empty text (`""`) is used. So, the links will work properly. We use this pattern of code every time data is called from the API (each time `$item->` appears). As a result, hopefully error messages should disappear.
@@ -440,12 +440,12 @@ Unfortunately, there is no good way to know in advance, if the data we need are 
 
 Note that we don't handle all error scenarios in this tutorial. For example, we didn’t consider the potential situation whereby the data (`$item->edmIsShownAt[0]`) isn’t an URL. This is because this tutorial is NOT a programming lesson, but an introduction. To develop a proper application, you need to delve into more PHP programming.
 
-Big congratulations! You have just made a simple but nice web page within a short space of time that structures API data from Europeana in a customized way. 
+Big congratulations! You have just made a simple but nice web page within a short space of time that structures API data from Europeana in a customized way.
 
 # API template
 
 ## Generalising API Calls in PHP
-The last section attempts to create an API template, based on the code we created. The following code is a core part of what we just produced. You only have to change some parameters in the template. As usual, `YOUR_API_KEY` should be changed. It is recommended that you replace the name of `VARIABLE1`, `VARIABLE2`, and `VARIABLE3` with more meaningful names. `HTTP` (data type is string) is the URL of an API. Most APIs require you to insert `$apikey` within `HTTP`, as you have seen before. But, other parts should remain the same. 
+The last section attempts to create an API template, based on the code we created. The following code is a core part of what we just produced. You only have to change some parameters in the template. As usual, `YOUR_API_KEY` should be changed. It is recommended that you replace the name of `VARIABLE1`, `VARIABLE2`, and `VARIABLE3` with more meaningful names. `HTTP` (data type is string) is the URL of an API. Most APIs require you to insert `$apikey` within `HTTP`, as you have seen before. But, other parts should remain the same.
 
 ```
 $apikey = 'YOUR_API_KEY';
@@ -517,7 +517,7 @@ If you can learn a bit of programming, you are no longer restricted by what a we
 - [The New York Times](http://developer.nytimes.com/)
 - [The Digital Public Library of America](https://pro.dp.la/developers/api-codex)
 - [Archives Portal Europe](https://www.archivesportaleurope.net/information-api)
-- [VIAF](https://www.oclc.org/developer/develop/web-services/viaf.en.html) 
+- [VIAF](https://www.oclc.org/developer/develop/web-services/viaf.en.html)
 - [GeoNames](http://www.geonames.org/export/web-services.html)
 - [Wikipedia](https://www.mediawiki.org/wiki/API:Main_page)
 - [The Open Library](https://openlibrary.org/developers/api)
