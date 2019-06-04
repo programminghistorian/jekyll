@@ -19,7 +19,7 @@ Thank you for editing a lesson for the *Programming Historian*. We are extremely
 
 
 
-We always encourage prospective authors to pitch their ideas before they start writing. We do not act as gatekeepers in the same way as a traditional journal. If a piece is not suitable for the *Programming Historian* our job is to tell an author before they have written a full tutorial. We hope this saves everyone time and energy. Once we have spoken to an author and encouraged their idea, our aim is always to support authors until the piece is publishable. Our goal is to help them reach that stage as efficiently as possible with clear guidance. You may find it helpful to familiarise yourself with our [instructions for authors](/author-guidelines).
+We always encourage prospective authors to pitch their ideas before they start writing. If a piece is not suitable for the *Programming Historian* our job is to tell an author before they have written a full tutorial. We hope this saves everyone time and energy. Once we have spoken to an author and encouraged their idea, our aim is always to support authors until the piece is publishable. Our goal is to help them reach that stage as efficiently as possible with clear guidance. You may find it helpful to familiarise yourself with our [instructions for authors](/author-guidelines).
 
 ### Safe Spaces
 The *Programming Historian* is committed to providing a safe space for the exchange of ideas, where everyone can share without fear of harassment or abuse. The editor plays a fundamental role in ensuring that space endures. Your job includes enforcing our anti-harassment policy at all times. If you need help please ask one of the other editors or PH ombudsperson Amanda Visconti. You can read more about our [commitment to safe spaces](/posts/PH-commitment-to-diversity) on the project blog.
@@ -55,13 +55,15 @@ Upon successful submission of the lesson, the editor will create a review ticket
 ### Open Peer Review
 The *Programming Historian* uses a model of open peer review, while we believe this helps maintain civility and the productive sharing of ideas, authors have the right (and we have a requirement to respect that right) to request a closed peer review. There are many reasons why someone might be hesitant to engage in an open review and we encourage authors to always pursue the option with which they are most comfortable.
 
-Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). The editor should complete an initial sustainability overview of the submission to ensure that software versions and dependencies are clearly marked, specificities of software like screenshots are limited to those required to complete the lesson, and that the lesson makes use of existing software documentation whenever available and appropriate. Editors should also ensure that lessons try, as much as possible, to avoid software specific directions, such as "Right-click on the _x_ icon to access the _x_ menu," instead favoring general methodological overviews. The Editorial Checklist [contains more details about sustainability practices](#c-sustainability-review) for PH.
+Before soliciting external reviews, the editor should read and try the tutorial and use their experience with the *Programming Historian* to help the author make initial improvements (if required). The editor is not expected to be a expert in content of the lesson, this is the role of the [reviewers](https://programminghistorian.org/en/reviewer-guidelines).
+
+The editor should complete an initial sustainability overview of the submission to ensure that software versions and dependencies are clearly marked, specificities of software like screenshots are limited to those required to complete the lesson, and that the lesson makes use of existing software documentation whenever available and appropriate. Editors should also ensure that lessons try, as much as possible, to avoid software specific directions, such as "Right-click on the _x_ icon to access the _x_ menu," instead favoring general methodological overviews. The Editorial Checklist [contains more details about sustainability practices](#c-sustainability-review) for PH.
 
 Often editors need help clarifying the intended audience of a lesson, or identifying jargon that needs further explanation. This initial review helps let the external reviewers focus on improving the piece. This is normally done openly on our submission system (see below), but it can be a closed review at the request of either party.
 
-Once an author has revised the tutorial to the satisfaction of the editor, it is the editor's job to invite two formal external peer reviews. It is entirely up to the editor who these reviewers are, however in the interest of our [commitment to diversity](https://github.com/programminghistorian/jekyll/issues), we encourage editors to ask themselves if they have made a sufficient effort to draw from reviewers who are distinct from themselves either by gender, nationality, race, age, or academic background. Please try not to find two people who are very like you.
+Once an author has revised the tutorial to the satisfaction of the editor, it is the editor's job to invite two formal external peer reviews. In the interest of our [commitment to diversity](https://github.com/programminghistorian/jekyll/issues), we encourage editors to ask themselves if they have made a sufficient effort to draw from reviewers who are distinct from themselves either by gender, nationality, race, age, or academic background. Please try not to find two people who are very like you.
 
-To coordinate our requests for reviewers, please use the "Programming Historian - Reviewer Tracking" Google Spreadsheet. (Contact the managing editor or Jeri Wieringa if you need help accessing the spreadsheet.) Prior to sending a review request, check the list to make sure that the person has not been recently contacted by another editor. To avoid over-taxing reviewers, please limit requests to once a year. If a reviewer has been contacted in the past year, the "date_contacted" field will display as red.
+To coordinate our requests for reviewers, please use the "Programming Historian - Reviewer Tracking" Google Spreadsheet. (Contact the managing editor if you need help accessing the spreadsheet.) Prior to sending a review request, check the list to make sure that the person has not been recently contacted by another editor. To avoid over-taxing reviewers, please limit requests to once a year. If a reviewer has been contacted in the past year, the "date_contacted" field will display as red.
 
 For each potential reviewer you do contact, regardless of response, please enter:
 
@@ -191,9 +193,9 @@ If a tutorial contains a video it should be hosted on our YouTube channel (which
 
 ---
 
-## Acceptance and Publication - Editorial Checklist
+## Recommend Publication - Editorial Checklist
 
-Once you and the author are happy with a tutorial, the next step is to begin the publication process. This involves checking the files and adding some additional metadata:
+Once you and the author are happy with a tutorial, the next step is to recommend publication to the managing editor. This involves checking the files and adding some additional metadata before contacting them:
 
 ### 1) Create an Author Bio
 
@@ -284,9 +286,11 @@ Then, create a new copy of the image. Crop it to a square without removing any i
 
 Upload the original image to the [gallery/originals](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/gallery/originals) folder, and upload the edited image to the [gallery](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/gallery) folder. You will need to direct the managing editor to the locations of these images on the ph_submissions repo when you hand the files off to them for publishing.
 
-### 5) Inform the Managing Editor to Publish
+### 5) Inform the Managing Editor of your Recommendation to Publish
 
-The Managing Editor will publish the lesson by moving the files to the main website and check everything over. To make this person's job easier, post a list in the submission ticket of all files that need to be moved to publish the lesson. This should normally include:
+The Managing Editor will read and carefully check over the lesson, ensuring that it adheres to our sustainability, internationalization, and style guidelines. If in the Managing Editor's discretion, the lesson fails to meet any of those thresholds of quality, it may be returned to the author for revision. If it passes these final quality control checks, the Managing Editor will publish the lesson by moving the files to the main website and check everything over.
+
+To make this person's job easier, post a list in the submission ticket of all files that need to be moved to publish the lesson. This should normally include:
 
 - The lesson .md file
 - The directory for any accompanying files (images, data, etc)
@@ -317,11 +321,11 @@ People don't find lessons on their own. The hard work is done, so let's make sur
 
 # Managing Editor Checklist
 
-The Managing Editor is responsible for moving the files to the main website via a pull request. This is also a chance for the managing editor to familiarize him/herself with the new lesson, and to quickly check that everything looks ok.
+The Managing Editor is responsible for carefully checking the lesson to make sure it adheres to all of our policies and requirements. If the lesson does not meet these requirements it should be referred back to the editor for further revision. This is a crucial part of the editorial workflow. Once the Managing Editor is satisfied that the lesson meets our standards, it is his/her role to move the files to the main website via a pull request.
 
-## 1) Look over the submission preview
+## 1) Carefully check the submission preview
 
-Check the submission preview for any obvious errors such as broken images or strange formatting. Inform the editor of any mistakes, which they are responsible for getting fixed.
+Check the submission preview for any errors or failures to meet our publication guidelines. Refer any issues back to the editor.
 
 ## 2) Move the Files
 
