@@ -21,10 +21,10 @@ These guidelines are to help reviewers understand their role in the editorial pr
 
 
 ## Review Philosophy
-We do not solicit reviews to judge whether a tutorial is "good enough" to be published. Rather, we consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to create useful technical resources for each other. Once a tutorial enters our editorial workflow, we work closely with the author and reviewers to maximize its potential and publish it within a reasonable amount of time.
+We consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to create useful technical resources for each other. Once a tutorial enters our editorial workflow, we work closely with the author and reviewers to maximize its potential and publish it within a reasonable amount of time.
 
 ### Constructive Criticism
-To review a tutorial is not simply to assess its merits and flaws (though it is important to do these as well), or judge whether it's appropriate for the _Programming Historian_, but to help improve the tutorial by virtue of an outside perspective. We ask that reviewers provide fair and constructive criticism (and of course praise) that will improve the tutorial for a wide range of readers. We don't send anything out for review that isn't within a reasonable distance of publishable quality.
+To review a tutorial is not simply to assess its merits and flaws (though it is important to do these as well), but to help improve the tutorial by virtue of an outside perspective. We ask that reviewers provide fair and constructive criticism (and of course praise) that will improve the tutorial for a wide range of readers.
 
 ### Transparency
 We highly value transparency in our lesson production and review process. Our review process happens on Github, where our lessons are hosted. Namely, we use Github's commenting and [issue tracking](https://en.wikipedia.org/wiki/Issue_tracking_system) capabilities to keep track of suggestions and how they are handled and discussed by the authors and reviewers. This helps avoid important conversations becoming buried and lost in email threads.
