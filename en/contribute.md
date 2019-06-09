@@ -18,14 +18,6 @@ We don't simply accept or reject articles like traditional journals. Our editors
 
 If you'd like to propose a lesson (for you or for someone else to write), email {% include managing-editor.html lang=page.lang %}.
 
-## Join our team of reviewers
-
-<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-right" />
-
-The _Programming Historian_ holds peer review in the highest regard, and we take an open and collaborative approach in which reviewers get full and public credit for their work. For more on our review philosophy and procedures, please see the [Guidelines for Reviewers][reviewers].
-
-We hope you'll consider joining our team of reviewers. The time commitment is flexible, you'll learn a lot, and contribute to a widely-used and highly-valued resource. Please email {% include managing-editor.html lang=page.lang %} to introduce yourself and let us know any specific skills, tools, topics, and technologies that you'd like to focus on.
-
 
 ## Edit lessons
 
