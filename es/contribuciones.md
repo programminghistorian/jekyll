@@ -53,7 +53,7 @@ Agradecemos de manera especial alertas sobre lecciones que no funcionan. A medid
 <img src="/images/library-catalogue.png" class="garnish float-right" />
 
 
-_The Programming Historian_ está registrado en WorldCat en ([español](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)) y en ([inglés](http://www.worldcat.org/title/programming-historian/oclc/951537099)).
+_The Programming Historian_ está registrado en WorldCat en ([español](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)), en ([inglés](http://www.worldcat.org/title/programming-historian/oclc/951537099)), y en ([francés](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842)).
 
 Gracias a [University of Purdue library] y a Amanda Visconti, y University of Virginia library. Y ha sido indexado por el [Directory of Open Access Journals].
 Este proyecto se propone demostrar cómo deben ser las publicaciones académicas en abierto. Por favor, ayúdanos a difundir nuestro mensaje pidiendo a tu bibliotecario o bibliotecaria que añade este recurso al catálogo de tu biblioteca.
