@@ -50,7 +50,7 @@ Nous apprécions tout particulièrement les informations reçues sur les liens c
 
 Ce projet est notre démonstration de ce que l'édition scientifique en accès libre peut et doit être. Merci de nous aider à disséminer le message  et à fournir le plus large accès possible à cette ressource en demandant à votre bibliothèque d'enregister le projet dans son catalogue.
 
-Le _Programming Historian_ a sa notice dans WorldCat ([en anglais](http://www.worldcat.org/title/programming-historian/oclc/951537099)) et ([en espagnol](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)).
+Le _Programming Historian_ a sa notice dans WorldCat ([en français](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842)), ([en anglais](http://www.worldcat.org/title/programming-historian/oclc/951537099)) et ([en espagnol](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)).
 
 Toute notre gratitude à la [bibliothèque de l'Université de Purdue](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink), à Amanda Visconti, et à la [bibliothèque de l'Université de Virginia]).
 
