@@ -280,6 +280,7 @@
    - archive
    - treasurer
    - sponsorship
+   - technical
 
 - name: Amanda Morton
   team: false
@@ -591,6 +592,7 @@
    - editorial
    - community
    - board
+   - technical
 
 - name: Ted Dawson
   team: false
@@ -784,6 +786,7 @@
   team_roles:
    - editorial
    - board
+   - technical
 
 - name: Evan Peter Williamson
   team: false
@@ -980,6 +983,7 @@
     - french
     - board
     - managing-fr
+    - technical
   bio:
         en: |
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
@@ -1131,10 +1135,10 @@
   team: false
   bio:
     es: |
-        Silvia Gutiérrez es bibliotecaria de investigación digital en la biblioteca Daniel Cosío Villegas en El Colegio de México. 
+        Silvia Gutiérrez es bibliotecaria de investigación digital en la biblioteca Daniel Cosío Villegas en El Colegio de México.
 
 - name: Matthew J. Lavin
   team: false
   bio:
       en: |
-          Matthew J. Lavin is a Clinical Assistant Professor of English and Director of the Digital Media Lab at the University of Pittsburgh. His current scholarship and teaching focus on book history, cultural analytics, turn-of-the-twentieth-century U.S. literature and culture. 
+          Matthew J. Lavin is a Clinical Assistant Professor of English and Director of the Digital Media Lab at the University of Pittsburgh. His current scholarship and teaching focus on book history, cultural analytics, turn-of-the-twentieth-century U.S. literature and culture.
