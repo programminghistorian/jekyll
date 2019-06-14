@@ -19,6 +19,8 @@ Le projet est reconnaissant pour leur soutien à:
 
 - [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) et [Andrew W. Mellon Foundation](https://mellon.org/) [2018-Present] pour soutenir notre développement web.
 - Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)) [2011-actuellement] pour nous offrir des services d'hébergement.
+- La [faculté de sciences humaines de l'université du Hertfordshire](https://www.herts.ac.uk/study/schools-of-study/humanities) pour avoir financé le développement d'une feuille de style [2019].
+- La [faculté d'histoire, d'histoire de l'art et de philosophie de l'université du Sussex](http://www.sussex.ac.uk/hahp/) pour le financement des efforts du Programming Historian de se doter d'un statut juridique [2019].
 - [British Academy](https://www.britac.ac.uk/) [2018] pour le financement d'un atelier d'écriture à Bogota en Colombie.
 - Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) [2011-2013] pour le soutien de projet émergent et de gestion de projet.
 
