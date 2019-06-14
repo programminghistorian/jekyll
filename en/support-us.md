@@ -19,12 +19,13 @@ The project is grateful for the following support:
 
 - Web development is supported by the [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) and the [Andrew W. Mellon Foundation](https://mellon.org/) [2018-Present]
 - Ongoing hosting support from the Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)) [2011-Present].
+- Funding to support establishing the Programming Historian as a legal entity provided by the [School of History, Art History and Philosophy, University of Sussex](http://www.sussex.ac.uk/hahp/) [2019]. 
 - Funding for a writing workshop in Bogota, Colombia, supported by the [British Academy](https://www.britac.ac.uk/) [2018].
 - Seed funding and project management support from the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) [2011-2013].
 
 ## Donate to Us
 
-We hope to have a donation mechanism in place by mid-2019.
+We hope to have a donation mechanism in place in 2019.
 
 ## Sponsor Us
 
