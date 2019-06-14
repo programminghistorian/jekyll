@@ -26,7 +26,7 @@ Le projet est reconnaissant pour leur soutien à:
 
 ## Donations
 
-Nous espérons avoir mis en place un mécanisme de donations d'ici la mi-2019.
+Nous espérons mettre en place un mécanisme de donations en 2019.
 
 ## Nous parrainer
 
