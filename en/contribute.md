@@ -18,14 +18,6 @@ We don't simply accept or reject articles like traditional journals. Our editors
 
 If you'd like to propose a lesson (for you or for someone else to write), email {% include managing-editor.html lang=page.lang %}.
 
-## Join our team of reviewers
-
-<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-right" />
-
-The _Programming Historian_ holds peer review in the highest regard, and we take an open and collaborative approach in which reviewers get full and public credit for their work. For more on our review philosophy and procedures, please see the [Guidelines for Reviewers][reviewers].
-
-We hope you'll consider joining our team of reviewers. The time commitment is flexible, you'll learn a lot, and contribute to a widely-used and highly-valued resource. Please email {% include managing-editor.html lang=page.lang %} to introduce yourself and let us know any specific skills, tools, topics, and technologies that you'd like to focus on.
-
 
 ## Edit lessons
 
@@ -60,7 +52,7 @@ We are especially grateful for tips about lessons that seem to be broken. As URL
 
 This project is our attempt to demonstrate what open access academic publishing can and should be. Please help us spreading the message and providing the widest possible access to this resource by asking your librarian to include the project in your library catalogue.
 
-The _Programming Historian_ has listings in WorldCat ([English](http://www.worldcat.org/title/programming-historian/oclc/951537099))  and ([Spanish](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)).
+The _Programming Historian_ has listings in WorldCat ([English](http://www.worldcat.org/title/programming-historian/oclc/951537099)), ([Spanish](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)), and ([French](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842)).
 
 With thanks to the [University of Purdue library](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink) and Amanda Visconti, and to the University of Virginia.
 

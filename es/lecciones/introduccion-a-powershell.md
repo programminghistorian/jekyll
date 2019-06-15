@@ -185,7 +185,7 @@ Tu ruta debe verse bastante similiar. Lo que representa esta ruta en realidad es
 
 Si `C:` es el tronco del árbol, cada sección de la ruta después de `C:` es una rama, de la cual salen otras que están por encima de ella. Así, `Users` es una rama de `C:`, `Ted` es una rama más pequeña que sale de `Users` y así sucesivamente. También se puede usar la metáfora de la herencia en lugar de la de la botánica y llamar a cada rama un `hijo` del directorio por encima de ella. Este es el lenguaje más común para describir las relaciones entre los directorios (de ahí el cmdlet `Get-ChildItem`), pero nos quedaremos con la metáfora del árbol ya que, en la vida real, las relaciones de herencia pueden ser mucho más complejas que la extremadamente jerárquica estructura según la cual está organizada tu computadora.
 
-Entender que la ruta funciona como un árbol es importante para poder navegar por los directorios que no están inmediatamente por encima o por debajo de tu directorio actual. Sabemos que hay un directorio llamado "dir1", y que éste directorio también está en el directorio "funWithPowerShell". Ve lo que sucede si intentas usar `sl` para pasar directamente a él escribiendo:
+Entender que la ruta funciona como un árbol es importante para poder navegar por los directorios que no están inmediatamente por encima o por debajo de tu directorio actual. Sabemos que hay un directorio llamado "dir1", y que éste directorio también está en el directorio "diverionConPowerShell". Ve lo que sucede si intentas usar `sl` para pasar directamente a él escribiendo:
 
 `sl dir1`
 
@@ -338,7 +338,7 @@ Luego comprueba lo que sucedió con el comando `gc benjamin.txt`. Verás que efe
 
 Al usar `>`, le ordenamos a PowerShell que pusiera el contenido de un texto en otro y sobrescribió lo que ya estaba allí. Podemos arreglar esto usando `>>` para nuestro redireccionamiento en lugar de un solo `>`. Esto le dice a PowerShell que agregue la nueva información. Prueba esto:
 
-`gc sigu8iente.txt >> benjamin1.txt`
+`gc siguiente.txt >> benjamin1.txt`
 
 Utiliza `gc` para comprobar que `benjamin1.text` ahora tiene ambas frases.
 
@@ -368,7 +368,7 @@ Por supuesto que no siempre queremos ver todo el contenido sino que querramos en
 
 y PowerShell arrojará todas las líneas que contengan esa cadena de caracteres de cualquier archivo de nuestro directorio que termine en `.txt`.
 
-El uso de `sls` en archivos tan pequeños como los nuestros no nos ahorrará mucho tiempo comparado con el que couparíamos si leyéramos los archivos nosotros mismos. Pero el uso de este *cmdlet* con un mayor número de archivos, más largos, puede ser extraordinariamente útil.
+El uso de `sls` en archivos tan pequeños como los nuestros no nos ahorrará mucho tiempo comparado con el que ocuparíamos si leyéramos los archivos nosotros mismos. Pero el uso de este *cmdlet* con un mayor número de archivos, más largos, puede ser extraordinariamente útil.
 
 ### Bucles infinitos y abortar procesos con `control-c`
 
@@ -378,7 +378,7 @@ Vamos a concatenar nuestros cuatro textos y colocar el resultado en un quinto te
 
 Intentemos
 
-`gc * .txt > granben.txt`
+`gc *.txt > granben.txt`
 
 Parecerá que tu computadora no hace nada. Pero, a diferencia de otras veces cuando tu computadora aparenta que no ha hecho nada, esta vez el prompt del símbolo del sistema no vuelve a aparecer. Si intentas escribir otro comando no sucederá nada. Esto es porque PowerShell todavía está trabajando en tu último comando. A medida que haces más y más cosas complicadas con PowerShell, es algo que a veces sucede -¡estás haciendo sudar a tu computadora!-. Pero, en este caso, PowerShell nunca dejará de trabajar con este comando ya que está en un bucle infinito. Afortunadamente, puedes abortar esta tarea con:
 
@@ -406,7 +406,7 @@ Introduce esto:
 
 Verás las primeras 10 líneas de tu texto. Asegúrate de incluir el guión, ya que de lo contrario PowerShell no sabrá que `-TotalCount` es un parámetro. Ahora escribe:
 
-`gc bigben.txt -tail 10` 
+`gc granben.txt -tail 10` 
 
 y verás las últimas 10 líneas. Lo que hemos hecho es especificarle a nuestro *cmdlet* `gc` los parámetros `-totalcount` y `-tail`. Casi todos los *cmdlets* pueden ser refinados añadiendo parámetros como este. Pero, ¿cómo sabemos qué parámetros están disponibles?
 
@@ -458,7 +458,7 @@ Obtén el recuento de líneas, palabras y caracteres de todos los archivos en el
 
 `gc *.txt | measure -l -w -c`
 
-Con nuestros cinco pequeños archivos esto todavía no resulta muy vistoso, pero habrías perdido más tiempo usando el procesador de textos. También podríamos hacerlo con un directorio que contenga miles de archivos largos. También podemos controlar nuestras acciones con mayor precisión con parámetros adicionales. Utilicza `Get-Help measure` para ver los parámetros a tu disposición. Podríamos ir a la ayuda en línea para aprender más sobre ellos, pero por ahora vamos a usar uno que se explica por sí mismo como un ejemplo que consiste en ignorar los espacios en blanco: `-IgnoreWhiteSpace`.
+Con nuestros cinco pequeños archivos esto todavía no resulta muy vistoso, pero habrías perdido más tiempo usando el procesador de textos. También podríamos hacerlo con un directorio que contenga miles de archivos largos. También podemos controlar nuestras acciones con mayor precisión con parámetros adicionales. Utiliza `Get-Help measure` para ver los parámetros a tu disposición. Podríamos ir a la ayuda en línea para aprender más sobre ellos, pero por ahora vamos a usar uno que se explica por sí mismo como un ejemplo que consiste en ignorar los espacios en blanco: `-IgnoreWhiteSpace`.
 
 Utiliza la flecha hacia arriba para recuperar tu último comando y agrega `-ignorewhitespace` al final. También puedes escribir `-ig`. Ten en cuenta que `-i` solo no es suficiente, ya que no diferencia el parámetro `-IgnoreWhiteSpace` del parámetro `-InputObject`, como te lo indicará un útil mensaje de error si lo intentarás. Verás el mismo recuento pero con menos caracteres, porque esta vez PowerShell no contó los espacios. La ventaja de la precisión es clara sobre el uso de un procesador de textos, donde es difícil determinar si se ignora o no el espacio en blanco en primer lugar, dejando de lado las posibilidades de cambiar funciones según tus necesidades.
 
@@ -470,7 +470,7 @@ Si aún no tienes Python, o si te preguntas por qué deberías usarlo, consulta 
 
 `[Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python27", "User")`
 
-Esto le dice a Windows: "Oye, la ruta para Python es: C:\Python27". Si quieres entender exactamente cómo funciona esto, mira [esta página](https://technet.microsoft.com/en-us/library/ff730964.aspx) (en inglés) en el portal TechNet de Microsoft (el mismo portal que utilizas en línea con` Get-Help`).
+Esto le dice a Windows: "Oye, la ruta para Python es: C:\Python27". Si quieres entender exactamente cómo funciona esto, mira [esta página](https://technet.microsoft.com/en-us/library/ff730964.aspx) (en inglés) en el portal TechNet de Microsoft (el mismo portal que utilizas en línea con `Get-Help`).
 
 Una vez que hayas corrido el comando anterior, sal de PowerShell y vuelve a iniciarlo. Entonces deberías poder abrir el intérprete de Python escribiendo `python` en PowerShell. Para ejecutar *scripts*, simplemente escribe `python` seguido de la ruta del *script* que quieres. Es más fácil navegar primero al directorio que contiene el *script*, y luego simplemente escribir `python nombre-de-script.py`.
 
@@ -486,7 +486,7 @@ Cuanto más utilices PowerShell más fácil será descubrir capacidades que ni s
 
 # Referencia rápida
 
-Esta tabla sirve como una referencia rápida a todos los *cmdlets* mencionados en esta lección. La primera columna muestra el nombre real; el segundo muestra la abreviatura que normalmente se escribe. El equivalente de Bash muestra el comando más similar en Bash. A menos que este comando esté entre paréntesis, también se puede utilizar en PowerShell como un alias para el *cmdlet* correspondiente. Para obtener una explicación más completa de cualquiera de los *cmdlets*, utiliza `Get-Help` con el parámetro `-online` (por ejemplo, `Get-Help Get-ChildItem -online`.)
+Esta tabla sirve como una referencia rápida a todos los *cmdlets* mencionados en esta lección. La primera columna muestra el nombre real; el segundo muestra la abreviatura que normalmente se escribe. El equivalente de Bash muestra el comando más similar en Bash. A menos que este comando esté entre paréntesis, también se puede utilizar en PowerShell como un alias para el *cmdlet* correspondiente. Para obtener una explicación más completa de cualquiera de los *cmdlets*, utiliza `Get-Help` con el parámetro `-online` (por ejemplo, `Get-Help Get-ChildItem -online`).
 
 | Cmdlet | Alias | Bash Equivalent | Description |
 | ------- | ------- | ------- | ------- |
@@ -498,7 +498,7 @@ Esta tabla sirve como una referencia rápida a todos los *cmdlets* mencionados e
 | `mkdir` | none | `mkdir` | Crea un nuevo directorio. (Ver `New-Item`.) |
 | `Explorer` | none | (`open`) | Abre algo utilizando el Explorador de archivos (la GUI) |
 | `Remove-Item` | `rm` | `rm` | Borra algo... ¡de manera permanente! |
-| `Move-Item` | `mv` | `mv` | Mueve algo. Necesita dos argumentos. Primero un nombre de archivo (i.e. su ruta actual), luego la ruta de nueva nueva locación (incluido el nombre que debe tener ahí). Si no se cambia la ruta, puede usarse para renombnrar archivos. |
+| `Move-Item` | `mv` | `mv` | Mueve algo. Necesita dos argumentos. Primero un nombre de archivo (i.e. su ruta actual), luego la ruta de nueva nueva locación (incluido el nombre que debe tener ahí). Si no se cambia la ruta, puede usarse para renombrar archivos. |
 | `Copy-Item` | `cp` | `cp` | Copia un archivo en una nueva ubicación. Requiere los mismos argumentos que mover, pero mantiene el archivo original en su ubicación. |
 | `Write-Output` | `write` | `echo` | Exporta lo que escribas. Utiliza la redirección para enviarlo a un archivo. La redirección con `>>` añadirá texto al archivo en lugar de sobrescribir el contenido. |
 | `Get-Content` | `gc` | `cat` | Obtiene el contenido de un archivo y lo imprime en la pantalla. La adición del parámetro `-TotalCount` seguido de un número x sólo imprime las primeras x líneas. Añadiendo el parámetro `-Tail` seguido de un número x sólo imprime las x líneas finales. |

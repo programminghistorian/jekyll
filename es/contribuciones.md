@@ -29,17 +29,6 @@ Nuestro objetivo no es aceptar o rechazar artículos como una revista académica
 
 Si quieres proponer una lección (escrita por ti o por otra persona), envía un email a {% include managing-editor.html lang=page.lang %}.
 
-
-## Únete a nuestro equipo de revisores
-
-<img src="/images/reviewer-sm.png" class="garnish rounded float-right" />
-
-
-La revisión por pares es esencial para producir recursos fiables de calidad. El equipo de _The Programming Historian en español_ tiene en gran estima el proceso de revisión y, además, adopta una aproximación abierta y colaborativa en la que los revisores reciben crédito de manera pública y completa por su trabajo. Para más información sobre nuestra filosofía y forma de trabajar, por favor, consulta la Guía para [revisores].
-
-Te animamos a que te unas a nuestro equipo de revisores. El tiempo dedicado es flexible; de esta manera, contribuirás a mantener la calidad de los contenidos. Por favor, envía un email a {% include managing-editor.html lang=page.lang %} con una breve presentación y dinos en qué métodos, herramientas, temas o tecnologías estás interesado o interesada para que podamos encargarte la revisión de una lección apropiada.
-
-
 ## Conviértete en editor
 
 <img src="/gallery/editor-guidelines.png" class="garnish rounded float-right" />
@@ -64,7 +53,7 @@ Agradecemos de manera especial alertas sobre lecciones que no funcionan. A medid
 <img src="/images/library-catalogue.png" class="garnish float-right" />
 
 
-_The Programming Historian_ está registrado en WorldCat en ([español](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)) y en ([inglés](http://www.worldcat.org/title/programming-historian/oclc/951537099)).
+_The Programming Historian_ está registrado en WorldCat en ([español](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)), en ([inglés](http://www.worldcat.org/title/programming-historian/oclc/951537099)), y en ([francés](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842)).
 
 Gracias a [University of Purdue library] y a Amanda Visconti, y University of Virginia library. Y ha sido indexado por el [Directory of Open Access Journals].
 Este proyecto se propone demostrar cómo deben ser las publicaciones académicas en abierto. Por favor, ayúdanos a difundir nuestro mensaje pidiendo a tu bibliotecario o bibliotecaria que añade este recurso al catálogo de tu biblioteca.
