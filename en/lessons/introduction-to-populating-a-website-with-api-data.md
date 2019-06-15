@@ -290,7 +290,7 @@ print '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Rames
 ?>
 ```
 
-Now, it really looks like a website, doesn’t it? `<h1>` is a heading tag in HTML (the biggest size), while `<p>` is an HTML paragraph (i.e. normal text). `<a>` is the hyperlink tag and `href=` specifies the URL, in this case: a Wikipedia article. As attributes often contain extra information about the element that you don't want to appear in the actual content, the texts `"Go to Wikipedia page of Ramesses VI"` is displayed in place of the lengthy URL (`"[https://en.wikipedia.org/wiki/Ramesses_VI](https://en.wikipedia.org/wiki/Ramesses_VI)"`).
+Now, it really looks like a website, doesn’t it? `<h1>` is a heading tag in HTML (the biggest size), while `<p>` is an HTML paragraph (i.e. normal text). `<a>` is the hyperlink tag and `href=` specifies the URL, in this case: a Wikipedia article. As attributes often contain extra information about the element that you don't want to appear in the actual content, the texts `"Go to Wikipedia page of Ramesses VI"` is displayed in place of the lengthy URL ([`https://en.wikipedia.org/wiki/Ramesses_VI`](https://en.wikipedia.org/wiki/Ramesses_VI)).
 
 What you have just created is the essence of all the websites on the Internet, containing texts, hyperlinks, and media (image). The only difference is that most websites have a better layout, more decorations, and perhaps interactive functions. Well done. You have just become a webmaster.
 
