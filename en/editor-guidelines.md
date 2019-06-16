@@ -224,32 +224,32 @@ The following code should be added into the text of the lesson, usually before t
 ### 3) Add YAML metadata to the lesson file
 
 ```
-title: ["YOUR TITLE HERE"]
+title: "Your Title Here"
 collection: lessons
 layout: lesson
-slug: [e.g. introduction-to-sentiment-analysis]
-date: [YYYY-MM-DD]
-translation_date: [YYYY-MM-DD (translations only)]
+slug: e.g. introduction-to-sentiment-analysis
+date: YYYY-MM-DD
+translation_date: YYYY-MM-DD (translations only)
 authors:
-- [FORENAME SURNAME 1]
-- [FORENAME SURNAME 2, etc]
+- Forename Surname
+- Forename Surname etc
 reviewers:
-- [FORENAME SURNAME 1]
-- [FORENAME SURNAME 2, etc]
+- Forename Surname
+- Forename Surname etc
 editors:
-- [FORENAME SURNAME]
+- Forename Surname
 translator:
-- [FORENAME SURNAME (translations only)]
+- Forename Surname (translations only)
 translation-editor:
-- [FORNAME SURNAME (translations only)]
+- Forename Surname (translations only)
 translation-reviewer:
-- [FORNAME SURNAME (translations only)]
-original: [slug to original published lesson (translations only)]
-review-ticket: [e.g. https://github.com/programminghistorian/ph-submissions/issues/108]
-difficulty: [see guidance below]
-activity: [ONE OF: acquiring, transforming, analyzing, presenting, sustaining]
-topics: [see guidance below]
-abstract: [see guidance below]
+- Forename Surname (translations only)
+original: slug to original published lesson (translations only)
+review-ticket: e.g. https://github.com/programminghistorian/ph-submissions/issues/108
+difficulty: see guidance below
+activity: ONE OF: acquiring, transforming, analyzing, presenting, sustaining
+topics: see guidance below
+abstract: see guidance below
 
 ```
 
