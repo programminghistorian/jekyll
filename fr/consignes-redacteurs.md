@@ -214,32 +214,32 @@ Le code suivant doit être ajouté au texte de la leçon, habituellement avant l
 ### 3) Ajouter les métadonnées en YAML dans le fichier de la leçon
 
 ```
-title: ["VOTRE TITRE"]
+title: "Votre Titre"
 collection: lecons
 layout: lesson
-slug: [par ex. introduction-analyse-des-sentiments]
-date: [AAAA-MM-JJ]
-translation_date: [AAAA-MM-JJ (champ spécifique aux traductions)]
+slug: par ex. introduction-analyse-des-sentiments
+date: AAAA-MM-JJ
+translation_date: AAAA-MM-JJ (champ spécifique aux traductions)
 authors:
-- [PRÉNOM NOM 1]
-- [PRÉNOM NOM 2, etc]
+- Prénom Nom
+- Prénom Nom, etc
 reviewers:
-- [PRÉNOM NOM 1]
-- [PRÉNOM NOM 2, etc]
+- Prénom Nom
+- Prénom Nom, etc
 editors:
-- [PRÉNOM NOM]
+- Prénom Nom
 translator:
-- [PRÉNOM NOM (champ spécifique aux traductions)]
+- Prénom Nom (champ spécifique aux traductions)
 translation-editor:
-- [PRÉNOM NOM (champ spécifique aux traductions)]
+- Prénom Nom (champ spécifique aux traductions)
 translation-reviewer:
-- [PRÉNOM NOM (champ spécifique aux traductions)]
-original: [slug to original published lesson (champ spécifique aux traductions)]
-review-ticket: [e.g. https://github.com/programminghistorian/ph-submissions/issues/108]
-difficulty: [voir ci-dessous]
-activity: [UNIQUEMENT UN PARMI: acquiring, transforming, analyzing, presenting, sustaining]
-topics: [voir ci-dessous]
-abstract: [voir ci-dessous]
+- Prénom Nom (champ spécifique aux traductions)
+original: slug to original published lesson (champ spécifique aux traductions)
+review-ticket: e.g. https://github.com/programminghistorian/ph-submissions/issues/108
+difficulty: voir ci-dessous
+activity: UNIQUEMENT UN PARMI: acquiring, transforming, analyzing, presenting, sustaining
+topics: voir ci-dessous
+abstract: voir ci-dessous
 
 ```
 
