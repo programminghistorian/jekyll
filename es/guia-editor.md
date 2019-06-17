@@ -275,7 +275,9 @@ translation-reviewer:
 original: slug del original ((solo en traducción))
 difficulty: (ver abajo o mantener original en traducciones)
 activity: (ver abajo o mantener original en traducciones)
-topics: (ver abajo o mantener original en traducciones)
+topics: 
+ - tema uno
+ - tema dos (ver abajo o mantener original en traducciones)
 abstract: "(ver abajo o traducir el original)"
 ---
 ```
