@@ -248,7 +248,9 @@ original: slug to original published lesson (translations only)
 review-ticket: e.g. https://github.com/programminghistorian/ph-submissions/issues/108
 difficulty: see guidance below
 activity: ONE OF: acquiring, transforming, analyzing, presenting, sustaining
-topics: see guidance below
+topics: 
+ - topic one (see guidance below)
+ - topic two
 abstract: see guidance below
 
 ```
