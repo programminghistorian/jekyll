@@ -420,7 +420,7 @@ recommend you use PowerShell or, for a more robust solution, install the
 Windows Subsystem for Linux and use the terminal that comes with your favorite
 Linux distribution. For an excellent introduction to the command line, consult
 "[Introduction to the Bash Command
-Line](https://programminghistorian.org/en/lessons/intro-to-bash)" by Ian
+Line](/en/lessons/intro-to-bash)" by Ian
 Milligan and James Baker.
 
 In the terminal, you should see a text window and a prompt that looks
