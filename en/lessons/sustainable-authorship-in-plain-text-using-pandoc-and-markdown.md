@@ -96,12 +96,8 @@ reason, Markdown is currently enjoying a period of growth, not just as
 as means for writing scholarly papers but as a convention for online
 editing in general.
 
-Popular general purpose plain text editors include
-[TextWrangler](http://www.barebones.com/products/textwrangler/) and
-[Sublime](http://www.sublimetext.com) for Mac,
-[Notepad++](http://notepad-plus-plus.org) for Windows, as well as
-Gedit and Kate for Linux. However, there are also editors that specialize
-in displaying and editing Markdown.
+Popular general purpose plain text editors include [Atom](https://atom.io/)
+(all platforms) and [Notepad++](http://notepad-plus-plus.org) (Windows only).
 
 It is important to understand that Markdown is merely a convention.
 Markdown files are stored as plain text, further adding to the
@@ -195,13 +191,12 @@ mechanics of Pandoc installation are best explored by searching for
 "installing Pandoc" on Google, with the likely first result being
 Pandoc's homepage.
 
--   **Plain text editor**. Entering the world of plain-text editing
-    expands your choice of innovative authoring tools dramatically.
-    Search online for "markdown text editor" and experiment with your
-    options. It does not matter what you use as long as it is explicitly
-    a plain text editor. Notepad++ on Windows or TextWrangler on Macs
-    are easy, free choices. Remember, since we are not tied to the tool,
-    you can change editors at any time.
+-   **Plain text editor**. Entering the world of plain-text editing expands
+    your choice of innovative authoring tools dramatically.  Search online for
+"markdown text editor" and experiment with your options. It does not matter
+what you use as long as it is explicitly a plain text editor, such as Atom or
+Notepad++. Remember, since we are not tied to the tool, you can change editors
+at any time.
 
 -   **Command line terminal**. Working "in the command line" is
     equivalent to typing commands into the terminal. On a Mac you simply
@@ -265,7 +260,7 @@ conventions are described on the [Pandoc's
 Markdown](http://pandoc.org/README.html#pandocs-markdown)
 page. Its conventions include the ["YAML"
 block](http://johnmacfarlane.net/pandoc/README.html#yaml-metadata-block),
-which contains some useful metadata.
+which contains some useful metadata.[^ft-1]
 
 Let's now create a simple document in Markdown. Open a plain-text editor
 of your choice and begin typing. It should look like this:
@@ -274,6 +269,7 @@ of your choice and begin typing. It should look like this:
     title: Plain Text Workflow
     author: Dennis Tenen, Grant Wythoff
     date: January 20, 2014
+    fontfamily: times
     ---
 
 Pandoc-flavored Markdown stores each of the above values, and "prints"
@@ -287,11 +283,13 @@ following:
     # Section 1
 
     ## Subsection 1.1
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
     Next paragraph should start like this. Do not indent.
 
     ## Subsection 1.2
+
     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
     # Section 2
@@ -340,9 +338,11 @@ You can download this sample .md file
     # Section 1
 
     ## Subsection 1.1
+
     Lorem *ipsum* dolor sit amet, **consectetur** adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
     ## Subsection 1.2
+
     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
     Next paragraph should start like this. Do not indent.
@@ -350,9 +350,11 @@ You can download this sample .md file
     # Section 2
 
     ## Subsection 2.1
+
     ![image caption](your_image.jpg)
 
     ## Subsection 2.2
+
     A sentence that needs a note.[^1]
 
     [^1]: my first footnote! And a [link](https://www.eff.org/)
@@ -412,18 +414,22 @@ powerful research tools that you couldn't use otherwise, and can serve
 as a basis for more advanced work. For the purposes of this tutorial,
 you need to learn only a few, very simple commands.
 
-First, open a command line window. If you are using a Mac, open Terminal
-in the 'Applications/Utilities' directory. On Windows, you'll use
-PowerShell. On Windows 7 or later, click Start, type "powershell" in
-"Search programs and files," and hit enter.
+First, open a command line window. If you are using macOS, open the Terminal
+application in the 'Applications/Utilities' directory. On Windows, we
+recommend you use PowerShell or, for a more robust solution, install the
+Windows Subsystem for Linux and use the terminal that comes with your favorite
+Linux distribution. For an excellent introduction to the command line, consult
+"[Introduction to the Bash Command
+Line](https://programminghistorian.org/en/lessons/intro-to-bash)" by Ian
+Milligan and James Baker.
 
-Once opened, you should see a text window and a prompt that looks
-something like this: `computer-name:~username$`. The tilde indicates
-your "home" directory, and in fact you can type `$ cd ~` at any point to
-return to your home directory. Don't type the dollar sign, it just
-symbolizes the command prompt of your terminal, promting you to type something
-into your terminal (as opposed to typing it into your document); remember to hit
-enter after every command.
+In the terminal, you should see a text window and a prompt that looks
+something like this: `computer-name:~username$`. The tilde indicates your
+"home" directory, and in fact you can type `$ cd ~` at any point to return to
+your home directory. Don't type the dollar sign, it just symbolizes the
+command prompt of your terminal, prompting you to type something into your
+terminal (as opposed to typing it into your document); remember to hit enter
+after every command.
 
 It is very likely that your "Documents" folder is located here. Type
 `$ pwd` (= print working directory) and press enter to display the name
@@ -448,41 +454,34 @@ keep your bearings.
 ## Using Pandoc to convert Markdown to an MS Word document
 
 We are now ready to typeset! Open your terminal window, use `$ pwd` and
-`$ cd` to navigate to the correct folder for your project. Once you are
+`$ cd DIRECTORY-NAME` to navigate to the correct folder for your project. Once you are
 there, type `$ ls` in the terminal to list the files. If you see your
 .md file and your images, you are in the right place. To convert .md
 into .docx type:
 
 ```
-$ pandoc -o main.docx main.md
+$ pandoc main.md -o main.docx
 ```
 
 Open the file with MS Word to check your results. Alternatively, if you
-use Open or Libre Office you can run:
+use Open- or LibreOffice you can run:
 
 ```
-$ pandoc -o project.odt main.md
+$ pandoc main.md -o project.odt
 ```
 
-If you are new to the command line, imagine reading the above command as
-saying something like: "Pandoc, create an MS Word file out of my
-Markdown file." The `-o` part is a "flag," which in this case says
-something like "instead of me explicitly telling you the source and the
-target file formats, just guess by looking at the file extension." Many
-options are available through such flags in Pandoc. You can see the
-complete list on [Pandoc's
-website](http://johnmacfarlane.net/pandoc/README.html) or by typing
-
-```
-$ man pandoc
-```
-
-in the terminal.
+If you are new to the command line, imagine reading the above command as saying something like:
+"Pandoc, create an MS Word file out of my Markdown file." The `-o` part is a "flag," which in
+this case says something like "instead of me explicitly telling you the source and the target
+file formats, just guess by looking at the file extension" or simply "output." Many options are
+available through such flags in Pandoc. You can see the complete list on [Pandoc's
+website](http://johnmacfarlane.net/pandoc/README.html) or by typing `$ man pandoc` in the
+terminal.
 
 Try running the command
 
 ```
-$ pandoc -o project.html main.md
+$ pandoc main.md -o project.html
 ```
 
 Now navigate back to your project directory. Can you tell what happened?
@@ -493,16 +492,39 @@ LaTeX is installed, a beautifully formatted PDF file can be created
 using the same command structure:
 
 ```
-$ pandoc -o main.pdf main.md
+$ pandoc main.md -o main.pdf
 ```
 
-With time, you will be able to fine tune the formatting of PDF documents
-by specifying a LaTeX style file (saved to the same directory), and
-running something like:
+If your document is written in languages other than English, you will likely need to use
+the XeLaTeX engine instead of plain LaTeX for .pdf conversion:
 
 ```
-$ pandoc -H format.sty -o project.pdf --number-sections --toc project.tex
+pandoc main.md --pdf-engine=xelatex -o main.pdf
 ```
+
+Make sure your text editor supports the UTF-8 encoding. When using XeLaTeX for
+conversion into .pdf, instead of the `fontfamily` attribute in YAML to change
+fonts, specify the `mainfont` attribute, to produce something like the
+following:
+
+```
+    ---
+    title: Plain Text Workflow
+    author: Dennis Tenen, Grant Wythoff
+    date: January 20, 2014
+    mainfont: times
+    ---
+```
+
+[^ft-1]: Note that YAML often replicates some, although not all, of the
+  command line argument (flag) functionality.  For example, font styles could
+be passed to Pandoc in the form of `pandoc main.md --mainfont=times -o
+target.pdf`. However, we prefer to use the YAML header options whenever
+possible, since it makes our command line incantations easier to type and to
+remember. Using a version control tool such as Git will preserve your YAML
+changes, where what you type in the terminal is rather more ephemeral. Consult
+the Templates section in the Pandoc manual (`man pandoc`) for the list of
+available YAML variables.
 
 ## Working with Bibliographies
 
@@ -580,23 +602,19 @@ file, under the same directory as your `main.md`. Let's see if this
 works. Save your file, switch to the terminal window and run:
 
 ```
-$ pandoc -S -o main.docx --filter pandoc-citeproc main.md
+$ pandoc main.docx --filter pandoc-citeproc -o main.md
 ```
 
-The upper case `S` flag stands for "smart", a mode which produces
-"typographically correct output, converting straight quotes to curly
-quotes, — to em-dashes, — to en-dashes and … to ellipses." The
-"pandoc-citeproc" filter parses all of your citation tags. The result
-should be a decently formatted MS Word file. If you have LaTeX
-installed, convert into .pdf using the same syntax for prettier results.
-Do not worry if things are not exactly the way you like them—remember,
-you are going to fine-tune the formatting all at once and at later time,
-as close as possible to the time of publication. For now we are just
-creating drafts based on reasonable defaults.
+The "pandoc-citeproc" filter will parse any citation tags found in your document. The result
+should be a decently formatted MS Word file. If you have LaTeX installed, convert into .pdf
+using the same syntax for prettier results. Do not worry if things are not exactly the way you
+like them---remember, you are going to fine-tune the formatting all at once and at later time,
+as close as possible to the time of publication. For now we are just creating drafts based on
+reasonable defaults.
 
 ## Changing citation styles
 
-The default citation style in Pandoc is Chicago author-date. We can
+The default citation style in Pandoc is Chicago Author-date. We can
 specify a different style by using stylesheet, written in the "Citation
 Style Language" (yet another plain-text convention, in this case for
 describing citation styles) and denoted by the .csl file extension.
@@ -618,18 +636,17 @@ csl: mla.csl
 ---
 ```
 
-You then simply use the same command:
+You then repeat the pandoc incantation to cast your markdown file into your target format (.pdf
+or .docx):
 
 ```
-$ pandoc -S -o main.docx --filter pandoc-citeproc main.md
+$ pandoc main.md --filter pandoc-citeproc -o main.pdf
 ```
 
-Parse the command into English as you are typing. In my head, I
-translate the above into something like: "Pandoc, be smart about
-formatting, and output a Word Doc using the citation filter on my
-Markdown file (as you can guess from the extension)." As you get more
-familiar with citation stylesheets, consider adding your custom-tailored
-.csl files for journals in your field to the archive as a service to the
+Parse the command into English as you are typing. In my head, I translate the above into
+something like: "Pandoc, take the my markdown file, run it through a citation filter, and
+output a Markdown file." As you get more familiar with citation stylesheets, consider adding
+your custom-tailored .csl files for journals in your field to the archive as a service to the
 community.
 
 ## Summary
@@ -642,12 +659,14 @@ file, and some images. Besides the source files you should see some some
 "target" files that we created during the tutorial: `main.docx` or
 `main.pdf`. Your folder should look something like this:
 
+```
     Pandoc-tutorial/
         main.md
         project.bib
         mla.csl
         image.jpg
         main.docx
+```
 
 Treat you source files as an authoritative version of your text, and you
 target files as disposable "print outs" that you can easily generate
@@ -707,37 +726,29 @@ documentation).
 [^1]:  Don't worry if you don't understand some of of this terminology yet!
 
 [^2]:  The source files for this document can be [downloaded from
-    GitHub](https://github.com/dhcolumbia/pandoc-workflow). Use the
-    "raw" option when viewing in GitHub to see the source Markdown. The
-    authors would like to thank Alex Gil and his colleagues from
-    Columbia's Digital Humanities Center, and the participants of
-    openLab at the Studio in the Butler library for testing the code in
-    this tutorial on a variety of platforms.
+GitHub](https://github.com/dhcolumbia/pandoc-workflow). Use the "raw" option when viewing in
+GitHub to see the source Markdown. The authors would like to thank Alex Gil and his colleagues
+from Columbia's Digital Humanities Center, and the participants of openLab at the Studio in the
+Butler library for testing the code in this tutorial on a variety of platforms.
 
-[^3]:  See Charlie Stross's excellent discussion of this topic in [Why
-    Microsoft Word Must
-    Die](http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html).
+[^3]:  See Charlie Stross's excellent discussion of this topic in [Why Microsoft Word Must
+Die](http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html).
 
-[^4]:  Note that the .bib extension may be "registered" to Zotero
-	in your operating system. That means when you click on a .bib file it is
-	likely that Zotero will be called to open it, whereas we want to open it
-	within a text editor. Eventually, you may want to associate the .bib
-	extension with your text editor.
+[^4]:  Note that the .bib extension may be "registered" to Zotero in your operating system.
+That means when you click on a .bib file it is likely that Zotero will be called to open it,
+whereas we want to open it within a text editor. Eventually, you may want to associate the .bib
+extension with your text editor.
 
-[^5]:  There are no good solutions for directly arriving at MS
-	Word from LaTeX.
+[^5]:  There are no good solutions for directly arriving at MS Word from LaTeX.
 
-[^6]:  It is a good idea to get into the habit of not using spaces
-	in folder or file names. Dashes or underscores instead of spaces in your
-	filenames ensure lasting cross-platform compatibility.
+[^6]:  It is a good idea to get into the habit of not using spaces in folder or file names.
+Dashes or underscores instead of spaces in your filenames ensure lasting cross-platform
+compatibility.
 
-[^7]:  Thanks to [@njbart](https://github.com/njbart) for the
-    correction. In response to our original suggestion, `Some sentence that
-    needs citation.^[@fyfe_digital_2011 argues that too.]` [he
-    writes](https://github.com/programminghistorian/jekyll/issues/46#issuecomment-59219906):
-    "This is not recommended since it keeps you from switching easily between
-    footnote and author-date styles. Better use the \[corrected\] (no
-    circumflex, no final period inside the square braces, and the final
-    punctuation of the text sentence after the square braces; with footnote
-    styles, pandoc automatically adjusts the position of the final
-    punctuation)."
+[^7]:  Thanks to [@njbart](https://github.com/njbart) for the correction. In response to our
+original suggestion, `Some sentence that needs citation.^[@fyfe_digital_2011 argues that too.]`
+[he writes](https://github.com/programminghistorian/jekyll/issues/46#issuecomment-59219906):
+"This is not recommended since it keeps you from switching easily between footnote and
+author-date styles. Better use the \[corrected\] (no circumflex, no final period inside the
+square braces, and the final punctuation of the text sentence after the square braces; with
+footnote styles, pandoc automatically adjusts the position of the final punctuation)."
