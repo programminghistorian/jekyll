@@ -238,7 +238,9 @@ original: slug to original published lesson (champ spécifique aux traductions)
 review-ticket: e.g. https://github.com/programminghistorian/ph-submissions/issues/108
 difficulty: voir ci-dessous
 activity: UNIQUEMENT UN PARMI: acquiring, transforming, analyzing, presenting, sustaining
-topics: voir ci-dessous
+topics: 
+ - sujet un (voir ci-dessous)
+ - sujet deux
 abstract: voir ci-dessous
 
 ```
