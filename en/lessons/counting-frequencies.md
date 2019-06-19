@@ -128,7 +128,7 @@ print("Pairs\n" + str(zip(wordlist, wordfreq)))
 If you study this list comprehension carefully, you will discover that
 it does exactly the same thing as the `for` loop in the previous example,
 but in a condensed manner. Either method will work fine, so use the
-version that you are most comfortable with. 
+version that you are most comfortable with.
 
 Generally it is wise to use code you understand rather than code that runs quickest.
 
@@ -429,6 +429,6 @@ file to make sure you have the correct code.
 
   [list comprehension]: http://docs.python.org/tutorial/datastructures.html#list-comprehensions
   [computer scientists at Glasgow]: http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
-  [Regular Expressions]: http://www.diveintopython.net/regular_expressions/index.html
+  [Regular Expressions]: https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html
   [zip]: /assets/python-lessons4.zip
   [zip sync]: /assets/python-lessons5.zip

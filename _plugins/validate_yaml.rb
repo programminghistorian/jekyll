@@ -116,10 +116,14 @@ module MyModule
         lesson_topics = p.data["topics"]
 
         unless lesson_topics.nil?
-          lesson_topics.each do |t|
-            if !valid_topics.include?(t)
-              lesson_errors.push("'#{t}' is not a valid lesson topic.")
+          if lesson_topics.respond_to?(:each)
+            lesson_topics.each do |t|
+              if !valid_topics.include?(t)
+                lesson_errors.push("'#{t}' is not a valid lesson topic.")
+              end
             end
+          else
+            lesson_errors.push("The lesson topics have not been supplied as a list. Please use either [ ] or - list notation in the lesson YAML.")
           end
         end
 
