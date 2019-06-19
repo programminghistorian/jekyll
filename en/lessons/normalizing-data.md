@@ -1,5 +1,5 @@
 ---
-title: Normalizing Textual Data with Python 
+title: Normalizing Textual Data with Python
 layout: lesson
 date: 2012-07-17
 authors:
@@ -61,20 +61,20 @@ Turn back to your program *html-to-list-1.py* and make sure that your
 results look something like this:
 
 ``` python
-['324.', '\xc2\xa0', 'BENJAMIN', 'BOWSEY', '(a', 'blackmoor', ')', 'was', 
-'indicted', 'for', 'that', 'he', 'together', 'with', 'five', 'hundred', 
-'other', 'persons', 'and', 'more,', 'did,', 'unlawfully,', 'riotously,', 
-'and', 'tumultuously', 'assemble', 'on', 'the', '6th', 'of', 'June', 'to', 
-'the', 'disturbance', 'of', 'the', 'public', 'peace', 'and', 'did', 'begin', 
-'to', 'demolish', 'and', 'pull', 'down', 'the', 'dwelling', 'house', 'of', 
-'\xc2\xa0', 'Richard', 'Akerman', ',', 'against', 'the', 'form', 'of', 
-'the', 'statute,', '&amp;c.', '\xc2\xa0', 'ROSE', 'JENNINGS', ',', 'Esq.', 
-'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be', 'in', 'this', 'part', 
-'of', 'the', 'town,', 'on', 'the', '6th', 'of', 'June', 'in', 'the', 
-'evening?', '-', 'I', 'dined', 'with', 'my', 'brother', 'who', 'lives', 
-'opposite', 'Mr.', "Akerman's", 'house.', 'They', 'attacked', 'Mr.', 
-"Akerman's", 'house', 'precisely', 'at', 'seven', "o'clock;", 'they', 
-'were', 'preceded', 'by', 'a', 'man', 'better', 'dressed', 'than', 'the', 
+['324.', '\xc2\xa0', 'BENJAMIN', 'BOWSEY', '(a', 'blackmoor', ')', 'was',
+'indicted', 'for', 'that', 'he', 'together', 'with', 'five', 'hundred',
+'other', 'persons', 'and', 'more,', 'did,', 'unlawfully,', 'riotously,',
+'and', 'tumultuously', 'assemble', 'on', 'the', '6th', 'of', 'June', 'to',
+'the', 'disturbance', 'of', 'the', 'public', 'peace', 'and', 'did', 'begin',
+'to', 'demolish', 'and', 'pull', 'down', 'the', 'dwelling', 'house', 'of',
+'\xc2\xa0', 'Richard', 'Akerman', ',', 'against', 'the', 'form', 'of',
+'the', 'statute,', '&amp;c.', '\xc2\xa0', 'ROSE', 'JENNINGS', ',', 'Esq.',
+'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be', 'in', 'this', 'part',
+'of', 'the', 'town,', 'on', 'the', '6th', 'of', 'June', 'in', 'the',
+'evening?', '-', 'I', 'dined', 'with', 'my', 'brother', 'who', 'lives',
+'opposite', 'Mr.', "Akerman's", 'house.', 'They', 'attacked', 'Mr.',
+"Akerman's", 'house', 'precisely', 'at', 'seven', "o'clock;", 'they',
+'were', 'preceded', 'by', 'a', 'man', 'better', 'dressed', 'than', 'the',
 'rest,', 'who']
 ```
 
@@ -258,7 +258,7 @@ to make sure you have the correct code.
   [From HTML to a List of Words (1)]: /lessons/from-html-to-list-of-words-1
   [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
   [Unicode]: http://unicode.org/
-  [Python support]: http://www.diveintopython.net/xml_processing/unicode.html
-  [Dive into Python]: http://www.diveintopython.net/regular_expressions/index.html
+  [Python support]: https://web.archive.org/web/20180502053841/http://www.diveintopython.net/xml_processing/unicode.html
+  [Dive into Python]: https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html
   [zip]: /assets/python-lessons3.zip
   [zip sync]: /assets/python-lessons4.zip
