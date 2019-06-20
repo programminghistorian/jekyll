@@ -14,7 +14,7 @@ skip_validation: true
 <h2 class="noclear">Step 3: <a href="#submitting-a-new-lesson">Submitting a Translated Lesson</a></h2>
 
 ## Proposing the Translation of a Lesson
-If you want to translate a lesson published in *The Programming Historian*, please see the list of pending translations [each language-team should have one] and contact [Adam Crymble](adam.crymble@gmail.com) to discuss your language skills and translation experience. We look for translations that are rigorous, readable, and consider the needs of an English-reading audience.
+If you want to translate a lesson published in *The Programming Historian*, please see the list of pending translations and contact [Adam Crymble] to discuss your language skills and translation experience. We look for translations that are rigorous, readable, and consider the needs of an English-reading audience.
 
 Once the translation of a published lesson is approved, one of our editors will create a "Translation Review Ticket" in our [repository](https://github.com/programminghistorian/ph-submissions). This issue will serve to document the progress made during the translation review. To avoid delays in publishing, we ask that you submit your translation within 90 days of the editor accepting your proposal.
 
@@ -41,7 +41,7 @@ Because our site is hosted using [GitHub Pages](https://pages.github.com), **you
 The specific editor you choose is not important, but you should begin writing your translation in plain text to avoid frustrations later on. For instance, stylized quotation marks automatically inserted by MS Word create formatting problems that can be hard to debug.
 
 ### Write in Markdown
-**All new translations must be written in Markdown.** Markdown is a simple mark-up language that is best written in a text editor (as explained above, do not use a word processor like MS Word or Open Office). [GitHub Pages] are powered by [Jekyll](http://jekyllrb.com/), which automatically converts the Markdown files into the HTML pages that you can find here on the website. Even this page is written in Markdown, as you can see by inspecting [the raw text on GitHub](en/translator-guidelines).
+**All new translations must be written in Markdown.** Markdown is a simple mark-up language that is best written in a text editor (as explained above, do not use a word processor like MS Word or Open Office). [GitHub Pages] are powered by [Jekyll](http://jekyllrb.com/), which automatically converts the Markdown files into the HTML pages that you can find here on the website. Even this page is written in Markdown, as you can see by inspecting the raw text on GitHub.
 
 For a gentle introduction to GitHub Markdown (especially with *Programming Historian*, see [Getting Started with Markdown]({{site.baseurl}}/lessons/getting-started-with-markdown), or the concise reference [GitHub Guide to Markdown](https://guides.github.com/features/mastering-markdown/).
 
