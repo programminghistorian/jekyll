@@ -202,7 +202,7 @@ Antes de que podamos publicar nuestro archivo `principal.md` en otros formatos, 
 La interfaz de línea de comandos es un sitio amigable una vez que te acostumbras a ella. Si ya te es familiar la utilización de línea de comandos, puedes saltarte esta sección. Para el resto de lectores, es importante entender que al usar la terminal directamente podrán acceder a una amplia gama de herramientas de investigación poderosas que de otra manera es imposible, y será la base para trabajos más avanzados. Para el propósito de este tutorial necesitas aprender solamente unos cuantos comandos muy sencillos.
 
 Primero, abre una nueva ventana de línea de comandos. Si utilizas una macOS, abre Terminal en el directorio `Aplicaciones/Utilidades`. En Windows utilizarás PowerShell. En Windows 7 o posterior, recomendamos que utilices el "poweshell" o, para una solución más robusta, instala el subsistema de Windows para Linux y utiliza la terminal que viene con tu distribución Linux favorita. Para una excelente introducción a la línea de comando, consulta "[Introduction to the Bash Command
-Line](https://programminghistorian.org//es/lecciones/introduccion-a-bash" por Ian Milligan y James Baker.
+Line](/es/lecciones/introduccion-a-bash)" por Ian Milligan y James Baker.
 
 En el terminal debe ver una ventana de texto y un puntero (*prompt*) que puede verse más o menos como esto: `nombre-del-ordenador:~nombre-de-usuario$`. La tilde indica que estás en el directorio de usuario, y de hecho puedes escribir `$ cd ~`en cualquier punto para regresar a tu directorio de usuario. No escribas el símbolo de moneda pues solamente indica el puntero de tu terminal, solicitándote que escribas algo en la terminal (como opuesto a que escribas algo en un documento); recuerda introducir Enter después de escribir cada comando.
 
@@ -217,7 +217,7 @@ Estos tres comandos de terminal: `pwd`, `ls` y `cd` es todo lo que necesitas en 
 ¡Ya estamos listos para la composición tipográfica! Abre la ventana de tu terminal, utiliza `$ pwd`y `$ cd` NOMBRE_DE_LA_CARPETA para navegar hasta la carpeta en la que se encuentra tu proyecto. Una vez que estés ahí escribe `$ ls` en la terminal para enlistar los archivos. Si ves tu archivo `.md` y tus imágenes te encuentras en el lugar correcto. Para convertir `.md` a `.docx` escribe:
 
 ```
-$ pandoc principal.md -o principal.docx 
+$ pandoc principal.md -o principal.docx
 ```
 
 Abre el arhivo con MS Word para contejar tus resultados. Si utilizas Open- o Libre Office puedes ejecutar:
@@ -255,7 +255,7 @@ Asegúrate que tu editor de texto soporte el formato de codificación UTF-8. Cua
     mainfont: times
    ---
 
-[^ft-1]: Ten en cuenta que a menudo el YAML replica algo, aunque no todo, de la funcionalidad (bandera) de la línea de comando. Por ejemplo, los estilos de fuentes pueden pasarse a Pandoc en la forma de `pandoc principal.md --mainfont=times -o target.pdf`. Sin embargo, preferimos utilizar las opciones de, encabezado YAML siempre cuando sea posible, pues hace que los encantamientos de nuestra línea de comandos más fáciles de escribir y recordar. Utilizando una herramienta de control de cambios como Git preservará tus cambios al YAML, mientras lo que escribes en la terminal es más efímero. Consulta la sección de plantillas en el manual de Pandoc (`man pandoc`) para ver la lista de variables YAML disponibles. 
+[^ft-1]: Ten en cuenta que a menudo el YAML replica algo, aunque no todo, de la funcionalidad (bandera) de la línea de comando. Por ejemplo, los estilos de fuentes pueden pasarse a Pandoc en la forma de `pandoc principal.md --mainfont=times -o target.pdf`. Sin embargo, preferimos utilizar las opciones de, encabezado YAML siempre cuando sea posible, pues hace que los encantamientos de nuestra línea de comandos más fáciles de escribir y recordar. Utilizando una herramienta de control de cambios como Git preservará tus cambios al YAML, mientras lo que escribes en la terminal es más efímero. Consulta la sección de plantillas en el manual de Pandoc (`man pandoc`) para ver la lista de variables YAML disponibles.
 
 ## Trabajar con bibliografías
 
@@ -325,7 +325,7 @@ csl: mla.csl
 Después simplemente utiliza el encantamiento de pandoc para lanzar tu archivo de markdown en tu formato objetivo (.pdf o .docx):
 
 ```
-$ pandoc principal.md --filter pandoc-citeproc -o principal.pdf 
+$ pandoc principal.md --filter pandoc-citeproc -o principal.pdf
 ```
 
 ## Resumen
