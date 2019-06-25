@@ -12,11 +12,30 @@
   {% include header.html %}
 
   <body>
-    {% include menu.html %}
-
-    {{content}}
-
-    {% include footer.html %}
+    <main class="hide-screen">
+      {% include menu.html %}
+        {{content}}
+      {% include footer.html %}
+    </main>
+    <div class="hide-print">
+      <table>
+        <thead>
+          <tr>
+            <th>
+              {% include menu.html %}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+                {{content}}
+                {% include footer.html %}
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 
 </html>
