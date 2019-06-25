@@ -16,6 +16,7 @@ The project team and members of the wider community are involved in a number of 
 * Cameron Blevins, '[Review of the Programming Historian](http://jitp.commons.gc.cuny.edu/review-of-the-programming-historian/)', _The Journal of Interactive Technology & Pedagogy_, vol. 8 (2015).
 
 ## Published Research
+* Anna-Maria Sichani, James Baker, Maria José Afanador Llach, and Brandon Walsh, [‘Diversity and Inclusion in Digital Scholarship and Pedagogy: The Case of The Programming Historian’](https://doi.org/10.1629/uksg.465), _Insights_, (2019).
 * Katrina Navickas and Adam Crymble, ['From Chartist Newspaper to Digital Map of Grass-roots Meetings, 1841-44: Documenting Workflows'](http://www.tandfonline.com/doi/full/10.1080/13555502.2017.1301179), _Journal of Victorian Culture_, (2017).
 * Adam Crymble, ['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian'](http://researchprofiles.herts.ac.uk/portal/files/10476604/Blip_2016_Autumn_2016_Final_Autumn_2016.pdf), _Blended Learning in Practice_, (2016), 49-60. [[pre-print pdf](/researchpapers/openLearningCommunities2016.pdf)]
 * Fred Gibbs, ['Editorial Sustainability and Open Peer Review at Programming Historian',](http://web.archive.org/web/20180713014622/http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian) _DH Commons_, Vol. 1 (2015).
@@ -48,6 +49,7 @@ The project team and members of the wider community are involved in a number of 
 * Adam Crymble, 'The Programming Historian 2', _Digital Humanities 2012_, Hamburg (July 2012).
 
 ## Media &amp; Media Contributions
+* Sue Levine, 'The Early-Stage Ph.D.'s Guide to Summer', _Inside Higher Education_, 10 June 2019, <https://www.insidehighered.com/advice/2019/06/10/professional-development-and-careers-activities-phd-students-can-pursue-over>.
 * 'Championing open access with online digital history journal', _University of Sussex Press Office_, 9 October, 2018, <https://www.sussex.ac.uk/news/people?id=46353/>.
 * Adam Crymble, 'A Decade of Programming Historians', _Network in Canadian History &amp; Environment_, 23 March, 2018, <http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/>.
 * Fred Gibbs, "Sustainable Publishing: Reflections of a Former Programming Historian Editor", <em>FredGibbs.net</em>, 2017, <http://fredgibbs.net/posts/reflections-former-PH-editor>.

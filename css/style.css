@@ -197,7 +197,6 @@ Lesson Headers
     font: 1rem/1.4rem 'Roboto', sans-serif;
     color:#666;
     margin:1rem 0;
-    text-align: justify;
   }
 
   header .header-helpers {
@@ -563,7 +562,7 @@ Lesson Typography
 
   b, strong { font-weight: bold; }
 
-  blockquote { margin: 1em 2em; padding: 0 1em 0 1em; font-style: italic; border:1px solid #666; background: #eeeeee; text-align:justify;}
+  blockquote { margin: 1em 2em; padding: 0 1em 0 1em; font-style: italic; border:1px solid #666; background: #eeeeee;}
 
   hr {
     display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 2em 0; padding: 0; }
@@ -688,7 +687,6 @@ Figures
     color: #666;
     display:block;
     caption-side: bottom;
-    text-align: justify;
   }
 
   .author-info, .citation-info {

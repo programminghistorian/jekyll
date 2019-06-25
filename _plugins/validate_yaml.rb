@@ -116,10 +116,14 @@ module MyModule
         lesson_topics = p.data["topics"]
 
         unless lesson_topics.nil?
-          lesson_topics.each do |t|
-            if !valid_topics.include?(t)
-              lesson_errors.push("'#{t}' is not a valid lesson topic.")
+          if lesson_topics.respond_to?(:each)
+            lesson_topics.each do |t|
+              if !valid_topics.include?(t)
+                lesson_errors.push("'#{t}' is not a valid lesson topic.")
+              end
             end
+          else
+            lesson_errors.push("The lesson topics have not been supplied as a list. Please use either [ ] or - list notation in the lesson YAML.")
           end
         end
 
@@ -138,6 +142,16 @@ module MyModule
               lesson_errors.push("'#{f}' is missing.")
             end
           end
+
+          # Check that the original slug is well-formed
+          if Regexp.new("\/") =~ p.data["original"]
+            lesson_errors.push('`original` should only contain the original lesson slug, with no other url elements like /en or /lesson')
+          end
+
+          # Check that translation date is later than publication date
+          unless p.data["translation_date"] > p.data["date"]
+            lesson_errors.push("translation_date is earlier than original publication date.")
+          end
         end
 
         # Check original lesson required fields
@@ -154,6 +168,11 @@ module MyModule
           unless valid_authors.include?(a)
             lesson_errors.push("'#{a}' is not currently listed in ph_authors.yml. Check your spelling.")
           end
+        end
+
+        # Check for download links to github
+        if Regexp.new("[\\(<]https?://github.com/programminghistorian/.+/blob") =~ p["content"]
+          lesson_errors.push('It looks this page contains a full link to data in one of our GitHub repositories. Do not link to GitHub for data. Instead, please use a relative path starting with "/".')
         end
 
         unless lesson_errors.empty?

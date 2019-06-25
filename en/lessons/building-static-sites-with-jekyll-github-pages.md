@@ -23,10 +23,6 @@ redirect_from: /lessons/building-static-sites-with-jekyll-github-pages
 
 **Requirements:** A computer (Mac/Windows/Linux are all okay, but this lesson doesn't cover some aspects of Linux use), the ability to download and install software on the computer, an internet connection that can support downloading software. Users have reported needing between 1-3 hours to complete the entire lesson.
 
-**Difficulty level:** Intermediate (this lesson includes use of the command line and git, *but* walks you through anything needed to complete this lesson). Forthcoming lessons in the basics of git/GitHub and GitHub Pages will be linked here when available, and provide a good background for anyone wishing for deeper understanding of the technology used in this lesson.
-
-**Up to date?:** This lesson was last updated on *May 2, 2017* to fix issues caused by Jekyll version 3.2.
-
 {% include toc.html %}
 
 

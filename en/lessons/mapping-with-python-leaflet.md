@@ -69,7 +69,7 @@ To clarify, we need to figure out how to gather coordinates for a location for e
 
 There's a simple way to do this: you can look up a coordinate online in Google Maps and put each coordinate in your spreadsheet manually.  But, if you had 5,000 points the task becomes a little bit more daunting. If you're faced with a repetitive task, it might be worthwhile to approach it programmatically.
 
-If you're familiar with _Programming Historian_, you might have already noticed that there there are many [lessons available on how to use Python](/lessons/?topic=python).  Python is a great beginner programming language because it is easy to read and happens to be used a lot in GIS applications to optimize workflows.  One of the biggest advantages to Python is the impressive amount of libraries which act like pluggable tools to use for many different tasks.  Knowing that this is a good programmatic approach, we're now going to build a Python script that will automate geocode every address for us.
+If you're familiar with _Programming Historian_, you might have already noticed that there are many [lessons available on how to use Python](/lessons/?topic=python).  Python is a great beginner programming language because it is easy to read and happens to be used a lot in GIS applications to optimize workflows.  One of the biggest advantages to Python is the impressive amount of libraries which act like pluggable tools to use for many different tasks.  Knowing that this is a good programmatic approach, we're now going to build a Python script that will automate geocode every address for us.
 
 [Geopy](https://github.com/geopy/geopy) is a Python library that gives you access to the various geocoding APIs.  Geopy makes it easy for Python developers to locate the coordinates of addresses, cities, countries, and landmarks across the globe using third-party geocoders and other data sources. Geopy includes geocoders built by OpenStreetMap Nominatim, ESRI ArcGIS, Google Geocoding API (V3), Baidu Maps, Bing Maps API, Yahoo! PlaceFinder, Yandex, IGN France, GeoNames, NaviData, OpenMapQuest, What3Words, OpenCage, SmartyStreets, geocoder.us, and GeocodeFarm geocoder services.
 
@@ -290,7 +290,7 @@ To run your python script your command would look like this:
 ```python geocoder.py census-historic-population-borough.csv Area_Name```
 
 _Tip 2:
-If you run geocoder.py too many times because you might get a timeout error. The error will look like this if you use the GoogleV3 geocoder:_
+If you run geocoder.py too many times you might get a timeout error. The error will look like this if you use the GoogleV3 geocoder:_
 
 ```
 'The given key has gone over the requests limit in the 24'

@@ -18,14 +18,6 @@ Nous sommes loin de simplement accepter ou rejeter des articles, comme le font l
 
 Si vous souhaitez proposer une leçon, que vous en soyez l'auteur(e) ou pas, merci d'envoyer un courriel à {% include managing-editor.html lang=page.lang %}.
 
-## Rejoindre notre équipe d'évaluation
-
-<img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-right" />
-
-Le _Programming Historian en français_ attache la plus grande importance à l'évaluation par les pairs, en adoptant une approche ouverte et collaborative qui reconnait pleinement et publiquement le travail des évaluateurs et évaluatrices. Pour vous renseigner plus sur nos principes et sur la procédure d'évaluation, merci de vous référer aux [consignes d'évaluation] [evaluateurs]
-
-Nous espérons que vous allez sérieusement envisager de rejoindre notre équipe d'évaluateurs et d'évaluatrices. Les délais sont flexibles, vous apprendrez beaucoup et vous aurez ainsi l'occasion de contribuer à une ressource largement utilisée, qui jouit d'une très bonne réputation. Merci d'envoyer un courriel à {% include managing-editor.html lang=page.lang %} pour vous présenter et nous faire connaître les compétences, les outils, les sujets et les technologies qui sont dans votre domaine d'expertise.
-
 ## Assurer le suivi éditorial d'une leçon
 
 <img src="{{site.baseurl}}/gallery/editor-guidelines.png" class="garnish rounded float-right" />
@@ -58,7 +50,7 @@ Nous apprécions tout particulièrement les informations reçues sur les liens c
 
 Ce projet est notre démonstration de ce que l'édition scientifique en accès libre peut et doit être. Merci de nous aider à disséminer le message  et à fournir le plus large accès possible à cette ressource en demandant à votre bibliothèque d'enregister le projet dans son catalogue.
 
-Le _Programming Historian_ a sa notice dans WorldCat ([en anglais](http://www.worldcat.org/title/programming-historian/oclc/951537099)) et ([en espagnol](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)).
+Le _Programming Historian_ a sa notice dans WorldCat ([en français](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842)), ([en anglais](http://www.worldcat.org/title/programming-historian/oclc/951537099)) et ([en espagnol](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)).
 
 Toute notre gratitude à la [bibliothèque de l'Université de Purdue](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink), à Amanda Visconti, et à la [bibliothèque de l'Université de Virginia]).
 

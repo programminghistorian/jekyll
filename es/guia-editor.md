@@ -220,12 +220,15 @@ Si la lección fue escrita por un autor nuevo, el editor encargado necesitará u
 ```yaml
 - name: Jim Clifford
   team: false
+  orcid: 0000-0000-1111-1111
   bio:
    es: |
        Jim Clifford es profesor ayudante en el Departamento de Historia de la Universidad de Saskatchewan.
 ```
 
 **Los espacios en blanco son importantes**, así que asegúrate de que la identación se ajusta a la de los otros casos y utiliza espacios en blanco en vez de tabuladores.
+
+Incluir el identificador `orcid` no es obligatorio, pero sí es recomendable si los autores se han registrado previamente en el [portal ORCID](https://orcid.org/). **Como editor, es importante tener la aprobación explícita del autor y asegurarse de que el identificador ORCID utilizado es el correcto**. 
 
 ### 2) Agrega una tabla de contenidos a la lección
 
@@ -248,32 +251,34 @@ Observa el siguiente ejemplo para apreciar cómo debe verse el encabezado YAML d
 ```
 ---
 title: |
-	[Título de la lección]
+	Título de la lección
 collection: lessons
 layout: lesson
-slug: [e.g. introduccion-al-analisis-de-sentimientos]
-date: [Fecha original, YYYY-MM-DD]
-translation_date: [Fecha de traducción, YYYY-MM-DD]
+slug: e.g. introduccion-al-analisis-de-sentimientos
+date: (Fecha original) YYYY-MM-DD
+translation_date: (Fecha de traducción) YYYY-MM-DD
 authors:
-- [Nombre del autor 1]
-- [Nombre del autor 2, etc.]
+- Nombre del autor
+- Nombre del autor etc.
 editors:
-- [Nombre del editor original]
+- Nombre del editor original
 reviewers:
-- [Nombre del revisor original 1]
-- [Nombre del revisor original 2]
+- Nombre del revisor original
+- Nombre del revisor original
 translator:
-- [Nombre del traductor (solo en traducción)]
+- Nombre del traductor (solo en traducción)
 translation-editor:
-- [Nombre del editor de la traducción (solo en traducción)]
+- Nombre del editor de la traducción (solo en traducción)
 translation-reviewer:
-- [Nombre del revisor de la traducción 1 (solo en traducción)]
-- [Nombre del revisor de la traducción 2 (solo en traducción)]
-original: [slug del original ((solo en traducción))]
-difficulty: [(ver abajo o mantener original en traducciones)]
-activity: [(ver abajo o mantener original en traducciones)]
-topics: [(ver abajo o mantener original en traducciones)]
-abstract: "[(ver abajo o traducir el original)]"
+- Nombre del revisor de la traducción 1 (solo en traducción)
+- Nombre del revisor de la traducción 2 (solo en traducción)
+original: slug del original ((solo en traducción))
+difficulty: (ver abajo o mantener original en traducciones)
+activity: (ver abajo o mantener original en traducciones)
+topics: 
+ - tema uno
+ - tema dos (ver abajo o mantener original en traducciones)
+abstract: "(ver abajo o traducir el original)"
 ---
 ```
 

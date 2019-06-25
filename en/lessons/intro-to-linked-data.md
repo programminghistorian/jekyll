@@ -247,7 +247,7 @@ The key thing is that the predicate connects the subject and the object. It desc
 
 You can use a semicolon if the subject is the same but the predicate and object are different, or a comma if the subject and predicate are the same and only the object is different.
 
-    no2010025398 dc:creator viaf:96994048 ,
+    lccn:no2010025398 dc:creator viaf:96994048 ,
                     viaf:12323361 .
 
 
@@ -265,15 +265,15 @@ One of the most approachable ontologies is Friend of a Friend, or [FOAF](https:/
 
 By contrast with Turtle, RDF/XML can look a bit weighty. To begin with, let's just convert one triple from the Turtle above, the one that says that Shakespeare was the creator of *The Two Noble Kinsmen*:
 
-    no2010025398 dc:creator viaf:96994048 .
+    lccn:no2010025398 dc:creator viaf:96994048 .
 
 In RDF/XML, with the prefixes declared inside the XML snippet, this is:
 
 ``` xml
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:dc="http://purl.org/dc/terms/">
-  <rdf:Description rdf:about="http://info:lccn/2010025398">
-    <dc:creator rdf:resource="http://viaf.org/96994048"/>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/names/no2010025398">
+    <dc:creator rdf:resource="http://viaf.org/viaf/96994048"/>
   </rdf:Description>
 </rdf:RDF>
 ```

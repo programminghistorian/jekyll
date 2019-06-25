@@ -202,6 +202,7 @@ If the lesson has been written by a new author, the managing editor will need to
 ```yaml
 - name: Jim Clifford
   team: false
+  orcid: 0000-0000-1111-1111
   bio:
       en: |
           Jim Clifford is an assistant professor in the Department of History
@@ -209,6 +210,8 @@ If the lesson has been written by a new author, the managing editor will need to
 ```
 
 **Whitespace is important**, so be sure that the indentation matches the other examples.
+
+The `orcid` ID is optional, but highly encouraged if [authors have registered for an ID with the service](https://orcid.org/). **Only enter an ORCiD ID that an author has explicitly provided to you. Do enter an ID without first getting that author's confirmation that you are using the correct ID.**
 
 ### 2) Add a table of contents to the lesson
 
@@ -221,32 +224,34 @@ The following code should be added into the text of the lesson, usually before t
 ### 3) Add YAML metadata to the lesson file
 
 ```
-title: ["YOUR TITLE HERE"]
+title: "Your Title Here"
 collection: lessons
 layout: lesson
-slug: [e.g. introduction-to-sentiment-analysis]
-date: [YYYY-MM-DD]
-translation_date: [YYYY-MM-DD (translations only)]
+slug: e.g. introduction-to-sentiment-analysis
+date: YYYY-MM-DD
+translation_date: YYYY-MM-DD (translations only)
 authors:
-- [FORENAME SURNAME 1]
-- [FORENAME SURNAME 2, etc]
+- Forename Surname
+- Forename Surname etc
 reviewers:
-- [FORENAME SURNAME 1]
-- [FORENAME SURNAME 2, etc]
+- Forename Surname
+- Forename Surname etc
 editors:
-- [FORENAME SURNAME]
+- Forename Surname
 translator:
-- [FORENAME SURNAME (translations only)]
+- Forename Surname (translations only)
 translation-editor:
-- [FORNAME SURNAME (translations only)]
+- Forename Surname (translations only)
 translation-reviewer:
-- [FORNAME SURNAME (translations only)]
-original: [slug to original published lesson (translations only)]
-review-ticket: [e.g. https://github.com/programminghistorian/ph-submissions/issues/108]
-difficulty: [see guidance below]
-activity: [ONE OF: acquiring, transforming, analyzing, presenting, sustaining]
-topics: [see guidance below]
-abstract: [see guidance below]
+- Forename Surname (translations only)
+original: slug to original published lesson (translations only)
+review-ticket: e.g. https://github.com/programminghistorian/ph-submissions/issues/108
+difficulty: see guidance below
+activity: ONE OF: acquiring, transforming, analyzing, presenting, sustaining
+topics: 
+ - topic one (see guidance below)
+ - topic two
+abstract: see guidance below
 
 ```
 
@@ -351,6 +356,7 @@ If the lesson has been written by a new author, the managing editor should add i
 ```yaml
 - name: Jim Clifford
   team: false
+  orcid: 0000-0000-1111-1111
   bio:
       en: |
           Jim Clifford is an assistant professor in the Department of History

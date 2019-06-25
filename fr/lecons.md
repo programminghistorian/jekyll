@@ -18,4 +18,4 @@ Cela crée une variable que vous pouvez appeler pour juste chercher ("pull") des
 Cherche ("pulls") les parties de la page qui filtre et présente les informations associées aux leçons depuis includes/lesson-index.html. Notez qu'un fichier séparé,  includes/lesson_describe.html, crée la présentation actuelle des informations associées aux leçons sur la page, et includes/lesson-slug.html crée le slug de leçon approprié (utilisé dans les liens vers les pages individuelles des leçons, les liens vers les avatars et les chemins vers les images.).
 {% endcomment %}
 
-{% include french-alert.html %}
+{% include lesson-index.html %}
