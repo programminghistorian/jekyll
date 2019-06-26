@@ -56,4 +56,4 @@ This cookie is used by Google Analytics to determine the visitor session times o
 
 `__utmc`
 
-This cookie is used by Google Analytics in conjunction with __utmb to determine visitor sessions. Unlike __utmb, this cookie does not have an expiry date. It determines whether a new session should be created based on whether you have previously closed your browser, re-opened it and come back to the website.
+This cookie is used by Google Analytics in conjunction with `__utmb` to determine visitor sessions. Unlike `__utmb`, this cookie does not have an expiry date. It determines whether a new session should be created based on whether you have previously closed your browser, re-opened it and come back to the website.
