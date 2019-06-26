@@ -592,6 +592,7 @@
    - community
    - board
    - twitter-dev
+   - communication
 
 - name: Ted Dawson
   team: false
@@ -786,6 +787,7 @@
    - editorial
    - board
    - ed-manager
+   - communication
 
 - name: Evan Peter Williamson
   team: false
@@ -909,7 +911,7 @@
     - spanish
     - board
     - technical
-    - communication
+    - communication-manager
 
 - name: Jon MacKay
   team: false
