@@ -103,7 +103,7 @@
   definition:
     en: Responsible for managing relationships with our sponsors
     es: Responsable de coordinar las relaciones con las y los patrocinadores
-    fr: Personne chargée des relations avec les sponsors du projet 
+    fr: Personne chargée des relations avec les sponsors du projet
 - type: communication
   label:
     en: Communication Manager
@@ -112,7 +112,34 @@
   definition:
     en: Responsible for managing and developing communication channels
     es: Responsable del mantenimiento y creación de canales de comunicación
-    fr: Responsable de la gestion et du développement des canaux de communication    
+    fr: Responsable de la gestion et du développement des canaux de communication
+- type: twitter-dev
+  label:
+    en: Twitter Developer
+    es:
+    fr:
+  definition:
+    en: Responsible for maintaining the Programming Historian Twitter bot
+    es:
+    fr:
+- type: ed-manager
+  label:
+    en: Education Manager
+    es:
+    fr:
+  definition:
+    en: Responsible for the overall education aspect of the project
+    es:
+    fr:
+- type: impact-manager
+  label:
+    en: Impact Manager
+    es:
+    fr:
+  definition:
+    en: Supports, coordinates, and enhances research impact and analytics
+    es:
+    fr:
 # --- Derived roles ---
 - type: ombuds-es
   label:

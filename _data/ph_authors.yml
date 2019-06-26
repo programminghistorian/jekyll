@@ -591,6 +591,7 @@
    - editorial
    - community
    - board
+   - twitter-dev
 
 - name: Ted Dawson
   team: false
@@ -784,6 +785,7 @@
   team_roles:
    - editorial
    - board
+   - ed-manager
 
 - name: Evan Peter Williamson
   team: false
