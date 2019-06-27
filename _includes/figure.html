@@ -21,9 +21,7 @@ In the event that an external image link has been provided, it will use that pat
 {% endif %}
 
 <figure>
-<a href="{{ fullpath }}">
     <img src="{{ fullpath }}" alt="{{ include.caption }}">
-	</a>
 <figcaption>
     {{ include.caption | markdownify }}
 </figcaption>
