@@ -42,6 +42,16 @@ menu-about-research:
   fr:
     title: Recherche
     link: /fr/recherche
+menu-about-privacy:
+  en:
+    title: Privacy Policy
+    link: /en/privacy-policy
+  es:
+    title: Privacy Policy
+    link: /en/privacy-policy
+  fr:
+    title: Privacy Policy
+    link: /en/privacy-policy
 menu-contribute:
   en: Contribute
   es: Contribuciones
