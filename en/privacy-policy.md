@@ -7,7 +7,7 @@ layout: blank
 
 ## Publishing Data
 
-As an open access publisher committed to openness, Programming Historian collects a number of pieces of information about authors, translators, editors, and reviewers. This information is publicly displayed in the following file: <https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml>, and is also used to populate various pages of our website with relevant information (eg, an author's name and bio).
+As an open access publisher committed to openness, *Programming Historian* collects a number of pieces of information about authors, translators, editors, and reviewers. This information is publicly displayed in the following file: <https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml>, and is also used to populate various pages of our website with relevant information (eg, an author's name and bio).
 
 Depending on one's role, the data collected may include:
 
@@ -28,7 +28,7 @@ If you wish to contact us to discuss any data we may have about you, you can ema
 
 ## Google Analytics Data
 
-The Programming Historian also collects web traffic data. We use this data to identify the needs of our visitors, to identify types of lessons that are in high demand in certain geographic regions, to promote the success of the project with potential funders, partners, and outside bodies through summary statistics, and to conduct and publish research about digital humanities and teaching and learning.
+The *Programming Historian* also collects web traffic data. We use this data to identify the needs of our visitors, to identify types of lessons that are in high demand in certain geographic regions, to promote the success of the project with potential funders, partners, and outside bodies through summary statistics, and to conduct and publish research about digital humanities and teaching and learning.
 
 None of the data collected by Google Analytics allows us to identify individuals.
 
