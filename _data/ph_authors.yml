@@ -280,6 +280,7 @@
    - archive
    - treasurer
    - sponsorship
+   - technical
 
 - name: Amanda Morton
   team: false
@@ -519,7 +520,7 @@
         Matthew Lincoln est développeur en humanités numériques à l'Université Carnegie Mellon et historien de l'art européen moderne.
   team_roles:
    - editorial
-   - technical
+   - technical-lead
    - board
 
 - name: Sarah Simpkin
@@ -591,6 +592,7 @@
    - editorial
    - community
    - board
+   - technical
 
 - name: Ted Dawson
   team: false
@@ -784,6 +786,7 @@
   team_roles:
    - editorial
    - board
+   - technical
 
 - name: Evan Peter Williamson
   team: false
@@ -980,6 +983,7 @@
     - french
     - board
     - managing-fr
+    - technical
   bio:
         en: |
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
@@ -1139,8 +1143,10 @@
       en: |
           Matthew J. Lavin is a Clinical Assistant Professor of English and Director of the Digital Media Lab at the University of Pittsburgh. His current scholarship and teaching focus on book history, cultural analytics, turn-of-the-twentieth-century U.S. literature and culture.
 
+
 - name: Go Sugimoto
   team: false
   bio:
       en: |
           Go Sugimoto is a data analyst at the Austrian Centre for Digital Humanities (ACDH) in the Austrian Academy of Sciences. He has worked for a wide range of cultural heritage projects around the world, including Europeana and Archives Portal Europe at the National Archives of the Netherlands, CHIRON fellowship at the University of Florence (Italy), the National Museum of Modern Art Tokyo (Japan), and Wessex Archaeology (UK).
+
