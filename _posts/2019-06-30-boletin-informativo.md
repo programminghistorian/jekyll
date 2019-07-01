@@ -69,5 +69,6 @@ Con el objetivo de poder publicar más lecciones originales en español y contin
   Ce tutoriel vous apprendra comment appliquer diverses méthodes stylométriques pour déterminer les auteurs de textes disputés. Trois méthodes sont abordées: les courbes caractéristiques de composition de Mendenhall, la méthode du khi carré de Kilgariff et, enfin, la méthode du Delta de John Burrows.
 
 ## Próximos eventos
+El 11 de julio Antonio Rojas Castro, Anna-Maria Sichani y Sofia Papastamkou presentarán su poster "Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French speaking DH Communities" o "El diseño de iniciativas pedagógicas digitales y multilingües: Programming Historian para las comunidades HD hablantes de inglés, español y francés" en la conferencia **DH 2019** en Utrecht, Países Bajos. 
 
-Parte del equipo de *Programming Historian en español* estará en la conferencia ACH 2019 el 25 de julio en Pittsburg, Estados Unidos. Maria José Afanador-Llach, Jennifer Isasi y Antonio Rojas Castro presentarán su trabajo "Retos en la producción de tutoriales de HD en contextos hispanohablantes." 
+Parte del equipo de *Programming Historian en español* estará en la conferencia **ACH 2019** el 25 de julio en Pittsburg, Estados Unidos. Maria José Afanador-Llach, Jennifer Isasi y Antonio Rojas Castro presentarán su trabajo "Retos en la producción de tutoriales de HD en contextos hispanohablantes." 
