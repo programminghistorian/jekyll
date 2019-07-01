@@ -1,7 +1,7 @@
 ---
 title: Travailler avec des fichiers texte en Python
 layout: lesson
-slug: /fr/lecons/travailler-avec-des-fichiers-texte
+slug: travailler-avec-des-fichiers-texte
 date: 2012-07-17
 authors:
 - William J. Turkel
