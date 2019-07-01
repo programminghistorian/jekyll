@@ -71,5 +71,6 @@ Pour atteindre nos objectifs, qui consistent à publier des leçons d’espagnol
 
 
 ## Évènements à venir
+Le 11 juillet, Antonio Rojas Castro, Anna-Maria Sichani et Sofia Papastamkou présenteront leur affiche "Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French speaking DH Communities" ou "Concevoir des initiatives de pédagogie numérique multilingue: *Programming Historian* pour les communautés DH anglophones, francophones et francophones" à la conférence DH 2019 à Utrecht, aux Pays-Bas. 
 
 Une partie de l'équipe de *The Programming Historian en español* présentera à la conférence ACH 2019 le 25 juillet à Pittsburg. Maria José Afanador-Llach, Jennifer Isasi et Antonio Rojas Castro présentent "Retos en la producción de tutoriales de HD en contextos hispanohablantes" ou "Les défis de la production de leçons de DH dans des contextes hispanophones".s
