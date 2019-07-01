@@ -98,16 +98,16 @@
 - type: communication-manager
   label:
     en: Communication Manager
-    es: Manger de comunicación
+    es: Mánager de comunicación
     fr: Responsable de la communication
   definition:
-    en: Responsible for coordinating efforts of the communications team
-    es:
+    en: Responsible for coordinating efforts of the communication team
+    es: Responsable de la coordinación del equipo de comunicación
     fr:
 - type: communication
   label:
     en: Communication Team
-    es:
+    es: Equipo de comunicación
     fr:
   definition:
     en: Responsible for managing and developing communication channels
@@ -116,29 +116,29 @@
 - type: twitter-dev
   label:
     en: Twitter Developer
-    es:
+    es: Desarrollador de Twitter
     fr:
   definition:
     en: Responsible for maintaining the Programming Historian Twitter bot
-    es:
+    es: Responsable del mantenimiento del bot del Twitter de Programming Historian
     fr:
 - type: ed-manager
   label:
     en: Education Manager
-    es:
+    es: Mánager de educación 
     fr:
   definition:
     en: Responsible for the overall education aspect of the project
-    es:
+    es: Responsable del aspecto educativo general del proyecto 
     fr:
 - type: impact-manager
   label:
     en: Impact Manager
-    es:
+    es: Mánager de impacto 
     fr:
   definition:
     en: Supports, coordinates, and enhances research impact and analytics
-    es:
+    es: Apoya, coordina y amplía la investigación y análisis del impacto del proyecto
     fr:
 # --- Derived roles ---
 - type: ombuds-es
