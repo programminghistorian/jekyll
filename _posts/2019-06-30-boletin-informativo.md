@@ -28,7 +28,7 @@ La publicación de las lecciones originales llega en el [segundo aniversario](ht
 
 ## Nuevos miembros del equipo 
 
-Con el objetivo de poder publicar más lecciones originales en español y continuar la traducción de lecciones en inglés, [Riva Quiroga y Joshua Ortiz Baco se unieron a *Programming Historian en español*]((https://programminghistorian.org/posts/riva-quiroga-joshua-ortiz)) en abril de este año. Ambos habían participado ya en la revisión de traducciones antes de unirse oficialmente al equipo editorial y están muy interesados en el desarrollo de metodologías digitales que coloquen en el centro los contextos de Latinoamérica. 
+Con el objetivo de poder publicar más lecciones originales en español y continuar la traducción de lecciones en inglés, [Riva Quiroga y Joshua Ortiz Baco se unieron a *Programming Historian en español*](https://programminghistorian.org/posts/riva-quiroga-joshua-ortiz) en abril de este año. Ambos habían participado ya en la revisión de traducciones antes de unirse oficialmente al equipo editorial y están muy interesados en el desarrollo de metodologías digitales que coloquen en el centro los contextos de Latinoamérica. 
 
 ## Nuevas publicaciones
 
