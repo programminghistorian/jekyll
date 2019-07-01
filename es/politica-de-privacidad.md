@@ -1,15 +1,14 @@
-```
 ---
 title: Política de privacidad
+original: privacy-policy
 layout: blank
 ---
-```
 
 # Política de privacidad
 
 ## Datos de publicación
 
-Como publicación en acceso abierto comprometida con la transparencia, *Programming Historian* recopila cierta información sobre los autores, traductores, editores y revisores. Esta información se muestra de manera pública en el siguiente archivo:  https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml y también se utiliza para completar varias páginas de nuestro sitio web con información relevante (por ejemplo, el nombre de una autora y su biografía).
+Como publicación en acceso abierto comprometida con la transparencia, *Programming Historian* recopila cierta información sobre los autores, traductores, editores y revisores. Esta información se muestra de manera pública en el siguiente archivo:  <https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml> y también se utiliza para completar varias páginas de nuestro sitio web con información relevante (por ejemplo, el nombre de una autora y su biografía).
 
 Dependiendo del papel de cada cual, los datos recopilados pueden incluir: 
 
