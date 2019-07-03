@@ -1,7 +1,7 @@
 ---
 title: Analyse de corpus avec Antconc
 layout: lesson
-slug: analyse-corpus-antconc
+slug: /fr/lecons/analyse-corpus-antconc
 date: 2015-06-19
 authors:
 - Heather Froehlich
