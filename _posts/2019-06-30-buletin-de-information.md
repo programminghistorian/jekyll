@@ -8,29 +8,29 @@ categories: posts
 
 # Bulletin d'information #1 
 
-Dans le cadre de nos stratégies de communication, nous publierons tous les trois mois un bulletin d'information résumant les progrès de notre communauté tout au long de l'année. Nous espérons pouvoir continuer à nourrir une communauté des humanités numériques multilingue et accueillante. 
+*The Programming Historian* lance un bulletin d'information trimestriel qui va offrir un aperçu des progrès de notre communauté tout au long de l'année. Nous espérons ainsi continuer à alimenter une communauté des humanités numériques multilingue et accueillante. 
 
 ## Le PH en français est en ligne!
 
 Le [*Programming Historian en français*](http://programminghistorian.org/fr) est en ligne! 
 
-Dans le but d'élargir notre projet sur le plan international, *Programming Historian en français* a été officiellement lancé en avril 2019. L'ajout d'une troisième langue à la revue n'a été possible que grâce au travail assidu et discipliné du comité de rédaction français et de notre équipe technique. Sofia Papastamkou, Marie Puren et François Dominic Laramée ont travaillé pendant plus de dix mois sur la traduction de l’infrastructure du journal avant son lancement. Parallèlement, l'équipe technique nous a permis de restructurer et de rendre le site trilingue.
+Dans le but d'élargir notre projet sur le plan international, le *Programming Historian en français* a été officiellement lancé en avril 2019. Cette troisième version linguistique de notre revue n'a été possible que grâce au travail assidu et discipliné du comité de rédaction français et de notre équipe technique. Sofia Papastamkou, Marie Puren et François Dominic Laramée ont travaillé pendant plus de dix mois sur la traduction de l’infrastructure du site, que le travail en parallèle de l'équipe technique a permis de restructurer pour le rendre trilingue.
 
-L'équipe travaille à la traduction de tutoriels existants. Jusqu'à présent, ils ont publié deux de nos tutoriels les plus populaires: François Dominic a traduit sa propre leçon "[Introduction à la stylométrie en Python](https://programminghistorian.org/fr/lecons/introduction-a-la-stylometrie-avec-python)" et Sybille Clochet a traduit "[Nettoyer ses données avec OpenRefine](https://programminghistorian.org/fr/lecons/nettoyer-ses-donnees-avec-openrefine)". L'équipe travaille actuellement à la révision de quatre autres tutoriels.
+L'équipe travaille actuellement à la traduction de tutoriels existants. Jusqu'à présent, deux de nos tutoriels les plus populaires ont été publiés: "[Introduction à la stylométrie en Python](https://programminghistorian.org/fr/lecons/introduction-a-la-stylometrie-avec-python)", traduit par son propre auteur, François Dominic Laramée, et "[Nettoyer ses données avec OpenRefine](https://programminghistorian.org/fr/lecons/nettoyer-ses-donnees-avec-openrefine)", traduit par Sybille Clochet. Quatre autres tutoriels sont en cours de relecture et seront bientôt en ligne. 
 
 
 
 ## Premières leçons originales en espagnol
 
-Six mois après le succès de notre atelier d’écriture à Bogotá, en Colombie, *Programming Historian en español* a publié ses deux premiers cours originaux en espagnol. Armando Luza a écrit [Creación de corpus paralelo con LF Aligner](https://programminghistorian.org/es/lecciones/corpus-paralelo-lfaligner), un logiciel d'aide à la traduction, et Silvia Gutiérrez a publié [Análisis de corpus con Voyant Tools](https://programminghistorian.org/es/lecciones/analisis-voyant-tools), un guide du populaire outil d’analyse de texte.
+Six mois après le succès de notre atelier d’écriture à Bogotá, en Colombie, le *Programming Historian en español* a publié ses deux premiers cours originaux en espagnol. Armando Luza a écrit [Creación de corpus paralelo con LF Aligner](https://programminghistorian.org/es/lecciones/corpus-paralelo-lfaligner), mobilisant un logiciel d'aide à la traduction, et Silvia Gutiérrez a publié [Análisis de corpus con Voyant Tools](https://programminghistorian.org/es/lecciones/analisis-voyant-tools), un guide du populaire outil d’analyse textuelle.
 
-La publication des leçons originales coïncide au [deuxième anniversaire](https://programminghistorian.org/posts/lanzamiento-PH-espanol) du début de *Programming Historian en español* et nous ne pourrions être plus fiers et reconnaissants de notre communauté hispanophone!
+La publication des leçons originales coïncidant avec le [deuxième anniversaire](https://programminghistorian.org/posts/lanzamiento-PH-espanol) du *Programming Historian en español*, nous ne pourrions être plus fiers de notre communauté hispanophone, à laquelle nous sommes reconnaissants !
 
 ## Nouveaux collaborateurs
 
-Pour atteindre nos objectifs, qui consistent à publier des leçons d’espagnol plus originales et à continuer de traduire en anglais, Riva Quiroga et Joshua Ortiz Baco [ont rejoint l’équipe de *The Programming Historian en español*](https://programminghistorian.org/posts / riva-quiroga-joshua-ortiz). Ils ont tous deux participé au processus de révision des traductions avant de rejoindre le comité de rédaction et sont très intéressés par le développement de méthodologies numériques qui placent les contextes de l'Amérique latine à leur centre.
+Pour atteindre nos objectifs, à savoir la publication à la fois des leçons originales en espagnol et d'autres traduites de l'anglais, Riva Quiroga et Joshua Ortiz Baco [ont rejoint l’équipe de *The Programming Historian en español*](https://programminghistorian.org/posts / riva-quiroga-joshua-ortiz). Ils ont tous deux participé au processus de relecture des traductions avant de rejoindre le comité de rédaction et sont très intéressés par le développement de méthodologies numériques qui attachent une place centrale aux contextes scientifiques et culturels de l'Amérique latine.
 
-## **Nouvelles leçons**
+## **Nouvelles leçons et traductions**
 
 - [Introduction to Populating a Website with API Data](https://programminghistorian.org/en/lessons/introduction-to-populating-a-website-with-api-data) by Go Sugimoto 
 
@@ -71,6 +71,6 @@ Pour atteindre nos objectifs, qui consistent à publier des leçons d’espagnol
 
 
 ## Évènements à venir
-Le 11 juillet, Antonio Rojas Castro, Anna-Maria Sichani et Sofia Papastamkou présenteront leur affiche "Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French speaking DH Communities" ou "Concevoir des initiatives de pédagogie numérique multilingue: *Programming Historian* pour les communautés DH anglophones, francophones et francophones" à la conférence DH 2019 à Utrecht, aux Pays-Bas. 
+Lors de la conférence DH 2019 qui aura lieu à Utrecht, Pays-Bas, Antonio Rojas Castro, Anna-Maria Sichani et Sofia Papastamkou présenteront le 11 juillet leur poster "Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French speaking DH Communities" (Concevoir des initiatives de pédagogie numérique multilingue: le *Programming Historian* pour les communautés anglophones, hispanophones et francophones des humanités numériques). Avant la conférence, la même équipe participe également, le 8 juillet, à l'atelier "Accelerating DH Education" (Accélérant l'éducation en humanités numériques) avec une présentation intitulée "Three Challenges in Developing Open Multilingual DH Educational Resources: The Case of The Programming Historian" (Trois défis pour le développement de ressources éducationnelles multilingues en humanités numériques: le cas du Programming Historian".   
 
-Une partie de l'équipe de *The Programming Historian en español* présentera à la conférence ACH 2019 le 25 juillet à Pittsburg. Maria José Afanador-Llach, Jennifer Isasi et Antonio Rojas Castro présentent "Retos en la producción de tutoriales de HD en contextos hispanohablantes" ou "Les défis de la production de leçons de DH dans des contextes hispanophones".s
+En outre, une partie de l'équipe du *Programming Historian en español* participe à la conférence ACH 2019, le 25 juillet, à Pittsburgh, Pennsylvanie, aux Etats-Unis. Plus particulièrement, Maria José Afanador-Llach, Jennifer Isasi et Antonio Rojas Castro présentent "Retos en la producción de tutoriales de HD en contextos hispanohablantes" ou "Les défis de la production de leçons en humanités numériques dans des contextes hispanophones".
