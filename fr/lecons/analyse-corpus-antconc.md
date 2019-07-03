@@ -161,7 +161,7 @@ Que voyez-vous ? Je comprends que cela peut être difficille d'identifier des sc
 
 
 (Ceci est peut-être plus facile à lire !)
-Vous pouvez ajuster la façon dont AntConc trie les informations en modifiant les paramètres dans le cercle rouge : L correspond à 'gauche' (pour _left_) et R à 'droite' (pour _right__) ; vous pouvez les étendre jusqu'à ±5 dans les deux sens. La valeur par défaut est 1 gauche, 2 droite, 3 droite, mais vous pouvez changer cela pour rechercher 3 gauche, 2 gauche, 1 droite (pour obtenir des phrases et/ou des trigrammes qui se terminent avec le terme qui vous intéresse, par exemple) en cliquant sur les boutons flèches haut ou bas. Si vous ne voulez pas inclure une option de tri, vous pouvez l'ignorer (comme par défaut : 1L, 2R, 3R) ou l'inclure comme un 0. Des options de tri moins linéaire sont disponibles, telles que 4 gauche, 3 droite, 5 droite, qui comprend beaucoup d'autres informations contextuelles. Ces paramètres peuvent être lents à réagir, mais soyez patients. Si vous n'êtes pas sûr(e) du résultat de la recherche, appuyez simplement sur "_sort_" (trier) pour voir ce qui s'est passé et ajuster en conséquence.
+Vous pouvez ajuster la façon dont AntConc trie les informations en modifiant les paramètres dans le cercle rouge : L correspond à 'gauche' (pour _left_) et R à 'droite' (pour _right_) ; vous pouvez les étendre jusqu'à ±5 dans les deux sens. La valeur par défaut est 1 gauche, 2 droite, 3 droite, mais vous pouvez changer cela pour rechercher 3 gauche, 2 gauche, 1 droite (pour obtenir des phrases et/ou des trigrammes qui se terminent avec le terme qui vous intéresse, par exemple) en cliquant sur les boutons flèches haut ou bas. Si vous ne voulez pas inclure une option de tri, vous pouvez l'ignorer (comme par défaut : 1L, 2R, 3R) ou l'inclure comme un 0. Des options de tri moins linéaire sont disponibles, telles que 4 gauche, 3 droite, 5 droite, qui comprend beaucoup d'autres informations contextuelles. Ces paramètres peuvent être lents à réagir, mais soyez patients. Si vous n'êtes pas sûr(e) du résultat de la recherche, appuyez simplement sur "_sort_" (trier) pour voir ce qui s'est passé et ajuster en conséquence.
 
 
 ### Opérateurs de recherche
@@ -180,7 +180,7 @@ Pour connaître la différence entre * et ?, recherchez "_th*n_" et "_th?n_". Ce
 
 
 L'opérateur ? est plus spécifique que l'opérateur * :  
-"_wom?n+" - à la fois "_woman_" (femme) et "_women_" (femmes)  
+"_wom?n+_" - à la fois "_woman_" (femme) et "_women_" (femmes)  
 "_m?n_" - "_man_" (homme) et "_men_" (hommes), mais aussi "_min_"  
 comparativement "_m*n_" n'est pas utile, parce que vous allez avoir "_mean_", "_melon_", etc.
 
@@ -255,7 +255,7 @@ L'un des types d'analyse les plus intéressant consiste à comparer votre corpus
 
 J'ai sélectionné des critiques de films auxquels Steven Spielberg est associé (en tant que réalisateur ou producteur). On peut les comparer à un corpus de référence de films de différents réalisateurs.
 
-Réfléchissez bien à ce dont pourrait ressembler un corpus de référence pour votre propre recherche (par exemple, une étude des écrits d'Agatha Christie dans ses dernières années serait très utile comme corpus d'analyse pour la comparaison avec un corpus de référence constitué de tous ses romans). Rappelez-vous, encore une fois, que la construction de corpus est un sous-domaine à part entière.
+Réfléchissez bien à ce à quoi pourrait ressembler un corpus de référence pour votre propre recherche (par exemple, une étude des écrits d'Agatha Christie dans ses dernières années serait très utile comme corpus d'analyse pour la comparaison avec un corpus de référence constitué de tous ses romans). Rappelez-vous, encore une fois, que la construction de corpus est un sous-domaine à part entière.
 
 
 Allez dans _Settings_ > _Tool preferences_ > _Keyword List_ (Paramètres > Options des outils > Liste des mots-clés).  
