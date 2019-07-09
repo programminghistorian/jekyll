@@ -18,7 +18,7 @@ Le [*Programming Historian en français*](http://programminghistorian.org/fr) 
 
 In order to expand our project internationally, *Programming Historian en français* [officially launched](https://programminghistorian.org/posts/welcome-ph-fr) in April 2019. The addition of a third language was only possible thanks to the hard work of the French editorial board and our technical team. Sofia Papastamkou, Marie Puren and François Dominic Laramée worked for more than ten months on the translation of the journal’s infrastructure before its launch. At the same time, the technical team restructured and made the site trilingual.
 
-The team is working on translating existing tutorials. So far, they have published two of our most popular tutorials: François Dominic translated his own lesson [Introduction à la stylométrie en Python](https://programminghistorian.org/fr/lecons/introduction-a-la-stylometrie-avec-python) and Sybille Clochet translated [Nettoyer ses données avec OpenRefine](https://programminghistorian.org/fr/lecons/nettoyer-ses-donnees-avec-openrefine).. The team is currently reviewing four other tutorials. 
+The team is working on translating existing tutorials. So far, they have published two of our most popular tutorials: François Dominic translated his own lesson [Introduction à la stylométrie en Python](https://programminghistorian.org/fr/lecons/introduction-a-la-stylometrie-avec-python) and Sybille Clochet translated [Nettoyer ses données avec OpenRefine](https://programminghistorian.org/fr/lecons/nettoyer-ses-donnees-avec-openrefine). The team is currently reviewing four other tutorials. 
 
 ## First Original Lessons in Spanish
 
