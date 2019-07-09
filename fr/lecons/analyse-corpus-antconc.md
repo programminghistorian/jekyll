@@ -47,7 +47,7 @@ L'analyse de corpus est un type d'analyse textuelle qui permet de faire des comp
 
 Vous avez déjà fait ce genre de choses auparavant, si vous avez déjà...
 
-* recherché un terme spécifique dans un document PDF ou doc
+* recherché un terme spécifique dans un document .pdf ou .doc
 * utilisé [Voyant Tools][48] pour analyser des schémas dans un texte
 * suivi les tutoriels d'introduction à Python du [Programming Historian][51]
 
@@ -66,7 +66,7 @@ Dézippez le fichier si nécessaire, et lancez l'application. Les captures d'éc
 2. L'interface utilisateur d'AntConc, importer un corpus
 3. Recherche de mot-clé-en-contexte (_keyword-in-context_)
 4. Fonctions avancées de mot-clé-en-contexte (_keyword-in-context_)
-5. Cooccurences et listes de mots
+5. Cooccurrences et listes de mots
 6. Comparer des corpus
 7. Discussion : Faire des comparaisons significatives
 8. Ressources supplémentaires
@@ -75,7 +75,7 @@ Dézippez le fichier si nécessaire, et lancez l'application. Les captures d'éc
 ### Travailler avec des fichiers texte brut
 * Antconc fonctionne avec des fichiers texte brut avec l'extension .txt (ex. : Hamlet.txt).
 * Antconc **ne lira pas** les fichiers en .doc, .docx, .pdf. Vous allez devoir convertir ces fichiers en .txt.
-* Il lira les fichiers XML qui sont enregistrés en tant que fichiers.txt (ce n'est pas grave si vous ne savez pas ce qu'est un fichier XML).
+* Il lira les fichiers XML qui sont enregistrés en tant que fichiers .txt (ce n'est pas grave si vous ne savez pas ce qu'est un fichier XML).
 
 Visitez votre site Web d'actualités préféré, et cliquez sur un article (peu importe lequel, pourvu qu'il s'agisse principalement de texte). Sélectionnez tout le texte de l'article (en-tête, signature, etc.), et faites un clic droit sur "copier".
 
@@ -87,7 +87,7 @@ Enregistrez l'article en tant que fichier .txt sur le bureau. Vous pouvez faire 
 
 Allez sur votre bureau et vérifiez que vous pouvez trouver votre fichier texte.
 
-Répétez la procédure plusieurs fois et c'est ainsi que vous construirez un corpus de fichiers texte brut. Ce processus s'appelle la construction de corpus, ce qui implique très souvent d'aborder des questions d'échantillonnage, de représentativité et d'organisation. Rappelez-vous, *chaque fichier que vous voulez utiliser dans votre corpus _doit_ être un fichier texte brut pour qu'Antconc puisse l'utiliser.* Il est d'usage de nommer les fichiers avec le suffixe .txt pour que vous sachiez de quel type de fichier il s'agit.
+Répétez la procédure plusieurs fois et c'est ainsi que vous construirez un corpus de fichiers texte brut. Ce processus s'appelle la construction de corpus, ce qui implique très souvent d'aborder des questions d'échantillonnage, de représentativité et d'organisation. Rappelez-vous, *chaque fichier que vous voulez utiliser dans votre corpus __doit__ être un fichier texte brut pour qu'Antconc puisse l'utiliser.* Il est d'usage de nommer les fichiers avec le suffixe .txt pour que vous sachiez de quel type de fichier il s'agit.
 
 Comme vous pouvez l'imaginer, il peut être assez fastidieux de constituer un corpus substantiel un fichier à la fois, surtout si vous avez l'intention de traiter un ensemble important de documents. Il est donc très courant d'utiliser l'extraction de contenus (_webscraping_) (en utilisant un petit programme pour télécharger automatiquement les fichiers sur le web pour vous) pour construire votre corpus. Pour en savoir plus sur les concepts et les techniques d'extraction, consultez les tutoriels du _Programming Historian_ sur l'[extraction avec Beautiful Soup][50] et le [téléchargement automatique avec wget][51] (en anglais).
 Plutôt que de construire un corpus un document à la fois, nous allons utiliser un corpus préparé de critiques de films positives et négatives, emprunté au [_Natural Language Processing Toolkit_](http://www.nltk.org/). Le corpus des critiques de films de la NLTK compte 2000 critiques, organisées par résultats positifs et négatifs ; aujourd'hui, nous allons aborder un petit sous-ensemble d'entre eux (200 positifs, 200 négatifs).
@@ -104,14 +104,14 @@ Quand AntConc sera lancé, il ressemblera à ceci.
 
 Sur le côté gauche, il y a une colonne (_Corpus Files_) qui affiche les différents fichiers chargés (que nous allons utiliser dans un instant).
 
-Il y a 7 onglets en haut :
-**Concordance** _(Concordance)_: Cela vous montrera ce que l'on appelle la vue mot-clé en contexte (_KeyWord-In-Context_, abréviation KWIC, plus d'informations à ce sujet dans une minute), en utilisant la barre de recherche en dessous.
-**Concordance Plot** _(Graphe des concordances)_: Ceci vous montrera une visualisation très simple de votre recherche KWIC, où chaque occurence du mot recherché sera représentée par une petite ligne noire du début à la fin de chaque fichier contenant le terme.
-**File View** _(Vue de fichier)_: Cela vous montrera une vue complète du fichier, pratique pour voir le contexte plus large d'un résultat.
-**Clusters** _(Grappes)_: Cette vue vous montre les mots qui apparaissent souvent ensemble.
-**Collocates** _(Cooccurences)_: Les clusters nous montrent des mots qui apparaissent _définitivement_ ensemble dans un corpus ; les cooccurences (_collocates_) montrent des mots qui sont statistiquement susceptibles d'apparaître ensemble.
-**Word List** _(Liste des mots)_: Tous les mots de votre corpus.
-**Keyword List** _(Liste des mots-clés)_: Ceci permet des comparaisons entre deux corpus.
+Il y a 7 onglets en haut:  
+**Concordance** _(Concordance)_: Cela vous montrera ce que l'on appelle la vue mot-clé en contexte (_KeyWord-In-Context_, abréviation KWIC, plus d'informations à ce sujet dans une minute), en utilisant la barre de recherche en dessous.  
+**Concordance Plot** _(Graphe des concordances)_: Ceci vous montrera une visualisation très simple de votre recherche KWIC, où chaque occurence du mot recherché sera représentée par une petite ligne noire du début à la fin de chaque fichier contenant le terme.  
+**File View** _(Vue de fichier)_: Cela vous montrera une vue complète du fichier, pratique pour voir le contexte plus large d'un résultat.  
+**Clusters** _(Grappes)_: Cette vue vous montre les mots qui apparaissent souvent ensemble.  
+**Collocates** _(Cooccurrences)_: Les clusters nous montrent des mots qui apparaissent _définitivement_ ensemble dans un corpus ; les cooccurrences (_collocates_) montrent des mots qui sont statistiquement susceptibles d'apparaître ensemble.  
+**Word List** _(Liste des mots)_: Tous les mots de votre corpus.  
+**Keyword List** _(Liste des mots-clés)_: Ceci permet des comparaisons entre deux corpus.  
 
 En guise d'introduction, ce tutoriel ne fait qu'effleurer la surface de ce que vous pouvez faire avec AntConc. Nous nous concentrerons sur les fonctions _Concordance_, _Collocates_, _Keywords_ et _Word List_.
 
@@ -209,10 +209,10 @@ Effectuez cette opération pour chacune des deux recherches, puis examinez les d
 
 #### L'opérateur | ("ou")
 
-**Exercice : **
-Recherchez  "_she|he_".
+**Exercice:**
+Recherchez  "_she|he_".  
 
-Maintenant, recherchez-les séparément : combien d'occurences "_she_" comparé à "_he_" ?
+Maintenant, recherchez-les séparément : combien d'occurences "_she_" comparé à "_he_" ?  
 
 Il y a beaucoup moins de cas de "_she_"- pourquoi ? C'est une question de recherche ! Une bonne question de suivi pourrait être de trier la recherche "_she|he_" et de voir si des verbes particuliers suivent chacun d'eux.
 
@@ -221,27 +221,27 @@ Il y a beaucoup moins de cas de "_she_"- pourquoi ? C'est une question de recher
 Entraînez-vous à rechercher un mot de votre choix, à le trier de différentes façons, à utiliser des métacaractères et enfin à exporter les résultats. La question centrale à se poser ici : quels types de modèles voyez-vous ? Pouvez-vous les expliquer ?
 
 
-### Cooccurences (_collocates_) et listes des mots (_word lists_)
+### Cooccurrences (_collocates_) et listes des mots (_word lists_)
 Après avoir regardé les lignes KWIC à la recherche de schémas, n'aimeriez-vous pas que l'ordinateur puisse vous donner une liste des mots qui apparaissent le plus souvent en compagnie de votre mot-clé ?
 
-Bonne nouvelle, il y a un moyen d'obtenir cette information, et elle est disponible dans l'onglet _Collocates_ (Cooccurences). Cliquez dessus, et AntConc vous dira qu'il doit créer une liste de mots. Appuyez sur OK ; il le fera automatiquement.
+Bonne nouvelle, il y a un moyen d'obtenir cette information, et elle est disponible dans l'onglet _Collocates_ (Cooccurrences). Cliquez dessus, et AntConc vous dira qu'il doit créer une liste de mots. Appuyez sur OK ; il le fera automatiquement.
 
 
 > REMARQUE : Vous n'obtiendrez cet avis que si vous n'avez pas encore créé de liste de mots.
 {% include figure.html filename="wordlistwarning.png" caption="Avertissement liste de mots." %}
 
-Essayez de générer des colocations pour "_she_"
+Essayez de générer des coooccurrences pour "_she_"
 
 
 Les résultats non triés sembleront commencer par des mots vides (mots qui construisent des phrases) puis descendre jusqu'aux mots de contenu (mots qui construisent du sens). Les mots vides sont ces petits mots ennuyeux, [les mots les plus fréquents en anglais][55], qui sont pour la plupart des créateurs de phrases. Les versions ultérieures d'AntConc incluent souvent le terme de recherche comme premier résultat, probablement parce que le terme de recherche que vous recherchez apparaît dans le texte et nous recherchons des mots qui sont susceptibles d'apparaître avec ce mot.
 
-Certaines personnes voudront peut-être supprimer ces petits mots à l'aide d'une liste de mots vides (_stopword list_) ; c'est une étape courante dans la modélisation thématique (_topic modelling_).  Personnellement, je n'encourage pas cette pratique parce qu'examiner les mots très fréquents est justement la force des ordinateurs ! La lecture humaine a  tendance à ne pas les remarquer beaucoup. Mais les ordinateurs, en particulier les logiciels comme Antconc, peuvent nous montrer où ces mots apparaissent et où ils n'apparaissent pas, ce qui peut être très intéressant, surtout dans de très grandes collections de textes - comme nous l'avons vu précédemment dans le tutoriel, avec *the*, *a*, *she* et *he*.
+Certaines personnes voudront peut-être supprimer ces petits mots à l'aide d'une liste de mots vides (_stopword list_) ; c'est une étape courante dans la modélisation thématique (_topic modelling_).  Personnellement, je n'encourage pas cette pratique parce qu'examiner les mots très fréquents est justement la force des ordinateurs ! La lecture humaine a  tendance à ne pas les remarquer beaucoup. Mais les ordinateurs, en particulier les logiciels comme AntConc, peuvent nous montrer où ces mots apparaissent et où ils n'apparaissent pas, ce qui peut être très intéressant, surtout dans de très grandes collections de textes - comme nous l'avons vu précédemment dans le tutoriel, avec *the*, *a*, *she* et *he*.
 
 De plus, dans les corpus en anglais, il se peut qu'une seule lettre *s* apparaisse, placée assez haute également - qui représente les *'s* possessifs (l'apostrophe ne sera pas comptée), mais AntConc considère qu'il s'agit d'un autre mot. Un autre exemple de ceci est *'t* apparaissant avec *do*, car ils se contractent comme *don't*. Comme ils apparaissent si souvent ensemble, il est fort probable qu'ils soient colocalisés.
 
 
 **Exercice :**
-Générez des cooccurences pour "_m?n_" et "_wom?n_". Maintenant, triez-les par fréquence jusqu'à 1L.
+Générez des cooccurrences pour "_m?n_" et "_wom?n_". Maintenant, triez-les par fréquence jusqu'à 1L.
 Cela nous renseigne sur ce qui rend un homme ou une femme digne d'être vu(e) au cinéma " :
 - les femmes doivent être "belles" ou "enceintes" ou "sophistiquées".
 - les hommes doivent être en quelque sorte hors norme - "saints" ou "noirs" ou "vieux ".
@@ -322,20 +322,20 @@ En résumé, il vaut la peine de réfléchir :
 
 ## Ressources supplémentaires pour ce tutoriel
 #### En anglais
-[Une courte bibliographie sur la linguistique des corpus][43].
+[Une courte bibliographie sur la linguistique des corpus][43].  
 [Une version plus détaillée de ce tutoriel, en supposant que vous n'avez aucune connaissance en informatique.](http://hfroehli.ch/workshops/getting-started-with-antconc/)
 
-#### En français (notes de la version traduite)
-[Page AntConc de EduTech Wiki de l'UNIGE](http://edutechwiki.unige.ch/fr/AntConc#)
-[Page AntConc sur le site Exploration de corpus : outils et pratiques](http://explorationdecorpus.corpusecrits.huma-num.fr/antconc/)
-[Tutoriel AntConc du CID-ENS Lyon](http://cid.ens-lyon.fr/ac_article.asp?fic=antconc.asp)
+#### En français (notes de la version traduite)  
+[Page AntConc de EduTech Wiki de l'UNIGE](http://edutechwiki.unige.ch/fr/AntConc#)  
+[Page AntConc sur le site Exploration de corpus : outils et pratiques](http://explorationdecorpus.corpusecrits.huma-num.fr/antconc/)  
+[Tutoriel AntConc du CID-ENS Lyon](http://cid.ens-lyon.fr/ac_article.asp?fic=antconc.asp)  
 
-En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](http://ancilla.unice.fr/), [Iramuteq](http://iramuteq.org/), [Lexico](http://www.lexi-co.com/) ou [TXM](http://textometrie.ens-lyon.fr/?lang=fr). Merci de consulter également Bénédicte Pincemin, [Sept logiciels de textométrie](https://halshs.archives-ouvertes.fr/halshs-01843695/document) (2018).  
+En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](http://ancilla.unice.fr/), [Iramuteq](http://iramuteq.org/), [Lexico](http://www.lexi-co.com/) ou [TXM](http://textometrie.ens-lyon.fr/?lang=fr). Merci de consulter également Bénédicte Pincemin, [Sept logiciels de textométrie](https://halshs.archives-ouvertes.fr/halshs-01843695/document), 2018.  
 
-Bibliographie non-exhaustive 
+#### Bibliographie non-exhaustive 
 
-Ludovic Lebart et André Salem, [Statistique textuelle](http://lexicometrica.univ-paris3.fr/livre/st94/st94-tdm.html), 1994.  
-Damon Mayaffre, [« L’entrelacement lexical des textes. Cooccurrences et lexicométrie »](https://hal.archives-ouvertes.fr/hal-00553808), _Journées de linguistique de corpus_, 2008, p. 91-102. 
+Ludovic Lebart et André Salem, [Statistique textuelle](http://lexicometrica.univ-paris3.fr/livre/st94/st94-tdm.html), 1994.    
+Damon Mayaffre, [« L’entrelacement lexical des textes. Cooccurrences et lexicométrie »](https://hal.archives-ouvertes.fr/hal-00553808), _Journées de linguistique de corpus_, 2008, p. 91-102.   
 [La cooccurrence, du fait statistique au fait textuel](https://journals.openedition.org/corpus/2183), _Corpus_, 11, 2012, numéro coordonné par Damon Mayaffre et Jean-Marie Viprey
 
 [41]: http://www.lexically.net/downloads/version6/HTML/index.html?keyness_definition.htm
