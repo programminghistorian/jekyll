@@ -10,7 +10,7 @@ categories: posts
 
 Starting in June 2019, as part of our communication strategies, we will  publish a newsletter every three months to summarize our community's progress throughout the year. It is our hope that in this manner we will keep our users informed of lessons and translations, changes in the editorial board, upcoming events organized by our editors and, in all, to keep nurturing a welcoming and multilingual digital humanities community. 
 
-In this first newsletter we would like to highlight the following achievements, which would have been impossible without the help of our great community of editores, reviewers and users. 
+In this first newsletter we would like to highlight the following achievements, which would have been impossible without the help of our great community of editors, reviewers and users. 
 
 ## Launch of PH in French
 
