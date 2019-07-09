@@ -65,7 +65,7 @@ Dézippez le fichier si nécessaire, et lancez l'application. Les captures d'éc
 2. L'interface utilisateur d'AntConc, importer un corpus
 3. Recherche de mot-clé-en-contexte (_keyword-in-context_)
 4. Fonctions avancées de mot-clé-en-contexte (_keyword-in-context_)
-5. Collocations et listes de mots
+5. Cooccurences et listes de mots
 6. Comparer des corpus
 7. Discussion : Faire des comparaisons significatives
 8. Ressources supplémentaires
@@ -108,7 +108,7 @@ Il y a 7 onglets en haut :
 **Concordance Plot** _(Graphe des concordances)_: Ceci vous montrera une visualisation très simple de votre recherche KWIC, où chaque occurence du mot recherché sera représentée par une petite ligne noire du début à la fin de chaque fichier contenant le terme.
 **File View** _(Vue de fichier)_: Cela vous montrera une vue complète du fichier, pratique pour voir le contexte plus large d'un résultat.
 **Clusters** _(Grappes)_: Cette vue vous montre les mots qui apparaissent souvent ensemble.
-**Collocates** _(Collocations)_: Les clusters nous montrent des mots qui apparaissent _définitivement_ ensemble dans un corpus ; les collocations (_collocates_) montrent des mots qui sont statistiquement susceptibles d'apparaître ensemble.
+**Collocates** _(Cooccurences)_: Les clusters nous montrent des mots qui apparaissent _définitivement_ ensemble dans un corpus ; les cooccurences (_collocates_) montrent des mots qui sont statistiquement susceptibles d'apparaître ensemble.
 **Word List** _(Liste des mots)_: Tous les mots de votre corpus.
 **Keyword List** _(Liste des mots-clés)_: Ceci permet des comparaisons entre deux corpus.
 
@@ -220,10 +220,10 @@ Il y a beaucoup moins de cas de "_she_"- pourquoi ? C'est une question de recher
 Entraînez-vous à rechercher un mot de votre choix, à le trier de différentes façons, à utiliser des métacaractères et enfin à exporter les résultats. La question centrale à se poser ici : quels types de modèles voyez-vous ? Pouvez-vous les expliquer ?
 
 
-### Collocations (_collocates_) et listes des mots (_word lists_)
+### Cooccurences (_collocates_) et listes des mots (_word lists_)
 Après avoir regardé les lignes KWIC à la recherche de schémas, n'aimeriez-vous pas que l'ordinateur puisse vous donner une liste des mots qui apparaissent le plus souvent en compagnie de votre mot-clé ?
 
-Bonne nouvelle, il y a un moyen d'obtenir cette information, et elle est disponible dans l'onglet _Collocates_ (Collocations). Cliquez dessus, et AntConc vous dira qu'il doit créer une liste de mots. Appuyez sur OK ; il le fera automatiquement.
+Bonne nouvelle, il y a un moyen d'obtenir cette information, et elle est disponible dans l'onglet _Collocates_ (Cooccurences). Cliquez dessus, et AntConc vous dira qu'il doit créer une liste de mots. Appuyez sur OK ; il le fera automatiquement.
 
 
 > REMARQUE : Vous n'obtiendrez cet avis que si vous n'avez pas encore créé de liste de mots.
@@ -240,7 +240,7 @@ De plus, dans les corpus en anglais, il se peut qu'une seule lettre *s* apparais
 
 
 **Exercice :**
-Générez des collocations pour "_m?n_" et "_wom?n_". Maintenant, triez-les par fréquence jusqu'à 1L.
+Générez des cooccurences pour "_m?n_" et "_wom?n_". Maintenant, triez-les par fréquence jusqu'à 1L.
 Cela nous renseigne sur ce qui rend un homme ou une femme digne d'être vu(e) au cinéma " :
 - les femmes doivent être "belles" ou "enceintes" ou "sophistiquées".
 - les hommes doivent être en quelque sorte hors norme - "saints" ou "noirs" ou "vieux ".
@@ -329,7 +329,13 @@ En résumé, il vaut la peine de réfléchir :
 [Page AntConc sur le site Exploration de corpus : outils et pratiques](http://explorationdecorpus.corpusecrits.huma-num.fr/antconc/)
 [Tutoriel AntConc du CID-ENS Lyon](http://cid.ens-lyon.fr/ac_article.asp?fic=antconc.asp)
 
-En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](http://ancilla.unice.fr/), [Iramuteq](http://iramuteq.org/), [Lexico](http://www.lexi-co.com/) ou [TXM](http://textometrie.ens-lyon.fr/?lang=fr).
+En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](http://ancilla.unice.fr/), [Iramuteq](http://iramuteq.org/), [Lexico](http://www.lexi-co.com/) ou [TXM](http://textometrie.ens-lyon.fr/?lang=fr). Merci de consulter également Bénédicte Pincemin, [Sept logiciels de textométrie](https://halshs.archives-ouvertes.fr/halshs-01843695/document) (2018).  
+
+Bibliographie non-exhaustive 
+
+Ludovic Lebart et André Salem, [Statistique textuelle](http://lexicometrica.univ-paris3.fr/livre/st94/st94-tdm.html), 1994.  
+Damon Mayaffre, [« L’entrelacement lexical des textes. Cooccurrences et lexicométrie »](https://hal.archives-ouvertes.fr/hal-00553808), _Journées de linguistique de corpus_, 2008, p. 91-102. 
+[La cooccurrence, du fait statistique au fait textuel](https://journals.openedition.org/corpus/2183), _Corpus_, 11, 2012, numéro coordonné par Damon Mayaffre et Jean-Marie Viprey
 
 [41]: http://www.lexically.net/downloads/version6/HTML/index.html?keyness_definition.htm
 [43]: http://hfroehlich.wordpress.com/2014/05/11/intro-bibliography-corpus-linguistics/
