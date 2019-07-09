@@ -1,5 +1,5 @@
 ---
-title: Analyse de corpus avec Antconc
+title: Analyse de corpus avec AntConc
 layout: lesson
 slug: analyse-corpus-antconc
 date: 2015-06-19
@@ -73,8 +73,8 @@ Dézippez le fichier si nécessaire, et lancez l'application. Les captures d'éc
 
 
 ### Travailler avec des fichiers texte brut
-* Antconc fonctionne avec des fichiers texte brut avec l'extension .txt (ex. : Hamlet.txt).
-* Antconc **ne lira pas** les fichiers en .doc, .docx, .pdf. Vous allez devoir convertir ces fichiers en .txt.
+* AntConc fonctionne avec des fichiers texte brut avec l'extension .txt (ex. : Hamlet.txt).
+* AntConc **ne lira pas** les fichiers en .doc, .docx, .pdf. Vous allez devoir convertir ces fichiers en .txt.
 * Il lira les fichiers XML qui sont enregistrés en tant que fichiers .txt (ce n'est pas grave si vous ne savez pas ce qu'est un fichier XML).
 
 Visitez votre site Web d'actualités préféré, et cliquez sur un article (peu importe lequel, pourvu qu'il s'agisse principalement de texte). Sélectionnez tout le texte de l'article (en-tête, signature, etc.), et faites un clic droit sur "copier".
@@ -87,7 +87,7 @@ Enregistrez l'article en tant que fichier .txt sur le bureau. Vous pouvez faire 
 
 Allez sur votre bureau et vérifiez que vous pouvez trouver votre fichier texte.
 
-Répétez la procédure plusieurs fois et c'est ainsi que vous construirez un corpus de fichiers texte brut. Ce processus s'appelle la construction de corpus, ce qui implique très souvent d'aborder des questions d'échantillonnage, de représentativité et d'organisation. Rappelez-vous, *chaque fichier que vous voulez utiliser dans votre corpus __doit__ être un fichier texte brut pour qu'Antconc puisse l'utiliser.* Il est d'usage de nommer les fichiers avec le suffixe .txt pour que vous sachiez de quel type de fichier il s'agit.
+Répétez la procédure plusieurs fois et c'est ainsi que vous construirez un corpus de fichiers texte brut. Ce processus s'appelle la construction de corpus, ce qui implique très souvent d'aborder des questions d'échantillonnage, de représentativité et d'organisation. Rappelez-vous, *chaque fichier que vous voulez utiliser dans votre corpus __doit__ être un fichier texte brut pour qu'AntConc puisse l'utiliser.* Il est d'usage de nommer les fichiers avec le suffixe .txt pour que vous sachiez de quel type de fichier il s'agit.
 
 Comme vous pouvez l'imaginer, il peut être assez fastidieux de constituer un corpus substantiel un fichier à la fois, surtout si vous avez l'intention de traiter un ensemble important de documents. Il est donc très courant d'utiliser l'extraction de contenus (_webscraping_) (en utilisant un petit programme pour télécharger automatiquement les fichiers sur le web pour vous) pour construire votre corpus. Pour en savoir plus sur les concepts et les techniques d'extraction, consultez les tutoriels du _Programming Historian_ sur l'[extraction avec Beautiful Soup][50] et le [téléchargement automatique avec wget][51] (en anglais).
 Plutôt que de construire un corpus un document à la fois, nous allons utiliser un corpus préparé de critiques de films positives et négatives, emprunté au [_Natural Language Processing Toolkit_](http://www.nltk.org/). Le corpus des critiques de films de la NLTK compte 2000 critiques, organisées par résultats positifs et négatifs ; aujourd'hui, nous allons aborder un petit sous-ensemble d'entre eux (200 positifs, 200 négatifs).
@@ -138,7 +138,7 @@ Ensuite, vous allez répéter le processus pour charger le dossier "_Positive Re
 ## Recherche de mots-clés en contexte
 
 ### Commencez par une recherche de base
-L'une des forces des outils de corpus comme Antconc, c'est de trouver des schémas de langage que nous avons du mal à identifier par une simple lecture. Les petits mots répétitifs comme *le, la, les, je, il, elle, un, une, avoir, être, faire* (*the, I, he, he, she, a, a, an, is, have, will*) sont particulièrement difficiles à suivre, parce qu'ils sont très communs, mais les ordinateurs sont très doués pour accomplir la tâche. Ces mots sont communément connus sous le nom de "mots vides" (_stopwords_) en humanités numériques ; ce sont souvent des marques caractéristiques d'un(e) auteur(e) ou d'un genre. Par conséquent, ils peuvent être des termes de recherche très puissants en eux-mêmes ou combinés à des termes plus axés sur le contenu, ce qui aide les chercheurs et chercheuses à identifier des tendances qui n'avaient peut-être pas été répérées.
+L'une des forces des outils de corpus comme AntConc, c'est de trouver des schémas de langage que nous avons du mal à identifier par une simple lecture. Les petits mots répétitifs comme *le, la, les, je, il, elle, un, une, avoir, être, faire* (*the, I, he, he, she, a, a, an, is, have, will*) sont particulièrement difficiles à suivre, parce qu'ils sont très communs, mais les ordinateurs sont très doués pour accomplir la tâche. Ces mots sont communément connus sous le nom de "mots vides" (_stopwords_) en humanités numériques ; ce sont souvent des marques caractéristiques d'un(e) auteur(e) ou d'un genre. Par conséquent, ils peuvent être des termes de recherche très puissants en eux-mêmes ou combinés à des termes plus axés sur le contenu, ce qui aide les chercheurs et chercheuses à identifier des tendances qui n'avaient peut-être pas été répérées.
 
 
 Dans le champ de recherche en bas, tapez "_the_" et cliquez sur "start" (démarrer). La vue Concordance vous montrera chaque fois que le mot apparaît dans notre corpus de critiques de films, et un certain contexte pour cela. C'est ce qu'on appelle une visionneuse "mots-clés en contexte" (_Key Words in Context_).
@@ -330,13 +330,13 @@ En résumé, il vaut la peine de réfléchir :
 [Page AntConc sur le site Exploration de corpus : outils et pratiques](http://explorationdecorpus.corpusecrits.huma-num.fr/antconc/)  
 [Tutoriel AntConc du CID-ENS Lyon](http://cid.ens-lyon.fr/ac_article.asp?fic=antconc.asp)  
 
-En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](http://ancilla.unice.fr/), [Iramuteq](http://iramuteq.org/), [Lexico](http://www.lexi-co.com/) ou [TXM](http://textometrie.ens-lyon.fr/?lang=fr). Merci de consulter également Bénédicte Pincemin, [Sept logiciels de textométrie](https://halshs.archives-ouvertes.fr/halshs-01843695/document), 2018.  
+En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](http://ancilla.unice.fr/), [Iramuteq](http://iramuteq.org/), [Lexico](http://www.lexi-co.com/) ou [TXM](http://textometrie.ens-lyon.fr/?lang=fr). Merci de consulter également Bénédicte Pincemin, ["Sept logiciels de textométrie"](https://halshs.archives-ouvertes.fr/halshs-01843695/document), 2018.  
 
 #### Bibliographie non-exhaustive 
 
-Ludovic Lebart et André Salem, [Statistique textuelle](http://lexicometrica.univ-paris3.fr/livre/st94/st94-tdm.html), 1994.    
-Damon Mayaffre, [« L’entrelacement lexical des textes. Cooccurrences et lexicométrie »](https://hal.archives-ouvertes.fr/hal-00553808), _Journées de linguistique de corpus_, 2008, p. 91-102.   
-[La cooccurrence, du fait statistique au fait textuel](https://journals.openedition.org/corpus/2183), _Corpus_, 11, 2012, numéro coordonné par Damon Mayaffre et Jean-Marie Viprey
+Ludovic Lebart et André Salem, ["Statistique textuelle"](http://lexicometrica.univ-paris3.fr/livre/st94/st94-tdm.html), 1994.    
+Damon Mayaffre, ["L’entrelacement lexical des textes. Cooccurrences et lexicométrie"](https://hal.archives-ouvertes.fr/hal-00553808), _Journées de linguistique de corpus_, 2008, p. 91-102.   
+[La cooccurrence, du fait statistique au fait textuel](https://journals.openedition.org/corpus/2183), _Corpus_, 11, 2012, numéro coordonné par Damon Mayaffre et Jean-Marie Viprey.
 
 [41]: http://www.lexically.net/downloads/version6/HTML/index.html?keyness_definition.htm
 [43]: http://hfroehlich.wordpress.com/2014/05/11/intro-bibliography-corpus-linguistics/
