@@ -20,6 +20,7 @@ translation-reviewer:
 translation_date: 2019-06-19
 difficulty: 1
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/240
+activity: analyzing
 topics: [distant-reading]
 abstract: |
   L'analyse de corpus est un type d'analyse textuelle qui permet de faire des comparaisons d'objets textuels à grande échelle (la fameuse "lecture à distance" (_distant reading_)).
