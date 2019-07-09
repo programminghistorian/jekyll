@@ -22,7 +22,7 @@ The team is working on translating existing tutorials. So far, they have publish
 
 ## First Original Lessons in Spanish
 
-Half a year after our successfull Writing Workhop in Bogotá, Colombia, *Programming Historian en español* published its two first original lessons in Spanish. Armando Luza wrote [Creación de corpus paralelo con LF Aligner](https://programminghistorian.org/es/lecciones/corpus-paralelo-lfaligner), a software to help in translation, and Silvia Gutiérrez published [Análisis de corpus con Voyant Tools](https://programminghistorian.org/es/lecciones/analisis-voyant-tools), a guide to the popular text analysis tool. 
+Half a year after our successfull [Writing Workhop in Bogotá, Colombia](https://programminghistorian.org/posts/bogota-workshop-report), *Programming Historian en español* published its two first original lessons in Spanish. Armando Luza wrote [Creación de corpus paralelo con LF Aligner](https://programminghistorian.org/es/lecciones/corpus-paralelo-lfaligner), a software to help in translation, and Silvia Gutiérrez published [Análisis de corpus con Voyant Tools](https://programminghistorian.org/es/lecciones/analisis-voyant-tools), a guide to the popular text analysis tool. 
 
 The publication of original lessons come at the [second year anniversary](https://programminghistorian.org/posts/lanzamiento-PH-espanol) of the beginning of *Programming Historian en español* and we couldn't be more proud and thankful of our Spanish-speaking community! 
 
