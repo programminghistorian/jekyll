@@ -43,6 +43,7 @@
   team_roles:
    - editorial
    - board
+   - team-development-manager
 
 - name: Caleb McDaniel
   team: false
@@ -277,9 +278,9 @@
    - editorial
    - board
    - archive
-   - treasurer
    - sponsorship
    - technical
+   - finance-manager
 
 - name: Amanda Morton
   team: false
@@ -791,6 +792,7 @@
    - ed-manager
    - communication
    - technical
+   - project-manager-at-large
 
 - name: Evan Peter Williamson
   team: false
