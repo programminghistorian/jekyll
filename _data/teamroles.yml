@@ -68,6 +68,15 @@
     en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
     es: Persona a la que los autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
     fr: Personne que les auteur(e)s et évaluateur(trice)s peuvent consulter pour toute question liée à la procédure de l'évaluation par les pairs ou à la publication
+- type: technical-lead
+  label:
+    en: Technical Lead
+    es: Líder técnico
+    fr: Responsable technique
+  definition:
+    en: Coordinates and trains members of the technical team
+    es: Coordina y forma a los integrantes del equipo técnico
+    fr: Coordonne et forme les membres de l'équipe technique
 - type: technical
   label:
     en: Technical Team
@@ -103,7 +112,7 @@
   definition:
     en: Responsible for managing relationships with our sponsors
     es: Responsable de coordinar las relaciones con las y los patrocinadores
-    fr: Personne chargée des relations avec les sponsors du projet 
+    fr: Personne chargée des relations avec les sponsors du projet
 - type: communication
   label:
     en: Communication Manager
@@ -112,7 +121,7 @@
   definition:
     en: Responsible for managing and developing communication channels
     es: Responsable del mantenimiento y creación de canales de comunicación
-    fr: Responsable de la gestion et du développement des canaux de communication    
+    fr: Responsable de la gestion et du développement des canaux de communication
 # --- Derived roles ---
 - type: ombuds-es
   label:
