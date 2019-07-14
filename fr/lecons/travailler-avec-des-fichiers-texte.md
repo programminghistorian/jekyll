@@ -285,9 +285,9 @@ Lectures recommandées
 
 -   [Non-Programmer’s Tutorial for Python 2.6/Hello, World][]
 
-  [Pour Mac]: /lessons/mac-installation
-  [Pour Windows]: /lessons/windows-installation
-  [Pour Linux]: /lessons/linux-installation
+  [Pour Mac]: /en/lessons/mac-installation
+  [Pour Windows]: /en/lessons/windows-installation
+  [Pour Linux]: /en/lessons/linux-installation
   [print]: https://docs.python.org/fr/2.7/library/functions.html#prin
   [mot réservé]: https://docs.python.org/fr/2.7/reference/lexical_analysis.html#keywords
   [File Objects]: https://docs.python.org/fr/2.7/glossary.html#term-file-object
