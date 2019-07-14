@@ -149,6 +149,33 @@
     en: Supports, coordinates, and enhances research impact and analytics
     es: Apoya, coordina y amplía la investigación y análisis del impacto del proyecto
     fr: Accompagne, coordonne et appuie la valorisation et les travaux d'analyse du projet 
+- type: finance-manager
+  label:
+    en: Finance Manager
+    es: Mánager de finanzas 
+    fr: Responsable des finances
+  definition:
+    en: Responsible for project finances and fundraising
+    es: Responsable de las finanzas del proyecto y la recaudación de fondos
+    fr: Responsable du financement du projet et de la collecte de fonds     
+- type: team-development-manager
+  label:
+    en: Team Development Manager
+    es: Mánager de desarrollo de equipo 
+    fr: Responsable du développement de l'équipe
+  definition:
+    en: Responsible for ensuring that everyone on the team is well supported
+    es: Responsable de asegurar que todos en el equipo estén bien apoyados
+    fr: Responsable de s'assurer que tous les membres de l'équipe sont bien soutenus 
+- type: project-manager-at-large
+  label:
+    en: Project Manager at Large
+    es: Mánager de proyectos en grande 
+    fr: Chef de projet en général
+  definition:
+    en: Keeping the team focused on achieving its goals in a timely manner
+    es: Mantener al equipo enfocado en lograr sus objetivos de manera oportuna
+    fr: Garder l'équipe concentrée sur la réalisation de ses objectifs en temps opportun
 # --- Derived roles ---
 - type: ombuds-es
   label:
