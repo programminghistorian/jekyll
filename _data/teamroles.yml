@@ -41,15 +41,6 @@
     en: Responsible for editorial work resulting in the review and publication of French-language lessons
     es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en francés
     fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en français
-- type: community
-  label:
-    en: Community Engagement
-    es: Proyección hacia la comunidad
-    fr: Engagement communautaire
-  definition:
-    en: Responsible for project outreach and impact
-    es: Responsable de la proyección e impacto del proyecto
-    fr: Responsable de la diffusion et de l'impact du projet
 - type: managing-en
   label:
     en: Managing Editor
@@ -113,15 +104,51 @@
     en: Responsible for managing relationships with our sponsors
     es: Responsable de coordinar las relaciones con las y los patrocinadores
     fr: Personne chargée des relations avec les sponsors du projet
-- type: communication
+- type: communication-manager
   label:
     en: Communication Manager
-    es: Manger de comunicación
+    es: Mánager de comunicación
     fr: Responsable de la communication
+  definition:
+    en: Responsible for coordinating efforts of the communication team
+    es: Responsable de la coordinación del equipo de comunicación
+    fr: Responsable de la coordination de l'équipe de communication
+- type: communication
+  label:
+    en: Communication Team
+    es: Equipo de comunicación
+    fr: Équipe de communication
   definition:
     en: Responsible for managing and developing communication channels
     es: Responsable del mantenimiento y creación de canales de comunicación
     fr: Responsable de la gestion et du développement des canaux de communication
+- type: twitter-dev
+  label:
+    en: Twitter Developer
+    es: Desarrollador de Twitter
+    fr: Développeur Twitter
+  definition:
+    en: Responsible for maintaining the Programming Historian Twitter bot
+    es: Responsable del mantenimiento del bot del Twitter de Programming Historian
+    fr: Responsable de la maintenance du bot Twitter du Programming Historian
+- type: ed-manager
+  label:
+    en: Education Manager
+    es: Mánager de educación 
+    fr: Responsable pédagogique
+  definition:
+    en: Responsible for the overall education aspect of the project
+    es: Responsable del aspecto educativo general del proyecto 
+    fr: Responsable des aspects pédagogiques du projet
+- type: impact-manager
+  label:
+    en: Impact Manager
+    es: Mánager de impacto 
+    fr: Responsable de la valorisation
+  definition:
+    en: Supports, coordinates, and enhances research impact and analytics
+    es: Apoya, coordina y amplía la investigación y análisis del impacto del proyecto
+    fr: Accompagne, coordonne et appuie la valorisation et les travaux d'analyse du projet 
 # --- Derived roles ---
 - type: ombuds-es
   label:
