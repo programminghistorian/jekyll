@@ -17,14 +17,15 @@ translation-editor:
 translation-reviewer:
 - Alix Chagué
 - François Dominic Laramée
-translation_date: 2019-05-18
+translation_date: 2019-07-01
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/232
 activity: transforming
 topics: [python]
-abstract: "Cette leçon vous explique comment manipuler des fichiers texte en Python."
+abstract: |   
+Cette leçon vous explique comment manipuler des fichiers texte en Python.
 python_warning: true
-original: en/lessons/working-with-text-files
+original: working-with-text-files
 ---
 
 {% include toc.html %}
