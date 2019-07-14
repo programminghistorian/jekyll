@@ -22,8 +22,7 @@ difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/232
 activity: transforming
 topics: [python]
-abstract: |   
-Cette leçon vous explique comment manipuler des fichiers texte en Python.
+abstract: "Cette leçon vous explique comment manipuler des fichiers texte en Python."
 python_warning: true
 original: working-with-text-files
 ---
