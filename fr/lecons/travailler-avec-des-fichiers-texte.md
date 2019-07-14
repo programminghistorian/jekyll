@@ -145,9 +145,9 @@ d'un travail d'analyse plus complexe qu'avec des langages de bas niveau).
 
 Dans le programme ci-dessus, *f* est un *objet de type fichier* (file object)
 et `open`, `write` et `close` sont des *méthodes sur fichier* (file methods).
-En d'autres termes, open, write et close agissent sur l'objet *f* qui dans le
+En d'autres termes, "open", "write" et "close" agissent sur l'objet *f* qui dans le
 cas présent est défini comme un fichier '.txt'. Ce n'est pas forcément
-l'usage habituel du terme méthode, et de temps en temps vous noterez que des
+l'usage habituel du terme "méthode", et de temps en temps vous noterez que des
 termes ont, dans le contexte de la programmation, un sens différent du sens
 communément admis. Dans ce cas, retenez simplement que les méthodes
 sont des morceaux de code qui vont réaliser des actions définies avant de
