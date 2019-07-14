@@ -279,7 +279,7 @@ apparues.
 
 Dans la prochaine section, nous aborderons la modularité et la réutilisation
 du code. Celle-ci est déjà disponible en anglais 
-([Code Reuse and Modularity in Python](https://programminghistorian.org/en/lessons/code-reuse-and-modularity)).
+([Code Reuse and Modularity in Python](/en/lessons/code-reuse-and-modularity)).
 
 Lectures recommandées
 ---------------------
