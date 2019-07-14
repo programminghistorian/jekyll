@@ -151,23 +151,23 @@
   github: arojascastro
   team: true
   team_start: 2016
-  institution: Cologne Center for eHumanities
+  institution: Berlin-Brandenburgische Akademie der Wissenschaften
   sortname: Rojas Castro
   orcid: 0000-0002-8916-4997
   affiliation:
     en: |
-        Cologne Center for eHumanities, Germany.
+        Berlin-Brandenburgische Akademie der Wissenschaften, Germany.
     es: |
-        Cologne Center for eHumanities, Alemania.
+        Berlin-Brandenburgische Akademie der Wissenschaften, Alemania.
     fr: |
-        Cologne Center for eHumanities, Allemagne.
+        Académie des sciences de Berlin-Brandebourg, Allemagne.
   bio:
     en: |
-        Antonio Rojas Castro is a researcher a the Cologne Center for eHumanities, with a PhD in Humanities (Spanish Literature).
+        Antonio Rojas Castro is a researcher at the Berlin-Brandenburgische Akademie der Wissenschaften, with a PhD in Humanities (Spanish Literature).
     es: |
-        Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en el Cologne Center for eHumanities.
+        Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en la Berlin-Brandenburgische Akademie der Wissenschaften.
     fr: |
-        Antonio Rojas Castro est docteur en Littérature espagnole (Université Pompeu Fabra) et chercheur au Cologne Center for eHumanities.
+        Antonio Rojas Castro est docteur en Littérature espagnole (Université Pompeu Fabra) et chercheur à l'Académie des sciences de Berlin-Brandebourg.
   team_roles:
    - spanish
    - board
@@ -279,6 +279,7 @@
    - archive
    - treasurer
    - sponsorship
+   - technical
 
 - name: Amanda Morton
   team: false
@@ -484,7 +485,9 @@
     en: |
         Heather Froehlich is a PhD student at the University of Strathclyde (Glasgow, UK), where she studies gender in Early Modern London plays using computers. Her thesis draws heavily from sociohistoric linguistics and corpus stylistics, though she sustains an interest in digital methods for literary and linguistic inquiry.
     es: |
-        Heather Froehlich es doctoranda en la Universidad de Strathclyde (Glasgow, Reino Unido), institución donde realiza estudios de género mediante ordenadores aplicados al teatro londinense moderno. Su tesis de grado se nutre, en gran medida, de la lingüística sociohistórica y la estilística de corpus, si bien la autora no ha perdido el interés por el empleo de métodos digitales en la investigación literaria y lingüística.
+        Heather Froehlich es doctoranda en la Universidad de Strathclyde (Glasgow, Reino Unido), institución donde realiza estudios de género mediante ordenadores aplicados al teatro londinense moderno. Su tesis de grado se nutre, en gran medida, de la lingüística sociohistórica y la estilística de corpus, si bien la autora no ha perdido el interés por el empleo de métodos digitales en la investigación literaria y lingüística.  
+    fr: |  
+        Heather Froehlich est doctorante à l'Université de Strathclyde (Glasgow, Royaume-Uni), où elle se spécialise en études de genre assistées par ordinateur dans le domaine du théâtre londonien de l'époque moderne. Sa thèse de doctorat mobilise principalement la linguistique sociohistorique et la stylistique de corpus, même si elle nourrit un vif intérêt pour les méthodes numériques appliquées aux recherches en littérature et en linguistique. 
 
 - name: Laura Turner O'Hara
   team: false
@@ -518,7 +521,7 @@
         Matthew Lincoln est développeur en humanités numériques à l'Université Carnegie Mellon et historien de l'art européen moderne.
   team_roles:
    - editorial
-   - technical
+   - technical-lead
    - board
 
 - name: Sarah Simpkin
@@ -591,6 +594,7 @@
    - board
    - twitter-dev
    - communication
+   - technical
 
 - name: Ted Dawson
   team: false
@@ -786,6 +790,7 @@
    - board
    - ed-manager
    - communication
+   - technical
 
 - name: Evan Peter Williamson
   team: false
@@ -982,6 +987,7 @@
     - french
     - board
     - managing-fr
+    - technical
   bio:
         en: |
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
@@ -1141,8 +1147,10 @@
       en: |
           Matthew J. Lavin is a Clinical Assistant Professor of English and Director of the Digital Media Lab at the University of Pittsburgh. His current scholarship and teaching focus on book history, cultural analytics, turn-of-the-twentieth-century U.S. literature and culture.
 
+
 - name: Go Sugimoto
   team: false
   bio:
       en: |
           Go Sugimoto is a data analyst at the Austrian Centre for Digital Humanities (ACDH) in the Austrian Academy of Sciences. He has worked for a wide range of cultural heritage projects around the world, including Europeana and Archives Portal Europe at the National Archives of the Netherlands, CHIRON fellowship at the University of Florence (Italy), the National Museum of Modern Art Tokyo (Japan), and Wessex Archaeology (UK).
+
