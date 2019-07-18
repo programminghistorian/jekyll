@@ -26,9 +26,9 @@ Translating a lesson involves principally the following:
 - translating titles and captions of the images. In some cases, new images need to be produced, for example if an exercise uses software with an interface that can be changed to the target language
 - adapting the links and notes provided in the original text to fit the targeted linguistic context, if possible; for example, link to software documentation, Wikipedia notices etc., if these resources are provided in the target language.
 
-If you decide to translate, please keep in mind that you are addressing a global audience. For matters of style and language choice, please see our [Author's Guidelines](en/author-guidelines).
+If you decide to translate, please keep in mind that you are addressing a global audience. For matters of style and language choice, please see our [Author's Guidelines]({{site.baseurl}}/en/author-guidelines).
 
-All of our lessons must also be written in Markdown and follow our technical formatting guidelines, also available in our [Author's Guidelines](en/author-guidelines).
+All of our lessons must also be written in Markdown and follow our technical formatting guidelines, also available in our [Author's Guidelines]({{site.baseurl}}/en/author-guidelines).
 
 
 ## Submitting a Translated Lesson
