@@ -123,6 +123,10 @@ menu-contribute-write:
   fr:
     title: Consignes aux auteurs
     link: /fr/consignes-auteurs
+menu-contribute-translate:
+  en:
+    title: Translator Guidelines
+    link: /en/translator-guidelines
 menu-contribute-edit:
   en:
     title: Editor Guidelines
