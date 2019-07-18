@@ -165,17 +165,17 @@
     fr: Responsable du développement de l'équipe
   definition:
     en: Responsible for ensuring that everyone on the team is well supported
-    es: Responsable de asegurar que todos en el equipo estén bien apoyados
-    fr: Responsable de s'assurer que tous les membres de l'équipe sont bien soutenus 
+    es: Responsable de asegurar que todos en el equipo sean apoyados
+    fr: Responsable de s'assurer que tous les membres de l'équipe reçoivent le soutien nécessaire 
 - type: project-manager-at-large
   label:
     en: Project Manager at Large
-    es: Mánager de proyectos en grande 
-    fr: Chef de projet en général
+    es: Mánager de proyectos en general
+    fr: Chef de projet
   definition:
     en: Keeping the team focused on achieving its goals in a timely manner
-    es: Mantener al equipo enfocado en lograr sus objetivos de manera oportuna
-    fr: Garder l'équipe concentrée sur la réalisation de ses objectifs en temps opportun
+    es: Mantener al equipo enfocado en lograr sus objetivos de manera puntual
+    fr: Garder l'équipe concentrée sur la réalisation de ses objectifs à l'intérieur des délais prévus
 # --- Derived roles ---
 - type: ombuds-es
   label:
