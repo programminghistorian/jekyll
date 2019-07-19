@@ -255,7 +255,7 @@ Asegúrate que tu editor de texto soporte el formato de codificación UTF-8. Cua
     mainfont: times
    ---
 
-[^ft-1]: Ten en cuenta que a menudo el YAML replica algo, aunque no todo, de la funcionalidad (bandera) de la línea de comando. Por ejemplo, los estilos de fuentes pueden pasarse a Pandoc en la forma de `pandoc principal.md --mainfont=times -o target.pdf`. Sin embargo, preferimos utilizar las opciones de, encabezado YAML siempre cuando sea posible, pues hace que los encantamientos de nuestra línea de comandos más fáciles de escribir y recordar. Utilizando una herramienta de control de cambios como Git preservará tus cambios al YAML, mientras lo que escribes en la terminal es más efímero. Consulta la sección de plantillas en el manual de Pandoc (`man pandoc`) para ver la lista de variables YAML disponibles.
+[^ft-1]: Ten en cuenta que a menudo el YAML replica algo, aunque no todo, de la funcionalidad (bandera) de la línea de comando. Por ejemplo, los estilos de fuentes pueden pasarse a Pandoc en la forma de `pandoc principal.md --mainfont=times -o target.pdf`. Sin embargo, preferimos utilizar las opciones de, encabezado YAML siempre cuando sea posible, pues hace la funcionalidad de nuestra línea de comandos más fácil de escribir y recordar. Utilizando una herramienta de control de cambios como Git preservará tus cambios al YAML, mientras lo que escribes en la terminal es más efímero. Consulta la sección de plantillas en el manual de Pandoc (`man pandoc`) para ver la lista de variables YAML disponibles.
 
 ## Trabajar con bibliografías
 
@@ -322,7 +322,7 @@ csl: mla.csl
 ---
 ```
 
-Después simplemente utiliza el encantamiento de pandoc para lanzar tu archivo de markdown en tu formato objetivo (.pdf o .docx):
+Después simplemente utiliza la funcionalidad de Pandoc para transformar tu archivo de markdown a tu formato objetivo (.pdf o .docx):
 
 ```
 $ pandoc principal.md --filter pandoc-citeproc -o principal.pdf
