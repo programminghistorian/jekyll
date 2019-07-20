@@ -10,9 +10,9 @@ skip_validation: true
 # Author Guidelines
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
-<h2 class="noclear">Step 1: <a href="#proposing-a-new-lesson">Proposing a New Lesson</a></h2>
-<h2 class="noclear">Step 2: <a href="#writing-a-new-lesson">Writing and Formatting a New Lesson</a></h2>
-<h2 class="noclear">Step 3: <a href="#submitting-a-new-lesson">Submitting a New Lesson</a></h2>
+<h2 class="noclear">Step 1: <a href="#step-1-proposing-a-new-lesson">Proposing a New Lesson</a></h2>
+<h2 class="noclear">Step 2: <a href="#step-2-writing-a-new-lesson">Writing and Formatting a New Lesson</a></h2>
+<h2 class="noclear">Step 3: <a href="#step-3-submitting-a-new-lesson">Submitting a New Lesson</a></h2>
 
 
 These guidelines have been developed to help you understand the process of creating a tutorial for the English version of *Programming Historian*. They include practical and philosophical details of the tutorial writing process, as well as an indication of the workflow and the peer review process. If at any time you are unclear, please email the managing editor, {% include managing-editor.html lang=page.lang %}.
@@ -20,12 +20,12 @@ These guidelines have been developed to help you understand the process of creat
 ## Step 1: Proposing a New Lesson
 
 <div class="alert alert-success">
-We welcome tutorials relevant to the humanities, pitched at any level of technical aptitude and experience, that focus on one problem or process, can be sustainable in the long term, and are addressed to a global audience. 
+We welcome tutorials relevant to the humanities, pitched at any level of technical aptitude and experience, that focus on one problem or process, can be sustainable in the long term, and are addressed to a global audience.
 
 The scope and length of the tutorial should be appropriate to the complexity of the task. Tutorials should not exceed 8,000 words (including code). Shorter lessons are welcome. Longer lessons may need to be split into multiple tutorials.
 </div>
 
-If you have an idea for a new lesson, complete a lesson [proposal form](/assets/forms/Lesson.Query.Form.txt) and send it to {% include managing-editor.html lang=page.lang %}. 
+If you have an idea for a new lesson, complete a lesson [proposal form](/assets/forms/Lesson.Query.Form.txt) and send it to {% include managing-editor.html lang=page.lang %}.
 
 You can get a sense of what we publish by looking through our [published lessons]({{site.baseurl}}/en/lessons), reading our [reviewer guidelines]({{site.baseurl}}/en/reviewer-guidelines) or browsing [lessons in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
 
@@ -106,7 +106,7 @@ Headings should not contain inline code font or style formatting such as bold, i
 Headings should always immediately precede body text. Do not follow a heading with an admonition or another heading without some form of introductory or descriptive text.
 
 ### Lists
-Typically, we use numbered lists and bulleted lists. List items are sentence-capped. List items should be treated as separate items and should not be strung together with punctuation or conjunctions. 
+Typically, we use numbered lists and bulleted lists. List items are sentence-capped. List items should be treated as separate items and should not be strung together with punctuation or conjunctions.
 
 NOT style:
 
@@ -130,27 +130,27 @@ Or:
  *	**Abbreviation**: spell out all words on first mention. European Union (EU) and then EU. Do not use full points / periods or spaces between initials: BBC, PhD, mph, 4am, etc.
  *	**Ampersand**: generally speaking, do not use an ampersand in place of the word "and" unless referring to a company or publication that uses it: P&O, *Past & Present*.
  *	**Apostrophe**: use the possessive 's after singular words or names that end in s – St James's, Jones's, mistress's; use it after plurals that do not end in s: children's, people’s, media's.
- *	**Brackets / Parentheses**: it is better to use commas or dashes. Use round brackets to introduce explanatory material into a direct quote, eg: He said: "When finished it (the tunnel) will revolutionise travel" or "She said adiós (goodbye)". Place a full stop / period outside a closing bracket if the material inside is not a sentence (like this). (But an independent sentence takes the full stop before the closing bracket.) 
- *	**Colon**: use to introduce lists, tabulations, texts, as in: 
-    *	The committee recommends: extending licensing hours to midnight; allowing children on licensed premises; relaxing planning controls on new public houses. 
-    *	Use after the name of a speaker for a whole quoted sentence: Mr James Sherwood, chairman of Sealink, said: "We have..." 
-    *	Lowercase the first letter after a colon: this is how we do it. 
+ *	**Brackets / Parentheses**: it is better to use commas or dashes. Use round brackets to introduce explanatory material into a direct quote, eg: He said: "When finished it (the tunnel) will revolutionise travel" or "She said adiós (goodbye)". Place a full stop / period outside a closing bracket if the material inside is not a sentence (like this). (But an independent sentence takes the full stop before the closing bracket.)
+ *	**Colon**: use to introduce lists, tabulations, texts, as in:
+    *	The committee recommends: extending licensing hours to midnight; allowing children on licensed premises; relaxing planning controls on new public houses.
+    *	Use after the name of a speaker for a whole quoted sentence: Mr James Sherwood, chairman of Sealink, said: "We have..."
+    *	Lowercase the first letter after a colon: this is how we do it.
  *	**Comma**: serial comma (this, that, and the other).
  *	**Dash**: a useful device to use instead of commas, but not more than one pair per sentence.
- *	**Ellipsis**: three periods separated from the preceding and following words by a space ( ... ). Use to condense a direct quote (thus the quote "the people sitting in this meeting room deserve a better deal" becomes "the people ... deserve a better deal"). 
+ *	**Ellipsis**: three periods separated from the preceding and following words by a space ( ... ). Use to condense a direct quote (thus the quote "the people sitting in this meeting room deserve a better deal" becomes "the people ... deserve a better deal").
  *	**Exclamation Mark**: use only at the end of a direct quote when it is clear that the remark is exclamatory, eg "I hate intolerance!"
- *	**Full Stop / Period**: use frequently. Sentences should be short, crisp, straightforward. But do not put full stops between initials, after status title (Mx, Dr) or between abbreviations (EU). 
- *	**Hyphen**: use to avoid ambiguity or to form a single idea from two or more words: 
+ *	**Full Stop / Period**: use frequently. Sentences should be short, crisp, straightforward. But do not put full stops between initials, after status title (Mx, Dr) or between abbreviations (EU).
+ *	**Hyphen**: use to avoid ambiguity or to form a single idea from two or more words:
     *	Fractions: two-thirds.
     *	Most words that begin with anti, non and neo.
     *	A sum followed by the word worth - £10 million-worth of exports.
-    *	Some titles (director-general, secretary-general, but Attorney General, general secretary etc). The rule is to adopt the usage of the authority which created it 
+    *	Some titles (director-general, secretary-general, but Attorney General, general secretary etc). The rule is to adopt the usage of the authority which created it
     *	Avoiding ambiguity (little-used car ... little used car).
-    *	Compass quarters (south-west, north-east). 
+    *	Compass quarters (south-west, north-east).
  *	**Quotation Marks**: use straight (not curly) quotation marks for direct quotes. Use either single or double quotation marks but be consistent.
 
 ### Capitalisation
-The guideline is to use them sparingly in the running prose. Specific rules: 
+The guideline is to use them sparingly in the running prose. Specific rules:
 
 *	**Title Case**: headings and book titles should use title case: "Preparing the Data for Analysis"; *The Pride and the Passion*, etc.
 *	**Always Capitalized**:
@@ -160,7 +160,7 @@ The guideline is to use them sparingly in the running prose. Specific rules:
 *	**Sometimes or Partially Capitalized**:
     *	**Places**: capitals for countries, regions, recognisable areas (eg, the Middle East, Senegal). Lower case for points of the compass, except where they are used as part of a place name (to reach the North Pole, head north). Further examples include: north-east Kenya, south Brazil, the west, western Canada, the far east, south-east Asia, Central America, Latin America.
     *	**Historic Events**: first world war, second world war; Crimean/Boer/Vietnam/Gulf war; hundred years war.
-    *	**Religion**: Upper case for Anglican, Baptist, Buddhist, Catholic, Christian, Hindu, Methodist, Muslim, Protestant, Roman Catholic, Sikh, but lower for evangelicals, charismatics, atheists. 
+    *	**Religion**: Upper case for Anglican, Baptist, Buddhist, Catholic, Christian, Hindu, Methodist, Muslim, Protestant, Roman Catholic, Sikh, but lower for evangelicals, charismatics, atheists.
     *	**Holy Books (select)**:
         *	**Bible**: Capitalise if referring to Old or New Testament.
         *	**Buddhist**: sutras (sermons) and abhidhamma (analysis and interpretation). For Tibetan Buddhismthere are also tantric texts and the Tibetan Book of the Dead.
@@ -169,12 +169,12 @@ The guideline is to use them sparingly in the running prose. Specific rules:
         *	**Qu'ran**: Capitalise. Texts include the Hadith, the Tawrat (Torah), Zabur (possibly Psalms), Injil (1.2 billion).
         *	**Sikh**: Adi Granth (commonly called the Guru Granth Sahib), the Dasam Granth, the Varan Bhai Gurdas, the texts of Bhai Nand Lal.
     *	**Jobs**: Capitalise the title when used with the name – President Macron but not as a description – Emmanuel Macron, president of France. The Pope and the Queen have capital letters.
-    *	**Organisations and Institutions**: the Government (cap in all references), the Cabinet (cap in all references), the Church of Ireland ("the church"), the Department of Education and Science ("the department"), Western University ("the university"), the Court of Appeal ("the appeal court" or "the court"). 
+    *	**Organisations and Institutions**: the Government (cap in all references), the Cabinet (cap in all references), the Church of Ireland ("the church"), the Department of Education and Science ("the department"), Western University ("the university"), the Court of Appeal ("the appeal court" or "the court").
     *	**Universities and Colleges**: Capitals for institution, lower case for departments ("Australian National University department of medieval history").
     *	**Religious Institutions, Hospitals and Schools**: cap up the proper or place name, lower case the rest eg Nurture Hillandale rehabilitation hospital, Vernon county primary school, Ali Pasha’s mosque.
 *	**Always Lowercase**:
-    *	**Committees, Reports and Inquiries**: committee on climate change, trade and industry committee, royal commission on electoral reform 
-    *	**Agencies, Commissions, Public Bodies, Quangos**: benefits agency, crown prosecution service, customs and excise, parole board 
+    *	**Committees, Reports and Inquiries**: committee on climate change, trade and industry committee, royal commission on electoral reform
+    *	**Agencies, Commissions, Public Bodies, Quangos**: benefits agency, crown prosecution service, customs and excise, parole board
     *	**Seasons**: spring, summer, autumn/fall, winter.
     *	**Currencies**: euro, franc, mark, sterling, dong etc
 
@@ -193,7 +193,7 @@ The guideline is to use them sparingly in the running prose. Specific rules:
 
 ### Challenging Words Explained
 
- *	**Collective Nouns** (group, family, cabinet, etc) take singular or plural verb according to meaning: the family was shocked, the family were sitting down, scratching their heads. 
+ *	**Collective Nouns** (group, family, cabinet, etc) take singular or plural verb according to meaning: the family was shocked, the family were sitting down, scratching their heads.
  *	**Less or Fewer?** Less means less in quantity, (less money); fewer means smaller in number, (fewer coins).
  *	**Over or More Than?** Over and under answer the question "how much?"; more than and fewer than answer the question "how many?": she is over 18, there were more than 20,000 at the game.
  *	**That or Which?** that defines, which informs: this is the house that Jack built, but this house, which Jack built, is now falling down.
@@ -246,7 +246,7 @@ Images can help readers understand your lesson steps, but should not be used for
 
 Use web-friendly file formats such as .png or .jpg and reduce large images to a maximum of 840px on the longest side. This is important for readers in countries with slower internet speeds.
 
-Images should be saved in a folder with the same name as your lesson .md file. The editor assigned to your lesson can assist you in uploading your images when you submit. 
+Images should be saved in a folder with the same name as your lesson .md file. The editor assigned to your lesson can assist you in uploading your images when you submit.
 
 To insert an image in your text, use the following format:
 
@@ -260,12 +260,12 @@ Images may not appear in previews of your lesson, but your editor will ensure th
 Lines of code should be formatted to distinguish them clearly from prose:
 
  *	Lines of code should be maximum 80 characters
- *	Multi-line code blocks should be enclosed in three \`\`\`back-ticks\`\`\`. 
+ *	Multi-line code blocks should be enclosed in three \`\`\`back-ticks\`\`\`.
  *	Inline code (rarely used) can be enclosed in single \`backticks\`.
 
 
-``` 
-They will look like this 
+```
+They will look like this
 ```
 ` and this ` respectively.
 
@@ -276,7 +276,7 @@ Follow best practice in writing your code:
 *	**User Commands**: when writing about text you want the reader to replace with their own information, use FULL CAPS and enclose by ` backticks ` (eg, \`USERNAME HERE\`).
 *	**Filenames**: filenames that you ask your reader to create or use should be enclosed in `backticks` when mentioned in the text and should include their file extension. Choose names that are concise and meaningful. You may use [snake_case](https://en.wikipedia.org/wiki/Snake_case) or [camelCase](https://en.wikipedia.org/wiki/Camel_case), but be consistent (eg, `data.txt`, `cleanData.py` etc).
 *	**Reserved Words**: words that are part of a programming language should always be formatted as `code` using `back-ticks` in the running prose. A list of reserved words in common programming languages include:
-   
+
 #### JavaScript:
 
 `abstract`, `arguments`, `await`, `Boolean`, `break`, `byte`, `case`, `catch`, `char`, `class`, `const`, `continue`, `debugger`, `default`, `delete`, `do`, `double`, `else`, `enum`, `eval`, `export`, `extends`, `false`, `final`, `finally`, `float`, `for`, `function`, `goto`, `if`, `implements`, `import`, `in`, `instanceof`, `int`, `interface`, `let`, `long`, `native`, `new`, `null`, `package`, `private`, `protected`, `public`, `return`, `short`, `static`, `super`, `switch`, `synchronized`, `this`, `throw`, `throws`, `transient`, `true`, `try`, `typeof`, `var`, `void`, `volatile`, `while`, `with`, `yield`.
@@ -293,7 +293,7 @@ Follow best practice in writing your code:
 
 ## Step 3: Submitting a New Lesson
 
-Double-check that your lesson file has been prepared to the above specifications. Once you are satisfied, we strongly recommend that you ask at least two people to try your tutorial and provide feedback. This will help you make improvements that mean our peer reviewers can focus on helping you produce the strongest possible lesson. 
+Double-check that your lesson file has been prepared to the above specifications. Once you are satisfied, we strongly recommend that you ask at least two people to try your tutorial and provide feedback. This will help you make improvements that mean our peer reviewers can focus on helping you produce the strongest possible lesson.
 
 You are ready to submit the lesson for peer review. Submissions are made to our peer review site on [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
 
@@ -318,7 +318,7 @@ The peer review process normally happens in 3 stages:
 
 3) Once your editor and peer reviewers are happy with the piece, the editor will recommend publication to the Managing Editor, who will read the piece to ensure that it meets our Author's Guidelines and standards. In some cases there may be additional revisions or copy editing at this stage to bring the  piece in line with our publishing standards. If the Managing Editor is happy with the piece, it will be moved to the live site for publication. Your editor will inform you of any additional information required at this stage.
 
-You may find it helpful to read our [editor guidelines](/editor-guidelines), which detail our editorial process. 
+You may find it helpful to read our [editor guidelines](/editor-guidelines), which detail our editorial process.
 
 If at any point you are unsure of your role or what to do next, post a question to the peer review issue. One of our editors will respond as soon as possible. We endeavour to respond to all queries within a few days.
 
