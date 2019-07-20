@@ -250,9 +250,11 @@ Images should be saved in a folder with the same name as your lesson .md file. T
 
 To insert an image in your text, use the following format:
 
+{% raw %}
+``` markdown
+{% include figure.html filename="IMAGE-FILENAME" caption="YOUR CAPTION" %}
 ```
-\{% include figure.html filename="IMAGE-FILENAME" caption="YOUR CAPTION" %}
-```
+{% endraw %}
 
 Images may not appear in previews of your lesson, but your editor will ensure they render properly when the lesson is published.
 
