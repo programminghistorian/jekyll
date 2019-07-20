@@ -33,8 +33,6 @@ If your proposal is accepted, an editor will create a "Proposal" page on our [su
 
 During this 90 day period, your point of contact will be the managing editor or an editor delegated at the managing editor's perogative.
 
---
-
 ## Step 2: Writing and Formatting a New Lesson
 This style guide lays out a set of standards for authors to use when creating or translating English-language lessons for *Programming Historian*. By using it, you help us ensure content is consistent and accessible.
 
@@ -189,13 +187,8 @@ The guideline is to use them sparingly in the running prose. Specific rules:
 *	Use the "Notes and Bibliography" system found in the [*The Chicago Manual of Style*, 17th Edition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html) for endnotes.
 *	On first mention of a published work, include author name (including first/given name). For example, "You can find more information in *The Elements of Typographic Style* by Robert Bringhurst," or "For more information, consult Robert Bringhurt’s *The Elements of Typographic Style*." On subsequent references, just use the book title. Author’s names can be shortened to surname only on subsequent use.
 *	Endnotes should not just contain a URL.
-This:
-
-    *	Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
-
- Not this
-
-    *	https://doi.org/10.1086/680389
+    *	(Correct): Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
+    *	(Incorrect): https://doi.org/10.1086/680389
 
 
 ### Challenging Words Explained
@@ -258,7 +251,7 @@ Images should be saved in a folder with the same name as your lesson .md file. T
 To insert an image in your text, use the following format:
 
 ```
-{% include figure.html filename="IMAGE-FILENAME" caption="YOUR CAPTION" %}
+\{% include figure.html filename="IMAGE-FILENAME" caption="YOUR CAPTION" %}
 ```
 
 Images may not appear in previews of your lesson, but your editor will ensure they render properly when the lesson is published.
@@ -297,7 +290,6 @@ Follow best practice in writing your code:
 #### R:
 `break`, `else`, `for`, `FALSE`, `function`, `if`, `in`, `Inf`, `NA`, `NA_character_`, `NA_complex_`, `NA_integer_`, `NA_real_`, `NaN`, `next`, `NULL`, `repeat`, `TRUE`, `while`.
 
---
 
 ## Step 3: Submitting a New Lesson
 
@@ -344,6 +336,6 @@ To raise a concern, please contact one of the following parties, chosing whomeve
 
 We hope you don't find yourself in a situation in which you are unhappy, but if you do, we thank you for helping us to improve.
 
---
+---
 
 This style guide was created with support from the School of Humanities, University of Hertfordshire.
