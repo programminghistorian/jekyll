@@ -44,8 +44,8 @@
         Adam Crymble est maître de conférences en histoire numérique à l'Université du Hertfordshire.
   team_roles:
    - editorial
-   - community
    - board
+   - team-development-manager
 
 - name: Caleb McDaniel
   team: false
@@ -280,9 +280,9 @@
    - editorial
    - board
    - archive
-   - treasurer
    - sponsorship
    - technical
+   - finance-manager
 
 - name: Amanda Morton
   team: false
@@ -594,8 +594,9 @@
         Brandon Walsh est responsable des programmes des deuxième et troisième cycles au Scholar's Lab de l'Université de Virginie.
   team_roles:
    - editorial
-   - community
    - board
+   - twitter-dev
+   - communication
    - technical
 
 - name: Ted Dawson
@@ -790,7 +791,10 @@
   team_roles:
    - editorial
    - board
+   - ed-manager
+   - communication
    - technical
+   - project-manager-at-large
 
 - name: Evan Peter Williamson
   team: false
@@ -914,7 +918,7 @@
     - spanish
     - board
     - technical
-    - communication
+    - communication-manager
 
 - name: Jon MacKay
   team: false
