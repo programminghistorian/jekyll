@@ -43,18 +43,18 @@ Nous préférons que les traducteurs soumettent leurs leçons en les ajoutant di
 6. Prévenez votre éditeur ou votre éditrice du téléversement des fichiers de votre leçon sur le dépôt [ph-submissions]. (Il ou elle devrait normalement recevoir une notification automatique mais nous préférons nous assurer que votre livraison ne passera pas inaperçue.)
 
 <div class="alert alert-info">
-  Si vous êtes déjà à l'aise avec GitHub et avec les commandes git pour la ligne de commande de votre système d'exploitation, vous pourez aussi soumettre votre traduction et les images qui l'accompagnent à l'aide d'une 'pull request' vers le dépôt `ph-submission`, puis fusionner celle-ci avec le dépôt principal après avoir été ajouté(e) à la liste des collaborateurs. <b>Veuillez ne pas soumettre de leçons par 'pull request' au dépôt Jekyll</b> pour que nous puissions offrir des aperçus visibles des leçons en cours de développement.
+  Si vous êtes déjà à l'aise avec GitHub et avec la version de git accessible par la ligne de commande de votre système d'exploitation, vous pouvez aussi soumettre votre traduction et les images qui l'accompagnent à l'aide d'une 'pull request' vers le dépôt `ph-submission`, puis fusionner celle-ci avec le dépôt principal après avoir été ajouté(e) à la liste des collaborateurs. <b>Veuillez ne pas soumettre de leçons par 'pull request' au dépôt Jekyll</b> pour que nous puissions offrir des aperçus visibles des leçons en cours de développement.
 </div>
 
 ### Traduction soumise! Et maintenant?
-To see what happens after you submit a translation, feel free to browse our [editor guidelines](/editor-guidelines), which detail our editorial process. Highlights are below:
+Pour savoir ce qui se passera après que vous ayez soumis votre traduction, n'hésitez pas à consulter nos [consignes aux rédacteurs et aux rédactrices](https://programminghistorian.org/fr/consignes-redacteurs) qui décrivent notre processus éditorial en détail. En voici les grandes lignes:
 
-The most immediately important step is that your editor will create an [issue](https://github.com/programminghistorian/ph-submissions/issues) for the new translation on the [ph-submissions] repository, with a link to your lesson (that you previewed in step 5). The editor and at least two reviewers invited by the editor will post their comments to this issue.
+L'étape la plus importante à court terme est la création d'un [ticket](https://github.com/programminghistorian/ph-submissions/issues) pour la nouvelle traduction dans le dépôt [ph-submissions], où l'on trouvera notamment un lien vers l'aperçu de votre leçon que vous avez consulté à l'étape 5. Le rédacteur ou la rédactrice et au moins deux évaluateurs (invités par le rédacteur ou la rédactrice) publieront leurs commentaires sur ce ticket.
 
 ### En attendant les retours des relectures 
-We aim to complete the review process within four weeks, but sometimes delays occur or people get busy and the process can take longer than we hoped.
+Nous tentons de compléter le processus de révision en quatre semaines ou moins, mais il est possible que des délais imprévus ou un emploi du temps chargé entraînent des retards.
 
-In keeping with the ideas of public scholarship and open peer review, we encourage discussions to stay on GitHub. However, we also want everyone to feel comfortable with the process. If you need to discuss something privately, please feel free to [email your editor directly](/project-team), or to contact one of our dedicated ombudsperson, [Amanda Visconti](/project-team).
+En accord avec les principes de la recherche publique et de la révision par les pairs ouverte, nous recommandons que la discussion demeure sur GitHub. Cependant, nous voulons aussi que tous les intervenants soient confortables avec le processus. Si vous ressentez le besoin de discuter d'un enjeu en privé, n'hésitez pas à contacter directement [votre rédacteur ou votre rédactrice par courriel](/project-team) ou à faire appel à nos médiateurs [Marie Puren et François Dominic Laramée](/project-team).
 
 ### Répondre aux relectures reçues 
 Your editor and reviewers will most likely make some suggestions for improvements on the "issue" for your translation. The editor should clarify which suggestions are essential to address, which are optional, and which can be set aside.
