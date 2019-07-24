@@ -17,17 +17,16 @@ Si vous désirez traduire une leçon publiée dans le *Programming Historian*, v
 Lorsque la traduction d'une leçon publiée a été assignée, un membre de notre équipe éditoriale crée un "Ticket de relecture de traduction" dans notre [dépôt Github](https://github.com/programminghistorian/ph-submissions) où la révision par les pairs aura lieu. Ce ticket inclut un forum de discussion qui servira à documenter la progression du processus de révision. Afin de minimiser les délais de publication, nous vous demandons de soumettre votre traduction dans les 90 jours suivant l'approbation de votre proposition par l'équipe éditoriale.
 
 ## Traduire une leçon et la mettre en page
-Translating a lesson involves principally the following:
-- translating the main textual body of a lesson
-- translating code terms and examples, if possible
-- if a lesson uses software with an interface available in the target language, then technical terms related to the software that are used in the text (menu entries, buttons etc) should be translated accordingly
-- translating titles and captions of the images. In some cases, new images need to be produced, for example if an exercise uses software with an interface that can be changed to the target language
-- adapting the links and notes provided in the original text to fit the targeted linguistic context, if possible; for example, link to software documentation, Wikipedia notices etc., if these resources are provided in the target language.
+Les principales étapes de la traduction d'une leçon sont les suivantes:
+- la traduction du corps de texte de la leçon;
+- la traduction des termes employés dans le code et dans les exemples, si possible;
+- si la leçon utilise un logiciel dont l'interface est disponible en français, les termes techniques associés à ce logiciel et qui sont employés dans le texte (entrées de menus, étiquettes de boutons, etc.) doivent être traduits en conséquence;
+- la traduction des titres et des sous-titres de figures. Dans certains cas, il faudra produire de nouvelles figures, par exemple lorsqu'un exercice fait appel à un logiciel dont l'interface est disponible en français;
+- le remplacement des liens et des notes contenus dans le texte d'origine par des équivalents francophones, lorsque cela est possible; par exemple, des liens vers la version française de la documentation d'un logiciel, vers le contenu francophone de Wikipedia, etc.
 
-If you decide to translate, please keep in mind that you are addressing a global audience. For matters of style and language choice, please see our [Author's Guidelines]({{site.baseurl}}/en/author-guidelines).
+Si vous décidez de traduire une leçon, veuillez tenir compte du fait que vous vous adressez à un auditoire international. En matière de style et de choix linguistiques, veuillez vous référer à nos [consignes aux auteurs]({{site.baseurl}}/fr/consignes-auteurs).
 
-All of our lessons must also be written in Markdown and follow our technical formatting guidelines, also available in our [Author's Guidelines]({{site.baseurl}}/en/author-guidelines).
-
+Veuillez aussi noter que toutes nos leçons doivent être rédigées en format Markdown et obéir à nos consignes techniques de mise en page, que vous pourrez également consulter dans nos [consignes aux auteurs]({{site.baseurl}}/fr/consignes-auteurs).
 
 ## Soumettre la leçon traduite
 Once your translation file has been prepared to the above specifications, you are ready to submit it for peer review.
