@@ -7,16 +7,16 @@ skip_validation: true
 
 # Consignes aux traducteurs et aux traductrices
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
-<h2 class="noclear">Step 1: <a href="#proposer-traduction-lecon">Proposer la traduction d'une leçon </a></h2>
-<h2 class="noclear">Step 2: <a href="#writing-a-new-lesson">Writing and Formatting a Translation</a></h2>
-<h2 class="noclear">Step 3: <a href="#submitting-a-new-lesson">Submitting a Translated Lesson</a></h2>
+<h2 class="noclear">Étape 1: <a href="#proposer-traduction-lecon">Proposer la traduction d'une leçon </a></h2>
+<h2 class="noclear">Étape 2: <a href="#writing-a-new-lesson">Traduire une leçon et la mettre en page</a></h2>
+<h2 class="noclear">Étape 3: <a href="#submitting-a-new-lesson">Soumettre la leçon traduite</a></h2>
 
 ## Proposer la traduction d'une leçon 
-If you want to translate a lesson published in *Programming Historian*, please see the list of pending translations and contact {% include managing-editor.html lang=page.lang %} to discuss your language skills and translation experience. We look for translations that are rigorous, readable, and consider the needs of an English-reading audience.
+Si vous désirez traduire une leçon publiée dans le *Programming Historian*, veuillez consulter la liste des traductions en cours et contacter {% include managing-editor.html lang=page.lang %} pour discuter de vos compétences langagières et de votre expérience de traduction. Nous cherchons des traducteurs et traductrices qui font preuve de rigueur, qui produisent des textes agréables à lire et qui sont sensibles aux besoins d'un public de lecteurs et de lectrices francophones.
 
-Once the translation of a published lesson is approved, one of our editors will create a "Translation Review Ticket" on our Github [repository](https://github.com/programminghistorian/ph-submissions) where the peer review will take place. This ticket includes a message board feature, which will be used to document the progress made during the translation review. To avoid delays in publishing, we ask that you submit your translation within 90 days of the editor accepting your proposal.
+Lorsque la traduction d'une leçon publiée a été assignée, un membre de notre équipe éditoriale crée un "Ticket de relecture de traduction" dans notre [dépôt Github](https://github.com/programminghistorian/ph-submissions) où la révision par les pairs aura lieu. Ce ticket inclut un forum de discussion qui servira à documenter la progression du processus de révision. Afin de minimiser les délais de publication, nous vous demandons de soumettre votre traduction dans les 90 jours suivant l'approbation de votre proposition par l'équipe éditoriale.
 
-## Traduire une leçon
+## Traduire une leçon et la mettre en page
 Translating a lesson involves principally the following:
 - translating the main textual body of a lesson
 - translating code terms and examples, if possible
@@ -29,7 +29,7 @@ If you decide to translate, please keep in mind that you are addressing a global
 All of our lessons must also be written in Markdown and follow our technical formatting guidelines, also available in our [Author's Guidelines]({{site.baseurl}}/en/author-guidelines).
 
 
-## Soumettre une leçon traduite
+## Soumettre la leçon traduite
 Once your translation file has been prepared to the above specifications, you are ready to submit it for peer review.
 
 We have a [Programming Historian project page at GitHub](https://github.com/programminghistorian), where we maintain two repositories (a repository is a place to store related files and folders–you can think of it as a kind of folder). One of these, called [jekyll], hosts the code for the live version of the site you see at http://programminghistorian.org. The other repository is called [ph-submissions].
