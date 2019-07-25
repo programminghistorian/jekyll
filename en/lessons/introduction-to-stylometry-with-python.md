@@ -56,7 +56,7 @@ This tutorial uses both datasets and software that you will have to download and
 
 ### The Dataset ###
 
-To work through this lesson, you will need to download and unzip the archive of the _Federalist Papers_ ([.zip](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/introduction-to-stylometry-with-python/stylometry-federalist.zip)) containing the 85 documents that we will use for our analysis. The archive also contains the [original Project Gutenberg ebook](http://www.gutenberg.org/cache/epub/1404/pg1404.txt) version of the _Federalist Papers_ from which these 85 documents have been extracted. When you unzip the archive, it will create a [directory](https://en.wikipedia.org/wiki/Directory_(computing)) called `data`. This will be your [working directory](https://en.wikipedia.org/wiki/Working_directory) and all work should be saved here while completing the lesson.
+To work through this lesson, you will need to download and unzip the archive of the _Federalist Papers_ ([.zip](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/introduction-to-stylometry-with-python/stylometry-federalist.zip)) containing the 85 documents that we will use for our analysis. The archive also contains the [original Project Gutenberg ebook](http://www.gutenberg.org/cache/epub/1404/pg1404.txt) version of the _Federalist Papers_ from which these 85 documents have been extracted. When you unzip the archive, it will create a [directory](https://en.wikipedia.org/wiki/Directory_(computing)) called `data` in your current [working directory](https://en.wikipedia.org/wiki/Working_directory). Make sure that you stay in this current working directory and that you save all work here while completing the lesson.
 
 ### The Software ###
 
