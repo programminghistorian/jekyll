@@ -12,7 +12,7 @@ skip_validation: true
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
 <h2 class="noclear">Step 1: <a href="#step-1-proposing-a-new-lesson">Proposing a New Lesson</a></h2>
 <h2 class="noclear">Step 2: <a href="#step-2-writing-a-new-lesson">Writing and Formatting a New Lesson</a></h2>
-<h2 class="noclear">Step 3: <a href="#step-3-submitting-a-new-lesson">Submitting a New Lesson</a></h2>
+<h2 class="noclear">Step 3: <a href="#step-3-submitting-a-new-lesson">Submitting a New Lesson</a></h2>  
 
 
 These guidelines have been developed to help you understand the process of creating a tutorial for the English version of *Programming Historian*. They include practical and philosophical details of the tutorial writing process, as well as an indication of the workflow and the peer review process. If at any time you are unclear, please email the managing editor, {% include managing-editor.html lang=page.lang %}.
@@ -163,7 +163,7 @@ The guideline is to use them sparingly in the running prose. Specific rules:
     *	**Religion**: Upper case for Anglican, Baptist, Buddhist, Catholic, Christian, Hindu, Methodist, Muslim, Protestant, Roman Catholic, Sikh, but lower for evangelicals, charismatics, atheists.
     *	**Holy Books (select)**:
         *	**Bible**: Capitalise if referring to Old or New Testament.
-        *	**Buddhist**: sutras (sermons) and abhidhamma (analysis and interpretation). For Tibetan Buddhismthere are also tantric texts and the Tibetan Book of the Dead.
+        *	**Buddhist**: sutras (sermons) and abhidhamma (analysis and interpretation). For Tibetan Buddhism there are also tantric texts and the Tibetan Book of the Dead.
         *	**Hindu**: the Śruti texts: Vedas, Samhitas, Brahmanas, Aranyakas, Upanishads; the Vedāngas, Hindu epics, Sutras, Shastras, philosophical texts, the Puranas, the Kāvya, the Bhasyas, many Nibandhas.
         *	**Judaism**: the Tanakh (Torah, Nevi'im, Ketuvim), Talmud (Mishnah, Gemara)
         *	**Qu'ran**: Capitalise. Texts include the Hadith, the Tawrat (Torah), Zabur (possibly Psalms), Injil (1.2 billion).
