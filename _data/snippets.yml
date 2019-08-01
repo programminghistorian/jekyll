@@ -390,7 +390,7 @@ python-warning:
   es: |
     Esta lección ha sido escrita utilizando Python v. 2.x. Es posible que el código no sea compatible con nuevas versiones de Python. "[Introducción a Python e instalación](/es/lecciones/introduccion-e-instalacion)" contiene una panorámica sobre cómo instalar Python 2.x y versiones posteriores.
   fr: |
-    Cette leçon a été écrite en utilisant Python v. 2.x. Le code peut ne pas être compatible avec les versions les plus récentes de Python. "[Introduction à Python et installation](/fr/lessons/introduction-et-installation)" fournit des instructions pour installer Python 2.x en plus des versions plus récentes.
+    Cette leçon a été écrite en utilisant Python v. 2.x. Le code peut ne pas être compatible avec les versions les plus récentes de Python. Merci de consulter la leçon "[Python Introduction and Installation](/en/lessons/introduction-and-installation)" (en anglais) qui fournit des instructions pour installer Python 2.x en plus des versions plus récentes.
 
 # Project Team Page
 project-team-roles:
@@ -484,6 +484,6 @@ background_color:
   fr: "#3D7C81"
 
 managing_editor:
-  en: Adam Crymble
+  en: Anandi Silva Knuppel
   es: Maria José Afanador-Llach
   fr: Sofia Papastamkou

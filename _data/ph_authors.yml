@@ -9,7 +9,9 @@
         University of Western Ontario.
     es: |
         William J. Turkel es profesor de Historia en la Universidad de Western
-        Ontario.
+        Ontario.  
+    fr: |
+        William J. Turkel est professeur d'histoire à l'Université Western Ontario. 
 
 - name: Alan MacEachern
   team_start: 2008
@@ -890,7 +892,7 @@
    - board
 
 - name: Jennifer Isasi
-  url: "http://jenniferisasi.com"
+  url: "https://jenniferisasi.github.io/"
   twitter: jenniferisve
   email: jenniferbibat@gmail.com
   github: jenniferisasi

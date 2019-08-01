@@ -6,9 +6,9 @@ layout: post
 categories: posts
 ---
 
-# Bulletin d'information #1 
+# Bulletin d'information #1
 
-*The Programming Historian* lance un bulletin d'information trimestriel qui va offrir un aperçu des progrès de notre communauté tout au long de l'année. Nous espérons ainsi continuer à alimenter une communauté des humanités numériques multilingue et accueillante. 
+*The Programming Historian* lance un bulletin d'information trimestriel qui va offrir un aperçu des progrès de notre communauté tout au long de l'année. Nous espérons ainsi continuer à alimenter une communauté des humanités numériques multilingue et accueillante.
 
 ## Le PH en français est en ligne!
 
@@ -16,7 +16,7 @@ Le [*Programming Historian en français*](http://programminghistorian.org/fr) 
 
 Dans le but d'élargir notre projet sur le plan international, le *Programming Historian en français* a été officiellement lancé en avril 2019. Cette troisième version de notre revue n'a été possible que grâce au travail assidu et discipliné du comité de rédaction français et de notre équipe technique. Sofia Papastamkou, Marie Puren et François Dominic Laramée ont travaillé pendant plus de dix mois sur la traduction de l’infrastructure du site, que le travail en parallèle de l'équipe technique a permis de restructurer pour le rendre trilingue.
 
-L'équipe travaille actuellement à la traduction de tutoriels existants. Jusqu'à présent, deux de nos tutoriels les plus populaires ont été publiés: "[Introduction à la stylométrie en Python](https://programminghistorian.org/fr/lecons/introduction-a-la-stylometrie-avec-python)", traduit par son propre auteur, François Dominic Laramée, et "[Nettoyer ses données avec OpenRefine](https://programminghistorian.org/fr/lecons/nettoyer-ses-donnees-avec-openrefine)", traduit par Sybille Clochet. Quatre autres tutoriels sont en cours de relecture et seront bientôt en ligne. 
+L'équipe travaille actuellement à la traduction de tutoriels existants. Jusqu'à présent, deux de nos tutoriels les plus populaires ont été publiés: "[Introduction à la stylométrie en Python](https://programminghistorian.org/fr/lecons/introduction-a-la-stylometrie-avec-python)", traduit par son propre auteur, François Dominic Laramée, et "[Nettoyer ses données avec OpenRefine](https://programminghistorian.org/fr/lecons/nettoyer-ses-donnees-avec-openrefine)", traduit par Sybille Clochet. Quatre autres tutoriels sont en cours de relecture et seront bientôt en ligne.
 
 
 
@@ -28,13 +28,13 @@ La publication des leçons originales coïncidant avec le [deuxième anniversair
 
 ## Nouveaux collaborateurs
 
-Pour atteindre nos objectifs, à savoir la publication à la fois des leçons originales en espagnol et d'autres traduites de l'anglais, Riva Quiroga et Joshua Ortiz Baco [ont rejoint l’équipe de *The Programming Historian en español*](https://programminghistorian.org/posts / riva-quiroga-joshua-ortiz). Ils ont tous deux participé au processus de relecture des traductions avant de rejoindre le comité de rédaction et sont très intéressés par le développement de méthodologies numériques qui attachent une place centrale aux contextes scientifiques et culturels de l'Amérique latine.
+Pour atteindre nos objectifs, à savoir la publication à la fois des leçons originales en espagnol et d'autres traduites de l'anglais, Riva Quiroga et Joshua Ortiz Baco [ont rejoint l’équipe de *The Programming Historian en español*](https://programminghistorian.org/posts/riva-quiroga-joshua-ortiz). Ils ont tous deux participé au processus de relecture des traductions avant de rejoindre le comité de rédaction et sont très intéressés par le développement de méthodologies numériques qui attachent une place centrale aux contextes scientifiques et culturels de l'Amérique latine.
 
 ## **Nouvelles leçons et traductions**
 
-- [Introduction to Populating a Website with API Data](https://programminghistorian.org/en/lessons/introduction-to-populating-a-website-with-api-data) by Go Sugimoto 
+- [Introduction to Populating a Website with API Data](https://programminghistorian.org/en/lessons/introduction-to-populating-a-website-with-api-data) by Go Sugimoto
 
-  This lesson introduces a way to populate a website with data obtained from another website via an Application Programming Interface (API). Using some simple programming, it provides strategies for customizing the presentation of that data, providing flexible and generalizable skills. 
+  This lesson introduces a way to populate a website with data obtained from another website via an Application Programming Interface (API). Using some simple programming, it provides strategies for customizing the presentation of that data, providing flexible and generalizable skills.
 
 - [Extracting Illustrated Pages from Digital Libraries with Python](https://programminghistorian.org/en/lessons/extracting-illustrated-pages) by Stephen Krewson
 
@@ -71,6 +71,6 @@ Pour atteindre nos objectifs, à savoir la publication à la fois des leçons or
 
 
 ## Évènements à venir
-Lors de la [**conférence DH 2019**](https://dh2019.adho.org) qui aura lieu à Utrecht, Pays-Bas, Antonio Rojas Castro, Anna-Maria Sichani et Sofia Papastamkou présenteront le 11 juillet leur poster "Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French speaking DH Communities" (Concevoir des initiatives de pédagogie numérique multilingue: le *Programming Historian* pour les communautés anglophones, hispanophones et francophones des humanités numériques). Avant la conférence, la même équipe participe également, le 8 juillet, à l'atelier "Accelerating DH Education" (Accélérant l'éducation en humanités numériques) avec une présentation intitulée "Three Challenges in Developing Open Multilingual DH Educational Resources: The Case of The Programming Historian" (Trois défis pour le développement de ressources éducationnelles multilingues en humanités numériques: le cas du Programming Historian".   
+Lors de la [**conférence DH 2019**](https://dh2019.adho.org) qui aura lieu à Utrecht, Pays-Bas, Antonio Rojas Castro, Anna-Maria Sichani et Sofia Papastamkou présenteront le 11 juillet leur poster "Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French speaking DH Communities" (Concevoir des initiatives de pédagogie numérique multilingue: le *Programming Historian* pour les communautés anglophones, hispanophones et francophones des humanités numériques). Avant la conférence, la même équipe participe également, le 8 juillet, à l'atelier "Accelerating DH Education" (Accélérant l'éducation en humanités numériques) avec une présentation intitulée "Three Challenges in Developing Open Multilingual DH Educational Resources: The Case of The Programming Historian" (Trois défis pour le développement de ressources éducationnelles multilingues en humanités numériques: le cas du Programming Historian".
 
 En outre, une partie de l'équipe du *Programming Historian en español* participe à la [**conférence ACH 2019**](http://ach2019.ach.org), le 25 juillet, à Pittsburgh, Pennsylvanie, aux Etats-Unis. Plus particulièrement, Maria José Afanador-Llach, Jennifer Isasi et Antonio Rojas Castro présentent "Retos en la producción de tutoriales de HD en contextos hispanohablantes" ou "Les défis de la production de leçons en humanités numériques dans des contextes hispanophones".
