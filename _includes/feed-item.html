@@ -1,5 +1,5 @@
 <item>
-<title>{{ page.title }}</title>
+<title>{{ page.title | xml_escape }}</title>
 {% if page.abstract %}
   <description>{{ page.abstract | xml_escape }}</description>
 {% else %}
