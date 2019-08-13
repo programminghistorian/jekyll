@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Gravity Models of Migration &amp; Trade"
+title: "Introduction to Gravity Models of Migration & Trade"
 collection: lessons
 layout: lesson
 slug: gravity-model
