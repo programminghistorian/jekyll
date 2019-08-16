@@ -81,6 +81,30 @@ sudo pip install beautifulsoup4
 
 {% include figure.html filename="https://imgs.xkcd.com/comics/sandwich.png" caption="The power of sudo: 'Sandwich' by XKCD" %}
 
+Additionally, you will need to install a "parser" for interpretting the HTML. To do so, run in the terminal:
+
+```
+pip install lxml
+```
+
+or 
+
+```
+sudo pip install lxml
+```
+
+Finally, so that this code works with either Python2 or Python3, you will need one helper library. Run in the terminal:
+
+```
+pip install future
+```
+
+or 
+
+```
+sudo pip install future
+```
+
 Application: Extracting names and URLs from an HTML page
 --------------------------------------------------------
 
@@ -124,10 +148,13 @@ to a CSV file with names and urls that looks like this:
 using a Python script like this:
 
 ``` python
+from __future__ import print_function
 from bs4 import BeautifulSoup
 import csv
 
-soup = BeautifulSoup (open("43rd-congress.html"))
+soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
+
+# print(soup.prettify())
 
 final_link = soup.p.a
 final_link.decompose()
@@ -139,6 +166,8 @@ links = soup.find_all('a')
 for link in links:
     names = link.contents[0]
     fullLink = link.get('href')
+    # print(names)
+    # print(fullLink)
 
     f.writerow([names,fullLink])
 ```
@@ -193,9 +222,10 @@ it to Beautiful Soup, and then print the “pretty” version in the
 terminal.
 
 ``` python
+from __future__ import print_function
 from bs4 import BeautifulSoup
 
-soup = BeautifulSoup(open("43rd-congress.html"))
+soup = BeautifulSoup(open("43rd-congress.html"), features="lxml")
 
 print(soup.prettify())
 ```
@@ -225,14 +255,17 @@ tags. So, we need to isolate out all of the “\<a\>” tags. We can do this
 by updating the code in “soupexample.py” to the following:
 
 ``` python
+from __future__ import print_function
 from bs4 import BeautifulSoup
 
-soup = BeautifulSoup (open("43rd-congress.html"))
+soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
+
+# print(soup.prettify())
 
 links = soup.find_all('a')
 
 for link in links:
-    print link
+    print(link)
 ```
 
 Save and run the script again to see all of the anchor tags in the
@@ -265,9 +298,12 @@ be deleting information that you wanted to extract. Update the file as
 below and run again.
 
 ``` python
+from __future__ import print_function
 from bs4 import BeautifulSoup
 
-soup = BeautifulSoup (open("43rd-congress.html"))
+soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
+
+# print(soup.prettify())
 
 final_link = soup.p.a
 final_link.decompose()
@@ -275,7 +311,7 @@ final_link.decompose()
 links = soup.find_all('a')
 
 for link in links:
-    print link
+    print(link)
 ```
 
 {% include figure.html caption="Figure 6: Successfully isolated only names and URLs" filename="Beautiful-Soup-Tutorial-101x26-2013-08-23-13-28-04.jpg" %}
@@ -311,9 +347,12 @@ text associated with (is on the other side of the “=” of) the “href”
 element.
 
 ``` python
+from __future__ import print_function
 from bs4 import BeautifulSoup
 
-soup = BeautifulSoup (open("43rd-congress.html"))
+soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
+
+# print(soup.prettify())
 
 final_link = soup.p.a
 final_link.decompose()
@@ -322,8 +361,8 @@ links = soup.find_all('a')
 for link in links:
     names = link.contents[0]
     fullLink = link.get('href')
-    print names
-    print fullLink
+    print(names)
+    print(fullLink)
 ```
 
 {% include figure.html caption="Figure 7: All HTML tags have been removed" filename="Beautiful-Soup-Tutorial-101x26-2013-08-23-14-13-13.jpg" %}
@@ -336,10 +375,13 @@ organized, let’s write some column headers. Finally, as each line is
 processed, the name and URL information is written to our CSV file.
 
 ``` python
+from __future__ import print_function
 from bs4 import BeautifulSoup
 import csv
 
-soup = BeautifulSoup (open("43rd-congress.html"))
+soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
+
+# print(soup.prettify())
 
 final_link = soup.p.a
 final_link.decompose()
@@ -351,7 +393,8 @@ links = soup.find_all('a')
 for link in links:
     names = link.contents[0]
     fullLink = link.get('href')
-
+    # print(names)
+    # print(fullLink)
     f.writerow([names, fullLink])
 ```
 
@@ -373,16 +416,32 @@ know all of our data can be found inside a table, so let’s use “\<tr\>”
 to isolate the content that we want.
 
 ``` python
+from __future__ import print_function
 from bs4 import BeautifulSoup
+import csv
 
-soup = BeautifulSoup (open("43rd-congress.html"))
+soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
+
+# print(soup.prettify())
 
 final_link = soup.p.a
 final_link.decompose()
-
+    
 trs = soup.find_all('tr')
 for tr in trs:
-    print tr
+    print(tr)
+
+# f = csv.writer(open("43rd_Congress.csv", "w"))
+# f.writerow(["Name", "Link"])    # Write column headers as the first line
+
+# links = soup.find_all('a')
+# for link in links:
+#     names = link.contents[0]
+#     fullLink = link.get('href')
+#     # print(names)
+#     # print(fullLink)
+
+#     f.writerow([names,fullLink])
 ```
 
 Looking at the print out in the terminal, you can see we have selected a
@@ -401,9 +460,13 @@ For the first, let’s create a loop to search for all of the anchor tags
 and “get” the data associated with “href”.
 
 ``` python
+from __future__ import print_function
 from bs4 import BeautifulSoup
+import csv
 
-soup = BeautifulSoup (open("43rd-congress.html"))
+soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
+
+# print(soup.prettify())
 
 final_link = soup.p.a
 final_link.decompose()
@@ -413,7 +476,19 @@ trs = soup.find_all('tr')
 for tr in trs:
     for link in tr.find_all('a'):
         fulllink = link.get ('href')
-        print fulllink #print in terminal to verify results
+        print(fulllink) #print in terminal to verify results
+
+# f = csv.writer(open("43rd_Congress.csv", "w"))
+# f.writerow(["Name", "Link"])    # Write column headers as the first line
+
+# links = soup.find_all('a')
+# for link in links:
+#     names = link.contents[0]
+#     fullLink = link.get('href')
+#     # print(names)
+#     # print(fullLink)
+
+#     f.writerow([names,fullLink])
 ```
 
 We then need to run a search for the table data within the table rows.
@@ -421,9 +496,13 @@ We then need to run a search for the table data within the table rows.
 not necessary.)
 
 ``` python
+from __future__ import print_function
 from bs4 import BeautifulSoup
+import csv
 
-soup = BeautifulSoup (open("43rd-congress.html"))
+soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
+
+# print(soup.prettify())
 
 final_link = soup.p.a
 final_link.decompose()
@@ -433,10 +512,22 @@ trs = soup.find_all('tr')
 for tr in trs:
     for link in tr.find_all('a'):
         fulllink = link.get ('href')
-        print fulllink #print in terminal to verify results
+        print(fulllink) #print in terminal to verify results
 
     tds = tr.find_all("td")
-    print tds
+    print(tds)
+
+# f = csv.writer(open("43rd_Congress.csv", "w"))
+# f.writerow(["Name", "Link"])    # Write column headers as the first line
+
+# links = soup.find_all('a')
+# for link in links:
+#     names = link.contents[0]
+#     fullLink = link.get('href')
+#     # print(names)
+#     # print(fullLink)
+
+#     f.writerow([names,fullLink])
 ```
 
 Next, we need to extract the data we want. We know that everything we
@@ -452,9 +543,11 @@ error. This is the logic of the “try” and “except” block. If a
 particular line fails, the script will continue on to the next line.
 
 ``` python
+from __future__ import print_function
 from bs4 import BeautifulSoup
+import csv
 
-soup = BeautifulSoup (open("43rd-congress.html"))
+soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
 
 final_link = soup.p.a
 final_link.decompose()
@@ -464,7 +557,7 @@ trs = soup.find_all('tr')
 for tr in trs:
     for link in tr.find_all('a'):
         fulllink = link.get ('href')
-        print fulllink #print in terminal to verify results
+        print(fulllink) #print in terminal to verify results
 
     tds = tr.find_all("td")
 
@@ -477,10 +570,22 @@ for tr in trs:
         congress = tds[5].get_text()
 
     except:
-        print "bad tr string"
+        print("bad tr string: {}".format(tds))
         continue #This tells the computer to move on to the next item after it encounters an error
 
-    print names, years, positions, parties, states, congress
+    print(names, years, positions, parties, states, congress)
+
+# f = csv.writer(open("43rd_Congress.csv", "w"))
+# f.writerow(["Name", "Link"])    # Write column headers as the first line
+
+# links = soup.find_all('a')
+# for link in links:
+#     names = link.contents[0]
+#     fullLink = link.get('href')
+#     # print(names)
+#     # print(fullLink)
+
+#     f.writerow([names,fullLink])
 ```
 
 Within this we are using the following structure:
@@ -503,10 +608,13 @@ the same process as we did in Part I, just with more variables.
 As a result, our file will look like:
 
 ``` python
+from __future__ import print_function
 from bs4 import BeautifulSoup
 import csv
 
-soup = BeautifulSoup (open("43rd-congress.html"))
+soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
+
+# print(soup.prettify())
 
 final_link = soup.p.a
 final_link.decompose()
@@ -531,10 +639,22 @@ for tr in trs:
         congress = tds[5].get_text()
 
     except:
-        print "bad tr string"
+        print("bad tr string: {}".format(tds))
         continue #This tells the computer to move on to the next item after it encounters an error
 
     f.writerow([names, years, positions, parties, states, congress, fullLink])
+
+# f = csv.writer(open("43rd_Congress.csv", "w"))
+# f.writerow(["Name", "Link"])    # Write column headers as the first line
+
+# links = soup.find_all('a')
+# for link in links:
+#     names = link.contents[0]
+#     fullLink = link.get('href')
+#     # print(names)
+#     # print(fullLink)
+
+#     f.writerow([names,fullLink])
 ```
 
 You’ve done it! You have created a CSV file from all of the data in the table, creating useful data from the confusion of the html page.
