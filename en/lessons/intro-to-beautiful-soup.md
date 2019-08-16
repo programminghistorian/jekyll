@@ -81,7 +81,7 @@ sudo pip install beautifulsoup4
 
 {% include figure.html filename="https://imgs.xkcd.com/comics/sandwich.png" caption="The power of sudo: 'Sandwich' by XKCD" %}
 
-Additionally, you will need to install a "parser" for interpretting the HTML. To do so, run in the terminal:
+Additionally, you will need to install a "parser" for interpreting the HTML. To do so, run in the terminal:
 
 ```
 pip install lxml
