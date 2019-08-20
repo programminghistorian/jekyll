@@ -83,6 +83,7 @@ module MyModule
       lessons.each do |p|
 
         lesson_errors = Array.new
+        page_lang = p.data["lang"]
 
         # Any fields listed in exclude_from_check YAML variable will not be checked.
         excluded_fields = p.data["exclude_from_check"]
@@ -163,10 +164,17 @@ module MyModule
           end
         end
 
-        # Check if page author names have exact matches in the ph_authors.yml
         p.data["authors"].each do |a|
+          # Check if page author names have exact matches in the ph_authors.yml
           unless valid_authors.include?(a)
             lesson_errors.push("'#{a}' is not currently listed in ph_authors.yml. Check your spelling.")
+          end
+
+          # Check that each author has a bio in the page language
+          author_entry =  site.data["ph_authors"].select {|e| e["name"] == a }.first
+          attempted_bio = author_entry["bio"][page_lang]
+          if attempted_bio.nil? || attempted_bio == ""
+            lesson_errors.push("'#{a}' does not have a '#{page_lang}' bio in ph_authors.yml.")
           end
         end
 
