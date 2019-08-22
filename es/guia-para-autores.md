@@ -201,11 +201,11 @@ Cuando quieras insertar una imagen, utiliza la siguiente línea de código en el
 
 {% raw %}
 ```markdown
-{% include figure.html filename="NOMBRE-DE-IMAGEN" caption="LEYENDA O PIE DE IMAGEN CON \"CÓDIGO DE ESCAPE\" PARA LAS COMILLAS/CITAS" %}
+{% include figure.html filename="NOMBRE-DE-IMAGEN" caption="LEYENDA O PIE DE IMAGEN CON \"CARACTER DE ESCAPE\" PARA LAS COMILLAS/CITAS" %}
 ```
 {% endraw %}
 
-<div class="alert alert-warning"> Tienes que modificar ```NOMBRE-DE-IMAGEN``` y ```Leyenda o pie de imagen``` según tu imagen y la lección. No olvides que las comillas (") dentro de los títulos de las figuras deben escaparse utilizando una barra invertida, como en el ejemplo anterior. Nota que cuando se añaden etiquetas de figura de esta manera, la imagen no se mostrará en la vista previa de Github ni en la vista previa de otros programas en que estés usando Markdown.</div>
+<div class="alert alert-warning"> Tienes que modificar ```NOMBRE-DE-IMAGEN``` y ```Leyenda o pie de imagen``` según tu imagen y la lección. No olvides que las comillas (") dentro de los títulos de las figuras deben ir precedidas por el caracter de escape o barra invertida (\), como en el ejemplo anterior. Nota que cuando se añaden etiquetas de figura de esta manera, la imagen no se mostrará en la vista previa de Github ni en la vista previa de otros programas en que estés usando Markdown.</div>
 
 ### Bloques de código
 Si necesitas incluir código en tu lección, o mostrar el resultado de un programa, utiliza el llamado [bloque de código destacado]. En una nueva línea, utiliza tres tildes graves para abrir un bloque, seguido del lenguaje de tu código (por ejemplo, ```python``` o ```html```). Luego copia tu código y cuando termines, cierra el bloque con tres tildes graves más. El marcado se procesara en el resultado final y se verá así:
