@@ -252,11 +252,11 @@ To insert an image in your text, use the following format:
 
 {% raw %}
 ``` markdown
-{% include figure.html filename="IMAGE-FILENAME" caption="YOUR CAPTION" %}
+{% include figure.html filename="IMAGE-FILENAME" caption="YOUR CAPTION USING \"ESCAPED\" QUOTES" %}
 ```
 {% endraw %}
 
-Images may not appear in previews of your lesson, but your editor will ensure they render properly when the lesson is published.
+Note that internal quotation marks in your caption must be escaped with a backslash, as in the example above. Images may not appear in previews of your lesson, but your editor will ensure they render properly when the lesson is published.
 
 ### Code Examples
 Lines of code should be formatted to distinguish them clearly from prose:

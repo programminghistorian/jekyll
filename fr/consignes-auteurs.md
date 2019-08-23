@@ -179,7 +179,7 @@ Assurez vous que les images sont des formats adaptés pour le Web, comme PNG ou 
 
 {% raw %}
 ``` markdown
-{% include figure.html filename="IMAGE-FILENAME" caption="Caption to image" %}
+{% include figure.html filename="IMAGE-FILENAME" caption="VOTRE TITRE, AVEC \"CODE D'ÉCHAPPEMENT\" POUR LES GUILLEMETS" %}
 ```
 {% endraw %}
 
@@ -199,7 +199,7 @@ Quand le Markdown est traité par notre système, cette ligne va automatiquement
 ```
 
 <div class="alert alert-warning">
- Il est important de noter que, lorsque les images sont encodées de cette manière, elles ne sont pas visibles dans la pré-visualisation sur Github ou dans d'autres programmes de pré-visualisation pour Markdown.
+ N'oubliez pas que les guillemets à l'intérieur des titres des figures doivent être échappés à l'aide d'une barre oblique inverse, comme dans l'exemple ci-dessus. Il est important de noter que, lorsque les images sont encodées de cette manière, elles ne sont pas visibles dans la pré-visualisation sur Github ou dans d'autres programmes de pré-visualisation pour Markdown mais que votre éditeur s'assurera qu'elles soient affichées correctement lorsque la leçon sera publiée.
 </div>
 
 
