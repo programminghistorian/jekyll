@@ -7,9 +7,9 @@ skip_validation: true
 
 # Consignes aux traducteurs et aux traductrices
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
-<h2 class="noclear">Étape 1: <a href="#proposer-la-traduction-dune-lecon">Proposer la traduction d'une leçon </a></h2>
-<h2 class="noclear">Étape 2: <a href="#traduire-une-lecon-et-la-mettre-en-page">Traduire une leçon et la mettre en page</a></h2>
-<h2 class="noclear">Étape 3: <a href="#soumettre-la-lecon-traduite">Soumettre la leçon traduite</a></h2>
+<h2 class="noclear">Étape 1: <a href="#proposer-la-traduction-dune-leçon">Proposer la traduction d'une leçon </a></h2>
+<h2 class="noclear">Étape 2: <a href="#traduire-une-leçon-et-la-mettre-en-page">Traduire une leçon et la mettre en page</a></h2>
+<h2 class="noclear">Étape 3: <a href="#soumettre-la-leçon-traduite">Soumettre la leçon traduite</a></h2>
 
 ## Proposer la traduction d'une leçon 
 Si vous désirez traduire en français une leçon publiée dans le *Programming Historian*, veuillez consulter la liste des traductions en cours et contacter {% include managing-editor.html lang=page.lang %} pour discuter de vos compétences langagières et de votre expérience en traduction. Nous cherchons des traducteurs et traductrices qui font preuve de rigueur, qui produisent des textes agréables à lire et qui comprennent les besoins spécifiques d'un public de lecteurs et de lectrices francophones.
