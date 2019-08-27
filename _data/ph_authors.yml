@@ -9,9 +9,9 @@
         University of Western Ontario.
     es: |
         William J. Turkel es profesor de Historia en la Universidad de Western
-        Ontario.  
+        Ontario.
     fr: |
-        William J. Turkel est professeur d'histoire à l'Université Western Ontario. 
+        William J. Turkel est professeur d'histoire à l'Université Western Ontario.
 
 - name: Alan MacEachern
   team_start: 2008
@@ -46,6 +46,7 @@
    - editorial
    - board
    - team-development-manager
+   - global
 
 - name: Caleb McDaniel
   team: false
@@ -488,9 +489,9 @@
     en: |
         Heather Froehlich is a PhD student at the University of Strathclyde (Glasgow, UK), where she studies gender in Early Modern London plays using computers. Her thesis draws heavily from sociohistoric linguistics and corpus stylistics, though she sustains an interest in digital methods for literary and linguistic inquiry.
     es: |
-        Heather Froehlich es doctoranda en la Universidad de Strathclyde (Glasgow, Reino Unido), institución donde realiza estudios de género mediante ordenadores aplicados al teatro londinense moderno. Su tesis de grado se nutre, en gran medida, de la lingüística sociohistórica y la estilística de corpus, si bien la autora no ha perdido el interés por el empleo de métodos digitales en la investigación literaria y lingüística.  
-    fr: |  
-        Heather Froehlich est doctorante à l'Université de Strathclyde (Glasgow, Royaume-Uni), où elle se spécialise en études de genre assistées par ordinateur dans le domaine du théâtre londonien de l'époque moderne. Sa thèse de doctorat mobilise principalement la linguistique sociohistorique et la stylistique de corpus, même si elle nourrit un vif intérêt pour les méthodes numériques appliquées aux recherches en littérature et en linguistique. 
+        Heather Froehlich es doctoranda en la Universidad de Strathclyde (Glasgow, Reino Unido), institución donde realiza estudios de género mediante ordenadores aplicados al teatro londinense moderno. Su tesis de grado se nutre, en gran medida, de la lingüística sociohistórica y la estilística de corpus, si bien la autora no ha perdido el interés por el empleo de métodos digitales en la investigación literaria y lingüística.
+    fr: |
+        Heather Froehlich est doctorante à l'Université de Strathclyde (Glasgow, Royaume-Uni), où elle se spécialise en études de genre assistées par ordinateur dans le domaine du théâtre londonien de l'époque moderne. Sa thèse de doctorat mobilise principalement la linguistique sociohistorique et la stylistique de corpus, même si elle nourrit un vif intérêt pour les méthodes numériques appliquées aux recherches en littérature et en linguistique.
 
 - name: Laura Turner O'Hara
   team: false
@@ -683,6 +684,7 @@
   team_roles:
    - editorial
    - board
+   - global-lead
 
 - name: Taylor Arnold
   team: false
@@ -996,6 +998,7 @@
     - board
     - managing-fr
     - technical
+    - global
   bio:
         en: |
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
@@ -1110,6 +1113,7 @@
   team_roles:
     - spanish
     - board
+    - global
 
 - name: Joshua G. Ortiz Baco
   twitter: jgob
@@ -1161,4 +1165,3 @@
   bio:
       en: |
           Go Sugimoto is a data analyst at the Austrian Centre for Digital Humanities (ACDH) in the Austrian Academy of Sciences. He has worked for a wide range of cultural heritage projects around the world, including Europeana and Archives Portal Europe at the National Archives of the Netherlands, CHIRON fellowship at the University of Florence (Italy), the National Museum of Modern Art Tokyo (Japan), and Wessex Archaeology (UK).
-

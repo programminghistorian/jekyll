@@ -134,39 +134,39 @@
 - type: ed-manager
   label:
     en: Education Manager
-    es: Mánager de educación 
+    es: Mánager de educación
     fr: Responsable pédagogique
   definition:
     en: Responsible for the overall education aspect of the project
-    es: Responsable del aspecto educativo general del proyecto 
+    es: Responsable del aspecto educativo general del proyecto
     fr: Responsable des aspects pédagogiques du projet
 - type: impact-manager
   label:
     en: Impact Manager
-    es: Mánager de impacto 
+    es: Mánager de impacto
     fr: Responsable de la valorisation
   definition:
     en: Supports, coordinates, and enhances research impact and analytics
     es: Apoya, coordina y amplía la investigación y análisis del impacto del proyecto
-    fr: Accompagne, coordonne et appuie la valorisation et les travaux d'analyse du projet 
+    fr: Accompagne, coordonne et appuie la valorisation et les travaux d'analyse du projet
 - type: finance-manager
   label:
     en: Finance Manager
-    es: Mánager de finanzas 
+    es: Mánager de finanzas
     fr: Responsable des finances
   definition:
     en: Responsible for project finances and fundraising
     es: Responsable de las finanzas del proyecto y la recaudación de fondos
-    fr: Responsable du financement du projet et de la collecte de fonds     
+    fr: Responsable du financement du projet et de la collecte de fonds
 - type: team-development-manager
   label:
     en: Team Development Manager
-    es: Mánager de desarrollo de equipo 
+    es: Mánager de desarrollo de equipo
     fr: Responsable du développement de l'équipe
   definition:
     en: Responsible for ensuring that everyone on the team is well supported
     es: Responsable de asegurar que todos en el equipo sean apoyados
-    fr: Responsable de s'assurer que tous les membres de l'équipe reçoivent le soutien nécessaire 
+    fr: Responsable de s'assurer que tous les membres de l'équipe reçoivent le soutien nécessaire
 - type: project-manager-at-large
   label:
     en: Project Manager at Large
@@ -201,3 +201,21 @@
     es: Jefe de redacción (francés)
     fr: Rédacteur/rédactrice en chef (français)
   source_role: managing-en
+- type: global-lead
+  label:
+    en: Global Lead
+    es: Líder global
+    fr: Responsable global
+  definition:
+    en: Coordinates the Global Team and facilitates communication with other Programming Historian teams.
+    es: Coordina el Equipo Global y facilita la comunicación con el resto de los equipos de Programming Historian.
+    fr: Coordonne l'équipe globale et assure la communication avec les autres équipes du Programming Historian. 
+- type: global
+  label:
+    en: Global Team
+    es: Equipo global
+    fr: Équipe globale
+  definition:
+    en: Managing new global initiatives, as well as trying to improve the cultural and linguistic diversity of the team, our lessons, and of participation in Digital Humanities more generally.
+    es: Coordinar nuevas iniciativas globales, así como tratar de mejorar la diversidad cultural y lingüística del equipo, de nuestras lecciones y de la participación en Humanidades Digitales en general.
+    fr: En charge de nouvelles initiatives à vocation globale, de la diversité culturelle et linguistique de l'équipe et des leçons, et de la participation aux humanités numériques en général.  
