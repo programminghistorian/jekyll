@@ -209,7 +209,7 @@
   definition:
     en: Coordinates the Global Team and facilitates communication with other Programming Historian teams.
     es: Coordina el Equipo Global y facilita la comunicación con el resto de los equipos de Programming Historian.
-    fr:
+    fr: Coordonne l'équipe globale et assure la communication avec les autres équipes du Programming Historian. 
 - type: global
   label:
     en: Global Team
