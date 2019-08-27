@@ -201,26 +201,11 @@ Cuando quieras insertar una imagen, utiliza la siguiente línea de código en el
 
 {% raw %}
 ```markdown
-{% include figure.html filename="NOMBRE-DE-IMAGEN" caption="Leyenda o pie de imagen" %}
+{% include figure.html filename="NOMBRE-DE-IMAGEN" caption="LEYENDA O PIE DE IMAGEN CON \"CARACTER DE ESCAPE\" PARA LAS COMILLAS/CITAS" %}
 ```
 {% endraw %}
 
-Tienes que modificar ```NOMBRE-DE-IMAGEN``` y ```Leyenda o pie de imagen``` según tu imagen y la lección. Nota que puedes usar el formato Markdown dentro de la leyenda de tu imagen, por ejemplo para escribir en negrita o cursiva.
-
-Cuando el Markdown es procesado por nuestro sistema dicha línea automáticamente producirá este HTML:
-
-```html
-<figure>
-<a href="/NOMBRE-DE-IMAGEN">
-    <img src="/NOMBRE-DE-IMAGEN" alt="Leyenda o pie de imagen">
-	</a>
-<figcaption>
-    <p>Leyenda o pie de imagen</p>
-</figcaption>
-</figure>
-```
-
-<div class="alert alert-warning"> Nota que cuando se añaden etiquetas de figura de esta manera, la imagen no se mostrará en la vista previa de Github ni en la vista previa de otros programas en que estés usando Markdown.</div>
+<div class="alert alert-warning"> Tienes que modificar ```NOMBRE-DE-IMAGEN``` y ```Leyenda o pie de imagen``` según tu imagen y la lección. No olvides que las comillas (") dentro de los títulos de las figuras deben ir precedidas por el caracter de escape o barra invertida (\), como en el ejemplo anterior. Nota que cuando se añaden etiquetas de figura de esta manera, la imagen no se mostrará en la vista previa de Github ni en la vista previa de otros programas en que estés usando Markdown.</div>
 
 ### Bloques de código
 Si necesitas incluir código en tu lección, o mostrar el resultado de un programa, utiliza el llamado [bloque de código destacado]. En una nueva línea, utiliza tres tildes graves para abrir un bloque, seguido del lenguaje de tu código (por ejemplo, ```python``` o ```html```). Luego copia tu código y cuando termines, cierra el bloque con tres tildes graves más. El marcado se procesara en el resultado final y se verá así:
