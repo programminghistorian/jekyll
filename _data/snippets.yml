@@ -127,6 +127,9 @@ menu-contribute-translate:
   en:
     title: Translator Guidelines
     link: /en/translator-guidelines
+  fr: 
+    title: Consignes aux traducteurs
+    link: /fr/consignes-traducteurs
 menu-contribute-edit:
   en:
     title: Editor Guidelines
