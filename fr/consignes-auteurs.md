@@ -18,11 +18,11 @@ Si vous avez une idée pour une nouvelle leçon ou si vous avez déjà rédigé 
 <div class="alert alert-success">
 Nous acceptons des tutoriels :
 <ul>
-<li>- pertinents pour les humanités;</li>
-<li>- adaptés à n'importe quel niveau de compétence et d'expérience technique;</li>
-<li>- concernant un problème ou un processus particulier;</li>
-<li>- pérennes dans le long terme;</li>
-<li>- et s'adressant à un public international.</li>
+<li>pertinents pour les humanités;</li>
+<li>adaptés à n'importe quel niveau de compétence et d'expérience technique;</li>
+<li>concernant un problème ou un processus particulier;</li>
+<li>pérennes dans le long terme;</li>
+<li>et s'adressant à un public international.</li>
 </ul>
 La portée et la longueur du tutoriel doivent être appropriés à la complexité de la tâche qui y est expliquée. La longueur des tutoriels ne doit pas excéder 8,000 mots (en incluant le code source) à moins que le rédacteur ou la rédactrice n'en ait explicitement donné la permission. Celle-ci sera uniquement accordée dans des circonstances exceptionnelles. Nous demandons que la longueur des leçons soit en général comprise entre 4,000 et 6,000 mots. Les leçons plus longues pourront être divisées en plusieurs tutoriels.
 </div>
