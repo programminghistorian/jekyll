@@ -17,6 +17,10 @@ activity: analyzing
 topics: [distant-reading]
 abstract: This lesson focuses on a foundational natural language processing and information retrieval method called Term Frequency - Inverse Document Frequency (tf-idf). This lesson explores the foundations of tf-idf, and will also introduce you to some of the questions and concepts of computationally oriented text analysis.
 mathjax: true
+avatar_alt:
+  en: antique typewriter
+  es:
+  fr:
 ---
 
 {% include toc.html %}
