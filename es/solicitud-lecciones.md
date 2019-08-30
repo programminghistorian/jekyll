@@ -4,6 +4,10 @@ title: Solicitud de lecciones
 original: lesson-requests
 ---
 
+# Lecciones en progreso 
+
+Para ver todas las lecciones en progreso, visita [nuestro repositorio](https://github.com/programminghistorian/ph-submissions/issues).
+
 # Solicitud de lecciones 
 
 El Consejo Editorial de *The Programming Historian en español* está interesado en recibir propuestas para lecciones originales sobre los siguientes temas. Consulta la [guía para autores](/es/guia-para-autores) si te interesa desarrollar una de las lecciones. 
