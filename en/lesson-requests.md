@@ -3,6 +3,10 @@ layout: blank
 title: Active Lesson Requests
 ---
 
+# Lessons In Development
+
+[See a list of lessons in development at our ph-submissions repository.](https://github.com/programminghistorian/ph-submissions/issues)
+
 # Active Lesson Requests
 
 The Editorial Board of the English-language version of the _Programming Historian_ would particularly welcome hearing from prospective authors for the following lesson topics. Anyone interested should consult the [Author's Guidelines](/en/author-guidelines) for more information:
