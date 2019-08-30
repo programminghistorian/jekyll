@@ -414,7 +414,7 @@ Each of these should return a different entry, except for the last, which should
 
 ## Understanding Our Updated API
 
-In this code, we first create a new function, called `api_root`, with the `@app.route` syntax that maps the function to the path `/api/v1/resources/books`. That means that this function will run when we access [http://127.0.0.1:5000/api/v1/resources/books](http://127.0.0.1:5000/api/v1/resources/books). (Note that accessing this link without providing an ID will give the error message we provided in the code: `Error: No id field provided. Please specify an id.`)
+In this code, we first create a new function, called `api_id`, with the `@app.route` syntax that maps the function to the path `/api/v1/resources/books`. That means that this function will run when we access [http://127.0.0.1:5000/api/v1/resources/books](http://127.0.0.1:5000/api/v1/resources/books). (Note that accessing this link without providing an ID will give the error message we provided in the code: `Error: No id field provided. Please specify an id.`)
 
 Inside our function, we do two things:
 

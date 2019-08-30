@@ -10,6 +10,8 @@
     es: |
         William J. Turkel es profesor de Historia en la Universidad de Western
         Ontario.
+    fr: |
+        William J. Turkel est professeur d'histoire à l'Université Western Ontario.
 
 - name: Alan MacEachern
   team_start: 2008
@@ -42,8 +44,9 @@
         Adam Crymble est maître de conférences en histoire numérique à l'Université du Hertfordshire.
   team_roles:
    - editorial
-   - community
    - board
+   - team-development-manager
+   - global
 
 - name: Caleb McDaniel
   team: false
@@ -278,8 +281,8 @@
    - editorial
    - board
    - archive
-   - treasurer
    - sponsorship
+   - finance-manager
 
 - name: Amanda Morton
   team: false
@@ -486,6 +489,8 @@
         Heather Froehlich is a PhD student at the University of Strathclyde (Glasgow, UK), where she studies gender in Early Modern London plays using computers. Her thesis draws heavily from sociohistoric linguistics and corpus stylistics, though she sustains an interest in digital methods for literary and linguistic inquiry.
     es: |
         Heather Froehlich es doctoranda en la Universidad de Strathclyde (Glasgow, Reino Unido), institución donde realiza estudios de género mediante ordenadores aplicados al teatro londinense moderno. Su tesis de grado se nutre, en gran medida, de la lingüística sociohistórica y la estilística de corpus, si bien la autora no ha perdido el interés por el empleo de métodos digitales en la investigación literaria y lingüística.
+    fr: |
+        Heather Froehlich est doctorante à l'Université de Strathclyde (Glasgow, Royaume-Uni), où elle se spécialise en études de genre assistées par ordinateur dans le domaine du théâtre londonien de l'époque moderne. Sa thèse de doctorat mobilise principalement la linguistique sociohistorique et la stylistique de corpus, même si elle nourrit un vif intérêt pour les méthodes numériques appliquées aux recherches en littérature et en linguistique.
 
 - name: Laura Turner O'Hara
   team: false
@@ -519,7 +524,7 @@
         Matthew Lincoln est développeur en humanités numériques à l'Université Carnegie Mellon et historien de l'art européen moderne.
   team_roles:
    - editorial
-   - technical
+   - technical-lead
    - board
 
 - name: Sarah Simpkin
@@ -563,6 +568,8 @@
         Megan R. Brett is Digital History Associate at the Roy Rosenzweig Center for History and New
         Media, where she acts as Outreach Coordinator for the Omeka projects. She is also a doctoral
         student in the Department of History and Art History at George Mason University.
+    es: |
+        Megan R. Brett es colaboradora de Historial Digital en el Centro de Historia y Nuevos Medios Roy Rosenzweig, donde trabaja como Coordinadora de Difusión para los proyectos Omeka. También es estudiante de doctorado en el departamento de Historia e Historia del Arte en la Universidad George Mason.
 
 - name: Brandon Walsh
   github: walshbr
@@ -589,14 +596,18 @@
         Brandon Walsh est responsable des programmes des deuxième et troisième cycles au Scholar's Lab de l'Université de Virginie.
   team_roles:
    - editorial
-   - community
    - board
+   - twitter-dev
+   - communication
+   - technical
 
 - name: Ted Dawson
   team: false
   bio:
     en: |
         Ted Dawson is a Doctoral Candidate in German Studies at Vanderbilt University.
+    es: |
+        Ted Dawson es candidato doctoral en Estudios Alemanes en la Universidad de Vanderbilt.
 
 - name: M. H. Beals
   team: false
@@ -672,6 +683,7 @@
   team_roles:
    - editorial
    - board
+   - global-lead
 
 - name: Taylor Arnold
   team: false
@@ -784,6 +796,10 @@
   team_roles:
    - editorial
    - board
+   - ed-manager
+   - communication
+   - technical
+   - project-manager-at-large
 
 - name: Evan Peter Williamson
   team: false
@@ -881,7 +897,7 @@
    - board
 
 - name: Jennifer Isasi
-  url: "http://jenniferisasi.com"
+  url: "https://jenniferisasi.github.io/"
   twitter: jenniferisve
   email: jenniferbibat@gmail.com
   github: jenniferisasi
@@ -907,7 +923,7 @@
     - spanish
     - board
     - technical
-    - communication
+    - communication-manager
 
 - name: Jon MacKay
   team: false
@@ -980,6 +996,8 @@
     - french
     - board
     - managing-fr
+    - technical
+    - global
   bio:
         en: |
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
@@ -1094,6 +1112,7 @@
   team_roles:
     - spanish
     - board
+    - global
 
 - name: Joshua G. Ortiz Baco
   twitter: jgob
@@ -1138,6 +1157,7 @@
   bio:
       en: |
           Matthew J. Lavin is a Clinical Assistant Professor of English and Director of the Digital Media Lab at the University of Pittsburgh. His current scholarship and teaching focus on book history, cultural analytics, turn-of-the-twentieth-century U.S. literature and culture.
+
 
 - name: Go Sugimoto
   team: false

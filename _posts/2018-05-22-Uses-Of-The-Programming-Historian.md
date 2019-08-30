@@ -61,11 +61,11 @@ If you are using the _Programming Historian_ in interesting ways, we'd love to h
 
 ### 2013
 
-* Jim English, '[Empirical Method in Literary Studies](http://www.english.upenn.edu/~jenglish/Courses/Fall2014/505Syllabus.pdf)', University of Pennsylvania, USA (Autumn 2013).
+* Jim English, '[Empirical Method in Literary Studies](http://web.archive.org/web/20180127231436/http://www.english.upenn.edu/~jenglish/Courses/Fall2014/505Syllabus.pdf)', University of Pennsylvania, USA (Autumn 2013).
 * Melissa Bailar and Lisa Spiro, '[Introduction to Digital Humanities](http://digitalhumanities.rice.edu/fall-2013-syllabus/)', Rice University, USA (Autumn 2013).
 * Devon Elliott, 'Digital History and American Popular Culture (HIST2897F)'(formerly available from: http://www.huronuc.on.ca/Assets/website/Document/FASS/HIS/HIS2897FDElliott2013.pdf), Huron College, Canada (Autumn 2013).
 * Chad Black, '[Theory and Practice of Digital History](http://dh.chadblack.net/info/syllabus/)', University of Tennessee, USA (Autumn 2013).
-* Aaron Shapiro, '[Seminar in Digital History and New Media (History 7970)](http://wp.auburn.edu/dighist/?page_id=127)', Auburn University, USA (2013).
+* Aaron Shapiro, '[Seminar in Digital History and New Media (History 7970)](https://web.archive.org/web/20160121064807/http://wp.auburn.edu/dighist/?page_id=127)', Auburn University, USA (2013).
 
 ### 2012
 
