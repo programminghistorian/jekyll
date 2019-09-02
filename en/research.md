@@ -49,6 +49,7 @@ The project team and members of the wider community are involved in a number of 
 * Adam Crymble, 'The Programming Historian 2', _Digital Humanities 2012_, Hamburg (July 2012).
 
 ## Media &amp; Media Contributions
+* Martin Dröge, 'Rezension zu The Programming Historian', _H-Soz-Kult_, 31.08.2019, <www.hsozkult.de/webreview/id/rezwww-184>
 * Sue Levine, 'The Early-Stage Ph.D.'s Guide to Summer', _Inside Higher Education_, 10 June 2019, <https://www.insidehighered.com/advice/2019/06/10/professional-development-and-careers-activities-phd-students-can-pursue-over>.
 * 'Championing open access with online digital history journal', _University of Sussex Press Office_, 9 October, 2018, <https://www.sussex.ac.uk/news/people?id=46353/>.
 * Adam Crymble, 'A Decade of Programming Historians', _Network in Canadian History &amp; Environment_, 23 March, 2018, <http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/>.
