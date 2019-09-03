@@ -38,6 +38,8 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 de mayo, 2015).
 
 ### Carteles, conferencias y presentaciones
+* Sofia Papastamkou, Antonio Rojas Castro & Anna-Maria Sichani, '[Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French Speaking DH Communities](https://dev.clariah.nl/files/dh2019/boa/1207.html)', Digital Humanities Conference 2019, Utrecht, 
+Países Bajos, 9-12 julio, 2019.
 * Jennifer Isasi, Antonio Rojas y Anna-Maria Sichani, 'Data science and the language question in digital humanities pedagogy: the example of the Programming Historian', *EADH 2018*, National University of Ireland, Galway (9 diciembre 2018).
 * Maria José Afanador, 'The Programming Historian en español: estrategias y retos para la construcción de una comunidad global de humanidades digitales', Ponencia presentada en la Conferencia de Humanidades Digitales *DH2018*, Ciudad de México, México, (2018, junio).
 * Caleb McDaniel, 'Open Access, Transparent Peer Review', *Annual Meeting of the Organizations of American Historians*, Sacramento, California, (14 abril 2018).
