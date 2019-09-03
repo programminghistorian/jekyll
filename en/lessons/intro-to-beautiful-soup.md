@@ -268,6 +268,8 @@ for link in links:
     print(link)
 ```
 
+Note that we added a "#" to the beginning of the `print(soup.prettify())` line. The hash or pound sign "comments out" the code, or turns a line of code into a comment. This tells the computer to skip over the line when executing the program. Commenting out code that is no longer in use is one way to keep track of what we have done in the past.
+
 Save and run the script again to see all of the anchor tags in the
 document.
 
