@@ -15,7 +15,7 @@ translator:
 - Sylvain Machefert
 translation-editor:
 - Sofia Papastamkou
-translation-reviewers:
+translation-reviewer:
 - Frédéric Clavert
 - François Dominic Laramée
 translation_date: 2019-07-06
@@ -24,7 +24,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/228
 activity: presenting
 topics: [python]
 abstract: "Cette leçon propose une introduction au langage HTML et à la structuration des pages web."
-original: en/lessons/viewing-html-files
+original: viewing-html-files
 avatar_alt: 
 ---
 
