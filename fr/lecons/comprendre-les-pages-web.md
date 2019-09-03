@@ -67,7 +67,7 @@ souhaitez placer le titre en italique. En HTML on utilise le mot-clé `em`
 ("em" pour emphasis, accentuation). Une partie de votre code HTML pourrait
 ressembler à :
 ``` xml
-... in Cohen and Rosenzweig's <em>Digital History</em>, par exemple ...
+... dans l’œuvre de Cohen et Rosenzweig <em>Digital History</em>, par exemple ...
 ```
 
 Le plus simple des documents HTML est constitué de balises indiquant le début
