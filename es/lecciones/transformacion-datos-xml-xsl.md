@@ -142,7 +142,7 @@ También encontrarás los siguientes documentos:
 
 Tras finalizar este tutorial, te recomendamos explorar las otras hojas de estilo XSL contenidas en la carpeta **Transformers** y los archivos generados con elllas; de esta manera, podrás descubrir otras posibilidades y crear archivos adaptados a tus necesidades.
 
-La información contenida en el archivo TEISAP.XML ha sido codificada según las recomendaciones de la [**Text-Encoding Initiative**](http://www.tei-c.org/index.xml) (TEI), gran parte de la cual corresponde a los metadatos. Sin embargo, en este tutorial utilizaremos una versión simplificada que cubre los datos históricos más importantes.[^5]
+La información contenida en el archivo TEISAP.XML ha sido codificada según las recomendaciones de la [**Text-Encoding Initiative**](https://tei-c.org) (TEI), gran parte de la cual corresponde a los metadatos. Sin embargo, en este tutorial utilizaremos una versión simplificada que cubre los datos históricos más importantes.[^5]
 
 Ve a la carpeta **Outputs** y continúa hasta la carpeta **XML**. Dentro encontrarás un directorio llamado **Simplified**; copia o traslada el archivo **SAPsimple_es.xml** a tu escritorio.
 
