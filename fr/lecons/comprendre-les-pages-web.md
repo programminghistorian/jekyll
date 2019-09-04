@@ -53,7 +53,7 @@ ou en extraire automatiquement de l'information.
 {% include figure.html filename="obo-page-source.png" caption="Code HTML de Old Bailey Online" %}
 
 (À ce point de la lecture, vous pourrez trouver intéressant de naviguer sur les
-[tutoriels W3 Schools][]. Une connaissance approfondie du HTML n'est pas nécessaire
+[tutoriels W3 Schools HTML][]. Une connaissance approfondie du HTML n'est pas nécessaire
 pour poursuivre la lecture, mais tout temps passé à apprendre le HTML sera forcément
 utile dans vos activités d'humaniste numérique.)
 
