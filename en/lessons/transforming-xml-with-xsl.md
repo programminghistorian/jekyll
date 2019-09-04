@@ -140,7 +140,7 @@ The package also includes
 
 Once you have completed the tutorial, you can explore the different XSL stylesheets (transformers) included here, and their associated outputs, to discover additional possibilities for your own datasets.
 
-The main TEISAP.XML database has been encoded to [**Text-Encoding Initiative** (**TEI**)](http://www.tei-c.org/index.xml) standards and includes a significant amount of metadata. For the purposes of this tutorial, however, we will be using a simplified version of the database that focuses on some of the core historical data.
+The main TEISAP.XML database has been encoded to [**Text-Encoding Initiative** (**TEI**)](https://tei-c.org) standards and includes a significant amount of metadata. For the purposes of this tutorial, however, we will be using a simplified version of the database that focuses on some of the core historical data.
 
 Open the outputs folder and continue into the XML folder. Here you will find a folder entitled **Simplified**. Copy the **SimplifiedSAP.xml** file to your desktop.
 
