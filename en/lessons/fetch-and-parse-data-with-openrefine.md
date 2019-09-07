@@ -15,6 +15,7 @@ activity: acquiring
 topics: [data-manipulation, web-scraping, api]
 abstract: "OpenRefine is a powerful tool for exploring, cleaning, and transforming data. In this lesson you will learn how to use Refine to fetch URLs and parse web content."
 redirect_from: /lessons/fetch-and-parse-data-with-openrefine
+avatar_alt: Machine for water filtration 
 ---
 
 {% include toc.html %}
@@ -640,5 +641,3 @@ OpenRefine is a flexible, pragmatic tool that simplifies routine tasks and, when
 [^use]: As of July 2017, see [API Documentation](http://text-processing.com/docs/index.html).
 [^1]: Jacob Perkins, "Sentiment Analysis with Python NLTK Text Classification", [http://text-processing.com/demo/sentiment/](http://text-processing.com/demo/sentiment/).
 [^2]: Vivek Narayanan, Ishan Arora, and Arjun Bhatia, "Fast and accurate sentiment classification using an enhanced Naive Bayes model", 2013, [arXiv:1305.6143](https://arxiv.org/abs/1305.6143).
-
-
