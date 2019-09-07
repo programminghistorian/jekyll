@@ -24,6 +24,7 @@ difficulty: 1
 activity: analyzing
 topics: [distant-reading]
 abstract: "El análisis de corpus permite hacer comparaciones a gran escala entre objetos presentes en los textos; es decir, lo que se conoce como lectura distante."
+avatar_alt: Grabado de una estantería con libros
 
 ---
 
