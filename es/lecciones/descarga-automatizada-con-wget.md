@@ -23,6 +23,7 @@ difficulty: 1
 activity: acquiring
 topics: [web-scraping]
 abstract: "Wget es un programa útil que se ejecuta a través de la línea de comandos de tu computadora. Sirve para recuperar material en línea."
+avatar_alt: Grabado de dos mineros dentro de una mina empujando carretillas hasta un ascensor. 
 ---
 
 {% include toc.html %}
@@ -318,12 +319,12 @@ Aquí solo he dado una instantánea de algunas de las funcionalidades de wget. P
 [^2]: La versión más reciente es wget 1.19, desde el 3 de febrero de 2017.
 
 
-  [Command Line Bootcamp]: http://praxis.scholarslab.org/scratchpad/bash/
-  [descargar XCode a través de este enlace]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
-  [sitio web de desarrolladores de Apple]: https://developer.apple.com/xcode/
-  [Ver descargas]: https://developer.apple.com/downloads/
-  [sitio web de GNU]: http://www.gnu.org/software/wget/
-  [HTTP]: http://ftp.gnu.org/gnu/wget/
-  [FTP]: ftp://ftp.gnu.org/gnu/wget/
-  [ugent website]: http://users.ugent.be/~bpuype/wget/
-  [Manual de wget de GNU]: http://www.gnu.org/software/wget/manual/wget.html
+[Command Line Bootcamp]: http://praxis.scholarslab.org/scratchpad/bash/
+[descargar XCode a través de este enlace]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
+[sitio web de desarrolladores de Apple]: https://developer.apple.com/xcode/
+[Ver descargas]: https://developer.apple.com/downloads/
+[sitio web de GNU]: http://www.gnu.org/software/wget/
+[HTTP]: http://ftp.gnu.org/gnu/wget/
+[FTP]: ftp://ftp.gnu.org/gnu/wget/
+[ugent website]: http://users.ugent.be/~bpuype/wget/
+[Manual de wget de GNU]: http://www.gnu.org/software/wget/manual/wget.html
