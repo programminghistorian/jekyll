@@ -200,11 +200,16 @@ issn:
 footer:
   license:
     en: |
-      _The Programming Historian_ (ISSN: 2397-2068) is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license. _The Programming Historian_ is an international volunteer-driven project whose financial activities are administered by _[ProgHist Limited](https://beta.companieshouse.gov.uk/company/12192946)_, a Not for Profit Company Limited by Guarantee that is registered in England, Company Number 12192946.
+      _The Programming Historian_ (ISSN: 2397-2068) is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license. 
     es: |
       _The Programming Historian en español_ (ISSN: 2517-5769) se publica con una licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es).
     fr: |
       _The Programming Historian en français_ (ISSN: 2631-9462) est publié sous licence [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.fr).
+  financial:
+    en: |
+      This project is administered by ProgHist Limited, Company Number 12192946.
+    es: |
+    fr: |
 
   gh-hosted:
     en: Hosted on GitHub
