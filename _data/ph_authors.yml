@@ -1009,15 +1009,12 @@
   email: marie.puren1406@gmail.com
   twitter: MariePuren
   github: mpuren
-  team: true
+  team: false
   team_start: 2018
+  team_end: 2019
   institution: LARHRA
   sortname: Puren
   affiliation: LARHRA Lyon
-  team_roles:
-    - french
-    - board
-    - ombuds-fr
   bio:
         en: |
             Marie Puren is an historian and research engineer in the ALMAnaCH team at Inria Paris.
