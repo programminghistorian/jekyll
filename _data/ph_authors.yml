@@ -115,8 +115,6 @@
         Maria José Afanador-Llach est maître de conférences en Humanités numériques et histoire à l'Université de los Andes, (Bogota, Colombie).
   team_roles:
    - spanish
-   - managing-es
-   - ombuds-es
    - board
 
 - name: Víctor Gayol
@@ -1108,6 +1106,7 @@
   team_roles:
     - spanish
     - board
+    - managing-es
     - global
 
 - name: Joshua G. Ortiz Baco
