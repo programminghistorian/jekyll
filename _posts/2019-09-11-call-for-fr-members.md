@@ -18,7 +18,7 @@ Récemment lancé, le Programming Historian en français cherche à agrandir et 
 - participer et contribuer dans la mesure du possible aux discussions et aux activités collectives autour du projet;
 - participer aux réunions mensuelles de l'équipe par Skype. 
 
-Les membres de l'équipe éditoriale du Programming Historian peuvent en outre intégrer des équipes de tâches spécifiques selon leurs souhaits, domaines d'intérêt et compétences: équipe [technique](/jekyll/wiki/Technical-Team), de [développement du projet](/jekyll/wiki/Project-Development-Team), de [communication](/jekyll/wiki/Communication-Team), [globale](/jekyll/wiki/Global-Team).
+Les membres de l'équipe éditoriale du Programming Historian peuvent en outre intégrer des équipes de tâches spécifiques selon leurs souhaits, domaines d'intérêt et compétences: équipe [technique](https://github.com/programminghistorian/jekyll/wiki/Technical-Team), de [développement du projet](https://github.com/programminghistorian/jekyll/wiki/Project-Development-Team), de [communication](https://github.com/programminghistorian/jekyll/wiki/Communication-Team), [globale](https://github.com/programminghistorian/jekyll/wiki/Global-Team).
   
 Idéalement, nous souhaitons recueillir des candidatures de tout l'espace francophone. La connaissance de l'anglais est indispensable, celle de l'espagnol sera particulièrement appréciée. Le projet étant hébergé sur Github, une formation sera assurée en cas de besoin. 
 
