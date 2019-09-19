@@ -22,38 +22,38 @@ Selon les rôles, l'information recueillie peut inclure:
 - Une courte biographie, habituellement fournie par l'auteur ou le rédacteur
 - Un identificateur ORCID
 
-In keeping with our open ethos, and to express our gratitude to authors, translators reviewers, and editors, we publicly acknowledge the names of all individuals who participate in one of these activities on the published lesson, and on our Project Team page (and its translations).
+En accord avec notre code d'éthique favorisant l'ouverture et afin d'exprimer notre gratitude envers les auteurs, traducteurs, rédacteurs et évaluateurs, nous publions les noms de toutes les personnes qui contribuent dans l'un ou l'autre de ces rôles sur la page de chaque leçon publiée et sur la page Équipe du projet (et ses traductions).
 
-If you wish to contact us to discuss any data we may have about you, you can email our managing editor. You have the right to withdraw your consent to our use of this data, however, it should be noted that Right to Erasure may not apply to authors of a submitted article as we have a legitimate interest in keeping your data to identify you as the author of a published and indexed text.
+Si vous désirez nous contacter pour discuter des données que nous détenons à votre sujet, vous pouvez écrire à notre rédactrice en chef. Vous avez le droit de retirer la permission en vertu de laquelle nous utilisons ces données. Notez cependant que le Droit à l'oubli pourrait ne pas s'appliquer aux auteurs d'un article publié puisque nous avons un intérêt légitime à conserver vos données afin de vous identifier comme auteur d'un article publié et indexé.
 
-## Google Analytics Data
+## Données Google Analytics
 
-The *Programming Historian* also collects web traffic data. We use this data to identify the needs of our visitors, to identify types of lessons that are in high demand in certain geographic regions, to promote the success of the project with potential funders, partners, and outside bodies through summary statistics, and to conduct and publish research about digital humanities and teaching and learning.
+Le *Programming Historian* récolte également des données au sujet du trafic sur le web. Nous utilisons ces données pour identifier les besoins de nos visiteurs, pour savoir quels types de leçons sont les plus demandés dans certaines régions géographiques, pour promouvoir le succès de notre projet auprès de partenaires, de bailleurs de fonds et d'agences externes à l'aide de statistiques sommaires, et pour réaliser et publier des recherches concernant les humanités numériques, l'enseignement et l'apprentissage.
 
-None of the data collected by Google Analytics allows us to identify individuals.
+Aucune des données recueillies par Google Analytics ne nous permet d'identifier des individus.
 
-Google Analytics sets a number of "cookies" on your computer when you visit the website. These may include:
+Google Analytics installe un certain nombre de "cookies" sur votre ordinateur lorsque vous visitez notre site. Ils peuvent inclure:
 
 `_ga`, `_gat`
 
-You can block this using the "Do Not Track" settings in your browser
+Vous pouvez bloquer ceci en utilisant les paramètres "Ne pas traquer" de votre fureteur. 
 
 `_utmv`
 
-This cookie is used by Google Analytics to determine the type of visitor that visits our website. The cookie determines the user's preferences based on which webpages they visit, so that we may use this data to understand which are the most popular webpages and why people visit the website.
+Google Analytics utilise ce cookie pour déterminer les types de visiteurs qui consultent notre site. Ce cookie détermine les préférences de l'usager en fonction des pages visitées, afin que nous puissions utiliser cette information pour savoir quelles pages sont les plus populaires et pourquoi les lecteurs visitent notre site.
 
 `__utmz`
 
-This cookie is used by Google Analytics to determine the type of referral used by each visitor to arrive at our website. The cookie determines if the user has come directly to our website or via a search engine, e-mail or e-mail campaign. We use this data to understand how our users arrive at our website.
+Google Analytics utilise ce cookie pour déterminer la méthode de référence utilisée par chaque visiteur qui entre sur notre site. Le cookie détermine si l'usager atteint notre site directement ou par l'intermédiaire d'un moteur de recherche, d'un courriel ou d'une campagne de courriels. Nous utilisons cette information pour comprendre comment nos utilisateurs atteignent notre site. 
 
 `__utma`
 
-This cookie is used to identify unique visitors to our website. The results are sent to our Google Analytics account, so that we can see how many unique visitors come to the site over a period of time.
+Ce cookie sert à identifier les visiteurs uniques de notre site. Les résultats sont transmis à notre compte Google Analytics pour que nous puissions savoir combien de visiteurs différents visitent notre site au cours d'une période spécifique.
 
 `__utmb`
 
-This cookie is used by Google Analytics to determine the visitor session times on our website. Each time you visit a new webpage on the website, the cookie is set to expire within 30 minutes. If it does not find an existing cookie, a new one is created.
+Google Analytics utilise ce cookie pour calculer la durée des visites sur notre site. Chaque fois que vous visitez une nouvelle page sur le site, le cookie est programmé pour arriver à échéance après 30 minutes. Si aucun cookie n'existe au moment de la visite, un nouveau cookie est automatiquement créé.
 
 `__utmc`
 
-This cookie is used by Google Analytics in conjunction with `__utmb` to determine visitor sessions. Unlike `__utmb`, this cookie does not have an expiry date. It determines whether a new session should be created based on whether you have previously closed your browser, re-opened it and come back to the website.
+Google Analytics utilise ce cookie, en conjonction avec `__utmb`, pour mesurer la durée des visites. Contrairement à `__utmb`, ce cookie n'a pas de date de péremption. Il détermine si une nouvelle visite (ou 'session') doit être créée, en vérifiant si vous avez précédemment fermé votre fureteur et redémarré celui-ci avant de revenir sur le site. 
