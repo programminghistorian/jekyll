@@ -943,24 +943,24 @@
   team_start: 2018
   sortname: Laramée
   orcid: 0000-0001-5542-3754
-  institution: Université de Montréal
+  institution: University of Ottawa
   affiliation:
       en: |
-          University of Montreal, Canada
+          University of Ottawa, Canada
       fr: |
-          Université de Montréal, Canada
+          Université d'Ottawa, Canada
       es: |
-          Universidad de Montréal, Canadá
+          Universidad de Ottawa, Canadá
   team_roles:
     - french
     - board
     - ombuds-fr
   bio:
       en: |
-          François Dominic Laramée is a doctoral candidate in history at the Université de Montréal, in Canada.
+          François Dominic Laramée is a postdoctoral fellow in digital history of medicine at the University of Ottawa, in Canada.
           He holds master's degrees in computer science and U.S. history and is a former video game designer, TV personality and screenwriter.
       fr: |
-          François Dominic Laramée est doctorant en histoire à l'Université de Montréal, au Canada.
+          François Dominic Laramée est chercheur postdoctoral en histoire numérique de la médecine à l'Université d'Ottawa, au Canada.
           Détenteur de maîtrises en histoire des États-Unis et en informatique, il est aussi un ancien concepteur de jeux vidéo, scénariste et artiste de la télévision au Québec.
       es: |
           François Dominic Laramée es doctorando en Historia en la Universidad de Montréal, en Canadá.
