@@ -7,7 +7,7 @@ layout: blank
 
 ## Publication de données
 
-En tant qu'éditeur qui souscrit aux principes du libre accès et de l'ouverture, le *Programming Historian* recueille un certain nombre d'informations au sujet de ses auteurs, traducteurs, rédacteurs et évaluateurs. Ces informations sont publiées dans le fichier suivant: <https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml>. Elles servent aussi à bonifier plusieurs autres pages du site en y insérerant des données pertinentes (par exemple, le nom et la biographie d'un.e auteur.e).
+En tant qu'éditeur qui souscrit aux principes du libre accès et de l'ouverture, le *Programming Historian* recueille un certain nombre d'informations au sujet de ses auteur(e)s, traducteurs et traductrices, rédacteurs et rédactrices, et évaluateurs et évaluatrices. Ces informations sont publiées dans le fichier suivant: <https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml>. Elles servent aussi à bonifier plusieurs autres pages du site en y insérerant des données pertinentes (par exemple, le nom et la biographie d'un(e) auteur(e)).
 
 Selon les rôles joués par chaque individu au sein du projet, l'information recueillie peut inclure:
 
@@ -19,12 +19,12 @@ Selon les rôles joués par chaque individu au sein du projet, l'information rec
 - L'année de départ du Comité éditorial
 - Les rôles au sein du Comité éditorial, s'il y a lieu
 - L'affiliation institutionnelle
-- Une courte biographie, habituellement fournie par l'auteur ou par le rédacteur
-- Un identificateur ORCID
+- Une courte biographie, habituellement fournie par l'auteur(e) ou par la personne responsable du suivi éditorial
+- Un identifiant ORCID
 
-En vertu de notre code d'éthique qui favorise l'ouverture et afin d'exprimer notre gratitude envers les auteurs, traducteurs, rédacteurs et évaluateurs, nous publions les noms de toutes les personnes qui ont contribué au développement d'une leçon publiée, dans l'un ou l'autre de ces rôles, sur la page de cette leçon et sur la page Équipe du projet (et ses traductions).
+En vertu de notre code d'éthique qui favorise l'ouverture et afin d'exprimer notre gratitude envers les auteur(e)s, traducteurs et traductrices, rédacteurs et rédactrices, et évaluateurs et évaluatrices, nous publions les noms de toutes les personnes qui ont contribué au développement d'une leçon publiée, dans l'un ou l'autre de ces rôles, sur la page de cette leçon et sur la page Équipe du projet (et ses traductions).
 
-Si vous désirez nous contacter pour discuter des données que nous détenons à votre sujet, vous pouvez écrire à notre rédactrice en chef. Vous avez le droit de retirer la permission en vertu de laquelle nous utilisons ces données. Notez cependant que le Droit à l'oubli pourrait ne pas s'appliquer aux auteur.e.s d'un article publié puisque nous avons un intérêt légitime à conserver vos données afin de vous identifier comme auteur.e d'un article publié et indexé.
+Si vous désirez nous contacter pour discuter des données que nous détenons à votre sujet, vous pouvez écrire à notre rédacteur ou rédactrice en chef. Vous avez le droit de retirer la permission en vertu de laquelle nous utilisons ces données. Notez cependant que le Droit à l'oubli pourrait ne pas s'appliquer aux auteur(e)s d'un article publié puisque nous avons un intérêt légitime à conserver vos données afin de vous identifier comme auteur(e) d'un article publié et indexé.
 
 ## Données Google Analytics
 
