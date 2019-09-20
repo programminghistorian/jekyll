@@ -3,9 +3,9 @@ title: Politique sur la vie privée
 layout: blank
 ---
 
-# Politique sur la vie privée
+# Utilisation des données à caractère personnel
 
-## Publication de données
+## Publication des informations vous concernant
 
 En tant qu'éditeur qui souscrit aux principes du libre accès et de l'ouverture, le *Programming Historian* recueille un certain nombre d'informations au sujet de ses auteur(e)s, traducteurs et traductrices, rédacteurs et rédactrices, et évaluateurs et évaluatrices. Ces informations sont publiées dans le fichier suivant: <https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml>. Elles servent aussi à bonifier plusieurs autres pages du site en y insérerant des données pertinentes (par exemple, le nom et la biographie d'un(e) auteur(e)).
 
