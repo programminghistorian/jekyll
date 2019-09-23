@@ -29,9 +29,9 @@ _The Programming Historian en español_ (ISSN {{ site.data.snippets.issn[page.la
 En The Programming Historian estamos comprometidos con la diversidad y defendemos la necesidad de mantener un espacio de trabajo sin ningún tipo de acoso u hostigamiento basado en el género, identidad, orientación sexual, capacidades, físico, peso, etnia, edad, religión o nivel de conocimiento técnico de los participantes y colaboradores. Asimismo, nuestro compromiso con la diversidad se extiende a la composición del Consejo Editorial. Hemos adoptado una política por la cual tratamos de asegurar que los miembros de un mismo género o nacionalidad no alcanzan un ratio superior al 50% +1 del total de miembros del equipo. Animamos a personas de grupos no representados a solicitar ser parte de nuestro Consejo Editorial cuando se anuncian los puestos, y nos comprometemos a considerar y discutir el potencial de la candidatura para ofrecer perspectivas diferentes a las que ya están en el equipo al decidir entre dos candidatos o candidatas igualmente cualificados/as.
 
 ## Financiamiento y propiedad
-Para ver un listado de patrocinadores y ayudas, visita nuestra página '[Apóyanos](/es/apoyanos)'.
+Programming Historian es un proyecto internacional impulsado por voluntarios. Sus actividades financieras son administradas por ProgHist Limited, una organización sin fines de lucro limitada por garantía que está registrada en Inglaterra, con número de compañía 12192946. El proyecto es publicado por el consejo editorial de *Programming Historian*. 
 
-*The Programming Historian* es un proyecto impulsado por voluntarios y publicado por su Consejo Editorial.
+Para ver un listado de patrocinadores y ayudas, visita nuestra página '[Apóyanos](/es/apoyanos)'.
 
 ## Historia del proyecto
 
