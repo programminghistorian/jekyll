@@ -261,7 +261,7 @@ L'étape la plus immédiate consiste en la création par votre rédacteur ou ré
 ### Attendre les commentaires d'évaluation
 Nous essayons de finaliser le processus de relecture dans un délai de quatre semaines ; mais il peut parfois arriver que nous prenions du retard, ou que les personnes impliquées dans le processus de relecture soient très occupées, et cela peut prendre plus de temps que prévu.
 
-Afin de promouvoir l'évaluation ouverte par les pairs et le développement d'un environnement académique ouvert, nous encourageons les discussions à rester sur Github. Toutefois, nous souhaitons également que vous vous sentiez à l'aise avec le processus de relecture ; sentez vous libre d'[envoyer directement un message à votre rédacteur ou rédactrice](/fr/equipe-projet), ou de contacter notre dispositif de médiation, [Marie Puren et François Dominic Laramée](/fr/equipe-projet).
+Afin de promouvoir l'évaluation ouverte par les pairs et le développement d'un environnement académique ouvert, nous encourageons les discussions à rester sur Github. Toutefois, nous souhaitons également que vous vous sentiez à l'aise avec le processus de relecture ; sentez vous libre d'[envoyer directement un message à votre rédacteur ou rédactrice](/fr/equipe-projet), ou de contacter notre médiateur, [François Dominic Laramée](/fr/equipe-projet).
 
 
 ### Répondre aux commentaires
