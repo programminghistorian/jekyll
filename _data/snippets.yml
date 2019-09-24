@@ -207,11 +207,11 @@ footer:
       _The Programming Historian en français_ (ISSN: 2631-9462) est publié sous licence [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.fr).
   financial:
     en: |
-      This project is administered by ProgHist Limited, Company Number 12192946.
+      This project is administered by ProgHist Limited, Company Number [12192946](https://beta.companieshouse.gov.uk/company/12192946).
     es: |
-      Este proyecto es administrado por ProgHist Limited, con número de compañía 12192946. 
+      Este proyecto es administrado por ProgHist Limited, con número de compañía [12192946](https://beta.companieshouse.gov.uk/company/12192946). 
     fr: |
-        Ce projet est administré par ProgHist Limited, no d'immatriculation 12192946.
+        Ce projet est administré par ProgHist Limited, no d'immatriculation [12192946](https://beta.companieshouse.gov.uk/company/12192946).
 
   gh-hosted:
     en: Hosted on GitHub
