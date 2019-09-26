@@ -12,5 +12,6 @@ jobs:
     - uses: actions/setup-ruby@master
     - name: Build Programming Historian
       run:
+        gem install bundler:2.0.1
         bundle install
         sh _build/build.sh
