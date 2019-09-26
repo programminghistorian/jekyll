@@ -9,9 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@master
-    - uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 2.5.4
+    - uses: actions/setup-ruby@master
     - name: Build Programming Historian
       run:
         bundle install
