@@ -6,10 +6,13 @@ jobs:
   build:
 
     runs-on: ubuntu-18.04
-    
+
     steps:
-    - uses: actions/checkout@v1
-    - name: Run a multi-line script
-      run: |
+    - uses: actions/checkout@master
+    - uses actions/setup-ruby@v1
+      with:
+        ruby-version: 2.5.4
+    - name: Build Programming Historian
+      runs:
         bundle install
         sh _build/build.sh
