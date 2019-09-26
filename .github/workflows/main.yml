@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@master
-    - uses actions/setup-ruby@v1
+    - uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.5.4
     - name: Build Programming Historian
