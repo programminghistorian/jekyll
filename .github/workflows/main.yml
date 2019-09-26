@@ -13,6 +13,6 @@ jobs:
       with:
         ruby-version: 2.5.4
     - name: Build Programming Historian
-      runs:
+      run:
         bundle install
         sh _build/build.sh
