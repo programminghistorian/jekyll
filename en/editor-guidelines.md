@@ -82,7 +82,7 @@ When a lesson has been submitted, the editor will open a new 'issue' on our [Git
 
 ### The Initial Comment
 
-Your first comment on the message board for a given tutorial review should use our template which outlines the role of the editor and what will take place during the review, as well as everyone's options in the unlikely event that something goes wrong. Please adapt [the template](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md), which should appear automatically in all new issue boxes, as needed:
+Your first comment on the message board for a given tutorial review should use our template which outlines the role of the editor and what will take place during the review, as well as everyone's options in the unlikely event that something goes wrong. Please adapt [the template](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/.github/ISSUE_TEMPLATE), which should appear automatically in all new issue boxes, as needed:
 
 ```
 The Programming Historian has received the following tutorial on '[LESSON TITLE]' by [AUTHOR GITHUB USERNAME]. This lesson is now under review and can be read at:
@@ -250,7 +250,7 @@ original: slug to original published lesson (translations only)
 review-ticket: e.g. https://github.com/programminghistorian/ph-submissions/issues/108
 difficulty: see guidance below
 activity: ONE OF: acquiring, transforming, analyzing, presenting, sustaining
-topics: 
+topics:
  - topic one (see guidance below)
  - topic two
 abstract: see guidance below

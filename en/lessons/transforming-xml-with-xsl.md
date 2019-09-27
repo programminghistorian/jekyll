@@ -41,7 +41,7 @@ In all three of these situations, a basic understanding of XML, and its sister-l
 
 **eXtensible Markup Language** (**XML**) is a highly flexible method for encoding or structuring your data.  Unlike [**Hypertext Markup Language** (**HTML**)](https://en.wikipedia.org/wiki/HTML), which has a set vocabulary, XML is extensible; it can be expanded to include whatever sections, sub-section, and sub-sub-sections you need in order to store your data in the way you wish.
 
-A database can be made up of one or more XML files and each file has the same basic structure. Each section, or layer, of the file is surrounded by a set of [elements](https://en.wikipedia.org/wiki/XSLT_elements). An element is, essentially, a category or name for the type of data you are providing. Like [Russian Nesting Dolls](https://en.wikipedia.org/wiki/Matryoshka_doll), each level of elements exists entirely within another one. The **top-level element** encloses the entire database. Each element within the top-level element is a **child** of that element. Likewise, the element surrounding a child element is called the **parent** element. 
+A database can be made up of one or more XML files and each file has the same basic structure. Each section, or layer, of the file is surrounded by a set of [elements](https://en.wikipedia.org/wiki/XSLT_elements). An element is, essentially, a category or name for the type of data you are providing. Like [Russian Nesting Dolls](https://en.wikipedia.org/wiki/Matryoshka_doll), each level of elements exists entirely within another one. The **top-level element** encloses the entire database. Each element within the top-level element is a **child** of that element. Likewise, the element surrounding a child element is called the **parent** element.
 
     <top>
 		<parent>
@@ -58,7 +58,7 @@ Every element can, depending on the rules of your database, have a value (textua
 			<child_3>value</child_3>
 		</parent>
 	</top>
-	
+
 They can also have [attributes](https://en.wikipedia.org/wiki/Attribute_(computing)), which can be thought of as metadata for the element. Attributes can, for example, help you distinguish between different types of values without having to create a new type of element.
 
     <top>
@@ -68,7 +68,7 @@ They can also have [attributes](https://en.wikipedia.org/wiki/Attribute_(computi
 			<first type="informal">Davy</first>
 		</parent>
 	</top>
-	
+
 Once you are given an XML database, or have stored your own data within one, you can use XSL to sort, filter and display this information in (almost) any way you wish. You can even break open OpenXML files, such as Word (.docx) or Excel (.xslx) files, and see or remove any additional information that Microsoft has inserted into your documents, such as tags identifying geographical locations.
 
 A more detail discussion of XML, its structure, and its use in the humanities, is available from the [Text Encoding Initative](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html).
@@ -79,7 +79,7 @@ A more detail discussion of XML, its structure, and its use in the humanities, i
 
 By keeping your data (XML) and formatting instructions (XSL) separate, you are able to refine and alter your layout without the risk of compromising the structure of your data. You are also able to create a number of different *styles*, each serving a different purpose, and apply them as necessary to a single data set. In practice, this means only having to update your data in one place, even if you export it to many different documents.
 
-The following tutorial will therefore explain 
+The following tutorial will therefore explain
 
 + **Editors**: The tools needed to create XSL transformation files
 + **Transformers**: The tools needed to apply your XSL transformation instructions to your XML database
@@ -98,7 +98,7 @@ as well as walk you through the creation of some of the most common transformati
 
 One of the advantages of storing data in a plain-text format is the ease of obtaining appropriate software for viewing and manipulating it. For the purposes of this tutorial, you can use any [plain-text](https://en.wikipedia.org/wiki/Plain_text) editor, such as **Notepad** (Windows) or **TextEdit** (Mac OS), but should not use a [WYSIWYG (what you see is what you get)](https://en.wikipedia.org/wiki/WYSIWYG) [word processor](https://en.wikipedia.org/wiki/Word_processor) such as Microsoft Word, as these often insert non-[ascii](https://en.wikipedia.org/wiki/ASCII) characters, such as curly quotation marks, that will prevent your XSL from processing correctly. This tutorial will assume you are using Notepad or TextEdit.
 
-Although these will provide everything you need, you may prefer to download a more advanced editor, such as 
+Although these will provide everything you need, you may prefer to download a more advanced editor, such as
 [**Notepad++**](https://notepad-plus-plus.org/download/) or [**Atom**](https://atom.io/). These free editors maintain the plain-text format of your data while providing you with different colour schemes (such as green-on-black or brown-on-beige) as well the ability to collapse (hide) sections or easily comment-out (temporarily disable) sections of your code.
 
 When you become more comfortable with XML and XSL, and are ready to tackle more complicated transformations, you may want to consider using a dedicated XML editor, such as [**OxygenXML**](https://www.oxygenxml.com/).
@@ -148,7 +148,7 @@ Using your chosen web browser, open *SimplifiedSAP.xml* and examine the file. Yo
 
 {% include figure.html filename="transforming-xml-with-xsl-2.png" caption="Figure 2: Viewing the XML" %}
 
-The first line of the XML database is ```<?xml version="1.0" encoding="UTF-8"?>```, which indicates the version of XML used (1.0) and the encoding method of the text (UTF-8).  The second line is ```<root>```, which has a matching line, ```</root>```, at the end of the file.  
+The first line of the XML database is ```<?xml version="1.0" encoding="UTF-8"?>```, which indicates the version of XML used (1.0) and the encoding method of the text (UTF-8).  The second line is ```<root>```, which has a matching line, ```</root>```, at the end of the file.
 
 ```<root>``` is the top-level element of this database and surrounds all the records within it. Each individual record, containing the information for one historical newspaper article, is opened by the element ```<record>``` and closed with the element ```</record>```.
 
@@ -171,11 +171,11 @@ Within these records are a number of different child elements. The Text-Encoding
 
 These are the different types of data that you will be able to use in creating your outputs.
 
-In order to undertake a browser-based transformation, you will need to put in a stylesheet reference within your xml file. 
+In order to undertake a browser-based transformation, you will need to put in a stylesheet reference within your xml file.
 
 Using your prefered text editor, open *SimplifiedSAP.xml* and examine the contents.
 
-Create a new line underneath ```<?xml version="1.0" encoding="UTF-8"?>```.  On this new line, type 
+Create a new line underneath ```<?xml version="1.0" encoding="UTF-8"?>```.  On this new line, type
 
     <?xml-stylesheet type="text/xsl" href="mystyle.xsl"?>
 
@@ -217,7 +217,7 @@ Your file should now look like this:
     </xsl:template>
     </xsl:stylesheet>
 
-Save your file.  For the remainder of the tutorial, remember to save your file after each change you make. 
+Save your file.  For the remainder of the tutorial, remember to save your file after each change you make.
 
 N.B. If you are using TextEdit, you will not be able to save the file as an XSL directly. Instead, save as a PlainText (.txt) file and close the document. Then, locate the file within Finder and rename it, changing the extension from .txt to .xsl. Now, reopen the file within TextEdit to continue.
 
@@ -294,7 +294,7 @@ Here you can see that your *template* has three lines of code.
 
 Save your file and refresh your browser. You should now have a very messy line of text, listing the value of every title element in the database. You can organise this data by instructing the transformer to add a new line after each entry.
 
-At the end of your *value-of* line, type ```<xsl:text>&#xA;</xsl:text>``` to add a line break. ```&#xA;``` is the [ISO 10646 hex code](https://doremifaso.ca/archives/unicode/latin1.html) for a new line and the ```<xsl:text>``` element tells the transformer to print the value as plain text.
+At the end of your *value-of* line, type ```<xsl:text>&#xA;</xsl:text>``` to add a line break. ```&#xA;``` is the [ISO 10646 hex code](https://en.wikipedia.org/wiki/Universal_Coded_Character_Set) for a new line and the ```<xsl:text>``` element tells the transformer to print the value as plain text.
 
 Depending on the type of outputs you are using, some special characters, particularly multiple spaces or line breaks, may not render correctly if entered on their own. Using ```<text>``` elements ensures that your text renders exactly the way you intend it to.
 
@@ -312,7 +312,7 @@ Print the text of all the articles in the database, displaying the ID number in 
 
 ### Attributes
 
-Not all data is stored as the value of an element. Some data is stored as the value of an attribute of that element.  For example the ```<date>``` element has an attribute called ```when``` with the value of the date of the article.  
+Not all data is stored as the value of an element. Some data is stored as the value of an attribute of that element.  For example the ```<date>``` element has an attribute called ```when``` with the value of the date of the article.
 
     <date when="1815-01-12"/>
 

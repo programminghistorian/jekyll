@@ -73,7 +73,7 @@ Quand une leçon est soumise, le rédacteur ou la rédactrice doit ouvrir un nou
 
 ### Le commentaire initial
 
-Votre premier commentaire sur le ticket d'évaluation d'un tutoriel doit être calqué sur le modèle de celui qui explique le rôle du rédacteur et de la rédactrice, décrit la procédure de l'évaluation ainsi que les options qui se présentent au cas improbable où des problèmes surgiraient. Merci d'adapter [le modèle](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md), qui devrait apparaître automatiquement lors de l'ouverture d'un nouveau ticket, de la manière qui correspond:
+Votre premier commentaire sur le ticket d'évaluation d'un tutoriel doit être calqué sur le modèle de celui qui explique le rôle du rédacteur et de la rédactrice, décrit la procédure de l'évaluation ainsi que les options qui se présentent au cas improbable où des problèmes surgiraient. Merci d'adapter [le modèle](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/.github/ISSUE_TEMPLATE), qui devrait apparaître automatiquement lors de l'ouverture d'un nouveau ticket, de la manière qui correspond:
 
 ```
 Le Programming Historian en français a reçu le tutoriel intitulé '[TITRE DE LA LEÇON]' par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DE L'AUTEUR(E)]. La leçon préparée par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DU TRADUCTEUR OU DE LA TRADUCTRICE]) est actuellement en cours d'évaluation et peut être consultée ici:
@@ -201,7 +201,7 @@ Si l'auteur(e) de la leçon apparaît pour la première fois, il appartient au r
 
 **L'espace blanc est important**, merci donc de faire attention à ce que l'indentation suive le reste des exemples.
 
-Indiquer l'identifiant `orcid`n'est pas obligatoire, nous vous encourageons toutefois fortement de le faire, si les auteur(e)s en ont créé un dans le répertoire ORCID (https://orcid.org/). **Néanmoins, merci de prendre soin d'utiliser un identifiant ORCID fourni explicitement par l'auteur(e). Évitez par conséquent de le faire sans la confirmation préalable de l'auteur(e) qu'il s'agit du bon identifiant.** 
+Indiquer l'identifiant `orcid`n'est pas obligatoire, nous vous encourageons toutefois fortement de le faire, si les auteur(e)s en ont créé un dans le répertoire ORCID (https://orcid.org/). **Néanmoins, merci de prendre soin d'utiliser un identifiant ORCID fourni explicitement par l'auteur(e). Évitez par conséquent de le faire sans la confirmation préalable de l'auteur(e) qu'il s'agit du bon identifiant.**
 
 ### 2) Ajouter une table de matières à la leçon
 
@@ -238,7 +238,7 @@ original: slug to original published lesson (champ spécifique aux traductions)
 review-ticket: e.g. https://github.com/programminghistorian/ph-submissions/issues/108
 difficulty: voir ci-dessous
 activity: UNIQUEMENT UN PARMI: acquiring, transforming, analyzing, presenting, sustaining
-topics: 
+topics:
  - sujet un (voir ci-dessous)
  - sujet deux
 abstract: voir ci-dessous
@@ -268,7 +268,7 @@ Ci-dessous quelques sites pour chercher des images:
  - The [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
  - [Gallica](https://gallica.bnf.fr)
- - [Europeana](https://www.europeana.eu) 
+ - [Europeana](https://www.europeana.eu)
 
 Merci de prendre soin de trouver une image dont le style est proche de celles déjà utilisées, donc pas de photographie, mais plutôt une image d'illustration de livre, de taille minimale de 200x200 pixels, sans restriction de droits de copyright. Merci de faire attention à ce que les images ne heurtent pas les sensibilités et, en conformité à notre [engagement en faveur de la diversité](/posts/PH-commitment-to-diversity), qu'elles ne reproduisent pas de stéréotypes sexistes ou raciaux.
 
@@ -280,7 +280,7 @@ Le fichier de l'image originale doit être téléchargé dans le répertoire [ga
 
 ### 5) Prévenir le rédacteur ou la rédactrice en chef pour publier
 
-Le rédacteur ou la rédactrice en chef est en charge de la publication de la leçon en déposant les fichiers sur le site web principal et en faisant les vérifications finales. Pour lui faciliter la tâche, merci de publier une liste dans le ticket de la soumission de tous les fichiers à transférer d'un dépôt à l'autre. Habituellement il s'agit: 
+Le rédacteur ou la rédactrice en chef est en charge de la publication de la leçon en déposant les fichiers sur le site web principal et en faisant les vérifications finales. Pour lui faciliter la tâche, merci de publier une liste dans le ticket de la soumission de tous les fichiers à transférer d'un dépôt à l'autre. Habituellement il s'agit:
 
 - du fichier .md de la leçon;
 - du répertoire de fichiers supplémentaires le cas échéant (images, données etc)
@@ -311,7 +311,7 @@ Les leçons sont le fruit d'un investissement considérable, faisons donc de not
 
 # Liste de vérification du rédacteur ou de la rédactrice en chef
 
-Le rédacteur ou la rédactrice en chef a la responsabilité de déposer les fichiers sur le site web principal via un "pull request". Cela lui permet aussi de prendre connaissance de la nouvelle leçon et de vérifier rapidement que tout se présente bien. 
+Le rédacteur ou la rédactrice en chef a la responsabilité de déposer les fichiers sur le site web principal via un "pull request". Cela lui permet aussi de prendre connaissance de la nouvelle leçon et de vérifier rapidement que tout se présente bien.
 
 ## 1) Parcourir l'aperçu de la soumission
 
@@ -381,4 +381,4 @@ Si votre compilation a échoué, il est nécessaire de consulter l'historique po
 
 ## 4) Tenir au courant le rédacteur ou la rédactrice en charge du suivi éditorial de la leçon
 
-Lorsque la leçon a été publiée, merci d'en informer le rédacteur ou la rédactrice qui en a assuré le suivi éditorial. 
+Lorsque la leçon a été publiée, merci d'en informer le rédacteur ou la rédactrice qui en a assuré le suivi éditorial.

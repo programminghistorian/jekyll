@@ -290,7 +290,7 @@ Ahora la instrucción *template* tiene tres líneas de código:
 
 Guarda el archivo y actualiza la ventana del navegador. Deberías obtener una masa de líneas de texto con el valor de cada uno de los elementos *title*. Puedes arreglar esto indicando al procesador que añada una nueva línea tras cada entrada.
 
-Al final de la línea que contiene *value-of*, hay que añadir ```<xsl:text>&#xA;</xsl:text>``` para crear un salto de línea. ```&#xA;``` es el código [ISO 10646](https://doremifaso.ca/archives/unicode/latin1.html) con el que se representa un salto de línea; con el elemento ```<xsl:text>``` se declara que queremos imprimir el valor como texto sencillo.
+Al final de la línea que contiene *value-of*, hay que añadir ```<xsl:text>&#xA;</xsl:text>``` para crear un salto de línea. ```&#xA;``` es el código [ISO 10646](https://en.wikipedia.org/wiki/Universal_Coded_Character_Set) con el que se representa un salto de línea; con el elemento ```<xsl:text>``` se declara que queremos imprimir el valor como texto sencillo.
 
 En función del *output* que debamos generar, algunos caracteres especiales, el número de espacios o bien los saltos de línea a veces no se mantienen en el archivo resultante. Es por eso que se recomienda utilizar el elemento ```<text>``` para asegurarse de que el valor impreso no se ve alterado durante la transformación.
 
