@@ -58,7 +58,7 @@ Al mismo tiempo, participaron en un taller pre-conferencia titulado "La acelerac
 
 Unos días más tarde y al otro lado del charco en la [Conferencia ACH 2019](http://ach2019.ach.org) en Pittsburgh, Estados Unidos, Maria José Afanador-Llach y Jennifer Isasi presentaron "Retos en la producción de tutoriales de HD en contextos hispanohablantes." Se enfocaaron en la experienca de llegar a la audiencia de *Programming Historian en español.* Asistir a la conferencia también les dio la oportunidad de conocer a Matthew Lincoln y Brandon Walsh además de presentar el proyecto multilingüe a más personas. 
 
- <p><figure><img src="/images/blog/dh-2019-poster.JPG" alt="Una foto de Brandon Walsh, Matthew Lincoln, María José Afanador-Llach y Jennifer Isasi en ACH 2019."/><figcaption>Brandon Walsh, Matthew Lincoln, María José Afanador-Llach y Jennifer Isasi en ACH 2019.</figcaption></figure></p>
+ <p><figure><img src="/images/blog/ach-2019-presentation.jpg" alt="Una foto de Brandon Walsh, Matthew Lincoln, María José Afanador-Llach y Jennifer Isasi en ACH 2019."/><figcaption>Brandon Walsh, Matthew Lincoln, María José Afanador-Llach y Jennifer Isasi en ACH 2019.</figcaption></figure></p>
 
 
 
@@ -68,7 +68,7 @@ Unos días más tarde y al otro lado del charco en la [Conferencia ACH 2019](htt
 
 ## PH en español recibe el Premio HDH 2018
 
-La [Asociación de Humanidades Digitales Hispánicas ha premiado a *Programming Historian en español*]([Programming Historian en español recibe Premio HDH 2018](https://programminghistorian.org/posts/premio-hdh-2018)) como una de la **“Mejor iniciativa formativa desarrollada durante el año 2018”** en su [I Edición de los Premios HDH 2018](http://humanidadesdigitaleshispanicas.es/resolucion-convocatoria-i-edicion-premios-hdh/). 
+La [Asociación de Humanidades Digitales Hispánicas ha premiado a *Programming Historian en español*](https://programminghistorian.org/posts/premio-hdh-2018)) como una de la **“Mejor iniciativa formativa desarrollada durante el año 2018”** en su [I Edición de los Premios HDH 2018](http://humanidadesdigitaleshispanicas.es/resolucion-convocatoria-i-edicion-premios-hdh/). 
 
 El objetivo de este premio es reconocer social y académicamente las diferentes iniciativas desarrolladas desde las bases de la contribución al avance del conocimiento, la reflexión crítica, el desarrollo de currículos formativos y la difusión y visibilidad de las humanidades digitales en español. Nos gustaría de nuevo agradecer a la Junta Directiva de HDH su decisión y confianza en nosotros. 
 
