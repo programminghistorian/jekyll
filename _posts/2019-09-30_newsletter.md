@@ -24,7 +24,7 @@ Last year [we announced](https://programminghistorian.org/en/support-us) our int
 
 - Protect The Programming Historian from changes to service agreements of those ‘free’ services upon which we rely.
 
-In the coming months, we will to announce the mechanisms by which the community can financially support our work.
+In the coming months, we will announce the mechanisms by which the community can financially support our work.
 
 
 
