@@ -125,17 +125,17 @@ our purposes, what is important is that the encoding is stored under the
 
 ``` python
 #transliterator.py
-import urllib2
+from urllib.request import urlopen
 
-page = urllib2.urlopen('http://lists.memo.ru/d1/f1.htm')
+page = urlopen('http://lists.memo.ru/d1/f1.htm')
 
 #what is the encoding?
-print page.headers['content-type']
+print(page.headers['content-type'])
 ```
 
 Under the ‘content-type’ key we find this information:
 
-``` python
+```
 text/html; charset=windows-1251
 ```
 
@@ -179,7 +179,7 @@ encoding = page.headers['content-type'].split('charset=')[1]
 The encoding is assigned to the variable called ‘*encoding*’. You can
 check to see if this worked by printing the ‘*encoding*’ variable. Now we
 can tell Python how to read the page as Unicode. Using the
-`unicode(object [, encoding])` method turns a string of characters into a
+`str(object [, encoding])` method turns a string of characters into a
 Unicode object. A Unicode object is similar to a string but it can
 contain special characters. If they are in a non-ASCII character set,
 like here with ‘windows-1251’, we have to use the optional encoding
@@ -190,7 +190,7 @@ parameter.
 content = page.read()
 
 # the unicode method tries to use ASCII so we need to tell it the encoding
-content = unicode(content, encoding)
+content = str(content, encoding)
 content[200:300]
 ```
 
@@ -212,12 +212,12 @@ than Unicode:
 
 ``` python
 # see what happens when Python prints Unicode
-print content[200:300]
+print(content[200:300])
 ```
 
  
 
-``` python
+```
 "list-right">
 <ul>
     <li>
@@ -242,7 +242,7 @@ string or other object – even another dictionary. (See also the lesson
 
 ``` python
 my_dictionary = {'Vladimir': 'Putin', 'Boris': 'Yeltsin'}
-print my_dictionary['Vladimir']
+print(my_dictionary['Vladimir'])
 
 > Putin
 ```
@@ -270,7 +270,7 @@ u’\\u0416’. We can create a transliteration dictionary and assign ‘Zh’
 as the value for the key u’\\u0416’ in it.
 
 ``` python
-cyrillic_translit = { u'\u0416': 'Zh'}
+cyrillic_translit = { '\u0416': 'Zh'}
 ```
 
 As it turns out, lowercase Cyrillic letters in Unicode have the same
@@ -280,7 +280,7 @@ transliteration dictionary created, we just add a dictionary key-value
 pair.
 
 ``` python
-cyrillic_translit[u'\u0436'] = 'zh'
+cyrillic_translit['\u0436'] = 'zh'
 ```
 
 Of course, rather than do each pair one by one, it would probably be
@@ -288,38 +288,38 @@ easier to write the dictionary in a Python module or paste it in from a
 word processor. The full Cyrillic transliteration dictionary is here:
 
 ``` python
-cyrillic_translit={u'\u0410': 'A', u'\u0430': 'a',
-u'\u0411': 'B', u'\u0431': 'b',
-u'\u0412': 'V', u'\u0432': 'v',
-u'\u0413': 'G', u'\u0433': 'g',
-u'\u0414': 'D', u'\u0434': 'd',
-u'\u0415': 'E', u'\u0435': 'e',
-u'\u0416': 'Zh', u'\u0436': 'zh',
-u'\u0417': 'Z', u'\u0437': 'z',
-u'\u0418': 'I', u'\u0438': 'i',
-u'\u0419': 'I', u'\u0439': 'i',
-u'\u041a': 'K', u'\u043a': 'k',
-u'\u041b': 'L', u'\u043b': 'l',
-u'\u041c': 'M', u'\u043c': 'm',
-u'\u041d': 'N', u'\u043d': 'n',
-u'\u041e': 'O', u'\u043e': 'o',
-u'\u041f': 'P', u'\u043f': 'p',
-u'\u0420': 'R', u'\u0440': 'r',
-u'\u0421': 'S', u'\u0441': 's',
-u'\u0422': 'T', u'\u0442': 't',
-u'\u0423': 'U', u'\u0443': 'u',
-u'\u0424': 'F', u'\u0444': 'f',
-u'\u0425': 'Kh', u'\u0445': 'kh',
-u'\u0426': 'Ts', u'\u0446': 'ts',
-u'\u0427': 'Ch', u'\u0447': 'ch',
-u'\u0428': 'Sh', u'\u0448': 'sh',
-u'\u0429': 'Shch', u'\u0449': 'shch',
-u'\u042a': '"', u'\u044a': '"',
-u'\u042b': 'Y', u'\u044b': 'y',
-u'\u042c': "'", u'\u044c': "'",
-u'\u042d': 'E', u'\u044d': 'e',
-u'\u042e': 'Iu', u'\u044e': 'iu',
-u'\u042f': 'Ia', u'\u044f': 'ia'}
+cyrillic_translit={'\u0410': 'A', '\u0430': 'a',
+'\u0411': 'B', '\u0431': 'b',
+'\u0412': 'V', '\u0432': 'v',
+'\u0413': 'G', '\u0433': 'g',
+'\u0414': 'D', '\u0434': 'd',
+'\u0415': 'E', '\u0435': 'e',
+'\u0416': 'Zh', '\u0436': 'zh',
+'\u0417': 'Z', '\u0437': 'z',
+'\u0418': 'I', '\u0438': 'i',
+'\u0419': 'I', '\u0439': 'i',
+'\u041a': 'K', '\u043a': 'k',
+'\u041b': 'L', '\u043b': 'l',
+'\u041c': 'M', '\u043c': 'm',
+'\u041d': 'N', '\u043d': 'n',
+'\u041e': 'O', '\u043e': 'o',
+'\u041f': 'P', '\u043f': 'p',
+'\u0420': 'R', '\u0440': 'r',
+'\u0421': 'S', '\u0441': 's',
+'\u0422': 'T', '\u0442': 't',
+'\u0423': 'U', '\u0443': 'u',
+'\u0424': 'F', '\u0444': 'f',
+'\u0425': 'Kh', '\u0445': 'kh',
+'\u0426': 'Ts', '\u0446': 'ts',
+'\u0427': 'Ch', '\u0447': 'ch',
+'\u0428': 'Sh', '\u0448': 'sh',
+'\u0429': 'Shch', '\u0449': 'shch',
+'\u042a': '"', '\u044a': '"',
+'\u042b': 'Y', '\u044b': 'y',
+'\u042c': "'", '\u044c': "'",
+'\u042d': 'E', '\u044d': 'e',
+'\u042e': 'Iu', '\u044e': 'iu',
+'\u042f': 'Ia', '\u044f': 'ia'}
 ```
 
 Now that we have the transliteration dictionary, we can simply loop
@@ -367,12 +367,12 @@ print it:
 
 ``` python
 #let's find out what u'\xa0' is
-print u'\xa0'
+print('\xa0')
 
 #it's not nothing but a non-breaking space
 #it would be better if our transliteration dictionary could change it into a space
 
-cyrillic_translit[u'\xa0'] = ' '
+cyrillic_translit['\xa0'] = ' '
 ```
 
 With this fix, all the Cyrillic and special characters are gone, making
