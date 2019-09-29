@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-En juin 2019, nous avons commencé à publier un bulletin d'information résumant les progrès de notre communauté tout au long de l'année dans le cadre de nos stratégies de communication. Le but de cette initiative est de tenir nos utilisateurs informés des leçons et des traductions, des changements dans le comité de rédaction, des événements à venir organisés par nos rédacteurs et, au total, de continuer à nourrir une communauté des sciences humaines numérique multilingue et accueillante.
+En juin 2019, nous avons commencé à publier un bulletin d'information résumant les progrès de notre communauté tout au long de l'année dans le cadre de nos stratégies de communication. Le but de cette initiative est de tenir nos utilisateurs informés des leçons et des traductions, des changements dans le comité de rédaction, des événements à venir, organisés par nos rédacteurs et, au total, de continuer à nourrir une communauté des sciences humaines numérique multilingue et accueillante.
 
 Dans ce deuxième bulletin, nous voudrions souligner les réalisations suivantes, qui auraient été impossibles sans l’aide de notre formidable communauté de rédacteurs, de critiques et d’utilisateurs.
 
@@ -14,11 +14,11 @@ Dans ce deuxième bulletin, nous voudrions souligner les réalisations suivantes
 
 ## ProgHist Ltd, une société à but non lucratif immatriculée 
 
-L'année dernière, [nous avons annoncé](https://programminghistorian.org/fr/nous-soutenir) notre intention de rechercher un soutien financier à l'historien de la programmation afin de développer, d'améliorer et de pérenniser notre travail. Nous sommes donc ravis d'annoncer que ProgHist Ltd sera opérationnelle à partir du 1er octobre 2019, une société à but non lucratif avec garantie limitée (immatriculée en Angleterre sous le numéro d'entreprise [12192946](https://beta.companieshouse.gov.uk/company/12192946)). Son but est d'administrer nos activités financières. Nous pensons qu’avoir une base juridique et financière nous permettra de:
+L'année dernière, [nous avons annoncé](https://programminghistorian.org/fr/nous-soutenir) notre intention de rechercher un soutien financier à *Programming Historian* afin de développer, d'améliorer et de pérenniser notre travail. Nous sommes donc ravis d'annoncer que ProgHist Ltd sera opérationnelle à partir du 1er octobre 2019, une société à but non lucratif avec garantie limitée (immatriculée en Angleterre sous le numéro d'entreprise [12192946](https://beta.companieshouse.gov.uk/company/12192946)). Son but est d'administrer nos activités financières. Nous pensons qu’avoir une base juridique et financière nous permettra de:
 
 - Maintenir notre infrastructure.
 
-- Introduire des services professionnels qui améliorent la qualité de nos publications.
+- Introduire des services professionnels qui vont améliorer la qualité de nos publications.
 - Améliorer notre rayonnement communautaire et l'internationalisation.
 - Protégez Programming Historian des modifications des contrats de service des services «gratuits» sur lesquels nous comptons.
 
@@ -46,7 +46,7 @@ Merci d’envoyer un CV d’une page et un texte d’environ 200 mots expliquant
 
 Certains membres du comité de rédaction de *Programming Historian* ont eu l’occasion, non seulement de présenter le travail que nous réalisons lors de conférences internationales, mais également de se rencontrer en personne pour la première fois!
 
-Antonio Rojas Castro, Anna-Maria Sichani et Sofia Papastamkou ont présenté leur affiche "Concevoir des initiatives de pédagogie numérique multilingue: l'historien de la programmation pour les communautés DH anglophones, anglophones et francophones" (en anglais) à la [conférence DH 2019](https://dh2019.adho.org) à Utrecht, aux Pays-Bas, en juillet. Dans le même temps, ils ont participé à l'atelier pré-conférence "Accelerating DH Education", présentant "Trois défis pour le développement de ressources éducatives DH multilingues ouvertes: le cas de l'historien de la programmation".
+Antonio Rojas Castro, Anna-Maria Sichani et Sofia Papastamkou ont présenté leur affiche "Concevoir des initiatives de pédagogie numérique multilingue: l'historien de la programmation pour les communautés DH anglophones, anglophones et francophones" (en anglais) à la [conférence DH 2019](https://dh2019.adho.org) à Utrecht, aux Pays-Bas, en juillet. En même temps, ils ont participé à l'atelier pré-conférence "Accelerating DH Education", présentant "Trois défis pour le développement de ressources éducatives DH multilingues ouvertes: le cas de *Programming Historian*" (en anglais).
 
 <p><figure><img src="/images/blog/dh-2019-poster.JPG" alt="
 Une photo d'Anna-Maria Sichani et Sofia Papastamkou à côté de leur affiche à DH 2019."/><figcaption>Anna-Maria Sichani et Sofia Papastamkou présentent une affiche à DH 2019.</figcaption></figure></p>
@@ -54,8 +54,7 @@ Une photo d'Anna-Maria Sichani et Sofia Papastamkou à côté de leur affiche à
 Quelques jours plus tard, lors de la [conférence ACH 2019](http://ach2019.ach.org) à Pittsburgh, de l'autre côté de l'étang, Maria José Afanador-Llach et Jennifer Isasi ont présenté "Retouches sur les tutoriels en HD et les contextes hispanohablantes" (en anglais), qui mettaient l'accent sur l'expérience au public de la *Programming Historian en español*. La participation à la conférence leur a permis de rencontrer Matthew Lincoln et Brandon Walsh, ainsi que de présenter davantage de personnes au projet multilingue.
 
 <p><figure><img src="/images/blog/ach-2019-presentation.jpg" alt="Une photo de Brandon Walsh, Matthew Lincoln, María José Afanador-Llach et Jennifer Isasi à ACH 2019."/><figcaption>Brandon Walsh, Matthew Lincoln, María José Afanador-Llach et Jennifer Isasi se rencontrent à ACH 2019.</figcaption></figure></p>
-
-Félicitations à tous ceux qui ont présenté des conférences durant l’été!
+Félicitations à tous ceux qui ont présenté des conférences cet été!
 
 
 
@@ -69,7 +68,7 @@ Antonio Rojas Castro et Jennifer Isasi recevront le prix le 23 octobre lors du [
 
 ## Adieu
 
-C’est avec tristesse que nous annonçons le départ de Marie Puren du comité de rédaction de Programming Historian*. [Puren a rejoint l'équipe en juillet 2018](https://programminghistorian.org/posts/FR-team) et son travail a été inestimable dans les semaines qui ont précédé le lancement de l'initiative francophone du projet. Ses contributions en tant que rédactrice et traductrice pour renforcer les capacités en sciences humaines numériques dans les communautés francophones sont très appréciées. Nous reconnaissons tous son excellente compagnie et nous souhaitons à Puren le meilleur des succès dans ses projets futurs.
+C’est avec tristesse que nous annonçons le départ de Marie Puren du comité de rédaction de *Programming Historian*. [Puren a rejoint l'équipe en juillet 2018](https://programminghistorian.org/posts/FR-team) et son travail a été inestimable dans les semaines qui ont précédé le lancement de l'initiative francophone du projet. Ses contributions en tant que rédactrice et traductrice pour renforcer les capacités en sciences humaines numériques dans les communautés francophones sont très appréciées. Nous reconnaissons tous son excellente compagnie et nous souhaitons à Puren le meilleur des succès dans ses projets futurs.
 
 Avoir une merveilleuse collègue comme vous nous manquera, Marie. Vous souhaitant tout le meilleur!
 
