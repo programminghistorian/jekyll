@@ -972,6 +972,29 @@
       en: |
           Jeff Blackadar is a part-time undergraduate history student at Carleton University. His career is in the field of information technology.
 
+- name: Martin Grandjean
+  email: martin.grandjean@unil.ch
+  twitter: grandjeanmartin
+  github: grandjeanmartin
+  url: "http://www.martingrandjean.ch"
+  team: true
+  team_start: 2019
+  institution: University of Lausanne
+  sortname: Grandjean
+  orcid: 0000-0003-3184-3943
+  affiliation:
+        en: |
+            University of Lausannne (Switzerland)
+        fr: |
+            Université de Lausanne (Suisse)
+  team_roles:
+    - french
+    - board
+  bio:
+        en: |
+            Martin Grandjean is a researcher in contemporary history at the University of Lausanne (Switzerland). His work focuses on the analysis and visualization of large historical data sets.
+        fr: |
+            Martin Grandjean est chercheur en histoire contemporaine à l'Université de Lausanne (Suisse). Ses travaux portent sur l'analyse et la visualisation de grands jeux de données historiques.
 
 - name: Sofia Papastamkou
   email: spapastamkou@gmail.com
