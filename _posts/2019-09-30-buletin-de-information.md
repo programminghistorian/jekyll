@@ -1,5 +1,5 @@
 ---
-title: Bulletin d'information #2
+title: Bulletin d'information no.2
 authors:
 - Jennifer Isasi
 layout: post
