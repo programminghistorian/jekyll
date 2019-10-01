@@ -1,5 +1,5 @@
 ---
-title: 2019 Newsletter #2 
+title: 2019 Newsletter no. 2 
 authors:
 - Jennifer Isasi
 layout: post
