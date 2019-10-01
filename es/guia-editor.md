@@ -228,7 +228,7 @@ Si la lección fue escrita por un autor nuevo, el editor encargado necesitará u
 
 **Los espacios en blanco son importantes**, así que asegúrate de que la identación se ajusta a la de los otros casos y utiliza espacios en blanco en vez de tabuladores.
 
-Incluir el identificador `orcid` no es obligatorio, pero sí es recomendable si los autores se han registrado previamente en el [portal ORCID](https://orcid.org/). **Como editor, es importante tener la aprobación explícita del autor y asegurarse de que el identificador ORCID utilizado es el correcto**. 
+Incluir el identificador `orcid` no es obligatorio, pero sí es recomendable si los autores se han registrado previamente en el [portal ORCID](https://orcid.org/). **Como editor, es importante tener la aprobación explícita del autor y asegurarse de que el identificador ORCID utilizado es el correcto**.
 
 ### 2) Agrega una tabla de contenidos a la lección
 
@@ -275,10 +275,11 @@ translation-reviewer:
 original: slug del original ((solo en traducción))
 difficulty: (ver abajo o mantener original en traducciones)
 activity: (ver abajo o mantener original en traducciones)
-topics: 
+topics:
  - tema uno
  - tema dos (ver abajo o mantener original en traducciones)
-abstract: "(ver abajo o traducir el original)"
+abstract: |
+  ver abajo o traducir el original
 ---
 ```
 
