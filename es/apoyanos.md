@@ -18,6 +18,8 @@ El proyecto agradece el siguiente apoyo:
 
 - El desarrollo web está respaldado por el [laboratorio dSHARP en la Universidad Carnegie Mellon](http://dsharp.library.cmu.edu) y la [Fundación Andrew W. Mellon](https://mellon.org) [2018-Presente]
 - Apoyo continuado de alojamiento web del [Centro para la Historia y los Nuevos Medios Roy Rosenzweig](http://chnm.gmu.edu/) [2011-Presente]
+- Financiación para desarrollar la guía de estilo proporcionada por la [Escuela de Humanidades, Universidad de Hertfordshire](https://www.herts.ac.uk/study/schools-of-study/humanities) [2019].
+- Financiación para establecer <em>Programming Historian</em> como una entidad legal proporcionada por la [Escuela de Historia, Historia del Arte y Filosofia, Universidad de Sussex](http://www.sussex.ac.uk/hahp/) [2019].
 - Fondos para un taller de escritura en Bogotá, Colombia, financiados por la [Academia Británica](https://www.thebritishacademy.ac.uk) [2018]
 
 - Fondos iniciales y soporte de administración de la Red en Historia y Medio Ambiente de Canadá ([NiCHE](http://niche-canada.org/)) [2011-2013]

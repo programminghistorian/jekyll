@@ -17,16 +17,18 @@ Le Programming Historian est un projet porté par des volontaires. Parce que nou
 
 Le projet est reconnaissant pour leur soutien à:
 
-- [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) et [Andrew W. Mellon Foundation](https://mellon.org/) [2018-Present] pour soutenir notre développement web.
-- Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)) [2011-actuellement] pour nous offrir des services d'hébergement.
-- [British Academy](https://www.britac.ac.uk/) [2018] pour le financement d'un atelier d'écriture à Bogota en Colombie.
-- Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) [2011-2013] pour le soutien de projet émergent et de gestion de projet.
+- [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) et [Andrew W. Mellon Foundation](https://mellon.org/) pour soutenir notre développement web [2018-actuellement].
+- Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)) pour nous offrir des services d'hébergement [2011-actuellement].
+- La [faculté de sciences humaines de l'université du Hertfordshire](https://www.herts.ac.uk/study/schools-of-study/humanities) pour avoir financé le développement d'une feuille de style [2019].
+- La [faculté d'histoire, d'histoire de l'art et de philosophie de l'université du Sussex](http://www.sussex.ac.uk/hahp/) pour le financement des efforts du Programming Historian de se doter d'un statut juridique [2019].
+- [British Academy](https://www.britac.ac.uk/) pour le financement d'un atelier d'écriture à Bogota en Colombie [2018].
+- Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) pour le soutien de projet émergent et de gestion de projet [2011-2013].
 
-# Donations
+## Donations
 
-Nous espérons avoir mis en place un mécanisme de donations d'ici la mi-2019.
+Nous espérons mettre en place un mécanisme de donations en 2019.
 
-# Nous parrainer
+## Nous parrainer
 
 Si vous représentez un organisme ou groupe intéressé à sponsoriser le Programming Historian, merci de prendre contact avec  [James Baker](https://github.com/drjwbaker) pour en discuter avec lui. Ce type de soutien peut être soit financier soit en nature ou encore les deux à la fois, d'une durée et de valeur négociables.
 
@@ -35,7 +37,7 @@ Tout parrainage est soumis à [l'approbation](https://github.com/programminghist
 - Indications de parrainage dans les titres. Par exemple, "Le Programming Historian en association avec..." ou 'Le Programming Historian soutenu par...".
 - Parrainage exclusif ou sélectif de tutoriel. C'est-à-dire, poser votre logo sur la page d'un tutoriel seulement ou sur des tutoriels qui portent sur un outil ou des approches spécifiques.
 
-# Vous êtes à sec?
+## Vous êtes à sec?
 
 Le Programming Historian est porté par des volontaires. Leur énergie n’étant pas inépuisable, faites-nous donc signe si vous partagez notre intérêt pour enseigner les méthodes numériques, pour élaborer de nouvelles procédures d’évaluation par les pairs ou pour assurer la diversité de la communauté des humanités numériques. Si vous ne souhaitez pas ou n'avez pas la possibilité de donner au Programming Historian, mais que vous voulez néanmoins contribuer d'une manière ou d'une autre, merci de consulter notre page "[Contribuer au Programming Historian](/fr/contribuer)" qui présente toutes les options disponibles.
 
