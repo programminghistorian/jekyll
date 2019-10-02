@@ -253,7 +253,8 @@ activity: ONE OF: acquiring, transforming, analyzing, presenting, sustaining
 topics:
  - topic one (see guidance below)
  - topic two
-abstract: see guidance below
+abstract: |
+  see guidance below
 
 ```
 

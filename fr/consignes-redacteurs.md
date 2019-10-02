@@ -241,7 +241,8 @@ activity: UNIQUEMENT UN PARMI: acquiring, transforming, analyzing, presenting, s
 topics:
  - sujet un (voir ci-dessous)
  - sujet deux
-abstract: voir ci-dessous
+abstract: |
+  voir ci-dessous
 
 ```
 
