@@ -9,6 +9,7 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - archive
 highlighter: rouge
 markdown: kramdown
 permalink: :categories/:title
