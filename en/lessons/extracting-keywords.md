@@ -43,11 +43,11 @@ This approach is not limited to geographical keywords, however. It could also be
 
 Data management skills are increasingly crucial for historians and textual scholars, and anyone working with particularly messy or difficult texts might consider looking into [Cleaning Data with OpenRefine](/lessons/cleaning-data-with-openrefine) by Seth van Hooland et al. The approach outlined in this tutorial is not optimised for working with poorly transcribed texts such as text converted through [Optical Character Recognition](https://en.wikipedia.org/wiki/Optical_character_recognition) if the software has a high error rate. Readers working with early modern texts with non-standardised spelling may also find this approach challenging, as the gazetteer one uses must contain exact matches of the words sought. However, with a good enough gazetteer, this approach could prove quite useful for early modernites, and may exceed what's practical with traditional keyword searching by making [fuzzy searching](https://en.wikipedia.org/wiki/Approximate_string_matching) possible.
 
-This tutorial assumes that you have already installed Python version 2 on your computer. The lesson will use the Command Line to run Python, as this is more flexible and makes it possible for use in classrooms or computer labs in which students do not have the ability to download and install interactive development environments (IDEs) like Komodo Edit. Readers who would prefer to use an IDE might like to first read  [Python Introduction and Installation](/lessons/introduction-and-installation), but this is optional. The tutorial also makes some basic assumptions about your Python skills. It assumes you know what the following Python data structures are (though not knowing will not prevent the code from working should you follow all of the steps in the tutorial):
+This tutorial assumes that you have already installed Python version 3 on your computer. The lesson will use the Command Line to run Python, as this is more flexible and makes it possible for use in classrooms or computer labs in which students do not have the ability to download and install interactive development environments (IDEs) like Komodo Edit. Readers who would prefer to use an IDE might like to first read  [Python Introduction and Installation](/lessons/introduction-and-installation), but this is optional. The tutorial also makes some basic assumptions about your Python skills. It assumes you know what the following Python data structures are (though not knowing will not prevent the code from working should you follow all of the steps in the tutorial):
 
-* [List](https://docs.python.org/2/tutorial/datastructures.html)
-* [For Loop](https://docs.python.org/2/tutorial/controlflow.html)
-* [String](https://docs.python.org/2/library/string.html)
+* [List](https://docs.python.org/3/tutorial/datastructures.html)
+* [For Loop](https://docs.python.org/3/tutorial/controlflow.html)
+* [String](https://docs.python.org/3/library/string.html)
 
 The lesson touches on Regular Expressions, so some readers may find it handy to have the relevant Programming Historian lessons by [Doug Knox](/lessons/understanding-regular-expressions) or [Laura Turner O'Hara](/lessons/cleaning-ocrd-text-with-regular-expressions) open to consult as needed.
 
@@ -146,8 +146,8 @@ f = open('gazetteer.txt', 'r')
 allKeywords = f.read().lower().split("\n")
 f.close()
 
-print allKeywords
-print len(allKeywords)
+print(allKeywords)
+print(len(allKeywords))
 
 ```
 
@@ -193,7 +193,7 @@ f = open('texts.txt', 'r')
 allTexts = f.read().lower().split("\n")
 f.close()
 
-print allTexts
+print(allTexts)
 
 ```
 
@@ -255,7 +255,7 @@ To do the actual matching, add the following lines of code to the bottom of your
             else:
                 storedMatches.append(words)
             matches += 1
-    print matches
+    print(matches)
 ```
 
 If you are worried that you have your indentation wrong, scroll ahead towards the bottom of the lesson and check the finished code.
@@ -277,13 +277,13 @@ Add the following lines to your program, minding the indentation as always:
 ```python
     #if there is a stored result, print it out
     if matches == 0:
-        print ' '
+        print(' ')
     else:
         matchString = ''
         for matches in storedMatches:
             matchString = matchString + matches + "\t"
         
-        print matchString
+        print(matchString)
 
 ```
 
@@ -335,13 +335,13 @@ for entry in allTexts:
     
     #if there is a stored result, print it out
     if matches == 0:
-        print ' '
+        print(' ')
     else:
         matchString = ''
         for matches in storedMatches:
             matchString = matchString + matches + "\t"
         
-        print matchString
+        print(matchString)
 ```
 
 If you do not like the output format, you can change it by adjusting the second last line of code. For example, you could save each entry to a new line in a .txt file rather than to the screen. To do that you would replace 'print matchString' with the following code (make sure it is at one level of indentation, just as was the replaced line):
@@ -551,7 +551,7 @@ To give a brief outline of what has been changed from the original version:
 2. Using the 'time' library, we used the current date and time to create a unique and easily decypherable filename for our output file.
 3. Using the 'csv' library we created a new .csv file using that filename, and put in the column headers we wanted to use.
 4. We then ran the same matching code as before, checking 'allTexts' against 'allWords' and storing the results.
-5. Instead of printing the results to the screen, we stored each row's original data (Name, Details, Matriculation Year) + the matches to a [tuple](https://docs.python.org/2/tutorial/datastructures.html#tuples-and-sequences) called 'newRow'.
+5. Instead of printing the results to the screen, we stored each row's original data (Name, Details, Matriculation Year) + the matches to a [tuple](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences) called 'newRow'.
 6. Using the 'csv' library we wrote the 'newRow' data to the new CSV file, one row at a time.
 
 This approach created longer and more complex code, but the result is a powerful program that reads from a CSV file, matches the texts against the contents of a gazetteer, and then automatically writes the output to a clean new CSV file with no intermediary steps for you the user. You didn't have to go that extra mile, but hopefully you can see the advantages if you made it all the way through.
