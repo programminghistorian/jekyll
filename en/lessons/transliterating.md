@@ -430,7 +430,7 @@ The lesson “[Intro to Beautiful Soup][]” teaches how to grab sections of
 a web page by their tags. But we can also select sections of the page by
 *attributes*, HTML code that modifies elements. Looking at the HTML from
 this page, notice that the text of our names are enclosed in the tag
- \<p class=“name”\>. The class attribute allows the page’s [Cascading
+ `<p class="name">`. The class attribute allows the page’s [Cascading
 Style Sheets][] (CSS) settings to change the look of all elements that
 share the “name” *class* at once. CSS itself is an important tool for web
 designers. For those interested in learning more on this aspect of CSS,
@@ -443,12 +443,12 @@ What we want is to get the elements where the class attribute’s value is
 select parts of the page using the same syntax as HTML. The class
 attribute makes things a little tricky because Python uses “class” to
 define new types of objects. Beautiful Soup gets around this by making
-us search for class followed by an underscore: `class_=“value”`.
+us search for class followed by an underscore: `class_="value"`.
 Beautiful Soup objects’ `.find_all()` method will generate a Python list
 of Beautiful Soup objects that match the HTML tags or attributes set as
 *parameters*. The method `.get_text()` extracts just the text from
 Beautiful Soup objects, so
-`“ <p class=“name”><a name=“n1”></a>A-Aku Tulikovich</p> “.get_text()`
+`" <p class="name"><a name="n1"></a>A-Aku Tulikovich</p> ".get_text()`
 will become “*A-Aku Tulikovich*”. We need to use `.get_text()` on each
 item in the list, then append it to a new list containing just the
 names:
