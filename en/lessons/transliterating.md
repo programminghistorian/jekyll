@@ -194,14 +194,8 @@ content = str(content, encoding)
 content[200:300]
 ```
 
- 
-
 ``` python
-u'"list-right">\r\n
-<ul>
-    <li>
-<p class="name"><a name="n1"></a>\u0410-\u0410\u043a\u0443 \u0422\u0443\u043b\u0438\u043a\u043e\u0432\u0438\u0447</p>
-<p class="cont">\r\n\u0420\u043e\u0434\u0438\u043b\u0441\u044f\xa0\u0432 '</p>
+'"list-right">\r\n<li><p class="name"><a name="n1"></a>А-Аку Туликович </p><p class="cont">\r\nРодился\xa0в '
 ```
 
 In some editors like Komodo, printing even Unicode will raise an error.
@@ -215,14 +209,10 @@ than Unicode:
 print(content[200:300])
 ```
 
- 
-
 ```
 "list-right">
-<ul>
-    <li>
-<p class="name"><a name="n1"></a>А-Аку Туликович</p>
-Родился в
+<li><p class="name"><a name="n1"></a>А-Аку Туликович </p><p class="cont">
+Родился в 
 ```
 
 Excellent - the web page is now converted to Unicode. All the
@@ -352,10 +342,7 @@ converted_content[200:310]
 Here is what we end up with:
 
 ``` python
-u'="list-right">\r\n</li>
-    <li>
-<p class="name"><a name="n1"></a>A-Aku Tulikovich</p>
-<p class="cont">\r\nRodilsia\xa0v 1913 g.'</p>
+'="list-right">\r\n<li><p class="name"><a name="n1"></a>A-Aku Tulikovich </p><p class="cont">\r\nRodilsia\xa0v 1913 g.'
 ```
 
 Still not perfect. Python did not convert the special character ‘\\xa0′
@@ -399,40 +386,24 @@ is the first bit of HTML from the converted\_content string, containing
 parts of two database entries:
 
 ``` python
-converted_content[200:1000]
+print(converted_content[200:1000])
 ```
 
 This code prints out characters 200 to 1000 of the HTML, which happens
 to include the entire first entry and the beginning of the second:
 
-``` python
-u'="list-right">\r\n</li>
-    <li>
-<p class="name"><a name="n1"></a>A-Aku Tulikovich</p>
-<p</li>
-    <li>class="cont">\r\nRodilsia v 1913 g., Kamchatskaia gub., Tigil\'skii r-n, stoibishsha Utkholok; koriak-kochevnik; malogramotnyi; b/p; \r\n\r\n
-Arestovan12 noiabria 1938 g.\r\n
-Prigovoren: Koriakskii okrsud 8 aprelia 1939 g., ob</li>
-</ul>
- 
+```
+="list-right">
+<li><p class="name"><a name="n1"></a>A-Aku Tulikovich </p><p class="cont">
+Rodilsia v 1913 g., Kamchatskaia gub., Tigil'skii r-n, stoibishcha Utkholok; koriak-kochevnik;  malogramotnyi; b/p; 
 
-v.: po st. 58-2-8-9-10-11 UK RSFSR.\r\n
-Prigovor: 20 let. Opredeleniem Voen
-
-noi kollegii VS SSSR ot 17 oktiabria 1939 g. mera snizhena do 10 let.\r\nReabili
-
-tirovan 15 marta 1958 g. Reabilitirovan opredeleniem Voennoi kollegii VS SSSR\r\
-
-n
-<p class="author">Istochnik: Baza dannykh o zhertvakh repressii Kamchatskoi</p>
-obl.
-<ul>
-    <li>\r\n</li>
-    <li>
-<p class="name"><a name="n2"></a>Aab Avgust Mikhailovich</p>
-p>
-<p class="cont">\r\nRodilsia v 1899 g., Saratovskaia obl., Grimm s.; nemets;</p>
-obrazovanie nachal\'noe;'
+<br />Arestovan  12 noiabria 1938 g.
+<br />Prigovoren: Koriakskii okrsud 8 aprelia 1939 g., obv.: po st. 58-2-8-9-10-11 UK RSFSR.
+<br />Prigovor: 20 let. Opredeleniem Voennoi kollegii VS SSSR ot 17 oktiabria 1939 g. mera snizhena do 10 let.
+Reabilitirovan 15 marta 1958 g. Reabilitirovan opredeleniem Voennoi kollegii VS SSSR
+</p><p class="author">Istochnik: Baza dannykh o zhertvakh repressii Kamchatskoi obl.</p></li>
+<li><p class="name"><a name="n2"></a>Aab Avgust Mikhailovich</p><p class="cont">
+Rodilsia v 1899 g., Saratovskaia obl., Grimm s.; nemets;  obrazovanie nachal'noe;
 ```
 
 Each entry includes lots of information: name (last, first and
@@ -503,7 +474,7 @@ len(names)
 #see the first twenty names in the list
 names[:20]
 
-> [u'A-Aku Tulikovich ', u'Aab Avgust Mikhailovich', u'Aab Avgust Khristianovich', u'Aab Aleksandr Aleksandrovich', u"Aab Aleksandr Khrist'ianovich", u"Aab Al'bert Viktorovich", u"Aab Al'brekht Aleksandrovich", u'Aab Amaliia Andreevna', u'Aab Amaliia Ivanovna', u'Aab Angelina Andreevna', u'Aab Andrei Andreevich', u'Aab Andrei Filippovich', u'Aab Arvid Karlovich', u"Aab Arnol'd Aleksandrovich", u'Aab Artur Avgustovich', u"Aab Artur Vil'gel'movich", u"Aab Aelita Arnol'dovna", u'Aab Viktor Aleksandrovich', u'Aab Viktor Aleksandrovich', u"Aab Viktor Vil'gel'movich"]
+> ['A-Aku Tulikovich ', 'Aab Avgust Mikhailovich', 'Aab Avgust Khristianovich', 'Aab Aleksandr Aleksandrovich', "Aab Aleksandr Khrist'ianovich", "Aab Al'bert Viktorovich", "Aab Al'brekht Aleksandrovich", 'Aab Amaliia Andreevna', 'Aab Amaliia Ivanovna', 'Aab Angelina Andreevna', 'Aab Andrei Andreevich', 'Aab Andrei Filippovich', 'Aab Arvid Karlovich', "Aab Arnol'd Aleksandrovich", 'Aab Artur Avgustovich', "Aab Artur Vil'gel'movich", "Aab Aelita Arnol'dovna", 'Aab Viktor Aleksandrovich', 'Aab Viktor Aleksandrovich', "Aab Viktor Vil'gel'movich"]
 ```
 
 The ‘u’ in front of each of the names indicates that they are *unicode*
