@@ -27,7 +27,8 @@ python_warning: true
 difficulty: 2
 activity: transforming
 topics: [python]
-abstract: "Esta lección es una rápida introducción a técnicas de manipulación de cadenas de caracteres (o strings) en Python." 
+abstract: "Esta lección es una rápida introducción a técnicas de manipulación de cadenas de caracteres (o strings) en Python."
+avatar_alt: Grabado de un joven tocando una guitarra 
 ---
 
 {% include toc.html %}
@@ -99,7 +100,7 @@ Puedes determinar el número de caracteres en una cadena utilizando el método `
 mensaje4 = 'hola' + ' ' + 'mundo'
 print(len(mensaje4))
 -> 10
-``` 
+```
 
 ### Encontrar
 
@@ -155,7 +156,7 @@ mensaje9 = "Hola Mundo"
 mensaje9a = mensaje9[1:8]
 print(mensaje9a)
 -> ola Mun
-``` 
+```
 
 Puedes sustituir las variables por números enteros como en este ejemplo:
 
@@ -174,13 +175,13 @@ Esto hace mucho más simple usar este método en conjunción con el método `fin
 mensaje9 = "Hola Mundo"
 print(mensaje9[:5].find("d"))
 -> -1
-``` 
+```
 
 Hay muchos más, pero los métodos para cadenas de caracteres anteriores son un buen comienzo. Fíjate que en el ejemplo anterior utilizamos corchetes en vez de paréntesis. Esta diferencia en los símbolos de la *sintaxis* es muy importante. Los paréntesis en Python son utilizados generalmente para *llevar un argumento* a una función. De tal manera que cuando vemos algo como:
 
 ``` python
 print(len(mensaje7))
-``` 
+```
 
 quiere decir que se lleva la cadena de caracteres "mensaje7" a la función `len` y entonces enviar el valor resultante de esa función a la declaración `print` para ser impresa. Una función puede ser llamada sin un argumento, pero de todas formas tienes que incluir un par de paréntesis vacíos después del nombre de la función. Vimos un ejemplo de ello también.
 
@@ -207,7 +208,7 @@ print('\"')
 ``` python
 print('El programa imprime \"Hola Mundo\"')
 -> El programa imprime "Hola Mundo"
-``` 
+```
 
 Otras dos secuencias de escape te permiten incluir marcas de tabulación (t) y saltos de línea (n):
 
@@ -215,7 +216,7 @@ Otras dos secuencias de escape te permiten incluir marcas de tabulación (t) y s
 print('Hola\tHola\tHola\nMundo')
 -> Hola Hola Hola
 Mundo
-``` 
+```
 
 Lecturas sugeridas
 ------------------

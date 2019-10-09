@@ -24,6 +24,7 @@ topics: [data-management]
 abstract: "En esta lección aprenderás lo básico del control de versiones, comprenderás por qué es útil e implementarás el control básico de versiones en un documento de texto plano utilizando git y GitHub."
 original: getting-started-with-github-desktop
 redirect_from: /es/lessons/getting-started-with-github-desktop
+avatar_alt: Grabado de una pareja en un escritorio observando a un gato a la luz de una vela
 ---
 
 {% include toc.html %}
@@ -76,7 +77,7 @@ A medida que en nuestras investigaciones utilizamos herramientas digitales y alm
 * revertir cambios y volver atrás gracias al historial de versiones anteriores de tu documento
 
 En concreto, el control de versiones es útil para facilitar la colaboración. De hecho, una de las razones que explican el origen del control de cambios es que permitera a varias personas trabajar al mismo tiempo en un proyecto de considerables dimensiones y utilizar Git para administrar las fuentes del núcleo Linux. Utilizar un control de versiones favorece la colaboración debido a su flexibilidad. Por ejemplo, dos personas pueden trabajar en un mismo documento al mismo tiempo y 'fusionar' los cambios. Si existe un 'conflicto' entre las dos versiones, el sistema de control permitiría al usuario ver el conflicto y decidir cómo fusionar las dos versiones dando lugar a una 'tercera' versión. De esta manera, conservarías la 'historia' del documento, es decir, las versiones anteriores y, en consecuencia, podrías revertir el proceso eligiendo una versión más antigua.
- 
+
 No es necesario, sin embargo, poner en marcha un control de versiones para todos tus documentos. En algunas ocasiones resulta muy útil; por ejemplo, para escribir artículos, libros o tesis doctorales.
 
 La implementación del control de versiones que proponemos en esta lección está pensada para que los documentos sean públicos. No obstante, puedes utilizar un control de versión y mantener tus documentos ocultos de manera permanente o bien hasta que decidas publicarlos en línea. 
@@ -231,7 +232,7 @@ Existen algunas diferencias entre la administración de un repositorio que conti
 ### Cómo publicar tu repositorio
 
 Hasta ahora solo hemos registrado nuestros cambios de manera local. Aunque podríamos estar satisfechos con guardarlos en nuestro ordenador (es importante conservar copias), seguramente queremos subir los archivos a nuestro repositorio de GitHub para hacerlos públicos o bien, simplemente, para tener una copia que no esté alojada en nuestro ordenador. El proceso con GitHub Desktop es muy sencillo y rápido. En GitHub Desktop 'publicas' repositorios; es decir, los **envías** ('push') desde tu ordenador a la web de GitHub. Durante este proceso también creas un repositorio **remoto**.
- 
+
 {% include figure.html filename="intro-github-4.png" caption="Cómo publicar el repositorio" %}
 
 Una vez hayas 'publicado' tu repositorio, será visible en tu perfil de GitHub. Es posible crear un repositorio privado en GitHub pero solo si te registras como [estudiante](https://education.github.com/pack) o [investigador](https://github.com/blog/1840-improving-github-for-science), o bien pagando una [suscripción](https://github.com/pricing). Si no te has registrado como estudiante o investigador, solo podrás crear un repositorio privado cuando pagues por una suscripción. Por eso, a menos que quieras pagar, puedes ignorar la sección 'Información sobre la compra'. En esta sección, será suficiente con publicar un repositorio abierto. Para acceder a tu repositorio en línea, en el menú puedes hacer clic sobre 'Repository' ('Repositorio') y luego elegir 'View on GitHub' (es decir, 'Ver en GitHub'). Al hacer esto, se abrirá una ventana en tu navegador con tu repositorio en línea.
