@@ -117,9 +117,8 @@ shell. You can type in a statement and press the Enter key, and the
 shell will respond to your command. Using a shell is a great way to test
 statements to make sure that they do what you think they should.
 
-You can run a Python shell by launching the “terminal”. For Linux, go to
-`Applications-> Accessories -> Terminal`and do the same. At the Python
-shell prompt, type
+You can run a Python shell by launching the “Terminal” application.
+In the Terminal window, type
 
 ``` python
 python3
@@ -149,8 +148,6 @@ print('hello world')
 On your screen, it will look more like this:
 
 {% include figure.html caption="hello world terminal on a Mac" filename="hello-world-terminal.png" %}
-
-Python Shell in Mac Terminal
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
