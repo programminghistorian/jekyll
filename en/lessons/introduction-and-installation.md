@@ -85,7 +85,6 @@ doesn't work on your platform, please let us know.
   [Beautiful Soup HTML/XML parser]: http://www.crummy.com/software/BeautifulSoup/
   [Komodo Edit]: http://www.activestate.com/komodo-edit
   [Python Editors]: http://wiki.python.org/moin/PythonEditors/
-  [Zotero]: http://www.zotero.org/
   [Jungle Disk]: https://www.jungledisk.com/
   [Dropbox]: https://www.dropbox.com/home
   [Viewing HTML Files]: /lessons/viewing-html-files
