@@ -26,7 +26,7 @@ redirect_from: /lessons/linux-installation
 
 
 Thanks to John Fink for providing the basis of this section. These
-instructions are for Ubuntu 12.04 LTS, but should work for any apt based
+instructions are for Ubuntu 18.04 LTS, but should work for any apt based
 system such as Debian, or Linux Mint, provided you have sudo installed.
 
 ## Back up your computer
@@ -35,11 +35,11 @@ It is always important to make sure you have regular and recent backups
 of your computer. This is just good advice for life, and is not limited
 to times when you are engaged in programming.
 
-## Install Python v. 2
+## Install Python 3
 
-1.  Open a terminal (`Dash Home`, then type `Terminal`, then click on
+1.  Open a terminal (Go to Applications, then type `Terminal`, then click on
     the Terminal icon).
-2.  Now type: `sudo apt-get install python2.7`
+2.  Now type: `sudo apt-get install python3`
 3.  Enter your password, and then type `Y` to finish the install. Note
     that you probably have Python 2.7 installed already, so don't be
     alarmed if Ubuntu tells you that.
@@ -63,16 +63,14 @@ downloaded it, open it with Ubuntu's package manager, extract it to your
 home directory, and follow the installation instructions. If you are
 following along with these instructions and have installed Komodo Edit,
 open the home folder, go to the `Komodo-Edit-7/bin` directory, and click
-on komodo. You can also right click on the Komodo icon in your launcher
-and click “`Lock to Launcher`” to have Komodo saved permanently to your
-launcher bar.
+on komodo.
 
 ## Make a “Run Python” Command in Komodo Edit
 
 1.  In Komodo Edit, click the gear icon under `Toolbox` and select
     `New Command`.
 2.  In the top field type “`Run Python File`“
-3.  In the Command field, type: `%(python) %F` Then hit the OK button at
+3.  In the Command field, type: `%(python3) %F` Then hit the OK button at
     the bottom of the Add Command window.
 
 ## Step 2 – “Hello World” in Python
@@ -124,7 +122,7 @@ You can run a Python shell by launching the “terminal”. For Linux, go to
 shell prompt, type
 
 ``` python
-python
+python3
 ```
 
 This will open up the Python prompt, meaning that you can now use Python 
