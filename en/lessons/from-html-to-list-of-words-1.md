@@ -7,6 +7,7 @@ authors:
 - Adam Crymble
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 editors:
 - Miriam Posner
 difficulty: 2
@@ -18,7 +19,7 @@ abstract: "In this two-part lesson, we will build on what you’ve learned about
 indexed, and counted."
 next: from-html-to-list-of-words-2
 previous: manipulating-strings-in-python
-python_warning: true
+python_warning: false
 redirect_from: /lessons/from-html-to-list-of-words-1
 ---
 
