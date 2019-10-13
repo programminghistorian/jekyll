@@ -9,6 +9,7 @@ editors:
 - Miriam Posner
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 translator:
 - Víctor Gayol
 translation-editor:
@@ -23,7 +24,7 @@ next: de-html-a-lista-de-palabras-2
 previous: manipular-cadenas-de-caracteres-en-python
 original: from-html-to-list-of-words-1
 redirect_from: /es/lessons/from-html-to-list-of-words-1
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: transforming
 topics: [python]
