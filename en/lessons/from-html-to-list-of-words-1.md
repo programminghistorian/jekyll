@@ -178,14 +178,15 @@ below.
 ``` python
 # trial-content.py
 
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-response = urllib2.urlopen(url)
+response = urllib.request.urlopen(url)
 HTML = response.read()
 
-print(obo.stripTags(HTML))
+print((obo.stripTags(HTML)))
+
 ```
 
 When you run *trial-content.py* it will get the web page for Bowsey’s
