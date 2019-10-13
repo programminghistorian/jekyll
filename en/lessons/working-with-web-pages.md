@@ -166,7 +166,7 @@ url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-3
 response = urllib.request.urlopen(url)
 webContent = response.read()
 
-print((webContent[0:300]))
+print(webContent[0:300])
 ```
 
 These five lines of code achieve an awful lot very quickly. Let us take
