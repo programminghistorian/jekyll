@@ -523,6 +523,32 @@
    - editorial
    - technical-lead
    - board
+   
+  name: Sarah Melton
+  url: "http://sarahvmelton.com"
+  twitter: WorldCatLady
+  email: sarah.melton@bc.edu
+  github: svmelton
+  team: true
+  team_start: 2019
+  institution: Boston College
+  sortname: Melton
+  orcid: 0000-0003-3780-5577
+  affiliation:
+    en: |
+        Boston College, USA.
+    es: |
+        Boston College, Estados Unidos.
+    fr: |
+        Boston College, États-Unis.
+  bio:
+    en: |
+        Sarah Melton is the Head of Digital Scholarship at Boston College.
+        
+  team_roles:
+   - managing-en
+   - editorial
+   - board
 
 - name: Sarah Simpkin
   team: false
