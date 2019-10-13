@@ -10,6 +10,7 @@ editors:
 reviewers:
 - Miriam Posner
 - Jim Clifford
+- Frederik Elwert
 translator:
 - Víctor Gayol
 translation-editor:
@@ -29,7 +30,7 @@ next: manipular-cadenas-de-caracteres-en-python
 previous: reutilizacion-de-codigo-y-modularidad
 original: working-with-web-pages
 redirect_from: /es/lessons/working-with-web-pages
-python_warning: true
+python_warning: false
 ---
 
 {% include toc.html %}
@@ -104,14 +105,14 @@ Ahora vamos a tratar de abrir la página usando Python. Copia el siguiente progr
 ``` python
 # abre-paginaweb.py
 
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 contenidoWeb = respuesta.read()
 
-print(contenidoWeb[0:300])
+print((contenidoWeb[0:300]))
 ```
 
 Estas cinco líneas de código logran mucho rápidamente. Vamos a detenernos un momento para asegurarnos de que todo está claro y que puedes reconocer los bloques que permiten que este programa haga lo que queremos que haga.
@@ -145,11 +146,11 @@ Dado que ya sabes lo suficiente acerca de escribir en archivos, resulta bastante
 ``` python
 # guardar-paginaweb.py
 
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 contenidoWeb = respuesta.read()
 
 f = open('obo-t17800628-33.html', 'w')
