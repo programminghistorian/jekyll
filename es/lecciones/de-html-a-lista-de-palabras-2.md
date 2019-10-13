@@ -9,6 +9,7 @@ editors:
 - Miriam Posner
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 translator:
 - Víctor Gayol
 translation-editor:
@@ -23,7 +24,7 @@ next: normalizar-datos
 previous: de-html-a-lista-de-palabras-1
 original: from-html-to-list-of-words-2
 redirect_from: /es/lessons/from-html-to-list-of-words-2
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: transforming
 topics: [python]
@@ -62,6 +63,7 @@ El siguiente escalón es implementar el algoritmo que busca cada uno de los cara
 Como muchos lenguajes de programación Python incluye un número de mecanismos de bucle. El que necesitarás usar en este caso es un *bucle for*. La versión debajo le dice al intérprete que haga algo en cada carácter de una cadena llamada *contenidoPagina*. La variable *caract* contendrá cada carácter de *contenidoPagina* en sucesión. La nombramos *caract* porque no tiene un significado especial y podríamos haberla llamado *tintineo* o *k* si nos hubiéramos sentido tentados. Puedes utilizar la codificación a colores en Komodo Edit como una guía para decidir si una palabra es una variable con un nombre dado por el usuario (como *caract*) o se trata de un nombre definido para Python que sirve para un propósito específico (como '`for`'). Generalmente es buena idea darle a las variables nombres que provean información acerca de lo que contienen. Esto hará mucho más fácil entender un programa que no has revisado desde hace tiempo. Con esto en mente, *tintineo* no es seguramente una buena elección para el nombre de la variable en este caso.
 
 ``` python
+# ParseError: Could not check this chunk!
 for caract in contenidoPagina:
 	# haz algo con caract
 ```
@@ -73,6 +75,7 @@ Enseguida necesitarás una manera de comprobar los contenidos de una cadena y es
 Toma en cuanta que Python utiliza el signo de igual (=) para *asignación*, es decir, para ajustar que una cosa sea equivalente a otra. Con el fin de comprobar la igualdad, utiliza dos signos de igual (==) en lugar de uno. Los programadores principiantes suelen confundir ambos.
 
 ```python
+# ParseError: Could not check this chunk!
 if caract == '<':
     # haz algo
 ```
@@ -80,6 +83,7 @@ if caract == '<':
 Una forma más general de la sentencia condicional *if* te permite especificar qué hacer ante un evento en el que la condición de prueba es falsa.
 
 ```python
+# ParseError: Could not check this chunk!
 if caract == '<':
     # haz algo
 else:
@@ -89,6 +93,7 @@ else:
 En Python tienes la opción de hacer pruebas adicionales después de la primera mediante la utilización de la sentencia condicional *elif* (abreviatura de *else if*).
 
 ```python
+# ParseError: Could not check this chunk!
 if caract == '<':
     # haz algo
 elif caract == '>':
@@ -204,16 +209,16 @@ Considerando lo que has aprendido hasta ahora, ya puedes abrir un URL, descargar
 
 ``` python
 # html-a-lista-1.py
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 html = respuesta.read()
 texto = obo.quitarEtiquetas(html)
 listaPalabras = texto.split()
 
-print(listaPalabras[0:120])
+print((listaPalabras[0:120]))
 ```
 
 Debes obtener algo como lo siguiente:
