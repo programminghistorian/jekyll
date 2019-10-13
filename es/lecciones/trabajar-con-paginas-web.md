@@ -112,7 +112,7 @@ url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-3
 respuesta = urllib.request.urlopen(url)
 contenidoWeb = respuesta.read()
 
-print((contenidoWeb[0:300]))
+print(contenidoWeb[0:300])
 ```
 
 Estas cinco líneas de código logran mucho rápidamente. Vamos a detenernos un momento para asegurarnos de que todo está claro y que puedes reconocer los bloques que permiten que este programa haga lo que queremos que haga.
