@@ -82,7 +82,6 @@ at for a while. With this in mind, '*jingles*' is probably not a very good
 choice for a variable name in this case.
 
 ``` python
-# ParseError: Could not check this chunk!
 for char in pageContents:
     # do something with char
 ```
@@ -103,7 +102,6 @@ for setting one thing equal to something else. In order to test for
 often confuse the two.
 
 ``` python
-# ParseError: Could not check this chunk!
 if char == '<':
     # do something
 ```
@@ -112,7 +110,6 @@ A more general form of the if statement allows you to specify what to do
 in the event that your test condition is false.
 
 ``` python
-# ParseError: Could not check this chunk!
 if char == '<':
     # do something
 else:
@@ -123,7 +120,6 @@ In Python you have the option of doing further tests after the first
 one, by using an *elif statement* (which is shorthand for else if).
 
 ``` python
-# ParseError: Could not check this chunk!
 if char == '<':
     # do something
 elif char == '>':
