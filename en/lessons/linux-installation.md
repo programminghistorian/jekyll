@@ -41,7 +41,7 @@ to times when you are engaged in programming.
     the Terminal icon).
 2.  Now type: `sudo apt-get install python3`
 3.  Enter your password, and then type `Y` to finish the install. Note
-    that you probably have Python 2.7 installed already, so don't be
+    that you probably have Python 3 installed already, so don't be
     alarmed if Ubuntu tells you that.
 
 ## Create a directory
