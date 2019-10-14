@@ -62,16 +62,19 @@ download Komodo Edit at the [Komoto Edit Website][]. Once you've
 downloaded it, open it with Ubuntu's package manager, extract it to your
 home directory, and follow the installation instructions. If you are
 following along with these instructions and have installed Komodo Edit,
-open the home folder, go to the `Komodo-Edit-7/bin` directory, and click
-on komodo.
+open the home folder, go to the `Komodo-Edit-11/bin` directory, and click
+on `komodo`.
 
 ## Make a “Run Python” Command in Komodo Edit
 
-1.  In Komodo Edit, click the gear icon under `Toolbox` and select
+1.  In Komodo Edit, make sure the “Toolbox” sidebar is visible.
+2.  Click the gear icon in the toolbox and select
     `New Command`.
-2.  In the top field type “`Run Python File`“
-3.  In the Command field, type: `%(python3) %F` Then hit the OK button at
+3.  In the top field type “`Run Python File`”
+4.  In the Command field, type: `%(python3) %F`. Then hit the OK button at
     the bottom of the Add Command window.
+
+{% include figure.html caption="Add new command in Komodo Edit" filename="komodo-edit-tools-linux.png" %}
 
 ## Step 2 – “Hello World” in Python
 --------------------------------
@@ -103,12 +106,11 @@ program and save it to your `programming-historian` directory as
 print('hello world')
 ```
 
-Your chosen text editor should have a “`Run`” button that will allow you
-to execute your program. If all went well, it should look something like
-this (Example as seen in Komodo Edit. Click on the image to see a
-full-size copy):
+The “*Run Python File*” command allows you to execute your program.
+If you chose another text editor, it might provide similar functionality.
+If all went well, it should look something like this (Click on the image to see a full-size copy):
 
-{% include figure.html caption="hello world in Komodo Edit on a Mac" filename="hello-world1.png" %}
+{% include figure.html caption="hello world in Komodo Edit on Linux" filename="komodo-edit-output-linux.png" %}
 
 ## Interacting with a Python shell
 
@@ -147,12 +149,12 @@ print('hello world')
 
 On your screen, it will look more like this:
 
-{% include figure.html caption="hello world terminal on a Mac" filename="hello-world-terminal.png" %}
+{% include figure.html caption="hello world in Terminal on Linux" filename="terminal-output-linux.png" %}
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
 order, we suggest you next try ‘[Understanding Web Pages and HTML][]‘
 
-  [other text editing options]: http://wiki.python.org/moin/PythonEditors/
-  [Komoto Edit Website]: http://www.activestate.com/komodo-edit
+  [other text editing options]: https://wiki.python.org/moin/PythonEditors/
+  [Komoto Edit Website]: https://www.activestate.com/products/komodo-edit/
   [Understanding Web Pages and HTML]: /lessons/viewing-html-files
