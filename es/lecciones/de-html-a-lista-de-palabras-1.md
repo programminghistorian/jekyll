@@ -9,6 +9,7 @@ editors:
 - Miriam Posner
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 translator:
 - Víctor Gayol
 translation-editor:
@@ -23,7 +24,7 @@ next: de-html-a-lista-de-palabras-2
 previous: manipular-cadenas-de-caracteres-en-python
 original: from-html-to-list-of-words-1
 redirect_from: /es/lessons/from-html-to-list-of-words-1
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: transforming
 topics: [python]
@@ -118,14 +119,14 @@ Ahora crea un segundo archivo llamado *contenido-juicio.py* y guarda el programa
 ``` python
 # contenido-juicio.py
 
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 HTML = respuesta.read()
 
-print(obo.quitarEtiquetas(HTML))
+print((obo.quitarEtiquetas(HTML)))
 ```
 
 Cuando ejecutes *contenido-juicio.py* éste obtendrá la página Web de la transcripción del juicio de Bowsey, entonces mira en el módulo *obo.py* la función *quitarEtiquetas*. El programa utilizará esa función para extraer todo lo que esté después de la primera etiqueta `<p>` y antes de la última `<br/>`. Con algo de suerte esto debe ser el contenido textual de la transcripción de Bowsey acompañada con algo de marcado en HTML. No te preocupes si tu pantalla de salida de comandos termina en una línea gruesa negra. La pantalla de salida de Komodo Edit tiene un número máximo de caracteres a desplegar, después de lo cual los caracteres empiezan a escribirse unos sobre otros en la pantalla, literalmente, dando la apriencia de una mancha negra. No te preocupes: el texto está ahí aún cuando tú no puedas leerlo; así que puedes copiar y pegarlo en un archivo de texto para confirmarlo.
