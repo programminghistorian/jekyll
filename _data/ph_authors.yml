@@ -524,6 +524,34 @@
    - technical-lead
    - board
 
+- name: Sarah Melton
+  github: svmelton
+  email: sarah.melton@bc.edu
+  twitter: worldcatlady
+  url: "http://sarahvmelton.com"
+  team: true
+  team_start: 2019
+  institution: Boston College
+  sortname: Melton
+  affiliation:
+    en: |
+        Boston College, USA.
+    es: |
+        Boston College, Estados Unidos.
+    fr: |
+        Boston College, États-Unis.
+  bio:
+    en: |
+        Sarah Melton is the Head of Digital Scholarship at Boston College.
+    es: |
+        Sarah Melton es la jefa de estudios digitales del Boston College.
+    fr: |
+        Sarah Melton est responsable des études numériques au Boston College.
+  team_roles:
+   - editorial
+   - managing-en
+   - board
+   
 - name: Sarah Simpkin
   team: false
   bio:
@@ -740,7 +768,7 @@
 
 - name: Anandi Silva Knuppel
   github: alsalin
-  email: anandi.silva.knuppel@emory.edu
+  email: anandi.silva.knuppel@gmail.com
   twitter: anandilila
   url: "http://anandileela.com"
   team: true

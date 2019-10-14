@@ -7,6 +7,7 @@ authors:
 - Adam Crymble
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 editors:
 - Miriam Posner
 difficulty: 2
@@ -17,7 +18,7 @@ topics: [python]
 abstract: "In this lesson, you will learn the Python commands needed to implement the second part of the algorithm begun in the lesson 'From HTML to a List of Words (part 1)'."
 next: normalizing-data
 previous: from-html-to-list-of-words-1
-python_warning: true
+python_warning: false
 redirect_from: /lessons/from-html-to-list-of-words-2
 ---
 
@@ -290,16 +291,16 @@ list of words. Try executing the following program.
 
 ``` python
 #html-to-list1.py
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/print.jsp?div=t17800628-33'
 
-response = urllib2.urlopen(url)
+response = urllib.request.urlopen(url)
 html = response.read()
 text = obo.stripTags(html)
 wordlist = text.split()
 
-print(wordlist[0:120])
+print((wordlist[0:120]))
 ```
 
 You should get something like the following.
