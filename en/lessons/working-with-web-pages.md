@@ -7,6 +7,7 @@ authors:
 - Adam Crymble
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 editors:
 - Miriam Posner
 difficulty: 2
@@ -18,7 +19,7 @@ abstract: "This lesson introduces Uniform Resource Locators (URLs) and explains 
 next: manipulating-strings-in-python
 previous: code-reuse-and-modularity
 categories: [lessons, python, original-ph]
-python_warning: true
+python_warning: false
 redirect_from: /lessons/working-with-web-pages
 ---
 
@@ -158,11 +159,11 @@ Python library reference to learn more about [urllib2](https://docs.python.org/2
 ``` python
 # open-webpage.py
 
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-response = urllib2.urlopen(url)
+response = urllib.request.urlopen(url)
 webContent = response.read()
 
 print(webContent[0:300])
@@ -220,11 +221,11 @@ the online copy.
 ``` python
 # save-webpage.py
 
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-response = urllib2.urlopen(url)
+response = urllib.request.urlopen(url)
 webContent = response.read()
 
 f = open('obo-t17800628-33.html', 'w')
