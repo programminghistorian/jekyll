@@ -16,9 +16,9 @@ topics: [data-management]
 abstract: "In this lesson you will be introduced to the basics of version control, understand why it is useful and implement basic version control for a plain text document using git and GitHub."
 redirect_from:
   - /lessons/getting-started-with-github-desktop
-  - /lessons/en/getting-started-with-github-desktop
+  - /en/lessons/getting-started-with-github-desktop
 retired: true
-retirement_reason: |
+retirement-reason: |
   This lesson is for an old verison of GitHub Desktop that is now no longer maintained or supported by GitHub. The new version and its documentation can be found at <https://desktop.github.com/>
 
   We also recommend the Software Carpentry tutorial on version control at <http://swcarpentry.github.io/git-novice/>
