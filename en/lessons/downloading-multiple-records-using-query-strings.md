@@ -525,8 +525,6 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 
     import urllib.request, math, os
 
-    startValue = 0
-
     #This line is new! Create a new directory
     if not os.path.exists(query):
         os.makedirs(query)
@@ -614,12 +612,6 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
     cleanQuery = re.sub(r'\W+', '', query)
     if not os.path.exists(cleanQuery):
             os.makedirs(cleanQuery)
-
-    startValue = 0
-
-    # Create a new directory
-    if not os.path.exists(cleanQuery):
-        os.makedirs(cleanQuery)
 
     startValue = 0
 
@@ -904,12 +896,6 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 
     startValue = 0
 
-    # Create a new directory
-    if not os.path.exists(cleanQuery):
-        os.makedirs(cleanQuery)
-
-    startValue = 0
-
     #Determine how many files need to be downloaded.
     pageCount = entries / 10
     pageCount = math.ceil(pageCount)
@@ -1072,12 +1058,6 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
     cleanQuery = re.sub(r'\W+', '', query)
     if not os.path.exists(cleanQuery):
             os.makedirs(cleanQuery)
-
-    startValue = 0
-
-    # Create a new directory
-    if not os.path.exists(cleanQuery):
-        os.makedirs(cleanQuery)
 
     startValue = 0
 
