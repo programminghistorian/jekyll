@@ -693,7 +693,7 @@ the trials. The first entry starts with “Anne Smith” so you can use the
 “find” feature in Komodo Edit to jump immediately to the right spot.
 Notice Anne’s name is part of a link:
 
-``` xml
+```
 browse.jsp?id=t17160113-18&amp;div=t17160113-18&amp;terms=mulatto*_negro*#highlight 
 ```
 
