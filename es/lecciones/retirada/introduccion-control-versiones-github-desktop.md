@@ -29,8 +29,7 @@ redirect_from:
 retired: true
 retirement-reason: |
   Esta lección utiliza una versión obsoleta de GitHub Desktop que ya no cuenta con el respaldo de GitHub. La última versión y la documentación pueden encontrarse en <https://desktop.github.com/>.
-
-  We also recommend the Software Carpentry tutorial on version control at <http://swcarpentry.github.io/git-novice/>
+  
 ---
 
 {% include toc.html %}
