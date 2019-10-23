@@ -28,7 +28,7 @@ redirect_from:
   - /es/lecciones/introduccion-control-versiones-github-desktop
 retired: true
 retirement-reason: |
-  This lesson is for an old verison of GitHub Desktop that is now no longer maintained or supported by GitHub. The new version and its documentation can be found at <https://desktop.github.com/>
+  Esta lección utiliza una versión obsoleta de GitHub Desktop que ya no cuenta con el respaldo de GitHub. La última versión y la documentación pueden encontrarse en <https://desktop.github.com/>.
 
   We also recommend the Software Carpentry tutorial on version control at <http://swcarpentry.github.io/git-novice/>
 ---
