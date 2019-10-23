@@ -582,7 +582,7 @@ your `getSearchResults` page in lieu of the current `filename` description.
 
 If you are running Windows, chances are your `downloadSearches.py`
 program will now crash when you run it because you are trying to create
-a director with a \* in it. Windows does not like this. To get around
+a directory with a \* in it. Windows does not like this. To get around
 this problem we can use [regular expressions][] to remove any
 non-Windows-friendly characters. We used regular expressions previously
 in [Counting Frequencies][]. To remove non-alpha-numeric characters from
