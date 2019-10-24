@@ -456,7 +456,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         url += '&toMonth=' + toMonth
         url += '&start=' + str(startValue)
         url += '&count=0'
-    
+
         #download the page and save the result.
         response = urllib.request.urlopen(url)
         webContent = response.read()
@@ -548,7 +548,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         url += '&toMonth=' + toMonth
         url += '&start=' + str(startValue)
         url += '&count=0'
-    
+
         #download the page and save the result.
         response = urllib.request.urlopen(url)
         webContent = response.read()
@@ -594,7 +594,7 @@ used in the `os.path.exists()`, `os.makedirs()`, and `filename` declarations.
 import urllib.request, math, os, re
 cleanQuery = re.sub(r'\W+', '', query)
 if not os.path.exists(cleanQuery):
-        os.makedirs(cleanQuery)
+    os.makedirs(cleanQuery)
 
 ...
 
@@ -611,7 +611,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 
     cleanQuery = re.sub(r'\W+', '', query)
     if not os.path.exists(cleanQuery):
-            os.makedirs(cleanQuery)
+        os.makedirs(cleanQuery)
 
     startValue = 0
 
@@ -686,7 +686,7 @@ the trials. The first entry starts with “Anne Smith” so you can use the
 Notice Anne’s name is part of a link:
 
 ```
-browse.jsp?id=t17160113-18&amp;div=t17160113-18&amp;terms=mulatto*_negro*#highlight 
+browse.jsp?id=t17160113-18&amp;div=t17160113-18&amp;terms=mulatto*_negro*#highlight
 ```
 
 Perfect, the link contains the trial ID! Scroll through the remaining
@@ -892,7 +892,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 
     cleanQuery = re.sub(r'\W+', '', query)
     if not os.path.exists(cleanQuery):
-            os.makedirs(cleanQuery)
+        os.makedirs(cleanQuery)
 
     startValue = 0
 
@@ -1057,7 +1057,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 
     cleanQuery = re.sub(r'\W+', '', query)
     if not os.path.exists(cleanQuery):
-            os.makedirs(cleanQuery)
+        os.makedirs(cleanQuery)
 
     startValue = 0
 
