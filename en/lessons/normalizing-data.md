@@ -8,6 +8,7 @@ authors:
 reviewers:
 - Jim Clifford
 - Francesca Benatti
+- Frederik Elwert
 editors:
 - Miriam Posner
 difficulty: 2
@@ -18,7 +19,7 @@ topics: [python]
 abstract: "In this lesson, we will make the list we created in the 'From HTML to a List of Words' lesson easier to analyze by normalizing this data."
 next: counting-frequencies
 previous: from-html-to-list-of-words-2
-python_warning: true
+python_warning: false
 redirect_from: /lessons/normalizing-data
 ---
 
@@ -108,11 +109,11 @@ the the end of the *text* string.
 
 ``` python
 #html-to-list1.py
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-response = urllib2.urlopen(url)
+response = urllib.request.urlopen(url)
 html = response.read()
 text = obo.stripTags(html).lower() #add the string method here.
 wordlist = text.split()
@@ -217,11 +218,11 @@ When we refine our *html-to-list1.py* program, it now looks like this:
 
 ``` python
 #html-to-list1.py
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-response = urllib2.urlopen(url)
+response = urllib.request.urlopen(url)
 html = response.read()
 text = obo.stripTags(html).lower()
 wordlist = obo.stripNonAlphaNum(text)
