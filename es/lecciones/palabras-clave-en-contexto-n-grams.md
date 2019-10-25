@@ -9,6 +9,7 @@ editors:
 - Miriam Posner
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 translator:
 - Víctor Gayol
 translation-editor:
@@ -23,7 +24,7 @@ next: salida-palabras-clave-contexto-ngrams
 previous: salida-de-datos-como-archivo-html
 original: keywords-in-context-using-n-grams
 redirect_from: /es/lessons/keywords-in-context-using-n-grams
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: presenting
 topics: [python]
