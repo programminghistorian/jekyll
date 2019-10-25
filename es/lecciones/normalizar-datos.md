@@ -10,6 +10,7 @@ editors:
 reviewers:
 - Jim Clifford
 - Francesca Benatti
+- Frederik Elwert
 translator:
 - Víctor Gayol
 translation-editor:
@@ -24,7 +25,7 @@ next: contar-frecuencias
 previous: de-html-a-lista-de-palabras-2
 original: normalizing-data
 redirect_from: /es/lessons/normalizing-data
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: transforming
 topics: [python]
@@ -87,16 +88,16 @@ Típicamente los componentes léxicos (*tokens*) son compactados como minúscula
 
 ``` python
 # html-a-lista-1.py
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 html = respuesta.read()
 texto = obo.quitarEtiquetas(html).lower() #incluye el metodo de cadena aqui
 listaPalabras = texto.split()
 
-print(listaPalabras[0:120])
+print((listaPalabras[0:120]))
 ```
 
 Ahora debes ver la misma lista de palabras que antes pero con todos los caracteres en minúsculas.
@@ -145,11 +146,11 @@ Cuando redefinamos nuestro programa *html-a-lista-1.py*, entonces se verá como 
 
 ``` python
 # html-a-lista-1.py
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 html = respuesta.read()
 texto = obo.quitarEtiquetas(html).lower()
 listaPalabras = obo.quitaNoAlfaNum(texto)
