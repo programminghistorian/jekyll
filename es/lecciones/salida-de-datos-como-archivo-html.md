@@ -9,6 +9,7 @@ editors:
 - Miriam Posner
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 translator:
 - Víctor Gayol
 translation-editor:
@@ -23,7 +24,7 @@ next: palabras-clave-en-contexto-n-grams
 previous: crear-y-ver-archivos-html-con-python
 original: output-data-as-html-file
 redirect_from: /es/lessons/output-data-as-html-file
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: transforming
 topics: [python, website]
@@ -63,6 +64,7 @@ Cuando trabajas con datos digitales es buena idea incorporar metadatos en tus pr
 Python incluye un operador especial para formato que te permite insertar una cadena dentro de otra. Está representado por un signo de porcentaje seguido por una "s". Abre el *shell* de Python e intenta los ejemplos siguientes:
 
 ``` python
+
 formula = 'Esta fruta es una %s'
 print(formula)
 -> Esta fruta es una %s
@@ -95,8 +97,8 @@ Vamos a convertir en funciones algo del código que ya hemos escrito. Uno de ell
 # Dado un URL, regresa una cadena de texto en mínusculas de una página.
 
 def paginaWebATexto(url):
-    import urllib2
-    respuesta = urllib2.urlopen(url)
+    import urllib.request, urllib.error, urllib.parse
+    respuesta = urllib.request.urlopen(url)
     html = respuesta.read()
     texto = quitarEtiquetas(html).lower()
     return texto
