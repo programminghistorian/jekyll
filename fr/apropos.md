@@ -14,7 +14,7 @@ Notre procédure d'évaluation par les pairs est un peu différente de celle qui
 
 
 ## Open Source (code source ouvert)
-Le _Programming Historian en français_ adhère aux principes de l'open source. Toutes les leçons utilisent dans la mesure du possible des langages de programmation et des logiciels ouverts. Cette politique vise à minimiser les coûts pour toutes les parties concernées et à encourager la plus large participation possible. C'est notre conviction que tout un chacun devrait avoir la possibilité de profiter de ces tutoriels, non pas seulement ceux et celles disposant de budgets de recherche considérables qui permettent l'acquisition de logiciels propriétaires coûteux. Depuis 2016, une version citable du projet _Programming Historian_ est déposée sur [Zenodo](https://zenodo.org/). Le dépôt de l'année 2018 est accessible sur [doi.org/10.5281/zenodo.1477854](https://doi.org/10.5281/zenodo.1477854).
+Le _Programming Historian en français_ adhère aux principes de l'open source. Toutes les leçons utilisent dans la mesure du possible des langages de programmation et des logiciels ouverts. Cette politique vise à minimiser les coûts pour toutes les parties concernées et à encourager la plus large participation possible. C'est notre conviction que tout un chacun devrait avoir la possibilité de profiter de ces tutoriels, non pas seulement ceux et celles disposant de budgets de recherche considérables qui permettent l'acquisition de logiciels propriétaires coûteux. Depuis 2016, une version citable du projet _Programming Historian_ est déposée sur [Zenodo](https://zenodo.org/). Le dépôt de l'année 2019 est accessible sur [doi.org/10.5281/zenodo.3525082](https://doi.org/10.5281/zenodo.3525082).
 
 
 ## Voie dorée (Gold Open Access)
