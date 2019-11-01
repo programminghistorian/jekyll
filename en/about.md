@@ -14,7 +14,7 @@ The review process is an integral component of a collaborative, productive, and 
 
 
 ## Open Source
-The _Programming Historian_ team is committed to open source values. All contributed lessons make use of open source programming languages and software whenever possible. This policy is meant to minimize costs for all parties, and to allow the greatest possible level of participation. We believe everyone should be able to benefit from these tutorials, not just those with large research budgets for expensive proprietary software. Since 2016, a citable version of the _Programming Historian_ project has been deposited on [Zenodo](https://zenodo.org/). The 2019 deposit is available at [https://doi.org/10.5281/zenodo.3525082](https://doi.org/10.5281/zenodo.3525082).
+The _Programming Historian_ team is committed to open source values. All contributed lessons make use of open source programming languages and software whenever possible. This policy is meant to minimize costs for all parties, and to allow the greatest possible level of participation. We believe everyone should be able to benefit from these tutorials, not just those with large research budgets for expensive proprietary software. Since 2016, a citable version of the _Programming Historian_ project has been deposited on [Zenodo](https://zenodo.org/). The 2019 deposit is available at [doi.org/10.5281/zenodo.3525082](https://doi.org/10.5281/zenodo.3525082).
 
 
 ## Gold Open Access
