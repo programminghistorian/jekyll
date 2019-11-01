@@ -342,7 +342,7 @@ The Scikit-Learn `TfidfVectorizer` has several internal settings that can be cha
 
 #### 1. stopwords
 
-In my code, I used `python stopwords=None` but `python stopwords='english'` is available. This setting will filter out words using a [preselected list](https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/feature_extraction/stop_words.py) of high frequency function words such as 'the', 'to', and 'of'. Depending on your settings, many of these terms will have low __tf-idf__ scores regardless because they tend to be found in all documents. For a discussion of some publicly available stop word lists (including Scikit-Learn's), see ["Stop Word Lists in Free Open-source Software Packages"](https://aclweb.org/anthology/W18-2502).
+In my code, I used `python stopwords=None` but `python stopwords='english'` is available. This setting will filter out words using a [preselected list](https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/feature_extraction/_stop_words.py) of high frequency function words such as 'the', 'to', and 'of'. Depending on your settings, many of these terms will have low __tf-idf__ scores regardless because they tend to be found in all documents. For a discussion of some publicly available stop word lists (including Scikit-Learn's), see ["Stop Word Lists in Free Open-source Software Packages"](https://aclweb.org/anthology/W18-2502).
 
 #### 2. min_df, max_df
 
