@@ -1,6 +1,6 @@
 ---
 title: Introducción al control de versiones con GitHub Desktop
-authors: 
+authors:
 - Daniel van Strien
 date: 2016-06-17
 translation_date: 2017-04-07
@@ -23,7 +23,13 @@ activity: sustaining
 topics: [data-management]
 abstract: "En esta lección aprenderás lo básico del control de versiones, comprenderás por qué es útil e implementarás el control básico de versiones en un documento de texto plano utilizando git y GitHub."
 original: getting-started-with-github-desktop
-redirect_from: /es/lessons/getting-started-with-github-desktop
+redirect_from:
+  - /es/lessons/getting-started-with-github-desktop
+  - /es/lecciones/introduccion-control-versiones-github-desktop
+retired: true
+retirement-reason: |
+  Esta lección utiliza una versión obsoleta de GitHub Desktop que ya no cuenta con el respaldo de GitHub. La última versión y la documentación pueden encontrarse en <https://desktop.github.com/>.
+  
 ---
 
 {% include toc.html %}
@@ -42,9 +48,9 @@ Con esta lección aprenderás el funcionamiento básico de los sistemas de contr
 
 ## Programa necesario
 
-Actualmente, GitHub Desktop Classic está disponible solamente para Mac. Si utilizas Linux probablemente estarás familiarizado con la línea de comandos y serás capaz de utilizar la versión de línea de comandos de Git. 
+Actualmente, GitHub Desktop Classic está disponible solamente para Mac. Si utilizas Linux probablemente estarás familiarizado con la línea de comandos y serás capaz de utilizar la versión de línea de comandos de Git.
 
-## ¿Qué es un control de versiones y por qué debería utilizarlo? 
+## ¿Qué es un control de versiones y por qué debería utilizarlo?
 
 Antes de ponerse manos a la obra, conviene comprender qué es un control de versiones y por qué puede ser útil para tu investigación. En términos generales, un control de versiones consiste en tomar instantáneas de tus archivos a lo largo del proceso de creación. La mayoría de personas, de hecho, trabajan con algún sistema de control de versiones para gestionar sus archivos. A menudo, el control tiene lugar guardando distintas versiones de un mismo archivo. Por ejemplo, no es raro encontrarnos ante un directorio que contiene los siguientes archivos:
 
@@ -76,10 +82,10 @@ A medida que en nuestras investigaciones utilizamos herramientas digitales y alm
 * revertir cambios y volver atrás gracias al historial de versiones anteriores de tu documento
 
 En concreto, el control de versiones es útil para facilitar la colaboración. De hecho, una de las razones que explican el origen del control de cambios es que permitera a varias personas trabajar al mismo tiempo en un proyecto de considerables dimensiones y utilizar Git para administrar las fuentes del núcleo Linux. Utilizar un control de versiones favorece la colaboración debido a su flexibilidad. Por ejemplo, dos personas pueden trabajar en un mismo documento al mismo tiempo y 'fusionar' los cambios. Si existe un 'conflicto' entre las dos versiones, el sistema de control permitiría al usuario ver el conflicto y decidir cómo fusionar las dos versiones dando lugar a una 'tercera' versión. De esta manera, conservarías la 'historia' del documento, es decir, las versiones anteriores y, en consecuencia, podrías revertir el proceso eligiendo una versión más antigua.
- 
+
 No es necesario, sin embargo, poner en marcha un control de versiones para todos tus documentos. En algunas ocasiones resulta muy útil; por ejemplo, para escribir artículos, libros o tesis doctorales.
 
-La implementación del control de versiones que proponemos en esta lección está pensada para que los documentos sean públicos. No obstante, puedes utilizar un control de versión y mantener tus documentos ocultos de manera permanente o bien hasta que decidas publicarlos en línea. 
+La implementación del control de versiones que proponemos en esta lección está pensada para que los documentos sean públicos. No obstante, puedes utilizar un control de versión y mantener tus documentos ocultos de manera permanente o bien hasta que decidas publicarlos en línea.
 
 ## Diferencias entre Git y GitHub
 
@@ -95,14 +101,14 @@ Dropbox, Google Drive y otros servicios ofrecen alguna forma de controlar las ve
 
 * Mayor cobertura de lenguaje: Git admite tanto texto como lenguajes de programación. A medida que la investigación incluya métodos informáticos y herramientas digitales, se vuelve necesario disponer de una plataforma que gestione publicaciones tradicionales (artículos, libros, etc.) pero también nuevos tipos de publicaciones como código, conjunto de datos, etc.
 * Más control: un sistema de control de versiones te dará mayor poder para gestionar los cambios de tus documentos.
-* Historial más útil: si utilizas un sistema de control como Git, podrás producir un historial de tu documento. A través de este historial tú y tus colaboradores podréis navegar fácilmente por las distintas etapas del documento. 
+* Historial más útil: si utilizas un sistema de control como Git, podrás producir un historial de tu documento. A través de este historial tú y tus colaboradores podréis navegar fácilmente por las distintas etapas del documento.
 
 ### Algunos proyectos académicos que utilizan control de versiones
 
-Utilizar un control de versiones se ha consolidado en algunas disciplinas científicas, aunque su adopción está lejos de ser universal. En las humanidades y en las ciencias sociales, el uso de Git es mucho menos frecuente. Los proyectos que listamos a continuación muestran algunas de las posibilidades del uso de Git en un entorno académico: 
+Utilizar un control de versiones se ha consolidado en algunas disciplinas científicas, aunque su adopción está lejos de ser universal. En las humanidades y en las ciencias sociales, el uso de Git es mucho menos frecuente. Los proyectos que listamos a continuación muestran algunas de las posibilidades del uso de Git en un entorno académico:
 
 * [The Programming Historian en español](https://github.com/programminghistorian/jekyll) utiliza GitHub en su flujo de trabajo para gestionar la [revista](https://github.com/programminghistorian/jekyll/issues), las [lecciones](/es/guia-para-autores) y para producir la [web](/posts/how-we-moved-to-github).
-* [Python Programming for the Humanities](https://github.com/fbkarsdorp/python-course) es un tutorial introductorio sobre el lenguaje de programación Python. 
+* [Python Programming for the Humanities](https://github.com/fbkarsdorp/python-course) es un tutorial introductorio sobre el lenguaje de programación Python.
 * [ProfHacker](http://chronicle.com/blogs/profhacker/tag/github) ha publicado varias entradas de blog sobre proyectos que usan GitHub en un contexto académico.
 
 Nuevos proyectos surgen de manera constante y muchas de las herramientas que utilizas en las humanidades digitales se hospedan en GitHub; por este motivo, GitHub puede ser útil para utilizar con mayor facilidad alguna de estas herramientas.
@@ -113,7 +119,7 @@ GitHub Desktop, la aplicación de escritorio de GitHub, te permitirá empezar a 
 
 ### Una breve nota sobre la terminología
 
-Uno de los aspectos más complejos del uso de GitHub es la terminología. El nombre de algunos de los comandos se entiende fácilmente porque son evidentes, pero otros no tanto. En este tutorial intentaremos explicar brevemente los términos poco comunes. Si te pierdes, puedes consultar el [glosario](https://help.github.com/articles/github-glossary/) de GitHub. Sin embargo, creemos que es mejor ir aprendiendo los términos sobre la marcha, a medida que se utiliza el programa, en lugar de intentar comprender toda la terminología antes de empezar. 
+Uno de los aspectos más complejos del uso de GitHub es la terminología. El nombre de algunos de los comandos se entiende fácilmente porque son evidentes, pero otros no tanto. En este tutorial intentaremos explicar brevemente los términos poco comunes. Si te pierdes, puedes consultar el [glosario](https://help.github.com/articles/github-glossary/) de GitHub. Sin embargo, creemos que es mejor ir aprendiendo los términos sobre la marcha, a medida que se utiliza el programa, en lugar de intentar comprender toda la terminología antes de empezar.
 
 ### Regístrate con una cuenta en GitHub
 
@@ -127,11 +133,11 @@ Te recomendamos que sigas el procedimiento explicado en la [página de instalaci
 
 Los sistemas de control de versiones como Git funcionan mejor con archivos de texto plano. Este tipo de archivos contienen un marcado muy sencillo; por el contrario, los archivos Word (u otros generados con procesadores similares) producen código que no es legible para los humanos. Además, cualquier archivo guardado como '.txt' puede abrirse sin problemas con Word, LibreOffice o Notepad. La portabilidad es la principal ventaja del texto plano pues estos archivos pueden abrirse y ejecutarse en la mayoría de ordenadores.
 
-Pese a las ventajas evidentes de escribir nuestros documentos en texto plano, también debemos señalar algunas limitaciones. Los archivos de texto plano en sí no permiten marcar algunas palabras en *cursiva* o bien con **negrita**; tampoco es posible incluir encabezado o citaciones. Para realizar esto necesitaremos una sintaxis adicional: 'markdown'. 
+Pese a las ventajas evidentes de escribir nuestros documentos en texto plano, también debemos señalar algunas limitaciones. Los archivos de texto plano en sí no permiten marcar algunas palabras en *cursiva* o bien con **negrita**; tampoco es posible incluir encabezado o citaciones. Para realizar esto necesitaremos una sintaxis adicional: 'markdown'.
 
-Con Markdown podremos, pues, dar formato a nuestro texto plano. Seguramente hayas utilizado HTML o LaTex en el pasado. Estos lenguajes de marcado también expresan información sobre el estilo y la estructura del documento. No obstante, el propósito de Markdown es minimizar el marcado, lo cual significa que es más fácil centrarse en el contenido, en la escritura, sin preocuparse en cómo marcar el texto -de ahí el nombre de 'markdown'. 
+Con Markdown podremos, pues, dar formato a nuestro texto plano. Seguramente hayas utilizado HTML o LaTex en el pasado. Estos lenguajes de marcado también expresan información sobre el estilo y la estructura del documento. No obstante, el propósito de Markdown es minimizar el marcado, lo cual significa que es más fácil centrarse en el contenido, en la escritura, sin preocuparse en cómo marcar el texto -de ahí el nombre de 'markdown'.
 
-Esta lección no cubre la sintaxis Markdown por razones de espacio, pero es útil explorar su funcionamiento cuando te sientas cómodo con el control de versiones. Conviene señalar, por otra parte, que GitHub integra una versión propia de la sintaxis Markdown. Si añades la sintaxis Markdown a tus documentos, tu control de versiones gestionado con GitHub Desktop visualizará de manera correcta tu documento en la web. La mejor manera de aprender Markdown es con un poco de práctica. Puedes empezar con nuestra [Introducción a Markdown](/es/lecciones/introduccion-a-markdown) escrita por Sarah Simpkin, o bien con la lección  [Escritura sostenible con Pandoc y Markdown](/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown) escrita por Dennis Tenen y Grant Wythoff. 
+Esta lección no cubre la sintaxis Markdown por razones de espacio, pero es útil explorar su funcionamiento cuando te sientas cómodo con el control de versiones. Conviene señalar, por otra parte, que GitHub integra una versión propia de la sintaxis Markdown. Si añades la sintaxis Markdown a tus documentos, tu control de versiones gestionado con GitHub Desktop visualizará de manera correcta tu documento en la web. La mejor manera de aprender Markdown es con un poco de práctica. Puedes empezar con nuestra [Introducción a Markdown](/es/lecciones/introduccion-a-markdown) escrita por Sarah Simpkin, o bien con la lección  [Escritura sostenible con Pandoc y Markdown](/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown) escrita por Dennis Tenen y Grant Wythoff.
 
 ### Editores de texto
 
@@ -149,7 +155,7 @@ Podemos empezar creando un documento muy sencillo.
 
 Añade este texto (o algo parecido) en documento de texto plano nuevo. ¿Listo? A continuación, guarda el archivo con la extensión '.md'. Esta extensión es la más popular para los archivos markdown aunque a veces es posible utilizar otras. A veces el editor de texto guarda los archivos como Rich Text Format (RTF) por defecto, así que asegúrate de que el archivo se guarda en formato de texto plano un directorio nuevo. Si ocurre esto, puedes cambiarlo en la pestaña preferencias u opciones de tu editor. En cualquier caso, identifica tu archivo y tu directorio con un nombre semánticamente claro. Aunque la extensión utilizada sea'.md', hay que asegurarse de que el archivo es de 'texto plano'. Por lo general, la codificación del documento no será ningún problema una vez te acostumbres a usar el editor de texto.
 
-Para utilizar de manera efectiva el control de versiones de Git, es importante organizar tu proyecto en directorios. Git rastrea el contenido de cada directorio creando un *repositorio* a partir de cada uno de ellos. Un repositorio se compone de todos los archivos que están siendo *controlados* por Git. Lo mejor es crear un directorio para cada proyecto en el que trabajas; por ejemplo, un repositorio para un artículo que estés escribiendo, otro para la composición de tu libro, uno más para el código en desarrollo, etc. Estos directorios son como las carpetas normales y corrientes que tienes en tu ordenador; la única particularidad es que los archivos deben ser añadidos de manera expresa al repositorio para que sean controlados mediante Git. 
+Para utilizar de manera efectiva el control de versiones de Git, es importante organizar tu proyecto en directorios. Git rastrea el contenido de cada directorio creando un *repositorio* a partir de cada uno de ellos. Un repositorio se compone de todos los archivos que están siendo *controlados* por Git. Lo mejor es crear un directorio para cada proyecto en el que trabajas; por ejemplo, un repositorio para un artículo que estés escribiendo, otro para la composición de tu libro, uno más para el código en desarrollo, etc. Estos directorios son como las carpetas normales y corrientes que tienes en tu ordenador; la única particularidad es que los archivos deben ser añadidos de manera expresa al repositorio para que sean controlados mediante Git.
 
 ### Añadir un documento
 
@@ -157,31 +163,31 @@ Hay varias formas de *añadir* un archivo para que GitHub Desktop lo controle. P
 
 {% include figure.html filename="intro-github-1.png" caption="Añade un repositorio" %}
 
-Una vez hemos añadido nuestra carpeta podremos verla en la lista de repositorios situada en la columna izquierda. 
+Una vez hemos añadido nuestra carpeta podremos verla en la lista de repositorios situada en la columna izquierda.
 
 {% include figure.html filename="intro-github-2.png" caption="Añade un repositorio" %}
 
-Si hacemos clic sobre el repositorio que acabamos de añadir, podremos ver los archivos contenidos. En este menú, además, podremos elegir qué archivos queremos rastrear pues a veces trabajamos en proyectos con archivos que no lo requieren. Al lado, a la derecha, se visualizan los documentos.  
+Si hacemos clic sobre el repositorio que acabamos de añadir, podremos ver los archivos contenidos. En este menú, además, podremos elegir qué archivos queremos rastrear pues a veces trabajamos en proyectos con archivos que no lo requieren. Al lado, a la derecha, se visualizan los documentos.
 
 Si seleccionamos mostrar las carpetas ocultas en el directorio que acabamos de añadir a GitHub, podremos ver que contiene una carpeta adicional llamada '.git'. En esta carpeta quedan registrados los cambios producidos en el control de versiones y también si los cambios son modificaciones efectuadas en archivos ya existentes o bien si hemos creado archivos nuevos.
 
-A continuación, volvamos a nuestros documentos y añadamos algo nuevo. 
+A continuación, volvamos a nuestros documentos y añadamos algo nuevo.
 
 ```
 ¡Hola mundo!
 Una línea más
 ```
-Guarda los cambios efectuados y vuelve a GitHub Desktop. Verás que que en el texto aparecen la nueva línea que has añadido; esto quiere decir que GitHub es capaz de percibir los cambios efectuados en el archivo pero aún no han sido registrados en una 'instantánea' en tu repositorio. 
+Guarda los cambios efectuados y vuelve a GitHub Desktop. Verás que que en el texto aparecen la nueva línea que has añadido; esto quiere decir que GitHub es capaz de percibir los cambios efectuados en el archivo pero aún no han sido registrados en una 'instantánea' en tu repositorio.
 
 Para hacer esto debes *anotar* los cambios.
 
-### Anotar cambios  
+### Anotar cambios
 
 Al *anotar* ('commit') un cambio, comunicas a Git que quieres registrar las modificaciones realizadas. Aunque *anotar* puede parecer similar a guardar un archivo, el objetivo es distinto. A menudo guardamos diferentes versiones de un documento; ahora bien, guardar un documento, en realidad, significa que puedes cerrar el archivo y volver a él más tarde y que su estado será el mismo, es decir, no se habrán producido perdidas. *Anotar*, en cambio, implica tomar una instantánea de un archivo en un momento determinado y documentar información sobre los cambios realizados.
 
 {% include figure.html filename="intro-github-3.png" caption="Primera anotación" %}
 
-Para anotar un cambio debes dar un resumen de los cambios y, de manera opcional, incluir un mensaje. Es importante que pienses con cuidado cuándo debes anotar los cambios. El control de versiones solo es útil si anotas los cambios de manera eficiente. A veces tendemos a anotar los cambios solo cuando hemos terminado de trabajar sobre un documento. Sin embargo, esto no refleja los cambios importantes realizados durante todo el proceso. 
+Para anotar un cambio debes dar un resumen de los cambios y, de manera opcional, incluir un mensaje. Es importante que pienses con cuidado cuándo debes anotar los cambios. El control de versiones solo es útil si anotas los cambios de manera eficiente. A veces tendemos a anotar los cambios solo cuando hemos terminado de trabajar sobre un documento. Sin embargo, esto no refleja los cambios importantes realizados durante todo el proceso.
 
 Cuando anotes el cambio verás que aparece el mensaje 'anotar al master'. Esto quiere decir que te refieres a la rama 'master'. En un repositorio Git es posible tener varias ramas. Estas ramas son, en esencia, lugares distintos en los que puedes trabajar. A menudo se utilizan para probar nuevas ideas o trabajar en un aspecto concreto. En principio, no es necesario utilizar crear ramas en GitHub pero quizás quieras aprender de cara al futuro, sobre todo si deseas colaborar con otras personas en un mismo proyecto.
 
@@ -195,22 +201,22 @@ Aunque hay diferencias entre el control de versiones de código y de textos, las
 
 Es importante que tus anotaciones y los mensajes asociados que las describen tengan sentido y sean específicos. Escribir buenas descripciones de las anotaciones requiere reflexión. A veces, los mensajes que para ti son claros en el momento de la anotación se vuelven difíciles de comprender en el futuro. Si vas a utilizar el control de versiones con otras personas es importante que tus colaboradores puedan entenderte. El control de versiones para gestionar cambios en documentos funciona mejor cuando nos esforzamos un poco en pensar cómo utilizamos el programa. Por tanto, cuando se lleva a cabo un trabajo colaborativo es importante aclarar estas cuestiones y compartir una misma visión para usar el control de cambios de manera efectiva.
 
-Una manera de enfrentarse a este problema es intentar seguir un 'estilo de anotaciones'. Por ejemplo, te recomendamos seguir la influyente [sugerencia de Tim Pope](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) cuando realices anotaciones. La sugerencia de Tim Pope [tiene en cuenta](https://github.com/blog/926-shiny-new-commit-styles), parcialmente, la interfaz de GitHub Desktop para anotar cambios y describirlos pero entender el formato te ayudará a poner en práctica su estrategia. El siguiente mensaje es una adaptación de la propuesta de Tim Pope, que se centra en la anotación de texto (en lugar de código): 
+Una manera de enfrentarse a este problema es intentar seguir un 'estilo de anotaciones'. Por ejemplo, te recomendamos seguir la influyente [sugerencia de Tim Pope](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) cuando realices anotaciones. La sugerencia de Tim Pope [tiene en cuenta](https://github.com/blog/926-shiny-new-commit-styles), parcialmente, la interfaz de GitHub Desktop para anotar cambios y describirlos pero entender el formato te ayudará a poner en práctica su estrategia. El siguiente mensaje es una adaptación de la propuesta de Tim Pope, que se centra en la anotación de texto (en lugar de código):
 
 ```
 Breve resumen (50 o menos caracteres) con mayúscula inicial.
 
-Texto más detallado, si es necesario. En algunos contextos, la primera frase puede tratarse como el asunto de un correo electrónico y el resto como el cuerpo del texto. 
+Texto más detallado, si es necesario. En algunos contextos, la primera frase puede tratarse como el asunto de un correo electrónico y el resto como el cuerpo del texto.
 
-Escribe tu mensaje en presente ("Corrige errores" y no "Errores corregidos"). Esta convención sigue el aspecto de las instrucciones ejecutadas con Git. 
+Escribe tu mensaje en presente ("Corrige errores" y no "Errores corregidos"). Esta convención sigue el aspecto de las instrucciones ejecutadas con Git.
 
 Tras algunas líneas en blanco, pueden seguir algunos párrafos.
 
 - las listas son adecuadas.
-- por lo común, un guion o un asterisco simbolizan uno de los ítems de la lista, pero las convenciones pueden variar. 
+- por lo común, un guion o un asterisco simbolizan uno de los ítems de la lista, pero las convenciones pueden variar.
 ```
 
-La interfaz de GitHub Desktop proporciona cierta ayuda para escribir mensajes de esta manera pero es importante que seas consciente del formato sugerido. No siempre será necesario escribir un resumen detallado pero sí es fundamental que tu descripción sea clara y que los cambios realizados, así como las anotaciones, sean modulares. 
+La interfaz de GitHub Desktop proporciona cierta ayuda para escribir mensajes de esta manera pero es importante que seas consciente del formato sugerido. No siempre será necesario escribir un resumen detallado pero sí es fundamental que tu descripción sea clara y que los cambios realizados, así como las anotaciones, sean modulares.
 
 Para ejemplificar esto, a continuación, tienes una anotación descrita en el contexto de una obra escrita:
 
@@ -220,18 +226,18 @@ Reordena la estructura del documento
 Desplaza la sección sobre la metodología después de la sección sobre las fuentes.
 ¿Por qué? Algunas ideas tratadas en la metodología no tienen sentido sin una descripción previa de las fuentes utilizadas.
 ```
-Los mensajes descriptivos que acompañan la edición de una página de Wikipedia o una Wiki son un paralelo a las anotaciones y pueden servirte de modelo para que escribas mensajes fáciles de entender. Cuando escribas estos mensajes debes explicar los cambios que has hecho y por qué los has hecho a fin de que otras personas puedan comprender tu razonamiento. Si tienes en cuenta un destinatario externo (un colaborador y no solo tú), te será más fácil escribir anotaciones claras y con sentido. 
+Los mensajes descriptivos que acompañan la edición de una página de Wikipedia o una Wiki son un paralelo a las anotaciones y pueden servirte de modelo para que escribas mensajes fáciles de entender. Cuando escribas estos mensajes debes explicar los cambios que has hecho y por qué los has hecho a fin de que otras personas puedan comprender tu razonamiento. Si tienes en cuenta un destinatario externo (un colaborador y no solo tú), te será más fácil escribir anotaciones claras y con sentido.
 
 ### Cómo crear un buen repositorio
 
-Las ventajas de utilizar un control de versiones se fundamentan en gran medida en su uso efectivo. Es importante pensar cuándo se hacen las anotaciones y cómo identificar de manera correcta esos cambios cuando se describen con mensajes. Si te esfuerzas en hacer tus anotaciones y mensajes 'modulares', te será más fácil 'moverte' a través del historial de tu repositorio. Un buen repositorio debería permitir comprender los cambios realizados; no solo tú debería entenderlos sino también las personas con las que colabores. 
+Las ventajas de utilizar un control de versiones se fundamentan en gran medida en su uso efectivo. Es importante pensar cuándo se hacen las anotaciones y cómo identificar de manera correcta esos cambios cuando se describen con mensajes. Si te esfuerzas en hacer tus anotaciones y mensajes 'modulares', te será más fácil 'moverte' a través del historial de tu repositorio. Un buen repositorio debería permitir comprender los cambios realizados; no solo tú debería entenderlos sino también las personas con las que colabores.
 
-Existen algunas diferencias entre la administración de un repositorio que contiene principalmente código y otro que contiene texto. En ambos casos, sin embargo, una organización clara y lógica es imprescindible. Aunque no utilices un control de versiones o no pretendas hacer público tus datos, te recomendamos ser siempre organizado con los materiales de tu investigación. Para una introducción a la gestión de los datos de investigación, puedes consultar la lección [Preservar tus datos de investigación](/es/lecciones/preservar-datos-de-investigacion). 
+Existen algunas diferencias entre la administración de un repositorio que contiene principalmente código y otro que contiene texto. En ambos casos, sin embargo, una organización clara y lógica es imprescindible. Aunque no utilices un control de versiones o no pretendas hacer público tus datos, te recomendamos ser siempre organizado con los materiales de tu investigación. Para una introducción a la gestión de los datos de investigación, puedes consultar la lección [Preservar tus datos de investigación](/es/lecciones/preservar-datos-de-investigacion).
 
 ### Cómo publicar tu repositorio
 
 Hasta ahora solo hemos registrado nuestros cambios de manera local. Aunque podríamos estar satisfechos con guardarlos en nuestro ordenador (es importante conservar copias), seguramente queremos subir los archivos a nuestro repositorio de GitHub para hacerlos públicos o bien, simplemente, para tener una copia que no esté alojada en nuestro ordenador. El proceso con GitHub Desktop es muy sencillo y rápido. En GitHub Desktop 'publicas' repositorios; es decir, los **envías** ('push') desde tu ordenador a la web de GitHub. Durante este proceso también creas un repositorio **remoto**.
- 
+
 {% include figure.html filename="intro-github-4.png" caption="Cómo publicar el repositorio" %}
 
 Una vez hayas 'publicado' tu repositorio, será visible en tu perfil de GitHub. Es posible crear un repositorio privado en GitHub pero solo si te registras como [estudiante](https://education.github.com/pack) o [investigador](https://github.com/blog/1840-improving-github-for-science), o bien pagando una [suscripción](https://github.com/pricing). Si no te has registrado como estudiante o investigador, solo podrás crear un repositorio privado cuando pagues por una suscripción. Por eso, a menos que quieras pagar, puedes ignorar la sección 'Información sobre la compra'. En esta sección, será suficiente con publicar un repositorio abierto. Para acceder a tu repositorio en línea, en el menú puedes hacer clic sobre 'Repository' ('Repositorio') y luego elegir 'View on GitHub' (es decir, 'Ver en GitHub'). Al hacer esto, se abrirá una ventana en tu navegador con tu repositorio en línea.
@@ -250,7 +256,7 @@ También es posible realizar cambios en tu repositorio a través de la  interfaz
 
 {% include figure.html filename="intro-github-7.png" caption="Vista de tu documento en línea" %}
 
-(Nota: puede parecer extraño que todo lo que has escrito aparezca en una línea, cuando tu archivo local tenía dos líneas. Esto se debe a que en Markdown, los párrafos deben marcarse dejando una línea en blanco; así pues, dos líneas consecutivas son interpretadas como un solo párrafo. Si hubiéramos utilizado la extensión '.txt', tendríamos un salto de línea aquí, pero con la extensión '.md' estamos indicando a GitHub que visualice el documento según las normas de Markdown. Esta es otra razón por la que utilizar un editor apto para Markdown puede serte útil para visualizar el formato). 
+(Nota: puede parecer extraño que todo lo que has escrito aparezca en una línea, cuando tu archivo local tenía dos líneas. Esto se debe a que en Markdown, los párrafos deben marcarse dejando una línea en blanco; así pues, dos líneas consecutivas son interpretadas como un solo párrafo. Si hubiéramos utilizado la extensión '.txt', tendríamos un salto de línea aquí, pero con la extensión '.md' estamos indicando a GitHub que visualice el documento según las normas de Markdown. Esta es otra razón por la que utilizar un editor apto para Markdown puede serte útil para visualizar el formato).
 
 La interfaz web ofrece otras opciones. Por ejemplo, puedes visualizar los cambios en el historial, puedes abrir el documento en GitHub Desktop, o bien puedes eliminarlo. Encontrarás más opciones junto a la opción 'code' ('código'). Estas opciones no son importantes ahora mismo, al principio, pero quizás la uses en el futuro. A continuación, intentaremos editar un documento en la interfaz web y sincronizar los cambios con nuestro repositorio local.
 
@@ -319,8 +325,8 @@ Asimismo, el flujo de trabajo presentado en esta lección también puede convert
 GitHub Desktop es una forma sencilla de aprender a controlar versiones con GitHub. En función de tus necesidades, GitHub será suficiente. Ahora bien, si ya conoces el funcionamiento de la línea de comandos, utilizar Git puede tener más ventajas. Los controles de versiones como Git ofrecen muchas más opciones; algunos tienen un uso concreto mientras que otros se pueden utilizar de manera más generalizable. Como complemento a esta lección, te sugerimos una serie de recursos que pueden ayudarte a mejorar tu comprensión del control de versiones.
 
 
-* GitHub ofrece ayuda a través de sus [guías](https://guides.github.com/) y [ayuda](https://help.github.com/). 
-* El [Glosario de GitHub](https://help.github.com/articles/github-glossary/) explica la terminología más frecuente en Git. 
+* GitHub ofrece ayuda a través de sus [guías](https://guides.github.com/) y [ayuda](https://help.github.com/).
+* El [Glosario de GitHub](https://help.github.com/articles/github-glossary/) explica la terminología más frecuente en Git.
 * [Atlassian](https://www.atlassian.com/git/tutorials): contiene tutoriales más avanzados (pero fáciles de entender) de Git. Ponen el acento en las diferencias entre Git y otros controles de versiones; esto puede no ser relevante para ti pero te ayudará a comprender el funcionamiento de Git de manera más detallada.
 * [Pro Git](https://git-scm.com/book/en/v2): un libro exclusivamente sobre Git. Empieza con el funcionamiento básico y luego pasa a tratar asuntos más avanzados de Git.
 * Para [estudiantes](https://education.github.com/pack) e [investigadores](https://github.com/blog/1840-improving-github-for-science) GitHub ofrece repositorios privados sin pagar por una suscripción. Estos repositorios pueden ser útiles para borradores o notas que no queremos publicar. Nota: no es muy aconsejable guardar contenido delicado incluso en un repositorio privado en GitHub.
