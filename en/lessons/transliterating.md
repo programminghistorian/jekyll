@@ -61,23 +61,6 @@ used in texts. Finally, transliteration can be more practical for
 authors who can type more fluently with Latin letters than in the native
 alphabet of a language that does not use Latin characters.
 
-Programming languages like Python also benefit from transliteration.
-Python handles Cyrillic relatively well in certain environments, like
-[Terminal][] for MacOS or Linux, or in Windows, [IDLE][], the official
-Python integrated development environment. However, even in these Python
-converts non-ASCII characters into code. Other environments, like the
-Python shell for Windows (command line) or [Komodo Edit][], know Unicode
-but will not print the Cyrillic characters that Unicode represents
-without tricky additional configuration. In environments that do support
-Cyrillic, switching between a Latin character set to write code and a
-non-Latin character set to handle inputs can be tedious. Thus, creating
-a program to transliterate evidence automatically eliminates the step of
-transliteration for researchers and it converts the text into a format
-that Python can handle more readily. **This lesson was built and tested
-using IDLE for Windows and Terminal for MacOS. The author strongly
-recommends that you follow along using the program tested on your
-operating system rather Windows Command Prompt or Komodo Edit.**
-
 This lesson will be particularly useful for research in fields that use
 a standardized transliteration format, such as Russian history field,
 where the convention is to use a simplified version of the American
@@ -125,17 +108,17 @@ our purposes, what is important is that the encoding is stored under the
 
 ``` python
 #transliterator.py
-import urllib2
+from urllib.request import urlopen
 
-page = urllib2.urlopen('http://lists.memo.ru/d1/f1.htm')
+page = urlopen('http://lists.memo.ru/d1/f1.htm')
 
 #what is the encoding?
-print page.headers['content-type']
+print(page.headers['content-type'])
 ```
 
 Under the ‘content-type’ key we find this information:
 
-``` python
+```
 text/html; charset=windows-1251
 ```
 
@@ -144,7 +127,7 @@ accessed is in HTML and that its encoding (after ‘charset=’, meaning
 character set) is ‘windows-1251′, a common encoding for Cyrillic
 characters. You can visit the webpage and view the Page Source and see
 for yourself that the first line does in fact contain a ‘content-type’
-variable with the value text/html; charset=windows-1251. It would not be
+variable with the value `text/html; charset=windows-1251`. It would not be
 so hard to work with the ‘windows-1251′ encoding. However,
 ‘windows-1251′ is specifically for Cyrillic and will not handle all
 languages. For the sake of learning a standard method, what we want is
@@ -157,7 +140,7 @@ allow.
 
 How do you convert the characters to Unicode? First, Python needs to
 know the original encoding of the source, ‘windows-1251.’ We could just
-assign ‘windows-1251′ to a variable by typing it manually but the
+assign ‘windows-1251’ to a variable by typing it manually but the
 encoding may not always be ‘windows-1251.’ There are other character
 sets for Cyrillic, not to mention other languages. Let’s find a way to
 make the process more automatic for those cases. It helps that the
@@ -179,9 +162,10 @@ encoding = page.headers['content-type'].split('charset=')[1]
 The encoding is assigned to the variable called ‘*encoding*’. You can
 check to see if this worked by printing the ‘*encoding*’ variable. Now we
 can tell Python how to read the page as Unicode. Using the
-`unicode(object [, encoding])` method turns a string of characters into a
-Unicode object. A Unicode object is similar to a string but it can
-contain special characters. If they are in a non-ASCII character set,
+`str(object [, encoding])` method turns a text encoded in a specific encoding
+into a generic Unicode string. A Unicode string cannot only contain ASCII 
+characters, but also
+special characters. If the original text is in a non-ASCII character set,
 like here with ‘windows-1251’, we have to use the optional encoding
 parameter.
 
@@ -190,44 +174,32 @@ parameter.
 content = page.read()
 
 # the unicode method tries to use ASCII so we need to tell it the encoding
-content = unicode(content, encoding)
+content = str(content, encoding)
 content[200:300]
 ```
 
- 
-
 ``` python
-u'"list-right">\r\n
-<ul>
-    <li>
-<p class="name"><a name="n1"></a>\u0410-\u0410\u043a\u0443 \u0422\u0443\u043b\u0438\u043a\u043e\u0432\u0438\u0447</p>
-<p class="cont">\r\n\u0420\u043e\u0434\u0438\u043b\u0441\u044f\xa0\u0432 '</p>
+'"list-right">\r\n<li><p class="name"><a name="n1"></a>А-Аку Туликович </p><p class="cont">\r\nРодился\xa0в '
 ```
 
-In some editors like Komodo, printing even Unicode will raise an error.
-Indeed, the inability of some Python environments to print Unicode out
-of the box is one big advantage of transliterating it into ASCII. In
-IDLE, though, we can print this content to see it in Cyrillic rather
-than Unicode:
+As you can see, the Cyrillic characters are mixed with the ASCII characters
+of the HTML code. But typing these can be cumbersome without a corresponding
+keyboard layout. Alternatively, the Unicode characters can be typed using 
+special codes that represent the characters using their Unicode number.
+You can see the text as represented by Unicode numbers using the special ‘*unicode-escape*’ encoding:
 
 ``` python
-# see what happens when Python prints Unicode
-print content[200:300]
+# print string using unicode escape sequences
+print(content[200:300].encode('unicode-escape'))
 ```
 
- 
-
-``` python
-"list-right">
-<ul>
-    <li>
-<p class="name"><a name="n1"></a>А-Аку Туликович</p>
-Родился в
+```
+b'"list-right">\\r\\n<li><p class="name"><a name="n1"></a>\\u0410-\\u0410\\u043a\\u0443 \\u0422\\u0443\\u043b\\u0438\\u043a\\u043e\\u0432\\u0438\\u0447 </p><p class="cont">\\r\\n\\u0420\\u043e\\u0434\\u0438\\u043b\\u0441\\u044f\\xa0\\u0432 '
 ```
 
-Excellent - the web page is now converted to Unicode. All the
+All the
 ‘\\u0420’-type marks are Unicode and Python knows that they code to
-Cyrillic characters. The forward slash is called an ‘*escape character*’
+Cyrillic characters. The backslash is called an ‘*escape character*’
 and allows Python to do things like use special characters in Unicode or
 signify a line break (‘`\n`’) in a document. Each counts as just one
 character. Now we can create a Python *dictionary* that will act as the
@@ -242,7 +214,7 @@ string or other object – even another dictionary. (See also the lesson
 
 ``` python
 my_dictionary = {'Vladimir': 'Putin', 'Boris': 'Yeltsin'}
-print my_dictionary['Vladimir']
+print(my_dictionary['Vladimir'])
 
 > Putin
 ```
@@ -265,12 +237,12 @@ table. The Unicode value for the Russian letter “Ж” is 0416 and it
 transliterates to the Latin characters “Zh.” Python needs more than just
 the Unicode identifier. It also needs to know to look out for a Unicode
 character. Therefore all the Unicode characters used in the dictionary
-should be in the format u’\\uXXXX’. In this case, the letter Ж is
-u’\\u0416’. We can create a transliteration dictionary and assign ‘Zh’
-as the value for the key u’\\u0416’ in it.
+should be in the format `'\uXXXX'`. In this case, the letter Ж is
+`'\u0416'`. We can create a transliteration dictionary and assign ‘Zh’
+as the value for the key `'\u0416'` in it.
 
 ``` python
-cyrillic_translit = { u'\u0416': 'Zh'}
+cyrillic_translit = { '\u0416': 'Zh'}
 ```
 
 As it turns out, lowercase Cyrillic letters in Unicode have the same
@@ -280,7 +252,7 @@ transliteration dictionary created, we just add a dictionary key-value
 pair.
 
 ``` python
-cyrillic_translit[u'\u0436'] = 'zh'
+cyrillic_translit['\u0436'] = 'zh'
 ```
 
 Of course, rather than do each pair one by one, it would probably be
@@ -288,38 +260,38 @@ easier to write the dictionary in a Python module or paste it in from a
 word processor. The full Cyrillic transliteration dictionary is here:
 
 ``` python
-cyrillic_translit={u'\u0410': 'A', u'\u0430': 'a',
-u'\u0411': 'B', u'\u0431': 'b',
-u'\u0412': 'V', u'\u0432': 'v',
-u'\u0413': 'G', u'\u0433': 'g',
-u'\u0414': 'D', u'\u0434': 'd',
-u'\u0415': 'E', u'\u0435': 'e',
-u'\u0416': 'Zh', u'\u0436': 'zh',
-u'\u0417': 'Z', u'\u0437': 'z',
-u'\u0418': 'I', u'\u0438': 'i',
-u'\u0419': 'I', u'\u0439': 'i',
-u'\u041a': 'K', u'\u043a': 'k',
-u'\u041b': 'L', u'\u043b': 'l',
-u'\u041c': 'M', u'\u043c': 'm',
-u'\u041d': 'N', u'\u043d': 'n',
-u'\u041e': 'O', u'\u043e': 'o',
-u'\u041f': 'P', u'\u043f': 'p',
-u'\u0420': 'R', u'\u0440': 'r',
-u'\u0421': 'S', u'\u0441': 's',
-u'\u0422': 'T', u'\u0442': 't',
-u'\u0423': 'U', u'\u0443': 'u',
-u'\u0424': 'F', u'\u0444': 'f',
-u'\u0425': 'Kh', u'\u0445': 'kh',
-u'\u0426': 'Ts', u'\u0446': 'ts',
-u'\u0427': 'Ch', u'\u0447': 'ch',
-u'\u0428': 'Sh', u'\u0448': 'sh',
-u'\u0429': 'Shch', u'\u0449': 'shch',
-u'\u042a': '"', u'\u044a': '"',
-u'\u042b': 'Y', u'\u044b': 'y',
-u'\u042c': "'", u'\u044c': "'",
-u'\u042d': 'E', u'\u044d': 'e',
-u'\u042e': 'Iu', u'\u044e': 'iu',
-u'\u042f': 'Ia', u'\u044f': 'ia'}
+cyrillic_translit={'\u0410': 'A', '\u0430': 'a',
+'\u0411': 'B', '\u0431': 'b',
+'\u0412': 'V', '\u0432': 'v',
+'\u0413': 'G', '\u0433': 'g',
+'\u0414': 'D', '\u0434': 'd',
+'\u0415': 'E', '\u0435': 'e',
+'\u0416': 'Zh', '\u0436': 'zh',
+'\u0417': 'Z', '\u0437': 'z',
+'\u0418': 'I', '\u0438': 'i',
+'\u0419': 'I', '\u0439': 'i',
+'\u041a': 'K', '\u043a': 'k',
+'\u041b': 'L', '\u043b': 'l',
+'\u041c': 'M', '\u043c': 'm',
+'\u041d': 'N', '\u043d': 'n',
+'\u041e': 'O', '\u043e': 'o',
+'\u041f': 'P', '\u043f': 'p',
+'\u0420': 'R', '\u0440': 'r',
+'\u0421': 'S', '\u0441': 's',
+'\u0422': 'T', '\u0442': 't',
+'\u0423': 'U', '\u0443': 'u',
+'\u0424': 'F', '\u0444': 'f',
+'\u0425': 'Kh', '\u0445': 'kh',
+'\u0426': 'Ts', '\u0446': 'ts',
+'\u0427': 'Ch', '\u0447': 'ch',
+'\u0428': 'Sh', '\u0448': 'sh',
+'\u0429': 'Shch', '\u0449': 'shch',
+'\u042a': '"', '\u044a': '"',
+'\u042b': 'Y', '\u044b': 'y',
+'\u042c': "'", '\u044c': "'",
+'\u042d': 'E', '\u044d': 'e',
+'\u042e': 'Iu', '\u044e': 'iu',
+'\u042f': 'Ia', '\u044f': 'ia'}
 ```
 
 Now that we have the transliteration dictionary, we can simply loop
@@ -352,10 +324,7 @@ converted_content[200:310]
 Here is what we end up with:
 
 ``` python
-u'="list-right">\r\n</li>
-    <li>
-<p class="name"><a name="n1"></a>A-Aku Tulikovich</p>
-<p class="cont">\r\nRodilsia\xa0v 1913 g.'</p>
+'="list-right">\r\n<li><p class="name"><a name="n1"></a>A-Aku Tulikovich </p><p class="cont">\r\nRodilsia\xa0v 1913 g.'
 ```
 
 Still not perfect. Python did not convert the special character ‘\\xa0′
@@ -367,12 +336,12 @@ print it:
 
 ``` python
 #let's find out what u'\xa0' is
-print u'\xa0'
+print('\xa0')
 
 #it's not nothing but a non-breaking space
 #it would be better if our transliteration dictionary could change it into a space
 
-cyrillic_translit[u'\xa0'] = ' '
+cyrillic_translit['\xa0'] = ' '
 ```
 
 With this fix, all the Cyrillic and special characters are gone, making
@@ -399,40 +368,24 @@ is the first bit of HTML from the converted\_content string, containing
 parts of two database entries:
 
 ``` python
-converted_content[200:1000]
+print(converted_content[200:1000])
 ```
 
 This code prints out characters 200 to 1000 of the HTML, which happens
 to include the entire first entry and the beginning of the second:
 
-``` python
-u'="list-right">\r\n</li>
-    <li>
-<p class="name"><a name="n1"></a>A-Aku Tulikovich</p>
-<p</li>
-    <li>class="cont">\r\nRodilsia v 1913 g., Kamchatskaia gub., Tigil\'skii r-n, stoibishsha Utkholok; koriak-kochevnik; malogramotnyi; b/p; \r\n\r\n
-Arestovan12 noiabria 1938 g.\r\n
-Prigovoren: Koriakskii okrsud 8 aprelia 1939 g., ob</li>
-</ul>
- 
+```
+="list-right">
+<li><p class="name"><a name="n1"></a>A-Aku Tulikovich </p><p class="cont">
+Rodilsia v 1913 g., Kamchatskaia gub., Tigil'skii r-n, stoibishcha Utkholok; koriak-kochevnik;  malogramotnyi; b/p; 
 
-v.: po st. 58-2-8-9-10-11 UK RSFSR.\r\n
-Prigovor: 20 let. Opredeleniem Voen
-
-noi kollegii VS SSSR ot 17 oktiabria 1939 g. mera snizhena do 10 let.\r\nReabili
-
-tirovan 15 marta 1958 g. Reabilitirovan opredeleniem Voennoi kollegii VS SSSR\r\
-
-n
-<p class="author">Istochnik: Baza dannykh o zhertvakh repressii Kamchatskoi</p>
-obl.
-<ul>
-    <li>\r\n</li>
-    <li>
-<p class="name"><a name="n2"></a>Aab Avgust Mikhailovich</p>
-p>
-<p class="cont">\r\nRodilsia v 1899 g., Saratovskaia obl., Grimm s.; nemets;</p>
-obrazovanie nachal\'noe;'
+<br />Arestovan  12 noiabria 1938 g.
+<br />Prigovoren: Koriakskii okrsud 8 aprelia 1939 g., obv.: po st. 58-2-8-9-10-11 UK RSFSR.
+<br />Prigovor: 20 let. Opredeleniem Voennoi kollegii VS SSSR ot 17 oktiabria 1939 g. mera snizhena do 10 let.
+Reabilitirovan 15 marta 1958 g. Reabilitirovan opredeleniem Voennoi kollegii VS SSSR
+</p><p class="author">Istochnik: Baza dannykh o zhertvakh repressii Kamchatskoi obl.</p></li>
+<li><p class="name"><a name="n2"></a>Aab Avgust Mikhailovich</p><p class="cont">
+Rodilsia v 1899 g., Saratovskaia obl., Grimm s.; nemets;  obrazovanie nachal'noe;
 ```
 
 Each entry includes lots of information: name (last, first and
@@ -459,7 +412,7 @@ The lesson “[Intro to Beautiful Soup][]” teaches how to grab sections of
 a web page by their tags. But we can also select sections of the page by
 *attributes*, HTML code that modifies elements. Looking at the HTML from
 this page, notice that the text of our names are enclosed in the tag
- \<p class=“name”\>. The class attribute allows the page’s [Cascading
+ `<p class="name">`. The class attribute allows the page’s [Cascading
 Style Sheets][] (CSS) settings to change the look of all elements that
 share the “name” *class* at once. CSS itself is an important tool for web
 designers. For those interested in learning more on this aspect of CSS,
@@ -472,12 +425,12 @@ What we want is to get the elements where the class attribute’s value is
 select parts of the page using the same syntax as HTML. The class
 attribute makes things a little tricky because Python uses “class” to
 define new types of objects. Beautiful Soup gets around this by making
-us search for class followed by an underscore: `class_=“value”`.
+us search for class followed by an underscore: `class_="value"`.
 Beautiful Soup objects’ `.find_all()` method will generate a Python list
 of Beautiful Soup objects that match the HTML tags or attributes set as
 *parameters*. The method `.get_text()` extracts just the text from
 Beautiful Soup objects, so
-`“ <p class=“name”><a name=“n1”></a>A-Aku Tulikovich</p> “.get_text()`
+`" <p class="name"><a name="n1"></a>A-Aku Tulikovich</p> ".get_text()`
 will become “*A-Aku Tulikovich*”. We need to use `.get_text()` on each
 item in the list, then append it to a new list containing just the
 names:
@@ -503,18 +456,8 @@ len(names)
 #see the first twenty names in the list
 names[:20]
 
-> [u'A-Aku Tulikovich ', u'Aab Avgust Mikhailovich', u'Aab Avgust Khristianovich', u'Aab Aleksandr Aleksandrovich', u"Aab Aleksandr Khrist'ianovich", u"Aab Al'bert Viktorovich", u"Aab Al'brekht Aleksandrovich", u'Aab Amaliia Andreevna', u'Aab Amaliia Ivanovna', u'Aab Angelina Andreevna', u'Aab Andrei Andreevich', u'Aab Andrei Filippovich', u'Aab Arvid Karlovich', u"Aab Arnol'd Aleksandrovich", u'Aab Artur Avgustovich', u"Aab Artur Vil'gel'movich", u"Aab Aelita Arnol'dovna", u'Aab Viktor Aleksandrovich', u'Aab Viktor Aleksandrovich', u"Aab Viktor Vil'gel'movich"]
+> ['A-Aku Tulikovich ', 'Aab Avgust Mikhailovich', 'Aab Avgust Khristianovich', 'Aab Aleksandr Aleksandrovich', "Aab Aleksandr Khrist'ianovich", "Aab Al'bert Viktorovich", "Aab Al'brekht Aleksandrovich", 'Aab Amaliia Andreevna', 'Aab Amaliia Ivanovna', 'Aab Angelina Andreevna', 'Aab Andrei Andreevich', 'Aab Andrei Filippovich', 'Aab Arvid Karlovich', "Aab Arnol'd Aleksandrovich", 'Aab Artur Avgustovich', "Aab Artur Vil'gel'movich", "Aab Aelita Arnol'dovna", 'Aab Viktor Aleksandrovich', 'Aab Viktor Aleksandrovich', "Aab Viktor Vil'gel'movich"]
 ```
-
-The ‘u’ in front of each of the names indicates that they are *unicode*
-*objects* in Python, not *strings*. But when Python needs a string, it will
-automatically change any unicode to be a string if it only uses ASCII
-characters or else throw a “unicodedecode error”. Fortunately, because
-we have transliterated all the Cyrillic characters, this list fits
-Python’s needs. If we had not parsed the transliterated page, that would
-be easy to handle with the transliterate function from earlier. All it
-would take is to use the transliterate function on the text from each
-item in the list before appending it to the final list.
 
 Transliteration can only do so much. Except for proper names, it can
 tell you little about the content of the source being transliterated.

@@ -23,6 +23,7 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Shawn Graham, Ian Milligan et Scott Weingart, [_Exploring Big Historical Data: The Historian's Macroscope_](http://www.themacroscope.org/2.0/), (Imperial College Press, 2015).
 
 ## Ateliers et manifestations
+* Adam Crymble, 'Python for Humanists', University of London, United Kingdom (31 octobre 2019).
 * Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 October 2018).
 * Adam Crymble, Maria José Afanador Llach, José Antonio Motilla, 'Digital Humanities Skills for Latin American Scholarship', Université de los Andes, Bogotá, Colombie (1-3 août 2018) - a reçu le financement de la British Academy.
 * Victor Gayol, 'Introducción a las Ciencias Sociales y Humanidades Digitales. The Programming Historian en español – COLMICH', El Colegio de Michoacán (septembre 2017)

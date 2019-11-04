@@ -7,6 +7,7 @@ authors:
 - Adam Crymble
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 editors:
 - Miriam Posner
 difficulty: 2
@@ -17,7 +18,7 @@ topics: [python]
 abstract: "This lesson builds on 'Keywords in Context (Using N-grams)', where n-grams were extracted from a text. Here, you will learn how to output all of the n-grams of a given keyword in a document downloaded from the Internet, and display them clearly in your browser window."
 next: downloading-multiple-records-using-query-strings
 previous: keywords-in-context-using-n-grams
-python_warning: true
+python_warning: false
 redirect_from: /lessons/output-keywords-in-context-in-html-file
 ---
 
@@ -198,6 +199,7 @@ manipulate the slice method is a powerful skill for a new programming
 historian.
 
 ``` python
+# ParseError: Could not check this chunk!
 # calculate the length of the n-gram
 kwic = 'amongst them a black there was one'.split()
 n = len(kwic)
@@ -230,6 +232,7 @@ separated by blank spaces. We’ll use the `join` method to turn the list
 entries into a string.
 
 ``` python
+# ParseError: Could not check this chunk!
 print(' '.join(kwic[(keyindex+1):]))
 -> there was one
 ```
@@ -310,7 +313,7 @@ worddict = obo.nGramsToKWICDict(ngrams)
 # output KWIC and wrap with html
 target = 'black'
 outstr = '<pre>'
-if worddict.has_key(target):
+if target in worddict:
     for k in worddict[target]:
         outstr += obo.prettyPrintKWIC(k)
         outstr += '<br />'

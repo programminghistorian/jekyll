@@ -7,6 +7,7 @@ authors:
 reviewers:
 - Luke Bergmann
 - Sharon Howard
+- Frederik Elwert
 editors:
 - Fred Gibbs
 difficulty: 2
@@ -16,7 +17,7 @@ activity: acquiring
 topics: [web-scraping]
 abstract: "Downloading a single record from a website is easy, but downloading many records at a time – an increasingly frequent need for a historian – is much more efficient using a programming language such as Python. In this lesson, we will write a program that will download a series of records from the Old Bailey Online using custom search criteria, and save them to a directory on our computer."
 previous: output-keywords-in-context-in-html-file
-python_warning: true
+python_warning: false
 redirect_from: /lessons/downloading-multiple-records-using-query-strings
 ---
 
@@ -129,7 +130,7 @@ Bailey website, a method common to many online databases and websites.
 Take a look at the URL produced with the last search results page. It
 should look like this:
 
-``` xml
+```
 https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper_trialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0 
 ```
 
@@ -138,7 +139,7 @@ more complex. Although longer, it is actually *not* that much more
 complex. But it is easier to understand by noticing how our search
 criteria get represented in the URL.
 
-``` xml
+```
 https://www.oldbaileyonline.org/search.jsp
 ?gen=1
 &form=searchHomePage
@@ -242,7 +243,7 @@ First we need to generate the URLs for downloading each search results
 page. We have already got the first one by using the form on the
 website:
 
-``` xml
+```
 https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper_trialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0 
 ```
 
@@ -254,9 +255,10 @@ function to a module named `obo.py` (create a file with that name and save it to
 help you decipher the various parts.
 
 ``` python
+# obo.py
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth):
 
-    import urllib2
+    import urllib.request
 
     startValue = 0
 
@@ -273,10 +275,10 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth):
     url += '&count=0'
 
     #download the page and save the result.
-    response = urllib2.urlopen(url)
+    response = urllib.request.urlopen(url)
     webContent = response.read()
     filename = 'search-result'
-    f = open(filename + ".html", 'w')
+    f = open(filename + ".html", 'wb')
     f.write(webContent)
     f.close
 ```
@@ -312,7 +314,7 @@ need to download. We will use the value of entries and some simple math
 to determine how many search results pages there are. This is fairly
 straightforward since we know there are ten trial transcripts listed per
 page. We can calculate the number of search results pages by dividing
-the value of entries by 10. We will save this result to an integer
+the value of entries by 10. We will save this result to a
 variable named `pageCount`. It looks like this:
 
 ``` python
@@ -320,8 +322,8 @@ variable named `pageCount`. It looks like this:
 pageCount = entries / 10
 ```
 
-However, because `pageCount` is an integer and cannot have decimal places
-or remainders, Python will drop the remainder. You can test this by
+However, in cases where the number of entries is not a multiple of 10,
+this will result in a decimal number. You can test this by
 running this code in your Terminal (Mac & Linux) / Python Command Line
 (Windows) and printing out the value held in `pageCount`. (Note, from here
 on, we will use the word Terminal to refer to this program).
@@ -330,25 +332,18 @@ on, we will use the word Terminal to refer to this program).
 entries = 13
 pageCount = entries / 10
 print(pageCount)
--> 1
+-> 1.3
 ```
 
-We know this should read 2 (one page containing entries 1-10, and one
-page containing entries 11-13). Since there is a remainder to this
-problem (of 3, but it doesn’t matter what the remainder is), the last 3
-results won’t be downloaded, as we’ll only grab 1 page of 10 results. To
-get around this problem we use the [modulo][] operator (%) in place of
-the usual division operator (/). Modulo divides the first value by the
-second and returns the remainder. So if the remainder is more than 0, we
-know there is a partial page of results, and we need to increase the
-`pageCount` value by one. The code should now look like this:
+We know the page count should be 2 (one page containing entries 1-10, and one
+page containing entries 11-13). Since we always want the next higher integer,
+we can round up the result of the division.
 
 ``` python
 #determine how many files need to be downloaded.
+import math
 pageCount = entries / 10
-remainder = entries % 10
-if remainder > 0:
-    pageCount += 1
+pageCount = math.ceil(pageCount)
 ```
 
 If we add this to our `getSearchResults` function just under the
@@ -439,15 +434,13 @@ The finished function code in your `obo.py` file should look like this:
 #create URLs for search results pages and save the files
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entries):
 
-    import urllib2
+    import urllib.request, math
 
     startValue = 0
 
     #this is new! Determine how many files need to be downloaded.
     pageCount = entries / 10
-    remainder = entries % 10
-    if remainder > 0:
-        pageCount += 1
+    pageCount = math.ceil(pageCount)
 
     #this line is new!
     for pages in range(1, pageCount +1):
@@ -463,12 +456,12 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         url += '&toMonth=' + toMonth
         url += '&start=' + str(startValue)
         url += '&count=0'
-    
+
         #download the page and save the result.
-        response = urllib2.urlopen(url)
+        response = urllib.request.urlopen(url)
         webContent = response.read()
         filename = 'search-result' + str(startValue)
-        f = open(filename + ".html", 'w')
+        f = open(filename + ".html", 'wb')
         f.write(webContent)
         f.close
 
@@ -494,19 +487,9 @@ onto the next step in the algorithm, let’s take care of some
 housekeeping. Our `programming-historian` directory will quickly become
 unwieldy if we download multiple search results pages and trial
 transcripts. Let’s have Python make a new directory named after our
-search terms. Study and then copy the following to `obo.py`.
+search terms.
 
-``` python
-def newDir(newDir):
-    import os
-
-    dir = newDir
-
-    if not os.path.exists(dir):
-        os.makedirs(dir)
-```
-
-We want to call this new function in `getSearchResults`, so that our
+We want to add this new functionality in `getSearchResults`, so that our
 search results pages are downloaded to a directory with the same name as
 our search query. This will keep our `programming-historian` directory
 more organized. To do this we will create a new directory using the `os`
@@ -532,15 +515,15 @@ directory from your hard drive, since it was just for practice. Since we
 want to create a new directory named after the query that we input into
 the Old Bailey Online website, we will make direct use of the query
 function argument from the getSearchResults function. To do this, import
-the `os` directory after you have imported `urllib2` and then add the
-code you have just written immediately below. Your getSearchResults
+the `os` library after the others and then add the
+code you have just written immediately below. Your `getSearchResults`
 function should now look like this:
 
 ``` python
 #create URLs for search results pages and save the files
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entries):
 
-    import urllib2, os
+    import urllib.request, math, os
 
     #This line is new! Create a new directory
     if not os.path.exists(query):
@@ -550,9 +533,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 
     #Determine how many files need to be downloaded.
     pageCount = entries / 10
-    remainder = entries % 10
-    if remainder > 0:
-        pageCount += 1
+    pageCount = math.ceil(pageCount)
 
     for pages in range(1, pageCount +1):
 
@@ -567,15 +548,15 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         url += '&toMonth=' + toMonth
         url += '&start=' + str(startValue)
         url += '&count=0'
-    
+
         #download the page and save the result.
-        response = urllib2.urlopen(url)
+        response = urllib.request.urlopen(url)
         webContent = response.read()
 
         #save the result to the new directory
         filename = 'search-result' + str(startValue)
 
-        f = open(filename + ".html", 'w')
+        f = open(filename + ".html", 'wb')
         f.write(webContent)
         f.close
 
@@ -599,7 +580,7 @@ your `getSearchResults` page in lieu of the current `filename` description.
 
 If you are running Windows, chances are your `downloadSearches.py`
 program will now crash when you run it because you are trying to create
-a director with a \* in it. Windows does not like this. To get around
+a directory with a \* in it. Windows does not like this. To get around
 this problem we can use [regular expressions][] to remove any
 non-Windows-friendly characters. We used regular expressions previously
 in [Counting Frequencies][]. To remove non-alpha-numeric characters from
@@ -610,10 +591,10 @@ characters. You will then have to substitute `cleanQuery` as the variable
 used in the `os.path.exists()`, `os.makedirs()`, and `filename` declarations.
 
 ``` python
-import urllib2, os, re
+import urllib.request, math, os, re
 cleanQuery = re.sub(r'\W+', '', query)
 if not os.path.exists(cleanQuery):
-        os.makedirs(cleanQuery)
+    os.makedirs(cleanQuery)
 
 ...
 
@@ -626,23 +607,19 @@ The final version of your function should look like this:
 #create URLs for search results pages and save the files
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entries):
 
-    import urllib2, os, re
+    import urllib.request, math, os, re
 
     cleanQuery = re.sub(r'\W+', '', query)
-
-    #Create a new directory
     if not os.path.exists(cleanQuery):
         os.makedirs(cleanQuery)
 
     startValue = 0
 
-    #determine how many files need to be downloaded.
+    # Determine how many files need to be downloaded.
     pageCount = entries / 10
-    remainder = entries % 10
-    if remainder > 0:
-        pageCount += 1
+    pageCount = math.ceil(pageCount)
 
-    for pages in range(1, pageCount+1):
+    for pages in range(1, pageCount +1):
 
         #each part of the URL. Split up to be easier to read.
         url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
@@ -657,12 +634,10 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         url += '&count=0'
 
         #download the page and save the result.
-        response = urllib2.urlopen(url)
+        response = urllib.request.urlopen(url)
         webContent = response.read()
-
-        #save the result to the new directory
         filename = cleanQuery + '/' + 'search-result' + str(startValue)
-        f = open(filename + ".html", 'w')
+        f = open(filename + ".html", 'wb')
         f.write(webContent)
         f.close
 
@@ -686,7 +661,7 @@ the trial transcripts, so we will continue to do so. We know that the
 printer friendly version of Benjamin Bowsey’s trial is located at the
 URL:
 
-``` xml
+```
 http://www.oldbaileyonline.org/print.jsp?div=t17800628-33
 ```
 
@@ -710,8 +685,8 @@ the trials. The first entry starts with “Anne Smith” so you can use the
 “find” feature in Komodo Edit to jump immediately to the right spot.
 Notice Anne’s name is part of a link:
 
-``` xml
-browse.jsp?id=t17160113-18&amp;div=t17160113-18&amp;terms=mulatto*_negro*#highlight 
+```
+browse.jsp?id=t17160113-18&amp;div=t17160113-18&amp;terms=mulatto*_negro*#highlight
 ```
 
 Perfect, the link contains the trial ID! Scroll through the remaining
@@ -769,6 +744,7 @@ leaves us with all of the information we need to then write a program
 that will download the desired trials.
 
 ``` python
+def getIndivTrials(query):
     import os, re
 
     cleanQuery = re.sub(r'\W+', '', query)
@@ -828,7 +804,7 @@ run once for every trial in your url list.
 ``` python
 def getIndivTrials(query):
     #...
-    import urllib2, time
+    import urllib.request, time
 
     #import built-in python functions for building file paths
     from os.path import join as pjoin
@@ -838,7 +814,7 @@ def getIndivTrials(query):
         url = "http://www.oldbaileyonline.org/print.jsp?div=" + items
 
         #download the page
-        response = urllib2.urlopen(url)
+        response = urllib.request.urlopen(url)
         webContent = response.read()
 
         #create the filename and place it in the new directory
@@ -846,7 +822,7 @@ def getIndivTrials(query):
         filePath = pjoin(cleanQuery, filename)
 
         #save the file
-        f = open(filePath, 'w')
+        f = open(filePath, 'wb')
         f.write(webContent)
         f.close
 
@@ -860,7 +836,7 @@ to keep things cleaner).
 
 ``` python
 def getIndivTrials(query):
-    import os, re, urllib2, time
+    import os, re, urllib.request, time
 
     #import built-in python functions for building file paths
     from os.path import join as pjoin
@@ -889,7 +865,7 @@ def getIndivTrials(query):
         url = "http://www.oldbaileyonline.org/print.jsp?div=" + items
 
         #download the page
-        response = urllib2.urlopen(url)
+        response = urllib.request.urlopen(url)
         webContent = response.read()
 
         #create the filename and place it in the new directory
@@ -897,7 +873,7 @@ def getIndivTrials(query):
         filePath = pjoin(cleanQuery, filename)
 
         #save the file
-        f = open(filePath, 'w')
+        f = open(filePath, 'wb')
         f.write(webContent)
         f.close
 
@@ -912,7 +888,7 @@ to be kind to the Old Bailey Online servers:
 #create URLs for search results pages and save the files
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entries):
 
-    import urllib2, os, re, time
+    import urllib.request, math, os, re, time
 
     cleanQuery = re.sub(r'\W+', '', query)
     if not os.path.exists(cleanQuery):
@@ -922,9 +898,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
 
     #Determine how many files need to be downloaded.
     pageCount = entries / 10
-    remainder = entries % 10
-    if remainder > 0:
-        pageCount += 1
+    pageCount = math.ceil(pageCount)
 
     for pages in range(1, pageCount +1):
 
@@ -941,13 +915,10 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         url += '&count=0'
 
         #download the page and save the result.
-        response = urllib2.urlopen(url)
+        response = urllib.request.urlopen(url)
         webContent = response.read()
-
-        #save the result to the new directory
         filename = cleanQuery + '/' + 'search-result' + str(startValue)
-
-        f = open(filename + ".html", 'w')
+        f = open(filename + ".html", 'wb')
         f.write(webContent)
         f.close
 
@@ -1009,13 +980,15 @@ a time limit on a download attempt before moving on. This involves
 altering the `getIndivTrials` function.
 
 First, we need to load the `socket` library, which should be done in the
-same way as all of our previous library imports. We will also need to
+same way as all of our previous library imports. Then, we need to import
+the `urllib.error` library, which allows us to handle download errors.
+We will also need to
 set the default socket timeout length – how long do we want to try to
 download a page before we give up. This should go immediately after the
 comment that begins with `#download the page`
 
-```
-import os, urllib2, time, socket
+``` python
+    import os, re, urllib.request, urllib.error, time, socket
 
     #...
         #download the page
@@ -1026,8 +999,8 @@ Then, we need a new python list that will hold all of the urls that
 failed to download. We will call this `failedAttempts` and you can insert
 it immediately after the `import` instructions:
 
-```
- failedAttempts = []
+``` python
+failedAttempts = []
 ```
 
 Finally, we can add the *try / except* statement, which is added in much
@@ -1054,7 +1027,7 @@ failed to download to our new list, `failedAttempts`
             f = open(filePath, 'w')
             f.write(webContent)
             f.close
-        except:
+        except urllib.error.URLError:
             failedAttempts.append(url)
 ```
 
@@ -1062,8 +1035,8 @@ Finally, we will tell the program to print the contents of the list to
 the command output so we know which files failed to download. This
 should be added as the last line in the function.
 
-```
-print "failed to download: " + str(failedAttempts) 
+``` python
+print("failed to download: " + str(failedAttempts))
 ```
 
 Now when you run the program, should there be a problem downloading a
@@ -1073,26 +1046,26 @@ to download. If there are only one or two, it’s probably fastest just to
 visit the pages manually and use the “Save As” feature of your browser.
 If you are feeling adventurous, you could modify the program to
 automatically download the remaining files. The final version of your
-`getSearchResults()`, `getIndivTrials()`, and `newDir()` functions should now
+`getSearchResults()` and `getIndivTrials()` functions should now
 look like this:
 
 ``` python
+#create URLs for search results pages and save the files
 def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entries):
 
-    import urllib2, os, re, time
+    import urllib.request, math, os, re, time
 
     cleanQuery = re.sub(r'\W+', '', query)
     if not os.path.exists(cleanQuery):
         os.makedirs(cleanQuery)
 
     startValue = 0
-    #determine how many files need to be downloaded.
-    pageCount = entries / 10
-    remainder = entries % 10
-    if remainder > 0:
-        pageCount += 1
 
-    for pages in range(1, pageCount+1):
+    #Determine how many files need to be downloaded.
+    pageCount = entries / 10
+    pageCount = math.ceil(pageCount)
+
+    for pages in range(1, pageCount +1):
 
         #each part of the URL. Split up to be easier to read.
         url = 'https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext='
@@ -1107,11 +1080,10 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         url += '&count=0'
 
         #download the page and save the result.
-        response = urllib2.urlopen(url)
+        response = urllib.request.urlopen(url)
         webContent = response.read()
-
         filename = cleanQuery + '/' + 'search-result' + str(startValue)
-        f = open(filename + ".html", 'w')
+        f = open(filename + ".html", 'wb')
         f.write(webContent)
         f.close
 
@@ -1121,7 +1093,7 @@ def getSearchResults(query, kwparse, fromYear, fromMonth, toYear, toMonth, entri
         time.sleep(3)
 
 def getIndivTrials(query):
-    import os, re, urllib2, time, socket
+    import os, re, urllib.request, urllib.error, time, socket
 
     failedAttempts = []
 
@@ -1153,7 +1125,7 @@ def getIndivTrials(query):
         #download the page
         socket.setdefaulttimeout(10)
         try:
-            response = urllib2.urlopen(url)
+            response = urllib.request.urlopen(url)
             webContent = response.read()
 
             #create the filename and place it in the new directory
@@ -1161,22 +1133,16 @@ def getIndivTrials(query):
             filePath = pjoin(cleanQuery, filename)
 
             #save the file
-            f = open(filePath, 'w')
+            f = open(filePath, 'wb')
             f.write(webContent)
             f.close
-        except:
+        except urllib.error.URLError:
             failedAttempts.append(url)
+
         #pause for 3 seconds
         time.sleep(3)
-    print "failed to download: " + str(failedAttempts)
 
-def newDir(newDir):
-    import os
-
-    dir = newDir
-
-    if not os.path.exists(dir):
-        os.makedirs(dir)
+    print("failed to download: " + str(failedAttempts))
 ```
 
 ## Further Reading
@@ -1203,9 +1169,8 @@ helpful:
   [Viewing HTML Files]: /lessons/viewing-html-files
   [Working with Webpages]: /lessons/working-with-web-pages
   [From HTML to a List of Words 2]: /lessons/from-html-to-list-of-words-2
-  [modulo]: http://docs.python.org/release/2.5.2/ref/binary.html
-  [range]: http://docs.python.org/2/tutorial/controlflow.html#the-range-function
-  [regular expressions]: http://docs.python.org/2/library/re.html
+  [range]: https://docs.python.org/3/tutorial/controlflow.html#the-range-function
+  [regular expressions]: https://docs.python.org/3/library/re.html
   [Counting Frequencies]: /lessons/counting-frequencies
   [time out]: http://www.checkupdown.com/status/E408.html
   [Python Programming Basics]: /lessons/introduction-and-installation
