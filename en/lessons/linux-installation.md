@@ -26,7 +26,7 @@ redirect_from: /lessons/linux-installation
 
 
 Thanks to John Fink for providing the basis of this section. These
-instructions are for Ubuntu 12.04 LTS, but should work for any apt based
+instructions are for Ubuntu 18.04 LTS, but should work for any apt based
 system such as Debian, or Linux Mint, provided you have sudo installed.
 
 ## Back up your computer
@@ -35,13 +35,13 @@ It is always important to make sure you have regular and recent backups
 of your computer. This is just good advice for life, and is not limited
 to times when you are engaged in programming.
 
-## Install Python v. 2
+## Install Python 3
 
-1.  Open a terminal (`Dash Home`, then type `Terminal`, then click on
+1.  Open a terminal (Go to Applications, then type `Terminal`, then click on
     the Terminal icon).
-2.  Now type: `sudo apt-get install python2.7`
+2.  Now type: `sudo apt-get install python3`
 3.  Enter your password, and then type `Y` to finish the install. Note
-    that you probably have Python 2.7 installed already, so don't be
+    that you probably have Python 3 installed already, so don't be
     alarmed if Ubuntu tells you that.
 
 ## Create a directory
@@ -62,18 +62,19 @@ download Komodo Edit at the [Komoto Edit Website][]. Once you've
 downloaded it, open it with Ubuntu's package manager, extract it to your
 home directory, and follow the installation instructions. If you are
 following along with these instructions and have installed Komodo Edit,
-open the home folder, go to the `Komodo-Edit-7/bin` directory, and click
-on komodo. You can also right click on the Komodo icon in your launcher
-and click “`Lock to Launcher`” to have Komodo saved permanently to your
-launcher bar.
+open the home folder, go to the `Komodo-Edit-11/bin` directory, and click
+on `komodo`.
 
 ## Make a “Run Python” Command in Komodo Edit
 
-1.  In Komodo Edit, click the gear icon under `Toolbox` and select
+1.  In Komodo Edit, make sure the “Toolbox” sidebar is visible.
+2.  Click the gear icon in the toolbox and select
     `New Command`.
-2.  In the top field type “`Run Python File`“
-3.  In the Command field, type: `%(python) %F` Then hit the OK button at
+3.  In the top field type “`Run Python File`”
+4.  In the Command field, type: `%(python3) %F`. Then hit the OK button at
     the bottom of the Add Command window.
+
+{% include figure.html caption="Add new command in Komodo Edit" filename="komodo-edit-tools-linux.png" %}
 
 ## Step 2 – “Hello World” in Python
 --------------------------------
@@ -105,12 +106,11 @@ program and save it to your `programming-historian` directory as
 print('hello world')
 ```
 
-Your chosen text editor should have a “`Run`” button that will allow you
-to execute your program. If all went well, it should look something like
-this (Example as seen in Komodo Edit. Click on the image to see a
-full-size copy):
+The “*Run Python File*” command allows you to execute your program.
+If you chose another text editor, it might provide similar functionality.
+If all went well, it should look something like this (Click on the image to see a full-size copy):
 
-{% include figure.html caption="hello world in Komodo Edit on a Mac" filename="hello-world1.png" %}
+{% include figure.html caption="hello world in Komodo Edit on Linux" filename="komodo-edit-output-linux.png" %}
 
 ## Interacting with a Python shell
 
@@ -119,12 +119,11 @@ shell. You can type in a statement and press the Enter key, and the
 shell will respond to your command. Using a shell is a great way to test
 statements to make sure that they do what you think they should.
 
-You can run a Python shell by launching the “terminal”. For Linux, go to
-`Applications-> Accessories -> Terminal`and do the same. At the Python
-shell prompt, type
+You can run a Python shell by launching the “Terminal” application.
+In the Terminal window, type
 
 ``` python
-python
+python3
 ```
 
 This will open up the Python prompt, meaning that you can now use Python 
@@ -150,14 +149,12 @@ print('hello world')
 
 On your screen, it will look more like this:
 
-{% include figure.html caption="hello world terminal on a Mac" filename="hello-world-terminal.png" %}
-
-Python Shell in Mac Terminal
+{% include figure.html caption="hello world in Terminal on Linux" filename="terminal-output-linux.png" %}
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
 order, we suggest you next try ‘[Understanding Web Pages and HTML][]‘
 
-  [other text editing options]: http://wiki.python.org/moin/PythonEditors/
-  [Komoto Edit Website]: http://www.activestate.com/komodo-edit
+  [other text editing options]: https://wiki.python.org/moin/PythonEditors/
+  [Komoto Edit Website]: https://www.activestate.com/products/komodo-edit/
   [Understanding Web Pages and HTML]: /lessons/viewing-html-files

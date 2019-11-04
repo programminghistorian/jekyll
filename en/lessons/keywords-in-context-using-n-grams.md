@@ -7,6 +7,7 @@ authors:
 - Adam Crymble
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 editors:
 - Miriam Posner
 difficulty: 2
@@ -18,7 +19,7 @@ abstract: |
   This lesson takes the frequency pairs collected in "Counting Frequencies" and outputs them in HTML.
 next: output-keywords-in-context-in-html-file
 previous: output-data-as-html-file
-python_warning: true
+python_warning: false
 redirect_from: /lessons/keywords-in-context-using-n-grams
 ---
 
