@@ -551,7 +551,7 @@
    - editorial
    - managing-en
    - board
-   
+
 - name: Sarah Simpkin
   team: false
   bio:
@@ -1026,7 +1026,7 @@
         fr: |
             Martin Grandjean est chercheur en histoire contemporaine à l'Université de Lausanne (Suisse). Ses travaux portent sur l'analyse et la visualisation de grands jeux de données historiques.
         es: |
-            Martin Grandjean es investigador en historia contemporánea en la Universidad de Lausanne (Suiza). Su trabajo se enfoca en el análisis y la visualización de grandes conjuntos de datos históricos. 
+            Martin Grandjean es investigador en historia contemporánea en la Universidad de Lausanne (Suiza). Su trabajo se enfoca en el análisis y la visualización de grandes conjuntos de datos históricos.
 
 - name: Sofia Papastamkou
   email: spapastamkou@gmail.com
@@ -1214,21 +1214,21 @@
   bio:
       en: |
           Go Sugimoto is a data analyst at the Austrian Centre for Digital Humanities (ACDH) in the Austrian Academy of Sciences. He has worked for a wide range of cultural heritage projects around the world, including Europeana and Archives Portal Europe at the National Archives of the Netherlands, CHIRON fellowship at the University of Florence (Italy), the National Museum of Modern Art Tokyo (Japan), and Wessex Archaeology (UK).
-          
+
 - name: Brad Rittenhouse
-   team: false 
-   bio: 
-       en: |  
-           Brad Rittenhouse is the Lab Coordinator of the Digital Integrative Liberal Arts Center at the Georgia Institute of Technology, where he helps facilitate the integration of digital tools into research in a wide variety of humanities disciplines. His research is on the information logics of literary devices.    
-       
-- name: Ximin Mi 
-   team: false
-   bio: 
-       en: |
-           Ximin Mi manages the Data Visualization Lab and services at Georgia Tech Library. She holds a MS from iSchool from University of Illinois at Urbana-Champaign, and a MS of Education from Arizona State University. 
-       
+  team: false
+  bio:
+      en: |
+           Brad Rittenhouse is the Lab Coordinator of the Digital Integrative Liberal Arts Center at the Georgia Institute of Technology, where he helps facilitate the integration of digital tools into research in a wide variety of humanities disciplines. His research is on the information logics of literary devices.
+
+- name: Ximin Mi
+  team: false
+  bio:
+      en: |
+           Ximin Mi manages the Data Visualization Lab and services at Georgia Tech Library. She holds a MS from iSchool from University of Illinois at Urbana-Champaign, and a MS of Education from Arizona State University.
+
 - name:  Courtney Allen
-   team: false
-   bio: 
-       en: |  
+  team: false
+  bio:
+      en: |
            Courtney Allen is a second year MS-HCI student at Georgia Tech, in the School of Interactive Computing (College of Computing). She is a User Experience Reseacher, supporting design with data-driven choices and elements, and is a Graduate Teaching Assistant for Human-Computer Interaction MS Research Methods.
