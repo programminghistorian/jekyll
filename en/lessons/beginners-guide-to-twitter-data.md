@@ -4,7 +4,7 @@ title: |
 collection: lessons
 layout: lesson
 slug: beginners-guide-to-twitter-data
-date: 
+date: 2019-10-16
 authors:
  - Brad Rittenhouse
  - Ximin Mi
@@ -19,9 +19,7 @@ reviewers:
 review-ticket: http://programminghistorian.github.io/ph-submissions/lessons/beginners-guide-to-twitter-data
 difficulty: 1
 activity: acquiring
-topics: 
- - [data-manipulation]
- - [api]
+topics: [data-manipulation, api]
 abstract: Learn how to acquire Twitter data and process them to make them usable for further analysis.
 avatar_alt: Le Petit poisson et le pêcheur (The Fisherman and the Little Fish) / G. Doré ; A. Bertrand, Bibliothèque nationale de France, ark:/12148/btv1b10321920p
 
