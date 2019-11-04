@@ -26,7 +26,10 @@ Le projet est reconnaissant pour leur soutien à:
 
 ## Donations
 
-Nous espérons mettre en place un mécanisme de donations en 2019.
+Les donations à titre individuel au *Programming Historian* sont vitales pour le développement, l'amélioration et la pérennisation de notre travail. Celles-ci peuvent être ponctuelles ou régulières.
+ 
+- Les donations régulières se font en devenant parrain ou marraine du *Programming Historian* via [Patreon](https://www.patreon.com/theprogramminghistorian). 
+- Les donations ponctuelles peuvent se faire à destination du *Programming Historian* via [Paypal](https://www.paypal.com/donate/?token=KFN0PutsHiWTKsgLkQU3t3mjjp_4_ZMMm_9ILTEDB-NGQVP9hzA03TSVP10wIGKO4sqNm0&fromUL=true&country.x=GB&locale.x=en_GB), par virement bancaire (Lloyds Bank, numéro de compte 55263268, code bancaire 30-96-26), où par chèque (à l'ordre de 'ProgHist Ltd' et envoyé par la poste à: Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH). Pour les donations par virement bancaire et par chèque, nous vous saurions gré de nous écrire à l'adresse électronique suivante <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> pour nous faire savoir qui vous êtes et pour quelle raison vous avez décidé de soutenir notre travail. 
 
 ## Nous parrainer
 
