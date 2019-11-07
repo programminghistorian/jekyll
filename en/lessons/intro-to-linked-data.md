@@ -16,6 +16,7 @@ topics: [lod]
 abstract: |
   Introduces core concepts of Linked Open Data, including URIs, ontologies, RDF formats, and a gentle intro to the graph query language SPARQL.
 redirect_from: /lessons/intro-to-linked-data
+avatar_alt: An old man with a woman on each arm
 ---
 
 {% include toc.html %}
@@ -29,7 +30,7 @@ Introduction and Lesson Scope
 
 This lesson offers a brief and concise introduction to [Linked Open Data](https://en.wikipedia.org/wiki/Linked_data#Linked_open_data) (LOD). No prior knowledge is assumed. Readers should gain a clear understanding of the concepts behind linked open data, how it is used, and how it is created. The tutorial is split into five parts, plus further reading:
 
-1. Linked open data: what is it? 
+1. Linked open data: what is it?
 2. The role of the [Uniform Resource Identifier](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) (URI)
 3. How LOD organises knowledge: [ontologies](https://en.wikipedia.org/wiki/Ontology_(information_science))
 4. The [Resource Description Framework](https://en.wikipedia.org/wiki/Resource_Description_Framework) (RDF) and data formats
@@ -40,9 +41,9 @@ The tutorial should take a couple of hours to complete, and you may find it help
 
 If you need to learn how to explore LOD using the query language [SPARQL](https://en.wikipedia.org/wiki/SPARQL), I recommend Matthew Lincoln's ['Using SPARQL to access Linked Open Data'](/lessons/graph-databases-and-SPARQL), which follows on practically from the conceptual overview offered in this lesson.
 
-In order to provide readers with a solid grounding in the basic principles of LOD, this tutorial will not be able to offer a comprehensive coverage of all LOD concepts. The following two LOD concepts will *not* be the focus of this lesson: 
+In order to provide readers with a solid grounding in the basic principles of LOD, this tutorial will not be able to offer a comprehensive coverage of all LOD concepts. The following two LOD concepts will *not* be the focus of this lesson:
 
-1. The [semantic web](https://en.wikipedia.org/wiki/Semantic_Web) and [semantic reasoning](https://en.wikipedia.org/wiki/Semantic_reasoner) of [datasets](https://en.wikipedia.org/wiki/Data_set). A semantic reasoner would deduce that George VI is the brother or half-brother of Edward VIII, given the fact that a) Edward VIII is the son of George V and b) George VI is the son of George V. This tutorial does not focus on this type of task. 
+1. The [semantic web](https://en.wikipedia.org/wiki/Semantic_Web) and [semantic reasoning](https://en.wikipedia.org/wiki/Semantic_reasoner) of [datasets](https://en.wikipedia.org/wiki/Data_set). A semantic reasoner would deduce that George VI is the brother or half-brother of Edward VIII, given the fact that a) Edward VIII is the son of George V and b) George VI is the son of George V. This tutorial does not focus on this type of task.
 2. Creating and uploading linked open datasets to the [linked data cloud](http://linkeddatacatalog.dws.informatik.uni-mannheim.de/state/). Sharing your LOD is an important principle, which is encouraged below. However, the practicalities of contributing your LOD to the linked data cloud are beyond the scope of this lesson. Some resources that can help you get started with this task are available at the end of this tutorial.
 
 ## Linked open data: what is it?
@@ -51,7 +52,7 @@ LOD is structured information in a format meant for machines, and is thus not ne
 
 If all datasets were openly published, and used the same format for structuring information, it would be possible to interrogate all of the datasets at once. Analysing huge volumes of data is potentially much more powerful than everyone using their own individual datasets dotted around the web in what are known as [information silos](https://en.wikipedia.org/wiki/Information_silo). These interoperable datasets are what LOD practitioners are working towards.
 
-To achieve this goal, while working with LOD, always remember the following three principles: 
+To achieve this goal, while working with LOD, always remember the following three principles:
 
 1. **Use a recognised LOD standard format**. In order for LOD to work, the data must be [structured](https://en.wikipedia.org/wiki/Data_structure) using recognised standards so that computers interrogating the data can process it consistently. There are a number of LOD formats, some of which are discussed below.
 2. **Refer to an entity the same way other people do**. If you have data about the same person/place/thing in two or more places, make sure you refer to the person/place/thing the same way in all instances.
@@ -76,26 +77,26 @@ Providing everyone making LOD uses these two numbers to refer to the respective 
 The attribute-value pairs can also store information about other types of entities: places, for example. Jack Straw the modern politician was a member of British Parliament, representing the seat of Blackburn. There's more than one place in the UK called Blackburn, not to mention other Blackburns around the world. Using the same principles as outlined above, we can disambiguate between the various Blackburns by assigning a unique identifier to the correct place: Blackburn in Lancashire, England.
 
 	place=2655524
-	
+
 At this point you might be thinking, "that's what a library catalogue does". It's true that the key idea here is that of the [authority file](https://en.wikipedia.org/wiki/Authority_control), which is central in library science (an authority file is a definitive list of terms which can be used in a particular context, for example when cataloguing a book). In both of the examples outlined above, we have used authority files to assign the numbers (the unique ids) to the Jacks and to Blackburn. The numbers we used for the two Jack Straws come from the [Virtual International Authority File](https://viaf.org) (VIAF), which is maintained by a consortium of libraries worldwide to try to address the problem of the myriad ways in which the same person might be referred to. The unique identifier we used for the Blackburn constituency came from [GeoNames](http://www.geonames.org/), a free geographical database.
 
 But let's try to be more precise by what we mean by Blackburn in this instance. Jack Straw represented the parliamentary consitituency (an area represented by a single member of parliament) of Blackburn, which has changed its boundaries over time. The '[Digging Into Linked Parliamentary Data](http://dilipad.history.ac.uk)' (Dilipad) project (on which I worked), produced unique identifiers for party affiliations and constituencies for each member of parliament. In this example, Jack Straw represented the constituency known as 'Blackburn' in its post-1955 incarnation:
 
 	blackburn1955-current
 
-As VIAF is a well respected and well looked after authority file of notable people, it was an obvious set of identifiers to use for Jack Straw. As the constituency represented by Straw was covered perfectly by the authority files created by the Dilipad project, it too was a logical authority file to use. Unfortunately, it is not always so obvious which of the published lists online is best to use. One might be more widely used than another, but the latter might be more comprehensive for a particular purpose. GeoNames would work better than the Dilipad identifiers in some cases. There will also be cases where you can't find a dataset with that information. For example, imagine if you wanted to write attribute-values pairs about yourself and your immediate family relationships. In this case you would have to invent your own identifiers. 
+As VIAF is a well respected and well looked after authority file of notable people, it was an obvious set of identifiers to use for Jack Straw. As the constituency represented by Straw was covered perfectly by the authority files created by the Dilipad project, it too was a logical authority file to use. Unfortunately, it is not always so obvious which of the published lists online is best to use. One might be more widely used than another, but the latter might be more comprehensive for a particular purpose. GeoNames would work better than the Dilipad identifiers in some cases. There will also be cases where you can't find a dataset with that information. For example, imagine if you wanted to write attribute-values pairs about yourself and your immediate family relationships. In this case you would have to invent your own identifiers.
 
 This lack of consistent authority files is one of the major challenges LOD is facing at the moment. [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee), who came up with a way of linking documents together over a network, and thus created the World Wide Web, has long been a leading proponent of LOD. To encourage more use of LOD he has suggested a '[five-star rating system](https://www.w3.org/DesignIssues/LinkedData.html)' to encourage everyone to move as far towards LOD as possible. In essence, he believes that it's good to publish data openly, especially if it uses open formats and public standards, but best if it links to other people's data too.
 
 Once all elements are assigned unique identifiers, the next key step in creating LOD is to have a way of *describing* the relationship between Jack Straw (`64183282`) and Blackburn (`blackburn1955-current`). In LOD, relationships are expressed using what's known as a '[triple](https://en.wikipedia.org/wiki/Semantic_triple)'. Let's make a triple that represents the relationship between Jack Straw and his constituency:
 
     person:64183282 role:representedInUKParliament constituency:"blackburn1955-current" .
-	
+
 The presentation (or [syntax](https://en.wikipedia.org/wiki/Syntax)) of triples, including the punctuation used above, will be discussed later, in the section on RDF and data formats. For now, focus on the basic structure. The triple, not surprisingly, has three parts. These are conventionally referred to as subject, predicate and object:
 
-|the subject|the predicate|the object|
-|------|---------|-----------|
-|person 64183282|representedInUKParliament|"blackburn1955-current"|
+| the subject     | the predicate             | the object              |
+| --------------- | ------------------------- | ----------------------- |
+| person 64183282 | representedInUKParliament | "blackburn1955-current" |
 
 The traditional way to represent a triple in diagrammatic form is:
 
@@ -155,7 +156,7 @@ For example, the pianist Charles Rosen was a pupil of the pianist Moriz Rosentha
 
 We could equally have created our triples this way:
 
-    "Charles Rosen" wasTaughtPianoBy "Moriz Rosenthal" . 
+    "Charles Rosen" wasTaughtPianoBy "Moriz Rosenthal" .
     "Moriz Rosenthal" wasTaughtPianoBy "Franz Liszt" .
 
 We're making up examples simply for the purposes of illustration, but if you want to link your data to other datasets in the 'linked data cloud' you should look at what conventions are used in those datasets and do the same. Actually this is one of the most useful features of LOD because much of the work has been done for you. People have spent a lot of time developing ways of modelling information within a particular area of study and thinking about how relationships within that area can be represented. These models are generally known as ontologies. An ontology is an abstraction that allows particular knowledge about the world to be represented. Ontologies, in this sense, are quite new and they were designed to do what a hiearchical [taxonomy](https://en.wikipedia.org/wiki/Taxonomy) does (think of the classification of species in the [Linnaean system](https://en.wikipedia.org/wiki/Linnaean_taxonomy)), but more flexibly.
@@ -177,13 +178,13 @@ This would return all of the people in the dataset who were pupils of pupils of 
 
 If you have used [relational databases](https://en.wikipedia.org/wiki/Relational_database) you might be thinking that they can perform the same function. In our Liszt case, the information about pianists described above might be organised in a database [table](https://en.wikipedia.org/wiki/Table_(database)) called something like 'Pupils'.
 
-|pupilID|teacherID|
-|------|---------|
-|31|17|
-|35|17|
-|49|28|
-|56|28|
-|72|40|
+| pupilID | teacherID |
+| ------- | --------- |
+| 31      | 17        |
+| 35      | 17        |
+| 49      | 28        |
+| 56      | 28        |
+| 72      | 40        |
 
 If you're not familiar with databases, don't worry. But you can probably still see that some pianists in this table had the same teacher (numbers 17 and 28). Without going into details, if Liszt is in this database table it would be fairly easy to extract the pupils of pupils of Liszt, using a [join](https://en.wikipedia.org/wiki/Join_(SQL)).
 
@@ -197,7 +198,7 @@ You will often hear LOD referred to simply as RDF. We've delayed talking about R
 
 ### Serialisation
 
-[Serialisation](https://en.wikipedia.org/wiki/Serialization) is the technical term for 'how you write things down'. Standard Chinese (Mandarin) can be written in traditional characters, simplified characters or Pinyin romanisation and the language itself doesn't change. Similarly RDF can be written in various forms. Here we'll look at two (there are others, but for simplicity's sake, we will focus on these): 
+[Serialisation](https://en.wikipedia.org/wiki/Serialization) is the technical term for 'how you write things down'. Standard Chinese (Mandarin) can be written in traditional characters, simplified characters or Pinyin romanisation and the language itself doesn't change. Similarly RDF can be written in various forms. Here we'll look at two (there are others, but for simplicity's sake, we will focus on these):
 
 1) [Turtle](https://en.wikipedia.org/wiki/Turtle_(syntax))
 2) [RDF/XML](https://en.wikipedia.org/wiki/RDF/XML).
@@ -288,7 +289,7 @@ Let's move on to a different example to show how RDF/XML combines triples and, a
 
 Here we are saying that the SKOS concept `21250`, abdication, has a preferred label of "abdication". The way it works is that the subject element (including the abdication part, which is an attribute value in XML terms) has the predicate and object nested inside it. The nested element is the predicate and [the leaf node](https://en.wikipedia.org/wiki/Tree_(data_structure)#Terminology), is the object. This example is taken from a project to publish a [thesaurus of British and Irish History](http://www.history.ac.uk/projects/digital/tobias).
 
-Just as with Turtle, we can add more triples.  So let's declare that the narrower term in our subject hierarchy, one down from *Abdication* is going to be *Abdication crisis (1936)*. 
+Just as with Turtle, we can add more triples.  So let's declare that the narrower term in our subject hierarchy, one down from *Abdication* is going to be *Abdication crisis (1936)*.
 
      <skosConcept rdf:about="http://www.ihr-tobias.org/concepts/21250/abdication">
         <skos:prefLabel>Abdication</skos:prefLabel>
@@ -343,7 +344,7 @@ Hit 'go' and, if you left the drop-down box as 'browse' you should get two colum
 
 {% include figure.html filename="intro-to-linked-data-fig2.png" caption="top of results lists for a query for all triples with 'Lyndal_Roper' as subject" %}
 
-So what just happened? And how did I know what to type? 
+So what just happened? And how did I know what to type?
 
 I didn't, really, and that is one of the issues with SPARQL end points. When getting to know a dataset you have to try things and find out what terms are used. Because this comes from *Wikipedia*, and I was interested in what information on historians I could find, I went to the *Wikipedia* page for the historian [Lyndal Roper](https://en.wikipedia.org/wiki/Lyndal_Roper).
 
@@ -364,7 +365,7 @@ I can see a long list in the column labelled _c_. These are all the attributes R
 	SELECT * WHERE {
 	?historian_name ?predicate <http://dbpedia.org/class/yago/Historian110177150>
 	}
-	
+
 I've made a small change here. If this query works at all then I expect my historians to be in the first column, because 'historian' doesn't look like it could be a predicate: it doesn't function like a verb in a sentence; so I'm going to call my first results column 'historian_name' and my second (which I don't know anything about) 'predicate'.
 
 Run the query. Does it work for you? I get a big list of historians.
@@ -379,7 +380,7 @@ So this works for creating lists, which is useful, but it would much more powerf
 	?name ?b <http://dbpedia.org/class/yago/WikicatWomenHistorians>
 	}
 
-It works! I get five results. At the time of writing, there are five British, women historians in *DBpedia*... 
+It works! I get five results. At the time of writing, there are five British, women historians in *DBpedia*...
 
 {% include figure.html filename="intro-to-linked-data-fig4.png" caption="British historians who are women, according to DBpedia" %}
 

@@ -17,6 +17,7 @@ activity: transforming
 topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running the Linux operating system."
 redirect_from: /lessons/linux-installation
+avatar_alt: A band with three musicians
 ---
 
 {% include toc.html %}
@@ -126,7 +127,7 @@ In the Terminal window, type
 python3
 ```
 
-This will open up the Python prompt, meaning that you can now use Python 
+This will open up the Python prompt, meaning that you can now use Python
 commands in the shell. Now type
 
 ``` python

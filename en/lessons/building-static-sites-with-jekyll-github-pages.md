@@ -15,6 +15,7 @@ activity: presenting
 topics: [website, data-management]
 abstract: "This lesson will help you create entirely free, easy-to-maintain, preservation-friendly, secure website over which you have full control, such as a scholarly blog, project website, or online portfolio."
 redirect_from: /lessons/building-static-sites-with-jekyll-github-pages
+avatar_alt: An illustration of Dr. Jekyll transforming into Mr. Hyde
 ---
 
 **This lesson is for you if** you'd like an entirely free, easy-to-maintain, preservation-friendly, secure website over which you have full control, such as a scholarly blog, project website, or online portfolio.
@@ -289,7 +290,7 @@ Don't forget to wait until the command prompt appears again to move to the next 
 
 *This means you can experiment all you want, and only publish your site for the world to see when it's ready. Or, once you've made your site live, you can continue to experiment locally with new writing, design, etc. and only add these to the public site once you're happy with how they look on the local site.*
 
-1. At the command line, type:  
+1. At the command line, type:
 
     `bundle exec jekyll serve --watch`
 

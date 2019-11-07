@@ -15,6 +15,7 @@ topics: [website]
 abstract: "This lesson will teach you how to install your own copy of Omeka."
 next: creating-an-omeka-exhibit
 redirect_from: /lessons/installing-omeka
+avatar_alt: A figure working at a machine with gear diagrams
 ---
 
 {% include toc.html %}

@@ -20,6 +20,7 @@ next: creating-and-viewing-html-files-with-python
 previous: normalizing-data
 python_warning: false
 redirect_from: /lessons/counting-frequencies
+avatar_alt: Disgruntled man sitting on a log surrounded by birds
 ---
 
 {% include toc.html %}

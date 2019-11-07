@@ -15,6 +15,7 @@ exclude_from_check:
   - reviewers
   - review-ticket
 redirect_from: /lessons/cleaning-ocrd-text-with-regular-expressions
+avatar_alt: A typesetter and inker at work on a printing press
 ---
 
 {% include toc.html %}
@@ -239,7 +240,7 @@ for line in Text:
            #Append each line to CleanText list while it loops through
         CleanText.append(names)
 
-#Saving into a 'fake' csv file   
+#Saving into a 'fake' csv file
 with open('cdocr2/50-1p1.csv', 'w') as fcsv:
     #Write each line in CleanText to a file
     for line in CleanText:
@@ -403,7 +404,7 @@ for line in Text:
          #Append each line to CleanText list while it loops through
         CleanText.append(names)
 
-#Saving into a 'fake' csv file   
+#Saving into a 'fake' csv file
 with open('cdocr2/50-1p1.csv', 'w') as fcsv:
     #Write each line in CleanText to a file
     for line in CleanText:

@@ -19,6 +19,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/106
 abstract: |
   Learn how to set up a basic Application Programming Interface (API) to make your data more accessible to users. This lesson also discusses principles of API design and the benefits of APIs for digital projects.
 redirect_from: /lessons/creating-apis-with-python-and-flask
+avatar_alt: Diagram with a series of arcs describing a quarter circle
 ---
 
 {% include toc.html %}
@@ -81,7 +82,7 @@ In general, consider an API if:
 1. Your data set is large, making download via FTP unwieldy or resource-intensive.
 2. Your users will need to access your data in real time, such as for display on another website or as part of an application.
 3. Your data changes or is updated frequently.
-4. Your users only need access to a part of the data at any one time.  
+4. Your users only need access to a part of the data at any one time.
 5. Your users will need to perform actions other than retrieve data, such as contributing, updating, or deleting data.
 
 If you have data you wish to share with the world, an API is one way you can get it into the hands of others. However, APIs are not always the best way of sharing data with users. If the size of the data you are providing is relatively small, you can instead provide a "data dump" in the form of a downloadable JSON, XML, CSV, or SQLite file. Depending on your resources, this approach can be viable up to a download size of a few gigabytes.
@@ -327,7 +328,7 @@ app.run()
 
 Run the code (navigate to your `api` folder in the command line and enter `python api.py`). Once the server is running, visit our route URL to view the data in the catalog:
 
-[http://127.0.0.1:5000/api/v1/resources/books/all](http://127.0.0.1:5000/api/v1/resources/books/all)  
+[http://127.0.0.1:5000/api/v1/resources/books/all](http://127.0.0.1:5000/api/v1/resources/books/all)
 
 You should see JSON output for the three entries in our test catalog. Flask provides us with a `jsonify` function that allows us to convert lists and dictionaries to JSON format. In the route we created, our book entries are converted from a list of Python dictionaries to JSON before being returned to a user.
 
@@ -405,10 +406,10 @@ app.run()
 
 Once you've updated your API with the `api_id` function, run your code as before (`python api.py` from your `api` directory) and visit the below URLs to test the new filtering capability:
 
-[127.0.0.1:5000/api/v1/resources/books?id=0](http://127.0.0.1:5000/api/v1/resources/books?id=0)  
-[127.0.0.1:5000/api/v1/resources/books?id=1](http://127.0.0.1:5000/api/v1/resources/books?id=1)  
-[127.0.0.1:5000/api/v1/resources/books?id=2](http://127.0.0.1:5000/api/v1/resources/books?id=2)  
-[127.0.0.1:5000/api/v1/resources/books?id=3](http://127.0.0.1:5000/api/v1/resources/books?id=3)  
+[127.0.0.1:5000/api/v1/resources/books?id=0](http://127.0.0.1:5000/api/v1/resources/books?id=0)
+[127.0.0.1:5000/api/v1/resources/books?id=1](http://127.0.0.1:5000/api/v1/resources/books?id=1)
+[127.0.0.1:5000/api/v1/resources/books?id=2](http://127.0.0.1:5000/api/v1/resources/books?id=2)
+[127.0.0.1:5000/api/v1/resources/books?id=3](http://127.0.0.1:5000/api/v1/resources/books?id=3)
 
 Each of these should return a different entry, except for the last, which should return an empty list: `[]`, since there is no book for which the id value is 3. (Counting in programming typically starts from 0, so id=3 would be a request for a nonexistent fourth item.) In the next section, we'll explore our updated API in more detail.
 
@@ -572,10 +573,10 @@ Save the code as `api_final.py` in your `api` folder and run it by navigating to
 
 Note that if a previous version of the code is still running, you will first need to end that process by pressing `Control-C` before executing the new code. Once this example is running, try out the filtering functionality with these HTTP requests:
 
-[http://127.0.0.1:5000/api/v1/resources/books/all](http://127.0.0.1:5000/api/v1/resources/books/all)  
-[http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis](http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis)  
-[http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis&published=1999](http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis&published=1993)  
-[http://127.0.0.1:5000/api/v1/resources/books?published=2010](http://127.0.0.1:5000/api/v1/resources/books?published=2010)  
+[http://127.0.0.1:5000/api/v1/resources/books/all](http://127.0.0.1:5000/api/v1/resources/books/all)
+[http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis](http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis)
+[http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis&published=1999](http://127.0.0.1:5000/api/v1/resources/books?author=Connie+Willis&published=1993)
+[http://127.0.0.1:5000/api/v1/resources/books?published=2010](http://127.0.0.1:5000/api/v1/resources/books?published=2010)
 
 The database downloaded for this lesson has 67 entries, one for each of the winners of the Hugo Award for best science fiction novel between 1953 and 2014 (avoiding the voting controversy of 2015). The data set includes the novel's title, author, year of publication, and first sentence. Our API allows users to filter by three fields: `id`, `published` (year of publication), and `author`.
 

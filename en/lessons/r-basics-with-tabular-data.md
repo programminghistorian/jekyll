@@ -15,6 +15,7 @@ activity: transforming
 topics: [data-manipulation]
 abstract: "This lesson teaches a way to quickly analyze large volumes of tabular data, making research faster and more effective."
 redirect_from: /lessons/r-basics-with-tabular-data
+avatar_alt: An ornate illustrated character R
 ---
 
 {% include toc.html %}
@@ -116,12 +117,12 @@ Here is the list of variables we have created so far:
 
 ```
 > ls()
-[1] "AirPassengers" "Jan1949"      
+[1] "AirPassengers" "Jan1949"
 ```
 
 We have the `AirPassengers` variable and the `Jan1949` variable. If we remove the `Jan1949` variable and retype `ls()`, we will see:
 
-```     
+```
 > rm(Jan1949)
 > ls()
 [1] "AirPassengers"

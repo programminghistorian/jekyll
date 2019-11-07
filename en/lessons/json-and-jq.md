@@ -15,6 +15,7 @@ activity: transforming
 topics: [data-manipulation]
 abstract: "Working with data from an art museum API and from the Twitter API, this lesson teaches how to use the command-line utility _jq_ to filter and parse complex JSON files into flat CSV files."
 redirect_from: /lessons/json-and-jq
+avatar_alt: A grid-like device for drawing lines
 ---
 
 {% include toc.html %}

@@ -15,12 +15,13 @@ editors:
 difficulty: 2
 activity: transforming
 topics: [mapping]
-exclude_from_check: 
+exclude_from_check:
   - review-ticket
 abstract: "In this lesson, you will learn how to georeference historical maps so
 that they may be added to a GIS as a raster layer."
 previous: vector-layers-qgis
 redirect_from: /lessons/georeferencing-qgis
+avatar_alt: Map of a moutnaintop city
 ---
 
 {% include toc.html %}
@@ -114,7 +115,7 @@ referred to as 'Lots' in PEI. Hence the file name
     for your name and email before you can download the file).
 
 <http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP>
-    
+
 -   After downloading the file called 'lot\_township\_polygon', move it
     into a folder that you can find later and unzip the file. (Remember
     to keep the files together as they are all required to open this
@@ -229,7 +230,7 @@ Some tips for choosing control points:
     border of 1 and 2 shows that more control points are needed to
     properly rubber-sheet this somewhat distorted 1863 map to the
     Provincial GIS layer
-	
+
 {% include figure.html filename="geo121.png" caption="Figure 12" %}
 
 *Add at least one more control point:*

@@ -22,6 +22,7 @@ scanned historical maps."
 next: georeferencing-qgis
 previous: qgis-layers
 redirect_from: /lessons/vector-layers-qgis
+avatar_alt: Map of city streets
 ---
 
 {% include toc.html %}

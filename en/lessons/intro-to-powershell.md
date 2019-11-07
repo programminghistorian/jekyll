@@ -15,6 +15,7 @@ topics: [data-manipulation, get-ready]
 abstract: "This tutorial will introduce you to the basics of Windows PowerShell, the standard command-line interface for Windows computers."
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/18
 redirect_from: /lessons/intro-to-powershell
+avatar_alt: An ornate seashell
 ---
 
 {% include toc.html %}
@@ -25,7 +26,7 @@ redirect_from: /lessons/intro-to-powershell
 
 # Introduction
 
-This tutorial will introduce you to the basics of Windows PowerShell, the standard command-line interface for Windows computers. If you are a Mac or Linux user, you should check out the [Bash introduction](/lessons/intro-to-bash) instead. If you are already familiar with using Bash, you may be able to get started with PowerShell just by looking at the [table at the end of this lesson](#quick-reference). 
+This tutorial will introduce you to the basics of Windows PowerShell, the standard command-line interface for Windows computers. If you are a Mac or Linux user, you should check out the [Bash introduction](/lessons/intro-to-bash) instead. If you are already familiar with using Bash, you may be able to get started with PowerShell just by looking at the [table at the end of this lesson](#quick-reference).
 
 The tutorial is divided into two main sections. In the first section, "[Getting Started](#getting-started)," you will learn to do basic desktop tasks like creating and opening files and folders using PowerShell. In the second section, "[Doing More](#doing-more)," you will get a glimpse of some of the features that make work on the command line particularly efficient, and learn enough of the basics to be able to explore further on your own. You will also [get set up to run Python scripts from the command line](#using-command-line-tools-and-running-python-scripts).
 
@@ -37,7 +38,7 @@ Windows PowerShell is a **command-line interface** for Windows computers. A comm
 
 # Getting Started
 
-You will first learn to navigate through your files and do some of the basic tasks you do every day on the computer. 
+You will first learn to navigate through your files and do some of the basic tasks you do every day on the computer.
 
 ## Open PowerShell
 
@@ -49,11 +50,11 @@ If you don't like the white on blue, right click the top bar, select "properties
 
 ## Navigation
 
-A nice thing about PowerShell is you always know where you are because it tells you in the prompt. In my case, I see: 
+A nice thing about PowerShell is you always know where you are because it tells you in the prompt. In my case, I see:
 
-`C:\Users\Ted>` 
+`C:\Users\Ted>`
 
-You should see something similar, but with your user name. In case you don't, type 
+You should see something similar, but with your user name. In case you don't, type
 
 `sl ~`
 
@@ -65,7 +66,7 @@ Our first command is `Get-ChildItem`. Go ahead and type it in, and hit enter. Yo
 
 {% include figure.html filename="intro-to-powershell2.png" caption="Listing directory contents with `Get-ChildItem`" %}
 
-Notice that I didn't actually enter `Get-ChildItem`. I just entered `gci`. The commands we will be learning are all of the form `Verb-Noun`. These are called "cmdlets" (pronounced "commandlets"), and their form is supposed to make it easy to remember what they do and predict similar cmdlets. Because cmdlets are rather long, most of them come with sleeker aliases that you can use instead. I will first present cmdlets with their names, but always subsequently use the standard aliases, because they are much faster to work with. It is important to note that many cmdlets have multiple aliases. For instance, `Get-ChildItem`, `gci`, `dir`, and `ls` all do exactly the same thing. While it is unsurprising that `gci` is short for `Get-ChildItem`, you may be wondering where `dir` and `ls` come from. 
+Notice that I didn't actually enter `Get-ChildItem`. I just entered `gci`. The commands we will be learning are all of the form `Verb-Noun`. These are called "cmdlets" (pronounced "commandlets"), and their form is supposed to make it easy to remember what they do and predict similar cmdlets. Because cmdlets are rather long, most of them come with sleeker aliases that you can use instead. I will first present cmdlets with their names, but always subsequently use the standard aliases, because they are much faster to work with. It is important to note that many cmdlets have multiple aliases. For instance, `Get-ChildItem`, `gci`, `dir`, and `ls` all do exactly the same thing. While it is unsurprising that `gci` is short for `Get-ChildItem`, you may be wondering where `dir` and `ls` come from.
 
 PowerShell is relatively new (first released in 2006), and its designers anticipated that many people who would use it would already have experience with some existing CLIs (command-line interfaces), specifically either with Microsoft's older CLI called command prompt, or with Linux CLIs like Bash, which is now also standard on OS X. Thus, many cmdlets have an alias that is the standard command in one of these two systems (and often for both). In the present example, `dir` comes from command prompt, and `ls` comes from Bash. I will use the "PowerShell-style" aliases in this tutorial, since it makes it easier to remember the actual cmdlet names. However, I will try to also mention other common aliases, particulary those familiar to Bash users. If you work with a lot of people who use OS X or Linux, it can be good to know these names. The [table at bottom](#quick-reference) gives the cmdlets along with their standard PowerShell aliases and the nearest Bash equivalent.
 
@@ -73,61 +74,61 @@ Go ahead and try using `gci`, `dir`, and `ls`. You'll get the exact same list of
 
 ### Moving Between Directories with `Set-Location` (`sl`, `cd`)
 
-To move to your desktop, we'll use the `Set-Location` cmdlet. Enter 
+To move to your desktop, we'll use the `Set-Location` cmdlet. Enter
 
-`sl desktop` 
+`sl desktop`
 
-into PowerShell. This tells PowerShell to move to the desktop. Notice that you can write "desktop" using all lowercase letters, even though when you looked at the contents of the `YOURUSERNAME` directory, "Desktop" was spelled with a capital "D". PowerShell is not case sensitive! Now that you've changed your location, you can use `gci` to see a list of everything on your desktop - that is, everything in the directory named `Desktop`. If you're as disorganized as I am, this will be a long list. We can move back to the `YOURUSERNAME` directory by typing 
+into PowerShell. This tells PowerShell to move to the desktop. Notice that you can write "desktop" using all lowercase letters, even though when you looked at the contents of the `YOURUSERNAME` directory, "Desktop" was spelled with a capital "D". PowerShell is not case sensitive! Now that you've changed your location, you can use `gci` to see a list of everything on your desktop - that is, everything in the directory named `Desktop`. If you're as disorganized as I am, this will be a long list. We can move back to the `YOURUSERNAME` directory by typing
 
 `sl ..`
 
-Don't leave out the space! Now type 
+Don't leave out the space! Now type
 
-`sl ..` 
+`sl ..`
 
 again. You should be in the `Users` directory.
 
-Now try navigating back to the desktop, and then back again to `Users`. That should take four commands: `sl YOURUSERNAME`, `sl desktop`, `sl ..`, `sl ..`. But you can actually do it with only two. You should be at `C:\Users>` right now. Instead of typing `sl YOURUSERNAME` and then `sl desktop`, you can just type 
+Now try navigating back to the desktop, and then back again to `Users`. That should take four commands: `sl YOURUSERNAME`, `sl desktop`, `sl ..`, `sl ..`. But you can actually do it with only two. You should be at `C:\Users>` right now. Instead of typing `sl YOURUSERNAME` and then `sl desktop`, you can just type
 
-`sl YOURUSERNAME\desktop` 
+`sl YOURUSERNAME\desktop`
 
-and get to the desktop with one command! Similarly, from the desktop, by typing 
+and get to the desktop with one command! Similarly, from the desktop, by typing
 
-`sl ..\..` 
+`sl ..\..`
 
 you can get back to where you started with one command. If you don't have the pinkie stamina for typing `\` all the time, you can also type `sl ../..`. Not only is PowerShell not case sensitive, it also doesn't care what direction the slash goes. `sl ../..`, `SL ..\..`, `Set-Location ..\..`, and `set-location ../..` all do exactly the same thing.
 
 ### Creating New Directories with `mkdir`
 
-We're moving toward working with files. Before we start, let's make a directory where we can store everything we're using for this lesson. Navigate back home by typing 
+We're moving toward working with files. Before we start, let's make a directory where we can store everything we're using for this lesson. Navigate back home by typing
 
-`sl ~` 
+`sl ~`
 
-We'll make a new directory inside of your `YOURUSERNAME` directory. To do this, we use the command `mkdir`. Call your directory whatever you want, but try not to use spaces, as these make working on the command line more complicated than necessary. I will call my directory "funWithPowerShell". So I type 
+We'll make a new directory inside of your `YOURUSERNAME` directory. To do this, we use the command `mkdir`. Call your directory whatever you want, but try not to use spaces, as these make working on the command line more complicated than necessary. I will call my directory "funWithPowerShell". So I type
 
-`mkdir funWithPowerShell` 
+`mkdir funWithPowerShell`
 
 See how I used [CamelCase](https://en.wikipedia.org/wiki/CamelCase) to avoid spaces? Another common way to do this is with hyphens or underscores, as in `fun_with_power_shell`. Whatever you name your directory, try to avoid using spaces. Once you've been working with PowerShell a little, you'll probably find that you start titling new files without spaces by default. This is a good habit to be in, as it simplifies work on the command line as well as work with programming languages like Python.
 
-However, you probably have plenty of existing files with spaces in their names. To open these in PowerShell, you just need to use quotes. Let's try this. Move into your new directory using 
+However, you probably have plenty of existing files with spaces in their names. To open these in PowerShell, you just need to use quotes. Let's try this. Move into your new directory using
 
-`sl funWithPowerShell` 
+`sl funWithPowerShell`
 
-(Or whatever you titled your directory.) Enter 
+(Or whatever you titled your directory.) Enter
 
-`gci` 
+`gci`
 
-and you'll see that there's nothing here. That's because you haven't put anything in it! Let's put a new directory inside with `mkdir`. We'll call this directory "Directory with a long name and lots of spaces". Because the name has spaces in it, we'll have to use quotes to create it. Type 
+and you'll see that there's nothing here. That's because you haven't put anything in it! Let's put a new directory inside with `mkdir`. We'll call this directory "Directory with a long name and lots of spaces". Because the name has spaces in it, we'll have to use quotes to create it. Type
 
-`mkdir "Directory with a long name and lots of spaces"` 
+`mkdir "Directory with a long name and lots of spaces"`
 
-and hit enter. Now enter 
+and hit enter. Now enter
 
-`gci` 
+`gci`
 
-and you'll see your new directory. Suppose we want to move into this directory. We would have to type `sl "Directory with a long name and lots of spaces"`. Not only will this take a while to type, but if we get one letter wrong, PowerShell won't be able to find our directory. Instead, try just typing 
+and you'll see your new directory. Suppose we want to move into this directory. We would have to type `sl "Directory with a long name and lots of spaces"`. Not only will this take a while to type, but if we get one letter wrong, PowerShell won't be able to find our directory. Instead, try just typing
 
-`sl d` and then hitting the `tab` key. 
+`sl d` and then hitting the `tab` key.
 
 Voila! PowerShell completes the name of the directory for us, including the quotes! Using `tab` for auto-completion will save you a lot of time. You'll notice that when PowerShell completed the name for us, it also threw in a `.\` at the beginning of the directory name. The dot is just shorthand for the current directory. When you type commands, PowerShell always assumes there's a `.\` at the beginning - in other words, that you are referring to something in the current directory. So you don't have to type this part (unless you want PowerShell to look somewhere else for whatever you're telling it to do, in which case you can type the path for that directory - i.e. `C:\directory\bla\etc`.)
 
@@ -135,33 +136,33 @@ Let's practice a little more with directories before getting to files.
 
 ### Using `Explorer` to View Directories in the GUI
 
-At this point, we've made two directories. I mentioned above that "directory" is just another word for "folder." You can see this for yourself by finding your new directories in the GUI. Windows actually calls your GUI "File Explorer" or just "Explorer." We can call Explorer from within PowerShell by using the command `Explorer`. Navigate back into your funWithPowerShell folder with 
+At this point, we've made two directories. I mentioned above that "directory" is just another word for "folder." You can see this for yourself by finding your new directories in the GUI. Windows actually calls your GUI "File Explorer" or just "Explorer." We can call Explorer from within PowerShell by using the command `Explorer`. Navigate back into your funWithPowerShell folder with
 
 `sl ..`
 
-Now try typing 
+Now try typing
 
-`explorer .`  
+`explorer .`
 
-Remember, the dot just means "this directory," and you don't have to capitalize "explorer" because case doesn't matter in PowerShell. Explorer should have just opened a window showing the contents of the "funWithPowerShell" directory. Arrange your windows so you can see both the image in Explorer and PowerShell. Now you'll be able to watch how what you do in PowerShell shows up in Explorer. 
+Remember, the dot just means "this directory," and you don't have to capitalize "explorer" because case doesn't matter in PowerShell. Explorer should have just opened a window showing the contents of the "funWithPowerShell" directory. Arrange your windows so you can see both the image in Explorer and PowerShell. Now you'll be able to watch how what you do in PowerShell shows up in Explorer.
 
 The `Explorer` command is extremely useful. It is essentially like double-clicking something in the GUI. Thus, you can also use it to open files and programs.
 
 ### Deletion with `Remove-Item` (`rm`)
 
-Now that you can see the results of what you're doing in PowerShell, let's learn to delete things - for instance that directory with the long name. First, create a few more directories. Name them "dir," "dir1," and "dir2." You can make all three with a single command by typing 
+Now that you can see the results of what you're doing in PowerShell, let's learn to delete things - for instance that directory with the long name. First, create a few more directories. Name them "dir," "dir1," and "dir2." You can make all three with a single command by typing
 
-`mkdir dir, dir1, dir2` 
+`mkdir dir, dir1, dir2`
 
 Pretty neat, huh? You should see your three new directories pop up in your open Explorer window.
 
-Now, let's get rid of that long-named directory. To do this, we use the cmdlet `Remove-Item` or just `rm`. You have to be **very careful** with this cmdlet, because it does not put things in your recycle bin. It **deletes them permanently**. Gone. Type in `rm` followed by a space and the long-named directory's name. You'll probably want to use `tab` for auto-completion. Note, however, that now that we have a bunch of directories with names beginning with "d", so we have to type through the first unique letter to get it to auto-complete correctly. So I type 
+Now, let's get rid of that long-named directory. To do this, we use the cmdlet `Remove-Item` or just `rm`. You have to be **very careful** with this cmdlet, because it does not put things in your recycle bin. It **deletes them permanently**. Gone. Type in `rm` followed by a space and the long-named directory's name. You'll probably want to use `tab` for auto-completion. Note, however, that now that we have a bunch of directories with names beginning with "d", so we have to type through the first unique letter to get it to auto-complete correctly. So I type
 
 `rm dire` and then hit `tab`.
 
 Alternatively, you can just type `rm` and then hit `tab` multiple times to scroll through all your directories. If you go too far, use `shift` with `tab` to scroll back.
 
-Before pressing `enter`, I stare long and hard to make sure I'm deleting the thing I want to delete. Then I hit `enter`. 
+Before pressing `enter`, I stare long and hard to make sure I'm deleting the thing I want to delete. Then I hit `enter`.
 
 Go ahead and delete the other three directories, and watch them disappear from Explorer. Just like with `mkdir`, you can delete all three directories with one command. Give it a try.
 
@@ -171,7 +172,7 @@ We just deleted the `dir`, `dir1`, and `dir2` directories. But we'll need them f
 
 Okay, now you should have three directories inside your `funWithPowerShell` directory. Move into the `dir` directory. (Use `sl dir`).
 
-It's important to understand how your computer organizes things. Look at the path to your current directory. The path is all the stuff written before the `>`. In my case, that's 
+It's important to understand how your computer organizes things. Look at the path to your current directory. The path is all the stuff written before the `>`. In my case, that's
 
 `C:\Users\Ted\funWithPowerShell\dir`
 
@@ -179,37 +180,37 @@ Yours should look pretty similar. What this path actually represents is a tree-l
 
 If `C:` is the trunk, each section of the path after it is a branch, each one coming off the one above it. Thus, `Users` is a branch from `C:`, `Ted` is a smaller branch coming off of `Users` and so forth. You could also use a metaphor of heredity rather than botany and call each branch a `child` of the directory above it. This is actually the more common language for describing the relationships between directories (hence the cmdlet `Get-ChildItem`), but we'll stick with the tree metaphor, since in real life, relationships of heredity can be much more complex than the extremely hierarchical structure according to which your computer is organized.
 
-Understanding that the path works like a tree is important for navigating around to directories not immediately above or below the current one. Thus, we know there is a directory called "dir1", and that this directory is also in the "funWithPowerShell" directory. See what happens if you attempt to use `sl` to move directly over into it by typing 
+Understanding that the path works like a tree is important for navigating around to directories not immediately above or below the current one. Thus, we know there is a directory called "dir1", and that this directory is also in the "funWithPowerShell" directory. See what happens if you attempt to use `sl` to move directly over into it by typing
 
 `sl dir1`
 
-This threw an error! 
+This threw an error!
 
 {% include figure.html filename="intro-to-powershell3.png" caption="An error caused by jumping between branches" %}
 
 We've tried to jump from one branch to another, and PowerShell can only understand our movement if we move along the tree. That means we first have to move up to where the branches for "dir1" and "dir" meet, and then back down to "dir1." You can do this with one command. See if you can figure it out before you read the next line.
 
-The command is: 
+The command is:
 
-`sl ..\dir1` 
+`sl ..\dir1`
 
 This tells PowerShell to move up one directory to `funWithPowerShell` and then move back down into the directory `dir1`.
 
 ### Moving fast with `Push-Location` (`pushd`) and `Pop-Location` (`popd`)
 
-Before moving on to working with files, let's try out the commands `pushd` and `popd`. Do this: Go all the way up to the trunk of your tree, `C:`. That should be four directories above where you are, so you could type 
+Before moving on to working with files, let's try out the commands `pushd` and `popd`. Do this: Go all the way up to the trunk of your tree, `C:`. That should be four directories above where you are, so you could type
 
-`sl ..\..\..\..` 
+`sl ..\..\..\..`
 
-Then, change back to `dir1`. But rather than typing `sl` before the path, type `pushd`. Like this: 
+Then, change back to `dir1`. But rather than typing `sl` before the path, type `pushd`. Like this:
 
 `pushd users\YOURUSERNAME\funWithPowerShell\dir1`
 
 You'll now be in the directory, just as if you'd typed `sl` at the beginning of that path. But here's the fun part. Now type
- 
+
 `popd`
 
-and hit enter. Neat, right? The command `pushd` tells powershell to move into the given directory after marking the current directory so it can be returned to with `popd`. In other words, `popd` will always "pop" you back to the last directory you were in before using `pushd`. (If you want to understand more about what is going on, read about the [call stack](https://en.wikipedia.org/wiki/Call_stack) on Wikipedia.) Using `pushd` and `popd` is very useful when you're frequently moving between two directories. 
+and hit enter. Neat, right? The command `pushd` tells powershell to move into the given directory after marking the current directory so it can be returned to with `popd`. In other words, `popd` will always "pop" you back to the last directory you were in before using `pushd`. (If you want to understand more about what is going on, read about the [call stack](https://en.wikipedia.org/wiki/Call_stack) on Wikipedia.) Using `pushd` and `popd` is very useful when you're frequently moving between two directories.
 
 ## Working With Files
 
@@ -219,11 +220,11 @@ Now that you know how to move around your computer's file system from the comman
 
 First, we need some files to work with. Let's make a new plain text document called "example.txt". Navigate to the `funWithPowerShell` directory - use tab for each directory name as you type out the path to speed this up - and type
 
-`ni example.txt` 
+`ni example.txt`
 
-then hit enter. Now do 
+then hit enter. Now do
 
-`gci` 
+`gci`
 
 to see that, indeed, you now have, in addition to your directories, the file `example.txt`. We'll need several files, so go ahead and make `example1.txt` and `example2.txt`. You'll be unsurprised to hear that with a comma, you can do this in one command:
 
@@ -231,35 +232,35 @@ to see that, indeed, you now have, in addition to your directories, the file `ex
 
 ### Copying and Moving Files with `Copy-Item` (`cp`) and `Move-Item` (`mv`)
 
-We probably should have put these files into one of our directories. Let's move them. 
+We probably should have put these files into one of our directories. Let's move them.
 
-We'll put `example.txt` in `dir` by typing 
+We'll put `example.txt` in `dir` by typing
 
-`mv example.txt dir` 
+`mv example.txt dir`
 
 Now type `gci` and you'll see `example.txt` has disappeared. Move into `dir` (`sl dir`) and type `gci` and you'll see it's now in there! (You can also do this without moving by just typing `gci dir` from `funWithPowerShell`.) Move back to `funWithPowerShell` and put `example1.txt` in `dir1` and `example2.txt` in `dir2`.
 
-We can also use `mv` to **rename** things. Use `sl` to move into `dir`. Do a quick `gci` and you should see your `example.txt` file. This is a boring name. Let's call it "benjamin.txt" instead. Type 
+We can also use `mv` to **rename** things. Use `sl` to move into `dir`. Do a quick `gci` and you should see your `example.txt` file. This is a boring name. Let's call it "benjamin.txt" instead. Type
 
-`mv example.txt benjamin.txt` 
+`mv example.txt benjamin.txt`
 
-Use `gci` again to confirm that your document is now called `benjamin.txt`. 
+Use `gci` again to confirm that your document is now called `benjamin.txt`.
 
-You may be surprised that the same cmdlet is used both to move and to rename files. In fact, though, the operation is the same. In both cases, you're telling the computer to change the "name" of the file's location, that is, to change the **path** it follows to find the file. In the first example above, the path began as 
+You may be surprised that the same cmdlet is used both to move and to rename files. In fact, though, the operation is the same. In both cases, you're telling the computer to change the "name" of the file's location, that is, to change the **path** it follows to find the file. In the first example above, the path began as
 
-`C:\Users\Ted\funWithPowerShell\example.txt` 
+`C:\Users\Ted\funWithPowerShell\example.txt`
 
-and changed to 
+and changed to
 
 `C:\Users\Ted\funWithPowerShell\dir\example.txt`
 
-In the second example, the path changed from 
+In the second example, the path changed from
 
-`C:\Users\Ted\funWithPowerShell\dir\example.txt` 
+`C:\Users\Ted\funWithPowerShell\dir\example.txt`
 
 to
 
-`C:\Users\Ted\funWithPowerShell\dir\benjamin.txt` 
+`C:\Users\Ted\funWithPowerShell\dir\benjamin.txt`
 
 In other words, in both examples, `mv` just changed the path. Don't worry if this doesn't make sense just yet. Just be careful when you use `mv`, because if you don't type exactly the right thing, you may rename something when you mean to move it, or vice versa.
 
@@ -269,7 +270,7 @@ Beyond moving files, we also want to be able to copy and delete them. To copy fi
 
 `cp benjamin.txt susie.txt`
 
-We can also delete these two new files with `rm`, just like with directories. Try to do it with one command. As always, be careful when you use `rm`. 
+We can also delete these two new files with `rm`, just like with directories. Try to do it with one command. As always, be careful when you use `rm`.
 
 Here's the command:
 
@@ -287,53 +288,53 @@ Okay, so now we can navigate around, make files, and move and delete them in Pow
 
 We have an empty file in our `dir` directory. That's not very interesting. Let's add some content. We could open the file in Notepad and modify it that way. But we can also add to it with commands right from the command line. The cmdlet we use for this is `Write-Output`, or just `write`.
 
-Try entering this: 
+Try entering this:
 
 `write "The technique of reproduction detaches the reproduced object from the domain of tradition."`
 
 PowerShell should print that statement directly into the command-line window. That's all that `write` does. It tells PowerShell "Print out whatever I write." That's not very useful, though, because we want it to put this text into our document. To do this, we'll use something called **redirection**.
 
-Redirection is just a way to tell PowerShell to take the results of a command and put them somewhere other than in the PowerShell window. To redirect a command, we put a right angle bracket (`>`) between the command and the place we want its output to go. In this case, we want the output of our `write` command to wind up in `benjamin.txt`. So we use the up arrow to get the statement back, and add `> benjamin.txt` at the end. The whole thing should look like this: 
+Redirection is just a way to tell PowerShell to take the results of a command and put them somewhere other than in the PowerShell window. To redirect a command, we put a right angle bracket (`>`) between the command and the place we want its output to go. In this case, we want the output of our `write` command to wind up in `benjamin.txt`. So we use the up arrow to get the statement back, and add `> benjamin.txt` at the end. The whole thing should look like this:
 
-`write "The technique of reproduction detaches the reproduced object from the domain of tradition." > benjamin.txt` 
+`write "The technique of reproduction detaches the reproduced object from the domain of tradition." > benjamin.txt`
 
 When you hit enter, nothing will seem to have happened. That's because your `write` statement was redirected. To see that something did indeed happen, use `gci` to view the contents of your directory. Notice that the length of `benjamin.txt` is no longer 0. That's because we just put some text in there!
 
 ### Reading Files with `Get-Content` (`gc`, `cat`)
 
-While `gci` can show us that *something* is in the file, it would be nice to see that it's the sentence we tried to put in there. We could do this by typing `notepad benjamin.txt`, which would open the document in Notepad. But there is also a cmdlet for just printing the contents to PowerShell. This cmdlet is called `Get-Content`. Enter: 
+While `gci` can show us that *something* is in the file, it would be nice to see that it's the sentence we tried to put in there. We could do this by typing `notepad benjamin.txt`, which would open the document in Notepad. But there is also a cmdlet for just printing the contents to PowerShell. This cmdlet is called `Get-Content`. Enter:
 
-`gc benjamin.txt` 
+`gc benjamin.txt`
 
 There's your sentence!
 
-Using `gc` by itself is helpful, but not that interesting. By combining it with redirection, we can do a lot more. For starters, we can put the contents of one file into another. This is a lot like copying a file. You already know how to do this with `cp`. Make a copy of `benjamin.txt` named `benjamin1.txt` using `cp`. That command will look like this: 
+Using `gc` by itself is helpful, but not that interesting. By combining it with redirection, we can do a lot more. For starters, we can put the contents of one file into another. This is a lot like copying a file. You already know how to do this with `cp`. Make a copy of `benjamin.txt` named `benjamin1.txt` using `cp`. That command will look like this:
 
-`cp benjamin.txt benjamin1.txt` 
+`cp benjamin.txt benjamin1.txt`
 
 Now, try to make `benjamin2.txt`, with the exact same contents as `benjamin.txt` but by using `gc` and redirection. See if you can figure out how to do this.
 
-In case you're stumped, here's the answer: 
+In case you're stumped, here's the answer:
 
 `gc benjamin.txt > benjamin2.txt`
 
 Of course, that's just a more cumbersome way to do what we can already do with `cp`. The difference in these methods is substantial, though, because using `gc` we can append information to a text without replacing what is already there, and we can also get the contents of multiple texts and put them into another text.
 
-First, let's look at appending. We need something to append, so let's make a new text called `next.txt` and write to it the sentence "By making many reproductions it substitutes a plurality of copies for a unique existence." We could make our file first with `ni`, but we don't need to. If we tell PowerShell to write to a file that isn't there, it will make the file for us. Thus we can just enter 
+First, let's look at appending. We need something to append, so let's make a new text called `next.txt` and write to it the sentence "By making many reproductions it substitutes a plurality of copies for a unique existence." We could make our file first with `ni`, but we don't need to. If we tell PowerShell to write to a file that isn't there, it will make the file for us. Thus we can just enter
 
-`write "By making many reproductions it substitutes a plurality of copies for a unique existence." > next.txt` 
+`write "By making many reproductions it substitutes a plurality of copies for a unique existence." > next.txt`
 
 Use `gc` to check that `next.txt` really is what we want it to be.
 
-Now, let's add the content of `next.txt` to `benjamin.txt` using `gc` and redirection. Seems simple enough, right? Try entering 
+Now, let's add the content of `next.txt` to `benjamin.txt` using `gc` and redirection. Seems simple enough, right? Try entering
 
-`gc next.txt > benjamin.txt` 
+`gc next.txt > benjamin.txt`
 
-Then, check what happened with `gc benjamin.txt`. You will see that you have indeed put the content of `next.txt` into `benjamin.txt`, but that you've *replaced* the content that was already there. This isn't what we wanted to do! 
+Then, check what happened with `gc benjamin.txt`. You will see that you have indeed put the content of `next.txt` into `benjamin.txt`, but that you've *replaced* the content that was already there. This isn't what we wanted to do!
 
-Using `>`, we just told PowerShell to put the content of one text into another, and it overwrote what was already there. We can fix this by using `>>` for our redirection instead of just a single `>`. This tells PowerShell to append the new information. Try this: 
+Using `>`, we just told PowerShell to put the content of one text into another, and it overwrote what was already there. We can fix this by using `>>` for our redirection instead of just a single `>`. This tells PowerShell to append the new information. Try this:
 
-`gc next.txt >> benjamin1.txt` 
+`gc next.txt >> benjamin1.txt`
 
 Use `gc` to see that `benjamin1.txt` now has both sentences.
 
@@ -345,39 +346,39 @@ Now, let's see about getting the contents of multiple files at the same time.
 
 You should now have four files in your directory, each with one or two sentences from Walter Benjamin's artwork essay in it. You might be losing track of what exactly is in them. Let's use `gc` to check the contents.
 
-We could look at each one individually. As you may have guessed, though, you can display all four with one command. Enter 
+We could look at each one individually. As you may have guessed, though, you can display all four with one command. Enter
 
 `gc benjamin.txt, benjamin1.txt, benjamin2.txt, next.txt`
 
-and you'll get your sentence printed out three times. We can do this even more quickly. Try entering 
+and you'll get your sentence printed out three times. We can do this even more quickly. Try entering
 
-`gc *.txt` 
+`gc *.txt`
 
 The result will be exactly the same thing. What the `*.txt` does is tell PowerShell to find anything ending with `.txt`. The `*` is called a **wildcard**, and can be used to replace any part of a file name. Try typing `gc ben*`, and you'll get only the texts that begin with "ben". Since the only files in this directory are the four we want, you can even type `gc *` and get the content we're interested in by having PowerShell get the content of *everything* in the directory.
 
 ### Searching with `Select-String` (`sls`)
 
-Of course, we don't always want to see everything. Often, we want to find specific content. Using `*`, we can search multiple files at the same time. One of our sentences had something about "unique existence," didn't it? Where was that? We can use the `Select-String` cmdlet to search for specific bits of text. Enter 
+Of course, we don't always want to see everything. Often, we want to find specific content. Using `*`, we can search multiple files at the same time. One of our sentences had something about "unique existence," didn't it? Where was that? We can use the `Select-String` cmdlet to search for specific bits of text. Enter
 
-`sls "unique existence" *.txt` 
+`sls "unique existence" *.txt`
 
 and PowerShell will spit out all the lines containing that string from any file in our directory ending in `.txt`.
 
-Using `sls` on files as small as ours won't save us all that much time over reading the files ourselves. But using this cmdlet with larger numbers of longer files can be extraordinarily helpful. 
+Using `sls` on files as small as ours won't save us all that much time over reading the files ourselves. But using this cmdlet with larger numbers of longer files can be extraordinarily helpful.
 
 ### Infinite Loops and Aborting with `control-c`
 
 Let's look at one more useful task we can accomplish by combining `gc`, wildcards, and redirection. Suppose we have numerous different files we want to combine together into another file, for instance because we've downloaded hundreds of song lyrics we want to analyze, and want to group all the ones by a certain artist into a single file. Although we could do this by listing them all out, i.e. `gc text1, text2, text3 > newtext`, if we have a hundred texts, this will be pretty cumbersome. This is what wildcards are for.
 
-Let's try concatenating all four of our texts and putting the result into a fifth text. Using `*.txt` might seem a handy helper. **We are about to do something foolish, so please read the next paragraph before typing this command!** 
+Let's try concatenating all four of our texts and putting the result into a fifth text. Using `*.txt` might seem a handy helper. **We are about to do something foolish, so please read the next paragraph before typing this command!**
 
-Let's try 
+Let's try
 
-`gc *.txt > bigben.txt` 
+`gc *.txt > bigben.txt`
 
-Your computer will appear to do nothing. But unlike other times when your computer has apparently done nothing, this time, the command prompt doesn't come back up. If you try to type another command, nothing will happen. This is because PowerShell is still working on your last command. As you do more and more complicated things with PowerShell, this will sometimes happen - you're making your computer sweat! In this case, however, PowerShell will never stop working on this command, because it is in an infinite loop! Fortunately, you can abort this task with 
+Your computer will appear to do nothing. But unlike other times when your computer has apparently done nothing, this time, the command prompt doesn't come back up. If you try to type another command, nothing will happen. This is because PowerShell is still working on your last command. As you do more and more complicated things with PowerShell, this will sometimes happen - you're making your computer sweat! In this case, however, PowerShell will never stop working on this command, because it is in an infinite loop! Fortunately, you can abort this task with
 
-`control-c` 
+`control-c`
 
 Using `control-c` like this is very handy, as you may sometimes accidentally get caught in a loop, or you may just get sick of waiting for your computer to do certain extremely long tasks.
 
@@ -387,7 +388,7 @@ How did we just get stuck in that loop? We told PowerShell to put all files endi
 
 We have seen that your computer needs to have things told to it in very exact ways. Fortunately, PowerShell provides methods for refining cmdlets by adding parameters.
 
-Let's look at an example. Use `gci` and you should see that you have five files in your directory. One of them, `bigben.txt`, is very large. Enter 
+Let's look at an example. Use `gci` and you should see that you have five files in your directory. One of them, `bigben.txt`, is very large. Enter
 
 `gc bigben.txt`
 
@@ -395,21 +396,21 @@ PowerShell will start dumping an inordinate amount of text onto the screen. You 
 
 What we really want to see is just that `bigben.txt` really is comprised of the lines of the other texts, repeated over and over again. We can do this by looking only at the beginning and ending, and for this, we add a **parameter** to our cmdlet.
 
-Enter this: 
+Enter this:
 
-`gc bigben.txt -totalcount 10` 
+`gc bigben.txt -totalcount 10`
 
-You will see the first 10 lines of your text. Make sure to include the hyphen, as otherwise PowerShell will not know that `-TotalCount` is a parameter. Now enter 
+You will see the first 10 lines of your text. Make sure to include the hyphen, as otherwise PowerShell will not know that `-TotalCount` is a parameter. Now enter
 
-`gc bigben.txt -tail 10` 
+`gc bigben.txt -tail 10`
 
 and you will see the last 10 lines. What we have done is specified our `gc` cmdlet with the parameters `-totalcount` and `-tail`. Almost all cmdlets can be refined by adding parameters like this. But how do we know what parameters are available?
 
 ### Finding out more with `Get-Help`
 
-PowerShell does not expect you to memorize all the possible parameters for all the cmdlets. Instead, it provides an easy way to list them off using the cmdlet `Get-Help`. Enter 
+PowerShell does not expect you to memorize all the possible parameters for all the cmdlets. Instead, it provides an easy way to list them off using the cmdlet `Get-Help`. Enter
 
-`Get-Help gc` 
+`Get-Help gc`
 
 and you'll get a screen that looks like this:
 
@@ -417,7 +418,7 @@ and you'll get a screen that looks like this:
 
 Your page may be slightly different, but the important part to look at right now is the section labeled "SYNTAX." This shows us all of the parameters we can add to `Get-Content`. If you're just trying to remember the exact name of a parameter you've used before, this will be enough to jog your memory. But it doesn't tell us what the parameters actually do.
 
-Fortunately, `Get-Help` itself has parameters, and by adding `-online` to your `Get-Help` cmdlet, you tell PowerShell to ask your browser to open a page on Microsoft's TechNet portal that explains all the parameters in plain English. Enter 
+Fortunately, `Get-Help` itself has parameters, and by adding `-online` to your `Get-Help` cmdlet, you tell PowerShell to ask your browser to open a page on Microsoft's TechNet portal that explains all the parameters in plain English. Enter
 
 `Get-Help gc -online`
 
@@ -425,11 +426,11 @@ Fortunately, `Get-Help` itself has parameters, and by adding `-online` to your `
 
 Here we can see the actual description of the parameters `-TotalCount` and `-Tail`.
 
-### Solving the Infinite Loop Problem with the `-exclude` Parameter 
+### Solving the Infinite Loop Problem with the `-exclude` Parameter
 
 Look again at the help for `Get-Content`, and you'll see that one of the possible parameters is `-exclude`. This sounds promising for dealing with our infinite loop problem! The description online reads: "Omits the specified items. The value of this parameter qualifies the **Path** parameter. Enter a path element or pattern, such as '\*.txt'. Wildcards are permitted." This sounds *very* promising. The "Path parameter" is (usually) the thing you write immediately after your cmdlet. It tells PowerShell where to apply the cmdlet. When we type `gc benjamin.txt`, `benjamin.txt` is the path. It is actually shorthand for `.\benjamin.txt`, which in turn is shorthand for `C:\Users\YOURUSERNAME\funWithPowerShell\dir\benjamin.txt`. That line tells your computer the path to follow through the tree-like structure of your file system in order to find the file you want. What help is telling us, then, is that we can omit specified items from our `gc` cmdlet by adding the parameter `-exclude` and then entering the path we want it to exclude. We can use this to take the contents of all of our `.txt` files and put them into a new file without creating an infinite loop. See if you can figure out what to type, using what we did with `-totalcount` and `-tail` as a reference.
 
-Here's what I did. I first deleted my current bigben.txt with `rm`. (This isn't really necessary, since using a single `>` on my redirect will replace the current contents anyway, but it's nice to have a clean start!) Then I entered 
+Here's what I did. I first deleted my current bigben.txt with `rm`. (This isn't really necessary, since using a single `>` on my redirect will replace the current contents anyway, but it's nice to have a clean start!) Then I entered
 
 `gc *.txt -exclude bigben.txt > bigben.txt`
 
@@ -443,17 +444,17 @@ So now we have five documents in our directory. In order to be able to do really
 
 We are going to get even more mileage out of `gc`, this time by piping its results to the cmdlet `measure-object` (or just `measure`). This latter cmdlet measures various properties. For our purposes, we will use it to get the number of lines, words, and characters in our files by adding the parameters `-line`, `-word`, and `-character`, or just `-l`, `-w`, `-c`. (With parameters, you only need to type as much of the name as necessary to identify the parameter in question. Use `Get-Help` to figure out what that will be for a given cmdlet.)
 
-Enter this: 
+Enter this:
 
-`gc benjamin.txt | measure -l -w -c` 
+`gc benjamin.txt | measure -l -w -c`
 
 You should get a count of the lines, words, and characters in the text. Of course, you could do this easily enough with your word processor. The power of working on the command-line comes from being able to manipulate lots of things at once and being able to specify what we want done with extra precision. In this example, this means we can count words in multiple of our files at once, and that we can add additional parameters to specify exactly how we want to count them.
 
-See if you can get a count for the lines, words, and characters in all the files. It should be no surprise to you that the wildcard (`*`) can help you here. For instance, you could enter 
+See if you can get a count for the lines, words, and characters in all the files. It should be no surprise to you that the wildcard (`*`) can help you here. For instance, you could enter
 
-`gc *.txt | measure -l -w -c` 
+`gc *.txt | measure -l -w -c`
 
-With our five small files, this still doesn't result in much, but it would have taken longer using the word processor, and we could also do it with a directory containing thousands of lengthy files. We can also control our actions more precisely with additional parameters. Use `Get-Help measure` to see the parameters at your disposal. We could go to the online help to learn more about them, but for now let's just use one that's self-explanatory as an example: `-IgnoreWhiteSpace`. 
+With our five small files, this still doesn't result in much, but it would have taken longer using the word processor, and we could also do it with a directory containing thousands of lengthy files. We can also control our actions more precisely with additional parameters. Use `Get-Help measure` to see the parameters at your disposal. We could go to the online help to learn more about them, but for now let's just use one that's self-explanatory as an example: `-IgnoreWhiteSpace`.
 
 Use the up-arrow to get your last command back, and add `-ignorewhitespace` to the end. (You can also just type `-ig`, but `-i` alone is not sufficient, because it doesn't differentiate the `-IgnoreWhiteSpace` parameter from the `-InputObject` parameter, as a helpful error message will tell you if you try it.) You'll see the same count, but with fewer characters, because this time PowerShell didn't count the spaces. The advantage of precision is clear over using a word processor, where it is difficult to determine whether or not white space is being ignored in the first place, let alone to toggle the feature.
 
@@ -463,7 +464,7 @@ The most important reason to become familiar with using the command line is not 
 
 If you don't already have Python, or if you wonder why you would want to use it, check out the [Python tutorial](/lessons/introduction-and-installation) right here on *The Programming Historian*. In that tutorial, you will learn to set up Python to run scripts directly in an editor. It will often be more useful to be able to run scripts from the command line. In order to do that, we need to set an environment variable. First, you need to know the name of the directory where Python is installed on your computer. Enter `sl C:\` and then use `gci`. You should see a directory named "Python" with the version number at the end. On my computer, the directory is "Python27." Now we tell Windows to create a Path variable pointing to that directory by entering this into PowerShell, replacing "Python27" with the name of the directory on your computer:
 
-`[Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python27", "User")` 
+`[Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python27", "User")`
 
 This tells Windows: "Hey, the path for Python is C:\Python27." If you want to understand exactly how this works, look at [this page](https://technet.microsoft.com/en-us/library/ff730964.aspx) on Microsoft's TechNet portal (the same portal you get to using the `-online` parameter with `Get-Help`).
 
@@ -483,26 +484,26 @@ The more you use PowerShell, the easier it will be, and the more you will learn 
 
 This table serves as a quick reference to all the cmdlets discussed in this lesson. The first column shows the actual name; the second shows what you will normally type instead. The Bash equivalent shows the most similar command in Bash. Unless this command is in parentheses, it can also be used in PowerShell as an alias for the corresponding cmdlet. (Linux and OS X users, please see the note below.) For a more complete explanation of any of the cmdlets, use `Get-Help` with the `-online` parameter (e.g. `Get-Help Get-ChildItem -online`.)
 
-| Cmdlet | Alias | Bash Equivalent | Description |
-| ------- | ------- | ------- | ------- |
-| `Get-ChildItem` | `gci` | `ls` | List the directories and files in the current location. | 
-| `Set-Location` | `sl` | `cd` | Change to the directory at the given path. Typing `..` rather than a path will move up one directory. |
-| `Push-Location` | `pushd` | `pushd` | Changes to the directory. |
-| `Pop-Location` | `popd` | `popd` | Changes back to the previous directory after using `pushd` |
-| `New-Item` | `ni` | (`touch`) | Creates a new item. Used with no parameter, the item is by default a file. Using `mkdir` is a shortcut for including the parameter `-ItemType dir`. |
-| `mkdir` | none | `mkdir` | Creates a new directory. (See `New-Item`.) |
-| `Explorer` | none | (`open`) | Open something using File Explorer (the GUI) |
-| `Remove-Item` | `rm` | `rm` | Deletes something. Permanently! |
-| `Move-Item` | `mv` | `mv` | Moves something. Takes two arguments - first a filename (i.e. its present path), then a path for its new location (including the name it should have there). By not changing the path, it can be used to rename files. |
-| `Copy-Item` | `cp` | `cp` | Copies a file to a new location. Takes same arguments as move, but keeps the original file in its location. |
-| `Write-Output` | `write` | `echo` | Outputs whatever you type. Use redirection to output to a file. Redirection with `>>` will add to the file, rather than overwriting contents. |
-| `Get-Content` | `gc` | `cat` | Gets the contents of a file and prints it to the screen. Adding the parameter `-TotalCount` followed by a number x prints only the first x lines. Adding the parameter `-Tail` followed by a number x prints only the final x lines. |
-| `Select-String` | `sls` | (`grep`) | Searches for specific content. |
-| `Measure-Object` | `measure` | (`wc`) | Gets statistical information about an object. Use `Get-Content` and pipe the output to `Measure-Object` with the parameters `-line`, `-word`, and `-character` to get word count information. |
-| `>` | none | `>` |Redirection. Puts the output of the command to the left of `>` into a file to the right of `>`. |
-| `|` | none | `|` |Piping. Takes the output of the command to the left and uses it as the input for the command to the right. |
-| `Get-Help` | none | `man` | Gets the help file for a cmdlet. Adding the parameter `-online` opens the help page on TechNet. |
-| `exit` | none | `exit` | Exits PowerShell |
+| Cmdlet           | Alias     | Bash Equivalent | Description                                                                                                                                                                                                                          |
+| ---------------- | --------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `Get-ChildItem`  | `gci`     | `ls`            | List the directories and files in the current location.                                                                                                                                                                              |
+| `Set-Location`   | `sl`      | `cd`            | Change to the directory at the given path. Typing `..` rather than a path will move up one directory.                                                                                                                                |
+| `Push-Location`  | `pushd`   | `pushd`         | Changes to the directory.                                                                                                                                                                                                            |
+| `Pop-Location`   | `popd`    | `popd`          | Changes back to the previous directory after using `pushd`                                                                                                                                                                           |
+| `New-Item`       | `ni`      | (`touch`)       | Creates a new item. Used with no parameter, the item is by default a file. Using `mkdir` is a shortcut for including the parameter `-ItemType dir`.                                                                                  |
+| `mkdir`          | none      | `mkdir`         | Creates a new directory. (See `New-Item`.)                                                                                                                                                                                           |
+| `Explorer`       | none      | (`open`)        | Open something using File Explorer (the GUI)                                                                                                                                                                                         |
+| `Remove-Item`    | `rm`      | `rm`            | Deletes something. Permanently!                                                                                                                                                                                                      |
+| `Move-Item`      | `mv`      | `mv`            | Moves something. Takes two arguments - first a filename (i.e. its present path), then a path for its new location (including the name it should have there). By not changing the path, it can be used to rename files.               |
+| `Copy-Item`      | `cp`      | `cp`            | Copies a file to a new location. Takes same arguments as move, but keeps the original file in its location.                                                                                                                          |
+| `Write-Output`   | `write`   | `echo`          | Outputs whatever you type. Use redirection to output to a file. Redirection with `>>` will add to the file, rather than overwriting contents.                                                                                        |
+| `Get-Content`    | `gc`      | `cat`           | Gets the contents of a file and prints it to the screen. Adding the parameter `-TotalCount` followed by a number x prints only the first x lines. Adding the parameter `-Tail` followed by a number x prints only the final x lines. |
+| `Select-String`  | `sls`     | (`grep`)        | Searches for specific content.                                                                                                                                                                                                       |
+| `Measure-Object` | `measure` | (`wc`)          | Gets statistical information about an object. Use `Get-Content` and pipe the output to `Measure-Object` with the parameters `-line`, `-word`, and `-character` to get word count information.                                        |
+| `>`              | none      | `>`             | Redirection. Puts the output of the command to the left of `>` into a file to the right of `>`.                                                                                                                                      |
+| `|`              | none      | `|`             | Piping. Takes the output of the command to the left and uses it as the input for the command to the right.                                                                                                                           |
+| `Get-Help`       | none      | `man`           | Gets the help file for a cmdlet. Adding the parameter `-online` opens the help page on TechNet.                                                                                                                                      |
+| `exit`           | none      | `exit`          | Exits PowerShell                                                                                                                                                                                                                     |
 
 Remember the keyboard shortcuts of `tab` for auto-completion and the up and down arrows to scroll through recent commands. These shortcuts can save a lot of typing!
 

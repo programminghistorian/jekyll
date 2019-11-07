@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Topic Modeling and MALLET 
+title: Getting Started with Topic Modeling and MALLET
 layout: lesson
 date: 2012-09-02
 authors:
@@ -18,6 +18,7 @@ activity: analyzing
 topics: [distant-reading]
 abstract: "In this lesson you will first learn what topic modeling is and why you might want to employ it in your research. You will then learn how to install and work with the MALLET natural language processing toolkit to do so."
 redirect_from: /lessons/topic-modeling-and-mallet
+avatar_alt: A man striking an anvil with a large hammer
 ---
 
 {% include toc.html %}
@@ -284,7 +285,7 @@ recognized as an internal or external command, operable program, or
 batch file. This is because we forgot to tell the computer to look in
 the MALLET `bin` for it. Try again, with
 
-``` 
+```
 bin\mallet import-dir --help
 ```
 
@@ -330,7 +331,7 @@ to first the `web` then the `en` directories. You can look inside these
 Note that you cannot now run any MALLET commands from this directory.
 Try it:
 
-``` 
+```
 bin\mallet import-dir --help
 ```
 
@@ -355,7 +356,7 @@ original texts in the order in which they were listed, and strip out the
 such frequencies that they obstruct analysis) using the default English
 `stop-words` dictionary. Try the following, which will use sample data.
 
-``` 
+```
 bin\mallet import-dir --input sample-data\web\en --output tutorial.mallet --keep-sequence --remove-stopwords
 ```
 
@@ -367,13 +368,13 @@ format that MALLET can work with.
 
 Try running it again now with different data. For example, let's imagine we wanted to use the German sample data instead. We would use:
 
-``` 
+```
 bin\mallet import-dir --input sample-data\web\de --output tutorial.mallet --keep-sequence --remove-stopwords
 ```
 
 And then finally, you could use your own data. Change `sample-data\web\de` to a directory that contains your own research files. Good luck!
 
-If you are unsure how directories work, we suggest the *Programming Historian* lesson ["Introduction to the Bash Command Line"](/lessons/intro-to-bash). 
+If you are unsure how directories work, we suggest the *Programming Historian* lesson ["Introduction to the Bash Command Line"](/lessons/intro-to-bash).
 
 ### For Mac
 
@@ -421,7 +422,7 @@ Your first topic model
 
 At the command prompt in the MALLET directory, type:
 
-``` 
+```
 bin\mallet train-topics  --input tutorial.mallet
 ```
 
@@ -438,7 +439,7 @@ statistically significant topic, per the routine. In Figure 8, the first
 topic it prints out might look like this (your key words might look a
 bit different):
 
-``` 
+```
 0    5    test cricket Australian hill acting England northern leading ended innings record runs scored run team batsman played society English
 ```
 
@@ -456,8 +457,8 @@ Go back to the main MALLET directory, and type `dir`. You will see
 that there is no output file. While we successfully created a topic
 model, we did not save the output! At the command prompt, type
 
-``` 
-bin\mallet train-topics  --input tutorial.mallet --num-topics 20 --output-state topic-state.gz --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_compostion.txt 
+```
+bin\mallet train-topics  --input tutorial.mallet --num-topics 20 --output-state topic-state.gz --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_compostion.txt
 ```
 
 Here, we have told MALLET to create a topic model (`train-topics`) and
@@ -493,20 +494,20 @@ number 2.5).
 
 If when you ran the topic model routine you had included
 
-``` 
+```
 --optimize-interval 20
 ```
 
 as below
 
-``` 
+```
 bin\mallet train-topics  --input tutorial.mallet  --num-topics 20 --optimize-interval 20 --output-state topic-state.gz  --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_composition.txt
 ```
 
 the output might look like this:
 
-``` 
-0 0.02995 xi ness regular asia online cinema established alvida acclaim veenr commercial 
+```
+0 0.02995 xi ness regular asia online cinema established alvida acclaim veenr commercial
 ```
 
 That is, the first number is the topic (topic 0), and the second number
@@ -525,12 +526,12 @@ proportion, etc., as in figure 10.
 {% include figure.html filename="fig-10-topic-composition.png" caption="Figure 10: Topic Composition" %}
 
 This can be a somewhat difficult file to read. The topics begin in the third
-column, in this case Column C, and continue until the last topic in Column V. 
-This is because we have trained 20 topics – if we trained 25, for example, 
-they would run until column AA. 
+column, in this case Column C, and continue until the last topic in Column V.
+This is because we have trained 20 topics – if we trained 25, for example,
+they would run until column AA.
 
 From this, you can see that doc\# 0 (ie, the first document loaded into MALLET),
-`elizabeth_needham.txt` has topic 0 at a percentage of 0.43% (column C). 
+`elizabeth_needham.txt` has topic 0 at a percentage of 0.43% (column C).
 We can see that topic 17 is the principal topic, at 59.05%, by locating the highest
 value. Your own topics may be different given the nature of MALLET.
 

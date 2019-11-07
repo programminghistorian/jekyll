@@ -20,6 +20,7 @@ list of words from a language with a non-Latin alphabet to a
 standardized format using the American Standard Code for Information
 Interchange (ASCII) characters."
 redirect_from: /lessons/transliterating
+avatar_alt: A set of Cyrillic characters
 ---
 
 {% include toc.html %}
@@ -163,7 +164,7 @@ The encoding is assigned to the variable called ‘*encoding*’. You can
 check to see if this worked by printing the ‘*encoding*’ variable. Now we
 can tell Python how to read the page as Unicode. Using the
 `str(object [, encoding])` method turns a text encoded in a specific encoding
-into a generic Unicode string. A Unicode string cannot only contain ASCII 
+into a generic Unicode string. A Unicode string cannot only contain ASCII
 characters, but also
 special characters. If the original text is in a non-ASCII character set,
 like here with ‘windows-1251’, we have to use the optional encoding
@@ -184,7 +185,7 @@ content[200:300]
 
 As you can see, the Cyrillic characters are mixed with the ASCII characters
 of the HTML code. But typing these can be cumbersome without a corresponding
-keyboard layout. Alternatively, the Unicode characters can be typed using 
+keyboard layout. Alternatively, the Unicode characters can be typed using
 special codes that represent the characters using their Unicode number.
 You can see the text as represented by Unicode numbers using the special ‘*unicode-escape*’ encoding:
 
@@ -377,7 +378,7 @@ to include the entire first entry and the beginning of the second:
 ```
 ="list-right">
 <li><p class="name"><a name="n1"></a>A-Aku Tulikovich </p><p class="cont">
-Rodilsia v 1913 g., Kamchatskaia gub., Tigil'skii r-n, stoibishcha Utkholok; koriak-kochevnik;  malogramotnyi; b/p; 
+Rodilsia v 1913 g., Kamchatskaia gub., Tigil'skii r-n, stoibishcha Utkholok; koriak-kochevnik;  malogramotnyi; b/p;
 
 <br />Arestovan  12 noiabria 1938 g.
 <br />Prigovoren: Koriakskii okrsud 8 aprelia 1939 g., obv.: po st. 58-2-8-9-10-11 UK RSFSR.

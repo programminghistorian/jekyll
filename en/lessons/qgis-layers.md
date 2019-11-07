@@ -22,6 +22,7 @@ and raster layers."
 next: vector-layers-qgis
 previous: googlemaps-googleearth
 redirect_from: /lessons/qgis-layers
+avatar_alt: Elevation view view of a mountain range
 ---
 
 {% include toc.html %}

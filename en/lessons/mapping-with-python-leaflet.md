@@ -15,6 +15,7 @@ topics: [mapping]
 abstract: "This tutorial teaches users how to create a web map based on tabular data."
 layout: lesson
 redirect_from: /lessons/mapping-with-python-leaflet
+avatar_alt: Map of a mountainous terrain
 ---
 
 {% include toc.html %}
@@ -154,13 +155,13 @@ def get_longitude(x):
 ```
 Next, select the geolocator you want to use.  Here we're creating two geolocators: Open Street Map's Nominatim and Google's Geocoding API.  Here's a quick comparison:
 
-| Geolocator | Nominatim()  | GoogleV3() |
-| --- | ------------- | ------------- |
-| affiliation | OpenStreetMap  | Google |
-| application use | single-threaded applications, can only run geolocator one process at a time  | can upgrade for better performance  |
-| capabilities for app development  | can geocode based on user-input | only geocodes static addresses (Google's non-static geocoding service not in geopy)  |
-| request limit | 1 request/s or timeout | 5 requests/s, 2500/day |
-| performance test on census data | 33.5s | 11.6s |
+| Geolocator                       | Nominatim()                                                                 | GoogleV3()                                                                          |
+| -------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| affiliation                      | OpenStreetMap                                                               | Google                                                                              |
+| application use                  | single-threaded applications, can only run geolocator one process at a time | can upgrade for better performance                                                  |
+| capabilities for app development | can geocode based on user-input                                             | only geocodes static addresses (Google's non-static geocoding service not in geopy) |
+| request limit                    | 1 request/s or timeout                                                      | 5 requests/s, 2500/day                                                              |
+| performance test on census data  | 33.5s                                                                       | 11.6s                                                                               |
 
 You can also choose a different geolocator from the list found in [the geopy documentation](http://geopy.readthedocs.org/). Generally, GoogleV3 is a reliable geolocator choice because of their large geographic data coverage and generous quotas. For more information about choosing geolocators, you can follow the discussion in the [geopy repository on Github](https://github.com/geopy/geopy/issues/90).
 

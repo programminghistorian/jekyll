@@ -1,5 +1,5 @@
 ---
-title: Python Introduction and Installation 
+title: Python Introduction and Installation
 layout: lesson
 date: 2012-07-17
 authors:
@@ -21,6 +21,7 @@ will focus on installing the relevant software – all free and reputable
 – and finally we will help you to get your toes wet with some simple
 programming that provides immediate results."
 redirect_from: /lessons/introduction-and-installation
+avatar_alt: A curled-up snake
 ---
 
 {% include toc.html %}
@@ -48,10 +49,10 @@ write your first programs, "Hello World" in Python and HTML.
 the Python Programming Language
 -------------------------------
 
-The programming language we will use in this series of lessons is Python, 
-a free, open source language. Unless otherwise noted, we will be using 
-**Python 3** throughout. Version 2 is no longer officially supported, 
-but you might still find it used in older projects or lessons. 
+The programming language we will use in this series of lessons is Python,
+a free, open source language. Unless otherwise noted, we will be using
+**Python 3** throughout. Version 2 is no longer officially supported,
+but you might still find it used in older projects or lessons.
 [Python 3 has a few differences in formatting](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html) (think grammar rules), so beware if you find examples online that still use Python 2. They might not run under current versions of Python.
 
 Backup Your Work!

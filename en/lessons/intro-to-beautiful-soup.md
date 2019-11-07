@@ -15,6 +15,7 @@ exclude_from_check:
   - review-ticket
   - reviewers
 redirect_from: /lessons/intro-to-beautiful-soup
+avatar_alt: A soup tureen
 ---
 
 {% include toc.html %}
@@ -87,7 +88,7 @@ Additionally, you will need to install a "parser" for interpreting the HTML. To 
 pip install lxml
 ```
 
-or 
+or
 
 ```
 sudo pip install lxml
@@ -99,7 +100,7 @@ Finally, so that this code works with either Python2 or Python3, you will need o
 pip install future
 ```
 
-or 
+or
 
 ```
 sudo pip install future
@@ -428,7 +429,7 @@ soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
 
 final_link = soup.p.a
 final_link.decompose()
-    
+
 trs = soup.find_all('tr')
 for tr in trs:
     print(tr)
