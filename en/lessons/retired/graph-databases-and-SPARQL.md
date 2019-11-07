@@ -20,8 +20,8 @@ redirect_from:
 - /lessons/graph-databases-and-SPARQL
 - /en/lessons/graph-databases-and-SPARQL
 retired: true
-retirement_reason: |
-  The British Museum has failed to consistently maintain their collections database in a consistent and reliably-accessible manner. Although the SPARQL syntax and commands remain correct, the URLs they attempt to connect to have become too unreliable to use in a working lesson.
+retirement-reason: |
+  The British Museum has failed to maintain their collections database in a consistent and reliably-accessible manner. Although the SPARQL syntax and commands remain correct, the URLs they attempt to connect to have become too unreliable to use in a working lesson.
 ---
 
 Lesson Goals
