@@ -43,7 +43,6 @@
     fr: |
         Adam Crymble est maître de conférences en histoire numérique à l'Université du Hertfordshire.
   team_roles:
-   - editorial
    - board
    - team-development-manager
    - global
@@ -116,8 +115,6 @@
         Maria José Afanador-Llach est maître de conférences en Humanités numériques et histoire à l'Université de los Andes, (Bogota, Colombie).
   team_roles:
    - spanish
-   - managing-es
-   - ombuds-es
    - board
 
 - name: Víctor Gayol
@@ -527,6 +524,34 @@
    - technical-lead
    - board
 
+- name: Sarah Melton
+  github: svmelton
+  email: sarah.melton@bc.edu
+  twitter: worldcatlady
+  url: "http://sarahvmelton.com"
+  team: true
+  team_start: 2019
+  institution: Boston College
+  sortname: Melton
+  affiliation:
+    en: |
+        Boston College, USA.
+    es: |
+        Boston College, Estados Unidos.
+    fr: |
+        Boston College, États-Unis.
+  bio:
+    en: |
+        Sarah Melton is the Head of Digital Scholarship at Boston College.
+    es: |
+        Sarah Melton es la jefa de estudios digitales del Boston College.
+    fr: |
+        Sarah Melton est responsable des études numériques au Boston College.
+  team_roles:
+   - editorial
+   - managing-en
+   - board
+
 - name: Sarah Simpkin
   team: false
   bio:
@@ -743,7 +768,7 @@
 
 - name: Anandi Silva Knuppel
   github: alsalin
-  email: anandi.silva.knuppel@emory.edu
+  email: anandi.silva.knuppel@gmail.com
   twitter: anandilila
   url: "http://anandileela.com"
   team: true
@@ -946,27 +971,27 @@
   team_start: 2018
   sortname: Laramée
   orcid: 0000-0001-5542-3754
-  institution: Université de Montréal
+  institution: University of Ottawa
   affiliation:
       en: |
-          University of Montreal, Canada
+          University of Ottawa, Canada
       fr: |
-          Université de Montréal, Canada
+          Université d'Ottawa, Canada
       es: |
-          Universidad de Montréal, Canadá
+          Universidad de Ottawa, Canadá
   team_roles:
     - french
     - board
     - ombuds-fr
   bio:
       en: |
-          François Dominic Laramée is a doctoral candidate in history at the Université de Montréal, in Canada.
+          François Dominic Laramée is a postdoctoral fellow in digital history of medicine at the University of Ottawa, in Canada.
           He holds master's degrees in computer science and U.S. history and is a former video game designer, TV personality and screenwriter.
       fr: |
-          François Dominic Laramée est doctorant en histoire à l'Université de Montréal, au Canada.
+          François Dominic Laramée est chercheur postdoctoral en histoire numérique de la médecine à l'Université d'Ottawa, au Canada.
           Détenteur de maîtrises en histoire des États-Unis et en informatique, il est aussi un ancien concepteur de jeux vidéo, scénariste et artiste de la télévision au Québec.
       es: |
-          François Dominic Laramée es doctorando en Historia en la Universidad de Montréal, en Canadá.
+          François Dominic Laramée es investigador postdoctoral de historia digital de la medicina en la Universidad de Ottawa en Canadá.
           Tiene un máster en Informática y en Historia de los Estados Unidos; ha trabajado como desarrollador de videojuegos, escribiendo guiones para televisión y como artista en Québec.
 
 - name: Jeff Blackadar
@@ -975,6 +1000,33 @@
       en: |
           Jeff Blackadar is a part-time undergraduate history student at Carleton University. His career is in the field of information technology.
 
+- name: Martin Grandjean
+  email: martin.grandjean@unil.ch
+  twitter: grandjeanmartin
+  github: grandjeanmartin
+  url: "http://www.martingrandjean.ch"
+  team: true
+  team_start: 2019
+  institution: University of Lausanne
+  sortname: Grandjean
+  orcid: 0000-0003-3184-3943
+  affiliation:
+        en: |
+            University of Lausannne (Switzerland)
+        fr: |
+            Université de Lausanne (Suisse)
+        es: |
+            Universidad de Lausanne (Suiza)
+  team_roles:
+    - french
+    - board
+  bio:
+        en: |
+            Martin Grandjean is a researcher in contemporary history at the University of Lausanne (Switzerland). His work focuses on the analysis and visualization of large historical data sets.
+        fr: |
+            Martin Grandjean est chercheur en histoire contemporaine à l'Université de Lausanne (Suisse). Ses travaux portent sur l'analyse et la visualisation de grands jeux de données historiques.
+        es: |
+            Martin Grandjean es investigador en historia contemporánea en la Universidad de Lausanne (Suiza). Su trabajo se enfoca en el análisis y la visualización de grandes conjuntos de datos históricos.
 
 - name: Sofia Papastamkou
   email: spapastamkou@gmail.com
@@ -1010,15 +1062,12 @@
   email: marie.puren1406@gmail.com
   twitter: MariePuren
   github: mpuren
-  team: true
+  team: false
   team_start: 2018
+  team_end: 2019
   institution: LARHRA
   sortname: Puren
   affiliation: LARHRA Lyon
-  team_roles:
-    - french
-    - board
-    - ombuds-fr
   bio:
         en: |
             Marie Puren is an historian and research engineer in the ALMAnaCH team at Inria Paris.
@@ -1112,6 +1161,7 @@
   team_roles:
     - spanish
     - board
+    - managing-es
     - global
 
 - name: Joshua G. Ortiz Baco
@@ -1164,3 +1214,21 @@
   bio:
       en: |
           Go Sugimoto is a data analyst at the Austrian Centre for Digital Humanities (ACDH) in the Austrian Academy of Sciences. He has worked for a wide range of cultural heritage projects around the world, including Europeana and Archives Portal Europe at the National Archives of the Netherlands, CHIRON fellowship at the University of Florence (Italy), the National Museum of Modern Art Tokyo (Japan), and Wessex Archaeology (UK).
+
+- name: Brad Rittenhouse
+  team: false
+  bio:
+      en: |
+           Brad Rittenhouse is the Lab Coordinator of the Digital Integrative Liberal Arts Center at the Georgia Institute of Technology, where he helps facilitate the integration of digital tools into research in a wide variety of humanities disciplines. His research is on the information logics of literary devices.
+
+- name: Ximin Mi
+  team: false
+  bio:
+      en: |
+           Ximin Mi manages the Data Visualization Lab and services at Georgia Tech Library. She holds a MS from iSchool from University of Illinois at Urbana-Champaign, and a MS of Education from Arizona State University.
+
+- name:  Courtney Allen
+  team: false
+  bio:
+      en: |
+           Courtney Allen is a second year MS-HCI student at Georgia Tech, in the School of Interactive Computing (College of Computing). She is a User Experience Reseacher, supporting design with data-driven choices and elements, and is a Graduate Teaching Assistant for Human-Computer Interaction MS Research Methods.

@@ -7,6 +7,7 @@ authors:
 - Adam Crymble
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 editors:
 - Miriam Posner
 difficulty: 2
@@ -17,7 +18,7 @@ topics: [python]
 abstract: "Counting the frequency of specific words in a list can provide illustrative data. This lesson will teach you Python's easy way to count such frequencies."
 next: creating-and-viewing-html-files-with-python
 previous: normalizing-data
-python_warning: true
+python_warning: false
 redirect_from: /lessons/counting-frequencies
 ---
 
@@ -65,7 +66,7 @@ for w in wordlist:
 print("String\n" + wordstring +"\n")
 print("List\n" + str(wordlist) + "\n")
 print("Frequencies\n" + str(wordfreq) + "\n")
-print("Pairs\n" + str(zip(wordlist, wordfreq)))
+print("Pairs\n" + str(list(zip(wordlist, wordfreq))))
 ```
 
 Here, we start with a string and split it into a list, as we’ve done
@@ -122,7 +123,7 @@ wordfreq = [wordlist.count(w) for w in wordlist] # a list comprehension
 print("String\n" + wordstring +"\n")
 print("List\n" + str(wordlist) + "\n")
 print("Frequencies\n" + str(wordfreq) + "\n")
-print("Pairs\n" + str(zip(wordlist, wordfreq)))
+print("Pairs\n" + str(list(zip(wordlist, wordfreq))))
 ```
 
 If you study this list comprehension carefully, you will discover that
@@ -150,6 +151,7 @@ access first a particular string in the list, and then a particular
 character within that string. Study the examples below.
 
 ``` python
+
 s = 'hello world'
 print(s[0])
 -> h
@@ -178,6 +180,7 @@ from it. You can, however, look them up by using a key (hence the name
 "dictionary"). Study the following example.
 
 ``` python
+
 d = {'world': 1, 'hello': 0}
 print(d['hello'])
 -> 0
@@ -215,7 +218,7 @@ of pairs. Copy the following and add it to the `obo.py` module.
 
 def wordListToFreqDict(wordlist):
     wordfreq = [wordlist.count(p) for p in wordlist]
-    return dict(zip(wordlist,wordfreq))
+    return dict(list(zip(wordlist,wordfreq)))
 ```
 
 We are also going to want a function that can sort a dictionary of
@@ -242,11 +245,11 @@ continuing.
 ``` python
 #html-to-freq.py
 
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-response = urllib2.urlopen(url)
+response = urllib.request.urlopen(url)
 html = response.read()
 text = obo.stripTags(html).lower()
 wordlist = obo.stripNonAlphaNum(text)
@@ -363,12 +366,12 @@ and execute it.
 ``` python
 # html-to-freq-2.py
 
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 import obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-response = urllib2.urlopen(url)
+response = urllib.request.urlopen(url)
 html = response.read()
 text = obo.stripTags(html).lower()
 fullwordlist = obo.stripNonAlphaNum(text)

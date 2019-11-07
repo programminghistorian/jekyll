@@ -7,6 +7,7 @@ authors:
 - Adam Crymble
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 editors:
 - Miriam Posner
 difficulty: 2
@@ -18,7 +19,7 @@ abstract: "In this two-part lesson, we will build on what you’ve learned about
 indexed, and counted."
 next: from-html-to-list-of-words-2
 previous: manipulating-strings-in-python
-python_warning: true
+python_warning: false
 redirect_from: /lessons/from-html-to-list-of-words-1
 ---
 
@@ -178,14 +179,15 @@ below.
 ``` python
 # trial-content.py
 
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-response = urllib2.urlopen(url)
+response = urllib.request.urlopen(url)
 HTML = response.read()
 
-print(obo.stripTags(HTML))
+print((obo.stripTags(HTML)))
+
 ```
 
 When you run *trial-content.py* it will get the web page for Bowsey’s

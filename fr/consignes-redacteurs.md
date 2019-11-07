@@ -16,12 +16,12 @@ Nous vous remercions d'assurer le travail éditorial pour une leçon du *Program
 Qu'il s'agisse du suivi éditorial d'une leçon originale ou d'une traduction, notre rôle n'est pas celui d'un gardien, comme dans les revues traditionnelles, mais d'apporter notre concours lors du processus d'écriture, de traduction, d'évaluation et de publication. Merci donc de prendre connaissance de nos [consignes de rédaction et de traduction](/fr/consignes-auteurs). Nous encourageons toujours les personnes susceptibles de rédiger une leçon de soumettre un plan détaillé de leurs idées avant d'entamer l'écriture. Si néanmoins un texte ne convient pas au *Programming Historian en français*, il nous incombe de le dire avant que l'auteur(e) ne s'avance trop dans la rédaction d'un tutoriel. Ainsi, nous espérons que cela évite à toutes et à tous de perdre du temps et de l'énergie. Une fois les discussions avec un(e) auteur(e) entamées et son idée encouragée, nous fournissons par la suite un soutien constant jusqu'à la publication de la leçon.
 
 ### Un espace d'échange sûr
-Le *Programming Historian en français* s'engage à fournir un espace sûr pour l'échange d'idées où personne n'aura peur de se faire harceler ou attaquer. Le rédacteur ou la rédactrice a un rôle fondamental pour le maintien de telles conditions car une de vos missions est de constamment renforcer notre politique contre le harcèlement. Si vous avez besoin d'aide, merci de vous adresser au reste du comité éditorial ou à l'un.e ou l'autre de nos médiateur et médiatrice [Marie Puren et François Dominic Laramée](/fr/equipe-projet). Vous pouvez vous renseigner davantage sur notre [engagement pour des espaces d'échange sûrs](/posts/PH-commitment-to-diversity) sur le blog du projet.
+Le *Programming Historian en français* s'engage à fournir un espace sûr pour l'échange d'idées où personne n'aura peur de se faire harceler ou attaquer. Le rédacteur ou la rédactrice a un rôle fondamental pour le maintien de telles conditions car une de vos missions est de constamment renforcer notre politique contre le harcèlement. Si vous avez besoin d'aide, merci de vous adresser au reste du comité éditorial ou notre médiateur [François Dominic Laramée](/fr/equipe-projet). Vous pouvez vous renseigner davantage sur notre [engagement pour des espaces d'échange sûrs](/posts/PH-commitment-to-diversity) sur le blog du projet.
 
 ### Politique contre le harcèlement
 Vous trouverez ci-dessous les principes du *Programming Historian en français* qui doivent inspirer les échanges entre évaluateurs et évaluatrices, auteur(e)s, rédacteurs et rédactrices, ainsi que toute personne contribuant à nos forums publics.
 
-Le *Programming Historian en français* tient à garantir un environnement académique ouvert à la communauté, qui offre la pleine liberté d'explorer minutieusement des idées, poser des questions, faire des suggestions ou demander des clarifications. Il fournit aussi un espace libre de toute discrimination envers les personnes contribuant au projet, indépendamment du genre, de l'orientation sexuelle, des situations d'handicap, de l'apparence physique, de la masse corporelle, de l'origine, de l'âge, de la religion ou de l'expérience technique. Nous ne tolérons aucune forme d'harcélement ou d'attaque personnelle contre les membres de la communauté. Les personnes qui violent ces règles sont susceptibles d'être expulsées de la communauté à la discrétion du conseil éditorial. Toute personne en mesure de témoigner de tels comportements ou qui en est la victime peut contacter l'un.e ou l'autre de nos médiateur et médiatrice [Marie Puren et François Dominic Laramée](/fr/equipe-projet). Merci de nous aider à créer un espace d'échange et de discussion sûr.
+Le *Programming Historian en français* tient à garantir un environnement académique ouvert à la communauté, qui offre la pleine liberté d'explorer minutieusement des idées, poser des questions, faire des suggestions ou demander des clarifications. Il fournit aussi un espace libre de toute discrimination envers les personnes contribuant au projet, indépendamment du genre, de l'orientation sexuelle, des situations d'handicap, de l'apparence physique, de la masse corporelle, de l'origine, de l'âge, de la religion ou de l'expérience technique. Nous ne tolérons aucune forme d'harcélement ou d'attaque personnelle contre les membres de la communauté. Les personnes qui violent ces règles sont susceptibles d'être expulsées de la communauté à la discrétion du conseil éditorial. Toute personne en mesure de témoigner de tels comportements ou qui en est la victime peut contacter notre médiateur [François Dominic Laramée](/fr/equipe-projet). Merci de nous aider à créer un espace d'échange et de discussion sûr.
 
 ### Suivi des leçons proposées
 Lorsqu'une proposition de leçon reçoit le feu vert par l'équipe éditoriale, un rédacteur ou une rédactrice lui est assigné(e) pour mener un travail en commun avec l'auteur(e) dans le but de définir des objectifs clairs pour la leçon et de fixer un délai de publication. Habituellement, nous recommandons de respecter un délai de 90 jours à partir du moment où les discussions sont entamées, mais ce délai peut être réajusté si nécessaire.
@@ -73,7 +73,7 @@ Quand une leçon est soumise, le rédacteur ou la rédactrice doit ouvrir un nou
 
 ### Le commentaire initial
 
-Votre premier commentaire sur le ticket d'évaluation d'un tutoriel doit être calqué sur le modèle de celui qui explique le rôle du rédacteur et de la rédactrice, décrit la procédure de l'évaluation ainsi que les options qui se présentent au cas improbable où des problèmes surgiraient. Merci d'adapter [le modèle](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/ISSUE_TEMPLATE.md), qui devrait apparaître automatiquement lors de l'ouverture d'un nouveau ticket, de la manière qui correspond:
+Votre premier commentaire sur le ticket d'évaluation d'un tutoriel doit être calqué sur le modèle de celui qui explique le rôle du rédacteur et de la rédactrice, décrit la procédure de l'évaluation ainsi que les options qui se présentent au cas improbable où des problèmes surgiraient. Merci d'adapter [le modèle](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/.github/ISSUE_TEMPLATE), qui devrait apparaître automatiquement lors de l'ouverture d'un nouveau ticket, de la manière qui correspond:
 
 ```
 Le Programming Historian en français a reçu le tutoriel intitulé '[TITRE DE LA LEÇON]' par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DE L'AUTEUR(E)]. La leçon préparée par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DU TRADUCTEUR OU DE LA TRADUCTRICE]) est actuellement en cours d'évaluation et peut être consultée ici:
@@ -91,7 +91,7 @@ _
 
 Ceci est une déclaration des principes du Programming Historian en français et définit nos attentes concernant le ton et le style des échanges entre évaluateurs/évaluatrices, auteur(e)s, rédacteurs/rédactrices et toute autre personne contribuant à nos forums publics. Le Programming Historian en
 
-Le _Programming Historian en français_ a pour but d'offrir un environnement académique ouvert, qui permet aux membres de la communauté de se sentir libres d'examiner des idées en détail, de poser des questions, de faire des suggestions, ou de formuler des demandes de clarification. Nous insistons sur l'importance de faire en sorte que cet espace de discussion reste respectueux et exempt de tout harcèlement pour tous les contributeur(trice)s, quels que soient leur genre, leur identité et leur expression de genre, leur orientation sexuelle, leur handicap, leur apparence physique, leur masse corporelle, leurs origines, leur âge, leur religion, ou leur expérience technique. Nous ne tolérons pas, sous quelque forme que ce soit, le harcèlement ou les attaques ad hominem contre les membres de la communauté. Les participant(e)s qui violeraient ces règles pourront être exclu(e)s de la communauté à la discrétion du comité éditorial. Si quelqu'un est témoin ou pense avoir été victime des agissements décrits plus haut, veuillez prendre contact avec l'un.e ou l'autre de nos médiateur et médiatrice [Marie Puren et François Dominic Laramée](/fr/equipe-projet). Merci de nous aider à créer un espace de discussion et d'échange sûr.
+Le _Programming Historian en français_ a pour but d'offrir un environnement académique ouvert, qui permet aux membres de la communauté de se sentir libres d'examiner des idées en détail, de poser des questions, de faire des suggestions, ou de formuler des demandes de clarification. Nous insistons sur l'importance de faire en sorte que cet espace de discussion reste respectueux et exempt de tout harcèlement pour tous les contributeur(trice)s, quels que soient leur genre, leur identité et leur expression de genre, leur orientation sexuelle, leur handicap, leur apparence physique, leur masse corporelle, leurs origines, leur âge, leur religion, ou leur expérience technique. Nous ne tolérons pas, sous quelque forme que ce soit, le harcèlement ou les attaques ad hominem contre les membres de la communauté. Les participant(e)s qui violeraient ces règles pourront être exclu(e)s de la communauté à la discrétion du comité éditorial. Si quelqu'un est témoin ou pense avoir été victime des agissements décrits plus haut, veuillez prendre contact avec notre médiateur [François Dominic Laramée](/fr/equipe-projet). Merci de nous aider à créer un espace de discussion et d'échange sûr.
 ```
 
 ### Mener la discussion
@@ -201,7 +201,7 @@ Si l'auteur(e) de la leçon apparaît pour la première fois, il appartient au r
 
 **L'espace blanc est important**, merci donc de faire attention à ce que l'indentation suive le reste des exemples.
 
-Indiquer l'identifiant `orcid`n'est pas obligatoire, nous vous encourageons toutefois fortement de le faire, si les auteur(e)s en ont créé un dans le répertoire ORCID (https://orcid.org/). **Néanmoins, merci de prendre soin d'utiliser un identifiant ORCID fourni explicitement par l'auteur(e). Évitez par conséquent de le faire sans la confirmation préalable de l'auteur(e) qu'il s'agit du bon identifiant.** 
+Indiquer l'identifiant `orcid`n'est pas obligatoire, nous vous encourageons toutefois fortement de le faire, si les auteur(e)s en ont créé un dans le répertoire ORCID (https://orcid.org/). **Néanmoins, merci de prendre soin d'utiliser un identifiant ORCID fourni explicitement par l'auteur(e). Évitez par conséquent de le faire sans la confirmation préalable de l'auteur(e) qu'il s'agit du bon identifiant.**
 
 ### 2) Ajouter une table de matières à la leçon
 
@@ -238,10 +238,11 @@ original: slug to original published lesson (champ spécifique aux traductions)
 review-ticket: e.g. https://github.com/programminghistorian/ph-submissions/issues/108
 difficulty: voir ci-dessous
 activity: UNIQUEMENT UN PARMI: acquiring, transforming, analyzing, presenting, sustaining
-topics: 
+topics:
  - sujet un (voir ci-dessous)
  - sujet deux
-abstract: voir ci-dessous
+abstract: |
+  voir ci-dessous
 
 ```
 
@@ -268,7 +269,7 @@ Ci-dessous quelques sites pour chercher des images:
  - The [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
  - [Gallica](https://gallica.bnf.fr)
- - [Europeana](https://www.europeana.eu) 
+ - [Europeana](https://www.europeana.eu)
 
 Merci de prendre soin de trouver une image dont le style est proche de celles déjà utilisées, donc pas de photographie, mais plutôt une image d'illustration de livre, de taille minimale de 200x200 pixels, sans restriction de droits de copyright. Merci de faire attention à ce que les images ne heurtent pas les sensibilités et, en conformité à notre [engagement en faveur de la diversité](/posts/PH-commitment-to-diversity), qu'elles ne reproduisent pas de stéréotypes sexistes ou raciaux.
 
@@ -280,7 +281,7 @@ Le fichier de l'image originale doit être téléchargé dans le répertoire [ga
 
 ### 5) Prévenir le rédacteur ou la rédactrice en chef pour publier
 
-Le rédacteur ou la rédactrice en chef est en charge de la publication de la leçon en déposant les fichiers sur le site web principal et en faisant les vérifications finales. Pour lui faciliter la tâche, merci de publier une liste dans le ticket de la soumission de tous les fichiers à transférer d'un dépôt à l'autre. Habituellement il s'agit: 
+Le rédacteur ou la rédactrice en chef est en charge de la publication de la leçon en déposant les fichiers sur le site web principal et en faisant les vérifications finales. Pour lui faciliter la tâche, merci de publier une liste dans le ticket de la soumission de tous les fichiers à transférer d'un dépôt à l'autre. Habituellement il s'agit:
 
 - du fichier .md de la leçon;
 - du répertoire de fichiers supplémentaires le cas échéant (images, données etc)
@@ -311,7 +312,7 @@ Les leçons sont le fruit d'un investissement considérable, faisons donc de not
 
 # Liste de vérification du rédacteur ou de la rédactrice en chef
 
-Le rédacteur ou la rédactrice en chef a la responsabilité de déposer les fichiers sur le site web principal via un "pull request". Cela lui permet aussi de prendre connaissance de la nouvelle leçon et de vérifier rapidement que tout se présente bien. 
+Le rédacteur ou la rédactrice en chef a la responsabilité de déposer les fichiers sur le site web principal via un "pull request". Cela lui permet aussi de prendre connaissance de la nouvelle leçon et de vérifier rapidement que tout se présente bien.
 
 ## 1) Parcourir l'aperçu de la soumission
 
@@ -381,4 +382,4 @@ Si votre compilation a échoué, il est nécessaire de consulter l'historique po
 
 ## 4) Tenir au courant le rédacteur ou la rédactrice en charge du suivi éditorial de la leçon
 
-Lorsque la leçon a été publiée, merci d'en informer le rédacteur ou la rédactrice qui en a assuré le suivi éditorial. 
+Lorsque la leçon a été publiée, merci d'en informer le rédacteur ou la rédactrice qui en a assuré le suivi éditorial.

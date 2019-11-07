@@ -1,0 +1,1 @@
+This directory contains a file listing of documents (bids, internal surveys, et cetera) that we have deemed prudent to keep offline. These documents are archived by @drjwbaker and the listing updated each time a new document is deposited. All Editorial Board members are welcome to consult these documents. To access them, please contact James.

@@ -50,8 +50,8 @@ menu-about-privacy:
     title: Política de privacidad
     link: /es/politica-de-privacidad
   fr:
-    title: Privacy Policy
-    link: /en/privacy-policy
+    title: Politique sur la vie privée
+    link: /fr/politique-vie-privee
 menu-contribute:
   en: Contribute
   es: Contribuciones
@@ -200,11 +200,18 @@ issn:
 footer:
   license:
     en: |
-      _The Programming Historian_ (ISSN: 2397-2068) is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license.
+      _The Programming Historian_ (ISSN: 2397-2068) is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license. 
     es: |
       _The Programming Historian en español_ (ISSN: 2517-5769) se publica con una licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es).
     fr: |
       _The Programming Historian en français_ (ISSN: 2631-9462) est publié sous licence [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.fr).
+  financial:
+    en: |
+      This project is administered by ProgHist Limited, Company Number [12192946](https://beta.companieshouse.gov.uk/company/12192946).
+    es: |
+      Este proyecto es administrado por ProgHist Limited, con número de compañía [12192946](https://beta.companieshouse.gov.uk/company/12192946). 
+    fr: |
+        Ce projet est administré par ProgHist Limited, no d'immatriculation [12192946](https://beta.companieshouse.gov.uk/company/12192946).
 
   gh-hosted:
     en: Hosted on GitHub
@@ -350,6 +357,10 @@ lesson:
   en: lessons
   es: lecciones
   fr: leçons
+donate:
+  en: Support PH
+  es: Apoyar PH
+  fr: Soutenir PH
 
 # Included in the lesson.html layout when a lesson has been marked as retired, and is not to be displayed on the main directory.
 retired:
@@ -488,5 +499,5 @@ background_color:
 
 managing_editor:
   en: Anandi Silva Knuppel
-  es: Maria José Afanador-Llach
+  es: Riva Quiroga
   fr: Sofia Papastamkou

@@ -25,6 +25,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Talleres y eventos
 
+* Adam Crymble, 'Python for Humanists', University of London, United Kingdom (31 de octubre 2019).
 * Víctor Gayol, 'Introducción a la Historia Digital - The programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 de octubre 2018).
 * Adam Crymble, Maria José Afanador Llach, José Antonio Motilla, '[Digital Humanities Skills for Latin American Scholarship](https://zenodo.org/record/1473414)', Universidad de los Andes, Bogotá, Colombia (1-3 de agosto 2018) - financiado por la British Academy.
 * Victor Gayol, 'Introducción a las Ciencias Sociales y Humanidades Digitales. The Programming Historian en español – COLMICH', El Colegio de Michoacán (septiembre 2017).
@@ -38,6 +39,8 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 de mayo, 2015).
 
 ### Carteles, conferencias y presentaciones
+* Sofia Papastamkou, Antonio Rojas Castro & Anna-Maria Sichani, '[Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French Speaking DH Communities](https://dev.clariah.nl/files/dh2019/boa/1207.html)', Digital Humanities Conference 2019, Utrecht, 
+Países Bajos, 9-12 julio, 2019.
 * Jennifer Isasi, Antonio Rojas y Anna-Maria Sichani, 'Data science and the language question in digital humanities pedagogy: the example of the Programming Historian', *EADH 2018*, National University of Ireland, Galway (9 diciembre 2018).
 * Maria José Afanador, 'The Programming Historian en español: estrategias y retos para la construcción de una comunidad global de humanidades digitales', Ponencia presentada en la Conferencia de Humanidades Digitales *DH2018*, Ciudad de México, México, (2018, junio).
 * Caleb McDaniel, 'Open Access, Transparent Peer Review', *Annual Meeting of the Organizations of American Historians*, Sacramento, California, (14 abril 2018).
@@ -54,7 +57,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Víctor Gayol, ‘The Programming Historian en español’, Blog de Humanidades Digitales, marzo 17, 2017, http://humanidadesdigitales.net/blog/2017/03/17/the-programming-historian-en-espanol/.
 
 ### Editoriales
-
+* Martin Dröge, 'Rezension zu The Programming Historian', _H-Soz-Kult_, 31.08.2019, <www.hsozkult.de/webreview/id/rezwww-184>
 * Sue Levine, 'The Early-Stage Ph.D.'s Guide to Summer', _Inside Higher Education_, 10 en junio 2019, <https://www.insidehighered.com/advice/2019/06/10/professional-development-and-careers-activities-phd-students-can-pursue-over>.
 * 'Championing open access with online digital history journal', _University of Sussex Press Office_, 9 de octubre, 2018, <https://www.sussex.ac.uk/news/people?id=46353/>.
 * Adam Crymble, 'A Decade of Programming Historians', _Network in Canadian History &amp; Environment_, 23 de marzo, 2018, <http://niche-canada.org/2018/03/23/a-decade-of-programming-historians/>.

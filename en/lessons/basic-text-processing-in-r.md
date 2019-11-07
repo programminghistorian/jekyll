@@ -394,7 +394,7 @@ Which now gives the following result:
 # ... with 448 more rows
 ```
 
-Now, these seem to suggest seem to suggest some of the key themes of the speech such as "syria", "terrorist", and "qaida" (al-qaida is split into "al" and "qaida" by the tokenizer).
+Now, these seem to suggest some of the key themes of the speech such as "syria", "terrorist", and "qaida" (al-qaida is split into "al" and "qaida" by the tokenizer).
 
 ## Document Summarization
 

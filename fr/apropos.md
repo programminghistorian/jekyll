@@ -14,7 +14,7 @@ Notre procédure d'évaluation par les pairs est un peu différente de celle qui
 
 
 ## Open Source (code source ouvert)
-Le _Programming Historian en français_ adhère aux principes de l'open source. Toutes les leçons utilisent dans la mesure du possible des langages de programmation et des logiciels ouverts. Cette politique vise à minimiser les coûts pour toutes les parties concernées et à encourager la plus large participation possible. C'est notre conviction que tout un chacun devrait avoir la possibilité de profiter de ces tutoriels, non pas seulement ceux et celles disposant de budgets de recherche considérables qui permettent l'acquisition de logiciels propriétaires coûteux. Depuis 2016, une version citable du projet _Programming Historian_ est déposée sur [Zenodo](https://zenodo.org/). Le dépôt de l'année 2018 est accessible sur [doi.org/10.5281/zenodo.1477854](https://doi.org/10.5281/zenodo.1477854).
+Le _Programming Historian en français_ adhère aux principes de l'open source. Toutes les leçons utilisent dans la mesure du possible des langages de programmation et des logiciels ouverts. Cette politique vise à minimiser les coûts pour toutes les parties concernées et à encourager la plus large participation possible. C'est notre conviction que tout un chacun devrait avoir la possibilité de profiter de ces tutoriels, non pas seulement ceux et celles disposant de budgets de recherche considérables qui permettent l'acquisition de logiciels propriétaires coûteux. Depuis 2016, une version citable du projet _Programming Historian_ est déposée sur [Zenodo](https://zenodo.org/). Le dépôt de l'année 2019 est accessible sur [doi.org/10.5281/zenodo.3525082](https://doi.org/10.5281/zenodo.3525082).
 
 
 ## Voie dorée (Gold Open Access)
@@ -26,12 +26,12 @@ Le _Programming Historian_ (ISSN 2397-2068) est recensé dans le répertoire de 
 
 ## Politique de diversité
 
-Le _Programming Historian en français_ s'attache au principe de la diversité. Nous tenons à garantir un espace libre de toute discrimination envers les personnes contribuant au projet indépendamment du genre, de l'orientation sexuelle, des situations d'handicap, de l'apparence, de la taille corporelle, de l'origine, de l'âge, de la religion ou de l'expérience technique. Notre engagement en faveur de la diversité est aussi valable pour notre Conseil éditorial dont la politique s'assure que les membres représentant un sexe ou une nationalité ne constituent pas plus que 50% + 1 de l'ensemble du conseil. Ce principe vise à garantir la diversité des points de vue qui bénéficient ainsi au projet. Cette politique évolue constamment et toute proposition venant de la communauté est la bienvenue.
+Le _Programming Historian en français_ s'attache au principe de la diversité. Nous tenons à garantir un espace libre de toute discrimination envers les personnes contribuant au projet indépendamment du genre, de l'orientation sexuelle, des situations d'handicap, de l'apparence, de la taille corporelle, de l'origine, de l'âge, de la religion ou de l'expérience technique. Notre engagement en faveur de la diversité est aussi valable pour notre Conseil éditorial, qui a adopté une politique de diversité en vertu de laquelle nous tentons d'assurer que des personnes d'un même sexe ou d'une même nationalité ne comptent pas pour plus de 50% + 1 des membres de l'équipe. Nous encourageons les membres de groupes sous-représentés à poser leurs candidatures lorsque des postes au sein de notre Conseil éditorial sont offerts et nous nous engageons à tenir compte de la possibilité pour un.e candidat.e de contribuer des points de vue différents de ceux des membres de l'équipe en place au moment de choisir parmi deux candidatures de qualités équivalentes. Cette politique évolue constamment et toute proposition venant de la communauté est la bienvenue.
 
 ## Financement & proprieté
 
+Le _Programming Historian_ est un projet international mené par des volontaires. Ses activités financières sont administrées par ProgHist Limited, une société à but non lucratif immatriculée en Angleterre sous le numéro [12192946](https://beta.companieshouse.gov.uk/company/12192946). Le projet est publié par le conseil éditorial du _Programming Historian_.
 Une liste de nos donateurs et des soutiens reçus est consultable sur la page qui expose comment vous pouvez ['nous soutenir']({{site.baseurl}}/fr/nous-soutenir).
-Le _Programming Historian_ est un projet mené par des volontaires et publié par le conseil éditorial du _Programming Historian_.
 
 ## Histoire du projet
 

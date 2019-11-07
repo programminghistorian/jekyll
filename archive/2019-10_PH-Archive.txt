@@ -1,0 +1,19 @@
+./2018:
+2018-10_BA-workshop
+
+./2018/2018-10_BA-workshop:
+2 - Grant Application.docx
+
+./2019:
+2019-05_Roy-Rosenzweig-prize
+2019-09_Team-Survey
+2019-09_open-publishing-awards
+
+./2019/2019-05_Roy-Rosenzweig-prize:
+Roy Rosenzweig Prize.docx
+
+./2019/2019-09_Team-Survey:
+PH Team survey - Sept 2019.docx
+
+./2019/2019-09_open-publishing-awards:
+open_publishing_awards_2019.docx

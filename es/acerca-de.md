@@ -14,7 +14,7 @@ Todos los tutoriales publicados en _The Programming Historian en español_ han s
 Nuestro proceso de revisión es un poco distinto al tradicional: no solicitamos una valoración sobre la calidad del texto, es decir, si merece ser publicado o no, sino que pedimos a nuestros revisores que participen de manera activa para mejorar el tutorial, de tal modo que todas las partes implicadas aprendan. Al hacernos cargo de un tutorial nuevo o bien de una traducción, seguimos un [flujo de trabajo]({{site.baseurl}}/es/guia-para-autores) específico con el objetivo de que la lección se publique en un período de tiempo razonable. Puedes consultar nuestra [guía para revisores]({{site.baseurl}}/es/guia-para-revisores) si deseas más información.
 
 ## Código abierto
-En _The Programming Historian en español_ estamos comprometidos con el uso de herramientas y lenguajes accesibles para todo el mundo. Todas nuestras lecciones utilizan lenguajes y programas gratuitos. Creemos que cualquier persona debería poder hacer uso de nuestros tutoriales con independencia de la financiación disponible para llevar a cabo su proyecto de investigación. Desde 2016, se ha depositado una versión citable del proyecto _Programming Historian_ en [Zenodo](https://zenodo.org/). El depósito de 2018 está disponible en [doi.org/10.5281/zenodo.1477854](https://doi.org/10.5281/zenodo.1477854).
+En _The Programming Historian en español_ estamos comprometidos con el uso de herramientas y lenguajes accesibles para todo el mundo. Todas nuestras lecciones utilizan lenguajes y programas gratuitos. Creemos que cualquier persona debería poder hacer uso de nuestros tutoriales con independencia de la financiación disponible para llevar a cabo su proyecto de investigación. Desde 2016, se ha depositado una versión citable del proyecto _Programming Historian_ en [Zenodo](https://zenodo.org/). El depósito de 2019 está disponible en [doi.org/10.5281/zenodo.3525082](https://doi.org/10.5281/zenodo.3525082).
 
 ## Acceso abierto *Gold*
 
@@ -26,12 +26,12 @@ _The Programming Historian en español_ (ISSN {{ site.data.snippets.issn[page.la
 
 ## Política de diversidad
 
-En The Programming Historian estamos comprometidos con la diversidad y defendemos la necesidad de mantener un espacio de trabajo sin ningún tipo de acoso u hostigamiento basado en el género, identidad, orientación sexual, capacidades, físico, peso, etnia, edad, religión o nivel de conocimiento técnico de los participantes y colaboradores. Asimismo, nuestro compromiso con la diversidad se extiende a la composición del Consejo Editorial garantizando que los miembros de un mismo género o nacionalidad no alcanzan una ratio superior al 50% +1 del total. Con esto pretendemos que el proyecto se siga beneficiando de puntos de vista distintos. La medida está sujeta a revisiones futuras, por lo que aceptamos el envío de sugerencias de los miembros de la comunidad.
+En The Programming Historian estamos comprometidos con la diversidad y defendemos la necesidad de mantener un espacio de trabajo sin ningún tipo de acoso u hostigamiento basado en el género, identidad, orientación sexual, capacidades, físico, peso, etnia, edad, religión o nivel de conocimiento técnico de los participantes y colaboradores. Asimismo, nuestro compromiso con la diversidad se extiende a la composición del Consejo Editorial. Hemos adoptado una política por la cual tratamos de asegurar que los miembros de un mismo género o nacionalidad no alcanzan un ratio superior al 50% +1 del total de miembros del equipo. Animamos a personas de grupos no representados a solicitar ser parte de nuestro Consejo Editorial cuando se anuncian los puestos, y nos comprometemos a considerar y discutir el potencial de la candidatura para ofrecer perspectivas diferentes a las que ya están en el equipo al decidir entre dos candidatos o candidatas igualmente cualificados/as.
 
 ## Financiamiento y propiedad
-Para ver un listado de patrocinadores y ayudas, visita nuestra página '[Apóyanos](/es/apoyanos)'.
+Programming Historian es un proyecto internacional impulsado por voluntarios. Sus actividades financieras son administradas por ProgHist Limited, una organización sin fines de lucro limitada por garantía que está registrada en Inglaterra, con número de compañía [12192946](https://beta.companieshouse.gov.uk/company/12192946). El proyecto es publicado por el consejo editorial de *Programming Historian*. 
 
-*The Programming Historian* es un proyecto impulsado por voluntarios y publicado por su Consejo Editorial.
+Para ver un listado de patrocinadores y ayudas, visita nuestra página '[Apóyanos](/es/apoyanos)'.
 
 ## Historia del proyecto
 

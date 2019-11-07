@@ -9,6 +9,7 @@ editors:
 - Miriam Posner
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 translator:
 - Víctor Gayol
 translation-editor:
@@ -23,7 +24,7 @@ next: normalizar-datos
 previous: de-html-a-lista-de-palabras-1
 original: from-html-to-list-of-words-2
 redirect_from: /es/lessons/from-html-to-list-of-words-2
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: transforming
 topics: [python]
@@ -205,16 +206,16 @@ Considerando lo que has aprendido hasta ahora, ya puedes abrir un URL, descargar
 
 ``` python
 # html-a-lista-1.py
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 html = respuesta.read()
 texto = obo.quitarEtiquetas(html)
 listaPalabras = texto.split()
 
-print(listaPalabras[0:120])
+print((listaPalabras[0:120]))
 ```
 
 Debes obtener algo como lo siguiente:

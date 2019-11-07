@@ -19,12 +19,17 @@ The project is grateful for the following support:
 
 - Web development is supported by the [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) and the [Andrew W. Mellon Foundation](https://mellon.org/) [2018-Present]
 - Ongoing hosting support from the Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)) [2011-Present].
+- Funding to support the development of a style guide provided by the [School of Humanities, University of Hertfordshire](https://www.herts.ac.uk/study/schools-of-study/humanities) [2019].
+- Funding to support establishing the Programming Historian as a legal entity provided by the [School of History, Art History and Philosophy, University of Sussex](http://www.sussex.ac.uk/hahp/) [2019]. 
 - Funding for a writing workshop in Bogota, Colombia, supported by the [British Academy](https://www.britac.ac.uk/) [2018].
 - Seed funding and project management support from the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) [2011-2013].
 
 ## Donate to Us
 
-We hope to have a donation mechanism in place by mid-2019.
+Individual donors to the _Programming Historian_ are vital to growing, improving, and sustaining our work. We welcome both one-time and ongoing donations:
+
+- Ongoing donations by becoming a supporter of the _Programming Historian_ via [Patreon](https://www.patreon.com/theprogramminghistorian). 
+- One-time donations can be made to the _Programming Historian_ via [Paypal](https://www.paypal.com/donate/?token=KFN0PutsHiWTKsgLkQU3t3mjjp_4_ZMMm_9ILTEDB-NGQVP9hzA03TSVP10wIGKO4sqNm0&fromUL=true&country.x=GB&locale.x=en_GB), bank transfer (Lloyds Bank account number 55263268, sort code 30-96-26), or cheque (made payable to 'ProgHist Ltd' and posted to 'Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH'). For donations via bank transfer and cheque, we'd be grateful if you could write to us at <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> to let us know who you are and why you've chosen to support our work.
 
 ## Sponsor Us
 
