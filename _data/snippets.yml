@@ -150,6 +150,16 @@ menu-contribute-support:
   fr:
     title: Nous soutenir
     link: /fr/nous-soutenir
+menu-contribute-support-donate:
+  en:
+    title: Support Us - Donate to Us
+    link: /en/support-us#donate-to-us
+  es:
+    title: Apóyanos - Donaciones
+    link: /es/apoyanos#donaciones
+  fr:
+    title: Nous soutenir - Donations
+    link: /fr/nous-soutenir#donations
 menu-lessons:
   en:
     title: Lessons
