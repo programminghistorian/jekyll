@@ -23,6 +23,7 @@ The project is grateful for the following support:
 - Funding to support establishing the Programming Historian as a legal entity provided by the [School of History, Art History and Philosophy, University of Sussex](http://www.sussex.ac.uk/hahp/) [2019]. 
 - Funding for a writing workshop in Bogota, Colombia, supported by the [British Academy](https://www.britac.ac.uk/) [2018].
 - Seed funding and project management support from the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) [2011-2013].
+- Our founding [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers Rachel Murphy ('Subscriber' tier), Miriam Posner ('Sponsor' tier), and Tim Hitchcock ('Patron' tier). We would particularly like to thank the following 'Patron' tier [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers: Tim Hitchcock, Shawn Graham.
 
 ## Donate to Us
 
