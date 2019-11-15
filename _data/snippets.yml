@@ -95,7 +95,7 @@ menu-lesson-requests:
     link: /es/solicitud-lecciones
   fr: 
     title: Appel à contributions
-    link: appel-contributions
+    link: /fr/appel-contributions
 menu-contribute-feedback:
   en:
     title: Feedback
