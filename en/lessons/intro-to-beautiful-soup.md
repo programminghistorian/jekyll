@@ -6,6 +6,7 @@ authors:
 - Jeri Wieringa
 editors:
 - Fred Gibbs
+- Frederik Elwert
 difficulty: 2
 activity: transforming
 topics: [web-scraping]
@@ -24,7 +25,7 @@ avatar_alt: A soup tureen
 
 
 
-Version: Python 2.7.2 and BeautifulSoup 4.
+Version: Python 3.6 and BeautifulSoup 4.
 
 This tutorial assumes basic knowledge of HTML, CSS, and the [Document
 Object Model][]. It also assumes some knowledge of Python. For a more basic
@@ -149,13 +150,10 @@ to a CSV file with names and urls that looks like this:
 using a Python script like this:
 
 ``` python
-from __future__ import print_function
 from bs4 import BeautifulSoup
 import csv
 
 soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
-
-# print(soup.prettify())
 
 final_link = soup.p.a
 final_link.decompose()
@@ -167,8 +165,6 @@ links = soup.find_all('a')
 for link in links:
     names = link.contents[0]
     fullLink = link.get('href')
-    # print(names)
-    # print(fullLink)
 
     f.writerow([names,fullLink])
 ```
@@ -223,7 +219,6 @@ it to Beautiful Soup, and then print the “pretty” version in the
 terminal.
 
 ``` python
-from __future__ import print_function
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup(open("43rd-congress.html"), features="lxml")
@@ -256,7 +251,6 @@ tags. So, we need to isolate out all of the “\<a\>” tags. We can do this
 by updating the code in “soupexample.py” to the following:
 
 ``` python
-from __future__ import print_function
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
@@ -301,7 +295,6 @@ be deleting information that you wanted to extract. Update the file as
 below and run again.
 
 ``` python
-from __future__ import print_function
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
@@ -350,7 +343,6 @@ text associated with (is on the other side of the “=” of) the “href”
 element.
 
 ``` python
-from __future__ import print_function
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup (open("43rd-congress.html"), features="lxml")
@@ -378,7 +370,6 @@ organized, let’s write some column headers. Finally, as each line is
 processed, the name and URL information is written to our CSV file.
 
 ``` python
-from __future__ import print_function
 from bs4 import BeautifulSoup
 import csv
 
@@ -419,7 +410,6 @@ know all of our data can be found inside a table, so let’s use “\<tr\>”
 to isolate the content that we want.
 
 ``` python
-from __future__ import print_function
 from bs4 import BeautifulSoup
 import csv
 
@@ -463,7 +453,6 @@ For the first, let’s create a loop to search for all of the anchor tags
 and “get” the data associated with “href”.
 
 ``` python
-from __future__ import print_function
 from bs4 import BeautifulSoup
 import csv
 
@@ -499,7 +488,6 @@ We then need to run a search for the table data within the table rows.
 not necessary.)
 
 ``` python
-from __future__ import print_function
 from bs4 import BeautifulSoup
 import csv
 
@@ -546,7 +534,6 @@ error. This is the logic of the “try” and “except” block. If a
 particular line fails, the script will continue on to the next line.
 
 ``` python
-from __future__ import print_function
 from bs4 import BeautifulSoup
 import csv
 
@@ -611,7 +598,6 @@ the same process as we did in Part I, just with more variables.
 As a result, our file will look like:
 
 ``` python
-from __future__ import print_function
 from bs4 import BeautifulSoup
 import csv
 
