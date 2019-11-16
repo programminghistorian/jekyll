@@ -26,7 +26,7 @@ topics: [data-manipulation]
 abstract: "Ce tutoriel se concentre sur la façon dont les chercheurs et chercheuses peuvent évaluer et agir sur l'exactitude des données."
 original: cleaning-data-with-openrefine
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/223
-avatar_alt: 
+avatar_alt: Deux hommes faisant la lessive à l'extérieur 
 ---
 
 {% include toc.html %}

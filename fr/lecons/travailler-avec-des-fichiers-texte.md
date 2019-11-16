@@ -25,7 +25,7 @@ topics: [python]
 abstract: "Cette leçon vous explique comment manipuler des fichiers texte en Python."
 python_warning: true
 original: working-with-text-files
-avatar_alt:
+avatar_alt: Homme à lunettes lisant un livre d'alphabet
 ---
 
 {% include toc.html %}
