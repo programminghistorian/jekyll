@@ -26,6 +26,7 @@ original: data-mining-the-internet-archive
 redirect_from: /es/lessons/data-mining-the-internet-archive
 abstract: |
     Las colecciones del Internet Archive incluyen una gran cantidad de fuentes históricas digitalizadas. Muchas de ellas contienen datos bibliográficos importantes en un formato llamado MARC. En esta lección aprenderás a usar Python para automatizar la descarga de archivos MARC en grandes cantidades desde el Internet Archive, así como el análisis sintáctico de archivos MARC con información específica tal como autores, lugar de publicación y fechas. La lección puede aplicarse de una manera general para otros elementos del Internet Archive así como en archivos MARC en cualquier otro repositorio.
+avatar_alt:  Grabado de mineros trabajando en la construcción de un túnel.   
 ---
 
 {% include toc.html %}
@@ -398,37 +399,37 @@ Desde luego, para que esta técnica sea útil se requiere hacer algo de [limpiez
 
 [^1]: Agradezco a [Shawn Graham](https://hypothes.is/a/AVKeGm0rvTW_3w8Lypo1) por señalar la dependencia de `six` en `pymarc` y brindar una solución.
 
-  [Internet Archive]: http://archive.org/
-  [JSTOR Early Journal Content]: https://archive.org/details/jstor_ejc
-  [biblioteca personal de John Adams]: https://archive.org/details/johnadamsBPL
-  [colección Haití]: https://archive.org/details/jcbhaiti
-  [Ian Milligan]: http://activehistory.ca/2013/09/the-internet-archive-rocks-or-two-million-plus-free-sources-to-explore/
-  [Anti-Slavery Collection]: http://archive.org/details/bplscas
-  [internetarchive]: https://pypi.python.org/pypi/internetarchive
-  [pymarc]: https://pypi.python.org/pypi/pymarc/
-  [esta carta]: http://archive.org/details/lettertowilliaml00doug
-  [manuscrito original]: http://archive.org/stream/lettertowilliaml00doug/39999066767938#page/n0/mode/2up
-  [múltiples archivos]: http://archive.org/download/lettertowilliaml00doug
-  [Dublin Core]: http://archive.org/download/lettertowilliaml00doug/lettertowilliaml00doug_dc.xml
-  [MARCXML]: http://archive.org/download/lettertowilliaml00doug/lettertowilliaml00doug_marc.xml
-  [formato MARC 21 de la Biblioteca del Congreso para datos bibliográficos]: http://www.loc.gov/marc/bibliographic/
-  [cientos de cartas, manuscritos y  publicaciones antiesclavistas]: http://archive.org/search.php?query=collection%3Abplscas&sort=-publicdate
-  [eBook and Texts]: https://archive.org/details/texts
-  [elementos y sus URL están estructurados]: http://blog.archive.org/2011/03/31/how-archive-org-items-are-structured/
-  [búsqueda avanzada]: https://archive.org/advancedsearch.php
-  [esta página]: https://archive.org/search.php?query=collection%3A%28bplscas%29
-  [buscar en el Internet Archive usando el módulo de Python que instalamos]: http://internetarchive.readthedocs.io/en/latest/quickstart.html#searching
-  [búsqueda avanzada en una colección]: http://archive.org/search.php?query=collection%3Abplscas
-  [downloading]: http://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading
-  [remember those?]: /lessons/code-reuse-and-modularity
-  [son nombrados de acuerdo a reglas específicas]: https://archive.org/about/faqs.php#140
-  [manejo de excepciones]: http://docs.python.org/2/tutorial/errors.html#handling-exceptions
-  [reglas específicas para el campo 260]: http://www.loc.gov/marc/bibliographic/bd260.html
-  [estándares MARC]: http://www.loc.gov/marc/
-  [1]: https://github.com/edsu/pymarc
-  [algunas funciones que provee para trabajar con archivos MARC XML]: https://github.com/edsu/pymarc/blob/master/pymarc/marcxml.py
-  [Contar frecuencias]: /es/lecciones/contar-frecuencias
-  [lección de introducción a Google Maps]: /lessons/googlemaps-googleearth
-  [nube de palabras en Wordle]: http://www.wordle.net/
-  [limpieza de tus datos]: /lessons/cleaning-ocrd-text-with-regular-expressions
-  [Instalar módulos de Python con pip]: /es/lecciones/instalar-modulos-python-pip
+[Internet Archive]: http://archive.org/
+[JSTOR Early Journal Content]: https://archive.org/details/jstor_ejc
+[biblioteca personal de John Adams]: https://archive.org/details/johnadamsBPL
+[colección Haití]: https://archive.org/details/jcbhaiti
+[Ian Milligan]: http://activehistory.ca/2013/09/the-internet-archive-rocks-or-two-million-plus-free-sources-to-explore/
+[Anti-Slavery Collection]: http://archive.org/details/bplscas
+[internetarchive]: https://pypi.python.org/pypi/internetarchive
+[pymarc]: https://pypi.python.org/pypi/pymarc/
+[esta carta]: http://archive.org/details/lettertowilliaml00doug
+[manuscrito original]: http://archive.org/stream/lettertowilliaml00doug/39999066767938#page/n0/mode/2up
+[múltiples archivos]: http://archive.org/download/lettertowilliaml00doug
+[Dublin Core]: http://archive.org/download/lettertowilliaml00doug/lettertowilliaml00doug_dc.xml
+[MARCXML]: http://archive.org/download/lettertowilliaml00doug/lettertowilliaml00doug_marc.xml
+[formato MARC 21 de la Biblioteca del Congreso para datos bibliográficos]: http://www.loc.gov/marc/bibliographic/
+[cientos de cartas, manuscritos y  publicaciones antiesclavistas]: http://archive.org/search.php?query=collection%3Abplscas&sort=-publicdate
+[eBook and Texts]: https://archive.org/details/texts
+[elementos y sus URL están estructurados]: http://blog.archive.org/2011/03/31/how-archive-org-items-are-structured/
+[búsqueda avanzada]: https://archive.org/advancedsearch.php
+[esta página]: https://archive.org/search.php?query=collection%3A%28bplscas%29
+[buscar en el Internet Archive usando el módulo de Python que instalamos]: http://internetarchive.readthedocs.io/en/latest/quickstart.html#searching
+[búsqueda avanzada en una colección]: http://archive.org/search.php?query=collection%3Abplscas
+[downloading]: http://internetarchive.readthedocs.io/en/latest/quickstart.html#downloading
+[remember those?]: /lessons/code-reuse-and-modularity
+[son nombrados de acuerdo a reglas específicas]: https://archive.org/about/faqs.php#140
+[manejo de excepciones]: http://docs.python.org/2/tutorial/errors.html#handling-exceptions
+[reglas específicas para el campo 260]: http://www.loc.gov/marc/bibliographic/bd260.html
+[estándares MARC]: http://www.loc.gov/marc/
+[1]: https://github.com/edsu/pymarc
+[algunas funciones que provee para trabajar con archivos MARC XML]: https://github.com/edsu/pymarc/blob/master/pymarc/marcxml.py
+[Contar frecuencias]: /es/lecciones/contar-frecuencias
+[lección de introducción a Google Maps]: /lessons/googlemaps-googleearth
+[nube de palabras en Wordle]: http://www.wordle.net/
+[limpieza de tus datos]: /lessons/cleaning-ocrd-text-with-regular-expressions
+[Instalar módulos de Python con pip]: /es/lecciones/instalar-modulos-python-pip

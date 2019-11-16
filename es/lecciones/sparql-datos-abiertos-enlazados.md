@@ -27,6 +27,7 @@ difficulty: 2
 activity: acquiring
 topics: [lod]
 abstract: "Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos y cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL."
+avatar_alt: Grabado con dos peces unidos por una rama en sus bocas.
 ---
 
 Objetivos de la lección
@@ -334,7 +335,6 @@ ORDER BY DESC(?n)
 ### Enlazando múltiples puntos de entrada SPARQL
 
 <div class="alert alert-warning">2018-06-13: Desafortunadamente, Europeana ha eliminado la opción de enlazar puntos de entrada externos por medio de consultas `SERVICE`, y, en consecuencia, esta sección ha dejado de funcionar. Mantenemos el texto que sigue porque creemos que puede tener valor como referencia y porque esperamos que el servicio de Europeana vuelva a estar operativo en el futuro.</div>
-
 Hasta ahora, hemos construido consultas que buscan patrones en un único conjunto de datos. Sin embargo, el escenario ideal al que aspiran los partidarios de LOD viene dado por la posibilidad de enlazar múltiples bases de datos, lo que permitirá realizar consultas mucho más complejas al estar estas basadas en el conocimiento distribuido que es posible extraer de diversos espacios web. No obstante, esto resulta más fácil de decir que de hacer, y muchos puntos de entrada (incluido el del British Museum) todavía no referencian recursos de autoridad externos.
 
 Un punto de entrada que sí lo hace es el de [Europeana](http://sparql.europeana.eu/). Europeana ha creado enlaces entre los objetos de sus bases de datos y los registros de personas en [DBPedia](http://wiki.dbpedia.org/) y [VIAF](https://viaf.org/), los registros de lugares en [GeoNames](http://sws.geonames.org/), y los conceptos resgistrados el *Tesauro de Arte y Arquitectura* (AAT) del Getty Research Institute. SPARQL nos permite insertar declaraciones `SERVICE` que ordenan a la base de datos "llamar a un amigo" y ejecutar una porción de la consulta en una base de datos externa, utilizando estos resultados para completar la consulta en la base de datos local. Si bien esta lección no se dentendrá en los modelos de datos de Europeana y DBPedia en profundidad, la siguiente consulta nos permite ver cómo funciona la declaración `SELECT`. Cada uno de los lectores puede ejecutarla por sí mismo copiando y pegando el texto de la consulta en el punto de entrada de [Europeana](http://sparql.europeana.eu). (A fin de que la consulta funcione, en el punto de entrada de Europeana se debe configurar el menú "Sponging" para "Retrieve remote RDF data for all missing source graphs").
