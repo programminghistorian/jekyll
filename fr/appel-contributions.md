@@ -11,9 +11,9 @@ title: Appel à rédiger un tutoriel
 
 Le comité éditorial de la version francophone du _Programming Historian_ est particulièrement intéressé à recevoir des propositions de tutoriels sur les sujets suivants. Merci de consulter aussi, pour plus d'informations, nos [consignes aux auteur(e)s](/fr/consignes-auteurs):
 
-1. How do you conduct spatial clustering of geographic data?
+1. Comment appliquez-vous les méthodes de regroupement de données géographiques? 
 
-    We’ve got a great set of introductory mapping lessons, and while they are great for teaching how to make nice visualisations, we’ve not yet branched deeply enough into more advanced analysis skills. One of the most useful is the application of clustering algorithms, which identify logical groups of individual points in geographic space. Useful for forming conclusions on anything from trade to migration. But like with all analyses, it’s a space (no pun intended) fraught with pitfalls for the uninitiated. We’re looking for a great introduction that highlights both the strengths and the challenges of this form of analysis.
+    Nous disposons déjà d'une série de leçons introductives à la cartographie qui conviennent parfaitement pour apprendre à faire de belles visualisations. Toutefois, nous n'avons pas encore avancé vers des compétences d'analyses plus poussées, telle l'application d'algorithmes de classification par regroupement d'objets, qu'il est possible de mobiliser dans l'étude de plusieurs domaines, des mouvements de commerce aux migrations, pour n'en évoquer que quelques uns. Mais comme pour toute analyse, il existe franchement des pièges pour les débutant(e)s. Nous sollicitons donc une introduction à cette méthode qui puisse présenter à la fois ses points forts et les défis que pose ce type d'analyse. 
 
 2. Comment savoir si votre analyse de réseaux est pertinente? 
 
