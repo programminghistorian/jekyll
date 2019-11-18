@@ -19,6 +19,7 @@ next: from-html-to-list-of-words-1
 previous: working-with-web-pages
 python_warning: false
 redirect_from: /lessons/manipulating-strings-in-python
+avatar_alt: A man playing a guitar
 ---
 
 {% include toc.html %}

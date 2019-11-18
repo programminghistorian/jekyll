@@ -1,5 +1,5 @@
 ---
-title: Understanding Web Pages and HTML 
+title: Understanding Web Pages and HTML
 layout: lesson
 date: 2012-07-17
 authors:
@@ -19,6 +19,7 @@ abstract: "This lesson introduces you to HTML and the web pages it structures."
 next: working-with-text-files
 previous: introduction-and-installation
 redirect_from: /lessons/viewing-html-files
+avatar_alt: A woman listening to a man through an ear trumpet
 ---
 
 {% include toc.html %}

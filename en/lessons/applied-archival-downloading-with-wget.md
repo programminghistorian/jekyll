@@ -17,6 +17,7 @@ topics: [web-scraping]
 abstract: "Now that you have learned how Wget can be used to mirror or download specific files from websites via the command line, it's time to expand your web-scraping skills through a few more lessons that focus on other uses for Wget's recursive retrieval function."
 previous: automated-downloading-with-wget
 redirect_from: /lessons/applied-archival-downloading-with-wget
+avatar_alt: Diagram of a well-drilling aparatus
 ---
 
 {% include toc.html %}

@@ -15,7 +15,7 @@ exclude_from_check:
   - editors
   - review-ticket
 redirect_from: /lessons/installing-python-modules-pip
-
+avatar_alt: A branch with pears
 ---
 
 {% include toc.html %}
@@ -153,6 +153,6 @@ python -m pip install XXX
 Happy installing!
 
   [pip]: https://pip.pypa.io/en/stable/
-  [curl command]: http://www.thegeekstuff.com/2012/04/curl-examples/ 
+  [curl command]: http://www.thegeekstuff.com/2012/04/curl-examples/
   [here]: https://bootstrap.pypa.io/get-pip.py
   [StackOverflow page]: http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows

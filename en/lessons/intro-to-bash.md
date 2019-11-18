@@ -2,7 +2,7 @@
 title: Introduction to the Bash Command Line
 layout: lesson
 date: 2014-09-20
-authors: 
+authors:
 - Ian Milligan
 - James Baker
 reviewers:
@@ -19,6 +19,7 @@ topics: [data-manipulation, get-ready]
 abstract: "This lesson will teach you how to enter commands using a command-line interface, rather than through a graphical interface. Command-line interfaces have advantages for computer users who need more precision in their work, such as digital historians. They allow for more detail when running some programs, as you can add modifiers to specify exactly how you want your program to run. Furthermore, they can be easily automated through scripts, which are essentially recipes of text-based commands."
 next: research-data-with-unix
 redirect_from: /lessons/intro-to-bash
+avatar_alt: Soldiers in antique armor with spears
 ---
 
 {% include toc.html %}
@@ -47,13 +48,13 @@ For those on OS X, and most Linux installations, you're in luck — you already 
 
 ## Opening Your Shell
 
-Let's start up the shell. In Windows, run Git Bash from the directory that you installed it in. You will have to run it as an administrator - to do so, right click on the program and select 'Run as Administrator.' In OS X, by default the shell is located in: 
+Let's start up the shell. In Windows, run Git Bash from the directory that you installed it in. You will have to run it as an administrator - to do so, right click on the program and select 'Run as Administrator.' In OS X, by default the shell is located in:
 
-`Applications -> Utilities -> Terminal` 
+`Applications -> Utilities -> Terminal`
 
 {% include figure.html filename="Terminal.png" caption="The Terminal.app program on OS X" %}
 
-When you run it, you will see this window. 
+When you run it, you will see this window.
 
 {% include figure.html filename="Blank-Terminal.png" caption="A blank terminal screen on our OS X workstation" %}
 
@@ -81,7 +82,7 @@ To orient ourselves, let's get a listing of what files are in this directory. Ty
 
 `ls`
 
-and you will see a list of every file and directory within your current location. Your directory may be cluttered or it may be pristine, but you will at a minimum see some familiar locations. On OS X, for example, you'll see `Applications`, `Desktop`, `Documents`, `Downloads`, `Library`, `Pictures`, etc. 
+and you will see a list of every file and directory within your current location. Your directory may be cluttered or it may be pristine, but you will at a minimum see some familiar locations. On OS X, for example, you'll see `Applications`, `Desktop`, `Documents`, `Downloads`, `Library`, `Pictures`, etc.
 
 You may want more information than just a list of files. You can do this by specifying various *flags* to go with our basic commands. These are additions to a command that provide the computer with a bit more guidance of what sort of output or manipulation you want. To get a list of these, OS X/Linux users can turn to the built-in help program. OS X/Linux users type
 
@@ -89,9 +90,9 @@ You may want more information than just a list of files. You can do this by spec
 
 {% include figure.html filename="man-ls.png" caption="The Manual page for the LS command" %}
 
-Here, you see a listing of the name of the command, the way that you can format this command and what it does. **Many of these will not make sense at this stage, but don't worry; over time you will become more familiar with them.** You can explore this page in a variety of ways: the spacebar moves down a page, or you can arrow down and arrow up throughout the document. 
+Here, you see a listing of the name of the command, the way that you can format this command and what it does. **Many of these will not make sense at this stage, but don't worry; over time you will become more familiar with them.** You can explore this page in a variety of ways: the spacebar moves down a page, or you can arrow down and arrow up throughout the document.
 
-To leave the manual page, press 
+To leave the manual page, press
 
 `q`
 
@@ -111,7 +112,7 @@ which returns a list of text files, if you have any in your home directory (you 
 
 will be displayed. Try out different combinations. If, for example, you had several files in the format `1-Canadian.txt`, `2-Canadian.txt`, and so forth, the command `ls *-Canadian.txt` would display them all but exclude all other files (those that do not match the pattern).
 
-Say you want more information. In that long `man` page, you saw an option that might be useful: 
+Say you want more information. In that long `man` page, you saw an option that might be useful:
 
 >     -l      (The lowercase letter ``ell''.)  List in long format.  (See below.)  If
 >             the output is to a terminal, a total sum for all the file sizes is out-
@@ -121,7 +122,7 @@ So, if you type
 
 `ls -l`
 
-the computer returns a long list of files that contains information similar to what you'd find in your finder or explorer: the size of the files in bites, the date it was created or last modified, and the file name. However, this can be a bit confusing: you see that a file test.html is '6020' bits large. In commonplace language, you are more used to units of measurement like bytes, kilobytes, megabytes, and gigabytes. 
+the computer returns a long list of files that contains information similar to what you'd find in your finder or explorer: the size of the files in bites, the date it was created or last modified, and the file name. However, this can be a bit confusing: you see that a file test.html is '6020' bits large. In commonplace language, you are more used to units of measurement like bytes, kilobytes, megabytes, and gigabytes.
 
 Luckily, there's another flag:
 
@@ -133,15 +134,15 @@ When you want to use two flags, you can just run them together. So, by typing
 
 `ls -lh`
 
-you receive output in a human-readable format; you learn that that 6020 bits is also 5.9KB, that another file is 1 megabyte, and so forth. 
+you receive output in a human-readable format; you learn that that 6020 bits is also 5.9KB, that another file is 1 megabyte, and so forth.
 
 These options are *very* important. In other lessons within the *Programming Historian*, you'll see them. [Wget](/lessons/applied-archival-downloading-with-wget), [MALLET](/lessons/topic-modeling-and-mallet), and [Pandoc](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) all use the same syntax. Luckily, you do not need to memorize syntax; instead, keep these lessons handy so you can take a quick peek if you need to tweak something. These lessons can all be done in any order.
 
-You've now spent a great deal of time in your home directory. Let's go somewhere else. You can do that through the `cd` or Change Directory command. 
+You've now spent a great deal of time in your home directory. Let's go somewhere else. You can do that through the `cd` or Change Directory command.
 
 If you type
 
-`cd desktop` 
+`cd desktop`
 
 you are now on your desktop. This is akin to you 'double-clicking' on the 'desktop' folder within a file explorer. To double check, type `pwd` and you should see something like:
 
@@ -155,7 +156,7 @@ If you want to go back, you can type
 
 This moves us 'up' one directory, putting us back in `/Users/ianmilligan1/`. If you ever get completely lost, the command
 
-`cd --` 
+`cd --`
 
 will bring you right back to the home directory, right where you started.
 
@@ -163,9 +164,9 @@ Try exploring: visit your documents directory, your pictures, folders you might 
 
 Being able to navigate your file system using the bash shell is very important for many of the lessons at the *Programming Historian*. As you become more comfortable, you'll soon find yourself skipping directly to the directory that you want. In our case, from anywhere on our system, you could type
 
-`cd /users/ianmilligan1/mallet-2.0.7` 
+`cd /users/ianmilligan1/mallet-2.0.7`
 
-or, on Windows, something like 
+or, on Windows, something like
 
 `cd c:\mallet-2.0.7\`
 
@@ -173,19 +174,19 @@ and be brought to our MALLET directory for [topic modeling](/lessons/topic-model
 
 Finally, try
 
-`open .` 
+`open .`
 
-in OS X or 
+in OS X or
 
-`explorer .` 
+`explorer .`
 
 in Windows. That command will open up your GUI at the current directory. Make sure to leave a space between `open` or `explorer` and the period.
 
 ## Interacting with Files
 
-As well as navigating directories, you can interact with files on the command line: you can read them, open them, run them, and even edit them, often without ever having to leave the interface. There is some debate over why one would do this. The primary reason is the seamless experience of working on the command line: you never have to pick up your mouse or touch your track pad, and, although it has a steep learning curve it can eventually become a sole writing environment. Furthermore, many programs require you to use the command line to operate with them. Since you'll be using programs on the command line, it can often be quicker to make small edits without switching into a separate program. For some of these arguments, see Jon Beltran de Heredia's ["Why, oh WHY, do those #?@! nutheads use vi?"](http://www.viemu.com/a-why-vi-vim.html). 
+As well as navigating directories, you can interact with files on the command line: you can read them, open them, run them, and even edit them, often without ever having to leave the interface. There is some debate over why one would do this. The primary reason is the seamless experience of working on the command line: you never have to pick up your mouse or touch your track pad, and, although it has a steep learning curve it can eventually become a sole writing environment. Furthermore, many programs require you to use the command line to operate with them. Since you'll be using programs on the command line, it can often be quicker to make small edits without switching into a separate program. For some of these arguments, see Jon Beltran de Heredia's ["Why, oh WHY, do those #?@! nutheads use vi?"](http://www.viemu.com/a-why-vi-vim.html).
 
-Here's a few basic ways to do interact with files. 
+Here's a few basic ways to do interact with files.
 
 First, you can create a new directory so you can engage with text files. We will create it on your desktop, for convenience's sake. You can always move it later. Navigate to your desktop using your shell, and type:
 
@@ -209,21 +210,21 @@ you see
 
 You can read the text within this file in a few different ways. First, you can tell our computer that you want to read it using the standard program that you use to open text files. By default, this may be TextEdit on OS X or Notepad in Windows. To open a file, just type
 
-`open pg2600.txt` 
+`open pg2600.txt`
 
-on OS X, or 
+on OS X, or
 
 `explorer pg2600.txt`
 
-in Windows. 
+in Windows.
 
-This selects the default program to open that type of file, and opens it. 
+This selects the default program to open that type of file, and opens it.
 
 However, you often want to just work on the command line without leaving it. You can read files within this environment as well. To try this, type:
 
 `cat pg2600.txt`
 
-The terminal window erupts and *War and Peace* cascades by. That's great, in theory, but you can't really make any sense of that amount of text? Instead, you may want to just look at the first or the last bit of the file. 
+The terminal window erupts and *War and Peace* cascades by. That's great, in theory, but you can't really make any sense of that amount of text? Instead, you may want to just look at the first or the last bit of the file.
 
 `head pg2600.txt`
 
@@ -245,29 +246,29 @@ you will revisit these commands shortly.
 
 Now that you have used several new commands, it's time for another trick. Hit the up arrow on your keyboard. Notice that `cp pg2600.txt tolstoy.txt` appears before your cursor. You can continue pressing the up arrow to cycle through your previous commands. The down arrow cycles back toward your most recent command.
 
-After having read and renamed several files, you may wish to bring their text together into one file. To combine, or concatenate, two or more files, you can use the `cat` command. First, let's duplicate the Tolstoy file ( `cp tolstoy.txt tolstoy2.txt`). Now that you have two copies of *War and Peace*, let's put them together to make an **even longer** book. 
+After having read and renamed several files, you may wish to bring their text together into one file. To combine, or concatenate, two or more files, you can use the `cat` command. First, let's duplicate the Tolstoy file ( `cp tolstoy.txt tolstoy2.txt`). Now that you have two copies of *War and Peace*, let's put them together to make an **even longer** book.
 
-To combine, or concatenate, two or more files use the `cat` command. Type 
+To combine, or concatenate, two or more files use the `cat` command. Type
 
-`cat tolstoy.txt tolstoy2.txt` 
+`cat tolstoy.txt tolstoy2.txt`
 
-and press enter. This prints, or displays, the combined files within the shell. However, it is too long to read on this window! Luckily, by using the `>` command, you can send the output to a new file, rather than the terminal window. Type 
+and press enter. This prints, or displays, the combined files within the shell. However, it is too long to read on this window! Luckily, by using the `>` command, you can send the output to a new file, rather than the terminal window. Type
 
-`cat tolstoy.txt tolstoy2.txt > tolstoy-twice.txt`. 
+`cat tolstoy.txt tolstoy2.txt > tolstoy-twice.txt`.
 
 Now, when you type `ls` you'll see `tolstoy-twice.txt` appear in your directory.
 
-When combining more than two files, using a wildcard can help avoid having to write out each filename individually. As you have seen above, `*`, is a place holder for zero or more characters or numbers. So, if you type 
+When combining more than two files, using a wildcard can help avoid having to write out each filename individually. As you have seen above, `*`, is a place holder for zero or more characters or numbers. So, if you type
 
-`cat *.txt > everything-together.txt` 
+`cat *.txt > everything-together.txt`
 
 and hit enter, a combination of all the .txt files in the current directory are combined in alphabetical order as `everything-together.txt`. This can be very useful if you need to combine a large number of smaller files within a directory so that you can work with them in a text analysis program. Another wildcard worth remembering is `?` which is a place holder for a single character or number.
 
 ## Editing Text Files Directly on the Command Line
 
-If you want to read a file in its entirety without leaving the command line, you can fire up [vim](http://en.wikipedia.org/wiki/Vim_%28text_editor%29). Vim is a very powerful text editor, which is perfect for using with programs such as [Pandoc](http://johnmacfarlane.net/pandoc/) to do word processing, or for editing your code without having to switch to another program. Best of all, it comes included with bash on both OS X and Windows. Vim has a fairly steep learning curve, so we will just touch on a few minor points. 
+If you want to read a file in its entirety without leaving the command line, you can fire up [vim](http://en.wikipedia.org/wiki/Vim_%28text_editor%29). Vim is a very powerful text editor, which is perfect for using with programs such as [Pandoc](http://johnmacfarlane.net/pandoc/) to do word processing, or for editing your code without having to switch to another program. Best of all, it comes included with bash on both OS X and Windows. Vim has a fairly steep learning curve, so we will just touch on a few minor points.
 
-Type 
+Type
 
 `vim tolstoy.txt`
 
@@ -275,13 +276,13 @@ You should see vim come to life before you, a command-line based text editor.
 
 {% include figure.html filename="vim.png" caption="Vim" %}
 
-If you really want to get into Vim, there is a [good Vim guide](http://vimdoc.sourceforge.net/htmldoc/quickref.html) available. 
+If you really want to get into Vim, there is a [good Vim guide](http://vimdoc.sourceforge.net/htmldoc/quickref.html) available.
 
 Using Vim to read files is relatively simple. You can use the arrow keys to navigate around and could theoretically read *War and Peace* through the command line (one should get an achievement for doing that). Some quick basic navigational commands are as follows:
 
 `Ctrl+F` (that is, holding down your 'control key' and pressing the letter F) will move you down a page (`Shift+UpArrow` for Windows).
 
-`Ctrl+B` will move you up a page. (`Shift+DownArrow` for Windows users). 
+`Ctrl+B` will move you up a page. (`Shift+DownArrow` for Windows users).
 
 If you want to rapidly move to the end of a line, you can press: `$` and to move to the start of one, `0`. You can also move between sentences by typing `)` (forward) or `(` (backwards). For paragraphs, use `}` and `{`. Since you are doing everything with your keyboard, rather than having to hold your arrow key down to move around a document, this lets you zip quickly back and forth.
 
@@ -319,9 +320,9 @@ Let's say you are done with this directory, and you would like to move `tolstoy.
 
 `cp tolstoy.txt tolstoy-backup.txt`
 
-Now when you run a `ls` command you will see five files, two of which are the same: `tolstoy.txt` and `tolstoy-backup.txt`. 
+Now when you run a `ls` command you will see five files, two of which are the same: `tolstoy.txt` and `tolstoy-backup.txt`.
 
-Let's move the first of these somewhere else. By way of example, let's create a second directory on your desktop. Move up to your desktop (`cd ..`) and `mkdir` another directory. Let's call it `proghist-dest`. 
+Let's move the first of these somewhere else. By way of example, let's create a second directory on your desktop. Move up to your desktop (`cd ..`) and `mkdir` another directory. Let's call it `proghist-dest`.
 
 To copy `tolstoy.txt` you have a few different options. you could run these commands from anywhere in the shell, or you could visit either the origin or destination directories. For this example, let's just run it from here. The basic format of the copy command is `cp [source] [destination]`. That is, you type `cp` first, and then enter the file or files that you want to copy followed by where they should go.
 
@@ -331,7 +332,7 @@ In this case, the command
 
 will copy Tolstoy from the first directory to the second directory. You will have to insert your own username in place of 'ianmilligan1'. This means you now have three copies of the novel on our computer. The original, the backup and the new copy in the second directly. If you wanted to **move** the file, that is, not leave a copy behind, you could run the command again, swapping `cp` for `mv`; let's not do this yet.
 
-You can also copy multiple files with a single command. If you wanted to copy **both** the original and the backup file, you could use the wildcard command. 
+You can also copy multiple files with a single command. If you wanted to copy **both** the original and the backup file, you could use the wildcard command.
 
 `cp /users/ianmilligan1/desktop/proghist-text/*.txt /users/ianmilligan1/desktop/proghist-dest/`
 
@@ -361,7 +362,7 @@ If you wanted to delete an entire directory, you have two options. you can use `
 
 ## Conclusions
 
-You may want to take a break from the terminal at this point. To do so, enter `exit` and you'll close your session. 
+You may want to take a break from the terminal at this point. To do so, enter `exit` and you'll close your session.
 
 There are more commands to try as you get more comfortable with the command line. Some of our other favourites are `du`, which is a way to find out how much memory is being used (`du -h` makes it human readable — as with other commands). For those of you on OS X, `top` provides an overview of what processes are running (`mem` on Windows) and `touch FILENAME` can create a basic text file on both systems
 
@@ -373,18 +374,18 @@ Have fun! Before you know it, you may find yourself liking the convenience and p
 
 For your convenience, here are the commands that you have learned in this lesson:
 
-| Command | What It Does |
-|---------|--------------|
-| `pwd` | Prints the 'present working directory,' letting you know where you are. |
-| `ls` | Lists the files in the current directory
-| `man *` | Lists the manual for the command, substituted for the `*`
-| `cd *` | Changes the current directory to `*`
-| `mkdir *` | Makes a directory named `*`
-| `open` or `explorer` | On OS X, `open` followed by a file opens it; in Windows, the command `explorer` followed by a file name does the same thing.
-| `cat *` | `cat` is a versatile command. It will read a file to you if you substitute a file for `*`, but can also be used to combine files.
-| `head *` | Displays the first ten lines of `*`
-| `tail *` | Displays the last ten lines of `*`
-| `mv` | Moves a file
-| `cp` | Copies a file
-| `rm` | Deletes a file
-| `vim` | Opens up the `vim` document editor.
+| Command              | What It Does                                                                                                                      |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `pwd`                | Prints the 'present working directory,' letting you know where you are.                                                           |
+| `ls`                 | Lists the files in the current directory                                                                                          |
+| `man *`              | Lists the manual for the command, substituted for the `*`                                                                         |
+| `cd *`               | Changes the current directory to `*`                                                                                              |
+| `mkdir *`            | Makes a directory named `*`                                                                                                       |
+| `open` or `explorer` | On OS X, `open` followed by a file opens it; in Windows, the command `explorer` followed by a file name does the same thing.      |
+| `cat *`              | `cat` is a versatile command. It will read a file to you if you substitute a file for `*`, but can also be used to combine files. |
+| `head *`             | Displays the first ten lines of `*`                                                                                               |
+| `tail *`             | Displays the last ten lines of `*`                                                                                                |
+| `mv`                 | Moves a file                                                                                                                      |
+| `cp`                 | Copies a file                                                                                                                     |
+| `rm`                 | Deletes a file                                                                                                                    |
+| `vim`                | Opens up the `vim` document editor.                                                                                               |

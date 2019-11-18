@@ -31,7 +31,8 @@ topics: [lod]
 abstract: "Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos y cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL."
 retired: true
 retirement-reason: |
- El Museo Británico no ha mantenido el acceso a su base de datos de colecciones de una manera consistente. Aunque la sintaxis y los comandos de SPARQL siguen siendo correctos, las URLs a las que intentan conectarse son ahora demasiado inconsistentes para su uso en una lección funcional. 
+ El Museo Británico no ha mantenido el acceso a su base de datos de colecciones de una manera consistente. Aunque la sintaxis y los comandos de SPARQL siguen siendo correctos, las URLs a las que intentan conectarse son ahora demasiado inconsistentes para su uso en una lección funcional.
+avatar_alt: Grabado con dos peces unidos por una rama en sus bocas.
 ---
 
 Objetivos de la lección

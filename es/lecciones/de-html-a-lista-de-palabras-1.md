@@ -29,6 +29,7 @@ difficulty: 2
 activity: transforming
 topics: [python]
 abstract: "En esta lección en dos partes partiremos de lo que has aprendido sobre Descargar páginas web con Python, para aprender cómo remover las etiquetas HTML de la página web de la transcripción del juicio criminal contra Benjamin Bowsey de 1780. Lograremos esto utilizando una variedad de operadores de cadenas, métodos de cadenas y habilidades de lectura cercana. Vamos a presentar bucles (looping) y condicionales (branching), de manera que los programas puedan repetir tareas y pruebas para ciertas condiciones, haciendo posible separar el contenido de las etiquetas HTML. Por último, convertimos el contenido de una cadena larga a una lista de palabras que posteriormente podrán ser ordenadas, indexadas y contadas." 
+avatar_alt: Grabado de una jirafa de perfil mirando a un hombre también de perfil parado sujetando muletas para simular la postura de la jirafa. 
 ---
 
 {% include toc.html %}
@@ -141,7 +142,7 @@ Lecturas sugeridas
     -   Ch. 8: Lists and Dictionaries
     -   Ch. 10: Introducing Python Statements
     -   Ch. 15: Function Basics
- 
+
 ## Sincronización de código
 
 Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "python-es-lecciones" para asegurarte que tienes el código correcto.
@@ -156,7 +157,7 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 [Descargar páginas web con Python]: /es/lecciones/trabajar-con-paginas-web
 [HTML]: http://www.w3schools.com/html/
 [1]: http://www.w3schools.com/html/
-[Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python 
+[Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
 [Reutilizacion de código y modularidad]: /es/lecciones/reutilizacion-de-codigo-y-modularidad
 [zip]: /assets/python-es-lecciones2.zip
 [obo-t17800628-33.html]: /assets/obo-t17800628-33.html

@@ -19,6 +19,7 @@ translation-reviewer:
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/36
+avatar_alt: Tres hombres tocando instrumentos musicales
 layout: lesson
 original: mac-installation
 redirect_from: /es/lessons/mac-installation

@@ -17,6 +17,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/102
 activity: analyzing
 topics: [mapping]
 abstract: "In this lesson, you will use R-language to analyze and map geospatial data."
+avatar_alt: An aerial view of city blocks
 ---
 
 {% include alert.html text="One of our readers has pointed out a problem with the data that accompanies this lesson. While we attempt to contact the author to rectify the problem, please be aware that you will not be able to follow along with all steps in the tutorial. We apologize for the inconvenience. [Read more details of the issue and our attempts to resolve it here.](https://github.com/programminghistorian/jekyll/issues/1181)

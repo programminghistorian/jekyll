@@ -22,6 +22,7 @@ redirect_from:
 retired: true
 retirement-reason: |
   The British Museum has failed to maintain their collections database in a consistent and reliably-accessible manner. Although the SPARQL syntax and commands remain correct, the URLs they attempt to connect to have become too unreliable to use in a working lesson.
+avatar_alt: Pisces symbol of two linked fish
 ---
 
 Lesson Goals

@@ -24,6 +24,7 @@ difficulty: 2
 activity: transforming
 topics: [network-analysis]
 abstract: "La visualizaciones de redes pueden ayudar a los humanistas a revelar patrones complejos escondidos y estructuras en fuentes textuales. Este tutorial explica cómo extraer datos en red (personas, instituciones, lugares, etcétera.) de fuentes históricas a través del uso de métodos no especializados desarrollados en el marco del análisis de datos qualitativos (Qualitative Data Analysis, QDA) y el análisis de redes sociales (Social Network Analysis, SNA), y cómo visualizar estos datos con Palladio, una aplicación independiente de plataforma y que es particularmente fácil de usar."
+avatar_alt: Diagrama circular con puntos cardinales
 ---
 
 {% include toc.html %}

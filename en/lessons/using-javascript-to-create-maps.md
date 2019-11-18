@@ -18,6 +18,7 @@ topics: [mapping]
 abstract: |
   Demonstrates how to use the JavaScript library "Leaflet" to produce an interactive map that can be hosted online or viewed locally, and demonstrates how to customize many of its features.
 redirect_from: /lessons/using-javascript-to-create-maps
+avatar_alt: A woman throwing letters near a mailbox
 ---
 
 {% include toc.html %}
@@ -28,7 +29,7 @@ redirect_from: /lessons/using-javascript-to-create-maps
 
 ## Introduction
 
-The mapping software this lesson demonstrates grew out of a need to create a program that was easy to use and designed for the smaller and less uniform geospatial datasets used by historians. While working on a book manuscript on female abolitionists and early feminism in Britain and the United States, the question arose of how to determine the extent of transnational connections in women's antislavery work. We were interested not only in the number of letters that crossed the Atlantic, but also the specific locations the letters were sent from and to and how those international connections changed over time. 
+The mapping software this lesson demonstrates grew out of a need to create a program that was easy to use and designed for the smaller and less uniform geospatial datasets used by historians. While working on a book manuscript on female abolitionists and early feminism in Britain and the United States, the question arose of how to determine the extent of transnational connections in women's antislavery work. We were interested not only in the number of letters that crossed the Atlantic, but also the specific locations the letters were sent from and to and how those international connections changed over time.
 
 To solve this problem, we decided to plot the correspondence of Boston-area abolitionist women on a map and do network analysis of women's correspondence, starting with a single woman's letters as a test project. When we set out to map nineteenth-century abolitionist Maria Weston Chapman's correspondence, there was already an easy way to do [network analysis](http://wcm1.web.rice.edu/mining-bpl-antislavery.html), but we struggled to find software to do the mapping portion of the project.[^1] To remedy this, we wrote a simple JavaScript mapping tool based on [Leaflet](http://leafletjs.com/) which allowed us to display correspondence networks on a browser-based map. This lesson explains not only how to write your own script (or adapt the one we wrote) for your own project, but also explores why creating your own tool is sometimes more effective than using commercially available software to analyze historical data.
 
@@ -94,7 +95,7 @@ When the results appear in the second box on the screen, copy and paste them int
 
 You may have to do some manual location lookup by searching a map and finding the point yourself if you have any nonstandard street addresses or house names. We had to do this with one letter addressed from the middle of the Atlantic Ocean. You can also use the Google Maps output button on the GPS Visualizer page to check your coordinates.
 
-If your addresses are located in a city where street names have been changed or streets have been moved, you may also need to look up the modern street names or examine historic maps to determine the locations. As you work on determining locations, you will have to decide how important it is to your project to determine exact locations of historic addresses. If you are working on nineteenth- or twentieth-century American correspondence sets, resources like the [Sanborn insurance maps](http://sanborn.umi.com/) may help identify some addresses or confirm block numbering or other city planning changes that may have occurred.  
+If your addresses are located in a city where street names have been changed or streets have been moved, you may also need to look up the modern street names or examine historic maps to determine the locations. As you work on determining locations, you will have to decide how important it is to your project to determine exact locations of historic addresses. If you are working on nineteenth- or twentieth-century American correspondence sets, resources like the [Sanborn insurance maps](http://sanborn.umi.com/) may help identify some addresses or confirm block numbering or other city planning changes that may have occurred.
 
 Once you have a master list of coordinates for each location, create two new columns in your CSV file (one for location sent and one for received) and enter the coordinates for each letter. We do not recommend just replacing the street address with the coordinates as that makes it more difficult to double check any locations that don't look quite right on the map. The mapping script also relies on those locations to label the points on the map where letters were sent and received. It also makes it more difficult to do any statistical or network analysis of geographic locations if you decide later that doing that analysis is necessary.
 

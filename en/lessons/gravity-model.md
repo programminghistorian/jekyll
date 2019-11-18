@@ -18,6 +18,7 @@ topics: [data-manipulation]
 abstract: |
   This lesson introduces gravity models as a means for determining the probable distribution of entities across space in historical datasets. It does so through a case study of historical migration patterns.
 mathjax: true
+avatar_alt: Farmer standing before a fruit tree
 ---
 
 {% include toc.html %}
@@ -317,13 +318,13 @@ To ensure data quality in this case study, each variable was either reliably cal
 
 With the above principles in mind, we could have chosen any number of variables, given what we knew about migration push and pull factors. We settled on five (5), chosen based on what we thought would be most important, and which we knew could be backed up with reliable data.
 
-|Variable                      | Source  |
-| -------------                |:-------------:|
-| population at origin         | 1771 values, Wrigley, "English county populations", pp. 54-5.[^12]|
-| distance from London         | calculated with software |
-| price of wheat               | Cannon and Brunt, "Weekly British Grain Prices"[^13]|
-| average wages at origin      | Hunt, "Industrialization and Regional Inequality", pp. 965-6.[^14] |
-| trajectory of wages          | Hunt, "Industrialization and Regional Inequality", pp. 965-6.[^15]|
+| Variable                |                               Source                               |
+| ----------------------- | :----------------------------------------------------------------: |
+| population at origin    | 1771 values, Wrigley, "English county populations", pp. 54-5.[^12] |
+| distance from London    |                      calculated with software                      |
+| price of wheat          |        Cannon and Brunt, "Weekly British Grain Prices"[^13]        |
+| average wages at origin | Hunt, "Industrialization and Regional Inequality", pp. 965-6.[^14] |
+| trajectory of wages     | Hunt, "Industrialization and Regional Inequality", pp. 965-6.[^15] |
 
 Table 1: The five variables used in the model, and the source of each in the peer reviewed literature
 

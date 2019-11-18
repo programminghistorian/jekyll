@@ -23,6 +23,8 @@ El proyecto agradece el siguiente apoyo:
 - Fondos para un taller de escritura en Bogotá, Colombia, financiados por la [Academia Británica](https://www.thebritishacademy.ac.uk) [2018]
 - Fondos iniciales y soporte de administración de la Red en Historia y Medio Ambiente de Canadá ([NiCHE](http://niche-canada.org/)) [2011-2013]
 
+- Nuestros primeros suscriptores de *Patreon* Rachel Murphy (nivel 'Suscriptor'), Miriam Posner (nivel 'Patrocinador') y Tim Hitchcock (nivel 'Mecenas'). En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas': Tim Hitchcock, Shawn Graham. 
+
 ## Donaciones
 Los patrocinadores individuales del _Programming Historian en Español_ son vitales para aumentar, mejorar y mantener nuestro trabajo. Aceptamos donativos únicos y recurrentes.  
 

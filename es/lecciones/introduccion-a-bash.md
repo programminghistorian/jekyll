@@ -20,6 +20,7 @@ translation-reviewer:
 - Antonio Jesús Sánchez Padial
 - Antonio Rojas Castro
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/62
+avatar_alt: un grupo de soldados (infantería) a punto de atacar
 original: intro-to-bash
 redirect_from: /es/lessons/intro-to-bash
 layout: lesson

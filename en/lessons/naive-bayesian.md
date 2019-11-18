@@ -2,7 +2,7 @@
 title: "Supervised Classification: The Naive Bayesian Returns to the Old Bailey"
 layout: lesson
 date: 2014-12-17
-authors: 
+authors:
 - Vilja Hulden
 reviewers:
 - Adam Crymble
@@ -15,6 +15,7 @@ activity: analyzing
 topics: [distant-reading]
 abstract: "This lesson shows how to use machine learning to extract interesting documents out of a digital archive."
 redirect_from: /lessons/naive-bayesian
+avatar_alt: A man peers through a geometric tool
 ---
 
 {% include toc.html %}
@@ -34,16 +35,16 @@ You can still read through to build an understanding of how this process works, 
 ## Introduction
 
 A few years back, William Turkel wrote a series of blog posts called [A
-Naive Bayesian in the Old Bailey][], which showed how one could use 
-machine learning to extract interesting documents out of a digital archive. 
-This tutorial is a kind of an update on that blog essay, with roughly the 
+Naive Bayesian in the Old Bailey][], which showed how one could use
+machine learning to extract interesting documents out of a digital archive.
+This tutorial is a kind of an update on that blog essay, with roughly the
 same data but a slightly different version of the machine learner.
 
 The idea is to show why machine learning methods are of interest to
 historians, as well as to present a step-by-step implementation of
 a supervised machine learner. This learner is then applied to the [Old Bailey digital
-archive][], which contains several centuries' worth of transcripts of 
-trials held at the Old Bailey in London. We will be using Python for the 
+archive][], which contains several centuries' worth of transcripts of
+trials held at the Old Bailey in London. We will be using Python for the
 implementation.
 
 One obvious use of machine learning for a historian is document
@@ -86,15 +87,15 @@ Step by step, we'll do the following:
 -   `naivebayes.py`
 -   `english-stopwords.txt`
 
-[A zip file of the scripts][] is available. You can also download 
-[another zip file][] containing the scripts, the data that we are using and the files that 
+[A zip file of the scripts][] is available. You can also download
+[another zip file][] containing the scripts, the data that we are using and the files that
 result from the scripts. (The second option is probably easiest if you want to follow along with the lesson,
 since it gives you everything you need in the correct folder structure.)
-More information about where to put the files is in the "Preliminaries" section 
+More information about where to put the files is in the "Preliminaries" section
 of the part where we actually begin to code.
 
-*Note: You will not need any Python modules that don't come with standard 
-installations, except for [BeautifulSoup][] (used in the data creation step, 
+*Note: You will not need any Python modules that don't come with standard
+installations, except for [BeautifulSoup][] (used in the data creation step,
 not in the learner code itself).*
 
 ## The Old Bailey Digital Archive
@@ -118,7 +119,7 @@ interested in, and then test the learner's performance.
 
 Of course, in the case of the Old Bailey archive, we might not need this
 computer-assisted sorting all that badly, since the archive's curators,
-making use of the XML markup, offer us a ready-made [search interface][] that 
+making use of the XML markup, offer us a ready-made [search interface][] that
 lets us look for documents by offense type, verdict, punishment, etc. But
 that's exactly what makes the Old Bailey such a good resource for
 testing a machine learner: we can check how well the learner performs by
@@ -278,7 +279,7 @@ back in. It's just one damn word after another.
 {% include figure.html filename="naive-bayesian-1.png" caption="Bags of Words" %}
 
 *(If this procedure sounds familiar, that may be because it sounds a bit
-like the generative story told in explaining how [topic modeling][] works. 
+like the generative story told in explaining how [topic modeling][] works.
 However, the story in topic modeling is a bit different in that,
 for instance, each document contains words from more than one class.
 Also, you should note that topic modeling is unsupervised — you don't
@@ -317,12 +318,12 @@ published.
 So what you end up with is something like this:
 
 | Edward Gibbon (5) | Carl Becker (18) | Mercy Otis Warren (2) |
-| --------------------- | --------------------- | --------------------- |
-| empire, 985 | everyman, 756 | revolution, 989 |
-| rome, 897 | revolution, 699 | constitution, 920 |
-| fall, 887 | philosopher, 613 | principles, 899 |
-| … | … | … |
-| (total), 352,003 | (total), 745,532 | (total), 300,487 |
+| ----------------- | ---------------- | --------------------- |
+| empire, 985       | everyman, 756    | revolution, 989       |
+| rome, 897         | revolution, 699  | constitution, 920     |
+| fall, 887         | philosopher, 613 | principles, 899       |
+| …                 | …                | …                     |
+| (total), 352,003  | (total), 745,532 | (total), 300,487      |
 
 What you have done, in essence, is to reconstruct each historian's "bag
 of words" — now you know (at least approximately) what words each
@@ -357,7 +358,7 @@ multiply the probabilities together (you multiply since each action —
 picking an author, or picking a word — represents an independent
 choice). In the end you end with a tally like this:
 
-``` 
+```
 p_bag * p_word_1 * p_word_2 * ... * p_word_n
 ```
 
@@ -384,22 +385,22 @@ per author. Then you just pick out the largest one, and, as they say,
 Bob's your uncle! That's the author who most probably wrote this
 manuscript.
 
-(Minor technical note: when calculating 
+(Minor technical note: when calculating
 
 ```
 p_bag * p_word1 * ... * p_word_n
-``` 
+```
 
 in a software implementation we actually work with the
-[logarithms][] of the probabilities since the numbers 
-easily become very small. When doing this, we actually calculate 
+[logarithms][] of the probabilities since the numbers
+easily become very small. When doing this, we actually calculate
 
 ```
 log(p_bag) + log(p_word1) + ... + log(p_word_n)
 ```
 
-That is, our multiplications turn into additions in line with 
-the rules of logarithms. But it all works out right: the class 
+That is, our multiplications turn into additions in line with
+the rules of logarithms. But it all works out right: the class
 with the highest number at the end wins.)
 
 But wait! What if a manuscript contains a word that we've never seen
@@ -410,7 +411,7 @@ Indeed. We shouldn't let outliers throw us off the scent. So we do
 something very "Bayesian": we put a "prior" on each word and each class
 — we pretend we've seen all imaginable words at least (say) once in each
 bag, and that each bag has produced at least (say) one document. Then we
-add those fake pretend counts — called [priors][], or pseudocounts — to 
+add those fake pretend counts — called [priors][], or pseudocounts — to
 our real counts. Now, no word or bag gets a count of zero.
 
 In fact, we can play around with the priors as much as we like: they're
@@ -479,7 +480,7 @@ The procedure used in the scripts we employ to train the learner is no
 more complicated than the one in the historians-and-manuscripts example.
 Basically, each trial is represented as a list of words, like so:
 
-``` 
+```
 michael, carney, was, indicted, for, stealing, on, the, 22nd, of, december, 26lb, weight, of, nails, value, 7s, 18, dozen, of, screws, ...
 ... , the, prisoners, came, to, my, shop, on, the, night, in, question, and, brought, in, some, ragged, pieces, of, beef, ...
 ..., i, had, left, my, door, open, and, when, i, returned, i, missed, all, this, property, i, found, it, at, the, pawnbroker, ...
@@ -523,12 +524,12 @@ check out (or revisit) the following tutorials:
 
 A few words about the file structure the scripts assume/create:
 
-I have a "top-level" directory, which I'm calling *bailey* (you 
-could call it something else, it's not referenced in the code). Under 
-that I have two directories: *baileycode* and *baileyfiles*. 
-The first contains all the scripts; the second contains the files 
-that are either downloaded or created by the scripts. That in turn 
-has subdirectories; all except one (for the downloaded XML 
+I have a "top-level" directory, which I'm calling *bailey* (you
+could call it something else, it's not referenced in the code). Under
+that I have two directories: *baileycode* and *baileyfiles*.
+The first contains all the scripts; the second contains the files
+that are either downloaded or created by the scripts. That in turn
+has subdirectories; all except one (for the downloaded XML
 files — see below) are created by the scripts.
 
 If you downloaded the complete zip package with all the files and
@@ -541,11 +542,11 @@ just take up unnecessary space).
 If you only downloaded the scripts, you should do the following:
 
 -   Create a directory and name it something sensible (say, *bailey*).
--   In that directory, create another directory called *baileycode* and 
-    unpack the contents of the script zip file into that directory 
-    (make sure you don't end up with two *baileycode* directories inside 
+-   In that directory, create another directory called *baileycode* and
+    unpack the contents of the script zip file into that directory
+    (make sure you don't end up with two *baileycode* directories inside
     one another).
--   In the same directory (*bailey*), create another directory called 
+-   In the same directory (*bailey*), create another directory called
     *baileyfiles*.
 
 On my Mac, the structure looks like this:
@@ -565,7 +566,7 @@ As explained on the Old Bailey [documentation for developers][] page, this
 is what the http request for a set of trials looks like:
 
 ```
-http://www.oldbaileyonline.org/obapi/ob?term0=fromdate_18300114&term1=todate_18391216&count=10&start=211&return=zip     
+http://www.oldbaileyonline.org/obapi/ob?term0=fromdate_18300114&term1=todate_18391216&count=10&start=211&return=zip
 ```
 
 As you see, we can request all trials that took place between two
@@ -600,7 +601,7 @@ As you see, we accept the limitation of 10 trials at a time, but
 manipulate the start point until we have covered all the trials from the
 1830s.
 
-Assuming you're in the *baileycode* directory, you can run the script 
+Assuming you're in the *baileycode* directory, you can run the script
 from the command line like this:
 
 ``` bash
@@ -618,9 +619,9 @@ http://www.oldbaileyonline.org/obapi/ob?term0=fromdate_18300114&term1=todate_183
 
 This file is saved in the *baileyfiles* directory; it is called `wget1830s.txt`.
 
-To download the trials, create a new directory under *baileyfiles*; 
-call it *trialzips*. Then go into that directory and call *wget* with the 
-file we just created. So, assuming you are still in the *baileycode* directory, 
+To download the trials, create a new directory under *baileyfiles*;
+call it *trialzips*. Then go into that directory and call *wget* with the
+file we just created. So, assuming you are still in the *baileycode* directory,
 you would write the following commands on the command line:
 
 ``` bash
@@ -637,7 +638,7 @@ that it should request the URLs found in `wget1830s.txt`.
 What *wget* returns is a lot of zip files that have unwieldy names and no
 extension. You should rename these so that the extension is ".zip".
 Then, in the directory *baileyfiles*, create a subdirectory called
-*1830s-trialxmls* and then unpack the zips into that so that it 
+*1830s-trialxmls* and then unpack the zips into that so that it
 contains 22,170 XML files that each look like `t18391216-388.xml`. Assuming
 you are still in the *trialzips* directory, you would write:
 
@@ -660,18 +661,18 @@ THOMAS TAYLOR
     <interp inst="t18300114-2-defend110" type="gender" value="male">
     <interp inst="t18300114-2-defend110" type="age" value="25">
 </interp></interp></interp></interp></persname>
-was indicted for 
+was indicted for
     <rs id="t18300114-2-off7" type="offenceDescription">
         <interp inst="t18300114-2-off7" type="offenceCategory" value="violentTheft">
         <interp inst="t18300114-2-off7" type="offenceSubcategory" value="robbery">
-            feloniously assaulting 
+            feloniously assaulting
         <persname id="t18300114-2-victim112" type="victimName">
             David Grant
                   <interp inst="t18300114-2-victim112" type="surname" value="Grant">
             <interp inst="t18300114-2-victim112" type="given" value="David">
             <interp inst="t18300114-2-victim112" type="gender" value="male">
             <join result="offenceVictim" targorder="Y" targets="t18300114-2-off7 t18300114-2-victim112">
-        </join></interp></interp></interp></persname>   
+        </join></interp></interp></interp></persname>
 </interp></interp></rs>
 ```
 
@@ -694,7 +695,7 @@ We also want to create a text file that contains all the trial IDs
 cross-validation samples. The reasons for doing this are discussed below
 in the section "Creating the cross-validation samples".
 
-The script that does these things is called `save-txttrials-by-category.py` 
+The script that does these things is called `save-txttrials-by-category.py`
 and it's pretty extensively commented, so I'll just note a few things here.
 
 1.  We strip the trial text of all punctuation, including quote marks
@@ -727,12 +728,12 @@ The script creates the following directories and files under *baileyfiles*:
 -   Files `offensedict.json` and `trialdict.json`. These json files will come
     into use in training the learner.
 
-So if you're still in the *trialxmls* directory, you would write the 
+So if you're still in the *trialxmls* directory, you would write the
 following commands to run this script:
 
 ``` bash
 cd ../../baileycode/
-python save-trialtxts-by-category.py 
+python save-trialtxts-by-category.py
 ```
 
 This will take a while. After it's done, you should have the directories
@@ -791,16 +792,16 @@ And here are the commands to run the cross-validation scripts (assuming
 you are still in the *baileycode* directory).
 
 ``` bash
-python tenfold-crossvalidation.py 
-python count-offense-instances.py 
+python tenfold-crossvalidation.py
+python count-offense-instances.py
 ```
 
 Alternatively, you can run them using [pypy][], which is
 quite a bit faster.
 
 ``` bash
-pypy tenfold-crossvalidation.py 
-pypy count-offense-instances.py 
+pypy tenfold-crossvalidation.py
+pypy count-offense-instances.py
 ```
 
 The output of the `count-offense-instances.py` script looks like
@@ -884,11 +885,11 @@ Like this:
 
 ```
     [
-     [breakingpeace, 
+     [breakingpeace,
        ['trialid','victim','peace','disturbed','man','tree',...]
        ['trialid','dress','blood','head','incited',...]
       ...]
-     [theft, 
+     [theft,
        ['trialid','apples','orchard','basket','screamed','guilty',....]
        ['trialid','rotten','fish']
       ...]
@@ -910,11 +911,11 @@ one written by Mans Hulden, and it does pretty much exactly what the
 describes.
 
 ``` python
-    # split train and test 
+    # split train and test
     print 'Creating train and test sets, run {0}'.format(run)
     trainsetids, testsetids = ptp.create_sets(sampledirname,run)
     traindata, testdata = ptp.splittraintest(trainsetids,testsetids,trialdata)
-    
+
     # train learner
     print 'Training learner, run {0}...'.format(run)
     mynb = nb.naivebayes()
@@ -926,16 +927,16 @@ performs. Here's the code:
 
 ``` python
     print 'Testing learner, run {0}...'.format(run)
-        
+
     for trialset in testdata:
         correctclass = trialset[0]
         for trial in trialset[1:]:
             result = mynb.classify(trial)
             guessedclass =  max(result, key=result.get)
             # then record correctness of classification result
-            # note that first version does a more complex evaluation 
-            # ... for two-way (one class against rest) classification      
-            if cattocheck:      
+            # note that first version does a more complex evaluation
+            # ... for two-way (one class against rest) classification
+            if cattocheck:
                 if correctclass == cattocheck:
                     catinsample += 1
                 if guessedclass == cattocheck:
@@ -944,7 +945,7 @@ performs. Here's the code:
                          hits += 1
             if guessedclass == correctclass:
                 correctguesses += 1
-                
+
             total +=1
 ```
 
@@ -962,13 +963,13 @@ call it on the command line (assuming you're still in the directory
 *baileycode*):
 
 ``` bash
-    python test-nb-learner.py   
+    python test-nb-learner.py
 ```
 
 Again, for greater speed, you can also use pypy:
 
 ``` bash
-    pypy test-nb-learner.py     
+    pypy test-nb-learner.py
 ```
 
 The code will print out some accuracy measures for the classification
@@ -1136,27 +1137,27 @@ cross-validation**
 
 **Broad categories**
 
-| Category | Precision (%) | Recall (%) | Avg \# trials in cat in TeS |
-| -------- | ------------- | ---------- | --------------------------- |
-| breakingpeace | 63.52 | 64.05 | 24.2 |
-| damage | 0.00 | 0.00 | 1.2 | 
-| deception | 53.47 | 61.43 | 47.7 |
-| kill | 62.5 | 89.39 | 17.9 |
-| miscellaneous | 47.83 | 4.44 | 24.8 |
-| royaloffenses | 85.56 | 91.02 | 42.3 |
-| sexual | 93.65 | 49.17 | 24.0 | 
-| theft | 96.26 | 98.75 | 1551.8 |
-| violenttheft | 68.32 | 33.01 | 20.9 |
+| Category      | Precision (%) | Recall (%) | Avg \# trials in cat in TeS |
+| ------------- | ------------- | ---------- | --------------------------- |
+| breakingpeace | 63.52         | 64.05      | 24.2                        |
+| damage        | 0.00          | 0.00       | 1.2                         |
+| deception     | 53.47         | 61.43      | 47.7                        |
+| kill          | 62.5          | 89.39      | 17.9                        |
+| miscellaneous | 47.83         | 4.44       | 24.8                        |
+| royaloffenses | 85.56         | 91.02      | 42.3                        |
+| sexual        | 93.65         | 49.17      | 24.0                        |
+| theft         | 96.26         | 98.75      | 1551.8                      |
+| violenttheft  | 68.32         | 33.01      | 20.9                        |
 
 **Sample detailed categories**
 
-| Category | Precision (%) | Recall (%) | Avg \# trials in cat in TeS |
-| -------- | ------------- | ---------- | --------------------------- |
-| theft-simplelarceny | 64.37 | 89.03 | 805.9 |
-| theft-receiving | 92.21 | 61.53 | 198.1 |
-| deception-forgery | 74.29 | 11.87 | 21.9 |
-| violenttheft-robbery | 68.42 | 31.86 | 20.4 |
-| theft-extortion | 0.00 | 0.00 | 1.3 |
+| Category             | Precision (%) | Recall (%) | Avg \# trials in cat in TeS |
+| -------------------- | ------------- | ---------- | --------------------------- |
+| theft-simplelarceny  | 64.37         | 89.03      | 805.9                       |
+| theft-receiving      | 92.21         | 61.53      | 198.1                       |
+| deception-forgery    | 74.29         | 11.87      | 21.9                        |
+| violenttheft-robbery | 68.42         | 31.86      | 20.4                        |
+| theft-extortion      | 0.00          | 0.00       | 1.3                         |
 
 There are a few generalizations we can make from these numbers.
 
@@ -1271,7 +1272,7 @@ Here's the relevant code bit:
 
 ``` python
 result = mynb.classify(trial)
-guessedclass =  max(result, key=result.get)     
+guessedclass =  max(result, key=result.get)
 if cattocheck:
     diff = abs(result[cattocheck] - result['other'])
     if diff < 10 and guessedclass != cattocheck:
@@ -1283,7 +1284,7 @@ if cattocheck:
          guesses += 1
          if guessedclass == correctclass:
              hits += 1
-         else: 
+         else:
              falsepositives.append(trial[0])
 if guessedclass == correctclass:
     correctguesses += 1
@@ -1299,7 +1300,7 @@ us a dictionary that looks like this:
 
 ```
 {
-    'other': -2358.522248351527, 
+    'other': -2358.522248351527,
     'violenttheft-robbery': -2326.2878233211086
 }
 ```
@@ -1320,7 +1321,7 @@ by offense:
 
 **Close relatives**
 
-``` 
+```
 breakingpeace-wounding, t18350105-458, 1.899530878
 theft-pocketpicking, t18310407-90, 0.282424548
 theft-pocketpicking, t18380514-1168, 0.784184742
@@ -1335,7 +1336,7 @@ violenttheft-robbery, t18330214-13, 2.150018805
 
 **False positives**
 
-``` 
+```
 breakingpeace-assault, t18391021-2933
 breakingpeace-wounding, t18350615-1577
 breakingpeace-wounding, t18331017-159

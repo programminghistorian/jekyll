@@ -18,8 +18,7 @@ activity: analyzing
 topics: [distant-reading]
 abstract: "In this lesson you will learn to conduct 'sentiment analysis' on texts and to interpret the results. This is a form of exploratory data analysis based on natural language processing. You will learn to install all appropriate software and to build a reusable program that can be applied to your own texts."
 redirect_from: /lessons/sentiment-analysis
-
-
+avatar_alt: A laughing man and a grouchy man
 ---
 
 {% include toc.html %}
@@ -288,12 +287,12 @@ electorate, the Opec ministers and their new important roles, The Israeli and
 Palestinian leaders, and somewhat importantly, Mother Nature.  Given that,
 and that we cannot afford to lose any more money, and that Var seems to be a
 problem, let's be as flat as possible. I'm ok with spread risk  (not front to
-backs, but commodity spreads).  
+backs, but commodity spreads).
 
 
 The morning meetings are not inspiring, and I don't have a real feel for
 everyone's passion with respect to the markets.  As such, I'd like to ask
-John N. to run the morning meetings on Mon. and Wed.  
+John N. to run the morning meetings on Mon. and Wed.
 
 
 Thanks.   Jeff
@@ -402,7 +401,7 @@ What do you notice about the distribution of scores? How can you imagine collect
 
 My sincere thanks to Justin Joque, Visualization Librarian at the University of Michigan Library and the [Digital Projects Studio](https://clarkdatalabs.github.io) for support in formulating the ideas and approach behind this lesson.
 
-Many thanks as well to Adam Crymble, who provided extensive insight and support throughout the editorial process. And thank you to Anandi Silva Knuppel and Puteri Zarina Megat Khalid for their thoughtful comments. 
+Many thanks as well to Adam Crymble, who provided extensive insight and support throughout the editorial process. And thank you to Anandi Silva Knuppel and Puteri Zarina Megat Khalid for their thoughtful comments.
 
 # Works Cited
 

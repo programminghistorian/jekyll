@@ -24,6 +24,7 @@ previous: working-with-text-files
 categories: [lessons, original-ph, python]
 python_warning: false
 redirect_from: /lessons/code-reuse-and-modularity
+avatar_alt: Three caricature heads
 ---
 
 {% include toc.html %}

@@ -20,6 +20,7 @@ topics: [website,mapping]
 abstract: "This lesson serves as an introduction to creating mobile augmented reality applications. Augmented reality (AR) can be defined as the overlaying of digital content (images, video, text, sound, etc.) onto physical objects or locations, and it is typically experienced by looking through the camera lens of an electronic device such as a smartphone, tablet, or optical head-mounted display."
 collection: lessons
 slug: creating-mobile-augmented-reality-experiences-in-unity
+avatar_alt: An optical instrument resembling a telescope
 ---
 
 This lesson serves as an introduction to creating mobile augmented reality applications in the Unity game engine. Augmented reality (AR) can be defined as the overlaying of digital content (images, video, text, sound, etc.) onto physical objects or locations, and it is typically experienced by looking through the camera lens of an electronic device such as a smartphone, tablet, or optical head-mounted display (e.g. Microsoft Hololens). Although AR is a cutting-edge, complex technology, there are a number of user-friendly platforms that allow people with no previous coding experience to create compelling augmented reality experiences.
@@ -68,14 +69,14 @@ However, before you decide to dive into AR development in the Unity interface, i
 
 HP Reveal is a fantastic AR creation platform that can be learned fairly quickly. I would highly recommend it for classroom usage and for smaller projects with simple multimedia overlays such as images or short videos. However, online creation platforms like HP Reveal have their limitations. When you create an overlay in HP Reveal, users can only access it through the HP Reveal application. This leaves the AR creator with no control over the design of the application interface. Moreover, HP Reveal requires that users have internet acess when using the application, which makes it difficult to create site-specific AR applications in places where there is little to no internet connectivity. With Vuforia, however, you can create stand-alone AR applications that can be downloaded and stored in the mobile device's memory and thus do not require that users to have internet access. Consult the table below to help you decide which platform is best suited for your AR development needs.
 
-|            | HP Reveal        | Unity/Vuforia    |
-|------------| ------------- |-------------|
-| **Type**           | online platform    | computer program |
-| **Use**           | small projects with simple overlays     | large projects with complex overlays, site-specific applications |
-| **Pros**           | users can instantly access overlays, no coding required    | create standalone applications, more control over interface design, overlays load quickly |
-| **Cons**           | file size limits for overlays, requires internet connection     |steeper learning curve, must upload completed application files to Google Play or Apple Store for others to access|
-| **Access**           | [HP Reveal Studio](https://www.hpreveal.com/) | [Unity](https://unity3d.com/get-unity/download/archive) [Vuforia](https://developer.vuforia.com) |
-| **Minumum Hardware Needed**           | iOS or Android Mobile Device    | Laptop/Desktop and iOS or Android Mobile Device |
+|                             | HP Reveal                                                   | Unity/Vuforia                                                                                                      |
+| --------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Type**                    | online platform                                             | computer program                                                                                                   |
+| **Use**                     | small projects with simple overlays                         | large projects with complex overlays, site-specific applications                                                   |
+| **Pros**                    | users can instantly access overlays, no coding required     | create standalone applications, more control over interface design, overlays load quickly                          |
+| **Cons**                    | file size limits for overlays, requires internet connection | steeper learning curve, must upload completed application files to Google Play or Apple Store for others to access |
+| **Access**                  | [HP Reveal Studio](https://www.hpreveal.com/)               | [Unity](https://unity3d.com/get-unity/download/archive) [Vuforia](https://developer.vuforia.com)                   |
+| **Minumum Hardware Needed** | iOS or Android Mobile Device                                | Laptop/Desktop and iOS or Android Mobile Device                                                                    |
 
 
 ### Installing Unity and Vuforia

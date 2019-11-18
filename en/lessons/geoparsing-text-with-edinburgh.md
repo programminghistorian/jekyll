@@ -17,6 +17,7 @@ activity: presenting
 topics: [mapping]
 abstract: "This tutorial teaches users how to use the Edinburgh Geoparser to process a piece of English-language text, extract and resolve the locations contained within it, and plot them as a web map."
 redirect_from: /lessons/geoparsing-text-with-edinburgh
+avatar_alt: Map of the city of Edinburgh
 ---
 
 {% include toc.html %}
@@ -53,7 +54,7 @@ The Edinburgh Geoparser is used in conjunction with various gazetteers. The term
 
 The current Edinburgh Geoparser download can be found at <https://www.ltg.ed.ac.uk/software/geoparser/>.
 
-Go to the Download section and click on The Edinburgh Geoparser link.  All you need to do then is accept the license, fill in some personal details, and then press **Download**.  A compressed file called `geoparser-march2016.tar.gz` will be downloaded to your Download directory or to wherever you specified the download to go.  Note that this file name will change new versions of the tool are released.  
+Go to the Download section and click on The Edinburgh Geoparser link.  All you need to do then is accept the license, fill in some personal details, and then press **Download**.  A compressed file called `geoparser-march2016.tar.gz` will be downloaded to your Download directory or to wherever you specified the download to go.  Note that this file name will change new versions of the tool are released.
 
 Some machines will automatically decompress the .gz file and create the directory `geoparser-v1.1`.  If this happens, and you see the `geoparser-v1.1` directory appear, move this new directory to wherever you want it to be installed and go to step 2.  If this does not happen, and your machine does not decompress the `.tar.gz` file and create a new directory automatically, follow step 1 first.  (Note that version 1.1 is the current release but this number will change in the future.)
 
@@ -62,7 +63,7 @@ Some machines will automatically decompress the .gz file and create the director
 
 {% include figure.html filename="geoparser_figure11.png" caption="Figure 1: The new geoparser-v1.1 directory." %}
 
-If you double-click on the geoparser-v1.1 folder you can see the content of the Geoparser (see Figure 2). That's it. You're ready to geo-parse.  
+If you double-click on the geoparser-v1.1 folder you can see the content of the Geoparser (see Figure 2). That's it. You're ready to geo-parse.
 
 {% include figure.html filename="geoparser_figure00.png" caption="Figure 2: Content of the Geoparser." %}
 
@@ -371,7 +372,7 @@ In the past the Geoparser was used to identify place names for different purpose
 * large historical collections related to commodity trading in the 19th century British Empire ([Trading Consequences](http://tradingconsequences.blogs.edina.ac.uk/)) and
 * 19th century British newspapers by [Prof. Ian Gregory](http://www.lancaster.ac.uk/staff/gregoryi/)’s group at Lancaster University.
 
-The Geoparser was also adapted to the ancient world for the [Google Ancient Places](https://googleancientplaces.wordpress.com/) project (e.g. see Isaksen et al., 2011), with its [GapVis](http://nrabinowitz.github.io/gapvis/)  interface. More recently, the Geoparser was used to geo-parse Twitter user profile locations (Alex et al, 2016).  
+The Geoparser was also adapted to the ancient world for the [Google Ancient Places](https://googleancientplaces.wordpress.com/) project (e.g. see Isaksen et al., 2011), with its [GapVis](http://nrabinowitz.github.io/gapvis/)  interface. More recently, the Geoparser was used to geo-parse Twitter user profile locations (Alex et al, 2016).
 
 ## References
 

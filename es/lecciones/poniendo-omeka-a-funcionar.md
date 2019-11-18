@@ -23,6 +23,7 @@ difficulty: 1
 activity: presenting
 topics: [website]
 abstract: "Con Omeka.net es fácil crear sitios web que contengan colecciones de ítems."
+avatar_alt: Ilustración del esqueleto de un mamut en la exhibición de un museo, con gente a su alrededor. 
 ---
 
 {% include toc.html %}

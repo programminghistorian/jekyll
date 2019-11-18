@@ -706,7 +706,6 @@
     fr: |
         Jessica Parr est maîtresse de conférences au Simmons College à Boston et spécialiste du monde atlantique à l'époque moderne.
   team_roles:
-   - editorial
    - board
    - global-lead
 
@@ -771,8 +770,9 @@
   email: anandi.silva.knuppel@gmail.com
   twitter: anandilila
   url: "http://anandileela.com"
-  team: true
+  team: false
   team_start: 2017
+  team_end: 2019
   institution: Emory University
   sortname: Silva
   affiliation:
@@ -789,10 +789,6 @@
         Anandi Silva Knuppel es coordinadora del programa de Aprendizaje Digital de la Universidad de Emory.
     fr: |
         Anandi Silva Knuppel est coordinatrice des programmes de formation au numérique à l'Université Emory.
-  team_roles:
-   - editorial
-   - managing-en
-   - board
 
 
 - name: Anna-Maria Sichani

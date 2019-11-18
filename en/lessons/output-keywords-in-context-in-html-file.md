@@ -20,6 +20,7 @@ next: downloading-multiple-records-using-query-strings
 previous: keywords-in-context-using-n-grams
 python_warning: false
 redirect_from: /lessons/output-keywords-in-context-in-html-file
+avatar_alt: A monkey dancing with a lion and a bear
 ---
 
 {% include toc.html %}

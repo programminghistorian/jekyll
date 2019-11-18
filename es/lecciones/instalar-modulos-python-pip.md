@@ -18,6 +18,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/63
 layout: lesson
 original: installing-python-modules-pip
 redirect_from: /es/lessons/installing-python-modules-pip
+avatar_alt: Una rama con tres frutos 
 difficulty: 1
 activity: acquiring
 topics: [get-ready, python]

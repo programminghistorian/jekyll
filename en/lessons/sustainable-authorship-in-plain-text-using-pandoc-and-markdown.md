@@ -15,6 +15,7 @@ exclude_from_check:
   - reviewers
   - review-ticket
 redirect_from: /lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+avatar_alt: A man working at a drafting table
 ---
 
 {% include toc.html %}

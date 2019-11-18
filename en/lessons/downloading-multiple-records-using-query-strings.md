@@ -19,6 +19,7 @@ abstract: "Downloading a single record from a website is easy, but downloading m
 previous: output-keywords-in-context-in-html-file
 python_warning: false
 redirect_from: /lessons/downloading-multiple-records-using-query-strings
+avatar_alt: Figures working in a mine, pushing carts
 ---
 
 {% include toc.html %}
@@ -131,7 +132,7 @@ Take a look at the URL produced with the last search results page. It
 should look like this:
 
 ```
-https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper_trialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0 
+https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper_trialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
 ```
 
 We had a look at URLs in [Viewing HTML Files][], but this looks a lot
@@ -151,7 +152,7 @@ https://www.oldbaileyonline.org/search.jsp
 &toYear=1750
 &toMonth=99
 &start=0
-&count=0 
+&count=0
 ```
 
 In this view, we see more clearly our 12 important pieces of information
@@ -162,7 +163,7 @@ it does not do anything.) and a series of 10 *name/value pairs* put
 together with & characters. Together these 10 name/value pairs comprise
 the query string, which tells the search engine what variables to use in
 specific stages of the search. Notice that each name/value pair contains
-both a variable name: toYear, and then assigns that variable a value: 1750. 
+both a variable name: toYear, and then assigns that variable a value: 1750.
 This works in exactly the same way as *Function Arguments* by
 passing certain information to specific variables. In this case, the
 most important variable is `_divs_fulltext=` which has been given the
@@ -244,7 +245,7 @@ page. We have already got the first one by using the form on the
 website:
 
 ```
-https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper_trialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0 
+https://www.oldbaileyonline.org/search.jsp?gen=1&form=searchHomePage&_divs_fulltext=mulatto*+negro*&kwparse=advanced&_divs_div0Type_div1Type=sessionsPaper_trialAccount&fromYear=1700&fromMonth=00&toYear=1750&toMonth=99&start=0&count=0
 ```
 
 We could type this URL out twice and alter the ‘*start*’ variable to get

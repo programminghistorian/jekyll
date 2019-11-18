@@ -20,6 +20,7 @@ next: normalizing-data
 previous: from-html-to-list-of-words-1
 python_warning: false
 redirect_from: /lessons/from-html-to-list-of-words-2
+avatar_alt: A soldier being mocked by a man
 ---
 
 {% include toc.html %}
@@ -211,7 +212,7 @@ theResult = obo.stripTags(myText)
 ```
 
 By using `return`, we have been able to save the output of the *stripTags*
-function directly into a variable that we have called 'theResult', 
+function directly into a variable that we have called 'theResult',
 which we can then resume processing as needed using additional code.
 
 Note that in the *stripTags* example from the start of this sub-section,
@@ -306,20 +307,20 @@ print((wordlist[0:120]))
 You should get something like the following.
 
 ``` python
-['324.', '\xc2\xa0', 'BENJAMIN', 'BOWSEY', '(a', 'blackmoor', ')', 'was', 
-'indicted', 'for', 'that', 'he', 'together', 'with', 'five', 'hundred', 
-'other', 'persons', 'and', 'more,', 'did,', 'unlawfully,', 'riotously,', 
-'and', 'tumultuously', 'assemble', 'on', 'the', '6th', 'of', 'June', 'to', 
-'the', 'disturbance', 'of', 'the', 'public', 'peace', 'and', 'did', 'begin', 
-'to', 'demolish', 'and', 'pull', 'down', 'the', 'dwelling', 'house', 'of', 
-'\xc2\xa0', 'Richard', 'Akerman', ',', 'against', 'the', 'form', 'of', 
-'the', 'statute,', '&amp;c.', '\xc2\xa0', 'ROSE', 'JENNINGS', ',', 'Esq.', 
-'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be', 'in', 'this', 'part', 
-'of', 'the', 'town,', 'on', 'the', '6th', 'of', 'June', 'in', 'the', 
-'evening?', '-', 'I', 'dined', 'with', 'my', 'brother', 'who', 'lives', 
-'opposite', 'Mr.', "Akerman's", 'house.', 'They', 'attacked', 'Mr.', 
-"Akerman's", 'house', 'precisely', 'at', 'seven', "o'clock;", 'they', 
-'were', 'preceded', 'by', 'a', 'man', 'better', 'dressed', 'than', 'the', 
+['324.', '\xc2\xa0', 'BENJAMIN', 'BOWSEY', '(a', 'blackmoor', ')', 'was',
+'indicted', 'for', 'that', 'he', 'together', 'with', 'five', 'hundred',
+'other', 'persons', 'and', 'more,', 'did,', 'unlawfully,', 'riotously,',
+'and', 'tumultuously', 'assemble', 'on', 'the', '6th', 'of', 'June', 'to',
+'the', 'disturbance', 'of', 'the', 'public', 'peace', 'and', 'did', 'begin',
+'to', 'demolish', 'and', 'pull', 'down', 'the', 'dwelling', 'house', 'of',
+'\xc2\xa0', 'Richard', 'Akerman', ',', 'against', 'the', 'form', 'of',
+'the', 'statute,', '&amp;c.', '\xc2\xa0', 'ROSE', 'JENNINGS', ',', 'Esq.',
+'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be', 'in', 'this', 'part',
+'of', 'the', 'town,', 'on', 'the', '6th', 'of', 'June', 'in', 'the',
+'evening?', '-', 'I', 'dined', 'with', 'my', 'brother', 'who', 'lives',
+'opposite', 'Mr.', "Akerman's", 'house.', 'They', 'attacked', 'Mr.',
+"Akerman's", 'house', 'precisely', 'at', 'seven', "o'clock;", 'they',
+'were', 'preceded', 'by', 'a', 'man', 'better', 'dressed', 'than', 'the',
 'rest,', 'who']
 ```
 

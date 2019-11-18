@@ -1,5 +1,5 @@
 ---
-title: Setting Up an Integrated Development Environment for Python (Mac) 
+title: Setting Up an Integrated Development Environment for Python (Mac)
 layout: lesson
 date: 2012-07-17
 authors:
@@ -17,6 +17,7 @@ activity: transforming
 topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running an Apple operating system."
 redirect_from: /lessons/mac-installation
+avatar_alt: A band with three musicians
 ---
 
 {% include toc.html %}

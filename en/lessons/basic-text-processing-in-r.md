@@ -9,7 +9,7 @@ reviewers:
 - Brandon Walsh
 - John Russell
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/34
-editors: 
+editors:
 - Jeri Wieringa
 difficulty: 2
 layout: lesson
@@ -18,6 +18,7 @@ topics: [distant-reading]
 abstract: |
   Learn how to use R to analyze high-level patterns in texts, apply stylometric methods over time and across authors, and use summary methods to describe items in a corpus.
 redirect_from: /lessons/basic-text-processing-in-r
+avatar_alt: Children visiting a mobile book-mobile
 ---
 
 {% include toc.html %}
@@ -37,7 +38,7 @@ elements in a corpus.
 
 All of these will be demonstrated on a dataset from the text of United States Presidential State of the Union Addresses.[^2]
 
-We assume that users have only a very basic understanding of the R programming language. The ['R Basics with Tabular Data' lesson by Taryn Dewar]( /lessons/r-basics-with-tabular-data)[^1] is an excellent guide that covers all of the R knowledge assumed here, such as installing and starting R, installing and loading packages, importing data and working with basic R data. Users can download R for their operating system from [The Comprehensive R Archive Network](https://cran.r-project.org/). Though not required, we also recommend that new users download [RStudio](https://www.rstudio.com/products/rstudio/#Desktop), an open source development environment for writing and executing R programs. 
+We assume that users have only a very basic understanding of the R programming language. The ['R Basics with Tabular Data' lesson by Taryn Dewar]( /lessons/r-basics-with-tabular-data)[^1] is an excellent guide that covers all of the R knowledge assumed here, such as installing and starting R, installing and loading packages, importing data and working with basic R data. Users can download R for their operating system from [The Comprehensive R Archive Network](https://cran.r-project.org/). Though not required, we also recommend that new users download [RStudio](https://www.rstudio.com/products/rstudio/#Desktop), an open source development environment for writing and executing R programs.
 
 All of the code in this lesson was tested in R version 3.3.2, though we expect it to run properly on any future version of the software.
 
@@ -52,7 +53,7 @@ install.packages("tidyverse")
 install.packages("tokenizers")
 ```
 
-Depending on your system setup, these may open a dialog box asking you to choose a mirror to download from. Select one near your current location. The download and installation should follow automatically. 
+Depending on your system setup, these may open a dialog box asking you to choose a mirror to download from. Select one near your current location. The download and installation should follow automatically.
 
 Now that these packages are downloaded to your machine, we need to tell R that these packages should also be loaded for use. We do this via the `library` command; some warnings may be printed out as other dependencies are loaded, but can usually be safely ignored.
 
@@ -68,7 +69,7 @@ restart R.
 ## Word Tokenization
 
 In this section, we will work with a single paragraph of text. The
-example here is a paragraph from the opening of Barack Obama's final State of the Union address in 2016. 
+example here is a paragraph from the opening of Barack Obama's final State of the Union address in 2016.
 
 To read this into R, copy and paste the following into the R console.
 
@@ -181,7 +182,7 @@ The output from this command should look like this in your console (a tibble is 
 # ... with 61 more rows
 ```
 
-There is substantial amount of information in this display. We see that there are 71 unique words, as given by the dimensions of the table at the top. The first 10 rows of the dataset are printed, with the second column showing how many times the word in the first column was used. For example, "and" was used 4 times but "achieve" was used only once. 
+There is substantial amount of information in this display. We see that there are 71 unique words, as given by the dimensions of the table at the top. The first 10 rows of the dataset are printed, with the second column showing how many times the word in the first column was used. For example, "and" was used 4 times but "achieve" was used only once.
 
 We can also sort the table using the `arrange` function. The arrange function takes the dataset to be worked on, here `tab`, and then the name of the column to arrange by. The `desc` function in the second argument indicates that we want to sort in *desc*ending order.
 
@@ -208,7 +209,7 @@ And the output will now be:
 # ... with 61 more rows
 ```
 
-The most common words are pronouns and functions words such as "and", "i", "the", and "we". Notice how taking the lower-case version of every word helps in the analysis here. The word "We" at the start of the sentence is not treated differently than the "we" in the middle of a sentence. 
+The most common words are pronouns and functions words such as "and", "i", "the", and "we". Notice how taking the lower-case version of every word helps in the analysis here. The word "We" at the start of the sentence is not treated differently than the "we" in the middle of a sentence.
 
 A popular technique is to maintain a list of highly used words and removing these prior to any formal analysis. The words on such a list are called "stopwords", and usually include words such as pronouns, conjugations of the most common verbs, and conjunctions. In this tutorial we will use a nuanced variation of this technique.
 
@@ -232,7 +233,7 @@ With output:
 [4] "So, who knows, we might surprise the cynics again"
 ```
 
-The output is given as a character vector, a one-dimensional R object consisting only of elements represented as characters. Notice that the output pushed each sentence into a separate element. 
+The output is given as a character vector, a one-dimensional R object consisting only of elements represented as characters. Notice that the output pushed each sentence into a separate element.
 
 It is possible to pair the output of the sentence tokenizer with the word tokenizer. If we pass the sentences split from the paragraph to the `tokenize_words` function, each sentence gets treated as its own document. Apply this using the following line of code and see whether the output looks as you would have expected it, using the second line to print the object.
 
@@ -275,7 +276,7 @@ use this function to manage larger documents.
 
 ## Exploratory Analysis
 
-Let us now apply the techniques from the previous section to an entire State of the Union address. For consistency, we will use the same 2016 Obama speech. Here we will load the data in from a file as copying directly becomes too difficult at scale. 
+Let us now apply the techniques from the previous section to an entire State of the Union address. For consistency, we will use the same 2016 Obama speech. Here we will load the data in from a file as copying directly becomes too difficult at scale.
 
 To do so, we will combine the `readLines` function to read the text into R and the `paste` function to combine all of the lines into a single object. We will build the URL of the text file using the `sprintf` function as this format will make it easily modified to grab other addresses.[^3]
 
@@ -424,7 +425,7 @@ The first ten rows of the dataset will be printed; they should look like this:
 # ... with 226 more rows
 ```
 
-For each speech we have the president, the year, the president's party, and whether the State of the Union was given as a speech or as a written address. The 2016 speech is the 236th row of the metadata data, which is also the last one. 
+For each speech we have the president, the year, the president's party, and whether the State of the Union was given as a speech or as a written address. The 2016 speech is the 236th row of the metadata data, which is also the last one.
 
 It will be useful in the next section to be able to summarize an address in just a single line of text. We can do that here by extracting the top five most used words that have a frequency less than 0.002% in the Google Web Corpus, and combining this with the president and year.
 
@@ -500,7 +501,7 @@ This will produce a plot similar to this one:
 
 {% include figure.html filename="sotu-number-of-words.jpg" caption="Number of words in each State of the Union Address plotted by year." %}
 
-It seems that for the most part addresses steadily increased in length from 1790 to around 1850, and then increase again until the end of the 19th century. The length dramatically decreased around World War I, with a handful of fairly large outliers scattered throughout the 20th century. 
+It seems that for the most part addresses steadily increased in length from 1790 to around 1850, and then increase again until the end of the 19th century. The length dramatically decreased around World War I, with a handful of fairly large outliers scattered throughout the 20th century.
 
 Is there any rational behind these changes? Setting the color of the points
 to denote whether a speech is written or delivered orally explains a large part of the variation. The command to do this plot is only a small tweak on our other plotting command:

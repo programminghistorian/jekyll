@@ -15,6 +15,7 @@ activity: transforming
 topics: [data-manipulation]
 abstract: "This tutorial illustrates strategies for taking raw OCR output from a scanned text, parsing it to isolate and correct essential elements of metadata, and generating an ordered data set (a python dictionary) from it."
 redirect_from: /lessons/generating-an-ordered-data-set-from-an-OCR-text-file
+avatar_alt: A small case with a set of books
 ---
 # Generating an Ordered Data Set from a Text File
 
@@ -421,7 +422,7 @@ Here's a sample of the output our script will give us:
 
 Once we've found, and fixed, all the roman numeral charter headings, then we can write out a new file with an easy-to-find-by-regex string, a 'slug,' for each charter in place of the bare roman numeral. Comment out the `for` loop above, and replace it with this one:
 
-```python             
+```python
 for line in GScriba:
     if romstr.match(line):
         rnum = line.strip().strip('.')
@@ -740,7 +741,7 @@ for ch in charters:
         d['marginal'] = d['text'].pop(0).strip()
     except IndexError: # this will report that the charters on p 214 are missing
         print "missing charter ", ch
-```    
+```
 
 ## Assign footnotes to their respective charters and add to dictionary
 The trickiest part is to get the footnote texts appearing at the bottom of the page associated with their appropriate charters. Since we are, perforce, analyzing our text line by line, we're faced with the problem of associating a given footnote reference with its appropriate footnote text when there are perhaps many lines intervening.
@@ -782,9 +783,9 @@ for line in GScriba:
         for fn in fndict:
             chid = fndict[fn]['chid']
             fntext = fndict[fn]['fntext']
-            charters[int(chid)]['footnotes'].append((fn, fntext))  
+            charters[int(chid)]['footnotes'].append((fn, fntext))
         pgno += 1
-        fndict = {}  # and then re-initialize our temporary container   
+        fndict = {}  # and then re-initialize our temporary container
     if slug.match(line): # here's the beginning of a charter, so update the variable.
         this_charter = int(slug.match(line).group(3))
     if nmarkers:

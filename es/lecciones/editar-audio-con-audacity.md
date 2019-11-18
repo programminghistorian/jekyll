@@ -24,6 +24,7 @@ difficulty: 1
 activity: transforming
 topics: [data-manipulation]
 abstract: "Con esta lección aprenderás a utilizar Audacity para cargar, editar, mezclar y exportar archivos de audio."
+avatar_alt: Grabado de un fonógrafo y un gramófono.
 ---
 
 {% include toc.html %}

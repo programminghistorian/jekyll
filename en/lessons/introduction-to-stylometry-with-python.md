@@ -8,7 +8,7 @@ date: 2018-04-21
 authors:
 - François Dominic Laramée
 reviewers:
-- Folgert Karsdorp 
+- Folgert Karsdorp
 - Jan Rybicki
 - Antonio Rojas Castro
 editors:
@@ -19,7 +19,7 @@ topics: [distant-reading]
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/147
 abstract: "In this lesson you will learn to conduct 'stylometric analysis' on texts and determine authorship of disputed texts. The lesson covers three methods: Mendenhall's Characteristic Curves of Composition, Kilgariff's Chi-Squared Method, and John Burrows' Delta Method."
 redirect_from: /lessons/introduction-to-stylometry-with-python
-
+avatar_alt: A woman reading next to a painting
 ---
 
 {% include toc.html %}
@@ -28,7 +28,7 @@ redirect_from: /lessons/introduction-to-stylometry-with-python
 
 [Stylometry](https://en.wikipedia.org/wiki/Stylometry) is the quantitative study of literary style through computational [distant reading](https://en.wikipedia.org/wiki/Close_reading) methods. It is based on the observation that authors tend to write in relatively consistent, recognizable and unique ways. For example:
 
-* Each person has their own unique vocabulary, sometimes rich, sometimes limited. Although a larger vocabulary is usually associated with literary quality, this is not always the case. Ernest Hemingway is famous for using a surprisingly small number of different words in his writing,[^1] which did not prevent him from winning the Nobel Prize for Literature in 1954. 
+* Each person has their own unique vocabulary, sometimes rich, sometimes limited. Although a larger vocabulary is usually associated with literary quality, this is not always the case. Ernest Hemingway is famous for using a surprisingly small number of different words in his writing,[^1] which did not prevent him from winning the Nobel Prize for Literature in 1954.
 * Some people write in short sentences, while others prefer long blocks of text consisting of many clauses.
 * No two people use semicolons, em-dashes, and other forms of punctuation in the exact same way.
 
@@ -48,11 +48,11 @@ At the end of this lesson, we will have examined the following topics:
 
 ## Prior Reading
 
-If you do not have experience with the Python programming language or are finding examples in this tutorial difficult, the author recommends you read the lessons on [Working with Text Files in Python](/lessons/working-with-text-files) and [Manipulating Strings in Python](/lessons/manipulating-strings-in-python). Please note, that those lessons were written in Python version 2 whereas this one uses Python version 3. The differences in [syntax](https://en.wikipedia.org/wiki/Syntax) between the two versions of the language can be subtle. If you are confused at any time, follow the examples as written in this lesson and use the other lessons as background material. (More precisely, the code in this tutorial was written using [Python 3.6.4](https://www.python.org/downloads/release/python-364/); the [f-string construct](https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals) in the line `with open(f'data/federalist_{filename}.txt') as f:`, for example, requires Python 3.6 or a more recent version of the language.) 
+If you do not have experience with the Python programming language or are finding examples in this tutorial difficult, the author recommends you read the lessons on [Working with Text Files in Python](/lessons/working-with-text-files) and [Manipulating Strings in Python](/lessons/manipulating-strings-in-python). Please note, that those lessons were written in Python version 2 whereas this one uses Python version 3. The differences in [syntax](https://en.wikipedia.org/wiki/Syntax) between the two versions of the language can be subtle. If you are confused at any time, follow the examples as written in this lesson and use the other lessons as background material. (More precisely, the code in this tutorial was written using [Python 3.6.4](https://www.python.org/downloads/release/python-364/); the [f-string construct](https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals) in the line `with open(f'data/federalist_{filename}.txt') as f:`, for example, requires Python 3.6 or a more recent version of the language.)
 
 ## Required materials
 
-This tutorial uses both datasets and software that you will have to download and install. 
+This tutorial uses both datasets and software that you will have to download and install.
 
 ### The Dataset ###
 
@@ -66,11 +66,11 @@ This lesson uses the following Python language versions and [libraries](https://
 * [nltk](https://www.nltk.org/) - Natural Language Toolkit, usually abbreviated `nltk`.
 * [matplotlib](https://matplotlib.org/)
 
-Some of these modules may not be pre-installed on your computer. Should you encounter error messages such as: "Module not found" or similar, you will have to download and install the missing module(s). This is easiest to accomplish using the `pip` command. Full details are available via the *Programming Historian* lesson on [Installing Python modules with pip](/lessons/installing-python-modules-pip). 
+Some of these modules may not be pre-installed on your computer. Should you encounter error messages such as: "Module not found" or similar, you will have to download and install the missing module(s). This is easiest to accomplish using the `pip` command. Full details are available via the *Programming Historian* lesson on [Installing Python modules with pip](/lessons/installing-python-modules-pip).
 
 ## Some Notes about Language Independence
 
-This tutorial applies stylometric analysis to a set of English-language texts using a Python library called `nltk`. Much of the functionality provided by the `nltk` works with other languages. As long as a language provides a clear way to distinguish word boundaries within a word, `nltk` should perform well. Languages such as Chinese for which there is no clear distinction between word boundaries may be problematic. I have used `nltk` with French texts without any trouble; other languages that use [diacritics](https://en.wikipedia.org/wiki/Diacritic), such as Spanish and German, should also work well with `nltk`.  Please refer to [nltk's documentation](http://www.nltk.org/book/) for details.   
+This tutorial applies stylometric analysis to a set of English-language texts using a Python library called `nltk`. Much of the functionality provided by the `nltk` works with other languages. As long as a language provides a clear way to distinguish word boundaries within a word, `nltk` should perform well. Languages such as Chinese for which there is no clear distinction between word boundaries may be problematic. I have used `nltk` with French texts without any trouble; other languages that use [diacritics](https://en.wikipedia.org/wiki/Diacritic), such as Spanish and German, should also work well with `nltk`.  Please refer to [nltk's documentation](http://www.nltk.org/book/) for details.
 
 Only one of the tasks in this tutorial requires language-dependent code. To divide a text into a set of French or Spanish words, you will need to specify the appropriate language as a parameter to `nltk`'s [tokenizer](https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization), which uses English as the default. This will be explained in the tutorial.
 
@@ -94,19 +94,19 @@ Second, because Madison and Hamilton left conflicting testimonies regarding thei
 
 Third, because in the words of David Holmes and Richard Forsyth,[^8] Madison and Hamilton had "unusually similar" writing styles. Frederick Mosteller and Frederick Williams calculated that, in the papers for which authorship is not in doubt, the average lengths of the sentences written by the two men are both uncommonly high and virtually identical: 34.59 and 34.55 words respectively.[^9] The [standard deviations](https://en.wikipedia.org/wiki/Standard_deviation) in the lengths of the two men's sentences are also nearly identical. And as Mosteller quipped, neither man was known to use a short word when a long one would do. Thus, there was no easy way to pinpoint any given paper as clearly marked with Hamilton's or Madison's stylistic signature.
 
-It wasn't until 1964 that Mosteller and David Lee Wallace[^10], using word usage statistics, came up with a relatively satisfactory solution to the mystery. By comparing how often Madison and Hamilton used common words like *may*, *also*, *an*, *his*, etc., they concluded that the disputed papers had all been written by Madison. Even in the case of *Federalist 55*, the paper for which they said that the evidece was the least convincing, Mosteller and Wallace estimated the odds that Madison was the author at 100 to 1.  
+It wasn't until 1964 that Mosteller and David Lee Wallace[^10], using word usage statistics, came up with a relatively satisfactory solution to the mystery. By comparing how often Madison and Hamilton used common words like *may*, *also*, *an*, *his*, etc., they concluded that the disputed papers had all been written by Madison. Even in the case of *Federalist 55*, the paper for which they said that the evidece was the least convincing, Mosteller and Wallace estimated the odds that Madison was the author at 100 to 1.
 
-Since then, the authorship of the *Federalist* has remained a common test case for [machine learning](https://en.wikipedia.org/wiki/Machine_learning) algorithms in the English-speaking world.[^11] Stylometric analysis has also continued to use the *Federalist* to refine its methods, for example as a test case while looking for signs of hidden collaborations between multiple authors in a single text.[^12] Interestingly, some of the results of this research suggest that the answer to the *Federalist* mystery may not be quite as clear-cut as Mosteller and Wallace thought, and that Hamilton and Madison may have co-written more of the *Federalist* than we ever suspected.  
+Since then, the authorship of the *Federalist* has remained a common test case for [machine learning](https://en.wikipedia.org/wiki/Machine_learning) algorithms in the English-speaking world.[^11] Stylometric analysis has also continued to use the *Federalist* to refine its methods, for example as a test case while looking for signs of hidden collaborations between multiple authors in a single text.[^12] Interestingly, some of the results of this research suggest that the answer to the *Federalist* mystery may not be quite as clear-cut as Mosteller and Wallace thought, and that Hamilton and Madison may have co-written more of the *Federalist* than we ever suspected.
 
 # Our Test Cases
 
-In this lesson, we will use the *Federalist* as a case study to demonstrate three different stylometric approaches. 
+In this lesson, we will use the *Federalist* as a case study to demonstrate three different stylometric approaches.
 
 1. Mendenhall’s Characteristic Curves of Composition
 2. Kilgariff’s Chi-Squared Method
 3. John Burrows’ Delta Method
 
-This will require splitting the papers into six categories: 
+This will require splitting the papers into six categories:
 
 1. The 51 papers known to have been written by Alexander Hamilton.
 2. The 14 papers known to have been written by James Madison.
@@ -121,16 +121,16 @@ Our first two tests, using T. C. Mendenhall's characteristic curves of compositi
 
 # Preparing the Data for Analysis
 
-Before we can proceed with stylometric analysis, we need to load the files containing all 85 papers into convenient [data structures](https://en.wikipedia.org/wiki/Data_structure) in computer memory. 
+Before we can proceed with stylometric analysis, we need to load the files containing all 85 papers into convenient [data structures](https://en.wikipedia.org/wiki/Data_structure) in computer memory.
 
 The first step in this process is to assign each of the 85 papers to the proper set. Since we have given each paper standardized names from `federalist_1.txt` to `federalist_85.txt`, it is possible to assign each paper to its author (or to its test set, if we want to learn its author's identity) using a Python *dictionary*. The dictionary is a data type made up of an arbitrary number of key-value pairs; in this case, the names of authors will serve as keys, while the lists of paper numbers will be the values associated with these keys.
 
 ```python
 papers = {
     'Madison': [10, 14, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
-    'Hamilton': [1, 6, 7, 8, 9, 11, 12, 13, 15, 16, 17, 21, 22, 23, 24, 
+    'Hamilton': [1, 6, 7, 8, 9, 11, 12, 13, 15, 16, 17, 21, 22, 23, 24,
                  25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 59, 60,
-                 61, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 
+                 61, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77,
                  78, 79, 80, 81, 82, 83, 84, 85],
     'Jay': [2, 3, 4, 5],
     'Shared': [18, 19, 20],
@@ -157,7 +157,7 @@ Third, we build a new data structure by repeatedly calling the `read_files_into_
 
 ```python
 # Make a dictionary out of the authors' corpora
-federalist_by_author = {}  
+federalist_by_author = {}
 for author, files in papers.items():
     federalist_by_author[author] = read_files_into_string(files)
 ```
@@ -184,12 +184,12 @@ By today's standards, counting word lengths seems like a very blunt way of measu
 The code required to calculate characteristic curves for the *Federalist*'s authors is as follows:
 
 ```python
-# Load nltk 
+# Load nltk
 import nltk
 %matplotlib inline
 
-# Compare the disputed papers to those written by everyone, 
-# including the shared ones. 
+# Compare the disputed papers to those written by everyone,
+# including the shared ones.
 authors = ("Hamilton", "Madison", "Disputed", "Jay", "Shared")
 
 # Transform the authors' corpora into lists of word tokens
@@ -197,20 +197,20 @@ federalist_by_author_tokens = {}
 federalist_by_author_length_distributions = {}
 for author in authors:
     tokens = nltk.word_tokenize(federalist_by_author[author])
-    
+
     # Filter out punctuation
-    federalist_by_author_tokens[author] = ([token for token in tokens 
+    federalist_by_author_tokens[author] = ([token for token in tokens
                                             if any(c.isalpha() for c in token)])
-   
+
     # Get a distribution of token lengths
     token_lengths = [len(token) for token in federalist_by_author_tokens[author]]
     federalist_by_author_length_distributions[author] = nltk.FreqDist(token_lengths)
-    federalist_by_author_length_distributions[author].plot(15,title=author)      
+    federalist_by_author_length_distributions[author].plot(15,title=author)
 ```
 
 The '%matplotlib inline' declaration below 'import nltk' is required if your development environment is a [Jupyter Notebook](http://jupyter.org/), as it was for me while writing this tutorial; otherwise you may not see the graphs on your screen. If you work in [Jupyter Lab](http://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html), please replace this clause with '%matplotlib ipympl'.
 
-The first line in the code snippet above loads the *Natural Language Toolkit module (nltk)*, which contains an enormous number of useful functions and resources for text processing. We will barely touch its basics in this lesson; if you decide to explore text analysis in Python further, I strongly recommend that you start with [nltk's documentation](https://www.nltk.org/). 
+The first line in the code snippet above loads the *Natural Language Toolkit module (nltk)*, which contains an enormous number of useful functions and resources for text processing. We will barely touch its basics in this lesson; if you decide to explore text analysis in Python further, I strongly recommend that you start with [nltk's documentation](https://www.nltk.org/).
 
 The next few lines set up data structures that will be filled by the block of code within the `for` loop. This loop makes the same calculations for all of our "authors":
 
@@ -259,7 +259,7 @@ The following code snippet implements Kilgariff's method, with the frequencies o
 # Who are the authors we are analyzing?
 authors = ("Hamilton", "Madison")
 
-# Lowercase the tokens so that the same word, capitalized or not, 
+# Lowercase the tokens so that the same word, capitalized or not,
 # counts as one word
 for author in authors:
     federalist_by_author_tokens[author] = (
@@ -269,42 +269,42 @@ federalist_by_author_tokens["Disputed"] = (
 
 # Calculate chisquared for each of the two candidate authors
 for author in authors:
-   
+
     # First, build a joint corpus and identify the 500 most frequent words in it
-    joint_corpus = (federalist_by_author_tokens[author] + 
+    joint_corpus = (federalist_by_author_tokens[author] +
                     federalist_by_author_tokens["Disputed"])
     joint_freq_dist = nltk.FreqDist(joint_corpus)
     most_common = list(joint_freq_dist.most_common(500))
 
-    # What proportion of the joint corpus is made up 
+    # What proportion of the joint corpus is made up
     # of the candidate author's tokens?
-    author_share = (len(federalist_by_author_tokens[author]) 
+    author_share = (len(federalist_by_author_tokens[author])
                     / len(joint_corpus))
-    
-    # Now, let's look at the 500 most common words in the candidate 
-    # author's corpus and compare the number of times they can be observed 
-    # to what would be expected if the author's papers 
+
+    # Now, let's look at the 500 most common words in the candidate
+    # author's corpus and compare the number of times they can be observed
+    # to what would be expected if the author's papers
     # and the Disputed papers were both random samples from the same distribution.
     chisquared = 0
     for word,joint_count in most_common:
-        
+
         # How often do we really see this common word?
         author_count = federalist_by_author_tokens[author].count(word)
         disputed_count = federalist_by_author_tokens["Disputed"].count(word)
-        
+
         # How often should we see it?
         expected_author_count = joint_count * author_share
         expected_disputed_count = joint_count * (1-author_share)
-        
+
         # Add the word's contribution to the chi-squared statistic
-        chisquared += ((author_count-expected_author_count) * 
-                       (author_count-expected_author_count) / 
+        chisquared += ((author_count-expected_author_count) *
+                       (author_count-expected_author_count) /
                        expected_author_count)
-                    
+
         chisquared += ((disputed_count-expected_disputed_count) *
-                       (disputed_count-expected_disputed_count) 
+                       (disputed_count-expected_disputed_count)
                        / expected_disputed_count)
-        
+
     print("The Chi-squared statistic for candidate", author, "is", chisquared)
 ```
 
@@ -321,8 +321,8 @@ In the snippet above, we convert everything to lowercase so that we won't count 
 As we can see from the above results, the chi-squared distance between the Disputed and Hamilton corpora is considerably larger than the distance between the Madison and Disputed corpora. This is a strong sign that, if a single author is responsible for the 12 papers in the Disputed corpus, that author is Madison rather than Hamilton.
 
 However, chi-squared is still a coarse method. For one thing, words that appear very frequently tend to carry a disproportionate amount of weight in the final calculation. Sometimes this is fine; other times, subtle differences in style represented by the ways in which authors use more unusual words will go unnoticed.
- 
-## A Note about Parts of Speech 
+
+## A Note about Parts of Speech
 
 In some languages, it may be useful to apply parts-of-speech tagging to the word tokens before counting them, so that the same word used as two different parts of speech may count as two different features. For example, in French, very common words like "la" and "le" serve both as articles (in which case they would translate into English as "the") and as pronouns ("it"). This lesson does not use part-of-speech tagging because it is rarely useful for stylometric analysis in contemporary English and because `nltk`'s default tagger does not support other languages very well.
 
@@ -340,7 +340,7 @@ Burrows' original algorithm can be summarized as follows:
 * Find the `n` most frequent words in the corpus to use as features.
 * For each of these `n` features, calculate the share of each of the `x` authors' subcorpora represented by this feature, as a percentage of the total number of words. As an example, the word "the" may represent 4.72% of the words in Author A's subcorpus.
 * Then, calculate the mean and the standard deviation of these `x` values and use them as the offical mean and standard deviation for this feature over the whole corpus. In other words, we will be using a _mean of means_ instead of calculating a single value representing the share of the entire corpus represented by each word. This is because we want to avoid a larger subcorpus, like Hamilton's in our case, over-influencing the results in its favor and defining the corpus norm in such a way that everything would be expected to look like it.
-* For each of the `n` features and `x` subcorpora, calculate a [`z-score`](https://en.wikipedia.org/wiki/Standard_score) describing how far away from the corpus norm the usage of this particular feature in this particular subcorpus happens to be. To do this, subtract the "mean of means" for the feature from the feature's frequency in the subcorpus and divide the result by the feature's standard deviation. Figure 7 shows the z-score equation for feature 'i', where C(i) represents the observed frequency, the greek letter mu represents the mean of means, and the greek letter sigma, the standard deviation. 
+* For each of the `n` features and `x` subcorpora, calculate a [`z-score`](https://en.wikipedia.org/wiki/Standard_score) describing how far away from the corpus norm the usage of this particular feature in this particular subcorpus happens to be. To do this, subtract the "mean of means" for the feature from the feature's frequency in the subcorpus and divide the result by the feature's standard deviation. Figure 7 shows the z-score equation for feature 'i', where C(i) represents the observed frequency, the greek letter mu represents the mean of means, and the greek letter sigma, the standard deviation.
 
 {% include figure.html filename="stylometry-python-7.jpg" caption="Figure 7: Equation for the z-score statistic." %}
 
@@ -351,7 +351,7 @@ Burrows' original algorithm can be summarized as follows:
 
 * The "winning" candidate is the author for whom the delta score between the author's subcorpus and the test case is the lowest.
 
-Stefan Evert _et al_.[^17] provide an in-depth discussion of the method's variants, refinements and intricacies, but we will stick to the essentials for the purposes of this lesson. A different explanation of Delta, written in Spanish, and an application to a corpus of Spanish novels can also be found in a recent paper by José Calvo Tello.[^18] 
+Stefan Evert _et al_.[^17] provide an in-depth discussion of the method's variants, refinements and intricacies, but we will stick to the essentials for the purposes of this lesson. A different explanation of Delta, written in Spanish, and an application to a corpus of Spanish novels can also be found in a recent paper by José Calvo Tello.[^18]
 
 ## Our Test Case
 
@@ -371,7 +371,7 @@ authors = ("Hamilton", "Madison", "Jay", "Disputed", "Shared")
 whole_corpus = []
 for author in authors:
     whole_corpus += federalist_by_author_tokens[author]
-    
+
 # Get a frequency distribution
 whole_corpus_freq_dist = list(nltk.FreqDist(whole_corpus).most_common(30))
 whole_corpus_freq_dist[ :10 ]
@@ -404,11 +404,11 @@ feature_freqs = {}
 
 for author in authors:
     # A dictionary for each candidate's features
-    feature_freqs[author] = {} 
-    
+    feature_freqs[author] = {}
+
     # A helper value containing the number of tokens in the author's subcorpus
     overall = len(federalist_by_author_tokens[author])
-    
+
     # Calculate each feature's presence in the subcorpus
     for feature in features:
         presence = federalist_by_author_tokens[author].count(feature)
@@ -427,17 +427,17 @@ corpus_features = {}
 
 # For each feature...
 for feature in features:
-    # Create a sub-dictionary that will contain the feature's mean 
+    # Create a sub-dictionary that will contain the feature's mean
     # and standard deviation
     corpus_features[feature] = {}
-    
+
     # Calculate the mean of the frequencies expressed in the subcorpora
     feature_average = 0
     for author in authors:
         feature_average += feature_freqs[author][feature]
     feature_average /= len(authors)
     corpus_features[feature]["Mean"] = feature_average
-    
+
     # Calculate the standard deviation using the basic formula for a sample
     feature_stdev = 0
     for author in authors:
@@ -457,13 +457,13 @@ feature_zscores = {}
 for author in authors:
     feature_zscores[author] = {}
     for feature in features:
-        
+
         # Z-score definition = (value - mean) / stddev
         # We use intermediate variables to make the code easier to read
         feature_val = feature_freqs[author][feature]
         feature_mean = corpus_features[feature]["Mean"]
         feature_stdev = corpus_features[feature]["StdDev"]
-        feature_zscores[author][feature] = ((feature_val-feature_mean) / 
+        feature_zscores[author][feature] = ((feature_val-feature_mean) /
                                             feature_stdev)
 ```
 
@@ -474,18 +474,18 @@ Next, we need to compare _Federalist 64_ with the corpus. The following code sni
 ```python
 # Tokenize the test case
 testcase_tokens = nltk.word_tokenize(federalist_by_author["TestCase"])
-    
+
 # Filter out punctuation and lowercase the tokens
-testcase_tokens = [token.lower() for token in testcase_tokens 
+testcase_tokens = [token.lower() for token in testcase_tokens
                    if any(c.isalpha() for c in token)]
- 
+
 # Calculate the test case's features
 overall = len(testcase_tokens)
 testcase_freqs = {}
 for feature in features:
     presence = testcase_tokens.count(feature)
     testcase_freqs[feature] = presence / overall
-    
+
 # Calculate the test case's feature z-scores
 testcase_zscores = {}
 for feature in features:
@@ -517,7 +517,7 @@ And finally, we use the formula for Delta defined by Burrows to extract a single
 for author in authors:
     delta = 0
     for feature in features:
-        delta += math.fabs((testcase_zscores[feature] - 
+        delta += math.fabs((testcase_zscores[feature] -
                             feature_zscores[author][feature]))
     delta /= len(features)
     print( "Delta score for candidate", author, "is", delta )
@@ -552,11 +552,11 @@ Stylometry and/or authorship attribution have been used in many contexts, employ
 
 ## Additional references on authorship and stylometry
 
-The most exhaustive reference in all matters related to authorship attribution, including the history of the field, its mathematical and linguistic underpinnings, and its various methods, was written by Patrick Juola in 2007.[^28] Chapter 7, in particular, shows how authorship attribution can serve as a marker for various group identities (gender, nationality, dialect, etc.), for change in language over time, and even for personality and mental health. 
+The most exhaustive reference in all matters related to authorship attribution, including the history of the field, its mathematical and linguistic underpinnings, and its various methods, was written by Patrick Juola in 2007.[^28] Chapter 7, in particular, shows how authorship attribution can serve as a marker for various group identities (gender, nationality, dialect, etc.), for change in language over time, and even for personality and mental health.
 
-A shorter survey can be found in Moshe Koppel _et al._, who discuss cases in which there is a single candidate author whose authorship must be confirmed, large numbers of candidates for which only small writing samples are available to train a machine learning algorithm, or no known candidate at all.[^29] 
+A shorter survey can be found in Moshe Koppel _et al._, who discuss cases in which there is a single candidate author whose authorship must be confirmed, large numbers of candidates for which only small writing samples are available to train a machine learning algorithm, or no known candidate at all.[^29]
 
-The Stamatatos paper cited earlier[^2] also contains a quality survey of the field. 
+The Stamatatos paper cited earlier[^2] also contains a quality survey of the field.
 
 ## Varia
 
@@ -576,7 +576,7 @@ Thanks to Stéfan Sinclair and Andrew Piper, in whose seminars at McGill Univers
 
 # Endnotes
 
-[^1]: See, for example, Justin Rice, ["What Makes Hemingway Hemingway? A statistical analysis of the data behind Hemingway's style"]( https://www.litcharts.com/analitics/hemingway) 
+[^1]: See, for example, Justin Rice, ["What Makes Hemingway Hemingway? A statistical analysis of the data behind Hemingway's style"]( https://www.litcharts.com/analitics/hemingway)
 
 [^2]: Efstathios Stamatatos, “A Survey of Modern Authorship Attribution Method,” _Journal of the American Society for Information Science and Technology_, vol. 60, no. 3 (December 2008), p. 538–56, citation on p. 540, https://doi.org/10.1002/asi.21001.
 
@@ -594,7 +594,7 @@ Thanks to Stéfan Sinclair and Andrew Piper, in whose seminars at McGill Univers
 
 [^9]: Frederick Mosteller, "A Statistical Study of the Writing Styles of the Authors of the Federalist Papers", _Proceedings of the American Philosophical Society_, vol. 131, no. 2 (1987), pp. 132‑40.
 
-[^10]: Frederick Mosteller and David Lee Wallace, _Inference and Disputed Authorship: The Federalist_, Addison-Wesley Series in Behavioral Science : Quantitative Methods (Reading, Mass.: Addison-Wesley PublCo, 1964). 
+[^10]: Frederick Mosteller and David Lee Wallace, _Inference and Disputed Authorship: The Federalist_, Addison-Wesley Series in Behavioral Science : Quantitative Methods (Reading, Mass.: Addison-Wesley PublCo, 1964).
 
 [^11]: See for example Glenn Fung, "The disputed Federalist papers: SVM feature selection via concave minimization", _TAPIA '03: Proceedings of the 2003 conference on Diversity in Computing_, pp. 42-46; and Robert A. Bosch and Jason A. Smith, “Separating Hyperplanes and the Authorship of the Disputed Federalist Papers,” _The American Mathematical Monthly_, vol. 105, no. 7 (1998), pp. 601–8, https://doi.org/10.2307/2589242.
 
