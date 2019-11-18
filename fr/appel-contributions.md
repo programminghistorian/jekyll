@@ -13,7 +13,7 @@ Le comité éditorial de la version francophone du _Programming Historian_ est p
 
 1. Comment appliquez-vous les méthodes de regroupement de données géographiques? 
 
-    Nous disposons déjà d'une série de leçons introductives à la cartographie qui conviennent parfaitement pour apprendre à faire de belles visualisations. Toutefois, nous n'avons pas encore avancé vers des compétences d'analyses plus poussées, telle l'application d'algorithmes de classification par regroupement d'objets, qu'il est possible de mobiliser dans l'étude de plusieurs domaines, des mouvements de commerce aux migrations, pour n'en évoquer que quelques uns. Mais comme pour toute analyse, il existe franchement des pièges pour les débutant(e)s. Nous sollicitons donc une introduction à cette méthode qui puisse présenter à la fois ses points forts et les défis que pose ce type d'analyse. 
+    Nous disposons déjà d'une série de leçons introductives à la cartographie (en anglais) qui conviennent parfaitement pour apprendre à faire de belles visualisations. Toutefois, nous n'avons pas encore avancé vers des compétences d'analyses plus poussées, telle l'application d'algorithmes de classification par regroupement d'objets, qu'il est possible de mobiliser dans l'étude de plusieurs domaines, des mouvements de commerce aux migrations, pour n'en évoquer que quelques uns. Mais comme pour toute analyse, il existe franchement des pièges pour les débutant(e)s. Nous sollicitons donc une introduction à cette méthode qui puisse présenter à la fois ses points forts et les défis que pose ce type d'analyse. 
 
 2. Comment savoir si votre analyse de réseaux est pertinente? 
 
@@ -22,19 +22,19 @@ Le comité éditorial de la version francophone du _Programming Historian_ est p
 
 3. Comment faire une édition critique de textes en utilisant une base de données XML native 
 
-    Les éditions critiques savantes s'appuient souvent sur des textes numériques structurées en XML. S'il y a plusieurs outils de publication disponibles, force est de constater qu'il n'est pas toujours aisé de faire son choix et opter pour une solution qui convienne à ses propres besoins de recherche. Fidèles à notre ethos en faveur des technologies ouvertes, nous souhaitons voir quelqu'un orienter notre lectorat vers une solution open source pour effectuer une édition critique numérique pérenne et flexible. 
+    Les éditions critiques savantes s'appuient souvent sur des textes numériques structurés en XML. S'il y a plusieurs outils de publication disponibles, force est de constater qu'il n'est pas toujours aisé de faire son choix et opter pour une solution qui convienne à ses propres besoins de recherche. Fidèles à notre ethos en faveur des technologies ouvertes, nous souhaitons voir quelqu'un orienter notre lectorat vers une solution open source pour effectuer une édition critique numérique pérenne et flexible. 
 
-4. Comment analyser des artefacts audio How to Analyse Audio Artefacts
+4. Comment analyser des artefacts audio
 
     Nous avons déjà une leçon (en anglais) sur l'utilisation du logiciel Audacity pour apprendre à manipuler des fichiers audio et une autre sur comment rendre sonore un ensemble de données. Mais on peut faire beaucoup plus que cela! Comment faites-vous pour quantifier vos données et construire des artefacts audio? Appliquez-vous des techniques de l'apprentissage automatique (machine learning) pour renouveler les approches d'une collection audio? 
     We have one lesson on how to use Audacity to edit audio files and another on how to transform you transform your data into audio to better understand it. But you can do much more! How are you using tools to get quantifiable data about your audio artefacts? Or, how can you use machine learning techniques to produce new understandings of an audio collection?
 
-5. Comment choisir un schéma de métadonnées How to Choose a Metadata Schema
+5. Comment choisir un schéma de métadonnées 
 
     Il existe plusieurs schémas différents de métadonnées, tel Dublin Core, COins, MARC, METS, MODS... Si on débute dans un projet de création d'une collection, comment faire pour décider quel schéma de métadonnées est pertinent à utiliser? Une telle leçon devrait constituer la base pour produire davantage de tutoriels sur ce domaine.     
 	There are so many different metadata schema available. From Dublin Core to COins to MARC, METS, and MODS. If someone is embarking on a project that involves building a collection, how should they go about making a decision about which metadata schema to use? We believe this core lesson could really open up new areas for future lessons.
     
-6. Comment appliquer des techniques de positionnement multidimensionnel et d'analyses multivariées How to Apply Multidimensional Scaling
+6. Comment appliquer des techniques de positionnement multidimensionnel et d'analyses multivariées
 
     Nous recherchons une leçon pour expliquer en quoi le positionnement multidimensionnel est utile pour explorer des similarités dans les données, comment l'appliquer correctement et de quelle manière interpréter les résultats. Si vous avez déjà eu recours à cette méthode, ce tutoriel pourrait être un moyen pour montrer comment vous avez pu produire de nouvelles connaissances historiques. 
     
