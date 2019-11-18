@@ -26,6 +26,7 @@ topics: [data-manipulation]
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/138
 abstract: "En esta lección aprenderás cómo los datos de tu investigación pueden ser contados y extraídos mediante el shell Unix, cuando están organizados de manera clara y predecible."
 previous: introduccion-a-bash
+avatar_alt: Grabado en blanco y negro de un minero trabajando sobre una plataforma adentro de una mina. 
 ---
 
 {% include toc.html %}

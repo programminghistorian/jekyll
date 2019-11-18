@@ -22,6 +22,7 @@ translation-reviewer:
 - Jennifer Isasi
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/130
 redirect_from: /es/lessons/googlemaps-googleearth
+avatar_alt: Un anciano consultando un globo terráqueo
 original: googlemaps-googleearth
 difficulty: 1
 activity: presenting

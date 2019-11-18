@@ -17,6 +17,7 @@ topics: [lod]
 abstract: "This lesson explains why many cultural institutions are adopting graph databases, and how researchers can access these data though the query language called SPARQL."
 categories: [lessons]
 redirect_from: /lessons/graph-databases-and-SPARQL
+avatar_alt: Pisces symbol of two linked fish
 ---
 
 Lesson Goals
@@ -186,7 +187,7 @@ these statements.
 
 
 | artist             | painting             |
-|--------------------|----------------------|
+| ------------------ | -------------------- |
 | Rembrandt van Rijn | The Nightwatch       |
 | Johannes Vermeer   | Woman with a Balance |
 

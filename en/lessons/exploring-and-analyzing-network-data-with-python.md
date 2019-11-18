@@ -23,6 +23,7 @@ topics: [network-analysis]
 date: 2017-08-23
 abstract: "This lesson introduces network metrics and how to draw conclusions from them when working with humanities data. You will learn how to use the NetworkX Python package to produce and work with these network statistics."
 redirect_from: /lessons/exploring-and-analyzing-network-data-with-python
+avatar_alt: Train tracks intersecting
 ---
 
 {% include toc.html %}

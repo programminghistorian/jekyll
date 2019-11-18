@@ -24,6 +24,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/146
 activity: transforming
 topics: [data-manipulation, get-ready]
 abstract: "En este tutorial aprenderás las bases de PowerShell de Windows, la interfaz de línea de comandos estándar de computadoras con Windows."
+avatar_alt: Grabado de una concha de molusco 
 ---
 
 {% include toc.html %}
@@ -490,7 +491,7 @@ Esta tabla sirve como una referencia rápida a todos los *cmdlets* mencionados e
 
 | Cmdlet | Alias | Bash Equivalent | Description |
 | ------- | ------- | ------- | ------- |
-| `Get-ChildItem` | `gci` | `ls` | Enlista los directorios y archivos en la ubicación actual. | 
+| `Get-ChildItem` | `gci` | `ls` | Enlista los directorios y archivos en la ubicación actual. |
 | `Set-Location` | `sl` | `cd` | Cambia al directorio en la ruta de acceso dada. Si escribes `..` en lugar de una ruta te moverá hacia arriba un directorio. |
 | `Push-Location` | `pushd` | `pushd` | Cambiar al directorio. |
 | `Pop-Location` | `popd` | `popd` | Regresa al directorio previo despues de usar `pushd` |

@@ -28,6 +28,7 @@ difficulty: 2
 activity: presenting
 topics: [python]
 abstract: "Esta lección retoma los pares de frecuencias recolectados en [Contar frecuencias de palabras][] y crea una salida de datos en HTML." 
+avatar_alt: Grabado de mujer, con expresión de sorpresa en la cara, dejando caer una botella de ginebra y una botella de ron.
 ---
 
 {% include toc.html %}
@@ -99,7 +100,7 @@ print(listaPalabras[:12])
 
 print(listaPalabras[12:])
 -> ['it', 'was', 'the', 'age', 'of', 'wisdom', 'it', 'was', 'the', 'age', 'of', 'foolishness']
-``` 
+```
 
 En estos ejemplos se ha utilizado el método de división (`slice`) para recuperar partes de nuestra lista. Ten en cuenta que hay dos lados respecto a los dos puntos en un `slice`. Si a la derecha de los dos puntos se deja en blanco como en el último ejemplo anterior, el programa sabe continuar automáticamente hasta el final -en este caso, el final de la lista. En el penúltimo ejemplo anterior se muestra que podemos comenzar desde el principio dejando vacío el espacio anterior a los dos puntos. Este es un atajo útil y que está disponible para mantener tu código más corto.
 

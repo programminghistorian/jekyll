@@ -18,6 +18,7 @@ topics: [data-manipulation]
 abstract: "This lesson will teach you how to use Python to extract a set of keywords very quickly and systematically from a set of texts."
 python_warning: false
 redirect_from: /lessons/extracting-keywords
+avatar_alt: Woman churning butter or milk
 ---
 
 {% include toc.html %}
@@ -60,7 +61,7 @@ The first step of this process is to take a look at the data that we will be usi
 
 {% include figure.html filename="extracting-keywords-1.png" caption="Screenshot of the first forty entries in the dataset" %}
 
-Download the dataset and spend a couple of minutes looking at the types of information available. You should notice three columns of information. The first, 'Name', contains the name of the graduate. The second: 'Details', contains the biographical information known about that person. The final column, 'Matriculation Year', contains the year in which the person matriculated (began their studies). This final column was extracted from the details column in the pre-processing stage of this tutorial. The first two columns are as you would find them on the British History Online version of the *Alumni Oxonienses*. If you notice more than three columns then your spreadsheet programme has incorrectly set the [delimiter](https://en.wikipedia.org/wiki/Delimiter) between columns. It should be set to "," (double quotes, comma). How you do this depends on your spreadsheet programme, but you should be able to find the solution online. 
+Download the dataset and spend a couple of minutes looking at the types of information available. You should notice three columns of information. The first, 'Name', contains the name of the graduate. The second: 'Details', contains the biographical information known about that person. The final column, 'Matriculation Year', contains the year in which the person matriculated (began their studies). This final column was extracted from the details column in the pre-processing stage of this tutorial. The first two columns are as you would find them on the British History Online version of the *Alumni Oxonienses*. If you notice more than three columns then your spreadsheet programme has incorrectly set the [delimiter](https://en.wikipedia.org/wiki/Delimiter) between columns. It should be set to "," (double quotes, comma). How you do this depends on your spreadsheet programme, but you should be able to find the solution online.
 
 Most (but not all) of these bibliographic entries contain enough information to tell us what county the graduate came from. Notice that a large number of entries contain placenames that correspond to either major cities ('of London', in the first entry) or English counties ('of Middlesex' in entry 5 or 'of Wilts' - short for Wiltshire in entry 6). If you are not British you may not be familiar with these county names. You can find a list of [historic counties of England](http://en.wikipedia.org/wiki/Historic_counties_of_England) on Wikipedia.
 
@@ -162,7 +163,7 @@ The fourth line closes the open text file. The fifth line prints out the results
 
 Save this file as `extractKeywords.py`, again to the same folder as the other files, and then run it with Python. To do this from the command line, first you need to launch your command line terminal.
 
-On Windows it is called `Command Prompt`. Windows users may find it easier to launch Python by opening the folder containing your `extractKeywords.py` file, then press `shift` + `right-click` and then select 'open command window here'. Assuming you have Python installed, you should be able to run your programme using the command beginning with 'python' below. 
+On Windows it is called `Command Prompt`. Windows users may find it easier to launch Python by opening the folder containing your `extractKeywords.py` file, then press `shift` + `right-click` and then select 'open command window here'. Assuming you have Python installed, you should be able to run your programme using the command beginning with 'python' below.
 
 On Mac OS X, this is found in the `Applications` folder and is called `Terminal`. Once the Terminal window is open, you need to point your Terminal at the directory that contains all of the files you have just created. I have called my directory 'ExtractingKeywordSets' and I have it on my computer's Desktop. To change the Terminal to this directory, I use the following command:
 
@@ -269,7 +270,7 @@ This code will automatically check each word in a text, keeping track of matches
 
 If it looks like it worked, delete the 'print matches' line and move to the next step.
 
-### Step 5: Output results 
+### Step 5: Output results
 
 If you have got to this stage, then your Python program is already finding the matching keywords from your gazetteer. All we need to do now is print them out to the command output pane in a format that's easy to work with.
 
@@ -283,7 +284,7 @@ Add the following lines to your program, minding the indentation as always:
         matchString = ''
         for matches in storedMatches:
             matchString = matchString + matches + "\t"
-        
+
         print(matchString)
 
 ```
@@ -294,7 +295,7 @@ If there IS a match, then the program creates a new variable called 'matchString
 
 When all of the matching keywords have been added to 'matchString', the program prints it out to the command output before moving on to the next text.
 
-If you save your work and run the program, you should now have code that achieves all of the steps from the algorithm and outputs the results to your command output. 
+If you save your work and run the program, you should now have code that achieves all of the steps from the algorithm and outputs the results to your command output.
 
 The finished code should look like this:
 
@@ -315,7 +316,7 @@ f.close()
 for entry in allTexts:
     matches = 0
     storedMatches = []
-    
+
     #for each entry:
     allWords = entry.split(' ')
     for words in allWords:
@@ -333,7 +334,7 @@ for entry in allTexts:
             else:
                 storedMatches.append(words)
             matches += 1
-    
+
     #if there is a stored result, print it out
     if matches == 0:
         print(' ')
@@ -341,7 +342,7 @@ for entry in allTexts:
         matchString = ''
         for matches in storedMatches:
             matchString = matchString + matches + "\t"
-        
+
         print(matchString)
 ```
 
@@ -417,7 +418,7 @@ with open('The_Dataset_-_Alumni_Oxonienses-Jas1.csv') as csvfile:
     for row in reader:
         #the full row for each entry, which will be used to recreate the improved CSV file in a moment
         fullRow.append((row['Name'], row['Details'], row['Matriculation Year']))
-        
+
         #the column we want to parse for our keywords
         row = row['Details'].lower()
         allTexts.append(row)
@@ -485,12 +486,12 @@ with open('The_Dataset_-_Alumni_Oxonienses-Jas1.csv') as csvfile:
     for row in reader:
         #the full row for each entry, which will be used to recreate the improved CSV file in a moment
         fullRow.append((row['Name'], row['Details'], row['Matriculation Year']))
-        
+
         #the column we want to parse for our keywords
         row = row['Details'].lower()
         allTexts.append(row)
 
-#NEW! a flag used to keep track of which row is being printed to the CSV file   
+#NEW! a flag used to keep track of which row is being printed to the CSV file
 counter = 0
 
 #NEW! use the current date and time to create a unique output filename
@@ -504,7 +505,7 @@ with open(filename, 'a') as csvfile:
     fieldnames = ['Name', 'Details', 'Matriculation Year', 'Placename']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
-    
+
     #NEW! define the output for each row and then print to the output csv file
     writer = csv.writer(csvfile)
 
@@ -513,16 +514,16 @@ with open(filename, 'a') as csvfile:
 
         matches = 0
         storedMatches = []
-        
+
         #for each entry:
         allWords = entry.split(' ')
         for words in allWords:
-    
+
             #remove punctuation that will interfere with matching
             words = words.replace(',', '')
             words = words.replace('.', '')
             words = words.replace(';', '')
-    
+
             #if a keyword match is found, store the result.
             if words in allKeywords:
                 if words in storedMatches:
@@ -530,7 +531,7 @@ with open(filename, 'a') as csvfile:
                 else:
                     storedMatches.append(words)
                 matches += 1
-        
+
         #CHANGED! send any matches to a new row of the csv file.
         if matches == 0:
             newRow = fullRow[counter]

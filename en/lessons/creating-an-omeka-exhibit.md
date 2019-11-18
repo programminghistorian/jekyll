@@ -16,6 +16,7 @@ activity: presenting
 topics: [website]
 abstract: "Now that you've added items to your Omeka site and grouped them into collections, you're ready for the next step: taking your users on a guided tour through the items you've collected."
 redirect_from: /lessons/creating-an-omeka-exhibit
+avatar_alt: Ornate room filled with paintings hung salon-style
 ---
 
 {% include toc.html %}
@@ -40,15 +41,15 @@ A collection is just a list of objects. An exhibit is a guided tour through your
 
 Add a page
 -------------
-Pages are where you'll stick the actual items in your exhibit. An exhibit can have multiple pages, and you can drag and drop them to rearrange the order, even making some pages sub-sections of others. 
+Pages are where you'll stick the actual items in your exhibit. An exhibit can have multiple pages, and you can drag and drop them to rearrange the order, even making some pages sub-sections of others.
 
-Click on the green **Add Page** button. On the following page, you'll enter some information and pick a layout for your exhibit page. 
+Click on the green **Add Page** button. On the following page, you'll enter some information and pick a layout for your exhibit page.
 
 Add a content block to your page
 ----------------------
 {% include figure.html filename="createoexhibit2.png" caption="Add a page fields" %}
 
-On the page that follows, you'll seen an option for **Page Title** and **Slug**. Fill those in. 
+On the page that follows, you'll seen an option for **Page Title** and **Slug**. Fill those in.
 
  You'll see the option for **New Block**. Pages are made up of blocks, which can be files and test, just files, or just text.
 
@@ -58,11 +59,11 @@ Add content to your content block
 -----
 {% include figure.html filename="createoexhibit3.png" caption="Add a item and file to your content block" %}
 
-In **Block 1 (File with Text)** click the **Add Item** button. 
+In **Block 1 (File with Text)** click the **Add Item** button.
 
 In the window which opens, click on your item and then click **Select Item**. You can add a caption if you want. Click the green **Apply** button.
 
-I also added some filler text to the **Text** field. 
+I also added some filler text to the **Text** field.
 
 When you're done, click the **View Public Page** button to see how your Omeka site looks.
 

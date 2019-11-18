@@ -17,6 +17,7 @@ activity: transforming
 topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running the Windows operating system."
 redirect_from: /lessons/windows-installation
+avatar_alt: A band of three musicians
 ---
 
 {% include toc.html %}
@@ -46,7 +47,7 @@ drive.
 
 ## Install Komodo Edit
 
-Komodo Edit is a free and open source code editor, but you have many 
+Komodo Edit is a free and open source code editor, but you have many
 [other text editing options][] if you want to use another programme. You can
 download a copy from the [Komodo Edit website][].
 

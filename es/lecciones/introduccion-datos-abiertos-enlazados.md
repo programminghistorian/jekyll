@@ -24,7 +24,7 @@ difficulty: 1
 activity: acquiring
 topics: [lod]
 abstract: "Con este tutorial aprenderás los fundamentos (URIs, ontologías, formato RDF y, muy brevemente, SPARQL) de los Datos abiertos enlazados."
-
+avatar_alt: Grabado de dos señoras agarradas a los brazos de un hombre mientras caminan
 
 ---
 ## Introducción y contexto de la lección
@@ -221,7 +221,7 @@ Pasemos ahora de Jack Straw a William Shakespeare y usemos Turtle para describir
     @prefix lccn: <http://id.loc.gov/authorities/names> .
     @prefix dc: <http://purl.org/dc/elements/1.1/> .
     @prefix viaf: <http://viaf.org/viaf> .
-
+    
     lccn:n82011242 dc:creator viaf:96994048 .
 
 Ten en cuenta el espaciado del punto final después de la última línea. Esta es la forma de Turtle de indicar el final. Técnicamente no tiene que tener el espacio, pero lo hace más fácil de leer después de una larga cadena de caracteres.
@@ -295,7 +295,7 @@ Al igual que con Turtle, podemos agregar más tripletas. Entonces, declaremos qu
      <skosConcept rdf:about="http://www.ihr-tobias.org/concepts/21250/abdication">
         <skos:prefLabel>Abdication</skos:prefLabel>
         <skos:narrower rdf:resource="http://www.ihr-tobias.org/concepts/19838/abdication_crisis_1936"/>
-		</skosConcept>
+    	</skosConcept>
 
 Si estás familiarizado con XML, esto será muy fácil para ti. Si no lo estás, podrías preferir un formato como Turtle. Pero la ventaja aquí es que creando tu RDF/XML puedes usar las herramientas habituales disponibles para XML, como editores y analizadores XML, para verificar que tu RDF/XML esté formateado correctamente. Si no tienes experiencia con XML, recomiendo Turtle, para lo que puedes usar una herramienta [en línea](http://www.easyrdf.org/converter) para verificar que tu sintaxis sea correcta.
 

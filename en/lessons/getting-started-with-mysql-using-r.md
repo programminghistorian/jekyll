@@ -17,6 +17,7 @@ activity: transforming
 topics: [data-manipulation, distant-reading]
 abstract: "This lesson will help you store large amounts of historical data in a structured manner, search and filter that data, and visualize some of the data as a graph."
 redirect_from: /lessons/getting-started-with-mysql-using-r
+avatar_alt: A hand holding a newspaper
 ---
 
 This lesson is for you if you want to store large amounts of data from your digital history projects in a structured manner. We will use a database called MySQL to store data.
@@ -26,7 +27,7 @@ R can perform analysis and data storage without the use of a relational database
  - Handling more data than R can store in memory alone.
  - When data is stored in a relational database already.
  - Working with the data of different entities that are related to one another.  An example would be a database of soldiers of two different armies that fought a battle where we wanted to know what squad, platoon, company and brigade each soldier was part of.
- 
+
 A further short discussion of this is on [Jason A. French's blog](http://www.jason-french.com/blog/2014/07/03/using-r-with-mysql-databases/)[^2].
 
 By the end of this lesson you will be able to install a database system on your computer, create a database table, store information in the table and then query the data. At the conclusion of the lesson we'll use a query of the database to make a graph.
@@ -104,7 +105,7 @@ Click the **Execute** button if you have *failing requirements* listed under Che
 
 {% include figure.html filename="getting-started-with-mysql-16.png" caption="Click the Execute button if needed" %}
 
-###### 3. Type and Networking 
+###### 3. Type and Networking
 Select: **Standalone MySQL Server**
 (See below)
 
@@ -126,7 +127,7 @@ Settings here are optional, but I find it easier to set up MySQL as a Windows Se
 
 {% include figure.html filename="getting-started-with-mysql-10.png" caption="MySQL as a Windows Service" %}
 
-Click the Execute and Next buttons to finish the installation and start the server.  
+Click the Execute and Next buttons to finish the installation and start the server.
 
 ###### 7. Root password
 When prompted for the root password, enter the root password you wrote down in step *5. Accounts and Roles* above.
@@ -188,9 +189,9 @@ Here we will create a database which serves as a container for the tables we wil
 
 Here is a sample table with a row of data that represents a record.
 
-| name | phone number | e-mail address |
-| ------------- |---------------|---------------|
-| Pat Abraham | 613-555-1212 | pat@zmail.ca |
+| name        | phone number | e-mail address |
+| ----------- | ------------ | -------------- |
+| Pat Abraham | 613-555-1212 | pat@zmail.ca   |
 
 ## Open MySQL Workbench
 
@@ -277,7 +278,7 @@ Click the **Add Account** button and complete the Details for account newuser di
 
 ### Schema Privileges not displaying
 
-Some Mac computers, like my testing laptop, don't display the **Schema Privileges** panel correctly.  In that case, you can accomplish the above with a script using the Query Window.  
+Some Mac computers, like my testing laptop, don't display the **Schema Privileges** panel correctly.  In that case, you can accomplish the above with a script using the Query Window.
 
 If you have already created the user above run this command to grant the user privileges:
 
@@ -303,7 +304,7 @@ ALTER USER 'newspaper_search_results_user'@'localhost' IDENTIFIED WITH mysql_nat
 ```
 # Create an R Script that connects to the database
 
-Open RStudio, which you installed earlier in this lesson.  See the [RStudio](#rstudio) section. 
+Open RStudio, which you installed earlier in this lesson.  See the [RStudio](#rstudio) section.
 
 We'll now use RStudio to make a new R Script and save the script with the name newspaper_search.R. (Sometimes in this lesson I will refer to an R Script as a program.)
 
@@ -341,8 +342,8 @@ To run this script, select all the text and click the Run button. (There are oth
 
 ```
 library(RMariaDB)
-# The connection method below uses a password stored in a variable.  
-# To use this set localuserpassword="The password of newspaper_search_results_user" 
+# The connection method below uses a password stored in a variable.
+# To use this set localuserpassword="The password of newspaper_search_results_user"
 
 storiesDb <- dbConnect(RMariaDB::MariaDB(), user='newspaper_search_results_user', password=localuserpassword, dbname='newspaper_search_results', host='localhost')
 dbListTables(storiesDb)
@@ -380,13 +381,13 @@ database=newspaper_search_results
 
 ```
 library(RMariaDB)
-# The connection method below uses a password stored in a settings file.  
+# The connection method below uses a password stored in a settings file.
 
 # R needs a full path to find the settings file.
 rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
 rmariadb.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db)
 
 # list the table. This confirms we connected to the database.
 dbListTables(storiesDb)
@@ -415,7 +416,7 @@ INSERT INTO tbl_newspaper_search_results (
 story_title,
 story_date_published,
 story_url,
-search_term_used) 
+search_term_used)
 VALUES('THE LOST LUSITANIA.',
 '1915-05-21',
 LEFT(RTRIM('http://newspapers.library.wales/view/4121281/4121288/94/'),99),
@@ -427,17 +428,17 @@ LEFT(RTRIM('http://newspapers.library.wales/view/4121281/4121288/94/'),99),
 
 ## Explanation of the INSERT statement
 
-| SQL     | Meaning           |
-| ------------- |---------------|
-| INSERT INTO tbl_newspaper_search_results ( | INSERT a record into the table named tbl_newspaper_search_results    |
-| story_title,     |  name of field to be populated by a value     |
-| story_date_published, |  "      |
-| story_url,   |  "  |
-| search_term_used)    |  "  |
-| VALUES('THE LOST LUSITANIA.',  | The value to be inserted into the story_title field   |
-|'1915-05-21',   |  story_date_published field  |
-| LEFT(RTRIM('http://newspapers.library.wales/view/4121281/4121288/94/'),99),  | story_url field.  This field is a VARCHAR(99) so it has a maximum length of 99 characters.  Inserting a URL longer than 99 characters would cause an error and so two functions are used to control for that.  RTRIM() trims trailing spaces to the right of the URL.  LEFT(value,99) returns only the leftmost 99 characters of the trimmed URL.  This URL is much shorter than that and so these functions are here for an example only.   |
-| 'German+Submarine');  | search_term_used field   |
+| SQL                                                                         | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| INSERT INTO tbl_newspaper_search_results (                                  | INSERT a record into the table named tbl_newspaper_search_results                                                                                                                                                                                                                                                                                                                                                                          |
+| story_title,                                                                | name of field to be populated by a value                                                                                                                                                                                                                                                                                                                                                                                                   |
+| story_date_published,                                                       | "                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| story_url,                                                                  | "                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| search_term_used)                                                           | "                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| VALUES('THE LOST LUSITANIA.',                                               | The value to be inserted into the story_title field                                                                                                                                                                                                                                                                                                                                                                                        |
+| '1915-05-21',                                                               | story_date_published field                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| LEFT(RTRIM('http://newspapers.library.wales/view/4121281/4121288/94/'),99), | story_url field.  This field is a VARCHAR(99) so it has a maximum length of 99 characters.  Inserting a URL longer than 99 characters would cause an error and so two functions are used to control for that.  RTRIM() trims trailing spaces to the right of the URL.  LEFT(value,99) returns only the leftmost 99 characters of the trimmed URL.  This URL is much shorter than that and so these functions are here for an example only. |
+| 'German+Submarine');                                                        | search_term_used field                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 
 Optional: Modify the INSERT statement above and execute it a few more times. For example
@@ -447,7 +448,7 @@ INSERT INTO tbl_newspaper_search_results (
 story_title,
 story_date_published,
 story_url,
-search_term_used) 
+search_term_used)
 VALUES('test insert.',
 '1916-07-01',
 LEFT(RTRIM('http://newspapers.library.wales/view/4121281/4121288/94/'),99),
@@ -478,13 +479,13 @@ In line 4 of the program below, remember to change the path to the rmariadb.sett
 
 ```
 library(RMariaDB)
-# The connection method below uses a password stored in a settings file.  
+# The connection method below uses a password stored in a settings file.
 
 # R needs a full path to find the settings file.
 rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
 rmariadb.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db)
 
 # Optional. List the table. This confirms we connected to the database.
 dbListTables(storiesDb)
@@ -494,7 +495,7 @@ query<-"INSERT INTO tbl_newspaper_search_results (
 story_title,
 story_date_published,
 story_url,
-search_term_used) 
+search_term_used)
 VALUES('THE LOST LUSITANIA.',
 '1915-05-21',
 LEFT(RTRIM('http://newspapers.library.wales/view/4121281/4121288/94/'),99),
@@ -540,13 +541,13 @@ We will be inserting a lot of data into the table using R, so we will change the
 
 ```
 library(RMariaDB)
-# The connection method below uses a password stored in a settings file.  
+# The connection method below uses a password stored in a settings file.
 
 # R needs a full path to find the settings file.
 rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
 rmariadb.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db)
 
 # Optional. List the table. This confirms we connected to the database.
 dbListTables(storiesDb)
@@ -567,7 +568,7 @@ query<-paste(
   story_title,
   story_date_published,
   story_url,
-  search_term_used) 
+  search_term_used)
   VALUES('",entryTitle,"',
   '",entryPublishedDate,"',
   LEFT(RTRIM('",entryUrl,"'),99),
@@ -609,12 +610,12 @@ and re-run the program.
 In the R Console there is an error:
 ```
 > rsInsert <- dbSendQuery(storiesDb, query)
-Error in result_create(conn@ptr, statement, is_statement) : 
+Error in result_create(conn@ptr, statement, is_statement) :
   You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S RUDDER.',
   '1916-05-21',
   LEFT(RTRIM('http://newspapers.library.wales/view/4' at line 6 [1064]
 ```
-You can check with a SELECT statement that there is no record in the table with a story title of THE LOST LUSITANIA'S RUDDER. 
+You can check with a SELECT statement that there is no record in the table with a story title of THE LOST LUSITANIA'S RUDDER.
 
 Single apostrophes are part of SQL syntax and they indicate a text value.  If they are in the wrong place, it causes an error.  We have to handle cases where we have data with apostrophes.  SQL accepts two apostrophes in an insert statement to represent an apostrophe in data ('').
 
@@ -657,22 +658,22 @@ You should see a lot of data, including what is below. Check the Environment tab
 ```
 
 
-Note that in this sample data, field names are included in the header for convenience:  story_title, story_date_published, story_url and search_term_used. 
+Note that in this sample data, field names are included in the header for convenience:  story_title, story_date_published, story_url and search_term_used.
 
 As noted above, our goal here is to insert the sample data that is now stored in the sampleGardenData data frame into the MySQL table tbl_newspaper_search_results.  We can do this a couple different ways, including looping through each row of the data frame and executing an INSERT command like we did above. Here though, we'll use one command to insert all of the rows in sampleGardenData at one time: *dbWriteTable*. Don't run this statement yet, just read it.
 
 ```
-dbWriteTable(storiesDb, value = sampleGardenData, row.names = FALSE, name = "tbl_newspaper_search_results", append = TRUE ) 
+dbWriteTable(storiesDb, value = sampleGardenData, row.names = FALSE, name = "tbl_newspaper_search_results", append = TRUE )
 ```
 
 
-| Function     | Meaning           |
-| ------------- |---------------|
-| dbWriteTable(storiesDb, | Use the MySQL database connection storiesDb. |
-| value = sampleGardenData,     |  Write the values in the sampleData data frame to the table.   |
-| row.names = FALSE, | No row names are specified. |
-| name = "tbl_newspaper_search_results", | Insert the values from sampleData into the table tbl_newspaper_search_results.  |
-| append = TRUE ) | Append these values to what is in the table already.  If this program is run again, all of the rows in sampleData will be appended to the same table again. |
+| Function                               | Meaning                                                                                                                                                     |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| dbWriteTable(storiesDb,                | Use the MySQL database connection storiesDb.                                                                                                                |
+| value = sampleGardenData,              | Write the values in the sampleData data frame to the table.                                                                                                 |
+| row.names = FALSE,                     | No row names are specified.                                                                                                                                 |
+| name = "tbl_newspaper_search_results", | Insert the values from sampleData into the table tbl_newspaper_search_results.                                                                              |
+| append = TRUE )                        | Append these values to what is in the table already.  If this program is run again, all of the rows in sampleData will be appended to the same table again. |
 
 We're not ready to run dbWriteTable() yet, we need to connect to the database first. Here is the program to do that, as well as load sample-data-submarine.csv too. Read through this and run it.
 
@@ -681,21 +682,21 @@ library(RMariaDB)
 rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
 rmariadb.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db)
 
 setwd("C:\\a_orgs\\carleton\\hist3814\\R\\getting-started-with-mysql")
 
 # read in the sample data from a newspaper search of Allotment And Garden
 sampleGardenData <- read.csv(file="sample-data-allotment-garden.csv", header=TRUE, sep=",")
 
-# The story_title column in the database table can store values up to 99 characters long.  
+# The story_title column in the database table can store values up to 99 characters long.
 # This statement trims any story_titles that are any longer to 99 characters.
 sampleGardenData$story_title <- substr(sampleGardenData$story_title,0,99)
 
 # This statement formats story_date_published to represent a DATETIME.
 sampleGardenData$story_date_published <- paste(sampleGardenData$story_date_published," 00:00:00",sep="")
 
-dbWriteTable(storiesDb, value = sampleGardenData, row.names = FALSE, name = "tbl_newspaper_search_results", append = TRUE ) 
+dbWriteTable(storiesDb, value = sampleGardenData, row.names = FALSE, name = "tbl_newspaper_search_results", append = TRUE )
 
 # read in the sample data from a newspaper search of German+Submarine
 sampleSubmarineData <- read.csv(file="sample-data-submarine.csv", header=TRUE, sep=",")
@@ -703,7 +704,7 @@ sampleSubmarineData <- read.csv(file="sample-data-submarine.csv", header=TRUE, s
 sampleSubmarineData$story_title <- substr(sampleSubmarineData$story_title,0,99)
 sampleSubmarineData$story_date_published <- paste(sampleSubmarineData$story_date_published," 00:00:00",sep="")
 
-dbWriteTable(storiesDb, value = sampleSubmarineData, row.names = FALSE, name = "tbl_newspaper_search_results", append = TRUE ) 
+dbWriteTable(storiesDb, value = sampleSubmarineData, row.names = FALSE, name = "tbl_newspaper_search_results", append = TRUE )
 
 #disconnect to clean up the connection to the database
 dbDisconnect(storiesDb)
@@ -726,11 +727,11 @@ library(RMariaDB)
 rmariadb.settingsfile<-"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\newspaper_search_results.cnf"
 
 rmariadb.db<-"newspaper_search_results"
-storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
+storiesDb<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db)
 
 searchTermUsed="German+Submarine"
 # Query a count of the number of stories matching searchTermUsed that were published each month.
-query<-paste("SELECT ( COUNT(CONCAT(MONTH(story_date_published), ' ',YEAR(story_date_published)))) as 'count' 
+query<-paste("SELECT ( COUNT(CONCAT(MONTH(story_date_published), ' ',YEAR(story_date_published)))) as 'count'
     FROM tbl_newspaper_search_results
     WHERE search_term_used='",searchTermUsed,"'
     GROUP BY YEAR(story_date_published),MONTH(story_date_published)
@@ -747,13 +748,13 @@ qts1 = ts(countOfStories, frequency = 12, start = c(1914, 8))
 print(qts1)
 
 # Plot the qts1 time series data with a line width of 3 in the color red.
-plot(qts1, 
+plot(qts1,
     lwd=3,
     col = "red",
     xlab="Month of the war",
     ylab="Number of newspaper stories",
-    xlim=c(1914,1919), 
-    ylim=c(0,150), 
+    xlim=c(1914,1919),
+    ylim=c(0,150),
     main=paste("Number of stories in Welsh newspapers matching the search terms listed below.",sep=""),
     sub="Search term legend: Red = German+Submarine. Green = Allotment And Garden.")
 
@@ -786,20 +787,20 @@ The method to connect to the database is explained [above](#connecting-to-the-da
 This program selects two result sets of data and plots them on a graph. One of the result sets is newspaper stories matching the search German+Submarine.  They are queried with this SELECT statement:
 ```
 SELECT (
-  COUNT(CONCAT(MONTH(story_date_published),' ',YEAR(story_date_published)))) as 'count' 
-  FROM tbl_newspaper_search_results 
-  WHERE search_term_used='",searchTermUsed,"' 
-  GROUP BY YEAR(story_date_published),MONTH(story_date_published) 
+  COUNT(CONCAT(MONTH(story_date_published),' ',YEAR(story_date_published)))) as 'count'
+  FROM tbl_newspaper_search_results
+  WHERE search_term_used='",searchTermUsed,"'
+  GROUP BY YEAR(story_date_published),MONTH(story_date_published)
   ORDER BY YEAR(story_date_published),MONTH(story_date_published);
 ```
 
-| SQL     | Meaning           |
-| ------------- |---------------|
-|SELECT (| SELECT data matching the condition in the WHERE clause FROM the database table named. |
-|COUNT(CONCAT(MONTH(story_date_published),' ',YEAR(story_date_published))) as 'count' |This provides a count of the number of stories published that share the same month and year publishing date. CONCAT stands for concatenate which creates a single text value from two or more separate text values, in this case the month and the year. |
-|FROM tbl_newspaper_search_results |This is the database table we're selecting data from.|
-|GROUP BY YEAR(story_date_published),MONTH(story_date_published) | This GROUP BY statement is important for the COUNT above. Here the data is grouped by month and year so that we can count all of the records in the group.
-|ORDER BY YEAR(story_date_published),MONTH(story_date_published);|This puts the result set in order by date, which is useful since we want to make a graph by date.|
+| SQL                                                                                  | Meaning                                                                                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SELECT (                                                                             | SELECT data matching the condition in the WHERE clause FROM the database table named.                                                                                                                                                                    |
+| COUNT(CONCAT(MONTH(story_date_published),' ',YEAR(story_date_published))) as 'count' | This provides a count of the number of stories published that share the same month and year publishing date. CONCAT stands for concatenate which creates a single text value from two or more separate text values, in this case the month and the year. |
+| FROM tbl_newspaper_search_results                                                    | This is the database table we're selecting data from.                                                                                                                                                                                                    |
+| GROUP BY YEAR(story_date_published),MONTH(story_date_published)                      | This GROUP BY statement is important for the COUNT above. Here the data is grouped by month and year so that we can count all of the records in the group.                                                                                               |
+| ORDER BY YEAR(story_date_published),MONTH(story_date_published);                     | This puts the result set in order by date, which is useful since we want to make a graph by date.                                                                                                                                                        |
 
 The statements below run the query and puts the result set *rs* into data frame *dbRows*
 ```
@@ -814,13 +815,13 @@ qts1 = ts(countOfStories, frequency = 12, start = c(1914, 8))
 ```
 Below, the data in the *qts1* time series is plotted on a graph
 ```
-plot(qts1, 
+plot(qts1,
     lwd=3,
     col = "red",
     xlab="Month of the war",
     ylab="Number of newspaper stories",
-    xlim=c(1914,1919), 
-    ylim=c(0,150), 
+    xlim=c(1914,1919),
+    ylim=c(0,150),
     main=paste("Number of stories in Welsh newspapers matching the search terms listed below.",sep=""),
     sub="Search term legend: Red = German+Submarine. Green = Allotment And Garden.")
 ```
@@ -837,7 +838,7 @@ Below is what the plot should look like:
 
 If you wanted to put a database on a website, using MySQL as the database and the PHP language to build the pages of the site is one way to do this. An example of this type of website is one I built to [search issues of the Equity newspaper](http://www.jeffblackadar.ca/graham_fellowship/corpus_entities_equity/). Larry Ullman's book *PHP and MySQL for Dynamic Web Sites* covers how to set up and connect to a database using MySQL and PHP in a hacker resistant way.
 
-For examples of using SQL to sort and group data as well as perform calculations, see: 
+For examples of using SQL to sort and group data as well as perform calculations, see:
 [MySQL by Examples for Beginners](http://web.archive.org/web/20171228130133/https://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html) or MySQL's [Examples of Common Queries](https://dev.mysql.com/doc/refman/5.7/en/examples.html).
 
 

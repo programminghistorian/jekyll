@@ -27,6 +27,7 @@ difficulty: 2
 activity: presenting
 topics: [python]
 abstract: "Esta lección se basa en 'Palabras clave en contexto (usando n-grams)', en la que se extrajeron n-gramas de un texto. Aquí aprenderás cómo generar una salidad de todos los n-gramas de una palabra clave dada en un documento descargado de Internet, y visualizarlos claramente en la ventana de tu navegador."
+avatar_alt: Grabado de un león, un oso y un mono caminando. 
 ---
 
 {% include toc.html %}
@@ -100,7 +101,7 @@ def nGramasAdicKWIC(ngramas):
         else:
             kwicdicc[k[indicePClave]].append(k)
     return kwicdicc
-``` 
+```
 
 Un bucle `for`y una declaración `if` comprueban cada n-grama para ver si su palabra clave está ya almacenada en el diccionario. Si no es así, se añade una nueva entrada. Si lo es, añade a una entrada anterior. Ahora tenemos un diccionario llamado *kwicdicc* que contiene todos los n-gramas, clasificables por palabra clave y podemos regresar a la tarea de dar salida a la información en un formato más útil como lo hicimos en [Salida de datos como archivo HTML][].
 
@@ -260,8 +261,8 @@ Esta lección marca el final de la serie de lecciones originales sobre Python. E
 
 *Nota:* Ahora puedes ir a la siguiente lección (en inglés) para aprender a [Descargar registros múltiples](/lessons/downloading-multiple-records-using-query-strings)
 
-  [Palabras clave en contexto (usando n-grams)]: /es/lecciones/palabras-clave-en-contexto-n-grams
-  [archivo zip de las lecciones anteriores]: /assets/python-es-lecciones8.zip
-  [Salida de datos como archivo HTML]: /es/lecciones/salida-de-datos-como-archivo-html
-  [zip sync]: /assets/python-es-lecciones9.zip
- 
+[Palabras clave en contexto (usando n-grams)]: /es/lecciones/palabras-clave-en-contexto-n-grams
+[archivo zip de las lecciones anteriores]: /assets/python-es-lecciones8.zip
+[Salida de datos como archivo HTML]: /es/lecciones/salida-de-datos-como-archivo-html
+[zip sync]: /assets/python-es-lecciones9.zip
+

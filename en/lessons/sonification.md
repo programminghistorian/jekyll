@@ -15,6 +15,7 @@ activity: transforming
 topics: [distant-reading]
 abstract: "There are any number of guides that will help you visualize the past, but this lesson will help you hear the past."
 redirect_from: /lessons/sonification
+avatar_alt: A violin
 ---
 
 {% include toc.html %}
