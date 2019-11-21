@@ -94,11 +94,11 @@ If you need any help downloading and installing the module for [Python 3](https:
 In our case, we will be using two NLTK tools in particular:
 
 * The '[VADER Sentiment Analysis](http://www.nltk.org/_modules/nltk/sentiment/vader.html)' tool (generates positive, negative, and neutral sentiment scores for a given input)
-* The 'word_tokenize' tokenizer tool (splits a large text into a sequence of smaller units, like sentences or words)
+* The 'sent_tokenize' tokenizer tool (splits text into a sequence of sentences)
 
-To use VADER and word_tokenize, we first need to download and install a little extra data for NLTK. NLTK is a very large toolkit, and several of its tools actually require a second download step to gather the necessary collection of data (often coded lexicons) to function correctly.
+To use VADER and sent_tokenize, we first need to download and install a little extra data for NLTK. NLTK is a very large toolkit, and several of its tools actually require a second download step to gather the necessary collection of data (often coded lexicons) to function correctly.
 
-To install the sentiment analysis and word tokenizer we will use for this tutorial, write a new Python script with the following three lines:
+To install the sentiment analysis and sentence tokenizer we will use for this tutorial, write a new Python script with the following three lines:
 
 ```
 import nltk
@@ -327,30 +327,25 @@ Did this meet your expectation? If not, why do you think *VADER* found more posi
 
 At the message-entity-level, there is no way to single out particularly positive or negative sentiments in the message. This loss of detail may be irrelevant, or it may be vital when conducting exploratory analysis. This depends upon the research needs of your study. For instance, identifying negative sentences in otherwise congenial e-mails may be especially important when looking for emotional outbursts or abusive exchanges that may occur very infrequently, but reveal something essential about the nature of a relationship. If we want to capture this level of nuance, we need a method for moving from message-level to sentiment-level analysis.
 
-Fortunately, NLTK provides a collection of tools for breaking up text into smaller components. *Tokenizers* split up strings of text into smaller pieces like sentences. Some can even further break out a sentence into particular parts of speech, such as the noun participle, adjective, and so on. In our case, we will use NLTK's *english.pickle* tokenizer to break up paragraphs into sentences.
+Fortunately, NLTK provides a collection of tools for breaking up text into smaller components. *Tokenizers* split up strings of text into smaller pieces like sentences. Some can even further break out a sentence into particular parts of speech, such as the noun participle, adjective, and so on. In our case, we will use NLTK's Punkt tokenizer to break up paragraphs into sentences.
 
 We can now rewrite the sentiment analysis script to analyze each sentence separately:
 
 ```
 # below is the sentiment analysis code rewritten for sentence-level analysis
-# note the new module -- word_tokenize!
-import nltk.data
+# note the new function -- sent_tokenize!
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk import sentiment
-from nltk import word_tokenize
+from nltk import sent_tokenize
 
 # Next, we initialize VADER so we can use it within our Python script
 sid = SentimentIntensityAnalyzer()
-
-# We will also initialize our 'english.pickle' function and give it a short name
-
-tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 
 message_text = '''It seems to me we are in the middle of no man's land with respect to the  following:  Opec production speculation, Mid east crisis and renewed  tensions, US elections and what looks like a slowing economy (?), and no real weather anywhere in the world. I think it would be most prudent to play  the markets from a very flat price position and try to day trade more aggressively. I have no intentions of outguessing Mr. Greenspan, the US. electorate, the Opec ministers and their new important roles, The Israeli and Palestinian leaders, and somewhat importantly, Mother Nature.  Given that, and that we cannot afford to lose any more money, and that Var seems to be a problem, let's be as flat as possible. I'm ok with spread risk  (not front to backs, but commodity spreads). The morning meetings are not inspiring, and I don't have a real feel for  everyone's passion with respect to the markets.  As such, I'd like to ask  John N. to run the morning meetings on Mon. and Wed.  Thanks. Jeff'''
 
 # The tokenize method breaks up the paragraph into a list of strings. In this example, note that the tokenizer is confused by the absence of spaces after periods and actually fails to break up sentences in two instances. How might you fix that?
 
-sentences = tokenizer.tokenize(message_text)
+sentences = sent_tokenize(message_text, language='english')
 
 # We add the additional step of iterating through the list of sentences and calculating and printing polarity scores for each one.
 
@@ -393,7 +388,7 @@ compound: 0.0, neg: 0.0, neu: 1.0, pos: 0.0,
 
 Here you'll note a much more detailed picture of the sentiment in this e-mail. *VADER* successfully identifies moderate to strongly negative sentences in the e-mail, especially the leading description of crises. Sentence-level analysis allows you to identify specific sentences and topics at the extremes of sentiment, which may be helpful later.
 
-But even at this level, *VADER* also runs into a number of errors. The sentence beginning with "The morning meetings are not inspiring" outputs a surprisingly positive score -- perhaps because of a misreading of the terms "passion" and "respect". Also note that the question mark at the beginning of the e-mail and the period of Mon near the end cause *english.pickle* tokenizer to mistakenly break up sentences. This is a constant risk from informal and complex punctuation in text.
+But even at this level, *VADER* also runs into a number of errors. The sentence beginning with "The morning meetings are not inspiring" outputs a surprisingly positive score -- perhaps because of a misreading of the terms "passion" and "respect". Also note that the question mark at the beginning of the e-mail and the period of Mon near the end cause the sentence tokenizer to mistakenly break up sentences. This is a constant risk from informal and complex punctuation in text.
 
 What do you notice about the distribution of scores? How can you imagine collecting them in a manner that would help you better understand your data and its relationships to the research questions you care about? (Feel free to experiment with different kinds of text in the *message_text* variable to see how the tool responds to different types of language constructions). The code you have just written can be repurposed for any text.
 
