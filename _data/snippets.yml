@@ -239,6 +239,10 @@ footer:
     en: Make a suggestion
     es: Envíanos tus comentarios
     fr: Faire une suggestion
+  rss-feed: 
+    en: RSS feed subscriptions
+    es: Suscripción a RSS 
+    fr: Abonnement a flux RSS   
 
 # lesson-index
 reset-button:
