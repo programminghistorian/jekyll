@@ -122,8 +122,8 @@ This is some text.[^1]
 This is some more text.[^2]
 
 ##### Endnotes
-[^1] Properly formatted citation using Chicago Manual of Style
-[^2] Properly formatted citation using Chicago Manual of Style
+[^1]: Properly formatted citation using Chicago Manual of Style
+[^2]: Properly formatted citation using Chicago Manual of Style
 
 
 # Further Questions?
