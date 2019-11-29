@@ -27,12 +27,10 @@ Le comité éditorial de la version francophone du _Programming Historian_ est p
 4. Comment analyser des artefacts audio
 
     Nous avons déjà une leçon (en anglais) sur l'utilisation du logiciel Audacity pour apprendre à manipuler des fichiers audio et une autre sur comment rendre sonore un ensemble de données. Mais on peut faire beaucoup plus que cela! Comment faites-vous pour quantifier vos données et construire des artefacts audio? Appliquez-vous des techniques de l'apprentissage automatique (machine learning) pour renouveler les approches d'une collection audio? 
-    We have one lesson on how to use Audacity to edit audio files and another on how to transform you transform your data into audio to better understand it. But you can do much more! How are you using tools to get quantifiable data about your audio artefacts? Or, how can you use machine learning techniques to produce new understandings of an audio collection?
 
 5. Comment choisir un schéma de métadonnées 
 
     Il existe plusieurs schémas différents de métadonnées, tel Dublin Core, COins, MARC, METS, MODS... Si on débute dans un projet de création d'une collection, comment faire pour décider quel schéma de métadonnées est pertinent à utiliser? Une telle leçon devrait constituer la base pour produire davantage de tutoriels sur ce domaine.     
-	There are so many different metadata schema available. From Dublin Core to COins to MARC, METS, and MODS. If someone is embarking on a project that involves building a collection, how should they go about making a decision about which metadata schema to use? We believe this core lesson could really open up new areas for future lessons.
     
 6. Comment appliquer des techniques de positionnement multidimensionnel et d'analyses multivariées
 
