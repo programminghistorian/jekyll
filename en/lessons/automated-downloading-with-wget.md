@@ -17,6 +17,7 @@ abstract: "Wget is a useful program, run through your computer's command line, 
 retrieving online material."
 next: applied-archival-downloading-with-wget
 redirect_from: /lessons/automated-downloading-with-wget
+avatar_alt: Diagram of an elevator system in a mineshaft
 ---
 
 {% include toc.html %}
@@ -365,7 +366,7 @@ links, to a limit of five clicks after the first website. At this point,
 it will be quite indiscriminate. So we need more commands:
 
 ``` bash
---no-parent 
+--no-parent
 ```
 
 (The double-dash indicates the full-text of a command. All commands also

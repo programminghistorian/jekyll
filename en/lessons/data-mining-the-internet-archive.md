@@ -16,6 +16,7 @@ activity: acquiring
 topics: [web-scraping]
 abstract: "The collections of the Internet Archive include many digitized historical sources. Many contain rich bibliographic data in a format called MARC. In this lesson, you'll learn how to use Python to automate the downloading of large numbers of MARC files from the Internet Archive and the parsing of MARC records for specific information such as authors, places of publication, and dates. The lesson can be applied more generally to other Internet Archive files and to MARC records found elsewhere."
 redirect_from: /lessons/data-mining-the-internet-archive
+avatar_alt: Group of of men working in a mine
 ---
 
 {% include toc.html %}
@@ -336,7 +337,7 @@ for item in search:
    print item['identifier']
 ```
 
-You should get the same results. 
+You should get the same results.
 
 The second thing to note about the *for loop* is that the indented block
 could could have contained other commands. In this case, we printed each
@@ -547,10 +548,10 @@ def map_xml(function, *files):
     """
     map a function onto the file, so that for each record that is
     parsed the function will get called with the extracted record
-    
+
     def do_it(r):
     print r
-    
+
     map_xml(do_it, 'marc.xml')
     """
 ```

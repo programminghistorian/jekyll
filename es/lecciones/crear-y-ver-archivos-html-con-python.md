@@ -27,6 +27,7 @@ difficulty: 2
 activity: presenting
 topics: [python, website]
 abstract: "Aquí aprenderás cómo crear archivos HTML con scripts de Python, y cómo utilizar Python para abrir un archivo HTML en Firefox."
+avatar_alt: Grabado en blanco y negro de un niño sentado en un taburete sujetando un dibujo de una persona con una espada.
 python_warning: false
 ---
 
@@ -72,7 +73,7 @@ mensaje = """<html>
 
 f.write(mensaje)
 f.close()
-``` 
+```
 
 Guarda el programa anterior como `escribe-html.py` y ejecútalo. Utiliza *File -> Open* en tu editor seleccionado para abrir `holamundo.html` para verificar que tu programa en realidad creó el archivo. El contenido debe verse como esto:
 

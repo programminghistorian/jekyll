@@ -280,6 +280,7 @@ topics:
  - tema dos (ver abajo o mantener original en traducciones)
 abstract: |
   ver abajo o traducir el original
+avatar_alt: Descripción de la imagen de la lección
 ---
 ```
 

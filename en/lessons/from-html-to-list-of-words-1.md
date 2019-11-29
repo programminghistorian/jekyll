@@ -21,6 +21,7 @@ next: from-html-to-list-of-words-2
 previous: manipulating-strings-in-python
 python_warning: false
 redirect_from: /lessons/from-html-to-list-of-words-1
+avatar_alt: A giraffe being mimicked by a human
 ---
 
 {% include toc.html %}
@@ -89,9 +90,9 @@ At a glance, we can see that the trial transcript itself starts with an HTML tag
 We might be able to use this to find the starting point
 of our transcript text. We are lucky in this case because it turns out
 that this tag is a reliable way to find the start of transcript text
-in the trial (if you want, take a look at a few other trials to check). 
+in the trial (if you want, take a look at a few other trials to check).
 
-The trial text ends on line 82 with another HTML tag: `<br/>`, which stands for line break. 
+The trial text ends on line 82 with another HTML tag: `<br/>`, which stands for line break.
 This happens to be the LAST line break in the document. These two tags (first paragraph tag and last linebreak)
 thus provide a way to isolate our desired text. Well-formatted websites will almost always have some
 unique way of signalling the end of the content. You often just need to
@@ -146,7 +147,7 @@ the algorithm was as follows:
 -   Save everything after the `<p>` tag and before the `<br/>` tag to a string:
     *pageContents*
 
-To achieve this, you will use the 'find' string method and .rfind() method 
+To achieve this, you will use the 'find' string method and .rfind() method
 (which finds the last match of something) and create a new
 substring containing only the desired content between those index positions.
 

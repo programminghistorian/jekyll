@@ -20,6 +20,7 @@ next: output-data-as-html-file
 previous: counting-frequencies
 python_warning: false
 redirect_from: /lessons/creating-and-viewing-html-files-with-python
+avatar_alt: Child drawing on a tablet
 ---
 
 {% include toc.html %}

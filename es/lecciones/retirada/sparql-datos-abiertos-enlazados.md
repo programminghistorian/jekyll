@@ -22,11 +22,17 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/67
 layout: lesson
 original: graph-databases-and-SPARQL
-redirect_from: /es/lessons/graph-databases-and-SPARQL
+redirect_from:
+- /es/lessons/graph-databases-and-SPARQL
+- /es/lecciones/sparql-datos-abiertos-enlazados
 difficulty: 2
 activity: acquiring
 topics: [lod]
 abstract: "Esta lección explica por qué numerosas instituciones culturales están adoptando bases de datos orientadas a grafos y cómo los investigadores pueden acceder a estos datos a través de consultas realizadas en el lenguaje llamado SPARQL."
+retired: true
+retirement-reason: |
+ El Museo Británico no ha mantenido el acceso a su base de datos de colecciones de una manera consistente. Aunque la sintaxis y los comandos de SPARQL siguen siendo correctos, las URLs a las que intentan conectarse son ahora demasiado inconsistentes para su uso en una lección funcional.
+avatar_alt: Grabado con dos peces unidos por una rama en sus bocas.
 ---
 
 Objetivos de la lección
@@ -53,7 +59,7 @@ SPARQL es el lenguaje utilizado para interrogar este tipo de bases de datos. Est
 
 ### RDF en pocas palabras
 
-RDF representa la información en una declaración triple -también llamada tripleta- que sigue la estructura sujeto-predicado-objeto. Por ejemplo:  
+RDF representa la información en una declaración triple -también llamada tripleta- que sigue la estructura sujeto-predicado-objeto. Por ejemplo:
 
 ```
 <La ronda de noche> <fue creada por> <Rembrandt van Rijn> .
@@ -128,10 +134,10 @@ En este ejemplo, hemos introducido una segunda variable: `?artista`. La base de 
 
 {% include figure.html filename="sparql-lod-04.png" caption="Visualización de la consulta SPARQL con los elementos mencionados en naranja y los elementos seleccionados (aquellos que serán recuperados en los resultados en rojo). Diagrama reconstruido por Nuria Rodríguez Ortega." %}
 
-| artistas | pinturas |
-|--------------------|----------------------|
-| Rembrandt van Rijn | La ronda de noche |
-| Johannes Vermeer | La tasadora de perlas |
+| artistas           | pinturas              |
+| ------------------ | --------------------- |
+| Rembrandt van Rijn | La ronda de noche     |
+| Johannes Vermeer   | La tasadora de perlas |
 
 ### URI y literales
 
@@ -169,8 +175,8 @@ Debemos ser conscientes de que los prefijos se pueden asignar arbitrariamente a 
 
 ### Términos para revisar
 
-* **SPARQL** - *Protocol and RDF Query Language* - El lenguaje utilizado para interrogar bases de datos RDF u orientadas a grafos.  
-* **RDF** - *Resource Description Framework* - Un método para estructurar datos en forma de grafo o como una red de declaraciones conectadas más que como una serie de tablas.  
+* **SPARQL** - *Protocol and RDF Query Language* - El lenguaje utilizado para interrogar bases de datos RDF u orientadas a grafos.
+* **RDF** - *Resource Description Framework* - Un método para estructurar datos en forma de grafo o como una red de declaraciones conectadas más que como una serie de tablas.
 * **LOD** - *Linked Open Data* (datos abiertos enlazados) - LOD son datos RDF publicados *online* en formato URI de modo que los desarrolladores pueden referenciarlos de manera fiable y sin ambigüedad.
 * **declaración** - a veces denominada "tripleta", una declaración RDF es una unidad de conocimiento que comprende sujeto, predicado y objeto.
 * **URI** - *Uniform Resource Identifier* - una cadena de caracteres que identifica un recurso. Las declaraciones RDF utilizan URI para enlazar varios recursos. Una URL, o *Uniform Resource Locator*, es un tipo de URI que apunta a un determinado recurso en la web.
@@ -199,7 +205,7 @@ WHERE {
 
 [Run query](http://collection.britishmuseum.org/sparql?query=SELECT+*%0D%0AWHERE+%7B%0D%0A++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FPPA82633%3E+%3Fp+%3Fo+.%0D%0A++%7D&_implicit=false&_equivalent=false&_form=%2Fsparql)
 
-Con la orden `SELECT ?p ?o`, le estamos diciendo a la base de datos que nos devuelva los valores de `?p` y `?o` descritos en el comando `WHERE {}`. Esta consulta devuelve cada declaración para la cual nuestra obra de arte seleccionada, `<http://collection.britishmuseum.org/id/object/PPA82633>`, es el sujeto. `?p` ocupa la posición central en la declaración RDF en el comando `WHERE {}`, por lo que esta devuelve cualquier predicado que coincide con la declaración, mientras que `?o`, en la posición final, devuelve todos los objetos. Aunque yo las he nombrado como `?p` y `?o`, en realidad, tal y como se puede ver en el ejemplo inferior, es posible nombrar estas variables del modo que nosotros queramos. De hecho, será útil darles nombres significativos para las  consultas complejas que siguen a continuación.  
+Con la orden `SELECT ?p ?o`, le estamos diciendo a la base de datos que nos devuelva los valores de `?p` y `?o` descritos en el comando `WHERE {}`. Esta consulta devuelve cada declaración para la cual nuestra obra de arte seleccionada, `<http://collection.britishmuseum.org/id/object/PPA82633>`, es el sujeto. `?p` ocupa la posición central en la declaración RDF en el comando `WHERE {}`, por lo que esta devuelve cualquier predicado que coincide con la declaración, mientras que `?o`, en la posición final, devuelve todos los objetos. Aunque yo las he nombrado como `?p` y `?o`, en realidad, tal y como se puede ver en el ejemplo inferior, es posible nombrar estas variables del modo que nosotros queramos. De hecho, será útil darles nombres significativos para las  consultas complejas que siguen a continuación.
 
 {% include figure.html filename="sparql-lod-06.png" caption="Listado inicial de todos los predicados y objetos asociados con una obra de arte en el British Museum." %}
 
@@ -229,7 +235,7 @@ WHERE {
   # Busca todos los valores de ?object que tengan un "object type" dado
   ?object bmo:PX_object_type ?object_type .
 
-  # El "object type" debería tener la etiqueta "print"  
+  # El "object type" debería tener la etiqueta "print"
   ?object_type skos:prefLabel "print" .
 }
 LIMIT 10
@@ -274,7 +280,7 @@ WHERE {
   ?timespan ecrm:P82a_begin_of_the_begin ?date .
 
   # Como se ve, es necesario conectar unos cuantos pocos de puntos
-  # para llegar al nodo de la fecha. Ahora que lo tehemos, podemos  
+  # para llegar al nodo de la fecha. Ahora que lo tehemos, podemos
   # filtrar nuestros resultados. Dado que estamos filtrando por fecha,
   # debemos agregar la etiqueta ^^xsd:date después de nuestra cadena de fecha.
   # Esta etiqueta le dice a la base de datos que interprete la cadena
@@ -319,7 +325,7 @@ WHERE {
          ?date <= "1600-01-01"^^xsd:date)
 }
 # El comando GROUP BY designa la variable que se sumará,
-# y el comando ORDER BY DESC() clasifica los resultados  
+# y el comando ORDER BY DESC() clasifica los resultados
 # en orden descedente.
 
 GROUP BY ?type
@@ -360,8 +366,8 @@ WHERE {
     # En DBPedia, ?dutch_city está definida por pertenecer al país "Netherlands"
     # La declaración SERVICE pregunta a
     # http://dbpdeia.org/sparql qué ciudades pertenecen al país
-    # "Netherlands". La respuesta obtenida de esta subconsulta se utilizará para  
-    # completar nuestra consulta originaria sobre los objetos  
+    # "Netherlands". La respuesta obtenida de esta subconsulta se utilizará para
+    # completar nuestra consulta originaria sobre los objetos
     # presentes en la base de datos de Europeana
 
     SERVICE <http://dbpedia.org/sparql> {
@@ -405,7 +411,7 @@ Después de previsualizar los datos devueltos por el punto de entrada, clica en 
 {% include figure.html filename="sparql-lod-15.png" caption="Galería de imágenes con línea de tiempo de sus fechas de creación generada utilizando Palladio." %}
 
 
-Adviértase que Palladio está diseñado para funcionar con un conjunto relativamente pequeño de datos (del orden de cientos de miles de filas, no decenas de miles), por lo que pudiera ser necesario utilizar el comando LIMIT, que ya empleamos anteriormente en la consulta en el punto de entrada de Europeana, para reducir el número de resultados obtenidos y así evitar que el programa se quede bloqueado.   
+Adviértase que Palladio está diseñado para funcionar con un conjunto relativamente pequeño de datos (del orden de cientos de miles de filas, no decenas de miles), por lo que pudiera ser necesario utilizar el comando LIMIT, que ya empleamos anteriormente en la consulta en el punto de entrada de Europeana, para reducir el número de resultados obtenidos y así evitar que el programa se quede bloqueado.
 
 ## Lecturas adicionales
 

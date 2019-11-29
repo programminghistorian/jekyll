@@ -25,6 +25,7 @@ redirect_from: /es/lessons/preserving-your-research-data
 activity: sustaining
 topics: [data-management]
 abstract: "Esta lección te sugerirá formas en las que los historiadores pueden documentar y estructurar sus datos de investigación con el fin de asegurar que permanecerán útiles en el futuro."
+avatar_alt: Grabado de un barril abierto y lleno de dinamita con un cartel. 
 ---
 
 {% include toc.html %}
@@ -207,7 +208,7 @@ Finalmente, podemos crear un directorio dentro de la carpeta \\datos\\ que conte
 2014-02-02_articulos_revista__KW_bretaña.tsv
 ```
 
-* * * * * 
+* * * * *
 
 #### Resumen 2
 
@@ -218,7 +219,7 @@ Recapitulando, los puntos clave sobre la creación de una estructura de datos de
 -   Ajusta y adapta la estructura de datos de investigación a tus necesidades.
 -   Establece convenciones de nomenclatura en los directorios y archivos para identificarlos, crear asociaciones entre elementos de datos, y para ayudar a una lectura y comprensión a largo plazo de tu estructura de datos.
 
-* * * * * 
+* * * * *
 
 Esta lección ha sugerido maneras para documentar y estructurar datos de investigación. El objetivo ha sido asegurar que tus datos se conserven mediante la captura del conocimiento tácito adquirido en tu proceso de investigación y, por lo tanto, haciendo dicha información asequible y fácil de utilizar en el futuro. Se ha recomendado el uso de formatos independientes de plataforma y legibles por computadoras. También se han analizado las URLs como un ejemplo de buenas (y malas) prácticas de estructuración de datos que se puede replicar para organizar los datos de investigación de un historiador.
 

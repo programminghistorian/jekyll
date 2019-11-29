@@ -18,6 +18,7 @@ abstract: "In this lesson, we will use advanced find-and-replace capabilities in
 word processing application in order to make use of structure in a brief
 historical document that is essentially a table in the form of prose."
 redirect_from: /lessons/understanding-regular-expressions
+avatar_alt: Person studying a book at a desk
 ---
 
 {% include toc.html %}
@@ -48,13 +49,13 @@ Arizona. — Quarter ended June 30, 1907. Estimated population,
 
 And use pattern matching to transform it to something like this:
 
-| | | | | |
-|:--|:--|:--|:--|:--|
-|Arizona.|Quarter ended June 30, 1907.|Deaths|diphtheria|   1|
-|Arizona.|Quarter ended June 30, 1907.|Deaths|enteric fever|4|
-|Arizona.|Quarter ended June 30, 1907.|Deaths|scarlet fever|11|
-|Arizona.|Quarter ended June 30, 1907.|Deaths|smallpox|     2|
-|Arizona.|Quarter ended June 30, 1907.|Deaths|tuberculosis| 49|
+|          |                              |        |               |      |
+| :------- | :--------------------------- | :----- | :------------ | :--- |
+| Arizona. | Quarter ended June 30, 1907. | Deaths | diphtheria    | 1    |
+| Arizona. | Quarter ended June 30, 1907. | Deaths | enteric fever | 4    |
+| Arizona. | Quarter ended June 30, 1907. | Deaths | scarlet fever | 11   |
+| Arizona. | Quarter ended June 30, 1907. | Deaths | smallpox      | 2    |
+| Arizona. | Quarter ended June 30, 1907. | Deaths | tuberculosis  | 49   |
 
 
 What Are Regular Expressions and for Whom Is this Useful?
@@ -348,20 +349,20 @@ LibreOffice for the most part follows notational conventions that you
 will see in other contexts. If you use a proprietary word processor you
 will likely find similar functionality even if the notation differs.
 
-| | |
-|:--|:--|
-|`A b 1 `|literals — letters, digits, and spaces match themselves|
-|`[Ab1]`|a character class, matching one instance of any of `A`, `b`, or `1` in this case|
-|`[a-z]`|all lowercase letters within a range|
-|`[0-9]`|all digits|
-|`.`|any character|
-|`*`|zero or more|
-|`+`|one or more|
-|`( )`|if contents within parentheses match, define a group for future reference|
-|`$1`|refer to a matched group (this is the notation in LibreOffice; other notations such as \1 are sometimes used elsewhere)|
-|`\t`|tab|
-|`^`|beginning of line|
-|`$`|end of line|
+|          |                                                                                                                         |
+| :------- | :---------------------------------------------------------------------------------------------------------------------- |
+| `A b 1 ` | literals — letters, digits, and spaces match themselves                                                                 |
+| `[Ab1]`  | a character class, matching one instance of any of `A`, `b`, or `1` in this case                                        |
+| `[a-z]`  | all lowercase letters within a range                                                                                    |
+| `[0-9]`  | all digits                                                                                                              |
+| `.`      | any character                                                                                                           |
+| `*`      | zero or more                                                                                                            |
+| `+`      | one or more                                                                                                             |
+| `( )`    | if contents within parentheses match, define a group for future reference                                               |
+| `$1`     | refer to a matched group (this is the notation in LibreOffice; other notations such as \1 are sometimes used elsewhere) |
+| `\t`     | tab                                                                                                                     |
+| `^`      | beginning of line                                                                                                       |
+| `$`      | end of line                                                                                                             |
 
 For a more complete list of regular expressions in LibreOffice, see
 their [List of Regular Expressions][].

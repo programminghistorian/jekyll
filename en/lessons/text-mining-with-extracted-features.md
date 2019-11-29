@@ -18,6 +18,7 @@ abstract: |
   Explains how to use Python to summarize and visualize data on millions of texts from the HathiTrust Research Center's Extracted Features dataset.
 redirect_from: /lessons/text-mining-with-extracted-features
 mathjax: true
+avatar_alt: A book inside a torn case
 ---
 
 {% include toc.html %}

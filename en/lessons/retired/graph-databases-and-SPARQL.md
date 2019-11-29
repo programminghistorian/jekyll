@@ -16,7 +16,13 @@ activity: acquiring
 topics: [lod]
 abstract: "This lesson explains why many cultural institutions are adopting graph databases, and how researchers can access these data though the query language called SPARQL."
 categories: [lessons]
-redirect_from: /lessons/graph-databases-and-SPARQL
+redirect_from:
+- /lessons/graph-databases-and-SPARQL
+- /en/lessons/graph-databases-and-SPARQL
+retired: true
+retirement-reason: |
+  The British Museum has failed to maintain their collections database in a consistent and reliably-accessible manner. Although the SPARQL syntax and commands remain correct, the URLs they attempt to connect to have become too unreliable to use in a working lesson.
+avatar_alt: Pisces symbol of two linked fish
 ---
 
 Lesson Goals
@@ -186,7 +192,7 @@ these statements.
 
 
 | artist             | painting             |
-|--------------------|----------------------|
+| ------------------ | -------------------- |
 | Rembrandt van Rijn | The Nightwatch       |
 | Johannes Vermeer   | Woman with a Balance |
 

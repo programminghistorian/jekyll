@@ -23,13 +23,13 @@ activity: sustaining
 topics: [data-management]
 abstract: "En esta lección aprenderás lo básico del control de versiones, comprenderás por qué es útil e implementarás el control básico de versiones en un documento de texto plano utilizando git y GitHub."
 original: getting-started-with-github-desktop
+avatar_alt: Grabado de una pareja en un escritorio observando a un gato a la luz de una vela
 redirect_from:
   - /es/lessons/getting-started-with-github-desktop
   - /es/lecciones/introduccion-control-versiones-github-desktop
 retired: true
 retirement-reason: |
   Esta lección utiliza una versión obsoleta de GitHub Desktop que ya no cuenta con el respaldo de GitHub. La última versión y la documentación pueden encontrarse en <https://desktop.github.com/>.
-  
 ---
 
 {% include toc.html %}

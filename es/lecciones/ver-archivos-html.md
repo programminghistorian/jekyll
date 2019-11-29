@@ -28,6 +28,7 @@ difficulty: 2
 activity: presenting
 topics: [python]
 abstract: "Esta lección te introduce a las estructuras de HTML y de páginas web." 
+avatar_alt: Grabado de un hombre hablando a una mujer. 
 ---
 
 {% include toc.html %}

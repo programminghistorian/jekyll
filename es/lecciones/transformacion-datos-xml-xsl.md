@@ -26,6 +26,7 @@ original: transforming-xml-with-xsl
 redirect_from: /es/lessons/transforming-xml-with-xsl
 layout: lesson
 abstract: "Con este tutorial aprenderás a convertir un conjunto de datos históricos procedentes de una base de datos XML (ya sea un solo documento o varios documentos interconectados) en otros formatos más adecuados para presentar (tablas, listas) o exponer información (párrafos)."
+avatar_alt: Dibujo de un pavo real con sus plumas extendidas.
 ---
 
 {% include toc.html %}
@@ -64,30 +65,30 @@ El lenguaje de marcas extensible (**eXtensible Markup Language**, abreviado gene
 Una base de datos puede componerse de uno o más documentos XML con una estructura básica. Cada sección del archivo está contenida en un [elemento](https://en.wikipedia.org/wiki/XSLT_elements), es decir, una categoría o nombre con el que se identifica el tipo de datos manejados. Así pues, como si fueran [*Matrioshkas*](https://es.wikipedia.org/wiki/Matrioshka), cada nivel de elementos está contenido en otro. El elemento **raíz** contiene el documento entero; y cada uno de los elementos contenidos en éste se considera un **hijo** (*child*). Análogamente, el elemento que contiene un elemento hijo se llama elemento **padre** (*parent*).
 
     <raíz>
-		<padre>
-			<hijo></hijo>
-		</padre>
-	</raíz>
+    	<padre>
+    		<hijo></hijo>
+    	</padre>
+    </raíz>
 
 Según las reglas de la base de datos, los elementos pueden tener valores (textuales o numéricos) o bien un número determinado de elementos hijos.
 
     <raíz>
-		<padre>
-			<hijo_1>valor</hijo_1>
-			<hijo_2>valor</hijo_2>
-			<hijo_3>valor</hijo_3>
-		</padre>
-	</raíz>
+    	<padre>
+    		<hijo_1>valor</hijo_1>
+    		<hijo_2>valor</hijo_2>
+    		<hijo_3>valor</hijo_3>
+    	</padre>
+    </raíz>
 
 También pueden tener [atributos](https://es.wikipedia.org/wiki/Atributo_(inform%C3%A1tica)), es decir, algo así como los metadatos del elemento. Los atributos ayudan a distinguir, por ejemplo, entre distintos tipos de valores sin tener que crear un nuevo tipo de elemento.
 
     <raíz>
-		<nombre>
-			<apellido>García</last>
-			<nombre tipo="formal">Cristina</first>
-			<nombre tipo="informal">Cris</first>
-		</nombre>
-	</raíz>
+    	<nombre>
+    		<apellido>García</last>
+    		<nombre tipo="formal">Cristina</first>
+    		<nombre tipo="informal">Cris</first>
+    	</nombre>
+    </raíz>
 
 Si tienes acceso a una base de datos XML o bien almacenas datos en una, puedes utilizar XSL para ordenar, filtrar y presentar la información en (casi) todas las maneras imaginables. Por ejemplo, se podría abrir un archivo XML como Word (.docx) o Excel (.xslx), inspeccionarlo y, a continuación, eliminar la información añadida por Microsoft por defecto como la localización geográfica del creador del documento. Si quieres saber más sobre XML, te recomendamos leer una explicación más detallada sobre su estructura y uso en las Humanidades en la página web de la [Text Encoding Initiative](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html).
 
@@ -271,15 +272,15 @@ En resumen, el archivo resultante debiera ser:
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="text"/>
-
+    
     <xsl:template match="/">
-
-	    <xsl:for-each select="raíz/registro">
-	            <xsl:value-of select="título"/>
-	    </xsl:for-each>
-
+    
+        <xsl:for-each select="raíz/registro">
+                <xsl:value-of select="título"/>
+        </xsl:for-each>
+    
     </xsl:template>
-
+    
     </xsl:stylesheet>
 
 Ahora la instrucción *template* tiene tres líneas de código:
@@ -383,11 +384,11 @@ Existen muchas más instrucciones con las que transformar documentos XML a otros
     <xsl:template match="/">
         <html>
             <body>
-
+    
                 <xsl:for-each select="raíz/registro">
-
+    
                     <xsl:if test="secciónPalabrasClave/palabraClave = 'slave insurrections'">
-
+    
                         <h2>
                             <i><xsl:value-of select="título"/></i>, <xsl:value-of select="substring(fecha/@cuándo, 9, 2)"/>
                             <xsl:text>&#32;</xsl:text>
@@ -407,21 +408,21 @@ Existen muchas más instrucciones con las que transformar documentos XML a otros
                             <xsl:value-of select="substring(fecha/@cuándo, 1, 4)"/>
                             <xsl:text>&#xA;&#xA;</xsl:text>
                         </h2>
-
+    
                         <xsl:for-each select="texto/p">
                             <p>
                                 <xsl:value-of select="."/>
                             </p>
                         </xsl:for-each>
-
+    
                     </xsl:if>
-
+    
                 </xsl:for-each>
-
+    
             </body>
         </html>
     </xsl:template>
-	</xsl:stylesheet>
+    </xsl:stylesheet>
 
 
 #### Ejercicio A
@@ -433,7 +434,7 @@ Existen muchas más instrucciones con las que transformar documentos XML a otros
             <xsl:value-of select="identificador"/>, <xsl:value-of select="título"/>, <xsl:value-of select="fecha/año"/><xsl:text>&#xA;		</xsl:text>
         </xsl:for-each>
     </xsl:template>
-	</xsl:stylesheet>
+    </xsl:stylesheet>
 
 #### Ejercicio B
 
@@ -451,16 +452,16 @@ Existen muchas más instrucciones con las que transformar documentos XML a otros
 Para eliminar la sangría del texto, necesitarás hacerte cargo directo del espaciado introduciendo saltos de línea tras el identificador y cada párrafo. En el segundo bucle, utilizaremos ```.```  para referirnos al contenido de `p` en ```select="texto/p"```. Si pusiéramos una ```p``` el procesador interpretaría que queremos recuperar el contenido de ```texto/p/p```, lo cual no existe.
 
 	<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    	<xsl:output method="text"/>
-    	<xsl:template match="/">
-        	<xsl:for-each select="raíz/registro">
-            	<xsl:text>&#xA;</xsl:text>[<xsl:value-of select="identificador"/>]<xsl:text>&#xA;</xsl:text>
-            	<xsl:for-each select="texto/p">
-                	<xsl:value-of select="."/>
-                <xsl:text>&#xA;</xsl:text>
-            	</xsl:for-each>
-        	</xsl:for-each>
-    	</xsl:template>
+		<xsl:output method="text"/>
+		<xsl:template match="/">
+	    	<xsl:for-each select="raíz/registro">
+	        	<xsl:text>&#xA;</xsl:text>[<xsl:value-of select="identificador"/>]<xsl:text>&#xA;</xsl:text>
+	        	<xsl:for-each select="texto/p">
+	            	<xsl:value-of select="."/>
+	            <xsl:text>&#xA;</xsl:text>
+	        	</xsl:for-each>
+	    	</xsl:for-each>
+		</xsl:template>
 	</xsl:stylesheet>
 
 
@@ -493,7 +494,7 @@ Para eliminar la sangría del texto, necesitarás hacerte cargo directo del espa
             <xsl:text>&#xA;</xsl:text>
         </xsl:for-each>
     </xsl:template>
-	</xsl:stylesheet>
+    </xsl:stylesheet>
 
 #### Ejercicio E
 

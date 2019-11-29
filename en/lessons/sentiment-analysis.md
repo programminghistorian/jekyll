@@ -18,8 +18,7 @@ activity: analyzing
 topics: [distant-reading]
 abstract: "In this lesson you will learn to conduct 'sentiment analysis' on texts and to interpret the results. This is a form of exploratory data analysis based on natural language processing. You will learn to install all appropriate software and to build a reusable program that can be applied to your own texts."
 redirect_from: /lessons/sentiment-analysis
-
-
+avatar_alt: A laughing man and a grouchy man
 ---
 
 {% include toc.html %}
@@ -35,7 +34,7 @@ This lesson uses [sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_an
 
 ## What is Exploratory Data Analysis?
 
-[Exploratory data analyses](https://en.wikipedia.org/wiki/Exploratory_data_analysis) are strategies that summerise or otherwise reveal features of interest within a dataset which are not likely visible through traditional [close reading](https://en.wikipedia.org/wiki/Close_reading). With the insights of exploratory data analysis at hand, researchers can make more informed decisions when selecting a method or approach for tackling their research question, and it may help to identify new research questions altogether.
+[Exploratory data analyses](https://en.wikipedia.org/wiki/Exploratory_data_analysis) are strategies that summarize or otherwise reveal features of interest within a dataset which are not likely visible through traditional [close reading](https://en.wikipedia.org/wiki/Close_reading). With the insights of exploratory data analysis at hand, researchers can make more informed decisions when selecting a method or approach for tackling their research question, and it may help to identify new research questions altogether.
 
 In 1977, mathematician [John Tukey](https://en.wikipedia.org/wiki/John_Tukey) described exploratory data analysis as a form of detective work without which scholars would too frequently miss out on interesting but less obvious findings:
 
@@ -59,11 +58,11 @@ While methodologies such as [ethnography](https://en.wikipedia.org/wiki/Ethnogra
 
 ## A Case Study: the Enron E-mail Corpus
 
-This tutorial uses the e-mail correspondence of bankrupt American energy company Enron. Enron concealed a wide variety of illegal accounting practices until a federal investigation in 2001 forced it into bankruptcy. At the time, the [Enron Scandal](https://en.wikipedia.org/wiki/Enron_scandal) was the largest collapse of a publicly traded company in history. In 2001, the company started showing signs of financial strain that didn't align with the company's financial disclosures to that point. The publcly traded Enron stocks dropped from their mid-2000 high of $90.75 to less than a dollar in November 2001, which led stockholders to sue the company. A subseqent U.S. Securities and Exchange Commision (SEC) investigation revealed that Enron executives committed fraud and accounting malpractice on a massive scale. Enron declared bankruptcy in December of that year. In the years that followed, several executives faced criminial convictions for their role in the scandal.
+This tutorial uses the e-mail correspondence of bankrupt American energy company Enron. Enron concealed a wide variety of illegal accounting practices until a federal investigation in 2001 forced it into bankruptcy. At the time, the [Enron Scandal](https://en.wikipedia.org/wiki/Enron_scandal) was the largest collapse of a publicly traded company in history. In 2001, the company started showing signs of financial strain that didn't align with the company's financial disclosures to that point. The publicly traded Enron stocks dropped from their mid-2000 high of $90.75 to less than a dollar in November 2001, which led stockholders to sue the company. A subsequent U.S. Securities and Exchange Commission (SEC) investigation revealed that Enron executives committed fraud and accounting malpractice on a massive scale. Enron declared bankruptcy in December of that year. In the years that followed, several executives faced criminial convictions for their role in the scandal.
 
-For researchers, the Enron Scandal resulted in the creation of one of the largest (and most infamous) correspondence text corpuses ever collected:
+For researchers, the Enron Scandal resulted in the creation of one of the largest (and most infamous) correspondence text corpora ever collected:
 
-> "One of the most infamous corporate scandals of the past few decades curiously left in its wake one of the most valuable publicly available datasets. In late 2001, the Enron Corporation's accounting obfuscation and fraud led to the bankruptcy of the large energy company. The Federal Energy Regulatory Commission subpoenaed all of Enron's e-mail records as part of the ensuing investigation. Over the following two years, the commission released, unreleased, and rereleased the e-mail corpus to the public after deleting e-mails that contained personal information like social security numbers. The Enron corpus contains e-mails whose subjects range from weekend vacation planning to political strategy talking points, and it remains the only large example of real world e-mail datasets available for research." (Hardin, Sarkis, and Urc, 2014)
+> "One of the most infamous corporate scandals of the past few decades curiously left in its wake one of the most valuable publicly available datasets. In late 2001, the Enron Corporation's accounting obfuscation and fraud led to the bankruptcy of the large energy company. The Federal Energy Regulatory Commission subpoenaed all of Enron's e-mail records as part of the ensuing investigation. Over the following two years, the commission released, unreleased, and re-released the e-mail corpus to the public after deleting e-mails that contained personal information like social security numbers. The Enron corpus contains e-mails whose subjects range from weekend vacation planning to political strategy talking points, and it remains the only large example of real world e-mail datasets available for research." (Hardin, Sarkis, and Urc, 2015)
 
 When the organized and redacted [Enron E-mail Dataset](https://www.cs.cmu.edu/~./enron/) was released in 2004, researchers discovered an unprecedented opportunity: direct access to the spontaneous, largely uncensored way employees in a doomed corporation communicated with one another. Suddenly, researchers had access to how people communicated at work at an unprecedented scale. This mattered for researchers interested in the special case of the Enron scandal and collapse, but also for researchers interested in a wide spectrum of questions about everyday communication at work.
 
@@ -95,9 +94,9 @@ If you need any help downloading and installing the module for [Python 3](https:
 In our case, we will be using two NLTK tools in particular:
 
 * The '[VADER Sentiment Analysis](http://www.nltk.org/_modules/nltk/sentiment/vader.html)' tool (generates positive, negative, and neutral sentiment scores for a given input)
-* The 'Word_Tokenize' tokenizer tool (splits a large text into a sequence of smaller units, like sentences or words)
+* The 'word_tokenize' tokenizer tool (splits a large text into a sequence of smaller units, like sentences or words)
 
-To use VADER and Word_Tokenize, we first need to download and install a little extra data for NLTK. NLTK is a very large toolkit, and several of its tools actually require a second download step to gather the necessary collection of data (often coded lexicons) to function correctly.
+To use VADER and word_tokenize, we first need to download and install a little extra data for NLTK. NLTK is a very large toolkit, and several of its tools actually require a second download step to gather the necessary collection of data (often coded lexicons) to function correctly.
 
 To install the sentiment analysis and word tokenizer we will use for this tutorial, write a new Python script with the following three lines:
 
@@ -288,18 +287,18 @@ electorate, the Opec ministers and their new important roles, The Israeli and
 Palestinian leaders, and somewhat importantly, Mother Nature.  Given that,
 and that we cannot afford to lose any more money, and that Var seems to be a
 problem, let's be as flat as possible. I'm ok with spread risk  (not front to
-backs, but commodity spreads).  
+backs, but commodity spreads).
 
 
 The morning meetings are not inspiring, and I don't have a real feel for
 everyone's passion with respect to the markets.  As such, I'd like to ask
-John N. to run the morning meetings on Mon. and Wed.  
+John N. to run the morning meetings on Mon. and Wed.
 
 
 Thanks.   Jeff
 ```
 
-In the message text of the e-mail, Shankman outlines a corporate strategy for moving forward in what he perceives as an ambiguous geopolitical context. The message describes a number of difficult situations, as well as exapseration ("The morning meetings are not inspiring") and uncertainty ("I don't have a real feel for everyone's passion"). At the same time, Shankman outlines a set of action steps along with polite requests ("I'd like to ask...") and expressions of gratitude ("Thanks").
+In the message text of the e-mail, Shankman outlines a corporate strategy for moving forward in what he perceives as an ambiguous geopolitical context. The message describes a number of difficult situations, as well as exasperation ("The morning meetings are not inspiring") and uncertainty ("I don't have a real feel for everyone's passion"). At the same time, Shankman outlines a set of action steps along with polite requests ("I'd like to ask...") and expressions of gratitude ("Thanks").
 
 Before we proceed, take a minute to reflect on the message. How do you feel like a typical reader would describe the emotional intensity of this e-mail? Given what you now know about *VADER*, what ratio of positivity, negativity, and neutrality do you expect the sentiment analysis tool to find in the message? Finally, what do you think the compound score will suggest about the overall affect in the message?
 
@@ -326,7 +325,7 @@ Here you can see that, when analyzing the e-mail as a whole, *VADER* returns val
 
 Did this meet your expectation? If not, why do you think *VADER* found more positive than negative features?
 
-At the message-entity-level, there is no way to single out particularly positive or negative sentiments in the message. This loss of detail may be irrelevant, or it may be vital when conducting exploratory analysis. This depends upon the research needs of your study. For instance, identifying negative sentences in otherwise congenial e-mails may be especially important when looking for emotional outbursts or abusive exchanges that may occur very infrequently, but reveal something essential about the nature of a relationship. If we want to capture this level of nuance, we need a method for moving from message-level to senitment-level analysis.
+At the message-entity-level, there is no way to single out particularly positive or negative sentiments in the message. This loss of detail may be irrelevant, or it may be vital when conducting exploratory analysis. This depends upon the research needs of your study. For instance, identifying negative sentences in otherwise congenial e-mails may be especially important when looking for emotional outbursts or abusive exchanges that may occur very infrequently, but reveal something essential about the nature of a relationship. If we want to capture this level of nuance, we need a method for moving from message-level to sentiment-level analysis.
 
 Fortunately, NLTK provides a collection of tools for breaking up text into smaller components. *Tokenizers* split up strings of text into smaller pieces like sentences. Some can even further break out a sentence into particular parts of speech, such as the noun participle, adjective, and so on. In our case, we will use NLTK's *english.pickle* tokenizer to break up paragraphs into sentences.
 
@@ -402,21 +401,21 @@ What do you notice about the distribution of scores? How can you imagine collect
 
 My sincere thanks to Justin Joque, Visualization Librarian at the University of Michigan Library and the [Digital Projects Studio](https://clarkdatalabs.github.io) for support in formulating the ideas and approach behind this lesson.
 
-Many thanks as well to Adam Crymble, who provided extensive insight and support throughout the editorial process. And thank you to Anandi Silva Knuppel and Puteri Zarina Megat Khalid for their thoughtful comments. 
+Many thanks as well to Adam Crymble, who provided extensive insight and support throughout the editorial process. And thank you to Anandi Silva Knuppel and Puteri Zarina Megat Khalid for their thoughtful comments.
 
 # Works Cited
 
 Barton, D., & Hall, N. (Eds.). (2000). Letter writing as a social practice (Vol. 9). John Benjamins Publishing.
 
-Hardin, J., Sarkis, G., & Urc, P. C. (2014). Network Analysis with the Enron Email Corpus. arXiv preprint arXiv:1410.2759.
+Hardin, J., Sarkis, G., & Urc, P. C. (2015). Network Analysis with the Enron Email Corpus. Journal of Statistics Education, 23:2. https://doi.org/10.1080/10691898.2015.11889734
 
 Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for
 Sentiment Analysis of Social Media Text. Eighth International Conference on
-Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.
+Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014. https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/viewPaper/8109
 
-Klimt, B., & Yang, Y. (2004, July). Introducing the Enron Corpus. In CEAS.
+Klimt, B., & Yang, Y. (2004, July). Introducing the Enron Corpus. In CEAS. https://bklimt.com/papers/2004_klimt_ceas.pdf
 
-Klimt, B., & Yang, Y. (2004). The enron corpus: A new dataset for email classification research. Machine learning: ECML 2004, 217-226.
+Klimt, B., & Yang, Y. (2004). The Enron corpus: A new dataset for email classification research. Machine learning: ECML 2004, 217-226. https://bklimt.com/papers/2004_klimt_ecml.pdf
 
 Tukey, J.W. (1977). *Exploratory Data Analysis*. Addison-Wesley Publishing Company
 

@@ -21,6 +21,7 @@ digital maps. With a Google Account you can create and edit personal
 maps by clicking on My Places."
 next: qgis-layers
 redirect_from: /lessons/googlemaps-googleearth
+avatar_alt: An old man consulting a large globe with a compass
 ---
 
 {% include toc.html %}
@@ -33,7 +34,7 @@ redirect_from: /lessons/googlemaps-googleearth
 
 Google My Maps and Google Earth provide an easy way to start creating
 digital maps. With a Google Account you can create and edit personal
-maps by clicking on My Places. 
+maps by clicking on My Places.
 
 In My Maps you can choose between several different base maps
 (including the standard satellite, terrain, or standard maps) and add
@@ -256,7 +257,7 @@ about creating historical vectors in a full GIS is available in
     same colour as the polygon outline. You can change the opaqueness of
     this shading by changing the 'transparency' which alters the extent
     to which you can clearly see the background image (your base map).
--  
+-
 
 ### Share your custom map
 

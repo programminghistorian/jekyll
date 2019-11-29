@@ -22,6 +22,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/38
 layout: lesson
 original: linux-installation
 redirect_from: /es/lessons/linux-installation
+avatar_alt: Tres hombres tocando instrumentos musicales
 difficulty: 1
 activity: transforming
 topics: [get-ready, python]

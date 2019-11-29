@@ -16,6 +16,7 @@ abstract: "This tutorial explores how scholars can organize 'tidy' data, underst
 layout: lesson
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/60
 redirect_from: /lessons/data-wrangling-and-management-in-R
+avatar_alt: Bar of soap
 ---
 
 {% include toc.html %}

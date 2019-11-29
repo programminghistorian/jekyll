@@ -31,6 +31,7 @@ previous: reutilizacion-de-codigo-y-modularidad
 original: working-with-web-pages
 redirect_from: /es/lessons/working-with-web-pages
 python_warning: false
+avatar_alt: Grabado de una mujer y un hombre de pies. 
 ---
 
 {% include toc.html %}
@@ -56,7 +57,7 @@ Veamos algunos ejemplos.
 
 ```xml
 http://oldbaileyonline.org
-``` 
+```
 
 El tipo más básico de URL simplemente especifica el protocolo y el alojamiento. Si introduces este URL en tu navegador, te mostrará la página principal del sitio [The Old Bailey Online]. Por defecto, la página principal en un directorio se denomina índice, por lo general `index.html`.
 
@@ -64,13 +65,13 @@ El URL también pude incluir un *número de puerto* opcional. Sin entrar en deta
 
 ```xml
 http://oldbaileyonline.org:80
-``` 
+```
 
 Como sabes, generalmente hay muchas páginas en un determinado sitio web. Éstas están almacenadas en directorios del servidor y tú puedes especificar la ruta (*path*) a una página en particular. La página “Acerca de” del *The Old Bailey Online* tiene el siguiente URL:
 
 ```xml
 http://oldbaileyonline.org/static/Project.jsp
-``` 
+```
 
 Por último, muchas páginas web te permiten introducir consultas. El sitio web *The Old Bailey Online*, por ejemplo, está diseñado de tal manera que puedes solicitar una página en particular utilizando una [*cadena de consulta*]. EL siguiente URL te llevará a la página de resultados de búsqueda de registros de juicios criminales que contienen la palabra “arsenic” (arsénico)
 
@@ -135,7 +136,7 @@ Al ejecutar el programa, te darás cuenta que en el panel de salida se muestra a
 <head>
 	<title>Browse - Central Criminal Court</title>
 	<meta http-equiv="content-type" content=
-``` 
+```
 
 El contenido del proceso judicial está mucho más adelante en la página. Lo que vemos aquí es solamente en código HTML de la parte superior del documento. Esto no es lo que necesitamos para una investigación histórica, pero no te preocupes: en breve aprenderás cómo quitar el exceso de etiquetas y obtener el contenido que estás buscando.
 

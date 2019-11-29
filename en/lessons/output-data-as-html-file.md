@@ -21,6 +21,7 @@ next: keywords-in-context-using-n-grams
 previous: creating-and-viewing-html-files-with-python
 python_warning: false
 redirect_from: /lessons/output-data-as-html-file
+avatar_alt: A woman wearing an elaborate dress accompanied by two putti
 ---
 
 {% include toc.html %}

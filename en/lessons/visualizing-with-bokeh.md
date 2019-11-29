@@ -15,6 +15,7 @@ topics: [python, data-manipulation, mapping]
 abstract: "In this lesson you will learn how to visually explore and present data in Python by using the Bokeh and Pandas libraries."
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/152
 layout: lesson
+avatar_alt: Men with torches in an antique tomb
 ---
 
 
