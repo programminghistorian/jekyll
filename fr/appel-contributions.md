@@ -13,12 +13,11 @@ Le comité éditorial de la version francophone du _Programming Historian_ est p
 
 1. Comment appliquez-vous les méthodes de regroupement de données géographiques? 
 
-    Nous disposons déjà d'une série de leçons introductives à la cartographie (en anglais) qui conviennent parfaitement pour apprendre à faire de belles visualisations. Toutefois, nous n'avons pas encore avancé vers des compétences d'analyses plus poussées, telle l'application d'algorithmes de classification par regroupement d'objets, qu'il est possible de mobiliser dans l'étude de plusieurs domaines, des mouvements de commerce aux migrations, pour n'en évoquer que quelques uns. Mais comme pour toute analyse, il existe franchement des pièges pour les débutant(e)s. Nous sollicitons donc une introduction à cette méthode qui puisse présenter à la fois ses points forts et les défis que pose ce type d'analyse. 
+    Nous disposons déjà d'une série de leçons introductives à la cartographie (en anglais) qui conviennent parfaitement pour apprendre à faire de belles visualisations. Toutefois, nous n'avons pas encore avancé vers des compétences d'analyses plus poussées, telle l'application d'algorithmes de classification par regroupement d'objets, qu'il est possible de mobiliser dans l'étude de plusieurs domaines, allant des mouvements de commerce aux migrations, pour n'en évoquer que quelques uns. Mais comme pour toute analyse, il existe franchement des pièges pour les débutant(e)s. Nous sollicitons donc une introduction à cette méthode qui puisse présenter à la fois ses points forts et les défis que pose ce type d'analyse. 
 
 2. Comment savoir si votre analyse de réseaux est pertinente? 
 
     Cela fait un moment que le _Programming Historian_ sollicite un tel tutoriel sans pour autant l'avoir encore reçu. Nous avons donc réussi à créer une magnifique visualisation de réseau, mais alors comment faire pour aller plus loin et tirer des conclusions pertinentes pour notre recherche? La question ici est de commencer avec un graphe puis se mettre en mode analyse. Si vous pensez être en mesure d'aider notre lectorat à franchir le pas, merci de nous contacter. 
-
 
 3. Comment faire une édition critique de textes en utilisant une base de données XML native 
 
