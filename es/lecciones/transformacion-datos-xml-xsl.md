@@ -90,7 +90,7 @@ También pueden tener [atributos](https://es.wikipedia.org/wiki/Atributo_(inform
     	</nombre>
     </raíz>
 
-Si tienes acceso a una base de datos XML o bien almacenas datos en una, puedes utilizar XSL para ordenar, filtrar y presentar la información en (casi) todas las maneras imaginables. Por ejemplo, se podría abrir un archivo XML como Word (.docx) o Excel (.xslx), inspeccionarlo y, a continuación, eliminar la información añadida por Microsoft por defecto como la localización geográfica del creador del documento. Si quieres saber más sobre XML, te recomendamos leer una explicación más detallada sobre su estructura y uso en las Humanidades en la página web de la [Text Encoding Initiative](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html).
+Si tienes acceso a una base de datos XML o bien almacenas datos en una, puedes utilizar XSL para ordenar, filtrar y presentar la información en (casi) todas las maneras imaginables. Por ejemplo, se podría abrir un archivo XML como Word (.docx) o Excel (.xslx), inspeccionarlo y, a continuación, eliminar la información añadida por Microsoft por defecto como la localización geográfica del creador del documento. Si quieres saber más sobre XML, te recomendamos leer una explicación más detallada sobre su estructura y uso en las Humanidades en la página web de la [Text Encoding Initiative](https://web.archive.org/web/20191028132600/https://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html).
 
 ## ¿Qué es XSL?
 
