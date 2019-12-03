@@ -62,5 +62,6 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 
 
 ## Projets utilisant le Programming Historian
+* Kelly Fitzpatrick, "<a href="https://lil.law.harvard.edu/blog/2019/11/12/getting-started-with-caselaw-access-project-data/">Caselaw Access Project</a>", <em>Harvard Law School</em> (2019).
 * Paul Spence, Renata Brandao, "<a href="https://languageacts.org/digital-mediations/event/writing-sprint/call-proposals/">Digital Modern Languages Writing Sprint</a>", <em>Language Acts and Worldmaking</em> (2019).
 * James Baker, Caitlin Moore, Ernesto Priego, Raquel Alegre, Jez Cope, Ludi Price, Owen Stephens, Daniel van Strien, Greg Wilson, '[Library Carpentry: software skills training for library professionals](https://www.liberquarterly.eu/articles/10176/)', _Liber Quarterly: The Journal of the Association of European Research Libraries_, 26(3) (2016).
