@@ -9,6 +9,7 @@ editors:
 - Miriam Posner
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 translator:
 - Víctor Gayol
 translation-editor:
@@ -22,7 +23,7 @@ layout: lesson
 previous: palabras-clave-en-contexto-n-grams
 original: output-keywords-in-context-in-html-file
 redirect_from: /es/lessons/output-keywords-in-context-in-html-file
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: presenting
 topics: [python]
@@ -147,6 +148,7 @@ Como puedes observar al ejecutar el programa anterior, la salida de datos aún n
 Utilizando el mismo método anterior de `slice`, vamos a crear nuestras tres partes. Abre un intérprete de Python para ensayar los siguiente ejemplos. Pon especial atención a lo que aparece antes y después de los dos puntos en cada caso. Saber cómo manipular el método de `slice` es una poderosa habilidad para un nuevo historiador programador.
 
 ``` python
+# ParseError: Could not check this chunk!
 # calcula la longitud del n-grama
 kwic = 'amongst them a black there was one'.split()
 n = len(kwic)
@@ -176,6 +178,7 @@ Ahora que sabemos cómo encontrar cada uno de los tres segmentos, necesitamos da
 El contexto de la derecha consistirá simplemente en una cadena de términos separados por espacios en blanco. Utilizaremos el método `join` para convertir las entradas de la lista en una cadena.
 
 ``` python
+
 print(' '.join(kwic[(indicePClave+1):]))
 -> there was one
 ```
@@ -236,7 +239,7 @@ diccionarioPalabras = obo.nGramasAdicKWIC(ngramas)
 # genera salida de KWIC y envuelve con html
 objetivo = 'black'
 outstr = '<pre>'
-if diccionarioPalabras.has_key(objetivo):
+if objetivo in diccionarioPalabras:
     for k in diccionarioPalabras[objetivo]:
         outstr += obo.prettyPrintKWIC(k)
         outstr += '<br />'
