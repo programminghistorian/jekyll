@@ -20,10 +20,6 @@ abstract: "In this lesson, you will use R-language to analyze and map geospatial
 avatar_alt: An aerial view of city blocks
 ---
 
-{% include alert.html text="One of our readers has pointed out a problem with the data that accompanies this lesson. While we attempt to contact the author to rectify the problem, please be aware that you will not be able to follow along with all steps in the tutorial. We apologize for the inconvenience. [Read more details of the issue and our attempts to resolve it here.](https://github.com/programminghistorian/jekyll/issues/1181)
-
-The Editorial Team, 6 April 2019." %}
-
 {% include toc.html %}
 
 ## Introduction
@@ -35,7 +31,7 @@ The availability of historical Geographic Information Systems has expanded this 
 
 This tutorial will introduce scholars to some of these techniques for processing geospatial data, focusing on how geospatial data can be analyzed statistically as well as visualized. We will be comparing spatial regions and leveraging the variability of populations across defined spatial regions such as counties. This variability can provide insights into a broad range of social movements. Moreover, it can be used to assess significant variations in regions using some basic statistical models. Using these methods, we assume that there is a level of continuity or homogeneity within the defined regions. [^2] We can leverage these understandings to assess historical events and movements. For example, if a large proportion of members of a particular group come from a group of counties, the characteristics of these counties can provide insight into the nature of that movement; [^3] or if a set of events happen in particular counties, we can ask if there is something particular about these counties that could be linked to the event. In some cases, analysis can also reveal hidden realities about social movements or events based on their geographic nature. For example, if we step through characteristics of an area near a spatial event, we could discover an unknown characteristic we never realized correlated with the particular event, leading to new research possibilities. You can hopefully discover trends that may be surprising or some that we find are not as strong as has been assumed.
 
-Specifically, this tutorial is going to use a membership list--with address--from a para-religious organization in America(PTL Ministries) and downloadable geographic data to assess population characteristics that could provide insights into an organization that is often characterized as more rural and less wealthy, alongside a host of other characteristics. The tutorial will then visualize and analyze this data to assess possible insights. This process will provide the basic tools and understandings that will allow scholars to assess other events and organizations that have geographic data. From this, you should be able to discover or challenge understandings of historical events using geospatial analysis.
+Specifically, this tutorial is going to use a membership list--with addresses--from a para-religious organization in America (PTL Ministries) and downloadable geographic data to assess population characteristics that could provide insights into an organization that is often characterized as more rural and less wealthy, alongside a host of other characteristics. The tutorial will then visualize and analyze this data to assess possible insights. This process will provide the basic tools and understandings that will allow scholars to assess other events and organizations that have geographic data. From this, you should be able to discover or challenge understandings of historical events using geospatial analysis.
 
 ## Pre-requisites
 The work for this lesson will be done in R and R Studio, an open source statistical package used by data scientists, statisticians and other researchers. We are using R, because it is a widely-used open source tool that will allow us to both visualize and analyze our data using a multitude of methods that can be expanded upon quite easily. Some background knowledge of the software and statistics will be helpful. For introductions to R, I recommend the [r-basics](/lessons/r-basics-with-tabular-data) tutorial  and the more comprehensive [Digital History Methods in R](http://lincolnmullen.com/projects/dh-r2/) as starting points. There are many other services such as this [MOOC](https://www.coursera.org/learn/r-programming) and [DataCamp](https://www.datacamp.com/) that can introduce beginners to R's broader functionality. [UCLA](http://www.ats.ucla.edu/stat/r/default.htm) also has a nice introduction.[^1] While this tutorial will attempt to step through the entire process in R, basic knowledge of R is needed. The tutorial also assumes users will have some knowledge about the event you are observing which you will use later as a means to test and contest assumptions.
@@ -56,9 +52,12 @@ The first steps in R will be to load the necessary libraries that will allow R t
 
 ```r
 install.packages("sf") # helps us work with spatial data
+## for os specific requirments and directions see https://github.com/r-spatial/sf
 install.packages("tmap") #helps create simple choropleths
+install.packages("plotly") #helps create scatterplots
 library(sf)
 library(tmap)
+library(plotly)
 ```
 
 ## The Data
@@ -73,7 +72,7 @@ If you are looking nationally prior to 1990, the county-level data is often your
 We start by loading in the selected data. The data for this tutorial can be [dowloaded here](/assets/geospatial-data-analysis/Archive.zip). Once downloaded place all the files in a folder labeled data inside your working directory in R. We are going to create a variable and read in our data from our variable directory to it. Once run, the `County_Aggregate_Data` variable will contain the data and geographic information that we will analyze:
 
 ```r
-County_Aggregate_Data <- st_read("./data/County1990/")
+County_Aggregate_Data <- st_read("./data/County1990ussm/")
 ```
 We should now have a data object loaded with attached data:
 
@@ -105,7 +104,7 @@ plot(County_Aggregate_Data$geometry,axes=TRUE)
 ![NCSC.png](/images/geospatial-data-analysis/NCSC.png "FIRST DATA PLOT")
 
 ## Merging Census Data
-Currently, our `County_Aggregate_Data` variable has the necessary geographic boundaries for our analysis(as the above plot highlighted), but not the demographic information that will allow us to assess characteristics of our membership list. Although the demographic data came along with the geographic data, it needs to be merged into our `County_Aggregate_Data` variable which is a SpatialDataFrame. The next step is to begin merging `County_Aggregate_Data` with NHGIS table data in the downloaded data directory.
+Currently, our `County_Aggregate_Data` variable has the necessary geographic boundaries for our analysis (as the above plot highlighted), but not the demographic information that will allow us to assess characteristics of our membership list. Although the demographic data came along with the geographic data, it needs to be merged into our `County_Aggregate_Data` variable which is a SpatialDataFrame. The next step is to begin merging `County_Aggregate_Data` with NHGIS table data in the downloaded data directory.
 
 Let's read in the NHGIS data and merge it on the common field. The `by.x` and `by.y` parameters indicate what fields the data is being joined on:
 
@@ -116,7 +115,8 @@ County_Aggregate_Data <- merge(County_Aggregate_Data,Census_Data,by.x="GISJOIN",
 The number of variables in `County_Aggregate_Data` should now increase as all of table data is brought into this one object. We now have one large `SpatialDataFrame` that has all of the geographic and statistical data we downloaded. We could stop and analyze this data as it undoubtedly contains many insights but it is only the raw census data and not yet connected to the historical event or data we are analyzing.
 
 ## Merging External Data
-The next step is to merge our list with our `SpatialDataFrame` so we can perform our analysis. While we are using a membership list, it can be any list that is geographic in nature. For example, you may have a list of events that happened during a particular time period; or a list of places an individual chooses to visit. This type of data will come in two basic formats. The first is information such as locations, address, or incident locations--which will be converted to geographic coordinates. The second will be a table that lists the same information alongside the county(or geographic region) where it occurred. We can handle either.
+The next step is to merge our list with our `SpatialDataFrame` so we can perform our analysis. While we are using a membership list, it can be any list that is geographic in nature. For example, you may have a list of events that happened during a particular time period; or a list of places an individual chooses to visit. This type of data will come in two basic formats. The first is information such as locations, address, or incident locations--which will be converted to geographic coordinates. The second will be a table that lists the same information alongside the county (or geographic region) where it occurred. We can handle either.
+
 ## Geocoding
 In the first case we have raw addresses of the members of our organization which will necessitate some additional steps. The address will need be transformed into geographical points in a process called [geocoding](https://en.wikipedia.org/wiki/Geocoding). This will create geographic points--from addresses--that can be linked to spatial regions in our downloaded census data so that we can analyze it to help us discover trends related to geographic location of these addresses. R can do some of this work but if you have a large number of addresses, you will need to use an external service because the free services R uses (such as google) will cap how many address you can geocode in a day. One popular outside service is hosted by [Texas A&M Geocoding Services](http://geoservices.tamu.edu/Services/Geocode/) and can handle large batches at a reasonable price. In the end, our address will be transformed into a list of latitudes and longitudes. This is the data R needs.
 
@@ -124,7 +124,7 @@ If you have less than 2,500 addresses this can be handled in R using Google's ge
 
 ```r
 Addresses <- data$Address
-Member_Coordinates <- geocode(addresses)
+Member_Coordinates <- geocode(Addresses)
 ```
 In our example, we already have a list of geographic coordinates. But we still need to merge it with our `SpatialDataFrame` (`County_Aggregate_Data`) so we can analyze it in relation to the census and geographic data we have downloaded. First, we either get the externally geocoded data or the newly geocoded data. Since our data has been geocoded, we will use the first command below to pull in that data.
 
@@ -161,7 +161,7 @@ We can also place the data points on top of our map for a quick visual of our da
 
 ```r
 plot(County_Aggregate_Data$geometry,axes=TRUE)
-plot(points[which(point$State %in% c("NC","SC")),]$geometry,col = "green", pch=20,cex=.5, axes=TRUE,add=TRUE)
+plot(points[which(points$State %in% c("NC","SC")),]$geometry,col = "green", pch=20,cex=.5, axes=TRUE,add=TRUE)
 ```
 Now we do the merge. This merge is a bit different than the earlier merge because we are going to create a new field that represents the number of 'hits' within a county. Essentially, the `CountMembers` variable will now represent the number of members in a particular county which will, like the distribution data above, allow us to begin to get insights from the data. We are using the above st_intersects alongside R's `sapply` to compute this value. In essence, we are transforming our lists into count data so we can visualize and analyze the data:
 
@@ -193,13 +193,12 @@ Now we have a large `SpatialDataFrame` called `County_Aggregate_Data` which has 
 ## Visualizing
 Because we are analyzing geospatial data, it is often best to begin with geographic visuals. There are many options here, but I find it easiest to start with the qtm function from the TMAP library which creates [choropleth](https://en.wikipedia.org/wiki/Choropleth_map) maps simply. We could also use [GGPlot2](http://strimas.com/r/tidy-sf/) which which should be installed using the development version.
 
-
 Now, we are going to prepare the map and look at some census data. First on our list should be membership numbers relative to population (relative membership distribution). One of the most commonly used and clearest ways to display this information is by number of members per 10,000 people. We will then do the math to create a relative population variable(number of members per 10,000 people). We do this because we have to ensure we are taking into account the variability of populations within the census regions that we are analyzing otherwise we will get misleading visualization in densely populated counties that represent general population trends rather than variable relationships. If we did not take this step, we would undoubtedly see a map that highlights urban areas rather than areas where membership is strongest.
 
 To begin looking at this data, we need to find the variable in our `SpatialDataframe` that represents population. In the downloaded census data folders, there is a codebook that will reveal what fields represent what data. After looking through the codebook, I discovered AV0AA1990 is the total Census population as of 1990. Below, I take this variable and transform it into a variable that adjusts for population fluctuations(number of members per 10,000 people):
 
 ```r
-County_Aggregate_Data$RelativeTotal= ((cntyNCG$AV0AA1990/10000)/cntyNCG$CountMembers )
+County_Aggregate_Data$RelativeTotal= ((County_Aggregate_Data$AV0AA1990/10000)/County_Aggregate_Data$CountMembers )
 ```
 
 Now we will create the map. TMAP allows for the quick creation of thematic maps or more specifically choropleths. We can also vary text size based on another census variable. Here I am using the count of people living in rural areas (A57AA1980), making the text larger in more rural counties. Now I can start to assess visually if counties with higher distributions of membership also tend to be more rural as has been described. As the data shows, the membership is not clearly biased towards rural counties exclusively, giving us our first insight:
@@ -216,7 +215,7 @@ Feel free to experiment with the choropleth. In particular, try switching out th
 You can also look and the unadjusted distribution which shows the raw distribution of members(without adjusting for local population distribution) as I did below[^9]:
 
 ```r
-qtm(shp = cntyNCG, fill = "CountMembers",text="NHGISNAM",text.size="A57AA1980")
+qtm(shp = County_Aggregate_Data, fill = "CountMembers",text="NHGISNAM",text.size="A57AA1980")
 ```
 ## Visualizing Data Relationships
 While choropleths and their many variations are an extremely helpful way to visualize the geospatial data, there are other methods that help visualize the data. One helpful method is the scatterplot which provides a visual means to show relationships between two variables. In particular, it is useful to assess if there are correlations between our event data and other characteristics as defined by the census data. For example, do we see a correlation between counties with low average income and membership. If so, that might indicate something about the nature of the movement or organization. We could look at a multitude of factors along these lines and our census data and codebook has many. While [correlations do not alone prove causality](http://www.nature.com/nmeth/journal/v12/n10/full/nmeth.3587.html), they provide basic insight. When doing these comparisons, we have to again ensure we are taking into account the variability of populations within the census regions we are analyzing otherwise we will get misleading correlation in densely populated counties. To do this we need to convert any population number into numbers per 10,000 people.
@@ -224,24 +223,24 @@ While choropleths and their many variations are an extremely helpful way to visu
 If, for example, we wanted to use `B18AA1990` which is the persons-white variable we would convert it to relative number:
 
 ```r
-WhitePer10K <- ((dataM$B18AA1990/dataM$TOTPOP)*10000)
+WhitePer10K <- ((County_Aggregate_Data$B18AA1990/County_Aggregate_Data$TOTPOP)*10000)
 ```
 
 Other total data should take regional size into account as well. For example, if we wanted to look at churches of a particular denomination, we would need to convert that as well because larger counties would inherently be more likely to have churches of any particular denomination, presenting misleading correlations. To look at `AOG.C` which is Assemblies of God churches we would:
 
 ```r
-Assemblies_Of_God_ChurchesPer10K <- ((dataM$AOG.C/dataM$CHTOTAL)*10000)
+Assemblies_Of_God_ChurchesPer10K <- ((County_Aggregate_Data$AOG.C/County_Aggregate_Data$CHTOTAL)*10000)
 ```
 We could then plot this variable with the membership variable to inspect for correlations.
 
 ```r
-plot(Assemblies_Of_God_ChurchesPer10K,dataM$BD5AA1990)
+plot(Assemblies_Of_God_ChurchesPer10K,County_Aggregate_Data$BD5AA1990)
 ```
 
 This previous command will result in a notable but small correlation, which makes sense since the para-church organization was affiliated with the Assemblies of God denomination. Most often, we are going to be comparing data points to our historical data, but we can also inspect for other relationships in the general census data that can provide basic information about the investigative areas. For example, here is scatterplot of race and per capita income in the Carolinas:
 
 ```r
-plot(WhitePer10K,dataM$BD5AA1990)
+plot(WhitePer10K,County_Aggregate_Data$BD5AA1990)
 ```
 Below we see the results of the above code. We see what is described as a strong positive correlation, which is typical in the United States as there are strong correlations between race and income. As the percentage of white people increases, the per-capita income rises accordingly. The dots on plot represent the graphed points of these two values. We can measure that statistically, but we can also see it visually.
 
@@ -252,10 +251,11 @@ We can see this more precisely by adding a line of best fit to the plot which re
 
 ```r
 x <- WhitePer10K
-y <- dataM$BD5AA1990
-model1 <- lm(x ~ y)
-plot(x,y,xlab="Per capita income in previous year",ylab="White People Per 10k")
-abline(model1)
+y <- County_Aggregate_Data$BD5AA1990
+mod1 <- lm(x ~ y)
+plot(x ~ y,xlab="Per capita income in previous year",ylab="White People Per 10k")
+summary(mod1)
+abline(mod1)
 res <- signif(residuals(mod1), 5)
 pre <- predict(mod1) # plot distances between points and the regression line
 segments(y, x, y, pre, col="red")
@@ -267,18 +267,19 @@ Here we see it:
 Below, let's set up a variable to try to take a look at some of the variables to look for possible correlations. Below we are going to create a variable that measures the distribution of denominational churches in a county, which will allow us measure if our membership is correlated with a particular denomination:
 
 ```r
-Assemblies_Of_God_Churches_Per10K <- ((dataM$AOG.C/dataM$CHTOTAL)*10000)
+Assemblies_Of_God_Churches_Per10K <- ((County_Aggregate_Data$AOG.C/County_Aggregate_Data$CHTOTAL)*10000)
+MembersPer10K <- as.integer(((County_Aggregate_Data$CountMembers/County_Aggregate_Data$TOTPOP)*100000))
 ```
 Now we will create a plot which show a small but significant correlation which makes sense since our organization is affiliated with this denomination. You can measure this statistically as well by using the [lm function](https://www.r-bloggers.com/r-tutorial-series-simple-linear-regression/) which we will not cover:
 
 ```r
-plot(MembersPer10K,ChurchesPer10K)
+plot(MembersPer10K,Assemblies_Of_God_Churches_Per10K)
 ```
 
 We did a regular plot of the data but it is better to account for the fact that this is count data. Correlations and scatterplots are great ways to assess relationships, but they can be problematic with count data as it is often not linear or normally distributed and scatter plots work best when both of these [conditions are true](https://www.statisticssolutions.com/assumptions-of-linear-regression/). And historical data is often counts of people or occurrences. Because of this, I recommend taking a look at the distribution of the count data to asses relationships. For that I am going to use a [histogram](https://www.r-bloggers.com/how-to-make-a-histogram-with-basic-r/) which is commonly used to represent distributions of data:
 
 ```r
-hist(dataM$CountMembers,breaks = 15)
+hist(County_Aggregate_Data$CountMembers,breaks = 15)
 ```
 
 ![NCSC.png](/images/geospatial-data-analysis/Bar.png "Distribution Plot with Histogram")
@@ -289,14 +290,14 @@ OK, there are a significant number of low values which is typical of this type o
 A somewhat simple way to handle this is to perform a logarithmic transformation on a variable of the scatter plot to inspect for possible non-linear relationships. We add 1 to the values[^5] because log(0) is undefined. You could use .5 as some people do as well. Below we will analyze if there is a relationship between membership numbers and the count of churches in the counties observed using a log transformation. This can sometimes bring out correlations in count data that may have not been obvious using a non-adjusted scatterplot:
 
 ```r
-plot(MembersPer10K, log(ChurchesPer10K+1))
+plot(MembersPer10K, log(Assemblies_Of_God_Churches_Per10K+1))
 ```
 ## Conclusion
 Through this process, we have gathered and transformed geospatial data into a useable form. We have also created some visuals from this data, analyzing trends in the membership list of our organization. This tutorial should provide you with a basic template on how to take historical data and begin using geospatial analysis to analyze phenomenons such as the one we covered. In our case, the results illustrated that membership was not highly correlated with people who live in rural counties, suggesting that early characterizations of this movement as rural may not be entirely true, while we can see a slight relationship between the Assemblies of God and membership. This is just the beginning  of the possible means of inquiry. If we were to continue investigating, we could now start creating choropleths and scatter plots with other variables, looking for trends.  As you get more advanced, you can utilize some more advanced methods that can improve analysis as well.
 
 
 ## Other Models and Visualizations
-There are many other models and visualizations available that can bring insight but they also add some complexity which demand further statistical understandings. For example, You can also create more complex scatterplots that can provide further insights. [Plot.ly](https://plot.ly/r/) offers interactive scatter plots that can be customized and shared.[^8]. While statistical modeling usually focuses on a particular model's predictive insight, well-fit models also provide insight into the data they represent. In particular, the Poisson regression is frequently used to create [models of count data](http://www.theanalysisfactor.com/regression-models-for-count-data/) which is how population data is often represented.[Geographically Weighted Regressions](https://rstudio-pubs-static.s3.amazonaws.com/44975_0342ec49f925426fa16ebcdc28210118.html) also have particular advantages with this type of data. But assessing fit has some complexity. [Decision trees](hhttps://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/) could also be useful for historical data because they give an understandable graphical representation of the the leading factors that caused inclusion in a group or list. Principal component analysis, [correspondence analysis](/en/lessons/correspondence-analysis-in-R) and other clustering methods can also be helpful, especially when there is limited knowledge or insight into the event being analyzed yet there is an abundance of data associated with the event. I recommend background reading or discussions with a data scientist or statistician when exploring some of these modeling options as understanding the configuration and parameters of the individual models is essential to ensuring the results are trustworthy and significant.
+There are many other models and visualizations available that can bring insight but they also add some complexity which demand further statistical understandings. For example, You can also create more complex scatterplots that can provide further insights. [Plot.ly](https://plot.ly/r/) offers interactive scatter plots that can be customized and shared.[^8]. While statistical modeling usually focuses on a particular model's predictive insight, well-fit models also provide insight into the data they represent. In particular, the Poisson regression is frequently used to create [models of count data](http://www.theanalysisfactor.com/regression-models-for-count-data/) which is how population data is often represented. [Geographically Weighted Regressions](https://rstudio-pubs-static.s3.amazonaws.com/44975_0342ec49f925426fa16ebcdc28210118.html) also have particular advantages with this type of data. But assessing fit has some complexity. [Decision trees](hhttps://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/) could also be useful for historical data because they give an understandable graphical representation of the the leading factors that caused inclusion in a group or list. Principal component analysis, [correspondence analysis](/en/lessons/correspondence-analysis-in-R) and other clustering methods can also be helpful, especially when there is limited knowledge or insight into the event being analyzed yet there is an abundance of data associated with the event. I recommend background reading or discussions with a data scientist or statistician when exploring some of these modeling options as understanding the configuration and parameters of the individual models is essential to ensuring the results are trustworthy and significant.
 
 
 
@@ -323,19 +324,19 @@ There are many other models and visualizations available that can bring insight 
 ```r
 library(plotly)
 
-var = dataM$A57AA1990
+var = County_Aggregate_Data$A57AA1990
 bins = unique(quantile(var, seq(0,1,length.out=8)))
 interv = findInterval(var, bins)
-dataM$People_Urban <-interv
+County_Aggregate_Data$People_Urban <-interv
 
 p <- plot_ly(
-  dataM, x = ~((AV0AA1990/10000)/CountMembers), y = ~BD5AA1990,
+  County_Aggregate_Data, x = ~((AV0AA1990/10000)/CountMembers), y = ~BD5AA1990,
   # Hover text:
   text = ~paste("AVG Incom: ",BD5AA1990 , '$<br>County:', COUNTY.y,'$<br>State:', STATENAM,'$<br>Members:', CountMembers), size = ~AV0AA1990, color = ~People_Urban,
   textfont = list(color = '#000000', size = 16)) %>%
   layout(title = 'Members and Income, Size=Population',
          xaxis = list(title = 'Members per 10k population'),
-         yaxis = list(title = 'Income'))
+         yaxis = list(title = 'Income')) 
 
 p
 ```
