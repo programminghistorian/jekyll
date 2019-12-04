@@ -2,7 +2,7 @@
 title: Consignes aux evaluteur(trice)s
 date: 03-14-2015
 layout: blank
-redirect_from: /consignes-evaluateurs
+original: reviewer-guidelines
 ---
 
 # Consignes aux évaluateurs et évaluatrices
