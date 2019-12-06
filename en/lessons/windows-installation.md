@@ -32,10 +32,10 @@ It is always important to make sure you have regular and recent backups
 of your computer. This is just good advice for life, and is not limited
 to times when you are engaged in programming.
 
-## Install Python v.2
+## Install Python v.3
 
 Go to the [Python website][], download the latest stable release of the
-Python programming language (Version 2.7.12 as of August 2016) and install
+Python programming language (Version 3.8 as of November 2019) and install
 it by following the instructions on the Python website.
 
 ## Create a Directory
@@ -55,7 +55,7 @@ download a copy from the [Komodo Edit website][].
 
 It should look something like this:
 
-{% include figure.html filename="komodo-edit-windows.png" caption="Komodo Edit on Windows" %}
+{% include figure.html filename="komodo-edit11-windows-main.png" caption="Komodo Edit on Windows" %}
 
 If you don’t see the Toolbox pane on the right hand side, choose
 `View -> Tabs -> Toolbox`. It doesn’t matter if the Project pane is open
@@ -66,27 +66,24 @@ Komodo editor. The Help file is quite good.
 
 Now you need to set up the editor so that you can run Python programs.
 
-Choose `Edit -> Preferences`. This will open a new dialog window.
-    Select the Python category and set the
-    “`Default Python Interpreter`” (it should be
-    `C:\Python27\Python.exe`)
+Choose `Edit -> Preferences -> Languages -> Python 3` and then select `Browse`. Now select    `C:\Users\YourUserName\AppData\Local\Programs\Python\Python38-32`)
      If it looks like this, click OK:
 
 {% include figure.html caption="Set the Default Python Interpreter
-" filename="komodo-python-interpreter.png" %}
+" filename="komodo-edit11-windows-interpreter.png" %}
 
 Next, in the Preferences section select *Internationalization*.
     Select *Python* from the drop-down menu titled *Language-specific
     Default Encoding* and make sure that [UTF-8][] is selected as the
     default encoding method.
 
-{% include figure.html caption="Set the Language to UTF-8" filename="utf-set.jpg" %}
+{% include figure.html caption="Set the Language to UTF-8" filename="komodo-edit11-windows-utf-set.png" %}
 
 Next choose `Toolbox->Add->New Command`. This will open a new dialog
 window. Rename your command to `‘Run Python’`. Under `‘Command’`, type:
 
 ``` python
-%(python) %f
+%(python3) %f
 ```
 
 If you forget this command, Python will hang mysteriously because it
@@ -98,7 +95,8 @@ Under `‘Start in’`, enter:
 
 If it looks like this, click OK:
 
-{% include figure.html filename="run-python-windows.png" caption="'Run Python' Command" %}
+{% include figure.html filename="komodo-edit11-windows-python-command.png" caption="'Run Python' Command" %}
+{% include figure.html filename="komodo-edit11-windows-python-start.png" caption="Configuring the command 'Run Python Start'." %}
 
 Your new command should appear in the Toolbox pane. You may need to
 restart your machine after completing this step before Python will work
@@ -140,7 +138,7 @@ to execute your program. If all went well, it should look something like
 this (Example as seen in Komodo Edit. Click on the image to see a
 full-size copy):
 
-{% include figure.html filename="hello-world1.png" caption="'Hello World'" %}
+{% include figure.html filename="komodo-edit11-windows-hello.png" caption="'Hello World'" %}
 
 ## Interacting with a Python shell
 
@@ -150,8 +148,8 @@ shell will respond to your command. Using a shell is a great way to test
 statements to make sure that they do what you think they should.
 
 You can run a Python Shell by double-clicking on the python.exe file. If
-you installed version 2.7 (the most recent as of August 2016), then this
-file is probably located in the `C:\Python27\python.exe` directory. In
+you installed version 3.8 (the most recent as of November 2019), then this
+file is probably located in the `C:\Users\YourUserName\AppData\Local\Programs\Python\Python38-32` directory. In
 the shell window that opens on your screen type:
 
 ``` python
@@ -174,7 +172,7 @@ print('hello world')
 
 On your screen, it will look more like this:
 
-{% include figure.html caption="Python Shell in Windows" filename="python-shell-win.png" %}
+{% include figure.html caption="Python Shell in Windows" filename="windows-python3-cmd.png" %}
 
 Now that you and your computer are up and running, we can move onto some
 more interesting tasks. If you are working through the Python lessons in
