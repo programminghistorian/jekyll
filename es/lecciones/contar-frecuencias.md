@@ -29,6 +29,7 @@ activity: analyzing
 topics: [python]
 abstract: "Contar la frecuencia de palabras específicas en una lista puede proveer datos ilustrativos. Con esta lección aprenderás una forma fácil para contar dichas frecuencias usando Python."
 python_warning: false
+avatar_alt: Boceto de un hombre sentado fumando una pipa y pájaros alrededor
 ---
 
 {% include toc.html %}
