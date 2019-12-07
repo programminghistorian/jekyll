@@ -254,7 +254,7 @@ Si vous avez l'habitude d'utiliser git et Github en ligne de commande, vous pouv
 </div>
 
 ## La leçon a été soumise ! Et maintenant ?
-Pour savoir ce qui va arriver à votre leçon après sa soumission, sentez-vous libre de consulter nos [consignes aux évaluateurs et évaluatrices](/consignes-evaluateurs), qui détaillent notre processus de révision et de publication. Vous pouvez retrouver les étapes les plus importantes ci-dessous.
+Pour savoir ce qui va arriver à votre leçon après sa soumission, sentez-vous libre de consulter nos [consignes aux évaluateurs et évaluatrices](/fr/consignes-evaluateurs), qui détaillent notre processus de révision et de publication. Vous pouvez retrouver les étapes les plus importantes ci-dessous.
 
 L'étape la plus immédiate consiste en la création par votre rédacteur ou rédactrice d'un [ticket](https://github.com/programminghistorian/ph-submissions/issues) pour la leçon téléchargée dans le dépôt [ph-submissions], contenant un lien vers celle-ci (dont vous avez pu avoir un aperçu lors de l'étape 5). Le rédacteur ou la rédactrice et au moins deux personnes chargées de l'évaluation sur son invitation vont poster leurs commentaires pour cette "issue".
 

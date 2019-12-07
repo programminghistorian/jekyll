@@ -10,6 +10,7 @@ editors:
 reviewers:
 - Jim Clifford
 - Francesca Benatti
+- Frederik Elwert
 translator:
 - Víctor Gayol
 translation-editor:
@@ -24,11 +25,12 @@ next: contar-frecuencias
 previous: de-html-a-lista-de-palabras-2
 original: normalizing-data
 redirect_from: /es/lessons/normalizing-data
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: transforming
 topics: [python]
 abstract: "En esta lección haremos que la lista que creamos en'De HTML a lista de palabras (parte 2)' sea más fácil de analizar al “normalizar” los datos."
+avatar_alt: Ilustración de dos personas caminando agarradas del brazo. 
 ---
 
 {% include toc.html %}
@@ -87,16 +89,16 @@ Típicamente los componentes léxicos (*tokens*) son compactados como minúscula
 
 ``` python
 # html-a-lista-1.py
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 html = respuesta.read()
 texto = obo.quitarEtiquetas(html).lower() #incluye el metodo de cadena aqui
 listaPalabras = texto.split()
 
-print(listaPalabras[0:120])
+print((listaPalabras[0:120]))
 ```
 
 Ahora debes ver la misma lista de palabras que antes pero con todos los caracteres en minúsculas.
@@ -145,11 +147,11 @@ Cuando redefinamos nuestro programa *html-a-lista-1.py*, entonces se verá como 
 
 ``` python
 # html-a-lista-1.py
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 html = respuesta.read()
 texto = obo.quitarEtiquetas(html).lower()
 listaPalabras = obo.quitaNoAlfaNum(texto)
@@ -170,12 +172,12 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 -   python-es-lecciones4.zip ([zip sync][])
 
 [De HTML a lista de palabras (parte 2)]: /es/lecciones/de-html-a-lista-de-palabras-2
-  [web page]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-  [De HTML a lista de palabras (parte 1)]: /es/lecciones/de-html-a-lista-de-palabras-1
-  [Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
-  [Unicode]: http://unicode.org/
-  [soporte de Python]: https://web.archive.org/web/20180502053841/http://www.diveintopython.net/xml_processing/unicode.html
-  [Dive into Python]: https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html
-  [zip]: /assets/python-es-lecciones3.zip
-  [zip sync]: /assets/python-es-lecciones4.zip
-  [página Web]: https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
+[web page]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
+[De HTML a lista de palabras (parte 1)]: /es/lecciones/de-html-a-lista-de-palabras-1
+[Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
+[Unicode]: http://unicode.org/
+[soporte de Python]: https://web.archive.org/web/20180502053841/http://www.diveintopython.net/xml_processing/unicode.html
+[Dive into Python]: https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html
+[zip]: /assets/python-es-lecciones3.zip
+[zip sync]: /assets/python-es-lecciones4.zip
+[página Web]: https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33

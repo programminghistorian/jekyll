@@ -15,6 +15,7 @@ activity: transforming
 topics: [data-manipulation]
 abstract: "This tutorial will provide you with the ability to convert or transform historical data from an XML database (whether a single file or several linked documents) into a variety of different presentations—condensed tables, exhaustive lists or paragraphed narratives—and file formats."
 redirect_from: /lessons/transforming-xml-with-xsl
+avatar_alt: A peacock with a woman's head
 ---
 
 {% include toc.html %}
@@ -71,7 +72,7 @@ They can also have [attributes](https://en.wikipedia.org/wiki/Attribute_(computi
 
 Once you are given an XML database, or have stored your own data within one, you can use XSL to sort, filter and display this information in (almost) any way you wish. You can even break open OpenXML files, such as Word (.docx) or Excel (.xslx) files, and see or remove any additional information that Microsoft has inserted into your documents, such as tags identifying geographical locations.
 
-A more detail discussion of XML, its structure, and its use in the humanities, is available from the [Text Encoding Initative](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html).
+A more detail discussion of XML, its structure, and its use in the humanities, is available from the [Text Encoding Initative](https://web.archive.org/web/20191028132600/https://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html).
 
 ## What is XSL?
 

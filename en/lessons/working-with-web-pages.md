@@ -1,5 +1,5 @@
 ---
-title: Downloading Web Pages with Python 
+title: Downloading Web Pages with Python
 layout: lesson
 date: 2012-07-17
 authors:
@@ -21,6 +21,7 @@ previous: code-reuse-and-modularity
 categories: [lessons, python, original-ph]
 python_warning: false
 redirect_from: /lessons/working-with-web-pages
+avatar_alt: A tall man next to a short woman
 ---
 
 {% include toc.html %}
@@ -142,7 +143,7 @@ not so much interested in what the transcript says, but what features
 the page has. Notice the [View as XML](http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes) link at the bottom that takes
 you to a heavily marked up version of the text which may be useful to
 certain types of research. You can also look at a [scan of the original
-document](http://www.oldbaileyonline.org/images.jsp?doc=178006280084), which was transcribed to make this resource. 
+document](http://www.oldbaileyonline.org/images.jsp?doc=178006280084), which was transcribed to make this resource.
 
 Now let's try opening the page using Python. Copy the following program
 into Komodo Edit and save it as `open-webpage.py`. When you execute the

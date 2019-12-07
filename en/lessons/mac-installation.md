@@ -1,5 +1,5 @@
 ---
-title: Setting Up an Integrated Development Environment for Python (Mac) 
+title: Setting Up an Integrated Development Environment for Python (Mac)
 layout: lesson
 date: 2012-07-17
 authors:
@@ -15,8 +15,9 @@ exclude_from_check:
   - review-ticket
 activity: transforming
 topics: [get-ready, python]
-abstract: "This lesson will help you set up an integrated development environment for Python on a computer running an Apple operating system."
+abstract: "This lesson will help you set up an integrated development environment for Python on a computer running a Mac operating system."
 redirect_from: /lessons/mac-installation
+avatar_alt: A band with three musicians
 ---
 
 {% include toc.html %}
@@ -29,61 +30,46 @@ redirect_from: /lessons/mac-installation
 
 Mac users can take advantage of the [Time Machine][] for this.
 
-### Install Python v.2
+### Install Python v.3
 
-As of May 2012, Mac OS X comes preinstalled with Python 2. You can check
-to see if you have Python installed by launching the Terminal in the
-`‘Applications/Utilities’` directory and entering `which python`
-followed by the Enter key. Pushing the Enter key sends the command to
-the computer when using the terminal. If you see `‘/usr/bin/python’` or
-something similar containing the word ‘python’ and a bunch of slashes,
-then you are all set. If not, close the Terminal, download the latest
-stable release of the Python programming language (Version 2.7.12 as of
-August 2016) and install it by following the instructions on the [Python
+You may already have Python 2 installed on your machine. This version of Python will be deprecated at the end of 2019, so you will have to install Python 3. Download the latest
+stable release of the Python programming language (Version 3.8 as of
+November 2019) and install it by following the instructions on the [Python
 website][].
 
 ### Create a Directory
 
 To stay organized, it’s best to have a dedicated directory (folder) on
 your computer where you will keep your Python programs (e.g.,
-`programming-historian`) and save it anywhere you like on your hard
+`programming-historian`). Save it anywhere you like on your hard
 drive.
 
-### Install Komodo Edit
+### Install a text editor
 
-Komodo Edit is a free and open source code editor. If you prefer to use
+There are many text editors that you can use to write, store, and run Python commands. Komodo Edit is the one used in this lesson. It is a free and open source code editor. If you prefer to use
 another editor, there are many [other text editing options][]. Some of our
 testers prefer a program called [TextWrangler][]. Which you use is up to
 you, but for the sake of consistency in our lessons, we will be using
 Komodo Edit. You can download a copy of Komodo Edit from the [Komodo
 Edit website][]. Install it from the `.DMG` file
 
-##### Start Komodo Edit
 
-It should look something like this:
-
-![screenshot of Komodo Exit on OS X](https://raw.githubusercontent.com/programminghistorian/jekyll/bc4c0f1398f54adb1add6bb156756212c28e8f78/images/komodo-edit-mac.png)
-
-Komodo Edit on a Mac
-
-If you don’t see the Toolbox pane on the right hand side, choose
-`View->Tabs & Sidebars ->Toolbox`. It doesn’t matter if the Project pane
-is open or not. Take some time to familiarize yourself with the layout
-of the Komodo editor. The Help file is quite good
-
-##### Configure Komodo Edit
+##### Make a “Run Python” Command in Komodo Edit
 
 Now you need to set up the editor so that you can run Python
-programs. In the Toolbox window, click on the gear icon and select
+programs. 
+
+If you don’t see the Toolbox pane on the right hand side, choose
+`View->Tabs & Sidebars ->Toolbox`. In the Toolbox window, click on the gear icon and select
 “`New Command…`“. This will open a new dialog window. Rename your
 command to “`Run Python`” and feel free to change the icon if you
 like. In the “`Command`” box, type
 
 ``` python
-%(python) %f
+%(python3) %f
 ```
 
-and under "Start in," enter
+and on the Advanced Options tab under "Start in," enter
 
 ``` python
 %D
@@ -141,7 +127,7 @@ done slightly differently on Mac, Linux and Windows.
 
 You can run a Python shell by launching the 'terminal'. On the Mac, open
 the Finder and double-click on `Applications -> Utilities -> Terminal`
-then typing “`python`” into the window that opens on your screen. At the
+then typing “`python3`” into the window that opens on your screen. At the
 Python shell prompt, type
 
 ``` python

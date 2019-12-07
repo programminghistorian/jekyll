@@ -17,6 +17,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/179
 layout: lesson
 abstract: |
   Learn how to use R to analyze networks that change over time.
+avatar_alt: A sundial
 ---
 
 {% include toc.html %}
@@ -99,23 +100,23 @@ The difference between a static network and a temporal one is the amount of info
 
 An undirected edge list must contain three columns of data: a unique identifier for the edge, a source node (one of the workshops involved), and a target node (another workshop involved) for each edge. Something like this:
 
-|edge.id|tail|head|
-|------|----|----|
-|1|1|12|
-|2|2|5|
-|3|2|17|
-|.|.|.|
-|142|97|73|
+| edge.id | tail | head |
+| ------- | ---- | ---- |
+| 1       | 1    | 12   |
+| 2       | 2    | 5    |
+| 3       | 2    | 17   |
+| .       | .    | .    |
+| 142     | 97   | 73   |
 
 In addition to these three pieces of information, a temporal edge list must contain at the very minimum two additional pieces of information: when a link comes into existence, also known as the `onset` of the edge, and when the edge disappears, or the `terminus`. The NDTV and TSNA libraries that we are using throughout this tutorial will expect your data to include an onset, terminus, tail, head, and edge id. Depending on how you conceptualize your network, the onset and terminus might be relatively close together, representing the time span of a single event that connects two nodes, or quite far apart, representing the beginning and end of a series of events that represent a relationship. For our manuscript workshops, the temporal edge list looks like this:
 
-|onset|terminus|tail|head|onset.censored|terminus.censored|duration|edge.id|
-|--|--|--|--|--|--|--|--|
-|1300.0|1301.0|10|11|FALSE|FALSE|1|1|
-|1300.0|1301.0|10|12|FALSE|FALSE|1|2|
-|1320.0|1321.0|10|30|FALSE|FALSE|1|3|
-|.|.|.|.|.|.|.|.|
-|1319.0|1320.0|99|100|FALSE|FALSE|1|108|
+| onset  | terminus | tail | head | onset.censored | terminus.censored | duration | edge.id |
+| ------ | -------- | ---- | ---- | -------------- | ----------------- | -------- | ------- |
+| 1300.0 | 1301.0   | 10   | 11   | FALSE          | FALSE             | 1        | 1       |
+| 1300.0 | 1301.0   | 10   | 12   | FALSE          | FALSE             | 1        | 2       |
+| 1320.0 | 1321.0   | 10   | 30   | FALSE          | FALSE             | 1        | 3       |
+| .      | .        | .    | .    | .              | .                 | .        | .       |
+| 1319.0 | 1320.0   | 99   | 100  | FALSE          | FALSE             | 1        | 108     |
 
 The first collaboration in the list took place between workshops 10 and 11 between 1300 and 1301, and lasted one year (we don't really know how long it took these two workshops to produce this manuscript together, this is an approximation), and so on. You might be scratching your head about the `onset.censored` and `terminus.censored` columns here.  In temporal network analysis, **censoring** is a way of ignoring the start or end of a given edge or node. This ability to ignore the onset or terminus can be useful for modeling specific types of temporal networks, creating cumulative visualizations, or debugging your code, among other things, but for this tutorial we won't be censoring anything.
 
@@ -133,13 +134,13 @@ In most static network analysis, a node list is just a simple list of all of the
 
 In a temporal network, however, actors and objects enter and exit the network over time. Our workshops of illuminators might be churning out beautiful books for two, five, or even thirty two and a half years. In order to reflect the emergence and dispersal of these workshops, we need a `onset` (starting point), `terminus` (end point), and `duration` for each of them. The R packages that we are using will expect that data to look like this:
 
-|onset|terminus|vertex.id|onset.censored|terminus.censored|duration|
-|--|--|--|--|--|--|
-|1280.0|1311.0|1|FALSE|FALSE|31|
-|1288.5|1311.0|2|FALSE|FALSE|22.5|
-|1257.5|1290.0|3|FALSE|FALSE|32.5|
-|.|.|.|.|.|.|
-|1267.0|1277.0|106|FALSE|FALSE|10.0|
+| onset  | terminus | vertex.id | onset.censored | terminus.censored | duration |
+| ------ | -------- | --------- | -------------- | ----------------- | -------- |
+| 1280.0 | 1311.0   | 1         | FALSE          | FALSE             | 31       |
+| 1288.5 | 1311.0   | 2         | FALSE          | FALSE             | 22.5     |
+| 1257.5 | 1290.0   | 3         | FALSE          | FALSE             | 32.5     |
+| .      | .        | .         | .              | .                 | .        |
+| 1267.0 | 1277.0   | 106       | FALSE          | FALSE             | 10.0     |
 
 Here, the second workshop becomes active around 1288, and ceases to collaborate around the year 1311, giving them a "life span" of about 22.5 years. Because we don't have archival records that document when each workshop was formed or dispersed, all three of these numbers are approximations based on the dates associated with their earliest and latest collaborative manuscripts.
 

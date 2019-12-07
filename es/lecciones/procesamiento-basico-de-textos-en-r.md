@@ -24,6 +24,7 @@ difficulty: 2
 activity: analyzing
 topics: [distant-reading]
 abstract: "Aprende a utilizar R para analizar patrones a nivel general en textos, para aplicar métodos de estilometría a lo largo del tiempo y entre autores y para aprender metodologías de resumen con las que describir objetos de un corpus."
+avatar_alt: Imagen de una biblioteca ambulante con niños y niñas a su alrededor. 
 ---
 {% include toc.html %}
 

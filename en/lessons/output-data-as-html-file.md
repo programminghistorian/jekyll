@@ -7,6 +7,7 @@ authors:
 - Adam Crymble
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 editors:
 - Miriam Posner
 difficulty: 2
@@ -18,8 +19,9 @@ abstract: "This lesson takes the frequency pairs created in the 'Counting
 Frequencies' lesson and outputs them to an HTML file."
 next: keywords-in-context-using-n-grams
 previous: creating-and-viewing-html-files-with-python
-python_warning: true
+python_warning: false
 redirect_from: /lessons/output-data-as-html-file
+avatar_alt: A woman wearing an elaborate dress accompanied by two putti
 ---
 
 {% include toc.html %}
@@ -96,6 +98,7 @@ one string into another one. It is represented by a percent sign
 followed by an "s". Open a Python shell and try the following examples.
 
 ``` python
+
 frame = 'This fruit is a %s'
 print(frame)
 -> This fruit is a %s
@@ -111,6 +114,7 @@ There is also a form which allows you to interpolate a list of strings
 into another one.
 
 ``` python
+
 frame2 = 'These are %s, those are %s'
 print(frame2)
 -> These are %s, those are %s
@@ -136,8 +140,8 @@ the web page. Copy this code into the `obo.py` module.
 # Given a URL, return string of lowercase text from page.
 
 def webPageToText(url):
-    import urllib2
-    response = urllib2.urlopen(url)
+    import urllib.request, urllib.error, urllib.parse
+    response = urllib.request.urlopen(url)
     html = response.read()
     text = stripTags(html).lower()
     return text

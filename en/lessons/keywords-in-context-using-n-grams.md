@@ -1,5 +1,5 @@
 ---
-title: Keywords in Context (Using n-grams) with Python 
+title: Keywords in Context (Using n-grams) with Python
 layout: lesson
 date: 2012-07-17
 authors:
@@ -21,6 +21,7 @@ next: output-keywords-in-context-in-html-file
 previous: output-data-as-html-file
 python_warning: false
 redirect_from: /lessons/keywords-in-context-using-n-grams
+avatar_alt: A figure dropping two bottles of alcohol
 ---
 
 {% include toc.html %}

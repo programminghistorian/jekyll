@@ -17,6 +17,7 @@ activity: analyzing
 topics: [distant-reading]
 abstract: This lesson focuses on a foundational natural language processing and information retrieval method called Term Frequency - Inverse Document Frequency (tf-idf). This lesson explores the foundations of tf-idf, and will also introduce you to some of the questions and concepts of computationally oriented text analysis.
 mathjax: true
+avatar_alt: An old mechanical typewriter
 ---
 
 {% include toc.html %}
@@ -256,7 +257,7 @@ import pandas as pd
 Path("./tf_idf_output").mkdir(parents=True, exist_ok=True)
 
 # construct a list of output file paths using the previous list of text files the relative path for tf_idf_output
-output_filenames = [txt_file.replace(".txt", ".csv").replace("txt/", "tf_idf_output/") for txt_file in all_txt_files]
+output_filenames = [str(txt_file).replace(".txt", ".csv").replace("txt/", "tf_idf_output/") for txt_file in all_txt_files]
 
 # loop each item in transformed_documents_as_array, using enumerate to keep track of the current position
 for counter, doc in enumerate(transformed_documents_as_array):

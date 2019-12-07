@@ -19,6 +19,7 @@ next: code-reuse-and-modularity
 previous: viewing-html-files
 python_warning: false
 redirect_from: /lessons/working-with-text-files
+avatar_alt: Bespectacled man reading an alphabet book
 ---
 
 {% include toc.html %}

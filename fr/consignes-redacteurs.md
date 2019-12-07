@@ -243,7 +243,7 @@ topics:
  - sujet deux
 abstract: |
   voir ci-dessous
-
+avatar_alt: Description de l'image de la leçon
 ```
 
 - **difficulty** Pour aider les lecteurs et les lectrices repérer les leçons qui conviennent mieux à leur niveau de besoins et de compétences, le fichier YAML du tutoriel contient une information de type "Recommandé aux utilisateurs de niveau __ ". Il existe à l'heure actuelle trois niveaux définis qui sont codés comme suit: 1 (débutant), 2 (intermédiaire), 3 (avancé). Pour insérer cette information dans le fichier YAML, merci d'ajouter:

@@ -93,6 +93,9 @@ menu-lesson-requests:
   es:
     title: Solicitud de lecciones
     link: /es/solicitud-lecciones
+  fr: 
+    title: Appel à contributions
+    link: /fr/appel-contributions
 menu-contribute-feedback:
   en:
     title: Feedback
@@ -150,6 +153,16 @@ menu-contribute-support:
   fr:
     title: Nous soutenir
     link: /fr/nous-soutenir
+menu-contribute-support-donate:
+  en:
+    title: Support Us - Donate to Us
+    link: /en/support-us#donate-to-us
+  es:
+    title: Apóyanos - Donaciones
+    link: /es/apoyanos#donaciones
+  fr:
+    title: Nous soutenir - Donations
+    link: /fr/nous-soutenir#donations
 menu-lessons:
   en:
     title: Lessons
@@ -229,6 +242,10 @@ footer:
     en: Make a suggestion
     es: Envíanos tus comentarios
     fr: Faire une suggestion
+  rss-feed: 
+    en: RSS feed subscriptions
+    es: Suscripción a RSS 
+    fr: S'abonner au flux RSS   
 
 # lesson-index
 reset-button:
@@ -357,6 +374,10 @@ lesson:
   en: lessons
   es: lecciones
   fr: leçons
+donate:
+  en: Support PH
+  es: Apoyar PH
+  fr: Soutenir PH
 
 # Included in the lesson.html layout when a lesson has been marked as retired, and is not to be displayed on the main directory.
 retired:
@@ -494,6 +515,6 @@ background_color:
   fr: "#3D7C81"
 
 managing_editor:
-  en: Anandi Silva Knuppel
+  en: Sarah Melton
   es: Riva Quiroga
   fr: Sofia Papastamkou

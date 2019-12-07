@@ -15,6 +15,7 @@ translation-reviewer:
 - Antonio Rojas Castro
 - Maria José Afanador-Llach
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/57
+avatar_alt: Hombre leyendo y escribiendo en un escritorio
 layout: lesson
 difficulty: 2
 activity: sustaining

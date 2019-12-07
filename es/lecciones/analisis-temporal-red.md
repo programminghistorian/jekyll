@@ -26,6 +26,7 @@ difficulty: 3
 activity: analyzing
 topics: [network-analysis]
 abstract: "Aprende a utilizar R para analizar cómo cambian las redes a lo largo del tiempo."
+avatar_alt: Dibujo técnico
 ---
 
 {% include toc.html %}

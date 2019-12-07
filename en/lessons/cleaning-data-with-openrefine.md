@@ -19,6 +19,7 @@ topics: [data-manipulation]
 abstract: "This tutorial focuses on how scholars can diagnose and act upon the
 accuracy of data."
 redirect_from: /lessons/cleaning-data-with-openrefine
+avatar_alt: Two men laundering clothes outside
 ---
 
 {% include toc.html %}

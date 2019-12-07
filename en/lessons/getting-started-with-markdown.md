@@ -17,6 +17,7 @@ abstract: "In this lesson, you will be introduced to Markdown, a plain text-base
 exclude_from_check:
   - reviewers
 redirect_from: /lessons/getting-started-with-markdown
+avatar_alt: Ornate decorated characters from a typographical manual
 ---
 
 {% include toc.html %}
