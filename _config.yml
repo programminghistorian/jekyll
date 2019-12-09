@@ -66,5 +66,6 @@ defaults:
 
 # Flags to enable/disable "Support PH" alerts on lessons, and on sitewide banner above the navigation bar
 lesson_donation_alerts: true
+sitewide_donation_banner: true
 
 # For local work: bundle exec jekyll serve --watch --baseurl '/proghistdev' or wherever else your local site is located
