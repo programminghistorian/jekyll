@@ -93,7 +93,7 @@ menu-lesson-requests:
   es:
     title: Solicitud de lecciones
     link: /es/solicitud-lecciones
-  fr: 
+  fr:
     title: Appel à contributions
     link: /fr/appel-contributions
 menu-contribute-feedback:
@@ -130,7 +130,7 @@ menu-contribute-translate:
   en:
     title: Translator Guidelines
     link: /en/translator-guidelines
-  fr: 
+  fr:
     title: Consignes aux traducteurs
     link: /fr/consignes-traducteurs
 menu-contribute-edit:
@@ -213,7 +213,7 @@ issn:
 footer:
   license:
     en: |
-      _The Programming Historian_ (ISSN: 2397-2068) is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license. 
+      _The Programming Historian_ (ISSN: 2397-2068) is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license.
     es: |
       _The Programming Historian en español_ (ISSN: 2517-5769) se publica con una licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es).
     fr: |
@@ -222,7 +222,7 @@ footer:
     en: |
       This project is administered by ProgHist Limited, Company Number [12192946](https://beta.companieshouse.gov.uk/company/12192946).
     es: |
-      Este proyecto es administrado por ProgHist Limited, con número de compañía [12192946](https://beta.companieshouse.gov.uk/company/12192946). 
+      Este proyecto es administrado por ProgHist Limited, con número de compañía [12192946](https://beta.companieshouse.gov.uk/company/12192946).
     fr: |
         Ce projet est administré par ProgHist Limited, no d'immatriculation [12192946](https://beta.companieshouse.gov.uk/company/12192946).
 
@@ -242,10 +242,10 @@ footer:
     en: Make a suggestion
     es: Envíanos tus comentarios
     fr: Faire une suggestion
-  rss-feed: 
+  rss-feed:
     en: RSS feed subscriptions
-    es: Suscripción a RSS 
-    fr: S'abonner au flux RSS   
+    es: Suscripción a RSS
+    fr: S'abonner au flux RSS
 
 # lesson-index
 reset-button:
@@ -378,6 +378,31 @@ donate:
   en: Support PH
   es: Apoyar PH
   fr: Soutenir PH
+donation-alert:
+  en: |
+    ## Donate today!
+
+    Please support the future of digial publishing by [donating to _The Programming Historian_](https://www.patreon.com/theprogramminghistorian)
+
+    ---
+
+    More text here as well
+  es: |
+    ## Donate today!
+
+    Please support the future of digial publishing by [donating to _The Programming Historian_](https://www.patreon.com/theprogramminghistorian)
+
+    ---
+
+    More text here as well
+  fr: |
+    ## Donate today!
+
+    Please support the future of digial publishing by [donating to _The Programming Historian_](https://www.patreon.com/theprogramminghistorian)
+
+    ---
+
+    More text here as well
 
 # Included in the lesson.html layout when a lesson has been marked as retired, and is not to be displayed on the main directory.
 retired:

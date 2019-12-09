@@ -56,7 +56,9 @@ All lesson metadata and alerts should follow the convention of pulling appropria
                     4.0</a></p>
               </div>
               <div class="donate mr-5">
-                <p><a href="https://programminghistorian.org{{ site.data.snippets.menu-contribute-support-donate[page.lang].link}}"><i class="fas fa-credit-card"></i> {{ site.data.snippets.donate[page.lang] }}</a></p>
+                <p><a
+                    href="https://programminghistorian.org{{ site.data.snippets.menu-contribute-support-donate[page.lang].link}}"><i
+                      class="fas fa-credit-card"></i> {{ site.data.snippets.donate[page.lang] }}</a></p>
               </div>
             </div>
           </div>
@@ -176,6 +178,10 @@ All lesson metadata and alerts should follow the convention of pulling appropria
 
 <div class="container">
 
+  {% if site.lesson_donation_alerts %}
+  {% include support-alert.html %}
+  {% endif %}
+
   {% for candidate in translation_candidates %}
   <!-- Banner pointing to translations of this lesson when they exist -->
   <div class="alert alert-warning">
@@ -260,6 +266,11 @@ All lesson metadata and alerts should follow the convention of pulling appropria
       </p>
     </div>
   </div>
+
+  {% if site.lesson_donation_alerts %}
+  {% include support-alert.html %}
+  {% endif %}
+
 </div>
 </div>
 
