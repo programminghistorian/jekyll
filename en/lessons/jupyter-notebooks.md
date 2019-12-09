@@ -1,5 +1,5 @@
 ---
-title: Introduction to Jupyter notebooks
+title: Introduction to Jupyter Notebooks
 collection: lessons
 layout: lesson
 slug: jupyter-notebooks
@@ -162,7 +162,7 @@ Next, you need to figure out how to do the conversion. Searching for relevant te
 
 To add a new cell, click the plus button <i class="fa fa-plus"></i> in the toolbar (or use the *esc + b* keyboard shortcut). This will create a new code cell below the cell that's currently selected. Create a new code cell, and paste in the following code to import a Python module:
 
-```
+``` py
 import datetime
 import csv
 ```
@@ -172,12 +172,14 @@ Thinking ahead to possibly sharing this notebook or some derivative, it may be u
 Both of the packages that you're importing into this notebook are already installed as part of Anaconda, but there are many niche packages relevant to research (e.g. the [Classical Languages Toolkit, CLTK](https://github.com/cltk/cltk), for doing text analysis on historical languages) that aren't included with Anaconda, and aren't available through the *conda* installer. If you need a package like that, you have to install it using *pip*.  Installing packages from within Jupyter notebooks can be a little tricky, because there may be differences between the *Jupyter kernel* that the notebook is using, and other versions of Python you may have installed on your computer. You can find a lengthy, technical discussion of the issues [in this blog post](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/).
 
 If you are working on a notebook that you want to share, and it involves less-common packages, you can either include instructions in a Markdown cell that users should install the packages using conda or pip in advance, or you can use:
-```
+
+``` py
 import sys
 !conda install --yes --prefix {sys.prefix} YourModuleNameHere
 ```
 to install something from the notebook using conda; the `!` syntax indicates the code is executing something from the command line, rather than the Jupyter kernel. Or, if the package isn't available in conda (many niche packages relevant for research aren't), you can use pip:
-```
+
+``` py
 import sys
 !{sys.executable} -m pip install YourModuleNameHere
 ```
@@ -185,7 +187,8 @@ import sys
 If you hadn't installed Python on your computer prior to installing Anaconda for this lesson, you may need to add the *pip* package to be able to use it to install other packages. You can add it via the Anaconda Navigator GUI, or run `conda install pip` from the command line.
 
 Returning to our example, next add another new code cell, and paste in the following code (making sure to include the tabs):
-```
+
+``` py
 with open('ph-jupyter-notebook-example.csv') as f:
     csv_reader = csv.reader(f, delimiter=',')
     for row in csv_reader:
@@ -215,18 +218,21 @@ Let's say that you want to try a different approach, but want to leave what you'
 ```
 
 Reading [further in the StackOverflow discussion](https://stackoverflow.com/a/16115575), there's another approach that uses a different library, *dateutil*, that appears to be more flexible with the kinds of dates that it accepts. Go back up to the cell you used to import modules, and edit it to add (anywhere in that cell, as long as each import statement is on its own line):
-```
+
+``` py
 import dateutil
 ```
 Re-run that code cell; note that the number next to the cell changes the second time you run it.
 
 Now create a new Markdown cell at the bottom of the notebook, and paste:
+
 ```
 ### trying dateutil for parsing dates, as per https://stackoverflow.com/a/16115575
 ```
 
 Below it, add a new code cell with the following code (paying attention to the tabs, so that the code is indented just like you see it below):
-```
+
+``` py
 with open('ph-jupyter-notebook-example.csv') as f:
     csv_reader = csv.reader(f, delimiter=',')
     for row in csv_reader:
@@ -235,7 +241,8 @@ with open('ph-jupyter-notebook-example.csv') as f:
 ```
 
 Run the cell with the code that you've just added. It may take longer; keep waiting until the asterisk next to the code cell turns into a number. The result should show the list of publication dates, formatted differently, with hyphen rather than slashes, and with the hours, minutes, seconds added (as zeroes, because the dates as recorded don't include that data). At first glance, it seems like this worked, but if you compare it more closely with the source file, you'll see that it's not being consistent in how it parses the dates. Dates where the day value is greater than 12 are getting parsed correctly (it knows a value greater than 12 can't be a month), but when the date value is 12 or less, the date is being parsed with the month first. The first line of the source file has the date 1/7/18, which gets parsed as "2018-01-07 00:00:00". In the documentation for dateutil, you'll find that you can [specify dayfirst=true](https://dateutil.readthedocs.io/en/stable/parser.html) to fix this. Edit the last code cell, and change the second to last line to read:
-```
+
+``` py
 parseddate = dateutil.parser.parse(row[1], dayfirst=True)
 ```
 When you rerun the line, you'll see that all the dates have been parsed correctly.
@@ -243,7 +250,8 @@ When you rerun the line, you'll see that all the dates have been parsed correctl
 Parsing the date is just the first step -- you still need to use the datetime module to convert the dates to days of the week.
 
 Delete the last line of the code block, and replace it with the following (making sure you have the same level of indentation as the previous last line, for both of these lines):
-```
+
+``` py
         	dayofweek = datetime.date.strftime(parseddate, '%A')
         	print(dayofweek)
 ```
@@ -253,7 +261,8 @@ Rerun the code block. This should give you a list of days of the week.
 Now that you have code to parse and reformat one date, you need to do it for both dates in each line of your source file. Because you know you have working code in the current code cell, if you're not very comfortable with Python, you might want to copy the current code cell before you make modifications. Select the cell you want to copy and click the copy button <i class="fa fa-files-o"></i> in the toolbar; the paste button <i class="fa fa-clipboard"></i> will paste the cell below whatever cell is currently selected. Making a copy allows you to freely make changes to the code, knowing that you can always easily get back to a version that works.
 
 If you don't want to work it out on your own, you can copy and paste this code into a new code cell or replace the current code cell:
-```
+
+``` py
 #identifies the source file to open, calls it f
 with open('ph-jupyter-notebook-example.csv') as f:
     #creates an output file (referred to as "out" in the notebook) for you to write to
