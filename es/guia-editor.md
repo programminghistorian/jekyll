@@ -198,6 +198,7 @@ Al igual que las imágenes, todos los datos deben almacenarse en nuestro sitio; 
 
 -  `/assets/SLUG-DE-LA-LECCION/Louvre-Paintings-1.csv`
 
+A veces, puede que los archivos utilizados como parte de una lección sean demasiado grandes para nuestro repositorio de GitHub. Si este es el caso, recomendamos que los autores suban sus archivos a [Zenodo](https://zenodo.org/) y luego compartan el DOI generado por Zenodo a su editor/a para enlazarlo en la lección. Aunque los datasets ya estén disponibles en un repositorio institucional, recomendamos subir a Zenodo una versión del dataset utilizado en la lección en *The Programming Historian* para mantener la consistencia en el proyecto. El/La editor/a debe asegurarse de que el/la autor/a de la lección puede navegar la interfaz de Zenodo, únicamente disponible en inglés, y ofrecerle ayuda en caso de no saber el idioma.
 
 ### F) Comprobar vídeos y *Gifs*
 
