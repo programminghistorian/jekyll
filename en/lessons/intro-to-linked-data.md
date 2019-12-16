@@ -318,7 +318,7 @@ As I mentioned at the beginning, *Programming Historian* has [a complete lesson]
 
 We're going to run our SPARQL queries on [DBpedia](https://en.wikipedia.org/wiki/SPARQL), which is a huge LOD set derived from Wikipedia. As well as being full of information that is very difficult to find through the usual Wikipedia interface, it has several SPARQL "end points" - interfaces where you can type in SPARQL queries and get results from DBpedia's triples.
 
-The SPARQL query end point I use is called [snorql](http://dbpedia.org/snorql/). These end points occasionally seem to go offline, so if that should be the case, try searching for *dbpedia sparql* and you should find a similar replacement.
+The SPARQL query end point I use is called [snorql](http://dbpedia.org/sparql). These end points occasionally seem to go offline, so if that should be the case, try searching for *dbpedia sparql* and you should find a similar replacement.
 
 If you go to the snorql URL above you will see at first that a number of prefixes have already been declared for us, which is handy. You'll recognise some of the prefixes now too.
 
