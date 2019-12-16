@@ -6,3 +6,4 @@ tmp/
 vendor/
 .bundle/
 .vscode/
+.jekyll-cache
