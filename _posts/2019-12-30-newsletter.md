@@ -1,6 +1,7 @@
 ---
 title: End of the Year 2019 Newsletter
-authors: Jennifer Isasi
+authors: 
+- Jennifer Isasi
 layout: post
 categories: posts
 ---
