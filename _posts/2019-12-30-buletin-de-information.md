@@ -1,6 +1,7 @@
 ---
 title: Newsletter du Nouvel An 2019
-authors: Jennifer Isasi
+authors: 
+- Jennifer Isasi
 layout: post
 categories: posts
 ---
