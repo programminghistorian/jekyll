@@ -1,6 +1,7 @@
 ---
 title: Boletín informativo de fin de año 2019
-authors: Jennifer Isasi
+authors: 
+- Jennifer Isasi
 layout: post
 categories: posts
 ---
