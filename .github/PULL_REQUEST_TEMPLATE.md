@@ -2,7 +2,7 @@
 
 ### Checklist
 
-- [ ] Assign yourself in the "Asignees" menu
+- [ ] Assign yourself in the "Assignees" menu
 - [ ] Assign at least one individual or team to "Reviewers"
   - [ ] if the text needs to be translated, assign the relevant language team(s) as "Reviewers" and tag both the team as well as the managing edtor in your PR. Please follow the [translation request guidelines](https://github.com/programminghistorian/jekyll/wiki/Requesting-Translation-Guidelines) when writing your PR description
 - [ ] Add the appropriate "Label"
