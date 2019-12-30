@@ -10,4 +10,4 @@
 - [ ] [Check the live preview of your PR on Netlify](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions#5-preview-how-your-pr-looks-when-built-into-html)
 - [ ] If this PR closes an open issue, add the phrase `Closes #ISSUENUMBER` to the description above
 
-*If you are having difficulty fixing Travis errors, first consult <https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions> carefully. Then contact the technical team if you need further help.*
+*If you are having difficulty fixing Travis errors, first consult <https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions> carefully, especially ["Common Travis Errors"](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions#common-travis-errors). Then contact the technical team if you need further help.*
