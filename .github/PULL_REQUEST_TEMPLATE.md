@@ -1,3 +1,13 @@
-NOTICE: Are you attempting to submit a lesson to the Programming Historian? We no longer accept lesson submissions by pull request to this repository. Please consult our [guidelines for submitting a lesson](http://programminghistorian.org/new-lesson-workflow) for further instructions.
+*add the reason for your pull request here*
 
-If your pull request instead concerns some issue with the formatting or functioning of our site, or some error in an existing lesson, please see our technical contribution guidelines: https://github.com/programminghistorian/jekyll/wiki/Making-technical-contributions
+### Checklist
+
+- [ ] Assign yourself in the "Asignees" menu
+- [ ] Assign at least one individual or team to "Reviewers"
+  - [ ] if the text needs to be translated, assign the relevant language team(s) as "Reviewers" and tag both the team as well as the managing edtor in your PR. Please follow the [translation request guidelines](https://github.com/programminghistorian/jekyll/wiki/Requesting-Translation-Guidelines) when writing your PR description
+- [ ] Add the appropriate "Label"
+- [ ] [Ensure the Travis CI checks pass](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions#4-check-your-pr-status)
+- [ ] [Check the live preview of your PR on Netlify](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions#5-preview-how-your-pr-looks-when-built-into-html)
+- [ ] If this PR closes an open issue, add the phrase `Closes #ISSUENUMBER` to the description above
+
+*If you are having difficulty fixing Travis errors, first consult <https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions> carefully. Then contact the technical team if you need further help.*
