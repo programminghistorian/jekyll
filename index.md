@@ -4,7 +4,6 @@ title: The Programming Historian
 ---
 
 <div class="container">
-trial pr content
   {% include homepage_block.html lang="en" %}
   {% include homepage_block.html lang="es" %}
   {% include homepage_block.html lang="fr" %}
