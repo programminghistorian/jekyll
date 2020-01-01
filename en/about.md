@@ -6,6 +6,7 @@ redirect_from: /about
 
 # About the _Programming Historian_
 
+trying a second netlify PR
 
 ## Peer Review
 All tutorials at _Programming Historian_ are rigorously peer reviewed, guided through the review process by one of our editors. Review involves a thorough exchange with the lesson editor to ensure the lesson works as intended and that all concepts are explained for a non-specialist reader, before the tutorial is sent to external reviewers.
@@ -30,7 +31,7 @@ The _Programming Historian_ team is committed to diversity, and we insist on a h
 
 ## Funding & Ownership
 
-The Programming Historian is an international volunteer-driven project whose financial activities are administered by ProgHist Limited, a Not for Profit Company Limited by Guarantee that is registered in England, Company Number [12192946](https://beta.companieshouse.gov.uk/company/12192946). It is published by the _Editorial Board of the Programming Historian_. 
+The Programming Historian is an international volunteer-driven project whose financial activities are administered by ProgHist Limited, a Not for Profit Company Limited by Guarantee that is registered in England, Company Number [12192946](https://beta.companieshouse.gov.uk/company/12192946). It is published by the _Editorial Board of the Programming Historian_.
 
 For a list of our funders and supports, see the ['Support Us']({{site.baseurl}}/support-us) page
 
