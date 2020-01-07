@@ -846,6 +846,7 @@ Footer
   img { max-width: 100% !important; }
   @page { margin: 0.5cm; }
 
+  p { font-size: 0.95rem;}
   p, h2, h3 { orphans: 3; widows: 3; }
   h1, h2, h3 { page-break-after: avoid;  }
   h1 { font-size: 1.4rem;}
