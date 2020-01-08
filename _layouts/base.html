@@ -14,9 +14,7 @@ This template, therefore, is most useful on pages requiring full-window bleeds: 
 
   <body>
     {% if site.sitewide_donation_banner %}
-    <div class="alert alert-success sitewide-alert text-center">
-      {{ site.data.snippets.donation-banner[page.lang] | markdownify }}
-    </div>
+    {% include sitewide_donation_banner.html %}
     {% endif %}
     <main class="hide-screen">
       {% include menu.html %}
