@@ -8,9 +8,9 @@ categories: posts
 
 
 
-```html
+
 <img src="/images/blog/bees.jpg" alt="A drawing of three bees flying."/>
-```
+
 
 *Programming Historian* has been busy! And we have a lot to celebrate and be proud of this year. Overall, the project has expanded in all directions: our audience is up to almost 950,000 unique visitors for all year with 2,232,511 page visits, we had many new collaborators in the three languages, and four editorial members joined the team. Also, we created ProgHist Limited to be able to request funds to expand our project in new directions in the near future. 
 
