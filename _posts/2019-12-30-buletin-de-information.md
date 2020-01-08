@@ -26,9 +26,9 @@ Cette réussite n'aurait pas été possible cette année sans le concours d'un n
 
 L'équipe du *Programing Historian* continue de s'agrandir et de parfaire son organisation afin de mener à bien de multiples tâches. Sarah Melton, Martin Grandjean, Riva Quiroga et Joshua G. Ortiz Baco ont rejoint l'équipe cette année; ils ont déjà apporté leur contribution et pris leur place dans le dispositif en occupant divers rôles. Sarah et Riva sont, quant à elles, les rédactrices en chef des équipes anglophone et hispanophone respectivement. Mais outre ces nouvelles arrivées, nous avons aussi dit au revoir à Anandi Silva Knuppel et Marie Puren qui ont quitté le projet après y avoir contribué grandement. Nous leur souhaitons bonne chance pour la suite.
 
-Afin de mieux organiser notre travail, nous avons restructuré le projet autour de différentes équipes. Si tous les membres font partie de l'équipe éditoriale, il existe désormais aussi les équipes technique, de développement de projet, de communication et globale, auxquelles nous participons au choix en articulant nos efforts communs. En nous concentrant sur des tâches plus pointues, nous espérons mieux servir la communauté des utilisateurs et utilisatrices du *Programming Historian*. 
+Afin de mieux organiser notre travail, nous avons restructuré le projet autour de différentes équipes. Si tous les membres font partie de l'équipe éditoriale, il existe désormais aussi les équipes technique, de développement de projet, de communication et globale, auxquelles nous participons au choix en articulant nos efforts communs. En nous concentrant sur des tâches plus pointues, nous espérons mieux servir la communauté des utilisateurs et utilisatrices du *Programming Historian*.  
 
-## Présentations lors de conférences
+## Présentations lors de conférences
 
 Notre membre de l'équipe francophone Sofia Papastamkou a participé à un atelier intitulé "[Teaching Digital History Workshop](https://cas.au.dk/en/cedhar/events/show/artikel/teaching-digital-history-workshop-a-one-day-seminar/)" qui a été organisé par le Center for Digital History de l'université d'Aarhus, au Danemark, le 23 octobre dernier. Sa communication, intitulée "A Beating Heart of Digital History: The Programming Historian", a présenté le travail que nous menons en soulignant son ancrage dans une communauté d'utilisateurs et le besoin de disposer des tutoriels en libre accès. 
 
@@ -48,7 +48,8 @@ Restez à l'écoute, car cette leçon est déjà en cours de traduction!
 
 - Nos [cours de Python](https://programminghistorian.org/en/lessons/) sont désormais disponibles dans Python 3.
 
-## Collaborer!
+
+## Collaborer!
 
 Vous utilisez le *Programming Historian* et vous souhaitez collaborer avec nous? Nous sommes toujours à la recherche de nouvelles leçons et nous avons même formulé quelques [demandes spécifiques](https://programminghistorian.org/fr/appel-contributions). Vous pouvez également nous contacter avec [votre propre proposition de tutoriel](https://programminghistorian.org/fr/consignes-auteurs) ou de traduction, ou vous manifester si vous souhaitez en [évaluer](https://programminghistorian.org/fr/consignes-evaluateurs) un ou plusieurs.
 Pour nous aider à pérenniser notre travail et à continuer d'occuper une place de choix dans le domaine des tutoriels multilangues sur les méthodes numériques en libre accès, vous pouvez également vous inscrire à notre liste d'abonnés [Patreon]() dès maintenant!
