@@ -44,16 +44,16 @@ Subscribe to the <a href="/feed.xml">RSS feed</a> for new blog posts.
 <nav aria-label="Blog page navigation" class="row d-flex justify-content-between mt-5">
 	{% if paginator.previous_page %}
 	<a href="{{ paginator.previous_page_path }}" class="btn btn-secondary">
-		Previous
+		←
 	</a>
 	{% else %}
 	<span class="previous"></span>
 	{% endif %}
 	<span class="page_number ">
-		Page: {{ paginator.page }} of {{ paginator.total_pages }}
+		{{ paginator.page }} / {{ paginator.total_pages }}
 	</span>
 	{% if paginator.next_page %}
-	<a href="{{ paginator.next_page_path }}" class="btn btn-secondary">Next</a>
+	<a href="{{ paginator.next_page_path }}" class="btn btn-secondary">→</a>
 	{% else %}
 	<span class="next"></span>
 	{% endif %}
