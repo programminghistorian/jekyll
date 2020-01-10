@@ -275,7 +275,6 @@
     fr: |
         James Baker est maître de conférences en histoire numérique et en archivistique à l'Université du Sussex; il est spécialiste en histoire des interactions entre personnes et objets.
   team_roles:
-   - editorial
    - board
    - archive
    - sponsorship
@@ -520,7 +519,6 @@
     fr: |
         Matthew Lincoln est développeur en humanités numériques à l'Université Carnegie Mellon et historien de l'art européen moderne.
   team_roles:
-   - editorial
    - technical-lead
    - board
 

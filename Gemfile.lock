@@ -256,6 +256,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   html-proofer
+  jekyll-paginate
   jekyll-redirect-from
 
 BUNDLED WITH
