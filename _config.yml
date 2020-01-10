@@ -16,6 +16,9 @@ permalink: :categories/:title
 future: true
 plugins:
   - jekyll-redirect-from
+  - jekyll-paginate
+paginate: 7
+paginate_path: "/blog/page:num/"
 defaults:
   -
     scope:
