@@ -19,7 +19,7 @@ Le projet est reconnaissant pour leur soutien à:
 
 - [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) et [Andrew W. Mellon Foundation](https://mellon.org/) pour soutenir notre développement web [2018-actuellement].
 - Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)) pour nous offrir des services d'hébergement [2011-actuellement].
-- [ESRC Impact Accelerator Account, Université du Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/)Funding pour le soutien du projet "The Programming Historian: developing and sustaining impact in the Global South" [2019]
+- [ESRC Impact Accelerator Account, Université du Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/) pour le soutien du projet "The Programming Historian: developing and sustaining impact in the Global South" [2019]
 - La [faculté de sciences humaines de l'université du Hertfordshire](https://www.herts.ac.uk/study/schools-of-study/humanities) pour avoir financé le développement d'une feuille de style [2019].
 - La [faculté d'histoire, d'histoire de l'art et de philosophie de l'université du Sussex](http://www.sussex.ac.uk/hahp/) pour le financement des efforts du Programming Historian de se doter d'un statut juridique [2019].
 - [British Academy](https://www.britac.ac.uk/) pour le financement d'un atelier d'écriture à Bogota en Colombie [2018].
