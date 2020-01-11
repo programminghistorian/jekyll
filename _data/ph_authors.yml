@@ -46,6 +46,7 @@
    - board
    - team-development-manager
    - global
+   - volunteer
 
 - name: Caleb McDaniel
   team: false
@@ -144,6 +145,7 @@
   team_roles:
    - spanish
    - board
+   - volunteer
 
 - name: Antonio Rojas Castro
   url: "http://antoniorojascastro.com"
@@ -172,6 +174,7 @@
   team_roles:
    - spanish
    - board
+   - volunteer
 
 - name: Stephen Margheim
   bio:
@@ -279,6 +282,7 @@
    - archive
    - sponsorship
    - finance-manager
+   - institutionally-supported
 
 - name: Amanda Morton
   team: false
@@ -521,6 +525,7 @@
   team_roles:
    - technical-lead
    - board
+   - institutionally-supported
 
 - name: Sarah Melton
   github: svmelton
@@ -549,6 +554,7 @@
    - editorial
    - managing-en
    - board
+   - volunteer
 
 - name: Sarah Simpkin
   team: false
@@ -623,6 +629,7 @@
    - twitter-dev
    - communication
    - technical
+   - instutitionally-supported
 
 - name: Ted Dawson
   team: false
@@ -706,6 +713,7 @@
   team_roles:
    - board
    - global-lead
+   - volunteer
 
 - name: Taylor Arnold
   team: false
@@ -819,6 +827,7 @@
    - communication
    - technical
    - project-manager-at-large
+   - volunteer
 
 - name: Evan Peter Williamson
   team: false
@@ -914,6 +923,7 @@
   team_roles:
    - spanish
    - board
+   - volunteer
 
 - name: Jennifer Isasi
   url: "https://jenniferisasi.github.io/"
@@ -943,6 +953,7 @@
     - board
     - technical
     - communication-manager
+    - institutionally-supported
 
 - name: Jon MacKay
   team: false
@@ -977,6 +988,7 @@
     - french
     - board
     - ombuds-fr
+    - institutionally-supported
   bio:
       en: |
           François Dominic Laramée is a postdoctoral fellow in digital history of medicine at the University of Ottawa, in Canada.
@@ -1044,6 +1056,7 @@
     - managing-fr
     - technical
     - global
+    - volunteer
   bio:
         en: |
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
@@ -1157,6 +1170,7 @@
     - board
     - managing-es
     - global
+    - volunteer
 
 - name: Joshua G. Ortiz Baco
   twitter: jgob
@@ -1183,6 +1197,7 @@
   team_roles:
     - spanish
     - board
+    - volunteer
 
 - name: Armando Luza
   team: false
