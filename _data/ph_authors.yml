@@ -1083,6 +1083,26 @@
         fr: |
             Marie Puren est historienne et chercheuse post-doctorante en histoire et humanités numériques au LARHRA (CNRS) à Lyon.
 
+- name: Marie-Christine Boucher
+  email: marie.c.boucher@ggk.uni-giessen.de
+  twitter: marie_c_boucher
+  github: mariechristineb
+  team: true
+  team_start: 2020
+  institution: Justus-Liebig-Universität Gießen
+  sortname: Boucher
+  orcid: 0000-0002-2475-3184
+  team_roles:
+    - french
+    - volunteer
+  bio:
+        en: |
+            Marie-Christine Boucher is a doctoral student in German literature at Justus Liebig University Giessen (Germany).
+        es: |
+            Marie-Christine Boucher es doctoranda en literatura alemana en la Universidad Justus Liebig de Giessen (Alemania).
+        fr: |
+            Marie-Christine Boucher est doctorante en littérature allemande à l'Université Justus-Liebig de Giessen (Allemagne).
+
 - name: Charlie Harper
   team: false
   bio:
