@@ -382,7 +382,7 @@ donation-alert:
   en: |
     ## Donate today!
 
-    Please support the future of digial publishing by [donating to _The Programming Historian_](https://www.patreon.com/theprogramminghistorian)
+    Great Open Access tutorials cost money to produce. Join the growing number of people [supporting _The Programming Historian_](https://www.patreon.com/theprogramminghistorian) so we can continue to share knowledge free of charge.
 
     ---
 
@@ -398,7 +398,8 @@ donation-alert:
   fr: |
     ## Donate today!
 
-    Please support the future of digial publishing by [donating to _The Programming Historian_](https://www.patreon.com/theprogramminghistorian)
+    Les tutoriels de qualité à accès libre ont un coût de production. Vous pouvez [rejoindre celles et ceux qui soutiennent le _Programming Historian_](https://www.patreon.com/theprogramminghistorian) et
+contribuer au libre partage des savoirs.
 
     ---
 
@@ -410,7 +411,7 @@ donation-banner:
     es: |
       <h2><a href="https://www.patreon/com/theprogramminghistorian" class="alert-link">Donate to <i>The Programming Historian</i> today!</a></h2>
     fr: |
-      <h2><a href="https://www.patreon/com/theprogramminghistorian" class="alert-link">Donate to <i>The Programming Historian</i> today!</a></h2>
+      <h2><a href="https://www.patreon/com/theprogramminghistorian" class="alert-link">Vous pouvez faire une donation au <i>Programming Historian</i></a></h2>
 
 # Included in the lesson.html layout when a lesson has been marked as retired, and is not to be displayed on the main directory.
 retired:
@@ -427,7 +428,7 @@ retired-definition:
   es: |
     Los editores de The Programming Historian hacen todo lo posible para mantener las lecciones a medida que surgen inevitablemente problemas menores. Sin embargo, desde la publicación, los cambios en las tecnologías subyacentes o los principios utilizados en esta lección han sido sustanciales, hasta el punto de que los editores han decidido no actualizarla más. Es posible que la lección siga siendo una herramienta de aprendizaje útil y una instantánea de las técnicas de la historia digital cuando se publicó, pero no podemos garantizar que todos los elementos sigan funcionando como estaba previsto.
   fr: |
-    Les rédacteurs et rédactrices du Programming Historian font tout leur possible pour pour maintenir les leçons en ligne car de petits problèmes peuvent survenir. Toutefois, depuis sa parution, soit les technologies soit les principes mobilisés par cette leçon ont subi de tels changements qu'il a été décidé de ne plus le mettre à jour. Cette leçon peut encore s'avérer un outil d'apprentissage utile ou encore offrir un aperçu des techniques utilisées en histoire numérique au moment de sa publication, néanmoins nous ne sommes pas en mesure de garantir que dans son ensemble elle reste aussi efficace que prévu.
+    Les rédacteurs et rédactrices du Programming Historian font tout leur possible pour maintenir les leçons en ligne car de petits problèmes peuvent survenir. Toutefois, depuis sa parution, soit les technologies soit les principes mobilisés par cette leçon ont subi de tels changements qu'il a été décidé de ne plus le mettre à jour. Cette leçon peut encore s'avérer un outil d'apprentissage utile ou encore offrir un aperçu des techniques utilisées en histoire numérique au moment de sa publication, néanmoins nous ne sommes pas en mesure de garantir que dans son ensemble elle reste aussi efficace que prévu.
 
 retirement-reason:
   en: Why was this lesson retired?
