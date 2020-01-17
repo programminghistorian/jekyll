@@ -113,13 +113,13 @@ And that's it! You're ready to start coding.
 
 ## Reading files, importing data
 
-Start a new, blank plaintext file in the same directory as your data files called `quaker_network.py` (For more details on installing and running Python, see [this tutorial](/lessons/mac-installation)). At the top of that file, import the libraries you need. You'll need four libraries---the two we just installed, and two built-in Python libraries. You can type:
+Start a new, blank plaintext file in the same directory as your data files called `quaker_network.py` (For more details on installing and running Python, see [this tutorial](/lessons/mac-installation)). At the top of that file, import the libraries you need. You'll need three libraries---the one we just installed, and two built-in Python libraries. You can type:
 
 ```python
 import csv
-import networkx as nx
 from operator import itemgetter
-import community #This is the python-louvain package we installed.
+import networkx as nx
+from networkx.algorithms import community #This part of networkx, for community detection, needs to be imported separately.
 ```
 
 Now you can tell the program to read your CSV files and retrieve the data you need. Ironically, reading files and reorganizing data often requires more complex code than the functions for running social network analysis, so please bear with us through this first code block. Here's a set of commands for opening and reading our nodelist and edgelist files:
@@ -192,10 +192,10 @@ This is a quick way of getting some general information about your graph, but as
 To recap, by now your script will look like this:
 
 ```python
-import csv                                                             
-import networkx as nx
+import csv
 from operator import itemgetter
-import community
+import networkx as nx
+from networkx.algorithms import community
 
 # Read in the nodelist file
 with open('quakers_nodelist.csv', 'r') as nodecsv:                 
