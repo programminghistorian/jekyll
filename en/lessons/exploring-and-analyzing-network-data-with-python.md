@@ -273,7 +273,7 @@ Now all of your nodes have these six attributes, and you can access them at any 
 
 ```python
 for n in G.nodes(): # Loop through every node, in our data "n" will be the name of the person
-    print(n, G.node[n]['birth_year']) # Access every node by its name, and then by the attribute "birth_year"
+    print(n, G.nodes[n]['birth_year']) # Access every node by its name, and then by the attribute "birth_year"
 ```
 
 From this statement, you'll get a line of output for each node in the network. It should look like a simple list of names and years:
@@ -317,7 +317,7 @@ nx.set_node_attributes(G, id_dict, 'sdfb_id')
 
 # Loop through each node, to access and print all the "birth_year" attributes
 for n in G.nodes():
-    print(n, G.node[n]['birth_year'])
+    print(n, G.nodes[n]['birth_year'])
 ```
 
 Now you've learned how to create a Graph object and add attributes to it. In the next section, you'll learn about a variety of metrics available in NetworkX and how to access them. But relax, you've now learned the bulk of the code you'll need for the rest of the tutorial!
@@ -434,7 +434,7 @@ nx.set_node_attributes(G, degree_dict, 'degree')
 You just ran the `G.degree()` method on the full list of nodes in your network (`G.nodes()`). Since you added it as an attribute, you can now see William Penn's degree along with his other information if you access his node directly:
 
 ```python
-print(G.node['William Penn'])
+print(G.nodes['William Penn'])
 ```
 
 But these results are useful for more than just adding attributes to your Graph object. Since you're already in Python, you can sort and compare them. You can use the built-in function `sorted()` to sort a dictionary by its keys or values and find the top twenty nodes ranked by degree. To do this you'll need to use `itemgetter`, which we imported back at the beginning of the tutorial. Using `sorted` and `itemgetter`, you can sort the dictionary of degrees like this:
@@ -516,10 +516,10 @@ And as always, you can combine these measures with others. For example, here's h
 
 ```python
 # First get a list of just the nodes in that class
-class0 = [n for n in G.nodes() if G.node[n]['modularity'] == 0]
+class0 = [n for n in G.nodes() if G.nodes[n]['modularity'] == 0]
 
 # Then create a dictionary of the eigenvector centralities of those nodes
-class0_eigenvector = {n:G.node[n]['eigenvector'] for n in class0}
+class0_eigenvector = {n:G.nodes[n]['eigenvector'] for n in class0}
 
 # Then sort that dictionary and print the first 5 results
 class0_sorted_by_eigenvector = sorted(class0_eigenvector.items(), key=itemgetter(1), reverse=True)
