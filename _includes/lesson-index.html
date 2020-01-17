@@ -38,7 +38,10 @@ Yes, this is confusing. But using two differnt classes allows us to separate fun
     <li id="sort-by-difficulty" class="sort" data-sort="difficulty">{{site.data.snippets.sort-by-difficulty[page.lang]}}</li>
   </ul>
 
-  <h2 class="results-title">Filtering Results: <span id="results-value">All lessons </span><span id="current-sort" class="sort-desc">{{site.data.snippets.date[page.lang]}}</span></h2>
+  <input id="date-sort-text" type="hidden" label="{{site.data.snippets.date[page.lang]}}">
+  <input id="difficulty-sort-text" type="hidden" label="{{site.data.snippets.difficulty[page.lang]}}">
+
+  <h2 class="results-title">{{ site.data.snippets.filtering-results[page.lang] }}: <span id="results-value">{{ site.data.snippets.all-lessons[page.lang] }} </span> <span id="current-sort" class="sort-desc">{{site.data.snippets.date[page.lang]}}</span></h2>
 
   <ul class="list">
     {% for lesson in alllessons %}

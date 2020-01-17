@@ -1,19 +1,19 @@
 {% comment %}
- Generate contact info for editorial team members. Used on project-team.md and es/equipo-de-proyecto.md 
+ Generate contact info for editorial team members. Used on project-team.md and es/equipo-de-proyecto.md
 {% endcomment %}
 
 {% assign author = include.name %}
 
 {% comment %}
- For the provided author name, locate the appropriate entry in ph_authors.yml, and then extract necessary bio and contact information. 
+ For the provided author name, locate the appropriate entry in ph_authors.yml, and then extract necessary bio and contact information.
 {% endcomment %}
 {% for member in site.data.ph_authors %}
 {% if author == member.name %}
 <div class="row contact-box">
 {% comment %}
- Generate avatar image path based on name 
+ Generate avatar image path based on name
 {% endcomment %}
-{% assign avatar = member.name | replace: " ","-" | replace: "é","e" | replace: "í", "i" %}
+{% assign avatar = member.name | slugify: "latin" %}
 <div class="col-3">
   <img class="rounded-circle" src="{{site.baseurl}}/avatars/{{avatar}}.png">
 </div>
@@ -38,7 +38,7 @@ List subteams within the larger editorial team
 </p>
 
 {% comment %}
- List contact info 
+ List contact info
 {% endcomment %}
 <p>
 	{% if member.url %}
@@ -48,10 +48,13 @@ List subteams within the larger editorial team
 		<a href="mailto:{{member.email}}"><i class="fa fa-envelope-square fa-lg" ></i></a>
 	{% endif %}
 	{% if member.twitter %}
-		<a href="http://twitter.com/{{member.twitter}}"><i class="fa fa-twitter-square fa-lg"></i></a>
+		<a href="http://twitter.com/{{member.twitter}}"><i class="fab fa-twitter-square fa-lg"></i></a>
 	{% endif %}
 	{% if member.github %}
-		<a href="http://github.com/{{member.github}}"><i class="fa fa-github-square fa-lg"></i></a>
+		<a href="http://github.com/{{member.github}}"><i class="fab fa-github-square fa-lg"></i></a>
+	{% endif %}
+	{% if member.orcid %}
+		{% include orcid.html author=member %}
 	{% endif %}
 </p>
 {% endif %}

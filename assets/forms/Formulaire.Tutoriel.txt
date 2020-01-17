@@ -1,0 +1,24 @@
+﻿# Proposition de tutoriel pour le Programming Historian
+
+Si vous souhaitez écrire un tutoriel et le soumettre au Programming Historian, merci de remplir cette fiche en fournissant toutes les informations qui permettront au comité éditorial de discuter de votre idée. Pour toute question sur ce formulaire, merci de contacter directement notre rédacteur ou rédactrice en chef:
+
+Anglais: Anandi Silva Knuppel (anandi.silva.knuppel@emory.edu)
+Espagnol: Maria José Afanador Llach (mj.afanador28@uniandes.co)
+Français: Sofia Papastamkou (spapastamkou@gmail.com)
+
+
+## Vous
+1. Votre nom
+2. Votre adresse électronique
+
+## Métadonnées de la leçon
+3. Langue (rayer la mention inutile) anglais / espagnol / français
+4. Titre proposé
+5. Résumé (3-4 phrases)
+6. Description d'étude de cas (détails sur la question historique utilisée comme example)
+7. Objectifs pédagogiques (entre 2 et 3)
+8. Activité de recherche la plus pertinente pour votre tutoriel (rayer les mentions inutiles) Acquérir / Transformer / Analyser / Présenter / Préserver
+9. Domaine de recherche le plus pertinent pour votre tutoriel (rayer les mentions inutiles) APIs / python / gestion de données / manipulation de données / lecture distante / installer / données ouvertes liées / cartographie/ analyse de réseaux / extraction de données du web / édition numérique / autre
+10. Date de dépôt envisagée
+11. Le tutoriel utilise des technologies et des données libres sans coût pour le lecteur/la lectrice Oui / Non
+12. Autres commentaires à l'attention du rédacteur ou de la rédactrice

@@ -12,11 +12,16 @@ reviewers:
 - Amanda Morton
 translator:
 - Víctor Gayol
+translation-editor:
+- Adam Crymble
 translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/36
+avatar_alt: Tres hombres tocando instrumentos musicales
 layout: lesson
+original: mac-installation
 redirect_from: /es/lessons/mac-installation
 difficulty: 1
 activity: transforming
@@ -34,9 +39,9 @@ abstract: "Este tutorial te ayudará a configurar un entorno de desarrollo integ
 
 Los usuarios de Mac pueden aprovechar [Time Machine] para esta labor.
 
-### Instala Python v.2
+### Instalar Python v.3
 
-Desde el mes de mayo de 2012, Mac OS X tiene preinstalado Python v.2. Puedes corroborar si tu Mac cuenta con Python instalado abriendo Terminal en el directorio ´`'/Aplicaciones/Utilidades'´`. En la ventana de Terminal escribe ´`wich Python´` seguido de Enter. Al oprimir la tecla Enter se envía el comando a la computadora cuando se utiliza Terminal. Si ves que en Terminal aparece: ´`'/usr/bin/python'´` o algo por el estilo que contiene la palabra ´python y un manojo de barras oblicuas, puedes tener la seguridad de que tu equipo y sistema lo tienen. Si no fuese así, cierra Terminal y descarga la última versión estable del lenguaje de programación Python (2.7.11 es la correspondiente a abril de 2016), e instálalo siguiendo las instrucciones del [sitio web de Python].
+A partir de enero 2020, Python versión 2 dejará de recibir actualizaciones y la versión 3 será la única desarrollada activamente. Ya que Mac OS X tiene preinstalado Python v.2., podrás continuar utilizando los programas que todavía dependen de esa versión pero necesitarás descargar la versión 3 para seguir las lecciones que encontrarás en *The Programming Historian*. Puedes corroborar si tu Mac cuenta con Python versión 3 instalado abriendo Terminal en el directorio ´`'/Aplicaciones/Utilidades'´`. En la ventana de Terminal escribe ´`which Python3´` seguido de Enter. Al oprimir la tecla Enter se envía el comando a la computadora cuando se utiliza Terminal. Si ves que en Terminal aparece: ´`'/usr/bin/python3'´` o algo por el estilo que contiene la palabra ´python3 y un manojo de barras oblicuas, puedes tener la seguridad de que tu equipo y sistema lo tienen. Si no fuese así, cierra Terminal y descarga la última versión estable del lenguaje de programación Python (v.3.8 es la más actualizada hasta noviembre de 2019), e instálalo siguiendo las instrucciones del [sitio web de Python].
 
 ### Creación de un directorio
 
@@ -86,7 +91,7 @@ En tu editor de texto crea un nuevo archivo y escribe el siguiente programa de d
 
 ```python
 # hola-mundo.py
-print ('hola mundo')
+print('hola mundo')
 ```
 El editor de texto que seleccionaste debe tener un botón "`run`" que te permitirá ejecutar tu programa. Por ejemplo, si estás utilizando TextWrangler, haz clic en el botón "`#!`" para ejecutarlo. Si todo funciona bien (es posible que no, con lo cual habrá que revisar las diversas instalaciones y configuraciones), deberás ver algo como sigue:
 
@@ -99,7 +104,7 @@ Otra manera de interactuar con un intérprete es usando lo que se conoce como *s
 Puedes ejecutar un *shell* de Python iniciando Terminal. En la Mac, abre el Finder, haz doble click en  `Aplicaciones -> Utilidades -> Terminal`. Escribe "`python`" en la ventana que se abre en tu pantalla y oprime la tecla Enter. Ante el *shell prompt* de Python escribe:
 
 ```python
-print ('Hola Mundo')
+print('Hola Mundo')
 ```
  
 Oprime la tecla Enter. La computadora responderá con:
@@ -111,7 +116,7 @@ Hola Mundo
 Cuando queramos representar gráficamente la interacción con el intérprete de comandos usaremos `->` para indicar la respuesta del *shell* a tus comandos, como se muestra inmediatamente:
 
 ```python
-Print ('Hola Mundo')
+print('Hola Mundo')
 -> Hola Mundo
 ```
 
@@ -134,4 +139,4 @@ Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos 
 [otras opciones de editores de texto]: https://wiki.python.org/moin/PythonEditors/
 [TextWrangler]: http://www.barebones.com/products/textwrangler/
 [sitio web de Komodo Edit]: http://komodoide.com/komodo-edit/
-[Para entender páginas web y HTML]: http://programminghistorian.org/es/lecciones/ver-archivos-html
+[Para entender páginas web y HTML]: /es/lecciones/ver-archivos-html

@@ -1,9 +1,7 @@
 ---
 ---
 
-
 function resetSort() {
-  $('#current-sort').text(" {{site.data.snippets.date[page.lang]}} ");
   $('#current-sort').removeClass().addClass("sort-desc");
   $("#sort-by-date").removeClass().addClass("sort desc my-asc");
   $("#sort-by-difficulty").removeClass().addClass("sort my-desc");
@@ -32,11 +30,11 @@ function applySortFromURI(uri,featureList) {
 
     // Update filter header and restore defaults to other button
     if (sortType == "date") {
-      $('#current-sort').text(" {{site.data.snippets.date[page.lang]}} ");
+      $('#current-sort').text(dateSort);
       $('#sort-by-difficulty').removeClass().addClass("sort my-asc");
     }
     else {
-      $('#current-sort').text(" {{site.data.snippets.difficulty[page.lang]}} ");
+      $('#current-sort').text(difficultySort);
       $('#sort-by-date').removeClass().addClass("sort my-desc");
     }
   }
@@ -89,7 +87,7 @@ function wireButtons() {
       $('.filter').children().removeClass("current");
 
       // Reset filter results header
-      $('#results-value').text('All lessons');
+      $('#results-value').text($('#results-value').text());
 
       // Reset uri to remove query params
       uri.search("");
@@ -123,11 +121,11 @@ function wireButtons() {
     // Update filter results header to show current sorting (date or difficulty)
     // Reset the other (non-pressed) button to its default sort arrow.
     if (sortType == "date") {
-      $('#current-sort').text(" {{site.data.snippets.date[page.lang]}} ");
+      $('#current-sort').text(dateSort);
       $('#sort-by-difficulty').removeClass().addClass("sort my-asc");
     }
     else {
-      $('#current-sort').text(" {{site.data.snippets.difficulty[page.lang]}} ");
+      $('#current-sort').text(difficultySort);
       $('#sort-by-date').removeClass().addClass("sort my-desc");
     }
 
@@ -195,6 +193,11 @@ function wireButtons() {
   /***************************************
     All below code runs on each page load
   ****************************************/
+
+  // set labels based on the current language
+
+  var dateSort = $('#date-sort-text').attr('label');
+  var difficultySort = $('#difficulty-sort-text').attr("label");
 
   // Look for URI query params
   var params = uri.search(true);

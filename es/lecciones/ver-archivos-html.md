@@ -12,18 +12,23 @@ reviewers:
 - Amanda Morton
 translator:
 - Víctor Gayol
+translation-editor:
+- Adam Crymble
 translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/39
 layout: lesson
 next: trabajar-con-archivos-de-texto
 previous: introduccion-e-instalacion
+original: viewing-html-files
 redirect_from: /es/lessons/viewing-html-files
 difficulty: 2
 activity: presenting
 topics: [python]
 abstract: "Esta lección te introduce a las estructuras de HTML y de páginas web." 
+avatar_alt: Grabado de un hombre hablando a una mujer. 
 ---
 
 {% include toc.html %}

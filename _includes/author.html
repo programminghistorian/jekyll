@@ -1,5 +1,5 @@
 {% comment %}
- Paste together lists of authors for a given page/lesson. This is used on the lesson.html pages as well as on lesson-index.html and for post.html (describing blog posts) 
+ Paste together lists of authors for a given page/lesson. This is used on the lesson.html pages as well as on lesson-index.html and for post.html (describing blog posts)
 {% endcomment %}
 
 {% if page.authors %}
@@ -8,4 +8,4 @@
   {% assign authors = lesson.authors %}
 {% endif %}
 
-{{ authors | array_to_sentence_string: site.data.snippets.and[page.lang] }}
+{% if include.orcid == true %}{% for author_name in authors %}{% assign author = site.data.ph_authors | where: "name", author_name | first %}{% if forloop.length > 2 and forloop.index0 > 0 %}, {% endif %}{% if forloop.last and forloop.length > 1 %} {{ site.data.snippets.and[page.lang] }} {% endif %}{{ author.name }}{% if author.orcid %} {% include orcid.html author=author %} {% endif %}{% endfor %}{% else %}{{ authors | array_to_sentence_string: site.data.snippets.and[page.lang] }}{% endif %}

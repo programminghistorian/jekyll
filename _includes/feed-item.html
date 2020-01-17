@@ -1,0 +1,15 @@
+<item>
+<title>{{ page.title | xml_escape }}</title>
+{% if page.abstract %}
+  <description>{{ page.abstract | xml_escape }}</description>
+{% else %}
+        <description>{{ page.excerpt | xml_escape }}</description>
+{% endif %}
+{% if page.lang=='en' %}
+  <pubDate>{{ page.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+{% else %}
+<pubDate>{{ page.translation_date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+{% endif %}
+<link>{{ site.liveurl }}{{ page.url }}</link>
+<guid isPermaLink="true">{{ site.liveurl }}{{ page.url }}</guid>
+</item>

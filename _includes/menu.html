@@ -1,49 +1,132 @@
-<nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
+{% comment %}
+
+Adding new menu bar items:
+
+1. Go to `_data/snippets.yml` and create a new entry in the section with the comment `# top nav bar`. Follow the pattern
+of items like `menu-about-overview`, with sub-entries for each language with both the display `title` as well as the
+proper `link` for the page you want to add.
+
+2. Copy one of this dropdown-item tag:
+
+<a class="dropdown-item"
+  href="{{site.baseurl}}{{site.data.snippets.menu-about-team[page.lang].link}}">{{site.data.snippets.menu-about-team[page.lang].title}}</a>
+
+Paste this into the dropdown menu where you want your new link to appear, and rename the `menu-about-team` variable to
+match the new entry you made in `_data/snippets.yml`
+
+{% endcomment %}
+
+{% include translation-links.html %}
+
+<nav class="hide-screen navbar navbar-toggleable-sm navbar-dark bg-dark"
+  style="background-color: {{ site.data.snippets.background_color[page.lang] }}" role="navigation">
   <!--<div class="container">-->
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+    aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="{{site.baseurl}}{{site.data.snippets.menu-home[page.lang]}}">The Programming Historian</a>
+  <a class="navbar-brand" href="{{site.baseurl}}{{site.data.snippets.menu-home[page.lang]}}">The Programming
+    Historian</a>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            {{site.data.snippets.menu-about[page.lang]}}
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-about-overview[page.lang].link}}">{{site.data.snippets.menu-about-overview[page.lang].title}}</a>
-            <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-about-team[page.lang].link}}">{{site.data.snippets.menu-about-team[page.lang].title}}</a>
-            <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-about-research[page.lang].link}}">{{site.data.snippets.menu-about-research[page.lang].title}}</a>
-          </div>
-        </li>
-
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {{site.data.snippets.menu-contribute[page.lang]}}
+    <ul class="nav navbar-nav ml-auto w-100 justify-content-end" role="menubar">
+      <li class="nav-item dropdown mobile-drop" role="menu">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false" role="button">
+          {{site.data.snippets.menu-about[page.lang]}}
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-overview[page.lang].link}}">{{site.data.snippets.menu-contribute-overview[page.lang].title}}</a>
-          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-feedback[page.lang].link}}">{{site.data.snippets.menu-contribute-feedback[page.lang].title}}</a>
-          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-review[page.lang].link}}">{{site.data.snippets.menu-contribute-review[page.lang].title}}</a>
-          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-write[page.lang].link}}">{{site.data.snippets.menu-contribute-write[page.lang].title}}</a>
-          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-edit[page.lang].link}}">{{site.data.snippets.menu-contribute-edit[page.lang].title}}</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-about-overview[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-about-overview[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-about-team[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-about-team[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-about-research[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-about-research[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-about-privacy[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-about-privacy[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{ site.data.snippets.menu-translation-concordance[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-translation-concordance[page.lang].title}}</a>
         </div>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-lessons[page.lang].link}}">{{site.data.snippets.menu-lessons[page.lang].title}}</a>
+      <li class="nav-item dropdown mobile-drop" role="menu">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false" role="button">
+          {{site.data.snippets.menu-contribute[page.lang]}}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+          <a class="dropdown-item"
+            href="{{site.baseurl}}{{site.data.snippets.menu-contribute-overview[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-contribute-overview[page.lang].title}}</a>
+          <a class="dropdown-item"
+            href="{{site.baseurl}}{{site.data.snippets.menu-contribute-feedback[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-contribute-feedback[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-review[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-contribute-review[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-write[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-contribute-write[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-translate[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-contribute-translate[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-edit[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-contribute-edit[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-lesson-requests[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-lesson-requests[page.lang].title}}</a>
+          <a class="dropdown-item"
+            href="{{site.baseurl}}{{site.data.snippets.menu-contribute-retirement[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-contribute-retirement[page.lang].title}}</a>
+          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-support[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-contribute-support[page.lang].title}}</a>
+          <a class="dropdown-item"
+            href="{{site.baseurl}}{{site.data.snippets.menu-contribute-technical[page.lang].link}}"
+            role="menuitem">{{site.data.snippets.menu-contribute-technical[page.lang].title}}</a>
+        </div>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-blog[page.lang].link}}">{{site.data.snippets.menu-blog[page.lang].title}}</a>
+      <li class="nav-item" role="menuitem">
+        <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-lessons[page.lang].link}}"
+          role="menuitem">{{site.data.snippets.menu-lessons[page.lang].title}}</a>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link lang" href="{{site.baseurl}}{{site.data.snippets.menu-lang[page.lang].link}}">{{site.data.snippets.menu-lang[page.lang].title}}</a>
+      <li class="nav-item" role="menuitem">
+        <a class="nav-link" href="{{site.baseurl}}{{site.data.snippets.menu-blog[page.lang].link}}"
+          role="menuitem">{{site.data.snippets.menu-blog[page.lang].title}}</a>
       </li>
 
+      {% comment %}
+      This tries to find the correct corresponding link to give to the language switching buttons in the upper right of
+      the page. Where it can find a matching translation/translation_source for the current page in another language,
+      that link will be added. If no translation/translation_source for this page is found for a given language, then
+      the default "home page" link for that language is used instead.
+      {% endcomment %}
 
+      <li class="nav-item">
+        <div class="btn-group" role="group" aria-label="Language selector">
+          {% for lang in site.data.snippets.language-list %}
+
+          {% if page.lang == lang %}
+          <a class="btn btn-secondary nav-link active disabled" role="button"
+            aria-pressed="true">{{ site.data.snippets.menu-lang[lang].title }}</a>
+          {% else %}
+          {% if translation_source.lang == lang %}
+          {% assign alternate_target = translation_source %}
+          {% else %}
+          {% assign alternate_target = translation_candidates | where_exp: "item", "item.lang == lang" | first %}
+          {% endif %}
+
+          {% if alternate_target %}
+          <a class="btn btn-secondary nav-link" role="button"
+            href="{{ alternate_target.url }}">{{ site.data.snippets.menu-lang[lang].title }}</a>
+          {% else %}
+          <a class="btn btn-secondary nav-link" role="button"
+            href="{{ site.data.snippets.menu-lang[lang].link }}">{{ site.data.snippets.menu-lang[lang].title }}</a>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+        </div>
+      </li>
     </ul>
   </div>
   <!--</div>-->
 </nav>
+
+<nav class="hide-print print-header navbar-brand">The Programming Historian </nav>

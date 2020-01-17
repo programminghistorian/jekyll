@@ -1,6 +1,8 @@
 ---
 layout: base
-title: The Programming Historian
+original: index
+title: |
+  The Programming Historian en español
 ---
 <div class="container" style="text-align:center">
 	<img class="home-image" src="{{ site.baseurl }}/images/about.png" />

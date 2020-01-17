@@ -1,24 +1,18 @@
 {% comment %}
- Generate author bios at the footer of each lesson page. See _layouts/lesson.html for context. 
+ Generate author bios at the footer of each lesson page. See _layouts/lesson.html for context.
 {% endcomment %}
 
 {% assign authorCount = page.authors | size %}
 
 <div class="author-info">
-  {% if page.lang == 'en' %}
-      <h5 class="author-name">About the {% if authorCount == 1 %}author{% else %}authors{% endif %}</h5>
-  {% endif %}
-  {% if page.lang == 'es' %}
-      <p class="author-name">Acerca {% if authorCount == 1 %}del autor{% else %}de los autores{% endif %}</p>
-  {% endif %}
+    <h5 class="author-name">{{ site.data.snippets.about-the[page.lang] }} {% if authorCount == 1 %}{{ site.data.snippets.the-authors.singular[page.lang] }}{% else %}{{ site.data.snippets.the-authors.plural[page.lang] }}{% endif %}</h5>
 </div>
-<div class="author-description"><p>
+<div class="author-description">
   {% for author in page.authors %}
      {% for member in site.data.ph_authors %}
      {% if author == member.name %}
-         {{ member.bio[page.lang] }}&nbsp;
+         <p>{{ member.bio[page.lang] }}{% if member.orcid %} {% include orcid.html author=member %}{% endif %}<p>
      {% endif %}
      {% endfor %}
-{% endfor %}</p>
-
+{% endfor %}
 </div>

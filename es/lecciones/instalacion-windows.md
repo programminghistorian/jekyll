@@ -12,12 +12,17 @@ reviewers:
 - Amanda Morton
 translator:
 - Víctor Gayol
+translation-editor:
+- Adam Crymble
 translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/37
 layout: lesson
+original: windows-installation
 redirect_from: /es/lessons/windows-installation
+avatar_alt: Tres hombres tocando instrumentos musicales
 difficulty: 1
 activity: transforming
 topics: [get-ready, python]
@@ -34,9 +39,9 @@ abstract: "Este tutorial te ayudará a configurar un entorno de desarrollo integ
 
 Siempre es importante asegurarse de tener copias de seguridad hechas de modo regular y, sobre todo, recientes. Este es un buen consejo de por vida y no se limita a los momentos en los que estés dedicado a programar.
 
-## Instalar Python v.2
+## Instalar Python v.3
 
-Dirígete al [sitio web de Python], descarga la última versión estable del lenguaje de programación Python (2.7.12 es la correspondiente a agosto de 2016), e instálalo siguiendo las instrucciones del sitio web de Python.
+Dirígete al [sitio web de Python], descarga la última versión estable del lenguaje de programación Python (3.8 es la correspondiente a noviembre de 2019), e instálalo siguiendo las instrucciones del sitio web de Python.
 
 ## Creación de un directorio
 
@@ -50,7 +55,7 @@ Komodo Edit es un editor de texto libre y de código abierto, pero puedes utiliz
 
 Se deberá ver algo parecido a la siguiente ventana:
 
-{% include figure.html filename="komodo-edit-windows.png" caption="Komodo Edit en Windows" %}
+{% include figure.html filename="komodo-edit11-windows-main.png" caption="Komodo Edit en Windows" %}
 
 Si no está visible el panel de Caja de Herramientas (Toolbox) de la derecha, es necesario activarlo en el menú correspondiente. Selecciona `View -> Tabs -> Toolbox`. No importa si el panel del proyecto está abierto o no. Tómate un tiempo para familiarizarte con el diseño del Komodo Editor. El archivo de ayuda es bastante bueno.
 
@@ -58,19 +63,19 @@ Si no está visible el panel de Caja de Herramientas (Toolbox) de la derecha, es
 
 Ahora es necesario configurarlo para que puedas correr los programas de Python.
 
-1 .  Selecciona `Edit -> Preferences`. Esto abrirá una nueva ventana de diálogo. En "*Category*" selecciona Python y establece "*Default Python Interpreter*" , (debe ser `C:\Python27\Python.exe`)
+1 .  Selecciona `Edit -> Preferences`. Esto abrirá una nueva ventana de diálogo. En "*Languages*" y "*Python 3*" selecciona "*Browse*" y navega hasta `C:\Users\tunombredeusuario\AppData\Local\Programs\Python\Python38-32`)
 Si se ve más o menos así, oprime OK:
 
-{% include figure.html filename="komodo-python-interpreter.png" caption="Seleccionar Python como intérprete por defecto." %}
+{% include figure.html filename="komodo-edit11-windows-interpreter.png" caption="Seleccionar Python como intérprete por defecto." %}
 
 2 .  Enseguida en la sección  "*Preferences*" selecciona *Internacionalization*. Selecciona *Python* del menú despegable que se llama *Language-specific Default Encoding* y asegúrate que [UTF-8] esté seleccionado como el método de codificación por defecto.
 
-{% include figure.html filename="utf-set.jpg" caption="Configurar lenguaje a UFT-8." %}
+{% include figure.html filename="komodo-edit11-windows-utf-set.png" caption="Configurar lenguaje a UFT-8." %}
 
 Enseguida selecciona `Toolbox -> Add -> New Command` . Esto abrirá una nueva ventana de diálogo en la que deberás renombrar tu comando como `Run Python`. Debajo de `Command` teclea:
 
 ``` python 
-%(python) %f
+%(python3) %f
 ``` 
 Si olvidas este comando, Python se quedará colgado porque no estará recibiendo las órdenes (input). 
 
@@ -82,7 +87,8 @@ El campo activo ‘Start in’ debes escribir:
 
 Si se ve así, oprime OK:
 
-{% include figure.html filename="run-python-windows.png" caption="Configuración del comando 'Run Python'." %}
+{% include figure.html filename="komodo-edit11-windows-python-command.png" caption="Configuración del comando 'Run Python'." %}
+{% include figure.html filename="komodo-edit11-windows-python-start.png" caption="Configuración del comando 'Run Python Start'." %}
 
 Tu nuevo comando debe aparecer en el panel de la caja de herramientas (*Toolbox*). Probablemente deberás reiniciar tu computadora para completar el paso antes de que Python trabaje con Komodo Edit.
 
@@ -99,21 +105,21 @@ En tu editor de texto crea un nuevo archivo y escribe el siguiente programa de d
 
 ```python
 # hola-mundo.py
-print ('hola mundo')
+print('hola mundo')
 ``` 
 
 El editor de texto que seleccionaste debe tener un botón `Run`  que te permitirá ejecutar tu programa. Si todo funciona bien, deberás ver algo como sigue (El ejemplo es como se ve en Komodo Edit. Da un clic en la imagen para ver una copia en tamaño completo):
 
-{% include figure.html filename="hello-world1.png" caption="Hola Mundo en Komodo Edit" %}
+{% include figure.html filename="komodo-edit11-windows-hola.png" caption="Hola Mundo en Komodo Edit" %}
 
 ## Interactuar con el intérprete de comandos (shell) de Python
 
 Otra manera de interactuar con un intérprete es usando lo que se conoce como *shell* o intérprete de comandos. Se puede escribir en una declaración y oprimir la tecla Enter, y el shell responderá a tus comandos. Utilizar un shell es una excelente forma de comprobar que la construcción de tus declaraciones es adecuada al asegurarte que hace lo que tu piensas que debería hacer. Esto se puede hacer de maneras un tanto distintas en las diversas plataformas (Mac, Windows o Linux).
 
-Puedes ejecutar un shell de Python haciendo doble clic en el archivo ejecutable `python.exe`. Si instalaste la más reciente versión de Python 2.7 (la más reciente para agosto de 2016), probablemente el archivo .exe  esté localizado en el directorio `C:\Python27\python.exe`. En la ventana del intérprete de comandos ("Símbolo de Sistema"), escribe:
+Puedes ejecutar un shell de Python haciendo doble clic en el archivo ejecutable `python.exe`. Si instalaste la más reciente versión de Python 3.8 (la más reciente para noviembre de 2019), probablemente el archivo .exe  esté localizado en el directorio `C:\Users\tunombredeusuario\AppData\Local\Programs\Python\Python38-32`. En la ventana del intérprete de comandos ("Símbolo de Sistema"), escribe:
 
 ```python 
-print ('Hola Mundo')
+print('Hola Mundo')
 ``` 
 
 Oprime la tecla Enter. La computadora responderá con:
@@ -130,7 +136,7 @@ Print('Hola Mundo')
 
 En la pantalla de tu computadora aparecerá de esta manera:
 
-{% include figure.html filename="python-shell-win.png" caption="Python Shell en Windows" %}
+{% include figure.html filename="windows-python3-cmd.png" caption="Python Shell en Windows" %}
 
 Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos hacia unas tareas algo más interesantes. Si estás trabajando de manera ordenada las lecciones de Python, te sugerimos que pases ahora a la lección [Para entender páginas web y HTML].
 
@@ -139,4 +145,4 @@ Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos 
 [opciones de editores de texto]: https://wiki.python.org/moin/PythonEditors/
 [sitio web de Komodo Edit]: http://komodoide.com/komodo-edit/
 [UTF-8]: https://es.wikipedia.org/wiki/UTF-8
-[Para entender páginas web y HTML]: http://programminghistorian.org/es/lecciones/ver-archivos-html
+[Para entender páginas web y HTML]: /es/lecciones/ver-archivos-html

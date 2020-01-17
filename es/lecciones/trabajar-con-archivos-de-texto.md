@@ -11,19 +11,24 @@ reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
+translation-editor:
+- Adam Crymble
 translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/40
 layout: lesson
 next: reutilizacion-de-codigo-y-modularidad
 previous: ver-archivos-html
+original: working-with-text-files
 redirect_from: /es/lessons/working-with-text-files
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: transforming
 topics: [python]
 abstract: "En esta lección aprenderás a manipular archivos de texto utilizando Python."
+avatar_alt: Dibujo de un señor leyendo el abecedario.
 ---
 
 {% include toc.html %}
@@ -69,7 +74,7 @@ Por lo tanto los siguientes mensajes contienen errores:
 mensaje1 = "hola mundo'
 mensaje2 = 'hola mundo"
 mensaje3 = 'Su nombre es John O'Connor'
-``` 
+```
 
 Cuenta el número de comillas sencillas en el mensaje3.  Para que esto trabaje correctamente tendremos que *salvar* el apóstrofe.
 
@@ -123,7 +128,7 @@ Esto significa que se ejecutó el programa con éxito. Si utilizas *File -> Open
 
 ``` python 
 ¡Hola Mundo!
-``` 
+```
 
 Dado que los archivos de texto plano incluyen la información mínima, tienden a ser de pequeño volumen, fáciles de intercambiar entre diferentes plataformas (por ejemplo, de Windows a Linux o Mac o viceversa), y fáciles de enviar de un programa informático a otro.  También pueden ser leídos en todos los editores de texto como Komodo Edit.
 
@@ -137,7 +142,7 @@ f = open ('holamundo.txt','r')
 mensaje = f.read()
 print(mensaje)
 f.close()
-``` 
+```
 
 En este caso, el parámetro *r* se utiliza para indicar que estás abriendo un archivo para leer (`read`) la información que contiene. Los parámetros te permiten escoger entre una serie de diferentes opciones que permita un método en particular. Regresando al ejemplo de la mascota, el perro puede ser adiestrado para ladrar una vez si recibe un premio con sabor a res, y dos si recibe un premio con sabor a pollo. El sabor de la galleta de premio es el parámetro. Cada método es diferente en términos de qué parámetros aceptará. Por ejemplo, no puedes pedirle al perro que cante una ópera italiana -al menos que tu perro sea particularmente talentoso.  Puedes encontrar la posibilidad de parámetros para cada método en particular en el sitio web de Python, o incluso puedes descubrirlos tú mismo en cualquier buscador tecleando el método específico acompañado por la palabra "Python".
 
@@ -154,7 +159,7 @@ Escribe el siguiente programa en el editor de texto y guárdalo con el nombre de
 f = open('holamundo.txt','a')
 f.write('\n' + 'Hola Mundo')
 f.close()
-``` 
+```
 
 Después de que hayas ejecutado el programa, ve al archivo `holamundo.txt` y ábrelo para ver qué sucedió. Cierra el archivo de texto y vuelve a ejecutar el programa `archivo-apendice.py` las veces que quieras. Cuando abras nuevamente el archivo `holamundo.txt` verás que habrá una serie de líneas con el mensaje "Hola Mundo" repetido tantas veces como las que ejecutaste el programa.
 
@@ -166,9 +171,9 @@ Lecturas recomendadas
 -   [Non-Programmer’s Tutorial for Python 2.6/Hello, World][]
 
 
-[Mac]: http://programminghistorian.org/es/lecciones/instalacion-mac
-[Windows]: http://programminghistorian.org/es/lecciones/instalacion-windows
-[Linux]: http://programminghistorian.org/es/lecciones/instalacion-linux
+[Mac]: /es/lecciones/instalacion-mac
+[Windows]: /es/lecciones/instalacion-windows
+[Linux]: /es/lecciones/instalacion-linux
 [print]: https://docs.python.org/2/reference/simple_stmts.html#the-print-statement
 [palabra reservada]: https://docs.python.org/release/2.5.4/ref/keywords.html
 [file objects]: https://docs.python.org/2/library/stdtypes.html#bltin-file-objects

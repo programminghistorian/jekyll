@@ -1,14 +1,14 @@
 ---
 title: Introducción a la línea de comandos en Bash
-authors: 
+authors:
 - Ian Milligan
 - James Baker
 date: 2014-09-20
-translation_date: 2017-29-07
-editors: 
+translation_date: 2017-07-29
+editors:
 - Adam Crymble
 reviewers:
-- Melodee Beals
+- M. H. Beals
 - Allison Hegel
 - Charlotte Tupman
 - Adam Crymble
@@ -19,13 +19,15 @@ translation-editor:
 translation-reviewer:
 - Antonio Jesús Sánchez Padial
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/62
+avatar_alt: un grupo de soldados (infantería) a punto de atacar
+original: intro-to-bash
 redirect_from: /es/lessons/intro-to-bash
 layout: lesson
 difficulty: 1
 activity: transforming
 topics: [data-manipulation, get-ready]
 abstract: "Con esta lección aprenderás introducir órdenes a través de una Interfaz de Línea de comandos, en lugar de hacerlo en una Interfaz Gráfica de Usuario. La Interfaz de Línea de comandos es útil cuando el usuario necesita un mayor grado de precisión para llevar a cabo su investigación. Por ejemplo, permite añadir modificadores de tal modo que se puede ejecutar un programa de una manera determinada. Asimismo, te será útil para automatizar programas mediante scripts, es decir, recetas o paquetes que contienen una serie de instrucciones."
-next: datos-de-investigacion-con-unix
 ---
 
 {% include toc.html %}
@@ -65,7 +67,7 @@ Cuando lo ejecutes verás esto en la ventana:
 Quizá quieras cambiar la apariencia que por defecto tiene la terminal para no esforzarte de más al mirar continuamente texto negro sobre fondo blanco. En la aplicación por defecto de OS X puedes abrir el menú 'Perfiles' en 'Preferencias', bajo 'Terminal'. Haz clic en la pestaña 'Perfiles' y cámbialo por un nuevo esquema de color. Personalmente preferimos algo con menor contraste entre el fondo y el primer plano, pues lo estarás viendo durante mucho tiempo. 'Novel' es uno muy relajante ya que es la paleta de colores de la popular *suite* [Solarized](http://ethanschoonover.com/solarized). Los usuarios de Windows pueden obtener un efecto similar utilizando la pestaña 'Properties' de Git bash. Para llegar a ella, haz click con el botón derecho en cualquier lugar de la barra superior y seleciona 'Properties'.
 
 {% include figure.html filename="Settings.png" caption="Pantalla de configutación en Terminal de OS X" %}
- 
+
 Una vez satisfecho con la apariencia de la interfaz, ya estás listo para comenzar.
 
 ## Navegando por el sistema de archivos de tu computadora
@@ -130,11 +132,11 @@ Afortunadamente hay otra bandera:
 
 Cuando quieres utilizar dos banderas puedes simplemente ejecutarlas juntas. Así, al escribir
 
-`ls -lh` 
+`ls -lh`
 
 obtendrás una salida en un formato legible para seres humanos; aprenderás que 6020 bits son también 5.9KB, que otro archivo tiene 1 megabite y así sucesivamente.
 
-Estas opciones son *muy* importantes. Lo verás en otras lecciones de *The Programming Historian en español*. [Wget](http://programminghistorian.org//lessons/applied-archival-downloading-with-wget), [MALLET](http://programminghistorian.org//lessons/topic-modeling-and-mallet) y [Pandoc](http://programminghistorian.org//lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) utilizan la misma sintaxis. Afortunadamente no necesitas memorizar la sintaxis; en lugar de ello, mantén estas lecciones a mano para que puedas echar un vistazo rápido si es necesario ajustar algo. Estas lecciones se pueden hacer en cualquier orden.
+Estas opciones son *muy* importantes. Lo verás en otras lecciones de *The Programming Historian en español*. [Wget](/lessons/applied-archival-downloading-with-wget), [MALLET](/lessons/topic-modeling-and-mallet) y [Pandoc](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) utilizan la misma sintaxis. Afortunadamente no necesitas memorizar la sintaxis; en lugar de ello, mantén estas lecciones a mano para que puedas echar un vistazo rápido si es necesario ajustar algo. Estas lecciones se pueden hacer en cualquier orden.
 
 Ya has estado mucho tiempo en tu directorio personal. Vamos a otro lugar; puedes hacerlo a través del comando `cd` que significa 'Cambiar de directorio'.
 
@@ -166,7 +168,7 @@ O en Windows algo como:
 
 `cd c:\mallet-2.0.7\`
 
-e ir a nuestro directorio MALLET para [modelado de tópicos](http://programminghistorian.org//lessons/topic-modeling-and-mallet).
+e ir a nuestro directorio MALLET para [modelado de tópicos](/lessons/topic-modeling-and-mallet).
 
 Finalmente, prueba:
 
@@ -192,11 +194,11 @@ Esto crea un directorio llamado (¡adivinaste!) `ProgHist-Textos`. En general, e
 
 Pero ¡espera! Hay un truco para hacer las cosas un poco más rápido. Ve arriba un directorio (`cd ..`, lo cual te llevará de regreso al escritorio). Para navegar al directorio `ProgHist-Textos` puedes escribir `cd ProgHist-Textos`. Alternativamente puedes escribir `cd Prog` y luego pulsar la tecla de tabulador. Te darás cuenta de que la interfaz completa la línea como `cd ProgHist-Textos`. **Si pulsas el tabulador en cualquier momento dentro del *shell* le pedirás que intente completar automáticamente la línea en función de los archivos o subdirectorios que estén en el directorio actual. Sin embargo, la función es sensible a mayúsculas (así, en el ejemplo anterior, `cd prog` no podrá autocompletarse como `cd ProgHist-Textos`). En donde haya dos archivos con los mismos caracteres, autocompletar solamente llenará la línea hasta el primer punto de diferencia. Sugerimos utilizar este método a lo largo de la lección para ver cómo se comporta.**
 
-Ahora necesitas encontrar un archivo de texto básico para que nos ayude con el ejemplo. ¿Por qué no utilizar un libro que sabes que es largo, como la épica "Guerra y Paz" de Leon Tolstói? El archivo de texto está disponible en [Project Gutenberg](http://www.gutenberg.org/ebooks/2600). Si ya instalaste [wget](http://programminghistorian.org//lessons/applied-archival-downloading-with-wget), puedes escribir:
+Ahora necesitas encontrar un archivo de texto básico para que nos ayude con el ejemplo. ¿Por qué no utilizar un libro que sabes que es largo, como la épica "Guerra y Paz" de Leon Tolstói? El archivo de texto está disponible en [Project Gutenberg](http://www.gutenberg.org/ebooks/2600). Si ya instalaste [wget](/lessons/applied-archival-downloading-with-wget), puedes escribir:
 
 `wget  http://www.gutenberg.org/files/2600/2600-0.txt`
 
-Si no lo has instalado, descarga el texto utilizando tu navegador. Ve al enlace anterior y, desde tu navegador, usa el comando 'Guardar como' del menú 'Archivo'. Guárdalo en tu nuevo directorio `ProgHist-Textos`. Ahora, cuando escribas 
+Si no lo has instalado, descarga el texto utilizando tu navegador. Ve al enlace anterior y, desde tu navegador, usa el comando 'Guardar como' del menú 'Archivo'. Guárdalo en tu nuevo directorio `ProgHist-Textos`. Ahora, cuando escribas
 
 `ls -lh`
 
@@ -276,7 +278,7 @@ El uso de Vim para leer archivos es relativamente simple. Puedes usar las teclas
 
 `Ctrl+F` (esto es, mantén oprimida la tecla 'Control' y presiona a la vez la tecla 'F'), te moverá una página adelante (en Windows: `Shift+FlechaArriba`).
 
-`Ctrl+B` te moverá una página arriba. (`Shift+FlechaAbajo` para usuarios de Windows). 
+`Ctrl+B` te moverá una página arriba. (`Shift+FlechaAbajo` para usuarios de Windows).
 
 Si te quieres desplazar rápidamente al final de una línea, puedes oprimir `$` y para moverte al inicio: `0`. También puedes moverte entre frases escribiendo `)` (hacia adelante) o `(` (atrás). Para párrafos, utiliza `}` y `{`. Dado que estás haciendo todo con el teclado, en vez de tener que mantener pulsada la tecla de flecha para moverte por el documento, esto te permite pasar volando hacia atrás y adelante.
 
@@ -306,7 +308,7 @@ Para abandonar Vim o guardar cambios, tienes que introducir una serie de comando
 
 Si deseas salir del programa, escribe de nuevo `:` y luego `q`. Esto te regresará a la línea de comandos. Al igual que con el resto de *bash*, también podrías haber combinado los dos comandos. Presionando `:` y luego poniendo `wq` habríamos guardado el archivo y luego habríamos salido del programa. O, si querías salir **sin** guardar, `q!`, habrías salido de Vim y cancelado la preferencia de sobreescribir, por defecto, para guardar tus cambios.
 
-Vim es diferente a los procesadores de texto a los que estás acostumbrado y requerirá más trabajo y práctica para llegar a tener fluidez en su uso. Pero si estás ajustando cosas menores en archivos, es una buena manera de empezar. A medida que te sientas más cómodo podrías incluso escribir documentos con él, aprovechando el potencial de [formar y poner notas a pie de Pandoc y Markdown](http://programminghistorian.org//lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
+Vim es diferente a los procesadores de texto a los que estás acostumbrado y requerirá más trabajo y práctica para llegar a tener fluidez en su uso. Pero si estás ajustando cosas menores en archivos, es una buena manera de empezar. A medida que te sientas más cómodo podrías incluso escribir documentos con él, aprovechando el potencial de [formar y poner notas a pie de Pandoc y Markdown](/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
 
 ## Mover, copiar y borrar archivos
 

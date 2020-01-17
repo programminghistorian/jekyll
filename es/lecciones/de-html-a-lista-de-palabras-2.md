@@ -9,21 +9,27 @@ editors:
 - Miriam Posner
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 translator:
 - Víctor Gayol
+translation-editor:
+- Adam Crymble
 translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/45
 layout: lesson
 next: normalizar-datos
 previous: de-html-a-lista-de-palabras-1
+original: from-html-to-list-of-words-2
 redirect_from: /es/lessons/from-html-to-list-of-words-2
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: transforming
 topics: [python]
 abstract: "En esa lección aprenderás los comandos de Python que son necesarios para implementar la segunda parte del algoritmo que comenzamos en la lección 'De HTML a lista de palabras (parte 1)'." 
+avatar_alt: Grabado de un hombre vestido de militar y otro hombre por detrás del primero que parece tener la intención de tropezarlo. 
 ---
 
 {% include toc.html %}
@@ -200,16 +206,16 @@ Considerando lo que has aprendido hasta ahora, ya puedes abrir un URL, descargar
 
 ``` python
 # html-a-lista-1.py
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 html = respuesta.read()
 texto = obo.quitarEtiquetas(html)
 listaPalabras = texto.split()
 
-print(listaPalabras[0:120])
+print((listaPalabras[0:120]))
 ```
 
 Debes obtener algo como lo siguiente:
@@ -251,5 +257,5 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
   [De HTML a lista de palabras (parte 1)]: /es/lecciones/de-html-a-lista-de-palabras-1
   [entero]: http://docs.python.org/2.4/lib/typesnumeric.html
   [tipos]: http://docs.python.org/3/library/types.html
-  [zip]: http://programminghistorian.org/assets/python-es-lecciones2.zip
-  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones3.zip
+  [zip]: /assets/python-es-lecciones2.zip
+  [zip sync]: /assets/python-es-lecciones3.zip

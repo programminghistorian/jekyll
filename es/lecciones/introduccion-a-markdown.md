@@ -5,22 +5,27 @@ authors:
 - Sarah Simpkin
 date: 2015-11-13
 translation_date: 2017-07-31
-editors: 
-- Ian Milligan 
+editors:
+- Ian Milligan
 reviewers:
 - John Fink
 - Nancy Lemay
 translator:
 - Víctor Gayol
+translation-editor:
+- Maria José Afanador-Llach
 translation-reviewer:
 - Juan Cobo
-- Maria José Afanador
+- Maria José Afanador-Llach
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/56
 difficulty: 1
 activity: presenting
 layout: lesson
 topics: [data-management]
 abstract: "En esta lección se ofrece una introducción a Markdown, un lenguaje de marcado con sintaxis en texto plano para generar textos con formato. Descubrirás el porqué se utiliza, cómo dar formato a los archivos de Markdown y cómo obtener una vista previa en la web de los documentos formados con Markdown."
+original: getting-started-with-markdown
 redirect_from: /es/lessons/getting-started-with-markdown
+avatar_alt: Tipografía de varias consonantes 
 ---
 
 Introducción a Markdown
@@ -38,7 +43,7 @@ Markdown fue desarrollado en 2004 por [John Gruber](http://daringfireball.net/pr
 
 Los archivos de texto plano tienen muchas ventajas sobre otro tipo de formato. Por un lado, se pueden leer prácticamente en todos los dispositivos. También han resistido la prueba del paso del tiempo mejor que otro tipo de archivos -si alguna vez has intentado abrir un documento guardado en un formato de [procesador de textos heredado](https://es.wikipedia.org/wiki/Sistema_heredado), estarás familiarizado con los problemas de compatibilidad que implican-.
 
-Al utilizar la sintaxis de Markdown, serás capaz de producir archivos que pueden ser legibles como texto plano y que a la vez están listos para ser formados en otras plataformas. Muchos generadores de bitácoras y de sitios estáticos, así como sitios como GitHub, también aceptan Markdown y traducen estos archivos a HTML para su visualización en la web. Además, herramientas como Pandoc pueden convertir archivos en o desde Markdown. Para más información sobre Pandoc puedes consultar la lección sobre [Escritura sostenible utilizando Pandoc y Markdown](http://programminghistorian.org/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown) de Dennise Tenen y Grant Wythoff.
+Al utilizar la sintaxis de Markdown, serás capaz de producir archivos que pueden ser legibles como texto plano y que a la vez están listos para ser formados en otras plataformas. Muchos generadores de bitácoras y de sitios estáticos, así como sitios como GitHub, también aceptan Markdown y traducen estos archivos a HTML para su visualización en la web. Además, herramientas como Pandoc pueden convertir archivos en o desde Markdown. Para más información sobre Pandoc puedes consultar la lección sobre [Escritura sostenible utilizando Pandoc y Markdown](/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown) de Dennise Tenen y Grant Wythoff.
 
 ### Sintaxis en Markdown
 
@@ -74,10 +79,10 @@ Primer nivel de encabezado
 
 Segundo nivel de encabeado
 --------------------------
-``` 
+```
 
 Estos se representarán como:
- 
+
 # Primer nivel de encabezado
 
 ## Segundo nivel de encabezado
@@ -127,7 +132,7 @@ Añade énfasis a una frase utilizando estos métodos:
 
 Lo cual queda representado así:
 
-¡Estoy **muy** entusiasmado con los tutoriales de _The Programming Historian en español_! 
+¡Estoy **muy** entusiasmado con los tutoriales de _The Programming Historian en español_!
 
 #### Listados
 
@@ -212,11 +217,11 @@ Observa cómo el bloque de código se representa a renglón seguido.
 Escribe el siguiente texto en la caja de texto:
 
 ```
-> Hola. Éste es un párrafo de texto incluido en un bloque de cita. Fíjate que tengo una sangría con respecto al margen izquierdo. 
+> Hola. Éste es un párrafo de texto incluido en un bloque de cita. Fíjate que tengo una sangría con respecto al margen izquierdo.
 ```
 Lo cual se representará:
 
-> Hola. Éste es un párrafo de texto incluido como un bloque de cita textual. Fíjate que tengo una sangría con respecto al margen izquierdo. 
+> Hola. Éste es un párrafo de texto incluido como un bloque de cita textual. Fíjate que tengo una sangría con respecto al margen izquierdo.
 
 #### Enlaces de Internet
 
@@ -224,11 +229,11 @@ Los enlaces de Internet se pueden escribir de dos maneras.
 
 El título del enlace se encierra primero entre corchetes y después se incluye la dirección completa del URL entre paréntesis.
 
-`Para más tutoriales visita la página [The Programming Historian en español](http://programminghistorian.org/es).`
+`Para más tutoriales visita la página [The Programming Historian en español](/es).`
 
 **Lo cual se representa así:**
 
-Para más tutoriales visita la página [The Programming Historian en español](http://programminghistorian.org/es).
+Para más tutoriales visita la página [The Programming Historian en español](/es).
 
 Los enlaces también se utilizan para crear notas a pie de página y son útiles porque, además, ayudan a mantener más ordenado tu documento en texto plano. Las notas a pie se escriben con un par adicional de corchetes con el número de referencia para establecer el vínculo que identifique la etiqueta.
 
@@ -249,11 +254,11 @@ Un ejemplo es el sitio *[The Programming Historian en español][1]*
 
 Se pueden referir las imágenes mediante el uso de `!`, seguido de un texto alternativo entre corchetes, seguido a su vez por el URL de la imagen y un título opcional entre comillas. Esto no se representará como texto en tu documento pero te permitirá incluir la imagen en la visualización de una página en HTML.
 
-`![Logo de Wikipedia](http://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg "Wikipedia logo")`
+`![Logo de Wikipedia](https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg "Wikipedia logo")`
 
 **Esto aparece como:**
 
-![Logo de Wikipedia](http://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg "Wikipedia logo")
+![Logo de Wikipedia](https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg "Wikipedia logo")
 
 #### Reglas y líneas horizontales
 
@@ -293,7 +298,7 @@ Para crear una tabla en GitHub, usa barras verticales `|`para separar columnas y
 | renglón 2, columna 1 | renglón 2, columna 2 | renglón 2, columna 3|
 | renglón 3, columna 1 | renglón 3, columna 2 | renglón 3, columna 3|
 
-Para especificar la alineación del contenido de cada columna se pueden agregar dos puntos `:`al renglón de los encabezados como sigue: 
+Para especificar la alineación del contenido de cada columna se pueden agregar dos puntos `:`al renglón de los encabezados como sigue:
 
 ```
 | Alineado-izquierda | Centrado | Alineado-derecha |
@@ -319,11 +324,11 @@ Markdown es un término medio muy útil entre los archivos de texto plano sin es
 
 
 [John Gruber]: http://daringfireball.net/projects/markdown/
-[Autoría sustentable utilizando Pandoc y Markdown]: http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+[Autoría sustentable utilizando Pandoc y Markdown]: /lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 [StackEdit]: https://stackedit.io
 [editor de StackEdit]: https://stackedit.io/editor
 [GitHub Flavored Markdown]: https://help.github.com/articles/github-flavored-markdown/
 [GitHub Flavored Markdown]: https://help.github.com/articles/github-flavored-markdown/
 [Pandoc]: http://johnmacfarlane.net/pandoc/
-[Escritura sostenible en texto plano usando Pandoc y Markdown]: http://programminghistorian.org/es/lecciones/escritura-sostenible-usando-pandoc-y-markdown
+[Escritura sostenible en texto plano usando Pandoc y Markdown]: /es/lecciones/escritura-sostenible-usando-pandoc-y-markdown
 

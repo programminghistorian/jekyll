@@ -9,21 +9,27 @@ editors:
 - Miriam Posner
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 translator:
 - Víctor Gayol
+translation-editor:
+- Adam Crymble
 translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/50
 layout: lesson
 next: salida-palabras-clave-contexto-ngrams
 previous: salida-de-datos-como-archivo-html
+original: keywords-in-context-using-n-grams
 redirect_from: /es/lessons/keywords-in-context-using-n-grams
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: presenting
 topics: [python]
 abstract: "Esta lección retoma los pares de frecuencias recolectados en [Contar frecuencias de palabras][] y crea una salida de datos en HTML." 
+avatar_alt: Grabado de mujer, con expresión de sorpresa en la cara, dejando caer una botella de ginebra y una botella de ron.
 ---
 
 {% include toc.html %}
@@ -95,7 +101,7 @@ print(listaPalabras[:12])
 
 print(listaPalabras[12:])
 -> ['it', 'was', 'the', 'age', 'of', 'wisdom', 'it', 'was', 'the', 'age', 'of', 'foolishness']
-``` 
+```
 
 En estos ejemplos se ha utilizado el método de división (`slice`) para recuperar partes de nuestra lista. Ten en cuenta que hay dos lados respecto a los dos puntos en un `slice`. Si a la derecha de los dos puntos se deja en blanco como en el último ejemplo anterior, el programa sabe continuar automáticamente hasta el final -en este caso, el final de la lista. En el penúltimo ejemplo anterior se muestra que podemos comenzar desde el principio dejando vacío el espacio anterior a los dos puntos. Este es un atajo útil y que está disponible para mantener tu código más corto.
 
@@ -177,6 +183,6 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
   [Salida de datos como archivo HTML]: /es/lecciones/salida-de-datos-como-archivo-html
   [Contar frecuencias de palabras]: /es/lecciones/contar-frecuencias
   [1]: salida-de-datos-como-archivo-html
-  [archivo zip de las lecciones anteriores]: http://programminghistorian.org/assets/python-es-lecciones7.zip
+  [archivo zip de las lecciones anteriores]: /assets/python-es-lecciones7.zip
   [Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
-  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones8.zip
+  [zip sync]: /assets/python-es-lecciones8.zip

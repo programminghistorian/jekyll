@@ -1,0 +1,99 @@
+2018
+2019
+2019-12_PH-Archive.txt
+ProgHistLtd
+Structure
+
+./2018:
+2018-10_BA-workshop
+
+./2018/2018-10_BA-workshop:
+2 - Grant Application.docx
+
+./2019:
+2019-05_Roy-Rosenzweig-prize
+2019-07_IAA-impactmanager
+2019-09_Team-Survey
+2019-09_open-publishing-awards
+2019-10_BritishAcademy_workshop-bid
+
+./2019/2019-05_Roy-Rosenzweig-prize:
+Roy Rosenzweig Prize.docx
+
+./2019/2019-07_IAA-impactmanager:
+2019-09-23_JB-PH_Fast track engagement fund application form - v5.docx
+
+./2019/2019-09_Team-Survey:
+PH Team survey - Sept 2019.docx
+
+./2019/2019-09_open-publishing-awards:
+open_publishing_awards_2019.docx
+
+./2019/2019-10_BritishAcademy_workshop-bid:
+2019-10-23_submitted-WW20200190.pdf
+
+./ProgHistLtd:
+2019
+AGM
+Board-of-Directors-Meetings
+Register-of-Members
+
+./ProgHistLtd/2019:
+2019-09
+2019-10
+
+./ProgHistLtd/2019/2019-09:
+incorporation
+
+./ProgHistLtd/2019/2019-09/incorporation:
+certificate
+memo-of-association
+
+./ProgHistLtd/2019/2019-09/incorporation/certificate:
+061-884384_20190906_12192946.pdf
+
+./ProgHistLtd/2019/2019-09/incorporation/memo-of-association:
+Articles of Association v5.doc
+Articles of Association v5.pdf
+MEMANDARTS_20190905_114736658.pdf
+Table C Articles.pdf
+
+./ProgHistLtd/2019/2019-10:
+Board Letters
+Membershp Letters
+
+./ProgHistLtd/2019/2019-10/Board Letters:
+ProgHist Board Invitation - Melton.pdf
+ProgHist Board Invitation - Papastamkou.pdf
+ProgHist Board Invitation - Quiroga.pdf
+
+./ProgHistLtd/2019/2019-10/Membershp Letters:
+ProgHist Member Invitation - Afanador Llach.pdf
+ProgHist Member Invitation - Gayol.pdf
+ProgHist Member Invitation - Grandjean.pdf
+ProgHist Member Invitation - Isasi.pdf
+ProgHist Member Invitation - Laramée.pdf
+ProgHist Member Invitation - LeBlanc.pdf
+ProgHist Member Invitation - Lincoln.pdf
+ProgHist Member Invitation - Ortiz.pdf
+ProgHist Member Invitation - Parr.pdf
+ProgHist Member Invitation - Rojas Castro.pdf
+ProgHist Member Invitation - Walsh.pdf
+
+./ProgHistLtd/AGM:
+
+./ProgHistLtd/Board-of-Directors-Meetings:
+2019
+
+./ProgHistLtd/Board-of-Directors-Meetings/2019:
+10-2019
+
+./ProgHistLtd/Board-of-Directors-Meetings/2019/10-2019:
+2019-10-03_ProgHistLtd-BoD.docx
+
+./ProgHistLtd/Register-of-Members:
+2019-10_ProgHistLtd_Register-of-Members.docx
+2019-10_ProgHistLtd_Register-of-Members.pdf
+
+./Structure:
+PH Organisational chart 11-2019.jpg

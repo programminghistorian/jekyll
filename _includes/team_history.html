@@ -1,0 +1,16 @@
+{% comment %}
+Loops through members of editorial team and then generates a list of active dates based on the variables team_start, team_end, and institution
+{% endcomment %}
+
+{% assign members = site.data.ph_authors | sort: "team_start" %}
+<ul>
+{% for member in members %}
+{% if member.team_start %}
+{% if member.team_end %}
+  {% assign team_end = member.team_end %}
+{% else %}
+  {% assign team_end = site.data.snippets.present[page.lang] %}
+{% endif %}
+<li>{{ member.name }}, {{ member.institution }} ({{member.team_start}} - {{ team_end }})</li>
+{% endif %}{% endfor %}
+</ul>

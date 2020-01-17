@@ -3,22 +3,27 @@ title: Poniendo Omeka a funcionar
 authors:
 - Miriam Posner
 date: 2016-02-17
-translation_date: 2017-26-04
+translation_date: 2017-04-26
 reviewers:
 - Sheila Brennan
 editors:
 - Adam Crymble
 translator:
 - Maria José Afanador-Llach
+translation-editor:
+- Antonio Rojas Castro
 translation-reviewer:
 - Antonio Rojas Castro
 - Alicia Calvo
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/61
 layout: lesson
+original: up-and-running-with-omeka
 redirect_from: /es/lessons/up-and-running-with-omeka
 difficulty: 1
 activity: presenting
 topics: [website]
 abstract: "Con Omeka.net es fácil crear sitios web que contengan colecciones de ítems."
+avatar_alt: Ilustración del esqueleto de un mamut en la exhibición de un museo, con gente a su alrededor. 
 ---
 
 {% include toc.html %}
@@ -27,9 +32,9 @@ abstract: "Con Omeka.net es fácil crear sitios web que contengan colecciones de
 
 
 
-[Omeka.net](http://www.omeka.net) facilita la creación de sitios web para mostrar colecciones de ítems. 
+[Omeka.net](http://www.omeka.net) facilita la creación de sitios web para mostrar colecciones de ítems.
 > *Nota de la traductora*: Antes de empezar es importante aclarar las diferencias entre **Omeka.net** y **Omeka.org**. Este tutorial es sobre **Omeka.net**, una plataforma de publicación en línea que permite a cualquier persona con una cuenta de acceso crear o colaborar en un sitio web para exhibir colecciones y construir exposiciones digitales. **Omeka.net** es una extensión de **Omeka.org** que está disponible para bajar e instalar en un servidor de tu propiedad. La traducción al español del tutorial de *The Programming Historian* sobre [cómo instalar Omeka](/lessons/installing-omeka) en un servidor se encuentra en proceso.
-al 
+al
 Regístrate para abrir una cuenta en Omeka
 ----------------------------
 

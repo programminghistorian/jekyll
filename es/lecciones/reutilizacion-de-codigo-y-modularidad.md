@@ -11,20 +11,25 @@ reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
+translation-editor:
+- Adam Crymble
 translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/41
 layout: lesson
 categories: [lessons, original-ph, python]
 next: trabajar-con-paginas-web
 previous: trabajar-con-archivos-de-texto
+original: code-reuse-and-modularity
 redirect_from: /es/lessons/code-reuse-and-modularity
 difficulty: 2
 activity: transforming
 topics: [python]
 abstract: "Los programas de computadora pueden resultar largos, inmanejables y confusos si no contamos con mecanismos especiales para la gestión de su complejidad. Esta lección te mostrará la manera de reutilizar partes de su código mediante la escritura de Funciones y cómo fraccionar tus programas en Módulos con el fin de mantener todo de una manera concisa y fácil de depurar." 
 python_warning: true
+avatar_alt: Caricatura de tres hombres. 
 ---
 
 {% include toc.html %}
@@ -39,7 +44,7 @@ Objetivos de la lección
 Los programas de computadora pueden resultar largos, inmanejables y confusos si no contamos con mecanismos especiales para la gestión de su complejidad. Esta lección te mostrará la manera de reutilizar partes de su código mediante la escritura de *Funciones* y cómo fraccionar tus programas en *Módulos* con el fin de mantener todo de una manera concisa y fácil de depurar. Ser capaz de extraer un módulo que no resulte útil nos ahorra tiempo y esfuerzo.
 
 ### Funciones
- 
+
 A menudo encontrarás que deseas volver a utilizar un conjunto particular de enunciados, generalmente porque tiene una tarea que vas a utilizar una y otra vez. Los programas están compuestos, sobre todo, de rutinas que son lo suficientemente potentes y con propósitos generales y que por lo tanto pueden ser reutilizadas. Estas rutinas se conocen como funciones, y Python tiene los mecanismos para permitirte definir nuevas funciones. Vamos a trabajar con un ejemplo muy simple de una función. Supongamos que deseas crear una función general para saludar a la gente. Copia la siguiente definición de función en el editor de Komodo y guárdalo como `saludo.py`
 
 ```python
@@ -59,7 +64,7 @@ Ten en cuenta que la *sangría* es muy importante en Python. El espacio en blanc
 ```
 Hola Todos
 Hola Programming Historian
-``` 
+```
 
 Este ejemplo contiene una función: *saludoEntidad*. Esta función entonces es *llamada* (a veces se le denomina *invocada*) dos veces. Llamar o invocar una función solamente significa que le hemos dicho al programa que ejecute el código en esa función. Como darle al perro su recompensa sabor a pollo (\*guau\* \*guau\*). En este caso, cada vez que hemos llamado a la función le hemos dado un parámetro diferente. Intenta editar `saludo.py` para que invoque a la función *saludoEntidad* una tercera vez utilizando tu propio nombre como parámetro. Ejecuta el programa de nuevo. Debes ser capaz de imaginarte qué es lo que hace '(x)' en la declaración de la función.
 
@@ -70,7 +75,7 @@ Antes de ir al siguiente paso, edita `saludo.py` para borrar las llamadas de la 
 
 def saludoEntidad (x):
 	print("Hola " + x)
-``` 
+```
 
 ## Modularidad
 
@@ -88,7 +93,7 @@ Copia este código en el Komodo Edit y guárdalo como `usar-saludo.py` . Este ar
 import saludo
 saludo.saludoEntidad("todos")
 saludo.saludoEntidad("programming historian")
-``` 
+```
 
 Hemos hecho algunas cosas aquí. Primero, le dijimos a Python que cargara (`import` ) el módulo `saludo.py` que creamos previamente.
 
@@ -99,7 +104,7 @@ Puedes ejecutar tu programa `usar-saludo.py` con el comando "Ejecutar Python" qu
 ```
 Hola todos
 Hola programming historian
-``` 
+```
 
 Antes de seguir adelante, asegúrate de entender la diferencia entre cargar un archivo de datos (por ejemplo: `hola-mundo.txt`) e importar un archivo de programa (por ejemplo: `saludo.py` ).
 

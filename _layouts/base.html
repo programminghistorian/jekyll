@@ -4,17 +4,38 @@
   This template, therefore, is most useful on pages requiring full-window bleeds: the index page and lessons pages.
 {% endcomment %}
 
+<!-- Calculate the lesson slug for use across this page -->
+
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
 
   {% include header.html %}
 
   <body>
-    {% include menu.html %}
-
-    {{content}}
-
-    {% include footer.html %}
+    <main class="hide-screen">
+      {% include menu.html %}
+        {{content}}
+      {% include footer.html %}
+    </main>
+    <div class="hide-print">
+      <table>
+        <thead>
+          <tr>
+            <th>
+              {% include menu.html %}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+                {{content}}
+                {% include footer.html %}
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 
 </html>

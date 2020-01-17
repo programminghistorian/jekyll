@@ -1,37 +1,63 @@
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    {% include metadata.html %}
+  {% include metadata.html %}
 
-    {% include twitter-card.html %}
+  {% if page.lesson or page.category == "posts" %}
+  {% include twitter-card.html %}
+  {% endif %}
 
-    <!-- Mobile viewport optimized: h5bp.com/viewport -->
-    <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="/images/favicons/{{ page.lang }}_favicon.ico" type="image/x-icon">
 
-    <link href="{{site.baseurl}}/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
 
-    <link href='{{site.baseurl}}/feed.xml' rel='alternate' type='application/atom+xml'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
-    <title>{{ page.title }} | {{ site.name }}</title>
+  <link href='{{site.baseurl}}/feed.xml' rel='alternate' type='application/atom+xml'>
 
-    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans|Quattrocento|Roboto|Roboto+Condensed" rel="stylesheet">
+  <title>{{ page.title }} | {{ site.name }}</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{site.baseurl}}/css/github.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans|Quattrocento|Roboto|Roboto+Condensed" rel="stylesheet">
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" media="all">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/github.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
 
-    <script type="text/javascript" src="{{site.baseurl}}/js/ext_links.js"></script>
-    <script type="text/javascript" src="{{site.baseurl}}/js/header_links.js"></script>
-    <script type="text/javascript" async
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-  </head>
+  <script type="text/javascript" src="{{site.baseurl}}/js/ext_links.js"></script>
+  <script type="text/javascript" src="{{site.baseurl}}/js/header_links.js"></script>
+
+  {% comment %}
+  MathJax is an expensive JS library so we only want to add it to pages when
+  it's actually going to be used.
+  {% endcomment %}
+  {% if page.mathjax %}
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { fonts: ["TeX"] , linebreaks: { automatic: true } }
+  });
+  </script>
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js">
+  </script>
+  {% endif %}
+
+  <script src="{{site.baseurl}}/js/bootstrap-4-navbar.js"></script>
+
+
+</head>

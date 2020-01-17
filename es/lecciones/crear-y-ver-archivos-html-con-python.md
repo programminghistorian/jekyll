@@ -11,19 +11,24 @@ reviewers:
 - Jim Clifford
 translator:
 - Víctor Gayol
+translation-editor:
+- Adam Crymble
 translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/48
 layout: lesson
 next: salida-de-datos-como-archivo-html
 previous: contar-frecuencias
+original: creating-and-viewing-html-files-with-python
 redirect_from: /es/lessons/creating-and-viewing-html-files-with-python
 difficulty: 2
 activity: presenting
 topics: [python, website]
 abstract: "Aquí aprenderás cómo crear archivos HTML con scripts de Python, y cómo utilizar Python para abrir un archivo HTML en Firefox."
-python_warning: true
+avatar_alt: Grabado en blanco y negro de un niño sentado en un taburete sujetando un dibujo de una persona con una espada.
+python_warning: false
 ---
 
 {% include toc.html %}
@@ -68,7 +73,7 @@ mensaje = """<html>
 
 f.write(mensaje)
 f.close()
-``` 
+```
 
 Guarda el programa anterior como `escribe-html.py` y ejecútalo. Utiliza *File -> Open* en tu editor seleccionado para abrir `holamundo.html` para verificar que tu programa en realidad creó el archivo. El contenido debe verse como esto:
 
@@ -142,8 +147,8 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 -   python-es-lecciones6.zip [zip sync]
 
-  [archivo zip de las lecciones anteriores]: http://programminghistorian.org/assets/python-es-lecciones5.zip
+  [archivo zip de las lecciones anteriores]: /assets/python-es-lecciones5.zip
   [Zotero]: http://zotero.org
   [tutorial de HTML de W3 Schools]: http://www.w3schools.com/html/default.asp
   [declaración doctype]: http://www.w3schools.com/tags/tag_doctype.asp
-  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones6.zip
+  [zip sync]: /assets/python-es-lecciones6.zip

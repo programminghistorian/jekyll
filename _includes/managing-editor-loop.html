@@ -1,0 +1,4 @@
+{% comment %}Included on all the project team pages, this loops over all languages and lists the managing editor for each language version.{% endcomment %}
+{% for me-lang in site.data.snippets.language-list %}
+- {% include managing-editor.html lang=me-lang%} ({{ site.data.snippets.language-name[me-lang][page.lang] }})
+{% endfor %}

@@ -11,15 +11,20 @@ translator:
 - Maria José Afanador-Llach
 editors:
 - Fred Gibbs
+translation-editor:
+- Víctor Gayol
 translation-reviewer:
-- José Antonio Motilla Chávez
-- Jairo Antonio Melo Flórez
+- José Antonio Motilla
+- Jairo A. Melo
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/58
 layout: lesson
+original: creating-network-diagrams-from-historical-sources
 redirect_from: /es/lessons/creating-network-diagrams-from-historical-sources
 difficulty: 2
 activity: transforming
 topics: [network-analysis]
 abstract: "La visualizaciones de redes pueden ayudar a los humanistas a revelar patrones complejos escondidos y estructuras en fuentes textuales. Este tutorial explica cómo extraer datos en red (personas, instituciones, lugares, etcétera.) de fuentes históricas a través del uso de métodos no especializados desarrollados en el marco del análisis de datos qualitativos (Qualitative Data Analysis, QDA) y el análisis de redes sociales (Social Network Analysis, SNA), y cómo visualizar estos datos con Palladio, una aplicación independiente de plataforma y que es particularmente fácil de usar."
+avatar_alt: Diagrama circular con puntos cardinales
 ---
 
 {% include toc.html %}
@@ -51,7 +56,7 @@ En otras palabras, el reto es sistematizar la interpretación textual. Las redes
 Sobre el caso de estudio 
 --------------------
 
-El caso de estudio que utilizo para este tutorial es una narrativa en primera persona de Ralph Neumann, un judío que sobrevivió al Holocausto. Puedes encontrar en texto en [*internet*](http://www.gdw-berlin.de/fileadmin/bilder/publ/publikationen_in_englischer_sprache/2006_Neuman_eng.pdf). El esquema de codificación que presento abajo es una versión simplificada del que desarrollé durante [*mi proyecto doctoral sobre redes de apoyo encubierto durante la Segunda Guerra Mundial*](http://martenduering.com/research/covert-networks-during-the-holocaust/). Mi investigación estuvo guiada por tres preguntas: ¿En qué medida las relaciones sociales pueden ayudar a explicar por qué personas comunes tomaron los riesgos asociados a ayudar a otros? ¿Cómo dichas relaciones permitieron a la gente prestar ayuda dado que tenían a su disposición recursos muy limitados? ¿Cómo ayudaron las relaciones sociales a los refugiados judíos a sobrevivir clandestinamente?  
+El caso de estudio que utilizo para este tutorial es una narrativa en primera persona de Ralph Neumann, un judío que sobrevivió al Holocausto. Puedes encontrar en texto en [*internet*](http://web.archive.org/web/20180422010025/http://www.gdw-berlin.de/fileadmin/bilder/publ/publikationen_in_englischer_sprache/2006_Neuman_eng.pdf). El esquema de codificación que presento abajo es una versión simplificada del que desarrollé durante [*mi proyecto doctoral sobre redes de apoyo encubierto durante la Segunda Guerra Mundial*](http://martenduering.com/research/covert-networks-during-the-holocaust/). Mi investigación estuvo guiada por tres preguntas: ¿En qué medida las relaciones sociales pueden ayudar a explicar por qué personas comunes tomaron los riesgos asociados a ayudar a otros? ¿Cómo dichas relaciones permitieron a la gente prestar ayuda dado que tenían a su disposición recursos muy limitados? ¿Cómo ayudaron las relaciones sociales a los refugiados judíos a sobrevivir clandestinamente?  
 
 En este proyecto las visualizaciones en red me ayudaron a descubrir intermediarios hasta el momento olvidados pero muy importantes, resaltar la importancia general de los refugiados judíos como intermediarios, y navegar los casi 5,000 actos de ayuda que conectaron alrededor de 1,400 personas entre 1942 y 1945.   
 
@@ -132,7 +137,8 @@ Una vez hayas creado tu esquema de codificación y hayas codificado tus fuentes,
 
 Todos los editores de hojas de cálculo permiten exportar tablas como .csv (valores separados por comas) o como archivos .txt . Estos archivos pueden ser importados a todas las herramientas de visualización de redes comunmente utilizados (ver lista al final del tutorial). Para tus primeros pasos yo sugiero que pruebes Palladio, una herramienta de fácil uso para visualización de datos que se encuentra en desarrollo activo por parte de la Universidad de Stanford. Palladio corre en navegadores y trabaja independiente de plataforma. Ten en cuenta que aunque Palladio es muy versátil, está diseñada más para visualizaciones rápidas que para análisis de redes sofisticado.
 
-Los siguientes pasos explican cómo visualizar datos en red en Palladio, pero también recomiendo que revises sus propios materiales de inducción y explores sus datos de muestra. Acá, sin embargo, utilizo un [*conjunto de datos ligeramente modificado con base en el esquema de codificación*](https://docs.google.com/spreadsheets/d/1Y9xCnu0ignRYIPi5kqouJ2vRtVMBnMeLW2ka4-p4Q8I/edit?usp=sharing) presentado antes (también lo puedes bajar y utilizarlo para explorar otras herramientas).
+Los siguientes pasos explican cómo visualizar datos en red en Palladio, pero también recomiendo que revises sus propios materiales de inducción y explores sus datos de muestra. Acá, sin embargo, utilizo un *conjunto de datos ligeramente modificado con base en el esquema de codificación*
+[datos 1 - Relaciones](/assets/creating-network-diagrams-from-historical-sources/network-example1-es.csv), [datos 2 - attribute table](/assets/creating-network-diagrams-from-historical-sources/network-example2-es.csv), presentado antes (también lo puedes bajar y utilizarlo para explorar otras herramientas).
 
 Paso a paso:
 
@@ -140,7 +146,7 @@ Paso a paso:
 
 **2. Comienza.** En el sitio web haz clic en el botón "Start".
 
-**3. Carga los atributos de los datos.** De tu hoja de cálculo, copia los atributos de los datos ([*Sample dataset*](https://docs.google.com/spreadsheets/d/1_RzqvgUs-q9fpnyc9MEH4FFYXmuGa2xOmzyEUax6kFk/edit#gid=0), Hoja de cálculo 2) y pégalos en la sección blanca de la página, ahora haz clic en "Load".
+**3. Carga los atributos de los datos.** De tu hoja de cálculo, copia los atributos de los datos [Atributos](/assets/creating-network-diagrams-from-historical-sources/network-example2-es.csv), pégalos en la sección blanca de la página, ahora haz clic en "Load".
 
 {% include figure.html caption="Figura 6: Subiendo los atributos de los datos en Palladio." filename="diagramas-de-redes-06.png" %}
 
@@ -150,7 +156,7 @@ Paso a paso:
 {% include figure.html caption="Figura 7: Vista de los atributos de los datos en Palladio." filename="diagramas-de-redes-07.png" %}
 
 
-**5. Carga los datos relaciones.** Para hacer esto, haz clic en "Persona" y "Add a new table" (Añade una nueva tabla). Ahora pega todos los datos relacionales ([*Datos de muestra*](https://docs.google.com/spreadsheets/d/1_RzqvgUs-q9fpnyc9MEH4FFYXmuGa2xOmzyEUax6kFk/edit#gid=0), Hoja de cálculo 1) en el campo apropiado. Palladio espera identificadores únicos para enlazar la información relacional a la información de atributo por actor. Asegúrate de que esto se alinee bien y evita caracteres irritantes como "/". Palladio te avisará con mensajes de error si esto ocurre. Haz clic en "Load data" (Cargar datos), cierra la ventana superpuesta y regresa a la vista de los datos principales. Deberías ver algo como:
+**5. Carga los datos relaciones.** Para hacer esto, haz clic en "Persona" y "Add a new table" (Añade una nueva tabla). Ahora pega todos los datos [relacionales](/assets/creating-network-diagrams-from-historical-sources/network-example1-es.csv), en el campo apropiado. Palladio espera identificadores únicos para enlazar la información relacional a la información de atributo por actor. Asegúrate de que esto se alinee bien y evita caracteres irritantes como "/". Palladio te avisará con mensajes de error si esto ocurre. Haz clic en "Load data" (Cargar datos), cierra la ventana superpuesta y regresa a la vista de los datos principales. Deberías ver algo como:
 
 {% include figure.html caption="Figura 8: Cargando los datos relacionales." filename="diagramas-de-redes-08.png" %}
 

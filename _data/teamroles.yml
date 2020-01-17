@@ -1,67 +1,239 @@
 # Definitions of editorial sub teams.
-# 
+#
 # type: the tag added in ph_authors.yml
 # label: Short label to be displayed alongside the author bio, and in the roles definition list
 # definition: Brief description of that editorial team. If this is a derived label that uses the definition of another role, instead use...
 # source_role: The role type where the definition for this derived role can be found (e.g. pointing from an ES variant of a role to the original EN definition)
 
-- type: editorial
-  label:
-    en: Editorial Team
-    es: Equipo editorial
-  definition:
-    en: Responsible for editorial work resulting in the review and publication of lessons
-    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones
-- type: community
-  label:
-    en: Community Engagement
-    es: Proyección hacia la comunidad
-  definition:
-    en: Responsible for project outreach and impact
-    es: Responsable de la proyección e impacto del proyecto
 - type: board
   label:
     en: Editorial Board
     es: Consejo editorial
+    fr: Comité éditorial
   definition:
     en: A fully-fledged member of the project team, involved in directing the project's future
     es: Miembro de pleno derecho del equipo del proyecto, encargado de su dirección a futuro
-- type: ombuds
+    fr: Membre à part entière de l'équipe, impliqué dans la direction du projet
+- type: editorial
   label:
-    en: Ombudsperson
-    es: Mediador
+    en: Editorial Team (English)
+    es: Equipo editorial (Inglés)
+    fr: Équipe éditoriale (anglais)
   definition:
-    en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
-    es: Persona a la que los autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
+    en: Responsible for editorial work resulting in the review and publication of English-language lessons
+    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en inglés
+    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en anglais
 - type: spanish
   label:
-    en: Spanish Team
-    es: Equipo español
+    en: Editorial Team (Spanish)
+    es: Equipo editorial (español)
+    fr: Équipe éditoriale (espagnol)
   definition:
-    en: Responsible for the Spanish-language version of the project
-    es: Responsable de la versión en español del proyecto
-- type: technical
+    en: Responsible for editorial work resulting in the review and publication of Spanish-language lessons
+    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en español
+    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en espagnol
+- type: french
   label:
-    en: Technical Team
-    es: Equipo técnico
+    en: Editorial Team (French)
+    es: Equipo editorial (francés)
+    fr: Équipe éditoriale (français)
   definition:
-    en: Responsible for the technical features that bring the content and peer review to our community
-    es: Responsable de las características técnicas respecto al contenido y la revisión por pares a nuestra comunidad
+    en: Responsible for editorial work resulting in the review and publication of French-language lessons
+    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en francés
+    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en français
 - type: managing-en
   label:
     en: Managing Editor
     es: Jefe de redacción
+    fr: Rédacteur/rédactrice en chef
   definition:
     en: First point of contact for authors with lesson ideas
     es: Primer contacto para autores con ideas de lecciones
+    fr: Premier contact pour les auteurs souhaitant proposer une lesson
+- type: ombuds
+  label:
+    en: Ombudsperson
+    es: Mediador
+    fr: Médiateur/médiatrice
+  definition:
+    en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
+    es: Persona a la que los autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
+    fr: Personne que les auteur(e)s et évaluateur(trice)s peuvent consulter pour toute question liée à la procédure de l'évaluation par les pairs ou à la publication
+- type: technical-lead
+  label:
+    en: Technical Lead
+    es: Líder técnico
+    fr: Responsable technique
+  definition:
+    en: Coordinates and trains members of the technical team
+    es: Coordina y forma a los integrantes del equipo técnico
+    fr: Coordonne et forme les membres de l'équipe technique
+- type: technical
+  label:
+    en: Technical Team
+    es: Equipo técnico
+    fr: Équipe technique
+  definition:
+    en: Responsible for the technical features that bring the content and peer review to our community
+    es: Responsable de las características técnicas respecto al contenido y la revisión por pares a nuestra comunidad
+    fr: Responsable des aspects techniques rendant accessibles à notre communauté le contenu et l'évaluation par les pairs
+- type: archive
+  label:
+    en: Archivist
+    es: Archivista
+    fr: Archiviste
+  definition:
+    en: Responsible for archiving the project
+    es: Responsable del archivo del proyecto
+    fr: Responsable de l'archive du projet
+- type: treasurer
+  label:
+    en: Treasurer
+    es: Tesorería
+    fr: Trésorier/trésorière
+  definition:
+    en: Responsible for project finances
+    es: Responsable de las finanzas del proyecto
+    fr: Personne chargée des finances du projet
+- type: sponsorship
+  label:
+    en: Sponsorship Coordinator
+    es: Coordinación de patrocinio
+    fr: Chargé(e) des donations
+  definition:
+    en: Responsible for managing relationships with our sponsors
+    es: Responsable de coordinar las relaciones con las y los patrocinadores
+    fr: Personne chargée des relations avec les sponsors du projet
+- type: communication-manager
+  label:
+    en: Communication Manager
+    es: Mánager de comunicación
+    fr: Responsable de la communication
+  definition:
+    en: Responsible for coordinating efforts of the communication team
+    es: Responsable de la coordinación del equipo de comunicación
+    fr: Responsable de la coordination de l'équipe de communication
+- type: communication
+  label:
+    en: Communication Team
+    es: Equipo de comunicación
+    fr: Équipe de communication
+  definition:
+    en: Responsible for managing and developing communication channels
+    es: Responsable del mantenimiento y creación de canales de comunicación
+    fr: Responsable de la gestion et du développement des canaux de communication
+- type: twitter-dev
+  label:
+    en: Twitter Developer
+    es: Desarrollador de Twitter
+    fr: Développeur Twitter
+  definition:
+    en: Responsible for maintaining the Programming Historian Twitter bot
+    es: Responsable del mantenimiento del bot del Twitter de Programming Historian
+    fr: Responsable de la maintenance du bot Twitter du Programming Historian
+- type: ed-manager
+  label:
+    en: Education Manager
+    es: Mánager de educación
+    fr: Responsable pédagogique
+  definition:
+    en: Responsible for the overall education aspect of the project
+    es: Responsable del aspecto educativo general del proyecto
+    fr: Responsable des aspects pédagogiques du projet
+- type: impact-manager
+  label:
+    en: Impact Manager
+    es: Mánager de impacto
+    fr: Responsable de la valorisation
+  definition:
+    en: Supports, coordinates, and enhances research impact and analytics
+    es: Apoya, coordina y amplía la investigación y análisis del impacto del proyecto
+    fr: Accompagne, coordonne et appuie la valorisation et les travaux d'analyse du projet
+- type: finance-manager
+  label:
+    en: Finance Manager
+    es: Mánager de finanzas
+    fr: Responsable des finances
+  definition:
+    en: Responsible for project finances and fundraising
+    es: Responsable de las finanzas del proyecto y la recaudación de fondos
+    fr: Responsable du financement du projet et de la collecte de fonds
+- type: team-development-manager
+  label:
+    en: Team Development Manager
+    es: Mánager de desarrollo de equipo
+    fr: Responsable du développement de l'équipe
+  definition:
+    en: Responsible for ensuring that everyone on the team is well supported
+    es: Responsable de asegurar que todos en el equipo sean apoyados
+    fr: Responsable de s'assurer que tous les membres de l'équipe reçoivent le soutien nécessaire
+- type: project-manager-at-large
+  label:
+    en: Project Manager at Large
+    es: Mánager de proyectos en general
+    fr: Chef de projet
+  definition:
+    en: Keeping the team focused on achieving its goals in a timely manner
+    es: Mantener al equipo enfocado en lograr sus objetivos de manera puntual
+    fr: Garder l'équipe concentrée sur la réalisation de ses objectifs à l'intérieur des délais prévus
 # --- Derived roles ---
 - type: ombuds-es
   label:
     en: Ombudsperson (Spanish)
     es: Mediador (español)
+    fr: Médiateur/médiatrice (espagnol)
+  source_role: ombuds
+- type: ombuds-fr
+  label:
+    en: Ombudsperson (French)
+    es: Mediador (francés)
+    fr: Médiateur/médiatrice (français)
   source_role: ombuds
 - type: managing-es
   label:
     en: Managing Editor (Spanish)
     es: Jefe de redacción (español)
+    fr: Rédacteur/rédactrice en chef (espagnol)
   source_role: managing-en
+- type: managing-fr
+  label:
+    en: Managing Editor (French)
+    es: Jefe de redacción (francés)
+    fr: Rédacteur/rédactrice en chef (français)
+  source_role: managing-en
+- type: global-lead
+  label:
+    en: Global Lead
+    es: Líder global
+    fr: Responsable global
+  definition:
+    en: Coordinates the Global Team and facilitates communication with other Programming Historian teams.
+    es: Coordina el Equipo Global y facilita la comunicación con el resto de los equipos de Programming Historian.
+    fr: Coordonne l'équipe globale et assure la communication avec les autres équipes du Programming Historian. 
+- type: global
+  label:
+    en: Global Team
+    es: Equipo global
+    fr: Équipe globale
+  definition:
+    en: Managing new global initiatives, as well as trying to improve the cultural and linguistic diversity of the team, our lessons, and of participation in Digital Humanities more generally.
+    es: Coordinar nuevas iniciativas globales, así como tratar de mejorar la diversidad cultural y lingüística del equipo, de nuestras lecciones y de la participación en Humanidades Digitales en general.
+    fr: En charge de nouvelles initiatives à vocation globale, de la diversité culturelle et linguistique de l'équipe et des leçons, et de la participation aux humanités numériques en général.  
+- type: volunteer
+  label:
+     en: Volunteer
+     es: Voluntario
+     fr: Bénévole
+  definition:
+     en: This member's time on the project is wholly voluntary.
+     es: El tiempo que este miembro dedica al proyecto es voluntario.
+     fr: Ce membre contribue son temps sur une base entièrement bénévole.
+- type: institutionally-supported
+  label:
+     en: Institutionally Supported
+     es: Apoyado por su institución
+     fr: Soutenu institutionnellement
+  definition:
+     en: This member's time on the project is either directly or indirectly supported by their employer.
+     es: El tiempo que este miembro dedica al proyecto está directa o indirectamente apoyado por su institución.
+     fr: Le temps que ce membre consacre au projet est directement ou indirectement financé par son employeur.

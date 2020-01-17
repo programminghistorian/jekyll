@@ -9,16 +9,19 @@ editors:
 - Fred Gibbs
 translator:
 - Víctor Gayol
-editor:
-- María José Afanador-Llach
+translation-editor:
+- Maria José Afanador-Llach
 translation-reviewer:
 - Antonio Rojas Castro
 - Maria José Afanador-Llach
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/57
+avatar_alt: Hombre leyendo y escribiendo en un escritorio
 layout: lesson
 difficulty: 2
 activity: sustaining
 topics: [website, data-management]
 abstract: "En este tutorial aprenderás lo básico de Markdown—una sintaxis de marcado para texto plano que es fácil de leer y de escribir así como Pandoc, una herramienta de línea de comandos que convierte el texto plano en varios tipos de archivos bellamente formateados: PDF, .docx, HTML, LaTeX, presentaciones de diapositivas y más."
+original: sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 redirect_from: /es/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 exclude_from_check:
   - reviewers
@@ -54,7 +57,7 @@ Aquí es donde brilla Markdown. Markdown es una sitaxis para el marcado semánti
 
 Escribir en esta forma libera al autor de la herramienta. Markdown se puede escribir en cualquier editor de texto y ofrece un rico ecosistema de *software* que puede representar ese texto en documentos con aspecto atractivo. Por esta razón, Markdown está experimentando un periodo de crecimiento, no solamente como un medio para la escritura de documentos académicos sino como una convención para la edición en línea en general.
 
-Los editores de texto para todo prósito más populares incluyen [TextWrangler](http://www.barebones.com/products/textwrangler/) y [Sublime](http://www.sublimetext.com) para Mac, [Notepad++](http://notepad-plus-plus.org) para Windows, así como Gedit y Kate para Linux. Sin embargo, también hay editores de texto que se especializan en visualizar y editar Markdown.
+Los editores de texto para todo prósito más populares incluyen [Atom](https://atoms.io/) (para todas las plataformas) y [Notepad++](http://notepad-plus-plus.org) (para Windows).
 
 Es importante entender que Markdown no es más que una convención. Los archivos Markdown se almacenan como texto plano, además de añadir la flexibilidad del formato. Los archivos de texto plano han existido desde los tiempos de las máquinas de escribir eléctrónicas. La longevidad de este estándar hace, de manera inherente, que sean más sostenibles y más estables que los formatos propietarios. Mientras que los archivos producidos hace diez años en Microsfot Word o en Pages de Apple pueden causar serios problemas cuando se abren con la última versión del programa, aún es posible abrir un archivo de texto plano escrito en alguno de los editores de texto "muertos", del pasado, muchas décadas después: AlphaPlus, Perfect Writer, Text Wizard, Spellbinder, WordStar o SCRIPSIT2.0, el favorito de Isaac Asimov producido por Radio Shack. Escribir en texto plano te garantiza que tus archivos permanecerán legibles diez, quince o veinte años a partir de ahora. En esta lección se describe un flujo de trabajo que libera al investigador de programas de procesamiento de texto propietarios y archivos de formatos frágiles.
 
@@ -80,7 +83,7 @@ Markdown y LaTeX responden a todas estas exigencias. Elegimos Markdown (y no LaT
 
 Expresamente omitiremos algunos detalles menudos relacionados con la instalación del *software* listado abajo para cada plataforma o sistema. Por ejemplo, no tiene sentido proporcionar las instrucciones de instalación para LaTeX cuando las instrucciones en línea para tu sistema operativo siempre serán más completas y actualizadas. De la misma manera la mecánica de la instalación de Pandoc se obtiene de manera más completa si buscas en Google "installing Pandoc", con lo que probablemente el primer resultado sea la página principal de Pandoc.
 
-- **Editor de Texto Plano**. Entrar al mundo de la edición en texto plano amplía tu capacidad de seleccionar herramientas innovadoras de manera espectacular. Busca en línea "markdown text editor" y experimenta con las opciones. No importa lo que utilices siempre que sea explícitamente un editor de texto plano. *Notepad++* en Windows o *TextWrangler* en Mac son opciones sencillas y libres. Recuerda: ya no estamos atados a la herramienta, se puede cambiar de editor en cualquier momento.
+- **Editor de Texto Plano**. Entrar al mundo de la edición en texto plano amplía tu capacidad de seleccionar herramientas innovadoras de manera espectacular. Busca en línea "markdown text editor" y experimenta con las opciones. No importa lo que utilices siempre que sea explícitamente un editor de texto plano como Atom o Notepad++. Recuerda: ya no estamos atados a la herramienta, se puede cambiar de editor en cualquier momento.
 
 - **Terminal de línea de comandos.** Trabajar en la "línea de comandos" es lo mismo que escribir comandos en la terminal. En Mac sólo tienes que utilizar tu *Finder* para acceder a "Terminal". En Windows utiliza *PowerShell*. Es probable que los usuarios de Linux ya estén familiarizados con sus terminales. A continuación, vamos a cubrir los conceptos más basicos de cómo encontrar y utilizar la línea de comandos.
 
@@ -96,7 +99,7 @@ Recomendamos que instales los dos siguientes programas de aplicación, aunque no
 
 Markdown es una convención para estructurar tus documentos en texto plano de una manera semántica. La idea es identificar estructuras lógicas en tu documento (un título, una sección, subsecciones, notas al pie, etc.), marcarlas con algunos caracteres distintivos y luego "compilar" el texto resultante con un intérprete de composición tipográfica que dará forma al documento en consonancia con el estilo especificado.
 
-Las convenciones para Markdown están disponibles en varios tipos o "*flavors*", diseñados para su uso en contextos particulares como blogs, *wikis* o repositorios de código. El *flavor* de Markdown utilizado por Pandoc está orientado para un uso académico. Sus convenciones están descritas en la página de [Pandoc's Markdown](http://pandoc.org/README.html#pandocs-markdown). Estas convenciones incluyen el ["YAML" block](http://johnmacfarlane.net/pandoc/README.html#yaml-metadata-block), que contiene una serie de metadatos muy útiles.
+Las convenciones para Markdown están disponibles en varios tipos o "*flavors*", diseñados para su uso en contextos particulares como blogs, *wikis* o repositorios de código. El *flavor* de Markdown utilizado por Pandoc está orientado para un uso académico. Sus convenciones están descritas en la página de [Pandoc's Markdown](http://pandoc.org/README.html#pandocs-markdown). Estas convenciones incluyen el ["YAML" block](http://johnmacfarlane.net/pandoc/README.html#yaml-metadata-block), que contiene una serie de metadatos muy útiles. [^ft-1]
 
 Vamos a crear ahora un documento simple en Markdown. Abre tu editor de texto plano seleccionado y escribe algo que debe tener un aspecto como el siguiente:
 
@@ -105,25 +108,29 @@ Vamos a crear ahora un documento simple en Markdown. Abre tu editor de texto pla
 title: Flujo de trabajo en texto plano
 author: Gabriel García
 date: 20 de enero de 2014
+fontfamily: times
 ---
 ```
 
 El Markdown "Pandoc-flavored" almacena cada uno de los valores anteriores y los "imprime" en la ubicación apropiada de tu documento de salida una vez que está listo para la composición tipográfica. Más adelante aprenderemos a incluir campos más potentes en YAML. Por ahora, vamos a suponer que estamos escribiendo un documento compuesto por tres secciones, cada una subdividida en dos. Hay que dejar una línea en blanco después de los tres últimos guiones del bloque YAML para que puedas pegar lo que sigue:
 
 ```
-# Sección 1  
+# Sección 1
 
-## Subsección 1.1  
+## Subsección 1.1
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 El siguiente párrafo debe empezar como éste, sin sangría:
 
 ## Subsección 1.2
+
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-    
+
 # Sección 2
 
 ## Subsección 2.1
+
 ```
 
 Sigue adelante e introduce cualquier texto de relleno. Los espacios vacíos tienen significado en Markdown por lo que no debes poner sangría en los párrafos pero sí es importante que separes los párrafos con una línea en blanco. Las líneas en blanco también deben preceder a los encabezados de sección.
@@ -151,16 +158,18 @@ author: Gabriel García
 date: 20 de enero de 2014
 ---
 
-# Sección 1  
+# Sección 1
 
-## Subsección 1.1  
+## Subsección 1.1
+
 Lorem *ipsum* dolor sit amet, **consectetur** adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 El siguiente párrafo debe empezar como este, sin sangría:
 
 ## Subsección 1.2
+
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque  ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-    
+
 # Sección 2
 
 ## Subsección 2.1
@@ -193,9 +202,10 @@ Antes de que podamos publicar nuestro archivo `principal.md` en otros formatos, 
 
 La interfaz de línea de comandos es un sitio amigable una vez que te acostumbras a ella. Si ya te es familiar la utilización de línea de comandos, puedes saltarte esta sección. Para el resto de lectores, es importante entender que al usar la terminal directamente podrán acceder a una amplia gama de herramientas de investigación poderosas que de otra manera es imposible, y será la base para trabajos más avanzados. Para el propósito de este tutorial necesitas aprender solamente unos cuantos comandos muy sencillos.
 
-Primero, abre una nueva ventana de línea de comandos. Si utilizas una Mac, abre Terminal en el directorio `Aplicaciones/Utilidades`. En Windows utilizarás PowerShell. En Windows 7 o posterior, haz clic en "Inicio" y escribe "powershell" en "Buscar programas o archivos" y pulsa "Enter". Para instrucciones detalladas de cómo usar la línea de comandos, se puede consultar el excelente curso de Zed A. Shaw *[Command Line Crash Course.](http://cli.learncodethehardway.org/book/)* (**Nota del traductor:** la sintaxis de línea de comandos que se muestra a continuación corresponde a Mac-OSX).
+Primero, abre una nueva ventana de línea de comandos. Si utilizas una macOS, abre Terminal en el directorio `Aplicaciones/Utilidades`. En Windows utilizarás PowerShell. En Windows 7 o posterior, recomendamos que utilices el "poweshell" o, para una solución más robusta, instala el subsistema de Windows para Linux y utiliza la terminal que viene con tu distribución Linux favorita. Para una excelente introducción a la línea de comando, consulta "[Introduction to the Bash Command
+Line](/es/lecciones/introduccion-a-bash)" por Ian Milligan y James Baker.
 
-Una vez abierto verás una ventana de texto y un puntero (*prompt*) que puede verse más o menos como esto: `nombre-del-ordenador:~nombre-de-usuario$`. La tilde indica que estás en el directorio de usuario, y de hecho puedes escribir `$ cd ~`en cualquier punto para regresar a tu directorio de usuario. No escribas el símbolo de moneda pues solamente indica el puntero de tu terminal, solicitándote que escribas algo en la terminal (como opuesto a que escribas algo en un documento); recuerda introducir Enter después de escribir cada comando.
+En el terminal debe ver una ventana de texto y un puntero (*prompt*) que puede verse más o menos como esto: `nombre-del-ordenador:~nombre-de-usuario$`. La tilde indica que estás en el directorio de usuario, y de hecho puedes escribir `$ cd ~`en cualquier punto para regresar a tu directorio de usuario. No escribas el símbolo de moneda pues solamente indica el puntero de tu terminal, solicitándote que escribas algo en la terminal (como opuesto a que escribas algo en un documento); recuerda introducir Enter después de escribir cada comando.
 
 Es muy común que tu carpeta "Documents" esté localizada en este directorio. Escribe `$ pwd` (= "*print working directory*") y oprime Enter para mostrar el nombre del directorio actual. Utiliza `$ pwd` cada vez que sientas que te has extraviado.
 
@@ -205,16 +215,16 @@ Estos tres comandos de terminal: `pwd`, `ls` y `cd` es todo lo que necesitas en 
 
 ## Usar Pandoc para convertir Markdown a un documento de MS Word
 
-¡Ya estamos listos para la composición tipográfica! Abre la ventana de tu terminal, utiliza `$ pwd`y `$ cd` para navegar hasta la carpeta en la que se encuentra tu proyecto. Una vez que estés ahí escribe `$ ls` en la terminal para enlistar los archivos. Si ves tu archivo `.md` y tus imágenes te encuentras en el lugar correcto. Para convertir `.md` a `.docx` escribe:
+¡Ya estamos listos para la composición tipográfica! Abre la ventana de tu terminal, utiliza `$ pwd`y `$ cd` NOMBRE_DE_LA_CARPETA para navegar hasta la carpeta en la que se encuentra tu proyecto. Una vez que estés ahí escribe `$ ls` en la terminal para enlistar los archivos. Si ves tu archivo `.md` y tus imágenes te encuentras en el lugar correcto. Para convertir `.md` a `.docx` escribe:
 
 ```
-$ pandoc -o principal.docx principal.md
+$ pandoc principal.md -o principal.docx
 ```
 
-Abre el arhivo con MS Word para contejar tus resultados. Si utilizas Open o Libre Office puedes ejecutar:
+Abre el arhivo con MS Word para contejar tus resultados. Si utilizas Open- o Libre Office puedes ejecutar:
 
 ```
-$ pandoc -o principal.odt principal.md
+$ pandoc principal.md -o principal.odt
 ```
 
 Si la linea de comandos es una novedad para ti, imagina que lees los comandos anteriores y que dicen algo como: "Pandoc: crea un archivo MS Word a partir de mi archivo Markdown." La partícula `-o` es una "bandera" que en este caso dice algo como "en vez de que explícitamente tenga yo que indicarte la fuente y el objeto de los formatos de archivos, adivina con sólo ver la extensión de los archivos." Hay muchas opciones disponibles en Pandoc a través de estas "banderas". Puedes ver la lista completa en el [sitio web de Pandoc](http://johnmacfarlane.net/pandoc/README.html), o escribiendo en la terminal:
@@ -226,7 +236,7 @@ $ man pandoc
 Intenta ejecutar el comando:
 
 ```
-$ pandoc -o proyecto.html principal.md
+$ pandoc principal.md -o proyecto.html
 ```
 
 Ahora navega de nuevo por el directorio de tu proyecto. ¿Puedes decir qué sucedió?
@@ -237,11 +247,16 @@ Los usuarios más avanzados que tienen instalado LaTeX querrán experimentar con
 $ pandoc -o principal.pdf principal.md
 ```
 
-Con el tiempo serás capaz de afinar el formato de tus documentos PDF con un archivo de estilo LaTeX específico (guardado en el mismo directorio) y ejecutando algo como esto:
+Asegúrate que tu editor de texto soporte el formato de codificación UTF-8. Cuando utilices LaTeX para convertir al formato .pdf, en vez del atributo `fontfamily` en YAML para cambiar la fuente, especifica el atributo `mainfont` para producir algo como esto:
 
-```
-$ pandoc -H formato.sty -o proyecto.pdf --number-sections --toc proyecto.tex
-```
+   ---
+    title: Flujo de trabajo en texto plano
+    author: Dennis Tenen, Grant Wythoff
+    date: 20 de enero de 2014
+    mainfont: times
+   ---
+
+[^ft-1]: Ten en cuenta que a menudo el YAML replica algo, aunque no todo, de la funcionalidad (bandera) de la línea de comando. Por ejemplo, los estilos de fuentes pueden pasarse a Pandoc en la forma de `pandoc principal.md --mainfont=times -o target.pdf`. Sin embargo, preferimos utilizar las opciones de, encabezado YAML siempre cuando sea posible, pues hace la funcionalidad de nuestra línea de comandos más fácil de escribir y recordar. Utilizando una herramienta de control de cambios como Git preservará tus cambios al YAML, mientras lo que escribes en la terminal es más efímero. Consulta la sección de plantillas en el manual de Pandoc (`man pandoc`) para ver la lista de variables YAML disponibles.
 
 ## Trabajar con bibliografías
 
@@ -273,7 +288,7 @@ Edita la nota a pie de página en la primera línea de tu archivo `principal.md`
 - `Una referencia bibliográfica formateada como ésta se traducirá apropiadamente tanto en un estilo de citación en texto -como en nota a pie- [@nombre_título_fecha, 67].`[^7]
 - `"Para citas entrecomilladas, pon la coma afuera de los signos de las comillas" [@nombre_título_fecha, 67].`
 
-Una vez que ejecutes el markdown a través de Pandoc, "@fyfe\_digital\_2011" se ampliará a una citación completa en el estilo que hayas seleccionado. Puedes usar la sintaxis `@citacion` de cualquier manera que veas que encaja: dentro de las líneas de tu texto o en las notas a pie. Para generar una bibliografía simplemente incluye una sección llamada `# Bibliography` al final del documento.
+Una vez que ejecutes el markdown a través de Pandoc, "@fyfe\_digital\_2011" se ampliará a una citación completa en el estilo que hayas seleccionado. Puedes usar la sintaxis `@citacion` de cualquier manera que veas que encaja: dentro de las líneas de tu texto o en las notas a pie. Para generar una bibliografía simplemente incluye una sección llamada `# Bibliografía` al final del documento.
 
 Ahora, vayamos de nuevo a nuestro bloque de metadatos en el encabezado de tu documento `.md`, y especifica el archivo de bibliografía que deberá utilizarse, algo como:
 
@@ -289,14 +304,14 @@ bibliography: proyecto.bib
 Esto le dice a Pandoc que busque tu bibliografía en el archivo `proyecto.bib` dentro del mismo directorio de tu archivo `principal.md`. Veamos si esto trabaja. Guarda tu archivo, ve a la ventana de terminal y ejecuta:
 
 ```
-$ pandoc -S -o principal.docx --filter pandoc-citeproc principal.md
+$ pandoc principal.docx --filter pandoc-citeproc -o principal.md
 ```
 
-La bandera de una `S` mayúscula significa "smart", un modo que produce "archivos de salida tipográficamente correctos, convirtiendo comillas rectas en comillas curvas, guiones cortos en guiones largos, guiones largos en cortos, y tres puntos en puntos suspensivos." El filtro "pandoc-citeproc" compila todas tus etiquetas de citas. El resultado debe ser un archivo de MS Word formateado decentemente. Si tienes instalado LaTeX, conviértelo a .pdf utilizando la misma sintaxis para mejores resultados. No te preocupes si las cosas no aparecen exactamente de la manera que tú quisieras -recuerda que vas a afinar el formato de todo una vez y más tarde, lo más cerca posible del momento de la publicación. Por ahora solamente estamos creando borradores basados en valores por defecto.
+El filtro "pandoc-citeproc" compila todas tus etiquetas de citas. El resultado debe ser un archivo de MS Word formateado decentemente. Si tienes instalado LaTeX, conviértelo a .pdf utilizando la misma sintaxis para mejores resultados. No te preocupes si las cosas no aparecen exactamente de la manera que tú quisieras -recuerda que vas a afinar el formato de todo una vez y más tarde, lo más cerca posible del momento de la publicación. Por ahora solamente estamos creando borradores basados en valores por defecto.
 
 ## Cambiar los estilos de citación
 
-El estilo de citación por defecto en Pandoc es el de Chicago autor-fecha. Podemos especificar un estilo diferente utilizando una hoja de estilo escrita en "lenguaje de estilo de citación" (CSL por *citation style language*, otra convención en texto plano utilizada para describir estilos de citas) y que es designado por la extensión de archivo `.csl`. Afortunadamente, el proyecto CSL mantiene un repositorio de estilos de citaciones comunes, algunas incluso ajustadas a ciertas revistas en específico. Visita <http://editor.citationstyles.org/about/> para encontrar el archivo `.csl` para el estilo Modern Language Association (MLA), descarga el archivo `modern-language-association.csl` y guárdalo en la carpeta de tu proyecto como `mla.csl`. Ahora, necesitamos indicarle a Pandoc que utilice la hoja de estilo de MLA en vez de la de Chicago que tiene por defecto. Haremos esto actualizando el encabezado o bloque YAML:
+El estilo de citación por defecto en Pandoc es el de Chicago Autor-fecha. Podemos especificar un estilo diferente utilizando una hoja de estilo escrita en "lenguaje de estilo de citación" (CSL por *citation style language*, otra convención en texto plano utilizada para describir estilos de citas) y que es designado por la extensión de archivo `.csl`. Afortunadamente, el proyecto CSL mantiene un repositorio de estilos de citaciones comunes, algunas incluso ajustadas a ciertas revistas en específico. Visita <http://editor.citationstyles.org/about/> para encontrar el archivo `.csl` para el estilo Modern Language Association (MLA), descarga el archivo `modern-language-association.csl` y guárdalo en la carpeta de tu proyecto como `mla.csl`. Ahora, necesitamos indicarle a Pandoc que utilice la hoja de estilo de MLA en vez de la de Chicago que tiene por defecto. Haremos esto actualizando el encabezado o bloque YAML:
 
 ```
 ---
@@ -308,10 +323,10 @@ csl: mla.csl
 ---
 ```
 
-utiliza entonces el mismo comando:
+Después simplemente utiliza la funcionalidad de Pandoc para transformar tu archivo de markdown a tu formato objetivo (.pdf o .docx):
 
 ```
-$ pandoc -S -o principal.docx --filter pandoc-citeproc principal.md
+$ pandoc principal.md --filter pandoc-citeproc -o principal.pdf
 ```
 
 ## Resumen
@@ -331,7 +346,7 @@ Trata tus archivos de origen como versiones autorizadas de tu texto y los archiv
 
 ## Recursos útiles
 
-En caso de meterte en problemas no hay un mejor lugar para empezar a buscar soluciones que el [sitio web de Pandoc](http://johnmacfarlane.net/pandoc/) de John MacFarlane y la [lista de correos](https://groups.google.com/forum/#!forum/pandoc-discuss) afiliada (en inglés). Al menos en dos sitios de tipo "Pregunta y respuesta" puedes encontrar respuestas a preguntas sobre Pandoc: [Stack Overflow](http://stackoverflow.com/questions/tagged/pandoc) y [Digital Humanities Q&A](http://digitalhumanities.org/answers/). Puedes hacer preguntas en vivo en Freenode IRC, \#Pandoc channel, frecuentado por un amistoso grupo de asiduos. A medida que aprendas más acerca de Pandoc, puedes explorar una de sus particularidades más poderosa: [filtros](https://github.com/jgm/pandoc/wiki/Pandoc-Filters).
+En caso de meterte en problemas no hay un mejor lugar para empezar a buscar soluciones que el [sitio web de Pandoc](http://johnmacfarlane.net/pandoc/) de John MacFarlane y la [lista de correos](https://groups.google.com/forum/#!forum/pandoc-discuss) afiliada (en inglés). Al menos en dos sitios de tipo "Pregunta y respuesta" puedes encontrar respuestas a preguntas sobre Pandoc: [Stack Overflow](http://stackoverflow.com/questions/tagged/pandoc) y [Digital Humanities Q&A](http://web.archive.org/web/20190203062832/http://digitalhumanities.org/answers/). Puedes hacer preguntas en vivo en Freenode IRC, \#Pandoc channel, frecuentado por un amistoso grupo de asiduos. A medida que aprendas más acerca de Pandoc, puedes explorar una de sus particularidades más poderosa: [filtros](https://github.com/jgm/pandoc/wiki/Pandoc-Filters).
 
 Aunque te sugerimos comenzar con un simple editor de texto plano, hay muchas más alternativas (más de 70, de acuerdo con [esta entrada de blog](http://web.archive.org/web/20140120195538/http://mashable.com/2013/06/24/markdown-tools/) a MS Word para trabajar específicamente con Markdown, disponibles en línea y a menudo sin costo. Para las autónomas nos gustan [Mou](http://mouapp.com/), [Write Monkey](http://writemonkey.com), y [Sublime Text](http://www.sublimetext.com/). Varias plataformas web que han surgido recientemente proporcionan interfaces gráficas adecuadas para desarrollar una escritura colaborativa con seguimiento de cambios en las versiones utilizando Markdown. Éstas incluyen: [prose.io](http://prose.io), [Authorea](http://www.authorea.com), [Penflip](http://www.penflip.com), [Draft](http://www.draftin.com), y [StackEdit](https://stackedit.io).
 
@@ -341,7 +356,7 @@ Finalmente, se están creando plataformas de publicación enteras basadas en el 
 
 [^1]: ¡No te preocupes si no entiendes aún esta terminología!
 
-[^2]: Los archivos fuente de este documento se pueden [descargar de GitHub](https://github.com/dhcolumbia/pandoc-workflow). Utiliza la opción "raw" cuando lo veas en GitHub para observar la fuente de Markdown. Los autores queremos agradecer a Alex Gil y sus colegas del Columbia's Digital Humanities Center, y a los participantes de openLab en el Studio de la Bilioteca Butler por probar el código de este tutorial en diversas plataformas.
+[^2]: [GitHub](https://github.com/dhcolumbia/pandoc-workflow). Utiliza la opción "raw" cuando lo veas en GitHub para observar la fuente de Markdown. Los autores queremos agradecer a Alex Gil y sus colegas del Columbia's Digital Humanities Center, y a los participantes de openLab en el Studio de la Bilioteca Butler por probar el código de este tutorial en diversas plataformas.
 
 [^3]: Véase la excelente discusión sobre este tema, por Charlie Stross, en [Why Microsoft Word Must Die](http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html).
 

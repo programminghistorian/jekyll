@@ -10,21 +10,27 @@ editors:
 reviewers:
 - Jim Clifford
 - Francesca Benatti
+- Frederik Elwert
 translator:
 - Víctor Gayol
+translation-editor:
+- Adam Crymble
 translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/46
 layout: lesson
 next: contar-frecuencias
 previous: de-html-a-lista-de-palabras-2
+original: normalizing-data
 redirect_from: /es/lessons/normalizing-data
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: transforming
 topics: [python]
-abstract: "En esta lección haremos que la lista que creamos en'De HTML a lista de palabras (parte 2)' sea más fácil de analizar al “normalizar” los datos." 
+abstract: "En esta lección haremos que la lista que creamos en'De HTML a lista de palabras (parte 2)' sea más fácil de analizar al “normalizar” los datos."
+avatar_alt: Ilustración de dos personas caminando agarradas del brazo. 
 ---
 
 {% include toc.html %}
@@ -51,20 +57,20 @@ En [De HTML a lista de palabras (parte 2)][], escribimos un programa en Python l
 Regresa a tu programa *html-a-lista-1.py* y asegúrate de que tus resultados se vean como algo por el estilo de esto:
 
 ``` python
-['324.', '\xc2\xa0', 'BENJAMIN', 'BOWSEY', '(a', 'blackmoor', ')', 'was', 
-'indicted', 'for', 'that', 'he', 'together', 'with', 'five', 'hundred', 
-'other', 'persons', 'and', 'more,', 'did,', 'unlawfully,', 'riotously,', 
-'and', 'tumultuously', 'assemble', 'on', 'the', '6th', 'of', 'June', 'to', 
-'the', 'disturbance', 'of', 'the', 'public', 'peace', 'and', 'did', 'begin', 
-'to', 'demolish', 'and', 'pull', 'down', 'the', 'dwelling', 'house', 'of', 
-'\xc2\xa0', 'Richard', 'Akerman', ',', 'against', 'the', 'form', 'of', 
-'the', 'statute,', '&amp;c.', '\xc2\xa0', 'ROSE', 'JENNINGS', ',', 'Esq.', 
-'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be', 'in', 'this', 'part', 
-'of', 'the', 'town,', 'on', 'the', '6th', 'of', 'June', 'in', 'the', 
-'evening?', '-', 'I', 'dined', 'with', 'my', 'brother', 'who', 'lives', 
-'opposite', 'Mr.', "Akerman's", 'house.', 'They', 'attacked', 'Mr.', 
-"Akerman's", 'house', 'precisely', 'at', 'seven', "o'clock;", 'they', 
-'were', 'preceded', 'by', 'a', 'man', 'better', 'dressed', 'than', 'the', 
+['324.', '\xc2\xa0', 'BENJAMIN', 'BOWSEY', '(a', 'blackmoor', ')', 'was',
+'indicted', 'for', 'that', 'he', 'together', 'with', 'five', 'hundred',
+'other', 'persons', 'and', 'more,', 'did,', 'unlawfully,', 'riotously,',
+'and', 'tumultuously', 'assemble', 'on', 'the', '6th', 'of', 'June', 'to',
+'the', 'disturbance', 'of', 'the', 'public', 'peace', 'and', 'did', 'begin',
+'to', 'demolish', 'and', 'pull', 'down', 'the', 'dwelling', 'house', 'of',
+'\xc2\xa0', 'Richard', 'Akerman', ',', 'against', 'the', 'form', 'of',
+'the', 'statute,', '&amp;c.', '\xc2\xa0', 'ROSE', 'JENNINGS', ',', 'Esq.',
+'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be', 'in', 'this', 'part',
+'of', 'the', 'town,', 'on', 'the', '6th', 'of', 'June', 'in', 'the',
+'evening?', '-', 'I', 'dined', 'with', 'my', 'brother', 'who', 'lives',
+'opposite', 'Mr.', "Akerman's", 'house.', 'They', 'attacked', 'Mr.',
+"Akerman's", 'house', 'precisely', 'at', 'seven', "o'clock;", 'they',
+'were', 'preceded', 'by', 'a', 'man', 'better', 'dressed', 'than', 'the',
 'rest,', 'who']
 ```
 
@@ -83,16 +89,16 @@ Típicamente los componentes léxicos (*tokens*) son compactados como minúscula
 
 ``` python
 # html-a-lista-1.py
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 html = respuesta.read()
 texto = obo.quitarEtiquetas(html).lower() #incluye el metodo de cadena aqui
 listaPalabras = texto.split()
 
-print(listaPalabras[0:120])
+print((listaPalabras[0:120]))
 ```
 
 Ahora debes ver la misma lista de palabras que antes pero con todos los caracteres en minúsculas.
@@ -127,13 +133,13 @@ En Python, las expresiones regulares están disponibles como un módulo de Pytho
 Dado que nos interesan solamente los caracteres alfanuméricos, vamos a crear una expresión regular que aislará sólo estos y eliminará el resto. Copia la siguiente función y pégala al final del módulo *obo.py*. Puedes dejar las otras funciones en el módulo solo, ya que seguiremos utilizándolas.
 
 ``` python
-# Dada una cadena de caracteres, retira todos los caracteres 
+# Dada una cadena de caracteres, retira todos los caracteres
 # no-alfanuméricos (utilizando la definición Unicode de alfanumérico).
 
 def quitaNoAlfaNum(texto):
     import re
     return re.compile(r'\W+', re.UNICODE).split(texto)
-``` 
+```
 
 La expresión regular en el código anterior es el material dentro de la cadena, en otras palabras `W+`. La `W` es la abreviatura de la clase de *caracteres no-alfanuméricos*. En una expresión regular de Python, el signo de adición (+) coincide con una o más copias de un carácter dado. La expresión `re.UNICODE` le dice al intérprete que queremos que incluya los caracteres de todas las lenguas del mundo en nuestra definición de "alfanumérico", así como de la A a la Z, de a-z y de 0-9 en inglés. Las expresiones regulares deben ser compiladas antes de poder ser utilizadas, que es lo que hace el resto de la declaración. No te preocupes en entender ahora mismo la parte de la compilación.
 
@@ -141,11 +147,11 @@ Cuando redefinamos nuestro programa *html-a-lista-1.py*, entonces se verá como 
 
 ``` python
 # html-a-lista-1.py
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 html = respuesta.read()
 texto = obo.quitarEtiquetas(html).lower()
 listaPalabras = obo.quitaNoAlfaNum(texto)
@@ -166,12 +172,12 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 -   python-es-lecciones4.zip ([zip sync][])
 
 [De HTML a lista de palabras (parte 2)]: /es/lecciones/de-html-a-lista-de-palabras-2
-  [web page]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-  [De HTML a lista de palabras (parte 1)]: /es/lecciones/de-html-a-lista-de-palabras-1
-  [Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
-  [Unicode]: http://unicode.org/
-  [soporte de Python]: http://www.diveintopython.net/xml_processing/unicode.html
-  [Dive into Python]: http://www.diveintopython.net/regular_expressions/index.html
-  [zip]: http://programminghistorian.org/assets/python-es-lecciones3.zip
-  [zip sync]: http://programminghistorian.org/assets/python-es-lecciones4.zip
-  [página Web]: https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
+[web page]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
+[De HTML a lista de palabras (parte 1)]: /es/lecciones/de-html-a-lista-de-palabras-1
+[Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
+[Unicode]: http://unicode.org/
+[soporte de Python]: https://web.archive.org/web/20180502053841/http://www.diveintopython.net/xml_processing/unicode.html
+[Dive into Python]: https://web.archive.org/web/20180416143856/http://www.diveintopython.net/regular_expressions/index.html
+[zip]: /assets/python-es-lecciones3.zip
+[zip sync]: /assets/python-es-lecciones4.zip
+[página Web]: https://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33

@@ -1,0 +1,7 @@
+{% comment %}
+Loops through members of authors to create an acknowledgement sentence. This is used both on project-team.md as well as es/equipo-de-proyecto.md
+{% endcomment %}
+
+
+{% assign authors = site.data.ph_authors | where: "team", "false" | map: "name" %}
+{{ authors | join: ", "}},

@@ -1,9 +1,14 @@
 ---
 title: Equipo de proyecto
 layout: blank
+original: project-team
 ---
 
-Nuestro equipo editorial trabaja en conjunto para ayudar a los autores a producir tutoriales de alta calidad. Por favor, dirige tu correspondencia, en primer lugar, a <a href="mailto:rojas.castro.antonio@gmail.com">Antonio Rojas Castro</a>. Puedes seguir *The Programming Historian* en Twitter (en inglés): [@proghist](http://twitter.com/proghist).
+Por favor, dirige tu correspondencia, en primer lugar a:
+
+{% include managing-editor-loop.html %}
+
+Puedes seguir _Programming Historian_ en Twitter: [@proghist](http://twitter.com/proghist).
 
 ## Consejo editorial
 
@@ -12,21 +17,23 @@ All editorial board information should be edited in data/ph_authors.yml. Authors
 {% endcomment %}
 {% include project-team-loop.html %}
 
-## Miembros eméritos del equipo
+## Historia de los miembros del equipo editorial
 
-* Jeremy Boggs, University of Virginia (2012-2014).
-* Allison Hegel, UCLA (2013-2016).
-* Alan MacEachern, Western University (2008-2013).
-* Miriam Posner, UCLA (2012-2016).
-* Carrie Sanders, UCLA (2013-2014).
-* Evan Taparata, University of Minnesota (2016).
-* William J. Turkel, Western University (2008-2015).
+{% include team_history.html %}
 
 ## Participantes de la comunidad
 
 *Programming Historian* también se beneficia enormemente de los esfuerzos de las personas que ofrecen su tiempo y energía. Si estás interesado en unirte, ya sea con un proyecto único o con una actividad continuada, por favor ¡descubre [cómo contribuir](/es/contribuciones) y lee sobre nuestro [flujo de trabajo](/es/guia-para-autores)!
 
-También queremos dar las gracias a todas las personas que han ayudado revisando lecciones, reportando problemas, arreglando errores, u organizando talleres basados en *The Programming Historian*:
+Agradecemos especialmente a los autores que han contribuido a _Programming Historian_ y que no son miembros del equipo del proyecto:
+
+{% include authors_loop.html %} ¡y esperemos que tú también! Consulta cómo [convertirte en autor](/es/contribuciones).
+
+También queremos dar las gracias a todas las personas que han ayudado a revisar las lecciones, reportando problemas mediante *issues*, arreglando errores, organizando talleres basados en *The Programming Historian*, traduciendo y editando. En el momento en que escribimos estas líneas, la lista de agradecimientos incluye a las siguientes personas:
+
+{% include collaborators_loop.html %} ¡y esperamos que tú tambien! Consulta al respecto [cómo contribuir](/es/contribuciones).
+
+Finalmente, queremos agradecer a aquellas personas que han participado en la organización, ejecución, dirección o apoyo de talleres que involucran al proyecto y al Equipo del Proyecto:
 
 * Anelda van der Walt, Talarify (South Africa)
 * Johann Templehoff, North-West University (South Africa)
@@ -38,3 +45,4 @@ También queremos dar las gracias a todas las personas que han ayudado revisando
 * Carys Brown, University of Cambridge
 * James Baker, University of Sussex
 * Anouk Lang, University of Edinburgh
+

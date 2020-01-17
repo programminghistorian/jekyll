@@ -1,0 +1,24 @@
+# Programming Historian Lesson Proposal
+
+If you are interested in writing a lesson and submitting it to the Programming Historian, please fill in this form to give the Editorial Board enough detail to comment on your idea. If you are experiencing difficulty with the form you can contact our Managing Editor directly:
+
+English: Anandi Silva Knuppel (anandi.silva.knuppel@emory.edu)
+Spanish: Maria José Afanador Llach (mj.afanador28@uniandes.co)
+French: Sofia Papastamkou (spapastamkou@gmail.com)
+
+
+## About You
+1. Your name
+2. Your email address
+
+## Lesson Metadata
+3. Submission Langauge (delete as appropriate) English / Español / Français
+4. Proposed Lesson Title
+5. Lesson Abstract (3-4 sentences)
+6. Case Study Description (details about your historical example problem)
+7. Learning Outcomes (between 2-3)
+8. Research Phase most relevant to your lesson (delete as appropriate) Acquire / Transform / Analyze / Present / Sustain
+9. Research Area most relevant to your lesson (delete as appropriate) APIs / python / data management / data manipulation / distant reading / set up / linked open data / mapping / network analysis / web scraping / digital publishing / other
+10. Intended Submission Date
+11. Lesson will use open technology and data at no cost to the reader Yes / No
+12. Any other comments for the editor

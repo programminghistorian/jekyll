@@ -1,0 +1,32 @@
+{% comment %}
+Attached to all pages, this include will check two things:
+
+1. IF this page is known to be a translation of another page because its YAML contains an `original` tag, then the first section of this workflow searches across the site to find the 1 matching page that is the `translation_source`
+
+1. Are there are any translations of this page elsewhere on the site. This checks both for
+  a) Direct translations that have this page listed under their 'original' metadata
+  b) Indirect translations that share the same 'original' as this page
+Those 0+ page objects are saved to the variable `translation_candidates` available when rendering the rest of the page.
+
+{% endcomment %}
+
+{% include page-slug.html %}
+
+{% assign target_slug = page.original %}
+{% assign translation_sources = site.pages | where_exp: "item", "item.url contains target_slug" | where_exp: "item", "item.url != page.url" | where_exp: "item", "item.name != 'redirect.html'" %}
+{% for s in translation_sources %}
+  {% assign last_component = s.url | split: "/" | last %}
+  {% if last_component == target_slug %}
+    {% assign translation_source = s %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}
+
+A future version of Jekyll will allow binary boolean operators (and/or) inside a where_exp filter, however the gh-pages version of Jekyll does not yet contain this. therefore, we run both expressions separately, then take the union of pages returned.
+
+{% endcomment %}
+
+{% assign direct_translation_candidates = site.pages | where_exp: "item", "item.original == slug" | where_exp: "item", "item.url != page.url" %}
+{% assign indirect_translation_candidates = site.pages | where_exp: "item", "item.original != nil" | where_exp: "item", "item.original == page.original" | where_exp: "item", "item.url != page.url" %}
+{% assign translation_candidates = indirect_translation_candidates | concat: direct_translation_candidates %}

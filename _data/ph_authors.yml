@@ -1,8 +1,8 @@
 - name: William J. Turkel
-  url: "http://williamjturkel.net"
-  twitter: williamjturkel
-  github: williamjturkel
   team: false
+  team_start: 2008
+  team_end: 2015
+  institution: Western University
   bio:
     en: |
         William J. Turkel is Professor of History at the
@@ -10,6 +10,13 @@
     es: |
         William J. Turkel es profesor de Historia en la Universidad de Western
         Ontario.
+    fr: |
+        William J. Turkel est professeur d'histoire à l'Université Western Ontario.
+
+- name: Alan MacEachern
+  team_start: 2008
+  team_end: 2013
+  institution: Western University
 
 - name: Adam Crymble
   github: acrymble
@@ -17,28 +24,35 @@
   twitter: Adam_Crymble
   url: "http://adamcrymble.org"
   team: true
+  team_start: 2011
+  institution: University of Hertfordshire
   sortname: Crymble
   affiliation:
     en: |
         University of Hertfordshire, UK.
     es: |
         Universidad de Hertfordshire, Reino Unido.
+    fr: |
+        Université du Hertfordshire, Royaume-Uni.
   bio:
     en: |
-        Adam Crymble is a lecturer of digital history at the University of
+        Adam Crymble is a senior lecturer of digital history at the University of
         Hertfordshire.
     es: |
         Adam Crymble es profesor de historia digital en la Universidad de Hertfordshire.
+    fr: |
+        Adam Crymble est maître de conférences en histoire numérique à l'Université du Hertfordshire.
   team_roles:
-   - editorial
-   - community
    - board
+   - team-development-manager
+   - global
+   - volunteer
 
 - name: Caleb McDaniel
-  twitter: wcaleb
-  github: wcaleb
-  url: "http://wcm1.web.rice.edu"
   team: false
+  team_start: 2014
+  team_end: 2017
+  institution: Rice University
   sortname: McDaniel
   bio:
     en: |
@@ -47,11 +61,10 @@
         Caleb McDaniel es profesor asociado de Historia en Rice University.
 
 - name: Ian Milligan
-  twitter: ianmilligan1
-  github: ianmilligan1
-  email: i2millig@uwaterloo.ca
-  url: "http://ianmilligan.ca"
-  team: true
+  team: false
+  team_start: 2014
+  team_end: 2018
+  institution: University of Waterloo
   sortname: Milligan
   affiliation:
     en: |
@@ -64,26 +77,12 @@
         of Waterloo.
     es: |
         Ian Milligan es profesor asociado de historia en la Universidad de Waterloo.
-  interests:
-    en: |
-        He is interested in working with authors on topics
-        including: network analysis, text analysis and data mining, as well
-        as intermediate to advanced-level lessons more generally. For planning purposes,
-        Ian will be on parental leave between June and October 2017.
-    es: |
-        Tiene interés en editar lecciones sobre análisis de redes, análisis textual y minería de datos, y, en general, lecciones de nivel intermedio o superior.
-  team_roles:
-   - editorial
-   - board
-   - ombuds
-
 
 - name: Fred Gibbs
-  email: fwgibbs@gmail.com
-  url: "http://fredgibbs.net"
-  github: fredgibbs
-  twitter: fredgibbs
   team: false
+  team_start: 2011
+  team_end: 2017
+  institution: University of New Mexico
   sortname: Gibbs
   bio:
     en: |
@@ -91,36 +90,32 @@
         New Mexico.
     es: |
         Fred Gibbs es profesor de Historia en la Universidad de Nuevo México.
-  interests:
-    en: |
-        He is particularly interested in lessons pertaining to digital mapping, data visualization, and web publishing.
-    es: |
-        Particularmente se interesa en editar lecciones sobre cartografía digital, visualización de datos y publicación web.
 
 - name: Maria José Afanador-Llach
   url: "http://www.mariajoseafanador.com"
-  email: mariajose@neogranadina.org
+  email: mj.afanador28@uniandes.edu.co
   twitter: mariajoafana
   github: mariajoafana
   team: true
+  team_start: 2016
+  institution: Universidad de los Andes, Colombia
   sortname: Afandor-Llach
   affiliation:
     en: |
-        Fundación Histórica Neogranadina, Colombia.
+        University of los Andes, Colombia.
     es: |
-        Fundación Histórica Neogranadina, Colombia.
+        Universidad de los Andes, Colombia.
+    fr: |
+        Université de los Andes, Colombie.
   bio:
     en: |
-        Maria José Afanador-Llach works in the Fundación Histórica Neogranadina,
-        a non-profit organization digitizing endangered colonial archives in Colombia and promoting
-        digital humanities projects. She is also a lecturer in digital humanities at the Universidad de los Andes in Bogotá, Colombia.
+        Maria José Afanador-Llach is an assistant professor of Digital Humanities and History at the Universidad de los Andes, Bogotá (Colombia).
     es: |
-        Maria José Afanador-Llach trabaja en la Fundación Histórica Neogranadina, una organización sin
-        ánimo de lucro que se dedica a digitalizar archivos y patrimonio colonial en peligro, así como promover proyectos de humanidades
-        digitales. Es profesora de humanidades digitales en la Universidad de los Andes en Bogotá, Colombia.
+        Maria José Afanador-Llach es profesora asistente de humanidades digitales e historia en la Universidad de los Andes, Bogotá (Colombia).
+    fr: |
+        Maria José Afanador-Llach est maître de conférences en Humanités numériques et histoire à l'Université de los Andes, (Bogota, Colombie).
   team_roles:
    - spanish
-   - ombuds-es
    - board
 
 - name: Víctor Gayol
@@ -129,21 +124,28 @@
   twitter: victor_gayol
   github: vgayolrs
   team: true
+  team_start: 2016
+  institution: El Colegio de Michoacán
   sortname: Gayol
+  orcid: 0000-0002-2442-3193
   affiliation:
     en: |
         El Colegio de Michoacán, A.C. (CPI-CONACYT), Mexico.
     es: |
         El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
+    fr: |
+        El Colegio de Michoacán, A.C. (CPI-CONACYT), Mexique.
   bio:
     en: |
         Víctor Gayol is a researcher and professor of history at El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
     es: |
         Víctor Gayol es profesor investigador en el Centro de Estudios Históricos de El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
+    fr: |
+        Víctor Gayol est enseignant-chercheur en histoire au Centre d'études historiques (Centro de Estudios Históricos) d'El Colegio de Michoacán, A.C. (CPI-CONACYT) au Mexique.
   team_roles:
    - spanish
-   - managing-es
    - board
+   - volunteer
 
 - name: Antonio Rojas Castro
   url: "http://antoniorojascastro.com"
@@ -151,40 +153,45 @@
   twitter: RojasCastroA
   github: arojascastro
   team: true
+  team_start: 2016
+  institution: Berlin-Brandenburgische Akademie der Wissenschaften
   sortname: Rojas Castro
+  orcid: 0000-0002-8916-4997
   affiliation:
     en: |
-        Cologne Center for eHumanities, Germany.
+        Berlin-Brandenburgische Akademie der Wissenschaften, Germany.
     es: |
-        Cologne Center for eHumanities, Alemania.
+        Berlin-Brandenburgische Akademie der Wissenschaften, Alemania.
+    fr: |
+        Académie des sciences de Berlin-Brandebourg, Allemagne.
   bio:
     en: |
-        Antonio Rojas Castro is a researcher a the Cologne Center for eHumanities, with a PhD in Humanities (Spanish Literature).
+        Antonio Rojas Castro is a researcher at the Berlin-Brandenburgische Akademie der Wissenschaften, with a PhD in Humanities (Spanish Literature).
     es: |
-        Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en el Cologne Center for eHumanities.
+        Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en la Berlin-Brandenburgische Akademie der Wissenschaften.
+    fr: |
+        Antonio Rojas Castro est docteur en Littérature espagnole (Université Pompeu Fabra) et chercheur à l'Académie des sciences de Berlin-Brandebourg.
   team_roles:
    - spanish
-   - managing-es
    - board
+   - volunteer
 
 - name: Stephen Margheim
   bio:
     en: |
         Stephen Margheim is a classicist turned digital humanist hunkered down in
         Philadelphia, looking for his next step.
-  url: "hackademic.postach.io"
-  github: smargh
-  twitter: s_margheim
   team: false
 
 - name: Evan Taparata
   team: false
+  team_start: 2016
+  team_end: 2016
+  institution: University of Minnesota
   bio:
     en: |
         Evan Taparata is a PhD candidate in history at the University of
         Minnesota.
-  github: tapar001
-  twitter: etaparata
 
 - name: Taryn Dewar
   twitter: dtdewar
@@ -193,19 +200,16 @@
     en: |
         Taryn Dewar has a Master's degree in Public History at Western University,
         and is an Interpreter at the Oil Sands Discovery Centre in Fort McMurray, Alberta.
+    es: |
+        Taryn Dewar tiene una maestría en Historia Pública (Western University) y es intérprete en el Centro de investigación de arenas de alquitrán en Fort McMurray, Alberta.
 
 - name: Maria Velez-Serna
-  url: "http://earlycinema.gla.ac.uk"
-  twitter: jeely_jar
   bio:
     en: |
         Maria Velez-Serna is a research assistant in the Early Cinema of Scotland
         project, University of Glasgow.
 
 - name: Andrew Hnatow
-  url: "http://digitizedhistory.wordpress.com"
-  github: ahnatow
-  twitter: andrew_hnatow
   team: false
   bio:
     en: |
@@ -213,7 +217,6 @@
 
 - name: Daniel van Strien
   team: false
-  url: "http://davanstrien.github.io/"
   bio:
     en: |
         Daniel van Strien is a Library Science student at City University, London.
@@ -222,12 +225,10 @@
 
 - name: Kim Pham
   team: false
-  twitter: tolloid
-  github: kimpham54
   bio:
     en: |
         Kim Pham is the Digital Projects and Technologies Librarian
-        at the University of Toronto Scarborough Library. 
+        at the University of Toronto Scarborough Library.
         Her heart belongs to open-source software & shared,
         community-driven development practices in libraries.
 
@@ -238,7 +239,6 @@
         and a doctoral student at the University of Notre Dame.
 
 - name: Kellen Kurschinski
-  twitter: Kellen2K
   team: false
   bio:
     en: |
@@ -261,20 +261,28 @@
 
 - name: James Baker
   team: true
+  team_start: 2017
+  institution: University of Sussex
   github: drjwbaker
   email: james.baker@sussex.ac.uk
   twitter: j_w_baker
   url: "https://cradledincaricature.com/"
   sortname: Baker
+  orcid: 0000-0002-2682-6922
   bio:
     en: |
-        James Baker is a Lecturer in Digital History and Archives at the University of Sussex
+        James Baker is a Senior Lecturer in Digital History and Archives at the University of Sussex
         and a historian of interactions between people and things.
     es: |
-        James Baker es curador en el equipo de investigación digital de la Biblioteca Británica e historiador del siglo XVIII inglés.
+        James Baker es profesor titular en Historia Digital y Archivos en la Universidad de Sussex; su línea de investigación es el cruce histórico de personas y objetos.
+    fr: |
+        James Baker est maître de conférences en histoire numérique et en archivistique à l'Université du Sussex; il est spécialiste en histoire des interactions entre personnes et objets.
   team_roles:
-   - editorial
    - board
+   - archive
+   - sponsorship
+   - finance-manager
+   - institutionally-supported
 
 - name: Amanda Morton
   team: false
@@ -283,11 +291,10 @@
         Amanda Morton is a DH Fellow at the Center for History and New Media.
 
 - name: Miriam Posner
-  twitter: miriamkp
-  github: miriamposner
-  email: miriam.posner@gmail.com
-  url: "http://miriamposner.com"
   team: false
+  team_start: 2012
+  team_end: 2016
+  institution: UCLA
   bio:
     en: |
         Miriam Posner is the digital humanities program coordinator at the
@@ -296,38 +303,29 @@
         Miriam Posner es coordinadora del programa de Humanidades Digitales de la Universidad de California (Los Angeles).
 
 - name: Jeremy Boggs
-  twitter: clioweb
-  url: "http://clioweb.org"
   team: false
+  team_start: 2012
+  team_end: 2014
+  institution: University of Virginia
   bio:
     en: |
         Jeremy Boggs is the Design Architect for Digital Research Scholarship
         at the University of Virginia Library.
 
 - name: Allison Hegel
-  twitter: AllisonHegel
-  github: ahegel
   team: false
+  team_start: 2013
+  team_end: 2016
+  institution: UCLA
   bio:
     en: |
         Allison Hegel is a PhD candidate in English at UCLA.
-  interests:
-    en: |
-        She is interested in working with authors on text analysis
-        and data visualization, as well as hearing from anyone
-        with feedback on the design and usability of the website.
-
-- name: Alan MacEachern
-  url: "http://history.uwo.ca/People/Faculty/maceachern.html"
-  team: false
-  bio:
-    en: |
-        Alan MacEachern is a Professor of History at the University
-        of Western Ontario and the former Director of the Network in Canadian History
-        & Environment (NiCHE).
 
 - name: Carrie Sanders
   team: false
+  team_start: 2013
+  team_end: 2014
+  institution: UCLA
   bio:
     en: |
         Carrie Sanders is a Ph.D candidate in history at UCLA.
@@ -355,12 +353,16 @@
   bio:
     en: |
         Shawn Graham is associate professor of digital humanities and history at Carleton University.
+    es: |
+        Shawn Graham es profesor asociado en Humanidades Digitales e Historia en Carleton University.
 
 - name: Scott Weingart
   team: false
   bio:
     en: |
         Scott Weingart is a historian of science and digital humanities specialist at Carnegie Mellon University.
+    es: |
+        Scott Wingart es historiador de la ciencia y especialista en Humanidades Digitales en Carnegie Mellon University.
 
 - name: Jim Clifford
   team: false
@@ -368,6 +370,9 @@
     en: |
         Jim Clifford is an assistant professor in the Department of History
         at the University of Saskatchewan.
+    es: |
+        Jim Clifford es profesor asistente en el Departamento de Historia
+        de la Universidad de Saskatchewan.
 
 - name: Daniel Macfarlane
   team: false
@@ -375,6 +380,9 @@
     en: |
         Daniel Macfarlane is a Visiting Scholar in the School of Canadian
         Studies at Carleton University.
+    es: |
+        Daniel Macfarlane es profesor visitante en la Escuela de Estudios
+        Canadienses en la Universidad de Carleton.
 
 - name: Josh MacFadyen
   team: false
@@ -382,12 +390,14 @@
     en: |
         Josh MacFadyen is a Project Coordinator at the Network in Canadian
         History & Environment.
+    es: |
+        Josh MacFayden es Coordinador de Proyectos en la Red Canadiense
+        de Historia y Medio Ambiente.
 
 - name: Jeri Wieringa
-  team: true
-  twitter: jerielizabeth
-  url: "http://jeriwieringa.com"
-  github: jerielizabeth
+  team: false
+  team_start: 2015
+  team_end: 2018
   sortname: Wieringa
   affiliation:
     en: |
@@ -399,12 +409,6 @@
         Jeri Wieringa is a doctoral candidate in history at George Mason University.
     es: |
         Jeri Wieringa es doctoranda en Historia en George Mason University.
-  interests:
-    en: |
-        She is interested in working with authors on: accessibility and interface design;
-        data visualization; network analysis; text and data mining; workflows; and introductory lessons.
-    es: |
-        Está interesada en trabajar con autores sobre los siguientes temas: accesibilidad y diseño de interfaces, visualización de datos, análisis de redes, minería de datos, flujos de trabajo y, en general, lecciones introductorias.
   team_roles:
    - editorial
    - board
@@ -437,6 +441,8 @@
         Max De Wilde is a PhD student at the Information and Communication Science department of the Université libre de Bruxelles.
     es: |
         Max De Wilde es investigador predoctoral en el departamento de Información y Comunicación de la Universidad Libre de Bruselas.
+    fr: |
+        Max De Wilde est doctorant au Centre de recherche en Information et Communication de l'Université libre de Bruxelles.
 
 - name: Ruben Verborgh
   team: false
@@ -445,27 +451,26 @@
         Ruben Verborgh is a post-doc researcher at the Multimedia Lab of the Universtiteit Gent.
     es: |
         Ruben Verborgh es investigador postdoctoral en Multimedia Lab (Universtiteit Gent).
+    fr: |
+        Ruben Verborgh est chercheur postdoctoral au Multimedia Lab de l'Université de Gand.
 
 - name: Seth van Hooland
   team: false
   bio:
     en: |
-        Seth van Hooland is an associate professor at at the Information and Communication Science department of the Université libre de Bruxelles.
+        Seth van Hooland is an associate professor at the Information and Communication Science department of the Université libre de Bruxelles.
     es: |
         Seth van Hooland es profesor asociado en el departamento de Información y Comuninación de la Universidad Libre de Bruselas.
+    fr: |
+        Seth van Hooland est professeur associé au Centre de recherche en Information et Communication de l'Université libre de Bruxelles.
 
 - name: Jonathan Reeve
-  url: "http://jonreeve.com"
-  twitter: j0_0n
-  github: JonathanReeve
   team: false
   bio:
     en: |
         Jonathan Reeve is a digital humanist and web developer for the Modern Language Association.
 
 - name: Spencer Roberts
-  url: "http://swroberts.ca/"
-  twitter: robertssw87
   team: false
   bio:
     en: |
@@ -478,12 +483,14 @@
         Doug Knox is the Assistant Director of the Humanities Digital Workshop at Washington University in St. Louis.
 
 - name: Heather Froehlich
-  url: "http://hfroehli.ch"
-  twitter: heatherfro
   team: false
   bio:
     en: |
         Heather Froehlich is a PhD student at the University of Strathclyde (Glasgow, UK), where she studies gender in Early Modern London plays using computers. Her thesis draws heavily from sociohistoric linguistics and corpus stylistics, though she sustains an interest in digital methods for literary and linguistic inquiry.
+    es: |
+        Heather Froehlich es doctoranda en la Universidad de Strathclyde (Glasgow, Reino Unido), institución donde realiza estudios de género mediante ordenadores aplicados al teatro londinense moderno. Su tesis de grado se nutre, en gran medida, de la lingüística sociohistórica y la estilística de corpus, si bien la autora no ha perdido el interés por el empleo de métodos digitales en la investigación literaria y lingüística.
+    fr: |
+        Heather Froehlich est doctorante à l'Université de Strathclyde (Glasgow, Royaume-Uni), où elle se spécialise en études de genre assistées par ordinateur dans le domaine du théâtre londonien de l'époque moderne. Sa thèse de doctorat mobilise principalement la linguistique sociohistorique et la stylistique de corpus, même si elle nourrit un vif intérêt pour les méthodes numériques appliquées aux recherches en littérature et en linguistique.
 
 - name: Laura Turner O'Hara
   team: false
@@ -494,27 +501,62 @@
 - name: Matthew Lincoln
   url: "http://matthewlincoln.net"
   twitter: matthewdlincoln
-  email: mlincoln@getty.edu
+  email: mlincoln@andrew.cmu.edu
   github: mdlincoln
   team: true
+  team_start: 2017
+  institution: Carnegie Mellon University
   sortname: Lincoln
+  orcid: 0000-0002-4387-3384
   affiliation:
     en: |
-        Getty Research Institute, USA.
+        Carnegie Mellon University, USA.
     es: |
-        Getty Research Institute, Estados Unidos.
+        Carnegie Mellon University, Estados Unidos.
+    fr: |
+        Carnegie Mellon University, États-Unis.
   bio:
     en: |
-        Matthew Lincoln is a data research specialist at the Getty Research Institute, and an art historian of early modern Europe.
+        Matthew Lincoln is the digital humanities developer at Carnegie Mellon University, and an art historian of early modern Europe.
     es: |
-        Matthew Lincoln es especialista en la investigación de datos en el Getty Research Institute e historiador del arte de la Europa moderna.
+        Matthew Lincoln es desarrollador de humanidades digitales en la Universidad Carnegie Mellon e historiador del arte de la Europa moderna.
+    fr: |
+        Matthew Lincoln est développeur en humanités numériques à l'Université Carnegie Mellon et historien de l'art européen moderne.
+  team_roles:
+   - technical-lead
+   - board
+   - institutionally-supported
+
+- name: Sarah Melton
+  github: svmelton
+  email: sarah.melton@bc.edu
+  twitter: worldcatlady
+  url: "http://sarahvmelton.com"
+  team: true
+  team_start: 2019
+  institution: Boston College
+  sortname: Melton
+  affiliation:
+    en: |
+        Boston College, USA.
+    es: |
+        Boston College, Estados Unidos.
+    fr: |
+        Boston College, États-Unis.
+  bio:
+    en: |
+        Sarah Melton is the Head of Digital Scholarship at Boston College.
+    es: |
+        Sarah Melton es la jefa de estudios digitales del Boston College.
+    fr: |
+        Sarah Melton est responsable des études numériques au Boston College.
   team_roles:
    - editorial
-   - technical
+   - managing-en
    - board
+   - volunteer
 
 - name: Sarah Simpkin
-  twitter: sarahsimpkin
   team: false
   bio:
     en: |
@@ -528,36 +570,35 @@
   twitter: literature_geek
   url: "http://www.amandavisconti.com"
   team: true
+  team_start: 2016
+  institution: University of Virginia
   sortname: Visconti
   affiliation:
     en: |
         University of Virginia, USA.
     es: |
         Universidad de Virginia, Estados Unidos.
+    fr: |
+        Université de Virginie, États-Unis.
   bio:
     en: |
         Amanda Visconti is Managing Director at the University of Virginia Scholars' Lab DH center.
     es: |
         Amanda Visconti es Directora general del centro de Humanidades Digitales Scholars' Lab en la Universidad de Virginia.
-  interests:
-    en: |
-        As a PH ombudsperson, you can contact Amanda to discuss any issues or concerns around the PH review and publication process.
-    es: |
-        Amanda trabaja en las mejoras técnicas de la web de The Programming Historian.
+    fr: |
+        Amanda Visconti est directrice du centre des humanités numériques du Scholars' Lab de l'Université de Virginie.
   team_roles:
-   - technical
    - ombuds
-   - board
 
 - name: Megan R. Brett
-  twitter: magpie
-  url: "http://meganrbrett.net"
   team: false
   bio:
     en: |
         Megan R. Brett is Digital History Associate at the Roy Rosenzweig Center for History and New
         Media, where she acts as Outreach Coordinator for the Omeka projects. She is also a doctoral
-        student in the Department of History and Art History at George Mason Unveristy.
+        student in the Department of History and Art History at George Mason University.
+    es: |
+        Megan R. Brett es colaboradora de Historial Digital en el Centro de Historia y Nuevos Medios Roy Rosenzweig, donde trabaja como Coordinadora de Difusión para los proyectos Omeka. También es estudiante de doctorado en el departamento de Historia e Historia del Arte en la Universidad George Mason.
 
 - name: Brandon Walsh
   github: walshbr
@@ -565,56 +606,60 @@
   email: walsh.brandon.michael@gmail.com
   url: "http://walshbr.com/"
   team: true
+  team_start: 2017
+  institution: University of Virginia
   sortname: Walsh
   affiliation:
     en: |
         University of Virginia, USA.
     es: |
         Universidad de Virginia, Estados Unidos.
+    fr: |
+        Université de Virginie, États-Unis.
   bio:
     en: |
         Brandon Walsh is Head of Graduate Programs in the Scholars' Lab in the University of Virginia Library.
     es: |
         Brandon Walsh es Jefe de Programas de Posgrado en el Laboratorio de Estudiosos en la Biblioteca de la Universidad de Virginia.
+    fr: |
+        Brandon Walsh est responsable des programmes des deuxième et troisième cycles au Scholar's Lab de l'Université de Virginie.
   team_roles:
    - editorial
-   - community
    - board
+   - twitter-dev
+   - communication
+   - technical
+   - instutitionally-supported
 
 - name: Ted Dawson
   team: false
   bio:
     en: |
         Ted Dawson is a Doctoral Candidate in German Studies at Vanderbilt University.
+    es: |
+        Ted Dawson es candidato doctoral en Estudios Alemanes en la Universidad de Vanderbilt.
 
 - name: M. H. Beals
-  twitter: mhbeals
-  url: "http://mhbeals.com/"
   team: false
   bio:
     en: |
         M. H. Beals is a Lecturer in Digital History at Loughborough University.
+    es: |
+        M.H. Beals es Profesor de Historia Digital en la Universidad de Loughborough.
 
 - name: Elizabeth Venditto
-  url: "http://cla.umn.edu/ihrc"
   team: false
   bio:
     en: |
         Elizabeth Venditto is Project Manager for "Immigrant Stories," a digital storytelling initiative based at the University of Minnesota's Immigration History Research Center.
 
 - name: Jacob W. Greene
-  url: "http://jacobwgreene.com"
-  twitter: jacobwgreene
   team: false
   bio:
     en: |
-        Jacob Greene is a PhD Candidate in English at the University of Florida. His work explores how
-        augmented reality technology can be leveraged within humanities teaching and research, and he
-        currently serves as the Augmented Reality Criticisms Coordinator for Trace Innovation, a
-        digital humanities initiative in the University of Florida English Department.
+        Jacob Greene is an Assistant Professor of English in the Writing, Rhetorics, and Literacies program at Arizona State University. His research and teaching explore how mobile technologies such augmented reality can be used to promote critical interventions into public and private spaces.
 
 - name: Jeanette Sewell
-  url: "http://digital.houstonlibrary.org/"
   team: false
   bio:
     en: |
@@ -630,14 +675,12 @@
         Urbana-Champaign, and a MBA+MHRIR from the same institution.
 
 - name: Peter Organisciak
-  url: "https://porganized.com/"
   team: false
   bio:
     en: |
         Peter Organisciak is an information scientist, at the HathiTrust Research Center as a postdoctoral research associate.
 
 - name: Justin Colson
-  url: "https://www.essex.ac.uk/history/staff/profile.aspx?ID=4559"
   team: false
   bio:
     en: |
@@ -649,28 +692,30 @@
   twitter: ProvAtlantic
   url: "http://jessicaparr.org/"
   team: true
+  team_start: 2017
+  institution: Simmons College
   sortname: Parr
   affiliation:
     en: |
         Simmons College, USA.
     es: |
         Simmons College, Estados Unidos.
+    fr: |
+        Simmons College, États-Unis.
   bio:
     en: |
-        Jessica Parr teaches at Simmons College (Boston) and works on PLACE Project at UNH Durham.
+        Jessica Parr is a Lecturer in History at Simmons College (Boston).
         She is a scholar of the early modern Atlantic.
     es: |
-        Jessica Parr enseña en el Simmons College (Boston) y trabaja en el proyecto PLACE de la UNH Durham. Es especialista en la historia del mundo Atlántico moderno temprano.
-  interests:
-    en: |
-        She is interested in working with authors on geospatial lessons as well as textual-geospatial lessons.
+        Jessica Parr enseña en el Simmons College (Boston). Es especialista en la historia del mundo Atlántico moderno temprano.
+    fr: |
+        Jessica Parr est maîtresse de conférences au Simmons College à Boston et spécialiste du monde atlantique à l'époque moderne.
   team_roles:
-   - editorial
-   - managing-en
    - board
+   - global-lead
+   - volunteer
 
 - name: Taylor Arnold
-  url:
   team: false
   bio:
     en: |
@@ -679,7 +724,6 @@
         Taylor Arnold es asistente de profesor de Estadísticas en la Universidad de Richmond.
 
 - name: Lauren Tilton
-  url:
   team: false
   bio:
     en: |
@@ -716,7 +760,7 @@
   bio:
     en: |
         Daniel Ruten is entering graduate studies in history at the University of Saskatchewan.
-    en: |
+    es: |
         Daniel Ruten cursa una licenciatura en Historia en University of Saskatchewan.
 
 - name: Nabeel Siddiqui
@@ -724,29 +768,66 @@
   bio:
     en: |
         Nabeel Siddiqui is a doctoral candidate in American Studies at the College of William and Mary, where he is also an inaugural fellow of the Digital Equality Lab. His research focuses broadly on the relationship between the humanities and computation, with a particular expertise on the cultural history of media, new media studies, digital humanities, information studies, and the history of science and technology. Currently, he is completing his dissertation entitled "Byting Out the Public," which looks at the historical relationship between the personal computer and the private sphere.
-    en: |
-        Nabeel Siddiqui es doctoranda en Estudios Americanos en College of William and Mary, donde también es becaria del Digital Equality Lab. Su investigación se centra en las relaciones entre las Humanidades y la Informática, en particular en la historia cultural de los medios, Comunicación y Humanidades Digitales, Ciencias de la Información, Historia de la Ciencia y Tecnología. Actualmente, está realizando su tesis doctoral titulada "Byting Out the Public", que pretende estudiar la relación entre el ordenador personal y la privacidad.
+    es: |
+        Nabeel Siddiqui es doctorando en Estudios Americanos en College of William and Mary, donde también es becario del Digital Equality Lab. Su investigación se centra en las relaciones entre las Humanidades y la Informática, en particular en la historia cultural de los medios, Comunicación y Humanidades Digitales, Ciencias de la Información, Historia de la Ciencia y Tecnología. Actualmente, está realizando su tesis doctoral titulada "Byting Out the Public", que pretende estudiar la relación entre el ordenador personal y la privacidad.
 
 - name: Anandi Silva Knuppel
   github: alsalin
-  email: anandi.silva.knuppel@emory.edu
+  email: anandi.silva.knuppel@gmail.com
   twitter: anandilila
   url: "http://anandileela.com"
-  team: true
+  team: false
+  team_start: 2017
+  team_end: 2019
+  institution: Emory University
   sortname: Silva
   affiliation:
     en: |
         Emory University, USA.
     es: |
         Universidad de Emory, Estados Unidos.
+    fr: |
+        Université Emory, États-Unis.
   bio:
     en: |
-        Anandi Silva Knuppel is a digital scholarship training coordinator at Emory University.
+        Anandi Silva Knuppel is a digital scholarship training coordinator and special projects liaison at Emory University.
     es: |
         Anandi Silva Knuppel es coordinadora del programa de Aprendizaje Digital de la Universidad de Emory.
+    fr: |
+        Anandi Silva Knuppel est coordinatrice des programmes de formation au numérique à l'Université Emory.
+
+
+- name: Anna-Maria Sichani
+  github: amsichani
+  email: amsichani@gmail.com
+  twitter: amsichani
+  url: "https://amsichani.github.io"
+  team: true
+  team_start: 2018
+  institution: University of Sussex
+  sortname: Sichani
+  affiliation:
+    en: |
+       University of Sussex
+    es: |
+       University of Sussex
+    fr: |
+       Université du Sussex
+  bio:
+    en: |
+        Anna-Maria Sichani is a literary and cultural historian and a Digital Humanist. She is currently a Research Fellow in Media History at the University of Sussex.
+    es: |
+        Anna-Maria Sichani es especialista en Historia cultural y literaria, y en Humanidades Digitales. Actualmente, trabaja como investigadora en Comunicación y Medios en la Universidad de Sussex.
+    fr: |
+        Anna-Maria Sichani est spécialiste de l'histoire culturelle et de l'histoire de la littérature, mais aussi des humanités numériques. Elle est actuellement chercheuse en histoire des médias à l'Université du Sussex.
   team_roles:
    - editorial
    - board
+   - ed-manager
+   - communication
+   - technical
+   - project-manager-at-large
+   - volunteer
 
 - name: Evan Peter Williamson
   team: false
@@ -803,3 +884,401 @@
   bio:
     en: |
         Peter Stockwell is the Associate Pro-Vice-Chancellor for Global Engagement (Europe) and Professor of Literary Linguistics at the University of Nottingham.
+
+- name: Beatrice Alex
+  team: false
+  bio:
+    en: |
+        Beatrice Alex is a research fellow at the Institute for Language, Cognition and Computation at the School of Informatics, University of Edinburgh and a Turing fellow at the Alan Turing Institute.  Her research interests focus on text mining and geoparsing.
+
+- name: Zo&#235; Wilkinson Salda&#241;a
+  team: false
+  bio:
+    en: |
+        Zo&#235; Wilkinson Salda&#241;a is a graduate student at the University of Michigan School of Information, where she focuses on the intersection of critical data literacies, academic libraries, and data-informed learning.
+
+- name: José Antonio Motilla
+  url: "http://www.bibliografiapotosina.mx/about/"
+  twitter: jamotilla
+  email: jamotilla@gmail.com
+  github: jamotilla
+  team: true
+  team_start: 2018
+  institution: Universidad Autónoma de San Luis Potosi
+  sortname: Motilla
+  affiliation:
+    en: |
+        Universidad Autónoma de San Luis Potosí, México.
+    es: |
+        Universidad Autónoma de San Luis Potosí, México.
+    fr: |
+        Université autonome de San Luis Potosí, Mexique
+  bio:
+    en: |
+        José Antonio Motilla is a researcher of history, art, culture and digital humanities at the Universidad Autónoma de San Luis Potosí, México. Director of the “Ricardo B. Anaya" Library (San Luis Potosí, México).
+    es: |
+        José Antonio Motilla es investigador de historia, arte, cultura y humanidades digitales en la Universidad Autónoma de San Luis Potosí, México. Director de la biblioteca "Ricardo B. Anaya" (San Luis Potosí, México).
+    fr: |
+        José Antonio Motilla est chercheur en histoire, art, culture et humanités numériques à l'Université autonome de San Luis Potosí au Mexique, et directeur de la bibliothèque Ricardo B. Anaya.
+  team_roles:
+   - spanish
+   - board
+   - volunteer
+
+- name: Jennifer Isasi
+  url: "https://jenniferisasi.github.io/"
+  twitter: jenniferisve
+  email: jenniferbibat@gmail.com
+  github: jenniferisasi
+  team: true
+  team_start: 2018
+  institution: University of Texas
+  sortname: Isasi
+  affiliation:
+    en: |
+        University of Texas at Austin, USA.
+    es: |
+        Universidad de Texas en Austin, Estados Unidos.
+    fr: |
+        Université du Texas à Austin, États-Unis.
+  bio:
+    en: |
+        Jennifer Isasi is a CLIR Postdoctoral Fellow at LLILAS Benson Latin American Studies and Collections, and a PhD on Hispanic Studies.
+    es: |
+        Jennifer Isasi es investigadora postdoctoral CLIR en Estudios y Colecciones de Latinoamérica en LLILAS Benson, y doctora en Estudios Hispánicos.
+    fr: |
+        Jennifer Isasi est chercheuse postdoctorale du programme CLIR au LLILAS Benson en Études et collections latino-américaines, et docteure en études hispaniques.
+  team_roles:
+    - spanish
+    - board
+    - technical
+    - communication-manager
+    - institutionally-supported
+
+- name: Jon MacKay
+  team: false
+  bio:
+    en: |
+        Jon MacKay holds a PhD in Management Science from the University of Waterloo. He is currently a senior advanced analytics professional at Economical Insurance.
+
+- name: Patrick Smyth
+  team: false
+  bio:
+      en: |
+          Patrick Smyth is a PhD student in English and Digital Fellow at the Graduate Center, CUNY.
+
+- name: François Dominic Laramée
+  github: fdlaramee
+  twitter: fdlaramee
+  url: "http://www.francoisdominiclaramee.com"
+  email: fdl@francoisdominiclaramee.com
+  team: true
+  team_start: 2018
+  sortname: Laramée
+  orcid: 0000-0001-5542-3754
+  institution: University of Ottawa
+  affiliation:
+      en: |
+          University of Ottawa, Canada
+      fr: |
+          Université d'Ottawa, Canada
+      es: |
+          Universidad de Ottawa, Canadá
+  team_roles:
+    - french
+    - board
+    - ombuds-fr
+    - institutionally-supported
+  bio:
+      en: |
+          François Dominic Laramée is a postdoctoral fellow in digital history of medicine at the University of Ottawa, in Canada.
+          He holds master's degrees in computer science and U.S. history and is a former video game designer, TV personality and screenwriter.
+      fr: |
+          François Dominic Laramée est chercheur postdoctoral en histoire numérique de la médecine à l'Université d'Ottawa, au Canada.
+          Détenteur de maîtrises en histoire des États-Unis et en informatique, il est aussi un ancien concepteur de jeux vidéo, scénariste et artiste de la télévision au Québec.
+      es: |
+          François Dominic Laramée es investigador postdoctoral de historia digital de la medicina en la Universidad de Ottawa en Canadá.
+          Tiene un máster en Informática y en Historia de los Estados Unidos; ha trabajado como desarrollador de videojuegos, escribiendo guiones para televisión y como artista en Québec.
+
+- name: Jeff Blackadar
+  team: false
+  bio:
+      en: |
+          Jeff Blackadar is a part-time undergraduate history student at Carleton University. His career is in the field of information technology.
+
+- name: Martin Grandjean
+  email: martin.grandjean@unil.ch
+  twitter: grandjeanmartin
+  github: grandjeanmartin
+  url: "http://www.martingrandjean.ch"
+  team: true
+  team_start: 2019
+  institution: University of Lausanne
+  sortname: Grandjean
+  orcid: 0000-0003-3184-3943
+  affiliation:
+        en: |
+            University of Lausannne (Switzerland)
+        fr: |
+            Université de Lausanne (Suisse)
+        es: |
+            Universidad de Lausanne (Suiza)
+  team_roles:
+    - french
+    - board
+  bio:
+        en: |
+            Martin Grandjean is a researcher in contemporary history at the University of Lausanne (Switzerland). His work focuses on the analysis and visualization of large historical data sets.
+        fr: |
+            Martin Grandjean est chercheur en histoire contemporaine à l'Université de Lausanne (Suisse). Ses travaux portent sur l'analyse et la visualisation de grands jeux de données historiques.
+        es: |
+            Martin Grandjean es investigador en historia contemporánea en la Universidad de Lausanne (Suiza). Su trabajo se enfoca en el análisis y la visualización de grandes conjuntos de datos históricos.
+
+- name: Sofia Papastamkou
+  email: spapastamkou@gmail.com
+  twitter: s_papastamkou
+  github: spapastamkou
+  team: true
+  team_start: 2018
+  institution: CNRS
+  sortname: Papastamkou
+  orcid: 0000-0002-5148-1348
+  affiliation:
+        en: |
+            Institut de recherches historiques du Septentrion (IRHiS, CNRS/University of Lille)
+        es: |
+            Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille)
+        fr: |
+            Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
+  team_roles:
+    - french
+    - board
+    - managing-fr
+    - technical
+    - global
+    - volunteer
+  bio:
+        en: |
+            Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
+            She is currently assigned to the Institut de recherches historiques du Septentrion (IRHiS, CNRS/University of Lille).
+        es: |
+            Sofia Papastamkou es historiadora e investigadora en Humanidades Digitales en el Centre national de la recherche scientifique (CNRS). Actualmente, su labor está asociada con el Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille).
+        fr: |
+            Sofia Papastamkou est docteure en histoire et ingénieure d'études en humanités numériques au CNRS. Elle est affectée à l'Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
+- name: Marie Puren
+  email: marie.puren1406@gmail.com
+  twitter: MariePuren
+  github: mpuren
+  team: false
+  team_start: 2018
+  team_end: 2019
+  institution: LARHRA
+  sortname: Puren
+  affiliation: LARHRA Lyon
+  bio:
+        en: |
+            Marie Puren is an historian and research engineer in the ALMAnaCH team at Inria Paris.
+        es: |
+            Marie Puren es historiadora e investigadora de humanidades digitales en el equipo ALMAnaCH en Inria París.
+        fr: |
+            Marie Puren est historienne et chercheuse post-doctorante en histoire et humanités numériques au LARHRA (CNRS) à Lyon.
+
+- name: Marie-Christine Boucher
+  email: marie.c.boucher@ggk.uni-giessen.de
+  twitter: marie_c_boucher
+  github: mariechristineb
+  team: true
+  team_start: 2020
+  institution: Justus-Liebig-Universität Gießen
+  sortname: Boucher
+  orcid: 0000-0002-2475-3184
+  team_roles:
+    - french
+    - volunteer
+  bio:
+        en: |
+            Marie-Christine Boucher is a doctoral student in German literature at Justus Liebig University Giessen (Germany).
+        es: |
+            Marie-Christine Boucher es doctoranda en literatura alemana en la Universidad Justus Liebig de Giessen (Alemania).
+        fr: |
+            Marie-Christine Boucher est doctorante en littérature allemande à l'Université Justus-Liebig de Giessen (Allemagne).
+
+- name: Charlie Harper
+  team: false
+  bio:
+      en: |
+          Charlie Harper is the Digital Learning and Scholarship Librarian at Case Western Reserve University
+
+- name: Eric Weinberg
+  team: false
+  bio:
+       en: |
+           Eric Weinberg holds a PhD in History from the University of Kentucky. He teaches at Viterbo University in La Crosse, WI.
+
+- name: Alex Brey
+  team: false
+  bio:
+      en: |
+          Alexander Brey is a Research Associate at the Center for Advanced Study in the Visual Arts. His research investigates mechanisms for and perceptions of cross-cultural exchange in medieval visual culture, with a focus on the Islamic world.
+      es: |
+          Alexander Brey es investigador asociado del Center for Advanced Study in the Visual Arts. Se dedica a investigar los mecanismos y la percepción de intercambios interculturales de la cultura visual medieval, con especial interés en el mundo islámico.
+
+- name: Zoe LeBlanc
+  github: ZoeLeBlanc
+  twitter: zoe_leblanc
+  email: zgleblanc@gmail.com
+  url: "http://zoeleblanc.com"
+  team: true
+  team_start: 2018
+  institution: University of Virginia
+  sortname: LeBlanc
+  affiliation:
+    en: |
+        University of Virginia, USA.
+    es: |
+        Universidad de Virginia, Estados Unidos.
+    fr: |
+        Université de Virginie, Etats-Unis.
+  bio:
+    en: |
+        Zoe LeBlanc is a digital humanities developer in the Scholars' Lab in the University of Virginia Library.
+    es: |
+        Zoe LeBlanc es desarrolladora de proyectos de Humanidades Digitales en el Scholars' Lab de la Universidad de Virginia Library.
+    fr: |
+        Zoe LeBlanc est développeuse spécialiste des Humanités Numériques au Scholar's Lab de l'Université de Virginie..
+  team_roles:
+   - editorial
+   - board
+   - technical
+
+- name: Dave Rodriguez
+  team: false
+  bio:
+      en: |
+          Dave Rodriguez is an audiovisual archivist, curator, and filmmaker. He is currently Resident Librarian in the Office of Digital Research and Scholarship at Florida State University.
+
+- name: Stephen Krewson
+  team: false
+  bio:
+      en: |
+          Stephen Krewson is a PhD candidate in English at Yale University. His research explores the interplay between progressive theories of education and print media in the early nineteenth century. He holds a MS in Computer Science (also from Yale) and has been working on efficient methods for filtering and retrieval tasks within large-scale digital libraries.
+
+- name: Riva Quiroga
+  twitter: rivaquiroga
+  email: riva.quiroga@uc.cl
+  github: rivaquiroga
+  team: true
+  team_start: 2019
+  institution: Universidad Católica de Chile
+  sortname: Quiroga
+  affiliation:
+    en: |
+        Catholic University of Chile, Chile.
+    es: |
+        Universidad Católica de Chile, Chile.
+    fr: |
+        Université Catholique de Chili, Chili.
+  bio:
+    en: |
+        Riva Quiroga is a PhD student in Linguistics at the Catholic University of Chile.
+    es: |
+        Riva Quiroga es estudiante de doctorado en Lingüística en la Universidad Católica de Chile.
+    fr: |
+        Riva Quiroga est doctorante en linguistique à l'Université Catholique de Chili.
+  team_roles:
+    - spanish
+    - board
+    - managing-es
+    - global
+    - volunteer
+
+- name: Joshua G. Ortiz Baco
+  twitter: jgob
+  email: joshuaortizbaco@utexas.edu
+  github: joshuagob
+  team: true
+  team_start: 2019
+  institution: University of Texas, at Austin
+  sortname: Ortiz
+  affiliation:
+    en: |
+        University of Texas, at Austin.
+    es: |
+        Universidad de Texas en Austin.
+    fr: |
+        Université du Texas à Austin.
+  bio:
+    en: |
+        Joshua G. Ortiz Baco is a PhD student in Spanish and Portuguese at the University of Texas, at Austin.
+    es: |
+        Joshua G. Ortiz Baco es estudiante de doctorado en Español y Portugués en la Universidad de Texas en Austin.
+    fr: |
+        Joshua G. Ortiz Baco est un doctorant en espagnol et portugais de l'Université du Texas à Austin.
+  team_roles:
+    - spanish
+    - board
+    - volunteer
+
+- name: Armando Luza
+  team: false
+  bio:
+    es: |
+        Armando Luza es Maestro en Traducción por El Colegio de México. Actualmente se desempeña en investigación, traducción y corrección de estilo.
+
+- name: Silvia Gutiérrez
+  team: false
+  bio:
+    es: |
+        Silvia Gutiérrez es bibliotecaria de investigación digital en la biblioteca Daniel Cosío Villegas en El Colegio de México.
+
+- name: Matthew J. Lavin
+  team: false
+  bio:
+      en: |
+          Matthew J. Lavin is a Clinical Assistant Professor of English and Director of the Digital Media Lab at the University of Pittsburgh. His current scholarship and teaching focus on book history, cultural analytics, turn-of-the-twentieth-century U.S. literature and culture.
+
+
+- name: Go Sugimoto
+  team: false
+  bio:
+      en: |
+          Go Sugimoto is a data analyst at the Austrian Centre for Digital Humanities (ACDH) in the Austrian Academy of Sciences. He has worked for a wide range of cultural heritage projects around the world, including Europeana and Archives Portal Europe at the National Archives of the Netherlands, CHIRON fellowship at the University of Florence (Italy), the National Museum of Modern Art Tokyo (Japan), and Wessex Archaeology (UK).
+
+- name: Brad Rittenhouse
+  team: false
+  bio:
+      en: |
+           Brad Rittenhouse is the Lab Coordinator of the Digital Integrative Liberal Arts Center at the Georgia Institute of Technology, where he helps facilitate the integration of digital tools into research in a wide variety of humanities disciplines. His research is on the information logics of literary devices.
+
+- name: Ximin Mi
+  team: false
+  bio:
+      en: |
+           Ximin Mi manages the Data Visualization Lab and services at Georgia Tech Library. She holds a MS from iSchool from University of Illinois at Urbana-Champaign, and a MS of Education from Arizona State University.
+
+- name:  Courtney Allen
+  team: false
+  bio:
+      en: |
+           Courtney Allen is a second year MS-HCI student at Georgia Tech, in the School of Interactive Computing (College of Computing). She is a User Experience Reseacher, supporting design with data-driven choices and elements, and is a Graduate Teaching Assistant for Human-Computer Interaction MS Research Methods.
+           
+- name: Quinn Dombrowski
+  team: false
+  orcid: 0000-0001-5802-6623
+  bio:
+      en: |
+          Quinn Dombrowski is the Academic Technology Specialist for the Division of Literatures, Cultures, and Languages at Stanford University, and works on non-English digital humanities.
+          
+- name: Tassie Gniady
+  team: false
+  orcid: 0000-0001-8693-3677
+  bio:
+      en: |
+          Tassie Gniady is the manager of the Cyberinfrastructure for Digital Humanities and Creative Activities (CyberDH) at Indiana University.
+
+- name: David Kloster
+  team: false
+  orcid: 0000-0001-8577-8409
+  bio:
+      en: |
+          David Kloster works in the CyberDH group at Indiana University as a programmer/analyst.

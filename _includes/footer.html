@@ -1,40 +1,49 @@
 {% comment %}
- Include the footer with license, GitHub hosting label, commit history, and feedback submission link. 
+ Include the footer with license, GitHub hosting label, commit history, and feedback submission link.
 {% endcomment %}
 
-<footer role="contentinfo">
+<footer role="contentinfo" style="background-color: {{site.data.snippets.background_color[page.lang] }}">
 
-<div class="container-fluid">
 
-<div class="row">
-  <div class="col-sm-12 footer-head">
-    {{ site.data.snippets.footer.license[page.lang] | markdownify }}
-  </div>
+<div class="d-flex flex-wrap justify-content-center footer-head">
+  {{ site.data.snippets.footer.license[page.lang] | markdownify }}{{ site.data.snippets.footer.financial[page.lang] | markdownify }}
 </div>
 
-<div class="row">
-  <div class="col-sm-3">
-    <i class="fa fa-github" aria-hidden="true"></i>
+<div class="d-flex flex-wrap justify-content-around">
+  <div class="mx-4">
+    {% for l in site.data.snippets.language-list %} {% if page.lang == l %}
+    <strong>{% endif %}
+      <p>
+        <a href="{{ site.data.snippets.menu-home[l] }}">ISSN {{ site.data.snippets.issn[l] }} ({{ site.data.snippets.language-name[l][page.lang]}})</a>
+      </p>
+      {% if page.lang == l %}</strong>{% endif %} {% endfor %}
+  </div>
+  <div class="mx-4">
+    <i class="fab fa-github" aria-hidden="true"></i>
     <a href="https://github.com/programminghistorian/jekyll">{{ site.data.snippets.footer.gh-hosted[page.lang] }}</a>
   </div>
 
-  <div class="col-sm-3">
+  <div class="mx-4">
   <i class="fa fa-calendar" aria-hidden="true"></i>
     <a href="https://github.com/programminghistorian/jekyll/commits/gh-pages">{{ site.data.snippets.footer.last-updated[page.lang] }} {{ site.time | date_to_long_string }}</a>
   </div>
-
-  <div class="col-sm-3">
+ 
+ <div class="mx-4">
+  <i class="fas fa-rss" aria-hidden="true"></i>
+  <a href="https://programminghistorian.org/feed.xml">{{ site.data.snippets.footer.rss-feed[page.lang] }}</a>
+  </div>
+ 
+  <div class="mx-4">
   <i class="fa fa-history" aria-hidden="true"></i>
   <a href="https://github.com/programminghistorian/jekyll/commits/gh-pages/{{ page.path }}">{{ site.data.snippets.footer.rev-history[page.lang] }}</a>
   </div>
 
-  <div class="col-sm-3">
+  <div class="mx-4">
   <i class="fa fa-bolt" aria-hidden="true"></i>
   <a href="{{site.baseurl}}{{ site.data.snippets.menu-contribute-feedback[page.lang].link }}">{{ site.data.snippets.footer.suggestion[page.lang] }}</a>
   </div>
 
   </div>
-</div>
 
 </footer>
 

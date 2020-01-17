@@ -10,12 +10,16 @@ editors:
 reviewers:
 - Miriam Posner
 - Jim Clifford
+- Frederik Elwert
 translator:
 - Víctor Gayol
+translation-editor:
+- Adam Crymble
 translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/42
 layout: lesson
 categories: [lessons, python, original-ph]
 difficulty: 2
@@ -24,8 +28,10 @@ topics: [python]
 abstract: "Esta lección muestra qué es un Localizador de recursos uniforme (Uniform Resource Locator = URL) y explica cómo utilizar Python para descargar y guardar los contenidos de una página web en tu disco duro."
 next: manipular-cadenas-de-caracteres-en-python
 previous: reutilizacion-de-codigo-y-modularidad
+original: working-with-web-pages
 redirect_from: /es/lessons/working-with-web-pages
-python_warning: true
+python_warning: false
+avatar_alt: Grabado de una mujer y un hombre de pies. 
 ---
 
 {% include toc.html %}
@@ -51,7 +57,7 @@ Veamos algunos ejemplos.
 
 ```xml
 http://oldbaileyonline.org
-``` 
+```
 
 El tipo más básico de URL simplemente especifica el protocolo y el alojamiento. Si introduces este URL en tu navegador, te mostrará la página principal del sitio [The Old Bailey Online]. Por defecto, la página principal en un directorio se denomina índice, por lo general `index.html`.
 
@@ -59,13 +65,13 @@ El URL también pude incluir un *número de puerto* opcional. Sin entrar en deta
 
 ```xml
 http://oldbaileyonline.org:80
-``` 
+```
 
 Como sabes, generalmente hay muchas páginas en un determinado sitio web. Éstas están almacenadas en directorios del servidor y tú puedes especificar la ruta (*path*) a una página en particular. La página “Acerca de” del *The Old Bailey Online* tiene el siguiente URL:
 
 ```xml
 http://oldbaileyonline.org/static/Project.jsp
-``` 
+```
 
 Por último, muchas páginas web te permiten introducir consultas. El sitio web *The Old Bailey Online*, por ejemplo, está diseñado de tal manera que puedes solicitar una página en particular utilizando una [*cadena de consulta*]. EL siguiente URL te llevará a la página de resultados de búsqueda de registros de juicios criminales que contienen la palabra “arsenic” (arsénico)
 
@@ -100,11 +106,11 @@ Ahora vamos a tratar de abrir la página usando Python. Copia el siguiente progr
 ``` python
 # abre-paginaweb.py
 
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 contenidoWeb = respuesta.read()
 
 print(contenidoWeb[0:300])
@@ -130,7 +136,7 @@ Al ejecutar el programa, te darás cuenta que en el panel de salida se muestra a
 <head>
 	<title>Browse - Central Criminal Court</title>
 	<meta http-equiv="content-type" content=
-``` 
+```
 
 El contenido del proceso judicial está mucho más adelante en la página. Lo que vemos aquí es solamente en código HTML de la parte superior del documento. Esto no es lo que necesitamos para una investigación histórica, pero no te preocupes: en breve aprenderás cómo quitar el exceso de etiquetas y obtener el contenido que estás buscando.
 
@@ -141,11 +147,11 @@ Dado que ya sabes lo suficiente acerca de escribir en archivos, resulta bastante
 ``` python
 # guardar-paginaweb.py
 
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 contenidoWeb = respuesta.read()
 
 f = open('obo-t17800628-33.html', 'w')
@@ -170,10 +176,10 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 [The Old Bailey Online]: http://oldbaileyonline.org
 [*cadena de consulta*]: https://es.wikipedia.org/wiki/Query_string
-[Descarga de registros múltiples usando cadenas de consulta]: http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings
+[Descarga de registros múltiples usando cadenas de consulta]: /lessons/downloading-multiple-records-using-query-strings
 [revueltas de Gordon]: http://en.wikipedia.org/wiki/Gordon_Riots
 [View as XML]: http://www.oldbaileyonline.org/browse.jsp?foo=bar&path=sessionsPapers/17800628.xml&div=t17800628-33&xml=yes
 [XML]: https://es.wikipedia.org/wiki/Extensible_Markup_Language
 [documento original]: http://www.oldbaileyonline.org/images.jsp?doc=178006280084
 [urllib2]: https://docs.python.org/2/library/urllib2.html
-[zip]: http://programminghistorian.org/assets/python-es-lecciones1.zip
+[zip]: /assets/python-es-lecciones1.zip

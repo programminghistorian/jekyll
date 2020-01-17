@@ -1,6 +1,7 @@
 name: Programming Historian
 description: Introductory and intermediate programming lessons for humanists
-url: https://programminghistorian.org
+# Used to insert the live url of the site in places that require a full link such as suggested citations and XML feed
+liveurl: https://programminghistorian.org
 baseurl: ""
 permalink: :categories/:title
 exclude:
@@ -8,15 +9,25 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - archive
 highlighter: rouge
 markdown: kramdown
 permalink: :categories/:title
+future: true
 plugins:
   - jekyll-redirect-from
+  - jekyll-paginate
+paginate: 7
+paginate_path: "/blog/page:num/"
 defaults:
   -
     scope:
       path: ""
+    values:
+      lang: "en"
+  -
+    scope:
+      path: "en"
     values:
       lang: "en"
   -
@@ -26,21 +37,29 @@ defaults:
       lang: "es"
   -
     scope:
-      path: "lessons"
+      path: "fr"
     values:
-      lesson: true
-      english-lesson: true
+      lang: "fr"
   -
     scope:
-      path: "lessons/deprecated"
+      path: "en/lessons"
+    values:
+      lesson: true
+  -
+    scope:
+      path: "en/lessons/retired"
     values:
       lesson: false
-      english-lesson: false
+      retired: true
   -
     scope:
       path: "es/lecciones"
     values:
-      translated-lesson: true
+      lesson: true
+  -
+    scope:
+      path: "fr/lecons"
+    values:
       lesson: true
   -
     scope:

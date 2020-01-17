@@ -13,16 +13,20 @@ editors:
 - Adam Crymble
 translator:
 - María-Jesús Colmenero-Ruiz
+translation-editor:
+- Antonio Rojas Castro
 translation-reviewer:
 - Antonio Rojas Castro
 - Luisina Silva
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/73
 layout: lesson
+original: cleaning-data-with-openrefine
 redirect_from: /es/lessons/cleaning-data-with-openrefine
 difficulty: 2
 activity: transforming
 topics: [data-manipulation]
 abstract: "Este tutorial se enfoca en cómo los académicos pueden diagnosticar y tomar acciones para asegurar la precisión de sus datos."   
-
+avatar_alt: Dibujo de tareas de labandería en un río que apenas lleva agua
 ---
 
 {% include toc.html %}
@@ -141,46 +145,46 @@ Desde que cargaste tus datos por primera vez en *OpenRefine*, todas las operacio
 
 ### Construir sobre tus datos limpios
 
-Una vez que tus datos han sido limpiados, puedes dar el siguiente paso y explorar otras características interesantes de *OpenRefine*. La comunidad de usuarios de *OpenRefine* ha desarrollado dos extensiones particularmente interesantes que te permiten vincular tus datos a datos que ya se han publicado en la Web. La [extensión RDF Refine](http://refine.deri.ie/docs) transforma las palabras clave de texto sin formato en URLs. La [extensión NER](https://github.com/RubenVerborgh/Refine-NER-Extension) te permite aplicar el reconocimiento de nombres de entidades (NER), que identifica palabras clave en el texto de los campos textuales y les inserta una URL.
+Una vez que tus datos han sido limpiados, puedes dar el siguiente paso y explorar otras características interesantes de *OpenRefine*. La comunidad de usuarios de *OpenRefine* ha desarrollado dos extensiones particularmente interesantes que te permiten vincular tus datos a datos que ya se han publicado en la Web. La [extensión RDF Refine](http://web.archive.org/web/20180113121435/http://refine.deri.ie/docs) transforma las palabras clave de texto sin formato en URLs. La [extensión NER](https://github.com/RubenVerborgh/Refine-NER-Extension) te permite aplicar el reconocimiento de nombres de entidades (NER), que identifica palabras clave en el texto de los campos textuales y les inserta una URL.
 
 ## Conclusiones
 
 Si sólo recordaras una cosa de esta lección, debería ser lo siguiente: *todos los datos están sucios, pero tú puedes hacer algo para remediarlo*. Como te hemos mostrado, hay ya bastantes cosas que puedes hacer tú mismo para aumentar significativamente la calidad de los datos. En primer lugar, has aprendido cómo puedes obtener una panorámica rápida de cuántos valores vacíos contiene tu conjunto de datos y con qué frecuencia se utiliza un valor determinado (por ejemplo, una palabra clave) en toda una colección. Estas lecciones también han demostrado cómo resolver problemas recurrentes tales como duplicados e inconsistencias ortográficas de forma automatizada con la ayuda de OpenRefine. No dudes en experimentar con las funciones de limpieza, ya que estás realizando estos pasos en una copia de tu conjunto de datos, y *OpenRefine* te permite rastrear todos tus pasos (y volver atrás) en el caso de que hayas cometido un error.
 
 ## Notas de la traductora
-  [^1]: Denominado también conciliar o reconciliar.  
-  [^2]: La página del Museo Powerhouse ha sido modificada desde la publicación original de esta lección en 2013. La página actual que muestra la información de este mismo objeto de la imagen es https://collection.maas.museum/object/11848  
-  [^3]: Es posible que al cargar este proyecto no veas ninguna columna con este color. Esto significa que ningún campo tiene definidos sus valores como numéricos.  
-  [^4]: Al cargar el proyecto es muy posible que esta columna aparezca con formato de texto. Para poder aplicar una faceta numérica primero hay que convertirla a formato numérico: '**Editar celdas**' \> '**Transformaciones comunes**' \> '**a número**'.  
-  [^5]: Esta parte de la interfaz del programa no aparece traducida.  
+[^1]: Denominado también conciliar o reconciliar.  
+[^2]: La página del Museo Powerhouse ha sido modificada desde la publicación original de esta lección en 2013. La página actual que muestra la información de este mismo objeto de la imagen es https://collection.maas.museum/object/11848  
+[^3]: Es posible que al cargar este proyecto no veas ninguna columna con este color. Esto significa que ningún campo tiene definidos sus valores como numéricos.  
+[^4]: Al cargar el proyecto es muy posible que esta columna aparezca con formato de texto. Para poder aplicar una faceta numérica primero hay que convertirla a formato numérico: '**Editar celdas**' \> '**Transformaciones comunes**' \> '**a número**'.  
+[^5]: Esta parte de la interfaz del programa no aparece traducida.  
 
 
-  [*OpenRefine*]: http://openrefine.org "OpenRefine"
-  [Powerhouse museum]: http://www.powerhousemuseum.com
+[*OpenRefine*]: http://openrefine.org "OpenRefine"
+[Powerhouse museum]: http://www.powerhousemuseum.com
     "Powerhouse museum"
-  [*Potter’s Wheel ABC*]: http://control.cs.berkeley.edu/abc/
+[*Potter’s Wheel ABC*]: http://control.cs.berkeley.edu/abc/
     "Potter's Wheel ABC "
-  [*Wrangler*]: http://vis.stanford.edu/papers/wrangler/ "Wrangler"
-  [data profiling]: http://en.wikipedia.org/wiki/Data_profiling
-  [named-entity recognition]: http://en.wikipedia.org/wiki/Named-entity_recognition
-  [Library of Congress]: http://www.loc.gov/index.html
+[*Wrangler*]: http://vis.stanford.edu/papers/wrangler/ "Wrangler"
+[data profiling]: http://en.wikipedia.org/wiki/Data_profiling
+[named-entity recognition]: http://en.wikipedia.org/wiki/Named-entity_recognition
+[Library of Congress]: http://www.loc.gov/index.html
     "Library of Congress"
-  [OCLC]: http://www.oclc.org/home.en.html "OCLC"
-  [website]: http://www.powerhousemuseum.com/collection/database/download.php
+[OCLC]: http://www.oclc.org/home.en.html "OCLC"
+[website]: http://www.powerhousemuseum.com/collection/database/download.php
     "website"
-  [Creative Commons Attribution Share Alike (CCASA) license]: http://creativecommons.org/licenses/by-nc/2.5/au/
-  [Controlled vocabulary]: http://en.wikipedia.org/wiki/Controlled_vocabulary
-  [Linked Data]: http://en.wikipedia.org/wiki/Linked_data
-  [Download OpenRefine]: http://openrefine.org/#download_openrefine
-  [FreeYourMetadata website]: http://data.freeyourmetadata.org/powerhouse-museum/
-  [phm-collection]: /images/phm-collection.tsv
-  [initial OpenRefine project]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
-  [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
-  [facet]: http://en.wikipedia.org/wiki/Faceted_search
-  [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
-  [GREL documentation]: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
-  [regular expression]: http://en.wikipedia.org/wiki/Regular_expression
+[Creative Commons Attribution Share Alike (CCASA) license]: http://creativecommons.org/licenses/by-nc/2.5/au/
+[Controlled vocabulary]: http://en.wikipedia.org/wiki/Controlled_vocabulary
+[Linked Data]: http://en.wikipedia.org/wiki/Linked_data
+[Download OpenRefine]: http://openrefine.org/#download_openrefine
+[FreeYourMetadata website]: http://data.freeyourmetadata.org/powerhouse-museum/
+[phm-collection]: /images/phm-collection.tsv
+[initial OpenRefine project]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
+[Powerhouse Museum Website]: /images/powerhouseScreenshot.png
+[facet]: http://en.wikipedia.org/wiki/Faceted_search
+[Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
+[GREL documentation]: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
+[regular expression]: http://en.wikipedia.org/wiki/Regular_expression
     "Regular Expressions"
-  [CSV]: http://en.wikipedia.org/wiki/Comma-separated_values
-  [RDF Refine extension]: http://refine.deri.ie/docs
-  [NER extension]: https://github.com/RubenVerborgh/Refine-NER-Extension
+[CSV]: http://en.wikipedia.org/wiki/Comma-separated_values
+[RDF Refine extension]: http://refine.deri.ie/docs
+[NER extension]: https://github.com/RubenVerborgh/Refine-NER-Extension

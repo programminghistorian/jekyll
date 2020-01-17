@@ -1,5 +1,7 @@
 <!--https://dev.twitter.com/cards/-->
 
+{% include page-slug.html %}
+
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@ProgHist" />
 <meta name="twitter:title" content="{{ page.title }}" />
@@ -10,12 +12,4 @@
     <meta name="twitter:description" content="{{ page.content | truncate: 197 | strip_html }}" />
 {% endif %}
 
-{% if page.lang == "en" %}
-    <meta name="twitter:image" content="{{ site.url }}/gallery/{{ page.url | remove_first:'/lessons/' }}.png" />
-{% endif %}
-
-{% if page.lang == "es" %}
-    <meta name="twitter:image" content="{{ site.url }}/gallery/{{ page.redirect_from | remove_first:'/es/lessons/' }}.png" />
-{% endif %}
-
-
+<meta name="twitter:image" content="{{ site.liveurl }}/gallery/{{ canonical_slug }}.png" />

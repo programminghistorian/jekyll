@@ -5,39 +5,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>{{ site.name | xml_escape }}</title>
-		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
-		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+		<link>{{ site.liveurl }}</link>
+		<atom:link href="{{ site.liveurl }}/feed.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
 				{% if post.author.name %}
 					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
-				{% endif %}        
+				{% endif %}
 				{% if post.excerpt %}
 					<description>{{ post.excerpt | xml_escape }}</description>
 				{% else %}
 					<description>{{ post.content | xml_escape }}</description>
 				{% endif %}
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<link>{{ site.liveurl }}{{ post.url }}</link>
+				<guid isPermaLink="true">{{ site.liveurl }}{{ post.url }}</guid>
 			</item>
 		{% endfor %}
-        {% for page in site.pages %}
-          {% if page.layout == 'default' %}
-			<item>
-				<title>{{ page.title }}</title>
-				{% if page.abstract %}
-					<description>{{ page.abstract | xml_escape }}</description>
-				{% else %}
-                <description>{{ page.excerpt | xml_escape }}</description>
-				{% endif %}
-				<pubDate>{{ page.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-				<link>{{ site.url }}{{ page.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
-			</item>
-          {% endif %}
-        {% endfor %}
+
+				{% assign pages = site.pages | where:'layout','lesson'| where: 'lang', 'en' | sort:'date' | reverse %}
+				{% for page in pages limit:10 %}
+						{% include feed-item.html %}
+				{% endfor %}
+
+				{% assign pages = site.pages | where:'layout','lesson'|  where:'lang','es' | sort:'translation_date' | reverse %}
+				{% for page in pages limit:10 %}
+						{% include feed-item.html %}
+				{% endfor %}
+				
+				{% assign pages = site.pages | where:'layout','lesson'|  where:'lang','fr' | sort:'translation_date' | reverse %}
+				{% for page in pages limit:10 %}
+						{% include feed-item.html %}
+				{% endfor %}
 	</channel>
 </rss>

@@ -1,14 +1,14 @@
 language: ruby
-cache: 
+cache:
   - bundler
   - directories:
     - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 rvm:
-- 2.3.3
+- 2.5.4
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: _build/build.sh  
+script: _build/build.sh
 
 env:
   global:
@@ -23,5 +23,6 @@ branches:
 
 # Add slack notifications
 notifications:
+  email: false
   slack:
     secure: IQkIaMYJ9fvTiwDguwSFIpnhsUqr4J0dbjwYLsMT4V95k2aPDSP4/D4TmLDElt7ZlI0WxCmNs8kC2GA8OznyNJMpdFwzBfxT/CnHDGcrzv+c+MT5L2CEUzFdDOQpscdmgnlpfaRuE8Vf6TgKBZHiFiBzY5ZI2DpgcixouSLWQW8=

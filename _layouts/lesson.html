@@ -3,174 +3,276 @@ layout: base
 ---
 
 {% comment %}
-  This is the standard template for all lessons. It builds on the base template, which includes the HTML header, the menu bar, page content, and footer.
+This is the standard template for all lessons. It builds on the base template, which includes the HTML header, the menu
+bar, page content, and footer.
 
-  In addition to general formatting, this layout also contains all the logic for displaying alert messages (lessons in a series, deprecated lessons, etc).
+In addition to general formatting, this layout also contains all the logic for displaying alert messages (lessons in a
+series, retired lessons, etc).
 
-  All lesson metadata and alerts should follow the convention of pulling appropriate text from the snippets.yml file.
+All lesson metadata and alerts should follow the convention of pulling appropriate text from the snippets.yml file.
 {% endcomment %}
 
-<!-- Calculate the lesson slug for use across this page -->
-{% include lesson-slug.html %}
+{% include translation-links.html %}
 
 <header>
 
-<div class="container-fluid">
+  <div class="container-fluid">
 
-  <div class="container expanded">
+    <div class="container expanded">
 
-    <div class="row">
-      <div class="col-md-4">
-        <div class="header-image rounded">
-          <img src="{{ site.baseurl }}/gallery/{{ slug }}.png">
-        </div>
-      </div>
-
-      <div class="col-md-8">
-        <div class="header-title">
-          <h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="header-image rounded">
+            <img src="{{ site.baseurl }}/gallery/{{ canonical_slug }}.png" alt="{{ page.avatar_alt }}">
+          </div>
         </div>
 
-        <div class="header-author">
-          <h2>{% include author.html %}</h2>
-        </div>
+        <div class="col-md-8">
+          <div class="header-title">
+            <h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
+          </div>
 
-        <div class="header-abstract">
-          <p>{{ page.abstract }}</p>
+          <div class="header-author">
+            <h2>{% include author.html orcid = true %}</h2>
+          </div>
+
+          <div class="header-abstract">
+            {{ page.abstract | markdownify }}
+          </div>
+
+          <div class="container expanded">
+            <div class="row d-flex justify-content-left">
+              {% if page.reviewers or page.review-ticket %}
+              <div class="peer-review mr-5">
+                <p>
+                  {% if page.review-ticket %}<a href="{{ page.review-ticket }}">{% endif %}
+                    <i class="fas fa-user-check"></i> {{ site.data.snippets.peer-review[page.lang] }}
+                    {% if page.review-ticket %}</a>{% endif %}
+                </p>
+              </div>
+              {% endif %}
+              <div class="open-license mr-5">
+                <p><a href="https://creativecommons.org/licenses/by/4.0/deed.en"><i class="fas fa-lock-open"></i> CC-BY
+                    4.0</a></p>
+              </div>
+              <div class="donate mr-5">
+                <p><a href="https://programminghistorian.org{{ site.data.snippets.menu-contribute-support-donate[page.lang].link}}"><i class="fas fa-credit-card"></i> {{ site.data.snippets.donate[page.lang] }}</a></p>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
     </div>
   </div>
-</div>
-
-{% capture editor-style %}{% if page.translator %}col-md-3{% else %}col-md-4 offset-md-4{% endif %}{% endcapture %}
-{% capture reviewers-style %}{% if page.translator %}col-md-3{% else %}col-md-4{% endif %}{% endcapture %}
-
+  </div>
 
   <div class="container-fluid header-helpers">
-
     <div class="container expanded">
+      {% comment %}
+      If the page is an original, and thus has no translator info, wrap the editor & reviewer in a smaller column
+      {% endcomment %}
+      {% unless page.original %}
+      <div class="col-6 p-0 m-0">
+        {% else %}
+        <div>
+          {% endunless %}
+          <div class="d-flex flex-wrap flex-md-row flex-column justify-content-between">
+            <div>
+              <h3>{{site.data.snippets.editor[page.lang]}}</h3>
+              <ul>
+                {% for editor_name in page.editors %}
+                {% assign editor = site.data.ph_authors | where: "name", editor_name | first %}
+                <li>{{ editor_name }}{% if editor.orcid %} {% include orcid.html author = editor %}{% endif %}</li>
+                {% endfor %}
+              </ul>
+            </div>
 
-    <div class="row">
+            <div>
+              <h3>{{site.data.snippets.reviewers[page.lang]}}</h3>
+              <ul>
+                {% for reviewer_name in page.reviewers %}
+                {% assign reviewer = site.data.ph_authors | where: "name", reviewer_name | first %}
+                <li>{{ reviewer_name }}{% if reviewer.orcid %} {% include orcid.html author = reviewer %}{% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
 
-      <div class="{{editor-style}}">
-        <h3 class="text-left">{{site.data.snippets.editor[page.lang]}}</h3>
-        <ul>
-        {% for editor in page.editors %}
-          <li>{{editor}}</li>
-        {% endfor %}
-        </ul>
-      </div>
+            {% if page.translator %}
+            <div>
+              <h3>{{site.data.snippets.translator[page.lang]}}</h3>
+              <ul>
+                {% for translator_name in page.translator %}
+                {% assign translator = site.data.ph_authors | where: "name", translator_name | first %}
+                <li>{{ translator_name }}{% if translator.orcid %}
+                  {% include orcid.html author = translator %}{% endif %}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
 
-      <div class="{{reviewers-style}}" >
-        <h3 class="text-left">{{site.data.snippets.reviewers[page.lang]}}</h3>
-          <ul>
-          {% for reviewer in page.reviewers %}
-            <li>{{reviewer}}</li>
-          {% endfor %}
-          </ul>
-      </div>
+            {% if page.translation-editor %}
+            <div>
+              <h3>{{site.data.snippets.translation-editors[page.lang]}}</h3>
+              <ul>
+                {% for translation-editor-name in page.translation-editor %}
+                {% assign translation-editor = site.data.ph_authors | where: "name", translation-editor-name | first %}
+                <li>{{ translation-editor-name }}{% if translation-editor.orcid %}
+                  {% include orcid.html author = translation-editor %}{% endif %}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
 
-      {% if page.translator %}
-      <div class="col-md-2" >
-        <h3 class="text-left">{{site.data.snippets.translator[page.lang]}}</h3>
-        <ul>
-        {% for translator in page.translator %}
-          <li>{{translator}}</li>
-        {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
-
-      {% if page.translation-editor %}
-      <div class="col-md-2" >
-        <h3 class="text-left">{{site.data.snippets.translation-editors[page.lang]}}</h3>
-        <ul>
-        {% for translation-editor in page.translation-editor %}
-          <li>{{translation-editor}}</li>
-        {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
-
-      {% if page.translation-reviewer %}
-      <div class="col-md-2" >
-        <h3 class="text-left">{{site.data.snippets.translation-reviewers[page.lang]}}</h3>
-        <ul>
-        {% for editor in page.translation-reviewer %}
-          <li>{{editor}}</li>
-        {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
-
+            {% if page.translation-reviewer %}
+            <div>
+              <h3>{{site.data.snippets.translation-reviewers[page.lang]}}</h3>
+              <ul>
+                {% for translation-reviewer-name in page.translation-reviewer %}
+                {% assign translation-reviewer = site.data.ph_authors | where: "name", translation-reviewer-name | first %}
+                <li>{{ translation-reviewer-name }}{% if translation-reviewer.orcid %}
+                  {% include orcid.html author = translation-reviewer %}{% endif %}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div> <!-- end row -->
     </div>
-    </div> <!-- end row -->
-  </div>
 
-  <div class="container-fluid header-bottom">
-    <div class="container expanded">
-      <div class="row">
-      <div class="col-md-4 metarow"><h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}</div>
-      <div class="col-md-4 metarow"><h4>{{site.data.snippets.modified[page.lang]}}</h4> <span id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span></div>
-      <div class="col-md-4 metarow"><h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}</div>
+    <div class="container-fluid header-bottom">
+      <div class="container expanded">
+        <div class="d-flex flex-wrap flex-md-row flex-column justify-content-between">
+          <div class="metarow">
+            <h4>{{site.data.snippets.published[page.lang]}}</h4> {{ page.date | date:"%Y-%m-%d" }}
+          </div>
+          {% if page.translation_date %}
+          <div class="metarow">
+            <h4>{{site.data.snippets.translated-date[page.lang]}}</h4> <span
+              id="translated-date">{{ page.translation_date | date:"%Y-%m-%d" }}</span>
+          </div>
+          {% endif %}
+          {% if page.retired %}
+          <div class="metarow">
+            <h4>{{site.data.snippets.retired-date[page.lang]}}</h4> <span
+              id="retired-date">{{ page.retired_date | date:"%Y-%m-%d" }}</span>
+          </div>
+          {% else %}
+          <div class="metarow">
+            <h4>{{site.data.snippets.modified[page.lang]}}</h4> <span
+              id="modified-date">{{ page.date | date:"%Y-%m-%d" }}</span>
+          </div>
+          {% endif %}
+          <div class="metarow">
+            <h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
 
 </header>
 
-  <div class="container">
+<div class="container">
 
-    {% if page.redirect_from and page.lang == 'es' %}
-      <div class="alert alert-warning">
-        Esta lección fue publicada originalmente en Inglés. Es posible que desee consultar <a href="/lessons/{{slug}}">el original</a>.
-      </div>
+  {% for candidate in translation_candidates %}
+  <!-- Banner pointing to translations of this lesson when they exist -->
+  <div class="alert alert-warning">
+    {{ site.data.snippets.translation-target[page.lang]}}
+    {{ site.data.snippets.language-name[candidate.lang][page.lang]}}: <a
+      href="{{ candidate.url }}">{{ candidate.title }}</a>
+  </div>
+  {% endfor %}
+
+  {% assign selected_translation_source = translation_source %}
+  {% if selected_translation_source %}
+  <!-- If this lesson is translated, banner pointing to the original language source of this lesson -->
+  <div class="alert alert-warning">
+    {{ site.data.snippets.translation-source[page.lang] }} {{ site.data.snippets.language-name.en[page.lang]}}: <a
+      href="{{ selected_translation_source.url }}">{{ selected_translation_source.title }}</a>
+  </div>
+  {% endif %}
+
+  {% if page.retired %}
+  <div class="alert alert-warning">
+    <h2>{{ site.data.snippets.retired[page.lang] }}</h2>
+    <p><em>{{ site.data.snippets.retired-meaning[page.lang] }}</em></p>
+    <p>{{ site.data.snippets.retired-definition[page.lang] | markdownify }}</p>
+    {% if page.retirement-reason %}
+    <p><em>{{ site.data.snippets.retirement-reason[page.lang] }}</em></p>
+    <p>{{ page.retirement-reason | markdownify }}</p>
     {% endif %}
+  </div>
+  {% endif %}
 
-    {% if page.deprecated %}
-     <div class="alert alert-warning">
-       {{ site.data.snippets.deprecated[page.lang] }}
-     </div>
+  {% if page.python_warning %}
+  <div class="alert alert-warning">
+    {{ site.data.snippets.python-warning[page.lang] | markdownify }}
+  </div>
+  {% endif %}
+
+
+  {% if page.previous %}
+  <div class="series-warning alert alert-info">
+    {{ site.data.snippets.series-previous-note[page.lang] }} <a
+      href="{{page.previous}}">{{ site.data.snippets.previous-lesson[page.lang] }}</a>.
+  </div>
+  {% endif %}
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+  {% if page.next %}
+  <div class="series-warning alert alert-info">
+    {{ site.data.snippets.series-next-note[page.lang] }} <a
+      href="{{page.next}}">{{ site.data.snippets.next-lesson[page.lang] }}</a>.
+  </div>
+  {% endif %}
+
+  {% include author-info.html %}
+
+  <div class="citation-info">
+    {% assign vol_start = site.data.snippets.volume-start[page.lang] %}
+    {% if page.translation_date %}
+    {% assign page_year = page.translation_date | date: "%Y" %}
+    {% else %}
+    {% assign page_year = page.date | date: "%Y" %}
     {% endif %}
+    {% assign vol_no = page_year | minus: vol_start | plus: 1 %}
 
-    {% if page.python_warning %}
-    <div class="alert alert-warning">
-      {{ site.data.snippets.python-warning[page.lang] | markdownify }}
+    <h5 class="suggested-citation-header">{{ site.data.snippets.suggested-citation[page.lang] }}</h5>
+    <div class="suggested-citation-text">
+      <p class="suggested-citation-text">{% include author.html %},
+        {{ site.data.snippets.title-open-quote[page.lang] }}{{ page.title | strip }}{{ site.data.snippets.title-close-quote[page.lang] }}{% if page.translator %}
+        {{ site.data.snippets.translator[page.lang] }}
+        {{ page.translator | array_to_sentence_string: site.data.snippets.and[page.lang] }},{% endif %}
+        <em>{{ site.data.snippets.journal-title[page.lang] }}</em> {{ vol_no }} ({{ page_year }}),
+        {{ site.liveurl }}{{ page.url }}.</p>
     </div>
-    {% endif %}
+  </div>
 
-
-      {% if page.previous %}
-      <div class="series-warning alert alert-info">
-        {{ site.data.snippets.series-previous-note[page.lang] }} <a href="{{page.previous}}">{{ site.data.snippets.previous-lesson[page.lang] }}</a>.
-      </div>
-      {% endif %}
-
-     <div class="content">
-         {{ content }}
-     </div>
-
-     {% if page.next %}
-      <div class="series-warning alert alert-info">
-        {{ site.data.snippets.series-next-note[page.lang] }} <a href="{{page.previous}}">{{ site.data.snippets.next-lesson[page.lang] }} </a>.
-      </div>
-     {% endif %}
-
-     {% include author-info.html %}
+  <div class="citation-info">
+    <div class="suggested-citation-text">
+      <p class="suggested-citation-text">
+        If you wish to print this lesson, we suggest using Chrome for the best appearance.
+      </p>
+    </div>
+  </div>
+</div>
 </div>
 
 <script>
-(function() {
-  var githubAPI = "https://api.github.com/repos/programminghistorian/jekyll/commits";
-  $.getJSON( githubAPI, {
-    path: "{{page.path}}"
-  })
-    .done(function( data ) {
-      var date = new Date(data[0].commit.author.date);
-      var formatted_date = date.getFullYear()+'-'+("0"+date.getMonth()).slice(-2)+'-'+("0"+date.getDate()).slice(-2);
-      $("#modified-date").text(formatted_date);
-    });
-})();
+  (function () {
+    var githubAPI = "https://api.github.com/repos/programminghistorian/jekyll/commits";
+    $.getJSON(githubAPI, {
+      path: "{{page.path}}"
+    })
+      .done(function (data) {
+        var date = new Date(data[0].commit.author.date);
+        var formatted_date = new Intl.DateTimeFormat('sv').format(date)
+        $("#modified-date").text(formatted_date);
+      });
+  })();
 </script>

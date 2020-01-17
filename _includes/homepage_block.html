@@ -1,0 +1,19 @@
+<div class="card {{ include.lang }}-back m-2 home-logo">
+  <div class="d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
+    <div class="media">
+    <a href="/{{ include.lang }}"><img src="images/logos/ph-{{ include.lang }}.svg" alt="{{ site.data.snippets.journal-title[include.lang] }} logo"></a>
+    </div>
+    <div class="media-body p-3">
+      <a href="/{{ include.lang }}"><h1>{{ site.data.snippets.enter[include.lang] }} <em>{{ site.data.snippets.journal-title[include.lang] }}</em></h1></a>
+      {% if site.data.snippets.journal-subtitle[include.lang] %}
+      <h4 class="text-center">({{ site.data.snippets.journal-subtitle[include.lang] }})</h4>
+      {% endif %}
+      <hr>
+      <ul class="nav nav-justified mb-3">
+        <li class="nav-item">{{ site.pages | where: "lesson", "true" |  where: "lang", include.lang | size }} {{ site.data.snippets.lesson[include.lang] }}</li>
+        <li class="nav-item">ISSN: {{ site.data.snippets.issn[include.lang] }}</li>
+      </ul>
+      <p>{{ site.data.snippets.project-summary[include.lang] }}</p>
+    </div>
+  </div>
+</div>

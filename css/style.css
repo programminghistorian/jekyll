@@ -1,3 +1,6 @@
+---
+---
+
 @media screen {
 
   body {
@@ -102,6 +105,34 @@ Home Page
     width: 75%;
   }
 
+  .home-logo img {
+    width: 200px;
+  }
+
+  .home-logo a h1 {
+    color: #fff;
+  }
+
+  .home-logo {
+    color: #fff;
+  }
+
+  .home-logo li {
+    font-size: 1.2rem;
+  }
+
+  .en-back {
+    background-color: {{ site.data.snippets.background_color.en }};
+  }
+
+  .es-back {
+    background-color: {{ site.data.snippets.background_color.es }};
+  }
+
+  .fr-back {
+    background-color: {{ site.data.snippets.background_color.fr }};
+  }
+
 /* =============================================================================
 Lesson Headers
 ========================================================================== */
@@ -159,13 +190,13 @@ Lesson Headers
     border:.2rem solid gray;
     margin:0;
     padding:0;
+    max-width: 200px;
   }
 
   header .header-abstract {
     font: 1rem/1.4rem 'Roboto', sans-serif;
     color:#666;
     margin:1rem 0;
-    text-align: justify;
   }
 
   header .header-helpers {
@@ -184,13 +215,17 @@ Lesson Headers
 
   header li, header .metarow {
     font: .9rem/1.1rem 'Roboto Condensed';
-    margin: 0;
   }
 
   header .metarow {
     color:#999;
   }
 
+  header .peer-review, header .open-license {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+  }
 
 /* =============================================================================
 Lessons Index
@@ -403,34 +438,47 @@ Top Navigation Bar
 ========================================================================== */
 
   .navbar {
-    background-color:#555;
     padding: .6rem 1rem;
     margin: 0 0 3rem 0;
   }
 
-  .navbar-light .navbar-nav .nav-link {
+  .navbar-dark .navbar-nav .nav-link {
     font-family:'Open Sans';
     text-transform:uppercase;
-    color:#ccc;
+    color:#fff;
     font-size:.9rem;
+  }
+
+  .btn-group > .btn-secondary {
+    border-color: #333333;
+    background-color: #888888;
   }
 
   .lang {
     text-transform:lowercase !important;
   }
 
-  .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover {
+  .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-brand:hover {
     color:#39a;
+  }
+
+  .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
 
   .navbar-collapse {
     text-align:center;
   }
 
-  .navbar-light .navbar-brand {
+  .navbar-dark .navbar-brand {
     font-family:'Crete Round', serif;
-    color:#ccc;
+    color:#fff;
     letter-spacing: .02em;
+  }
+
+  .btn-group > a.btn {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   a.dropdown-item {
@@ -480,7 +528,7 @@ Top Navigation Bar
   	margin-left: -13px;
   }
 
-  .navbar-light .navbar-nav .nav-link:focus {
+  .navbar-dark .navbar-nav .nav-link:focus {
     color: #ccc;
   }
 
@@ -514,7 +562,7 @@ Lesson Typography
 
   b, strong { font-weight: bold; }
 
-  blockquote { margin: 1em 2em; padding: 0 1em 0 1em; font-style: italic; border:1px solid #666; background: #eeeeee; text-align:justify;}
+  blockquote { margin: 1em 2em; padding: 0 1em 0 1em; font-style: italic; border:1px solid #666; background: #eeeeee;}
 
   hr {
     display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 2em 0; padding: 0; }
@@ -596,7 +644,7 @@ Lesson Typography
     font-family: 'Roboto';
   }
 
-  .alert h3, .alert h4 {
+  .alert h2, .alert h3, .alert h4 {
     margin-top:0;
   }
 
@@ -639,16 +687,15 @@ Figures
     color: #666;
     display:block;
     caption-side: bottom;
-    text-align: justify;
   }
 
-  .author-info {
+  .author-info, .citation-info {
     border-top:1px solid #333;
     padding-top:1rem;
     margin-top:2rem;
   }
 
-  .author-name {
+  .author-name, .suggested-citation-header {
     font-family:'Roboto Condensed';
     font-weight: 600;
     font-size:1.2rem;
@@ -656,12 +703,11 @@ Figures
     text-transform:uppercase;
   }
 
-  .author-description p {
+  .author-description p, .suggested-citation-text p {
     font-size:0.9rem;
     font-family:'Open Sans';
     color: #666;
   }
-
 
   /* =============================================================================
   Tables
@@ -669,10 +715,11 @@ Figures
 
   table {
     width: 100%;
+    margin-bottom: 1em;
   }
 
   th, td {
-    padding: 15px;
+    padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
   }
@@ -741,7 +788,7 @@ Footer
     padding: 2rem 0;
     font-family:'Open Sans';
     font-size:.9rem;
-    color:#ccc;
+    color: #fff;
     background-color:#666;
     text-align:center;
   }
@@ -766,6 +813,7 @@ Footer
     margin-bottom:1rem;
   }
 
+
 } /* end screen */
 
 @media only screen and (max-width: 768px) {
@@ -774,6 +822,15 @@ Footer
   }
   .dropdown-menu:after, .dropdown-menu:before {
     display:none;
+  }
+}
+
+/* Print Styling */
+
+@media screen {
+  /* Class to hide elements only shown when printing */
+  .hide-print {
+    display: none !important;
   }
 }
 
@@ -788,6 +845,40 @@ Footer
   tr, img { page-break-inside: avoid; }
   img { max-width: 100% !important; }
   @page { margin: 0.5cm; }
+  
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
+  .hide-screen {
+    /* Hide elements that only appear on screen */
+    display: none !important;
+  }
+  thead {
+    z-index:1030;
+    display: table-header-group;
+    top: 0;
+  }
+  .print-header {
+    /* format navbar for print */
+    top: 0;
+    padding: .6rem 1rem;
+    color:#fff;
+    font-size: 1.25rem;
+    white-space: nowrap;
+    font-family: 'Crete Round', serif;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid lightgrey;
+  }
+  tbody {
+    /* Not sure this is doing anything? */
+    page-break-after: always;
+    display: table-row-group;
+  }
+  tfoot {
+    display: table-footer-group;
+  }
+  .header-bottom {
+    width: 1140px;
+    max-width: 100%;
+  }
 }

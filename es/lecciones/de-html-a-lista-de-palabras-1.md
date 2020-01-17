@@ -9,21 +9,27 @@ editors:
 - Miriam Posner
 reviewers:
 - Jim Clifford
+- Frederik Elwert
 translator:
 - Víctor Gayol
+translation-editor:
+- Adam Crymble
 translation-reviewer:
 - Jairo A. Melo
 - Maria José Afanador-Llach
 - Antonio Rojas Castro
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/44
 layout: lesson
 next: de-html-a-lista-de-palabras-2
 previous: manipular-cadenas-de-caracteres-en-python
+original: from-html-to-list-of-words-1
 redirect_from: /es/lessons/from-html-to-list-of-words-1
-python_warning: true
+python_warning: false
 difficulty: 2
 activity: transforming
 topics: [python]
 abstract: "En esta lección en dos partes partiremos de lo que has aprendido sobre Descargar páginas web con Python, para aprender cómo remover las etiquetas HTML de la página web de la transcripción del juicio criminal contra Benjamin Bowsey de 1780. Lograremos esto utilizando una variedad de operadores de cadenas, métodos de cadenas y habilidades de lectura cercana. Vamos a presentar bucles (looping) y condicionales (branching), de manera que los programas puedan repetir tareas y pruebas para ciertas condiciones, haciendo posible separar el contenido de las etiquetas HTML. Por último, convertimos el contenido de una cadena larga a una lista de palabras que posteriormente podrán ser ordenadas, indexadas y contadas." 
+avatar_alt: Grabado de una jirafa de perfil mirando a un hombre también de perfil parado sujetando muletas para simular la postura de la jirafa. 
 ---
 
 {% include toc.html %}
@@ -114,14 +120,14 @@ Ahora crea un segundo archivo llamado *contenido-juicio.py* y guarda el programa
 ``` python
 # contenido-juicio.py
 
-import urllib2, obo
+import urllib.request, urllib.error, urllib.parse, obo
 
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
-respuesta = urllib2.urlopen(url)
+respuesta = urllib.request.urlopen(url)
 HTML = respuesta.read()
 
-print(obo.quitarEtiquetas(HTML))
+print((obo.quitarEtiquetas(HTML)))
 ```
 
 Cuando ejecutes *contenido-juicio.py* éste obtendrá la página Web de la transcripción del juicio de Bowsey, entonces mira en el módulo *obo.py* la función *quitarEtiquetas*. El programa utilizará esa función para extraer todo lo que esté después de la primera etiqueta `<p>` y antes de la última `<br/>`. Con algo de suerte esto debe ser el contenido textual de la transcripción de Bowsey acompañada con algo de marcado en HTML. No te preocupes si tu pantalla de salida de comandos termina en una línea gruesa negra. La pantalla de salida de Komodo Edit tiene un número máximo de caracteres a desplegar, después de lo cual los caracteres empiezan a escribirse unos sobre otros en la pantalla, literalmente, dando la apriencia de una mancha negra. No te preocupes: el texto está ahí aún cuando tú no puedas leerlo; así que puedes copiar y pegarlo en un archivo de texto para confirmarlo.
@@ -136,7 +142,7 @@ Lecturas sugeridas
     -   Ch. 8: Lists and Dictionaries
     -   Ch. 10: Introducing Python Statements
     -   Ch. 15: Function Basics
- 
+
 ## Sincronización de código
 
 Para seguir a lo largo de las lecciones futuras es importante que tengas los archivos correctos y programas en el directorio "programming-historian" de tu disco duro. Al final de cada lección puedes descargar el archivo zip "python-es-lecciones" para asegurarte que tienes el código correcto.
@@ -148,10 +154,10 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 
 
 [transcripción del juicio criminal contra Benjamin Bowsey de 1780]: http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33
-[Descargar páginas web con Python]: http://programminghistorian.org/es/lecciones/trabajar-con-paginas-web
+[Descargar páginas web con Python]: /es/lecciones/trabajar-con-paginas-web
 [HTML]: http://www.w3schools.com/html/
 [1]: http://www.w3schools.com/html/
-[Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python 
+[Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
 [Reutilizacion de código y modularidad]: /es/lecciones/reutilizacion-de-codigo-y-modularidad
-[zip]: http://programminghistorian.org/assets/python-es-lecciones2.zip
-[obo-t17800628-33.html]: http://programminghistorian.org/assets/obo-t17800628-33.html
+[zip]: /assets/python-es-lecciones2.zip
+[obo-t17800628-33.html]: /assets/obo-t17800628-33.html
