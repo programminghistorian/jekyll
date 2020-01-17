@@ -491,16 +491,22 @@ Very dense networks are often more difficult to split into sensible partitions. 
 Community detection and partitioning in NetworkX requires a little more setup than some of the other metrics. There are some built-in approaches to community detection (like [minimum cut](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.flow.minimum_cut.html), but modularity is not included with NetworkX. Fortunately there's an [additional python module](https://github.com/taynaud/python-louvain/) you can use with NetworkX, which you already installed and imported at the beginning of this tutorial. You can read the [full documentation](http://perso.crans.org/aynaud/communities/api.html) for all of the functions it offers, but for most community detection purposes you'll only want `best_partition()`:
 
 ```python
-communities = community.best_partition(G)
+communities = community.greedy_modularity_communities(G)
 ```
 
-The above code will create a dictionary just like the ones created by centrality functions. `best_partition()` tries to determine the number of communities appropriate for the graph, and assigns each node a number (starting at 0), corresponding to the community it's a member of. You can add these values to your network in the now-familiar way:
+The method `greedy_modularity_communities()` tries to determine the number of communities appropriate for the graph, and groups all nodes into subsets based on these communities. Unlike the centrality functions, the above code will not create a dictionary. Instead it creates a list of special "frozenset" objects (similar to lists). There's one set for each group, and the sets contain the names of the people in each group. In order to add this information to your network in the now-familiar way, you must first create a dictionary that labels each person with a number value for the group to which they belong:
 
 ```python
-nx.set_node_attributes(G, communities, 'modularity')
+modularity_dict = {} # Create a blank dictionary
+for i,c in enumerate(communities): # Loop through the list of communities, keeping track of the number for the community
+    for name in c: # Loop through each person in a community
+        modularity_dict[name] = i # Create an entry in the dictionary for the person, where the value is which group they belong to.
+
+# Now you can add modularity information like we did the other metrics
+nx.set_node_attributes(G, modularity_dict, 'modularity')
 ```
 
-And as always, you can combine these measures with others. For example, here's how you find the highest eigenvector centrality nodes in modularity class 0 (the first one):
+As always, you can combine these measures with others. For example, here's how you find the highest eigenvector centrality nodes in modularity class 0 (the first one):
 
 ```python
 # First get a list of just the nodes in that class
@@ -517,24 +523,17 @@ for node in class0_sorted_by_eigenvector[:5]:
     print("Name:", node[0], "| Eigenvector Centrality:", node[1])
 ```
 
-Using eigenvector centrality as a ranking can give you a sense of the important people within this modularity class. You'll notice that most of these top five, especially William Penn, William Bradford (*not* the Plymouth founder you're thinking of), and James Logan, spent lots of time in America. Also, Bradford and Tace Sowle were both prominent Quaker printers. With just a little bit of digging, we can discover that there are both geographical and occupational reasons that this group of people belongs together. This is an indication that modularity is probably working as expected.
+Using eigenvector centrality as a ranking can give you a sense of the important people within this modularity class. You'll notice that some of these people, especially William Penn, William Bradford (*not* the Plymouth founder you're thinking of), and James Logan, spent lots of time in America. Also, Bradford and Tace Sowle were both prominent Quaker printers. With just a little bit of digging, we can discover that there are both geographical and occupational reasons that this group of people belongs together. This is an indication that modularity is probably working as expected.
 
-In smaller networks like this one, a common task is to find and list all of the modularity classes and their members.[^modularity] You can do this by manipulating the `communities` dictionary. You'll need to reverse the *keys* and *values* of this dictionary so that the keys are the modularity class numbers and the values are lists of names. You can do so like this:
+In smaller networks like this one, a common task is to find and list all of the modularity classes and their members.[^modularity] You can do this by looping through the `communities` list:
 
 ```python
-modularity = {} # Create a new, empty dictionary
-for k,v in communities.items(): # Loop through the community dictionary
-    if v not in modularity:
-        modularity[v] = [k] # Add a new key for a modularity class the code hasn't seen before
-    else:
-        modularity[v].append(k) # Append a name to the list for a modularity class the code has already seen
-
-for k,v in modularity.items(): # Loop through the new dictionary
-    if len(v) > 2: # Filter out modularity classes with 2 or fewer nodes
-        print('Class '+str(k)+':', v) # Print out the classes and their members
+for i,c in enumerate(communities): # Loop through the list of communities
+    if len(c) > 2: # Filter out modularity classes with 2 or fewer nodes
+        print('Class '+str(i)+':', list(c)) # Print out the classes and their members
 ```
 
-Notice in the code above that you are filtering out any modularity classes with two or fewer nodes, in the line `if len(v) > 2`. You'll remember from the visualization that there were lots of small components of the network with only two nodes. Modularity will find these components and treat them as separate classes (since they're not connected to anything else). By filtering them out, you get a better sense of the larger modularity classes within the network's main component.
+Notice in the code above that you are filtering out any modularity classes with two or fewer nodes, in the line `if len(c) > 2`. You'll remember from the visualization that there were lots of small components of the network with only two nodes. Modularity will find these components and treat them as separate classes (since they're not connected to anything else). By filtering them out, you get a better sense of the larger modularity classes within the network's main component.
 
 Working with NetworkX alone will get you far, and you can find out a lot about modularity classes just by working with the data directly. But you'll almost always want to visualize your data (and perhaps to express modularity as node color). In the next section you'll learn how to export your NetworkX data for use in other programs.
 
