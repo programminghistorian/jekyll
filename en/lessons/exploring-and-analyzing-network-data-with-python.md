@@ -102,22 +102,10 @@ George Keith,William Penn
 Now that you've downloaded the Quaker data and had a look at how it's structured, it's time to begin working with that data in Python. Once both Python and pip are installed (see Prerequisites, above) you'll want to install NetworkX, by typing this into your [command line](/lessons/intro-to-bash):[^pip]
 
 ```
-pip3 install networkx
+pip3 install networkx==2.4
 ```
 
-If that doesn't work, you can instead type the following to deal with permissions problems (it will ask you for your computer's login password):
-
-```
-sudo pip3 install networkx
-```
-
-You'll also need to install a **modularity** package to run **community detection** (more on what those terms mean later on). Use the same installation method:
-
-```
-pip3 install python-louvain==0.5
-```
-
-Recently, NetworkX updated to version 2.0. If you're running into any problems with the code below and have worked with NetworkX before, you might try updating both the above packages with `pip3 install networkx --upgrade` and `pip3 install python-louvain --upgrade`.
+Recently, NetworkX updated to version 2.0. If you're running into any problems with the code below and have worked with NetworkX before, you might try updating the above package with `pip3 install networkx==2.4 --upgrade`.
 
 And that's it! You're ready to start coding.
 
