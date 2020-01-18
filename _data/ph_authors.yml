@@ -25,23 +25,22 @@
   url: "http://adamcrymble.org"
   team: true
   team_start: 2011
-  institution: University of Hertfordshire
+  institution: ProgHist Ltd
   sortname: Crymble
   affiliation:
     en: |
-        University of Hertfordshire, UK.
+        ProgHist Ltd.
     es: |
-        Universidad de Hertfordshire, Reino Unido.
+        ProgHist Ltd.
     fr: |
-        Université du Hertfordshire, Royaume-Uni.
+        ProgHist Ltd.
   bio:
     en: |
-        Adam Crymble is a senior lecturer of digital history at the University of
-        Hertfordshire.
+        Adam Crymble is a senior lecturer of digital history.
     es: |
-        Adam Crymble es profesor de historia digital en la Universidad de Hertfordshire.
+        Adam Crymble es profesor de historia digital.
     fr: |
-        Adam Crymble est maître de conférences en histoire numérique à l'Université du Hertfordshire.
+        Adam Crymble est maître de conférences en histoire numérique.
   team_roles:
    - board
    - team-development-manager
@@ -1093,6 +1092,7 @@
   sortname: Boucher
   orcid: 0000-0002-2475-3184
   team_roles:
+    - board
     - french
     - volunteer
   bio:
