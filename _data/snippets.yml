@@ -388,9 +388,9 @@ donation-alert:
 
     More text here as well
   es: |
-    ## Donate today!
+    ## ¡Haz una donación!
 
-    Please support the future of digial publishing by [donating to _The Programming Historian_](https://www.patreon.com/theprogramminghistorian)
+    Producir buenos tutoriales de acceso abierto cuesta dinero. Únete al creciente número de personas que [apoya a _The Programming Historian_](https://www.patreon.com/theprogramminghistorian) para que podamos continuar compartiendo conocimientos de forma gratuita.
 
     ---
 
@@ -408,7 +408,7 @@ donation-banner:
     en: |
       <h2><a href="https://www.patreon/com/theprogramminghistorian" class="alert-link">Donate to <i>The Programming Historian</i> today!</a></h2>
     es: |
-      <h2><a href="https://www.patreon/com/theprogramminghistorian" class="alert-link">Donate to <i>The Programming Historian</i> today!</a></h2>
+      <h2><a href="https://www.patreon/com/theprogramminghistorian" class="alert-link">¡Dona ahora a <i>The Programming Historian</i>!</a></h2>
     fr: |
       <h2><a href="https://www.patreon/com/theprogramminghistorian" class="alert-link">Vous pouvez faire une donation au <i>Programming Historian</i></a></h2>
 
