@@ -244,7 +244,7 @@ And whenever you’ve needed to read from or write to a file, you’ve used
 a special file handle like *f* in the example below.
 
 ``` python
-f = open('helloworld.txt','w')
+f = open('helloworld.txt','wb')
 f.write('hello world')
 f.close()
 ```
