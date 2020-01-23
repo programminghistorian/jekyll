@@ -237,3 +237,12 @@
      en: This member's time on the project is either directly or indirectly supported by their employer.
      es: El tiempo que este miembro dedica al proyecto está directa o indirectamente apoyado por su institución.
      fr: Le temps que ce membre consacre au projet est directement ou indirectement financé par son employeur.
+- type: proghist
+  label:
+     en: ProgHist Ltd
+     es: ProgHist Ltd
+     fr: ProgHist Ltd
+  definition:
+     en: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
+     es: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
+     fr: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
