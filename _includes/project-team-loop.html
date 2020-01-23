@@ -13,7 +13,7 @@ Loops through members of editorial team and then generates their contact info us
 {% assign englishmembers = site.data.ph_authors | sort: "sortname" %}
 {% for member in englishmembers %}
   {% for role in member.team_roles %}
-    {% if role == "editorial" %}
+    {% if role == "editorial" && member.team == true %}
       {% capture membername %}{{ member.name }}{% endcapture %}
       {% include contact-info.html name=membername %}
     {% endif %}
