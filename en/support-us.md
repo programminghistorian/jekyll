@@ -30,7 +30,7 @@ The project is grateful for the following support:
 Individual donors to the _Programming Historian_ are vital to growing, improving, and sustaining our work. We welcome both one-time and ongoing donations:
 
 - Ongoing donations by becoming a supporter of the _Programming Historian_ via [Patreon](https://www.patreon.com/theprogramminghistorian). 
-- One-time donations can be made to the _Programming Historian_ via [Paypal](https://www.paypal.com/donate/?token=KFN0PutsHiWTKsgLkQU3t3mjjp_4_ZMMm_9ILTEDB-NGQVP9hzA03TSVP10wIGKO4sqNm0&fromUL=true&country.x=GB&locale.x=en_GB), bank transfer (Lloyds Bank account number 55263268, sort code 30-96-26), or cheque (made payable to 'ProgHist Ltd' and posted to 'Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH'). For donations via bank transfer and cheque, we'd be grateful if you could write to us at <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> to let us know who you are and why you've chosen to support our work.
+- One-time donations can be made to the _Programming Historian_ via [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), bank transfer (Lloyds Bank account number 55263268, sort code 30-96-26), or cheque (made payable to 'ProgHist Ltd' and posted to 'Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH'). For donations via bank transfer and cheque, we'd be grateful if you could write to us at <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> to let us know who you are and why you've chosen to support our work.
 
 ## Sponsor Us
 

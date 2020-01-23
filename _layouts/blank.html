@@ -1,7 +1,9 @@
 {% comment %}
-  This template assembles principal page components (standard HTML header, menu bar, page content, and footer). The page content is held in a wrapper div (called "container"), which sets the standard page width.
+This template assembles principal page components (standard HTML header, menu bar, page content, and footer). The page
+content is held in a wrapper div (called "container"), which sets the standard page width.
 
-  This is the standard template used by ALL site pages EXCEPT the home page and lessons pages (which have full-window bleeds and therefore cannot have all page content wrapped in the "container" div; they use the base template).
+This is the standard template used by ALL site pages EXCEPT the home page and lessons pages (which have full-window
+bleeds and therefore cannot have all page content wrapped in the "container" div; they use the base template).
 {% endcomment %}
 
 <!DOCTYPE html>
@@ -10,12 +12,14 @@
   {% include header.html %}
 
   <body>
-
+    {% if site.sitewide_donation_banner %}
+    {% include sitewide_donation_banner.html %}
+    {% endif %}
     {% include menu.html %}
 
     <div class="container">
       <article>
-  	     {{content}}
+        {{content}}
       </article>
     </div>
 

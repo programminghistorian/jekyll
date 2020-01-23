@@ -1,0 +1,7 @@
+{% comment %}
+Banner to appear at the top of every site page soliciting donations.
+{% endcomment %}
+
+<div class="alert alert-success sitewide-alert text-center">
+  {{ site.data.snippets.donation-banner[page.lang] | markdownify }}
+</div>
