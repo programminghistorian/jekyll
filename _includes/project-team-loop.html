@@ -11,7 +11,7 @@ Loops through members of editorial team and then generates their contact info us
 <h3>Programming Historian en espa&ntilde;ol</h3> 
 {% assign spanishmembers = site.data.ph_authors | sort: "sortname" %}
 {% for member in spanishmembers %}
-  {% if member.team == true && member.spanish == true %}
+  {% if member.spanish == true %}
     {% capture membername %}{{ member.name }}{% endcapture %}
     {% include contact-info.html name=membername %}
   {% endif %}
