@@ -133,6 +133,11 @@ Home Page
     background-color: {{ site.data.snippets.background_color.fr }};
   }
 
+  .sitewide-alert {
+    position: relative;
+    margin-bottom: 0;
+  }
+
 /* =============================================================================
 Lesson Headers
 ========================================================================== */
@@ -845,7 +850,7 @@ Footer
   tr, img { page-break-inside: avoid; }
   img { max-width: 100% !important; }
   @page { margin: 0.5cm; }
-  
+
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
   .hide-screen {

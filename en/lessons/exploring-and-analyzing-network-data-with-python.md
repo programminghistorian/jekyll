@@ -26,10 +26,6 @@ redirect_from: /lessons/exploring-and-analyzing-network-data-with-python
 avatar_alt: Train tracks intersecting
 ---
 
-{% include alert.html text="It has been brought to our attention that newer versions of NetworkX have changed the nature of their API, rendering this lesson out of date. We are working with the author to update the lesson to the newer version of NetworkX, but, until that time, some of the code blocks below will raise errors. [Read more details of the issue and our attempts to resolve it here.](https://github.com/programminghistorian/jekyll/issues/1587)
-
-The Editorial Team, 10 December 2019." %}
-
 {% include toc.html %}
 
 # Introduction
