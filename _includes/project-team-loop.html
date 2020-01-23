@@ -8,6 +8,18 @@ Loops through members of editorial team and then generates their contact info us
   $('[data-toggle="tooltip"]').tooltip()
 })</script>
 
+
+<h3>Programming Historian in English</h3> 
+{% assign englishmembers = site.data.ph_authors | sort: "sortname" %}
+{% for member in englishmembers %}
+  {% for role in member.team_roles %}
+    {% if role == "english" %}
+      {% capture membername %}{{ member.name }}{% endcapture %}
+      {% include contact-info.html name=membername %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
 <h3>Programming Historian en espa&ntilde;ol</h3> 
 {% assign spanishmembers = site.data.ph_authors | sort: "sortname" %}
 {% for member in spanishmembers %}
@@ -19,6 +31,27 @@ Loops through members of editorial team and then generates their contact info us
   {% endfor %}
 {% endfor %}
 
+<h3>Programming Historian en fran&ccedil;ais</h3> 
+{% assign frenchmembers = site.data.ph_authors | sort: "sortname" %}
+{% for member in frenchmembers %}
+  {% for role in member.team_roles %}
+    {% if role == "french" %}
+      {% capture membername %}{{ member.name }}{% endcapture %}
+      {% include contact-info.html name=membername %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+<h3>ProgHist Ltd</h3> 
+{% assign proghistmembers = site.data.ph_authors | sort: "sortname" %}
+{% for member in proghistmembers %}
+  {% for role in member.team_roles %}
+    {% if role == "proghist" %}
+      {% capture membername %}{{ member.name }}{% endcapture %}
+      {% include contact-info.html name=membername %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 
 
 <h3>{{ site.data.snippets.project-team-roles[page.lang] }}</h3>
