@@ -9,7 +9,55 @@ Loops through members of editorial team and then generates their contact info us
 
 {% assign teammembers = site.data.ph_authors | sort: "sortname" %}
 {% for member in teammembers %}
+  {% if member.team == 
+{% comment %}
+Loops through members of editorial team and then generates their contact info using the contact-info.html include. This is used both on project-team.md as well as es/equipo-de-proyecto.md
+{% endcomment %}
+
+<!-- Activate the Bootstrap tooltip javascript manually so definitions will display -->
+<script>$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})</script>
+
+{% assign teammembers = site.data.ph_authors | sort: "sortname" %}
+{% for member in teammembers %}
   {% if member.team == true %}
+    
+    <h3>Programming Historian in English</h3>
+  	{% if member.english == true %}
+  	  {% capture membername %}{{ member.name }}{% endcapture %}
+      {% include contact-info.html name=membername %}
+    {% endif %}    
+    
+    <h3>Programming Historian en espa&ntilde;ol</h3> 
+  	{% if member.spanish == true %}
+  	  {% capture membername %}{{ member.name }}{% endcapture %}
+      {% include contact-info.html name=membername %}
+    {% endif %}
+    
+    <h3>Programming Historian en fran&‌ccedil;ais</h3>
+    {% if member.french == true %}
+  	  {% capture membername %}{{ member.name }}{% endcapture %}
+      {% include contact-info.html name=membername %}
+    {% endif %}
+    
+    <h3>ProgHist Ltd</h3>
+    {% if member.proghist == true %}
+  	  {% capture membername %}{{ member.name }}{% endcapture %}
+      {% include contact-info.html name=membername %}
+    {% endif %}
+    
+  {% endif %}
+{% endfor %}
+
+<h3>{{ site.data.snippets.project-team-roles[page.lang] }}</h3>
+<ul>
+{% for team in site.data.teamroles %}
+  {% if team.definition %}
+  <li><strong>{{ team.label[page.lang] }}</strong>: {{ team.definition[page.lang] }}</li>
+  {% endif %}
+{% endfor %}
+</ul>true %}
     {% capture membername %}{{ member.name }}{% endcapture %}
     {% include contact-info.html name=membername %}
   {% endif %}
