@@ -23,7 +23,7 @@ Loops through members of editorial team and then generates their contact info us
       {% include contact-info.html name=membername %}
     {% endif %}
     
-    <h3>Programming Historian en fran&‌ccedil;ais</h3>
+    <h3>Programming Historian en fran&ccedil;ais</h3>
     {% if member.french == true %}
   	  {% capture membername %}{{ member.name }}{% endcapture %}
       {% include contact-info.html name=membername %}
@@ -38,18 +38,6 @@ Loops through members of editorial team and then generates their contact info us
   {% endif %}
 {% endfor %}
 
-<h3>{{ site.data.snippets.project-team-roles[page.lang] }}</h3>
-<ul>
-{% for team in site.data.teamroles %}
-  {% if team.definition %}
-  <li><strong>{{ team.label[page.lang] }}</strong>: {{ team.definition[page.lang] }}</li>
-  {% endif %}
-{% endfor %}
-</ul>true %}
-    {% capture membername %}{{ member.name }}{% endcapture %}
-    {% include contact-info.html name=membername %}
-  {% endif %}
-{% endfor %}
 
 <h3>{{ site.data.snippets.project-team-roles[page.lang] }}</h3>
 <ul>
