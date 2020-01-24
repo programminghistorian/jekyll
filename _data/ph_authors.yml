@@ -25,27 +25,27 @@
   url: "http://adamcrymble.org"
   team: true
   team_start: 2011
-  institution: University of Hertfordshire
+  institution: ProgHist Ltd
   sortname: Crymble
   affiliation:
     en: |
-        University of Hertfordshire, UK.
+        ProgHist Ltd.
     es: |
-        Universidad de Hertfordshire, Reino Unido.
+        ProgHist Ltd.
     fr: |
-        Université du Hertfordshire, Royaume-Uni.
+        ProgHist Ltd.
   bio:
     en: |
-        Adam Crymble is a senior lecturer of digital history at the University of
-        Hertfordshire.
+        Adam Crymble is a senior lecturer of digital history.
     es: |
-        Adam Crymble es profesor de historia digital en la Universidad de Hertfordshire.
+        Adam Crymble es profesor de historia digital.
     fr: |
-        Adam Crymble est maître de conférences en histoire numérique à l'Université du Hertfordshire.
+        Adam Crymble est maître de conférences en histoire numérique.
   team_roles:
    - board
    - team-development-manager
    - global
+   - volunteer
 
 - name: Caleb McDaniel
   team: false
@@ -144,6 +144,7 @@
   team_roles:
    - spanish
    - board
+   - volunteer
 
 - name: Antonio Rojas Castro
   url: "http://antoniorojascastro.com"
@@ -172,6 +173,7 @@
   team_roles:
    - spanish
    - board
+   - volunteer
 
 - name: Stephen Margheim
   bio:
@@ -275,11 +277,11 @@
     fr: |
         James Baker est maître de conférences en histoire numérique et en archivistique à l'Université du Sussex; il est spécialiste en histoire des interactions entre personnes et objets.
   team_roles:
-   - editorial
    - board
    - archive
    - sponsorship
    - finance-manager
+   - institutionally-supported
 
 - name: Amanda Morton
   team: false
@@ -520,9 +522,9 @@
     fr: |
         Matthew Lincoln est développeur en humanités numériques à l'Université Carnegie Mellon et historien de l'art européen moderne.
   team_roles:
-   - editorial
    - technical-lead
    - board
+   - institutionally-supported
 
 - name: Sarah Melton
   github: svmelton
@@ -551,6 +553,7 @@
    - editorial
    - managing-en
    - board
+   - volunteer
 
 - name: Sarah Simpkin
   team: false
@@ -625,6 +628,7 @@
    - twitter-dev
    - communication
    - technical
+   - instutitionally-supported
 
 - name: Ted Dawson
   team: false
@@ -708,6 +712,7 @@
   team_roles:
    - board
    - global-lead
+   - volunteer
 
 - name: Taylor Arnold
   team: false
@@ -821,6 +826,7 @@
    - communication
    - technical
    - project-manager-at-large
+   - volunteer
 
 - name: Evan Peter Williamson
   team: false
@@ -916,6 +922,7 @@
   team_roles:
    - spanish
    - board
+   - volunteer
 
 - name: Jennifer Isasi
   url: "https://jenniferisasi.github.io/"
@@ -945,6 +952,7 @@
     - board
     - technical
     - communication-manager
+    - institutionally-supported
 
 - name: Jon MacKay
   team: false
@@ -979,6 +987,7 @@
     - french
     - board
     - ombuds-fr
+    - institutionally-supported
   bio:
       en: |
           François Dominic Laramée is a postdoctoral fellow in digital history of medicine at the University of Ottawa, in Canada.
@@ -1046,6 +1055,7 @@
     - managing-fr
     - technical
     - global
+    - volunteer
   bio:
         en: |
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
@@ -1071,6 +1081,27 @@
             Marie Puren es historiadora e investigadora de humanidades digitales en el equipo ALMAnaCH en Inria París.
         fr: |
             Marie Puren est historienne et chercheuse post-doctorante en histoire et humanités numériques au LARHRA (CNRS) à Lyon.
+
+- name: Marie-Christine Boucher
+  email: marie.c.boucher@ggk.uni-giessen.de
+  twitter: marie_c_boucher
+  github: mariechristineb
+  team: true
+  team_start: 2020
+  institution: Justus-Liebig-Universität Gießen
+  sortname: Boucher
+  orcid: 0000-0002-2475-3184
+  team_roles:
+    - board
+    - french
+    - volunteer
+  bio:
+        en: |
+            Marie-Christine Boucher is a doctoral student in German literature at Justus Liebig University Giessen (Germany).
+        es: |
+            Marie-Christine Boucher es doctoranda en literatura alemana en la Universidad Justus Liebig de Giessen (Alemania).
+        fr: |
+            Marie-Christine Boucher est doctorante en littérature allemande à l'Université Justus-Liebig de Giessen (Allemagne).
 
 - name: Charlie Harper
   team: false
@@ -1159,6 +1190,7 @@
     - board
     - managing-es
     - global
+    - volunteer
 
 - name: Joshua G. Ortiz Baco
   twitter: jgob
@@ -1185,6 +1217,7 @@
   team_roles:
     - spanish
     - board
+    - volunteer
 
 - name: Armando Luza
   team: false
@@ -1228,3 +1261,24 @@
   bio:
       en: |
            Courtney Allen is a second year MS-HCI student at Georgia Tech, in the School of Interactive Computing (College of Computing). She is a User Experience Reseacher, supporting design with data-driven choices and elements, and is a Graduate Teaching Assistant for Human-Computer Interaction MS Research Methods.
+           
+- name: Quinn Dombrowski
+  team: false
+  orcid: 0000-0001-5802-6623
+  bio:
+      en: |
+          Quinn Dombrowski is the Academic Technology Specialist for the Division of Literatures, Cultures, and Languages at Stanford University, and works on non-English digital humanities.
+          
+- name: Tassie Gniady
+  team: false
+  orcid: 0000-0001-8693-3677
+  bio:
+      en: |
+          Tassie Gniady is the manager of the Cyberinfrastructure for Digital Humanities and Creative Activities (CyberDH) at Indiana University.
+
+- name: David Kloster
+  team: false
+  orcid: 0000-0001-8577-8409
+  bio:
+      en: |
+          David Kloster works in the CyberDH group at Indiana University as a programmer/analyst.
