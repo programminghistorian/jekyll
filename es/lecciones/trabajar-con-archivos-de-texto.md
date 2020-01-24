@@ -39,7 +39,7 @@ avatar_alt: Dibujo de un señor leyendo el abecedario.
 
 ## Objetivos de la lección
 
-En esta lección aprenderás a manipular archivos de texto utilizando Python. Esto incluye abrir, cerrar, leer desde y escribir en archivos `.txt` 
+En esta lección aprenderás a manipular archivos de texto utilizando Python. Esto incluye abrir, cerrar, leer desde y escribir en archivos `.txt`
 
 Las siguientes lecciones incluirán descargar páginas web desde Internet y reorganizar los contenidos en fragmentos de información útiles para el análisis. La mayor parte de todo este trabajo se hará usando código escrito en Python mediante Komodo Edit.
 
@@ -78,22 +78,22 @@ mensaje3 = 'Su nombre es John O'Connor'
 
 Cuenta el número de comillas sencillas en el mensaje3.  Para que esto trabaje correctamente tendremos que *salvar* el apóstrofe.
 
-``` python 
+``` python
 mensaje3 = 'Su nombre es John O\'Connor'
 ```
 
 O reescribir la frase como:
 
-``` python 
+``` python
 mensaje3 = "Su nombre es John O'Connor"
 ```
 `print` es un comando que imprime objetos en forma textual. Al combinar el comando `print` con una cadena de texto producimos una *declaración*.
 
 Utilizarás el comando `print` de esta forma en los casos en los que se quiera generar información que necesite ser manipulada inmediatamente. Algunas veces, sin embargo, crearás información que necesita ser guardada, enviarla a otra persona, o utilizar como datos de entrada (*input*) para un procesamiento posterior por otro programa o conjunto de programas. En estos casos querremos enviar información a archivos en el disco duro en vez de enviarla al panel de comando de salida. Escribe el siguiente programa en tu editor de texto y guárdalo como `archivo-salida.py`
 
-```python 
+```python
 #archivo-salida.py
-f = open ('holamundo.txt','w')
+f = open ('holamundo.txt','wb')
 f.write('hola mundo')
 f.close()
 ```
@@ -126,7 +126,7 @@ Mientras que en Windows se verá:
 
 Esto significa que se ejecutó el programa con éxito. Si utilizas *File -> Open -> File* en el Komodo Edit, se puede abrir el archivo `holamundo.txt`. Este debe contener el mensaje de una sola linea:
 
-``` python 
+``` python
 ¡Hola Mundo!
 ```
 
@@ -178,4 +178,3 @@ Lecturas recomendadas
 [palabra reservada]: https://docs.python.org/release/2.5.4/ref/keywords.html
 [file objects]: https://docs.python.org/2/library/stdtypes.html#bltin-file-objects
 [Non-Programmer’s Tutorial for Python 2.6/Hello, World]: http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6/Hello,_World
-
