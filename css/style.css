@@ -845,18 +845,28 @@ Footer
   a[href]:after { content: " (" attr(href) ")"; }
   abbr[title]:after { content: " (" attr(title) ")"; }
   a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
-  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+    margin: 0.5cm;
+    padding: 0.5cm
+  }
   thead { display: table-header-group; } /* h5bp.com/t */
   tr, img { page-break-inside: avoid; }
   img { max-width: 100% !important; }
-  @page { margin: 0.5cm; }
+  @page { margin: 1.5cm; }
 
-  p { font-size: 0.95rem;}
+  body { font-size: 0.85rem;}
   p, h2, h3 { orphans: 3; widows: 3; }
-  h1, h2, h3 { page-break-after: avoid;  }
-  h1 { font-size: 1.4rem;}
-  h2 { font-size: 1.2rem;}
-  h3 {font-size: 1.1rem;}
+  h1, h2, h3 { page-break-after: avoid; }
+  h1 { font-size: 1.4rem; }
+  h2 { font-size: 1.1rem; }
+  h3 { font-size: 1rem; }
+  h4 { font-size: 0.9rem; }
+  .header-bottom {
+    margin-bottom: 2rem;
+    page-break-after: always;
+  }
   .hide-screen {
     /* Hide elements that only appear on screen */
     display: none !important;
@@ -868,10 +878,8 @@ Footer
   }
   .print-header {
     /* format navbar for print */
-    top: 0;
     padding: .6rem 1rem;
     color:#fff;
-    font-size: 1.25rem;
     white-space: nowrap;
     font-family: 'Crete Round', serif;
     width: 100%;
