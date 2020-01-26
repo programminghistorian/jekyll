@@ -134,7 +134,6 @@ modifié.
 Passez à l'affichage en [texte intégral][]. Nous partirons de cette base, en 
 ignorant la dernière partie du rapport précédent. Dans un nouveau document 
 LibreOffice, copiez le texte depuis "STATISTICAL REPORTS..." jusqu'à la fin.
-
 Lorsque vous travaillez avec des données importantes, assurez-vous d'en 
 sauvegarder une copie dans un endroit séparé de votre copie de travail. Cela 
 vous permettra de revenir vers l'original si quelque chose ne se passe pas 
