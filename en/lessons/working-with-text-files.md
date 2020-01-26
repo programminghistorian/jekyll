@@ -116,7 +116,7 @@ it as `file-output.py`.
 
 ``` python
 # file-output.py
-f = open('helloworld.txt','w')
+f = open('helloworld.txt','wb')
 f.write('hello world')
 f.close()
 ```
@@ -159,7 +159,7 @@ foobar, Foobar and FOOBAR would all be different variables.
 
 When you run this program, the `open` method will tell your computer to
 create a new text file `helloworld.txt` in the same folder as you have
-saved the `file-output.py` program. The *w parameter* says that you intend
+saved the `file-output.py` program. The *wb parameter* says that you intend
 to write content to this new file using Python.
 
 Note that since both the file name and the parameter are surrounded by

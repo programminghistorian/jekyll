@@ -93,7 +93,7 @@ menu-lesson-requests:
   es:
     title: Solicitud de lecciones
     link: /es/solicitud-lecciones
-  fr: 
+  fr:
     title: Appel à contributions
     link: /fr/appel-contributions
 menu-contribute-feedback:
@@ -130,7 +130,7 @@ menu-contribute-translate:
   en:
     title: Translator Guidelines
     link: /en/translator-guidelines
-  fr: 
+  fr:
     title: Consignes aux traducteurs
     link: /fr/consignes-traducteurs
 menu-contribute-edit:
@@ -213,7 +213,7 @@ issn:
 footer:
   license:
     en: |
-      _The Programming Historian_ (ISSN: 2397-2068) is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license. 
+      _The Programming Historian_ (ISSN: 2397-2068) is released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license.
     es: |
       _The Programming Historian en español_ (ISSN: 2517-5769) se publica con una licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es).
     fr: |
@@ -222,7 +222,7 @@ footer:
     en: |
       This project is administered by ProgHist Limited, Company Number [12192946](https://beta.companieshouse.gov.uk/company/12192946).
     es: |
-      Este proyecto es administrado por ProgHist Limited, con número de compañía [12192946](https://beta.companieshouse.gov.uk/company/12192946). 
+      Este proyecto es administrado por ProgHist Limited, con número de compañía [12192946](https://beta.companieshouse.gov.uk/company/12192946).
     fr: |
         Ce projet est administré par ProgHist Limited, no d'immatriculation [12192946](https://beta.companieshouse.gov.uk/company/12192946).
 
@@ -242,10 +242,10 @@ footer:
     en: Make a suggestion
     es: Envíanos tus comentarios
     fr: Faire une suggestion
-  rss-feed: 
+  rss-feed:
     en: RSS feed subscriptions
-    es: Suscripción a RSS 
-    fr: S'abonner au flux RSS   
+    es: Suscripción a RSS
+    fr: S'abonner au flux RSS
 
 # lesson-index
 reset-button:
@@ -378,6 +378,27 @@ donate:
   en: Support PH
   es: Apoyar PH
   fr: Soutenir PH
+donation-alert:
+  en: |
+    ## Donate today!
+
+    Great Open Access tutorials cost money to produce. Join the growing number of people [supporting _The Programming Historian_](https://www.patreon.com/theprogramminghistorian) so we can continue to share knowledge free of charge.
+  es: |
+    ## ¡Haz una donación!
+
+    Producir buenos tutoriales de acceso abierto cuesta dinero. Únete al creciente número de personas que [apoya a _The Programming Historian_](https://www.patreon.com/theprogramminghistorian) para que podamos continuar compartiendo conocimientos de forma gratuita.
+  fr: |
+    ## Vous pouvez faire une donation
+
+    Les tutoriels de qualité en accès libre ont un coût de production. Vous pouvez [rejoindre celles et ceux qui soutiennent le _Programming Historian_](https://www.patreon.com/theprogramminghistorian) et contribuer au libre partage des savoirs.
+
+donation-banner:
+    en: |
+      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Donate to <i>The Programming Historian</i> today!</a></h2>
+    es: |
+      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">¡Dona ahora a <i>The Programming Historian</i>!</a></h2>
+    fr: |
+      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Vous pouvez faire une donation au <i>Programming Historian</i></a></h2>
 
 # Included in the lesson.html layout when a lesson has been marked as retired, and is not to be displayed on the main directory.
 retired:
@@ -394,7 +415,7 @@ retired-definition:
   es: |
     Los editores de The Programming Historian hacen todo lo posible para mantener las lecciones a medida que surgen inevitablemente problemas menores. Sin embargo, desde la publicación, los cambios en las tecnologías subyacentes o los principios utilizados en esta lección han sido sustanciales, hasta el punto de que los editores han decidido no actualizarla más. Es posible que la lección siga siendo una herramienta de aprendizaje útil y una instantánea de las técnicas de la historia digital cuando se publicó, pero no podemos garantizar que todos los elementos sigan funcionando como estaba previsto.
   fr: |
-    Les rédacteurs et rédactrices du Programming Historian font tout leur possible pour pour maintenir les leçons en ligne car de petits problèmes peuvent survenir. Toutefois, depuis sa parution, soit les technologies soit les principes mobilisés par cette leçon ont subi de tels changements qu'il a été décidé de ne plus le mettre à jour. Cette leçon peut encore s'avérer un outil d'apprentissage utile ou encore offrir un aperçu des techniques utilisées en histoire numérique au moment de sa publication, néanmoins nous ne sommes pas en mesure de garantir que dans son ensemble elle reste aussi efficace que prévu.
+    Les rédacteurs et rédactrices du Programming Historian font tout leur possible pour maintenir les leçons en ligne car de petits problèmes peuvent survenir. Toutefois, depuis sa parution, soit les technologies soit les principes mobilisés par cette leçon ont subi de tels changements qu'il a été décidé de ne plus le mettre à jour. Cette leçon peut encore s'avérer un outil d'apprentissage utile ou encore offrir un aperçu des techniques utilisées en histoire numérique au moment de sa publication, néanmoins nous ne sommes pas en mesure de garantir que dans son ensemble elle reste aussi efficace que prévu.
 
 retirement-reason:
   en: Why was this lesson retired?

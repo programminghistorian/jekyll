@@ -133,6 +133,11 @@ Home Page
     background-color: {{ site.data.snippets.background_color.fr }};
   }
 
+  .sitewide-alert {
+    position: relative;
+    margin-bottom: 0;
+  }
+
 /* =============================================================================
 Lesson Headers
 ========================================================================== */

@@ -15,6 +15,9 @@ This template, therefore, is most useful on pages requiring full-window bleeds: 
   <body>
     <main>
       <div class="hide-screen">
+        {% if site.sitewide_donation_banner %}
+        {% include sitewide_donation_banner.html %}
+        {% endif %}
         {% include menu.html %}
       </div>
       {{content}}

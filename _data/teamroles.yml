@@ -219,3 +219,21 @@
     en: Managing new global initiatives, as well as trying to improve the cultural and linguistic diversity of the team, our lessons, and of participation in Digital Humanities more generally.
     es: Coordinar nuevas iniciativas globales, así como tratar de mejorar la diversidad cultural y lingüística del equipo, de nuestras lecciones y de la participación en Humanidades Digitales en general.
     fr: En charge de nouvelles initiatives à vocation globale, de la diversité culturelle et linguistique de l'équipe et des leçons, et de la participation aux humanités numériques en général.  
+- type: volunteer
+  label:
+     en: Volunteer
+     es: Voluntario
+     fr: Bénévole
+  definition:
+     en: This member's time on the project is wholly voluntary.
+     es: El tiempo que este miembro dedica al proyecto es voluntario.
+     fr: Ce membre contribue son temps sur une base entièrement bénévole.
+- type: institutionally-supported
+  label:
+     en: Institutionally Supported
+     es: Apoyado por su institución
+     fr: Soutenu institutionnellement
+  definition:
+     en: This member's time on the project is either directly or indirectly supported by their employer.
+     es: El tiempo que este miembro dedica al proyecto está directa o indirectamente apoyado por su institución.
+     fr: Le temps que ce membre consacre au projet est directement ou indirectement financé par son employeur.
