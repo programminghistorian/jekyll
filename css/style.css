@@ -854,7 +854,9 @@ Footer
   thead { display: table-header-group; } /* h5bp.com/t */
   tr, img { page-break-inside: avoid; }
   img { max-width: 100% !important; }
-  @page { margin: 1.5cm; }
+  @page {
+    margin: 1.5cm;
+  }
 
   body { font-size: 0.85rem;}
   p, h2, h3 { orphans: 3; widows: 3; }
@@ -871,31 +873,18 @@ Footer
     /* Hide elements that only appear on screen */
     display: none !important;
   }
-  thead {
-    z-index:1030;
-    display: table-header-group;
-    top: 0;
-  }
+
   .print-header {
     /* format navbar for print */
+    display: block;
+    z-index:1030;
+    width: 100%;
+    height: 3rem;
     padding: .6rem 1rem;
+    margin-bottom: 1rem;
     color:#fff;
     white-space: nowrap;
     font-family: 'Crete Round', serif;
-    width: 100%;
-    display: inline-block;
     border-bottom: 1px solid lightgrey;
-  }
-  tbody {
-    /* Not sure this is doing anything? */
-    page-break-after: always;
-    display: table-row-group;
-  }
-  tfoot {
-    display: table-footer-group;
-  }
-  .header-bottom {
-    width: 1140px;
-    max-width: 100%;
   }
 }
