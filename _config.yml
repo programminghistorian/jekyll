@@ -53,6 +53,18 @@ defaults:
       retired: true
   -
     scope:
+      path: "es/lecciones/retirada"
+    values:
+      lesson: false
+      retired: true
+  -
+    scope:
+      path: "fr/lecons/retraite"
+    values:
+      lesson: false
+      retired: true
+  -
+    scope:
       path: "es/lecciones"
     values:
       lesson: true
