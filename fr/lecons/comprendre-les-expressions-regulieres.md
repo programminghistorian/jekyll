@@ -98,7 +98,7 @@ tout taper soi-même est la meilleure façon de s'approprier le texte.
 
 ## Récupérer le texte
 
-{% include figure.html filename="regex_ia_image.png" caption="Figure 1: Capture d'écan du texte non structuré" %}
+{% include figure.html filename="regex_ia_image.png" caption="Figure 1: Capture d'écran du texte non structuré" %}
 
 Internet Archive conserve des copies de centaines de rapports de santé publique 
 américains du début du XXe siècle tombés dans le domaine public. Ils ont été 
@@ -135,7 +135,7 @@ Passez à l'affichage en [texte intégral][]. Nous partirons de cette base, en
 ignorant la dernière partie du rapport précédent. Dans un nouveau document 
 LibreOffice, copiez le texte depuis "STATISTICAL REPORTS..." jusqu'à la fin.
 
-> Lorsque vous travaillez avec des données importantes, assurez-vous d'en 
+Lorsque vous travaillez avec des données importantes, assurez-vous d'en 
 sauvegarder une copie dans un endroit séparé de votre copie de travail. Cela 
 vous permettra de revenir vers l'original si quelque chose ne se passe pas 
 comme prévu.
