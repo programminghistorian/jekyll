@@ -24,7 +24,7 @@ En accord avec notre licence [CC-BY](https://creativecommons.org/licenses/by/4.0
 
 Qu'une leçon dérivée soit créée ou pas, voici les étapes à suivre pour retirer une leçon :
 
-1. La leçon sera déplacée de `https://programminghistorian.org/fr/lecon/TITRE-DE-LA-LEÇON` à `https://programminghistorian.org/fr/lecons/retraite/TITRE-DE-LA-LEÇON`. Une redirection sera mise en place pour que des liens pointant à l'URL originelle renvoient l'utilisateur à la nouvelle URL.
+1. La leçon sera déplacée de `https://programminghistorian.org/fr/lecon/TITRE-DE-LA-LEÇON` à `https://programminghistorian.org/fr/lecons/retrait/TITRE-DE-LA-LEÇON`. Une redirection sera mise en place pour que des liens pointant à l'URL originelle renvoient l'utilisateur à la nouvelle URL.
 
 2. Une fois la leçon retirée, celle-ci n'apparaît plus dans le répertoire des leçons et elle est aussi enlevée de la liste de publications sur Twitter.
 

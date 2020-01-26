@@ -59,7 +59,7 @@ defaults:
       retired: true
   -
     scope:
-      path: "fr/lecons/retraite"
+      path: "fr/lecons/retrait"
     values:
       lesson: false
       retired: true
