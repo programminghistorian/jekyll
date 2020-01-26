@@ -23,7 +23,8 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/264
 difficulty: 2
 activity: transforming
 topics: [data-manipulation]
-abstract: Dans cette leçon, nous allons voir une utilisation avancée de la fonction "rechercher-remplacer" d'un logiciel de traitement de texte dans le but d'exploiter la structure d'un court document historique, qui n'est en essence rien d'autre qu'un tableau en prose.
+abstract: | 
+Dans cette leçon, nous allons voir une utilisation avancée de la fonction "rechercher-remplacer" d'un logiciel de traitement de texte dans le but d'exploiter la structure d'un court document historique, qui n'est en essence rien d'autre qu'un tableau en prose.
 avatar_alt: Homme lisant un livre à son bureau
 ---
 
