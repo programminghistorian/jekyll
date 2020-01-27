@@ -174,7 +174,9 @@ Comme les images, tous les fichiers des données doivent être hébergés sur le
 
  - `/assets/LESSON-SLUG/Louvre-Paintings-1.csv`
 
-À l'occasion, certaines leçons peuvent requérir des fichiers de données d'une taille qui dépasse les capacités de notre dépôt GitHub. Lorsque c'est le cas, nous recommandons que les auteurs/autrices téléversent leurs données sur [Zenodo](https://zenodo.org/) pour assurer leur archivage pérenne et que le DOI généré par Zenodo soit fourni au rédacteur ou à la rédactrice pour lier le jeu de données au texte de la leçon. Nous recommandons le téléversement sur Zenodo de la version du jeu de données utilisée dans la leçon même lorsqu'une version de ce jeu de données existe déjà dans un dépôt institutionnel, afin d'uniformiser les procédures d'utilisation pour l'ensemble de nos leçons. 
+À l'occasion, certaines leçons peuvent requérir des fichiers de données d'une taille qui dépasse les capacités de notre dépôt GitHub. Lorsque c'est le cas, nous recommandons que les auteurs/autrices téléversent leurs données sur [Zenodo](https://zenodo.org/) pour assurer leur archivage pérenne et que le DOI généré par Zenodo soit fourni au rédacteur ou à la rédactrice pour lier le jeu de données au texte de la leçon. Nous recommandons le téléversement sur Zenodo de la version du jeu de données utilisée dans la leçon même lorsqu'une version de ce jeu de données existe déjà dans un dépôt institutionnel, afin d'uniformiser les procédures d'utilisation pour l'ensemble de nos leçons. Le rédacteur ou la rédactrice s'assurera que l'auteur ou l'autrice soit en mesure de naviguer dans l'interface de Zenodo, qui est disponible seulement en anglais, et lui offrira son soutien s'il ou elle ne connaît pas cette langue.
+
+Si l'ensemble des actifs à téléverser sur Zenodo dépasse les 25 Mo, tous les fichiers (même s'il y en a un seul) devront être compressés dans une archive .zip au préalable. Cette archive devrait porter le même nom que le fichier qui contient le texte de la leçon.
 
 ### F) Vérifier les vidéos et les gifs
 
