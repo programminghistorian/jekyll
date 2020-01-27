@@ -104,7 +104,7 @@ tout taper soi-même est la meilleure façon de s'approprier le texte.
 Internet Archive conserve des copies de centaines de rapports de santé publique
 américains du début du XXe siècle tombés dans le domaine public. Ils ont été
 numérisés via JSTOR et sont rangés sous le titre "Early Journal Content". Ils
-sont d'une bonne longueur pour notre exsercice et sont représentatifs de
+sont d'une bonne longueur pour notre exercice et sont représentatifs de
 différents types de ressources textuelles utilisées pour toutes sortes de
 recherche en histoire. Pour notre exercice, nous allons utiliser un rapport de
 cinq pages contenant des statistiques mensuelles sur la morbidité et la
@@ -140,7 +140,7 @@ sauvegarder une copie dans un endroit séparé de votre copie de travail. Cela
 vous permettra de revenir vers l'original si quelque chose ne se passe pas
 comme prévu.
 
-## Usage ordinaire de "Rechercher-Remplacer"
+## Usage ordinaire de la fonction Rechercher & remplacer
 
 Nous pouvons voir quelques erreurs de reconnaissance de caractères (là où le
 logiciel de transcription automatique d'Internet Archive a fait des erreurs)
@@ -162,7 +162,7 @@ remplacement de LibreOffice (`Ctrl-H` ou `Cmd-Alt-F` sur Mac).
 
 *Remplacez* `"` *par rien*.
 
-{% include figure.html filename="regex_01_findquote.png" caption="Figure 2: Capture d'écran de l'option \"Rechercher & remplacer\"" %}
+{% include figure.html filename="regex_01_findquote.png" caption="Figure 2: Capture d'écran de l'option \Rechercher & remplacer\" %}
 
 ## Trouver une structure pour les lignes
 
