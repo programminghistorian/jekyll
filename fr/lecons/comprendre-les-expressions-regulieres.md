@@ -196,7 +196,7 @@ symboles spéciaux pour définir des motifs généraux que nous cherchons.
 
 En utilisant `Rechercher & remplacer`, *remplacez* `$` *par* `#`.
 
-{% include figure.html filename="regex_02_moreoptions.png" caption="Figure 3: L'onglet \"Autres options\" dans la fenêtre \"Rechercher & remplacer\" d'Open Office" %}
+{% include figure.html filename="regex_02_moreoptions.png" caption="Figure 3: L'onglet \"Autres options\" dans la fenêtre Rechercher & remplacer d'Open Office" %}
 
 Le symbole du dollar est un symbole spécial qui correspond habituellement à la
 fin de chaque ligne afin d'ancrer un motif plus grand. Cependant, même s'il
