@@ -12,7 +12,7 @@ editors:
 - Adam Crymble
 translator:
 - Alix Chagué
-translation-date: 2020-01-15
+translation_date: 2020-01-15
 translation-editor:
 - Sofia Papastamkou
 translation-reviewer:
