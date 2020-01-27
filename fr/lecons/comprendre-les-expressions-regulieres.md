@@ -726,8 +726,8 @@ fichiers de texte brut pour en faire des fichiers XML.
 
   [lien pour lire en ligne]: http://archive.org/stream/jstor-4560629/4560629#page/n0/mode/2up
   [Texte intégral]: http://archive.org/stream/jstor-4560629/4560629_djvu.txt
-  [Liste des expressions régulières]: https://help.libreoffice.org/Common/List_of_Regular_Expressions
-  [regular expressions]: http://en.wikipedia.org/wiki/Regular_expressions
+  [Liste des expressions régulières]: https://help.libreoffice.org/6.3/fr/text/shared/01/02100001.html?DbPAR=SHARED#bm_id3146765
+  [expressions régulières]: https://fr.wikipedia.org/wiki/Expression_r%C3%A9guli%C3%A8re
   [Rubular]: http://rubular.com/
   [expressions régulières et des outils pour XML]: http://dh.obdurodon.org/regex.html
 
