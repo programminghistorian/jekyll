@@ -162,7 +162,7 @@ remplacement de LibreOffice (`Ctrl-H` ou `Cmd-Alt-F` sur Mac).
 
 *Remplacez* `"` *par rien*.
 
-{% include figure.html filename="regex_01_findquote.png" caption="Figure 2: Capture d'écran de l'option \Rechercher & remplacer\" %}
+{% include figure.html filename="regex_01_findquote.png" caption="Figure 2: Capture d'écran de l'option Rechercher & remplacer" %}
 
 ## Trouver une structure pour les lignes
 
