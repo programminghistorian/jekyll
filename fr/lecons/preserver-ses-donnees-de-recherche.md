@@ -66,10 +66,11 @@ S'appuyant sur les leçons et l'expertise de professionnels en données de la re
 #### Documentation des données de la recherche
 
 > Birkwood, Katie (girlinthe). 
->“Victory is mine: while ago I worked out some Clever Stuff ™ in Excel. And I MADE NOTES ON IT. And those notes ENABLED ME TO DO IT AGAIN.”
->*“La victoire est mienne : il y a quelques temps, j'ai travaillé* 
-> *sur Des Trucs Brillants ™ dans Excel. Et J'AI PRIS DES NOTES DESSUS. Et ces notes*
-> *M'ONT PERMIS DE LE REFAIRE.”* 7 octobre 2013, 3:46 a.m.. Tweet.
+>“Victory is mine: while ago I worked out some Clever Stuff ™ in Excel. And I MADE NOTES ON IT. And those notes ENABLED ME TO DO IT AGAIN.” 7 October 2013, 3:46 a.m.. Tweet.
+>
+>“La victoire est mienne : il y a quelques temps, j'ai travaillé 
+> sur Des Trucs Brillants ™ dans Excel. Et J'AI PRIS DES NOTES DESSUS. Et ces notes
+> M'ONT PERMIS DE LE REFAIRE.” 7 octobre 2013, 3:46 a.m.. Tweet.
 >
 > <https://twitter.com/Girlinthe/status/387166944094199809>
 
