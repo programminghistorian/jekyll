@@ -26,10 +26,6 @@ redirect_from: /lessons/exploring-and-analyzing-network-data-with-python
 avatar_alt: Train tracks intersecting
 ---
 
-{% include alert.html text="It has been brought to our attention that newer versions of NetworkX have changed the nature of their API, rendering this lesson out of date. We are working with the author to update the lesson to the newer version of NetworkX, but, until that time, some of the code blocks below will raise errors. [Read more details of the issue and our attempts to resolve it here.](https://github.com/programminghistorian/jekyll/issues/1587)
-
-The Editorial Team, 10 December 2019." %}
-
 {% include toc.html %}
 
 # Introduction
@@ -102,22 +98,10 @@ George Keith,William Penn
 Now that you've downloaded the Quaker data and had a look at how it's structured, it's time to begin working with that data in Python. Once both Python and pip are installed (see Prerequisites, above) you'll want to install NetworkX, by typing this into your [command line](/lessons/intro-to-bash):[^pip]
 
 ```
-pip3 install networkx
+pip3 install networkx==2.4
 ```
 
-If that doesn't work, you can instead type the following to deal with permissions problems (it will ask you for your computer's login password):
-
-```
-sudo pip3 install networkx
-```
-
-You'll also need to install a **modularity** package to run **community detection** (more on what those terms mean later on). Use the same installation method:
-
-```
-pip3 install python-louvain==0.5
-```
-
-Recently, NetworkX updated to version 2.0. If you're running into any problems with the code below and have worked with NetworkX before, you might try updating both the above packages with `pip3 install networkx --upgrade` and `pip3 install python-louvain --upgrade`.
+Recently, NetworkX updated to version 2.0. If you're running into any problems with the code below and have worked with NetworkX before, you might try updating the above package with `pip3 install networkx==2.4 --upgrade`.
 
 And that's it! You're ready to start coding.
 
@@ -125,13 +109,13 @@ And that's it! You're ready to start coding.
 
 ## Reading files, importing data
 
-Start a new, blank plaintext file in the same directory as your data files called `quaker_network.py` (For more details on installing and running Python, see [this tutorial](/lessons/mac-installation)). At the top of that file, import the libraries you need. You'll need four libraries---the two we just installed, and two built-in Python libraries. You can type:
+Start a new, blank plaintext file in the same directory as your data files called `quaker_network.py` (For more details on installing and running Python, see [this tutorial](/lessons/mac-installation)). At the top of that file, import the libraries you need. You'll need three libraries---the one we just installed, and two built-in Python libraries. You can type:
 
 ```python
 import csv
-import networkx as nx
 from operator import itemgetter
-import community #This is the python-louvain package we installed.
+import networkx as nx
+from networkx.algorithms import community #This part of networkx, for community detection, needs to be imported separately.
 ```
 
 Now you can tell the program to read your CSV files and retrieve the data you need. Ironically, reading files and reorganizing data often requires more complex code than the functions for running social network analysis, so please bear with us through this first code block. Here's a set of commands for opening and reading our nodelist and edgelist files:
@@ -204,10 +188,10 @@ This is a quick way of getting some general information about your graph, but as
 To recap, by now your script will look like this:
 
 ```python
-import csv                                                             
-import networkx as nx
+import csv
 from operator import itemgetter
-import community
+import networkx as nx
+from networkx.algorithms import community
 
 # Read in the nodelist file
 with open('quakers_nodelist.csv', 'r') as nodecsv:                 
@@ -273,7 +257,7 @@ Now all of your nodes have these six attributes, and you can access them at any 
 
 ```python
 for n in G.nodes(): # Loop through every node, in our data "n" will be the name of the person
-    print(n, G.node[n]['birth_year']) # Access every node by its name, and then by the attribute "birth_year"
+    print(n, G.nodes[n]['birth_year']) # Access every node by its name, and then by the attribute "birth_year"
 ```
 
 From this statement, you'll get a line of output for each node in the network. It should look like a simple list of names and years:
@@ -317,7 +301,7 @@ nx.set_node_attributes(G, id_dict, 'sdfb_id')
 
 # Loop through each node, to access and print all the "birth_year" attributes
 for n in G.nodes():
-    print(n, G.node[n]['birth_year'])
+    print(n, G.nodes[n]['birth_year'])
 ```
 
 Now you've learned how to create a Graph object and add attributes to it. In the next section, you'll learn about a variety of metrics available in NetworkX and how to access them. But relax, you've now learned the bulk of the code you'll need for the rest of the tutorial!
@@ -434,7 +418,7 @@ nx.set_node_attributes(G, degree_dict, 'degree')
 You just ran the `G.degree()` method on the full list of nodes in your network (`G.nodes()`). Since you added it as an attribute, you can now see William Penn's degree along with his other information if you access his node directly:
 
 ```python
-print(G.node['William Penn'])
+print(G.nodes['William Penn'])
 ```
 
 But these results are useful for more than just adding attributes to your Graph object. Since you're already in Python, you can sort and compare them. You can use the built-in function `sorted()` to sort a dictionary by its keys or values and find the top twenty nodes ranked by degree. To do this you'll need to use `itemgetter`, which we imported back at the beginning of the tutorial. Using `sorted` and `itemgetter`, you can sort the dictionary of degrees like this:
@@ -503,23 +487,29 @@ Very dense networks are often more difficult to split into sensible partitions. 
 Community detection and partitioning in NetworkX requires a little more setup than some of the other metrics. There are some built-in approaches to community detection (like [minimum cut](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.flow.minimum_cut.html), but modularity is not included with NetworkX. Fortunately there's an [additional python module](https://github.com/taynaud/python-louvain/) you can use with NetworkX, which you already installed and imported at the beginning of this tutorial. You can read the [full documentation](http://perso.crans.org/aynaud/communities/api.html) for all of the functions it offers, but for most community detection purposes you'll only want `best_partition()`:
 
 ```python
-communities = community.best_partition(G)
+communities = community.greedy_modularity_communities(G)
 ```
 
-The above code will create a dictionary just like the ones created by centrality functions. `best_partition()` tries to determine the number of communities appropriate for the graph, and assigns each node a number (starting at 0), corresponding to the community it's a member of. You can add these values to your network in the now-familiar way:
+The method `greedy_modularity_communities()` tries to determine the number of communities appropriate for the graph, and groups all nodes into subsets based on these communities. Unlike the centrality functions, the above code will not create a dictionary. Instead it creates a list of special "frozenset" objects (similar to lists). There's one set for each group, and the sets contain the names of the people in each group. In order to add this information to your network in the now-familiar way, you must first create a dictionary that labels each person with a number value for the group to which they belong:
 
 ```python
-nx.set_node_attributes(G, communities, 'modularity')
+modularity_dict = {} # Create a blank dictionary
+for i,c in enumerate(communities): # Loop through the list of communities, keeping track of the number for the community
+    for name in c: # Loop through each person in a community
+        modularity_dict[name] = i # Create an entry in the dictionary for the person, where the value is which group they belong to.
+
+# Now you can add modularity information like we did the other metrics
+nx.set_node_attributes(G, modularity_dict, 'modularity')
 ```
 
-And as always, you can combine these measures with others. For example, here's how you find the highest eigenvector centrality nodes in modularity class 0 (the first one):
+As always, you can combine these measures with others. For example, here's how you find the highest eigenvector centrality nodes in modularity class 0 (the first one):
 
 ```python
 # First get a list of just the nodes in that class
-class0 = [n for n in G.nodes() if G.node[n]['modularity'] == 0]
+class0 = [n for n in G.nodes() if G.nodes[n]['modularity'] == 0]
 
 # Then create a dictionary of the eigenvector centralities of those nodes
-class0_eigenvector = {n:G.node[n]['eigenvector'] for n in class0}
+class0_eigenvector = {n:G.nodes[n]['eigenvector'] for n in class0}
 
 # Then sort that dictionary and print the first 5 results
 class0_sorted_by_eigenvector = sorted(class0_eigenvector.items(), key=itemgetter(1), reverse=True)
@@ -529,24 +519,17 @@ for node in class0_sorted_by_eigenvector[:5]:
     print("Name:", node[0], "| Eigenvector Centrality:", node[1])
 ```
 
-Using eigenvector centrality as a ranking can give you a sense of the important people within this modularity class. You'll notice that most of these top five, especially William Penn, William Bradford (*not* the Plymouth founder you're thinking of), and James Logan, spent lots of time in America. Also, Bradford and Tace Sowle were both prominent Quaker printers. With just a little bit of digging, we can discover that there are both geographical and occupational reasons that this group of people belongs together. This is an indication that modularity is probably working as expected.
+Using eigenvector centrality as a ranking can give you a sense of the important people within this modularity class. You'll notice that some of these people, especially William Penn, William Bradford (*not* the Plymouth founder you're thinking of), and James Logan, spent lots of time in America. Also, Bradford and Tace Sowle were both prominent Quaker printers. With just a little bit of digging, we can discover that there are both geographical and occupational reasons that this group of people belongs together. This is an indication that modularity is probably working as expected.
 
-In smaller networks like this one, a common task is to find and list all of the modularity classes and their members.[^modularity] You can do this by manipulating the `communities` dictionary. You'll need to reverse the *keys* and *values* of this dictionary so that the keys are the modularity class numbers and the values are lists of names. You can do so like this:
+In smaller networks like this one, a common task is to find and list all of the modularity classes and their members.[^modularity] You can do this by looping through the `communities` list:
 
 ```python
-modularity = {} # Create a new, empty dictionary
-for k,v in communities.items(): # Loop through the community dictionary
-    if v not in modularity:
-        modularity[v] = [k] # Add a new key for a modularity class the code hasn't seen before
-    else:
-        modularity[v].append(k) # Append a name to the list for a modularity class the code has already seen
-
-for k,v in modularity.items(): # Loop through the new dictionary
-    if len(v) > 2: # Filter out modularity classes with 2 or fewer nodes
-        print('Class '+str(k)+':', v) # Print out the classes and their members
+for i,c in enumerate(communities): # Loop through the list of communities
+    if len(c) > 2: # Filter out modularity classes with 2 or fewer nodes
+        print('Class '+str(i)+':', list(c)) # Print out the classes and their members
 ```
 
-Notice in the code above that you are filtering out any modularity classes with two or fewer nodes, in the line `if len(v) > 2`. You'll remember from the visualization that there were lots of small components of the network with only two nodes. Modularity will find these components and treat them as separate classes (since they're not connected to anything else). By filtering them out, you get a better sense of the larger modularity classes within the network's main component.
+Notice in the code above that you are filtering out any modularity classes with two or fewer nodes, in the line `if len(c) > 2`. You'll remember from the visualization that there were lots of small components of the network with only two nodes. Modularity will find these components and treat them as separate classes (since they're not connected to anything else). By filtering them out, you get a better sense of the larger modularity classes within the network's main component.
 
 Working with NetworkX alone will get you far, and you can find out a lot about modularity classes just by working with the data directly. But you'll almost always want to visualize your data (and perhaps to express modularity as node color). In the next section you'll learn how to export your NetworkX data for use in other programs.
 
