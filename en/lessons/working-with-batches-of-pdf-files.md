@@ -3,7 +3,7 @@ title: Working with batches of PDF files
 collection: lessons
 layout: lesson
 slug: working-with-batches-of-pdf-files
-date: 01-30-2020
+date: 2020-01-30
 authors:
 - Moritz Mähr
 reviewers:
