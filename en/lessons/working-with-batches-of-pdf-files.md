@@ -13,10 +13,8 @@ editors:
 - Anna-Maria Sichani
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/258
 difficulty: 2
-activity: transform, analyze
-topics:
-- data-manipulation
-- data-management
+activity: transforming
+topics: [data-manipulation, data-management]
 abstract: Learn how to perform OCR and text extraction with free command line tools like Tesseract and Poppler and how to get an overview of large numbers of PDF documents using topic modeling.
 avatar_alt: working-with-batches-of-pdf-files
 
@@ -182,7 +180,7 @@ ocrmypdf --language eng --deskew --clean 'ILO-SR_N2_engl.pdf' 'ILO-SR_N2_engl.pd
 
 {% include figure.html filename="working-with-batches-of-pdf-files1.png" caption="Figure 1: The status messages of the software indicate recognition errors in the OCR process." %}
 
-The status messages of the software indicate recognition errors during the OCR process (see Figure 1). If certain errors occur systematically, it may be worthwhile to write a correction script. See [Cleaning OCR’d text with Regular Expressions](https://programminghistorian.org/en/lessons/cleaning-ocrd-text-with-regular-expressions).
+The status messages of the software indicate recognition errors during the OCR process (see Figure 1). If certain errors occur systematically, it may be worthwhile to write a correction script. See [Cleaning OCR’d text with Regular Expressions](/en/lessons/cleaning-ocrd-text-with-regular-expressions).
 
 <div class="alert alert-info">
 
@@ -352,7 +350,7 @@ The Mueller Report is the official report documenting the findings and conclusio
 
 ## Alternatives
 
-This lesson focused on tools that are easy to use and are available as open source software free of charge. There are a lot of open source and commercial [alternatives](https://en.wikipedia.org/wiki/List_of_PDF_software) to process PDF files.[^7] [Getting Started with Topic Modeling and MALLET](https://programminghistorian.org/en/lessons/topic-modeling-and-mallet) covers one of many alternatives for Topic Modelling.
+This lesson focused on tools that are easy to use and are available as open source software free of charge. There are a lot of open source and commercial [alternatives](https://en.wikipedia.org/wiki/List_of_PDF_software) to process PDF files.[^7] [Getting Started with Topic Modeling and MALLET](/en/lessons/topic-modeling-and-mallet) covers one of many alternatives for Topic Modelling.
 
 [^1]: If you run into troubles [activating](https://docs.microsoft.com/en-us/windows/wsl/install-win10) the WSL check out the [troubleshooting](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting), [documentation](https://aka.ms/wsldocs), or the [learning](https://aka.ms/learnwsl) resources.
 
