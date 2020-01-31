@@ -13,7 +13,7 @@ editors:
 - Anna-Maria Sichani
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/258
 difficulty: 2
-activity: transforming, analyzing
+activity: transform, analyze
 topics:
 - data-manipulation
 - data-management
@@ -39,7 +39,7 @@ If you meet one or more of the following criteria, this lesson will be instructi
   - You work with text-based sources and need to extract the content of the sources
   - Your files are in PDF file format or can be converted to this file format
   - You work with a large corpus and you do not want to touch each file individually (batch processing)
-  - You want to examine your corpus by the means of [Distant Reading](https://programminghistorian.org/en/lessons/?topic=distant-reading) and therefore need it to be in plain text format
+  - You want to examine your corpus by the means of [Distant Reading](/en/lessons/?topic=distant-reading) and therefore need it to be in plain text format
   - You don’t have access to commercial software, such as Adobe Acrobat Professional or Abbyy FineReader
 
 ## Objectives
@@ -62,7 +62,7 @@ In more technical terms, in this lesson you will learn to:
 
 ## Skills
 
-You should feel comfortable using the command line of your computer. Windows users should take a look at [Introduction to the Windows Command Line with PowerShell](https://programminghistorian.org/en/lessons/intro-to-powershell). MacOS and Linux users should take a look at [Introduction to the Bash Command Line](https://programminghistorian.org/en/lessons/intro-to-bash).
+You should feel comfortable using the command line of your computer. Windows users should take a look at [Introduction to the Windows Command Line with PowerShell](/en/lessons/intro-to-powershell). MacOS and Linux users should take a look at [Introduction to the Bash Command Line](/en/lessons/intro-to-bash).
 
 ## Software
 
@@ -228,7 +228,7 @@ Regular expressions also include numbers. This is particularly interesting for h
 grep -E '19[0-9][0-9]' . -R
 ```
 
-Once you have successfully extracted all text from the PDF files, they can be further analyzed using methods of [Distant Reading](https://programminghistorian.org/en/lessons/?topic=distant-reading) such as [Topic Modelling](https://programminghistorian.org/en/lessons/topic-modeling-and-mallet). You will apply such methods to the case study later in this lesson.
+Once you have successfully extracted all text from the PDF files, they can be further analyzed using methods of [Distant Reading](/en/lessons/?topic=distant-reading) such as [Topic Modelling](/en/lessons/topic-modeling-and-mallet). You will apply such methods to the case study later in this lesson.
 
 ## Extract Embedded Images from PDFs
 
@@ -250,7 +250,7 @@ To process all PDF files in your working directory at once.
 find . -name '*.pdf' -exec pdfimages -png '{}' '{}' \;
 ```
 
-Poppler can only extract illustrations if they are available as individual images in the PDF file. If you want to extract illustrations from a scanned page take a look at this lesson: [Extracting Illustrated Pages from Digital Libraries with Python](https://programminghistorian.org/en/lessons/extracting-illustrated-pages).
+Poppler can only extract illustrations if they are available as individual images in the PDF file. If you want to extract illustrations from a scanned page take a look at this lesson: [Extracting Illustrated Pages from Digital Libraries with Python](/en/lessons/extracting-illustrated-pages).
 
 ## Combine Images and PDFs into a Single PDF
 
