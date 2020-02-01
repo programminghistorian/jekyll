@@ -136,6 +136,13 @@ module MyModule
           end
         end
 
+        # Validate date format
+        if p.data["date"]
+          unless p.data["date"].is_a? Date
+            lesson_errors.push("`date` must follow the format YYYY-MM-DD")
+          end
+        end
+
         # Check translation required fields
         if p.data["original"]
           trans_lesson_required_fields.each do |f|
