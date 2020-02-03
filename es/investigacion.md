@@ -10,6 +10,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Reseñas
 
+* Dries Daems, '[A Review and Roadmap of Online Learning Platforms and Tutorials in Digital Archaeology](https://doi.org/10.1017/aap.2019.47), _Advances in Archaeological Practice_, vol. 8, issue 1 (2020),  pp. 87-92.
 * Priscila Pilatowsky Goñi, '[Reseña a The programming historian](http://revistas.uned.es/index.php/RHD/article/view/22420)', _Revista de Humanidades Digitales_, vol. 2 (2018).
 * Lincoln Mullen, '[Review of the Programming Historian]', *The Journal of American History*, vol. 103, no. 1 (2016), pp. 299-301.
 * Cameron Blevins, ‘[Review of the Programming Historian]’, *The Journal of Interactive Technology &amp; Pedagogy*, vol. 8 (2015).
