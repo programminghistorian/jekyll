@@ -39,7 +39,7 @@ Nouer un partenariat institutionnel avec *The Programming Historian* permet à v
 En participant à notre programme de partenariat institutionnel vous bénéficiez des avantages suivants:
 
 - Participation à l'assemblée générale annuelle de [ProgHist Ltd](https://github.com/programminghistorian/jekyll/wiki/ProgHist-Ltd) en tant que membre consultatif (un individu par institution partenaire).
-- An annual breakdown of ProgHist Ltd expenditure.
+- La ventilation annuelle des dépenses de ProgHist Ltd.
 - Reconnaissance explicite de votre contribution dans <!-- la section [Nos soutiens](https://programminghistorian.org/fr/nous-soutenir#nos-soutiens) -->
 - Le droit de valoriser ce partenariat dans les activités de promotion de votre institution.
 - Pour les bibliothèques partenaires: une liste d'articles publiés par toutes les versions du Programming Historian (sur demande).
