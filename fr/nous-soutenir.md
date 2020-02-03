@@ -32,6 +32,35 @@ Les donations à titre individuel au *Programming Historian* sont vitales pour l
 - Les donations régulières se font en devenant parrain ou marraine du *Programming Historian* via [Patreon](https://www.patreon.com/theprogramminghistorian). 
 - Les donations ponctuelles peuvent se faire à destination du *Programming Historian* via [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), par virement bancaire (Lloyds Bank, numéro de compte 55263268, code bancaire 30-96-26), où par chèque (à l'ordre de 'ProgHist Ltd' et envoyé par la poste à: Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH). Pour les donations par virement bancaire et par chèque, nous vous saurions gré de nous écrire à l'adresse électronique suivante <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> pour nous faire savoir qui vous êtes et pour quelle raison vous avez décidé de soutenir notre travail. 
 
+## Partenariat institutionnel
+
+Nouer un partenariat institutionnel avec *The Programming Historian* permet à votre bibliothèque, université ou centre de recherche d'apporter son soutien au développement et la pérennité d'une plateforme de publication en libre accès qui a déjà reçu de nombreuses recompenses. 
+
+En participant à notre programme de partenariat institutionnel vous bénéficiez des avantages suivants:
+
+- Participation à l'assemblée générale annuelle de [ProgHist Ltd](https://github.com/programminghistorian/jekyll/wiki/ProgHist-Ltd) en tant que membre consultatif (un individu par institution partenaire).
+- An annual breakdown of ProgHist Ltd expenditure.
+- Reconnaissance explicite de votre contribution dans <!-- la section [Nos soutiens](https://programminghistorian.org/fr/nous-soutenir#nos-soutiens) -->
+- Le droit de valoriser ce partenariat dans les activités de promotion de votre institution.
+- Pour les bibliothèques partenaires: une liste d'articles publiés par toutes les versions du Programming Historian (sur demande).
+
+Les montants pour nouer un partenariat sont fixés, pour l'année 2020, à 1 100 euros (1 600 dollars canadiens / 1 200 francs suisses) ou à 165 euros (250 dollars canadiens / 180 francs suisses) pour des partenaires en provenance de [pays éligibles à l'aide publique au développement par l'OCDE](http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/listecad.htm). Les partenariats sont annuels, renouvelables et comptent à partir de la date du premier règlement. Les sommes sont publiées annuellement en janvier.
+
+Pour devenir partenaire institutionnel, merci de prendre contact avec James Baker à cette adresse électronique <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> en signalant comme sujet "Partenariat Institutionnel". Votre message doit inclure les informations suivantes:
+
+- Votre nom.
+- Votre institution.
+- Le moyen de paiement de votre choix (virement bancaire, chèque, Paypal, paiement sur facture).
+- La monnaie de votre choix (si absente de la liste, merci de demander).
+
+En envoyant un message intitulé "Partenariat institutionnel", merci de noter que vous consentez aux conditions suivantes:
+
+1. Vous avez eu l'autorisation de votre institution, au nom de laquelle vous nous contactez. 
+2. Une fois que vous vous déclarez d'accord sur une méthode de règlement et en recevez la demande, vous vous engagez à fournir la somme consentie.
+3. Le comité éditorial du Programming Historian maintient le droit de rejeter le financement de quelque organisation ou individu que ce soit pour quelque raison que ce soit.
+4. Le Programming Historian est un projet international mené par des bénévoles dont les activités financières sont administrées par ProgHist Limited, une société à but non lucratif immatriculée en Angleterre sous le numéro 12192946.
+5. L'objectif du Programming Historian est de faire connaître l'application des technologies numériques aux humanités auprès d'un plus large public, de promouvoir la recherche pour le bien commun de la société dans ce domaine, et de publier les résultats significatifs. 
+
 ## Nous parrainer
 
 Si vous représentez un organisme ou groupe intéressé à sponsoriser le Programming Historian, merci de prendre contact avec  [James Baker](https://github.com/drjwbaker) pour en discuter avec lui. Ce type de soutien peut être soit financier soit en nature ou encore les deux à la fois, d'une durée et de valeur négociables.
