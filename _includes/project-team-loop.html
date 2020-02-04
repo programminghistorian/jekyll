@@ -10,55 +10,27 @@ Loops through members of editorial team and then generates their contact info us
 
 
 ### Programming Historian in English 
-{% assign englishmembers = site.data.ph_authors | sort: "sortname" %}
+{% assign englishmembers = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'editorial'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
 {% for member in englishmembers %}
-  {% for role in member.team_roles %}
-    {% if role == "editorial" %}
-      {% if member.team == true %}
-        {% capture membername %}{{ member.name }}{% endcapture %}
-        {% include contact-info.html name=membername %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
+{% include contact-info.html name=member.name %}
 {% endfor %}
 
 ### Programming Historian en espa&ntilde;ol 
-{% assign spanishmembers = site.data.ph_authors | sort: "sortname" %}
+{% assign spanishmembers = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'spanish'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
 {% for member in spanishmembers %}
-  {% for role in member.team_roles %}
-    {% if role == "spanish" %}
-      {% if member.team == true %}
-        {% capture membername %}{{ member.name }}{% endcapture %}
-        {% include contact-info.html name=membername %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
+{% include contact-info.html name=member.name %}
 {% endfor %}
 
 ### Programming Historian en fran&ccedil;ais 
-{% assign frenchmembers = site.data.ph_authors | sort: "sortname" %}
+{% assign frenchmembers = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'french'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
 {% for member in frenchmembers %}
-  {% for role in member.team_roles %}
-    {% if role == "french" %}
-      {% if member.team == true %}
-        {% capture membername %}{{ member.name }}{% endcapture %}
-        {% include contact-info.html name=membername %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
+{% include contact-info.html name=member.name %}
 {% endfor %}
 
 ### ProgHist Ltd 
-{% assign proghistmembers = site.data.ph_authors | sort: "sortname" %}
+{% assign proghistmembers = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'proghist'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
 {% for member in proghistmembers %}
-  {% for role in member.team_roles %}
-    {% if role == "proghist" %}
-      {% if member.team == true %}
-        {% capture membername %}{{ member.name }}{% endcapture %}
-        {% include contact-info.html name=membername %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
+{% include contact-info.html name=member.name %}
 {% endfor %}
 
 
