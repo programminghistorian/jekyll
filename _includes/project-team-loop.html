@@ -9,7 +9,7 @@ Loops through members of editorial team and then generates their contact info us
 })</script>
 
 
-<h3>Programming Historian in English</h3> 
+### Programming Historian in English 
 {% assign englishmembers = site.data.ph_authors | sort: "sortname" %}
 {% for member in englishmembers %}
   {% for role in member.team_roles %}
@@ -22,7 +22,7 @@ Loops through members of editorial team and then generates their contact info us
   {% endfor %}
 {% endfor %}
 
-<h3>Programming Historian en espa&ntilde;ol</h3> 
+### Programming Historian en espa&ntilde;ol 
 {% assign spanishmembers = site.data.ph_authors | sort: "sortname" %}
 {% for member in spanishmembers %}
   {% for role in member.team_roles %}
@@ -35,7 +35,7 @@ Loops through members of editorial team and then generates their contact info us
   {% endfor %}
 {% endfor %}
 
-<h3>Programming Historian en fran&ccedil;ais</h3> 
+### Programming Historian en fran&ccedil;ais 
 {% assign frenchmembers = site.data.ph_authors | sort: "sortname" %}
 {% for member in frenchmembers %}
   {% for role in member.team_roles %}
@@ -48,7 +48,7 @@ Loops through members of editorial team and then generates their contact info us
   {% endfor %}
 {% endfor %}
 
-<h3>ProgHist Ltd</h3> 
+### ProgHist Ltd 
 {% assign proghistmembers = site.data.ph_authors | sort: "sortname" %}
 {% for member in proghistmembers %}
   {% for role in member.team_roles %}
@@ -62,7 +62,7 @@ Loops through members of editorial team and then generates their contact info us
 {% endfor %}
 
 
-<h3>{{ site.data.snippets.project-team-roles[page.lang] }}</h3>
+### {{ site.data.snippets.project-team-roles[page.lang] }}
 <ul>
 {% for team in site.data.teamroles %}
   {% if team.definition %}
