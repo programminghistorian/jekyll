@@ -51,7 +51,7 @@ This obituary corpus is an historical object in its own right. It represents, on
 
 ## Tf-idf Definition and Background
 
-Often inaccurately attributed to others, the procedure called Term Frequency - Inverse Document Frequency was introduced in a 1972 paper by Karen Spärck Jones under the name "term specificity."[^4] Perhaps fittingly, Jones was the subject of an "Overlooked No More" obituary in January 2019.[^5] 
+Often inaccurately attributed to others, the procedure called Term Frequency - Inverse Document Frequency was introduced in a 1972 paper by Karen Spärck Jones under the name "term specificity."[^4] Fittingly, Spärck Jones was the subject of an "Overlooked No More" obituary in January 2019.[^5] 
 
 With __tf-idf__, instead of representing a term in a document by its raw frequency (number of occurrences) or its relative frequency (term count divided by document length), each term is weighted by dividing the term frequency by the number of documents in the corpus containing the word. The overall effect of this weighting scheme is to avoid a common problem when conducting text analysis: the most frequently used words in a document are often the most frequently used words in all of the documents. In contrast, terms with the highest __tf-idf__ scores are the terms in a document that are _distinctively_ frequent in a document, when that document is compared other documents.
 
@@ -447,7 +447,7 @@ If you are not using Anaconda, you will need to cover the following dependencies
 
 [^4]: Spärck Jones, Karen. "A Statistical Interpretation of Term Specificity and Its Application in Retrieval." _Journal of Documentation_ vol. 28, no. 1 (1972): 16.
 
-[^5]: Bowles, Nellie. "Overlooked No More: Karen Sparck Jones, Who Established the Basis for Search Engines" _The New York Times_, January 2, 2019. <https://www.nytimes.com/2019/01/02/obituaries/karen-sparck-jones-overlooked.html>
+[^5]: Bowles, Nellie. "Overlooked No More: Karen Spärck Jones, Who Established the Basis for Search Engines" _The New York Times_, January 2, 2019. <https://www.nytimes.com/2019/01/02/obituaries/karen-sparck-jones-overlooked.html>
 
 [^6]: "Nellie Bly, Journalist, Dies of Pneumonia" _The New York Times_, January 28, 1922, 11. <https://www.nytimes.com>
 
