@@ -1291,3 +1291,10 @@
   bio:
       en: |
           David Kloster works in the CyberDH group at Indiana University as a programmer/analyst.
+
+- name: Moritz Mähr
+  team: false
+  orcid: 0000-0002-1367-1618
+  bio:
+      en: |
+        Moritz Mähr investigates the history of computers and migration at ETH Zurich in Switzerland.
