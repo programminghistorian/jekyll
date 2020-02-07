@@ -10,6 +10,8 @@ Por favor, dirige tu correspondencia, en primer lugar a:
 
 Puedes seguir _Programming Historian_ en Twitter: [@proghist](http://twitter.com/proghist).
 
+{% include toc.html %}
+
 ## Consejo editorial
 
 {% comment %}
