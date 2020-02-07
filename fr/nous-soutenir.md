@@ -44,7 +44,7 @@ En participant à notre programme de partenariat institutionnel vous bénéficie
 - Le droit de valoriser ce partenariat dans les activités de promotion de votre institution.
 - Pour les bibliothèques partenaires: une liste d'articles publiés par toutes les versions du Programming Historian (sur demande).
 
-Les montants pour nouer un partenariat sont fixés, pour l'année 2020, à 1 100 euros (1 600 dollars canadiens / 1 200 francs suisses) ou à 165 euros (250 dollars canadiens / 180 francs suisses) pour des partenaires en provenance de [pays éligibles à l'aide publique au développement de l'OCDE](http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/listecad.htm). Les partenariats sont annuels, renouvelables et comptent à partir de la date du premier règlement. Les sommes requises sont publiées annuellement en janvier.
+Les montants pour nouer un partenariat sont fixés, pour l'année 2020, à 1 180 euros (environs 1 720 dollars canadiens / 1 260 francs suisses) ou à 165 euros (environs 260 dollars canadiens / 190 francs suisses) pour des partenaires en provenance de [pays éligibles à l'aide publique au développement de l'OCDE](http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/listecad.htm). Les partenariats sont annuels, renouvelables et comptent à partir de la date du premier règlement. Les sommes requises sont publiées annuellement en janvier.
 
 Pour devenir partenaire institutionnel, merci de prendre contact avec James Baker à cette adresse électronique <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> en signalant comme sujet "Partenariat Institutionnel". Votre message doit inclure les informations suivantes:
 
