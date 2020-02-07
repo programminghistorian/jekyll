@@ -44,7 +44,7 @@ By joining the Institutional Partner Programme you will receive the following be
 - The right to use Programming Historian Library Partner Programme membership in marketing activities.
 - For library partners: a list of articles published by all Programming Historian journals (on request).
 
-Partnership rates for 2020 are set at £1,000 GBP ($1,300 USD / €1,100 EUR) and £150 ($195 USD / €165 EUR) for partners in [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm). Rates are due annually from the date of first payment. Rates are published in January each year.
+Partnership rates for 2020 are set at £1,000 GBP (approximately $1,300 USD / €1,100 EUR) and £150 (approximately $195 USD / €165 EUR) for partners in [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm). Rates are due annually from the date of first payment. Rates are published in January each year.
 
 To become a Institutional Partner, please email James Baker at <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> with "Institutional Partners Programme" in the subject line. Your email should include the following information:
 
