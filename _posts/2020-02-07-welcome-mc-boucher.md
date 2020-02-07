@@ -6,8 +6,7 @@ layout: post
 categories: posts
 ---
 
-<p><figure><img src="/avatars/marie-christine-boucher.png" alt=""/><figcaption>
-    Marie-Christine Boucher has joined the Programming Historian</figcaption></figure></p>
+<p><figure><img src="/avatars/marie-christine-boucher.png" alt="Portrait photograph of Marie-Christine Boucher"/><figcaption>Marie-Christine Boucher has joined the Programming Historian</figcaption></figure></p>
 
 We have the pleasure to announce that Marie-Christine Boucher has joined the editorial board of *The Programming Historian*!
 
