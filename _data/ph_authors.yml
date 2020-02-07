@@ -46,6 +46,7 @@
    - team-development-manager
    - global
    - volunteer
+   - proghist
 
 - name: Caleb McDaniel
   team: false
@@ -282,6 +283,7 @@
    - sponsorship
    - finance-manager
    - institutionally-supported
+   - proghist
 
 - name: Amanda Morton
   team: false
@@ -480,6 +482,8 @@
   bio:
     en: |
         Doug Knox is the Assistant Director of the Humanities Digital Workshop at Washington University in St. Louis.
+    fr: |   
+        Doug Knox est Directeur adjoint au Humanities Digital Workshop de l'Université Washington à Saint-Louis.
 
 - name: Heather Froehlich
   team: false
@@ -525,6 +529,7 @@
    - technical-lead
    - board
    - institutionally-supported
+   - proghist
 
 - name: Sarah Melton
   github: svmelton
@@ -629,6 +634,7 @@
    - communication
    - technical
    - instutitionally-supported
+   - proghist
 
 - name: Ted Dawson
   team: false
@@ -713,6 +719,7 @@
    - board
    - global-lead
    - volunteer
+   - proghist
 
 - name: Taylor Arnold
   team: false
@@ -827,6 +834,7 @@
    - technical
    - project-manager-at-large
    - volunteer
+   - proghist
 
 - name: Evan Peter Williamson
   team: false
@@ -953,6 +961,7 @@
     - technical
     - communication-manager
     - institutionally-supported
+    - proghist
 
 - name: Jon MacKay
   team: false
@@ -1056,6 +1065,7 @@
     - technical
     - global
     - volunteer
+    - proghist
   bio:
         en: |
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
@@ -1191,6 +1201,7 @@
     - managing-es
     - global
     - volunteer
+    - proghist
 
 - name: Joshua G. Ortiz Baco
   twitter: jgob
@@ -1282,3 +1293,10 @@
   bio:
       en: |
           David Kloster works in the CyberDH group at Indiana University as a programmer/analyst.
+
+- name: Moritz Mähr
+  team: false
+  orcid: 0000-0002-1367-1618
+  bio:
+      en: |
+        Moritz Mähr investigates the history of computers and migration at ETH Zurich in Switzerland.

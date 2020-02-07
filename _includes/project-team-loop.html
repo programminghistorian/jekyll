@@ -1,3 +1,4 @@
+
 {% comment %}
 Loops through members of editorial team and then generates their contact info using the contact-info.html include. This is used both on project-team.md as well as es/equipo-de-proyecto.md
 {% endcomment %}
@@ -7,15 +8,33 @@ Loops through members of editorial team and then generates their contact info us
   $('[data-toggle="tooltip"]').tooltip()
 })</script>
 
-{% assign teammembers = site.data.ph_authors | sort: "sortname" %}
-{% for member in teammembers %}
-  {% if member.team == true %}
-    {% capture membername %}{{ member.name }}{% endcapture %}
-    {% include contact-info.html name=membername %}
-  {% endif %}
+
+### Programming Historian in English 
+{% assign englishmembers = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'editorial'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in englishmembers %}
+{% include contact-info.html name=member.name %}
 {% endfor %}
 
-<h3>{{ site.data.snippets.project-team-roles[page.lang] }}</h3>
+### Programming Historian en espa&ntilde;ol 
+{% assign spanishmembers = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'spanish'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in spanishmembers %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
+### Programming Historian en fran&ccedil;ais 
+{% assign frenchmembers = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'french'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in frenchmembers %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
+### ProgHist Ltd 
+{% assign proghistmembers = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'proghist'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in proghistmembers %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
+
+### {{ site.data.snippets.project-team-roles[page.lang] }}
 <ul>
 {% for team in site.data.teamroles %}
   {% if team.definition %}

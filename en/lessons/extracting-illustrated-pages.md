@@ -74,7 +74,7 @@ More experienced readers may wish to simply install the dependencies and run the
 - `hathitrust-api` ([Install docs](https://github.com/rlmv/hathitrust-api))
 - `internetarchive` ([Install docs](https://archive.org/services/docs/api/internetarchive/))
 - `jupyter` ([Install docs](https://jupyter.org/install))
-- `requests` ([Install docs](http://docs.python-requests.org/en/master/user/install/)) [creator recommends `pipenv` installation; for `pip` install see [PyPI](https://pypi.org/project/requests2/)]
+- `requests` ([Install docs](https://requests.readthedocs.io/en/master/)) [creator recommends `pipenv` installation; for `pip` install see [PyPI](https://pypi.org/project/requests2/)]
 
 ## Lesson Files
 
