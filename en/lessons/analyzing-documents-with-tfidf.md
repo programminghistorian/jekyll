@@ -3,7 +3,7 @@ title: "Analyzing Documents with TF-IDF"
 collection: lessons
 layout: lesson
 slug: analyzing-documents-with-tfidf
-date: 05-13-2019
+date: 2019-05-13
 authors:
 - Matthew J. Lavin
 reviewers:
