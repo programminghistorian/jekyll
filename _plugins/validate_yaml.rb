@@ -156,11 +156,19 @@ module MyModule
             lesson_errors.push('`original` should only contain the original lesson slug, with no other url elements like /en or /lesson')
           end
 
-          if p.data["translation_date"]
-            # Check that translation date is later than publication date
-            unless p.data["translation_date"] > p.data["date"]
-              lesson_errors.push("translation_date is earlier than original publication date.")
-            end
+          if p.data["translation_date"] && p.data["date"]
+            if p.data["translation_date"].is_a? Date
+              if p.data["date"].is_a? Date
+                # Check that translation date is later than publication date
+                unless p.data["translation_date"] > p.data["date"]
+                  lesson_errors.push("`translation_date` is earlier than original publication `date`.")
+                end
+              end
+            else
+              lesson_errors.push("`translation_date` must follow the format YYYY-MM-DD")
+          end
+
+
           end
         end
 
