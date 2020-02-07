@@ -6,6 +6,9 @@ layout: post
 categories: posts
 ---
 
+<p><figure><img src="/avatars/marie-christine-boucher.png" alt=""/><figcaption>
+    Marie-Christine Boucher has joined the Programming Historian</figcaption></figure></p>
+
 We are have the pleasure to announce that Marie-Christine Boucher has joined the editorial board of *The Programming Historian*!
 
 Marie-Cristine is a doctoral candidate in Comparative Literature and Cultural Studies at Justus-Liebig University, Giessen, Germany. She holds B.A. and M.A. degrees in German Studies from the Université de Montréal, Québec, Canada. She has a background in Library and Information Studies, where she first discovered her interest in web development, programming, and use of digital technologies in humanities. She has been acquiring skills by self-learning and attending Digital Humanities training courses. Currently, she is in charge of web and IT administration at the International Graduate Centre for the Study of Culture of the Justus-Liebig University. Furthermore, she is also a member of the editorial board of the open access journal [On_Culture](https://www.on-culture.org/). 
