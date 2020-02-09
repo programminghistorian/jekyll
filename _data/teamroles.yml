@@ -5,38 +5,29 @@
 # definition: Brief description of that editorial team. If this is a derived label that uses the definition of another role, instead use...
 # source_role: The role type where the definition for this derived role can be found (e.g. pointing from an ES variant of a role to the original EN definition)
 
-- type: board
-  label:
-    en: Editorial Board
-    es: Consejo editorial
-    fr: Comité éditorial
-  definition:
-    en: A fully-fledged member of the project team, involved in directing the project's future
-    es: Miembro de pleno derecho del equipo del proyecto, encargado de su dirección a futuro
-    fr: Membre à part entière de l'équipe, impliqué dans la direction du projet
 - type: editorial
   label:
-    en: Editorial Team (English)
-    es: Equipo editorial (Inglés)
-    fr: Équipe éditoriale (anglais)
+    en: Editor (English)
+    es: Editor(a) (Inglés)
+    fr: Rédacteur (anglais)
   definition:
     en: Responsible for editorial work resulting in the review and publication of English-language lessons
     es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en inglés
     fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en anglais
 - type: spanish
   label:
-    en: Editorial Team (Spanish)
-    es: Equipo editorial (español)
-    fr: Équipe éditoriale (espagnol)
+    en: Editor (Spanish)
+    es: Editor(a) (español)
+    fr: Rédacteur (espagnol)
   definition:
     en: Responsible for editorial work resulting in the review and publication of Spanish-language lessons
     es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en español
     fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en espagnol
 - type: french
   label:
-    en: Editorial Team (French)
-    es: Equipo editorial (francés)
-    fr: Équipe éditoriale (français)
+    en: Editor (French)
+    es: Editor(a) (francés)
+    fr: Rédacteur (français)
   definition:
     en: Responsible for editorial work resulting in the review and publication of French-language lessons
     es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en francés
@@ -113,15 +104,6 @@
     en: Responsible for coordinating efforts of the communication team
     es: Responsable de la coordinación del equipo de comunicación
     fr: Responsable de la coordination de l'équipe de communication
-- type: communication
-  label:
-    en: Communication Team
-    es: Equipo de comunicación
-    fr: Équipe de communication
-  definition:
-    en: Responsible for managing and developing communication channels
-    es: Responsable del mantenimiento y creación de canales de comunicación
-    fr: Responsable de la gestion et du développement des canaux de communication
 - type: twitter-dev
   label:
     en: Twitter Developer
@@ -189,18 +171,6 @@
     es: Mediador (francés)
     fr: Médiateur/médiatrice (français)
   source_role: ombuds
-- type: managing-es
-  label:
-    en: Managing Editor (Spanish)
-    es: Jefe de redacción (español)
-    fr: Rédacteur/rédactrice en chef (espagnol)
-  source_role: managing-en
-- type: managing-fr
-  label:
-    en: Managing Editor (French)
-    es: Jefe de redacción (francés)
-    fr: Rédacteur/rédactrice en chef (français)
-  source_role: managing-en
 - type: global-lead
   label:
     en: Global Lead
