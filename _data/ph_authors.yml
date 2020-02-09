@@ -1061,7 +1061,7 @@
   team_roles:
     - french
     - board
-    - managing-fr
+    - managing
     - technical
     - global
     - volunteer
@@ -1198,7 +1198,7 @@
   team_roles:
     - spanish
     - board
-    - managing-es
+    - managing
     - global
     - volunteer
     - proghist
