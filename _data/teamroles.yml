@@ -104,15 +104,6 @@
     en: Responsible for coordinating efforts of the communication team
     es: Responsable de la coordinación del equipo de comunicación
     fr: Responsable de la coordination de l'équipe de communication
-- type: twitter-dev
-  label:
-    en: Twitter Developer
-    es: Desarrollador de Twitter
-    fr: Développeur Twitter
-  definition:
-    en: Responsible for maintaining the Programming Historian Twitter bot
-    es: Responsable del mantenimiento del bot del Twitter de Programming Historian
-    fr: Responsable de la maintenance du bot Twitter du Programming Historian
 - type: ed-manager
   label:
     en: Education Manager
