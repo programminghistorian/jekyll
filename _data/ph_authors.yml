@@ -630,7 +630,6 @@
   team_roles:
    - editorial
    - board
-   - twitter-dev
    - communication
    - technical
    - instutitionally-supported
