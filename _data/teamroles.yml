@@ -5,6 +5,17 @@
 # definition: Brief description of that editorial team. If this is a derived label that uses the definition of another role, instead use...
 # source_role: The role type where the definition for this derived role can be found (e.g. pointing from an ES variant of a role to the original EN definition)
 
+
+# --- Publication Roles ---
+- type: managing
+  label:
+    en: Managing Editor
+    es: Jefe de redacción
+    fr: Rédacteur/rédactrice en chef
+  definition:
+    en: First point of contact for authors with lesson ideas
+    es: Primer contacto para autores con ideas de lecciones
+    fr: Premier contact pour les auteurs souhaitant proposer une lesson
 - type: editorial
   label:
     en: Editor (English)
@@ -32,15 +43,6 @@
     en: Responsible for editorial work resulting in the review and publication of French-language lessons
     es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en francés
     fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en français
-- type: managing
-  label:
-    en: Managing Editor
-    es: Jefe de redacción
-    fr: Rédacteur/rédactrice en chef
-  definition:
-    en: First point of contact for authors with lesson ideas
-    es: Primer contacto para autores con ideas de lecciones
-    fr: Premier contact pour les auteurs souhaitant proposer une lesson
 - type: ombuds
   label:
     en: Ombudsperson
@@ -50,6 +52,17 @@
     en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
     es: Persona a la que los autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
     fr: Personne que les auteur(e)s et évaluateur(trice)s peuvent consulter pour toute question liée à la procédure de l'évaluation par les pairs ou à la publication
+
+# --- Proghist Roles ---
+- type: proghist
+  label:
+     en: ProgHist Ltd
+     es: ProgHist Ltd
+     fr: ProgHist Ltd
+  definition:
+     en: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
+     es: Este miembro funge un cargo en la compañía sin ánimo de lucro ProgHist Ltd, que gestiona las publicaciones.
+     fr: Ce(tte) membre occupe un rôle au sein de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
 - type: technical-lead
   label:
     en: Technical Lead
@@ -68,6 +81,15 @@
     en: Responsible for the technical features that bring the content and peer review to our community
     es: Responsable de las características técnicas respecto al contenido y la revisión por pares a nuestra comunidad
     fr: Responsable des aspects techniques rendant accessibles à notre communauté le contenu et l'évaluation par les pairs
+- type: communication-manager
+  label:
+    en: Communication Manager
+    es: Mánager de comunicación
+    fr: Responsable de la communication
+  definition:
+    en: Responsible for coordinating efforts of the communication team
+    es: Responsable de la coordinación del equipo de comunicación
+    fr: Responsable de la coordination de l'équipe de communication
 - type: archive
   label:
     en: Archivist
@@ -95,15 +117,6 @@
     en: Responsible for managing relationships with our sponsors
     es: Responsable de coordinar las relaciones con las y los patrocinadores
     fr: Personne chargée des relations avec les sponsors du projet
-- type: communication-manager
-  label:
-    en: Communication Manager
-    es: Mánager de comunicación
-    fr: Responsable de la communication
-  definition:
-    en: Responsible for coordinating efforts of the communication team
-    es: Responsable de la coordinación del equipo de comunicación
-    fr: Responsable de la coordination de l'équipe de communication
 - type: ed-manager
   label:
     en: Education Manager
@@ -149,6 +162,7 @@
     en: Keeping the team focused on achieving its goals in a timely manner
     es: Mantener al equipo enfocado en lograr sus objetivos de manera puntual
     fr: Garder l'équipe concentrée sur la réalisation de ses objectifs à l'intérieur des délais prévus
+
 # --- Derived roles ---
 - type: ombuds-es
   label:
@@ -180,6 +194,8 @@
     en: Managing new global initiatives, as well as trying to improve the cultural and linguistic diversity of the team, our lessons, and of participation in Digital Humanities more generally.
     es: Coordinar nuevas iniciativas globales, así como tratar de mejorar la diversidad cultural y lingüística del equipo, de nuestras lecciones y de la participación en Humanidades Digitales en general.
     fr: En charge de nouvelles initiatives à vocation globale, de la diversité culturelle et linguistique de l'équipe et des leçons, et de la participation aux humanités numériques en général.  
+
+# --- Status ---
 - type: volunteer
   label:
      en: Volunteer
@@ -198,12 +214,3 @@
      en: This member's time on the project is either directly or indirectly supported by their employer.
      es: El tiempo que este miembro dedica al proyecto está directa o indirectamente apoyado por su institución.
      fr: Le temps que ce membre consacre au projet est directement ou indirectement financé par son employeur.
-- type: proghist
-  label:
-     en: ProgHist Ltd
-     es: ProgHist Ltd
-     fr: ProgHist Ltd
-  definition:
-     en: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
-     es: Este miembro funge un cargo en la compañía sin ánimo de lucro ProgHist Ltd, que gestiona las publicaciones.
-     fr: Ce(tte) membre occupe un rôle au sein de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
