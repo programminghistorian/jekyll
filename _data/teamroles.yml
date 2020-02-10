@@ -99,24 +99,6 @@
     en: Responsible for archiving the project
     es: Responsable del archivo del proyecto
     fr: Responsable de l'archive du projet
-- type: treasurer
-  label:
-    en: Treasurer
-    es: Tesorería
-    fr: Trésorier/trésorière
-  definition:
-    en: Responsible for project finances
-    es: Responsable de las finanzas del proyecto
-    fr: Personne chargée des finances du projet
-- type: sponsorship
-  label:
-    en: Sponsorship Coordinator
-    es: Coordinación de patrocinio
-    fr: Chargé(e) des donations
-  definition:
-    en: Responsible for managing relationships with our sponsors
-    es: Responsable de coordinar las relaciones con las y los patrocinadores
-    fr: Personne chargée des relations avec les sponsors du projet
 - type: ed-manager
   label:
     en: Education Manager
