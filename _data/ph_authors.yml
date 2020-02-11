@@ -42,11 +42,11 @@
     fr: |
         Adam Crymble est maître de conférences en histoire numérique.
   team_roles:
-   - board
+   - proghist
    - team-development-manager
    - global
+   - board
    - volunteer
-   - proghist
 
 - name: Caleb McDaniel
   team: false
@@ -116,6 +116,7 @@
         Maria José Afanador-Llach est maître de conférences en Humanités numériques et histoire à l'Université de los Andes, (Bogota, Colombie).
   team_roles:
    - spanish
+   - project-manager-at-large
    - board
 
 - name: Víctor Gayol
@@ -278,12 +279,12 @@
     fr: |
         James Baker est maître de conférences en histoire numérique et en archivistique à l'Université du Sussex; il est spécialiste en histoire des interactions entre personnes et objets.
   team_roles:
-   - board
-   - archive
-   - sponsorship
-   - finance-manager
-   - institutionally-supported
    - proghist
+   - finance-manager
+   - archive
+   - board
+   - institutionally-supported
+
 
 - name: Amanda Morton
   team: false
@@ -526,10 +527,11 @@
     fr: |
         Matthew Lincoln est développeur en humanités numériques à l'Université Carnegie Mellon et historien de l'art européen moderne.
   team_roles:
+   - proghist
    - technical-lead
    - board
    - institutionally-supported
-   - proghist
+
 
 - name: Sarah Melton
   github: svmelton
@@ -555,8 +557,8 @@
     fr: |
         Sarah Melton est responsable des études numériques au Boston College.
   team_roles:
+   - managing
    - editorial
-   - managing-en
    - board
    - volunteer
 
@@ -628,13 +630,12 @@
     fr: |
         Brandon Walsh est responsable des programmes des deuxième et troisième cycles au Scholar's Lab de l'Université de Virginie.
   team_roles:
+   - proghist
    - editorial
    - board
-   - twitter-dev
-   - communication
    - technical
    - instutitionally-supported
-   - proghist
+
 
 - name: Ted Dawson
   team: false
@@ -716,10 +717,10 @@
     fr: |
         Jessica Parr est maîtresse de conférences au Simmons College à Boston et spécialiste du monde atlantique à l'époque moderne.
   team_roles:
-   - board
-   - global-lead
-   - volunteer
    - proghist
+   - global-lead
+   - board
+   - volunteer
 
 - name: Taylor Arnold
   team: false
@@ -828,13 +829,11 @@
         Anna-Maria Sichani est spécialiste de l'histoire culturelle et de l'histoire de la littérature, mais aussi des humanités numériques. Elle est actuellement chercheuse en histoire des médias à l'Université du Sussex.
   team_roles:
    - editorial
-   - board
-   - ed-manager
-   - communication
-   - technical
-   - project-manager-at-large
-   - volunteer
    - proghist
+   - ed-manager
+   - technical
+   - board
+   - volunteer
 
 - name: Evan Peter Williamson
   team: false
@@ -957,11 +956,11 @@
         Jennifer Isasi est chercheuse postdoctorale du programme CLIR au LLILAS Benson en Études et collections latino-américaines, et docteure en études hispaniques.
   team_roles:
     - spanish
-    - board
-    - technical
-    - communication-manager
-    - institutionally-supported
     - proghist
+    - communication-manager
+    - technical
+    - board
+    - institutionally-supported
 
 - name: Jon MacKay
   team: false
@@ -1059,13 +1058,13 @@
         fr: |
             Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
   team_roles:
+    - managing
     - french
+    - proghist
     - board
-    - managing-fr
     - technical
     - global
     - volunteer
-    - proghist
   bio:
         en: |
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
@@ -1158,6 +1157,7 @@
         Zoe LeBlanc est développeuse spécialiste des Humanités Numériques au Scholar's Lab de l'Université de Virginie..
   team_roles:
    - editorial
+   - proghist
    - board
    - technical
 
@@ -1196,12 +1196,13 @@
     fr: |
         Riva Quiroga est doctorante en linguistique à l'Université Catholique de Chili.
   team_roles:
+    - managing
     - spanish
+    - proghist
     - board
-    - managing-es
     - global
     - volunteer
-    - proghist
+
 
 - name: Joshua G. Ortiz Baco
   twitter: jgob

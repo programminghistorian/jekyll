@@ -5,43 +5,9 @@
 # definition: Brief description of that editorial team. If this is a derived label that uses the definition of another role, instead use...
 # source_role: The role type where the definition for this derived role can be found (e.g. pointing from an ES variant of a role to the original EN definition)
 
-- type: board
-  label:
-    en: Editorial Board
-    es: Consejo editorial
-    fr: Comité éditorial
-  definition:
-    en: A fully-fledged member of the project team, involved in directing the project's future
-    es: Miembro de pleno derecho del equipo del proyecto, encargado de su dirección a futuro
-    fr: Membre à part entière de l'équipe, impliqué dans la direction du projet
-- type: editorial
-  label:
-    en: Editorial Team (English)
-    es: Equipo editorial (Inglés)
-    fr: Équipe éditoriale (anglais)
-  definition:
-    en: Responsible for editorial work resulting in the review and publication of English-language lessons
-    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en inglés
-    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en anglais
-- type: spanish
-  label:
-    en: Editorial Team (Spanish)
-    es: Equipo editorial (español)
-    fr: Équipe éditoriale (espagnol)
-  definition:
-    en: Responsible for editorial work resulting in the review and publication of Spanish-language lessons
-    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en español
-    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en espagnol
-- type: french
-  label:
-    en: Editorial Team (French)
-    es: Equipo editorial (francés)
-    fr: Équipe éditoriale (français)
-  definition:
-    en: Responsible for editorial work resulting in the review and publication of French-language lessons
-    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en francés
-    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en français
-- type: managing-en
+
+# --- Publication Roles ---
+- type: managing
   label:
     en: Managing Editor
     es: Jefe de redacción
@@ -50,6 +16,33 @@
     en: First point of contact for authors with lesson ideas
     es: Primer contacto para autores con ideas de lecciones
     fr: Premier contact pour les auteurs souhaitant proposer une lesson
+- type: editorial
+  label:
+    en: Editor (English)
+    es: Editor(a) (Inglés)
+    fr: Rédacteur (anglais)
+  definition:
+    en: Responsible for editorial work resulting in the review and publication of English-language lessons
+    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en inglés
+    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en anglais
+- type: spanish
+  label:
+    en: Editor (Spanish)
+    es: Editor(a) (español)
+    fr: Rédacteur (espagnol)
+  definition:
+    en: Responsible for editorial work resulting in the review and publication of Spanish-language lessons
+    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en español
+    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en espagnol
+- type: french
+  label:
+    en: Editor (French)
+    es: Editor(a) (francés)
+    fr: Rédacteur (français)
+  definition:
+    en: Responsible for editorial work resulting in the review and publication of French-language lessons
+    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en francés
+    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en français
 - type: ombuds
   label:
     en: Ombudsperson
@@ -59,6 +52,17 @@
     en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
     es: Persona a la que los autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
     fr: Personne que les auteur(e)s et évaluateur(trice)s peuvent consulter pour toute question liée à la procédure de l'évaluation par les pairs ou à la publication
+
+# --- Proghist Roles ---
+- type: proghist
+  label:
+     en: ProgHist Ltd
+     es: ProgHist Ltd
+     fr: ProgHist Ltd
+  definition:
+     en: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
+     es: Este miembro funge un cargo en la compañía sin ánimo de lucro ProgHist Ltd, que gestiona las publicaciones.
+     fr: Ce(tte) membre occupe un rôle au sein de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
 - type: technical-lead
   label:
     en: Technical Lead
@@ -77,33 +81,6 @@
     en: Responsible for the technical features that bring the content and peer review to our community
     es: Responsable de las características técnicas respecto al contenido y la revisión por pares a nuestra comunidad
     fr: Responsable des aspects techniques rendant accessibles à notre communauté le contenu et l'évaluation par les pairs
-- type: archive
-  label:
-    en: Archivist
-    es: Archivista
-    fr: Archiviste
-  definition:
-    en: Responsible for archiving the project
-    es: Responsable del archivo del proyecto
-    fr: Responsable de l'archive du projet
-- type: treasurer
-  label:
-    en: Treasurer
-    es: Tesorería
-    fr: Trésorier/trésorière
-  definition:
-    en: Responsible for project finances
-    es: Responsable de las finanzas del proyecto
-    fr: Personne chargée des finances du projet
-- type: sponsorship
-  label:
-    en: Sponsorship Coordinator
-    es: Coordinación de patrocinio
-    fr: Chargé(e) des donations
-  definition:
-    en: Responsible for managing relationships with our sponsors
-    es: Responsable de coordinar las relaciones con las y los patrocinadores
-    fr: Personne chargée des relations avec les sponsors du projet
 - type: communication-manager
   label:
     en: Communication Manager
@@ -113,24 +90,15 @@
     en: Responsible for coordinating efforts of the communication team
     es: Responsable de la coordinación del equipo de comunicación
     fr: Responsable de la coordination de l'équipe de communication
-- type: communication
+- type: archive
   label:
-    en: Communication Team
-    es: Equipo de comunicación
-    fr: Équipe de communication
+    en: Archivist
+    es: Archivista
+    fr: Archiviste
   definition:
-    en: Responsible for managing and developing communication channels
-    es: Responsable del mantenimiento y creación de canales de comunicación
-    fr: Responsable de la gestion et du développement des canaux de communication
-- type: twitter-dev
-  label:
-    en: Twitter Developer
-    es: Desarrollador de Twitter
-    fr: Développeur Twitter
-  definition:
-    en: Responsible for maintaining the Programming Historian Twitter bot
-    es: Responsable del mantenimiento del bot del Twitter de Programming Historian
-    fr: Responsable de la maintenance du bot Twitter du Programming Historian
+    en: Responsible for archiving the project
+    es: Responsable del archivo del proyecto
+    fr: Responsable de l'archive du projet
 - type: ed-manager
   label:
     en: Education Manager
@@ -176,6 +144,7 @@
     en: Keeping the team focused on achieving its goals in a timely manner
     es: Mantener al equipo enfocado en lograr sus objetivos de manera puntual
     fr: Garder l'équipe concentrée sur la réalisation de ses objectifs à l'intérieur des délais prévus
+
 # --- Derived roles ---
 - type: ombuds-es
   label:
@@ -189,18 +158,6 @@
     es: Mediador (francés)
     fr: Médiateur/médiatrice (français)
   source_role: ombuds
-- type: managing-es
-  label:
-    en: Managing Editor (Spanish)
-    es: Jefe de redacción (español)
-    fr: Rédacteur/rédactrice en chef (espagnol)
-  source_role: managing-en
-- type: managing-fr
-  label:
-    en: Managing Editor (French)
-    es: Jefe de redacción (francés)
-    fr: Rédacteur/rédactrice en chef (français)
-  source_role: managing-en
 - type: global-lead
   label:
     en: Global Lead
@@ -219,6 +176,8 @@
     en: Managing new global initiatives, as well as trying to improve the cultural and linguistic diversity of the team, our lessons, and of participation in Digital Humanities more generally.
     es: Coordinar nuevas iniciativas globales, así como tratar de mejorar la diversidad cultural y lingüística del equipo, de nuestras lecciones y de la participación en Humanidades Digitales en general.
     fr: En charge de nouvelles initiatives à vocation globale, de la diversité culturelle et linguistique de l'équipe et des leçons, et de la participation aux humanités numériques en général.  
+
+# --- Status ---
 - type: volunteer
   label:
      en: Volunteer
@@ -237,12 +196,3 @@
      en: This member's time on the project is either directly or indirectly supported by their employer.
      es: El tiempo que este miembro dedica al proyecto está directa o indirectamente apoyado por su institución.
      fr: Le temps que ce membre consacre au projet est directement ou indirectement financé par son employeur.
-- type: proghist
-  label:
-     en: ProgHist Ltd
-     es: ProgHist Ltd
-     fr: ProgHist Ltd
-  definition:
-     en: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
-     es: Este miembro funge un cargo en la compañía sin ánimo de lucro ProgHist Ltd, que gestiona las publicaciones.
-     fr: Ce(tte) membre occupe un rôle au sein de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
