@@ -64,7 +64,7 @@ Normalmente un archivo HTML comienza con una [declaración doctype][]. Viste est
 ``` python
 # escribe-html.py
 
-f = open('holamundo.html','w')
+f = open('holamundo.html','wb')
 
 mensaje = """<html>
 <head></head>
@@ -95,7 +95,7 @@ Puedes entonces copiar y pegar la localización del archivo enlistado después d
 # escribe-html-2-mac.py
 import webbrowser
 
-f = open('holamundo.html','w')
+f = open('holamundo.html','wb')
 
 mensaje = """<html>
 <head></head>
@@ -119,7 +119,7 @@ Si recibes un error de "File not found" no has cambiado la ruta de nombre de arc
 
 import webbrowser
 
-f = open('holamundo.html','w')
+f = open('holamundo.html','wb')
 
 mensaje = """<html>
 <head></head>
