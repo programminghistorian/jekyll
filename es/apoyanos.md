@@ -23,13 +23,43 @@ El proyecto agradece el siguiente apoyo:
 - Fondos para un taller de escritura en Bogotá, Colombia, financiados por la [Academia Británica](https://www.thebritishacademy.ac.uk) [2018]
 - Fondos iniciales y soporte de administración de la Red en Historia y Medio Ambiente de Canadá ([NiCHE](http://niche-canada.org/)) [2011-2013]
 
-- Nuestros primeros suscriptores de *Patreon* Rachel Murphy (nivel 'Suscriptor'), Miriam Posner (nivel 'Patrocinador') y Tim Hitchcock (nivel 'Mecenas'). En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas': Tim Hitchcock, Shawn Graham, Jeff Blackadar. 
+- Nuestros primeros suscriptores de *Patreon* Rachel Murphy (nivel 'Suscriptor'), Miriam Posner (nivel 'Patrocinador') y Tim Hitchcock (nivel 'Mecenas'). En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas': Tim Hitchcock, Shawn Graham, Jeff Blackadar.
 
 ## Donaciones
 Los patrocinadores individuales del _Programming Historian en Español_ son vitales para aumentar, mejorar y mantener nuestro trabajo. Aceptamos donativos únicos y recurrentes.  
 
 - Donaciones recurrentes a _Programming Historian en Español_ a través de [Patreon](https://www.patreon.com/theprogramminghistorian)
 - Donaciones únicas a _Programming Historian en Español_ por [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), transferencia bancaria (número de cuenta de Lloyds Bank 55263268, código bancario 30-96-26) o con un cheque a nombre de "ProgHist Ltd" enviado a la dirección: 'Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH'. En caso de donativos por transferencia bancaria o cheque, solicitamos que envíes un correo <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> para que nos cuentes sobre ti y por qué decidiste apoyar nuestro trabajo.
+
+## Programa de Instituciones Asociadas
+
+El Programa de Instituciones Asociadas de The Programming Historian permite a tu biblioteca, universidad o centro de investigación apoyar el crecimiento, desarrollo y sustentabilidad de nuestra premiada plataforma de publicación abierta.
+
+Al unirte al Programa de Instituciones Asociadas recibirás los siguientes beneficios:
+
+- Invitación a la reunión anual de [ProgHist Ltd](https://github.com/programminghistorian/jekyll/wiki/ProgHist-Ltd) como Miembro Asesor (una persona por institución asociada).
+- Acceso al detalle de los gastos anuales de ProgHist Ltd.
+- Reconocimiento de tu contribución en nuestra página de Patrocinadores.
+- Derecho a usar la membrecía a este programa en las actividades de promoción de tu institución.
+- Para bibliotecas socias: lista de todos los artículos publicados por las distintas ediciones de The Programming Historian (previa solicitud).
+
+El costo de asociación para 2020 corresponde a £1000 libras esterlinas (aproximadamente $1300 dólares / €1180 euros). Las instituciones de [países elegibles para Ayuda Oficial al Desarrollo (AOD)](https://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/DAC_List_ODA_Recipients2018to2020_flows_En.pdf) pueden asociarse por £150 libras esterlinas (aproximadamente $195 dólares / €175 euros). Estos costos son anuales y su período de vigencia se inicia con la fecha del primer pago. En el mes de enero se publica la actualización de los costos para cada año.
+
+Para convertirte en una institución asociada debes enviar un correo electrónico a James Baker a <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> con el asunto "Programa de Instituciones Asociadas". El correo debe incluir la siguiente información:
+
+- Nombre.
+- Institución a la que perteneces.
+- Método de pago preferido (transferencia bancaria, cheque, factura, PayPal).
+- Moneda preferida (en caso de que no esté en la lista, por favor consultar).
+
+Ten en cuenta que al enviar el correo electrónico con el asunto "Programa de Instituciones Asociadas" estás aceptando las siguientes condiciones:
+
+1. Estás autorizado a comprometer gastos de la institución a la que representas.
+2. Una vez que se acuerde el método de pago y se soliciten los fondos, serás parte de un acuerdo legalmente vinculante por los montos especificados.
+3. El Consejo Editorial de The Programming Historian se reserva el derecho de rechazar fondos de cualquier organización o individuo por las razones que estime conveniente.
+4. The Programming Historian es un proyecto internacional impulsado por voluntarios cuyas actividades son administradas por ProgHist Limitada, una compañía sin fines de lucro que se encuentra registrada en Inglaterra con el número 12192946.
+5. El propósito de The Programming Historian es hacer avanzar la educación del público en las Humanidades, en particular en el uso de de herramientas y técnicas digitales, promover investigación para el bien público en este ámbito y publicar resultados significativos.
+
 
 ## Patrocinio
 Si representas a una organización o grupo que esté interesado en patrocinar a *The Programming Historian en Español*, por favor ponte en contacto con [James Baker](https://github.com/drjwbaker) (en inglés). El patrocinio puede ser financiero, en especie, o una combinación de ambos. La duración y el valor del patronicio son negociables.
@@ -44,4 +74,3 @@ Todo patrocinio está sujeto al acuerdo del [Consejo Editorial](/es/equipo-de-pr
 
 ## Administración de donaciones y patrocinios
 [James Baker](https://github.com/drjwbaker) administra las donaciones y los patrocinios en nombre del [Consejo Editorial de *The Programming Historian*](/es/equipo-de-proyecto).
-
