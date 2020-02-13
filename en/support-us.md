@@ -48,8 +48,6 @@ Partnership rates for 2020 are set at Â£1,000 GBP (approximately $1,300 USD / â‚
 
 To become a Institutional Partner, please email James Baker at <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> with "Institutional Partners Programme" in the subject line. Your email should include the following information:
 
-Send Email</a>
-
 - Your Name.
 - Your Institution.
 - Your Preferred Method of Payment (bank transfer, cheque, invoice, Paypal).
