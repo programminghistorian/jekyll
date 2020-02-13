@@ -37,7 +37,7 @@ El Programa de Instituciones Asociadas de The Programming Historian permite a tu
 
 Al unirte al Programa de Instituciones Asociadas recibirás los siguientes beneficios:
 
-- Invitación a la reunión anual de [ProgHist Ltd](https://github.com/programminghistorian/jekyll/wiki/ProgHist-Ltd) como Miembro Asesor (una persona por institución asociada).
+- Invitación a la reunión anual de [ProgHist Ltd](https://beta.companieshouse.gov.uk/company/12192946) como Miembro Asesor (una persona por institución asociada).
 - Acceso al detalle de los gastos anuales de ProgHist Ltd.
 - Reconocimiento de tu contribución en nuestra página de Patrocinadores.
 - Derecho a usar la membrecía a este programa en las actividades de promoción de tu institución.
