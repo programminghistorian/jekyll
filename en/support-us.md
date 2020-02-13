@@ -33,6 +33,35 @@ Individual donors to the _Programming Historian_ are vital to growing, improving
 - Ongoing donations by becoming a supporter of the _Programming Historian_ via [Patreon](https://www.patreon.com/theprogramminghistorian). 
 - One-time donations can be made to the _Programming Historian_ via [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), bank transfer (Lloyds Bank account number 55263268, sort code 30-96-26), or cheque (made payable to 'ProgHist Ltd' and posted to 'Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH'). For donations via bank transfer and cheque, we'd be grateful if you could write to us at <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> to let us know who you are and why you've chosen to support our work.
 
+## Institutional Partner Programme
+
+The Programming Historian Institutional Partner Programme enables your library, university, or research centre to support the growth, development, and sustainability of our award winning open access publishing platform.
+
+By joining the Institutional Partner Programme you will receive the following benefits:
+
+- An invitation to our [ProgHist Ltd](https://beta.companieshouse.gov.uk/company/12192946) Annual General Meeting as an Advisory Member (one individual per Library Partner).
+- An annual breakdown of ProgHist Ltd expenditure.
+- Acknowledgement of your contribution on our 'Supporters' page.
+- The right to use Programming Historian Library Partner Programme membership in marketing activities.
+- For library partners: a list of articles published by all Programming Historian journals (on request).
+
+Partnership rates for 2020 are set at £1,000 GBP (approximately $1,300 USD / €1,180 EUR) and £150 (approximately $195 USD / €175 EUR) for partners in [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm). Rates are due annually from the date of first payment. Rates are published in January each year.
+
+To become a Institutional Partner, please email James Baker at <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> with "Institutional Partners Programme" in the subject line. Your email should include the following information:
+
+- Your Name.
+- Your Institution.
+- Your Preferred Method of Payment (bank transfer, cheque, invoice, Paypal).
+- Your Preferred Currency (if this is not listed, please ask).
+
+Note that upon email with the subject line "Institutional Partners Programme" you agree to the following conditions:
+
+1. You are authorized to commit to expenditure of the institution whose name you use.
+2. Once a method of payment is agreed and funds requested you will enter a legally binding agreement for the amounts specified.
+3. The Programming Historian Editorial Board reserves the right to reject funds from any organization or individual for any reason.
+4. The Programming Historian is an international volunteer-driven project whose financial activities are administered by ProgHist Limited, a Not for Profit Company Limited by Guarantee that is registered in England, Company Number 12192946.
+5. The purpose of the Programming Historian is to advance the education of the public in the humanities in particular in the use of digital tools and techniques and to promote research for the public benefit in all aspects of that subject and to publish the useful results.
+
 ## Sponsor Us
 
 If you represent an organisation or group who are interested in sponsoring The Programming Historian, please contact [James Baker](https://github.com/drjwbaker) to discuss. Sponsorship can be financial, in-kind, or a combination of both. Sponsorship length and value are negotiable.
