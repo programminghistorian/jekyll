@@ -38,7 +38,7 @@ The Programming Historian Institutional Partner Programme enables your library, 
 
 By joining the Institutional Partner Programme you will receive the following benefits:
 
-- An invitation to our [ProgHist Ltd](https://github.com/programminghistorian/jekyll/wiki/ProgHist-Ltd) Annual General Meeting as an Advisory Member (one individual per Library Partner).
+- An invitation to our [ProgHist Ltd](https://beta.companieshouse.gov.uk/company/12192946) Annual General Meeting as an Advisory Member (one individual per Library Partner).
 - An annual breakdown of ProgHist Ltd expenditure.
 - Acknowledgement of your contribution on our 'Supporters' page.
 - The right to use Programming Historian Library Partner Programme membership in marketing activities.
