@@ -40,7 +40,7 @@ En participant à notre programme de partenariat institutionnel vous bénéficie
 
 - Participation à l'assemblée générale annuelle de [ProgHist Ltd](https://beta.companieshouse.gov.uk/company/12192946) en tant que membre consultatif (un individu par institution partenaire).
 - La ventilation annuelle des dépenses de ProgHist Ltd.
-- Reconnaissance explicite de votre contribution dans <!-- la section [Nos soutiens](https://programminghistorian.org/fr/nous-soutenir#nos-soutiens) -->
+- Reconnaissance explicite de votre contribution dans la section [Nos soutiens](/fr/nous-soutenir#nos-soutiens).
 - Le droit de valoriser ce partenariat dans les activités de promotion de votre institution.
 - Pour les bibliothèques partenaires: une liste d'articles publiés par toutes les versions du Programming Historian (sur demande).
 
