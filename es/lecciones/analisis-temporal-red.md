@@ -17,7 +17,7 @@ translation-editor:
 - Antonio Rojas Castro
 translation-reviewer:
 - Gabriela Elgarrista
-- Antonio Sánchez-Padial 
+- Antonio Sánchez-Padial
 review-ticket:
 - https://github.com/programminghistorian/ph-submissions/issues/218
 layout: lesson
@@ -95,23 +95,23 @@ La diferencia entre una red estática y una temporal dinámica es la cantidad de
 ### Listado de vínculos
 Un listado de vínculos sin dirección contiene tres columnas de datos: un identificador único para el vínculo, un nodo de origen o *tail* (uno de los talleres implicados) y un nodo de destino o *head* (otro taller implicado) por cada vínculo. Algo así:
 
-|edge.id|tail|head|
-|---|---|---|
-|1|2|12|
-|2|2|5|
-|3|2|17|
-|...|...|...|
-|142|97|73|
+| edge.id | tail | head |
+| ------- | ---- | ---- |
+| 1       | 2    | 12   |
+| 2       | 2    | 5    |
+| 3       | 2    | 17   |
+| ...     | ...  | ...  |
+| 142     | 97   | 73   |
 
 Además de esta información, una lista de vértices o aristas temporales debe contener como mínimo dos partes más de información: el momento en que un vínculo comienza su existencia, también conocido como el `onset` o inicio del vínculo, y cuándo desaparece ese vínculo, esto es, su `terminus` o término. Los paquetes NDTV y TSNA que vamos a usar en este tutorial presuponen que tus datos incluyen el *onset*, el *terminus*, el *tail*, el *head* y un *edge id*. Dependiendo de cómo conceptualices tu red, puede que el inicio y el término del intervalo de tiempo que conecta dos nodos sea o relativamente breve o prolongado, y en este último caso el comienzo y el final implican una serie de eventos en la relación. Para los talleres de manuscritos, la lista de vínculos temporales es así:
 
-|onset|terminus|tail|head|onset.censored|terminus.censored|duration|edge.id|
-|---|---|---|---|---|---|---|---|
-|1300.0|1301.0|10|11|FALSE|FALSE|1|1|
-|1300.0|1301.0|10|12|FALSE|FALSE|1|2|
-|1320.0|1321.0|10|30|FALSE|FALSE|1|3|
-|...|...|...|...|...|...|...|...|
-|1319.0|1320.0|99|100|FALSE|FALSE|1|108|
+| onset  | terminus | tail | head | onset.censored | terminus.censored | duration | edge.id |
+| ------ | -------- | ---- | ---- | -------------- | ----------------- | -------- | ------- |
+| 1300.0 | 1301.0   | 10   | 11   | FALSE          | FALSE             | 1        | 1       |
+| 1300.0 | 1301.0   | 10   | 12   | FALSE          | FALSE             | 1        | 2       |
+| 1320.0 | 1321.0   | 10   | 30   | FALSE          | FALSE             | 1        | 3       |
+| ...    | ...      | ...  | ...  | ...            | ...               | ...      | ...     |
+| 1319.0 | 1320.0   | 99   | 100  | FALSE          | FALSE             | 1        | 108     |
 
 La primera colaboración en esta lista tuvo lugar entre los talleres 10 y 11 entre los años 1300 y 1301, y duró un año (en realidad no sabemos cuánto tardaron ambos talleres en producir el manuscrito juntos, esto es una aproximación), etc. A lo mejor te preguntes qué son las columnas `onset.censored` y `terminus.censored` aquí. En el análisis temporal de redes **censurar** es una forma de ignorar el comienzo y el final de un vínculo o un nodo. Esta capacidad para ignorar el inicio o el término de un elemento puede ser útil a la hora de modelar tipos específicos de redes temporales, para crear visualizaciones cumulativas o para limpiar tu código, entre otras cosas. Para este tutorial no censuraremos nada [Nota de la T.: para no censurar se indica con la palabra *FALSE*, y para censurar con la palabra *TRUE*].
 
@@ -125,15 +125,15 @@ En la mayoría de los análisis de redes estáticas, una lista de nodos es simpl
 |...|
 |106|
 
-En una red temporal, sin embargo, los actores y los objetos entran y salen de la red todo el tiempo. Puede que nuestros talleres de iluminadores generaran libros preciosos durante dos, cinco o incluso treinta años y medio. Para reflejar el surgimiento y la desaparición de dichos talleres, necesitamos un `onset` (punto de inicio), un `terminus` (punto de desaparición), y la `duration` (duración) de cada uno de ellos. El paquete de R que estamos utilizando espera un conjunto de datos como este:   
+En una red temporal, sin embargo, los actores y los objetos entran y salen de la red todo el tiempo. Puede que nuestros talleres de iluminadores generaran libros preciosos durante dos, cinco o incluso treinta años y medio. Para reflejar el surgimiento y la desaparición de dichos talleres, necesitamos un `onset` (punto de inicio), un `terminus` (punto de desaparición), y la `duration` (duración) de cada uno de ellos. El paquete de R que estamos utilizando espera un conjunto de datos como este:
 
-|onset|terminus|vertex.id|onset.censored|terminus.censored|duration|
-|---|---|---|---|---|---|
-|1280.0|1311.0|1|FALSE|FALSE|31|
-|1288.5|1311.0|2|FALSE|FALSE|22.5|
-|1257.5|1290.0|3|FALSE|FALSE|32.5|
-|...|...|...|...|...|...|
-|1267.0|1277.0|106|FALSE|FALSE|10.0|
+| onset  | terminus | vertex.id | onset.censored | terminus.censored | duration |
+| ------ | -------- | --------- | -------------- | ----------------- | -------- |
+| 1280.0 | 1311.0   | 1         | FALSE          | FALSE             | 31       |
+| 1288.5 | 1311.0   | 2         | FALSE          | FALSE             | 22.5     |
+| 1257.5 | 1290.0   | 3         | FALSE          | FALSE             | 32.5     |
+| ...    | ...      | ...       | ...            | ...               | ...      |
+| 1267.0 | 1277.0   | 106       | FALSE          | FALSE             | 10.0     |
 
 Aquí, el segundo taller comienza su actividad alrededor de 1288 y cesa de colaborar sobre 1311, dándole un periodo de vida de unos 22,5 años. Puesto que no tenemos registros de archivo que documenten cuando se formó o disolvió cada taller, estos tres números son una aproximación basada en las fechas asociadas con su primera y su última colaboración en un manuscrito.
 
@@ -234,7 +234,7 @@ compute.animation(
     aggregate.dur = 20,
     rule = "any"
     )
-)  
+)
 ```
 Veamos lo que es cada parámetro. Hay unas cuantas formas de ejecutar el diseño de nuestra animación, así que hemos decidido usar un algoritmo de fuerza dirigida conocido como Kamada Kawai.[^5] Establecemos el año de inicio (*start*) en 1260 y el de finalización (*end*) en 1320, y que el intervalo (*interval*) entre cada animación sean fragmentos de un año. Puesto que las colaboraciones entre talleres es infrecuente o durante un período relativamente corto de tiempo (al menos en nuestra aproximación), hemos agregado los vínculos (*aggregate.dur*) mostrados en cada fragmento durante un periodo significativo de tiempo, 20 años en este caso.
 
@@ -304,7 +304,7 @@ En una red temporal, puesto que los nodos y los vínculos aparecen y desaparecen
 
 El tamaño de estos conjuntos añade información importante a los cálculos de centralidad, dependiendo de si un taller vino a ocupar una posición central en la red cerca del comienzo o del final del período que estamos observando, el impacto real que podría haber tenido en la comunidad es totalmente diferente. Puede ser útil pensar en esto en términos epidemiológicos: una persona que se infecta con la enfermedad de una epidemia relativamente pronto podría tener un impacto mucho mayor en su propagación que una persona que se infecta relativamente tarde.
 
-Para analizar nuestra red de talleres de iluminadores, podemos preguntarnos qué talleres pudieron tener un mayor impacto en las modas de producción de manuscritos como consecuencia de su propia colaboración y las colaboraciones entre los iluminadores y los talleres que colaboraron con ellos, etc. Este grupo de todos los talleres e iluminadores que tocaron directa e indirectamente es conocido como el conjunto alcanzable hacia adelante.    
+Para analizar nuestra red de talleres de iluminadores, podemos preguntarnos qué talleres pudieron tener un mayor impacto en las modas de producción de manuscritos como consecuencia de su propia colaboración y las colaboraciones entre los iluminadores y los talleres que colaboraron con ellos, etc. Este grupo de todos los talleres e iluminadores que tocaron directa e indirectamente es conocido como el conjunto alcanzable hacia adelante.
 
 Para calcular el tamaño del conjunto alcanzable hacia adelante de cada nodo, podemos usar la función `tReach()` en nuestra red. Por defecto, esta función calcula el tamaño de un conjunto accesible hacia adelante de un nodo dado, por tanto, para calcular el conjunto hacia atrás simplemente especificamos la dirección con `direction = "bkwd"` (de *backward*).
 ```
@@ -366,7 +366,7 @@ El resultado será algo así:
 
 {% include figure.html filename="tna_with_r_9.png" caption="La ruta de acceso hacia el pasado de Hospitaller Master" %}
 
-Podemos ver que el conjunto accesible hacia atrás de Hospitaller Master era un grupo central en la comunidad de talleres parisinos. Debido a que este taller participó activamente en producciones colaborativas entre alrededor de 1260 y 1290, durante la primera mitad del período que estamos estudiando, puede que no nos sorprenda del todo que su alcance hacia futuro sea mayor que su alcance hacia el pasado. Sin embargo, dada la centralidad de Hospitaller Master, ambos conjuntos pueden parecer más pequeños de lo esperado.   
+Podemos ver que el conjunto accesible hacia atrás de Hospitaller Master era un grupo central en la comunidad de talleres parisinos. Debido a que este taller participó activamente en producciones colaborativas entre alrededor de 1260 y 1290, durante la primera mitad del período que estamos estudiando, puede que no nos sorprenda del todo que su alcance hacia futuro sea mayor que su alcance hacia el pasado. Sin embargo, dada la centralidad de Hospitaller Master, ambos conjuntos pueden parecer más pequeños de lo esperado.
 
 Al igual que las métricas realizadas con anterioridad a las redes temporales, estas rutas hacia adelante y hacia atrás proporcionan un contrapunto a las métricas de red estáticas. En el caso de los iluminadores franceses del medievo, podríamos observar que algunos talleres con una centralidad relativamente alta tienen conjuntos hacia futuro pequeños pero conjuntos del pasado grandes. Estos iluminadores colaboraron activamente con otros talleres durante el último tercio del período en cuestión. Esto puede ayudarnos a contextualizar cualquier conclusión que extraigamos de su centralidad.
 
@@ -388,7 +388,7 @@ Si has hecho este tutorial pero todavía te sientes más cómodo/a usando una in
 * [Convertir una red con fechas en una red dinámica](https://seinecle.github.io/gephi-tutorials/generated-html/converting-a-network-with-dates-into-dynamic.html) (en inglés) de Clément Levallois.
 * Ken Cherven hace un buen recorrido por el Análisis de Redes Dinámico con Gephi en su libro *Mastering Gephi Network Visualization* (2015)
 
-Si tienes más ganas de realizar análisis de redes temporal con R, [este tutorial](http://statnet.csde.washington.edu/workshops/SUNBELT/current/ndtv/ndtv_workshop.html) (en inglés) de Skye Bender-deMoll explica funciones adicionales y propiedades de los paquetes que hemos usado. Me sirvió como guía para aprender sobre el análisis de redes temporal, inspirándome a escribir este tutorial.
+Si tienes más ganas de realizar análisis de redes temporal con R, [este tutorial](https://web.archive.org/web/20180423112846/http://statnet.csde.washington.edu/workshops/SUNBELT/current/ndtv/ndtv_workshop.html) (en inglés) de Skye Bender-deMoll explica funciones adicionales y propiedades de los paquetes que hemos usado. Me sirvió como guía para aprender sobre el análisis de redes temporal, inspirándome a escribir este tutorial.
 
 También puedes adentrarte en la documentación de los paquetes [networkDynamic](https://cran.r-project.org/web/packages/networkDynamic/index.html), [TSNA](https://cran.r-project.org/web/packages/tsna/index.html) y [NDTV](https://cran.r-project.org/web/packages/networkDynamic/index.html).
 
@@ -404,4 +404,4 @@ También puedes adentrarte en la documentación de los paquetes [networkDynamic]
 
 [^5]: Gracias a Rachel Starry por esta referencia, así como a los comentarios a un borrador de este tutorial. Kamada, T., and S. Kawai. 1989. “An Algorithm for Drawing General Undirected Graphs.” Information Processing Letters 31.1: 7-15.
 
-[^6]: Recomiendo el excelente ensayo "How Reliable are Centrality Measures for Data Collected from Fragmentary and Heterogeneous Historical Sources? A Case Study" de Marten Düring (en inglés), pues demuestra claramente que los actores históricos que ocupaban posiciones centrales en las redes sociales tenían el potencial de usar sus conexiones o su control sobre las conexiones de otros de maneras únicas, pero no siempre tenían la motivación para hacerlo. Düring, Marten. “How Reliable Are Centrality Measures for Data Collected from Fragmentary and Heterogeneous Historical Sources? A Case Study.” In The Connected Past. Challenges to Network Studies in Archaeology and History, edited by Tom Brughmans, Anna Collar, and Fiona Coward, 85–102. Oxford: Oxford Publishing, 2016.  
+[^6]: Recomiendo el excelente ensayo "How Reliable are Centrality Measures for Data Collected from Fragmentary and Heterogeneous Historical Sources? A Case Study" de Marten Düring (en inglés), pues demuestra claramente que los actores históricos que ocupaban posiciones centrales en las redes sociales tenían el potencial de usar sus conexiones o su control sobre las conexiones de otros de maneras únicas, pero no siempre tenían la motivación para hacerlo. Düring, Marten. “How Reliable Are Centrality Measures for Data Collected from Fragmentary and Heterogeneous Historical Sources? A Case Study.” In The Connected Past. Challenges to Network Studies in Archaeology and History, edited by Tom Brughmans, Anna Collar, and Fiona Coward, 85–102. Oxford: Oxford Publishing, 2016.
