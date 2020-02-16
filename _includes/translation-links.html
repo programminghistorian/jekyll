@@ -9,10 +9,7 @@ a) Direct translations that have this page listed under their 'original' metadat
 b) Indirect translations that share the same 'original' as this page
 Those 0+ page objects are saved to the variable `translation_candidates` available when rendering the rest of the page.
 
-If this page is a translation because it has the key `original`, then begin a search for the original page
 {% endcomment %}
-
-{% include page-slug.html %}
 
 {% if page.original %}
 
