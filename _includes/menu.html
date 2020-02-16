@@ -100,6 +100,8 @@ match the new entry you made in `_data/snippets.yml`
       the default "home page" link for that language is used instead.
       {% endcomment %}
 
+      {% assign all_translations = translation_candidates | push: translation_source %}
+
       <li class="nav-item">
         <div class="btn-group" role="group" aria-label="Language selector">
           {% for lang in site.data.snippets.language-list %}

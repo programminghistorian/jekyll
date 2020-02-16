@@ -22,22 +22,15 @@ Those 0+ page objects are saved to the variable `translation_candidates` availab
 {% else %}
 
 {% assign target_slug = page.name | remove_first: ".md" %}
-{% assign target_name = page.name %}
 {% assign translation_source = page %}
 
 {% endif %}
 
 {% assign translation_candidates = site.pages | where: "original", target_slug %}
 
-{% assign all_translations = translation_candidates | push: translation_source %}
-
-{% assign n_translations = all_translations | size %}
-{% if n_translations > 3 %}
-<h1>too many translations</h1>
-{% endif %}
-
-<p>Target name: {{ target_name | inspect }}</p>
-<p>Translation sources: {{ translation_sources | map: "name" | inspect }}</p>
-<p>Chosen source: {{ translation_source.name | inspect }}</p>
-<p>Translation candidates: {{ translation_candidates | map: "name" | inspect }}</p>
-<p>All translations: {{ all_translations | map: "name" | inspect }}</p>
+<div style="margin-bottom: 5rem;">
+  <p>Target slug: {{ target_slug | inspect }}</p>
+  <p>Translation sources: {{ translation_sources | map: "name" | inspect }}</p>
+  <p>Chosen source: {{ translation_source.name | inspect }}</p>
+  <p>Translation candidates: {{ translation_candidates | map: "name" | inspect }}</p>
+</div>
