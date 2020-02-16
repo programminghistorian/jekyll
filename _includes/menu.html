@@ -65,7 +65,8 @@ match the new entry you made in `_data/snippets.yml`
             role="menuitem">{{site.data.snippets.menu-contribute-review[page.lang].title}}</a>
           <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-write[page.lang].link}}"
             role="menuitem">{{site.data.snippets.menu-contribute-write[page.lang].title}}</a>
-          <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-translate[page.lang].link}}"
+          <a class="dropdown-item"
+            href="{{site.baseurl}}{{site.data.snippets.menu-contribute-translate[page.lang].link}}"
             role="menuitem">{{site.data.snippets.menu-contribute-translate[page.lang].title}}</a>
           <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-edit[page.lang].link}}"
             role="menuitem">{{site.data.snippets.menu-contribute-edit[page.lang].title}}</a>
@@ -107,11 +108,8 @@ match the new entry you made in `_data/snippets.yml`
           <a class="btn btn-secondary nav-link active disabled" role="button"
             aria-pressed="true">{{ site.data.snippets.menu-lang[lang].title }}</a>
           {% else %}
-          {% if translation_source.lang == lang %}
-          {% assign alternate_target = translation_source %}
-          {% else %}
-          {% assign alternate_target = translation_candidates | where_exp: "item", "item.lang == lang" | first %}
-          {% endif %}
+
+          {% assign alternate_target = all_translations | where: "lang", lang | first %}
 
           {% if alternate_target %}
           <a class="btn btn-secondary nav-link" role="button"
