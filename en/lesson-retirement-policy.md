@@ -26,7 +26,7 @@ Whether or not a new derivative is created, the following steps will be taken wi
 
 1. The lesson will be moved from `https://programminghistorian.org/lesson/LESSON-TITLE` TO `https://programminghistorian.org/lesson/retired/LESSON-TITLE`. A redirect will be established, so any links to the original URL will seamlessly point the user to the new URL.
 
-2. Once retired, the lesson will no longer appear in the directory of lessons, and it will be removed from the Twitter announcement stream.
+2. Once retired, the lesson will no longer appear in the directory of lessons, and it will be removed from the Twitter announcement stream. In order to remove it from the Twitter stream, editors should consult the Programming Historian Wiki.
 
 3. The following announcement will be added to the top of the retired lesson: 
     <div class="alert alert-warning">{{ site.data.snippets.retired-definition[page.lang] | markdownify }}
