@@ -19,11 +19,11 @@ En los casos en que los miembros del equipo editorial, o miembros de la comunida
 
 Con independencia de que se cree o no un nuevo derivado, si el tutorial ya ha sido publicado, llevaremos a cabo los siguientes pasos:
 
-- La lección será trasladada de https://programminghistorian.org/es/lecciones/TITULO-LECCION a https://programminghistorian.org/es/lecciones/retirada/TITULO-LECCION. Se establecerá una redirección, por lo que cualquier enlace a la URL original indicará al usuario la nueva URL.
+1. La lección será trasladada de https://programminghistorian.org/es/lecciones/TITULO-LECCION a https://programminghistorian.org/es/lecciones/retirada/TITULO-LECCION. Se establecerá una redirección, por lo que cualquier enlace a la URL original indicará al usuario la nueva URL.
 
-- Una vez retirada, la lección dejará de aparecer en el directorio de lecciones y se eliminará del flujo de anuncios de Twitter.
+2. Una vez retirada, la lección dejará de aparecer en el directorio de lecciones y se eliminará del flujo de anuncios de Twitter. Los editores deberán consultar las instrucciones para retirar la lección del flujo de Twitter que encuentran en la Wiki de *Programming Historian*. 
 
-- El siguiente anuncio será añadido a la parte superior de la lección retirada:
+3. El siguiente anuncio será añadido a la parte superior de la lección retirada:
 
     <div class="alert alert-warning">{{ site.data.snippets.retired-definition[page.lang] | markdownify }}
 
