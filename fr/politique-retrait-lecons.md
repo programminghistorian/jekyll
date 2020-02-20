@@ -26,7 +26,7 @@ Qu'une leçon dérivée soit créée ou pas, voici les étapes à suivre pour re
 
 1. La leçon sera déplacée de `https://programminghistorian.org/fr/lecon/TITRE-DE-LA-LEÇON` à `https://programminghistorian.org/fr/lecons/retrait/TITRE-DE-LA-LEÇON`. Une redirection sera mise en place pour que des liens pointant à l'URL originelle renvoient l'utilisateur à la nouvelle URL.
 
-2. Une fois la leçon retirée, celle-ci n'apparaît plus dans le répertoire des leçons et elle est aussi enlevée de la liste de publications sur Twitter.
+2. Une fois la leçon retirée, celle-ci n'apparaît plus dans le répertoire des leçons et elle est aussi enlevée de la liste de publications sur Twitter. Les rédacteurs et les rédactrices du Programming Historian peuvent trouver toutes les instructions nécessaires sur le wiki pour enlever une leçon du bot Twitter. 
 
 3. L'avertissement suivant est ajouté en haut de la page de la leçon retirée:
     <div class="alert alert-warning">{{ site.data.snippets.retired-definition[page.lang] | markdownify }}
