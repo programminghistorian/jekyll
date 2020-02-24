@@ -43,7 +43,7 @@ _____
 
 ## Software and setup
 
-Windows users will need to install Git Bash. This can be installed by downloading the most recent installer at the [git for windows webpage](http://msysgit.github.io/). Instructions for installation are available at [Open Hatch](https://openhatch.org/missions/windows-setup/install-git-bash).
+Windows users will need to install Git Bash. This can be installed by downloading the most recent installer at the [git for windows webpage](http://msysgit.github.io/). Instructions for installation are available at [Open Hatch](https://web.archive.org/web/20190318191709/https://openhatch.org/missions/windows-setup/install-git-bash).
 
 OS X and Linux users will need to use their terminal shells to follow this lesson, as discussed in "[Introduction to the Bash Command Line](../lessons/intro-to-bash)."
 
