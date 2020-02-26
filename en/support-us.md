@@ -25,6 +25,8 @@ The project is grateful for the following support:
 - Funding for a writing workshop in Bogota, Colombia, supported by the [British Academy](https://www.britac.ac.uk/) [2018].
 - Seed funding and project management support from the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) [2011-2013].
 - Our founding [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers Rachel Murphy ('Subscriber' tier), Miriam Posner ('Sponsor' tier), and Tim Hitchcock ('Patron' tier). We would particularly like to thank the following 'Patron' tier [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers: Tim Hitchcock, Shawn Graham, Jeff Blackadar.
+- Our [Institutional Partner Programme](en/support-us#institutional-partner-programme) members:
+  - [KU Leuven Libraries](https://bib.kuleuven.be/) (2020-)
 
 ## Donate to Us
 
@@ -66,7 +68,7 @@ Note that upon email with the subject line "Institutional Partners Programme" yo
 
 If you represent an organisation or group who are interested in sponsoring The Programming Historian, please contact [James Baker](https://github.com/drjwbaker) to discuss. Sponsorship can be financial, in-kind, or a combination of both. Sponsorship length and value are negotiable.
 
-All sponsorship is subject to [agreement](https://github.com/programminghistorian/jekyll/wiki/Programming-Historian-Governance) by the [Editorial Board](https://programminghis) of The Programming Historian. In order to avoid perceived conflicts of interest, safeguard our peer review process, and ensure our academic integrity, the Editorial Board have agreed **not to accept** the following forms of sponsorship
+All sponsorship is subject to [agreement](https://github.com/programminghistorian/jekyll/wiki/Programming-Historian-Governance) by the Editorial Board of The Programming Historian. In order to avoid perceived conflicts of interest, safeguard our peer review process, and ensure our academic integrity, the Editorial Board have agreed **not to accept** the following forms of sponsorship
 
 - Headline Sponsorship. For example, 'The Programming Historian in association with..' or 'The Programming Historian powered by..'.
 - Individual or Selective Lesson Sponsorship. For example, your logo on a single lesson page or lessons pages about a single tool or set of approaches.
