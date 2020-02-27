@@ -1,7 +1,8 @@
 ---
 title: "À nos amis!"
 authors:
-- Sofia Papastamkou, Marie-Christine Boucher
+- Sofia Papastamkou
+- Marie-Christine Boucher
 layout: post
 categories: posts
 ---
