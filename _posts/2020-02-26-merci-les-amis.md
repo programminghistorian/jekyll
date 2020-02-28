@@ -7,7 +7,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/rose-bnf-2.jpg" alt="Rose. Concours de roses nouvelles de Bagatelle, Paris, 1920."/>
+<img src="/images/blog/rose-bnf-2.jpg" alt="Rose. Concours de roses nouvelles de Bagatelle, Paris, 1920." class="center"/>
 
 Cela fait un peu moins qu'un an que le Programming Historian en français est en ligne. À cette occasion, nous souhaitons faire un petit bilan de notre jeune parcours, surtout pour remercier, comme il se doit, toutes les personnes qui ont prêté leur concours à notre équipe. 
 
