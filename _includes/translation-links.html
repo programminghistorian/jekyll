@@ -26,9 +26,3 @@ Those 0+ page objects are saved to the variable `translation_candidates` availab
 {% endif %}
 
 {% assign translation_candidates = site.pages | where: "original", target_slug %}
-
-<div style="margin-bottom: 5rem;">
-  <p>Target slug: {{ target_slug | inspect }}</p>
-  <p>Translation source: {{ translation_source.name | inspect }}</p>
-  <p>Translation candidates: {{ translation_candidates | map: "name" | inspect }}</p>
-</div>
