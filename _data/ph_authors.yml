@@ -411,9 +411,6 @@
         Jeri Wieringa is a doctoral candidate in history at George Mason University.
     es: |
         Jeri Wieringa es doctoranda en Historia en George Mason University.
-  team_roles:
-   - editorial
-   - board
 
 - name: Jon Crump
   team: false
@@ -572,9 +569,6 @@
 
 - name: Amanda Visconti
   github: amandavisconti
-  email: amandavisconti@gmail.com
-  twitter: literature_geek
-  url: "http://www.amandavisconti.com"
   team: true
   team_start: 2016
   institution: University of Virginia
@@ -780,9 +774,6 @@
 
 - name: Anandi Silva Knuppel
   github: alsalin
-  email: anandi.silva.knuppel@gmail.com
-  twitter: anandilila
-  url: "http://anandileela.com"
   team: false
   team_start: 2017
   team_end: 2019
@@ -1073,10 +1064,8 @@
             Sofia Papastamkou es historiadora e investigadora en Humanidades Digitales en el Centre national de la recherche scientifique (CNRS). Actualmente, su labor está asociada con el Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille).
         fr: |
             Sofia Papastamkou est docteure en histoire et ingénieure d'études en humanités numériques au CNRS. Elle est affectée à l'Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
+
 - name: Marie Puren
-  email: marie.puren1406@gmail.com
-  twitter: MariePuren
-  github: mpuren
   team: false
   team_start: 2018
   team_end: 2019
