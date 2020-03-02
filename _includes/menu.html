@@ -65,9 +65,17 @@ match the new entry you made in `_data/snippets.yml`
             role="menuitem">{{site.data.snippets.menu-contribute-review[page.lang].title}}</a>
           <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-write[page.lang].link}}"
             role="menuitem">{{site.data.snippets.menu-contribute-write[page.lang].title}}</a>
+          {% if site.data.snippets.menu-contribute-translate[page.lang].link %}
+          {% comment %}
+          https://github.com/programminghistorian/jekyll/pull/1673
+
+          The es team created a combined authors & translators page, rather than separate pages as in the en and fr
+          teams. If this is ever resolved, this if-logic can be removed.
+          {% endcomment %}
           <a class="dropdown-item"
             href="{{site.baseurl}}{{site.data.snippets.menu-contribute-translate[page.lang].link}}"
             role="menuitem">{{site.data.snippets.menu-contribute-translate[page.lang].title}}</a>
+          {% endif %}
           <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-contribute-edit[page.lang].link}}"
             role="menuitem">{{site.data.snippets.menu-contribute-edit[page.lang].title}}</a>
           <a class="dropdown-item" href="{{site.baseurl}}{{site.data.snippets.menu-lesson-requests[page.lang].link}}"
