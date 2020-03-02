@@ -3,7 +3,7 @@ title: |
     Análisis de corpus con Voyant Tools
 collection: lessons
 authors:
-    - Silvia Gutiérrez
+    - Silvia Gutiérrez De la Torre
 date: 2019-04-20
 reviewers:
     - Daniela Ávido
@@ -16,7 +16,7 @@ layout: lesson
 slug: analisis-voyant-tools
 activity: analyzing
 topics: [distant-reading]
-abstract: "En este tutorial se aprenderá cómo organizar y analizar un conjunto de textos con Voyant-Tools." 
+abstract: "En este tutorial se aprenderá cómo organizar y analizar un conjunto de textos con Voyant-Tools."
 avatar_alt: Grafas con diferentes graduaciones de oftanmología
 ---
 
@@ -292,7 +292,7 @@ Para obtener esta medida en Voyant, tenemos que repetir los pasos que hicimos pa
 
 #### Palabras diferenciadas
 
-Como tal vez ya sospechas, la información más interesante generalmente no se encuentra dentro de las palabras más frecuentes, pues éstas tienden a ser también las más evidentes. En el campo de la recuperación de la información se han inventado otras medidas que permiten ubicar los términos que hacen que un documento se distinga de otro. Una de las medidas más usadas se llama tf-idf (del inglés *term frequency – inverse document frequency*). Esta medida busca expresar numéricamente qué tan relevante es un documento en una colección determinada; es decir, en una colección de textos sobre "manzanas" la palabra manzana puede ocurrir muchas veces, pero no nos dicen nada nuevo sobre la colección, por lo que no queremos saber la frecuencia bruta de las palabras (*term frequency*, frecuencia de término) pero sopesarla en qué tan única o común es en la colección dada (*inverse document frequency*, frecuencia inversa de documento). 
+Como tal vez ya sospechas, la información más interesante generalmente no se encuentra dentro de las palabras más frecuentes, pues éstas tienden a ser también las más evidentes. En el campo de la recuperación de la información se han inventado otras medidas que permiten ubicar los términos que hacen que un documento se distinga de otro. Una de las medidas más usadas se llama tf-idf (del inglés *term frequency – inverse document frequency*). Esta medida busca expresar numéricamente qué tan relevante es un documento en una colección determinada; es decir, en una colección de textos sobre "manzanas" la palabra manzana puede ocurrir muchas veces, pero no nos dicen nada nuevo sobre la colección, por lo que no queremos saber la frecuencia bruta de las palabras (*term frequency*, frecuencia de término) pero sopesarla en qué tan única o común es en la colección dada (*inverse document frequency*, frecuencia inversa de documento).
 
 En Voyant el tf-idf se calcula [de la siguiente manera](https://twitter.com/VoyantTools/status/1025458748574326784):
 
@@ -410,7 +410,7 @@ Sinclair, Stéfan and Geoffrey Rockwell, 2016.  _Voyant Tools_. Web. [http://voy
 Terras, Melissa, 2013. "For Ada Lovelace Day – Father Busa’s Female Punch Card Operatives". _Melissa Terras' Blog_. Web. [http://melissaterras.blogspot.com/2013/10/for-ada-lovelace-day-father-busas.html](http://melissaterras.blogspot.com/2013/10/for-ada-lovelace-day-father-busas.html).
 
 <div class="alert alert-warning">
-Este tutorial fue escrito gracias al apoyo de la Academia Británica y preparado durante el Taller de escritura de The Programming Historian en la Universidad de los Andes en Bogotá, Colombia, el del 31 de julio al 3 de agosto de 2018. 
+Este tutorial fue escrito gracias al apoyo de la Academia Británica y preparado durante el Taller de escritura de The Programming Historian en la Universidad de los Andes en Bogotá, Colombia, el del 31 de julio al 3 de agosto de 2018.
 </div>
 
 ## Notas al pie

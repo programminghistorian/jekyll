@@ -27,7 +27,7 @@ En *The Programming Historian en español* estamos comprometidos con ofrecer un 
 
 En esta sección encontrarás una declaración de los principios que deben regir *The Programming Historian en español*; también ofrece una pauta sobre el tono y el estilo que debiera predominar en todos los intercambios que tienen lugar en nuestros foros entre traductores, autores, revisores y editores.
 
-El objetivo de *The Programming Historian en español* es ofrecer un entorno abierto en el que la comunidad de participantes sea libre para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros *ombudsperson* [Maria José Afanador-Llach](/es/equipo-de-proyecto).
+El objetivo de *The Programming Historian en español* es ofrecer un entorno abierto en el que la comunidad de participantes sea libre para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros *ombudsperson* [Silvia Gutiérrez De la Torre](/es/equipo-de-proyecto).
 
 ### Seguimiento de lecciones
 
@@ -45,7 +45,7 @@ A continuación, el editor creará un *issue* en el [repositorio de GitHub](http
 
 	Si la lección no es entregada en la [fecha acordada], el editor intentará contactar con el autor o autores de la lección. Si no recibe noticias, el ticket se cerrará. Éste podrá abrirse en el futuro a petición del autor o autores.
 
-	El principal contacto para esta lección es [nombre del editor]. Si se produce algún problema, el autor puede contactar con nuestros ’ombudsperson' (Maria José Afanador-Llach - http://programminghistorian.org/es/equipo-de-proyecto).
+	El principal contacto para esta lección es [nombre del editor]. Si se produce algún problema, el autor puede contactar con nuestros ’ombudsperson' (Silvia Gutiérrez De la Torre - http://programminghistorian.org/es/equipo-de-proyecto).
 
 Este texto, sin embargo, puede editarse y adaptarse a las necesidades para reflejar más objetivos o lo que se ha negociado entre el editor y el autor.
 
@@ -87,7 +87,7 @@ Asimismo, me comprometo a mantener la conversación abierta a todo el mundo en G
 Política contra el acoso
 _
 
-El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudsperson' (Maria José Afanador-Llach - http://programminghistorian.org/es/equipo-de-proyecto).
+El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudsperson' (Silvia Gutiérrez De la Torre - http://programminghistorian.org/es/equipo-de-proyecto).
 
 ```
 Para las lecciones nuevas, utiliza la siguiente [plantilla](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/es/PLANTILLA-LECCION.md):
@@ -109,7 +109,7 @@ Asimismo, me comprometo a mantener la conversación abierta a todo el mundo en G
 Política contra el acoso
 _
 
-El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudsperson' (Maria José Afanador-Llach - http://programminghistorian.org/es/equipo-de-proyecto).
+El objetivo de 'The Programming Historian en español' es ofrecer un entorno abierto en el que la comunidad de participantes sean libres para analizar ideas, realizar preguntas, sugerir cambios, y pedir aclaraciones; también queremos que sea un espacio libre de acoso y hostigamento para todo el mundo con independencia de su género, identidad, orientación sexual, minusvalía, apariencia física, tamaño corporal, raza, edad, religión o conocimientos informáticos. No se tolerará ningún tipo de acoso o ataque *ad hominem*. Los participantes que violen esta regla podrán ser expulsados del proceso editorial a discreción del equipo editorial. Si presencias o sientes que has sido víctima de algún tipo de acoso, por favor, contacta con nuestros 'ombudsperson' (Silvia Gutiérrez De la Torre - http://programminghistorian.org/es/equipo-de-proyecto).
 
 ```
 
@@ -200,7 +200,7 @@ Al igual que las imágenes, todos los datos deben almacenarse en nuestro sitio; 
 
 A veces, puede que los archivos utilizados como parte de una lección sean demasiado grandes para nuestro repositorio de GitHub. Si este es el caso, recomendamos que los autores suban sus archivos a [Zenodo](https://zenodo.org/) y luego compartan el DOI generado por Zenodo a su editor/a para enlazarlo en la lección. Aunque los datasets ya estén disponibles en un repositorio institucional, recomendamos subir a Zenodo una versión del dataset utilizado en la lección en *The Programming Historian* para mantener la consistencia en el proyecto. El/La editor/a debe asegurarse de que el/la autor/a de la lección puede navegar la interfaz de Zenodo, únicamente disponible en inglés, y ofrecerle ayuda en caso de no saber el idioma.
 
-Cuando el peso de todos los archivos de la lección es superior a 25MB, estos deben comprimirse en un mismo *zip* para cargarlos en Zenodo, incluso si es solo un archivo. El *zip* debe tener el mismo *slug* que el utilizado para el archivo de la lección. 
+Cuando el peso de todos los archivos de la lección es superior a 25MB, estos deben comprimirse en un mismo *zip* para cargarlos en Zenodo, incluso si es solo un archivo. El *zip* debe tener el mismo *slug* que el utilizado para el archivo de la lección.
 
 ### F) Comprobar vídeos y *Gifs*
 
