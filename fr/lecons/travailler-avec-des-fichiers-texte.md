@@ -23,7 +23,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/232
 activity: transforming
 topics: [python]
 abstract: "Cette leçon vous explique comment manipuler des fichiers texte en Python."
-python_warning: true
+python_warning: false
 original: working-with-text-files
 avatar_alt: Homme à lunettes lisant un livre d'alphabet
 ---
@@ -121,7 +121,7 @@ nom `file-output.py`.
 
 ``` python
 # file-output.py
-f = open('helloworld.txt','w')
+f = open('helloworld.txt','wb')
 f.write('hello world')
 f.close()
 ```
@@ -170,7 +170,7 @@ toto, Toto et TOTO seront trois variables différentes.
 
 Lorsque vous lancez le programme ci-dessus, la méthode `open` indique
 à votre ordinateur de créer un nouveau fichier `helloworld.txt` dans le
-répertoire où se trouve `file-output.py`. Le _paramètre **'**w**'**_ spécifie que le
+répertoire où se trouve `file-output.py`. Le _paramètre **'**wb**'**_ spécifie que le
 fichier ouvert est destiné à l'écriture (***w***rite) de contenus par Python.
 
 On notera que le nom de fichier et le paramètre sont entourés de guillemets,
