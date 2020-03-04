@@ -46,7 +46,7 @@
    - team-development-manager
    - global
    - board
-   - volunteer
+  status: volunteer
 
 - name: Caleb McDaniel
   team: false
@@ -146,7 +146,7 @@
   team_roles:
    - spanish
    - board
-   - volunteer
+  status: volunteer
 
 - name: Antonio Rojas Castro
   url: "http://antoniorojascastro.com"
@@ -175,7 +175,7 @@
   team_roles:
    - spanish
    - board
-   - volunteer
+  status: volunteer
 
 - name: Stephen Margheim
   bio:
@@ -283,7 +283,7 @@
    - finance-manager
    - archive
    - board
-   - institutionally-supported
+  status: institutionally-supported
 
 
 - name: Amanda Morton
@@ -527,7 +527,7 @@
    - proghist
    - technical-lead
    - board
-   - institutionally-supported
+  status: institutionally-supported
 
 
 - name: Sarah Melton
@@ -557,7 +557,7 @@
    - managing
    - editorial
    - board
-   - volunteer
+  status: volunteer
 
 - name: Sarah Simpkin
   team: false
@@ -628,7 +628,7 @@
    - editorial
    - board
    - technical
-   - instutitionally-supported
+  status: institutionally-supported
 
 
 - name: Ted Dawson
@@ -714,7 +714,7 @@
    - proghist
    - global-lead
    - board
-   - volunteer
+  status: volunteer
 
 - name: Taylor Arnold
   team: false
@@ -824,7 +824,7 @@
    - ed-manager
    - technical
    - board
-   - volunteer
+  status: volunteer
 
 - name: Evan Peter Williamson
   team: false
@@ -920,7 +920,7 @@
   team_roles:
    - spanish
    - board
-   - volunteer
+  status: volunteer
 
 - name: Jennifer Isasi
   url: "https://jenniferisasi.github.io/"
@@ -951,7 +951,7 @@
     - communication-manager
     - technical
     - board
-    - institutionally-supported
+  status: institutionally-supported
 
 - name: Jon MacKay
   team: false
@@ -986,7 +986,7 @@
     - french
     - board
     - ombuds-fr
-    - institutionally-supported
+  status: institutionally-supported
   bio:
       en: |
           François Dominic Laramée is a postdoctoral fellow in digital history of medicine at the University of Ottawa, in Canada.
@@ -1055,7 +1055,7 @@
     - board
     - technical
     - global
-    - volunteer
+  status: volunteer
   bio:
         en: |
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
@@ -1092,7 +1092,7 @@
   team_roles:
     - board
     - french
-    - volunteer
+  status: volunteer
   bio:
         en: |
             Marie-Christine Boucher is a doctoral student in German literature at Justus Liebig University Giessen (Germany).
@@ -1190,7 +1190,7 @@
     - proghist
     - board
     - global
-    - volunteer
+  status: volunteer
 
 
 - name: Joshua G. Ortiz Baco
@@ -1218,7 +1218,7 @@
   team_roles:
     - spanish
     - board
-    - volunteer
+  status: volunteer
 
 - name: Armando Luza
   team: false
