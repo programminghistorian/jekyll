@@ -26,8 +26,8 @@ List subteams within the larger editorial team
 {% endcomment %}
 <p>
 {% for status in member.status %}
-{% assign status = (site.data.status | where: "type", status) | first %}
-<span class="badge badge-success" data-toggle="tooltip" data-placement="bottom" title = "{{ role_definition[page.lang] }}">{{ status.label[page.lang] }}</span>
+{% assign status_label = (site.data.teamroles | where: "type", status) | first %}
+<span class="badge badge-success" data-toggle="tooltip" data-placement="bottom" title = "{{ status_label.definition[page.lang] }}">{{ status_label.label[page.lang] }}</span>
 {% endfor %}
 
 {% for role in member.team_roles %}
