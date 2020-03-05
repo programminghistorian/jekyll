@@ -434,7 +434,7 @@ Maybe you made it through this tutorial but you are still more comfortable with 
 
 - Ken Cherven has a good overview of Dynamic Network Analysis with Gephi in his book _Mastering Gephi Network Visualization_ (2015)
 
-If you are hungry for more temporal network analysis with R, [this tutorial](http://statnet.csde.washington.edu/workshops/SUNBELT/current/ndtv/ndtv_workshop.html) by Skye Bender-deMoll explains additional functions and features of the packages used here. It served as my own guide to learning about temporal network analysis and formed the inspiration for the tutorial above.
+If you are hungry for more temporal network analysis with R, [this tutorial](https://web.archive.org/web/20180423112846/http://statnet.csde.washington.edu/workshops/SUNBELT/current/ndtv/ndtv_workshop.html) by Skye Bender-deMoll explains additional functions and features of the packages used here. It served as my own guide to learning about temporal network analysis and formed the inspiration for the tutorial above.
 
 You can also dive deeper into the documentation to learn more about the [networkDynamic package](https://cran.r-project.org/web/packages/networkDynamic/index.html), the [TSNA package](https://cran.r-project.org/web/packages/tsna/index.html), and the [NDTV package](https://cran.r-project.org/web/packages/networkDynamic/index.html).
 

@@ -44,7 +44,7 @@ This lesson uses a **[Unix shell](http://en.wikipedia.org/wiki/Unix_shell)**, wh
 
 ## Windows Only: Installing Git Bash
 
-For those on OS X, and most Linux installations, you're in luck — you already have a bash shell installed. For those of you on Windows, you'll need to take one extra step and install Git Bash. This can be installed by downloading the most recent 'Full installer' at [this page](https://git-for-windows.github.io/). Instructions for installation are available at [Open Hatch](https://openhatch.org/missions/windows-setup/install-git-bash).
+For those on OS X, and most Linux installations, you're in luck — you already have a bash shell installed. For those of you on Windows, you'll need to take one extra step and install Git Bash. This can be installed by downloading the most recent 'Full installer' at [this page](https://git-for-windows.github.io/). Instructions for installation are available at [Open Hatch](https://web.archive.org/web/20190114082523/https://openhatch.org/missions/windows-setup/install-git-bash).
 
 ## Opening Your Shell
 

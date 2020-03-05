@@ -12,6 +12,7 @@ series, retired lessons, etc).
 All lesson metadata and alerts should follow the convention of pulling appropriate text from the snippets.yml file.
 {% endcomment %}
 
+{% include page-slug.html %}
 {% include translation-links.html %}
 
 <header>
@@ -182,23 +183,24 @@ All lesson metadata and alerts should follow the convention of pulling appropria
   {% include support-alert.html %}
   {% endif %}
 
+  {% unless page == translation_source %}
+  <!-- If this lesson is translated, banner pointing to the original language source of this lesson -->
+  <div class="alert alert-warning">
+    {{ site.data.snippets.translation-source[page.lang] }} {{ site.data.snippets.language-name.en[page.lang]}}: <a
+      href="{{ translation_source.url }}">{{ translation_source.title }}</a>
+  </div>
+  {% endunless %}
+
   {% for candidate in translation_candidates %}
+  {% unless page.lang == candidate.lang %}
   <!-- Banner pointing to translations of this lesson when they exist -->
   <div class="alert alert-warning">
     {{ site.data.snippets.translation-target[page.lang]}}
     {{ site.data.snippets.language-name[candidate.lang][page.lang]}}: <a
       href="{{ candidate.url }}">{{ candidate.title }}</a>
   </div>
+  {% endunless %}
   {% endfor %}
-
-  {% assign selected_translation_source = translation_source %}
-  {% if selected_translation_source %}
-  <!-- If this lesson is translated, banner pointing to the original language source of this lesson -->
-  <div class="alert alert-warning">
-    {{ site.data.snippets.translation-source[page.lang] }} {{ site.data.snippets.language-name.en[page.lang]}}: <a
-      href="{{ selected_translation_source.url }}">{{ selected_translation_source.title }}</a>
-  </div>
-  {% endif %}
 
   {% if page.retired %}
   <div class="alert alert-warning">
