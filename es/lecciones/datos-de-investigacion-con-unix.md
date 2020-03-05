@@ -26,7 +26,7 @@ topics: [data-manipulation]
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/138
 abstract: "En esta lección aprenderás cómo los datos de tu investigación pueden ser contados y extraídos mediante el shell Unix, cuando están organizados de manera clara y predecible."
 previous: introduccion-a-bash
-avatar_alt: Grabado en blanco y negro de un minero trabajando sobre una plataforma adentro de una mina. 
+avatar_alt: Grabado en blanco y negro de un minero trabajando sobre una plataforma adentro de una mina.
 ---
 
 {% include toc.html %}
@@ -48,7 +48,7 @@ _____
 
 ## *Software* y configuración
 
-Los usuarios de Windows deben instalar Git Bash. Lo pueden hacer descargando el más reciente instalador de la [página web de Git para Windos](http://msysgit.github.io/). Las instrucciones para su instalación están disponibles en [Open Hatch](https://openhatch.org/missions/windows-setup/install-git-bash) (en inglés).
+Los usuarios de Windows deben instalar Git Bash. Lo pueden hacer descargando el más reciente instalador de la [página web de Git para Windos](http://msysgit.github.io/). Las instrucciones para su instalación están disponibles en [Open Hatch](https://web.archive.org/web/20190114082523/https://openhatch.org/missions/windows-setup/install-git-bash) (en inglés).
 
 Los usuarios de OS X y Linux necesitarán utilizar la Terminal, o intérprete de línea de comandos, como se explica en la "[Introducción a la línea de comandos de Bash](/es/lecciones/introduccion-a-bash)."
 
