@@ -481,7 +481,7 @@
   bio:
     en: |
         Doug Knox is the Assistant Director of the Humanities Digital Workshop at Washington University in St. Louis.
-    fr: |   
+    fr: |
         Doug Knox est Directeur adjoint au Humanities Digital Workshop de l'Université Washington à Saint-Louis.
 
 - name: Heather Froehlich
@@ -1227,11 +1227,33 @@
     es: |
         Armando Luza es Maestro en Traducción por El Colegio de México. Actualmente se desempeña en investigación, traducción y corrección de estilo.
 
-- name: Silvia Gutiérrez
-  team: false
-  bio:
+- name: Silvia Gutiérrez De la Torre
+  github: silviaegt
+  twitter: espejolento
+  email: silviaegt@gmail.com
+  url: "https://sgutierrez.seewes.de/"
+  orcid: 0000-0001-8717-2291
+  team: true
+  team_start: 2020
+  institution: El Colegio de México
+  sortname: Gutiérrez
+  affiliation:
+    en: |
+        El Colegio de México, Mexico.
     es: |
-        Silvia Gutiérrez es bibliotecaria de investigación digital en la biblioteca Daniel Cosío Villegas en El Colegio de México.
+        El Colegio de México, México.
+    fr: |
+        El Colegio de México, Mexique.
+  bio:
+    en: |
+        Silvia Gutiérrez De la Torre is El Colegio de México's Digital Humanities Librarian and RLadiesCDMX co-founder (Mexico).
+    es: |
+        Silvia Gutiérrez De la Torre es la Bibliotecaria de Humanidades Digitales de El Colegio de México y co-fundadora de RLadiesCDMX (México).
+    fr: |
+        Silvia Gutiérrez De la Torre est la bibliothécaire des Humanités numériques du El Colegio de México et co-fondatrice de RLadiesCDMX (Mexique).
+  team_roles:
+   - spanish
+   - ombuds
 
 - name: Matthew J. Lavin
   team: false
@@ -1263,14 +1285,14 @@
   bio:
       en: |
            Courtney Allen is a second year MS-HCI student at Georgia Tech, in the School of Interactive Computing (College of Computing). She is a User Experience Reseacher, supporting design with data-driven choices and elements, and is a Graduate Teaching Assistant for Human-Computer Interaction MS Research Methods.
-           
+
 - name: Quinn Dombrowski
   team: false
   orcid: 0000-0001-5802-6623
   bio:
       en: |
           Quinn Dombrowski is the Academic Technology Specialist for the Division of Literatures, Cultures, and Languages at Stanford University, and works on non-English digital humanities.
-          
+
 - name: Tassie Gniady
   team: false
   orcid: 0000-0001-8693-3677
