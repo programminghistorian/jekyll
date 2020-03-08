@@ -5,7 +5,7 @@ title: Translation Concordance
 
 An automatically-generated list of lessons translation relationships across our publications.
 
-{% assign original_pages = site.pages | where: "layout", "lesson" | where_exp: "item", "item.retired != 'true'" where_exp: "retired" %}
+{% assign original_pages = site.pages | where: "layout", "lesson" | where_exp: "item", "item.retired != 'true'" %}
 
 <table>
   <tr>{% for l in site.data.snippets.language-list %}
