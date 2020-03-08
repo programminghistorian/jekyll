@@ -13,7 +13,7 @@ An automatically-generated list of lessons translation relationships across our 
   </tr>
   {% for p in original_pages %}
   {% assign reverse_p = p.name | split: "." | first %}
-  {% assign translated_pages = site.pages | where: "original", "lesson" reverse_p %}
+  {% assign translated_pages = site.pages | where: "original", "lesson", reverse_p %}
   {% assign page_versions =  p | concat: translated_pages %}
   <tr>
     {% for l in site.data.snippets.language-list %}
