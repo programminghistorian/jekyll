@@ -3,7 +3,7 @@ layout: blank
 title: Translation Concordance
 ---
 
-An automatically-generated list of page translation relationships across this site.
+An automatically-generated list of lessons translation relationships across our publications.
 
 {% assign original_pages = site.pages | where_exp: "item", "item.name != 'redirect.html'" | where_exp: "item", "item.name != 'redirects.json'" | where_exp: "item", "item.name != 'index.md'" | where_exp: "item", "item.original == nil" %}
 
@@ -13,7 +13,7 @@ An automatically-generated list of page translation relationships across this si
   </tr>
   {% for p in original_pages %}
   {% assign reverse_p = p.name | split: "." | first %}
-  {% assign translated_pages = site.pages | where: "original", reverse_p %}
+  {% assign translated_pages = site.pages | where: "original", "lesson" reverse_p %}
   {% assign page_versions =  p | concat: translated_pages %}
   <tr>
     {% for l in site.data.snippets.language-list %}
