@@ -15,7 +15,7 @@ skip_validation: true
 <h2 class="noclear">Step 3: <a href="#step-3-submitting-a-new-lesson">Submitting a New Lesson</a></h2>  
 
 
-These guidelines have been developed to help you understand the process of creating a tutorial for the English *Programming Historian*. They include practical and philosophical details of the tutorial writing process, as well as an indication of the workflow and the peer review process. If at any time you are unclear, please email the managing editor, {% include managing-editor.html lang=page.lang %}.
+These guidelines have been developed to help you understand the process of creating a tutorial for the English version of *Programming Historian*. They include practical and philosophical details of the tutorial writing process, as well as an indication of the workflow and the peer review process. If at any time you are unclear, please email the managing editor, {% include managing-editor.html lang=page.lang %}.
 
 ## Step 1: Proposing a New Lesson
 
