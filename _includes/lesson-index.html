@@ -64,20 +64,16 @@ Yes, this is confusing. But using two differnt classes allows us to separate fun
     wireButtons();
   });
   // Transform lessons for search index
-  var lessons = [
-  {% for lesson in alllessons %}
-    {
+  var lessons = [{% for lesson in alllessons %}{
     "title": {{ lesson.title | jsonify }},
     "content": {{ lesson.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '<p>', ' ' | strip_html | strip_newlines | replace: ' ', ' ' | replace: '"', ' ' | jsonify }},
-    "authors": '{{ lesson.authors | array_to_sentence_string }}',
-    },
-  {% endfor %}
-  ];
-  console.log(lessons);
+    "authors": "{{ lesson.authors | array_to_sentence_string }}",},{% endfor %}];
   lessons.map((lesson) => {
     lesson['content'] = lesson['content'].replace(/[^{}]*(?=\})/g, '').replace(/{/g, '').replace(/}/g, '');
   });
-  console.log(lessons);
+  // console.log(lessons);
+
+  window.lessons = lessons;
   // Create lunr index
   var idx = lunr(function () {
       this.ref('id');
