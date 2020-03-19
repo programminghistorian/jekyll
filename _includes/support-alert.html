@@ -1,0 +1,5 @@
+{% comment %}
+These call-to-action alert boxes will be displayed on lessons. To toggle the display, edit the lesson_donation_alerts
+value in the _config.yml file
+{% endcomment %}
+<div class="alert alert-success hide-screen">{{ site.data.snippets.donation-alert[page.lang] | markdownify }}</div>

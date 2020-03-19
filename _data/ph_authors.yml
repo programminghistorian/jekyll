@@ -25,27 +25,28 @@
   url: "http://adamcrymble.org"
   team: true
   team_start: 2011
-  institution: University of Hertfordshire
+  institution: ProgHist Ltd
   sortname: Crymble
   affiliation:
     en: |
-        University of Hertfordshire, UK.
+        ProgHist Ltd.
     es: |
-        Universidad de Hertfordshire, Reino Unido.
+        ProgHist Ltd.
     fr: |
-        Université du Hertfordshire, Royaume-Uni.
+        ProgHist Ltd.
   bio:
     en: |
-        Adam Crymble is a senior lecturer of digital history at the University of
-        Hertfordshire.
+        Adam Crymble is a senior lecturer of digital history.
     es: |
-        Adam Crymble es profesor de historia digital en la Universidad de Hertfordshire.
+        Adam Crymble es profesor de historia digital.
     fr: |
-        Adam Crymble est maître de conférences en histoire numérique à l'Université du Hertfordshire.
+        Adam Crymble est maître de conférences en histoire numérique.
   team_roles:
-   - board
+   - proghist
    - team-development-manager
    - global
+   - board
+  status: volunteer
 
 - name: Caleb McDaniel
   team: false
@@ -115,7 +116,9 @@
         Maria José Afanador-Llach est maître de conférences en Humanités numériques et histoire à l'Université de los Andes, (Bogota, Colombie).
   team_roles:
    - spanish
+   - project-manager-at-large
    - board
+  status: volunteer
 
 - name: Víctor Gayol
   url: "https://victorgayol.net"
@@ -144,6 +147,7 @@
   team_roles:
    - spanish
    - board
+  status: volunteer
 
 - name: Antonio Rojas Castro
   url: "http://antoniorojascastro.com"
@@ -172,6 +176,7 @@
   team_roles:
    - spanish
    - board
+  status: volunteer
 
 - name: Stephen Margheim
   bio:
@@ -275,10 +280,12 @@
     fr: |
         James Baker est maître de conférences en histoire numérique et en archivistique à l'Université du Sussex; il est spécialiste en histoire des interactions entre personnes et objets.
   team_roles:
-   - board
-   - archive
-   - sponsorship
+   - proghist
    - finance-manager
+   - archive
+   - board
+  status: institutionally-supported
+
 
 - name: Amanda Morton
   team: false
@@ -405,9 +412,6 @@
         Jeri Wieringa is a doctoral candidate in history at George Mason University.
     es: |
         Jeri Wieringa es doctoranda en Historia en George Mason University.
-  team_roles:
-   - editorial
-   - board
 
 - name: Jon Crump
   team: false
@@ -477,6 +481,8 @@
   bio:
     en: |
         Doug Knox is the Assistant Director of the Humanities Digital Workshop at Washington University in St. Louis.
+    fr: |
+        Doug Knox est Directeur adjoint au Humanities Digital Workshop de l'Université Washington à Saint-Louis.
 
 - name: Heather Froehlich
   team: false
@@ -495,7 +501,7 @@
         Laura Turner O'Hara works in the Office of the Historian at the U.S. House of Representatives.
 
 - name: Matthew Lincoln
-  url: "http://matthewlincoln.net"
+  url: "https://matthewlincoln.net"
   twitter: matthewdlincoln
   email: mlincoln@andrew.cmu.edu
   github: mdlincoln
@@ -519,8 +525,11 @@
     fr: |
         Matthew Lincoln est développeur en humanités numériques à l'Université Carnegie Mellon et historien de l'art européen moderne.
   team_roles:
+   - proghist
    - technical-lead
    - board
+  status: institutionally-supported
+
 
 - name: Sarah Melton
   github: svmelton
@@ -546,9 +555,10 @@
     fr: |
         Sarah Melton est responsable des études numériques au Boston College.
   team_roles:
+   - managing
    - editorial
-   - managing-en
    - board
+  status: volunteer
 
 - name: Sarah Simpkin
   team: false
@@ -560,9 +570,6 @@
 
 - name: Amanda Visconti
   github: amandavisconti
-  email: amandavisconti@gmail.com
-  twitter: literature_geek
-  url: "http://www.amandavisconti.com"
   team: true
   team_start: 2016
   institution: University of Virginia
@@ -618,11 +625,12 @@
     fr: |
         Brandon Walsh est responsable des programmes des deuxième et troisième cycles au Scholar's Lab de l'Université de Virginie.
   team_roles:
+   - proghist
    - editorial
    - board
-   - twitter-dev
-   - communication
    - technical
+  status: institutionally-supported
+
 
 - name: Ted Dawson
   team: false
@@ -704,8 +712,10 @@
     fr: |
         Jessica Parr est maîtresse de conférences au Simmons College à Boston et spécialiste du monde atlantique à l'époque moderne.
   team_roles:
-   - board
+   - proghist
    - global-lead
+   - board
+  status: volunteer
 
 - name: Taylor Arnold
   team: false
@@ -765,9 +775,6 @@
 
 - name: Anandi Silva Knuppel
   github: alsalin
-  email: anandi.silva.knuppel@gmail.com
-  twitter: anandilila
-  url: "http://anandileela.com"
   team: false
   team_start: 2017
   team_end: 2019
@@ -814,11 +821,11 @@
         Anna-Maria Sichani est spécialiste de l'histoire culturelle et de l'histoire de la littérature, mais aussi des humanités numériques. Elle est actuellement chercheuse en histoire des médias à l'Université du Sussex.
   team_roles:
    - editorial
-   - board
+   - proghist
    - ed-manager
-   - communication
    - technical
-   - project-manager-at-large
+   - board
+  status: volunteer
 
 - name: Evan Peter Williamson
   team: false
@@ -914,6 +921,7 @@
   team_roles:
    - spanish
    - board
+  status: volunteer
 
 - name: Jennifer Isasi
   url: "https://jenniferisasi.github.io/"
@@ -940,9 +948,11 @@
         Jennifer Isasi est chercheuse postdoctorale du programme CLIR au LLILAS Benson en Études et collections latino-américaines, et docteure en études hispaniques.
   team_roles:
     - spanish
-    - board
-    - technical
+    - proghist
     - communication-manager
+    - technical
+    - board
+  status: institutionally-supported
 
 - name: Jon MacKay
   team: false
@@ -977,6 +987,7 @@
     - french
     - board
     - ombuds-fr
+  status: institutionally-supported
   bio:
       en: |
           François Dominic Laramée is a postdoctoral fellow in digital history of medicine at the University of Ottawa, in Canada.
@@ -1039,11 +1050,13 @@
         fr: |
             Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
   team_roles:
+    - managing
     - french
+    - proghist
     - board
-    - managing-fr
     - technical
     - global
+  status: volunteer
   bio:
         en: |
             Sofia Papastamkou is a historian and Research Engineer in Digital Humanities at the French National Center for Scientific Research (CNRS).
@@ -1052,10 +1065,8 @@
             Sofia Papastamkou es historiadora e investigadora en Humanidades Digitales en el Centre national de la recherche scientifique (CNRS). Actualmente, su labor está asociada con el Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille).
         fr: |
             Sofia Papastamkou est docteure en histoire et ingénieure d'études en humanités numériques au CNRS. Elle est affectée à l'Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
+
 - name: Marie Puren
-  email: marie.puren1406@gmail.com
-  twitter: MariePuren
-  github: mpuren
   team: false
   team_start: 2018
   team_end: 2019
@@ -1069,6 +1080,27 @@
             Marie Puren es historiadora e investigadora de humanidades digitales en el equipo ALMAnaCH en Inria París.
         fr: |
             Marie Puren est historienne et chercheuse post-doctorante en histoire et humanités numériques au LARHRA (CNRS) à Lyon.
+
+- name: Marie-Christine Boucher
+  email: marie.c.boucher@ggk.uni-giessen.de
+  twitter: marie_c_boucher
+  github: mariechristineb
+  team: true
+  team_start: 2020
+  institution: Justus-Liebig-Universität Gießen
+  sortname: Boucher
+  orcid: 0000-0002-2475-3184
+  team_roles:
+    - board
+    - french
+  status: volunteer
+  bio:
+        en: |
+            Marie-Christine Boucher is a doctoral student in German literature at Justus Liebig University Giessen (Germany).
+        es: |
+            Marie-Christine Boucher es doctoranda en literatura alemana en la Universidad Justus Liebig de Giessen (Alemania).
+        fr: |
+            Marie-Christine Boucher est doctorante en littérature allemande à l'Université Justus-Liebig de Giessen (Allemagne).
 
 - name: Charlie Harper
   team: false
@@ -1115,6 +1147,7 @@
         Zoe LeBlanc est développeuse spécialiste des Humanités Numériques au Scholar's Lab de l'Université de Virginie..
   team_roles:
    - editorial
+   - proghist
    - board
    - technical
 
@@ -1153,10 +1186,13 @@
     fr: |
         Riva Quiroga est doctorante en linguistique à l'Université Catholique de Chili.
   team_roles:
+    - managing
     - spanish
+    - proghist
     - board
-    - managing-es
     - global
+  status: volunteer
+
 
 - name: Joshua G. Ortiz Baco
   twitter: jgob
@@ -1183,6 +1219,7 @@
   team_roles:
     - spanish
     - board
+  status: volunteer
 
 - name: Armando Luza
   team: false
@@ -1190,11 +1227,33 @@
     es: |
         Armando Luza es Maestro en Traducción por El Colegio de México. Actualmente se desempeña en investigación, traducción y corrección de estilo.
 
-- name: Silvia Gutiérrez
-  team: false
-  bio:
+- name: Silvia Gutiérrez De la Torre
+  github: silviaegt
+  twitter: espejolento
+  email: silviaegt@gmail.com
+  url: "https://sgutierrez.seewes.de/"
+  orcid: 0000-0001-8717-2291
+  team: true
+  team_start: 2020
+  institution: El Colegio de México
+  sortname: Gutiérrez
+  affiliation:
+    en: |
+        El Colegio de México, Mexico.
     es: |
-        Silvia Gutiérrez es bibliotecaria de investigación digital en la biblioteca Daniel Cosío Villegas en El Colegio de México.
+        El Colegio de México, México.
+    fr: |
+        El Colegio de México, Mexique.
+  bio:
+    en: |
+        Silvia Gutiérrez De la Torre is El Colegio de México's Digital Humanities Librarian and RLadiesCDMX co-founder (Mexico).
+    es: |
+        Silvia Gutiérrez De la Torre es la Bibliotecaria de Humanidades Digitales de El Colegio de México y co-fundadora de RLadiesCDMX (México).
+    fr: |
+        Silvia Gutiérrez De la Torre est la bibliothécaire des Humanités numériques du El Colegio de México et co-fondatrice de RLadiesCDMX (Mexique).
+  team_roles:
+   - spanish
+   - ombuds
 
 - name: Matthew J. Lavin
   team: false
@@ -1226,14 +1285,14 @@
   bio:
       en: |
            Courtney Allen is a second year MS-HCI student at Georgia Tech, in the School of Interactive Computing (College of Computing). She is a User Experience Reseacher, supporting design with data-driven choices and elements, and is a Graduate Teaching Assistant for Human-Computer Interaction MS Research Methods.
-           
+
 - name: Quinn Dombrowski
   team: false
   orcid: 0000-0001-5802-6623
   bio:
       en: |
           Quinn Dombrowski is the Academic Technology Specialist for the Division of Literatures, Cultures, and Languages at Stanford University, and works on non-English digital humanities.
-          
+
 - name: Tassie Gniady
   team: false
   orcid: 0000-0001-8693-3677
@@ -1247,3 +1306,10 @@
   bio:
       en: |
           David Kloster works in the CyberDH group at Indiana University as a programmer/analyst.
+
+- name: Moritz Mähr
+  team: false
+  orcid: 0000-0002-1367-1618
+  bio:
+      en: |
+        Moritz Mähr investigates the history of computers and migration at ETH Zurich in Switzerland.

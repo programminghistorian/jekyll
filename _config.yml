@@ -2,7 +2,6 @@ name: Programming Historian
 description: Introductory and intermediate programming lessons for humanists
 # Used to insert the live url of the site in places that require a full link such as suggested citations and XML feed
 liveurl: https://programminghistorian.org
-baseurl: ""
 permalink: :categories/:title
 exclude:
   - deprecated
@@ -16,6 +15,9 @@ permalink: :categories/:title
 future: true
 plugins:
   - jekyll-redirect-from
+  - jekyll-paginate
+paginate: 7
+paginate_path: "/blog/page:num/"
 defaults:
   -
     scope:
@@ -50,6 +52,18 @@ defaults:
       retired: true
   -
     scope:
+      path: "es/lecciones/retirada"
+    values:
+      lesson: false
+      retired: true
+  -
+    scope:
+      path: "fr/lecons/retrait"
+    values:
+      lesson: false
+      retired: true
+  -
+    scope:
       path: "es/lecciones"
     values:
       lesson: true
@@ -63,5 +77,9 @@ defaults:
       path: _posts
     values:
       category: posts
+
+# Flags to enable/disable "Support PH" alerts on lessons, and on sitewide banner above the navigation bar
+lesson_donation_alerts: true
+sitewide_donation_banner: true
 
 # For local work: bundle exec jekyll serve --watch --baseurl '/proghistdev' or wherever else your local site is located

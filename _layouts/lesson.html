@@ -12,6 +12,7 @@ series, retired lessons, etc).
 All lesson metadata and alerts should follow the convention of pulling appropriate text from the snippets.yml file.
 {% endcomment %}
 
+{% include page-slug.html %}
 {% include translation-links.html %}
 
 <header>
@@ -56,7 +57,9 @@ All lesson metadata and alerts should follow the convention of pulling appropria
                     4.0</a></p>
               </div>
               <div class="donate mr-5">
-                <p><a href="https://programminghistorian.org{{ site.data.snippets.menu-contribute-support-donate[page.lang].link}}"><i class="fas fa-credit-card"></i> {{ site.data.snippets.donate[page.lang] }}</a></p>
+                <p><a
+                    href="https://programminghistorian.org{{ site.data.snippets.menu-contribute-support-donate[page.lang].link}}"><i
+                      class="fas fa-credit-card"></i> {{ site.data.snippets.donate[page.lang] }}</a></p>
               </div>
             </div>
           </div>
@@ -176,23 +179,28 @@ All lesson metadata and alerts should follow the convention of pulling appropria
 
 <div class="container">
 
+  {% if site.lesson_donation_alerts %}
+  {% include support-alert.html %}
+  {% endif %}
+
+  {% unless page == translation_source %}
+  <!-- If this lesson is translated, banner pointing to the original language source of this lesson -->
+  <div class="alert alert-warning">
+    {{ site.data.snippets.translation-source[page.lang] }} {{ site.data.snippets.language-name.en[page.lang]}}: <a
+      href="{{ translation_source.url }}">{{ translation_source.title }}</a>
+  </div>
+  {% endunless %}
+
   {% for candidate in translation_candidates %}
+  {% unless page.lang == candidate.lang %}
   <!-- Banner pointing to translations of this lesson when they exist -->
   <div class="alert alert-warning">
     {{ site.data.snippets.translation-target[page.lang]}}
     {{ site.data.snippets.language-name[candidate.lang][page.lang]}}: <a
       href="{{ candidate.url }}">{{ candidate.title }}</a>
   </div>
+  {% endunless %}
   {% endfor %}
-
-  {% assign selected_translation_source = translation_source %}
-  {% if selected_translation_source %}
-  <!-- If this lesson is translated, banner pointing to the original language source of this lesson -->
-  <div class="alert alert-warning">
-    {{ site.data.snippets.translation-source[page.lang] }} {{ site.data.snippets.language-name.en[page.lang]}}: <a
-      href="{{ selected_translation_source.url }}">{{ selected_translation_source.title }}</a>
-  </div>
-  {% endif %}
 
   {% if page.retired %}
   <div class="alert alert-warning">
@@ -253,13 +261,10 @@ All lesson metadata and alerts should follow the convention of pulling appropria
     </div>
   </div>
 
-  <div class="citation-info">
-    <div class="suggested-citation-text">
-      <p class="suggested-citation-text">
-        If you wish to print this lesson, we suggest using Chrome for the best appearance.
-      </p>
-    </div>
-  </div>
+  {% if site.lesson_donation_alerts %}
+  {% include support-alert.html %}
+  {% endif %}
+
 </div>
 </div>
 

@@ -1,6 +1,7 @@
 ---
 title: Politique sur la vie privée
 layout: blank
+original: privacy-policy
 ---
 
 # Utilisation des données à caractère personnel
@@ -36,7 +37,7 @@ Google Analytics installe un certain nombre de "cookies" sur votre ordinateur lo
 
 `_ga`, `_gat`
 
-Vous pouvez bloquer ces cookies en utilisant les paramètres "Ne pas traquer" de votre fureteur. 
+Vous pouvez bloquer ces cookies en utilisant les paramètres "Ne pas traquer" de votre fureteur.
 
 `_utmv`
 
@@ -44,7 +45,7 @@ Google Analytics utilise ce cookie pour déterminer quels types de visiteurs con
 
 `__utmz`
 
-Google Analytics utilise ce cookie pour déterminer comment nos visiteurs parviennent à notre site. Le cookie détermine si un usager entre sur le site directement ou par l'intermédiaire d'un moteur de recherche, d'un courriel ou d'une campagne de courriels. Nous utilisons cette information pour comprendre comment nos utilisateurs atteignent notre site. 
+Google Analytics utilise ce cookie pour déterminer comment nos visiteurs parviennent à notre site. Le cookie détermine si un usager entre sur le site directement ou par l'intermédiaire d'un moteur de recherche, d'un courriel ou d'une campagne de courriels. Nous utilisons cette information pour comprendre comment nos utilisateurs atteignent notre site.
 
 `__utma`
 
@@ -56,4 +57,4 @@ Google Analytics utilise ce cookie pour calculer la durée des visites sur notre
 
 `__utmc`
 
-Google Analytics utilise ce cookie, en conjonction avec `__utmb`, pour mesurer la durée des visites. Contrairement à `__utmb`, ce cookie n'a pas de date de péremption. Il détermine si une nouvelle visite (ou 'session') doit être créée, en vérifiant si vous avez précédemment fermé votre fureteur et redémarré celui-ci avant de revenir sur le site. 
+Google Analytics utilise ce cookie, en conjonction avec `__utmb`, pour mesurer la durée des visites. Contrairement à `__utmb`, ce cookie n'a pas de date de péremption. Il détermine si une nouvelle visite (ou 'session') doit être créée, en vérifiant si vous avez précédemment fermé votre fureteur et redémarré celui-ci avant de revenir sur le site.

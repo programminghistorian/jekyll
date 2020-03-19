@@ -28,8 +28,8 @@ python_warning: false
 difficulty: 2
 activity: transforming
 topics: [python]
-abstract: "En esa lección aprenderás los comandos de Python que son necesarios para implementar la segunda parte del algoritmo que comenzamos en la lección 'De HTML a lista de palabras (parte 1)'." 
-avatar_alt: Grabado de un hombre vestido de militar y otro hombre por detrás del primero que parece tener la intención de tropezarlo. 
+abstract: "En esa lección aprenderás los comandos de Python que son necesarios para implementar la segunda parte del algoritmo que comenzamos en la lección 'De HTML a lista de palabras (parte 1)'."
+avatar_alt: Grabado de un hombre vestido de militar y otro hombre por detrás del primero que parece tener la intención de tropezarlo.
 ---
 
 {% include toc.html %}
@@ -174,7 +174,7 @@ adentro = 1
 Y cada vez que has necesitado leer o escribir a un archivo, has utilizado un controlador de archivo especial como *f* en el ejemplo siguiente:
 
 ``` python
-f = open('holamundo.txt','w')
+f = open('holamundo.txt','wb')
 f.write('hola mundo')
 f.close()
 ```
@@ -221,20 +221,20 @@ print((listaPalabras[0:120]))
 Debes obtener algo como lo siguiente:
 
 ``` python
-['324.', '\xc2\xa0', 'BENJAMIN', 'BOWSEY', '(a', 'blackmoor', ')', 'was', 
-'indicted', 'for', 'that', 'he', 'together', 'with', 'five', 'hundred', 
-'other', 'persons', 'and', 'more,', 'did,', 'unlawfully,', 'riotously,', 
-'and', 'tumultuously', 'assemble', 'on', 'the', '6th', 'of', 'June', 'to', 
-'the', 'disturbance', 'of', 'the', 'public', 'peace', 'and', 'did', 'begin', 
-'to', 'demolish', 'and', 'pull', 'down', 'the', 'dwelling', 'house', 'of', 
-'\xc2\xa0', 'Richard', 'Akerman', ',', 'against', 'the', 'form', 'of', 
-'the', 'statute,', '&amp;c.', '\xc2\xa0', 'ROSE', 'JENNINGS', ',', 'Esq.', 
-'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be', 'in', 'this', 'part', 
-'of', 'the', 'town,', 'on', 'the', '6th', 'of', 'June', 'in', 'the', 
-'evening?', '-', 'I', 'dined', 'with', 'my', 'brother', 'who', 'lives', 
-'opposite', 'Mr.', "Akerman's", 'house.', 'They', 'attacked', 'Mr.', 
-"Akerman's", 'house', 'precisely', 'at', 'seven', "o'clock;", 'they', 
-'were', 'preceded', 'by', 'a', 'man', 'better', 'dressed', 'than', 'the', 
+['324.', '\xc2\xa0', 'BENJAMIN', 'BOWSEY', '(a', 'blackmoor', ')', 'was',
+'indicted', 'for', 'that', 'he', 'together', 'with', 'five', 'hundred',
+'other', 'persons', 'and', 'more,', 'did,', 'unlawfully,', 'riotously,',
+'and', 'tumultuously', 'assemble', 'on', 'the', '6th', 'of', 'June', 'to',
+'the', 'disturbance', 'of', 'the', 'public', 'peace', 'and', 'did', 'begin',
+'to', 'demolish', 'and', 'pull', 'down', 'the', 'dwelling', 'house', 'of',
+'\xc2\xa0', 'Richard', 'Akerman', ',', 'against', 'the', 'form', 'of',
+'the', 'statute,', '&amp;c.', '\xc2\xa0', 'ROSE', 'JENNINGS', ',', 'Esq.',
+'sworn.', 'Had', 'you', 'any', 'occasion', 'to', 'be', 'in', 'this', 'part',
+'of', 'the', 'town,', 'on', 'the', '6th', 'of', 'June', 'in', 'the',
+'evening?', '-', 'I', 'dined', 'with', 'my', 'brother', 'who', 'lives',
+'opposite', 'Mr.', "Akerman's", 'house.', 'They', 'attacked', 'Mr.',
+"Akerman's", 'house', 'precisely', 'at', 'seven', "o'clock;", 'they',
+'were', 'preceded', 'by', 'a', 'man', 'better', 'dressed', 'than', 'the',
 'rest,', 'who']
 ```
 

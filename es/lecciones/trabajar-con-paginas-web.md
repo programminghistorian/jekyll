@@ -31,7 +31,7 @@ previous: reutilizacion-de-codigo-y-modularidad
 original: working-with-web-pages
 redirect_from: /es/lessons/working-with-web-pages
 python_warning: false
-avatar_alt: Grabado de una mujer y un hombre de pies. 
+avatar_alt: Grabado de una mujer y un hombre de pies.
 ---
 
 {% include toc.html %}
@@ -154,7 +154,7 @@ url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-3
 respuesta = urllib.request.urlopen(url)
 contenidoWeb = respuesta.read()
 
-f = open('obo-t17800628-33.html', 'w')
+f = open('obo-t17800628-33.html', 'wb')
 f.write(contenidoWeb)
 f.close
 ```
