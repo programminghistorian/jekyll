@@ -64,61 +64,29 @@ Yes, this is confusing. But using two differnt classes allows us to separate fun
     wireButtons();
   });
   // Transform lessons for search index
-  var lessons = [{% for lesson in alllessons %}{
-      "title": { { lesson.title | jsonify } },
-      "content": { { lesson.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify } },
-      "authors": '{{ lesson.authors | array_to_sentence_string }}',
-    }, {% endfor %}];
+  var lessons = [
+  {% for lesson in alllessons %}
+    {
+    "title": {{ lesson.title | jsonify }},
+    "content": {{ lesson.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '<p>', ' ' | strip_html | strip_newlines | replace: ' ', ' ' | replace: '"', ' ' | jsonify }},
+    "authors": '{{ lesson.authors | array_to_sentence_string }}',
+    },
+  {% endfor %}
+  ];
+  console.log(lessons);
   lessons.map((lesson) => {
     lesson['content'] = lesson['content'].replace(/[^{}]*(?=\})/g, '').replace(/{/g, '').replace(/}/g, '');
   });
   console.log(lessons);
   // Create lunr index
   var idx = lunr(function () {
-    this.ref('id');
-    this.field('title');
-    this.field('authors');
-    this.field('content');
+      this.ref('id');
+      this.field('title');
+      this.field('authors');
+      this.field('content');
     lessons.forEach(function (lesson) {
-      this.add(lesson)
+      this.add(lesson);
     }, this)
   });
+  
 </script>
-<!-- var documents =
-[{% for page in site.pages %}{% unless page.permalink == 'topics/' %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
-"id": {{ counter }},
-"url": "{{ page.url | absolute_url }}",
-"title": {{ page.title | jsonify }},
-"author": "{% for author in page.authors %}{{ author.name }}
-{{ author.bio | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}
-{{ author.affiliation | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}{% endfor %}",
-"body":
-{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}{% assign counter = counter | plus: 1 %}
-}, {% endif %}{% endunless %}{% endfor %}{% for interview in site.interviews %}{
-"id": {{ counter }},
-"url": "{{ interview.url | absolute_url }}",
-"title": {{ interview.title | jsonify }},
-"author": "{% for author in interview.authors %}{{ author.name }}
-{{ author.bio | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}
-{{ author.affiliation | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}{% endfor %}",
-"body":
-{{ interview.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}{% assign counter = counter | plus: 1 %}
-}, {% endfor %}{% for project in site.projects %}{
-"id": {{ counter }},
-"url": "{{ project.url | absolute_url }}",
-"title": {{ project.title | jsonify }},
-"author": "{% for author in project.authors %}{{ author.name }}
-{{ author.bio | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}
-{{ author.affiliation | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}{% endfor %}",
-"body":
-{{ project.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}{% assign counter = counter | plus: 1 %}
-}, {% endfor %}{% for topic in site.topics %}{
-"id": {{ counter }},
-"url": "{{ '/topics' | absolute_url }}#topic_{{ topic.identifier}}",
-"title": {{ topic.title | jsonify }},
-"author": "{% for author in topic.authors %}{{ author.name }}
-{{ author.bio | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}
-{{ author.affiliation | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}{% endfor %}",
-"body":
-{{ topic.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}{% assign counter = counter | plus: 1 %}
-}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}]; -->
