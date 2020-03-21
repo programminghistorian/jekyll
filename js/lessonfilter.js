@@ -60,12 +60,18 @@ function wireButtons() {
   console.log(uri.toString());
 
   var options = {
-    valueNames: [ 'date', 'title', 'difficulty', 'activity', 'topics' ]
+    valueNames: [ 'date', 'title', 'difficulty', 'activity', 'topics','abstract', 'content' ]
   };
 
   var featureList = new List('lesson-list', options);
   // We need a stateObj for adjusting the URIs on button clicks, but the value is moot for now; could be useful for future functionality.
   var stateObj = { foo: "bar" };
+
+
+  $('#search').on('keyup', function () {
+    var searchString = $(this).val();
+    featureList.search(searchString, ['content', 'abstract', 'title']);
+  });
 
   // When a filter button is clicked
   $('.filter').children().click(function() {

@@ -315,6 +315,25 @@ Lessons Index
     background-color:#ededed;
   }
 
+  /*****************
+    SEARCH
+  *****************/
+
+  #search {
+    width:99.5%;
+    clear:both;
+    margin-bottom:1rem;
+    background-color:#fefefe;
+    color:#666;
+    border:1px solid #999;
+    font: .9rem/1.1rem 'Open Sans',
+    sans-serif;
+    padding: .4rem .6rem;
+    border-radius: 3px;
+    display:inline-block;
+    text-transform:uppercase;
+    text-decoration: none;
+  }
 
   /*****************
     SORT BUTTONS
