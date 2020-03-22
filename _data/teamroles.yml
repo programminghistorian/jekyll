@@ -1,10 +1,10 @@
+# Publication Roles
 # Definitions of editorial sub teams.
 #
 # type: the tag added in ph_authors.yml
 # label: Short label to be displayed alongside the author bio, and in the roles definition list
 # definition: Brief description of that editorial team. If this is a derived label that uses the definition of another role, instead use...
 
-# --- Publication Roles ---
 - type: managing
   label:
     en: Managing Editor
@@ -36,13 +36,13 @@
 # --- Proghist Roles ---
 - type: proghist
   label:
-     en: ProgHist Ltd
-     es: ProgHist Ltd
-     fr: ProgHist Ltd
+    en: ProgHist Ltd
+    es: ProgHist Ltd
+    fr: ProgHist Ltd
   definition:
-     en: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
-     es: Este miembro funge un cargo en la compañía sin ánimo de lucro ProgHist Ltd, que gestiona las publicaciones.
-     fr: Ce(tte) membre occupe un rôle au sein de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
+    en: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
+    es: Este miembro funge un cargo en la compañía sin ánimo de lucro ProgHist Ltd, que gestiona las publicaciones.
+    fr: Ce(tte) membre occupe un rôle au sein de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
 - type: technical-lead
   label:
     en: Technical Lead
@@ -143,22 +143,22 @@
     es: Coordinar nuevas iniciativas globales, así como tratar de mejorar la diversidad cultural y lingüística del equipo, de nuestras lecciones y de la participación en Humanidades Digitales en general.
     fr: En charge de nouvelles initiatives à vocation globale, de la diversité culturelle et linguistique de l'équipe et des leçons, et de la participation aux humanités numériques en général.
 
-# --- Status ---
+# Status
 - type: volunteer
   label:
-     en: Volunteer
-     es: Voluntario
-     fr: Bénévole
+    en: Volunteer
+    es: Voluntario
+    fr: Bénévole
   definition:
-     en: This member's time on the project is wholly voluntary.
-     es: El tiempo que este miembro dedica al proyecto es voluntario.
-     fr: Ce membre contribue son temps sur une base entièrement bénévole.
+    en: This member's time on the project is wholly voluntary.
+    es: El tiempo que este miembro dedica al proyecto es voluntario.
+    fr: Ce membre contribue son temps sur une base entièrement bénévole.
 - type: institutionally-supported
   label:
-     en: Institutionally Supported
-     es: Apoyado por su institución
-     fr: Soutenu institutionnellement
+    en: Institutionally Supported
+    es: Apoyado por su institución
+    fr: Soutenu institutionnellement
   definition:
-     en: This member's time on the project is either directly or indirectly supported by their employer.
-     es: El tiempo que este miembro dedica al proyecto está directa o indirectamente apoyado por su institución.
-     fr: Le temps que ce membre consacre au projet est directement ou indirectement financé par son employeur.
+    en: This member's time on the project is either directly or indirectly supported by their employer.
+    es: El tiempo que este miembro dedica al proyecto está directa o indirectamente apoyado por su institución.
+    fr: Le temps que ce membre consacre au projet est directement ou indirectement financé par son employeur.
