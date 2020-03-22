@@ -33,12 +33,7 @@ List subteams within the larger editorial team
 	
 {% for role in member.team_roles %}
 {% assign role_label = (site.data.teamroles | where: "type", role) | first %}
-{% if role_label.source_role %}
-  {% assign source_role = (site.data.teamroles | where: "type", role_label.source_role | first %}
-  {% assign role_definition = source_role.definition %}
-{% else %}
-  {% assign role_definition = role_label.definition %}
-{% endif %}
+{% assign role_definition = role_label.definition %}
 <span class="badge badge-primary" data-toggle="tooltip" data-placement="bottom" title = "{{ role_definition[page.lang] }}">{{ role_label.label[page.lang] }}</span>
 {% endfor %}
 </p>
