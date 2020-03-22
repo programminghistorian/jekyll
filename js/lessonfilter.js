@@ -67,10 +67,11 @@ function wireButtons() {
   // We need a stateObj for adjusting the URIs on button clicks, but the value is moot for now; could be useful for future functionality.
   var stateObj = { foo: "bar" };
 
-
+  // Filter lessons on search
   $('#search').on('keyup', function () {
     var searchString = $(this).val();
-    featureList.search(searchString, ['content', 'abstract', 'title']);
+    featureList.search(searchString, ['content']);
+    // featureList.fuzzySearch(searchString, ['content']); // List.js has a fuzzy search method but I get fewer results with it than the regular search method. We could create are own fuzzy search function here and then use List.js filtering instead of search.
   });
 
   // When a filter button is clicked
