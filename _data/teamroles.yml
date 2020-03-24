@@ -142,6 +142,15 @@
     en: Managing new global initiatives, as well as trying to improve the cultural and linguistic diversity of the team, our lessons, and of participation in Digital Humanities more generally.
     es: Coordinar nuevas iniciativas globales, así como tratar de mejorar la diversidad cultural y lingüística del equipo, de nuestras lecciones y de la participación en Humanidades Digitales en general.
     fr: En charge de nouvelles initiatives à vocation globale, de la diversité culturelle et linguistique de l'équipe et des leçons, et de la participation aux humanités numériques en général.
+- type: new-pub-manager
+  label:
+    en: New Publications Manager
+    es: Mánager de publicaciones nuevas
+    fr: Responsable de nouvelles publications
+  definition:
+    en: Coordinates the process for creating new publications and facilitates communication with other Programming Historian teams.
+    es: Coordina el proceso de creación de publicaciones nuevas y facilita la comunicación con el resto de los equipos de Programming Historian.
+    fr: Responsable de la création de nouvelles publications et assure la communication avec les autres équipes du Programming Historian.
 
 # Status
 - type: volunteer
