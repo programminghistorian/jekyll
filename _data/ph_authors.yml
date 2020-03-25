@@ -146,6 +146,7 @@
         Víctor Gayol est enseignant-chercheur en histoire au Centre d'études historiques (Centro de Estudios Históricos) d'El Colegio de Michoacán, A.C. (CPI-CONACYT) au Mexique.
   team_roles:
    - spanish
+   - editorial
    - board
   status: volunteer
 
@@ -175,6 +176,7 @@
         Antonio Rojas Castro est docteur en Littérature espagnole (Université Pompeu Fabra) et chercheur à l'Académie des sciences de Berlin-Brandebourg.
   team_roles:
    - spanish
+   - editorial
    - board
   status: volunteer
 
@@ -557,6 +559,7 @@
   team_roles:
    - managing
    - editorial
+   - english
    - board
   status: volunteer
 
@@ -590,6 +593,7 @@
         Amanda Visconti est directrice du centre des humanités numériques du Scholars' Lab de l'Université de Virginie.
   team_roles:
    - ombuds
+   - english
 
 - name: Megan R. Brett
   team: false
@@ -627,6 +631,7 @@
   team_roles:
    - proghist
    - editorial
+   - english
    - board
    - technical
   status: institutionally-supported
@@ -821,6 +826,7 @@
         Anna-Maria Sichani est spécialiste de l'histoire culturelle et de l'histoire de la littérature, mais aussi des humanités numériques. Elle est actuellement chercheuse en histoire des médias à l'Université du Sussex.
   team_roles:
    - editorial
+   - english
    - proghist
    - ed-manager
    - technical
@@ -920,6 +926,7 @@
         José Antonio Motilla est chercheur en histoire, art, culture et humanités numériques à l'Université autonome de San Luis Potosí au Mexique, et directeur de la bibliothèque Ricardo B. Anaya.
   team_roles:
    - spanish
+   - editorial
    - board
   status: volunteer
 
@@ -948,6 +955,7 @@
         Jennifer Isasi est chercheuse postdoctorale du programme CLIR au LLILAS Benson en Études et collections latino-américaines, et docteure en études hispaniques.
   team_roles:
     - spanish
+    - editorial
     - proghist
     - communication-manager
     - technical
@@ -985,8 +993,9 @@
           Universidad de Ottawa, Canadá
   team_roles:
     - french
+    - editorial
     - board
-    - ombuds-fr
+    - ombuds
   status: institutionally-supported
   bio:
       en: |
@@ -1024,6 +1033,7 @@
             Universidad de Lausanne (Suiza)
   team_roles:
     - french
+    - editorial
     - board
   bio:
         en: |
@@ -1052,6 +1062,7 @@
   team_roles:
     - managing
     - french
+    - editorial
     - proghist
     - board
     - technical
@@ -1093,6 +1104,7 @@
   team_roles:
     - board
     - french
+    - editorial
   status: volunteer
   bio:
         en: |
@@ -1147,6 +1159,7 @@
         Zoe LeBlanc est développeuse spécialiste des Humanités Numériques au Scholar's Lab de l'Université de Virginie..
   team_roles:
    - editorial
+   - english
    - proghist
    - board
    - technical
@@ -1188,6 +1201,7 @@
   team_roles:
     - managing
     - spanish
+    - editorial
     - proghist
     - board
     - global
@@ -1218,6 +1232,7 @@
         Joshua G. Ortiz Baco est un doctorant en espagnol et portugais de l'Université du Texas à Austin.
   team_roles:
     - spanish
+    - editorial
     - board
   status: volunteer
 
