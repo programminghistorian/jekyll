@@ -51,6 +51,101 @@ function applySortFromURI(uri,featureList) {
   // Performm new sort
   featureList.sort(sortType, { order: sortOrder });
 }
+function wrapTerms(element, matches) {
+  var nodeFilter = {
+    acceptNode: function (node) {
+      if (/^[\t\n\r ]*$/.test(node.nodeValue)) {
+        return NodeFilter.FILTER_SKIP
+      }
+      return NodeFilter.FILTER_ACCEPT
+    }
+  }
+  var index = 0,
+    matches = matches.sort(function (a, b) {
+      return a[0] - b[0]
+    }).slice(),
+    previousMatch = [-1, -1],
+    match = matches.shift(),
+    walker
+  if (element instanceof Element) {
+    walker = document.createTreeWalker(
+      element,
+      NodeFilter.SHOW_TEXT,
+      nodeFilter,
+      false
+    )
+  } else {
+    return 'not an element';
+  }
+  while (node = walker.nextNode()) {
+    if (match == undefined) break
+    if (match[0] == previousMatch[0]) continue
+
+    var text = node.textContent,
+      nodeEndIndex = index + node.length;
+
+    if (match[0] < nodeEndIndex) {
+      var range = document.createRange(),
+        tag = document.createElement('mark'),
+        rangeStart = match[0] - index,
+        rangeEnd = rangeStart + match[1];
+
+      tag.dataset.rangeStart = rangeStart
+      tag.dataset.rangeEnd = rangeEnd
+
+      range.setStart(node, rangeStart)
+      range.setEnd(node, rangeEnd)
+      range.surroundContents(tag)
+      index = match[0] + match[1]
+
+      // the next node will now actually be the text we just wrapped, so
+      // we need to skip it
+      walker.nextNode()
+      previousMatch = match
+      match = matches.shift()
+    } else {
+      index = nodeEndIndex
+    }
+  }
+}
+function lunrSearch(searchString, idx, corpus, featureList) {
+  const results = idx.search(searchString);
+  var docs = results.filter(result => corpus.some(doc => parseInt(result.ref) === doc.id)).map(result => {
+    let doc = corpus.find(o => o.id === parseInt(result.ref));
+    return {
+      ...result,
+      ...doc
+    };
+  });
+
+  const BUFFER = 30 // Number of characters to show for kwic-results
+  const MAX_KWIC = 3
+  docs.map((doc) => {
+    console.log(doc.url);
+    let elementName = doc.url.split('/').pop()
+    let search_keys = Object.keys(doc.matchData.metadata);
+    let inner_results = search_keys.map((token) => {
+      let all_positions = doc.matchData.metadata[token].body.position;
+      let grouped_kwic = all_positions.slice(0, MAX_KWIC).map(function (pos) {
+        var loc1 = pos[0]
+        var loc2 = loc1 + pos[1]
+        var rendered_text = `... ${doc.body.substring(loc1 - BUFFER, loc1)} <mark>${doc.body.substring(loc1, loc2)}</mark> ${doc.body.substring(loc2, loc2 + BUFFER)} ...`
+        return rendered_text
+      }).join("")
+      return grouped_kwic
+    }).join("").replace(/(\r\n|\n|\r)/gm, "");
+
+    inner_results = "<p>" + inner_results + "</p>"
+
+    $(`p[id="${elementName}-search_results"]`).css('display', '');
+    $(`p[id="${elementName}-search_results"]`).html(inner_results);
+  });
+  featureList.filter((item) => {
+    return docs.find((doc) => doc.title === item.values().title)
+  });
+  // featureList.search(searchString, ['content']);
+  $('.abstract').next().css('display', 'none');
+}
 
 
 function wireButtons() {
@@ -67,10 +162,47 @@ function wireButtons() {
   // We need a stateObj for adjusting the URIs on button clicks, but the value is moot for now; could be useful for future functionality.
   var stateObj = { foo: "bar" };
 
+  // Get search indices and corpuses. Right now only trying on English
+  let idx;
+  let corpus;
+  $.getJSON("https://raw.githubusercontent.com/programminghistorian/search-index/master/indices/indexEN.json").done(response => {
+    console.log(response)
+    idx = lunr.Index.load(JSON.parse(JSON.stringify(response)));
+  });
+  $.getJSON("https://programminghistorian.org/en/search.json").done(response => {
+    corpus = response;
+  });
+  // Example of an async version... not sure it works though
+  // const request = async () => {
+  //   const indexResponse = await fetch("https://raw.githubusercontent.com/programminghistorian/search-index/master/indices/indexEN.json");
+  //   const indexJSON = await indexResponse.json();
+  //   idx = lunr.Index.load(indexJSON);
+  //   window.idx = idx;
+  //   const corpusResponse = await fetch("https://raw.githubusercontent.com/programminghistorian/search-index/master/indices/indexEN.json");
+  //   const corpusJSON = await corpusResponse.json();
+  //   corpus = corpusJSON;
+  //   window.corpus = corpus;
+  // }
+  // request();
+
+
   // Filter lessons on search
   $('#search').on('keyup', function () {
-    var searchString = $(this).val();
-    featureList.search(searchString, ['content']);
+    const searchString = $(this).val();
+    console.log(searchString.length);
+    if (searchString.length > 0) {
+      lunrSearch(searchString, idx, corpus, featureList);
+    } else {
+      // Reset filtering and perform default sort
+      console.log('else');
+      $('.search_results').css('display', 'none');
+      $('.abstract').next().css('display', '');
+      featureList.filter();
+      featureList.sort('date', {
+        order: "desc"
+      });
+    }
+    // featureList.search(searchString, ['content']);
     // featureList.fuzzySearch(searchString, ['content']); // List.js has a fuzzy search method but I get fewer results with it than the regular search method. We could create are own fuzzy search function here and then use List.js filtering instead of search.
   });
 

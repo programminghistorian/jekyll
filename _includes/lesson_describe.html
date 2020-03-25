@@ -9,7 +9,6 @@ lesson-slug.html computes the correct lesson slug, and then this include determi
 {% endcomment %}
 
 <div class="lesson-description clearfix">
-
   {% if lesson.original %}
     {% assign canonical_slug = lesson.original %}
   {% else %}
@@ -32,6 +31,9 @@ lesson-slug.html computes the correct lesson slug, and then this include determi
   <span class="topics">{{ lesson.topics | join: ' '}}</span>
   <span class="date">{% if lesson.translation_date %}{{ lesson.translation_date }}{% else %}{{ lesson.date }}{% endif %}</span>
   <span class="difficulty">{{ lesson.difficulty }}</span>
-  <span id="{{lesson.title}}-content" class="content" style="display: none;">{{ lesson.content | markdownify | strip_html }}</span>
+  <span id="{{canonical_slug}}-content" class="content" style="display: none;">{{ lesson.content | markdownify | strip_html }}</span>
+  <p id="{{canonical_slug}}-search_results" class="search_results"
+    style="display: none;"></p>
+
 
 </div>
