@@ -51,63 +51,7 @@ function applySortFromURI(uri,featureList) {
   // Performm new sort
   featureList.sort(sortType, { order: sortOrder });
 }
-function wrapTerms(element, matches) {
-  var nodeFilter = {
-    acceptNode: function (node) {
-      if (/^[\t\n\r ]*$/.test(node.nodeValue)) {
-        return NodeFilter.FILTER_SKIP
-      }
-      return NodeFilter.FILTER_ACCEPT
-    }
-  }
-  var index = 0,
-    matches = matches.sort(function (a, b) {
-      return a[0] - b[0]
-    }).slice(),
-    previousMatch = [-1, -1],
-    match = matches.shift(),
-    walker
-  if (element instanceof Element) {
-    walker = document.createTreeWalker(
-      element,
-      NodeFilter.SHOW_TEXT,
-      nodeFilter,
-      false
-    )
-  } else {
-    return 'not an element';
-  }
-  while (node = walker.nextNode()) {
-    if (match == undefined) break
-    if (match[0] == previousMatch[0]) continue
 
-    var text = node.textContent,
-      nodeEndIndex = index + node.length;
-
-    if (match[0] < nodeEndIndex) {
-      var range = document.createRange(),
-        tag = document.createElement('mark'),
-        rangeStart = match[0] - index,
-        rangeEnd = rangeStart + match[1];
-
-      tag.dataset.rangeStart = rangeStart
-      tag.dataset.rangeEnd = rangeEnd
-
-      range.setStart(node, rangeStart)
-      range.setEnd(node, rangeEnd)
-      range.surroundContents(tag)
-      index = match[0] + match[1]
-
-      // the next node will now actually be the text we just wrapped, so
-      // we need to skip it
-      walker.nextNode()
-      previousMatch = match
-      match = matches.shift()
-    } else {
-      index = nodeEndIndex
-    }
-  }
-}
 function lunrSearch(searchString, idx, corpus, featureList) {
   const results = idx.search(searchString);
   var docs = results.filter(result => corpus.some(doc => parseInt(result.ref) === doc.id)).map(result => {
