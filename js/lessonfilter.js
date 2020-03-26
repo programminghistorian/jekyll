@@ -66,7 +66,7 @@ function lunrSearch(searchString, idx, corpus, featureList) {
   const MAX_KWIC = 3
   docs.map((doc) => {
     console.log(doc.url);
-    let elementName = doc.url.split('/').pop()
+    let elementName = '/'+doc.url.split('/').slice(3, ).join('/')
     let search_keys = Object.keys(doc.matchData.metadata);
     let inner_results = search_keys.map((token) => {
       let all_positions = doc.matchData.metadata[token].body.position;
@@ -109,13 +109,16 @@ function wireButtons() {
   // Get search indices and corpuses. Right now only trying on English
   let idx;
   let corpus;
-  $.getJSON("https://programminghistorian.github.io/search-index/indices/indexEN.json").done(response => {
+  const language = uri.toString().split('/').slice(-3)[0];
+  $.getJSON(`https://programminghistorian.github.io/search-index/indices/index${language.toUpperCase()}.json`).done(response => {
     console.log(response)
     idx = lunr.Index.load(JSON.parse(JSON.stringify(response)));
   });
-  $.getJSON("https://programminghistorian.org/en/search.json").done(response => {
+  $.getJSON(`https://programminghistorian.org/${language}/search.json`).done(response => {
     corpus = response;
+    $('#search').attr("placeholder", "Search lessons...");
   });
+
   // Example of an async version... not sure it works though
   // const request = async () => {
   //   const indexResponse = await fetch("https://raw.githubusercontent.com/programminghistorian/search-index/master/indices/indexEN.json");
