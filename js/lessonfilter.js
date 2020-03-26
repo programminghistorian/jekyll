@@ -54,8 +54,8 @@ function applySortFromURI(uri,featureList) {
 
 function lunrSearch(searchString, idx, corpus, featureList) {
   const results = idx.search(searchString);
-  var docs = results.filter(result => corpus.some(doc => parseInt(result.ref) === doc.id)).map(result => {
-    let doc = corpus.find(o => o.id === parseInt(result.ref));
+  var docs = results.filter(result => corpus.some(doc => result.ref === doc.url)).map(result => {
+    let doc = corpus.find(o => o.url === result.ref);
     return {
       ...result,
       ...doc
@@ -109,7 +109,7 @@ function wireButtons() {
   // Get search indices and corpuses. Right now only trying on English
   let idx;
   let corpus;
-  $.getJSON("https://raw.githubusercontent.com/programminghistorian/search-index/master/indices/indexEN.json").done(response => {
+  $.getJSON("https://programminghistorian.github.io/search-index/indices/indexEN.json").done(response => {
     console.log(response)
     idx = lunr.Index.load(JSON.parse(JSON.stringify(response)));
   });
@@ -135,6 +135,8 @@ function wireButtons() {
     const searchString = $(this).val();
     console.log(searchString.length);
     if (searchString.length > 0) {
+      window.idx = idx;
+      window.corpus = corpus;
       lunrSearch(searchString, idx, corpus, featureList);
     } else {
       // Reset filtering and perform default sort
