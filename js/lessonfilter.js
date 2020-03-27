@@ -65,7 +65,6 @@ function lunrSearch(searchString, idx, corpus, featureList) {
   const BUFFER = 30 // Number of characters to show for kwic-results
   const MAX_KWIC = 3
   docs.map((doc) => {
-    console.log(doc.url);
     let elementName = '/'+doc.url.split('/').slice(3, ).join('/')
     let search_keys = Object.keys(doc.matchData.metadata);
     let inner_results = search_keys.map((token) => {
@@ -79,11 +78,13 @@ function lunrSearch(searchString, idx, corpus, featureList) {
       return grouped_kwic
     }).join("").replace(/(\r\n|\n|\r)/gm, "");
 
-    inner_results = "<p>" + inner_results + "</p>"
+    inner_results = "<p>" + inner_results + "</p>";
+    console.log(inner_results.length);
 
     $(`p[id="${elementName}-search_results"]`).css('display', '');
     $(`p[id="${elementName}-search_results"]`).html(inner_results);
   });
+
   featureList.filter((item) => {
     return docs.find((doc) => doc.title === item.values().title)
   });
@@ -111,7 +112,6 @@ function wireButtons() {
   let corpus;
   const language = uri.toString().split('/').slice(-3)[0];
   $.getJSON(`https://programminghistorian.github.io/search-index/indices/index${language.toUpperCase()}.json`).done(response => {
-    console.log(response)
     idx = lunr.Index.load(JSON.parse(JSON.stringify(response)));
   });
   $.getJSON(`https://programminghistorian.org/${language}/search.json`).done(response => {
@@ -132,19 +132,16 @@ function wireButtons() {
   // }
   // request();
 
-
   // Filter lessons on search
   $('#search').on('keyup', function () {
     const searchString = $(this).val();
-    console.log(searchString.length);
+    
     if (searchString.length > 0) {
-      window.idx = idx;
-      window.corpus = corpus;
       lunrSearch(searchString, idx, corpus, featureList);
     } else {
       // Reset filtering and perform default sort
-      console.log('else');
       $('.search_results').css('display', 'none');
+      $('.search_results').html('');
       $('.abstract').next().css('display', '');
       featureList.filter();
       featureList.sort('date', {
