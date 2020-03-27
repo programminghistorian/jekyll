@@ -88,6 +88,7 @@ function lunrSearch(searchString, idx, corpus, featureList) {
   featureList.filter((item) => {
     return docs.find((doc) => doc.title === item.values().title)
   });
+  featureList.update()
   // featureList.search(searchString, ['content']);
   $('.abstract').next().css('display', 'none');
 }
@@ -147,6 +148,7 @@ function wireButtons() {
       featureList.sort('date', {
         order: "desc"
       });
+      featureList.update()
     }
     // featureList.search(searchString, ['content']);
     // featureList.fuzzySearch(searchString, ['content']); // List.js has a fuzzy search method but I get fewer results with it than the regular search method. We could create are own fuzzy search function here and then use List.js filtering instead of search.
