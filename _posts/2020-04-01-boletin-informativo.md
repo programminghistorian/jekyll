@@ -10,15 +10,15 @@ categories: posts
 
 > **Un mensaje sobre Covid-19** 
 >
-> Nadie podía haber anticipado este inicio para 2020 y aunque en *Programmnig Historian* seguimos trabajando para ofrecer lecciones sobre métodos digitales para humanistas en acceso abierto, hemos ralentizado el proceso un poco. Nos queremos asegurar de que nuestros editores, voluntarios y usuarios tenga tiempo para procesar esta difícil situación y den prioridad a su cuidado mental y físico. Quédate en casa si puedes. Y si consigues concentrarte en ello, utiliza tu tiempo para aprender alguna habilidad nueva o escribir una lección. 
+> Nadie podía haber anticipado este inicio para 2020 y aunque en *Programmnig Historian* seguimos trabajando para ofrecer lecciones sobre métodos digitales para humanistas en acceso abierto, hemos ralentizado el proceso un poco. Nos queremos asegurar de que nuestros editores, voluntarios y usuarios tengan tiempo para procesar esta difícil situación y den prioridad a su cuidado mental y físico. Quédate en casa si puedes. Y si consigues concentrarte en ello, utiliza tu tiempo para aprender alguna habilidad nueva o escribir una lección. 
 
-En el primer trimestre de 2020 *Programming Historian* ha continuado su expansión de diferentes formas: tenemos lecciones nuevas, dos nuevos miembros en el proyecto y nuevos mecenas. Hemos tenido más de 360.000 visitas, siendo febrero e mes con la mayoría de ellas (134.772). Los ciudadanos de la ciudad de Bengaluru (India) fueron los que más visitaron *Programming Historian*. A todos, gracias por seguir confiando en nuestras lecciones para aprender o practicar métodos digitales. 
+En el primer trimestre de 2020 *Programming Historian* ha continuado su expansión de diferentes formas: tenemos lecciones nuevas, dos nuevos miembros en el proyecto y nuevos mecenas. Hemos tenido más de 360.000 visitas, siendo febrero el mes con la mayoría de ellas (134.772). Los ciudadanos de la ciudad de Bengaluru (India) fueron los que más visitaron *Programming Historian*. A todos, gracias por seguir confiando en nuestras lecciones para aprender o practicar métodos digitales. 
 
 ## Revista multilingüe con configuración personalizada 
 
-Nuestro líder técnico y miembro editorial Matthew Lincoln ha sido el encargado de hacer realidad nuestros esfuerzos de internacionalización de nuestra revista multilingüe en una página estática en Github. Ha hecho posible que el usuario pueda cambiar fácilmente de idioma en la página web y, al mismo tiempo, que sea intuitivo para los miembros del equipo añadir contenido en la revista en uno o varios idiomas, según sea necesario. 
+Nuestro líder técnico y miembro editorial Matthew Lincoln ha sido el encargado de hacer realidad los esfuerzos de internacionalización de nuestra revista multilingüe en una página estática en Github. Ha hecho posible que el usuario pueda cambiar fácilmente de idioma en la página web y, al mismo tiempo, que sea intuitivo para los miembros del equipo añadir contenido en la revista en uno o varios idiomas, según sea necesario. 
 
-Hay muchas formas de crear páginas Jekyll bilingües o multilingües y no recomendamos usar nuestro sistema a aquellos con nivel bajo de usuario Jekyll. No obstante, si te interesa saber cómo funciona nuestra configuración, puedes visitar el artículo de Matthew "[Multilingual Jekyll: How *The Programming Historian* Does That](https://matthewlincoln.net/2020/03/01/multilingual-jekyll.html)" en su blog (solo disponible en inglés). **Gracias** Matt por hacer esto posible y por entrenar al equipo técnico
+Hay muchas formas de crear páginas Jekyll bilingües o multilingües y no recomendamos usar nuestro sistema a aquellos con nivel bajo de usuario Jekyll. No obstante, si te interesa saber cómo funciona nuestra configuración, puedes visitar el artículo de Matthew "[Multilingual Jekyll: How *The Programming Historian* Does That](https://matthewlincoln.net/2020/03/01/multilingual-jekyll.html)" en su blog (solo disponible en inglés). **Gracias** Matt por hacer esto posible y por entrenar al equipo técnico.
 
 ## Nuevos reconocimientos 
 
@@ -36,17 +36,17 @@ Este mes [Silvia Gutiérrez De la Torre](https://sgutierrez.seewes.de) se unió 
 
 ## Nuevos mecenas
 
-Los miembros de *Programming Historian* quieren expresar su agradecimiento a los diecisiete nuevos [suscriptores de Patreon](https://www.patreon.com/theprogramminghistorian) de este trimestre. Con vuestras donaciones de $1, $5 o $15 mensuales nos estáis ayudando a continuar nuestro esfuerzo para dar acceso abierto a lecciones a cualquier persona que tenga interés en aprender métodos digitales y cuente con una conexión a internet. 
+Los miembros de *Programming Historian* quieren expresar su agradecimiento a los diecisiete nuevos [suscriptores de Patreon](https://www.patreon.com/theprogramminghistorian) de este trimestre. Con vuestras donaciones de $1, $5 o $15 mensuales nos estáis ayudando a continuar nuestro esfuerzo para ofrecer lecciones en acceso abierto a cualquier persona que tenga interés en aprender métodos digitales y cuente con una conexión a internet. 
 
 También nos es grato anunciar que la [Biblioteca de KU Leuven](https://twitter.com/KU_Leuven) se ha convertido en nuestro miembro fundador del [Programa de Instituciones Asociadas](https://programminghistorian.org/es/apoyanos). Su apoyo fortalece nuestra plataforma de publicación en acceso abierto. Dank je wel! Vielen Dank! ¡Gracias!
 
 ## Presentaciones en conferencias
 
-Varios de nuestros miembros editoriales iban a presentar nuestro trabajo en varias conferencias estos meses. No obstante, para mantener a todo el mundo a salvo, todas estas conferencias han sido pospuestas o canceladas. 
+Varios de nuestros miembros editoriales iban a presentar nuestro trabajo en diferentes conferencias estos meses. No obstante, para mantener a todo el mundo a salvo, todas estas conferencias han sido pospuestas o canceladas. 
 
 ## Nuevas lecciones
 
-Gracias a nuestra red de autores, revisores y editores, continuamos publicando  lecciones en diferentes idiomas. Nuestras últimas lecciones son:
+Gracias a nuestra red de autores, revisores y editores, continuamos publicando lecciones en diferentes idiomas. Nuestras últimas lecciones son:
 
 - [Working with bactches of PDF files](https://programminghistorian.org/en/lessons/working-with-batches-of-pdf-files) by Moritz Mähr
 
