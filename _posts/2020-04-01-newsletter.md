@@ -16,7 +16,7 @@ In the first trimester of 2020 the project continues to expand in several ways: 
 
 ## A Multilingual Journal with Specific Settings
 
-Our technical lead and editorial member Matthew Lincoln is at the front of our internationalization efforst to have a multilingual journal on a static site in GitHub pages. He has made it possible for the user to switch between languages easily and, at the same time, he has created an intuitive system for our editorial members to populate the journal in one or more languages, as needed. 
+Our technical lead and editorial member Matthew Lincoln is at the front of our internationalization effort to have a multilingual journal on a static site in GitHub pages. He has made it possible for the user to switch between languages easily and, at the same time, he has created an intuitive system for our editorial members to populate the journal in one or more languages, as needed. 
 
 There are multiple settings to create a bilingual or multilingual Jekyll site and our ways are not recommended for novice level users of Jekyll. However, if you are interested in learning about how our settings work, visit Matthew's post "[Multilingual Jekyll: How *The Programming Historian* Does That](https://matthewlincoln.net/2020/03/01/multilingual-jekyll.html)" on his blog (available in English only). **Thank you** Matt for making this possible and also for training our technical team!
 
@@ -48,7 +48,7 @@ Our members were set to present at several conferences these upcoming months. Ho
 
 Thanks to our network of authors, reviewers and editors, we continue to publish lessons and translations in different languages. Our new lessons are: 
 
-- [Working with bactches of PDF files](https://programminghistorian.org/en/lessons/working-with-batches-of-pdf-files) by Moritz Mähr
+- [Working with batches of PDF files](https://programminghistorian.org/en/lessons/working-with-batches-of-pdf-files) by Moritz Mähr
 
   Learn how to perform OCR and text extraction with free command line tools like Tesseract and Poppler and how to get an overview of large numbers of PDF documents using topic modeling.
 
