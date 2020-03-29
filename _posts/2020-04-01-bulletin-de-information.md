@@ -1,5 +1,5 @@
 ---
-title: Newsletter de fin d'année 2019
+title: Première newsletter de 2020
 authors: 
 - Jennifer Isasi
 layout: post
