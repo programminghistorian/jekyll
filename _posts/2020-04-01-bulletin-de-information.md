@@ -14,7 +14,7 @@ categories: posts
 
 Au cours du premier trimestre de 2020, le projet continue de se développer de plusieurs manières: nous avons publié de nouvelles leçons, nous avons accueilli deux nouveaux membres et nous avons aussi bénéficié de nombreux nouveaux soutiens. Par ailleurs, nous avons eu plus de 360 000 visites, le mois de février ayant été le plus fréquenté (134 722). Les utilisateurs de la ville de Bengaluru (Inde) sont ceux qui ont le plus visité le *Programming Historian*. À vous tous, merci de faire confiance à nos leçons pour apprendre ou pratiquer les méthodes numériques.
 
-## Un journal multilingue avec des paramètres spécifiques
+## Paramétrer le site web d'une revue multilingue
 
 C'est notre responsable technique et membre de l'équipe de rédaction, Matthew Lincoln, qui mène notre effort d'internationalisation, en nous permettant de disposer d'un site statique hébergé sur GitHub suffisamment performant pour une revue multilingue. Grâce à son travail, les utilisateurs peuvent naviguer facilement entre les versions langagières, de même que notre équipe peut alimenter la revue de contenus de trois langues selon les besoins.
 
