@@ -10,7 +10,7 @@ categories: posts
 
 > **Un message sur Covid-19**
 >
-> 2020 a démarré de manière vraiment inattendue; ainsi, bien que le *Programming Historian* continue ses activités pour offrir des leçons en accès libre sur les méthodes numériques pour les humanistes, nous sommes un peu au ralenti. C'est que nous voulons laisser à notre équipe de rédaction, à nos collaborateurs bénévoles et à notre public le temps de faire face à cette situation inédite en prendre soin d'eux-mêmes. Restez donc à la maison, si vous le pouvez. Et si votre état d'esprit le permet, profitez de votre temps pour acquérir de nouvelles compétences avec nous ou écrire une leçon.
+> 2020 a démarré de manière vraiment inattendue; ainsi, bien que le *Programming Historian* continue ses activités pour offrir des leçons en accès libre sur les méthodes numériques pour les humanistes, nous sommes un peu au ralenti. C'est que nous voulons laisser à notre équipe de rédaction, à nos collaborateurs bénévoles et à notre public le temps de faire face à cette situation inédite et prendre soin d'eux-mêmes. Restez donc à la maison, si vous le pouvez. Et si votre état d'esprit le permet, profitez de votre temps pour acquérir de nouvelles compétences avec nous ou écrire une leçon.
 
 Au cours du premier trimestre de 2020, le projet continue de se développer de plusieurs manières: nous avons publié de nouvelles leçons, nous avons accueilli deux nouveaux membres et nous avons aussi bénéficié de nombreux nouveaux soutiens. Par ailleurs, nous avons eu plus de 360 000 visites, le mois de février ayant été le plus fréquenté (134 722). Les utilisateurs de la ville de Bengaluru (Inde) sont ceux qui ont le plus visité le *Programming Historian*. À vous tous, merci de faire confiance à nos leçons pour apprendre ou pratiquer les méthodes numériques.
 
@@ -24,7 +24,7 @@ Le paramétrage d'un site bilingue ou multilingue de Jekyll peut s'avérer compl
 
 Nous avons le plaisir d'annoncer que le Canadian Social Knowledge Institute (C-SKI) a distingué la contribution du *Programming Historian* aux ressources en accès libre en nous attribuant leur bourse science ouverte. En plus de la distinction, la bourse couvrait les frais de participation à l'école d'été sur les humanitéd numériques (DHSI) 2020 de l'Université de Victoria, Canada, entretemps reportée à cause de la situation liée au Covid-19. Un grand merci pour cette distinction!
 
-En outre, Anna-Maria Sichani, memebre de notre comité de rédaction, a reçu une [bourse du Software Sustainability Institute pour 2020](https://software.ac.uk/blog/2020-01-10-announcing-2020-software-sustainability-institute-fellows), une initiative pour la pérennité des logiciels utilisés dans la recherche. Félicitations, Anna-Maria!
+En outre, Anna-Maria Sichani, membre de notre comité de rédaction, a reçu une [bourse du Software Sustainability Institute pour 2020](https://software.ac.uk/blog/2020-01-10-announcing-2020-software-sustainability-institute-fellows), une initiative pour la pérennité des logiciels utilisés dans la recherche. Félicitations, Anna-Maria!
 
 ## Nouvelles collaborations
 
