@@ -36,7 +36,7 @@ Este mes [Silvia Gutiérrez De la Torre](https://sgutierrez.seewes.de) se unió 
 
 ## Nuevos mecenas
 
-Los miembros de *Programming Historian* quieren expresar su agradecimiento a los diecisiete nuevos [suscriptores de Patreon](https://www.patreon.com/theprogramminghistorian) de este trimestre. Con vuestras donaciones de $1, $5 o $15 mensuales nos estáis ayudando a continuar nuestro esfuerzo para ofrecer lecciones en acceso abierto a cualquier persona que tenga interés en aprender métodos digitales y cuente con una conexión a internet. 
+Los miembros de *Programming Historian* quieren expresar su agradecimiento a los veinte nuevos [suscriptores de Patreon](https://www.patreon.com/theprogramminghistorian) de este trimestre. Con vuestras donaciones de $1, $5 o $15 mensuales nos estáis ayudando a continuar nuestro esfuerzo para ofrecer lecciones en acceso abierto a cualquier persona que tenga interés en aprender métodos digitales y cuente con una conexión a internet. 
 
 También nos es grato anunciar que la [Biblioteca de KU Leuven](https://twitter.com/KU_Leuven) se ha convertido en nuestro miembro fundador del [Programa de Instituciones Asociadas](https://programminghistorian.org/es/apoyanos). Su apoyo fortalece nuestra plataforma de publicación en acceso abierto. Dank je wel! Vielen Dank! ¡Gracias!
 
