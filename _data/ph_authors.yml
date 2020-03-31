@@ -1329,3 +1329,10 @@
   bio:
       en: |
         Moritz Mähr investigates the history of computers and migration at ETH Zurich in Switzerland.
+
+- name: Jairo Melo
+  team: false
+  orcid: 0000-0002-2020-1163
+  bio:
+      es: |
+        Jairo Melo es Doctor en historia por El Colegio de Michoacán. Es investigador independiente en historia digital y humanidades digitales.
