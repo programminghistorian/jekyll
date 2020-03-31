@@ -36,7 +36,7 @@ Bienvenue à Marie-Christine et à Silvia!
 
 ## Nouveaux soutiens
 
-Les membres de *Programming Historian* tiennent à exprimer leur reconnaissance aux dix-sept nouveaux [abonnés Patreon](https://www.patreon.com/theprogramminghistorian) de ce trimestre. Sachez que, avec un don de 1 $, 5 $ ou 15 $ par mois, vous nous aidez considérablement à créer des tutoriels en accès libre dont toute personne peut bénéficier, à condition qu'elle s'intéresse aux méthodes numériques et qu'elle dispose d'une connexion à Internet!
+Les membres de *Programming Historian* tiennent à exprimer leur reconnaissance aux vingt nouveaux [abonnés Patreon](https://www.patreon.com/theprogramminghistorian) de ce trimestre. Sachez que, avec un don de 1 $, 5 $ ou 15 $ par mois, vous nous aidez considérablement à créer des tutoriels en accès libre dont toute personne peut bénéficier, à condition qu'elle s'intéresse aux méthodes numériques et qu'elle dispose d'une connexion à Internet!
 
 Nous avons aussi le grand plaisin d'annoncer que les bibliothèques de la [Katholieke Universiteit Leuven](https://twitter.com/KU_Leuven), l'université catholique néerlandophone à Louvain, ont noué un [partenariat institutionnel](https://programminghistorian.org/fr/nous-soutenir#partenariat-institutionnel) avec nous! Leur soutien nous permettra d'assurer le développement et la pérennité de notre plateforme de publication en accès libre. Dank je wel! Vielen Dank! Nous vous en remercions!
 
