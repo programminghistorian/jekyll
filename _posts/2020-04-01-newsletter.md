@@ -36,7 +36,7 @@ Welcome Marie-Christine and Silvia!
 
 ## New Supporters 
 
-*Programming Historian* members would like to express their gratitute to the seventeen new [Patreon subscribers](https://www.patreon.com/theprogramminghistorian) of the trimester. With your $1, $5 or $15 donation per month, you are helping us continue our efforts to provide open access lessons for everyone with an interest in digital methods and a connection to the Internet! 
+*Programming Historian* members would like to express their gratitute to the twenty new [Patreon subscribers](https://www.patreon.com/theprogramminghistorian) of the trimester. With your $1, $5 or $15 donation per month, you are helping us continue our efforts to provide open access lessons for everyone with an interest in digital methods and a connection to the Internet! 
 
 We are also thrilled and honored to announce that [KU Leuven Libraries](https://twitter.com/KU_Leuven) became our founding [Institutional Partner Programme](https://programminghistorian.org/en/support-us#institutional-partner-programme) member! Their support will strengthen our open access publishing platform.  Dank je wel! Vielen Dank! Thank you!
 
