@@ -33,7 +33,7 @@ Actualmente el <a href="https://omeka.org" target="_blank">proyecto Omeka</a> se
   Esta lección plantea modificaciones menores a la base de datos y archivos de la plataforma. Antes de iniciar realice una copia de seguridad de toda la instalación o haga las pruebas con una instalación nueva que no comprometa información actualmente en uso.
 </div>
 
-Algunos de los ejercicios planteados en esta lección requieren un repositorio con una cantidad de elementos (por lo menos una decena). Para facilitar el ejercicio puede descargar un dataset con elementos, colecciones y tipos de elementos desde <a href="\jekyll\assets\construir-repositorio-de-fuentes">este repositorio</a>
+Algunos de los ejercicios planteados en esta lección requieren un repositorio con una cantidad de elementos (por lo menos una decena). Para facilitar el ejercicio puede descargar un dataset con elementos, colecciones y tipos de elementos desde <a href="/assets/construir-repositorio-de-fuentes">este repositorio</a>
 
 # Introducción
 
