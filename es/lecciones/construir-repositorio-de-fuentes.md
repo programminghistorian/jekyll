@@ -16,8 +16,7 @@ difficulty: 2
 activity: presenting
 topics:
 - website
-abstract: |
-   "Esta lección profundiza en algunos aspectos avanzados de Omeka Classic con los cuales se facilita el control, administración y personalización del sistema para el desarrollo de repositorios de fuentes históricas."
+abstract: "Esta lección profundiza en algunos aspectos avanzados de Omeka Classic con los cuales se facilita el control, administración y personalización del sistema para el desarrollo de repositorios de fuentes históricas."
 ---
 
 # Contenido
