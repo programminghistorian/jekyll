@@ -24,7 +24,7 @@ Hay muchas formas de crear páginas Jekyll bilingües o multilingües y no recom
 
 Es un orgullo anunciar que el Instituto Canadiense del Conocimiento Social (Canadian Social Knowledge Institute, C-SKI) ha reconocido la contribución de *Programming Historian* a los recursos en acceso abierto con su Premio de Investigación en Abierto (Open Scholarship Award). El reconocimiento incluía la matrícula para participar en el DHSI 2020 en Vitoria, Canada, ahora pospuesto. ¡Gracias!
 
-Por otro lado, nuestra editora Anna-Maria Sichani ha conseguido una [Beca del Instituto de Sostenibilidad de Software 2020](https://software.ac.uk/blog/2020-01-10-announcing-2020-software-sustainability-institute-fellow), una iniciativa enfocada en la mejora de la sostenibilidad de software para asegurar su continuación y apoyar la investigación en el presente y el futuro. ¡Felicidades Anna-Maria! 
+Por otro lado, nuestra editora Anna-Maria Sichani ha conseguido una [Beca del Instituto de Sostenibilidad de Software 2020](https://software.ac.uk/blog/2020-01-10-announcing-2020-software-sustainability-institute-fellows), una iniciativa enfocada en la mejora de la sostenibilidad de software para asegurar su continuación y apoyar la investigación en el presente y el futuro. ¡Felicidades Anna-Maria! 
 
 ## Nuevas miembros de PH
 
