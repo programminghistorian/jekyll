@@ -14,7 +14,8 @@ reviewers:
 - José Antonio Motilla
 difficulty: 2
 activity: presenting
-topics: [website]
+topics:
+- website
 abstract: |
    "Esta lección profundiza en algunos aspectos avanzados de Omeka Classic con los cuales se facilita el control, administración y personalización del sistema para el desarrollo de repositorios de fuentes históricas."
 ---
@@ -484,6 +485,6 @@ Ahora la labor queda en tus manos, ingresa información y experimenta con la pla
 [^instrucciones_autom_xampp]: Las instrucciones las puedes encontrar en <https://jairomelo.github.io/tutoriales/ayuda/script-iniciar-xampp-ubuntu>
 [^transifex]: Es recomendable que antes de iniciar una tarea de traducción completa de la plataforma se consulte el sitio oficial del proyecto de traducción de omeka en [Transifex](https://www.transifex.com/omeka/omeka/).
 [^omeka.net]: Para el servicio de Omeka.net puede consultar la lección [poniendo Omeka a funcionar](/es/lecciones/poniendo-omeka-a-funcionar#instala-algunos-plugins).
-[^Escher]: Hasta enero de 2018 era común utilizar el "Escher" como complemento para instalar "plugins" con un sólo clic en Omeka Classic, sin embargo, las modificaciones en el registro y publicación de plugins (además de algunos problemas de la versión 1.0.1)  [lo eliminaron del listado oficial de Omeka](https://forum.omeka.org/t/escher-not-working/3044/14). En el momento su mantenimiento corre a cargo de Daniel Berthereau \([Daniel-KM]( https://github.com/Daniel-KM) en GitHub\) y se puede clonar desde <https://github.com/Daniel-KM/Omeka-plugin-Escher.git>.
 [^github_lecc]: En caso de no estar familiarizado con el uso de Git o Github te recomendamos revisar la lección [Introducción al control de versiones con GitHub Desktop](/es/lecciones/introduccion-control-versiones-github-desktop) de Daniel van Strien.
+[^Escher]: Hasta enero de 2018 era común utilizar el "Escher" como complemento para instalar "plugins" con un sólo clic en Omeka Classic, sin embargo, las modificaciones en el registro y publicación de plugins (además de algunos problemas de la versión 1.0.1)  [lo eliminaron del listado oficial de Omeka](https://forum.omeka.org/t/escher-not-working/3044/14). En el momento su mantenimiento corre a cargo de Daniel Berthereau \([Daniel-KM]( https://github.com/Daniel-KM) en GitHub\) y se puede clonar desde <https://github.com/Daniel-KM/Omeka-plugin-Escher.git>.
 [^DefaultSort]: También es posible modificar el orden predeterminado con el plugin [DefaultSort](https://github.com/anuragji/DefaultSort). Cualquier método que se use no afecta el ejercicio aquí presentado.
