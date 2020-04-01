@@ -12,6 +12,8 @@ editors:
 reviewers:
 - María José Afanador-Llach
 - José Antonio Motilla
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/188
+avatar_alt: Personas mirando libros en una librería
 difficulty: 2
 activity: presenting
 topics:
