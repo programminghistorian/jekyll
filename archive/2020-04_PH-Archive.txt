@@ -1,0 +1,250 @@
+2018
+2019
+2019-12_PH-Archive.txt
+2020-02_PH-Archive.txt
+2020-04_PH-Archive.txt
+Meetings
+ProgHistLtd
+Structure
+
+./2018:
+2018-10_BA-workshop
+
+./2018/2018-10_BA-workshop:
+2 - Grant Application.docx
+
+./2019:
+2019-05_Roy-Rosenzweig-prize
+2019-07_IAA-impactmanager
+2019-09_Team-Survey
+2019-09_open-publishing-awards
+2019-10_BritishAcademy_workshop-bid
+
+./2019/2019-05_Roy-Rosenzweig-prize:
+Roy Rosenzweig Prize.docx
+
+./2019/2019-07_IAA-impactmanager:
+2019-09-23_JB-PH_Fast track engagement fund application form - v5.docx
+
+./2019/2019-09_Team-Survey:
+PH Team survey - Sept 2019.docx
+
+./2019/2019-09_open-publishing-awards:
+open_publishing_awards_2019.docx
+
+./2019/2019-10_BritishAcademy_workshop-bid:
+2019-10-23_submitted-WW20200190.pdf
+
+./Meetings:
+2019
+2020
+
+./Meetings/2019:
+Editorial Board Minutes-25-11-19.md
+
+./Meetings/2020:
+Project Board Minutes-23-03-20.md
+Project Board Minutes-31-01-20.md
+
+./ProgHistLtd:
+2019
+2020
+AGM
+Board-of-Directors-Meetings
+Business-Planning
+Finances
+IPP
+Incorporation
+Register-of-Members
+note.txt
+
+./ProgHistLtd/2019:
+2019-09
+2019-10
+
+./ProgHistLtd/2019/2019-09:
+incorporation
+
+./ProgHistLtd/2019/2019-09/incorporation:
+certificate
+memo-of-association
+
+./ProgHistLtd/2019/2019-09/incorporation/certificate:
+061-884384_20190906_12192946.pdf
+
+./ProgHistLtd/2019/2019-09/incorporation/memo-of-association:
+Articles of Association v5.doc
+Articles of Association v5.pdf
+MEMANDARTS_20190905_114736658.pdf
+Table C Articles.pdf
+
+./ProgHistLtd/2019/2019-10:
+Board Letters
+Membershp Letters
+
+./ProgHistLtd/2019/2019-10/Board Letters:
+ProgHist Board Invitation - Melton.pdf
+ProgHist Board Invitation - Papastamkou.pdf
+ProgHist Board Invitation - Quiroga.pdf
+
+./ProgHistLtd/2019/2019-10/Membershp Letters:
+ProgHist Member Invitation - Afanador Llach.pdf
+ProgHist Member Invitation - Gayol.pdf
+ProgHist Member Invitation - Grandjean.pdf
+ProgHist Member Invitation - Isasi.pdf
+ProgHist Member Invitation - Laramée.pdf
+ProgHist Member Invitation - LeBlanc.pdf
+ProgHist Member Invitation - Lincoln.pdf
+ProgHist Member Invitation - Ortiz.pdf
+ProgHist Member Invitation - Parr.pdf
+ProgHist Member Invitation - Rojas Castro.pdf
+ProgHist Member Invitation - Walsh.pdf
+
+./ProgHistLtd/2020:
+
+./ProgHistLtd/AGM:
+
+./ProgHistLtd/Board-of-Directors-Meetings:
+2019
+2020
+
+./ProgHistLtd/Board-of-Directors-Meetings/2019:
+10-2019
+12-2019
+
+./ProgHistLtd/Board-of-Directors-Meetings/2019/10-2019:
+2019-10-03_ProgHistLtd-BoD.docx
+
+./ProgHistLtd/Board-of-Directors-Meetings/2019/12-2019:
+2019-12_ProgHistLtd-BoD.docx
+2019-12_ProgHistLtd-BoD_approved.docx
+
+./ProgHistLtd/Board-of-Directors-Meetings/2020:
+02-2020
+
+./ProgHistLtd/Board-of-Directors-Meetings/2020/02-2020:
+2020-02_ProgHistLtd-BoD.docx
+
+./ProgHistLtd/Business-Planning:
+ProgHist Business Plan 2020-01.docx
+
+./ProgHistLtd/Finances:
+Accounts
+Banking
+Invoices
+Planning
+attic
+
+./ProgHistLtd/Finances/Accounts:
+2019-2020
+
+./ProgHistLtd/Finances/Accounts/2019-2020:
+PROGHISTBUSINESS CURRENT ACCOUNTS LLOYDS FROM 1.10.19.xlsx
+note.md
+~$PROGHISTBUSINESS CURRENT ACCOUNTS LLOYDS FROM 1.10.19.xlsx
+
+./ProgHistLtd/Finances/Banking:
+NotForProfitOrganisations.pdf.pdf
+
+./ProgHistLtd/Finances/Invoices:
+issued
+received
+
+./ProgHistLtd/Finances/Invoices/issued:
+2020-02
+2020-03
+
+./ProgHistLtd/Finances/Invoices/issued/2020-02:
+INVNO_ProgHistLtd_IPP-invoice.docx
+paid
+pending
+
+./ProgHistLtd/Finances/Invoices/issued/2020-02/paid:
+001-2020_ProgHistLtd_IPP-invoice.docx
+001-2020_ProgHistLtd_IPP-invoice.pdf
+
+./ProgHistLtd/Finances/Invoices/issued/2020-02/pending:
+attic
+
+./ProgHistLtd/Finances/Invoices/issued/2020-02/pending/attic:
+001-2020_ProgHistLtd_IPP-invoice.docx
+001-2020_ProgHistLtd_IPP-invoice.pdf
+
+./ProgHistLtd/Finances/Invoices/issued/2020-03:
+paid
+pending
+
+./ProgHistLtd/Finances/Invoices/issued/2020-03/paid:
+
+./ProgHistLtd/Finances/Invoices/issued/2020-03/pending:
+002-2020_ProgHistLtd_IPP-invoice.docx
+
+./ProgHistLtd/Finances/Invoices/received:
+2020-01
+
+./ProgHistLtd/Finances/Invoices/received/2020-01:
+paid
+processing
+
+./ProgHistLtd/Finances/Invoices/received/2020-01/paid:
+EBL Invoice PH Jan2020.pdf
+
+./ProgHistLtd/Finances/Invoices/received/2020-01/processing:
+
+./ProgHistLtd/Finances/Planning:
+2020-03_financial-planning.docx
+2020-03_financial-planning.pdf
+
+./ProgHistLtd/Finances/attic:
+dummy
+
+./ProgHistLtd/Finances/attic/dummy:
+PROGHIST LTD BUSINESS CASH ACCOUNT FROM 1.10.19.xls
+PROGHIST LTD INVOICES RAISED 19-20.xlsx
+PROGHISTBUSINESS CURRENT ACCOUNTS LLOYDS FROM 1.10.19.xls
+example if need to add other costs to invoice.doc
+inv 669 Moat Farm jul19.doc
+inv 670 Astley jul19 -.doc
+
+./ProgHistLtd/IPP:
+IHR-London
+KU-Leuven
+
+./ProgHistLtd/IPP/IHR-London:
+Programming-Historian_UOL-Supplier-SelfCertification-Form.doc
+
+./ProgHistLtd/IPP/KU-Leuven:
+KULeuven-PH_Open Access Membership Agreement_Programming Historian.docx
+KULeuven-PH_Supplier information sheet.docx
+Membership agreement 2020 02 13 Programming Historian.pdf
+~$en Access Membership Agreement_Programming Historian.docx
+
+./ProgHistLtd/Incorporation:
+certificate
+memo-of-association
+
+./ProgHistLtd/Incorporation/certificate:
+061-884384_20190906_12192946.pdf
+
+./ProgHistLtd/Incorporation/memo-of-association:
+Articles of Association v5.doc
+Articles of Association v5.pdf
+MEMANDARTS_20190905_114736658.pdf
+Table C Articles.pdf
+
+./ProgHistLtd/Register-of-Members:
+2019
+2020
+
+./ProgHistLtd/Register-of-Members/2019:
+2019-10_ProgHistLtd_Register-of-Members.docx
+2019-10_ProgHistLtd_Register-of-Members.pdf
+2019-12_ProgHistLtd_Register-of-Members.docx
+2019-12_ProgHistLtd_Register-of-Members.pdf
+
+./ProgHistLtd/Register-of-Members/2020:
+2020-01_ProgHistLtd_Register-of-Members.docx
+2020-02_ProgHistLtd_Register-of-Members.docx
+
+./Structure:
+PH Organisational chart 11-2019.jpg
