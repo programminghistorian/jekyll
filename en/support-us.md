@@ -45,6 +45,7 @@ By joining the Institutional Partner Programme you will receive the following be
 - An annual breakdown of ProgHist Ltd expenditure.
 - Acknowledgement of your contribution on our 'Supporters' page.
 - The right to use Programming Historian Institutional Partner Programme membership in marketing activities.
+- Want advice on running an open access publication, implementing multilingual publishing workflows, or adapting _Programming Historian_ articles for a workshop environment? Your IPP membership gives you access to ad hoc advice from our expert team (on request, not including formal consultancy). 
 - For library partners: a list of articles published by all Programming Historian journals (on request).
 
 Partnership rates for 2020 are set at £1,000 GBP (approximately $1,300 USD / €1,180 EUR) and £150 (approximately $195 USD / €175 EUR) for partners in [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm). Rates are due annually from the date of first payment. Rates are published in January each year.
