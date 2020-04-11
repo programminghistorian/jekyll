@@ -63,11 +63,13 @@ Dans cette exemple, on attribue le contenu “Bonjour le monde!” à la chaîne
 ### Multiplier
 
 Si vous voulez plusieurs copies d’une chaîne de caractères, utilisez l’opérateur de la multiplication (\*). Dans cet exemple, on attribue le contenu “bonjour” trois fois à la chaîne de caractères *message2a* et le contenu “le monde” à la chaîne de caractères *message2b*. Puis, nous imprimons ces deux chaînes.
-	
+
+``` python	
 	message2a = 'bonjour ' * 3
 	message2b = 'le monde'
 	print(message2a + message2b)
 	-> bonjour bonjour bonjour le monde
+```
 
 ### Ajouter
 
@@ -99,7 +101,7 @@ Vous pouvez déterminer le nombre de caractères contenus dans une chaîne de ca
 
 Vous pouvez rechercher *une sous-chaîne* dans une chaîne de caractères et votre programme retournera la position de l'index de départ de cette sous-chaîne. Cela vous sera utile lors de nombreuses opérations plus complexes. Notez que les index sont numérotés de gauche à droite et que le décompte commence à la position 0 et non 1.
 
-```python
+``` python
 	message5 = "bonjour le monde"
 	message5a = message5.find("mond")
 	print(message5a)
@@ -108,16 +110,18 @@ Vous pouvez rechercher *une sous-chaîne* dans une chaîne de caractères et vot
 
 Si la sous-chaîne n'est pas présente, le programme renvoie une valeur de -1.
 
-```python	
+``` python	
 	message6 = "bonjour le monde"
 	message6b = message6.find("oiseau")
 	print(message6b)
 	-> -1
+```
 
 ### Minuscules
 
 Il est parfois utile de convertir une chaîne de caractères en minuscules. Par exemple, il est plus facile pour l'ordinateur de reconnaître que "Parfois" et "parfois" sont le même mot si nous standardisons les casses au préalable.
-	
+
+``` python 	
 	message7 = "BONJOUR LE MONDE"
 	message7a = message7.lower()
 	print(message7a)
