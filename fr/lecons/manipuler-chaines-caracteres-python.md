@@ -218,6 +218,6 @@ Deux autres séquences d'échappement vous permettent d'imprimer des tabulateurs
 
 Pour suivre les leçons à venir, il est important d'avoir les bons fichiers et programmes dans votre répertoire programming-historian. À la fin de chaque chapitre, vous pouvez télécharger le fichier zip de programming-historian pour vous assurer que vous avez le bon code. Notez que nous avons supprimé les fichiers inutiles des leçons précédentes. Votre répertoire peut contenir plus de fichiers et c'est OK !
 
-- programming-historian-1 ([zip](https://programminghistorian.org/assets/python-lessons1.zip))
+- programming-historian-1 ([zip](/assets/python-lessons1.zip))
 
 Super ! Vous êtes maintenant prêt à passer à [la leçon suivante](/en/lessons/from-html-to-list-of-words-1) (en anglais).
