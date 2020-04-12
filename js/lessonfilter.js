@@ -162,7 +162,6 @@ function wireButtons() {
         });
         resetSearch();
       }
-      
     }
   });
   // Search lessons on enter press
