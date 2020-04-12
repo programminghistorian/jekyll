@@ -78,21 +78,24 @@ function lunrSearch(searchString, idx, corpus, featureList) {
       return grouped_kwic
     }).join("").replace(/(\r\n|\n|\r)/gm, "");
 
-    inner_results = "<p>" + inner_results + "</p>";
-    console.log(inner_results.length);
-
     $(`p[id="${elementName}-search_results"]`).css('display', '');
     $(`p[id="${elementName}-search_results"]`).html(inner_results);
   });
-
   featureList.filter((item) => {
-    return docs.find((doc) => doc.title === item.values().title)
+    if (item.visible()){
+      return docs.find((doc) => doc.title === item.values().title)
+    }
   });
   featureList.update()
-  // featureList.search(searchString, ['content']);
-  $('.abstract').next().css('display', 'none');
+  $('.abstract').css('display', 'none');
 }
 
+function resetSearch() {
+  $('#search').val('');
+  $('.search_results').css('display', 'none');
+  $('.search_results').html('');
+  $('.abstract').css('display', 'block');
+};
 
 function wireButtons() {
 
@@ -108,7 +111,7 @@ function wireButtons() {
   // We need a stateObj for adjusting the URIs on button clicks, but the value is moot for now; could be useful for future functionality.
   var stateObj = { foo: "bar" };
 
-  // Get search indices and corpuses. Right now only trying on English
+  // Get search indices and corpuses using URI to make a call to search-index for each language
   let idx;
   let corpus;
   const language = uri.toString().split('/').slice(-3)[0];
@@ -117,7 +120,8 @@ function wireButtons() {
   });
   $.getJSON(`https://programminghistorian.org/${language}/search.json`).done(response => {
     corpus = response;
-    $('#search').attr("placeholder", "Search lessons...");
+    $('#search').attr("placeholder", "Type search terms...");
+    $('#search-button').prop('disabled', false);
   });
 
   // Example of an async version... not sure it works though
@@ -133,22 +137,38 @@ function wireButtons() {
   // }
   // request();
 
-  // Filter lessons on search
-  $('#search').on('keyup', function () {
-    const searchString = $(this).val();
-    
+  // Search lessons on button click
+  $("#search-button").on("click", () => {
+
+    // Get search string
+    const searchString = $("#search").val();
+
+    // Check that's it's not empty
     if (searchString.length > 0) {
       lunrSearch(searchString, idx, corpus, featureList);
     } else {
-      // Reset filtering and perform default sort
-      $('.search_results').css('display', 'none');
-      $('.search_results').html('');
-      $('.abstract').next().css('display', '');
-      featureList.filter();
-      featureList.sort('date', {
-        order: "desc"
-      });
-      featureList.update()
+      // If empty check if topic or activity selected
+      if (document.querySelector('.current') === null) {
+        // Run reset 
+        $('#filter-none').click();
+      } else {
+        // Return filter lessons based on URI
+        var filterType = uri.toString().split('?').slice(-1).pop().split('=')[0];
+        var type = uri.toString().split('?').slice(-1).pop().split('=').splice(-1)[0];
+        featureList.filter(function (item) {
+          var topicsArray = item.values().topics.split(/\s/);
+          var condition = filterType == 'topic' ? topicsArray.includes(type) : item.values().activity == type;
+          return condition ? true : false;
+        });
+        resetSearch();
+      }
+      
+    }
+  });
+  // Search lessons on enter press
+  $('#search').on('keyup', (event) => {
+    if (event.which == 13) {
+      $("#search-button").click();
     }
     // featureList.search(searchString, ['content']);
     // featureList.fuzzySearch(searchString, ['content']); // List.js has a fuzzy search method but I get fewer results with it than the regular search method. We could create are own fuzzy search function here and then use List.js filtering instead of search.
@@ -166,8 +186,7 @@ function wireButtons() {
 
       applySortFromURI(uri,featureList);
   });
-
-
+  
   // When the reset button is clicked
   $('#filter-none').click(function() {
       // Remove highlighting from filter buttons
@@ -175,6 +194,9 @@ function wireButtons() {
 
       // Reset filter results header
       $('#results-value').text($('#results-value').text());
+
+      // Reset search results
+      resetSearch();
 
       // Reset uri to remove query params
       uri.search("");

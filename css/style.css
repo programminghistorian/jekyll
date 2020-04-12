@@ -320,7 +320,7 @@ Lessons Index
   *****************/
 
   #search {
-    width:99.5%;
+    width:60%;
     clear:both;
     margin-bottom:1rem;
     background-color:#fefefe;
@@ -332,6 +332,20 @@ Lessons Index
     border-radius: 3px;
     display:inline-block;
     text-transform:uppercase;
+    text-decoration: none;
+  }
+
+  #search-button {
+    background-color: #efefef;
+    color: #666;
+    width: 39%;
+    font: .9rem/1.1rem 'Open Sans',
+    sans-serif;
+    padding: .4rem .6rem;
+    border: none;
+    border-radius: 3px;
+    display: inline-block;
+    text-transform: uppercase;
     text-decoration: none;
   }
 
