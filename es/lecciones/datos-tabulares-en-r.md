@@ -1,5 +1,5 @@
 ---
-title: 
+title:
    Datos tabulares en R
 authors:
 - Taryn Dewar
@@ -118,7 +118,7 @@ Aquí está la lista de variables que hemos creado de momento:
 
 ```
 > ls()
-[1] "AirPassengers" "Ene1949"   
+[1] "AirPassengers" "Ene1949"  
 ```
 
 Tenemos la variable <code class="highlighter-rouge">AirPassengers</code> y la variable <code class="highlighter-rouge">Ene1949</code>. Si borramos la variable <code class="highlighter-rouge">Ene1949</code> y reescribimos <code class="highlighter-rouge">ls()</code>, veremos:
@@ -430,7 +430,7 @@ También puedes contruir una matriz usando <code class="highlighter-rouge">matri
 
 La primera parte de la función es la lista de números. Después, puedes determinar cuántas filas (<code class="highlighter-rouge">nrow=</code>) (número de filas) o columnas (<code class="highlighter-rouge">ncol=</code>) (número de columnas) tendrá la matriz.
 
-La función <code class="highlighter-rouge">apply()</code> (aplicar) te permite realizar la misma función en cada fila o columna de una matriz. Hay tres partes en la función <code class="highlighter-rouge">apply</code>, en la que tienes que seleccionar: la matriz que estás utilizando, los términos que quieres usar y la función que quieres realizar sobre la matriz:  
+La función <code class="highlighter-rouge">apply()</code> (aplicar) te permite realizar la misma función en cada fila o columna de una matriz. Hay tres partes en la función <code class="highlighter-rouge">apply</code>, en la que tienes que seleccionar: la matriz que estás utilizando, los términos que quieres usar y la función que quieres realizar sobre la matriz:
 
 ```
 > Crimen
@@ -498,7 +498,7 @@ Usar las matrices puede ser útil si estás trabajando con una cantidad pequeña
 
 Ahora que has practicado con datos simples, estás preparado/a para trabajar con tus propios datos. Estos posiblemente están en una hoja de cálculo. ¿Cómo puedes trabajar con estos datos en R? Hay varias formas de hacer esto. La primera es cargar la hoja de cálculo directamente en R. Otra forma es importar un archivo CSV (valores separados por comas) o TXT (de texto) a R.
 
-Para cargar un archivo de Excel directamente a la consola de R, primero tienes que instalar el paquete <code class="highlighter-rouge">readxl</code> (leer archivo excel). Para hacer esto, escribe <code class="highlighter-rouge">install.packages("readxl")</code> en la consola y pulsa Intro. Puede que tengas que comprobar que el paquete se ha instalado en la consola clicando la pestaña 'Packages&Data' (paquetes y datos) en el menú, seleccionando 'Package Manager'(gerente de paquetes) y después clicando en la caja junto al paquete <code class="highlighter-rouge">readxl</code>. Desde aquí, puedes seleccionar un archivo y cargarlo en R. Abajo tienes un ejemplo de lo que puede parecer cargar un archivo simple de Excel:  
+Para cargar un archivo de Excel directamente a la consola de R, primero tienes que instalar el paquete <code class="highlighter-rouge">readxl</code> (leer archivo excel). Para hacer esto, escribe <code class="highlighter-rouge">install.packages("readxl")</code> en la consola y pulsa Intro. Puede que tengas que comprobar que el paquete se ha instalado en la consola clicando la pestaña 'Packages&Data' (paquetes y datos) en el menú, seleccionando 'Package Manager'(gerente de paquetes) y después clicando en la caja junto al paquete <code class="highlighter-rouge">readxl</code>. Desde aquí, puedes seleccionar un archivo y cargarlo en R. Abajo tienes un ejemplo de lo que puede parecer cargar un archivo simple de Excel:
 
 
 ```
@@ -549,13 +549,13 @@ Para más información sobre R, visita el [Manual de  R](https://cran.r-project.
 
 También hay numerosos tutoriales de R online, incluyendo:
 
-* [R: A self-learn tutorial](https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf) (en inglés) - este tutorial cubre varias funciones y provee ejercicios para practicar.
+* [R: A self-learn tutorial](http://web.archive.org/web/20191015004305/https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf) (en inglés) - este tutorial cubre varias funciones y provee ejercicios para practicar.
 * [DataCamp Introducción a R](https://www.datacamp.com/community/open-courses/introduccion-a-r) (en español) - este es un curso online gratuito que te ofrece comentarios sobre tu código para ayudarte a identificar errores y aprender a escribir código más eficientemente.
 
 Finalmente, un buen recurso para los historiadores digitales es el libro [_Digital History Methods in R_](http://dh-r.lincolnmullen.com) de Lincoln Mullen.
 
 ## Notas
 
-[^1]: Box, G. E. P., Jenkins, G. M. and Reinsel, G. C. (1976), *Time Series Analysis, Forecasting and Control*. Third Edition. Holden-Day. Series G. 
+[^1]: Box, G. E. P., Jenkins, G. M. and Reinsel, G. C. (1976), *Time Series Analysis, Forecasting and Control*. Third Edition. Holden-Day. Series G.
 [^2]: Henderson and Velleman (1981), *Building multiple regression models interactively*. Biometrics, 37, 391Ð411.
-[^3]: Nota de la traductora: un galón equivale a 3,78 litros y una milla a 1,6 kilómetros. 
+[^3]: Nota de la traductora: un galón equivale a 3,78 litros y una milla a 1,6 kilómetros.
