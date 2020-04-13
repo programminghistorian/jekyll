@@ -53,7 +53,10 @@ function applySortFromURI(uri,featureList) {
 }
 
 function lunrSearch(searchString, idx, corpus, featureList) {
+  // Create lunr search with initial search string
   const results = idx.search(searchString);
+
+  // Get docs that contain the search string
   var docs = results.filter(result => corpus.some(doc => result.ref === doc.url)).map(result => {
     let doc = corpus.find(o => o.url === result.ref);
     return {
@@ -64,6 +67,7 @@ function lunrSearch(searchString, idx, corpus, featureList) {
 
   const BUFFER = 30 // Number of characters to show for kwic-results
   const MAX_KWIC = 3
+  // Create html to show search results using html mark
   docs.map((doc) => {
     let elementName = '/'+doc.url.split('/').slice(3, ).join('/')
     let search_keys = Object.keys(doc.matchData.metadata);
@@ -81,19 +85,24 @@ function lunrSearch(searchString, idx, corpus, featureList) {
     $(`p[id="${elementName}-search_results"]`).css('display', '');
     $(`p[id="${elementName}-search_results"]`).html(inner_results);
   });
+  // Filter featureList to only show items from search results
   featureList.filter((item) => {
     if (item.visible()){
       return docs.find((doc) => doc.title === item.values().title)
     }
   });
   featureList.update()
+  // Hide original abstracts
   $('.abstract').css('display', 'none');
 }
 
 function resetSearch() {
+  // Empty search input
   $('#search').val('');
+  // Hide and empty search results
   $('.search_results').css('display', 'none');
   $('.search_results').html('');
+  // Show original abstract results
   $('.abstract').css('display', 'block');
 };
 
@@ -114,14 +123,30 @@ function wireButtons() {
   // Get search indices and corpuses using URI to make a call to search-index for each language
   let idx;
   let corpus;
-  const language = uri.toString().split('/').slice(-3)[0];
-  $.getJSON(`https://programminghistorian.github.io/search-index/indices/index${language.toUpperCase()}.json`).done(response => {
-    idx = lunr.Index.load(JSON.parse(JSON.stringify(response)));
-  });
-  $.getJSON(`https://programminghistorian.org/${language}/search.json`).done(response => {
-    corpus = response;
-    $('#search').attr("placeholder", "Type search terms...");
-    $('#search-button').prop('disabled', false);
+
+  // Load search data
+  function loadSearchData() {
+    // Get language specific corpus and index
+    const language = uri.toString().split('/').slice(-3)[0];
+    $.getJSON(`https://programminghistorian.github.io/search-index/indices/index${language.toUpperCase()}.json`).done(response => {
+      idx = lunr.Index.load(JSON.parse(JSON.stringify(response)));
+    });
+    $.getJSON(`https://programminghistorian.org/${language}/search.json`).done(response => {
+      corpus = response;
+      // Enable search input and button once data loaded
+      $('#search').attr("placeholder", "Type search terms...");
+      $('#search-button').prop('disabled', false);
+    });
+  }
+
+  // Enable search on button click
+  $("#enable-search-div").on("click", () => {
+    // Start loading search data
+    loadSearchData();
+
+    // Hide enable button and show search input
+    $("#enable-search-div").css("display", "none");
+    $("#search-div").css("display", "");
   });
 
   // Example of an async version... not sure it works though
@@ -145,14 +170,15 @@ function wireButtons() {
 
     // Check that's it's not empty
     if (searchString.length > 0) {
+      // Call lunr search
       lunrSearch(searchString, idx, corpus, featureList);
     } else {
       // If empty check if topic or activity selected
       if (document.querySelector('.current') === null) {
-        // Run reset 
+        // If none selected, then run full reset
         $('#filter-none').click();
       } else {
-        // Return filter lessons based on URI
+        // Otherwise return filter lessons based on URI
         var filterType = uri.toString().split('?').slice(-1).pop().split('=')[0];
         var type = uri.toString().split('?').slice(-1).pop().split('=').splice(-1)[0];
         featureList.filter(function (item) {
@@ -160,6 +186,7 @@ function wireButtons() {
           var condition = filterType == 'topic' ? topicsArray.includes(type) : item.values().activity == type;
           return condition ? true : false;
         });
+        // Call reset search to empty out search values
         resetSearch();
       }
     }
@@ -169,8 +196,6 @@ function wireButtons() {
     if (event.which == 13) {
       $("#search-button").click();
     }
-    // featureList.search(searchString, ['content']);
-    // featureList.fuzzySearch(searchString, ['content']); // List.js has a fuzzy search method but I get fewer results with it than the regular search method. We could create are own fuzzy search function here and then use List.js filtering instead of search.
   });
 
   // When a filter button is clicked

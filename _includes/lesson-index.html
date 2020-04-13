@@ -24,9 +24,12 @@
 <!--
 this div ('lesson-list', referenced in lessonfilter.js) needs to contain the sort button/elements AND the actual list for the sort buttons to work
 -->
-<div style="text-align: center; margin-bottom: 1rem;">
+<div id="search-div" style="text-align: center; margin-bottom: 1rem; display: none;">
   <input id="search" type="text" placeholder="LOADING SEARCH...">
   <button id="search-button" disabled>SEARCH LESSONS</button>
+</div>
+<div id="enable-search-div" style="text-align: center; margin-bottom: 1rem;">
+  <button id="enable-search-button" style="width: 100%;">ENABLE SEARCH LESSONS?</button>
 </div>
 
 <div id="lesson-list">

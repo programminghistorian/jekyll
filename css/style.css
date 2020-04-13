@@ -335,7 +335,8 @@ Lessons Index
     text-decoration: none;
   }
 
-  #search-button {
+  #search-button,
+  #enable-search-button {
     background-color: #efefef;
     color: #666;
     width: 39%;
