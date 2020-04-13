@@ -7,4 +7,5 @@ title: The Programming Historian
   {% include homepage_block.html lang="en" %}
   {% include homepage_block.html lang="es" %}
   {% include homepage_block.html lang="fr" %}
+  {% include homepage_block.html lang="pt" %}
 </div>
