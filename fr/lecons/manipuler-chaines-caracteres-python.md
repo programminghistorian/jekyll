@@ -55,9 +55,9 @@ Ce terme signifie “joindre des chaînes de caractères”. Ce processus est ap
 Dans cette exemple, on attribue le contenu “Bonjour le monde!” à la chaîne de caractères “message1”.
 
 ```python
-	message1 = 'Bonjour le' + ' ' + 'monde!'
+	message1 = 'Bonjour le' + ' ' + 'monde'
 	print(message1)
-	-> Bonjour le monde!
+	-> Bonjour le monde
 ```
 
 ### Multiplier
