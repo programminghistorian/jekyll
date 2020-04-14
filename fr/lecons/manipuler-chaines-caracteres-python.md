@@ -191,7 +191,7 @@ Les crochets ont une fonction différente. Si vous concevez une chaîne de carac
 
 ## Séquence d'échappement
 
-Que faire lorsque vous devez inclure des guillemets dans une chaîne de caractères ? Vous ne voulez pas que l'interpréteur Python se méprenne et mette fin à la chaîne lorsqu'il rencontre l'un de ces caractères. En Python, vous pouvez placer une barre oblique inversée (\) devant un guillemet pour que ce guillemet ne termine pas la chaîne. C'est ce qu'on appelle les *séquences d'échappement*.
+Que faire lorsque vous devez inclure des guillemets dans une chaîne de caractères ? Vous ne voulez pas que l'interpréteur Python se méprenne et mette fin à la chaîne lorsqu'il rencontre l'un de ces caractères. En Python, vous pouvez placer une barre oblique inversée devant un guillemet pour que ce guillemet ne termine pas la chaîne. C'est ce qu'on appelle les *séquences d'échappement*.
 
 ```python	
 	print('\"') 
