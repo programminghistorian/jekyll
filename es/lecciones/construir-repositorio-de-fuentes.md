@@ -86,7 +86,7 @@ Deberás tener en el menú de inicio de Windows un menú de XAMPP con tres opcio
 
 Errores comunes en Windows que pueden surgir de este proceso pueden derivarse de haber instalado la máquina virtual sin desactivar el antivirus, conflictos con otras máquinas virtuales previamente instaladas, o haber escogido un directorio, para el caso de Windows 10, en la carpeta `C:\Program Files (x86)`. En todos estos casos la opción más sencilla consiste en reinstalar la máquina y evitar estas advertencias.
 
-En el caso de Linux tal vez sea necesario instalar instancias adicionales como "net-tools"[^instalar-net-tools]. Si va a utilizar XAMPP de manera frecuente lo más recomendable es crear un *script* para iniciar la aplicación automáticamente en cada reinicio del ordenador[^instrucciones_autom_xampp].
+En el caso de Linux tal vez sea necesario instalar instancias adicionales como "net-tools". Si va a utilizar XAMPP de manera frecuente lo más recomendable es crear un *script* para iniciar la aplicación automáticamente en cada reinicio del ordenador.
 
 ## Gestionar las bases de datos desde *phpMyAdmin*
 
@@ -482,8 +482,6 @@ Ahora la labor queda en tus manos, ingresa información y experimenta con la pla
 [^xampp_instrucciones]: Un video que explica la instalación del software puede consultarse en <https://www.youtube.com/watch?v=h6DEDm7C37A>.
 [^advertencia_Ubuntu]: La ventana de gestión de servidores (*manage servers*) en Linux muestra la opción de activar el servidor `ProFTPD`. Como Omeka se ejecuta con Apache no es necesario iniciarlo.
 [^bitnami_ingreso]: En Bitnami de manera predeterminada el usuario de phpMyAdmin será "root" y la contraseña será la que fue solicitada en la instalación de la máquina virtual.
-[^instalar-net-tools]: Para instalar net-tools sólo debe ejecutar el comando `sudo apt install net-tools`
-[^instrucciones_autom_xampp]: Las instrucciones las puedes encontrar en <https://jairomelo.github.io/tutoriales/ayuda/script-iniciar-xampp-ubuntu>
 [^transifex]: Es recomendable que antes de iniciar una tarea de traducción completa de la plataforma se consulte el sitio oficial del proyecto de traducción de omeka en [Transifex](https://www.transifex.com/omeka/omeka/).
 [^omeka.net]: Para el servicio de Omeka.net puede consultar la lección [poniendo Omeka a funcionar](/es/lecciones/poniendo-omeka-a-funcionar#instala-algunos-plugins).
 [^github_lecc]: En caso de no estar familiarizado con el uso de Git o Github te recomendamos revisar la lección [Introducción al control de versiones con GitHub Desktop](/es/lecciones/introduccion-control-versiones-github-desktop) de Daniel van Strien.
