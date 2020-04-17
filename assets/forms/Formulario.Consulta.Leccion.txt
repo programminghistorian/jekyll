@@ -1,23 +1,23 @@
 # Propuesta para tutorial de Programming Historian
 
-Si estás interesado en escribir un tutorial y enviarlo a Programming Historian, por favor llena este formulario para darle al Consejo Editorial suficientes detalles para valorar tu idea. Si estás teniendo problemas con el formulario puedes contactar al Jefe de Redacción directamente: 
+Si estás interesado en escribir un tutorial y enviarlo a Programming Historian, por favor llena este formulario para darle al Consejo Editorial suficientes detalles para valorar tu idea. Si estás teniendo problemas con el formulario puedes contactar al Jefe de Redacción directamente:
 
-Inglés: Anandi Silva Knuppel (anandi.silva.knuppel@emory.edu)
-Español: Maria José Afanador Llach (mj.afanador28@uniandes.co)
+Inglés: Sarah Melton (sarah.melton@bc.edu)
+Español: Riva Quiroga (riva.quiroga@uc.cl)
 Francés: Sofia Papastamkou (spapastamkou@gmail.com)
 
 ## Acerca de ti
 1. Nombre
 2. Correo electrónico
 
-## Metadatos del tutorial 
+## Metadatos del tutorial
 3. Idioma del envío (elimina según corresponda) English / Español / Français
-4. Título propuesto para el tutorial 
+4. Título propuesto para el tutorial
 5. Resumen del tutorial (3-4 oraciones)
-6. Descripción del caso de estudio (detalles sobre el problema histórico utilizado como ejemplo) 
+6. Descripción del caso de estudio (detalles sobre el problema histórico utilizado como ejemplo)
 7. Resultados de aprendizaje (entre 2-3)
 8. Fase de investigación más relevante para tu tutorial (elimina según corresponda) Adquirir / Transformar / Analizar / Presentar / Preservar
 9. Área de investigación más relevante para tu tutorial (elimina según corresponda) APIs / python / gestión de datos / procesamiento de datos / lectura distante / instalar / datos abiertos enlazados / mapeado / análisis de redes / web scraping / publicación digital / otro
-10. Fecha tentativa de envío 
+10. Fecha tentativa de envío
 11. El tutorial va a utilizar tecnología abierta sin ningún costo para el lector Sí / No
 12. Algún otro comentario para el editor
