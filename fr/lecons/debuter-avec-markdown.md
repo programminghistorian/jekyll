@@ -10,7 +10,7 @@ reviewers:
 - Nancy Lemay
 translator:
 - Sofia Papastamkou
-translation_date: 2020-01-07
+translation_date: 2020-04-10
 translation-reviewer:
 - Déborah Dubald
 - Catherine Paulin
