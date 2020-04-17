@@ -8,7 +8,7 @@ authors:
 reviewers:
 - John Fink
 - Nancy Lemay
-translators:
+translator:
 - Sofia Papastamkou
 translation_date: 2020-01-07
 translation-reviewer:
