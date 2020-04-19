@@ -108,7 +108,7 @@ http://www.crossref.org/schemas/crossref4.3.7.xsd">
         </contributors>
         <publication_date media_type="electronic">
           <year>{{ article_date | date: "%Y" }}</year>
-          <month>{{ article_date | date: "%M" }}</month>
+          <month>{{ article_date | date: "%m" }}</month>
           <day>{{ article_date | date: "%d" }}</day>
         </publication_date>
         <publisher_item>
