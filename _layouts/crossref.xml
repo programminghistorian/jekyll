@@ -30,7 +30,7 @@ http://www.crossref.org/schemas/crossref4.3.7.xsd">
         <issn media_type="print">{{ site.data.snippets.issn[page.lang] }}</issn>
       </journal_metadata>
       <journal_issue>
-        <publication_date media_type="print">
+        <publication_date media_type="electronic">
           <year>{{ issue_year }}</year>
         </publication_date>
         <issue>{{ issue_year | minus: vol_start | plus: 1 }}</issue>
