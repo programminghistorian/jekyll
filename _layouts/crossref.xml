@@ -115,7 +115,7 @@ http://www.crossref.org/schemas/crossref4.3.7.xsd">
           <identifier id_type="other">{{ article.name | remove: ".md" }}</identifier>
         </publisher_item>
         <doi-data>
-          <doi></doi>
+          <doi>{{ article.doi }}</doi>
           <resource>{{ site.liveurl }}{{ article.url }}</resource>
         </doi-data>
       </journal_article>
