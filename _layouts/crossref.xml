@@ -8,8 +8,8 @@ Produce CrossRef XML data for each of our journals and their articles
 <?xml version="1.0" encoding="UTF-8"?>
 <doi_batch version="4.3.7" 
   xmlns="http://www.crossref.org/schema/4.3.7" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.crossref.org/schema/4.3.7
-http://www.crossref.org/schemas/crossref4.3.7.xsd">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.crossref.org/schemas/crossref4.3.7.xsd" 
+  xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1">
   <head>
     <doi_batch_id>{{ site.time | date: "%s" }}</doi_batch_id>
     <timestamp>{{ site.time | date_to_xmlschema }}</timestamp>
@@ -23,9 +23,9 @@ http://www.crossref.org/schemas/crossref4.3.7.xsd">
     {%- assign journal_lessons = site.pages | where: "lang", page.lang | where: "layout", "lesson" -%}
     {%- assign current_year = site.time | date: "%Y" -%}
     {%- assign vol_start = site.data.snippets.volume-start[page.lang] -%}
-    {%- for issue_year in (vol_start..current_year) -%}
+    {% for issue_year in (vol_start..current_year) %}
     <journal>
-      <journal_metadata language="en">
+      <journal_metadata language="{{ page.lang }}">
         <full_title>{{ site.data.snippets.journal-title[page.lang] }}</full_title>
         <issn media_type="print">{{ site.data.snippets.issn[page.lang] }}</issn>
       </journal_metadata>
@@ -35,7 +35,7 @@ http://www.crossref.org/schemas/crossref4.3.7.xsd">
         </publication_date>
         <issue>{{ issue_year | minus: vol_start | plus: 1 }}</issue>
       </journal_issue>
-      {%- for article in journal_lessons -%}
+      {% for article in journal_lessons %}
       {%- if article.translation_date -%}
       {%- assign article_date = article.translation_date -%}
       {%- else -%}
@@ -43,15 +43,23 @@ http://www.crossref.org/schemas/crossref4.3.7.xsd">
       {%- endif -%}
       {%- assign article_year = article_date | date: "%Y" | to_integer -%}
       {%- if issue_year == article_year -%}
-      <journal_article publication_type="full_text" language="{{ page.lang }}">
+
+      <journal_article publication_type="full_text" language="{{ article.lang }}">
         <titles>
           <title>{{ article.title | xml_escape }}</title>
+          {%- if article.original -%}
+          {%- assign original_article_slug = article.original | append: ".md" -%}
+          {% assign original_article = site.pages | where: "name", original_article_slug | first %}
+          <original_language_title language="{{ original_article.lang }}">{{ original_article.title }}</original_language_title>
+          {%- endif -%}
+
         </titles>
-        <jats:abstract>
+        <language>{{ page.lang }}</language>
+        <jats:abstract xml:lang="{{ article.lang }}">
         {{ article.abstract | markdownify | xml_escape }}
         </jats:abstract>
         <contributors>
-        {%- for author in article.authors -%}
+        {% for author in article.authors %}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
@@ -59,8 +67,8 @@ http://www.crossref.org/schemas/crossref4.3.7.xsd">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
-        {%- endfor -%}
-        {%- for author in article.editors -%}
+        {% endfor %}
+        {% for author in article.editors %}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
@@ -68,8 +76,8 @@ http://www.crossref.org/schemas/crossref4.3.7.xsd">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
-        {%- endfor -%}
-        {%- for author in article.translation-editor -%}
+        {% endfor %}
+        {% for author in article.translation-editor %}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
@@ -77,7 +85,7 @@ http://www.crossref.org/schemas/crossref4.3.7.xsd">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
-        {%- endfor -%}
+        {% endfor %}
         {%- for author in article.reviewers -%}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
@@ -86,7 +94,7 @@ http://www.crossref.org/schemas/crossref4.3.7.xsd">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
-        {%- endfor -%}
+        {% endfor %}
         {%- for author in article.translation-reviewer -%}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
@@ -95,7 +103,7 @@ http://www.crossref.org/schemas/crossref4.3.7.xsd">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
-        {%- endfor -%}
+        {% endfor %}
         {%- for author in article.translators -%}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
@@ -104,7 +112,7 @@ http://www.crossref.org/schemas/crossref4.3.7.xsd">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
-        {%- endfor -%}
+        {% endfor %}
         </contributors>
         <publication_date media_type="electronic">
           <year>{{ article_date | date: "%Y" }}</year>
@@ -120,8 +128,8 @@ http://www.crossref.org/schemas/crossref4.3.7.xsd">
         </doi-data>
       </journal_article>
       {%- endif -%}
-      {%- endfor -%}
+      {% endfor %}
     </journal>
-    {%- endfor -%}
+    {% endfor %}
   </body>
 </doi_batch>
