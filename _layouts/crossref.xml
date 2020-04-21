@@ -58,6 +58,10 @@ Produce CrossRef XML data for each of our journals and their articles
         <jats:abstract xml:lang="{{ article.lang }}">
         {{ article.abstract | xml_escape }}
         </jats:abstract>
+        <ai:program name="AccessIndicators">
+          <ai:free_to_read/>
+          <ai:license_ref>https://creativecommons.org/licenses/by/4.0/deed.{{ article.lang }}</ai:license_ref>
+        </ai:program>
         <contributors>
         {% for author in article.authors %}
           {%- assign split_name = author | split: " " -%}
