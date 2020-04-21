@@ -9,7 +9,8 @@ Produce CrossRef XML data for each of our journals and their articles
 <doi_batch version="4.3.7" 
   xmlns="http://www.crossref.org/schema/4.3.7" 
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.crossref.org/schemas/crossref4.3.7.xsd" 
-  xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1">
+  xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" 
+  xmlns:ai="https://www.crossref.org/AccessIndicators.xsd">
   <head>
     <doi_batch_id>{{ site.time | date: "%s" }}-{{ page.lang }}</doi_batch_id>
     <timestamp>{{ site.time | date_to_xmlschema }}</timestamp>
