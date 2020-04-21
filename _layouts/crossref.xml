@@ -27,7 +27,7 @@ Produce CrossRef XML data for each of our journals and their articles
     <journal>
       <journal_metadata language="{{ page.lang }}">
         <full_title>{{ site.data.snippets.journal-title[page.lang] }}</full_title>
-        <issn media_type="print">{{ site.data.snippets.issn[page.lang] }}</issn>
+        <issn media_type="electronic">{{ site.data.snippets.issn[page.lang] }}</issn>
       </journal_metadata>
       <journal_issue>
         <publication_date media_type="electronic">
