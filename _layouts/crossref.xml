@@ -56,7 +56,7 @@ Produce CrossRef XML data for each of our journals and their articles
         </titles>
         <language>{{ page.lang }}</language>
         <jats:abstract xml:lang="{{ article.lang }}">
-        {{ article.abstract | markdownify | xml_escape }}
+        {{ article.abstract | xml_escape }}
         </jats:abstract>
         <contributors>
         {% for author in article.authors %}
