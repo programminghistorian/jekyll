@@ -11,7 +11,7 @@ Produce CrossRef XML data for each of our journals and their articles
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.crossref.org/schemas/crossref4.3.7.xsd" 
   xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1">
   <head>
-    <doi_batch_id>{{ site.time | date: "%s" }}</doi_batch_id>
+    <doi_batch_id>{{ site.time | date: "%s" }}-{{ page.lang }}</doi_batch_id>
     <timestamp>{{ site.time | date_to_xmlschema }}</timestamp>
     <depositor>
       <depositor_name>Sample Master</depositor_name>
