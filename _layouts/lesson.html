@@ -177,7 +177,14 @@ All lesson metadata and alerts should follow the convention of pulling appropria
 
 </header>
 
-<div class="alert alert-warning">
+<div class="alert alert-warning"> 
+{% unless page == translation_source %}
+  <!-- If this lesson is translated, banner pointing to the original language source of this lesson -->
+{{ site.data.snippets.translation-source[source.lang] }} {{ site.data.snippets.language-name[source.lang]}}: <a href="{{ translation_source.url }}">{{ translation_source.title }}</a>
+  {% endunless %}
+</div>
+  
+<div class="alert alert-warning"> 
   {% for candidate in translation_candidates %}
   {% unless page.lang == candidate.lang %}
   <!-- Banner pointing to translations of this lesson when they exist -->
@@ -186,17 +193,17 @@ All lesson metadata and alerts should follow the convention of pulling appropria
       href="{{ candidate.url }}">{{ candidate.title }}</a>
   {% endunless %}
   {% endfor %}
-
-
+  
   {% for candidate in translation_candidates %}
   {% unless page.lang == candidate.lang %}
   <!-- Banner pointing to translations of this lesson when they exist -->
-    {{ site.data.snippets.translation-target[page.lang]}}
+    {{ site.data.snippets.translation-target[candidate.lang]}}
     {{ site.data.snippets.language-name[candidate.lang][page.lang]}}: <a
       href="{{ candidate.url }}">{{ candidate.title }}</a>
   {% endunless %}
   {% endfor %}
-   </div>
+</div>
+
 
   {% if page.retired %}
   <div class="alert alert-warning">
