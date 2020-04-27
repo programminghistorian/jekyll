@@ -4,8 +4,7 @@ title: The Programming Historian
 ---
 
 <div class="container">
-  {% include homepage_block.html lang="en" %}
-  {% include homepage_block.html lang="es" %}
-  {% include homepage_block.html lang="fr" %}
-  {% include homepage_block.html lang="pt" %}
+{% for lc in site.data.snippets.language-list %}
+  {% include homepage_block.html lang=lc %}
+{% endfor %}
 </div>
