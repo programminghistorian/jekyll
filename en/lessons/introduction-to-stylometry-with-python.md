@@ -367,6 +367,12 @@ Let's combine all of the subcorpora into a single corpus for Delta to calculate 
 # Who are we dealing with this time?
 authors = ("Hamilton", "Madison", "Jay", "Disputed", "Shared")
 
+# Convert papers to lowercase to count all tokens of the same word together
+# regardless of case 
+for author in authors:
+    federalist_by_author_tokens[author] = (
+        [tok.lower() for tok in federalist_by_author_tokens[author]])
+
 # Combine every paper except our test case into a single corpus
 whole_corpus = []
 for author in authors:
