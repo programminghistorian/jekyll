@@ -17,7 +17,7 @@ An automatically-generated list of page translation relationships across our pub
   {% assign page_versions =  p | concat: translated_pages %}
   <tr>
     {% for l in site.data.snippets.language-list %}
-    {% assign sp = page_versions | where: "lang", l | first | where_exp: "item", "item.layout == 'lesson" %}
+    {% assign sp = page_versions | where: "lang", l | first | where_exp: "item", "item.layout == 'lesson'" %}
     <td><a href="{{sp.url}}">{{ sp.title }}</a></td>
     {% endfor %}
   </tr>
