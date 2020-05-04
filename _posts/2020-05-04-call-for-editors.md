@@ -7,7 +7,7 @@ categories: posts
 ---
 The English edition of *[The Programming Historian](https://programminghistorian.org/)*  is seeking editors to work actively to solicit and edit lessons. These lessons should focus on providing humanities and social science scholars with the skills to interpret the outputs of digital methods, allowing readers to move from digital data to publishable research.
 
- Managing editor Sarah Melton (Boston College) will offer support on the practices of The Programming Historian’s editorial approaches and policies. In keeping with our commitment to diversity and access to digital humanities, the project team are particularly interested in hearing from women, members of any minority groups, LGBTQ+ members, and citizens of non-English speaking countries.
+ Managing editor Sarah Melton (Boston College) will offer support on the practices of The Programming Historian’s editorial approaches and policies. In keeping with our commitment to diversity and access to digital humanities, the project team are particularly interested in hearing from women, members of any minority groups, LGBTQ+ members, and peoples from the Global South.
 
 Launched in 2012, *The Programming Historian* offers more than 80 novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research. In recent years, the publication has expanded to include Spanish and French editions. *The Programming Historian* is a volunteer-led initiative, controlled entirely by the ‘Editorial Board of the Programming Historian’ with the help of community contributors. Read our reviews:
 
