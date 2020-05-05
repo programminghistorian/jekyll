@@ -17,7 +17,7 @@ activity: analyzing
 topics: [distant-reading]
 abstract: "This lesson introduces three common measures for determining how similar texts are to one another: city block distance, Euclidean distance, and cosine distance. You will learn the general principles behind similarity, the different advantages of these measures, and how to calculate each of them using the SciPy Python library."
 mathjax: true
-avatar-alt: Image of a partial eclipse.
+avatar_alt: Image of a partial eclipse.
 ---
 
 {% include toc.html %}
@@ -32,7 +32,7 @@ Statistical measures of similarity allow scholars to think computationally about
 
 ## Suggested Prior Skills
 
-Though this lesson is primarily geared toward understanding the underlying principles of these calculations, it does assume some familiarity with the Python programming language. Code for this tutorial is written in Python3.6 and uses the Pandas (v0.25.3) and SciPy (v1.3.3) libraries to calculate distances, though it's possible to calculate these same distances using other libraries and other programming languages. For the text processing tasks, you will also use scikit-learn (v0.21.2). I recommend you work through [the *Programming Historian*'s introductory Python lessons](https://programminghistorian.org/en/lessons/introduction-and-installation) if you are not already familiar with Python.
+Though this lesson is primarily geared toward understanding the underlying principles of these calculations, it does assume some familiarity with the Python programming language. Code for this tutorial is written in Python3.6 and uses the Pandas (v0.25.3) and SciPy (v1.3.3) libraries to calculate distances, though it's possible to calculate these same distances using other libraries and other programming languages. For the text processing tasks, you will also use scikit-learn (v0.21.2). I recommend you work through [the *Programming Historian*'s introductory Python lessons](/en/lessons/introduction-and-installation) if you are not already familiar with Python.
 
 ## Installation and Setup
 
@@ -339,7 +339,7 @@ It's crucial to note that this exploratory investigation into text similarity di
 
 # Next Steps
 
-I hope this tutorial gave you a more concrete understanding of basic distance measures as well as a handle on when to choose one over the other. As a next step, and for better results in assessing similarity among texts by their words, you might consider using TF-IDF (Term Frequency–Inverse Document Frequency) instead of raw word counts. TF-IDF is a weighting system that assigns a value to every word in a text based on the relationship between the number of times a word appears in that text (its term frequency) and the number of texts it appears in through the whole corpus (its document frequency). This method is often used as an initial heuristic for a word's distinctiveness and can give the researcher more information than a simple word count. To understand exactly what TF-IDF is and what calculating it entails, see Matthew J. Lavin's [Analyzing Documents with TF-IDF](https://programminghistorian.org/en/lessons/analyzing-documents-with-tfidf). You could take TF-IDF results you made using Lavin's procedure and replace the matrix of word counts in this lesson.
+I hope this tutorial gave you a more concrete understanding of basic distance measures as well as a handle on when to choose one over the other. As a next step, and for better results in assessing similarity among texts by their words, you might consider using TF-IDF (Term Frequency–Inverse Document Frequency) instead of raw word counts. TF-IDF is a weighting system that assigns a value to every word in a text based on the relationship between the number of times a word appears in that text (its term frequency) and the number of texts it appears in through the whole corpus (its document frequency). This method is often used as an initial heuristic for a word's distinctiveness and can give the researcher more information than a simple word count. To understand exactly what TF-IDF is and what calculating it entails, see Matthew J. Lavin's [Analyzing Documents with TF-IDF](/en/lessons/analyzing-documents-with-tfidf). You could take TF-IDF results you made using Lavin's procedure and replace the matrix of word counts in this lesson.
 
 In the future you may use distance measures to look at the most similar samples in a large data set as you did in this lesson. But it's even more likely that you'll encounter distance measures as a near-invisible part of a larger data mining or text analysis approach. For example, [**k-means clustering**](https://en.wikipedia.org/wiki/K-means_clustering) uses **Euclidean distance** by default to determine groups or clusters in a large dataset. Understanding the pros and cons of distance measures could help you to better understand and use a method like **k-means clustering**. Or perhaps more importantly, a good foundation in understanding distance measures might help you to assess and evaluate someone else's digital work more accurately.
 
