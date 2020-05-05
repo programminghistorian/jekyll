@@ -353,6 +353,6 @@ Distance measures are a good first step to investigating your data, but a choice
 
 [^4]: SciPy's `pdist` function outputs what's called a "sparse matrix" to save space and processing power. This output is fine if you're using this as part of a pipeline for another purpose, but we want the "squareform" matrix so that we can see all the results. 
 
-[^5]: I made these results a little easier to read by running identical code in a [Jupyter Notebook](https://programminghistorian.org/en/lessons/jupyter-notebooks). If you run the code on the command line, the results will be the same, but they will be formatted a little differently.
+[^5]: I made these results a little easier to read by running identical code in a [Jupyter Notebook](/en/lessons/jupyter-notebooks). If you run the code on the command line, the results will be the same, but they will be formatted a little differently.
 
 [^6]: It's certainly possible to scale the results of Euclidean or city block distance as well, but it's not done by default.
