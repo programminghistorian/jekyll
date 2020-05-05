@@ -2,7 +2,7 @@
 title: |
     Exploring and Analyzing Network Data with Python
 authors:
-- John Ladd
+- John R. Ladd
 - Jessica Otis
 - Christopher N. Warren
 - Scott Weingart
