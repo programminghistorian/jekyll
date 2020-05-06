@@ -29,7 +29,7 @@ this div ('lesson-list', referenced in lessonfilter.js) needs to contain the sor
   <button id="search-button" disabled>SEARCH LESSONS</button>
 </div>
 <div id="enable-search-div" style="text-align: center; margin-bottom: 1rem;">
-  <button id="enable-search-button" style="width: 100%;">ENABLE SEARCH LESSONS?</button>
+  <button id="enable-search-button" style="width: 100%;">START SEARCHING</button>
 </div>
 
 <div id="lesson-list">
@@ -66,6 +66,9 @@ Yes, this is confusing. But using two differnt classes allows us to separate fun
 <script src='//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js'></script>
 <script src="{{ site.baseurl }}/js/URI.min.js"></script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="{{ site.baseurl }}/js/lunr.stemmer.support.js"></script>
+<script src="{{ site.baseurl }}/js/lunr.fr.js"></script>
+<script src="{{ site.baseurl }}/js/lunr.es.js"></script>
 <script src="{{ site.baseurl }}/js/lessonfilter.js"></script>
 
 <script>

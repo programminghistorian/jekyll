@@ -221,7 +221,7 @@ function wireButtons() {
 
       // Reset filter results header
       $('#results-value').text(featureList.update().items.length);
-      $('#search').val('');
+      
       // Reset search results
       resetSearch();
 
@@ -236,6 +236,13 @@ function wireButtons() {
       featureList.sort('date', { order: "desc" });
       // Reset sort buttons to defaults
       resetSort();
+      resetSearch();
+      // $('#search').val('');
+      // // Hide and empty search results
+      // $('.search_results').css('display', 'none');
+      // $('.search_results').html('');
+      // // Show original abstract results
+      // $('.abstract').css('display', 'block');
   });
 
 
