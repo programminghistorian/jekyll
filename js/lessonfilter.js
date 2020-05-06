@@ -8,7 +8,7 @@ function resetSort() {
 }
 
 
-function applySortFromURI(uri,featureList) {
+function applySortFromURI(uri,featureList, idx={}, corpus=[]) {
 
   console.log("applying sort from URI");
 
@@ -49,10 +49,10 @@ function applySortFromURI(uri,featureList) {
   }
 
   // Performm new sort
-  featureList.sort(sortType, { order: sortOrder });
+  featureList.sort(sortType, {order: sortOrder});
 }
 
-function lunrSearch(searchString, idx, corpus, featureList) {
+function lunrSearch(searchString, idx, corpus, featureList, uri) {
   // Create lunr search with initial search string
   const results = idx.search(searchString);
 
@@ -68,6 +68,7 @@ function lunrSearch(searchString, idx, corpus, featureList) {
   const BUFFER = 30 // Number of characters to show for kwic-results
   const MAX_KWIC = 3
   // Create html to show search results using html mark
+  let elements = []
   docs.map((doc) => {
     let elementName = '/'+doc.url.split('/').slice(3, ).join('/')
     let search_keys = Object.keys(doc.matchData.metadata);
@@ -81,19 +82,32 @@ function lunrSearch(searchString, idx, corpus, featureList) {
       }).join("")
       return grouped_kwic
     }).join("").replace(/(\r\n|\n|\r)/gm, "");
-
-    $(`p[id="${elementName}-search_results"]`).css('display', '');
-    $(`p[id="${elementName}-search_results"]`).html(inner_results);
+    elements.push({'elementName': elementName, 'innerResults': inner_results});
+    // $(`p[id="${elementName}-search_results"]`).css('display', '');
+    // $(`p[id="${elementName}-search_results"]`).html(inner_results);
   });
-  // Filter featureList to only show items from search results
+  // Filter featureList to only show items from search results and active filters
+  var filterType = uri.toString().split('?').slice(-1).pop().split('=')[0];
+  var type = uri.toString().split('?').slice(-1).pop().split('=').splice(-1)[0];
+  console.log('pre', featureList.matchingItems.length);
   featureList.filter((item) => {
-    if (item.visible()){
-      return docs.find((doc) => doc.title === item.values().title)
-    }
+    var topicsArray = item.values().topics.split(/\s/);
+    var condition = filterType == 'topic' ? topicsArray.includes(type) : item.values().activity == type;
+    
+    return docs.find((doc) => {
+      return document.querySelector('.current') === null ? doc.title === item.values().title : (doc.title === item.values().title) && condition;
+    
+    });
   });
-  featureList.update()
+  featureList.update();
   // Hide original abstracts
   $('.abstract').css('display', 'none');
+  $('#results-value').text($(this).text().split(' ')[0] + '(' + featureList.update().matchingItems.length + ')' + " ");
+  $('#results-value').css('textTransform', 'uppercase');
+  elements.map( (elm) => {
+    $(`p[id="${elm.elementName}-search_results"]`).css('display', '');
+    $(`p[id="${elm.elementName}-search_results"]`).html(elm.innerResults);
+  })
 }
 
 function resetSearch() {
@@ -149,34 +163,23 @@ function wireButtons() {
     $("#search-div").css("display", "");
   });
 
-  // Example of an async version... not sure it works though
-  // const request = async () => {
-  //   const indexResponse = await fetch("https://raw.githubusercontent.com/programminghistorian/search-index/master/indices/indexEN.json");
-  //   const indexJSON = await indexResponse.json();
-  //   idx = lunr.Index.load(indexJSON);
-  //   window.idx = idx;
-  //   const corpusResponse = await fetch("https://raw.githubusercontent.com/programminghistorian/search-index/master/indices/indexEN.json");
-  //   const corpusJSON = await corpusResponse.json();
-  //   corpus = corpusJSON;
-  //   window.corpus = corpus;
-  // }
-  // request();
 
   // Search lessons on button click
-  $("#search-button").on("click", () => {
-
+  $("#search-button").on("click", (event) => {
     // Get search string
     const searchString = $("#search").val();
 
     // Check that's it's not empty
     if (searchString.length > 0) {
       // Call lunr search
-      lunrSearch(searchString, idx, corpus, featureList);
+      lunrSearch(searchString, idx, corpus, featureList, uri);
     } else {
       // If empty check if topic or activity selected
       if (document.querySelector('.current') === null) {
         // If none selected, then run full reset
-        $('#filter-none').click();
+        $('#filter-none').triggerHandler('click');
+        event.preventDefault();
+
       } else {
         // Otherwise return filter lessons based on URI
         var filterType = uri.toString().split('?').slice(-1).pop().split('=')[0];
@@ -190,6 +193,7 @@ function wireButtons() {
         resetSearch();
       }
     }
+  
   });
   // Search lessons on enter press
   $('#search').on('keyup', (event) => {
@@ -203,12 +207,11 @@ function wireButtons() {
       // Set clicked button as current
       $('.filter').children().removeClass("current");
       $(this).addClass("current");
-
       // Update the results header
       $('#results-value').text($(this).text() + " ");
       $('#results-value').css('textTransform', 'uppercase');
-
-      applySortFromURI(uri,featureList);
+      applySortFromURI(uri, featureList);
+      
   });
   
   // When the reset button is clicked
@@ -217,10 +220,11 @@ function wireButtons() {
       $('.filter').children().removeClass("current");
 
       // Reset filter results header
-      $('#results-value').text($('#results-value').text());
-
+      $('#results-value').text(featureList.update().items.length);
+      $('#search').val('');
       // Reset search results
       resetSearch();
+
 
       // Reset uri to remove query params
       uri.search("");
@@ -228,8 +232,8 @@ function wireButtons() {
 
       // Reset filtering and perform default sort
       featureList.filter();
+      
       featureList.sort('date', { order: "desc" });
-
       // Reset sort buttons to defaults
       resetSort();
   });
@@ -237,7 +241,7 @@ function wireButtons() {
 
   // When a sort button is clicked, update the results header to show current sorting status
   $('.sort').click(function() {
-
+    
     // Get sort type from button (date or difficulty)
     var sortType = $(this).attr("data-sort");
 
@@ -281,20 +285,14 @@ function wireButtons() {
   $('.filter.activities').children().click(function() {
 
     var type = $(this).attr("id").substr(7);
-
-    featureList.filter(function(item) {
-      if (item.values().activity == type) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-
+      
     // reset url parameter
     uri.removeSearch("topic");
     uri.setSearch("activity", type); // returns the URI instance for chaining
     history.pushState(stateObj, "", uri.toString());
     console.log(uri.toString());
+    // Use search to perform filtering
+    $("#search-button").click();
 
     return false;
   });
@@ -305,20 +303,13 @@ function wireButtons() {
 
     var type = $(this).attr("id").substr(7);
 
-    featureList.filter(function(item) {
-      var topicsArray = item.values().topics.split(/\s/);
-      if (topicsArray.includes(type)) {
-        return true;
-      } else {
-        return false;
-      }
-    });
-
     // Reset url parameters
     uri.removeSearch("activity");
     uri.setSearch("topic", type); // returns the URI instance for chaining
     history.pushState(stateObj, "", uri.toString());
     console.log(uri.toString());
+    // Use search to perform filtering
+    $("#search-button").click();
 
     return false;
   });
