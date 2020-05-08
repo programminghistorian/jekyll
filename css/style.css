@@ -319,7 +319,7 @@ Lessons Index
     SEARCH
   *****************/
 
-  #search {
+  .search-input {
     width:60%;
     clear:both;
     margin-bottom:1rem;
@@ -338,7 +338,7 @@ Lessons Index
   #search-button,
   #enable-search-button {
     background-color: #efefef;
-    color: #666;
+    color: rgb(153, 143, 143);
     width: 39%;
     font: .9rem/1.1rem 'Open Sans',
     sans-serif;

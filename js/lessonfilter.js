@@ -83,8 +83,7 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
       return grouped_kwic
     }).join("").replace(/(\r\n|\n|\r)/gm, "");
     elements.push({'elementName': elementName, 'innerResults': inner_results});
-    // $(`p[id="${elementName}-search_results"]`).css('display', '');
-    // $(`p[id="${elementName}-search_results"]`).html(inner_results);
+    
   });
   // Filter featureList to only show items from search results and active filters
   var filterType = uri.toString().split('?').slice(-1).pop().split('=')[0];
@@ -148,7 +147,8 @@ function wireButtons() {
     $.getJSON(`https://programminghistorian.org/${language}/search.json`).done(response => {
       corpus = response;
       // Enable search input and button once data loaded
-      $('#search').attr("placeholder", "Type search terms...");
+      $('#loading-search').css('display', 'none');
+      $('#search').css('display', '');
       $('#search-button').prop('disabled', false);
     });
   }

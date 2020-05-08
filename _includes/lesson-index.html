@@ -27,7 +27,9 @@ lesson_describe.html in which individual lessons have their metadata formatted f
 this div ('lesson-list', referenced in lessonfilter.js) needs to contain the sort button/elements AND the actual list for the sort buttons to work
 -->
 <div id="search-div" style="text-align: center; margin-bottom: 1rem; display: none;">
-  <input id="search" type="text" placeholder="{{ site.data.snippets.loading-search[page.lang] }}">
+  <input id="loading-search" class="search-input" type="text"
+    placeholder="{{ site.data.snippets.loading-search[page.lang] }}" style="background-color: #efefef" disabled>
+  <input id="search" class="search-input" type="text" style="display: none;" placeholder="{{ site.data.snippets.type-search-terms[page.lang] }}">
   <button id="search-button" disabled>{{ site.data.snippets.search-lessons[page.lang] }}</button>
 </div>
 <div id="enable-search-div" style="text-align: center; margin-bottom: 1rem;">
