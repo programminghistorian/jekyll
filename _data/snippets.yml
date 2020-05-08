@@ -352,6 +352,26 @@ filtering-results:
   es: Filtradas por
   fr: Filtrage par
   pt:
+loading-search:
+  en: LOADING SEARCH...
+  es:
+  fr:
+  pt:
+search-lessons:
+  en: SEARCH LESSONS
+  es:
+  fr:
+  pt:
+start-searching:
+  en: START SEARCHING
+  es:
+  fr:
+  pt:
+type-search-terms:
+  en: TYPE SEARCH TERMS...
+  es:
+  fr:
+  pt:
 
 # lesson headers
 editor:

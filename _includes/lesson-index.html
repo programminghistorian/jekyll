@@ -1,40 +1,42 @@
 {% comment %}
- Core code for generating filterable lesson indexes on lessons.md and es/lecciones.md. This will repeatedly call lesson_describe.html in which individual lessons have their metadata formatted for display.
+Core code for generating filterable lesson indexes on lessons.md and es/lecciones.md. This will repeatedly call
+lesson_describe.html in which individual lessons have their metadata formatted for display.
 {% endcomment %}
 
 <ul class="filter activities">
   {% for activity in site.data.activities %}
   {% assign atype = activity.type %}
-  <li id="filter-{{ atype }}" class="filter">{{ activity[page.lang]}} ({{ alllessons | where:"activity",atype | size }})</li>
+  <li id="filter-{{ atype }}" class="filter">{{ activity[page.lang]}} ({{ alllessons | where:"activity",atype | size }})
+  </li>
   {% endfor %}
 </ul>
 
 <ul class="filter topics">
-{% for topic in site.data.topics %}
-{% assign type = topic.type %}
-{% assign count = alllessons | where:"topics",type | size }} %}
+  {% for topic in site.data.topics %}
+  {% assign type = topic.type %}
+  {% assign count = alllessons | where:"topics",type | size }} %}
   {% if count > 0 %}
   <li id="filter-{{ topic.type }}" class="filter">{{ topic.displayname[page.lang] }} ({{count}})</li>
   {% endif %}
-{% endfor %}
+  {% endfor %}
 </ul>
 
-<div id="filter-none">{{site.data.snippets.reset-button[page.lang]}} ({{  alllessons | size  }})</div>
+<div id="filter-none">{{site.data.snippets.reset-button[page.lang]}} ({{ alllessons | size  }})</div>
 
 <!--
 this div ('lesson-list', referenced in lessonfilter.js) needs to contain the sort button/elements AND the actual list for the sort buttons to work
 -->
 <div id="search-div" style="text-align: center; margin-bottom: 1rem; display: none;">
-  <input id="search" type="text" placeholder="LOADING SEARCH...">
-  <button id="search-button" disabled>SEARCH LESSONS</button>
+  <input id="search" type="text" placeholder="{{ site.data.snippets.loading-search[page.lang] }}">
+  <button id="search-button" disabled>{{ site.data.snippets.search-lessons[page.lang] }}</button>
 </div>
 <div id="enable-search-div" style="text-align: center; margin-bottom: 1rem;">
-  <button id="enable-search-button" style="width: 100%;">START SEARCHING</button>
+  <button id="enable-search-button" style="width: 100%;">{{ site.data.snippets.start-searching[page.lang] }}</button>
 </div>
 
 <div id="lesson-list">
 
-<!--
+  <!--
 List.js uses button classes of asc and desc to control sorting functionality. It also toggles those classes off and on with click events.
 To not interfere with that, we use my-asc and my-desc to control the arrows, since our desired behavior is different from what list.js does.
 More concretely: to sort asc, the button class needs to contain asc, but we use the arrow ON THE BUTTON to indicate what WILL happen,
@@ -43,19 +45,22 @@ Yes, this is confusing. But using two differnt classes allows us to separate fun
 -->
   <ul class="sort-by">
     <li id="sort-by-date" class="sort" data-sort="date">{{site.data.snippets.sort-by-date[page.lang]}}</li>
-    <li id="sort-by-difficulty" class="sort" data-sort="difficulty">{{site.data.snippets.sort-by-difficulty[page.lang]}}</li>
+    <li id="sort-by-difficulty" class="sort" data-sort="difficulty">{{site.data.snippets.sort-by-difficulty[page.lang]}}
+    </li>
   </ul>
 
   <input id="date-sort-text" type="hidden" label="{{site.data.snippets.date[page.lang]}}">
   <input id="difficulty-sort-text" type="hidden" label="{{site.data.snippets.difficulty[page.lang]}}">
-  
 
-  <h2 class="results-title">{{ site.data.snippets.filtering-results[page.lang] }}: <span id="results-value">{{ site.data.snippets.all-lessons[page.lang] }} </span> <span id="current-sort" class="sort-desc">{{site.data.snippets.date[page.lang]}}</span></h2>
+
+  <h2 class="results-title">{{ site.data.snippets.filtering-results[page.lang] }}: <span
+      id="results-value">{{ site.data.snippets.all-lessons[page.lang] }} </span> <span id="current-sort"
+      class="sort-desc">{{site.data.snippets.date[page.lang]}}</span></h2>
 
   <ul class="list">
     {% for lesson in alllessons %}
     {% capture author_string %} {% include author.html %} {% endcapture %}
-      <li>{% include lesson_describe.html authors=author_string %}</li>
+    <li>{% include lesson_describe.html authors=author_string %}</li>
     {% endfor %}
   </ul>
 
@@ -72,7 +77,7 @@ Yes, this is confusing. But using two differnt classes allows us to separate fun
 <script src="{{ site.baseurl }}/js/lessonfilter.js"></script>
 
 <script>
-  $(function() {
+  $(function () {
     wireButtons();
   });
 </script>
