@@ -2,14 +2,17 @@
 ---
 
 function resetSort() {
+  /* Function to reset sort buttons */
   $('#current-sort').removeClass().addClass("sort-desc");
   $("#sort-by-date").removeClass().addClass("sort desc my-asc");
   $("#sort-by-difficulty").removeClass().addClass("sort my-desc");
 }
 
 
-function applySortFromURI(uri,featureList, idx={}, corpus=[]) {
-
+function applySortFromURI(uri,featureList) {
+  /* Function to update lesson-list using featureList and sort direction
+    - uses URI to generate sort directions
+  */
   console.log("applying sort from URI");
 
   var params = uri.search(true);
@@ -50,13 +53,25 @@ function applySortFromURI(uri,featureList, idx={}, corpus=[]) {
 
   // Performm new sort
   featureList.sort(sortType, {order: sortOrder});
+
+  // Reset filter results header
+  $('#results-value').text(featureList.update().items.length);
 }
 
-function lunrSearch(searchString, idx, corpus, featureList, uri) {
-  // Create lunr search with initial search string
+function lunrSearch(searchString, idx, corpus, featureList, uri, stateObj) {
+  /* Function to generate search using lunr
+    - find search results using index
+    - load in original corpus and find relevant lessons
+    - generate new html to show search snippet
+    - use featureList to show lessons with search results (also relevant filters)
+    - display html
+    - update uri to include search string
+  */
+
+  // Get lessons that contain search string using lunr index
   const results = idx.search(searchString);
 
-  // Get docs that contain the search string
+  // Get lessons from corpus that contain the search string
   var docs = results.filter(result => corpus.some(doc => result.ref === doc.url)).map(result => {
     let doc = corpus.find(o => o.url === result.ref);
     return {
@@ -86,27 +101,26 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
     
   });
   // Filter featureList to only show items from search results and active filters
-  var filterType = uri.toString().split('?').slice(-1).pop().split('=')[0];
-  var type = uri.toString().split('?').slice(-1).pop().split('=').splice(-1)[0];
-  console.log('pre', featureList.matchingItems.length);
+  var params = uri.search(true);
+  var type = params.activity ? params.activity : params.topic;
   featureList.filter((item) => {
-    var topicsArray = item.values().topics.split(/\s/);
-    var condition = filterType == 'topic' ? topicsArray.includes(type) : item.values().activity == type;
-    
+    let topicsArray = item.values().topics.split(/\s/);
+    let condition = params.topic ? topicsArray.includes(type) : item.values().activity == type;
+    // Could simply to just do Object.keys(params) > 1 here but in case we add more URI values this will explicitly check for filters along with search
     return docs.find((doc) => {
-      return document.querySelector('.current') === null ? doc.title === item.values().title : (doc.title === item.values().title) && condition;
-    
+      return ['topic', 'activity'].some(key => Object.keys(params).includes(key)) ? ((doc.title === item.values().title) && condition) : (doc.title === item.values().title);
+
     });
   });
-  featureList.update();
   // Hide original abstracts
   $('.abstract').css('display', 'none');
   $('#results-value').text($(this).text().split(' ')[0] + '(' + featureList.update().matchingItems.length + ')' + " ");
   $('#results-value').css('textTransform', 'uppercase');
+  // Display updated search results
   elements.map( (elm) => {
     $(`p[id="${elm.elementName}-search_results"]`).css('display', '');
     $(`p[id="${elm.elementName}-search_results"]`).html(elm.innerResults);
-  })
+  });
 }
 
 function resetSearch() {
@@ -138,59 +152,63 @@ function wireButtons() {
   let corpus;
 
   // Load search data
-  function loadSearchData() {
-    // Get language specific corpus and index
+  const loadSearchData = async () => {
     const language = uri.toString().split('/').slice(-3)[0];
-    $.getJSON(`https://programminghistorian.github.io/search-index/indices/index${language.toUpperCase()}.json`).done(response => {
-      idx = lunr.Index.load(JSON.parse(JSON.stringify(response)));
-    });
-    $.getJSON(`https://programminghistorian.org/${language}/search.json`).done(response => {
-      corpus = response;
-      // Enable search input and button once data loaded
-      $('#loading-search').css('display', 'none');
-      $('#search').css('display', '');
-      $('#search-button').prop('disabled', false);
-    });
+    const indexResponse = await fetch(`https://programminghistorian.github.io/search-index/indices/index${language.toUpperCase()}.json`);
+    const indexJSON = await indexResponse.json();
+    idx = lunr.Index.load(indexJSON);
+    // window.idx = idx;
+    const corpusResponse = await fetch(`https://programminghistorian.org/${language}/search.json`);
+    const corpusJSON = await corpusResponse.json();
+    corpus = corpusJSON;
+    $('#loading-search').css('display', 'none');
+    $('#search').css('display', '');
+    $('#search-button').prop('disabled', false);
+    // Hide enable button and show search input
+    $("#enable-search-div").css("display", "none");
+    $("#search-div").css("display", "");
   }
 
   // Enable search on button click
   $("#enable-search-div").on("click", () => {
     // Start loading search data
     loadSearchData();
-
-    // Hide enable button and show search input
-    $("#enable-search-div").css("display", "none");
-    $("#search-div").css("display", "");
   });
 
 
   // Search lessons on button click
-  $("#search-button").on("click", (event) => {
+  $("#search-button").on("click", () => {
     // Get search string
     const searchString = $("#search").val();
+    console.log(searchString);
 
+    searchString.length > 0 ? uri.setSearch("search", searchString) : uri.removeSearch('search');
+    history.pushState(stateObj, "", uri.toString());
+    console.log(uri.toString());
     // Check that's it's not empty
     if (searchString.length > 0) {
       // Call lunr search
-      lunrSearch(searchString, idx, corpus, featureList, uri);
+      lunrSearch(searchString, idx, corpus, featureList, uri, stateObj);
     } else {
       // If empty check if topic or activity selected
-      if (document.querySelector('.current') === null) {
-        // If none selected, then run full reset
-        $('#filter-none').triggerHandler('click');
-        event.preventDefault();
+      // Call reset search to empty out search values
+      resetSearch();
 
-      } else {
+      var params = uri.search(true);
+      var type = params.activity ? params.activity : params.topic;
+      if (type) {
         // Otherwise return filter lessons based on URI
-        var filterType = uri.toString().split('?').slice(-1).pop().split('=')[0];
-        var type = uri.toString().split('?').slice(-1).pop().split('=').splice(-1)[0];
+        
         featureList.filter(function (item) {
           var topicsArray = item.values().topics.split(/\s/);
-          var condition = filterType == 'topic' ? topicsArray.includes(type) : item.values().activity == type;
-          return condition ? true : false;
+          var condition = params.topic ? topicsArray.includes(type) : item.values().activity == type;
+          return condition
         });
-        // Call reset search to empty out search values
-        resetSearch();
+        // Reset filter results header
+        $('#results-value').text($(this).text().split(' ')[0] + '(' + featureList.update().matchingItems.length + ')' + " ");
+        $('#results-value').css('textTransform', 'uppercase');
+      } else {
+        applySortFromURI(uri, featureList);
       }
     }
   
@@ -204,45 +222,39 @@ function wireButtons() {
 
   // When a filter button is clicked
   $('.filter').children().click(function() {
-      // Set clicked button as current
-      $('.filter').children().removeClass("current");
-      $(this).addClass("current");
-      // Update the results header
-      $('#results-value').text($(this).text() + " ");
-      $('#results-value').css('textTransform', 'uppercase');
-      applySortFromURI(uri, featureList);
-      
+    console.log('clicked children');
+    // Set clicked button as current
+    $('.filter').children().removeClass("current");
+    $(this).addClass("current");
+    // Update the results header
+    $('#results-value').text($(this).text() + " ");
+    $('#results-value').css('textTransform', 'uppercase');
+    applySortFromURI(uri, featureList);  
   });
   
   // When the reset button is clicked
   $('#filter-none').click(function() {
-      // Remove highlighting from filter buttons
-      $('.filter').children().removeClass("current");
+    // Remove highlighting from filter buttons
+    $('.filter').children().removeClass("current");
 
-      // Reset filter results header
-      $('#results-value').text(featureList.update().items.length);
-      
-      // Reset search results
-      resetSearch();
+    // Reset filter results header
+    $('#results-value').text(featureList.update().items.length);
+    
+    // Reset search results
+    resetSearch();
 
 
-      // Reset uri to remove query params
-      uri.search("");
-      history.pushState(stateObj, "", uri.toString());
+    // Reset uri to remove query params
+    uri.search("");
+    history.pushState(stateObj, "", uri.toString());
 
-      // Reset filtering and perform default sort
-      featureList.filter();
-      
-      featureList.sort('date', { order: "desc" });
-      // Reset sort buttons to defaults
-      resetSort();
-      resetSearch();
-      // $('#search').val('');
-      // // Hide and empty search results
-      // $('.search_results').css('display', 'none');
-      // $('.search_results').html('');
-      // // Show original abstract results
-      // $('.abstract').css('display', 'block');
+    // Reset filtering and perform default sort
+    featureList.filter();
+    
+    featureList.sort('date', { order: "desc" });
+    // Reset sort buttons to defaults
+    resetSort();
+    resetSearch(uri, stateObj);
   });
 
 
@@ -333,10 +345,14 @@ function wireButtons() {
   // Look for URI query params
   var params = uri.search(true);
   var filter = params.activity ? params.activity : params.topic;
-
+  var search = params.search;
+  
   // If a filter is present in the URI, simulate a click to run filter
   // Clicking a filter button checks for sort params in URI, so don't do it twice.
-  if (filter) {
+  if (search) {
+    $('#search').val(search);
+    loadSearchData().then(() => $('#search-button').click()).catch(e => console.log(e));
+  } else if (filter) {
     console.log("FILTER:" + filter);
     $("#filter-" + filter).click();
   }
