@@ -355,22 +355,22 @@ filtering-results:
 loading-search:
   en: LOADING SEARCH...
   es:
-  fr:
+  fr: RECHERCHE EN COURS...
   pt:
 search-lessons:
   en: SEARCH LESSONS
   es:
-  fr:
+  fr: RECHERCHER LES LEÇONS
   pt:
 start-searching:
   en: START SEARCHING
   es:
-  fr:
+  fr: DÉMARRER LA RECHERCHE
   pt:
 type-search-terms:
   en: TYPE SEARCH TERMS...
   es:
-  fr:
+  fr: ENTRER UN OU PLUSIEURS TERMES DE RECHERCHE...
   pt:
 
 # lesson headers
