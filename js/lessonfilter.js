@@ -15,10 +15,10 @@ function applySortFromURI(uri,featureList) {
   */
   console.log("applying sort from URI");
 
-  var params = uri.search(true);
-  var sortOrder = params.sortOrder;
-  var sortType = params.sortType;
-  var nonSortOrder = (sortOrder == "desc" ? "asc" : "desc");
+  const params = uri.search(true);
+  let sortOrder = params.sortOrder;
+  let sortType = params.sortType;
+  let nonSortOrder = (sortOrder == "desc" ? "asc" : "desc");
 
   if (sortType) {
     console.log("SortType: " + sortType);
@@ -65,14 +65,13 @@ function lunrSearch(searchString, idx, corpus, featureList, uri, stateObj) {
     - generate new html to show search snippet
     - use featureList to show lessons with search results (also relevant filters)
     - display html
-    - update uri to include search string
   */
 
   // Get lessons that contain search string using lunr index
   const results = idx.search(searchString);
 
   // Get lessons from corpus that contain the search string
-  var docs = results.filter(result => corpus.some(doc => result.ref === doc.url)).map(result => {
+  let docs = results.filter(result => corpus.some(doc => result.ref === doc.url)).map(result => {
     let doc = corpus.find(o => o.url === result.ref);
     return {
       ...result,
@@ -90,9 +89,9 @@ function lunrSearch(searchString, idx, corpus, featureList, uri, stateObj) {
     let inner_results = search_keys.map((token) => {
       let all_positions = doc.matchData.metadata[token].body.position;
       let grouped_kwic = all_positions.slice(0, MAX_KWIC).map(function (pos) {
-        var loc1 = pos[0]
-        var loc2 = loc1 + pos[1]
-        var rendered_text = `... ${doc.body.substring(loc1 - BUFFER, loc1)} <mark>${doc.body.substring(loc1, loc2)}</mark> ${doc.body.substring(loc2, loc2 + BUFFER)} ...`
+        let loc1 = pos[0]
+        let loc2 = loc1 + pos[1]
+        let rendered_text = `... ${doc.body.substring(loc1 - BUFFER, loc1)} <mark>${doc.body.substring(loc1, loc2)}</mark> ${doc.body.substring(loc2, loc2 + BUFFER)} ...`
         return rendered_text
       }).join("")
       return grouped_kwic
@@ -101,8 +100,8 @@ function lunrSearch(searchString, idx, corpus, featureList, uri, stateObj) {
     
   });
   // Filter featureList to only show items from search results and active filters
-  var params = uri.search(true);
-  var type = params.activity ? params.activity : params.topic;
+  const params = uri.search(true);
+  let type = params.activity ? params.activity : params.topic;
   featureList.filter((item) => {
     let topicsArray = item.values().topics.split(/\s/);
     let condition = params.topic ? topicsArray.includes(type) : item.values().activity == type;
@@ -124,6 +123,7 @@ function lunrSearch(searchString, idx, corpus, featureList, uri, stateObj) {
 }
 
 function resetSearch() {
+  /* Function to reset search values and display to original settings */
   // Empty search input
   $('#search').val('');
   // Hide and empty search results
@@ -134,54 +134,58 @@ function resetSearch() {
 };
 
 function wireButtons() {
+  /* Main function for page load */
 
   // set URI object to current Window location
-  var uri = new URI(location);
+  let uri = new URI(location);
   console.log(uri.toString());
 
-  var options = {
+  let options = {
     valueNames: [ 'date', 'title', 'difficulty', 'activity', 'topics','abstract', 'content' ]
   };
 
-  var featureList = new List('lesson-list', options);
+  let featureList = new List('lesson-list', options);
   // We need a stateObj for adjusting the URIs on button clicks, but the value is moot for now; could be useful for future functionality.
-  var stateObj = { foo: "bar" };
+  let stateObj = { foo: "bar" };
 
   // Get search indices and corpuses using URI to make a call to search-index for each language
   let idx;
   let corpus;
 
-  // Load search data
-  const loadSearchData = async () => {
+  async function loadSearchData() {
+    /*Function to load search data asynchronously*/
+
+    // Hide enable button and show search input
+    $("#enable-search-div").css("display", "none");
+    $("#search-div").css("display", "");
+    $('#loading-search').css('display', 'none');
+    $('#search').css('display', '');
+    $('#search-button').prop('disabled', false);
+    
+    // Get language and load idx and corpus
     const language = uri.toString().split('/').slice(-3)[0];
     const indexResponse = await fetch(`https://programminghistorian.github.io/search-index/indices/index${language.toUpperCase()}.json`);
     const indexJSON = await indexResponse.json();
     idx = lunr.Index.load(indexJSON);
-    // window.idx = idx;
     const corpusResponse = await fetch(`https://programminghistorian.org/${language}/search.json`);
     const corpusJSON = await corpusResponse.json();
     corpus = corpusJSON;
-    $('#loading-search').css('display', 'none');
-    $('#search').css('display', '');
-    $('#search-button').prop('disabled', false);
-    // Hide enable button and show search input
-    $("#enable-search-div").css("display", "none");
-    $("#search-div").css("display", "");
+    
   }
 
   // Enable search on button click
-  $("#enable-search-div").on("click", () => {
+  $("#enable-search-div").on("click", function() {
     // Start loading search data
     loadSearchData();
   });
 
 
   // Search lessons on button click
-  $("#search-button").on("click", () => {
+  $("#search-button").on("click", function() {
     // Get search string
     const searchString = $("#search").val();
-    console.log(searchString);
 
+    // Update URI to include search string
     searchString.length > 0 ? uri.setSearch("search", searchString) : uri.removeSearch('search');
     history.pushState(stateObj, "", uri.toString());
     console.log(uri.toString());
@@ -190,31 +194,33 @@ function wireButtons() {
       // Call lunr search
       lunrSearch(searchString, idx, corpus, featureList, uri, stateObj);
     } else {
-      // If empty check if topic or activity selected
+      // If empty check if topic or activity filter selected
+
       // Call reset search to empty out search values
       resetSearch();
 
-      var params = uri.search(true);
-      var type = params.activity ? params.activity : params.topic;
+      const params = uri.search(true);
+      let type = params.activity ? params.activity : params.topic;
       if (type) {
-        // Otherwise return filter lessons based on URI
+        // If filter selected, return filter lessons based on URI
         
-        featureList.filter(function (item) {
-          var topicsArray = item.values().topics.split(/\s/);
-          var condition = params.topic ? topicsArray.includes(type) : item.values().activity == type;
+        featureList.filter((item) => {
+          let topicsArray = item.values().topics.split(/\s/);
+          let condition = params.topic ? topicsArray.includes(type) : item.values().activity == type;
           return condition
         });
         // Reset filter results header
         $('#results-value').text($(this).text().split(' ')[0] + '(' + featureList.update().matchingItems.length + ')' + " ");
         $('#results-value').css('textTransform', 'uppercase');
       } else {
+        // Else 
         applySortFromURI(uri, featureList);
       }
     }
   
   });
   // Search lessons on enter press
-  $('#search').on('keyup', (event) => {
+  $('#search').on('keyup', function(event) {
     if (event.which == 13) {
       $("#search-button").click();
     }
@@ -222,14 +228,28 @@ function wireButtons() {
 
   // When a filter button is clicked
   $('.filter').children().click(function() {
-    console.log('clicked children');
     // Set clicked button as current
     $('.filter').children().removeClass("current");
     $(this).addClass("current");
-    // Update the results header
-    $('#results-value').text($(this).text() + " ");
-    $('#results-value').css('textTransform', 'uppercase');
-    applySortFromURI(uri, featureList);  
+
+    let type = $(this).attr("id").substr(7);
+    let filterType = $(this).parent().attr('class').split(' ')[1];
+    // Reset url parameters
+    if (filterType === 'activities') {
+      uri.removeSearch("topic")
+      uri.setSearch("activity", type)
+    } else {
+      uri.removeSearch("activity")
+      uri.setSearch("topic", type)
+    }
+    
+     // returns the URI instance for chaining
+    history.pushState(stateObj, "", uri.toString());
+    console.log(uri.toString());
+    // Use search to perform filtering
+    $("#search-button").click();
+
+    return false;
   });
   
   // When the reset button is clicked
@@ -262,11 +282,11 @@ function wireButtons() {
   $('.sort').click(function() {
     
     // Get sort type from button (date or difficulty)
-    var sortType = $(this).attr("data-sort");
+    let sortType = $(this).attr("data-sort");
 
     // Get sort order info from button
-    var curSortOrder = $(this).hasClass("my-asc") ? "desc" : "asc";
-    var newSortOrder = (curSortOrder == "asc" ? "desc" : "asc");
+    let curSortOrder = $(this).hasClass("my-asc") ? "desc" : "asc";
+    let newSortOrder = (curSortOrder == "asc" ? "desc" : "asc");
 
     console.log("curSort:" + curSortOrder);
     console.log("newSort:" + newSortOrder);
@@ -300,55 +320,22 @@ function wireButtons() {
     console.log(uri.toString());
   });
 
-  // Wire up each of the activity filter buttons.
-  $('.filter.activities').children().click(function() {
-
-    var type = $(this).attr("id").substr(7);
-      
-    // reset url parameter
-    uri.removeSearch("topic");
-    uri.setSearch("activity", type); // returns the URI instance for chaining
-    history.pushState(stateObj, "", uri.toString());
-    console.log(uri.toString());
-    // Use search to perform filtering
-    $("#search-button").click();
-
-    return false;
-  });
-
-
-  // Wire up each of the topic filter buttons.
-  $('.filter.topics').children().click(function() {
-
-    var type = $(this).attr("id").substr(7);
-
-    // Reset url parameters
-    uri.removeSearch("activity");
-    uri.setSearch("topic", type); // returns the URI instance for chaining
-    history.pushState(stateObj, "", uri.toString());
-    console.log(uri.toString());
-    // Use search to perform filtering
-    $("#search-button").click();
-
-    return false;
-  });
-
   /***************************************
     All below code runs on each page load
   ****************************************/
 
   // set labels based on the current language
 
-  var dateSort = $('#date-sort-text').attr('label');
-  var difficultySort = $('#difficulty-sort-text').attr("label");
+  const dateSort = $('#date-sort-text').attr('label');
+  const difficultySort = $('#difficulty-sort-text').attr("label");
 
   // Look for URI query params
-  var params = uri.search(true);
-  var filter = params.activity ? params.activity : params.topic;
-  var search = params.search;
+  const params = uri.search(true);
+  let filter = params.activity ? params.activity : params.topic;
+  let search = params.search;
   
-  // If a filter is present in the URI, simulate a click to run filter
-  // Clicking a filter button checks for sort params in URI, so don't do it twice.
+  // If a filter or search is present in the URI, simulate a click to run filter
+  // Clicking a filter button checks for sort params in URI, so don't do it twice OR load search data and simulate search click.
   if (search) {
     $('#search').val(search);
     loadSearchData().then(() => $('#search-button').click()).catch(e => console.log(e));
