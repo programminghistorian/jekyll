@@ -35,8 +35,11 @@ lesson-slug.html computes the correct lesson slug, and then this include determi
   <span class="difficulty">{{ lesson.difficulty }}</span>
   <span id="{{lesson.url}}-content" class="content"
     style="display: none;">{{ lesson.content | markdownify | strip_html }}</span>
+  <span id="{{lesson.url}}-score" class="score"
+    style="display: none;">0</span>
   <p id="{{lesson.url}}-search_results" class="search_results"
     style="display: none;"></p>
+  
 
 
 </div>

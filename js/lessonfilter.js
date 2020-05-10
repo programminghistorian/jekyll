@@ -55,10 +55,11 @@ function applySortFromURI(uri,featureList) {
   featureList.sort(sortType, {order: sortOrder});
 
   // Reset filter results header
-  $('#results-value').text(featureList.update().items.length);
+  $('#results-value').text($(this).text().split(' ')[0] + '(' + featureList.update().matchingItems.length + ')' + " ");
+  $('#results-value').css('textTransform', 'uppercase');
 }
 
-function lunrSearch(searchString, idx, corpus, featureList, uri, stateObj) {
+function lunrSearch(searchString, idx, corpus, featureList, uri) {
   /* Function to generate search using lunr
     - find search results using index
     - load in original corpus and find relevant lessons
@@ -97,20 +98,25 @@ function lunrSearch(searchString, idx, corpus, featureList, uri, stateObj) {
       return grouped_kwic
     }).join("").replace(/(\r\n|\n|\r)/gm, "");
     elements.push({'elementName': elementName, 'innerResults': inner_results});
-    
+    $(`span[id="${elementName}-score"]`).html(doc.score);
   });
   // Filter featureList to only show items from search results and active filters
   const params = uri.search(true);
   let type = params.activity ? params.activity : params.topic;
   featureList.filter((item) => {
+    // console.log(item);
     let topicsArray = item.values().topics.split(/\s/);
     let condition = params.topic ? topicsArray.includes(type) : item.values().activity == type;
     // Could simply to just do Object.keys(params) > 1 here but in case we add more URI values this will explicitly check for filters along with search
     return docs.find((doc) => {
-      return ['topic', 'activity'].some(key => Object.keys(params).includes(key)) ? ((doc.title === item.values().title) && condition) : (doc.title === item.values().title);
+      if (doc.title === item.values().title) {
+        item.values().score = doc.score;
+        return ['topic', 'activity'].some(key => Object.keys(params).includes(key)) ? ((doc.title === item.values().title) && condition) : (doc.title === item.values().title);
+      }
 
     });
   });
+  featureList.sort('score', {order: "desc"});
   // Hide original abstracts
   $('.abstract').css('display', 'none');
   $('#results-value').text($(this).text().split(' ')[0] + '(' + featureList.update().matchingItems.length + ')' + " ");
@@ -131,6 +137,8 @@ function resetSearch() {
   $('.search_results').html('');
   // Show original abstract results
   $('.abstract').css('display', 'block');
+  // Reset score
+  $('.score').html(0);
 };
 
 function wireButtons() {
@@ -141,7 +149,7 @@ function wireButtons() {
   console.log(uri.toString());
 
   let options = {
-    valueNames: [ 'date', 'title', 'difficulty', 'activity', 'topics','abstract', 'content' ]
+    valueNames: [ 'date', 'title', 'difficulty', 'activity', 'topics','abstract', 'content', 'score' ]
   };
 
   let featureList = new List('lesson-list', options);
@@ -180,8 +188,14 @@ function wireButtons() {
   });
 
 
-  // Search lessons on button click
+  
   $("#search-button").on("click", function() {
+    /* Function that does ALL filtering and searching of list (whether search exists or not)
+    - checks if search string exists or not and updates URI
+    - if search string exists calls lunrSearch
+    - else performs filtering (if filter exists) or resets list
+    */
+
     // Get search string
     const searchString = $("#search").val();
 
@@ -198,23 +212,24 @@ function wireButtons() {
 
       // Call reset search to empty out search values
       resetSearch();
-
       const params = uri.search(true);
       let type = params.activity ? params.activity : params.topic;
       if (type) {
+
         // If filter selected, return filter lessons based on URI
         
         featureList.filter((item) => {
-          let topicsArray = item.values().topics.split(/\s/);
-          let condition = params.topic ? topicsArray.includes(type) : item.values().activity == type;
-          return condition
+          item.values().score = 0;
+          
+            let topicsArray = item.values().topics.split(/\s/);
+            let condition = params.topic ? topicsArray.includes(type) : item.values().activity == type;
+            return condition
+          
         });
-        // Reset filter results header
-        $('#results-value').text($(this).text().split(' ')[0] + '(' + featureList.update().matchingItems.length + ')' + " ");
-        $('#results-value').css('textTransform', 'uppercase');
-      } else {
-        // Else 
+          
         applySortFromURI(uri, featureList);
+      } else {
+        $('#filter-none').click();
       }
     }
   
@@ -269,12 +284,16 @@ function wireButtons() {
     history.pushState(stateObj, "", uri.toString());
 
     // Reset filtering and perform default sort
-    featureList.filter();
+    featureList.filter( item => {
+      item.values().score = 0;
+      return true
+    });
     
     featureList.sort('date', { order: "desc" });
     // Reset sort buttons to defaults
     resetSort();
-    resetSearch(uri, stateObj);
+    // Call reset search a second time seems to refresh html (very hacky solution)
+    resetSearch();
   });
 
 
