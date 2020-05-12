@@ -257,7 +257,7 @@ All lesson metadata and alerts should follow the convention of pulling appropria
         {{ site.data.snippets.translator[page.lang] }}
         {{ page.translator | array_to_sentence_string: site.data.snippets.and[page.lang] }},{% endif %}
         <em>{{ site.data.snippets.journal-title[page.lang] }}</em> {{ vol_no }} ({{ page_year }}),
-        {{ site.liveurl }}{{ page.url }}.</p>
+        https://doi.org/{{ page.doi }}.</p>
     </div>
   </div>
 

@@ -24,6 +24,7 @@ date: 2017-08-23
 abstract: "This lesson introduces network metrics and how to draw conclusions from them when working with humanities data. You will learn how to use the NetworkX Python package to produce and work with these network statistics."
 redirect_from: /lessons/exploring-and-analyzing-network-data-with-python
 avatar_alt: Train tracks intersecting
+doi: 10.46430/phen0064
 ---
 
 {% include toc.html %}
@@ -65,7 +66,7 @@ This tutorial will help you answer questions such as:
 
 Before there were Facebook friends, there was the Society of Friends, known as the Quakers. Founded in England in the mid-seventeenth century, the Quakers were Protestant Christians who dissented from the official Church of England and promoted broad religious toleration, preferring Christians' supposed "inner light" and consciences to state-enforced orthodoxy. Quakers' numbers grew rapidly in the mid- to late-seventeenth century and their members spread through the British Isles, Europe, and the New World colonies---especially Pennsylvania, founded by Quaker leader William Penn and the home of your four authors.
 
-Since scholars have long linked Quakers' growth and endurance to the effectiveness of their networks, the data used in this tutorial is a list of names and relationships among the earliest seventeenth-century Quakers. This dataset is derived from the *[Oxford Dictionary of National Biography](http://www.oxforddnb.com)* and from the ongoing work of the *[Six Degrees of Francis Bacon](http://www.sixdegreesoffrancisbacon.com)* project, which is reconstructing the social networks of early modern Britain (1500-1700).  
+Since scholars have long linked Quakers' growth and endurance to the effectiveness of their networks, the data used in this tutorial is a list of names and relationships among the earliest seventeenth-century Quakers. This dataset is derived from the *[Oxford Dictionary of National Biography](http://www.oxforddnb.com)* and from the ongoing work of the *[Six Degrees of Francis Bacon](http://www.sixdegreesoffrancisbacon.com)* project, which is reconstructing the social networks of early modern Britain (1500-1700).
 
 # Data Prep and NetworkX Installation
 
@@ -121,15 +122,15 @@ from networkx.algorithms import community #This part of networkx, for community 
 Now you can tell the program to read your CSV files and retrieve the data you need. Ironically, reading files and reorganizing data often requires more complex code than the functions for running social network analysis, so please bear with us through this first code block. Here's a set of commands for opening and reading our nodelist and edgelist files:
 
 ```python
-with open('quakers_nodelist.csv', 'r') as nodecsv: # Open the file                       
-    nodereader = csv.reader(nodecsv) # Read the csv  
+with open('quakers_nodelist.csv', 'r') as nodecsv: # Open the file
+    nodereader = csv.reader(nodecsv) # Read the csv
     # Retrieve the data (using Python list comprhension and list slicing to remove the header row, see footnote 3)
-    nodes = [n for n in nodereader][1:]                     
+    nodes = [n for n in nodereader][1:]
 
-node_names = [n[0] for n in nodes] # Get a list of only the node names                                       
+node_names = [n[0] for n in nodes] # Get a list of only the node names
 
 with open('quakers_edgelist.csv', 'r') as edgecsv: # Open the file
-    edgereader = csv.reader(edgecsv) # Read the csv     
+    edgereader = csv.reader(edgecsv) # Read the csv
     edges = [tuple(e) for e in edgereader][1:] # Retrieve the data
 ```
 
@@ -194,26 +195,26 @@ import networkx as nx
 from networkx.algorithms import community
 
 # Read in the nodelist file
-with open('quakers_nodelist.csv', 'r') as nodecsv:                 
-    nodereader = csv.reader(nodecsv)                                       
-    nodes = [n for n in nodereader][1:]                                    
+with open('quakers_nodelist.csv', 'r') as nodecsv:
+    nodereader = csv.reader(nodecsv)
+    nodes = [n for n in nodereader][1:]
 
 # Get a list of just the node names (the first item in each row)
-node_names = [n[0] for n in nodes]                                       
+node_names = [n[0] for n in nodes]
 
 # Read in the edgelist file
-with open('quakers_edgelist.csv', 'r') as edgecsv:                         
-    edgereader = csv.reader(edgecsv)                                   
-    edges = [tuple(e) for e in edgereader][1:]                         
+with open('quakers_edgelist.csv', 'r') as edgecsv:
+    edgereader = csv.reader(edgecsv)
+    edges = [tuple(e) for e in edgereader][1:]
 
 # Print the number of nodes and edges in our two lists
-print(len(node_names))  
-print(len(edges))                                                                               
+print(len(node_names))
+print(len(edges))
 
-G = nx.Graph() # Initialize a Graph object                                                        
-G.add_nodes_from(node_names) # Add nodes to the Graph                             
-G.add_edges_from(edges) # Add edges to the Graph  
-print(nx.info(G)) # Print information about the Graph  
+G = nx.Graph() # Initialize a Graph object
+G.add_nodes_from(node_names) # Add nodes to the Graph
+G.add_edges_from(edges) # Add edges to the Graph
+print(nx.info(G)) # Print information about the Graph
 ```
 
 So far, you've read node and edge data into Python from CSV files, and then you counted those nodes and edges. After that you created a Graph object using NetworkX and loaded your data into that object.

@@ -1,6 +1,3 @@
----
----
-
 function resetSort() {
   $('#current-sort').removeClass().addClass("sort-desc");
   $("#sort-by-date").removeClass().addClass("sort desc my-asc");
@@ -8,7 +5,7 @@ function resetSort() {
 }
 
 
-function applySortFromURI(uri,featureList) {
+function applySortFromURI(uri, featureList) {
 
   console.log("applying sort from URI");
 
@@ -60,7 +57,7 @@ function wireButtons() {
   console.log(uri.toString());
 
   var options = {
-    valueNames: [ 'date', 'title', 'difficulty', 'activity', 'topics' ]
+    valueNames: ['date', 'title', 'difficulty', 'activity', 'topics']
   };
 
   var featureList = new List('lesson-list', options);
@@ -68,42 +65,42 @@ function wireButtons() {
   var stateObj = { foo: "bar" };
 
   // When a filter button is clicked
-  $('.filter').children().click(function() {
-      // Set clicked button as current
-      $('.filter').children().removeClass("current");
-      $(this).addClass("current");
+  $('.filter').children().click(function () {
+    // Set clicked button as current
+    $('.filter').children().removeClass("current");
+    $(this).addClass("current");
 
-      // Update the results header
-      $('#results-value').text($(this).text() + " ");
-      $('#results-value').css('textTransform', 'uppercase');
+    // Update the results header
+    $('#results-value').text($(this).text() + " ");
+    $('#results-value').css('textTransform', 'uppercase');
 
-      applySortFromURI(uri,featureList);
+    applySortFromURI(uri, featureList);
   });
 
 
   // When the reset button is clicked
-  $('#filter-none').click(function() {
-      // Remove highlighting from filter buttons
-      $('.filter').children().removeClass("current");
+  $('#filter-none').click(function () {
+    // Remove highlighting from filter buttons
+    $('.filter').children().removeClass("current");
 
-      // Reset filter results header
-      $('#results-value').text($('#results-value').text());
+    // Reset filter results header
+    $('#results-value').text($('#results-value').text());
 
-      // Reset uri to remove query params
-      uri.search("");
-      history.pushState(stateObj, "", uri.toString());
+    // Reset uri to remove query params
+    uri.search("");
+    history.pushState(stateObj, "", uri.toString());
 
-      // Reset filtering and perform default sort
-      featureList.filter();
-      featureList.sort('date', { order: "desc" });
+    // Reset filtering and perform default sort
+    featureList.filter();
+    featureList.sort('date', { order: "desc" });
 
-      // Reset sort buttons to defaults
-      resetSort();
+    // Reset sort buttons to defaults
+    resetSort();
   });
 
 
   // When a sort button is clicked, update the results header to show current sorting status
-  $('.sort').click(function() {
+  $('.sort').click(function () {
 
     // Get sort type from button (date or difficulty)
     var sortType = $(this).attr("data-sort");
@@ -130,7 +127,7 @@ function wireButtons() {
     }
 
     // Set CSS class for results header (the arrow)
-    $('#current-sort').removeClass().addClass("sort-"+newSortOrder);
+    $('#current-sort').removeClass().addClass("sort-" + newSortOrder);
 
     // Manually sort to override default behavior of list.js, which does not support multiple sort buttons very well.
     // The problem is that when changing sort type, list.js automatically sorts asc on the first sort. This is not
@@ -145,11 +142,11 @@ function wireButtons() {
   });
 
   // Wire up each of the activity filter buttons.
-  $('.filter.activities').children().click(function() {
+  $('.filter.activities').children().click(function () {
 
     var type = $(this).attr("id").substr(7);
 
-    featureList.filter(function(item) {
+    featureList.filter(function (item) {
       if (item.values().activity == type) {
         return true;
       } else {
@@ -168,11 +165,11 @@ function wireButtons() {
 
 
   // Wire up each of the topic filter buttons.
-  $('.filter.topics').children().click(function() {
+  $('.filter.topics').children().click(function () {
 
     var type = $(this).attr("id").substr(7);
 
-    featureList.filter(function(item) {
+    featureList.filter(function (item) {
       var topicsArray = item.values().topics.split(/\s/);
       if (topicsArray.includes(type)) {
         return true;
@@ -211,6 +208,6 @@ function wireButtons() {
   }
   else {
     // Apply sorting criteria from the URI if no filter
-    applySortFromURI(uri,featureList);
+    applySortFromURI(uri, featureList);
   }
 };

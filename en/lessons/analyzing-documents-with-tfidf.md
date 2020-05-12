@@ -18,6 +18,7 @@ topics: [distant-reading]
 abstract: This lesson focuses on a foundational natural language processing and information retrieval method called Term Frequency - Inverse Document Frequency (tf-idf). This lesson explores the foundations of tf-idf, and will also introduce you to some of the questions and concepts of computationally oriented text analysis.
 mathjax: true
 avatar_alt: An old mechanical typewriter
+doi: 10.46430/phen0082
 ---
 
 {% include toc.html %}
@@ -51,7 +52,7 @@ This obituary corpus is an historical object in its own right. It represents, on
 
 ## Tf-idf Definition and Background
 
-Often inaccurately attributed to others, the procedure called Term Frequency - Inverse Document Frequency was introduced in a 1972 paper by Karen Spärck Jones under the name "term specificity."[^4] Fittingly, Spärck Jones was the subject of an "Overlooked No More" obituary in January 2019.[^5] 
+Often inaccurately attributed to others, the procedure called Term Frequency - Inverse Document Frequency was introduced in a 1972 paper by Karen Spärck Jones under the name "term specificity."[^4] Fittingly, Spärck Jones was the subject of an "Overlooked No More" obituary in January 2019.[^5]
 
 With __tf-idf__, instead of representing a term in a document by its raw frequency (number of occurrences) or its relative frequency (term count divided by document length), each term is weighted by dividing the term frequency by the number of documents in the corpus containing the word. The overall effect of this weighting scheme is to avoid a common problem when conducting text analysis: the most frequently used words in a document are often the most frequently used words in all of the documents. In contrast, terms with the highest __tf-idf__ scores are the terms in a document that are _distinctively_ frequent in a document, when that document is compared other documents.
 

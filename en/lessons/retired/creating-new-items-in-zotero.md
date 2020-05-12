@@ -19,9 +19,10 @@ exclude_from_check:
 retired: true
 retirement-reason: |
   This lesson relied on the Python library libZotero, which is no longer maintained, and which now returns several errors when used. [See further discussion about this retirement decision.](https://github.com/programminghistorian/jekyll/issues/225)
-redirect_from: 
+redirect_from:
   - /lessons/creating-new-items-in-zotero
   - /lessons/deprecated/creating-new-items-in-zotero
+doi: 10.46430/phen0026
 ---
 
 {% include toc.html %}

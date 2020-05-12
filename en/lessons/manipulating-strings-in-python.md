@@ -20,6 +20,7 @@ previous: working-with-web-pages
 python_warning: false
 redirect_from: /lessons/manipulating-strings-in-python
 avatar_alt: A man playing a guitar
+doi: 10.46430/phen0013
 ---
 
 {% include toc.html %}

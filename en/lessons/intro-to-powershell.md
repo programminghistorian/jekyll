@@ -16,6 +16,7 @@ abstract: "This tutorial will introduce you to the basics of Windows PowerShell,
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/18
 redirect_from: /lessons/intro-to-powershell
 avatar_alt: An ornate seashell
+doi: 10.46430/phen0054
 ---
 
 {% include toc.html %}

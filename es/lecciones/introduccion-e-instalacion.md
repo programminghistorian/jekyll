@@ -27,6 +27,7 @@ abstract: "Esta primera lección de nuestra sección sobre recursos en línea es
 original: introduction-and-installation
 redirect_from: /es/lessons/introduction-and-installation
 avatar_alt: Grabado de una serpiente de cascabel
+doi: 10.46430/phes0016
 ---
 
 {% include toc.html %}
@@ -44,7 +45,7 @@ En este módulo inicial instalarás el [Lenguaje de programación Python], el [A
 
 El lenguaje de programación Python
 -----------
-Python fue el primer lenguaje de programación que se introdujo en Programming Historian. Es un lenguaje de programación libre y de código abierto. Antes de que descargues el software es necesario tomar nota de que en todas las lecciones se utilizará **Python v.3.x** porque la versión anterior, **Python v.2.**, dejará de recibir actualizaciones. Si ya utilizabas la versión 2 reconocerás la mayor parte de la sintaxis pero deberás seguir los ejemplos con más detenimiento para estar pendiente a los cambios.    
+Python fue el primer lenguaje de programación que se introdujo en Programming Historian. Es un lenguaje de programación libre y de código abierto. Antes de que descargues el software es necesario tomar nota de que en todas las lecciones se utilizará **Python v.3.x** porque la versión anterior, **Python v.2.**, dejará de recibir actualizaciones. Si ya utilizabas la versión 2 reconocerás la mayor parte de la sintaxis pero deberás seguir los ejemplos con más detenimiento para estar pendiente a los cambios.
 
 ¡Respalda los datos de tu computadora!
 ---------------

@@ -20,6 +20,7 @@ abstract: "An Introduction to Twitter Bots with Tracery
 This lesson explains how to create simple twitterbots using Tracery and the Cheap Bots Done Quick service. Tracery exists in multiple languages and can be integrated into websites, games, bots."
 redirect_from: /lessons/intro-to-twitterbots
 avatar_alt: A device with several interlocking gears
+doi: 10.46430/phen0069
 ---
 
 # An Introduction to Twitter Bots with Tracery

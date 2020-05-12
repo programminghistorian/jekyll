@@ -22,6 +22,7 @@ categories: [lessons, python, original-ph]
 python_warning: false
 redirect_from: /lessons/working-with-web-pages
 avatar_alt: A tall man next to a short woman
+doi: 10.46430/phen0021
 ---
 
 {% include toc.html %}

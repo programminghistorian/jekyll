@@ -10,7 +10,7 @@ editors:
 - William J. Turkel
 translator:
 - Jairo A. Melo
-translation-editor: 
+translation-editor:
 - Víctor Gayol
 translation-editor:
 - Antonio Rojas Castro
@@ -26,7 +26,8 @@ original: data-mining-the-internet-archive
 redirect_from: /es/lessons/data-mining-the-internet-archive
 abstract: |
     Las colecciones del Internet Archive incluyen una gran cantidad de fuentes históricas digitalizadas. Muchas de ellas contienen datos bibliográficos importantes en un formato llamado MARC. En esta lección aprenderás a usar Python para automatizar la descarga de archivos MARC en grandes cantidades desde el Internet Archive, así como el análisis sintáctico de archivos MARC con información específica tal como autores, lugar de publicación y fechas. La lección puede aplicarse de una manera general para otros elementos del Internet Archive así como en archivos MARC en cualquier otro repositorio.
-avatar_alt:  Grabado de mineros trabajando en la construcción de un túnel.   
+avatar_alt:  Grabado de mineros trabajando en la construcción de un túnel.
+doi: 10.46430/phes0019
 ---
 
 {% include toc.html %}
@@ -165,15 +166,15 @@ lettertowilliaml00doug_meta.xml
 lettertowilliaml00doug_metasource.xml
 ```
 
-Ahora que sabemos cómo usar las funciones _Search_ y _Item_ en el 
-módulo `internetarchive` podemos pensar en cómo llevar a cabo este proceso de manera más eficaz para descargar grupos de información desde las colecciones para un posterior análisis. 
+Ahora que sabemos cómo usar las funciones _Search_ y _Item_ en el
+módulo `internetarchive` podemos pensar en cómo llevar a cabo este proceso de manera más eficaz para descargar grupos de información desde las colecciones para un posterior análisis.
 
 Descargar los registros MARC de una colección
 ------------------------------------------
 
-Descargar un elemento está bien, pero ¿y si queremos revisar miles de elementos en una colección? Estamos de suerte, porque la función _Search_ del módulo `internetarchive` nos permite iterar sobre todos los resultados de una búsqueda. 
+Descargar un elemento está bien, pero ¿y si queremos revisar miles de elementos en una colección? Estamos de suerte, porque la función _Search_ del módulo `internetarchive` nos permite iterar sobre todos los resultados de una búsqueda.
 
-Para ver cómo, comencemos iniciando nuevamente el intérprete de Python. Necesitaremos importar una vez más nuestro módulo y hacer de nuevo una búsqueda: 
+Para ver cómo, comencemos iniciando nuevamente el intérprete de Python. Necesitaremos importar una vez más nuestro módulo y hacer de nuevo una búsqueda:
 
 ``` python
 import internetarchive
@@ -216,7 +217,7 @@ for elemento in buscar:
    print elemento['identifier']
 ```
 
-Obtendrás los mismos resultados. 
+Obtendrás los mismos resultados.
 
 Lo segundo que deberás tener en cuenta acerca del bucle *for* es que puede contener otros comandos en el bloque indentado. En este caso, hemos impreso cada identificador para cada resultado de búsqueda, pero podríamos elegir qué hacer para cada resultado, cualquier cosa que podemos hacer con un elemento individual del _Internet Archive_.
 
@@ -337,10 +338,10 @@ La documentación de `pymarc` es un poco menos completa que la del IA, en partic
 def map_xml(function, *files):
     """
     mapea una función dentro del archivo, de tal manera que cada registro que analiza la función será llamado con el registro extraído
-        
+
     def do_it(r):
     print r
-    
+
     map_xml(do_it, 'marc.xml')
     """
 ```

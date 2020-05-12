@@ -26,6 +26,7 @@ abstract: |
   L'analyse de corpus est un type d'analyse textuelle qui permet de faire des comparaisons d'objets textuels à grande échelle (la fameuse "lecture à distance" (_distant reading_)).
 original: corpus-analysis-with-antconc
 avatar_alt: Trois grandes bibliothèques ornées
+doi: 10.46430/phfr0001
 ---
 
 {% include toc.html %}
@@ -105,14 +106,14 @@ Quand AntConc sera lancé, il ressemblera à ceci.
 
 Sur le côté gauche, il y a une colonne (_Corpus Files_) qui affiche les différents fichiers chargés (que nous allons utiliser dans un instant).
 
-Il y a 7 onglets en haut:  
-**Concordance** _(Concordance)_: Cela vous montrera ce que l'on appelle la vue mot-clé en contexte (_KeyWord-In-Context_, abréviation KWIC, plus d'informations à ce sujet dans une minute), en utilisant la barre de recherche en dessous.  
-**Concordance Plot** _(Graphe des concordances)_: Ceci vous montrera une visualisation très simple de votre recherche KWIC, où chaque occurence du mot recherché sera représentée par une petite ligne noire du début à la fin de chaque fichier contenant le terme.  
-**File View** _(Vue de fichier)_: Cela vous montrera une vue complète du fichier, pratique pour voir le contexte plus large d'un résultat.  
-**Clusters** _(Grappes)_: Cette vue vous montre les mots qui apparaissent souvent ensemble.  
-**Collocates** _(Cooccurrences)_: Les clusters nous montrent des mots qui apparaissent _définitivement_ ensemble dans un corpus ; les cooccurrences (_collocates_) montrent des mots qui sont statistiquement susceptibles d'apparaître ensemble.  
-**Word List** _(Liste des mots)_: Tous les mots de votre corpus.  
-**Keyword List** _(Liste des mots-clés)_: Ceci permet des comparaisons entre deux corpus.  
+Il y a 7 onglets en haut:
+**Concordance** _(Concordance)_: Cela vous montrera ce que l'on appelle la vue mot-clé en contexte (_KeyWord-In-Context_, abréviation KWIC, plus d'informations à ce sujet dans une minute), en utilisant la barre de recherche en dessous.
+**Concordance Plot** _(Graphe des concordances)_: Ceci vous montrera une visualisation très simple de votre recherche KWIC, où chaque occurence du mot recherché sera représentée par une petite ligne noire du début à la fin de chaque fichier contenant le terme.
+**File View** _(Vue de fichier)_: Cela vous montrera une vue complète du fichier, pratique pour voir le contexte plus large d'un résultat.
+**Clusters** _(Grappes)_: Cette vue vous montre les mots qui apparaissent souvent ensemble.
+**Collocates** _(Cooccurrences)_: Les clusters nous montrent des mots qui apparaissent _définitivement_ ensemble dans un corpus ; les cooccurrences (_collocates_) montrent des mots qui sont statistiquement susceptibles d'apparaître ensemble.
+**Word List** _(Liste des mots)_: Tous les mots de votre corpus.
+**Keyword List** _(Liste des mots-clés)_: Ceci permet des comparaisons entre deux corpus.
 
 En guise d'introduction, ce tutoriel ne fait qu'effleurer la surface de ce que vous pouvez faire avec AntConc. Nous nous concentrerons sur les fonctions _Concordance_, _Collocates_, _Keywords_ et _Word List_.
 
@@ -211,9 +212,9 @@ Effectuez cette opération pour chacune des deux recherches, puis examinez les d
 #### L'opérateur | ("ou")
 
 **Exercice:**
-Recherchez  "_she|he_".  
+Recherchez  "_she|he_".
 
-Maintenant, recherchez-les séparément : combien d'occurences "_she_" comparé à "_he_" ?  
+Maintenant, recherchez-les séparément : combien d'occurences "_she_" comparé à "_he_" ?
 
 Il y a beaucoup moins de cas de "_she_"- pourquoi ? C'est une question de recherche ! Une bonne question de suivi pourrait être de trier la recherche "_she|he_" et de voir si des verbes particuliers suivent chacun d'eux.
 
@@ -323,20 +324,20 @@ En résumé, il vaut la peine de réfléchir :
 
 ## Ressources supplémentaires pour ce tutoriel
 #### En anglais
-[Une courte bibliographie sur la linguistique des corpus][43].  
+[Une courte bibliographie sur la linguistique des corpus][43].
 [Une version plus détaillée de ce tutoriel, en supposant que vous n'avez aucune connaissance en informatique.](http://hfroehli.ch/workshops/getting-started-with-antconc/)
 
-#### En français (notes de la version traduite)  
-[Page AntConc de EduTech Wiki de l'UNIGE](http://edutechwiki.unige.ch/fr/AntConc#)  
-[Page AntConc sur le site Exploration de corpus : outils et pratiques](http://explorationdecorpus.corpusecrits.huma-num.fr/antconc/)  
-[Tutoriel AntConc du CID-ENS Lyon](http://cid.ens-lyon.fr/ac_article.asp?fic=antconc.asp)  
+#### En français (notes de la version traduite)
+[Page AntConc de EduTech Wiki de l'UNIGE](http://edutechwiki.unige.ch/fr/AntConc#)
+[Page AntConc sur le site Exploration de corpus : outils et pratiques](http://explorationdecorpus.corpusecrits.huma-num.fr/antconc/)
+[Tutoriel AntConc du CID-ENS Lyon](http://cid.ens-lyon.fr/ac_article.asp?fic=antconc.asp)
 
-En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](http://ancilla.unice.fr/), [Iramuteq](http://iramuteq.org/), [Lexico](http://www.lexi-co.com/) ou [TXM](http://textometrie.ens-lyon.fr/?lang=fr). Merci de consulter également: Bénédicte Pincemin, ["Sept logiciels de textométrie"](https://halshs.archives-ouvertes.fr/halshs-01843695/document), 2018.  
+En France, des outils similaires à AntConc ont été dévéloppés dans le cadre de la textométrie, de la lexicométrie, et de la logométrie, souvent par des historien(ne)s. On peut nommer notamment [Hyperbase](http://ancilla.unice.fr/), [Iramuteq](http://iramuteq.org/), [Lexico](http://www.lexi-co.com/) ou [TXM](http://textometrie.ens-lyon.fr/?lang=fr). Merci de consulter également: Bénédicte Pincemin, ["Sept logiciels de textométrie"](https://halshs.archives-ouvertes.fr/halshs-01843695/document), 2018.
 
-#### Bibliographie non-exhaustive 
+#### Bibliographie non-exhaustive
 
-Ludovic Lebart et André Salem, [*Statistique textuelle*](http://lexicometrica.univ-paris3.fr/livre/st94/st94-tdm.html), 1994.    
-Damon Mayaffre, ["L’entrelacement lexical des textes. Cooccurrences et lexicométrie"](https://hal.archives-ouvertes.fr/hal-00553808), _Journées de linguistique de corpus_, 2008, p. 91-102.   
+Ludovic Lebart et André Salem, [*Statistique textuelle*](http://lexicometrica.univ-paris3.fr/livre/st94/st94-tdm.html), 1994.
+Damon Mayaffre, ["L’entrelacement lexical des textes. Cooccurrences et lexicométrie"](https://hal.archives-ouvertes.fr/hal-00553808), _Journées de linguistique de corpus_, 2008, p. 91-102.
 [La cooccurrence, du fait statistique au fait textuel](https://journals.openedition.org/corpus/2183), _Corpus_, 11, 2012, numéro coordonné par Damon Mayaffre et Jean-Marie Viprey.
 
 [41]: http://www.lexically.net/downloads/version6/HTML/index.html?keyness_definition.htm

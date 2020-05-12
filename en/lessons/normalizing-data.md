@@ -22,6 +22,7 @@ previous: from-html-to-list-of-words-2
 python_warning: false
 redirect_from: /lessons/normalizing-data
 avatar_alt: Tall woman dragging a short young man
+doi: 10.46430/phen0014
 ---
 
 {% include toc.html %}
