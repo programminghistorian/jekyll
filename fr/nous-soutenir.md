@@ -45,6 +45,7 @@ En participant à notre programme de partenariat institutionnel vous bénéficie
 - La ventilation annuelle des dépenses de ProgHist Ltd.
 - Reconnaissance explicite de votre contribution dans la section [Nos soutiens](/fr/nous-soutenir#nos-soutiens).
 - Le droit de valoriser ce partenariat dans les activités de promotion de votre institution.
+- Vous pouvez solliciter une expertise *ad hoc* de notre équipe sur la gestion d'une publication en accès libre, l'implémentation de workflows de publication multilingue, ou encore l'utilisation des tutoriels du *Programming Historian* dans le cadre d'ateliers de formation. Cette expertise *ad hoc* sur demande n'est pas une consultation formelle. 
 - Pour les bibliothèques partenaires: une liste d'articles publiés par toutes les versions du Programming Historian (sur demande).
 
 Les montants pour nouer un partenariat sont fixés, pour l'année 2020, à 1 180 euros (environ 1 720 dollars canadiens / 1 260 francs suisses) ou à 165 euros (environ 260 dollars canadiens / 190 francs suisses) pour des partenaires en provenance de [pays éligibles à l'aide publique au développement de l'OCDE](http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/listecad.htm). Les partenariats sont annuels, renouvelables et comptent à partir de la date du premier règlement. Les sommes requises sont publiées annuellement en janvier.

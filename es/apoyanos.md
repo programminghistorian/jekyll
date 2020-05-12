@@ -42,7 +42,8 @@ Al unirte al Programa de Instituciones Asociadas recibirás los siguientes benef
 - Invitación a la reunión anual de [ProgHist Ltd](https://beta.companieshouse.gov.uk/company/12192946) como Miembro Asesor (una persona por institución asociada).
 - Acceso al detalle de los gastos anuales de ProgHist Ltd.
 - Reconocimiento de tu contribución en nuestra página de Patrocinadores.
-- Derecho a usar la membrecía a este programa en las actividades de promoción de tu institución.
+- Derecho a usar la membresía a este programa en las actividades de promoción de tu institución.
+- Necesitas asesoría sobre cómo implementar una publicación de acceso abierto, flujos de trabajo para publicaciones multilingües o sobre cómo adaptar artículos de _Programming Historian_ para la realización de un taller? La membresía te da acceso a asesoría _ad hoc_ de parte de nuestro equipo experto (previa solicitud; no incluye consultoría formal). 
 - Para bibliotecas socias: lista de todos los artículos publicados por las distintas ediciones de The Programming Historian (previa solicitud).
 
 El costo de asociación para 2020 corresponde a £1000 libras esterlinas (aproximadamente $1300 dólares / €1180 euros). Las instituciones de [países elegibles para Ayuda Oficial al Desarrollo (AOD)](https://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/DAC_List_ODA_Recipients2018to2020_flows_En.pdf) pueden asociarse por £150 libras esterlinas (aproximadamente $195 dólares / €175 euros). Estos costos son anuales y su período de vigencia se inicia con la fecha del primer pago. En el mes de enero se publica la actualización de los costos para cada año.

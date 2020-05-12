@@ -1,0 +1,20 @@
+---
+---
+
+
+[
+{% assign corpus = site.pages | where: "layout", "lesson" | where: "lang", page.lang %}
+{% for page in corpus %}
+{% capture search_block %}
+{{ page.title }}
+{{ page.content | markdownify }}
+{{ page.abstract | markdownify }}
+{% endcapture %}
+{
+  "id": {% increment counter %},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "title": {{ page.title  | jsonify }},
+  "body": {{ search_block | strip_html | jsonify }}
+}{% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+]

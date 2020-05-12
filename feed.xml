@@ -42,5 +42,10 @@ skip_concordance: true
 				{% for page in pages limit:10 %}
 						{% include feed-item.html %}
 				{% endfor %}
+
+				{% assign pages = site.pages | where:'layout','lesson'|  where:'lang','pt' | sort:'translation_date' | reverse %}
+				{% for page in pages limit:10 %}
+						{% include feed-item.html %}
+				{% endfor %}
 	</channel>
 </rss>

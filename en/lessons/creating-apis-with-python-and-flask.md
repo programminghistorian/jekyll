@@ -61,7 +61,7 @@ Next, you'll need to install Flask. At the command line, type
 
 This will install Flask using the pip package manager for Python. You should see some output ending in a notification that Flask has been installed successfully.
 
-As an alternative to the above installation instructions, you can install the Python 3 version of Anaconda, which can be downloaded [here](https://www.continuum.io/downloads). Anaconda comes with Flask, so if you go this route you will not need to install Flask using the pip package manager.
+As an alternative to the above installation instructions, you can install the Python 3 version of Anaconda, which can be downloaded [here](https://www.continuum.io). Anaconda comes with Flask, so if you go this route you will not need to install Flask using the pip package manager.
 
 If you're running into trouble installing Python, you may find [this Programming Historian article on installing Python](/lessons/introduction-and-installation) helpful. Note that the instructions in that tutorial are for installing Python 2—make sure you choose Python 3 when downloading installers from the Python website, since this tutorial uses Python 3.
 

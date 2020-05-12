@@ -533,7 +533,7 @@ For more information on R, visit the [R Manual](https://cran.r-project.org/doc/m
 
 There are also a number of other R tutorials online including:
 
-* [R: A self-learn tutorial](https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf) - this tutorial goes through a series of functions and provides exercises to practice skills.
+* [R: A self-learn tutorial](http://web.archive.org/web/20191015004305/https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf) - this tutorial goes through a series of functions and provides exercises to practice skills.
 * [DataCamp Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) - this is a free online course that gives you feedback on your code to help identify errors and learn how to write code more efficiently.
 
 Finally, a great resource for digital historians is Lincoln Mullen's [Digital History Methods in R](http://dh-r.lincolnmullen.com/). It is a draft of a book written specifically on how to use R for digital history work.

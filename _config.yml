@@ -2,7 +2,6 @@ name: Programming Historian
 description: Introductory and intermediate programming lessons for humanists
 # Used to insert the live url of the site in places that require a full link such as suggested citations and XML feed
 liveurl: https://programminghistorian.org
-baseurl: ""
 permalink: :categories/:title
 exclude:
   - deprecated
@@ -10,6 +9,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - archive
+  - pt
 highlighter: rouge
 markdown: kramdown
 permalink: :categories/:title
@@ -20,61 +20,62 @@ plugins:
 paginate: 7
 paginate_path: "/blog/page:num/"
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       lang: "en"
-  -
-    scope:
+  - scope:
       path: "en"
     values:
       lang: "en"
-  -
-    scope:
+  - scope:
       path: "es"
     values:
       lang: "es"
-  -
-    scope:
+  - scope:
       path: "fr"
     values:
       lang: "fr"
-  -
-    scope:
+  - scope:
+      path: "pt"
+    values:
+      lang: "pt"
+  - scope:
       path: "en/lessons"
     values:
       lesson: true
-  -
-    scope:
+  - scope:
       path: "en/lessons/retired"
     values:
       lesson: false
       retired: true
-  -
-    scope:
+  - scope:
       path: "es/lecciones/retirada"
     values:
       lesson: false
       retired: true
-  -
-    scope:
+  - scope:
       path: "fr/lecons/retrait"
     values:
       lesson: false
       retired: true
-  -
-    scope:
+  - scope:
       path: "es/lecciones"
     values:
       lesson: true
-  -
-    scope:
+  - scope:
       path: "fr/lecons"
     values:
       lesson: true
-  -
-    scope:
+  - scope:
+      path: "pt/licoes"
+    values:
+      lesson: true
+  - scope:
+      path: "fr/lecons"
+    values:
+      lesson: true
+  - scope:
       path: _posts
     values:
       category: posts

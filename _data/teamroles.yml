@@ -1,12 +1,10 @@
+# Publication Roles
 # Definitions of editorial sub teams.
 #
 # type: the tag added in ph_authors.yml
 # label: Short label to be displayed alongside the author bio, and in the roles definition list
 # definition: Brief description of that editorial team. If this is a derived label that uses the definition of another role, instead use...
-# source_role: The role type where the definition for this derived role can be found (e.g. pointing from an ES variant of a role to the original EN definition)
 
-
-# --- Publication Roles ---
 - type: managing
   label:
     en: Managing Editor
@@ -18,31 +16,13 @@
     fr: Premier contact pour les auteurs souhaitant proposer une lesson
 - type: editorial
   label:
-    en: Editor (English)
-    es: Editor(a) (Inglés)
-    fr: Rédacteur (anglais)
+    en: Editor
+    es: Editor(a)
+    fr: Rédacteur
   definition:
-    en: Responsible for editorial work resulting in the review and publication of English-language lessons
-    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en inglés
-    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en anglais
-- type: spanish
-  label:
-    en: Editor (Spanish)
-    es: Editor(a) (español)
-    fr: Rédacteur (espagnol)
-  definition:
-    en: Responsible for editorial work resulting in the review and publication of Spanish-language lessons
-    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en español
-    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en espagnol
-- type: french
-  label:
-    en: Editor (French)
-    es: Editor(a) (francés)
-    fr: Rédacteur (français)
-  definition:
-    en: Responsible for editorial work resulting in the review and publication of French-language lessons
-    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones en francés
-    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons en français
+    en: Responsible for editorial work resulting in the review and publication of lessons
+    es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones
+    fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons
 - type: ombuds
   label:
     en: Ombudsperson
@@ -56,13 +36,13 @@
 # --- Proghist Roles ---
 - type: proghist
   label:
-     en: ProgHist Ltd
-     es: ProgHist Ltd
-     fr: ProgHist Ltd
+    en: ProgHist Ltd
+    es: ProgHist Ltd
+    fr: ProgHist Ltd
   definition:
-     en: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
-     es: Este miembro funge un cargo en la compañía sin ánimo de lucro ProgHist Ltd, que gestiona las publicaciones.
-     fr: Ce(tte) membre occupe un rôle au sein de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
+    en: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
+    es: Este miembro funge un cargo en la compañía sin ánimo de lucro ProgHist Ltd, que gestiona las publicaciones.
+    fr: Ce(tte) membre occupe un rôle au sein de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
 - type: technical-lead
   label:
     en: Technical Lead
@@ -144,20 +124,6 @@
     en: Keeping the team focused on achieving its goals in a timely manner
     es: Mantener al equipo enfocado en lograr sus objetivos de manera puntual
     fr: Garder l'équipe concentrée sur la réalisation de ses objectifs à l'intérieur des délais prévus
-
-# --- Derived roles ---
-- type: ombuds-es
-  label:
-    en: Ombudsperson (Spanish)
-    es: Mediador (español)
-    fr: Médiateur/médiatrice (espagnol)
-  source_role: ombuds
-- type: ombuds-fr
-  label:
-    en: Ombudsperson (French)
-    es: Mediador (francés)
-    fr: Médiateur/médiatrice (français)
-  source_role: ombuds
 - type: global-lead
   label:
     en: Global Lead
@@ -166,7 +132,7 @@
   definition:
     en: Coordinates the Global Team and facilitates communication with other Programming Historian teams.
     es: Coordina el Equipo Global y facilita la comunicación con el resto de los equipos de Programming Historian.
-    fr: Coordonne l'équipe globale et assure la communication avec les autres équipes du Programming Historian. 
+    fr: Coordonne l'équipe globale et assure la communication avec les autres équipes du Programming Historian.
 - type: global
   label:
     en: Global Team
@@ -175,24 +141,33 @@
   definition:
     en: Managing new global initiatives, as well as trying to improve the cultural and linguistic diversity of the team, our lessons, and of participation in Digital Humanities more generally.
     es: Coordinar nuevas iniciativas globales, así como tratar de mejorar la diversidad cultural y lingüística del equipo, de nuestras lecciones y de la participación en Humanidades Digitales en general.
-    fr: En charge de nouvelles initiatives à vocation globale, de la diversité culturelle et linguistique de l'équipe et des leçons, et de la participation aux humanités numériques en général.  
+    fr: En charge de nouvelles initiatives à vocation globale, de la diversité culturelle et linguistique de l'équipe et des leçons, et de la participation aux humanités numériques en général.
+- type: new-pub-manager
+  label:
+    en: New Publications Manager
+    es: Mánager de publicaciones nuevas
+    fr: Responsable des nouvelles publications
+  definition:
+    en: Coordinates the process for creating new publications and facilitates communication with other Programming Historian teams.
+    es: Coordina el proceso de creación de publicaciones nuevas y facilita la comunicación con el resto de los equipos de Programming Historian.
+    fr: Responsable de la création de nouvelles publications et assure la communication avec les autres équipes du Programming Historian.
 
-# --- Status ---
+# Status
 - type: volunteer
   label:
-     en: Volunteer
-     es: Voluntario
-     fr: Bénévole
+    en: Volunteer
+    es: Voluntario
+    fr: Bénévole
   definition:
-     en: This member's time on the project is wholly voluntary.
-     es: El tiempo que este miembro dedica al proyecto es voluntario.
-     fr: Ce membre contribue son temps sur une base entièrement bénévole.
+    en: This member's time on the project is wholly voluntary.
+    es: El tiempo que este miembro dedica al proyecto es voluntario.
+    fr: Ce membre contribue son temps sur une base entièrement bénévole.
 - type: institutionally-supported
   label:
-     en: Institutionally Supported
-     es: Apoyado por su institución
-     fr: Soutenu institutionnellement
+    en: Institutionally Supported
+    es: Apoyado por su institución
+    fr: Soutenu institutionnellement
   definition:
-     en: This member's time on the project is either directly or indirectly supported by their employer.
-     es: El tiempo que este miembro dedica al proyecto está directa o indirectamente apoyado por su institución.
-     fr: Le temps que ce membre consacre au projet est directement ou indirectement financé par son employeur.
+    en: This member's time on the project is either directly or indirectly supported by their employer.
+    es: El tiempo que este miembro dedica al proyecto está directa o indirectamente apoyado por su institución.
+    fr: Le temps que ce membre consacre au projet est directement ou indirectement financé par son employeur.
