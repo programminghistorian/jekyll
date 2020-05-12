@@ -21,6 +21,7 @@ previous: counting-frequencies
 python_warning: false
 redirect_from: /lessons/creating-and-viewing-html-files-with-python
 avatar_alt: Child drawing on a tablet
+doi: 10.46430/phen0004
 ---
 
 {% include toc.html %}

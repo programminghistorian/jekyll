@@ -16,6 +16,7 @@ topics: [data-manipulation]
 abstract: "This lesson teaches a way to quickly analyze large volumes of tabular data, making research faster and more effective."
 redirect_from: /lessons/r-basics-with-tabular-data
 avatar_alt: An ornate illustrated character R
+doi: 10.46430/phen0056
 ---
 
 {% include toc.html %}

@@ -18,6 +18,7 @@ activity: analyzing
 topics: [distant-reading]
 abstract: "En este tutorial se aprenderá cómo organizar y analizar un conjunto de textos con Voyant-Tools."
 avatar_alt: Grafas con diferentes graduaciones de oftanmología
+doi: 10.46430/phes0043
 ---
 
 {% include toc.html %}
@@ -177,9 +178,9 @@ La densidad de vocubulario se mide dividiendo el número de palabras únicas ent
 >y siente que no esté claro?
 
 * Estrofa 2. De "Despacito" de Erika Ender, Luis Fonsi y Daddy Yankee
->Pasito a pasito, suave suavecito  
->Nos vamos pegando poquito a poquito  
->Cuando tú me besas con esa destreza  
+>Pasito a pasito, suave suavecito
+>Nos vamos pegando poquito a poquito
+>Cuando tú me besas con esa destreza
 >Veo que eres malicia con delicadeza
 
 **2)** Lee los datos de densidad léxica de los documentos de nuestro corpus, ¿qué te dicen?
@@ -266,10 +267,10 @@ Para evitar la sobre-representación de un término, los lingüistas han ideado 
 Frecuencia Bruta * 1,000,000 / Número total de palabras.
 Analicemos un verso como ejemplo. Tomemos la frase: "pero mi corazón dice que no, dice que no", que tiene ocho palabras en total. Si calculamos su frecuencia bruta y relativa tenemos que:
 
-|palabra|frecuencia bruta|frecuencia normalizada|
-|--|--|--|
-| corazón | 1 |1*1,000,000/8 = 125,000|
-| dice| 2 |2*1,000,000/8 = 111,000|
+| palabra | frecuencia bruta | frecuencia normalizada  |
+| ------- | ---------------- | ----------------------- |
+| corazón | 1                | 1*1,000,000/8 = 125,000 |
+| dice    | 2                | 2*1,000,000/8 = 111,000 |
 
 ¿Cuál es la ventaja de esto? Que si tuviéramos un corpus en el que la palabra corazón tuviera la misma proporción, por ejemplo 1,000 ocurrencias entre 8,000 palabras; si bien la frecuencia bruta es muy distinta, la frecuencia normalizada sería la misma, pues 1,000*1,000,000/8,000 también es 125,000.
 

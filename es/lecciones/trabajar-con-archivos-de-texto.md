@@ -29,6 +29,7 @@ activity: transforming
 topics: [python]
 abstract: "En esta lección aprenderás a manipular archivos de texto utilizando Python."
 avatar_alt: Dibujo de un señor leyendo el abecedario.
+doi: 10.46430/phes0028
 ---
 
 {% include toc.html %}

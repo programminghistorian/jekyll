@@ -25,8 +25,9 @@ redirect_from: /es/lessons/cleaning-data-with-openrefine
 difficulty: 2
 activity: transforming
 topics: [data-manipulation]
-abstract: "Este tutorial se enfoca en cómo los académicos pueden diagnosticar y tomar acciones para asegurar la precisión de sus datos."   
+abstract: "Este tutorial se enfoca en cómo los académicos pueden diagnosticar y tomar acciones para asegurar la precisión de sus datos."
 avatar_alt: Dibujo de tareas de labandería en un río que apenas lleva agua
+doi: 10.46430/phes0017
 ---
 
 {% include toc.html %}
@@ -152,11 +153,11 @@ Una vez que tus datos han sido limpiados, puedes dar el siguiente paso y explora
 Si sólo recordaras una cosa de esta lección, debería ser lo siguiente: *todos los datos están sucios, pero tú puedes hacer algo para remediarlo*. Como te hemos mostrado, hay ya bastantes cosas que puedes hacer tú mismo para aumentar significativamente la calidad de los datos. En primer lugar, has aprendido cómo puedes obtener una panorámica rápida de cuántos valores vacíos contiene tu conjunto de datos y con qué frecuencia se utiliza un valor determinado (por ejemplo, una palabra clave) en toda una colección. Estas lecciones también han demostrado cómo resolver problemas recurrentes tales como duplicados e inconsistencias ortográficas de forma automatizada con la ayuda de OpenRefine. No dudes en experimentar con las funciones de limpieza, ya que estás realizando estos pasos en una copia de tu conjunto de datos, y *OpenRefine* te permite rastrear todos tus pasos (y volver atrás) en el caso de que hayas cometido un error.
 
 ## Notas de la traductora
-[^1]: Denominado también conciliar o reconciliar.  
-[^2]: La página del Museo Powerhouse ha sido modificada desde la publicación original de esta lección en 2013. La página actual que muestra la información de este mismo objeto de la imagen es https://collection.maas.museum/object/11848  
-[^3]: Es posible que al cargar este proyecto no veas ninguna columna con este color. Esto significa que ningún campo tiene definidos sus valores como numéricos.  
-[^4]: Al cargar el proyecto es muy posible que esta columna aparezca con formato de texto. Para poder aplicar una faceta numérica primero hay que convertirla a formato numérico: '**Editar celdas**' \> '**Transformaciones comunes**' \> '**a número**'.  
-[^5]: Esta parte de la interfaz del programa no aparece traducida.  
+[^1]: Denominado también conciliar o reconciliar.
+[^2]: La página del Museo Powerhouse ha sido modificada desde la publicación original de esta lección en 2013. La página actual que muestra la información de este mismo objeto de la imagen es https://collection.maas.museum/object/11848
+[^3]: Es posible que al cargar este proyecto no veas ninguna columna con este color. Esto significa que ningún campo tiene definidos sus valores como numéricos.
+[^4]: Al cargar el proyecto es muy posible que esta columna aparezca con formato de texto. Para poder aplicar una faceta numérica primero hay que convertirla a formato numérico: '**Editar celdas**' \> '**Transformaciones comunes**' \> '**a número**'.
+[^5]: Esta parte de la interfaz del programa no aparece traducida.
 
 
 [*OpenRefine*]: http://openrefine.org "OpenRefine"

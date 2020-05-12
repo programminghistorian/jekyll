@@ -18,6 +18,7 @@ topics: [data-manipulation, distant-reading]
 abstract: "This lesson will help you store large amounts of historical data in a structured manner, search and filter that data, and visualize some of the data as a graph."
 redirect_from: /lessons/getting-started-with-mysql-using-r
 avatar_alt: A hand holding a newspaper
+doi: 10.46430/phen0076
 ---
 
 This lesson is for you if you want to store large amounts of data from your digital history projects in a structured manner. We will use a database called MySQL to store data.

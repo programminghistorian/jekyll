@@ -12,13 +12,14 @@ editors:
 layout: lesson
 difficulty: 2
 slug: corpus-paralelo-lfaligner
-topics: 
+topics:
 - distant-reading
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/197
 activity: analyzing
 abstract: |
   Esta lección enseña a crear corpus con traducciones a distintas lenguas, de forma que queden perfectamente alineados para una mejor visualización y consulta.
-avatar_alt: Grabado con tres mujeres 
+avatar_alt: Grabado con tres mujeres
+doi: 10.46430/phes0044
 ---
 
 {% include toc.html %}
@@ -192,8 +193,8 @@ Para este proyecto utilizaremos la herramienta de LF Aligner, por lo que debemos
 **Consideraciones sobre la edición del bitexto en las versiones de Linux y Mac**
 Las versiones de Linux (3.11) y Mac (3.12) no cuentan con una interfaz gráfica propia para la revisión del bitexto. Al no existir este elemento, debemos generar y exportar el documento de planilla de cálculo para revisarlo con un tercer programa. Por esta razón, estas versiones ofrecen solo las siguientes opciones:
 1. No revisar (*n*).
-2. Abrir el documento .txt con el texto alineado para revisarlo (*t*). 
-3. Crear y abrir un documento .xls con el texto alineado (*x*). 
+2. Abrir el documento .txt con el texto alineado para revisarlo (*t*).
+3. Crear y abrir un documento .xls con el texto alineado (*x*).
 
 Lo más conveniente para nuestros fines es exportar un documento .xls para editarlo en una hoja de cálculo. Cada celda de la planilla corresponderá a uno de los segmentos alineados. Seleccionamos, entonces, la tercera opción, introduciendo *x* con el teclado y presionando *entrar*.
 En el caso de que seas usuario de Mac o Linux, debes saltarte el siguiente apartado y continuar con las instrucciones para el cierre del programa **en Linux y Mac**.

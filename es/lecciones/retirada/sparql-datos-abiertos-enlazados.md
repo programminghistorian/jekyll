@@ -33,6 +33,7 @@ retired: true
 retirement-reason: |
  El Museo Británico no ha mantenido el acceso a su base de datos de colecciones de una manera consistente. Aunque la sintaxis y los comandos de SPARQL siguen siendo correctos, las URLs a las que intentan conectarse son ahora demasiado inconsistentes para su uso en una lección funcional.
 avatar_alt: Grabado con dos peces unidos por una rama en sus bocas.
+doi: 10.46430/phes0027
 ---
 
 Objetivos de la lección
@@ -115,10 +116,10 @@ Cuando la consulta interroga la base de datos completa, esta busca los sujetos, 
 
 Nuestros resultados podrían tener este aspecto:
 
-|**pinturas**|
-|--------|
-|La ronda de noche|
-|La tasadora de perlas|
+| **pinturas**          |
+| --------------------- |
+| La ronda de noche     |
+| La tasadora de perlas |
 
 Ahora bien, lo que hace a RDF y a SPARQL herramientas tan potentes es su habilidad para crear consultas complejas que referencian múltiples variables al mismo tiempo. Por ejemplo, podríamos buscar en nuestra seudobase de datos RDF pinturas creadas por cualquier artista que fuese holandés:
 

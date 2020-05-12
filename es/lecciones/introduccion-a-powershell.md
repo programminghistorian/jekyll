@@ -24,7 +24,8 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/146
 activity: transforming
 topics: [data-manipulation, get-ready]
 abstract: "En este tutorial aprenderás las bases de PowerShell de Windows, la interfaz de línea de comandos estándar de computadoras con Windows."
-avatar_alt: Grabado de una concha de molusco 
+avatar_alt: Grabado de una concha de molusco
+doi: 10.46430/phes0037
 ---
 
 {% include toc.html %}
@@ -126,7 +127,7 @@ Sin embargo, es probable que tengas un montón de archivos ya existentes con esp
 
 `gci`
 
-Y verás que no hay nada aquí. ¡Eso es porque no has puesto nada en él! Vamos a poner un nuevo directorio dentro con `mkdir`. Llamaremos a este directorio "Directorio con un nombre largo y muchos espacios". Debido a que el nombre tiene espacios en él, tendremos que usar comillas para crearlo. Tipo 
+Y verás que no hay nada aquí. ¡Eso es porque no has puesto nada en él! Vamos a poner un nuevo directorio dentro con `mkdir`. Llamaremos a este directorio "Directorio con un nombre largo y muchos espacios". Debido a que el nombre tiene espacios en él, tendremos que usar comillas para crearlo. Tipo
 
 `mkdir "Directorio con un nombre largo y muchos espacios"`
 
@@ -407,7 +408,7 @@ Introduce esto:
 
 Verás las primeras 10 líneas de tu texto. Asegúrate de incluir el guión, ya que de lo contrario PowerShell no sabrá que `-TotalCount` es un parámetro. Ahora escribe:
 
-`gc granben.txt -tail 10` 
+`gc granben.txt -tail 10`
 
 y verás las últimas 10 líneas. Lo que hemos hecho es especificarle a nuestro *cmdlet* `gc` los parámetros `-totalcount` y `-tail`. Casi todos los *cmdlets* pueden ser refinados añadiendo parámetros como este. Pero, ¿cómo sabemos qué parámetros están disponibles?
 
@@ -489,23 +490,23 @@ Cuanto más utilices PowerShell más fácil será descubrir capacidades que ni s
 
 Esta tabla sirve como una referencia rápida a todos los *cmdlets* mencionados en esta lección. La primera columna muestra el nombre real; el segundo muestra la abreviatura que normalmente se escribe. El equivalente de Bash muestra el comando más similar en Bash. A menos que este comando esté entre paréntesis, también se puede utilizar en PowerShell como un alias para el *cmdlet* correspondiente. Para obtener una explicación más completa de cualquiera de los *cmdlets*, utiliza `Get-Help` con el parámetro `-online` (por ejemplo, `Get-Help Get-ChildItem -online`).
 
-| Cmdlet | Alias | Bash Equivalent | Description |
-| ------- | ------- | ------- | ------- |
-| `Get-ChildItem` | `gci` | `ls` | Enlista los directorios y archivos en la ubicación actual. |
-| `Set-Location` | `sl` | `cd` | Cambia al directorio en la ruta de acceso dada. Si escribes `..` en lugar de una ruta te moverá hacia arriba un directorio. |
-| `Push-Location` | `pushd` | `pushd` | Cambiar al directorio. |
-| `Pop-Location` | `popd` | `popd` | Regresa al directorio previo despues de usar `pushd` |
-| `New-Item` | `ni` | (`touch`) | Crea un nuevo ítem. De no utilizarse un parámetro, el ítem será un archivo por defecto. El uso de `mkdir` es una abreviatura para incluir el parámetro `-ItemType dir`. |
-| `mkdir` | none | `mkdir` | Crea un nuevo directorio. (Ver `New-Item`.) |
-| `Explorer` | none | (`open`) | Abre algo utilizando el Explorador de archivos (la GUI) |
-| `Remove-Item` | `rm` | `rm` | Borra algo... ¡de manera permanente! |
-| `Move-Item` | `mv` | `mv` | Mueve algo. Necesita dos argumentos. Primero un nombre de archivo (i.e. su ruta actual), luego la ruta de nueva nueva locación (incluido el nombre que debe tener ahí). Si no se cambia la ruta, puede usarse para renombrar archivos. |
-| `Copy-Item` | `cp` | `cp` | Copia un archivo en una nueva ubicación. Requiere los mismos argumentos que mover, pero mantiene el archivo original en su ubicación. |
-| `Write-Output` | `write` | `echo` | Exporta lo que escribas. Utiliza la redirección para enviarlo a un archivo. La redirección con `>>` añadirá texto al archivo en lugar de sobrescribir el contenido. |
-| `Get-Content` | `gc` | `cat` | Obtiene el contenido de un archivo y lo imprime en la pantalla. La adición del parámetro `-TotalCount` seguido de un número x sólo imprime las primeras x líneas. Añadiendo el parámetro `-Tail` seguido de un número x sólo imprime las x líneas finales. |
-| `Select-String` | `sls` | (`grep`) | Busca contenido específico. |
-| `Measure-Object` | `measure` | (`wc`) | Obtiene información estadística sobre un objeto. Utiliza `Get-Content` y dirige la salida a` Measure-Object` con los parámetros `-line`, `-word` y `-character` para obtener información sobre el recuento de líneas, palabras o caracteres. |
-| `>` | none | `>` |Redirección. Pone la salida del comando a la izquierda de `>` en un archivo a la derecha de `>`. |
-| `|` | none | `|` |Canalizar. Toma la salida del comando a la izquierda y la usa como entrada para el comando a la derecha. |
-| `Get-Help` | none | `man` | Obtiene el archivo de ayuda de un *cmdlet*. La adición del parámetro `-online` abre la página de ayuda en TechNet. |
-| `exit` | none | `exit` | Salir de PowerShell |
+| Cmdlet           | Alias     | Bash Equivalent | Description                                                                                                                                                                                                                                                |
+| ---------------- | --------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Get-ChildItem`  | `gci`     | `ls`            | Enlista los directorios y archivos en la ubicación actual.                                                                                                                                                                                                 |
+| `Set-Location`   | `sl`      | `cd`            | Cambia al directorio en la ruta de acceso dada. Si escribes `..` en lugar de una ruta te moverá hacia arriba un directorio.                                                                                                                                |
+| `Push-Location`  | `pushd`   | `pushd`         | Cambiar al directorio.                                                                                                                                                                                                                                     |
+| `Pop-Location`   | `popd`    | `popd`          | Regresa al directorio previo despues de usar `pushd`                                                                                                                                                                                                       |
+| `New-Item`       | `ni`      | (`touch`)       | Crea un nuevo ítem. De no utilizarse un parámetro, el ítem será un archivo por defecto. El uso de `mkdir` es una abreviatura para incluir el parámetro `-ItemType dir`.                                                                                    |
+| `mkdir`          | none      | `mkdir`         | Crea un nuevo directorio. (Ver `New-Item`.)                                                                                                                                                                                                                |
+| `Explorer`       | none      | (`open`)        | Abre algo utilizando el Explorador de archivos (la GUI)                                                                                                                                                                                                    |
+| `Remove-Item`    | `rm`      | `rm`            | Borra algo... ¡de manera permanente!                                                                                                                                                                                                                       |
+| `Move-Item`      | `mv`      | `mv`            | Mueve algo. Necesita dos argumentos. Primero un nombre de archivo (i.e. su ruta actual), luego la ruta de nueva nueva locación (incluido el nombre que debe tener ahí). Si no se cambia la ruta, puede usarse para renombrar archivos.                     |
+| `Copy-Item`      | `cp`      | `cp`            | Copia un archivo en una nueva ubicación. Requiere los mismos argumentos que mover, pero mantiene el archivo original en su ubicación.                                                                                                                      |
+| `Write-Output`   | `write`   | `echo`          | Exporta lo que escribas. Utiliza la redirección para enviarlo a un archivo. La redirección con `>>` añadirá texto al archivo en lugar de sobrescribir el contenido.                                                                                        |
+| `Get-Content`    | `gc`      | `cat`           | Obtiene el contenido de un archivo y lo imprime en la pantalla. La adición del parámetro `-TotalCount` seguido de un número x sólo imprime las primeras x líneas. Añadiendo el parámetro `-Tail` seguido de un número x sólo imprime las x líneas finales. |
+| `Select-String`  | `sls`     | (`grep`)        | Busca contenido específico.                                                                                                                                                                                                                                |
+| `Measure-Object` | `measure` | (`wc`)          | Obtiene información estadística sobre un objeto. Utiliza `Get-Content` y dirige la salida a` Measure-Object` con los parámetros `-line`, `-word` y `-character` para obtener información sobre el recuento de líneas, palabras o caracteres.               |
+| `>`              | none      | `>`             | Redirección. Pone la salida del comando a la izquierda de `>` en un archivo a la derecha de `>`.                                                                                                                                                           |
+| `|`              | none      | `|`             | Canalizar. Toma la salida del comando a la izquierda y la usa como entrada para el comando a la derecha.                                                                                                                                                   |
+| `Get-Help`       | none      | `man`           | Obtiene el archivo de ayuda de un *cmdlet*. La adición del parámetro `-online` abre la página de ayuda en TechNet.                                                                                                                                         |
+| `exit`           | none      | `exit`          | Salir de PowerShell                                                                                                                                                                                                                                        |

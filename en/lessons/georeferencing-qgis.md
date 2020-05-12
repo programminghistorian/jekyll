@@ -22,6 +22,7 @@ that they may be added to a GIS as a raster layer."
 previous: vector-layers-qgis
 redirect_from: /lessons/georeferencing-qgis
 avatar_alt: Map of a moutnaintop city
+doi: 10.46430/phen0027
 ---
 
 {% include toc.html %}

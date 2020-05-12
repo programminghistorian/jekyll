@@ -22,6 +22,7 @@ previous: manipulating-strings-in-python
 python_warning: false
 redirect_from: /lessons/from-html-to-list-of-words-1
 avatar_alt: A giraffe being mimicked by a human
+doi: 10.46430/phen0006
 ---
 
 {% include toc.html %}

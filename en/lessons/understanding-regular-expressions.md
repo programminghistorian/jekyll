@@ -19,6 +19,7 @@ word processing application in order to make use of structure in a brief
 historical document that is essentially a table in the form of prose."
 redirect_from: /lessons/understanding-regular-expressions
 avatar_alt: Person studying a book at a desk
+doi: 10.46430/phen0033
 ---
 
 {% include toc.html %}

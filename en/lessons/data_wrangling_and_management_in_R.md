@@ -17,6 +17,7 @@ layout: lesson
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/60
 redirect_from: /lessons/data-wrangling-and-management-in-R
 avatar_alt: Bar of soap
+doi: 10.46430/phen0063
 ---
 
 {% include toc.html %}

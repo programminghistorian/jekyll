@@ -27,6 +27,7 @@ difficulty: 1
 activity: transforming
 topics: [get-ready, python]
 abstract: "Este tutorial te ayudará a configurar un entorno de desarrollo integrado para Python en un computador con el sistema operativo de Windows."
+doi: 10.46430/phes0011
 ---
 
 {% include toc.html %}
@@ -74,10 +75,10 @@ Si se ve más o menos así, oprime OK:
 
 Enseguida selecciona `Toolbox -> Add -> New Command` . Esto abrirá una nueva ventana de diálogo en la que deberás renombrar tu comando como `Run Python`. Debajo de `Command` teclea:
 
-``` python 
+``` python
 %(python3) %f
-``` 
-Si olvidas este comando, Python se quedará colgado porque no estará recibiendo las órdenes (input). 
+```
+Si olvidas este comando, Python se quedará colgado porque no estará recibiendo las órdenes (input).
 
 El campo activo ‘Start in’ debes escribir:
 
@@ -106,7 +107,7 @@ En tu editor de texto crea un nuevo archivo y escribe el siguiente programa de d
 ```python
 # hola-mundo.py
 print('hola mundo')
-``` 
+```
 
 El editor de texto que seleccionaste debe tener un botón `Run`  que te permitirá ejecutar tu programa. Si todo funciona bien, deberás ver algo como sigue (El ejemplo es como se ve en Komodo Edit. Da un clic en la imagen para ver una copia en tamaño completo):
 
@@ -118,21 +119,21 @@ Otra manera de interactuar con un intérprete es usando lo que se conoce como *s
 
 Puedes ejecutar un shell de Python haciendo doble clic en el archivo ejecutable `python.exe`. Si instalaste la más reciente versión de Python 3.8 (la más reciente para noviembre de 2019), probablemente el archivo .exe  esté localizado en el directorio `C:\Users\tunombredeusuario\AppData\Local\Programs\Python\Python38-32`. En la ventana del intérprete de comandos ("Símbolo de Sistema"), escribe:
 
-```python 
+```python
 print('Hola Mundo')
-``` 
+```
 
 Oprime la tecla Enter. La computadora responderá con:
 
 ``` python
 Hola Mundo
-``` 
+```
 Cuando queramos representar la interacción con el intérprete de comandos usaremos -\> para indicar la respuesta del shell a tus comandos, como se muestra inmediatamente:
 
 ```python
 Print('Hola Mundo')
 -> Hola Mundo
-``` 
+```
 
 En la pantalla de tu computadora aparecerá de esta manera:
 

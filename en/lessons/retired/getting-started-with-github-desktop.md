@@ -22,6 +22,7 @@ retirement-reason: |
   This lesson is for an old version of GitHub Desktop that is now no longer maintained or supported by GitHub. The new version and its documentation can be found at <https://desktop.github.com/>
 
   We also recommend the Software Carpentry tutorial on version control at <http://swcarpentry.github.io/git-novice/>
+doi: 10.46430/phen0051
 ---
 
 {% include toc.html %}

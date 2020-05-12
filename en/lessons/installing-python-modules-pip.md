@@ -16,6 +16,7 @@ exclude_from_check:
   - review-ticket
 redirect_from: /lessons/installing-python-modules-pip
 avatar_alt: A branch with pears
+doi: 10.46430/phen0029
 ---
 
 {% include toc.html %}

@@ -18,6 +18,7 @@ topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running a Mac operating system."
 redirect_from: /lessons/mac-installation
 avatar_alt: A band with three musicians
+doi: 10.46430/phen0012
 ---
 
 {% include toc.html %}
@@ -57,7 +58,7 @@ Edit website][]. Install it from the `.DMG` file
 ##### Make a “Run Python” Command in Komodo Edit
 
 Now you need to set up the editor so that you can run Python
-programs. 
+programs.
 
 If you don’t see the Toolbox pane on the right hand side, choose
 `View->Tabs & Sidebars ->Toolbox`. In the Toolbox window, click on the gear icon and select

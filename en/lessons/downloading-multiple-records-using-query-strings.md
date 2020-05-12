@@ -20,6 +20,7 @@ previous: output-keywords-in-context-in-html-file
 python_warning: false
 redirect_from: /lessons/downloading-multiple-records-using-query-strings
 avatar_alt: Figures working in a mine, pushing carts
+doi: 10.46430/phen0005
 ---
 
 {% include toc.html %}

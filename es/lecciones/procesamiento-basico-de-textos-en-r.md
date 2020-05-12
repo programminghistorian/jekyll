@@ -24,7 +24,8 @@ difficulty: 2
 activity: analyzing
 topics: [distant-reading]
 abstract: "Aprende a utilizar R para analizar patrones a nivel general en textos, para aplicar métodos de estilometría a lo largo del tiempo y entre autores y para aprender metodologías de resumen con las que describir objetos de un corpus."
-avatar_alt: Imagen de una biblioteca ambulante con niños y niñas a su alrededor. 
+avatar_alt: Imagen de una biblioteca ambulante con niños y niñas a su alrededor.
+doi: 10.46430/phes0039
 ---
 {% include toc.html %}
 
@@ -284,7 +285,7 @@ tabla <- data_frame(word = names(tabla), count = as.numeric(tabla))
 tabla <- arrange(tabla, desc(count))
 tabla
 ```
-[^9] 
+[^9]
 
 El resultado debería ser:
 

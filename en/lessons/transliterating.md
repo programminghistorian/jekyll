@@ -21,6 +21,7 @@ standardized format using the American Standard Code for Information
 Interchange (ASCII) characters."
 redirect_from: /lessons/transliterating
 avatar_alt: A set of Cyrillic characters
+doi: 10.46430/phen0032
 ---
 
 {% include toc.html %}

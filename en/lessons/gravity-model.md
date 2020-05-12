@@ -19,6 +19,7 @@ abstract: |
   This lesson introduces gravity models as a means for determining the probable distribution of entities across space in historical datasets. It does so through a case study of historical migration patterns.
 mathjax: true
 avatar_alt: Farmer standing before a fruit tree
+doi: 10.46430/phen0085
 ---
 
 {% include toc.html %}

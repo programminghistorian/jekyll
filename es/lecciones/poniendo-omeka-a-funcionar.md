@@ -23,7 +23,8 @@ difficulty: 1
 activity: presenting
 topics: [website]
 abstract: "Con Omeka.net es fácil crear sitios web que contengan colecciones de ítems."
-avatar_alt: Ilustración del esqueleto de un mamut en la exhibición de un museo, con gente a su alrededor. 
+avatar_alt: Ilustración del esqueleto de un mamut en la exhibición de un museo, con gente a su alrededor.
+doi: 10.46430/phes0022
 ---
 
 {% include toc.html %}
@@ -184,4 +185,4 @@ Ahora que has añadido algunos ítems y los has agrupado en una colección, tóm
 Recursos adicionales
 -----------------------------
 El equipo de Omeka ha compilado un conjunto de muy buenos recursos en las [páginas de ayuda](http://info.omeka.net) del software.
-[Este manual en español](https://issuu.com/ralcaraz/docs/omeka-manual) contiene información útil para evaluar las ventajas y desventajas de usar **Omeka.net** u **Omeka.org**, al igual que instrucciones generales sobre cómo instalar Omeka en tu servidor.   
+[Este manual en español](https://issuu.com/ralcaraz/docs/omeka-manual) contiene información útil para evaluar las ventajas y desventajas de usar **Omeka.net** u **Omeka.org**, al igual que instrucciones generales sobre cómo instalar Omeka en tu servidor.

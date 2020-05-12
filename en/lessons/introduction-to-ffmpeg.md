@@ -17,6 +17,7 @@ activity: analyzing
 topics: [data-manipulation]
 abstract: This lesson introduces the basic functions of FFmpeg, a free command-line tool used for manipulating and analyzing audiovisual materials.
 avatar_alt: An antique camera
+doi: 10.46430/phen0077
 ---
 
 {% include toc.html %}

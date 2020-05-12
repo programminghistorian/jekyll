@@ -18,6 +18,7 @@ abstract: "In this lesson we will learn how to use a graph database to store and
 layout: lesson
 redirect_from: /lessons/dealing-with-big-data-and-network-analysis-using-neo4j
 avatar_alt: Constellation chart
+doi: 10.46430/phen0074
 ---
 
 {% include toc.html %}
@@ -158,19 +159,19 @@ Let's examine the basic format of the two CSV files we downloaded.
 
 **nodes_nodes_companies.csv**
 
-| companyId  |    name |
-|----------------------|--------------|
-| 1 | CANADIAN BANK OF COMMERCE |
-| 2 | SHAWINIGAN WATER AND POWER  |
-| ... | ... |
+| companyId | name                       |
+| --------- | -------------------------- |
+| 1         | CANADIAN BANK OF COMMERCE  |
+| 2         | SHAWINIGAN WATER AND POWER |
+| ...       | ...                        |
 
 **edges_director_duration.csv**
 
-|START_ID  |  years_served |  END_ID|
-|-----------|-----------|--------------|
-| 1    |2   |   2 |
-| 281  | 10  |  422|
-| ...  | ... | ... |
+| START_ID | years_served | END_ID |
+| -------- | ------------ | ------ |
+| 1        | 2            | 2      |
+| 281      | 10           | 422    |
+| ...      | ...          | ...    |
 
 By looking at the two data files we can see that the Canadian Bank of Commerce and Shawinigan Water and Power have both employed the same director for 2 years.
 (The first row of edges_director_duration.csv shows the start node with the Canadian Bank of Commerce ID and the Shawinigan Water and Power ID as the end node.)

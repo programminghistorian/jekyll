@@ -4,14 +4,14 @@ layout: lesson
 slug: introduction-a-la-stylometrie-avec-python
 authors:
 - François Dominic Laramée
-date: 2018-04-21 
-editors: 
+date: 2018-04-21
+editors:
 - Adam Crymble
 reviewers:
 - Folgert Karsdorp
 - Jan Rybicki
 - Antonio Rojas Castro
-translator: 
+translator:
 - François Dominic Laramée
 translation_date: 2019-05-03
 translation-editor:
@@ -20,13 +20,13 @@ translation-reviewer:
 - Isabelle Gribomont
 - Fanny Mézard
 difficulty: 2
-activity: analyzing 
+activity: analyzing
 topics: [distant-reading]
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/231
-abstract: "Ce tutoriel vous apprendra comment appliquer diverses méthodes stylométriques pour déterminer les auteurs de textes disputés. Trois méthodes sont abordées: les courbes caractéristiques de composition de Mendenhall, la méthode du khi carré de Kilgariff et, enfin, la méthode du Delta de John Burrows." 
+abstract: "Ce tutoriel vous apprendra comment appliquer diverses méthodes stylométriques pour déterminer les auteurs de textes disputés. Trois méthodes sont abordées: les courbes caractéristiques de composition de Mendenhall, la méthode du khi carré de Kilgariff et, enfin, la méthode du Delta de John Burrows."
 original: introduction-to-stylometry-with-python
-avatar_alt: Femme lisant à côté d'une peinture 
-
+avatar_alt: Femme lisant à côté d'une peinture
+doi: 10.46430/phfr0003
 ---
 {% include toc.html %}
 
@@ -38,7 +38,7 @@ La [stylométrie](https://fr.wikipedia.org/wiki/Stylom%C3%A9trie) est l'étude q
 * Certaines personnes écrivent en phrases courtes, tandis que d'autres préfèrent les phrases complexes comportant plusieurs propositions.
 * Il n'y a pas deux auteurs qui utilisent les points-virgules, les tirets et autres signes de ponctuation exactement de la même façon.
 
-Les habitudes d'usage des [mots-outils](https://fr.wikipedia.org/wiki/Mot-outil), comme les articles, les prépositions et les conjonctions, se sont montrées particulièrement révélatrices en stylométrie. Dans son survol des méthodes stylométriques du passé et du présent, Efstathios Stamatatos souligne que les auteurs emploient ces mots de façon largement inconsciente et indépendante du sujet à l'étude.[^2] Ces caractéristiques sont très utiles pour l'analyse stylométrique puisqu'une tendance inconsciente est moins susceptible de changer au cours de la carrière d'un auteur que son vocabulaire en général. (Une tendance inconsciente est aussi beaucoup plus difficile à imiter pour un faussaire.) Les mots-outils ont également été identifiés comme d'importants marqueurs de la temporalité et du genre littéraire.  
+Les habitudes d'usage des [mots-outils](https://fr.wikipedia.org/wiki/Mot-outil), comme les articles, les prépositions et les conjonctions, se sont montrées particulièrement révélatrices en stylométrie. Dans son survol des méthodes stylométriques du passé et du présent, Efstathios Stamatatos souligne que les auteurs emploient ces mots de façon largement inconsciente et indépendante du sujet à l'étude.[^2] Ces caractéristiques sont très utiles pour l'analyse stylométrique puisqu'une tendance inconsciente est moins susceptible de changer au cours de la carrière d'un auteur que son vocabulaire en général. (Une tendance inconsciente est aussi beaucoup plus difficile à imiter pour un faussaire.) Les mots-outils ont également été identifiés comme d'importants marqueurs de la temporalité et du genre littéraire.
 
 La communauté des chercheurs a fait appel à la stylométrie pour étudier une multitude de questions d'ordre culturel. Par exemple, on a beaucoup étudié les différences entre les manières dont les hommes et les femmes écrivent[^3] ou sont décrits dans la littérature.[^4] D'autres chercheurs ont tenté de déceler des signes de plagiat dans les irrégularités stylistiques au sein d'un texte[^5], ou même de quantifier l'évolution des paroles des chansons écrites par John Lennon et Paul McCartney, arrivant à la conclusion que celles-ci devenaient de moins en moins actives et joyeuses à la fin des années 1960, alors que la carrière des [Beatles](https://fr.wikipedia.org/wiki/The_Beatles) tirait à sa fin.[^6]
 
@@ -77,7 +77,7 @@ Certaines de ces ressources peuvent être absentes de votre ordinateur. Si vous 
 
 ## Quelques notes au sujet des langues
 
-Ce tutoriel applique des méthodes d'analyse stylométrique à un ensemble de textes rédigés en anglais à l'aide d'un module Python nommé `nltk`. Plusieurs des fonctions offertes par `nltk` sont cependant disponibles dans d'autres langues. Pour peu qu'une langue écrite divise ses mots de façon claire et précise, `nltk` devrait fonctionner correctement. Les langues pour lesquelles il n'y a pas de séparation nette entre les mots à l'écrit, comme par exemple le chinois, pourraient poser problème. J'ai utilisé `nltk` avec des textes français sans difficulté; les autres langues qui utilisent des [signes diacritiques](https://fr.wikipedia.org/wiki/Diacritique), comme l'espagnol et l'allemand, devraient être compatibles avec `nltk` elles aussi. Veuillez consulter la [documentation de nltk (en anglais seulement)](http://www.nltk.org/book/) pour plus de détails.   
+Ce tutoriel applique des méthodes d'analyse stylométrique à un ensemble de textes rédigés en anglais à l'aide d'un module Python nommé `nltk`. Plusieurs des fonctions offertes par `nltk` sont cependant disponibles dans d'autres langues. Pour peu qu'une langue écrite divise ses mots de façon claire et précise, `nltk` devrait fonctionner correctement. Les langues pour lesquelles il n'y a pas de séparation nette entre les mots à l'écrit, comme par exemple le chinois, pourraient poser problème. J'ai utilisé `nltk` avec des textes français sans difficulté; les autres langues qui utilisent des [signes diacritiques](https://fr.wikipedia.org/wiki/Diacritique), comme l'espagnol et l'allemand, devraient être compatibles avec `nltk` elles aussi. Veuillez consulter la [documentation de nltk (en anglais seulement)](http://www.nltk.org/book/) pour plus de détails.
 
 Une seule des tâches de ce tutoriel exige du code qui varie en fonction de la langue. Pour diviser un texte en un ensemble de mots en français ou en espagnol, vous devrez spécifier la langue appropriée à [l'analyseur lexical](https://fr.wikipedia.org/wiki/Analyse_lexicale#Analyseur_lexical) de `nltk`. La procédure à suivre sera expliquée au moment venu.
 
@@ -215,7 +215,7 @@ for auteur in auteurs:
     # Obtenir et dessiner la distribution des fréquences de longueurs
     occs_longueurs = [len(occ) for occ in federalist_par_auteur_occs[auteur]]
     federalist_par_auteur_dist_longueurs[auteur] = nltk.FreqDist(occs_longueurs)
-    federalist_par_auteur_dist_longueurs[auteur].plot(15,title=auteur)   
+    federalist_par_auteur_dist_longueurs[auteur].plot(15,title=auteur)
 ```
 
 La clause `%matplotlib inline` sous la ligne `import nltk` est nécessaire si vous travaillez dans un environnement de développement [Jupyter Notebook](https://jupyter.org/), comme c'était le cas pour moi lorsque j'ai rédigé ce tutoriel; en son absence, les graphes pourraient ne pas apparaître à l'écran. Si vous travaillez plutôt dans [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html), veuillez remplacer cette clause par `%matplotlib ipympl`.
@@ -259,7 +259,7 @@ Voici comment appliquer la statistique du khi carré à notre problème d'identi
 
 {% include figure.html filename="stylometry-python-6.jpg" caption="Figure 6: Formule de calcul du khi carré." %}
 
-Plus la valeur du khi carré est basse, plus les deux corpus sont similaires. Nous allons donc calculer un khi carré pour mesurer la différence entre les articles contestés et le corpus de Madison, puis un autre pour la différence entre les articles contestés et le corpus de Hamilton. La plus petite des deux valeurs nous indiquera lequel des deux individus est l'auteur le plus probable des articles contestés.  
+Plus la valeur du khi carré est basse, plus les deux corpus sont similaires. Nous allons donc calculer un khi carré pour mesurer la différence entre les articles contestés et le corpus de Madison, puis un autre pour la différence entre les articles contestés et le corpus de Hamilton. La plus petite des deux valeurs nous indiquera lequel des deux individus est l'auteur le plus probable des articles contestés.
 
 Notons en passant que, quelle que soit la méthode stylométrique employée, le choix de `n`, le nombre de mots à considérer, relève de l'art autant que de la science. Dans la littérature scientifique résumée par Stamatatos[^2], des chercheurs ont suggéré pour `n` des valeurs allant de 100 à 1000; un projet a même conservé tous les mots qui sont apparus dans le corpus à au moins deux reprises. En règle générale, plus le corpus est vaste, plus il est possible d'utiliser un grand nombre de mots comme traits caractéristiques sans risquer d'accorder une importance injustifiée à un mot qui n'apparaît qu'à quelques reprises. Dans le cadre de ce tutoriel, nous utiliserons une valeur de `n` relativement élevée pour la méthode du khi carré et une valeur plus faible pour la méthode suivante. Changer la valeur de `n` influencera certainement les résultats des calculs; cependant, si ces changements sont si considérables qu'ils en viennent à renverser l'identification de l'auteur, c'est que le test est incapable de fournir des preuves significatives au sujet du texte à l'étude.
 

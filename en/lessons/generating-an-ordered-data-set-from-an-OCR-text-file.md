@@ -16,6 +16,7 @@ topics: [data-manipulation]
 abstract: "This tutorial illustrates strategies for taking raw OCR output from a scanned text, parsing it to isolate and correct essential elements of metadata, and generating an ordered data set (a python dictionary) from it."
 redirect_from: /lessons/generating-an-ordered-data-set-from-an-OCR-text-file
 avatar_alt: A small case with a set of books
+doi: 10.46430/phen0036
 ---
 # Generating an Ordered Data Set from a Text File
 
