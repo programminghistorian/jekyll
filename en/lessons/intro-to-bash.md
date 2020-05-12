@@ -20,6 +20,7 @@ abstract: "This lesson will teach you how to enter commands using a command-line
 next: research-data-with-unix
 redirect_from: /lessons/intro-to-bash
 avatar_alt: Soldiers in antique armor with spears
+doi: 10.46430/phen0037
 ---
 
 {% include toc.html %}

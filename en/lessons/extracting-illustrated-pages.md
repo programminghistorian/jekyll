@@ -17,6 +17,7 @@ activity: acquiring
 topics: [api]
 abstract: Machine learning and API extensions by HathiTrust and Internet Archive are making it easier to extract page regions of visual interest from digitized volumes. This lesson shows how to efficiently extract those regions and, in doing so, prompt new, visual research questions.
 avatar_alt: Scientific measuring device
+doi: 10.46430/phen0084
 ---
 
 {% include toc.html %}

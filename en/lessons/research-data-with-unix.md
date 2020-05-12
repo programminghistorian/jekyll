@@ -19,6 +19,7 @@ abstract: "This lesson will look at how research data, when organised in a clear
 previous: intro-to-bash
 redirect_from: /lessons/research-data-with-unix
 avatar_alt: A diagram of a miner sorting ore into an apparatus
+doi: 10.46430/phen0040
 ---
 
 {% include toc.html %}

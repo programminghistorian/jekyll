@@ -17,6 +17,7 @@ abstract: |
   Learn how to use QGIS to convert lists of place names in to geographic coordinates, allowing you to map them.
 redirect_from: /lessons/geocoding-qgis
 avatar_alt: A young man kissing a young woman on the cheek
+doi: 10.46430/phen0066
 ---
 
 {% include toc.html %}

@@ -23,6 +23,7 @@ retirement-reason: |
 redirect_from:
   - /lessons/intro-to-augmented-reality-with-unity
   - /lessons/deprecated/intro-to-augmented-reality-with-unity
+doi: 10.46430/phen0053
 ---
 
 {% include toc.html %}
@@ -66,13 +67,13 @@ However, before you decide to dive into AR development in the Unity interface, i
 
 Aurasma is a fantastic AR creation platform that can be learned fairly quickly. I would highly recommend it for classroom usage and for smaller projects with simple multimedia overlays such as images or short videos. However, online creation platforms like Aurasma have their limitations. When you create an overlay in Aurasma, users can only access it through the Aurasma application. This leaves the AR creator with no control over the design of the application interface. Moreover, Aurasma requires users to have an internet connection when accessing the application, which makes it difficult to create site-specific AR applications in places where there is little to no internet connectivity. With Vuforia, however, you can create stand-alone AR applications that can be downloaded and stored in the mobile device's memory and thus do not require that users to have internet access. Consult the table below to help you decide which platform is best suited for your AR development needs.
 
-|            | Aurasma        | Unity/Vuforia    |
-|------------| ------------- |-------------|
-| **Type**           | online platform    | computer program |
-| **Use**           | small projects with simple overlays     | large projects with complex overlays, site-specific applications |
-| **Pros**           | users can instantly access overlays, no coding required    | create standalone applications, more control over interface design, overlays load quickly |
-| **Cons**           | file size limits for overlays, requires internet connection     |steeper learning curve, must upload completed application files to Google Play or Apple Store for others to access|
-| **Access**           | [Aurasma Studio](https://www.aurasma.com/) | [Unity](https://unity3d.com/get-unity/download/archive) [Vuforia](https://developer.vuforia.com) |
+|            | Aurasma                                                     | Unity/Vuforia                                                                                                      |
+| ---------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Type**   | online platform                                             | computer program                                                                                                   |
+| **Use**    | small projects with simple overlays                         | large projects with complex overlays, site-specific applications                                                   |
+| **Pros**   | users can instantly access overlays, no coding required     | create standalone applications, more control over interface design, overlays load quickly                          |
+| **Cons**   | file size limits for overlays, requires internet connection | steeper learning curve, must upload completed application files to Google Play or Apple Store for others to access |
+| **Access** | [Aurasma Studio](https://www.aurasma.com/)                  | [Unity](https://unity3d.com/get-unity/download/archive) [Vuforia](https://developer.vuforia.com)                   |
 
 ## Software Requirements
 

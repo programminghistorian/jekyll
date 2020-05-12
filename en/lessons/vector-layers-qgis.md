@@ -23,6 +23,7 @@ next: georeferencing-qgis
 previous: qgis-layers
 redirect_from: /lessons/vector-layers-qgis
 avatar_alt: Map of city streets
+doi: 10.46430/phen0034
 ---
 
 {% include toc.html %}

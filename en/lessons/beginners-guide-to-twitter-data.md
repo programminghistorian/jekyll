@@ -11,10 +11,10 @@ authors:
  - Courtney Allen
 editors:
  - Sofia Papastamkou
- - James Baker  
-reviewers: 
+ - James Baker
+reviewers:
  - Frédéric Clavert
- - Telmo Menezes 
+ - Telmo Menezes
  - Ed Summers
 review-ticket: http://programminghistorian.github.io/ph-submissions/lessons/beginners-guide-to-twitter-data
 difficulty: 1
@@ -22,7 +22,7 @@ activity: acquiring
 topics: [data-manipulation, api]
 abstract: Learn how to acquire Twitter data and process them to make them usable for further analysis.
 avatar_alt: Le Petit poisson et le pêcheur (The Fisherman and the Little Fish) / G. Doré ; A. Bertrand, Bibliothèque nationale de France, ark:/12148/btv1b10321920p
-
+doi: 10.46430/phen0083
 ---
 
 {% include toc.html %}
@@ -47,7 +47,7 @@ We find that the graphical, web-based nature of TweetSets, however, makes it ide
 
 If you’re using TweetSets, click “Get Started” and you’ll be able to see a list of all of their existing datasets. Clicking the name of each set will give you more information on it, including its DOI, or [Digital Object Identifier](https://en.wikipedia.org/wiki/Digital_object_identifier), which allows you to reliably locate a digital object (and learn more about how it was created).
 
-When you have decided on the dataset(s) you want to pull from, simply check the checkbox to the left. You can choose as many as you’d like. We’ve chosen two datasets focusing on Hurricanes Irma and Harvey, two major storms of the 2017 Atlantic Hurricane Season.  As you can see, this will give us just over 30 million tweets as is.  
+When you have decided on the dataset(s) you want to pull from, simply check the checkbox to the left. You can choose as many as you’d like. We’ve chosen two datasets focusing on Hurricanes Irma and Harvey, two major storms of the 2017 Atlantic Hurricane Season.  As you can see, this will give us just over 30 million tweets as is.
 
 {% include figure.html filename="dataset-selection.png" caption="Dataset Selection Page" %}
 
@@ -61,7 +61,7 @@ On the parameters page, you have the option to limit your dataset by the tweet t
 
 {% include figure.html filename="parameters-2.png" caption="Selecting all tweets that mention @realDonaldTrump." %}
 
-As you can see above, we’ve chosen to limit our dataset by two parameters. First, we want tweets that mention @realDonaldTrump and second, we want tweets that have geotags or location information. This should give us a good view of who is talking about President Trump in these datasets, and where they are located. You can imagine this kind of data would be good in analyzing how discourse around disasters forms both at ground zero and more broadly.  
+As you can see above, we’ve chosen to limit our dataset by two parameters. First, we want tweets that mention @realDonaldTrump and second, we want tweets that have geotags or location information. This should give us a good view of who is talking about President Trump in these datasets, and where they are located. You can imagine this kind of data would be good in analyzing how discourse around disasters forms both at ground zero and more broadly.
 
 {% include figure.html filename="parameters-3.png" caption="Selecting all geotagged tweets and the Action buttons section" %}
 
@@ -100,11 +100,11 @@ Once you have found the right file, upload it to the Hydrator.
 
 {% include figure.html filename="tweet-id-file.png" caption="The tweet ID file looks like a series of 18 digit numbers. It's probably the only .txt file in those you downloaded from TweetSets." %}
 
-Once you have loaded the Tweet ID file, you should see the file path populate in the Hydrator, as well as an overview of the number of tweets detected.  
+Once you have loaded the Tweet ID file, you should see the file path populate in the Hydrator, as well as an overview of the number of tweets detected.
 
 {% include figure.html filename="hydrator-loaded.png" caption="If you've loaded your tweet-ID file correctly, Hydrator should display its file path, and the number of tweets in the dataset." %}
 
-You will need to create a name for your hydrated file, but can ignore the rest of the fields on this screen.  Click “Add dataset,” and you will be taken to a screen where you can begin the hydration.  To start the hydration, click "Start". This will prompt another window asking for a name and location to save the hydrated tweets.  The program will produce a [.json](https://en.wikipedia.org/wiki/JSON) file by default.  We're going to use a [.csv](https://en.wikipedia.org/wiki/Comma-separated_values) format instead to ensure that the file can be easy read by excel or other spreadsheet programs. "CSV" stands for comma-separated values, a non-proprietary file format that uses commas to separate or delimited values in a table.  This simple delimiting practice enables a wide variety of programs to translate data in this format. We can do this by clicking on the "CSV" button in the Hydrator after the hydration has completed.  Appending ".csv" to the end of the filename you create will also help spreadsheet software recognize and understand the file.  
+You will need to create a name for your hydrated file, but can ignore the rest of the fields on this screen.  Click “Add dataset,” and you will be taken to a screen where you can begin the hydration.  To start the hydration, click "Start". This will prompt another window asking for a name and location to save the hydrated tweets.  The program will produce a [.json](https://en.wikipedia.org/wiki/JSON) file by default.  We're going to use a [.csv](https://en.wikipedia.org/wiki/Comma-separated_values) format instead to ensure that the file can be easy read by excel or other spreadsheet programs. "CSV" stands for comma-separated values, a non-proprietary file format that uses commas to separate or delimited values in a table.  This simple delimiting practice enables a wide variety of programs to translate data in this format. We can do this by clicking on the "CSV" button in the Hydrator after the hydration has completed.  Appending ".csv" to the end of the filename you create will also help spreadsheet software recognize and understand the file.
 
 {% include figure.html filename="hydrated-save-file.png" caption="Append .csv to your save file." %}
 
@@ -122,17 +122,17 @@ Each tweet now has lots of useful metadata, including the time created, the incl
 
 All of these processes will probably include some light data work to format this dataset so that you can produce useful insights: [statistical analyses](/en/lessons/data_wrangling_and_management_in_R), [maps](/en/lessons/mapping-with-python-leaflet), [social network analyses](/en/lessons/exploring-and-analyzing-network-data-with-python), [discourse analyses](/en/lessons/corpus-analysis-with-antconc). But regardless of where you go from here, you have a pretty robust dataset that can be used for a variety of academic pursuits.
 
-You might have noticed we didn't get any latitude/longitude location information, but we did get a "place" column with less exact, textualized location information.  Non-coordinate location data needs to be [geocoded](https://en.wikipedia.org/wiki/Geocode), which in this case means using a geocoder to [geoparse](https://en.wikipedia.org/wiki/Toponym_Resolution#Geoparsing) the reported locations and assign lat/long values to them. Different programs do this to greater or lesser success.  [Tableau](https://www.tableau.com), for instance, has a hard time interpolating a set of locations if it's not at a consistent geographical level (city, state, etc.). For that reason, I generated latitude and longitude information with the Google geocoder following this *Programming Historian* [lesson](/en/lessons/mapping-with-python-leaflet), and then inputted that information into Tableau for mapping. There's plenty of good mapping [tools](https://digitalfellows.commons.gc.cuny.edu/2019/06/03/finding-the-right-tools-for-mapping/) out there that you can feel free to use: the key here is getting specific, accurate location information from the list of place names in the dataset.  
+You might have noticed we didn't get any latitude/longitude location information, but we did get a "place" column with less exact, textualized location information.  Non-coordinate location data needs to be [geocoded](https://en.wikipedia.org/wiki/Geocode), which in this case means using a geocoder to [geoparse](https://en.wikipedia.org/wiki/Toponym_Resolution#Geoparsing) the reported locations and assign lat/long values to them. Different programs do this to greater or lesser success.  [Tableau](https://www.tableau.com), for instance, has a hard time interpolating a set of locations if it's not at a consistent geographical level (city, state, etc.). For that reason, I generated latitude and longitude information with the Google geocoder following this *Programming Historian* [lesson](/en/lessons/mapping-with-python-leaflet), and then inputted that information into Tableau for mapping. There's plenty of good mapping [tools](https://digitalfellows.commons.gc.cuny.edu/2019/06/03/finding-the-right-tools-for-mapping/) out there that you can feel free to use: the key here is getting specific, accurate location information from the list of place names in the dataset.
 
 {% include figure.html filename="tableau-map.png" caption="A quick sketch of the &quot;place&quot; data in Tableau. The tweets are taken from just a few days surrounding each of the storms. One could perhaps argue that these maps show discourse around these storms forming equally in unaffected metro areas as places that fell storms' paths." %}
 
 We do, however, have a bunch of additional files that also have some interesting information. While the tweet IDs file focuses on specific tweets, the [nodes, edges, mentions](https://en.wikipedia.org/wiki/Glossary_of_graph_theory_terms), and users files give information on how these tweets fit together, and all these files can be correlated to create another robust, linked dataset.
 
-If you are unfamiliar with social network analysis, it might be worthwhile to check out one of Scott Weingart’s ["Demystifying Networks"](http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/) series to familiarize yourself with the basic linguistic and visual vocabularies. If you have done so, you will recognize that the TweetSets outputs show us some basic information that can be used to reconstruct a social network. The edges file shows us who is tweeting to whom; the nodes files associates user names with ID numbers; and the top mentions and users files do the same, but for the most actively mentioned and most actively tweeting users.  
+If you are unfamiliar with social network analysis, it might be worthwhile to check out one of Scott Weingart’s ["Demystifying Networks"](http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/) series to familiarize yourself with the basic linguistic and visual vocabularies. If you have done so, you will recognize that the TweetSets outputs show us some basic information that can be used to reconstruct a social network. The edges file shows us who is tweeting to whom; the nodes files associates user names with ID numbers; and the top mentions and users files do the same, but for the most actively mentioned and most actively tweeting users.
 
 ## One Simple (Software Agnostic) Way to Link your Data
 
-At this point, I’m going to cover a very useful data technique that can be employed in a wide variety of spreadsheet platforms (Excel, Google Sheets, Numbers, the open-source Libre Calc), for a wide variety of tasks.  I have used it in myriad roles: as a banker, an academic, an administrator, and for personal use. It is called VLOOKUP, which stands for “vertical look up,” and in essence, it makes Excel or other spreadsheet programs function relationally, linking data on unique identifiers. This is not to say that Excel can now be your new [SQL](https://en.wikipedia.org/wiki/SQL), but in limited cases when you need to connect two discrete spreadsheets, it’s an invaluable and easy trick.  We’re going to use it to flush out our TweetSets outputs so the data can be used to create a robust and informative social network graph.  
+At this point, I’m going to cover a very useful data technique that can be employed in a wide variety of spreadsheet platforms (Excel, Google Sheets, Numbers, the open-source Libre Calc), for a wide variety of tasks.  I have used it in myriad roles: as a banker, an academic, an administrator, and for personal use. It is called VLOOKUP, which stands for “vertical look up,” and in essence, it makes Excel or other spreadsheet programs function relationally, linking data on unique identifiers. This is not to say that Excel can now be your new [SQL](https://en.wikipedia.org/wiki/SQL), but in limited cases when you need to connect two discrete spreadsheets, it’s an invaluable and easy trick.  We’re going to use it to flush out our TweetSets outputs so the data can be used to create a robust and informative social network graph.
 
 When we look at the edges file, we can see it is a series of observations, each consisting of two numbers. These are the ID numbers of Twitter users in this data set: the left column represents the “tweeter,” and the right the “mention.”  For those familiar with social network analysis (SNA) parlance, these would translate to the "source" and "target." At this point, it’s hard to glean much meaningful information from this data, though, as all we have are numbers. VLOOKUP will help with that.
 
@@ -152,7 +152,7 @@ At this point, we just need to do some quick formatting work to prepare the shee
 
 Now that everything is formatted, click in the cell to the right of the column on which you want to perform the VLOOKUP.  I'm going to start the process with the target column because the people appearing in this column are mostly public figures, enabling me to show you my return values without worrying about privacy issues. You can start with this column or the source column: you'll perform the process on both.
 
-Once that's done, we'll need to search for the VLOOKUP formula.  You can also type this out "freehand", but looking it up will give you access to the Excel (or Sheets or Numbers) formula builder, which makes this task much easier.  To do this, go to the "Formulas" tab, click "Insert Function," and search for "VLOOKUP".  
+Once that's done, we'll need to search for the VLOOKUP formula.  You can also type this out "freehand", but looking it up will give you access to the Excel (or Sheets or Numbers) formula builder, which makes this task much easier.  To do this, go to the "Formulas" tab, click "Insert Function," and search for "VLOOKUP".
 
 {% include figure.html filename="vlookup-search.png" caption="Search for VLOOKUP on the &quot;Formulas&quot; tab." %}
 
@@ -195,8 +195,8 @@ After repeating this process on the second column, this spreadsheet is ready to 
 {% include figure.html filename="palladio.png" caption="A very quick social network sketch showing the users who most often mentioned @realDonaldTrump in their hurricane tweets.  Done in Palladio." %}
 
 ## Conclusion
-At this point, you have several datasets that will work well in a wide range of digital humanities platforms and methodologies.  The hydrated tweet set has qualitative geographic information you can geocode and map, timestamps you can use to build a narrative of a news cycle, tweet text you can on which you can perform natural language or discourse analysis, and other very rich data points for doing historical or civic research.  
+At this point, you have several datasets that will work well in a wide range of digital humanities platforms and methodologies.  The hydrated tweet set has qualitative geographic information you can geocode and map, timestamps you can use to build a narrative of a news cycle, tweet text you can on which you can perform natural language or discourse analysis, and other very rich data points for doing historical or civic research.
 
-The nodes and edges information we produced is ready to be used in a wide variety of social networking, but more importantly, you can use the VLOOKUP method for a wide variety of data correlation tasks that might not warrant learning and using something like SQL.  I use it all the time in my research to connect file names or unique IDs to more substantive metadata like author names, publication dates, or book titles.  
+The nodes and edges information we produced is ready to be used in a wide variety of social networking, but more importantly, you can use the VLOOKUP method for a wide variety of data correlation tasks that might not warrant learning and using something like SQL.  I use it all the time in my research to connect file names or unique IDs to more substantive metadata like author names, publication dates, or book titles.
 
 While this tutorial focuses on simplified methods, it should serve as a kind of "on-ramp" to show beginners that digital research--collecting thousands of data points, preparing those data points, and doing some sort of analysis/visualizaiton of them--is within reach.  In completing this lesson, you should be able to approximate many of the research results of scholars trained in digital methods, and should be much closer to enacting more advanced methods, should you choose.

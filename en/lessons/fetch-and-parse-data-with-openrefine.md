@@ -15,7 +15,8 @@ activity: acquiring
 topics: [data-manipulation, web-scraping, api]
 abstract: "OpenRefine is a powerful tool for exploring, cleaning, and transforming data. In this lesson you will learn how to use Refine to fetch URLs and parse web content."
 redirect_from: /lessons/fetch-and-parse-data-with-openrefine
-avatar_alt: Machine for water filtration 
+avatar_alt: Machine for water filtration
+doi: 10.46430/phen0065
 ---
 
 {% include toc.html %}

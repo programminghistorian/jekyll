@@ -18,6 +18,7 @@ topics: [mapping]
 abstract: "This tutorial teaches users how to use the Edinburgh Geoparser to process a piece of English-language text, extract and resolve the locations contained within it, and plot them as a web map."
 redirect_from: /lessons/geoparsing-text-with-edinburgh
 avatar_alt: Map of the city of Edinburgh
+doi: 10.46430/phen0067
 ---
 
 {% include toc.html %}

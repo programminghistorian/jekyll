@@ -15,6 +15,7 @@ topics: [website]
 abstract: "Omeka.net makes it easy to create websites that show off collections of items."
 redirect_from: /lessons/up-and-running-with-omeka
 avatar_alt: Dinosaur skeleton in a museum
+doi: 10.46430/phen0060
 ---
 
 {% include toc.html %}

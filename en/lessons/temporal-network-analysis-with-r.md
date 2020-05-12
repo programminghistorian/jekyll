@@ -18,6 +18,7 @@ layout: lesson
 abstract: |
   Learn how to use R to analyze networks that change over time.
 avatar_alt: A sundial
+doi: 10.46430/phen0080
 ---
 
 {% include toc.html %}
@@ -124,13 +125,13 @@ The first collaboration in the list took place between workshops 10 and 11 betwe
 
 In most static network analysis, a node list is just a simple list of all of the things that are connected. It is a simple list of the identification numbers for each node.
 
-|node.id|
-|--|
-|1|
-|2|
-|3|
-|.|
-|106|
+| node.id |
+| ------- |
+| 1       |
+| 2       |
+| 3       |
+| .       |
+| 106     |
 
 In a temporal network, however, actors and objects enter and exit the network over time. Our workshops of illuminators might be churning out beautiful books for two, five, or even thirty two and a half years. In order to reflect the emergence and dispersal of these workshops, we need a `onset` (starting point), `terminus` (end point), and `duration` for each of them. The R packages that we are using will expect that data to look like this:
 

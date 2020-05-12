@@ -22,6 +22,7 @@ maps by clicking on My Places."
 next: qgis-layers
 redirect_from: /lessons/googlemaps-googleearth
 avatar_alt: An old man consulting a large globe with a compass
+doi: 10.46430/phen0028
 ---
 
 {% include toc.html %}

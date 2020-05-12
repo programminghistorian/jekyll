@@ -19,6 +19,7 @@ abstract: "This lesson will teach you how to use Python to extract a set of keyw
 python_warning: false
 redirect_from: /lessons/extracting-keywords
 avatar_alt: Woman churning butter or milk
+doi: 10.46430/phen0045
 ---
 
 {% include toc.html %}
