@@ -1,6 +1,6 @@
 ---
-title:
-| Introducción a ImagePlot y la visualización de metadatos de colecciones de imágenes
+title:  |
+  Introducción a ImagePlot y la visualización de metadatos de colecciones de imágenes
 collection: lessons
 layout: lesson
 slug: introduccion-a-imageplot-y-la-visualizacion-de-metadatos
