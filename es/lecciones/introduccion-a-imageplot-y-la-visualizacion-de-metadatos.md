@@ -12,7 +12,7 @@ editors:
 reviewers:
   - Adriana Cásarez
   - Jennifer Isasi
-review_ticket: https://github.com/programminghistorian/ph-submissions/issues/254
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/254
 difficulty: 2
 activity: analyzing
 topics:
