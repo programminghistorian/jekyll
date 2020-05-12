@@ -25,8 +25,8 @@ topics: [distant-reading]
 original: topic-modeling-and-mallet
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/191#issuecomment-432826840
 abstract: "Esta lección explica qué es *topic modeling* y por qué podrías querer utilizarlo en tus investigaciones. Luego aprenderás cómo instalar y trabajar con MALLET, una caja de herramientas para procesamiento de lenguajes naturales (PLN) con la que *topic modeling* se puede llevar a la práctica."
-avatar_alt: Ilustración de un herrero trabajando. 
-
+avatar_alt: Ilustración de un herrero trabajando.
+doi: 10.46430/phes0040
 ---
 
 
@@ -154,7 +154,7 @@ import-dir --help
 
 Se te presentará un mensaje de error indicando que `import-dir` no se reconoce como orden o comando. Eso es así porque olvidamos decir a la computadora que buscara el comando dentro de MALLET `bin`. Inténtalo otra vez con
 
-``` 
+```
 bin\mallet import-dir --help
 ```
 
@@ -177,7 +177,7 @@ Para navegar al directorio del corpus teclea `cd C:\Users\User\Desktop\ensayos-d
 
 Ten en cuenta que ahora no puedes ejecutar ningún comando MALLET dentro de este directorio. Inténtalo:
 
-``` 
+```
 bin\mallet import-dir --help
 ```
 
@@ -190,7 +190,7 @@ En el directorio `ensayos-de-jose-marti` se encuentran varios archivos `.txt`. C
 
 MALLET viene provisto de algunos diccionarios de palabras vacías, por ejemplo para inglés. Si se quiere utilizar el diccionario predeterminado, el parámetro `--remove-stopwords` es suficiente.[^8] Como no hay ningún diccionario predeterminado para español, es necesario incluirlo a través del parámetro `--stoplist-file`. Para la mayoría de los idiomas es fácil encontrar listas de *stop words* en la red. Por ejemplo, puedes descargar una [lista de palabras vacías en español](https://raw.githubusercontent.com/stopwords-iso/stopwords-es/master/stopwords-es.txt) en GitHub. Guárdala en tu computadora e indica la ruta a este fichero en el comando tal como está arriba: `--stoplist-file C:\Users\User\Desktop\stopwords-es.txt` (nombre del parámetro-espacio-ruta al fichero).
 
-``` 
+```
 bin\mallet import-dir --input C:\Users\User\Desktop\ensayos-jose-marti --output C:\Users\User\Desktop\leccion.mallet --keep-sequence --remove-stopwords --stoplist-file C:\Users\User\Desktop\stopwords-es.txt
 ```
 
@@ -231,7 +231,7 @@ Tu primer modelo de tópicos
 
 Escribe en la línea de comandos en el directorio MALLET:
 
-``` 
+```
 bin\mallet train-topics  --input C:\Users\User\Desktop\leccion.mallet
 ```
 
@@ -241,7 +241,7 @@ Este comando abre tu archivo `leccion.mallet` y ejecuta la rutina de *topic mode
 
 La computadora imprime las palabras clave, es decir, las palabras que ayudan a definir un tópico estadísticamente significativo, según la rutina. En la figura 9, el primer tópico que se imprime podría verse así (tus palabras clave podrían ser un poco diferentes):[^9]
 
-``` 
+```
 0    0,5    unidos moneda plata comisión comercio unión delegados washington política congreso new internacional delegado york hispanoamérica argentina podía conferencia monetaria político
 ```
 
@@ -249,8 +249,8 @@ Reconocerás que muchas de las palabras se refieren a economía y política. De 
 
 Vuelve al escritorio y teclea `dir`. Verás que no hay ningún *output* nuevo. ¡Creamos un topic model con éxito pero no guardamos los resultados! Vuelve al directorio de MALLET y escribe en la línea de comandos:
 
-``` 
-bin\mallet train-topics --input C:\Users\User\Desktop\leccion.mallet --num-topics 10 --output-state C:\Users\User\Desktop\topic-state.gz --output-topic-keys C:\Users\User\Desktop\leccion_topicos.txt --output-doc-topics C:\Users\User\Desktop\leccion_topicos_en_docs.txt 
+```
+bin\mallet train-topics --input C:\Users\User\Desktop\leccion.mallet --num-topics 10 --output-state C:\Users\User\Desktop\topic-state.gz --output-topic-keys C:\Users\User\Desktop\leccion_topicos.txt --output-doc-topics C:\Users\User\Desktop\leccion_topicos_en_docs.txt
 ```
 
 Aquí, le decimos a MALLET que cree un modelo de tópicos (`train-topics`). Todo lo que empieza con guión doble después del comando principal sirve para configurar parámetros:
@@ -269,19 +269,19 @@ Teclea `dir C:\Users\User\Desktop`. Tus *outputs* aparecerán en la lista de arc
 
 Si al ejecutar la rutina de *topic modeling* hubieras incluido
 
-``` 
+```
 --optimize-interval 20
 ```
 
 como abajo
 
-``` 
+```
 bin\mallet train-topics  --input C:\Users\User\Desktop\leccion.mallet  --num-topics 10 --optimize-interval 20 --output-state C:\Users\User\Desktop\topic-state.gz  --output-topic-keys C:\Users\User\Desktop\leccion_topicos.txt --output-doc-topics C:\Users\User\Desktop\leccion_topicos_en_docs.txt
 ```
 
 la salida podría haber sido:
 
-``` 
+```
 0	0,02991	poesía whitman canto walt muerte libro siente poeta frase sol yerba lenguaje palabras aparente justicia literatura puesto dolores movimiento entera
 ```
 
@@ -325,7 +325,7 @@ Puedes reutilizar los datos tomándolos de [Figshare.com](http://figshare.com/ar
 [^2]: También hay algunos ejemplos de modelos de tópicos creados a partir de textos (literarios) en español. Por ejemplo: Borja Navarro-Colorado, *[On Poetic Topic Modeling: Extracting Themes and Motifs From a Corpus of Spanish Poetry](https://www.frontiersin.org/articles/10.3389/fdigh.2018.00015/full)*, frontiers in Digital Humanities, 20 de junio de 2018, [https://doi.org/10.3389/fdigh.2018.00015](https://doi.org/10.3389/fdigh.2018.00015); Borja Navarro-Colorado y David Tomás, *[A fully unsupervised Topic Modeling approach to metaphor identification / Una aproximación no supervisada a la detección de metáforas basada en Topic Modeling](https://www.dlsi.ua.es//~borja/NavarroTomas_PosterSEPLN2015.pdf)*, Actas del XXXI Congreso de la Sociedad Española para el Procesamiento del Lenguaje Natural, 2015; Christof Schöch, Ulrike Henny, José Calvo Tello, Daniel Schlör, Stefanie Popp, *[Topic, Genre, Text. Topics im Textverlauf von Untergattungen des spanischen und hispanoamerikanischen Romans (1880-1930)](http://www.dhd2016.de/abstracts/vortr%C3%A4ge-055.html)*, DHd 2016. Modellierung, Vernetzung, Visualisierung. Die Digital Humanities als fächerübergreifendes Forschungsparadigma. Universität Leipzig, 7.-12. März 2016.
 [^3]: En esta traducción, las instrucciones para la instalación de MALLET fueron actualizadas para ajustarse a Windows 10. En el original inglés las instrucciones se refieren a Windows 7. Las capturas de pantalla fueron sustituidas para que el idioma de la pantalla sea español.
 [^4]: En todos los ejemplos de esta lección en los que aparece la palabra `User`, deberás sustituirla con tu propio nombre de usuario.
-[^5]: Al final de un comando escrito en la línea de comandos siempre se teclea Entrar para confirmar el comando y ejecutarlo. En adelante no lo mencionaremos más. 
+[^5]: Al final de un comando escrito en la línea de comandos siempre se teclea Entrar para confirmar el comando y ejecutarlo. En adelante no lo mencionaremos más.
 [^6]: Puede ser necesario reiniciar el sistema operativo para que se reconozca la nueva variable de entorno.
 [^7]: En la versión inglesa de esta lección se utilizan datos de muestra incluidos en MALLET, pero actualmente, estos solo existen en inglés y alemán. Por eso se trabaja con otros datos en esta versión española y el contenido de la lección difiere del original en este aspecto. Los datos de muestra consisten en 19 ensayos escritos por José Martí. La fuente de los textos es [Wikisource](https://es.wikisource.org/wiki/Categor%C3%ADa:Ensayos_de_Jos%C3%A9_Mart%C3%AD).
 [^8]: En la versión original de esta lección se utilizó el diccionario por defecto que está en inglés.

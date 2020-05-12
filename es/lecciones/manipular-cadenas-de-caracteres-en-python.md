@@ -28,7 +28,8 @@ difficulty: 2
 activity: transforming
 topics: [python]
 abstract: "Esta lección es una rápida introducción a técnicas de manipulación de cadenas de caracteres (o strings) en Python."
-avatar_alt: Grabado de un joven tocando una guitarra 
+avatar_alt: Grabado de un joven tocando una guitarra
+doi: 10.46430/phes0018
 ---
 
 {% include toc.html %}
@@ -137,7 +138,7 @@ Convertir las minúsculas en mayúsculas se logra cambiando `.lower()` por `uppe
 
 ### Reemplazar
 
-Si necesitas cambiar una sub-cadena de una cadena se puede utilizar el método `replace`.     
+Si necesitas cambiar una sub-cadena de una cadena se puede utilizar el método `replace`.
 
 
 ```python

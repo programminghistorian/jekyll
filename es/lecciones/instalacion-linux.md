@@ -27,6 +27,7 @@ difficulty: 1
 activity: transforming
 topics: [get-ready, python]
 abstract: "Este tutorial te ayudará a configurar un entorno de desarrollo integrado para Python en un computador con el sistema operativo de Linux."
+doi: 10.46430/phes0009
 ---
 
 {% include toc.html %}
@@ -43,8 +44,8 @@ Siempre es importante asegurarse de tener copias de seguridad hechas de modo reg
 
 ## Instalar Python v.3
 
-1. Abre terminal (`Dash Home`, entonces teclea `Terminal`, luego haz clic en el icono de Terminal). 
-2. En Terminal teclea: `sudo apt-get install python3` 
+1. Abre terminal (`Dash Home`, entonces teclea `Terminal`, luego haz clic en el icono de Terminal).
+2. En Terminal teclea: `sudo apt-get install python3`
 3. Escribe tu contraseña de administrador del sistema y entonces teclea `Y`  para finalizar la instalación. Ten en cuenta que probablemente Python 3 esté instalado previamente en el sistema, así que no entres en pánico si Ubuntu te lo dice.
 
 ## Crea un directorio
@@ -54,15 +55,15 @@ Guardarás tus programas de Python en un directorio. Puede ser donde quiera que 
 ```
 cd ~
 mkdir programming-historian
-``` 
+```
 
 ## Instala Komodo Edit
 
-Komodo Edit es un editor de texto libre y de código abierto, pero tienes muchas [opciones de editores de texto] si lo prefieres. Puedes descargar desde el [sitio web de Komodo Edit]. Una vez que lo has descargado, ábrelo con el *package manager* de Ubuntu, extraerlo en el directorio de Home y seguir las instrucciones de instalación. Si estás siguiendo estas instrucciones e instalado Komodo Edit, abre la carpeta de Home, ve al directorio `Komodo-Edit-11/bin`  y haz clic en `Komodo`. Puedes también hacer clic con el botón derecho del mouse sobre el icono de Komodo en el lanzador (*launcher*) , y hacer clic en "`Lock to Launcher`" para tenerlo de manera permanente en la barra del lanzador. 
+Komodo Edit es un editor de texto libre y de código abierto, pero tienes muchas [opciones de editores de texto] si lo prefieres. Puedes descargar desde el [sitio web de Komodo Edit]. Una vez que lo has descargado, ábrelo con el *package manager* de Ubuntu, extraerlo en el directorio de Home y seguir las instrucciones de instalación. Si estás siguiendo estas instrucciones e instalado Komodo Edit, abre la carpeta de Home, ve al directorio `Komodo-Edit-11/bin`  y haz clic en `Komodo`. Puedes también hacer clic con el botón derecho del mouse sobre el icono de Komodo en el lanzador (*launcher*) , y hacer clic en "`Lock to Launcher`" para tenerlo de manera permanente en la barra del lanzador.
 
 ## Haz un comando de ejecución de Python en Komodo Edit
 
-1. En Komodo Edit, haz clic en el icono de engranaje bajo `Toolbox` y selecciona `New Command`  
+1. En Komodo Edit, haz clic en el icono de engranaje bajo `Toolbox` y selecciona `New Command`
 2. En el campo superior escribe `Run Python File`
 3. En el campo ‘*Command*’ escribe `%(python3) %f`, Haz clic en OK al pie de la ventana de insertar comando.
 
@@ -80,7 +81,7 @@ En tu editor de texto crea un nuevo archivo y escribe el siguiente programa de d
 ```python
 # hola-mundo.py
 print('hola mundo')
-``` 
+```
 
 El editor de texto que seleccionaste utilizar debe tener un botón `Run` que te permitirá ejecutar tu programa. Si todo funciona bien, deberás ver algo como sigue (El ejemplo es como se ve en Komodo Edit.):
 
@@ -94,25 +95,25 @@ Puedes ejecutar un *shell* de Python abriendo Terminal. Para Linux ve a  `Aplica
 
 ```python
 python
-``` 
+```
 
 Oprime entonces la tecla Enter. Con ello aparecerá el prompt de Python lo que significa que puedes usar ahora comandos de Python en el *shell*. Ahora escribe:
 
 ```python
 print('Hola Mundo')
-``` 
+```
 Oprime la tecla Enter. La computadora responderá con:
 
 ```python
 Hola Mundo
-``` 
+```
 
 Cuando queramos representar la interacción con el intérprete de comandos usaremos -> para indicar la respuesta del *shell* a tus comandos, como se muestra inmediatamente:
 
 ```python
 print('Hola Mundo')
 -> Hola Mundo
-``` 
+```
 
 En la pantalla de tu computadora aparecerá de esta manera:
 

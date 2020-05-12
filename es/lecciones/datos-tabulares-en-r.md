@@ -25,6 +25,7 @@ activity: transforming
 topics: [data-manipulation]
 abstract: "Esta lección te enseña una forma rápida de analizar grandes cantidades de datos en forma de tabla, haciendo la investigación más rápida y efectiva."
 avatar_alt: Grabado de la letra r al estilo de letra iluminada.
+doi: 10.46430/phes0034
 ---
 
 ## Objetivos

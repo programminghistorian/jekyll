@@ -25,6 +25,7 @@ original: sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 redirect_from: /es/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 exclude_from_check:
   - reviewers
+doi: 10.46430/phes0008
 ---
 
 {% include toc.html %}
