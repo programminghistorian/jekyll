@@ -10,11 +10,11 @@ reviewers:
 - Jim Clifford
 editors:
 - Miriam Posner
-translator: 
+translator:
 - Camille Carette
 translation-editor:
 - François Dominic Laramée
-translation-reviewer: 
+translation-reviewer:
 - Marie-Christine Boucher
 - Florian Cafiero
 translation_date: 2020-04-02
@@ -28,6 +28,7 @@ abstract: Cette leçon constitue une brève introduction aux techniques de manip
 python_warning: false
 original: manipulating-strings-in-python
 avatar_alt: Homme jouant la guitare
+doi: 10.46430/phfr0008
 ---
 
 {% include toc.html %}
@@ -64,7 +65,7 @@ Dans cette exemple, on attribue le contenu “Bonjour le monde!” à la chaîne
 
 Si vous voulez plusieurs copies d’une chaîne de caractères, utilisez l’opérateur de la multiplication (\*). Dans cet exemple, on attribue le contenu “bonjour” trois fois à la chaîne de caractères *message2a* et le contenu “le monde” à la chaîne de caractères *message2b*. Puis, nous imprimons ces deux chaînes.
 
-``` python	
+``` python
 	message2a = 'bonjour ' * 3
 	message2b = 'le monde'
 	print(message2a + message2b)
@@ -110,7 +111,7 @@ Vous pouvez rechercher *une sous-chaîne* dans une chaîne de caractères et vot
 
 Si la sous-chaîne n'est pas présente, le programme renvoie une valeur de -1.
 
-``` python	
+``` python
 	message6 = "bonjour le monde"
 	message6b = message6.find("oiseau")
 	print(message6b)
@@ -121,7 +122,7 @@ Si la sous-chaîne n'est pas présente, le programme renvoie une valeur de -1.
 
 Il est parfois utile de convertir une chaîne de caractères en minuscules. Par exemple, il est plus facile pour l'ordinateur de reconnaître que "Parfois" et "parfois" sont le même mot si nous standardisons les casses au préalable.
 
-``` python 	
+``` python
 	message7 = "BONJOUR LE MONDE"
 	message7a = message7.lower()
 	print(message7a)
@@ -145,7 +146,7 @@ Si vous avez besoin de remplacer une sous-chaîne à l'intérieur d'une chaîne,
 
 Si vous voulez couper (`slice`) les parties non désirées au début ou à la fin d'une chaîne de caractères, vous pouvez le faire en créant une nouvelle chaîne à l'aide de l'opérateur ':'. La même technique vous permet également de diviser une longue chaîne de caractères en composantes plus faciles à gérer.
 
-```python	
+```python
 	message9 = "Bonjour le monde"
 	message9a = message9[1:9]
 	print(message9a)
@@ -193,8 +194,8 @@ Les crochets ont une fonction différente. Si vous concevez une chaîne de carac
 
 Que faire lorsque vous devez inclure des guillemets dans une chaîne de caractères ? Vous ne voulez pas que l'interpréteur Python se méprenne et mette fin à la chaîne lorsqu'il rencontre l'un de ces caractères. En Python, vous pouvez placer une barre oblique inversée devant un guillemet pour que ce guillemet ne termine pas la chaîne. C'est ce qu'on appelle les *séquences d'échappement*.
 
-```python	
-	print('\"') 
+```python
+	print('\"')
 	-> "
 ```
 
@@ -205,7 +206,7 @@ Que faire lorsque vous devez inclure des guillemets dans une chaîne de caractè
 
 Deux autres séquences d'échappement vous permettent d'imprimer des tabulateurs et des fins de lignes :
 
-```	
+```
 	print('bonjour\tbonjour\tbonjour\nle monde')
 	->bonjour bonjour bonjour
 	le monde
