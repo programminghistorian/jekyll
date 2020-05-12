@@ -7,6 +7,8 @@ An automatically-generated list of page translation relationships across our pub
 
 {% assign original_lessons = site.pages | where_exp: "item", "item.name != 'redirect.html'" | where_exp: "item", "item.name != 'redirects.json'" | where_exp: "item", "item.name != 'index.md'" | where_exp: "item", "item.original == nil" | where_exp: "item", "item.layout == 'lesson'" %}
 
+## Lessons
+
 <table>
   <tr>{% for l in site.data.snippets.language-list %}
     <th>{{ l }}</th>{% endfor %}
@@ -25,6 +27,8 @@ An automatically-generated list of page translation relationships across our pub
 </table>
 
 {% assign original_pages = site.pages | where_exp: "item", "item.name != 'redirect.html'" | where_exp: "item", "item.name != 'redirects.json'" | where_exp: "item", "item.name != 'index.md'" | where_exp: "item", "item.original == nil" | where_exp: "item", "item.layout != 'lesson'" | where_exp: "item", "item.layout != 'post'" | where_exp: "item", "item.skip_concordance != true" %}
+
+## Other pages
 
 <table>
   <tr>{% for l in site.data.snippets.language-list %}
