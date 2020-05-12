@@ -6,14 +6,14 @@ Produce CrossRef XML data for each of our journals and their articles
 {%- endcomment -%}
 
 <?xml version="1.0" encoding="UTF-8"?>
-<doi_batch version="4.3.7" 
-  xmlns="http://www.crossref.org/schema/4.3.7" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.crossref.org/schemas/crossref4.3.7.xsd" 
+<doi_batch version="4.4.2" 
+  xmlns="http://www.crossref.org/schema/4.4.2" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 https://data.crossref.org/schemas/crossref4.4.2.xsd" 
   xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" 
   xmlns:ai="https://www.crossref.org/AccessIndicators.xsd">
   <head>
     <doi_batch_id>{{ site.time | date: "%s" }}-{{ page.lang }}</doi_batch_id>
-    <timestamp>{{ site.time | date_to_xmlschema }}</timestamp>
+    <timestamp>{{ site.time | date: "%s" }}</timestamp>
     <depositor>
       <depositor_name>Sample Master</depositor_name>
       <email_address>support@crossref.org</email_address>
@@ -28,10 +28,10 @@ Produce CrossRef XML data for each of our journals and their articles
     <journal>
       <journal_metadata language="{{ page.lang }}">
         <full_title>{{ site.data.snippets.journal-title[page.lang] }}</full_title>
-        <issn media_type="electronic">{{ site.data.snippets.issn[page.lang] }}</issn>
+        <issn media_type="online">{{ site.data.snippets.issn[page.lang] }}</issn>
       </journal_metadata>
       <journal_issue>
-        <publication_date media_type="electronic">
+        <publication_date media_type="online">
           <year>{{ issue_year }}</year>
         </publication_date>
         <issue>{{ issue_year | minus: vol_start | plus: 1 }}</issue>
@@ -55,71 +55,77 @@ Produce CrossRef XML data for each of our journals and their articles
           {%- endif -%}
 
         </titles>
-        <language>{{ page.lang }}</language>
         <jats:abstract xml:lang="{{ article.lang }}">
-        {{ article.abstract | xml_escape }}
+          <p>{{ article.abstract | xml_escape }}</p>
         </jats:abstract>
         <ai:program name="AccessIndicators">
           <ai:free_to_read/>
           <ai:license_ref>https://creativecommons.org/licenses/by/4.0/deed.{{ article.lang }}</ai:license_ref>
         </ai:program>
         <contributors>
+        {% assign sequence = 0 %}
         {% for author in article.authors %}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
-          <person_name contributor_role="author">
+          <person_name contributor_role="author" sequence="{{ sequence }}">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
+          {%- assign sequence = sequence | plus: 1 -%}
         {% endfor %}
         {% for author in article.editors %}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
-          <person_name contributor_role="editor">
+          <person_name contributor_role="editor" sequence="{{ sequence }}">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
+          {%- assign sequence = sequence | plus: 1 -%}
         {% endfor %}
         {% for author in article.translation-editor %}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
-          <person_name contributor_role="editor">
+          <person_name contributor_role="editor" sequence="{{ sequence }}">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
+          {%- assign sequence = sequence | plus: 1 -%}
         {% endfor %}
         {%- for author in article.reviewers -%}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
-          <person_name contributor_role="reviewer">
+          <person_name contributor_role="reviewer" sequence="{{ sequence }}">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
+          {%- assign sequence = sequence | plus: 1 -%}
         {% endfor %}
         {%- for author in article.translation-reviewer -%}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
-          <person_name contributor_role="reviewer">
+          <person_name contributor_role="reviewer" sequence="{{ sequence }}">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
+          {%- assign sequence = sequence | plus: 1 -%}
         {% endfor %}
         {%- for author in article.translators -%}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
-          <person_name contributor_role="translator">
+          <person_name contributor_role="translator" sequence="{{ sequence }}">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
+          {%- assign sequence = sequence | plus: 1 -%}
         {% endfor %}
         </contributors>
-        <publication_date media_type="electronic">
+        <publication_date media_type="online">
           <year>{{ article_date | date: "%Y" }}</year>
           <month>{{ article_date | date: "%m" }}</month>
           <day>{{ article_date | date: "%d" }}</day>
