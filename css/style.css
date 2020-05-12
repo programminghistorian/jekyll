@@ -465,11 +465,6 @@ Lessons Index
     clear:none;
   }
 
-  p.abstract {
-    font: .8rem/1.2rem 'Open Sans', sans-serif;
-    margin:0;
-  }
-
   .list .date,
   .lesson-description .activity,
   .lesson-description .topics,
