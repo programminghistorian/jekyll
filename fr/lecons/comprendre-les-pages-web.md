@@ -26,6 +26,7 @@ topics: [python]
 abstract: "Cette leçon propose une introduction au langage HTML et à la structuration des pages web."
 original: viewing-html-files
 avatar_alt: Une femme entend un homme parler à travers un cornet acoustique
+doi: 10.46430/phfr0002
 ---
 
 "Hello World" en HTML

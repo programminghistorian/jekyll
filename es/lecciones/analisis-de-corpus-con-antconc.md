@@ -25,7 +25,7 @@ activity: analyzing
 topics: [distant-reading]
 abstract: "El análisis de corpus permite hacer comparaciones a gran escala entre objetos presentes en los textos; es decir, lo que se conoce como lectura distante."
 avatar_alt: Grabado de una estantería con libros
-
+doi: 10.46430/phes0032
 ---
 
 
@@ -147,7 +147,7 @@ La palabra buscada aparece 14.618 veces en el corpus según la casilla *Concorda
 
 Como se indicó anteriormente, la lista KWIC resulta una buena forma de comenzar a buscar patrones. Aunque la cantidad de información suministrada con la búsqueda es aún muy grande, ¿qué tipo de palabras aparecen cerca de 'the'?
 
-Ahora, prueba a hacer una búsqueda del término 'a'; tanto este último como 'the' son artículos en la lengua inglesa, pero el primero es definido y el segundo indefinido; y los resultados arrojados por la búsqueda ilustrarán esa diferencia. 
+Ahora, prueba a hacer una búsqueda del término 'a'; tanto este último como 'the' son artículos en la lengua inglesa, pero el primero es definido y el segundo indefinido; y los resultados arrojados por la búsqueda ilustrarán esa diferencia.
 
 Llegados a este punto, ya debes estar familiarizado con las líneas de texto que componen la vista KWIC. Ahora, realiza una nueva búsqueda, esta vez de la palabra 'shot': los resultados mostrarán las apariciones del término tanto en la función sintáctica de sustantivo (por ejemplo, “line up the shot”) como en la de verbo conjugado (por ejemplo, "this scene was shot carefully").
 
@@ -222,11 +222,11 @@ Los resultados sin clasificar parecerán comenzar con palabras funcionales (pala
 
 Algunas personas podrían tener la intención de prescindir de esta clase de palabras mediante el uso de una lista de palabras funcionales (esta es una labor común cuando se hace modelado de tópicos). Desde nuestra óptica, no promovemos esta práctica porque los computadores se destacan, justamente, en la identificación de palabras con alta frecuencia de aparición; tal como se expresó anteriormente, tendemos a pasarlas por alto. Los computadores —y en especial las aplicaciones como AntConc—, pueden mostrar dónde aparecen o no estas palabras, y esa información puede ser de interés, especialmente en colecciones de texto de gran envergadura (como se vio con las búsquedas de 'a', 'she' y 'he').
 
-No obstante, en el caso de la lengua inglesa, la frecuencia de aparición de la letra 's' en el corpus también puede ser bastante alta, en tanto representa el posesivo *ʼs* (la aplicación no toma en cuenta el apóstrofo), pero AntConc la toma como otra palabra. Asimismo, la forma *ʼt* puede aparecer junto al verbo 'do' por cuanto conforman la contracción *donʼt*; la alta frecuencia de su aparición conjunta los convierte en colocaciones altamente probables. 
+No obstante, en el caso de la lengua inglesa, la frecuencia de aparición de la letra 's' en el corpus también puede ser bastante alta, en tanto representa el posesivo *ʼs* (la aplicación no toma en cuenta el apóstrofo), pero AntConc la toma como otra palabra. Asimismo, la forma *ʼt* puede aparecer junto al verbo 'do' por cuanto conforman la contracción *donʼt*; la alta frecuencia de su aparición conjunta los convierte en colocaciones altamente probables.
 
 **Tarea:** genera la lista de colocaciones para las búsquedas de *m?n* y *wom?n*. Ahora, ordénalas de acuerdo con su frecuencia de aparición respecto del parámetro 1L.
 Los resultados muestran lo que, en teoría, hace que un hombre (*man*) o una mujer (*woman*) sea “digno de mostrarse en el cine”:
-- las mujeres deben ser "bellas" (beautiful), "sofisticadas" (*sophisticated*) o estar "embarazadas" (*pregnant*). 
+- las mujeres deben ser "bellas" (beautiful), "sofisticadas" (*sophisticated*) o estar "embarazadas" (*pregnant*).
 - Los hombres tienen que estar, en cierto modo, fuera de lo común: deben ser "santos" (*holy*), "negros" (*black*) o "viejos" (*old*).
 
 Lo anterior no alude directamente a las películas, sino a la forma como se escribe sobre ellas en las reseñas, y puede llevar a cuestionamientos más sutiles, tales como "¿de qué manera se describen los roles de las mujeres en las comedias románticas en las reseñas escritas por hombres frente a las escritas por mujeres?"

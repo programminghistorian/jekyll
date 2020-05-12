@@ -21,6 +21,7 @@ previous: from-html-to-list-of-words-1
 python_warning: false
 redirect_from: /lessons/from-html-to-list-of-words-2
 avatar_alt: A soldier being mocked by a man
+doi: 10.46430/phen0007
 ---
 
 {% include toc.html %}

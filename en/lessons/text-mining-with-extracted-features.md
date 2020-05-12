@@ -19,6 +19,7 @@ abstract: |
 redirect_from: /lessons/text-mining-with-extracted-features
 mathjax: true
 avatar_alt: A book inside a torn case
+doi: 10.46430/phen0058
 ---
 
 {% include toc.html %}

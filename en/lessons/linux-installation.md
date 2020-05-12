@@ -18,6 +18,7 @@ topics: [get-ready, python]
 abstract: "This lesson will help you set up an integrated development environment for Python on a computer running the Linux operating system."
 redirect_from: /lessons/linux-installation
 avatar_alt: A band with three musicians
+doi: 10.46430/phen0011
 ---
 
 {% include toc.html %}

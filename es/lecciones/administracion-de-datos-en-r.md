@@ -24,6 +24,7 @@ activity: transforming
 topics: [data-manipulation, data-management, distant-reading]
 abstract: "Este tutorial explora la manera en que los académicos pueden administrar datos de forma ordenada, entender paquetes de R para manipular los datos y llevar a cabo un análisis básico de datos."
 avatar_alt: Anuncio de pastilla de jabón
+doi: 10.46430/phes0031
 ---
 
 {% include toc.html %}

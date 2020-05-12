@@ -18,6 +18,7 @@ abstract: "Now that you have learned how Wget can be used to mirror or download 
 previous: automated-downloading-with-wget
 redirect_from: /lessons/applied-archival-downloading-with-wget
 avatar_alt: Diagram of a well-drilling aparatus
+doi: 10.46430/phen0022
 ---
 
 {% include toc.html %}

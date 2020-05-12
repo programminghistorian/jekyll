@@ -25,7 +25,8 @@ redirect_from: /es/lessons/preserving-your-research-data
 activity: sustaining
 topics: [data-management]
 abstract: "Esta lección te sugerirá formas en las que los historiadores pueden documentar y estructurar sus datos de investigación con el fin de asegurar que permanecerán útiles en el futuro."
-avatar_alt: Grabado de un barril abierto y lleno de dinamita con un cartel. 
+avatar_alt: Grabado de un barril abierto y lleno de dinamita con un cartel.
+doi: 10.46430/phes0023
 ---
 
 {% include toc.html %}
@@ -47,7 +48,7 @@ Pero el hecho de poner todos los datos de investigación en formato digital no g
 > El principio guía básico es simple: alguien no familiarizado con tu
 > proyecto debe ser capaz de ver los archivos de tu computadora y entender
 > en detalle qué es lo que hiciste y por qué [...]. Pero por lo común resulta que ese "alguien" eres tú. En unos meses a partir de ahora, podrás no recordar lo que estabas haciendo cuando creaste un conjunto de archivos en particular, o podrás olvidar qué conclusiones esbozaste. Tendrás entonces que pasar tiempo reconstruyendo tus experimentos anteriores y percepciones adquiridas a partir de esos experimentos.
-> 
+>
 > William Stafford Noble (2009) A Quick Guide to Organizing
 > Computational Biology Projects. PLoSComputBiol 5(7): e1000424.
 > doi:10.1371/journal.pcbi.1000424
@@ -190,7 +191,7 @@ Subiendo un nivel de directorio a \\2014-01\_articulos\_revistas\\ creamos un di
 2014-02-15_articulos_revistas_analisis.txt
 ```
 
-Observa los diferentes atributos de fechas. Estos reflejan el momento en que se hizo el análisis de datos que se describirá brevemente de manera convencional en: 
+Observa los diferentes atributos de fechas. Estos reflejan el momento en que se hizo el análisis de datos que se describirá brevemente de manera convencional en:
 
 ```
 2014-02-02\_articulos\_revistas\_analisis\_leeme.txt.

@@ -25,7 +25,7 @@ activity: acquiring
 topics: [lod]
 abstract: "Con este tutorial aprenderás los fundamentos (URIs, ontologías, formato RDF y, muy brevemente, SPARQL) de los Datos abiertos enlazados."
 avatar_alt: Grabado de dos señoras agarradas a los brazos de un hombre mientras caminan
-
+doi: 10.46430/phes0038
 ---
 ## Introducción y contexto de la lección
 
@@ -97,9 +97,9 @@ Una vez que se asignan identificadores únicos a todos los elementos, el siguien
 
 La presentación (o [sintaxis](https://es.wikipedia.org/wiki/Sintaxis)) de las tripletas, incluida la puntuación utilizada anteriormente, se analizará más adelante, en la sección sobre RDF y formatos de datos. Por ahora, concéntrate en la estructura básica. La tripleta, como es lógico, tiene tres partes. Éstas se conocen convencionalmente como sujeto, predicado y objeto:
 
-|sujeto|predicado|objeto|
-|------|---------|-----------|
-|persona 64183282|representanteEnElParlamentoUK|"blackburn1955-current"|
+| sujeto           | predicado                     | objeto                  |
+| ---------------- | ----------------------------- | ----------------------- |
+| persona 64183282 | representanteEnElParlamentoUK | "blackburn1955-current" |
 
 La forma tradicional de representar una tripleta en forma de diagrama es:
 {% include figure.html filename="intro-a-datos-enlazados-fig5.png" caption="Manera clásica de representar una tripleta" %}
@@ -175,13 +175,13 @@ La consulta devolvería todas las personas en el conjunto de datos que fueron al
 
 Si has utilizado [bases de datos relacionales](https://en.wikipedia.org/wiki/Relational_database), podrías pensar que pueden realizar la misma función. En el caso de Liszt, la información sobre pianistas descrita anteriormente podría organizarse en una [tabla](https://es.wikipedia.org/wiki/Base_de_datos_relacional) de base de datos llamada algo así como 'Alumnos'.
 
-|alumnoID|profesorID|
-|------|---------|
-|31|17|
-|35|17|
-|49|28|
-|56|28|
-|72|40|
+| alumnoID | profesorID |
+| -------- | ---------- |
+| 31       | 17         |
+| 35       | 17         |
+| 49       | 28         |
+| 56       | 28         |
+| 72       | 40         |
 
 
 Si no estás familiarizado con las bases de datos, no te preocupes. Pero probablemente aún puedas ver que algunos pianistas en esta tabla tenían el mismo profesor (números 17 y 28). Sin entrar en detalles, si Liszt está en esta tabla de la base de datos, sería bastante fácil extraer los alumnos de los alumnos de Liszt, utilizando la sentencia SQL [join](https://es.wikipedia.org/wiki/Join).
@@ -221,7 +221,7 @@ Pasemos ahora de Jack Straw a William Shakespeare y usemos Turtle para describir
     @prefix lccn: <http://id.loc.gov/authorities/names> .
     @prefix dc: <http://purl.org/dc/elements/1.1/> .
     @prefix viaf: <http://viaf.org/viaf> .
-    
+
     lccn:n82011242 dc:creator viaf:96994048 .
 
 Ten en cuenta el espaciado del punto final después de la última línea. Esta es la forma de Turtle de indicar el final. Técnicamente no tiene que tener el espacio, pero lo hace más fácil de leer después de una larga cadena de caracteres.

@@ -16,6 +16,7 @@ topics: [distant-reading]
 abstract: "This lesson shows how to use machine learning to extract interesting documents out of a digital archive."
 redirect_from: /lessons/naive-bayesian
 avatar_alt: A man peers through a geometric tool
+doi: 10.46430/phen0038
 ---
 
 {% include toc.html %}

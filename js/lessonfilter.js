@@ -1,6 +1,3 @@
----
----
-
 function resetSort() {
   /* Function to reset sort buttons */
   $('#current-sort').removeClass().addClass("sort-desc");
@@ -9,7 +6,7 @@ function resetSort() {
 }
 
 
-function applySortFromURI(uri,featureList) {
+function applySortFromURI(uri, featureList) {
   /* Function to update lesson-list using featureList and sort direction
     - uses URI to generate sort directions
   */
@@ -52,7 +49,7 @@ function applySortFromURI(uri,featureList) {
   }
 
   // Performm new sort
-  featureList.sort(sortType, {order: sortOrder});
+  featureList.sort(sortType, { order: sortOrder });
 
   // Reset filter results header
   $('#results-value').text($(this).text().split(' ')[0] + '(' + featureList.update().matchingItems.length + ')' + " ");
@@ -85,7 +82,7 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
   // Create html to show search results using html mark
   let elements = []
   docs.map((doc) => {
-    let elementName = '/'+doc.url.split('/').slice(3, ).join('/')
+    let elementName = '/' + doc.url.split('/').slice(3).join('/')
     let search_keys = Object.keys(doc.matchData.metadata);
     let inner_results = search_keys.map((token) => {
       let all_positions = doc.matchData.metadata[token].body.position;
@@ -97,7 +94,7 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
       }).join("")
       return grouped_kwic
     }).join("").replace(/(\r\n|\n|\r)/gm, "");
-    elements.push({'elementName': elementName, 'innerResults': inner_results});
+    elements.push({ 'elementName': elementName, 'innerResults': inner_results });
     $(`span[id="${elementName}-score"]`).html(doc.score);
   });
   // Filter featureList to only show items from search results and active filters
@@ -116,13 +113,13 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
 
     });
   });
-  featureList.sort('score', {order: "desc"});
+  featureList.sort('score', { order: "desc" });
   // Hide original abstracts
   $('.abstract').css('display', 'none');
   $('#results-value').text($(this).text().split(' ')[0] + '(' + featureList.update().matchingItems.length + ')' + " ");
   $('#results-value').css('textTransform', 'uppercase');
   // Display updated search results
-  elements.map( (elm) => {
+  elements.map((elm) => {
     $(`p[id="${elm.elementName}-search_results"]`).css('display', '');
     $(`p[id="${elm.elementName}-search_results"]`).html(elm.innerResults);
   });
@@ -149,7 +146,7 @@ function wireButtons() {
   console.log(uri.toString());
 
   let options = {
-    valueNames: [ 'date', 'title', 'difficulty', 'activity', 'topics','abstract', 'content', 'score' ]
+    valueNames: ['date', 'title', 'difficulty', 'activity', 'topics', 'abstract', 'content', 'score']
   };
 
   let featureList = new List('lesson-list', options);
@@ -169,7 +166,7 @@ function wireButtons() {
     $('#loading-search').css('display', 'none');
     $('#search').css('display', '');
     $('#search-button').prop('disabled', false);
-    
+
     // Get language and load idx and corpus
     const language = uri.toString().split('/').slice(-3)[0];
     const indexResponse = await fetch(`https://programminghistorian.github.io/search-index/indices/index${language.toUpperCase()}.json`);
@@ -178,18 +175,18 @@ function wireButtons() {
     const corpusResponse = await fetch(`https://programminghistorian.org/${language}/search.json`);
     const corpusJSON = await corpusResponse.json();
     corpus = corpusJSON;
-    
+
   }
 
   // Enable search on button click
-  $("#enable-search-div").on("click", function() {
+  $("#enable-search-div").on("click", function () {
     // Start loading search data
     loadSearchData();
   });
 
 
-  
-  $("#search-button").on("click", function() {
+
+  $("#search-button").on("click", function () {
     /* Function that does ALL filtering and searching of list (whether search exists or not)
     - checks if search string exists or not and updates URI
     - if search string exists calls lunrSearch
@@ -217,32 +214,32 @@ function wireButtons() {
       if (type) {
 
         // If filter selected, return filter lessons based on URI
-        
+
         featureList.filter((item) => {
           item.values().score = 0;
-          
-            let topicsArray = item.values().topics.split(/\s/);
-            let condition = params.topic ? topicsArray.includes(type) : item.values().activity == type;
-            return condition
-          
+
+          let topicsArray = item.values().topics.split(/\s/);
+          let condition = params.topic ? topicsArray.includes(type) : item.values().activity == type;
+          return condition
+
         });
-          
+
         applySortFromURI(uri, featureList);
       } else {
         $('#filter-none').click();
       }
     }
-  
+
   });
   // Search lessons on enter press
-  $('#search').on('keyup', function(event) {
+  $('#search').on('keyup', function (event) {
     if (event.which == 13) {
       $("#search-button").click();
     }
   });
 
   // When a filter button is clicked
-  $('.filter').children().click(function() {
+  $('.filter').children().click(function () {
     // Set clicked button as current
     $('.filter').children().removeClass("current");
     $(this).addClass("current");
@@ -257,8 +254,8 @@ function wireButtons() {
       uri.removeSearch("activity")
       uri.setSearch("topic", type)
     }
-    
-     // returns the URI instance for chaining
+
+    // returns the URI instance for chaining
     history.pushState(stateObj, "", uri.toString());
     console.log(uri.toString());
     // Use search to perform filtering
@@ -266,15 +263,15 @@ function wireButtons() {
 
     return false;
   });
-  
+
   // When the reset button is clicked
-  $('#filter-none').click(function() {
+  $('#filter-none').click(function () {
     // Remove highlighting from filter buttons
     $('.filter').children().removeClass("current");
 
     // Reset filter results header
     $('#results-value').text(featureList.update().items.length);
-    
+
     // Reset search results
     resetSearch();
 
@@ -284,11 +281,11 @@ function wireButtons() {
     history.pushState(stateObj, "", uri.toString());
 
     // Reset filtering and perform default sort
-    featureList.filter( item => {
+    featureList.filter(item => {
       item.values().score = 0;
       return true
     });
-    
+
     featureList.sort('date', { order: "desc" });
     // Reset sort buttons to defaults
     resetSort();
@@ -298,8 +295,8 @@ function wireButtons() {
 
 
   // When a sort button is clicked, update the results header to show current sorting status
-  $('.sort').click(function() {
-    
+  $('.sort').click(function () {
+
     // Get sort type from button (date or difficulty)
     let sortType = $(this).attr("data-sort");
 
@@ -325,7 +322,7 @@ function wireButtons() {
     }
 
     // Set CSS class for results header (the arrow)
-    $('#current-sort').removeClass().addClass("sort-"+newSortOrder);
+    $('#current-sort').removeClass().addClass("sort-" + newSortOrder);
 
     // Manually sort to override default behavior of list.js, which does not support multiple sort buttons very well.
     // The problem is that when changing sort type, list.js automatically sorts asc on the first sort. This is not
@@ -352,7 +349,7 @@ function wireButtons() {
   const params = uri.search(true);
   let filter = params.activity ? params.activity : params.topic;
   let search = params.search;
-  
+
   // If a filter or search is present in the URI, simulate a click to run filter
   // Clicking a filter button checks for sort params in URI, so don't do it twice OR load search data and simulate search click.
   if (search) {
@@ -364,6 +361,6 @@ function wireButtons() {
   }
   else {
     // Apply sorting criteria from the URI if no filter
-    applySortFromURI(uri,featureList);
+    applySortFromURI(uri, featureList);
   }
 };

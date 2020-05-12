@@ -23,7 +23,8 @@ difficulty: 1
 activity: acquiring
 topics: [web-scraping]
 abstract: "Wget es un programa útil que se ejecuta a través de la línea de comandos de tu computadora. Sirve para recuperar material en línea."
-avatar_alt: Grabado de dos mineros dentro de una mina empujando carretillas hasta un ascensor. 
+avatar_alt: Grabado de dos mineros dentro de una mina empujando carretillas hasta un ascensor.
+doi: 10.46430/phes0035
 ---
 
 {% include toc.html %}

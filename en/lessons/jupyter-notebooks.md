@@ -20,7 +20,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/251
 abstract: Jupyter notebooks provide an environment where you can freely combine human-readable narrative with computer-readable code. This lesson describes how to install the Jupyter Notebook software, how to run and create Jupyter notebook files, and contexts where Jupyter notebooks can be particularly helpful.
 redirect_from: "/lessons/jupyter-notebooks"
 avatar_alt: The planet Jupiter
-
+doi: 10.46430/phen0087
 ---
 
 {% include toc.html %}

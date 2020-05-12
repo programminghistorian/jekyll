@@ -17,6 +17,7 @@ exclude_from_check:
   - reviewers
 redirect_from: /lessons/intro-to-beautiful-soup
 avatar_alt: A soup tureen
+doi: 10.46430/phen0008
 ---
 
 {% include toc.html %}

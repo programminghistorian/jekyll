@@ -3,7 +3,7 @@ title: Préserver ses données de recherche
 layout: lesson
 slug: preserver-ses-donnees-de-recherche
 date: 2014-04-30
-translation_date: 2020-01-16 
+translation_date: 2020-01-16
 authors:
 - James Baker
 reviewers:
@@ -27,7 +27,7 @@ topics: [data-management]
 abstract: Cette leçon donne des pistes aux historiens et aux historiennes pour documenter, structurer et pérenniser leurs données de recherche.
 avatar_alt: Un gros baril
 original: preserving-your-research-data
-
+doi: 10.46430/phfr0009
 ---
 
 {% include toc.html %}
@@ -65,10 +65,10 @@ S'appuyant sur les leçons et l'expertise de professionnels en données de la re
 
 #### Documentation des données de la recherche
 
-> Birkwood, Katie (girlinthe). 
+> Birkwood, Katie (girlinthe).
 >“Victory is mine: while ago I worked out some Clever Stuff ™ in Excel. And I MADE NOTES ON IT. And those notes ENABLED ME TO DO IT AGAIN.” 7 October 2013, 3:46 a.m.. Tweet.
 >
->“La victoire est mienne : il y a quelques temps, j'ai travaillé 
+>“La victoire est mienne : il y a quelques temps, j'ai travaillé
 > sur Des Trucs Brillants ™ dans Excel. Et J'AI PRIS DES NOTES DESSUS. Et ces notes
 > M'ONT PERMIS DE LE REFAIRE.” 7 octobre 2013, 3:46 a.m.. Tweet.
 >

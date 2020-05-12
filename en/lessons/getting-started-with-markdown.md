@@ -18,6 +18,7 @@ exclude_from_check:
   - reviewers
 redirect_from: /lessons/getting-started-with-markdown
 avatar_alt: Ornate decorated characters from a typographical manual
+doi: 10.46430/phen0046
 ---
 
 {% include toc.html %}

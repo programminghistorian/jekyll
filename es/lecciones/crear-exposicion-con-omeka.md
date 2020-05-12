@@ -24,6 +24,7 @@ activity: presenting
 topics: [website]
 abstract: "Ahora que has agregado los artículos a tu sitio Omeka y los agrupaste por colecciones, estás listo para el paso siguiente: llevar a tus usuarios a un tour guiado por los artículos coleccionados."
 avatar_alt: Fotografía en blanco y negro de un salón con múltiples retratos en las paredes
+doi: 10.46430/phes0033
 ---
 {% include toc.html %}
 

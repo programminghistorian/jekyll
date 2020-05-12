@@ -29,6 +29,7 @@ topics: [python, website]
 abstract: "Aquí aprenderás cómo crear archivos HTML con scripts de Python, y cómo utilizar Python para abrir un archivo HTML en Firefox."
 avatar_alt: Grabado en blanco y negro de un niño sentado en un taburete sujetando un dibujo de una persona con una espada.
 python_warning: false
+doi: 10.46430/phes0003
 ---
 
 {% include toc.html %}

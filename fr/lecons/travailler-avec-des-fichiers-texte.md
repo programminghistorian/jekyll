@@ -26,6 +26,7 @@ abstract: "Cette leçon vous explique comment manipuler des fichiers texte en Py
 python_warning: false
 original: working-with-text-files
 avatar_alt: Homme à lunettes lisant un livre d'alphabet
+doi: 10.46430/phfr0005
 ---
 
 {% include toc.html %}
@@ -41,7 +42,7 @@ Les prochaines leçons de cette série auront pour objectif de télécharger une
 page web avant de réorganiser le contenu sous forme d'information exploitable
 de manière automatique. La plupart des opérations se feront à l'aide de scripts
 Python exécutés depuis l'Environnement de développement intégré (EDI) Komodo Edit.
-Les solutions présentées pourront bien entendu être utilisées dans n'importe quel 
+Les solutions présentées pourront bien entendu être utilisées dans n'importe quel
 autre EDI ou avec un simple éditeur de texte combiné à l'interpréteur Python.
 
 ## Travailler avec des fichiers texte
@@ -110,8 +111,8 @@ se poursuit sur plusieurs lignes.
 print, combinée à la chaîne de caractères correspond à une *instruction*.
 
 On utilise cette commande `print` lorsque l'on a besoin
-d'avoir un retour visuel en temps réel de la part de notre programme. 
-Parfois, on souhaite pouvoir enregistrer les informations créées, 
+d'avoir un retour visuel en temps réel de la part de notre programme.
+Parfois, on souhaite pouvoir enregistrer les informations créées,
 les envoyer à quelqu'un ou encore les traiter à l'aide d'un autre programme.
 Pour cela, il sera préférable
 d'envoyer l'information vers un fichier du disque dur plutôt que dans la
@@ -134,7 +135,7 @@ souvenir de ce que fait le code lorsqu'on le reprendra quelques mois ou
 années plus tard). De manière générale, les programmes sont écrits d'une
 manière qui permette leur compréhension le plus facilement
 possible lors de la reprise de code ou de travail à plusieurs sur le même
-outil. 
+outil.
 
 Quand du code est très proche des instructions que comprend le
 processeur de la machine, on parle de langage de *bas niveau*, alors que du
@@ -213,7 +214,7 @@ Hello World!
 d'indications de formatage, ils ont tendance à rester légers et faciles
 à échanger entre différentes plateformes (par exemple de Windows à Linux
 ou Mac, et vice versa), et ainsi faciles à transférer entre ordinateurs. Ils
-ont aussi l'avantage de pouvoir être créées et ouverts par n'importe qui 
+ont aussi l'avantage de pouvoir être créées et ouverts par n'importe qui
 puisque le plus simple des éditeurs de texte, de type bloc notes par exemple, suffit.
 
 
@@ -278,7 +279,7 @@ vous verrez que plusieurs lignes contenant le message 'hello world' sont
 apparues.
 
 Dans la prochaine section, nous aborderons la modularité et la réutilisation
-du code. Celle-ci est déjà disponible en anglais 
+du code. Celle-ci est déjà disponible en anglais
 ([Code Reuse and Modularity in Python](/en/lessons/code-reuse-and-modularity)).
 
 Lectures recommandées
