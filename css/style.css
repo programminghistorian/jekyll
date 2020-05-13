@@ -321,7 +321,7 @@ Lessons Index
   *****************/
 
   .search-input {
-    width:60%;
+    width:55%;
     clear:both;
     margin-bottom:1rem;
     background-color:#fefefe;
@@ -340,7 +340,7 @@ Lessons Index
   #enable-search-button {
     background-color: #efefef;
     color: rgb(153, 143, 143);
-    width: 39%;
+    width: 35%;
     font: .9rem/1.1rem 'Open Sans',
     sans-serif;
     padding: .4rem .6rem;
@@ -351,10 +351,27 @@ Lessons Index
     text-decoration: none;
   }
 
-  .search_results {
-    font: .8rem/1.2rem 'Open Sans',
-    sans-serif;
-    margin: 0;
+  #search-info-button {
+    padding: 0.5rem;
+    color: rgb(153, 143, 143);
+  }
+
+  #search-info {
+    display: none;
+    height:0px;
+    background:#efefef;
+    overflow:hidden;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  #search-info.visible {
+    display: block;
+    height: fit-content;
+    padding: 10px;
   }
 
   /*****************

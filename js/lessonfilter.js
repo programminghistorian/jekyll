@@ -1,5 +1,6 @@
 function resetSort() {
   /* Function to reset sort buttons */
+  $('#current-sort').text('date');
   $('#current-sort').removeClass().addClass("sort-desc");
   $("#sort-by-date").removeClass().addClass("sort desc my-asc");
   $("#sort-by-difficulty").removeClass().addClass("sort my-desc");
@@ -30,11 +31,11 @@ function applySortFromURI(uri, featureList) {
 
     // Update filter header and restore defaults to other button
     if (sortType == "date") {
-      $('#current-sort').text(dateSort);
+      $('#current-sort').text('date');
       $('#sort-by-difficulty').removeClass().addClass("sort my-asc");
     }
     else {
-      $('#current-sort').text(difficultySort);
+      $('#current-sort').text('difficulty');
       $('#sort-by-date').removeClass().addClass("sort my-desc");
     }
   }
@@ -113,6 +114,12 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
 
     });
   });
+  // remove existing sorts and indicate sorted by search results
+  $('#sort-by-difficulty').removeClass().addClass("sort my-asc");
+  $('#sort-by-date').removeClass().addClass("sort my-desc");
+  $('#current-sort').text('search');
+  $('#current-sort').removeClass().addClass("sort-desc");
+
   featureList.sort('score', { order: "desc" });
   // Hide original abstracts
   $('.abstract').css('display', 'none');
@@ -123,6 +130,7 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
     $(`p[id="${elm.elementName}-search_results"]`).css('display', '');
     $(`p[id="${elm.elementName}-search_results"]`).html(elm.innerResults);
   });
+  
 }
 
 function resetSearch() {
@@ -195,19 +203,25 @@ function wireButtons() {
 
     // Get search string
     const searchString = $("#search").val();
-
-    // Update URI to include search string
-    searchString.length > 0 ? uri.setSearch("search", searchString) : uri.removeSearch('search');
-    history.pushState(stateObj, "", uri.toString());
-    console.log(uri.toString());
+    
     // Check that's it's not empty
     if (searchString.length > 0) {
+      // Update URI
+      uri.setSearch("search", searchString)
+      uri.removeSearch('sortOrder');
+      uri.removeSearch('sortType');
+      history.pushState(stateObj, "", uri.toString());
+      console.log(uri.toString());
       // Call lunr search
       lunrSearch(searchString, idx, corpus, featureList, uri, stateObj);
+      
     } else {
       // If empty check if topic or activity filter selected
 
-      // Call reset search to empty out search values
+      // Call reset search to empty out search values and update URI
+      uri.removeSearch('search');
+      history.pushState(stateObj, "", uri.toString());
+      console.log(uri.toString());
       resetSearch();
       const params = uri.search(true);
       let type = params.activity ? params.activity : params.topic;
@@ -235,6 +249,14 @@ function wireButtons() {
   $('#search').on('keyup', function (event) {
     if (event.which == 13) {
       $("#search-button").click();
+    }
+  });
+
+  $('#search-info-button').click(function() {
+    if ($("#search-info").hasClass("visible")) {
+      $("#search-info").removeClass("visible");
+    } else {
+      $("#search-info").addClass("visible");
     }
   });
 
@@ -309,7 +331,6 @@ function wireButtons() {
 
     // update class for clicked button
     $(this).removeClass("my-" + newSortOrder).addClass("my-" + curSortOrder);
-
     // Update filter results header to show current sorting (date or difficulty)
     // Reset the other (non-pressed) button to its default sort arrow.
     if (sortType == "date") {
