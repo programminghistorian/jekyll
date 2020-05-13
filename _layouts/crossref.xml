@@ -68,7 +68,12 @@ Produce CrossRef XML data for each of our journals and their articles
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
-          <person_name contributor_role="author" sequence="{{ sequence }}">
+          {%- if sequence == 0 -%}
+          {%- assign sequence_term = "first" -%}
+          {%- else -%}
+          {%- assign sequence_term = "additional" -%}
+          {%- endif -%}
+          <person_name contributor_role="author" sequence="{{ sequence_term }}">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
@@ -78,51 +83,46 @@ Produce CrossRef XML data for each of our journals and their articles
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
-          <person_name contributor_role="editor" sequence="{{ sequence }}">
+          <person_name contributor_role="editor" sequence="additional">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
-          {%- assign sequence = sequence | plus: 1 -%}
         {% endfor %}
         {% for author in article.translation-editor %}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
-          <person_name contributor_role="editor" sequence="{{ sequence }}">
+          <person_name contributor_role="editor" sequence="additional">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
-          {%- assign sequence = sequence | plus: 1 -%}
         {% endfor %}
         {%- for author in article.reviewers -%}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
-          <person_name contributor_role="reviewer" sequence="{{ sequence }}">
+          <person_name contributor_role="reviewer" sequence="additional">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
-          {%- assign sequence = sequence | plus: 1 -%}
         {% endfor %}
         {%- for author in article.translation-reviewer -%}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
-          <person_name contributor_role="reviewer" sequence="{{ sequence }}">
+          <person_name contributor_role="reviewer" sequence="additional">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
-          {%- assign sequence = sequence | plus: 1 -%}
         {% endfor %}
         {%- for author in article.translators -%}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
-          <person_name contributor_role="translator" sequence="{{ sequence }}">
+          <person_name contributor_role="translator" sequence="additional">
             <given_name>{{ first_name }}</given_name>
             <surname>{{ last_name }}</surname>
           </person_name>
-          {%- assign sequence = sequence | plus: 1 -%}
         {% endfor %}
         </contributors>
         <publication_date media_type="online">
