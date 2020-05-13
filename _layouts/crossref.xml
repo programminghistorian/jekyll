@@ -56,7 +56,9 @@ Produce CrossRef XML data for each of our journals and their articles
 
         </titles>
         <jats:abstract xml:lang="{{ article.lang }}">
-          <p>{{ article.abstract | xml_escape }}</p>
+          <jats:p>
+            {{ article.abstract | xml_escape }}
+          </jats:p>
         </jats:abstract>
         <ai:program name="AccessIndicators">
           <ai:free_to_read/>
