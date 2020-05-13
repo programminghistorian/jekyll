@@ -31,11 +31,11 @@ this div ('lesson-list', referenced in lessonfilter.js) needs to contain the sor
     placeholder="{{ site.data.snippets.loading-search[page.lang] }}" style="background-color: #efefef" disabled>
   <input id="search" class="search-input" type="text" style="display: none;" placeholder="{{ site.data.snippets.type-search-terms[page.lang] }}">
   <button id="search-button" disabled>{{ site.data.snippets.search-lessons[page.lang] }}</button>
-  <i id="search-info-button" class="fas fa-info-circle"></i>
+  <i id="search-info-button" class="fas fa-question-circle"></i>
   <div id="search-info">
     <p>To search for relevant terms, enter them into the search bar and either press the enter key or the search button. All searches are case insensitive. If multiple terms are entered, results will include lessons that have all terms, as well as lessons that contain <i>either term</i>. Results with more of the terms will be scored higher in the list.
     </p>
-    <p>To only return results with more than one term, add the <code>+</code> symbol before the term. For example, <code> +Twitter +Network</code>. If you want to only return results that <i>do not</i> contain a term use the <code>-</code> symbol. For example, <code>-Twitter +Network</code>. For more information on how searching works, visit this website on searching with Lunr <a href="https://lunrjs.com/guides/searching.html">https://lunrjs.com/guides/searching.html</a></p>
+    <p>To only return results with multiple terms, add the <code>+</code> symbol before the term. For example, <code> +Twitter +Network</code> will return lessons that contain <i>both</i> "twitter" and "network". To only return results that <i>do not</i> contain a term use the <code>-</code> symbol. For example, <code>-Twitter +Network</code> will return lessons that contain "network" but not "twitter". For more detailed information, visit this guide on searching <a href="https://lunrjs.com/guides/searching.html">https://lunrjs.com/guides/searching.html</a></p>
   </div>
 </div>
 <div id="enable-search-div" style="text-align: center; margin-bottom: 1rem;">
