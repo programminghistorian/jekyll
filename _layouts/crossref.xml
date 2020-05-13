@@ -107,7 +107,7 @@ Produce CrossRef XML data for each of our journals and their articles
             <surname>{{ last_name }}</surname>
           </person_name>
         {% endfor %}
-        {%- for author in article.translators -%}
+        {%- for author in article.translator -%}
           {%- assign split_name = author | split: " " -%}
           {%- assign last_name = split_name | last -%}
           {%- assign first_name = author | remove: last_name | strip -%}
