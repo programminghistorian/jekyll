@@ -18,6 +18,7 @@ topics: [distant-reading]
 abstract: "This lesson introduces three common measures for determining how similar texts are to one another: city block distance, Euclidean distance, and cosine distance. You will learn the general principles behind similarity, the different advantages of these measures, and how to calculate each of them using the SciPy Python library."
 mathjax: true
 avatar_alt: Image of a partial eclipse.
+doi: 10.46430/phen0089
 ---
 
 {% include toc.html %}
@@ -66,10 +67,10 @@ In this example, `austen` and `wharton` are your two data **samples**, the units
 
 For this example, you will use individual word counts as features. Consider the frequencies of the word "a" and the word "in" in your two samples. The following figure is an example of a chart you could construct illustrating the frequency of these words:
 
-|  | a | in |
-| --------- | --------- | --------- |
-| austen | 4 | 2 |
-| wharton | 1 | 1 |
+|         | a   | in  |
+| ------- | --- | --- |
+| austen  | 4   | 2   |
+| wharton | 1   | 1   |
 
 Later in this lesson, you'll count the words in the *EarlyPrint* texts to create a new data set. Like this very small sample data set, the new data will include columns (features) that are individual words and rows (samples) for specific texts. The main difference is that there will be columns for 1000 words instead of 2. As you're about to see, despite this difference, distance measures are available via the same calculations.
 
@@ -205,7 +206,7 @@ Now that you understand city block, Euclidean, and cosine distance, you're ready
 
 ## Counting Words
 
-To begin, you'll need to import the libraries (Pandas, SciPy, and scikit-learn) that you installed in the Setup and Installation section , as well as a built-in library called `glob`. 
+To begin, you'll need to import the libraries (Pandas, SciPy, and scikit-learn) that you installed in the Setup and Installation section , as well as a built-in library called `glob`.
 
 Create a new blank file in your text editor of choice and name it `similarity.py`. (You can also download my [complete version of this script]({{ site.baseurl }}/assets/common-similarity-measures/similarity.py).) At the top of the file, type:
 
@@ -218,15 +219,15 @@ from scipy.spatial.distance import pdist, squareform
 
 The scikit-learn and SciPy libraries are both very large, so the `from _____ import _____` syntax allows you to import only the functions you need.
 
-From this point, scikit-learn's `CountVectorizer` class will handle a lot of the work for you, including opening and reading the text files and counting all the words in each text. You'll first create an instance of the `CountVectorizer` class with all of the parameters you choose, and then run that model on your texts. 
+From this point, scikit-learn's `CountVectorizer` class will handle a lot of the work for you, including opening and reading the text files and counting all the words in each text. You'll first create an instance of the `CountVectorizer` class with all of the parameters you choose, and then run that model on your texts.
 
-Scikit-learn gives you many parameters to work with, but you'll need three: 
+Scikit-learn gives you many parameters to work with, but you'll need three:
 
-1. Set `input` to `"filename"` to tell `CountVectorizer` to accept a list of filenames to open and read. 
+1. Set `input` to `"filename"` to tell `CountVectorizer` to accept a list of filenames to open and read.
 
-2. Set `max_features` to `1000` to capture only the 1000 most frequent words. Otherwise, you'll wind up with hundreds of thousands of features that will make your calculations slower without adding very much additional accuracy. 
+2. Set `max_features` to `1000` to capture only the 1000 most frequent words. Otherwise, you'll wind up with hundreds of thousands of features that will make your calculations slower without adding very much additional accuracy.
 
-3. Set `max_df` to `0.7`. DF stands for document frequency. This parameter tells `CountVectorizer` that you'd like to eliminate words that appear in more than 70% of the documents in the corpus. This setting will eliminate the most common words (articles, pronouns, prepositions, etc.) without the need for a [stop words](https://en.wikipedia.org/wiki/Stop_words) list. 
+3. Set `max_df` to `0.7`. DF stands for document frequency. This parameter tells `CountVectorizer` that you'd like to eliminate words that appear in more than 70% of the documents in the corpus. This setting will eliminate the most common words (articles, pronouns, prepositions, etc.) without the need for a [stop words](https://en.wikipedia.org/wiki/Stop_words) list.
 
 You can use the `glob` library you imported to create the list of file names that `CountVectorizer` needs. To set the three scikit-learn parameters and run `CountVectorizer`, type:
 
@@ -351,7 +352,7 @@ Distance measures are a good first step to investigating your data, but a choice
 
 [^3]: Once again, I've done some rounding in the final two steps to make this operation more readable.
 
-[^4]: SciPy's `pdist` function outputs what's called a "sparse matrix" to save space and processing power. This output is fine if you're using this as part of a pipeline for another purpose, but we want the "squareform" matrix so that we can see all the results. 
+[^4]: SciPy's `pdist` function outputs what's called a "sparse matrix" to save space and processing power. This output is fine if you're using this as part of a pipeline for another purpose, but we want the "squareform" matrix so that we can see all the results.
 
 [^5]: I made these results a little easier to read by running identical code in a [Jupyter Notebook](/en/lessons/jupyter-notebooks). If you run the code on the command line, the results will be the same, but they will be formatted a little differently.
 
