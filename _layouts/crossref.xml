@@ -10,7 +10,7 @@ Produce CrossRef XML data for each of our journals and their articles
   xmlns="http://www.crossref.org/schema/4.4.2" 
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 https://data.crossref.org/schemas/crossref4.4.2.xsd" 
   xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" 
-  xmlns:ai="https://www.crossref.org/AccessIndicators.xsd">
+  xmlns:ai="http://www.crossref.org/AccessIndicators.xsd">
   <head>
     <doi_batch_id>{{ site.time | date: "%s" }}-{{ page.lang }}</doi_batch_id>
     <timestamp>{{ site.time | date: "%s" }}</timestamp>
@@ -44,7 +44,6 @@ Produce CrossRef XML data for each of our journals and their articles
       {%- endif -%}
       {%- assign article_year = article_date | date: "%Y" | to_integer -%}
       {%- if issue_year == article_year -%}
-
       <journal_article publication_type="full_text" language="{{ article.lang }}">
         <titles>
           <title>{{ article.title | xml_escape }}</title>
@@ -55,15 +54,6 @@ Produce CrossRef XML data for each of our journals and their articles
           {%- endif -%}
 
         </titles>
-        <jats:abstract xml:lang="{{ article.lang }}">
-          <jats:p>
-            {{ article.abstract | xml_escape }}
-          </jats:p>
-        </jats:abstract>
-        <ai:program name="AccessIndicators">
-          <ai:free_to_read/>
-          <ai:license_ref>https://creativecommons.org/licenses/by/4.0/deed.{{ article.lang }}</ai:license_ref>
-        </ai:program>
         <contributors>
         {% assign sequence = 0 %}
         {% for author in article.authors %}
@@ -127,18 +117,27 @@ Produce CrossRef XML data for each of our journals and their articles
           </person_name>
         {% endfor %}
         </contributors>
+        <jats:abstract xml:lang="{{ article.lang }}">
+          <jats:p>
+            {{ article.abstract | xml_escape }}
+          </jats:p>
+        </jats:abstract>
         <publication_date media_type="online">
-          <year>{{ article_date | date: "%Y" }}</year>
           <month>{{ article_date | date: "%m" }}</month>
           <day>{{ article_date | date: "%d" }}</day>
+          <year>{{ article_date | date: "%Y" }}</year>
         </publication_date>
         <publisher_item>
           <identifier id_type="other">{{ article.name | remove: ".md" }}</identifier>
         </publisher_item>
-        <doi-data>
+        <ai:program name="AccessIndicators">
+          <ai:free_to_read/>
+          <ai:license_ref>https://creativecommons.org/licenses/by/4.0/deed.{{ article.lang }}</ai:license_ref>
+        </ai:program>
+        <doi_data>
           <doi>{{ article.doi }}</doi>
           <resource>{{ site.liveurl }}{{ article.url }}</resource>
-        </doi-data>
+        </doi_data>
       </journal_article>
       {%- endif -%}
       {% endfor %}
