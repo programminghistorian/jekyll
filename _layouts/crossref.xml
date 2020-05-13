@@ -127,7 +127,7 @@ Produce CrossRef XML data for each of our journals and their articles
           </person_name>
         {% endfor %}
         </contributors>
-        <publication_date media_type="electronic">
+        <publication_date media_type="online">
           <year>{{ article_date | date: "%Y" }}</year>
           <month>{{ article_date | date: "%m" }}</month>
           <day>{{ article_date | date: "%d" }}</day>
