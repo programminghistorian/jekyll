@@ -354,22 +354,22 @@ filtering-results:
   pt:
 loading-search:
   en: LOADING SEARCH...
-  es:
+  es: CARGANDO LA BÚSQUEDA...
   fr: RECHERCHE EN COURS...
   pt:
 search-lessons:
   en: SEARCH LESSONS
-  es:
+  es: BUSCAR LECCIONES 
   fr: RECHERCHER LES LEÇONS
   pt:
 start-searching:
   en: START SEARCHING
-  es:
+  es: INICIAR BÚSQUEDA
   fr: DÉMARRER LA RECHERCHE
   pt:
 type-search-terms:
   en: TYPE SEARCH TERMS...
-  es:
+  es: ESCRIBE LOS TÉRMINOS DE BÚSQUEDA...
   fr: ENTRER UN OU PLUSIEURS TERMES DE RECHERCHE...
   pt:
 
