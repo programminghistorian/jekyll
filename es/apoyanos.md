@@ -26,7 +26,7 @@ El proyecto agradece el siguiente apoyo:
 - Fondos iniciales y soporte de administración de la Red en Historia y Medio Ambiente de Canadá ([NiCHE](http://niche-canada.org/)) [2011-2013]
 - Nuestros primeros suscriptores de *Patreon* Rachel Murphy (nivel 'Suscriptor'), Miriam Posner (nivel 'Patrocinador') y Tim Hitchcock (nivel 'Mecenas'). En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas': Tim Hitchcock, Shawn Graham, Jeff Blackadar.
 - Los miembros de nuestro [Programa de Instituciones Asociadas](es/apoyanos#programa-de-instituciones-asociadas):
-  - [Bibliotecas de la Universidad Católica de Lovaina](https://bib.kuleuven.be/) (2020-Presente)
+  - [Bibliotecas de la Universidad Católica de Lovaina](https://bib.kuleuven.be/) [2020-Presente]
   - [Instituto de Investigación Histórica de la Biblioteca Wohl](https://www.history.ac.uk/library) [2020-Presente]
   - [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/) [2020-Presente]
 
