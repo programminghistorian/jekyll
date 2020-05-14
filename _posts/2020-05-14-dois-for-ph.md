@@ -19,7 +19,7 @@ Please use these DOIs when citing or linking to our lessons.
 
 ## How did we do that?
 
-You need to partner with a DOI provider such as CrossRef in order to register DOIs to point to your online publications. Sussex University has generously sponsored this service for us. Our editorial team also had to work thorugh how committing to DOIs would [affect our policies around updating, retiring, and replacing lessons](https://github.com/programminghistorian/jekyll/issues/1682).
+You need to partner with a DOI provider such as CrossRef in order to register DOIs to point to your online publications. Sussex University has generously sponsored this service for us. Our editorial team also had to work through how committing to DOIs would [affect our policies around updating, retiring, and replacing lessons](https://github.com/programminghistorian/jekyll/issues/1682).
 
 Once you have established that partnership and considered your editorial policies, you must then generate the metadata for all your publications. Although you can do this manually, we already have well over one hundred articles across all our publications. So instead, we took advantage of Jekyll's power to [generate an XML template](https://github.com/programminghistorian/jekyll/blob/4c5201ceb456deab677866886255bbd54500a9de/_layouts/crossref.xml) that would create the proper CrossRef XML data for each lesson. For example, our lesson ["Débuter avec Markdown"](https://doi.org/10.46430/phfr0007) authored by Sarah Simpkin and translated by Sofia Papastamkou, generates XML metadata that reads like this:
 
