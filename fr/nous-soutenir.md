@@ -27,7 +27,9 @@ Le projet est reconnaissant pour leur soutien à:
 - Le Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) pour le soutien de projet émergent et de gestion de projet [2011-2013].
 - Nos donateurs fondateurs [Patreon](https://www.patreon.com/theprogramminghistorian) Rachel Murphy (niveau "Abonné"), Miriam Posner (niveau "Parrain/Marraine") et Tim Hitchcock (niveau "Mécène"). Nous souhaitons remercier tout particulièrement les donateurs de niveau "Mécène" suivants: Tim Hitchcock, Shawn Graham, Jeff Blackadar.
 - Les membres de notre [programme de partenariat institutionnel](fr/nous-soutenir#partenariat-institutionnel):
-  - Les bibliothèques de la [KU Leuven](https://bib.kuleuven.be/) (2020-)
+  - Les bibliothèques de la [KU Leuven](https://bib.kuleuven.be/) [2020-actuellement]
+  - La [bibliothèque Wohl de l'Institut de recherche historique de la School of Advanced Study de l'université de Londres](https://www.history.ac.uk/library) [2020-actuellement]
+  - La [Bibliothèque de l'université du Sussex](https://www.sussex.ac.uk/library/) [2020-actuellement]
  
 ## Donations
 
