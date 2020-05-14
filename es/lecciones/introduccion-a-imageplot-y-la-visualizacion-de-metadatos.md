@@ -21,6 +21,7 @@ topics:
 abstract: |
   En esta lección se ofrece una introducción a ImagePlot, una herramienta para generar visualizaciones basadas en los datos de colecciones de imágenes o videos.
 avatar_alt: Grabado de un auto-oftalmoscopio
+doi: 10.46430/phes0046
 ---
 
 {% include toc.html %}
