@@ -380,6 +380,7 @@ Lessons Index
   #search-info.visible {
     display: block;
     height: fit-content;
+    height: -moz-max-content;
     padding: 10px;
     margin-top: 10px;
   }
@@ -500,7 +501,20 @@ Lessons Index
     display: none;
   }
 
-
+  #pre-loader {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    transition: opacity 0.3s linear;
+    background: rgba(211, 211, 211, 0.8);
+  }
 /* =============================================================================
 Top Navigation Bar
 ========================================================================== */

@@ -366,22 +366,30 @@ function wireButtons() {
   const dateSort = $('#date-sort-text').attr('label');
   const difficultySort = $('#difficulty-sort-text').attr("label");
 
-  // Look for URI query params
+  // // Look for URI query params
   const params = uri.search(true);
   let filter = params.activity ? params.activity : params.topic;
   let search = params.search;
 
   // If a filter or search is present in the URI, simulate a click to run filter
   // Clicking a filter button checks for sort params in URI, so don't do it twice OR load search data and simulate search click.
+  const preloader = $('#pre-loader');
+  
   if (search) {
+    // preloader.css('display', 'flex');
+    preloader.css('visibility', 'visible');
     $('#search').val(search);
-    loadSearchData().then(() => $('#search-button').click()).catch(e => console.log(e));
+    loadSearchData().then(() => {
+      preloader.fadeOut(1500);
+      $('#search-button').click();
+    }).catch(e => console.log(e));
   } else if (filter) {
     console.log("FILTER:" + filter);
     $("#filter-" + filter).click();
   }
   else {
     // Apply sorting criteria from the URI if no filter
+    // preloader.css('display', 'none');
     applySortFromURI(uri, featureList);
   }
 };
