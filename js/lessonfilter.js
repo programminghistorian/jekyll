@@ -252,6 +252,7 @@ function wireButtons() {
     }
   });
 
+  // Search info button clicked show additional information
   $('#search-info-button').click(function() {
     if ($("#search-info").hasClass("visible")) {
       $("#search-info").removeClass("visible");
@@ -376,7 +377,7 @@ function wireButtons() {
   const preloader = $('#pre-loader');
   
   if (search) {
-    // preloader.css('display', 'flex');
+    // If search is true, load pre-loading graph to allow search results time to load
     preloader.css('visibility', 'visible');
     $('#search').val(search);
     loadSearchData().then(() => {
@@ -389,7 +390,6 @@ function wireButtons() {
   }
   else {
     // Apply sorting criteria from the URI if no filter
-    // preloader.css('display', 'none');
     applySortFromURI(uri, featureList);
   }
 };
