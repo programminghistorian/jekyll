@@ -16,6 +16,7 @@ original: support-us
 ## Colaboradores
 El proyecto agradece el siguiente apoyo:
 
+- La infraestructura para la asignación de DOI está apoyada por la [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/) [2020-Presente]
 - El desarrollo web está respaldado por el [laboratorio dSHARP en la Universidad Carnegie Mellon](http://dsharp.library.cmu.edu) y la [Fundación Andrew W. Mellon](https://mellon.org) [2018-Presente]
 - Apoyo continuado de alojamiento web del [Centro para la Historia y los Nuevos Medios Roy Rosenzweig](http://chnm.gmu.edu/) [2011-Presente]
 - Financiación para apoyar el proyecto "Programming Historian: desarrollo y mantenimiento del impacto en el Sur Global", proporcionado por el [ESRC Impact Accelerator Account, Universidad de Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/) [2019]
@@ -25,7 +26,9 @@ El proyecto agradece el siguiente apoyo:
 - Fondos iniciales y soporte de administración de la Red en Historia y Medio Ambiente de Canadá ([NiCHE](http://niche-canada.org/)) [2011-2013]
 - Nuestros primeros suscriptores de *Patreon* Rachel Murphy (nivel 'Suscriptor'), Miriam Posner (nivel 'Patrocinador') y Tim Hitchcock (nivel 'Mecenas'). En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas': Tim Hitchcock, Shawn Graham, Jeff Blackadar.
 - Los miembros de nuestro [Programa de Instituciones Asociadas](es/apoyanos#programa-de-instituciones-asociadas):
-  - [Bibliotecas de la Universidad Católica de Lovaina](https://bib.kuleuven.be/) (2020-)
+  - [Bibliotecas de la Universidad Católica de Lovaina](https://bib.kuleuven.be/) (2020-Presente)
+  - [Instituto de Investigación Histórica de la Biblioteca Wohl](https://www.history.ac.uk/library) [2020-Presente]
+  - [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/) [2020-Presente]
 
 ## Donaciones
 Los patrocinadores individuales del _Programming Historian en Español_ son vitales para aumentar, mejorar y mantener nuestro trabajo. Aceptamos donativos únicos y recurrentes.  
@@ -43,7 +46,7 @@ Al unirte al Programa de Instituciones Asociadas recibirás los siguientes benef
 - Acceso al detalle de los gastos anuales de ProgHist Ltd.
 - Reconocimiento de tu contribución en nuestra página de Patrocinadores.
 - Derecho a usar la membresía a este programa en las actividades de promoción de tu institución.
-- Necesitas asesoría sobre cómo implementar una publicación de acceso abierto, flujos de trabajo para publicaciones multilingües o sobre cómo adaptar artículos de _Programming Historian_ para la realización de un taller? La membresía te da acceso a asesoría _ad hoc_ de parte de nuestro equipo experto (previa solicitud; no incluye consultoría formal). 
+- Necesitas asesoría sobre cómo implementar una publicación de acceso abierto, flujos de trabajo para publicaciones multilingües o sobre cómo adaptar artículos de _Programming Historian_ para la realización de un taller? La membresía te da acceso a asesoría _ad hoc_ de parte de nuestro equipo experto (previa solicitud; no incluye consultoría formal).
 - Para bibliotecas socias: lista de todos los artículos publicados por las distintas ediciones de The Programming Historian (previa solicitud).
 
 El costo de asociación para 2020 corresponde a £1000 libras esterlinas (aproximadamente $1300 dólares / €1180 euros). Las instituciones de [países elegibles para Ayuda Oficial al Desarrollo (AOD)](https://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/DAC_List_ODA_Recipients2018to2020_flows_En.pdf) pueden asociarse por £150 libras esterlinas (aproximadamente $195 dólares / €175 euros). Estos costos son anuales y su período de vigencia se inicia con la fecha del primer pago. En el mes de enero se publica la actualización de los costos para cada año.
