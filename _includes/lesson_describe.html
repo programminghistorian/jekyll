@@ -33,11 +33,11 @@ lesson-slug.html computes the correct lesson slug, and then this include determi
   <span class="topics">{{ lesson.topics | join: ' '}}</span>
   <span class="date">{% if lesson.translation_date %}{{ lesson.translation_date }}{% else %}{{ lesson.date }}{% endif %}</span>
   <span class="difficulty">{{ lesson.difficulty }}</span>
-  <span id="{{lesson.slug}}-content" class="content"
+  <span id="{{lesson.url}}-content" class="content"
     style="display: none;">{{ lesson.content | markdownify | strip_html }}</span>
-  <span id="{{lesson.slug}}-score" class="score"
+  <span id="{{lesson.url}}-score" class="score"
     style="display: none;">0</span>
-  <p id="{{lesson.slug}}-search_results" class="search_results"
+  <p id="{{lesson.url}}-search_results" class="search_results"
     style="display: none;"></p>
   
 

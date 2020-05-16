@@ -13,7 +13,6 @@
 {
   "id": {% increment counter %},
   "url": {{ page.url | absolute_url | jsonify }},
-  "slug": {{ page.slug | jsonify }},
   "title": {{ page.title  | jsonify }},
   "body": {{ search_block | strip_html | jsonify }}
 }{% if forloop.last %}{% else %},{% endif %}
