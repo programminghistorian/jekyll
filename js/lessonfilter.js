@@ -11,7 +11,6 @@ function applySortFromURI(uri, featureList) {
   /* Function to update lesson-list using featureList and sort direction
     - uses URI to generate sort directions
   */
-  console.log("applying sort from URI");
 
   const params = uri.search(true);
   let sortOrder = params.sortOrder;
@@ -49,7 +48,7 @@ function applySortFromURI(uri, featureList) {
     resetSort();
   }
 
-  // Performm new sort
+  // Perform new sort
   featureList.sort(sortType, { order: sortOrder });
 
   // Reset filter results header
@@ -83,7 +82,8 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
   // Create html to show search results using html mark
   let elements = []
   docs.map((doc) => {
-    let elementName = '/' + doc.url.split('/').slice(3).join('/')
+    // let elementName = doc.slug;
+    let elementName = '/' + doc.url.split('/').slice(3).join('/');
     let search_keys = Object.keys(doc.matchData.metadata);
     let inner_results = search_keys.map((token) => {
       let all_positions = doc.matchData.metadata[token].body.position;
@@ -102,7 +102,6 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
   const params = uri.search(true);
   let type = params.activity ? params.activity : params.topic;
   featureList.filter((item) => {
-    // console.log(item);
     let topicsArray = item.values().topics.split(/\s/);
     let condition = params.topic ? topicsArray.includes(type) : item.values().activity == type;
     // Could simply to just do Object.keys(params) > 1 here but in case we add more URI values this will explicitly check for filters along with search
