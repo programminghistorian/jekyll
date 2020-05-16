@@ -372,6 +372,17 @@ type-search-terms:
   es: ESCRIBE LOS TÉRMINOS DE BÚSQUEDA...
   fr: ENTRER UN OU PLUSIEURS TERMES DE RECHERCHE...
   pt:
+search-info:
+  en: | 
+    To search for relevant terms, enter them into the search bar and either press the enter key or the search button. All searches are case insensitive. If multiple terms are entered, results will include lessons that have all terms, as well as lessons that contain *either term*. Results with more of the terms will be scored higher in the list.
+    
+    To only return results with multiple terms, add the `+` symbol before the term. For example, `+Twitter +Network` will return lessons that contain *both* "twitter" and "network". To only return results that *do not* contain a term use the `-` symbol. For example, `-Twitter +Network` will return lessons that contain "network" but not "twitter". For more detailed information, visit this guide on searching[https://lunrjs.com/guides/searching.html](https://lunrjs.com/guides/searching.html).
+  es: | 
+
+  fr: |
+
+  pt: |
+    
 
 # lesson headers
 editor:

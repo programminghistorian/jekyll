@@ -18,9 +18,6 @@ function applySortFromURI(uri, featureList) {
   let nonSortOrder = (sortOrder == "desc" ? "asc" : "desc");
 
   if (sortType) {
-    console.log("SortType: " + sortType);
-    console.log("sortOrder: " + sortOrder);
-    console.log("nonSortOrder: " + nonSortOrder);
 
     // Update arrow of selected sort button
     $("#sort-by-" + sortType).removeClass().addClass("sort " + sortOrder + " my-" + nonSortOrder);
@@ -40,7 +37,6 @@ function applySortFromURI(uri, featureList) {
   }
   else {
     // If no sort params, perform default sort
-    console.log("default sorting");
     sortType = "date";
     sortOrder = "desc";
 
@@ -159,7 +155,6 @@ function wireButtons() {
 
   // set URI object to current Window location
   let uri = new URI(location);
-  console.log(uri.toString());
 
   let options = {
     valueNames: ['date', 'title', 'difficulty', 'activity', 'topics', 'abstract', 'content', 'score']
@@ -219,7 +214,6 @@ function wireButtons() {
       uri.removeSearch('sortOrder');
       uri.removeSearch('sortType');
       history.pushState(stateObj, "", uri.toString());
-      console.log(uri.toString());
       // Call lunr search
       lunrSearch(searchString, idx, corpus, featureList, uri, stateObj);
       
@@ -229,7 +223,6 @@ function wireButtons() {
       // Call reset search to empty out search values and update URI
       uri.removeSearch('search');
       history.pushState(stateObj, "", uri.toString());
-      console.log(uri.toString());
       resetSearch();
       const params = uri.search(true);
       let type = params.activity ? params.activity : params.topic;
@@ -288,7 +281,6 @@ function wireButtons() {
 
     // returns the URI instance for chaining
     history.pushState(stateObj, "", uri.toString());
-    console.log(uri.toString());
     // Use search to perform filtering
     $("#search-button").click();
 
@@ -335,9 +327,6 @@ function wireButtons() {
     let curSortOrder = $(this).hasClass("my-asc") ? "desc" : "asc";
     let newSortOrder = (curSortOrder == "asc" ? "desc" : "asc");
 
-    console.log("curSort:" + curSortOrder);
-    console.log("newSort:" + newSortOrder);
-
     // update class for clicked button
     $(this).removeClass("my-" + newSortOrder).addClass("my-" + curSortOrder);
     // Update filter results header to show current sorting (date or difficulty)
@@ -363,7 +352,6 @@ function wireButtons() {
     uri.setSearch("sortType", sortType);
     uri.setSearch("sortOrder", newSortOrder);
     history.pushState(stateObj, "", uri.toString());
-    console.log(uri.toString());
   });
 
   /***************************************
@@ -391,9 +379,8 @@ function wireButtons() {
     loadSearchData().then(() => {
       preloader.fadeOut(1500);
       $('#search-button').click();
-    }).catch(e => console.log(e));
+    });
   } else if (filter) {
-    console.log("FILTER:" + filter);
     $("#filter-" + filter).click();
   }
   else {
