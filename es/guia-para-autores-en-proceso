@@ -1,5 +1,5 @@
 ---
-title: Guía para autores y traducotres
+title: Guía para autores y traductores
 layout: blank
 redirect_from:
  - /new-lesson-workflow
@@ -56,38 +56,38 @@ Esta primera sección se ocupa de cuestiones de estilo generales que te ayudará
 ### Código abierto, acceso abierto
 *Programming Historian* está comprometido con los valores del código abierto. Todas las lecciones deben usar lenguajes de programación y software de código abierto siempre que sea posible. Esta política tiene por objeto reducir al mínimo los costos para todas las partes y permitir el mayor nivel de participación posible.
 
-Upon acceptance, you agree to publish your lesson under a Creative Commons "[CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en)" license.
+Una vez aceptada la lección, usted acepta publicar su lección bajo una licenicia Creative Commons"[CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es)".
 
-### Write for a Global Audience
-*Programming Historian* readers live all around the world. Authors can and should take steps to write their lesson accessibly for as many people as possible. Follow these global-facing guidelines:
+### Escriba para una audiencia global
+Los lectores de *Programming Historian* viven en todo el mundo. Los autores pueden y deben tomar medidas para escribir su lección de forma accesible para el mayor número de personas posible. Siga estas directrices de cara a una audiencia global:
 
-*	Write for someone who doesn't live in your country or share your beliefs.
+*	Escriba para alguien que no viva en su país o que no comparta sus creencias.
 
-*	**Technical Terms:** should always be linked to [Wikipedia](https://www.wikipedia.org/) or a suitably reliable dictionary or sustainable website in the first instance. A technical term is any word that a person on the street may not know or understand.
-*	**Cultural References**: mentions of persons, organisations, or historical details should always come with contextual information. Assume no prior knowledge, even of widely known cultural references (eg, [the Beatles](https://en.wikipedia.org/wiki/The_Beatles)). Use generic terms rather than trademarks (tissue rather than Kleenex). Links to [Wikipedia](https://www.wikipedia.org/) should be used liberally. Be aware that historical events often have different names in different countries.
-*	**Idioms**: Avoid jokes, puns, plays on words, idiomatic expressions, sarcasm, emojis, jargon, terms unique to your dialect, or language that is more difficult than it needs to be.
-*	**Geography**: when referencing places, be specific. Does "south-west" mean Valencia? Canada? Africa? Always write out the full name of the area the first time you use it.
-*	**Multi-lingual**: when choosing methods or tools, make choices with multi-lingual readers in mind – especially for textual analysis methods, which may not support other character sets or may only provide intellectually robust results when used on English texts. Where possible, choose approaches that have multi-lingual documentation, or provide multi-lingual references for further reading. This will help our translators.
-*	**Racial and Ethnic Language**: use racial terminology carefully and with specificity. Historic terms no longer in use should be used only in their historical context and only when necessary. Use racial terms as adjectives and not nouns: white people rather than "whites", an Asian woman rather than "an Asian". Be aware that terms may be understood differently in different countries and what you have learned to be correct or sensitive may be culturally specific to your country (eg, not all people with African ancestry are "African Americans". Some of them are African, or black British, or Caribbean, etc). Likewise, readers in the UK will understand "Asian" (India, Pakistan, Bangladesh) differently than those in North America (eg China, Japan, Vietnam, Thailand).
-*	**Visual Representations**: choose primary sources, images, figures, and screen shots, considering how they will present themselves to a global audience.
+*	**Términos técnicos:** siempre deben estar vinculados a [Wikipedia](https://es.wikipedia.org/) o a un diccionario fiable o a un sitio web sostenible en primera instancia. Un término técnico es cualquier palabra que una persona en la calle puede no conocer o entender.
+*	**Referencias culturales**: las menciones A personas, organizaciones o detalles históricos deben acompañarse siempre con información contextual. No hay que suponer ningún conocimiento previo, incluso de referencias culturales ampliamente conocidas (por ejemplo, [the Beatles](https://en.wikipedia.org/wiki/The_Beatles)). Use términos genéricos en lugar de marcas comerciales (pañuelo en lugar de Kleenex) Los enlaces a [Wikipedia](https://es.wikipedia.org/) deben ser usados libremente. 
+*	**Modismos**: Evite bromas, juegos de palabras, expresiones idiomáticas, sarcasmo, emojis, jerga, términos exclusivos de su dialecto, o lenguaje que sea más difícil de lo necesario.
+*	**Geografía**: cuando haga referencia a los lugares, sea específico. ¿"Sudoeste" significa Valencia? ¿Canadá? ¿Africa? Escriba siempre el nombre completo del área la primera vez que la use.
+*	**Multi-idioma**: al elegir los métodos o instrumentos, haga sus elecciones teniendo en cuenta a los lectores multilingües, especialmente en el caso de los métodos de análisis textual, que pueden no ser compatibles con otros conjuntos de caracteres o que sólo pueden proporcionar resultados intelectualmente sólidos cuando se utilizan en textos en inglés. Cuando sea posible, elija enfoques que tengan documentación multilingüe, o proporcione referencias multilingües para su lectura posterior. Esto ayudará a nuestros traductores.
+*	**Lenguaje racial y étnico**: use la terminología racial cuidadosamente y con especificidad. Los términos históricos que ya no se utilizan deben usarse sólo en su contexto histórico y sólo cuando sea necesario. Usar los términos raciales como adjetivos y no como sustantivos: personas blancas en lugar de "blancos", una mujer asiática en lugar de "un asiático". Tenga en cuenta que los términos pueden entenderse de manera diferente en los distintos países y que lo que ha aprendido a ser correcto o sensible puede ser culturalmente específico de su país (por ejemplo, no todas las personas de ascendencia africana son "afroamericanos". Algunos de ellos son africanos, o negros británicos, o caribeños, etc.). Asimismo, los lectores del Reino Unido entenderán el término "asiático" (India, Pakistán, Bangladesh) de manera diferente a los de América del Norte (por ejemplo, China, Japón, Vietnam, Tailandia).
+*	**Representaciones visualess**: elija las fuentes primarias, imágenes, figuras y capturas de pantalla, teniendo en cuenta cómo se presentarán a una audiencia global.
 
-### Sustainable Writing
-*Programming Historian* publishes lessons for the long-term. Please follow these sustainability guidelines when writing:
+### Escritura sostenible
+*Programming Historian* publica lecciones para el largo plazo. Por favor, siga estas directrices de sostenibilidad cuando escriba:
 
- *	**As General as Possible, but No More**: focus on methodologies and generalities, not software/interface specifics (eg avoid telling users to "click the X button", which may be different in future versions).
- *	**Reduce Reliance on Unsustainable Elements**: use screenshots sparingly and with purpose. Interfaces change frequently and future readers may be confused. Chose external links with the future in mind. Does the site you are linking to change often? Will it exist in ten years?
- *	**Specify Versions if they are Important**: be clear about any version-specific details readers will need to know in order to follow your lesson. Eg, do you need Python v.2, or will any version be fine?
- *	**Point to Documentation**: direct readers to reliable documentation where possible. Provide general guidance on how to find the documentation if new versions are probable in future.
- *	**Copies of Data**: all data used in lessons must be published with the lesson on *Programming Historian* servers along with your lesson. You must ensure you have the legal right to publish a copy of any data that you use. Data files should use open formats.
+ *	**Tan general como sea posible, pero no más**: concéntrese en las metodologías y generalidades, no en los programas informáticos/interfaces específicos (por ejemplo, evite decir a los usuarios que "hagan clic en el botón X", que puede ser diferente en versiones futuras).
+ * **Reducir la dependencia de elementos insostenibles**: utilice capturas de pantalla con moderación y con un propósito. Las interfaces cambian con frecuencia y los futuros lectores pueden confundirse. Elija los enlaces externos teniendo en cuenta el futuro. ¿Cambia a menudo el sitio al que se enlaza? ¿Existirá dentro de diez años?
+ * **Especifique las versiones si son importantes**: sea claro acerca de los detalles específicos de las versiones que los lectores necesitarán saber para poder seguir su lección. Por ejemplo, ¿necesita Python v.2, o cualquier versión estará bien?
+ * **Refiera a la documentación**: dirija a los lectores a una documentación fiable cuando sea posible. Proporcione una guía general sobre cómo encontrar la documentación si es probable que haya nuevas versiones en el futuro.
+ * **Copias de datos**: todos los datos utilizados en las lecciones deben ser publicados con la lección en los servidores de *Programming Historian* junto con su lección. Asegúrese de tener el derecho legal de publicar una copia de cualquier dato utilizado. Los archivos de datos deben utilizar formatos abiertos.
 
-Authors should consult our [lesson retirement policy]({{site.baseurl}}/en/lesson-retirement-policy) for information on how the editorial team manages lessons that have become out-of-date.
+Los autores deben consultar nuestra [política de retirada de lecciones]({{site.baseurl}}/es/politica-retirada-lecciones) para información sobre cómo el equipo editorial maneja las lecciones que se han vuelto obsoletas.
 
-## B. Specific Writing Guidelines
-This second section covers more specific matters of writing style, such as which words to use, or how we use punctuation, or what format to use for dates or numbers. Read this section before and after writing your draft.
+## B. Pautas específicas de escritura
+En esta segunda sección se tratan cuestiones más específicas del estilo de escritura, como qué palabras utilizar, o cómo usar la puntuación, o qué formato utilizar para las fechas o los números. Lea esta sección antes y después de escribir su borrador.
 
-### Dates and Time
- *	For centuries, use eighteenth century not 18th century. Avoid national-centric phrases such as "long eighteenth century" which have specific meaning to British eighteenth century specialists, but not to anyone else.
- *	For decades, write the 1950s (not "the 1950s" or "the fifties").
+### Fechas y hora
+ *	Para siglos utilice siglo dieciocho y no siglo XVIII. Evite frases centradas en lo nacional, como "largo siglo XVIII", que tienen un significado específico para los especialistas británicos del siglo XVIII, pero para nadie más.
+ *	Para décadas escriba For decades, write the 1950s (not "the 1950s" or "the fifties").
  *	Compress date sequences as follows; 1816-17, 1856-9, 1854-64.
  *	For dates written in numeric form, use the format YYYY-MM-DD, which conforms to the standard ISO 8601:2004. This avoids ambiguity.
  *	Use BCE/CE not BC/AD for dates (eg 325BCE).
