@@ -77,7 +77,7 @@ Los lectores de *Programming Historian* viven en todo el mundo. Los autores pued
  *	**Tan general como sea posible, pero no más**: concéntrese en las metodologías y generalidades, no en los programas informáticos/interfaces específicos (por ejemplo, evite decir a los usuarios que "hagan clic en el botón X", que puede ser diferente en versiones futuras).
  * **Reducir la dependencia de elementos insostenibles**: utilice capturas de pantalla con moderación y con un propósito. Las interfaces cambian con frecuencia y los futuros lectores pueden confundirse. Elija los enlaces externos teniendo en cuenta el futuro. ¿Cambia a menudo el sitio al que se enlaza? ¿Existirá dentro de diez años?
  * **Especifique las versiones si son importantes**: sea claro acerca de los detalles específicos de las versiones que los lectores necesitarán saber para poder seguir su lección. Por ejemplo, ¿necesita Python v.2, o cualquier versión estará bien?
- * **Refiera a la documentación**: dirija a los lectores a una documentación fiable cuando sea posible. Proporcione una guía general sobre cómo encontrar la documentación si es probable que haya nuevas versiones en el futuro.
+ * **Refiérase a la documentación**: dirija a los lectores a una documentación fiable cuando sea posible. Proporcione una guía general sobre cómo encontrar la documentación si es probable que haya nuevas versiones en el futuro.
  * **Copias de datos**: todos los datos utilizados en las lecciones deben ser publicados con la lección en los servidores de *Programming Historian* junto con su lección. Asegúrese de tener el derecho legal de publicar una copia de cualquier dato utilizado. Los archivos de datos deben utilizar formatos abiertos.
 
 Los autores deben consultar nuestra [política de retirada de lecciones]({{site.baseurl}}/es/politica-retirada-lecciones) para información sobre cómo el equipo editorial maneja las lecciones que se han vuelto obsoletas.
@@ -90,10 +90,10 @@ En esta segunda sección se tratan cuestiones más específicas del estilo de es
  *	Para décadas escriba "los años cincuenta" o "los cincuenta" (no "los años 50's" o "la década de los 50s").
  *	Comprima las secuencias de fecha así; 1816-17, 1856-9, 1854-64.
  *	Para fechas escritas en forma numérica utilice el formato DD-MM-AA, which conforms to the standard ISO 8601:2004. This avoids ambiguity.
- *	Use BCE/CE not BC/AD for dates (eg 325BCE).
- *	1am, 6:30pm. Not 10 o’clock.
+ *	Utilice BCE/CE not BC/AD for dates (eg 325BCE). [Asi aparece en la RAE: a. de J. C., a. de C., a. J. C. o a. C. (‘antes de (Jesu)Cristo’) y d. de J. C., d. de C., d. J. C. o d. C. (‘después de (Jesu)Cristo’): 211 a. C., 123 d. C. ]
+ *	1am, 6:30pm. Not 10 o’clock. [Algunos lineamientos de la RAE: La hora puede expresarse en letras o en números. El modelo de doce horas es el más utilizado cuando la hora se escribe con letras, y el más común en textos literarios y periodísticos. También puede usarse este sistema si se opta por escribir la hora con cifras; pero, en ese caso, : No es recomendable mezclar letras y números; así, es preferible escribir las diez de la noche que las 10 de la noche. para evitar ambigüedades, deben emplearse, tras los números, las abreviaturas a. m. y p.m.]
 
-### Numbers
+### Números [revisar lineamientos de la RAE y de autoridades de la lengua en Latinoamerica]
  *	Spell out from one to nine; integers above 10.
  *	Use a consistent format if the boundary outlined above is crossed within a single sentence (five apples and one hundred oranges; 5 apples and 110 oranges).
  *	Use commas (not periods/full stops) between groups of three digits in large numbers (32,904 not 32904). Exceptions: page numbers, addresses, in quotation, etc.
@@ -102,24 +102,25 @@ En esta segunda sección se tratan cuestiones más específicas del estilo de es
  *	Use [LaTeX formatting for mathematical formulae](https://davidhamann.de/2017/06/12/latex-cheat-sheet/).
  *	For units of measure, use metric or imperial but be consistent.
 
-### Headings
-Headings should not contain inline code font or style formatting such as bold, italic, or code font.
-Headings should always immediately precede body text. Do not follow a heading with an admonition or another heading without some form of introductory or descriptive text.
+### Encabezados
+Los encabezados no deben contener un código de fuente o un formato de estilo como negrita, cursiva o código de fuente.
+Los encabezados siempre deben preceder inmediatamente al texto del cuerpo. No ponga después de un encabezado ¿una amonestación? u otro encabezamiento sin alguna forma de texto introductorio o descriptivo.
 
-### Lists
-Typically, we use numbered lists and bulleted lists. List items are sentence-capped. List items should be treated as separate items and should not be strung together with punctuation or conjunctions.
 
-NOT style:
+### Listas
+Típicamente, usamos listas numeradas y listas con viñetas. Los elementos de la lista comienzan con mayúscula. Los elementos de la lista deben ser tratados como elementos separados y no deben ser encadenados con puntuación o conjunciones. 
 
-* Here is an item, and
-* here is another item; and
-* here is the final item.
+NO tiene estilo:
 
-Style:
+* Acá hay un ítem y
+* acá hay otro ítem; y
+* acá hay un ítem final.
 
-* Here is an item
-* Here is another item
-* Here is the final item
+Estilo:
+
+* Acá hay un ítem
+* Acá hay otro ítem
+* Acá está el último ítem
 
 Or:
 
@@ -127,10 +128,10 @@ Or:
 2. Here is another item
 3. Here is the final item
 
-### Punctuation
- *	**Abbreviation**: spell out all words on first mention. European Union (EU) and then EU. Do not use full points / periods or spaces between initials: BBC, PhD, mph, 4am, etc.
- *	**Ampersand**: generally speaking, do not use an ampersand in place of the word "and" unless referring to a company or publication that uses it: P&O, *Past & Present*.
- *	**Apostrophe**: use the possessive 's after singular words or names that end in s – St James's, Jones's, mistress's; use it after plurals that do not end in s: children's, people’s, media's.
+### Puntuación
+ *	**Abreviaturas**: [revisar lineamientos de la RAE: https://www.rae.es/dpd/abreviatura] spell out all words on first mention. European Union (EU) and then EU. Do not use full points / periods or spaces between initials: BBC, PhD, mph, 4am, etc.
+ *	??? **Ampersand**: generally speaking, do not use an ampersand in place of the word "and" unless referring to a company or publication that uses it: P&O, *Past & Present*.
+ *	**Apóstrofe**: [No recuerdo que en español lo usemos--quitar] use the possessive 's after singular words or names that end in s – St James's, Jones's, mistress's; use it after plurals that do not end in s: children's, people’s, media's.
  *	**Brackets / Parentheses**: it is better to use commas or dashes. Use round brackets to introduce explanatory material into a direct quote, eg: He said: "When finished it (the tunnel) will revolutionise travel" or "She said adiós (goodbye)". Place a full stop / period outside a closing bracket if the material inside is not a sentence (like this). (But an independent sentence takes the full stop before the closing bracket.)
  *	**Colon**: use to introduce lists, tabulations, texts, as in:
     *	The committee recommends: extending licensing hours to midnight; allowing children on licensed premises; relaxing planning controls on new public houses.
