@@ -15,8 +15,8 @@ Produce CrossRef XML data for each of our journals and their articles
     <doi_batch_id>{{ site.time | date: "%s" }}-{{ page.lang }}</doi_batch_id>
     <timestamp>{{ site.time | date: "%s" }}</timestamp>
     <depositor>
-      <depositor_name>Sample Master</depositor_name>
-      <email_address>support@crossref.org</email_address>
+      <depositor_name>University of Sussex Library</depositor_name>
+      <email_address>library.cataloguing@sussex.ac.uk</email_address>
     </depositor>
     <registrant>Crossref</registrant>
   </head>
