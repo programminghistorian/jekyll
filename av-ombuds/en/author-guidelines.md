@@ -1,8 +1,10 @@
 ---
 title: Author Guidelines
 layout: blank
+redirect_from:
+ - /new-lesson-workflow
+ - /author-guidelines
 skip_validation: true
-original: author-guidelines
 ---
 
 # Author Guidelines
@@ -10,7 +12,7 @@ original: author-guidelines
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
 <h2 class="noclear">Step 1: <a href="#step-1-proposing-a-new-lesson">Proposing a New Lesson</a></h2>
 <h2 class="noclear">Step 2: <a href="#step-2-writing-a-new-lesson">Writing and Formatting a New Lesson</a></h2>
-<h2 class="noclear">Step 3: <a href="#step-3-submitting-a-new-lesson">Submitting a New Lesson</a></h2>
+<h2 class="noclear">Step 3: <a href="#step-3-submitting-a-new-lesson">Submitting a New Lesson</a></h2>  
 
 
 These guidelines have been developed to help you understand the process of creating a tutorial for the English *Programming Historian*. They include practical and philosophical details of the tutorial writing process, as well as an indication of the workflow and the peer review process. If at any time you are unclear, please email the managing editor, {% include managing-editor.html lang=page.lang %}.
@@ -331,8 +333,8 @@ Raising a concern will NOT negatively affect the outcome of your peer review - e
 To raise a concern, please contact one of the following parties, chosing whomever you feel most comfortable approaching.
 
 * Your assigned editor
-* The managing editor
-* Our independent ombudsperson, [Amanda Visconti](/project-team)
+* The managing editor  
+* Our ombudsperson (TBD)
 
 We hope you don't find yourself in a situation in which you are unhappy, but if you do, we thank you for helping us to improve.
 

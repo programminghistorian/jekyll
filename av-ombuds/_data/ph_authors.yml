@@ -575,8 +575,9 @@
 
 - name: Amanda Visconti
   github: amandavisconti
-  team: true
+  team: false
   team_start: 2016
+  team_end: 2020
   institution: University of Virginia
   sortname: Visconti
   affiliation:
