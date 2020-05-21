@@ -171,7 +171,7 @@ def wrapStringInHTMLMac(program, url, body):
 
     now = datetime.datetime.today().strftime("%Y%m%d-%H%M%S")
     filename = program + '.html'
-    f = open(filename,'wb')
+    f = open(filename,'w')
 
     wrapper = """<html>
     <head>
