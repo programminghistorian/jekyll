@@ -167,6 +167,7 @@ version as well to make sure that your program does what ours does.
 ``` python
 # obo.py
 def stripTags(pageContents):
+    pageContents = str(pageContents)
     startLoc = pageContents.find("<p>")
     endLoc = pageContents.rfind("<br/>")
 
