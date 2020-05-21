@@ -57,7 +57,7 @@ The most immediately important step is that your editor will create an [issue](h
 ### Wait for Reviewer Feedback
 We aim to complete the review process within four weeks, but sometimes delays occur or people get busy and the process can take longer than we hoped.
 
-In keeping with the ideas of public scholarship and open peer review, we encourage discussions to stay on GitHub. However, we also want everyone to feel comfortable with the process. If you need to discuss something privately, please feel free to [email your editor directly](/project-team), or to contact one of our dedicated ombudsperson, [Amanda Visconti](/project-team).
+In keeping with the ideas of public scholarship and open peer review, we encourage discussions to stay on GitHub. However, we also want everyone to feel comfortable with the process. If you need to discuss something privately, please feel free to [email your editor directly](/project-team), or to contact one of our dedicated ombudsperson (TBD).
 
 ### Respond to Feedback
 Your editor and reviewers will most likely make some suggestions for improvements on the "issue" for your translation. The editor should clarify which suggestions are essential to address, which are optional, and which can be set aside.
