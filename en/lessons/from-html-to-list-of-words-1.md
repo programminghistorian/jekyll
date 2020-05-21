@@ -168,6 +168,7 @@ copy the following code into your file.
 # obo.py
 
 def stripTags(pageContents):
+    pageContents = str(pageContents)
     startLoc = pageContents.find("<p>")
     endLoc = pageContents.rfind("<br/>")
 
@@ -186,7 +187,7 @@ import urllib.request, urllib.error, urllib.parse, obo
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 response = urllib.request.urlopen(url)
-HTML = str(response.read())
+HTML = response.read()
 
 print((obo.stripTags(HTML)))
 
