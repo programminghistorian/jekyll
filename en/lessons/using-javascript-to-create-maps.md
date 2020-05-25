@@ -19,6 +19,7 @@ abstract: |
   Demonstrates how to use the JavaScript library "Leaflet" to produce an interactive map that can be hosted online or viewed locally, and demonstrates how to customize many of its features.
 redirect_from: /lessons/using-javascript-to-create-maps
 avatar_alt: A woman throwing letters near a mailbox
+doi: 10.46430/phen0071
 ---
 
 {% include toc.html %}

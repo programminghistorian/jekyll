@@ -18,6 +18,7 @@ activity: analyzing
 topics: [mapping]
 abstract: "In this lesson, you will use R-language to analyze and map geospatial data."
 avatar_alt: An aerial view of city blocks
+doi: 10.46430/phen0075
 ---
 
 {% include toc.html %}

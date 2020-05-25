@@ -27,9 +27,10 @@ redirect_from: /es/lessons/code-reuse-and-modularity
 difficulty: 2
 activity: transforming
 topics: [python]
-abstract: "Los programas de computadora pueden resultar largos, inmanejables y confusos si no contamos con mecanismos especiales para la gestión de su complejidad. Esta lección te mostrará la manera de reutilizar partes de su código mediante la escritura de Funciones y cómo fraccionar tus programas en Módulos con el fin de mantener todo de una manera concisa y fácil de depurar." 
+abstract: "Los programas de computadora pueden resultar largos, inmanejables y confusos si no contamos con mecanismos especiales para la gestión de su complejidad. Esta lección te mostrará la manera de reutilizar partes de su código mediante la escritura de Funciones y cómo fraccionar tus programas en Módulos con el fin de mantener todo de una manera concisa y fácil de depurar."
 python_warning: true
-avatar_alt: Caricatura de tres hombres. 
+avatar_alt: Caricatura de tres hombres.
+doi: 10.46430/phes0024
 ---
 
 {% include toc.html %}

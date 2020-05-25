@@ -27,6 +27,7 @@ redirect_from: /es/lessons/transforming-xml-with-xsl
 layout: lesson
 abstract: "Con este tutorial aprenderás a convertir un conjunto de datos históricos procedentes de una base de datos XML (ya sea un solo documento o varios documentos interconectados) en otros formatos más adecuados para presentar (tablas, listas) o exponer información (párrafos)."
 avatar_alt: Dibujo de un pavo real con sus plumas extendidas.
+doi: 10.46430/phes0041
 ---
 
 {% include toc.html %}
@@ -272,15 +273,15 @@ En resumen, el archivo resultante debiera ser:
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="text"/>
-    
+
     <xsl:template match="/">
-    
+
         <xsl:for-each select="raíz/registro">
                 <xsl:value-of select="título"/>
         </xsl:for-each>
-    
+
     </xsl:template>
-    
+
     </xsl:stylesheet>
 
 Ahora la instrucción *template* tiene tres líneas de código:
@@ -384,11 +385,11 @@ Existen muchas más instrucciones con las que transformar documentos XML a otros
     <xsl:template match="/">
         <html>
             <body>
-    
+
                 <xsl:for-each select="raíz/registro">
-    
+
                     <xsl:if test="secciónPalabrasClave/palabraClave = 'slave insurrections'">
-    
+
                         <h2>
                             <i><xsl:value-of select="título"/></i>, <xsl:value-of select="substring(fecha/@cuándo, 9, 2)"/>
                             <xsl:text>&#32;</xsl:text>
@@ -408,17 +409,17 @@ Existen muchas más instrucciones con las que transformar documentos XML a otros
                             <xsl:value-of select="substring(fecha/@cuándo, 1, 4)"/>
                             <xsl:text>&#xA;&#xA;</xsl:text>
                         </h2>
-    
+
                         <xsl:for-each select="texto/p">
                             <p>
                                 <xsl:value-of select="."/>
                             </p>
                         </xsl:for-each>
-    
+
                     </xsl:if>
-    
+
                 </xsl:for-each>
-    
+
             </body>
         </html>
     </xsl:template>

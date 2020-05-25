@@ -23,6 +23,10 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Fred Gibbs,‘[Editorial Sustainability and Open Peer Review at Programming Historian]’, *DH Commons*, Vol. 1 (2015).
 * Shawn Graham, Ian Milligan, and Scott Weingart, [_Exploring Big Historical Data: The Historian's Macroscope_](http://www.themacroscope.org/2.0/), (Imperial College Press, 2015).
 
+### Reportes
+
+* Penny Andrews and the Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](http://doi.org/10.5281/zenodo.3813763) (2020).
+
 ### Talleres y eventos
 
 * Adam Crymble, 'Python for Humanists', University of London, United Kingdom (31 de octubre 2019).
@@ -39,7 +43,7 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 * Adam Crymble, 'Python Programming for Humanists', _Day of Digital Ideas_, University of Edinburgh (26 de mayo, 2015).
 
 ### Carteles, conferencias y presentaciones
-* Sofia Papastamkou, Antonio Rojas Castro & Anna-Maria Sichani, '[Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French Speaking DH Communities](https://dev.clariah.nl/files/dh2019/boa/1207.html)', Digital Humanities Conference 2019, Utrecht, 
+* Sofia Papastamkou, Antonio Rojas Castro & Anna-Maria Sichani, '[Designing Multilingual Digital Pedagogy Initiatives: The Programming Historian for English, Spanish, and French Speaking DH Communities](https://dev.clariah.nl/files/dh2019/boa/1207.html)', Digital Humanities Conference 2019, Utrecht,
 Países Bajos, 9-12 julio, 2019.
 * Jennifer Isasi, Antonio Rojas y Anna-Maria Sichani, 'Data science and the language question in digital humanities pedagogy: the example of the Programming Historian', *EADH 2018*, National University of Ireland, Galway (9 diciembre 2018).
 * Maria José Afanador, 'The Programming Historian en español: estrategias y retos para la construcción de una comunidad global de humanidades digitales', Ponencia presentada en la Conferencia de Humanidades Digitales *DH2018*, Ciudad de México, México, (2018, junio).

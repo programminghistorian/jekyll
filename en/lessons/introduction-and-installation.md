@@ -22,6 +22,7 @@ will focus on installing the relevant software – all free and reputable
 programming that provides immediate results."
 redirect_from: /lessons/introduction-and-installation
 avatar_alt: A curled-up snake
+doi: 10.46430/phen0009
 ---
 
 {% include toc.html %}

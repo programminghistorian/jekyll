@@ -28,7 +28,8 @@ difficulty: 2
 activity: presenting
 topics: [python]
 abstract: "Esta lección se basa en 'Palabras clave en contexto (usando n-grams)', en la que se extrajeron n-gramas de un texto. Aquí aprenderás cómo generar una salidad de todos los n-gramas de una palabra clave dada en un documento descargado de Internet, y visualizarlos claramente en la ventana de tu navegador."
-avatar_alt: Grabado de un león, un oso y un mono caminando. 
+avatar_alt: Grabado de un león, un oso y un mono caminando.
+doi: 10.46430/phes0026
 ---
 
 {% include toc.html %}
@@ -121,7 +122,7 @@ Prueba volver a ejecutar el programa `obten-palabraClave.py` y ahora podrás ver
                           i saw a black at first but
                      swear to any black yes there is
                        swear to a black than to a
-                                  ... 
+                                  ...
 
 Esta técnica no es la mejor manera de formatear texto desde la perspectiva de un diseñador de páginas Web. Si tienes experiencia con HTML te animamos a que utilices otro método que permita crear un archivo HTML compatible con los estándares, pero para los nuevos estudiantes, simplemente no podemos resistirnos a la facilidad de la técnica que vamos a describir. Después de todo, el objetivo es integrar los principios de programación rápidamente en nuestra investigación.
 

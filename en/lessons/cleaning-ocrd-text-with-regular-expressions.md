@@ -16,6 +16,7 @@ exclude_from_check:
   - review-ticket
 redirect_from: /lessons/cleaning-ocrd-text-with-regular-expressions
 avatar_alt: A typesetter and inker at work on a printing press
+doi: 10.46430/phen0024
 ---
 
 {% include toc.html %}

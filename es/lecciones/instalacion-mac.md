@@ -27,6 +27,7 @@ difficulty: 1
 activity: transforming
 topics: [get-ready, python]
 abstract: "Este tutorial te ayudará a configurar un entorno de desarrollo integrado para Python en un computador con el sistema operativo de Apple."
+doi: 10.46430/phes0010
 ---
 
 {% include toc.html %}
@@ -106,7 +107,7 @@ Puedes ejecutar un *shell* de Python iniciando Terminal. En la Mac, abre el Find
 ```python
 print('Hola Mundo')
 ```
- 
+
 Oprime la tecla Enter. La computadora responderá con:
 
 ```python

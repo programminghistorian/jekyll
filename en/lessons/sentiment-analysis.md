@@ -19,6 +19,7 @@ topics: [distant-reading]
 abstract: "In this lesson you will learn to conduct 'sentiment analysis' on texts and to interpret the results. This is a form of exploratory data analysis based on natural language processing. You will learn to install all appropriate software and to build a reusable program that can be applied to your own texts."
 redirect_from: /lessons/sentiment-analysis
 avatar_alt: A laughing man and a grouchy man
+doi: 10.46430/phen0079
 ---
 
 {% include toc.html %}

@@ -21,6 +21,7 @@ previous: normalizing-data
 python_warning: false
 redirect_from: /lessons/counting-frequencies
 avatar_alt: Disgruntled man sitting on a log surrounded by birds
+doi: 10.46430/phen0003
 ---
 
 {% include toc.html %}

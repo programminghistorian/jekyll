@@ -27,6 +27,7 @@ activity: analyzing
 topics: [network-analysis]
 abstract: "Aprende a utilizar R para analizar cómo cambian las redes a lo largo del tiempo."
 avatar_alt: Dibujo técnico
+doi: 10.46430/phes0042
 ---
 
 {% include toc.html %}

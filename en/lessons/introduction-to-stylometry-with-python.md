@@ -20,6 +20,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/147
 abstract: "In this lesson you will learn to conduct 'stylometric analysis' on texts and determine authorship of disputed texts. The lesson covers three methods: Mendenhall's Characteristic Curves of Composition, Kilgariff's Chi-Squared Method, and John Burrows' Delta Method."
 redirect_from: /lessons/introduction-to-stylometry-with-python
 avatar_alt: A woman reading next to a painting
+doi: 10.46430/phen0078
 ---
 
 {% include toc.html %}
@@ -368,7 +369,7 @@ Let's combine all of the subcorpora into a single corpus for Delta to calculate 
 authors = ("Hamilton", "Madison", "Jay", "Disputed", "Shared")
 
 # Convert papers to lowercase to count all tokens of the same word together
-# regardless of case 
+# regardless of case
 for author in authors:
     federalist_by_author_tokens[author] = (
         [tok.lower() for tok in federalist_by_author_tokens[author]])

@@ -30,6 +30,7 @@ redirect_from:
 retired: true
 retirement-reason: |
   Esta lección utiliza una versión obsoleta de GitHub Desktop que ya no cuenta con el respaldo de GitHub. La última versión y la documentación pueden encontrarse en <https://desktop.github.com/>.
+doi: 10.46430/phes0015
 ---
 
 {% include toc.html %}

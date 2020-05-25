@@ -18,13 +18,14 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/63
 layout: lesson
 original: installing-python-modules-pip
 redirect_from: /es/lessons/installing-python-modules-pip
-avatar_alt: Una rama con tres frutos 
+avatar_alt: Una rama con tres frutos
 difficulty: 1
 activity: acquiring
 topics: [get-ready, python]
 abstract: "Hay muchas maneras de instalar módulos externos; este tutorial explica uno de los métodos más comunes utilizando un programa llamado pip."
 exclude_from_check:
 - editors
+doi: 10.46430/phes0012
 ---
 
 {% include toc.html %}
@@ -48,7 +49,7 @@ import csv
 import requests
 import kmlwriter
 import pprint
-``` 
+```
 
 Para los nuevos usuarios de Python puede resultar un tanto intimidante descargar e instalar por primera vez módulos externos. Hay muchas maneras de hacerlo (aumentando así la confusión); esta lección explica una de las formas más sencillas y la más común de instalar módulos de Python.
 
@@ -68,7 +69,7 @@ Una vez que descargaste el archivo get-pip.py, necesitas ejecutarlo con el inté
 
 ```bash
 python get-pip.py
-``` 
+```
 
 La secuencia de comandos del *script* seguramante falle. Esto se debe a que no tiene permisos para actualizar ciertos directorios en tu sistema de archivos para evitar que *scripts* aleatorios puedan cambiar archivos importantes e instalarte virus. En este caso, y en todos los casos en que necesites dar permiso a un *script* seguro para escribir en las carpetas del sistema, puedes utilizar el comando `sudo` (abreviatura de "Super User DO") delante del comando Python, como:
 

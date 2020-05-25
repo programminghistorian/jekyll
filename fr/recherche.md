@@ -23,6 +23,9 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Fred Gibbs, ['Editorial Sustainability and Open Peer Review at Programming Historian',](http://web.archive.org/web/20180713014622/http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian) _DH Commons_, Vol. 1 (2015).
 * Shawn Graham, Ian Milligan et Scott Weingart, [_Exploring Big Historical Data: The Historian's Macroscope_](http://www.themacroscope.org/2.0/), (Imperial College Press, 2015).
 
+## Rapports
+* Penny Andrews et l'équipe du Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](http://doi.org/10.5281/zenodo.3813763) (2020).
+
 ## Ateliers et manifestations
 * Adam Crymble, 'Python for Humanists', University of London, United Kingdom (31 octobre 2019).
 * Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 October 2018).

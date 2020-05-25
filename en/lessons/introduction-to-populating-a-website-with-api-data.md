@@ -20,6 +20,7 @@ topics:
 - api
 abstract: This lesson introduces a way to populate a website with data obtained from another website via an Application Programming Interface (API). Using some simple programming, it provides strategies for customizing the presentation of that data, providing flexible and generalizable skills.
 avatar_alt: A mechanical device with gears and wheels
+doi: 10.46430/phen0086
 ---
 
 {% include toc.html %}

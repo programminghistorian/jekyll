@@ -17,6 +17,7 @@ abstract: |
   Introduces core concepts of Linked Open Data, including URIs, ontologies, RDF formats, and a gentle intro to the graph query language SPARQL.
 redirect_from: /lessons/intro-to-linked-data
 avatar_alt: An old man with a woman on each arm
+doi: 10.46430/phen0068
 ---
 
 {% include toc.html %}

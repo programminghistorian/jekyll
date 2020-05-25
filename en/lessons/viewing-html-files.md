@@ -20,6 +20,7 @@ next: working-with-text-files
 previous: introduction-and-installation
 redirect_from: /lessons/viewing-html-files
 avatar_alt: A woman listening to a man through an ear trumpet
+doi: 10.46430/phen0018
 ---
 
 {% include toc.html %}

@@ -18,6 +18,7 @@ retrieving online material."
 next: applied-archival-downloading-with-wget
 redirect_from: /lessons/automated-downloading-with-wget
 avatar_alt: Diagram of an elevator system in a mineshaft
+doi: 10.46430/phen0001
 ---
 
 {% include toc.html %}

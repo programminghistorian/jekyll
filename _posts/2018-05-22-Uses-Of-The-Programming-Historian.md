@@ -51,7 +51,7 @@ If you are using the _Programming Historian_ in interesting ways, we'd love to h
 * Wilko Graf von Hardenberg, '[Digital History (History 795)](http://www.wilkohardenberg.net/content/Hardenberg_DigitalHistory_Hist795.pdf)', University of Wisconsin-Madison, USA (Spring 2014).
 * Christopher Church, '[Introduction to the Digital Humanities](http://www.christophermchurch.com/draft-for-new-course-digital-toolbox-for-historians-unr/)', University of Nevada - Reno, USA (2014).
 * Jason A. Heppler, 'Digital History: Concepts, Methods, Problems (History 205F)' (formerly available from: http://stanford.edu/~jheppler/stanford.syllabus.hist205f.2014f.pdf), Stanford University, USA (Autumn 2014).
-* Elisha E. Besherho-Bondar, '[Digital Humanities / Digital Studies](http://www.pitt.edu/~ebb8/DHDS/)', University of Pittsburg, USA (Autumn 2014).
+* Elisha E. Besherho-Bondar, '[Digital Humanities / Digital Studies](https://web.archive.org/web/20170309170558/http://www.pitt.edu/~ebb8/DHDS/)', University of Pittsburg, USA (Autumn 2014).
 * Andrew M Shocket, '[Intro to DH (ACS 6820)](http://intro-dh-2014.andyschocket.net/syllabus/)', Bowling Green State University, USA (Spring 2014).
 * Jeff McClurken, '[Adventures in Digital History (HIST 428)](http://dh2014.umwblogs.org/syllabus/)', University of Mary Washington, USA (Spring 2014).
 * Jennifer Guiliano, '[Making/Building Digital History](http://devdh.org/files/downloads/Guiliano_Digital_History_Syllabus_Fall2014_IUPUI.pdf)', Indiana University-Purdue University Indianapolis, USA (Autumn 2014).
