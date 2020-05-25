@@ -17,8 +17,9 @@ translation-editor:
 - Sofia Papastamkou
 translation-reviewer:
 - Antoine Courtin
-- Sylvain Machefert 
-translation_date: 2019-06-21
+- Sylvain Machefert
+- Alix Chagué 
+translation_date: 2020-05-09
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/256
 activity: presenting
@@ -357,6 +358,19 @@ Enfin, voici une liste de bots fonctionnant avec Tracery tenue à jour par Compt
 **En français (N.D.L.R.: il s'agit de notes ajoutées à la version traduite):**
 
 - Antoine Courtin, [#BotInfocom](https://medium.com/@seeksanusername/botinfocom-1a89605c0953), *Medium.com/@seeksanusername/*, 11 décembre 2016. 
+
+# Exemples de bots en français
+**Avec un compte Twitter dédié**
+
+- [Bot de sept lieues](https://www.cafedefaune.org/ougepro/bot-de-sept-lieues): un bot voyageur qui raconte ses découvertes faites dans des contrées imaginaires. 
+- [EnvoisdeRomeBot](https://twitter.com/envoisdeRomeBot): un bot de valorisation d'une base de données patrimoniales.
+- [Le bot de 7 lieux](https://twitter.com/lebotde7lieux): un bot qui explore les données géolocalisées de Wikidata.
+- [Mémoire de la guerre d'Espagne - Bot](https://twitter.com/memo_guerra_bot): un bot de mémoire sur la Guerre d'Espagne qui liste les noms recensés de ses victimes.
+
+**Émis à partir du compte d'utilisateur du créateur du bot
+
+- Le [GallicaBot](https://twitter.com/search?q=GallicaBot&src=typed_query&f=live) d'Olivier Jacquot qui tweete les titres d'ouvrages en accès libre disponibles sur la bibliothèque [Gallica](https://gallica.bnf.fr/).
+- Le [#BotInfoCom ](https://twitter.com/search?q=%23botInfocom&src=typd&f=live) d'Antoine Courtin, un bot qui simule des titres d'articles (imaginaires) en sciences de l'information et de la communication. 
 
 # Références
 Compton, K., Kybartas, B., Mateas, M.: Tracery: « An author-focused generative text tool » dans *Proceedings of the 8th International Conference on Interactive Digital Storytelling*, pp. 154–161 (2015).
