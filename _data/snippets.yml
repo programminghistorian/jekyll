@@ -382,6 +382,7 @@ search-info:
 
     Para obtener solo resultados con múltiples términos, agrega el símbolo `+` antes de cada uno. Por ejemplo, `+Twitter +Red` devolverá lecciones que contienen *tanto* "twitter" como "red". Para obtener solo resultados que *no* contengan cierto término, utiliza el símbolo `-`. Por ejemplo, `-Twitter +Red` devolverá lecciones que contienen "red" pero no "twitter". Para información más detallada, puedes revisar la guía sobre búsquedas (en inglés): [https://lunrjs.com/guides/searching.html](https://lunrjs.com/guides/searching.html).
   fr: |
+    Pour obtenir des résultats en utilisant plusieurs termes de recherche, faites précéder chaque terme du symbole `+`. Par exemple, en insérant `+Twitter +réseau`, vous obtiendrez les tutoriels qui contiennent tous les deux termes. Pour *exclure* un terme des résultats obtenus, vous pouvez utiliser le symbole `-`. Par exemple, en insérant `-Twitter +réseau`, vous obtiendrez les tutoriels qui contiennent le terme "réseau", mais pas "Twitter". Pour en savoir plus sur les modalités de recherche, merci de consulter ce guide[https://lunrjs.com/guides/searching.html](https://lunrjs.com/guides/searching.html).
 
   pt: |
     
