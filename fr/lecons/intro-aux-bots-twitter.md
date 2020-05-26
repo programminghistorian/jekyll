@@ -1,6 +1,6 @@
 ---
 title: Une introduction aux Bots Twitter avec Tracery
-doi: 
+doi: 10.46430/phfr0010
 layout: lesson
 slug: intro-aux-bots-twitter
 authors:
