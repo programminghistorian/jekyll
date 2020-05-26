@@ -25,7 +25,7 @@ difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/256
 activity: presenting
 topics: [api]
-abstract: "Cette leçon explique comment créer de simples bots Twitter à l'aide de la grammaire Tracery et du service Cheap Bots Done Quick. Tracery est interopérable avec plusieurs langages de programmation et peut être intégré dans des sites web, des jeux ou des bots."
+abstract: "Cette leçon explique comment créer de simples bots Twitter à l'aide de la grammaire Tracery et du service Cheap Bots Done Quick. Tracery est interopérable avec plusieurs langages de programmation et peut être intégrée dans des sites web, des jeux ou des bots."
 original: intro-to-twitterbots
 avatar_alt: Appareil à plusieurs mécanismes interconnectés
 
@@ -33,7 +33,7 @@ avatar_alt: Appareil à plusieurs mécanismes interconnectés
 
 # Une introduction aux bots Twitter avec Tracery
 
-Cette leçon explique comment créer des bots basiques sur Twitter à l’aide de la [grammaire générative Tracery](http://tracery.io) et du service [Cheap Bots Done Quick](http://cheapbotsdonequick.com/). Tracery est interopérable avec plusieurs langages de programmation et peut être intégré dans des sites web, des jeux ou des bots. Vous pouvez en faire une copie (fork) sur github [ici](https://github.com/galaxykate/tracery/tree/tracery2).
+Cette leçon explique comment créer des bots basiques sur Twitter à l’aide de la [grammaire générative Tracery](http://tracery.io) et du service [Cheap Bots Done Quick](http://cheapbotsdonequick.com/). Tracery est interopérable avec plusieurs langages de programmation et peut être intégrée dans des sites web, des jeux ou des bots. Vous pouvez en faire une copie (fork) sur github [ici](https://github.com/galaxykate/tracery/tree/tracery2).
 
 ## Pourquoi des bots?
 Pour être exact, un bot Twitter est un logiciel permettant de contrôler automatiquement un compte Twitter. Lorsque des centaines de bots sont créés et tweetent plus ou moins le même message, ils peuvent façonner le discours sur Twitter, ce qui influence ensuite le discours d’autres médias. Des bots de ce type [peuvent même être perçus comme des sources crédibles d’information](http://www.sciencedirect.com/science/article/pii/S0747563213003129). Des projets tels que [Documenting the Now](http://www.docnow.io/) mettent au point des outils qui permettent aux chercheur(e)s de créer et d’interroger des archives de réseaux sociaux en ligne à propos d’événements récents qui comprennent très probablement un bon nombre de messages générés par des bots. Dans ce tutoriel, je veux montrer comment construire un bot Twitter basique afin que des historiens et des historiennes, ayant connaissance de leur fonctionnement, puissent plus facilement les repérer dans des archives et, peut-être, même les neutraliser grâce à leurs propres bots.
