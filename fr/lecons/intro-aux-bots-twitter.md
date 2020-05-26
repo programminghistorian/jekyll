@@ -197,9 +197,12 @@ Maintenant, refaites l'exercice ci-dessus, mais réfléchissez bien à ce à quo
 
 La sérendipité peut rendre les bots Twitter amusants, car les tweets se placent au hasard entre d’autres tweets sur un fil d’actualité (il vous faut suivre votre propre bot, pour garder un œil sur ce qu’il fait):
 
+
 {% include figure.html filename="bot-lesson-maniacallaughbot.jpg" caption="Maniacallaughbot a encore gagné" %}
 
+
 N'oubliez pas que votre bot apparaîtra sur le fil d'autres personnes. Le potentiel de juxtaposition du ou des messages de votre bot avec les tweets d'autres personnes influencera également le succès relatif du bot.
+
 
 {% include figure.html filename="bot-lesson-interaction-with-tinyarchae.png" caption="Une interaction avec Tinyarchae occasionne des réflexions mélancoliques" %}
 
