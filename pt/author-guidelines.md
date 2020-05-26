@@ -332,7 +332,7 @@ To raise a concern, please contact one of the following parties, chosing whomeve
 
 * Your assigned editor
 * The managing editor
-* Our independent ombudsperson, [Amanda Visconti](/project-team)
+* Our independent ombudsperson, (TBD)
 
 We hope you don't find yourself in a situation in which you are unhappy, but if you do, we thank you for helping us to improve.
 
