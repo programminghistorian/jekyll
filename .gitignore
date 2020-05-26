@@ -3,6 +3,6 @@ _site/*
 .DS_Store
 tmp/
 
-vendor/
+/vendor
 .bundle/
 .vscode/

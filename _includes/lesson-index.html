@@ -1,32 +1,61 @@
 {% comment %}
- Core code for generating filterable lesson indexes on lessons.md and es/lecciones.md. This will repeatedly call lesson_describe.html in which individual lessons have their metadata formatted for display.
+Core code for generating filterable lesson indexes on lessons.md and es/lecciones.md. This will repeatedly call
+lesson_describe.html in which individual lessons have their metadata formatted for display.
 {% endcomment %}
-
+<!-- loading graph if search in URI -->
+<div id="pre-loader">
+  <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"
+    class="lds-ripple" style="background:0 0">
+    <circle cx="50" cy="50" r="4.719" fill="none" stroke="#1d3f72" stroke-width="2">
+      <animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1" begin="-1.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1" begin="-1.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="50" cy="50" r="27.591" fill="none" stroke="#5699d2" stroke-width="2">
+      <animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1" begin="0s" repeatCount="indefinite" />
+    </circle>
+  </svg>
+</div>
 <ul class="filter activities">
   {% for activity in site.data.activities %}
   {% assign atype = activity.type %}
-  <li id="filter-{{ atype }}" class="filter">{{ activity[page.lang]}} ({{ alllessons | where:"activity",atype | size }})</li>
+  <li id="filter-{{ atype }}" class="filter">{{ activity[page.lang]}} ({{ alllessons | where:"activity",atype | size }})
+  </li>
   {% endfor %}
 </ul>
 
 <ul class="filter topics">
-{% for topic in site.data.topics %}
-{% assign type = topic.type %}
-{% assign count = alllessons | where:"topics",type | size }} %}
+  {% for topic in site.data.topics %}
+  {% assign type = topic.type %}
+  {% assign count = alllessons | where:"topics",type | size }} %}
   {% if count > 0 %}
   <li id="filter-{{ topic.type }}" class="filter">{{ topic.displayname[page.lang] }} ({{count}})</li>
   {% endif %}
-{% endfor %}
+  {% endfor %}
 </ul>
 
-<div id="filter-none">{{site.data.snippets.reset-button[page.lang]}} ({{  alllessons | size  }})</div>
+<div id="filter-none">{{site.data.snippets.reset-button[page.lang]}} ({{ alllessons | size  }})</div>
 
 <!--
 this div ('lesson-list', referenced in lessonfilter.js) needs to contain the sort button/elements AND the actual list for the sort buttons to work
 -->
+<div id="search-div" style="text-align: center; margin-bottom: 1rem; display: none;">
+  <input id="loading-search" class="search-input" type="text"
+    placeholder="{{ site.data.snippets.loading-search[page.lang] }}" style="background-color: #efefef" disabled>
+  <input id="search" class="search-input" type="text" style="display: none;" placeholder="{{ site.data.snippets.type-search-terms[page.lang] }}">
+  <button id="search-button" disabled>{{ site.data.snippets.search-lessons[page.lang] }}</button>
+  <i id="search-info-button" class="fas fa-question-circle"></i>
+  <div id="search-info">
+    {{ site.data.snippets.search-info[page.lang] | markdownify }}
+  </div>
+</div>
+<div id="enable-search-div" style="text-align: center; margin-bottom: 1rem;">
+  <button id="enable-search-button" style="width: 100%;">{{ site.data.snippets.start-searching[page.lang] }}</button>
+</div>
+
 <div id="lesson-list">
 
-<!--
+  <!--
 List.js uses button classes of asc and desc to control sorting functionality. It also toggles those classes off and on with click events.
 To not interfere with that, we use my-asc and my-desc to control the arrows, since our desired behavior is different from what list.js does.
 More concretely: to sort asc, the button class needs to contain asc, but we use the arrow ON THE BUTTON to indicate what WILL happen,
@@ -35,18 +64,22 @@ Yes, this is confusing. But using two differnt classes allows us to separate fun
 -->
   <ul class="sort-by">
     <li id="sort-by-date" class="sort" data-sort="date">{{site.data.snippets.sort-by-date[page.lang]}}</li>
-    <li id="sort-by-difficulty" class="sort" data-sort="difficulty">{{site.data.snippets.sort-by-difficulty[page.lang]}}</li>
+    <li id="sort-by-difficulty" class="sort" data-sort="difficulty">{{site.data.snippets.sort-by-difficulty[page.lang]}}
+    </li>
   </ul>
 
   <input id="date-sort-text" type="hidden" label="{{site.data.snippets.date[page.lang]}}">
   <input id="difficulty-sort-text" type="hidden" label="{{site.data.snippets.difficulty[page.lang]}}">
 
-  <h2 class="results-title">{{ site.data.snippets.filtering-results[page.lang] }}: <span id="results-value">{{ site.data.snippets.all-lessons[page.lang] }} </span> <span id="current-sort" class="sort-desc">{{site.data.snippets.date[page.lang]}}</span></h2>
+
+  <h2 class="results-title">{{ site.data.snippets.filtering-results[page.lang] }}: <span
+      id="results-value">{{ site.data.snippets.all-lessons[page.lang] }} </span> <span id="current-sort"
+      class="sort-desc">{{site.data.snippets.date[page.lang]}}</span></h2>
 
   <ul class="list">
     {% for lesson in alllessons %}
     {% capture author_string %} {% include author.html %} {% endcapture %}
-      <li>{% include lesson_describe.html authors=author_string %}</li>
+    <li>{% include lesson_describe.html authors=author_string %}</li>
     {% endfor %}
   </ul>
 
@@ -56,10 +89,15 @@ Yes, this is confusing. But using two differnt classes allows us to separate fun
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js'></script>
 <script src="{{ site.baseurl }}/js/URI.min.js"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/lunr.stemmer.support.js"></script>
+{% if page.lang != "en" %}
+  <script src="{{ site.baseurl }}/js/vendor/lunr.{{page.lang}}.js"></script>
+{% endif %}
 <script src="{{ site.baseurl }}/js/lessonfilter.js"></script>
 
 <script>
-  $(function() {
+  $(function () {
     wireButtons();
   });
 </script>
