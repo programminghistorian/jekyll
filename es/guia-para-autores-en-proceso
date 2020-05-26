@@ -12,7 +12,7 @@ skip_validation: true
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
 <h2 class="noclear">Paso 1: <a href="#paso-1-proponer-o-traducir-tutorial">Proponer o traducir un tutorial nuevo</a></h2>
 <h2 class="noclear">Paso 2: <a href="#paso-2-escribir-y-dar-formato-a-un-nuevo-tutorial">Escribir y dar formato a un nuevo tutorial</a></h2>
-<h2 class="noclear">Paso 3: <a href="#paso-3-enviar-una-traduccion-o-tutorial-nuevo">Enviar un nuevo tutorial o traducción</a></h2>  
+<h2 class="noclear">Paso 3: <a href="#paso-3-enviar-una-traduccion-o-tutorial-nuevo">Enviar un nuevo tutorial o traducción</a></h2>
 
 
 Estas directrices han sido desarrolladas para ayudar a entender el proceso de creación de un tutorial para *Programming Historian*. Incluyen detalles prácticos y filosóficos sobre el proceso de redacción del tutorial, así como indicaciones sobre el flujo de trabajo y del proceso de revisión de pares. Si en algún momento no está claro, por favor envíe un correo electrónico al editor jefe {% include managing-editor.html lang=page.lang %}.
@@ -30,11 +30,11 @@ Si tienes una idea para una nueva lección, completa una el [formato de propuest
 
 Puedes darte una idea de lo que publicamos revisando nuestros [tutoriales publicados]({{site.baseurl}}/es/lecciones), leyendo nuestra [guía para revisores]({{site.baseurl}}/es/guia-para-revisores) u ojeando [los tutoriales en desarrollo](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones).
 
-Si su propuesta es aceptada, un editor creará una página de "Propuesta" en nuestro [sitio de envíos](https://github.com/programminghistorian/ph-submissions/issues) con el título de la lección y los resultados de aprendizaje propuestos. Esto sirve para señalar el trabajo en curso. Para asegurar la publicación oportuna, los autores deben presentar su proyecto de artículo en un plazo de 90 días. 
+Si su propuesta es aceptada, un editor creará una página de "Propuesta" en nuestro [sitio de envíos](https://github.com/programminghistorian/ph-submissions/issues) con el título de la lección y los resultados de aprendizaje propuestos. Esto sirve para señalar el trabajo en curso. Para asegurar la publicación oportuna, los autores deben presentar su proyecto de artículo en un plazo de 90 días.
 
 Durante este período de 90 días, su punto de contacto será el jefe de redacción o un editor delegado según pa prerrogativa del jefe de redacción.
 
-## Paso 2: Escribir y formatear el tutorial 
+## Paso 2: Escribir y formatear el tutorial
 Esta guía de estilo establece un conjunto de normas para que los autores las utilicen al crear o traducir las lecciones en español para *Programming Historian*. Al usarla, nos ayudas a asegurar que el contenido sea consistente y accesible.
 
 Se presenta en tres secciones que deben ser leídas antes y después de la escritura:
@@ -44,50 +44,50 @@ Se presenta en tres secciones que deben ser leídas antes y después de la escri
 * C. Guía de formato
 
 ## A. Estilo y audiencia
-Esta primera sección se ocupa de cuestiones de estilo generales que te ayudarán a tomar decisiones que satisfagan las necesidades de nuestra audiencia y editores. Incluimos información básica sobre el estilo y el tono, el acceso abierto y los valores del código abierto, información sobre la escritura para una audiencia global, la escritura sostenible y la toma de decisiones inteligentes sobre los datos utilizados en las lecciones. Lea esta sección cuando planifique su lección. Léala de nuevo antes de enviarla para asegurarse de que el tutorial cumple con estos requisitos.
+Esta primera sección se ocupa de cuestiones de estilo generales que te ayudarán a tomar decisiones que satisfagan las necesidades de nuestra audiencia y editores. Incluimos información básica sobre el estilo y el tono, el acceso abierto y los valores del código abierto, información sobre la escritura para una audiencia global, la escritura sostenible y la toma de decisiones inteligentes sobre los datos utilizados en las lecciones. Lee esta sección cuando planifiques tu lección. Vuelve a leerla antes de enviarla para asegurarte de que el tutorial cumple con estos requisitos.
 
 ### Lenguaje y estilo
 *	Los tutoriales no deben exceder las 8.000 palabras (incluyendo el código).
-*	Mantén un tono formal pero accesible.
-*	Hable con su lector en segunda persona (usted).
-*	Adopte una versión ampliamente utilizado del español (REVISAR).
-*	El escrito es un "tutorial" o una "lección" y no un "artículo".
+*	Mantén un tono formal, pero accesible.
+*	Habla con tu lector en segunda persona (tú).
+*	Procura escribir de un modo comprensible para hablantes de español de distintos lugares.
+*	Refiérete a tu escrito como "tutorial" o "lección", no como "artículo".
 
 ### Código abierto, acceso abierto
 *Programming Historian* está comprometido con los valores del código abierto. Todas las lecciones deben usar lenguajes de programación y software de código abierto siempre que sea posible. Esta política tiene por objeto reducir al mínimo los costos para todas las partes y permitir el mayor nivel de participación posible.
 
-Una vez aceptada la lección, usted acepta publicar su lección bajo una licenicia Creative Commons"[CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es)".
+Una vez aceptada la lección, aceptas que se publique bajo licencia Creative Commons"[CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es)".
 
-### Escriba para una audiencia global
+### Escribe para una audiencia global
 Los lectores de *Programming Historian* viven en todo el mundo. Los autores pueden y deben tomar medidas para escribir su lección de forma accesible para el mayor número de personas posible. Siga estas directrices de cara a una audiencia global:
 
-*	Escriba para alguien que no viva en su país o que no comparta sus creencias.
+*	Escribe para alguien que no viva en tu país o que no comparta tus creencias.
 
-*	**Términos técnicos:** siempre deben estar vinculados a [Wikipedia](https://es.wikipedia.org/) o a un diccionario fiable o a un sitio web sostenible en primera instancia. Un término técnico es cualquier palabra que una persona en la calle puede no conocer o entender.
-*	**Referencias culturales**: las menciones A personas, organizaciones o detalles históricos deben acompañarse siempre con información contextual. No hay que suponer ningún conocimiento previo, incluso de referencias culturales ampliamente conocidas (por ejemplo, [the Beatles](https://en.wikipedia.org/wiki/The_Beatles)). Use términos genéricos en lugar de marcas comerciales (pañuelo en lugar de Kleenex) Los enlaces a [Wikipedia](https://es.wikipedia.org/) deben ser usados libremente. 
-*	**Modismos**: Evite bromas, juegos de palabras, expresiones idiomáticas, sarcasmo, emojis, jerga, términos exclusivos de su dialecto, o lenguaje que sea más difícil de lo necesario.
-*	**Geografía**: cuando haga referencia a los lugares, sea específico. ¿"Sudoeste" significa Valencia? ¿Canadá? ¿Africa? Escriba siempre el nombre completo del área la primera vez que la use.
-*	**Multi-idioma**: al elegir los métodos o instrumentos, haga sus elecciones teniendo en cuenta a los lectores multilingües, especialmente en el caso de los métodos de análisis textual, que pueden no ser compatibles con otros conjuntos de caracteres o que sólo pueden proporcionar resultados intelectualmente sólidos cuando se utilizan en textos en inglés. Cuando sea posible, elija enfoques que tengan documentación multilingüe, o proporcione referencias multilingües para su lectura posterior. Esto ayudará a nuestros traductores.
-*	**Lenguaje racial y étnico**: use la terminología racial cuidadosamente y con especificidad. Los términos históricos que ya no se utilizan deben usarse sólo en su contexto histórico y sólo cuando sea necesario. Usar los términos raciales como adjetivos y no como sustantivos: personas blancas en lugar de "blancos", una mujer asiática en lugar de "un asiático". Tenga en cuenta que los términos pueden entenderse de manera diferente en los distintos países y que lo que ha aprendido a ser correcto o sensible puede ser culturalmente específico de su país (por ejemplo, no todas las personas de ascendencia africana son "afroamericanos". Algunos de ellos son africanos, o negros británicos, o caribeños, etc.). Asimismo, los lectores del Reino Unido entenderán el término "asiático" (India, Pakistán, Bangladesh) de manera diferente a los de América del Norte (por ejemplo, China, Japón, Vietnam, Tailandia).
-*	**Representaciones visualess**: elija las fuentes primarias, imágenes, figuras y capturas de pantalla, teniendo en cuenta cómo se presentarán a una audiencia global.
+*	**Términos técnicos:** siempre deben estar vinculados a [Wikipedia](https://es.wikipedia.org/),a un diccionario fiable o a un sitio web sostenible, en primera instancia. Un término técnico es cualquier palabra que una persona en la calle puede no conocer o entender.
+*	**Referencias culturales**: las menciones a personas, organizaciones o detalles históricos deben acompañarse siempre con información contextual. No hay que suponer ningún conocimiento previo, incluso de referencias culturales ampliamente conocidas (por ejemplo, [The Beatles](https://es.wikipedia.org/wiki/The_Beatles)). Utiliza términos genéricos en lugar de marcas comerciales (pañuelo desechable en lugar de Kleenex). Los enlaces a [Wikipedia](https://es.wikipedia.org/) deben ser usados todo lo que sea necesario. Tén en cuenta que algunos eventos históricos a veces reciben diferentes nombres según el país.
+*	**Modismos**: Evita bromas, juegos de palabras, expresiones idiomáticas, sarcasmo, emojis, jerga, términos exclusivos de tu dialecto, o un lenguaje más difícil de lo necesario.
+*	**Geografía**: cuando hagas referencia a los lugares, sé específico. ¿"Noroeste" significa Brasil? ¿India? ¿África? Escribe siempre el nombre completo del área la primera vez que la utilices.
+*	**Multilingüísmo**: al elegir los métodos o instrumentos, tén en cuenta a los lectores multilingües, especialmente en el caso de los métodos de análisis textual, que pueden no ser compatibles con otros conjuntos de caracteres o que solo pueden proporcionar resultados intelectualmente sólidos cuando se utilizan en textos en inglés. Cuando sea posible, elije enfoques que tengan documentación multilingüe o proporciona referencias multilingües para su lectura posterior. Esto ayudará a nuestros traductores.
+*	**Lenguaje racial y étnico**: use la terminología racial cuidadosamente y con especificidad. Los términos históricos que ya no se utilizan deben usarse solo en su contexto histórico y solo cuando sea necesario. Usa los términos raciales como adjetivos y no como sustantivos: personas blancas en lugar de "blancos", una mujer asiática en lugar de "un asiático". Tén en cuenta que los términos pueden entenderse de manera diferente en los distintos países y que lo que haz aprendido como un uso correcto o sensible puede ser culturalmente específico de tu país (por ejemplo, no todas las personas de ascendencia africana son "afroamericanos". Algunos de ellos son africanos, o negros británicos, o caribeños, etc.). Asimismo, los lectores del Reino Unido entenderán el término "asiático" (India, Pakistán, Bangladesh) de manera diferente a los de América del Norte (por ejemplo, China, Japón, Vietnam, Tailandia).
+*	**Representaciones visuales**: elije las fuentes primarias, imágenes, figuras y capturas de pantalla, teniendo en cuenta cómo se presentarán a una audiencia global.
 
 ### Escritura sostenible
-*Programming Historian* publica lecciones para el largo plazo. Por favor, siga estas directrices de sostenibilidad cuando escriba:
+*Programming Historian* publica lecciones pensando en largo plazo. Por favor, sigue estas directrices sobre sostenibilidad cuando escribas:
 
- *	**Tan general como sea posible, pero no más**: concéntrese en las metodologías y generalidades, no en los programas informáticos/interfaces específicos (por ejemplo, evite decir a los usuarios que "hagan clic en el botón X", que puede ser diferente en versiones futuras).
- * **Reducir la dependencia de elementos insostenibles**: utilice capturas de pantalla con moderación y con un propósito. Las interfaces cambian con frecuencia y los futuros lectores pueden confundirse. Elija los enlaces externos teniendo en cuenta el futuro. ¿Cambia a menudo el sitio al que se enlaza? ¿Existirá dentro de diez años?
- * **Especifique las versiones si son importantes**: sea claro acerca de los detalles específicos de las versiones que los lectores necesitarán saber para poder seguir su lección. Por ejemplo, ¿necesita Python v.2, o cualquier versión estará bien?
- * **Refiérase a la documentación**: dirija a los lectores a una documentación fiable cuando sea posible. Proporcione una guía general sobre cómo encontrar la documentación si es probable que haya nuevas versiones en el futuro.
- * **Copias de datos**: todos los datos utilizados en las lecciones deben ser publicados con la lección en los servidores de *Programming Historian* junto con su lección. Asegúrese de tener el derecho legal de publicar una copia de cualquier dato utilizado. Los archivos de datos deben utilizar formatos abiertos.
+ *	**Tan general como sea posible, pero no más**: concéntrate en las metodologías y generalidades, no en los programas informáticos/interfaces específicos (por ejemplo, evita decir a los usuarios que "hagan clic en el botón X", que podría ser diferente en versiones futuras).
+ * **Reducir la dependencia de elementos insostenibles**: utiliza capturas de pantalla con moderación y con un propósito. Las interfaces cambian con frecuencia y los futuros lectores pueden confundirse. Elije los enlaces externos teniendo en cuenta el futuro. ¿Cambia a menudo el sitio al que se enlaza? ¿Existirá dentro de diez años?
+ * **Especifica las versiones si son importantes**: sé claro acerca de los detalles específicos de las versiones utilizadas en caso de que sean necesarios para poder seguir la lección. Por ejemplo, ¿se necesita Python v.2, o cualquier versión estará bien?
+ * **Refiérete a la documentación**: indica a los lectores documentación fiable cuando sea posible. Proporciona una guía general sobre cómo encontrar la documentación si es probable que haya nuevas versiones en el futuro.
+ * **Copias de datos**: todos los datos utilizados en las lecciones deben ser publicados con la lección en los servidores de *Programming Historian* junto con tu lección. Asegúrete de tener el derecho legal de publicar una copia de cualquier dato utilizado. Los archivos de datos deben utilizar formatos abiertos.
 
 Los autores deben consultar nuestra [política de retirada de lecciones]({{site.baseurl}}/es/politica-retirada-lecciones) para información sobre cómo el equipo editorial maneja las lecciones que se han vuelto obsoletas.
 
 ## B. Pautas específicas de escritura
-En esta segunda sección se tratan cuestiones más específicas del estilo de escritura, como qué palabras utilizar, o cómo usar la puntuación, o qué formato utilizar para las fechas o los números. Lea esta sección antes y después de escribir su borrador.
+En esta segunda sección se tratan cuestiones más específicas del estilo de escritura, como qué palabras utilizar, cómo usar la puntuación o qué formato utilizar para las fechas o los números. Lee esta sección antes y después de escribir tu borrador.
 
 ### Fechas y hora
- *	Para siglos utilice siglo dieciocho y no siglo XVIII. Evite frases centradas en lo nacional, como "largo siglo XVIII", que tienen un significado específico para los especialistas británicos del siglo XVIII, pero para nadie más.
- *	Para décadas escriba "los años cincuenta" o "los cincuenta" (no "los años 50's" o "la década de los 50s").
+ *	Para siglos, utiliza números romanos. Evita frases centradas en lo nacional, como "largo siglo XVIII", que tienen un significado específico para los especialistas británicos del siglo XVIII, pero para nadie más.
+ *	Para décadas escribe "los años cincuenta" o "los cincuenta" (no "los años 50's" o "la década de los 50s").
  *	Comprima las secuencias de fecha así; 1816-17, 1856-9, 1854-64.
  *	Para fechas escritas en forma numérica utilice el formato DD-MM-AA, which conforms to the standard ISO 8601:2004. This avoids ambiguity.
  *	Utilice BCE/CE not BC/AD for dates (eg 325BCE). [Asi aparece en la RAE: a. de J. C., a. de C., a. J. C. o a. C. (‘antes de (Jesu)Cristo’) y d. de J. C., d. de C., d. J. C. o d. C. (‘después de (Jesu)Cristo’): 211 a. C., 123 d. C. ]
@@ -104,11 +104,11 @@ En esta segunda sección se tratan cuestiones más específicas del estilo de es
 
 ### Encabezados
 Los encabezados no deben contener un código de fuente o un formato de estilo como negrita, cursiva o código de fuente.
-Los encabezados siempre deben preceder inmediatamente al texto del cuerpo. No ponga después de un encabezado ¿una amonestación? u otro encabezamiento sin alguna forma de texto introductorio o descriptivo.
+Los encabezados siempre deben preceder inmediatamente al texto del cuerpo. No pongas después de un encabezado una advertencia u otro encabezamiento sin un texto introductorio o descriptivo.
 
 
 ### Listas
-Típicamente, usamos listas numeradas y listas con viñetas. Los elementos de la lista comienzan con mayúscula. Los elementos de la lista deben ser tratados como elementos separados y no deben ser encadenados con puntuación o conjunciones. 
+Típicamente, usamos listas numeradas y listas con viñetas. Los elementos de la lista comienzan con mayúscula. Los elementos de la lista deben ser tratados como elementos separados y no deben ser encadenados con puntuación o conjunciones.
 
 NO tiene estilo:
 
@@ -122,16 +122,15 @@ Estilo:
 * Acá hay otro ítem
 * Acá está el último ítem
 
+[AGREGAR ALGO SOBRE CONSISTENCIA GRAMATICAL DE LOS ELEMENTOS ENUMERADOS]
 
 ### Puntuación
  *	**Abreviaturas**: [revisar lineamientos de la RAE: https://www.rae.es/dpd/abreviatura] spell out all words on first mention. European Union (EU) and then EU. Do not use full points / periods or spaces between initials: BBC, PhD, mph, 4am, etc.
- *	??? **Ampersand**: generally speaking, do not use an ampersand in place of the word "and" unless referring to a company or publication that uses it: P&O, *Past & Present*.
- *	**Apóstrofe**: [No recuerdo que en español lo usemos--quitar, ¿o reemplazar por algo sobre los acentos?] use the possessive 's after singular words or names that end in s – St James's, Jones's, mistress's; use it after plurals that do not end in s: children's, people’s, media's.
  *	**Corchetes / Paréntesis**: REVISAR LINEAMIENTOS PARA EL ESPAÑOL it is better to use commas or dashes. Use round brackets to introduce explanatory material into a direct quote, eg: He said: "When finished it (the tunnel) will revolutionise travel" or "She said adiós (goodbye)". Place a full stop / period outside a closing bracket if the material inside is not a sentence (like this). (But an independent sentence takes the full stop before the closing bracket.)
  *	**Dos puntos**: se utilizan para introducir listas, tabulaciones, textos, como en:REVISAR LINEAMIENTOS EN ESPAÑOL
     *	El comité recomienda: ampliar las horas de licencia hasta la medianoche; permitir a los niños en los locales con licencia; relajar los controles de planificación en los nuevos establecimientos públicos.
     *	Usar después del nombre de un orador para una frase entera citada: El Sr. James Sherwood, presidente de Sealink, dijo: "Tenemos..."
-    *	La primera letra en minúscula después de un colon: así es como lo hacemos.
+    *	La primera letra en minúscula después de dos puntos: así es como lo hacemos.
  *	**Coma**: NO EXISTE LA SERIA COMMA EN ESPAÑOL, REVISAR LINEAMIENTOS (this, that, and the other).
  *	**Guión**: a useful device to use instead of commas, but not more than one pair per sentence.
  *	**Ellipsis**: three periods separated from the preceding and following words by a space ( ... ). Use to condense a direct quote (thus the quote "the people sitting in this meeting room deserve a better deal" becomes "the people ... deserve a better deal").
@@ -154,64 +153,63 @@ La pauta es usarlos con moderación en la prosa corriente. Reglas específicas:
     *	**Nombre propios**: William J. Turkel – a menos que la persona elija deletrear su nombre de otra manera (por ejemplo "bell hooks").
     *	**Organizaciones artísticas, culturales y gubernamentales, etc**: Museo de Arte Moderno, Casa de Cervantes, Biblioteca Nacional, Agencia Nacional de Tierras, Naciones Unidades.
     *	**Días festivos y festivales**: Diwali, Hanukkah, Eid-Ul-Adha, Día de los Muertos.
-*	**A veces o parcialmente en mayúsculas**:
+*	**A veces o solo parcialmente en mayúsculas**:
     *	**Lugares**: capitales de países, regiones, zonas reconocibles (por ejemplo, el Oriente Medio, Senegal). Minúsculas para los puntos cardinales, a excepción de cuando son utilizados como parte del nombre de un lugar (para llegar al Polo Norte, dirigirse al norte). Otros ejemplos son: el noreste de Kenya, el sur del Brasil, el oeste, el oeste del Canadá, el extremo oriental, el Asia sudoriental, América Central, América Latina.
     *	**Eventos históricos**: la primera letra en mayúscula para primera Guerra Mundial, Segunda Guerra Mundial; Guerra de Crimea/Boer/Vietnam/del Golfo; Guerra de los Cien Años.
     *	**Religión**: minúscula para anglicano, bautista, budista, católico, cristiano, hindú, metodista, musulmán, protestante, católico romano, sikh, y también para evangélicos, carismáticos, ateos.
     *	**Libros sagrados (selección)**:
         *	**Biblia**: mayúscula si se refiere al Antiguo o al Nuevo testamento.
-        *	**Budismo**: sutras (sermones) y abhidhamma (análisis e interpretación). Para el budismo tibetaton tambien hay libros tántricos y Libro tibetano de los muertos.
+        *	**Budismo**: sutras (sermones) y abhidhamma (análisis e interpretación). Para el budismo tibetano tambien hay libros tántricos y Libro tibetano de los muertos.
         *	**Hinduismo**: los Śruti: Vedas, Samhitas, Brahmanas, Aranyakas, Upanishads; los Vedāngas, épica Hindú, sutras, shastras, textos filosóficos, los Puranas, literatura kāvya, los Bhasyas, muchos nibandhas.
-        *	**Juadismo**: el Tanakh (Torá, Nevi'im, Ketuvim), el Talmud (Mishná, Guemará)
+        *	**Judaismo**: el Tanakh (Torá, Nevi'im, Ketuvim), el Talmud (Mishná, Guemará)
         *	**Corán**: textos que incluyen los hadiz, el Tawrat (Torá), Zabur (posiblemente salmos), Injil (1.2 billones).
         *	**Sikh**: Adi Granth (comonmente llamado el Sri Guru Granth Sahib Ji), el Dasam Granth, los Varan Bhai Gurdas, los textos del Bhai Nand Lal.
-    *	**Trabajos**: en minúscula – president Macron, Emmanuel Macron, presidente de France. El ministro de Hacienda. El Papa se escribe con mayúscula y la reina en minúscula. [REVISAR]
+    *	**Trabajos**: en minúscula – presidente Macron, Emmanuel Macron, presidente de France. El ministro de Hacienda. El Papa se escribe con mayúscula y la reina en minúscula. [REVISAR]
     *	**Organizaciones e instituciones**: el gobierno (en minúscula en toda referencia), el gabinete (minúscula en toda referencia), la Iglesia de Jesucristo de los Santos de los Últimos Días ("la iglesia"), Ministerio de Educación ("el ministerio"), Universidad Católica ("la universidad"), el Tribunal de Apelación ("tribunal de apelación" o "el tribunal").
-    *	**Universidades e institutos**: mayúsculas para la institución y para departamentos ("Universidad Autónoma de México", Departamento de Historia").
-    *	**Instituciones religiosas, hospitales y escuelas**: cap up the proper or place name, lower case the rest eg Nurture Hillandale rehabilitation hospital, Vernon county primary school, Ali Pasha’s mosque.
-*	**Always Lowercase**:
+    *	**Universidades e institutos**: mayúsculas para la institución y para departamentos ("Universidad Autónoma de México", "Departamento de Historia").
+    *	**Instituciones religiosas, hospitales y escuelas**: cap up the proper or place name, lower case the rest eg Nurture Hillandale rehabilitation hospital, Vernon county primary school, Ali Pasha’s mosque. [REVISAR]
+*	**Siempre en minúscula**:
     *	**Committees, Reports and Inquiries**: committee on climate change, trade and industry committee, royal commission on electoral reform
     *	**Agencies, Commissions, Public Bodies, Quangos**: benefits agency, crown prosecution service, customs and excise, parole board
-    *	**Seasons**: spring, summer, autumn/fall, winter.
-    *	**Currencies**: euro, franc, mark, sterling, dong etc
+    *	**Estaciones**: spring, summer, autumn/fall, winter.
+    *	**Tipos de cambio**: peso, sol, euro, franco, marco, dong, etc.
 
 ### Referencias
 *	Los enlaces en lugar de las notas finales pueden ser apropiados en la mayoría de los casos.
-*	Asegúrese de que las frases vinculadas tengan un significado semántico. No enlace términos que son significativos sólo para usuarios videntes como "haga clic aquí".
-*	Toda literatura publicada de manera tradicional y académica debe incluirse como notas al final en lugar de ser enlazada. 
-*	Si está escribiendo un tutorial de "análisis", debe referirse a la literatura académica publicada.
-*	Los superíndices de las notas finales deben dentro de la puntuación final así². No afuera así.²
-*	Utilice el sistema de "Notas y Bibliografía" que se encuentra en el [*Manual Chicago Manual 17a edición](https://uc3m.libguides.com/guias_tematicas/citas_bibliograficas/chicago) para las notas al final endnotes.
-*	Cuando se mencione por primera vez una obra publicada, incluya el nombre del autor (incluyendo el primer nombre). Por ejemplo, "Puede encontrar más información en *The Elements of Typographic Style* de Robert Bringhurst" o "Para más información, consulte *The Elements of Typographic Style* de Robert Bringhurt". En las referencias posteriores, sólo use el título del libro. Los nombres de los autores pueden ser acortados a apellidos sólo en un uso posterior.
-*	Las notas finales no deberían contener sólo un URL.
+*	Asegúrate de que las frases vinculadas tengan un significado semántico. No enlace términos que son significativos solo para usuarios videntes como "haga clic aquí".
+*	Toda literatura publicada de manera tradicional y académica debe incluirse como notas al final, en lugar de ser enlazada.
+*	Si estás escribiendo un tutorial de "análisis", debes referirte a la literatura académica publicada.
+*	Los superíndices de las notas finales deben ir dentro de la puntuación final así². No afuera, así.²
+*	Utiliza el sistema de "Notas y Bibliografía" que se encuentra en el [*Manual Chicago Manual 17a edición](https://uc3m.libguides.com/guias_tematicas/citas_bibliograficas/chicago) para las notas al final.
+*	Cuando se mencione por primera vez una obra publicada, incluye el nombre del autor (incluyendo el primer nombre). Por ejemplo, "Puedes encontrar más información en *The Elements of Typographic Style* de Robert Bringhurst" o "Para más información, consulta *The Elements of Typographic Style* de Robert Bringhurt". En las referencias posteriores, usa solo el título del libro. Los nombres de los autores pueden ser acortados a apellidos solo a partir de su segunda mención.
+*	Las notas finales no pueden contener solo una URL.
     *	(Correcto): Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorrecto): https://doi.org/10.1086/680389
 
 
 ### Explicación de palabras difíciles [REVISAR CASOS ESPECÍFICOS PARA EL ESPAÑOL]
 
- *	**Collective Nouns** (group, family, cabinet, etc) take singular or plural verb according to meaning: the family was shocked, the family were sitting down, scratching their heads.
- *	**Less or Fewer?** Less means less in quantity, (less money); fewer means smaller in number, (fewer coins).
- *	**Over or More Than?** Over and under answer the question "how much?"; more than and fewer than answer the question "how many?": she is over 18, there were more than 20,000 at the game.
- *	**That or Which?** that defines, which informs: this is the house that Jack built, but this house, which Jack built, is now falling down.
+[BORRÉ YA LOS QUE ESTABAN EN INGLÉS]
+
+
 
 ## C. Guía de formato
-Esta última sección abarca cuestiones de formato para la presentación. Lee esta sección antes y después de escribir tu borrador. Si te equivocas en alguno de estos elementos, podrás corregirlo cuando publiquemos un avance en directo de tu lección al comienzo del proceso de revisión de pares.
+Esta última sección abarca cuestiones de formato para el envío de tu lección. Lee esta sección antes y después de escribir tu borrador. Si te equivocas en alguno de estos elementos, podrás corregirlo cuando publiquemos un avance en directo de tu lección al comienzo del proceso de revisión de pares.
 
 ### Escribe en Markdown
 Todas las lecciones deben ser escritas en [Markdown](https://es.wikipedia.org/wiki/Markdown). Se ha proporcionado una plantilla para escribir las lecciones.
 
-* [Descarga la plantilla para lecciones en español (.md)]({{site.baseurl}}/es/PLANTILLA-PROPUESTA-LECCION.md).
+* [Descarga la plantilla para lecciones en español (.md)]({{site.baseurl}}/es/PLANTILLA-PROPUESTA-LECCION.md). HAY QUE ACTUALIZAR ESTA PLANTILLA PORQUE EN EL YAML FALTAN ALGUNOS CAMPOS
 
 Markdown es un lenguaje de marcado que se crea mejor con un editor de texto. MS Word y Open Office NO son editores de texto y deben ser evitados. Recomendamos [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/) o [Notepad++](https://notepad-plus-plus.org/download).
-Para una introducción sencilla a Markdown ver [Introducción a Markdown]({{site.baseurl}}/es/lecciones/introduccion-a-markdown), o la referencia concisa [GitHub Guide to Markdown](https://guides.github.com/features/mastering-markdown/). [BUSCAR GUIA EN ESPAÑOL]
+Para una introducción sencilla a Markdown puedes ver la lección [Introducción a Markdown]({{site.baseurl}}/es/lecciones/introduccion-a-markdown), o la referencia concisa [GitHub Guide to Markdown](https://help.github.com/es/github/writing-on-github/basic-writing-and-formatting-syntax).
 
 Tu lección debe ser guardada en formato .md. El nombre del archivo de tu lección se convierte en parte de la URL de la lección, por lo tanto, debe ser nombrado de acuerdo a las siguientes reglas:
 
- *	Un nombre corto, en minúsculas, descriptivo que de una clara indicación del contenido de la lección (por ejemplo, introduccion-a-markdown.md).
- *	No utilice espacios ni guiones bajos en el nombre del archivo; utilice en su lugar guiones.
- *	Utilice un nombre de archivo rico en palabras clave que incluya tecnologías o métodos clave (por ejemplo, Python o Análisis de Sentimientos).
- 
+ *	Un nombre corto, en minúsculas, descriptivo y que dŕ una clara indicación del contenido de la lección (por ejemplo, introduccion-a-markdown.md).
+ *	No utilices espacios ni guiones bajos en el nombre del archivo; utiliza guiones.
+ *	Utiliza un nombre de archivo rico en palabras clave que incluyan las  tecnologías o métodos usados en la lección (por ejemplo, Python o Análisis de Sentimientos).
+
 ### Negrita, cursiva y subrayado
 Para asegurar la consistencia de las lecciones, sigue las siguientes directrices de formato de texto:
 
@@ -222,7 +220,8 @@ Para asegurar la consistencia de las lecciones, sigue las siguientes directrices
 #### Cursiva
 * Usa la cursiva para los títulos de libros, películas, programas de TV, pinturas, canciones, álbumes y sitios web.
 * Nunca uses la cursiva para nombres de empresas (el sitio web *Facebook* es propiedad de Facebook).
-* No uses la cursiva en los titulares, incluso si se refiere al título de un libro.
+* No uses la cursiva en los títulos de secciones, incluso si te estás refiriendo título de un libro.
+* AGREGAR NORMA RAE SOBRE USO DE CURSIVAS
 *	La cursiva se formatea utilizando *\*un asterisco\**.
 
 #### Subrayado
@@ -238,11 +237,11 @@ Si quieres incluir un aparte o una advertencia a los lectores, puedes apartarlo 
 ```
 
 ### Figuras e imágenes
-Las imágenes pueden ayudar a los lectores a entender los pasos de la lección, pero no deben ser usadas como decoración. Si desea utilizar imágenes en su lección etiquételas secuencialmente LECCIÓN-NOMBRE1.jpg, LECCIÓN-NOMBRE2.jpg, etc. Refiérase a ellas en el texto como "Figura 1", "Figura 2", y así sucesivamente. Todas las figuras deben venir con una leyenda concisa de la figura y notas finales cuando sea apropiado. Debes tener el derecho legal de publicar cualquier imagen.
+Las imágenes pueden ayudar a los lectores a entender los pasos de la lección, pero no deben ser usadas como decoración. Si deseas utilizar imágenes en tu lección, etiquétalas secuencialmente sigioendo el patrón: LECCIÓN-NOMBRE1.jpg, LECCIÓN-NOMBRE2.jpg, etc. Refiérete a ellas en el texto como "Figura 1", "Figura 2", y así sucesivamente. Todas las figuras deben venir con una leyenda concisa y notas finales cuando sea apropiado. Debes tener el derecho legal para publicar cualquier imagen.
 
-Utilice formatos de archivos amigables para la web como .png o .jpg y reduzca las imágenes grandes a un máximo de 840px en el lado más largo. Esto es importante para los lectores en países con velocidades de Internet más lentas.
+Utiliza formatos de archivos amigables para la web como .png o .jpg y reduce las imágenes grandes a un máximo de 840px en el lado más largo. Esto es importante para los lectores en países con velocidades de Internet más lentas.
 
-Las imágenes deben guardarse en una carpeta con el mismo nombre que el archivo .md de la lección. El editor asignado a su lección puede ayudarle a subir sus imágenes cuando las envíe.
+Las imágenes deben guardarse en una carpeta con el mismo nombre que el archivo .md de la lección. El editor asignado a tu lección puede ayudarle a subir sus imágenes cuando las envíes.
 
 Para insertar una imagen en su texto, utilice el siguiente formato:
 
@@ -252,29 +251,29 @@ Para insertar una imagen en su texto, utilice el siguiente formato:
 ```
 {% endraw %}
 
-Tenga en cuenta que las comillas internas en su pie de foto deben escaparse con una barra invertida, como en el ejemplo anterior. Es posible que las imágenes no aparezcan en las vistas previas de la lección, pero el editor se asegurará de que se reproduzcan correctamente cuando se publique la lección.
+Ten en cuenta que las comillas internas en el pie de foto deben escaparse con una barra invertida, como en el ejemplo anterior. Es posible que las imágenes no aparezcan en las vistas previas de la lección, pero el editor se asegurará de que se reproduzcan correctamente cuando se publique la lección.
 
 ### Ejemplos de código
 Las líneas de código deben tener un formato que las distinga claramente de la prosa:
 
  *	Las líneas de código deben tener un máximo de 80 caracteres
- *	Los bloques de código multilínea deben estar encerrados en tres \`\`\`comillas-invertidas\`\`\`.
- *	Líneas de código (raramente usado) puede ser encerrado en una sola \`comilla invertida\`.
+ *	Los bloques de código de varias líneas deben estar encerrados en tres \`\`\`comillas-invertidas\`\`\`.
+ *	El código dentro del texto (raramente usado) puede ser encerrado en una sola \`comilla invertida\`.
 
 
 ```
 Se verán así
 ```
-` y así ` respectivamente.
+` y así `, respectivamente.
 
 
 --
 Sigue las mejores prácticas para escribir tu código:
 
-*	**Variable and Function Names**: variable names should be nouns (eg "counter") and function names should be verbs (eg "createFile"). Choose names that are concise and meaningful. You may use [snake_case](https://en.wikipedia.org/wiki/Snake_case) or [camelCase](https://en.wikipedia.org/wiki/Camel_case), but be consistent.
-*	**User Commands**: when writing about text you want the reader to replace with their own information, use FULL CAPS and enclose by ` backticks ` (eg, \`USERNAME HERE\`).
-*	**Filenames**: filenames that you ask your reader to create or use should be enclosed in `backticks` when mentioned in the text and should include their file extension. Choose names that are concise and meaningful. You may use [snake_case](https://en.wikipedia.org/wiki/Snake_case) or [camelCase](https://en.wikipedia.org/wiki/Camel_case), but be consistent (eg, `data.txt`, `cleanData.py` etc).
-*	**Reserved Words**: words that are part of a programming language should always be formatted as `code` using `back-ticks` in the running prose. A list of reserved words in common programming languages include:
+*	**Nombres de variables y funciones**: los nombres de variables deben ser sustantivos (por ejemplo, "nombre_coleccion") y los nombres de funciones verbos (por ejemplo, "crear_archivo"). Elije nombres concisos y significativos. Puedes usar el formato [snake_case](https://en.wikipedia.org/wiki/Snake_case) o [camelCase](https://en.wikipedia.org/wiki/Camel_case); lo importante es que seas consistente a lo largo de la sección.
+*	**Comandos de usuario**: cuando hagas referencia a texto que quieres que el usuario remplace con su propia información, utiliza MAYÚSCULAS rodeadas de ` tildes graves ` (por ejemplo, \`NOMBRE USUARIO ACÁ\`).
+*	**Nombres de archivos**: los nombres de archivos que solicites crear los lectores deben estar rodeados de `tildes graves` cuando se mencionan en el texto y deben incluir la extensión del archivo. Elije nombres concisos y significativos. Puedes usar [snake_case](https://en.wikipedia.org/wiki/Snake_case) o  [camelCase](https://en.wikipedia.org/wiki/Camel_case); lo importante es que seas consistente (por ejemplos, `datos.txt`, `datosLimpios.py`, `grafico_autores.png` etc).
+*	**Palabras reservadas**: los términos que son parte de un lenguaje de programación deben estár formateados como `código` usando tildes graves cuando los menciones en el texto. A continuación encontrarás una lista de nombres reservados de algunos lenguajes de programación comunes:
 
 #### JavaScript:
 
@@ -321,20 +320,20 @@ Puede resultarte útil leer nuestras [guía para editores](es/guia-editor), dond
 
 Si en algún momento no estás seguro de tu papel o de lo que debes hacer a continuación, publica una pregunta en el número de revisión de pares. Uno de nuestros editores responderá lo antes posible. Nos esforzamos por responder a todas las preguntas en unos pocos días.
 
-### Holding Us to Account [no sabría bien cómo traducir esto...]
+### Haznos responsables
 
-Nuestro equipo de voluntarios trabaja duro para proporcionar una rigurosa, colegial y eficiente revisión de pares para  autores. Sin embargo, reconocemos que hay momentos en que las expectativas pueden no cumplirse. Queremos que los autores se sientan con el poder de exigirnos altos estándares. Si, por cualquier razón, sientes que has sido tratado injustamente, que está descontento o confundido por el proceso, que el proceso de revisión se ha retrasado innecesariamente, que un revisor ha sido grosero, que tu editor no ha sido lo suficientemente receptivo, o tienes alguna otra inquietud, por favor, déjanos saberpara que podamos abordarlo de manera proactiva.
+Nuestro equipo de voluntarios trabaja duro para proporcionar a los autores una revisión entre pares rigurosa, colegiada y eficiente. Sin embargo, reconocemos que hay momentos en que las expectativas pueden no cumplirse. Queremos que los autores se sientan con el poder de exigirnos altos estándares. Si, por cualquier razón, sientes que has sido tratado injustamente, que estás descontento o confundido por el proceso, que el proceso de revisión se ha retrasado innecesariamente, que un revisor ha sido grosero, que tu editor no ha sido lo suficientemente receptivo, o tienes cualquier otra inquietud, por favor, déjanos saber para que podamos abordarlo de manera proactiva.
 
-Plantear una preocupación NO afectará negativamente el resultado de su revisión de pares - incluso una revisión de pares en curso.
+Plantear una preocupación NO afectará negativamente el resultado de tu revisión de pares, incluso si se trata de una revisión de pares en curso.
 
-Para plantear una preocupación, por favor contacta una de las siguientes partes, eligiendo a quien te resulte más cómodo para acercarse.
+Para plantear una preocupación, por favor contacta a una de las siguientes personas, según te resulte más cómodo:
 
-* Tu editor asignado
+* El editor de tu lección
 * El jefe de redacción
 * Nuestra ombudsperson independiente, [Silvia Gutiérrez de la Torre](/equipo-de-proyecto)
 
-Esperamos que no se encuentre en una situación incómoda, pero si esto sucede te agradecemos que nos ayudes a mejorar.
+Esperamos que no te encuentres en una situación incómoda, pero si esto sucede, te agradecemos que nos ayudes a mejorar.
 
 ---
 
-Esta guía de estilo fue creada con el apoyo de la Escuela de Humanidades de la Universidad de Hertfordshire. La traducción y adaptación al español es producto del trabajo conjunto del equipo en español.
+La versión en inglés de esta guía de estilo fue creada con el apoyo de la Escuela de Humanidades de la Universidad de Hertfordshire. Esta traducción y adaptación al español es producto del trabajo conjunto del Equipo Editorial de Programming Historian en español.
