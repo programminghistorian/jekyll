@@ -90,9 +90,10 @@ Yes, this is confusing. But using two differnt classes allows us to separate fun
 <script src='//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js'></script>
 <script src="{{ site.baseurl }}/js/URI.min.js"></script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
-<script src="{{ site.baseurl }}/js/lunr.stemmer.support.js"></script>
-<script src="{{ site.baseurl }}/js/lunr.fr.js"></script>
-<script src="{{ site.baseurl }}/js/lunr.es.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/lunr.stemmer.support.js"></script>
+{% if page.lang != "en" %}
+  <script src="{{ site.baseurl }}/js/vendor/lunr.{{page.lang}}.js"></script>
+{% endif %}
 <script src="{{ site.baseurl }}/js/lessonfilter.js"></script>
 
 <script>
