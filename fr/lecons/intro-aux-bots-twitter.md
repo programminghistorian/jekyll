@@ -368,7 +368,7 @@ Enfin, voici une liste de bots fonctionnant avec Tracery tenue à jour par Compt
 - [Le bot de 7 lieux](https://twitter.com/lebotde7lieux): un bot qui explore les données géolocalisées de Wikidata.
 - [Mémoire de la guerre d'Espagne - Bot](https://twitter.com/memo_guerra_bot): un bot de mémoire sur la Guerre d'Espagne qui liste les noms recensés de ses victimes.
 
-**Émis à partir du compte d'utilisateur du créateur du bot
+**Émis à partir du compte d'utilisateur du créateur du bot**
 
 - Le [GallicaBot](https://twitter.com/search?q=GallicaBot&src=typed_query&f=live) d'Olivier Jacquot qui tweete les titres d'ouvrages en accès libre disponibles sur la bibliothèque [Gallica](https://gallica.bnf.fr/).
 - Le [#BotInfoCom ](https://twitter.com/search?q=%23botInfocom&src=typd&f=live) d'Antoine Courtin, un bot qui simule des titres d'articles (imaginaires) en sciences de l'information et de la communication. 
