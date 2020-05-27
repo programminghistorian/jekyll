@@ -346,7 +346,8 @@ century.
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
   [Installing QGIS 2.0 and adding Layers]: /lessons/qgis-layers
   [can be downloaded here]: http://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg
-  [Island Imagined]: http://www.islandimagined.ca/fedora/repository/imagined%3A208687
+  <!--- [Island Imagined]: http://www.islandimagined.ca/fedora/repository/imagined%3A208687 --->
+  [Island Imagined]: https://web.archive.org/web/20180922004858/http://www.islandimagined.ca:80/fedora/repository/imagined:208687
   [in Atlantic Canada]: http://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s
   [world file]: http://en.wikipedia.org/wiki/World_file
   [Tif]: http://en.wikipedia.org/wiki/Tagged_Image_File_Format
