@@ -576,8 +576,9 @@
 
 - name: Amanda Visconti
   github: amandavisconti
-  team: true
+  team: false
   team_start: 2016
+  team_end: 2020
   institution: University of Virginia
   sortname: Visconti
   affiliation:
@@ -594,9 +595,6 @@
         Amanda Visconti es Directora general del centro de Humanidades Digitales Scholars' Lab en la Universidad de Virginia.
     fr: |
         Amanda Visconti est directrice du centre des humanités numériques du Scholars' Lab de l'Université de Virginie.
-  team_roles:
-   - ombuds
-   - english
 
 - name: Megan R. Brett
   team: false
