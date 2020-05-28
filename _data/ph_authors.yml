@@ -1142,18 +1142,18 @@
   url: "http://zoeleblanc.com"
   team: true
   team_start: 2018
-  institution: University of Virginia
+  institution: Princeton University
   sortname: LeBlanc
   affiliation:
     en: |
-        University of Virginia, USA.
+        Princeton University, USA.
     es: |
-        Universidad de Virginia, Estados Unidos.
+        Princeton University, Estados Unidos.
     fr: |
-        Université de Virginie, Etats-Unis.
+        Princeton University, Etats-Unis.
   bio:
     en: |
-        Zoe LeBlanc is a digital humanities developer in the Scholars' Lab in the University of Virginia Library.
+        Zoe LeBlanc is a Postdoctoral Associate and Weld Fellow at the Center for Digital Humanities, Princeton University.
     es: |
         Zoe LeBlanc es desarrolladora de proyectos de Humanidades Digitales en el Scholars' Lab de la Universidad de Virginia Library.
     fr: |
