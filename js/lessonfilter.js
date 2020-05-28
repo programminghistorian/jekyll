@@ -66,7 +66,7 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
 
   // Get lessons from corpus that contain the search string
   let docs = results.filter(result => corpus.some(doc => result.ref === doc.url)).map(result => {
-    let doc = corpus.find(o => o.url === result.ref);
+    let doc = corpus.find(lesson => lesson.url === result.ref);
     return {
       ...result,
       ...doc
@@ -99,7 +99,6 @@ function lunrSearch(searchString, idx, corpus, featureList, uri) {
   });
   // Filter featureList to only show items from search results and active filters
   const params = uri.search(true);
-  // 
   let type = params.activity ? params.activity : params.topic;
   featureList.filter((item) => {
     let topicsArray = item.values().topics.split(/\s/);
@@ -156,8 +155,9 @@ function wireButtons() {
   // set URI object to current Window location
   let uri = new URI(location);
 
+  // add 'content' if you want to use content from lesson-describe though it's currently commented out
   let options = {
-    valueNames: ['date', 'title', 'difficulty', 'activity', 'topics', 'abstract', 'content', 'score']
+    valueNames: ['date', 'title', 'difficulty', 'activity', 'topics', 'abstract', 'score']
   };
 
   let featureList = new List('lesson-list', options);
@@ -197,7 +197,7 @@ function wireButtons() {
 
 
 
-  $("#search-button").on("click", function () {
+  $("#search-button").click(function () {
     /* Function that does ALL filtering and searching of list (whether search exists or not)
     - checks if search string exists or not and updates URI
     - if search string exists calls lunrSearch
@@ -215,7 +215,7 @@ function wireButtons() {
       uri.removeSearch('sortType');
       history.pushState(stateObj, "", uri.toString());
       // Call lunr search
-      lunrSearch(searchString, idx, corpus, featureList, uri, stateObj);
+      lunrSearch(searchString, idx, corpus, featureList, uri);
       
     } else {
       // If empty check if topic or activity filter selected
