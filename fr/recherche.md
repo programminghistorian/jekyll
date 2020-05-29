@@ -27,6 +27,9 @@ L'équipe du projet et les membres de la communauté plus large qui la compose s
 * Penny Andrews et l'équipe du Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](http://doi.org/10.5281/zenodo.3813763) (2020).
 
 ## Ateliers et manifestations
+* Adam Crymble, 'Documenting Your Digital Methods', University of Edinburgh, United Kingdom (27 mai 2020).
+* Adam Crymble & Jessica Parr, 'Programming Historian Silent Disco', University of Edinburgh, United Kingdom (18 mai 2020).
+* Adam Crymble, 'Do You Need to Learn Programming?', University of Edinburgh, United Kingdom (14 mai 2020).
 * Adam Crymble, 'Python for Humanists', University of London, United Kingdom (31 octobre 2019).
 * Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 October 2018).
 * Adam Crymble, Maria José Afanador Llach, José Antonio Motilla, 'Digital Humanities Skills for Latin American Scholarship', Université de los Andes, Bogotá, Colombie (1-3 août 2018) - a reçu le financement de la British Academy.
