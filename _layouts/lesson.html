@@ -186,7 +186,6 @@ All lesson metadata and alerts should follow the convention of pulling appropria
 
  {% for candidate in translation_candidates %} 
 <div class="alert alert-warning">
- 
   <!-- Banner pointing to the original and other translations of this lesson when they exist -->
 {{ site.data.snippets.available-lesson[page.lang] }} :  <a
       href="{{ translation_source.url }}"> {{ site.data.snippets.language-name.en[page.lang]}} </a> (original)  |  <a
@@ -194,8 +193,6 @@ All lesson metadata and alerts should follow the convention of pulling appropria
 
   </div>
   {% endfor %}
-
-
 
 
   {% if page.retired %}
