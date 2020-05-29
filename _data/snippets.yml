@@ -614,27 +614,17 @@ translation-target:
   es: Esta lección ha sido traducida al
   fr: Cette leçon a été traduite en
   pt:
-language-name:
-  en:
-    en: English
-    es: inglés
-    fr: anglais
-    pt:
+available-lesson:
+  en: available in
+  es: 
+  fr: disponible en
   pt:
-    en:
-    es:
-    fr:
-    pt:
-  es:
-    en: Spanish
-    es: español
-    fr: espagnol
-    pt:
-  fr:
-    en: French
-    es: francés
-    fr: français
-    pt:
+language-name:
+    en: EN
+    es: ES
+    fr: FR
+    pt: PT
+    
 translation-source:
   en: This lesson was originally published in
   es: Esta lección fue publicada originalmente en
