@@ -184,16 +184,13 @@ All lesson metadata and alerts should follow the convention of pulling appropria
   {% endif %}
 
 <div class="alert alert-warning">
- 
   <!-- Banner pointing to the original and other translations of this lesson when they exist -->
 {{ site.data.snippets.available-lesson[page.lang] }} :  
 {% for candidate in translation_candidates %} 
-      <a  href="{{ translation_source.url }}"> {{ site.data.snippets.language-name[translation_source.lang]}} </a> (original)  |  
+      <a  href="{{ translation_source.url }}"> {{ site.data.snippets.language-name[translation_source.lang]}} </a> ({{ site.data.snippets.original[translation_source.lang]}})  |  
       <a href="{{ candidate.url }}"> {{ site.data.snippets.language-name[candidate.lang]}} </a> 
-
   {% endfor %}
   </div>
-
 
 
 In order to translate "original" you'll need to use one of the snippets to do that, also.

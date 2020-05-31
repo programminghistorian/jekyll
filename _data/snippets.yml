@@ -624,11 +624,10 @@ language-name:
     es: ES
     fr: FR
     pt: PT
-    
-translation-source:
-  en: This lesson was originally published in
-  es: Esta lección fue publicada originalmente en
-  fr: Cette leçon a été à l'origine publiée en
+  original:
+  en: original
+  es: original
+  fr: originnale
   pt:
 
 peer-review:
