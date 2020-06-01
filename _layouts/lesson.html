@@ -182,7 +182,9 @@ All lesson metadata and alerts should follow the convention of pulling appropria
   {% if site.lesson_donation_alerts %}
   {% include support-alert.html %}
   {% endif %}
+ 
 
+{{ if translation_candidates.size >0 }} 
 <div class="alert alert-warning">
   <!-- Banner pointing to the original and other translations of this lesson when they exist -->
 {{ site.data.snippets.available-lesson[page.lang] }} :  
@@ -191,6 +193,7 @@ All lesson metadata and alerts should follow the convention of pulling appropria
       <a href="{{ candidate.url }}"> {{ site.data.snippets.language-name[candidate.lang]}} </a> 
   {% endfor %}
   </div>
+ {% endif %}
 
   {% if page.retired %}
   <div class="alert alert-warning">
