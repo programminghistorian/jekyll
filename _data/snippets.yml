@@ -619,16 +619,16 @@ available-lesson:
   es: Disponible en
   fr: Disponible en
   pt:
+original:
+  en: original
+  es: original
+  fr: originale
+  pt:
 language-name:
     en: EN
     es: ES
     fr: FR
     pt: PT
-  original:
-  en: original
-  es: original
-  fr: originale
-  pt:
 
 peer-review:
   en: Peer-reviewed
