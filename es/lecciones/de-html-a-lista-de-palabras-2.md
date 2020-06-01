@@ -120,6 +120,7 @@ Tu rutina debe verse ligeramente diferente y, mientras que funcione, todo está 
 ``` python
 # obo.py
 def quitarEtiquetas(contenidoPagina):
+    contenidoPagina = str(contenidoPagina)
     lugarInicio = contenidoPagina.find("<p>")
     lugarFin = contenidoPagina.rfind("<br/>")
 
