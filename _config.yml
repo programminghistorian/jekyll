@@ -60,6 +60,11 @@ defaults:
       lesson: false
       retired: true
   - scope:
+      path: "pt/licoes/retirado"
+    values:
+      lesson: false
+      retired: true
+  - scope:
       path: "es/lecciones"
     values:
       lesson: true
