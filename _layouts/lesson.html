@@ -183,24 +183,28 @@ All lesson metadata and alerts should follow the convention of pulling appropria
   {% include support-alert.html %}
   {% endif %}
 
-  {% unless page == translation_source %}
-  <!-- If this lesson is translated, banner pointing to the original language source of this lesson -->
-  <div class="alert alert-warning">
-    {{ site.data.snippets.translation-source[page.lang] }} {{ site.data.snippets.language-name.en[page.lang]}}: <a
-      href="{{ translation_source.url }}">{{ translation_source.title }}</a>
-  </div>
-  {% endunless %}
+ {% if translation_candidates.size >0 %} 
+ <div class="alert alert-warning">
+   <!-- Banner pointing to the original and other translations of this lesson when they exist -->
+ {{ site.data.snippets.available-lesson[page.lang] }} :  
+       <a  href="{{ translation_source.url }}"> {{ site.data.snippets.language-name[translation_source.lang]}} </a> ({{ site.data.snippets.original[translation_source.lang]}})  |   
+ {% for candidate in translation_candidates %}   
+       <a href="{{ candidate.url }}"> {{ site.data.snippets.language-name[candidate.lang]}} </a> {% unless forloop.last %} | {% endunless %}
+   {% endfor %}
+   </div>
+  {% endif %}
 
-  {% for candidate in translation_candidates %}
-  {% unless page.lang == candidate.lang %}
-  <!-- Banner pointing to translations of this lesson when they exist -->
-  <div class="alert alert-warning">
-    {{ site.data.snippets.translation-target[page.lang]}}
-    {{ site.data.snippets.language-name[candidate.lang][page.lang]}}: <a
-      href="{{ candidate.url }}">{{ candidate.title }}</a>
-  </div>
-  {% endunless %}
-  {% endfor %}
+
+
+  {% if page.previous or page.next %}
+  <div class="series-warning alert alert-info">
+   {{ site.data.snippets.series-note[page.lang] }} {{ page.series_total }} - {{ site.data.snippets.lesson-sequence[page.lang] }} {{ page.sequence }} | <a
+      href="{{page.previous}}"> {{ site.data.snippets.previous-lesson[page.lang] }}</a> | <a
+      href="{{page.next}}"> {{ site.data.snippets.next-lesson[onpage.lang] }} </a> 
+ </div>
+  {% endif %}
+
+
 
   {% if page.retired %}
   <div class="alert alert-warning">
@@ -221,23 +225,7 @@ All lesson metadata and alerts should follow the convention of pulling appropria
   {% endif %}
 
 
-  {% if page.previous %}
-  <div class="series-warning alert alert-info">
-    {{ site.data.snippets.series-previous-note[page.lang] }} <a
-      href="{{page.previous}}">{{ site.data.snippets.previous-lesson[page.lang] }}</a>.
-  </div>
-  {% endif %}
 
-  <div class="content">
-    {{ content }}
-  </div>
-
-  {% if page.next %}
-  <div class="series-warning alert alert-info">
-    {{ site.data.snippets.series-next-note[page.lang] }} <a
-      href="{{page.next}}">{{ site.data.snippets.next-lesson[page.lang] }}</a>.
-  </div>
-  {% endif %}
 
   {% include author-info.html %}
 

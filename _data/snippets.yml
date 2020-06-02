@@ -458,6 +458,19 @@ series-next-note:
   es: ¡Estupendo! Ahora ya estás listo para pasar a la
   fr: Super! Vous êtes maintenant prêt(e) pour la
   pt:
+
+series-note:
+  en: This lesson is part of a series of 
+  es: Esta lección es parte de una serie de
+  fr: Cette leçon fait partie d'une série de
+  pt:
+
+lesson-sequence: 
+  en: You are on lesson 
+  es: Está en la lección
+  fr: Vous êtes à la leçon
+  pt:
+
 contents:
   en: Contents
   es: Contenidos
