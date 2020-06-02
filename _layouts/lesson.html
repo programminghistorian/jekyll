@@ -182,15 +182,19 @@ All lesson metadata and alerts should follow the convention of pulling appropria
   {% if site.lesson_donation_alerts %}
   {% include support-alert.html %}
   {% endif %}
- 
 
-{{ if translation_candidates.size >0 }} 
+{% if translation_candidates.size >0 %} 
+
 <div class="alert alert-warning">
   <!-- Banner pointing to the original and other translations of this lesson when they exist -->
-{{ site.data.snippets.available-lesson[page.lang] }} :  
+{{ site.data.snippets.available-lesson[page.lang] }}:  
+
+      <a  href="{{ translation_source.url }}"> {{ site.data.snippets.language-name[translation_source.lang]}} </a> ({{ site.data.snippets.original[translation_source.lang]}})  |   
+      
 {% for candidate in translation_candidates %} 
-      <a  href="{{ translation_source.url }}"> {{ site.data.snippets.language-name[translation_source.lang]}} </a> ({{ site.data.snippets.original[translation_source.lang]}})  |  
-      <a href="{{ candidate.url }}"> {{ site.data.snippets.language-name[candidate.lang]}} </a> 
+
+      <a href="{{ candidate.url }}"> {{ site.data.snippets.language-name[candidate.lang]}} </a> {% unless forloop.last %} | {% endunless %}
+
   {% endfor %}
   </div>
  {% endif %}
