@@ -609,37 +609,21 @@ title-close-quote:
   es: '",'
   fr: ',»'
   pt:
-translation-target:
-  en: This lesson has been translated into
-  es: Esta lección ha sido traducida al
-  fr: Cette leçon a été traduite en
+available-lesson:
+  en: Available in
+  es: Disponible en
+  fr: Disponible en
+  pt:
+original:
+  en: original
+  es: original
+  fr: originale
   pt:
 language-name:
-  en:
-    en: English
-    es: inglés
-    fr: anglais
-    pt:
-  pt:
-    en:
-    es:
-    fr:
-    pt:
-  es:
-    en: Spanish
-    es: español
-    fr: espagnol
-    pt:
-  fr:
-    en: French
-    es: francés
-    fr: français
-    pt:
-translation-source:
-  en: This lesson was originally published in
-  es: Esta lección fue publicada originalmente en
-  fr: Cette leçon a été à l'origine publiée en
-  pt:
+    en: EN
+    es: ES
+    fr: FR
+    pt: PT
 
 peer-review:
   en: Peer-reviewed
