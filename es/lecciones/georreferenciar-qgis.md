@@ -25,11 +25,11 @@ translation-reviewer:
 - Jairo Melo
 - Camilo Murcia Galindo
 original: georeferencing-qgis
-review_ticket: https://github.com/programminghistorian/ph-submissions/issues/163
+review-ticket: https://github.com/programminghistorian/ph-submissions/issues/163
 prev: vector-layers-qgis
 difficulty: 2
 activity: transforming
-topics: mapping
+topics: [mapping]
 abstract: En esta lección aprenderás cómo georreferenciar mapas históricos para que puedan añadirse a un SIG (Sistema de Información Geográfica) como una capa ráster.
 avatar_alt: Mapa de una ciudad de montaña
 doi:
