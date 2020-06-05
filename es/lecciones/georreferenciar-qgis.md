@@ -5,7 +5,7 @@ collection: lessons
 layout: lesson
 slug: georreferenciar-qgis
 date: 2013-12-13
-translation_date: 2020-04-12
+translation_date: 2020-06-05
 authors:
 - Jim Clifford
 - Josh MacFadyen
