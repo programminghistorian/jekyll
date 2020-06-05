@@ -205,7 +205,7 @@ En procesos más avanzados, puedes incluso cubrir esta imagen georreferenciada c
 
 *Este tutorial es parte de [Geospatial Historian][].*
 
-  [Introducción a Google Maps y Google Earth]: /lecciones/intro-a-google-maps-y-google-earth
+  [Introducción a Google Maps y Google Earth]: /es/lecciones/intro-a-google-maps-y-google-earth
   [rubber-sheeting]: http://en.wikipedia.org/wiki/Rubbersheeting
   [National Topographic System Maps]: http://maps.library.utoronto.ca/datapub/digital/3400s_63_1929/maptile/Halifax/googlemaps.html
   [1]: http://maps.library.utoronto.ca/datapub/PEI/NTS/west/
