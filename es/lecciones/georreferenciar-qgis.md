@@ -40,7 +40,7 @@ doi: 10.46430/phes0047
 Objetivos de la lección
 ------------
 
-En esta lección aprenderás cómo georreferenciar mapas históricos para que puedan añadirse a un SIG (Sistema de Información Geográfica) como una capa ráster. La georreferenciación es una herramienta necesaria para digitalizar los datos que se encuentran en los mapas de papel. Además, como los historiadores trabajamos sobre todo en un reino de papel, la georreferenciación es una de las herramientas que más utilizamos. La técnica consiste en utilizar una serie de puntos de control para vincular a objetos bidimensionales, como un mapa en papel, las coordenadas reales necesarias para que se realice la alineación con las características tridimensionales de la tierra en un programa SIG (en [Intro to Google Maps and Google Earth][] vemos un 'overlay', que es una especie de atajo para la georreferenciación en Google Earth).
+En esta lección aprenderás cómo georreferenciar mapas históricos para que puedan añadirse a un SIG (Sistema de Información Geográfica) como una capa ráster. La georreferenciación es una herramienta necesaria para digitalizar los datos que se encuentran en los mapas de papel. Además, como los historiadores trabajamos sobre todo en un reino de papel, la georreferenciación es una de las herramientas que más utilizamos. La técnica consiste en utilizar una serie de puntos de control para vincular a objetos bidimensionales, como un mapa en papel, las coordenadas reales necesarias para que se realice la alineación con las características tridimensionales de la tierra en un programa SIG (en [Introducción a Google Maps y Google Earth][] vemos un 'overlay', que es una especie de atajo para la georreferenciación en Google Earth).
 
 Georreferenciar un mapa histórico requiere un conocimiento de la geografía e historia del lugar que estás estudiando para así asegurar precisión. Los paisajes construidos y naturales se transforman con el tiempo, por lo cual es importante verificar si la localización de los puntos de control --sean casas, intersecciones o pueblos-- se ha mantenido constante. Introducir puntos de control en un SIG es fácil, pero detrás de bambalinas, la georreferenciación utiliza procesos complejos de transformación y compresión. Estos se utilizan para corregir las distorsiones e inexactitudes que se encuentran en muchos mapas históricos y estirarlos para que quepan dentro de coordenadas geográficas. En cartografía esto se conoce como *[rubber-sheeting][]* porque se trata al mapa como si estuviera hecho de caucho (*rubber* en inglés) y a los puntos de control como si fueran tachuelas "clavando" el documento histórico en una superficie tridimensional como el globo terránqueo.   
 
@@ -205,17 +205,17 @@ En procesos más avanzados, puedes incluso cubrir esta imagen georreferenciada c
 
 *Este tutorial es parte de [Geospatial Historian][].*
 
-  [Intro to Google Maps and Google Earth]: ../lessons/googlemaps-googleearth
+  [Introducción a Google Maps y Google Earth]: /lecciones/intro-a-google-maps-y-google-earth
   [rubber-sheeting]: http://en.wikipedia.org/wiki/Rubbersheeting
   [National Topographic System Maps]: http://maps.library.utoronto.ca/datapub/digital/3400s_63_1929/maptile/Halifax/googlemaps.html
   [1]: http://maps.library.utoronto.ca/datapub/PEI/NTS/west/
   [2]: http://maps.library.utoronto.ca/datapub/PEI/NTS/east/
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
-  [Installing QGIS 2.0 and adding Layers]: ../lessons/qgis-layers
+  [Installing QGIS 2.0 and adding Layers]: /lessons/qgis-layers
   [can be downloaded here]: http://geospatialhistorian.files.wordpress.com/2013/02/pei_lakemap1863.jpg
-  [Island Imagined]: http://www.islandimagined.ca/fedora/repository/imagined%3A208687
+  [Island Imagined]: https://web.archive.org/web/20180922004858/http://www.islandimagined.ca:80/fedora/repository/imagined:208687
   [in Atlantic Canada]: http://books.google.ca/books?id=TqCNZYXWXAUC&dq=tilting&source=gbs_navlinks_s
   [world file]: http://en.wikipedia.org/wiki/World_file
   [Tif]: http://en.wikipedia.org/wiki/Tagged_Image_File_Format
-  [Creating New Vector Layers in QGIS]: ../lessons/vector-layers-qgis
+  [Creating New Vector Layers in QGIS]: /lessons/vector-layers-qgis
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
