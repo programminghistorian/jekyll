@@ -1236,6 +1236,7 @@
     - editorial
     - board
     - new-pub-manager
+    - global
   status: volunteer
 
 - name: Armando Luza
