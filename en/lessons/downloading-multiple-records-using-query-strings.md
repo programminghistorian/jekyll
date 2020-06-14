@@ -41,6 +41,10 @@ and manipulating URL *Query Strings*. In this case, the tutorial will seek
 to download sources that contain references to people of African descent
 that were published in the *Old Bailey Proceedings* between 1700 and 1750.
 
+<div class="alert alert-warning">
+The examples in this lesson include historic racialized language that readers may find offensive. The author does not condone the use of this language but has tried to use it in its historic context, recognizing that it is otherwise impossible to find the desired materials of the case study. Anyone teaching with this material is advised to take a sensitive approach towards the language and to apply best practices when teaching about race. The author recommends the many resources from Teaching Tolerance (https://www.tolerance.org); Peggy McIntosh, ‘White Privilege: Unpacking the Invisible Knapsack’ Peace and Freedom Magazine, (1989), 10-12; Binyavanga Wainaina, ‘How to Write About Africa’, Granta (92): 2006.
+</div>
+
 ## For Whom is this Useful?
 
 Automating the process of downloading records from an online database
@@ -70,10 +74,10 @@ cases involving defendants of African descent. However, when we search for “bl
 find it often refers to other uses of the word: black horses, or black
 cloth. The task of disambiguating this use of language will have to wait
 for another lesson. For now, let’s turn to easier cases. As historians,
-we can probably think of keywords related to African descendants that
+we can probably think of keywords of historic racialised terms related to African descendants that
 would be worth pursuing. The infamous “n-word” of course is not useful,
 as this term did not come into regular usage until the mid-nineteenth
-century. “Negro” and “mulatto” are however, much more relevant to the
+century. Other racialised language such as “negro” and “mulatto” are however, much more relevant to the
 early eighteenth century. These keywords are less ambiguous than “black”
 and are much more likely to be immediate references to people in our
 target demographic. If we try these two terms in separate simple
