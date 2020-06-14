@@ -42,7 +42,7 @@ to download sources that contain references to people of African descent
 that were published in the *Old Bailey Proceedings* between 1700 and 1750.
 
 <div class="alert alert-warning">
-The examples in this lesson include historic racialized language that readers may find offensive. The author does not condone the use of this language but has tried to use it in its historic context, recognizing that it is otherwise impossible to find the desired materials of the case study. Anyone teaching with this material is advised to take a sensitive approach towards the language and to apply best practices when teaching about race. The author recommends the many resources from Teaching Tolerance (https://www.tolerance.org); Peggy McIntosh, ‘White Privilege: Unpacking the Invisible Knapsack’ Peace and Freedom Magazine, (1989), 10-12; Binyavanga Wainaina, ‘How to Write About Africa’, Granta (92): 2006.
+The examples in this lesson include historic racialized language that readers may find offensive. The author does not condone the use of this language but has tried to use it in its historic context, recognizing that it is otherwise impossible to find the desired materials of the case study. Anyone teaching with this material is advised to take a sensitive approach towards the language and to apply best practices when teaching about race. The author recommends the many resources from Teaching Tolerance (https://www.tolerance.org); Peggy McIntosh, ‘White Privilege: Unpacking the Invisible Knapsack’ *Peace and Freedom Magazine*, (1989), 10-12; Binyavanga Wainaina, ‘How to Write About Africa’, *Granta* (92): 2006.
 </div>
 
 ## For Whom is this Useful?
