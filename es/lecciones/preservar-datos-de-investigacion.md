@@ -268,4 +268,4 @@ UK Data Archive, 'Documenting your Data'
 [PRINCE2]: https://es.wikipedia.org/wiki/PRINCE2
 [independientes de plataforma]: https://es.wikipedia.org/wiki/Multiplataforma#Programaci.C3.B3n_multiplataforma
 [Komodo Edit]: http://komodoide.com/komodo-edit/
-[Text Wrangler]: https://itunes.apple.com/gb/app/id404010395?mt=12
+[Text Wrangler]: https://www.barebones.com/products/textwrangler/
