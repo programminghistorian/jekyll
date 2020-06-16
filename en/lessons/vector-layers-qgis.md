@@ -21,7 +21,7 @@ abstract: "In this lesson you will learn how to create vector layers based on
 scanned historical maps."
 next: georeferencing-qgis
 previous: qgis-layers
-series_total: 4 
+series_total: 4 lessons
 sequence: 3
 redirect_from: /lessons/vector-layers-qgis
 avatar_alt: Map of city streets
