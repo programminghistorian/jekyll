@@ -201,14 +201,14 @@ All lesson metadata and alerts should follow the convention of pulling appropria
   </div>
   {% endif %}
 
-  
+
 
 
    {% if page.previous or page.next %}
    <div class="series-warning alert alert-info">
     {{ site.data.snippets.series-note[page.lang] }} {{ page.series_total }} - {{ site.data.snippets.lesson-sequence[page.lang] }} {{ page.sequence }} | <a
        href="{{page.previous}}"> {{ site.data.snippets.previous-lesson[page.lang] }}</a> | <a
-       href="{{page.next}}"> {{ site.data.snippets.next-lesson[onpage.lang] }} </a> 
+       href="{{page.next}}"> {{ site.data.snippets.next-lesson[page.lang] }}</a> 
   </div>
    {% endif %}
 
