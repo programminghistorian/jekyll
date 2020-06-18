@@ -8,4 +8,4 @@ If you would like to contribute to the project, you can find detailed instructio
 
 For technical contributions to the project or to read about our policies for new language sub teams interested in creating a translation, please read our [Project Wiki](https://github.com/programminghistorian/jekyll/wiki).
 
-Our technical manager is Matthew Lincoln (@mdlincoln).
+Our technical manager is Zoe LeBlanc (@ZoeLeBlanc).
