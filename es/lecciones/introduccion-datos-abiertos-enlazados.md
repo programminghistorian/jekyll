@@ -409,8 +409,6 @@ Sin embargo, a pesar de sus inconsistencias, *DBpedia* es un gran lugar para apr
 
 * Biblioteca del Congreso Nacional de Chile, [Linked Open Data: ¿Qué es?](http://datos.bcn.cl/es/informacion/que-es)
 
-* Ricardo Santos Muñoz, [Introducción a Linked Open Data](http://www.aldee.org/archivos/publicaciones/Publicacion-1412939456.pdf)
-
 * Ana-Isabel Torre-Bastida, Marta González-Rodríguez y Esther Villar-Rodríguez, [Datos abiertos enlazados (LOD) y su implantación en bibliotecas: iniciativas y tecnologías](https://recyt.fecyt.es/index.php/EPI/article/download/epi.2015.mar.04/18804)
 
 
