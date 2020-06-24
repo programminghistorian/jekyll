@@ -1321,5 +1321,39 @@
   team: false
   orcid: 0000-0002-2020-1163
   bio:
+      es: |
+        Jairo Melo es Doctor en historia por El Colegio de Michoacán. Es investigador independiente en historia digital y humanidades digitales.
+
+- name: Daniel Alves
+  twitter: danielalvesfcsh
+  email: dra@fcsh.unl.pt
+  github: DanielAlvesLABDH
+  orcid: 0000-0002-3541-8197
+  team: true
+  team_start: 2020
+  institution: Universidade Nova de Lisboa
+  sortname: Alves
+  affiliation:
+    en: |
+        Universidade Nova de Lisboa, Portugal.
+    pt: |
+        Universidade Nova de Lisboa, Portugal.
     es: |
-      Jairo Melo es Doctor en historia por El Colegio de Michoacán. Es investigador independiente en historia digital y humanidades digitales.
+        Universidade Nova de Lisboa, Portugal.
+    fr: |
+        Universidade Nova de Lisboa, Portugal.
+  bio:
+    en: |
+        Daniel Alves is Assistant Professor in the Department of History and researcher at the Institute of Contemporary History, both at NOVA-FCSH, Universidade Nova de Lisboa. He coordinates the Digital Humanities Lab at NOVA-FCSH.
+    pt: |
+        Daniel Alves é Professor Auxiliar do Departamento de História e pesquisador do Instituto de História Contemporânea, ambos da NOVA-FCSH, Universidade Nova de Lisboa. É coordenaro do Laboratório de Humanidades Digitais na NOVA-FCSH.
+    es: |
+        Daniel Alves es Profesor Asistente en el Departamento de Historia e investigador en el Instituto de Historia Contemporánea, ambos en NOVA-FCSH, Universidade Nova de Lisboa. Coordina el Laboratorio de Humanidades Digitales en NOVA-FCSH.
+    fr: |
+        Daniel Alves est professeur adjoint au Département d'Histoire et chercheur à l'Institut d'Histoire Contemporaine, tous deux à NOVA-FCSH, Universidade Nova de Lisboa. Il coordonne le Laboratoire des Humanités Numériques au NOVA-FCSH.
+  team_roles:
+    - managing
+    - portuguese
+    - editorial
+    - proghist
+  status: volunteer
