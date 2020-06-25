@@ -95,7 +95,7 @@ import urllib.request, urllib.error, urllib.parse, obo
 url = 'http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33'
 
 respuesta = urllib.request.urlopen(url)
-html = respuesta.read()
+html = str(respuesta.read())
 texto = obo.quitarEtiquetas(html).lower() #incluye el metodo de cadena aqui
 listaPalabras = texto.split()
 

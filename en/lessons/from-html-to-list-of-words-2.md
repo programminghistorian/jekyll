@@ -35,7 +35,7 @@ doi: 10.46430/phen0007
 In this lesson, you will learn the Python commands needed to implement
 the second part of the algorithm begun in the [From HTML to a List of
 Words (part 1)][]. The first half of the algorithm gets the content of
-an HTML page and saves only the content betwee the first `<p>` and the last `<br/>`
+an HTML page and saves only the content between the first `<p>` and the last `<br/>`
 tags. The second half of the algorithm does the following:
 
 -   Look at every character in the *pageContents* string, one character at
@@ -167,6 +167,7 @@ version as well to make sure that your program does what ours does.
 ``` python
 # obo.py
 def stripTags(pageContents):
+    pageContents = str(pageContents)
     startLoc = pageContents.find("<p>")
     endLoc = pageContents.rfind("<br/>")
 

@@ -168,6 +168,7 @@ copy the following code into your file.
 # obo.py
 
 def stripTags(pageContents):
+    pageContents = str(pageContents)
     startLoc = pageContents.find("<p>")
     endLoc = pageContents.rfind("<br/>")
 
