@@ -17,7 +17,7 @@ original: support-us
 El proyecto agradece el siguiente apoyo:
 
 - La infraestructura para la asignación de DOI está apoyada por la [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/) [2020-Presente]
-- El desarrollo web está respaldado por el [laboratorio dSHARP en la Universidad Carnegie Mellon](http://dsharp.library.cmu.edu) y la [Fundación Andrew W. Mellon](https://mellon.org) [2018-Presente]
+- El desarrollo web está respaldado por el [laboratorio dSHARP en la Universidad Carnegie Mellon](http://dsharp.library.cmu.edu) y la [Fundación Andrew W. Mellon](https://mellon.org) [2018-2020]
 - Apoyo continuado de alojamiento web del [Centro para la Historia y los Nuevos Medios Roy Rosenzweig](http://chnm.gmu.edu/) [2011-Presente]
 - Financiación para apoyar el proyecto "Programming Historian: desarrollo y mantenimiento del impacto en el Sur Global", proporcionado por el [ESRC Impact Accelerator Account, Universidad de Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/) [2019]
 - Financiación para desarrollar la guía de estilo proporcionada por la [Escuela de Humanidades, Universidad de Hertfordshire](https://www.herts.ac.uk/study/schools-of-study/humanities) [2019].
