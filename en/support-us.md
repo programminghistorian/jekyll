@@ -18,7 +18,7 @@ The Programming Historian is a volunteer-driven project. We are committed to ope
 The project is grateful for the following support:
 
 - DOI infrastructure is supported by the [University of Sussex Library](https://www.sussex.ac.uk/library/) [2020-Present].
-- Web development is supported by the [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) and the [Andrew W. Mellon Foundation](https://mellon.org/) [2018-Present].
+- Web development is supported by the [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) and the [Andrew W. Mellon Foundation](https://mellon.org/) [2018-2020].
 - Ongoing hosting support from the Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)) [2011-Present].
 - Funding to support the project "The Programming Historian: developing and sustaining impact in the Global South" provided by the [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/) [2019]. 
 - Funding to support the development of a style guide provided by the [School of Humanities, University of Hertfordshire](https://www.herts.ac.uk/study/schools-of-study/humanities) [2019].
