@@ -156,7 +156,7 @@ that the HTML source of the page is the same as the source that your
 program retrieved. Each browser has a different shortcut key to open the
 page source. In Firefox on PC it is `CTRL+u`. If you cannot find it on
 your browser, try using a search engine to find where it is. (See the
-Python library reference to learn more about [urllib2](https://docs.python.org/2/library/urllib2.html).)
+Python library reference to learn more about [urllib](https://docs.python.org/3/library/urllib.html?highlight=urllib).)
 
 ``` python
 # open-webpage.py
@@ -183,7 +183,7 @@ ourselves.
 case, it is the trial of Benjamin Bowsey.
 
 On the following line, we call the function `urlopen`, which is stored in
-a Python module named `urllib2.py`, and we have asked that function to
+a Python module named `urllib.py`, and we have asked that function to
 open the website found at the URL we just specified. We then saved the
 result of that process into a variable named *response*. That variable now
 contains an open version of the requested website.
