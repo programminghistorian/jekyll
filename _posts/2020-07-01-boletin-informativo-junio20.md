@@ -34,7 +34,7 @@ Zoe, junto con Matt Lincoln, probó diferentes opciones, pero quería, en últim
 
 Estamos encantados y agradecidos de anunciar que [El Centro de Edimburgo de Datos, Cultura y Sociedad (CDCS)](https://www.cdcs.ed.ac.uk) es nuestro nuevo miembro en el [Programa de Instituciones Asociadas](https://programminghistorian.org/es/apoyanos#programa-de-instituciones-asociadas)! Fundado en 2019 como una iniciativa de la Facultad de Artes, Humanidades y Ciencias Sociales de la Universidad de Edimburgo y dirigida por la profesora Melissa Terras, CDCS proporciona un lugar para la investigación basada en datos y métodos digitales en todas las disciplinas. Ofrece capacitación, eventos y apoyo a una amplia comunidad de investigadores.
 
-<img src="/images/blog/cdcs-uk-logo.jpg" alt="Logo del Centro de Edimburgo de Datos, Cultura y Sociedad (CDCS)"/>
+<img src="/images/blog/cdcs-uk-logo.png" alt="Logo del Centro de Edimburgo de Datos, Cultura y Sociedad (CDCS)"/>
 
 Nos comparten: 
 
