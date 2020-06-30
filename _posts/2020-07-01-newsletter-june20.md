@@ -36,9 +36,7 @@ Zoe, together with Matt Lincoln, tried different options but wanted to, ultimate
 
 We are thrilled and honored to announce that [The Edinburgh Centre for Data, Culture & Society (CDCS)](https://www.cdcs.ed.ac.uk) is our newest [Institutional Partner Programme](https://programminghistorian.org/en/support-us#institutional-partner-programme) member! Founded in 2019 as an initiative of the College of Arts, Humanities and Social Sciences at the University of Edinburgh and directed by Professor Melissa Terras, CDCS provides a locus for data-driven and digitally-engaged research across the disciplines and provides training, events and research support to a broad community of researchers. 
 
-![cdcs-uk-logo](/Users/jmi5216/Downloads/cdcs-uk-logo.png)
-
-<img src="/images/blog/cdcs-uk-logo.jpg" alt="Logo of The Edinburgh Centre for Data, Culture & Society (CDCS)"/>
+<img src="/images/blog/cdcs-uk-logo.png" alt="Logo of The Edinburgh Centre for Data, Culture & Society (CDCS)"/>
 
 They share: 
 
