@@ -62,7 +62,7 @@ Esperamos que todos los que asistieron a estos talleres los encontraran muy úti
 
 ## Nuevas miembros de PH (y publicación a la vista)
 
-Hemos comenzado a trabajar en la que será nuestra cuarta publicación, *Programming Historian em português*, con su primer miembro y editor gerente Daniel Alves a bordo ya en nuestro repositorio y flujo de trabajo de GitHub. Daniel es profesor asistente en el Departamento de Historia e investigador en el Instituto de Historia Contemporánea, ambos en NOVA-FCSH, Universidade Nova de Lisboa, Portugal, donde también coordina el [Laboratorio de Humanidades Digitales](https: //dhlab.fcsh .unl.pt).
+Hemos comenzado a trabajar en la que será nuestra cuarta publicación, *Programming Historian em português*, con su primer miembro y editor gerente Daniel Alves a bordo ya en nuestro repositorio y flujo de trabajo de GitHub. Daniel es profesor asistente en el Departamento de Historia e investigador en el Instituto de Historia Contemporánea, ambos en NOVA-FCSH, Universidade Nova de Lisboa, Portugal, donde también coordina el [Laboratorio de Humanidades Digitales](https://dhlab.fcsh.unl.pt).
 
 ¡Bienvenido, bem vindo Daniel!
 
