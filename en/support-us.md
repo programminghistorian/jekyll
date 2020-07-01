@@ -30,7 +30,7 @@ The project is grateful for the following support:
   - [KU Leuven Libraries](https://bib.kuleuven.be/) [2020-Present]
   - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library) [2020-Present]
   - [University of Sussex Library](https://www.sussex.ac.uk/library/) [2020-Present]
-  - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/ [2020-Present]
+  - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/) [2020-Present]
 
 ## Donate to Us
 
