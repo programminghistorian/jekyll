@@ -69,7 +69,7 @@ Hemos comenzado a trabajar en la que será nuestra cuarta publicación, *Program
 
 ## Miembro jubilado
 
-Lamentablemente anunciamos que nuestro Jefe Técnico y editor [Matt Lincoln ha decidido jubilarse de *Programming Historian*](https://matthewlincoln.net/2020/06/18/leaving-programming-historian.html) desde el 18 de junio. Ha sido un placer tenerlo como colega y todos hemos aprendido mucho de su arduo trabajo. Creo que toda la comunidad le está agradecida por hacer que la revista sea más accesible, multilingüe y compatible con sistemas de citado. Para nosotros, los editores, facilitó la publicación de lecciones con metadatos y validación de enlaces que señalan posibles errores antes de que podamos publicar cualquier contenido nuevo.
+Lamentablemente anunciamos que nuestro Jefe Técnico y editor [Matt Lincoln ha decidido jubilarse de *Programming Historian*](https://matthewlincoln.net/2020/06/18/leaving-programming-historian.html) desde el 18 de junio. Ha sido un placer tenerlo como colega y todos hemos aprendido mucho de su arduo trabajo. Creemos que toda la comunidad le está agradecida por hacer que la revista sea más accesible, multilingüe y compatible con sistemas de citado. Para nosotros, los editores, facilitó la publicación de lecciones con metadatos y validación de enlaces que señalan posibles errores antes de que podamos publicar cualquier contenido nuevo.
 
 En su mensaje de despedida al equipo, nos recordó amablemente:
 
