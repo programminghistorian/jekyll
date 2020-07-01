@@ -29,6 +29,7 @@ El proyecto agradece el siguiente apoyo:
   - [Bibliotecas de la Universidad Católica de Lovaina](https://bib.kuleuven.be/) [2020-Presente]
   - [Instituto de Investigación Histórica de la Biblioteca Wohl](https://www.history.ac.uk/library) [2020-Presente]
   - [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/) [2020-Presente]
+  - [Centro de Datos, Cultura y Sociedad de la Universidad de Edimburgo](https://www.cdcs.ed.ac.uk/) [2020-Presente]
 
 ## Donaciones
 Los patrocinadores individuales del _Programming Historian en Español_ son vitales para aumentar, mejorar y mantener nuestro trabajo. Aceptamos donativos únicos y recurrentes.  
