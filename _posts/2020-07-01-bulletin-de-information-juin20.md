@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/summer.jpg" alt="Une image recadrée avec le mot l'été." title="Bon été à notre public de l'hémisphère nord!"/>
+<img src="/images/blog/summer.jpg" alt="Une image recadrée avec le mot l'été." caption="Bon été à notre public de l'hémisphère nord!"/>
 
 Nous avons atteint plusieurs objectifs au cours du deuxième trimestre de 2020: nous avons une nouvelle fonctionnalité, des numéros DOI, de nouvelles leçons, de nouveaux membres de l'équipe de projet et de nouveaux supporters. Nous avons eu plus de 428 000 visites.
 
@@ -120,4 +120,4 @@ Pour nous aider à pérenniser notre travail et à continuer d'occuper une place
 
 L'équipe du *Programming Historian* souhaite à nos lecteurs et lectrices de l'hémisphère Sud un joyeux début d'hiver et à ceux et celles de l'hémisphère Nord un bon été! Surtout, faites attention et prenez soin de vous.
 
-<img src="/images/blog/winter.jpg" alt="Une image recadrée avec le mot hiver." title="Bon hiver à notre public de l'hémisphère sud!"/>
+<img src="/images/blog/winter.jpg" alt="Une image recadrée avec le mot hiver." caption="Bon hiver à notre public de l'hémisphère sud!"/>
