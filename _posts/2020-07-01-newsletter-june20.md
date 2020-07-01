@@ -6,9 +6,9 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/summer.jpg" alt="A cropped image with the word Summer." title="Happy Summer to our audience in the northern hemisphere!"/>
+<img src="/images/blog/summer.jpg" alt="A cropped image with the word Summer." caption="Happy Summer to our audience in the northern hemisphere!"/>
 
-We accomplished several goals on in the second trimester of 2020: we have a new functionality, DOI numbers, new lessons, new and retiring project team members, and new supporters. We have had over 428,000 visits.
+We accomplished several goals in the second trimester of 2020: we have a new functionality, DOI numbers, new lessons, new and retiring project team members, and new supporters. We have had over 428,000 visits.
 
 To all of you, thank you for relying on our lessons to learn or practice digital methods! 
 
@@ -72,7 +72,7 @@ Welcome, bem vindo Daniel!
 
 ## Retiring Member 
 
-We sadly announce that our Technical Lead and editor [Matt Lincoln has decided to retire from *Programming Historian*](https://matthewlincoln.net/2020/06/18/leaving-programming-historian.html) as of June 18th. It has been a pleasure to have him as a colleague and we have all learned a lot from his ardous work. I belive the entire community is grateful to him for making the journal more accessible, multilingual, citation compatible and searchable. For us editors, he made publishing lessons easier with metadata and link validation that flag potential errors before we can launch any new content. 
+We sadly announce that our Technical Lead and editor [Matt Lincoln has decided to retire from *Programming Historian*](https://matthewlincoln.net/2020/06/18/leaving-programming-historian.html) as of June 18th. It has been a pleasure to have him as a colleague and we have all learned a lot from his ardous work. I believe the entire community is grateful to him for making the journal more accessible, multilingual, citation compatible and searchable. For us editors, he made publishing lessons easier with metadata and link validation that flag potential errors before we can launch any new content. 
 
 In his farewell message to the team, he kindly reminded us: 
 
@@ -126,5 +126,5 @@ To help us make our work more sustainable and to continue being leaders in multi
 
 The *Programming Historian* team wishes all of our readers in the southern hemisphere a happy begining of Winter and a happy Summer to those in the northern hemisphere! Stay safe. 
 
-<img src="/images/blog/winter.jpg" alt="A cropped image with the word Winter." title="Happy Spring to our audience in the southern hemisphere!"/>
+<img src="/images/blog/winter.jpg" alt="A cropped image with the word Winter." caption="Happy Spring to our audience in the southern hemisphere!"/>
 
