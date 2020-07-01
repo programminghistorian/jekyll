@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-<img src="/images/blog/summer.jpg" alt="Imagen recortada con la palabra verano en inglés" title="¡Feliz verano a los usuarios del hemisferio norte!"/>
+<img src="/images/blog/summer.jpg" alt="Imagen recortada con la palabra verano en inglés" caption="¡Feliz verano a los usuarios del hemisferio norte!"/>
 
 Hemos cumplido varios objetivos en el segundo trimestre de 2020: tenemos una nueva funcionalidad de búsqueda, identificadores DOI, nuevas lecciones, nuevos y jubilados miembros del equipo del proyecto y nuevos patrocinadores. Y hemos tenido más de 428,000 visitas.
 
@@ -18,7 +18,7 @@ Hemos cumplido varios objetivos en el segundo trimestre de 2020: tenemos una nue
 
 Debido a la naturaleza del material publicado en *Programming Historian*, parte de nuestra audiencia no está segura de cómo hacer referencia a nuestro contenido o cómo citarlo. Antes, para cada artículo en acceso abierto y revisado por pares, ya teníamos metadatos de citas añadidos en el HTML y añadíamos el ORCID de los contribuyentes de la lección, junto con una "cita sugerida" en la parte inferior de cada página de la lección.
 
-Para unirnos a un ecosistema académico más amplio y en asociación con la [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/), ahora cada artículo también tiene su propio DOI o [*Identificador de objeto digital*](https://es.wikipedia.org/wiki/Identificador_de_objeto_digital). Este enlace identificará permanentemente los artículo en Internet, haciendo a su vez más fácil su citado.
+Para unirnos a un ecosistema académico más amplio y en asociación con la [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/), ahora cada artículo también tiene su propio DOI o [*Identificador de objeto digital*](https://es.wikipedia.org/wiki/Identificador_de_objeto_digital). Este enlace identificará permanentemente los artículos en Internet, haciendo a su vez más fácil su citado.
 
 Por supuesto, esto ha requerido algunos cambios técnicos o adiciones por parte de Matt Lincoln, quien también [publicó en el blog](https://programminghistorian.org/posts/dois-for-ph) el proceso (disponible en inglés) para ayudar a otros miembros de la comunidad que podrían estar investigando cómo agregar DOI a sus publicaciones.
 
@@ -29,10 +29,9 @@ Nuestra nueva líder técnica y miembro editorial Zoe LeBlanc pasó varias seman
 Zoe, junto con Matt Lincoln, probó diferentes opciones, pero quería, en última instancia, optimizar la velocidad así como la precisión de los resultados de forma que funcionara con la arquitectura de páginas estáticas. Si quieres aprender cómo funciona esta configuración, puedes leer la publicación de Zoe ["Búsqueda de texto completo para lecciones"](https://programminghistorian.org/posts/full-text-search) en nuestro blog (disponible solo en inglés ) ¡**Gracias** Zoe por hacer esto posible!
 
 
-
 ## Nuevo patrocinador institucional 
 
-Estamos encantados y agradecidos de anunciar que [El Centro de Edimburgo de Datos, Cultura y Sociedad (CDCS)](https://www.cdcs.ed.ac.uk) es nuestro nuevo miembro en el [Programa de Instituciones Asociadas](https://programminghistorian.org/es/apoyanos#programa-de-instituciones-asociadas)! Fundado en 2019 como una iniciativa de la Facultad de Artes, Humanidades y Ciencias Sociales de la Universidad de Edimburgo y dirigida por la profesora Melissa Terras, CDCS proporciona un lugar para la investigación basada en datos y métodos digitales en todas las disciplinas. Ofrece capacitación, eventos y apoyo a una amplia comunidad de investigadores.
+Estamos encantados y agradecidos de anunciar que [El Centro de Edimburgo de Datos, Cultura y Sociedad (CDCS)](https://www.cdcs.ed.ac.uk) es nuestro nuevo miembro en el [Programa de Instituciones Asociadas](https://programminghistorian.org/es/apoyanos#programa-de-instituciones-asociadas). Fundado en 2019 como una iniciativa de la Facultad de Artes, Humanidades y Ciencias Sociales de la Universidad de Edimburgo y dirigido por la profesora Melissa Terras, CDCS proporciona un lugar para la investigación basada en datos y métodos digitales en todas las disciplinas. Ofrece capacitación, eventos y apoyo a una amplia comunidad de investigadores.
 
 <img src="/images/blog/cdcs-uk-logo.png" alt="Logo del Centro de Edimburgo de Datos, Cultura y Sociedad (CDCS)"/>
 
@@ -60,7 +59,7 @@ Esperamos que todos los que asistieron a estos talleres los encontraran muy úti
 
 
 
-## Nuevas miembros de PH (y publicación a la vista)
+## Nuevo miembro de PH (y publicación a la vista)
 
 Hemos comenzado a trabajar en la que será nuestra cuarta publicación, *Programming Historian em português*, con su primer miembro y editor gerente Daniel Alves a bordo ya en nuestro repositorio y flujo de trabajo de GitHub. Daniel es profesor asistente en el Departamento de Historia e investigador en el Instituto de Historia Contemporánea, ambos en NOVA-FCSH, Universidade Nova de Lisboa, Portugal, donde también coordina el [Laboratorio de Humanidades Digitales](https://dhlab.fcsh.unl.pt).
 
@@ -70,7 +69,7 @@ Hemos comenzado a trabajar en la que será nuestra cuarta publicación, *Program
 
 ## Miembro jubilado
 
-Lamentablemente anunciamos que nuestro Jefe Técnico y editor [Matt Lincoln ha decidido jubilarse de *Programming Historian*](https://matthewlincoln.net/2020/06/18/leaving-programming-historian.html) desde el 18 de junio. Ha sido un placer tenerlo como colega y todos hemos aprendido mucho de su arduo trabajo. Creo que toda la comunidad le está agradecida por hacer que la revista sea más accesible, multilingüe y compatible con sistamas de citado. Para nosotros, los editores, facilitó la publicación de lecciones con metadatos y validación de enlaces que señalan posibles errores antes de que podamos publicar cualquier contenido nuevo.
+Lamentablemente anunciamos que nuestro Jefe Técnico y editor [Matt Lincoln ha decidido jubilarse de *Programming Historian*](https://matthewlincoln.net/2020/06/18/leaving-programming-historian.html) desde el 18 de junio. Ha sido un placer tenerlo como colega y todos hemos aprendido mucho de su arduo trabajo. Creo que toda la comunidad le está agradecida por hacer que la revista sea más accesible, multilingüe y compatible con sistemas de citado. Para nosotros, los editores, facilitó la publicación de lecciones con metadatos y validación de enlaces que señalan posibles errores antes de que podamos publicar cualquier contenido nuevo.
 
 En su mensaje de despedida al equipo, nos recordó amablemente:
 
@@ -122,4 +121,4 @@ Para ayudarnos a hacer que nuestro trabajo sea más sostenible y continuar siend
 
 El equipo de *Programming Historian* desea a nuestros lectores un feliz invierno a los usuarios del hemisferio sur y un feliz verano a aquellos en el hemisferio norte. 
 
-<img src="/images/blog/winter.jpg" alt="Imagen recortada con la palabra invierno en inglés" title="¡Feliz invierno a los usuarios del hemisferio sur!"/>
+<img src="/images/blog/winter.jpg" alt="Imagen recortada con la palabra invierno en inglés" caption="¡Feliz invierno a los usuarios del hemisferio sur!"/>
