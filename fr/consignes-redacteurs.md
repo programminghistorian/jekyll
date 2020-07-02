@@ -134,7 +134,7 @@ Vous pouvez vérifier rapidement si tout se présente correctement au cours de l
 
 `http://programminghistorian.github.io/ph-submissions/fr/lecons/NOM-DU-FICHIER-ICI`  (attention, pas d'extension .md à la fin)
 
-Si cela ne marche pas, merci d'en informer Matthew Lincoln qui s'occupera du problème.
+Si cela ne marche pas, merci d'en informer notre équipe technique qui s'occupera du problème.
 
 ### C) Vérifier la pérennité et de l'ouverture internationale
 
@@ -330,7 +330,7 @@ Il existe différentes manières de faire un "pull request" pour publier les fic
 
 * A) Suivre nos [consignes pour faire des contributions techniques](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions) via l'interface GUI de Github.
 
-* B) Utiliser `git` depuis la ligne de commande. Les instructions suivantes supposent que vous avez déjà cloné les dépôts `jekyll` and `ph-submissions` en local sur votre machine. Notre [leçon sur l'utilisation de l'application GitHub Desktop](/lessons/getting-started-with-github-desktop) peut vous être utile, si cela est tout nouveau pour vous. Si vous n'êtes pas confiant(e) sur comment procéder ou si vous avez des questions, merci de contacter Matthew Lincoln pour obtenir de l'aide.
+* B) Utiliser `git` depuis la ligne de commande. Les instructions suivantes supposent que vous avez déjà cloné les dépôts `jekyll` and `ph-submissions` en local sur votre machine. Notre [leçon sur l'utilisation de l'application GitHub Desktop](/lessons/getting-started-with-github-desktop) peut vous être utile, si cela est tout nouveau pour vous. Si vous n'êtes pas confiant(e) sur comment procéder ou si vous avez des questions, merci de contacter l'équipe technique pour obtenir de l'aide.
 
 
 1. Aller au répertoire de votre dépôt local `ph-submissions`.

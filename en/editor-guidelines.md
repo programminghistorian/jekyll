@@ -144,7 +144,7 @@ You can quickly check that everything looks correct on a lesson submission by lo
 
 `http://programminghistorian.github.io/ph-submissions/lessons/FILENAME-HERE`  (note - no .md at the end)
 
-If that doesn't work, let Matthew Lincoln know, and he will try to diagnose it.
+If that doesn't work, let the technical team know, and they will try to diagnose it.
 
 ### C) Sustainability & Internationalization Review
 To increase the lifespan of our lessons, _Programming Historian_ editors should complete a sustainability review as a part of their final checklist. Every submission is different and some of these areas may not be applicable to all submissions. Keeping in mind the difficulty level of each lesson and its intended audience, editors should use these areas as guidelines to ensure that lessons are as sustainable as possible from the date of publication.
@@ -342,7 +342,7 @@ There are several ways that you can perform a pull request to publish the files:
 
 * A) Follow our ["Making Technical Contributions" guidelines](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions), which uses the Github website GUI.
 
-* B) Use `git` from the command line. The following instructions assume that you have already cloned both the `jekyll` and `ph-submissions` repositories to your local machine. (Our [lesson on using GitHub Desktop](/lessons/getting-started-with-github-desktop) may be helpful if this is new to you.) If you are not sure how to do that or have any questions, contact Matthew Lincoln for assistance.
+* B) Use `git` from the command line. The following instructions assume that you have already cloned both the `jekyll` and `ph-submissions` repositories to your local machine. (Our [lesson on using GitHub Desktop](/lessons/getting-started-with-github-desktop) may be helpful if this is new to you.) If you are not sure how to do that or have any questions, contact the technical team for assistance.
 
  1. Go to the directory for your local `ph-submissions` repository.
  2. `git pull` to get all of the newest changes on your machine (or `sync` if you are using GitHub Desktop)
