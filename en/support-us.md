@@ -25,11 +25,12 @@ The project is grateful for the following support:
 - Funding to support establishing the Programming Historian as a legal entity provided by the [School of History, Art History and Philosophy, University of Sussex](http://www.sussex.ac.uk/hahp/) [2019]. 
 - Funding for a writing workshop in Bogota, Colombia, supported by the [British Academy](https://www.britac.ac.uk/) [2018].
 - Seed funding and project management support from the Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) [2011-2013].
-- Our founding [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers Rachel Murphy ('Subscriber' tier), Miriam Posner ('Sponsor' tier), and Tim Hitchcock ('Patron' tier). We would particularly like to thank the following 'Patron' tier [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers: Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett.
+- Our founding [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers Rachel Murphy ('Subscriber' tier), Miriam Posner ('Sponsor' tier), and Tim Hitchcock ('Patron' tier). We would particularly like to thank the following 'Patron' tier [Patreon](https://www.patreon.com/theprogramminghistorian) subscribers: Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett, Michael Piotrowski.
 - Our [Institutional Partner Programme](en/support-us#institutional-partner-programme) members:
   - [KU Leuven Libraries](https://bib.kuleuven.be/) [2020-Present]
   - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library) [2020-Present]
   - [University of Sussex Library](https://www.sussex.ac.uk/library/) [2020-Present]
+  - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/) [2020-Present]
 
 ## Donate to Us
 
