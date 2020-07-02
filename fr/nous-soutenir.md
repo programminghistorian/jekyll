@@ -30,6 +30,7 @@ Le projet est reconnaissant pour leur soutien à:
   - Les bibliothèques de la [KU Leuven](https://bib.kuleuven.be/) [2020-actuellement]
   - La [bibliothèque Wohl de l'Institut de recherche historique de la School of Advanced Study de l'université de Londres](https://www.history.ac.uk/library) [2020-actuellement]
   - La [Bibliothèque de l'université du Sussex](https://www.sussex.ac.uk/library/) [2020-actuellement]
+  - Le [Centre for Data, Culture and Society, Université d'Édimbourg](https://www.cdcs.ed.ac.uk/) [2020-actuellement]
  
 ## Donations
 
