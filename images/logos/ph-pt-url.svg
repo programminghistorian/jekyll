@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="ph-pt-url.svg"
+   inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
+   id="svg912"
+   version="1.1"
+   viewBox="0 0 900 900"
+   height="900mm"
+   width="900mm">
+  <defs
+     id="defs906" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1015"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="1631.4286"
+     inkscape:cx="1598.7575"
+     inkscape:zoom="0.17"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata909">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="g1533">
+      <rect
+         y="2.5986876"
+         x="4.9519777"
+         height="891.245"
+         width="891.39618"
+         id="rect833"
+         style="fill:#d5b563;fill-opacity:1;stroke-width:0.844571" />
+    </g>
+    <g
+       transform="translate(1.4099616)"
+       id="g1557">
+      <text
+         id="text837"
+         y="560.28003"
+         x="69.890045"
+         style="font-size:380.312px;line-height:1.85;font-family:sans-serif;letter-spacing:1.7px;word-spacing:0px;stroke-width:1.14094"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:380.312px;font-family:'Crete Round';-inkscape-font-specification:'Crete Round';fill:#ffffff;stroke-width:1.14094"
+           y="560.28003"
+           x="69.890045"
+           id="tspan835"
+           sodipodi:role="line">[PH]</tspan></text>
+      <text
+         id="text845"
+         y="562.51166"
+         x="347.85965"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.4631px;line-height:1.85;font-family:'Crete Round';-inkscape-font-specification:'Crete Round';letter-spacing:0px;word-spacing:0px;stroke-width:0.765239"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:146.927px;font-family:'Crete Round';-inkscape-font-specification:'Crete Round';fill:#ffffff;stroke-width:0.765239"
+           y="562.51166"
+           x="347.85965"
+           id="tspan843"
+           sodipodi:role="line">t</tspan></text>
+    </g>
+    <text
+       id="text1507"
+       y="769.19611"
+       x="113.97143"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.9865px;line-height:1.85;font-family:'Crete Round';-inkscape-font-specification:'Crete Round';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.203054"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.9865px;font-family:'Crete Round';-inkscape-font-specification:'Crete Round';fill:#ffffff;stroke-width:0.203054"
+         y="769.19611"
+         x="113.97143"
+         id="tspan1505"
+         sodipodi:role="line">https://programminghistorian.org/pt</tspan></text>
+  </g>
+</svg>
