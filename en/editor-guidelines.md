@@ -50,7 +50,13 @@ The main editorial contact for this lesson is [EDITOR USERNAME]. If there are an
 
 The editor is encouraged to adjust the issue text to reflect any additional goals or requirements agreed upon between the author(s) and editor.
 
-Upon successful submission of the lesson, the editor will create a review ticket for the lesson and close the proposal issue.
+When the lesson materials are ready for submission, the author will contact their assigned editor, whose job will be to upload them to the [ph-submissions repository](https://github.com/programminghistorian/ph-submissions) after first checking to ensure that there are no major metadata issues. 
+
+1. **Uploading the Lesson**: the lesson itself should be uploaded to the [lessons folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). If you need help, see [GitHub's instructions](https://help.github.com/articles/adding-a-file-to-a-repository/).
+2. **Uploading Images**: if the lesson includes images, make sure all of the files are named according to the naming conventions specified in the [author guidelines](/author-guidelines). The editor should create a folder for the images in the  [images directory](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). This folder should have the same name as the lesson filename. Upload the images to this folder.
+3. **Uploading Data**: if the lesson includes data files, they should be uploaded to a similarly named folder in the [assets directory](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets).
+
+After uploading, the editor should check the [commit history for the repository](https://github.com/programminghistorian/ph-submissions/commits/gh-pages) to ensure that their upload received a green check mark. If not, something went wrong and the [wiki](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions#checking-travis-for-errors) should be consulted for troubleshooting the errors. Upon successful submission of the lesson, the editor will create a review ticket for the lesson and close the proposal issue.
 
 ### Open Peer Review
 The *Programming Historian* uses a model of open peer review, while we believe this helps maintain civility and the productive sharing of ideas, authors have the right (and we have a requirement to respect that right) to request a closed peer review. There are many reasons why someone might be hesitant to engage in an open review and we encourage authors to always pursue the option with which they are most comfortable.
