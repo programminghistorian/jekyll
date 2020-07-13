@@ -49,7 +49,7 @@ Desde tu navegador favorito ingresa en [www.mapwarper.net](https://mapwarper.net
 ### Cargar mapa
 Para cargar un material cartográfico en Map Warper selecciona la pestaña “Upload Map”. Ahí podrás vincular el mapa directamente desde un archivo local o anclarla desde un repositorio web por medio de la URL correspondiente. En este paso también puedes ir agregando los metadatos del material a georreferenciar. Para concluir debes hacer clic en la opción “Create”.
 
-En caso de no tener un mapa para cargar a la herramienta puedes realizar el tutorial seleccionando uno del siguiente [listado](https://docs.google.com/spreadsheets/d/1Lm_S6E8JfPSHrmcimBNye3g7QcfQ8xe-fUx8n_Nr8iY/edit?usp=sharing). Así, además de aprender, también ayudarás a georreferenciar un mapa del proyecto colaborativo de la Mapoteca Digital de la Biblioteca Nacional de Colombia.
+En caso de no tener un mapa para cargar a la herramienta puedes realizar el tutorial seleccionando uno del siguiente [listado](/assets/map-warper.csv). Así, además de aprender, también ayudarás a georreferenciar un mapa del proyecto colaborativo de la Mapoteca Digital de la Biblioteca Nacional de Colombia.
 
 > Si se selecciona un mapa del listado para georreferenciar, es posible saltar a la sección *Georreferenciación*
 
@@ -72,7 +72,7 @@ La pestaña “Metadata” visualiza la información cumplimentada en la etapa d
 ## Georreferenciación
 En este tutorial explicaremos el proceso de georreferenciación con el [Mapa Cafetero de la República de Colombia](http://catalogoenlinea.bibliotecanacional.gov.co/custom/web/content/mapoteca/fmapoteca_984_figac_16/fmapoteca_984_figac_16.html) de la Mapoteca Digital de la Biblioteca Nacional de Colombia. El documento cartográfico lo publicó la Federación Nacional de Cafeteros de Colombia en 1933, en una época en donde el café era la industria agrícola rectora de la economía colombiana, como resultado del primer censo cafetero del país realizado en 1932.
 
-Recordamos que en caso de no tener cargada cartografía alguna, se podrá utilizar los mapas del siguiente listado, y en caso de recurrir al [listado](https://docs.google.com/spreadsheets/d/1Lm_S6E8JfPSHrmcimBNye3g7QcfQ8xe-fUx8n_Nr8iY/edit?usp=sharing) resaltar el mapa seleccionado en el interior del listado.
+Recordamos que en caso de no tener cargada cartografía alguna, se podrá utilizar los mapas del siguiente listado, y en caso de recurrir al [listado](/assets/map-warper.csv) resaltar el mapa seleccionado en el interior del listado.
 
 ### Visualización del mapa
 Esta pestaña nos presenta la visualización del documento cartográfico vinculado. Entre las herramientas de navegación contamos con la opción de acercar y mover. En este segmento es importante explorar el documento cartográfico y formularse las siguientes preguntas: ¿qué lugar está representando en el material cartográfico? ¿Cuáles fueron los cambios a lo largo del tiempo del espacio representado? ¿Reconoces algún punto de referencia geográfica vigente? También es importante preguntarse sobre cuál es el sentido de la georreferenciación del mapa antiguo a realizar.  
