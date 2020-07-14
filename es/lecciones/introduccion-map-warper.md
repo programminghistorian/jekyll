@@ -17,6 +17,7 @@ activity: transforming
 topics: [mapping]
 abstract: En esta lección aprenderás a georreferenciar imágenes digitales con la herramienta Map Warper y a vincularlas a sistemas de información geográficos.
 avatar_alt: imagen de un mapa Cafetero de la República de Colombia
+doi: 10.46430/phes0048
 
 ---
 
