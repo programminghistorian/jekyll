@@ -11,7 +11,7 @@ reviewers:
 - Amanda Morton
 editors:
 - Miriam Posner
-translation_date: 2020-06-26
+translation_date: 2020-07-13
 translator:
 - Sofia Papastamkou
 translation-editor:
