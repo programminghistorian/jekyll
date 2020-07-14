@@ -14,6 +14,10 @@ editors:
 translation_date: 2020-06-26
 translator:
 - Sofia Papastamkou
+translation-editor:
+- François Dominic Laramée
+translation-reviewer:
+- Marie-Christine Boucher
 difficulty: 1
 exclude_from_check:
   - review-ticket
