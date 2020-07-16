@@ -63,13 +63,13 @@ Si vous ne voyez pas le volet `Toolbox` (*Boîte à outils*) en haut à droite, 
 
 Vous devez maintenant configurer l'éditeur pour pouvoir exécuter vos programmes en Python. 
 
-Sélectionnez d'abord `Edit -> Preferences -> Languages -> Python 3` (*Modifier -> Préférences -> Langues -> Python 3*) puis `Browse` (*Parcourir*). Puis, sélectionnez le chemin du répertoire d'installation de Python, qui ressemble à ceci: `C:\Utilisateurs\VotreNomUtilisateur\AppData\Local\Programs\Python\Python38-32`). Lorsque vous avez trouvé le bon chemin, cliquez sur `OK`:
+Sélectionnez d'abord `Edit -> Preferences -> Languages -> Python 3` (*Modifier -> Préférences -> Langages -> Python 3*) puis `Browse` (*Parcourir*). Puis, sélectionnez le chemin du répertoire d'installation de Python, qui ressemble à ceci: `C:\Utilisateurs\VotreNomUtilisateur\AppData\Local\Programs\Python\Python38-32`). Lorsque vous avez trouvé le bon chemin, cliquez sur `OK`:
 
 {% include figure.html caption="Définissez l'interpréteur Python par défaut" filename="komodo-edit11-windows-interpreter.png" %}
 
 *(N.D.L.R. En effectuant la manipulation décrite plus haut, après avoir cliqué sur `Browse` pour parcourir votre disque dur et afficher la boîte de dialogue `Open Executable File`, il se peut que vous n'arriviez pas à localiser le dossier AppData pour récupérer le chemin et définir l'interpréteur par défaut. Dans ce cas, entrez `%AppData%` dans la barre de recherche du menu `Démarrer` de Windows, puis cliquez sur l'emplacement pour l'ouvrir. Localisez le chemin spécifié ci-haut (`\AppData\Local\Programs\Python\Python38-32`) puis retournez à la boîte de dialogue `Open Executable File` (à l'intérieur de Komodo Edit) et copiez-le dans la barre `Nom du fichier`. Une fois le répertoire ouvert, sélectionnez `python.exe` (type de fichier: application) et cliquez sur `Ouvrir`.*
 
-Ensuite, depuis le menu `Preferences` (*Préférences*) à gauche sélectionnez `Internationalization`. Maintenant, allez à la section `Language-specific Default Encoding` (*Encodage par défaut selon langue*) et, dans le menu déroulant de `Language-specific`, sélectionnez `Python`. Vérifiez que l'encodage [UTF-8][] est sélectionné en tant qu'encodage par défaut.
+Ensuite, depuis le menu `Preferences` (*Préférences*) à gauche sélectionnez `Internationalization`. Maintenant, allez à la section `Language-specific Default Encoding` (*Encodage par défaut selon le langage de programmation*) et, dans le menu déroulant de `Language-specific`, sélectionnez `Python`. Vérifiez que l'encodage [UTF-8][] est sélectionné en tant qu'encodage par défaut.
 
 {% include figure.html caption="Paramètre d'encodage du texte en format UTF-8" filename="komodo-edit11-windows-utf-set.png" %}
 
