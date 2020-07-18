@@ -315,6 +315,11 @@ footer:
     es: Suscripción a RSS
     fr: S'abonner au flux RSS
     pt:
+  retirement: 
+    en: Lesson retirement policy
+    es: Política de retirada de lecciones
+    fr: Politique de retrait des leçons
+    pt: 
 
 # lesson-index
 reset-button:
