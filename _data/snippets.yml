@@ -320,6 +320,11 @@ footer:
     es: Política de retirada de lecciones
     fr: Politique de retrait des leçons
     pt: 
+  trans-concordance: 
+    en: Translation concordance
+    es: Concordancia de traducción
+    fr: Concordance des traductions
+    pt:
 
 # lesson-index
 reset-button:
