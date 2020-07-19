@@ -1361,6 +1361,15 @@
 - name: Josir Cardoso Gomes
   team: true
   orcid: 0000-0001-7629-1404
+  affiliation:
+    en: |
+        IBICT/UFRJ, Rio de Janeiro, Brazil
+    pt: |
+        IBICT/UFRJ, Rio de Janeiro, Brasil
+    es: |
+        IBICT/UFRJ, Rio de Janeiro, Brasil
+    fr: |
+        IBICT/UFRJ, Rio de Janeiro, Brésil
   bio:
       en: |
         Josir Gomes is a PhD student in Information Science at PPGCI/IBICT/UFRJ. Graduated in Computer Science. Information Systems Developer, acting mainly with relational databases, data mining and free software.
