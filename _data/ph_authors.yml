@@ -1371,3 +1371,28 @@
   bio:
    es: |
        Miguel Cuadros es Historiador por Universidad Industrial de de Santander y Master of Arts in History, State University of New York (Estados Unidos) y docente en la Universidad Industrial de Santander; cuenta con experiencia docente e investigativa en temas relacionados con la cartografía y el conocimiento geográfico.
+       
+- name: Aracele Torres
+  twitter: araceletorres
+  email: aracele@protonmail.com
+  url: "https://cibermundi.wordpress.com/"
+  github: aracele
+  team: true
+  team_start: 2020
+  institution: Universidade Federal de São Paulo
+  sortname: Torres
+  affiliation:
+    en: |
+        Federal University of São Paulo, Brazil.
+    pt: |
+        Universidade Federal de São Paulo, Brasil.
+  bio:
+    en: |
+        Aracele Torres holds a PhD in History from the University of São Paulo (USP) and is a researcher at the Digital Humanities Laboratory (lab.hum) at the Federal University of São Paulo, Guarulhos Campus.
+    pt: |
+        Aracele Torres é doutora em História pela Universidade de São Paulo (USP) e pesquisadora do Laboratório de Humanidades Digitais (lab.hum) da Universidade Federal de São Paulo, Campus Guarulhos. 
+  team_roles:
+    - portuguese
+    - editorial
+  status: volunteer
+
