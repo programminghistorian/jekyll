@@ -26,7 +26,7 @@ El alcance y la longitud del tutorial deben ser adecuados a la complejidad de la
 
 </div>
 
-Si tienes una idea para una nueva lección, completa una el [formato de propuestas](/assets/forms/Lesson.Query.Form.txt) y envíalo a {% include managing-editor.html lang=page.lang %}.
+Si tienes una idea para una nueva lección, completa el [formato de propuestas](/assets/forms/Lesson.Query.Form.txt) y envíalo a {% include managing-editor.html lang=page.lang %}.
 
 Puedes darte una idea de lo que publicamos revisando nuestros [tutoriales publicados]({{site.baseurl}}/es/lecciones), leyendo nuestra [guía para revisores]({{site.baseurl}}/es/guia-para-revisores) u ojeando [los tutoriales en desarrollo](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones).
 
@@ -64,15 +64,15 @@ Los lectores de *Programming Historian* viven en todo el mundo. Los autores pued
 *	Escribe para alguien que no viva en tu país o que no comparta tus creencias.
 
 *	**Términos técnicos:** siempre deben estar vinculados a [Wikipedia](https://es.wikipedia.org/),a un diccionario fiable o a un sitio web sostenible, en primera instancia. Un término técnico es cualquier palabra que una persona en la calle puede no conocer o entender.
-*	**Referencias culturales**: las menciones a personas, organizaciones o detalles históricos deben acompañarse siempre con información contextual. No hay que suponer ningún conocimiento previo, incluso de referencias culturales ampliamente conocidas (por ejemplo, [The Beatles](https://es.wikipedia.org/wiki/The_Beatles)). Utiliza términos genéricos en lugar de marcas comerciales (pañuelo desechable en lugar de Kleenex). Los enlaces a [Wikipedia](https://es.wikipedia.org/) deben ser usados todo lo que sea necesario. Tén en cuenta que algunos eventos históricos a veces reciben diferentes nombres según el país.
+*	**Referencias culturales**: las menciones a personas, organizaciones o detalles históricos deben acompañarse siempre con información contextual. No hay que suponer ningún conocimiento previo, incluso de referencias culturales ampliamente conocidas (por ejemplo, [The Beatles](https://es.wikipedia.org/wiki/The_Beatles)). Utiliza términos genéricos en lugar de marcas comerciales (pañuelo desechable en lugar de Kleenex). Los enlaces a [Wikipedia](https://es.wikipedia.org/) deben ser usados todo lo que sea necesario. Ten en cuenta que algunos eventos históricos a veces reciben diferentes nombres según el país.
 *	**Modismos**: Evita bromas, juegos de palabras, expresiones idiomáticas, sarcasmo, emojis, jerga, términos exclusivos de tu dialecto, o un lenguaje más difícil de lo necesario.
 *	**Geografía**: cuando hagas referencia a los lugares, sé específico. ¿"Noroeste" significa Brasil? ¿India? ¿África? Escribe siempre el nombre completo del área la primera vez que la utilices.
-*	**Multilingüísmo**: al elegir los métodos o instrumentos, tén en cuenta a los lectores multilingües, especialmente en el caso de los métodos de análisis textual, que pueden no ser compatibles con otros conjuntos de caracteres o que solo pueden proporcionar resultados intelectualmente sólidos cuando se utilizan en textos en inglés. Cuando sea posible, elije enfoques que tengan documentación multilingüe o proporciona referencias multilingües para su lectura posterior. Esto ayudará a nuestros traductores.
-*	**Lenguaje racial y étnico**: use la terminología racial cuidadosamente y con especificidad. Los términos históricos que ya no se utilizan deben usarse solo en su contexto histórico y solo cuando sea necesario. Usa los términos raciales como adjetivos y no como sustantivos: personas blancas en lugar de "blancos", una mujer asiática en lugar de "un asiático". Tén en cuenta que los términos pueden entenderse de manera diferente en los distintos países y que lo que haz aprendido como un uso correcto o sensible puede ser culturalmente específico de tu país (por ejemplo, no todas las personas de ascendencia africana son "afroamericanos". Algunos de ellos son africanos, o negros británicos, o caribeños, etc.). Asimismo, los lectores del Reino Unido entenderán el término "asiático" (India, Pakistán, Bangladesh) de manera diferente a los de América del Norte (por ejemplo, China, Japón, Vietnam, Tailandia).
+*	**Multilingüísmo**: al elegir los métodos o instrumentos, ten en cuenta a los lectores multilingües, especialmente en el caso de los métodos de análisis textual, que pueden no ser compatibles con otros conjuntos de caracteres o que solo pueden proporcionar resultados intelectualmente sólidos cuando se utilizan en textos en inglés. Cuando sea posible, elige enfoques que tengan documentación multilingüe o proporciona referencias multilingües para su lectura posterior. Esto ayudará a nuestros traductores.
+*	**Lenguaje racial y étnico**: use la terminología racial cuidadosamente y con especificidad. Los términos históricos que ya no se utilizan deben usarse solo en su contexto histórico y solo cuando sea necesario. Usa los términos raciales como adjetivos y no como sustantivos: personas blancas en lugar de "blancos", una mujer asiática en lugar de "un asiático". Ten en cuenta que los términos pueden entenderse de manera diferente en los distintos países y que lo que has aprendido como un uso correcto o sensible puede ser culturalmente específico de tu país (por ejemplo, no todas las personas de ascendencia africana son "afroamericanos". Algunos de ellos son africanos, o negros británicos, o caribeños, etc.). Asimismo, los lectores del Reino Unido entenderán el término "asiático" (India, Pakistán, Bangladesh) de manera diferente a los de América del Norte (por ejemplo, China, Japón, Vietnam, Tailandia).
 *	**Representaciones visuales**: elije las fuentes primarias, imágenes, figuras y capturas de pantalla, teniendo en cuenta cómo se presentarán a una audiencia global.
 
 ### Escritura sostenible
-*Programming Historian* publica lecciones pensando en largo plazo. Por favor, sigue estas directrices sobre sostenibilidad cuando escribas:
+*Programming Historian* publica lecciones pensando a largo plazo. Por favor, sigue estas directrices sobre sostenibilidad cuando escribas:
 
  *	**Tan general como sea posible, pero no más**: concéntrate en las metodologías y generalidades, no en los programas informáticos/interfaces específicos (por ejemplo, evita decir a los usuarios que "hagan clic en el botón X", que podría ser diferente en versiones futuras).
  * **Reducir la dependencia de elementos insostenibles**: utiliza capturas de pantalla con moderación y con un propósito. Las interfaces cambian con frecuencia y los futuros lectores pueden confundirse. Elije los enlaces externos teniendo en cuenta el futuro. ¿Cambia a menudo el sitio al que se enlaza? ¿Existirá dentro de diez años?
@@ -88,10 +88,10 @@ En esta segunda sección se tratan cuestiones más específicas del estilo de es
 ### Fechas y hora
  *	Para siglos, utiliza números romanos. Evita frases centradas en lo nacional, como "largo siglo XVIII", que tienen un significado específico para los especialistas británicos del siglo XVIII, pero para nadie más.
  *	Para décadas escribe "los años cincuenta" o "los cincuenta" (no "los años 50's" o "la década de los 50s").
- *	Comprima las secuencias de fecha así; 1816-17, 1856-9, 1854-64.
- *	Para fechas escritas en forma numérica utilice el formato DD-MM-AA, which conforms to the standard ISO 8601:2004. This avoids ambiguity.
- *	Utilice BCE/CE not BC/AD for dates (eg 325BCE). [Asi aparece en la RAE: a. de J. C., a. de C., a. J. C. o a. C. (‘antes de (Jesu)Cristo’) y d. de J. C., d. de C., d. J. C. o d. C. (‘después de (Jesu)Cristo’): 211 a. C., 123 d. C. ]
- *	1am, 6:30pm. Not 10 o’clock. [Algunos lineamientos de la RAE: La hora puede expresarse en letras o en números. El modelo de doce horas es el más utilizado cuando la hora se escribe con letras, y el más común en textos literarios y periodísticos. También puede usarse este sistema si se opta por escribir la hora con cifras; pero, en ese caso, : No es recomendable mezclar letras y números; así, es preferible escribir las diez de la noche que las 10 de la noche. para evitar ambigüedades, deben emplearse, tras los números, las abreviaturas a. m. y p.m.]
+ *	Comprime las secuencias de fecha así; 1816-17, 1856-9, 1854-64.
+ *	Para fechas escritas en forma numérica utilice el formato AA-MM-DD, conforme al estándar ISO 8601:2004. Esto evita la ambigüedad.
+ *	Utilice a. de J.C., a. de C. o a. C. (‘antes de (Jesu)Cristo’) y d. de J. C., d. de C., d. J. C. o d. C. (‘después de (Jesu)Cristo’): 211 a. C., 123 d. C. 
+ *	1 a.m., 6:30 p.m. No 10 de la noche, es preferible diez de la noche o 10 p.m.
 
 ### Números [revisar lineamientos de la RAE y de autoridades de la lengua en Latinoamerica]
  *	Spell out from one to nine; integers above 10.
@@ -110,13 +110,13 @@ Los encabezados siempre deben preceder inmediatamente al texto del cuerpo. No po
 ### Listas
 Típicamente, usamos listas numeradas y listas con viñetas. Los elementos de la lista comienzan con mayúscula. Los elementos de la lista deben ser tratados como elementos separados y no deben ser encadenados con puntuación o conjunciones.
 
-NO tiene estilo:
+Sin estilo:
 
 * Acá hay un ítem y
 * acá hay otro ítem; y
 * acá hay un ítem final.
 
-Estilo:
+Con estilo:
 
 * Acá hay un ítem
 * Acá hay otro ítem
@@ -297,9 +297,9 @@ Estás listo para someter la lección a la revisión de pares. Los envíos se ha
 
 1. **Obtener acceso**: crea una [cuenta gratuita en Github](https://github.com/join). Envía tu usuario de Github a tu editor quien te dará acceso para subir el tutorial al sitio de envíos. Déjale saber al editor el nombre del archivo y si tienes imágenes o archivos de datos que acompañen la lección.
 3. **Cargar la lección**: una vez que su editor confirme que te ha dado acceso al sitio, sube su lección a la [carpeta de lecciones](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones). Si necesitas ayuda revisa las [instrucciones de GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/).
-4. **Cargar las imágenes**: si tu lección incluye imágenes, asegúrate de que todos los archivos se nombren de acuerdo con las convenciones de nomenclatura especificadas anteriormente. Su editor habrá creado una carpeta para que pueda subir sus imágenes en el [directorio de imágenes](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). Esta carpeta debe tener el mismo nombre que el archivo de su lección. Suba sus imágenes a esta carpeta. Si no la ves, por favor contacta con tu editor y espera instrucciones.
+4. **Cargar las imágenes**: si tu lección incluye imágenes, asegúrate de que todos los archivos se nombren de acuerdo con las convenciones de nomenclatura especificadas anteriormente. Tu editor habrá creado una carpeta para que puedas subir sus imágenes en el [directorio de imágenes](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). Esta carpeta debe tener el mismo nombre que el archivo de su lección. Sube tus imágenes a esta carpeta. Si no la ves, por favor contacta con tu editor y espera instrucciones.
 
-5. **Cargar los datos**: si su lección incluye archivos de datos éstos deberán cargarse en una carpeta con un nombre similar en el [directorio de "assets"](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets).
+5. **Cargar los datos**: si tu lección incluye archivos de datos éstos deberán cargarse en una carpeta con un nombre similar en el [directorio de "assets"](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets).
 6. **Envía un correo electrónico a tu editor** para hacerle saber que has cargado tus archivos.
 
 ## El proceso de revisión de pares
@@ -314,7 +314,7 @@ El proceso de revisión por pares normalmente se realiza en tres etapas:
 
 2) El editor abrirá la lección para una revisión formal de pares. Esto incluirá al menos dos revisores invitados por el editor, y también puede incluir comentarios de la comunidad más amplia, que son bienvenidos para contribuir con sus puntos de vista. Por lo general, tratamos de pedir a los revisores que aporten sus comentarios en el plazo de un mes, pero a veces circunstancias imprevistas hacen que esto no sea posible. El editor debe dejarte claro que no debes responder a las reseñas hasta después de que se hayan publicado ambas reseñas y el editor haya resumido y dado instrucciones claras para seguir adelante. En algunos casos esto puede ser una sugerencia para revisar sustancialmente o repensar la lección.  En otros casos será cuestión de hacer algunos cambios. En función de los comentarios de la revisión de pares y de la naturaleza de las cuestiones planteadas puede ser necesario revisar el tutorial más de una vez, pero el editor se esforzará por garantizar que se le dé una vía clara para su publicación. Siempre tendrás la opción de retirarse del proceso de revisión si así lo deseas.
 
-3) Una vez que el editor y los revisores estén satisfechos con el artículo, el editor lrecomendará la publicación al Jefe de Redacción, quien leerá el tutorial para asegurarse de que cumpla con nuestras pautas y estándares de autor. En algunos casos puede haber revisiones adicionales o edición de textos en esta etapa para que el artículo se ajuste a nuestras normas de publicación. Si el Jefe de Redacción está satisfecho con el artículo será trasladado al sitio para su publicación. Tu editor te informará de cualquier información adicional que se requiera en esta etapa.
+3) Una vez que el editor y los revisores estén satisfechos con el artículo, el editor recomendará la publicación al Jefe de Redacción, quien leerá el tutorial para asegurarse de que cumpla con nuestras pautas y estándares de autor. En algunos casos puede haber revisiones adicionales o edición de textos en esta etapa para que el artículo se ajuste a nuestras normas de publicación. Si el Jefe de Redacción está satisfecho con el artículo será trasladado al sitio para su publicación. Tu editor te informará de cualquier información adicional que se requiera en esta etapa.
 
 Puede resultarte útil leer nuestras [guía para editores](es/guia-editor), donde se detalla nuestro proceso editorial.
 
