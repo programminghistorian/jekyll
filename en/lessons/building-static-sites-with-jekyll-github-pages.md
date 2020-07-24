@@ -142,6 +142,8 @@ When asked to open a command line window and enter commands in this lesson, keep
 
 3. Typing or pasting in the same commands a lot, or want to remember something you typed earlier? You can type the **↑** (up arrow) at the command line to scroll through recently typed commands; just press enter after the one you want to use appears.
 
+Starting with macOS Catalina, zsh has replaced bash as the default shell for Macs. This lesson has not been tested on the zsh shell. If you wish to set your shell to bash to follow this tutorial, have a look at the instructions [here](https://support.apple.com/en-us/HT208050).
+
 ## Installing dependencies <a id="section2"></a>
 
 *We'll install some software dependencies (i.e. code Jekyll depends on to be able to work), using the command line because there isn't a visual interface for doing this. This section is divided into instructions for if you're [On a Mac](#sectionMac) or [On Windows](#sectionWindows), so skip down to [On Windows](#sectionWindows) now if you're using Windows.*
@@ -194,7 +196,7 @@ Don't forget to wait until the command prompt appears again to type the followin
 
 `gem install rubygems-update`
 
-If you get a permissions error at this point, entering `usr/local/bin/gem install rubygems-update` instead of the command above may help.
+If you get a permissions error at this point, entering `echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile` followed by `source ~/.bash_profile` instead of the command above may help.
 
 ### NodeJS <a id="section2-4"></a>
 
@@ -555,6 +557,8 @@ If you run into an issue, [Jekyll has a page on troubleshooting](https://jekyllr
 ### Credits <a id="section9-2"></a>
 
 Thanks to *Programming Historian* Editor Fred Gibbs for editing, discussing, and reviewing this lesson; Paige Morgan and Jaime Howe for reviewing this lesson; Scott Weingart and students for testing the lesson with Windows; Tod Robbins and Matthew Lincoln for suggestions on the [DH Slack](http://tinyurl.com/DHSlack) on what to cover in this lesson; and Roxanne Shirazi for solutions to possible permission and navigation problems.
+
+The Editorial Board would like to thank [spswanz](https://github.com/spswanz) for pointing out to a bug in the [Ruby & Ruby Gems](#section2-3) section. 
 
 ### Further reading <a id="section9-3"></a>
 
