@@ -59,20 +59,6 @@ it treats the map as if it were made of rubber and the control points as
 if they were tacks 'pinning' the historical document to a three
 dimensional surface like the globe.
 
-To offer some examples of georeferenced historical maps, we prepared
-some National Topographic Series maps hosted on the University of
-Toronto Map Library website courtesy of Marcel Fortin, and we overlaid
-them on a Google web map. Viewers can adjust the transparency with the
-slider bar on the top right, view the historical map as an overlay on
-terrain or satellite images, or click 'Earth' to switch into Google
-Earth mode and see 3D elevation and modern buildings (in Halifax and
-Dartmouth). Note: these historical images are large and will appear on
-the screen slowly, especially as you zoom into the Google map.
-
--   [National Topographic System Maps][] – Halifax, 1920s
--   [National Topographic System Maps][1] – Western PEI, 1939-1944
--   [National Topographic System Maps][2] – Eastern PEI 1939-1944
-
 ## Getting Started
 
 Before proceeding with georeferencing in Quantum GIS, we need to
