@@ -326,7 +326,7 @@ If at any point you are unsure of your role or what to do next, post a question 
 
 ### Holding Us to Account
 
-Our team of volunteers works hard to provide a rigourous, collegial, and efficient peer review for authors. However, we recognize that there are times when we may fall short of expectations. We want authors to feel empowered to hold us to high standards. If, for whatever reason, you feel that you have been treated unfairly, that you are unhappy or confused by the process, that the review proess has been unnecessarily delayed, that a reviewer has been rude, that your editor has not been responsive enough, or have any other concern, please bring it to our attention so we can address it proactively.
+Our team of volunteers works hard to provide a rigourous, collegial, and efficient peer review for authors. However, we recognize that there are times when we may fall short of expectations. We want authors to feel empowered to hold us to high standards. If, for whatever reason, you feel that you have been treated unfairly, that you are unhappy or confused by the process, that the review process has been unnecessarily delayed, that a reviewer has been rude, that your editor has not been responsive enough, or have any other concern, please bring it to our attention so we can address it proactively.
 
 Raising a concern will NOT negatively affect the outcome of your peer review - even a peer review in progress.
 
