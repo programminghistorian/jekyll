@@ -30,8 +30,11 @@ topics: [mapping]
 abstract: "Google My Maps y Google Earth son una buena manera de comenzar
 a crear mapas digitales. Con una cuenta de Google puedes crear y editar mapas
 personales haciendo clic en Mis Sitios"
+<<<<<<< HEAD
 next: /lessons/qgis-layers
 doi: 10.46430/phes0036
+=======
+>>>>>>> 6e88da86e990fdde81491891d06fd1fc956fad59
 ---
 
 {% include toc.html %}
