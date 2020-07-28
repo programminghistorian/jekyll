@@ -184,24 +184,6 @@ All lesson metadata and alerts should follow the convention of pulling appropria
   {% endif %}
 
   {% if translation_candidates.size >0 %}
-<<<<<<< HEAD
-
-  <div class="alert alert-warning">
-    <!-- Banner pointing to the original and other translations of this lesson when they exist -->
-    {{ site.data.snippets.available-lesson[page.lang] }}:
-
-    <a href="{{ translation_source.url }}"> {{ site.data.snippets.language-name-abbreviation[translation_source.lang]}}
-    </a> ({{ site.data.snippets.original[translation_source.lang]}}) |
-
-    {% for candidate in translation_candidates %}
-
-    <a href="{{ candidate.url }}"> {{ site.data.snippets.language-name-abbreviation[candidate.lang]}} </a>
-    {% unless forloop.last %} | {% endunless %}
-
-    {% endfor %}
-  </div>
-  {% endif %}
-=======
 
   <div class="alert alert-warning">
     <!-- Banner pointing to the original and other translations of this lesson when they exist -->
@@ -219,19 +201,19 @@ All lesson metadata and alerts should follow the convention of pulling appropria
   </div>
   {% endif %}
 
+  <!-- Check if lesson is part of a sequence -->
+  {% if page.sequence %}
+    <div class="series-warning alert alert-info">
+    {{ site.data.snippets.series-note[page.lang] }} {{ page.series_total }} - {{ site.data.snippets.lesson-sequence[page.lang] }} {{ page.sequence }}  
+      {% if page.previous %}
+        | <a href="{{page.previous}}"> {{ site.data.snippets.previous-lesson[page.lang] }}</a>
+      {% endif %}
+      {% if page.next %}
+        | <a href="{{page.next}}"> {{ site.data.snippets.next-lesson[page.lang] }}</a>
+      {% endif %}
+    </div>
+  {% endif %}
 
-
-
-   {% if page.previous or page.next %}
-   <div class="series-warning alert alert-info">
-    {{ site.data.snippets.series-note[page.lang] }} {{ page.series_total }} - {{ site.data.snippets.lesson-sequence[page.lang] }} {{ page.sequence }} | <a
-       href="{{page.previous}}"> {{ site.data.snippets.previous-lesson[page.lang] }}</a> | <a
-       href="{{page.next}}"> {{ site.data.snippets.next-lesson[page.lang] }}</a> 
-  </div>
-   {% endif %}
-
-
->>>>>>> 6e88da86e990fdde81491891d06fd1fc956fad59
 
   {% if page.retired %}
   <div class="alert alert-warning">
