@@ -18,6 +18,8 @@ topics: [python]
 abstract: "This lesson introduces Uniform Resource Locators (URLs) and explains how to use Python to download and save the contents of a web page to your local hard drive."
 next: manipulating-strings-in-python
 previous: code-reuse-and-modularity
+series_total: 15 lessons
+sequence: 5
 categories: [lessons, python, original-ph]
 python_warning: false
 redirect_from: /lessons/working-with-web-pages

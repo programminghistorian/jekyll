@@ -19,6 +19,8 @@ topics: [python]
 abstract: "In this lesson, we will make the list we created in the 'From HTML to a List of Words' lesson easier to analyze by normalizing this data."
 next: counting-frequencies
 previous: from-html-to-list-of-words-2
+series_total: 15 lessons
+sequence: 9
 python_warning: false
 redirect_from: /lessons/normalizing-data
 avatar_alt: Tall woman dragging a short young man
