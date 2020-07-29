@@ -21,6 +21,8 @@ programs into modules, in order to keep everything concise and easier to
 debug."
 next: working-with-web-pages
 previous: working-with-text-files
+series_total: 15 lessons
+sequence: 4
 categories: [lessons, original-ph, python]
 python_warning: false
 redirect_from: /lessons/code-reuse-and-modularity

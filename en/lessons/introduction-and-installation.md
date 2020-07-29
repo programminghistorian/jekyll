@@ -23,6 +23,9 @@ programming that provides immediate results."
 redirect_from: /lessons/introduction-and-installation
 avatar_alt: A curled-up snake
 doi: 10.46430/phen0009
+next: viewing-html-files
+series_total: 15 lessons
+sequence: 1
 ---
 
 {% include toc.html %}
