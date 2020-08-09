@@ -111,6 +111,14 @@ Once you have obtained your preferred text editor, you will need to obtain an **
 
 Although Chrome and Safari's security features make in-browser transformations difficult, some other internet browsers, such as ([Internet Explorer](http://windows.microsoft.com/en-gb/internet-explorer/download-ie) and [Firefox](https://www.mozilla.org/en-GB/firefox/new/)), include an **XSL 1.0** transformer, which will provide all of the functionality that you will need for this tutorial. If you don't already have one of these browsers on your computer, download and install whichever you feel most comfortable using and then proceed to the next section.
 
+#### Configuring Firefox
+
+Owing to recent updates, Firefox now requires some minor configuration in order to complete this tutorial. Before you begin, go to your address bar and enter `about:config`.  You will then be presented with a new search bar. Search for `privacy.file_unique_origin`.  If it is set to `True`, replace this with `False`.  This will allow you to run XSLT configuration on local files.  
+
+{% include figure.html filename="transforming-xml-with-xsl-7.png" caption="Reconfiguring Firefox" %}
+
+**IMPORTANT**: Be careful to return this setting to True when you are done (before returning to normal web browsing) and never attempt to transform an unknown or unverified file in Firefox.
+
 ## Choosing and Preparing XML Data
 
 In order to begin transforming XML, you will need to obtain a well-formed dataset. Many online historical databases are built upon XML and provide their data freely. This tutorial will make use of the [**Scissors and Paste Database**](http://www.scissorsandpaste.net).
