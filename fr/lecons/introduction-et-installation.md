@@ -27,7 +27,7 @@ activity: transforming
 topics: [python, get-ready]
 abstract: "Cette première leçon de notre section traitant des sources en ligne a pour but de vous préparer, vous et votre ordinateur, à commencer à programmer. Nous allons nous concentrer sur l'installation de l'environnement de développement requis, qui est gratuit et fiable. Puis nous vous aiderons à compléter un premier essai avec un programme simple qui donnera des résultats immédiats."
 original: introduction-and-installation
-avatar-alt: Un serpent enroulé
+avatar_alt: Un serpent enroulé
 doi: 10.46430/phfr0012 
 ---
 
