@@ -38,7 +38,7 @@ Objectifs de la leçon
 ------------
 Cette première leçon de notre section traitant des sources en ligne a pour but de vous préparer, vous et votre ordinateur, à commencer à programmer. Nous allons nous concentrer sur l'installation de l'environnement de développement requis. (Tout ce dont vous aurez besoin est gratuit et fiable.) Puis, à la fin de cette leçon, nous vous aiderons à compléter un premier essai avec un programme simple qui donnera des résultats immédiats.
 
-Dans cette leçon d'introduction, vous allez installer le [langage de programmation Python][], [l'analyseur HTML / XML Beautiful Soup][] et un éditeur de texte. Les captures d'écran fournies ici proviennent de [Komodo Edit][], mais vous pouvez utiliser n'importe quel éditeur de texte capable de travailler avec Python. Voici une liste d'autres [éditeurs compatibles avec Python][]. Une fois que tout sera installé, vous écrirez votre premier programme: le classique "Hello World", en Python et HTML.
+Dans cette leçon d'introduction, vous allez installer le [langage de programmation Python][], [l'analyseur HTML / XML Beautiful Soup][] et un éditeur de texte. Les captures d'écran fournies ici proviennent de [Komodo Edit][], mais vous pouvez utiliser n'importe quel éditeur de texte capable de travailler avec Python. Voici une liste d'autres [éditeurs compatibles avec Python][]. Une fois que tout sera installé, vous écrirez votre premier programme: le classique &laquo; Hello World   &raquo;, en Python et HTML.
 
 Le langage de programmation Python
 -------------------------------
@@ -54,7 +54,7 @@ Avant de télécharger ou d'installer un nouveau logiciel, il est primordial de 
 Étape 1 - Installation et configuration du logiciel
 ------------------------------------
 
-Pour utiliser les techniques présentées ici, vous devrez d'abord télécharger et installer des logiciels disponibles gratuitement. Vous trouverez ci-dessous des instructions pour Mac, Windows et Linux. Une fois que vous aurez installé les logiciels requis pour votre système d'exploitation, vous pourrez passer à la leçon '[Comprendre les pages web et le HTML](/fr/lecons/comprendre-les-pages-web)'. Si vous rencontrez des problèmes avec nos instructions, ou si vous trouvez quelque chose qui ne fonctionne pas sur votre plate-forme, nous vous demandons de bien vouloir nous le faire savoir.
+Pour utiliser les techniques présentées ici, vous devrez d'abord télécharger et installer des logiciels disponibles gratuitement. Vous trouverez ci-dessous des instructions pour Mac, Windows et Linux. Une fois que vous aurez installé les logiciels requis pour votre système d'exploitation, vous pourrez passer à la leçon &laquo; [Comprendre les pages web et le HTML](/fr/lecons/comprendre-les-pages-web)  &raquo;. Si vous rencontrez des problèmes avec nos instructions, ou si vous trouvez quelque chose qui ne fonctionne pas sur votre plate-forme, nous vous demandons de bien vouloir nous le faire savoir.
 
 -   [Installation de Python pour Mac](/en/lessons/mac-installation)
 -   [Installation de Python pour Windows](/fr/lecons/installation-windows-py)
