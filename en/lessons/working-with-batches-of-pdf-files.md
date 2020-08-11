@@ -116,7 +116,7 @@ If you are using a Mac and receive an error message that the file is from an “
 
 ## Data
 
-Throughout this lesson you will work with historical documents from the [First International Conference of Labour Statisticians](http://web.archive.org/web/20200513194548/https://ilostat.ilo.org/resources/methods/icls/icls-documents//) from 1923. The data of all past conferences is provided by the [International Labour Organization (ILO)](https://www.ilo.org/global/about-the-ilo/history/lang--en/index.htm) and is [publicly available](https://www.ilo.org/public/libdoc/ilo/ILO-SR/).
+Throughout this lesson you will work with historical documents from the [First International Conference of Labour Statisticians](https://web.archive.org/web/20200606003222/https://ilostat.ilo.org/resources/methods/icls/icls-documents/) from 1923. The data of all past conferences is provided by the [International Labour Organization (ILO)](https://www.ilo.org/global/about-the-ilo/history/lang--en/index.htm) and is [publicly available](https://www.ilo.org/public/libdoc/ilo/ILO-SR/).
 
 To make it easier for you to navigate through the file system and create folders, here are some basic commands of the Bash Command Line:
 
