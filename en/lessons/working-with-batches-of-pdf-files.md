@@ -158,7 +158,7 @@ Always make a backup copy of your data before using the commands in this course.
 
 # Assessing Your PDF(s)
 
-In order to make this lesson as realistic as possible, you will be guided by a concrete historical case study. The study draws on the extensive collection of the [International Labour Organization (ILO)](http://web.archive.org/web/20200513194548/https://ilostat.ilo.org/resources/methods/icls/icls-documents//), in particular the sources of the First International Conference of Labour Statisticians.
+In order to make this lesson as realistic as possible, you will be guided by a concrete historical case study. The study draws on the extensive collection of the [International Labour Organization (ILO)](http://web.archive.org/web/20200606003222/https://ilostat.ilo.org/resources/methods/icls/icls-documents/), in particular the sources of the First International Conference of Labour Statisticians.
 
 You are interested in what topics were discussed by the labour statisticians. For this purpose you will want to analyze all available documents of this conference using Topic Modelling. This assumes that all documents are available in plain text.
 
