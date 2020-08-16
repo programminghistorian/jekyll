@@ -4,45 +4,39 @@ layout: blank
 original: project-team
 ---
 
-# Project Team
-Please direct correspondence in the first instance to:
+# Equipe do Projeto
+Por favor, envie a mensagem em primeira instância para:
 
 {% include managing-editor-loop.html %}
 
-You can follow the _Programming Historian_ on Twitter: [@proghist](http://twitter.com/proghist).
+Pode seguir o _Programming Historian_ no Twitter: [@proghist](http://twitter.com/proghist).
 
 {% include toc.html %}
 
-## Editorial Board
+## Conselho Editorial
 
 {% comment %}
 All editorial board information should be edited in data/ph_authors.yml. Authors who are on the editorial team must have team: true in their metadata.
 {% endcomment %}
 {% include project-team-loop.html %}
 
-## Project Team Membership History
+## Histórico dos Membros da Equipe do Projeto
 
 {% include team_history.html %}
 
-## Community Participants
+## Participantes da Comunidade
 
-The _Programming Historian_ also benefits enormously from the efforts of
-people who volunteer their time and energy. If you are interested in
-pitching in, either for a single project or in an ongoing role, please
-find out [how to contribute](/contribute)!
+O _Programming Historian_ também se beneficia enormemente dos esforços de pessoas que contribuem com o seu tempo e energia como voluntários. Se estiver interessado em colaborar, seja num projeto específico ou através de um cargo permanente, veja aqui [como contribuir](/contribute)!
 
-We are especially grateful to the dedicated _Programming Historian_ authors who are not members of the Project Team:
+Estamos especialmente gratos aos autores do _Programming Historian_ que não são membros da Equipe do Projeto:
 
-{% include authors_loop.html %} and, hopefully, you! Find out more about [becoming an author](/contribute).
+{% include authors_loop.html %} e, esperamos, você também! Saiba mais como [tornar-se um autor](/contribute).
 
-We also thank everyone who has helped to improve our lessons by reporting
-issues, fixing errors, conducting formal peer reviews, translating, or editing.
-At the time of writing, this has included the following people:
+Agradecemos também a todos os que ajudaram a melhorar as nossas lições relatando problemas, corrigindo erros, participando na revisão por pares, traduzindo ou editando. No momento da redação desta página, isso incluía as seguintes pessoas:
 
-{% include collaborators_loop.html %} and, hopefully, you! Find out more about [how to
-contribute](/contribute).
+{% include collaborators_loop.html %} e, esperamos, você também! Saiba mais [como contribuir](/contribute).
 
-Finally, we'd like to thank those who have been involved in organizing, running, leading, or supporting workshops involving the project and Project Team:
+Por fim, agradecemos àqueles que têm estado envolvidos na organização, execução, orientação ou apoio aos workshops que envolvem o projeto e a Equipe do Projeto:
 
 * Anelda van der Walt, Talarify (South Africa)
 * Johann Templehoff, North-West University (South Africa)
