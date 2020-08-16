@@ -1,6 +1,6 @@
 ---
 layout: base
-title: The Programming Historian
+title: The Programming Historian em português
 original: index
 ---
 <div class="container" style="text-align:center">
@@ -9,35 +9,35 @@ original: index
 
 <div class="home-block">
 	<div class="container">
-		<h2>The Programming Historian</h2>
-		<p>We publish novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching. We are committed to fostering a diverse and inclusive community of editors, writers, and readers. </p>
+		<h2>The Programming Historian em português</h2>
+		<p>Publicamos tutoriais acessíveis para iniciantes, revistos por pares, que ajudam os humanistas a aprender uma ampla gama de ferramentas digitais, técnicas e metodologias de trabalho, para facilitar a pesquisa e o ensino. Temos o compromisso de promover uma comunidade diversificada e inclusiva de editores, escritores e leitores.</p>
 	</div>
 </div>
 
 <div class="home-block  home-stripe-1">
 <div class="container">
-<h2>Learn</h2>
-<p>Use <a href="{{ site.baseurl }}/lessons/">our lessons</a> to teach your self new technical skills or understand how humanists are using new digital tools, methods, and research processes.</p>
+<h2>Aprenda</h2>
+<p>Use as <a href="{{ site.baseurl }}/lessons/">nossas lições</a> para aprender novas competências técnicas ou entender como os humanistas utilizam novas ferramentas, métodos e processos digitais de pesquisa.</p>
 </div>
 </div>
 
 <div class="home-block ">
 <div class="container">
-<h2>Teach</h2>
-<p>Use the <i>Programming Historian</i> in your classes or workshops! Please <a href="feedback.html">let us know</a> how we can improve our lessons to suit your needs, or if you run into trouble using one.</p>
+<h2>Ensine</h2>
+	<p>Use o <i>Programming Historian em português</i> nas suas aulas ou workshops! Por favor, <a href="feedback.html">contate-nos</a> sobre como podemos melhorar as nossas lições de acordo com as suas necessidades ou caso tenha problemas na utilização de alguma.</p>
 </div>
 </div>
 
 <div class="home-block home-stripe-2">
 <div class="container">
-<h2>Contribute</h2>
-<p><a href="author-guidelines.html">Write a lesson</a>, join our <a href="reviewer-guidelines">team of reviewers</a>, <a href="feedback.html">provide feedback</a>. We're always keen to hear from our readers!</p>
+<h2>Contribua</h2>
+<p><a href="author-guidelines.html">Escreva uma lição</a>, junte-se à nossa <a href="reviewer-guidelines">equipe de revisores</a>, <a href="feedback.html">dê o seu feedback</a>. Estamos sempre interessados em ouvir os nossos leitores!</p>
 </div>
 </div>
 
 <div class="home-block">
 <div class="container">
-<h2>Our Team</h2>
-<p>As a volunteer, community-driven resource, we take pride in showing off and giving credit to the  <a href="project-team.html">great many people</a> who have contributed their time and energy to the <i>Programming Historian</i>.</p>
+<h2>A Nossa Equipe</h2>
+	<p>Sendo o <i>Programming Historian em português</i> uma iniciativa voluntária, voltada para a comunidade, nos orgulhamos de mostrar e dar crédito  <a href="project-team.html">às muitas pessoas</a> que têm contribuído com o seu tempo e energia para o projeto.</p>
 </div>
 </div>
