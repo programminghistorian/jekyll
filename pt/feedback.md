@@ -18,7 +18,7 @@ Obrigado por ter dedicado tempo a relatar um problema ou a sugerir uma alteraç�
 
 ## Opção 1: Email ou Tweet
 
-Contacte {% include managing-editor.html lang=page.lang %} ou outros membros da nossa [Equipe do Projeto](project-team.html). Pode também enviar um tweet para [@ProgHist](https://twitter.com/proghist).
+Contacte {% include managing-editor.html lang=page.lang %} ou outros membros da nossa [Equipe do Projeto](equipe.html). Pode também enviar um tweet para [@ProgHist](https://twitter.com/proghist).
 
 ## Opção 2: Abrir uma questão no GitHub
 
@@ -39,7 +39,7 @@ Para mais informação sobre as questões no GitHub, consulte o Guia GitHub sobr
 
 ## Opção 3: Sugira uma alteração específica
 
-Para sugerir ou fazer pequenas alterações a uma lição, primeiro navegue para o [diretório de lições](https://github.com/programminghistorian/jekyll/tree/gh-pages/en/lessons) e clique na lição desejada.
+Para sugerir ou fazer pequenas alterações a uma lição, primeiro navegue para o [diretório de lições](https://github.com/programminghistorian/jekyll/tree/gh-pages/pt/licoes) e clique na lição desejada.
 
 Em seguida, clique no botão _History_:
 
