@@ -17,7 +17,7 @@ original: index
 <div class="home-block  home-stripe-1">
 <div class="container">
 <h2>Aprenda</h2>
-<p>Use as <a href="{{ site.baseurl }}/lessons/">nossas lições</a> para aprender novas competências técnicas ou entender como os humanistas utilizam novas ferramentas, métodos e processos digitais de pesquisa.</p>
+<p>Use as <a href="{{ site.baseurl }}/pt/licoes/">nossas lições</a> para aprender novas competências técnicas ou entender como os humanistas utilizam novas ferramentas, métodos e processos digitais de pesquisa.</p>
 </div>
 </div>
 
@@ -31,13 +31,13 @@ original: index
 <div class="home-block home-stripe-2">
 <div class="container">
 <h2>Contribua</h2>
-<p><a href="author-guidelines.html">Escreva uma lição</a>, junte-se à nossa <a href="reviewer-guidelines">equipe de revisores</a>, <a href="feedback.html">dê o seu feedback</a>. Estamos sempre interessados em ouvir os nossos leitores!</p>
+<p><a href="directrizes-autor.html">Escreva uma lição</a>, junte-se à nossa <a href="directrizes-revisor">equipe de revisores</a>, <a href="feedback.html">dê o seu feedback</a>. Estamos sempre interessados em ouvir os nossos leitores!</p>
 </div>
 </div>
 
 <div class="home-block">
 <div class="container">
 <h2>A Nossa Equipe</h2>
-	<p>Sendo o <i>Programming Historian em português</i> uma iniciativa voluntária, voltada para a comunidade, nos orgulhamos de mostrar e dar crédito  <a href="project-team.html">às muitas pessoas</a> que têm contribuído com o seu tempo e energia para o projeto.</p>
+	<p>Sendo o <i>Programming Historian em português</i> uma iniciativa voluntária, voltada para a comunidade, nos orgulhamos de mostrar e dar crédito  <a href="equipe.html">às muitas pessoas</a> que têm contribuído com o seu tempo e energia para o projeto.</p>
 </div>
 </div>
