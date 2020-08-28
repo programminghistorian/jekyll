@@ -1,5 +1,5 @@
 ---
-title: Reviewer Guidelines
+title: Diretrizes para Revisores
 date: 03-14-2015
 layout: blank
 original: reviewer-guidelines
@@ -47,10 +47,9 @@ Embora gostemos que cada uma das nossas lições tenha a marca pessoal do seu au
 - Alguns conceitos ou passos são excessivamente explicados enquanto outros são poucos explicados?
 - O público-alvo parece corresponder, pelo menos vagamente, ao de outras lições do _Programming Historian em português_? Em que medida é um novo público-alvo?
 
-
 ### Preparação
 - Quais os softwares / as linguagens de programação necessárias?
-- What prerequisite skills are needed?
+- Quais as competências prévias necessárias?
 - Que familiaridade ou experiência é necessária?
 - Que dados são necessários? O conjunto de dados está facilmente disponível?
 
