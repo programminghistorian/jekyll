@@ -17,6 +17,13 @@ Le Programming Historian est un projet porté par des volontaires. Parce que nou
 
 Le projet est reconnaissant pour leur soutien à:
 
+- Les membres de notre [programme de partenariat institutionnel](nous-soutenir#partenariat-institutionnel):
+  - Les bibliothèques de la [KU Leuven](https://bib.kuleuven.be/) [2020-actuellement]
+  - La [bibliothèque Wohl de l'Institut de recherche historique de la School of Advanced Study de l'université de Londres](https://www.history.ac.uk/library) [2020-actuellement]
+  - La [Bibliothèque de l'université du Sussex](https://www.sussex.ac.uk/library/) [2020-actuellement]
+  - Le [Centre for Data, Culture and Society de l'Université d'Édimbourg](https://www.cdcs.ed.ac.uk/) [2020-actuellement]
+  - Le [Bibliothèque de Western University](https://www.lib.uwo.ca/) [2020-Present]
+  
 - La [Bibliothèque de l'université du Sussex](https://www.sussex.ac.uk/library/) pour la réalisation d'une infrastructure d'attribution d'identifiants DOI [2020-actuellement].
 - [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) et [Andrew W. Mellon Foundation](https://mellon.org/) pour soutenir notre développement web [2018-2020].
 - Roy Rosenzweig Center for New Media ([RRCHNM](http://chnm.gmu.edu/)) pour nous offrir des services d'hébergement [2011-actuellement].
@@ -26,11 +33,7 @@ Le projet est reconnaissant pour leur soutien à:
 - La [British Academy](https://www.britac.ac.uk/) pour le financement d'un atelier d'écriture à Bogota en Colombie [2018].
 - Le Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) pour le soutien de projet émergent et de gestion de projet [2011-2013].
 - Nos donateurs fondateurs [Patreon](https://www.patreon.com/theprogramminghistorian) Rachel Murphy (niveau "Abonné"), Miriam Posner (niveau "Parrain/Marraine") et Tim Hitchcock (niveau "Mécène"). Nous souhaitons remercier tout particulièrement les donateurs de niveau "Mécène" suivants: Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett, Michael Piotrowski.
-- Les membres de notre [programme de partenariat institutionnel](nous-soutenir#partenariat-institutionnel):
-  - Les bibliothèques de la [KU Leuven](https://bib.kuleuven.be/) [2020-actuellement]
-  - La [bibliothèque Wohl de l'Institut de recherche historique de la School of Advanced Study de l'université de Londres](https://www.history.ac.uk/library) [2020-actuellement]
-  - La [Bibliothèque de l'université du Sussex](https://www.sussex.ac.uk/library/) [2020-actuellement]
-  - Le [Centre for Data, Culture and Society de l'Université d'Édimbourg](https://www.cdcs.ed.ac.uk/) [2020-actuellement]
+
  
 ## Donations
 
