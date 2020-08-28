@@ -22,7 +22,7 @@ Le projet est reconnaissant pour leur soutien à:
   - La [bibliothèque Wohl de l'Institut de recherche historique de la School of Advanced Study de l'université de Londres](https://www.history.ac.uk/library) [2020-actuellement]
   - La [Bibliothèque de l'université du Sussex](https://www.sussex.ac.uk/library/) [2020-actuellement]
   - Le [Centre for Data, Culture and Society de l'Université d'Édimbourg](https://www.cdcs.ed.ac.uk/) [2020-actuellement]
-  - Le [Bibliothèque de Western University](https://www.lib.uwo.ca/) [2020-Present]
+  - Le [Bibliothèque de Western University](https://www.lib.uwo.ca/) [2020-actuallement]
   
 - La [Bibliothèque de l'université du Sussex](https://www.sussex.ac.uk/library/) pour la réalisation d'une infrastructure d'attribution d'identifiants DOI [2020-actuellement].
 - [dSHARP lab at Carnegie Mellon University](http://dsharp.library.cmu.edu/) et [Andrew W. Mellon Foundation](https://mellon.org/) pour soutenir notre développement web [2018-2020].
