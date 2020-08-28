@@ -21,7 +21,7 @@ El proyecto agradece el siguiente apoyo:
   - [Instituto de Investigación Histórica de la Biblioteca Wohl](https://www.history.ac.uk/library) [2020-Presente]
   - [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/) [2020-Presente]
   - [Centro de Datos, Cultura y Sociedad de la Universidad de Edimburgo](https://www.cdcs.ed.ac.uk/) [2020-Presente]
-  - [Western University Library](https://www.lib.uwo.ca/) [2020-Present]
+  - [Western University Library](https://www.lib.uwo.ca/) [2020-Presente]
   
 - La infraestructura para la asignación de DOI está apoyada por la [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/) [2020-Presente]
 - El desarrollo web está respaldado por el [laboratorio dSHARP en la Universidad Carnegie Mellon](http://dsharp.library.cmu.edu) y la [Fundación Andrew W. Mellon](https://mellon.org) [2018-2020]
