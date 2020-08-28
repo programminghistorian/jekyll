@@ -5,84 +5,81 @@ layout: blank
 original: reviewer-guidelines
 ---
 
-# Reviewer Guidelines
+# Diretrizes para Revisores
 
 <img src="{{site.baseurl}}/images/reviewer-sm.png" class="garnish rounded float-left" />
 
-Reviewing for the _Programming Historian_ is a great way to learn new technical skills and engage with the digital humanities community. We go out of our way to make sure our reviewers get credit and recognition for their work. Because reviewers directly contribute to significantly improving lessons, you can take pride in that your work helps thousands of readers.
+O processo de revisão do _Programming Historian em português_ é uma excelente forma de aprender novas competências técnicas e de se envolver com a comunidade das humanidades digitais. Fazemos todo o possível para garantir que os nossos revisores recebam crédito e reconhecimento pelo seu trabalho. Como os revisores contribuem directamente para melhorar significativamente as lições, eles podem ter orgulho que o seu trabalho irá ajudar milhares de leitores.
 
-These guidelines are to help reviewers understand their role in the editorial process and to answer common questions about how to be most efficient and effective with your reviews.
+Estas directrizes destinam-se a ajudar os revisores a compreender o seu papel no processo editorial e a responder a perguntas comuns sobre como ser mais eficiente e eficaz com as suas revisões.
+
 
 {% include toc.html %}
 
 
+## Filosofia da Revisão
+Consideramos o processo de revisão um componente integral de um esforço colaborativo, produtivo e sustentável para os académicos criarem recursos técnicos úteis para todos. Quando um tutorial entra no nosso fluxo editorial, trabalhamos em estreita colaboração com o autor e os revisores para maximizar o potencial e publicá-lo dentro de um período de tempo razoável.
 
-
-
-
-## Review Philosophy
-We consider the review process an integral component of a collaborative, productive, and sustainable effort for scholars to create useful technical resources for each other. Once a tutorial enters our editorial workflow, we work closely with the author and reviewers to maximize its potential and publish it within a reasonable amount of time.
-
-### Constructive Criticism
-To review a tutorial is not simply to assess its merits and flaws (though it is important to do these as well), but to help improve the tutorial by virtue of an outside perspective. We ask that reviewers provide fair and constructive criticism (and of course praise) that will improve the tutorial for a wide range of readers.
+### Crítica Construtiva
+Rever um tutorial não é simplesmente avaliar os seus méritos e falhas (embora seja importante fazê-lo também), mas ajudar a melhorar o tutorial em virtude de uma perspectiva externa. Pedimos que os revisores façam críticas justas e construtivas (e, claro, elogios) que ajudem a melhorar o tutorial para uma audiência de leitores ampla.
 
 ### Transparency
-We highly value transparency in our lesson production and review process. Our review process happens on Github, where our lessons are hosted. Namely, we use Github's commenting and [issue tracking](https://en.wikipedia.org/wiki/Issue_tracking_system) capabilities to keep track of suggestions and how they are handled and discussed by the authors and reviewers. This helps avoid important conversations becoming buried and lost in email threads.
+Valorizamos muito a transparência no nosso processo de produção e revisão de lições. O nosso processo de revisão acontece no Github, onde as nossas lições estão hospedadas. Nomeadamente, nós utilizamos os recursos de comentários e de [rastreamento de problemas](https://en.wikipedia.org/wiki/Issue_tracking_system) do Github para acompanhar as sugestões e a forma como são tratadas e discutidas pelos autores e revisores. Isto ajuda a evitar que conversas importantes sejam esquecidas e se percam em discussões por e-mail.
 
-Therefore, your work as a reviewer--and your identity--will be fully visible to the author. Comments should engage with the author and lesson directly, rather than the review editor. If at any point you are unsure of your role or what to do next, feel free to post a question to clarify and an editor will respond as soon as they can.
+Portanto, o trabalho como revisor - e a sua identidade - será totalmente visível para o autor. Os comentários devem envolver diretamente o autor e a lição, e não o revisor. Se em algum momento não tiver certeza do seu papel ou do que fazer a seguir, sinta-se à vontade para fazer uma pergunta e um editor responderá assim que puder.
 
-In keeping with the ideas of public scholarship and open peer review, we generally encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable. In some cases a private word may be more appropriate. If you feel the need to discuss a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](/project-team), or to contact one of our dedicated ombudsperson (TBD).
+Seguindo as ideias de investigação pública e de revisão aberta por pares, geralmente incentivamos as discussões a permanecer no GitHub, conforme descrito no fluxo de trabalho editorial. No entanto, queremos também que todos se sintam à vontade. Em alguns casos, uma conversa privada pode ser mais apropriada. Se sentir a necessidade de discutir um assunto relacionado a um tutorial ou relacionado à revisão, por favor, sinta-se à vontade para enviar um diretamente [um email para o editor designado](/project-team), ou para entrar em contato com a nossa ombudsperson (a designar).
 
-Unless you instruct us otherwise, your name will be indicated as a reviewer on the lesson's page when it is officially published; you'll also be listed on our contributors page.
+A menos que seja dada indicação contrária, o nome dos revisores estará na página da lição quando for publicada oficialmente e também estará listado na nossa página de colaboradores.
 
-### Openness and Inclusivity
-The _Programming Historian_ is dedicated to providing an open scholarly environment that offers community participants the freedom to thoroughly scrutinize ideas, to ask questions, make suggestions, or to requests for clarification. We insist on a harassment-free space for all contributors to the project, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion, or technical experience. We do not tolerate harassment or ad hominem attacks of community participants in any form. Participants violating these rules may be expelled from the community at the discretion of the editorial board. If anyone witnesses or feels they have been the victim of the above described activity, please contact our ombudsperson (TBD). Thank you for helping us to create a safe space.
+### Abertura e Inclusão
+O _Programming Historian em português_ se dedica a prover um ambiente académico aberto que oferece aos participantes da comunidade a liberdade de examinar minuciosamente as ideias, fazer perguntas, fazer sugestões ou pedidos de esclarecimento. Insistimos em ter um espaço livre de assédio para todos os colaboradores do projeto, independentemente do género, identidade e expressão de género, orientação sexual, deficiência, aparência física, tamanho corporal, raça, idade ou religião ou experiência técnica. Não toleramos o assédio ou ataques _ad hominem_ aos participantes da comunidade, de nenhuma forma. Os participantes que violem estas regras podem ser expulsos da comunidade, a critério do conselho editorial. Se alguém testemunhar ou sentir que foi vítima da atividade acima descrita, por favor contacte a nossa ombudsperson (a designar). Obrigado por nos ajudar a criar um espaço seguro.
 
-
-## What To Comment On
-The informal style of _Programming Historian_ lessons can make the lessons appear deceptively simple to write. In fact, writing a good tutorial is every bit as demanding, if not more so, than any other kind of scholarly writing. Below are a few common questions to keep in mind as you review a lesson. Some will be more relevant than others, depending on the topic, intended audience, and the difficulty of the tutorial. Needless to say, this is neither a restrictive or comprehensive list; we do not ask that reviewers respond to each and every question, but hopefully they can provide some general guidance.
+## O que comentar
+O estilo informal das lições do _Programming Historian em português_ pode fazer com que estas pareçam enganosamente simples de escrever. De fato, escrever um bom tutorial é tão exigente, se não mais, do que qualquer outro tipo de escrita académica. Abaixo estão algumas perguntas comuns a ter em mente ao rever uma lição. Algumas serão mais relevantes do que outras, dependendo do tema, do público-alvo e da dificuldade do tutorial. É importante ressaltar que esta não é uma lista restritiva ou abrangente; não pedimos aos revisores que respondam a cada uma das perguntas, mas esperamos que possam fornecer alguma orientação geral.
 
 ### Audience
-The _Programming Historian_ speaks to a variety of audiences and reader skill levels. Some lessons are for complete beginners, others are for those considerably more comfortable with technical concepts and methods, and yet others are directed toward experienced digital historians looking to solve difficult technical challenges. We welcome such variety!
+O _Programming Historian em português_ se dirige a um público variado e com níveis de competência diferentes. Algumas lições são para iniciantes, outras são para aqueles consideravelmente mais confortáveis com conceitos e métodos técnicos, e outras ainda são dirigidas a historiadores digitais experientes que procuram resolver desafios técnicos difíceis. Aplaudimos essa diversidade!
 
-While we like each of our lessons to take the unique voice of its author, we also want each individual lesson to remain clear and consistent in its tone. More specifically, we want the technical explanations (and difficulty) to remain as constant as possible throughout the lesson. As a reviewer, it is quite useful to note any sections of a tutorial directed at more technically advanced users that seem to over-explain relatively simple concepts; the converse is true, too: we want to avoid sections of tutorials aimed at beginners that don't adequately explain fundamental concepts central to the tutorial. Some questions to keep in mind:
+Embora gostemos que cada uma das nossas lições tenha a marca pessoal do seu autor (ou tradutor), também queremos que cada lição individual permaneça com uma linguagem clara e homogénea. Mais especificamente, queremos que as explicações técnicas (e a dificuldade) permaneçam tão constantes quanto possível ao longo de toda a lição. Como revisor, é bastante útil observar as seções de um tutorial direcionadas a utilizadores tecnicamente avançados que parecem explicar excessivamente conceitos relativamente simples; o inverso também é verdadeiro: queremos evitar seções de tutoriais destinadas a iniciantes que não explicam adequadamente os conceitos fundamentais centrais ao tutorial.  Algumas questões a considerar:
 
-- Does the author address a consistent model reader throughout the lesson?
-- Are some concepts or steps over-explained while other are under-explained?
-- Does the audience seem to match at least vaguely with other _Programming Historian_ lessons? How is it new?
+- O autor dirige-se a um tipo de leitor consistente ao longo da lição?
+- Alguns conceitos ou passos são excessivamente explicados enquanto outros são poucos explicados?
+- O público-alvo parece corresponder, pelo menos vagamente, ao de outras lições do _Programming Historian em português_? Em que medida é um novo público-alvo?
 
-### Getting Ready
-- What software / programming languages are required?
+
+### Preparação
+- Quais os softwares / as linguagens de programação necessárias?
 - What prerequisite skills are needed?
-- What familiarity or experience is needed?
-- What data are needed? Is the dataset readily available?
+- Que familiaridade ou experiência é necessária?
+- Que dados são necessários? O conjunto de dados está facilmente disponível?
 
-### Skimmability
-- Are there clearly defined learning objectives or sets of skills to be learned listed near the top of the lesson?
-- Are there useful secondary skills to be gained / practiced from the lesson?
-- Do screenshots and other diagrams illustrate crucial steps / points of the lesson?
-- Do sections and section headings provide clear signage to the reader?
+### Estrutura
+- Existem objetivos de aprendizagem ou conjuntos de competências a aprender claramente definidos, listados no início da lição?
+- Existem competências secundárias úteis a serem adquiridas / praticadas a partir da lição?
+- As capturas de tela e outros diagramas ilustram etapas / pontos cruciais da lição?
+- As seções e os títulos das seções são claros e guiam o leitor?
 
-### Payoff
-- Does the tutorial suggest why the explained tools or techniques are useful in a general way?
-- Does the tutorial suggest how a reader could apply the concepts (if not concrete steps) of the lesson to their own work?
+### Benefícios
+- O tutorial sugere se as ferramentas ou técnicas explicadas são úteis de uma maneira geral?
+- O tutorial sugere como o leitor pode aplicar os conceitos (ou as etapas) da lição ao seu próprio trabalho?
 
-### Workflow
-- Should a long lesson be divided into smaller lessons?
-- Are there logical stopping points throughout the lesson?
-- If datasets are required, are they available to download at various points throughout the lesson (or different versions of them as the tutorial may require)?
+### Fluxo de Trabalho
+- A lição está muito grande e deve ser dividida em lições menores?
+- Existem pontos de interrupção lógicos ao longo da lição?
+- Se conjuntos de dados são necessários, estão disponíveis para download ao longo da lição (ou diferentes versões dos mesmos, se o tutorial assim o exigir)?
 
-### Sustainability
-To increase the lifespan of our lessons, _Programming Historian_ reviewers should keep in mind the following questions about sustainability. Every submission is different and some of these areas may not be applicable to all submissions. Keeping in mind the difficulty level of each lesson and its intended audience, reviewers should use these questions as guidelines to ensure that lessons are as sustainable as possible from the date of publication.
+### Sustentabilidade
+Para o aumentar a vida útil das nossas lições, os revisores do Programming Historian em português devem ter em mente as seguintes questões sobre sustentabilidade. Cada submissão é diferente e algumas destas questões podem não ser aplicáveis a todas as submissões. Tendo em conta o nível de dificuldade de cada lição e o público a que se destina, os revisores devem utilizar estas questões como diretrizes para garantir que as lições sejam tão sustentáveis quanto possível a partir da data de publicação.
 
-- Are all software versions and dependencies listed in the submission? Are these assets the most recent versions? If the lesson uses older software versions, does the author note why?
-- If you have expertise in the specific methodology or tool(s) for the lesson, is the methodology generally up-to-date?
-- What are the data sources for the submission? Are they included in a way that does not heavily on third-party hosting?
-- What kinds of other external links does the submission use? Are these current or are there other, more recent or appropriate, resources that could be linked to?
+- Todas as versões do software e as suas dependências estão listadas na submissão? Estes recursos estão nas versões mais recentes? Se a lição utiliza versões de software mais antigas, o autor indica o motivo?
+- Se você tem experiência na metodologia ou ferramenta(s) específica(s) para a lição, a metodologia está atualizada?
+- Quais são as fontes de dados para a submissão? Estão incluídas de uma forma que não dependam de uma hospedagem externa?
+- Que outros tipos de links ou recursos são utilizados na lição? São atuais ou existem outros recursos mais recentes ou apropriados?
 
-### Integrating with the _Programming Historian_
-- Does the lesson build upon an existing lesson and explain how?
-- Does the lesson tie into existing lessons and have appropriate links?
+Integrando a lição no _Programming Historian em português_
+- A lição baseia-se numa lição já existente e explica como?
+- A lição está ligada a outras lições existentes e tem os links apropriados?
 
-## Submitting your review
-We manage all of our peer review comments through GitHub. When a new lesson is ready for review, editor will provide you with a link where you can read the lesson, and a link to a discussion board where you can submit your constructive feedback. This discussion is held on Github, a free social coding environment. You will need to sign up for a free GitHub account to post your review. We encourage discussion to stay on Github but you are free to email the editor privately or to contact one of our ombudsperson (TBD) if you would like a private word.
+## Submeter a revisão
+Gerimos todos os comentários de revisão por pares através do GitHub. Quando uma nova lição estiver pronta para revisão, o editor fornecerá um link para a lição e um link para o fórum de discussão onde podem ser feitos comentários construtivos. Esta discussão é realizada no Github, um ambiente de codificação social livre. É preciso se inscrever numa conta gratuita do GitHub para publicar o comentário. Encorajamos que a discussão permaneça no Github, mas pode enviar um e-mail ao editor em particular ou entrar em contato com a nossa ombudsperson (a designar).
