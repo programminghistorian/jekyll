@@ -13,9 +13,7 @@ O processo de revisão do _Programming Historian em português_ é uma excelente
 
 Estas directrizes destinam-se a ajudar os revisores a compreender o seu papel no processo editorial e a responder a perguntas comuns sobre como ser mais eficiente e eficaz com as suas revisões.
 
-
 {% include toc.html %}
-
 
 ## Filosofia da Revisão
 Consideramos o processo de revisão um componente integral de um esforço colaborativo, produtivo e sustentável para os académicos criarem recursos técnicos úteis para todos. Quando um tutorial entra no nosso fluxo editorial, trabalhamos em estreita colaboração com o autor e os revisores para maximizar o potencial e publicá-lo dentro de um período de tempo razoável.
