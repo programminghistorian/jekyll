@@ -1,60 +1,60 @@
 ---
-title: Privacy Policy
+title: Política de privacidade
 layout: blank
 original: privacy-policy
 ---
 
-# Privacy Policy
+# Política de privacidade
 
-## Publishing Data
+## Publicando dados
 
-As an open access publisher committed to openness, *Programming Historian* collects a number of pieces of information about authors, translators, editors, and reviewers. This information is publicly displayed in the following file: <https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml>, and is also used to populate various pages of our website with relevant information (eg, an author's name and bio).
+Como editora empenhada na política de acesso aberto, o *Programming Historian em português* recolhe informação sobre os autores, tradutores, editores e revisores. Essas informações são [disponibilizadas publicamente](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml) e utilizadas para preencher várias páginas do nosso site com dados relevantes (por exemplo, o nome e a biografia de um autor).
 
-Depending on one's role, the data collected may include:
+Dependendo da função, as informações recolhidas podem incluir:
 
-- Name
-- Personal or Professional website address
-- Twitter handle
-- Github username
-- Year of joining the editorial board
-- Year of leaving the editorial board
-- Editorial board roles, if any
-- Institutional affiliation
-- A short biography, usually supplied by the author/editor
-- An ORCID
+- Nome
+- Endereço de website pessoal ou profissional
+- Identificador do Twitter
+- Nome de usuário do Github
+- Ano em que se juntou ao conselho editorial
+- Ano de saída do conselho editorial
+- Funções no conselho editorial (se aplicável)
+- Afiliação institucional
+- Pequena biografia, normalmente fornecida pelo autor/editor
+- Identificador ORCID
 
-In keeping with our open ethos, and to express our gratitude to authors, translators reviewers, and editors, we publicly acknowledge the names of all individuals who participate in one of these activities on the published lesson, and on our Project Team page (and its translations).
+De acordo com o nosso código de ética que favorece a abertura e de forma a expressar a nossa gratidão para com os autores, tradutores, revisores e editores, reconhecemos publicamente os nomes de todos os indivíduos que participam numa dessas atividades nas lições publicadas, assim como na página da equipe do projeto (e nas suas traduções).
 
-If you wish to contact us to discuss any data we may have about you, you can email our managing editor. You have the right to withdraw your consent to our use of this data, however, it should be noted that Right to Erasure may not apply to authors of a submitted article as we have a legitimate interest in keeping your data to identify you as the author of a published and indexed text.
+Se nos quiser contactar para discutir alguma informação pessoal que tenhamos, envie um email ao nosso editor-chefe. Tem o direito de retirar o seu consentimento para o uso desses dados. Contudo, o Direito à Exclusão pode não se aplicar aos autores de um artigo submetido, uma vez que temos um interesse legítimo em manter as suas informações para identificá-lo como autor de um texto publicado e indexado.
 
-## Google Analytics Data
+## Dados do Google Analytics
 
-The *Programming Historian* also collects web traffic data. We use this data to identify the needs of our visitors, to identify types of lessons that are in high demand in certain geographic regions, to promote the success of the project with potential funders, partners, and outside bodies through summary statistics, and to conduct and publish research about digital humanities and teaching and learning.
+O *Programming Historian em português* também recolhe dados de tráfego da web. Usamos esses dados para identificar as necessidades dos nossos visitantes, identificar tipos de lições com maior procura por região, promover o sucesso do projeto junto de potenciais financiadores, parceiros e organismos externas através de estatísticas, assim como para conduzir e publicar pesquisas sobre humanidades digitais, ensino e aprendizagem.
 
-None of the data collected by Google Analytics allows us to identify individuals.
+Nenhum dos dados recolhidos pelo Google Analytics permite identificar indivíduos.
 
-Google Analytics sets a number of "cookies" on your computer when you visit the website. These may include:
+O Google Analytics aplica uma série de "cookies" no seu computador quando visita o website. Estes podem incluir:
 
 `_ga`, `_gat`
 
-You can block this using the "Do Not Track" settings in your browser
+Pode bloqueá-lo utilizando as configurações “Não rastrear” / “Não monitorizar” do seu browser.
 
 `_utmv`
 
-This cookie is used by Google Analytics to determine the type of visitor that visits our website. The cookie determines the user's preferences based on which webpages they visit, so that we may use this data to understand which are the most popular webpages and why people visit the website.
+Este cookie é utilizado pelo Google Analytics para determinar o tipo de visitante do website. O cookie determina as preferências do usuário baseado nas páginas que visita, para que possamos usar essa informação para entender quais são as páginas mais populares e porque as pessoas visitam o website.
 
 `__utmz`
 
-This cookie is used by Google Analytics to determine the type of referral used by each visitor to arrive at our website. The cookie determines if the user has come directly to our website or via a search engine, e-mail or e-mail campaign. We use this data to understand how our users arrive at our website.
+Este cookie é utilizado pelo Google Analytics para determinar o tipo de referência usado por cada visitante para chegar ao nosso website. O cookie determina se o usuário veio diretamente ao nosso website ou por meio de um mecanismo de pesquisa, email ou campanha por email. Usamos esta informação para compreender como os usuários chegam ao nosso website.
 
 `__utma`
 
-This cookie is used to identify unique visitors to our website. The results are sent to our Google Analytics account, so that we can see how many unique visitors come to the site over a period of time.
+Este cookie é utilizado para identificar visitas únicas ao nosso website. Os resultados são enviados para a nossa conta do Google Analytics, para que possamos ver quantas visitas únicas ocorrem no website em determinado período.
 
 `__utmb`
 
-This cookie is used by Google Analytics to determine the visitor session times on our website. Each time you visit a new webpage on the website, the cookie is set to expire within 30 minutes. If it does not find an existing cookie, a new one is created.
+Este cookie é utilizado pelo Google Analytics para determinar o tempo de sessão do visitante em nosso website. Cada vez que visita uma nova página no website, o cookie deve expirar em 30 minutos. Se não encontrar um cookie existente, um novo será criado.
 
 `__utmc`
 
-This cookie is used by Google Analytics in conjunction with `__utmb` to determine visitor sessions. Unlike `__utmb`, this cookie does not have an expiry date. It determines whether a new session should be created based on whether you have previously closed your browser, re-opened it and come back to the website.
+Este cookie é utilizado pelo Google Analytics juntamente ao `__utmb` para determinar as sessões dos visitantes. Ao contrário de `__utmb`, este cookie não expira. Determina se uma nova sessão deve ser criada baseado no fato do usuário ter fechado o browser anteriormente, aberto novamente e retornado ao website.
