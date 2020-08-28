@@ -90,17 +90,18 @@ En esta segunda sección se tratan cuestiones más específicas del estilo de es
  *	Para décadas escribe "los años cincuenta" o "los cincuenta" (no "los años 50's" o "la década de los 50s").
  *	Comprime las secuencias de fecha así; 1816-17, 1856-9, 1854-64.
  *	Para fechas escritas en forma numérica utilice el formato AA-MM-DD, conforme al estándar ISO 8601:2004. Esto evita la ambigüedad.
- *	Utilice a. de J.C., a. de C. o a. C. (‘antes de (Jesu)Cristo’) y d. de J. C., d. de C., d. J. C. o d. C. (‘después de (Jesu)Cristo’): 211 a. C., 123 d. C. 
+ *	Utilice a. C. (‘antes de Cristo’) o d. C. (‘después de Cristo’): 211 a. C., 123 d. C. 
  *	1 a.m., 6:30 p.m. No 10 de la noche, es preferible diez de la noche o 10 p.m.
 
 ### Números [revisar lineamientos de la RAE y de autoridades de la lengua en Latinoamerica]
- *	Spell out from one to nine; integers above 10.
- *	Use a consistent format if the boundary outlined above is crossed within a single sentence (five apples and one hundred oranges; 5 apples and 110 oranges).
- *	Use commas (not periods/full stops) between groups of three digits in large numbers (32,904 not 32904). Exceptions: page numbers, addresses, in quotation, etc.
- *	Use numerals for versions (version 5 or v.5) or actual values (eg, 5%, 7″, $6.00).
- *	Always use the symbol % with numerals rather than the spelled-out word (percent), and make sure it is closed up to number: 0.05%.
- *	Use [LaTeX formatting for mathematical formulae](https://davidhamann.de/2017/06/12/latex-cheat-sheet/).
- *	For units of measure, use metric or imperial but be consistent.
+ *	Se escriben con palabras los números: los que pueden expresarse en una sola palabra (del cero al veintinueve, las decenas como treinta, etc.) y las centenas (cien, doscientos, etc.); los números redonados que pueden expresarse en dos palabras (quinientos mil, etc); los números que se expresan en dos palabras unidas por una conjunción y hasta noventa y nueve.   
+ *	Utilice de manera consistente el formato si en una misma oración hay dos referencias numéricas (cinco manzanas y cien naranjas; 5 manzanas y 110 naranjas).
+ *	Deje un espacio (no puntos ni comas) entre grupos de tres dígitos en número grandes (32 904 no 32904). Excepciones: años, páginas, versos, portales de vías urbanas, apartados de correos, apartados de correos, números de artículos legales, decretos o leyes. Al escribir números de más de cuatro cifras se separan de tres en tres.
+ * Para separar las parte entera de la decimal debe usarse la coma. 
+ *	Usar numerales para versiones (versión 5 o v.5).
+ *	Utilizar el símbolo % cuando se escribe con numerales y escribir la palabra (porcentaje) cuando se escribe con número. 
+ *	Utilice el [fortano LaTeX para fórmulas matemáticas (https://davidhamann.de/2017/06/12/latex-cheat-sheet/).
+ *	Para unidades de medida usar el sistema métrico, pero en el caso de las traducción utilizar el formato original. 
 
 ### Encabezados
 Los encabezados no deben contener un código de fuente o un formato de estilo como negrita, cursiva o código de fuente.
@@ -125,25 +126,18 @@ Con estilo:
 [AGREGAR ALGO SOBRE CONSISTENCIA GRAMATICAL DE LOS ELEMENTOS ENUMERADOS]
 
 ### Puntuación
- *	**Abreviaturas**: [revisar lineamientos de la RAE: https://www.rae.es/dpd/abreviatura] spell out all words on first mention. European Union (EU) and then EU. Do not use full points / periods or spaces between initials: BBC, PhD, mph, 4am, etc.
- *	**Corchetes / Paréntesis**: REVISAR LINEAMIENTOS PARA EL ESPAÑOL it is better to use commas or dashes. Use round brackets to introduce explanatory material into a direct quote, eg: He said: "When finished it (the tunnel) will revolutionise travel" or "She said adiós (goodbye)". Place a full stop / period outside a closing bracket if the material inside is not a sentence (like this). (But an independent sentence takes the full stop before the closing bracket.)
- *	**Dos puntos**: se utilizan para introducir listas, tabulaciones, textos, como en:REVISAR LINEAMIENTOS EN ESPAÑOL
+ *	**Abreviaturas, acrónimos y siglas**: escribir la palabra completa la primera vez que se enuncia. Humanidades Digitiales (HD). Cuando se enunician en plural (por ejemplo ONG) son invariables: las ONG. Las siglas adoptan el género de la palabra que constituye el núcleo de la expresión abreviada, que normalmente ocupa el primer lugar en la denominación: el FMI, por el «Fondo» Monetario Internacional; la OEA, por la «Organización» de Estados Americanos; las siglas se escriben sin puntos ni blancos de separación.: RAE, OEA, etc. Las siglas presentan normalmente en mayúscula todas las letras que las componen (OCDE, DNI, ISO) y, en ese caso, no llevan nunca tilde; así, CIA (del ingl. Central Intelligence Agency).
+ *	**Paréntesis**: se usa para insertar en un enunciado una información complementaria o aclaratoria, ej: El dijo: "Cuando lo acaben (el túnel) will revolutionise travel" or "She said adiós (goodbye)". Place a full stop / period outside a closing bracket if the material inside is not a sentence (like this). (But an independent sentence takes the full stop before the closing bracket.)
+ *	**Dos puntos**: se utilizan para introducir listas, tabulaciones, textos, ejemplificaciones, introducción de citas, etc.
     *	El comité recomienda: ampliar las horas de licencia hasta la medianoche; permitir a los niños en los locales con licencia; relajar los controles de planificación en los nuevos establecimientos públicos.
     *	Usar después del nombre de un orador para una frase entera citada: El Sr. James Sherwood, presidente de Sealink, dijo: "Tenemos..."
     *	La primera letra en minúscula después de dos puntos: así es como lo hacemos.
- *	**Coma**: NO EXISTE LA SERIA COMMA EN ESPAÑOL, REVISAR LINEAMIENTOS (this, that, and the other).
- *	**Guión**: a useful device to use instead of commas, but not more than one pair per sentence.
- *	**Ellipsis**: three periods separated from the preceding and following words by a space ( ... ). Use to condense a direct quote (thus the quote "the people sitting in this meeting room deserve a better deal" becomes "the people ... deserve a better deal").
- *	**Exclamation Mark**: use only at the end of a direct quote when it is clear that the remark is exclamatory, eg "I hate intolerance!"
- *	**Full Stop / Period**: use frequently. Sentences should be short, crisp, straightforward. But do not put full stops between initials, after status title (Mx, Dr) or between abbreviations (EU).
- *	**Hyphen**: use to avoid ambiguity or to form a single idea from two or more words:
-    *	Fractions: two-thirds.
-    *	Most words that begin with anti, non and neo.
-    *	A sum followed by the word worth - £10 million-worth of exports.
-    *	Some titles (director-general, secretary-general, but Attorney General, general secretary etc). The rule is to adopt the usage of the authority which created it
-    *	Avoiding ambiguity (little-used car ... little used car).
-    *	Compass quarters (south-west, north-east).
- *	**Quotation Marks**: use straight (not curly) quotation marks for direct quotes. Use either single or double quotation marks but be consistent.
+ *	**Raya**: para encerrar aclaraciones o incisos
+ *	**Guión**: se usa como signo de unión entre palabras u otros y como signo de división de palabras a final de línea.
+ *	**Puntos suspensivos**: tres pinto separafos de la palabra que lo precede y seguido de palabras ( ... ). Se utiliza para condensar una cita directa.
+ *	**Signos de exclamación**: se utilizan al cominezo y al comienzo y el final de la exclamación. 
+ *	**Punto**: se escribe punto después de las abreviaturas.
+ *	**Comillas angulares**: en los textos impresos, se recomienda utilizar en primera instancia las comillas angulares « », (ejemplo: «Antonio me dijo: “Vaya ‘cacharro’ que se ha comprado Julián”») reservando los otros tipos para cuando deban entrecomillarse partes de un texto ya entrecomillado. En este caso, las comillas simples se emplearán en último lugar.
 
 ### Mayúsculas
 La pauta es usarlos con moderación en la prosa corriente. Reglas específicas:
@@ -151,7 +145,7 @@ La pauta es usarlos con moderación en la prosa corriente. Reglas específicas:
 *	**Títulos**: los encabezados y títulos de libros deben mayúscula en la primera letra del título: "Preparando los datos para el análisis"; *El orgullo y la pasión*,
 *	**Siempre en mayúscula**:
     *	**Nombre propios**: William J. Turkel – a menos que la persona elija deletrear su nombre de otra manera (por ejemplo "bell hooks").
-    *	**Organizaciones artísticas, culturales y gubernamentales, etc**: Museo de Arte Moderno, Casa de Cervantes, Biblioteca Nacional, Agencia Nacional de Tierras, Naciones Unidades.
+    *	**Organizaciones, organismo, entidades y partidos políticos etc**: Museo de Arte Moderno, Casa de Cervantes, Biblioteca Nacional, Agencia Nacional de Tierras, Naciones Unidades.
     *	**Días festivos y festivales**: Diwali, Hanukkah, Eid-Ul-Adha, Día de los Muertos.
 *	**A veces o solo parcialmente en mayúsculas**:
     *	**Lugares**: capitales de países, regiones, zonas reconocibles (por ejemplo, el Oriente Medio, Senegal). Minúsculas para los puntos cardinales, a excepción de cuando son utilizados como parte del nombre de un lugar (para llegar al Polo Norte, dirigirse al norte). Otros ejemplos son: el noreste de Kenya, el sur del Brasil, el oeste, el oeste del Canadá, el extremo oriental, el Asia sudoriental, América Central, América Latina.
@@ -167,12 +161,12 @@ La pauta es usarlos con moderación en la prosa corriente. Reglas específicas:
     *	**Trabajos**: en minúscula – presidente Macron, Emmanuel Macron, presidente de France. El ministro de Hacienda. El Papa se escribe con mayúscula y la reina en minúscula. [REVISAR]
     *	**Organizaciones e instituciones**: el gobierno (en minúscula en toda referencia), el gabinete (minúscula en toda referencia), la Iglesia de Jesucristo de los Santos de los Últimos Días ("la iglesia"), Ministerio de Educación ("el ministerio"), Universidad Católica ("la universidad"), el Tribunal de Apelación ("tribunal de apelación" o "el tribunal").
     *	**Universidades e institutos**: mayúsculas para la institución y para departamentos ("Universidad Autónoma de México", "Departamento de Historia").
-    *	**Instituciones religiosas, hospitales y escuelas**: cap up the proper or place name, lower case the rest eg Nurture Hillandale rehabilitation hospital, Vernon county primary school, Ali Pasha’s mosque. [REVISAR]
+    *	**Instituciones religiosas, hospitales y escuelas**: todo en mayúsculo. 
 *	**Siempre en minúscula**:
-    *	**Committees, Reports and Inquiries**: committee on climate change, trade and industry committee, royal commission on electoral reform
-    *	**Agencies, Commissions, Public Bodies, Quangos**: benefits agency, crown prosecution service, customs and excise, parole board
-    *	**Estaciones**: spring, summer, autumn/fall, winter.
+    *	**Días de la semana y meses**: martes, diciembre, otoño. 
+    *	**Estaciones**: primavera, verano, otoño, invierno.
     *	**Tipos de cambio**: peso, sol, euro, franco, marco, dong, etc.
+    
 
 ### Referencias
 *	Los enlaces en lugar de las notas finales pueden ser apropiados en la mayoría de los casos.
@@ -188,8 +182,7 @@ La pauta es usarlos con moderación en la prosa corriente. Reglas específicas:
 
 
 ### Explicación de palabras difíciles [REVISAR CASOS ESPECÍFICOS PARA EL ESPAÑOL]
-
-[BORRÉ YA LOS QUE ESTABAN EN INGLÉS]
+Solo y demostrativos 
 
 
 
