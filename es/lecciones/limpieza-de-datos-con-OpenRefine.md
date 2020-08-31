@@ -63,7 +63,7 @@ Además del perfilado de datos y las operaciones de limpieza, las extensiones de
 
 ## Descripción del ejercicio Powerhouse Museum
 
-El Museo Powerhouse de Sydney ofrece la exportación gratuita de metadatos de su colección en su [sitio web](http://www.powerhousemuseum.com/collection/database/download.php). Este museo es uno de los mayores de ciencia y tecnología de todo el mundo, proporcionando acceso a casi 90.000 objetos, que van desde máquinas de vapor a cristalería fina y desde  alta costura a chips de ordenador.
+El Museo Powerhouse de Sydney ofrece la exportación gratuita de metadatos de su colección en su [sitio web](). Este museo es uno de los mayores de ciencia y tecnología de todo el mundo, proporcionando acceso a casi 90.000 objetos, que van desde máquinas de vapor a cristalería fina y desde  alta costura a chips de ordenador.
 
 Este museo ha estado divulgando activamente su colección en línea y haciendo que la mayoría de sus datos estén disponibles libremente. Desde el sitio web del museo, se puede descargar un archivo de texto separado por tabulaciones llamado *phm-collection.tsv*, que se puede abrir como una hoja de cálculo. El archivo descomprimido (58MB) contiene metadatos básicos (17 campos) para 75.823 objetos, publicados bajo una licencia [Creative Commons de Reconocimiento-Compartir-Igual 2.5](https://creativecommons.org/licenses/by-sa/2.5/es/). En este tutorial usaremos una copia de los datos que hemos archivado para descargarlos (en un momento). Esto asegura que si el Museo Powerhouse actualiza los datos, te seguirá siendo posible el seguir esta Lección.
 
