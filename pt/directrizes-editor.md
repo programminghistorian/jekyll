@@ -1,5 +1,5 @@
 ---
-title: Editor Guidelines
+title: Directrizes para editores
 layout: blank
 original: editor-guidelines
 ---
@@ -21,22 +21,18 @@ Obrigado por editar uma lição para o *Programming Historian em português*. So
 
 Incentivamos sempre potenciais autores ou tradutores de lições a apresentar as suas ideias antes de começarem a escrever. Se uma proposta não é adequada para o *Programming Historian em português*, o papel do editor é informar o autor antes que ele tenha escrito a lição completa. Queremos com isto poupar o tempo e a energia de todos. Uma vez conversado com o autor e encorajadas as suas ideias, o objetivo é apoiar o autor até que a lição esteja pronta para publicar. O objetivo é ajudá-lo da forma mais eficiente possível e com directrizes claras. Para isso pode ser útil conhecer as nossas [diretrizes para autores](/directrizes-autor).
 
-
 ### Espaços seguros
 O *Programming Historian em português* compromete-se em manter um espaço seguro para a troca de ideias, onde todos possam falar sem medo de assédio ou abuso. O editor desempenha um papel fundamental ao garantir a tolerância neste espaço. O trabalho inclui reforçar permanentemente a nossa política anti-assédio. Se for preciso ajuda, basta perguntar a um dos outros editores ou à ombudsperson do PH (a indicar). Para saber mais, pode ler sobre o [compromisso com espaços seguros](/posts/PH-commitment-to-diversity) no blog do projeto.
-
 
 ### Política anti-assédio
 Esta é uma declaração dos princípios do *Programming Historian em português* onde são definidas as expectativas para o tom e estilo de toda a comunicação entre revisores, autores, editores e participantes dos nossos fóruns públicos.
 
-O *Programming Historian português* dedica-se a criar um ambiente académico aberto em que os membros da comunidade podem examinar em liberdade e detalhadamente ideias, fazer perguntas, sugestões ou pedir esclarecimentos. Este espaço tem que ser livre de assédio para todos no projeto, independentemente do género, identidade e expressão de género, orientação sexual, deficiência, aparência física, raça, idade ou religião ou experiência técnica. Não é tolerado de nenhuma forma qualquer assédio ou ataque *ad hominem* a membros da comunidade. Os membros que violarem estas regras podem ser expulsos da comunidade, por avaliação do conselho editorial. Se alguém testemunhar ou sentir que foi vítima das atividades descritas acima, deve entrar em contato com a ombudsperson do PH (a indicar). Obrigado por nos ajudar a criar um espaço seguro.
-
+O *Programming Historian em português* dedica-se a criar um ambiente académico aberto em que os membros da comunidade podem examinar em liberdade e detalhadamente ideias, fazer perguntas, sugestões ou pedir esclarecimentos. Este espaço tem que ser livre de assédio para todos no projeto, independentemente do género, identidade e expressão de género, orientação sexual, deficiência, aparência física, raça, idade ou religião ou experiência técnica. Não é tolerado de nenhuma forma qualquer assédio ou ataque *ad hominem* a membros da comunidade. Os membros que violarem estas regras podem ser expulsos da comunidade, por avaliação do conselho editorial. Se alguém testemunhar ou sentir que foi vítima das atividades descritas acima, deve entrar em contato com a ombudsperson do PH (a indicar). Obrigado por nos ajudar a criar um espaço seguro.
 
 ### Acompanhar as lições propostas
 Depois que uma proposta de lição receber "sinal verde" da equipa editorial e ter um editor atribuído, este trabalha com o autor para definir os objetivos da lição e acordar um prazo de submissão. O prazo recomendado é de 90 dias a contar do início da conversa editorial, embora possa ser ajustado, se necessário.
 
 O editor criará um issue com o nome "Lição proposta" no [repositório de propostas no Github](https://github.com/programminghistorian/ph-submissions/issues) com a etiqueta "proposta". O texto padrão da proposta está incluído no modelo de publicações ou pode ser copiado do modelo abaixo.
-
 
 ```
 O Programming Historian em português recebeu a seguinte proposta de lição sobre 'TÍTULO PROVISÓRIO DA LIÇÃO' pelo(s) NOME(S) DO AUTOR(ES). Os objectivos de aprendizagem propostos são:
@@ -57,11 +53,11 @@ O editor é incentivado a ajustar o texto para refletir quaisquer metas ou requi
 Após a submissão da lição com sucesso, o editor tem que criar uma issue de revisão para a lição e fechar a discussão da proposta.
 
 ### Revisão por pares aberta
-O *Programming Historian em português* usa um modelo da revisão por pares aberta. Embora acreditando que isto incentiva a civilidade e a partilha produtiva de ideias, os autores têm o direito (e tem que ser respeitado) de solicitar uma revisão por pares fechada. Há muitas razões pelas quais alguém pode hesitar em participar numa revisão aberta e queremos que os autores escolham a opção com que se sentem mais confortáveis.
+O *Programming Historian em português* usa um modelo de revisão por pares aberta. Embora acreditando que isto incentiva a civilidade e a partilha produtiva de ideias, os autores têm o direito (e tem que ser respeitado) de solicitar uma revisão por pares fechada. Há muitas razões pelas quais alguém pode hesitar em participar numa revisão aberta e queremos que os autores escolham a opção com que se sentem mais confortáveis.
 
 Antes de solicitar revisões externas, o editor deve ler e experimentar o tutorial da lição e usar da sua experiência com o Programming Historian em português para ajudar o autor a fazer melhorias (se necessário). Não se espera que o editor seja um especialista no conteúdo da lição, esse é o papel dos [revisores](/directrizes-revisor).
 
-O editor deve ter uma visão geral para a sustentabilidade da lição e garantir que estão identificadas as versões, dependências e requisitos do software, as capturas de tela estão limitadas às necessárias para concluir a lição e que existe referência à documentação do próprio software (se disponível e apropriada). Os editores também devem garantir que as lições evitem, na medida do possível, instruções específicas do software, como "Clique com o botão direito do mouse no ícone x para aceder ao menu x", e sim favorecer visões gerais metodológicas. A lista de validação editorial [contém mais detalhes sobre práticas de sustentabilidade do Programming Historian em português](#c-sustainability-review).
+O editor deve ter uma visão geral para a sustentabilidade da lição e garantir que estão identificadas as versões, dependências e requisitos do software, as capturas de tela estão limitadas às necessárias para concluir a lição e que existe referência à documentação do próprio software (se disponível e apropriada). Os editores também devem garantir que as lições evitem, na medida do possível, instruções específicas do software, como "Clique com o botão direito do mouse no ícone x para aceder ao menu x", e sim favorecer visões gerais metodológicas. A [lista de validação editorial](#c-sustainability-review) contém mais detalhes sobre práticas de sustentabilidade do Programming Historian em português.
 
 Muitas vezes, os editores precisam de ajuda para definir qual o público-alvo de uma lição ou identificar o jargão que precisa de explicação. Esta revisão inicial vai ajudar os revisores externos a concentrar-se em melhorar a lição. Normalmente, é feito abertamente no nosso sistema de submissão (abaixo), mas poderá ser uma revisão fechada a pedido de qualquer das partes.
 
@@ -78,7 +74,7 @@ Para cada potencial revisor que for contactado, independemente da sua resposta, 
 + a resposta,
 + e, se a resposta foi "sim", a data em que foi concluída.
 
-Por favor, coloque as datas com o formato: `mm/dd/yyyy`
+Por favor, coloque as datas com o formato: `mm/dd/aaaa`
 
 Ao convidar revisores, o editor deve fornecer as [diretrizes para revisores](/directrizes-revisor) e um prazo para concluir a revisão (geralmente um mês) para garantir a publicação eficiente da lição.
 
@@ -89,7 +85,6 @@ Quando a lição for submetida, o editor abrirá uma nova 'issue' no nosso [repo
 O primeiro comentário no quadro de mensagens para uma revisão da proposta deve usar o nosso template. Este descreve o papel do editor e o que uma revisão implica, bem como as opções de todos no caso (improvável) de algum problema. Sempre que necessário, o [template](https://github.com/programminghistorian/ph-submissions/blob/gh-pages/.github/ISSUE_TEMPLATE) pode ser adaptado. Mas ele também deve aparecer automaticamente em todas as novas questões de edição. O template tem esta estrutura:
 
 ```
-
 O Programming Historian em português recebeu a proposta sobre '[TÍTULO DA LIÇÃO]' do autor [USERNAME NO GITHUB DO AUTOR]. Esta lição está agora em revisão e pode ser lida em:
 
 http://programminghistorian.github.io/ph-submissions/lessons/[URL to lesson]
@@ -115,7 +110,6 @@ Todos vão procurar orientações do editor sobre o sistema. Para a maioria dos 
 Se possível, é sempre melhor marcar os passos de revisão o mais rápido possível. Por exemplo, após a primeira revisão, é recomendado publicar uma resposta a agradecer ao revisor e a informar o autor que outra revisão está a caminho. Também é conveniente sugerir ao autor que aguarde a segunda revisão antes de responder. Esta mensagem permite que todos saibam o que esperar e quando.
 
 Se o editor estiver com problemas de tempo, basta fazer uma anotação no fórum para dizer que viu a nova atividade, mas vai precisar de mais tempo para responder adequadamente. Gerir as expectativas pode ser a chave para manter todos felizes.
-
 
 ### Resumir a revisão
 
@@ -150,7 +144,7 @@ Os autores são responsáveis por verificar se a lição foi processada corretam
 
 Esta verificação pode ser feita rapidamente na pré-visualização da versão compilada da página. Disponível em:
 
-`http://programminghistorian.github.io/ph-submissions/lessons/FILENAME-HERE`  (note - no .md at the end)
+`http://programminghistorian.github.io/ph-submissions/lessons/FILENAME-HERE`  (atenção que não tem .md no fim)
 
 Se não funcionar, informe Matthew Lincoln e ele tentará solucionar.
 
@@ -161,29 +155,28 @@ Para aumentar a longevidade das lições os editores do _Programming Historian e
 - Sempre que possível os datasets para a lição estão claramente identificados e alojados no _Programming Historian em português_;
 - Sempre que possível as lições fazem uso da documentação do software existente;
 - As lições conectam-se à Wikipedia para terminologia técnica;
-
-- As capturas de tela da [Interface gráfica do utilizador](https://pt.wikipedia.org/wiki/Interface_gr%C3%A1fica_do_utilizador) do software são limitadas àquelas necessárias para entender a lição.
-- Links externos (por exemplo, software ou datasets) são atuais e estão ativos (embora os autores devam considerar direcionar os usuários para a documentação no seu todo, em vez de fornecer links para páginas de documentação específicas)
-- Links para artigos devem usar os respectivos [DOIs](https://www.doi.org), se disponíveis;
+- As capturas de tela da [Interface gráfica do utilizador](https://pt.wikipedia.org/wiki/Interface_gr%C3%A1fica_do_utilizador) do software são limitadas àquelas necessárias para entender a lição;
+- Links externos (por exemplo, software ou datasets) são atuais e estão ativos (embora os autores devam considerar direcionar os usuários para a documentação no seu todo, em vez de fornecer links para páginas de documentação específicas);
+- Links para artigos devem usar os respectivos [DOIs](https://www.doi.org), se disponíveis.
 
 Para ajudar a alcançar um público mais alargado, sempre que possível os autores devem seguir as seguintes diretrizes:
 
-- na escolha de métodos ou ferramentas, ter em mente escolhas multilingues para os leitores. É particularmente importante para métodos de análise textual ou quando é necessário suportar diferentes conjuntos de caracteres (por exemplo, caracteres acentuados, não latinos etc.).
-- Ao escolher fontes primárias, imagens, produzir figuras ou tirar capturas de tela, considerar que serão lidos por público diversificado.
-- Ao escrever evite piadas, referências culturais, trocadilhos, jogos de palavras, expressões idiomáticas, sarcasmo, emojis ou linguagem mais complicada do que o necessário. Referências a pessoas, organizações ou detalhes históricos devem sempre vir com informações de contexto. Pode ajudar supor que o leitor não mora no mesmo país ou não fala o mesmo idioma.
-- Nos exemplos de código ou metadados, use formatos padrão reconhecidos internacionalmente para datas e horas ([ISO 8601:2004](https://www.iso.org/standard/40874.html)). Em texto livre, esteja ciente das diferenças culturais relacionadas à representação de datas e horários que podem causar confusão.
+- Na escolha de métodos ou ferramentas, ter em mente escolhas multilingues para os leitores. É particularmente importante para métodos de análise textual ou quando é necessário suportar diferentes conjuntos de caracteres (por exemplo, caracteres acentuados, não latinos etc.);
+- Ao escolher fontes primárias, imagens, produzir figuras ou tirar capturas de tela, considerar que serão lidos por público diversificado;
+- Ao escrever evite piadas, referências culturais, trocadilhos, jogos de palavras, expressões idiomáticas, sarcasmo, emojis ou linguagem mais complicada do que o necessário.;
+- Referências a pessoas, organizações ou detalhes históricos devem sempre vir com informações de contexto. Pode ajudar supor que o leitor não mora no mesmo país ou não fala o mesmo idioma;
+- Nos exemplos de código ou metadados, use formatos padrão reconhecidos internacionalmente para datas e horas ([ISO 8601:2004](https://www.iso.org/standard/40874.html)). Em texto livre, esteja ciente das diferenças culturais relacionadas à representação de datas e horários que podem causar confusão;
 - Sempre que possível, escolher métodos e ferramentas que possuam documentação multilingue. Se isso não for prático, será ótimo adicionar algumas referências multilingues no final do tutorial.
 
 Os editores devem trabalhar em estreita colaboração com os autores para garantir que estes critérios sejam cumpridos. Quando não for possível, devem ser apresentadas justificativas de forma clara e transparente na discussão de revisão respectiva.
 
 ### D) Verifique as imagens
 
-Todas as imagens devem usar nomes de arquivos consistentes e semanticamente significativos que indiquem claramente o que são. Se uma lição possui um grande número de imagens em rápida sucessão e a ordem é importante (por exemplo, uma série de capturas de tela), pode ser aconselhável usar um sistema de nomeação sequencial - idealmente, usando o mesmo slug do nome de arquivo hifenizado que a lição em si (ou uma versão abreviada se o título da lição for bastante longo), seguido de números para indicar qual é a figura (por exemplo, `counting-frequencies-1.png`,` counting-frequencies-1.png`, `counting-frequencies-2.png` e assim por diante.)
+Todas as imagens devem usar nomes de arquivos consistentes e semanticamente significativos que indiquem claramente o que são. Se uma lição possui um grande número de imagens em rápida sucessão e a ordem é importante (por exemplo, uma série de capturas de tela), pode ser aconselhável usar um sistema de nomeação sequencial - idealmente, usando o mesmo slug do nome de arquivo hifenizado que a lição em si (ou uma versão abreviada se o título da lição for bastante longo), seguido de números para indicar qual é a figura (por exemplo, `counting-frequencies-1.png`,` counting-frequencies-1.png`, `counting-frequencies-2.png` e assim por diante).
 
 Se uma lição usar um sistema de nomeação de imagem seqüencial, é possível que a numeração das figuras mude durante o processo de revisão por pares. Pedimos que, antes da publicação de uma lição, todos os nomes de arquivos sejam atualizados para os números das figuras apropriadas. Isso facilita muito a atualização das lições, se necessário no futuro. Obrigado por nos ajudar a manter o *Programming Historian em português* sustentável.
 
 Independentemente de como as imagens são nomeadas (semântica ou sequencialmente), elas devem ser colocadas num subdiretório no diretório `images`. O subdiretório deve ser nomeado usando o mesmo slug de URL usado para nomear a lição. Verifique se as imagens estão em formatos compatíveis com a Web, como PNG ou JPEG, e dimensionadas adequadamente (em termos de pixels e bytes).
-
 
 Instruções completas sobre como adicionar imagens estão disponíveis nas [Diretrizes para o autor](/directrizes-autor).
 
@@ -193,13 +186,13 @@ Assim como as imagens, todos os datasets devem ser armazenados no site (não vin
 
  - `/assets/LESSON-SLUG/Louvre-Paintings-1.csv`
 
-Ocasionalmente, lições específicas podem utilizar datasets demasiado grandes para serem armazenados no repositório GitHub do Programming Historian em português. Se for esse o caso, recomendamos que os autores coloquem os recursos no [Zenodo](https://zenodo.org/) e forneçam ao editor da lição o DOI gerado pelo mesmo para colocá-lo na lição. No caso de já existirem num repositório institucional, recomendamos o upload da versão utilizada para o repositório do *Programming Historian em português* ou para o Zenodo para que seja utilizado de forma coerente em todas as lições.
+Ocasionalmente, lições específicas podem utilizar datasets demasiado grandes para serem armazenados no repositório GitHub do *Programming Historian em português*. Se for esse o caso, recomendamos que os autores coloquem os recursos no [Zenodo](https://zenodo.org/) e forneçam ao editor da lição o DOI gerado pelo mesmo para colocá-lo na lição. No caso de já existirem num repositório institucional, recomendamos o upload da versão utilizada para o repositório do *Programming Historian em português* ou para o Zenodo para que seja utilizado de forma coerente em todas as lições.
 
 Ao fazer o upload para o Zenodo, todos os ficheiros (mesmo se for apenas um) devem ser comprimidos num único ficheiro zip. O ficheiro zip deve ter o mesmo nome do ficheiro da lição (a slug escolhida). Isso é necessário apenas quando o tamanho total do dataset é maior que 25 MB.
 
 ### F) Verificar vídeos / gifs
 
-Vídeos e gifs são fortemente desencorajados porque criam uma série de problemas. Por exemplo, é difícil e demorado solicitar alterações num vídeo durante o processo de revisão por pares e impossível para um editor fazer pequenas atualizações nos anos seguintes, à medida que se tornar desatualizado. Os vídeos exigem a administração de um canal separado no YouTube, não podem ser impressos e muitos de nossos leitores usam cópias em PDF ou [cópias impressas do *Programming Historian*] (https://zenodo.org/record/49873#.V0lazGaGa7o). Desse modo, só devem ser utilizados quando for absolutamente necessário.
+Vídeos e gifs são fortemente desencorajados porque criam uma série de problemas. Por exemplo, é difícil e demorado solicitar alterações num vídeo durante o processo de revisão por pares e impossível para um editor fazer pequenas atualizações nos anos seguintes, à medida que se tornar desatualizado. Os vídeos exigem a administração de um canal separado no YouTube, não podem ser impressos e muitos de nossos leitores usam cópias em PDF ou [cópias impressas do *Programming Historian*](https://zenodo.org/record/49873#.V0lazGaGa7o). Desse modo, só devem ser utilizados quando for absolutamente necessário.
 
 Se um tutorial contiver um vídeo, ele deverá ser hospedado no nosso canal do YouTube (que ainda não está configurado, envie um e-mail aos outros editores quando você receber um vídeo). Um backup do arquivo também deve ser armazenado no nosso repositório no Github, seguindo os mesmos princípios de nomeação e armazenamento das seções de imagens e dados descritos acima e armazenados no diretório 'assets':
 
@@ -216,18 +209,18 @@ Quando o editor e o autor estão satisfeitos com a proposta, a próxima etapa é
 Se a lição foi escrita por um novo autor, o editor-chefe precisará de adicionar uma nova biografia. Para isso é preciso dar-lhe as seguintes informações:
 
 ```yaml
-- name: Jim Clifford
+- name: João Silva
   team: false
   orcid: 0000-0000-1111-1111
   bio:
-      en: |
-          Jim Clifford is an assistant professor in the Department of History
-          at the University of Saskatchewan.
+      pt: |
+          João Silva é professor auxiliar do Departamento de Arqueologia
+          da Universidade do Algarve.
 ```
 
 **O espaçamento é importante**, portanto, é necessário verificar se o avanço e o recuo  correspondem aos outros exemplos.
 
-O `orcid` é opcional, mas muito recomendado se [os autores se registrarem para um ID no serviço](https://orcid.org/). **Apenas indicar o ORCiD com indicação explícita do autor. Nunca adicionar sem primeiro obter a confirmação do autor de que é o correto.**
+O `orcid` é opcional, mas muito recomendado se [os autores se registrarem para um ID no serviço](https://orcid.org/). **Apenas incluir o ORCiD com indicação explícita do autor. Nunca adicionar sem primeiro obter a confirmação do autor de que é o correto.**
 
 ### 2) Adicionar índice na lição
 
@@ -243,9 +236,9 @@ O código a seguir deve ser colocado no texto da lição, geralmente antes do pr
 title: "Seu título aqui"
 collection: lições
 layout: lição
-slug: e.g. introduction-to-sentiment-analysis
-date: YYYY-MM-DD
-translation_date: YYYY-MM-DD (translations only)
+slug: e.g. introducao-a-analise-de-redes
+date: AAAA-MM-DD
+translation_date: AAAA-MM-DD (somente traduções)
 authors:
 - Nome próprio Apelido
 - Nome próprio Apelido etc
@@ -260,7 +253,7 @@ translation-editor:
 - Nome próprio Apelido (somente traduções)
 translation-reviewer:
 - Nome próprio Apelido (somente traduções)
-original: slug para a lição publicada original (translations only)
+original: slug para a lição publicada original (somente traduções)
 review-ticket: e.g. https://github.com/programminghistorian/ph-submissions/issues/108
 difficulty: veja as diretrizes abaixo
 activity: ESCOLHER UM: adquirir, transformar, analisar, apresentar, sustentar:
@@ -280,9 +273,9 @@ difficulty: 2
 1. Adicionar o tópico a qualquer lição existente também descrita pelo novo tópico.
 2. Adicionar o(s) novo(s) tópico(s) em /_data/topics.yml, seguindo o formato dos existentes (atenção que os tópicos não podem ter espaços – quando necessário usar hífens).
 3. Editar o ficheiro /js/lessonfilter.js para garantir que o botão de filtro funciona para o novo tópico. Dentro ficheiro basta procurar o trecho de código de dez linhas que começa com `$ ('# filter-api')`, copiar e colar o mesmo trecho  de código, mas substituindo "api" pelo novo tópico nas *duas* vezes que aparece.
-- **abstract** basta uma descrição de 1 a 3 frases do que a lição permite aprender. Tente evitar vocabulário técnico, pois estes resumos podem conduzir académicos sem conhecimento técnico a experimentar algo novo.
+- **abstract (resumo)** basta uma descrição de 1 a 3 frases do que a lição permite aprender. Tente evitar vocabulário técnico, pois estes resumos podem conduzir académicos sem conhecimento técnico a experimentar algo novo.
 - **slug** deve ter o caminho para a lição no site público do Programming Historian. Tal como indicado acima representa o texto hifenizado que aparece a seguir a programaçãohistorian.org/lessons/ no link da lição (por exemplo, construção-sites-estáticos-com-páginas-jekyll-github)".
-- **data** A data da lição deve ser atualizada para a data em que a proposta foi colocada no repositório Jekyll principal.
+- **date (data)** A data da lição deve ser atualizada para a data em que a proposta foi colocada no repositório Jekyll principal.
 
 ### 4) Encontrar uma imagem para representar a lição
 
@@ -309,7 +302,7 @@ O Editor-Chefe irá ler e verificar cuidadosamente a lição, garantindo que ela
 
 Para facilitar o trabalho do editor-chefe, é preciso colocar na thread de submissão da lição uma lista de todos os ficheiros que precisam ser copiados para a publicação. Normalmente, esta lista deve incluir:
 
-- ficheiro .md da lição
+- O ficheiro .md da lição
 - O diretório para todos os ficheiros anexos (imagens, datasets, etc)
 - Os ícones da galeria
 - A biografia do autor, se for novo
@@ -317,7 +310,7 @@ Para facilitar o trabalho do editor-chefe, é preciso colocar na thread de submi
 Todos, exceto a biografia, devem ser ficheiros colocados no repositório ph_submissions. A biografia pode ser colocada diretamente no ticket (thread).
 
 ### 6) Incorporar a lição ao nosso bot do Twitter
-Além da promoção no Twitter descrita abaixo, também temos um bot do Twitter para anunciar regularmente as lições mais antigas. Para adicionar a nova lição ao pipeline, esta tem que ser adicionada através duma linha neste [ficheiro/planilha)](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8 /edit#gid=1625380994). Todos na equipe editorial devem ter a capacidade de fazer alterações, se houver problemas enviar um email ao grupo do Google. A linha para a lição nova deverá ter os seguintes campos:
+Além da promoção no Twitter descrita abaixo, também temos um bot do Twitter para anunciar regularmente as lições mais antigas. Para adicionar a nova lição ao pipeline, esta tem que ser adicionada através duma linha neste [ficheiro/planilha](https://docs.google.com/spreadsheets/d/1o-C-3WwfcEYWipIFb112tkuM-XOI8pVVpA9_sag9Ph8/edit#gid=1625380994). Todos na equipe editorial devem ter a capacidade de fazer alterações, se houver problemas enviar um email ao grupo do Google. A linha para a lição nova deverá ter os seguintes campos:
 
 * message_one (coluna A) – um tweet para ser publicado no início da semana no twitter.
 * message_two (coluna B) – um tweet "Caso você tenha perdido" para ser publicada no final da semana.
@@ -328,10 +321,10 @@ A coluna D é para deixar em branco e nunca ser editada - esta coluna é usada p
 ### 7) Agradecer a todos e incentivar a divulgação
 Depois de receber a notícia de que o Editor-Chefe publicou a lição com êxito, é preciso fechar o ticket de submissão, colocando o link para a lição publicada. É importante enviar um email ou uma mensagem a todos os envolvidos, agradecendo os esforços de todos. Em particular, agradecer ao autor por contribuir e incentivar para que volte a contribuir no futuro. Também vale a pena dar ao autor algumas ideias para divulgarem a lição. As lições mais usadas têm sempre a energia dos autores por trás. Por exemplo, os autores devem ser incentivados a:
 
-- Publicar um tweet pelo menos 3 vezes sobre a lição (com o link).
-- Retweetar os nossos tweets sobre a lição ('gostar' não ajuda a espalhar a notícia)
-- Promover a lição em apresentações ou publicações do seu trabalho
-- Referir a aula com Link nos posts do blog, quando relevante
+- Publicar um tweet pelo menos 3 vezes sobre a lição (com o link);
+- Retweetar os nossos tweets sobre a lição ('gostar' não ajuda a espalhar a notícia);
+- Promover a lição em apresentações ou publicações do seu trabalho;
+- Referir a lição com link nos posts do blog, quando relevante;
 - Adicionar a lição a listas de recursos em repositórios relevantes (por exemplo, Wikipedia, grupos comunitários, etc.).
 
 As pessoas não encontram lições por conta própria. A parte difícil está feita, então vamos ter certeza de que valeu a pena e divulgar!
@@ -340,11 +333,9 @@ As pessoas não encontram lições por conta própria. A parte difícil está fe
 
 O Editor-chefe é responsável por verificar cuidadosamente a lição e garantir que ela cumpre com todas as políticas e requisitos do Programming Historian. Se a lição não atender aos requisitos, ela deve ser encaminhada ao editor para mais uma revisão. Esta é uma parte crucial do fluxo de trabalho editorial. Depois do Editor-chefe estar convencido de que a lição atende aos nossos padrões, tem que mover os ficheiros para o website principal através de um *pull request*.
 
-
 ## 1) Verificar cuidadosamente a pré-visualização da proposta
 
 Verificar a pré-visualização da proposta quanto a erros ou falhas de acordo com as orientações de publicação. Qualquer problema deve ser remetido ao editor.
-
 
 ## 2) Mover os ficheiros
 
@@ -352,7 +343,7 @@ O editor deve ter deixado uma lista clara dos ficheiros que precisam de ser publ
 
 Existem várias maneiras de executar um *pull request* para publicar os ficheiros:
 
-* A) Siga nossas ["Orientações para contribuições técnicas"](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions), que usa a GUI do Github.
+* A) Siga as nossas ["Orientações para contribuições técnicas"](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions), que usam a GUI do Github.
 
 * B) Use `git` na linha de comando. As instruções que se seguem assumem que os repositórios `jekyll` e` ph-submissions` já estão copiados para a máquina local. (a [lição sobre o uso do GitHub Desktop](/lessons/getting-started-with-github-desktop) pode ser útil se tudo isto for novidade.) Em caso de incertezas ou dúvidas sobre como fazer, entrar em contato com Matthew Lincoln para ajudar.
 
@@ -375,13 +366,13 @@ Após a lição ter sido colocada para o repositório `jekyll`, também é neces
 Se a lição foi escrita por um autor novo, o editor-chefe deve adicionar informações sobre o autor à [lista de autores](https://github.com/programminghistorian/jekyll/blob/gh-pages/_data/ph_authors.yml). É para seguir a sintaxe dos exemplos já colocados, usando a biografia fornecida pelo editor:
 
 ```yaml
-- name: Jim Clifford
+- name: João Silva
   team: false
   orcid: 0000-0000-1111-1111
   bio:
-      en: |
-          Jim Clifford is an assistant professor in the Department of History
-          at the University of Saskatchewan.
+      pt: |
+          João Silva é professor auxiliar do Departamento de Arqueologia
+          da Universidade do Algarve.
 ```
 
 ## 4) Confirmar se todos os links e cabeçalhos YAML funcionam corretamente
@@ -403,8 +394,8 @@ O status destes testes (geralmente chamado de "Status de Compilação (Build sta
 
 Assim, pode ser vista a lista de todas as alterações feitas no repositório principal, juntamente com o ícone do status:
 
-- Check verde: indica que a página está pronta para ir ao ar! Todos os links da página foram verificados e considerados válidos. [** O restante desta lição pode ser ignorado e passar directamente para a secção de agradecimento. **](#11-thank-everyone-and-encourage-promotion)
-- Círculo amarelo: o último commit ainda está a compilar. Dentro 1-2 minutos deve estar pronto.
+- Check verde: indica que a página está pronta para ir ao ar! Todos os links da página foram verificados e considerados válidos. [**O restante desta lição pode ser ignorado e passar directamente para a secção de agradecimento.**](#11-thank-everyone-and-encourage-promotion)
+- Círculo amarelo: o último commit ainda está a compilar. Dentro de 1-2 minutos deve estar pronto.
 - X vermelho: houve um erro na compilação.
 
 Se a compilação falhou, será necessário consultar os logs para ver qual a razão. Para isso:
