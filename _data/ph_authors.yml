@@ -60,7 +60,7 @@
       Caleb McDaniel es profesor asociado de Historia en Rice University.
 
 - name: Ian Milligan
-  team: false
+  team: true
   team_start: 2014
   team_end: 2018
   institution: University of Waterloo
@@ -70,12 +70,19 @@
       University of Waterloo, Canada.
     es: |
       Universidad de Waterloo, Canadá.
+    fr: |
+      Université de Waterloo, Canada.
   bio:
     en: |
-      Ian Milligan is an associate professor of history at the University
-      of Waterloo.
+      Ian Milligan is an associate professor of history at the University of Waterloo.
     es: |
       Ian Milligan es profesor asociado de historia en la Universidad de Waterloo.
+    fr: |
+      Ian Milligan est un professeur associé en histoire à l'Université de Waterloo.
+      François Dominic Laramée est chercheur postdoctoral en histoire numérique de la médecine 'Université d'Ottawa, au Canada.
+  team_roles:
+    - english
+    - ombuds
 
 - name: Fred Gibbs
   team: false
