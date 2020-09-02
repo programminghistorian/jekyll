@@ -1,5 +1,5 @@
 ---
-title: Reviewer Guidelines
+title: Diretrizes para Revisores
 date: 03-14-2015
 layout: blank
 original: reviewer-guidelines
@@ -13,9 +13,7 @@ O processo de revisão do _Programming Historian em português_ é uma excelente
 
 Estas directrizes destinam-se a ajudar os revisores a compreender o seu papel no processo editorial e a responder a perguntas comuns sobre como ser mais eficiente e eficaz com as suas revisões.
 
-
 {% include toc.html %}
-
 
 ## Filosofia da Revisão
 Consideramos o processo de revisão um componente integral de um esforço colaborativo, produtivo e sustentável para os académicos criarem recursos técnicos úteis para todos. Quando um tutorial entra no nosso fluxo editorial, trabalhamos em estreita colaboração com o autor e os revisores para maximizar o potencial e publicá-lo dentro de um período de tempo razoável.
@@ -23,7 +21,7 @@ Consideramos o processo de revisão um componente integral de um esforço colabo
 ### Crítica Construtiva
 Rever um tutorial não é simplesmente avaliar os seus méritos e falhas (embora seja importante fazê-lo também), mas ajudar a melhorar o tutorial em virtude de uma perspectiva externa. Pedimos que os revisores façam críticas justas e construtivas (e, claro, elogios) que ajudem a melhorar o tutorial para uma audiência de leitores ampla.
 
-### Transparency
+### Transparência
 Valorizamos muito a transparência no nosso processo de produção e revisão de lições. O nosso processo de revisão acontece no Github, onde as nossas lições estão hospedadas. Nomeadamente, nós utilizamos os recursos de comentários e de [rastreamento de problemas](https://en.wikipedia.org/wiki/Issue_tracking_system) do Github para acompanhar as sugestões e a forma como são tratadas e discutidas pelos autores e revisores. Isto ajuda a evitar que conversas importantes sejam esquecidas e se percam em discussões por e-mail.
 
 Portanto, o trabalho como revisor - e a sua identidade - será totalmente visível para o autor. Os comentários devem envolver diretamente o autor e a lição, e não o revisor. Se em algum momento não tiver certeza do seu papel ou do que fazer a seguir, sinta-se à vontade para fazer uma pergunta e um editor responderá assim que puder.
@@ -38,7 +36,7 @@ O _Programming Historian em português_ se dedica a prover um ambiente académic
 ## O que comentar
 O estilo informal das lições do _Programming Historian em português_ pode fazer com que estas pareçam enganosamente simples de escrever. De fato, escrever um bom tutorial é tão exigente, se não mais, do que qualquer outro tipo de escrita académica. Abaixo estão algumas perguntas comuns a ter em mente ao rever uma lição. Algumas serão mais relevantes do que outras, dependendo do tema, do público-alvo e da dificuldade do tutorial. É importante ressaltar que esta não é uma lista restritiva ou abrangente; não pedimos aos revisores que respondam a cada uma das perguntas, mas esperamos que possam fornecer alguma orientação geral.
 
-### Audience
+### Público-alvo
 O _Programming Historian em português_ se dirige a um público variado e com níveis de competência diferentes. Algumas lições são para iniciantes, outras são para aqueles consideravelmente mais confortáveis com conceitos e métodos técnicos, e outras ainda são dirigidas a historiadores digitais experientes que procuram resolver desafios técnicos difíceis. Aplaudimos essa diversidade!
 
 Embora gostemos que cada uma das nossas lições tenha a marca pessoal do seu autor (ou tradutor), também queremos que cada lição individual permaneça com uma linguagem clara e homogénea. Mais especificamente, queremos que as explicações técnicas (e a dificuldade) permaneçam tão constantes quanto possível ao longo de toda a lição. Como revisor, é bastante útil observar as seções de um tutorial direcionadas a utilizadores tecnicamente avançados que parecem explicar excessivamente conceitos relativamente simples; o inverso também é verdadeiro: queremos evitar seções de tutoriais destinadas a iniciantes que não explicam adequadamente os conceitos fundamentais centrais ao tutorial.  Algumas questões a considerar:
@@ -47,10 +45,9 @@ Embora gostemos que cada uma das nossas lições tenha a marca pessoal do seu au
 - Alguns conceitos ou passos são excessivamente explicados enquanto outros são poucos explicados?
 - O público-alvo parece corresponder, pelo menos vagamente, ao de outras lições do _Programming Historian em português_? Em que medida é um novo público-alvo?
 
-
 ### Preparação
 - Quais os softwares / as linguagens de programação necessárias?
-- What prerequisite skills are needed?
+- Quais as competências prévias necessárias?
 - Que familiaridade ou experiência é necessária?
 - Que dados são necessários? O conjunto de dados está facilmente disponível?
 
