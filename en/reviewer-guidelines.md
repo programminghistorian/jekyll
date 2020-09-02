@@ -31,7 +31,7 @@ We highly value transparency in our lesson production and review process. Our re
 
 Therefore, your work as a reviewer--and your identity--will be fully visible to the author. Comments should engage with the author and lesson directly, rather than the review editor. If at any point you are unsure of your role or what to do next, feel free to post a question to clarify and an editor will respond as soon as they can.
 
-In keeping with the ideas of public scholarship and open peer review, we generally encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable. In some cases a private word may be more appropriate. If you feel the need to discuss a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](/project-team), or to contact one of our dedicated ombudsperson (TBD).
+In keeping with the ideas of public scholarship and open peer review, we generally encourage discussions to stay on GitHub as outlined in our editorial workflow. However, we also want everyone to feel comfortable. In some cases a private word may be more appropriate. If you feel the need to discuss a matter related to a tutorial or a matter related to the review, please feel free to [email the assigned editor directly](/project-team), or to contact one of our dedicated ombudsperson (Dr Ian Milligan - i2milligan@uwaterloo.ca).
 
 Unless you instruct us otherwise, your name will be indicated as a reviewer on the lesson's page when it is officially published; you'll also be listed on our contributors page.
 
