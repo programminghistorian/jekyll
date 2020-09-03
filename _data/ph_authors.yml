@@ -1436,3 +1436,33 @@
     - editorial
   status: volunteer
 
+- name: Hélène Huet
+  email: hhuet@ufl.edu
+  team: true
+  team_start: 2020
+  institution: University of Florida
+  sortname: Huet
+  affiliation:
+    en: |
+        University of Florida.
+    pt: |
+        Universidade de Flórida.
+    es: |
+        Universidad de Florida.
+    fr: |
+        Université de Floride.
+  bio:
+    en: |
+        Hélène Huet is a librarian at the University of Florida.
+    pt: |
+        Hélène Huet é bibliotecaria em la Universidade de Flórida. 
+    es: |
+        Hélène Huet es bibliotecaria en la Universidad de Florida. 
+    fr: |
+        Hélène Huet es bibliothécaire á la Université de Floride.
+  team_roles:
+    - french
+    - ombuds
+  status: volunteer
+
+
