@@ -105,7 +105,7 @@
   team: true
   team_start: 2016
   institution: Universidad de los Andes, Colombia
-  sortname: Afandor-Llach
+  sortname: Afanador-Llach
   affiliation:
     en: |
       University of los Andes, Colombia.
@@ -1114,6 +1114,10 @@
   bio:
     en: |
       Charlie Harper is the Digital Learning and Scholarship Librarian at Case Western Reserve University
+
+- name: Alix Chagué
+  team: false
+  orcid: 0000-0002-0136-4434
 
 - name: Eric Weinberg
   team: false
