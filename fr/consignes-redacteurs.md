@@ -39,7 +39,7 @@ Pour s'assurer d'une rapide publication sur ce sujet d'importance, nous nous som
 
 Si la leçon n'est pas déposée d'ici le [DATE AGRÉÉE], le rédacteur ou la rédactrice tentera de contacter les auteur(e)s. Sans mise à jour de leur part, ce ticket sera clos, il peut toutefois être à nouveau ouvert sur demande des auteur(e)s.
 
-Le principal contact éditorial pour cette leçon est [NOM D'UTILISATEUR/UTILISATRICE DU RÉDACTEUR/DE LA RÉDACTRICE]. Pour tout souci, les auteur(e)s peuvent contacter l'un.e ou l'autre de nos médiatrice Hélène Huet.
+Le principal contact éditorial pour cette leçon est [NOM D'UTILISATEUR/UTILISATRICE DU RÉDACTEUR/DE LA RÉDACTRICE]. Pour tout souci, les auteur(e)s peuvent contacter notre médiatrice Hélène Huet.
 ```
 Le rédacteur ou la rédactrice peut adapter le texte du ticket de proposition en fonction d'éventuels objectifs supplémentaires ou de prérequis agréés avec l'auteur(e) ou les auteur(e)s.
 
