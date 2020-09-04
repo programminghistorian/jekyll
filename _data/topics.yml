@@ -3,107 +3,129 @@
     en: "APIs"
     es: "APIs"
     fr: "API"
+    pt: "APIs"
   description:
     en: "APIs let you programmatically request specific information from a website. Learn how to use them."
     es: "Las APIs te permiten solicitar información específica contenida en una web. Aprende a utilizarlas."
     fr: "Les API permettent de solliciter des informations spécifiques depuis un site web. Découvrez comment les utiliser."
+    pt: "As APIs permitem solicitar informações específicas automaticamente de um site. Aprenda como usá-las."
 
 - type: python
   displayname:
     en: "Python"
     es: "Python"
     fr: "Python"
+    pt: "Python"
   description:
     en: "Lessons teaching or using the Python coding language."
     es: "Lecciones con las que aprenderás a utilizar el lenguaje de programación Python."
     fr: "Leçons enseignant ou utilisant le langage de programmation Python."
+    pt: "Lições que ensinam a utilizar ou que utilizam a linguagem de programação Python."
 
 - type: data-management
   displayname:
     en: "Data Management"
     es: "Gestión de datos"
     fr: "Gestion des données"
+    pt: "Gestão de dados"
   description:
     en: "You put a lot of effort into your research. Make sure that effort lasts by adopting sustainable strategies to your code, your data, and your research processes. A little bit of planning can save you a lot of time."
     es: "Pones mucho esfuerzo en tu investigación. Aprende a adoptar estrategias sostenibles para tu código, tus datos y tus procesos de investigación. Un poco de planificación puede ahorrarte mucho tiempo."
     fr: "Vous vous investissez considérablement dans vos recherches. Pour les pérenniser, adoptez des stratégies de préservation de votre code, de vos données et de vos procédures de votre recherche. Un peu de planification peut vous gagner beaucoup de temps."
+    pt: "Dedica muito esforço à pesquisa. Certifique-se que esse esforço não se perde usando estratégias sustentáveis para os seus códigos, dados e processos de pesquisa. Um pouco de planeamento pode ganhar-lhe muito tempo."
 
 - type: data-manipulation
   displayname:
     en: "Data Manipulation"
     es: "Procesamiento de datos"
     fr: "Manipulation des données"
+    pt: "Manipulação de dados"
   description:
     en:: "Just like it sounds, learn how to use programming to change, move, clean, or count data. These are essential techniques for preparing data to be used with various tools."
     es: "Cambiar, mueve, limpia o cuenta tus datos. Con estas lecciones aprenderás a procesar tus datos con distintas herramientas."
     fr: "Apprenez comment modifier, migrer, nettoyer ou compter des données. Ces techniques sont essentielles pour préparer les données en vue de les utiliser avec des outils variés."
+    pt: "Aprenda a usar a programação para alterar, mover, limpar ou contar dados. Estas técnicas são essenciais para preparar dados para poderem ser usados em várias ferramentas."
 
 - type: distant-reading
   displayname:
     en: "Distant Reading"
     es: "Lectura distante"
     fr: "Lecture à distance"
+    pt: "Leitura distante"
   description:
     en: "Computational tools allow you to make sense of a lot of documents at once. The Naive Bayesian is a machine learner: given some examples of the kind of thing you are interested in, it can quickly find many more."
     es: "Herramientas computacionales con las que extraerás sentido de tus documentos. Un clasificador Bayesiano Naive es una máquina que aprende: dado un número de ejemplos, puede encontrar rápidamente muchos más."
     fr: "Les outils computationnels permettent d'extraire des informations pertinentes à partir de beaucoup de documents à la fois. Un classifieur bayésien naïf est une méthode d'apprentissage automatique: en lui fournissant des exemples des résultats attendus en fonction des données, il peut vite en trouver d'autres." 
+    pt: "As ferramentas computacionais permitem a leitura e compreensão de muitos documentos ao mesmo tempo. Um classificador *Naive Bayesian* é um método de aprendizagem de máquina: dados alguns exemplos do tipo de coisa em que está interessado, ele pode encontrar rapidamente muito mais."
 
 - type: get-ready
   displayname:
     en: "Set up"
     es: "Instalar"
     fr: "Installer"
+    pt: "Instalação"
   description:
     en: "If you’re new to programming, these lessons will help you get your computer set up correctly."
     es: "Si eres nuevo en programación, estas lecciones te ayudarán a poner en marcha tu ordenador."
     fr: "Si vous débutez dans la programmation, ces leçons vous permettent de préparer correctement votre ordinateur."
+    pt: "Se é inexperiente em programação, estas lições ajudarão a configurar o seu computador corretamente."
 
 - type: lod
   displayname:
     en: "Linked Open Data"
     es: "Datos abiertos enlazados"
     fr: "Données ouvertes liées"
+    pt: "Linked Open Data"
   description:
     en: "Many research datasets are published as Linked Open Data, a format that allows flexible querying and interlinking of complex sources. Get an introduction to manipulating these databases by working with some real-world examples."
     es: "Gran parte de las investigaciones se publican como Datos abiertos enlazados, un formato que te permite interrogar y enlazar de manera flexible numerosos recursos. Iníciate en la manipulación de estas bases de datos trabajando con ejemplos reales."
     fr: "Un grand nombre de jeux de données de recherche sont publiés sous forme de données ouvertes liées, un format qui permet d'interroger et d'établir des liens entre diverses sources. Initiez-vous à la manipulation de ces bases de données avec quelques exemples réels."
+    pt: "Muitos conjuntos de dados de pesquisa são publicados como *Linked Open Data*, um formato que permite consultas flexíveis e interligação de fontes complexas. Receba uma introdução à manipulação dessas bases de dados trabalhando com alguns exemplos do mundo real."
 
 - type: mapping
   displayname:
       en: "Mapping"
       es: "Mapeado"
       fr: "Cartographie"
+      pt: "Cartografia"
   description:
       en: "Mapping can be an effective way to visualize and interpret historical data. These lessons introduce historical geographic information systems (GIS) using open source software."
       es: "El mapeado puede ser una manera efectiva de visualizar e interpretar tus datos históricos. Estas lecciones te ayudarán a utilizar Sistemas de Información Geográfica de acceso abierto."
       fr: "La cartographie peut fournir un moyen efficace pour visualiser et interpréter les données hisotoriques. Ces leçons initient aux systèmes d'information géographique (SIG) utilisant des logiciels ouverts."
+      pt: "A cartografia pode fornecer um modo eficaz de visualizar e interpretar dados históricos. Estas lições ajudam a começar a utilizar os Sistemas de Informação Geográfica (SIG) Históricos, usando software de código aberto."
 
 - type: network-analysis
   displayname:
     en: "Network Analysis"
     es: "Análisis de redes"
     fr: "Analyse de réseaux"
+    pt: "Análise de redes"
   description:
     en: "Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources."
     es: "Las visualizaciones de redes pueden ayudarte a revelar patrones y estructuras escondidas o demasiado complejas presentes en tus fuentes." 
     fr: "La visualisation de réseaux peut aider les chercheur(e)s en sciences humaines et sociales à révéler des modèles et des structures peu évidents et complexes dans les sources textuelles"
+    pt: "As visualizações de redes podem ajudar os investigadores das Humanidades a encontrar padrões complexos e estruturas ocultas em fontes textuais."
 
 - type: web-scraping
   displayname:
     en: "Web Scraping"
     es: "Web Scraping"
     fr: "Extraction automatique de contenu web"
+    pt: "Web Scraping"
   description:
     en: "Learn how to use programming to download material from the Internet in a controlled, semi-automated manner."
     es: "Aprende a utilizar programas para descargar información de internet de una manera controlado y semiautomática."
     fr: "Apprenez comment utiliser la programmation pour télécharger des données en provenance d'internet de manière contrôlée et semi-automatique."
+    pt: "Aprenda como usar a programação para obter informação da internet de maneira controlada e semi-automática."
 
 - type: website
   displayname:
     en: "Digital Publishing"
     es: "Publicación digital"
     fr: "Publication numérique"
+    pt: "Publicação digital"
   description:
     en: "How to design and develop a website such as a digital exhibit or research blog."
     es: "Iníciate en el diseño y desarrollo de exposiciones o blogs de investigación."
     fr: "Concevoir et développer un site web pour une exposition numérique ou un blog de recherche."
+    pt: "Como projetar e desenvolver um site, como uma exibição digital ou um blogue de pesquisa."
