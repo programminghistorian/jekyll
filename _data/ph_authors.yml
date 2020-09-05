@@ -105,7 +105,7 @@
   team: true
   team_start: 2016
   institution: Universidad de los Andes, Colombia
-  sortname: Afandor-Llach
+  sortname: Afanador-Llach
   affiliation:
     en: |
       University of los Andes, Colombia.
@@ -1115,6 +1115,10 @@
     en: |
       Charlie Harper is the Digital Learning and Scholarship Librarian at Case Western Reserve University
 
+- name: Alix Chagué
+  team: false
+  orcid: 0000-0002-0136-4434
+
 - name: Eric Weinberg
   team: false
   bio:
@@ -1435,4 +1439,34 @@
     - portuguese
     - editorial
   status: volunteer
+
+- name: Hélène Huet
+  email: hhuet@ufl.edu
+  team: true
+  team_start: 2020
+  institution: University of Florida
+  sortname: Huet
+  affiliation:
+    en: |
+        University of Florida.
+    pt: |
+        Universidade de Flórida.
+    es: |
+        Universidad de Florida.
+    fr: |
+        Université de Floride.
+  bio:
+    en: |
+        Hélène Huet is a librarian at the University of Florida.
+    pt: |
+        Hélène Huet é bibliotecaria na Universidade de Flórida. 
+    es: |
+        Hélène Huet es bibliotecaria en la Universidad de Florida. 
+    fr: |
+        Hélène Huet est bibliothécaire á l'Université de Floride.
+  team_roles:
+    - french
+    - ombuds
+  status: volunteer
+
 
