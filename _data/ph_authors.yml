@@ -1472,4 +1472,34 @@
     - ombuds
   status: volunteer
 
-
+name: Danielle Sanches
+  twitter: dani_sanches
+  email: daniellesanches@fcsh.unl.pt
+  url: "https://dhlab.unl.pt/"
+  github: daniellesanchesDH
+  team: true
+  team_start: 2020
+  institution: Universidade Nova de Lisboa
+  sortname: Sanches
+  affiliation:
+    en: |
+        University Nova de Lisboa, Portugal.
+    pt: |
+        Universidade Nova de Lisboa, Portugal.
+    es: |
+        Universidad Nova de Lisboa, Portugal.
+    fr: |
+        Université Nova de Lisboa, Portugal.
+  bio:
+    en: |
+        Danielle Sanches holds a PhD in History of Science from the EHESS/Paris and is a collaborator researcher at the Digital Humanities Laboratory (LabHD) at NOVA-FCSH, at University Nova de Lisboa, Portugal.
+    pt: |
+        Danielle Sanches é doutora em História das Ciências pela EHESS/Paris e pesquisadora associada do Laboratório de Humanidades Digitais (LabHD) da Nova-FCSH, na Universidade Nova de Lisboa, Portugal. 
+    es: |
+        Danielle Sanches es doctora en Historia de las Ciencias por la EHESS/ París e investigadora asociada del Laboratorio de Humanidades Digitales (LabHD) de Nova-FCSH, en la Universidade Nova de Lisboa, Portugal.
+    fr: |
+        Danielle Sanches est titulaire d'un doctorat en histoire des sciences de l'EHESS/ Paris et chercheuse associée au Laboratoire des humanités numériques (LabHD) de Nova-FCSH, à l'Universidade Nova de Lisboa, Portugal.
+  team_roles:
+    - portuguese
+    - editorial
+  status: volunteer
