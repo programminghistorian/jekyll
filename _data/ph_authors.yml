@@ -1499,6 +1499,34 @@ name: Danielle Sanches
         Danielle Sanches es doctora en Historia de las Ciencias por la EHESS/ París e investigadora asociada del Laboratorio de Humanidades Digitales (LabHD) de Nova-FCSH, en la Universidade Nova de Lisboa, Portugal.
     fr: |
         Danielle Sanches est titulaire d'un doctorat en histoire des sciences de l'EHESS/ Paris et chercheuse associée au Laboratoire des humanités numériques (LabHD) de Nova-FCSH, à l'Universidade Nova de Lisboa, Portugal.
+
+- name: Joana Vieira Paulino
+  twitter: 
+  email: jpaulino@fcsh.unl.pt
+  url: 
+  github: joanacvp
+  team: true
+  team_start: 2020
+  institution: Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa
+  sortname: Paulino
+  affiliation:
+    en: |
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+    pt: |
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+    es: |
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+    fr: |
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+  bio:
+    en: |
+        Joana Vieira Paulino holds a PhD in History, with a specialization in Contemporary History, from Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. She is a researcher in the Digital Humanities Lab and the Institute for Contemporary History from the same institution.
+    pt: |
+        Joana Vieira Paulino é doutora em História, com especialização em História Contemporânea, pela Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. É investigadora no Laboratório de Humanidades Digitais e no Instituto de História Contemporânea da mesma instituição. 
+    es: |
+         Joana Vieira Paulino es doctora en Historia, con especialización en Historia Contemporánea, por la Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. Es investigadora del Laboratorio de Humanidades Digitales y del Instituto de Historia Contemporánea de la misma institución.
+    fr: |
+        Joana Vieira Paulino a un doctorat en histoire, avec une spécialisation en Histoire Contemporaine, de Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.  Elle est une chercheur au Laboratoire des Humanités Numériques et au Institute d'Histoire Contemporaine de la même instituition.
   team_roles:
     - portuguese
     - editorial
