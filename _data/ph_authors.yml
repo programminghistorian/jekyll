@@ -1472,6 +1472,37 @@
     - ombuds
   status: volunteer
 
+- name: Alex Wermer-Colan
+  github: hawc2
+  twitter: alexwermercolan
+  email: alwermercolan@gmail.com
+  url: "http://www.alexwermercolan.com/"
+  team: true
+  team_start: 2020
+  institution: Temple University
+  sortname: Wermer-Colan
+  affiliation:
+    en: |
+      Temple University, USA.
+    es: |
+      Universidad de Temple, Estados Unidos.
+    fr: |
+      Université de Temple, États-Unis.
+    pt: |
+        Temple University, Estados Unidos.
+  bio:
+    en: |
+      Alex Wermer-Colan is the Digital Humanities Postdoctoral Fellow at Temple University Libraries' Loretta C. Duckworth Scholars Studio.
+    es: |
+      Alex Wermer-Colan es becario postdoctoral en Humanidades Digitales en el Loretta C. Duckworth Scholars Studio de la Biblioteca de la Universidad de Temple.
+    fr: |
+      Alex Wermer-Colan est chercheur postdoctoral en humanités numériques au Loretta C. Duckworth Scholars Studio des bibliothèques de l'Université Temple.
+    pt: |
+      Alex Wermer-Colan é Bolseiro de Pós-Doutorado em Humanidades Digitais na Biblioteca Loretta C. Duckworth Scholars Studio da Temple University.
+  team_roles:
+    - editorial
+    - english
+  status: volunteer
 - name: Joana Vieira Paulino
   twitter: 
   email: jpaulino@fcsh.unl.pt
