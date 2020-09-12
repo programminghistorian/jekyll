@@ -1531,7 +1531,11 @@
         Danielle Sanches es doctora en Historia de las Ciencias por la EHESS/París e investigadora asociada del Laboratorio de Humanidades Digitales (LabHD) de Nova-FCSH, en la Universidade Nova de Lisboa, Portugal.
     fr: |
         Danielle Sanches est titulaire d'un doctorat en histoire des sciences de l'EHESS/ Paris et chercheuse associée au Laboratoire des humanités numériques (LabHD) de Nova-FCSH, à l'Université nouvelle de Lisbonne, Portugal.
-
+  team_roles:
+    - portuguese
+    - editorial
+  status: volunteer
+  
 - name: Joana Vieira Paulino
   twitter: 
   email: jpaulino@fcsh.unl.pt
