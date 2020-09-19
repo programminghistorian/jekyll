@@ -6,7 +6,7 @@ redirect_from: /individual
 
 # Individual Supporters
 
-{% include figure.html filename="{{site.baseurl}}/images/supporters-individual.png" caption="19th century image of a red bird" class="garnish rounded float-left" %}
+<img src="{{site.baseurl}}/images/supporters-individual.png" class="garnish rounded float-left" />
 
 Thank you for your interest supporting *Programming Historian*. Individual donors are vital for enabling our continued work, and for helping us to keep our content free to readers around the world.
 
