@@ -46,7 +46,7 @@ By joining the Institutional Partner Programme you will receive the following be
 </svg>
 </div>
 
-To become a Institutional Partner, please email <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a> with "Institutional Partners Programme" in the subject line. Your email should include the following information:
+To become a Institutional Partner, please email <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a> with "Institutional Partners Programme" in the subject line. You may include in the email any internal paperwork such as supplier registration forms. Your email should also include the following information:
 
 <ul>
 <li>Your Name</li>
@@ -55,7 +55,7 @@ To become a Institutional Partner, please email <a href="mailto:programminghisto
 <li>Your Preferred Currency (if this is not listed, please ask)</li>
 </ul>
 
-You may also include in the email any additional paperwork such as supplier registration. 
+
 </div>
 
 Note that upon email with the subject line "Institutional Partners Programme" you agree to the following conditions:
@@ -68,7 +68,7 @@ All memberships are subject to the approval of The *Programming Historian* Proje
 
 ## Want to Discuss?
 
-We'd be happy to have a conversation about what we do and how we use your support. Drop us a line at <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> and we can arrange a virtual cup of coffee or tea.
+We'd be happy to have a conversation about what we do and how we use your support. <a href="mailto:programminghistorian@gmail.com">Drop us a line</a> and we can arrange a virtual cup of coffee or tea.
 
 
 ## Frequently Asked Questions
