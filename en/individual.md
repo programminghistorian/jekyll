@@ -16,12 +16,14 @@ Your support directly enables the infrastructure that keeps our publications tog
 
 <div class="alert alert-info">
 <div class="float-left">
-	<svg width="9em" height="9em" viewBox="0 0 16 16" class="bi bi-credit-card" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+	<svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-credit-card" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
   <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
 </svg>
 </div>
-For $1, $5, or $15 per month, you can join our growing list of individual <a href="https://www.patreon.com/join/theprogramminghistorian">Patreon</a> sponsors. By joining our Patreon supporters you enable our team to plan for the future and to grow our suite of digital humanities and digital skills publications. <a href="https://www.patreon.com/theprogramminghistorian"><img src="{{site.baseurl}}/images/patreonbutton.png" alt="Support us on Patreon button" class="garnish rounded" /></a>
+For $1, $5, or $15 per month, you can join our growing list of individual <a href="https://www.patreon.com/join/theprogramminghistorian">Patreon</a> sponsors. By joining our Patreon supporters you enable our team to plan for the future and to grow our suite of digital humanities and digital skills publications. 
+	
+<p><a href="https://www.patreon.com/theprogramminghistorian"><img src="{{site.baseurl}}/images/patreonbutton.png" alt="Support us on Patreon button" class="garnish rounded" /></a></p>
 	
 </div>
 
