@@ -23,7 +23,7 @@ Joining our Institutional Partner Programme allows your institution to support a
 | €1,200 EUR  | £175 EUR  |
 | $1,700 CAD  |   | 
 
-Rates are due annually from the date of first payment and are set in January each year.
+Rates are due annually from the date of first payment and are set in January each year. For a quote in another currency please email <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
 
 ## Benefits of Membership
 
@@ -40,7 +40,7 @@ By joining the Institutional Partner Programme you will receive the following be
 
 <div class="alert alert-info">
 <div class="float-left">
-	<svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-credit-card" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+	<svg width="9em" height="9em" viewBox="0 0 16 16" class="bi bi-credit-card" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
   <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
 </svg>
@@ -54,18 +54,21 @@ To become a Institutional Partner, please email <a href="mailto:programminghisto
 <li>Your Preferred Method of Payment (bank transfer, cheque, invoice, Paypal)</li>
 <li>Your Preferred Currency (if this is not listed, please ask)</li>
 </ul>
+
+You may also include in the email any additional paperwork such as supplier registration. 
 </div>
 
 Note that upon email with the subject line "Institutional Partners Programme" you agree to the following conditions:
 
-1. You are authorized to commit to expenditure.
-2. Once a method of payment is agreed and funds requested you will enter a legally binding agreement for the amounts specified.
+1. You must be the named representative of the institution whose name you enter.
+2. You are authorized to commit to expenditure of the institution whose name you enter.
+3. Once a method of payment is agreed and funds requested you will enter a legally binding agreement for the amounts specified.
+
+All memberships are subject to the approval of The *Programming Historian* Project Team. The *Programming Historian* is an international volunteer-driven project whose financial activities are administered by ProgHist Limited, a Not for Profit Company Limited by Guarantee that is registered in England, Company Number 12192946. The purpose of the *Programming Historian* is to advance the education of the public in the humanities in particular in the use of digital tools and techniques and to promote research for the public benefit in all aspects of that subject and to publish the useful results.  
 
 ## Want to Discuss?
 
-We'd be happy to have a conversation about what we do and how we use your support. Drop us a line at <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> and we can arrange a virtual cup of coffee.
-
-All memberships are subject to the approval of The *Programming Historian* Project Team. The *Programming Historian* is an international volunteer-driven project whose financial activities are administered by ProgHist Limited, a Not for Profit Company Limited by Guarantee that is registered in England, Company Number 12192946. The purpose of the *Programming Historian* is to advance the education of the public in the humanities in particular in the use of digital tools and techniques and to promote research for the public benefit in all aspects of that subject and to publish the useful results.
+We'd be happy to have a conversation about what we do and how we use your support. Drop us a line at <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> and we can arrange a virtual cup of coffee or tea.
 
 
 ## Frequently Asked Questions
