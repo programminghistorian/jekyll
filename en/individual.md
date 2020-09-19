@@ -15,7 +15,7 @@ With one in three of our readers living in the Global South, you're also helping
 # Ongoing Support
 
 <div class="alert alert-info">
-  For $1, $5, or $15 per month, you can join our growing list of individual [Patreon](https://www.patreon.com/join/theprogramminghistorian?) sponsors. By joining our Patreon supporters you enable our team to plan for the future and to grow our suite of digital humanities and digital skills publications. <button onclick="window.location.href='https://www.patreon.com/join/theprogramminghistorian?';">Join Now</button>
+  For $1, $5, or $15 per month, you can join our growing list of individual <a href="https://www.patreon.com/join/theprogramminghistorian">Patreon</a> sponsors. By joining our Patreon supporters you enable our team to plan for the future and to grow our suite of digital humanities and digital skills publications. <a href="https://www.patreon.com/bePatron?u=11816614" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 </div>
 
 # Single Donations
