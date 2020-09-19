@@ -21,7 +21,8 @@ Your support directly enables the infrastructure that keeps our publications tog
   <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
 </svg>
 </div>
-For $1, $5, or $15 per month, you can join our growing list of individual <a href="https://www.patreon.com/join/theprogramminghistorian">Patreon</a> sponsors. By joining our Patreon supporters you enable our team to plan for the future and to grow our suite of digital humanities and digital skills publications. <a href="https://www.patreon.com/bePatron?u=11816614" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+For $1, $5, or $15 per month, you can join our growing list of individual <a href="https://www.patreon.com/join/theprogramminghistorian">Patreon</a> sponsors. By joining our Patreon supporters you enable our team to plan for the future and to grow our suite of digital humanities and digital skills publications. <a href="https://www.patreon.com/theprogramminghistorian"><img src="{{site.baseurl}}/images/patreonbutton.png" alt="Support us on Patreon button" class="garnish rounded" /></a>
+	
 </div>
 
 # Single Donations
