@@ -10,6 +10,8 @@ redirect_from: /individual
 
 Thank you for your interest supporting *Programming Historian*. Individual donors are vital for enabling our continued work, and for helping us to keep our content free to readers around the world.
 
+With one in three of our readers living in the Global South, you're also helping to level the playing field, ensuring everyone is empowered to master technology and put it to good use, no matter where they live.
+
 # Ongoing Support
 
 <div class="alert alert-info">
