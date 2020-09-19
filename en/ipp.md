@@ -12,9 +12,11 @@ redirect_from: /ipp
 
 Thank you for your interest in the Institutional Partnership Programme, which provides the core support for the *Programming Historian*'s award winning open access publications. We cannot do our work without your valued support.
 
-Programming Historian operates on a not-for-profit basis, publishing cost-effective gold open access scholarship.
+*Programming Historian* operates on a not-for-profit basis, publishing cost-effective gold open access scholarship.
 
-| Partnership rates  | Banded rate for [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm)  |
+Joining our Institutional Partner Programme allows your institution to support a globally focused project. One third of our readers live in low and middle income countries, and that number continues to grow.
+
+| Partnership rates  | Banded rates for [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm)  |
 |---|---|
 | £1,000 GBP  | £150 GBP  |
 | $1,300 USD  | £200 USD  |
