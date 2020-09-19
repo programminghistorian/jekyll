@@ -4,7 +4,7 @@ title: Institutional Partnership Programme
 redirect_from: /ipp
 ---
 
-{% include figure.html filename="supporters-ipp.png" caption="19th century image of a nesting bird" %}
+{% include figure.html filename="/images/supporters-ipp.png" caption="19th century image of a nesting bird" %}
 # Institutional Partner Programme
 
 Thank you for your interest in the Institutional Partnership Programme, which provides the core support for the *Programming Historian*'s award winning open access publications. We cannot do our work without your valued support.
