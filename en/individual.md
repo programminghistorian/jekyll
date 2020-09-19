@@ -22,8 +22,9 @@ Your support directly enables the infrastructure that keeps our publications tog
 </svg>
 </div>
 For $1, $5, or $15 per month, you can join our growing list of individual <a href="https://www.patreon.com/join/theprogramminghistorian">Patreon</a> sponsors. By joining our Patreon supporters you enable our team to plan for the future and to grow our suite of digital humanities and digital skills publications. 
-	
-<p><a href="https://www.patreon.com/theprogramminghistorian"><img src="{{site.baseurl}}/images/patreonbutton.png" alt="Support us on Patreon button" class="garnish rounded" /></a></p>
+
+<p>&nbsp;</p>
+<p><a href="https://www.patreon.com/theprogramminghistorian"><img src="{{site.baseurl}}/images/patreonbutton.png" alt="Support us on Patreon button" class="mx-auto d-block" /></a></p>
 	
 </div>
 
