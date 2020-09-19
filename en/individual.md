@@ -4,7 +4,7 @@ title: Individual Supporters
 redirect_from: /individual
 ---
 
-{% include figure.html filename="supporters-individual.png" caption="19th century image of a red bird" %}
+{% include figure.html filename="/images/supporters-individual.png" caption="19th century image of a red bird" %}
 
 # Individual Supporters
 
@@ -15,7 +15,7 @@ Thank you for your interest supporting *Programming Historian*. Individual donor
 For $1, $5, or $15 per month, you can join our growing list of individual [Patreon](https://www.patreon.com/join/theprogramminghistorian?) sponsors. By joining our Patreon supporters you enable our team to plan for the future and to grow our suite of digital humanities and digital skills publications.
 
 <div class="alert alert-warning">
-[Join Now](https://www.patreon.com/join/theprogramminghistorian?).
+  <button onclick="window.location.href='https://www.patreon.com/join/theprogramminghistorian?';">Join Now</button>.
 </div>
 
 # Single Donations
