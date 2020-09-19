@@ -14,20 +14,14 @@ Thank you for your interest in the Institutional Partnership Programme, which pr
 
 Programming Historian operates on a not-for-profit basis, publishing cost-effective gold open access scholarship.
 
-Partnership rates:
+| Partnership rates  | Banded rate for [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm)  |
+|---|---|
+| £1,000 GBP  | £150 GBP  |
+| $1,300 USD  | £200 USD  |
+| €1,200 EUR  | £175 EUR  |
+| $1,700 CAD  |   | 
 
-- £1,000 GBP
-- $1,300 USD
-- €1,200 EUR
-- $1,700 CAD
-
-Banded rate for [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm):
-
-- £150 GBP
-- £200 USD
-- £175 EUR
-
-Rates are due annually from the date of first payment. Rates are published in January each year.
+Rates are due annually from the date of first payment and are set in January each year.
 
 ## Benefits of Membership
 
@@ -36,14 +30,14 @@ By joining the Institutional Partner Programme you will receive the following be
 - An invitation to our [Annual General Meeting](https://beta.companieshouse.gov.uk/company/12192946) as an Advisory Member (one individual per Partner).
 - An annual breakdown of expenditure.
 - Acknowledgement of your contribution on our website.
-- The right to use Programming Historian Institutional Partner Programme membership in marketing activities.
+- The right to use *Programming Historian* Institutional Partner Programme membership in marketing.
 - Ad hoc advice from our team on running an open access publication, implementing multilingual publishing workflows, or adapting _Programming Historian_ articles for a workshop environment (on request, not including formal consultancy). 
 - For library partners: a list of articles published by all Programming Historian journals (on request).
 
 ## Signing Up
 
 <div class="alert alert-info">
-To become a Institutional Partner, please email James Baker at <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> with "Institutional Partners Programme" in the subject line. Your email should include the following information:
+To become a Institutional Partner, please email <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a> with "Institutional Partners Programme" in the subject line. Your email should include the following information:
 
 <ul>
 <li>Your Name</li>
