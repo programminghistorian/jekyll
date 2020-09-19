@@ -4,11 +4,11 @@ title: Institutional Partnership Programme
 redirect_from: /ipp
 ---
 
-{% include figure.html filename="/images/supporters-ipp.png" caption="19th century image of a nesting bird" %}
+
 
 # Institutional Partner Programme
 
-Thank you for your interest in the Institutional Partnership Programme, which provides the core support for the *Programming Historian*'s award winning open access publications. We cannot do our work without your valued support.
+{% include figure.html filename="{{site.baseurl}}/images/supporters-ipp.png" caption="19th century image of a nesting bird" class="garnish rounded float-left" %} Thank you for your interest in the Institutional Partnership Programme, which provides the core support for the *Programming Historian*'s award winning open access publications. We cannot do our work without your valued support.
 
 Programming Historian operates on a not-for-profit basis, publishing cost-effective gold open access scholarship.
 
