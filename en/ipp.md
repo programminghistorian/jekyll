@@ -5,6 +5,7 @@ redirect_from: /ipp
 ---
 
 {% include figure.html filename="/images/supporters-ipp.png" caption="19th century image of a nesting bird" %}
+
 # Institutional Partner Programme
 
 Thank you for your interest in the Institutional Partnership Programme, which provides the core support for the *Programming Historian*'s award winning open access publications. We cannot do our work without your valued support.
@@ -39,13 +40,15 @@ By joining the Institutional Partner Programme you will receive the following be
 
 ## Signing Up
 
-<div class="alert alert-warning">
+<div class="alert alert-info">
 To become a Institutional Partner, please email James Baker at <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> with "Institutional Partners Programme" in the subject line. Your email should include the following information:
 
-- Your Name.
-- Your Institution.
-- Your Preferred Method of Payment (bank transfer, cheque, invoice, Paypal).
-- Your Preferred Currency (if this is not listed, please ask).
+<ul>
+<li>Your Name</li>
+<li>Your Institution</li>
+<li>Your Preferred Method of Payment (bank transfer, cheque, invoice, Paypal)</li>
+<li>Your Preferred Currency (if this is not listed, please ask)</li>
+</ul>
 </div>
 
 Note that upon email with the subject line "Institutional Partners Programme" you agree to the following conditions:
