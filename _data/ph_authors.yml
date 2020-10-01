@@ -12,7 +12,9 @@
       Ontario.
     fr: |
       William J. Turkel est professeur d'histoire à l'Université Western Ontario.
-
+    pt: |
+      William J. Turkel é professor de História na University of Western Ontario
+      
 - name: Alan MacEachern
   team_start: 2008
   team_end: 2013
@@ -34,6 +36,8 @@
       ProgHist Ltd.
     fr: |
       ProgHist Ltd.
+     pt: |
+      ProgHist Ltd.
   bio:
     en: |
       Adam Crymble is a senior lecturer of digital history.
@@ -41,6 +45,8 @@
       Adam Crymble es profesor de historia digital.
     fr: |
       Adam Crymble est maître de conférences en histoire numérique.
+    pt: |
+      Adam Crymble é professor de História Digital.
   team_roles:
     - proghist
     - team-development-manager
@@ -58,7 +64,9 @@
       Caleb McDaniel is an associate professor of history at Rice University.
     es: |
       Caleb McDaniel es profesor asociado de Historia en Rice University.
-
+    pt: |
+      Caleb McDaniel é professor associado de História na Rice University.
+      
 - name: Ian Milligan
   team: true
   team_start: 2014
@@ -72,6 +80,8 @@
       Universidad de Waterloo, Canadá.
     fr: |
       Université de Waterloo, Canada.
+    pt: |
+      University of Waterloo, Canadá.
   bio:
     en: |
       Ian Milligan is an associate professor of history at the University of Waterloo.
@@ -80,6 +90,8 @@
     fr: |
       Ian Milligan est un professeur associé en histoire à l'Université de Waterloo.
       François Dominic Laramée est chercheur postdoctoral en histoire numérique de la médecine 'Université d'Ottawa, au Canada.
+    pt: |
+      Ian Milligan é professor associado de História na University of Waterloo.
   team_roles:
     - english
     - ombuds
@@ -96,6 +108,8 @@
       New Mexico.
     es: |
       Fred Gibbs es profesor de Historia en la Universidad de Nuevo México.
+    pt: |
+      Fred Gibbs é professor assistente de História na University of New Mexico.
 
 - name: Maria José Afanador-Llach
   url: "http://www.mariajoseafanador.com"
@@ -113,6 +127,8 @@
       Universidad de los Andes, Colombia.
     fr: |
       Université de los Andes, Colombie.
+    pt: |
+      Universidad de los Andes, Colômbia.
   bio:
     en: |
       Maria José Afanador-Llach is an assistant professor of Digital Humanities and History at the Universidad de los Andes, Bogotá (Colombia).
@@ -120,6 +136,8 @@
       Maria José Afanador-Llach es profesora asistente de humanidades digitales e historia en la Universidad de los Andes, Bogotá (Colombia).
     fr: |
       Maria José Afanador-Llach est maître de conférences en Humanités numériques et histoire à l'Université de los Andes, (Bogota, Colombie).
+    pt: |
+      Maria José Afanador-Llach é professora assistente de Humanidades Digitais e História na Universidad de los Andes, Bogotá (Colômbia).
   team_roles:
     - spanish
     - project-manager-at-large
@@ -143,6 +161,8 @@
       El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
     fr: |
       El Colegio de Michoacán, A.C. (CPI-CONACYT), Mexique.
+    pt: |
+      El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
   bio:
     en: |
       Víctor Gayol is a researcher and professor of history at El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
@@ -150,6 +170,8 @@
       Víctor Gayol es profesor investigador en el Centro de Estudios Históricos de El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
     fr: |
       Víctor Gayol est enseignant-chercheur en histoire au Centre d'études historiques (Centro de Estudios Históricos) d'El Colegio de Michoacán, A.C. (CPI-CONACYT) au Mexique.
+    pt: |
+      Víctor Gayol é pesquisador e professor de História no Centro de Estudios Históricos do El Colegio de Michoacán, A.C. (CPI-CONACYT), México.
   team_roles:
     - spanish
     - editorial
@@ -173,6 +195,8 @@
       Berlin-Brandenburgische Akademie der Wissenschaften, Alemania.
     fr: |
       Académie des sciences de Berlin-Brandebourg, Allemagne.
+    pt: |
+      Berlin-Brandenburgische Akademie der Wissenschaften, Alemanha.
   bio:
     en: |
       Antonio Rojas Castro is a researcher at the Berlin-Brandenburgische Akademie der Wissenschaften, with a PhD in Humanities (Spanish Literature).
@@ -180,6 +204,8 @@
       Antonio Rojas Castro tiene un doctorado en Humanidades (Universitat Pompeu Fabra) y trabaja como investigador en la Berlin-Brandenburgische Akademie der Wissenschaften.
     fr: |
       Antonio Rojas Castro est docteur en Littérature espagnole (Université Pompeu Fabra) et chercheur à l'Académie des sciences de Berlin-Brandebourg.
+    pt: |
+      Antonio Rojas Castro é pesquisador na Berlin-Brandenburgische Akademie der Wissenschaften, doutorado em Humanidades (Literatura Espanhola) pela Universitat Pompeu Fabra.
   team_roles:
     - spanish
     - editorial
@@ -191,6 +217,9 @@
     en: |
       Stephen Margheim is a classicist turned digital humanist hunkered down in
       Philadelphia, looking for his next step.
+    pt: | 
+      Stephen Margheim é um classicista que se tornou humanista digital, sediado em Filadélfia e ansioso pelo próximo passo. 
+
   team: false
 
 - name: Evan Taparata
@@ -202,6 +231,8 @@
     en: |
       Evan Taparata is a PhD candidate in history at the University of
       Minnesota.
+    pt: | 
+       Evan Taparata é doutoranda em História pela University of Minnesota.	
 
 - name: Taryn Dewar
   twitter: dtdewar
@@ -212,18 +243,25 @@
       and is an Interpreter at the Oil Sands Discovery Centre in Fort McMurray, Alberta.
     es: |
       Taryn Dewar tiene una maestría en Historia Pública (Western University) y es intérprete en el Centro de investigación de arenas de alquitrán en Fort McMurray, Alberta.
+     pt: | 
+       Evan Taparata é mestre em História Pública pela Western University e interprete no Oil Sands Discovery Centre em Fort McMurray, Alberta.
 
 - name: Maria Velez-Serna
   bio:
     en: |
       Maria Velez-Serna is a research assistant in the Early Cinema of Scotland
       project, University of Glasgow.
+    pt: | 
+      Maria Velez-Serna é pesquisadora assistente no projeto Early Cinema of Scotland, University of Glasgow.
 
 - name: Andrew Hnatow
   team: false
   bio:
     en: |
       Andrew Hnatow is a PhD candidate at Wayne State University.
+    pt: | 
+      Andre Hnatow é doutorando na Wayne State University.
+
 
 - name: Daniel van Strien
   team: false
@@ -232,6 +270,8 @@
       Daniel van Strien is a Library Science student at City University, London.
     es: |
       Daniel van Strien es estudiante de Biblioteconomía en la Universidad de la Ciudad, Londres.
+    pt: | 
+      Daniel van Strien é estudante de Biblioteconomia na City University, Londres.
 
 - name: Kim Pham
   team: false
@@ -241,12 +281,16 @@
       at the University of Toronto Scarborough Library.
       Her heart belongs to open-source software & shared,
       community-driven development practices in libraries.
+    pt: | 
+	    Kim Pham é bibliotecária de projetos digitais e tecnologias na University of Toronto Scarborough Library. O seu coração pertence ao software & partilha de código aberto, desenvolvendo práticas viradas para a comunidade das bibliotecas. 
 
 - name: Douglas Duhaime
   bio:
     en: |
       Douglas Duhaime is the Text and Data Mining project manager at ProQuest
       and a doctoral student at the University of Notre Dame.
+    pt: | 
+	    Douglas Duhaime é gestor de projetos de mineração de texto e dados no ProQuest e doutorando pela University of Notre Dame.
 
 - name: Kellen Kurschinski
   team: false
@@ -254,6 +298,8 @@
     en: |
       Kellen Kurschinski is a doctoral candidate in history at McMaster
       University and a Research Officer at the University of Waterloo.
+    pt: | 
+      Kellen Kurschinski é doutoranda em História pela McMaster Uiversity e pesquisadora na University of Waterloo.
 
 - name: Seth Bernstein
   team: false
@@ -267,6 +313,9 @@
       Seth Bernstein es un investigador postdoctoral en Higher School of Economics (Moscú). En 2013, defendió su tesis doctoral (*Communist Upbringing
       under Stalin: The Political Socialization and Militarization of Soviet
       Youth, 1934-1941*) en la Universidad de Toronto.
+    pt: | 
+	    Seth Bernstein é posdoutorando pela Higher School of Economics, em Moscovo. Em 2013, defendeu a sua tese de doutoramento "Communist Upbringing under Stalin: The Political Socialization and Militarization of Soviet Youth, 1934-1941" na University of Toronto.
+
 
 - name: James Baker
   team: true
@@ -286,6 +335,8 @@
       James Baker es profesor titular en Historia Digital y Archivos en la Universidad de Sussex; su línea de investigación es el cruce histórico de personas y objetos.
     fr: |
       James Baker est maître de conférences en histoire numérique et en archivistique à l'Université du Sussex; il est spécialiste en histoire des interactions entre personnes et objets.
+    pt: |
+      James Baker é professor de História Digital e Arquivos na University of Sussex e estuda as interações entre pessoas e objetos.
   team_roles:
     - proghist
     - finance-manager
@@ -298,6 +349,9 @@
   bio:
     en: |
       Amanda Morton is a DH Fellow at the Center for History and New Media.
+    pt: |
+       Amanda Morton é bolseira de Humanidades Digitais no Center for History and New Media.  
+
 
 - name: Miriam Posner
   team: false
@@ -310,6 +364,8 @@
       University of California, Los Angeles.
     es: |
       Miriam Posner es coordinadora del programa de Humanidades Digitales de la Universidad de California (Los Angeles).
+    pt: |
+      Miriam Posner é coordenadora do programa de Humanidades Digitais da University of California, Los Angeles.
 
 - name: Jeremy Boggs
   team: false
@@ -320,6 +376,9 @@
     en: |
       Jeremy Boggs is the Design Architect for Digital Research Scholarship
       at the University of Virginia Library.
+     pt: |
+       Jeremy Boggs é Arquiteto de Design com uma bolsa de pesquisa digital na Biblioteca da University of Virginia.
+
 
 - name: Allison Hegel
   team: false
@@ -329,6 +388,8 @@
   bio:
     en: |
       Allison Hegel is a PhD candidate in English at UCLA.
+    pt: |
+       Allison Hegel é doutoranda em Inglês pela UCLA.
 
 - name: Carrie Sanders
   team: false
@@ -338,6 +399,9 @@
   bio:
     en: |
       Carrie Sanders is a Ph.D candidate in history at UCLA.
+    pt: |
+       Carrie Sander é doutoranda em História pela UCLA.
+
 
 - name: Dennis Tenen
   team: false
@@ -347,6 +411,8 @@
       Literature at Columbia University.
     es: |
       Dennis Tenen es profesor asistente de Inglés y Literatura Comparativa en la Universidad de Columbia.
+    pt: |
+       Dennis Tenen é professor assistente de Inglês e Literatura Comparada na Columbia University.
 
 - name: Grant Wythoff
   team: false
@@ -356,7 +422,9 @@
       Comparative Literature at Columbia University.
     es: |
       Grant Wythoff es profesor adjunto en el Departamento de Inglés y Literatura Comparativa de la Universidad de Columbia.
-
+    pt: |
+       Gran Wythoff é professor no Departamento de Inglês e Literatura Comparada na Columbia University.
+  
 - name: Shawn Graham
   team: false
   bio:
@@ -366,6 +434,8 @@
       Shawn Graham es profesor asociado en Humanidades Digitales e Historia en Carleton University.
     fr: |
       Shawn Graham est professeur adjoint d'histoire et humanités numériques à l'Université Carleton.
+    pt: |
+       Shawn Graham é professor associado de Humanidades Digitais e História na Carnegie Mellon University.
 
 - name: Scott Weingart
   team: false
@@ -374,6 +444,8 @@
       Scott Weingart is a historian of science and digital humanities specialist at Carnegie Mellon University.
     es: |
       Scott Wingart es historiador de la ciencia y especialista en Humanidades Digitales en Carnegie Mellon University.
+    pt: |
+       Scott Weingat é historiador da ciência e especialista em Humanidades Digitais na Carnegie Mellon University.
 
 - name: Jim Clifford
   team: false
@@ -384,6 +456,8 @@
     es: |
       Jim Clifford es profesor asistente en el Departamento de Historia
       de la Universidad de Saskatchewan.
+    pt: |
+       Jim Clifford é professor assistente no Departamento de História da University of Saskatchewan.
 
 - name: Daniel Macfarlane
   team: false
@@ -394,6 +468,8 @@
     es: |
       Daniel Macfarlane es profesor visitante en la Escuela de Estudios
       Canadienses en la Universidad de Carleton.
+    pt: |
+       Daniel Macfarlane é professor visitante na School of Canadian Studies da Carleton University.
 
 - name: Josh MacFadyen
   team: false
@@ -404,6 +480,8 @@
     es: |
       Josh MacFayden es Coordinador de Proyectos en la Red Canadiense
       de Historia y Medio Ambiente.
+    pt: |
+       Josh MacFayden é coordenador de projetos na Rede Canadiana de História & Ambiente.
 
 - name: Jeri Wieringa
   team: false
@@ -415,17 +493,23 @@
       George Mason University, USA.
     es: |
       George Mason University, Estados Unidos.
+    pt: |
+       George Mason University, Estados Unidos da América.
   bio:
     en: |
       Jeri Wieringa is a doctoral candidate in history at George Mason University.
     es: |
       Jeri Wieringa es doctoranda en Historia en George Mason University.
+    pt: |
+       Jeri Wieringa é doutoranda em História pela George Mason University.
 
 - name: Jon Crump
   team: false
   bio:
     en: |
       Jon Crump is an independent scholar and freelance digital humanist based in Seattle, Washington.
+    pt: |
+       Jon Crump é pesquisador independente e humanista digital freelancer sediado em Seattle, Washington.
 
 - name: Vilja Hulden
   team: false
@@ -433,6 +517,8 @@
     en: |
       Vilja Hulden is a history instructor and research associate in the Departments of History and
       Linguistics at the University of Colorado Boulder.
+    pt: |
+       Vilja Hulden é instrutora de História e pesquisadora associada nos Departamentos de História e Linguística da University of Colorado Boulder.
 
 - name: Marten Düring
   team: false
@@ -441,6 +527,8 @@
       Marten Düring is a historian, works as researcher in the Digital Humanities Lab at CVCE Luxembourg, runs <a href="http://historicalnetworkresearch.org">http://historicalnetworkresearch.org</a> and regularly teaches workshops on network analysis.
     es: |
       Marten Düring es historiador y trabaja como investigador en el Laboratorio de Humanidades Digitales del CVCE Luxembourg. Dirige <a href="http://historicalnetworkresearch.org">http://historicalnetworkresearch.org</a> y ofrece talleres sobre análisis de redes.
+    pt: |
+      Marten Düring é historiador e trabalha como pesquisador no Laboratório de Humanidades Digitais do CVCE Luxemburgo. Dirige <a href="http://historicalnetworkresearch.org">http://historicalnetworkresearch.org</a> e regularmente leciona workshops sobre análise de redes.
 
 - name: Max De Wilde
   team: false
@@ -451,6 +539,8 @@
       Max De Wilde es investigador predoctoral en el departamento de Información y Comunicación de la Universidad Libre de Bruselas.
     fr: |
       Max De Wilde est doctorant au Centre de recherche en Information et Communication de l'Université libre de Bruxelles.
+    pt: |
+     Max De Wilde é doutorando pelo Departamento de Ciências da Informação e da Comunicação da Université Libre de Bruxelles.
 
 - name: Ruben Verborgh
   team: false
@@ -461,6 +551,8 @@
       Ruben Verborgh es investigador postdoctoral en Multimedia Lab (Universtiteit Gent).
     fr: |
       Ruben Verborgh est chercheur postdoctoral au Multimedia Lab de l'Université de Gand.
+     pt: |
+       Ruben Verbogh é posdoutorando pelo Labotatório Multimédia da Universtiteit Gent.
 
 - name: Seth van Hooland
   team: false
@@ -471,18 +563,25 @@
       Seth van Hooland es profesor asociado en el departamento de Información y Comuninación de la Universidad Libre de Bruselas.
     fr: |
       Seth van Hooland est professeur associé au Centre de recherche en Information et Communication de l'Université libre de Bruxelles.
+    pt: |
+       Seth van Hooland é professor associado no Centre de recherche en Information et Communication da Université Libre de Bruxelles.
 
 - name: Jonathan Reeve
   team: false
   bio:
     en: |
       Jonathan Reeve is a digital humanist and web developer for the Modern Language Association.
+    pt: |
+      Jonathan Reeve é humanista digital e desenvolvedor da web na Modern Language Association.
 
 - name: Spencer Roberts
   team: false
   bio:
     en: |
       Spencer Roberts is Research Assistant and former Digital History Research Fellow at the Roy Rosenzweig Center for History and New Media, and a Ph.D. graduate student at George Mason University in the Department of History.
+    pt: |
+       Spencer Roberts é pesquisador assistente e antigo bolseiro de investigação em História Digital no Roy Rosenzweig Center for History and New Media e doutorando pelo Departamento de História da       Spencer Roberts is Research Assistant and former Digital History Research Fellow at the Roy Rosenzweig Center for History and New Media, and a Ph.D. graduate student at George Mason University in the Department of History.
+
 
 - name: Doug Knox
   team: false
@@ -491,6 +590,8 @@
       Doug Knox is the Assistant Director of the Humanities Digital Workshop at Washington University in St. Louis.
     fr: |
       Doug Knox est Directeur adjoint au Humanities Digital Workshop de l'Université Washington à Saint-Louis.
+    pt: |
+       Doug Knox é diretor adjunto do Humanities Digital Workshop da Washington University em Staint Louis.
 
 - name: Heather Froehlich
   team: false
