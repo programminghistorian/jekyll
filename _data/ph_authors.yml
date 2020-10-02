@@ -118,7 +118,7 @@
   team: true
   team_start: 2016
   institution: Universidad de los Andes, Colombia
-  sortname: Afandor-Llach
+  sortname: Afanador-Llach
   affiliation:
     en: |
       University of los Andes, Colombia.
@@ -1332,6 +1332,10 @@
     pt: |
       Charlie Harper é bibliotecário de aprendizagem digital e bolsas de estudo na Case Western Reserve University.
 
+- name: Alix Chagué
+  team: false
+  orcid: 0000-0002-0136-4434
+
 - name: Eric Weinberg
   team: false
   bio:
@@ -1703,3 +1707,130 @@
     - editorial
   status: volunteer
 
+- name: Hélène Huet
+  email: hhuet@ufl.edu
+  twitter: superHH
+  url: "https://helenehuet.org"
+  orcid: 0000-0002-2907-1887
+  team: true
+  team_start: 2020
+  institution: University of Florida
+  sortname: Huet
+  affiliation:
+    en: |
+        University of Florida.
+    pt: |
+        Universidade de Flórida.
+    es: |
+        Universidad de Florida.
+    fr: |
+        Université de Floride.
+  bio:
+    en: |
+        Hélène Huet is a librarian at the University of Florida.
+    pt: |
+        Hélène Huet é bibliotecaria na Universidade de Flórida. 
+    es: |
+        Hélène Huet es bibliotecaria en la Universidad de Florida. 
+    fr: |
+        Hélène Huet est bibliothécaire á l'Université de Floride.
+  team_roles:
+    - french
+    - ombuds
+  status: volunteer
+
+- name: Alex Wermer-Colan
+  github: hawc2
+  twitter: alexwermercolan
+  email: alwermercolan@gmail.com
+  url: "http://www.alexwermercolan.com/"
+  team: true
+  team_start: 2020
+  institution: Temple University
+  sortname: Wermer-Colan
+  affiliation:
+    en: |
+      Temple University, USA.
+    es: |
+      Universidad de Temple, Estados Unidos.
+    fr: |
+      Université de Temple, États-Unis.
+    pt: |
+        Temple University, Estados Unidos.
+  bio:
+    en: |
+      Alex Wermer-Colan is the Digital Humanities Postdoctoral Fellow at Temple University Libraries' Loretta C. Duckworth Scholars Studio.
+    es: |
+      Alex Wermer-Colan es becario postdoctoral en Humanidades Digitales en el Loretta C. Duckworth Scholars Studio de la Biblioteca de la Universidad de Temple.
+    fr: |
+      Alex Wermer-Colan est chercheur postdoctoral en humanités numériques au Loretta C. Duckworth Scholars Studio des bibliothèques de l'Université Temple.
+    pt: |
+      Alex Wermer-Colan é Bolseiro de Pós-Doutorado em Humanidades Digitais na Biblioteca Loretta C. Duckworth Scholars Studio da Temple University.
+  team_roles:
+    - editorial
+    - english
+  status: volunteer
+
+- name: Danielle Sanches
+  twitter: dani_sanches
+  email: daniellesanches@fcsh.unl.pt
+  url: "https://dhlab.unl.pt/"
+  github: daniellesanchesDH
+  team: true
+  team_start: 2020
+  institution: Universidade Nova de Lisboa
+  sortname: Sanches
+  affiliation:
+    en: |
+        University Nova de Lisboa, Portugal.
+    pt: |
+        Universidade Nova de Lisboa, Portugal.
+    es: |
+        Universidad Nova de Lisboa, Portugal.
+    fr: |
+        Université nouvelle de Lisbonne, Portugal.
+  bio:
+    en: |
+        Danielle Sanches holds a PhD in History of Science from the EHESS/Paris and is a collaborator researcher at the Digital Humanities Laboratory (LabHD) at NOVA-FCSH, at University Nova de Lisboa, Portugal.
+    pt: |
+        Danielle Sanches é doutora em História das Ciências pela EHESS/Paris e pesquisadora associada do Laboratório de Humanidades Digitais (LabHD) da Nova-FCSH, na Universidade Nova de Lisboa, Portugal. 
+    es: |
+        Danielle Sanches es doctora en Historia de las Ciencias por la EHESS/París e investigadora asociada del Laboratorio de Humanidades Digitales (LabHD) de Nova-FCSH, en la Universidade Nova de Lisboa, Portugal.
+    fr: |
+        Danielle Sanches est titulaire d'un doctorat en histoire des sciences de l'EHESS/ Paris et chercheuse associée au Laboratoire des humanités numériques (LabHD) de Nova-FCSH, à l'Université nouvelle de Lisbonne, Portugal.
+  team_roles:
+    - portuguese
+    - editorial
+  status: volunteer
+  
+- name: Joana Vieira Paulino
+  twitter: 
+  email: jpaulino@fcsh.unl.pt
+  url: 
+  github: joanacvp
+  team: true
+  team_start: 2020
+  institution: Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa
+  sortname: Paulino
+  affiliation:
+    en: |
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+    pt: |
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+    es: |
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+    fr: |
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+  bio:
+    en: |
+        Joana Vieira Paulino holds a PhD in History, with a specialization in Contemporary History, from Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. She is a researcher in the Digital Humanities Lab and the Institute for Contemporary History from the same institution.
+    pt: |
+        Joana Vieira Paulino é doutora em História, com especialização em História Contemporânea, pela Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. É investigadora no Laboratório de Humanidades Digitais e no Instituto de História Contemporânea da mesma instituição. 
+    es: |
+        Joana Vieira Paulino es doctora en Historia, con especialización en Historia Contemporánea, por la Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. Es investigadora del Laboratorio de Humanidades Digitales y del Instituto de Historia Contemporánea de la misma institución.
+    fr: |
+        Joana Vieira Paulino a un doctorat en histoire, avec une spécialisation en Histoire Contemporaine, de Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.  Elle est une chercheur au Laboratoire des Humanités Numériques et au Institute d'Histoire Contemporaine de la même instituition.
+  team_roles:
+    - portuguese
+    - editorial
+  status: volunteer

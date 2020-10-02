@@ -73,7 +73,7 @@ If you are using the _Programming Historian_ in interesting ways, we'd love to h
 
 ### 2011
 
-* Deena Engel '[Computing in the Humanities and the Arts](http://cs.nyu.edu/courses/spring11/V22.0380-001/HC_ResLiterature_sp11.htm)', NYU, USA (Spring 2011).
+* Deena Engel 'Computing in the Humanities and the Arts (update 2020: no longer available online)', NYU, USA (Spring 2011).
 
 ## Other Teaching
 
