@@ -1,252 +1,243 @@
 ---
-title: Author Guidelines
+title: Directrizes para Autores
 layout: blank
 skip_validation: true
 original: author-guidelines
 ---
 
-# Author Guidelines
+# Directrizes para Autores
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" />
-<h2 class="noclear">Step 1: <a href="#step-1-proposing-a-new-lesson">Proposing a New Lesson</a></h2>
-<h2 class="noclear">Step 2: <a href="#step-2-writing-a-new-lesson">Writing and Formatting a New Lesson</a></h2>
-<h2 class="noclear">Step 3: <a href="#step-3-submitting-a-new-lesson">Submitting a New Lesson</a></h2>
+<h2 class="noclear">Etapa 1: <a href="#etapa-1-propor-uma-nova-lição">Propor uma nova lição</a></h2>
+<h2 class="noclear">Etapa 2: <a href="#etapa-2-escrever-e-formatar-uma-nova-lição">Escrever e formatar uma nova lição</a></h2>
+<h2 class="noclear">Etapa 3: <a href="#etapa-3-submeter-uma-nova-lição">Submeter uma nova lição</a></h2>
 
 
-These guidelines have been developed to help you understand the process of creating a tutorial for the English *Programming Historian*. They include practical and philosophical details of the tutorial writing process, as well as an indication of the workflow and the peer review process. If at any time you are unclear, please email the managing editor, {% include managing-editor.html lang=page.lang %}.
+Estas directrizes foram desenvolvidas para ajudar a entender o processo de criação de um tutorial para o *Programming Historian em português*. Estão incluídos detalhes práticos e filosóficos do processo de escrita do tutorial, bem como a indicação do fluxo de trabalho e do processo de revisão por pares. Se a qualquer momento não estiver seguro, basta enviar um email ao editor {% include managing-editor.html lang=page.lang %}.
 
-## Step 1: Proposing a New Lesson
+## Etapa 1: Propor uma nova lição
 
 <div class="alert alert-success">
-We welcome tutorials relevant to the humanities, pitched at any level of technical aptitude and experience, that focus on one problem or process, can be sustainable in the long term, and are addressed to a global audience.
+Procuramos lições relevantes para as Humanidades sobre um problema ou processo que sejam sustentáveis a longo prazo e dirigidos a um público geral, com qualquer nível de aptidão técnica e experiência.
 
-The scope and length of the tutorial should be appropriate to the complexity of the task. Tutorials should not exceed 8,000 words (including code). Shorter lessons are welcome. Longer lessons may need to be split into multiple tutorials.
+O âmbito e extensão da lição devem ser adequados à  complexidade da tarefa, mas não devem ter mais de 8.000 palavras (incluindo códigos). Lições mais curtas são bem-vindas. Lições mais longas podem precisar de ser divididas.
 </div>
 
-If you have an idea for a new lesson, complete a lesson [proposal form](/assets/forms/Lesson.Query.Form.txt) and send it to {% include managing-editor.html lang=page.lang %}.
+Se tem uma ideia para uma nova lição preencha o [formulário de proposta de lição](/assets/forms/Lesson.Query.Form.txt) e envie para {% include managing-editor.html lang=page.lang %}.
 
-You can get a sense of what we publish by looking through our [published lessons]({{site.baseurl}}/en/lessons), reading our [reviewer guidelines]({{site.baseurl}}/en/reviewer-guidelines) or browsing [lessons in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
+Para ter uma ideia do que publicamos consulte as [lições publicadas]({{site.baseurl}}/pt/licoes), leia as nossas [orientações para revisores]({{site.baseurl}}/pt/directrizes-revisor) ou navegue pelas [lições em desenvolvimento](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
 
-If your proposal is accepted, an editor will create a "Proposal" page on our [submissions website](https://github.com/programminghistorian/ph-submissions/issues) with the lesson's working title and proposed learning outcomes. This serves to mark the work in progress. To ensure timely publication, authors should submit their draft article within 90 days.
+Se a sua proposta for aceita, um editor criará uma página "Proposta" no nosso [website de submissões](https://github.com/programminghistorian/ph-submissions/issues) com o título da lição, mesmo que seja apenas um rascunho, e com os objetivos propostos. Isto serve para acompanhar o trabalho em andamento. Para garantir a publicação em tempo útil, os autores devem enviar a sua proposta de lição no prazo de 90 dias.
 
-During this 90 day period, your point of contact will be the managing editor or an editor delegated at the managing editor's perogative.
+Durante este período, o seu ponto de contato será o editor-chefe ou um editor nomeado.
 
-## Step 2: Writing and Formatting a New Lesson
-This style guide lays out a set of standards for authors to use when creating or translating English-language lessons for *Programming Historian*. By using it, you help us ensure content is consistent and accessible.
+## Etapa 2: Escrever e formatar uma nova lição
+Estas directrizes estabelecem um conjunto de regras para os autores utilizarem na criação ou tradução de lições em inglês para o *Programming Historian em português*. Ao utilizá-lo, os autores nos ajudarão a garantir que o conteúdo é consistente e acessível.
 
-It is presented in three sections which should be read before and after writing:
+Estas estão organizadas em três seções que devem ser lidas antes e depois de escrever a lição:
 
-* A. Style and Audience
-* B. Specific Style Guidelines
-* C. Formatting Guidelines
 
-## A. Style and Audience
-This first section is concerned with big-picture matters of style which will help you make decisions that meet the needs of our audience and editors. They include basic information on style and tone, open access and open source values, information on writing for a global audience, writing sustainably, and making smart choices about data used in lessons. Read this section when planning your lesson. Read it again before submitting to make sure your lesson meets these requirements.
+* A. Estilo e público
+* B. Directrizes específicas de estilo
+* C. Directrizes de formatação
 
-### Language and Style
-*	Tutorials should not exceed 8,000 words (including code).
-*	Keep your tone formal but accessible.
-*	Talk to your reader in the second person (you).
-*	Adopt a widely-used version of English (British, Canadian, Indian, South African etc).
-*	The piece of writing is a "tutorial" or a "lesson" and not an "article".
+## A. Estilo e público
+Esta primeira seção trata de questões gerais sobre o estilo, que ajudarão a tomar decisões que tenham em conta as necessidades do público e dos editores. Temos informações básicas sobre o estilo e o tom da lição, acesso aberto e valores de código aberto, informações sobre como escrever  para um público geral, sustentabilidade das lições e escolhas inteligentes sobre as fontes de dados a utilizar. Leia esta seção quando planejar a lição e, novamente, antes de a enviar para garantir que cumpre os requisitos.
 
-### Open Source, Open Access
-*Programming Historian* is committed to open source values. All lessons must use open source programming languages and software whenever possible. This policy is meant to minimize costs for all parties, and to allow the greatest possible level of participation.
+### Idioma e estilo
+*	As lições não devem exceder 8.000 palavras (incluindo código).
+*	O tom deve ser formal, mas acessível.
+*	O leitor deve ser tratado na segunda pessoa.
+*	Utilize um estilo de português genérico, que se adapte tanto ao português europeu quanto ao brasileiro.
+*	A sua contribuição é um "tutorial" ou uma "lição" e não um "artigo".
 
-Upon acceptance, you agree to publish your lesson under a Creative Commons "[CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en)" license.
+### Código aberto, Acesso aberto
+O *Programming Historian em português* está comprometido com os valores de código aberto. Todas as lições devem usar linguagens de programação e softwares livres sempre que possível. O objetivo é minimizar os custos e permitir aumentar a participação o máximo possível.
 
-### Write for a Global Audience
-*Programming Historian* readers live all around the world. Authors can and should take steps to write their lesson accessibly for as many people as possible. Follow these global-facing guidelines:
+Depois da lição ser aceita, o autor deve concordar com a sua publicação sob uma licença Creative Commons "[CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en)".
 
-*	Write for someone who doesn't live in your country or share your beliefs.
+### Escrever para um público geral
+Os leitores do *Programming historian* vivem em todo o mundo. Os autores podem e devem tomar medidas para escrever a lição de forma acessível para o maior número de pessoas possível. Siga estas directrizes gerais:
 
-*	**Technical Terms:** should always be linked to [Wikipedia](https://www.wikipedia.org/) or a suitably reliable dictionary or sustainable website in the first instance. A technical term is any word that a person on the street may not know or understand.
-*	**Cultural References**: mentions of persons, organisations, or historical details should always come with contextual information. Assume no prior knowledge, even of widely known cultural references (eg, [the Beatles](https://en.wikipedia.org/wiki/The_Beatles)). Use generic terms rather than trademarks (tissue rather than Kleenex). Links to [Wikipedia](https://www.wikipedia.org/) should be used liberally. Be aware that historical events often have different names in different countries.
-*	**Idioms**: Avoid jokes, puns, plays on words, idiomatic expressions, sarcasm, emojis, jargon, terms unique to your dialect, or language that is more difficult than it needs to be.
-*	**Geography**: when referencing places, be specific. Does "south-west" mean Valencia? Canada? Africa? Always write out the full name of the area the first time you use it.
-*	**Multi-lingual**: when choosing methods or tools, make choices with multi-lingual readers in mind – especially for textual analysis methods, which may not support other character sets or may only provide intellectually robust results when used on English texts. Where possible, choose approaches that have multi-lingual documentation, or provide multi-lingual references for further reading. This will help our translators.
-*	**Racial and Ethnic Language**: use racial terminology carefully and with specificity. Historic terms no longer in use should be used only in their historical context and only when necessary. Use racial terms as adjectives and not nouns: white people rather than "whites", an Asian woman rather than "an Asian". Be aware that terms may be understood differently in different countries and what you have learned to be correct or sensitive may be culturally specific to your country (eg, not all people with African ancestry are "African Americans". Some of them are African, or black British, or Caribbean, etc). Likewise, readers in the UK will understand "Asian" (India, Pakistan, Bangladesh) differently than those in North America (eg China, Japan, Vietnam, Thailand).
-*	**Visual Representations**: choose primary sources, images, figures, and screen shots, considering how they will present themselves to a global audience.
+*	Escrever para alguém que não mora no mesmo país ou que não partilha das mesmas crenças.
 
-### Sustainable Writing
-*Programming Historian* publishes lessons for the long-term. Please follow these sustainability guidelines when writing:
+*	**Termos técnicos:**  devem ser sempre apresentados com um link para a [Wikipedia](https://www.wikipedia.org/) para um dicionário de confiança ou site sustentável em primeira instância. Um termo técnico é qualquer palavra que não seja do conhecimento geral das pessoas, algo que alguém possa não conhecer ou entender.
+*	**Referências Culturais**: referências a pessoas, organizações ou detalhes históricos devem sempre vir com informações de contexto. Não se pode assumir que o leitor tem conhecimento prévio, mesmo de referências culturais  muito conhecidas como os [Beatles](https://en.wikipedia.org/wiki/The_Beatles)). É melhor utilizar termos genéricos ao invés de marcas comerciais (lencinhos em vez de Kleenex).Os links para a [Wikipedia](https://www.wikipedia.org/) devem ser usados para contexto. Esteja ciente de que eventos históricos muitas vezes têm nomes diferentes em países diferentes.
+*	**Expressões**: evite brincadeiras, trocadilhos, jogos de palavras, expressões idiomáticas, sarcasmo, emojis, jargões, termos exclusivos do seu dialeto ou um registo mais complicado do que o necessário.
+*	**Geografia**: ao referenciar  lugares, seja específico. "Sudoeste" pode representar lugares diferentes: Valência? Canadá? África? É necessário escrever o nome completo da área, pelo menos, na primeira vez em que é utilizado.
+*	**Multilíngue**: na escolha de métodos ou ferramentas, é necessário ter em conta leitores multilíngues - especialmente para métodos de análise textual, que podem não suportar outros conjuntos de caracteres ou que podem apenas apresentar resultados intelectualmente robustos quando usados ​​em textos em inglês. Sempre que possível, escolha abordagens com documentação multilíngue ou que forneçam  referências multilíngues para leitura adicional. Isso também ajudará os tradutores.
+*	**Linguagem racial e étnica**: terminologia racial deve ser utilizada com cuidado e especificidade. Termos históricos não mais em uso devem ser utilizados apenas no seu contexto histórico e somente quando necessário. Usar termos raciais como adjetivos e não substantivos: pessoas brancas em vez de "brancos", uma mulher asiática em vez de "uma asiática". Esteja ciente de que os termos podem ser entendidos de maneira diferente em diferentes países e que o que no seu contexto é considerado correto, pode ser culturalmente específico do seu país (por exemplo, nem todas as pessoas com ascendência africana são "afro-americanas". Algumas delas são africanas ou britânicas ou do Caribe, etc.). Da mesma forma, leitores do Reino Unido entenderão “Ásia” (Índia, Paquistão, Bangladesh) de forma diferente dos leitores da América do Norte (por exemplo,  China, Japão, Vietnã, Tailândia).
+*	**Representações visuais**: na escolha de fontes primárias, imagens, figuras e capturas de tela, é importante ter consideração como elas serão apresentadas a um público geral.
 
- *	**As General as Possible, but No More**: focus on methodologies and generalities, not software/interface specifics (eg avoid telling users to "click the X button", which may be different in future versions).
- *	**Reduce Reliance on Unsustainable Elements**: use screenshots sparingly and with purpose. Interfaces change frequently and future readers may be confused. Chose external links with the future in mind. Does the site you are linking to change often? Will it exist in ten years?
- *	**Specify Versions if they are Important**: be clear about any version-specific details readers will need to know in order to follow your lesson. Eg, do you need Python v.2, or will any version be fine?
- *	**Point to Documentation**: direct readers to reliable documentation where possible. Provide general guidance on how to find the documentation if new versions are probable in future.
- *	**Copies of Data**: all data used in lessons must be published with the lesson on *Programming Historian* servers along with your lesson. You must ensure you have the legal right to publish a copy of any data that you use. Data files should use open formats.
+### Escrita sustentável
+O *Programming historian em português* publica as lições que estarão disponíveis a longo prazo e que sejam sustentáveis. Por favor, siga estas directrizes de sustentabilidade ao escrever:
 
-Authors should consult our [lesson retirement policy]({{site.baseurl}}/en/lesson-retirement-policy) for information on how the editorial team manages lessons that have become out-of-date.
+ *	**Ser tão geral quanto possível, mas não demasiado**: foque em metodologias e generalidades, não em detalhes do software/interface (por exemplo, evite dizer aos usuários para "clicar no botão X", que podem ser diferentes em versões futuras).
+ *	**Diminuir a dependência de elementos insustentáveis**: usar um número moderado de capturas de tela. As interfaces dos programas mudam com frequência e os futuros leitores podem ficar confusos quando não corresponder à versão deles. Escolher links externos com preocupações futuras em mente. O website muda com frequência? Será que existirá  daqui a dez anos?
+ *	**Especificar as versões se importantes**: ser claro sobre qualquer detalhe específico da versão que os leitores precisarão saber para acompanhar a lição. Por exemplo, é necessário ser Python v.2 ou qualquer versão serve?
+ *	**Referir documentação**: direcionar os leitores para documentação de confiança sempre que possível. Fornecer uma orientação geral sobre como encontrar a documentação futuramente, para o caso de aparecerem novas versões no futuro.
+ *	**Cópias de dados**: todos os dados usados nas lições devem ser publicados com a lição nos servidores do *Programming Historian em português*. O direito legal de utilizar e publicar os dados deve estar assegurado. Os ficheiros de dados devem ser em formatos abertos.
 
-## B. Specific Writing Guidelines
-This second section covers more specific matters of writing style, such as which words to use, or how we use punctuation, or what format to use for dates or numbers. Read this section before and after writing your draft.
+Os autores devem consultar a [política de remoção das lições]({{site.baseurl}}/pt/licoes-politica-remocao) para obter informações sobre como a equipe editorial administra as lições que se tornam desatualizadas.
 
-### Dates and Time
- *	For centuries, use eighteenth century not 18th century. Avoid national-centric phrases such as "long eighteenth century" which have specific meaning to British eighteenth century specialists, but not to anyone else.
- *	For decades, write the 1950s (not "the 1950s" or "the fifties").
- *	Compress date sequences as follows; 1816-17, 1856-9, 1854-64.
- *	For dates written in numeric form, use the format YYYY-MM-DD, which conforms to the standard ISO 8601:2004. This avoids ambiguity.
- *	Use BCE/CE not BC/AD for dates (eg 325BCE).
- *	1am, 6:30pm. Not 10 o’clock.
+## B. Directrizes específicas de estilo
+Esta segunda seção é sobre questões mais específicas de estilo de escrita, tais como quais palavras usar, como utilizar a pontuação ou que formato adotar para datas ou números. Leia esta seção antes e depois de escrever seu texto.
 
-### Numbers
- *	Spell out from one to nine; integers above 10.
- *	Use a consistent format if the boundary outlined above is crossed within a single sentence (five apples and one hundred oranges; 5 apples and 110 oranges).
- *	Use commas (not periods/full stops) between groups of three digits in large numbers (32,904 not 32904). Exceptions: page numbers, addresses, in quotation, etc.
- *	Use numerals for versions (version 5 or v.5) or actual values (eg, 5%, 7″, $6.00).
- *	Always use the symbol % with numerals rather than the spelled-out word (percent), and make sure it is closed up to number: 0.05%.
- *	Use [LaTeX formatting for mathematical formulae](https://davidhamann.de/2017/06/12/latex-cheat-sheet/).
- *	For units of measure, use metric or imperial but be consistent.
+### Datas e Tempo
+ *	Para os séculos, usar século dezoito e não século 18. Evite frases centradas no nacional, como "longo século dezoito", que têm significado específico para os especialistas do século dezoito britânico, mas não para qualquer outra pessoa.
+ *	Para décadas, escreva 1950s (não "os 1950s" ou "os cinquenta").
+ *	Comprima sequências de datas como de seguida; 1816-17, 1856-9, 1854-64.
+ *	Para datas escritas em forma numérica, utilize o formato AAAA-MM-DD, que está em conformidade com a norma ISO 8601:2004. Isso evita ambiguidade.
+ *	Use BCE/CE e não BC/AD para datas (ex. 325BCE).
+ *	01:00am, 18:30pm. Não 10 horas. 
 
-### Headings
-Headings should not contain inline code font or style formatting such as bold, italic, or code font.
-Headings should always immediately precede body text. Do not follow a heading with an admonition or another heading without some form of introductory or descriptive text.
+### Números
+ *	Escrever por extenso os números de um a nove.
+ *	Usar um formato consistente se o limite acima for cruzado em uma única frase (cinco maçãs e cem laranjas; 5 maçãs e 100 laranjas).
+ *	Utilizar vírgulas entre grupos de três dígitos em grandes números (32,904 e não 32904). Exceções: números de páginas, endereços, entre aspas, etc.
+ *	Usar numerais para versões (versão 5 ou v.5) ou valores reais (por exemplo, 5%, 7″, $6.00).
+ *	Usar sempre o símbolo % com numerais ao invés da palavra “por cento” e verificar  se o número está fechado: 0,05%.
+ *	Usar a formatação LaTeX para fórmulas matemáticas.
+ *	Para unidades de medida, usar o sistema métrico ou imperial, mas seja consistente.
 
-### Lists
-Typically, we use numbered lists and bulleted lists. List items are sentence-capped. List items should be treated as separate items and should not be strung together with punctuation or conjunctions.
+### Cabeçalhos 
+Os cabeçalhos não devem conter fontes de código embutido ou formatação de estilo como negrito ou itálico. Devem sempre preceder imediatamente o corpo do texto. Não colocar a seguir ao título um aviso ou outro título sem antes inserir uma nota introdutória.
 
-NOT style:
+### Listas
+Normalmente, utilizamos listas numeradas e listas com marcadores. Os itens das listas são limitados a sentenças. Devem ser tratados como itens separados, não aparecendo junto de pontuação ou conjunções.
 
-* Here is an item, and
-* here is another item; and
-* here is the final item.
+NÃO faz parte do estilo:
 
-Style:
+* Aqui está um item, e
+* aqui está outro item; e
+* aqui está o item final.
 
-* Here is an item
-* Here is another item
-* Here is the final item
+Faz parte do estilo:
 
-Or:
+* Aqui está um item
+* Aqui está outro item
+* Aqui está o item final
 
-1. Here is an item
-2. Here is another item
-3. Here is the final item
+Ou:
 
-### Punctuation
- *	**Abbreviation**: spell out all words on first mention. European Union (EU) and then EU. Do not use full points / periods or spaces between initials: BBC, PhD, mph, 4am, etc.
- *	**Ampersand**: generally speaking, do not use an ampersand in place of the word "and" unless referring to a company or publication that uses it: P&O, *Past & Present*.
- *	**Apostrophe**: use the possessive 's after singular words or names that end in s – St James's, Jones's, mistress's; use it after plurals that do not end in s: children's, people’s, media's.
- *	**Brackets / Parentheses**: it is better to use commas or dashes. Use round brackets to introduce explanatory material into a direct quote, eg: He said: "When finished it (the tunnel) will revolutionise travel" or "She said adiós (goodbye)". Place a full stop / period outside a closing bracket if the material inside is not a sentence (like this). (But an independent sentence takes the full stop before the closing bracket.)
- *	**Colon**: use to introduce lists, tabulations, texts, as in:
-    *	The committee recommends: extending licensing hours to midnight; allowing children on licensed premises; relaxing planning controls on new public houses.
-    *	Use after the name of a speaker for a whole quoted sentence: Mr James Sherwood, chairman of Sealink, said: "We have..."
-    *	Lowercase the first letter after a colon: this is how we do it.
- *	**Comma**: serial comma (this, that, and the other).
- *	**Dash**: a useful device to use instead of commas, but not more than one pair per sentence.
- *	**Ellipsis**: three periods separated from the preceding and following words by a space ( ... ). Use to condense a direct quote (thus the quote "the people sitting in this meeting room deserve a better deal" becomes "the people ... deserve a better deal").
- *	**Exclamation Mark**: use only at the end of a direct quote when it is clear that the remark is exclamatory, eg "I hate intolerance!"
- *	**Full Stop / Period**: use frequently. Sentences should be short, crisp, straightforward. But do not put full stops between initials, after status title (Mx, Dr) or between abbreviations (EU).
- *	**Hyphen**: use to avoid ambiguity or to form a single idea from two or more words:
-    *	Fractions: two-thirds.
-    *	Most words that begin with anti, non and neo.
-    *	A sum followed by the word worth - £10 million-worth of exports.
-    *	Some titles (director-general, secretary-general, but Attorney General, general secretary etc). The rule is to adopt the usage of the authority which created it
+1. Aqui está um item
+2. Aqui está outro item
+3. Aqui está o item final
+
+### Pontuação
+ *	**Abreviação**: escrever todas as palavras na primeira pessoa. União Européia (UE) e depois UE. Não utilize pontos ou espaços entre as iniciais: BBC, PhD, mph, 4am, etc.
+ *	**Ampersand**: em geral, não utilize um ampersand (eitza ou sinal tironiano) no lugar da conjunção aditiva "e" a menos que se refira a uma empresa ou publicação que a utilize: P&O, Past & Present.
+ *	**Aspas/Parênteses**: é melhor usar vírgulas ou travessões. Utilizar parênteses para introduzir explicações numa citação direta, por exemplo: Ele disse: "Quando terminado (o túnel) vai revolucionar a viagem" ou "Ela disse adiós (adeus)". Coloque reticências ou um ponto final fora da aspa final se o material dentro não for uma frase. (Mas uma frase independente tem um ponto final antes do parêntese de fechamento).
+ *	**Dois pontos**: utilizar para introduzir listas, tabulações, textos, como em:
+    *	O comitê recomenda: estender o horário de licenciamento até à meia-noite; permitir que as crianças estejam em locais licenciados; relaxar o controlo de planeamento em novas casas públicas.
+    *	Utilizar após o nome de um orador para uma frase inteira citada: o Sr. James Sherwood, presidente da Sealink, disse: "Nós temos..."
+    *	Iniciar em minúscula a primeira letra após os dois pontos: é assim que nós fazemos.
+ *	**Vírgula**: vírgula sequencial (esta, aquela e a outra).
+ *	**Travessão**:  útil para usar ao invés de vírgulas, mas não mais do que um par por frase.
+ *	**Reticências**: três pontos separados das palavras anteriores e seguintes por um espaço (... ). Use para condensar uma citação direta (assim a citação "as pessoas sentadas nesta sala de reunião merecem um acordo melhor" torna-se "as pessoas ... merecem um acordo melhor").
+ *	**Ponto de exclamação**: usar somente no final de uma citação direta quando estiver claro que a observação é exclamativa, por exemplo "Eu odeio a intolerância!"
+ *	**Ponto final**: usar frequentemente. As frases devem ser curtas, nítidas e diretas. Mas não coloque pontos entre as iniciais, após o título do status (Mx, Dr) ou entre abreviações (EU).
+ *	**Hífen**: usar para evitar ambiguidade ou para formar uma única idéia a partir de duas ou mais palavras:
+    *	Para frações: dois-terços.
+    *	Para a maior parte das palavras que começam com anti ou neo.
+    *	Para alguns títulos (diretor-geral, secretário-geral, mas não para Procurador Geral,  coordenador geral etc.). A regra é adotar o uso da autoridade conforme ela mesma criou. 
     *	Avoiding ambiguity (little-used car ... little used car).
     *	Compass quarters (south-west, north-east).
- *	**Quotation Marks**: use straight (not curly) quotation marks for direct quotes. Use either single or double quotation marks but be consistent.
+ *	**Aspas**: usar aspas retas "..." ou '..' (e não aspas curvas) para citações diretas. Usar tanto as aspas simples quanto as aspas duplas, mas seja consistente. 
 
-### Capitalisation
-The guideline is to use them sparingly in the running prose. Specific rules:
+### Maiúsculas
+A orientação é que seja utilizada com moderação no texto em prosa. Regras específicas: 
 
-*	**Title Case**: headings and book titles should use title case: "Preparing the Data for Analysis"; *The Pride and the Passion*, etc.
-*	**Always Capitalized**:
-    *	**Proper Names**: William J. Turkel – unless the person choses to spell their name otherwise (eg "bell hooks").
-    *	**Artistic, Cultural, Government Organizations, etc**: Museum of the Moving Image, Anne Frank House, Home Office, Agency for Global Media, United Nations.
-    *	**Holidays and Festivals**: Diwali, Hanukkah, Eid-Ul-Adha, Ramadan.
-*	**Sometimes or Partially Capitalized**:
-    *	**Places**: capitals for countries, regions, recognisable areas (eg, the Middle East, Senegal). Lower case for points of the compass, except where they are used as part of a place name (to reach the North Pole, head north). Further examples include: north-east Kenya, south Brazil, the west, western Canada, the far east, south-east Asia, Central America, Latin America.
-    *	**Historic Events**: first world war, second world war; Crimean/Boer/Vietnam/Gulf war; hundred years war.
-    *	**Religion**: Upper case for Anglican, Baptist, Buddhist, Catholic, Christian, Hindu, Methodist, Muslim, Protestant, Roman Catholic, Sikh, but lower for evangelicals, charismatics, atheists.
-    *	**Holy Books (select)**:
-        *	**Bible**: Capitalise if referring to Old or New Testament.
-        *	**Buddhist**: sutras (sermons) and abhidhamma (analysis and interpretation). For Tibetan Buddhism there are also tantric texts and the Tibetan Book of the Dead.
-        *	**Hindu**: the Śruti texts: Vedas, Samhitas, Brahmanas, Aranyakas, Upanishads; the Vedāngas, Hindu epics, Sutras, Shastras, philosophical texts, the Puranas, the Kāvya, the Bhasyas, many Nibandhas.
-        *	**Judaism**: the Tanakh (Torah, Nevi'im, Ketuvim), Talmud (Mishnah, Gemara)
-        *	**Qu'ran**: Capitalise. Texts include the Hadith, the Tawrat (Torah), Zabur (possibly Psalms), Injil (1.2 billion).
-        *	**Sikh**: Adi Granth (commonly called the Guru Granth Sahib), the Dasam Granth, the Varan Bhai Gurdas, the texts of Bhai Nand Lal.
-    *	**Jobs**: Capitalise the title when used with the name – President Macron but not as a description – Emmanuel Macron, president of France. The Pope and the Queen have capital letters.
-    *	**Organisations and Institutions**: the Government (cap in all references), the Cabinet (cap in all references), the Church of Ireland ("the church"), the Department of Education and Science ("the department"), Western University ("the university"), the Court of Appeal ("the appeal court" or "the court").
-    *	**Universities and Colleges**: Capitals for institution, lower case for departments ("Australian National University department of medieval history").
-    *	**Religious Institutions, Hospitals and Schools**: cap up the proper or place name, lower case the rest eg Nurture Hillandale rehabilitation hospital, Vernon county primary school, Ali Pasha’s mosque.
-*	**Always Lowercase**:
-    *	**Committees, Reports and Inquiries**: committee on climate change, trade and industry committee, royal commission on electoral reform
-    *	**Agencies, Commissions, Public Bodies, Quangos**: benefits agency, crown prosecution service, customs and excise, parole board
-    *	**Seasons**: spring, summer, autumn/fall, winter.
-    *	**Currencies**: euro, franc, mark, sterling, dong etc
+*	**Em títulos**: cabeçalhos e títulos de livros devem usar maiúsculas para iniciar as palavras: "Preparar os Dados para Análise"; *Não Serás um Estranho*, etc.
+*	**Sempre em maiúscula**:
+    *	**Nomes Próprios**: William J. Turkel – a não ser que a pessoa escolha que o seu nome seja escrito de outra forma (ex. "bell hooks").
+    *	**Organizações Culturais, Artísticas e Governamentais, etc**: Museu da Imagem e do Som, Casa de Anne Frank, Agency for Global Media, Nações Unidas. 
+    *	**Feriados e festejos**: Diwali, Chanucá, Eid-Ul-Adha, Ramadão.
+*	**Ocasionalmente ou parcialmente escritos em maiúsculas:**:
+    *	**Locais**: capitais de países, regiões, áreas reconhecidas (ex.: Oriente Médio, Senegal). Usar minúsculas para pontos cardeais, exceto quando usados como parte do nome de um local (para chegar ao Polo Norte, siga para o norte). Outros exemplos: nordeste do Quênia, sul do Brasil, o oeste, Canadá ocidental, América Central, América Latina. 
+    *	**Eventos Históricos**: Primeira Guerra Mundial, Segunda Guerra Mundial; guerra da(do) Criméia/Bôeres/Vietnã/Golfo; Guerra dos Cem Anos.
+    *	**Religião**: maiúsculas para Anglicana, Batista, Budista, Católica, Cristã, Hindu, Metodista, Muçulmana, Protestante, Católica Apostólica Romana, Sique, e minúsculas para evangélicos, carismáticos, ateístas.
+    *	**Livros Sagrados (seleção)**:
+        *	**Bíblia:**: sar maiúsculas para se referir ao Velho ou Novo Testamento.
+        *	**Budista:**: utras (sermões) and abhidhamma (análise e interpretação). Para o Budismo Tibetano há também os textos tântricos e o Livro dos Mortos Tibetano.
+        *	**Hindu:**:  literatura sruti: Vedas, Samhitas, Brahmanas, Aranyakas, Upanishads; the Vedāngas, épicos Hindu, Sutras, Shastras, textos filosóficos, os Puranas, o Kāvya, os Bhasyas,  diversos Nibandhas.
+        *	**Judaísmo:**: a Tanakh (acrónimo de Torah, Nevi'im e Ketuvim), Talmude (Mishnah, Gemara)
+        *	**Corão (Alcorão)**: aiúscula. Textos incluem o Hadith, o Tawrat (Torah), Zabur (possivelmente os Psalms), Injil (1.2 bilhões).
+        *	**Sique:**: Adi Granth (comumente chamado Guru Granth Sahib), o Dasam Granth, o Varan Bhai Gurdas, os textos de Bhai Nand Lal.
+    *	**Trabalhos**: colocar em maiúscula quando usado juntamente com um nome – Presidente Macron, mas não como uma descrição – Emmanuel Macron, presidente da França. O Papa e a Rainha possuem maiúsculas.
+    *	**Organizações e Instituições**: o Governo (maiúscula em todas as referências), o Gabinete (maiúscula em todas as referências), a Igreja da Irlanda ("a igreja"), o Departamento de Educação e Ciências ("o departamento"), Universidade Federal, Universidade de Lisboa ("a universidade"), a Corte de Apelações ("a corte de apelações" ou "a corte").
+    *	**Universidades**: maiúsculas para Instituições, minúsculas para departamentos (“Universidade Federal do Rio de Janeiro, departamento de história”).
+    *	**Instituições Religiosas, Hospitais e Escolas**: maiúsculas para nomes próprios ou nomes de lugares, minúsculas para o restante. Ex.: Hospital da Ordem Terceira Chiado, Colégio de São Bento do Rio de Janeiro, Mesquita Hazrat Hamza.
+*	**Sempre minúsculas**:
+    *	**Comités, relatórios e consultas**: comité sobre mudança climática, comités sobre comércio e indústria, comissão oficial sobre reforma eleitoral.
+    *	**Agências, comissões, órgãos públicos**: agência de benefícios, serviço de acusação da coroa, costumes e impostos especiais de consumo.
+    *	**Estações do ano**: primavera, verão, outono, inverno.
+    *	**Moedas**: euro, dólar, libra, real, etc.
 
-### References
-*	Links rather than endnotes may be appropriate in most cases.
-*	Ensure linked phrases are semantically meaningful. Do not link terms that are meaningful only to sighted users such as "click here".
-*	All traditionally published and academic literature should be end-noted rather than linked.
-*	If you are writing an "analysis" tutorial, you must refer to published scholarly literature.
-*	Endnote superscripts should be outside the final punctuation like this.² Not inside like this².
-*	Use the "Notes and Bibliography" system found in the [*The Chicago Manual of Style*, 17th Edition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html) for endnotes.
-*	On first mention of a published work, include author name (including first/given name). For example, "You can find more information in *The Elements of Typographic Style* by Robert Bringhurst," or "For more information, consult Robert Bringhurt’s *The Elements of Typographic Style*." On subsequent references, just use the book title. Author’s names can be shortened to surname only on subsequent use.
-*	Endnotes should not just contain a URL.
-    *	(Correct): Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
-    *	(Incorrect): https://doi.org/10.1086/680389
-
-
-### Challenging Words Explained
-
- *	**Collective Nouns** (group, family, cabinet, etc) take singular or plural verb according to meaning: the family was shocked, the family were sitting down, scratching their heads.
- *	**Less or Fewer?** Less means less in quantity, (less money); fewer means smaller in number, (fewer coins).
- *	**Over or More Than?** Over and under answer the question "how much?"; more than and fewer than answer the question "how many?": she is over 18, there were more than 20,000 at the game.
- *	**That or Which?** that defines, which informs: this is the house that Jack built, but this house, which Jack built, is now falling down.
-
-## C. Formatting Guidelines
-This final section covers matters of formatting for submission. Read this section before and after writing your draft. If you get any of these elements wrong, you will be able to correct them when we post a live preview of your lesson at the start of the peer review process.
-
-### Write in Markdown
-All lessons must be written in [Markdown](https://en.wikipedia.org/wiki/Markdown). A template for writing your lessons has been provided.
-
-* [Download the English Language Lesson template (.md)]({{site.baseurl}}/en/lesson-template.md).
-
-Markdown is a mark-up language that is best created with a text editor. MS Word and Open Office are NOT text editors and should be avoided. We recommend [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/) or [Notepad++](https://notepad-plus-plus.org/download).
-For a gentle introduction to Markdown formatting see [Getting Started with Markdown]({{site.baseurl}}/en/lessons/getting-started-with-markdown), or the concise reference [GitHub Guide to Markdown](https://guides.github.com/features/mastering-markdown/).
-
-Your lesson should be saved in .md format. Your lesson filename becomes part of the lesson URL. Therefore, it should be named according to the following rules:
-
- *	A short, lowercase, descriptive name that gives a clear indication of the lesson contents (eg. getting-started-with-markdown.md).
- *	Do not use spaces or underscores in the filename; use hyphens instead.
- *	Use a keyword-rich filename that includes key technologies or methods (eg, Python or Sentiment Analysis).
-
-### Bold, Italics, and Underline
-To ensure consistency across lessons, adhere to the following text formatting guidelines:
-
-#### Bold
- *	Bold is not used except in exceptional circumstances.
- *	Bold is formatted using **\*\*double asterisks\*\***.
-
-#### Italics
- *	Use italics for book titles, films, TV programmes, paintings, songs, albums, and websites.
- *	Never use italics for business names (the *Facebook* website is owned by Facebook).
- *	Do not use italics in headlines, even if referring to a book title.
- *	Italics are formatted using *\*single asterisks\**.
-
-#### Underline
- *	Underline is not used.
+### Referências
+*	Links, em vez de notas de fim, podem ser apropriados na maioria dos casos.
+*	Certificar-se que as frases com links são semanticamente significativas. Não link termos significativos apenas para usuários com visão, como "clique aqui".
+*	Toda a literatura tradicionalmente publicada e académica deve ser anotada no final em vez de fornecido um link.
+*	Se escrever um tutorial de "análise", deve consultar a literatura académica publicada.
+*	Os sobrescritos da nota de fim devem estar fora da pontuação final desta forma.² Não dentro desta forma².
+*	Usar o sistema de "Notas e Bibliografia" do [*The Chicago Manual of Style*, 17th Edition](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html) para notas de fim. 
+*	Na primeira menção a um trabalho publicado, incluir o nome do autor (primeiro/sobrenome). Por exemplo, "Pode encontrar mais informações em *The Elements of Typographic Style* de Robert Bringhurst," ou "Para obter mais informações, consulte *The Elements of Typographic Style* de Robert Bringhurst." Nas referências subsequentes, basta usar o título do livro. Os nomes dos autores podem ser encurtados para sobrenome apenas no uso subsequente.
+*	As notas de fim não devem conter apenas uma URL.
+    *	(Correto): Grove, John. "Calhoun and Conservative Reform." American Political Thought 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
+    *	(Incorreto): https://doi.org/10.1086/680389
 
 
-### Alerts and Warnings
-If you want to include an aside or a warning to readers, you can set it apart from the main text:
+## C. Diretrizes de formatação
+Esta seção final aborda questões de formatação para envio. Leia esta seção antes e depois de escrever o seu rascunho. Se errar alguns destes elementos, poderá corrigi-los quando publicarmos uma visualização online da lição no início do processo de revisão por pares.
+
+### Escrever em Markdown
+Todas as lições devem ser escritas em [Markdown](https://en.wikipedia.org/wiki/Markdown). Existe um template para as lições.
+
+* [Faça o download do template de lição em português (.md).]({{site.baseurl}}/pt/licoes-modelo.md).
+
+Markdown é uma linguagem de marcação que é mais fácil de trabalhar num editor de texto. O MS Word e o Open Office NÃO são editores de texto e devem ser evitados. Recomendamos [Atom](https://atom.io/), [TextWrangler](https://www.barebones.com/products/textwrangler/), [TextEdit](https://en.wikipedia.org/wiki/TextEdit), [MacDown](https://macdown.uranusjr.com/) ou [Notepad++](https://notepad-plus-plus.org/download).
+Para uma primeira introdução à formatação do Markdown, consultar [Introdução ao Markdown (em inglês)]({{site.baseurl}}/en/lessons/getting-started-with-markdown), ou uma explicação mais breve em [Guia de Markdown do GitHub](https://guides.github.com/features/mastering-markdown/).
+
+A lição deve ser guardada no formato .md. O nome do ficheiro da lição torna-se parte do URL da lição. Portanto, deve ser nomeado de acordo com as seguintes regras:
+
+ *	Um nome descritivo, minúsculo e em minúsculas que forneça uma indicação clara do conteúdo da lição (por exemplo: começar-com-markdown.md).
+ *	Não usar espaços ou sublinhados no nome do ficheiro; usar hífens.
+ *	O nome do ficheiro deve ser rico em palavras-chave que incluam as principais tecnologias ou metodologias (por exemplo, Python ou Análise de sentimentos).
+
+### Negrito, itálico e sublinhado
+Para garantir coerência entre as lições, siga as seguintes diretrizes de formatação de texto:
+
+#### Negrito
+ *	Negrito não é usado, exceto em circunstâncias excepcionais.
+ *	Negrito é formatado usando **\*\*asteriscos duplos\*\***.
+
+#### Itálico
+ *	Usar para títulos de livros, filmes, programas de TV, pinturas, músicas, álbuns e sites.
+ *	Nunca em nomes de empresas (o site Facebook é de propriedade do Facebook).
+ *	Não usar itálico em títulos, mesmo que se refiram ao título de um livro.
+ *	Itálico é formatado usando *\*asteriscos únicos\**.
+
+#### Sublinhado
+ *	Sublinhado não é utilizado.
+
+
+### Alertas e avisos
+Se deseja incluir uma nota ou um aviso para os leitores, é possível separá-lo do texto principal:
 
 ```
 <div class="alert alert-warning">
- Be sure that you follow directions carefully!
+  Certifique-se de seguir as instruções cuidadosamente!
 </div>
 ```
 
-### Figures and Images
-Images can help readers understand your lesson steps, but should not be used for decoration. If you wish to use images in your lesson, label them sequentially LESSON-NAME1.jpg, LESSON-NAME2.jpg, etc. Refer to them in the text as "Figure 1", "Figure 2", and so on. All figures must come with a concise figure caption and endnotes where appropriate. You must have the legal right to post any images.
+### Figuras e imagens
+As imagens podem ajudar os leitores a entender os passos da lição, mas não devem ser usadas como decoração. Se desejar usar imagens na sua lição, identifique-as sequencialmente como LESSON-NAME1.jpg, LESSON-NAME2.jpg, etc. Refira d no texto como "Figura 1", "Figura 2", e assim por diante. Todas as figuras devem vir com uma legenda concisa e notas finais, quando apropriado. A licença legal para publicar qualquer imagem tem de estar assegurada.
 
-Use web-friendly file formats such as .png or .jpg and reduce large images to a maximum of 840px on the longest side. This is important for readers in countries with slower internet speeds.
+Os ficheiros devem ser compatíveis com a web, preferencialmente .png ou .jpg, e devem ter um máximo 840px no lado mais longo. Isso é especialmente importante para leitores de países com velocidades mais lentas de Internet.
 
-Images should be saved in a folder with the same name as your lesson .md file. The editor assigned to your lesson can assist you in uploading your images when you submit.
+As imagens devem ser guardadas numa pasta com o mesmo nome .md da lição. Quando submeter sua lição o editor atribuído poderá ajudá-lo a enviar as imagens.
 
-To insert an image in your text, use the following format:
+Para inserir uma imagem no seu texto, use o seguinte formato:
 
 {% raw %}
 ``` markdown
@@ -254,88 +245,88 @@ To insert an image in your text, use the following format:
 ```
 {% endraw %}
 
-Note that internal quotation marks in your caption must be escaped with a backslash, as in the example above. Images may not appear in previews of your lesson, but your editor will ensure they render properly when the lesson is published.
+Notar que as aspas da legenda devem ser limitadas por uma barra invertida, como no exemplo acima. As imagens podem não aparecer nas pré-visualizações da lição, mas o editor tem a missão de garantir que sejam renderizadas corretamente quando a lição for publicada.
 
-### Code Examples
-Lines of code should be formatted to distinguish them clearly from prose:
+### Exemplos de código
+As linhas de código devem ser formatadas para distingui-las claramente do texto em prosa:
 
- *	Lines of code should be maximum 80 characters
- *	Multi-line code blocks should be enclosed in three \`\`\`back-ticks\`\`\`.
- *	Inline code (rarely used) can be enclosed in single \`backticks\`.
+ *	Linhas de código devem ter no máximo 80 caracteres
+ *	Os blocos de código com várias linhas devem ser colocados em três \`\`\`acentos grave\`\`\`.
+ *	O código embutido (raramente usado) pode ser colocado entre apenas um  \`acento grave\`.
 
 
 ```
-They will look like this
+Eles ficarão assim
 ```
-` and this ` respectively.
+` e assim ` respectivamente.
 
 --
-Follow best practice in writing your code:
+Recomendamos estas práticas ao escrever o código:
 
-*	**Variable and Function Names**: variable names should be nouns (eg "counter") and function names should be verbs (eg "createFile"). Choose names that are concise and meaningful. You may use [snake_case](https://en.wikipedia.org/wiki/Snake_case) or [camelCase](https://en.wikipedia.org/wiki/Camel_case), but be consistent.
-*	**User Commands**: when writing about text you want the reader to replace with their own information, use FULL CAPS and enclose by ` backticks ` (eg, \`USERNAME HERE\`).
-*	**Filenames**: filenames that you ask your reader to create or use should be enclosed in `backticks` when mentioned in the text and should include their file extension. Choose names that are concise and meaningful. You may use [snake_case](https://en.wikipedia.org/wiki/Snake_case) or [camelCase](https://en.wikipedia.org/wiki/Camel_case), but be consistent (eg, `data.txt`, `cleanData.py` etc).
-*	**Reserved Words**: words that are part of a programming language should always be formatted as `code` using `back-ticks` in the running prose. A list of reserved words in common programming languages include:
+*	**Nomes de variáveis e funções**: os nomes de variáveis devem ser substantivos (por exemplo, "contagem") e os nomes de funções devem ser verbos (por exemplo, "criarFicheiro"). Escolher nomes curtos e significativos. O [snake_case](https://en.wikipedia.org/wiki/Snake_case) ou o [camelCase](https://en.wikipedia.org/wiki/Camel_case) podem ser usados desde que de forma coerente.
+*	**Comandos do usuário**: ao escrever tags que o leitor deve substituir por informação própria, use MAIÚSCULAS e coloque entre ` acentos graves ` (por exemplo,  \`USUÁRIO AQUI\`).
+*	**Nomes dos ficheiros**: os nomes de ficheiros que o leitor precisa de criar também devem estar entre `acentos graves` e a referência deve incluir a extensão do ficheiro (por exemplo, `data.txt`, `cleanData.py` etc). Escolha nomes concisos mas com significado. Pode usar [snake_case](https://en.wikipedia.org/wiki/Snake_case) ou [camelCase](https://en.wikipedia.org/wiki/Camel_case), mas seja consistente.
+*	**Palavras Restritas**: as palavras que fazem parte de uma linguagem de programação devem sempre ser formatadas como `código` usando` acentos graves` na prosa em execução. Uma lista de termos reservados em linguagens de programação inclui:
 
-#### JavaScript:
+#### Em JavaScript:
 
 `abstract`, `arguments`, `await`, `Boolean`, `break`, `byte`, `case`, `catch`, `char`, `class`, `const`, `continue`, `debugger`, `default`, `delete`, `do`, `double`, `else`, `enum`, `eval`, `export`, `extends`, `false`, `final`, `finally`, `float`, `for`, `function`, `goto`, `if`, `implements`, `import`, `in`, `instanceof`, `int`, `interface`, `let`, `long`, `native`, `new`, `null`, `package`, `private`, `protected`, `public`, `return`, `short`, `static`, `super`, `switch`, `synchronized`, `this`, `throw`, `throws`, `transient`, `true`, `try`, `typeof`, `var`, `void`, `volatile`, `while`, `with`, `yield`.
 
-#### Python 2:
+#### Em Python 2:
 `and`, `as`, `assert`, `break`, `class`, `continue`, `def`, `del`, `elif`, `else`, `except`, `exec`, `finally`, `for`, `from`, `global`, `if`, `import`, `in`, `is`, `lambda`, `not`, `or`, `pass`, `print`, `raise`, `return`, `try`, `while`, `with`, `yield`.
 
-#### Python 3:
+#### Em Python 3:
 `and`, `as`, `assert`, `break`, `class`, `continue`, `def`, `del`, `elif`, `else`, `except`, `False`, `finally`, `for`, `from`, `global`, `if`, `import`, `in`, `is`, `lambda`, `nonlocal`, `None`, `not`, `or`, `pass`, `raise`, `return`, `True`, `try`, `while`, `with`, `yield`.
 
-#### R:
+#### Em R:
 `break`, `else`, `for`, `FALSE`, `function`, `if`, `in`, `Inf`, `NA`, `NA_character_`, `NA_complex_`, `NA_integer_`, `NA_real_`, `NaN`, `next`, `NULL`, `repeat`, `TRUE`, `while`.
 
 
-## Step 3: Submitting a New Lesson
+## Etapa 3: submeter uma nova lição
 
-Double-check that your lesson file has been prepared to the above specifications. Once you are satisfied, we strongly recommend that you ask at least two people to try your tutorial and provide feedback. This will help you make improvements that mean our peer reviewers can focus on helping you produce the strongest possible lesson.
+Verificar se o ficheiro da lição está de acordo com as especificações acima. Quando terminado, é altamente recomendável pedir a pelo menos duas pessoas para ler a lição e experimentar o tutorial, para dar feedback e garantir que é entendido por todos. Desta maneira ajuda os revisores a concentrarem-se em produzir uma lição tão consistente quanto possível.
 
-You are ready to submit the lesson for peer review. Submissions are made to our peer review site on [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
+Pronta a submetida a lição, segue-se a revisão por pares. As submissões são feitas no site de revisão por pares no [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
 
-1. **Getting Access**: create a [free Github account](https://github.com/join). Email your Github username to your editor who will give you upload access to our submission site. Let the editor know the file name of your lesson and if you have any images or data files accompanying your tutorial.
-3. **Uploading your Lesson**: once your editor confirms you have been granted access to the site, upload your lesson to the [lessons folder](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). If you need help, see [GitHub's instructions](https://help.github.com/articles/adding-a-file-to-a-repository/).
-4. **Uploading Images**: if your lesson includes images, make sure all of the files are named according to the naming conventions specified above. Your editor will have created a folder for you to upload your images in the  [images directory](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). This folder should have the same name as your lesson filename. Upload your images to this folder. If you don't see it, please contact your editor and wait for instructions.
-5. **Uploading Data**: if your lesson includes data files, they should similarly be uploaded to a similarly named folder in the [assets directory](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets).
-6. **Email your editor** to let them know that you have uploaded your files.
+1. **Acesso ao GitHub**: criar uma [conta gratuita](https://github.com/join). Envie o seu nome de usuário ao editor, que lhe dará acesso ao nosso repositório. Informar o editor do nome do ficheiro da lição e se possui imagens ou ficheiros de dados que acompanham o tutorial.
+3. **Enviar a lição**: depois do editor confirmar o acesso ao site, é necessário colocar a lição na [pasta das lições](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Em caso de dúvida  consultar as [instruções do GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/).
+4. **Enviar imagens**: se a lição incluir imagens, verifique se todos os ficheiros foram nomeados de acordo com as regras especificadas acima. O editor deve ter criado uma pasta para fazer o upload na [diretório de imagens](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). Esta pasta deve ter o mesmo nome do ficheiro da lição. Carregue as imagens nesta pasta. Caso não visualize a pasta, entre em contato com o editor e aguarde instruções.
+5. **Enviar dados**: se a lição incluir ficheiros de dados, estes devem ser colocados da mesma forma que as imagens. Deverá existir uma pasta com o nome da lição no [diretório assets](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets).
+6. **Enviar um email ao editor** para que ele saiba que os ficheiros foram enviados.
 
 
-## The Peer Review Process
+## O processo de revisão por pares
 
-Your editor will check that your files have been uploaded and formatted properly. At this stage you will be sent a preview link where any formatting errors will be evident and you can fix them.
+Depois do editor verificar se os  ficheiros estão carregados e formatados da forma correta, será enviado um link para a pré-visualização da lição, onde quaisquer erros de formatação serão evidentes e ainda podem ser corrigidos.
 
-The peer review will be recorded on a Github "[ticket](https://github.com/programminghistorian/ph-submissions/issues)", which acts like an open message board discussion. Be aware that our peer review happens in public and remains publicly available as a permanent record of peer review. If you have concerns or would like to request a closed review, contact your assigned editor.
+Todo o processo de revisão por pares estará registado num "[ticket do Github](https://github.com/programminghistorian/ph-submissions/issues)", que funciona como um quadro de mensagens de discussão aberta. Esteja ciente que o processo de revisão é feito em público e permanece disponível como um registo permanente da revisão por pares. Se houver alguma dúvida ou preferir uma revisão fechada, entre em contato com o editor.
 
-The peer review process normally happens in 3 stages:
+O processo de revisão por pares normalmente tem três etapas:
 
-1) The editor assigned to your lesson will carefully read and try your lesson, providing a first round of feedback that you will be asked to respond to. The purpose of this first round of feedback is to ensure that your lesson addresses the needs of *Programming Historian* readers, and to make sure that the external peer reviewers receive a lesson that works. You will normally be given one month to respond to this first peer review.
+1) O editor da lição irá ler e testar a lição cuidadosamente, fornecendo uma primeira ronda de *feedback* que é necessário responder. O objetivo é garantir que a lição atende às necessidades dos leitores do *Programming Historian*, e que os revisores externos recebem uma lição que funciona. Normalmente tem um mês para responder a esta primeira revisão.
 
-2) The editor will then open the lesson for formal peer review. This will include at least two reviewers invited by the editor, and may also include comments from the wider community, who are welcome to contribute views. We generally try to ask reviewers to provide their comments within one month, but sometimes unforeseen circumstances mean this is not possible. The editor should make it clear to you that you should not respond to reviews until after both reviews have been published and the editor has summarised and provided clear instructions for moving forward. In some cases this may be a suggestion to substantially revise or rethink the lesson.  In other cases it will be a matter of making some changes. Depending on the peer review comments, and the nature of issues raised, you may need to revise the tutorial more than once, but the editor will endeavour to ensure that you are given a clear pathway towards publication. You always have the option of withdrawing from the review process if you so choose.
+2) O editor abrirá a lição para a revisão formal por pares. Serão nomeados dois revisores convidados pelo editor, mas a comunidade também é convidada a participar se quiser. Geralmente, é pedido que os revisores dêem os seus comentários dentro de um mês, mas às vezes imprevistos podem levar a atrasos. O editor deve deixar claro que não deverá responder às revisões até que as duas estejam publicadas e o editor já tenha feito um resumo com instruções claras sobre como avançar. Às vezes, pode incluir a sugestão para repensar substancialmente a lição, outras vezes, será uma questão de fazer pequenas alterações. Dependendo dos comentários da revisão por pares e da natureza dos problemas levantados, pode ser preciso rever o tutorial mais do que uma vez, mas o editor tem como missão garantir que o caminho para a publicação esteja claro e bem definido. A qualquer momento pode pedir para sair do processo de revisão, se assim o desejar.
 
-3) Once your editor and peer reviewers are happy with the piece, the editor will recommend publication to the Managing Editor, who will read the piece to ensure that it meets our Author's Guidelines and standards. In some cases there may be additional revisions or copy editing at this stage to bring the  piece in line with our publishing standards. If the Managing Editor is happy with the piece, it will be moved to the live site for publication. Your editor will inform you of any additional information required at this stage.
+3) Quando o editor e revisores estiverem satisfeitos com a lição, o editor recomendará a publicação ao Editor Chefe, que irá ler e garantir que corresponde às Directrizes para Autores e aos padrões do *Programming Historian*. Em alguns casos, podem haver revisões adicionais ou edições nesta fase para alinhar a peça aos padrões de publicação. Se o Editor Chefe estiver satisfeito com a lição, ela será copiada para o site online. Quando isto acontecer o editor irá comunicar se qualquer informação adicional for necessária nesta fase.
 
-You may find it helpful to read our [editor guidelines](/editor-guidelines), which detail our editorial process.
+Pode ser útil ler as [directrizes para editores](pt/directrizes-editor), que apresentam mais detalhes sobre todo o processo  editorial.
 
-If at any point you are unsure of your role or what to do next, post a question to the peer review issue. One of our editors will respond as soon as possible. We endeavour to respond to all queries within a few days.
+Se, a qualquer momento, tiver dúvidas do seu papel ou o que fazer a seguir, basta publicar a pergunta na discussão da revisão por pares. Qualquer um dos nossos editores responderá assim que possível. A equipa esforça-se por responder a todas as perguntas dentro de poucos dias.
 
-### Holding Us to Account
+### Responsabilidade da equipe
 
-Our team of volunteers works hard to provide a rigourous, collegial, and efficient peer review for authors. However, we recognize that there are times when we may fall short of expectations. We want authors to feel empowered to hold us to high standards. If, for whatever reason, you feel that you have been treated unfairly, that you are unhappy or confused by the process, that the review proess has been unnecessarily delayed, that a reviewer has been rude, that your editor has not been responsive enough, or have any other concern, please bring it to our attention so we can address it proactively.
+A equipe de voluntários trabalha intensamente para fazer uma revisão rigorosa, académica e eficiente aos autores. No entanto, reconhecemos que há momentos em que pode ficar abaixo das expectativas. Queremos que os autores se sintam à vontade para nos ajudar a manter o padrão. Se, por qualquer motivo, sentir que foi tratado injustamente, está insatisfeito ou confuso com o processo, se o processo foi adiado desnecessariamente, ou um revisor foi rude e o editor não respondeu de acordo, ou mesmo se tiver qualquer outra preocupação, chame a atenção da equipa para que se possa resolver rapidamente.
 
-Raising a concern will NOT negatively affect the outcome of your peer review - even a peer review in progress.
+Apresentar uma questão NÃO afetará o resultado da revisão por pares - mesmo que ainda esteja a decorrer.
 
-To raise a concern, please contact one of the following parties, chosing whomever you feel most comfortable approaching.
+Para apresentar uma preocupação, basta entrar em contato com uma das seguintes partes, escolhendo com quem se sentir mais confortável em abordar a questão:
 
-* Your assigned editor
-* The managing editor
-* Our independent ombudsperson, (TBD)
+* O editor da lição
+* O editor chefe
+* O mediador independente
 
-We hope you don't find yourself in a situation in which you are unhappy, but if you do, we thank you for helping us to improve.
+Esperamos que não se encontre infeliz com nenhuma situação, mas, se for o caso, agradecemos que nos ajude a melhorar.
 
 ---
 
-This style guide was created with support from the School of Humanities, University of Hertfordshire.
+Este guia de estilo foi criado com o apoio da Escola de Humanidades da Universidade de Hertfordshire.
