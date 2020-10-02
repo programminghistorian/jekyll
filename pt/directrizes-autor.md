@@ -13,7 +13,7 @@ original: author-guidelines
 <h2 class="noclear">Etapa 3: <a href="#etapa-3-submeter-uma-nova-lição">Submeter uma nova lição</a></h2>
 
 
-Estas directrizes foram desenvolvidas para ajudar a entender o processo de criação de um tutorial para o *Programming Historian em português*. Estão incluídos detalhes práticos e filosóficos do processo de escrita do tutorial, bem como a indicação do fluxo de trabalho e do processo de revisão por pares. Se a qualquer momento não estiver seguro, basta enviar um email ao editor {% include managing-editor.html lang=page.lang %}.
+Estas directrizes foram desenvolvidas para ajudar a entender o processo de criação de um tutorial para o *Programming Historian em português*. Estão incluídos detalhes práticos e teóricos do processo de escrita do tutorial, bem como a indicação do fluxo de trabalho e do processo de revisão por pares. Se a qualquer momento não estiver seguro, basta enviar um email ao editor {% include managing-editor.html lang=page.lang %}.
 
 ## Etapa 1: Propor uma nova lição
 
@@ -27,12 +27,12 @@ Se tem uma ideia para uma nova lição preencha o [formulário de proposta de li
 
 Para ter uma ideia do que publicamos consulte as [lições publicadas]({{site.baseurl}}/pt/licoes), leia as nossas [orientações para revisores]({{site.baseurl}}/pt/directrizes-revisor) ou navegue pelas [lições em desenvolvimento](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
 
-Se a sua proposta for aceita, um editor criará uma página "Proposta" no nosso [website de submissões](https://github.com/programminghistorian/ph-submissions/issues) com o título da lição, mesmo que seja apenas um rascunho, e com os objetivos propostos. Isto serve para acompanhar o trabalho em andamento. Para garantir a publicação em tempo útil, os autores devem enviar a sua proposta de lição no prazo de 90 dias.
+Se a sua proposta for aceite, um editor criará uma página "Proposta" no nosso [website de submissões](https://github.com/programminghistorian/ph-submissions/issues) com o título da lição, mesmo que seja apenas um rascunho, e com os objetivos propostos. Isto serve para acompanhar o trabalho em andamento. Para garantir a publicação em tempo útil, os autores devem enviar a sua proposta de lição no prazo de 90 dias.
 
 Durante este período, o seu ponto de contato será o editor-chefe ou um editor nomeado.
 
 ## Etapa 2: Escrever e formatar uma nova lição
-Estas directrizes estabelecem um conjunto de regras para os autores utilizarem na criação ou tradução de lições em inglês para o *Programming Historian em português*. Ao utilizá-lo, os autores nos ajudarão a garantir que o conteúdo é consistente e acessível.
+Estas directrizes estabelecem um conjunto de regras para os autores utilizarem na criação ou tradução de lições para o *Programming Historian em português*. Ao utilizá-lo, os autores nos ajudarão a garantir que o conteúdo é consistente e acessível.
 
 Estas estão organizadas em três seções que devem ser lidas antes e depois de escrever a lição:
 
@@ -61,16 +61,16 @@ Os leitores do *Programming historian* vivem em todo o mundo. Os autores podem e
 
 *	Escrever para alguém que não mora no mesmo país ou que não partilha das mesmas crenças.
 
-*	**Termos técnicos:**  devem ser sempre apresentados com um link para a [Wikipedia](https://www.wikipedia.org/) para um dicionário de confiança ou site sustentável em primeira instância. Um termo técnico é qualquer palavra que não seja do conhecimento geral das pessoas, algo que alguém possa não conhecer ou entender.
-*	**Referências Culturais**: referências a pessoas, organizações ou detalhes históricos devem sempre vir com informações de contexto. Não se pode assumir que o leitor tem conhecimento prévio, mesmo de referências culturais  muito conhecidas como os [Beatles](https://en.wikipedia.org/wiki/The_Beatles)). É melhor utilizar termos genéricos ao invés de marcas comerciais (lencinhos em vez de Kleenex).Os links para a [Wikipedia](https://www.wikipedia.org/) devem ser usados para contexto. Esteja ciente de que eventos históricos muitas vezes têm nomes diferentes em países diferentes.
+*	**Termos técnicos:**  devem ser sempre apresentados com um link para a [Wikipedia](https://www.wikipedia.org/), para um dicionário de confiança ou site sustentável em primeira instância. Um termo técnico é qualquer palavra que não seja do conhecimento geral das pessoas, algo que alguém possa não conhecer ou entender.
+*	**Referências Culturais**: referências a pessoas, organizações ou detalhes históricos devem sempre vir com informações de contexto. Não se pode assumir que o leitor tem conhecimento prévio, mesmo de referências culturais  muito conhecidas (como os [Beatles](https://en.wikipedia.org/wiki/The_Beatles)). É melhor utilizar termos genéricos ao invés de marcas comerciais (lencinhos em vez de Kleenex). Os links para a [Wikipedia](https://www.wikipedia.org/) devem ser usados para contexto. Esteja ciente de que eventos históricos muitas vezes têm nomes diferentes em países diferentes.
 *	**Expressões**: evite brincadeiras, trocadilhos, jogos de palavras, expressões idiomáticas, sarcasmo, emojis, jargões, termos exclusivos do seu dialeto ou um registo mais complicado do que o necessário.
 *	**Geografia**: ao referenciar  lugares, seja específico. "Sudoeste" pode representar lugares diferentes: Valência? Canadá? África? É necessário escrever o nome completo da área, pelo menos, na primeira vez em que é utilizado.
-*	**Multilíngue**: na escolha de métodos ou ferramentas, é necessário ter em conta leitores multilíngues - especialmente para métodos de análise textual, que podem não suportar outros conjuntos de caracteres ou que podem apenas apresentar resultados intelectualmente robustos quando usados ​​em textos em inglês. Sempre que possível, escolha abordagens com documentação multilíngue ou que forneçam  referências multilíngues para leitura adicional. Isso também ajudará os tradutores.
+*	**Multilíngue**: na escolha de métodos ou ferramentas, é necessário ter em conta leitores multilíngues - especialmente para métodos de análise textual, que podem não suportar outros conjuntos de caracteres ou que podem apenas apresentar resultados intelectualmente robustos quando usados em textos em português. Sempre que possível, escolha abordagens com documentação multilíngue ou que forneçam  referências multilíngues para leitura adicional. Isso também ajudará os tradutores.
 *	**Linguagem racial e étnica**: terminologia racial deve ser utilizada com cuidado e especificidade. Termos históricos não mais em uso devem ser utilizados apenas no seu contexto histórico e somente quando necessário. Usar termos raciais como adjetivos e não substantivos: pessoas brancas em vez de "brancos", uma mulher asiática em vez de "uma asiática". Esteja ciente de que os termos podem ser entendidos de maneira diferente em diferentes países e que o que no seu contexto é considerado correto, pode ser culturalmente específico do seu país (por exemplo, nem todas as pessoas com ascendência africana são "afro-americanas". Algumas delas são africanas ou britânicas ou do Caribe, etc.). Da mesma forma, leitores do Reino Unido entenderão “Ásia” (Índia, Paquistão, Bangladesh) de forma diferente dos leitores da América do Norte (por exemplo,  China, Japão, Vietnã, Tailândia).
-*	**Representações visuais**: na escolha de fontes primárias, imagens, figuras e capturas de tela, é importante ter consideração como elas serão apresentadas a um público geral.
+*	**Representações visuais**: na escolha de fontes primárias, imagens, figuras e capturas de tela, é importante ter em consideração como elas serão apresentadas a um público geral.
 
 ### Escrita sustentável
-O *Programming historian em português* publica as lições que estarão disponíveis a longo prazo e que sejam sustentáveis. Por favor, siga estas directrizes de sustentabilidade ao escrever:
+O *Programming historian em português* publica lições que estarão disponíveis a longo prazo e que sejam sustentáveis. Por favor, siga estas directrizes de sustentabilidade ao escrever:
 
  *	**Ser tão geral quanto possível, mas não demasiado**: foque em metodologias e generalidades, não em detalhes do software/interface (por exemplo, evite dizer aos usuários para "clicar no botão X", que podem ser diferentes em versões futuras).
  *	**Diminuir a dependência de elementos insustentáveis**: usar um número moderado de capturas de tela. As interfaces dos programas mudam com frequência e os futuros leitores podem ficar confusos quando não corresponder à versão deles. Escolher links externos com preocupações futuras em mente. O website muda com frequência? Será que existirá  daqui a dez anos?
@@ -84,27 +84,27 @@ Os autores devem consultar a [política de remoção das lições]({{site.baseur
 Esta segunda seção é sobre questões mais específicas de estilo de escrita, tais como quais palavras usar, como utilizar a pontuação ou que formato adotar para datas ou números. Leia esta seção antes e depois de escrever seu texto.
 
 ### Datas e Tempo
- *	Para os séculos, usar século dezoito e não século 18. Evite frases centradas no nacional, como "longo século dezoito", que têm significado específico para os especialistas do século dezoito britânico, mas não para qualquer outra pessoa.
- *	Para décadas, escreva 1950s (não "os 1950s" ou "os cinquenta").
- *	Comprima sequências de datas como de seguida; 1816-17, 1856-9, 1854-64.
- *	Para datas escritas em forma numérica, utilize o formato AAAA-MM-DD, que está em conformidade com a norma ISO 8601:2004. Isso evita ambiguidade.
- *	Use BCE/CE e não BC/AD para datas (ex. 325BCE).
- *	01:00am, 18:30pm. Não 10 horas. 
+ *	Para os séculos, usar século XVIII e não século dezoito ou século 18. Evite frases centradas no nacional, como "longo século dezoito", que têm significado específico para os especialistas do século dezoito britânico, mas não para qualquer outra pessoa.
+ *	Para décadas, escrever “década de 50” ou “década de 1950” (não “1950s”, "os 1950s" ou "os cinquenta").
+ *	Não comprimir sequências de datas: usar 1816-1819 em vez de 1816-19 ou 1816-9.
+ *	Para datas escritas em forma numérica, utilizar o formato AAAA-MM-DD, que está em conformidade com a norma ISO 8601:2004. Isso evita ambiguidade.
+ *	Usar AC/DC e não BCE/CE ou BC/AD para datas (ex. 325 AC).
+ *	Usar 17 horas ou 17:30 em vez de 5pm ou 5:30pm. 
 
 ### Números
  *	Escrever por extenso os números de um a nove.
  *	Usar um formato consistente se o limite acima for cruzado em uma única frase (cinco maçãs e cem laranjas; 5 maçãs e 100 laranjas).
- *	Utilizar vírgulas entre grupos de três dígitos em grandes números (32,904 e não 32904). Exceções: números de páginas, endereços, entre aspas, etc.
+ *	Utilizar pontos entre grupos de três dígitos em grandes números (32.904 e não 32904). Exceções: números de páginas, endereços, entre aspas, etc.
  *	Usar numerais para versões (versão 5 ou v.5) ou valores reais (por exemplo, 5%, 7″, $6.00).
  *	Usar sempre o símbolo % com numerais ao invés da palavra “por cento” e verificar  se o número está fechado: 0,05%.
  *	Usar a formatação LaTeX para fórmulas matemáticas.
- *	Para unidades de medida, usar o sistema métrico ou imperial, mas seja consistente.
+ *	Para unidades de medida, usar o sistema métrico.
 
 ### Cabeçalhos 
 Os cabeçalhos não devem conter fontes de código embutido ou formatação de estilo como negrito ou itálico. Devem sempre preceder imediatamente o corpo do texto. Não colocar a seguir ao título um aviso ou outro título sem antes inserir uma nota introdutória.
 
 ### Listas
-Normalmente, utilizamos listas numeradas e listas com marcadores. Os itens das listas são limitados a sentenças. Devem ser tratados como itens separados, não aparecendo junto de pontuação ou conjunções.
+Normalmente, utilizamos listas numeradas e listas com marcadores. Os itens das listas são limitados a frases. Devem ser tratados como itens separados, não aparecendo junto de pontuação ou conjunções.
 
 NÃO faz parte do estilo:
 
@@ -125,7 +125,7 @@ Ou:
 3. Aqui está o item final
 
 ### Pontuação
- *	**Abreviação**: escrever todas as palavras na primeira pessoa. União Européia (UE) e depois UE. Não utilize pontos ou espaços entre as iniciais: BBC, PhD, mph, 4am, etc.
+ *	**Abreviação**: escrever todas as palavras na primeira pessoa. União Europeia (UE) e depois UE. Não utilize pontos ou espaços entre as iniciais: BBC, PhD, mph, 4am, etc.
  *	**Ampersand**: em geral, não utilize um ampersand (eitza ou sinal tironiano) no lugar da conjunção aditiva "e" a menos que se refira a uma empresa ou publicação que a utilize: P&O, Past & Present.
  *	**Aspas/Parênteses**: é melhor usar vírgulas ou travessões. Utilizar parênteses para introduzir explicações numa citação direta, por exemplo: Ele disse: "Quando terminado (o túnel) vai revolucionar a viagem" ou "Ela disse adiós (adeus)". Coloque reticências ou um ponto final fora da aspa final se o material dentro não for uma frase. (Mas uma frase independente tem um ponto final antes do parêntese de fechamento).
  *	**Dois pontos**: utilizar para introduzir listas, tabulações, textos, como em:
@@ -133,16 +133,14 @@ Ou:
     *	Utilizar após o nome de um orador para uma frase inteira citada: o Sr. James Sherwood, presidente da Sealink, disse: "Nós temos..."
     *	Iniciar em minúscula a primeira letra após os dois pontos: é assim que nós fazemos.
  *	**Vírgula**: vírgula sequencial (esta, aquela e a outra).
- *	**Travessão**:  útil para usar ao invés de vírgulas, mas não mais do que um par por frase.
- *	**Reticências**: três pontos separados das palavras anteriores e seguintes por um espaço (... ). Use para condensar uma citação direta (assim a citação "as pessoas sentadas nesta sala de reunião merecem um acordo melhor" torna-se "as pessoas ... merecem um acordo melhor").
+ *	**Travessão**: útil para usar ao invés de vírgulas, mas não mais do que um par por frase.
+ *	**Reticências**: três pontos separados das palavras anteriores e seguintes por um espaço (... ). Use para condensar uma citação direta (assim a citação "as pessoas sentadas nesta sala de reunião merecem um acordo melhor" torna-se "as pessoas... merecem um acordo melhor").
  *	**Ponto de exclamação**: usar somente no final de uma citação direta quando estiver claro que a observação é exclamativa, por exemplo "Eu odeio a intolerância!"
- *	**Ponto final**: usar frequentemente. As frases devem ser curtas, nítidas e diretas. Mas não coloque pontos entre as iniciais, após o título do status (Mx, Dr) ou entre abreviações (EU).
- *	**Hífen**: usar para evitar ambiguidade ou para formar uma única idéia a partir de duas ou mais palavras:
+ *	**Ponto final**: as frases devem ser curtas, claras e diretas. Mas não coloque pontos entre as iniciais, após o título do status (Mx, Dr) ou entre abreviações (EU).
+ *	**Hífen**: usar para evitar ambiguidade ou para formar uma única ideia a partir de duas ou mais palavras:
     *	Para frações: dois-terços.
     *	Para a maior parte das palavras que começam com anti ou neo.
-    *	Para alguns títulos (diretor-geral, secretário-geral, mas não para Procurador Geral,  coordenador geral etc.). A regra é adotar o uso da autoridade conforme ela mesma criou. 
-    *	Avoiding ambiguity (little-used car ... little used car).
-    *	Compass quarters (south-west, north-east).
+    *	Para alguns títulos (diretor-geral, secretário-geral, mas não para Procurador Geral,  coordenador geral etc.). A regra é adotar o uso da autoridade conforme ela mesma criou.
  *	**Aspas**: usar aspas retas "..." ou '..' (e não aspas curvas) para citações diretas. Usar tanto as aspas simples quanto as aspas duplas, mas seja consistente. 
 
 ### Maiúsculas
@@ -157,20 +155,11 @@ A orientação é que seja utilizada com moderação no texto em prosa. Regras e
     *	**Locais**: capitais de países, regiões, áreas reconhecidas (ex.: Oriente Médio, Senegal). Usar minúsculas para pontos cardeais, exceto quando usados como parte do nome de um local (para chegar ao Polo Norte, siga para o norte). Outros exemplos: nordeste do Quênia, sul do Brasil, o oeste, Canadá ocidental, América Central, América Latina. 
     *	**Eventos Históricos**: Primeira Guerra Mundial, Segunda Guerra Mundial; guerra da(do) Criméia/Bôeres/Vietnã/Golfo; Guerra dos Cem Anos.
     *	**Religião**: maiúsculas para Anglicana, Batista, Budista, Católica, Cristã, Hindu, Metodista, Muçulmana, Protestante, Católica Apostólica Romana, Sique, e minúsculas para evangélicos, carismáticos, ateístas.
-    *	**Livros Sagrados (seleção)**:
-        *	**Bíblia:**: sar maiúsculas para se referir ao Velho ou Novo Testamento.
-        *	**Budista:**: utras (sermões) and abhidhamma (análise e interpretação). Para o Budismo Tibetano há também os textos tântricos e o Livro dos Mortos Tibetano.
-        *	**Hindu:**:  literatura sruti: Vedas, Samhitas, Brahmanas, Aranyakas, Upanishads; the Vedāngas, épicos Hindu, Sutras, Shastras, textos filosóficos, os Puranas, o Kāvya, os Bhasyas,  diversos Nibandhas.
-        *	**Judaísmo:**: a Tanakh (acrónimo de Torah, Nevi'im e Ketuvim), Talmude (Mishnah, Gemara)
-        *	**Corão (Alcorão)**: aiúscula. Textos incluem o Hadith, o Tawrat (Torah), Zabur (possivelmente os Psalms), Injil (1.2 bilhões).
-        *	**Sique:**: Adi Granth (comumente chamado Guru Granth Sahib), o Dasam Granth, o Varan Bhai Gurdas, os textos de Bhai Nand Lal.
-    *	**Trabalhos**: colocar em maiúscula quando usado juntamente com um nome – Presidente Macron, mas não como uma descrição – Emmanuel Macron, presidente da França. O Papa e a Rainha possuem maiúsculas.
-    *	**Organizações e Instituições**: o Governo (maiúscula em todas as referências), o Gabinete (maiúscula em todas as referências), a Igreja da Irlanda ("a igreja"), o Departamento de Educação e Ciências ("o departamento"), Universidade Federal, Universidade de Lisboa ("a universidade"), a Corte de Apelações ("a corte de apelações" ou "a corte").
-    *	**Universidades**: maiúsculas para Instituições, minúsculas para departamentos (“Universidade Federal do Rio de Janeiro, departamento de história”).
+    *	**Livros Sagrados**: usar inicial maiúscula para os livros sagrados das religiões (Novo Testamento; Livro dos Mortos Tibetano; Brahmanas; Torah; Hadith ou Adi Granth, por exemplo).
+    *	**Funções ou Profissões**: colocar em maiúscula quando usado juntamente com um nome – Presidente Macron, mas não como uma descrição – Emmanuel Macron, presidente da França.
+    *	**Organizações e Instituições**: o Governo (maiúscula em todas as referências), o Gabinete (maiúscula em todas as referências), a Igreja da Irlanda (maiúscula quando completa, minúscula se referência abreviada "a igreja"), o Departamento de Educação e Ciências (maiúscula quando completa, minúscula se referência abreviada "o departamento"), Universidade de Lisboa (maiúscula quando completa, minúscula se referência abreviada "a universidade").
     *	**Instituições Religiosas, Hospitais e Escolas**: maiúsculas para nomes próprios ou nomes de lugares, minúsculas para o restante. Ex.: Hospital da Ordem Terceira Chiado, Colégio de São Bento do Rio de Janeiro, Mesquita Hazrat Hamza.
 *	**Sempre minúsculas**:
-    *	**Comités, relatórios e consultas**: comité sobre mudança climática, comités sobre comércio e indústria, comissão oficial sobre reforma eleitoral.
-    *	**Agências, comissões, órgãos públicos**: agência de benefícios, serviço de acusação da coroa, costumes e impostos especiais de consumo.
     *	**Estações do ano**: primavera, verão, outono, inverno.
     *	**Moedas**: euro, dólar, libra, real, etc.
 
@@ -187,7 +176,7 @@ A orientação é que seja utilizada com moderação no texto em prosa. Regras e
     *	(Incorreto): https://doi.org/10.1086/680389
 
 
-## C. Diretrizes de formatação
+## C. Directrizes de formatação
 Esta seção final aborda questões de formatação para envio. Leia esta seção antes e depois de escrever o seu rascunho. Se errar alguns destes elementos, poderá corrigi-los quando publicarmos uma visualização online da lição no início do processo de revisão por pares.
 
 ### Escrever em Markdown
@@ -200,8 +189,9 @@ Para uma primeira introdução à formatação do Markdown, consultar [Introduç
 
 A lição deve ser guardada no formato .md. O nome do ficheiro da lição torna-se parte do URL da lição. Portanto, deve ser nomeado de acordo com as seguintes regras:
 
- *	Um nome descritivo, minúsculo e em minúsculas que forneça uma indicação clara do conteúdo da lição (por exemplo: começar-com-markdown.md).
+ *	Um nome descritivo, minúsculo e em minúsculas que forneça uma indicação clara do conteúdo da lição (por exemplo: introducao-ao-markdown.md).
  *	Não usar espaços ou sublinhados no nome do ficheiro; usar hífens.
+ * Não usar acentos, cedilhas e caracteres especiais no nome do ficheiro.
  *	O nome do ficheiro deve ser rico em palavras-chave que incluam as principais tecnologias ou metodologias (por exemplo, Python ou Análise de sentimentos).
 
 ### Negrito, itálico e sublinhado
@@ -220,7 +210,6 @@ Para garantir coerência entre as lições, siga as seguintes diretrizes de form
 #### Sublinhado
  *	Sublinhado não é utilizado.
 
-
 ### Alertas e avisos
 Se deseja incluir uma nota ou um aviso para os leitores, é possível separá-lo do texto principal:
 
@@ -231,11 +220,11 @@ Se deseja incluir uma nota ou um aviso para os leitores, é possível separá-lo
 ```
 
 ### Figuras e imagens
-As imagens podem ajudar os leitores a entender os passos da lição, mas não devem ser usadas como decoração. Se desejar usar imagens na sua lição, identifique-as sequencialmente como LESSON-NAME1.jpg, LESSON-NAME2.jpg, etc. Refira d no texto como "Figura 1", "Figura 2", e assim por diante. Todas as figuras devem vir com uma legenda concisa e notas finais, quando apropriado. A licença legal para publicar qualquer imagem tem de estar assegurada.
+As imagens podem ajudar os leitores a entender os passos da lição, mas não devem ser usadas como decoração. Se desejar usar imagens na sua lição, identifique-as sequencialmente como LESSON-NAME1.jpg, LESSON-NAME2.jpg, etc. Refira as imagens no texto como "Figura 1", "Figura 2", e assim por diante. Todas as figuras devem vir com uma legenda concisa e notas finais, quando apropriado. A licença legal para publicar qualquer imagem tem de estar assegurada.
 
-Os ficheiros devem ser compatíveis com a web, preferencialmente .png ou .jpg, e devem ter um máximo 840px no lado mais longo. Isso é especialmente importante para leitores de países com velocidades mais lentas de Internet.
+Os ficheiros devem ser compatíveis com a web, preferencialmente .png ou .jpg, e devem ter um máximo de 840px no lado mais longo. Isso é especialmente importante para leitores de países com velocidades mais lentas de Internet.
 
-As imagens devem ser guardadas numa pasta com o mesmo nome .md da lição. Quando submeter sua lição o editor atribuído poderá ajudá-lo a enviar as imagens.
+As imagens devem ser guardadas numa pasta com o mesmo nome .md da lição. Quando submeter a sua lição o editor atribuído poderá ajudá-lo a enviar as imagens.
 
 Para inserir uma imagem no seu texto, use o seguinte formato:
 
@@ -286,7 +275,7 @@ Recomendamos estas práticas ao escrever o código:
 
 Verificar se o ficheiro da lição está de acordo com as especificações acima. Quando terminado, é altamente recomendável pedir a pelo menos duas pessoas para ler a lição e experimentar o tutorial, para dar feedback e garantir que é entendido por todos. Desta maneira ajuda os revisores a concentrarem-se em produzir uma lição tão consistente quanto possível.
 
-Pronta a submetida a lição, segue-se a revisão por pares. As submissões são feitas no site de revisão por pares no [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
+Se a lição está pronta a submeter, segue-se a revisão por pares. As submissões são feitas no site de revisão por pares no [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
 
 1. **Acesso ao GitHub**: criar uma [conta gratuita](https://github.com/join). Envie o seu nome de usuário ao editor, que lhe dará acesso ao nosso repositório. Informar o editor do nome do ficheiro da lição e se possui imagens ou ficheiros de dados que acompanham o tutorial.
 3. **Enviar a lição**: depois do editor confirmar o acesso ao site, é necessário colocar a lição na [pasta das lições](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Em caso de dúvida  consultar as [instruções do GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/).
