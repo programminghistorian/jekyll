@@ -16,6 +16,13 @@ original: support-us
 ## Colaboradores
 El proyecto agradece el siguiente apoyo:
 
+- Los miembros de nuestro [Programa de Instituciones Asociadas](apoyanos#programa-de-instituciones-asociadas):
+  - [Bibliotecas de la Universidad Católica de Lovaina](https://bib.kuleuven.be/) [2020-Presente]
+  - [Instituto de Investigación Histórica de la Biblioteca Wohl](https://www.history.ac.uk/library) [2020-Presente]
+  - [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/) [2020-Presente]
+  - [Centro de Datos, Cultura y Sociedad de la Universidad de Edimburgo](https://www.cdcs.ed.ac.uk/) [2020-Presente]
+  - [Biblioteca de la Universidad Western](https://www.lib.uwo.ca/) [2020-Presente]
+  
 - La infraestructura para la asignación de DOI está apoyada por la [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/) [2020-Presente]
 - El desarrollo web está respaldado por el [laboratorio dSHARP en la Universidad Carnegie Mellon](http://dsharp.library.cmu.edu) y la [Fundación Andrew W. Mellon](https://mellon.org) [2018-2020]
 - Apoyo continuado de alojamiento web del [Centro para la Historia y los Nuevos Medios Roy Rosenzweig](http://chnm.gmu.edu/) [2011-Presente]
@@ -24,12 +31,8 @@ El proyecto agradece el siguiente apoyo:
 - Financiación para establecer <em>Programming Historian</em> como una entidad legal proporcionada por la [Escuela de Historia, Historia del Arte y Filosofia, Universidad de Sussex](http://www.sussex.ac.uk/hahp/) [2019].
 - Fondos para un taller de escritura en Bogotá, Colombia, financiados por la [Academia Británica](https://www.thebritishacademy.ac.uk) [2018]
 - Fondos iniciales y soporte de administración de la Red en Historia y Medio Ambiente de Canadá ([NiCHE](http://niche-canada.org/)) [2011-2013]
-- Nuestros primeros suscriptores de *Patreon* Rachel Murphy (nivel 'Suscriptor'), Miriam Posner (nivel 'Patrocinador') y Tim Hitchcock (nivel 'Mecenas'). En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas': Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett, Michael Piotrowski.
-- Los miembros de nuestro [Programa de Instituciones Asociadas](apoyanos#programa-de-instituciones-asociadas):
-  - [Bibliotecas de la Universidad Católica de Lovaina](https://bib.kuleuven.be/) [2020-Presente]
-  - [Instituto de Investigación Histórica de la Biblioteca Wohl](https://www.history.ac.uk/library) [2020-Presente]
-  - [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/) [2020-Presente]
-  - [Centro de Datos, Cultura y Sociedad de la Universidad de Edimburgo](https://www.cdcs.ed.ac.uk/) [2020-Presente]
+- Nuestros primeros suscriptores de *Patreon* Rachel Murphy (nivel 'Suscriptor'), Miriam Posner (nivel 'Patrocinador') y Tim Hitchcock (nivel 'Mecenas'). En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas': Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett, Michael Piotrowski, Mark Edwin Peterson, Nickoal Eichmann-Kalwara.
+
 
 ## Donaciones
 Los patrocinadores individuales del _Programming Historian en Español_ son vitales para aumentar, mejorar y mantener nuestro trabajo. Aceptamos donativos únicos y recurrentes.  

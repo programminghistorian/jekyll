@@ -828,7 +828,7 @@ From the output, we can conclude that the distribution of instances of
 
 ### Testing the learner
 
-All right, we are ready train and test our Naive Bayesian! The script
+All right, we are ready to train and test our Naive Bayesian! The script
 that does this is called `test-nb-learner.py`. It starts by defining a few
 variables:
 
