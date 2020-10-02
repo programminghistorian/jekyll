@@ -36,7 +36,7 @@
       ProgHist Ltd.
     fr: |
       ProgHist Ltd.
-     pt: |
+    pt: |
       ProgHist Ltd.
   bio:
     en: |
@@ -89,7 +89,6 @@
       Ian Milligan es profesor asociado de historia en la Universidad de Waterloo.
     fr: |
       Ian Milligan est un professeur associé en histoire à l'Université de Waterloo.
-      François Dominic Laramée est chercheur postdoctoral en histoire numérique de la médecine 'Université d'Ottawa, au Canada.
     pt: |
       Ian Milligan é professor associado de História na University of Waterloo.
   team_roles:
@@ -218,7 +217,7 @@
       Stephen Margheim is a classicist turned digital humanist hunkered down in
       Philadelphia, looking for his next step.
     pt: | 
-      Stephen Margheim é um classicista que se tornou humanista digital, sediado em Filadélfia e ansioso pelo próximo passo. 
+      Stephen Margheim é um classicista, sediado em Filadélfia, que se tornou humanista digital e que está ansioso pelo seu próximo passo. 
 
   team: false
 
@@ -243,8 +242,8 @@
       and is an Interpreter at the Oil Sands Discovery Centre in Fort McMurray, Alberta.
     es: |
       Taryn Dewar tiene una maestría en Historia Pública (Western University) y es intérprete en el Centro de investigación de arenas de alquitrán en Fort McMurray, Alberta.
-     pt: | 
-       Evan Taparata é mestre em História Pública pela Western University e interprete no Oil Sands Discovery Centre em Fort McMurray, Alberta.
+    pt: | 
+      Taryn Dewar é mestre em História Pública pela Western University e interprete no Oil Sands Discovery Centre em Fort McMurray, Alberta.
 
 - name: Maria Velez-Serna
   bio:
@@ -260,7 +259,7 @@
     en: |
       Andrew Hnatow is a PhD candidate at Wayne State University.
     pt: | 
-      Andre Hnatow é doutorando na Wayne State University.
+      Andrew Hnatow é doutorando na Wayne State University.
 
 
 - name: Daniel van Strien
@@ -282,7 +281,7 @@
       Her heart belongs to open-source software & shared,
       community-driven development practices in libraries.
     pt: | 
-	    Kim Pham é bibliotecária de projetos digitais e tecnologias na University of Toronto Scarborough Library. O seu coração pertence ao software & partilha de código aberto, desenvolvendo práticas viradas para a comunidade das bibliotecas. 
+      Kim Pham é bibliotecária de projetos digitais e tecnologias na University of Toronto Scarborough Library. O seu coração pertence ao software e partilha de código aberto, desenvolvendo práticas viradas para a comunidade das bibliotecas. 
 
 - name: Douglas Duhaime
   bio:
@@ -290,7 +289,7 @@
       Douglas Duhaime is the Text and Data Mining project manager at ProQuest
       and a doctoral student at the University of Notre Dame.
     pt: | 
-	    Douglas Duhaime é gestor de projetos de mineração de texto e dados no ProQuest e doutorando pela University of Notre Dame.
+      Douglas Duhaime é gestor de projetos de mineração de texto e dados no ProQuest e doutorando pela University of Notre Dame.
 
 - name: Kellen Kurschinski
   team: false
@@ -314,8 +313,7 @@
       under Stalin: The Political Socialization and Militarization of Soviet
       Youth, 1934-1941*) en la Universidad de Toronto.
     pt: | 
-	    Seth Bernstein é posdoutorando pela Higher School of Economics, em Moscovo. Em 2013, defendeu a sua tese de doutoramento "Communist Upbringing under Stalin: The Political Socialization and Militarization of Soviet Youth, 1934-1941" na University of Toronto.
-
+      Seth Bernstein é posdoutorando pela Higher School of Economics, em Moscovo. Em 2013, defendeu a sua tese de doutoramento "Communist Upbringing under Stalin: The Political Socialization and Militarization of Soviet Youth, 1934-1941" na University of Toronto.
 
 - name: James Baker
   team: true
@@ -350,7 +348,7 @@
     en: |
       Amanda Morton is a DH Fellow at the Center for History and New Media.
     pt: |
-       Amanda Morton é bolseira de Humanidades Digitais no Center for History and New Media.  
+      Amanda Morton é bolseira de Humanidades Digitais no Center for History and New Media.  
 
 
 - name: Miriam Posner
@@ -376,8 +374,8 @@
     en: |
       Jeremy Boggs is the Design Architect for Digital Research Scholarship
       at the University of Virginia Library.
-     pt: |
-       Jeremy Boggs é Arquiteto de Design com uma bolsa de pesquisa digital na Biblioteca da University of Virginia.
+    pt: |
+      Jeremy Boggs é Arquiteto de Design com uma bolsa de pesquisa digital na Biblioteca da University of Virginia.
 
 
 - name: Allison Hegel
@@ -389,7 +387,7 @@
     en: |
       Allison Hegel is a PhD candidate in English at UCLA.
     pt: |
-       Allison Hegel é doutoranda em Inglês pela UCLA.
+      Allison Hegel é doutoranda em Inglês na UCLA.
 
 - name: Carrie Sanders
   team: false
@@ -400,7 +398,7 @@
     en: |
       Carrie Sanders is a Ph.D candidate in history at UCLA.
     pt: |
-       Carrie Sander é doutoranda em História pela UCLA.
+      Carrie Sander é doutoranda em História na UCLA.
 
 
 - name: Dennis Tenen
@@ -412,7 +410,7 @@
     es: |
       Dennis Tenen es profesor asistente de Inglés y Literatura Comparativa en la Universidad de Columbia.
     pt: |
-       Dennis Tenen é professor assistente de Inglês e Literatura Comparada na Columbia University.
+      Dennis Tenen é professor assistente de Inglês e Literatura Comparada na Columbia University.
 
 - name: Grant Wythoff
   team: false
@@ -423,7 +421,7 @@
     es: |
       Grant Wythoff es profesor adjunto en el Departamento de Inglés y Literatura Comparativa de la Universidad de Columbia.
     pt: |
-       Gran Wythoff é professor no Departamento de Inglês e Literatura Comparada na Columbia University.
+      Grant Wythoff é professor no Departamento de Inglês e Literatura Comparada na Columbia University.
   
 - name: Shawn Graham
   team: false
@@ -435,7 +433,7 @@
     fr: |
       Shawn Graham est professeur adjoint d'histoire et humanités numériques à l'Université Carleton.
     pt: |
-       Shawn Graham é professor associado de Humanidades Digitais e História na Carnegie Mellon University.
+      Shawn Graham é professor associado de Humanidades Digitais e História na Carnegie Mellon University.
 
 - name: Scott Weingart
   team: false
@@ -443,9 +441,9 @@
     en: |
       Scott Weingart is a historian of science and digital humanities specialist at Carnegie Mellon University.
     es: |
-      Scott Wingart es historiador de la ciencia y especialista en Humanidades Digitales en Carnegie Mellon University.
+      Scott Weingart es historiador de la ciencia y especialista en Humanidades Digitales en Carnegie Mellon University.
     pt: |
-       Scott Weingat é historiador da ciência e especialista em Humanidades Digitais na Carnegie Mellon University.
+      Scott Weingart é historiador da ciência e especialista em Humanidades Digitais na Carnegie Mellon University.
 
 - name: Jim Clifford
   team: false
@@ -457,7 +455,7 @@
       Jim Clifford es profesor asistente en el Departamento de Historia
       de la Universidad de Saskatchewan.
     pt: |
-       Jim Clifford é professor assistente no Departamento de História da University of Saskatchewan.
+      Jim Clifford é professor assistente no Departamento de História da University of Saskatchewan.
 
 - name: Daniel Macfarlane
   team: false
@@ -469,7 +467,7 @@
       Daniel Macfarlane es profesor visitante en la Escuela de Estudios
       Canadienses en la Universidad de Carleton.
     pt: |
-       Daniel Macfarlane é professor visitante na School of Canadian Studies da Carleton University.
+      Daniel Macfarlane é professor visitante na School of Canadian Studies da Carleton University.
 
 - name: Josh MacFadyen
   team: false
@@ -481,7 +479,7 @@
       Josh MacFayden es Coordinador de Proyectos en la Red Canadiense
       de Historia y Medio Ambiente.
     pt: |
-       Josh MacFayden é coordenador de projetos na Rede Canadiana de História & Ambiente.
+      Josh MacFayden é coordenador de projetos na Rede Canadiana de História & Ambiente.
 
 - name: Jeri Wieringa
   team: false
@@ -501,7 +499,7 @@
     es: |
       Jeri Wieringa es doctoranda en Historia en George Mason University.
     pt: |
-       Jeri Wieringa é doutoranda em História pela George Mason University.
+      Jeri Wieringa é doutoranda em História na George Mason University.
 
 - name: Jon Crump
   team: false
@@ -509,7 +507,7 @@
     en: |
       Jon Crump is an independent scholar and freelance digital humanist based in Seattle, Washington.
     pt: |
-       Jon Crump é pesquisador independente e humanista digital freelancer sediado em Seattle, Washington.
+      Jon Crump é pesquisador independente e humanista digital freelancer sediado em Seattle, Washington.
 
 - name: Vilja Hulden
   team: false
@@ -518,7 +516,7 @@
       Vilja Hulden is a history instructor and research associate in the Departments of History and
       Linguistics at the University of Colorado Boulder.
     pt: |
-       Vilja Hulden é instrutora de História e pesquisadora associada nos Departamentos de História e Linguística da University of Colorado Boulder.
+      Vilja Hulden é instrutora de História e pesquisadora associada nos Departamentos de História e Linguística da University of Colorado Boulder.
 
 - name: Marten Düring
   team: false
@@ -540,7 +538,7 @@
     fr: |
       Max De Wilde est doctorant au Centre de recherche en Information et Communication de l'Université libre de Bruxelles.
     pt: |
-     Max De Wilde é doutorando pelo Departamento de Ciências da Informação e da Comunicação da Université Libre de Bruxelles.
+      Max De Wilde é doutorando no Departamento de Ciências da Informação e da Comunicação da Université Libre de Bruxelles.
 
 - name: Ruben Verborgh
   team: false
@@ -551,8 +549,8 @@
       Ruben Verborgh es investigador postdoctoral en Multimedia Lab (Universtiteit Gent).
     fr: |
       Ruben Verborgh est chercheur postdoctoral au Multimedia Lab de l'Université de Gand.
-     pt: |
-       Ruben Verbogh é posdoutorando pelo Labotatório Multimédia da Universtiteit Gent.
+    pt: |
+      Ruben Verbogh é posdoutorando no Labotatório Multimédia da Universtiteit Gent.
 
 - name: Seth van Hooland
   team: false
@@ -564,7 +562,7 @@
     fr: |
       Seth van Hooland est professeur associé au Centre de recherche en Information et Communication de l'Université libre de Bruxelles.
     pt: |
-       Seth van Hooland é professor associado no Centre de recherche en Information et Communication da Université Libre de Bruxelles.
+      Seth van Hooland é professor associado no Centre de recherche en Information et Communication da Université Libre de Bruxelles.
 
 - name: Jonathan Reeve
   team: false
@@ -580,7 +578,7 @@
     en: |
       Spencer Roberts is Research Assistant and former Digital History Research Fellow at the Roy Rosenzweig Center for History and New Media, and a Ph.D. graduate student at George Mason University in the Department of History.
     pt: |
-       Spencer Roberts é pesquisador assistente e antigo bolseiro de investigação em História Digital no Roy Rosenzweig Center for History and New Media e doutorando pelo Departamento de História da       Spencer Roberts is Research Assistant and former Digital History Research Fellow at the Roy Rosenzweig Center for History and New Media, and a Ph.D. graduate student at George Mason University in the Department of History.
+      Spencer Roberts é pesquisador assistente e antigo bolseiro de investigação em História Digital no Roy Rosenzweig Center for History and New Media e doutorando no Departamento de História da George Mason University.
 
 - name: Doug Knox
   team: false
@@ -590,7 +588,7 @@
     fr: |
       Doug Knox est Directeur adjoint au Humanities Digital Workshop de l'Université Washington à Saint-Louis.
     pt: |
-       Doug Knox é diretor adjunto do Humanities Digital Workshop da Washington University em Staint Louis.
+      Doug Knox é diretor adjunto do Humanities Digital Workshop da Washington University em Saint-Louis.
 
 - name: Heather Froehlich
   team: false
@@ -602,7 +600,7 @@
     fr: |
       Heather Froehlich est doctorante à l'Université de Strathclyde (Glasgow, Royaume-Uni), où elle se spécialise en études de genre assistées par ordinateur dans le domaine du théâtre londonien de l'époque moderne. Sa thèse de doctorat mobilise principalement la linguistique sociohistorique et la stylistique de corpus, même si elle nourrit un vif intérêt pour les méthodes numériques appliquées aux recherches en littérature et en linguistique.
     pt: |
-       Heather Froehlich é doutoranda pela University of Strathclyde (Glasgow, Reino Unido), onde pesquisa o género nas peças londrinas da Época Moderna pela utilização de computadores. A sua tese baseia-se fortemente em linguística sociohistórica e em corpus linguísticos, embora tenha também interesse em métodos digitais aplicados à pesquisa literária e linguística. 
+      Heather Froehlich é doutoranda na University of Strathclyde (Glasgow, Reino Unido), onde pesquisa o género nas peças londrinas da Época Moderna pela utilização de computadores. A sua tese baseia-se fortemente em linguística sociohistórica e em corpus linguísticos, embora tenha também interesse em métodos digitais aplicados à pesquisa literária e linguística.
 
 - name: Laura Turner O'Hara
   team: false
@@ -610,7 +608,7 @@
     en: |
       Laura Turner O'Hara works in the Office of the Historian at the U.S. House of Representatives.
     pt: |
-       Laura Turner O’Hara trabalha no Gabinete do Historiador da Câmara dos Deputados dos Estados Unidos da América.
+      Laura Turner O’Hara trabalha no Gabinete do Historiador da Câmara dos Deputados dos Estados Unidos da América.
  
 - name: Matthew Lincoln
   team: false
@@ -636,7 +634,7 @@
     fr: |
       Matthew Lincoln est développeur en humanités numériques à l'Université Carnegie Mellon et historien de l'art européen moderne.
    pt: |
-       Matthew Lincoln é desenvolvedor de Humanides Digitais na Carnegie Mellon University e historiador de Arte da Europa na Época Moderna.
+      Matthew Lincoln é desenvolvedor de Humanidades Digitais na Carnegie Mellon University e historiador de Arte da Europa na Época Moderna.
 
 - name: Sarah Melton
   github: svmelton
@@ -682,7 +680,7 @@
     fr: |
       Sarah Simpkin est bibliothécaire spécialisée en SIG, géographie et informatique à l'Université d'Ottawa.
     pt: |
-       Sarah Simplin é bibliotecária, especialista em SIG, Geografia e Ciências da Computação na University of Ottawa.
+      Sarah Simplin é bibliotecária, especialista em SIG, Geografia e Ciências da Computação na University of Ottawa.
 
 - name: Amanda Visconti
   github: amandavisconti
@@ -708,7 +706,7 @@
     fr: |
       Amanda Visconti est directrice du centre des humanités numériques du Scholars' Lab de l'Université de Virginie.
     pt: |
-       Amanda Visconti é diretora do Virginia Scholars' Lab DH center da University of Virginia.  
+      Amanda Visconti é diretora do Virginia Scholars' Lab DH center da University of Virginia.  
 
 - name: Megan R. Brett
   team: false
@@ -720,7 +718,7 @@
     es: |
       Megan R. Brett es colaboradora de Historial Digital en el Centro de Historia y Nuevos Medios Roy Rosenzweig, donde trabaja como Coordinadora de Difusión para los proyectos Omeka. También es estudiante de doctorado en el departamento de Historia e Historia del Arte en la Universidad George Mason.
     pt: |
-      Megal R. Brett é colaboradora em História Digital no Roy Rosenzweig Center for History and New Media, onde trabalha como coordenadora de disseminação de projetos Omeka. É também doutoranda pelo Departamento de História e História de Arte da George Mason University.
+      Megal R. Brett é colaboradora em História Digital no Roy Rosenzweig Center for History and New Media, onde trabalha como coordenadora de disseminação de projetos Omeka. É também doutoranda no Departamento de História e História de Arte da George Mason University.
 
 - name: Brandon Walsh
   github: walshbr
@@ -765,7 +763,7 @@
     es: |
       Ted Dawson es candidato doctoral en Estudios Alemanes en la Universidad de Vanderbilt.
     pt: |
-      Ted Dawson é doutorando em Estudos Germânicos pela Vanderbilt University.
+      Ted Dawson é doutorando em Estudos Germânicos na Vanderbilt University.
 
 - name: M. H. Beals
   team: false
@@ -775,7 +773,7 @@
     es: |
       M.H. Beals es Profesor de Historia Digital en la Universidad de Loughborough.
     pt: |
-      M. H. Beals é professor de História Digital na Loughborough University.
+      M. H. Beals é professora de História Digital na Loughborough University.
 
 - name: Elizabeth Venditto
   team: false
@@ -799,7 +797,7 @@
     en: |
       Jeanette Sewell is a Cataloging and Metadata Librarian at the Houston Area Digital Archives.
     pt: |
-      Jeanette Sewell é bibliotecária de catalogação e metadados na Houston Area Digital Archives
+      Jeanette Sewell é bibliotecária de catalogação e metadados na Houston Area Digital Archives.
 
 - name: Boris Capitanu
   team: false
@@ -810,7 +808,7 @@
       technologies. Boris holds a B.S. and M.S. in Computer Science from University of Illinois at
       Urbana-Champaign, and a MBA+MHRIR from the same institution.
     pt: |
-       Boris Capitanu é pesquisador de programação no HathiTrust Research Center. Os seus interesses de pesquisa incluem análise de dados de larga escala, aprendizagem de máquina, mineração de dados e tecnologias educacionais. Boris tem um Bacharelato e um Mestrado em Ciências Computacionais pela Illinois University na Urbana-Champaign e um Mestrado em Artes + Mestrado em Recursos Humanos e Relações Empresariais pela mesma instituição.
+      Boris Capitanu é pesquisador de programação no HathiTrust Research Center. Os seus interesses de pesquisa incluem análise de dados de larga escala, aprendizagem de máquina, mineração de dados e tecnologias educacionais. Boris tem um Bacharelato e um Mestrado em Ciências Computacionais pela Illinois University na Urbana-Champaign e um Mestrado em Artes + Mestrado em Recursos Humanos e Relações Empresariais pela mesma instituição.
 
 - name: Peter Organisciak
   team: false
@@ -826,7 +824,7 @@
     en: |
       Justin Colson is a lecturer of history at the University of Essex, and a scholar of early modern Britain.
     pt: |
-      Justin Colson é professor de História na University of Essex e estuda a Grã-Bretanha no período moderno
+      Justin Colson é professor de História na University of Essex e estuda a Grã-Bretanha no período moderno.
 
 - name: Jessica Parr
   github: JMParr
@@ -855,7 +853,7 @@
     fr: |
       Jessica Parr est maîtresse de conférences au Simmons College à Boston et spécialiste du monde atlantique à l'époque moderne.
     pt: |
-       Jessica Parr é professora no Simmons College, em Boston, e especialista no mundo atlântico moderno.
+      Jessica Parr é professora no Simmons College, em Boston, e especialista no mundo atlântico moderno.
   team_roles:
     - proghist
     - global-lead
@@ -930,7 +928,7 @@
     es: |
       Nabeel Siddiqui es doctorando en Estudios Americanos en College of William and Mary, donde también es becario del Digital Equality Lab. Su investigación se centra en las relaciones entre las Humanidades y la Informática, en particular en la historia cultural de los medios, Comunicación y Humanidades Digitales, Ciencias de la Información, Historia de la Ciencia y Tecnología. Actualmente, está realizando su tesis doctoral titulada "Byting Out the Public", que pretende estudiar la relación entre el ordenador personal y la privacidad.
     pt: |
-      Nabeel Siddiqui é doutorando em Estudos Americanos pelo College of William and Mary, onde também é bolseiro no Digital Equality Lab. As suas pesquisas focam-se na relação entre humanidades e computação, especialmente na história cultural dos media, novos estudos dos media, humanidades digitais, ciências da informação e história da ciência e tecnologia. Atualmente, está a terminar a tese intitulada “Byting Out the Public”, a qual olha para a relação histórica entre o computador pessoal e a esfera privada.
+      Nabeel Siddiqui é doutorando em Estudos Americanos no College of William and Mary, onde também é bolseiro no Digital Equality Lab. As suas pesquisas focam-se na relação entre humanidades e computação, especialmente na história cultural dos media, novos estudos dos media, humanidades digitais, ciências da informação e história da ciência e tecnologia. Atualmente, está a terminar a tese intitulada “Byting Out the Public”, a qual olha para a relação histórica entre o computador pessoal e a esfera privada.
 
 - name: Anandi Silva Knuppel
   github: alsalin
@@ -1012,7 +1010,7 @@
     es: |
       John R. Ladd es investigador postdoctoral en humanidades digitales en la Universidad de Northwestern, donde enseña estudios de la modernidad temprana y enfoques computacionales a la literatura.
     pt: |
-      John Ladd é doutorado em Literatura pela Washington University, em Saint Louis, e bolseiro de pós-doutoramento no projeto “Six Degrees of Francis Bacon” na Carnegie Mellon University.
+      John R. Ladd é doutorado em Literatura pela Washington University, em Saint Louis, e bolseiro de pós-doutoramento no projeto “Six Degrees of Francis Bacon” na Carnegie Mellon University.
 
 - name: Jessica Otis
   team: false
@@ -1048,7 +1046,7 @@
     en: |
       Viola Wiegand is a Research Fellow on the AHRC-funded CLiC Dickens project at the University of Birmingham.
     pt: |
-      Viola Wiegand é bolseira no projeto AHRC-funded CLiC Dickens da University of Birmingham.
+      Viola Wiegand é bolseira no projeto CLiC Dickens da University of Birmingham, financiado pela AHRC.
 
 - name: Michaela Mahlberg
   team: false
@@ -1056,7 +1054,7 @@
     en: |
       Michaela Mahlberg is the Chair in Corpus Linguistics and the Director of the Centre for Corpus Research at the University of Birmingham.
     pt: |
-      Michaela Mahlberg é presidente de Corpus Linguístico e diretora do Centre for Corpus Research da University of Birmingham.
+      Michaela Mahlberg é professora titular de Linguística de Corpus e diretora do Centre for Corpus Research da University of Birmingham.
 
 - name: Peter Stockwell
   team: false
@@ -1212,7 +1210,7 @@
     en: |
       Jeff Blackadar is a part-time undergraduate history student at Carleton University. His career is in the field of information technology.
     pt: |
-       Jeff Blackadar é licenciando em História a tempo parcial pela Carleton University. A sua carreira é no campo da tecnologia da informação.
+      Jeff Blackadar é aluno de História a tempo parcial na Carleton University. A sua carreira é no campo da tecnologia da informação.
 
 - name: Martin Grandjean
   email: martin.grandjean@unil.ch
@@ -1340,7 +1338,7 @@
     en: |
       Eric Weinberg holds a PhD in History from the University of Kentucky. He teaches at Viterbo University in La Crosse, WI.
     pt: |
-      Eric Weinberg é doutorando em História pela University of Kentucky. É professor na Viterbo University na La Crosse, WI.
+      Eric Weinberg é doutorado em História pela University of Kentucky. É professor na Viterbo University na La Crosse, WI.
 
 - name: Alex Brey
   team: false
@@ -1378,7 +1376,7 @@
     fr: |
       Zoe LeBlanc est développeuse spécialiste des Humanités Numériques au Scholar's Lab de l'Université de Virginie.
     pt: |
-      Zoe LeBlanc é desenvolvedor especialista em Humanidades Digitais no Scholar's Lab da University of Virginia.
+      Zoe LeBlanc é desenvolvedora especialista em Humanidades Digitais no Scholar's Lab da University of Virginia.
   team_roles:
     - editorial
     - english
@@ -1391,6 +1389,8 @@
   bio:
     en: |
       Dave Rodriguez is an audiovisual archivist, curator, and filmmaker. He is currently Resident Librarian in the Office of Digital Research and Scholarship at Florida State University.
+    pt: |
+      Dave Rodriguez é arquivista audiovisual, curador e cineasta. Atualmente é bibliotecário residente no Office of Digital Research and Scholarship da Florida State University.
 
 - name: Stephen Krewson
   team: false
@@ -1398,7 +1398,7 @@
     en: |
       Stephen Krewson is a PhD candidate in English at Yale University. His research explores the interplay between progressive theories of education and print media in the early nineteenth century. He holds a MS in Computer Science (also from Yale) and has been working on efficient methods for filtering and retrieval tasks within large-scale digital libraries.
     pt: |
-      Stephen Krewson é doutorando em Inglês pela Yale University. As suas pesquisas exploram a interação entre teorias progressivas de educação e a imprensa impressa no início do século XIX. Tem um mestrado em Ciências da Computação (também em Yale) e começou a trabalhar em métodos eficientes para filtrar e recuperar tarefas nas bibliotecas digitais de larga escala.
+      Stephen Krewson é doutorando em Inglês na Yale University. As suas pesquisas exploram a interação entre teorias progressivas de educação e a imprensa no início do século XIX. Tem um mestrado em Ciências da Computação (também em Yale) e começou a trabalhar em métodos eficientes para filtrar e recuperar tarefas nas bibliotecas digitais de larga escala.
 
 - name: Riva Quiroga
   twitter: rivaquiroga
@@ -1425,7 +1425,7 @@
     fr: |
       Riva Quiroga est doctorante en linguistique à l'Université Catholique de Chili.
     pt: |
-      Riva Quiroga é doutoranda em Linguística pela Universidad Católica de Chile.
+      Riva Quiroga é doutoranda em Linguística na Universidad Católica de Chile.
   team_roles:
     - managing
     - spanish
@@ -1460,7 +1460,7 @@
     fr: |
       Joshua G. Ortiz Baco est un doctorant en espagnol et portugais de l'Université du Texas à Austin.
     pt: |
-      Joshua G. Ortiz Baco é doutorando em Espanhol e Português pela University of Texas, em Austin.
+      Joshua G. Ortiz Baco é doutorando em Espanhol e Português na University of Texas, em Austin.
   team_roles:
     - spanish
     - editorial
@@ -1475,7 +1475,7 @@
     es: |
       Armando Luza es Maestro en Traducción por El Colegio de México. Actualmente se desempeña en investigación, traducción y corrección de estilo.
     pt: |
-       Armando Luza é mestre em Tradução pelo El Colegio de México. Atualmente, dedica-se à investigação, tradução e correção de estilo.
+      Armando Luza é mestre em Tradução pelo El Colegio de México. Atualmente, dedica-se à investigação, tradução e correção de estilo.
 
 - name: Silvia Gutiérrez De la Torre
   github: silviaegt
@@ -1504,7 +1504,7 @@
     fr: |
       Silvia Gutiérrez De la Torre est la bibliothécaire des Humanités numériques du El Colegio de México et co-fondatrice de RLadiesCDMX (Mexique).
     pt: |
-       Silvia Gutiérrez De la Torre é bibliotecária de Humanidades Digitais no El Colegio de México e cofundadora do RLadiesCDMX (México).
+      Silvia Gutiérrez De la Torre é bibliotecária de Humanidades Digitais no El Colegio de México e cofundadora do RLadiesCDMX (México).
   team_roles:
     - spanish
     - ombuds
@@ -1515,7 +1515,7 @@
     en: |
       Matthew J. Lavin is a Clinical Assistant Professor of English and Director of the Digital Media Lab at the University of Pittsburgh. His current scholarship and teaching focus on book history, cultural analytics, turn-of-the-twentieth-century U.S. literature and culture.
     pt: |
-       Matthew J. Lavin é professor assistente de Inglês e diretor do Digital Media Lab na University of Pittsburgh. A sua atual pesquisa e ensino focam-se na história do livro, análise cultural e literatura e cultura dos Estados Unidos da América na viragem para o século XX.
+      Matthew J. Lavin é professor assistente de Inglês e diretor do Digital Media Lab na University of Pittsburgh. A sua atual pesquisa e ensino focam-se na história do livro, análise cultural e literatura e cultura dos Estados Unidos da América na viragem para o século XX.
 
 - name: Go Sugimoto
   team: false
@@ -1523,7 +1523,7 @@
     en: |
       Go Sugimoto is a data analyst at the Austrian Centre for Digital Humanities (ACDH) in the Austrian Academy of Sciences. He has worked for a wide range of cultural heritage projects around the world, including Europeana and Archives Portal Europe at the National Archives of the Netherlands, CHIRON fellowship at the University of Florence (Italy), the National Museum of Modern Art Tokyo (Japan), and Wessex Archaeology (UK).
     pt: |
-       Go Sugimoto é analista de dados no Austrian Centre for Digital Humanities (ACDH) da  Austrian Academy of Sciences. Trabalhou em vários projetos mundiais sobre herança cultural, incluindo a Europeana e o Archives Portal Europe no National Archives of the Netherland, foi bolseiro no CHIRON na University of Florence (Itália), no Museu Nacional de Arte Moderna de Tóquio (Japão) e no Wessex Archeology (UK).
+      Go Sugimoto é analista de dados no Austrian Centre for Digital Humanities (ACDH) da Austrian Academy of Sciences. Trabalhou em vários projetos mundiais sobre herança cultural, incluindo a Europeana e o Archives Portal Europe no National Archives of the Netherland, foi bolseiro no CHIRON na University of Florence (Itália), no Museu Nacional de Arte Moderna de Tóquio (Japão) e no Wessex Archeology (UK).
 
 - name: Brad Rittenhouse
   team: false
@@ -1531,7 +1531,7 @@
     en: |
       Brad Rittenhouse is the Lab Coordinator of the Digital Integrative Liberal Arts Center at the Georgia Institute of Technology, where he helps facilitate the integration of digital tools into research in a wide variety of humanities disciplines. His research is on the information logics of literary devices.
     pt: |
-       Brad Rittenhouse é o coordenador do laboratório Digital Integrative Liberal Arts Center no Georgia Institute of Technology, onde ajuda a facilitar a integração de ferramentas digitais na pesquisa de uma grande variedade de disciplinas das humanidades. A sua pesquisa foca-se em lógicas de informação de aparelhos literários.
+      Brad Rittenhouse é o coordenador do laboratório Digital Integrative Liberal Arts Center no Georgia Institute of Technology, onde ajuda a facilitar a integração de ferramentas digitais na pesquisa de uma grande variedade de disciplinas das humanidades. A sua pesquisa foca-se em lógicas de informação de aparelhos literários.
 
 - name: Ximin Mi
   team: false
@@ -1547,7 +1547,7 @@
     en: |
       Courtney Allen is a second year MS-HCI student at Georgia Tech, in the School of Interactive Computing (College of Computing). She is a User Experience Reseacher, supporting design with data-driven choices and elements, and is a Graduate Teaching Assistant for Human-Computer Interaction MS Research Methods.
     pt: |
-       Courtney Allen é mestranda em Interação Humano-Computador pela Georgia Tech, na School of Interactive Computing (College of Computing). É uma pesquisadora com experiência de usuário, apoiando o design em opções e elementos orientados para os dados. É ainda professora assistente de métodos de pesquisa do Mestrado de Interação Humano-Computador.
+      Courtney Allen é mestranda em Interação Humano-Computador na Georgia Tech, na School of Interactive Computing (College of Computing). É uma pesquisadora com experiência de usuário, apoiando o design em opções e elementos orientados para os dados. É ainda professora assistente de métodos de pesquisa do Mestrado de Interação Humano-Computador.
 
 - name: Quinn Dombrowski
   team: false
@@ -1574,7 +1574,7 @@
     en: |
       David Kloster works in the CyberDH group at Indiana University as a programmer/analyst.
     pt: |
-      David Kloster é programador/analista no CyberDH group na Indiana University.
+      David Kloster é programador/analista no grupo CyberDH da Indiana University.
 
 - name: Moritz Mähr
   team: false
@@ -1589,10 +1589,10 @@
   team: false
   orcid: 0000-0002-2020-1163
   bio:
-      es: |
-        Jairo Melo es Doctor en historia por El Colegio de Michoacán. Es investigador independiente en historia digital y humanidades digitales.
-      pt: |
-        Jairo Melo é doutorado em História pelo El Colegio de Michoacán. É pesquisador independente em História Digital e Humanidades Digitais.
+    es: |
+      Jairo Melo es Doctor en historia por El Colegio de Michoacán. Es investigador independiente en historia digital y humanidades digitales.
+    pt: |
+      Jairo Melo é doutorado em História pelo El Colegio de Michoacán. É pesquisador independente em História Digital e Humanidades Digitais.
 
 - name: Daniel Alves
   twitter: danielalvesfcsh
@@ -1605,22 +1605,22 @@
   sortname: Alves
   affiliation:
     en: |
-        Universidade Nova de Lisboa, Portugal.
+      Universidade Nova de Lisboa, Portugal.
     pt: |
-        Universidade Nova de Lisboa, Portugal.
+      Universidade Nova de Lisboa, Portugal.
     es: |
-        Universidade Nova de Lisboa, Portugal.
+      Universidade Nova de Lisboa, Portugal.
     fr: |
-        Universidade Nova de Lisboa, Portugal.
+      Universidade Nova de Lisboa, Portugal.
   bio:
     en: |
-        Daniel Alves is Assistant Professor in the Department of History and researcher at the Institute of Contemporary History, both at NOVA-FCSH, Universidade Nova de Lisboa. He coordinates the Digital Humanities Lab at NOVA-FCSH.
+      Daniel Alves is Assistant Professor in the Department of History and researcher at the Institute of Contemporary History, both at NOVA-FCSH, Universidade Nova de Lisboa. He coordinates the Digital Humanities Lab at NOVA-FCSH.
     pt: |
-        Daniel Alves é Professor Auxiliar do Departamento de História e pesquisador do Instituto de História Contemporânea, ambos da NOVA-FCSH, Universidade Nova de Lisboa. É coordenaro do Laboratório de Humanidades Digitais na NOVA-FCSH.
+      Daniel Alves é Professor Auxiliar do Departamento de História e pesquisador do Instituto de História Contemporânea, ambos da NOVA-FCSH, Universidade Nova de Lisboa. É coordenaro do Laboratório de Humanidades Digitais na NOVA-FCSH.
     es: |
-        Daniel Alves es Profesor Asistente en el Departamento de Historia e investigador en el Instituto de Historia Contemporánea, ambos en NOVA-FCSH, Universidade Nova de Lisboa. Coordina el Laboratorio de Humanidades Digitales en NOVA-FCSH.
+      Daniel Alves es Profesor Asistente en el Departamento de Historia e investigador en el Instituto de Historia Contemporánea, ambos en NOVA-FCSH, Universidade Nova de Lisboa. Coordina el Laboratorio de Humanidades Digitales en NOVA-FCSH.
     fr: |
-        Daniel Alves est professeur adjoint au Département d'Histoire et chercheur à l'Institut d'Histoire Contemporaine, tous deux à NOVA-FCSH, Universidade Nova de Lisboa. Il coordonne le Laboratoire des Humanités Numériques au NOVA-FCSH.
+      Daniel Alves est professeur adjoint au Département d'Histoire et chercheur à l'Institut d'Histoire Contemporaine, tous deux à NOVA-FCSH, Universidade Nova de Lisboa. Il coordonne le Laboratoire des Humanités Numériques au NOVA-FCSH.
   team_roles:
     - managing
     - portuguese
@@ -1633,22 +1633,22 @@
   orcid: 0000-0001-7629-1404
   affiliation:
     en: |
-        IBICT/UFRJ, Rio de Janeiro, Brazil
+      IBICT/UFRJ, Rio de Janeiro, Brazil
     pt: |
-        IBICT/UFRJ, Rio de Janeiro, Brasil
+      IBICT/UFRJ, Rio de Janeiro, Brasil
     es: |
-        IBICT/UFRJ, Río de Janeiro, Brasil
+      IBICT/UFRJ, Río de Janeiro, Brasil
     fr: |
-        IBICT/UFRJ, Rio de Janeiro, Brésil
+      IBICT/UFRJ, Rio de Janeiro, Brésil
   bio:
-      en: |
-        Josir Gomes is a PhD student in Information Science at PPGCI/IBICT/UFRJ. Graduated in Computer Science. Information Systems Developer, acting mainly with relational databases, data mining and free software.
-      pt: |
-        Josir Gomes é Doutorando em Ciência da Informação no PPGCI/IBICT/UFRJ. Graduado em Processamento de Dados e especialista em Sistemas de Informação, Banco de Dados Relacionais, Mineração de Dados e Software Livre.
-      es: |
-        Josir Gomes es estudiante de Doctorado en Ciencias de la Información en PPGCI/IBICT/UFRJ. Se graduó en Procesamiento de Datos y es especialista en Sistemas de Información, Bases de Datos Relacionales, Minería de Datos y Software Libre.
-      fr: |
-        Josir Gomes est doctorant en sciences de l'information au PPGCI/IBICT/UFRJ. Diplômé en informatique, il se spécialise dans les systèmes d'information, les bases de données relationnelles, l'exploration de données et les logiciels libres.
+    en: |
+      Josir Gomes is a PhD student in Information Science at PPGCI/IBICT/UFRJ. Graduated in Computer Science. Information Systems Developer, acting mainly with relational databases, data mining and free software.
+    pt: |
+      Josir Gomes é Doutorando em Ciência da Informação no PPGCI/IBICT/UFRJ. Graduado em Processamento de Dados e especialista em Sistemas de Informação, Banco de Dados Relacionais, Mineração de Dados e Software Livre.
+    es: |
+      Josir Gomes es estudiante de Doctorado en Ciencias de la Información en PPGCI/IBICT/UFRJ. Se graduó en Procesamiento de Datos y es especialista en Sistemas de Información, Bases de Datos Relacionales, Minería de Datos y Software Libre.
+    fr: |
+      Josir Gomes est doctorant en sciences de l'information au PPGCI/IBICT/UFRJ. Diplômé en informatique, il se spécialise dans les systèmes d'information, les bases de données relationnelles, l'exploration de données et les logiciels libres.
   team_roles:
     - portuguese
     - editorial
@@ -1657,19 +1657,19 @@
   team: false
   orcid: 0000-0001-6765-4146
   bio:
-   es: |
-       Anthony Picón Rodríguez es investigador del Laboratorio Digital de Arquitectura y Urbanismo de la Universidad Nacional de Colombia, bibliotecario de la Mapoteca Digital en la Biblioteca Nacional de Colombia y gestor de la red Razón Cartográfica.
-   pt: |
-       Anthony Picón Rodríguez é pesquisador do Laboratorio Digital de Arquitectura y Urbanismo da Universidad Nacional de Colombia, bibliotecário da Mapoteca Digital da Biblioteca Nacional da Colômbia e gestor da rede Razón Cartográfica.
+    es: |
+      Anthony Picón Rodríguez es investigador del Laboratorio Digital de Arquitectura y Urbanismo de la Universidad Nacional de Colombia, bibliotecario de la Mapoteca Digital en la Biblioteca Nacional de Colombia y gestor de la red Razón Cartográfica.
+    pt: |
+      Anthony Picón Rodríguez é pesquisador do Laboratorio Digital de Arquitectura y Urbanismo da Universidad Nacional de Colombia, bibliotecário da Mapoteca Digital da Biblioteca Nacional da Colômbia e gestor da rede Razón Cartográfica.
 
 - name: Miguel Cuadros
   team: false
   orcid:
   bio:
-   es: |
-       Miguel Cuadros es Historiador por Universidad Industrial de de Santander y Master of Arts in History, State University of New York (Estados Unidos) y docente en la Universidad Industrial de Santander; cuenta con experiencia docente e investigativa en temas relacionados con la cartografía y el conocimiento geográfico.
-   pt: |
-       Miguel Cuadros é licenciado em História pela Universidad Industrial de Santander e mestre de História da Arte pela State University of New York (Estados Unidos da América). É professor na Universidad Industrial de Santander e conta com experiência de ensino e investigação sobre temas relacionados com cartografia e conhecimento geográfico.
+    es: |
+      Miguel Cuadros es Historiador por Universidad Industrial de de Santander y Master of Arts in History, State University of New York (Estados Unidos) y docente en la Universidad Industrial de Santander; cuenta con experiencia docente e investigativa en temas relacionados con la cartografía y el conocimiento geográfico.
+    pt: |
+      Miguel Cuadros é licenciado em História pela Universidad Industrial de Santander e mestre de História da Arte pela State University of New York (Estados Unidos da América). É professor na Universidad Industrial de Santander e conta com experiência de ensino e investigação sobre temas relacionados com cartografia e conhecimento geográfico.
        
 - name: Aracele Torres
   twitter: araceletorres
@@ -1682,22 +1682,22 @@
   sortname: Torres
   affiliation:
     en: |
-        Federal University of São Paulo, Brazil.
+      Federal University of São Paulo, Brazil.
     pt: |
-        Universidade Federal de São Paulo, Brasil.
+      Universidade Federal de São Paulo, Brasil.
     es: |
-        Universidad Federal de São Paulo, Brasil.
+      Universidad Federal de São Paulo, Brasil.
     fr: |
-        Université fédérale de São Paulo, Brésil.
+      Université fédérale de São Paulo, Brésil.
   bio:
     en: |
-        Aracele Torres holds a PhD in History from the University of São Paulo (USP) and is a researcher at the Digital Humanities Laboratory (lab.hum) at the Federal University of São Paulo, Guarulhos Campus.
+      Aracele Torres holds a PhD in History from the University of São Paulo (USP) and is a researcher at the Digital Humanities Laboratory (lab.hum) at the Federal University of São Paulo, Guarulhos Campus.
     pt: |
-        Aracele Torres é doutora em História pela Universidade de São Paulo (USP) e pesquisadora do Laboratório de Humanidades Digitais (lab.hum) da Universidade Federal de São Paulo, Campus Guarulhos. 
+      Aracele Torres é doutora em História pela Universidade de São Paulo (USP) e pesquisadora do Laboratório de Humanidades Digitais (lab.hum) da Universidade Federal de São Paulo, Campus Guarulhos. 
     es: |
-        Aracele Torres es doctora en Historia de la Universidad de São Paulo (USP) e investigadora del Laboratorio de Humanidades Digitales (lab.hum) de la Universidad Federal de São Paulo, Campus Guarulhos. 
+      Aracele Torres es doctora en Historia de la Universidad de São Paulo (USP) e investigadora del Laboratorio de Humanidades Digitales (lab.hum) de la Universidad Federal de São Paulo, Campus Guarulhos. 
     fr: |
-        Aracele Torres détient un doctorat en histoire de l'Université de São Paulo (USP) et est chercheuse au Laboratoire des humanités numériques (lab.hum) à l'Université fédérale de São Paulo, campus Guarulhos.
+      Aracele Torres détient un doctorat en histoire de l'Université de São Paulo (USP) et est chercheuse au Laboratoire des humanités numériques (lab.hum) à l'Université fédérale de São Paulo, campus Guarulhos.
   team_roles:
     - portuguese
     - editorial
