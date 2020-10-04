@@ -6,7 +6,7 @@ layout: post
 categories: posts
 ---
 
-Malgré les circonstances liées à la pandémie, l'équipe du *Programming Historian* a continué de travailler certes à son rythme, mais régulièrement, pour poursuivre notre objectif d'offrir des cours de méthodes numériques aux humanistes, gratuitement et en plusieurs langues.
+Malgré les circonstances liées à la pandémie, l'équipe du *Programming Historian* a continué de travailler certes à son rythme, mais régulièrement, pour poursuivre notre objectif d'offrir des tutoriels de méthodes numériques aux humanistes, gratuitement et en plusieurs langues.
 
 Merci à vous tous de faire confiance à nos leçons pour apprendre ou pratiquer les méthodes numériques!
 
@@ -34,7 +34,7 @@ Merci, James, d'avoir rendu ce travail possible!
 
 
 
-## Nouveaux supporteurs
+## Nouveaux soutiens
 
 Nous sommes ravis et honorés d'annoncer que la [Bibliothèque de l'Université Western](https://www.lib.uwo.ca) est notre plus récent [Programme de partenariat institutionnel](https://programminghistorian.org/fr/nous-soutenir#partenariat-institutionnel)! Le soutien de cette institution renforce notre plateforme de publication en libre accès de nombreuses manières. Je vous remercie!
 
