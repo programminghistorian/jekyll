@@ -672,7 +672,7 @@ Bokeh provides [built-in tile providers](https://bokeh.pydata.org/en/latest/docs
 
 We'll also be using functions imported from the `pyproj` library. Since our coordinates are stored as latitude/longitude, we'll define a custom function to convert them before mapping. Note that although Bokeh is coordinate-system neutral, it uses the Web Mercator projection for mapping, a standard found across web tile providers. The subject of coordinate systems and projections are outside the scope of this tutorial, but the interested reader will find many useful web resources on these topics.
 
-{% include alert.html text="If your own dataset has place names, but not latitude and longitude, don't worry! You can find ways to easily get coordinates from place names in Programming Historian's [Geocoding Historical Data using QGIS](/lessons/geocoding-qgis) or [Web Mapping with Python and Leaflet](/mapping-with-python-leaflet#geocoding-with-python)." %}
+{% include alert.html text="If your own dataset has place names, but not latitude and longitude, don't worry! You can find ways to easily get coordinates from place names in Programming Historian's [Geocoding Historical Data using QGIS](/lessons/geocoding-qgis) or [Web Mapping with Python and Leaflet](/lessons/mapping-with-python-leaflet#geocoding-with-python)." %}
 
 ```python
 #target_locations.py

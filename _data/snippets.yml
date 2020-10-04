@@ -315,6 +315,16 @@ footer:
     es: Suscripción a RSS
     fr: S'abonner au flux RSS
     pt:
+  retirement: 
+    en: Lesson retirement policy
+    es: Política de retirada de lecciones
+    fr: Politique de retrait des leçons
+    pt: 
+  trans-concordance: 
+    en: Translation concordance
+    es: Concordancia de traducción
+    fr: Concordance des traductions
+    pt:
 
 # lesson-index
 reset-button:
@@ -458,6 +468,17 @@ series-next-note:
   es: ¡Estupendo! Ahora ya estás listo para pasar a la
   fr: Super! Vous êtes maintenant prêt(e) pour la
   pt:
+series-note:
+   en: This lesson is part of a series of 
+   es: Esta lección es parte de una serie de
+   fr: Cette leçon fait partie d'une série de
+   pt:
+lesson-sequence: 
+   en: You are on lesson 
+   es: Está en la lección
+   fr: Vous êtes à la leçon
+   pt:
+
 contents:
   en: Contents
   es: Contenidos
@@ -497,15 +518,12 @@ donate:
 donation-alert:
   en: |
     ## Donate today!
-
     Great Open Access tutorials cost money to produce. Join the growing number of people [supporting _The Programming Historian_](https://www.patreon.com/theprogramminghistorian) so we can continue to share knowledge free of charge.
   es: |
     ## ¡Haz una donación!
-
     Producir buenos tutoriales de acceso abierto cuesta dinero. Únete al creciente número de personas que [apoya a _The Programming Historian_](https://www.patreon.com/theprogramminghistorian) para que podamos continuar compartiendo conocimientos de forma gratuita.
   fr: |
     ## Vous pouvez faire une donation
-
     Les tutoriels de qualité en accès libre ont un coût de production. Vous pouvez [rejoindre celles et ceux qui soutiennent le _Programming Historian_](https://www.patreon.com/theprogramminghistorian) et contribuer au libre partage des savoirs.
   pt:
 

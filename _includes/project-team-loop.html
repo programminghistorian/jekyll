@@ -27,6 +27,12 @@ is used both on project-team.md as well as es/equipo-de-proyecto.md
 {% include contact-info.html name=member.name %}
 {% endfor %}
 
+### Programming Historian em portugu&ecirc;s
+{% assign portuguesemembers = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'portuguese'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in portuguesemembers %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
 ### ProgHist Ltd
 {% assign proghistmembers = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'proghist'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
 {% for member in proghistmembers %}

@@ -19,6 +19,8 @@ abstract: "In this two-part lesson, we will build on what you’ve learned about
 indexed, and counted."
 next: from-html-to-list-of-words-2
 previous: manipulating-strings-in-python
+series_total: 15 lessons
+sequence: 7
 python_warning: false
 redirect_from: /lessons/from-html-to-list-of-words-1
 avatar_alt: A giraffe being mimicked by a human

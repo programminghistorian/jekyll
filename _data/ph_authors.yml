@@ -60,7 +60,7 @@
       Caleb McDaniel es profesor asociado de Historia en Rice University.
 
 - name: Ian Milligan
-  team: false
+  team: true
   team_start: 2014
   team_end: 2018
   institution: University of Waterloo
@@ -70,12 +70,19 @@
       University of Waterloo, Canada.
     es: |
       Universidad de Waterloo, Canadá.
+    fr: |
+      Université de Waterloo, Canada.
   bio:
     en: |
-      Ian Milligan is an associate professor of history at the University
-      of Waterloo.
+      Ian Milligan is an associate professor of history at the University of Waterloo.
     es: |
       Ian Milligan es profesor asociado de historia en la Universidad de Waterloo.
+    fr: |
+      Ian Milligan est un professeur associé en histoire à l'Université de Waterloo.
+      François Dominic Laramée est chercheur postdoctoral en histoire numérique de la médecine 'Université d'Ottawa, au Canada.
+  team_roles:
+    - english
+    - ombuds
 
 - name: Fred Gibbs
   team: false
@@ -98,7 +105,7 @@
   team: true
   team_start: 2016
   institution: Universidad de los Andes, Colombia
-  sortname: Afandor-Llach
+  sortname: Afanador-Llach
   affiliation:
     en: |
       University of los Andes, Colombia.
@@ -1108,6 +1115,10 @@
     en: |
       Charlie Harper is the Digital Learning and Scholarship Librarian at Case Western Reserve University
 
+- name: Alix Chagué
+  team: false
+  orcid: 0000-0002-0136-4434
+
 - name: Eric Weinberg
   team: false
   bio:
@@ -1356,4 +1367,203 @@
     - portuguese
     - editorial
     - proghist
+  status: volunteer
+
+- name: Josir Cardoso Gomes
+  team: true
+  orcid: 0000-0001-7629-1404
+  affiliation:
+    en: |
+        IBICT/UFRJ, Rio de Janeiro, Brazil
+    pt: |
+        IBICT/UFRJ, Rio de Janeiro, Brasil
+    es: |
+        IBICT/UFRJ, Río de Janeiro, Brasil
+    fr: |
+        IBICT/UFRJ, Rio de Janeiro, Brésil
+  bio:
+      en: |
+        Josir Gomes is a PhD student in Information Science at PPGCI/IBICT/UFRJ. Graduated in Computer Science. Information Systems Developer, acting mainly with relational databases, data mining and free software.
+      pt: |
+        Josir Gomes é Doutorando em Ciência da Informação no PPGCI/IBICT/UFRJ. Graduado em Processamento de Dados e especialista em Sistemas de Informação, Banco de Dados Relacionais, Mineração de Dados e Software Livre.
+      es: |
+        Josir Gomes es estudiante de Doctorado en Ciencias de la Información en PPGCI/IBICT/UFRJ. Se graduó en Procesamiento de Datos y es especialista en Sistemas de Información, Bases de Datos Relacionales, Minería de Datos y Software Libre.
+      fr: |
+        Josir Gomes est doctorant en sciences de l'information au PPGCI/IBICT/UFRJ. Diplômé en informatique, il se spécialise dans les systèmes d'information, les bases de données relationnelles, l'exploration de données et les logiciels libres.
+  team_roles:
+    - portuguese
+    - editorial
+  
+- name: Anthony Picón Rodríguez
+  team: false
+  orcid: 0000-0001-6765-4146
+  bio:
+   es: |
+       Anthony Picón Rodríguez es investigador del Laboratorio Digital de Arquitectura y Urbanismo de la Universidad Nacional de Colombia, bibliotecario de la Mapoteca Digital en la Biblioteca Nacional de Colombia y gestor de la red Razón Cartográfica.
+
+- name: Miguel Cuadros
+  team: false
+  orcid:
+  bio:
+   es: |
+       Miguel Cuadros es Historiador por Universidad Industrial de de Santander y Master of Arts in History, State University of New York (Estados Unidos) y docente en la Universidad Industrial de Santander; cuenta con experiencia docente e investigativa en temas relacionados con la cartografía y el conocimiento geográfico.
+       
+- name: Aracele Torres
+  twitter: araceletorres
+  email: aracele@protonmail.com
+  url: "https://cibermundi.wordpress.com/"
+  github: aracele
+  team: true
+  team_start: 2020
+  institution: Universidade Federal de São Paulo
+  sortname: Torres
+  affiliation:
+    en: |
+        Federal University of São Paulo, Brazil.
+    pt: |
+        Universidade Federal de São Paulo, Brasil.
+    es: |
+        Universidad Federal de São Paulo, Brasil.
+    fr: |
+        Université fédérale de São Paulo, Brésil.
+  bio:
+    en: |
+        Aracele Torres holds a PhD in History from the University of São Paulo (USP) and is a researcher at the Digital Humanities Laboratory (lab.hum) at the Federal University of São Paulo, Guarulhos Campus.
+    pt: |
+        Aracele Torres é doutora em História pela Universidade de São Paulo (USP) e pesquisadora do Laboratório de Humanidades Digitais (lab.hum) da Universidade Federal de São Paulo, Campus Guarulhos. 
+    es: |
+        Aracele Torres es doctora en Historia de la Universidad de São Paulo (USP) e investigadora del Laboratorio de Humanidades Digitales (lab.hum) de la Universidad Federal de São Paulo, Campus Guarulhos. 
+    fr: |
+        Aracele Torres détient un doctorat en histoire de l'Université de São Paulo (USP) et est chercheuse au Laboratoire des humanités numériques (lab.hum) à l'Université fédérale de São Paulo, campus Guarulhos.
+  team_roles:
+    - portuguese
+    - editorial
+  status: volunteer
+
+- name: Hélène Huet
+  email: hhuet@ufl.edu
+  twitter: superHH
+  url: "https://helenehuet.org"
+  orcid: 0000-0002-2907-1887
+  team: true
+  team_start: 2020
+  institution: University of Florida
+  sortname: Huet
+  affiliation:
+    en: |
+        University of Florida.
+    pt: |
+        Universidade de Flórida.
+    es: |
+        Universidad de Florida.
+    fr: |
+        Université de Floride.
+  bio:
+    en: |
+        Hélène Huet is a librarian at the University of Florida.
+    pt: |
+        Hélène Huet é bibliotecaria na Universidade de Flórida. 
+    es: |
+        Hélène Huet es bibliotecaria en la Universidad de Florida. 
+    fr: |
+        Hélène Huet est bibliothécaire á l'Université de Floride.
+  team_roles:
+    - french
+    - ombuds
+  status: volunteer
+
+- name: Alex Wermer-Colan
+  github: hawc2
+  twitter: alexwermercolan
+  email: alwermercolan@gmail.com
+  url: "http://www.alexwermercolan.com/"
+  team: true
+  team_start: 2020
+  institution: Temple University
+  sortname: Wermer-Colan
+  affiliation:
+    en: |
+      Temple University, USA.
+    es: |
+      Universidad de Temple, Estados Unidos.
+    fr: |
+      Université de Temple, États-Unis.
+    pt: |
+        Temple University, Estados Unidos.
+  bio:
+    en: |
+      Alex Wermer-Colan is the Digital Humanities Postdoctoral Fellow at Temple University Libraries' Loretta C. Duckworth Scholars Studio.
+    es: |
+      Alex Wermer-Colan es becario postdoctoral en Humanidades Digitales en el Loretta C. Duckworth Scholars Studio de la Biblioteca de la Universidad de Temple.
+    fr: |
+      Alex Wermer-Colan est chercheur postdoctoral en humanités numériques au Loretta C. Duckworth Scholars Studio des bibliothèques de l'Université Temple.
+    pt: |
+      Alex Wermer-Colan é Bolseiro de Pós-Doutorado em Humanidades Digitais na Biblioteca Loretta C. Duckworth Scholars Studio da Temple University.
+  team_roles:
+    - editorial
+    - english
+  status: volunteer
+
+- name: Danielle Sanches
+  twitter: dani_sanches
+  email: daniellesanches@fcsh.unl.pt
+  url: "https://dhlab.unl.pt/"
+  github: daniellesanchesDH
+  team: true
+  team_start: 2020
+  institution: Universidade Nova de Lisboa
+  sortname: Sanches
+  affiliation:
+    en: |
+        University Nova de Lisboa, Portugal.
+    pt: |
+        Universidade Nova de Lisboa, Portugal.
+    es: |
+        Universidad Nova de Lisboa, Portugal.
+    fr: |
+        Université nouvelle de Lisbonne, Portugal.
+  bio:
+    en: |
+        Danielle Sanches holds a PhD in History of Science from the EHESS/Paris and is a collaborator researcher at the Digital Humanities Laboratory (LabHD) at NOVA-FCSH, at University Nova de Lisboa, Portugal.
+    pt: |
+        Danielle Sanches é doutora em História das Ciências pela EHESS/Paris e pesquisadora associada do Laboratório de Humanidades Digitais (LabHD) da Nova-FCSH, na Universidade Nova de Lisboa, Portugal. 
+    es: |
+        Danielle Sanches es doctora en Historia de las Ciencias por la EHESS/París e investigadora asociada del Laboratorio de Humanidades Digitales (LabHD) de Nova-FCSH, en la Universidade Nova de Lisboa, Portugal.
+    fr: |
+        Danielle Sanches est titulaire d'un doctorat en histoire des sciences de l'EHESS/ Paris et chercheuse associée au Laboratoire des humanités numériques (LabHD) de Nova-FCSH, à l'Université nouvelle de Lisbonne, Portugal.
+  team_roles:
+    - portuguese
+    - editorial
+  status: volunteer
+  
+- name: Joana Vieira Paulino
+  twitter: 
+  email: jpaulino@fcsh.unl.pt
+  url: 
+  github: joanacvp
+  team: true
+  team_start: 2020
+  institution: Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa
+  sortname: Paulino
+  affiliation:
+    en: |
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+    pt: |
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+    es: |
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+    fr: |
+        Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.
+  bio:
+    en: |
+        Joana Vieira Paulino holds a PhD in History, with a specialization in Contemporary History, from Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. She is a researcher in the Digital Humanities Lab and the Institute for Contemporary History from the same institution.
+    pt: |
+        Joana Vieira Paulino é doutora em História, com especialização em História Contemporânea, pela Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. É investigadora no Laboratório de Humanidades Digitais e no Instituto de História Contemporânea da mesma instituição. 
+    es: |
+        Joana Vieira Paulino es doctora en Historia, con especialización en Historia Contemporánea, por la Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal. Es investigadora del Laboratorio de Humanidades Digitales y del Instituto de Historia Contemporánea de la misma institución.
+    fr: |
+        Joana Vieira Paulino a un doctorat en histoire, avec une spécialisation en Histoire Contemporaine, de Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, Portugal.  Elle est une chercheur au Laboratoire des Humanités Numériques et au Institute d'Histoire Contemporaine de la même instituition.
+  team_roles:
+    - portuguese
+    - editorial
   status: volunteer

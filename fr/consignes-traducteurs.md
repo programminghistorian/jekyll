@@ -54,7 +54,7 @@ L'étape la plus importante à court terme est la création d'un [ticket](https:
 ### En attendant les retours des relectures 
 Nous tentons de compléter le processus de relecture en quatre semaines ou moins, mais il est possible que des délais imprévus ou un emploi du temps chargé entraînent des retards.
 
-En accord avec les principes de la recherche publique et de l'évaluation ouverte par les pairs, nous souhaitons que la discussion demeure sur GitHub. Cependant, nous voulons aussi que tous les intervenants soient à l'aise avec le processus. Si vous ressentez le besoin de discuter d'un enjeu en privé, n'hésitez pas à contacter directement [votre rédacteur ou votre rédactrice par courriel](/project-team) ou à faire appel à notre médiateur francophone [François Dominic Laramée](/project-team).
+En accord avec les principes de la recherche publique et de l'évaluation ouverte par les pairs, nous souhaitons que la discussion demeure sur GitHub. Cependant, nous voulons aussi que tous les intervenants soient à l'aise avec le processus. Si vous ressentez le besoin de discuter d'un enjeu en privé, n'hésitez pas à contacter directement [votre rédacteur ou votre rédactrice par courriel](/project-team) ou à faire appel à notre médiatrice francophone [Hélène Huet](/project-team).
 
 ### Répondre aux relectures reçues 
 Le rédacteur ou la rédactrice qui assure le suivi éditorial de votre traduction et les évaluateurs et évaluatrices recommanderont fort probablement des améliorations à apporter à votre texte dans le "ticket" qui lui est associé. Le rédacteur ou la rédactrice devrait spécifier clairement quelles améliorations sont essentielles, lesquelles sont optionnelles et lesquelles peuvent être mises de côté. 

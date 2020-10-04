@@ -18,6 +18,8 @@ topics: [python]
 abstract: "In this lesson, you will learn the Python commands needed to implement the second part of the algorithm begun in the lesson 'From HTML to a List of Words (part 1)'."
 next: normalizing-data
 previous: from-html-to-list-of-words-1
+series_total: 15 lessons
+sequence: 8
 python_warning: false
 redirect_from: /lessons/from-html-to-list-of-words-2
 avatar_alt: A soldier being mocked by a man
