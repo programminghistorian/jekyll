@@ -40,7 +40,7 @@ Los miembros de *Programming Historian* también desean expresar su gratitud a l
 
 
 
-## PH *en français* busca editores
+## PH en français busca editores
 
 *Programming Historian en français*, en línea desde 2019, tiene actualmente doce lecciones traducidas publicadas, y varias traducciones y sus primeros tutoriales originales en francés en preparación. Para organizar su evaluación y publicación, el equipo busca fortalecer sus filas con alguien que tenga un buen conocimiento de los métodos digitales aplicados a las humanidades y ciencias sociales y que esté dispuesto a invertir en el trabajo en equipo internacional.
 
