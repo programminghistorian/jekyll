@@ -40,7 +40,7 @@ We are thrilled and honored to announce that the [Western University Library](ht
 
 
 
-## PH *en français* is looking for new editors
+## PH en français is looking for new editors
 
 The *Programming Historian in French*, online since 2019, currently has twelve published translated lesson, others are in preparation, as are the very first original tutorials in French. In order to organize their evaluation and publication, the team seeks to strengthen their ranks with someone who has a good knowledge of digital methods applied to the humanities and social sciences and who is ready to invest in international teamwork. 
 
