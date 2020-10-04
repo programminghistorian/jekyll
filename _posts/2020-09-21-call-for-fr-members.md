@@ -20,5 +20,5 @@ Connaissances et compétences principalement recherchées:
 - connaissance ou expérience de l'édition électronique scientifique;    
 - la connaissance de l'anglais est fondamentale, celle de l'espagnol ou du portugais de surcroît serait un plus et faciliterait la collaboration entre sous-équipes. 
 
-Merci d'envoyer un CV d'une page et un texte d'environ 200 mots expliquant les raisons pour lesquelles vous souhaitez rejoindre le projet à <a href="mailto:sofia.papastamkou@gmail.com">Sofia Papastamkou</a> jusqu'au 30 octobre. 
+Merci d'envoyer un CV d'une page et un texte d'environ 200 mots expliquant les raisons pour lesquelles vous souhaitez rejoindre le projet à <a href="mailto:spapastamkou@gmail.com">Sofia Papastamkou</a> jusqu'au 30 octobre. 
  
