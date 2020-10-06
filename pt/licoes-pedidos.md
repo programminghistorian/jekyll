@@ -1,42 +1,42 @@
 ---
 layout: blank
-title: Active Lesson Requests
+title: Lições pedidas
 original: lesson-requests
 ---
 
-# Lessons In Development
+# Lições em Desenvolvimento
 
-[See a list of lessons in development at our ph-submissions repository.](https://github.com/programminghistorian/ph-submissions/issues)
+[Veja uma lista de lições em desenvolvimento no repositório de submissão do PH.](https://github.com/programminghistorian/ph-submissions/issues)
 
-# Active Lesson Requests
+# Solicitações para nova lição
 
-The Editorial Board of the English-language version of the _Programming Historian_ would particularly welcome hearing from prospective authors for the following lesson topics. Anyone interested should consult the [Author's Guidelines](/en/author-guidelines) for more information:
+O Conselho Editorial do Programming Historian em português gostaria de receber os seguintes tópicos de lições originais de potenciais autores. Qualquer pessoa interessada deve antes consultar as Diretrizes do autor [Directrizes para autores](/pt/directrizes-autores) para obter mais informações:  
 
-1. How do you conduct spatial clustering of geographic data?
+1. Como aplicar métodos de agrupamento espacial de dados geográficos?
 
-    We’ve got a great set of introductory mapping lessons, and while they are great for teaching how to make nice visualisations, we’ve not yet branched deeply enough into more advanced analysis skills. One of the most useful is the application of clustering algorithms, which identify logical groups of individual points in geographic space. Useful for forming conclusions on anything from trade to migration. But like with all analyses, it’s a space (no pun intended) fraught with pitfalls for the uninitiated. We’re looking for a great introduction that highlights both the strengths and the challenges of this form of analysis.
+    Temos um ótimo conjunto de lições introdutórias para mapeamento de dados geográficos.  Embora sejam boas para ensinar a criar visualizações, ainda não permitem o aprofundamento em técnicas de análise mais avançadas. Uma das lições mais úteis aborda a aplicação de algoritmos de agrupamento (análise de cluster), que identificam grupos lógicos de pontos individuais no espaço geográfico. Útil para tirar conclusões sobre qualquer tema, do comércio à migração. Mas, como em todas as análises, é um espaço repleto de armadilhas para os não iniciados. Procuramos uma boa introdução que destaque os pontos fortes e os desafios dessa forma de análise.
 
-2. When do you know your network analysis is meaningful?
+2. Como saber se a análise de rede é significativa?
 
-    Again, one that we asked for previously, but haven’t yet seen. Ok, so we’ve built a great network diagram. How do we move to the next step and form meaningful conclusions? This is about starting with a graph and shifting into analysis mode. If you can help our readers take that step, we want to hear from you.
+    Temos solicitado lições deste tipo, porém ainda não recebemos uma versão completa. Já conseguimos ensinar a criar um ótimo diagrama de redes, como avançamos para o próximo passo e tiramos conclusões significativas? Trata-se de começar com a elaboração de um gráfico e mudar para o modo de análise. Se puder ajudar nossos leitores a dar esse passo, queremos ouvi-lo.
 
+3. Como publicar edições digitais académicas usando um base de dados XML nativa
 
-3. How to Publish Digital Scholarly Editions using a Native XML Database
+    As edições digitais académicas geralmente são modeladas como documentos XML. Embora existam algumas ferramentas de publicação disponíveis, as opções podem ser insuficientes e as soluções podem não atender às necessidades específicas do usuário. Mantendo o espírito aberto do Programming Historian em português, gostaríamos de ter uma lição que possa oferecer aos leitores uma solução de código aberto que permita uma edição digital de forma sustentável e flexível.
 
-    Digital scholarly editions are often modelled as XML documents. Although there are some publication tools such available, the options can be bewildering and the solutions may not fit a user’s particular needs. Keeping with our open ethos, we’d like to see someone take readers through an open source solution that gives them a sustainable and flexible way to publish their digital edition.
+4. Como analisar ficheiros de áudio
 
-4. How to Analyse Audio Artefacts
+    Temos uma lição sobre como usar o Audacity para editar ficheiros de áudio e outra transformar os dados em áudio para melhor entendê-los. Mas pode fazer muito mais! Como se usa ferramentas para obter dados quantificáveis sobre ficheiros de áudio? Ou como se pode usar técnicas de aprendizado de máquina – machine learning – para produzir novos entendimentos sobre uma coleção de áudio?
 
-    We have one lesson on how to use Audacity to edit audio files and another on how to transform you transform your data into audio to better understand it. But you can do much more! How are you using tools to get quantifiable data about your audio artefacts? Or, how can you use machine learning techniques to produce new understandings of an audio collection?
+5. Como escolher um esquema de metadados
 
-5. How to Choose a Metadata Schema
+    Existem muitos esquemas de metadados. Desde o Dublin Core, COins, MARC, METS ou MODS. Se começa um projeto que envolve a construção de uma coleção, como tomar a decisão sobre qual o esquema de metadados utilizar? Acreditamos que esta lição é essencial e poderia realmente abrir novas áreas para lições futuras.
 
-    There are so many different metadata schema available. From Dublin Core to COins to MARC, METS, and MODS. If someone is embarking on a project that involves building a collection, how should they go about making a decision about which metadata schema to use? We believe this core lesson could really open up new areas for future lessons.
+6. Como aplicar técnicas multidimensionais
 
-6. How to Apply Multidimensional Scaling
+    Como meio de identificar padrões em datasets, procuramos alguém que possa explicar quando é útil essa abordagem, como o fazer corretamente e ainda como interpretar os resultados. Esta lição seria uma ótima oportunidade de mostrar a utilização de técnicas multidimensionais – Multidimensional Scaling – pode gerar novos conhecimentos.
 
-    A means of identifying patterns in datasets, we're looking for someone who can explain when this approach is useful, how to do it right, and how to interpret the results. This tutorial would be a great chance to show how you've used Multidimensional Scaling in your research to generate new historical knowledge.
+7. Como criar um podcast
 
-7. How to establish a podcast
+    Pode parecer simples, mas há muito mais num podcast do que apenas pegar num microfone. Estamos à procura de alguém que possa descrever as questões-chave que devem ser consideradas e soluções sustentáveis para ajudar os principiantes a começar. Questões relacionadas com editar, hospedar, distribuir e criar uma audiência seriam bem-vindas.
 
-    It may sound straightforward, but there's more to it than just grabbing a microphone. We're looking for someone that can outline the key questions one needs to consider, and sustainable solutions to help newbies make the plunge. Issues such as how to edit, host, distribute, and build an audience would be welcome.
