@@ -1771,6 +1771,38 @@
     - english
   status: volunteer
 
+- name: Nabeel Siddiqui
+  github: nabsiddiqui
+  twitter: nabsiddiqui
+  email: siddiqui@susqu.edu
+  url: "https://www.nabeelsiddiqui.net/"
+  team: true
+  team_start: 2020
+  institution: Susquehanna University
+  sortname: Siddiqui
+  affiliation:
+    en: |
+      Susquehanna University, USA.
+    es: |
+      Universidad de Susquehanna, Estados Unidos.
+    fr: |
+      Université de Susquehanna, États-Unis.
+    pt: |
+        Susquehanna University, Estados Unidos.
+  bio:
+    en: |
+      Nabeel Siddiqui is an Assistant Professor of Digital Media at Susquehanna University.
+    es: |
+      Nabeel Siddiqui es profesor asistente de medios digitales en la Universidad de Susquehanna.
+    fr: |
+      Nabeel Siddiqui est professeur adjoint de médias numériques à l'Université Susquehanna.
+    pt: |
+      Nabeel Siddiqui é professor assistente de mídia digital na Susquehanna University.
+  team_roles:
+    - editorial
+    - english
+  status: volunteer
+  
 - name: Danielle Sanches
   twitter: dani_sanches
   email: daniellesanches@fcsh.unl.pt
