@@ -186,23 +186,10 @@ menu-contribute-edit:
   pt:
     title:
     link:
-menu-contribute-support:
-  en:
-    title: Support Us
-    link: /en/support-us
-  es:
-    title: Apóyanos
-    link: /es/apoyanos
-  fr:
-    title: Nous soutenir
-    link: /fr/nous-soutenir
-  pt:
-    title:
-    link:
 menu-contribute-support-donate:
   en:
     title: Support Us - Donate to Us
-    link: /en/support-us#donate-to-us
+    link: /en/individual
   es:
     title: Apóyanos - Donaciones
     link: /es/apoyanos#donaciones
@@ -238,20 +225,45 @@ menu-blog:
   pt:
     title: Blog
     link: /blog
+ 
 menu-support-us:
   en: Support Us
+  es: Apóyanos
+  fr: Nous soutenir
+  pt:
 menu-support-ipp:
   en:
     title: Institutional Partnership Programme
     link: /en/ipp
+  es:
+    title: Programa de Instituciones Asociadas
+    link: /es/apoyanos#programa-de-instituciones-asociadas
+  fr:
+    title: Partenariat institutionnel
+    link: /fr/nous-soutenir#partenariat-institutionnel
+  pt: 
 menu-support-individual:
   en:
     title: Individual Supporters
     link: /en/individual
+  es: 
+    title: Apóyanos - Donaciones
+    link: /es/apoyanos#donaciones
+  fr:
+    title: Nous soutenir - Donations
+    link: /fr/nous-soutenir#donations
+  pt: 
 menu-support-supporters:
   en:
     title: Our Supporters
     link: /en/supporters
+  es:
+    title: Colaboradores
+    link: /es/apoyanos#colaboradores
+  fr:
+    title: Nos soutiens
+    link: /fr/nous-soutenir#nos-soutiens
+  pt:
 menu-lang:
   es:
     title: es
