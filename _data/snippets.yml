@@ -238,6 +238,20 @@ menu-blog:
   pt:
     title: Blog
     link: /blog
+menu-support-us:
+  en: Support Us
+menu-support-ipp:
+  en:
+    title: Institutional Partnership Programme
+    link: /en/ipp
+menu-support-individual:
+  en:
+    title: Individual Supporters
+    link: /en/individual
+menu-support-supporters:
+  en:
+    title: Our Supporters
+    link: /en/supporters
 menu-lang:
   es:
     title: es
