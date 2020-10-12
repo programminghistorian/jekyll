@@ -2,19 +2,24 @@
   en: acquire
   es: obtener
   fr: acquérir
+  pt: obter
 - type: transforming
   en: transform
   es: transformar
   fr: transformer
+  pt: transformar
 - type: analyzing
   en: analyze
   es: analizar
   fr: analyser
+  pt: analisar
 - type: presenting
   en: present
   es: presentar
   fr: présenter
+  pt: apresentar
 - type: sustaining
   en: sustain
   es: preservar
   fr: préserver
+  pt: preservar

@@ -10,28 +10,34 @@
     en: Managing Editor
     es: Jefe de redacción
     fr: Rédacteur/rédactrice en chef
+    pt: Editor-chefe
   definition:
     en: First point of contact for authors with lesson ideas
     es: Primer contacto para autores con ideas de lecciones
     fr: Premier contact pour les auteurs souhaitant proposer une lesson
+    pt: Primeiro contacto para os autores com ideias para lições
 - type: editorial
   label:
     en: Editor
     es: Editor(a)
     fr: Rédacteur
+    pt: Editor(a)
   definition:
     en: Responsible for editorial work resulting in the review and publication of lessons
     es: Responsable del trabajo editorial que deriva en la revisión y publicación de las lecciones
     fr: Responsable du travail éditorial pour l'évaluation et la publication des lessons
+    pt: Responsável pelo trabalho editorial para a revisão e publicação das lições
 - type: ombuds
   label:
     en: Ombudsperson
     es: Mediador
     fr: Médiateur/médiatrice
+    pt: Mediador(a)
   definition:
     en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
     es: Persona a la que los autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
     fr: Personne que les auteur(e)s et évaluateur(trice)s peuvent consulter pour toute question liée à la procédure de l'évaluation par les pairs ou à la publication
+    pt: Pessoa a quem os autores e revisores podem recorrer se tiverem preocupações ou dúvidas sobre o processo de revisão por pares ou de publicação
 
 # --- Proghist Roles ---
 - type: proghist
@@ -39,118 +45,144 @@
     en: ProgHist Ltd
     es: ProgHist Ltd
     fr: ProgHist Ltd
+    pt: ProgHist Ltd
   definition:
     en: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
     es: Este miembro funge un cargo en la compañía sin ánimo de lucro ProgHist Ltd, que gestiona las publicaciones.
     fr: Ce(tte) membre occupe un rôle au sein de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
+    pt: Este membro tem um papel na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
 - type: technical-lead
   label:
     en: Technical Lead
     es: Líder técnico
     fr: Responsable technique
+    pt: Coordenador técnico
   definition:
     en: Coordinates and trains members of the technical team
     es: Coordina y forma a los integrantes del equipo técnico
     fr: Coordonne et forme les membres de l'équipe technique
+    pt: Coordena e dá formação aos membros da equipa técnica
 - type: technical
   label:
     en: Technical Team
     es: Equipo técnico
     fr: Équipe technique
+    pt: Equipe técnica
   definition:
     en: Responsible for the technical features that bring the content and peer review to our community
     es: Responsable de las características técnicas respecto al contenido y la revisión por pares a nuestra comunidad
     fr: Responsable des aspects techniques rendant accessibles à notre communauté le contenu et l'évaluation par les pairs
+    pt: Responsável pelos aspectos técnicos que asseguram o conteúdo e a revisão por pares para a nossa comunidade
 - type: communication-manager
   label:
     en: Communication Manager
     es: Mánager de comunicación
     fr: Responsable de la communication
+    pt: Gestor de comunicação
   definition:
     en: Responsible for coordinating efforts of the communication team
     es: Responsable de la coordinación del equipo de comunicación
     fr: Responsable de la coordination de l'équipe de communication
+    pt: Responsável por coordenar os esforços da equipe de comunicação
 - type: archive
   label:
     en: Archivist
     es: Archivista
     fr: Archiviste
+    pt: Arquivista
   definition:
     en: Responsible for archiving the project
     es: Responsable del archivo del proyecto
     fr: Responsable de l'archive du projet
+    pt: Responsável por gerir o arquivo do projeto
 - type: ed-manager
   label:
     en: Education Manager
     es: Mánager de educación
     fr: Responsable pédagogique
+    pt: Gestor educacioonal
   definition:
     en: Responsible for the overall education aspect of the project
     es: Responsable del aspecto educativo general del proyecto
     fr: Responsable des aspects pédagogiques du projet
+    pt: Responsável pela área educativa do projeto
 - type: impact-manager
   label:
     en: Impact Manager
     es: Mánager de impacto
     fr: Responsable de la valorisation
+    pt: Gestor de impacto
   definition:
     en: Supports, coordinates, and enhances research impact and analytics
     es: Apoya, coordina y amplía la investigación y análisis del impacto del proyecto
     fr: Accompagne, coordonne et appuie la valorisation et les travaux d'analyse du projet
+    pt: Apoia, coordena e expande a pesquisa e análise do impacto do projeto
 - type: finance-manager
   label:
     en: Finance Manager
     es: Mánager de finanzas
     fr: Responsable des finances
+    pt: Gestor financeiro
   definition:
     en: Responsible for project finances and fundraising
     es: Responsable de las finanzas del proyecto y la recaudación de fondos
     fr: Responsable du financement du projet et de la collecte de fonds
+    pt: Responsável pelas finanças do projeto e pela captação de recursos
 - type: team-development-manager
   label:
     en: Team Development Manager
     es: Mánager de desarrollo de equipo
     fr: Responsable du développement de l'équipe
+    pt: Gestor da equipe de desenvolvimento
   definition:
     en: Responsible for ensuring that everyone on the team is well supported
     es: Responsable de asegurar que todos en el equipo sean apoyados
     fr: Responsable de s'assurer que tous les membres de l'équipe reçoivent le soutien nécessaire
+    pt: Responsável por assegurar o apoio necessário a todos os membros da equipe
 - type: project-manager-at-large
   label:
     en: Project Manager at Large
     es: Mánager de proyectos en general
     fr: Chef de projet
+    pt: Gestor geral do projeto
   definition:
     en: Keeping the team focused on achieving its goals in a timely manner
     es: Mantener al equipo enfocado en lograr sus objetivos de manera puntual
     fr: Garder l'équipe concentrée sur la réalisation de ses objectifs à l'intérieur des délais prévus
+    pt: Responsável por manter a equipe focada em atingir os seus objetivos no tempo planeado
 - type: global-lead
   label:
     en: Global Lead
     es: Líder global
     fr: Responsable global
+    pt: Gestor global
   definition:
     en: Coordinates the Global Team and facilitates communication with other Programming Historian teams.
     es: Coordina el Equipo Global y facilita la comunicación con el resto de los equipos de Programming Historian.
     fr: Coordonne l'équipe globale et assure la communication avec les autres équipes du Programming Historian.
+    pt: Coordena a equipe global e facilita a comunicação com outras equipes do Programming Historian.
 - type: global
   label:
     en: Global Team
     es: Equipo global
     fr: Équipe globale
+    pt: Equipe global
   definition:
     en: Managing new global initiatives, as well as trying to improve the cultural and linguistic diversity of the team, our lessons, and of participation in Digital Humanities more generally.
     es: Coordinar nuevas iniciativas globales, así como tratar de mejorar la diversidad cultural y lingüística del equipo, de nuestras lecciones y de la participación en Humanidades Digitales en general.
     fr: En charge de nouvelles initiatives à vocation globale, de la diversité culturelle et linguistique de l'équipe et des leçons, et de la participation aux humanités numériques en général.
+    pt: Responsável por coordenar novas iniciativas globais, assim como por alargar a diversidade cultural e linguística da equipe, das lições e da participação no movimento das Humanidades Digitais em geral.
 - type: new-pub-manager
   label:
     en: New Publications Manager
     es: Mánager de publicaciones nuevas
     fr: Responsable des nouvelles publications
+    pt: Gestor de novas publicações
   definition:
     en: Coordinates the process for creating new publications and facilitates communication with other Programming Historian teams.
     es: Coordina el proceso de creación de publicaciones nuevas y facilita la comunicación con el resto de los equipos de Programming Historian.
     fr: Responsable de la création de nouvelles publications et assure la communication avec les autres équipes du Programming Historian.
+    pt: Coordena o processo para a criação de novas publicações e facilita a comunicação entre equipes do Programming Historian.
 
 # Status
 - type: volunteer
@@ -158,16 +190,20 @@
     en: Volunteer
     es: Voluntario
     fr: Bénévole
+    pt: Voluntário
   definition:
     en: This member's time on the project is wholly voluntary.
     es: El tiempo que este miembro dedica al proyecto es voluntario.
     fr: Ce membre contribue son temps sur une base entièrement bénévole.
+    pt: O tempo que este membro dedica ao projeto é totalmente voluntário.
 - type: institutionally-supported
   label:
     en: Institutionally Supported
     es: Apoyado por su institución
     fr: Soutenu institutionnellement
+    pt: Apoiado institucionalmente
   definition:
     en: This member's time on the project is either directly or indirectly supported by their employer.
     es: El tiempo que este miembro dedica al proyecto está directa o indirectamente apoyado por su institución.
     fr: Le temps que ce membre consacre au projet est directement ou indirectement financé par son employeur.
+    pt: O tempo que este membro dedica ao projeto é apoiado direta ou indiretamente pelo seu empregador.

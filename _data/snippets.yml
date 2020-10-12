@@ -14,7 +14,7 @@ menu-about:
     en: About
     es: Acerca
     fr: À propos
-    pt:
+    pt: Sobre
 menu-about-overview:
   en:
     title: About PH
@@ -26,8 +26,8 @@ menu-about-overview:
     title: À propos
     link: /fr/apropos
   pt:
-    title:
-    link:
+    title: Sobre
+    link: /pt/sobre
 menu-about-team:
   en:
     title: Project Team
@@ -39,8 +39,8 @@ menu-about-team:
     title: L'équipe
     link: /fr/equipe-projet
   pt:
-    title:
-    link:
+    title: Equipe
+    link: /pt/equipe
 menu-about-research:
   en:
     title: Research
@@ -52,8 +52,8 @@ menu-about-research:
     title: Recherche
     link: /fr/recherche
   pt:
-    title:
-    link:
+    title: Pesquisa
+    link: /pt/pesquisa
 menu-about-privacy:
   en:
     title: Privacy Policy
@@ -65,13 +65,13 @@ menu-about-privacy:
     title: Politique sur la vie privée
     link: /fr/politique-vie-privee
   pt:
-    title:
-    link:
+    title: Política de privacidade
+    link: /pt/politica-de-privacidade
 menu-contribute:
   en: Contribute
   es: Contribuciones
   fr: Contribuer
-  pt:
+  pt: Contribuir
 menu-contribute-retirement:
   en:
     title: Lesson Retirement Policy
@@ -83,8 +83,8 @@ menu-contribute-retirement:
     title: Politique de retrait des leçons
     link: /fr/politique-retrait-lecons
   pt:
-    title:
-    link:
+    title: Política de remoção de lições
+    link: /pt/licoes-politica-remocao
 menu-contribute-technical:
   en:
     title: Technical Contributions
@@ -96,8 +96,8 @@ menu-contribute-technical:
     title: Contributions techniques
     link: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions
   pt:
-    title:
-    link:
+    title: Contribuições técnicas
+    link: https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions
 menu-contribute-overview:
   en:
     title: Overview
@@ -109,8 +109,8 @@ menu-contribute-overview:
     title: Contribuer
     link: /fr/contribuer
   pt:
-    title:
-    link:
+    title: Contribuições
+    link: /pt/contribua
 menu-lesson-requests:
   en:
     title: Lesson Requests
@@ -122,8 +122,8 @@ menu-lesson-requests:
     title: Appel à contributions
     link: /fr/appel-contributions
   pt:
-    title:
-    link:
+    title: Pedidos de lições
+    link: /pt/licoes-pedidos
 menu-contribute-feedback:
   en:
     title: Feedback
@@ -135,8 +135,8 @@ menu-contribute-feedback:
     title: Votre avis
     link: /fr/reaction
   pt:
-    title:
-    link:
+    title: Feedback
+    link: /pt/feedback
 menu-contribute-review:
   en:
     title: Reviewer Guidelines
@@ -148,8 +148,8 @@ menu-contribute-review:
     title: Consignes aux évaluateurs
     link: /fr/consignes-evaluateurs
   pt:
-    title:
-    link:
+    title: Diretrizes para revisores
+    link: /pt/directrizes-revisor
 menu-contribute-write:
   en:
     title: Author Guidelines
@@ -161,8 +161,8 @@ menu-contribute-write:
     title: Consignes aux auteurs
     link: /fr/consignes-auteurs
   pt:
-    title:
-    link:
+    title: Diretrizes para autores
+    link: /pt/directrizes-autor
 menu-contribute-translate:
   en:
     title: Translator Guidelines
@@ -171,8 +171,8 @@ menu-contribute-translate:
     title: Consignes aux traducteurs
     link: /fr/consignes-traducteurs
   pt:
-    title:
-    link:
+    title: Diretrizes para tradutores
+    link: /pt/directrizes-tradutor
 menu-contribute-edit:
   en:
     title: Editor Guidelines
@@ -184,8 +184,21 @@ menu-contribute-edit:
     title: Consignes aux rédacteurs
     link: /fr/consignes-redacteurs
   pt:
-    title:
-    link:
+    title: Diretrizes para editores
+    link: /pt/directrizes-editor
+menu-contribute-support:
+  en:
+    title: Support Us
+    link: /en/support-us
+  es:
+    title: Apóyanos
+    link: /es/apoyanos
+  fr:
+    title: Nous soutenir
+    link: /fr/nous-soutenir
+  pt:
+    title: Apoie-nos
+    link: /pt/apoie-nos
 menu-contribute-support-donate:
   en:
     title: Support Us - Donate to Us
@@ -197,8 +210,8 @@ menu-contribute-support-donate:
     title: Nous soutenir - Donations
     link: /fr/nous-soutenir#donations
   pt:
-    title:
-    link:
+    title: Apoie-nos - Doações
+    link: /pt/apoie-nos#doacoes
 menu-lessons:
   en:
     title: Lessons
@@ -210,8 +223,8 @@ menu-lessons:
     title: Leçons
     link: /fr/lecons
   pt:
-    title:
-    link:
+    title: Liçóes
+    link: /pt/licoes
 menu-blog:
   en:
     title: Blog
@@ -223,7 +236,7 @@ menu-blog:
     title: Blog
     link: /blog
   pt:
-    title: Blog
+    title: Blogue
     link: /blog
  
 menu-support-us:
@@ -288,14 +301,14 @@ menu-translation-concordance:
     title: Concordance des traductions
     link: /translation-concordance
   pt:
-    title:
+    title: Concordância das traduções
     link: /translation-concordance
 
 issn:
   en: 2397-2068
   es: 2517-5769
   fr: 2631-9462
-  pt:
+  pt: PENDENTE
 
 # site footer
 footer:
@@ -306,7 +319,8 @@ footer:
       _The Programming Historian en español_ (ISSN: 2517-5769) se publica con una licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.es).
     fr: |
       _The Programming Historian en français_ (ISSN: 2631-9462) est publié sous licence [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.fr).
-    pt:
+    pt: |
+      _The Programming Historian em português_ (ISSN: PENDENTE) é publicado com uma licença [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.pt).
   financial:
     en: |
       This project is administered by ProgHist Limited, Company Number [12192946](https://beta.companieshouse.gov.uk/company/12192946).
@@ -314,100 +328,101 @@ footer:
       Este proyecto es administrado por ProgHist Limited, con número de compañía [12192946](https://beta.companieshouse.gov.uk/company/12192946).
     fr: |
         Ce projet est administré par ProgHist Limited, no d'immatriculation [12192946](https://beta.companieshouse.gov.uk/company/12192946).
-    pt:
+    pt: |
+        Este projeto é administrado pelo ProgHist Limited, número de companhia [12192946](https://beta.companieshouse.gov.uk/company/12192946).
 
   gh-hosted:
     en: Hosted on GitHub
     es: Alojado en GitHub
     fr: Site hébergé sur Github
-    pt:
+    pt: Hospedado no GitHub
   rev-history:
     en: See page history
     es: Versiones anteriores
     fr: Voir l'historique de la page
-    pt:
+    pt: Histórico da página
   last-updated:
     en: Site last updated
     es: Última actualización el
     fr: Dernière mise à jour le
-    pt:
+    pt: Última atualização em
   suggestion:
     en: Make a suggestion
     es: Envíanos tus comentarios
     fr: Faire une suggestion
-    pt:
+    pt: Envie a sua sugestão
   rss-feed:
     en: RSS feed subscriptions
     es: Suscripción a RSS
     fr: S'abonner au flux RSS
-    pt:
+    pt: Subscrição RSS feed
   retirement: 
     en: Lesson retirement policy
     es: Política de retirada de lecciones
     fr: Politique de retrait des leçons
-    pt: 
+    pt: Política de remoção de lições
   trans-concordance: 
     en: Translation concordance
     es: Concordancia de traducción
     fr: Concordance des traductions
-    pt:
+    pt: Concordância das traduções
 
 # lesson-index
 reset-button:
   en: reset to see all lessons
   es: restaurar para ver todas las lecciones
   fr: réinitialiser pour voir toutes les leçons
-  pt:
+  pt: restaurar para ver todas as lições
 sort-by-date:
   en: sort by publication date
   es: ordenar por fecha de publicación
   fr: trier par date de publication
-  pt:
+  pt: ordenar por data de publicação
 sort-by-difficulty:
   en: sort by difficulty
   es: ordena por dificultad
   fr: trier par difficulté
-  pt:
+  pt: ordenar por dificuldade
 date:
   en: date
   es: fecha
   fr: date
-  pt:
+  pt: data
 difficulty:
   en: difficulty
   es: dificultad
   fr: difficulté
-  pt:
+  pt: dificuldade
 all-lessons:
   en: All Lessons
   es: Todas las lecciones
   fr: Toutes les leçons
-  pt:
+  pt: Todas as lições
 filtering-results:
   en: Filtering Results
   es: Filtradas por
   fr: Filtrage par
-  pt:
+  pt: Filtrar por
 loading-search:
   en: LOADING SEARCH...
   es: CARGANDO LA BÚSQUEDA...
   fr: RECHERCHE EN COURS...
-  pt:
+  pt: PESQUISA EM CURSO...
 search-lessons:
   en: SEARCH LESSONS
   es: BUSCAR LECCIONES
   fr: RECHERCHER LES LEÇONS
-  pt:
+  pt: PESQUISAR LIÇÕES
 start-searching:
   en: START SEARCHING
   es: INICIAR BÚSQUEDA
   fr: DÉMARRER LA RECHERCHE
-  pt:
+  pt: INICIAR PESQUISA
 type-search-terms:
   en: TYPE SEARCH TERMS...
   es: ESCRIBE LOS TÉRMINOS DE BÚSQUEDA...
   fr: ENTRER UN OU PLUSIEURS TERMES DE RECHERCHE...
-  pt:
+  pt: ESCREVA OS TERMOS DE PESQUISA...
 search-info:
   en: |
     To search for relevant terms, enter them into the search bar and either press the enter key or the search button. All searches are case insensitive. If multiple terms are entered, results will include lessons that have all terms, as well as lessons that contain *either term*. Results with more of the terms will be scored higher in the list.
@@ -419,128 +434,129 @@ search-info:
     Para obtener solo resultados con múltiples términos, agrega el símbolo `+` antes de cada uno. Por ejemplo, `+Twitter +Red` devolverá lecciones que contienen *tanto* "twitter" como "red". Para obtener solo resultados que *no* contengan cierto término, utiliza el símbolo `-`. Por ejemplo, `-Twitter +Red` devolverá lecciones que contienen "red" pero no "twitter". Para información más detallada, puedes revisar la guía sobre búsquedas (en inglés): <https://lunrjs.com/guides/searching.html>
   fr: |
     Pour obtenir des résultats en utilisant plusieurs termes de recherche, faites précéder chaque terme du symbole `+`. Par exemple, en insérant `+Twitter +réseau`, vous obtiendrez les tutoriels qui contiennent tous les deux termes. Pour *exclure* un terme des résultats obtenus, vous pouvez utiliser le symbole `-`. Par exemple, en insérant `-Twitter +réseau`, vous obtiendrez les tutoriels qui contiennent le terme "réseau", mais pas "Twitter". Pour en savoir plus sur les modalités de recherche, merci de consulter ce guide <https://lunrjs.com/guides/searching.html>
-
   pt: |
-
+    Para pesquisar termos relevantes, insira-os na barra de pesquisa e pressione a tecla Enter ou o botão de pesquisa. Todas as pesquisas não diferenciam maiúsculas de minúsculas. Se vários termos forem inseridos, os resultados incluirão lições que contêm todos os termos, bem como lições que contêm *qualquer um dos termos*. Os resultados com mais termos presentes terão uma pontuação mais alta na lista.
+    
+    Para retornar apenas resultados com vários termos, adicione o símbolo `+` antes do termo. Por exemplo, `+Twitter +Rede` retornará lições que contêm *tanto* "twitter" como "rede". Para retornar apenas resultados que *não* contenham um termo, use o símbolo `-`. Por exemplo, `-Twitter +Rede` retornará lições que contêm "rede", mas não "Twitter". Para obter informações mais detalhadas, visite este guia de pesquisa (em inglês): <https://lunrjs.com/guides/searching.html>
 
 # lesson headers
 editor:
   en: edited by
   es: editado por
   fr: suivi éditorial par
-  pt:
+  pt: editado por
 reviewers:
   en: reviewed by
   es: revisado por
   fr: évaluation par
-  pt:
+  pt: revisto por
 translator:
   en: translated by
   es: traducido por
   fr: traduction par
-  pt:
+  pt: traduzido por
 translation-reviewers:
   en: translation reviewed by
   es: traducción revisada por
   fr: évaluation de traduction par
-  pt:
+  pt: tradução revista por
 translation-editors:
   en: translation edited by
   es: traducción editada por
   fr: suivi de traduction par
-  pt:
+  pt: tradução editada por
 published:
   en: published
   es: publicado
   fr: parution
-  pt:
+  pt: publicado
 translated-date:
   en: translated
   es: traducido
   fr: traduction
-  pt:
+  pt: traduzido
 modified:
   en: modified
   es: modificado
   fr: modification
-  pt:
+  pt: modificado
 retired-date:
   en: retired
   es: retirada
   fr: retrait
-  pt:
+  pt: retirado
 difficulty:
   en: difficulty
   es: dificultad
   fr: difficulté
-  pt:
+  pt: dificuldade
 next-lesson:
   en: next lesson
   es: siguiente lección
   fr: lesson suivante
-  pt:
+  pt: próxima lição
 previous-lesson:
   en: previous lesson
   es: lección anterior
   fr: lesson précédente
-  pt:
+  pt: lição anterior
 series-previous-note:
   en: This lesson is part of a series. You might want to check out the
   es: Esta lección es parte de una serie. Quizás quieras consultar la
   fr: Cette leçon fait partie d'une série. Vous êtes peut-être intéressé(e) par la
-  pt:
+  pt: Esta lição é parte de uma série. Veja também
 series-next-note:
   en: Great! Now you're ready to move on to the
   es: ¡Estupendo! Ahora ya estás listo para pasar a la
   fr: Super! Vous êtes maintenant prêt(e) pour la
-  pt:
+  pt: Parabéns! Agora está pronto(a) para seguir para
 series-note:
    en: This lesson is part of a series of 
    es: Esta lección es parte de una serie de
    fr: Cette leçon fait partie d'une série de
-   pt:
+   pt: Esta lição é parte de uma série de
 lesson-sequence: 
    en: You are on lesson 
    es: Está en la lección
    fr: Vous êtes à la leçon
-   pt:
+   pt: Está na lição
 
 contents:
   en: Contents
   es: Contenidos
   fr: Contenus
-  pt:
+  pt: Conteúdos
 lesson-difficulty:
   0:
     en: Very Low
     es: Muy Bajo
     fr: Très facile
-    pt:
+    pt: Muito baixo
   1:
     en: Low
     es: Bajo
     fr: Facile
-    pt:
+    pt: Baixo
   2:
     en: Medium
     es: Medio
     fr: Moyen
-    pt:
+    pt: Médio
   3:
     en: High
     es: Alto
     fr: Difficile
-    pt:
+    pt: Alto
 lesson:
   en: lessons
   es: lecciones
   fr: leçons
-  pt:
+  pt: lições
 donate:
   en: Support PH
   es: Apoyar PH
   fr: Soutenir PH
-  pt:
+  pt: Apoie o PH
 donation-alert:
   en: |
     ## Donate today!
@@ -551,7 +567,9 @@ donation-alert:
   fr: |
     ## Vous pouvez faire une donation
     Les tutoriels de qualité en accès libre ont un coût de production. Vous pouvez [rejoindre celles et ceux qui soutiennent le _Programming Historian_](https://www.patreon.com/theprogramminghistorian) et contribuer au libre partage des savoirs.
-  pt:
+  pt: |
+    ## Faça uma doação!
+    Tutoriais de qualidade em acesso aberto têm custos de produção. Junte-se ao crescente número de pessoas que [apoia o _The Programming Historian_](https://www.patreon.com/theprogramminghistorian) para que possamos continuar a partilhar o conhecimento gratuitamente.
 
 donation-banner:
     en: |
@@ -560,19 +578,20 @@ donation-banner:
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">¡Dona ahora a <i>The Programming Historian</i>!</a></h2>
     fr: |
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Vous pouvez faire une donation au <i>Programming Historian</i></a></h2>
-    pt:
+    pt: |
+      <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Pode fazer uma doação ao <i>Programming Historian</i></a></h2>
 
 # Included in the lesson.html layout when a lesson has been marked as retired, and is not to be displayed on the main directory.
 retired:
   en: This lesson has been retired
   es: Esta lección ha sido retirada
   fr: Cette leçon n'est plus disponible
-  pt:
+  pt: Esta lição foi retirada
 retired-meaning:
   en: What does this mean?
   es: ¿Qué significa esto?
   fr: Qu'est-ce que cela signifie?
-  pt:
+  pt: O que é que isto significa?
 retired-definition:
   en: |
     The Programming Historian editors do their best to maintain lessons as minor issues inevitably arise. However, since publication, changes to either the underlying technologies or principles used by this lesson have been substantial, to the point where the editors have decided not to further update it. The lesson may still prove a useful learning tool and a snapshot into the techniques of digital history when it was published, but we cannot guarantee all elements will continue to work as intended.
@@ -580,30 +599,31 @@ retired-definition:
     Los editores de The Programming Historian hacen todo lo posible para mantener las lecciones a medida que surgen inevitablemente problemas menores. Sin embargo, desde la publicación, los cambios en las tecnologías subyacentes o los principios utilizados en esta lección han sido sustanciales, hasta el punto de que los editores han decidido no actualizarla más. Es posible que la lección siga siendo una herramienta de aprendizaje útil y una instantánea de las técnicas de la historia digital cuando se publicó, pero no podemos garantizar que todos los elementos sigan funcionando como estaba previsto.
   fr: |
     Les rédacteurs et rédactrices du Programming Historian font tout leur possible pour maintenir les leçons en ligne car de petits problèmes peuvent survenir. Toutefois, depuis sa parution, soit les technologies soit les principes mobilisés par cette leçon ont subi de tels changements qu'il a été décidé de ne plus le mettre à jour. Cette leçon peut encore s'avérer un outil d'apprentissage utile ou encore offrir un aperçu des techniques utilisées en histoire numérique au moment de sa publication, néanmoins nous ne sommes pas en mesure de garantir que dans son ensemble elle reste aussi efficace que prévu.
-  pt:
+  pt: |
+    Os editores do Programming Historian fazem o possível para manter as lições mesmo que surjam, inevitavelmente, problemas. No entanto, desde a sua publicação, as mudanças nas tecnologias subjacentes ou nos princípios usados por esta lição foram substanciais, ao ponto dos editores terem decidido deixar de a atualizar. A lição ainda poderá servir como uma ferramenta de aprendizagem, fornecendo uma visão das técnicas da história digital de quando foi publicada, mas não podemos assegurar que todos os elementos continuem a funcionar como pretendido.
 
 retirement-reason:
   en: Why was this lesson retired?
   es: ¿Por qué ha sido retirada?
   fr: Pourquoi cette leçon a-t-elle été retirée?
-  pt:
+  pt: Porque é que esta lição foi retirada?
 
 # legacy
 and:
   en: and
   es: y
   fr: et
-  pt:
+  pt: e
 by:
   en: by
   es: por
   fr: par
-  pt:
+  pt: por
 reviewed:
   en: reviewed
   es: revisado
   fr: évaluation
-  pt:
+  pt: revisto
 
 python-warning:
   en: |
@@ -612,78 +632,79 @@ python-warning:
     Esta lección ha sido escrita utilizando Python v. 2.x. Es posible que el código no sea compatible con nuevas versiones de Python. "[Introducción a Python e instalación](/es/lecciones/introduccion-e-instalacion)" contiene una panorámica sobre cómo instalar Python 2.x y versiones posteriores.
   fr: |
     Cette leçon a été écrite en utilisant Python v. 2.x. Le code peut ne pas être compatible avec les versions les plus récentes de Python. Merci de consulter la leçon "[Python Introduction and Installation](/en/lessons/introduction-and-installation)" (en anglais) qui fournit des instructions pour installer Python 2.x en plus des versions plus récentes.
-  pt:
+  pt: |
+     Esta lição foi escrita usando o Python v. 2.x. O código pode não ser compatível com as versões mais recentes do Python. "[Introdução ao Python e instalação](/pt/licoes/introdução-e-instalacao)" fornece instruções sobre como instalar o Python 2.x, tal como versões mais recentes.
 
 # Project Team Page
 project-team-roles:
   en: Project Team Roles
   es: Papel en el equipo del proyecto
   fr: Rôles et responsabilités de l'équipe du projet
-  pt:
+  pt: Funções da equipe no projeto
 
 present:
   en: Present
   es: Presente
   fr: Présent
-  pt:
+  pt: Presente
 volume-start:
   en: 2012
   es: 2017
   fr: 2019
-  pt:
+  pt: 2020
 suggested-citation:
   en: Suggested Citation
   es: Cita sugerida
   fr: Pour citer
-  pt:
+  pt: Citação sugerida
 journal-title:
   en: The Programming Historian
   es: The Programming Historian en español
   fr: The Programming Historian en français
-  pt:
+  pt: The Programming Historian em português
 journal-subtitle: # ENGLISH ONLY FOR NOW, DO NOT TRANSLATE
   en: The initial English version
 title-open-quote:
   en: '"'
   es: '"'
   fr: '«'
-  pt:
+  pt: '"'
 title-close-quote:
   en: ',"'
   es: '",'
   fr: ',»'
-  pt:
+  pt: '",'
 available-lesson:
   en: Available in
   es: Disponible en
   fr: Disponible en
-  pt:
+  pt: Disponível em
 language-name:
   en:
     en: English
     es: inglés
     fr: anglais
-    pt:
+    pt: inglês
   pt:
-    en:
-    es:
-    fr:
-    pt:
+    en: Portuguese
+    es: portugués
+    fr: portugais
+    pt: português
   es:
     en: Spanish
     es: español
     fr: espagnol
-    pt:
+    pt: espanhol
   fr:
     en: French
     es: francés
     fr: français
-    pt:
+    pt: francês
 original:
   en: original
   es: original
   fr: originale
-  pt:
+  pt: original
 language-name-abbreviation:
     en: EN
     es: ES
@@ -694,25 +715,25 @@ peer-review:
   en: Peer-reviewed
   es: Revisado por pares
   fr: Évaluée par les pairs
-  pt:
+  pt: Avaliada por pares
 
 # Author Info
 about-the:
   en: About the
   es: Acerca
   fr: À propos
-  pt:
+  pt: Sobre
 the-authors:
   singular:
     en: author
     es: del autor
     fr: de l'auteur(e)
-    pt:
+    pt: autor(a)
   plural:
     en: authors
     es: de los autores
     fr: des auteur(e)s
-    pt:
+    pt: autores(as)
 
 # Home Page
 project-summary:
@@ -722,20 +743,21 @@ project-summary:
     Publicamos tutoriales revisados por pares dirigidos a humanistas que quieran aprender  una amplia gama de herramientas digitales, técnicas computacionales y flujos de trabajo útiles para investigar y enseñar.
   fr: |
     Nous publions des tutoriels évalués par des pairs qui permettent l'initiation à et l'apprentissage d'un large éventail d'outils numériques, de techniques et de flux de travail pour faciliter la recherche et l'enseignement en sciences humaines et sociales.
-  pt:
+  pt: |
+    Publicamos tutoriais acessíveis, avaliados por pares, que ajudam os humanistas a aprender uma ampla gama de ferramentas digitais, técnicas computacionais e metodologias de trabalho que facilitam a pesquisa e o ensino.
 enter:
   en: Enter
   es: Entrar
   fr: Entrez
-  pt:
+  pt: Entrar
 background_color:
   en: "#444444"
   es: "#535D7F"
   fr: "#3D7C81"
-  pt:
+  pt: "#d6b664"
 
 managing_editor:
   en: Sarah Melton
   es: Riva Quiroga
   fr: Sofia Papastamkou
-  pt:
+  pt: Daniel Alves
