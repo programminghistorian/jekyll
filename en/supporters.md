@@ -49,7 +49,8 @@ We also publicly thank all of our 'Patron' supporters:
 - Jodi Burkett
 - Michael Piotrowski
 - Mark Edwin Peterson
-- Nickoal Eichmann-Kalwara.
+- Nickoal Eichmann-Kalwara
+- Bruno Magalhães
 
 ## Management of Donations and Sponsorship
 
