@@ -32,7 +32,7 @@ Le projet est reconnaissant pour leur soutien à:
 - La [faculté d'histoire, d'histoire de l'art et de philosophie de l'Université du Sussex](http://www.sussex.ac.uk/hahp/) pour le financement des efforts du Programming Historian de se doter d'un statut juridique [2019].
 - La [British Academy](https://www.britac.ac.uk/) pour le financement d'un atelier d'écriture à Bogota en Colombie [2018].
 - Le Network in Canadian History & Environment ([NiCHE](http://niche-canada.org/)) pour le soutien de projet émergent et de gestion de projet [2011-2013].
-- Nos donateurs fondateurs [Patreon](https://www.patreon.com/theprogramminghistorian) Rachel Murphy (niveau "Abonné"), Miriam Posner (niveau "Parrain/Marraine") et Tim Hitchcock (niveau "Mécène"). Nous souhaitons remercier tout particulièrement les donateurs de niveau "Mécène" suivants: Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett, Michael Piotrowski, Mark Edwin Peterson, Nickoal Eichmann-Kalwara.
+- Nos donateurs fondateurs [Patreon](https://www.patreon.com/theprogramminghistorian) Rachel Murphy (niveau "Abonné"), Miriam Posner (niveau "Parrain/Marraine") et Tim Hitchcock (niveau "Mécène"). Nous souhaitons remercier tout particulièrement les donateurs de niveau "Mécène" suivants: Tim Hitchcock, Shawn Graham, Jeff Blackadar, Jodi Burkett, Michael Piotrowski, Mark Edwin Peterson, Nickoal Eichmann-Kalwara, Bruno Magalhães.
 
  
 ## Donations
