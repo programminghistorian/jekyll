@@ -1288,10 +1288,8 @@
   team_roles:
     - managing
     - french
-    - editorial
     - proghist
     - board
-    - technical
     - global
   status: volunteer
   bio:
