@@ -1877,3 +1877,35 @@
     - portuguese
     - ombuds
   status: volunteer
+  
+  name: Sylvia Fernández Quintanilla
+  twitter: sferna109
+  email: sferna109@gmail.com
+  url: "https://sylviafernandezq.wordpress.com/"
+  github: sferna109
+  team: true
+  team_start: 2020
+  institution: University of Kansas
+  sortname: Fernández
+  affiliation:
+    en: |
+        University of Kansas, United States.
+    pt: |
+        Universidade de Kansas, United States.
+    es: |
+        Universidad de Kansas, Estados Unidos.
+    fr: |
+        Université du Kansas, États Unis.
+  bio:
+    en: |
+        Sylvia Fernández holds a PhD in Spanish with a concentration in U.S.-Mexico Border Literature from the University of Houston and is the Public and Digital Humanities Research Fellow with the Hall Center for the Humanities and the Institute of Digital Research in the Humanities (IDRH) at the University of Kansas. 
+    pt: |
+        Sylvia Fernández é doutora em Espanhol com concentração em Literatura Fronteiriça EUA-México pela University of Houston e é bolsista de Pesquisa em Humanidades Públicas e Digitais do Hall Center for the Humanities e do Instituto de Pesquisa Digital em Humanidades (IDRH) em a Universidade do Kansas.
+    es: |
+        Sylvia Fernández es doctora en Español con una especialidad en Literatura de la Frontera México-Estados Unidos de la Universidad de Houston y es becaria posdoctoral en Humanidades Digitales y Públicas en el Hall Center for the Humanities y el Instituto de Investigación Digital en Humanidades (IDRH) de la Universidad de Kansas.  
+    fr: |
+        Sylvia Fernández est docteure en études hispaniques spécialiste de la littérature sur la frontière américano-mexicaine de l'Université de Houston. Elle est chercheuse en sciences humaines numériques au Hall Center for the Humanities et à l'Institut de recherche numérique en sciences humaines (IDRH) à l'Université du Kansas.
+    team_roles:
+    - English
+    - editorial
+  status: volunteer
