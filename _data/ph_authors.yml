@@ -1851,35 +1851,6 @@
     - editorial
   status: volunteer
 
-- name: Luis Ferla
-  email: ferla@unifesp.br
-  team: true
-  team_start: 2020
-  institution: Universidade Federal de São Paulo
-  sortname: Ferla
-  affiliation:
-    en: |
-        Universidade Federal de São Paulo.
-    pt: |
-        Universidade Federal de São Paulo.
-    es: |
-        Universidade Federal de São Paulo.
-    fr: |
-        Universidade Federal de São Paulo.
-  bio:
-    en: |
-        Universidade Federal de São Paulo.
-    pt: |
-        Universidade Federal de São Paulo. 
-    es: |
-        Universidade Federal de São Paulo. 
-    fr: |
-        Universidade Federal de São Paulo.
-  team_roles:
-    - portuguese
-    - ombuds
-  status: volunteer
-  
 - name: Sylvia Fernández Quintanilla
   twitter: sferna109
   email: sferna109@gmail.com
@@ -1908,6 +1879,36 @@
     fr: |
         Sylvia Fernández est docteure en études hispaniques spécialiste de la littérature sur la frontière américano-mexicaine de l'Université de Houston. Elle est chercheuse en sciences humaines numériques au Hall Center for the Humanities et à l'Institut de recherche numérique en sciences humaines (IDRH) à l'Université du Kansas.
     team_roles:
-    - english
-    - editorial
+      - english
+      - editorial
+    status: volunteer
+
+- name: Luis Ferla
+  email: ferla@unifesp.br
+  team: true
+  team_start: 2020
+  institution: Universidade Federal de São Paulo
+  sortname: Ferla
+  affiliation:
+    en: |
+        Universidade Federal de São Paulo.
+    pt: |
+        Universidade Federal de São Paulo.
+    es: |
+        Universidade Federal de São Paulo.
+    fr: |
+        Universidade Federal de São Paulo.
+  bio:
+    en: |
+        Luis Ferla, Universidade Federal de São Paulo.
+    pt: |
+        Luis Ferla, Universidade Federal de São Paulo. 
+    es: |
+        Luis Ferla, Universidade Federal de São Paulo. 
+    fr: |
+        Luis Ferla, Universidade Federal de São Paulo.
+  team_roles:
+    - portuguese
+    - ombuds
   status: volunteer
+  
