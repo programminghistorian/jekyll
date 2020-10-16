@@ -921,14 +921,36 @@
       Daniel Ruten é licenciando em História pela University of Saskatchewan.
 
 - name: Nabeel Siddiqui
-  team: false
+  github: nabsiddiqui
+  twitter: nabsiddiqui
+  email: siddiqui@susqu.edu
+  url: "https://www.nabeelsiddiqui.net/"
+  team: true
+  team_start: 2020
+  institution: Susquehanna University
+  sortname: Siddiqui
+  affiliation:
+    en: |
+      Susquehanna University, USA.
+    es: |
+      Universidad de Susquehanna, Estados Unidos.
+    fr: |
+      Université de Susquehanna, États-Unis.
+    pt: |
+      Susquehanna University, Estados Unidos.
   bio:
     en: |
-      Nabeel Siddiqui is a doctoral candidate in American Studies at the College of William and Mary, where he is also an inaugural fellow of the Digital Equality Lab. His research focuses broadly on the relationship between the humanities and computation, with a particular expertise on the cultural history of media, new media studies, digital humanities, information studies, and the history of science and technology. Currently, he is completing his dissertation entitled "Byting Out the Public," which looks at the historical relationship between the personal computer and the private sphere.
+      Nabeel Siddiqui is an Assistant Professor of Digital Media at Susquehanna University.
     es: |
-      Nabeel Siddiqui es doctorando en Estudios Americanos en College of William and Mary, donde también es becario del Digital Equality Lab. Su investigación se centra en las relaciones entre las Humanidades y la Informática, en particular en la historia cultural de los medios, Comunicación y Humanidades Digitales, Ciencias de la Información, Historia de la Ciencia y Tecnología. Actualmente, está realizando su tesis doctoral titulada "Byting Out the Public", que pretende estudiar la relación entre el ordenador personal y la privacidad.
+      Nabeel Siddiqui es profesor asistente de medios digitales en la Universidad de Susquehanna.
+    fr: |
+      Nabeel Siddiqui est professeur adjoint de médias numériques à l'Université de Susquehanna.
     pt: |
-      Nabeel Siddiqui é doutorando em Estudos Americanos no College of William and Mary, onde também é bolseiro no Digital Equality Lab. As suas pesquisas focam-se na relação entre humanidades e computação, especialmente na história cultural dos media, novos estudos dos media, humanidades digitais, ciências da informação e história da ciência e tecnologia. Atualmente, está a terminar a tese intitulada “Byting Out the Public”, a qual olha para a relação histórica entre o computador pessoal e a esfera privada.
+      Nabeel Siddiqui é Professor Auxiliar de mídia digital na Susquehanna University.
+  team_roles:
+    - editorial
+    - english
+  status: volunteer
 
 - name: Anandi Silva Knuppel
   github: alsalin
@@ -1770,7 +1792,7 @@
     - editorial
     - english
   status: volunteer
-
+  
 - name: Danielle Sanches
   twitter: dani_sanches
   email: daniellesanches@fcsh.unl.pt
