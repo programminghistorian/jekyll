@@ -668,6 +668,7 @@
     - managing
     - english
     - board
+    - proghist
   status: volunteer
 
 - name: Sarah Simpkin
@@ -1262,7 +1263,8 @@
       Martin Grandjean es investigador en historia contemporánea en la Universidad de Lausanne (Suiza). Su trabajo se enfoca en el análisis y la visualización de grandes conjuntos de datos históricos.
     pt: |
       Martin Grandjean é pesquisador em História Contemporânea da Université de Lausanne (Suiça). O seu trabalho foca-se na análise e visualização de grandes conjuntos de dados históricos.
-
+  status: volunteer
+  
 - name: Sofia Papastamkou
   email: spapastamkou@gmail.com
   twitter: s_papastamkou
@@ -1866,13 +1868,13 @@
         Universidade Federal de São Paulo.
   bio:
     en: |
-        .
+        temp.
     pt: |
-        . 
+        temp. 
     es: |
-        . 
+        temp. 
     fr: |
-        .
+        temp.
   team_roles:
     - portuguese
     - ombuds
