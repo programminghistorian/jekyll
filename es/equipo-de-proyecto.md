@@ -8,10 +8,6 @@ Por favor, dirige tu correspondencia, en primer lugar a:
 
 {% include managing-editor-loop.html %}
 
-Puedes seguir _Programming Historian_ en Twitter: [@proghist](http://twitter.com/proghist).
-
-{% include toc.html %}
-
 ## Consejo editorial
 
 {% comment %}
