@@ -9,10 +9,6 @@ Por favor, envie a mensagem em primeira instância para:
 
 {% include managing-editor-loop.html %}
 
-Pode seguir o _Programming Historian_ no Twitter: [@proghist](http://twitter.com/proghist).
-
-{% include toc.html %}
-
 ## Conselho Editorial
 
 {% comment %}
