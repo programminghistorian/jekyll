@@ -79,6 +79,33 @@ Todo patrocinio está sujeto al acuerdo del [Consejo Editorial](/es/equipo-de-pr
 - Titular de patrocinio. Por ejemplo, "The Programming Historian en asociación con..." o "The Programming Historian impulsado por..."
 - Lecciones con patrocinio individual o selectivo. Por ejemplo, el emplazamiento del logo del patrocinador en la página de una lección o en las páginas de las lecciones de una única herramiento o conjunto de metodologías.
 
+## Participantes de la comunidad
+
+*Programming Historian* también se beneficia enormemente de los esfuerzos de las personas que ofrecen su tiempo y energía. Si estás interesado en unirte, ya sea con un proyecto único o con una actividad continuada, por favor ¡descubre [cómo contribuir](/es/contribuciones) y lee sobre nuestro [flujo de trabajo](/es/guia-para-autores)!
+
+Agradecemos especialmente a los autores que han contribuido a _Programming Historian_ y que no son miembros del equipo del proyecto:
+
+{% include authors_loop.html %} ¡y esperemos que tú también! Consulta cómo [convertirte en autor](/es/contribuciones).
+
+También queremos dar las gracias a todas las personas que han ayudado a revisar las lecciones, reportando problemas mediante *issues*, arreglando errores, organizando talleres basados en *The Programming Historian*, traduciendo y editando. En el momento en que escribimos estas líneas, la lista de agradecimientos incluye a las siguientes personas:
+
+{% include collaborators_loop.html %} ¡y esperamos que tú tambien! Consulta al respecto [cómo contribuir](/es/contribuciones).
+
+Finalmente, queremos agradecer a aquellas personas que han participado en la organización, ejecución, dirección o apoyo de talleres que involucran al proyecto y al Equipo del Proyecto:
+
+* Anelda van der Walt, Talarify (South Africa)
+* Johann Templehoff, North-West University (South Africa)
+* Niklas Zimmer, University of Cape Town (South Africa)
+* Renate Meyer, University of Cape Town (South Africa)
+* Jane Winters, University of London
+* Jonathan Blaney, University of London
+* Justin Colson, University of Essex
+* Carys Brown, University of Cambridge
+* James Baker, University of Sussex
+* Anouk Lang, University of Edinburgh
+
+
+
 ## ¿No tienes dinero?
 *The Programming Historian en Español* funciona con la energía de voluntarios, y estamos interesados en conocer a cualquier persona que comparta nuestros intereses en la enseñanza de métodos digitales, en forjar nuevos procesos de revisión por pares y en contribuir a la diversidad de la comunidad de humanistas digitales. Así que si no quieres o no puedes hacer una donación a *The Programming Historian en Español* pero deseas contribuir de alguna manera, consulta nuestra página [Contribuye a *The Programming Historian en Español*](/es/contribuciones) donde podrás encontrar otras formas de contribuir.
 
