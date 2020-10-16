@@ -1848,3 +1848,32 @@
     - portuguese
     - editorial
   status: volunteer
+
+- name: Luis Ferla
+  email: ferla@unifesp.br
+  team: true
+  team_start: 2020
+  institution: Universidade Federal de São Paulo
+  sortname: Ferla
+  affiliation:
+    en: |
+        Universidade Federal de São Paulo.
+    pt: |
+        Universidade Federal de São Paulo.
+    es: |
+        Universidade Federal de São Paulo.
+    fr: |
+        Universidade Federal de São Paulo.
+  bio:
+    en: |
+        .
+    pt: |
+        . 
+    es: |
+        . 
+    fr: |
+        .
+  team_roles:
+    - portuguese
+    - ombuds
+  status: volunteer
