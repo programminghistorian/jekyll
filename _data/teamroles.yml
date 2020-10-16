@@ -106,17 +106,6 @@
     es: Responsable del aspecto educativo general del proyecto
     fr: Responsable des aspects pédagogiques du projet
     pt: Responsável pela área educativa do projeto
-- type: impact-manager
-  label:
-    en: Impact Manager
-    es: Mánager de impacto
-    fr: Responsable de la valorisation
-    pt: Gestor de impacto
-  definition:
-    en: Supports, coordinates, and enhances research impact and analytics
-    es: Apoya, coordina y amplía la investigación y análisis del impacto del proyecto
-    fr: Accompagne, coordonne et appuie la valorisation et les travaux d'analyse du projet
-    pt: Apoia, coordena e expande a pesquisa e análise do impacto do projeto
 - type: finance-manager
   label:
     en: Finance Manager
