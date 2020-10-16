@@ -22,7 +22,7 @@
 
 - name: Adam Crymble
   github: acrymble
-  email: adam.crymble@gmail.com
+  email: a.crymble@ucl.ac.uk
   twitter: Adam_Crymble
   url: "http://adamcrymble.org"
   team: true
@@ -49,7 +49,6 @@
       Adam Crymble é professor de História Digital.
   team_roles:
     - proghist
-    - team-development-manager
     - board
   status: volunteer
 
@@ -94,7 +93,8 @@
   team_roles:
     - english
     - ombuds
-
+  status: volunteer
+  
 - name: Fred Gibbs
   team: false
   team_start: 2011
@@ -139,6 +139,7 @@
       Maria José Afanador-Llach é professora assistente de Humanidades Digitais e História na Universidad de los Andes, Bogotá (Colômbia).
   team_roles:
     - spanish
+    - editorial
     - project-manager-at-large
     - board
   status: volunteer
@@ -665,7 +666,6 @@
       Sarah Melton é responsável pelos Estudos Digitais no Boston College.
   team_roles:
     - managing
-    - editorial
     - english
     - board
   status: volunteer
@@ -748,7 +748,6 @@
     pt: |
       Brandon Walsh é responsável pelos programas de graduação do Scholar's Lab da Biblioteca da University of Virginia.
   team_roles:
-    - proghist
     - editorial
     - english
     - board
@@ -855,7 +854,6 @@
     pt: |
       Jessica Parr é professora no Simmons College, em Boston, e especialista no mundo atlântico moderno.
   team_roles:
-    - proghist
     - global-lead
     - board
   status: volunteer
@@ -1165,7 +1163,6 @@
   team_roles:
     - spanish
     - editorial
-    - proghist
     - communication-manager
     - technical
     - board
@@ -1210,7 +1207,6 @@
     - french
     - editorial
     - board
-    - ombuds
   status: institutionally-supported
   bio:
     en: |
@@ -1404,9 +1400,9 @@
   team_roles:
     - editorial
     - english
-    - proghist
     - board
     - technical-lead
+  status: volunteer
 
 - name: Dave Rodriguez
   team: false
@@ -1453,7 +1449,6 @@
   team_roles:
     - managing
     - spanish
-    - editorial
     - proghist
     - board
     - global
@@ -1490,7 +1485,6 @@
     - editorial
     - board
     - new-pub-manager
-    - global
   status: volunteer
 
 - name: Armando Luza
@@ -1532,6 +1526,7 @@
   team_roles:
     - spanish
     - ombuds
+  status: volunteer
 
 - name: Matthew J. Lavin
   team: false
@@ -1648,8 +1643,6 @@
   team_roles:
     - managing
     - portuguese
-    - editorial
-    - proghist
   status: volunteer
 
 - name: Josir Cardoso Gomes
@@ -1676,6 +1669,7 @@
   team_roles:
     - portuguese
     - editorial
+  status: volunteer
   
 - name: Anthony Picón Rodríguez
   team: false
