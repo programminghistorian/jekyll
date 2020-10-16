@@ -9,10 +9,6 @@ Please direct correspondence in the first instance to:
 
 {% include managing-editor-loop.html %}
 
-You can follow the _Programming Historian_ on Twitter: [@proghist](http://twitter.com/proghist).
-
-{% include toc.html %}
-
 ## Editorial Board
 
 {% comment %}
