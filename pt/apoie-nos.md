@@ -85,14 +85,3 @@ O *Programming Historian* funciona da energia inesgotável dos voluntários, e q
 
 As doações e patrocínios são geridos por [James Baker](https://github.com/drjwbaker) em nome do [Conselho Editorial do *Programming Historian*](/pt/equipe).
 
-## Participantes da Comunidade
-
-O _Programming Historian_ também se beneficia enormemente dos esforços de pessoas que contribuem com o seu tempo e energia como voluntários. Se estiver interessado em colaborar, seja num projeto específico ou através de um cargo permanente, veja aqui [como contribuir](/pt/contribua)!
-
-Estamos especialmente gratos aos autores do _Programming Historian_ que não são membros da Equipe do Projeto:
-
-{% include authors_loop.html %} e, esperamos, você também! Saiba mais como [tornar-se um autor](/pt/contribua).
-
-Agradecemos também a todos os que ajudaram a melhorar as nossas lições relatando problemas, corrigindo erros, participando na revisão por pares, traduzindo ou editando. No momento da redação desta página, isso incluía as seguintes pessoas:
-
-{% include collaborators_loop.html %} e, esperamos, você também! Saiba mais [como contribuir](/pt/contribua).
