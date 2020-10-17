@@ -9,8 +9,6 @@ Please direct correspondence in the first instance to:
 
 {% include managing-editor-loop.html %}
 
-## Editorial Board
-
 {% comment %}
 All editorial board information should be edited in data/ph_authors.yml. Authors who are on the editorial team must have team: true in their metadata.
 {% endcomment %}
