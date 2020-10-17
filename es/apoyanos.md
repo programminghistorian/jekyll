@@ -91,21 +91,6 @@ También queremos dar las gracias a todas las personas que han ayudado a revisar
 
 {% include collaborators_loop.html %} ¡y esperamos que tú tambien! Consulta al respecto [cómo contribuir](/es/contribuciones).
 
-Finalmente, queremos agradecer a aquellas personas que han participado en la organización, ejecución, dirección o apoyo de talleres que involucran al proyecto y al Equipo del Proyecto:
-
-* Anelda van der Walt, Talarify (South Africa)
-* Johann Templehoff, North-West University (South Africa)
-* Niklas Zimmer, University of Cape Town (South Africa)
-* Renate Meyer, University of Cape Town (South Africa)
-* Jane Winters, University of London
-* Jonathan Blaney, University of London
-* Justin Colson, University of Essex
-* Carys Brown, University of Cambridge
-* James Baker, University of Sussex
-* Anouk Lang, University of Edinburgh
-
-
-
 ## ¿No tienes dinero?
 *The Programming Historian en Español* funciona con la energía de voluntarios, y estamos interesados en conocer a cualquier persona que comparta nuestros intereses en la enseñanza de métodos digitales, en forjar nuevos procesos de revisión por pares y en contribuir a la diversidad de la comunidad de humanistas digitales. Así que si no quieres o no puedes hacer una donación a *The Programming Historian en Español* pero deseas contribuir de alguna manera, consulta nuestra página [Contribuye a *The Programming Historian en Español*](/es/contribuciones) donde podrás encontrar otras formas de contribuir.
 
