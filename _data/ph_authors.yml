@@ -27,17 +27,17 @@
   url: "http://adamcrymble.org"
   team: true
   team_start: 2011
-  institution: ProgHist Ltd
+  institution: University College London, UK
   sortname: Crymble
   affiliation:
     en: |
-      ProgHist Ltd.
+      University College London, UK
     es: |
-      ProgHist Ltd.
+      University College London, Reigno Unido
     fr: |
-      ProgHist Ltd.
+      University College London, Royaume-Uni
     pt: |
-      ProgHist Ltd.
+      University College London, Reino Unido
   bio:
     en: |
       Adam Crymble, University College London.
@@ -49,7 +49,6 @@
       Adam Crymble, University College London.
   team_roles:
     - proghist
-    - board
   status: volunteer
 
 - name: Caleb McDaniel
@@ -141,7 +140,6 @@
     - spanish
     - editorial
     - project-manager-at-large
-    - board
   status: volunteer
 
 - name: Víctor Gayol
@@ -209,7 +207,6 @@
   team_roles:
     - spanish
     - editorial
-    - board
   status: volunteer
 
 - name: Stephen Margheim
@@ -326,6 +323,15 @@
   url: "https://cradledincaricature.com/"
   sortname: Baker
   orcid: 0000-0002-2682-6922
+  affiliation:
+    en: |
+      University of Sussex, UK
+    es: |
+      University of Sussex, Reigno Unido
+    fr: |
+      University of Sussex, Royaume-Uni
+    pt: |
+      University of Sussex, Reino Unido
   bio:
     en: |
       James Baker is a Senior Lecturer in Digital History and Archives at the University of Sussex
@@ -340,7 +346,6 @@
     - proghist
     - finance-manager
     - archive
-    - board
   status: institutionally-supported
 
 - name: Amanda Morton
@@ -615,8 +620,6 @@
   team: false
   team_start: 2017
   team_end: 2020
-  institution: Carnegie Mellon University
-  sortname: Lincoln
   orcid: 0000-0002-4387-3384
   affiliation:
     en: |
@@ -667,7 +670,6 @@
   team_roles:
     - managing
     - english
-    - board
     - proghist
   status: volunteer
 
@@ -688,8 +690,6 @@
   team: false
   team_start: 2016
   team_end: 2020
-  institution: University of Virginia
-  sortname: Visconti
   affiliation:
     en: |
       University of Virginia, USA.
@@ -856,7 +856,6 @@
       Jessica Parr é professora no Simmons College, em Boston, e especialista no mundo atlântico moderno.
   team_roles:
     - global-lead
-    - board
   status: volunteer
 
 - name: Taylor Arnold
@@ -952,12 +951,9 @@
   status: volunteer
 
 - name: Anandi Silva Knuppel
-  github: alsalin
   team: false
   team_start: 2017
   team_end: 2019
-  institution: Emory University
-  sortname: Silva
   affiliation:
     en: |
       Emory University, USA.
@@ -1005,12 +1001,10 @@
     pt: |
       Anna-Maria Sichani é especialista em História Cultural e Literária e Humanista Digital. Atualmente, trabalha como investigadora em Comunicação e Media na University of Sussex.
   team_roles:
-    - editorial
     - english
     - proghist
     - ed-manager
     - technical
-    - board
   status: volunteer
 
 - name: Evan Peter Williamson
@@ -1131,7 +1125,6 @@
   team_roles:
     - spanish
     - editorial
-    - board
   status: volunteer
 
 - name: Jennifer Isasi
@@ -1166,7 +1159,6 @@
     - editorial
     - communication-manager
     - technical
-    - board
   status: institutionally-supported
 
 - name: Jon MacKay
@@ -1207,8 +1199,7 @@
   team_roles:
     - french
     - editorial
-    - board
-  status: institutionally-supported
+  status: volunteer
   bio:
     en: |
       François Dominic Laramée is a postdoctoral fellow in digital history of medicine at the University of Ottawa, in Canada.
@@ -1253,7 +1244,6 @@
   team_roles:
     - french
     - editorial
-    - board
   bio:
     en: |
       Martin Grandjean is a researcher in contemporary history at the University of Lausanne (Switzerland). His work focuses on the analysis and visualization of large historical data sets.
@@ -1287,7 +1277,6 @@
     - managing
     - french
     - proghist
-    - board
     - global
   status: volunteer
   bio:
@@ -1328,10 +1317,18 @@
   sortname: Boucher
   orcid: 0000-0002-2475-3184
   team_roles:
-    - board
     - french
     - editorial
   status: volunteer
+  affiliation:
+    en: |
+      Justus-Liebig-Universität Gießen, Germany
+    es: |
+      Justus-Liebig-Universität Gießen, Alemania
+    fr: |
+      Justus-Liebig-Universität Gießen, Allemagne
+    pt: |
+      Justus-Liebig-Universität Gießen, Alemanha
   bio:
     en: |
       Marie-Christine Boucher is a doctoral student in German literature at Justus Liebig University Giessen (Germany).
@@ -1402,7 +1399,6 @@
   team_roles:
     - editorial
     - english
-    - board
     - technical-lead
   status: volunteer
 
@@ -1452,7 +1448,6 @@
     - managing
     - spanish
     - proghist
-    - board
     - global
   status: volunteer
 
@@ -1485,7 +1480,6 @@
   team_roles:
     - spanish
     - editorial
-    - board
     - new-pub-manager
   status: volunteer
 
