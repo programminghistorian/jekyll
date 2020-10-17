@@ -69,6 +69,7 @@
   team: true
   team_start: 2014
   team_end: 2018
+  email: i2milligan@uwaterloo.ca
   institution: University of Waterloo
   sortname: Milligan
   affiliation:
@@ -984,13 +985,13 @@
   sortname: Sichani
   affiliation:
     en: |
-      University of Sussex
+      University of Sussex, UK
     es: |
-      University of Sussex
+      University of Sussex, Reigno Unido
     fr: |
-      Université du Sussex
+      University of Sussex, Royaume-Uni
     pt: |
-      University of Sussex
+      University of Sussex, Reino Unido
   bio:
     en: |
       Anna-Maria Sichani is a literary and cultural historian and a Digital Humanist. She is currently a Research Fellow in Media History at the University of Sussex.
@@ -1002,6 +1003,7 @@
       Anna-Maria Sichani é especialista em História Cultural e Literária e Humanista Digital. Atualmente, trabalha como investigadora em Comunicação e Media na University of Sussex.
   team_roles:
     - english
+    - editorial
     - proghist
     - ed-manager
     - technical
@@ -1234,13 +1236,13 @@
   orcid: 0000-0003-3184-3943
   affiliation:
     en: |
-      University of Lausannne (Switzerland)
+      University of Lausannne, Switzerland
     fr: |
-      Université de Lausanne (Suisse)
+      Université de Lausanne, Suisse
     es: |
-      Universidad de Lausanne (Suiza)
+      Universidad de Lausanne, Suiza
     pt: |
-      University of Lausannne (Suiça)
+      University of Lausannne, Suiça
   team_roles:
     - french
     - editorial
@@ -1266,13 +1268,13 @@
   orcid: 0000-0002-5148-1348
   affiliation:
     en: |
-      Institut de recherches historiques du Septentrion (IRHiS, CNRS/University of Lille)
+      Institut de recherches historiques du Septentrion (IRHiS, CNRS/University of Lille), France
     es: |
-      Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille)
+      Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille), Francia
     fr: |
-      Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
+      Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille), France
     pt: |
-      Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
+      Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille), França
   team_roles:
     - managing
     - french
@@ -1461,13 +1463,13 @@
   sortname: Ortiz
   affiliation:
     en: |
-      University of Texas, at Austin.
+      University of Texas, at Austin, USA.
     es: |
-      Universidad de Texas en Austin.
+      Universidad de Texas en Austin, Estados Unidos.
     fr: |
-      Université du Texas à Austin.
+      Université du Texas à Austin, États-Unis.
     pt: |
-      University of Texas, em Austin.
+      University of Texas, em Austin, Estados Unidos da América.
   bio:
     en: |
       Joshua G. Ortiz Baco is a PhD student in Spanish and Portuguese at the University of Texas, at Austin.
@@ -1856,7 +1858,7 @@
   sortname: Fernández
   affiliation:
     en: |
-        University of Kansas, United States.
+        University of Kansas, USA.
     pt: |
         Universidade de Kansas, United States.
     es: |
@@ -1885,13 +1887,13 @@
   sortname: Ferla
   affiliation:
     en: |
-        Universidade Federal de São Paulo.
+        Universidade Federal de São Paulo, Brazil.
     pt: |
-        Universidade Federal de São Paulo.
+        Universidade Federal de São Paulo, Brasil.
     es: |
-        Universidade Federal de São Paulo.
+        Universidade Federal de São Paulo, Brasil.
     fr: |
-        Universidade Federal de São Paulo.
+        Universidade Federal de São Paulo, Brésil.
   bio:
     en: |
         Luis Ferla, Universidade Federal de São Paulo.
