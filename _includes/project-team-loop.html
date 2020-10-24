@@ -39,6 +39,21 @@ is used both on project-team.md as well as es/equipo-de-proyecto.md
 {% include contact-info.html name=member.name %}
 {% endfor %}
 
+{% assign techlead = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'technical-lead'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in techlead %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
+{% assign globallead = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'global-lead'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in globallead %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
+{% assign commslead = site.data.ph_authors | where_exp: "member", "member.team_roles contains 'communication-manager'" | where_exp: "member", "member.team == true" | sort: "sortname" %}
+{% for member in commslead %}
+{% include contact-info.html name=member.name %}
+{% endfor %}
+
 
 ### {{ site.data.snippets.project-team-roles[page.lang] }}
 <ul>

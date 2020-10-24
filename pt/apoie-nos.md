@@ -84,3 +84,4 @@ O *Programming Historian* funciona da energia inesgotável dos voluntários, e q
 ## Gestão de Doações e Patrocínios
 
 As doações e patrocínios são geridos por [James Baker](https://github.com/drjwbaker) em nome do [Conselho Editorial do *Programming Historian*](/pt/equipe).
+

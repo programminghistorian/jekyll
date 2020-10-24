@@ -79,6 +79,7 @@ Todo patrocinio está sujeto al acuerdo del [Consejo Editorial](/es/equipo-de-pr
 - Titular de patrocinio. Por ejemplo, "The Programming Historian en asociación con..." o "The Programming Historian impulsado por..."
 - Lecciones con patrocinio individual o selectivo. Por ejemplo, el emplazamiento del logo del patrocinador en la página de una lección o en las páginas de las lecciones de una única herramiento o conjunto de metodologías.
 
+
 ## ¿No tienes dinero?
 *The Programming Historian en Español* funciona con la energía de voluntarios, y estamos interesados en conocer a cualquier persona que comparta nuestros intereses en la enseñanza de métodos digitales, en forjar nuevos procesos de revisión por pares y en contribuir a la diversidad de la comunidad de humanistas digitales. Así que si no quieres o no puedes hacer una donación a *The Programming Historian en Español* pero deseas contribuir de alguna manera, consulta nuestra página [Contribuye a *The Programming Historian en Español*](/es/contribuciones) donde podrás encontrar otras formas de contribuir.
 

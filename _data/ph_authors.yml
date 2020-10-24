@@ -22,35 +22,33 @@
 
 - name: Adam Crymble
   github: acrymble
-  email: adam.crymble@gmail.com
+  email: a.crymble@ucl.ac.uk
   twitter: Adam_Crymble
   url: "http://adamcrymble.org"
   team: true
   team_start: 2011
-  institution: ProgHist Ltd
+  institution: University College London, UK
   sortname: Crymble
   affiliation:
     en: |
-      ProgHist Ltd.
+      University College London, UK
     es: |
-      ProgHist Ltd.
+      University College London, Reigno Unido
     fr: |
-      ProgHist Ltd.
+      University College London, Royaume-Uni
     pt: |
-      ProgHist Ltd.
+      University College London, Reino Unido
   bio:
     en: |
-      Adam Crymble is a senior lecturer of digital history.
+      Adam Crymble, University College London.
     es: |
-      Adam Crymble es profesor de historia digital.
+      Adam Crymble, University College London.
     fr: |
-      Adam Crymble est maître de conférences en histoire numérique.
+      Adam Crymble, University College London.
     pt: |
-      Adam Crymble é professor de História Digital.
+      Adam Crymble, University College London.
   team_roles:
     - proghist
-    - team-development-manager
-    - board
   status: volunteer
 
 - name: Caleb McDaniel
@@ -71,6 +69,7 @@
   team: true
   team_start: 2014
   team_end: 2018
+  email: i2milligan@uwaterloo.ca
   institution: University of Waterloo
   sortname: Milligan
   affiliation:
@@ -94,7 +93,8 @@
   team_roles:
     - english
     - ombuds
-
+  status: volunteer
+  
 - name: Fred Gibbs
   team: false
   team_start: 2011
@@ -139,8 +139,8 @@
       Maria José Afanador-Llach é professora assistente de Humanidades Digitais e História na Universidad de los Andes, Bogotá (Colômbia).
   team_roles:
     - spanish
+    - editorial
     - project-manager-at-large
-    - board
   status: volunteer
 
 - name: Víctor Gayol
@@ -208,7 +208,6 @@
   team_roles:
     - spanish
     - editorial
-    - board
   status: volunteer
 
 - name: Stephen Margheim
@@ -325,6 +324,15 @@
   url: "https://cradledincaricature.com/"
   sortname: Baker
   orcid: 0000-0002-2682-6922
+  affiliation:
+    en: |
+      University of Sussex, UK
+    es: |
+      University of Sussex, Reigno Unido
+    fr: |
+      University of Sussex, Royaume-Uni
+    pt: |
+      University of Sussex, Reino Unido
   bio:
     en: |
       James Baker is a Senior Lecturer in Digital History and Archives at the University of Sussex
@@ -339,7 +347,6 @@
     - proghist
     - finance-manager
     - archive
-    - board
   status: institutionally-supported
 
 - name: Amanda Morton
@@ -614,8 +621,6 @@
   team: false
   team_start: 2017
   team_end: 2020
-  institution: Carnegie Mellon University
-  sortname: Lincoln
   orcid: 0000-0002-4387-3384
   affiliation:
     en: |
@@ -665,9 +670,8 @@
       Sarah Melton é responsável pelos Estudos Digitais no Boston College.
   team_roles:
     - managing
-    - editorial
     - english
-    - board
+    - proghist
   status: volunteer
 
 - name: Sarah Simpkin
@@ -687,8 +691,6 @@
   team: false
   team_start: 2016
   team_end: 2020
-  institution: University of Virginia
-  sortname: Visconti
   affiliation:
     en: |
       University of Virginia, USA.
@@ -748,7 +750,6 @@
     pt: |
       Brandon Walsh é responsável pelos programas de graduação do Scholar's Lab da Biblioteca da University of Virginia.
   team_roles:
-    - proghist
     - editorial
     - english
     - board
@@ -855,9 +856,7 @@
     pt: |
       Jessica Parr é professora no Simmons College, em Boston, e especialista no mundo atlântico moderno.
   team_roles:
-    - proghist
     - global-lead
-    - board
   status: volunteer
 
 - name: Taylor Arnold
@@ -953,12 +952,9 @@
   status: volunteer
 
 - name: Anandi Silva Knuppel
-  github: alsalin
   team: false
   team_start: 2017
   team_end: 2019
-  institution: Emory University
-  sortname: Silva
   affiliation:
     en: |
       Emory University, USA.
@@ -989,13 +985,13 @@
   sortname: Sichani
   affiliation:
     en: |
-      University of Sussex
+      University of Sussex, UK
     es: |
-      University of Sussex
+      University of Sussex, Reigno Unido
     fr: |
-      Université du Sussex
+      University of Sussex, Royaume-Uni
     pt: |
-      University of Sussex
+      University of Sussex, Reino Unido
   bio:
     en: |
       Anna-Maria Sichani is a literary and cultural historian and a Digital Humanist. She is currently a Research Fellow in Media History at the University of Sussex.
@@ -1006,12 +1002,11 @@
     pt: |
       Anna-Maria Sichani é especialista em História Cultural e Literária e Humanista Digital. Atualmente, trabalha como investigadora em Comunicação e Media na University of Sussex.
   team_roles:
-    - editorial
     - english
+    - editorial
     - proghist
     - ed-manager
     - technical
-    - board
   status: volunteer
 
 - name: Evan Peter Williamson
@@ -1132,7 +1127,6 @@
   team_roles:
     - spanish
     - editorial
-    - board
   status: volunteer
 
 - name: Jennifer Isasi
@@ -1165,10 +1159,8 @@
   team_roles:
     - spanish
     - editorial
-    - proghist
     - communication-manager
     - technical
-    - board
   status: institutionally-supported
 
 - name: Jon MacKay
@@ -1209,9 +1201,7 @@
   team_roles:
     - french
     - editorial
-    - board
-    - ombuds
-  status: institutionally-supported
+  status: volunteer
   bio:
     en: |
       François Dominic Laramée is a postdoctoral fellow in digital history of medicine at the University of Ottawa, in Canada.
@@ -1246,17 +1236,16 @@
   orcid: 0000-0003-3184-3943
   affiliation:
     en: |
-      University of Lausannne (Switzerland)
+      University of Lausannne, Switzerland
     fr: |
-      Université de Lausanne (Suisse)
+      Université de Lausanne, Suisse
     es: |
-      Universidad de Lausanne (Suiza)
+      Universidad de Lausanne, Suiza
     pt: |
-      University of Lausannne (Suiça)
+      University of Lausannne, Suiça
   team_roles:
     - french
     - editorial
-    - board
   bio:
     en: |
       Martin Grandjean is a researcher in contemporary history at the University of Lausanne (Switzerland). His work focuses on the analysis and visualization of large historical data sets.
@@ -1266,7 +1255,8 @@
       Martin Grandjean es investigador en historia contemporánea en la Universidad de Lausanne (Suiza). Su trabajo se enfoca en el análisis y la visualización de grandes conjuntos de datos históricos.
     pt: |
       Martin Grandjean é pesquisador em História Contemporânea da Université de Lausanne (Suiça). O seu trabalho foca-se na análise e visualização de grandes conjuntos de dados históricos.
-
+  status: volunteer
+  
 - name: Sofia Papastamkou
   email: spapastamkou@gmail.com
   twitter: s_papastamkou
@@ -1278,20 +1268,17 @@
   orcid: 0000-0002-5148-1348
   affiliation:
     en: |
-      Institut de recherches historiques du Septentrion (IRHiS, CNRS/University of Lille)
+      Institut de recherches historiques du Septentrion (IRHiS, CNRS/University of Lille), France
     es: |
-      Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille)
+      Institut de recherches historiques du Septentrion (IRHiS, CNRS/Universidad de Lille), Francia
     fr: |
-      Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
+      Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille), France
     pt: |
-      Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille)
+      Institut de recherches historiques du Septentrion (IRHiS UMR 8529, CNRS/Université de Lille), França
   team_roles:
     - managing
     - french
-    - editorial
     - proghist
-    - board
-    - technical
     - global
   status: volunteer
   bio:
@@ -1332,10 +1319,18 @@
   sortname: Boucher
   orcid: 0000-0002-2475-3184
   team_roles:
-    - board
     - french
     - editorial
   status: volunteer
+  affiliation:
+    en: |
+      Justus-Liebig-Universität Gießen, Germany
+    es: |
+      Justus-Liebig-Universität Gießen, Alemania
+    fr: |
+      Justus-Liebig-Universität Gießen, Allemagne
+    pt: |
+      Justus-Liebig-Universität Gießen, Alemanha
   bio:
     en: |
       Marie-Christine Boucher is a doctoral student in German literature at Justus Liebig University Giessen (Germany).
@@ -1406,9 +1401,8 @@
   team_roles:
     - editorial
     - english
-    - proghist
-    - board
     - technical-lead
+  status: volunteer
 
 - name: Dave Rodriguez
   team: false
@@ -1455,9 +1449,7 @@
   team_roles:
     - managing
     - spanish
-    - editorial
     - proghist
-    - board
     - global
   status: volunteer
 
@@ -1471,13 +1463,13 @@
   sortname: Ortiz
   affiliation:
     en: |
-      University of Texas, at Austin.
+      University of Texas, at Austin, USA.
     es: |
-      Universidad de Texas en Austin.
+      Universidad de Texas en Austin, Estados Unidos.
     fr: |
-      Université du Texas à Austin.
+      Université du Texas à Austin, États-Unis.
     pt: |
-      University of Texas, em Austin.
+      University of Texas, em Austin, Estados Unidos da América.
   bio:
     en: |
       Joshua G. Ortiz Baco is a PhD student in Spanish and Portuguese at the University of Texas, at Austin.
@@ -1490,9 +1482,7 @@
   team_roles:
     - spanish
     - editorial
-    - board
     - new-pub-manager
-    - global
   status: volunteer
 
 - name: Armando Luza
@@ -1534,6 +1524,7 @@
   team_roles:
     - spanish
     - ombuds
+  status: volunteer
 
 - name: Matthew J. Lavin
   team: false
@@ -1650,8 +1641,6 @@
   team_roles:
     - managing
     - portuguese
-    - editorial
-    - proghist
   status: volunteer
 
 - name: Josir Cardoso Gomes
@@ -1678,6 +1667,7 @@
   team_roles:
     - portuguese
     - editorial
+  status: volunteer
   
 - name: Anthony Picón Rodríguez
   team: false
@@ -1856,3 +1846,65 @@
     - portuguese
     - editorial
   status: volunteer
+
+- name: Sylvia Fernández Quintanilla
+  twitter: sferna109
+  email: sferna109@gmail.com
+  url: "https://sylviafernandezq.wordpress.com/"
+  github: sferna109
+  team: true
+  team_start: 2020
+  institution: University of Kansas
+  sortname: Fernández
+  affiliation:
+    en: |
+        University of Kansas, USA.
+    pt: |
+        Universidade de Kansas, United States.
+    es: |
+        Universidad de Kansas, Estados Unidos.
+    fr: |
+        Université du Kansas, États Unis.
+  bio:
+    en: |
+        Sylvia Fernández holds a PhD in Spanish with a concentration in U.S.-Mexico Border Literature from the University of Houston and is the Public and Digital Humanities Research Fellow with the Hall Center for the Humanities and the Institute of Digital Research in the Humanities (IDRH) at the University of Kansas.
+    pt: |
+        Sylvia Fernández é doutora em Espanhol com concentração em Literatura Fronteiriça EUA-México pela University of Houston e é bolsista de Pesquisa em Humanidades Públicas e Digitais do Hall Center for the Humanities e do Instituto de Pesquisa Digital em Humanidades (IDRH) em a Universidade do Kansas.
+    es: |
+        Sylvia Fernández es doctora en Español con una especialidad en Literatura de la Frontera México-Estados Unidos de la Universidad de Houston y es becaria posdoctoral en Humanidades Digitales y Públicas en el Hall Center for the Humanities y el Instituto de Investigación Digital en Humanidades (IDRH) de la Universidad de Kansas.  
+    fr: |
+        Sylvia Fernández est docteure en études hispaniques spécialiste de la littérature sur la frontière américano-mexicaine de l'Université de Houston. Elle est chercheuse en sciences humaines numériques au Hall Center for the Humanities et à l'Institut de recherche numérique en sciences humaines (IDRH) à l'Université du Kansas.  team_roles:
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+- name: Luis Ferla
+  email: ferla@unifesp.br
+  team: true
+  team_start: 2020
+  institution: Universidade Federal de São Paulo
+  sortname: Ferla
+  affiliation:
+    en: |
+        Universidade Federal de São Paulo, Brazil.
+    pt: |
+        Universidade Federal de São Paulo, Brasil.
+    es: |
+        Universidade Federal de São Paulo, Brasil.
+    fr: |
+        Universidade Federal de São Paulo, Brésil.
+  bio:
+    en: |
+        Luis Ferla, Universidade Federal de São Paulo.
+    pt: |
+        Luis Ferla, Universidade Federal de São Paulo. 
+    es: |
+        Luis Ferla, Universidade Federal de São Paulo. 
+    fr: |
+        Luis Ferla, Universidade Federal de São Paulo.
+  team_roles:
+    - portuguese
+    - ombuds
+  status: volunteer
+  
