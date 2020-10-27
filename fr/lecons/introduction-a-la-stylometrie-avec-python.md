@@ -53,7 +53,7 @@ L'identification de l'auteur d'un texte anonyme constitue cependant l'une des ap
 * Les rudiments du [Natural Language Toolkit (documentation en anglais)](https://www.nltk.org/) (nltk), un module Python populaire dédié au [traitement du langage naturel](https://fr.wikipedia.org/wiki/Traitement_automatique_du_langage_naturel).
 
 <div class="alert alert-warning">
-Veuillez noter que le code informatique de cette leçon a été conçu pour être exécuté en séquence. Si, par exemple, vous désirez passer outre la méthode de Mendenhall et vous diriger directement vers celle de Klgariff ou celle de Burrows, veuillez vous assurer de copier-coller les instructions de pré-traitement qui apparaissent dans la description de la méthode de Mendenhall vers votre propre bloc de code. Sinon, vous n'obtiendrez pas exactement les résultats présentés ici.
+Veuillez noter que le code informatique de cette leçon a été conçu pour être exécuté en séquence. Si, par exemple, vous désirez passer outre la méthode de Mendenhall et vous diriger directement vers celle de Kilgariff ou celle de Burrows, veuillez vous assurer de copier-coller les instructions de pré-traitement qui apparaissent dans la description de la méthode de Mendenhall vers votre propre bloc de code. Sinon, vous n'obtiendrez pas exactement les résultats présentés ici.
 </div>
 
 ## Lectures préalables
