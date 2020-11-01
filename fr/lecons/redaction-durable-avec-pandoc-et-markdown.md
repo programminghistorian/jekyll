@@ -14,18 +14,19 @@ translator:
 - Marie-Christine Boucher
 translation-editor:
 - Sofia Papastamkou
-translation reviewer:
+translation-reviewer:
 - Arthur Perret
 original: sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/307
 difficulty: 2
 activity: sustaining
 topics: [website, data-management]
-exclude from check:
+exclude_from_check:
 - reviewers
 abstract: | 
 Cette leçon vous apprendra les notions de base de Markdown, une syntaxe de balisage facile à lire et écrire, ainsi que Pandoc, un outil en ligne de commande qui permet de convertir du texte brut en différents types de fichiers bien formatés: PDF, .docx, HTML, LaTeX, diaporama, et plus encore.
 avatar_alt: Homme assis devant une table à dessin
+doi: 
 ---
 {% include toc.html %}
 
