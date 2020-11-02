@@ -26,7 +26,7 @@ exclude_from_check:
 abstract: | 
 Cette leçon vous apprendra les notions de base de Markdown, une syntaxe de balisage facile à lire et écrire, ainsi que Pandoc, un outil en ligne de commande qui permet de convertir du texte brut en différents types de fichiers bien formatés: PDF, .docx, HTML, LaTeX, diaporama, et plus encore.
 avatar_alt: Homme assis devant une table à dessin
-doi: 
+doi: 10.46430/phfr0013
 ---
 {% include toc.html %}
 
@@ -50,7 +50,7 @@ La rédaction, le stockage et la consultation de documents sont des étapes cruc
 
 Plus qu'une simple frustration personnelle, cette dépendance aux outils et formats propriétaires a des implications négatives à long terme pour la communauté scientifique. Dans un tel environnement, les revues doivent sous-traiter la mise en page, éloignant par le fait même les auteur(e)s du contexte matériel de la publication et ajoutant d'avantage d'obstacles inutiles à la circulation sans entraves du savoir.[^3]
 
-Quand vous utilisez MS Word, Google Docs ou Open Office pour écrire des textes, vous ne voyez pas ce qui se passe en coulisses. Sous une surface de mots, phrases et paragraphes visibles à l'écran se cache une autre couche, de code celle-là, que seule la machine peut comprendre. À cause de cette couche de code dissimulée, vos documents en format .docx et  .pdf dépendent de logiciels propriétaires pour être affichés correctement. Il est donc diffile d'effectuer des recherches dans ces documents, de les imprimer et de les convertir en d'autre formats.
+Quand vous utilisez MS Word, Google Docs ou Open Office pour écrire des textes, vous ne voyez pas ce qui se passe en coulisses. Sous une surface de mots, phrases et paragraphes visibles à l'écran se cache une autre couche, de code celle-là, que seule la machine peut comprendre. À cause de cette couche de code dissimulée, vos documents en format .docx et .pdf dépendent de logiciels propriétaires pour être affichés correctement. Il est donc diffile d'effectuer des recherches dans ces documents, de les imprimer et de les convertir en d'autre formats.
 
 De plus, le temps que vous passez à formater votre document dans MS Word ou Open Office est du temps perdu, puisque ce formatage sera retiré par l'éditeur au moment de la publication. Autant les auteur(e)s que les éditeurs et éditrices gagneraient à s'échanger des fichiers contenant un minimum de formatage, en réservant la mise en page pour l'étape finale du processus de publication.
 
