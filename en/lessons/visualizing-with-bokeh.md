@@ -61,7 +61,7 @@ If this dataset doesn't fit your interests or if you'd like more practice after 
 
   - [Civil Unrest Events](https://data.world/history/civil-unrest-event-data): A single table cataloging over 60,000 events of civil unrest across the world since the end of World War II.
 
-  - [Trans-Atlantic Slave Trade Database](http://www.slavevoyages.org/voyage/search): Searchable and customizable tabular data on 36,000 slaving voyages that transported over 10 million slaves from the 16th to 19th centuries.
+  - [Trans-Atlantic Slave Trade Database](https://www.slavevoyages.org/voyage/database): Searchable and customizable tabular data on 36,000 slaving voyages that transported over 10 million slaves from the 16th to 19th centuries.
 
 All three datasets contain comparable quantitative, qualitative, and temporal data to those found in the THOR dataset. The Civil Unrest Events and Trans-Atlantic Slave Trade datasets both contain spatial data, though this is lacking from the Scottish Witchcraft Trials data.
 

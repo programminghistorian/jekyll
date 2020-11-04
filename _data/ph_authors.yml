@@ -418,6 +418,8 @@
       Dennis Tenen es profesor asistente de Inglés y Literatura Comparativa en la Universidad de Columbia.
     pt: |
       Dennis Tenen é professor assistente de Inglês e Literatura Comparada na Columbia University.
+    fr: | 
+      Dennis Tenen est professeur en littérature anglaise et comparée à l'Université Columbia.
 
 - name: Grant Wythoff
   team: false
@@ -429,6 +431,8 @@
       Grant Wythoff es profesor adjunto en el Departamento de Inglés y Literatura Comparativa de la Universidad de Columbia.
     pt: |
       Grant Wythoff é professor no Departamento de Inglês e Literatura Comparada na Columbia University.
+    fr: |
+      Grant Wythoff est maître de conférences au département de littérature anglaise et comparée de l'Université Columbia. 
   
 - name: Shawn Graham
   team: false
@@ -1352,6 +1356,14 @@
 - name: Alix Chagué
   team: false
   orcid: 0000-0002-0136-4434
+
+- name: Arthur Perret
+  team: false
+  orcid: 0000-0002-4130-6669
+  
+- name: Sylvain Machefert
+  team: false
+  orcid: 0000-0001-9288-1754
 
 - name: Eric Weinberg
   team: false
