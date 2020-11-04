@@ -46,7 +46,7 @@ Au lieu de suivre cette leçon de façon mécanique, nous vous recommandons de c
 
 ## Philosophie
 
-La rédaction, le stockage et la consultation de documents sont des étapes cruciales du processus de recherche dans le domaine des humanités. Et pourtant, le travail de nombre d'auteur(e)s repose sur des outils et des formats propriétaires qui n'arrivent parfois même pas à satisfaire les exigences de base de la rédaction scientifique. Vous connaissez sûrement l'exaspération que peut engendrer la fragilité des notes de bas de page, bibliographies, figures et brouillons de livres rédigés dans Microsoft Word ou Google Docs. Et pourtant, la plupart des revues scientifiques insistent encore à ce que les contributions soient soumises en format .docx.
+La rédaction, le stockage et la consultation de documents sont des étapes cruciales du processus de recherche dans le domaine des humanités. Et pourtant, le travail de nombre d'auteur(e)s repose sur des outils et des formats propriétaires qui n'arrivent parfois même pas à satisfaire aux exigences de base de la rédaction scientifique. Vous connaissez sûrement l'exaspération que peut engendrer la fragilité des notes de bas de page, bibliographies, figures et brouillons de livres rédigés dans Microsoft Word ou Google Docs. Et pourtant, la plupart des revues scientifiques insistent encore à ce que les contributions soient soumises en format .docx.
 
 Plus qu'une simple frustration personnelle, cette dépendance aux outils et formats propriétaires a des implications négatives à long terme pour la communauté scientifique. Dans un tel environnement, les revues doivent sous-traiter la mise en page, éloignant par le fait même les auteur(e)s du contexte matériel de la publication et ajoutant d'avantage d'obstacles inutiles à la circulation sans entraves du savoir.[^3]
 
@@ -92,7 +92,7 @@ Nous omettons délibérément certains détails précis du processus d'installat
 
 Les deux logiciels suivants sont recommandés, mais ne sont pas requis pour compléter ce tutoriel.
 
-- **Zotero ou Endnote**. Les logiciels de gestion bibliographique sont des outils indispensables à l'organisation et au formatage des citations d'un article scientifique. Ces programmes vous permettent d'exporter vos bibliothèques en fichiers BibTeX (vous en apprendrez plus là-dessus plus tard dans cette leçon). Ce fichier contenant toutes vos références au format texte brut vous permettra de citer rapidement et facilement en utilisant des clés de citation `@key`. Notez qu'il est aussi possible de saisir toutes vos références bibliographiques à la main en vous servant de [notre bibliographie](https://github.com/dhcolumbia/pandoc-workflow/blob/master/pandoctut.bib) comme modèle.
+- **Zotero ou Endnote**. Les logiciels de gestion bibliographique sont des outils indispensables à l'organisation et au formatage des citations d'un article scientifique. Ces programmes vous permettent d'exporter vos bibliothèques en fichiers BibTeX (vous en apprendrez plus là-dessus plus tard dans cette leçon). Ce fichier contenant toutes vos références en format texte brut vous permettra de citer rapidement et facilement en utilisant des clés de citation `@key`. Notez qu'il est aussi possible de saisir toutes vos références bibliographiques à la main en vous servant de [notre bibliographie](https://github.com/dhcolumbia/pandoc-workflow/blob/master/pandoctut.bib) comme modèle.
 
 - **LaTeX**. Des instructions d'installation détaillées spécifiques à chaque plateforme sont disponibles sur le [site web de Pandoc](https://pandoc.org/installing.html). Ce tutoriel n'aborde pas le sujet, mais Pandoc se sert de LaTeX pour créer des PDF. Les utilisateurs avancés convertissent souvent les documents directement en LaTeX pour avoir un contrôle plus précis sur la mise en page du fichier .pdf. Les débutants peuvent choisir de sauter cette étape. Sinon, tapez `latex -v` pour voir si LaTeX est installé correctement (vous obtiendrez une erreur s'il ne l'est pas, et des informations sur la version s'il est bel et bien installé).
 
@@ -137,7 +137,7 @@ Insérez du faux-texte pour les besoins de l'essai. Les espaces sont interprét�
 Vous pouvez vous servir des astérisques pour mettre vos mots en gras ou en italique, comme suit : `*italique*` et `**gras**`. Ajoutons aussi un lien et une note de bas de page, pour faire le tour des éléments de base d'un article moyen. Écrivez:
 
 ```
-Une phrase qui requiert une note [^1].
+Une phrase qui requiert une note[^1].
 
 [^1]: Ma première note de bas de page ! Ajoutez un [lien](https://www.eff.org/).
 ```
@@ -177,7 +177,7 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 
 ## Sous-section 2.2
 
-Une phrase qui requiert une note [^1].
+Une phrase qui requiert une note[^1].
 
 [^1]: Ma première note de bas de page ! Ajoutez un [lien](https://www.eff.org/).
 ```
@@ -192,23 +192,23 @@ Prenez maintenant un peu de temps pour explorer d'autres fonctionnalités du Mar
 
 Portez une attention particulière aux espaces vides et au découpage des paragraphes. La documentation définit un paragraphe de manière succincte comme étant "une ou plusieurs lignes de texte suivies d'une ou plusieurs lignes vides". Notez que "les retours chariots sont traités comme des espaces" et que "si vous avez besoin d'un saut de ligne, mettez deux espaces ou plus à la fin d'une ligne". La meilleure façon de comprendre ce que cela signifie est d'expérimenter sur le tas. Utilisez le mode de prévisualisation de votre éditeur ou lancez simplement Pandoc pour voir les résultats de vos expériences.
 
-Avant tout, résistez à la tentation de la mise en forme graphique. Souvenez-vous que vous identifiez des unités *sémantiques* : sections, sous-sections, emphase, notes de bas de page et figures. En Markdown, même les `*italiques*` et les `**caractères gras**` ne sont pas vraiment des marques de formatage ; ils indiquent plutôt différents niveaux d'emphase. La mise en page interviendra plus tard, lorsque vous connaîtrez le lieu et les conditions de publication.
+Avant tout, résistez à la tentation de mettre en forme le document. Souvenez-vous que vous identifiez des unités *sémantiques* : sections, sous-sections, emphase, notes de bas de page et figures. En Markdown, même les `*italiques*` et les `**caractères gras**` ne sont pas vraiment des marques de formatage ; ils indiquent plutôt différents niveaux d'emphase. La mise en page interviendra plus tard, lorsque vous connaîtrez le lieu et les conditions de publication.
 
 Certains programmes vous permettent de voir un aperçu en direct du formatage de votre fichier Markdown pendant que vous écrivez. Vous en trouverez des exemples dans la section [Ressources utiles](#ressources-utiles) à la fin de cette leçon. Cependant, peu d'entre eux supportent les notes de bas de page, les illustrations et les bibliographies. Pour profiter pleinement de Pandoc, nous vous recommandons de conserver de simples fichiers en texte brut, stockés localement, sur votre ordinateur.
 
 ## Découvrez votre terminal intérieur
 
-Avant de publier notre fichier `projet.md` en d'autres formats, nous devons nous familiariser avec la ligne de commande en utilisant le terminal de notre ordinateur, la première (et meilleure) façon d'utiliser Pandoc.
+Avant de publier notre fichier `projet.md` en d'autres formats, nous devons nous familiariser avec la ligne de commande en utilisant le terminal de notre ordinateur, la seule (et meilleure) façon d'utiliser Pandoc.
 
 La ligne de commande est un environnement agréable, une fois qu'on s'y est habitué. Si vous êtes déjà familiarisé avec l'utilisation de la ligne de commande, n'hésitez pas à sauter cette section. Pour les autres, il est important de comprendre que le fait de pouvoir utiliser directement votre terminal vous permettra de recourir à un large éventail d'outils de recherche puissants que vous ne pourriez pas utiliser autrement, et qui peuvent servir de base à des tâches plus avancées. Pour les besoins de ce tutoriel, vous n'avez besoin d'apprendre que quelques commandes très simples.
 
 Commencez par ouvrir une fenêtre de terminal. Si vous utilisez macOS, ouvrez l'application Terminal dans le répertoire "Applications/Utilitaires". Sous Windows, nous vous recommandons d'utiliser PowerShell ou, pour une solution plus robuste, d'installer le sous-système Windows pour Linux et d'utiliser le terminal fourni avec la distribution Linux de votre choix. Pour une excellente introduction à la ligne de commande, vous pouvez consulter cette leçon (en anglais) de Ian Milligan et James Baker : "[Introduction to the Bash Command Line](/en/lessons/intro-to-bash)"
 
-Dans le terminal, vous devriez voir une fenêtre de texte et une invite qui ressemble à ceci: `NOM_DE_L'ORDINATEUR:~NOM_DE_L'UTILISATEUR$`. Le tilde indique votre répertoire de base, et vous pouvez en effet taper `$ cd ~` à n'importe quel moment pour revenir à celui-ci. Ne saisissez pas le symbole `$`, il représente simplement l'invite de commande de votre terminal, qui vous invite à taper quelque chose dans celui-ci (au lieu de le saisir dans un document) ; n'oubliez pas d'appuyer sur la touche d'entrée après chaque commande.
+Dans le terminal, vous devriez voir une fenêtre de texte et une invite qui ressemble à ceci: `nom_de_l'ordinateur:~nom_de_l'utilisateur$`. Le tilde indique votre répertoire de base, et vous pouvez en effet taper `$ cd ~` à n'importe quel moment pour revenir à celui-ci. Ne saisissez pas le symbole `$`, il représente simplement l'invite de commande de votre terminal, qui vous invite à taper quelque chose dans celui-ci (au lieu de le saisir dans un document) ; n'oubliez pas d'appuyer sur la touche d'entrée après chaque commande.
 
 Il est très probable que votre dossier "Documents" se trouve ici. Tapez `$ pwd` (= *print working directory*, imprimer le répertoire de travail) et appuyez sur la touche d'entrée pour afficher le nom du répertoire actuel. Utilisez `$ pwd` chaque fois que vous vous avez l'impression de perdre le nord.
 
-La commande `$ ls` (= *list*, lister) liste simplement les fichiers qui se trouvent dans le répertoire courant. Enfin, vous pouvez utiliser `$ cd` (= *change directory*, changer de répertoire) comme suit : `$ cd NOM_DU_RÉPERTOIRE` (où `NOM_DU_RÉPERTOIRE` est le nom du répertoire que vous aimeriez consulter). Vous pouvez utiliser `$ cd ..` pour remonter automatiquement d'un niveau dans la structure des répertoires (le parent du répertoire dans lequel vous êtes actuellement). Une fois que vous avez commencé à taper le nom du répertoire, utilisez la touche de tabulation pour compléter automatiquement le texte, une fonction particulièrement utile pour les noms de répertoires les plus longs, ou pour ceux qui contiennent des espaces[^6].
+La commande `$ ls` (= *list*, lister) liste simplement les fichiers qui se trouvent dans le répertoire courant. Enfin, vous pouvez utiliser `$ cd` (= *change directory*, changer de répertoire) comme suit : `$ cd NOM_DU_RÉPERTOIRE` (où `NOM_DU_RÉPERTOIRE` est le nom du répertoire que vous aimeriez consulter). Vous pouvez utiliser `$ cd ..` pour remonter automatiquement d'un niveau dans la structure des répertoires (le parent du répertoire dans lequel vous êtes actuellement). Une fois que vous avez commencé à taper le nom du répertoire, utilisez la touche de tabulation pour compléter automatiquement le texte, une fonction particulièrement utile pour les noms de répertoires particulièrement longs, ou pour ceux qui contiennent des espaces[^6].
 
 Ces trois commandes de terminal, `pwd`, `ls` et `cd`, sont tout ce dont vous avez besoin pour cette leçon. Pratiquez-les pendant quelques minutes pour apprendre vous déplacer dans votre fichier et réfléchissez à la façon dont vous avez organisé vos dossiers. Si vous le souhaitez, suivez chaque étape avec l'explorateur de fichiers normal (avec interface graphique) en parallèle afin de ne pas perdre vos repères.
 
@@ -228,7 +228,7 @@ $ pandoc projet.md -o projet.odt
 
 Si vous êtes débutant(e) en matière de ligne de commande, imaginez que vous interprétez la commande ci-dessus de cette façon : "Pandoc, crée un fichier MS Word à partir de mon fichier Markdown." Le `-o`, pour "output" (sortie), est une option qui, dans ce cas-ci, signifie quelque chose comme : "Au lieu d'avoir à te nommer explicitement le format du fichier cible, devine-le à l'aide de l'extension du nom de fichier". De nombreuses options sont disponibles de cette manière dans Pandoc. Vous pouvez en voir la liste complète sur le [site web de Pandoc](https://pandoc.org/MANUAL.html#options) ou en tapant `$ man pandoc` dans le terminal.
 
-Essayez maintenant d'exécuter la commande suivante :
+Tentez maintenant d'exécuter la commande suivante :
 
 ```
 $ pandoc projet.md -o projet.html
