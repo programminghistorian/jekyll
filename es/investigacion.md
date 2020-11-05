@@ -79,7 +79,7 @@ Países Bajos, 9-12 julio, 2019.
 * James Baker, Caitlin Moore, Ernesto Priego, Raquel Alegre, Jez Cope, Ludi Price, Owen Stephens, Daniel van Strien, Greg Wilson, '[Library Carpentry: software skills training for library professionals]', _Liber Quarterly: The Journal of the Association of European Research Libraries_, 26(3) (2016).
 
 
-[Review of the Programming Historian]: http://jah.oxfordjournals.org/content/103/1/299.2.full
+[Review of the Programming Historian]: https://academic.oup.com/jah/article-abstract/103/1/299/1751315
 [Review of the Programming Historian]: http://jitp.commons.gc.cuny.edu/review-of-the-programming-historian
 ['Identifying and Removing Gender Barriers in Open Learning Communities: The Programming Historian']: http://researchprofiles.herts.ac.uk/portal/files/10476604/Blip_2016_Autumn_2016_Final_Autumn_2016.pdf
 ['pre-print pdf']: /researchpapers/openLearningCommunities2016.pdf

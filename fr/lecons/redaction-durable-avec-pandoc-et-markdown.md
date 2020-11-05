@@ -1,5 +1,5 @@
 ---
-title: Rédaction durable avec Pandoc et markdown
+title: Rédaction durable avec Pandoc et Markdown
 collection: lecons
 layout: lesson
 slug: redaction-durable-avec-pandoc-et-markdown
@@ -364,7 +364,7 @@ Ce guide créé par l'École polytechnique fédérale de Lausanne, [Élaboration
 
 Le blogue du [site web d'Arthur Perret](https://www.arthurperret.fr/) offre plusiers entrées sur Pandoc. Le site en soi est un exemple de réalisation d'un site statique avec Pandoc. 
 
-Pour la gestion des bibliographies, consulter aussi: Vincent Carlino, « Markdown et Zotero », *Le blog Zotero francophone*, 14 novembre 2018, [https://zotero.hypotheses.org/2258](https://zotero.hypotheses.org/2258) (consulté le 1er novembre 2020).
+Pour la gestion des bibliographies, consulter aussi: Raphaël Grolimund, Frédérique Flamerie, Vincent Carlino, « Markdown et Zotero », *Le blog Zotero francophone*, 14 novembre 2018, [https://zotero.hypotheses.org/2258](https://zotero.hypotheses.org/2258) (consulté le 1er novembre 2020).
 
 
 
@@ -384,6 +384,4 @@ Pour la gestion des bibliographies, consulter aussi: Vincent Carlino, « Markdow
 
 [^7]: Notez que l'extension .bib peut être "rattachée" automatiquement à Zotero par votre système d'exploitation. Cela signifie que lorsque vous cliquez sur un fichier .bib, il est probable que Zotero sera appelé pour l'ouvrir, alors que nous voulons l'ouvrir dans un éditeur de texte. Il pourrait être judicieux d'associer le format .bib à votre éditeur de texte.
 
-[^8]: Merci à [@njbart](https://github.com/njbart) pour la correction. En réponse à notre
-suggestion originale, `Une phrase qui requiert une citation.^[C'est aussi ce qu'affirme @fyfe_digital_2011.]`, [il écrit](https://github.com/programminghistorian/jekyll/issues/46#issuecomment-59219906) :
-"Ce format n'est pas recommandé car cela vous empêche de passer facilement d'un style avec notes de bas de page à un style auteur-date. Il est préférable d'utiliser la \[version modifiée\] (pas de circonflexe, pas de point final à l'intérieur des crochets, et ponctuation finale de la phrase après les crochets ; pour les styles avec notes de bas de page, Pandoc ajuste automatiquement la position de la ponctuation finale)".
+[^8]: Merci à [@njbart](https://github.com/njbart) pour la correction. En réponse à notre suggestion originale, `Une phrase qui requiert une citation.^[C'est aussi ce qu'affirme @fyfe_digital_2011.]`, [il écrit](https://github.com/programminghistorian/jekyll/issues/46#issuecomment-59219906) : "Ce format n'est pas recommandé car cela vous empêche de passer facilement d'un style avec notes de bas de page à un style auteur-date. Il est préférable d'utiliser la \[version modifiée\] (pas de circonflexe, pas de point final à l'intérieur des crochets, et ponctuation finale de la phrase après les crochets ; pour les styles avec notes de bas de page, Pandoc ajuste automatiquement la position de la ponctuation finale)".
