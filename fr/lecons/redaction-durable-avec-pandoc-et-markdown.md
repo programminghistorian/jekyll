@@ -364,7 +364,7 @@ Ce guide créé par l'École polytechnique fédérale de Lausanne, [Élaboration
 
 Le blogue du [site web d'Arthur Perret](https://www.arthurperret.fr/) offre plusiers entrées sur Pandoc. Le site en soi est un exemple de réalisation d'un site statique avec Pandoc. 
 
-Pour la gestion des bibliographies, consulter aussi: Vincent Carlino, « Markdown et Zotero », *Le blog Zotero francophone*, 14 novembre 2018, [https://zotero.hypotheses.org/2258](https://zotero.hypotheses.org/2258) (consulté le 1er novembre 2020).
+Pour la gestion des bibliographies, consulter aussi: Raphaël Grolimund, Frédérique Flamerie, Vincent Carlino, « Markdown et Zotero », *Le blog Zotero francophone*, 14 novembre 2018, [https://zotero.hypotheses.org/2258](https://zotero.hypotheses.org/2258) (consulté le 1er novembre 2020).
 
 
 
