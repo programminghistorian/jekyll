@@ -18,6 +18,7 @@ translation-reviewer:
 - Antoine Champigny
 - François Dominic Laramée
 translation_date: 2019-06-19
+original: corpus-analysis-with-antconc
 difficulty: 1
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/240
 activity: analyzing
