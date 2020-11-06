@@ -14,7 +14,7 @@ O processo de revisão é um componente essencial de um esforço colaborativo, p
 
 
 ## Código Aberto
-A equipe do _Programming Historian em Português_ está comprometida com os princípios do código aberto. Sempre que possível, todas as lições apresentadas usam linguagens de programação e software de código aberto. Esta política visa minimizar custos para todas as partes envolvidas e permitir o mais amplo nível de participação. Acreditamos que todos devem se beneficiar destes tutoriais, não apenas aqueles que têm acesso a orçamentos de pesquisa elevados para software proprietário. Desde 2016, tem sido depositada no [Zenodo](https://zenodo.org/) uma versão citável do projeto _The Programming Historian_. A cópia de 2019 está disponível em [doi.org/10.5281/zenodo.3525082](https://doi.org/10.5281/zenodo.3525082).
+A equipe do _Programming Historian em Português_ está comprometida com os princípios do código aberto. Sempre que possível, todas as lições apresentadas usam linguagens de programação e software de código aberto. Esta política visa minimizar custos para todas as partes envolvidas e permitir o mais amplo nível de participação. Acreditamos que todos devem se beneficiar destes tutoriais, não apenas aqueles que têm acesso a orçamentos de pesquisa elevados para software proprietário. Desde 2016, tem sido depositada no [Zenodo](https://zenodo.org/) uma versão citável do projeto _The Programming Historian_. A cópia de 2020 está disponível em [doi.org/10.5281/zenodo.4244655](https://doi.org/10.5281/zenodo.4244655).
 
 
 ## Acesso Aberto _Gold_
