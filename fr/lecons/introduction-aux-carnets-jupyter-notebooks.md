@@ -15,7 +15,7 @@ editors:
 - Brandon Walsh 
 translator:
 - François Dominic Laramée
-translation_date: 2020-01-24
+translation_date: 2020-10-21
 translation-editor:
 - Sofia Papastamkou
 translation-reviewer:
