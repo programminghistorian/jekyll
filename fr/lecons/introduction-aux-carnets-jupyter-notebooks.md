@@ -27,6 +27,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/309
 abstract: "Les carnets Jupyter proposent un environnement dans lequel il est possible de combiner librement le code informatique et le texte en langage naturel. Cette leçon explique comment installer le logiciel Jupyter Notebook, comment créer et exécuter des carnets Jupyter, et dans quels contextes ces carnets peuvent se révéler particulièrement utiles."
 original: jupyter-notebooks
 avatar_alt: La planète Jupiter
+doi: 10.46430/phfr0014
 
 ---
 
