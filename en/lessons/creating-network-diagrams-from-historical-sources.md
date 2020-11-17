@@ -29,7 +29,7 @@ doi: 10.46430/phen0044
 Introduction
 ------------
 
-Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources. This tutorial explains how to extract network data (people, institutions, places, etc) from historical sources through the use of non-technical methods developed in Qualitative Data Analysis (QDA) and Social Network Analysis (SNA), and how to visualize this data with the platform-independent and particularly easy-to-use [*Palladio*](http://palladio.designhumanities.org/#/).
+Network visualizations can help humanities scholars reveal hidden and complex patterns and structures in textual sources. This tutorial explains how to extract network data (people, institutions, places, etc) from historical sources through the use of non-technical methods developed in Qualitative Data Analysis (QDA) and Social Network Analysis (SNA), and how to visualize this data with the platform-independent and particularly easy-to-use [*Palladio*](http://hdlab.stanford.edu/palladio/).
 
 
 {% include figure.html caption="Figure 1: A network visualization in Palladio and what you will be able to create by the end of this tutorial." filename="image09.png" %}
@@ -135,7 +135,7 @@ The following steps will explain how to visualize network data in Palladio but I
 
 Step by Step:
 
-**1. Palladio.** Go to [*http://palladio.designhumanities.org/*](http://palladio.designhumanities.org/)*.*
+**1. Palladio.** Go to [*http://hdlab.stanford.edu/palladio/*](http://hdlab.stanford.edu/palladio/)*.*
 
 **2. Start.** On their website click the “Start” button.
 
