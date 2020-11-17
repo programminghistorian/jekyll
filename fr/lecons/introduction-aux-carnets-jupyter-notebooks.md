@@ -282,10 +282,10 @@ Si vous ne souhaitez pas tenter de développer une solution par vous-même, vous
 
 ``` py
 # choisir le fichier de données à ouvrir et le nommer 'f'
-with open('ph-jupyter-notebook-exemple.csv') as f:
+with open('ph-jupyter-notebook-example.csv') as f:
 
     # créer un fichier de sortie, appelé 'out', dans lequel enregistrer vos résultats
-    with open('ph-jupyter-notebook-exemple-jours-de-semaine.csv', 'w') as out:
+    with open('ph-jupyter-notebook-example-jours-de-semaine.csv', 'w') as out:
 
         # 'csv_lecteur' appplique la fonction de lecture csv.reader au fichier de données
         csv_lecteur = csv.reader(f, delimiter=',')
@@ -327,7 +327,7 @@ with open('ph-jupyter-notebook-exemple.csv') as f:
             print(valeurs_nouvelles)
 ```
 
-L'exécution de ce code créera un nouveau fichier, intitulé *ph-jupyter-notebook-exemple-jours-de-semaine.csv*, dans lequel vous trouverez les cotes et les jours de la semaine pour chacun des textes de fiction qui apparaissent dans le fichier de données d'origine.
+L'exécution de ce code créera un nouveau fichier, intitulé *ph-jupyter-notebook-example-jours-de-semaine.csv*, dans lequel vous trouverez les cotes et les jours de la semaine pour chacun des textes de fiction qui apparaissent dans le fichier de données d'origine.
 
 Maintenant que vous avez rédigé du code capable de convertir les dates comme vous le vouliez, vous pouvez faire le ménage dans les blocs de code incorrects et dans les notes que vous avez rédigées en cours de route. Il vous faudra conserver le premier bloc de code, qui contient les déclarations d'importation de modules, et la première cellule Markdown qui contient le titre et la description du projet. Vous pouvez cependant, si vous le désirez, effacer les autres blocs de code et de texte en format Markdown qui ne correspondent pas au produit final. Pour effacer une cellule, cliquez sur celle-ci et cliquez ensuite sur la paire de ciseaux <i class="fa fa-scissors"></i> dans la barre d'outils. Si vous effacez une cellule par erreur, vous pouvez la récupérer en choisissant *Undo Delete Cells*(*annuler l'effacement des cellules*) dans le menu *Edit* de l'interface Jupyter Notebook.
 
