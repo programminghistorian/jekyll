@@ -11,7 +11,7 @@ The English edition of *[The Programming Historian](https://programminghistorian
 
 Launched in 2012, *The Programming Historian* offers more than 80 novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research. In recent years, the publication has expanded to include Spanish and French editions. *The Programming Historian* is a volunteer-led initiative, controlled entirely by the ‘Editorial Board of the Programming Historian’ with the help of community contributors. Read our reviews:
 
--   Lincoln Mullen, '[Review of the Programming Historian](http://jah.oxfordjournals.org/content/103/1/299.2.full)', *The Journal of American History*, vol. 103, no. 1 (2016), pp. 299-301.
+-   Lincoln Mullen, '[Review of the Programming Historian](https://academic.oup.com/jah/article-abstract/103/1/299/1751315)', *The Journal of American History*, vol. 103, no. 1 (2016), pp. 299-301.
     
 -   Cameron Blevins, '[Review of the Programming Historian](http://jitp.commons.gc.cuny.edu/review-of-the-programming-historian/)', *The Journal of Interactive Technology & Pedagogy*, vol. 8 (2015).
     
