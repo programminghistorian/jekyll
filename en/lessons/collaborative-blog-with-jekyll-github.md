@@ -17,7 +17,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/237
 difficulty: 2
 activity: presenting
 topics: [website, data-management]
-abstract: "In this lesson you will be introduced to the challenges and opportunities that Jekyll, a popular, static site generator, offers for publishing collaborative, ongoing research online."
+abstract: In this lesson you will be introduced to the challenges and opportunities that Jekyll, a popular, static site generator, offers for publishing collaborative, ongoing research online.
 avatar_alt: A man and a woman dancing in a group
 ---
 
