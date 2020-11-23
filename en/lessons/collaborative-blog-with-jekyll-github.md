@@ -31,7 +31,7 @@ The tutorial is divided into two parts: initial, one-time start-up actions; and 
 
 ### Pre-requisites and requirements
 This lesson assumes you are starting from an existing Jekyll website you have created yourself, either by:  
-1. completing *The Programming Historian*'s ["Building a static website with Jekyll and GitHub Pages" lesson](h/en/lessons/building-static-sites-with-jekyll-github-pages)  
+1. completing *The Programming Historian*'s ["Building a static website with Jekyll and GitHub Pages" lesson](/en/lessons/building-static-sites-with-jekyll-github-pages)  
 2. setting up a basic Jekyll-generated website hosted on GitHub Pages, and understanding how to work with it locally using the GitHub Desktop app and your command line (topics covered in [that lesson](/en/lessons/building-static-sites-with-jekyll-github-pages)).  
 
 You will start from a copy of the <https://github.com/amandavisconti/jekylldemo> repository (which runs a site that looks like <https://amandavisconti.github.io/JekyllDemo>), and you will finish with a repository that looks like <https://github.com/scholarslab/CollabDemo> and a site that looks like <https://scholarslab.github.io/CollabDemo>. "Repo" is a commonly used abbreviation for "repository" that you might see used elsewhere.
