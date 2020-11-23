@@ -260,6 +260,7 @@ topics:
 abstract: |
   see guidance below
 avatar_alt: Description of lesson image
+doi: Add DOI (see https://github.com/programminghistorian/jekyll/wiki/How-to-Request-a-new-DOI)
 ```
 
 - **difficulty** To help readers evaluate which lessons best fit their goals and skill level, we provide "Recommended for ___ Users" information in the lesson YAML file. There are currently three tiers, which can be set with the following numerical codes: 1 (Beginning), 2 (Intermediate), 3 (Advanced). To add the difficulty level of 'intermediate' to the lesson, include the following in the YAML file:
