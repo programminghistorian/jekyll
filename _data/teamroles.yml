@@ -117,17 +117,6 @@
     es: Responsable de las finanzas del proyecto y la recaudación de fondos
     fr: Responsable du financement du projet et de la collecte de fonds
     pt: Responsável pelas finanças do projeto e pela captação de recursos
-- type: team-development-manager
-  label:
-    en: Team Development Manager
-    es: Mánager de desarrollo de equipo
-    fr: Responsable du développement de l'équipe
-    pt: Gestor da equipe de desenvolvimento
-  definition:
-    en: Responsible for ensuring that everyone on the team is well supported
-    es: Responsable de asegurar que todos en el equipo sean apoyados
-    fr: Responsable de s'assurer que tous les membres de l'équipe reçoivent le soutien nécessaire
-    pt: Responsável por assegurar o apoio necessário a todos os membros da equipe
 - type: project-manager-at-large
   label:
     en: Project Manager at Large
