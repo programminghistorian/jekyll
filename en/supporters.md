@@ -17,6 +17,7 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), United Kingdom
 - [Western University Library](https://www.lib.uwo.ca/), Canada
+- [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), United Kingdom 
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
