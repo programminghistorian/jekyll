@@ -970,3 +970,100 @@ Footer
     border-bottom: 1px solid lightgrey;
   }
 }
+
+:root {
+    --primary-color: #302AE6;
+    --secondary-color: #536390;
+    --font-color: #424242;
+    --bg-color: #fff;
+    --heading-color: #292922;
+}
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --heading-color: #818cab;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: white;
+
+    /*other styles*/
+    .....
+}
+
+h1 {
+    color: var(--secondary-color);
+
+    /*other styles*/
+    .....
+}
+
+a {
+    color: var(--primary-color);
+
+    /*other styles*/
+    .....
+}
+
+/*Simple css to style it like a toggle switch*/
+.theme-switch-wrapper {
+display: flex;
+align-items: center;
+}
+
+.theme-switch-wrapper em {
+margin-left: 10px;
+font-size: 1rem;
+}
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 100px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
