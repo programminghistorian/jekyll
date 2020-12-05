@@ -31,6 +31,7 @@ abstract: "Los programas de computadora pueden resultar largos, inmanejables y c
 python_warning: true
 avatar_alt: Caricatura de tres hombres.
 doi: 10.46430/phes0024
+sequence: 4
 ---
 
 {% include toc.html %}

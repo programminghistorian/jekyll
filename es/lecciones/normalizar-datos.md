@@ -32,6 +32,7 @@ topics: [python]
 abstract: "En esta lección haremos que la lista que creamos en'De HTML a lista de palabras (parte 2)' sea más fácil de analizar al “normalizar” los datos."
 avatar_alt: Ilustración de dos personas caminando agarradas del brazo.
 doi: 10.46430/phes0020
+sequence: 9
 ---
 
 {% include toc.html %}

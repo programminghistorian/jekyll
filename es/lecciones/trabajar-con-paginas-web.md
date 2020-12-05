@@ -33,6 +33,7 @@ redirect_from: /es/lessons/working-with-web-pages
 python_warning: false
 avatar_alt: Grabado de una mujer y un hombre de pies.
 doi: 10.46430/phes0029
+sequence: 5
 ---
 
 {% include toc.html %}
