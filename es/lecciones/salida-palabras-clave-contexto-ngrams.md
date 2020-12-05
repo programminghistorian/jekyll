@@ -31,6 +31,7 @@ abstract: "Esta lección se basa en 'Palabras clave en contexto (usando n-grams)
 avatar_alt: Grabado de un león, un oso y un mono caminando.
 doi: 10.46430/phes0026
 sequence: 14
+series_total: 14
 ---
 
 {% include toc.html %}

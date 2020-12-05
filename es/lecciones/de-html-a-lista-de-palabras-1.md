@@ -32,6 +32,7 @@ abstract: "En esta lección en dos partes partiremos de lo que has aprendido sob
 avatar_alt: Grabado de una jirafa de perfil mirando a un hombre también de perfil parado sujetando muletas para simular la postura de la jirafa.
 doi: 10.46430/phes0005
 sequence: 7
+series_total: 14
 ---
 
 {% include toc.html %}
