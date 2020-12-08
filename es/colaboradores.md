@@ -12,7 +12,7 @@ The Programming Historian is grateful to our past and current supporters for ena
 ## Institutional Partners
 Contributers to our [Programa de Instituciones Asociadas](pia).
 
-- [KU Leuven Libraries](https://bib.kuleuven.be/), Bélgica
+- [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Bélgica
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library), Reino Unido
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
 - [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
