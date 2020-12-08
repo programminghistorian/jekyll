@@ -1,7 +1,7 @@
 ---
 layout: blank
-title: Our Supporters
-redirect_from: /supporters
+title: Nosotros Colaboradores
+redirect_from: /colaboradores
 ---
 
 # Our Supporters
@@ -20,7 +20,7 @@ Contributers to our [Institutional Partner Programme](support-us#institutional-p
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
-## Additional Supporters
+## Colaboradores Adicionales
 
 Organizations that have or continue to give support ranging from in kind services, to project-specific funding.
 
@@ -33,15 +33,15 @@ Organizations that have or continue to give support ranging from in kind service
 - The dSHARP lab at Carnegie Mellon University sponsored by the Andrew W. Mellon Foundation, United States [2018-2020].
 - The Network in Canadian History & Environment, Canada [2011-2013].
 
-## Individual Supporters
+## Colaboradores Individuales
 
 We are grateful to our many dozens of individual sponsors who contribute through [Patreon](https://www.patreon.com/theprogramminghistorian) or [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url) donations. We particularly want to acknowledge our founding Patreon subscribers at each tier level:
 
-- Rachel Murphy ('Subscriber')
+- Rachel Murphy ('Subscriptor')
 - Miriam Posner ('Sponsor')
-- Tim Hitchcock ('Patron')
+- Tim Hitchcock ('Macenas')
 
-We also publicly thank all of our 'Patron' supporters:
+En particular, agradecemos la contribución de los siguientes suscriptores de Patreon de nivel 'Mecenas':
 
 - Tim Hitchcock
 - Shawn Graham
@@ -52,6 +52,6 @@ We also publicly thank all of our 'Patron' supporters:
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
 
-## Management of Donations and Sponsorship
+## Administración de donaciones y patrocinios
 
-Donations and sponsorship are managed by [Dr. James Baker](https://github.com/drjwbaker) on behalf of the [Project Team of The Programming Historian](/en/project-team).
+[Dr. James Baker](https://github.com/drjwbaker) administra las donaciones y los patrocinios en nombre del [Consejo Editorial de The Programming Historian](/es/equipo-de-proyecto).
