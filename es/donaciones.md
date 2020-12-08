@@ -1,10 +1,10 @@
 ---
 layout: blank
-title: Individual Supporters
+title: Colaboradores Individuales
 redirect_from: /donaciones
 ---
 
-# Individual Supporters
+# Colaboradores Individuales
 
 <img src="{{site.baseurl}}/images/supporters-individual.png" class="garnish rounded float-left" />
 
@@ -30,8 +30,8 @@ For $1, $5, or $15 per month, you can join our growing list of individual <a hre
 
 # Single Donations
 
-One-time donations can be made to the Programming Historian via [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), bank transfer (Lloyds Bank account number 55263268, sort code 30-96-26), or cheque (made payable to ‘ProgHist Ltd’ and posted to ‘Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH’). For donations via bank transfer and cheque, we’d be grateful if you could write to us at <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> to let us know who you are and why you’ve chosen to support our work.
+Donaciones únicas a Programming Historian en Español por [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), transferencia bancaria (número de cuenta de Lloyds Bank 55263268, código bancario 30-96-26) o con un cheque a nombre de “ProgHist Ltd” enviado a la dirección: ‘Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH’. En caso de donativos por transferencia bancaria o cheque, solicitamos que envíes un correo <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> para que nos cuentes sobre ti y por qué decidiste apoyar nuestro trabajo.
 
-# Organisational Support
+# Programa de Instituciones Asociadas
 
-If you work for an organisation that would be interested in contributing to *Programming Historian's* success, please direct them to our [Institutional Partnership Programme](ipp), which provides crucial support to our work.
+If you work for an organisation that would be interested in contributing to *Programming Historian's* success, please direct them to our [Programa de Instituciones Asociadas](pia), which provides crucial support to our work.
