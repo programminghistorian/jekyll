@@ -6,10 +6,11 @@ redirect_from: /colaboradores
 
 # Nuestras Colaboradores
 
-The Programming Historian is grateful to our past and current supporters for enabling us to bring these resources to the world, free at the point of access to readers everywhere.
+*The Programming Historian en español* is grateful to our past and current supporters for enabling us to bring these resources to the world, free at the point of access to readers everywhere.
 
 
-## Institutional Partners
+## Asociadas Instituciones
+
 Contributers to our [Programa de Instituciones Asociadas](pia).
 
 - [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Bélgica
@@ -25,14 +26,14 @@ We welcome enquiries from prospective [Programa de Instituciones Asociadas](pia)
 
 Organizations that have or continue to give support ranging from in kind services, to project-specific funding.
 
-- The University of Sussex, United Kingdom:
-    - University of Sussex Library [2020-Present]
+- University of Sussex, Reino Unido:
+    - University of Sussex Library [2020-Presente]
     - School of History, Art History and Philosophy, University of Sussex [2019]
     - [ESRC Impact Accelerator Account, University of Sussex](http://www.sussex.ac.uk/staff/research/rqi/rqi_information_and_support/rqi_impact_funding/if-esrciaa/), [2019].
-- The Roy Rosenzweig Center for New Media (RRCHNM), United States [2011-Present]. 
-- The British Academy [Writing Workshops funding scheme](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/), United Kingdom [2018].
-- The dSHARP lab at Carnegie Mellon University sponsored by the Andrew W. Mellon Foundation, United States [2018-2020].
-- The Network in Canadian History & Environment, Canada [2011-2013].
+- Roy Rosenzweig Center for New Media (RRCHNM), Estados Unidos [2011-Presente]. 
+- The British Academy [Writing Workshops funding scheme](https://www.thebritishacademy.ac.uk/projects/writing-workshops-2018-digital-humanities/), Reino Unido [2018].
+- dSHARP lab at Carnegie Mellon University patrocinado por the Andrew W. Mellon Foundation, Estados Unidos [2018-2020].
+- The Network in Canadian History & Environment, Canadá [2011-2013].
 
 ## Colaboradores Individuales
 
