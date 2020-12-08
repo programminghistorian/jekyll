@@ -1,24 +1,24 @@
 ---
 layout: blank
-title: Nosotros Colaboradores
+title: Nuestras Colaboradores
 redirect_from: /colaboradores
 ---
 
-# Our Supporters
+# Nuestras Colaboradores
 
 The Programming Historian is grateful to our past and current supporters for enabling us to bring these resources to the world, free at the point of access to readers everywhere.
 
 
 ## Institutional Partners
-Contributers to our [Institutional Partner Programme](support-us#institutional-partner-programme).
+Contributers to our [Programa de Instituciones Asociadas](pia).
 
-- [KU Leuven Libraries](https://bib.kuleuven.be/), Belgium
-- [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library), United Kingdom
-- [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom
-- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), United Kingdom
-- [Western University Library](https://www.lib.uwo.ca/), Canada
+- [KU Leuven Libraries](https://bib.kuleuven.be/), Bélgica
+- [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library), Reino Unido
+- [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido
+- [Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/), Reino Unido
+- [Western University Library](https://www.lib.uwo.ca/), Canadá
 
-We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
+We welcome enquiries from prospective [Programa de Instituciones Asociadas](pia) contributors.
 
 ## Colaboradores Adicionales
 
