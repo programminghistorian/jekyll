@@ -299,11 +299,11 @@ Double-check that your lesson file has been prepared to the above specifications
 
 You are ready to submit the lesson for peer review. Submissions are made by emailing materials to your editor so they can upload them to our peer review site on [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
 
-1. **Getting Access**: create a [free Github account](https://github.com/join). Email your Github username to your editor who will give you upload access to our submission site. Let the editor know the file name of your lesson and if you have any images or data files accompanying your tutorial.
+1. **Getting Access**: create a [free Github account](https://github.com/join). Email your Github username to your editor who will give you upload access to our submission site. Let the editor know the file name of your lesson and if you have any images or data files accompanying your tutorial. You will not do the initial upload to GitHub, but you will need access to post subsequent revisions.
 2. **Prepare your materials**: if your lesson includes images, make sure all of the files are named according to the naming conventions specified above.These images should be submitted in a single, compressed folder. If your lesson includes data files, they should be submitted in another compressed folder.
 3. **Email your editor**: let your editor know that you are ready to submit your lesson. This email should include the lesson file as well as the image and assets folders if applicable.
 4. **Join the conversation**: the editor will upload your files to our [submissions repository](https://github.com/programminghistorian/ph-submissions) and make any necessary, initial changes to them. They will also open a review ticket for your lesson.
-
+5. **Make revisions**: the initial lesson upload will be carried out by your assigned editor, but the editorial process will require that you make further changes. All subsequent revisions should be made by the author directly to the files in our submissions repository to ensure you are working from the latest version of the lesson file.
 
 ## The Peer Review Process
 
