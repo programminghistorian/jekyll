@@ -58,7 +58,7 @@ All lesson metadata and alerts should follow the convention of pulling appropria
               </div>
               <div class="donate mr-5">
                 <p><a
-                    href="https://programminghistorian.org{{ site.data.snippets.menu-contribute-support-donate[page.lang].link}}"><i
+                    href="{{ site.baseurl }}{{ site.data.snippets.menu-contribute-support-donate[page.lang].link}}"><i
                       class="fas fa-credit-card"></i> {{ site.data.snippets.donate[page.lang] }}</a></p>
               </div>
             </div>
@@ -171,6 +171,11 @@ All lesson metadata and alerts should follow the convention of pulling appropria
           <div class="metarow">
             <h4>{{site.data.snippets.difficulty[page.lang]}}</h4> {% include difficulty.html %}
           </div>
+          {% if page.doi %}
+          <div class="metarow">
+           <p> <img src="/images/doi_icon.jpg" alt="DOI id icon" width="16px" style="max-width:16px;display:inline;"> https://doi.org/{{ page.doi }}</p>
+          {% endif %}
+          </div>
         </div>
       </div>
     </div>
@@ -201,6 +206,20 @@ All lesson metadata and alerts should follow the convention of pulling appropria
   </div>
   {% endif %}
 
+  <!-- Check if lesson is part of a sequence -->
+  {% if page.sequence %}
+    <div class="series-warning alert alert-info">
+    {{ site.data.snippets.series-note[page.lang] }} {{ page.series_total }} - {{ site.data.snippets.lesson-sequence[page.lang] }} {{ page.sequence }}  
+      {% if page.previous %}
+        | <a href="{{page.previous}}"> {{ site.data.snippets.previous-lesson[page.lang] }}</a>
+      {% endif %}
+      {% if page.next %}
+        | <a href="{{page.next}}"> {{ site.data.snippets.next-lesson[page.lang] }}</a>
+      {% endif %}
+    </div>
+  {% endif %}
+
+
   {% if page.retired %}
   <div class="alert alert-warning">
     <h2>{{ site.data.snippets.retired[page.lang] }}</h2>
@@ -220,23 +239,15 @@ All lesson metadata and alerts should follow the convention of pulling appropria
   {% endif %}
 
 
-  {% if page.previous %}
-  <div class="series-warning alert alert-info">
-    {{ site.data.snippets.series-previous-note[page.lang] }} <a
-      href="{{page.previous}}">{{ site.data.snippets.previous-lesson[page.lang] }}</a>.
-  </div>
-  {% endif %}
+
 
   <div class="content">
     {{ content }}
   </div>
 
-  {% if page.next %}
-  <div class="series-warning alert alert-info">
-    {{ site.data.snippets.series-next-note[page.lang] }} <a
-      href="{{page.next}}">{{ site.data.snippets.next-lesson[page.lang] }}</a>.
-  </div>
-  {% endif %}
+ 
+
+
 
   {% include author-info.html %}
 

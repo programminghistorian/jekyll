@@ -133,6 +133,11 @@ Home Page
   .fr-back {
     background-color: {{ site.data.snippets.background_color.fr }};
   }
+  
+  .pt-back {
+    background-color: {{ site.data.snippets.background_color.pt }};
+  }
+
 
   .sitewide-alert {
     position: relative;

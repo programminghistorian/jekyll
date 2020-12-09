@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="ph-pt.svg"
+   inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 899.99997 899.99997"
+   height="900mm"
+   width="900mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1015"
+     inkscape:window-width="1920"
+     inkscape:pagecheckerboard="false"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="1788.8616"
+     inkscape:cx="1488.4971"
+     inkscape:zoom="0.17"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
+    <inkscape:grid
+       id="grid897"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       transform="matrix(4.3122039,0,0,4.3122039,-183.86112,0.07085195)"
+       id="g904">
+      <rect
+         style="fill:#d5b563;fill-opacity:1;stroke-width:0.195856"
+         id="rect833"
+         width="206.71477"
+         height="206.6797"
+         x="43.785736"
+         y="1.1400466" />
+      <text
+         xml:space="preserve"
+         style="font-size:88.1944px;line-height:1.85;font-family:sans-serif;letter-spacing:0.394229px;word-spacing:0px;stroke-width:0.264583"
+         x="59.171799"
+         y="134.27052"
+         id="text837"><tspan
+           sodipodi:role="line"
+           id="tspan835"
+           x="59.171799"
+           y="134.27052"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:88.1944px;font-family:'Crete Round';-inkscape-font-specification:'Crete Round';fill:#ffffff;stroke-width:0.264583">[PH]</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.0361px;line-height:1.85;font-family:'Crete Round';-inkscape-font-specification:'Crete Round';letter-spacing:0px;word-spacing:0px;stroke-width:0.177459"
+         x="123.30602"
+         y="134.78804"
+         id="text845"><tspan
+           sodipodi:role="line"
+           id="tspan843"
+           x="123.30602"
+           y="134.78804"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.0723px;font-family:'Crete Round';-inkscape-font-specification:'Crete Round';fill:#ffffff;stroke-width:0.177459">t</tspan></text>
+    </g>
+  </g>
+</svg>

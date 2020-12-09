@@ -85,7 +85,7 @@ Repeating this a lot is how you would build a corpus of plain text files; this p
 As you might imagine, it can be rather tedious to build up a substantial corpus one file at a time, especially if you intend to process a large set of documents. It is very common, therefore, to use webscraping (using a small program to automatically grab files from the web for you) to construct your corpus. To learn more about the concepts and techniques for webscraping, see the _Programming Historian_ tutorials [scraping with Beautiful Soup][50] and [automatic downloading with wget][51].
 Rather than build a corpus one document at a time, we're going to use a prepared corpus of positive and negative movie reviews, borrowed from the [Natural Language Processing Toolkit](http://www.nltk.org/). The NLTK movie review corpus has 2000 reviews, organized by positive and negative outcomes; today we will be addressing a small subset of them (200 positive, 200 negative).
 
-Corpus construction is a subfield in its own right. Please see [Representativeness in Corpus Design](http://llc.oxfordjournals.org/content/8/4/243.abstract)," _Literary and Linguistic Computing_, 8 (4): 243-257
+Corpus construction is a subfield in its own right. Please see [Representativeness in Corpus Design](https://academic.oup.com/dsh/article-abstract/8/4/243/928942)," _Literary and Linguistic Computing_, 8 (4): 243-257
 and [_Developing Linguistic Corpora: a Guide to Good Practice_](http://www.amazon.com/Developing-Linguistic-Corpora-Practice-Guides/dp/1842172050/ref=sr_1_1) for more information.
 
 

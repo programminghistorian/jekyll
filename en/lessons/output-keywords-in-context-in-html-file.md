@@ -18,6 +18,8 @@ topics: [python]
 abstract: "This lesson builds on 'Keywords in Context (Using N-grams)', where n-grams were extracted from a text. Here, you will learn how to output all of the n-grams of a given keyword in a document downloaded from the Internet, and display them clearly in your browser window."
 next: downloading-multiple-records-using-query-strings
 previous: keywords-in-context-using-n-grams
+series_total: 15 lessons
+sequence: 14
 python_warning: false
 redirect_from: /lessons/output-keywords-in-context-in-html-file
 avatar_alt: A monkey dancing with a lion and a bear

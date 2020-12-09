@@ -604,7 +604,7 @@ file, under the same directory as your `main.md`. Let's see if this
 works. Save your file, switch to the terminal window and run:
 
 ```
-$ pandoc main.docx --filter pandoc-citeproc -o main.docx
+$ pandoc main.md --filter pandoc-citeproc -o main.docx
 ```
 
 The "pandoc-citeproc" filter will parse any citation tags found in your document. The result
