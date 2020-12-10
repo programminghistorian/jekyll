@@ -42,7 +42,7 @@ function setTheme(currentTheme) {
 
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
-var searchParams = new URLSearchParams(window.location.search)
+
 let theme = searchParams.get('theme') === null ?'day' : searchParams.get('theme');
 
 if (theme === 'night') {
