@@ -7,39 +7,55 @@
 </div>
 
 <script>
+function updateLinks(currentTheme) {
+    setTimeout(function() {
+        var nonLessonLinks = Array.prototype.slice.call(document.querySelectorAll("[href]:not(.content)"));
+        var lessonLinks =
+        Array.prototype.slice.call(document.getElementsByClassName('content')[0].querySelectorAll("[href]"));
+        lessonLinks = lessonLinks.filter(link => {
+            console.log(link, link.href, ['en', 'es', 'fr', 'pt'].some(substring=> link.href.includes(substring)), link.href.includes('#'));
+            if (!link.href.includes('#')){
+                
+                return ['en', 'es', 'fr', 'pt'].some(substring=> link.href.includes(substring))
+            }
+        });
+        [...nonLessonLinks, ...lessonLinks].forEach(link => {
+            // console.log(link.href);
+            if (link.href.startsWith("/") || link.href.startsWith(".") || (link.href.startsWith("http") &&
+            link.href.includes(window.location.hostname))) {
+                console.log(link.href.split('?theme=')[0]);
+                // link.href = link.href.split('?theme=')[0] + '?theme=' + currentTheme;
+                // console.log(link.href);
+            }
+        });
+    }, 500);
+}
+
+function setTheme(currentTheme) {
+    console.log(currentTheme);
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    searchParams.set('theme', currentTheme);
+    var newRelativePathQuery = window.location.pathname + '?' + searchParams.toString();
+    history.pushState(null, '', newRelativePathQuery);
+    // updateLinks(currentTheme);
+}
+
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
+var searchParams = new URLSearchParams(window.location.search)
+let theme = searchParams.get('theme') === null ?'day' : searchParams.get('theme');
+
+if (theme === 'night') {
+    toggleSwitch.checked = true;
+} 
+
+setTheme(theme);
+
 function switchTheme(e) {
-    if (e.target.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-    }
-    else {
-        document.documentElement.setAttribute('data-theme', 'light');
-    }    
+    theme = e.target.checked? 'night': 'day';
+    setTheme(theme);
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
-
-function switchTheme(e) {
-    if (e.target.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark'); //add this
-    }
-    else {
-        document.documentElement.setAttribute('data-theme', 'light');
-        localStorage.setItem('theme', 'light'); //add this
-    }    
-}
-
-
-const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
-
-if (currentTheme) {
-    document.documentElement.setAttribute('data-theme', currentTheme);
-
-    if (currentTheme === 'dark') {
-        toggleSwitch.checked = true;
-    }
-}
 
 </script>

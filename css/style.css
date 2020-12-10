@@ -979,7 +979,7 @@ Footer
     --heading-color: #292922;
 }
 
-[data-theme="dark"] {
+[data-theme="night"] {
     --primary-color: #9A97F3;
     --secondary-color: #818cab;
     --font-color: #e1e1ff;
@@ -989,24 +989,19 @@ Footer
 
 body {
     background-color: var(--bg-color);
-    color: white;
-
-    /*other styles*/
-    .....
+    color: var(--font-color);
 }
 
 h1 {
     color: var(--secondary-color);
-
-    /*other styles*/
-    .....
 }
 
 a {
     color: var(--primary-color);
+}
 
-    /*other styles*/
-    .....
+#results-value {
+  color: var(--primary-color);
 }
 
 /*Simple css to style it like a toggle switch*/
@@ -1053,7 +1048,7 @@ font-size: 1rem;
 }
 
 input:checked + .slider {
-  background-color: #66bb6a;
+  background-color: #535d7f;
 }
 
 input:checked + .slider:before {
