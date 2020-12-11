@@ -1001,7 +1001,7 @@ a {
 }
 
 #results-value {
-  color: var(--primary-color);
+  color: var(--heading-color);
 }
 
 /*Simple css to style it like a toggle switch*/
