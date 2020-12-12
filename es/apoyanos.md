@@ -22,6 +22,7 @@ El proyecto agradece el siguiente apoyo:
   - [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/) [2020-Presente]
   - [Centro de Datos, Cultura y Sociedad de la Universidad de Edimburgo](https://www.cdcs.ed.ac.uk/) [2020-Presente]
   - [Biblioteca de la Universidad Western](https://www.lib.uwo.ca/) [2020-Presente]
+  - [Centro de Humanidades Digitales de UCL](https://www.ucl.ac.uk/digital-humanities/) [2020-Presente]
   
 - La infraestructura para la asignación de DOI está apoyada por la [Biblioteca de la Universidad de Sussex](https://www.sussex.ac.uk/library/) [2020-Presente]
 - El desarrollo web está respaldado por el [laboratorio dSHARP en la Universidad Carnegie Mellon](http://dsharp.library.cmu.edu) y la [Fundación Andrew W. Mellon](https://mellon.org) [2018-2020]
