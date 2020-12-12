@@ -50,7 +50,13 @@ O contato editorial principal desta lição é [USERNAME DO EDITOR]. Se houver a
 
 O editor é incentivado a ajustar o texto para refletir quaisquer metas ou requisitos adicionais acordados com o(s) autor(es).
 
-Após a submissão da lição com sucesso, o editor tem que criar uma issue de revisão para a lição e fechar a discussão da proposta.
+Quando os materiais da lição estiverem prontos para envio, o autor entrará em contato com o editor designado, cujo trabalho será enviá-los para o [repositório de submissões](https://github.com/programminghistorian/ph-submissions) após a primeira verificação para garantir que não haja problemas importantes de metadados.
+
+1. **Carregar a lição**: a lição em si deve ser enviada para a [pasta de lições](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Se precisar de ajuda, consulte as [instruções do GitHub](https://help.github.com/articles/adding-a-file-to-a-repository/).
+2. **Carregar imagens**: se a lição incluir imagens, certifique-se de que todos os arquivos sejam nomeados de acordo com as convenções de nomenclatura especificadas nas [diretrizes para autores](/directrizes-autor). O editor deve criar uma pasta para as imagens no [diretório de imagens](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). Esta pasta deve ter o mesmo nome do ficheiro da lição. Faça upload das imagens para esta pasta.
+3. **Carregar dados**: se a lição incluir ficheiros de dados, eles devem ser enviados para uma pasta com nome semelhante no [diretório de recursos](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets).
+
+Após o upload, o editor deve verificar o [histórico de commits do repositório](https://github.com/programminghistorian/ph-submissions/commits/gh-pages) para garantir que o upload recebeu uma marca de seleção verde. Se não, algo deu errado e o [wiki](https://github.com/programminghistorian/jekyll/wiki/Making-Technical-Contributions#checking-travis-for-errors) deve ser consultado para solucionar os erros. Após o envio bem sucedido da lição, o editor criará um ticket de revisão para a lição e fechará o issue da proposta. A partir daqui o editor deve garantir que o autor trabalha a partir da versão mais recente da lição no repositório e carrega as alterações diretamente no GitHub.
 
 ### Revisão por pares aberta
 O *Programming Historian em português* usa um modelo de revisão por pares aberta. Embora acreditando que isto incentiva a civilidade e a partilha produtiva de ideias, os autores têm o direito (e tem que ser respeitado) de solicitar uma revisão por pares fechada. Há muitas razões pelas quais alguém pode hesitar em participar numa revisão aberta e queremos que os autores escolham a opção com que se sentem mais confortáveis.
