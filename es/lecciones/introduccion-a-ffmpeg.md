@@ -8,6 +8,7 @@ reviewers:
 - Tesla Cariani
 - Josh Romphf
 original: introduction-to-ffmpeg
+date: 2018-12-20
 translator:
 - Dave Rodriguez
 - Sebastian Fiori
