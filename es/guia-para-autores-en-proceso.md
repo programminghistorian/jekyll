@@ -299,11 +299,11 @@ Tenemos una página del proyecto [Programming Historian](https://github.com/prog
 
 Debes enviar tu lección a través de una correo electrónico a tu editor/a, quien se encargará de subir todos los materiales al repositorio correspondiente en [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
 
-1. **Obtener acceso**: crea una [cuenta gratuita en Github](https://github.com/join). Envía tu nombre de usuario de Github a tu editor/a,  quien te dará acceso al sitio de envíos.
-2. **Prepara los materiales**: si tu lección incluye imágenes, asegúrate que todos los archivos están nombrado según las convenciones explicadas más arriba. Las imágenes debes enviarlas en una sola carpeta comprimida llamada `images`. Si tu lección incluye archivos de datos, estos deben ser enviados en otra carpeta comprimida llamada `assets`.
+1. **Obtener acceso**: crea una [cuenta gratuita en Github](https://github.com/join). Envía tu nombre de usuario de Github a tu editor/a,  quien te dará acceso al sitio de envíos. Déjale saber el nombre de archivo de tu lección y si incluye imágenes o archivos de datos. Si bien no harás la carga inicial eb GitHub, necesitarás acceso para lel proceso de revisión. 
+2. **Prepara los materiales**: si tu lección incluye imágenes, asegúrate que todos los archivos están nombrado según las convenciones explicadas más arriba. Las imágenes debes enviarlas en una sola carpeta comprimida. Si tu lección incluye archivos de datos, estos deben ser enviados en otra carpeta comprimida.
 3. **Envía un correo electrónico a tu editor/a**: hazle saber a tu editor/a que tienes todo listo para el envío de tu lección. Este correo electrónico debe incluir el archivo .md de la lección y las carpetas comprimidas con las imágenes y datos, si corresponde.
 4. **Únete a la conversación**: tu editor/a subirá los archivos a nuestro [repositorio de envíos](https://github.com/programminghistorian/ph-submissions) y hará algunos cambios iniciales para asegurarse de que todo funciona bien. Además, abrirá un "ticket de revisión" para tu lección en la sección de *[issues](https://github.com/programminghistorian/ph-submissions/issues)* de ese repositorio.
-
+5. **Realiza las revisiones**: si bien la carga inicial de tu lección en el respositorio `ph-submissions` será realizada por tu editor/a, el proceso editorial requerirá que hagas modificaciones. Todas las ediciones posteriores deben ser hechas directamente por ti en ese repositorio para asegurarnos de que estás trabajando en la última versión del archivo. 
 
 ## El proceso de revisión de pares
 
