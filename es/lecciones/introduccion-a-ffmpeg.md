@@ -36,7 +36,7 @@ Historicamente, las Humanidades Digitales se han enfocado casi exclusivamente en
 
 [FFmpeg](https://www.ffmpeg.org/about.html) es el _framework_ multimedia de código abierto líder para transcodificar, editar, filtrar y reproducir casi cualquier tipo de formato audiovisual digital (sitio web de FFmpeg - "About"). Muchos programas comunes y sitios web usan FFmpeg para leer y escribir archivos audiovisuales, por ejemplo, VLC, Google Chrome, YouTube y [muchos más](https://trac.ffmpeg.org/wiki/Projects). Además de ser una herramienta de programa y de desarrollo web, FFmpeg se puede usar en la interfaz de la línea de comandos para realizar muchas tareas comunes, complejas e importantes, relacionadas con la gestión, modificación y análisis de archivos audiovisuales. Estos tipos de procesos, tales como editar, transcodificar o extraer los metadatos de archivos, generalmente requieren acceso a otro programa (tal como editores de vídeo no lineal, como Adobe Premiere o Final Cut Pro); sin embargo, FFmpeg permite a un usuario operar directamente en archivos audiovisuales sin el uso de interfaces o programa de terceros. Como tal, el conocimiento del _framework_ permite a los usuarios manipular materiales audiovisuales para satisfacer sus necesidades con una solución de código abierto y gratuita, que ofrece gran parte de la funcionalidad de un costoso programa de audio y vídeo. Este tutorial ofrece una introducción a la lectura y escritura de comandos de FFmpeg y una guía paso a paso a partir de un caso práctico para aprender a utilizar el _framework_ en un trabajo específico para los humanistas digitales. Específicamente, se mostrará cómo FFmpeg puede ser utilizado para extraer y analizar datos de color en un video archivístico.
 
-## Objectivos de aprendizaje
+## Objetivos de aprendizaje
 * Instalar FFmpeg en tu computadora o usar una versión "demo" en el navegador web
 * Comprender la estructura básica y la sintaxis de los comandos de FFmpeg
 * Aprender varios comandos útiles, tales como:
@@ -78,7 +78,7 @@ La opción más simple es usar un administrador de paquetes como [Homebrew](http
 
 * Para más opciones de instalación para Mac OS, revisa [La Guía de Compilación de FFmpeg para Mac OS](https://trac.ffmpeg.org/wiki/CompilationGuide/macOS) (la guía solo está disponible en inglés).
 
-## Para usarios de Windows
+## Para usuarios de Windows
 Los usarios de Windows pueden usar el adminstratdor de paquetes [Chocolately](https://chocolatey.org/) para instalar y mantener FFmpeg. [La Guía de Instalación de Windows de Reto Kromer](https://avpres.net/FFmpeg/install_Windows.html) proporciona toda la información necesaria para usar Chocolately o construir el _framework_ a partir del código fuente (la guía solo está disponible en inglés).
 
 ## Para usuarios de Linux
@@ -310,7 +310,7 @@ Y para el extracto de "Tierra":
 ffplay destEarth_Earth_video.mp4 -vf "split=2[m][v], [v]vectorscope=b=0.7:m=color3:g=green[v],[m][v]overlay=x=W-w:y=H-h"
 ```
 
-{% include figure.html filename="Mars_screenshot_vector.png" caption="Captura de pantalla de la ventana de FFplay con vectorscopio incorporado" %}
+{% include figure.html filename="Earth_screenshot_vector.png" caption="Captura de pantalla de la ventana de FFplay con vectorscopio incorporado" %}
 
 También podemos ajustar este comando para escribir nuevos archivos de vídeo con vectorscopios:
 
