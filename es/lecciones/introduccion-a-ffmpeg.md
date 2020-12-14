@@ -25,7 +25,7 @@ activity: analyzing
 topics: [data-manipulation]
 abstract: Esta lección introduce las funciones básicas de FFmpeg, una herramienta libre de línea de comandos utilizada para manipular y analizar materiales audiovisuales.
 avatar_alt: Una cámara antigua
-doi:
+doi: 10.46430/phes0049
 layout: lesson
 ---
 
