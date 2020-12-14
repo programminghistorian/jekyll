@@ -19,6 +19,7 @@ abstract: |
 redirect_from: /lessons/correspondence-analysis-in-R
 avatar_alt: Diagram of a cube with labeled edges
 doi: 10.46430/phen0062
+mathjax: true
 ---
 
 Correspondence analysis (CA) produces a two or three dimensional plot based on relationships among two or more categories of data. These categories could be "members and clubs," "words and books" or "countries and trade agreements." For example, one club member could correspond to another club member based on the shared clubs that they belong to. Members who attend the same clubs probably have more in common than those who attend different clubs. In the same vein, clubs that share members are also likely to have more in common than clubs with different members.
@@ -454,13 +455,9 @@ Another important score is visible on the CA graph - the percentage of explanato
 
 [^trade]: I would not mean to suggest that this analysis is in any way conclusive about US-Russia trade ties. The point is that because Russia is not part of the TPP in this agreement, it separates from the US. On the other hand, if membership to the TPP could be proven to represent strained ties between US-Russia, it would show up on the CA graph.
 
-[^factoextra]: Alboukadel Kassambara and Fabian Mundt (2017). factoextra: Extract and Visualize the
-Results of Multivariate Data Analyses. R package version 1.0.4.
-<https://CRAN.R-project.org/package=factoextra>
+[^factoextra]: Alboukadel Kassambara and Fabian Mundt (2017). factoextra: Extract and Visualize the Results of Multivariate Data Analyses. R package version 1.0.4. <https://CRAN.R-project.org/package=factoextra>
 
-[^factominer]: Sebastien Le, Julie Josse, Francois Husson (2008). FactoMineR: An R Package for
-Multivariate Analysis. Journal of Statistical Software, 25(1), 1-18.
-[10.18637/jss.v025.i01](https://doi.org/10.18637/jss.v025.i01)
+[^factominer]: Sebastien Le, Julie Josse, Francois Husson (2008). FactoMineR: An R Package for Multivariate Analysis. Journal of Statistical Software, 25(1), 1-18. [10.18637/jss.v025.i01](https://doi.org/10.18637/jss.v025.i01)
 
 [^explantory]: _Explanatory value_ refers to the distance of the data points away from the centre of the graph. Each dimension will account for some of the distance the data points diverge from the centre.
 
