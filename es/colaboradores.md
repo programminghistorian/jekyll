@@ -54,6 +54,7 @@ En particular, agradecemos la contribución de los siguientes suscriptores de Pa
 - Mark Edwin Peterson
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
+- Dimitra Koutla
 
 ## Administración de donaciones y patrocinios
 
