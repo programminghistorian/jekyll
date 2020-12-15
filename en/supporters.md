@@ -53,6 +53,7 @@ We also publicly thank all of our 'Patron' supporters:
 - Mark Edwin Peterson
 - Nickoal Eichmann-Kalwara
 - Bruno Magalhães
+- Dimitra Koutla
 
 ## Management of Donations and Sponsorship
 
