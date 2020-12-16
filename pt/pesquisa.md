@@ -28,6 +28,7 @@ A equipe do projeto e membros da comunidade em geral estão envolvidos em vária
 * Penny Andrews and the Programming Historian, ['The Programming Historian: developing and sustaining impact in the Global South'](https://zenodo.org/record/3813763#.XvoVqShKhPY) (2020).
 
 ## Workshops & Eventos
+* Joshua Ortiz Baco, Daniel Alves, Jimmy Medeiros, Luis Ferla, '[Programming Historian em português](https://www.youtube.com/watch?v=bt-OaMW2Fr4)' in _I Jornada Nacional de Humanidades Digitais_, IBICT (13 October 2020).
 * Adam Crymble, 'Python for Humanists', University of London, United Kingdom (31 October 2019).
 * Víctor Gayol, 'Introducción a la Historia Digital - The Programming Historian en español', Maestría en Estudios históricos Interdisciplinarios, División de Ciencias Sociales y Humanidades, Universidad de Guanajuato, México (1-5 October 2018).
 * Adam Crymble, Maria José Afanador Llach, José Antonio Motilla, '[Digital Humanities Skills for Latin American Scholarship](https://zenodo.org/record/1473414)', Universidad de los Andes, Bogotá, Colombia (1-3 August 2018) - funded by the British Academy.
