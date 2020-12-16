@@ -9,7 +9,7 @@ original: research
 El equipo del proyecto y los miembros de la comunidad en general están involucrados en una serie de iniciativas académicas relacionadas con nuestro trabajo aquí en *The Programming Historian*. Estas iniciativas incluyen eventos, artículos en revistas académicas, reseñas (de nosotros por la comunidad) y carteles. Si tú estás desarrollando una investigación académica usando los materiales de este proyecto, por favor contacta con nuestra Jefa de redacción {% include managing-editor.html lang=page.lang %}.
 
 ### Reseñas
-* Björn Ekström, Elisa Tattersall Wallin and Hana Marčetić, '[_Programming Historian_: Novice-friendly tutorials on digital methods](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1508542&dswid=7551)', _Tidskrift för ABM_, Vol. 5, no 1, pp. 71-75.
+* Björn Ekström, Elisa Tattersall Wallin and Hana Marčetić, '[_Programming Historian_: Novice-friendly tutorials on digital methods](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1508542&dswid=7551)', _Tidskrift för ABM_, Vol. 5, no 1 (2020), pp. 71-75.
 * Dries Daems, '[A Review and Roadmap of Online Learning Platforms and Tutorials in Digital Archaeology](https://doi.org/10.1017/aap.2019.47)', _Advances in Archaeological Practice_, vol. 8, issue 1 (2020),  pp. 87-92.
 * Priscila Pilatowsky Goñi, '[Reseña a The programming historian](http://revistas.uned.es/index.php/RHD/article/view/22420)', _Revista de Humanidades Digitales_, vol. 2 (2018).
 * Lincoln Mullen, '[Review of the Programming Historian]', *The Journal of American History*, vol. 103, no. 1 (2016), pp. 299-301.
