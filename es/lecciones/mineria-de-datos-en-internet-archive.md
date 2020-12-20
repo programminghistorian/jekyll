@@ -431,6 +431,6 @@ Desde luego, para que esta técnica sea útil se requiere hacer algo de [limpiez
 [algunas funciones que provee para trabajar con archivos MARC XML]: https://github.com/edsu/pymarc/blob/master/pymarc/marcxml.py
 [Contar frecuencias]: /es/lecciones/contar-frecuencias
 [lección de introducción a Google Maps]: /lessons/googlemaps-googleearth
-[nube de palabras en Wordle]: http://www.wordle.net/
+[nube de palabras en Wordle]: https://web.archive.org/web/20201205135940/http://www.wordle.net/
 [limpieza de tus datos]: /lessons/cleaning-ocrd-text-with-regular-expressions
 [Instalar módulos de Python con pip]: /es/lecciones/instalar-modulos-python-pip

@@ -55,7 +55,7 @@ If you are using the _Programming Historian_ in interesting ways, we'd love to h
 * Andrew M Shocket, '[Intro to DH (ACS 6820)](http://intro-dh-2014.andyschocket.net/syllabus/)', Bowling Green State University, USA (Spring 2014).
 * Jeff McClurken, '[Adventures in Digital History (HIST 428)](http://dh2014.umwblogs.org/syllabus/)', University of Mary Washington, USA (Spring 2014).
 * Jennifer Guiliano, '[Making/Building Digital History](http://devdh.org/files/downloads/Guiliano_Digital_History_Syllabus_Fall2014_IUPUI.pdf)', Indiana University-Purdue University Indianapolis, USA (Autumn 2014).
-* Andrew J. Torget, '[Introtudction to Digital Scholarship (HIST 5100)](http://torget.us/HIST5100/syllabus/)', University of North Texas, USA (Spring 2014).
+* Andrew J. Torget, '[Introduction to Digital Scholarship (HIST 5100)](https://web.archive.org/web/20200919093522/http://torget.us/HIST5100/syllabus/)', University of North Texas, USA (Spring 2014).
 * Anne Mitchell Whisnant, 'Introduction to Public History (History 671) (formerly available from: http://publichistory.web.unc.edu/syllabus/)', UNC-Chapel Hill, USA (Autumn 2014).
 * Ian Milligan, '[Digital History (HIST 303)](https://ianmilli.files.wordpress.com/2014/01/w2014-hist-303.pdf)', University of Waterloo, Canada (Winter 2014).
 
