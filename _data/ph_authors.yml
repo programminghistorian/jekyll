@@ -148,8 +148,9 @@
   email: vgayol@colmich.edu.mx
   twitter: victor_gayol
   github: vgayolrs
-  team: true
+  team: false
   team_start: 2016
+  team_end: 2020
   institution: El Colegio de Michoacán
   sortname: Gayol
   orcid: 0000-0002-2442-3193
@@ -182,8 +183,9 @@
   email: rojas.castro.antonio@gmail.com
   twitter: RojasCastroA
   github: arojascastro
-  team: true
+  team: false
   team_start: 2016
+  team_end: 2020
   institution: Berlin-Brandenburgische Akademie der Wissenschaften
   sortname: Rojas Castro
   orcid: 0000-0002-8916-4997
@@ -1188,8 +1190,9 @@
   twitter: fdlaramee
   url: "http://www.francoisdominiclaramee.com"
   email: fdl@francoisdominiclaramee.com
-  team: true
+  team: false
   team_start: 2018
+  team_end: 2020
   sortname: Laramée
   orcid: 0000-0001-5542-3754
   institution: University of Ottawa
