@@ -95,9 +95,9 @@ We will miss Matt, Víctor, François Dominic and Antonio dearly, and we extend 
 
 ## Programming Historian en português
 
-E por último, mas não menos importante, um grupo de humanistas digitais do Brasil e de Portugal traduziu a interface da revista e começará a publicar as lições em breve. Esta é uma grande realização para a comunidade de HD e continua nossos esforços para internacionalizar nossas aulas tanto quanto possível.
+E por último, mas não menos importante, um grupo de humanistas digitais do Brasil e de Portugal traduziu a interface da revista e começará a publicar as lições em breve. Esta é uma grande realização para a comunidade de HD e continua os nossos esforços para internacionalizar as nossas lições tanto quanto possível.
 
-A equipe apresentou e discutiu o impacto da revista em mesa redonda online durante o "I Jornada Nacional de Humanidades Digitais" organizado pelo IBICT, Brasil, no dia 13 de outubro. Convidamos você a assistir [ao vídeo arquivado da sessão](https://www.youtube.com/watch?v=bt-OaMW2Fr4) e a entrar em contato com o editor-chefe Daniel Alves si quieres participar en el proyecto.
+A equipe apresentou e discutiu o impacto da revista numa mesa redonda online durante a "I Jornada Nacional de Humanidades Digitais" organizada pelo IBICT, Brasil, no dia 13 de outubro. Convidamos todos(as) a assistir [ao vídeo da sessão](https://www.youtube.com/watch?v=bt-OaMW2Fr4) e a entrar em contato com o editor-chefe Daniel Alves se quiserem participar no projeto.
 
 <img src="/images/blog/ph-pt.png" alt="Logo for Programming Historian in portuguese." title="PH em português"/>
 
