@@ -13,7 +13,7 @@ editors: Anna-Maria Sichani
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/285
 difficulty: 2
 activity: transforming
-topics: data manipulation
+topics: [data-manipulation]
 abstract: This lesson covers how to convert images of text into text files and translate those text files. The lesson will also cover how to organize and edit images to make the conversion and translation of whole folders of text files easier and more accurate. The lesson concludes with a discussion of the shortcomings of automated translation and how to overcome them.
 avatar_alt: An image of a tree with the Latin phrase Labor Omnia Vincit Improbus
 doi: 10.46430/phen0091
