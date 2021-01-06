@@ -5,7 +5,7 @@ layout: lesson
 slug: OCR-and-Machine-Translation
 date: 2021-01-06
 authors: 
--Andrew Akhlaghi
+- Andrew Akhlaghi
 reviewers: 
 - Clemens Neudecker
 - Gustavo Candela
