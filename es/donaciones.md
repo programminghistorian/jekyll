@@ -4,15 +4,15 @@ title: Colaboradores Individuales
 redirect_from: /donaciones
 ---
 
-# Colaboradores Individuales
+# Colaboradores individuales
 
 <img src="{{site.baseurl}}/images/supporters-individual.png" class="garnish rounded float-left" />
 
-Thank you for your interest supporting *Programming Historian*. Individual donors are vital for enabling our continued work, and for helping us to keep our content free to readers around the world. With one in three of our readers living in low and middle income countries, you're also helping to level the playing field, ensuring everyone is empowered to master technology and put it to good use, no matter where they live.
+Gracias por tu interés en apoyar *Programming Historian*. Las donaciones individuales son vitales para permitirnos continuar nuestro trabajo y nos ayudan a poder continuar dando accesso gratuito a nuestros contenidos a quienes nos leen alrededor del mundo. Dado que uno de cada tres de nuestros lectores vive en países de ingresos bajos o medios, también estás ayudando a establecer un sistema más equitativo, asegurando que todos puedan dominar la tecnología y darle un buen uso, sin importar dónde vivan.
 
-Your support directly enables the infrastructure that keeps our publications together. That means our volunteers can devote their time to maintaining our growing suite of lessons, and ensuring that new lessons are built to stand the test of time.
+Tu colaboración apoya directamente la infrastructura que de nuestras publicaciones. Esto significa que nuestros voluntarios pueden usar su tiempo para mantener nuestro creciente conjunto de lecciones y garantiza que las nuevas lecciones se construyan para resistir la prueba del tiempo.
 
-# Ongoing Support
+# Apoyo continuo
 
 <div class="alert alert-info">
 <div class="float-left">
@@ -21,17 +21,16 @@ Your support directly enables the infrastructure that keeps our publications tog
   <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
 </svg>
 </div>
-For $1, $5, or $15 per month, you can join our growing list of individual <a href="https://www.patreon.com/join/theprogramminghistorian">Patreon</a> sponsors. By joining our Patreon supporters you enable our team to plan for the future and to grow our suite of digital humanities and digital skills publications. 
-
+Por 5, 10 o 15 dólares al mes, puedes unirte a la lista de patrocinadores individuales en <a href="https://www.patreon.com/join/theprogramminghistorian">Patreon</a>. Al unirte a Patreon permites a nuestro equipo planificar hacia el futuro y ampliar nuestro conjunto de lecciones sobre humanidades digitales y habilidades digitales.
 <p>&nbsp;</p>
 <p><a href="https://www.patreon.com/theprogramminghistorian"><img src="{{site.baseurl}}/images/patreonbutton.png" alt="Support us on Patreon button" class="mx-auto d-block" /></a></p>
 	
 </div>
 
-# Single Donations
+# Donaciones puntuales
 
-Donaciones únicas a Programming Historian en Español por [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), transferencia bancaria (número de cuenta de Lloyds Bank 55263268, código bancario 30-96-26) o con un cheque a nombre de “ProgHist Ltd” enviado a la dirección: ‘Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH’. En caso de donativos por transferencia bancaria o cheque, solicitamos que envíes un correo <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> para que nos cuentes sobre ti y por qué decidiste apoyar nuestro trabajo.
+Puedes hacer donaciones puntuales a *Programming Historian en español* por [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), transferencia bancaria (número de cuenta de Lloyds Bank 55263268, código bancario 30-96-26) o con un cheque a nombre de “ProgHist Ltd” enviado a la dirección: ‘Dr James Baker, Arts A135, University of Sussex, United Kingdom, BN1 9RH’. En caso de donativos por transferencia bancaria o cheque, solicitamos que envíes un correo <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> para que nos cuentes sobre ti y por qué decidiste apoyar nuestro trabajo.
 
-# Programa de Instituciones Asociadas
+# Apoyo institucional
 
-If you work for an organisation that would be interested in contributing to *Programming Historian's* success, please direct them to our [Programa de Instituciones Asociadas](pia), which provides crucial support to our work.
+Si trabajas para una organización interesada en contribuir al éxito de *Programming Historian*, visita nuestra página del [Programa de Instituciones Asociadas](pia), que provee un apoyo crucial a nuestro trabajo. 
