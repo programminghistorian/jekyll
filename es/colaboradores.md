@@ -4,14 +4,14 @@ title: Nuestras Colaboradores
 redirect_from: /colaboradores
 ---
 
-# Nuestras Colaboradores
+# Nuestros colaboradores
 
-*The Programming Historian en español* is grateful to our past and current supporters for enabling us to bring these resources to the world, free at the point of access to readers everywhere.
+*The Programming Historian en español* agradece su apoyo a nuestros seguidores pasados y actuales por permitirnos ofrecer estos recursos al mundo, de forma gratuita en el punto de acceso a los lectores en cualquier lugar.
 
 
-## Asociadas Instituciones
+## Instituciones asociadas
 
-Contributers to our [Programa de Instituciones Asociadas](pia).
+Contribuidores en nuestro [Programa de Instituciones Asociadas](pia).
 
 - [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Bélgica
 - [Institute of Historical Research Wohl Library](https://www.history.ac.uk/library), Reino Unido
@@ -21,11 +21,11 @@ Contributers to our [Programa de Instituciones Asociadas](pia).
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido
 - [Corporation for Digital Scholarship](https://digitalscholar.org/), Estados Unidos
 
-We welcome enquiries from prospective [Programa de Instituciones Asociadas](pia) contributors.
+Agradecemos consultas de posibles contribuidores del [Programa de Instituciones Asociadas](pia).
 
-## Colaboradores Adicionales
+## Colaboradores adicionales
 
-Organizations that have or continue to give support ranging from in kind services, to project-specific funding.
+Organizaciones que han o continúan brindando apoyo en forma de contribución en especie hasta financiamiento específico para proyectos.
 
 - University of Sussex, Reino Unido:
     - University of Sussex Library [2020-Presente]
@@ -36,9 +36,9 @@ Organizations that have or continue to give support ranging from in kind service
 - dSHARP lab at Carnegie Mellon University patrocinado por the Andrew W. Mellon Foundation, Estados Unidos [2018-2020].
 - The Network in Canadian History & Environment, Canadá [2011-2013].
 
-## Colaboradores Individuales
+## Colaboradores individuales
 
-We are grateful to our many dozens of individual sponsors who contribute through [Patreon](https://www.patreon.com/theprogramminghistorian) or [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url) donations. We particularly want to acknowledge our founding Patreon subscribers at each tier level:
+Estamos muy agradecidos a todos los patrocinadores individuales que contribuyen al proyecto con donaciones en [Patreon](https://www.patreon.com/theprogramminghistorian) o [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url). Nos gustaría reconocer especialmente a quienes inauguraron cada uno de los niveles en Patreon:
 
 - Rachel Murphy ('Subscriptor')
 - Miriam Posner ('Sponsor')
