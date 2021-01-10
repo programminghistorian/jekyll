@@ -50,7 +50,7 @@ Ahora pulsa en el más reciente "commit" para la lección:
 
 ![](https://cloud.githubusercontent.com/assets/1126864/4781629/901b4330-5cb2-11e4-9bc9-d211daa5e987.png)
 
-Después, para comentar en una línea, coloca el cursor sobre el número de una línea y un signo azul de suma (+) aparecerá; pulsando en éste va a abrir una caja de comentarios para esa línea en particular. La línea que necesita arreglarse se puede ocultar; si es así, pulsa en el botón de expandir para mostrar las líneas ocultas.
+Después, para comentar en una línea, coloca el cursor sobre el número de una línea y un signo azul de suma (+) aparecerá; pulsando en este va a abrir una caja de comentarios para esa línea en particular. La línea que necesita arreglarse se puede ocultar; si es así, pulsa en el botón de expandir para mostrar las líneas ocultas.
 
 ![](https://cloud.githubusercontent.com/assets/1126864/4781633/27b780b4-5cb3-11e4-81aa-0ed217b94a2f.png)
 
