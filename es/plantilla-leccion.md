@@ -47,7 +47,7 @@ Dar formato en Markdown:
 `código o nombres de archivos`
 
 ### Enlaces
-Si quieres incluir enlaces a la página de Programming Historian (por ejemplo, para mencionar otras lecciones), debes utilizar enlaces relativos, es decir, no incluir la primera partee de la url (https://programminghistorian.org/). Por ejemplo: [Análisis de corpus con Voyant Tools](/es/lecciones/analisis-voyant-tools)
+Si quieres incluir enlaces a la página de Programming Historian (por ejemplo, para mencionar otras lecciones), debes utilizar enlaces relativos, es decir, no incluir la primera partee de la url: programminghistorian.org/. Por ejemplo: [Análisis de corpus con Voyant Tools](/es/lecciones/analisis-voyant-tools)
 
 ### Imágenes
 
