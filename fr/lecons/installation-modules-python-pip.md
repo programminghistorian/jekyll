@@ -17,7 +17,7 @@ translation-editor:
 - Sofia Papastamkou
 difficulty: 1
 activity: acquiring
-topics: [get-ready, Python]
+topics: [get-ready, python]
 abstract: "Il existe de nombreuses manières d'installer des bibliothèques Python externes; cette leçon explique l'une des méthodes les plus courantes utilisant pip."
 exclude_from_check:
   - editors
