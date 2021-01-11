@@ -8,7 +8,7 @@ reviewers:
 - Ben Hurwitz
 - Amanda Morton
 date: 2013-05-06
-translation_date: 2020-12-05
+translation_date: 2021-01-06
 translator: 
 - Lucas Terriel
 translation-reviewer: 
@@ -24,7 +24,7 @@ exclude_from_check:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/320
 original: installing-python-modules-pip
 avatar_alt: Branche avec poires
-doi: 
+doi: 10.46430/phfr0015
 ---
 
 
