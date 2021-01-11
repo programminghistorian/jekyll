@@ -95,7 +95,7 @@ $ pip install requests
 $ pip install beautifulsoup4
 $ pip install simplekml
 ```
-*(Note du traducteur: Le gestionnaire pip crée des liens logiques vers les versions de Python. En effet, si votre ordinateur inclut initialement la version 2.x de Python, la commande `pip` pointera alors sur cette version de Python. En revanche, si vous décidez d'installer Python en version 3.x en plus de Python 2.x, il vous faudra très certainnement utiliser la  commande `pip3` dans votre terminal et non plus `pip` pour installer des bibliothèques pour Python 3.x. Afin de connaitre quelle version de Python vous utilisez avec la commande `pip`, lancer dans le terminal la commande `pip -V` ou `pip --version`*
+*(Note du traducteur: Le gestionnaire pip crée des liens logiques vers les versions de Python. En effet, si votre ordinateur inclut initialement la version 2.x de Python, la commande `pip` pointera alors sur cette version de Python. En revanche, si vous décidez d'installer Python en version 3.x en plus de Python 2.x, il vous faudra très certainnement utiliser la  commande `pip3` dans votre terminal et non plus `pip` pour installer des bibliothèques pour Python 3.x. Afin de connaitre quelle version de Python vous utilisez avec la commande `pip`, il suffit de lancer dans le terminal la commande `pip -V` ou `pip --version`).*
 
 N'oubliez pas, pour les mêmes raisons expliquées ci-dessus (sous les distributions Mac ou Linux, mais pas sous Windows), vous devrez peut-être exécuter `pip` avec `sudo`, comme suit :
 
