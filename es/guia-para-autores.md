@@ -1,5 +1,5 @@
 ---
-title: Guía para autores y traductores
+title: Guía para autores
 layout: blank
 redirect_from:
  - /new-lesson-workflow
